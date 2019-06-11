@@ -1,23 +1,45 @@
-﻿---
-title: 'Lync Server 2013: Suporte a software e à infraestrutura de servidor'
-TOCTitle: Suporte a software e à infraestrutura de servidor
-ms:assetid: 4ee5fe38-0191-4710-9aa2-df8895e8c51b
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398319(v=OCS.15)
-ms:contentKeyID: 49306674
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Suporte a software e à infraestrutura de servidor'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Server software and infrastructure support
+ms:assetid: 4ee5fe38-0191-4710-9aa2-df8895e8c51b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398319(v=OCS.15)
+ms:contentKeyID: 48184127
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8e3df5a7c37c1b03cd5ce838721b6ef00fad9547
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34821982"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Suporte a software e à infraestrutura de servidor no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-06-29_
+# <a name="server-software-and-infrastructure-support-in-lync-server-2013"></a>Suporte a software e à infraestrutura de servidor no Lync Server 2013
 
-O suporte a software para componentes de servidor, incluindo todas as funções de servidor e o armazenamento do Lync Server 2013, inclui sistemas operacionais com suporte, software de banco de dados, software de infraestrutura e outros softwares necessários para dar suporte à funcionalidade específica. Também inclui a virtualização de componentes de servidor.
+</div>
 
-## Nesta seção
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-06-29_
+
+Suporte de software para componentes de servidor, incluindo todas as funções de servidor e armazenamento do Lync Server 2013, inclui sistemas operacionais compatíveis, software de banco de dados, software de infraestrutura e outros softwares necessários para dar suporte a funcionalidades específicas. Ele também inclui a virtualização dos componentes do servidor.
+
+<div>
+
+## <a name="in-this-section"></a>Nesta seção
 
   - [Suporte a sistemas operacionais de servidor e de ferramentas no Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md)
 
@@ -42,4 +64,16 @@ O suporte a software para componentes de servidor, incluindo todas as funções 
   - [Suporte à voz no Lync Server 2013](lync-server-2013-voice-support.md)
 
   - [Suporte à virtualização no Lync Server 2013](lync-server-2013-virtualization-support.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

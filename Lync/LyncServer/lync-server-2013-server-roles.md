@@ -1,27 +1,47 @@
-﻿---
-title: 'Lync Server 2013: Funções do servidor'
-TOCTitle: Funções do servidor
-ms:assetid: 7137fc06-fca2-4e5f-9db5-10c7c29a788c
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398536(v=OCS.15)
-ms:contentKeyID: 49307074
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Funções do servidor'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Server roles
+ms:assetid: 7137fc06-fca2-4e5f-9db5-10c7c29a788c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398536(v=OCS.15)
+ms:contentKeyID: 48184456
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 35b8c5b052defcdc1d60ef9900c283f9f50b3809
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822220"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Funções do servidor no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-10-07_
+# <a name="server-roles-in-lync-server-2013"></a>Funções do servidor no Lync Server 2013
 
-Cada servidor que executa o Lync Server executa uma ou mais *funções de servidor* . A função de servidor é um conjunto definido de funcionalidades do Lync Server oferecidas por esse servidor. Você não precisa implantar todas as funções de servidor disponíveis na sua rede. Instale somente as funções com a funcionalidade desejada.
+</div>
 
-Mesmo se você não estiver familiarizado com as funções de servidor em Lync Server, o Ferramenta de Planejamento poderá orientá-lo para a melhor solução para os servidores que você precisa implantar, com base nos recursos que você deseja. Esta seção fornece uma visão geral sobre as funções de servidor e os recursos gerais que eles fornecem:
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-10-07_
+
+Cada servidor que executa o Lync Server executa uma ou mais *funções de servidor*. Uma função de servidor é um conjunto definido de funcionalidades do Lync Server fornecidas pelo servidor. Você não precisa implantar todas as funções de servidor disponíveis em sua rede. Instale somente as funções que contêm a funcionalidade desejada.
+
+Mesmo que você não esteja familiarizado com funções de servidor no Lync Server, a ferramenta de planejamento pode orientá-lo na melhor solução para os servidores que você precisa implantar, com base nos recursos desejados. Esta seção fornece uma breve visão geral das funções de servidor e os recursos gerais que elas fornecem:
 
   - Servidor Standard Edition
 
-  - Servidor de front-end e Servidor de back-end
+  - Servidor Front-End e Servidor Back-End
 
   - Servidor de Borda
 
@@ -31,109 +51,159 @@ Mesmo se você não estiver familiarizado com as funções de servidor em Lync S
 
   - Servidor de front-end de bate-papo persistente
 
-  - Repositório de chats persistentes (servidor back-end de chats persistentes)
+  - Repositório de chat persistente (servidor persistente de back-end de chat)
 
-  - Repositório de conformidade de chats persistentes (servidor back-end de conformidade de chats persistentes)
+  - Repositório de conformidade de chat persistente (servidor back-end de conformidade de chat persistente)
 
-Na maioria das funções de servidor, para escalabilidade e alta disponibilidade você pode implantar *pools* de vários servidores, todos executando a mesma função de servidor. Cada servidor em um pool deve executar uma função ou funções de servidor. Para a maioria dos tipos de pools no Lync Server, você deve implantar um balanceador de carga para difundir o tráfego entre os diversos servidores no pool. O Lync Server oferece suporte a balanceamento de carga DNS (sistema de nomes de domínio) e balanceadores de carga de hardware.
+Na maioria das funções de servidor, para fins de escalabilidade e alta disponibilidade, você pode implantar *pools* de vários servidores, todos executando a mesma função. Cada servidor de um pool deve executar funções idênticas de servidor. Para a maioria dos tipos de pools no Lync Server, você deve implantar um balanceador de carga para espalhar o tráfego entre os vários servidores do pool. O Lync Server dá suporte ao balanceamento de carga do sistema de nomes de domínio (DNS) e ao equilíbrio de carga de hardware.
 
-## Servidor Standard Edition
+<div>
 
-O servidor Standard Edition foi projetado para pequenas empresas e para projetos piloto de grandes organizações. Permite muitos dos recursos do Lync Server, incluindo os bancos de dados necessários para ser executado em um único servidor. Isso permite que você tenha a funcionalidade do Lync Server a um custo menor, mas não oferece uma verdadeira solução de alta disponibilidade.
+## <a name="standard-edition-server"></a>Servidor Standard Edition
 
-O servidor Standard Edition permite que você use mensagens instantâneas (IM), presença, conferência e Enterprise Voice, todos executados em um único servidor.
+O servidor Standard Edition foi projetado para pequenas organizações e para projetos pilotos de organizações de grande porte. Ele permite que muitos dos recursos do Lync Server, incluindo os bancos de dados necessários, sejam executados em um único servidor. Isso permite que você tenha a funcionalidade do Lync Server por um custo menor, mas não oferece uma solução de alta disponibilidade real.
 
-Para uma solução de alta disponibilidade, use Lync Server Enterprise Edition.
+O servidor Standard Edition permite que você use mensagens instantâneas (IM), presença, conferência e Enterprise Voice, tudo em execução em um servidor.
 
-## Servidor de front-end e Servidor de back-end
+Para uma solução de alta disponibilidade, use o Lync Server Enterprise Edition.
 
-No Lync Server Enterprise Edition, o servidor Front End é a função núcleo do servidor e executa muitas funções básicas do Lync Server. O servidor Front End, juntamente com os servidores Back-End que fornecem o banco de dados, são as únicas funções de servidor necessárias para qualquer implantação do Lync Server Enterprise Edition.
+</div>
 
-Um *pool de Front-Ends* é um conjunto de servidores Front-End, configurados de forma idêntica, que trabalham juntos para fornecer serviços a um grupo de usuários comuns. Um pool de vários servidores executando a mesma função fornece a capacidade de escalabilidade e failover.
+<div>
 
-O servidor Front-End inclui:
+## <a name="front-end-server-and-back-end-server"></a>Servidor Front-End e Servidor Back-End
 
-  - Registro e autenticação de usuário
+No Lync Server Enterprise Edition, o servidor front-end é a função básica do servidor e executa muitas funções básicas do Lync Server. O servidor front-end, juntamente com os servidores de back-end, são as únicas funções de servidor necessárias para a implantação do Lync Server Enterprise Edition.
 
-  - Informações de presença e troca do cartão contato
+Um *pool de front-ends* é um conjunto de servidores front-end configurados de maneira idêntica, que funcionam em conjunto para fornecer serviços para um grupo comum de usuários. Um pool de vários servidores que executa a mesma função fornece escalabilidade e o recurso de failover.
 
-  - Serviços de catálogo de endereço e expansão de lista de distribuição
+O servidor front-end inclui o seguinte:
+
+  - Autenticação e registro de usuários
+
+  - Informações de presença e troca de cartão de contato
+
+  - Expansão de serviços de catálogo de endereços e lista de distribuição
 
   - Funcionalidade de mensagens instantâneas, incluindo conferências de mensagens instantâneas com vários participantes
 
-  - Webconferências, conferências de discagem PSTN e conferências A/V (se implantadas)
+  - Conferência via Web, conferência discada de PSTN e conferência A/V (se implantada)
 
-  - Hospedagem de aplicativos, tanto para aplicativos incluídos com Lync Server (por exemplo, o Atendedor de conferência e Aplicativo Grupo de Resposta) e aplicativos de terceiros
+  - Hospedagem de aplicativos, para os dois aplicativos incluídos no Lync Server (por exemplo, o atendedor de conferência e o aplicativo de grupo de resposta) e aplicativos de terceiros
 
-  - Opcionalmente, Monitoramento para coletar informações de uso na forma de CDRs (registros de detalhes de chamada) e CERs (registros de erros de chamada). Essas informações fornecem métricas sobre a qualidade da mídia (áudio e vídeo) que atravessa sua rede para chamadas e conferências A/V do Enterprise Voice.
+  - Opcionalmente, Monitoramento, para coleta de informações de uso na forma de registros de detalhes das chamadas (CDRs) e registros de erros das chamadas (CERs). Essas informações fornecem métricas sobre a qualidade da mídia (áudio e vídeo) que atravessa a sua rede para chamadas de voz corporativa e conferências A/V.
 
-  - Componentes da Web para tarefas compatíveis com base na Web, como agendador da Web e iniciador de ingresso.
+  - Componentes da Web para tarefas com suporte baseadas na Web, como agendador da Web e iniciador de ingresso.
 
-  - Opcionalmente, Arquivamento para arquivar comunicações de mensagens instantâneas e conteúdo de reunião por motivos de conformidade. Para obter detalhes, consulte [Planejando Arquivamento no Lync Server 2013](lync-server-2013-planning-for-archiving.md) na documentação de planejamento.
+  - Opcionalmente, Arquivamento, para arquivar o conteúdo de reuniões e comunicações de IM por motivos de conformidade. Para obter detalhes, consulte [planejando o arquivamento no Lync Server 2013](lync-server-2013-planning-for-archiving.md) na documentação de planejamento.
     
-    No Lync Server 2010 e versões anteriores, Monitoramento e Arquivamento eram funções de servidor separadas, não alocadas no servidor front-end.
+    No Lync Server 2010 e em versões anteriores, o monitoramento e o arquivamento eram funções de servidor separadas, não posicionadas no servidor front-end.
 
-  - Opcionalmente, e o chat persistente estiver habilitado, serviços Web de chat persistente para gerenciamento de salas de chat e serviços Web de chat persistente para upload/download de arquivos.
+  - Opcionalmente, se o chat Persistente estiver habilitado, Serviços Web de Chat Persistente para Gerenciamento de Salas de Chat e Serviços Web de Chat Persistente para Upload/Download de Arquivos.
 
-Os pools front-end também são o repositórios principal de dados de usuários e conferências. As informações sobre cada usuário são replicadas em três servidores front-end no pool, e o backup delas é realizado nos servidores back-end.
+Os Pools de Front-Ends também são o repositório principal de dados de usuários e conferências. As informações sobre cada usuário são replicadas em três Servidores Front-End do pool, e o seu backup é realizado nos Servidores Back-End.
 
-Além disso, um pool de Front-Ends na implantação também executa o *Servidor de gerenciamento Central* , que gerencia e implanta os dados de configuração básica em todos os servidores que executam o Lync Server. O Servidor de Gerenciamento Central também oferece o Shell de Gerenciamento do Lync Server e os recursos de transferência de arquivo.
+Além disso, um pool de front-end na implantação também executa o *servidor central de gerenciamento*, que gerencia e implanta dados de configuração básica em todos os servidores que executam o Lync Server. O servidor central de gerenciamento também oferece recursos de shell e transferência de arquivos do Lync Server Management.
 
-Os servidores back-end são servidores de banco de dados que executam o Microsoft SQL Server. Eles fornecem os serviços de bancos de dados ao pool front-end. Os servidores back-end atuam como repositórios de backup dos dados de usuários e conferências do pool e são os repositórios principais de outros bancos de dados, como o banco de dados Grupo de Resposta. Você pode ter um único servidor back-end, mas uma solução que usa o espelhamento SQL Server é recomendada para failover. Os servidores back-end não executam softwares do Lync Server.
+Os servidores de back-end são servidores de banco de dados executando o Microsoft SQL Server que fornecem os serviços de banco de dados para o pool de front-ends. Eles servem como repositórios de backup para os dados de conferências e de usuários do pool; além disso, eles são os repositórios principais para outros bancos de dados, como o banco de dados de Grupo de Resposta. Você pode ter um único servidor back-end, mas uma solução que usa o espelhamento do SQL Server é recomendada para failover. Os servidores back-end não executam qualquer software do Lync Server.
+
+<div>
+
 
 > [!IMPORTANT]  
-> Não recomendamos colocar bancos de dados do Lync Server com outros bancos de dados. Caso contrário, a disponibilidade e o desempenho poderão ser afetados.
+> Não recomendamos a colocação de bancos de dados do Lync Server com outros bancos de dados. Se isso for feito, a disponibilidade e o desempenho poderão ser afetados.
 
-As informações armazenadas nos bancos de dados do servidor Back-End incluem informações de presença, listas de contatos dos usuários, dados de conferência, incluindo os dados persistentes sobre o estado de todas as conferências atuais e dados de agendamento de conferência.
 
-## Servidor de Borda
 
-O Servidor de Borda permite que os usuários se comuniquem e colaborem com usuários fora dos firewalls da organização. Esses usuários externos podem incluir os próprios usuários da organização que atualmente trabalham externamente, os usuários de organizações parceiras federadas e usuários externos que foram convidados para participar de conferências hospedadas em sua implantação do Lync Server O Servidor de Borda também permite a conectividade com os serviços de conectividade a redes públicas de IM, incluindo Windows Live, AOL, Yahoo\! e Google Talk.
+</div>
+
+As informações armazenadas nos bancos de dados do Servidor Back-End incluem informações de presença, listas de contatos dos usuários, dados de conferências, como dados persistentes sobre o estado de todas as conferências atuais, e dados de agendamento de conferências.
+
+</div>
+
+<div>
+
+## <a name="edge-server"></a>Servidor de Borda
+
+O servidor de borda permite que os usuários se comuniquem e colaborem com usuários de fora dos firewalls da organização. Esses usuários externos podem incluir os próprios usuários da organização que estão trabalhando externamente, usuários de organizações parceiras federadas e usuários externos que foram convidados a participar de conferências hospedadas na sua implantação do Lync Server. O Edge Server também permite a conectividade com serviços públicos de conectividade de IM, incluindo Windows Live\!, AOL, Yahoo e Google Talk.
+
+<div>
+
 
 > [!IMPORTANT]  
-> <ul>
-> <li><p>A partir de 1º de setembro de 2012, a Licença de Assinatura do Usuário para conectividade a redes públicas de IM do Microsoft Lync (&quot;PIC USL&quot;) não estará mais disponível para a compra de novos contratos ou para renovação. Os clientes com licenças ativas poderão continuar a federar com o Yahoo! Messenger até a data do encerramento do serviço. Foi anunciada a data de fim de vida útil em junho de 2014 para a AOL e o Yahoo!. Para obter detalhes, consulte <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013</a>.</p></li>
-> 
-> <li><p>A PIC USL é uma licença de assinatura por mês e por usuário que é necessária para o Lync Server ou o Office Communications Server federar com o Yahoo! Messenger. A capacidade da Microsoft de fornecer este serviço depende do suporte do Yahoo!, o contrato subjacente que está sendo encerrado.</p></li>
-> 
-> 
-> <li><p>Mais do que nunca, o Lync é uma ferramenta poderosa para a conexão entre as organizações e com pessoas de todo o mundo. A federação com o Windows Live Messenger não requer licenças de usuário/dispositivo adicionais além do CAL padrão do Lync. A federação do Skype será adicionada a esta lista, permitindo que os usuários do Lync para atinjam centenas de milhões de pessoas com mensagens instantâneas e de voz.</p></li></ul>
+> <UL>
+> <LI>
+> <P>A partir de 1º de setembro de 2012, a licença de assinatura de usuário da conectividade de mensagem de chat pública do Microsoft Lync ("PIC USL") não está mais disponível para compra de contratos novos ou de renovação. Os clientes com licenças ativas poderão continuar a federar-se com o Yahoo! Messenger até a data de encerramento do serviço. Uma data de fim da vida útil de junho de 2014 para AOL e Yahoo! foi anunciado. Para obter detalhes, consulte <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">suporte para conectividade de mensagens instantâneas públicas no Lync Server 2013</A>.</P>
+> <LI>
+> <P>O PIC USL é uma licença de assinatura por usuário por mês necessária para o Lync Server ou o Office Communications Server se federar com o Yahoo! Spam. A capacidade da Microsoft de oferecer esse serviço por meio do suporte do Yahoo!, o contrato subjacente para o qual está prestes a ser enrolado.</P>
+> <LI>
+> <P>Mais do que nunca, o Lync é uma ferramenta poderosa para a conexão entre organizações e pessoas ao redor do mundo. A Federação com o Windows Live Messenger não requer licenças de usuário/dispositivo adicionais além da CAL padrão do Lync. A Federação do Skype será adicionada a essa lista, permitindo que os usuários do Lync atinjam centenas de milhões de pessoas com mensagens instantâneas e voz.</P></LI></UL>
 
 
-A implantação do servidor de borda também habilita serviços de mobilidade, com suporte à funcionalidade do Lync em dispositivos móveis. Os usuários podem usar os dispositivos móveis Apple iOS, Android, Windows Phone ou Nokia com suporte para realizar atividades como enviar e receber mensagens instantâneas, exibir contatos e exibir presença. Além disso, os dispositivos móveis oferecem suporte a alguns recursos do Enterprise Voice, como clicar para ingressar em uma conferência, telefonar via trabalho, alcance de número único, caixa postal e chamadas perdidas. O recurso de mobilidade também oferece suporte a *notificações por push* para dispositivos móveis que não oferecem suporte a aplicativos em execução em segundo plano. Uma notificação por push é uma notificação enviada a um dispositivo móvel sobre um evento que ocorre enquanto o aplicativo móvel está inativo.
 
-Os servidores de borda também incluem um proxy XMPP completamente integrado, com um gateway XMPP incluído nos servidores front-end. Você pode configurar esses componentes XMPP para permitir que os usuários do Lync Server 2013 adicionem contatos a parceiros com base em XMPP (como Google Talk) para mensagens instantâneas e presença.
+</div>
 
-Para obter detalhes, consulte [Planejamento para acesso de usuário externo no Lync Server 2013](lync-server-2013-planning-for-external-user-access.md) na documentação de Planejamento.
+Implantar o Edge Server também permite serviços de mobilidade, que aceitam a funcionalidade do Lync em dispositivos móveis. Os usuários podem usar os dispositivos móveis Apple iOS, Android, Windows Phone ou Nokia com suporte para realizar atividades, como enviar e receber mensagens instantâneas, e exibir contatos e presença. Além disso, os dispositivos móveis dão suporte a alguns recursos de voz empresarial, como o clique para ingressar em uma conferência, fazer chamadas pelo trabalho, por um único número, por correio de voz e chamadas perdidas. O recurso de mobilidade também oferece suporte a *notificações por push* em dispositivos móveis que não aceitam aplicativos executados em segundo plano. Uma notificação por push é uma notificação enviada a um dispositivo móvel sobre um evento que ocorre enquanto o aplicativo móvel está inativo.
 
-## Servidor de Mediação
+Os Servidores de Borda também incluem um proxy XMPP (Extensible Messaging and Presence Protocol) totalmente integrado, com um gateway XMPP nos Servidores Front-End. Você pode configurar esses componentes do XMPP para permitir que os usuários do Lync Server 2013 adicionem contatos de parceiros baseados no XMPP (como Google Talk) para mensagens instantâneas e presença.
 
-O Servidor de Mediação é um componente necessário para a implementação de Enterprise Voice e conferência de discagem. O Servidor de Mediação traduz a sinalização e, em algumas configurações, a mídia entre sua infraestrutura Lync Server interna e um gateway de rede telefônica pública comutada (PSTN), IP-PBX ou um tronco de protocolo SIP. Você pode executar o Servidor de Mediação colocado no mesmo servidor do servidor front-end ou separado em um pool de Servidor de Mediação independente.
+Para obter detalhes, consulte [planejando o acesso de usuários externos no Lync Server 2013](lync-server-2013-planning-for-external-user-access.md) na documentação de planejamento.
 
-Para obter detalhes, consulte [Componente do Servidor de Mediação no Lync Server 2013](lync-server-2013-mediation-server-component.md) na documentação de Planejamento.
+</div>
 
-## Diretor
+<div>
 
-Os diretores podem autenticar solicitações de usuários do Lync Server, mas não hospedam contas de usuários nem fornecem serviços de presença ou conferência. Os diretores são mais úteis para aprimorar a segurança em implantações que permitam o acesso de usuários externos. O diretor pode autenticar solicitações antes de enviá-las a servidores internos. No caso de ataque de negação de serviço, o ataque termina no diretor e não atinge os servidores front-end. Para obter detalhes, consulte [Cenários para o Diretor no Lync Server 2013](lync-server-2013-scenarios-for-the-director.md) na documentação de planejamento.
+## <a name="mediation-server"></a>Servidor de Mediação
 
-## Funções do Servidor de Chat Persistente
+O servidor de mediação é um componente necessário para a implementação de conferência de voz e discada da empresa. O servidor de mediação traduz a sinalização e, em algumas configurações, mídia entre a infraestrutura interna do Lync Server e um gateway PSTN (rede telefônica pública comutada), IP-PBX ou um tronco SIP (Session Initiation Protocol). Você pode executar o servidor de mediação posicionado no mesmo servidor do front-end Server ou separado em um pool autônomo do servidor de mediação.
 
-O chat persistente permite que os usuários participem de conversações baseadas em tópicos com várias pessoas. Essas conversas persistem ao longo do tempo. O servidor front-end de chat persistente executa o serviço de chat persistente. O servidor back-end de chat persistente armazena os dados de histórico e as informações sobre categorias e salas de chat. O servidor back-end de conformidade de chat persistente (opcional) pode armazenar o conteúdo de chats e eventos de conformidade para fins de conformidade.
+Para obter detalhes, consulte [componente do servidor de mediação no Lync server 2013](lync-server-2013-mediation-server-component.md) na documentação de planejamento.
 
-Os servidores que executam o Lync ServerStandard Edition também podem executar o chat persistente colocado no mesmo servidor. Você não pode colocar o servidor front-end de chat persistente com o Enterprise EditionServidor Front-End.
+</div>
 
-Para obter detalhes, consulte [Planejando o Servidor de Chat Persistente no Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md).
+<div>
 
-## Consulte Também
+## <a name="director"></a>Diretor
 
-#### Conceitos
+Os diretores podem autenticar solicitações de usuário do Lync Server, mas não podem usar contas de usuário em casa nem fornecer serviços de presença ou de conferência. Eles são úteis principalmente para aumentar a segurança em implantações que permitem o acesso de usuários externos. O Diretor pode autenticar as solicitações antes de enviá-las aos servidores internos. Em caso de um ataque de negação de serviço, o ataque termina no Diretor e não atinge os servidores Front-End. Para obter detalhes, consulte [cenários do diretor do Lync Server 2013](lync-server-2013-scenarios-for-the-director.md) na documentação de planejamento.
 
-[Componente do Servidor de Mediação no Lync Server 2013](lync-server-2013-mediation-server-component.md)  
+</div>
 
-#### Outros Recursos
+<div>
+
+## <a name="persistent-chat-server-roles"></a>Funções de servidor de chat persistente
+
+O chat persistente permite que os usuários participem de conversas baseadas em tópicos com vários participantes e que persistem ao longo do tempo. O Servidor Front-End de Chat Persistente executa o serviço de chat persistente. O Servidor Back-End de Chat Persistente armazena os dados de histórico de chat, bem como as informações sobre categorias e salas de chat. O Servidor Back-End de Conformidade de Chat Persistente (opcional) pode armazenar o conteúdo de chats e eventos de conformidade para fins de conformidade.
+
+Os servidores que executam o Lync Server Standard Edition também podem executar o chat persistente posicionado no mesmo servidor. Você não pode colocar o servidor front-end do chat persistente com o servidor front-end do Enterprise Edition.
+
+Para obter detalhes, consulte [planejando o servidor de chat persistente no Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md).
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Confira também
+
+
+[Componente servidor de mediação no Lync Server 2013](lync-server-2013-mediation-server-component.md)  
+
 
 [Planejando Arquivamento no Lync Server 2013](lync-server-2013-planning-for-archiving.md)  
 [Planejamento para acesso de usuário externo no Lync Server 2013](lync-server-2013-planning-for-external-user-access.md)  
 [Cenários para o Diretor no Lync Server 2013](lync-server-2013-scenarios-for-the-director.md)  
-[Planejando o Servidor de Chat Persistente no Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md)
+[Planejando o Servidor de Chat Persistente no Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

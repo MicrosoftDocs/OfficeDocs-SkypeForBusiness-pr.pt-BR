@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: (Opcional) Verificar conferência discada'
-TOCTitle: (Opcional) Verificar conferência discada
-ms:assetid: 3e2b4220-8fb3-442f-98b1-78447adb321f
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425905(v=OCS.15)
-ms:contentKeyID: 49306477
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: (Opcional) Verificar conferência discada'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: (Optional) Verify dial-in conferencing
+ms:assetid: 3e2b4220-8fb3-442f-98b1-78447adb321f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425905(v=OCS.15)
+ms:contentKeyID: 48183941
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 70a0b18ce596e4799c82a2843b5f3a008b5cb285
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825636"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# (Opcional) Verificar conferência discada no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2011-01-21_
+# <a name="optional-verify-dial-in-conferencing-in-lync-server-2013"></a>(Opcional) Verificar conferência discada no Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2011-01-21_
 
 Para verificar se a página da Web de Configurações de Conferência Discada e os números de acesso discado funcionam corretamente, faça o seguinte:
 
@@ -21,13 +41,15 @@ Para verificar se a página da Web de Configurações de Conferência Discada e 
 
   - Teste se os números de acesso funcionam corretamente para um pool específico executando o script posteriormente neste tópico. Esse script simula chamadas para números de acesso. Você precisa do endereço SIP e das credenciais de um cliente de UC (comunicações unificadas) que esteja hospedado no pool específico para usar esse script.
 
-Essa etapa é opcional.
+Esta etapa é opcional.
 
-## Para testar os números de acesso de um pool específico
+<div>
 
-1.  Faça logon no computador como membro do grupo RTCUniversalServerAdmins ou como membro da função **Cs-ServerAdministrator** ou **CsAdministrator** .
+## <a name="to-test-access-numbers-for-a-specific-pool"></a>Para testar os números de acesso de um pool específico
 
-2.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
+1.  Faça logon no computador como membro do grupo RTCUniversalServerAdmins ou como membro da função **cs-ServerAdministrator** ou **CsAdministrator** .
+
+2.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
 
 3.  Execute o seguinte no prompt de comando:
     
@@ -37,4 +59,16 @@ Essa etapa é opcional.
         Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
     
     O relatório resultante mostra êxito ou falha, juntamente com informações de diagnóstico específicas. O sinalizador -Verbose fornece informações mais detalhadas sobre quantos números de acesso foram encontrados e detalhes sobre eles.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

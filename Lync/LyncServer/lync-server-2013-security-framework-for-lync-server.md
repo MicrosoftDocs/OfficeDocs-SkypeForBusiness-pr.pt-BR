@@ -1,25 +1,45 @@
-﻿---
-title: Security Framework do Lync Server 2013
-TOCTitle: Security Framework do Lync Server 2013
-ms:assetid: 01131e28-b38e-40d9-8524-06725b9c6608
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn481316(v=OCS.15)
-ms:contentKeyID: 59682889
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: estrutura de segurança para Lync Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Security framework for Lync Server 2013
+ms:assetid: 01131e28-b38e-40d9-8524-06725b9c6608
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481316(v=OCS.15)
+ms:contentKeyID: 59893866
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 17900e0ca9db8f9dbc1bf66a1bd65aff62d9dd62
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822073"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Security Framework do Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-11-08_
+# <a name="security-framework-for-lync-server-2013"></a>Estrutura de segurança do Lync Server 2013
 
-Esta seção oferece uma visão geral dos elementos fundamentais que compõem a estrutura de segurança para Microsoft Lync Server 2013. Compreender como esses elementos funcionam em conjunto é essencial para tomar decisões conscientes sobre como proteger sua implantação específica do Lync Server 2013.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-11-08_
+
+Esta seção fornece uma visão geral dos elementos fundamentais que formam a estrutura de segurança do Microsoft Lync Server 2013. Entender como esses elementos funcionam juntos é essencial para tomar decisões conscientes sobre como proteger sua implantação do Lync Server 2013 específica.
 
 Esses elementos são:
 
-  - Serviços de Domínio Active Directory (AD DS) fornece um único repositório de back-end confiável para contas de usuários e recursos de rede.
+  - O AD DS (serviços de domínio Active Directory) fornece um único repositório de back-end confiável para contas de usuário e recursos de rede.
 
   - O controle de acesso baseado em função (RBAC) permite delegar tarefas administrativas enquanto mantém altos padrões de segurança.
 
@@ -29,25 +49,39 @@ Esses elementos são:
 
   - Protocolos padrão do setor para autenticação do usuário, onde possível.
 
-  - Windows PowerShell fornece recursos de segurança que estão ativados por padrão para que os usuários não possam executar scripts com facilidade ou de forma inadvertida.
+  - O Windows PowerShell fornece recursos de segurança habilitados por padrão para que os usuários não possam executar scripts de forma fácil ou desconhecida.
 
-Esses elementos de segurança fundamentais funcionam em conjunto para definir usuários, servidores, conexões e operações confiáveis para ajudar a garantir uma fundação segura para Lync Server 2013.
+Esses elementos de segurança fundamentais trabalham em conjunto para definir usuários, servidores, conexões e operações confiáveis para ajudar a garantir uma base segura para o Lync Server 2013.
 
-## Nesta seção
+<div>
 
-Os tópicos nesta seção descrevem como cada um desses elementos fundamentais funciona para aprimorar a segurança da infraestrutura de Lync Server.
+## <a name="in-this-section"></a>Nesta seção
 
-  - [Active Directory Domain Services para Lync Server 2013](lync-server-2013-active-directory-domain-services-for-lync-server.md)
+Os tópicos desta seção descrevem como cada um desses elementos fundamentais funciona para melhorar a segurança da infraestrutura do Lync Server.
 
-  - [Função de controle de acesso baseado em função (RBAC) do Lync Server 2013](lync-server-2013-role-based-access-control-rbac.md)
+  - [Serviços de domínio do Active Directory para o Lync Server 2013](lync-server-2013-active-directory-domain-services-for-lync-server.md)
 
-  - [Infraestrutura de Chave Pública para o Lync Server 2013](lync-server-2013-public-key-infrastructure.md)
+  - [Controle de acesso baseado em função (RBAC) para o Lync Server 2013](lync-server-2013-role-based-access-control-rbac.md)
+
+  - [Infraestrutura de chave pública do Lync Server 2013](lync-server-2013-public-key-infrastructure.md)
 
   - [TLS e MTLS para o Lync Server 2013](lync-server-2013-tls-and-mtls.md)
 
-  - [Criptografia do Lync Server 2013](lync-server-2013-encryption.md)
+  - [Criptografia para o Lync Server 2013](lync-server-2013-encryption.md)
 
-  - [Autenticação de Usuário e Cliente para o Lync Server 2013](lync-server-2013-user-and-client-authentication.md)
+  - [Autenticação de usuário e cliente para o Lync Server 2013](lync-server-2013-user-and-client-authentication.md)
 
   - [Ferramentas de gerenciamento do Windows PowerShell e do Lync Server 2013](lync-server-2013-windows-powershell-and-lync-server-management-tools.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

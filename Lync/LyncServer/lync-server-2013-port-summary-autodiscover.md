@@ -1,32 +1,58 @@
-﻿---
-title: Resumo da porta – descoberta automática no Lync Server 2013
-TOCTitle: Resumo da porta – descoberta automática no Lync Server 2013
-ms:assetid: 8bd16363-5e18-4e4b-be99-b3e6457b4c99
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ945642(v=OCS.15)
-ms:contentKeyID: 52057675
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Resumo da porta-descoberta automática'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Port summary - Autodiscover
+ms:assetid: 8bd16363-5e18-4e4b-be99-b3e6457b4c99
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945642(v=OCS.15)
+ms:contentKeyID: 51541497
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7a40d86799b4922a819642aedf2461f038330593
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824075"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Resumo da porta – descoberta automática no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-04-06_
+# <a name="port-summary---autodiscover-in-lync-server-2013"></a>Resumo da porta-descoberta automática no Lync Server 2013
 
-O serviço de Descoberta Automática do Lync Server 2013 é executado em servidores Diretor e pool de Front-Ends e, quando publicado em DNS usando registros de host do `lyncdiscover.<domain>` e do `lyncdiscoverinternal.<domain>`, pode ser usado por clientes para localizar recursos do Lync Server. Para dispositivos móveis executando o Lync Mobile para usar a Descoberta Automática, você pode primeiro precisar modificar as listas de nome alternativo de entidade do certificado em qualquer Diretor e Servidor Front-End executando o serviço de Descoberta Automática. Além disso, pode ser necessário modificar as listas de nome alternativo de entidade nos certificados usados pelas regras de publicação de serviços de Web externa em proxies reversos.
+</div>
 
-A decisão sobre usar as listas de nomes alternativos de entidade em proxies reversos é baseada em se o serviço de Descoberta Automática foi publicado na porta 80 ou na porta 443:
+<div id="mainSection">
 
-  - **Publicado na porta 80**   Não são necessárias alterações de certificado se a consulta inicial ao serviço de Descoberta Automática ocorrer na porta 80. Isso é porque os dispositivos que executam o Lync acessarão o proxy reverso na porta 80 externamente e depois serão redirecionados a um Diretor ou Servidor Front-End na porta 8080 internamente.
+<div id="mainBody">
 
-  - **Publicado na porta 443**   A lista de nomes alternativos de entidade nos certificados usados por meio da regra de publicação de serviços Web externos deve conter uma entrada do `lyncdiscover.<sipdomain>` para cada domínio SIP na sua organização.
+<span> </span>
+
+_**Tópico da última modificação:** 2013-03-05_
+
+O serviço de descoberta automática do Lync Server 2013 é executado nos servidores do diretor e do pool de front-end e, `lyncdiscover.<domain>` quando `lyncdiscoverinternal.<domain>` publicados no DNS, usando os registros de host e de host, podem ser usados por clientes para localizar os recursos do Lync Server. Para que os dispositivos móveis que executam o Lync Mobile usem a descoberta automática, você precisa primeiro modificar listas de nomes alternativos de entidades de certificado em qualquer director e servidor front-end executando o serviço descoberta automática. Além disso, pode ser necessário modificar as listas de nomes alternativos de entidades nos certificados usados para regras de publicação de serviço Web externo em proxies reverso.
+
+A decisão sobre se deve usar listas de nomes alternativos de entidades em proxies invertidos se baseia se você publica o serviço de descoberta automática na porta 80 ou na porta 443:
+
+  - **Publicado na porta 80**   para dispositivos móveis, nenhuma alteração de certificado será necessária se a consulta inicial para o serviço descoberta automática ocorrer na porta 80. Isso ocorre porque os dispositivos móveis que executam o Lync acessam o proxy reverso na porta 80 externamente e, em seguida, redirecionados para um diretor ou servidor front-end na porta 8080 internamente.
+
+  - **Publicado na porta 443**   a lista de nomes alternativos de entidades nos certificados usados pela regra de publicação de serviços Web externos `lyncdiscover.<sipdomain>` deve conter uma entrada para cada domínio SIP dentro de sua organização.
     
-    > [!IMPORTANT]  
-    > Para novas instalações ou atualizações do Lync Server 2010 nas quais você tiver implantado Mobilidade, é possível usar a Porta 80 para a Descoberta Automática do serviço de Mobilidade ou reemitir certificados com o nome de entidade correto e nomes alternativos de entidade no lugar. Analise os certificados no seu Diretor e Servidor Front-End para confirmar qual caminho você quer escolher.
+    <div>
+    
 
-### Detalhes de firewall do servidor de proxy reverso: Interface externa
+    > [!IMPORTANT]  
+    > Para novas instalações ou atualizações do Lync Server 2010 em que você implantou a mobilidade, você usou a porta 80 para descoberta automática do serviço de mobilidade ou emitiu novamente certificados com o nome da entidade apropriada e nomes alternativos da entidade no local. Revise os certificados no seu diretor e servidor front-end para confirmar qual caminho você escolheu.
+
+    
+    </div>
+
+### <a name="firewall-details-for-reverse-proxy-server-external-interface"></a>Detalhes do firewall para servidor de proxy reverso: interface externa
 
 <table>
 <colgroup>
@@ -37,30 +63,30 @@ A decisão sobre usar as listas de nomes alternativos de entidade em proxies rev
 </colgroup>
 <thead>
 <tr class="header">
-<th>Protocolo/TCP ou UDP/Porta</th>
-<th>Endereço IP de Origem</th>
-<th>Endereço IP de Destino</th>
-<th>Notas</th>
+<th>Protocolo/TCP ou UDP/porta</th>
+<th>Endereço IP de origem</th>
+<th>Endereço IP de destino</th>
+<th>Observações</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>HTTP/TCP/80</p></td>
-<td><p>Qualquer</p></td>
-<td><p>Ouvinte do proxy reverso</p></td>
-<td><p>(Opcional) Redirecionamento para HTTPS se o usuário inserir http://<em>&lt;publishedSiteFQDN&gt;</em>. Também é requerido se estiver usando o Office Web Apps para conferência e o serviço de Descoberta Automática para dispositivos móveis executando o Lync em situações nas quais a organização não deseja modificar o certificado de regra de publicação de serviço Web externo.</p></td>
+<td><p>Qualquer um</p></td>
+<td><p>Escuta de proxy reverso</p></td>
+<td><p>Adicionais Redirecionamento para HTTPS se o usuário entrar&lt;http://&gt;publishedSiteFQDN. Também necessário se estiver usando o Office Web Apps para conferência e o serviço de descoberta automática para dispositivos móveis que executam o Lync em situações em que a organização não deseja modificar o certificado de regra de publicação de serviço Web externo.</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP/443</p></td>
-<td><p>Qualquer</p></td>
-<td><p>Ouvinte do proxy reverso</p></td>
-<td><p>Downloads do Catálogo de Endereços, serviço de consulta à Web do Catálogo de Endereços, Descoberta Automática, atualizações de cliente, conteúdo da reunião, atualizações de dispositivo, expansão de grupo, Office Web Apps para conferência, conferência de discagem e reuniões.</p></td>
+<td><p>Qualquer um</p></td>
+<td><p>Escuta de proxy reverso</p></td>
+<td><p>Downloads do catálogo de endereços, serviço de consulta à Web do catálogo de endereços, descoberta automática, atualizações do cliente, conteúdo da reunião, atualizações de dispositivo, expansão de grupo, Office Web Apps para conferência, conferência discada e reuniões.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Detalhes de firewall do servidor de proxy reverso: Interface interna
+### <a name="firewall-details-for-reverse-proxy-server-internal-interface"></a>Detalhes do firewall para servidor proxy reverso: interface interna
 
 <table>
 <colgroup>
@@ -71,25 +97,36 @@ A decisão sobre usar as listas de nomes alternativos de entidade em proxies rev
 </colgroup>
 <thead>
 <tr class="header">
-<th>Protocolo/TCP ou UDP/Porta</th>
-<th>Endereço IP de Origem</th>
-<th>Endereço IP de Destino</th>
-<th>Notas</th>
+<th>Protocolo/TCP ou UDP/porta</th>
+<th>Endereço IP de origem</th>
+<th>Endereço IP de destino</th>
+<th>Observações</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>HTTP/TCP/8080</p></td>
-<td><p>Interface interna do proxy reverso</p></td>
-<td><p>Servidor Front-End, Pool de Front-Ends, Diretor, Pool de diretores, Office Web Apps para conferência</p></td>
-<td><p>Necessário se o serviço Descoberta Automática estiver sendo usado para dispositivos móveis que executam o Lync em situações nas quais a organização não deseja modificar o certificado de regra de publicação de serviço Web externo. O tráfego enviado para a porta 80 na interface externa do proxy reverso é redirecionado para um pool na porta 8080 a partir da interface interna do proxy reverso, assim os serviços Web do pool podem diferenciá-lo do tráfego Web interno.</p></td>
+<td><p>Interface de proxy inversa interna</p></td>
+<td><p>Servidor front-end, pool de front-end, diretor, pool do director, Office Web Apps para conferência</p></td>
+<td><p>Obrigatório se estiver usando o serviço de descoberta automática para dispositivos móveis executando o Lync em situações em que a organização não deseja modificar o certificado de regra de publicação de serviço Web externo. O tráfego enviado para a porta 80 na interface externa de proxy reverso é redirecionado para um pool na porta 8080 da interface interna de proxy reverso para que os serviços Web de pool possam distingui-lo do tráfego interno da Web.</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP/4443</p></td>
-<td><p>Interface interna do proxy reverso</p></td>
-<td><p>Servidor Front-End, Pool de Front-Ends, Diretor, Pool de diretores, Office Web Apps para conferência</p></td>
-<td><p>O tráfego enviado para a porta 443 na interface externa do proxy reverso é redirecionado para um pool na porta 4443 a partir da interface interna do proxy reverso, assim os serviços Web do pool podem diferenciá-lo do tráfego Web interno.</p></td>
+<td><p>Interface de proxy inversa interna</p></td>
+<td><p>Servidor front-end, pool de front-end, diretor, pool do director, Office Web Apps para conferência</p></td>
+<td><p>O tráfego enviado para a porta 443 na interface externa de proxy reverso é redirecionado para um pool na porta 4443 da interface interna de proxy reverso para que os serviços Web de pool possam distingui-lo do tráfego interno da Web.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

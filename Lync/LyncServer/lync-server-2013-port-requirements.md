@@ -1,29 +1,51 @@
-﻿---
-title: Requisitos de porta
-TOCTitle: Requisitos de porta
-ms:assetid: 9a6c1300-ef88-4181-a8f1-43cd3093962b
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398798(v=OCS.15)
-ms:contentKeyID: 49307572
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Requisitos de porta do Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Port requirements
+ms:assetid: 9a6c1300-ef88-4181-a8f1-43cd3093962b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398798(v=OCS.15)
+ms:contentKeyID: 48184886
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fddb9e1ad518196b3ac2ac1d8c5d2dc0ebeac972
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824292"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Requisitos de porta
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-03-27_
+# <a name="port-requirements-for-lync-server-2013"></a>Requisitos de porta para o Lync Server 2013
 
-O Lync Server requer que portas específicas do firewall estejam abertas. Adicionalmente, se o protocolo IPsec (Internet Protocol security) tiver sido implantado em sua organização, ele deverá estar desabilitado no intervalo de portas usados para a distribuição de áudio, vídeo e vídeo panorama.
+</div>
 
-## Nesta seção
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-03-27_
+
+O Lync Server requer a abertura de portas específicas no firewall. Adicionalmente, se o protocolo IPsec (Internet Protocol security) tiver sido implantado em sua organização, ele deverá estar desabilitado no intervalo de portas usadas para a distribuição de áudio, vídeo e vídeo panorama.
+
+<div>
+
+## <a name="in-this-section"></a>Nesta seção
 
 Esta seção inclui os seguintes tópicos:
 
   - [Portas e protocolos para servidores internos no Lync Server 2013](lync-server-2013-ports-and-protocols-for-internal-servers.md)
 
-  - [Exceções Ipsec no Lync Server 2013](lync-server-2013-ipsec-exceptions.md)
+  - [Exceções de IPsec no Lync Server 2013](lync-server-2013-ipsec-exceptions.md)
 
   - [Resumo de porta - única borda consolidada com endereços IP privados usando NAT no Lync Server 2013](lync-server-2013-port-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)
 
@@ -37,5 +59,17 @@ Esta seção inclui os seguintes tópicos:
 
   - [Resumo de porta - Proxy reverso no Lync Server 2013](lync-server-2013-port-summary-reverse-proxy.md)
 
-  - [Resumo de porta - SIP, federação XMPP e mensagens instantâneas públicas](lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+  - [Resumo da porta-SIP, Federação do XMPP e mensagens instantâneas públicas no Lync Server 2013](lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

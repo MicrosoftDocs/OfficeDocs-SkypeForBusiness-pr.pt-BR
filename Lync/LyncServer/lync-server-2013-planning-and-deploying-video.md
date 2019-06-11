@@ -1,40 +1,80 @@
-﻿---
-title: Configurando Vídeo no Lync Server 2013
-TOCTitle: Configurando Vídeo no Lync Server 2013
-ms:assetid: dadfb7f3-dfd6-4847-b137-17dacafd7368
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205307(v=OCS.15)
-ms:contentKeyID: 49308316
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: planejamento e implantação de vídeo'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning and deploying video
+ms:assetid: dadfb7f3-dfd6-4847-b137-17dacafd7368
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205307(v=OCS.15)
+ms:contentKeyID: 48185558
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: feac758dcc8547128c9b3684bc74dd6b69599d5f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825097"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurando Vídeo no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-02_
+# <a name="planning-and-deploying-video-in-lync-server-2013"></a>Planejamento e implantação de vídeo no Lync Server 2013
 
-O Lync Server 2013 introduz os seguintes novos recursos de vídeo:
+</div>
 
-  - **Vídeo HD**   Usuários podem ter resoluções de alta definição (HD) (isto é, 1920 x 1080) em chamadas de duas partes e conferências de várias partes.
+<div id="mainSection">
 
-  - **Exibição de galeria**   Nas conferências de vídeo com mais de duas pessoas, os usuários podem ver vídeos de participantes na conferência. Se a conferência possui mais de cinco participantes, o vídeo de apenas os participantes mais ativos aparecem na linha superior e uma foto aparece para os outros participantes.
+<div id="mainBody">
 
-  - **Vídeo H.264**   O codec de vídeo H.264 é agora o padrão para codificação de vídeo em clientes do Lync 2013. O vídeo H.264 suporta uma variedade maior de resoluções e taxas de quadro e melhora a escalabilidade de vídeo.
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-02_
+
+O Lync Server 2013 apresenta os seguintes novos recursos de vídeo:
+
+  - ****   Os usuários de vídeo HD podem experimentar resoluções até alta definição (HD) (ou seja, 1920 x 1080) em chamadas de duas partes e em conferências com vários participantes.
+
+  - **Modo de exibição**   de galeria em videoconferências com mais de duas pessoas, os usuários podem ver vídeos de participantes na conferência. Se a conferência tiver mais de cinco participantes, o vídeo somente dos participantes ativos será exibido na linha superior, e uma foto será exibida para os outros participantes.
+
+  - **Vídeo h. 264**   o codec de vídeo h. 264 agora é o padrão para codificar vídeo em clientes do Lync 2013. O vídeo H. 264 tem suporte para uma maior variedade de resoluções e taxas de quadros e melhora a escalabilidade de vídeo.
     
+    <div>
+    
+
     > [!NOTE]  
-    > O Lync Server 2013 ainda suporta o codec VC1 para interoperabilidade com versões anteriores do Lync. Para obter detalhes e informações de histórico sobre o novo codec de vídeo, consulte o artigo do Blog do Jeff Schertz, &quot;Interoperabilidade de vídeo no Lync 2013&quot;, em <a href="http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/" class="uri">http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/</a>.
+    > O Lync Server 2013 ainda oferece suporte ao codec VC1 para interoperabilidade com versões anteriores do Lync. Para obter detalhes e informações detalhadas sobre o novo codec de vídeo, consulte o artigo do blog do Jeff Schertz, "interoperabilidade de vídeo <A class=uri href="http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/">http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/</A>no Lync 2013", em.
 
-Esta seção descreve como gerenciar a largura de banda para vídeo no Lync Server 2013 e como configurar recursos de vídeo.
+    
+    </div>
 
-## Nesta seção
+Esta seção descreve como gerenciar a largura de banda de vídeo no Lync Server 2013 e como configurar recursos de vídeo.
 
-  - [Configuriando largura de banda de vídeo no Lync Server 2013](lync-server-2013-configuring-video-bandwidth.md)
+<div>
 
-  - [Configurando o modo de exibição de galeria](lync-server-2013-configuring-gallery-view.md)
+## <a name="in-this-section"></a>Nesta seção
 
-  - [Configurando cenários de exemplo de vídeo](lync-server-2013-configuring-video-example-scenarios.md)
+  - [Configurando a largura de banda do vídeo no Lync Server 2013](lync-server-2013-configuring-video-bandwidth.md)
 
-  - [Considerações da interoperabilidade de videoconferência](lync-server-2013-interoperability-considerations-for-video-conferencing.md)
+  - [Configurando o modo de exibição de galeria no Lync Server 2013](lync-server-2013-configuring-gallery-view.md)
+
+  - [Configurar cenários de exemplo de vídeo para o Lync Server 2013](lync-server-2013-configuring-video-example-scenarios.md)
+
+  - [Considerações de interoperabilidade para videoconferência no Lync Server 2013](lync-server-2013-interoperability-considerations-for-video-conferencing.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

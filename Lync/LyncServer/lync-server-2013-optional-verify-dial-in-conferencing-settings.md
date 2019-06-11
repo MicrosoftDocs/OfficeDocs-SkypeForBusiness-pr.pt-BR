@@ -1,27 +1,49 @@
-﻿---
-title: 'Lync Server 2013: (Opcional) Verificar configurações de conferência discada'
-TOCTitle: (Opcional) Verificar configurações de conferência discada
-ms:assetid: a85efdda-97b0-4f3b-bd26-04416bee8ef5
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412789(v=OCS.15)
-ms:contentKeyID: 49307726
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: (Opcional) Verificar configurações de conferência discada'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: (Optional) Verify dial-in conferencing settings
+ms:assetid: a85efdda-97b0-4f3b-bd26-04416bee8ef5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412789(v=OCS.15)
+ms:contentKeyID: 48185027
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 177d8516dcb91272eca2a70b89026fc0e175a73a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825727"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# (Opcional) Verificar configurações de conferência discada no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2010-11-02_
+# <a name="optional-verify-dial-in-conferencing-settings-in-lync-server-2013"></a>(Opcional) Verificar configurações de conferência discada no Lync Server 2013
 
-Como verificação final da configuração da conferência discada, você pode pesquisar planos de discagem com uma região de conferência discada que não seja usada por nenhum número de acesso e números de acesso que não possuem uma região de conferência discada especificada. Essa etapa é opcional.
+</div>
 
-## Para encontrar planos de discagem com uma região de conferência discada que não seja usada por um número de acesso
+<div id="mainSection">
 
-1.  Faça logon no computador como membro do grupo RTCUniversalServerAdmins ou como membro da função **Cs-ServerAdministrator** ou **CsAdministrator** .
+<div id="mainBody">
 
-2.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
+<span> </span>
+
+_**Tópico da última modificação:** 2010-11-02_
+
+Como verificação final da configuração da conferência discada, você pode pesquisar planos de discagem com uma região de conferência discada que não seja usada por nenhum número de acesso e para números de acesso que não especificaram uma região de conferência discada. Esta etapa é opcional.
+
+<div>
+
+## <a name="to-find-dial-plans-with-a-dial-in-conferencing-region-that-is-not-used-by-an-access-number"></a>Para localizar planos de discagem com uma região de conferência discada que não é usada por um número de acesso
+
+1.  Faça logon no computador como membro do grupo RTCUniversalServerAdmins ou como membro da função **cs-ServerAdministrator** ou **CsAdministrator** .
+
+2.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
 
 3.  Execute o seguinte no prompt de comando:
     
@@ -29,15 +51,31 @@ Como verificação final da configuração da conferência discada, você pode p
     
     Este cmdlet retorna todos os planos de discagem que possuem uma região de conferência discada que não é usada por um número de acesso.
 
-## Para encontrar números de acesso sem regiões atribuídas
+</div>
 
-1.  Faça logon no computador como membro do grupo RTCUniversalServerAdmins ou como membro da função **Cs-ServerAdministrator** ou **CsAdministrator** .
+<div>
 
-2.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
+## <a name="to-find-access-numbers-without-assigned-regions"></a>Para encontrar números de acesso sem regiões atribuídas
+
+1.  Faça logon no computador como membro do grupo RTCUniversalServerAdmins ou como membro da função **cs-ServerAdministrator** ou **CsAdministrator** .
+
+2.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
 
 3.  Execute o seguinte no prompt de comando:
     
         Get-CsDialinConferencingAccessNumber -Region NULL
     
     Este cmdlet retorna todos números de acesso de conferência discada que não estão associados a uma região.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

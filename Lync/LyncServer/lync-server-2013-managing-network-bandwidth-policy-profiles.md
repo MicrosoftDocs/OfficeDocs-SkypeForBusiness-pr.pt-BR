@@ -1,37 +1,79 @@
-﻿---
-title: Gerenciando perfis da política de largura de banda da rede
-TOCTitle: Gerenciando perfis da política de largura de banda da rede
-ms:assetid: bc7b1a8a-5dce-425f-a84d-6a9aff569c20
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ721867(v=OCS.15)
-ms:contentKeyID: 49886385
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: gerenciar perfis de política de largura de banda de rede'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing network bandwidth policy profiles
+ms:assetid: bc7b1a8a-5dce-425f-a84d-6a9aff569c20
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721867(v=OCS.15)
+ms:contentKeyID: 49733800
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8a7828c8895ef056c800547ec9e8247956421459
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827883"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Gerenciando perfis da política de largura de banda da rede
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-15_
+# <a name="managing-network-bandwidth-policy-profiles-in-lync-server-2013"></a>Gerenciando perfis de política de largura de banda de rede no Lync Server 2013
 
-Use os procedimentos nesta seção para gerenciar os perfis de política de largura de banda de sua rede. Para obter detalhes sobre os requisitos de largura de banda da rede para tráfego de mídia, consulte [Requisitos de largura de banda de rede para tráfego de mídia no Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md).
+</div>
 
-## Nesta seção
+<div id="mainSection">
 
-  - [Visualizando informações de perfil de política de largura de banda](lync-server-2013-viewing-network-bandwidth-policy-profile-information.md)
+<div id="mainBody">
 
-  - [Criar ou modificar perfis da política de largura de banda](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)
+<span> </span>
 
-  - [Excluindo perfis da política de largura de banda da rede](lync-server-2013-deleting-network-bandwidth-policy-profiles.md)
+_**Tópico da última modificação:** 2012-10-15_
 
-## Seções relacionadas
+Use os procedimentos desta seção para gerenciar os perfis da política de largura de banda de rede. Para obter detalhes sobre requisitos de largura de banda de rede para tráfego de mídia, consulte [requisitos de largura de banda de rede para tráfego de mídia no Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md).
 
-[Planejamento de rede do Lync Server](lync-server-2013-network-planning.md)
+<div>
 
-## Consulte Também
+## <a name="in-this-section"></a>Nesta seção
 
-#### Conceitos
+  - [Exibir informações de perfil da política de largura de banda no Lync Server 2013](lync-server-2013-viewing-network-bandwidth-policy-profile-information.md)
 
-[Requisitos de largura de banda de rede para tráfego de mídia no Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)
+  - [Criando ou modificando perfis de política de largura de banda no Lync Server 2013](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)
+
+  - [Excluindo perfis de política de largura de banda de rede no Lync Server 2013](lync-server-2013-deleting-network-bandwidth-policy-profiles.md)
+
+</div>
+
+<div>
+
+## <a name="related-sections"></a>Seções Relacionadas
+
+[Planejamento de rede para o Lync Server 2013](lync-server-2013-network-planning.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Confira também
+
+
+[Requisitos de largura de banda de rede para tráfego de mídia no Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,31 +1,53 @@
-﻿---
-title: Preparando para restaurar o Lync Server
-TOCTitle: Preparando para restaurar o Lync Server
-ms:assetid: 857e4e02-908e-433a-96c6-be1795a9cb61
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Hh202179(v=OCS.15)
-ms:contentKeyID: 52057643
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: preparando para restaurar o Lync Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Preparing to restore Lync Server
+ms:assetid: 857e4e02-908e-433a-96c6-be1795a9cb61
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202179(v=OCS.15)
+ms:contentKeyID: 51541490
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a470a338d05436be942201e6df6a864f955ac87c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823753"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Preparando para restaurar o Lync Server
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="preparing-to-restore-lync-server-2013"></a>Preparando-se para restaurar o Lync Server 2013
 
-Antes de começar a restauração de servidores e bancos de dados após uma falha, você precisa determinar o seguinte:
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-02-21_
+
+Antes de começar a restaurar servidores e bancos de dados após uma falha, você precisa determinar o seguinte:
 
   - O que precisa ser restaurado.
 
-  - O hardware, o software, as ferramentas e os dados necessários para restauração.
+  - O hardware, o software, os dados e as ferramentas necessárias para a restauração.
 
-## Determinando o quê restaurar
+<div>
 
-Este tópico descreve como restaurar paralisações do Lync Server que ocorrem em nível do servidor, pool ou do Repositório de Gerenciamento Central. Se o Repositório de Gerenciamento Central falhar, a sua implantação do Lync Server continua a funcionar, mas você não pode fazer alterações na configuração. Se um servidor Standard Edition ou de Back-End falhar, o pool de usuário para de funcionar. Se qualquer outro servidor falhar, a magnitude da falha depende da função de servidor que o servidor está executando e de se o servidor hospeda um ou mais bancos de dados.
+## <a name="determining-what-to-restore"></a>Determinar o que restaurar
 
-### O que restaurar
+Este tópico descreve como restaurar as quedas do Lync Server que ocorrem no servidor, no pool ou no nível de repositório de gerenciamento central. Se o repositório de gerenciamento central falhar, a implantação do Lync Server continua a funcionar, mas você não pode fazer alterações de configuração. Se um servidor back-end do servidor ou da edição padrão falhar, o pool de usuários deixará de funcionar. Se qualquer outro servidor falhar, a magnitude da falha dependerá da função do servidor que o servidor está executando e se o servidor hospeda um ou mais bancos de dados.
+
+### <a name="what-to-restore"></a>O que restaurar
 
 <table>
 <colgroup>
@@ -34,84 +56,103 @@ Este tópico descreve como restaurar paralisações do Lync Server que ocorrem e
 </colgroup>
 <thead>
 <tr class="header">
-<th>Se isto falhou</th>
+<th>Se isso falhasse</th>
 <th>Consulte esta seção:</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Servidor Standard Edition</p></td>
-<td><p><a href="lync-server-2013-restoring-a-standard-edition-server.md">Restaurando um servidor do Standard Edition</a></p></td>
+<td><p><a href="lync-server-2013-restoring-a-standard-edition-server.md">Restaurando um servidor Standard Edition no Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Repositório de Gerenciamento Central</p></td>
-<td><p><a href="lync-server-2013-restoring-the-server-hosting-the-central-management-store.md">Restaurar o servidor que hospeda o Repositório de Gerenciamento Central</a></p></td>
+<td><p><a href="lync-server-2013-restoring-the-server-hosting-the-central-management-store.md">Restaurando o servidor que hospeda o repositório de gerenciamento central no Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Back-end do Enterprise Edition</p></td>
-<td><p><a href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">Restaurando um servidor de back-end do Enterprise Edition</a></p></td>
+<td><p><a href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">Restaurando um servidor back-end do Enterprise Edition no Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Servidor Back-End Principal Espelhado do Enterprise Edition</p></td>
-<td><p><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md">Restaurando um servidor back-end Enterprise Edition espelhado – primário</a></p></td>
+<td><p>Servidor primário de back-end do Enterprise Edition</p></td>
+<td><p><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md">Restaurando um servidor back-end da edição Enterprise espelhada no Lync Server 2013-principal</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Servidor Back-End secundário Espelhado do Enterprise Edition</p></td>
-<td><p><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">Restaurando um servidor back-end Enterprise Edition espelhado – espelho</a></p></td>
+<td><p>Servidor secundário de back-end do Enterprise Edition mirrored</p></td>
+<td><p><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">Restaurando um servidor back-end da edição Enterprise espelhada no Lync Server 2013-Mirror</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Qualquer servidor Enterprise Edition executando uma função de servidor, como um Servidor Front-End, Servidor de Borda, Diretor, Servidor de Mediação ou Servidor de Chat Persistente.</p></td>
-<td><p><a href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">Restaurando um servidor membro do Enterprise Edition</a></p></td>
+<td><p>Qualquer servidor Enterprise Edition que execute uma função de servidor, como um servidor front-end, servidor de borda, diretor, servidor de mediação ou servidor de chat persistente.</p></td>
+<td><p><a href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">Restaurando um servidor membro da Enterprise Edition no Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Um pool inteiro de Lync Server</p></td>
-<td><p><a href="lync-server-2013-restoring-a-lync-server-pool.md">Restaurando um pool do Lync Server</a></p></td>
+<td><p>Um pool inteiro do Lync Server</p></td>
+<td><p><a href="lync-server-2013-restoring-a-lync-server-pool.md">Restaurando um pool do Lync Server no Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Repositório de Arquivos Enterprise Edition</p></td>
-<td><p><a href="lync-server-2013-restoring-a-file-store.md">Restaurando um repositório de arquivos</a></p></td>
+<td><p>Repositório de arquivos do Enterprise Edition</p></td>
+<td><p><a href="lync-server-2013-restoring-a-file-store.md">Restaurando um armazenamento de arquivos no Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Um banco de dados de Monitoramento ou banco de dados de Arquivamento autônomo</p></td>
-<td><p><a href="lync-server-2013-restoring-monitoring-or-archiving-data.md">Restauração de monitoramento ou arquivamento de dados</a></p></td>
+<td><p>Um banco de dados de monitoramento autônomo ou um banco de dados de arquivamento</p></td>
+<td><p><a href="lync-server-2013-restoring-monitoring-or-archiving-data.md">Restaurando o monitoramento ou arquivando dados no Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Um banco de dados de Chat Persistente autônomo</p></td>
-<td><p><a href="lync-server-2013-restoring-persistent-chat-data.md">Restaurando dados do chat persistente</a></p></td>
+<td><p>Um banco de dados persistente de chat autônomo</p></td>
+<td><p><a href="lync-server-2013-restoring-persistent-chat-data.md">Restaurando dados de chat persistente no Lync Server 2013</a></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Coletando hardware, software e ferramentas
+</div>
 
-Quando você restaura um servidor, é precisso iniciar com um computador novo ou limpo. Você deve ter os seguintes hardware e software disponíveis:
+<div>
 
-  - Um servidor novo ou limpo com o mesmoFQDN (nome de domínio totalmente qualificado) do servidor que falhou.
+## <a name="gathering-hardware-software-and-tools"></a>Reunindo hardware, software e ferramentas
+
+Ao restaurar um servidor, você precisa começar com um computador novo ou limpo. Além disso, você deve ter os seguintes hardware e software disponíveis:
+
+  - Um servidor limpo ou novo com o mesmo FQDN (nome de domínio totalmente qualificado) do servidor que falhou.
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Ao instalar o sistema operacional, verifique se não foi excluída a conta de computador no Serviços de Domínio Active Directory e se as permissões de grupo da conta estão retidas.
+    > Ao instalar o sistema operacional, certifique-se de não excluir a conta de computador nos serviços de domínio Active Directory e verifique se as permissões de grupo da conta são mantidas.
 
-  - Software de instalação para o sistema operacional. Para instalar o sistema operacional, use as configurações de implantação do servidor e procedimentos estabelecidos pela organização. Você deve ter esses procedimentos e requisitos de configuração disponíveis quando restaurar o serviço.
-
-  - Software de instalação para o SQL Server 2012 ou o SQL Server 2008 R2. Para instalar um servidor de banco de dados, use a versão adequada do SQL Server e os procedimentos de implantação do servidor de banco de dados e configurações estabelecidos pela sua organização. Você deve ter esses procedimentos e requisitos de configuração disponíveis quando restaurar o serviço.
     
-    > [!NOTE]  
-    > O Assistente de Instalação do Lync Server instala automaticamente o SQL Server 2012 Express em cada Servidor Standard Edition e em qualquer outro servidor do Lync Server, quando é instalado um armazenamento de configuração local, a menos que você tenha o SQL Server 2012 ou o SQL Server 2008 R2 pré-instalado no servidor.
+    </div>
 
-  - Software para fazer imagens de sistema.
+  - Software de instalação para o sistema operacional. Para instalar o sistema operacional, use os procedimentos de implantação do servidor e as configurações estabelecidas pela sua organização. Você deve ter esses procedimentos e requisitos de configuração disponíveis quando você restaura o serviço.
+
+  - Software de instalação do SQL Server 2012 ou do SQL Server 2008 R2. Para instalar um servidor de banco de dados, use a versão apropriada do SQL Server e os procedimentos de implantação do servidor de banco de dados e as configurações estabelecidas pela sua organização. Você deve ter esses procedimentos e requisitos de configuração disponíveis quando você restaura o serviço.
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > O assistente de implantação do Lync Server instala automaticamente o SQL Server 2012 Express em cada servidor Standard Edition e em qualquer outro servidor do Lync Server quando um repositório de configuração local é instalado, a menos que você tenha pré-instalado o SQL Server 2012 ou o SQL Server 2008 R2 em o servidor.
+
+    
+    </div>
+
+  - Software para fazer imagens do sistema.
+    
+    <div>
     
 
     > [!TIP]  
-    > Recomendamos que você faça uma cópia da imagem do sistema depois de instalar o sistema operacional e o SQL Server e antes de iniciar a restauração para que você possa usar essa imagem como um ponto de reversão, caso algo dê errado durante a restauração.
+    > Recomendamos que você tire uma cópia de imagem do sistema após a instalação do sistema operacional e do SQL Server, e antes de iniciar a restauração, para que você possa usá-la como um ponto de reversão caso algo dê errado durante a restauração.
 
+    
+    </div>
 
+  - Software de instalação do Lync Server 2013. O assistente de implantação do Lync Server está localizado na pasta de instalação ou mídia do \\Lync\\Server\\em AMD64 setup. exe.
 
-  - Software de instalação do Lync Server 2013. O Assistente de Implantação do Lync Server está localizado na pasta de instalação do Lync Server ou mídia em \\setup\\amd64\\Setup.exe.
+Durante a restauração, use as seguintes ferramentas:
 
-Durante a restauração, você pode usar as seguintes ferramentas:
-
-  - Cmdlets do Shell de Gerenciamento do Lync Server
+  - Cmdlets do Shell de gerenciamento do Lync Server
 
   - Import-CsUserData
 
@@ -119,24 +160,47 @@ Durante a restauração, você pode usar as seguintes ferramentas:
 
   - Construtor de Topologias
 
-  - Utilitários de banco de dados de SQL Server, como o SQL Server Management Studio
+  - Utilitários de banco de dados do SQL Server, como o SQL Server Management Studio
 
-## Preparação para restaurar um servidor
+</div>
 
-Antes de restaurar o servidor, você deverá executar as seguintes etapas:
+<div>
+
+## <a name="preparing-to-restore-a-server"></a>Preparando para restaurar um servidor
+
+Antes de restaurar o servidor, você deve executar as seguintes etapas:
 
 1.  Instale o sistema operacional.
 
-2.  Se o servidor for um Servidor Back-End, instale o SQL Server 2012 ou o SQL Server 2008 R2.
+2.  Se o servidor for um servidor back-end, instale o SQL Server 2012 ou o SQL Server 2008 R2.
 
-3.  Restaure ou registre seus certificados novamente. Para obter detalhes sobre certificados, consulte "Requisitos adicionais de backup" em [Requisitos de backup e restauração: dados](lync-server-2013-backup-and-restoration-requirements-data.md).
+3.  Restaure ou registre novamente seus certificados. Para obter detalhes sobre certificados, consulte "requisitos de backup adicionais" em [requisitos de backup e restauração no Lync Server 2013: dados](lync-server-2013-backup-and-restoration-requirements-data.md).
 
-4.  Faça uma captura de imagem do sistema antes de iniciar a restauração para usar como um ponto de reversão caso algo dê errado durante a restauração.
+4.  Tire uma imagem do sistema antes de iniciar a restauração para usar como um ponto de recuperação, caso algo dê errado durante a restauração.
+
+<div>
+
 
 > [!NOTE]  
-> O Assistente de Implantação e os cmdlets do Lync Server descritos nos procedimentos neste tópico, e tópicos relacionados, definem todas as listas de controle do acesso (ACLs) necessárias.
+> O assistente de implantação do Lync Server e cmdlets descritos nos procedimentos deste tópico e tópicos relacionados, defina todas as listas de controle de acesso (ACLs) necessárias.
 
-Verificar se o hardware e o software que você precisa para os componentes que pretende restaurar estão disponíveis antes de iniciar a restauração. Depois de instalar o sistema operacional e o SQL Server, a maioria das etapas nos procedimentos de restauração a seguir pode ser executada remotamente. As exceções estão indicadas nos procedimentos.
 
-Você também deve ter o backup da sua organização e o plano de restauração e as informações do seu último backup, como, por exemplo, as informações nas planilhas neste documento (para obter detalhes, consulte [Planilhas de backup e restauração](lync-server-2013-backup-and-restoration-worksheets.md)), disponível antes de iniciar a restauração.
+
+</div>
+
+Verifique se o hardware e o software necessários para os componentes que você planeja restaurar estão disponíveis antes de iniciar a restauração. Depois de instalar o sistema operacional e o SQL Server, a maioria das etapas nos seguintes procedimentos de restauração podem ser executadas remotamente. As exceções são observadas nos procedimentos.
+
+Você também deve ter o plano de backup e restauração da sua organização e as informações do seu último backup, como as informações nas planilhas deste documento (para obter detalhes, ver [planilhas de backup e restauração do Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md)), disponível antes de começar a restauração.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,37 +1,63 @@
-﻿---
-title: 'Lync Server 2013: Relatório de Resumo de Conferência de PSTN'
-TOCTitle: Relatório de Resumo de Conferência de PSTN
-ms:assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg615014(v=OCS.15)
-ms:contentKeyID: 49307411
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: relatório de Resumo de conferência PSTN'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: PSTN Conference Summary Report
+ms:assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615014(v=OCS.15)
+ms:contentKeyID: 48184764
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b98628ea56fb36ec594e5ea4ff9915e9785b3cfa
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823802"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Relatório de Resumo de Conferência de PSTN no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="pstn-conference-summary-report-in-lync-server-2013"></a>Relatório de Resumo de conferência PSTN no Lync Server 2013
 
-No Microsoft Lync Server 2013, uma conferência PSTN é qualquer conferência na qual pelo menos um participante disca para a parte de áudio usando um PSTN (rede de telefonia pública comutada). (Um telefone PSTN é uma "linha terrestre", um celular ou qualquer outro telefone que não use Voice over IP). Embora referenciado como conferências PSTN nos Relatórios de Monitoramento, essas conferências são talvez mais conhecidas como conferências discadas.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-22_
+
+No Microsoft Lync Server 2013, uma conferência PSTN é qualquer conferência na qual pelo menos um participante disca para a parte de áudio por meio de um telefone PSTN (rede telefônica pública comutada). (Um telefone PSTN é um "telefone fixo", um telefone celular ou qualquer outro telefone que não usa voz sobre IP.) Ainda que sejam chamadas de conferências PSTN nos relatórios de monitoramento, essas conferências talvez sejam mais conhecidas como conferências discadas.
 
 O Relatório de resumo de conferência fornece informações sobre todas as conferências PSTN feitas em sua organização (isto é, todas as conferências que tenham pelo menos um usuário discado). O relatório contém informações sobre o número total de conferências PSTN, total de número de pessoas que participaram nessas conferências e, talvez, o mais importante, o número total de usuários discados (a métrica de Total de participantes PSTN).
 
-## Como acessar o Relatório de resumo de conferência PSTN
+<div>
+
+## <a name="accessing-the-pstn-conference-summary-report"></a>Como acessar o Relatório de resumo de conferência PSTN
 
 O Relatório de resumo de conferência PSTN pode ser acessado apenas da página inicial dos Relatórios de Monitoramento. Este relatório não está vinculado a nenhum outro. Observe que você não pode recuperar informações de chamadas detalhadas para uma conferência PSTN, em parte porque os pontos de extremidade individuais são responsáveis por enviar essas informações. Os telefones PSTN não são capazes de rastrear ou enviar informações de detalhes de chamada.
 
-## Como usar melhor o Relatório de resumo de conferência PSTN
+</div>
 
-Para determinar a porcentagem de todas as suas conferências que incluem usuários discados, compare o valor da métrica de total de conferências PSTN com a métrica Total de conferências, encontrada no [Relatório de Resumo da Conferência no Lync Server 2013](lync-server-2013-conference-summary-report.md).
+<div>
 
-Se você não ver o número de conferências PSTN que esperava ver, saiba que a capacidade de organizar uma conferência que permita usuários discados depende da política de conferência que foi atribuída a um usuário: se poucos usuários têm permissão para hospedar conferências PSTN, você obviamente verá poucas conferências PSTN. Você pode verificar rapidamente quais das suas políticas de conferência (se houver) permitem que os usuários agendem conferências PSTN, executando o seguinte comando do Shell de Gerenciamento do Lync Server.
+## <a name="making-the-best-use-of-the-pstn-conference-summary-report"></a>Como usar melhor o Relatório de resumo de conferência PSTN
+
+Para determinar a porcentagem de todas as suas conferências que incluem usuários de discagem, compare o valor da métrica total de conferências PSTN com a métrica total de conferências encontradas no [relatório de Resumo de conferências no Lync Server 2013](lync-server-2013-conference-summary-report.md).
+
+Se você não vir o número de conferências PSTN que esperava ver, saiba que a capacidade de organizar uma conferência que permita usuários discados depende da política de conferência que foi atribuída a um usuário: se poucos usuários tiverem permissão para hospedar conferências PSTN, você obviamente verá poucas conferências PSTN. Você pode verificar rapidamente quais políticas de conferência (se houver) permitem que os usuários agendem conferências PSTN executando o seguinte comando no Shell de gerenciamento do Lync Server:
 
     Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing
 
-Que retornará dados semelhantes a este:
+Serão retornados dados semelhantes a estes:
 
     Identity                                EnableDialInConferencing
     --------                                ------------------------
@@ -41,15 +67,19 @@ Que retornará dados semelhantes a este:
     Tag:RedmondDialInUsers                                      True
     Tag:DublinDialInUsers                                       True
 
-Que retornará dados semelhantes a este:
+Serão retornados dados semelhantes a estes:
 
-## Filtros
+</div>
 
-Filtros fornecem uma forma de retornar um conjunto de dados mais focado ou exibir os dados retornados de diferentes formas. Por exemplo, o Relatório de Resumo de Conferências PSTN permite escolher como os dados devem ser agrupados. Neste caso, as conferências são agrupadas por hora, dia, semana ou mês
+<div>
+
+## <a name="filters"></a>Filtros
+
+Os filtros oferecem uma forma de retornar um conjunto de dados mais direcionado ou exibir os dados devolvidos em formas diferentes. Por exemplo, o Relatório de Resumo de Conferências PSTN permite escolher como os dados devem ser agrupados. Neste caso, as conferências são agrupadas por hora, dia, semana ou mês.
 
 A tabela a seguir lista os filtros que podem ser usados com o Relatório de Resumo de Conferências PSTN.
 
-### Filtros do Relatório de Resumo de Conferências PSTN
+### <a name="pstn-conference-summary-report-filters"></a>Filtros do Relatório de Resumo de Conferências PSTN
 
 <table>
 <colgroup>
@@ -92,17 +122,21 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Resu
 <li><p>Semanalmente (é possível exibir no máximo 12 semanas)</p></li>
 <li><p>Mensalmente (é possível exibir no máximo 12 meses)</p></li>
 </ul>
-<p>Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, somente o número máximo de valores (a partir da data de início) será exibido. Por exemplo, se você selecionar o intervalo Diariamente com data de início em 7/7/2012 e data de término de 2/28/2012, os dados serão exibidos do dia 8/7/2012, às 12:00 AM, até o dia 9/7/2012, às 12:00 AM (ou seja, um total de 31 dias de dados).</p></td>
+<p>Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, somente o número máximo de valores (a partir da data de início) será exibido. Por exemplo, se você selecionar o intervalo diário com uma data de início de 7/7/2012 e uma data de término de 2/28/2012, os dados serão exibidos para os dias 8/7/2012 12:00 AM a 9/7/2012 12:00 AM (ou seja, um total de 31 dias da importância dos dados).</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Métricas
+</div>
+
+<div>
+
+## <a name="metrics"></a>Métricas
 
 A tabela a seguir lista as informações no Relatório de Resumo de Conferências PSTN.
 
-### Métricas do Relatório de Resumo de Conferências PSTN
+### <a name="pstn-conference-summary-report-metrics"></a>Métricas do Relatório de Resumo de Conferências PSTN
 
 <table>
 <colgroup>
@@ -124,10 +158,10 @@ A tabela a seguir lista as informações no Relatório de Resumo de Conferência
 <p><strong>Semanal</strong></p>
 <p><strong>Mensal</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Indica o intervalo de tempo selecionado. Quando aplicável, você pode clicar em um dado intervalo de tempo para exibir informações detalhadas para aquele intervalo. Por exemplo, se estiver usando um intervalo por dia e clicar em 07/07/12, você verá uma divisão por hora das atividades de registro do usuário para aquela data.</p></td>
+<td><p>Indica o intervalo de tempo selecionado. Quando aplicável, você pode clicar em um dado intervalo de tempo para exibir informações detalhadas para aquele intervalo. Por exemplo, se você estiver usando o intervalo diário e clicar em 7/7/2012, verá um detalhamento por hora da atividade de registro do usuário para essa data.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Total de Conferências PSTN</strong></p></td>
+<td><p><strong>Total de conferências PSTN</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Número total de conferências que permitiram acesso discado.</p></td>
 </tr>
@@ -163,4 +197,17 @@ A tabela a seguir lista as informações no Relatório de Resumo de Conferência
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,81 +1,152 @@
-﻿---
-title: Redefinir uma regra de atualização de dispositivo
-TOCTitle: Redefinir uma regra de atualização de dispositivo
-ms:assetid: d1f597e7-dffd-4756-af07-10613a5d8729
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ994069(v=OCS.15)
-ms:contentKeyID: 52057728
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: redefinir uma regra de atualização de dispositivo'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Reset a Device Update rule
+ms:assetid: d1f597e7-dffd-4756-af07-10613a5d8729
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994069(v=OCS.15)
+ms:contentKeyID: 51803980
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ab03c5c28db28ddbd883f3f50845eaf91d4fd1a9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823207"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Redefinir uma regra de atualização de dispositivo
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-02-23_
+# <a name="reset-a-device-update-rule-in-lync-server-2013"></a>Redefinir uma regra de atualização de dispositivo no Lync Server 2013
 
-Se você não gosta do modo como uma atualização funciona em seus dispositivos de teste, você pode resetar a regra de atualização do dispositivo, que remove o status da regra como pendente e desinstala a atualização dos dispositivos de teste.
+</div>
 
-Você pode remover uma regra de atualização de dispositivo utilizando o Painel de Controle do Lync Server ou então o Windows PowerShell.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-02-23_
+
+Se você não gostar da maneira como uma atualização funciona em seus dispositivos de teste, você pode redefinir a regra de atualização de dispositivo, que remove o status pendente da regra e desinstala a atualização dos dispositivos de teste.
+
+Você pode remover uma regra de atualização de dispositivo usando o painel de controle do Lync Server ou o Windows PowerShell.
+
+<div>
+
 
 > [!NOTE]  
-> Para desinstalar uma regra que você já tenha aprovado (ou seja, implantadas), restaure-a. Para detalhes, consulte <a href="lync-server-2013-restore-a-device-update-rule.md">Restaurar uma regra de atualização de dispositivo</a>.
+> Para desinstalar uma regra que você já aprovou (isto é, distribuída), restaure-a. Para obter detalhes, consulte <A href="lync-server-2013-restore-a-device-update-rule.md">restaurar uma regra de atualização de dispositivo no Lync Server 2013</A>.
 
-## Para resetar uma regra de atualização de dispositivo utilizando Painel de Controle do Lync Server
+
+
+</div>
+
+<div>
+
+## <a name="to-reset-a-device-update-rule-by-using-lync-server-control-panel"></a>Para redefinir uma regra de atualização de dispositivo usando o painel de controle do Lync Server
 
 1.  Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação esquerda, clique em **Clientes**, e então clique no botão de navegação **Atualização de Dispositivo**.
+3.  Na barra de navegação à esquerda, clique em **clientes**e, em seguida, clique no botão de navegação de **atualização do dispositivo** .
 
-4.  Na página de **Atualização de Dispositivo**, realize uma das ações a seguir:
+4.  Na página **atualização do dispositivo** , siga um destes procedimentos:
     
-      - Para resetar uma regra, selecione a regra que você deseja resetar.
+      - Para redefinir uma regra, selecione a regra que você deseja redefinir.
     
-      - Para resetar todas as regras, no menu **Editar**, clique em **Selecionar Tudo**.
+      - Para redefinir todas as regras, no menu **Editar** , clique em **selecionar tudo**.
     
-      - Para selecionar todas as regras para uma marca, use o menu da coluna **Marca**.
+      - Para redefinir todas as regras para uma marca, use o menu coluna **da marca** .
 
-5.  Clique em **Ação** e depois em **Cancelar atualizações pendentes**.
+5.  Clique em **ação**e, em seguida, clique em **cancelar atualizações pendentes**.
+    
+    <div>
     
 
     > [!TIP]  
-    > Se tem certeza de que você nunca desejará implementar a(s) regra(s) de atualização de dispositivo que você cancelou, pode ser melhor excluí-las. Para detalhes, consulte <A href="lync-server-2013-remove-a-device-update-rule.md">Remover uma regra de atualização de dispositivo</A>.
+    > Se tiver certeza de que nunca vai querer implementar as regras de atualização de dispositivo que você cancelou, talvez você queira excluí-las. Para obter detalhes, consulte <A href="lync-server-2013-remove-a-device-update-rule.md">remover uma regra de atualização de dispositivo no Lync Server 2013</A>.
 
+    
+    </div>
 
+</div>
 
-## Para resetar uma regra de atualização de dispositivo utilizando cmdlets Windows PowerShell
+<div>
 
-As regras de atualização de dispositivo também podem ser resetadas utilizando o Windows PowerShell e o cmdlet **Reset-CsDeviceUpdateRule**. Este cmdlet pode ser executado a partir do Shell de Gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell.
+## <a name="resetting-a-device-update-rule-by-using-windows-powershell-cmdlets"></a>Redefinir uma regra de atualização de dispositivo usando cmdlets do Windows PowerShell
+
+As regras de atualização de dispositivo também podem ser redefinidas usando o Windows PowerShell e o cmdlet **Reset-CsDeviceUpdateRule** . Esse cmdlet pode ser executado no Shell de gerenciamento do Lync Server 2013 ou em uma sessão remota do Windows PowerShell.
+
+<div>
+
 
 > [!NOTE]  
-> Para obter detalhes sobre como usar o Windows PowerShell remoto para conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell, &quot;Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell&quot; em <a href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876 (em inglês)</a>.
+> Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Microsoft Lync Server 2010 usando o PowerShell remoto" em.
 
-## Para resetar uma regra de atualização de dispositivo específica em um servidor
 
-  - O comando a seguir reseta a regra de atualização de dispositivo d5ce3c10-2588-420a-82ac-dc2d9b1222ff9 no servidor Web atl-cs-001.litwareinc.com:
+
+</div>
+
+<div>
+
+## <a name="to-reset-a-specific-device-update-rule-on-a-server"></a>Para redefinir uma regra de atualização de dispositivo específica em um servidor
+
+  - O comando a seguir redefine a regra de atualização do dispositivo d5ce3c10-2588-420A-82ac-dc2d9b1222ff9 no servidor Web atl-cs-001.litwareinc.com:
     
         Reset-CsDeviceUpdateRule -Identity "service:WebServer:atl-cs-001.litwareinc.com/d5ce3c10-2588-420a-82ac-dc2d9b1222ff9"
 
-## Para resetar todas as regras de atualização de dispositivo em um servidor
+</div>
 
-  - Esse comando reseta todas as regras de atualização de dispositivo no servidor Web atl-cs-001.litwareinc.com:
+<div>
+
+## <a name="to-reset-all-the-device-update-rules-on-a-server"></a>Para redefinir todas as regras de atualização de dispositivo em um servidor
+
+  - Esse comando redefine todas as regras de atualização de dispositivo no servidor Web atl-cs-001.litwareinc.com:
     
         Get-CsDeviceUpdateRule -Filter "service:WebServer:atl-cs-001.litwareinc.com*"  | Reset-CsDeviceUpdateRule
 
-## Para resetar todas as regras de atualização de dispositivo contendo uma marca específica
+</div>
 
-  - Nesse exemplo, todas as regras de atualização de dispositivo pela organização contendo Marca igual a Microsoft são resetadas:
+<div>
+
+## <a name="to-reset-all-the-device-updates-rules-that-have-a-specific-brand"></a>Para redefinir todas as regras de atualizações de dispositivo que têm uma marca específica
+
+  - Neste exemplo, todas as atualizações de dispositivos em toda a organização com uma marca igual à Microsoft são redefinidas:
     
         Get-CsDeviceUpdateRule | Where-Object {$_.Brand -eq "Microsoft"} | Reset-CsDeviceUpdateRule
 
-Para detalhes, consulte o tópico Ajuda para o cmdlet [Reset-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Reset-CsDeviceUpdateRule).
+</div>
 
-## Consulte Também
+Para obter detalhes, consulte o tópico da ajuda para o cmdlet [Reset-CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Reset-CsDeviceUpdateRule) .
 
-#### Tarefas
+</div>
 
-[Aprovar uma regra de atualização de dispositivo](lync-server-2013-approve-a-device-update-rule.md)
+<div>
+
+## <a name="see-also"></a>Confira também
+
+
+[Aprovar uma regra de atualização de dispositivo no Lync Server 2013](lync-server-2013-approve-a-device-update-rule.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

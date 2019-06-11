@@ -1,43 +1,81 @@
-﻿---
-title: 'Lync Server 2013: Novos recursos do aplicativo de Grupo de Resposta'
-TOCTitle: Novos recursos do aplicativo de Grupo de Resposta
-ms:assetid: 569544b4-fa97-429b-97e6-568afab6c19b
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398373(v=OCS.15)
-ms:contentKeyID: 49306757
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Novos recursos do aplicativo de Grupo de Resposta'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: New Response Group application features
+ms:assetid: 569544b4-fa97-429b-97e6-568afab6c19b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398373(v=OCS.15)
+ms:contentKeyID: 48184196
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 33dd01cf7516f950e58dbc90ee09b06901bccf74
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826147"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Novos recursos do aplicativo de Grupo de Resposta no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-29_
+# <a name="new-response-group-application-features-in-lync-server-2013"></a>Novos recursos do aplicativo de Grupo de Resposta no Lync Server 2013
 
-O aplicativo Grupo de Resposta permite rotear e enfileirar chamadas de entrada para pessoas designadas para finalidades especiais, tais como serviço de cliente, uma assistência técnica interna, ou suporte de telefone geral para um departamento.
+</div>
 
-Os seguintes recursos do aplicativo do Grupo de Resposta são novos no Lync Server 2013:
+<div id="mainSection">
 
-  - **Função do Gerenciador**
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-29_
+
+Com o aplicativo de grupo de resposta, você pode encaminhar e enfileirar chamadas de entrada para pessoas designadas para fins especiais, como atendimento ao cliente, um suporte técnico interno ou suporte geral por telefone para um departamento.
+
+Os seguintes recursos de aplicativo de grupo de resposta são novos no Lync Server 2013:
+
+  - **Função gerente**
     
-    O Lync Server 2013 introduz uma nova função do Gerenciador do Grupo de Resposta. Agora, há duas funções de gerenciamento para grupos de respostas: Grupo de Resposta Gerenciador e Grupo de Resposta Administrador. Enquanto os administradores do Grupo de Resposta ainda podem configurar qualquer elemento de qualquer grupo de respostas, os gerenciadores podem configurar somente determinados elementos, somente para os grupos de respostas que eles possuem.
+    O Lync Server 2013 introduz uma nova função de gerente do grupo de resposta. Agora há duas funções de gerenciamento para grupos de resposta: gerente de grupo de resposta e administrador de grupo de resposta. Embora os administradores de grupo de resposta ainda possam configurar qualquer elemento para qualquer grupo de resposta, os gerentes podem configurar apenas determinados elementos, somente para os grupos de resposta que eles possuem.
     
-    Essa melhoria no modelo de administração beneficia a escalabilidade do Grupo de respostas, especialmente para os cenários de implantação de grande porte.
+    Esse aprimoramento no modelo de administração beneficia a escalabilidade do grupo de resposta, especialmente para grandes cenários de implantação.
 
   - **Alta disponibilidade**
     
-    A alta disponibilidade suporta o Aplicativo Grupo de Resposta, na forma de espelhamento do SQL Server, está habilitada como parte da configuração geral e da implantação de alta disponibilidade do Lync Server 2013. Se você configurar a alta disponibilidade e perder a conectividade com o servidor Back-End primário, a função Grupo de respostas não seja afetada pelo aproveitamento do servidor Back-End espelhado.
+    O suporte de alta disponibilidade para o aplicativo de grupo de resposta, na forma de espelhamento do SQL Server, é habilitado como parte da configuração e implantação gerais de alta disponibilidade do Lync Server 2013. Se você configurar para alta disponibilidade e perder a conectividade com o servidor back-end primário, a funcionalidade do grupo de resposta não será afetada por meio do uso do servidor back-end espelhado.
     
-    O suporte ao espelhamento SQL Server do Aplicativo Grupo de Resposta não pode ser habilitado individualmente ou configurado fora da configuração de alta disponibilidade geral do Lync Server 2013.
+    O suporte para o espelhamento do SQL Server para o aplicativo do grupo de resposta não pode ser habilitado ou configurado individualmente fora da configuração geral do Lync Server 2013 de alta disponibilidade.
 
   - **Recuperação de desastres**
     
-    A recuperação de desastres que suporta o Aplicativo Grupo de Resposta está habilitada como parte da configuração e implantação do Pools de Front-Ends emparelhado, que é parte da configuração de recuperação de desastres geral do Lync Server 2013. Além disso, os cmdlets de importação e exportação do Grupo de respostas suportam o processo de failover para o pool de backup e o processo de failback para o pool primário ou para um novo pool. Se uma interrupção ocorrer no pool primário, os grupos de respostas podem ser transferidos para o pool de backup e, em seguida, voltarem a funcionar no pool primário ou em um novo pool no qual a interrupção tenha terminado.
+    O suporte à recuperação de desastres do aplicativo de grupo de resposta é habilitado como parte da configuração e implantação dos pools front-end emparelhados, que fazem parte da configuração de recuperação de desastres do Lync Server 2013 geral. Além disso, os cmdlets de importação e exportação do grupo de resposta dão suporte ao processo de failover para o pool de backup e o processo de failback para o pool primário ou para um novo pool. Se ocorrer uma falha no pool primário, os grupos de resposta poderão fazer failover para o pool de backup e, em seguida, retornar ao pool primário ou a um novo pool quando a interrupção for terminada.
 
-## Consulte Também
+<div id="sectionSection0" class="section">
 
-#### Outros Recursos
+</div>
 
-[Planejamento de grupos de resposta no Lync Server 2013](lync-server-2013-planning-for-response-groups.md)
+<div>
+
+## <a name="see-also"></a>Confira também
+
+
+[Planejamento de grupos de resposta no Lync Server 2013](lync-server-2013-planning-for-response-groups.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

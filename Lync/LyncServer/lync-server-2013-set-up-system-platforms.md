@@ -1,47 +1,87 @@
-﻿---
-title: 'Lync Server 2013: Configurar plataformas de sistema'
-TOCTitle: Configurar plataformas de sistema
-ms:assetid: 2e72e49d-2737-4b5b-8c0a-60f6ecb15bf1
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204783(v=OCS.15)
-ms:contentKeyID: 49306261
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurar plataformas de sistema'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Set up system platforms
+ms:assetid: 2e72e49d-2737-4b5b-8c0a-60f6ecb15bf1
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204783(v=OCS.15)
+ms:contentKeyID: 48183756
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 317bfe0efed0417d49cc59dc8f6e7ad3bcca7d7a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34821905"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurar plataformas de sistema no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-02-21_
+# <a name="set-up-system-platforms-in-lync-server-2013"></a>Configurar plataformas de sistema no Lync Server 2013
 
-Antes de iniciar a implantação do Servidor de Chat Persistente, você deve instalar o sistema operacional exigido no hardware que atende os requisitos do sistema nos servidores:
+</div>
 
-Para obter detalhes sobre o hardware suportado para servidores executando o Lync Server 2013, servidores do banco de dados e servidores de arquivos, consulte [Hardware suportado para Lync Server 2013](lync-server-2013-supported-hardware.md) na documentação de Suportabilidade. Para obter detalhes sobre os sistemas operacionais suportados e software de banco de dados, consulte [Suporte a software e à infraestrutura de servidor no Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md) na documentação de Suportabilidade. Para obter detalhes sobre os requisitos de atualização do Windows, consulte [Suporte adicional e requisitos de servidor no Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md) na documentação de Suportabilidade.
+<div id="mainSection">
 
-O Servidor de Chat PersistenteServidor Front-End, **PersistentChatService**, pode ser implantado em um ou mais computadores autônomos em um pool do Lync Server 2013Enterprise Edition. Eles não podem ser posicionados no Lync ServerEnterprise EditionServidores Front-End. O Servidor de Chat Persistente pode ser implantado pelo Bootstrapper, da mesma forma que outras funções do Lync Server. Os Serviços da Web do **Chat Persistente para Upload/Download de arquivos** e Serviços da Web do **Chat Persistente para Gerenciamento da Sala de Bate-papo** são componentes da Web implantados no Lync Server 2013Servidores Front-End.
+<div id="mainBody">
 
-Um único Servidor de Chat PersistenteServidor Front-End pode suportar 20.000 usuários ativos. É possível ter um Pool de Servidor de Chat Persistente com até 4 front-ends ativos suportando um total de 80.000 usuários simultâneos. O Chat PersistenteServidor Back-End, **PersistentChatStore**, armazena salas de bate-papo e categorias. Recomendamos que você instale o **PersistentChatStore** em um SQL ServerServidor Back-End exclusivo no seu pool do Enterprise Edition; embora podemos suportar o posicionamento do Lync Server 2013Servidor Back-End e **PersistentChatStore** na mesma instância do SQL Server.
+<span> </span>
 
-Se a organização exige o suporte de conformidade, é possível instalá-lo usando o Construtor de Topologias. O serviço de Conformidade do Servidor de Chat Persistente está instalado no mesmo computador que o Servidor de Chat PersistenteServidor Front-End. Um banco de dados separado é exigido para conformidade. Para obter detalhes sobre os requisitos de conformidade para Servidor de Chat Persistente, consulte [Planejando o Servidor de Chat Persistente no Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) na documentação de Planejamento.
+_**Tópico da última modificação:** 2013-02-21_
 
-Como mínimo, cada topologia exige um servidor com o Lync Server 2013 instalado e um servidor com o software do banco de dados do SQL Server instalado. O Construtor de Topologias suporta vários Pools de Servidor de Chat Persistente. Siga as mesmas instruções de implantação para implantar vários Pools de Servidor de Chat Persistente como você faria para qualquer pool do [Implantando o Lync Server 2013](lync-server-2013-deploying-lync-server.md) na documentação de Implantação.
+Antes de iniciar a implantação do servidor de chat persistente, você deve instalar o sistema operacional necessário em hardware que atenda aos requisitos do sistema em servidores:
 
-Também é possível implantar o Servidor de Chat Persistente com o Lync Server 2013Standard Edition. Neste caso, o **PersistentChatService**Servidor Front-End é posicionado no Servidor Standard Edition e você pode implantar o **PersistentChatStore**Servidor Back-End na instância do SQL Server Express local.
+Para obter detalhes sobre o hardware com suporte para servidores que executam o Lync Server 2013, servidores de banco de dados e servidores de arquivos, consulte [hardware com suporte para o Lync server 2013](lync-server-2013-supported-hardware.md) na documentação de suporte. Para obter detalhes sobre os sistemas operacionais e o software de banco de dados com suporte, consulte [suporte a infraestrutura e software do servidor no Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md) na documentação de suporte. Para obter detalhes sobre os requisitos do Windows Update, consulte [suporte e requisitos adicionais do servidor no Lync server 2013](lync-server-2013-additional-server-support-and-requirements.md) na documentação de suporte.
+
+O servidor de front-end do servidor de chat persistente, **PersistentChatService**, pode ser implantado em um ou mais computadores autônomos em um pool do Lync Server 2013 Enterprise Edition. Eles não podem ser posicionados nos servidores front-end do Lync Server Enterprise Edition. O servidor de chat persistente pode ser implantado pelo bootstrapper, exatamente como outras funções do Lync Server. Os **Serviços Web de chat persistente para o download/download de arquivo**e os **Serviços Web de chat persistente para o gerenciamento de salas de chat** são componentes da Web implantados nos servidores de Front-End do Lync Server 2013.
+
+Um servidor front-end único de servidor de chat persistente pode oferecer suporte a usuários ativos do 20.000. Você pode ter um pool de servidores de chat persistente com até 4 front-ends ativos oferecendo suporte a um total de 80.000 usuários simultâneos. O servidor back-end de chat persistente, **PersistentChatStore**, armazena as salas de chat e as categorias. Recomendamos que você instale o **PersistentChatStore** em um servidor back-end do SQL Server dedicado no pool da Enterprise Edition; Embora possamos dar suporte à colocação do servidor back-end do Lync Server 2013 e **PersistentChatStore** na mesma instância do SQL Server.
+
+Se a sua organização requer suporte à conformidade, você pode instalá-la usando o construtor de topologias. O serviço de conformidade do servidor de chat persistente está instalado no mesmo computador que o servidor front-end persistente do servidor de chat. Um banco de dados separado é necessário para conformidade. Para obter detalhes sobre os requisitos de conformidade do servidor de chat persistente, consulte [planejando o servidor de chat persistente no Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) na documentação de planejamento.
+
+No mínimo, cada topologia requer um servidor com o Lync Server 2013 instalado e um servidor com software de banco de dados do SQL Server instalado. O construtor de topologias suporta vários pools de servidores de chat persistentes. Siga as mesmas instruções de implantação para implantar vários pools de servidores de chat persistentes como faria para qualquer pool de [implantação do Lync server 2013](lync-server-2013-deploying-lync-server.md) na documentação de implantação.
+
+Você também pode implantar o servidor de chat persistente com o Lync Server 2013 Standard Edition. Nesse caso, o servidor front-end **PersistentChatService** é posicionado no servidor Standard Edition, e você pode implantar o servidor back-end do **PersistentChatStore** na instância local do SQL Server Express.
+
+<div>
+
 
 > [!IMPORTANT]  
-> Nós não suportamos o Servidor de Chat PersistenteStandard Edition para alta disponibilidade. Desempenho e escala será limitado. Além disso, suportamos apenas novas implantações do Servidor de Chat Persistente  Servidor Standard Edition. Não suportamos uma atualização do Lync Server 2010, Servidor de Chat de Grupo para um Lync Server 2013Servidor de Chat PersistenteStandard Edition.
+> Não oferecemos suporte à edição do servidor&nbsp;de chat padrão persistente para alta disponibilidade. O desempenho e a escala serão limitados. Além disso, oferecemos apenas novas implantações&nbsp;persistentes de servidor de edição de servidor de chat persistente. Não oferecemos suporte a uma atualização do Lync Server 2010, do servidor de chat em grupo para um&nbsp;servidor de chat&nbsp;persistente do Lync Server 2013 Standard Edition.
 
-## Consulte Também
 
-#### Conceitos
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Confira também
+
 
 [Suporte adicional e requisitos de servidor no Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md)  
 
-#### Outros Recursos
 
 [Hardware suportado para Lync Server 2013](lync-server-2013-supported-hardware.md)  
 [Suporte a software e à infraestrutura de servidor no Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md)  
 [Planejando o Servidor de Chat Persistente no Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md)  
-[Implantando o Lync Server 2013](lync-server-2013-deploying-lync-server.md)
+[Implantando o Lync Server 2013](lync-server-2013-deploying-lync-server.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

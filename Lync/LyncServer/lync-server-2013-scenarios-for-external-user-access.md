@@ -1,42 +1,75 @@
-﻿---
-title: 'Lync Server 2013: Cenários de acesso de usuário externo'
-TOCTitle: Cenários de acesso de usuário externo
-ms:assetid: 25697446-b045-4d12-9b1c-47f694b4f224
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425727(v=OCS.15)
-ms:contentKeyID: 49306153
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Cenários de acesso de usuário externo'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Scenarios for external user access
+ms:assetid: 25697446-b045-4d12-9b1c-47f694b4f224
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425727(v=OCS.15)
+ms:contentKeyID: 48183640
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 27e4f7410d7038971c6ddefe1af1c7b3ecd97ab9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822325"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Cenários de acesso de usuário externo no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="scenarios-for-external-user-access-in-lync-server-2013"></a>Cenários de acesso de usuário externo no Lync Server 2013
 
-Conceder acesso ao usuário externo para o Lync Server 2013 exige a implantação de pelo menos um Servidor de Borda e um proxy inverso em sua rede de perímetro. Opcionalmente, você pode implantar um Diretor ou Pool de diretores na sua rede interna.
+</div>
 
-Se você precisar de mais capacidade do que um único Servidor de Borda pode oferecer ou se precisa de maior disponibilidade para sua implantação do Servidor de Borda, é possível configurar o balanceamento de carga ou implantar vários Servidores de Borda em um pool de carga balanceada. Se sua organização possui vários centros de dados, é possível ter implantações do Servidor de Borda ou Pool de borda em mais de um local. No entanto, apenas uma das implantações do Servidor de Borda podem ser designadas como uma rota de federação.
+<div id="mainSection">
 
-Esta seção define os cenários para implantações do Servidor de Borda e mapeia as seções de planejamento para possíveis cenários. Por exemplo, se sua implantação exige alta disponibilidade, a federação com contatos XMPP e mobilidade Lync, você deve selecionar as entradas correspondentes na tabela a seguir que poderia satisfazer estes requisitos e usar as seções de planejamento referenciadas para definir sua implantação, conforme ilustrado no seguinte gráfico.
+<div id="mainBody">
 
-**Processo de seleção do cenário de implantação do Servidor de Borda**
+<span> </span>
 
-![Fluxograma de implantação de exemplo](images/Gg425727.007100b5-6923-4909-bfd7-897d8867205f(OCS.15).jpg "Fluxograma de implantação de exemplo")
+_**Tópico da última modificação:** 2012-09-08_
 
-Usando este processo, é possível planejar e documentar a configuração de todos os recursos em potencial que você pretende implantar para seus usuários. No entanto, é possível adicionar serviços de federação e mobilidade após ter implantado o Servidor de Borda e confirmar a operação correta antes de adicionar outros recursos. O processo de adicionar recursos a uma implantação do Servidor de Borda existente é abordada na seção Implantação. Para obter detalhes sobre a implantação, consulte [Implantação de acesso do usuário externo no Lync Server 2013](lync-server-2013-deploying-external-user-access.md) Ao incluir planejamento para estes recursos durante o processo de planejamento inicial, é possível preparar para os requisitos de DNS, firewall e certificado para recursos adicionados, que permite adquirir certificados e configurar os requisitos DNS e porta/protocolo antecipadamente.
+O acesso de usuários externos para o Lync Server 2013 exige que você implante pelo menos um servidor de borda e um proxy reverso na sua rede de perímetro. Opcionalmente, você pode implantar um diretor ou um pool de diretor em sua rede interna.
+
+Se você precisar de maior capacidade do que um único servidor de borda pode fornecer ou se precisar de alta disponibilidade para a implantação do servidor de borda, você pode configurar o balanceamento de carga e implantar vários servidores de borda em um pool de carga balanceada. Se a sua organização tiver vários data centers, você poderá ter implantações de servidor de borda ou de pool de bordas em mais de um local. No entanto, apenas uma das implantações de servidor de borda pode ser designada como a rota de Federação.
+
+Esta seção define os cenários para implantações do servidor de borda e mapeia as seções de planejamento para os cenários possíveis. Por exemplo, se a sua implantação requer alta disponibilidade, Federação com contatos de presença e mensagens extensível (XMPP) e Lync Mobility, selecione as entradas correspondentes na tabela a seguir que atenderiam a esses requisitos e usar o seções de planejamento referenciadas para definir sua implantação, conforme ilustrado no fluxograma a seguir.
+
+**Processo de seleção do cenário de implantação do servidor de borda**
+
+![Exemplo de fluxograma de implantação] (images/Gg425727.007100b5-6923-4909-bfd7-897d8867205f(OCS.15).jpg "Exemplo de fluxograma de implantação")
+
+Ao usar esse processo, você pode planejar e documentar a configuração de todos os recursos possíveis que pretende implantar para seus usuários. No entanto, é possível adicionar serviços de Federação e mobilidade após a implantação do servidor de borda e confirmar a operação correta antes de adicionar outros recursos. O processo de adicionar recursos a uma implantação de servidor de borda existente é abordado na seção implantação. Para obter detalhes sobre a implantação, consulte Implantando o [acesso de usuários externos no Lync Server 2013](lync-server-2013-deploying-external-user-access.md) , incluindo o planejamento desses recursos durante o processo de planejamento inicial, você pode se preparar para os requisitos de DNS, firewall e certificado para os recursos adicionais que permite adquirir os certificados e configurar o DNS e requisitos de protocolo/porta com antecedência.
+
+<div>
 
 
 > [!TIP]  
-> Se você estiver planejando instalar o Servidores de Borda e o proxy inverso e adicionar recursos posteriormente (por exemplo, federação e mobilidade), determine quais certificados você precisará para todos os serviços após a implantação. Planejamento e aquisição de certificados para todos os recursos antecipadamente, implantado inicialmente ou não, evita que você precise solicitar novos certificados para satisfazer os requisitos de federação (isto é, no Servidores de Borda) ou o proxy inverso (isto é, serviços de mobilidade).
+> Se você estiver planejando instalar os servidores de borda e o proxy reverso e adicionar recursos mais tarde (por exemplo, Federação e mobilidade), determine quais certificados você precisará para todos os serviços após a implantação. Planejar e adquirir os certificados para todos os recursos de antemão, implantados inicialmente ou não, poupa a necessidade de solicitar novos certificados para satisfazer os requisitos de Federação (ou seja, nos servidores de borda) ou o proxy reverso (ou seja, para mobilidade serviços).
 
+
+
+</div>
+
+<div>
 
 
 > [!NOTE]  
-> Todos os serviços de borda são executados em cada Servidor de Borda. Os serviços não podem ser divididos entre dois Servidores de Borda diferentes. Se você implantar um Pool de borda para escalabilidade, todos os serviços de borda são implantados em cada Servidor de Borda no pool. Federação XMPP, Office Communications Server e federação Lync Server, conectividade de IM público e mobilidade do cliente são serviços adicionais que podem ser implantados após implantar seu primeiro Servidor de Borda ou Pool de borda. Serviços de mobilidade é o recurso que usa proxy inverso. A instalação de serviços de mobilidade não adicionará recursos para seu Servidores de Borda, mas exigirá a reconfiguração do seu proxy inverso. A coluna <strong>objetivo de instalação</strong> que lista estes recursos oferece diretrizes de planejamento na coluna associada em <strong>Seção ou seções de planejamento do Servidor de Borda</strong> para o planejamento simultâneo destes recursos para ser implantado quando o Servidores de Borda é instalado e configurado.
+> Todos os serviços de borda são executados em cada servidor de borda. Os serviços não podem ser divididos entre dois servidores de borda diferentes. Se você implantar um pool de bordas para escalabilidade, todos os serviços de borda serão implantados em cada servidor de borda no pool. A Federação do XMPP, o Office Communications Server e a Federação do Lync Server, a conectividade de mensagens de chat públicas e a mobilidade do cliente são serviços adicionais que podem ser implantados após a implantação do seu primeiro servidor de borda ou do pool de borda. Serviços de mobilidade é um recurso que usa o proxy reverso. A instalação dos serviços de mobilidade não adicionará recursos aos seus servidores de borda, mas exigirá a reconfiguração do seu proxy reverso. A coluna de <STRONG>meta de instalação</STRONG> que lista esses recursos fornece orientação de planejamento na coluna associada em seções de planejamento do <STRONG>servidor de borda ou seções</STRONG> para planejar simultaneamente esses recursos a serem implantados quando os servidores de borda estiverem instalado e configurado.
 
-## Identificando e mapeando suas metas de implantação
+
+
+</div>
+
+<div>
+
+## <a name="identifying-and-mapping-your-deployment-goals"></a>Identificar e mapear seus objetivos de implantação
 
 
 <table>
@@ -47,49 +80,77 @@ Usando este processo, é possível planejar e documentar a configuração de tod
 <thead>
 <tr class="header">
 <th>Objetivo de instalação</th>
-<th>Documentação de planejamento do Servidor de Borda</th>
+<th>Documentação de planejamento do servidor de borda</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Você decidiu que um único servidor é suficiente para serviços de Borda em sua infraestrutura. Você também pretende usar endereços IP privados para interfaces externas do servidor de Borda com NAT para a Internet.</p>
-<p>Use esta seção de planejamento se estiver implantando um único Servidor de Borda em seu perímetro. Você implantará um Servidor de Borda com endereço IP privado atribuído ao Servidor de Borda e usará o NAT para oferecer endereços IP públicos para usuários externos na Internet.</p></td>
+<td><p>Você decidiu que um único servidor é suficiente para serviços de Edge na sua infraestrutura. Você também pretende usar endereços IP particulares para as interfaces externas do servidor de borda com NAT para a Internet.</p>
+<p>Use esta seção de planejamento se você estiver implantando um servidor de borda único em seu perímetro. Você vai implantar um servidor de borda com endereços IP privados atribuídos ao servidor de borda e usar o NAT para fornecer os endereços IP públicos para os usuários externos na Internet.</p></td>
 <td><p><a href="lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md">Única borda consolidada com endereços IP privados e NAT no Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Você decidiu que um único servidor é suficiente para serviços de Borda em sua infraestrutura. Você também pretende usar endereços IP públicos para interfaces externas do servidor de Borda para a Internet.</p>
-<p>Use esta seção de planejamento se estiver implantando um único Servidor de Borda em seu perímetro. Você implantará um Servidor de Borda com endereços IP públicos atribuídos ao Servidor de Borda. Ao invés do NAT, você usará o roteamento neste cenário. O endereço IP público atual do Servidor de Borda são disponibilizados para conexões externas do usuário.</p></td>
+<td><p>Você decidiu que um único servidor é suficiente para serviços de Edge na sua infraestrutura. Você também pretende usar endereços IP públicos para as interfaces externas do servidor de borda para a Internet.</p>
+<p>Use esta seção de planejamento se você estiver implantando um servidor de borda único em seu perímetro. Você vai implantar um servidor de borda com endereços IP públicos atribuídos ao servidor de borda. Em vez de NAT, você usará o roteamento nesse cenário. O endereço IP público real do servidor de borda é disponibilizado para conexões de usuários externos.</p></td>
 <td><p><a href="lync-server-2013-single-consolidated-edge-with-public-ip-addresses.md">Única borda consolidada com endereços IP públicos no Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Você decidiu que alta disponibilidade dos serviços de Borda é importante para seus usuários e irá implantar dois ou mais Servidores de Borda neste pool. Você também pretende usar endereços IP privados para as interfaces externas do Servidor de Borda com NAT para a Internet.</p>
-<p>Use esta seção de planejamento se estiver implantando um pool do Servidores de Borda em seu perímetro. Você implantará o Servidores de Borda com os endereços IP privados atribuídos ao Servidor de Borda, usando balanceamento de carga DNS para distribuir comunicação no pool. Você usará NAT para oferecer endereços IP públicos para usuários externos na Internet.</p></td>
+<td><p>Você decidiu que a alta disponibilidade dos serviços de borda é importante para seus usuários e irá implantar dois ou mais servidores de borda neste pool. Você também pretende usar endereços IP particulares para as interfaces externas do servidor de borda com NAT para a Internet.</p>
+<p>Use esta seção de planejamento se você estiver implantando um pool de servidores de borda em seu perímetro. Você implantará os servidores de borda com endereços IP privados atribuídos ao servidor de borda usando o balanceamento de carga de DNS para distribuir a comunicação entre o pool. Você usará o NAT para fornecer os endereços IP públicos para os usuários externos na Internet.</p></td>
 <td><p><a href="lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md">Borda consolidada em escala, balanceamento de carga de DNS com endereços IP privados usando NAT no Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Você decidiu que alta disponibilidade dos serviços de Borda é importante para seu usuário e irá implantar dois ou mais Servidores de Borda neste pool. Você também pretende usar endereços IP públicos para as interfaces externas do Servidor de Borda na Internet.</p>
-<p>Use esta seção de planejamento se estiver implantando um pool do Servidores de Borda em seu perímetro. Você implantará o Servidores de Borda com endereços IP públicos atribuídos ao Servidor de Borda, usando balanceamento de carga DNS para distribuir comunicação entre o pool. Ao invés do NAT, você usará o roteamento para oferecer endereços IP públicos para usuários externos na Internet.</p></td>
+<td><p>Você decidiu que a alta disponibilidade dos serviços de borda é importante para seus usuários e irá implantar dois ou mais servidores de borda neste pool. Você também pretende usar endereços IP públicos para as interfaces externas do servidor de borda para a Internet.</p>
+<p>Use esta seção de planejamento se você estiver implantando um pool de servidores de borda em seu perímetro. Você implantará os servidores de borda com endereços IP públicos atribuídos ao servidor de borda usando o balanceamento de carga de DNS para distribuir a comunicação entre o pool. Em vez de NAT, você usará o roteamento para fornecer os endereços IP públicos para os usuários externos na Internet.</p></td>
 <td><p><a href="lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md">Borda consolidada em escala, balanceamento de carga de DNS com endereços IP públicos no Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Você decidiu que alta disponibilidade dos serviços de Borda é importante para seus usuários e implantará dois ou mais Servidores de Borda neste pool usando um balanceador de carga de hardware.</p>
-<p>Use esta seção de planejamento se estiver implantando um pool de Servidores de Borda em seu perímetro. Você implantará o Servidores de Borda com endereços IP públicos atribuídos ao Servidor de Borda, usando balanceadores de carga de hardware para distribuir comunicações entre o pool. Ao invés do NAT, você usará o roteamento para oferecer endereços IP públicos para usuários externos na Internet.</p></td>
+<td><p>Você decidiu que a alta disponibilidade dos serviços de borda é importante para seus usuários e irá implantar dois ou mais servidores de borda nesse pool usando um balanceador de carga de hardware.</p>
+<p>Use esta seção de planejamento se você estiver implantando um pool de servidores de borda em seu perímetro. Você implantará os servidores de borda com endereços IP públicos atribuídos ao servidor de borda usando balanceadores de carga de hardware para distribuir a comunicação em todo o pool. Em vez de NAT, você usará o roteamento para fornecer os endereços IP públicos para os usuários externos na Internet.</p></td>
 <td><p><a href="lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md">Borda consolidada em escala com balanceadores de carga de hardware no Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Os cenários de federação permite planejar o recurso que irá estender os tipos de parceiros que os usuários podem se comunicar.</p><ul><li><p>Federação Lync Server</p></li><li><p>Federação Office Communications Server</p></li><li><p>Conectividade a redes públicas de mensagens instantâneas</p></li><li><p>Federação XMPP</p></li></ul></td>
-<td><p>Planejamento para cenários de federação</p><ul><li><p><a href="lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md">Planejamento para Federação do Servidor Lync Server e Office Communications</a></p></li><li><p><a href="lync-server-2013-planning-for-public-instant-messaging-connectivity.md">Planejamento para conectividade para redes públicas de mensagens instantâneas no Lync Server 2013</a></p></li><li><p><a href="lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation.md">Planejamento para Mensagens Extensíveis e Federação de Protocolo de Presença (XMPP) no Lync Server 2013</a></p></li></ul></td>
+<td><p>Os cenários de Federação permitem que você planeje o recurso que estenderá os tipos de parceiros com os quais os usuários podem se comunicar.</p>
+<ul>
+<li><p>Federação do Lync Server</p></li>
+<li><p>Federação do Office Communications Server</p></li>
+<li><p>Conectividade de mensagem de chat Pública</p></li>
+<li><p>Federação do XMPP</p></li>
+</ul></td>
+<td><p>Planejando cenários de Federação</p>
+<ul>
+<li><p><a href="lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md">Planejando a Federação do Lync Server 2013 e do Office Communications Server</a></p></li>
+<li><p><a href="lync-server-2013-planning-for-public-instant-messaging-connectivity.md">Planejando a conectividade de mensagens instantâneas públicas no Lync Server 2013</a></p></li>
+<li><p><a href="lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation.md">Como planejar a Federação do protocolo de presença e de mensagens extensíveis (XMPP) no Lync Server 2013</a></p></li>
+</ul></td>
 </tr>
 <tr class="odd">
-<td><p>Serviços de mobilidade são oferecidos através do proxy inverso. Os serviços que permitem a mobilidade para usuários externos são implantados no Servidor Front-End ou Pool de Front-Ends. Você cria ou modifica regras de publicação existentes no proxy inverso para habilitar os serviços de mobilidade para seus usuários externos.</p></td>
+<td><p>Os serviços de mobilidade são oferecidos por meio do proxy reverso. Os serviços que permitem a mobilidade para usuários externos são implantados no servidor front-end ou no pool de front-end. Você cria ou modifica regras de publicação existentes no proxy reverso para habilitar serviços de mobilidade para seus usuários externos.</p></td>
 <td><p><a href="lync-server-2013-planning-for-mobility.md">Planejamento para mobilidade no Lync Server 2013</a></p></td>
 </tr>
 </tbody>
 </table>
 
 
+<div>
+
 
 > [!TIP]  
-> Nas seguintes seções Cenários existem arquiteturas de referência, DNS de exemplo, definições de porta/protocolo e requisitos de certificado. Também inclui diagramas para seu DNS, definições de porta/protocolo e necessidades de certificado. Os diagramas oferecerão um modelo para você preencher e distribuir para outras equipes (por exemplo, a Equipe de Rede da sua organização, Equipe de Infraestrutura de Chave Pública e Equipe de Implantação do Servidor). O objetivo do diagrama é melhorar a comunicação e garantir o sucesso ao comunicar os elementos de configuração obrigatórios do Servidor de Borda para pessoas que irão realizar o trabalho de configuração. Recomendamos que você use os diagramas e as arquiteturas de referência associados para planejar sua implantação.
+> Nas seções de cenários a seguir estão as arquiteturas de referência, o exemplo de DNS, as definições de porta/protocolo e os requisitos de certificado. Também estão incluídos diagramas para suas definições de DNS, porta/protocolo e necessidades de certificado. Os diagramas fornecerão um modelo para você preencher e distribuir para outras equipes (por exemplo, a equipe de rede da sua organização, a equipe da infraestrutura de chave pública e a equipe de implantação do servidor). A meta dos diagramas é melhorar a comunicação e garantir o sucesso ao comunicar os elementos de configuração do servidor de borda necessárias para as pessoas que farão o trabalho de configuração real. Recomendamos que você use os diagramas e as arquiteturas de referência associadas para planejar a implantação.
 
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

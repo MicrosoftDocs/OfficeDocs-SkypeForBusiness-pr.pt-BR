@@ -1,27 +1,61 @@
-﻿---
-title: Planejamento e implantação da autenticação de dois fatores no Lync Server 2013
-TOCTitle: Planejamento e implantação da autenticação de dois fatores no Lync Server 2013
-ms:assetid: 442a88df-ebc2-4335-9c59-0ce1adc1471e
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Dn308563(v=OCS.15)
-ms:contentKeyID: 56270385
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: planejando e implantando a autenticação de dois fatores'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for and deploying two-factor authentication
+ms:assetid: 442a88df-ebc2-4335-9c59-0ce1adc1471e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn308563(v=OCS.15)
+ms:contentKeyID: 54973686
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8c902a3abd0035cbffa5bb10ed05cad6fa7bcc6b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825090"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planejamento e implantação da autenticação de dois fatores no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-07-11_
+# <a name="two-factor-authentication-in-lync-server-2013"></a>Autenticação de dois fatores no Lync Server 2013
 
-A autenticação de dois fatores oferece maior segurança ao exigir que os usuários obedeçam a dois critérios de autenticação: uma combinação de nome de usuário/senha e um token ou certificado. Isso também é conhecido como “algo que você tem, algo que você sabe”. Um exemplo típico da autenticação de dois fatores com um certificado é o uso de cartões inteligentes. Um cartão inteligente contém um certificado associado à conta do usuário e pode ser validado com as informações e certificado e usuário que estão armazenadas em um servidor. Ao comparar as informações do usuário (nome do usuário e senha) ao certificado fornecido, o servidor valida as credenciais e autentica o usuário.
+</div>
 
-## Nesta seção
+<div id="mainSection">
 
-[Planejamento para a autenticação de dois fatores](lync-server-2013-planning-for-two-factor-authentication.md)
+<div id="mainBody">
 
-[Configuração da autenticação de dois fatores](lync-server-2013-configuring-two-factor-authentication.md)
+<span> </span>
 
-[Usar a autenticação de dois fatores com o cliente do Lync](lync-server-2013-using-two-factor-authentication-with-lync-client.md)
+_**Tópico da última modificação:** 2013-07-11_
+
+A autenticação de dois fatores oferece segurança aprimorada exigindo que os usuários conheçam dois critérios de autenticação: uma combinação de nome de usuário/senha e token ou certificado. Isso também é conhecido como "algo que você tem, algo que você sabe". Um exemplo típico da autenticação de dois fatores com um certificado é o uso de cartões inteligentes. Um cartão inteligente contém um certificado associado à conta do usuário e pode ser validado com as informações e certificado e usuário que estão armazenadas em um servidor. Ao comparar as informações do usuário (nome do usuário e senha) ao certificado fornecido, o servidor valida as credenciais e autentica o usuário.
+
+<div>
+
+## <a name="in-this-section"></a>Nesta seção
+
+[Planejando a autenticação de dois fatores no Lync Server 2013](lync-server-2013-planning-for-two-factor-authentication.md)
+
+[Configurando a autenticação de dois fatores no Lync Server 2013](lync-server-2013-configuring-two-factor-authentication.md)
+
+[Usando a autenticação de dois fatores com o Lync Client e o Lync Server 2013](lync-server-2013-using-two-factor-authentication-with-lync-client.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

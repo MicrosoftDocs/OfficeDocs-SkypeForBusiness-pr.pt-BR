@@ -1,25 +1,47 @@
-﻿---
-title: 'Lync Server 2013: Gerenciando categotias, salas e suplementos'
-TOCTitle: Gerenciando categotias, salas e suplementos
-ms:assetid: a9807031-7369-4a51-9369-6f09bec24141
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412799(v=OCS.15)
-ms:contentKeyID: 49307746
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Gerenciando categotias, salas e suplementos'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing categories, rooms, and add-ins
+ms:assetid: a9807031-7369-4a51-9369-6f09bec24141
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412799(v=OCS.15)
+ms:contentKeyID: 48185100
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2870d83d463866e07afdffab7c0a840bb2686928
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828079"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Gerenciando categotias, salas e suplementos no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-06_
+# <a name="managing-categories-rooms-and-add-ins-in-lync-server-2013"></a>Gerenciando categotias, salas e suplementos no Lync Server 2013
 
-No Painel de Controle do Lync Server 2013, usando cmdlets Windows PowerShell, os administradores do Chat Persistente podem usar a página **Chat Persistente** para criar categorias e complementos. Para gerenciar salas do Chat Persistente, os administradores podem usar cmdlets Windows PowerShell. Como alternativa, se o administrador do Chat Persistente for também habilitado para SIP, ele pode usar o cliente do Lync para iniciar uma página web para criar e gerenciar salas de chat.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-06_
+
+No painel de controle do Lync Server 2013 ou usando cmdlets do Windows PowerShell, administradores de chat persistente podem usar a página de **chat persistente** para criar categorias e suplementos. Para gerenciar salas de chat persistente, os administradores podem usar cmdlets do Windows PowerShell. Como alternativa, se o administrador de chat persistente também estiver habilitado para SIP, ele poderá usar o cliente do Lync para iniciar uma página da Web para criar e gerenciar salas de chat.
 
 Os tópicos a seguir descrevem como criar e trabalhar com categorias e salas de chat.
 
-## Nesta seção
+<div>
+
+## <a name="in-this-section"></a>Nesta seção
 
   - [Criando ou editando uma nova categoria no Lync Server 2013](lync-server-2013-creating-or-editing-a-new-category.md)
 
@@ -36,4 +58,16 @@ Os tópicos a seguir descrevem como criar e trabalhar com categorias e salas de 
   - [Excluindo sala de chat ou categoria no Lync Server 2013](lync-server-2013-deleting-a-chat-room-or-category.md)
 
   - [Excluindo uma mensagem ou limpando mensagens obsoletas no Lync Server 2013](lync-server-2013-deleting-a-message-or-purging-obsolete-messages.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

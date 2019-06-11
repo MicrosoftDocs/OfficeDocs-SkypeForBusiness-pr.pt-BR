@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Detalhes da tabela de QoE'
-TOCTitle: Detalhes da tabela de QoE
-ms:assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg413003(v=OCS.15)
-ms:contentKeyID: 49308550
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Detalhes da tabela de QoE'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: QoE table details
+ms:assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413003(v=OCS.15)
+ms:contentKeyID: 48185775
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: bcfb0d3dd40341f082e4efdcb8bd22a7c3ba6b25
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823774"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Detalhes da tabela de QoE no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-02_
+# <a name="qoe-table-details-in-lync-server-2013"></a>Detalhes da tabela de QoE no Lync Server 2013
 
-Estas seções detalham as colunas em cada tabelas de esquema do banco de dados do QoE (Quality of Experience).
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-02_
+
+Essas seções detalham as colunas em cada uma das tabelas de esquema de banco de dados de qualidade da experiência (QoE).
 
   - [Tabela AppliedBandwidthSource no Lync Server 2013](lync-server-2013-appliedbandwidthsource-table.md)
 
@@ -86,4 +106,14 @@ Estas seções detalham as colunas em cada tabelas de esquema do banco de dados 
   - [Tabela VideoMetricsThreshold no Lync Server 2013](lync-server-2013-videometricsthreshold-table.md)
 
   - [Tabela VideoStream no Lync Server 2013](lync-server-2013-videostream-table.md)
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

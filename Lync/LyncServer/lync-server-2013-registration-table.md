@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Tabela de registro'
-TOCTitle: Tabela de registro
-ms:assetid: 05ff9dd3-1aaa-4af0-bd69-8789fb8eaeb3
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398114(v=OCS.15)
-ms:contentKeyID: 49305771
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Tabela de registro'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Registration table
+ms:assetid: 05ff9dd3-1aaa-4af0-bd69-8789fb8eaeb3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398114(v=OCS.15)
+ms:contentKeyID: 48183298
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: dfee81d83fb58b2fbeccff68a672da47e6770bd6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823795"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Tabela de registro no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="registration-table-in-lync-server-2013"></a>Tabela de registro no Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-09-28_
 
 Cada registro representa um evento de registro de usuário.
 
@@ -29,134 +49,145 @@ Cada registro representa um evento de registro de usuário.
 <tr class="header">
 <th>Coluna</th>
 <th>Tipo de dados</th>
-<th>Chave/Índice</th>
+<th>Chave/índice</th>
 <th>Detalhes</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>SessionIdTime</strong></p></td>
+<td><p><strong>Id_da_sessãotime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Primária, estrangeira</p></td>
-<td><p>Hora da solicitação da sessão. Usado em conjunto com <strong>SessionIdSeq</strong> para identificar exclusivamente uma sessão. Consulte <a href="lync-server-2013-dialogs-table.md">Tabela Dialogs no Lync Server 2013</a> para mais informações.</p></td>
+<td><p>Primário, estrangeiro</p></td>
+<td><p>Tempo de solicitação de sessão. Usado em conjunto com o <strong>SessionIdSeq</strong> para identificar exclusivamente uma sessão. Consulte a <a href="lync-server-2013-dialogs-table.md">tabela de diálogos no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primária, estrangeira</p></td>
-<td><p>Número para identificar a sessão. Usado em conjunto com <strong>SessionIdTime</strong> para identificar uma sessão. Consulte a <a href="lync-server-2013-dialogs-table.md">Tabela Dialogs no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>Primário, estrangeiro</p></td>
+<td><p>Número de identificação para identificar a sessão. Usado em conjunto com <strong></strong> a identificação_da_sessãotime para identificar exclusivamente uma sessão. Consulte a <a href="lync-server-2013-dialogs-table.md">tabela de diálogos no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>UserId</strong></p></td>
+<td><p><strong>ID</strong></p></td>
 <td><p>int</p></td>
-<td><p>Estrangeiro</p></td>
-<td><p>A ID do usuário. Consulte <a href="lync-server-2013-users-table.md">Tabela Users no Lync Server 2013</a>para mais informações.</p></td>
+<td><p>Exterior</p></td>
+<td><p>A ID de usuário. Consulte a <a href="lync-server-2013-users-table.md">tabela usuários no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>EndpointId</strong></p></td>
-<td><p>uniqueidentifier</p></td>
-<td><p></p></td>
-<td><p>Um GUID para identificar um ponto de extremidade de registro. Geralmente, o evento de registro do mesmo computador do mesmo usuário terá a mesma ID de ponto de extremidade. Máquinas diferentes possuem uma ID de ponto de extremidade diferente.</p></td>
+<td><p><strong>Endpointid</strong></p></td>
+<td><p>identificador</p></td>
+<td></td>
+<td><p>Um GUID para identificar um ponto de extremidade de registro. Geralmente, o evento Register do mesmo computador do mesmo usuário terá a mesma ID de ponto de extremidade. Máquinas diferentes têm uma ID de ponto de extremidade diferente.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>EndpointEra</strong></p></td>
-<td><p>uniqueIdentifier</p></td>
-<td><p></p></td>
-<td><p>ID usado para diferenciar registros que envolvem o mesmo usuário e o mesmo ponto de extremidade.</p>
-<p>Este campo foi introduzido no Microsoft Lync Server 2013.</p></td>
+<td><p><strong>Ponteiro de fim</strong></p></td>
+<td><p>Identificador</p></td>
+<td></td>
+<td><p>ID usada para diferenciar os registros que envolvem o mesmo usuário e o mesmo ponto de extremidade.</p>
+<p>Este campo foi apresentado no Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ClientVersionId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Estrangeiro</p></td>
-<td><p>Versão do cliente do usuário atual. Consulte <a href="lync-server-2013-clientversions-table.md">Tabela ClientVersions no Lync Server 2013</a> para mais informações.</p></td>
+<td><p>Exterior</p></td>
+<td><p>Versão cliente do usuário atual. Consulte a <a href="lync-server-2013-clientversions-table.md">tabela ClientVersions no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>RegistrarId</strong></p></td>
+<td><p><strong>Registrador de registro</strong></p></td>
 <td><p>int</p></td>
-<td><p>Estrangeiro</p></td>
-<td><p>ID do Servidor Registrador usado para registro. Consulte <a href="lync-server-2013-servers-table.md">Tabela de servidores no Lync Server 2013</a> para mais informações.</p></td>
+<td><p>Exterior</p></td>
+<td><p>ID do servidor de registrador usado para registro. Consulte a <a href="lync-server-2013-servers-table.md">tabela servidores no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>PoolId</strong></p></td>
+<td><p><strong>Poolid</strong></p></td>
 <td><p>int</p></td>
-<td><p>Estrangeiro</p></td>
-<td><p>ID do pool em que a sessão foi capturada. Consulte <a href="lync-server-2013-pools-table.md">Tabela Pools no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>Exterior</p></td>
+<td><p>ID do pool no qual a sessão foi capturada. Consulte a <a href="lync-server-2013-pools-table.md">tabela de grupos no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>EdgeServerId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Estrangeiro</p></td>
-<td><p>Servidor de Borda pelo qual o registro está passando. Consulte <a href="lync-server-2013-edgeservers-table.md">Tabela EdgeServers no Lync Server 2013</a> para mais informações.</p></td>
+<td><p>Exterior</p></td>
+<td><p>Servidor de borda no qual o registro está indo. Consulte a <a href="lync-server-2013-edgeservers-table.md">tabela EdgeServers no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IsInternal</strong></p></td>
 <td><p>Bit</p></td>
-<td><p></p></td>
-<td><p>Quer o usuário esteja conectado internamente ou não.</p></td>
+<td></td>
+<td><p>Se o usuário está conectado de Internal ou not.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IsUserServiceAvailable</strong></p></td>
 <td><p>bit</p></td>
-<td><p></p></td>
-<td><p>Quer o UserService esteja disponível ou não.</p></td>
+<td></td>
+<td><p>Se o UserService está disponível ou não.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IsPrimaryRegistrar</strong></p></td>
 <td><p>bit</p></td>
-<td><p></p></td>
-<td><p>Quer registre-se no primeiro Registrador ou não.</p></td>
+<td></td>
+<td><p>Se registrar ao registrador principal ou não.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IsPrimaryRegistrarCentral</strong></p></td>
 <td><p>bit</p></td>
-<td><p></p></td>
-<td><p>Indica se o usuário é registrado com um Aparelho de Filial Persistente.</p>
-<p>Este campo foi introduzido no Microsoft Lync Server 2013.</p></td>
+<td></td>
+<td><p>Indica se o usuário está ou não registrado em um aparelho de ramificação sobreviventes.</p>
+<p>Este campo foi apresentado no Microsoft Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>RegisterTime</strong></p></td>
+<td><p><strong>Registertime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p></p></td>
-<td><p>Período de registro.</p></td>
+<td></td>
+<td><p>Hora do registro.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>DeRegisterTime</strong></p></td>
+<td><p><strong>Cancelar registro</strong></p></td>
 <td><p>datetime</p></td>
-<td><p></p></td>
-<td><p>Período de cancelamento de registro.</p></td>
+<td></td>
+<td><p>Hora de cancelamento de registro.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ResponseCode</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
+<td></td>
 <td><p>Código de resposta da solicitação de registro.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>DiagnosticId</strong></p></td>
+<td><p><strong>Diagnosticid</strong></p></td>
 <td><p>int</p></td>
-<td><p></p></td>
-<td><p>ID do diagnóstico da solicitação de registro, que indica o tipo de informação de diagnóstico.</p></td>
+<td></td>
+<td><p>ID do diagnóstico da solicitação de registro. Isso indica que o tipo de informações de diagnóstico.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DeviceId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Estrangeiro</p></td>
-<td><p>O dispositivo do qual a solicitação de registro está vindo. Consulte <a href="lync-server-2013-devices-table.md">Tabela Devices no Lync Server 2013</a> para mais informações.</p></td>
+<td><p>Exterior</p></td>
+<td><p>O dispositivo do qual a solicitação de registro provém. Consulte a <a href="lync-server-2013-devices-table.md">tabela de dispositivos no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DeRegisterTypeId</strong></p></td>
 <td><p>tinyint</p></td>
-<td><p>Estrangeiro</p></td>
-<td><p>O motivo do cancelamento do registro, como &quot;iniciado pelo usuário&quot;, &quot;registro expirado&quot;, &quot;falha do cliente&quot; e mais. Consulte <a href="lync-server-2013-deregistertype-table.md">Tabela DeRegisterType no Lync Server 2013</a> para mais informações.</p></td>
+<td><p>Exterior</p></td>
+<td><p>O motivo do cancelamento de registro, como ' iniciado pelo usuário ', ' registro expirado ', ' falha do cliente ' e muito mais. Consulte a <a href="lync-server-2013-deregistertype-table.md">tabela Canregistertype no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IPAddress</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p></p></td>
-<td><p>Endereço IP do ponto da extremidade com o qual o usuário é registrado. Pode ser um endereço IPv4 ou IPv6.</p>
-<p>Este campo foi introduzido no Microsoft Lync Server 2013.</p></td>
+<td></td>
+<td><p>Endereço IP do ponto de extremidade ao qual o usuário se cadastrou. Pode ser um endereço IPv4 ou um endereço IPv6.</p>
+<p>Este campo foi apresentado no Microsoft Lync Server 2013.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

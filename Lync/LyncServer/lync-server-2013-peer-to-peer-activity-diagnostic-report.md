@@ -1,25 +1,45 @@
-﻿---
-title: 'Lync Server 2013: Relatório de Diagnóstico de Atividade Ponto a Ponto'
-TOCTitle: Relatório de Diagnóstico de Atividade Ponto a Ponto
-ms:assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg558602(v=OCS.15)
-ms:contentKeyID: 49305682
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: relatório de diagnóstico de atividade ponto a ponto'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Peer-to-Peer Activity Diagnostic Report
+ms:assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558602(v=OCS.15)
+ms:contentKeyID: 48183242
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f435a4b0ff0ec42e8898260c3ada528963bbebb1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825405"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Relatório de Diagnóstico de Atividade Ponto a Ponto no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="peer-to-peer-activity-diagnostic-report-in-lync-server-2013"></a>Relatório de diagnóstico de atividade ponto a ponto no Lync Server 2013
 
-O Relatório de Diagnóstico de Atividades Ponto a Ponto fornece informações sobre o sucesso e falha de suas sessões de comunicação ponto a ponto. Observe que o Microsoft Lync Server 2013 diferencia entre os tipos de falha:
+</div>
 
-  - **Falha esperada** . Uma falha esperada é normalmente uma falha somente no sentido mais técnico. Por exemplo, vamos supor que você ligue para alguém, mas ele ou ela esteja fora do escritório e não possa atender ao telefone. Como a chamada não foi atendida, ela é considerada tecnicamente uma falha. Por outro lado, essa é uma falha esperada: o Microsoft Lync Server 2013 não espera que você atenda ao telefone se não estiver disponível. Da mesma maneira, uma falha esperada ocorrerá se você tentar enviar uma mensagem instantânea a um usuário que esteja offline, ou conectado apenas a um telefone que não suporta mensagem instantânea.
+<div id="mainSection">
 
-  - **Falha inesperada** . Um erro inesperado é exatamente o que o nome sugere: um erro que, baseado nas circunstâncias, você não espera. Por exemplo, vamos supor que você ligue para alguém e que a pessoa esteja disponível para atender à chamada; no entanto, quando o Lync Server 2013 tenta encaminhar sua chamada para a caixa postal, a chamada falha devido à perda de conectividade com a Unificação de Mensagens do Exchange. Esse é um erro inesperado: você espera que as chamada sempre sejam encaminhadas para a caixa postal. Como regra geral, falhas inesperadas são verdadeiras falhas: elas são problemas que provavelmente não podem ser corrigidos por meio da educação do usuário ou por medidas parecidas.
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-01_
+
+O Relatório de Diagnóstico de Atividades Ponto a Ponto fornece informações sobre o sucesso e falha de suas sessões de comunicação ponto a ponto. Observe que o Microsoft Lync Server 2013 distingue entre os diferentes tipos de falha:
+
+  - **Falha esperada**. Uma falha esperada é normalmente uma falha somente no sentido mais técnico. Por exemplo, vamos supor que você ligue para alguém, mas ele ou ela esteja fora do escritório e não possa atender ao telefone. Como a chamada não foi atendida, ela é considerada tecnicamente uma falha. Por outro lado, isso era uma falha esperada: o Microsoft Lync Server 2013 não espera que você atenda ao telefone se não estiver disponível para atender ao telefone. Da mesma maneira, uma falha esperada ocorrerá se você tentar enviar uma mensagem instantânea a um usuário que esteja offline, ou conectado apenas a um telefone que não suporta mensagem instantânea.
+
+  - **Falha inesperada**. Um erro inesperado é exatamente o que o nome sugere: um erro que, baseado nas circunstâncias, você não espera. Por exemplo, suponha que você ligue para alguém e essa pessoa está disponível para atender a chamada; no entanto, quando o Lync Server 2013 tenta encaminhar sua chamada para o correio de voz, a chamada falha porque a conectividade com a Unificação de mensagens do Exchange foi perdida. Isso é um erro inesperado: você espera que as chamadas sejam sempre roteadas para o correio de voz. Como regra geral, falhas inesperadas são verdadeiras falhas: elas são problemas que provavelmente não podem ser corrigidos por meio da educação do usuário ou por medidas parecidas.
 
 Observe que talvez as métricas Sucesso, Falha esperada e Falha inesperada não acrescentem à métrica Total de sessões. Por exemplo, na ilustração anterior, temos os seguintes valores:
 
@@ -50,27 +70,37 @@ Observe que talvez as métricas Sucesso, Falha esperada e Falha inesperada não 
 </table>
 
 
-Se você adicionar 2024 + 469 + 16 terá um total de 2.509 sessões, ainda assim a coluna Total de sessões mostrará um total de 2.521 sessões. As 12 sessões que "faltam" são sessões que o sistema não pode categorizar como bem-sucedida ou sem sucesso. Esse será o caso, às vezes, quando um produto de terceiro apresentar um novo código de diagnóstico não conhecido pelo Lync Server. Quando isso acontece, as chamadas feitas usando esse produto, e o relatório desse código de diagnóstico, não podem sempre ser categorizados como Sucesso, Falha esperada ou Falha inesperada.
+Se você adicionar 2024 + 469 + 16 terá um total de 2.509 sessões, ainda assim a coluna Total de sessões mostrará um total de 2.521 sessões. As 12 sessões que "faltam" são sessões que o sistema não pode categorizar como bem-sucedida ou sem sucesso. Isso, às vezes, é o caso quando um produto de terceiros introduz um novo código de diagnóstico que não é familiar ao Lync Server. Quando isso acontece, as chamadas feitas usando esse produto, e o relatório desse código de diagnóstico, não podem sempre ser categorizados como Sucesso, Falha esperada ou Falha inesperada.
 
-## Acessando o Relatório de Diagnóstico de Atividades Ponto a Ponto
+<div>
 
-O Relatório de Diagnóstico de Atividades Ponto a Ponto é acessado a partir da home page dos Relatórios de monitoramento. É possível acessar o [Relatório de Distribuição de Falha no Lync Server 2013](lync-server-2013-failure-distribution-report.md) clicando nas seguintes métricas:
+## <a name="accessing-the-peer-to-peer-activity-diagnostic-report"></a>Acessando o Relatório de Diagnóstico de Atividades Ponto a Ponto
+
+O Relatório de Diagnóstico de Atividades Ponto a Ponto é acessado a partir da home page dos Relatórios de monitoramento. Você pode acessar o [relatório de distribuição de falha no Lync Server 2013](lync-server-2013-failure-distribution-report.md) clicando em uma das seguintes métricas:
 
   - Volume de falhas inesperadas
 
   - Volume de falhas esperadas
 
-## Fazendo o melhor uso do Relatório de Diagnóstico de Atividades Ponto a Ponto
+</div>
+
+<div>
+
+## <a name="making-the-best-use-of-the-peer-to-peer-activity-diagnostic-report"></a>Fazendo o melhor uso do Relatório de Diagnóstico de Atividades Ponto a Ponto
 
 Há diversas maneiras de usar filtrar o Relatório de Diagnóstico de Atividades Ponto a Ponto, mas, por padrão, essas opções de filtragem ficam ocultas. Para exibir as opções de filtragem disponíveis, clique no botão Mostrar/Ocultar Parâmetros no canto superior direito da janela de relatório. Depois de fazer isso, as opções de filtragem ficarão disponíveis para uso.
 
-## Filtros
+</div>
+
+<div>
+
+## <a name="filters"></a>Filtros
 
 Filtros oferecem uma maneira de você retornar um conjunto de dados mais preciso ou visualizar os dados retornados de maneiras diferentes. Por exemplo, o Relatório de Diagnóstico de Atividade Ponto-a-Ponto permite que você filtre tais coisas como a modalidade de sessão (por exemplo, mensagens instantâneas, transferência de arquivos ou compartilhamento de arquivos). Você pode escolher também como os dados devem ser agrupados. Neste caso, as chamadas são agrupadas por hora, dia, semana ou mês.
 
 A tabela a seguir lista os filtros que você pode utilizar com o Relatório de Diagnóstico de Atividade Ponto-a-Ponto.
 
-### Filtros de Relatório de Diagnóstico de Atividade Ponto-a-Ponto
+### <a name="peer-to-peer-activity-diagnostic-report-filters"></a>Filtros de Relatório de Diagnóstico de Atividade Ponto-a-Ponto
 
 <table>
 <colgroup>
@@ -113,7 +143,7 @@ A tabela a seguir lista os filtros que você pode utilizar com o Relatório de D
 <li><p>Semanalmente (é possível exibir no máximo 12 semanas)</p></li>
 <li><p>Mensalmente (é possível exibir no máximo 12 meses)</p></li>
 </ul>
-<p>Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, somente o número máximo de valores (a partir da data de início) será exibido. Por exemplo, se você selecionar o intervalo Diariamente com data de início em 7/7/2012 e data de término de 2/28/2012, os dados serão exibidos do dia 8/7/2012, às 12:00 AM, até o dia 9/7/2012, às 12:00 AM (ou seja, um total de 31 dias de dados).</p></td>
+<p>Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, somente o número máximo de valores (a partir da data de início) será exibido. Por exemplo, se você selecionar o intervalo diário com uma data de início de 7/7/2012 e uma data de término de 2/28/2012, os dados serão exibidos para os dias 8/7/2012 12:00 AM a 9/7/2012 12:00 AM (ou seja, um total de 31 dias da importância dos dados).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Pool</strong></p></td>
@@ -135,11 +165,15 @@ A tabela a seguir lista os filtros que você pode utilizar com o Relatório de D
 </table>
 
 
-## Medidas (por modalidade)
+</div>
+
+<div>
+
+## <a name="metrics-per-modality"></a>Medidas (por modalidade)
 
 A tabela a seguir lista as informações oferecidas no Relatório de Diagnóstico de Atividades Ponto-a-Ponto para cada modalidade.
 
-### Medidas (por modalidade)
+### <a name="metrics-per-modality"></a>Medidas (por modalidade)
 
 <table>
 <colgroup>
@@ -166,32 +200,45 @@ A tabela a seguir lista as informações oferecidas no Relatório de Diagnóstic
 <td><p>Porcentagem de sessões ponto-a-ponto completas com problemas significativos. Calculado dividindo o Volume de sucesso pelo Total de sessões.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Volume de falha esperado</strong></p></td>
+<td><p><strong>Volume de falhas esperadas</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Número total de sessões nas quais ocorreu uma &quot;falha esperada&quot;.</p>
+<td><p>Número total de sessões em que &quot;ocorreu uma&quot; falha esperada.</p>
 <p>Uma falha esperada é quando se sabe que a falha ocorrerá. Por exemplo, se um usuário tiver definido seu status como Não perturbe, é esperado que qualquer chamada para esse usuário falhe.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Percentual de falha esperada</strong></p></td>
+<td><p><strong>Percentual de falhas esperadas</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Porcentagem de sessões ponto-a-ponto que tiveram um erro esperado. Calculado dividindo o Volume de falhas esperada pelo Total de sessões.</p></td>
+<td><p>Porcentagem de sessões ponto-a-ponto que tiveram um erro esperado. Calculado dividindo o Volume de falhas esperadas pelo Total de sessões.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Volume de falha esperado</strong></p></td>
+<td><p><strong>Volume de falhas inesperadas</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Número total de sessões nas quais ocorreu uma &quot;falha inesperada&quot;.</p>
+<td><p>Número total de sessões em que &quot;ocorreu uma&quot; falha inesperada.</p>
 <p>Uma falha inesperada é uma falha que ocorre no que aparenta ser um sistema íntegro. Por exemplo, uma chamada não deve ser encerrada se o chamador for colocado em espera. Se isso ocorrer, isso seria sinalizado como uma falha inesperada.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Percentual de falha inesperada</strong></p></td>
+<td><p><strong>Percentual de falhas inesperadas</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Porcentagem de sessões ponto-a-ponto nas quais um erro inesperado ocorreu. Calculado dividindo o Volume de falhas inesperadas pelo Total de sessões.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Total de sessões</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Número total de sessões, incluindo sessões bem-sucedidas, com falha (tanto falhas esperadas quanto inesperadas) e sessões não categorizadas.</p></td>
+<td><p>Número total de sessões, incluindo sessões bem-sucedidas, com falha (esperada e/ou inesperada) e sessões não categorizadas.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

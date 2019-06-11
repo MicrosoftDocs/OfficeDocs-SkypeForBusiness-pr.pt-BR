@@ -1,27 +1,49 @@
-﻿---
-title: Contadores de desempenho de mobilidade
-TOCTitle: Contadores de desempenho de mobilidade
-ms:assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Hh690046(v=OCS.15)
-ms:contentKeyID: 49308199
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: contadores de desempenho da mobilidade'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Mobility performance counters
+ms:assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690046(v=OCS.15)
+ms:contentKeyID: 48185441
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8c0759ccd6a9203dfac87f0ec55f555d49d19ccc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827113"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Contadores de desempenho de mobilidade
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="mobility-performance-counters-in-lync-server-2013"></a>Contadores de desempenho de mobilidade no Lync Server 2013
 
-As tabelas a seguir listam os nomes e descrições de contadores de desempenho que podem ser usados para monitorar servidores que executem o Unified Communications Web API (UCWA) e o Mcx Mobility Service do Lync Server 2013.
+</div>
 
-O nome da categoria para os contadores na tabela UCWA é **LS:WEB - UCWA**.
+<div id="mainSection">
 
-O nome da categoria para os contadores na tabela Mcx Mobility Service é **LS:WEB - Mobile Communication Service**.
+<div id="mainBody">
 
-## Contadores de desempenho para UCWA
+<span> </span>
+
+_**Tópico da última modificação:** 2013-02-22_
+
+As tabelas a seguir listam os nomes e descrições dos contadores de desempenho que você pode usar para monitorar servidores que executam a API da Web de comunicação unificada (UCWA) e o serviço de mobilidade do MCX do Lync Server 2013.
+
+O nome da categoria para os contadores na tabela UCWA é **LS:WEB – UCWA**.
+
+O nome da categoria para os contadores na tabela do Serviço de Mobilidade Mcx é **LS:WEB – Mobile Communication Service**.
+
+<div>
+
+## <a name="performance-counters-for-ucwa"></a>Contadores de desempenho para UCWA
 
 
 <table>
@@ -70,7 +92,7 @@ O nome da categoria para os contadores na tabela Mcx Mobility Service é **LS:WE
 </tr>
 <tr class="odd">
 <td><p>Contagem de sessões ativas</p></td>
-<td><p>O número atual de pontos de extremidade registrados no UCWA por aplicação e no total</p></td>
+<td><p>O número atual de pontos de extremidade registrados no UCWA por aplicativo e no total</p></td>
 </tr>
 <tr class="even">
 <td><p>Contagem de instâncias de usuário ativas</p></td>
@@ -141,7 +163,7 @@ O nome da categoria para os contadores na tabela Mcx Mobility Service é **LS:WE
 <td><p>O número total de falhas de desserialização</p></td>
 </tr>
 <tr class="odd">
-<td><p>Número de falhas ao baixar fotos em HD</p></td>
+<td><p>Número de falhas de obtenção de foto HD</p></td>
 <td><p>O número total de falhas ao baixar fotos em HD do Exchange</p></td>
 </tr>
 <tr class="even">
@@ -212,7 +234,11 @@ O nome da categoria para os contadores na tabela Mcx Mobility Service é **LS:WE
 </table>
 
 
-### Contadores de desempenho para Mcx Mobility Service
+</div>
+
+<div id="sectionSection1" class="section">
+
+### <a name="performance-counters-for-mcx-mobility-service"></a>Contadores de desempenho para Mobility Service (Mcx)
 
 <table>
 <colgroup>
@@ -244,7 +270,7 @@ O nome da categoria para os contadores na tabela Mcx Mobility Service é **LS:WE
 </tr>
 <tr class="odd">
 <td><p>Contagem de sessão ativa no momento</p></td>
-<td><p>Número atual de pontos de extremidade registrados no Serviço de Mobilidade</p></td>
+<td><p>Número atual de pontos de extremidade registrados no Mobility Service</p></td>
 </tr>
 <tr class="even">
 <td><p>Contagem de sessão ativa no momento com assinaturas de presença ativa</p></td>
@@ -332,11 +358,11 @@ O nome da categoria para os contadores na tabela Mcx Mobility Service é **LS:WE
 </tr>
 <tr class="odd">
 <td><p>Total de solicitações bem-sucedidas</p></td>
-<td><p>O número total de solicitações feitas ao Serviço de Mobilidade que tiveram êxito</p></td>
+<td><p>O número total de solicitações feitas ao Mobility Service que tiveram êxito</p></td>
 </tr>
 <tr class="even">
 <td><p>Contagem total de sessões iniciadas</p></td>
-<td><p>O número total de sessões iniciadas desde a inicialização do Serviço de Mobilidade</p></td>
+<td><p>O número total de sessões iniciadas desde a inicialização do Mobility Service</p></td>
 </tr>
 <tr class="odd">
 <td><p>Total de sessões encerradas devido ao tempo limite de usuário ocioso</p></td>
@@ -352,4 +378,17 @@ O nome da categoria para os contadores na tabela Mcx Mobility Service é **LS:WE
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

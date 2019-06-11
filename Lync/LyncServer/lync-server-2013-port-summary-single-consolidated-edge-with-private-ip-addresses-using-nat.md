@@ -1,35 +1,57 @@
-﻿---
-title: "Res. de porta - única borda consol. com end. IP privados usando NAT"
-TOCTitle: Resumo de porta - única borda consolidada com endereços IP privados usando NAT
-ms:assetid: 3c1a389f-5f42-4719-a05b-e0b84aa3eb9e
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425891(v=OCS.15)
-ms:contentKeyID: 49306442
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Resumo de porta - única borda consolidada com endereços IP privados usando NAT
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Port summary - Single consolidated edge with private IP addresses using NAT
+ms:assetid: 3c1a389f-5f42-4719-a05b-e0b84aa3eb9e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425891(v=OCS.15)
+ms:contentKeyID: 48183877
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0b7c908d52577375f9caaab974f059ffda17fb35
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824355"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Resumo de porta - única borda consolidada com endereços IP privados usando NAT no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="port-summary---single-consolidated-edge-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>Resumo de porta - única borda consolidada com endereços IP privados usando NAT no Lync Server 2013
 
-A funcionalidade Lync Server 2013, Servidor de Borda, descrita nesta arquitetura de cenário, é bastante similar ao que foi implementado no Lync Server 2010. A adição mais notável é a entrada da porta **5269 sobre TCP** para o protocolo de presença e mensagem extensível (XMPP). O Lync Server 2013 implanta, opcionalmente, um proxy XMPP no Servidor de Borda ou Pool de borda e o servidor de gateway XMPP no Servidor Front-End ou Pool de Front-Ends.
+</div>
 
-Além do IPv4, o Servidor de Borda agora tem suporte para IPv6. Para não confundir, apenas o IPv4 é usado nos cenários.
+<div id="mainSection">
 
-**Perímetro de rede para um Servidor de Borda Único Consolidado com Endereçamento IP usando NAT**
+<div id="mainBody">
 
-![Servidor de Borda Consolidada Única](images/Gg425891.f8c144c5-e5fb-498a-823e-eb39f26b6847(OCS.15).jpg "Servidor de Borda Consolidada Única")
+<span> </span>
 
-## Detalhes de protocolo e porta
+_**Tópico da última modificação:** 2013-04-03_
 
-Recomendamos abrir apenas as portas necessárias para dar suporte à funcionalidade para a qual você está fornecendo acesso externo.
+A funcionalidade do servidor de borda do Lync Server 2013 descrita nesta arquitetura de cenário é muito semelhante à implementada no Lync Server 2010. A adição mais perceptível é a porta **5269 sobre** a entrada TCP para o protocolo de mensagens extensíveis e de presença (XMPP). O Lync Server 2013, opcionalmente, implanta um proxy XMPP no servidor de borda ou no pool de periféricos e o servidor de Gateway XMPP no servidor front-end ou no pool de front-end.
 
-Para que o acesso remoto funcione em qualquer serviço de borda, é obrigatório que o fluxo do tráfego SIP possa ser bidirecional, como mostra a figura de tráfego de borda de Entrada/Saída. Indicado de outra forma, o envio de mensagens via SIP de e para o serviço Borda de Acesso está envolvido em mensagens instantâneas (IM), presença, Webconferência, A/V (áudio/vídeo) e federação.
+Além do IPv4, o servidor de borda agora oferece suporte ao IPv6. Para fins de clareza, somente o IPv4 é usado nos cenários.
 
-### Resumo do firewall para borda consolidada única com endereço IP privado utilizando NAT: interface externa
+**Perímetro de rede para um único servidor de borda consolidado com endereçamento IP privado usando NAT**
+
+![f8c144c5-e5fb-498a-823e-eb39f26b6847] (images/Gg425891.f8c144c5-e5fb-498a-823e-eb39f26b6847(OCS.15).jpg "f8c144c5-e5fb-498a-823e-eb39f26b6847")
+
+<div>
+
+## <a name="port-and-protocol-details"></a>Detalhes de protocolo e porta
+
+Recomendamos que você abra apenas as portas necessárias para dar suporte à funcionalidade para a qual você está fornecendo acesso externo.
+
+Para que o acesso remoto funcione para qualquer serviço de borda, é obrigatório que o tráfego SIP tenha permissão de fluxo bidirecional, conforme mostrado na figura de tráfego de borda de entrada/saída. Declarado de outra maneira, o recurso de mensagens SIP para e do serviço de borda de acesso está envolvido em mensagens instantâneas (IM), presença, conferência via Web, áudio/vídeo (A/V) e Federação.
+
+### <a name="firewall-summary-for-single-consolidated-edge-with-private-ip-addresses-using-nat-external-interface"></a>Resumo de firewall para uma única aresta consolidada com endereços IP privados usando NAT: interface externa
 
 <table>
 <colgroup>
@@ -40,7 +62,7 @@ Para que o acesso remoto funcione em qualquer serviço de borda, é obrigatório
 </colgroup>
 <thead>
 <tr class="header">
-<th>Função/Protocolo/TCP ou UDP/Porta</th>
+<th>Função/protocolo/TCP ou UDP/porta</th>
 <th>Endereço IP de Origem</th>
 <th>Endereço IP de Destino</th>
 <th>Notas</th>
@@ -50,104 +72,104 @@ Para que o acesso remoto funcione em qualquer serviço de borda, é obrigatório
 <tr class="odd">
 <td><p>XMPP/TCP/5269</p></td>
 <td><p>Qualquer um</p></td>
-<td><p>Serviço de proxy XMPP (compartilha IP com Serviço de Borda de Acesso)</p></td>
-<td><p>O serviço de proxy XMPP aceita tráfego de contatos XMPP em federações XMPP definidas</p></td>
+<td><p>Serviço de proxy XMPP (compartilha o endereço IP com o serviço de borda de acesso)</p></td>
+<td><p>O serviço de proxy XMPP aceita o tráfego de contatos do XMPP em agrupamentos XMPP definidos</p></td>
 </tr>
 <tr class="even">
-<td><p>Acesso/HTTP/TCP/80</p></td>
-<td><p>Servidor de Borda Serviço de Borda de Acesso</p></td>
+<td><p>Access/HTTP/TCP/80</p></td>
+<td><p>Serviço de borda de acesso do servidor de borda</p></td>
 <td><p>Qualquer um</p></td>
-<td><p>Revogação de certificado/verificação e recuperação CRL</p></td>
+<td><p>Revogação e verificação de revogação/revogação de certificados e recuperação</p></td>
 </tr>
 <tr class="odd">
-<td><p>Acesso/DNS/TCP/53</p></td>
-<td><p>Servidor de Borda Serviço de Borda de Acesso</p></td>
+<td><p>Access/DNS/TCP/53</p></td>
+<td><p>Serviço de borda de acesso do servidor de borda</p></td>
 <td><p>Qualquer um</p></td>
-<td><p>Consulta DNS sobre TCP</p></td>
+<td><p>Consulta DNS via TCP</p></td>
 </tr>
 <tr class="even">
-<td><p>Acesso/DNS/UDP/53</p></td>
-<td><p>Servidor de Borda Serviço de Borda de Acesso</p></td>
+<td><p>Access/DNS/UDP/53</p></td>
+<td><p>Serviço de borda de acesso do servidor de borda</p></td>
 <td><p>Qualquer um</p></td>
-<td><p>Consulta DNS sobre UDP</p></td>
+<td><p>Consulta DNS via UDP</p></td>
 </tr>
 <tr class="odd">
-<td><p>Acesso/SIP(TLS)/TCP/443</p></td>
+<td><p>/TCP/443 de acesso/SIP (TLS)</p></td>
 <td><p>Qualquer um</p></td>
-<td><p>Servidor de Borda Serviço de Borda de Acesso</p></td>
-<td><p>Tráfego SIP do cliente para o servidor para acesso de usuário externo</p></td>
+<td><p>Serviço de borda de acesso do servidor de borda</p></td>
+<td><p>Tráfego SIP de cliente para servidor para acesso de usuário externo</p></td>
 </tr>
 <tr class="even">
-<td><p>Acesso/SIP(MTLS)/TCP/5061</p></td>
+<td><p>/TCP/5061 de acesso/SIP (MTLS)</p></td>
 <td><p>Qualquer um</p></td>
-<td><p>Servidor de Borda Serviço de Borda de Acesso</p></td>
-<td><p>Para conectividade a redes públicas e federadas de IM usando SIP</p></td>
+<td><p>Serviço de borda de acesso do servidor de borda</p></td>
+<td><p>Para conectividade de mensagens de chat públicas e federadas usando SIP</p></td>
 </tr>
 <tr class="odd">
-<td><p>Acesso/SIP(MTLS)/TCP/5061</p></td>
-<td><p>Servidor de Borda Serviço de Borda de Acesso</p></td>
+<td><p>/TCP/5061 de acesso/SIP (MTLS)</p></td>
+<td><p>Serviço de borda de acesso do servidor de borda</p></td>
 <td><p>Qualquer um</p></td>
-<td><p>Para conectividade a redes públicas e federadas de IM usando SIP</p></td>
+<td><p>Para conectividade de mensagens de chat públicas e federadas usando SIP</p></td>
 </tr>
 <tr class="even">
-<td><p>Webconferência/PSOM (TLS)/TCP/443</p></td>
+<td><p>Web Conferencing/PSOM (TLS)/TCP/443</p></td>
 <td><p>Qualquer um</p></td>
-<td><p>Servidor de Borda Serviço de Borda de Webconferência</p></td>
-<td><p>Mídia da webconferência</p></td>
+<td><p>Serviço de borda de Webconferência Web Edge Server</p></td>
+<td><p>Mídia de Webconferência</p></td>
 </tr>
 <tr class="odd">
-<td><p>A/V/RTP/TCP/50.000-59.999</p></td>
-<td><p>Servidor de Borda Serviço de Borda A/V</p></td>
+<td><p>A/V/RTP/TCP/50.000 A 59.999</p></td>
+<td><p>Serviço Edge Server A/V Edge</p></td>
 <td><p>Qualquer um</p></td>
-<td><p>Necessário para federar com parceiros que executem o Office Communications Server 2007, Office Communications Server 2007 R2, Lync Server 2010 e Lync Server 2013.</p></td>
+<td><p>Obrigatório para federação com parceiros que executam o Office Communications Server 2007, o Office Communications Server 2007 R2, o Lync Server 2010 e o Lync Server 2013.</p></td>
 </tr>
 <tr class="even">
-<td><p>A/V/RTP/UDP/50.000-59.999</p></td>
-<td><p>Servidor de Borda Serviço de Borda A/V</p></td>
+<td><p>A/V/RTP/UDP/50000-59.999</p></td>
+<td><p>Serviço Edge Server A/V Edge</p></td>
 <td><p>Qualquer um</p></td>
-<td><p>Necessário somente para federação com parceiros que estejam executando o Office Communications Server 2007.</p></td>
+<td><p>Obrigatório somente para federação com parceiros que executam o Office Communications Server 2007.</p></td>
 </tr>
 <tr class="odd">
-<td><p>A/V/RTP/TCP/50.000-59.999</p></td>
+<td><p>A/V/RTP/TCP/50.000 A 59.999</p></td>
 <td><p>Qualquer um</p></td>
-<td><p>Servidor de Borda Serviço de Borda A/V</p></td>
-<td><p>Necessário somente para federação com parceiros que estejam executando o Office Communications Server 2007</p></td>
+<td><p>Serviço Edge Server A/V Edge</p></td>
+<td><p>Obrigatório somente para federação com parceiros que executam o Office Communications Server 2007</p></td>
 </tr>
 <tr class="even">
-<td><p>A/V/RTP/UDP/50.000-59.999</p></td>
+<td><p>A/V/RTP/UDP/50000-59.999</p></td>
 <td><p>Qualquer um</p></td>
-<td><p>Servidor de Borda Serviço de Borda A/V</p></td>
-<td><p>Necessário somente para federação com parceiros que estejam executando o Office Communications Server 2007</p></td>
+<td><p>Serviço Edge Server A/V Edge</p></td>
+<td><p>Obrigatório somente para federação com parceiros que executam o Office Communications Server 2007</p></td>
 </tr>
 <tr class="odd">
-<td><p>A/V/STUN,MSTURN/UDP/3478</p></td>
-<td><p>Servidor de Borda Serviço de Borda A/V</p></td>
+<td><p>A/V/STUN, MSTURN/UDP/3478</p></td>
+<td><p>Serviço Edge Server A/V Edge</p></td>
 <td><p>Qualquer um</p></td>
-<td><p>A saída 3478 é utilizada para determinar a versão do Servidor de Borda com o qual o Lync Server está se comunicando assim como para o tráfego de mídia do Servidor de Borda-para- Servidor de Borda. Necessário para federações com Lync Server 2010, Windows Live Messenger e Office Communications Server 2007 R2, e também se vários Pools de borda estiverem implantados na empresa.</p></td>
+<td><p>3478 a saída é usada para determinar a versão do servidor de borda com a qual o Lync Server está se comunicando e também para o tráfego de mídia do servidor edge edge-to-edge. Obrigatório para federação com o Lync Server 2010, o Windows Live Messenger e o Office Communications Server 2007 R2 e também se vários pools de bordas forem implantados em uma empresa.</p></td>
 </tr>
 <tr class="even">
-<td><p>A/V/STUN,MSTURN/UDP/3478</p></td>
+<td><p>A/V/STUN, MSTURN/UDP/3478</p></td>
 <td><p>Qualquer um</p></td>
-<td><p>Servidor de Borda Serviço de Borda A/V</p></td>
-<td><p>Negociação de candidatos STUN/TURN através de UDP/3478</p></td>
+<td><p>Serviço Edge Server A/V Edge</p></td>
+<td><p>STUN/desliga a negociação de candidatos via UDP/3478</p></td>
 </tr>
 <tr class="odd">
-<td><p>A/V/STUN,MSTURN/TCP/443</p></td>
+<td><p>A/V/STUN, MSTURN/TCP/443</p></td>
 <td><p>Qualquer um</p></td>
-<td><p>Servidor de Borda Serviço de Borda A/V</p></td>
-<td><p>Negociação de candidatos STUN/TURN através de TCP/443</p></td>
+<td><p>Serviço Edge Server A/V Edge</p></td>
+<td><p>STUN/TRANSFORMe a negociação de candidatos via TCP/443</p></td>
 </tr>
 <tr class="even">
-<td><p>A/V/STUN,MSTURN/TCP/443</p></td>
-<td><p>Serviço de Borda A/V da Servidor de Borda</p></td>
+<td><p>A/V/STUN, MSTURN/TCP/443</p></td>
+<td><p>Serviço Edge Server A/V Edge</p></td>
 <td><p>Qualquer um</p></td>
-<td><p>Negociação de candidatos STUN/TURN através de TCP/443</p></td>
+<td><p>STUN/TRANSFORMe a negociação de candidatos via TCP/443</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Resumo de firewall para borda consolidada única com endereço IP privado utilizando NAT: interface interna
+### <a name="firewall-summary-for-single-consolidated-edge-with-private-ip-addresses-using-nat-internal-interface"></a>Resumo de firewall para uma única aresta consolidada com endereços IP privados usando NAT: interface interna
 
 <table>
 <colgroup>
@@ -158,7 +180,7 @@ Para que o acesso remoto funcione em qualquer serviço de borda, é obrigatório
 </colgroup>
 <thead>
 <tr class="header">
-<th>Protocolo/TCP ou UDP/Porta</th>
+<th>Protocolo/TCP ou UDP/porta</th>
 <th>Endereço IP de Origem</th>
 <th>Endereço IP de Destino</th>
 <th>Comentários</th>
@@ -167,76 +189,79 @@ Para que o acesso remoto funcione em qualquer serviço de borda, é obrigatório
 <tbody>
 <tr class="odd">
 <td><p>XMPP/MTLS/TCP/23456</p></td>
-<td><p>Qualquer (pode ser definido como IP do Servidor Standard Edition, endereço IP do Servidor Standard Edition ou endereço IP do pool executando o serviço de gateway XMPP)</p></td>
-<td><p>Interface interna do Servidor de Borda</p></td>
-<td><p>Tráfego XMPP de saída do serviço de gateway XMPP sendo executado no Servidor Front-End ou Pool de Front-Ends</p></td>
+<td><p>Any (pode ser definido como padrão de servidor Standard Edition, endereço IP do servidor Standard Edition ou endereço IP do pool executando o serviço de gateway do XMPP)</p></td>
+<td><p>Interface interna do servidor de borda</p></td>
+<td><p>Tráfego de XMPP de saída do serviço de gateway do XMPP em execução em servidor front-end ou pool de front-end</p></td>
 </tr>
 <tr class="even">
 <td><p>SIP/MTLS/TCP/5061</p></td>
-<td><p>Qualquer (pode ser definido como Diretor, endereço IP do Pool de diretores, Servidor Front-End ou endereço IP do Pool de Front-Ends)</p></td>
-<td><p>Interface interna do Servidor de Borda</p></td>
-<td><p>Tráfego SIP de saída (da Diretor, endereço IP do Pool de diretores, Servidor Front-End ou endereço IP do Pool de Front-Ends) para a interface interna da Servidor de Borda</p></td>
+<td><p>Any (pode ser definido como director, endereço IP do pool do diretor, servidor front-end ou endereço IP do pool de front-end)</p></td>
+<td><p>Interface interna do servidor de borda</p></td>
+<td><p>Tráfego SIP de saída (do director, endereço IP do pool do diretor, servidor front-end ou endereço IP do pool de front-end) para a interface interna do servidor de borda</p></td>
 </tr>
 <tr class="odd">
 <td><p>SIP/MTLS/TCP/5061</p></td>
-<td><p>Interface interna do Servidor de Borda</p></td>
-<td><p>Qualquer (pode ser definido como Diretor, endereço IP do Pool de diretores, Servidor Front-End ou endereço IP do Pool de Front-Ends)</p></td>
-<td><p>Tráfego SIP de entrada (para a Diretor, endereço IP do Pool de diretores, Servidor Front-End ou endereço IP do Pool de Front-Ends) da interface interna da Servidor de Borda</p></td>
+<td><p>Interface interna do servidor de borda</p></td>
+<td><p>Any (pode ser definido como director, endereço IP do pool do diretor, servidor front-end ou endereço IP do pool de front-end)</p></td>
+<td><p>Tráfego SIP de entrada (para o director, endereço IP do pool do diretor, servidor front-end ou endereço IP do pool de front-end) da interface interna do servidor de borda</p></td>
 </tr>
 <tr class="even">
 <td><p>PSOM/MTLS/TCP/8057</p></td>
-<td><p>Qualquer (pode ser definido como endereço IP da Servidor Front-End ou cada endereço IP da Servidor Front-End em um Pool de Front-Ends)</p>
-<p></p></td>
-<td><p>Interface interna do Servidor de Borda</p></td>
-<td><p>Tráfego de webconferência da Servidor Front-End ou de cada Servidor Front-End, caso estejam em um pool, parar a interface interna da Servidor de Borda</p></td>
+<td><p>Any (pode ser definido como o endereço IP do servidor front-end ou cada endereço IP do servidor front-end em um pool Front-end)</p></td>
+<td><p>Interface interna do servidor de borda</p></td>
+<td><p>Tráfego de Webconferência do servidor front-end ou de cada servidor front-end se estiver em um pool, para a interface interna do servidor de borda</p></td>
 </tr>
 <tr class="odd">
 <td><p>SIP/MTLS/TCP/5062</p></td>
-<td><p>Qualquer um (pode ser definido como IP do Servidor Front-End ou do Pool de Front-Ends, ou então como qualquer Aparelho de Filial Persistente ou Servidor de Filial Persistente utilizando esse Servidor de Borda)</p></td>
-<td><p>Interface interna do Servidor de Borda</p></td>
-<td><p>Autenticação de usuários A/V (serviço de autenticação A/V) de Servidor Front-End ou endereço IP do Pool de Front-Ends ou qualquer Aparelho de Filial Persistente ou Servidor de Filial Persistente utilizando esse Servidor de Borda</p></td>
+<td><p>Any (pode ser definido como endereço IP do servidor front-end ou endereço IP do pool de front-end ou qualquer aparelho de ramificação sobreviventes ou servidor de ramificação sobreviventes que use este servidor de borda)</p></td>
+<td><p>Interface interna do servidor de borda</p></td>
+<td><p>Autenticação de usuários de A/V (serviço de autenticação A/V) do servidor front-end ou do endereço IP do pool de front-end ou qualquer aparelho de ramificação sobreviventes ou servidor de ramificação sobreviventes que use este servidor de borda</p></td>
 </tr>
 <tr class="even">
 <td><p>STUN/MSTURN/UDP/3478</p></td>
 <td><p>Qualquer um</p></td>
-<td><p>Interface interna do Servidor de Borda</p></td>
-<td><p>Caminho preferencial para transferência de mídia A/V entre usuários internos e externos, Aparelho de Filial Persistente ou Servidor de Filial Persistente</p></td>
+<td><p>Interface interna do servidor de borda</p></td>
+<td><p>Caminho preferencial para transferência de mídia A/V entre usuários internos e externos, aparelho de ramificação sobreviventes ou servidor de ramificação sobreviventes</p></td>
 </tr>
 <tr class="odd">
 <td><p>STUN/MSTURN/TCP/443</p></td>
 <td><p>Qualquer um</p></td>
-<td><p>Interface interna do Servidor de Borda</p></td>
-<td><p>Caminho de fallback para transferência de mídia A/V entre usuários internos e externos, Aparelho de Filial Persistente ou Servidor de Filial Persistente; se a comunicação UDP não pode ser estabelecida, TCP é usado para transferência de arquivos e compartilhamento de área de trabalho</p></td>
+<td><p>Interface interna do servidor de borda</p></td>
+<td><p>Caminho de fallback para transferência de mídia A/V entre usuários internos e externos, aparelho de ramificação sobreviventes ou servidor de ramificação sobreviventes se não for possível estabelecer comunicação UDP, o TCP será usado para transferência de arquivos e compartilhamento de área de trabalho</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP/4443</p></td>
-<td><p>Qualquer (pode ser definido como o endereço IP da Servidor Front-End ou pool que mantém o Repositório de Gerenciamento Central)</p></td>
-<td><p>Interface interna do Servidor de Borda</p></td>
-<td><p>Replicação de alterações do Repositório de Gerenciamento Central para o Servidor de Borda</p></td>
+<td><p>Any (pode ser definido como o endereço IP do servidor front-end ou o pool que mantém o repositório de gerenciamento central)</p></td>
+<td><p>Interface interna do servidor de borda</p></td>
+<td><p>Replicação de alterações do repositório de gerenciamento central para o servidor de borda</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50001</p></td>
 <td><p>Qualquer um</p></td>
-<td><p>Interface interna do Servidor de Borda</p></td>
-<td><p>Controlador Serviço de Log Centralizado usando cmdlets Shell de Gerenciamento do Lync Server e Serviço de Log Centralizado, linha de comando ClsController (ClsController.exe) ou comandos e conjunto de log do agente (ClsAgent.exe)</p></td>
+<td><p>Interface interna do servidor de borda</p></td>
+<td><p>Controlador de serviço de log centralizado usando cmdlets do Shell de gerenciamento do Lync Server e do serviço de log centralizado, comandos de linha de comando do ClsController (ClsController. exe) ou comandos do agente (ClsAgent. exe) e a coleção de logs</p></td>
 </tr>
 <tr class="even">
 <td><p>MTLS/TCP/50002</p></td>
 <td><p>Qualquer um</p></td>
-<td><p>Interface interna do Servidor de Borda</p></td>
-<td><p>Controlador Serviço de Log Centralizado usando cmdlets Shell de Gerenciamento do Lync Server e Serviço de Log Centralizado, linha de comando ClsController (ClsController.exe) ou comandos e conjunto de log do agente (ClsAgent.exe)</p></td>
+<td><p>Interface interna do servidor de borda</p></td>
+<td><p>Controlador de serviço de log centralizado usando cmdlets do Shell de gerenciamento do Lync Server e do serviço de log centralizado, comandos de linha de comando do ClsController (ClsController. exe) ou comandos do agente (ClsAgent. exe) e a coleção de logs</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50003</p></td>
 <td><p>Qualquer um</p></td>
-<td><p>Interface interna do Servidor de Borda</p></td>
-<td><p>Controlador Serviço de Log Centralizado usando cmdlets Shell de Gerenciamento do Lync Server e Serviço de Log Centralizado, linha de comando ClsController (ClsController.exe) ou comandos e conjunto de log do agente (ClsAgent.exe)</p></td>
+<td><p>Interface interna do servidor de borda</p></td>
+<td><p>Controlador de serviço de log centralizado usando cmdlets do Shell de gerenciamento do Lync Server e do serviço de log centralizado, comandos de linha de comando do ClsController (ClsController. exe) ou comandos do agente (ClsAgent. exe) e a coleção de logs</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Resumo de firewall para federação
+</div>
+
+<div>
+
+## <a name="firewall-summary-for-federation"></a>Resumo do firewall para Federação
 
 
 <table>
@@ -248,7 +273,7 @@ Para que o acesso remoto funcione em qualquer serviço de borda, é obrigatório
 </colgroup>
 <thead>
 <tr class="header">
-<th>Função/Protocolo/TCP ou UDP/Porta</th>
+<th>Função/protocolo/TCP ou UDP/porta</th>
 <th>Endereço IP de Origem</th>
 <th>Endereço IP de Destino</th>
 <th>Notas</th>
@@ -256,16 +281,20 @@ Para que o acesso remoto funcione em qualquer serviço de borda, é obrigatório
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Acesso/SIP(MTLS)/TCP/5061</p></td>
-<td><p>Endereço IP público do Serviço de Borda de Acesso</p></td>
+<td><p>/TCP/5061 de acesso/SIP (MTLS)</p></td>
+<td><p>Endereço IP público do serviço de borda do Access</p></td>
 <td><p>Qualquer um</p></td>
-<td><p>Para conectividade a redes públicas e federadas de IM usando SIP</p></td>
+<td><p>Para conectividade de mensagens de chat públicas e federadas usando SIP</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Resumo do firewall - Conectividade pública de mensagens instantâneas
+</div>
+
+<div>
+
+## <a name="firewall-summary--public-instant-messaging-connectivity"></a>Resumo do Firewall – Conectividade de mensagens instantâneas públicas
 
 
 <table>
@@ -277,7 +306,7 @@ Para que o acesso remoto funcione em qualquer serviço de borda, é obrigatório
 </colgroup>
 <thead>
 <tr class="header">
-<th>Função/Protocolo/TCP ou UDP/Porta</th>
+<th>Função/protocolo/TCP ou UDP/porta</th>
 <th>Endereço IP de Origem</th>
 <th>Endereço IP de Destino</th>
 <th>Notas</th>
@@ -285,46 +314,50 @@ Para que o acesso remoto funcione em qualquer serviço de borda, é obrigatório
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Acesso/SIP(MTLS)/TCP/5061</p></td>
-<td><p>Parceiros de conectividade pública de IM</p></td>
-<td><p>Servidor de Borda Serviço de Borda de Acesso</p></td>
-<td><p>Para conectividade a redes públicas e federadas de IM usando SIP</p></td>
+<td><p>/TCP/5061 de acesso/SIP (MTLS)</p></td>
+<td><p>Parceiros de conectividade de mensagens de chat públicas</p></td>
+<td><p>Serviço de borda de acesso do servidor de borda</p></td>
+<td><p>Para conectividade de mensagens de chat públicas e federadas usando SIP</p></td>
 </tr>
 <tr class="even">
-<td><p>Acesso/SIP(MTLS)/TCP/5061</p></td>
-<td><p>Servidor de Borda Serviço de Borda de Acesso</p></td>
-<td><p>Parceiros de conectividade pública de IM</p></td>
-<td><p>Para conectividade a redes públicas e federadas de IM usando SIP</p></td>
+<td><p>/TCP/5061 de acesso/SIP (MTLS)</p></td>
+<td><p>Serviço de borda de acesso do servidor de borda</p></td>
+<td><p>Parceiros de conectividade de mensagens de chat públicas</p></td>
+<td><p>Para conectividade de mensagens de chat públicas e federadas usando SIP</p></td>
 </tr>
 <tr class="odd">
-<td><p>Acesso/SIP(TLS)/TCP/443</p></td>
+<td><p>/TCP/443 de acesso/SIP (TLS)</p></td>
 <td><p>Clientes</p></td>
-<td><p>Servidor de Borda Serviço de Borda de Acesso</p></td>
-<td><p>Tráfego SIP do cliente para o servidor para acesso de usuário externo</p></td>
+<td><p>Serviço de borda de acesso do servidor de borda</p></td>
+<td><p>Tráfego SIP de cliente para servidor para acesso de usuário externo</p></td>
 </tr>
 <tr class="even">
-<td><p>A/V/RTP/TCP/50.000-59.999</p></td>
-<td><p>Servidor de Borda Serviço de Borda A/V</p></td>
-<td><p>Clientes Live Messenger</p></td>
-<td><p>Usado para sessões A/V com o Windows Live Messenger se a conectividade pública de IM estiver configurada.</p></td>
+<td><p>A/V/RTP/TCP/50.000 A 59.999</p></td>
+<td><p>Serviço Edge Server A/V Edge</p></td>
+<td><p>Clientes do Live Messenger</p></td>
+<td><p>Usado para sessões de A/V com o Windows Live Messenger se a conectividade de mensagem de chat pública estiver configurada.</p></td>
 </tr>
 <tr class="odd">
-<td><p>A/V/STUN,MSTURN/UDP/3478</p></td>
-<td><p>Servidor de Borda Serviço de Borda A/V</p></td>
-<td><p>Clientes Live Messenger</p></td>
-<td><p>Obrigatório para conectividade pública de IM com o Windows Live Messenger</p></td>
+<td><p>A/V/STUN, MSTURN/UDP/3478</p></td>
+<td><p>Serviço Edge Server A/V Edge</p></td>
+<td><p>Clientes do Live Messenger</p></td>
+<td><p>Necessário para conectividade de IM pública com o Windows Live Messenger</p></td>
 </tr>
 <tr class="even">
-<td><p>A/V/STUN,MSTURN/UDP/3478</p></td>
-<td><p>Clientes Live Messenger</p></td>
-<td><p>Servidor de Borda Serviço de Borda A/V</p></td>
-<td><p>Obrigatório para conectividade pública de IM com o Windows Live Messenger</p></td>
+<td><p>A/V/STUN, MSTURN/UDP/3478</p></td>
+<td><p>Clientes do Live Messenger</p></td>
+<td><p>Serviço Edge Server A/V Edge</p></td>
+<td><p>Necessário para conectividade de IM pública com o Windows Live Messenger</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Resumo de Firewall para protocolo XMPP (Extensible Messaging and Presence Protocol)
+</div>
+
+<div>
+
+## <a name="firewall-summary-for-extensible-messaging-and-presence-protocol"></a>Resumo de firewall para mensagens extensíveis e protocolo de presença
 
 
 <table>
@@ -336,8 +369,8 @@ Para que o acesso remoto funcione em qualquer serviço de borda, é obrigatório
 </colgroup>
 <thead>
 <tr class="header">
-<th>Protocolo/TCP ou UDP/Porta</th>
-<th>Origem (endereço IP)</th>
+<th>Protocolo/TCP ou UDP/porta</th>
+<th>Fonte (endereço IP)</th>
 <th>Destino (endereço IP)</th>
 <th>Comentários</th>
 </tr>
@@ -346,21 +379,34 @@ Para que o acesso remoto funcione em qualquer serviço de borda, é obrigatório
 <tr class="odd">
 <td><p>XMPP/TCP/5269</p></td>
 <td><p>Qualquer um</p></td>
-<td><p>Endereço IP da interface do Servidor de Borda  Serviço de Borda de Acesso</p></td>
-<td><p>Porta padrão de comunicação entre servidores para XMPP. Permite comunicação para o proxy XMPP do Servidor de Borda de parceiros XMPP federados.</p></td>
+<td><p>Endereço IP da interface do serviço de borda do acesso do servidor de borda</p></td>
+<td><p>Porta de comunicação de servidor para servidor padrão para XMPP. Permite a comunicação com o servidor de borda XMPP o proxy de parceiros de XMPP federado</p></td>
 </tr>
 <tr class="even">
 <td><p>XMPP/TCP/5269</p></td>
-<td><p>Endereço IP da interface do Servidor de Borda  Serviço de Borda de Acesso</p></td>
+<td><p>Endereço IP da interface do serviço de borda do acesso do servidor de borda</p></td>
 <td><p>Qualquer um</p></td>
-<td><p>Porta padrão de comunicação entre servidores para XMPP. Permite comunicação do proxy XMPP do Servidor de Borda para parceiros XMPP federados.</p></td>
+<td><p>Porta de comunicação de servidor para servidor padrão para XMPP. Permite a comunicação do proxy do servidor de borda XMPP com parceiros do XMPP federado</p></td>
 </tr>
 <tr class="odd">
 <td><p>XMPP/MTLS/TCP/23456</p></td>
 <td><p>Qualquer um</p></td>
-<td><p>Cada IP da interface interna da Servidor de Borda</p></td>
-<td><p>Tráfego XMPP interno do gateway XMPP na Servidor Front-End ou no Pool de Front-Ends para o endereço IP interno da Servidor de Borda ou cada endereço IP interno do membro do Pool de borda</p></td>
+<td><p>Cada IP de interface do servidor de borda interna</p></td>
+<td><p>Tráfego de XMPP interno do Gateway XMPP no servidor front-end ou do pool de front-end para o endereço IP interno do servidor de borda ou o endereço IP interno de cada membro do pool de bordas</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

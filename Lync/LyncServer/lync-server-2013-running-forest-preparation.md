@@ -1,60 +1,92 @@
-﻿---
-title: 'Lync Server 2013: Executando preparação de floresta'
-TOCTitle: Executando preparação de floresta
-ms:assetid: 9d62f7be-bcfe-421d-8d8a-225567102a35
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412732(v=OCS.15)
-ms:contentKeyID: 49307617
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Executando preparação de floresta'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Running forest preparation
+ms:assetid: 9d62f7be-bcfe-421d-8d8a-225567102a35
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412732(v=OCS.15)
+ms:contentKeyID: 48184991
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b011623b9091c1c707ae77381dacb99ba4642a21
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822283"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Executando preparação de floresta para Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-29_
+# <a name="running-forest-preparation-for-lync-server-2013"></a>Executando preparação de floresta para Lync Server 2013
 
-Você pode usar o Setup ou cmdlets do Shell de Gerenciamento do Lync Server para preparar a floresta. O cmdlet que prepara a floresta é **Enable-CsAdForest**.
+</div>
 
-Depois de preparar a floresta, você deverá verificar se as configurações globais foram replicadas antes de executar a preparação do domínio.
+<div id="mainSection">
 
-## Para usar a Instalação para preparar a floresta
+<div id="mainBody">
 
-1.  Faça logon em um computador que seja parte de um domínio como membro do grupo Administradores de Empresa para o domínio raiz da floresta.
+<span> </span>
 
-2.  A partir da pasta ou mídia de instalação do Lync Server 2013, execute o arquivo Setup.exe para iniciar o Assistente de Implantação.
+_**Tópico da última modificação:** 2012-10-29_
+
+Você pode usar os cmdlets do Shell de gerenciamento do Lync Server e do setup para preparar a floresta. O cmdlet que prepara a floresta é **Enable-CsAdForest**.
+
+Depois de preparar a floresta, você deve verificar se as configurações globais foram duplicadas antes de executar a preparação do domínio.
+
+<div>
+
+## <a name="to-use-setup-to-prepare-the-forest"></a>Para usar a instalação para preparar a floresta
+
+1.  Faça logon em um computador que esteja associado a um domínio como membro do grupo Administradores de empresa do domínio raiz da floresta.
+
+2.  Na pasta de instalação ou mídia do Lync Server 2013, execute Setup. exe para iniciar o assistente de implantação.
 
 3.  Clique em **Preparar o Active Directory** e espere que o estado da implantação seja determinado.
 
-4.  Na **Etapa 3: Preparar Floresta Atual** , clique em **Executar** .
+4.  Na **etapa 3: preparar a floresta atual**, clique em **executar**.
 
-5.  Na página **Preparar Floresta** , clique em **Avançar** .
+5.  Na página **preparar floresta** , clique em **Avançar**.
     
+    <div>
+    
+
     > [!NOTE]  
-    > A Preparação da Floresta permite que você escolha onde colocar os Grupos Universais para o Lync Server 2013. Escolha uma localização que seja consistente com os requisitos da sua organização.
+    > A preparação da floresta permite que você escolha onde colocar os grupos universais do Lync Server 2013. Escolha um local que atenda aos requisitos de sua organização.
 
-6.  Na página **Executando Comandos** , procure **Status da tarefa: Concluída** e clique em **Exibir Log** .
-
-7.  Sob a coluna **Ação** , expanda **Forest Prep** , procure o Resultado de Execução **\<Sucesso\>** ao final de cada tarefa para verificar se a preparação da floresta foi concluída com êxito, feche o log e clique em **Concluir** .
-
-8.  Aguarde a replicação do Active Directory ser concluída ou force a replicação em todos os controladores de domínio listados no snap-in **Sites e Serviços do Active Directory** no controlador de domínio raiz da floresta, antes de executar a preparação do domínio. Force a replicação entre os controladores de domínio em todos os sites do Active Directory para que a replicação nos sites ocorra dentro de alguns minutos.
-
-## Para usar os cmdlets para preparar a floresta
-
-1.  Faça o login em um computador que faz parte de um domínio como membro do grupo Administradores de Domínio no domínio raiz da floresta.
-
-2.  Instale os Componentes principais do Lync Server da seguinte maneira:
     
-    1.  Na pasta ou mídia de instalação do Lync Server 2013, execute Setup.exe para iniciar o Assistente de Implantação do Lync Server.
-    
-    2.  Se você receber uma solicitação para instalar o Microsoft Visual C++ Redistributable, clique em **Sim** .
-    
-    3.  A caixa de diálogo Instalação do Lync Server 2013 solicita um local de instalação dos arquivos do Lync Server. Escolha o local padrão ou **Procure** um local de sua escolha e clique em **Instalar** .
-    
-    4.  Na página Contrato de Licença, marque **Aceito os termos do contrato de licença** e, em seguida, clique em **OK** . O instalador instala os Componentes principais do Lync Server 2013.
+    </div>
 
-3.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
+6.  Na página **Executando Comandos**, procure por **Status da tarefa: Concluída** e clique em **Exibir Log**.
+
+7.  Na coluna **Action (ação** ), expanda **Forest prep**, procure um ** \<\> ** resultado de execução de sucesso no final de cada tarefa para verificar se a preparação da floresta foi concluída com êxito, feche o log e clique em **concluir**.
+
+8.  Aguarde a conclusão da replicação do Active Directory ou force a replicação para todos os controladores de domínio listados no snap-in **sites e serviços do Active Directory** para o controlador de domínio raiz da floresta, antes de executar a preparação do domínio. Force a replicação entre os controladores de domínio em todos os sites do Active Directory para fazer com que a replicação dentro dos sites ocorra em minutos.
+
+</div>
+
+<div>
+
+## <a name="to-use-cmdlets-to-prepare-the-forest"></a>Para usar cmdlets para preparar a floresta
+
+1.  Faça logon em um computador que esteja associado a um domínio como membro do grupo Domain admins no domínio raiz da floresta.
+
+2.  Instale os componentes principais do Lync Server da seguinte maneira:
+    
+    1.  Na pasta de instalação ou mídia do Lync Server 2013, execute Setup. exe para iniciar o assistente de implantação do Lync Server.
+    
+    2.  Se você for solicitado a instalar o Microsoft Visual C++ Redistributable, clique em **Sim**.
+    
+    3.  A caixa de diálogo instalação do Lync Server 2013 solicita um local para instalar os arquivos do Lync Server. Escolha o local padrão ou **navegue** até um local de sua escolha e clique em **instalar**.
+    
+    4.  Na página contrato de licença, marque **a opção aceito os termos do contrato de licença**e clique em **OK**. O instalador instala os componentes principais do Lync Server 2013.
+
+3.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
 
 4.  Execute:
     
@@ -64,23 +96,38 @@ Depois de preparar a floresta, você deverá verificar se as configurações glo
     
         Enable-CsAdForest -GroupDomain domain1.contoso.com 
     
-    Se você não especificar o parâmetro GroupDomain, o valor padrão será o domínio local. Se grupos universais tiverem sido criados anteriormente em um domínio que não seja o domínio padrão, será necessário especificar explicitamente o parâmetro GroupDomain.
+    Se você não especificar o parâmetro GroupDomain, o valor padrão será o domínio local. Se grupos universais foram criados anteriormente em um domínio que não seja o domínio padrão, você deve especificar o parâmetro GroupDomain explicitamente.
 
-5.  Aguarde a replicação do Active Directory ser concluída ou force a replicação em todos os controladores de domínio listados no snap-in **Sites e Serviços do Active Directory** no controlador de domínio raiz da floresta, antes de executar a preparação do domínio.
+5.  Aguarde a conclusão da replicação do Active Directory ou force a replicação para todos os controladores de domínio listados no snap-in **sites e serviços do Active Directory** para o controlador de domínio raiz da floresta, antes de executar a preparação do domínio.
 
-6.  Verificar se a preparação da floresta teve êxito. Execute:
+6.  Verifique se a preparação da floresta foi bem-sucedida. Execute:
     
         Get-CsAdForest 
     
-    Esse cmdlet retorna um valor de **LC\_FORESTSETTINGS\_STATE\_READY** se a preparação da floresta tiver sido bem-sucedida.
+    Esse cmdlet retorna um valor do **estado\_\_\_FORESTSETTINGS da LC pronto** se a preparação da floresta tiver sido bem-sucedida.
 
-## Consulte Também
+</div>
 
-#### Tarefas
+<div>
+
+## <a name="see-also"></a>Confira também
+
 
 [Usando cmdlets para reverter preparação da floresta no Lync Server 2013](lync-server-2013-using-cmdlets-to-reverse-forest-preparation.md)  
 
-#### Outros Recursos
 
-[Preparando a floresta para Lync Server 2013](lync-server-2013-preparing-the-forest.md)
+[Preparando a floresta para Lync Server 2013](lync-server-2013-preparing-the-forest.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

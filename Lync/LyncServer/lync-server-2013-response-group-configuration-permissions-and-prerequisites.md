@@ -1,27 +1,49 @@
-﻿---
-title: "Lync Server 2013: Permissões e pré-requisitos de config. de Grupo de Resposta"
-TOCTitle: Permissões e pré-requisitos de configuração de Grupo de Resposta
-ms:assetid: 4266f16a-b387-452c-a8ca-d771a3c58f0f
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204840(v=OCS.15)
-ms:contentKeyID: 49306528
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Permissões e pré-requisitos de configuração de Grupo de Resposta'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Response Group configuration permissions and prerequisites
+ms:assetid: 4266f16a-b387-452c-a8ca-d771a3c58f0f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204840(v=OCS.15)
+ms:contentKeyID: 48183972
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1360a6dee8dbbf169fa0ceda1ee1b2f215ff09b5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823270"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Permissões e pré-requisitos de configuração de Grupo de Resposta no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="response-group-configuration-permissions-and-prerequisites-in-lync-server-2013"></a>Permissões e pré-requisitos de configuração de Grupo de Resposta no Lync Server 2013
 
-Grupo de Resposta é um recurso de gerenciamento de chamada Enterprise Voice. Este tópico descreve o que você precisa ter antes de configurar o Grupo de Resposta e as credenciais e permissões que você precisa para efetuar tarefas de configuração.
+</div>
 
-Essa seção presume que você tenha lido a documentação de planejamento relacionada ao Grupo de Resposta. Para detalhes, consulte [Planejamento de recursos de gerenciamento de chamada no Lync Server 2013](lync-server-2013-planning-for-call-management-features.md) na documentação de Planejamento.
+<div id="mainSection">
 
-## Ferramentas de configuração e funções administrativas
+<div id="mainBody">
 
-Você pode utilizar as seguintes ferramentas administrativas para configurar o Grupo de Resposta:
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-05_
+
+O grupo de resposta é um recurso de gerenciamento de chamadas de voz corporativa. Este tópico descreve o que você precisa ter em vigor antes de poder configurar o grupo de resposta e as permissões e credenciais administrativas necessárias para executar tarefas de configuração.
+
+Esta seção pressupõe que você leu a documentação de planejamento relacionada ao grupo de resposta. Para obter detalhes, consulte [planejando os recursos de gerenciamento de chamadas no Lync Server 2013](lync-server-2013-planning-for-call-management-features.md) na documentação de planejamento.
+
+<div>
+
+## <a name="configuration-tools-and-administrative-roles"></a>Ferramentas de configuração e funções administrativas
+
+Você pode usar as seguintes ferramentas administrativas para configurar o grupo de resposta:
 
   - Painel de Controle do Lync Server
 
@@ -54,68 +76,79 @@ Para configurar grupos de resposta, você deve ser membro de pelo menos uma das 
 </tr>
 <tr class="even">
 <td><p><strong>CsResponseGroupAdministrator</strong></p></td>
-<td><p>v</p></td>
-<td><p>v</p></td>
-<td><p>v</p></td>
-<td><p>v</p></td>
-<td><p>v</p></td>
-<td><p>v</p></td>
+<td><p>√</p></td>
+<td><p>√</p></td>
+<td><p>√</p></td>
+<td><p>√</p></td>
+<td><p>√</p></td>
+<td><p>√</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CsResponseGroupManager</strong></p></td>
 <td> </td>
-<td><p>v(2)</p></td>
-<td><p>v(3)</p></td>
-<td><p>v(3)</p></td>
-<td><p>v(3)</p></td>
-<td><p>v(3)</p></td>
+<td><p>√(2)</p></td>
+<td><p>√(3)</p></td>
+<td><p>√(3)</p></td>
+<td><p>√(3)</p></td>
+<td><p>√(3)</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CsVoiceAdministrator</strong></p></td>
-<td><p>v</p></td>
-<td><p>v</p></td>
-<td><p>v</p></td>
-<td><p>v</p></td>
-<td><p>v</p></td>
-<td><p>v</p></td>
+<td><p>√</p></td>
+<td><p>√</p></td>
+<td><p>√</p></td>
+<td><p>√</p></td>
+<td><p>√</p></td>
+<td><p>√</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CsServerAdministrator</strong></p></td>
-<td><p>v</p></td>
-<td><p>v</p></td>
-<td><p>v</p></td>
-<td><p>v</p></td>
-<td><p>v</p></td>
-<td><p>v</p></td>
+<td><p>√</p></td>
+<td><p>√</p></td>
+<td><p>√</p></td>
+<td><p>√</p></td>
+<td><p>√</p></td>
+<td><p>√</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CsAdministrator</strong></p></td>
-<td><p>v</p></td>
-<td><p>v</p></td>
-<td><p>v</p></td>
-<td><p>v</p></td>
-<td><p>v</p></td>
-<td><p>v</p></td>
+<td><p>√</p></td>
+<td><p>√</p></td>
+<td><p>√</p></td>
+<td><p>√</p></td>
+<td><p>√</p></td>
+<td><p>√</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CsViewOnlyAdministrator</strong></p></td>
-<td><p>v(4)</p></td>
-<td><p>v(4)</p></td>
-<td><p>v(4)</p></td>
-<td><p>v(4)</p></td>
-<td><p>v(4)</p></td>
-<td><p>v(4)</p></td>
+<td><p>√(4)</p></td>
+<td><p>√(4)</p></td>
+<td><p>√(4)</p></td>
+<td><p>√(4)</p></td>
+<td><p>√(4)</p></td>
+<td><p>√(4)</p></td>
 </tr>
 </tbody>
 </table>
 
 
+<div>
+
+
 > [!NOTE]  
-> <strong>(1)</strong> Um objeto de usuário Serviços de Domínio Active Directory deve ser um membro do grupo de segurança especificado Active Directory na lista. Um administrador ou outro membro do grupo Active Directory delegado com permissões adequadas para adicionar usuários a um grupo de segurança (por exemplo, Administrador, Operadores de conta), é necessário adicionar um objeto de usuário ao grupo de segurança listado ou ao grupo para o usuário poder efetuaras funções listadas. <strong>(2)</strong> Apenas para fluxos de trabalho que o CsResponseGroupAdministrator possui atribuído ao CsResponseGroupManager. <strong>(3)</strong> Um Gerenciador Grupo de Resposta pode atribuir outro membro do CsResponseGroupManager para um fluxo de trabalho que o gerenciador atual já gerencia. <strong>(4)</strong> CsViewOnlyAdministrator pode executar apenas cmdlets com o verbo &quot;Get&quot; Shell de Gerenciamento do Lync Server.
+> <STRONG>(1)</STRONG> um objeto de usuário dos serviços de domínio Active Directory deve ser um membro do grupo de segurança especificado do Active Directory listado. Um administrador ou outro membro de grupo delegado do Active Directory com permissões adequadas para adicionar usuários a um grupo de segurança (por exemplo, administrador, operadores de conta) devem adicionar um objeto de usuário ao grupo ou grupo de segurança listado para que o usuário possa executar as funções listadas. <STRONG>(2)</STRONG> somente para fluxos de trabalho que o CsResponseGroupAdministrator atribuiu ao CsResponseGroupManager. <STRONG>(3)</STRONG> um gerente de grupo de resposta pode atribuir outro membro de CsResponseGroupManager a um fluxo de trabalho que o gerente atual já gerencia. <STRONG>(4)</STRONG> CsViewOnlyAdministrator só pode executar cmdlets do Shell de gerenciamento do Lync Server "Get" do Lync Server.
 
-## Grupo de Resposta Pré-requisitos de configuração
 
-Grupo de Resposta requer os seguintes componentes:
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="response-group-configuration-prerequisites"></a>Requisitos de configuração do grupo de resposta
+
+O grupo de resposta requer os seguintes componentes:
 
   - Serviço de aplicativos
 
@@ -125,52 +158,69 @@ Grupo de Resposta requer os seguintes componentes:
 
   - Repositório de arquivos (para manter arquivos de áudio)
 
-  - Serviços da Web (inclui o Ferramenta de Configuração de Grupo de Resposta e o console de entrar e sair dos agentes)
+  - Serviços Web (inclui a ferramenta de configuração de grupo de resposta e o console de entrada e saída dos agentes)
 
-Todos estes componentes são instalados por padrão ao implantar o Enterprise Voice.
+Todos esses componentes são instalados por padrão quando você implanta o Enterprise Voice.
 
-Você pode precisar efetuar as seguintes tarefas antes de continuar Grupo de Resposta:
+Talvez seja necessário executar as seguintes tarefas antes de configurar o grupo de resposta:
 
-  - Ativar usuários para Lync Server 2013 e Enterprise Voice.
+  - Habilite os usuários do Lync Server 2013 e do Enterprise Voice.
 
   - Modificar um arquivo de configuração para estar em conformidade com os Padrões de Processamento de Informação Federal (FIPS).
 
   - Modificar o agrupamento do banco de dados para suportar caracteres Yi, Meng, e Zang para nomes de fila e nomes de grupo de agentes.
 
-## Ativando usuários
+<div>
 
-A primeira etapa na configuração do Grupo de Resposta é criar grupos de agentes. Antes de poder criar um, você deve ativar os usuários que serão agentes para Grupo de Resposta para Lync Server 2013 e Enterprise Voice. Ativar usuários para Lync Server 2013 normalmente é uma etapa na implantação do servidor Enterprise Edition ou Standard Edition. Para detalhes sobre ativar usuários para Lync Server 2013, consulte [Habilitar ou reabilitar uma conta de usuário para o Lync Server](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md). Ativar usuários para Enterprise Voice é normalmente uma etapa na implantação do Enterprise Voice. Para detalhes, consulte [Habilitar usuários para Enterprise Voice no Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md).
+## <a name="enabling-users"></a>Ativando usuários
 
-## Em conformidade com os requisitos FIPS
+A primeira etapa na configuração do grupo de resposta é criar grupos de agente. Antes de poder criar um grupo de agente, você deve habilitar os usuários que serão agentes para o grupo de resposta do Lync Server 2013 e Enterprise Voice. Habilitar usuários para o Lync Server 2013 normalmente é uma etapa na implantação do servidor Enterprise Edition Server ou Standard Edition Server. Para obter detalhes sobre como habilitar usuários do Lync Server 2013, consulte [desabilitar ou habilitar novamente a conta de usuário para o Lync server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md). A habilitação dos usuários para o Enterprise Voice geralmente é uma etapa na implantação do Enterprise Voice. Para obter detalhes, consulte [habilitar usuários do Enterprise Voice no Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md).
 
-Essa seção se aplica apenas em caso de a organização precisar estar em conformidade com os Padrões de Processamento de Informações Federais (FIPS).
+</div>
 
-Para estar em conformidade com FIPS, você precisa modificar o nível de aplicativo do arquivo Web.config para utilizar um algoritmo de criptografia diferente após instalar os Serviços Web. Você precisa especificar que o ASP.NET utiliza o algoritmo do Padrão de Criptografia de Dados Triplo (3DES) para processar dados de estado de visualização. Para o Aplicativo Grupo de Resposta, este requisito se aplica ao Ferramenta de Configuração de Grupo de Resposta e o console de entrada e saída do agente. Para obter detalhes sobre este requisito, consulte o artigo 911722 da Base de Dados de Conhecimento da Microsoft, "Você pode receber uma mensagem de erro quando você acessa páginas da Web ASP.NET que tem ViewState habilitado após a atualização do ASP.NET 1.1 para ASP.NET 2.0" em [http://go.microsoft.com/fwlink/p/?linkId=196183](http://go.microsoft.com/fwlink/p/?linkid=196183).
+<div>
+
+## <a name="complying-with-fips-requirements"></a>Em conformidade com os requisitos FIPS
+
+Essa seção se aplica a você apenas se sua organização precisar estar em conformidade com os Padrões de Processamento de Informações Federais (FIPS).
+
+Para estar em conformidade com FIPS, você precisa modificar o nível de aplicativo do arquivo Web.config para utilizar um algoritmo de criptografia diferente após instalar os Serviços Web. Você precisa especificar que o ASP.NET utiliza o algoritmo do Padrão de Criptografia de Dados Triplo (3DES) para processar dados de estado de visualização. Para o aplicativo de grupo de resposta, esse requisito se aplica à ferramenta de configuração de grupo de resposta e ao console de entrada e saída do agente. Para obter detalhes sobre esse requisito, consulte o artigo 911722 da base de dados de conhecimento Microsoft, "você pode receber uma mensagem de erro ao acessar páginas da Web do ASP.NET com ViewState habilitado após a atualização do ASP.NET 1,1 [http://go.microsoft.com/fwlink/p/?linkId=196183](http://go.microsoft.com/fwlink/p/?linkid=196183)para o ASP.NET 2,0," at.
 
 Para modificar o arquivo Web.config, faça o seguinte:
 
-1.  Em um editor de texto como o Bloco de Notas, abra o arquivo Web.config de nível de aplicativo.
+1.  Em um editor de texto como o Notepad, abra o arquivo Web.config de nível de aplicativo.
 
-2.  No arquivo Web.config, localize a seção `<system.web>`.
+2.  No arquivo Web. config, localize a `<system.web>` seção.
 
-3.  Adicione a seguinte seção `<machineKey>` na seção `<system.web>`:
+3.  Adicione a seguinte `<machineKey>` seção à `<system.web>` seção:
     
         <machineKey validationKey="AutoGenerate,IsolateApps" decryptionKey="AutoGenerate,IsolateApps" validation="3DES" decryption="3DES"/>
 
 4.  Salve o arquivo Web.config.
 
-5.  Reinicie o serviço IIS (Serviços de Informações da Internet) executando o seguinte comando no prompt de comando:
+5.  Reinicie o serviço de serviços de informações da Internet (IIS) executando o seguinte comando em um prompt de comando:
     
         iisreset
 
-## Suporte a caracteres Yi, Meng e Zang
+</div>
 
-Essa seção se aplica apenas em caso de a sua organização precisar suportar caracteres Yi, Meng ou Zang.
+<div>
+
+## <a name="supporting-yi-meng-and-zang-characters"></a>Suporte a caracteres Yi, Meng e Zang
+
+Essa seção se aplica apenas se a sua organização precisar suportar caracteres Yi, Meng ou Zang.
+
+<div>
+
 
 > [!NOTE]  
-> Para obter informações sobre quais são os caracteres Yi, Meng e Zang e por que eles podem ser importantes para a implantação, consulte as informações no conjunto de caracteres GB18030 <a href="http://go.microsoft.com/fwlink/p/?linkid=240223">http://go.microsoft.com/fwlink/p/?linkId=240223</a>.
+> Para obter informações sobre o que são os caracteres Yi, Meng e Zang e por que eles podem ser importantes para a sua implantação, consulte as informações nos conjuntos <A href="http://go.microsoft.com/fwlink/p/?linkid=240223">http://go.microsoft.com/fwlink/p/?linkId=240223</A>de caracteres do GB18030.
 
-Para suportar caracteres Yi, Meng ou Zang, você precisa modificar o agrupamento para o banco de dados Rgsconfig. Altere o agrupamento da coluna **Nome** nas seguintes tabelas em cada banco de dados Rgsconfig:
+
+
+</div>
+
+Para suportar caracteres Yi, Meng ou Zang, você precisa modificar o agrupamento para o banco de dados Rgsconfig. Altere o agrupamento da coluna  **Nome** nas seguintes tabelas em cada banco de dados Rgsconfig:
 
   - dbo.AgentGroups
 
@@ -182,15 +232,29 @@ Para suportar caracteres Yi, Meng ou Zang, você precisa modificar o agrupamento
 
   - dbo.Workflows
 
-Para SQL Server 2008 R2 e SQL Server 2012, utilize o agrupamento Latin\_General\_100 (Diferencia acentos). Se você utiliza tal agrupamento, todos os nomes de objeto não diferenciam maiúsculas de minúsculas.
+Para SQL Server 2008 R2 e SQL Server 2012, use o agrupamento\_latim\_geral 100 (diferenciação de ênfase). Se você utiliza tal agrupamento, todos os nomes de objeto não diferenciam maiúsculas de minúsculas.
 
-Você pode mudar o agrupamento utilizando o Microsoft SQL Server Management Studio. Para obter detalhes sobre como usar esta ferramenta, consulte "Usando o SQL Server Management Studio" em [http://go.microsoft.com/fwlink/p/?linkId=196184](http://go.microsoft.com/fwlink/p/?linkid=196184). Siga essas etapas para alterar o agrupamento:
+Você pode mudar o agrupamento utilizando o Microsoft SQL Server Management Studio. Para obter detalhes sobre como usar essa ferramenta, consulte "usando o SQL Server Management [http://go.microsoft.com/fwlink/p/?linkId=196184](http://go.microsoft.com/fwlink/p/?linkid=196184)Studio" em. Siga essas etapas para alterar o agrupamento:
 
-1.  Certifique-se de que o SQL Server Management Studio está configurado para permitir alterações que precisam que as tabelas sejam recriadas. Para obter detalhes, consulte "Caixa de diálogo Salvar (Não Permitido)" em [http://go.microsoft.com/fwlink/p/?linkId=196186](http://go.microsoft.com/fwlink/p/?linkid=196186). Para obter detalhes sobre como definir o agrupamento de uma coluna, consulte "Como definir agrupamento de colunas (Visual Database Tools)" em [http://go.microsoft.com/fwlink/p/?linkId=196185](http://go.microsoft.com/fwlink/p/?linkid=196185).
+1.  Certifique-se de que o SQL Server Management Studio está configurado para permitir alterações que precisam que as tabelas sejam recriadas. Para obter detalhes, consulte a caixa de diálogo "salvar (não permitido [http://go.microsoft.com/fwlink/p/?linkId=196186](http://go.microsoft.com/fwlink/p/?linkid=196186))" em. Para obter detalhes sobre como definir um agrupamento de colunas, consulte "como: definir o agrupamento de colunas (ferramentas de [http://go.microsoft.com/fwlink/p/?linkId=196185](http://go.microsoft.com/fwlink/p/?linkid=196185)banco de dados Visual)" em.
 
 2.  Utilizando o Microsoft SQL Server Management Studio, conecte-se ao banco de dados Rgsconfig.
 
-3.  Encontre a tabela que deseja alterar no banco de dados Rgsconfig, clique com o botão direito na tabela e em **Design** .
+3.  Encontre a tabela que deseja alterar no banco de dados Rgsconfig, clique com o botão direito na tabela e em **Design**.
 
 4.  Altere o agrupamento da coluna **Nome** e salve a tabela.
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

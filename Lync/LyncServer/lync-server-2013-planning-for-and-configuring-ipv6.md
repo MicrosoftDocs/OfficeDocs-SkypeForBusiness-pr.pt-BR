@@ -1,23 +1,45 @@
-﻿---
-title: 'Lync Server 2013: Planejamento e configuração do IPv6'
-TOCTitle: Planejamento e configuração do IPv6
-ms:assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204624(v=OCS.15)
-ms:contentKeyID: 49305673
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: planejando e Configurando o IPv6'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for and configuring IPv6
+ms:assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204624(v=OCS.15)
+ms:contentKeyID: 48183236
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3ed0de9e59dc6bb3c4c8f6a06ded64b58df99eb8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825083"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planejamento e configuração do IPv6 no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-06-14_
+# <a name="planning-for-and-configuring-ipv6-in-lync-server-2013"></a>Planejando e Configurando o IPv6 no Lync Server 2013
 
-O Lync Server 2013 inclui suporte para endereços IP versão 6 (IPv6), junto com o suporte continuado de endereços IP versão 4 (IPv4). Os endereços IPv4 são endereços 32 bits que permitem a um computador se comunicar pela Internet. Devido ao número cada vez maior de dispositivos no mundo todo, os endereços IPv4 disponíveis podem se esgotar. Por isso, muitos dispositivos novos estão passando a usar endereços IPv6. Os endereços IPv6 executam a mesma função que os endereços IPv4 (com alguns recursos adicionais), mas em vez de usar somente 32-bits, os endereços IPv6 usam 128 bits. Isso fornece não apenas um novo conjunto de endereços, mas também um número muito maior deles. Um endereço IPv4 típico parece com o seguinte: 192.0.2.235, enquanto um endereço IPv6 parece com o seguinte: 2001:0db8:85a3:0000:0000:8a2e:0370:7334. A mudança na formatação e funcionalidade dos dispositivos que usam endereços IPv6 exigem diversas considerações de implantação e configuração em sua instalação do Lync Server 2013.
+</div>
 
-## Nesta seção
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-06-14_
+
+O Lync Server 2013 inclui suporte para endereços IP versão 6 (IPv6), além do suporte contínuo a endereços IP versão 4 (IPv4). Os endereços IPv4 são endereços 32 bits que permitem a um computador se comunicar pela Internet. Devido ao número cada vez maior de dispositivos em todo o mundo, os endereços IPv4 disponíveis têm sido executados. Por isso, muitos dispositivos novos estão migrando para o uso de endereços IPv6. Os endereços IPv6 executam a mesma função que os endereços IPv4 (com alguns recursos adicionais), mas em vez de usar somente 32-bits, os endereços IPv6 usam 128 bits. Isso fornece não apenas um novo conjunto de endereços, mas também um número muito maior deles. Um endereço IPv4 típico parece com o seguinte: 192.0.2.235, enquanto um endereço IPv6 parece com o seguinte: 2001:0db8:85a3:0000:0000:8a2e:0370:7334. A alteração na formatação e na funcionalidade para dispositivos que usam endereços IPv6 requer várias considerações de implantação e configuração na instalação do Lync Server 2013.
+
+<div>
+
+## <a name="in-this-section"></a>Nesta seção
 
   - [Visão geral dos tipos de endereços IP para Lync Server 2013](lync-server-2013-overview-of-ip-address-types.md)
 
@@ -25,5 +47,17 @@ O Lync Server 2013 inclui suporte para endereços IP versão 6 (IPv6), junto com
 
   - [Considerações de migração e de coexistência para IPv6 no Lync Server 2013](lync-server-2013-migration-and-coexistence-considerations-for-ipv6.md)
 
-  - [Configurar tipos de endereço IP no Lync Server 2013](lync-server-2013-configure-ip-address-types.md)
+  - [Configurar tipos de endereços IP no Lync Server 2013](lync-server-2013-configure-ip-address-types.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

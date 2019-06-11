@@ -1,26 +1,60 @@
-﻿---
-title: 'Lync Server 2013: Novo recurso entre troncos'
-TOCTitle: Novo recurso entre troncos
-ms:assetid: ca6c97a4-e981-4628-96e3-ab6a083c6c05
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ721886(v=OCS.15)
-ms:contentKeyID: 49886408
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Novo recurso entre troncos'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: New intertrunk feature
+ms:assetid: ca6c97a4-e981-4628-96e3-ab6a083c6c05
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721886(v=OCS.15)
+ms:contentKeyID: 49733820
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fa2b1a0bb852586207eb5a78f36c01ea94a31405
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826210"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Novo recurso entre troncos no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-08_
+# <a name="new-intertrunk-feature-in-lync-server-2013"></a>Novo recurso entre troncos no Lync Server 2013
 
-O Lync Server 2013 oferece gerenciamento de sessão básico através do suporte de roteamento entre troncos. Esta nova capacidade permite o Lync Server oferecer funcionalidades de controle de chamada para sistemas de telefonia downstream. Com o roteamento entre troncos, o Lync Server pode interconectar um IP-PBX a um gateway PSTN para que as chamadas do telefone PBX possam ser roteadas para o PSTN e as chamadas PSTN de entrada possam ser roteadas para um telefone PBX. Da mesma forma, o Lync Server pode interconectar dois ou mais sistemas IP-PBX para que as chamadas possam ser realizadas e recebidas entre telefones PBX de sistemas IP-PBX diferentes.
+</div>
 
-## Consulte Também
+<div id="mainSection">
 
-#### Conceitos
+<div id="mainBody">
 
-[Roteamento entre troncos no Lync Server 2013](lync-server-2013-inter-trunk-routing.md)  
-[Novos recursos do Enterprise Voice no Lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-08_
+
+O Lync Server 2013 fornece gerenciamento de sessão básico por meio do suporte a roteamento de intertronco. Essa nova funcionalidade permite que o Lync Server forneça funcionalidades de controle de chamada para sistemas de telefonia downstream. Com o roteamento de intertronco, o Lync Server pode interconectar um IP-PBX a um gateway PSTN (rede telefônica pública comutada) para que as chamadas de um telefone PBX (Private Branch Exchange) possam ser roteadas para a PSTN, e as chamadas PSTN de entrada podem ser roteadas para um telefone PBX. Da mesma forma, o Lync Server pode interconectar dois ou mais sistemas de PBX IP para que chamadas possam ser feitas e recebidas entre telefones PBX dos diferentes sistemas de IP-PBX.
+
+<div>
+
+## <a name="see-also"></a>Confira também
+
+
+[Roteamento inter-trunk no Lync Server 2013](lync-server-2013-inter-trunk-routing.md)  
+[Novos recursos do Enterprise Voice no Lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

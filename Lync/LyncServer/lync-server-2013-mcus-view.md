@@ -1,21 +1,41 @@
-﻿---
-title: Exibir Mcus
-TOCTitle: Exibir Mcus
-ms:assetid: 8e8bbb1b-993b-4b66-862b-7e7654777203
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688127(v=OCS.15)
-ms:contentKeyID: 49886305
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: modo de exibição MCUs'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Mcus view
+ms:assetid: 8e8bbb1b-993b-4b66-862b-7e7654777203
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688127(v=OCS.15)
+ms:contentKeyID: 49733725
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5495c023c19d6426dae7afc9bc2181aafe8d6cbb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827526"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Exibir Mcus
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="mcus-view-in-lync-server-2013"></a>Exibição MCUs no Lync Server 2013
 
-A exibição Mcus armazena informações sobre MCUs que participaram das sessões da conferência. Esta exibição foi introduzida no Microsoft Lync Server 2013.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-01_
+
+A exibição MCUs armazena informações sobre o MCUs que participou em sessões de conferência. Este modo de exibição foi apresentado no Microsoft Lync Server 2013.
 
 
 <table>
@@ -35,18 +55,29 @@ A exibição Mcus armazena informações sobre MCUs que participaram das sessõe
 <tr class="odd">
 <td><p><strong>McuId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Número exclusivo que identifica o MCU.</p></td>
+<td><p>Número exclusivo que identifica a MCU.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>McuUri</strong></p></td>
-<td><p>nvarchar(450)</p></td>
-<td><p>URI do MCU.</p></td>
+<td><p>nvarchar (450)</p></td>
+<td><p>URL da MCU.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>McuUriType</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>Tipo do URI do MCU. Consulte <a href="lync-server-2013-uritypes-table.md">Tabela UriTypes no Lync Server 2013</a>para obter mais informações.</p></td>
+<td><p>Tipo de URI de MCU. Consulte a <a href="lync-server-2013-uritypes-table.md">tabela UriTypes no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

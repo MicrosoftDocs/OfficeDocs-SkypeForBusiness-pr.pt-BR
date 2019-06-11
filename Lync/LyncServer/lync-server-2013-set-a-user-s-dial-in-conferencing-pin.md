@@ -1,30 +1,59 @@
-﻿---
-title: 'Lync Server 2013: Configurar PIN de conferência discada de um usuário'
-TOCTitle: Configurar PIN de conferência discada de um usuário
-ms:assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg520985(v=OCS.15)
-ms:contentKeyID: 49306527
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: definir o PIN de conferência discada do usuário'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Set a user's dial-in conferencing PIN
+ms:assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520985(v=OCS.15)
+ms:contentKeyID: 48183970
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 258c6e5da1dc5b78d53bbc3779d50890935d7b58
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822024"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurar PIN de conferência discada de um usuário no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2014-06-10_
+# <a name="set-a-users-dial-in-conferencing-pin-in-lync-server-2013"></a>Definir o PIN de conferência discada de um usuário no Lync Server 2013
 
-Para ingressar em uma conferência de discagem como usuário autenticado, um usuário do Lync Server 2013 com credenciais do AD DS (Serviços de Domínio Active Directory) requer um PIN (número de identificação pessoal). Se o usuário se esquecer do PIN de conferência de discagem ou não o tiver definido usando o Lync Server, você poderá configurar o PIN do usuário por meio do Painel de Controle do Lync Server. Você pode gerar automaticamente o PIN ou criá-lo manualmente.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2014-06-10_
+
+Para ingressar em uma conferência discada como um usuário autenticado, um usuário do Lync Server 2013 com as credenciais dos serviços de domínio Active Directory (AD DS) requer um PIN (número de identificação pessoal). Se um usuário esquecer o PIN de conferência discada ou não tiver definido o PIN usando o Lync Server, você poderá definir o PIN do usuário no painel de controle do Lync Server. Você pode gerar automaticamente o PIN ou criá-lo manualmente.
+
+<div>
+
 
 > [!NOTE]  
-> Características específicas do PIN, como seu tamanho mínimo, podem ser configuradas como uma política. Além da política global, é possível configurar uma política de PIN para sites ou usuários individuais. Para obter detalhes sobre a configuração de uma política de PIN, consulte <a href="lync-server-2013-configure-dial-in-conferencing-personal-identification-number-pin-rules.md">Configurar regras de PIN da conferência discada no Lync Server 2013</a>.
+> Características específicas do PIN, como seu tamanho mínimo, podem ser configuradas como uma política. Além da política global, é possível configurar uma política de PIN para sites ou usuários individuais. Para obter detalhes sobre como configurar uma política de PIN, consulte <A href="lync-server-2013-configure-dial-in-conferencing-personal-identification-number-pin-rules.md">configurar regras de PIN (número de identificação pessoal) da conferência discada no Lync Server 2013</A>.
 
-## Para definir o PIN de um usuário
+
+
+</div>
+
+<div>
+
+## <a name="to-set-a-users-pin"></a>Para definir o PIN de um usuário
 
 1.  Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
 
-2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o Painel de Controle do Lync Server, consulte [Abrir ferramentas administrativas do Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Na barra de navegação esquerda, clique em **Usuários**.
 
@@ -44,21 +73,31 @@ Para ingressar em uma conferência de discagem como usuário autenticado, um usu
     
     4.  Dependendo da propriedade de usuário selecionada, insira os critérios que você deseja usar para filtrar os resultados da pesquisa digitando-os ou clicando na seta da lista suspensa.
         
+        <div>
+        
 
         > [!TIP]  
         > Para adicionar cláusulas de pesquisa adicionais à sua consulta, clique em <STRONG>Adicionar filtro</STRONG>.
 
+        
+        </div>
     
     5.  Clique em **Localizar**.
     
+    <div>
+    
+
     > [!NOTE]  
-    > Se o PIN estiver bloqueado, você deverá desbloqueá-lo para poder defini-lo. Para desbloquear o PIN, clique no usuário, clique em <strong>Ação</strong> e depois em <strong>Desbloquear PIN</strong>.
+    > Se o PIN estiver bloqueado, você deverá desbloqueá-lo para poder defini-lo. Para desbloquear o PIN, clique no usuário, clique em <STRONG>Ação</STRONG> e depois em <STRONG>Desbloquear PIN</STRONG>.
+
+    
+    </div>
 
 6.  Clique em um usuário nos resultados da pesquisa, clique em **Ação** e em **Definir PIN**.
 
 7.  Na caixa de diálogo **Definir PIN**, siga um destes procedimentos:
     
-      - Para permitir que o Lync Server 2013 gere o PIN do usuário, selecione **Gerar automaticamente um PIN válido** (padrão).
+      - Para permitir que o Lync Server 2013 gere o PIN do usuário, selecione **gerar automaticamente um PIN válido** (o padrão).
     
       - Para criar seu próprio PIN, clique em **Inserir manualmente um PIN específico**, clique na caixa de texto e digite um PIN na caixa de texto que atenda aos requisitos de PIN especificados nas configurações de política de PIN.
 
@@ -72,31 +111,58 @@ Para ingressar em uma conferência de discagem como usuário autenticado, um usu
 
 10. Clique em **Fechar**.
 
-## Atribuindo um PIN do usuário utilizando os cmdlets Windows PowerShell
+</div>
 
-Você pode atribuir números PIN utilizando o cmdlet Set-CsClientPin. Execute este cmdlet a partir do Shell de Gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell, "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" em [http://go.microsoft.com/fwlink/p/?linkId=255876 (em inglês)](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Para atribuir automaticamente um número PIN a um usuário
+## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>Atribuir um PIN do usuário usando cmdlets do Windows PowerShell
 
-  - O comando a seguir atribui um número PIN ao usuário Ken Myer. Por o parâmetro de Pin não estar incluído, Lync Server irá gerar automaticamente e atribuir um número de PIN.
+Você pode atribuir números PIN utilizando o cmdlet Set-CsClientPin. Você pode executar esse cmdlet a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.
+
+<div>
+
+## <a name="to-auto-assign-a-pin-number-to-a-user"></a>Para atribuir automaticamente um número PIN a um usuário
+
+  - O comando a seguir atribui um número PIN ao usuário Ken Myer. Como o parâmetro PIN não está incluído, o Lync Server gerará e atribuirá automaticamente o número do PIN.
     
         Set-CsClientPin -Identity "Ken Myer" 
 
-## Para atribuir um número PIN específico a um usuário
+</div>
+
+<div>
+
+## <a name="to-assign-a-specific-pin-number-to-a-user"></a>Para atribuir um número PIN específico a um usuário
 
   - Esse comando utiliza o parâmetro PIN para atribuir o número de PIN 121989 ao usuário Ken Myer.
     
         Set-CsClientPin -Identity "Ken Myer" -Pin 121989
 
-Para obter mais informações, consulte o tópico de ajuda referente ao cmdlet [Set-CsClientPin](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClientPin).
+</div>
 
-## Consulte Também
+Para obter mais informações, consulte o tópico da ajuda para o cmdlet [set-CsClientPin](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPin) .
 
-#### Conceitos
+</div>
 
-[Número de Acesso Discado](https://technet.microsoft.com/pt-br/library/gg133674\(v=ocs.15\))  
+<div>
 
-#### Outros Recursos
+## <a name="see-also"></a>Confira também
 
-[Configurar regras de PIN da conferência discada no Lync Server 2013](lync-server-2013-configure-dial-in-conferencing-personal-identification-number-pin-rules.md)
+
+[Número de Acesso de Discagem](https://technet.microsoft.com/en-us/library/gg133674\(v=ocs.15\))  
+
+
+[Configurar regras de PIN (número de identificação pessoal) da conferência discada no Lync Server 2013](lync-server-2013-configure-dial-in-conferencing-personal-identification-number-pin-rules.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

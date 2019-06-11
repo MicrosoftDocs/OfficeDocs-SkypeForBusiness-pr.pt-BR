@@ -1,98 +1,146 @@
-﻿---
-title: 'Lync Server 2013: Executando preparação de esquema'
-TOCTitle: Executando preparação de esquema
-ms:assetid: 9d02bdb1-ff29-417a-bcce-b068b31207d8
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412729(v=OCS.15)
-ms:contentKeyID: 49307598
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Executando preparação de esquema'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Running schema preparation
+ms:assetid: 9d02bdb1-ff29-417a-bcce-b068b31207d8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412729(v=OCS.15)
+ms:contentKeyID: 48184911
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4b743e5ef93b14279f5f2f16cb70241617a0c8f0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822535"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Executando preparação de esquema de Active Directory no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="running-active-directory-schema-preparation-in-lync-server-2013"></a>Executando preparação de esquema de Active Directory no Lync Server 2013
 
-Você pode usar o Setup ou cmdlets do Shell de Gerenciamento do Lync Server para preparar o esquema do Active Directory. O cmdlet que estende o esquema do Active Directory é **Install-CsAdServerSchema**.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-29_
+
+Você pode usar os cmdlets do Shell de gerenciamento do Lync Server e do setup para preparar o esquema do Active Directory. O cmdlet que estende o esquema do Active Directory é **install-CsAdServerSchema**.
+
+<div>
+
 
 > [!NOTE]  
-> O cmdlet de preparação de esquema (<strong>Install-CsAdServerSchema</strong>) deve acessar o mestre de esquema, que requer que o serviço do registro remoto esteja em execução e que a chave do registro remoto esteja habilitada. Se o serviço do registro remoto não puder ser habilitado no mestre de esquema, você poderá executar o cmdlet localmente no mestre de esquema. Para obter detalhes sobre o acesso remoto ao registro, consulte o artigo 314837 da Base de Dados de Conhecimento da Microsoft, &quot;Como gerenciar o Acesso Remoto ao Registro&quot; em <a href="http://go.microsoft.com/fwlink/p/?linkid=125769">http://go.microsoft.com/fwlink/p/?linkId=125769</a>.
+> O cmdlet de preparação do esquema (<STRONG>install-CsAdServerSchema</STRONG>) deve acessar o mestre de esquema, que requer que o serviço do registro remoto esteja em execução e que a chave do registro remoto esteja habilitada. Se o serviço de registro remoto não puder ser habilitado no mestre de esquema, você poderá executar o cmdlet localmente no mestre de esquema. Para obter detalhes sobre o acesso remoto ao registro, consulte o artigo 314837 da base de dados de conhecimento Microsoft, "como gerenciar o <A href="http://go.microsoft.com/fwlink/p/?linkid=125769">http://go.microsoft.com/fwlink/p/?linkId=125769</A>acesso remoto ao registro".
 
-Após a conclusão da preparação do esquema, verifique manualmente se a partição do esquema foi replicada antes de prosseguir para a preparação da floresta. Para obter detalhes, consulte [Verificando a replicação de esquema do Active Directory no Lync Server 2013](lync-server-2013-verifying-schema-replication.md).
 
-## Para usar a Instalação para preparar o esquema da floresta atual
 
-1.  Faça logon em um servidor em sua floresta como membro do grupo Administradores de Esquema e com direitos de administrador no mestre de esquema.
+</div>
 
-2.  A partir da pasta ou mídia de instalação do Lync Server 2013, execute o arquivo Setup.exe para iniciar o Assistente de Implantação.
+Depois de concluir a preparação do esquema, verifique manualmente se a partição do esquema foi replicada antes de prosseguir com a preparação da floresta. Para obter detalhes, consulte verificando a [replicação de esquema do Active Directory no Lync Server 2013](lync-server-2013-verifying-schema-replication.md).
 
-3.  Se você receber uma solicitação para instalar o Microsoft Visual C++ Redistributable, clique em **Sim**.
+<div>
 
-4.  A caixa de diálogo Instalação do Lync Server 2013 solicita um local de instalação dos arquivos do Lync Server. Escolha o local padrão ou **Procure** um local de sua escolha e clique em **Instalar**.
+## <a name="to-use-setup-to-prepare-the-schema-of-the-current-forest"></a>Para usar a instalação para preparar o esquema da floresta atual
 
-5.  Na página Contrato de Licença, marque **Aceito os termos do contrato de licença** e, em seguida, clique em **OK**.
+1.  Faça logon em um servidor na sua floresta como membro do grupo Administradores de esquemas e com direitos de administrador no mestre de esquema.
 
-6.  O instalador instala os Componentes principais do Lync Server.
+2.  Na pasta de instalação ou mídia do Lync Server 2013, execute Setup. exe para iniciar o assistente de implantação.
 
-7.  Quando o Assistente de Implantação estiver pronto, clique em **Preparar Active Directory** e espere que o estado da implantação seja determinado.
+3.  Se você for solicitado a instalar o Microsoft Visual C++ Redistributable, clique em **Sim**.
 
-8.  Na **Etapa 1: Preparar Esquema**, clique em **Executar**.
+4.  A caixa de diálogo instalação do Lync Server 2013 solicita um local para instalar os arquivos do Lync Server. Escolha o local padrão ou **navegue** até um local de sua escolha e clique em **instalar**.
 
-9.  Na página **Preparar Esquema**, clique em **Avançar**.
+5.  Na página contrato de licença, marque **a opção aceito os termos do contrato de licença**e clique em **OK**.
 
-10. Na página **Executando Comandos**, procure **Status da tarefa: Concluída** e clique em **Exibir Log**.
+6.  O instalador instala os componentes principais do Lync Server.
 
-11. Sob a coluna **Ação**, expanda **Schema Prep**, procure o Resultado de Execução **\<Sucesso\>** ao final de cada tarefa para verificar se a preparação do esquema foi concluída com êxito, feche o log e clique em **Concluir**.
+7.  Quando o assistente de implantação estiver pronto, clique em **preparar o Active Directory**e aguarde o estado de implantação ser determinado.
 
-12. Aguarde a replicação do Active Directory ser concluída ou force a replicação.
+8.  Na **etapa 1: preparar o esquema**, clique em **executar**.
 
-13. Verifique manualmente se as alterações do esquema foram replicadas para todos os outros controladores de domínio. Para obter detalhes, consulte [Verificando a replicação de esquema do Active Directory no Lync Server 2013](lync-server-2013-verifying-schema-replication.md).
+9.  Na página **preparar esquema** , clique em **Avançar**.
 
-## Para usar cmdlets para preparar o esquema da floresta atual
+10. Na página **Executando Comandos**, procure por **Status da tarefa: Concluída** e clique em **Exibir Log**.
 
-1.  Faça logon em um computador na floresta como um membro do grupo Administradores de Esquemas e com direitos de administrador no mestre de esquema.
+11. Na coluna **Action (ação** ), expanda **Schema prep**, procure o resultado da ** \<execução Success\> ** no final de cada tarefa para verificar se a preparação do esquema foi concluída com êxito, feche o log e clique em **concluir**.
 
-2.  Instale os Componentes principais do Lync Server da seguinte maneira:
+12. Aguarde a conclusão da replicação do Active Directory ou force a replicação.
+
+13. Verifique manualmente se as alterações de esquema foram duplicadas para todos os outros controladores de domínio. Para obter detalhes, consulte verificando a [replicação de esquema do Active Directory no Lync Server 2013](lync-server-2013-verifying-schema-replication.md).
+
+</div>
+
+<div>
+
+## <a name="to-use-cmdlets-to-prepare-the-schema-of-the-current-forest"></a>Usar cmdlets para preparar o esquema da floresta atual
+
+1.  Faça logon em um computador na floresta como membro do grupo Administradores de esquemas e com direitos de administrador no mestre de esquema.
+
+2.  Instale os componentes principais do Lync Server da seguinte maneira:
     
-    1.  Na pasta ou mídia de instalação do Lync Server 2013, execute Setup.exe para iniciar o Assistente de Implantação do Lync Server.
+    1.  Na pasta de instalação ou mídia do Lync Server 2013, execute Setup. exe para iniciar o assistente de implantação do Lync Server.
     
-    2.  Se você receber uma solicitação para instalar o Microsoft Visual C++ Redistributable, clique em **Sim**.
+    2.  Se você for solicitado a instalar o Microsoft Visual C++ Redistributable, clique em **Sim**.
     
-    3.  A caixa de diálogo Instalação do Lync Server 2013 solicita um local de instalação dos arquivos do Lync Server. Escolha o local padrão ou **Procure** um local de sua escolha e clique em **Instalar**.
+    3.  A caixa de diálogo instalação do Lync Server 2013 solicita um local para instalar os arquivos do Lync Server. Escolha o local padrão ou **navegue** até um local de sua escolha e clique em **instalar**.
     
-    4.  Na página Contrato de Licença, marque **Aceito os termos do contrato de licença** e, em seguida, clique em **OK**. O instalador instala os Componentes principais do Lync Server 2013.
+    4.  Na página contrato de licença, marque **a opção aceito os termos do contrato de licença**e clique em **OK**. O instalador instala os componentes principais do Lync Server 2013.
 
-3.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
+3.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
 
 4.  Execute:
     
         Install-CsAdServerSchema [-Ldf <directory where the .ldf file is located>] 
     
-    Se o parâmetro Ldf não for especificado, o valor padrão será o caminho de instalação do Lync Server 2013 que é lido a partir do registro.
+    Se você não especificar o parâmetro ldf, o valor padrão será o caminho de instalação do Lync Server 2013 lido do registro.
     
     Por exemplo:
     
         Install-CsAdServerSchema -Ldf "C:\Program Files\Microsoft Lync Server 2013\Deployment\Setup"
 
-5.  Use o cmdlet a seguir para verificar se a preparação do esquema foi executada até o final.
+5.  Use o cmdlet a seguir para verificar se a conclusão da preparação do esquema foi concluída.
     
         Get-CsAdServerSchema 
     
-    Este cmdlet retorna o valor **SCHEMA\_VERSION\_STATE\_CURRENT** se a preparação do esquema foi bem sucedida.
+    Esse cmdlet retorna um valor de **estado\_\_de\_versão do esquema atual** se a preparação do esquema foi bem-sucedida.
 
-6.  Aguarde a replicação do Active Directory ser concluída ou force a replicação.
+6.  Aguarde a conclusão da replicação do Active Directory ou force a replicação.
 
-7.  Verifique manualmente se as alterações do esquema foram replicadas para todos os outros controladores de domínio. Para obter detalhes, consulte [Verificando a replicação de esquema do Active Directory no Lync Server 2013](lync-server-2013-verifying-schema-replication.md).
+7.  Verifique manualmente se as alterações de esquema foram duplicadas para todos os outros controladores de domínio. Para obter detalhes, consulte verificando a [replicação de esquema do Active Directory no Lync Server 2013](lync-server-2013-verifying-schema-replication.md).
 
-## Consulte Também
+</div>
 
-#### Tarefas
+<div>
+
+## <a name="see-also"></a>Confira também
+
 
 [Verificando a replicação de esquema do Active Directory no Lync Server 2013](lync-server-2013-verifying-schema-replication.md)  
 
-#### Conceitos
 
-[Preparando o esquema do Active Directory no Lync Server 2013](lync-server-2013-preparing-the-active-directory-schema.md)
+[Preparando o esquema do Active Directory no Lync Server 2013](lync-server-2013-preparing-the-active-directory-schema.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

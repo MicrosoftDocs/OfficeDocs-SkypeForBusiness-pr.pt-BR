@@ -1,30 +1,59 @@
-﻿---
-title: "(Opcional) Definir os conjuntos de feriados do grupo de resposta no Lync Server 2013"
-TOCTitle: "(Opcional) Definir os conjuntos de feriados do grupo de resposta no Lync Server 2013"
-ms:assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688063(v=OCS.15)
-ms:contentKeyID: 49886226
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: (opcional) definir conjuntos de feriados do grupo de resposta'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: (Optional) Define Response Group holiday sets
+ms:assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688063(v=OCS.15)
+ms:contentKeyID: 49733657
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2ca58b3e2c17ea70e9af7a9eba48df8582b1485c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825713"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# (Opcional) Definir os conjuntos de feriados do grupo de resposta no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2014-02-07_
+# <a name="optional-define-response-group-holiday-sets-in-lync-server-2013"></a>Adicionais Definir conjuntos de feriados do grupo de resposta no Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2014-02-07_
 
 As configurações de feriados definem os dias nos quais um grupo de respostas estará fechado para negócios e especificam a ação a ser tomada nesses dias. Um conjunto de feriados é a coleção de feriados que se aplicam a um grupo de respostas.
+
+<div>
+
 
 > [!NOTE]  
 > Se um fluxo de trabalho for definido como um fluxo de trabalho gerenciado, então qualquer usuário que estiver atribuído à função CsResponseGroupManager poderá definir e modificar feriados para fluxos de trabalho que eles gerenciam.
 
-## Para criar um conjunto de feriados
+
+
+</div>
+
+<div>
+
+## <a name="to-create-a-holiday-set"></a>Para criar um conjunto de feriados
 
 1.  Faça logon como um membro do grupo RTCUniversalServerAdmins ou como um membro de uma das funções administrativas predefinidas que oferecem suporte ao Grupo de Resposta.
 
-2.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
+2.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
 
 3.  Para cada feriado que você deseja definir, execute:
     
@@ -40,15 +69,30 @@ As configurações de feriados definem os dias nos quais um grupo de respostas e
         $b = New-CsRgsHoliday -Name "Independence Day" -StartDate "7/4/2013 12:00 AM" -EndDate "7/5/2013 12:00 AM" 
         New-CsRgsHolidaySet -Parent "ApplicationServer:Redmond.contoso.com -Name "2013 Holidays" -HolidayList ($a, $b)
 
-## Consulte Também
+</div>
 
-#### Conceitos
+<div>
 
-[Criar ou modificar um fluxo de trabalho de grupo de busca no Lync Server 2013](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
+## <a name="see-also"></a>Confira também
+
+
+[Criar ou modificar um fluxo de trabalho de grupo coletivo no Lync Server 2013](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
 [Criar ou modificar um fluxo de trabalho interativo no Lync Server 2013](lync-server-2013-create-or-modify-an-interactive-workflow.md)  
 
-#### Outros Recursos
 
-[New-CsRgsHoliday](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsHoliday)  
-[New-CsRgsHolidaySet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsRgsHolidaySet)
+[New-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHoliday)  
+[New-CsRgsHolidaySet](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHolidaySet)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

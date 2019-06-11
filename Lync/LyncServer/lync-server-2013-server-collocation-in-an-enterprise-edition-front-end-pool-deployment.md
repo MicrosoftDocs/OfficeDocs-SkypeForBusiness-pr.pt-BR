@@ -1,90 +1,157 @@
-﻿---
-title: "Posic. servidor em uma implant. do pool de front-ends do Enterprise Edition"
-TOCTitle: Posicionamento do servidor em uma implantação do pool de front-ends do Enterprise Edition
-ms:assetid: 0516b18d-14c0-4237-9279-0f92e341b1bd
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398102(v=OCS.15)
-ms:contentKeyID: 49305727
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Posicionamento do servidor em uma implantação do pool de front-ends do Enterprise Edition'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Server collocation in an Enterprise Edition Front End pool deployment
+ms:assetid: 0516b18d-14c0-4237-9279-0f92e341b1bd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398102(v=OCS.15)
+ms:contentKeyID: 48183287
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6947d732cf17cc053e48596ffd310f5df3b11636
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822017"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Posicionamento do servidor em uma implantação do pool de front-ends do Enterprise Edition para o Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-11-11_
+# <a name="server-collocation-in-an-enterprise-edition-front-end-pool-deployment-for-lync-server-2013"></a>Posicionamento do servidor em uma implantação do pool de front-ends do Enterprise Edition para o Lync Server 2013
 
-Esta seção descreve as funções do servidor, os bancos de dados e compartilhamentos de arquivo que você colocar em uma implantação de pool de Front-Ends do Lync Server 2013.
+</div>
 
-## Funções do Servidor
+<div id="mainSection">
 
-No Lync Server 2013, o serviço de Conferência A/V, o serviço de Mediação, Monitoramento e Arquivamento são colocados no Servidor Front-End, mas é necessário executar configurações adicionais para habilitá-los. Se você não os posicionar no Servidor de Mediação com o Servidor Front-End, poderá implantá-lo como um Servidor de Mediação autônomo em um computador separado.
+<div id="mainBody">
 
-É possível colocar um servidor de aplicativo confiável com o Servidor Front-End.
+<span> </span>
 
-As funções do servidor mostradas a seguir devem ser implantadas cada uma em um computador separado:
+_**Tópico da última modificação:** 2013-11-11_
+
+Esta seção descreve as funções de servidor, bancos de dados e compartilhamentos de arquivos que você pode colocar em uma implantação de pool de front-end do Lync Server 2013.
+
+<div>
+
+## <a name="server-roles"></a>Funções de servidor
+
+No Lync Server 2013, o serviço de conferência A/V, o serviço de mediação, o monitoramento e o arquivamento são posicionados no servidor front-end, mas é necessária configuração adicional para habilitá-los. Se você não quiser posicionar o servidor de mediação com o servidor front-end, poderá implantá-lo como um servidor de mediação autônomo em um computador separado.
+
+Você pode posicionar um servidor de aplicativos confiável com o servidor front-end.
+
+As seguintes funções de servidor devem ser implantadas em um computador separado:
 
   - Diretor
 
   - Servidor de Borda
 
-  - Servidor de Mediação (se não colocado junto ao Servidor Front-End)
+  - Servidor de mediação (se não estiver posicionado com o servidor front-end)
 
   - Servidor Office Web Apps
 
-Não é possível colocar a função de servidor de Chat Persistente com o servidor front-end.
+Não é possível colocar a função de servidor de chat persistente com o servidor front-end.
 
-## Banco de dados
+</div>
 
-Você pode colocar cada um dos bancos de dados a seguir no mesmo servidor de banco de dados:
+<div>
 
-  - Banco de dados de back-end
+## <a name="databases"></a>Bancos de dados
+
+Você pode posicionar cada um dos seguintes bancos de dados no mesmo servidor de banco de dados:
+
+  - Banco de dados back-end
 
   - Banco de dados de monitoramento
 
   - Banco de dados de arquivamento
 
-  - Banco de dados do Chat Persistente
+  - Banco de dados de chat persistente
 
-  - Banco de dados de conformidade do Chat Persistente
+  - Banco de dados de conformidade de chat persistente
 
-É possível colocar qualquer um ou todos esses bancos de dados em uma única instância SQL Server ou usar instâncias SQL Server separadas para cada um, com as seguintes limitações:
+Você pode colocar qualquer um ou todos esses bancos de dados em uma única instância do SQL Server ou usar uma instância separada do SQL Server para cada um deles, com as seguintes limitações:
 
-  - Cada instância SQL Server pode conter um único banco de dados de back-end, de Monitoramento ou de Arquivamento, um único banco de dados Chat Persistente e um único banco de dados de conformidade Chat Persistente.
+  - Cada instância do SQL Server pode conter apenas um único banco de dados back-end, um único banco de dados de monitoramento, um único banco de dados de arquivamento, um único banco de dados persistente de chat e um único banco de dados de conformidade de chat persistente.
 
-  - O servidor de banco de dados não pode dar suporte para mais de um pool de Front-Ends, um Servidor de Arquivamento e um Monitoring Server, mas pode dar suporte para um de cada, independentemente de os bancos de dados usarem a mesma instância SQL Server ou instâncias SQL Server separadas.
+  - O servidor de banco de dados não pode dar suporte a mais de um pool de front-end, uma implantação de arquivamento e uma implantação de monitoramento, mas ele pode dar suporte a um de cada, independentemente de os bancos de dados usarem a mesma instância do SQL Server ou instâncias separadas do SQL Server.
 
-   É possível colocar um compartilhamento de arquivo com um banco de dados, conforme será descrito ainda nesta seção.
+Você pode posicionar um compartilhamento de arquivos com os bancos de dados, conforme descrito mais adiante nesta seção.
+
+<div>
+
 
 > [!NOTE]  
-> No Lync Server 2013, você tem a opção de integrar o armazenamento de Arquivamento com o armazenamento do Exchange 2013 para alguns ou todos os usuários em sua implantação. Não é possível implantar servidores que estão executando Lync Server ou componentes nos mesmos servidores que o armazenamento de Exchange.
+> No Lync Server 2013, você tem a opção de integrar o armazenamento de arquivamento com o armazenamento do Exchange 2013 para alguns ou todos os usuários em sua implantação. Você não pode implantar servidores que estejam executando o Lync Server ou componentes nos mesmos servidores que o armazenamento do Exchange.
+
+
+
+</div>
+
+<div>
+
 
 > [!IMPORTANT]  
-> Embora a colocação de bancos de dados seja suportada, o tamanho dos bancos de dados pode aumentar muito rápido. Por exemplo, quando você considera colocar o banco de dados de Arquivamento com outros bancos de dados, se estiver arquivando as mensagens de mais de alguns usuários, o espaço em disco exigido pelo banco de dados de Arquivamento poderá aumentar bastante. Por esse motivo, não recomendamos colocar vários bancos de dados, especialmente o banco de dados de Arquivamento, o banco de dados do Chat Persistente ou o banco de dados de conformidade do Chat Persistente com o banco de dados back-end.
+> Embora a colocação de bancos de dados seja compatível, o tamanho dos bancos de dados pode crescer rapidamente. Por exemplo, quando você considera posicionar o banco de dados de arquivamento com outros bancos de dados, lembre-se de que, se você estiver arquivando as mensagens de mais de alguns usuários, o espaço em disco necessário para o banco de dados do arquivamento pode crescer muito grande. Por esse motivo, não recomendamos a colocação de vários bancos de dados, especialmente o banco de dados de arquivamento, o banco de dados de chat persistente ou o banco de dados de conformidade de chat persistente com o banco de dados back-end.
 
-## Compartilhamento de arquivo
 
-O compartilhamento de arquivo pode ser um servidor separado ou pode ser colocado no mesmo servidor como qualquer um ou todos a seguir:
 
-  - Servidor de banco de dados, incluindo o Servidor Back-End de um pool de Front-Ends Enterprise Edition
+</div>
+
+</div>
+
+<div>
+
+## <a name="file-share"></a>Compartilhamento de arquivo
+
+O compartilhamento de arquivos pode ser um servidor separado ou pode ser posicionado no mesmo servidor que qualquer um ou todos os seguintes itens:
+
+  - Servidor de banco de dados, incluindo o servidor back-end de um pool Front-end da Enterprise Edition
 
   - Banco de dados de arquivamento
 
   - Banco de dados de monitoramento
 
-  - Banco de dados do Chat Persistente
+  - Banco de dados de chat persistente
 
-  - Banco de dados de conformidade do Chat Persistente
+  - Banco de dados de conformidade de chat persistente
 
-Um compartilhamento de arquivo único pode ser usado para múltiplos pools de Front-Ends, servidores Standard Edition (todos no mesmo site).
+Um único compartilhamento de arquivo pode ser usado para vários pools de front-end, servidores Standard Edition (todos no mesmo site).
+
+<div>
+
 
 > [!NOTE]  
-> No Lync Server 2013, o Monitoramento e o Arquivamento usam o compartilhamento de arquivo do Lync Server como o Servidor Front-End.
+> No Lync Server 2013, o monitoramento e o arquivamento usam o compartilhamento de arquivos do Lync Server como o servidor front-end.
 
-## Outros componentes
 
-Não é possível colocar um servidor proxy reverso, que não é um componente Lync Server 2013, mas é necessário em sua implantação se você quiser dar suporte ao compartilhamento do conteúdo Web para usuários federados com qualquer função de servidor do Lync Server 2013. É possível, contudo, implementar o suporte ao proxy reverso para uma implantação do Lync Server 2013 configurando o suporte em um servidor proxy reverso existente em sua organização, que é usado para outros aplicativos.
 
-Não é possível colocar nenhum componente do Unificação de Mensagens (UM) do Exchange ou componente do SharePoint com qualquer função do SharePoint Server.
+</div>
+
+</div>
+
+<div>
+
+## <a name="other-components"></a>Outros componentes
+
+Você não pode colocar um servidor proxy reverso, que não é um componente do Lync Server 2013, mas é necessário em sua implantação se quiser dar suporte ao compartilhamento de conteúdo da Web para usuários federados com qualquer função de servidor do Lync Server 2013. No entanto, você pode implementar o suporte de proxy reverso para uma implantação do Lync Server 2013 Configurando o suporte em um servidor de proxy reverso existente em sua organização que é usado para outros aplicativos.
+
+Você não pode colocar nenhum componente de Unificação de mensagens (UM) do Exchange ou componente do SharePoint com qualquer função do SharePoint Server.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

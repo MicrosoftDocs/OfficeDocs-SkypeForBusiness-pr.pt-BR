@@ -1,32 +1,79 @@
-﻿---
-title: Restaurando um repositório de arquivos
-TOCTitle: Restaurando um repositório de arquivos
-ms:assetid: 89916fc6-31d3-4c7f-9eaf-c02584761ef4
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Hh202180(v=OCS.15)
-ms:contentKeyID: 52057672
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: restaurando um armazenamento de arquivos'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Restoring a file store
+ms:assetid: 89916fc6-31d3-4c7f-9eaf-c02584761ef4
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202180(v=OCS.15)
+ms:contentKeyID: 51541491
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: dc9f1bae4e1a9a84815e576267a15155bec227da
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823081"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Restaurando um repositório de arquivos
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-02-18_
+# <a name="restoring-a-file-store-in-lync-server-2013"></a>Restaurando um armazenamento de arquivos no Lync Server 2013
 
-Os Repositórios de Arquivo para o Standard Edition estão normalmente localizados na Servidor Standard Edition. Os Repositórios de Arquivo para o Enterprise Edition estão normalmente localizados em um cluster ou servidor de arquivos. O procedimento seguinte descreve como restaurar uma Repositório de Arquivos.
+</div>
 
-## Para restaurar um Re positório de arquivo
+<div id="mainSection">
 
-1.  Se um Repositório de Arquivos falhar, copie o Repositório de Arquivos adequado de $Backup\\ ao local do Repositório de Arquivos no servidor de arquivos ou Servidor Standard Edition e compartilhe a pasta.
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-02-18_
+
+Os repositórios de arquivos para a edição Standard estão geralmente localizados no servidor Standard Edition. O armazenamento de arquivos para Enterprise Edition geralmente está localizado em um servidor de arquivos ou cluster. O procedimento a seguir descreve como restaurar um armazenamento de arquivos.
+
+<div>
+
+## <a name="to-restore-a-file-store"></a>Para restaurar um armazenamento de arquivos
+
+1.  Se um armazenamento de arquivos falhar, copie o armazenamento de arquivos apropriado\\ de $backup para o local do repositório de arquivos no servidor de arquivos ou no servidor Standard Edition e, em seguida, compartilhe a pasta.
     
-    > [!IMPORTANT]  
-    > O caminho e o nome do arquivo para o Repositório de Arquivos restaurado devem ser exatamente o mesmo que os do Repositório de Arquivos armazenado para que os componentes que usam os arquivos possam acessá-los.
+    <div>
+    
 
-2.  Se necessário, defina as listas do controle de acesso (ACLs) para o Repositório de Arquivos. Na linha de comando, digite:
+    > [!IMPORTANT]  
+    > O caminho e o nome do arquivo do repositório de arquivos restaurados devem ser exatamente os mesmos do armazenamento de arquivos de backup, para que os componentes que usam os arquivos possam acessá-los.
+
+    
+    </div>
+
+2.  Se necessário, defina as listas de controle de acesso (ACLs) para o repositório de arquivos. Na linha de comando, digite:
     
         Enable-CsTopology
     
+    <div>
+    
+
     > [!NOTE]  
-    > É necessário executar esta etapa somente se você não executou a Construtor de Topologias durante o processo de restauração.
+    > Você só precisará executar essa etapa se não tiver executado o construtor de topologias durante o processo de restauração.
+
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

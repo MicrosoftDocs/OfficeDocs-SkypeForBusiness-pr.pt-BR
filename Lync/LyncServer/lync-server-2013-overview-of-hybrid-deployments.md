@@ -1,31 +1,61 @@
-﻿---
-title: 'Lync Server 2013: Visão geral das implantações híbridas'
-TOCTitle: Visão geral das implantações híbridas
-ms:assetid: f6610f2f-c804-4f36-81fc-7aa3297bb4a2
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205386(v=OCS.15)
-ms:contentKeyID: 49308625
-ms.date: 06/02/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Visão geral das implantações híbridas'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Overview of hybrid deployments
+ms:assetid: f6610f2f-c804-4f36-81fc-7aa3297bb4a2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205386(v=OCS.15)
+ms:contentKeyID: 48185845
+ms.date: 05/25/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1a04adde388475a318bb0338bf7d3437395e1b6b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825454"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Visão geral das implantações híbridas do Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="overview-of-lync-server-2013-hybrid-deployments"></a>Visão geral das implantações híbridas do Lync Server 2013
 
-Uma implantação Lync Server híbrido é uma implantação em que os usuários de um domínio, como contoso.com, são divididos em aqueles que usam Lync Server no local e Microsoft Lync Online. Alguns dos usuários do domínio estão localizados no Lync Server no local, ao passo que outros estão em Skype for Business Online.
+</div>
 
-É possível configurar sua implantação do Lync no local para híbrida com Skype for Business Online e usar a Sincronização de Diretório Ativa para manter sincronizados os usuários locais e online. Você também pode configurar implantações híbridas para integração com Exchange no local e SharePoint, ou com aplicativos Microsoft Office 365, incluindo Exchange Online e SharePoint Online.
+<div id="mainSection">
 
-Esta seção guiará você pela implantação dos aplicativos necessários para a implantação híbrida do Lync Server e também pela configuração de sua implantação para gerenciar usuários entre Lync Server local e Skype for Business Online.
+<div id="mainBody">
 
-Para informações sobre como configurar as implantações de Lync Server no local como híbridas com o Skype for Business Online, consulte os tópicos a seguir:
+<span> </span>
 
-  - [Planejamento de implantações híbridas no Lync Server 2013](https://technet.microsoft.com/pt-br/library/jj205406\(v=ocs.15\))
+_**Tópico da última modificação:** 2016-05-25_
+
+Uma implantação híbrida do Lync Server é uma implantação em que os usuários de um domínio, como contoso.com, são divididos entre o uso do Lync Server local e do Microsoft Lync Online. Alguns usuários de domínio são hospedados no Lync Server local, e alguns usuários são hospedados no Skype for Business online.
+
+Você pode configurar sua implantação do Lync local para híbrido com o Skype for Business Online e usar a sincronização do Active Directory para manter os usuários locais e online sincronizados. Você também pode configurar implantações híbridas para integração com o Exchange local e o SharePoint, ou com aplicativos do Microsoft Office 365, incluindo o Exchange Online e o SharePoint Online.
+
+Esta seção orienta você na implantação dos aplicativos necessários para uma implantação híbrida do Lync Server e, em seguida, a configuração da implantação para gerenciar usuários entre o Lync Server local e o Skype for Business online.
+
+Para obter informações sobre como configurar a implantação do Lync Server local para híbrido com o Skype for Business Online, consulte os seguintes tópicos:
+
+  - [Planejamento de implantações híbridas do Lync Server 2013](lync-server-2013-planning-for-hybrid-deployments.md)
 
   - [Configurando implantações híbridas para Lync Server 2013](lync-server-2013-configuring-hybrid-deployments.md)
 
-Para mais informações sobre Skype for Business Online, consulte [Lync Online](http://go.microsoft.com/fwlink/p/?linkid=282396).
+Para obter mais informações sobre o Skype for Business Online, consulte [Lync Online](http://go.microsoft.com/fwlink/p/?linkid=282396).
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

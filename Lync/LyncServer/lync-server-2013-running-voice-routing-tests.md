@@ -1,25 +1,59 @@
-﻿---
-title: 'Lync Server 2013: Executando testes de roteamento de voz'
-TOCTitle: Executando testes de roteamento de voz
-ms:assetid: 577cdc57-930e-4e12-a515-fdcf61b93153
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398377(v=OCS.15)
-ms:contentKeyID: 49306765
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Executando testes de roteamento de voz'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Running voice routing tests
+ms:assetid: 577cdc57-930e-4e12-a515-fdcf61b93153
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398377(v=OCS.15)
+ms:contentKeyID: 48184185
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e79a582c909dbb91744f58b4fc47f738b0c67c95
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822213"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Executando testes de roteamento de voz no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-02-21_
+# <a name="running-voice-routing-tests-in-lync-server-2013"></a>Executando testes de roteamento de voz no Lync Server 2013
 
-O Lync Server 2013 oferece dois métodos diferentes para testar rotas de voz: você pode fazer um teste informal, ad hoc em qualquer número de telefone e qualquer rota de voz; ou você pode fazer um teste mais formal com o uso de casos de teste de rotas de voz. Com o teste formal, você define opções como o número a ser discado e o plano de discagem e a política de voz a serem utilizados, e o Lync Server pode verificar se, dadas essas condições, o número fornecido pode ser roteado com sucesso à rede PSTN. Ambos os métodos são descritos nas seções subsequentes desta documentação.
+</div>
 
-## Nesta seção
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2013-02-21_
+
+O Lync Server 2013 fornece dois métodos diferentes para testar as rotas de voz: você pode fazer testes informais e fazer testes ad hoc em qualquer número de telefone e qualquer rota de voz; ou você pode fazer um teste mais formal usando casos de teste de rota de voz. Com o teste formal, você define itens como o número a ser discado e o plano de discagem e a política de voz a ser empregado, e o Lync Server pode, em seguida, verificar se, dadas essas condições, o número fornecido pode ser roteado com êxito para a rede PSTN. Esses dois métodos estão descritos nas seções subsequentes desta documentação.
+
+<div>
+
+## <a name="in-this-section"></a>Nesta seção
 
   - [Executar testes de roteamento de voz informais no Lync Server 2013](lync-server-2013-run-informal-voice-routing-tests.md)
 
   - [Executar casos de teste de roteamento de voz no Lync Server 2013](lync-server-2013-run-voice-routing-test-cases.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

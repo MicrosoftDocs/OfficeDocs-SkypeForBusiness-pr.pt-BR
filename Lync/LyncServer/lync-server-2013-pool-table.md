@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Tabela Pool'
-TOCTitle: Tabela Pool
-ms:assetid: 92ded8fd-d0ad-4f8a-9e6f-2e8a690fda3a
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398746(v=OCS.15)
-ms:contentKeyID: 49307484
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Tabela Pool'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Pool table
+ms:assetid: 92ded8fd-d0ad-4f8a-9e6f-2e8a690fda3a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398746(v=OCS.15)
+ms:contentKeyID: 48184803
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 08f878b9eefef86fba0fed4dd039b9a60b6f035d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824229"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Tabela Pool no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="pool-table-in-lync-server-2013"></a>Tabela Pool no Lync Server 2013
 
-A tabela Pool é uma tabela de suporte que armazena informações sobre os diversos pools de Front-Ends. Cada registro da tabela representa um pool.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-02_
+
+A tabela de pool é uma tabela de suporte que armazena informações sobre os vários pools de front-end. Cada registro na tabela representa um pool.
 
 
 <table>
@@ -29,7 +49,7 @@ A tabela Pool é uma tabela de suporte que armazena informações sobre os diver
 <tr class="header">
 <th><strong>Coluna</strong></th>
 <th><strong>Tipo de dados</strong></th>
-<th><strong>Chave/Índice</strong></th>
+<th><strong>Chave/índice</strong></th>
 <th><strong>Detalhes</strong></th>
 </tr>
 </thead>
@@ -37,15 +57,26 @@ A tabela Pool é uma tabela de suporte que armazena informações sobre os diver
 <tr class="odd">
 <td><p><strong>PoolKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primário</p></td>
+<td><p>Primária</p></td>
 <td><p>Número exclusivo que identifica este pool.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>PoolName</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>Exclusivo </p></td>
+<td><p>Exclusividade </p></td>
 <td><p>FQDN do pool.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

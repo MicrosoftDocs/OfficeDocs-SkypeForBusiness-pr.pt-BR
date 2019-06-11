@@ -1,49 +1,88 @@
-﻿---
-title: 'Lync Server 2013: Topologia de referência em pequenas organizações '
-TOCTitle: 'Topologia de referência em pequenas organizações '
-ms:assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398095(v=OCS.15)
-ms:contentKeyID: 49305717
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Topologia de referência do Lync Server 2013 para pequenas organizações
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Reference topology for small organizations
+ms:assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398095(v=OCS.15)
+ms:contentKeyID: 48183272
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c06a3585a342ecc7fa7c41ff2b2b2682d2b8a0c3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823809"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Topologia de referência para Lync Server 2013 em pequenas organizações
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2013-10-07_
+# <a name="reference-topology-for-lync-server-2013-in-small-organizations"></a>Topologia de referência para o Lync Server 2013 em pequenas organizações
 
-A topologia de referência para pequenas organizações mostra como é possível implantar uma solução robusta, altamente disponível implantando somente três servidores executando o Lync Server.
+</div>
 
-**Topologia de referência para pequenas organizações**
+<div id="mainSection">
 
-![Diagrama de topologia de referência que implanta três servidores](images/Gg398095.25196d0d-dd07-451b-83ba-94c0ddf59030(OCS.15).jpg "Diagrama de topologia de referência que implanta três servidores")
+<div id="mainBody">
 
-  - **Par de servidores Standard Edition implantado**     Essa organização conta com 4.000 usuários em seu local central. A organização implementou dois servidores Standard Edition e os parearem a fim de habilitar a alta disponibilidade e a recuperação de desastre. Cada servidor hospeda 2.000 usuários, mas as informações sobre todos os usuários são sincronizadas entre os dois servidores. Se um ficar inativo, um administrador poderá fazer o failover de tais usuários para que sejam atendidos pelo outro servidor, com o mínimo de perturbação para os usuários. Para obter mais informações sobre recursos de alta disponibilidade e recuperação de desastre no Lync Server 2013, consulte [Planejamento para alta disponibilidade e recuperação de desastre no Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
+<span> </span>
 
-  - **A implantação de um Servidor de Borda é recomendada.**    Embora não seja necessário ter um Servidor de Borda para IM, presença e conferência, nós o recomendamos até mesmo para pequenas implantações. É possível maximizar o investimento no Lync Server com a implantação de um Servidor de Borda para fornecer serviço aos usuários atualmente fora dos firewalls da organização. Os benefícios incluem:
+_**Tópico da última modificação:** 2013-10-07_
+
+A topologia de referência para pequenas organizações mostra como você pode implantar uma solução robusta e altamente disponível implantando apenas três servidores que executam o Lync Server.
+
+**Topologia de referência em pequenas organizações**
+
+![Topologia de referência implantando três servidores diagrama] (images/Gg398095.25196d0d-dd07-451b-83ba-94c0ddf59030(OCS.15).jpg "Topologia de referência implantando três servidores diagrama")
+
+  - **Par de servidores de edição padrão**     implantados esta organização tem usuários do 4.000 em seu site central. A organização implantou dois servidores de edição padrão e os emparelharam para permitir alta disponibilidade e recuperação de desastres. Each server homes 2,000 users, but information about all users is synchronized between the two servers. If one goes down, an administrator can fail over those users to be served by the other server, with a minimum of disruption to users. Para obter mais informações sobre alta disponibilidade e recursos de recuperação de desastre no Lync Server 2013, consulte [planejando alta disponibilidade e recuperação de desastres no Lync server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
+
+  - **A implantação do servidor de borda é recomendada.**    Embora a implantação de um servidor de borda não seja necessária para mensagens instantâneas, presença e conferência internas, recomendamos que isso seja possível para pequenas implantações. Você pode maximizar o investimento do Lync Server implantando um servidor de borda para fornecer serviço para os usuários que estão fora de firewalls da sua organização. Veja alguns dos benefícios:
     
-      - Os próprios usuários da sua organização podem usar a funcionalidade do Lync Server se estiverem trabalhando de casa ou estiverem viajando.
+      - Os próprios usuários da sua organização podem usar a funcionalidade do Lync Server, se estiverem trabalhando em casa ou estiverem em trânsito.
     
-      - Os usuários podem convidar usuários externos a participar de reuniões.
+      - Os usuários da sua organização poderão convidar outros usuários para reuniões.
     
-      - Se você tiver uma organização de parceiro, fornecedor ou cliente que também usa o Lync Server, poderá formar um *relacionamento federado* com essa organização. Em seguida, sua implantação do Lync Server reconhecerá os usuários dessa organização federada, levando a melhor colaboração.
+      - Se você tiver um parceiro, fornecedor ou organização do cliente que também usa o Lync Server, você pode formar uma *relação federada* com essa organização. A implantação do Lync Server reconheceria os usuários dessa organização federada, levando a uma melhor colaboração.
     
-      - Seus usuários podem trocar mensagens instantâneas com usuários de serviços públicos de mensagens instantâneas, incluindo qualquer um ou todos os seguintes: Windows Live, AOL, Yahoo\! e Google Talk\!. Observe que uma licença separada pode ser necessária para a conectividade de mensagens instantâneas públicas com esses serviços.
+      - Seus usuários podem trocar mensagens de chat com usuários de serviços públicos de mensagens de chat, incluindo qualquer um dos itens a seguir ou todos eles\!: Windows Live, AOL, Yahoo e Google Talk. Uma licença separada pode ser necessária para conectividade de IM pública com esses serviços.
         
+        <div>
+        
+
         > [!IMPORTANT]  
-        > <ul><li><p>A partir de 1º de setembro de 2012, a Licença de Assinatura do Usuário para conectividade a redes públicas de IM do Microsoft Lync (&quot;PIC USL&quot;) não estará mais disponível para a compra de novos contratos ou para renovação. Os clientes com licenças ativas poderão continuar a federar com o Yahoo! Messenger até a data do encerramento do serviço. Foi anunciada a data de fim de vida útil em junho de 2014 para a AOL e o Yahoo!. Para obter detalhes, consulte <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Suporte para conectividade a redes públicas de mensagens instantâneas no Lync Server 2013</a>.</p></li>        
-        > <li><p>A PIC USL é uma licença de assinatura por mês e por usuário que é necessária para o Lync Server ou o Office Communications Server federar com o Yahoo! Messenger. A capacidade da Microsoft de fornecer este serviço depende do suporte do Yahoo!, o contrato subjacente que está sendo encerrado.</p></li>        
-        > <li><p>Mais do que nunca, o Lync é uma ferramenta poderosa para a conexão entre as organizações e com pessoas de todo o mundo. A federação com o Windows Live Messenger não requer licenças de usuário/dispositivo adicionais além do CAL padrão do Lync. A federação do Skype será adicionada a esta lista, permitindo que os usuários do Lync para atinjam centenas de milhões de pessoas com mensagens instantâneas e de voz.</p></li>        </ul>
+        > <UL>
+        > <LI>
+        > <P>A partir de 1º de setembro de 2012, a licença de assinatura de usuário da conectividade de mensagem de chat pública do Microsoft Lync ("PIC USL") não está mais disponível para compra de contratos novos ou de renovação. Os clientes com licenças ativas poderão continuar a federar-se com o Yahoo! Messenger até a data de encerramento do serviço. Uma data de fim da vida útil de junho de 2014 para AOL e Yahoo! foi anunciado. Para obter detalhes, consulte <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">suporte para conectividade de mensagens instantâneas públicas no Lync Server 2013</A>.</P>
+        > <LI>
+        > <P>O PIC USL é uma licença de assinatura por usuário por mês necessária para o Lync Server ou o Office Communications Server se federar com o Yahoo! Spam. A capacidade da Microsoft de oferecer esse serviço por meio do suporte do Yahoo!, o contrato subjacente para o qual está prestes a ser enrolado.</P>
+        > <LI>
+        > <P>Mais do que nunca, o Lync é uma ferramenta poderosa para a conexão entre organizações e pessoas ao redor do mundo. A Federação com o Windows Live Messenger não requer licenças de usuário/dispositivo adicionais além da CAL padrão do Lync. A Federação do Skype será adicionada a essa lista, permitindo que os usuários do Lync atinjam centenas de milhões de pessoas com mensagens instantâneas e voz.</P></LI></UL>
 
+        
+        </div>
 
-  - **Sobrevivência do site filial.**    Essa organização está executando um programa piloto do recurso Enterprise Voice do Lync Server. Alguns usuários estão usando o Lync Server como única solução de voz. Alguns desses usuários pilotos do Voice estão localizados no site filial. O site filial não possui um link confiável de rede de longa distância (WAN) até o site central, assim, um Aparelho de Filial Persistente é implantado lá. Com essa implantação, mesmo que o link de WAN pare de funcionar, os usuários do site filial ainda poderão fazer e receber chamadas (tanto chamadas dentro da organização quanto PSTN), ainda terão a funcionalidade do correio de voz, assim como a comunicação por mensagens instantânea (IM) entre duas partes. Os usuários ainda podem ser autenticados quando um link WAN estiver indisponível.
+  - **Sustentabilidade do site da filial.**    Esta organização está executando um programa piloto do recurso Enterprise Voice do Lync Server. Alguns usuários estão usando o Lync Server como uma única solução de voz. Alguns desses usuários pilotos de voz estão localizados no site da filial. O site de filial não tem um link de rede de longa distância (WAN) confiável para o site central, para que um aparelho de ramificação sobreviventes seja implantado. Com essa implantação, mesmo que o link de WAN fique inativo, os usuários do site de filial ainda poderão fazer e receber chamadas (tanto chamadas dentro da organização quanto chamadas PSTN), contar com a funcionalidade de caixa postal e comunicar-se por mensagens instantâneas entre duas partes. Os usuários também poderão ser autenticados quando o link de WAN estiver indisponível.
 
-  - **Implantação do Exchange do UM.** Essa topologia de referência inclui um Unificação de Mensagens (UM) do Exchange Server, que executa o Microsoft Exchange Server, não o Lync Server.
+  - **Implantação de UM do Exchange.** Esta topologia de referência inclui um servidor de UM (Unificação de mensagens) do Exchange, que executa o Microsoft Exchange Server, não o Lync Server.
     
-    Para obter detalhes sobre o uso do UM do Exchange, consulte [Planejamento para integração de Unificação de Mensagens do Exchange no Lync Server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) e [Integração de Unificação de Mensagens do Exchange hospedado no Lync Server 2013](lync-server-2013-hosted-exchange-unified-messaging-integration.md) na documentação de Planejamento.
+    Para obter detalhes sobre o Exchange UM, consulte [planejando a integração de Unificação de mensagens do Exchange no Lync server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) e integração de Unificação de [mensagens do Exchange no Lync Server 2013](lync-server-2013-hosted-exchange-unified-messaging-integration.md) na documentação de planejamento.
 
-  - **Office Web Apps Server.** Recomendamos a implantação de um farm do Office Web Apps Server ou do Office Web Apps Server em toda organização que usa webconferência. O Office Web Apps Server possibilita a apresentação de slides do PowerPoint em webconferências. Para obter mais informações, consulte [Configurando a integração com servidor de Office Web Apps e Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
+  - **Servidor do Office Web Apps.** Recomendamos implantar um servidor ou farm de servidores do Office Web Apps em todas as organizações que usem webconferência. O Office Web Apps Server permite que slides do PowerPoint sejam apresentados em conferências Web. Para obter mais informações, consulte Configurando [a integração com o servidor do Office Web Apps e o Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

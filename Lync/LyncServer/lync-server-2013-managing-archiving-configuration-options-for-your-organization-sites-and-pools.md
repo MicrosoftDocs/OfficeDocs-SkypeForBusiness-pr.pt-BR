@@ -1,58 +1,103 @@
-﻿---
-title: "Ger. opções de config. do arquiv. no Lync Server 2013 p/ sua empresa, sites e pools"
-TOCTitle: "Ger. opções de config. do arquiv. no Lync Server 2013 p/ sua empresa, sites e pools"
-ms:assetid: 377a6f80-5f2b-4bc1-b507-e930a461fb1d
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ204802(v=OCS.15)
-ms:contentKeyID: 49306384
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Gerenciando opções de configuração de arquivamento para sua organização, sites e pools'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing Archiving configuration options for your organization, sites, and pools
+ms:assetid: 377a6f80-5f2b-4bc1-b507-e930a461fb1d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204802(v=OCS.15)
+ms:contentKeyID: 48183830
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 10efbf23a503364de7034651d94ced43a8d7b750
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828205"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Gerenciando opções de configuração do arquivamento no Lync Server 2013 para sua empresa, sites e pools
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-11-01_
+# <a name="managing-archiving-configuration-options-in-lync-server-2013-for-your-organization-sites-and-pools"></a>Gerenciando opções de configuração de arquivamento no Lync Server 2013 para sua organização, sites e pools
 
-No Painel de Controle do Lync Server 2013, use as configuração de arquivamento para especificar como o arquivamento será implantado. Isso inclui as seguintes configurações de arquivamento:
+</div>
 
-  - Uma configuração global criada por padrão quando o Lync Server 2013 é implantado.
+<div id="mainSection">
 
-  - Configurações opcionais no nível do site e no nível do pool que podem ser criadas e usadas para especificar como o arquivamento será implantado em sites ou pool específicos.
+<div id="mainBody">
 
-As configurações de arquivamento são definidas inicialmente quando o arquivamento é implantado, mas é possível alterar, adicionar e excluir configurações depois da implantação. No Painel de Controle do Lync Server 2013, é possível usar a página **Configuração de Arquivamento** do grupo **Arquivamento e Monitoramento** para gerenciar as configuração no nível global, no nível do site e no nível do pool. Para obter detalhes sobre como as configurações de arquivamento são implantadas, inclusive as opções que podem ser especificadas, e sobre a hierarquia das configurações de arquivamento, consulte [Como o arquivamento funciona no Lync Server 2013](lync-server-2013-how-archiving-works.md) nas documentações de planejamento, implantação e operações.
+<span> </span>
+
+_**Tópico da última modificação:** 2012-11-01_
+
+No painel de controle do Lync Server 2013, você usa configurações de arquivamento para especificar como o arquivamento é implementado. Isso inclui as seguintes configurações de arquivamento:
+
+  - Uma configuração global criada por padrão quando você implanta o Lync Server 2013.
+
+  - Configurações opcionais de nível de site e de pool que você pode criar e usar para especificar como o arquivamento é implementado para sites ou pools específicos.
+
+Inicialmente, você define o arquivamento de configurações ao implantar o arquivamento, mas pode alterar, adicionar e excluir configurações após a implantação. No painel de controle do Lync Server 2013, você pode usar a página de **configuração** de arquivamento do grupo **arquivamento e monitoramento** para gerenciar as configurações no nível global, no nível do site e no nível do pool. Para obter detalhes sobre como as configurações de arquivamento são implementadas, incluindo quais opções você pode especificar e a hierarquia de configurações de arquivamento, consulte [como o arquivamento funciona no Lync Server 2013](lync-server-2013-how-archiving-works.md) na documentação de planejamento, implantação documentação ou documentação de operações.
+
+<div>
+
 
 > [!NOTE]  
-> Para usar o arquivamento, é preciso configurar as políticas de arquivamento que especificarão se o arquivamento será habilitado para comunicações internas, externas ou ambas para todos os usuários hospedados no Lync Server 2013. Por padrão, o arquivamento não é habilitado para comunicações internas ou externas. Se usar a integração com o Microsoft Exchange, habilite e configure o Exchange 2013 para que dê suporte a todos os usuários hospedados no Exchange 2013, cujas caixas de correio foram postas em Bloqueio In-loco.<br />Antes de habilitar o arquivamento, é preciso especificar as configurações de arquivamento apropriadas para sua implantação e, como opção, para sites e pool específicos, como descrito nesta seção. Para obter detalhes sobre a habilitação do arquivamento, consulte <a href="lync-server-2013-configuring-and-assigning-archiving-policies.md">Configurando e atribuindo políticas de arquivamento</a> na documentação de implantação.
+> Para usar o arquivamento, configure as políticas de arquivamento para especificar se o arquivamento deve ser habilitado para comunicações internas, para comunicações externas ou para todos os usuários em um local no Lync Server 2013. Por padrão, o arquivamento não está habilitado para comunicações internas ou externas. Se você usa a integração do Microsoft Exchange, deve habilitar e configurar o Exchange 2013 para dar suporte ao arquivamento para todos os usuários hospedados no Exchange 2013 que tiveram suas caixas de correio colocadas no bloqueio in-loco.<BR>Antes de habilitar o arquivamento, você deve especificar as configurações de arquivamento adequadas para a sua implantação e, opcionalmente, para sites e pools específicos, conforme descrito nesta seção. Para obter detalhes sobre como habilitar o arquivamento, consulte <A href="lync-server-2013-configuring-and-assigning-archiving-policies.md">configurar e atribuir políticas de arquivamento no Lync Server 2013</A> na documentação de implantação.
 
-**Para exibir as informações de configuração de arquivamento usando os cmdlets do Shell de Gerenciamento do Lync Server**
 
-  - É possível também exibir as informações de configuração de arquivamento usando o Lync ServerWindows PowerShell e o cmdlet **Get-CsArchivingConfiguration**. Este cmdlet pode ser executado no Shell de Gerenciamento do Lync Server 2013 ou em uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell, "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" em [http://go.microsoft.com/fwlink/p/?linkId=255876 (em inglês)](http://go.microsoft.com/fwlink/p/?linkid=255876).
+
+</div>
+
+**Para exibir as informações de configuração de arquivamento usando cmdlets do Windows PowerShell**
+
+  - Você pode exibir informações de configuração de arquivamento usando o Windows PowerShell e o cmdlet **Get-CsArchivingConfiguration** . Você pode executar esse cmdlet a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.
     
-    No Shell de Gerenciamento do Lync Server, use o seguinte comando para exibir informações sobre todas as suas definições de configuração de arquivamento:
+    No Shell de gerenciamento do Lync Server, use o seguinte comando para exibir informações sobre todas as suas configurações de arquivamento:
     
         Get-CsArchivingConfiguration
 
-## Nesta seção
+<div>
 
-  - [Criando uma configuração de arquivamento para gerenciar o arquivamento de sites ou pools específicos](lync-server-2013-creating-an-archiving-configuration-to-manage-archiving-for-specific-sites-or-pools.md)
+## <a name="in-this-section"></a>Nesta seção
 
-  - [Habilitar ou Desabilitar o Arquivamento de Sessões de Conferência ou IM](lync-server-2013-enabling-or-disabling-archiving-of-im-or-conferencing-sessions.md)
+  - [Criando uma configuração de arquivamento no Lync Server 2013 para gerenciar o arquivamento de sites ou pools específicos](lync-server-2013-creating-an-archiving-configuration-to-manage-archiving-for-specific-sites-or-pools.md)
 
-  - [Habilitar ou Desabilitar a Exclusão de Dados Arquivados](lync-server-2013-enabling-or-disabling-the-purging-of-archived-data.md)
+  - [Habilitar ou desabilitar o arquivamento de sessões de mensagens instantâneas ou de conferência no Lync Server 2013](lync-server-2013-enabling-or-disabling-archiving-of-im-or-conferencing-sessions.md)
 
-  - [Habilitar ou desabilitar o modo crítico para bloquear ou permitir mensagens instantâneas e sessões de conferência da Web se o arquivamento falhar](lync-server-2013-enabling-or-disabling-critical-mode-to-block-or-allow-im-and-web-conferencing-sessions-if-archiving-fails.md)
+  - [Habilitar ou desabilitar a limpeza de dados arquivados no Lync Server 2013](lync-server-2013-enabling-or-disabling-the-purging-of-archived-data.md)
+
+  - [Habilitar ou desabilitar o modo crítico no Lync Server 2013 para bloquear ou permitir sessões de mensagens instantâneas e webconferência se o arquivamento falhar](lync-server-2013-enabling-or-disabling-critical-mode-to-block-or-allow-im-and-web-conferencing-sessions-if-archiving-fails.md)
 
   - [Habilitar ou desabilitar o envio de um aviso de isenção de responsabilidade de Arquivamento a parceiros federados no Lync Server 2013](lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)
 
-  - [Habilitando uo Desabilitando Integração com Exchange Storage](lync-server-2013-enabling-or-disabling-integration-with-exchange-storage.md)
+  - [Habilitando ou desabilitando a integração do Lync Server 2013 com armazenamento do Exchange](lync-server-2013-enabling-or-disabling-integration-with-exchange-storage.md)
 
-  - [Excluindo uma configuração de arquivamento](lync-server-2013-deleting-an-archiving-configuration.md)
+  - [Excluindo uma configuração de arquivamento no Lync Server 2013](lync-server-2013-deleting-an-archiving-configuration.md)
 
-## Consulte Também
+</div>
 
-#### Outros Recursos
+<div>
 
-[Gerenciando Arquivamento do Lync Server 2013](lync-server-2013-managing-archiving.md)
+## <a name="see-also"></a>Confira também
+
+
+[Gerenciando Arquivamento do Lync Server 2013](lync-server-2013-managing-archiving.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

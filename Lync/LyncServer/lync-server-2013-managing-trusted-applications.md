@@ -1,25 +1,59 @@
-﻿---
-title: Gerenciando aplicativos confiáveis
-TOCTitle: Gerenciando aplicativos confiáveis
-ms:assetid: 0df4f899-aa7b-470d-a6c2-2e8eb2871aa2
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ687967(v=OCS.15)
-ms:contentKeyID: 49886099
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Gerenciando aplicativos confiáveis'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing trusted applications
+ms:assetid: 0df4f899-aa7b-470d-a6c2-2e8eb2871aa2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687967(v=OCS.15)
+ms:contentKeyID: 49733552
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 491d59921ac1c957ee39b30e490fa7a126275115
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827666"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Gerenciando aplicativos confiáveis
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-11-01_
+# <a name="managing-trusted-applications-in-lync-server-2013"></a>Gerenciando aplicativos confiáveis no Lync Server 2013
 
-Use os procedimentos nesta seção para exibir uma lista de aplicativos confiáveis ou informações sobre um aplicativo confiável no Lync Server 2013. Você pode executar estes procedimentos no Painel de Controle do Lync Server 2013 ou no Shell de Gerenciamento do Lync Server.
+</div>
 
-## Nesta seção
+<div id="mainSection">
 
-  - [Exibir uma lista de aplicativos confiáveis](lync-server-2013-view-a-list-of-trusted-applications.md)
+<div id="mainBody">
 
-  - [Exibir Informações de Aplicativos Confiáveis](lync-server-2013-view-trusted-application-information.md)
+<span> </span>
+
+_**Tópico da última modificação:** 2012-11-01_
+
+Use os procedimentos desta seção para exibir uma lista de aplicativos confiáveis ou exibir informações sobre um aplicativo confiável no Lync Server 2013. Você pode executar esses procedimentos no painel de controle do Lync Server 2013 ou no Shell de gerenciamento do Lync Server.
+
+<div>
+
+## <a name="in-this-section"></a>Nesta seção
+
+  - [Exibir uma lista de aplicativos confiáveis no Lync Server 2013](lync-server-2013-view-a-list-of-trusted-applications.md)
+
+  - [Exibir informações de aplicativos confiáveis no Lync Server 2013](lync-server-2013-view-trusted-application-information.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

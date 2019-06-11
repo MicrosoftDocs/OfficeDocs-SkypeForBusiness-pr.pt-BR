@@ -1,23 +1,43 @@
-﻿---
-title: 'Lync Server 2013: Planejando roteamento de voz de saída'
-TOCTitle: Planejando roteamento de voz de saída
-ms:assetid: 37c55fa4-175a-4190-b9e4-c2e5ac7b9261
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425853(v=OCS.15)
-ms:contentKeyID: 49306387
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Planejando roteamento de voz de saída'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning outbound voice routing
+ms:assetid: 37c55fa4-175a-4190-b9e4-c2e5ac7b9261
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425853(v=OCS.15)
+ms:contentKeyID: 48183835
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a5315b18e83b84980ff6d61e5385626e104a5e1e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824152"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planejando roteamento de voz de saída no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="planning-outbound-voice-routing-in-lync-server-2013"></a>Planejando roteamento de voz de saída no Lync Server 2013
 
-O roteamento de chamadas de saída é aplicado a chamadas destinadas a um gateway PSTN (Rede Telefônica Pública Comutada), tronco ou PBX (central privada de comutação telefônica). Quando um usuário faz uma chamada, o servidor normaliza o número de telefone para o formato E.164, se necessário, e tenta correspondê-lo a um URI do SIP. Se o servidor não conseguir fazer a correspondência, ele aplicará a lógica de roteamento de chamadas de saída baseada na cadeia de caracteres de discagem especificada. Especifique essa lógica definindo as configurações do servidor descritas na tabela a seguir.
+</div>
 
-### Configurações de roteamento de chamadas de saída do Lync Server
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-09-21_
+
+O encaminhamento de chamadas de saída aplica-se a chamadas destinadas a um gateway PSTN (rede telefônica pública comutada), tronco ou PBX (Private Branch Exchange). Quando um usuário faz uma chamada, o servidor normaliza o número de telefone para o formato E. 164, se necessário, e tenta fazer a correspondência com um URI de SIP. Se o servidor não conseguir fazer a correspondência, ele aplicará a lógica de roteamento de chamadas de saída com base na cadeia de caracteres de discagem fornecida. Especifique essa lógica definindo as configurações do servidor descritas na tabela a seguir.
+
+### <a name="lync-server-outbound-call-routing-settings"></a>Configurações de roteamento de chamadas de saída do Lync Server
 
 <table>
 <colgroup>
@@ -33,11 +53,11 @@ O roteamento de chamadas de saída é aplicado a chamadas destinadas a um gatewa
 <tbody>
 <tr class="odd">
 <td><p>Plano de discagem</p></td>
-<td><p>Um plano de discagem é um conjunto nomeado de regras de normalização que converte números de telefone de um local nomeado, usuário individual ou objeto de contato em um formato padrão único (E.164) para fins de roteamento de chamadas e autorização.</p></td>
+<td><p>Um plano de discagem é um conjunto nomeado de regras de normalização que converte números de telefone de um local nomeado, usuário individual ou objeto de contato em um único formato padrão (E.164) para fins de roteamento de chamadas e autorização de telefones.</p></td>
 </tr>
 <tr class="even">
 <td><p>Regra de normalização</p></td>
-<td><p>As regras de normalização definem como os números de telefone expressos em vários formatos são roteados para cada local, usuário ou objeto de contato especificado. A mesma cadeia de caracteres de discagem pode ser interpretada e convertida de maneira diferente, conforme o local do qual é discada e da pessoa ou objeto de contato que está fazendo a chamada. Um conjunto de regras de normalização associadas a um local específico constitui um plano de discagem.</p></td>
+<td><p>As regras de normalização definem como os números de telefone expressos em vários formatos são roteados para cada local, usuário ou objeto de contato especificado. A mesma cadeia de caracteres de discagem pode ser interpretada e convertida de maneira diferente, dependendo do local do qual é discada e da pessoa ou do objeto de contato que está fazendo a chamada. Um conjunto de regras de normalização associadas a um local específico constitui um plano de discagem.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Política de voz</p></td>
@@ -55,22 +75,44 @@ O roteamento de chamadas de saída é aplicado a chamadas destinadas a um gatewa
 </table>
 
 
-## Nesta seção
+<div>
 
-Esta seção fornece diretrizes para definir as seguintes configurações do servidor de roteamento de chamadas de saída
+## <a name="in-this-section"></a>Nesta seção
 
-   [Planos de discagem e regras de normalização no Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md)
+Esta seção fornece diretrizes para configurar as seguintes configurações de servidor de roteamento de chamadas de saída:
 
-   [Políticas de voz no Lync Server 2013](lync-server-2013-voice-policies.md)
+  - <span></span>  
+    [Planos de discagem e regras de normalização no Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md)
 
-   [Registros de uso de PSTN no Lync Server 2013](lync-server-2013-pstn-usage-records.md)
+  - <span></span>  
+    [Políticas de voz no Lync Server 2013](lync-server-2013-voice-policies.md)
 
-   [Rotas de voz no Lync Server 2013](lync-server-2013-voice-routes.md)
+  - <span></span>  
+    [Registros de uso de PSTN no Lync Server 2013](lync-server-2013-pstn-usage-records.md)
 
-## Consulte Também
+  - <span></span>  
+    [Rotas de voz no Lync Server 2013](lync-server-2013-voice-routes.md)
 
-#### Conceitos
+</div>
 
-[Tronco SIP no Lync Server 2013](lync-server-2013-sip-trunking.md)  
-[Conexões SIP diretas no Lync Server 2013](lync-server-2013-direct-sip-connections.md)
+<div>
+
+## <a name="see-also"></a>Confira também
+
+
+[Entroncamento SIP no Lync Server 2013](lync-server-2013-sip-trunking.md)  
+[Conexões SIP diretas no Lync Server 2013](lync-server-2013-direct-sip-connections.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

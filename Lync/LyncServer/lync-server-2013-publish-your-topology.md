@@ -1,39 +1,80 @@
-﻿---
-title: 'Lync Server 2013: Publicar sua topologia'
-TOCTitle: Publicar sua topologia
-ms:assetid: bfed3829-7a54-4b5c-a7cb-28871acd35e7
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg412935(v=OCS.15)
-ms:contentKeyID: 49307992
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Publicar sua topologia'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Publish your topology
+ms:assetid: bfed3829-7a54-4b5c-a7cb-28871acd35e7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412935(v=OCS.15)
+ms:contentKeyID: 48185287
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3bd542db6acedbec75e475045ae2ace6d63d5469
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823662"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Publicar sua topologia no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-08_
+# <a name="publish-your-topology-in-lync-server-2013"></a>Publicar sua topologia no Lync Server 2013
 
-Sempre que usar o Construtor de Topologias para construir sua topologia, publique a topologia em um banco de dados no Repositório de Gerenciamento Central para que os dados sejam usados para a implantação do Lync Server 2013. Execute o procedimento a seguir para publicar a topologia.
+</div>
 
-## Para publicar a topologia
+<div id="mainSection">
 
-1.  Inicie o Construtor de Topologias: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Construtor de Topologias do Lync Server**.
+<div id="mainBody">
 
-2.  No Construtor de Topologias, na árvore de console, clique com o botão direito em **Lync 2013** e em **Topologia de publicação** .
+<span> </span>
 
-3.  Na página **Bem-vindo** do assistente, clique em **Avançar** .
+_**Tópico da última modificação:** 2012-09-08_
 
-4.  Na página **Construtor de Topologia encontrou um repositório CMS** , clique em **Avançar** .
+Toda vez que você usa o construtor de topologias para criar sua topologia, você deve publicar a topologia em um banco de dados no repositório de gerenciamento central para que os dados possam ser usados para implantar o Lync Server 2013. Use o procedimento a seguir para publicar sua topologia.
 
-5.  Na página **Criar outros bancos de dados** , clique em **Avançar** .
+<div>
+
+## <a name="to-publish-the-topology"></a>Para publicar a topologia
+
+1.  Iniciar o construtor de topologias: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Construtor de topologias do Lync Server**.
+
+2.  No construtor de topologias, na árvore de console, clique com o botão direito do mouse no **Lync 2013**e clique em **publicar topologia**.
+
+3.  Na página **Bem-vindo** do assistente, clique em **Avançar**.
+
+4.  No **Construtor de topologias localizou uma** página de repositório de CMS, clique em **Avançar**.
+
+5.  Na página **Criar outros bancos de dados**, clique em **Avançar**.
 
 6.  Quando o status indicar que a criação do banco de dados foi bem-sucedida, faça o seguinte:
     
-      - Para exibir o log, clique em **Exibir log** .
+      - Para exibir o log, clique em **Exibir log**.
     
-      - Para fechar o assistente, clique em **Concluir** .
+      - Para fechar o assistente, clique em **Concluir**.
         
+        <div>
+        
+
         > [!IMPORTANT]  
-        > Se esta for uma nova instalação de uma Servidor de Borda ou de um Pool de borda, você deve exportar a configuração da Servidor de Borda de uma Servidor Front-End, um Pool de Front-Ends ou uma Servidor Standard Edition existente. Para exportar a configuração, consulte <a href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">Exportar sua topologia do Lync Server 2013 e copiá-la na mídia externa para instalação de borda</a>. Você importará o arquivo de configuração de uma mídia externa ou de um compartilhamento de rede durante a configuração e a fase de implantação da Servidores de Borda pela Assistente de Implantação do Lync Server.<br />        Depois que a Servidores de Borda estiver operacional e o banco de dados de armazenamento de configuração local estiver replicando com a implantação interna, as atualização subsequentes das configuração do Lync Server 2013 serão publicadas e replicada no Servidores de Borda.
+        > Se esta for uma nova instalação de um servidor de borda ou de um pool de bordas, você deverá exportar a configuração do servidor de borda de um servidor front-end existente, um pool de front-end ou um servidor Standard Edition. Para exportar a configuração, confira <A href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">exportar sua topologia do Lync Server 2013 e copiá-la para a mídia externa para instalação do Edge</A>. Você vai importar o arquivo de configuração da mídia externa ou do compartilhamento de rede durante a fase de configuração e implantação dos servidores de borda por meio do assistente de implantação do Lync Server.<BR>Depois que os servidores de borda estiverem operacionais e o banco de dados do repositório de gerenciamento de configuração local estiver sendo replicado com a implantação interna, as atualizações subsequentes para a configuração do Lync Server 2013 serão publicadas e replicadas para os servidores de borda.
+
+        
+        </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

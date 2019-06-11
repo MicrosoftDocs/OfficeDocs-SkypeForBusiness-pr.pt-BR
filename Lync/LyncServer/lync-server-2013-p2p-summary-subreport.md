@@ -1,27 +1,49 @@
-﻿---
-title: Subrelatório de Resumo P2P
-TOCTitle: Subrelatório de Resumo P2P
-ms:assetid: fc36185a-3cc5-4167-8c93-8a755fa75ac7
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205416(v=OCS.15)
-ms:contentKeyID: 49308703
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: sub-relatório de resumo P2P'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: P2P Summary Subreport
+ms:assetid: fc36185a-3cc5-4167-8c93-8a755fa75ac7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205416(v=OCS.15)
+ms:contentKeyID: 48185950
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7199d9571adfb90b6f848f8f46474fd14813bc76
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825377"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Subrelatório de Resumo P2P
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="p2p-summary-subreport-in-lync-server-2013"></a>Sub-relatório de resumo P2P no Lync Server 2013
 
-O Subrelatório de Resumo P2P oferece uma visão geral das sessões de comunicação ponto a ponto que falharam.
+</div>
 
-## Filtros
+<div id="mainSection">
 
-Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionadas ou para exibir os dados retornados de diferentes maneiras. A tabela a seguir lista os filtros que você pode usar com o Subrelatório de Resumo P2P.
+<div id="mainBody">
 
-### Filtros de Subrelatório de Resumo P2P
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-21_
+
+O sub-relatório de resumo P2P oferece uma visão geral das sessões de comunicação ponto a ponto que falharam.
+
+<div>
+
+## <a name="filters"></a>Filtros
+
+Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionadas ou para exibir os dados retornados de diferentes maneiras. A tabela a seguir lista os filtros que você pode usar com o sub-relatório de resumo P2P.
+
+### <a name="p2p-summary-subreport-filters"></a>Filtros de sub-relatório de resumo P2P
 
 <table>
 <colgroup>
@@ -37,37 +59,41 @@ Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionad
 <tbody>
 <tr class="odd">
 <td><p><strong>De</strong></p></td>
-<td><p>Data e hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:</p>
+<td><p>Data e hora de início do intervalo de tempo. Para ver os dados por hora, insira a data e hora de início desta forma:</p>
 <p>7/7/2012 1:00 PM</p>
-<p>Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</p>
+<p>Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:</p>
 <p>7/7/2012</p>
-<p>Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
+<p>Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/3/2012</p>
-<p>As semanas são sempre de domingo a sábado.</p></td>
+<p>As semanas sempre vão de domingo a sábado.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Para</strong></p></td>
+<td><p><strong>Até</strong></p></td>
 <td><p>Data e hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:</p>
 <p>7/7/2012 1:00 PM</p>
-<p>Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</p>
+<p>Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:</p>
 <p>7/7/2012</p>
-<p>Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
+<p>Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/3/2012</p>
-<p>As semanas são sempre de domingo a sábado.</p></td>
+<p>As semanas sempre vão de domingo a sábado.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Pool</strong></p></td>
-<td><p>FQDN (Nome de domínio totalmente qualificado) do Pool de registradores ou Servidor de Borda. Você pode selecionar um pool individual ou clicar em <strong>[Todos]</strong> para ver os dados de todos os pools. Essa lista suspensa é automaticamente preenchida para você com base nos registros no banco de dados.</p></td>
+<td><p>O FQDN (nome de domínio totalmente qualificado) do pool Registrador Avançado ou Servidor de Borda. Você pode selecionar um pool individual ou clicar em <strong>[Todos]</strong> para ver os dados de todos os pools. Essa lista suspensa é preenchida automaticamente com base nos registros no banco de dados.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Métricas
+</div>
 
-A tabela a seguir lista a informação oferecida no Subrelatório de Resumo P2P.
+<div>
 
-### Métricas de Subrelatório de Resumo P2P
+## <a name="metrics"></a>Métricas
+
+A tabela a seguir apresenta as informações oferecidas no sub-relatório de resumo P2P.
+
+### <a name="p2p-summary-subreport-metrics"></a>Métricas de sub-relatório de resumo P2P
 
 <table>
 <colgroup>
@@ -78,7 +104,7 @@ A tabela a seguir lista a informação oferecida no Subrelatório de Resumo P2P.
 <thead>
 <tr class="header">
 <th>Nome</th>
-<th>É possível classificar este item?</th>
+<th>Você pode classificar este item?</th>
 <th>Descrição</th>
 </tr>
 </thead>
@@ -94,7 +120,7 @@ A tabela a seguir lista a informação oferecida no Subrelatório de Resumo P2P.
 <td><p>Percentual de sessões ponto a ponto que falharam.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Sessões por Modalidade</strong></p></td>
+<td><p><strong>Sessões por modalidade</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Número total de sessões agrupadas por modalidade (por exemplo, mensagens instantâneas).</p></td>
 </tr>
@@ -105,4 +131,17 @@ A tabela a seguir lista a informação oferecida no Subrelatório de Resumo P2P.
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

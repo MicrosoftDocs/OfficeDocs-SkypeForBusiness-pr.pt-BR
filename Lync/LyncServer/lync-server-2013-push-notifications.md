@@ -1,33 +1,71 @@
-﻿---
-title: Notificação por Push
-TOCTitle: Notificação por Push
-ms:assetid: 214d18a5-0ce8-4f07-bc47-c3b6bc894e8b
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ687991(v=OCS.15)
-ms:contentKeyID: 49886132
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: notificações por push'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Push notifications
+ms:assetid: 214d18a5-0ce8-4f07-bc47-c3b6bc894e8b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687991(v=OCS.15)
+ms:contentKeyID: 49733581
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 97c1575ffb7a4cf1e53aa5006b8196fe4e0666d7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823634"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Notificação por Push
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-19_
+# <a name="push-notifications-in-lync-server-2013"></a>Notificações por push no Lync Server 2013
 
-É possível gerenciar notificações de push na seção **Clientes** do Painel de Controle do Lync Server 2013.
+</div>
 
-## Nesta seção
+<div id="mainSection">
 
-  - [Habilitar ou Desabilitar Notificações por Push para iPhones](lync-server-2013-enabling-or-disabling-push-notifications-for-iphones.md)
+<div id="mainBody">
 
-  - [Habilitar ou Desabilitar Notificações por Push para Windows Phones](lync-server-2013-enabling-or-disabling-push-notifications-for-windows-phones.md)
+<span> </span>
 
-  - [Visualizar Informações sobre Configurações de Notificações por Push](lync-server-2013-viewing-information-about-push-notification-settings.md)
+_**Tópico da última modificação:** 2012-10-19_
 
-## Consulte Também
+Você pode gerenciar as notificações por push na seção **clientes** do painel de controle do Lync Server 2013.
 
-#### Tarefas
+<div>
 
-[Configurando notificações por push no Lync Server 2013](lync-server-2013-configuring-for-push-notifications.md)
+## <a name="in-this-section"></a>Nesta seção
+
+  - [Habilitar ou desabilitar notificações por push para iPhones no Lync Server 2013](lync-server-2013-enabling-or-disabling-push-notifications-for-iphones.md)
+
+  - [Habilitar ou desabilitar notificações por push para telefones Windows no Lync Server 2013](lync-server-2013-enabling-or-disabling-push-notifications-for-windows-phones.md)
+
+  - [Exibir informações sobre as configurações de notificação por push no Lync Server 2013](lync-server-2013-viewing-information-about-push-notification-settings.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Confira também
+
+
+[Configurando notificações por push no Lync Server 2013](lync-server-2013-configuring-for-push-notifications.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,27 +1,61 @@
-﻿---
-title: Planejamento da integração com o servidor Exchange com Lync Server 2013
-TOCTitle: Planejamento da integração com o servidor Exchange com Lync Server 2013
-ms:assetid: 75152a25-f3cd-4134-9be7-7a0e6c5d0ed8
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688094(v=OCS.15)
-ms:contentKeyID: 49886264
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: planejando a integração com o Exchange Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for Exchange Server integration
+ms:assetid: 75152a25-f3cd-4134-9be7-7a0e6c5d0ed8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688094(v=OCS.15)
+ms:contentKeyID: 49733693
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 664f328dbf3bf85fab1bc0af9b56a32d9c155332
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824831"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planejamento da integração com o servidor Exchange com Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-20_
+# <a name="planning-for-exchange-server-integration-with-lync-server-2013"></a>Planejando a integração do Exchange Server com o Lync Server 2013
 
-Quando você implanta o Exchange e o Lync Server em sua organização, muitos recursos dos dois produtos são aprimorados. Esta seção contém informações sobre esses recursos.
+</div>
 
-## Nesta seção
+<div id="mainSection">
 
-  - [Integrar Microsoft Lync Server 2013 e Microsoft Exchange Server 2013](lync-server-2013-integrating-with-microsoft-exchange-server-2013.md)
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-09-20_
+
+Quando você implanta o Exchange e o Lync Server em sua organização, muitos recursos em ambos os produtos são aprimorados. Esta seção contém informações sobre esses recursos.
+
+<div>
+
+## <a name="in-this-section"></a>Nesta seção
+
+  - [Integração do Microsoft Lync Server 2013 e do Microsoft Exchange Server 2013](lync-server-2013-integrating-with-microsoft-exchange-server-2013.md)
 
   - [Planejamento para integração de Unificação de Mensagens do Exchange no Lync Server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md)
 
   - [Integração de Unificação de Mensagens do Exchange hospedado no Lync Server 2013](lync-server-2013-hosted-exchange-unified-messaging-integration.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,39 +1,70 @@
-﻿---
-title: "Gerenc. Recup. de desastre, alta dispon. e Serviço de Backup do Lync Server"
-TOCTitle: Gerenciando recuperação de desastre, alta disponibilidade e Serviço de Backup do Lync Server 2013
-ms:assetid: f4cd36fb-ffd6-48fa-b761-e11b3bcff91a
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ721939(v=OCS.15)
-ms:contentKeyID: 49886484
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Gerenciamento de recuperação de desastres do Lync Server, alta disponibilidade e serviço de backup
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing Lync Server disaster recovery, high availability, and Backup Service
+ms:assetid: f4cd36fb-ffd6-48fa-b761-e11b3bcff91a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721939(v=OCS.15)
+ms:contentKeyID: 49733876
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cada393fca28895ee5f23a12fdd55eabd211128e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828009"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Gerenciando recuperação de desastre, alta disponibilidade e Serviço de Backup do Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-11-12_
+# <a name="managing-lync-server-2013-disaster-recovery-high-availability-and-backup-service"></a>Gerenciando recuperação de desastre, alta disponibilidade e Serviço de Backup do Lync Server 2013
 
-Esta seção contém os procedimentos para operações de recuperação de desastres, bem como para realizar a manutenção do Serviço de Backup, que sincroniza os dados de pools de Front Ends emparelhados.
+</div>
 
-Os procedimentos de recuperação de desastres, o failover e o failback, são manuais. Se ocorrer um desastre, o administrador deve chamar manualmente os procedimentos de failover. O mesmo se aplica ao failback após a reparação do pool.
+<div id="mainSection">
 
-Os procedimentos de recuperação de desastres no restante dessa seção pressupõem que:
+<div id="mainBody">
 
-  - Você tem uma implantação com pools de Front Ends emparelhados em diferentes sites, conforme descrito em [Planejamento para alta disponibilidade e recuperação de desastre no Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md). O Serviço de Backup é executado nestes pools emparelhados para mantê-los sincronizados.
+<span> </span>
 
-  - Se o Repositório de Gerenciamento Central está hospedado em ambos os pools, ele é instalado e executado em ambos os pools emparelhados, sendo que um dos pools hospeda o mestre ativo e o outro pool, o em espera.
+_**Tópico da última modificação:** 2012-11-12_
 
-> [!IMPORTANT]  
-> Nos procedimentos a seguir, o parâmetro <em>PoolFQDN</em> se refere ao FQDN do pool afetado pelo desastre, e não o pool para o qual os usuários afetados foram redirecionados. Para o mesmo conjunto de usuários afetados, ele se refere ao mesmo pool em ambos os cmdlets de failover e failback (ou seja, o pool que primeiramente hospedou os usuários antes do failover).<br />Por exemplo, pressuponha um caso em que todos os usuários hospedados no pool P1 foram transferidos para o pool de backup, o P2. Se o administrador deseja mover todos os usuários que utilizam os serviços de P2 para utilizarem os serviços de P1, o administrador deve executar as seguintes etapas:
-> <ol><li><p>Retorne do P2 para o P1 todos os usuários originalmente hospedados em P1 utilizando o cmdlet de failback. Nesse caso, <em>PoolFQDN</em> é o FQDN de P1.</p></li>
-> <li><p>Transfira todos os usuários originalmente hospedados em P2 para o P1 utilizando o cmdlet de failover. Nesse caso, a propriedade <em>PoolFQDN</em> é o FQDN de P2.</p></li>
-> <li><p>Se o administrador desejar retornar posteriormente os usuários para o P2, o <em>PoolFQDN</em> é o FQDN do P2.</p></li></ol>
-> Observe que a etapa 1 acima deve ser realizada antes da etapa 2 para preservar a integridade do pool. Se você executar a etapa 2 antes da etapa 1, o cmdlet da etapa 2 falhará.
+Esta seção contém procedimentos para operações de recuperação de desastres, bem como para manter o serviço de backup que sincroniza os dados em pools front-ends emparelhados.
+
+Procedimentos de recuperação de desastre, failover e failback, são manuais. Se houver um desastre, o administrador deve invocar manualmente os procedimentos de failover. O mesmo se aplica a failback após o rereparo do pool.
+
+Os procedimentos de recuperação de desastre no restante desta seção pressupõem o seguinte:
+
+  - Você tem uma implantação com pools front-end emparelhados, localizada em sites diferentes, conforme descrito em [planejamento para alta disponibilidade e recuperação de desastres no Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md). O serviço de backup está em execução nesses pools emparelhados para mantê-los sincronizados.
+
+  - Se o repositório de gerenciamento central estiver hospedado em qualquer um dos pools, ele será instalado e executado em ambos os pools emparelhados, com um desses pools que hospeda o mestre ativo e o outro pool que hospeda o modo de espera.
+
+<div>
 
 
-## Nesta seção
+> [!IMPORTANT]
+> Nos procedimentos a seguir, o parâmetro <EM>PoolFQDN</EM> refere-se ao FQDN do pool afetado pelo desastre, e não ao pool em que os usuários afetados estão sendo redirecionados. Para o mesmo conjunto de usuários afetados, ele se refere ao mesmo pool em cmdlets de failover e failback (ou seja, o pool que primeiro hospeda os usuários antes do failover).<BR>Por exemplo, suponha que um caso em que todos os usuários hospedados em um pool P1 tivessem falhado para o pool de backup, P2. Se o administrador quiser mover todos os usuários atualmente atendidos pelo P2 a serem atendidos pelo P1, o administrador deve executar as seguintes etapas: 
+> <OL>
+> <LI>
+> <P>Faça o failback de todos os usuários originalmente hospedados no P1 do P2 para P1 usando o cmdlet failback. Nesse caso, o <EM>PoolFQDN</EM> é P1's FQDN.</P>
+> <LI>
+> <P>Fazer failover de todos os usuários originalmente hospedados no P2 do P1 usando o cmdlet de failover. Nesse caso, o <EM>PoolFQDN</EM> é P2's FQDN.</P>
+> <LI>
+> <P>Se o administrador mais tarde quiser fazer failback desses usuários de P2 de volta para P2, o <EM>PoolFQDN</EM> será P2's FQDN.</P></LI></OL>Observe que a etapa 1 acima deve ser realizada antes da etapa 2 para preservar a integridade do pool. Se você tentar a etapa 2 antes da etapa 1, o cmdlet etapa 2 falhará.
+
+
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>Nesta seção
 
   - [Configurando e monitorando o Serviço de Backup no Lync Server 2013](lync-server-2013-configuring-and-monitoring-the-backup-service.md)
 
@@ -53,9 +84,25 @@ Os procedimentos de recuperação de desastres no restante dessa seção pressup
 
   - [Restaurando conteúdos de conferência usando o Serviço de Backup no Lync Server 2013](lync-server-2013-restoring-conference-contents-using-the-backup-service.md)
 
-## Consulte Também
+</div>
 
-#### Conceitos
+<div>
 
-[Planejamento para alta disponibilidade e recuperação de desastre no Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)
+## <a name="see-also"></a>Confira também
+
+
+[Planejamento para alta disponibilidade e recuperação de desastre no Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Relatório de Desempenho do Servidor'
-TOCTitle: Relatório de Desempenho do Servidor
-ms:assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg615018(v=OCS.15)
-ms:contentKeyID: 49307485
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: relatório de desempenho do servidor'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Server Performance Report
+ms:assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615018(v=OCS.15)
+ms:contentKeyID: 48184879
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3c5a08104f33fc07d6a0ec1c3241a7f14fa1227a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822374"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Relatório de Desempenho do Servidor no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="server-performance-report-in-lync-server-2013"></a>Relatório de desempenho do servidor no Lync Server 2013
 
-O Relatório de desempenho do servidor fornece uma lista de servidores do Microsoft Lync Server 2013 que têm a porcentagem mais alta de chamadas ruins. O relatório divide os servidores por tipo, relatando estatísticas separadas para os seguintes tipos:
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-01_
+
+O relatório de desempenho do servidor fornece uma lista de servidores do Microsoft Lync Server 2013 que tiveram o maior percentual de chamadas ruins. O relatório divide os servidores por tipo, relatando estatísticas separadas para os seguintes tipos:
 
   - Servidor de Mediação
 
@@ -33,9 +53,11 @@ O Relatório de desempenho do servidor fornece uma lista de servidores do Micros
 
 É importante observar a classificação mostrada neste relatório como classificação relativa. Por exemplo, suponha que seu servidor com pior desempenho tenha uma chamada ruim entre suas 1.000 chamadas efetuadas. Isso é uma porcentagem de 0,1% que é mais que aceitável. No entanto, se esse for seu servidor com pior desempenho (isto é, se todos os seus outros servidores tiverem uma porcentagem de chamada ruim mais baixa que 0,1%), então esse servidor aparecerá mesmo assim no Relatório de desempenho do servidor.
 
-## Como avaliar o Relatório de desempenho do servidor
+<div>
 
-O Relatório de desempenho do servidor é acessado a partir da página inicial dos Relatórios de Monitoramento. Você pode se aprofundar nos detalhes do [Relatório de Lista de chamadas no Lync Server 2013](lync-server-2013-call-list-report.md) clicando em uma das seguintes métricas:
+## <a name="accessing-the-server-performance-report"></a>Como avaliar o Relatório de desempenho do servidor
+
+O Relatório de desempenho do servidor é acessado na página inicial dos Relatórios de Monitoramento. Você pode fazer uma busca detalhada no [relatório de lista de chamadas no Lync Server 2013](lync-server-2013-call-list-report.md) clicando em uma das seguintes métricas:
 
   - Volume da chamada
 
@@ -45,17 +67,25 @@ Além disso, você ver os detalhes do Relatório de Tendência de Qualidade de M
 
   - Tendência
 
-## Como usar melhor o Relatório de desempenho do servidor
+</div>
+
+<div>
+
+## <a name="making-the-best-use-of-the-server-performance-report"></a>Como aproveitar ao máximo o relatório de desempenho do servidor
 
 O Relatório de desempenho do servidor fornece várias maneiras de filtrar dados; por exemplo, você pode filtrar por tipo de rede (chamadas feitas de uma chamada cabeada x chamadas de uma conexão sem fio) e tipo de acesso (chamadas feitas de dentro do firewall x chamadas feitas de fora do firewall). Ao exibir o relatório de desempenho do servidor, é uma boa ideia usar esses filtros. Por exemplo, suponha que você tem um Servidor de Mediação que tenha uma porcentagem de chamadas ruins igual a 3,24%. Se você observar apenas as chamadas sem fio, o mesmo servidor teria uma porcentagem de chamadas ruins próxima de 20%. Isso significa que o servidor tem dificuldades com chamadas sem fio, um problema que é obscurecido parcialmente porque o servidor não tem problemas em lidar com chamadas com fio.
 
-## Filtros
+</div>
+
+<div>
+
+## <a name="filters"></a>Filtros
 
 Filtros fornecem uma forma de retornar um conjunto de dados mais focado ou exibir os dados retornados de diferentes formas. Por exemplo o Relatório de Desempenho do Servidor permite fazer coisas como filtrar os dados retornados por tipo de servidor ou por tipo de rede (ou seja, com ou sem fio). Você também pode escolher como os dados serão agrupados. Neste caso, os dados são agrupados por hora, dia, semana ou mês.
 
 A tabela a seguir lista os filtros que podem ser usados com o Relatório de Desempenho do Servidor.
 
-### Filtros do Relatório de Desempenho do Servidor
+### <a name="server-performance-report-filters"></a>Filtros do Relatório de Desempenho do Servidor
 
 <table>
 <colgroup>
@@ -90,7 +120,7 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Dese
 <p>As semanas sempre vão de domingo a sábado.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Tipo de Servidor</strong></p></td>
+<td><p><strong>Tipo de servidor</strong></p></td>
 <td><p>Indica o tipo de servidor cujo desempenho deve ser reportado. Selecione um dos seguintes:</p>
 <ol>
 <li><p>[Todos]</p></li>
@@ -101,11 +131,11 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Dese
 </tr>
 <tr class="even">
 <td><p><strong>N Primeiros</strong></p></td>
-<td><p>Indica o número de servidores (com base no percentual de chamadas ruins) a serem exibidos em cada categoria. Por exemplo, se você selecionar <strong>5</strong> , os cinco servidores com pior desempenho são exibidos. Selecione uma das seguintes opções:</p>
+<td><p>Indica o número de servidores (com base no percentual de chamadas ruins) a serem exibidos em cada categoria. Por exemplo, se você selecionar <strong>5</strong>, os cinco servidores com pior desempenho são exibidos. Selecione uma das seguintes opções:</p>
 <ol>
 <li><p>[Todos]</p></li>
 <li><p>5</p></li>
-<li><p>10</p></li>
+<li><p>254</p></li>
 </ol></td>
 </tr>
 <tr class="odd">
@@ -113,8 +143,8 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Dese
 <td><p>Indica se um cliente estava conectado na rede interna ou na rede externa quando a chamada foi realizada. Selecione um dos seguintes:</p>
 <ol>
 <li><p>[Todos]</p></li>
-<li><p>Interna</p></li>
-<li><p>Externa</p></li>
+<li><p>Interno</p></li>
+<li><p>Externo</p></li>
 </ol></td>
 </tr>
 <tr class="even">
@@ -139,11 +169,15 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Dese
 </table>
 
 
-## Métricas
+</div>
+
+<div>
+
+## <a name="metrics"></a>Métricas
 
 A tabela a seguir lista as informações fornecidas no Relatório de Desempenho do Servidor.
 
-### Métricas do Relatório de Desempenho do Servidor: Resumo da chamada de áudio
+### <a name="server-performance-report-metrics-audio-call-summary"></a>Métricas do Relatório de Desempenho do Servidor: Resumo da chamada de áudio
 
 <table>
 <colgroup>
@@ -183,7 +217,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Desempenho 
 <tr class="odd">
 <td><p><strong>Degradação (MOS)</strong></p></td>
 <td><p>Sim</p></td>
-<td><p>Quantidade média de degradação de pontuação média de opinião (MOS) experimentada durante uma chamada. Valores de degradação podem variar de 0,0 a um máximo de 5,0. Um valor 0,5 ou inferior representa degradação aceitável. Historicamente, pontuações médias de opinião eram calculadas solicitando aos usuários para classificar a qualidade de uma chamada em uma escala de 1 a 5. No Lync Server, o Monitoring Server usa um conjunto de algoritmos para prever como os usuários teriam classificado uma chamada.</p>
+<td><p>Quantidade média da degradação MOS (pontuação média de opinião) enfrentada durante uma chamada. Os valores de degradação variam de um baixo de 0,0 a um alto de 5,0. Um valor de 0,5 ou menos representa degradação aceitável. As pontuações médias de opinião costumava ser calculadas a partir da classificação da qualidade de uma chamada em uma escala de 1 a 5, feita pelos dos usuários. No Lync Server, o Monitoring Server usa um conjunto de algoritmos para prever como os usuários teriam classificado uma chamada.</p>
 <p>Os valores de degradação altos podem ser causados por congestão, falta de largura de banda, congestionamento ou interferência sem fio ou um servidor de mídia ou ponto de extremidade sobrecarregado. A alta degradação resulta em perda ou distorção de áudio.</p></td>
 </tr>
 <tr class="even">
@@ -194,7 +228,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Desempenho 
 <tr class="odd">
 <td><p><strong>Tremulação (ms)</strong></p></td>
 <td><p>Sim</p></td>
-<td><p>Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medição de quanto uma chamada treme.) Valores altos de tremulação são normalmente causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em perda ou distorção de áudio.</p></td>
+<td><p>Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medida do &quot;shakiness&quot; de uma chamada.) Os valores de variação alta geralmente são causados por congestionamento ou um servidor de mídia sobrecarregado, resultando em áudio distorcido ou perdido.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Taxa de correção oculta</strong></p></td>
@@ -215,7 +249,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Desempenho 
 </table>
 
 
-### Métricas do Relatório de Desempenho do Servidor: Resumo da chamada de vídeo
+### <a name="server-performance-report-metrics-video-call-summary"></a>Métricas do Relatório de Desempenho do Servidor: Resumo da chamada de vídeo
 
 <table>
 <colgroup>
@@ -232,7 +266,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Desempenho 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Tipo de Chamada/Tipo de Ponto de Extremidade</strong></p></td>
+<td><p><strong>Tipo de chamada/Tipo de ponto de extremidade</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Ao clicar neste item, o relatório mostra informações detalhadas sobre chamadas baseadas no tipo escolhido. Tipos de chamada incluem:</p>
 <ul>
@@ -276,7 +310,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Desempenho 
 <td><p>Taxa de bits média (em quilobytes por segundo).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>% de taxa de bits baixa</strong></p></td>
+<td><p><strong>Taxa de bits baixa %</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Porcentagem da chamada onde a taxa de bits foi baixa.</p></td>
 </tr>
@@ -288,7 +322,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Desempenho 
 <tr class="even">
 <td><p><strong>% de quadros congelados</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Porcentagem de quadros &quot;congelados&quot;. Em um quadro congelado, o vídeo não avança enquanto a parte de áudio da chamada prossegue.</p></td>
+<td><p>Porcentagem de quadros "congelados". Em um quadro congelado, o vídeo não avança enquanto a parte de áudio da chamada prossegue.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Taxa de quadros média de saída</strong></p></td>
@@ -307,14 +341,14 @@ A tabela a seguir lista as informações fornecidas no Relatório de Desempenho 
 </tr>
 <tr class="even">
 <td><p><strong>% de integridade do cliente</strong></p></td>
-<td><p></p></td>
+<td></td>
 <td><p>Indica o estado relativo do dispositivo do cliente durante a chamada.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Métricas do Relatório de Desempenho do Servidor: Resumo da chamada de compartilhamento de aplicativo
+### <a name="server-performance-report-metrics-application-sharing-call-summary"></a>Métricas do Relatório de Desempenho do Servidor: Resumo da chamada de compartilhamento de aplicativo
 
 <table>
 <colgroup>
@@ -331,7 +365,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Desempenho 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Tipo de Chamada/Tipo de Ponto de Extremidade</strong></p></td>
+<td><p><strong>Tipo de chamada/Tipo de ponto de extremidade</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Ao clicar neste item, o relatório mostra informações detalhadas sobre chamadas baseadas no tipo escolhido. Tipos de chamada incluem:</p>
 <ul>
@@ -372,7 +406,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Desempenho 
 <tr class="odd">
 <td><p><strong>Tremulação (ms)</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medição de quanto uma chamada treme.) Valores altos de tremulação são normalmente causados por congestionamento ou por um servidor de mídia sobrecarregado e resultam em perda ou distorção de áudio.</p></td>
+<td><p>Tremulação média detectada entre chegadas de pacote RTP. (Tremulação é uma medida do &quot;shakiness&quot; de uma chamada.) Os valores de variação alta geralmente são causados por congestionamento ou um servidor de mídia sobrecarregado, resultando em áudio distorcido ou perdido.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Unidirecional relativo médio</strong></p></td>
@@ -391,4 +425,17 @@ A tabela a seguir lista as informações fornecidas no Relatório de Desempenho 
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

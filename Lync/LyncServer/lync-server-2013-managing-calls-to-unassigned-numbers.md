@@ -1,32 +1,73 @@
-﻿---
-title: Gerenciando Chamadas a Números Não Atribuídos no Lync Server 2013
-TOCTitle: Gerenciando Chamadas a Números Não Atribuídos no Lync Server 2013
-ms:assetid: a45a7546-5ee6-4c1e-ab13-20a71a058f80
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ688167(v=OCS.15)
-ms:contentKeyID: 49886346
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Gerenciando chamadas para números não atribuídos'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing calls to unassigned numbers
+ms:assetid: a45a7546-5ee6-4c1e-ab13-20a71a058f80
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688167(v=OCS.15)
+ms:contentKeyID: 49733772
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 50a6c7fe05729f705bd7ea752658f7c890188159
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828093"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Gerenciando Chamadas a Números Não Atribuídos no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-11-01_
+# <a name="managing-calls-to-unassigned-numbers-in-lync-server-2013"></a>Gerenciando chamadas para números não atribuídos no Lync Server 2013
 
-O Lync Server permite configurar o tratamento de chamadas telefônicas recebidas, quando o número discado é válido para sua organização, mas não está atribuído a um usuário ou telefone. É possível usar o Aplicativo Comunicado para transferir essas chamadas para um destino predeterminado (número de telefone, URI de SIP ou caixa postal), reproduzir um comunicado de áudio ou ambos. Também é possível transferir essas chamadas para um número telefônico do Atendedor Automático do UM do Exchange. Tratar das chamadas a números não atribuídos é uma das maneiras de evitar a situação em que um chamador liga para o número incorreto e ouve um tom de ocupado, ou o cliente SIP recebe uma mensagem de erro.
+</div>
 
-Esta seção descreve como gerenciar intervalos de números não atribuídos para tratar as chamadas a números não atribuídos. A seção também descreve como gerenciar Comunicados durante recuperação de desastres, se você desejar essa funcionalidade durante uma interrupção de energia.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-11-01_
+
+O Lync Server permite que você configure a manipulação de chamadas telefônicas de entrada quando o número discado é válido para a sua organização, mas não é atribuído a um usuário ou telefone. Você pode usar o aplicativo de anúncio para transferir essas chamadas para um destino predeterminado (número de telefone, URI de SIP ou caixa postal) ou executar um anúncio de áudio ou ambos. Você também pode transferir essas chamadas para um número de telefone de atendedor automático do Exchange UM. A manipulação de chamadas para números não atribuídos de uma dessas maneiras ajuda você a evitar as situações em que um chamador disca sem erros e ouve um tom ocupado, ou o cliente SIP recebe uma mensagem de erro.
+
+Esta seção descreve como gerenciar intervalos de números não atribuídos para manipular chamadas para números de telefone não atribuídos. A seção também descreve como gerenciar anúncios durante a recuperação de desastres se desejar essa funcionalidade durante uma interrupção.
+
+<div>
+
 
 > [!NOTE]  
-> O uso do tratamento de chamadas a números não atribuídos durante uma interrupção de energia é opcional.
+> Usar a manipulação de número não atribuído durante uma interrupção é opcional.
 
-## Nesta seção
 
-  - [Criar um comunicado no Lync Server 2013](lync-server-2013-create-an-announcement.md)
 
-  - [Configurar números telefônicos não atribuídos](lync-server-2013-configure-unassigned-phone-numbers.md)
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>Nesta seção
+
+  - [Criar um anúncio no Lync Server 2013](lync-server-2013-create-an-announcement.md)
+
+  - [Configurar números de telefone não atribuídos no Lync Server 2013](lync-server-2013-configure-unassigned-phone-numbers.md)
 
   - [Gerenciar comunicados durante recuperação de desastre no Lync Server 2013](lync-server-2013-manage-announcements-during-disaster-recovery.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

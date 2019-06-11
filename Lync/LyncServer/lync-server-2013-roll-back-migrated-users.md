@@ -1,50 +1,91 @@
-﻿---
-title: 'Lync Server 2013: Reverter usuários migrados'
-TOCTitle: Reverter usuários migrados
-ms:assetid: bfabaf0b-9a42-4057-b729-a7ab9eee8c72
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205224(v=OCS.15)
-ms:contentKeyID: 49307974
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Reverter usuários migrados'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Roll back migrated users
+ms:assetid: bfabaf0b-9a42-4057-b729-a7ab9eee8c72
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205224(v=OCS.15)
+ms:contentKeyID: 48185286
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 57462cee6c4996f0beb51290f8382a1736d3e635
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822437"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Reverter usuários migrados no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-07_
+# <a name="roll-back-migrated-users-in-lync-server-2013"></a>Reverter usuários migrados no Lync Server 2013
 
-Se você precisa reverter para o recurso do repositório de contato unificado, reverta os contatos apenas se você mover o usuário de volta para o Exchange 2010 ou Lync Server 2010. Para reverter, desabilite a política do usuário e execute o cmdlet **Invoke-CsUcsRollback**. Apenas executar o **Invoke-CsUcsRollback** não é suficiente para garantir uma reversão permanente, porque a migração do repositório de contato unificado será iniciada novamente se a política não estiver desabilitada. Por exemplo, se um usuário é revertido porque o Exchange 2013 é revertido para Exchange 2010 e a caixa de correio do usuário é movida para o Exchange 2013, a migração do repositório de contato unificado será iniciada novamente sete dias após a reversão, enquanto o repositório de contato unificado estiver habilitado para o usuário na política de serviços do usuário.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-07_
+
+Se você precisar reverter o recurso de repositório de contatos unificado, reverta os contatos apenas se mover o usuário de volta para o Exchange 2010 ou o Lync Server 2010. Para reverter, desabilite a política do usuário e execute o cmdlet **Invoke-CsUcsRollback**. Apenas executar o **Invoke-CsUcsRollback** não é suficiente para garantir uma reversão permanente, porque a migração do repositório de contato unificado será iniciada novamente se a política não estiver desabilitada. Por exemplo, se um usuário for revertido porque o Exchange 2013 é revertido para o Exchange 2010 e, em seguida, a caixa de correio do usuário é movida para o Exchange 2013, a migração do repositório de contatos unificado será iniciada novamente sete dias após a reversão, desde que o repositório de contatos unificado ainda está habilitado para o usuário na política de serviços de usuário.
+
+<div>
+
 
 > [!IMPORTANT]  
-> O cmdlet <strong>Move-CsUser</strong> reverte automaticamente o repositório de contato do usuário do Exchange 2013 para o Lync Server 2013 nas seguintes situações:<ul>
-> 
-> <li><p>Quando os usuários são movidos do Lync Server 2013 para o Lync Server 2010.</p></li>
-> 
-> 
-> <li><p>Quando os usuários são migrados entre locais, como quando um usuário é movido do Skype for Business Online para o Lync Server 2013 localmente ou vice-versa.</p></li></ul>
+> O cmdlet <STRONG>move-CsUser</STRONG> retorna automaticamente a loja de contatos do usuário do Exchange 2013 para o Lync Server 2013 nas seguintes situações: 
+> <UL>
+> <LI>
+> <P>Quando os usuários forem movidos do Lync Server 2013 para o Lync Server 2010.</P>
+> <LI>
+> <P>Quando os usuários são migrados de forma cruzada, como quando um usuário é movido do Lync Online para o Lync Server 2013 local ou vice-versa.</P></LI></UL>
+
+
+
+</div>
+
+<div>
 
 
 > [!IMPORTANT]  
-> Importar os dados do repositório de contato unificado de um banco de dados de backup pode causar com que os dados do repositório de contato unificado e os dados do usuário sejam corrompidos se o modo do repositório de contato unificado mudar entre a exportação e a importação. Por exemplo:<ul>
-> 
-> <li><p>Se você exportar listas de contatos antes dos contatos do usuário serem migrados para o Exchange 2013 e, após a migração, importar os mesmos dados, os dados do repositório de contato unificado e listas de contatos serão corrompidos.</p></li>
-> 
-> 
-> <li><p>Se você exportar os dados do usuário após migrar usuários para o Exchange 2013, reverter a migração e, por algum motivo, importar os dados após a migração, os dados do repositório de contato unificado e listas de contato serão corrompidos.</p></li></ul>
+> Importar os dados do repositório de contato unificado de um banco de dados de backup pode fazer com que os dados do repositório de contato unificado e os dados do usuário sejam corrompidos se o modo do repositório de contato unificado mudar entre a exportação e a importação. Por exemplo: 
+> <UL>
+> <LI>
+> <P>Se você exportar listas de contatos antes de os contatos dos usuários serem migrados para o Exchange 2013 e depois, após a migração, importar os mesmos dados, os dados do repositório de contatos unificado e as listas de contatos serão corrompidos.</P>
+> <LI>
+> <P>Se você exportar UserData depois de migrar os usuários para o Exchange 2013, reverta a migração e, por algum motivo, importar os dados após a migração, os dados do repositório de contatos unificado e as listas de contatos serão corrompidos.</P></LI></UL>
+
+
+
+</div>
+
+<div>
 
 
 > [!IMPORTANT]  
-> Antes de mover uma caixa de correio do Exchange do Exchange 2013 para o Exchange 2010, o administrador do Exchange deve garantir que o administrador do Lync Server tenha revertido primeiro os contatos do usuário do Lync Server do Exchange 2013 para o Lync Server. Para reverter os contatos do repositório de contato unificado para o Lync Server, consulte o procedimento &quot;Para reverter os contatos do repositório de contato unificado do Exchange 2013 para o Lync Server 2013&quot;, posteriormente nesta seção.
+> Antes de mover uma caixa de correio do Exchange do Exchange 2013 para o Exchange 2010, o administrador do Exchange deve certificar-se de que o administrador do Lync Server primeiro reverteu os contatos do usuário do servidor do Lync do Exchange 2013 para o Lync Server. Para reverter contatos do repositório de contatos unificados para o Lync Server, consulte procedimento "para reverter contatos do repositório de contatos unificados do Exchange 2013 para o Lync Server 2013", posteriormente nesta seção.
 
-O seguinte procedimento descreve como reverter contatos do usuário. Se você usar o cmdlet **Move-CsUser** para mover usuários entre o Lync Server 2013 e Lync Server 2010, é possível pular estas etapas porque o cmdlet **Move-CsUser** reverte automaticamente o repositório de contato unificado quando move usuários do Lync Server 2013 para o Lync Server 2010. O **Move-CsUser** não desabilita a política do repositório de contato unificado, portanto, a migração para o repositório de contato unificado ocorrerá novamente se o usuário é revertido para o Lync Server 2013.
 
-## Para reverter os contatos do usuário do Lync Server 2013 para o Lync Server 2010
 
-1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
+</div>
 
-2.  Desabilite o repositório de contato unificado para os usuários serem revertidos se eles não irão ser migrados novamente após a reversão. (Realize esta etapa apenas se desejar garantir que os usuários não serão migrados novamente no futuro.) Para desabilitar o repositório de contato unificado para usuários individuais, na linha de comando, digite:
+O seguinte procedimento descreve como reverter contatos do usuário. Se você usar o cmdlet **move-CsUser** para mover os usuários entre o lync Server 2013 e o lync Server 2010, poderá ignorar essas etapas porque o cmdlet **move-CsUser** automaticamente é revertido unifed o repositório de contatos quando ele move os usuários do Lync Server 2013 para o Lync Server 2010. **Move-CsUser** não desabilita a política de repositório de contatos unificado, portanto, a migração para o repositório de contatos unificado será recorrente se o usuário for movido de volta para o Lync Server 2013.
+
+<div>
+
+## <a name="to-roll-back-user-contacts-from-lync-server-2013-to-lync-server-2010"></a>Para reverter contatos do usuário do Lync Server 2013 para o Lync Server 2010
+
+1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+
+2.  Desabilite o repositório de contatos unificado para que os usuários sejam revertidos para que eles não sejam migrados novamente após a reversão. (Execute esta etapa somente se desejar garantir que os usuários não serão remigrados no futuro.) Para desabilitar o repositório de contatos unificado para usuários individuais, na linha de comando, digite:
     
         Set-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $False
     
@@ -52,12 +93,18 @@ O seguinte procedimento descreve como reverter contatos do usuário. Se você us
     
         Set-CsUserServicesPolicy -Identity "UCS Enabled Users" -UcsAllowed $False
 
-3.  Antes de mover um usuário do Lync Server 2013 para o Lync Server 2010, reverta a Lista de Amigos dos usuários especificados no Lync Server.
+3.  Antes de mover um usuário do Lync Server 2013 para o Lync Server 2010, reverta a lista de amigos dos usuários especificados no Lync Server.
     
-    > [!IMPORTANT]  
-    > Se esta etapa é omitida, a Lista de Amigos será perdida.
+    <div>
+    
 
-4.  Reverta os usuários especificados. Na linha de comando, digite:
+    > [!IMPORTANT]  
+    > Se essa etapa for omitida, a lista de amigos será perdida.
+
+    
+    </div>
+
+4.  Reverter os usuários especificados. Na linha de comando, digite:
     
         Invoke-CsUcsRollback -Identity "<user display name>"
     
@@ -65,14 +112,24 @@ O seguinte procedimento descreve como reverter contatos do usuário. Se você us
     
         Invoke-CsUcsRollback -Identity "Ken Myer"
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Não recomendamos usar a opção -Force para forçar a reversão. Se você usar esta opção, os contatos do usuário serão perdidos.
+    > Não recomendamos usar a opção – Force para forçar a reversão. Se você usar essa opção, os contatos dos usuários serão perdidos.
 
-## Para reverter os contatos do repositório de contato unificado do Exchange 2013 para o Lync Server 2013
+    
+    </div>
 
-1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
+</div>
 
-2.  Desabilitar o repositório de contato unificado para que os usuários sejam revertidos de forma que eles não serão migrados novamente após a reversão. Para desabilitar o repositório de contato unificado de usuários individuais, na linha de comando, digite:
+<div>
+
+## <a name="to-roll-back-unified-contact-store-contacts-from-exchange-2013-to-lync-server-2013"></a>Para reverter os contatos do repositório de contatos unificado do Exchange 2013 para o Lync Server 2013
+
+1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+
+2.  Desabilite o repositório de contatos unificado para que os usuários sejam revertidos para que eles não sejam migrados novamente após a reversão. Para desabilitar o repositório de contatos unificado para usuários individuais, na linha de comando, digite:
     
         Set-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $False
     
@@ -80,7 +137,7 @@ O seguinte procedimento descreve como reverter contatos do usuário. Se você us
     
         Set-CsUserServicesPolicy -Identity "UCS Enabled Users" -UcsAllowed $False
 
-3.  Reverta os usuários especificados. Na linha de comando, digite:
+3.  Reverter os usuários especificados. Na linha de comando, digite:
     
         Invoke-CsUcsRollback -Identity "<user display name>"
     
@@ -88,8 +145,26 @@ O seguinte procedimento descreve como reverter contatos do usuário. Se você us
     
         Invoke-CsUcsRollback -Identity "Ken Myer"
     
-    > [!IMPORTANT]  
-    > Você deve primeiro reverter o usuário do Lync Server e mover a caixa de correio do Exchange 2013. O administrador do Exchange não pode reverter o Exchange até que a reversão do Lync Server esteja concluída. Não recomendamos usar a opção -Force para forçar a reversão. Se você usar esta opção, os contatos do usuário serão perdidos.
+    <div>
+    
 
-4.  Após reverter o usuário para o Lync Server, o administrador do Exchange pode reverter o usuário do Exchange do Exchange 2013 para o Exchange 2010.
+    > [!IMPORTANT]  
+    > Primeiro, você deve reverter o usuário do Lync Server e, em seguida, mover a caixa de correio do Exchange 2013. O administrador do Exchange está bloqueado para reverter o Exchange até que a reversão do Lync Server seja concluída. Não recomendamos usar a opção – Force para forçar a reversão. Se você usar essa opção, os contatos dos usuários serão perdidos.
+
+    
+    </div>
+
+4.  Depois de reverter o usuário para o Lync Server, o administrador do Exchange pode reverter o usuário do Exchange do Exchange 2013 para o Exchange 2010.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

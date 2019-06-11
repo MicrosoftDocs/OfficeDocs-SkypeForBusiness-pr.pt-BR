@@ -1,35 +1,57 @@
-﻿---
-title: Realizando grandes reuniões
-TOCTitle: Realizando grandes reuniões
-ms:assetid: dda611aa-c256-4175-b062-5fa64297de64
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205323(v=OCS.15)
-ms:contentKeyID: 49308342
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: executando reuniões grandes'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Running large meetings
+ms:assetid: dda611aa-c256-4175-b062-5fa64297de64
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205323(v=OCS.15)
+ms:contentKeyID: 48185603
+ms.date: 01/17/2019
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 077307bf7f4825a519324e73ab843c683b954ec1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822367"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Realizando grandes reuniões
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-01_
+# <a name="running-large-meetings-in-lync-server-2013"></a>Executar reuniões grandes no Lync Server 2013
 
-Com centenas a milhares de usuários em uma reunião, é recomendado ter um moderador exclusivo na sessão online da reunião. Esta pessoa pode ser um delegado do organizador da reunião ou um membro da equipe de suporte à grandes reuniões da organização. É importante adicionar o moderador de reunião exclusivo como um apresentador no momento que a reunião é programada, embora seja possível promover um participante online para a função de apresentador enquanto a reunião estiver em andamento.
+</div>
 
-O moderador da reunião pode usar todas as funcionalidades do apresentador de clientes do Lync Server 2013 para gerenciar grandes reuniões. Estas funcionalidades incluem:
+<div id="mainSection">
 
-1.  Monitorar a sala de espera e aceitar ou rejeitar usuários na sala de espera.
+<div id="mainBody">
 
-2.  Remover qualquer usuário da reunião que não deveria estar na reunião.
+<span> </span>
 
-3.  Alterar os tipos de acesso da reunião.
+_**Tópico da última modificação:** 2019-01-17_
 
-4.  Alterar as funções dos participantes.
+Com centenas a milhares de usuários em uma reunião, é recomendado ter um moderador exclusivo na sessão online da reunião. Essa pessoa pode ser um representante do organizador da reunião ou um membro da equipe de suporte a grandes reuniões da organização. É importante adicionar o moderador de reunião exclusivo como um apresentador no momento que a reunião é programada, embora seja possível promover um participante online para a função de apresentador enquanto a reunião estiver em andamento.
 
-5.  Convidar mais participantes durante a reunião usando a funcionalidade de arrastar e soltar do Lync, discagem de telefone ou e-mail.
+O moderador da reunião pode usar as seguintes funcionalidades do apresentador dos clientes do Lync Server 2013 para gerenciar a reunião grande:
 
-6.  Retirar a voz e inserir voz do público ou usuários individuais.
+- Alterar tipos de acesso à reunião.
 
-7.  Gerenciar o conteúdo da reunião, incluindo carregar conteúdo, excluir conteúdo e trocar o conteúdo ativo.
+- Convide participantes adicionais durante a reunião usando a funcionalidade arrastar e soltar do Lync, discagem telefônica ou email.
+
+- Gerenciar o conteúdo da reunião, incluindo o upload do conteúdo, a exclusão de conteúdo e a mudança do conteúdo ativo.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

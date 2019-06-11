@@ -1,55 +1,104 @@
-﻿---
-title: 'Lync Server 2013: Preparando o esquema do Active Directory'
-TOCTitle: Preparando o esquema do Active Directory
-ms:assetid: 067726ae-fd3f-4133-a32f-26d2603ac674
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398119(v=OCS.15)
-ms:contentKeyID: 49305773
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Preparando o esquema do Active Directory'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Preparing the Active Directory schema
+ms:assetid: 067726ae-fd3f-4133-a32f-26d2603ac674
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398119(v=OCS.15)
+ms:contentKeyID: 48183300
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5479bfbb0774ddd68015de470de082f0cc185b98
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823956"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Preparando o esquema do Active Directory no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="preparing-the-active-directory-schema-in-lync-server-2013"></a>Preparando o esquema do Active Directory no Lync Server 2013
 
-Antes de começar a preparar o Serviços de Domínio Active Directory, você pode abrir os arquivos de esquema usando um editor de texto, como o Bloco de Notas do Windows, ou consultar [Extensões, classes e atributos do esquema do Active Directory usado pelo Lync Server 2013](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md) para rever todas as extensões de esquema do Serviços de Domínio Active Directory que serão modificadas para o Lync Server 2013. O Lync Server utiliza quatro arquivos de esquema:
+</div>
 
-  - ExternalSchema.ldf, que é usado para a interoperabilidade com o Microsoft Exchange Server
+<div id="mainSection">
 
-  - ServerSchema.ldf, que é o arquivo de sistema do Lync Server 2013 principal
+<div id="mainBody">
 
-  - BackCompatSchema.ldf, que é usado para a interoperabilidade com quaisquer componentes de versões anteriores
+<span> </span>
 
-  - VersionSchema.ldf, que é usado para informações sobre a versão do esquema preparado
+_**Tópico da última modificação:** 2012-08-27_
 
-Todos os arquivos .ldf são instalados durante a preparação do esquema, sem levar em conta se é uma migração de uma versão anterior ou se é uma instalação limpa. Esses arquivos de esquema são instalados na sequência mostrada na lista anterior e estão localizados na pasta \\Support\\schema na mídia de instalação.
+Antes de começar a preparar os serviços de domínio do Active Directory, você pode abrir os arquivos de esquema usando um editor de texto, como o bloco de notas do Windows, ou ver [extensões de esquema, classes e atributos do Active Directory usados pelo Lync Server 2013](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md) para analisar todas as tarefas ativas Extensões de esquema de serviços de domínio do diretório que serão modificadas para o Lync Server 2013. O Lync Server usa quatro arquivos de esquema:
 
-As extensões de esquema do Lync Server são replicadas em todos os domínios, o que impacta no tráfego da rede. Execute a preparação do esquema quando a utilização da rede estiver baixa.
+  - ExternalSchema. ldf, que é usado para interoperabilidade com o Microsoft Exchange Server
+
+  - ServerSchema. ldf, que é o arquivo de esquema principal do Lync Server 2013
+
+  - BackCompatSchema. ldf, que é usado para interoperabilidade com qualquer componente de versões anteriores
+
+  - VersionSchema. ldf, que é usado para informações sobre a versão do esquema preparado
+
+Todos os arquivos. ldf são instalados durante a preparação do esquema, independentemente de você estar migrando de uma versão anterior ou executando uma instalação limpa. Esses arquivos de esquema são instalados na sequência mostrada na lista anterior e estão localizados na pasta \\de\\esquema de suporte na mídia de instalação.
+
+As extensões de esquema do Lync Server são replicadas em todos os domínios, o que afeta o tráfego de rede. Execute a preparação do esquema de cada vez quando o uso da rede for baixo.
+
+<div>
+
 
 > [!NOTE]  
-> Se você precisar adicionar suporte para Microsoft® Office Communicator Mobile 2007 R2 para Java e Microsoft® Office Communicator Mobile para os clientes de celulares Nokia 1.0 na implantação do Lync Server 2013, será necessário preparar o esquema do Active Directory para Microsoft Office Communications Server 2007 R2 durante a instalação do Lync Server 2013. Para obter as informações necessárias sobre software e documentação, consulte <a href="http://go.microsoft.com/fwlink/p/?linkid=207172">http://go.microsoft.com/fwlink/p/?linkId=207172</a>.
+> Se você precisar adicionar suporte para Microsoft® Office Communicator Mobile 2007 R2 para Java e Microsoft® Office Communicator Mobile para Nokia 1,0 para clientes móveis à implantação do Lync Server 2013, será necessário preparar o esquema do Active Directory para o Microsoft Office Communications Server 2007 R2 durante a instalação do Lync Server 2013. Para obter o software e a documentação necessários <A href="http://go.microsoft.com/fwlink/p/?linkid=207172">http://go.microsoft.com/fwlink/p/?linkId=207172</A>, consulte.
 
-## Editor ADSI
 
-Active Directory Service Interfaces Editor (Editor ADSI) é uma ferramenta de administração AD DS que você pode usar para verificar a preparação e a replicação de esquema.
 
-O Editor ADSI é instalado por padrão quando você instala a função AD DS para transformar um servidor em um controlador de domínio. Para o Windows Server 2008 e o Windows Server 2008 R2, o Editor ADSI (adsiedit.msc) está incluído nas Ferramentas de Administração de Servidor Remoto (RSAT). Você também pode instalar o RSAT em servidores de membro de domínio ou servidores autônomos. O pacote RSAT é copiado a esses servidores por padrão quando o Windows é instalado, mas não é instalado por padrão. Instale as ferramentas individuais usando o Gerenciador de Servidores. O ADSI Edit está incluído em **Ferramentas de Administração de Funções** , **Ferramentas de Serviços de Domínio Active Directory** , **Ferramentas do Controlador de Domínio do Active Directory** .
+</div>
 
-Para o Windows Server 2003, o ADSI Edit está incluído nas Ferramentas de suporte. As Ferramentas de suporte estão disponíveis no CD do Windows Server 2003 na pasta \\SUPPORT\\TOOLS, ou você pode baixá-los em “Ferramentas de Suporte de 32 bits do Service Pack 2 do Windows Server 2003” em [http://go.microsoft.com/fwlink/p/?linkId=125770](http://go.microsoft.com/fwlink/p/?linkid=125770). Instruções para a instalação das Ferramentas de Suporte no CD do produto estão disponíveis em “Instalar Ferramentas de Suporte do Windows” em [http://go.microsoft.com/fwlink/p/?linkId=125771](http://go.microsoft.com/fwlink/p/?linkid=125771). O arquivo Adsiedit.dll é automaticamente registrado quando você instala as ferramentas de suporte. Se, no entanto, você tiver copiado os arquivos para o computador, deverá executar o comando **regsvr32** para registrar o arquivo adsiedit.dll e executar a ferramenta.
+<div>
 
-## Nesta seção
+## <a name="adsi-edit"></a>Editar ADSI
+
+O editor de interfaces de serviço do Active Directory (ADSI Edit) é uma ferramenta de administração do AD DS que você pode usar para verificar a preparação e a replicação do esquema.
+
+O ADSI Edit é instalado por padrão quando você instala a função AD DS para fazer com que um servidor seja um controlador de domínio. Para Windows Server 2008 e Windows Server 2008 R2, o ADSI Edit (Adsiedit. msc) está incluído nas ferramentas de administração de servidor remoto (RSAT). Você também pode instalar o RSAT em servidores membro do domínio ou servidores autônomos. O pacote RSAT é copiado para esses servidores por padrão quando você instala o Windows, mas ele não é instalado por padrão. Você instala ferramentas individuais usando o Gerenciador de servidores. O ADSI Edit está incluído em **ferramentas de administração de funções**, ferramentas de serviços de **domínio Active Directory**, **ferramentas de controlador de domínio do Active Directory**.
+
+Para o Windows Server 2003, o ADSI Edit está incluído nas ferramentas de suporte. As ferramentas de suporte estão disponíveis no CD do Windows Server 2003 na \\pasta\\ferramentas de suporte ou você pode baixá-las em "ferramentas de suporte do bit 2003 do Windows server Service [http://go.microsoft.com/fwlink/p/?linkId=125770](http://go.microsoft.com/fwlink/p/?linkid=125770)Pack 2 32-bit". Instruções para instalar as ferramentas de suporte do CD do produto estão disponíveis em "instalar ferramentas de suporte do [http://go.microsoft.com/fwlink/p/?linkId=125771](http://go.microsoft.com/fwlink/p/?linkid=125771)Windows" em. ADSIEdit. dll é registrado automaticamente quando você instala as ferramentas de suporte. Se, no entanto, você copiou os arquivos para o seu computador, você deve executar o comando **regsvr32** para registrar o arquivo Adsiedit. dll antes de poder executar a ferramenta.
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>Nesta seção
 
   - [Executando preparação de esquema de Active Directory no Lync Server 2013](lync-server-2013-running-schema-preparation.md)
 
   - [Verificando a replicação de esquema do Active Directory no Lync Server 2013](lync-server-2013-verifying-schema-replication.md)
 
-## Consulte Também
+</div>
 
-#### Outros Recursos
+<div>
+
+## <a name="see-also"></a>Confira também
+
 
 [Preparando a floresta para Lync Server 2013](lync-server-2013-preparing-the-forest.md)  
-[Preparando domínios para Server 2013](lync-server-2013-preparing-domains.md)
+[Preparando domínios para Server 2013](lync-server-2013-preparing-domains.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

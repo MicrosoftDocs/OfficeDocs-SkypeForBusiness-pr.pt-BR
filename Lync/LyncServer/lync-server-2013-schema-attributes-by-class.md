@@ -1,23 +1,45 @@
-﻿---
-title: Atributos de esquema por classe no Lync Server 2013
-TOCTitle: Atributos de esquema por classe no Lync Server 2013
-ms:assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398544(v=OCS.15)
-ms:contentKeyID: 49307092
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: atributos de esquema por classe'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Schema attributes by class
+ms:assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398544(v=OCS.15)
+ms:contentKeyID: 48184468
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 09978d9b0cad055b4c3b33976df838ba5543887d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822038"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Atributos de esquema por classe no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="schema-attributes-by-class-in-lync-server-2013"></a>Atributos de esquema por classe no Lync Server 2013
 
-Esta seção lista os atributos de esquema que podem estar contidos em cada classe do Lync Server 2013 e as classes que podem estar contidas em outras classes. Para obter uma lista de todas as classes e suas descrições, consulte [Classes e descrições de esquema no Lync Server 2013](lync-server-2013-schema-classes-and-descriptions.md). Para obter uma lista de todos os atributos e suas descrições, consulte [Atributos e descrições de esquema no Lync Server 2013](lync-server-2013-schema-attributes-and-descriptions.md).
+</div>
 
-## Atributos de classe
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-08-29_
+
+Esta seção lista os atributos de esquema que podem ser contidos em cada classe do Lync Server 2013 e as classes que podem ser contidas em outras classes. Para obter uma lista de todas as classes e suas descrições, consulte [classes e descrições de esquema no Lync Server 2013](lync-server-2013-schema-classes-and-descriptions.md). Para obter uma lista de todos os atributos e suas descrições, consulte [atributos e descrições do esquema no Lync Server 2013](lync-server-2013-schema-attributes-and-descriptions.md).
+
+<div>
+
+## <a name="attributes-by-class"></a>Atributos por classe
 
 
 <table>
@@ -33,41 +55,41 @@ Esta seção lista os atributos de esquema que podem estar contidos em cada clas
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Contato</p></td>
+<td><p>Entrando</p></td>
 <td><p>msDS-SourceObjectDN</p>
 <p>msRTCSIP-AcpInfo</p>
 <p>msRTCSIP-ApplicationDestination</p>
-<p>msRTCSIP-ApplicationOptions</p>
+<p>msRTCSIP – ApplicationOptions</p>
 <p>msRTCSIP-ApplicationPrimaryLanguage</p>
 <p>msRTCSIP-ApplicationSecondaryLanguages</p>
 <p>msRTCSIP-ArchivingEnabled</p>
 <p>msRTCSIP-DeploymentLocator</p>
 <p>msRTCSIP-FederationEnabled</p>
-<p>msRTCSIP-GroupingID</p>
+<p>msRTCSIP-Groupingid</p>
 <p>msRTCSIP-InternetAccessEnabled</p>
-<p>msRTCSIP-Line</p>
+<p>Linha de msRTCSIP</p>
 <p>msRTCSIP-LineServer</p>
 <p>msRTCSIP-OptionFlags</p>
 <p>msRTCSIP-OriginatorSid</p>
 <p>msRTCSIP-OwnerUrn</p>
 <p>msRTCSIP-PrimaryHomeServer</p>
 <p>msRTCSIP-PrimaryUserAddress</p>
-<p>msRTCSIP-PrivateLine</p>
+<p>msRTCSIP-privado</p>
 <p>msRTCSIP-ProxyAddresses</p>
 <p>msRTCSIP-SourceObjectType</p>
 <p>msRTCSIP-TargetHomeServer</p>
 <p>msRTCSIP-TargetUserPolicies</p>
-<p>msRTCSIP-TenantId</p>
+<p>msRTCSIP-Tenantid</p>
 <p>msRTCSIP-UserEnabled</p>
-<p>msRTCSIP-UserExtension</p>
+<p>msRTCSIP-userextension</p>
 <p>msRTCSIP-UserLocationProfile</p>
-<p>msRTCSIP-UserPolicies</p>
+<p>msRTCSIP-políticas do</p>
 <p>msRTCSIP-UserPolicy</p>
 <p>msRTCSIP-UserRoutingGroupId</p>
 <p>ProxyAddresses</p></td>
 </tr>
 <tr class="even">
-<td><p>Mail-Recipient</p></td>
+<td><p>E-mail-destinatário</p></td>
 <td><p>msExchUCVoiceMailSettings</p>
 <p>msExchUserHoldPolicies</p></td>
 </tr>
@@ -77,7 +99,7 @@ Esta seção lista os atributos de esquema que podem estar contidos em cada clas
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-ApplicationServerSettings</p></td>
-<td><p>msRTCSIP-ApplicationList</p>
+<td><p>msRTCSIP-Aplicativolist</p>
 <p>msRTCSIP-ApplicationServerPoolLink</p>
 <p>msRTCSIP-ExtensionData</p>
 <p>msRTCSIP-ServerVersion</p></td>
@@ -95,8 +117,8 @@ Esta seção lista os atributos de esquema que podem estar contidos em cada clas
 <p>msRTCSIP-DefaultCWAInternalURL</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-Domain</p></td>
-<td><p>msRTCSIP-Default</p>
+<td><p>msRTCSIP-domínio</p></td>
+<td><p>msRTCSIP-padrão</p>
 <p>msRTCSIP-DomainData</p>
 <p>msRTCSIP-DomainName</p></td>
 </tr>
@@ -161,26 +183,26 @@ Esta seção lista os atributos de esquema que podem estar contidos em cada clas
 <td><p>msRTCSIP-MCUFactoryPath</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Mobility</p></td>
+<td><p>msRTCSIP – mobilidade</p></td>
 <td><p>msRTCSIP-MobilityFlags</p>
 <p>msRTCSIP-MobilityPolicy</p></td>
 </tr>
 <tr class="odd">
 <td><p>msRTCSIP-MonitoringServer</p></td>
-<td><p>dnsHostName</p>
+<td><p>Atributos</p>
 <p>msRTCSIP-ExtensionData</p>
 <p>msRTCSIP-ServerVersion</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Pool</p></td>
-<td><p>msRTCSIP-ApplicationList</p>
+<td><p>msRTCSIP-pool</p></td>
+<td><p>msRTCSIP-Aplicativolist</p>
 <p>msRTCSIP-BackEndServer</p>
 <p>msRTCSIP-dnsHostName</p>
 <p>msRTCSIP-PoolData</p>
 <p>msRTCSIP-PoolDisplayName</p>
 <p>msRTCSIP-PoolDomainFQDN</p>
 <p>msRTCSIP-PoolFunctionality</p>
-<p>msRTCSIP-PoolType</p>
+<p>msRTCSIP-Pooltype</p>
 <p>msRTCSIP-PoolVersion</p>
 <p>msRTCSIP-TrustedServiceLinks</p></td>
 </tr>
@@ -189,7 +211,7 @@ Esta seção lista os atributos de esquema que podem estar contidos em cada clas
 <td><p>msRTCSIP-FrontEndServers</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Presence</p></td>
+<td><p>msRTCSIP-presença</p></td>
 <td><p>msRTCSIP-PresenceFlags</p>
 <p>msRTCSIP-PresencePolicy</p></td>
 </tr>
@@ -217,7 +239,7 @@ Esta seção lista os atributos de esquema que podem estar contidos em cada clas
 <tr class="even">
 <td><p>msRTCSIP-TrustedService</p></td>
 <td><p>msRTCSIP-ExtensionData</p>
-<p>msRTCSIP-Routable</p>
+<p>msRTCSIP-roteável</p>
 <p>msRTCSIP-RoutingPoolDN</p>
 <p>msRTCSIP-ServerBL</p>
 <p>msRTCSIP-TrustedServerFQDN</p>
@@ -245,27 +267,27 @@ Esta seção lista os atributos de esquema que podem estar contidos em cada clas
 <tr class="even">
 <td><p>Usuário</p></td>
 <td><p>msRTCSIP-AcpInfo</p>
-<p>msRTCSIP-ApplicationOptions</p>
+<p>msRTCSIP – ApplicationOptions</p>
 <p>msRTCSIP-ArchivingEnabled</p>
 <p>msRTCSIP-DeploymentLocator</p>
 <p>msRTCSIP-FederationEnabled</p>
-<p>msRTCSIP-GroupingID</p>
+<p>msRTCSIP-Groupingid</p>
 <p>msRTCSIP-InternetAccessEnabled</p>
-<p>msRTCSIP-Line</p>
+<p>Linha de msRTCSIP</p>
 <p>msRTCSIP-LineServer</p>
 <p>msRTCSIP-OptionFlags</p>
 <p>msRTCSIP-OriginatorSid</p>
 <p>msRTCSIP-OwnerUrn</p>
 <p>msRTCSIP-PrimaryHomeServer</p>
 <p>msRTCSIP-PrimaryUserAddress</p>
-<p>msRTCSIP-PrivateLine</p>
+<p>msRTCSIP-privado</p>
 <p>msRTCSIP-TargetHomeServer</p>
 <p>msRTCSIP-TargetUserPolicies</p>
-<p>msRTCSIP-TenantId</p>
+<p>msRTCSIP-Tenantid</p>
 <p>msRTCSIP-UserEnabled</p>
-<p>msRTCSIP-UserExtension *</p>
+<p>msRTCSIP-userextension</p>
 <p>msRTCSIP-UserLocationProfile</p>
-<p>msRTCSIP-UserPolicies</p>
+<p>msRTCSIP-políticas do</p>
 <p>msRTCSIP-UserPolicy</p>
 <p>msRTCSIP-UserRoutingGroupId</p>
 <p>ProxyAddresses</p></td>
@@ -274,7 +296,9 @@ Esta seção lista os atributos de esquema que podem estar contidos em cada clas
 </table>
 
 
-## Classes contidas em outras classes
+<div>
+
+## <a name="classes-contained-in-other-classes"></a>Classes contidas em outras classes
 
 
 <table>
@@ -285,33 +309,33 @@ Esta seção lista os atributos de esquema que podem estar contidos em cada clas
 <thead>
 <tr class="header">
 <th>Classe</th>
-<th>Pode conter esta classe</th>
+<th>Pode conter essa classe</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>serviceConnectionPoint</p></td>
-<td><p>msRTCSIP-Server</p>
+<td><p>msRTCSIP-servidor</p>
 <p>msRTCSIP-PoolService</p>
 <p>msRTCSIP-MCU</p>
 <p>msRTCSIP-MCUFactoryService</p>
 <p>msRTCSIP-WebComponents</p>
 <p>msRTCSIP-WebComponentsService</p>
 <p>msRTCSIP-ApplicationServerService</p>
-<p>msRTCSIP-Service</p>
+<p>msRTCSIP-serviço</p>
 <p>msRTCSIP-ConnectionPoint</p>
 <p>msRTCSIP-MediationServer</p>
 <p>msRTCSIP-ApplicationServer</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Service</p></td>
+<td><p>msRTCSIP-serviço</p></td>
 <td><p>msRTCSIP-GlobalContainer</p>
 <p>msRTCSIP-Pools</p>
 <p>msRTCSIP-MCUFactories</p>
 <p>msRTCSIP-TrustedMCUs</p>
 <p>msRTCSIP-TrustedWebComponentsServers</p>
 <p>msRTCSIP-TrustedProxies</p>
-<p>msRTCSIP-TrustedServices</p>
+<p>msRTCSIP-Confiáveisservices</p>
 <p>msRTCSIP-ApplicationContacts</p>
 <p>msRTCSIP-LocationContactMappings</p>
 <p>msRTCSIP-ConferenceDirectories</p>
@@ -319,14 +343,14 @@ Esta seção lista os atributos de esquema que podem estar contidos em cada clas
 </tr>
 <tr class="odd">
 <td><p>msRTCSIP-GlobalContainer</p></td>
-<td><p>msRTCSIP-Domain</p>
+<td><p>msRTCSIP-domínio</p>
 <p>msRTCSIP-TrustedServer</p>
 <p>msRTCSIP-EdgeProxy</p>
 <p>msRTCSIP-MonitoringServer</p></td>
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-Pools</p></td>
-<td><p>msRTCSIP-Pool</p></td>
+<td><p>msRTCSIP-pool</p></td>
 </tr>
 <tr class="odd">
 <td><p>msRTCSIP-MCUFactories</p></td>
@@ -345,7 +369,7 @@ Esta seção lista os atributos de esquema que podem estar contidos em cada clas
 <td><p>msRTCSIP-TrustedProxy</p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-TrustedServices</p></td>
+<td><p>msRTCSIP-Confiáveisservices</p></td>
 <td><p>msRTCSIP-TrustedService</p></td>
 </tr>
 <tr class="even">
@@ -362,4 +386,19 @@ Esta seção lista os atributos de esquema que podem estar contidos em cada clas
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

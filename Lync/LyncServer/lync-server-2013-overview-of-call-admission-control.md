@@ -1,37 +1,57 @@
-﻿---
-title: 'Lync Server 2013: Visão geral do controle de admissão de chamada'
-TOCTitle: Visão geral do controle de admissão de chamada
-ms:assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398529(v=OCS.15)
-ms:contentKeyID: 49307064
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: visão geral do controle de admissão de chamadas'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Overview of call admission control
+ms:assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398529(v=OCS.15)
+ms:contentKeyID: 48184474
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5cba1a83ce64fa575cf5de724d5dd215fcb459c7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825839"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Visão geral do controle de admissão de chamada no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-22_
+# <a name="overview-of-call-admission-control-in-lync-server-2013"></a>Visão geral do controle de admissão de chamadas no Lync Server 2013
 
-As comunicações em tempo real são sensíveis à perda de latência e pacotes que pode ocorrer em redes congestionadas. O CAC (serviço de controle de admissão de chamadas) determina, com base na largura de banda da rede disponível, se será permitido estabelecer sessões de comunicação em tempo real, como chamadas de voz ou vídeo. O design do CAC do Lync Server 2013 oferece quatro atributos principais:
+</div>
 
-  - é simples de implantar e gerenciar, sem a necessidade de equipamentos adicionais, como roteadores especialmente configurados.
+<div id="mainSection">
 
-  - Ele aborda casos críticos de uso de comunicações unificadas, como usuários móveis e vários pontos de presença. As políticas CAC são aplicadas de acordo com a localização do ponto de extremidade, não onde o usuário está hospedado.
+<div id="mainBody">
 
-  - Além de chamadas de voz, ele pode ser aplicado a outro tráfego, como chamadas de vídeo e sessões de conferência de áudio/vídeo.
+<span> </span>
 
-  - Oferece a flexibilidade para permitir a representação de vários tipos de topologias de rede. Para obter exemplos, consulte [Componentes e topologias para CAC no Lync Server 2013](lync-server-2013-components-and-topologies-for-cac.md).
+_**Tópico da última modificação:** 2012-09-22_
 
-Se uma nova voz ou sessão de vídeo exceder os limites de largura de banda definidos em um link WAN, a sessão é bloqueada ou (somente para chamadas de telefone) redirecionada ao PSTN.
+As comunicações em tempo real são sensíveis à latência e perda de pacotes que podem ocorrer em redes congestionadas. O CAC (serviço de controle de admissão de chamadas) determina, com base na largura de banda da rede disponível, se será permitido estabelecer sessões de comunicação em tempo real, como chamadas de voz ou vídeo. O design do CAC no Lync Server 2013 oferece quatro atributos principais:
 
-O CAC controla o tráfego em tempo real somente para voz e vídeo. Ele não controla o tráfego de dados.
+  - É simples implantar e gerenciar sem exigir equipamento adicional, como roteadores especialmente configurados.
 
-Os administradores definem políticas CAC, que são aplicadas pelo Serviço de Política de Largura de Banda que é instalado com cada Pool de Front-Ends. As configurações do CAC são automaticamente propagadas a todos os Servidores Front-End do Lync Server em sua rede.
+  - Ele aborda casos críticos de uso de comunicações unificadas, como usuários móveis e vários pontos de presença. Políticas do CAC são impostas de acordo com o local em que o ponto de extremidade está localizado, não onde o usuário está hospedado.
 
-Para chamadas que falham devido a políticas CAC, a ordem de precedência para o redirecionamento de chamada é:
+  - Além de chamadas de voz, ela pode ser aplicada a outro tráfego, como chamadas com vídeo e sessões de videoconferência/videoconferência.
+
+  - Fornece a flexibilidade para habilitar a representação de vários tipos de topologias de rede. Para obter exemplos, consulte [componentes e topologias do CAC no Lync Server 2013](lync-server-2013-components-and-topologies-for-cac.md).
+
+Se uma nova sessão de voz ou de vídeo exceder os limites de largura de banda definidos em um link de rede de longa distância, a sessão será bloqueada ou (apenas para chamadas telefônicas) redirecionada para a PSTN.
+
+O CAC controla o tráfego em tempo real para voz e vídeo somente. Ele não controla o tráfego de dados.
+
+Os administradores definem políticas do CAC, que são impostas pelo serviço de política de largura de banda que é instalado com cada pool de front-ends. As configurações de CAC são automaticamente propagadas para todos os servidores de front-end do Lync Server na sua rede.
+
+Para chamadas que falham devido às políticas do CAC, a ordem de precedência para redirecionar a chamada é a seguinte:
 
 1.  Internet
 
@@ -39,50 +59,91 @@ Para chamadas que falham devido a políticas CAC, a ordem de precedência para o
 
 3.  Caixa postal
 
-A gravação de detalhes da chamada (CDR) captura as informações sobre chamadas que são reencaminhadas para o PSTN ou o correio de voz. O CDR não captura as informações sobre chamadas reencaminhadas para a Internet, porque a Internet é tratada como um caminho alternativo, em vez de uma opção secundária.
+A gravação de detalhes de chamadas (CDR) captura informações sobre chamadas redirecionadas para a PSTN ou para a caixa postal. A CDR não captura informações sobre chamadas redirecionadas para a Internet, porque a Internet é tratada como um caminho alternativo, em vez de uma opção secundária.
+
+<div>
+
 
 > [!NOTE]  
-> Os depósitos de caixa postal não serão negados devido a restrições de largura de banda.
+> Os depósitos da caixa postal não serão negados devido a restrições de largura de banda.
 
-O Serviço de Política de Largura de Banda gera dois tipos de arquivos de log no formato de valores separados por vírgulas (CSV). O arquivo de log **falhas de verificação** captura as informações quando as solicitações de largura de banda são negadas. O arquivo de log **utilização do link** captura um instantâneo da topologia de rede e a utilização de largura de banda do link de WAN. Ambos arquivos de log podem ajudá-lo a ajustar as políticas CAC com base na utilização.
 
-## Considerações sobre o Controle de Admissão de Chamada
 
-O administrador seleciona a instalação do Serviço de Política de Largura de Banda no primeiro pool configurado no site central. Como há apenas um site central por região da rede, há apenas um Serviço de Política de Largura de Banda por região da rede, que gerencia a política de largura de banda para aquela região, os sites associados e os links para esses sites. O Serviço de Política de Largura de Banda é executado como parte do Servidores Front-End e, por isso, o pool conta com alta disponibilidade interna. O Serviço de Política de Largura de Banda em execução em cada Servidor Front-End é sincronizado a cada 15 segundos. Se o Pool de Front-Ends falhar, as políticas CAC não serão mais impostas para o site até que o Pool de Front-Ends e, consequentemente, o Serviço de Política de Largura de Banda entrem em operação novamente. Isso significa que todas as chamadas serão recebidas enquanto o Serviço de Política de Largura de Banda estiver inoperante. Portanto, ainda há a possibilidade de excesso de assinatura da largura de banda dos links durante esse período
+</div>
 
-O Serviço de Política de Largura de Banda fornece alta disponibilidade em um Pool de Front-Ends; porém, ele não fornece redundância em Pools de Front-Ends. O Serviço de Política de Largura de Banda não pode realizar failover de um Pool de Front-Ends para outro. Quando o serviço do Pool de Front-Ends é recuperado, o Serviço de Política de Largura de Banda é retomado e pode impor as verificações de política de largura de banda novamente.
+O serviço de política de largura de banda gera dois tipos de arquivos de log no formato CSV (valores separados por vírgula). O arquivo de log de **falhas de verificação** captura informações quando as solicitações de largura de banda são negadas. O arquivo de log de **utilização do link** captura um instantâneo da topologia de rede e a utilização da largura de banda do link WAN. Esses dois arquivos de registro podem ajudá-lo a ajustar suas políticas do CAC com base na utilização.
 
-## Considerações de Rede
+<div>
 
-Embora a restrição de largura de banda para áudio e vídeo é imposta pelo Serviço de Política de Largura de Banda em Lync Server 2013, essa restrição não é imposta no roteador de rede (camada 2 e 3). O CAC do Lync Server 2010 não pode impedir que um aplicativo de dados, por exemplo, consuma a largura de banda de rede inteira em um link WAN, incluindo a largura de banda que está reservada para áudio e vídeo por sua política CAC. Para proteger a largura de banda necessária na rede, você pode implantar um protocolo de Qualidade de Serviço (QoS), como os Serviços Diferenciados (DiffServ). Portanto, uma prática recomendada é coordenar as políticas de largura de banda do CAC definidas com quaisquer configurações de QoS que você possa implantar.
+## <a name="call-admission-control-considerations"></a>Considerações sobre o controle de admissão de chamadas
 
-## Mídia e Sinalização de Caminhos através de VPN
+O administrador seleciona a instalação do serviço de política de largura de banda no primeiro pool configurado no site central. Como há um único site central por região de rede, há apenas um serviço de política de largura de banda por região de rede, que gerencia a política de largura de banda para essa região, seus sites associados e os links para esses sites. O serviço de política de largura de banda é executado como parte dos servidores front-end e, portanto, a alta disponibilidade é interna dentro desse pool. O serviço de política de largura de banda executado em cada servidor front-end sincroniza a cada 15 segundos. Se o pool de front-ends falhar, as políticas do CAC não serão mais impostas para esse site até o pool de front-ends e, consequentemente, o serviço de política de largura de banda ficará operacional novamente. Isso indica que todas as chamadas passarão durante a duração em que o serviço de política de largura de banda está fora do serviço. Portanto, há a possibilidade de largura de banda superassinatura de seus links durante este período
 
-Se a sua empresa oferece suporte à mídia através de VPN, verifique se tanto o fluxo de mídia e o fluxo de sinalização vão através de VPN ou ambos são roteados pela internet. Por padrão, a mídia e os fluxos de sinalização passam pelo encapsulamento VPN.
+O serviço de política de largura de banda fornece alta disponibilidade em um pool de front-end; no entanto, ele não fornece redundância entre pools de front-end. O serviço de política de largura de banda não pode fazer failover de um pool de front-end para outro. Uma vez que o serviço para o pool de front-end seja restaurado, o serviço de política de largura de banda é retomado e pode impor verificações de política de largura
 
-## Controle de Admissão de Chamada de Usuários Externos
+<div>
 
-O controle de admissão de chamada não será aplicado aos usuários remotos onde o tráfego de rede flui através da Internet. Como o tráfego de mídia atravessa a Internet, que não não é gerenciada por Lync Server, o CAC não pode ser aplicado. Serão realizadas verificações de CAC, no entanto, na parte da chamada que flui através da rede corporativa.
+## <a name="network-considerations"></a>Considerações de rede
 
-## Controle de Admissão de Chamada das Conexões PSTN
+Embora a restrição de largura de banda para áudio e vídeo seja imposta pelo serviço de política de largura de banda no Lync Server 2013, essa restrição não é imposta no roteador de rede (camada 2 e 3). Lync Server 2010 o CAC não pode impedir que um aplicativo de dados, por exemplo, consuma toda a largura de banda de rede em um link de WAN, incluindo a largura de banda que é reservada para áudio e vídeo pela sua política do CAC. Para proteger a largura de banda necessária na sua rede, você pode implantar um protocolo de QoS (qualidade de serviço), como serviços diferenciados (DiffServ). Portanto, uma prática recomendada é coordenar as políticas de largura de banda do CAC que você define com qualquer configuração de QoS que possa ser implantada.
 
-O controle de admissão de chamada é aplicável no Servidor de Mediação, independentemente de estar conectado a um IP/PBX, um gateway PSTN ou um tronco SIP. Como o Servidor de Mediação é um agente de usuário consecutivo (B2BUA), ele encerra a mídia. Ele tem dois lados de conexão: um lado conectado ao Lync Server e um lado do gateway, que é conectado a IP/PBXs, gateways PSTN ou troncos SIP. Para obter detalhes sobre as conexões PSTN, consulte [Planejamento de conectividade de PSTN no Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md).
+</div>
 
-O CAC pode ser aplicado em ambos os lados do Servidor de Mediação, a menos que o bypass de mídia esteja ativado. Se o bypass de mídia estiver ativado, o tráfego de mídia não atravessa o Servidor de Mediação, mas flui diretamente entre o cliente do Lync e o gateway. Nesse caso, o CAC não é necessário. Para obter detalhes, consulte [Planejamento de bypass de mídia no Lync Server 2013](lync-server-2013-planning-for-media-bypass.md).
+<div>
 
-A figura a seguir ilustra como o CAC é aplicado em conexões PSTN, com e sem o bypass de mídia habilitado.
+## <a name="media-and-signaling-paths-over-vpn"></a>Caminhos de mídia e sinalização via VPN
 
-**Aplicação de controle de admissão de chamada em conexões para o PSTN**
+Se a sua empresa for compatível com mídia via VPN, certifique-se de que tanto o fluxo de mídia quanto o fluxo de sinalização passem pela VPN ou ambos sejam roteados pela Internet. Por padrão, a mídia e os fluxos de sinalização passam pelo túnel VPN.
 
-![Imposição da conexão de bypass de mídia do CAC de voz](images/Gg398529.4d66d529-0912-4de1-abec-266f54272eb3(OCS.15).jpg "Imposição da conexão de bypass de mídia do CAC de voz")
+</div>
 
-## Compatibilidade de Controle de Admissão de Chamada com Versões Anteriores do Office Communications Server
+<div>
 
-O controle de admissão de chamada pode ser ativado somente em pontos de extremidade que estão habilitados para o Lync Server 2010 e posterior.
+## <a name="call-admission-control-of-outside-users"></a>Controle de admissão de chamadas de usuários externos
 
-O controle de admissão de chamada não pode ser ativado em pontos de extremidade executando o Office Communicator 2007 R2 ou anterior.
+O controle de admissão de chamadas não é imposto para usuários remotos nos quais o tráfego de rede flui pela Internet. Como o tráfego de mídia está atravessando a Internet, o que não é gerenciado pelo Lync Server, o CAC não pode ser aplicado. Cheques do CAC serão executados, no entanto, na parte da chamada que flui pela rede da empresa.
+
+</div>
+
+<div>
+
+## <a name="call-admission-control-of-pstn-connections"></a>Controle de admissão de chamadas de conexões PSTN
+
+O controle de admissão de chamadas é aplicável no servidor de mediação independentemente de estar conectado a um IP/PBX, a um gateway PSTN ou a um tronco SIP. Como o servidor de mediação é um agente de usuário back-to-back (B2BUA), ele termina a mídia. Ele tem dois lados de conexão: um lado conectado ao Lync Server e um lado do gateway, que é conectado a gateways PSTN, IP/PBXs ou troncos SIP. Para obter detalhes sobre conexões PSTN, consulte [planejando a conectividade PSTN no Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md).
+
+O CAC pode ser imposto em ambos os lados do servidor de mediação, a menos que a opção ignorar mídia esteja habilitada. Se a bypass de mídia estiver habilitada, o tráfego de mídia não percorrerá o servidor de mediação, mas fluirá diretamente entre o cliente do Lync e o gateway. Nesse caso, o CAC não é necessário. Para obter detalhes, consulte [planejando o bypass de mídia no Lync Server 2013](lync-server-2013-planning-for-media-bypass.md).
+
+A figura a seguir ilustra como o CAC é imposto sobre conexões PSTN com e sem o bypass de mídia habilitado.
+
+**Aplicação de controle de admissão de chamadas em conexões com PSTN**
+
+![Aplicação de voz do CAC ignorando] a imposição de conexão (images/Gg398703.4d66d529-0912-4de1-abec-266f54272eb3(OCS.15).jpg "Aplicação de voz do CAC ignorando") a imposição de conexão
+
+</div>
+
+<div>
+
+## <a name="compatibility-of-call-admission-control-with-earlier-versions-of-office-communications-server"></a>Compatibilidade do controle de admissão de chamadas com versões anteriores do Office Communications Server
+
+O controle de admissão de chamadas pode ser habilitado somente em pontos de extremidade habilitados para o Lync Server 2010 e posteriores.
+
+O controle de admissão de chamadas não pode ser habilitado em pontos de extremidade que executam o Office Communicator 2007 R2 ou anterior.
 
 **Aplicativo do CAC em diferentes versões do Lync Server**
 
-![Diagrama de Comparação da versão do CAC de voz](images/Gg398529.fdbfee7e-15fc-445b-949d-8d61e61ac350(OCS.15).jpg "Diagrama de Comparação da versão do CAC de voz")
+![Diagrama de comparação da versão do CAC do CAC] (images/Gg398529.fdbfee7e-15fc-445b-949d-8d61e61ac350(OCS.15).jpg "Diagrama de comparação da versão do CAC do CAC")
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
