@@ -25,7 +25,7 @@ ms.locfileid: "34433339"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p>Transforme espaços de reunião variando de pequenas áreas do huddle a grandes salas de conferência com uma experiência avançada e colaborativa de equipes that& # 39; s simples de usar, implantar e gerenciar. </p>
+                        <p>Transforme espaços de reunião variando de pequenas áreas do huddle a grandes salas de conferência com uma experiência avançada e colaborativa de equipes que&#39;s simples de usar, implantar e gerenciar. </p>
                         <p>Inicie reuniões no prazo com uma junção com apenas um toque e, em seguida, faça o projeto instantaneamente para a exibição na sala e compartilhe para participantes remotos. </p>
                         <p>Selecione o sistema e os periféricos de vídeo corretos de um de nossos parceiros: Yealink, Logitech, Crestron, Polycom, Lenovo e HP.</p>
                         <p></p>

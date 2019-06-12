@@ -1,52 +1,105 @@
-﻿---
-title: Configurando o repositório para arquivamento
-TOCTitle: Configurando o repositório para arquivamento
-ms:assetid: f751245c-743e-454f-8325-968ae5e3de71
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/JJ205392(v=OCS.15)
-ms:contentKeyID: 49308639
-ms.date: 12/10/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurando o armazenamento para arquivamento'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Setting up storage for Archiving
+ms:assetid: f751245c-743e-454f-8325-968ae5e3de71
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205392(v=OCS.15)
+ms:contentKeyID: 48185858
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6728c02e9aa73faceaa8b3e681a5cf9cc4c700cd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844925"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurando o repositório para arquivamento
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2016-12-08_
+# <a name="setting-up-storage-for-archiving-in-lync-server-2013"></a><span data-ttu-id="d7c4a-102">Configurando o armazenamento para arquivamento no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d7c4a-102">Setting up storage for Archiving in Lync Server 2013</span></span>
 
-O arquivamento do Lync Server 2013 inclui o seguinte:
+</div>
 
-  - **Armazenamento de dados**   O armazenamento de dados é necessário para armazenar o conteúdo de IM.
+<div id="mainSection">
 
-  - **Armazenamento de arquivos**   O armazenamento de arquivos é necessário para armazenar o conteúdo de dados e arquivos das conferências (reuniões).
+<div id="mainBody">
 
-## Configurando o armazenamento de dados
+<span> </span>
 
-Os requisitos de configuração do armazenamento de dados no Lync Server 2013 dependem de como você deseja armazenar os dados:
+<span data-ttu-id="d7c4a-103">_**Tópico da última modificação:** 2013-12-17_</span><span class="sxs-lookup"><span data-stu-id="d7c4a-103">_**Topic Last Modified:** 2013-12-17_</span></span>
 
-  - Integre o arquivamento do Lync Server 2013 à sua implantação do Exchange para armazenar dados usando o armazenamento do Exchange.
+<span data-ttu-id="d7c4a-104">O arquivamento de armazenamento do Lync Server 2013 inclui o seguinte:</span><span class="sxs-lookup"><span data-stu-id="d7c4a-104">Archiving storage for Lync Server 2013 includes the following:</span></span>
 
-  - Defina servidores de banco de dados do SQL Server para armazenar os dados.
+  - <span data-ttu-id="d7c4a-105">\*\*\*\*   É necessário armazenamento de dados de armazenamento de dados para armazenar o conteúdo de mensagens instantâneas.</span><span class="sxs-lookup"><span data-stu-id="d7c4a-105">**Data storage**   Data storage is required to store IM content.</span></span>
 
-## Configurando o repositório do Exchange para arquivamento de dados
+  - <span data-ttu-id="d7c4a-106">\*\*\*\*   O armazenamento de arquivos de armazenamento de arquivos é necessário para armazenar o armazenamento de dados de conteúdo de conferência (reunião) e armazenamento de arquivos.</span><span class="sxs-lookup"><span data-stu-id="d7c4a-106">**File storage**   File storage is required to store conferencing (meeting) content data storage and file storage.</span></span>
 
-A configuração do repositório do Exchange para arquivamento de dados requer que a implantação do Exchange execute o Exchange 2013. Além disso, as caixas de correio dos usuários devem estar hospedadas no servidor Exchange 2013 e as caixas de correio devem ser colocadas em espera no local. Para obter mais informações sobre como configurar o Exchange 2013, consulte a documentação do produto do Exchange.
+<div>
 
-## Configurando o repositório dos Servidores de banco de dados do SQL Server para arquivamento de dados
+## <a name="setting-up-data-storage"></a><span data-ttu-id="d7c4a-107">Configurando o armazenamento de dados</span><span class="sxs-lookup"><span data-stu-id="d7c4a-107">Setting Up Data Storage</span></span>
 
-O arquivamento no Lync Server 2013 requer o software de banco de dados do SQL Server para armazenar os dados arquivados, a não ser que você integre sua implantação ao Exchange.
+<span data-ttu-id="d7c4a-108">Os requisitos para a configuração do armazenamento de dados para o arquivamento no Lync Server 2013 dependem de como você deseja armazenar dados de arquivamento:</span><span class="sxs-lookup"><span data-stu-id="d7c4a-108">Requirements for setting up data storage for Archiving in Lync Server 2013 depend on how you want to store archiving data:</span></span>
 
-Para bancos de dados de arquivamento do SQL Server, você deve instalar o SQL Server no computador que hospedará o banco de dados de arquivamento. É possível usar a mesma instância do SQL utilizada para o banco de dados de back-end de um pool de Front Ends. Para obter um melhor desempenho, você deve implantar o banco de dados de arquivamento em um computador separado do armazenamento de Gerenciamento Central. Para obter mais informações sobre como colocar componentes do Lync Server 2013, consulte [Colocação em conjunto de servidor suportado no Lync Server 2013](lync-server-2013-supported-server-collocation.md) na documentação de Suporte.
+  - <span data-ttu-id="d7c4a-109">Integre o arquivamento do Lync Server 2013 com a implantação do Exchange para armazenar o arquivamento de dados usando o armazenamento do Exchange.</span><span class="sxs-lookup"><span data-stu-id="d7c4a-109">Integrate Lync Server 2013 Archiving with your Exchange deployment to store Archiving data using Exchange storage.</span></span>
 
-Cada servidor de banco de dados deve ser executado em uma versão suportada do SQL Server. Para obter detalhes sobre as versões suportadas, consulte [Requisitos técnicos de Arquivamento no Lync Server 2013](lync-server-2013-technical-requirements-for-archiving.md) na documentação de Planejamento.
+  - <span data-ttu-id="d7c4a-110">Configurar servidores de banco de dados SQL Server separados para armazenar dados de arquivamento.</span><span class="sxs-lookup"><span data-stu-id="d7c4a-110">Set up separate SQL Server database servers to store Archiving data.</span></span>
 
-Você deve configurar as plataformas do SQL Server antes de implantar e habilitar o arquivamento. Se a conta utilizada para publicar a topologia tiver os direitos e permissões apropriados, é possível criar o banco de dados de arquivamento (LcsLog) ao publicar a topologia. Também é possível criar o banco de dados posteriormente, incluindo-o como parte do procedimento de instalação. Para obter mais informações sobre o SQL Server, consulte o SQL Server TechCenter em [http://go.microsoft.com/fwlink/?linkid=129045\&clcid=0x416](http://go.microsoft.com/fwlink/?linkid=129045%26clcid=0x416).
+<div>
+
+## <a name="setting-up-exchange-storage-for-archiving-data"></a><span data-ttu-id="d7c4a-111">Configurando o armazenamento do Exchange para arquivar dados</span><span class="sxs-lookup"><span data-stu-id="d7c4a-111">Setting Up Exchange Storage for Archiving Data</span></span>
+
+<span data-ttu-id="d7c4a-112">A configuração do Exchange para armazenamento de dados de arquivamento requer que sua implantação do Exchange esteja executando o Exchange 2013.</span><span class="sxs-lookup"><span data-stu-id="d7c4a-112">Setting up Exchange for storage of Archiving data requires that your Exchange deployment is running Exchange 2013.</span></span> <span data-ttu-id="d7c4a-113">Além disso, as caixas de correio do usuário devem ser hospedadas no servidor Exchange 2013 e suas caixas de correio devem ser colocadas no bloqueio in-loco.</span><span class="sxs-lookup"><span data-stu-id="d7c4a-113">Additionally, user mailboxes must be homed on the Exchange 2013 server and their mailboxes must be put on In-Place Hold.</span></span> <span data-ttu-id="d7c4a-114">Para obter detalhes sobre como configurar o Exchange 2013, consulte a documentação do produto Exchange.</span><span class="sxs-lookup"><span data-stu-id="d7c4a-114">For details about configuring Exchange 2013, see the Exchange product documentation.</span></span>
+
+</div>
+
+<div>
+
+## <a name="setting-up-sql-server-database-servers-for-storage-of-archiving-data"></a><span data-ttu-id="d7c4a-115">Configurando servidores de banco de dados SQL Server para armazenamento de dados de arquivamento</span><span class="sxs-lookup"><span data-stu-id="d7c4a-115">Setting Up SQL Server Database Servers for Storage of Archiving Data</span></span>
+
+<span data-ttu-id="d7c4a-116">O arquivamento no Lync Server 2013 exige que o software de banco de dados do SQL Server armazene os dados arquivados, a menos que você integre a implantação com o Exchange.</span><span class="sxs-lookup"><span data-stu-id="d7c4a-116">Archiving in Lync Server 2013 requires the SQL Server database software to store the archived data, unless you integrate your deployment with Exchange.</span></span>
+
+<span data-ttu-id="d7c4a-117">Para bancos de dados de arquivamento do SQL Server, você deve instalar o SQL Server no computador que irá hospedar o banco de dados de arquivamento.</span><span class="sxs-lookup"><span data-stu-id="d7c4a-117">For SQL Server archiving databases, you must install SQL Server on the computer that will host the Archiving database.</span></span> <span data-ttu-id="d7c4a-118">Você pode usar a mesma instância SQL que você usa para o banco de dados back-end de um pool de front-ends.</span><span class="sxs-lookup"><span data-stu-id="d7c4a-118">You can use the same SQL instance that you use for the back-end database of a Front End pool.</span></span> <span data-ttu-id="d7c4a-119">Para obter o melhor desempenho, você deve implantar o banco de dados de arquivamento em um computador separado do repositório de gerenciamento central.</span><span class="sxs-lookup"><span data-stu-id="d7c4a-119">For best performance, you should deploy the Archiving database on a computer that is separate from the Central Management store.</span></span> <span data-ttu-id="d7c4a-120">Para obter detalhes sobre a colocação de componentes do Lync Server 2013, consulte [colocação do servidor com suporte no Lync server 2013](lync-server-2013-supported-server-collocation.md) na documentação de suporte.</span><span class="sxs-lookup"><span data-stu-id="d7c4a-120">For details about collocating Lync Server 2013 components, see [Supported server collocation in Lync Server 2013](lync-server-2013-supported-server-collocation.md) in the Supportability documentation.</span></span>
+
+<span data-ttu-id="d7c4a-121">Cada servidor de banco de dados deve estar executando uma versão com suporte do SQL Server.</span><span class="sxs-lookup"><span data-stu-id="d7c4a-121">Each database server must be running a supported version of SQL Server.</span></span> <span data-ttu-id="d7c4a-122">Para obter detalhes sobre as versões com suporte, consulte [requisitos técnicos para arquivamento no Lync Server 2013](lync-server-2013-technical-requirements-for-archiving.md) na documentação de planejamento.</span><span class="sxs-lookup"><span data-stu-id="d7c4a-122">For details about the supported versions, see [Technical requirements for Archiving in Lync Server 2013](lync-server-2013-technical-requirements-for-archiving.md) in the Planning documentation.</span></span>
+
+<span data-ttu-id="d7c4a-123">Você deve configurar as plataformas do SQL Server antes de implantar e habilitar o arquivamento.</span><span class="sxs-lookup"><span data-stu-id="d7c4a-123">You must set up the SQL Server platforms prior to deploying and enabling Archiving.</span></span> <span data-ttu-id="d7c4a-124">Se a conta utilizada para publicar a topologia tiver os direitos e permissões apropriados, é possível criar o banco de dados de arquivamento (LcsLog) ao publicar a topologia.</span><span class="sxs-lookup"><span data-stu-id="d7c4a-124">If the account to be used to publish the topology has the appropriate administrator rights and permissions, you can create the Archiving database (LcsLog) when you publish your topology.</span></span> <span data-ttu-id="d7c4a-125">Você também pode criar o banco de dados posteriormente, incluindo como parte do procedimento de instalação.</span><span class="sxs-lookup"><span data-stu-id="d7c4a-125">You can also create the database later, including as part of the installation procedure.</span></span> <span data-ttu-id="d7c4a-126">Para obter detalhes sobre o SQL Server, consulte o TechCenter do [http://go.microsoft.com/fwlink/p/?linkID=129045](http://go.microsoft.com/fwlink/p/?linkid=129045)SQL Server em.</span><span class="sxs-lookup"><span data-stu-id="d7c4a-126">For details about SQL Server, see the SQL Server TechCenter at [http://go.microsoft.com/fwlink/p/?linkID=129045](http://go.microsoft.com/fwlink/p/?linkid=129045).</span></span>
+
+<div>
+
 
 > [!NOTE]  
-> Certifique-se de que o Tipo de inicialização do Serviço SQL Server Agent é Automático e que o Serviço SQL Server Agent está executando a Instância SQL que mantém o Banco de dados de arquivamento, para que o Trabalho de Manutenção Padrão do SQL Server de Arquivamento seja executado de forma agendada sob controle do Serviço SQL Server Agent.
+> <span data-ttu-id="d7c4a-127">Verifique se o tipo de inicialização do serviço do SQL Server Agent é automático e se o serviço do SQL Server Agent está em execução para a instância do SQL que está segurando o banco de dados de arquivamento, para que o trabalho de manutenção padrão do SQL Server possa ser executado em sua base de dados agendada controle do serviço do SQL Server Agent.</span><span class="sxs-lookup"><span data-stu-id="d7c4a-127">Ensure that the SQL Server Agent Service Startup Type is Automatic and the SQL Server Agent Service is running for the SQL Instance which is holding the Archiving database, so that the Default Archiving SQL Server Maintenance Job can run on its scheduled basis under the control of the SQL Server Agent Service.</span></span>
 
-## Configurando o armazenamento de arquivos
 
-O arquivamento usa o compartilhamento de arquivos do Lync Server 2013 especificado ao configurar o pool de Front Ends ou o servidor Edição Padrão. Não é possível alterar o compartilhamento de arquivos usado para o Arquivamento. Para obter mais informações sobre os sistemas de armazenamento de arquivos suportados, consulte [Suporte a armazenamento de arquivo no Lync Server 2013](lync-server-2013-file-storage-support.md) na documentação de Suporte.
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="setting-up-file-storage"></a><span data-ttu-id="d7c4a-128">Configurar o armazenamento de arquivos</span><span class="sxs-lookup"><span data-stu-id="d7c4a-128">Setting Up File Storage</span></span>
+
+<span data-ttu-id="d7c4a-129">O arquivamento usa o compartilhamento de arquivos do Lync Server 2013 especificado quando você configura seu pool de front-end ou o servidor Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="d7c4a-129">Archiving uses the Lync Server 2013 file share that you specified when you set up your Front End pool or Standard Edition server.</span></span> <span data-ttu-id="d7c4a-130">Não é possível alterar o compartilhamento de arquivos usado para arquivamento.</span><span class="sxs-lookup"><span data-stu-id="d7c4a-130">You cannot change the file share used for Archiving.</span></span> <span data-ttu-id="d7c4a-131">Para obter detalhes sobre sistemas de armazenamento de arquivos com suporte, consulte [suporte de armazenamento de arquivos no Lync Server 2013](lync-server-2013-file-storage-support.md) na documentação de suporte.</span><span class="sxs-lookup"><span data-stu-id="d7c4a-131">For details about supported file storage systems, see [File storage support in Lync Server 2013](lync-server-2013-file-storage-support.md) in the Supportability documentation.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
