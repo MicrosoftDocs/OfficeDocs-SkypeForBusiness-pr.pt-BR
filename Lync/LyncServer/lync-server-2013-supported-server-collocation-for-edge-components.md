@@ -1,27 +1,65 @@
-﻿---
-title: "Lync Server 2013: Coloc. em conjunto de servidor suportado para compon. de borda"
-TOCTitle: Colocação em conjunto de servidor suportado para componentes de borda
-ms:assetid: 435c4dd8-36af-4b71-9b88-3ffcf0fc5c65
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425934(v=OCS.15)
-ms:contentKeyID: 49306537
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Colocação em conjunto de servidor suportado para componentes de borda'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Supported server collocation for edge components
+ms:assetid: 435c4dd8-36af-4b71-9b88-3ffcf0fc5c65
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425934(v=OCS.15)
+ms:contentKeyID: 48183978
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e3ad78cc1060c64181a75acefa21e64809e0d7b1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844835"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Colocação em conjunto de servidor suportado para componentes de borda no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-09-08_
+# <a name="supported-server-collocation-for-edge-components-in-lync-server-2013"></a>Colocação em conjunto de servidor suportado para componentes de borda no Lync Server 2013
 
-O serviço de Borda de Acesso, o serviço de Borda de Webconferência, o serviço de Borda A/V e o serviço de Proxy XMPP são colocados no Servidores de Borda. Os servidores fornecem funções necessárias para o acesso de usuário externo e devem ser implantados como servidores dedicados:
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-09-08_
+
+O serviço de borda de acesso, serviço de borda de webconferência, serviço de borda A/V e serviço de proxy da XMPP são posicionados nos servidores de borda. Os seguintes servidores fornecem funções necessárias para acesso externo a usuários e devem ser implantados como servidores dedicados:
 
   - Servidor de Borda
 
-  - Diretor (opcional)
+  - Director (opcional)
 
   - Proxy reverso
 
+<div>
+
+
 > [!IMPORTANT]  
-> O proxy reverso não precisa ser dedicado apenas a serviço Lync Server 2013. Por exemplo, você pode fornecer serviços para publicar os serviços da Web Lync Server e, concomitantemente, fornecer um site da Web publicado para outro site da Web que não possua rolamento nenhum em Lync Server. Se você já tiver um servidor proxy reverso na rede de perímetro para dar suporte a outros serviços, poderá usá-lo para o Lync Server 2013.
+> O proxy inverso não precisa ser dedicado para atender apenas ao Lync Server 2013. Por exemplo, você pode fornecer serviços para publicar os serviços da Web do Lync Server e fornecer simultaneamente um site da Web publicado para outro site que não tenha nenhuma influência no Lync Server. Se você já tiver um servidor proxy inverso na rede de perímetro para dar suporte a outros serviços, poderá usá-lo para o Lync Server 2013.
+
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
+

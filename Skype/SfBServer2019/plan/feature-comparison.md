@@ -53,7 +53,7 @@ Esta tabela abrange os recursos de Presença Avançada que vão além de uma sim
 | Adicionar uma nota personalizada                                                                                   | &#x2714;                                      | &#x2714;                  | &#x2714;         |
 | Usar uma foto de qualquer site público para Minha Imagem  <br/> (não disponível no Skype for Business online) | &#x2714;                                      |                           | &#x2714;         |
 
- &#x2776;  Não oferece suporte à publicação de status com base nas informações de disponibilidade do calendário.
+ &#x2776; não oferece suporte à publicação de status com base nas informações de disponibilidade do calendário.
 
 ## <a name="contacts-and-contact-groups-support"></a>Suporte para contatos e grupos de contatos
 <a name="BKMK_Contacts"> </a>
@@ -88,7 +88,7 @@ Esta tabela abrange os recursos relacionados ao suporte a mensagens instantânea
 |:-----|:-----|:-----|:-----|  
 |Iniciar mensagens instantâneas ou enviar email para um contato  |&#x2714;|&#x2714;|&#x2714;|  
 |Navegar entre várias conversas de IM/acompanhar várias conversas em uma única janela com guias   |&#x2714;|&#x2714;|&#x2714;| 
-|Registrar conversas de IM no Outlook  |&#x2714;|&#x2714; Se o histórico da conversa do lado do servidor estiver ativado   |&#x2714;|   
+|Registrar conversas de IM no Outlook  |&#x2714;|&#x2714; se o histórico da conversa do lado do servidor estiver ativado   |&#x2714;|   
 |Verificar a ortografia |&#x2714;|&#x2714;||   
 |Pesquisa de habilidades (com integração do SharePoint Server)   <br/> (O Skype for Business Server local e o SharePoint 2013 local são necessários para a pesquisa de habilidades.)  |&#x2714;||&#x2714;|
 |Integração de chat persistente (chat em grupo)  <br/> (não disponível para o Skype for Business online)|&#x2714;||&#x2714;|  
@@ -111,19 +111,19 @@ Para obter detalhes, consulte a [Descrição do serviço do Skype for Business o
 
 |Recurso/funcionalidade | Cliente Skype for Business 2016 | Skype for Business para Mac | Skype for Business Web App | Cliente Skype for Business 2015 | Cliente do Lync 2013 | 
 |:-----|:-----|:-----|:-----|:-----|:-----|  
-|Adicionar áudio do computador  |&#x2714;|&#x2714;|& # x2714; (exige plug-in)  |&#x2714;|&#x2714;| 
-|Adicionar vídeo |&#x2714;|&#x2714;|& # x2714; (exige plug-in) |&#x2714;|&#x2714;| 
+|Adicionar áudio do computador  |&#x2714;|&#x2714;|&#x2714; (requer plug-in)  |&#x2714;|&#x2714;| 
+|Adicionar vídeo |&#x2714;|&#x2714;|&#x2714; (requer plug-in) |&#x2714;|&#x2714;| 
 |Exibir vídeo com vários participantes (modo de exibição de galeria)  |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Compartilhamento de tela baseado em vídeo    |&#x2714;|&#x2714;|&#x2714; Somente exibição   ||| 
+|Compartilhamento de tela baseado em vídeo    |&#x2714;|&#x2714;|&#x2714; somente exibição   ||| 
 |Usar os controles do apresentador na reunião |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;| 
 |Acessar a lista de participantes detalhada da reunião |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|  
 |Participar de IM com vários participantes |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|  
-|Compartilhar a área de trabalho (se habilitado)  |&#x2714;|&#x2714; &#x2776; |&#x2714; &#x2776; (requer plug-in) |&#x2714;| &#x2714;|
-|Compartilhar um programa (se habilitado) |&#x2714;|Somente exibição   |& # x2714; (exige plug-in)  |&#x2714;|&#x2714;|   
+|Compartilhar a área de trabalho (se habilitado)  |&#x2714;|&#x2714; &#x2776; |&#x2714; &#x2776;  (requer plug-in) |&#x2714;| &#x2714;|
+|Compartilhar um programa (se habilitado) |&#x2714;|Somente exibição   |&#x2714; (requer plug-in)  |&#x2714;|&#x2714;|   
 |Adicionar participantes anônimos (se habilitado) |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Usar reuniões de áudio discada & # x2777;|&#x2714; |&#x2714;|&#x2714;  |&#x2714;|&#x2714;  |
+|Usar as reuniões de áudio discada &#x2777;|&#x2714; |&#x2714;|&#x2714;  |&#x2714;|&#x2714;  |
 |Iniciar uma reunião do tipo Reunir Agora|&#x2714;|&#x2714;||&#x2714;|&#x2714;|  
-|Adicionar e apresentar arquivos do Microsoft PowerPoint |&#x2714;| &#x2778; Anotações não disponíveis   |&#x2714;|&#x2714;|&#x2714;| 
+|Adicionar e apresentar arquivos do Microsoft PowerPoint |&#x2714;| &#x2778; anotações não estão disponíveis   |&#x2714;|&#x2714;|&#x2714;| 
 |Navegar por arquivos do Microsoft PowerPoint |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;| 
 |Usar e editar notas de reunião do OneNote  |&#x2714;||Somente editar (sem adicionar)  |&#x2714;|&#x2714;|
 |Usar um quadro de comunicações |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
@@ -141,15 +141,15 @@ Para obter detalhes, consulte a [Descrição do serviço do Skype for Business o
 |Definir Destaque de Vídeo (bloquear vídeo) |&#x2714;||&#x2714;|&#x2714;|&#x2714;| 
 |Conceder/cancelar controle de compartilhamento de tela  |&#x2714;||&#x2714;|||
 
- &#x2776;  Os participantes não podem controlar áreas de trabalho que são compartilhadas pelos usuários do Skype for Business no Mac, Lync para Mac 2011 ou Communicator para Mac 2011. Skype for Business no Mac, Lync para Mac 2011 e Communicator para Mac 2011 os usuários não podem controlar áreas de trabalho compartilhadas por usuários do Windows. Isso também não funcionará para o Skype for Business Web App no máximo OSX.
+ &#x2776; participantes não podem controlar áreas de trabalho que são compartilhadas pelos usuários do Skype for Business no Mac, Lync para Mac 2011 ou Communicator para Mac 2011. Skype for Business no Mac, Lync para Mac 2011 e Communicator para Mac 2011 os usuários não podem controlar áreas de trabalho compartilhadas por usuários do Windows. Isso também não funcionará para o Skype for Business Web App no máximo OSX.
 
- &#x2777;  Para o Skype for Business Online, esse recurso requer a conferência PSTN da Microsoft, a Unificação de mensagens do Exchange ou um provedor de serviços de audioconferência de terceiros.
+ &#x2777; para o Skype for Business Online, esse recurso requer a conferência PSTN da Microsoft, a Unificação de mensagens do Exchange ou um provedor de serviços de audioconferência de terceiros.
 
- &#x2778;  O cliente do Lync para Mac 2011 não pode exibir apresentações do PowerPoint do Microsoft Office 2013 quando elas foram compartilhadas em uma conferência pelo Skype for Business Web App.
+ &#x2778; o cliente do Lync for Mac 2011 não pode exibir apresentações do PowerPoint do Microsoft Office 2013 quando foram compartilhados em uma conferência pelo Skype for Business Web App.
 
-&#x2779;  Para os aplicativos Skype for Business 2016, você deve usar o clique para executar, a compilação 16.0.4227 ou posterior.
+&#x2779; para aplicativos Skype for Business 2016, você deve usar o clique para executar, a compilação 16.0.4227 ou posterior.
 
-&#x2780;  Para os aplicativos Skype for Business 2015, você deve ter a atualização de setembro, compilação 15.0.4747 ou posterior.
+&#x2780; para aplicativos Skype for Business 2015, você deve ter a atualização de setembro, compilação 15.0.4747 ou posterior.
 
 ## <a name="voice-telephony-support"></a>Suporte para voz (telefonia)
 <a name="BKMK_Telephony"> </a>
@@ -180,7 +180,7 @@ Esta tabela abrange os recursos relacionados ao suporte a serviços de voz.
 |Roteamento com base no local |&#x2714;|&#x2714;|&#x2714;| 
 |Gerenciar Grupo de chamada de equipe/Grupo de Resposta |&#x2714;||&#x2714;|
 
- &#x2776;  Este recurso não está disponível no Skype for Business online.
+ &#x2776; este recurso não está disponível no Skype for Business online.
 
 ## <a name="external-users-support"></a>Suporte para usuários externos
 <a name="BKMK_ExternalUsers"> </a>
@@ -205,9 +205,9 @@ Esta tabela abrange os recursos relacionados ao suporte à gravação de reuniõ
 |Gravação de transferências de arquivos, páginas compartilhadas do OneNote e anotações do PowerPoint do lado do cliente| &#x2714; &#x2777; ||&#x2714; &#x2777; |
 |Selecionar a resolução de gravação preferencial  |&#x2714;||&#x2714;|
 
- &#x2776;  A gravação não está disponível em determinados planos autônomos do Skype for Business online. A gravação exige direitos do cliente completo do Skype for Business.
+ &#x2776; gravação não está disponível em determinados planos autônomos do Skype for Business online. A gravação exige direitos do cliente completo do Skype for Business.
 
- &#x2777;  A gravação de transferências de arquivo, páginas compartilhadas do OneNote e anotações do PowerPoint não está disponível no Skype for Business online.
+ &#x2777; gravação de transferências de arquivo, páginas compartilhadas do OneNote e anotações do PowerPoint não está disponível no Skype for Business online.
 
 ## <a name="modern-authentication"></a>Autenticação moderna
 <a name="BKMK_Recording"> </a>
@@ -221,7 +221,7 @@ A autenticação moderna também exige uma topologia descrita nas [topologias do
 |:-----|:-----|:-----|:-----|  
 |Autenticação moderna |&#x2714;|&#x2714;|&#x2714;|
 |Autenticação multifator|&#x2714;|&#x2714;|&#x2714;|
-|Autenticação baseada em certificado |& # x2714; (somente dispositivo associado a um domínio) |&#x2714;|& # x2714; (somente dispositivo associado a um domínio)  |
+|Autenticação baseada em certificado |&#x2714; (somente dispositivo associado a um domínio) |&#x2714;|&#x2714; (somente dispositivo associado a um domínio)  |
 |Autenticação Kerberos |&#x2714;||&#x2714;|
 
 ## <a name="archiving-compliance-and-logging-support"></a>Suporte a arquivamento, conformidade e logs
@@ -232,12 +232,12 @@ Esta tabela abrange os recursos relacionados ao suporte a funções de arquivame
 
  | Recurso/capacidade | Cliente do Skype for Business 2015, 2016 ou 2019 | Skype for Business para Mac | Cliente do Lync 2013 |  
 |:-----|:-----|:-----|:-----|  
-|Arquivamento de conversas de IM no Histórico da Conversa do Outlook|&#x2714; &#x2776; |&#x2714; Se o histórico da conversa do lado do servidor estiver ativado  |&#x2714; &#x2776; | 
+|Arquivamento de conversas de IM no Histórico da Conversa do Outlook|&#x2714; &#x2776; |&#x2714; se o histórico da conversa do lado do servidor estiver ativado  |&#x2714; &#x2776; | 
 |Arquivamento do compartilhamento de áudio, vídeo e aplicativos, do compartilhamento de área de trabalho e do conteúdo carregado do lado do cliente  |&#x2714; &#x2776; ||&#x2714; &#x2776; |
 |Arquivamento do lado do cliente de transferências de arquivo, páginas compartilhadas do OneNote e anotações do PowerPoint (não disponível no Skype for Business online)  |&#x2714;||&#x2714;|
 |Acessar os logs de entrada do ícone do Skype for Business na barra de tarefas |&#x2714;||&#x2714;|
 
- &#x2776;  Para os usuários do Skype for Business Online, esse recurso requer o Exchange Online e é controlado pelo atributo de bloqueio de caixa de correio in-loco do usuário do Exchange.
+ &#x2776; para usuários do Skype for Business Online, esse recurso requer o Exchange Online e é controlado pelo atributo de bloqueio de caixa de correio in-loco do usuário do Exchange.
 
 ## <a name="client-limitations"></a>Limitações do cliente 
 <a name="Types"> </a>

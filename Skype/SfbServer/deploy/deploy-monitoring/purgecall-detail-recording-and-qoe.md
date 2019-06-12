@@ -27,7 +27,7 @@ Os bancos de dados de CDR e QoE podem ser manual ou automaticamente eliminados d
 
 Os administradores podem configurar os bancos de dados de CDR (registro de detalhes das chamadas) e/ou QoE (qualidade da experiência) para que limpem automaticamente os registros antigos do banco de dados; isso ocorrerá se a limpeza for habilitada para o banco de dados especificado (CDR ou QoE) e se houver qualquer registro que esteja no banco de dados há mais tempo do que o período especificado. Por exemplo, os administradores podem configurar o sistema para que todos os dias, às 13:00, os registros de QoE com mais de 60 dias sejam excluídos do banco de dados de QoE.
   
-Além da eliminação automática, dois cmdlets novos & # x2014; Invoke-CsCdrDatabasePurge e Invoke-CsQoEDatbasePurge & # x2014; foram adicionados ao Skype for Business Server; Esses cmdlets permitem aos administradores limpar manualmente registros dos bancos de dados CDR e QoE a qualquer momento. Por exemplo, para limpar manualmente todos os registros com mais de 10 dias do banco de dados de CDR, é possível usar um comando semelhante a este:
+Além da eliminação automática, dois cmdlets novos &#x2014; Invoke-CsCdrDatabasePurge e Invoke-CsQoEDatbasePurge &#x2014; foram adicionados ao Skype for Business Server; Esses cmdlets permitem aos administradores limpar manualmente registros dos bancos de dados CDR e QoE a qualquer momento. Por exemplo, para limpar manualmente todos os registros com mais de 10 dias do banco de dados de CDR, é possível usar um comando semelhante a este:
   
 ```
 Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10

@@ -33,7 +33,7 @@ A tabela a seguir descreve os recursos do Skype for Business com suporte em vár
   
 **Compatibilidade entre o Skype for Business e o Microsoft Office**
 
-|**Recurso**|**Microsoft Office 2010**|**Microsoft Office 2013, 2015 e 2016**|**Office 2016 para Mac** & # x2776; |
+|**Recurso**|**Microsoft Office 2010**|**Microsoft Office 2013, 2015 e 2016**|&#x2776; **do Office 2016 para Mac** |
 |:-----|:-----|:-----|:-----|
 |**Recursos do Outlook** ||||
 |Personalizar convites para reunião do Outlook (adicionar logotipo, URL de ajuda, aviso de isenção de responsabilidade, texto do rodapé)  |Não  |Sim    |Sim |
@@ -51,7 +51,7 @@ A tabela a seguir descreve os recursos do Skype for Business com suporte em vár
 |Mensagem instantânea e presença em arquivos do Microsoft Word e Microsoft Excel (marcas inteligentes habilitadas)    |Somente Microsoft Word    |Somente Microsoft Word    |Não    |
 |Mensagem instantânea e presença em sites do Microsoft SharePoint (o Outlook deve estar instalado)    |Sim    |Sim    |Não    |
    
-&#x2776; -Pressupõe que você instalou e está executando um cliente Skype for Business no Mac ou o Lync 2011 para Mac.
+&#x2776;-pressupõe que você instalou e está executando um cliente Skype for Business no Mac ou o Lync 2011 para Mac.
   
 ## <a name="exchange-server-and-skype-for-business"></a>Exchange Server e Skype for Business
 

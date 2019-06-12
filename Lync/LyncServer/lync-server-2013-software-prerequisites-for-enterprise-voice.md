@@ -1,41 +1,75 @@
-﻿---
-title: 'Lync Server 2013: Pré-requisitos de software para Enterprise Voice'
-TOCTitle: Pré-requisitos de software para Enterprise Voice
-ms:assetid: 41172119-9631-46c7-9d9f-386d951c650b
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg425916(v=OCS.15)
-ms:contentKeyID: 49306507
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Pré-requisitos de software para Enterprise Voice'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Software prerequisites for Enterprise Voice
+ms:assetid: 41172119-9631-46c7-9d9f-386d951c650b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425916(v=OCS.15)
+ms:contentKeyID: 48183960
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9ac981d7a30a85d25d2dfb376cfa34f812e898bb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844892"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Pré-requisitos de software para Enterprise Voice no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-03_
+# <a name="software-prerequisites-for-enterprise-voice-in-lync-server-2013"></a>Pré-requisitos de software para Enterprise Voice no Lync Server 2013
 
-Verifique se a infraestrutura em que você pretende implantar o Enterprise Voice atende aos seguintes pré-requisitos de software:
+</div>
 
-  - O Lync Server 2013 Standard Edition ou Enterprise Edition está instalado e funcionando na sua rede.
+<div id="mainSection">
 
-  - Todos os Servidores de Borda são implantados e estão operacionais na rede de perímetro, incluindo Servidores de Borda executando Serviço de Borda de Acesso, Serviço de Borda A/V, Serviço de Borda de Webconferência e um proxy reverso.
+<div id="mainBody">
 
-  - O Microsoft Exchange Server 2007 Service Pack 3 (SP3), o Microsoft Exchange Server 2010 ou o Microsoft Exchange Server 2013 é necessário para integrar a Unificação de Mensagens do Exchange com o Lync Server e para fornecer notificações completas e informações do log de chamadas para os pontos de extremidade do Lync.
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-03_
+
+Verifique se a infraestrutura na qual você pretende implantar o Enterprise Voice atende aos seguintes pré-requisitos de software:
+
+  - O Lync Server 2013 Standard Edition ou Enterprise Edition está instalado e operacional em sua rede.
+
+  - Todos os servidores de borda são implantados e operacionais em sua rede de perímetro, incluindo os servidores de borda executando o serviço de borda de acesso, o serviço de borda A/V, o serviço de borda de Webconferência e um proxy reverso.
+
+  - O Microsoft Exchange Server 2007 Service Pack 3 (SP3), Microsoft Exchange Server 2010 ou Microsoft Exchange Server 2013 é necessário para integrar a Unificação de mensagens do Exchange ao Lync Server e para fornecer notificações avançadas e informações de registro de chamadas para o Pontos de extremidade do Lync.
 
   - Um ou mais usuários foram criados e habilitados para o Lync Server.
 
-  - Clientes e dispositivos do Lync foram implantados com êxito.
+  - Os clientes e dispositivos do Lync foram implantados com êxito.
 
-  - O Construtor de Topologias é instalado em um servidor na rede.
+  - O construtor de topologias está instalado em um servidor na sua rede.
 
-## Próximas etapas: Verificar pré-requisitos de segurança e configuração
+<div>
 
-Depois de verificar os pré-requisitos de software para o Enterprise Voice, você pode usar a documentação para continuar a preparação para a implantação do Enterprise Voice:
+## <a name="next-steps-verify-security-and-configuration-prerequisites"></a>Próximas etapas: verificar pré-requisitos de segurança e configuração
 
-1.  Verifique os pré-requisitos de hardware, configuração do usuário e segurança, conforme descrito em [Pré-requisitos de configuração e segurança para Entreprise Voice no Lync Server 2013](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md).
+Depois de verificar os pré-requisitos de software para o Enterprise Voice, você pode usar a documentação para continuar preparando-se para a implantação do Enterprise Voice:
 
-2.  Instale o Servidor de Mediação, conforme descrito em [Instalar os arquivos para o Servidor de Mediação no Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md), mas *somente* se você desejar implantar um Servidor de Mediação autônomo ou pool, porque os Servidores de Mediação estão instalados como parte do pool de Front-End ou do processo de implantação do Servidor Standard Edition quando colocados.
+1.  Verifique a segurança, a configuração do usuário e as perquisites de hardware, conforme descrito em [pré-requisitos de configuração e segurança para o Enterprise Voice no Lync Server 2013](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md).
 
-3.  Configure as conexões de tronco para fornecer conectividade PSTN para usuários, conforme descrito em [Configurando troncos no Lync Server 2013](lync-server-2013-configuring-trunks.md).
+2.  Instale o servidor de mediação, conforme descrito em [instalar os arquivos para o servidor de mediação no Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md), mas *somente* se você quiser implantar um servidor ou pool autônomo de mediação porque os servidores de mediação são instalados como parte do pool de front-ends ou Processo de implantação do servidor Standard Edition quando posicionado.
+
+3.  Configure conexões de tronco para fornecer conectividade PSTN para usuários, conforme descrito em Configurando [troncos no Lync Server 2013](lync-server-2013-configuring-trunks.md).
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
