@@ -41,7 +41,7 @@ A ilustração a seguir mostra como uma chamada de entrada de um atendedor autom
 
 ![Captura de tela de uma notificação de chamada de entrada](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
-Quando um atendedor automático ou uma chamada de fila de chamada for respondido, o usuário poderá processar a chamada como qualquer outra chamada & # x2014; Eles podem adicionar ou enviar uma conferência em outro usuário ou transferir a chamada para outra pessoa. Além disso, as chamadas de atendedor automático serão encaminhadas com base na configuração do usuário.
+Quando um atendedor automático ou uma chamada de fila de chamada for respondido, o usuário poderá processar a chamada como qualquer outra chamada &#x2014; ela pode adicionar ou enviar uma conferência para outro usuário ou transferir a chamada para outra pessoa. Além disso, as chamadas de atendedor automático serão encaminhadas com base na configuração do usuário.
 
 > [!NOTE] 
 > As chamadas da fila de chamadas não são encaminhadas com base na configuração do usuário. Isso é para garantir que os chamadores permaneçam na fila até que um agente possa atender a chamada, e o chamador não seja encaminhado inesperadamente.

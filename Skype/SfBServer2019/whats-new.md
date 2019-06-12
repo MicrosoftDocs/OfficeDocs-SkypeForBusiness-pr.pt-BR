@@ -31,7 +31,7 @@ Os novos recursos do Skype for Business Server 2019 incluem o seguinte:
 
 O Exchange UM permanecerá disponível no Skype for Business Server 2019 quando você integrar o Skype for Business 2019 com o Exchange 2013 ou o Exchange 2016. Devido a alterações no suporte ao Exchange 2019, a integração de UM Exchange está sendo realçada em favor do recurso de correio de voz e do atendedor automático na nuvem.  
 
-O correio de voz em nuvem permite que todos os seus serviços do Skype for Business 2019 users& # x2014; sejam hospedados localmente ou online& # x2014; para ter acesso ao mesmo serviço de correio de voz na nuvem da Microsoft. O correio de voz na nuvem oferece os seguintes benefícios para seus usuários locais e online:
+O correio de voz em nuvem permite que todos os seus usuários do Skype for Business 2019&#x2014;se estão hospedados em&#x2014;locais ou online para ter acesso ao mesmo serviço de correio de voz na nuvem da Microsoft. O correio de voz na nuvem oferece os seguintes benefícios para seus usuários locais e online:
 
 - Acesso à caixa postal na caixa de correio do Exchange usando o Skype for Business Online, o Teams ou clientes do Outlook
 - Capacidade de usar o Portal baseado na Web para gerenciar as opções de correio de voz

@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblLastChatId'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblLastChatId
 ms:assetid: 17a4ffbe-cca9-4ec5-ae46-38a15274889a
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg558616(v=OCS.15)
-ms:contentKeyID: 49306007
-ms.date: 05/19/2016
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558616(v=OCS.15)
+ms:contentKeyID: 48183513
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: bddc89952b544a71c469538cf11f65658e19e38d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844812"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblLastChatId no Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2015-03-09_
+# <a name="tbllastchatid-in-lync-server-2013"></a>tblLastChatId no Lync Server 2013
 
-tblLastChatId inclui a última ID de chat que foi gerada (e usada na tabela tblChat) para cada usuário.
+</div>
 
-### Colunas
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-09-12_
+
+tblLastChatId contém a última ID de chat que foi gerada (e usada na tabela tblChat) para cada usuário.
+
+### <a name="columns"></a>Colunas
 
 <table>
 <colgroup>
@@ -34,20 +54,20 @@ tblLastChatId inclui a última ID de chat que foi gerada (e usada na tabela tblC
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>nodeID</p></td>
+<td><p>NodeId</p></td>
 <td><p>int, não nulo</p></td>
-<td><p>ID de nó (apenas para tipo de sala de chat).</p></td>
+<td><p>ID do nó (somente sala de chat-tipo).</p></td>
 </tr>
 <tr class="even">
 <td><p>lastChatID</p></td>
-<td><p>bigint, não nulo</p></td>
-<td><p>Último ID de chat usado.</p></td>
+<td><p>bigint, e não nulo</p></td>
+<td><p>ID do Chat usado pela última vez.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Chaves
+### <a name="keys"></a>As
 
 <table>
 <colgroup>
@@ -62,20 +82,34 @@ tblLastChatId inclui a última ID de chat que foi gerada (e usada na tabela tblC
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;nodeID, lastChatID&gt;</p></td>
-<td><p>Chave primária (apenas o nodeID é suficiente para o processamento).</p></td>
+<td><p>&lt;NodeId, lastChatID&gt;</p></td>
+<td><p>Chave primária (apenas NodeId é suficiente para processamento).</p></td>
 </tr>
 <tr class="even">
-<td><p>nodeID</p></td>
-<td><p>Chave estrangeira com pesquisa na tabela tblNode.nodeID.</p></td>
+<td><p>NodeId</p></td>
+<td><p>Chave estrangeira com Lookup na tabela tblNode. NodeId.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Consulte Também
+<div>
 
-#### Conceitos
+## <a name="see-also"></a>Confira também
 
-[tblChat no Lync Server 2013](lync-server-2013-tblchat.md)
+
+[tblChat no Lync Server 2013](lync-server-2013-tblchat.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

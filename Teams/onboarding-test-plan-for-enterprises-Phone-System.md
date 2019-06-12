@@ -492,7 +492,7 @@ Depois de concluir o teste de validação de QoS usando a política de grupo par
 
 **Validação de configuração de QoS via GPO e analisador de mensagens**
 
-**Resumo dos resultados**:&nbsp;&nbsp;&nbsp;& # 9744; &nbsp; &nbsp; Pass&nbsp; & # 9744; _AMP_&nbsp; &nbsp; &nbsp; parcial # 9744; Deixam
+**Resumo dos resultados**&nbsp; &nbsp; &nbsp; :&#9744;&nbsp; &nbsp; &nbsp; passar &#9744;&nbsp; &nbsp; parcial&nbsp; &#9744;falha
 
 <table>
 <tr><th colspan="2">Destaques do teste </th></tr>
@@ -546,7 +546,7 @@ Depois de concluir o teste da configuração de túnel dividido para sites no es
 
 **Validação de configuração de túnel dividido**
 
-**Resumo dos resultados**:&nbsp;&nbsp;&nbsp;& # 9744; &nbsp; &nbsp; Pass&nbsp; & # 9744; _AMP_&nbsp; &nbsp; &nbsp; parcial # 9744; Deixam
+**Resumo dos resultados**&nbsp; &nbsp; &nbsp; :&#9744;&nbsp; &nbsp; &nbsp; passar &#9744;&nbsp; &nbsp; parcial&nbsp; &#9744;falha
 
 <table>
 <tr><th colspan="2">Destaques do teste </th></tr>
@@ -597,7 +597,7 @@ Depois de concluir toda a conectividade de rede e os testes de desempenho dos si
 
 **Localização: Seattle [Inside Wired] cliente para o Office 365 resultados**
 
-**Resumo dos resultados**:&nbsp;&nbsp;&nbsp;& # 9744; &nbsp; &nbsp; Pass&nbsp; & # 9744; _AMP_&nbsp; &nbsp; &nbsp; parcial # 9744; Deixam 
+**Resumo dos resultados**&nbsp; &nbsp; &nbsp; :&#9744;&nbsp; &nbsp; &nbsp; passar &#9744;&nbsp; &nbsp; parcial&nbsp; &#9744;falha 
 
 
 
@@ -617,7 +617,7 @@ Depois de concluir toda a conectividade de rede e os testes de desempenho dos si
 <tr><td>A ser determinado</td><td>A ser determinado</td></tr>
 <tr><th colspan="2">Testando lowlights  </th></tr> 
 <tr><td><strong>Problema</strong>: alta latência</td><td><strong>Correção:</strong> Investigue o roteamento de pacotes e implemente a rota ideal.</td></tr>
-<tr><td><strong>Problema</strong>: tempo de ida e volta isn& # 39; t, clique duas vezes na latência</td><td><strong>Correção:</strong> Investigue um possível problema de configuração de firewall ou de roteador. Investigue os caminhos de tráfego.</td></tr>
+<tr><td><strong>Problema</strong>: o tempo de viagem de ida e volta não&#39;o dobro da latência</td><td><strong>Correção:</strong> Investigue um possível problema de configuração de firewall ou de roteador. Investigue os caminhos de tráfego.</td></tr>
 <tr><td><strong>Problema</strong>: alta perda de pacote </td><td><strong>Correção:</strong> Verifique o planejador de rede em que a largura de banda suficiente foi atribuída. </td></tr>
 <tr><td><strong>Problema</strong>: tremulação alta </td><td> <strong>Correção:</strong> Investigue se os valores corretos do ponto de código de serviços diferenciados (DSCP) estão sendo usados. </td></tr>
 <tr><td><strong>Problema</strong>: alta perda de pacote </td><td><strong>Correção:</strong> Investigue a perda de pacotes. </td></tr>
@@ -718,7 +718,7 @@ Depois de concluir todos os testes de número do Assinante, crie um relatório q
 
 **Portabilidade do número de serviço**
 
-**Resumo dos resultados**:&nbsp;&nbsp;&nbsp;& # 9744; &nbsp; &nbsp; Pass&nbsp; & # 9744; _AMP_&nbsp; &nbsp; &nbsp; parcial # 9744; Deixam 
+**Resumo dos resultados**&nbsp; &nbsp; &nbsp; :&#9744;&nbsp; &nbsp; &nbsp; passar &#9744;&nbsp; &nbsp; parcial&nbsp; &#9744;falha 
 
 <table>
 <tr><th colspan="2">Destaques do teste </th></tr>
@@ -776,7 +776,7 @@ Como os casos de teste são avaliados para os recursos administrativos e do sist
 | Sistema telefônico com planos de chamada          |                              |                                                                                            |                           |                                                                            |
 |------------------------------------------|------------------------------|--------------------------------------------------------------------------------------------|---------------------------|----------------------------------------------------------------------------|
 | ID do caso de teste                             | Título do caso de teste              | Descrição do caso de teste                                                                      | Resumo dos resultados do caso de teste | ID do defeito atribuído (se aplicável)                                         |
-| 1                                        | Colocar chamadas PSTN de saída. | Faça uma chamada de saída discando um número de 10 dígitos doméstico.                              |    &#9744; Falha<br/>&#9744; ParciaI<br/> &#9744; Deixam                   | Quando um usuário insere um número de quatro dígitos, a chamada feita para a PSTN falha. |
+| 1                                        | Colocar chamadas PSTN de saída. | Faça uma chamada de saída discando um número de 10 dígitos doméstico.                              |    &#9744;passar<br/>&#9744;parcial<br/> Falha na &#9744;                   | Quando um usuário insere um número de quatro dígitos, a chamada feita para a PSTN falha. |
 
 
 
@@ -798,7 +798,7 @@ Depois que todos os casos de teste que dão suporte ao sistema telefônico com r
 
 **Sistema telefônico Teams com planos de chamada**
 
-**Resumo dos resultados**:&nbsp;&nbsp;&nbsp;& # 9744; &nbsp; &nbsp; Pass&nbsp; & # 9744; _AMP_&nbsp; &nbsp; &nbsp; parcial # 9744; Deixam 
+**Resumo dos resultados**&nbsp; &nbsp; &nbsp; :&#9744;&nbsp; &nbsp; &nbsp; passar &#9744;&nbsp; &nbsp; parcial&nbsp; &#9744;falha 
 
 <table>
 <tr><th colspan="2">Destaques do teste </th></tr>

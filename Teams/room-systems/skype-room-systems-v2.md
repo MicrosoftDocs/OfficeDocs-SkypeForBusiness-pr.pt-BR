@@ -15,33 +15,60 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
+- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba mais sobre os recursos disponíveis em salas do Microsoft Teams. '
-ms.openlocfilehash: e4b68b287204abfae9c678f9497d3ac00bf42b4d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8112cdd11f5f5ca192da0780a6a316056e85063b
+ms.sourcegitcommit: c13bd343c3f3d14c7b8ff710ac5a4fec17ab88b7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305381"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "34859724"
 ---
-# <a name="microsoft-teams-rooms-licenses"></a>Suporte às Salas do Microsoft Teams
-<a name="bkmk_srs"> </a>
+# <a name="teams-meeting-room-licensing-update"></a>Atualização do licenciamento da sala de reunião do teams 
 
-A tabela a seguir lista os recursos dependentes de licenciamento que estão disponíveis nos salas do Microsoft Teams e quais licenças você precisa comprar para obtê-los.
+## <a name="licensing-solutions-for-shared-communication-devices"></a>Soluções de licenciamento para dispositivos de comunicação compartilhados
+
+A Microsoft tem e uma SKU dedicada para licenciamento de reuniões e chamadas em cada dispositivo para dispositivos de sala de reunião (como salas do Microsoft Teams e Microsoft Surface Hub).
+
+||SKU da sala da Microsoft |  
+|:--- |:---: |
+|Skype for Business |&#x2714;|
+|Microsoft Teams|  &#x2714;|
+|Sistemas de telefonia|  &#x2714;|
+|Audioconferência|&#x2714; &SUP1;|
+|Microsoft Intune|&#x2714;|  
+|Disponibilidade mundial | &#x2714; &sup2;|
+|Disponibilidade do canal | EA, EAS, CSP, <br>Web Direct |
+| | | |
+
+&SUP1; A disponibilidade e os minutos incluídos podem variar de acordo com a região. Para verificar a disponibilidade do serviço, confira a [disponibilidade de país e região para videoconferências e planos de chamada](http://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans). Tarifas de consumo podem ser aplicadas para serviços adicionais, como chamadas grátis, minutos internacionais para planos nacionais, etc. Os clientes podem desabilitar esses recursos para evitar cobrança adicional.  
+
+&sup2; Não disponível em nuvens soberana  
+
+
+> [!NOTE]
+> Se você estiver usando atualmente E1, E3, E4, E5 SKUs com o plano autônomo 1 do Skype for Business ou o plano 2 ou o Skype for Business plano 2 com videoconferência ou com o sistema telefônico do Office365 e um plano de chamadas, isso continuará funcionando. No entanto, você deve considerar mudar para um modelo de licenciamento mais simples na tabela acima após a expiração das licenças atuais.  
+
+A tabela a seguir lista os recursos que estão disponíveis nos quartos do Microsoft Teams e quais licenças você precisa comprar para obtê-los.
   
 > [!NOTE]
 > [!OBSERVAçãO] A sala que está sendo configurada precisa ser um objeto de usuário e ter essas licenças atribuídas a ele.
-> A nova licença da sala de reunião já está disponível no Office 365.
 
-|Cenário de salas do Microsoft Teams |No momento, você tem o Office 365 Premium, o Office 365 ProPlus ou o plano autônomo 2 do Skype for Business.  <br/> Veja o que precisa comprar:  |Atualmente você tem um plano Enterprise.  <br/> Veja o que precisa comprar: |Você tem o Skype for Business Server 2015 (no local ou híbrido). <br/> Veja o que precisa comprar:|
-|:-----|:-----|:-----|:-----|
-|Ingressar em uma reunião agendada.  |Skype for Business Plano Standalone 1 |E1, 3, 4 ou 5  |Skype for Business Server Standard CAL  |
-|Iniciar uma reunião ad hoc. |Skype for Business Plano Standalone 2 |E1, 3, 4 ou 5 |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
-|Inicie uma reunião ad hoc e disque de uma reunião para números de telefone. |Plano autônomo 2 do Skype for Business para conferência de áudio  <br/> **Observação:** Créditos de Comunicação são opcionais. |E1 ou E3 com conferência de áudio  <br/> OU  <br/> E5  <br/> |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL|
-|Dê à sala um número de telefone e faça ou receba uma chamada da sala ou ingresse em uma conferência de áudio usando um número de telefone.  |Skype for Business Autônomo Plano 2 com o Sistema de Telefonia Office 365 e um Plano de Chamadas  <br/> **Observação:** Créditos de Comunicação são opcionais.           |E1 ou E3 com o Sistema de Telefonia Office 365 e um Plano de Chamadas Office 365  <br/> OU  <br/> E5   |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
+|  | Você tem o Microsoft Teams ou o Skype for Business Online <br/> Veja o que precisa comprar:   |Você tem o Skype for Business Server 2015/2019 (local ou híbrido). <br/> Veja o que precisa comprar:|
+|:-----|:-----|:-----|
+|Ingressar em uma reunião agendada  | SKU da sala de reunião  |Skype for Business Server Standard CAL  |
+|Iniciar uma reunião ad hoc | SKU da sala de reunião  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
+|Iniciar uma reunião ad hoc e discar de uma reunião para números de telefone |  SKU da sala de reunião |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL|
+|Dê à sala um número de telefone e faça ou receba uma chamada da sala ou ingresse em uma conferência de áudio usando um número de telefone  | SKU da sala de reunião  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
+|Gerenciar o dispositivo da sala com o Microsoft Intune |SKU da sala de reunião  |Assinatura do Microsoft Intune com [MDM no local](https://docs.microsoft.com/sccm/mdm/plan-design/plan-on-premises-mdm) |
+| |||
 
- **Use a versão correta do Windows 10**: para clientes que desejam implantar imagens do Windows 10 em seus dispositivos, consulte [configurar um console de salas do Microsoft Teams](/Skypeforbusiness/deploy/deploy-clients/console.md).
+> [!NOTE]
+> Se você tiver licenças existentes atribuídas para sistemas de sala, elas continuarão a funcionar sem nenhuma interrupção. Você deve mover-se para usar o novo SKU da sala de reunião quando as licenças existentes expirarem.  
+
+ **Use a versão correta do Windows 10**: para clientes que desejam implantar imagens do Windows 10 em seus dispositivos, consulte [configurar um console de salas do Microsoft Teams](https://docs.microsoft.com/microsoftteams/room-systems/console). Você pode obter uma cópia do [centro de serviços](https://www.microsoft.com/Licensing/servicecenter/)de licenciamento por volume.

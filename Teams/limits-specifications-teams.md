@@ -3,7 +3,7 @@ title: Limites e especificações para o Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/07/2019
+ms.date: 06/10/2019
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: karuanag
@@ -15,12 +15,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59e4ea4a914b0877eebb0dfd07cf643a4ecf52d8
-ms.sourcegitcommit: 0278cfe7d5ec53e83df4d9c8b9afb0f425cbb9d2
+ms.openlocfilehash: 30e3a9de6a832753b8480733528a0db44f4f143b
+ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2019
-ms.locfileid: "34802611"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34857402"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -49,7 +49,6 @@ Este artigo descreve alguns dos limites, as especificações e outros requisitos
 |Recurso     | Limite máximo |
 |------------|---------------|
 |Número de pessoas em uma reunião  | 250    |
-|Número de pessoas em um chat privado  | 50    |
 
 ## <a name="storage"></a>SPS
 
@@ -67,7 +66,7 @@ Como as equipes são executadas em um back-end do SharePoint Online para compart
 |Armazenamento de arquivos do teams |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |Até 25 TB por conjunto de sites ou grupo |
 |Limite de carregamento de arquivos (por arquivo)    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
 
-Cada guia arquivos no Teams é executada em um back-end do SharePoint Online, portanto, os limites de armazenamento acima se aplicam a cada canal de uma equipe.
+Os canais são apoiados por pastas dentro do conjunto de sites do SharePoint Online criado para a equipe, portanto, as guias de arquivo em canais compartilham os limites de armazenamento da equipe a que pertencem.
 
 Para obter mais informações, consulte [limites do SharePoint Online](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 
@@ -77,15 +76,16 @@ Os usuários que participam de conversas que fazem parte da lista de chat no Mic
 
 A função de chat do Microsoft Teams funciona em um back-end do Microsoft Exchange, para que você possa aplicar os limites de mensagens do Exchange à função de chat no Microsoft Teams. Se os usuários quiserem enviar um email para um canal no Teams, eles usarão o endereço de email do canal. Quando um email faz parte de um canal, qualquer pessoa pode responder a ele para iniciar uma conversa. Aqui estão alguns dos limites aplicáveis para enviar emails para um canal. 
 
-|Recurso  |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
-|---------|---------|---------|---------|---------|
-|Limite de tamanho da mensagem&dagger;  |25 KB   |25 KB   |25 KB   |25 KB   |
-|Limite de anexos de arquivo&Dagger;  |254     |254     |254     |254    |
-|Limite de imagens embutidas&Dagger; |50   |50   |50   |50   |
+|Recurso  | Limite máximo  |
+|---------|---------|
+|Número de pessoas em um chat privado  | 100    |
+|Tamanho da mensagem&dagger;  |25 KB   |
+|Número de anexos de arquivo&Dagger;  |254     |
+|Número de imagens embutidas&Dagger; |50   |
 
 &dagger;Se a mensagem exceder esse limite, uma mensagem de visualização será gerada e o usuário será solicitado a exibir/baixar o email original do link fornecido.
 
-&Dagger;Se o número de anexos ou imagens exceder esse limite, a mensagem não será processada e um email NDR será enviado de volta para o remetente notificando sobre o erro.
+&Dagger;Se o número de anexos ou imagens exceder esse limite, a mensagem não será processada e um email de NDR será enviado de volta para o remetente notificando sobre o erro.
 
 > [!NOTE]
 > Os limites tamanho da mensagem, anexos de arquivo e imagens embutidas são iguais em todas as licenças do Office 365.

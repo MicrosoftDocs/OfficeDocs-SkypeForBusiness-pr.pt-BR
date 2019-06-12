@@ -73,40 +73,40 @@ Se o arquivo XML estiver mal formado (ou seja, um valor de variável for do tipo
 |Elemento|Tipo|Nível|Uso|
 |:--- |:--- |:--- |:--- |
 |\<SkypeSettings\>   |Contêiner para todos os elementos.   ||Obrigatório.   |
-| \<AutoScreenShare\>  |Boolean & # x2777;  |Primeiro & # x2776;  | Se verdadeiro, o compartilhamento automático de tela será habilitado.  |
-|\<HideMeetingName\>   |Boolean & # x2777;  |Primeiro & # x2776;  |Se verdadeiro, os nomes das reuniões ficarão ocultos.   |
-|\<UserAccount\>   |Contêiner   |Primeiro & # x2776;  |Contêiner para os parâmetros de credenciais.   O endereço de entrada, endereço do Exchange ou endereço de email geralmente é o mesmo, como RanierConf<span></span>@contoso. com.   |
-|\<SkypeMeetingsEnabled\>  |Boolean & # x2777;  |Primeiro & # x2776;  |Habilitado por padrão.   |
-|\<SkypeSignInAddress\>   |String & # x2778;  ||O nome de entrada da conta do dispositivo do Skype for Business no console.   |
-|\<ExchangeAddress\>   |String & # x2778;  ||O nome de entrada da conta do dispositivo do Exchange no console.   Se ExchangeAddress for omitido, SkypeSignInAddress não será reutilizado automaticamente.    |
-|\<DomainUsername\>   |String & # x2778;  ||O domínio e o nome do usuário do dispositivo de console, por exemplo, Seattle\RanierConf.   |
+| \<AutoScreenShare\>  |&#x2777; Boolean  |Primeiro &#x2776;  | Se verdadeiro, o compartilhamento automático de tela será habilitado.  |
+|\<HideMeetingName\>   |&#x2777; Boolean  |Primeiro &#x2776;  |Se verdadeiro, os nomes das reuniões ficarão ocultos.   |
+|\<UserAccount\>   |Contêiner   |Primeiro &#x2776;  |Contêiner para os parâmetros de credenciais.   O endereço de entrada, endereço do Exchange ou endereço de email geralmente é o mesmo, como RanierConf<span></span>@contoso. com.   |
+|\<SkypeMeetingsEnabled\>  |&#x2777; Boolean  |Primeiro &#x2776;  |Habilitado por padrão.   |
+|\<SkypeSignInAddress\>   |Cadeia de caracteres &#x2778;  ||O nome de entrada da conta do dispositivo do Skype for Business no console.   |
+|\<ExchangeAddress\>   |Cadeia de caracteres &#x2778;  ||O nome de entrada da conta do dispositivo do Exchange no console.   Se ExchangeAddress for omitido, SkypeSignInAddress não será reutilizado automaticamente.    |
+|\<DomainUsername\>   |Cadeia de caracteres &#x2778;  ||O domínio e o nome do usuário do dispositivo de console, por exemplo, Seattle\RanierConf.   |
 |\<Passe\>   |Cadeia de caracteres 3  || O parâmetro de senha é a mesma senha usada para entrar na conta do dispositivo do Skype for Business.   |
-| \<ConfigureDomain\>  |String & # x2778;  ||Você pode listar vários domínios, separados por vírgulas.   |
-|\<TeamsMeetingsEnabled\>   |Boolean & # x2777;  |Primeiro & # x2776;  |Desabilitado por padrão. <br/> <br/> O arquivo XML é considerado mal formado se ambos \<os\> SkypeMeetingsEnabled\<e\> TeamsMeetingsEnabled estiverem desativados, mas é aceitável ter ambas as configurações habilitadas ao mesmo tempo.   |
-|\<IsTeamsDefaultClient> |Boolean & # x2777;  |Primeiro & # x2776;  |Desabilitado por padrão. |
-|\<BluetoothAdvertisementEnabled> |Boolean & # x2777;  |Primeiro & # x2776;  |Habilitado por padrão. |
-|\<DualScreenMode\>  |Boolean & # x2777;  |Primeiro & # x2776;  |Se verdadeiro, o modo de tela dupla está habilitado. Caso contrário, o dispositivo usará o modo de tela única.   |
-|\<SendLogs\>   |Contêiner   |Primeiro & # x2776;  ||
-|\<EmailAddressForLogsAndFeedback\>   |String & # x2778;  ||Define um endereço de email opcional para o qual os logs podem ser enviados quando a janela "Enviar Comentários" for exibida.    |
-|\<SendLogsAndFeedback\>   |Boolean & # x2777;  || Se verdadeiro, os logs são enviados para o administrador. Se falso, somente os comentários são enviados para o administrador (e não os logs).  |
-| \<Dispositivos\>  |Contêiner   |Primeiro & # x2776;  | Os nomes dos dispositivos de áudio conectados nos elementos filho têm os mesmos valores listados no aplicativo Gerenciador de Dispositivos. A configuração pode conter um dispositivo que atualmente não existe no sistema, como um dispositivo de A/V que não está conectado ao console. A configuração seria mantida para o dispositivo correspondente.  |
-|\<MicrophoneForCommunication\>   |String & # x2778;  ||Define o microfone que será usado como dispositivo de gravação em uma conferência.   |
-|\<SpeakerForCommunication\>   |String & # x2778;  ||Dispositivo que deve ser usado como alto-falante para a conferência. Essa configuração é usada para definir o dispositivo alto-falante que será usado para ouvir o áudio de uma chamada.   |
-|\<Defaultspeakr\>   |String & # x2778;  ||Dispositivo que deve ser usado para executar o áudio de uma fonte de ingestão HDMI.    |
-| \<Temas\>  |Contêiner   |Primeiro & # x2776;  |Um dos recursos que podem ser aplicados usando um arquivo XML é um tema personalizado para a sua organização. Você poderá especificar um nome de tema, uma imagem de plano de fundo e uma cor.   |
-|\<ThemeName\>   |String & # x2778;  || Usado para identificar o tema no cliente. As opções de Nome do Tema são Padrão, um dos temas predefinidos fornecidos ou Personalizado. <br/>  Os nomes de temas personalizados sempre devem usar o nome *personalizado* . A interface do usuário do cliente pode ser definida no console como Padrão ou um dos predefinidos, mas a aplicação de um tema personalizado deve ser definida remotamente por um administrador. <br/>  Os temas predefinidos incluem:  <br/>  Padrão <br/>  Onda Azul <br/>  Floresta Digital <br/>  Apanhador de Sonhos <br/>  Suco de Lima <br/>  Pixel Perfeito <br/>  Mapa Rodoviário <br/>  Pôr do Sol <br/>  Para desabilitar o tema atual, use "nenhum tema" para o ThemeName.  |
-|\<CustomThemeImageUrl\>   |String & # x2778;  ||É obrigatória quando se usa um tema personalizado, caso contrário, opcional. Consulte a seção [imagens de tema personalizadas](xml-config-file.md#Themes) abaixo para obter mais detalhes sobre a imagem do tema personalizado.  |
+| \<ConfigureDomain\>  |Cadeia de caracteres &#x2778;  ||Você pode listar vários domínios, separados por vírgulas.   |
+|\<TeamsMeetingsEnabled\>   |&#x2777; Boolean  |Primeiro &#x2776;  |Desabilitado por padrão. <br/> <br/> O arquivo XML é considerado mal formado se ambos \<os\> SkypeMeetingsEnabled\<e\> TeamsMeetingsEnabled estiverem desativados, mas é aceitável ter ambas as configurações habilitadas ao mesmo tempo.   |
+|\<IsTeamsDefaultClient> |&#x2777; Boolean  |Primeiro &#x2776;  |Desabilitado por padrão. |
+|\<BluetoothAdvertisementEnabled> |&#x2777; Boolean  |Primeiro &#x2776;  |Habilitado por padrão. |
+|\<DualScreenMode\>  |&#x2777; Boolean  |Primeiro &#x2776;  |Se verdadeiro, o modo de tela dupla está habilitado. Caso contrário, o dispositivo usará o modo de tela única.   |
+|\<SendLogs\>   |Contêiner   |Primeiro &#x2776;  ||
+|\<EmailAddressForLogsAndFeedback\>   |Cadeia de caracteres &#x2778;  ||Define um endereço de email opcional para o qual os logs podem ser enviados quando a janela "Enviar Comentários" for exibida.    |
+|\<SendLogsAndFeedback\>   |&#x2777; Boolean  || Se verdadeiro, os logs são enviados para o administrador. Se falso, somente os comentários são enviados para o administrador (e não os logs).  |
+| \<Dispositivos\>  |Contêiner   |Primeiro &#x2776;  | Os nomes dos dispositivos de áudio conectados nos elementos filho têm os mesmos valores listados no aplicativo Gerenciador de Dispositivos. A configuração pode conter um dispositivo que atualmente não existe no sistema, como um dispositivo de A/V que não está conectado ao console. A configuração seria mantida para o dispositivo correspondente.  |
+|\<MicrophoneForCommunication\>   |Cadeia de caracteres &#x2778;  ||Define o microfone que será usado como dispositivo de gravação em uma conferência.   |
+|\<SpeakerForCommunication\>   |Cadeia de caracteres &#x2778;  ||Dispositivo que deve ser usado como alto-falante para a conferência. Essa configuração é usada para definir o dispositivo alto-falante que será usado para ouvir o áudio de uma chamada.   |
+|\<Defaultspeakr\>   |Cadeia de caracteres &#x2778;  ||Dispositivo que deve ser usado para executar o áudio de uma fonte de ingestão HDMI.    |
+| \<Temas\>  |Contêiner   |Primeiro &#x2776;  |Um dos recursos que podem ser aplicados usando um arquivo XML é um tema personalizado para a sua organização. Você poderá especificar um nome de tema, uma imagem de plano de fundo e uma cor.   |
+|\<ThemeName\>   |Cadeia de caracteres &#x2778;  || Usado para identificar o tema no cliente. As opções de Nome do Tema são Padrão, um dos temas predefinidos fornecidos ou Personalizado. <br/>  Os nomes de temas personalizados sempre devem usar o nome *personalizado* . A interface do usuário do cliente pode ser definida no console como Padrão ou um dos predefinidos, mas a aplicação de um tema personalizado deve ser definida remotamente por um administrador. <br/>  Os temas predefinidos incluem:  <br/>  Padrão <br/>  Onda Azul <br/>  Floresta Digital <br/>  Apanhador de Sonhos <br/>  Suco de Lima <br/>  Pixel Perfeito <br/>  Mapa Rodoviário <br/>  Pôr do Sol <br/>  Para desabilitar o tema atual, use "nenhum tema" para o ThemeName.  |
+|\<CustomThemeImageUrl\>   |Cadeia de caracteres &#x2778;  ||É obrigatória quando se usa um tema personalizado, caso contrário, opcional. Consulte a seção [imagens de tema personalizadas](xml-config-file.md#Themes) abaixo para obter mais detalhes sobre a imagem do tema personalizado.  |
 |\<CustomThemeColor\>   |Contêiner   ||Contêiner para os \<valores\>RedComponent \<,\>GreenComponent e \<BlueComponent\> . Esses valores são obrigatórios ao usar um tema personalizado.   |
 |\<RedComponent\>   |Byte (0-255)   ||Representa o componente da cor vermelha.   |
 |\<GreenComponent\>   |Byte (0-255)   ||Representa o componente da cor verde.   |
 |\<BlueComponent\>   |Byte (0-255)   ||Representa o componente da cor azul.   |
 | | | |
    
-&#x2776; Todos os elementos de primeiro nível são opcionais. Se um elemento de primeiro nível for omitido, todos os seus parâmetros filho permanecerão inalterados no dispositivo.
+&#x2776; todos os elementos de primeiro nível são opcionais. Se um elemento de primeiro nível for omitido, todos os seus parâmetros filho permanecerão inalterados no dispositivo.
   
-&#x2777; Um sinalizador booliano pode ser qualquer um dos seguintes: true, false, 0 ou 1. Os valores boolianos ou numéricos deixados vazios podem fazer com que o XML fique defeituoso, então as configurações não seriam alteradas.
+&#x2777; um sinalizador booliano pode ser qualquer um destes: true, false, 0 ou 1. Os valores boolianos ou numéricos deixados vazios podem fazer com que o XML fique defeituoso, então as configurações não seriam alteradas.
   
- &#x2778; Se um parâmetro de cadeia de caracteres estiver presente, vazio e vazio for um valor válido, o parâmetro será limpo no dispositivo.
+ &#x2778; se um parâmetro de cadeia de caracteres estiver presente, vazio e vazio for um valor válido, o parâmetro será limpo no dispositivo.
   
 ## <a name="manage-console-settings-using-an-xml-configuration-file"></a>Gerenciar as configurações do console usando um arquivo de configuração XML
 

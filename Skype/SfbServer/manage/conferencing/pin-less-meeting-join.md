@@ -21,7 +21,7 @@ ms.locfileid: "34280380"
  
 **Resumo:** Saiba como configurar a opção de junção de reunião sem PIN no Skype for Business Server.
   
-Quando um chamador de discagem tenta ingressar em uma reunião, o serviço de atendedor automático da conferência (CAA) coloca o chamador em uma caneta segurando diferente da & de lobby x2014; se um apresentador ainda não estiver em uma chamada, e o chamador de discagem não inseriu um pino líder. A opção de ingresso na reunião sem o PIN permite a participação na reunião discada dos chamadores sem inserir PIN de líder, mesmo se eles forem a primeira pessoa que da chamada. 
+Quando um chamador de discagem tenta ingressar em uma reunião, o serviço de atendedor automático da conferência (CAA) coloca o chamador em uma caneta segurando diferente da &#x2014; de lobby se um apresentador ainda não estiver em uma chamada, e o chamador de discagem não inseriu um pino principal. A opção de ingresso na reunião sem o PIN permite a participação na reunião discada dos chamadores sem inserir PIN de líder, mesmo se eles forem a primeira pessoa que da chamada. 
   
 Lembre-se do seguinte ao configurar esse recurso:
   

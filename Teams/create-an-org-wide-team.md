@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bb614de33f532dcf26d7522969911c46331297a
-ms.sourcegitcommit: 0278cfe7d5ec53e83df4d9c8b9afb0f425cbb9d2
+ms.openlocfilehash: ff59a1973b3a77ec38a2e8da6ef065e221892139
+ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/08/2019
-ms.locfileid: "34802642"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34857503"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Criar uma equipe englobando toda a organização no Microsoft Teams
 
@@ -29,7 +29,7 @@ Com as equipes de toda a organização, os administradores globais podem criar f
 
 ![Captura de tela da opção de toda a organização para criar uma equipe de toda a organização] (media/create-org-wide-team.png "Captura de tela da opção de toda a organização para criar uma equipe de toda a organização")
 
-Quando uma equipe de toda a organização é criada, todos os administradores globais são adicionados como proprietários da equipe e todos os usuários ativos são adicionados como membros da equipe. Os usuários não licenciados também são adicionados à equipe. Na primeira vez que um usuário não licenciado entrar no Microsoft Teams, ele receberá uma licença de avaliação de nuvem comercial do Microsoft Teams. Para saber mais sobre a licença de avaliação, confira [gerenciar a oferta de avaliação de nuvem comercial do teams](iw-trial-teams.md). Os usuários que estão desabilitados para equipes, usuários convidados e a maioria das salas não são adicionados à equipe. 
+Quando uma equipe de toda a organização é criada, todos os administradores globais são adicionados como proprietários da equipe e todos os usuários ativos são adicionados como membros da equipe. Os usuários não licenciados também são adicionados à equipe. Na primeira vez que um usuário não licenciado entrar no Microsoft Teams, ele receberá uma licença de avaliação de nuvem comercial do Microsoft Teams. Para saber mais sobre a licença de avaliação, confira [gerenciar a oferta de avaliação de nuvem comercial do teams](iw-trial-teams.md). Esses tipos de contas não serão adicionados à sua equipe de toda a organização: contas que são bloqueadas de entrada, usuários convidados, contas de serviço, contas de salas ou equipamentos ou contas apoiadas por uma caixa de correio compartilhada.
 
 Como o diretório de sua organização é atualizado para incluir novos usuários ativos ou se os usuários não funcionarem mais em sua empresa e a licença do teams estiver desativada, as alterações serão sincronizadas automaticamente e os usuários serão adicionados ou removidos da equipe. Os membros da equipe não podem sair de uma equipe de toda a organização. Como proprietário da equipe, você pode adicionar ou remover usuários manualmente, se necessário.
 

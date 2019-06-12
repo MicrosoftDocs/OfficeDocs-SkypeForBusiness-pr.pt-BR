@@ -222,7 +222,7 @@ Você precisa identificar riscos empresariais como parte deste exercício e defi
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Pontos de decisão|<ul><li>Quais são seus organization& # 39; s OKRs e KSIs?</li><li>Quais riscos você identificou relevantes para a implementação da conferência de áudio em sua organização? Quais são os planos de mitigação para os riscos identificados?</li><li>Quais riscos você identificou relevantes para a implementação de planos de chamada em sua organização? Quais são os planos de mitigação para os riscos identificados?</li><li>Quais riscos você identificou relevantes para a implementação de roteamento direto na sua organização? Quais são os planos de mitigação para os riscos identificados?</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Pontos de decisão|<ul><li>Quais são a sua organização&#39;s OKRs e KSIs?</li><li>Quais riscos você identificou relevantes para a implementação da conferência de áudio em sua organização? Quais são os planos de mitigação para os riscos identificados?</li><li>Quais riscos você identificou relevantes para a implementação de planos de chamada em sua organização? Quais são os planos de mitigação para os riscos identificados?</li><li>Quais riscos você identificou relevantes para a implementação de roteamento direto na sua organização? Quais são os planos de mitigação para os riscos identificados?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Próximas etapas|<ul><li>Documente o OKRs e o KSIs e estabeleça o registro de riscos.</li></ul>|
 
 <!--ENDOFSECTION-->

@@ -1,26 +1,55 @@
-﻿---
-title: 'Lync Server 2013: Configurand Servidores e pools Front-End'
-TOCTitle: Configurand Servidores e pools Front-End
-ms:assetid: c88526f9-69e2-47dd-b3d7-056139d74fb2
-ms:mtpsurl: https://technet.microsoft.com/pt-br/library/Gg398827(v=OCS.15)
-ms:contentKeyID: 49308093
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurand Servidores e pools Front-End'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Setting up Front End Servers and Front End pools
+ms:assetid: c88526f9-69e2-47dd-b3d7-056139d74fb2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398827(v=OCS.15)
+ms:contentKeyID: 48185381
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ab21e5933623af58834d3b9effa5ba1e2beecc43
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34844966"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurand Servidores e pools Front-End para Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Tópico modificado em:** 2012-10-01_
+# <a name="setting-up-front-end-servers-and-front-end-pools-for-lync-server-2013"></a>Configurand Servidores e pools Front-End para Lync Server 2013
 
-Esta seção guia você pela instalação do Lync Server 2013 e configuração das funções do servidor para o Servidor Standard Edition e o Pool de Front-Ends, incluindo o Servidores Front-End e qualquer função do servidor posicionados com o Servidores Front-End. Para instalar e configurar as funções do servidor, execute o Assistente de Implantação do Lync Server em cada computador no qual você está instalando uma função do servidor. Você usa o Assistente de Implantação para concluir todas as quatro etapas de implantação, incluindo a instalação do repositório de Configuração Local, instalando o Servidores Front-End, configurando certificados e iniciando serviços.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Tópico da última modificação:** 2012-10-01_
+
+Esta seção orienta você na instalação do Lync Server 2013 e na configuração das funções de servidor para o servidor Standard Edition e o pool de front-ends, incluindo os servidores de front-end e todas as funções de servidor posicionadas com os servidores front-end. Para instalar e configurar funções de servidor, execute o assistente de implantação do Lync Server em cada computador em que você está instalando uma função de servidor. Você usará o Assistente de Implantação para completar as quatro etapas de implantação (instalação do repositório de configuração local, instalação dos servidores front-end, configuração dos certificados e inicialização dos serviços).
+
+<div>
+
 
 > [!NOTE]  
-> Antes de poder configurar as funções de servidor, é necessário ter publicado com êxito uma topologia. Para obter detalhes sobre como publicar uma topologia, consulte <a href="lync-server-2013-finalizing-and-implementing-the-topology-design.md">Concluindo e implementando o design da topologia no Lync Server 2013</a>.
+> Antes de poder configurar funções de servidor, você deve ter publicado uma topologia com êxito. Para obter detalhes sobre como publicar uma topologia, consulte <A href="lync-server-2013-finalizing-and-implementing-the-topology-design.md">finalizar e implementar o design de topologia no Lync Server 2013</A>.
 
-## Nesta seção
+
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>Nesta seção
 
   - [Instalar o repositório de Configuração Local no Lync Server 2013](lync-server-2013-install-the-local-configuration-store.md)
 
@@ -33,4 +62,16 @@ Esta seção guia você pela instalação do Lync Server 2013 e configuração d
   - [Testar a implantação de pool no Lync Server 2013](lync-server-2013-test-the-pool-deployment.md)
 
   - [Testar o servidor de Edição Padrão no Lync Server 2013](lync-server-2013-test-the-standard-edition-server.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
