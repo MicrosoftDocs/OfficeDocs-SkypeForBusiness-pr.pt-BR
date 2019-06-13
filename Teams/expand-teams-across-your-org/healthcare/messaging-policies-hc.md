@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Introdução às Mensagens Seguras para Organizações de Saúde
-ms.openlocfilehash: 167021c475edd760bf9b56d550616ebb199f2fb5
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+ms.openlocfilehash: da9bc348a52cf8e4ceacdec36594c81386186c0e
+ms.sourcegitcommit: f5b6270e64752298687a1abff49da58acde8e107
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34681901"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "34912860"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Introdução às Mensagens Seguras para Organizações de Saúde
 
@@ -38,12 +38,9 @@ As configurações a seguir são de interesse especial para aplicativos de saúd
 
 ## <a name="read-receipts"></a>Confirmações de leitura
 
-- ![O ícone do número 1, fazendo referência a um texto explicativo](../../media/sfbcallout1.png) nas confirmações de leitura anteriores da captura de tela, as confirmações de leitura permite que o remetente de uma mensagem de chat saiba quando a mensagem foi lida pelo destinatário. **** Use essa configuração para especificar se as confirmações de leitura são controladas pelo usuário, habilitadas para todos ou desabilitadas para todos. As confirmações de leitura de mensagens são importantes em organizações de assistência médica porque elas se removem de forma indeterminada sobre se uma mensagem foi lida.
+- ![Ícone do número 1, fazendo referência a um texto explicativo nas](../../media/sfbcallout1.png) **** confirmações de leitura prévias da captura de tela, as confirmações de leitura permitem que o remetente de uma mensagem de chat saiba quando a mensagem foi lida pelo destinatário no 1:1 e chats em grupo 20 pessoas ou menos. Use esta configuração para especificar se as confirmações de leitura são controladas pelo usuário, ativadas para todos ou desativadas para todos. As confirmações de leitura de mensagens são importantes em organizações de assistência médica porque elas se removem de forma indeterminada sobre se uma mensagem foi lida.
 
-  Para aplicativos de assistência médica, escolha **controlado pelo usuário** ou **habilitado para todos**. Lembre-se de que, ao usar a configuração **habilitado para todos** , a única maneira de definir confirmações para o locatário inteiro é ter apenas uma política de mensagens para todo o locatário (a política padrão nomeada "global (padrão para toda a organização)") ou para ter todas as mensagens as políticas no locatário usam as mesmas configurações para recibos.
-
-  > [!NOTE]
-  > Quando as confirmações de leitura são usadas em um chat em grupo grande (com mais de 100 usuários, por exemplo), as mensagens de recebimento podem sobrecarregar as mensagens reais e levar à frustração do usuário de chat. Isso é algo que você precisará para fazer com que os usuários se reconheçam. Um chat em grupo menor (talvez 20 usuários ou menos) faz melhor uso desse recurso.
+  Para aplicativos de saúde, escolha o **usuário controlado** ou **ativado para todos**. Lembre-se de que, ao usar a configuração **ativado para todos** , a única maneira de definir confirmações para o locatário inteiro é ter apenas uma política de mensagens para todo o locatário (a política padrão nomeada "global (padrão para toda a organização)") ou para ter todas as políticas de mensagens o locatário usa as mesmas configurações para recibos. O recurso confirmações de leitura é mais eficaz quando o recurso está habilitado para **ativado para todos**.
 
     *Exemplo de uso sem confirmações de leitura:* Jakob Roth, um paciente de alto risco, é admitido para o hospital.Sófia Krause é um enfermeira que trabalha como parte da equipe inter-disciplinara (IDT) de funcionários médicos, incluindo especialistas diferentes, é atribuído como o principal coordenador responsável por este paciente.  Sófia envia emails e outras mensagens de chat para um grupo de perenção e médicos que usam uma variedade de clientes e aplicativos de mensagens e, muitas vezes, não recebem resposta nem indica se uma mensagem foi lida pelos membros da equipe. Devido a processos de comunicação tangled, o medicação de Jakob é aplicado indevido e seu hospital permanecerá estendido.
 

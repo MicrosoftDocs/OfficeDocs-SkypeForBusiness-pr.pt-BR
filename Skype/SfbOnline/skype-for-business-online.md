@@ -56,7 +56,7 @@ Saiba como gerenciar o Skype for Business Online em sua organização.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>We& #39; re aqui para ajudar a</h3>
+                        <h3>&#39;mos a reformulação para ajudar</h3>
                     </div>
                 </div>
             </div>
@@ -121,7 +121,7 @@ Saiba como gerenciar o Skype for Business Online em sua organização.
 
 ---
 
-<h2>What& #39; s novo</h2>
+<h2>O que&#39;s novo</h2>
 
 <ul class="panelContent cardsF">
     <li>
@@ -134,7 +134,7 @@ Saiba como gerenciar o Skype for Business Online em sua organização.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Artigos</h3>
+                        <h3>Sobre</h3>
                         <p><a 
                         href="/microsoftteams/setting-up-your-phone-system">Configurar o Sistema de Telefonia na sua organização</a></p>
                         <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">Integração de terceiros com a Audioconferência</a></p>
@@ -238,7 +238,7 @@ Saiba como gerenciar o Skype for Business Online em sua organização.
                 <div class="card">
                     <div class="cardText">
                         <h3>Sistema de Telefonia</h3>
-                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">O que é o Sistema de Telefonia no Office 365?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Here& #39; s é obtido com o sistema telefônico no Office 365</a></p>
+                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">O que é o Sistema de Telefonia no Office 365?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Aqui&#39;s o que você obtém com o sistema telefônico no Office 365</a></p>
                </div>
                 </div>
             </div>

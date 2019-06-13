@@ -7,15 +7,15 @@ TOCTitle: Lync Web App supported platforms
 ms:assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425820(v=OCS.15)
 ms:contentKeyID: 48183808
-ms.date: 02/07/2017
+ms.date: 06/12/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 442e00cfe36aa94eb1d2306a67707485b4859910
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e2713bfee0397c455407d0dc277851b5588fa774
+ms.sourcegitcommit: f5b6270e64752298687a1abff49da58acde8e107
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828919"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "34912837"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -75,10 +75,10 @@ Para usar o Lync Web App, você deve ter uma das seguintes combinações de sist
 <td><p>Internet Explorer 10 de 64 bits</p></td>
 <td><p>Internet Explorer 9 de 32 bits</p></td>
 <td><p>Internet Explorer 9 de 64 bits</p></td>
-<td><p>Firefox 32 bits</p></td>
-<td><p>Firefox 64 bits</p></td>
+<td><p>Firefox 32-bit<sup>4</sup></p></td>
+<td><p>Firefox 64-bit<sup>4</sup></p></td>
 <td><p>Safari</p></td>
-<td><p>Janelas</p></td>
+<td><p>Chrome<sup>4</sup></p></td>
 </tr>
 <tr class="even">
 <td><p>Windows 10</p></td>
@@ -88,98 +88,100 @@ Para usar o Lync Web App, você deve ter uma das seguintes combinações de sist
 <td><p>N/D</p></td>
 <td><p>N/D</p></td>
 <td><p>N/D</p></td>
-<td><p>Sim</p></td>
 <td><p>Não</p></td>
-<td><p>N/D</p></td>
-<td><p>Sim</p></td>
-</tr>
-<tr class="odd">
-<td><p>Windows 8,11</p></td>
-<td><p>N/D</p></td>
-<td><p>Sim</p></td>
-<td><p>N/D</p></td>
-<td><p>N/D</p></td>
-<td><p>N/D</p></td>
-<td><p>N/D</p></td>
-<td><p>Sim</p></td>
-<td><p>Não</p></td>
-<td><p>N/D</p></td>
-<td><p>Sim</p></td>
-</tr>
-<tr class="even">
-<td><p>Windows 8 (baseado em Intel) 1</p></td>
-<td><p>N/D</p></td>
-<td><p>N/D</p></td>
-<td><p>Sim</p></td>
-<td><p>Sim</p></td>
-<td><p>N/D</p></td>
-<td><p>N/D</p></td>
-<td><p>Sim</p></td>
-<td><p>Não</p></td>
-<td><p>N/D</p></td>
-<td><p>Sim</p></td>
-</tr>
-<tr class="odd">
-<td><p>Windows 7 com SP12</p></td>
-<td><p>N/D</p></td>
-<td><p>Sim</p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
-<td><p>Não</p></td>
-<td><p>N/D</p></td>
-<td><p>Não</p></td>
-</tr>
-<tr class="even">
-<td><p>Windows Server 2008 R2 com SP12</p></td>
-<td><p>N/D</p></td>
-<td><p>Sim</p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
 <td><p>Não</p></td>
 <td><p>N/D</p></td>
 <td><p>Não</p></td>
 </tr>
 <tr class="odd">
-<td><p>Windows Server 2008 com SP23</p></td>
+<td><p>Windows 8,1<sup>1</sup></p></td>
 <td><p>N/D</p></td>
 <td><p>Sim</p></td>
-<td><p>Sim </p></td>
+<td><p>N/D</p></td>
+<td><p>N/D</p></td>
+<td><p>N/D</p></td>
+<td><p>N/D</p></td>
 <td><p>Não</p></td>
-<td><p>Sim</p></td>
-<td><p>Não</p></td>
-<td><p>Sim</p></td>
 <td><p>Não</p></td>
 <td><p>N/D</p></td>
 <td><p>Não</p></td>
 </tr>
 <tr class="even">
-<td><p>Mac OS X 10,7 e posterior (baseado em Intel) 2</p></td>
-<td><p>N/D</p></td>
-<td><p>N/D</p></td>
-<td><p>N/D</p></td>
-<td><p>N/D</p></td>
+<td><p>Windows 8 (baseado em Intel)<sup>1</sup></p></td>
 <td><p>N/D</p></td>
 <td><p>N/D</p></td>
 <td><p>Sim</p></td>
+<td><p>Sim</p></td>
+<td><p>N/D</p></td>
+<td><p>N/D</p></td>
 <td><p>Não</p></td>
+<td><p>Não</p></td>
+<td><p>N/D</p></td>
+<td><p>Não</p></td>
+</tr>
+<tr class="odd">
+<td><p>Windows 7 com SP1<sup>2</sup></p></td>
+<td><p>N/D</p></td>
+<td><p>Sim</p></td>
 <td><p>Sim </p></td>
 <td><p>Sim </p></td>
+<td><p>Sim </p></td>
+<td><p>Sim </p></td>
+<td><p>Não</p></td>
+<td><p>Não</p></td>
+<td><p>N/D</p></td>
+<td><p>Não</p></td>
+</tr>
+<tr class="even">
+<td><p>Windows Server 2008 R2 com SP1<sup>2</sup></p></td>
+<td><p>N/D</p></td>
+<td><p>Sim</p></td>
+<td><p>Sim </p></td>
+<td><p>Sim </p></td>
+<td><p>Sim </p></td>
+<td><p>Sim </p></td>
+<td><p>Não</p></td>
+<td><p>Não</p></td>
+<td><p>N/D</p></td>
+<td><p>Não</p></td>
+</tr>
+<tr class="odd">
+<td><p>Windows Server 2008 com SP2<sup>3</sup></p></td>
+<td><p>N/D</p></td>
+<td><p>Sim</p></td>
+<td><p>Sim </p></td>
+<td><p>Não</p></td>
+<td><p>Sim</p></td>
+<td><p>Não</p></td>
+<td><p>Não</p></td>
+<td><p>Não</p></td>
+<td><p>N/D</p></td>
+<td><p>Não</p></td>
+</tr>
+<tr class="even">
+<td><p>Mac OS X 10,7 e posterior (baseado em Intel)<sup>2</sup></p></td>
+<td><p>N/D</p></td>
+<td><p>N/D</p></td>
+<td><p>N/D</p></td>
+<td><p>N/D</p></td>
+<td><p>N/D</p></td>
+<td><p>N/D</p></td>
+<td><p>Não</p></td>
+<td><p>Não</p></td>
+<td><p>Sim</p></td>
+<td><p>Não</p></td>
 </tr>
 </tbody>
 </table>
 
 
-1 no Windows 8 e no Windows 8,1, o plug-in necessário para usar áudio baseado em computador, vídeo, visualização de aplicativos, compartilhamento de aplicativos, visualização na área de trabalho e compartilhamento de área de trabalho pode ser instalado apenas se você estiver executando o Internet Explorer 10 ou o Internet Explorer 11 para o Desktop. Esses recursos não estão disponíveis para versões não relacionadas à área de trabalho do Internet Explorer 10 ou Internet Explorer 11.
+<sup>1</sup> no Windows 8 e no Windows 8,1, o plug-in necessário para usar áudio baseado em computador, vídeo, visualização de aplicativos, compartilhamento de aplicativos, visualização na área de trabalho e compartilhamento de área de trabalho pode ser instalado apenas se você estiver executando o Internet Explorer 10 ou o Internet Explorer 11 para a área de trabalho. Esses recursos não estão disponíveis para versões não relacionadas à área de trabalho do Internet Explorer 10 ou Internet Explorer 11.
 
-2 em sistemas operacionais Windows 7, Windows Server 2008 R2 e Macintosh compatíveis, todos os recursos estão disponíveis, incluindo voz baseada em computador, vídeo, visualização de aplicativos, compartilhamento de aplicativos, exibição na área de trabalho e compartilhamento de área de trabalho. Para usar esses recursos, é preciso instalar o plug-in assim que for solicitado. Observe que o Mac OS X versão 10,6 não tem mais suporte.
+<sup>2</sup> em sistemas operacionais Windows 7, windows Server 2008 R2 e Macintosh compatíveis, todos os recursos estão disponíveis, incluindo voz baseada em computador, vídeo, visualização de aplicativos, compartilhamento de aplicativos, exibição na área de trabalho e compartilhamento de área de trabalho. Para usar esses recursos, é preciso instalar o plug-in assim que for solicitado. Observe que o Mac OS X versão 10,6 não tem mais suporte.
 
-3 em sistemas operacionais Windows Server 2008 com suporte, voz e vídeo baseados no computador não estão disponíveis. A visualização e o compartilhamento de aplicativos, e a visualização e o compartilhamento de área de trabalho estão disponíveis.
+<sup>3</sup> em sistemas operacionais Windows Server 2008 com suporte, voz e vídeo baseados no computador não estão disponíveis. A visualização e o compartilhamento de aplicativos, e a visualização e o compartilhamento de área de trabalho estão disponíveis.
+
+<sup>4</sup> o plug-in requer suporte para NPAPI no navegador. O Firefox removeu o suporte para NPAPI na versão 52,0, e o Chrome retirou o suporte na versão 45, portanto, esses navegadores não têm mais suporte em suas versões atuais.
 
 </div>
 

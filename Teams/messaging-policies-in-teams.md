@@ -16,19 +16,18 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Saiba mais sobre as políticas de mensagens e como elas podem ser usadas para controlar as mensagens de chat no Microsoft Teams.
-ms.openlocfilehash: 5b86f0790bc1e212126429afcfe030239c8e956c
-ms.sourcegitcommit: b9e7a11d8332a029a4f1cd4e396787f5a74f0a44
+ms.openlocfilehash: dd636a0c8ab3b8acdad55e64e2460dcd87e38253
+ms.sourcegitcommit: f5b6270e64752298687a1abff49da58acde8e107
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34702700"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "34912852"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gerenciar políticas de mensagens no Teams
 
 <!--- Add zone marker here--->
 
 As políticas de mensagens são usadas para controlar quais recursos de chat e mensagens de canal estão disponíveis para os usuários do Microsoft Teams. Você pode usar a política padrão criada automaticamente ou criar uma ou mais políticas de mensagens personalizadas para as pessoas em sua organização. Depois de criar uma política, você pode atribuí-la a um usuário ou grupo de usuários em sua organização.
-
 Por padrão, uma política chamada global (padrão para toda a organização) é criada. Por padrão, todos os usuários de sua organização serão atribuídos a essa política de serviço. Você pode fazer alterações nessa política ou criar uma ou mais políticas personalizadas e atribuir usuários a elas. Quando você cria uma política personalizada, pode permitir ou impedir que determinados recursos sejam disponibilizados para seus usuários e, em seguida, atribuí-los a um ou mais usuários que precisarão das configurações aplicadas a eles. 
 
 ## <a name="change-or-create-a-messaging-policy"></a>Alterar ou criar uma política de mensagens
@@ -72,7 +71,10 @@ Use as configurações a seguir para alterar a política de mensagens globais ou
 - Os **proprietários podem excluir mensagens enviadas**  Use esta configuração para permitir que os proprietários excluam mensagens que os usuários enviaram no chat.
 - **Os usuários podem excluir mensagens enviadas** Use essa configuração para permitir que os usuários excluam mensagens enviadas por chat.
 - **Os usuários podem editar mensagens enviadas** Use esta configuração para permitir que os usuários editem as mensagens que enviaram no chat.
-- Confirmações de **leitura** Use esta configuração para especificar se as confirmações de leitura são controladas pelo usuário, habilitadas para todos ou desabilitadas.
+- Confirmações de **leitura** Use esta configuração para especificar se as confirmações de leitura são controladas pelo usuário, ativadas para todos ou desativadas para todos. A configuração padrão é controlado pelo usuário. 
+    - **Controlado pelo usuário** Isso significa que os usuários podem decidir se desejam ativar ou desativar as confirmações de leitura. A configuração padrão dentro do aplicativo está ATIVAda. Os usuários podem então desativá-lo.
+    - **Ativado para todos** Isso significa que todos no locatário terão o recurso ativado sem opção para desativá-lo. 
+    - **Desativado para todos** Isso significa que o recurso está desativado e ninguém no locatário tem recibos de leitura nem pode ativá-lo. 
 <a name="bkchat"> </a>
 
 - **Chat**  Ative essa configuração se quiser que os usuários em sua organização possam usar o aplicativo Teams para conversar com outras pessoas.

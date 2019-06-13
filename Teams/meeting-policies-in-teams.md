@@ -21,12 +21,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Saiba como gerenciar as configurações de política de reunião no Teams.
-ms.openlocfilehash: b6ab6674da7212f14e7315a34cced60fcabe3e1f
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: bdad8f852855c8f87eb62851ddc3082026bcc0ed
+ms.sourcegitcommit: f5b6270e64752298687a1abff49da58acde8e107
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433251"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "34912868"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
@@ -135,7 +135,7 @@ Observe que, se você desativar a opção **permitir reuniões privadas de agend
 
 <a name="bkaudioandvideo"> </a>
 
-## <a name="meeting-policy-settings---audio--video"></a>Configurações da política de reunião-vídeo de & de áudio
+## <a name="meeting-policy-settings---audio--video"></a>Configurações da política de reunião-áudio & vídeo
 
 - [Permitir transcrição](#allow-transcription)
 - [Permitir gravação na nuvem](#allow-cloud-recording)
@@ -192,7 +192,7 @@ Se Daniela chama Amanda com vídeo ativado, o Amanda pode atender a chamada some
 
 ### <a name="media-bit-rate-kbs"></a>Taxa de bits de mídia (KBs)
 
-Esta é uma política por organizador. Essa configuração determina a taxa de bits de mídia para transmissões de compartilhamento de áudio, vídeo e aplicativos baseados em vídeo em chamadas e reuniões para o usuário. Ela é aplicada à passagem de mídia uplink e de downlink para usuários na chamada ou reunião. Essa configuração lhe dá controle granular sobre o gerenciamento da largura de banda em sua organização. Dependendo dos cenários de reuniões exigidos pelos usuários, recomendamos ter largura de banda suficiente para ter uma boa experiência de qualidade. O valor mínimo é de 30 kbps e o valor máximo depende do cenário da reunião. Para saber mais sobre a largura de banda mínima recomendada para reuniões de boa qualidade, chamadas e eventos dinâmicos no Teams, consulte [requisitos de largura de banda](prepare-network.md#bandwidth-requirements).
+Esta é uma política por usuário. Essa configuração determina a taxa de bits de mídia para transmissões de compartilhamento de áudio, vídeo e aplicativos baseados em vídeo em chamadas e reuniões para o usuário. Ela é aplicada à passagem de mídia uplink e de downlink para usuários na chamada ou reunião. Essa configuração lhe dá controle granular sobre o gerenciamento da largura de banda em sua organização. Dependendo dos cenários de reuniões exigidos pelos usuários, recomendamos ter largura de banda suficiente para ter uma boa experiência de qualidade. O valor mínimo é de 30 kbps e o valor máximo depende do cenário da reunião. Para saber mais sobre a largura de banda mínima recomendada para reuniões de boa qualidade, chamadas e eventos dinâmicos no Teams, consulte [requisitos de largura de banda](prepare-network.md#bandwidth-requirements).
 
 Se não houver largura de banda suficiente para uma reunião, os participantes verão uma mensagem indicando uma qualidade de rede ruim.
 
@@ -312,7 +312,7 @@ Esta é uma política por organizador. Esta configuração controla se o chat da
 
 <a name="bkparticipantsandguests"> </a>
 
-## <a name="meeting-policy-settings---participants--guests"></a>Configurações da política de reunião – participantes & convidados
+## <a name="meeting-policy-settings---participants--guests"></a>Configurações de política de reunião-participantes & convidados
 
 Essas configurações controlam quais participantes da reunião aguardam no lobby antes de serem admitidos para a reunião e o nível de participação que eles são permitidos em uma reunião.
 
@@ -320,6 +320,9 @@ Essas configurações controlam quais participantes da reunião aguardam no lobb
 - [Permitir que pessoas anônimas iniciem uma reunião](#allow-anonymous-people-to-start-a-meeting)
 - [Permitir que os usuários de discagem ignorem o lobby](#allow-dial-in-users-to-bypass-the-lobby-coming-soon)
 - [Permitir que os organizadores substituam as configurações de lobby](#allow-organizers-to-override-lobby-settings-coming-soon)
+
+> [!NOTE]
+>As opções para ingressar em uma reunião irão variar, dependendo das configurações de cada grupo de equipe e do método de conexão. Se o seu grupo tiver videoconferência e o usar para se conectar, consulte [videoconferência no Office 365](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). Se o grupo Teams não tiver videoconferências, consulte [ingressar em uma reunião no Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
 ### <a name="automatically-admit-people"></a>Admitir pessoas automaticamente
 
