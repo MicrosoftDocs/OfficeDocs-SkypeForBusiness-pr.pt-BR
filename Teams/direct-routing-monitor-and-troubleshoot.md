@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Este artigo descreve como monitorar e solucionar problemas de configuração de roteamento direto.
-ms.openlocfilehash: b4d53ad566cd0c31696ce688044ce1587d771a7d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: eeae12aafba87d9af210138f546ed82b12acbbd7
+ms.sourcegitcommit: 1a768e470a9509139eeb24034def12630acb7914
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290404"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34915152"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Monitorar e solucionar problemas do Roteamento Direto
 
@@ -46,7 +46,7 @@ O diagrama a seguir mostra um exemplo da configuração:
 
 ![Exemplo de configuração de opções SIP](media/sip-options-config-example.png)
 
-Quando um usuário faz uma chamada para número + 1 425 \<qualquer sete digits>, o roteamento direto avalia a rota. Há dois SBCs na rota: sbc1.contoso.com e sbc2.contoso.com. O SBCs tem prioridade igual na rota. Antes de escolher um SBC, o mecanismo de roteamento avalia a integridade do SBCs com base em quando o SBC enviou as opções de SIP pela última vez. 
+Quando um usuário faz uma chamada para número + 1 425 \<quaisquer sete dígitos>, o roteamento direto avalia a rota. Há dois SBCs na rota: sbc1.contoso.com e sbc2.contoso.com. O SBCs tem prioridade igual na rota. Antes de escolher um SBC, o mecanismo de roteamento avalia a integridade do SBCs com base em quando o SBC enviou as opções de SIP pela última vez. 
 
 Um SBC é considerado Íntegro se as estatísticas no momento de enviar a chamada mostrarem que o SBC envia opções em um intervalo regular.  
 

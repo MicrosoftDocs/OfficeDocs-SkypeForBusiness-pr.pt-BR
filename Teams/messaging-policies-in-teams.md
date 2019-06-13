@@ -16,18 +16,19 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Saiba mais sobre as políticas de mensagens e como elas podem ser usadas para controlar as mensagens de chat no Microsoft Teams.
-ms.openlocfilehash: dd636a0c8ab3b8acdad55e64e2460dcd87e38253
-ms.sourcegitcommit: f5b6270e64752298687a1abff49da58acde8e107
+ms.openlocfilehash: 8a92ceea98d5f55c885a9fb59976dd571dba2b09
+ms.sourcegitcommit: 1a768e470a9509139eeb24034def12630acb7914
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34912852"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34915144"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gerenciar políticas de mensagens no Teams
 
 <!--- Add zone marker here--->
 
 As políticas de mensagens são usadas para controlar quais recursos de chat e mensagens de canal estão disponíveis para os usuários do Microsoft Teams. Você pode usar a política padrão criada automaticamente ou criar uma ou mais políticas de mensagens personalizadas para as pessoas em sua organização. Depois de criar uma política, você pode atribuí-la a um usuário ou grupo de usuários em sua organização.
+
 Por padrão, uma política chamada global (padrão para toda a organização) é criada. Por padrão, todos os usuários de sua organização serão atribuídos a essa política de serviço. Você pode fazer alterações nessa política ou criar uma ou mais políticas personalizadas e atribuir usuários a elas. Quando você cria uma política personalizada, pode permitir ou impedir que determinados recursos sejam disponibilizados para seus usuários e, em seguida, atribuí-los a um ou mais usuários que precisarão das configurações aplicadas a eles. 
 
 ## <a name="change-or-create-a-messaging-policy"></a>Alterar ou criar uma política de mensagens
