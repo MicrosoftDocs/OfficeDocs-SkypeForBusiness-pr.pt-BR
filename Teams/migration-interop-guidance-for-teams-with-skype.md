@@ -15,19 +15,19 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7885d08cd007ba94a655c85cd973b8442ea3b01d
-ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
+ms.openlocfilehash: 5be7788c8df2247aa33b5c30111808e3606326a6
+ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34857472"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34933830"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Orientações de migração e interoperabilidade para organizações que usam o Teams em conjunto com o Skype for Business
 
 > [!Tip] 
 > Assista à sessão a seguir para saber mais sobre [coexistência e](https://aka.ms/teams-upgrade-coexistence-interop) interoperabilidade
 
-Como uma organização com o Skype for Business começa a adotar equipes, os administradores podem gerenciar a experiência do usuário em sua organização usando o conceito de "modo" de coexistência, que é uma propriedade de TeamsUpgradePolicy. Usando o modo, os administradores gerenciam a interoperabilidade e a migração à medida que gerenciam a transição do Skype for Business para o Teams.  O modo de um usuário determina onde o cliente entra chats e chamadas e em que serviço (Teams ou Skype for Business) novas reuniões estão agendadas. No futuro, o modo também será usado para definir o comportamento do cliente do teams em termos de qual funcionalidade estará disponível. 
+Como uma organização com o Skype for Business começa a adotar equipes, os administradores podem gerenciar a experiência do usuário em sua organização usando o conceito de "modo" de coexistência, que é uma propriedade de TeamsUpgradePolicy. Usando o modo, os administradores gerenciam a interoperabilidade e a migração à medida que gerenciam a transição do Skype for Business para o Teams.  O modo de um usuário determina onde o cliente entra chats e chamadas e em que serviço (Teams ou Skype for Business) novas reuniões estão agendadas. Ele também controla qual funcionalidade está disponível no cliente do teams. 
 
 
 ## <a name="fundamental-concepts"></a>Conceitos fundamentais
@@ -154,12 +154,6 @@ Quando um usuário está em qualquer um dos modos do Skype for Business (SfBOnly
 
 > [!Note] 
 > - Antes da entrega da imposição automática de equipes e canais, os modos SfbOnly e SfBWithTeamsCollab se comportam da mesma maneira.
-
-
-
-## <a name="teamsinteroppolicy-has-been-retired"></a>O TeamsInteropPolicy foi desativado 
-
-O TeamsInteropPolicy foi substituído por TeamsUpgradePolicy. Todos os componentes que anteriormente homenagearam o TeamsInteropPolicy foram atualizados para honrar TeamsUpgradePolicy em vez disso. A Microsoft introduziu anteriormente o modo "herdado" no TeamsUpgradePolicy para facilitar a transição do TeamsInteropPolicy para o TeamsUpgradePolicy. No modo herdado, os componentes de roteamento que entenderam o TeamsUpgradePolicy voltariam para TeamsInteropPolicy. Agora, o roteamento oferece suporte total ao TeamsUpgradePolicy. Não há mais suporte para o modo herdado e não é mais possível conceder o modo herdado. Todas as instâncias de TeamsInteropPolicy estão em processo de serem removidas.
 
 
 ## <a name="detailed-mode-descriptions"></a>Descrições do modo detalhado

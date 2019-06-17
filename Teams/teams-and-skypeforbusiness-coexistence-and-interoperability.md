@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f652023a0d896c70aab2e6c3c56725568a95c35a
-ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
+ms.openlocfilehash: cc51fb840cd22e291fd54c0fad2621a9b64496d3
+ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34857495"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34933845"
 ---
 ![Atualize o diagrama de jornada, enfatizando o estágio de definição do projeto] (media/upgrade-banner-project-definition.png "Estágios da jornada da atualização, com ênfase no estágio de definição do projeto")
 
@@ -52,6 +52,9 @@ Por padrão, os usuários podem executar o Microsoft Teams juntamente com o Skyp
 Nesse modo de coexistência, chamado de **ilhas**, cada um dos aplicativos cliente Opera como uma ilha separada. O Skype for Business conversa com o Skype for Business e o Teams conversa com o Microsoft Teams. Os usuários sempre executam os dois clientes e podem se comunicar nativamente no cliente a partir do qual a comunicação foi iniciada. Assim, não há necessidade de interoperabilidade no modo de **ilhas** .
 
 Para evitar uma experiência confusa ou regressiva de Skype for Business, comunicações externas (federadas), serviços de voz PSTN e aplicativos de voz, integração do Office e várias outras integrações continuam a ser administradas pelo Skype for Business.
+
+> [!Important]
+> No modo **ilhas** , todas as mensagens de usuários federados (pessoas de fora da sua organização) são entregues ao Skype for Business. Depois de alternar para o modo **somente Teams** , todas as mensagens de fora da sua organização são entregues ao Teams.
 
 > [!Tip]
 > O caminho recomendado para clientes do Skype for Business Online é começar com o modo de **ilhas** padrão, orientar a saturação da adoção da equipe na organização e, em seguida, mover para o modo **somente Teams** rapidamente. Clientes locais e híbridos podem aproveitar a implantação do **Skype for Business com** o modo de colaboração do teams como ponto de partida, em vez de ilhas, e o progresso de lá para o **Skype for Business com o modo de colaboração e reuniões** do teams Se for apropriado, e para o modo **somente Teams** quando a organização estiver pronta para adotar equipes.
