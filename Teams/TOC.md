@@ -37,7 +37,7 @@
 ### [Visão geral](deploy-apps-microsoft-teams-landing-page.md)
 ### [Permissões e considerações dos aplicativos](app-permissions.md)
 ### [Configurações de administração para aplicativos no Teams](admin-settings.md)
-### [Adicionar bots para bate-papos privados e canais no Teams](add-bots.md)
+### [Adicione bots para bate-papos pessoais, bate-papos em grupo e canais no Teams](add-bots.md)
 ### [Usar guias internas e personalizadas](built-in-custom-tabs.md)
 ### [Usar o Office 365 e conectores personalizados](Office-365-custom-connectors.md)
 ### [Publicar aplicativos no Catálogo de Aplicativos do Locatário do Teams](tenant-apps-catalog-teams.md)
