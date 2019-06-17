@@ -309,11 +309,15 @@
 ### [Guia de início rápido: Configurar Planos de chamadas](configuring-teams-calling-quickstartguide.md)
 
 ## Roteamento Direto do Sistema de Telefonia
+
 ### [Visão geral](direct-routing-landing-page.md)
 ### [Planejar o Roteamento Direto](direct-routing-plan.md)
 ### [Configurar o Roteamento Direto](direct-routing-configure.md)
 ### [Migrar para o roteamento direto](direct-routing-migrating.md)
-### [Monitorar e solucionar problemas do Roteamento Direto](direct-routing-monitor-and-troubleshoot.md)
+
+### Monitorar e solucionar problemas do Roteamento Direto
+#### [Visão geral](direct-routing-monitor-and-troubleshoot.md)
+#### [Painel de Integridade](direct-routing-health-dashboard.md)
 ### [Contas de usuário em um ambiente híbrido com conectividade PSTN](direct-routing-user-accounts-in-a-hybrid-environment.md)
 ### [Configurar um controlador de borda da sessão para vários locatários](direct-routing-sbc-multiple-tenants.md)
 ### [Lista de controladores de borda da sessão certificados para Roteamento Direto](direct-routing-border-controllers.md)
