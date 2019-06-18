@@ -5,7 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.date: 04/18/2019
+ms.date: 06/18/2019
 ms.reviewer: LolaJ
 description: Encontre o caminho certo para implementar o Microsoft Teams em sua organização. Conheça a infraestrutura do Teams e a utilização do Teams com o Office 365.
 localization_priority: Priority
@@ -15,21 +15,29 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2908c7f16f353d49ca25db0ef297601cc82db371
-ms.sourcegitcommit: 64cb4e9db6c83d25c2f5de0cc8b835675af80f0b
+ms.openlocfilehash: 84d23efc8cbec7435b4b9677bf9c6321ade4fb3d
+ms.sourcegitcommit: 35930c6f634623983aefeed104bc6c66a8aab174
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "34100861"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "34957472"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Bem-vindo ao Microsoft Teams
 Se você é o administrador do Microsoft Teams em sua organização, está no lugar certo. Se você está pronto para começar a usar o Teams, comece em [Como implementar o Teams](How-to-roll-out-teams.md).
 
-Se não estiver familiarizado com o Teams e quiser saber mais, continue a ler.
+Se não estiver familiarizado com o Teams e quiser saber mais, continue a ler. Confira este pequeno vídeo, [Bem-vindo ao Teams](https://youtu.be/s3aQV3T0D6c). 
 
-## <a name="overview-of-teams"></a>Visão geral do Teams
+Se você está procurando a Ajuda do Teams para o usuário final, clique em **Ajuda** no lado esquerdo do aplicativo, ou acesse a [Central de Ajuda do Microsoft Teams](https://support.office.com/teams). Para treinamento, acesse [Treinamento do Microsoft Teams](training-microsoft-teams-landing-page.md). 
 
-Se você é novo no Teams, confira este vídeo curto, [Bem-vindo ao Teams](https://youtu.be/s3aQV3T0D6c). O Microsoft Teams se fundamenta em grupos do Office 365, no Office Graph e na mesma segurança, conformidade e gerenciamento de nível corporativo que o restante do Office 365. O Microsoft Teams utiliza as identidades armazenadas no Azure AD (Azure Active Directory). Pra ver onde o Teams se encaixa no contexto do Microsoft 365, confira este pôster da arquitetura: [Teams como parte do Microsoft 365](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
+## <a name="teams-architecture"></a>Arquitetura do Teams
+
+O Teams se baseia nos grupos do Office 365, no Microsoft Graph e na mesma segurança, conformidade e gerenciamento de nível corporativo que o restante do Office 365. O Microsoft Teams utiliza as identidades armazenadas no Azure AD (Azure Active Directory). 
+
+Para ver onde o Teams se encaixa no contexto do Microsoft 365, confira este cartaz de arquitetura: [O Teams como parte do Microsoft 365](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
+
+[![Imagem em miniatura para o cartaz de arquitetura lógica do Teams](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf)         
+
+
 
 Quando você cria uma equipe, é criado o seguinte:
 - Um novo [grupo do Office 365](office-365-groups.md)
@@ -40,25 +48,26 @@ Quando você cria uma equipe, é criado o seguinte:
 
 Quando você cria uma equipe com base em um grupo existente, a associação, o site, a caixa de correio e o bloco de anotações desse grupo são exibidos no Teams. Para saber mais, confira este pôster: [Grupos no Microsoft 365 para Arquitetos TI](teams-architecture-solutions-posters.md#groups-in-microsoft-365)
 
-Não perca [a equipe de toda a organização](create-an-org-wide-team.md), um tipo especial de equipe que reúne todos os usuários de sua organização e mantém a associação atualizada com o Active Directory à medida que usuários ingressam na organização e saem dela. 
+[![Imagem em miniatura de infográfico sobre os grupos](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.pdf)
 
-Para personalizar e estender o Teams, adicione aplicativos de terceiros por meio de [guias, conectores e bots](deploy-apps-microsoft-teams-landing-page.md). Com o Teams, você pode incluir pessoas de fora da organização [adicionando-as como convidadas](guest-access.md) a uma equipe ou um canal. Como parte do Office 365, o Teams oferece uma [plataforma de desenvolvimento](https://docs.microsoft.com/microsoftteams/platform) robusta para que você possa criar o hub de trabalho em equipe necessário para sua organização. 
+Para personalizar e estender o Teams, adicione aplicativos de terceiros por meio de [aplicativos, bots e conectores](deploy-apps-microsoft-teams-landing-page.md). Com o Teams, você pode incluir pessoas de fora da organização [adicionando-as como convidadas](guest-access.md) a uma equipe ou um canal. Como parte do Office 365, o Teams oferece uma [plataforma de desenvolvimento](https://docs.microsoft.com/microsoftteams/platform) robusta para que você possa criar o hub de trabalho em equipe necessário para sua organização. 
 
-![Aplicativo para desktop e aplicativos móveis do Teams](media/teams-overview-hub.png)
+> [!TIP]
+> Para um mergulho profundo na arquitetura do Teams, assista aos vídeos na [Academia da Plataforma do Teams](https://aka.ms/TeamsPlatformAcademy).
 
 
 ## <a name="managing-teams"></a>Gerenciamento do Teams
 
 Como administrador, você vai gerenciar o Teams pelo Centro de administração do Microsoft Teams. Para saber mais:
 - [Usar as funções de administrador para gerenciar o Teams](using-admin-roles.md)
-- [Gerenciar o Teams no Centro de administração do Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
-- [Gerenciar equipes durante a transição para o novo centro de administração do Microsoft Teams](manage-teams-in-modern-portal.md)
+- [Gerenciar o Teams no centro de administração do Teams](manage-teams-skypeforbusiness-admin-center.md)
+- [Gerenciar o Teams durante a transição para o novo centro de administração do Teams](manage-teams-in-modern-portal.md)
 - [Ativar os recursos do Microsoft Teams na sua organização do Office 365](enable-features-office-365.md)
 
 Para ficar por dentro do que será lançado para o Microsoft Teams e todos os outros produtos e serviços do Office 365 em sua organização, confira o [Centro de mensagens ](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) e o [Roteiro do Teams](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams). Você receberá comunicados sobre recursos novos e atualizados, alterações planejadas e problemas para se manter informado e preparado. 
 
-## <a name="upgrade-from-skype-for-business-to-teams"></a>Atualização do Skype for Business para o Microsoft Teams
-O Teams é o principal cliente das comunicações inteligentes no Office 365, substituindo o Skype for Business Online. Para saber mais sobre os novos recursos do Teams, confira o [Roteiro do Microsoft 365 ](http://aka.ms/O365Roadmap). Para complementar os recursos de mensagens e chat persistente, o Microsoft Teams oferece uma experiência abrangente de reuniões e chamadas, com voz e vídeo internos e totalmente integrados. Confira [Agora o Microsoft Teams é uma solução completa de reuniões e chamadas](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042) no Blog do Microsoft Teams.
+## <a name="upgrade-from-skype-for-business-to-teams"></a>Atualização do Skype for Business para o Teams
+O Teams é o principal cliente para comunicações inteligentes no Office 365 e, eventualmente, ele substituirá o Skype for Business Online. Para ficar por dentro dos novos recursos que chegam ao Teams, consulte o [Roteiro do Microsoft 365](http://aka.ms/O365Roadmap). Para complementar os recursos de bate-papo e mensagens persistentes, o Teams oferece uma experiência abrangente de reunião e chamada, com voz e vídeo totalmente integrados. Confira [Agora o Microsoft Teams é uma solução completa de reuniões e chamadas](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042) no Blog do Microsoft Teams.
 
 Se você está executando o Skype for Business e está pronto para atualizar para o Microsoft Teams ou se está executando o Skype for Business e o Microsoft Teams lado a lado e está pronto para mudar totalmente para o Microsoft Teams, temos ferramentas, dicas e diretrizes para garantir o sucesso de sua transição. Para saber mais, confira [Atualizar para o Teams](journey-skypeforbusiness-teams.md).
 
@@ -85,9 +94,9 @@ Confira uma [lista semanal de tópicos do Teams que foram atualizadas](teams-upd
 
 ## <a name="teams-known-issues"></a>Problemas conhecidos do Microsoft Teams
 
-Veja [Problemas conhecidos do Microsoft Teams](Known-issues.md)
+Confira [Problemas conhecidos do Teams](Known-issues.md).
 
 ## <a name="teams-client-release-notes"></a>Notas de versão do cliente Microsoft Teams
 
-Veja [Novidades no Microsoft Teams](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
+Veja [O que há de novo no Teams](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
 
