@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: A configuração da autenticação OAuth entre o Exchange local e o Skype for Business Online permite que os recursos de integração do Skype for Business e do Exchange descritos em suporte a recursos.
-ms.openlocfilehash: 28cf0471b13fc57c6b72c6a6216b3dd3b65726d8
-ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
+ms.openlocfilehash: ab778279996bd9439eaad9f13b373b206abf2662
+ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "34933838"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35012978"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>Configurar a integração e o OAuth entre o Skype for Business Online e o Exchange Server 
 
@@ -126,13 +126,23 @@ Em seguida, utilize o Windows PowerShell para carregar o certificado de autoriza
 
 4. Depois de iniciar o script, uma caixa de diálogo de credenciais será exibida. Insira as credenciais para a conta do administrador do locatário de sua empresa Microsoft Online Azure AD. Depois de executar o script, deixe a sessão Windows PowerShell para Azure AD aberta. Você a utilizará para executar um script do PowerShell na próxima etapa.
 
+### <a name="step-7-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>Etapa 7: Verifique se o certificado foi carregado na entidade de serviço do Skype for Business
+1. No PowerShell aberto e autenticado para o Azure Active Directory, execute o seguinte
+```
+Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
+```
+2. Pressione Enter quando solicitado para ReturnKeyValues
+3. Confirme que você vê uma chave listada com data de início e dados finais que correspondem às datas de início e término do certificado OAuth do Exchange
+
 ### <a name="verify-your-success"></a>Verifique se a operação foi realizada com sucesso
 
 Verifique se a configuração está correta verificando se alguns dos recursos estão funcionando com êxito. 
 
-1. Confirme se o histórico de conversas para clientes móveis está visível na pasta Histórico de conversas do Outlook.
+1. Confirme se os usuários do Skype for Business com serviço de correio de voz na nuvem, em uma organização com uma configuração híbrida do Exchange Server, podem alterar suas saudações de correio de voz com êxito.
 
-2. Confirme se as mensagens de chat arquivadas são depositadas na caixa de correio local do usuário na pasta Purges usando o [EWSEditor](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/).
+2. Confirme se o histórico de conversas para clientes móveis está visível na pasta Histórico de conversas do Outlook.
+
+3. Confirme se as mensagens de chat arquivadas são depositadas na caixa de correio local do usuário na pasta Purges usando o [EWSEditor](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/).
 
 Como alternativa, examine seu tráfego. O tráfego em um handshake OAuth é realmente distintivo (e não se parece com autenticação básica), especialmente em relação a territórios, onde você começará a ver o tráfego do emissor que tem a seguinte aparência: 00000004-0000-0ff1-ce00-000000000000 @ (às vezes com/antes o símbolo @), nos tokens que estão sendo passados. Você não verá um nome de usuário ou senha, que é o ponto de OAuth. Mas você verá o emissor "Office" – neste caso, ' 4 ' é o Skype for Business – e o território da sua assinatura.
 

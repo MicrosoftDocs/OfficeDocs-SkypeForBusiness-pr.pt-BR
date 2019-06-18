@@ -3,86 +3,116 @@ title: Barreiras de informações na visualização do Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/14/2019
+ms.date: 06/17/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
 search.appverid: MET150
 ms.reviewer: vikramju
-description: Saiba mais sobre as barreiras de informações e como eles afetam as equipes.
+description: Saiba mais sobre barreiras de informação e como elas afetam o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5cf9891e44df3e656255da90dc495d8f0bda8c72
-ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+ms.openlocfilehash: 50a8600e3a1eb83ad43acb0b302239eb6e44f32a
+ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33993917"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35013017"
 ---
 # <a name="information-barriers-in-microsoft-teams-preview"></a>Barreiras de informações na visualização do Microsoft Teams
 
 > [!INCLUDE [Preview feature](includes/preview-feature.md)]
 
-Barreiras de informações são diretivas que um administrador pode configurar para impedir o indivíduos ou grupos de se comunicar entre si. Isso é útil se, por exemplo, um departamento está manipulando informações que não devem ser compartilhadas com outros departamentos ou um grupo precisa ser impedidos de se comunicar com qualquer contatos externos.
+Barreiras de informação são políticas que um administrador pode configurar para impedir que pessoas ou grupos se comuniquem uns com os outros. Isso é útil se, por exemplo, um departamento estiver manipulando informações que não devem ser compartilhadas com outros departamentos, ou se um grupo precisar ser impedido, ou isolado, de comunicar-se com qualquer pessoa fora do grupo.
 
 > [!NOTE]
-> - Não não possível criar grupos de barreira de informações entre locatários.
-> - Não há suporte para o uso bots para adicionar usuários na versão 1.
-> - Informações da versão barreiras 1 não incluem o suporte para SharePoint e o OneDrive for Business. Estamos trabalhando na habilitação do recurso no SharePoint e comunicará depois que ele estiver disponível.
+> - Grupos de barreira de informações não podem ser criados entre locatários.
+> - Não há suporte para o uso de bots para adicionar usuários na versão 1.
+> - Barreiras de informação a versão 1 não inclui suporte para o SharePoint e o OneDrive for Business. Estamos trabalhando para habilitar o recurso no SharePoint e ele se comunicará assim que estiver disponível.
 
-Políticas de barreira informações também impedem pesquisas e descoberta. Isso significa que se você tentar se comunicar com alguém, com que você não deve estar comunicando, você não encontrará que o usuário no seletor de pessoas.
+As políticas de barreira de informações também impedem pesquisas e descobrimento. Isso significa que, se você tentar se comunicar com alguém com quem não deveria se comunicar, não encontrará esse usuário no seletor de pessoas.
 
 ## <a name="background"></a>Plano de fundo
 
-O principal motivador para informações barreiras proveniente do setor de serviços financeiros. A autoridade de regulamentação setor financeiro ([FINRA]( http://www.finra.org/)) revisa barreiras da informação e conflitos de interesses dentro de empresas de membro e fornece orientação sobre como gerenciar esses conflitos (FINRA 2241, [Aviso de regulamentação do débito Research 31 de 15](http://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf).  
+O principal driver para barreiras de informação vem do setor de serviços financeiros. A autoridade de regulamentação do setor financeiro ([FINRA]( http://www.finra.org)) analisa as barreiras e os conflitos de interesse em instituições de membros e fornece orientação sobre como gerenciar tais conflitos (FINRA 2241, [aviso de regulamentação de pesquisa de dívidas 15-31](http://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf).  
 
-## <a name="when-should-i-use-information-barriers"></a>Quando devo usar barreiras da informação?
+## <a name="when-should-i-use-information-barriers"></a>Quando devo usar as barreiras de informação?
 
-Você pode querer usar barreiras da informação em situações como essas:
+Você pode querer usar barreiras de informação em situações como estas:
 
-- Uma equipe deve ser impedida de comunicação ou compartilhamento de dados com uma determinada outra equipe.
-- Uma equipe não deve se comunicar ou compartilhar dados com alguém de fora da equipe.
+- Uma equipe deve ser impedida de comunicação ou compartilhamento de dados com outra equipe específica.
+- Uma equipe não deve se comunicar nem compartilhar dados com pessoas de fora da equipe.
 
-O serviço de avaliação de diretiva de barreira informações determina se uma comunicação está em conformidade com as políticas de barreira de informações. 
+O serviço de avaliação da política de barreira de informações determina se uma comunicação está em conformidade com as políticas de barreira de informações. 
 
-## <a name="managing-information-barrier-policies"></a>Gerenciando políticas de barreira de informações
+## <a name="managing-information-barrier-policies"></a>Gerenciar políticas de barreira de informações
 
-Políticas de barreira de informações são gerenciadas com segurança & cmdlets do PowerShell do Centro de conformidade (SCC). Para obter mais informações sobre como usar esses cmdlets, [Inscreva-se aqui](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR1UzUQTEgHVPtD9W5uih2OlUMEwwUzhJSktIMUw2SDJJOE5FT1lTVzVTSS4u).
+As políticas de barreira de informações são gerenciadas com cmdlets do PowerShell do centro de conformidade do & Security (SCC). Para obter mais informações sobre como usar esses cmdlets, consulte [definir políticas para barreiras de informação (visualização)](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
 > [!IMPORTANT]
-> Antes que você configurou ou define políticas, **você deve habilitar a pesquisa de diretório com escopo em equipes da Microsoft**. Aguarde pelo menos 24 horas após habilitar a pesquisa de diretório com escopo antes de configurar ou definir políticas para as barreiras de informações.
+> Antes de configurar ou definir políticas, **você deve habilitar a pesquisa de diretório em escopo no Microsoft Teams**. Aguarde pelo menos 24 horas depois de habilitar a pesquisa de diretório de escopo antes de configurar ou definir políticas para barreiras de informação.
 
 ## <a name="information-barriers-administrator-role"></a>Função de administrador de barreiras de informações
 
-A função de administrador de barreiras informações é responsável por gerenciar políticas de barreira de informações. Para obter mais informações sobre essa função e participem de visualização, [Inscreva-se aqui](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR1UzUQTEgHVPtD9W5uih2OlUMEwwUzhJSktIMUw2SDJJOE5FT1lTVzVTSS4u).
+A função de administrador de barreiras de informação (gerenciamento de conformidade da IB) é responsável por gerenciar políticas de barreira de informações. Para obter mais informações sobre essa função, consulte [permissões no centro de conformidade do & de segurança do Office 365](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
 
-## <a name="when-are-information-barrier-policies-checked"></a>Quando as políticas de barreira informações são verificadas?
+## <a name="when-are-information-barrier-policies-checked"></a>Quando as políticas de barreira de informações são verificadas?
 
-Políticas de barreira informações são verificadas quando os eventos de equipes a seguir ocorrerão:
+As políticas de barreira de informações são verificadas quando ocorrem os seguintes eventos de equipe:
 
-- **Membros são adicionados para uma equipe** - sempre que você adicionar um usuário para uma equipe, a diretiva do usuário deve ser avaliada contra as políticas de barreira informações de outros membros da equipe. Depois que o usuário é adicionado com êxito, o usuário pode executar todas as funções na equipe de sem verificações adicionais. Se a diretiva do usuário impede que eles sejam adicionados à equipe, o usuário não serão exibidas na pesquisa.
-- **Um novo chat é solicitado** - sempre que um novo chat é solicitado entre dois ou mais usuários, o bate-papo é avaliado para certificar-se de que ele não está violar quaisquer políticas de barreira informações. Se a conversa violar uma política de barreira informações, então a conversa não será iniciada e uma mensagem de erro é exibida.
-- **Um usuário está convidado para ingressar em uma reunião** - quando um usuário está convidado para ingressar em uma reunião, a diretiva do usuário é avaliada contra as políticas de outros membros da equipe e se houver uma violação, o usuário não poderão ingressar na reunião e verá uma mensagem de erro.
-- **Que uma tela é compartilhada entre dois ou mais usuários** - sempre que uma tela é compartilhado entre dois ou mais usuários, o compartilhamento de tela deve ser avaliado para certificar-se de que ele não viola as políticas de barreira informações de outros usuários. Se uma política de barreira informações for violada, o compartilhamento de tela não será possível e uma mensagem de erro será exibida.
-- **Um usuário faz uma chamada telefônica (VOIP) em equipes** - sempre que uma chamada de voz é iniciada por um usuário para outro usuário ou grupo de usuários, a chamada é avaliada para certificar-se de que ele não viola as políticas de barreira informações dos membros da equipe oher. Se houver qualquer violação, a chamada de voz está bloqueada.
+- **Os membros são adicionados a uma equipe** , sempre que você adiciona um usuário a uma equipe, a política do usuário deve ser avaliada em relação às políticas de barreira de informações de outros membros da equipe. Depois que o usuário for adicionado com êxito, o usuário poderá executar todas as funções na equipe sem verificações adicionais. Se a política do usuário impedir que elas sejam adicionadas à equipe, o usuário não aparecerá na pesquisa.
+- **Um novo Chat é solicitado** -sempre que um novo Chat é solicitado entre dois ou mais usuários, o chat é avaliado para garantir que ele não viole nenhuma política de barreira de informações. Se a conversa violar uma política de barreira de informações, a conversa não será iniciada e uma mensagem de erro será exibida.
+- **Um usuário é convidado a ingressar em uma reunião** -quando um usuário é convidado a ingressar em uma reunião, a política do usuário é avaliada em relação às políticas de outros membros da equipe e, se houver uma violação, o usuário não terá permissão para ingressar na reunião e verá uma mensagem de erro.
+- **Uma tela é compartilhada entre dois ou mais usuários** -a qualquer momento em que uma tela é compartilhada entre dois ou mais usuários, o compartilhamento de tela deve ser avaliado para garantir que ele não viole as políticas de barreira de informações de outros usuários. Se uma política de barreira de informações for violada, o compartilhamento de tela não será permitido e uma mensagem de erro será exibida.
+- **Um usuário insere uma chamada telefônica (VoIP) no Teams** -sempre que uma chamada de voz é iniciada por um usuário para outro usuário ou grupo de usuários, a chamada é avaliada para garantir que ela não viole as políticas de barreira de informações de outros membros da equipe. Se houver alguma violação, a chamada de voz será bloqueada.
 
-## <a name="what-happens-to-existing-chat-threads-when-a-policy-is-changed"></a>O que acontece com threads de bate-papo existentes quando uma política for alterada?
+## <a name="what-happens-to-existing-chat-threads-when-a-policy-is-changed"></a>O que acontece com os threads de chat existentes quando uma política é alterada?
 
-Quando o administrador de política de barreira informações faz alterações à política ou uma alteração na diretiva é ativado em vigor por causa do trabalho de um usuário alterar ou uma razão semelhante, o serviço de avaliação de diretiva de barreira informações automaticamente pesquisará os membros para garantir que membros da equipe não são violar quaisquer políticas. 
+Quando o administrador da política de barreira de informações faz alterações em uma política ou uma alteração de política entra em vigor devido a uma alteração no perfil de um usuário (por exemplo, para uma alteração de trabalho ou um motivo semelhante), o serviço de avaliação da política de barreira de informações pesquisa automaticamente os membros para garantir que os membros da equipe não violem nenhuma política.
 
-Se houver um chat existente ou outras comunicações entre usuários e uma nova política estiver definida ou uma política existente é alterada, o serviço avalia as comunicações existentes para certificar-se de que eles não são "inviabilizados" (não permitido): 
+Se houver um chat existente ou outras comunicações entre usuários e uma nova política for definida ou uma política existente for alterada, o serviço avaliará as comunicações existentes para garantir que as comunicações ainda sejam permitidas. 
 
-- **bate-papo de 1:1** - se a comunicação entre os dois usuários não mais é permitida (se uma diretiva de bloqueio de comunicação é aplicada a um ou ambos os usuários), ainda mais a comunicação é bloqueada e a conversa de bate-papo se tornará somente leitura.
-- **O chat de grupo** - se a comunicação de um usuário ao grupo não é mais permitida (por exemplo, se um usuário altera trabalhos), juntamente com os outros usuários que violam a política de usuário pode ser removido do chat de grupo e não será mais nenhuma comunicação com o grupo permitido. O usuário ainda pode ver conversas antigas (que serão somente leitura), mas não será possível ver ou participar de qualquer novas conversas com o grupo. Se a política de nova ou alterada, impedindo a comunicação será aplicada a mais de um usuário, os usuários que são afetados pela diretiva podem ser removidos do chat de grupo. Eles ainda poderão ver conversas antigas. 
-- **Equipe** - todos os usuários que foram removidos do grupo serão removidos da equipe do e não será possível ver ou participar de conversas novas ou existentes.
+- **1:1 chat** -se a comunicação entre os dois usuários não for mais permitida (se uma comunicação de bloqueio de política for aplicada a um ou aos dois usuários), a comunicação adicional será bloqueada e a conversa de chat se tornará somente leitura.
+- **Chat em grupo** -se a comunicação de um usuário para o grupo não for mais permitida (por exemplo, se um usuário alterar trabalhos), o usuário juntamente com os outros usuários que violam a política poderá ser removido do chat em grupo e outras comunicações com o grupo não serão autorizados. O usuário ainda pode ver conversas antigas (que serão somente leitura), mas não poderá ver ou participar de nenhuma nova conversa com o grupo. Se a política nova ou alterada que impede a comunicação for aplicada a mais de um usuário, os usuários afetados pela política poderão ser removidos do chat em grupo. Eles ainda podem ver conversas antigas. 
+- **Equipe** -todos os usuários que foram removidos do grupo são removidos da equipe e não poderão ver nem participar de conversas existentes ou novas.
+
+## <a name="what-will-users-experience-if-another-user-is-blocked"></a>O que os usuários terão se outro usuário estiver bloqueado?
+
+No momento, os usuários perceberão o seguinte se uma política de barreira de informações bloquear outro usuário:
+
+- **Guia pessoas** -um usuário pode ver alguns usuários bloqueados na guia **pessoas** . O usuário pode selecionar os usuários bloqueados.
+- **Guia atividade** -se um usuário visitar a guia **atividade** de um usuário bloqueado, nenhuma postagem será exibida. (A guia **atividade** exibe somente Postagens de canal e não haveria canais comuns entre os dois usuários.)
+- **Organogramas** -se um usuário acessar um organograma no qual um usuário bloqueado é exibido, o usuário verá o usuário bloqueado no gráfico e poderá clicar em ações no gráfico, mas as ações (como chamadas) não serão exibidas.
+- **Cartão de visita** -se um usuário participar de uma conversa e estiver bloqueado posteriormente, outros usuários ainda poderão ver o cartão de pessoas para o usuário bloqueado. Todas as ações listadas no cartão (como chamada e chat) estarão disponíveis, mas as ações não passarão.
+- **Contatos sugeridos** -na lista contatos sugeridos (a lista de contatos inicial exibida para novos usuários), os usuários podem ver todos os contatos sugeridos (incluindo usuários bloqueados). No entanto, se um usuário clicar no nome de um usuário bloqueado para abrir o painel chats, a mensagem será bloqueada.
+- **Contatos do chat** -um usuário pode ver usuários bloqueados na lista de contatos do chat.
+- **Chamadas para contatos** -um usuário pode ver os usuários bloqueados na lista de contatos chamadas, e as ações, como chamadas e mensagens, serão exibidas, mas quando o usuário tentar ligar ou enviar uma mensagem para o usuário bloqueado, a chamada ou mensagem não será perenviada.
+- **Migração do Skype para** o Teams-durante uma migração do Skype for Business para o Teams, todos os usuários, mesmo aqueles bloqueados por políticas de barreira de informações, serão migrados para o Teams e, em seguida, serão manipulados conforme descrito acima.
+
+Em breve: os usuários perceberão o seguinte se uma política de barreira de informações bloquear outro usuário:
+
+- **Guia pessoas** -um usuário não pode ver usuários bloqueados na guia **pessoas** .
+- **Guia atividade** -se um usuário visitar a guia **atividade** de um usuário bloqueado, nenhuma postagem será exibida. (A guia **atividade** exibe somente Postagens de canal e não haveria canais comuns entre os dois usuários.)
+- **Organogramas** -se um usuário acessar um organograma no qual um usuário bloqueado é exibido, o usuário bloqueado não será exibido no organograma e uma mensagem de erro será exibida.
+- **Cartão de visita** -se um usuário participar de uma conversa e o usuário for bloqueado posteriormente, outros usuários verão uma mensagem de erro em vez do cartão de pessoas quando passarem o mouse sobre o nome do usuário bloqueado. As ações listadas no cartão (como chamada e chat) não estarão disponíveis.
+- **Contatos sugeridos** -os usuários bloqueados não aparecem na lista de contatos sugeridos (a lista de contatos inicial exibida para novos usuários).
+- **Contatos do chat** -um usuário não pode ver usuários bloqueados na lista de contatos do chat.
+- **Chamadas contatos** -um usuário pode ver os usuários bloqueados na lista de contatos chamadas, mas os usuários bloqueados serão identificados e a única ação que o usuário poderá executar será excluí-los.
+- **Migração do Skype para** o Teams-durante uma migração do Skype for Business para o Teams, todos os usuários, mesmo aqueles bloqueados por políticas de barreira de informações, serão migrados para o Teams e, em seguida, serão manipulados conforme descrito acima.
 
 ## <a name="required-licenses-and-permissions"></a>Permissões e licenças necessárias
 
-Atualmente, os recursos de barreira informações estão no modo de visualização público. Quando esses recursos estão disponíveis em geral, eles serão incluídos no inscrições, tais como:
+Atualmente, os recursos de barreira de informações estão em visualização pública. Quando esses recursos estiverem disponíveis em geral, eles serão incluídos em assinaturas, como:
 
-- Microsoft 365 E5
+- Microsoft 365 e5
 - Office 365 E5
-- O Office 365 avançadas de conformidade
-- Microsoft 365 E5 conformidade
+- Conformidade avançada do Office 365
+- Conformidade com o Microsoft 365 e5
 
-Para obter mais detalhes, incluindo planos e preços, consulte [Soluções de conformidade](https://products.office.com/business/security-and-compliance/compliance-solutions?rtc=1).
+Para obter mais detalhes, incluindo planos e preços, consulte [soluções de conformidade](https://products.office.com/business/security-and-compliance/compliance-solutions?rtc=1).
+
+## <a name="more-information"></a>Mais informações
+
+- Para saber mais sobre as barreiras de informação, consulte [barreiras de informação (prévia)](https://docs.microsoft.com/office365/securitycompliance/information-barriers).
+
+- Para configurar políticas de barreira de informações, consulte [definir políticas para barreiras de informação (prévia)](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)

@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Saiba mais sobre os fatores a serem considerados antes de configurar eventos dinâmicos no Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0093bafdf59c1d18c578f8e8edfaed3ab4c26381
-ms.sourcegitcommit: 8305fd00f6f9e302653fb383e4ac8d38490644c1
+ms.openlocfilehash: 14827e6ded282c113e56dd3fa567b4c7835bbf23
+ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34428749"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35013025"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 
@@ -29,16 +29,17 @@ Quando você está planejando que os eventos do teams Live contenham reuniões g
 Os pré-requisitos a seguir são necessários para que o usuário agende um evento ao vivo do teams.
 
 Aqui estão as licenças que devem ser atribuídas:  
-- Uma licença do Office 365 Enterprise E1, E3 ou E5 ou uma licença do Office 365 a3 ou a5. 
-- Uma Microsoft Teams e uma licença do Microsoft Stream.
+- Uma licença do Office 365 Enterprise E1, E3 ou E5 ou uma licença do Office 365 a3 ou a5
+- Uma licença do Microsoft Teams
+- Uma licença do Microsoft Stream
 
 > [!IMPORTANT]
 > O usuário que cria e agenda um evento ao vivo deve ter uma caixa de correio do Exchange Online.
 
-É importante saber que uma licença do Office 365 é necessária para participar de um evento ao vivo como um usuário autenticado, mas isso depende do método de produção usado:
+É importante saber que uma licença do Office 365 é necessária para participar de um evento ao vivo como um usuário autenticado, mas esse requisito depende do método de produção usado:
 
-- **Para produção de início rápido**  Deve ser atribuída uma licença do Microsoft Teams ao usuário.
-- **Para produção de codificador externo** Deve ser atribuída uma licença do Microsoft Stream ao usuário.
+- **Para eventos produzidos no Teams**  Deve ser atribuída uma licença do teams ao usuário.
+- **Para eventos produzidos com um aplicativo ou dispositivo externo** Deve ser atribuída uma licença de fluxo para o usuário.
 
 Para obter mais informações sobre licenciamento, consulte [Licenciamento de Complementos do Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
@@ -47,14 +48,14 @@ O usuário deve ter:
 - Compartilhamento de vídeo habilitado em reuniões do Microsoft Teams (*o parâmetro TeamsMeetingPolicy-AllowIPVideo = true*).
 - Compartilhamento de tela habilitado em reuniões do Teams (*o parâmetro TeamsMeetingPolicy-ScreenSharingMode = EntireScreen*).
 - Agendamento de eventos dinâmicos habilitados no Microsoft Teams (*o parâmetro TeamsMeetingBroadcastPolicy-AllowBroadcastScheduling = true*).
-- Permissões para criar eventos dinâmicos no Microsoft Stream (para produção de codificador externa).
+- Permissões para criar eventos ao vivo em fluxo (para aplicativo externo ou produção de dispositivo).
 
 > [!IMPORTANT]
 > Os usuários convidados do Office 365, federados e anônimos não podem ser convidados como produtores ou apresentadores nos eventos ao vivo do teams. Os usuários federados e convidados do Office 365 podem apenas assistir a eventos ao vivo anonimamente. 
  
 ## <a name="who-can-watch-live-events"></a>Quem pode assistir a eventos dinâmicos?
 
-|**Visibilidade do participante**       |**Início rápido**  |**Codificador externo**  |
+|**Visibilidade do participante**       |**Produção de equipes**  |**Produção de dispositivo ou aplicativo externo**  |
 |------------------------------|-----------------|----------------------|
 |Público (usuários anônimos)      |  Sim            |  Não                  |
 |Usuários convidados                   |  Sem<sup>1</sup> |  Não                  |
@@ -68,7 +69,7 @@ O usuário deve ter:
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Eventos ao vivo do Teams e transmissão de reunião do Skype
 A tabela a seguir destaca os principais recursos e recursos oferecidos em eventos dinâmicos e como eles diferem da transmissão de reunião do Skype. 
 
-|**Potencial**   |**Transmissão de Reunião do Skype** |**Eventos produzidos no Microsoft Teams** |**Eventos produzidos em um aplicativo externo ou dispositivo** |
+|**Potencial**   |**Transmissão de Reunião do Skype** |**Eventos produzidos no Teams** |**Eventos produzidos em um aplicativo externo ou dispositivo** |
 |---------|---------|---------|---------|
 |Tamanho máximo da audiência |participantes do 10.000 |10.000 participantes * |10.000 participantes * |
 |Duração máxima do evento ao vivo |4 horas |4 horas |4 horas |
@@ -87,7 +88,7 @@ A tabela a seguir destaca os principais recursos e recursos oferecidos em evento
 |Apresentar uma tela |X |&#x2714; (Teams) |N/D |
 |Apresentar um PowerPoint (compartilhamento do PPT) |&#x2714; |X (minimizado via compartilhamento de tela) |N/D |
 |Gravação de reunião baseada na nuvem |&#x2714; |&#x2714; |&#x2714; |
-|Publicação automática de gravação no Microsoft Stream |X |X |&#x2714; |
+|Publicação automática de gravação em fluxo |X |X |&#x2714; |
 |Legendas e translação em tempo real |&#x2714; |&#x2714; (disponível em breve) |X |
 |Legendas em gravações de eventos dinâmicos |&#x2714; |&#x2714; (disponível em breve) |&#x2714; |
 |Controles de DVR de participantes (pausa, retrocesso) |&#x2714; |&#x2714; |&#x2714; |
@@ -111,7 +112,7 @@ Você pode usar os eventos ao vivo do teams em várias regiões do mundo todo. A
 - Vá para o Canadá local
 
 **Exclusões e considerações**
-- **Ir para locais:** Reino Unido, Índia, Austrália, Japão e outras Microsoft Teams go locais não são suportados no momento.
+- **Ir para locais:** Reino Unido, Índia, Austrália, Japão e outras equipes acessam locais não são compatíveis no momento.
 - **China:** Os membros da equipe de eventos e os participantes não poderão usar os eventos dinâmicos do Teams, pois a CDN do Azure não está acessível na China. Uma solução alternativa é usar uma conexão VPN da empresa, que obtém o cliente conectado à CDN por meio da rede corporativa do cliente.
 
 ## <a name="next-steps"></a>Próximas etapas

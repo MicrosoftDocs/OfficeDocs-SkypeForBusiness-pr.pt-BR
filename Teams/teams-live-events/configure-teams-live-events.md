@@ -16,12 +16,12 @@ description: Saiba como gerenciar as configurações de eventos dinâmicos do te
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 277f5b326a2c8c4427ae4cea740630d4d1e6f0c7
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 83d7e43e75b71eefdb4a95f26c14c27956e763f9
+ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548641"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35013033"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurar eventos ao vivo no Microsoft Teams
 
@@ -78,7 +78,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 Para obter mais informações, consulte [set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).
 
 > [!NOTE]
-> Se você planeja criar eventos dinâmicos que usam codificadores externos, também precisará [configurar seu provedor de eCDN com o Microsoft Stream](https://docs.microsoft.com/stream/network-caching). 
+> Se você planeja criar eventos dinâmicos usando um dispositivo ou aplicativo externo, também precisará [configurar seu provedor de eCDN com o Microsoft Stream](https://docs.microsoft.com/stream/network-caching). 
 
 ### <a name="related-topics"></a>Tópicos relacionados
 - [O que são os eventos ao vivo do Teams?](what-are-teams-live-events.md)

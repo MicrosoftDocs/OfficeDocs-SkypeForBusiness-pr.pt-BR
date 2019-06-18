@@ -16,19 +16,19 @@ description: Aprenda as etapas para configurar o Live para eventos no Teams, inc
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 827b0d9bcb6c66e2c8d8362773b789b3e4a0cf4f
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: b7f69f036e01c86dd02eabf7f229a80f0c51c520
+ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344166"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35012993"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurar eventos ao vivo no Microsoft Teams
 
 Quando você está configurando para eventos ao vivo, há várias etapas que devem ser tomadas:
 
-## <a name="step-1-set-up-your-network-for-live-events-in-microsoft-teams"></a>Etapa 1: configurar sua rede para eventos dinâmicos no Microsoft Teams
-Os eventos dinâmicos de início rápido exigem que você [Prepare a rede da sua organização para o Microsoft Teams](https://docs.microsoft.com/microsoftteams/prepare-network).  
+## <a name="step-1-set-up-your-network-for-live-events-in-teams"></a>Etapa 1: configurar sua rede para eventos dinâmicos no Microsoft Teams
+Eventos dinâmicos produzidos em equipes exigem que você [Prepare a rede da sua organização para o Teams](https://docs.microsoft.com/microsoftteams/prepare-network).  
 
 ## <a name="step-2-get-and-assign-licenses"></a>Etapa 2: Comprar e atribuir licenças
 Verifique se você tem atribuições de licença corretas para [quem pode criar e agendar eventos dinâmicos](plan-for-teams-live-events.md#who-can-create-and-schedule-live-events) e [quem pode assistir a eventos ao vivo](plan-for-teams-live-events.md#who-can-watch-live-events).
@@ -58,10 +58,10 @@ Políticas de eventos dinâmicos são usadas para controlar quem em sua organiza
 |---------|---------|
 |**Nome**     |Este é o nome da política exibida na página políticas de eventos dinâmicos. Não pode ter mais de 64 caracteres ou ter caracteres especiais.          |
 |**Descrição**    |Use isso para adicionar uma descrição amigável à política.         |
-|**Permitir agendamento**     |Ativar isso permite que os usuários em sua organização criem e agendem eventos dinâmicos no Teams. É importante saber que, se você quiser que os usuários agendem eventos dinâmicos do codificador externo, há etapas adicionais que você deve fazer. Para saber mais, consulte [permitir que os usuários agendem eventos de codificador externo](#enable-users-to-schedule-external-encoder-events).     |
-|**Permitir transcrição para participantes** (disponível em breve) |Essa configuração só pode ser aplicada a eventos de início rápido. Ativar isso permite que os participantes de eventos dinâmicos vejam legendas e translação em tempo real durante o evento.         |
+|**Permitir agendamento**     |Ativar isso permite que os usuários em sua organização criem e agendem eventos dinâmicos no Teams. É importante saber que, se você quiser que os usuários agendem um evento ao vivo produzido com um aplicativo ou dispositivo externo, há etapas adicionais que você deve fazer. Para saber mais, confira [habilitar usuários para agendar eventos que foram produzidos com um aplicativo ou dispositivo externo](#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device).     |
+|**Permitir transcrição para participantes** (disponível em breve) |Essa configuração só pode ser aplicada a eventos produzidos no Teams. Ativar isso permite que os participantes de eventos dinâmicos vejam legendas e translação em tempo real durante o evento.         |
 |**Quem pode participar de eventos dinâmicos programados**    |Escolha uma das opções a seguir.<br><br>**Todas as pessoas** Os usuários podem criar eventos dinâmicos que todos, incluindo pessoas de fora da sua organização, podem participar. Essa configuração habilita o tipo de permissão **pública** no Teams quando um usuário agenda um evento ao vivo.<br> **Todos na organização** Os usuários podem criar eventos dinâmicos que somente as pessoas em sua organização podem participar. Os usuários não podem criar eventos dinâmicos que participem de usuários anônimos. Essa configuração habilita o tipo de permissão de **toda a organização** no Teams quando um usuário agenda um evento ao vivo.<br> **Usuários ou grupos específicos** Os usuários podem criar eventos dinâmicos que apenas usuários ou grupos específicos em sua organização podem participar. Os usuários não podem criar eventos dinâmicos que participem de todos em sua organização ou de usuários anônimos. Essa configuração habilita o tipo de permissão **pessoas e grupos** no Teams quando um usuário agenda um evento ao vivo.       |
-|**Configuração de gravação**  <br>     | Essa configuração só pode ser aplicada a eventos de início rápido. Escolha uma das opções a seguir. <br><br> **Sempre gravar** Os eventos dinâmicos criados por usuários são sempre gravados. Após o evento terminar, os membros da equipe de eventos podem baixar a gravação e os participantes podem assistir ao evento. <br> **Nunca gravar** Os eventos dinâmicos criados pelos usuários nunca são gravados. <br>**Organizador pode gravar ou não** Os usuários podem decidir se desejam registrar o evento ao vivo. Se for gravada, depois que o evento terminar, os membros da equipe de eventos poderão baixar a gravação e os participantes poderão assistir ao evento.      
+|**Configuração de gravação**  <br>     | Essa configuração só pode ser aplicada a eventos produzidos no Teams. Escolha uma das opções a seguir. <br><br> **Sempre gravar** Os eventos dinâmicos criados por usuários são sempre gravados. Após o evento terminar, os membros da equipe de eventos podem baixar a gravação e os participantes podem assistir ao evento. <br> **Nunca gravar** Os eventos dinâmicos criados pelos usuários nunca são gravados. <br>**Organizador pode gravar ou não** Os usuários podem decidir se desejam registrar o evento ao vivo. Se for gravada, depois que o evento terminar, os membros da equipe de eventos poderão baixar a gravação e os participantes poderão assistir ao evento.      
 
 Você também pode fazer isso usando o Windows PowerShell. Para obter mais informações, consulte [usar o PowerShell para definir políticas de eventos dinâmicos no](set-teams-live-events-policies-using-powershell.md)Microsoft Teams. 
 
@@ -86,30 +86,30 @@ Você também pode atribuir uma política de eventos ao vivo a um ou mais usuár
 5. Quando terminar de adicionar usuários, selecione **salvar**.
  
 
-### <a name="enable-users-to-schedule-external-encoder-events"></a>Permitir que os usuários agendem eventos de codificador externo
+### <a name="enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device"></a>Permitir que os usuários agendem eventos que foram produzidos com um aplicativo ou dispositivo externo
 
-Para que os usuários agendem eventos de codificador externo, você também deve fazer o seguinte:
+Para que os usuários agendem eventos produzidos com um aplicativo ou dispositivo externo, você também deve fazer o seguinte:
 
-1. Habilite o Microsoft Stream para os usuários em sua organização. O Microsoft Stream está disponível como parte de assinaturas qualificadas do Office 365 ou como um serviço autônomo. O Microsoft Stream não está incluído nos planos Business Essentials ou Business Premium. Consulte [visão geral](https://docs.microsoft.com/stream/license-overview) de licenciamento de fluxo para obter mais detalhes.
+1. Habilite o Microsoft Stream para os usuários em sua organização. Stream está disponível como parte de assinaturas elegíveis do Office 365 ou como um serviço autônomo. O Stream não está incluído nos planos do Business Essentials ou Business Premium. Consulte [visão geral](https://docs.microsoft.com/stream/license-overview) de licenciamento de fluxo para obter mais detalhes.
 
-      Saiba mais sobre como você pode [atribuir licenças a usuários no Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) para que os usuários possam acessar o Microsoft Stream. Verifique se a Microsoft Stream não está bloqueada para os usuários conforme definido neste [artigo](https://docs.microsoft.com/stream/disable-user-organization).
+      Saiba mais sobre como você pode [atribuir licenças a usuários no Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) para que os usuários possam acessar o Stream. Certifique-se de que o fluxo não está bloqueado para os usuários, conforme definido neste [artigo](https://docs.microsoft.com/stream/disable-user-organization).
 
-2. Garanta que os usuários tenham permissão de criação de eventos ao vivo no Microsoft Stream. Por padrão, os administradores podem criar eventos dinâmicos de codificador externos. O administrador de fluxo da Microsoft pode [habilitar usuários adicionais para a criação de eventos dinâmicos](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating) em Stream.  
+2. Garanta que os usuários tenham permissão de criação de eventos ao vivo no Stream. Por padrão, os administradores podem criar eventos com um aplicativo ou dispositivo externo. O administrador de fluxo pode [habilitar usuários adicionais para a criação de eventos dinâmicos](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating) em Stream.  
 
-3. Garanta que os organizadores de eventos dinâmicos contenham a política da empresa definida pelo administrador de fluxo. Se um administrador de fluxo [da Microsoft configurou uma política de diretrizes da empresa](https://docs.microsoft.com/stream/company-policy-and-consent) e requer que os funcionários aceitem essa política antes de salvar o conteúdo, os usuários devem fazer isso antes de criar um evento ao vivo (com a produção do codificador externo) no Teams. Antes de distribuir o recurso eventos dinâmicos na organização, certifique-se de que os usuários que vão criar esses eventos ao vivo tenham sido consentos na política. 
+3. Garanta que os organizadores de eventos dinâmicos contenham a política da empresa definida pelo administrador de fluxo. Se um administrador de fluxo [configurou uma política de diretrizes da empresa](https://docs.microsoft.com/stream/company-policy-and-consent) e requer que os funcionários aceitem essa política antes de salvar o conteúdo, os usuários devem fazer isso antes de criar um evento ao vivo (com um aplicativo ou dispositivo externo) no Teams. Antes de distribuir o recurso eventos dinâmicos na organização, certifique-se de que os usuários que vão criar esses eventos ao vivo tenham sido consentos na política. 
 
 ## <a name="step-4-set-up-a-video-distribution-solution-for-live-events-in-teams"></a>Etapa 4: configurar uma solução de distribuição de vídeo para eventos dinâmicos no Microsoft Teams
 A reprodução de vídeos de eventos dinâmicos usa o ABR (streaming de taxa de bits adaptável), mas é um fluxo de difusão ponto a ponto, o que significa que cada visualizador está obtendo o próprio fluxo de vídeo da Internet. Para eventos dinâmicos ou vídeos enviados para grandes partes da sua organização, pode haver uma quantidade significativa de largura de banda de Internet consumida pelos visualizadores. Para as organizações que desejam reduzir esse tráfego de Internet para eventos dinâmicos, as soluções de eventos dinâmicos são integradas aos parceiros de entrega de vídeo confiáveis da Microsoft (SDNs) ou a redes de fornecimento de conteúdo corporativo (eCDNs). Essas plataformas SDN/eCDN permitem que as organizações otimizem a largura de banda da rede sem sacrificar as experiências de exibição do usuário final. Nossos parceiros podem ajudar a permitir uma distribuição de vídeo mais dimensionável e eficiente em toda a sua rede corporativa.
 
 **Comprar e configurar sua solução fora do teams** Obtenha ajuda especializada com o dimensionamento da entrega de vídeo aproveitando os parceiros de entrega de vídeo confiáveis da Microsoft. Antes de permitir que um provedor de distribuição de vídeo seja usado com o Microsoft Teams, você deve comprar e configurar a solução SDN/eCDN fora e separadamente do teams.
 
-As seguintes soluções do SDN/eCDN são pré-testadas e podem ser configuradas para serem usadas com o Microsoft Stream.
+As seguintes soluções do SDN/eCDN são pré-testadas e podem ser configuradas para serem usadas com o Stream.
 
 - O **streaming de Hive** oferece uma solução simples e potente para distribuição de vídeo empresarial ao vivo e sob demanda. Hive é uma solução baseada em software que não requer hardware ou largura de banda adicional e fornece uma maneira segura de permitir milhares de visualizadores de vídeo simultâneos, sem afetar a sua rede. Para os clientes que desejam entender o vídeo de impacto está em sua rede antes de comprar uma solução SDN/eCDN, o streaming de Hive também oferece uma solução de análise baseada em navegador para clientes da Microsoft. [Saiba mais](https://www.hivestreaming.com/partners/integration-partners/microsoft/).
  
 - O **Kollective** é uma plataforma de distribuição de emparelhamento inteligente baseada em nuvem que aproveita sua infraestrutura de rede existente para fornecer conteúdo, em muitos formatos (vídeo ao vivo, vídeo sob demanda, atualizações de software, patches de segurança, etc.) mais rápido e mais confiabilidade e com menos largura de banda. Nossa plataforma segura é confiável para as maiores instituições financeiras do mundo, sem necessidade de hardware, configuração e manutenção adicionais. [Saiba mais](http://www.kollective.com).
  
-- A **rampa OmniCache** oferece distribuição de rede de última geração e garante a entrega transparente do conteúdo de vídeo em WANs globais, ajudando os produtores de eventos a otimizar a largura de banda da rede e dar suporte a difusões de eventos dinâmicos e sob demanda bem-sucedidas Stream. O suporte para o OmniCache da rampa de eventos dinâmicos de início rápido estará disponível em breve.  [Saiba mais](http://www.ramp.com). 
+- A **rampa OmniCache** oferece distribuição de rede de última geração e garante a entrega transparente do conteúdo de vídeo em WANs globais, ajudando os produtores de eventos a otimizar a largura de banda da rede e dar suporte a difusões de eventos dinâmicos e sob demanda bem-sucedidas Stream. O suporte para a Ramp OmniCache para eventos dinâmicos produzidos em Teams será disponibilizado em breve. [Saiba mais](http://www.ramp.com). 
  
 > [!NOTE] 
 > Sua solução SDN ou eCDN está sujeita aos **termos de serviço e à política de privacidade do provedor de terceiros**selecionado, que governam o uso da solução do provedor. Seu uso da solução do provedor não estará sujeito aos termos de licenciamento por volume da Microsoft ou a termos de serviços online. Se você não concordar com os **termos do provedor de terceiros**, não habilite a solução no Microsoft Teams. 
