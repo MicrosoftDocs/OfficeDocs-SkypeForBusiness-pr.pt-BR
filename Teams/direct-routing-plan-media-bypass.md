@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Leia este tópico para saber como planejar o bypass de mídia com o roteamento direto do sistema telefônico.
-ms.openlocfilehash: 704b129b3d6ba7fdffd5c01886b73970e0711e60
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: c9a4a1c035afda7941f82018cc074293f338832d
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34493912"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062351"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planejar o bypass de mídia com Roteamento Direto
 
@@ -47,7 +47,7 @@ Mas vamos pressupor que um usuário esteja no mesmo prédio ou na mesma rede do 
 
 ![Mostra a sinalização e o fluxo de mídia com bypass de mídia](media/direct-routing-media-bypass-2.png)
 
-O bypass de mídia aproveita protocolos chamados de ICE (estabelecimento de conectividade interativa) no cliente das equipes e luz do ICE no SBC. Esses protocolos permitem o roteamento direto usar o caminho de mídia mais direto para obter a melhor qualidade. ICE e ICE Lite são padrões de WebRTC. Para obter informações detalhadas sobre esses protocolos, consulte RFC 5245.
+O bypass de mídia aproveita protocolos chamados de ICE (estabelecimento de conectividade interativa) no cliente de equipes e ICE Lite no SBC. Esses protocolos permitem o roteamento direto usar o caminho de mídia mais direto para obter a melhor qualidade. ICE e ICE Lite são padrões de WebRTC. Para obter informações detalhadas sobre esses protocolos, consulte RFC 5245.
 
 
 ## <a name="call-flow-and-firewall-planning"></a>Fluxo de chamadas e planejamento de firewall

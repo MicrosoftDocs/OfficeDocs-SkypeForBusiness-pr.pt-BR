@@ -13,12 +13,12 @@ ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection: M365-voice
 description: Leia este tópico para saber mais sobre a implantação de salas do Microsoft Teams em implantações em grandes escalas.
-ms.openlocfilehash: 34bd984d16da4eeb1934c7fda7bbadb0837240be
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9a5bfd888d3d70703245841a8744449854c6ffb8
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305439"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062367"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>Implantar salas do Microsoft Teams usando o System Center Configuration Manager
 
@@ -129,6 +129,9 @@ Para obter mais informações, consulte [gerenciar imagens de inicialização co
 > Você pode criar uma mídia USB inicializável para iniciar implantações baseadas em sequência de tarefas do Configuration Manager em ambientes com suporte a PXE. A mídia inicializável contém apenas a imagem de inicialização, os comandos prestart opcionais e os arquivos necessários e os binários do Configuration Manager para dar suporte à inicialização no Windows PE e à conexão com o Configuration Manager para o restante do processo de implantação. Para obter mais informações, consulte [como criar mídia inicializável](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia).
 
 ## <a name="create-configuration-manager-packages"></a>Criar pacotes do Configuration Manager
+
+> [!IMPORTANT]
+> A versão do sistema operacional necessária para cada versão do instalador do SRS muda a cada lançamento do MSI. Para determinar a melhor versão do sistema operacional para um determinado MSI, execute o script de configuração do console uma vez. Para saber mais, consulte [implantar salas do Microsoft Teams usando o System Center Configuration Manager](room-systems-scale.md).
 
 O Configuration Manager requer um número de pacotes para implantar e configurar as unidades de salas do Microsoft Teams.
 

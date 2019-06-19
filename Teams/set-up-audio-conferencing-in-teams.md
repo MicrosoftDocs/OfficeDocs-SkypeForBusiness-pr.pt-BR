@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Saiba como configurar a conferência discada ou de áudio para as pessoas em sua empresa que precisam usar um telefone para participar de chamadas em conferência. '
-ms.openlocfilehash: 9fc9369b8dd2d7054ce7a2c1508dbc73eff3dfa9
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 5bf9a4ba1928bd8532a0f97fcb899745ffb65d13
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432813"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062415"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurar Audioconferência no Microsoft Teams
 
@@ -121,7 +121,7 @@ Se você precisar de mais detalhes, consulte [Atribuir a Microsoft como o proved
 ## <a name="step-8-set-up-meeting-invitations-optional"></a>Etapa 8: Configurar os convites para reuniões (opcional)
 <a name="__top"> </a>
  
-Os números de discagem definidos para o usuário serão automaticamente adicionados aos convites da reunião que são enviados para os participantes da reunião. No entanto, você pode adicionar seus próprios links jurídico, uma mensagem de texto e um pequeno gráfico da empresa. Veja [personalizar convites de reunião](customize-meeting-invitations.md).
+Os números de discagem definidos para o usuário serão automaticamente adicionados aos convites da reunião que são enviados para os participantes da reunião. No entanto, você pode adicionar seus próprios links jurídico, uma mensagem de texto e um pequeno gráfico da empresa. Veja [personalizar convites de reunião](meeting-settings-in-teams.md#customize-meeting-invitations).
    
 ## <a name="related-topics"></a>Tópicos relacionados
 

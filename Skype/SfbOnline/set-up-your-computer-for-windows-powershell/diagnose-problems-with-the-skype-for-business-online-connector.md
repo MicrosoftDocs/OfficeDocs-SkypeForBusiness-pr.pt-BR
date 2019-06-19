@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Solucionar problemas de criação de uma sessão remota do PowerShell para se conectar ao Skype for Business Online, incluindo o módulo de importação, o Shell simultâneo, o Live ID e os erros de permissão.
-ms.openlocfilehash: f6cd98381379c14f41c1de2dc1a7b3f239463c3d
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+ms.openlocfilehash: 44214b93e4a1c555165e8bb2e699b7ff8c4e4599
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34667368"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062204"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnosticar problemas de conexão com o Conector do Skype for Business Online
 
@@ -32,6 +32,8 @@ Este tópico fornece informações que ajudarão você a diagnosticar e solucion
 - [Importar-erro de módulo causado pela política de execução do Windows PowerShell](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKPowerShellExecutionPolicy)
     
 - [Erro de importação-módulo causado por uma versão incorreta do Windows PowerShell](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKIncorrectVersion)
+    
+- [A autenticação moderna falha quando a autenticação básica do WinRM é desabilitada](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKWinRMBasicAuth)
     
 - [Falha ao se conectar ao servidor de ID dinâmica](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKFailedConnect)
     
@@ -69,6 +71,13 @@ O módulo do conector Skype for Business online pode ser executado somente no Wi
 
 - **Resolução**: a única maneira de corrigir esse problema é instalar o Windows PowerShell 3,0, que está disponível no centro de download da Microsoft [https://www.microsoft.com/en-us/download/details.aspx?id=34595](https://www.microsoft.com/en-us/download/details.aspx?id=34595)em.
   
+## <a name="modern-authentication-fails-when-winrm-basic-authentication-has-been-disabled"></a>A autenticação moderna falha quando a autenticação básica do WinRM é desabilitada
+<a name="BKMKWinRMBasicAuth"> </a>
+
+A versão mais recente do módulo conector do Skype for Business online usa autenticação moderna, mas o cliente Windows Remote Management (WinRM) subjacente deve estar configurado para permitir a autenticação básica.  A autenticação moderna usa tokens de portador que geralmente são passados na *autorização:* cabeçalho do transportador. O Windows PowerShell, no qual o Skype for Business PowerShell é criado, não permite a manipulação desse cabeçalho.  Em vez disso, o PowerShell do Skype for Business usa a *autorização: cabeçalho básico* para passar o token do transportador.
+
+Consulte [baixar e instalar o Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1) para obter instruções sobre como habilitar o WinRM para autenticação básica.
+
 ## <a name="failed-to-connect-to-live-id-server"></a>Falha ao se conectar ao servidor de ID dinâmica
 <a name="BKMKFailedConnect"> </a>
 

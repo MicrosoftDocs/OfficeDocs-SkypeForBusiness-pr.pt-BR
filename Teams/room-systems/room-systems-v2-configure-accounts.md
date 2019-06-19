@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: Leia este tópico para saber mais sobre como configurar contas para salas do Microsoft Teams no Exchange e no Skype for Business.
-ms.openlocfilehash: 2c826be24ab9051c3dd206e2f4bbc7bdc832e250
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0fe9413c8da7c50479ddceaa524813d4ab68d8c6
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305397"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062319"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Configurar contas para salas do Microsoft Teams
  
@@ -52,7 +52,7 @@ Cada conta de dispositivo é exclusiva para um único dispositivo de salas do Mi
 - Sua infraestrutura deve ser configurada para permitir que as salas do Microsoft Teams validem a conta do dispositivo e para acessar os serviços apropriados da Microsoft.
     
 > [!IMPORTANT]
-> É recomendável que a conta seja criada antes da instalação do hardware. O ideal é iniciar a preparação da conta de duas a três semanas antes da instalação. Em ambientes híbridos, a conta usada para salas do Microsoft Teams deve ter a sincronização de senha habilitada no AAD Sync porque a autenticação de salas do Microsoft Teams requer autenticação 0ffice 365.
+> É recomendável que a conta seja criada antes da instalação do hardware. O ideal é iniciar a preparação da conta de duas a três semanas antes da instalação. Em ambientes híbridos, a conta usada para salas do Microsoft Teams deve ter a sincronização de senha habilitada no AAD Sync porque a autenticação de salas do Microsoft Teams requer autenticação do Office 365.
   
 Você pode pensar em uma conta de dispositivo como a conta do recurso que as pessoas reconhecem como uma sala de conferência ou uma conta do espaço de reunião. Para agendar uma reunião usando essa sala de conferência, convide a conta para essa reunião. Para usar as salas do Microsoft Teams com mais eficiência, faça o mesmo com a conta do dispositivo atribuída a cada uma.
   

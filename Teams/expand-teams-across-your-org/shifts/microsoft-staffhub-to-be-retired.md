@@ -4,7 +4,6 @@ author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
-ms.date: 3/18/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -13,198 +12,202 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5e9857a04d1499e7ca9527044a2a66320291ac8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d832081bcd610e5d367c5d3d62ffdfe13650e238
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245870"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062423"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub a ser desativado
 
-A partir de 1 de outubro de 2019, Microsoft StaffHub será desativada. Estamos compilando recursos StaffHub em Teams da Microsoft. Hoje, equipes inclui o aplicativo desloca para o gerenciamento de agenda e recursos adicionais serão distribuir ao longo do tempo.
+A partir de 1 ° de outubro de 2019, o Microsoft StaffHub será desativado. Estamos criando recursos de StaffHub no Microsoft Teams. Hoje, o Teams inclui o aplicativo turnos para gerenciamento de agendamento e recursos adicionais se acumularão ao longo do tempo.
 
-Essas alterações fazem parte de nossos esforços contínuos para capacitar cada funcionário com Microsoft 365. Com os recursos para os funcionários de Firstline agora de equipes, cada funcionário em sua organização poderão usar equipes para simplificar o seu dia de trabalho, colaborar com os colegas de trabalho e informações de acesso e especialização para ajudá-los a realizar melhor o trabalho.
+Essas mudanças fazem parte dos nossos esforços contínuos para capacitar todos os funcionários com o Microsoft 365. Com recursos para trabalhadores de primeira mão no Microsoft Teams, todos os funcionários de sua organização poderão usar o Teams para simplificar o trabalho de trabalho, colaborar com colegas de trabalho e acessar informações e experiências para ajudá-los a fazer o melhor trabalho.
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
 ### <a name="about-staffhub-retirement"></a>Sobre StaffHub aposentadoria
 
-#### <a name="when-will-staffhub-be-retired"></a>Quando StaffHub ser retirado?
+#### <a name="when-will-staffhub-be-retired"></a>Quando o StaffHub será desativado?
 
-Iniciando ao meio da de 2019 abril, Microsoft StaffHub não ficarão mais disponível para os locatários novos e não será capaz de acessar o aplicativo a partir do iniciador de aplicativo do Office 365. Os usuários atuais ainda poderá usar o serviço até 1 de outubro de 2019, recursos adicionais no entanto não serão disponibilizados.
+Iniciando o meio de abril de 2019, o Microsoft StaffHub não estará mais disponível para novos locatários e você não poderá mais acessar o aplicativo a partir do inicializador de aplicativos do Office 365 em locatários existentes. Os usuários atuais ainda poderão usar o serviço até 1 ° de outubro de 2019, mas nenhum recurso adicional será disponibilizado.
 
-#### <a name="what-will-happen-once-staffhub-is-retired"></a>O que acontecerá quando StaffHub está desativado?
+#### <a name="what-will-happen-once-staffhub-is-retired"></a>O que acontecerá quando o StaffHub for desativado?
 
-Microsoft StaffHub irá parar de funcionar para todos os usuários em 1 de outubro de 2019. Qualquer pessoa que tenta abrir o aplicativo será mostrada uma mensagem direcionando-os para baixar as equipes. Se o usuário tem uma licença ativa que inclui as equipes e a organização tomou as etapas apropriadas para permitir que equipes, seus dados e funcionalidade de núcleo do StaffHub estará disponível para acessá-los após sua transição para equipes.
+Microsoft StaffHub deixará de funcionar para todos os usuários em 1 ° de outubro de 2019. Qualquer pessoa que tentar abrir o aplicativo será mostrada uma mensagem direcionando-o para o download de equipes. Se o usuário tiver uma licença ativa que inclua equipes e a organização tomou as etapas apropriadas para habilitar o Microsoft Teams, os dados e a funcionalidade central do StaffHub estarão disponíveis para eles na transição para o Microsoft Teams.
 
-Entre de 2019 abril e outubro de 2019, StaffHub usuários receberá notificações-app incentivando usar equipes.
+Entre abril de 2019 e 2019 de outubro, os usuários do StaffHub receberão notificações no aplicativo que o encorajam a usar o Microsoft Teams.
 
-#### <a name="will-teams-offer-all-the-functionality-currently-offered-in-staffhub"></a>As equipes oferecerá toda a funcionalidade atualmente oferecida em StaffHub?
+#### <a name="will-teams-offer-all-the-functionality-currently-offered-in-staffhub"></a>O Microsoft Teams oferecerá toda a funcionalidade oferecida atualmente no StaffHub?
 
-Em janeiro de 2019, equipes começaram a oferecer desloca que estava disponível no Microsoft StaffHub anteriormente. Este recurso permite que os gerentes de planejar e distribuir shift agendas e a oportunidade de revisar sua agenda e fazer com que o agendamento alterar solicitações de seus dispositivos móveis de membros da equipe. Para saber mais, consulte [Manage o aplicativo desloca para sua organização em equipes](manage-the-shifts-app-for-your-organization-in-teams.md).
+Em janeiro de 2019, as equipes começaram a oferecer turnos que estavam disponíveis anteriormente no Microsoft StaffHub. Esse recurso permite aos gerentes planejar e distribuir cronogramas de turno, e os membros da equipe a oportunidade de revisar o cronograma e fazer solicitações de alteração de agendamento em seus dispositivos móveis. Para saber mais, consulte [gerenciar o aplicativo turnos para sua organização no](manage-the-shifts-app-for-your-organization-in-teams.md)Microsoft Teams.
 
-Temos o compromisso de oferecer uma experiência de usuário superior e trazendo os recursos exclusivos do StaffHub para equipes. Para obter mais informações nos quais recursos serão disponibilizados em equipes, consulte [os recursos de trabalhador Firstline chegando em breve às equipes](firstline-worker-features-coming-to-teams.md).
+Estamos comprometidos em oferecer uma experiência de usuário superior e trazer os recursos exclusivos do StaffHub para o Microsoft Teams. Para obter mais informações sobre quais recursos serão disponibilizados no Microsoft Teams, consulte [recursos do primeiro trabalhador em breve para](firstline-worker-features-coming-to-teams.md)o Microsoft Teams.
 
-#### <a name="what-do-i-need-to-do-to-prepare-for-this-change"></a>O que é necessário fazer para preparar para que essa alteração?
+#### <a name="what-do-i-need-to-do-to-prepare-for-this-change"></a>O que preciso fazer para se preparar para esta mudança?
 
-Para saber como preparar para a transição de StaffHub mudanças na equipes, vá para [preparar para mover suas equipes StaffHub desloca](move-staffhub-teams-to-shifts-in-teams.md#prepare).
+Para saber como se preparar para a transição do StaffHub para turnos no Microsoft Teams, vá para preparar-se para [mover suas equipes do StaffHub para turnos](move-staffhub-teams-to-shifts-in-teams.md#prepare).
 
-#### <a name="why-cant-users-in-my-organization-access-their-staffhub-team-from-shifts-in-teams"></a>Por que os usuários na minha organização não podem acessar suas equipes StaffHub de mudanças na equipes?
+#### <a name="why-cant-users-in-my-organization-access-their-staffhub-team-from-shifts-in-teams"></a>Por que os usuários da minha organização não conseguem acessar sua equipe do StaffHub de turnos no Microsoft Teams?
 
-As equipes que foram criadas com StaffHub só podem ser exibidas e gerenciadas no StaffHub. Após um StaffHub equipe é movido para equipes, os usuários poderão exibir suas próprias agendas em desloca. Recomendamos que você se comunique essa alteração no início e se familiarizar usuários existentes com equipes.
+As equipes criadas com o StaffHub só podem ser visualizadas e gerenciadas no StaffHub. Depois que uma equipe do StaffHub for movida para o Microsoft Teams, os usuários poderão ver seus cronogramas em turnos. Recomendamos que você comunique essa alteração com antecedência e familiarize-se com os usuários existentes com o Microsoft Teams.
 
-### <a name="about-shifts"></a>Sobre desloca
+### <a name="about-shifts"></a>Sobre turnos
 
-#### <a name="what-is-shifts"></a>O que é desloca?
+#### <a name="what-is-shifts"></a>O que é turnos?
 
-O aplicativo desloca em equipes é uma ferramenta de gerenciamento de agenda que mantém Firstline trabalhadores conectados e em sincronia. Gerentes de criar, atualizar e gerenciar agendas shift para equipes e os membros da equipe podem exibir suas próprias agendas, ver quem mais está agendado para o dia, solicitar para trocar ou oferecer um turno e solicitar períodos de folga tudo a partir de seus dispositivos móveis.  
+O aplicativo turnos no Teams é uma ferramenta de gerenciamento de agendamento que mantém os funcionários de primeiro plano conectados e em sincronização. Os gerentes criam, atualizam e gerenciam os cronogramas de turnos para equipes, e os membros da equipe podem ver seus cronogramas, ver quem mais está agendado para o dia, solicitar a troca ou oferecer um turno e solicitar folga, tudo em seus dispositivos móveis.  
 
-#### <a name="which-plans-is-shifts-available-in"></a>Quais planos é desloca disponíveis no?
+#### <a name="which-plans-is-shifts-available-in"></a>Quais planos são turnos disponíveis?
 
-Desloca está disponível como parte de equipes nas seguintes planos sem qualquer custo adicional:
+Os turnos estão disponíveis como parte do teams nos seguintes planos sem custo adicional:
 
 - Office 365 Business Premium 
-- O Office 365 Enterprise F1, E1, E3, E5
+- Office 365 Enterprise F1, E1, E3, e5
 - Office 365 para educação
-- Microsoft 365 F1, E1, E3, E5
+- Microsoft 365 F1, E1, E3, e5
 
-Para obter mais informações, consulte [Disponibilidade das mudanças](manage-the-shifts-app-for-your-organization-in-teams.md#availability-of-shifts).
+Para obter mais informações, consulte [disponibilidade de turnos](manage-the-shifts-app-for-your-organization-in-teams.md#availability-of-shifts).
 
-#### <a name="how-do-i-get-shifts"></a>Como posso obter desloca? 
+#### <a name="how-do-i-get-shifts"></a>Como faço para obter turnos? 
 
-Se você já estiver em um plano que inclua desloca, pode começar a usar desloca hoje como parte das equipes. Confira a [Introdução no desloca](https://support.office.com/en-us/article/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6).
+Se já estiver em um plano que inclua turnos, você pode começar a usar turnos hoje como parte do teams. Dê uma olhada [na opção começar em turnos](https://support.office.com/en-us/article/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6).
 
-#### <a name="which-devices-or-platforms-is-shifts-available-on"></a>Quais dispositivos ou plataformas está disponível na desloca?
+#### <a name="which-devices-or-platforms-is-shifts-available-on"></a>Quais dispositivos ou plataformas estão disponíveis nos turnos?
 
-Desloca está disponível no cliente da web de equipes, cliente de desktop de equipes e nos clientes móveis de equipes (iOS e Android).
+Os turnos estão disponíveis no cliente da Web do Teams, no cliente da área de trabalho do Teams e em clientes móveis do Teams (iOS e Android).
  
-#### <a name="are-there-differences-between-the-shifts-desktop-and-web-apps-and-the-mobile-ios-and-android-apps"></a>Há diferenças entre os aplicativos de área de trabalho e web desloca e os aplicativos mobile (iOS e Android)?
+#### <a name="are-there-differences-between-the-shifts-desktop-and-web-apps-and-the-mobile-ios-and-android-apps"></a>Há diferenças entre os aplicativos da área de trabalho de turnos e da área de trabalho e dos aplicativos móveis (iOS e Android)?
 
-Para os gerentes, os aplicativos web e de área de trabalho são otimizados para criar equipes, adicionar membros, criar e publicar agendas e compartilhar conteúdo com a equipe. Gerentes geralmente usam o aplicativo móvel para aprovar solicitações, enviar mensagens rápidas para a equipe, chamar um membro da equipe e colaborar em trânsito. 
+Para gerentes, os aplicativos da área de trabalho e da Web são otimizados para criar equipes, adicionar membros, criar e publicar agendas e compartilhar conteúdo com a equipe. Geralmente, os gerentes usam o aplicativo móvel para aprovar solicitações, enviar mensagens rápidas para a equipe, chamar um membro da equipe e colaborar em qualquer lugar. 
 
-Para os membros da equipe, o aplicativo móvel é otimizado para ver sua agenda, ver quem eles está trabalhando em um dia, relógio in e check-out, definir disponibilidade, tempo de solicitação, troque ou oferecer desloca e abrir desloca. Não existem diferenças no qual os usuários podem fazer em aplicativos web e de área de trabalho versus os aplicativos móveis. Estamos trabalhando em paridade do recurso.
+Para os membros da equipe, o aplicativo móvel é otimizado para ver o cronograma dele, ver com quem eles estão trabalhando em um dia, entrar e sair, definir disponibilidade, solicitar folga, trocar ou oferecer turnos e turnos abertos. Há diferenças em que os usuários podem fazer nos aplicativos da área de trabalho e na Web em comparação com os aplicativos móveis. Estamos trabalhando com a paridade de recursos.
 
-#### <a name="are-there-differences-between-the-shifts-ios-app-and-the-android-app"></a>Existem diferenças entre o aplicativo de iOS desloca e o aplicativo Android?
+#### <a name="are-there-differences-between-the-shifts-ios-app-and-the-android-app"></a>Há diferenças entre o aplicativo turnos do iOS e o aplicativo Android?
 
-Funcionalidade principal é o mesmo entre os deslocamentos iOS e Android apps. Há pequenas diferenças de interface do usuário entre os dois aplicativos alinhe com seus padrões de design recomendado.
+A funcionalidade básica é a mesma entre os aplicativos iOS e Android de turnos. Há diferenças de interface do usuário mínimas entre os dois aplicativos para alinhar os padrões de design recomendados.
 
-#### <a name="what-browsers-does-shifts-work-on"></a>Quais navegadores desloca funciona nos?
+#### <a name="what-browsers-does-shifts-work-on"></a>Em quais navegadores o Works muda?
 
-Desloca funciona em todos os navegadores suportados equipes que inclui as versões mais recentes da Microsoft Edge, Internet Explorer, Mozilla Firefox e Google Chrome. Para obter mais informações, consulte [obter clientes para equipes](../../get-clients.md).
+Os turnos funcionam em todos os navegadores compatíveis com o que inclui as versões mais recentes do Microsoft Edge, Internet Explorer, Google Chrome e Mozilla Firefox. Para obter mais informações, consulte [obter clientes para Teams](../../get-clients.md).
 
-#### <a name="what-languages-does-shifts-support"></a>Quais idiomas desloca dá suporte?
+#### <a name="what-languages-does-shifts-support"></a>Em quais idiomas o suporte muda?
 
-Desloca está disponível nos seguintes idiomas: chinês simplificado, inglês (EUA), espanhol, russo, japonês, francês, português-Brasil, alemão, coreano, italiano, chinês tradicional, holandês, turco, sueco, dinamarquês e norueguês. Podemos planeja adicionar o suporte para idiomas adicionais no futuro.  
+Os turnos estão disponíveis nos seguintes idiomas: chinês simplificado, inglês (EUA), espanhol, russo, japonês, francês, Português (Brasil), alemão, italiano, italiano, chinês tradicional, holandês, turco, Sueco, dinamarquês e norueguês. Planejamos adicionar suporte para outros idiomas no futuro.  
 
-#### <a name="where-is-shifts-data-stored"></a>Onde desloca dados são armazenados?
+#### <a name="where-is-shifts-data-stored"></a>Onde é possível mover os dados armazenados?
 
-Desloca dados são armazenados no Windows Azure em centros de dados na América do Norte e Europa Ocidental. Conteúdo do SharePoint aproveita os grupos do Office 365 e usa o mesmo armazenamento e suporte.
+Os dados de turnos são armazenados no Azure em data centers na América do Norte e na Europa Ocidental. O conteúdo do SharePoint aproveita os grupos do Office 365 e usa o mesmo armazenamento e suporte.
 
-Para obter mais informações, consulte [data de local de mudanças](manage-the-shifts-app-for-your-organization-in-teams.md#location-of-shifts-data).
+Para obter mais informações, consulte [localização de dados de turnos](manage-the-shifts-app-for-your-organization-in-teams.md#location-of-shifts-data).
 
-#### <a name="where-can-i-learn-more-about-shifts"></a>Onde obter mais informações sobre mudanças?
+#### <a name="where-can-i-learn-more-about-shifts"></a>Onde posso saber mais sobre turnos?
 
-Para obter informações do produto, vá para [https://products.office.com/microsoft-teams/staff-scheduling-software](https://products.office.com/microsoft-teams/staff-scheduling-software).
+Para obter informações sobre o produto [https://products.office.com/microsoft-teams/staff-scheduling-software](https://products.office.com/microsoft-teams/staff-scheduling-software), acesse.
 
-Para obter orientação admin, consulte [Manage o aplicativo desloca para sua organização em equipes](manage-the-shifts-app-for-your-organization-in-teams.md)
+Para obter orientação de administração, consulte [gerenciar o aplicativo turnos para sua organização no Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
 
-Para obter ajuda do usuário final, vá para a [Ajuda de desloca para trabalhadores de Firstline](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b).
+Para obter ajuda para o usuário final, acesse a [ajuda de turnos para trabalhos iniciais](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b).
 
-### <a name="switch-from-staffhub-to-shifts-in-teams"></a>Alternar entre StaffHub e desloca em equipes
+### <a name="switch-from-staffhub-to-shifts-in-teams"></a>Alternar de StaffHub para turnos no Teams
 
-#### <a name="what-licenses-do-i-need-for-teams"></a>Quais licenças são necessárias para equipes?
+#### <a name="what-licenses-do-i-need-for-teams"></a>Quais são as licenças necessárias para o Teams?
 
-Cada usuário deve ter uma licença do Microsoft 365 ou do Office 365 ativa de um [plano de elegível](#which-plans-is-shifts-available-in) e deve ter uma licença de equipes. Para obter mais informações, consulte [mover suas equipes StaffHub mudanças na equipes](move-staffhub-teams-to-shifts-in-teams.md).
+Cada usuário deve ter uma licença ativa do Microsoft 365 ou do Office 365 de um [plano elegível](#which-plans-is-shifts-available-in) e deve receber uma licença do teams. Para obter mais informações, consulte [mover suas equipes do StaffHub para turnos no](move-staffhub-teams-to-shifts-in-teams.md)Microsoft Teams.
 
-#### <a name="how-do-i-move-my-organizations-staffhub-teams-to-teams"></a>Como faço para mover as equipes de StaffHub da minha organização às equipes?
+#### <a name="how-do-i-move-my-organizations-staffhub-teams-to-teams"></a>Como faço para mover o Teams StaffHub da minha organização para o Microsoft Teams?
 
-Para obter orientações detalhadas sobre como fazer a transição de StaffHub às equipes, consulte [mover suas equipes StaffHub Microsoft mudanças na equipes](move-staffhub-teams-to-shifts-in-teams.md).
+Para obter orientações detalhadas sobre como fazer a transição do StaffHub para o Microsoft Teams, consulte [mover suas equipes do Microsoft StaffHub para turnos no Microsoft Teams](move-staffhub-teams-to-shifts-in-teams.md).
 
-#### <a name="how-do-i-enable-teams-in-my-organization"></a>Como habilitar as equipes em minha organização?
+#### <a name="how-do-i-enable-teams-in-my-organization"></a>Como faço para habilitar o Microsoft Teams na minha organização?
 
-Por padrão, as equipes está habilitado para todas as organizações. Você pode atribuir licenças de equipes aos usuários para controlar o acesso às equipes individual. Para obter mais informações, consulte [Habilitar equipes em sua organização](../../Office-365-set-up.md) e [Gerenciar o acesso de usuário às equipes](../../user-access.md).
+Por padrão, o Microsoft Teams está habilitado para todas as organizações. Você atribui licenças de equipe aos usuários para controlar o acesso individual às equipes. Para obter mais informações, consulte [habilitar equipes em sua organização](../../Office-365-set-up.md) e [gerenciar o acesso do usuário ao Teams](../../user-access.md).
 
-#### <a name="what-if-i-currently-have-skype-for-business-enabled-in-my-organization-but-not-teams"></a>E se o Skype para negócios habilitados em minha organização, mas não equipes atualmente tiver?
+#### <a name="what-if-i-currently-have-skype-for-business-enabled-in-my-organization-but-not-teams"></a>E se eu tiver o Skype for Business atualmente habilitado em minha organização, mas não em equipes?
 
-As equipes oferece suporte a coexistência com o Skype para negócios. Para obter mais informações, consulte [entender equipes e Skype para interoperabilidade e coexistência de negócios](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md) e [migração e orientações de interoperabilidade para organizações que usam equipes em conjunto com o Skype para negócios](../../migration-interop-guidance-for-teams-with-skype.md).
+O Microsoft Teams oferece suporte a coexistência com o Skype for Business. Para obter mais informações, consulte [noções básicas sobre equipes e](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md) interoperabilidade e interoperabilidade e orientação de interoperabilidade e [migração para organizações que usam o Skype for Business](../../migration-interop-guidance-for-teams-with-skype.md).
 
-#### <a name="does-each-user-need-to-have-an-office-365-account-or-azure-active-directory-azure-ad-account"></a>Cada usuário precisa ter uma conta do Office 365 ou a conta do Windows Azure Active Directory (AD Azure)?
+#### <a name="does-each-user-need-to-have-an-office-365-account-or-azure-active-directory-azure-ad-account"></a>Cada usuário precisa ter uma conta do Office 365 ou uma conta do Azure Active Directory (Azure AD)?
 
-Sim, cada membro do gerente e equipe usando equipes e desloca dentro de equipes deve ter uma conta do Office 365 (Azure AD) e deve ter uma licença válida.
+Sim, cada gerente e membro da equipe que use o Microsoft Teams e turnos dentro do teams devem ter uma conta do Office 365 (Azure AD) e deve ser atribuído uma licença válida.
  
-#### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-office-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>Em StaffHub, pode adicionar um prefixo especial todos Office 365 grupos que foram criados por equipes StaffHub. Posso fazer o mesmo em equipes?
+#### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-office-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>No StaffHub, posso adicionar um prefixo especial a todos os grupos do Office 365 que foram criados por StaffHub Teams. Eu posso fazer o mesmo no Teams?
 
-Você não terá o mesmo recurso quando você move de StaffHub às equipes. Se você precisar se aplicam a consistência de nome todos os grupos de 365 Office, você pode usar a [diretiva de nomenclatura de grupos do Office 365](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).
+Você não terá a mesma funcionalidade quando mudar do StaffHub para o Microsoft Teams. Se precisar aplicar a consistência de nomes a todos os grupos do Office 365, você pode usar a [política de nomenclatura de grupos do office 365](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).
 
-#### <a name="will-team-names-be-the-same-in-teams"></a>Nomes de equipe será o mesmo em equipes?
+#### <a name="will-team-names-be-the-same-in-teams"></a>Os nomes de equipes serão iguais no Microsoft Teams?
 
-É possível que o nome de uma equipe será diferente. Nomes de equipe em equipes usam o nome do grupo do Office 365. Se o nome da equipe StaffHub for diferente do nome do Office 365 grupo correspondente, você verá um nome diferente quando você alterna para equipes.
+É possível que o nome de uma equipe seja diferente. Os nomes de equipe no Teams usam o nome do grupo do Office 365. Se o nome da equipe do StaffHub for diferente do nome do grupo correspondente do Office 365, você verá um nome diferente ao alternar para o Microsoft Teams.
 
-#### <a name="what-happens-to-team-membership-when-a-staffhub-team-is-moved-to-teams"></a>O que acontece com membros da equipe, quando uma equipe de StaffHub é movida para equipes?
+#### <a name="what-happens-to-team-membership-when-a-staffhub-team-is-moved-to-teams"></a>O que acontece com a participação da equipe quando uma equipe do StaffHub é movida para o Microsoft Teams?
 
-A associação da equipe é mantida quando uma equipe de StaffHub é movida para equipes. Números de telefone de membros da equipe não serão exibidos no desloca. Se o número de telefone StaffHub corresponde ao número de telefone no Azure AD, ele será armazenado no Azure AD para essa conta de usuário. 
+A associação da equipe é mantida quando uma equipe do StaffHub é movida para o Microsoft Teams. Os números de telefone dos membros da equipe não serão exibidos em turnos. Se o número de telefone StaffHub corresponder ao número de telefone do Azure AD, ele será armazenado no Azure AD para essa conta de usuário. 
 
-Recomendamos que você revise suas listas de participação de equipe existente em StaffHub e onde for possível alinhar os números de telefone no Azure relevante identidades do AD.
+Recomendamos que você examine os escalas de sua equipe existentes no StaffHub e, quando possível, alinhe os números de telefone às identidades relevantes do Azure AD.
  
-#### <a name="what-happens-to-staffhub-team-members-who-arent-provisioned-or-whose-status-is-inactive"></a>O que acontece com membros da equipe StaffHub que não são provisionadas ou cujo status está inativo?
+#### <a name="what-happens-to-staffhub-team-members-who-arent-provisioned-or-whose-status-is-inactive"></a>O que acontece com os membros da equipe do StaffHub que não estão provisionados ou cujo status está inativo?
 
-Agenda do usuário será movida para desloca, no entanto, o usuário não será um membro da equipe ou um grupo do Office 365.
+O cronograma do usuário será movido para turnos, no entanto, o usuário não será um membro da equipe ou um grupo do Office 365.
 
-Para contas inativas que não estão vinculadas a uma conta de usuário do Windows Azure AD, um gerente pode garantir o usuário é adicionado como um membro da equipe adicionando um endereço de email válido do Office 365 na página de membros da equipe de StaffHub, de modo que o usuário está vinculado ao correto Azure AD conta o organização de IV.
+Para contas inativas que não estão vinculadas a uma conta de usuário do Azure AD, um gerente pode garantir que o usuário seja adicionado como um membro da equipe adicionando um endereço de email válido do Office 365 na página de membros da equipe do StaffHub para que o usuário esteja vinculado à conta do Azure AD correta na organização de infravermelho.
 
-Outra opção é para os administradores para executar o **Add-StaffHubMember** e cmdlets de **Remove-StaffHubUser** para remover uma conta não provisionado de uma equipe de StaffHub e adicionar o usuário volta para a equipe com seu UPN.
+Outra opção é para os administradores executarem os cmdlets **Add-StaffHubMember** e **Remove-StaffHubUser** para remover uma conta não provisionada de uma equipe do StaffHub e adicionar o usuário de volta à equipe com seu UPN.
 
-Recomendamos que você verifique se que todos os usuários em sua organização são abordados com uma licença apropriada para minimizar a interrupção e o acesso aos serviços.
+Recomendamos que você certifique-se de que todos os usuários em sua organização estejam cobertos por uma licença apropriada para minimizar a interrupção e o acesso aos serviços.
  
-#### <a name="what-happens-to-chats-in-staffhub"></a>O que acontece com bate-papos em StaffHub?
+#### <a name="what-happens-to-chats-in-staffhub"></a>O que acontece com chats no StaffHub?
 
-Para ajudar os usuários de transição, podemos plano para migrar dados de histórico de chat em StaffHub às equipes. A quantidade de histórico de chat que estarão disponível em equipes depende em quanto tempo você configurar sua organização para a transição. É recomendável executar uma ação não mais recente do que 30 de junho de 2019 para fornecer tempo suficiente para fazer a transição de 90 dias de dados por 1 de outubro de 2019.
+Para ajudar os usuários de transição, pretendemos migrar o histórico de chats de dados no StaffHub para o Teams. A quantidade de histórico de chats que estará disponível no Teams dependerá do tempo em que você configurou sua organização para a transição. Recomendamos que você não dê mais tempo do que 30 de junho de 2019 para fornecer tempo suficiente para fazer a transição de 90 dias de dados de 1 ° de outubro de 2019.
 
-Certifique-se de que a criação de grupo do Office 365 está habilitada no Centro de administração do Microsoft 365 antes de começa a transição, como isso é essencial para nós possibilidade de mover os dados de bate-papo StaffHub em equipes. Falha ao ativar esse serviço por 30 de junho de 2019 resultará em uma data de migração posterior ou menos dados de bate-papo, sendo copiados.
+Verifique se a criação de grupos do Office 365 está habilitada no centro de administração do Microsoft 365 antes que a transição comece, pois é essencial que possamos mover seus dados de chat do StaffHub para o Microsoft Teams. Se você não ativar esse serviço até 30 de junho de 2019, isso resultará em uma data de migração posterior ou menos dados de chat sendo copiados.
 
-#### <a name="can-i-export-shift-schedules-from-shifts"></a>Pode exportar shift agendas de desloca?
+#### <a name="what-happens-to-files-that-have-been-uploaded-to-staffhub"></a>O que acontece com os arquivos que foram carregados no StaffHub?
+
+Você pode mover os arquivos necessários de StaffHub para o Microsoft Teams. Os arquivos que você move são armazenados na pasta Geral do site de equipe no SharePoint Online. No Teams, os usuários podem acessar os arquivos na guia **arquivos** do canal geral da equipe. Para saber mais, confira [mover suas equipes do Microsoft StaffHub para turnos no Microsoft Teams](move-staffhub-teams-to-shifts-in-teams.md).
+
+#### <a name="can-i-export-shift-schedules-from-shifts"></a>Posso exportar agendas de turnos de turnos?
   
-Você pode exportar informações de agenda shift para um arquivo do Excel no desloca desktop e web apps. Você pode importar essas informações para sistemas e ferramentas de sua organização.
+Você pode exportar as informações de agendamento do turno para um arquivo do Excel a partir da área de trabalho de turnos e aplicativos Web. Em seguida, você pode importar essas informações para os sistemas e ferramentas de sua organização.
 
-#### <a name="how-can-i-recover-a-schedule-if-i-accidentally-deleted-a-team"></a>Como recuperar a uma agenda se eu acidentalmente excluído de uma equipe?
+#### <a name="how-can-i-recover-a-schedule-if-i-accidentally-deleted-a-team"></a>Como faço para recuperar um cronograma se eu excluir acidentalmente uma equipe?
 
-Excluir uma agenda está vinculada a exclusão de uma equipe. Se você recuperar uma equipe, o agendamento não será recuperado.
+A exclusão de um cronograma está vinculada à exclusão de uma equipe. Se você recuperar uma equipe, o cronograma não será recuperado.
 
-#### <a name="what-powers-the-file-sharing-capability-in-teams-where-are-files-stored"></a>O que habilita o recurso nas equipes de compartilhamento de arquivo? Onde os arquivos são armazenados?
+#### <a name="what-powers-the-file-sharing-capability-in-teams-where-are-files-stored"></a>O que energiza o recurso de compartilhamento de arquivos no Microsoft Teams? Onde os arquivos são armazenados?
 
-O arquivo de recurso, a capacidade de um gerente para distribuir arquivos aos membros da equipe de compartilhamento é ligado back-end pelo SharePoint Online. Quando uma equipe é criada, um grupo do Office 365 é provisionado automaticamente para essa equipe em segundo plano.
+A capacidade de compartilhamento de arquivos, a capacidade de um gerente de distribuir arquivos para os membros da equipe, é ativada no back-end pelo SharePoint Online. Quando uma equipe é criada, um grupo do Office 365 é automaticamente provisionado para essa equipe em segundo plano.
 
-Para saber mais, consulte [como o SharePoint da Online e do OneDrive for Business interagem com equipes](../../SharePoint-OneDrive-interact.md).
+Para saber mais, veja [como o SharePoint Online e o onedrive for Business interagem com o](../../SharePoint-OneDrive-interact.md)Microsoft Teams.
  
-#### <a name="is-there-integration-between-shifts-and-the-outlook-calendar-can-i-export-a-schedule-to-a-calendar"></a>Há integração entre desloca e o calendário do Outlook? Pode exportar uma agenda para um calendário?
+#### <a name="is-there-integration-between-shifts-and-the-outlook-calendar-can-i-export-a-schedule-to-a-calendar"></a>Há integração entre turnos e o calendário do Outlook? É possível exportar um cronograma para um calendário?
  
-Trabalhadores Firstline pode ver sua agenda de trabalho inteira resumidas desloca. Podemos vai suporte nativa integração com o calendário do Outlook como parte de nosso roteiro. Enquanto isso, use o Microsoft Flow para configurar a integração com desloca em equipes e o Outlook e o Google calendários.
+Os primeiros funcionários podem ver toda a agenda de trabalho em um relance em turnos. Vamos dar suporte à integração nativa com o calendário do Outlook como parte do nosso roteiro. Nesse meio tempo, use o fluxo da Microsoft para configurar a integração com turnos no Teams e nos calendários do Outlook e do Google.
 
-#### <a name="do-i-need-to-train-users-on-how-to-use-shifts-if-theyre-already-familiar-with-staffhub"></a>É necessário treinar usuários sobre como usar desloca se eles já estiverem familiarizados com StaffHub?
+#### <a name="do-i-need-to-train-users-on-how-to-use-shifts-if-theyre-already-familiar-with-staffhub"></a>Preciso treinar os usuários sobre como usar turnos se já estiverem familiarizados com o StaffHub?
 
-Não há treinamento adicional é necessário. Eles podem usar desloca de forma semelhante a como eles usaram StaffHub. 
+Não é necessário treinamento adicional. Eles podem usar turnos de maneira semelhante à de usar o StaffHub. 
  
-#### <a name="what-admin-controls-are-available-to-manage-whether-users-in-my-organization-can-use-shifts"></a>Quais controles de admin estão disponíveis para determinar se os usuários na minha organização podem usar o desloca?  
+#### <a name="what-admin-controls-are-available-to-manage-whether-users-in-my-organization-can-use-shifts"></a>Quais controles de administração estão disponíveis para gerenciar se os usuários em minha organização podem usar turnos?  
   
-Você pode ativar ou desativar desloca toda a organização para todos os usuários em sua organização. No Centro de administração do Microsoft Teams, você também pode usar a diretiva de instalação do trabalhador Firstline app para personalizar as equipes de sua força de trabalho Firstline. A política é configurada com os aplicativos de atividade, desloca, Chat e chamada. Atribuindo os pins política esses aplicativos para a barra de aplicativos em equipes para acesso rápido e fácil pelos usuários. 
+Você pode ativar ou desativar os turnos de toda a organização para todos os usuários da sua organização. No centro de administração do Microsoft Teams, você também pode usar a política de configuração do aplicativo de trabalho do primeiro trabalho para personalizar o Teams para sua força de trabalho inicial. A política é configurada com os aplicativos atividade, turnos, chat e chamadas. A atribuição da política fixa esses aplicativos à barra de aplicativos no Microsoft Teams para acesso rápido e fácil pelos usuários. 
 
-Para saber mais, consulte [Manage o aplicativo desloca para sua organização em equipes](manage-the-shifts-app-for-your-organization-in-teams.md).
+Para saber mais, consulte [gerenciar o aplicativo turnos para sua organização no](manage-the-shifts-app-for-your-organization-in-teams.md)Microsoft Teams.
 
-#### <a name="what-powershell-controls-are-available-for-teams"></a>Quais controles PowerShell estão disponíveis para equipes?
+#### <a name="what-powershell-controls-are-available-for-teams"></a>Quais controles do PowerShell estão disponíveis para o Teams?
 
-Você pode gerenciar equipes por meio do módulo de PowerShell de equipes da Microsoft e do Skype para o módulo de PowerShell do Business. Para obter mais informações, consulte [Visão geral do PowerShell equipes](../../teams-powershell-overview.md). Neste momento, não há nenhum disponível para gerenciar desloca os cmdlets do PowerShell específicos.  
+Você gerencia equipes por meio do módulo do Microsoft Teams PowerShell e do módulo PowerShell do Skype for Business. Para obter mais informações, consulte [visão geral do teams PowerShell](../../teams-powershell-overview.md). No momento, não há cmdlets específicos do PowerShell disponíveis para gerenciar turnos.  
 
-Caso se trate de algo que esteja interessado, envie uma solicitação por meio do [portal de comentários de equipes em UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform).
+Se isso for algo de seu interesse, envie-nos uma solicitação pelo [portal de comentários do teams no UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform).
 
-#### <a name="what-will-happen-with-the-staffhub-api-which-is-currently-in-private-preview"></a>O que acontece com a API de StaffHub que está atualmente no modo de visualização particular?
+#### <a name="what-will-happen-with-the-staffhub-api-which-is-currently-in-private-preview"></a>O que acontecerá com a API StaffHub que está atualmente em visualização privada?
 
-Se você tiver criado qualquer integrações com as APIs StaffHub, essas APIs serão preteridos. Podemos liberado APIs do Microsoft Graph para oferecer suporte a integrações com seus recursos humanos, folha de pagamento ou soluções de gerenciamento de força de trabalho. Para saber mais, consulte [usar a API do Microsoft Graph para trabalhar com as equipes](https://docs.microsoft.com/graph/api/resources/teams-api-overview).
+Se você tiver criado todas as integrações com as APIs do StaffHub, essas APIs serão preteridas. Lançamos APIs do Microsoft Graph para dar suporte a integrações com suas soluções de gerenciamento de recursos humanos, de folha de pagamento ou de força de equipe. Para saber mais, consulte [usar a API do Microsoft Graph para trabalhar com o Microsoft Teams](https://docs.microsoft.com/graph/api/resources/teams-api-overview).
 
-#### <a name="is-reporting-available-to-view-shifts-usage-across-my-organization"></a>O relatório está disponível para exibir o uso de deslocamentos em minha organização?
+#### <a name="is-reporting-available-to-view-shifts-usage-across-my-organization"></a>O relatório está disponível para exibir o uso de turnos na minha organização?
 
-Como desloca é um aplicativo em equipes, você pode visualizar o uso por meio de relatórios de equipes. Para obter mais informações, confira [as equipes de relatórios no Centro de administração de equipes da Microsoft](../../teams-analytics-and-reports/teams-reporting-reference.md) e [relatórios de atividade de equipes no Centro de administração do Microsoft 365](../../teams-activity-reports.md).
+Como turnos é um aplicativo no Teams, você pode exibir o uso por meio de relatórios do teams. Para obter mais informações, confira os relatórios do [Teams no centro de administração do Microsoft Teams](../../teams-analytics-and-reports/teams-reporting-reference.md) e [nos relatórios de atividades do Microsoft Teams no centro de administração do Microsoft 365](../../teams-activity-reports.md).
 
-#### <a name="where-can-i-provide-feedback"></a>Onde posso fornecer comentários?
+#### <a name="where-can-i-provide-feedback"></a>Onde posso enviar comentários?
   
-O aplicativo móvel, toque **mais** no canto superior esquerdo da tela, vá para **configurações** > **Enviar comentários** ou **um problema de relatório**. Da mesma forma, em aplicativos web e de área de trabalho, no canto inferior esquerdo da tela, vá **Ajuda** > **compartilhar uma ideia** ou **um problema de relatório**.
+No aplicativo móvel, toque em **mais** no canto superior esquerdo da tela, vá para **configurações** > **enviar comentários** ou **relatar um problema**. Da mesma forma, nos aplicativos da área de trabalho e Web, no canto inferior esquerdo da tela, acesse **ajuda** > **compartilhar uma ideia** ou **relatar um problema**.

@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Este artigo descreve como monitorar e solucionar problemas de configuração de roteamento direto.
-ms.openlocfilehash: eeae12aafba87d9af210138f546ed82b12acbbd7
-ms.sourcegitcommit: 1a768e470a9509139eeb24034def12630acb7914
+ms.openlocfilehash: c1cb84cd8ee764c58441ad9d5d33f18b77336a40
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "34915152"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062375"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Monitorar e solucionar problemas do Roteamento Direto
 
@@ -66,6 +66,8 @@ Se o SBC em nosso exemplo enviou opções em qualquer período entre 11, 8 AM e 
 O rebaixamento significa que o SBC não será tentado primeiro. Por exemplo, temos sbc1.contoso.com e sbc2.contoso.com com prioridade igual.  
 
 Se o sbc1.contoso.com não enviar opções de SIP em um intervalo regular, conforme descrito acima, ele será rebaixado. Em seguida, sbc2.contoso.com tenta fazer a chamada. Se sbc2. contoso. con não puder enviar a chamada, o sbc1.contoso.com (rebaixado) será tentado novamente antes de uma falha ser gerada. 
+
+Se dois (ou mais) SBCs em uma rota concidered Healthy e Equals, a ordem aleatória Yates aplicada para distrubute as chamadas entre o SBCs.
 
 ## <a name="monitor-call-quality-analytics-dashboard-and-sbc-logs"></a>Monitorar o painel de análise de qualidade de chamada e os logs SBC 
  
