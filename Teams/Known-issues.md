@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f45556f88513d7f35aec7fda8f0ded40848eece8
-ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
+ms.openlocfilehash: 76efaefecf17b37b7c0a802f738cde493fa2c194
+ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35062311"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "35115950"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -211,10 +211,6 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |Os usuários podem não conseguir alternar entre contas em dispositivos móveis gerenciados pelo Intune  <br/> |Os usuários podem não conseguir alternar entre contas em dispositivos móveis gerenciados pelo Intune.  <br/> |Não há solução alternativa.  <br/> |20/09/2017  <br/>|
-
-|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
-|:-----|:-----|:-----|:-----|
-|Não é possível usar o seletor divertido, Giphys ou figurinhas no aplicativo móvel  <br/> |Você não pode usar gifs, emojis ou figurinhas nos clientes móveis.  <br/> |Não há solução alternativa.  <br/> |13/03/2017  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
