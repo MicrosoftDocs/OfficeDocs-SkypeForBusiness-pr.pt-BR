@@ -13,16 +13,16 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Integração do EHR do aplicativo Microsoft Teams pacientes
-ms.openlocfilehash: d2177e4201a1c7d7087a4c04ffffbbf52dd7366c
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: b76dd4d721d934b4597c5faf1a8f2fc739d5281d
+ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548306"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "35115989"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Integração dos Registros Eletrônicos de Saúde no Microsoft Teams
 
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)] 
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 Para participar da visualização particular, consulte [registrar na visualização particular](#enroll-in-the-private-preview).
 
@@ -71,7 +71,16 @@ A autenticação do serviço para o serviço deve ser feita por meio do [fluxo d
 4. O ponto de extremidade de metadados que hospeda a instrução de conformidade deve ser não autenticado, deve ser acessível sem token de autenticação.
 5. O serviço de parceiro fornece o ponto de extremidade do token para que o aplicativo pacientes solicite um token de acesso usando um fluxo de credenciais do cliente. A URL do token de acordo com o servidor de autorização deve fazer parte da instrução FHIR conformidade (funcionalidade) buscada pelos metadados no servidor FHIR como neste exemplo:
 
-![Captura de tela da URL do token em um exemplo de código](../../media/Patient-app-5.png)
+* * *
+    {"resourceType": "CapabilityStatement",.
+        .
+        .
+        "Rest": [{"Mode": "servidor", "segurança": {"extensão": [{"Extension": [{"URL": "token", "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/tokenvalueUri": ""}, {"URL": ""}], "serviço":https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize""}], "URL":http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris""}], "serviço": [{"codificação": [{"sistema":http://hl7.org/fhir/ValueSet/restful-security-service"", "código": "OAuth" } ] } ] }, .
+                .
+                .
+            } ] }
+
+* * *
 
 Uma solicitação de um token de acesso consiste nos seguintes parâmetros:
 
@@ -153,6 +162,6 @@ Depois de criar o servidor de FHIR de código-fonte aberto, é muito fácil se c
 
     ![Captura de tela das configurações do servidor de aplicativos pacientes](../../media/patients-server.png)
 
-5. Comece a usar o aplicativo para pesquisar pacientes do servidor/EHR do FHIR e adicioná-los a uma lista e [nos enviar comentários](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback) se algo não funcionar. Além disso, para estabelecer uma versão totalmente autenticada do fluxo do > FHIR Server do aplicativo pacientes, entre em contato com o Microsoft Teams for Healthcare Product Engineering por meio da solicitação de e-mail mencionada anteriormente para esclarecer os requisitos e, ajude a habilitar isso para você de acordo com os requisitos de autenticação descritos acima no documento da interface FHIR.  
+5. Comece a usar o aplicativo para pesquisar pacientes do servidor/EHR do FHIR e adicioná-los a uma lista e [nos enviar comentários](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback) se algo não funcionar. Além disso, para estabelecer uma versão totalmente autenticada do fluxo do FHIR do aplicativo pacientes-> do servidor, entre em contato com o Microsoft Teams for Healthcare Product Engineering, por meio da solicitação de e-mail mencionada anteriormente para esclarecer os requisitos e, ajude a habilitar isso para você de acordo com os requisitos de autenticação descritos acima no documento da interface FHIR.  
 
 

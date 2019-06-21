@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Saiba como configurar o roteamento direto do sistema de telefonia da Microsoft.
-ms.openlocfilehash: 5835357a283c80c4dc5a99310ab2d527e55a8bdb
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+ms.openlocfilehash: 1c93d8b028da3fb1aaf68241a974170d0045b950
+ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34667494"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "35116013"
 ---
 # <a name="configure-direct-routing"></a>Configurar o Roteamento Direto
 
@@ -114,7 +114,8 @@ A tabela a seguir lista os parâmetros adicionais que você pode usar em definin
 |Não|ForwardPAI|Indica se o header de P-Asserted-Identity (PAI) será encaminhado junto com a chamada. O header PAI oferece uma forma de verificar a identidade do chamador. Se habilitado, o cabeçalho de identificação privacidade: também será enviado. O valor padrão é **false** ($false).|False|True<br/>False|Boolean|
 |Não|SendSIPOptions |Define se um SBC irá ou não enviará as opções de SIP. Se desabilitado, o SBC será excluído do sistema de monitoramento e alerta. É altamente recomendável que você ative as opções do SIP. O valor padrão é **true**. |True|True<br/>False|Boolean|
 |Não|MaxConcurrentSessions |Usado pelo sistema de alerta. Quando qualquer valor for definido, o sistema de alerta gerará um alerta para o administrador do locatário quando o número da sessão simultânea for 90% ou superior a este valor. Se o parâmetro não estiver definido, os alertas não serão gerados. No entanto, o sistema de monitoramento reportará o número da sessão simultânea a cada 24 horas. |Vazio|Vazio<br/>de 1 a 100.000 ||
-|Não|Possibilita|Usado para habilitar este SBC para chamadas de saída. Pode ser usado para remover temporariamente o SBC, enquanto ele está sendo atualizado ou durante a manutenção. |False|True<br/>False|Boolean|
+|Não|MediaRelayRoutingLocationOverride |Permite a seleção de caminho para mídia manualmente. O roteamento direto atribui um datacenter para caminho de mídia com base no IP público do SBC. Sempre selecionamos mais próximo ao Datacenter do SBC. No entanto, em alguns casos, um IP público de, por exemplo, um intervalo dos EUA pode ser atribuído a um SBC localizado na Europa. Nesse caso, vamos usar o caminho de mídia ideal. Esse parâmetro permite definir manualmente a região preferida para tráfego de mídia. Recomendamos configurar esse parâmetro apenas se os logs de chamada indicar claramente que a atribuição automática do Media Center para o caminho de mídia não atribui o mais próximo possível ao Datacenter do SBC. |Nenhum|Códigos de país no formato ISO||
+|Não|Habilitado|Usado para habilitar este SBC para chamadas de saída. Pode ser usado para remover temporariamente o SBC, enquanto ele está sendo atualizado ou durante a manutenção. |False|True<br/>False|Boolean|
  
 ### <a name="verify-the-sbc-pairing"></a>Verificar o emparelhamento de SBC 
 
