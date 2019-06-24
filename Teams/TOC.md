@@ -27,7 +27,6 @@
 ## [Gerenciar políticas de mensagens](messaging-policies-in-teams.md)
 ## [Visão geral da associação dinâmica de equipes](dynamic-memberships.md)
 ## [Presença](presence-admins.md)
-## [Comunicar-se com os usuários do Teams em outras organizações](let-your-teams-users-communicate-with-other-people.md)
 ## [Arquivar ou excluir uma Equipe](archive-or-delete-a-team.md)
 
 
@@ -70,7 +69,7 @@
 ### [Editar configurações de usuário do Teams em massa](edit-user-settings-in-bulk.md)
 ### [Gerenciar políticas de configuração de aplicativo no Teams](teams-app-setup-policies.md)
 ### [Configurar o aplicativo de Reuniões do Skype para trabalhar com o Teams](configure-skype-meetings-app-to-work-with-teams.md)
-### [Comunicar-se com os usuários do Teams em outras organizações](let-your-teams-users-communicate-with-other-people.md)
+### [Gerenciar acesso externo](manage-external-access.md)
 ### [Usar a tradução de mensagens embutida](inline-message-translation-teams.md)
 ### [Usar a pesquisa de diretório no escopo do Microsoft Teams](teams-scoped-directory-search.md)
 
@@ -643,7 +642,7 @@
 ### [Introdução ao Teams para Organizações de Saúde](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [Introdução aos modelos do Teams para Organizações de Saúde](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Introdução às Mensagens Seguras para Organizações de Saúde](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
-### [Definir um representante em uma mensagem de status](expand-teams-across-your-org/healthcare/hc-delegates.md)
+### [Delegação de mensagem](expand-teams-across-your-org/healthcare/hc-delegates.md)
 ### [Integração dos Registros Eletrônicos de Saúde no Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
 #### [Especificação de interface DSTU2](expand-teams-across-your-org/healthcare/dstu2-interface.md)
 #### [Especificação de interface STU3](expand-teams-across-your-org/healthcare/stu3-interface.md)
