@@ -13,18 +13,22 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
 description: Um usuário pode definir explicitamente outro usuário como um representante na mensagem de status.
-ms.openlocfilehash: be7092d2a68010d00a2d214f12bfe9011d44bbc5
-ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
+ms.openlocfilehash: 451577ce033f9a67bbc13ebbe2361083ab035e48
+ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "35119480"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131500"
 ---
-# <a name="set-a-delegate-in-a-status-message"></a>Definir um representante em uma mensagem de status
+# <a name="message-delegation"></a>Delegação de mensagens
 
-Um usuário já pode definir explicitamente seu status como ausente ou não incomodar e fornecer texto personalizado. O recurso de delegação permite que eles @username mencionem outro usuário em parte de uma mensagem de status de texto e sugerimos que, enquanto eles não estiverem disponíveis, que desejam entrar em contato com ele, entre em contato com o @username usuário mencionado. Alguém que esteja tentando contatá-los pode passar o mouse sobre o representante indicado e facilmente enviar mensagens.  A pessoa que foi atribuída como representante é notificada de que foram nomeadas como um representante.
+Um usuário já pode definir explicitamente seu status como ausente ou não incomodar e fornecer texto personalizado. O recurso de delegação de mensagens funciona da seguinte maneira:
 
-Esse é um processo iniciado pelo usuário no cliente e não é necessário ter envolvimento com o administrador.
+1. Um usuário @username mencionar outro usuário em parte de uma mensagem de status de texto, sugerindo que, enquanto eles não estiverem disponíveis, entrarem em contato com o usuário @username mencionado.
+2. A pessoa que foi atribuída como representante é notificada de que foram nomeadas como um representante.
+3. Alguém que está tentando entrar em contato com o primeiro usuário pode passar o mouse sobre o representante indicado e enviar facilmente o representante para a mensagem.  
+
+Esse é um processo iniciado pelo usuário no cliente e não é necessário ter um envolvimento do administrador para habilitar o recurso. 
 
 ## <a name="delegation-use-scenario-in-healthcare"></a>Cenário de uso de delegação na área de saúde
 
@@ -34,7 +38,7 @@ Esse é um processo iniciado pelo usuário no cliente e não é necessário ter 
 
 ## <a name="impact-of-co-existence-modes-on-user-status-in-the-teams-client"></a>Impacto dos modos de coexistência no status do usuário no cliente da equipe
 
-Os administradores devem estar cientes de que as anotações de status e as referências de delegação dependerão parcialmente do modo de coexistência de um usuário. Esta matriz mostra as possibilidades:
+Os administradores devem estar cientes de que as anotações de status e os comportamentos de referência de delegação dependerão parcialmente do modo de coexistência de um usuário. Esta matriz mostra as possibilidades:
 
 |Modo de co-existência | Comportamento esperado|
 |---|---|
@@ -49,15 +53,11 @@ Um usuário só poderá definir uma anotação no Microsoft Teams se seu modo fo
   
 Não há indicação visual de que uma anotação foi definida no Skype for Business.
 
-O Skype for Business não impõe um limite de caracteres nas anotações de status. O Microsoft Teams só exibirá os primeiros 280 caracteres de uma anotação definida no Skype for Business. Uma elipse (...) no final indica truncamento.
+O Skype for Business não impõe um limite de caracteres nas anotações de status. O Microsoft Teams só exibirá os primeiros 280 caracteres de uma anotação definida no Skype for Business. Uma elipse (...) no final de uma nota indica truncamento.
   
 O Skype for Business não dá suporte a tempos de expiração de anotações.
 
 Não há suporte para a migração de anotações do Skype for Business para o Teams quando um usuário é atualizado para o modo TeamsOnly.
-
-## <a name="configure-allowing-clients-to-use-delegates"></a>Configurar permitindo que clientes usem representantes
-
-Esse recurso não requer configuração no centro de administração do Microsoft Teams ou usando o PowerShell. Em locatários que dão suporte a ele, ele está disponível por padrão no cliente do teams.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

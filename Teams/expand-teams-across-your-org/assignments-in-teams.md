@@ -15,16 +15,14 @@ description: Saiba como gerenciar atribuições no centro de administração do 
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22c53433548715fdc2a84a0f45ce0c3fc02d7b98
-ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
+ms.openlocfilehash: 8317a038f110a096d2185e7c5ba668a55a6913a4
+ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591716"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131516"
 ---
 # <a name="assignments-in-teams-for-education"></a>Tarefas do Teams for Education
-
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 As atribuições são tarefas ou unidades de trabalho atribuídas a um membro do aluno ou da equipe em uma classe como parte do estudo. Você pode criar tarefas dentro da classe Teams.
 
@@ -36,6 +34,8 @@ Com as configurações de administrador no centro de administração do Microsof
 
 <a name="#bkemaildigest"> </a>
 ### <a name="weekly-guardian-email-digest"></a>Resumo semanal do email do guardião
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
+
 Emails do guardião são e-mails semanais enviados para pais ou tutores dos alunos. Os emails contêm informações sobre as tarefas da semana anterior e para a próxima semana e serão enviados pelo final de semana. Os emails precisam ser atualizados pelos administradores usando o recurso de sincronização de dados da escola.
 
 Essa configuração está desativada por padrão.
@@ -48,10 +48,11 @@ Este é um produto ou serviço de terceiros sujeito aos seus próprios termos e 
 
 Essa configuração está desativada por padrão.
 
-[Saiba mais sobre o MakeCode](https://www.microsoft.com/${locale}/makecode)
+[Saiba mais sobre o MakeCode](https://www.microsoft.com/makecode)
 
 <a name="#turnitin"> </a>
 ### <a name="turnitin"></a>Turnitin
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 TurnItIn é um serviço de detecção de plagiarism. Este é um produto ou serviço de terceiros sujeito aos seus próprios termos e políticas de privacidade. Você é responsável pelo uso de produtos e serviços de terceiros.
 

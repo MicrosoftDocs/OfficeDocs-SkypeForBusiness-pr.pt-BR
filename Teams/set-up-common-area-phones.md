@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba como configurar telefones celulares comuns para "lobbies", áreas de recepção e salas de conferência '
-ms.openlocfilehash: ea29fac8792c8c52112c34126f463cc3bde9873c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a62399c1c7b7b27e35fdea1fc52b9531a1fa25cc
+ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298754"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131508"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configurar a licença de Telefone de Área Comum para o Microsoft Teams
 > [!NOTE]
@@ -54,6 +54,26 @@ As primeiras coisas que você precisa fazer são comprar uma licença de CAP (te
 > Você não precisa de uma licença do Sistema de Telefonia. Ela está incluída na licença do Telefone da Área Comum.
 
 Para obter mais informações sobre licenças, consulte [Licenciamento de Complementos do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+
+A licença de telefonia do Common Area é compatível com: 
+
+
+|   |  Telefone de Área Comum  |
+|---------|---------|
+|Skype for Business |   &#x2714; |
+|Microsoft Teams |   &#x2714; |
+|Sistemas de telefonia |    &#x2714; |
+|Audioconferência |       &#x2718; &SUP1;  |
+|Microsoft Intune |        &#x2718; &sup2; |
+|Disponibilidade mundial |    &#x2714; |
+|Disponibilidade do canal |    EA, EAS, CSP, GCC, EES, Web Direct  |
+|      |         |
+
+&SUP1; Os telefones da área comum podem ingressar em conferências de áudio por meio do número de discagem fornecido pelo organizador da reunião
+
+&sup2; Não disponível em nuvens soberana  
+
+
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Etapa 2 - Criar uma nova conta de usuário para o telefone e atribuir as licenças
 

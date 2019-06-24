@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Resumo: Prepare seus servidores do Skype for Business Server 2015 com este tópico. Hardware, sistema operacional, bancos de dados, software, todos os requisitos de sistema e recomendações estão aqui para ajudar a garantir uma instalação e uma implantação bem-sucedidas do seu farm de servidores.'
-ms.openlocfilehash: af739cd01fcb2071ad271d7932483d1bf37e2bf0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 74b1a26f38a0055c8222b980754106011a86ce34
+ms.sourcegitcommit: 7d85a6784a21aec20dcaddd8940ffe95d532c2f4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296816"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "35134258"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Requisitos de servidor no Skype for Business Server 2015
  
@@ -68,7 +68,7 @@ Após o hardware, você precisará instalar o sistema operacional (SO). Estes s�
   
 |||
 |:-----|:-----|
-|Windows Server 2016 (é necessária a atualização cumulativa 5 do Skype for Business) ou posterior. Para obter mais informações, consulte [KB4015888](https://support.microsoft.com/en-gb/help/4015888/how-to-install-skype-for-business-server-2015-on-windows-server-2016))  <br/> ||
+|Windows Server 2019 (você precisa do Skype for Business, atualização cumulativa 9 ou posterior). <br/> |Windows Server 2016 (é necessária a atualização cumulativa 5 do Skype for Business) ou posterior. Para obter mais informações, consulte [KB4015888](https://support.microsoft.com/en-gb/help/4015888/how-to-install-skype-for-business-server-2015-on-windows-server-2016))  <br/> ||
 |Sistema operacional Windows Server 2012 R2 Datacenter com todas as atualizações necessárias instaladas.  <br/> |Sistema operacional Windows Server 2012 R2 Standard com todas as atualizações necessárias instaladas.  <br/> |
 |Sistema operacional Windows Server 2012 datacenter com todas as atualizações necessárias instaladas.  <br/> |Sistema operacional Windows Server 2012 padrão com todas as atualizações necessárias instaladas.  <br/> |
    
@@ -92,10 +92,10 @@ Ao instalar o Skype for Business Server 2015 Standard Edition, o SQL Server 2014
   
 O Skype for Business Server 2015 Enterprise Edition é um pouco mais complicado, mas a lista suportada está abaixo (tudo é a edição de 64 bits, você notará que não usa as edições de 32 bits):
   
-|||||
+||||||
 |:-----|:-----|:-----|:-----|:-----|
-|Microsoft SQL Server 2017 Enterprise (64-bit Edition) e recomendamos executar com o Service Pack mais recente. <br/> |Microsoft SQL Server 2016 Enterprise (64-bit Edition) com Service Pack 1 ou posterior, e você deve executar com a atualização cumulativa 7 ou posterior do Skype for Business ([Baixe a atualização cumulativa do Skype for Business](https://support.microsoft.com/en-us/help/3061064)).  <br/> |Microsoft SQL Server 2014 Enterprise (64-bit Edition), e você deve executar com a atualização cumulativa 6 ou posterior ([baixar atualização cumulativa 6](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Enterprise (64-bit Edition) e recomendamos executar com o Service Pack mais recente.  <br/> |
-|Microsoft SQL Server 2017 Standard (64-bit Edition), e recomendamos executar com o Service Pack mais recente. <br/> |Microsoft SQL Server 2016 Standard (64-bit Edition) com Service Pack 1 ou posterior, e você deve executar com a atualização cumulativa 7 ou posterior do Skype for Business ([Baixe a atualização cumulativa do Skype for Business](https://support.microsoft.com/en-us/help/3061064)).  <br/> |Microsoft SQL Server 2014 Standard (64-bit Edition), e você deve executar com a atualização cumulativa 6 ou posterior ([baixar atualização cumulativa 6](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Standard (64-bit Edition), e recomendamos executar com o Service Pack mais recente.  <br/> |
+|Microsoft SQL Server 2019 Enterprise (64-bit Edition) e recomendamos executar com o Service Pack mais recente. <br/> |Microsoft SQL Server 2017 Enterprise (64-bit Edition) e recomendamos executar com o Service Pack mais recente. <br/> |Microsoft SQL Server 2016 Enterprise (64-bit Edition) com Service Pack 1 ou posterior, e você deve executar com a atualização cumulativa 7 ou posterior do Skype for Business ([Baixe a atualização cumulativa do Skype for Business](https://support.microsoft.com/en-us/help/3061064)).  <br/> |Microsoft SQL Server 2014 Enterprise (64-bit Edition), e você deve executar com a atualização cumulativa 6 ou posterior ([baixar atualização cumulativa 6](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Enterprise (64-bit Edition) e recomendamos executar com o Service Pack mais recente.  <br/> |
+|Microsoft SQL Server 2019 Standard (64-bit Edition), e recomendamos executar com o Service Pack mais recente. <br/> |Microsoft SQL Server 2017 Standard (64-bit Edition), e recomendamos executar com o Service Pack mais recente. <br/> |Microsoft SQL Server 2016 Standard (64-bit Edition) com Service Pack 1 ou posterior, e você deve executar com a atualização cumulativa 7 ou posterior do Skype for Business ([Baixe a atualização cumulativa do Skype for Business](https://support.microsoft.com/en-us/help/3061064)).  <br/> |Microsoft SQL Server 2014 Standard (64-bit Edition), e você deve executar com a atualização cumulativa 6 ou posterior ([baixar atualização cumulativa 6](https://support.microsoft.com/en-us/kb/3031047/)).  <br/> |Microsoft SQL Server 2012 Standard (64-bit Edition), e recomendamos executar com o Service Pack mais recente.  <br/> |
    
 Se você não vir a edição do SQL Server que deseja usar listada aqui, não poderá usá-la.
   
@@ -134,6 +134,8 @@ Você pode ter os seguintes itens para clustering de failover:
   
 Dois nós:
   
+- Microsoft SQL Server 2019 Standard (64-bit Edition), e recomendamos executar com o Service Pack mais recente.
+
 - Microsoft SQL Server 2017 Standard (64-bit Edition), e recomendamos executar com o Service Pack mais recente.
 
 - Microsoft SQL Server 2016 Standard (64-bit Edition) com Service Pack 1 ou posterior. Recomendamos executar com o Service Pack mais recente.
@@ -143,6 +145,8 @@ Dois nós:
 -  Microsoft SQL Server 2012 Standard (64-bit Edition), e recomendamos executar com o Service Pack mais recente.
 
 Dezesseis nós:
+
+- Microsoft SQL Server 2019 Enterprise (64-bit Edition) e recomendamos executar com o Service Pack mais recente.
 
 - Microsoft SQL Server 2017 Enterprise (64-bit Edition) e recomendamos executar com o Service Pack mais recente.
 

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 833d79d16365a1b90e8cd35e88e43468f0e25fa8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4ad6c0abba3b0ea85bdac7e2875369c4cd1d5150
+ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280921"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131413"
 ---
 <a name="teams-guest-access-checklist"></a>Lista de verificação de acesso de convidados do teams
 ==========================================
@@ -49,7 +49,7 @@ Para obter mais detalhes, consulte o [que a experiência de convidado é como](g
 
 ## <a name="if-your-guests-are-seeing-license-errors"></a>Se seus convidados estiverem vendo erros de licença
 
-O acesso de convidado no Microsoft Teams usa o Azure Active Directory Business to Business (B2B) e seu modelo de licenciamento. Se você estiver vendo erros de licenciamento, leia a orientação de licenciamento B2B para entender os requisitos de licenciamento que a sua organização tem para que seus usuários possam convidar convidados para sua organização.
+O acesso de convidado no Microsoft Teams usa o Azure Active Directory Business to Business (B2B) e seu modelo de licenciamento. Se você estiver vendo erros de licenciamento, leia a [orientação de licenciamento B2B](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance) para entender os requisitos de licenciamento que a sua organização tem para que seus usuários possam convidar convidados para sua organização.
 
 Lembre-se de algumas coisas:
 
@@ -78,7 +78,7 @@ Para obter mais informações, consulte [Autorizar acesso de convidados no Micro
 
 ## <a name="-step-2-configure-office-365-groups"></a>□ Etapa 2: configurar grupos do Office 365
 
-1. No centro de administração do Microsoft 365, vá para **configurações** > **Serviços & suplementos** > **do Office 365 grupos**.
+1. No centro de administração do Microsoft 365, vá para **configurações** > de**Serviços & suplementos** > **do Office 365 grupos**.
 2. Verifique se **deixar que os membros do grupo fora do conteúdo do grupo de acesso à organização** estejam definidos como **ativado**. Se essa configuração estiver desativada, os convidados não poderão acessar qualquer conteúdo do grupo.
 3. Certifique-se de **que o recurso proprietários de grupos Adicione pessoas de fora da organização a grupos** esteja definido como **ativado**. Se essa configuração estiver desativada, os proprietários da equipe não poderão adicionar novos convidados. No mínimo, essa configuração deve estar ativada para dar suporte ao acesso de convidado.
 

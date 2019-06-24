@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Resumo: Prepare seus servidores do Skype for Business Server 2019 e a infraestrutura de domínio com este tópico. Hardware, sistema operacional, bancos de dados, software, todos os requisitos de sistema e recomendações, juntamente com o DNS de certificado, o compartilhamento de arquivos e as informações do Active Directory, estão aqui para ajudar a garantir uma instalação e implantação bem-sucedidas do seu farm de servidores.'
-ms.openlocfilehash: 94b95f97021a4633a6dbcbf300426731cefc85fe
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3c68d9f916d7c18c34d941ed880b81698793b4fe
+ms.sourcegitcommit: 7d85a6784a21aec20dcaddd8940ffe95d532c2f4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283917"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "35134280"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Requisitos do sistema para o Skype for Business Server 2019
  
@@ -194,8 +194,8 @@ O Skype for Business Server 2019 Enterprise Edition exigirá SQL Server completo
   
 ||||
 |:-----|:-----|:-----|
-|Microsoft SQL Server 2016 (64-bit Edition), e você deve executar com as atualizações mais recentes.  <br/> |
-Microsoft SQL Server 2017 (64-bit Edition), e você deve executar com as atualizações mais recentes.|
+|Microsoft SQL Server 2019 (64-bit Edition), e você deve executar com as atualizações mais recentes.  <br/> |Microsoft SQL Server 2017 (64-bit Edition), e você deve executar com as atualizações mais recentes.  <br/> |
+Microsoft SQL Server 2016 (64-bit Edition), e você deve executar com as atualizações mais recentes.|
  |
 
 Se você não vir a edição do SQL Server que deseja usar listada aqui, não poderá usá-la.
@@ -213,13 +213,15 @@ Você pode ter os seguintes itens para clustering de failover:
   
 Dois nós:
   
-- Microsoft SQL Server 2016 Standard (64-bit Edition), e recomendamos executar com o Service Pack mais recente.
+- Microsoft SQL Server 2019 Standard (64-bit Edition), e recomendamos executar com o Service Pack mais recente.
 - Microsoft SQL Server 2017 Standard (64-bit Edition), e recomendamos executar com o Service Pack mais recente.
+- Microsoft SQL Server 2016 Standard (64-bit Edition), e recomendamos executar com o Service Pack mais recente.
 
 Dezesseis nós:
   
-- Microsoft SQL Server 2016 Enterprise (64-bit Edition) e recomendamos executar com o Service Pack mais recente.
+- Microsoft SQL Server 2019 Enterprise (64-bit Edition) e recomendamos executar com o Service Pack mais recente.
 - Microsoft SQL Server 2017 Enterprise (64-bit Edition) e recomendamos executar com o Service Pack mais recente.
+- Microsoft SQL Server 2016 Enterprise (64-bit Edition) e recomendamos executar com o Service Pack mais recente.
 
 O SQL sempre ativado tem suporte, e você pode ler mais sobre isso no [servidor back-end de alta disponibilidade no Skype for Business Server 2019](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
   

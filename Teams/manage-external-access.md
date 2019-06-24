@@ -3,7 +3,7 @@ title: Gerenciar o acesso externo (federação) no Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/30/2019
+ms.date: 06/19/2019
 ms.topic: article
 ms.service: msteams
 MS.collection:
@@ -14,17 +14,32 @@ search.appverid: MET150
 description: Seu administrador de ti pode configurar o acesso externo para outros domínios (Federação) para permitir que os usuários desses domínios participem da equipe.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f6a3dc6016eb52d58e82e9e9022d1bb8575404b
-ms.sourcegitcommit: b9e7a11d8332a029a4f1cd4e396787f5a74f0a44
+ms.openlocfilehash: 43e4153959a4d444a81f4769daf69976af018c4d
+ms.sourcegitcommit: 2af4c9e3a8374d9a6995e36604d8b0b8eff23b34
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34702716"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "35133919"
 ---
 <a name="manage-external-access-federation-in-microsoft-teams"></a>Gerenciar o acesso externo (federação) no Microsoft Teams
 ======================================================
 
-Com o acesso externo ao Microsoft Teams, os usuários de outros domínios podem participar de chats e chamadas. Você também pode permitir que usuários externos que ainda estejam usando o Skype for Business online ou o Skype for Business no local para participar. 
+Com o acesso externo ao Microsoft Teams, os usuários de outros domínios podem participar de chats e chamadas. Você também pode permitir que usuários externos que ainda estejam usando o Skype for Business online ou o Skype for Business no local para participar.
+
+Siga as etapas descritas neste artigo quando:
+  
+- Você tem usuários em domínios diferentes na sua empresa: por exemplo, Rob@ContosoEast.com e Ann@ContosoWest.com.
+
+- Você quer que as pessoas em sua organização usem o Teams para entrar em contato com pessoas em empresas específicas fora da sua organização.
+
+- Você quer que qualquer outro usuário do mundo que use o Microsoft Teams possa encontrá-lo e contatá-lo usando seu endereço de e-mail. Se você e outro usuário habilitarem o acesso externo e permitirem os domínios uns dos outros, isso funcionará. Se não funcionar, o outro usuário deve verificar se a configuração dele não está bloqueando o seu domínio.
+
+O acesso externo permite que os usuários externos encontrem, liguem e enviem mensagens de chat, além de configurar reuniões com você. No entanto, se você quiser que os usuários externos tenham acesso a equipes e canais, o acesso de convidado pode ser uma melhor maneira de começar. Para obter mais informações sobre as diferenças entre acesso externo e acesso de convidado, consulte acesso [externo versus acesso de convidado](#external-access-vs-guest-access)) abaixo. Para ativar o acesso de convidado, consulte [ativar o acesso de convidado](set-up-guests.md) para que os usuários possam se comunicar.
+
+> [!IMPORTANT]
+> Atualmente, para federar-se no cliente do Microsoft Teams a um usuário externo fora de sua organização, que não seja um convidado do seu Azure Active Directory (Azure AD) ou locatário, você deve estar corretamente configurado para o Hybrid e movido para o Skype for Business online. A partir de 2/25/2019, o Teams não oferece suporte à Federação nativa sem que o usuário do perfil SIP seja hospedado no Skype for Business online. Para saber mais sobre como configurar sua conta para híbrido e, em seguida, migrar para o Microsoft Teams, consulte [atualizar a implantação híbrida do Skype for Business para](https://docs.microsoft.com/en-us/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid)o Teams.
+
+## <a name="external-access-vs-guest-access"></a>Acesso externo versus acesso de convidado
 
 O acesso externo (Federação) e o acesso de convidado são diferentes:
 
@@ -68,42 +83,70 @@ Consulte a tabela a seguir para obter uma comparação de recursos de acesso ext
 > [!NOTE]
 > Para obter mais informações sobre os recursos convidados e sobre a experiência de convidado, consulte [Ativar ou desativar o acesso de convidado ao Microsoft Teams](https://docs.microsoft.com/microsoftteams/set-up-guests) e o [que a experiência de convidado é curtir](https://docs.microsoft.com/microsoftteams/guest-experience).
 
-## <a name="turn-on-or-turn-off-external-access-users-can-communicate-with-skype-for-business-and-teams-users"></a>Ativar ou desativar o acesso externo (os usuários podem se comunicar com os usuários do Skype for Business e do Teams)
+## <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-organization"></a>Permitir que os usuários do Microsoft Teams conversem e se comuniquem com usuários em outra organização
 
-Você pode usar o centro de administração do Microsoft Teams & o Skype for Business para gerenciar o acesso externo.
+O acesso externo permite que suas equipes e usuários do Skype for Business se comuniquem com outros usuários que estão fora da sua organização. Por padrão, a sua organização pode se comunicar com todos os domínios externos. Se você adicionar domínios bloqueados, todos os outros domínios serão permitidos, mas se você adicionar domínios permitidos, todos os outros domínios serão bloqueados. Você pode facilmente configurar o acesso externo à sua organização. Há três cenários para configurá-lo:
 
-1. No centro de administração do Microsoft Teams & o centro de administração do Skype for Business, selecione >  **configurações de toda a organização****acesso externo**.
+- **Cenário 1** – você pode usar a **Federação aberta**. Esta é a configuração padrão e permite que as pessoas em sua organização encontrem, liguem e enviem mensagens instantâneas, além de configurar reuniões com pessoas externas à sua organização.
 
-     ![Captura de tela de acesso externo às configurações de toda a organização](media/manage-external-access-1.png).
+    Quando você usa essa configuração, os usuários podem se comunicar com todos os domínios externos que estão executando o Teams, mas configurar o domínio/organização para permitir o seu domínio.
 
-2. Alternar os **usuários podem se comunicar com o Skype for Business e os usuários** do teams alternar para **ativado** ou **desativado**.
+- **Cenário 2** -você pode adicionar um domínio ou domínios à lista de **permissões** . Para fazer isso, clique em **Adicionar um domínio**, adicione o nome de domínio, clique em **ação para assumir o domínio**e selecione **permitido**. É importante saber que, se você fizer isso, todos os **** outros domínios serão bloqueados.
+
+- **Cenário 3** – você pode adicionar um domínio ou domínios à lista **** de bloqueios. Para fazer isso, clique em **Adicionar um domínio**, adicione o nome de domínio, clique em **ação para assumir o domínio**e selecione **bloqueado**. É importante saber que, se você fizer isso, isso **permitirá** que todos os outros domínios.
+
+Siga estas etapas para permitir ou bloquear domínios.
+
+### <a name="step-1---enable-your-organization-to-communicate-with-another-teams-organization"></a>Etapa 1-habilitar sua organização a se comunicar com outra organização de equipes
+
+![Um ícone mostrando o logotipo](media/teams-logo-30x30.png) do Microsoft Teams **usando o centro de administração do Microsoft Teams**
+
+1. No painel de navegação esquerdo, vá para >  **configurações de toda a organização****acesso externo**.
+
+2. Alternar os **usuários podem se comunicar com o Skype for Business e os usuários** do teams mudarão para **ativado**.
 
      ![Captura de tela da opção de acesso externo ativada](media/manage-external-access-2.png).
 
-3. Clique em **Salvar**. 
+3. Se você quiser permitir que todas as organizações de equipe se comuniquem com os usuários da sua organização, pule para a etapa 5.
 
-## <a name="add-or-block-a-domain"></a>Adicionar ou bloquear um domínio
+4. Se desejar limitar as organizações que podem se comunicar com os usuários em sua organização, você poderá permitir todos exceto alguns domínios, ou só poderá permitir domínios específicos. 
 
-Siga estas etapas para adicionar um domínio ou desativar o acesso externo para um domínio.
+    - Para permitir todos exceto alguns domínios, adicione os domínios que você deseja bloquear clicando em **Adicionar domínio**. No painel **Adicionar um domínio** , digite o nome do domínio, clique em **bloqueado**e, em seguida, clik **concluído**. 
+    - Para limitar as comunicações a organizações específicas, adicione esses domínios à lista com um status de **permitido**. Depois que você adicionar qualquer domínio à lista de permissões, as comunicações com outras organizações serão limitadas apenas às organizações cujos domínios estiverem na lista de permissões. 
 
-1. No centro de administração do Microsoft Teams & o centro de administração do Skype for Business, selecione >  **configurações de toda a organização****acesso externo**.
+5. Clique em **Salvar**.
 
-2. Selecione **Adicionar um domínio**. 
- 
-    ![Captura de tela da página de acesso externo com o link adicionar um domínio](media/manage-external-access-3.png).
+6. Certifique-se de que o administrador na organização outras equipes conclua as mesmas etapas. Por exemplo, na lista de **domínios permitidos** , o administrador precisará inserir o domínio para a sua empresa se limitar as organizações que podem se comunicar com seus usuários.
 
-   O painel **Adicionar um domínio** é exibido.
+### <a name="step-2---test-it"></a>Etapa 2-testá-lo
 
-    ![Captura de tela do painel Adicionar um domínio](media/manage-external-access-4.png).
+Para testar a configuração, você precisará de um usuário do teams que não esteja atrás do seu firewall.
+  
+1. Depois que você e o administrador da organização tiverem alterado as configurações de **acesso externo** , você deverá ir bem.
 
+2. No aplicativo Teams, procure a pessoa por endereço de e-mail e envie uma solicitação para conversar.
 
-3. Em **Adicionar um domínio**, digite o nome do domínio; por exemplo, digite Contoso.com.
+3. Peça ao contato do teams para lhe enviar uma solicitação para conversar. Se você não receber a solicitação, o problema são as suas configurações de firewall (assumindo que já tenha sido confirmado que as configurações de firewall estão corretas).
 
-4. Selecione **Permitido** ou **Bloqueado**. Você pode alterar essa configuração a qualquer momento.
+4. Outra maneira de testar se o problema é o seu firewall é acessar um local WiFi que não está protegido pelo firewall. como uma lanchonete e usar o Microsoft Teams para enviar uma solicitação ao seu contato para conversar. Se a mensagem passar pelo local WiFi, mas não quando você estiver no trabalho, você saberá que o problema é seu firewall.
 
-2. Selecione **concluído**.
+## <a name="communicate-with-users-in-a-skype-for-business-online-organization"></a>Comunicar-se com usuários em uma organização do Skype for Business Online
 
-Depois de adicionar um domínio, você verá o nome de domínio e o status adicionados à lista de domínios na página de acesso externo.
+Se você estiver configurando o acesso externo para permitir que os usuários do Microsoft Teams localizem e entrem em contato com os usuários que estão em uma organização do Skype for Business que limitam quem pode contatar seus usuários, siga as etapas para configurar o acesso externo do seu domínio para o domínio da outra organização. Em seguida, peça ao administrador da outra organização para seguir as etapas abaixo para configurar o acesso externo para o Skype for Business online.
+
+![Um ícone mostrando o logotipo](media/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
+
+Faça as seguintes etapas para o administrador da organização:
+
+1. No centro de administração do Microsoft 365, acesse **centros** > de administração de administração **& portal do Skype** > **Legacy**.
+  
+2. No **Centro de administração do Skype for Business**, escolha **Organização** > **Comunicações externas**.
+
+3. Para configurar a comunicação com uma empresa específica ou com usuários em outro domínio, na caixa suspensa, escolha **ativado somente para os domínios permitidos**.
+
+    OU, se quiserem habilitar a comunicação com todos os participantes do mundo que tenham as políticas do Skype for Business abertas, escolha **ativado exceto para os domínios bloqueados**. Esta é a configuração padrão.
+
+4. Em **domínios bloqueados ou permitidos**, **+** escolha e, em seguida, adicione o nome do domínio que você deseja permitir.
 
 ## <a name="more-information"></a>Mais informações
 

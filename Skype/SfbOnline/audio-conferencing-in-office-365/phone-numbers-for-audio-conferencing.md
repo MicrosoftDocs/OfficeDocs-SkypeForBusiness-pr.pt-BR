@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Saiba quais países e regiões têm números de teleconferência discada e como eles são atribuídos automaticamente.
-ms.openlocfilehash: 73ba9a0f3627cf744679bf46d07019b1d7aa644b
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: feaa7972766ffeb21517080e97ee67dcd597edb4
+ms.sourcegitcommit: 7d85a6784a21aec20dcaddd8940ffe95d532c2f4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34329546"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "35134248"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Números de telefone para Audioconferência no Skype for Business Online
 
@@ -66,7 +66,7 @@ Shared audio conferencing phone numbers are automatically assigned to organizati
 > O local do país ou região da sua organização pode ser encontrado entrando no centro de **Administração do Office 365** e olhando em **perfil da organização**. 
   
 > [!CAUTION]
-> Due to limited availability of toll phone numbers in Venezuela, Indonesia, and United Arab Emirates (UAE), organizations from these countries/regions won't have an Audio Conferencing toll number automatically assigned to them. Toll-free numbers from these locations are available depending on available inventory. 
+> Devido à disponibilidade limitada de números de telefone de chamada na Venezuela, na Indonésia, no Vietnã e nos Emirados Árabes Unidos (EAU), as organizações desses países/regiões não terão um número de telefone de conferência de áudio atribuído automaticamente. Os números de chamada gratuita destes locais são disponibilizados conforme o estoque disponível. 
   
 Dedicated audio conferencing phone numbers are service numbers that you can get and then assign to your organization. Service numbers can be found by using the **Skype for Business admin center**. For details, see [Getting service phone numbers](/microsoftteams/getting-service-phone-numbers).
   
