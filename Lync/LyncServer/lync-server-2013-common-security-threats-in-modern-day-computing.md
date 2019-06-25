@@ -10,12 +10,12 @@ ms:contentKeyID: 56708403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e32d62cef3870e7134a628e0d5cedf20bb16200a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f2446ee0755f4544f17f6c04c6059d70576a466f
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836543"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221360"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -133,7 +133,7 @@ Um *vírus* é uma unidade de código cujo propósito é reproduzir unidades de 
 
 O Microsoft Lync Server 2013 tem o potencial de divulgar informações por meio de uma rede pública que pode ser vinculada a um indivíduo. Os tipos de informações podem ser separados em duas categorias específicas:
 
-  - **Dados de presença avançados ** Os dados de presença avançados são informações que um usuário pode escolher para compartilhar ou não compartilhar por meio de um link para um parceiro federado ou com contatos em uma organização. Esses dados não são compartilhados com usuários em uma rede IM pública. As políticas dos clientes e outras configurações de clientes podem dar um certo controle com o administrador do sistema. No Lync Server 2013, o modo de privacidade de presença avançada pode ser configurado para um usuário individual para impedir que os usuários do Lync que não estejam na lista de contatos do usuário vejam as informações de presença do usuário. O modo de privacidade de presença avançada não impede que os usuários do Microsoft Office Communicator 2007 e do Microsoft Office Communicator 2007 R2 vejam as informações de presença do usuário. Para obter detalhes, consulte o [que há de novo para os clientes no Lync server 2013](lync-server-2013-what-s-new-for-clients.md) na documentação de introdução e Configurando o [modo de privacidade de presença avançada no Lync Server 2013](lync-server-2013-configuring-enhanced-presence-privacy-mode.md) na documentação de implantação.
+  - **Dados de presença avançados** Os dados de presença avançados são informações que um usuário pode escolher para compartilhar ou não compartilhar por meio de um link para um parceiro federado ou com contatos em uma organização. Esses dados não são compartilhados com usuários em uma rede IM pública. As políticas dos clientes e outras configurações de clientes podem dar um certo controle com o administrador do sistema. No Lync Server 2013, o modo de privacidade de presença avançada pode ser configurado para um usuário individual para impedir que os usuários do Lync que não estejam na lista de contatos do usuário vejam as informações de presença do usuário. O modo de privacidade de presença avançada não impede que os usuários do Microsoft Office Communicator 2007 e do Microsoft Office Communicator 2007 R2 vejam as informações de presença do usuário. Para obter detalhes, consulte o [que há de novo para os clientes no Lync server 2013](lync-server-2013-what-s-new-for-clients.md) na documentação de introdução e Configurando o [modo de privacidade de presença avançada no Lync Server 2013](lync-server-2013-configuring-enhanced-presence-privacy-mode.md) na documentação de implantação.
 
   - **Dados obrigatórios** Dados obrigatórios são necessários para a operação adequada do servidor ou do cliente e não estão sob o controle da administração do cliente ou do sistema. Essas informações são necessárias no nível do servidor ou no nível da rede para fins de roteamento, manutenção de estado e sinalização.
 

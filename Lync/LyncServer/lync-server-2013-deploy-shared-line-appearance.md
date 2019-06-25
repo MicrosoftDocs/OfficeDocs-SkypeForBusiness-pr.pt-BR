@@ -10,12 +10,12 @@ ms:contentKeyID: 72522137
 ms.date: 06/13/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6893dbda1c8f9ecf61319d19a24b896ff67de20b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 708dc90d28944a050624e83af5f0c5fe48f6eeeb
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829576"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221314"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -141,7 +141,7 @@ A aparência da linha compartilhada (SLA) é um novo recurso do Lync Server 2013
                   -MissedCallOption <Option> -MissedCallForwardTarget
                   <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
     
-    O exemplo a seguir especifica que as chamadas perdidas serão encaminhadas para o usuário `sla_forward_number`chamado. As opções válidas para `-MissedCallOption` o parâmetro `Forward`são `BusySignal`, ou `Disconnect`. Se você escolher `Forward`, também deverá incluir o `-MissedCallForwardTarget `parâmetro, com um número de usuário ou de telefone como o destino:
+    O exemplo a seguir especifica que as chamadas perdidas serão encaminhadas para o usuário `sla_forward_number`chamado. As opções válidas para `-MissedCallOption` o parâmetro `Forward`são `BusySignal`, ou `Disconnect`. Se você escolher `Forward`, também deverá incluir o `-MissedCallForwardTarget` parâmetro, com um número de usuário ou de telefone como o destino:
     
         Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption
                   Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com 
