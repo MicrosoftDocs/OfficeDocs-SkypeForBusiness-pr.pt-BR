@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> Certifique-se de que ativou os aplicativos para o Microsoft Teams em [configurações de todos os locatários no centro de administração do Microsoft 365](../enable-features-office-365.md#tenant-wide-settings-in-the-microsoft-365-admin-center). Se quiser adicionar aplicativos externos (fornecidos por terceiros), você precisará ativar [as configurações de aplicativos externos](../enable-features-office-365.md#external-apps).

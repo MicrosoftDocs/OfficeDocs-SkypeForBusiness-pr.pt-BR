@@ -19,12 +19,12 @@ search.appverid: MET150
 description: Saiba mais sobre as políticas de configuração de aplicativos no Microsoft Teams e como usá-las para fixar aplicativos para personalizar o Microsoft Teams para usuários em sua organização.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: e7d508ef87825d93c2df2a7899f413ec9710f44b
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+ms.openlocfilehash: 21e56f9b2910180295e996f12c899e153551a8a3
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34681971"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198624"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gerenciar políticas de configuração de aplicativo no Microsoft Teams
 
@@ -44,6 +44,8 @@ Você gerencia as políticas de configuração do aplicativo no centro de admini
 Você pode editar as configurações na política global para incluir os aplicativos desejados. Se você quiser personalizar o Microsoft Teams para diferentes grupos de usuários em sua organização, crie e atribua uma ou mais políticas personalizadas. Se for atribuída uma política personalizada a um usuário, essa política se aplicará ao usuário. Se um usuário não estiver atribuído a uma política personalizada, a política global se aplicará ao usuário.
 
 ![Captura de tela mostrando a página de políticas de configuração de aplicativos](media/app-setup-policies.png)
+
+[!INCLUDE [external-apps-m365-admin-center](includes/external-apps-m365-admin-center.md)]
 
 > [!NOTE]
 > Se você tiver equipes para educação, é importante saber que o aplicativo de atribuições está fixado por padrão na política global, ainda que, no momento, você não a veja listado na política global. Será o quarto aplicativo na lista de aplicativos fixos em clientes do teams.

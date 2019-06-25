@@ -3,7 +3,7 @@ title: Avalie seu ambiente para as cargas de trabalho do cloud voice do Microsof
 author: rmw2890
 ms.author: Rowille
 manager: serdars
-ms.date: 03/13/2018
+ms.date: 06/11/2019
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b655a0b5507a1a4c89ff682b9abe5ac8fa994e83
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 8aed7b648a3cd742fa7cf160d34aefced97ae31c
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548378"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198361"
 ---
 # <a name="evaluate-my-environment"></a>Avaliar meu ambiente
 
@@ -42,7 +42,7 @@ Você deve incorporar essas informações no registro de risco.
 Como parte da sua descoberta ambiental, inclua todos os assuntos relacionados à computação do usuário final, como uma avaliação de prontidão de PCs e dispositivos móveis para dar suporte à conferência de áudio e a sistemas de telefonia com os casos de uso empresarial do plano de chamadas, de acordo com os requisitos de hardware para requisitos de software.
 
 A descoberta ambiental também pode descobrir se você precisa [transferir números de telefone para a Microsoft](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365).
-Saber isso ajudará sua organização a ajustar seu plano de projeto de acordo e preparar as informações necessárias para portabilidade de números. Você pode usar a [descoberta ambiental para a distribuição do Microsoft Teams](environmental-discovery-for-microsoft-teams-rollout.md) do myadvisor para executar a descoberta ambiental.
+Saber isso ajudará sua organização a ajustar seu plano de projeto de acordo e preparar as informações necessárias para portabilidade de números. Você pode usar a [descoberta ambiental para a distribuição do Microsoft Teams](environmental-discovery-for-microsoft-teams-rollout.md) para executar a descoberta ambiental.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Quem será o responsável pela conclusão de uma avaliação de ambiente?</li></ol></td></tr>
@@ -83,7 +83,7 @@ Estes são os principais argumentos desta orientação. Você deve:
 
 -   Abra as portas UDP 3478 a 3481 de saída de clientes que usarão o Teams.
 
--   Verifique se você tem largura de banda suficiente para implantar o Microsoft Teams completando o planejador de [rede](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner).
+-   Verifique se você tem largura de banda suficiente para implantar equipes.
 
 -   Execute a [ferramenta de avaliação de rede](https://www.microsoft.com/download/details.aspx?id=53885) e certifique-se de que atenda aos requisitos descritos em [qualidade de mídia e desempenho de conectividade de rede](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) do segmento de borda e do segmento do cliente.
 
@@ -106,8 +106,6 @@ A falha na preparação da rede provavelmente levará a usuários insatisfeitos 
 ## <a name="bandwidth-planning"></a>Planejamento de largura de banda
 
 O primeiro passo para a preparação da rede é garantir que a sua rede tenha largura de banda suficiente disponível para que as equipes de modalidades forneçam aos usuários. O planejamento de largura de banda suficiente é uma tarefa bem simples e um início muito baixo para garantir que os seus usuários tenham uma experiência de alta qualidade de equipe.
-
-Você inicia sua jornada de planejamento de largura de banda para o Teams no [site meu Advisor](https://myadvisor.fasttrack.microsoft.com/) usando o planejador de rede. O planejador de rede fornece planejamento de largura de banda por site para equipes e oferece recomendações para otimizar o desempenho da rede.
 
 ### <a name="local-internet-egress"></a>Saída para a Internet local
 
@@ -219,7 +217,7 @@ Para obter mais informações, consulte [qualidade de serviço no Microsoft Team
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Quem será o responsável pela conclusão das avaliações de rede adequadas em todos os segmentos de rede e locais da organização?</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Você pode realizar uma avaliação de rede detalhada para ajudar a garantir que sua rede esteja pronta para a implantação do Microsoft Teams. Para obter mais informações, consulte <a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">avaliação de preparação de rede</a>.</li><li>Realize a correção de rede com base nos resultados da avaliação de prontidão de rede para cada segmento de rede.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Você pode realizar uma avaliação de rede detalhada para ajudar a garantir que sua rede esteja pronta para a implantação do Microsoft Teams.</li><li>Execute a correção de rede com base nos resultados da avaliação para cada segmento de rede.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43d830429d983947f43aa11119801aef803f03f9
-ms.sourcegitcommit: c4827e9124ebfb62d8e5c93dc2652d24988bd811
+ms.openlocfilehash: 51d28bc5806aebdad1bb83bb08945f45d505cde9
+ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34694743"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35203930"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar o suplemento de Reunião do Teams no Outlook
 =======================================
@@ -32,7 +32,7 @@ O suplemento de reunião do teams permite aos usuários agendar uma reunião do 
 
 ## <a name="teams-meeting-add-in-in-outlook-for-windows"></a>Suplemento de reunião do teams no Outlook para Windows
 
-O suplemento de Reunião do Teams é instalado automaticamente para os usuários que têm o Microsoft Teams e o Office 2013 ou o Office 2016 instalados em seus computadores Windows. Os usuários verão o suplemento de Reunião do Teams na faixa de opções Calendário do Outlook.
+O suplemento de reunião do teams é instalado automaticamente para os usuários que têm o Microsoft Teams e o Office 2010, o Office 2013 ou o Office 2016 instalado no computador Windows. Os usuários verão o suplemento de Reunião do Teams na faixa de opções Calendário do Outlook.
 
 ![Captura de tela do suplemento de reunião do teams na faixa de opções do Outlook](media/Teams-add-in-for-Outlook.png)
 

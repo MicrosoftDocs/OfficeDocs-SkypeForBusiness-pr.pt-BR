@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eae5cdda83c6d480951c8e370b0d445de6afbc93
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: d18d7641c56ae2c8f84777e408133fef1cb35610
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548617"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198640"
 ---
 ![Atualize o diagrama de jornada, enfatizando o estágio de preparação técnica] (media/upgrade-banner-tech-readiness.png "Estágios da jornada da atualização, com ênfase no estágio de preparação técnica")
 
@@ -77,9 +77,9 @@ Os dois que definem segmentos de rede (cliente para Microsoft Edge e Edge do cli
 |**Latência (de uma maneira)** |< 50 ms |< 30 ms |
 |**Latência (tempo de ida e volta ou RTT)** |< 100 ms |< 60 MS |
 |**Perda de pacote intermitente** |<10% durante qualquer 200-MS Interval |<1% durante qualquer 200-MS Interval |
-|**Perda de pacote** |<1% durante qualquer intervalo de 15 segundos |< 0,1% durante qualquer intervalo de 15 segundos |
-|**Tremulação entre entradas do pacote** |<30 MS durante qualquer intervalo de 15 segundos |<15 MS durante qualquer intervalo de 15 segundos |
-|**Reordenação de pacotes** |< 0,05% fora da ordem dos pacotes |< 0,01% fora da ordem dos pacotes |
+|**Perda de pacote** |<1% durante qualquer intervalo de 15 segundos |<0,1% durante qualquer intervalo de 15 segundos |
+|**Tremulação entre entradas do pacote** |<30 ms durante qualquer intervalo de 15 segundos |<15 MS durante qualquer intervalo de 15 segundos |
+|**Reordenação de pacotes** |Pacotes fora de ordem do <0, 5% |Pacotes fora de ordem do <0, 1% |
 
 Para testar ambos os segmentos de rede, você pode usar a [ferramenta de avaliação de rede](https://go.microsoft.com/fwlink/?linkid=855799). Essa ferramenta pode ser implantada diretamente no PC cliente e em um PC conectado à borda de rede do cliente. A ferramenta inclui documentação limitada, mas uma documentação mais profunda sobre o uso da ferramenta pode ser encontrada aqui: [avaliação de prontidão de rede](https://go.microsoft.com/fwlink/?linkid=855800). Ao executar esta avaliação de preparação de rede, você pode validar a preparação da sua rede para executar aplicativos de mídia em tempo real, como o Microsoft Teams.
 
@@ -195,7 +195,7 @@ A qualidade do serviço (QoS) pode ser usada para fazer deficiências ao prioriz
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Ponto de decisão</td><td><ul><li>Quem será o responsável pela conclusão das avaliações de rede adequadas em todos os segmentos de rede e locais da organização?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Você pode realizar uma avaliação de rede detalhada para ajudar a garantir que sua rede esteja pronta para a implantação do Microsoft Teams. Para obter mais informações, consulte <a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">avaliação de preparação de rede</a>.</li><li>Realize a correção de rede com base nos resultados da avaliação de prontidão de rede para cada segmento de rede.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Você pode realizar uma avaliação de rede detalhada para ajudar a garantir que sua rede esteja pronta para a implantação do Microsoft Teams. </li><li>Realize a correção de rede com base nos resultados da avaliação de prontidão de rede para cada segmento de rede.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -208,7 +208,7 @@ Estes são os principais argumentos desta orientação. Você deve:
 
 - Abra as portas UDP 3478 a 3481 de saída de clientes que usarão o Teams.
 
-- Verifique se você tem largura de banda suficiente para implantar o Microsoft Teams completando o planejador de [rede](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner).
+- Verifique se você tem largura de banda suficiente para implantar equipes.
 
 - Execute a [ferramenta de avaliação de rede](https://www.microsoft.com/download/details.aspx?id=53885) e certifique-se de que atenda aos requisitos descritos em [qualidade de mídia e desempenho de conectividade de rede](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) do segmento de borda e do segmento do cliente.
 

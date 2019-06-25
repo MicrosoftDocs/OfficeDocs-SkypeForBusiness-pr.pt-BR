@@ -3,7 +3,7 @@ title: Guia de Operações do Microsoft Teams
 author: rmw2890
 ms.author: Rowille
 manager: serdars
-ms.date: 04/12/2018
+ms.date: 06/11/2019
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
@@ -15,12 +15,12 @@ description: Tarefas e atividades necessárias para o gerenciamento de serviços
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c1aa8c35b43941839e7a82390bca16c16c72801
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 5bd43155e7a1a4eadc1a372ef3706912ff72cd50
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548243"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198393"
 ---
 # <a name="operate-my-service"></a>Operar meu serviço
 
@@ -355,14 +355,12 @@ Para garantir a integridade da sua rede, várias atividades de operações preci
 | Fornecer dados de construção                                          | Forneça informações atualizadas de sub-rede para o especialista em qualidade (ou stakeholders relevantes) para garantir que as [definições de construção no CQD](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information) sejam mantidas atualizadas. | Conforme necessário              |               |
 | Implementar alteração                                               | Implementar alterações na rede para dar suporte às mudanças nos requisitos técnicos e comerciais da equipe. Os elementos de rede podem incluir:<ul><li>Firewalls</li><li>VPNs</li><li>Redes com fio e Wi-Fi</li><li>Conectividade à Internet e rota expressa</li><li>DNS</li></ul>     | Conforme necessário              |               |
 | Monitoramento de rede e relatórios                               | Monitore a rede de ponta a ponta para obter disponibilidade, utilização e tendências de capacidade usando suas ferramentas de gerenciamento de rede e recursos de emissão de relatórios existentes disponíveis em seus provedores de rede. Use os dados de tendências para o planejamento da capacidade de rede.                                                                                                            | Diária, semanal, mensal |               |
-| Planejamento de capacidade                                              | Colabore com os proprietários de serviços do teams para compreender mudanças nos requisitos técnicos e comerciais que podem gerar alterações adicionais de capacidade. Aproveite os resultados do planejador de [rede](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) para garantir que haja largura de banda suficiente disponível para o Microsoft Teams.                               | Conforme necessário              |               |
+| Planejamento de capacidade                                              | Colabore com os proprietários de serviços do teams para compreender mudanças nos requisitos técnicos e comerciais que podem gerar alterações adicionais de capacidade.                                | Conforme necessário              |               |
 | Solução de problemas e correção da rede                        | Ajude os helpdesks do Teams, os proprietários de serviços e os principais participantes a solucionar problemas e corrigir problemas relacionados à conectividade, à confiabilidade ou à qualidade das equipes. Os elementos de rede podem incluir:<ul><li>Firewalls</li><li>VPNs</li><li>Redes com fio e Wi-Fi</li><li>Conectividade à Internet e rota expressa</li><li>DNS</li></ul>    | Conforme necessário              |               |
 | Recuperação de desastres e testes de alta disponibilidade                | Realize uma alta disponibilidade regular e teste de recuperação de desastres na infraestrutura de rede para garantir que ela atenda aos objetivos de nível de serviço (SLOs) ou contratos de nível de serviço (SLAs) estabelecidos para o serviço do teams.                                                                                                                                                  | Mensal                |               |
 
 
 ### <a name="references"></a>Referências 
-
-[Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
 
 [URLs e intervalos de endereços IP do Office 365](https://aka.ms/o365ips)
 
@@ -395,8 +393,6 @@ O [Guia de revisão da qualidade da experiência](https://aka.ms/qerguide) inclu
 
 
 ### <a name="references"></a>Referências 
-
-[Learn CQD](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
 
 [Carregar informações de dados do locatário](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information)
 

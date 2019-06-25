@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d66d410677b4cdf31d21777bfc8963f5c25168ad
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+ms.openlocfilehash: 799d2f61562bdd0c484b31e670b73051f634147d
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34681838"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198257"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Configurações de administração para aplicativos no Microsoft Teams
 ==========================================
@@ -34,7 +34,9 @@ Os aplicativos fornecem ferramentas de ponta da sua organização para tirar o m
 
 Em **aplicativos Teams** no centro de administração do Microsoft Teams, você pode definir políticas para gerenciar aplicativos para sua organização. Por exemplo, você pode definir políticas para personalizar o Microsoft Teams, fixando os aplicativos que são mais importantes para seus usuários.
 
-Estamos melhorando continuamente a experiência do aplicativo em equipes e adicionando recursos e funcionalidades. Ao longo do tempo, criaremos recursos adicionais de gerenciamento de aplicativos para verificar as informações mais atualizadas sobre as políticas do aplicativo.
+Estamos melhorando continuamente a experiência do aplicativo em equipes e adicionando recursos e funcionalidades. Ao longo do tempo, vamos criar recursos adicionais de gerenciamento de aplicativos, portanto, verifique as informações mais atualizadas sobre as políticas de aplicativos.
+
+[!INCLUDE [external-apps-m365-admin-center](includes/external-apps-m365-admin-center.md)]
 
 ## <a name="app-setup-policies"></a>Políticas de configuração do aplicativo
 

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Leia este artigo para saber mais sobre como implantar salas do Microsoft Teams.
-ms.openlocfilehash: c60d9a1ff3c00c62a14573b8b7e1d26b92e865d9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4af4412d65fa74532b04ad5abb63326ee4c7c58b
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305389"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198473"
 ---
 # <a name="deployment-overview"></a>Visão geral de implantação
 
@@ -44,21 +44,12 @@ Você pode saber mais sobre essas dependências nos links de diretrizes de plane
 -   [Certificados](srs-v2-prep.md#certificates)
 -   [Proxy](srs-v2-prep.md#proxy)
 
-**Dica de pro** -se você pretende usar servidores proxy para fornecer acesso ao Microsoft Teams ou ao Skype for Business Online, primeiro [Leia este artigo](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online). Observe que, quando se trata do tráfego do Skype for Business em servidores proxy, recomendamos ignorar os servidores proxy totalmente. O tráfego do Skype for Business já está criptografado, portanto, os servidores proxy não o tornam mais seguros. Como parte de sua implantação mais ampla, recomendamos que você siga as orientações em [avaliar meu ambiente](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) para planejar a largura de banda e avaliar a adequação da sua rede para o tráfego em tempo real. Para todo o planejamento de largura de banda, use o planejador de [rede myadvisor](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner). (Recomendamos que você crie um Microsoft Teams Rooms persona para refletir o uso pretendido de salas do Microsoft Teams [vídeo, compartilhamento de tela, áudio] e atribuir um número de usuários que correspondam ao número de unidades de salas de Microsoft Teams a serem implantadas em cada site.) 
+**Dica de pro** -se você pretende usar servidores proxy para fornecer acesso ao Microsoft Teams ou ao Skype for Business Online, primeiro [Leia este artigo](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online). Observe que, quando se trata do tráfego do Skype for Business em servidores proxy, recomendamos ignorar os servidores proxy totalmente. O tráfego do Skype for Business já está criptografado, portanto, os servidores proxy não o tornam mais seguros. Como parte de sua implantação mais ampla, recomendamos que você siga as orientações em [avaliar meu ambiente](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) para planejar a largura de banda e avaliar a adequação da sua rede para o tráfego em tempo real.
 
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Confirme se seus sites atendem aos requisitos-chave para salas do Microsoft Teams.</li><li>Confirme que você forneceu largura de banda suficiente para cada site.</li></ul>| 
 | ![](../media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Comece a planejar a implantação e a configuração do seu dispositivo.</li></ul>| 
-
-**Dica de pro-** De uma perspectiva de planejamento de site por site, você pode encontrar os seguintes ativos úteis. Elas abordam mais do que apenas salas do Microsoft Teams e podem ser usadas em uma distribuição completa do Skype for Business Online:
-
--   [Guia de entrega do site de distribuição/planejamento de migração](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_24)
-
--   [Desenvolvimento de sites e planejamento de migração-guia estratégico](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_16)
-
-    > [!NOTE]
-    > No guia estratégico, conclua as tarefas na seção "4,3 – salas de conferência >" na planilha "pontos de 4-pontos" para cada site em que você pretende implantar dispositivos de salas do Microsoft Teams. Isso permitirá que você use o script de provisionamento da conta em massa posteriormente no processo. 
 
 ## <a name="service-readiness"></a>Prontidão de serviço
 
@@ -129,9 +120,6 @@ Cada dispositivo de salas do Microsoft Teams requer uma conta de recurso dedicad
 
 **Dica de pro** – torne os nomes de exibição para essas contas descritivas e fáceis de entender. Estes são os nomes que os usuários verão ao procurar e adicionar sistemas de salas do Microsoft Teams a reuniões. Algumas organizações usam o*nome da sala*do *site*-da Convenção (*capacidade máxima da sala*)-RS, portanto, por exemplo Curie — uma sala de conferência de 12 pessoas em Londres — pode ter o nome de exibição Lon-Curie (12)-RS. 
 
-Se a sua organização tiver muitas salas de conferência que exijam várias contas provisionadas, talvez você queira usar os [scripts de provisionamento de contas do sistema de sala do Skype](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) para provisionar várias contas de serviço de maneira automatizada.
-
-
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida a Convenção de nomenclatura para suas contas de sala do Microsoft Teams.</li><li>Decida se você criará contas individuais ou usará scripts de provisionamento em massa.</li></ul>| 
@@ -144,7 +132,7 @@ Ao planejar a implantação de salas do Microsoft Teams, você tem várias opç�
 
 | **Cenário**            | **Próximos**         |
 |-------------------------|-----------------------|   
-|Implantação de um pequeno número de dispositivos de sala do Microsoft Teams (<10). | Se estiver usando salas do Microsoft Teams com base em Surface pro, siga as [instruções de instalação para uma instalação por dispositivo](console.md). [Este vídeo prático orienta você pelo processo.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) Se estiver usando uma solução integrada, implante usando a imagem do fornecedor e defina as configurações conforme necessário. |
+|Implantação de um pequeno número de dispositivos de salas do Microsoft Teams (<10). | Se estiver usando salas do Microsoft Teams com base em Surface pro, siga as [instruções de instalação para uma instalação por dispositivo](console.md). [Este vídeo prático orienta você pelo processo.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) Se estiver usando uma solução integrada, implante usando a imagem do fornecedor e defina as configurações conforme necessário. |
 | Implantando entre 10 e 50 dispositivos de um único fornecedor.     | Crie uma imagem baseada em WIM, pause após [a etapa 6 na orientação](console.md)e Capture uma imagem de distribuição para ser usada com a tecnologia de distribuição de clonagem.    |
 | Implantar mais de 50 dispositivos de salas do Microsoft Teams, implantar dispositivos de mais de um fornecedor ou exigir agentes específicos da organização como parte da implantação. | Use uma plataforma de distribuição e desenvolvimento de software baseado em sequenciador de tarefas, como o [System Center Configuration Manager](room-systems-scale.md).  |
 
@@ -200,9 +188,7 @@ Após a implantação do sistema de salas do Microsoft Teams, você deve testá-
 
 Recomendamos que, como parte da distribuição geral do teams ou do Skype for Business, você configure a criação de arquivos para o painel de qualidade de chamada (CQD), monitore as tendências de qualidade e participe do processo de avaliação da qualidade da experiência. Para obter mais informações, consulte o [Guia de revisão da qualidade da experiência](https://aka.ms/qerguide). 
 
-**Dica de pro** – a [matriz de teste](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) disponível em myadvisor contém uma guia com um número de testes de sala de Microsoft Teams que você deve examinar usando como parte do teste. [](https://myadvisor.fasttrack.microsoft.com/) 
-
-### <a name="asset-management"></a>Gerenciamento de ativos 
+### <a name="asset-management"></a>Gerenciamento de ativos
 
 Como parte da implantação, você desejará atualizar o registro de ativos com o nome da sala, as salas do Microsoft Teams, o nome do dispositivo de salas conectado ao Microsoft Teams e os dispositivos periféricos atribuídos (e quais portas USB usam). 
 

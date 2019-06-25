@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2336a7ce0a5aa5d21a167cfe88d981c1a722845e
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: fd3a60c3fef7ea9a20084e950c8425416ac4cc80
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548108"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198337"
 ---
 # <a name="plan-my-service-management"></a>Planejar meu gerenciamento de serviços
 
@@ -72,25 +72,23 @@ O Guia de Operações apresenta uma lista de tarefas comuns mapeadas para as fun
 |Operações do Exchange|Gerenciar o ambiente do Exchange|TBA|TBA|
 |Operações de telefonia|Gerenciar os SBCs e os números de telefone|TBA|TBA|
 
-Para facilitar um mapeamento mais detalhado das funções operacionais, incluindo as tarefas associadas a cada uma das funções operacionais, você pode usar a [Pasta de trabalho de mapeamento de funções operacionais](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_16) para coletar os detalhes que esclarecerão as funções e as responsabilidades para dar suporte às cargas de trabalho de voz em nuvem.
-
 <!--ENDOFSECTION-->
 
 ## <a name="the-quality-champion-role"></a>Função de defensor da qualidade
 
 Todos os grupos ou indivíduos precisam se responsabilizar pela qualidade em todas as organizações.
-Essa é a função mais importante do gerenciamento do serviço. O defensor de qualidade é uma função de cliente atribuída a um indivíduo ou grupo que tenha paixão pela experiência de seus usuários. Essa função requer a habilidade de identificar tendências no ambiente e a capacidade de trabalhar com outras equipes para possibilitar correções.
-O principal candidato para o defensor de qualidade costuma ser o proprietário do serviço ao cliente, que, dependendo do tamanho e da complexidade da organização, pode ser qualquer indivíduo ou grupo que tenha paixão pela experiência do usuário.
+Essa é a função mais importante do gerenciamento do serviço. O especialista em qualidade é uma função de cliente atribuída a uma pessoa ou grupo que é apaixonado pela experiência dos usuários. Essa função requer a habilidade de identificar tendências no ambiente e a capacidade de trabalhar com outras equipes para possibilitar correções.
+O melhor candidato para a Quality Champion geralmente é o proprietário do atendimento ao cliente, quem, dependendo do tamanho e da complexidade da organização, pode ser qualquer pessoa ou grupo que seja apaixonado pela experiência do usuário.
 
-O defensor de qualidade aproveita as ferramentas e os processos documentados existentes, como o Painel de qualidade da chamada (CQD) e o Guia de revisão da experiência da qualidade, para monitorar a experiência do usuário, identificar tendências de qualidade e orientar a correção quando necessário. O defensor da qualidade deve trabalhar com as respectivas equipes para conduzir ações de remediação, se reportando a um comitê de direção sobre o progresso e os problemas não solucionados.
+O especialista em qualidade aproveita as ferramentas existentes e os processos documentados, como o painel de qualidade de chamada (CQD) e o guia de avaliação da experiência de qualidade, para monitorar a experiência do usuário, identificar tendências de qualidade e remediação quando necessário. O especialista em qualidade funciona com as respectivas equipes para direcionar as ações de correção, gerando relatórios para um Comitê de direcionamento sobre seus problemas de progresso e abertura.
 
-As tarefas e atividades relacionadas à função estão documentadas no Guia de Operações. Essa função deve ser atribuída logo no início da fase de Concepção. Um etapa importante da operacionalização da função de defensor da qualidade é a obtenção do conhecimento necessário para a função e a garantia de que os pré-requisitos para a execução das tarefas foram cumpridos. Uma tarefa importante dessa função é a realização periódica de uma revisão da experiência de qualidade.
+As tarefas e atividades associadas à função são documentadas no guia de operações. Essa função deve ser atribuída logo no início da fase de Concepção. Um etapa importante da operacionalização da função de defensor da qualidade é a obtenção do conhecimento necessário para a função e a garantia de que os pré-requisitos para a execução das tarefas foram cumpridos. Uma tarefa importante dessa função é a realização periódica de uma revisão da experiência de qualidade.
 
 <!--ENDOFSECTION-->
 
 ## <a name="introduction-to-the-quality-experience-review-guide"></a>Introdução ao Guia de Revisão da Experiência de Qualidade
 
-O Guia de revisão da experiência da qualidade tem um conjunto de atividades que avalia e oferece orientações de remediação em áreas importantes que tenham o maior impacto para melhorar a experiência do usuário, conforme mostrado na figura abaixo.
+O guia de avaliação da experiência de qualidade tem um conjunto de atividades que avaliam e fornecem orientação de correção em áreas importantes que têm o maior impacto para melhorar a experiência do usuário, conforme mostrado na figura abaixo.
 
 ![Ilustração de áreas importantes para examinar durante a análise da experiência de qualidade] (media/plan-my-service-management-image2.png "As principais áreas a serem examinadas durante uma revisão da experiência de qualidade: áudio, confiabilidade e resultados da pesquisa de usuários.")
 
@@ -110,13 +108,13 @@ Por meio da avaliação e correção contínuas das áreas descritas neste docum
 
 As orientações fornecidas no Guia de Revisão da Experiência de Qualidade concentram-se no uso do Painel de Qualidade de Chamadas (PQC) Online como ferramenta principal para relatar e investigar cada área descrita, com foco sobre o áudio para maximizar a adoção e o impacto. Todas as otimizações feitas à rede para melhorar a experiência de área também se converterão diretamente em aprimoramentos no vídeo e no compartilhamento da área de trabalho.
 
-Recomendamos fortemente que você nomeie o defensor de qualidade o quanto antes. Após a nomeação, ele deve começar a se familiarizar com o conteúdo do [Guia de Revisão da Experiência de Qualidade](https://aka.ms/qerguide).
+É altamente recomendável que você innomeado o especialista em qualidade no início. Depois de serem nomeados, eles devem começar a se familiarizar com o conteúdo do [Guia de revisão de experiência de qualidade](https://aka.ms/qerguide).
 
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Decida quem é responsável pelas operações de voz em nuvem na sua organização.</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximos passos</td><td><ul><li>Baixe o guia completo do Planejamento de gerenciamento de serviços.</li><li>Baixe o guia da Revisão da experiência de qualidade.</li><li>Revise o Guia de Operações na íntegra.</li><li>Entregue todos os guias a todos os membros da equipe de operações para que analisem e se familiarizem com os requisitos operacionais.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Decidir quem é responsável pelas operações de voz em nuvem em sua organização.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Próximas etapas</td><td><ul><li>Baixe o guia planejamento para o gerenciamento de serviços completo.</li><li>Baixe o guia de avaliação da experiência de qualidade.</li><li>Examine o guia de operações totalmente.</li><li>Fornecer todos os guias para que todos os membros da equipe de operações possam revisar e se familiarizar com os requisitos de operações.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

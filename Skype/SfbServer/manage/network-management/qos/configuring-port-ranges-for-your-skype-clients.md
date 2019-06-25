@@ -13,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este artigo descreve como configurar intervalos de porta para seus clientes e configurar políticas de qualidade de serviço no Skype for Business Server para clientes em execução no Windows 10.
-ms.openlocfilehash: 2eaf7eb6b10f2aba2665704f973a4dfcddbd4885
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ce1690c295f1f5ed991780919370e5dbf5b5d6b1
+ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279421"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35204011"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>Configurando intervalos de porta e uma política de qualidade de serviço para seus clientes no Skype for Business Server
 
@@ -187,7 +187,7 @@ Para criar uma política de qualidade de áudio de serviço para computadores co
 
 6.  Na caixa de diálogo **QoS baseada em política** , na página de abertura, digite um nome para a nova política na caixa **nome** . Selecione **especificar valor DSCP** e defina o valor como **46**. Deixe **especificar a taxa** de aceleração de saída desmarcada e clique em **Avançar**.
 
-7.  Na página seguinte, verifique se a opção **todos os aplicativos** está selecionada e clique em **Avançar**. Essa configuração instrui a rede a procurar todos os pacotes com uma marcação DSCP de 46, não apenas pacotes criados por um aplicativo específico.
+7.  Na próxima página, selecione **apenas aplicativos com esse nome executável**, digite **Lync. exe** como o nome e clique em **Avançar**. Essa configuração instrui a política a priorizar somente o tráfego coincidente do cliente Skype for Business.
 
 8.  Na terceira página, verifique se **qualquer endereço IP de origem** e **qualquer endereço IP de destino** estão selecionados e clique em **Avançar**. Essas duas configurações garantem que os pacotes serão gerenciados independentemente de qual computador (endereço IP) enviou esses pacotes e qual computador (endereço IP) receberá esses pacotes.
 

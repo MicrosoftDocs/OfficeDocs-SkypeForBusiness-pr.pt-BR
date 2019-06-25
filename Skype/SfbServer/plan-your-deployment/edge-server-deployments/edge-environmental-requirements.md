@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Resumo: Saiba mais sobre os requisitos ambientais do servidor de borda no Skype for Business Server.'
-ms.openlocfilehash: a154882e6fe78faee3b020830de4049827babf89
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c6127f862bcc21d113404eb7bf1868757a83cf32
+ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277171"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35203953"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Requisitos ambientais do servidor de borda no Skype for Business Server
  
@@ -81,11 +81,11 @@ Para ajudá-lo a escolher uma, temos a tabela a seguir que apresenta um resumo d
 |:-----|:-----|:-----|:-----|:-----|
 |Borda única consolidada com endereços IP privados e NAT  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |
 |Borda única consolidada com endereços IP públicos  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |
-|Borda dimensionada consolidada com endereços IP privados e NAT (balanceamento de carga DNS)  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Yes&sup1;  <br/> |
-|Borda dimensionada consolidada com endereços IP públicos (balanceamento de carga DNS)  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Yes&sup1;  <br/> |
+|Borda dimensionada consolidada com endereços IP privados e NAT (balanceamento de carga DNS)  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim&SUP1;  <br/> |
+|Borda dimensionada consolidada com endereços IP públicos (balanceamento de carga DNS)  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim&SUP1;  <br/> |
 |Borda dimensionada consolidada com balanceadores de carga de hardware  <br/> |Sim  <br/> |Não (um registro DNS A por VIP)  <br/> |Sim  <br/> |Sim   <br/> |
    
-&sup1; O failover de usuário remoto do Exchange Unified Messaging (UM) que usa o balanceamento de carga de DNS exige o Exchange 2013 ou versão mais recente.
+&SUP1; O failover de usuário remoto do Exchange Unified Messaging (UM) que usa o balanceamento de carga de DNS exige o Exchange 2013 ou versão mais recente.
   
 ### <a name="ip-address-requirements"></a>Requisitos de Endereço IP
 

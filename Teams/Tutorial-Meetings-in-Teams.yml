@@ -20,12 +20,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 67ed7972a6188225a3b4f81fcc3e99f541f76952
-  ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+  ms.openlocfilehash: 331483c565292d60587de834cbb086af1b956969
+  ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 04/23/2019
-  ms.locfileid: "32225728"
+  ms.lasthandoff: 06/24/2019
+  ms.locfileid: "35198433"
 items:
 - durationInMinutes: 1
   content: >
@@ -104,15 +104,13 @@ items:
     ### <a name="next-steps"></a>Próximos passos
 
 
-    1.  Inscreva-se no [MyAdvisor](https://aka.ms/myadvisor) para obter orientações personalizadas de implantação.
+    1.  Comece a utilizar as reuniões no Teams.
 
-    2.  Comece a utilizar as reuniões no Teams.
-
-    3.  Envie-nos seus comentários:
+    2.  Envie-nos seus comentários:
         - Poste na seção de comentários na parte inferior desta página.
         - Para fazer comentários sobre o produto Microsoft Teams ou solicitar um novo recurso, acesse o [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
-    4.  Mantenha-se atualizado:
-        - Siga o [Blog de equipes](https://aka.ms/teamsblog).
-        - Leia o [mapa de equipes](https://aka.ms/O365Roadmap).
-        - Saiba mais sobre os recursos na [Notas de versão](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)lançados mais recente.
-    5.  Explore [mais treinamento e tutoriais](https://aka.ms/Teamsacademy).
+    3.  Mantenha-se atualizado:
+        - Siga o [blog](https://aka.ms/teamsblog)do teams.
+        - Leia o [mapa](https://aka.ms/O365Roadmap)do teams.
+        - Saiba mais sobre os recursos lançados mais recentes nas [notas de versão](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).
+    4.  Explore [mais treinamento e tutoriais](https://aka.ms/Teamsacademy).

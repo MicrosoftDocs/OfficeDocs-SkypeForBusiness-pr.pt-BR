@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: Este artigo explica as considerações de planejamento pertinentes para a implantação de salas do Microsoft Teams, a próxima geração de sistemas de sala do Skype.
-ms.openlocfilehash: 7b71969358e17b98dbfe5e5437ed4b421c27ea85
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9944caab333b52c0d31c513e91f1f1b4a4cd71d1
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288589"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198648"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planejar salas do Microsoft Teams
 
@@ -102,8 +102,6 @@ _Exemplo de inventário de sala de reunião/conferência_
 | HQ de Londres | Curie         | Média        | 6&ndash;12                  | Sim          | Falante                        | 1 tela, áudio e vídeo, além de uma apresentação<br>Acesso PSTN |
 | HQ de Sydney | Pico          | Grande         | 12&ndash;16                 | Sim          | Unidade AV herdada, 1 tela e câmera | 2 telas, áudio e vídeo e apresentação<br>Acesso PSTN |
 
-**Dica de pro** – se você tiver muitos sites para fazer o inventário, talvez queira baixar e usar o [planejamento de migração e o questionário do site](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_15).
-
 ## <a name="device-selection"></a>Seleção de dispositivo 
 
 Avalie qual a solução de salas do Microsoft Teams é a mais adequada para cada sala com base nos recursos futuros que você deseja para a sala. Decidir quais dispositivos periféricos AV são os mais adequados, dependendo do tamanho e do layout da sala. 
@@ -128,7 +126,7 @@ _Exemplo de modelo de implantação de salas do Microsoft Teams para sua organiz
 | Média 18 ' a 20 '    | 6&ndash;12                  |                                  |                         |                 |
 | Grande 15 ' por 32 '     | 12&ndash;16                 |                                  |                         |                 |
 
-**Dica de pro –** Agora é um ótimo momento para começar a reunir informações sobre a solução de salas do Microsoft Teams que você escolheu. Recomendamos que você trabalhe com o fornecedor para discutir a conclusão do modelo de design para capturar informações que serão relevantes para a sua implantação; Você pode [baixar este modelo prático](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_11) do myadvisor. 
+**Dica de pro –** Agora é um ótimo momento para começar a reunir informações sobre a solução de salas do Microsoft Teams que você escolheu.
 
 ## <a name="procurement"></a>Aquisições 
 
