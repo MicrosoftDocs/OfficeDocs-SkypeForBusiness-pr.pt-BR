@@ -15,29 +15,30 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 84d23efc8cbec7435b4b9677bf9c6321ade4fb3d
-ms.sourcegitcommit: 35930c6f634623983aefeed104bc6c66a8aab174
+ms.openlocfilehash: 7daf8261d4b242325cac630ff134e188a3be2c8e
+ms.sourcegitcommit: 2af4c9e3a8374d9a6995e36604d8b0b8eff23b34
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2019
-ms.locfileid: "34957472"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "35133856"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Bem-vindo ao Microsoft Teams
 Se você é o administrador do Microsoft Teams em sua organização, está no lugar certo. Se você está pronto para começar a usar o Teams, comece em [Como implementar o Teams](How-to-roll-out-teams.md).
 
-Se não estiver familiarizado com o Teams e quiser saber mais, continue a ler. Confira este pequeno vídeo, [Bem-vindo ao Teams](https://youtu.be/s3aQV3T0D6c). 
-
 Se você está procurando a Ajuda do Teams para o usuário final, clique em **Ajuda** no lado esquerdo do aplicativo, ou acesse a [Central de Ajuda do Microsoft Teams](https://support.office.com/teams). Para treinamento, acesse [Treinamento do Microsoft Teams](training-microsoft-teams-landing-page.md). 
+
+
+
+Se você não conhece o Teams e deseja saber mais, confira o nosso vídeo Bem-Vindo ao Teams.
+
+> [!VIDEO https://www.youtube.com/embed/s3aQV3T0D6c]
+
 
 ## <a name="teams-architecture"></a>Arquitetura do Teams
 
 O Teams se baseia nos grupos do Office 365, no Microsoft Graph e na mesma segurança, conformidade e gerenciamento de nível corporativo que o restante do Office 365. O Microsoft Teams utiliza as identidades armazenadas no Azure AD (Azure Active Directory). 
 
 Para ver onde o Teams se encaixa no contexto do Microsoft 365, confira este cartaz de arquitetura: [O Teams como parte do Microsoft 365](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
-
-[![Imagem em miniatura para o cartaz de arquitetura lógica do Teams](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf)         
-
-
 
 Quando você cria uma equipe, é criado o seguinte:
 - Um novo [grupo do Office 365](office-365-groups.md)
@@ -47,8 +48,6 @@ Quando você cria uma equipe, é criado o seguinte:
 - Vínculos com outros aplicativos do Office 365, como o Planner e o Power BI
 
 Quando você cria uma equipe com base em um grupo existente, a associação, o site, a caixa de correio e o bloco de anotações desse grupo são exibidos no Teams. Para saber mais, confira este pôster: [Grupos no Microsoft 365 para Arquitetos TI](teams-architecture-solutions-posters.md#groups-in-microsoft-365)
-
-[![Imagem em miniatura de infográfico sobre os grupos](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.pdf)
 
 Para personalizar e estender o Teams, adicione aplicativos de terceiros por meio de [aplicativos, bots e conectores](deploy-apps-microsoft-teams-landing-page.md). Com o Teams, você pode incluir pessoas de fora da organização [adicionando-as como convidadas](guest-access.md) a uma equipe ou um canal. Como parte do Office 365, o Teams oferece uma [plataforma de desenvolvimento](https://docs.microsoft.com/microsoftteams/platform) robusta para que você possa criar o hub de trabalho em equipe necessário para sua organização. 
 

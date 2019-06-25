@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Gerenciar recursos e funcionalidades de acesso de convidados no Microsoft Teams por meio de quatro níveis diferentes de autorização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04dab0b303ddea640a690c5592f8e4bc9973d1b5
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: f027a4626fef2fbfbdad5e6ceb52ca6c3828d1c7
+ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548849"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131405"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorizar o acesso para convidado no Microsoft Teams
 ===========================================
@@ -107,9 +107,9 @@ O Teams depende do SharePoint Online e do OneDrive for Business para armazenar a
    
 Para habilitar a experiência completa de acesso de convidados no Teams, os administradores do Office 365 precisam selecionar **Habilitar** nas seguintes configurações:
 
-- No SharePoint Online: **Permitir apenas compartilhamento com usuários externos já constantes do diretório**
+- No SharePoint Online: **Convidados existentes**, **Convidados novos e existentes**, ou **Qualquer pessoa**
     
-    Para saber mais, confira [Gerenciar o compartilhamento externo para seu ambiente do SharePoint Online](https://docs.microsoft.com/sharepoint/external-sharing-overview).
+    Para obter mais informações, confira [Ativar ou desativar o compartilhamento externo](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off).
     
 - Nos grupos do Office 365: **Permitir que proprietários de grupos adicionem aos grupos pessoas externas à organização**
     

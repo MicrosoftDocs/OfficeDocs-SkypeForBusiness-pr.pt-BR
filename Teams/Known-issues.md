@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76efaefecf17b37b7c0a802f738cde493fa2c194
-ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
+ms.openlocfilehash: 0944d9419f0a3b174ef2c9a8bfd3b3dd50ac9a5e
+ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "35115950"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131428"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -30,7 +30,7 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|    
 |:-----|:-----|:-----|:-----|
-|Departamento de Conta de Recursos configurado incorretamente <br/> |Contas de recursos associadas a um atendedor automático ou filas de chamadas criadas antes de janeiro de 2019 podem não ter o parâmetro Departmento configurado corretamente, o que pode fazer com que uma atribuição de número de telefone falhe. Uma correção está sendo criada para resolver esse problema. <br/> |Para atenuar esse problema, você pode executar o seguinte cmdlet para configurar o parâmetro de departamento. Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Instância do aplicativo de comunicação da Microsoft" <br/> |08/05/19 <br/> |
+|Departamento de Conta de Recursos configurado incorretamente <br/> |Contas de recursos associadas a um atendedor automático ou filas de chamadas criadas antes de janeiro de 2019 podem não ter o parâmetro Departmento configurado corretamente, o que pode fazer com que uma atribuição de número de telefone falhe. Uma correção está sendo criada para resolver esse problema. <br/><br/> As Contas de Recurso configuradas usando New-CsHybridApplicationEndpoint com o Skype for Business Server não terão o conjunto de parâmetros do Departamento corretamente, o que causará a falha da criação da conta do recurso no Skype for Business online. Nesse caso, você precisa configurar o nome do departamento no Active Directory antes de sincronizá-lo online.|Para atenuar esse problema, você pode executar o seguinte cmdlet para configurar o parâmetro de departamento. Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Instância do aplicativo de comunicação da Microsoft" <br/> |08/05/19 <br/> |
 
 
 
@@ -271,6 +271,10 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |Falha ao baixar arquivos <br/> |Tentar baixar um arquivo quando o caminho do arquivo contiver um apóstrofo resultará na falha "O arquivo não foi baixado" ao usar o cliente da área de trabalho do Microsoft Teams. <br/> |Baixe o arquivo a partir do cliente da Web ou do SharePoint Online <br/> |10/05/2019  <br/> |
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Não é possível carregar ou baixar o arquivo do OneNote <br/> |Não é possível carregar ou baixar um arquivo ou bloco de anotações do OneNote usando o Microsoft Teams. <br/> |Baixar ou carregar o arquivo diretamente no SharePoint Online <br/> |07/05/2019  <br/> |
 
 ## <a name="teams"></a>Teams
 
