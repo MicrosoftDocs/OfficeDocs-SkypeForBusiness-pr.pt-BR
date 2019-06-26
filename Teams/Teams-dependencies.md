@@ -15,24 +15,24 @@ search.appverid: MET150
 description: Gerenciar recursos e funcionalidades de acesso de convidados no Microsoft Teams por meio de quatro níveis diferentes de autorização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f027a4626fef2fbfbdad5e6ceb52ca6c3828d1c7
-ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
+ms.openlocfilehash: 11b088cd78e08263a18a646cd774d43e1294b028
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "35131405"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222010"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorizar o acesso para convidado no Microsoft Teams
 ===========================================
 
 Para atender às exigências de sua organização, você pode gerenciar os recursos e as funcionalidades de acesso de convidados no Microsoft Teams por meio de quatro níveis diferentes de autorização. Todos os níveis de autorização são aplicáveis ao seu locatário do Office 365. Cada nível de autorização controla a experiência do convidado conforme mostrado a seguir:
 
-- **Azure Active Directory**: O acesso de convidados no Microsoft Teams usa a plataforma B2B (entre empresas) do Azure AD. Controla a experiência dos convidados no nível de diretório, locatário e aplicativo. 
-- **Microsoft Teams**: Controla somente o Microsoft Teams. 
+- **Azure Active Directory**: O acesso de convidados no Microsoft Teams usa a plataforma B2B (entre empresas) do Azure AD. Esse nível de autorização controla a experiência dos convidados com relação a diretório, locatário e aplicativo.
+- **Microsoft Teams**: controla a experiência do convidado somente no Microsoft Teams.
 - **Grupos do Office 365**: Controla a experiência dos convidados nos Grupos do Office 365 e no Microsoft Teams.
 - **SharePoint Online e OneDrive for Business**: Controla a experiência dos convidados no SharePoint Online, no OneDrive for Business, nos Grupos do Office 365 e no Microsoft Teams.
 
-Esses níveis diferentes de autorização fornecem flexibilidade para a forma como você configura o acesso de convidados para sua organização. Por exemplo, se você não quiser permitir o acesso a usuários convidados em suas equipes da Microsoft, mas quiser permiti-lo em sua organização, basta desativar o acesso de convidados no Microsoft Teams. Outro exemplo: Você pode habilitar o acesso de convidados no AAD, no Microsoft Teams e nos Grupos do Office 365, mas depois desabilitar a adição de usuários convidados em equipes selecionadas que correspondam a um ou mais critérios, como classificação de dados correspondente à confidencial. O SharePoint Online e o OneDrive for Business têm suas próprias configurações de acesso de convidados que não dependem dos Grupos do Office 365. 
+Esses níveis diferentes de autorização fornecem flexibilidade para a forma como você configura o acesso de convidados para sua organização. Por exemplo, se você não quiser permitir o acesso a usuários convidados em suas equipes da Microsoft, mas quiser permiti-lo em sua organização, basta desativar o acesso de convidados no Microsoft Teams. Outro exemplo: você pode habilitar o acesso de convidados no Azure AD, no Microsoft Teams e nos Grupos do Office 365, mas depois desabilitar a adição de usuários convidados em equipes selecionadas que correspondam a um ou mais critérios, como a classificação de dados correspondente à confidencialidade. O SharePoint Online e o OneDrive for Business têm suas próprias configurações de acesso de convidados que não dependem dos Grupos do Office 365.
 
 > [!NOTE]
 > Os convidados estão sujeitos aos limites de serviço do [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) e do [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019). 
@@ -58,19 +58,19 @@ As configurações de convites são aplicáveis no nível do locatário e contro
 O Azure AD inclui as seguintes configurações para configurar usuários externos:
 
 - **As permissões de usuário convidado são limitadas**: **Sim** significa que os convidados não têm permissão para determinadas tarefas de diretório, como enumerar usuários, grupos ou outros recursos de diretório. Além disso, os convidados não podem ser atribuídos a funções administrativas em seu diretório. **Não** significa que os convidados têm o mesmo acesso aos dados de diretório que os usuários comuns têm em seu diretório.
-- **Os administradores e usuários na função de emissor de convite a convidados podem enviar convites**: **Sim** significa que os administradores e usuários na função de “Emissor de Convite a Convidado” poderão convidar pessoas para o locatário. **Não** significa que os administradores e usuários não podem convidar pessoas para o locatário.
+- **Os administradores e usuários na função de emissor de convite para convidado podem enviar convites**: **Sim** significa que os administradores e usuários na função de emissor de convite para convidado poderão convidar pessoas para o locatário. **Não** significa que os administradores e usuários não podem convidar pessoas para o locatário.
 - **Membros podem convidar**: **Sim** significa que os membros não administradores do seu diretório podem enviar convites a convidados a fim de que colaborem em recursos protegidos pelo seu Azure AD, como sites do SharePoint ou recursos do Azure. **Não** significa que apenas os administradores podem convidar pessoas para o seu diretório.</br>
       
     > [!NOTE]
-    > Atualmente, o Teams não possui suporte para a função de emissor de convite a convidado. no mínimo, a opção de **Membros podem convidar** deve ser definida como **Sim** para que o acesso a convidados funcione no Teams.
-- **Convidados podem convidar**: **Sim** significa que os convidados em seu diretório podem enviar convites a outros convidados a fim de que colaborem em recursos protegidos pelo seu Azure AD, como sites do SharePoint ou recursos do Azure. **Não** significa que os convidados não podem enviar convites a outros convidados a fim de que colaborem com sua organização.
+    > Atualmente, o Teams não possui suporte para a função de emissor de convite a convidado. No mínimo, a opção de **Membros podem convidar** deve ser definida como **Sim** para que o acesso a convidados funcione no Teams.
+- **Convidados podem convidar**: **Sim** significa que os convidados em seu diretório podem enviar convites a outros convidados a fim de que colaborem em recursos protegidos pelo seu Azure AD, como sites do SharePoint ou recursos do Azure. **Não** significa que os convidados não podem enviar convites a outros convidados a fim de que colaborem com a sua organização.
  
 Para obter mais informações sobre como controlar quem pode convidar pessoas, consulte [Delegar convites para colaboração B2B do Active Directory do Azure](https://docs.microsoft.com/pt-BR/azure/active-directory/b2b/delegate-invitations).
 
 > [!NOTE]
-> Você também pode gerenciar quais domínios podem receber convites para acessar seu locatário como convidados. Consulte [Permitir/bloquear o acesso de convidados a grupos do Office 365](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups). 
+> Você também pode gerenciar quais domínios podem receber convites para acessar seu locatário como convidados. Consulte [Permitir/Bloquear o acesso de convidados a Grupos do Office 365](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups).
 
-Não é necessário adicionar a conta de convidado do usuário manualmente ao B2B do Azure AD, pois a conta será adicionada ao diretório automaticamente quando você adicionar o convidado ao Teams. 
+Não é necessário adicionar a conta de convidado do usuário manualmente ao B2B do Azure AD, pois a conta será adicionada ao diretório automaticamente quando você adicionar o convidado ao Teams.
 
 O licenciamento do Azure AD permite adicionar até 5 convidados por licença. Para obter mais informações sobre o licenciamento do Azure AD, consulte o [guia de licenciamento de colaboração B2B do Azure Active Directory](https://docs.microsoft.com/pt-BR/azure/active-directory/b2b/licensing-guidance).
 
@@ -83,36 +83,36 @@ Você pode gerenciar as configurações de acesso de convidado do Teams no centr
 
 ## <a name="control-guest-access-in-office-365-groups"></a>Controlar o acesso de convidados em grupos do Office 365
 
-Nos Grupos do Office 365, você pode controlar a adição de usuários convidados e o acesso de convidados a todos os grupos do Office 365 e ao Microsoft Teams em sua organização.
+Nos Grupos do Office 365, você pode controlar a adição de usuários convidados e o acesso de convidados a todos os Grupos do Office 365 e ao Microsoft Teams em sua organização.
 
 1. Entre com sua conta de administrador global do Office 365 em [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
-    
+
 2. No menu de navegação, escolha **Configurações** e, em seguida, selecione **Serviços &amp; complementos**.
-    
+
 3. Selecione **Grupos do Office 365**.
-    
-     ![Captura de tela dos grupos do Office 365 em configurações](media/authorize-guest-image2.png)
+
+     ![Captura de tela dos Grupos do Office 365 em configurações](media/authorize-guest-image2.png)
   
-4. Na página de Grupos do Office 365, alterne entre **Ativado** e **Desativado**, conforme você desejar permitir que os proprietários de equipes e grupos fora da sua organização acessem grupos do Office 365. Clique ou toque no botão para defini-lo como **Ativado** ao lado de **Permitir que os proprietários do grupo adicionem pessoas fora da organização aos grupos**. Se você definir essa opção como **Ativado**, verá outra opção para controlar se deseja permitir que os proprietários de grupos e equipes adicionem pessoas fora de sua organização a grupos do Office 365 e equipes da Microsoft. Defina esta opção como **Ativado** se você quiser permitir que os proprietários de grupos e equipes adicionem usuários convidados. 
+4. Na página de Grupos do Office 365, alterne entre **Ativado** e **Desativado**, conforme você desejar permitir que os proprietários de equipes e grupos fora da sua organização acessem os Grupos do Office 365. Clique ou toque no botão para defini-lo como **Ativado** ao lado de **Permitir que os proprietários do grupo adicionem pessoas fora da organização aos grupos**. Se esta opção for definida como **Ativado**, você verá outra opção para controlar se deseja permitir que os proprietários de grupos e equipes adicionem pessoas fora da sua organização a Grupos do Office 365 e Microsoft Teams. Defina esta opção como **Ativado** se você quiser permitir que os proprietários de grupos e equipes adicionem usuários convidados. 
  
    ![Captura de tela do painel de grupos do Office 365 com as opções ativadas](media/authorize-guest-image3.png)
 
 Essas configurações se aplicam no nível do locatário e controlam a experiência do convidado nos Grupos do Office 365 e no Microsoft Teams.
 
-Consulte [Acesso a convidados nos Grupos do Office 365](https://support.office.com/pt-BR/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6) para obter mais informações sobre o acesso a convidados nos Grupos, incluindo como o acesso a convidados funciona, como gerenciar o acesso a convidados e respostas a perguntas frequentes.
+Consulte [Acesso a convidados nos Grupos do Office 365](https://support.office.com/pt-BR/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6) para obter mais informações sobre o acesso a convidados nos grupos, incluindo como o acesso a convidados funciona e como gerenciar o acesso a convidados e respostas a perguntas frequentes.
 
 ## <a name="control-guest-access-to-sharepoint-online-and-onedrive-for-business"></a>Controle o acesso a convidados no SharePoint Online e OneDrive for Business
 
 O Teams depende do SharePoint Online e do OneDrive for Business para armazenar arquivos e documentos para canais e conversas de bate-papo.  
-   
+
 Para habilitar a experiência completa de acesso de convidados no Teams, os administradores do Office 365 precisam selecionar **Habilitar** nas seguintes configurações:
 
 - No SharePoint Online: **Convidados existentes**, **Convidados novos e existentes**, ou **Qualquer pessoa**
-    
+
     Para obter mais informações, confira [Ativar ou desativar o compartilhamento externo](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off).
-    
-- Nos grupos do Office 365: **Permitir que proprietários de grupos adicionem aos grupos pessoas externas à organização**
-    
+
+- Nos Grupos do Office 365: **Permitir que os proprietários do grupo adicionem pessoas fora da organização aos grupos**
+
     Para obter mais informações, confira [Controlar o acesso a convidados nos Grupos do Office 365](#control-guest-access-in-office-365-groups), acima.
   
 Essas configurações se aplicam no nível do locatário e controlam a experiência do convidado no SharePoint Online, no OneDrive for Business, nos Grupos do Office 365 e no Teams.

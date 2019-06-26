@@ -15,21 +15,21 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7daf8261d4b242325cac630ff134e188a3be2c8e
-ms.sourcegitcommit: 2af4c9e3a8374d9a6995e36604d8b0b8eff23b34
+ms.openlocfilehash: 42df64ecc4717f73705760ff8baee1e49a7d4c89
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35133856"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221979"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Bem-vindo ao Microsoft Teams
 Se você é o administrador do Microsoft Teams em sua organização, está no lugar certo. Se você está pronto para começar a usar o Teams, comece em [Como implementar o Teams](How-to-roll-out-teams.md).
 
-Se você está procurando a Ajuda do Teams para o usuário final, clique em **Ajuda** no lado esquerdo do aplicativo, ou acesse a [Central de Ajuda do Microsoft Teams](https://support.office.com/teams). Para treinamento, acesse [Treinamento do Microsoft Teams](training-microsoft-teams-landing-page.md). 
+Se você está procurando a Ajuda do Teams para o usuário final, clique em **Ajuda** no lado esquerdo do aplicativo, ou acesse a [Central de Ajuda do Microsoft Teams](https://support.office.com/teams). Para obter treinamento, acesse [Treinamento do Microsoft Teams](training-microsoft-teams-landing-page.md). 
 
 
 
-Se você não conhece o Teams e deseja saber mais, confira o nosso vídeo Bem-Vindo ao Teams.
+Se você não conhece o Teams e deseja saber mais, confira o nosso vídeo Bem-Vindo ao Teams (de 55 segundos).
 
 > [!VIDEO https://www.youtube.com/embed/s3aQV3T0D6c]
 
@@ -66,7 +66,7 @@ Como administrador, você vai gerenciar o Teams pelo Centro de administração d
 Para ficar por dentro do que será lançado para o Microsoft Teams e todos os outros produtos e serviços do Office 365 em sua organização, confira o [Centro de mensagens ](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) e o [Roteiro do Teams](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams). Você receberá comunicados sobre recursos novos e atualizados, alterações planejadas e problemas para se manter informado e preparado. 
 
 ## <a name="upgrade-from-skype-for-business-to-teams"></a>Atualização do Skype for Business para o Teams
-O Teams é o principal cliente para comunicações inteligentes no Office 365 e, eventualmente, ele substituirá o Skype for Business Online. Para ficar por dentro dos novos recursos que chegam ao Teams, consulte o [Roteiro do Microsoft 365](http://aka.ms/O365Roadmap). Para complementar os recursos de bate-papo e mensagens persistentes, o Teams oferece uma experiência abrangente de reunião e chamada, com voz e vídeo totalmente integrados. Confira [Agora o Microsoft Teams é uma solução completa de reuniões e chamadas](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042) no Blog do Microsoft Teams.
+O Teams é o principal cliente para comunicações inteligentes no Office 365 e, eventualmente, ele substituirá o Skype for Business Online. Para ficar por dentro dos novos recursos que chegam ao Teams, consulte o [Roteiro do Microsoft 365](https://aka.ms/O365Roadmap). Para complementar os recursos de bate-papo e mensagens persistentes, o Teams oferece uma experiência abrangente de reunião e chamada, com voz e vídeo totalmente integrados. Confira [Agora o Microsoft Teams é uma solução completa de reuniões e chamadas](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042) no Blog do Microsoft Teams.
 
 Se você está executando o Skype for Business e está pronto para atualizar para o Microsoft Teams ou se está executando o Skype for Business e o Microsoft Teams lado a lado e está pronto para mudar totalmente para o Microsoft Teams, temos ferramentas, dicas e diretrizes para garantir o sucesso de sua transição. Para saber mais, confira [Atualizar para o Teams](journey-skypeforbusiness-teams.md).
 
