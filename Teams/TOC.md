@@ -19,14 +19,14 @@
 # Bate-papo, equipes, canais e aplicativos
 ## [Planejar sua implantação](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [Visão geral de equipes e canais](teams-channels-overview.md)
-## [Atribuir proprietários de equipe e membros no Microsoft Teams](assign-roles-permissions.md)
+## [Atribuir proprietários e membros da equipe no Teams](assign-roles-permissions.md)
+## [Visão geral da associação dinâmica de equipes](dynamic-memberships.md)
 ## [Práticas recomendadas para organizar equipes no Teams](best-practices-organizing.md)
 ## [Criar uma equipe englobando toda a organização no Teams](create-an-org-wide-team.md)
 ## [Gerenciar a descoberta de equipes particulares no Teams](manage-discovery-of-private-teams.md)
 ## [Compartilhando arquivos no Teams](sharing-files-in-teams.md)
 ## [Gerenciar políticas de mensagens](messaging-policies-in-teams.md)
-## [Visão geral da associação dinâmica de equipes](dynamic-memberships.md)
-## [Presença](presence-admins.md)
+## [Presença do usuário no Teams](presence-admins.md)
 ## [Arquivar ou excluir uma Equipe](archive-or-delete-a-team.md)
 
 
@@ -45,11 +45,11 @@
 
 
 ## Acesso de convidados
-### [Visão geral](guest-access.md)
+### [Sobre o acesso de convidados](guest-access.md)
 ### [Como um convidado ingressa em uma equipe](guest-joins.md)
 ### [Como é a experiência do convidado](guest-experience.md)
 ### [Autorizar acesso de convidados no Microsoft Teams](teams-dependencies.md)
-### [Habilitar ou desabilitar acesso de convidados no Microsoft Teams](set-up-guests.md)
+### [Ativar ou desativar o acesso a convidados no Teams](set-up-guests.md)
 ### [Gerenciamento do acesso de convidados ao Teams](manage-guests.md)
 ### [Adicionar um convidado a uma equipe](add-guests.md)
 ### [Exibir usuários convidados em uma equipe](view-guests.md)
