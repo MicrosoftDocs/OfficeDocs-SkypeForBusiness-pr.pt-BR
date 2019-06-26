@@ -15,16 +15,16 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30b50972dd53300905f580c51a410d699ebb1bff
-ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
+ms.openlocfilehash: 11902a5d6ef768afa6d7bb1bba2f33b64757fef1
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "34748439"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222089"
 ---
 # <a name="user-presence-in-teams"></a>Presença do usuário no Teams
 
-A presença faz parte do perfil de um usuário no Microsoft Teams (e durante todo o Office 365) – e indica a disponibilidade e o status atuais do usuário para outros usuários da organização. Por padrão, qualquer pessoa em sua organização que use o Teams pode ver-em quase tempo real, independentemente de outros usuários estarem disponíveis online.
+A presença faz parte do perfil de um usuário no Microsoft Teams (e durante todo o Office 365) – e indica a disponibilidade e o status atuais do usuário para outros usuários da organização. Por padrão, qualquer pessoa em sua organização que use o Microsoft Teams pode ver, em quase tempo, se outros usuários estão ou não disponíveis online.
 
 ## <a name="presence-states-in-teams"></a>Estados de presença no Teams
 
@@ -56,10 +56,11 @@ Há um tempo limite de inatividade de 15 minutos, após o qual o estado de prese
 
 Os usuários podem especificar quem pode interromper (entre em contato com eles substituindo uma configuração não incomodar). Essas configurações estão disponíveis no aplicativo.
 
-## <a name="teams-is-not-skype-for-business"></a>O Teams não é o Skype for Business
+## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>Configurações de administrador no Teams em comparação com o Skype for Business
 
 As seguintes configurações de administração do Skype for Business são diferentes no Teams:
-- O compartilhamento de presença sempre está habilitado no Teams para usuários da organização. Privacidade (decidindo quem pode ver a presença) a configuração não está disponível no Microsoft Teams.
+
+- No Teams, o compartilhamento de presença sempre é habilitado para os usuários da organização. Privacidade (decidindo quem pode ver a presença) a configuração não está disponível no Microsoft Teams.
 - O compartilhamento de presença com todos (incluindo serviços federados) sempre está habilitado para usuários do teams. Sua lista de contatos (se ela já tinha uma no Skype for Business) fica visível em **contatos de Chat >** ou em **chamadas > contatos**.
 - Cliente não incomodar e recursos revolucionários sempre são habilitados para usuários do teams.
 - Calendário (inclui ausência temporária e outras informações do calendário) a integração sempre é habilitada para usuários do Teams, se integradas ao Outlook.
@@ -67,7 +68,6 @@ As seguintes configurações de administração do Skype for Business são difer
 
 > [!NOTE]
 > Não há suporte para a capacidade de um administrador de equipe personalizar essas configurações no momento.
-
 
 ## <a name="coexistence-with-skype-for-business"></a>Coexistência com o Skype for Business
 

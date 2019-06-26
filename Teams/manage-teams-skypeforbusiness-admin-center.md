@@ -19,12 +19,12 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 92af57f0704ae00164db143d3948b5baf59f6105
-ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
+ms.openlocfilehash: 85893be13d07de4a3ae0111a3cdd9c6524ec3b4c
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "34933776"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221949"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Gerenciar equipes durante a transição para o novo centro de administração do Microsoft Teams
 ======================================================
@@ -44,7 +44,7 @@ A tabela a seguir identifica as seções da experiência do teams que foram migr
 
 |Seção do teams no centro de administração do Microsoft 365  |Nome da configuração (nível do locatário)  |Política do centro de administração do Microsoft Teams   |Nível: locatário ou usuário   |
 |---------|---------|---------|---------|
-|Geral     |Mostrar chat organizacional no perfil pessoal        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Locatário       |
+|Geral     |Mostrar gráfico organizacional no perfil pessoal        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Locatário       |
 |Geral     |Usar o Skype for Business para destinatários que não têm equipes         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Locatário         |
 |Integração de email     |Permitir que os usuários enviem emails a canais         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Locatário         |
 |Integração de email     |Permitir lista de remetentes         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Locatário         |

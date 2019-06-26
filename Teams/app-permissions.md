@@ -15,23 +15,23 @@ description: Saiba que aplicativos de dados e permissões estão solicitando da 
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 167e8d8e628927e470422bf9d0a21adb06e48b53
-ms.sourcegitcommit: c13bd343c3f3d14c7b8ff710ac5a4fec17ab88b7
+ms.openlocfilehash: 598fd2d9dc8c8942a2d82e136c8367afa4d8495e
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34859732"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221941"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Permissões e considerações dos aplicativos Microsoft Teams
 
 Os aplicativos Microsoft Teams são uma forma de agregar um ou mais recursos em um _pacote de aplicativo_ que pode ser instalado, atualizado e desinstalado. Os recursos incluem:
 
--   Bots
--   Extensões de mensagens
--   Guias
--   Conectores
+- Bots
+- Extensões de mensagens
+- Guias
+- Conectores
 
-Os aplicativos são aceitos pelos usuários e gerenciados pela TI a partir de uma perspectiva política. No entanto, na maioria das vezes, as permissões e o perfil de risco de um aplicativo são definidos pelas permissões e perfis de risco dos recursos que ele contém. Assim, este artigo foca em permissões e considerações no nível de recurso.
+Os aplicativos são aceitos pelos usuários e gerenciados pela TI a partir de uma perspectiva política. No entanto, para a maioria das partes, as permissões e o perfil de risco de um aplicativo são definidos pelas permissões e pelos perfis de risco das funcionalidades que o aplicativo contém. Assim, este artigo foca em permissões e considerações no nível de recurso.
 
 As permissões listadas abaixo em maiúsculas, por exemplo, RECEIVE_MESSAGE e REPLYTO_MESSAGE, não aparece em nenhum lugar da [documentação do desenvolvedor do Microsoft Teams](https://aka.ms/teamsdevdocs) nem no [Gráfico de permissões da Microsoft](https://developer.microsoft.com/graph/docs/concepts/permissions_reference). São somente uma abreviação descritiva para o propósito deste artigo.
 

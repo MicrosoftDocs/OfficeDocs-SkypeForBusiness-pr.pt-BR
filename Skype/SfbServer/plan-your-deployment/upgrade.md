@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: 'Resumo: Saiba mais sobre as coisas que você deve considerar ao planejar uma atualização para o Skype for Business Server 2015. Baixe um teste grátis do Skype for Business Server 2015 a partir do centro de avaliação da https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverMicrosoft em:.'
-ms.openlocfilehash: 931ac609dec370d03fe50034300346b7e41c5f56
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0f7473bac98ede76763a3f5bda8aee3484c3c03f
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296781"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222128"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>Planejamento de atualização para o Skype for Business Server 2015
  
@@ -68,7 +68,7 @@ Certifique-se de que o plano defina:
 1. Uma compreensão da sua topologia atual.
     
     > [!NOTE]
-    > Não se esqueça de desinstalar a ferramenta de administração do LRS para o Lync Server 2013 antes de executar a atualização in-loco. A ferramenta de administração do LRS para o Lync Server 2013 não pode coexistir com o Skype for Business Server 2015. Depois de executar a atualização in-loco, instale a nova ferramenta de administração do LRS, consulte [portal da Web administrativo do sistema de salas do Microsoft Lync para o Skype for Business Server 2015](https://go.microsoft.com/fwlink/?LinkID=544807)
+    > Não se esqueça de desinstalar a ferramenta de administração do LRS para o Lync Server 2013 antes de executar a atualização in-loco. A ferramenta de administração do LRS para o Lync Server 2013 não pode coexistir com o Skype for Business Server 2015. Depois de executar a atualização in-loco, instale a nova ferramenta de administração do LRS. Consulte [portal da Web administrativo do sistema de sala do Microsoft Lync para o Skype for Business Server 2015](https://go.microsoft.com/fwlink/?LinkID=544807) para obter mais detalhes.
   
 2. O pool primário da atualização.
     
@@ -148,7 +148,7 @@ Para usar esse método, mova os usuários para outro pool antes de iniciar a atu
    - Para Servidor não-Front-End, use o comando Start-CSWindowsService.
     
 > [!NOTE]
->  Se você não quiser atualizar seus bancos de dados existentes de Monitoramento e Arquivamento, remova a dependência antes de atualizar a topologia. Se quiser criar novos bancos de dados existentes de Monitoramento e Arquivamento durante a atualização, você pode criar um novo repositório do SQL e associá-lo ao pool. Você pode encontrar as etapas sobre como fazer isso no tópico[atualizar para o Skype for Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md). a atualização > in-loco não é compatível com alta disponibilidade ou recuperação de desastres para o Skype for Business Server. Para evitar a interrupção dos serviços dos usuários, use o [método mover usuários (sem tempo de inatividade do usuário)](upgrade.md#bkmk_MoveUsersMethod) para atualizar. > durante o processo de atualização a réplica XDS é colocada na pasta compartilhada local na unidade de disco com mais espaço livre. Se o disco for removido posteriormente, você pode ter problemas, como os serviços não iniciarem.
+>  Se você não quiser atualizar seus bancos de dados existentes de Monitoramento e Arquivamento, remova a dependência antes de atualizar a topologia. Se quiser criar novos bancos de dados existentes de Monitoramento e Arquivamento durante a atualização, você pode criar um novo repositório do SQL e associá-lo ao pool. Você pode encontrar as etapas sobre como fazer isso no tópico[atualizar para o Skype for Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md). > atualização in-loco não é compatível com alta disponibilidade ou recuperação de desastres para o Skype for Business Server. Para evitar a interrupção dos serviços dos usuários, use o [método mover usuários (sem tempo de inatividade do usuário)](upgrade.md#bkmk_MoveUsersMethod) para atualizar. > durante o processo de atualização, a réplica XDS é colocada na pasta compartilhada local na unidade de disco com mais espaço livre. Se o disco for removido posteriormente, você pode ter problemas, como os serviços não iniciarem.
   
 ### <a name="upgrade-order"></a>Ordem de atualização
 

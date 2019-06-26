@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9e4f1c5c019b7d4436bab0379a94cb61e548fa5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: cc5884f5e988602cad145dd3a9ee81fbad1d532b
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245687"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221205"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>Integração de usuários pioneiros do Microsoft Teams
 
@@ -64,7 +64,7 @@ A maneira mais fácil de instalar o cliente de área de trabalho do Windows cons
 3. Inicie o Teams após a conclusão da instalação.
 
 > [!NOTE]
-> Posteriormente, ao considerar uma implementação mais formal e em massa do Teams em toda a organização, confira o vídeo [Cliente de área de trabalho do Windows do Teams](http://aka.ms/teams-clients) para saber como planejá-lo e implantá-lo. 
+> Posteriormente, ao considerar uma implementação mais formal e em massa do Teams em toda a organização, confira o vídeo [Cliente de área de trabalho do Windows do Teams](https://aka.ms/teams-clients) para saber como planejá-lo e implantá-lo. 
 
 #### <a name="teams-for-mac"></a>Teams para Mac 
 A maneira mais fácil de instalar o cliente de área de trabalho do Mac consiste em:

@@ -3,7 +3,7 @@ title: Lista de verificação de acesso de convidados do Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 03/25/2019
+ms.date: 06/21/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ad6c0abba3b0ea85bdac7e2875369c4cd1d5150
-ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
+ms.openlocfilehash: 0ec3fb391feefae9daa5ffaa8c7b5955b6552f93
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "35131413"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221656"
 ---
 <a name="teams-guest-access-checklist"></a>Lista de verificação de acesso de convidados do teams
 ==========================================
@@ -39,7 +39,7 @@ A experiência de convidado tem limitações por meio do design. Certifique-se d
 - Criar ou revisar uma equipe
 - Procurar uma equipe
 - Carregar arquivos para um chat de pessoa para pessoa
-- Os convidados ainda podem pesquisar e localizar usuários, de fora da equipe, se saberem a ID de e-mail completa. Para evitar isso, os administradores de ti podem usar padrões como [pesquisa de diretório em escopo](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-scoped-directory-search) que têm a capacidade de restringir convidados à sua GAL virtual.
+- Os convidados ainda podem pesquisar e localizar usuários (fora de sua equipe) se saberem a identificação de email completa do usuário. Para evitar isso, os administradores de ti podem usar padrões como [pesquisa de diretório em escopo](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-scoped-directory-search) que têm a capacidade de restringir convidados à sua GAL virtual.
 
 Para obter mais detalhes, consulte o [que a experiência de convidado é como](guest-experience.md) e [acesso de convidado em grupos do Office 365](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
 
@@ -49,7 +49,7 @@ Para obter mais detalhes, consulte o [que a experiência de convidado é como](g
 
 ## <a name="if-your-guests-are-seeing-license-errors"></a>Se seus convidados estiverem vendo erros de licença
 
-O acesso de convidado no Microsoft Teams usa o Azure Active Directory Business to Business (B2B) e seu modelo de licenciamento. Se você estiver vendo erros de licenciamento, leia a [orientação de licenciamento B2B](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance) para entender os requisitos de licenciamento que a sua organização tem para que seus usuários possam convidar convidados para sua organização.
+O acesso de convidado no Microsoft Teams usa o Azure Active Directory (Azure AD) Business to Business (B2B) e seu modelo de licenciamento. Se você estiver vendo erros de licenciamento, leia a [orientação de licenciamento B2B](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance) para entender os requisitos de licenciamento que a sua organização tem para que seus usuários possam convidar convidados para sua organização.
 
 Lembre-se de algumas coisas:
 
@@ -60,7 +60,7 @@ Lembre-se de algumas coisas:
 
 ## <a name="--step-1-configure-settings-in-azure-ad-business-to-business"></a>□ Etapa 1: definir as configurações do Azure AD para empresas
 
-1. Entrar emhttps://portal.azure.com
+1. Conectar-se https://portal.azure.comao.
 2. Clique em **Azure Active Directory** no painel esquerdo.
 3. Em **gerenciar**, clique em **configurações do usuário**.
 4. Em **usuários externos**, clique em **gerenciar configurações de colaboração externa**.
@@ -68,10 +68,10 @@ Lembre-se de algumas coisas:
 
       ![A captura de tela mostra um exemplo de uma alternância de configurações do AAD. ](media/guest-access-checklist-AADSettings1.png)
 
-    Para dar suporte a convidados, **os membros podem convidar** devem ser definidos como **Sim**. 
-   
-> [!NOTE] 
-> Se você definir que **os membros podem convidar** para **não** e, em seguida, habilitar o acesso de convidado nos grupos do Office 365 e no Microsoft Teams, os administradores poderão controlar os convites convidados para seu diretório. Depois que os convidados estiverem no diretório, eles poderão ser adicionados às equipes por membros não-administradores que sejam proprietários da equipe.
+    Para dar suporte a convidados, **os membros podem convidar** devem ser definidos como **Sim**.
+
+    > [!NOTE] 
+    > Se você definir que **os membros podem convidar** para **não** e, em seguida, habilitar o acesso de convidado nos grupos do Office 365 e no Microsoft Teams, os administradores poderão controlar os convites convidados para seu diretório. Depois que os convidados estiverem no diretório, eles poderão ser adicionados às equipes por membros não-administradores que sejam proprietários da equipe.
 
 Para obter mais informações, consulte [Autorizar acesso de convidados no Microsoft Teams](Teams-dependencies.md).
 
@@ -84,7 +84,7 @@ Para obter mais informações, consulte [Autorizar acesso de convidados no Micro
 
      ![A captura de tela mostra as alternâncias dos grupos do Office 365](media/guest-access-checklist-office365.png)
 
-Para obter instruções detalhadas sobre como definir essas configurações, consulte [gerenciar o acesso de convidados nos grupos do Office 365](https://support.office.com/en-us/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) e a seção "grupos do Office 365" em autorizar o [acesso de convidado no Microsoft Teams](Teams-dependencies.md).
+Para obter instruções detalhadas sobre como definir essas configurações, consulte [gerenciar o acesso de convidados nos grupos do Office 365](https://support.office.com/en-us/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) e [controlar o acesso de convidados a grupos do Office 365](Teams-dependencies.md#control-guest-access-in-office-365-groups).
  
 
 ## <a name="-step-3-enable-guest-access-at-the-tenant-level"></a>□ Etapa 3: habilitar o acesso de convidado no nível do locatário

@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 'Resumo: instalar e configurar nós do inspetor para transações sintéticas do Skype for Business Server.'
-ms.openlocfilehash: 11d99ac51ab3b6c3d2cffbe2061a2e0527bfc633
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f95803f61d527196c97c7a6a17b8e0bfcfdfbc7a
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277619"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221515"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>Instalar e configurar nós do inspetor
  
@@ -27,7 +27,7 @@ Nós de Inspetor são computadores que executam periodicamente transações sint
   
 - **Padrão** Transações sintéticas que um nó do Inspetor executa por padrão. Ao criar um novo nó Inspetor, você pode especificar quais transações sintéticas o nó executará. (Essa é a finalidade do parâmetro testes usado pelo cmdlet New-CsWatcherNodeConfiguration.) Se você não usar o parâmetro tests quando o nó do Inspetor for criado, ele executará automaticamente todas as transações sintéticas padrão e não executará qualquer uma das transações sintéticas não padrão. Isso significa, por exemplo, que o nó do Inspetor será configurado para executar o teste Test-CsAddressBookService, mas não será configurado para executar o teste Test-CsExumConnectivity.
     
-- **Não padrão** Testa se os nós do inspetor não são executados por padrão. (Para obter detalhes, consulte a descrição do tipo padrão.) No entanto, o nó do Inspetor pode ser habilitado para executar qualquer uma das transações sintéticas não padrão. Você pode fazer isso quando cria o nó do Inspetor (usando o cmdlet New-CsWatcherNodeConfiguration) ou a qualquer momento após a criação do nó do Inspetor. Observe que muitas das transações sintéticas não padrão exigem etapas adicionais de configuração. Para obter detalhes sobre essas etapas, consulte instruções de configuração especial para transações sintéticas. Para obter mais detalhes sobre essas etapas, consulte [instruções de configuração especial para transações sintéticas ](test-users-and-settings.md#special_synthetictrans).
+- **Não padrão** Testa se os nós do inspetor não são executados por padrão. (Para obter detalhes, consulte a descrição do tipo padrão.) No entanto, o nó do Inspetor pode ser habilitado para executar qualquer uma das transações sintéticas não padrão. Você pode fazer isso quando cria o nó do Inspetor (usando o cmdlet New-CsWatcherNodeConfiguration) ou a qualquer momento após a criação do nó do Inspetor. Observe que muitas das transações sintéticas não padrão exigem etapas adicionais de configuração. Para obter mais detalhes sobre essas etapas, consulte [instruções de configuração especial para transações sintéticas](test-users-and-settings.md#special_synthetictrans).
     
 - **Maior** Um tipo especial de transação sintética não padrão. Diferentemente das outras transações sintéticas, os testes estendidos podem ser executados várias vezes durante cada fase. Isso pode ser útil, por exemplo, para verificações de várias rotas de voz de PSTN (rede telefônica pública comutada) de um pool. Isso pode ser configurado com a simples adição de várias instâncias de um teste estendido a um nó do inspetor.
     

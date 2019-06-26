@@ -21,18 +21,18 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Quando você compra licenças de audioconferência, a Microsoft está hospedando sua ponte de conferência de áudio para sua organização. A ponte de audioconferência oferece números de telefone de discagem de locais diferentes, para que os organizadores da reunião e os participantes possam usá-los para ingressar em reuniões do Skype for Business ou do Microsoft Teams usando um telefone.
-ms.openlocfilehash: 3508ab081535ced2cad1610fcb1f7195aaeb3dfa
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 60095ff820c6aeb13745f5195a6274fa90f5eec0
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283398"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221679"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Alterar os números de telefone em sua ponte de Audioconferência
 
 Quando você compra licenças de **audioconferência** , a Microsoft está hospedando sua ponte de conferência de áudio para sua organização. A ponte de audioconferência fornece números de telefone de discagem de locais diferentes para que os organizadores da reunião e os participantes possam usá-los para ingressar em reuniões do Skype for Business ou do Microsoft Teams usando um telefone.
   
-Além dos números de telefone já atribuídos à sua ponte de conferência, você pode [obter números de serviço adicionais](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) (números de chamada tarifada e de chamada gratuita usados para videoconferências) de outros locais e atribuí-los à ponte de conferência para que você possa Expanda a cobertura para seus usuários.
+Além dos números de telefone já atribuídos à sua ponte de conferência, você pode [obter números de serviço adicionais](/microsoftteams/getting-service-phone-numbers) (números de chamada tarifada e de chamada gratuita usados para videoconferências) de outros locais e atribuí-los à ponte de conferência para que você possa Expanda a cobertura para seus usuários.
   
 > [!NOTE]
 > Para poder atribuir/cancelar a atribuição de um número de telefone para uma ponte de conferência, o número de telefone deve ser um número de "*serviço*". Você pode ver o tipo de número ao navegar para números de **** > **telefone** de voz no portal herdado e procurar na coluna **tipo de número** . Os créditos de comunicações do Office 365 devem ser configurados primeiro para que os usuários disquem para a ponte em um número de chamada gratuita.
@@ -43,7 +43,7 @@ Além dos números de telefone já atribuídos à sua ponte de conferência, voc
 
 1. Entre no Office 365 com sua conta corporativa.
 
-2. **** > Vá para **Centro** > de administração do Microsoft 365 Team centers**Teams & do Skype** > **Legacy portal** > para**telefones**de**voz** > .
+2. Vá para **Centro** > de administração do Microsoft 365 Teams**centers** > Administration Teams & números de**telefone**de**voz** > do**portal** > herdado**do Skype** > 
 
 3. Selecione o número de telefone na lista e, no painel Ação, clique em **atribuir**.
 
@@ -57,7 +57,7 @@ Somente um número de chamada de serviço pode ser definido como o número padr�
 
 1. Entre no Office 365 com sua conta corporativa.
 
-2. Vá**** > para **Centro** > de administração do Microsoft 365 Team centers Teams &**reuniões** > **do Skype** > em**conferência**.
+2. Vá**** > para **Centro** > de administração do Microsoft 365 Team centers**Teams & reuniões do Skype** > **reuniões** > **conferência**.
 
 3. Realce o número de chamada de serviço que você deseja configurar como padrão.
 
@@ -69,7 +69,7 @@ Os números de telefone padrão de um usuário são aqueles que estão incluído
   
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
 
-2. Vá para o **centro de administração do 365** > **** > de administração do centro de administração do e selecione os usuários da lista de serviços de**audioconferência** > **** do**portal** > do **& do Skype** > .
+2. Vá para o & centro de administração do 365 de administração do**** >  **Centro** > de administração do,**usuários**de > **videoconferência** > **do** > **portal herdado**do Skype e selecione os usuários na lista.
 
 3. Clique em **Editar** no painel de ação.
 
@@ -133,7 +133,7 @@ Para obter mais informações sobre o Meeting Migration Service, veja [Configura
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
 
-2. Vá para o **centro de administração do 365** > **** > de administração do centro de administração do **& Skype** > **números de telefone**de**voz** > do**portal** > herdado Skype.
+2. Vá para o **centro de administração do 365 do centro** > **** > de administração do Microsoft &**números de telefone**de**voz** > do**portal** > herdado**do Skype** > .
 
 3. Se o número de telefone for um número de chamada gratuita, selecione o número de telefone na lista e, no painel Ação, clique em **Cancelar atribuição**. Se o número de telefone for um número de chamada tarifada, entre em contato com o [suporte da Microsoft](https://go.microsoft.com/fwlink/?linkid=2091806) para que o número de telefone não seja atribuído.
 
@@ -153,7 +153,8 @@ Para obter mais informações sobre o Meeting Migration Service, veja [Configura
 
 2. Digite _Get-Host_ na janela do **Windows PowerShell** para verificar a versão.
 
-3. Se você não tiver a versão 3.0 ou superior, deverá baixar e instalar as atualizações do Windows PowerShell. Confira [Windows Management Framework 4.0 ](https://go.microsoft.com/fwlink/?LinkId=716845) para baixar e atualizar o Windows PowerShell para a versão 4.0. Reinicie o computador quando for solicitado.
+3. Se você não tiver a versão 3.0 ou superior, deverá baixar e instalar as atualizações do Windows PowerShell. Consulte [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) para baixar e atualizar o Windows PowerShell para a versão 4,0.
+Reinicie o computador quando for solicitado.
 
 4. Você também precisa instalar o módulo do Windows PowerShell para o Skype for Business online que permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype for Business online. Este módulo tem suporte apenas em computadores de 64 bits e pode ser baixado do centro de download da Microsoft no [módulo do Windows PowerShell para Skype for Business online](https://go.microsoft.com/fwlink/?LinkId=294688).
 Se for solicitado, reinicie o seu computador.

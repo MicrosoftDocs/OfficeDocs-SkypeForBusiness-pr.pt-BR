@@ -1,13 +1,13 @@
 ---
-title: Publicar aplicativos no Catálogo de Aplicativos do Locatário do Microsoft Teams
+title: Publicar aplicativos no catálogo de aplicativos do Microsoft Teams locatário
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/15/2019
+ms.date: 06/20/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: prem
-description: Orientação para a publicação de aplicativos no catálogo de aplicativos do Microsoft equipes inquilino.
+description: Orientação para a publicação de aplicativos no catálogo de aplicativos Microsoft Teams locatário.
 localization_priority: Normal
 search.appverid: MET150
 f1keywords: ms.teamsadmincenter.apppolicies.publishtenantapps
@@ -16,65 +16,65 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ebc26292e41328589f302127980f4a303efd46a2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5d016fd1c341774115b9b68edafcc47a63e42b0d
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226682"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221321"
 ---
-<a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>Publicar aplicativos no Catálogo de Aplicativos do Locatário do Microsoft Teams
+<a name="publish-apps-in-the-microsoft-teams-tenant-apps-catalog"></a>Publicar aplicativos no catálogo de aplicativos do Microsoft Teams locatário
 =======================================================
 
-Você pode usar o catálogo de aplicativos do Microsoft equipes locatário para testar e distribuir aplicativos de linha de negócios para sua organização. 
+Você pode usar o catálogo de aplicativos Microsoft Teams locatário para testar e distribuir aplicativos de linha de negócios para sua organização.
 
-O catálogo de aplicativos do inquilino de equipes permite que você distribuir seus aplicativos de linha de negócios que foram criados especificamente para sua organização e que você depende para concluem as funções essenciais aos negócios para seus usuários. 
- 
-Faça logon no seu cliente de equipes usando suas credenciais de administrador global e publicar aplicativos para sua organização. 
+O catálogo de aplicativos de locatários do teams permite distribuir aplicativos de linha de negócios que foram criados especificamente para a sua organização e que você depende de realizar funções comerciais essenciais.
 
-## <a name="publish-an-app-to-the-tenant-apps-catalog-from-the-teams-client"></a>Publicar um aplicativo para o catálogo de aplicativos do locatário do cliente equipes
+Para publicar aplicativos para sua organização, entre no cliente do Microsoft Teams usando as credenciais de administrador global e siga as instruções abaixo.
 
-Observação: Você precisa estar conectado ao cliente Microsoft Teams usando suas credenciais de administrador global para publicar aplicativos para sua organização.
+## <a name="publish-an-app-in-the-tenant-apps-catalog-from-the-teams-client"></a>Publicar um aplicativo no catálogo de aplicativos do locatário a partir do cliente do teams
 
-### <a name="get-a-teams-app-package"></a>Obtenha um pacote de aplicativos de equipes
+> [!NOTE]
+> Você precisa estar conectado ao cliente do Microsoft Teams usando suas credenciais de administrador global para publicar aplicativos para a sua organização.
 
-Um pacote de aplicativos de equipes é criado usando o [Studio de App equipes](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). Depois que você tiver o pacote de aplicativos, você pode adicioná-lo ao catálogo de aplicativos do enterprise. Enquanto todos os usuários no locatário, pode exibir o catálogo de aplicativos, atualmente apenas globais administradores têm a capacidade de publicar e gerenciá-lo. (Eventualmente, equipes admins será capaz de fazer isso também.)
+### <a name="get-a-teams-app-package"></a>Obter um pacote de aplicativos do teams
+
+Um pacote do aplicativo Teams é criado usando o [Teams app Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). Depois que tiver o pacote do aplicativo, você poderá adicioná-lo ao catálogo de aplicativos da empresa. Embora todos os usuários no locatário possam ver o catálogo de aplicativos, atualmente somente os administradores globais têm a capacidade de publicá-lo e gerenciá-lo. (Eventualmente, os administradores do teams também poderão fazer isso.)
 
 ### <a name="go-to-the-tenant-apps-catalog"></a>Vá para o catálogo de aplicativos do locatário
 
-Inicialize o cliente Microsoft Teams e entrar usando suas credenciais de administrador global. No Microsoft Teams Store, selecione nova seção denominada para sua organização específica (neste exemplo, Contoso). Usuários em sua organização podem exibir aplicativos no catálogo e instalá-los para equipes dos quais eles são membros. 
+Inicie o cliente do Microsoft Teams e entre usando suas credenciais de administrador global. Na loja do Microsoft Teams, selecione a nova seção nomeada para a sua organização específica (neste exemplo, contoso). Os usuários em sua organização podem exibir os aplicativos no catálogo e instalá-los para as equipes das quais eles são membros.
 
-![Captura de tela equipes App Store mostrando o catálogo de aplicativos.](media/private-app-store-teams-image01.png)
+![Captura de tela da loja de aplicativos do teams mostrando o catálogo de aplicativos.](media/private-app-store-teams-image01.png)
 
-### <a name="add-an-app-to-the-tenant-apps-catalog"></a>Adicionar um aplicativo para o catálogo de aplicativos do locatário
+### <a name="add-an-app-to-the-tenant-apps-catalog"></a>Adicionar um aplicativo ao catálogo de aplicativos do locatário
 
-Do repositório, selecione **carregar um aplicativo personalizado** > **Carregar para a Contoso**.
+1. Na loja, selecione **carregar um** > carregamento de aplicativo personalizado**para contoso**.
 
-![Captura de tela equipes App Store mostrando o catálogo de aplicativos.](media/private-app-store-teams-image02.png)
+    ![Captura de tela da loja de aplicativos do teams mostrando o catálogo de aplicativos.](media/private-app-store-teams-image02.png)
 
-(Também é possível **Carregar para mim ou Minhas equipes**, que é chamado sideloading, que faz com que o aplicativo disponível somente para suas ou suas equipes selecionadas.) 
+    (Você também pode escolher **carregar para mim ou minhas equipes**, que é chamado de *Sideload*. O Sideload torna o aplicativo disponível somente para suas equipes ou para as equipes que você selecionar.)
 
-Navegue até o pacote de aplicativos e selecioná-la.
+2. Navegue até o pacote do aplicativo e selecione-o e, em seguida, clique em **abrir**.
 
-![Captura de tela equipes App Store mostrando o catálogo de aplicativos.](media/private-app-store-teams-image03.png)
+    ![Captura de tela da loja de aplicativos do teams mostrando o catálogo de aplicativos.](media/private-app-store-teams-image03.png)
 
-Quando você voltar ao seu catálogo de aplicativos do inquilino, o novo aplicativo de empresa estará lá. Lembre-se de que somente você e membros da sua organização têm acesso a esse catálogo de aplicativos.
+Quando você voltar ao catálogo de aplicativos do locatário, o novo aplicativo empresarial estará lá. Lembre-se, somente você e os membros da sua organização têm acesso a este catálogo de aplicativos.
 
 ### <a name="update-an-app-in-the-tenant-apps-catalog"></a>Atualizar um aplicativo no catálogo de aplicativos do locatário
 
-1. No seu catálogo de aplicativos do inquilino, selecione "**…**" na parte superior direita do aplicativo que você deseja atualizar.
-2. Navegue até o pacote de aplicativos atualizados e selecioná-la.
+1. Em seu catálogo de aplicativos do locatário, selecione "**...**" no canto superior direito do aplicativo que você deseja atualizar.
 
-![Captura de tela equipes App Store mostrando o catálogo de aplicativos.](media/private-app-store-teams-image04.png)
+2. Navegue até o pacote do aplicativo atualizado e selecione-o e clique em **abrir**.
 
-O aplicativo será ser revisado para a versão 2.0. Você também pode excluir o aplicativo para toda a sua empresa com esse menu.
+    ![Captura de tela da loja de aplicativos do teams mostrando o catálogo de aplicativos.](media/private-app-store-teams-image04.png)
 
-## <a name="use-the-office-365-admin-portal-to-manage-the-tenant-apps-catalog"></a>Use o portal de administração do Office 365 para gerenciar o catálogo de aplicativos do locatário
+O aplicativo será revisado para a versão 2,0. Você também pode excluir o aplicativo de toda a sua empresa neste menu.
 
-Se você tiver aplicativos que precisam correções de erros, você pode desabilitar aplicativos através do portal de administração do Office 365, selecione **configurações**temporariamente > **Serviços & complementos** > **Equipes da Microsoft**. Além das configurações anteriores, há agora uma seção dedicado aos aplicativos da sua empresa. Você pode escolher quais aplicativos que você deseja habilitar ou desabilitar.
+## <a name="use-the-office-365-admin-portal-to-manage-the-tenant-apps-catalog"></a>Usar o portal de administração do Office 365 para gerenciar o catálogo de aplicativos do locatário
 
-![Captura de tela equipes App Store mostrando o catálogo de aplicativos.](media/private-app-store-teams-image05.png)
+Se você tiver aplicativos que precisem de correções de bugs, poderá desabilitar temporariamente os aplicativos por meio do portal de administração do Office 365. Selecione **configurações** > **Serviços & suplementos** > **Microsoft Teams**. Além das configurações anteriores, agora há uma seção dedicada aos aplicativos da sua empresa. Você pode escolher quais aplicativos deseja habilitar ou desabilitar.
 
-Isso impede que os usuários interajam com o aplicativo, sem excluir o aplicativo inteiramente. Esses controles fornecer flexibilidade adicional de administradores e controlar quando a governança de aplicativos em sua empresa. 
+![Captura de tela da loja de aplicativos do teams mostrando o catálogo de aplicativos.](media/private-app-store-teams-image05.png)
 
-
+Desabilitar um aplicativo impedirá que os usuários interajam com o aplicativo, sem excluir o aplicativo totalmente. Esses controles proporcionam flexibilidade e controle adicionais ao gerenciar aplicativos em sua empresa.

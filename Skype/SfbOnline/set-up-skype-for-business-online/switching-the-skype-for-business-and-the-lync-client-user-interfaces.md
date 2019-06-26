@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn how to switch between Skype for Business and Lync client user interfaces using PowerShell in Office 365 '
-ms.openlocfilehash: 8d48726f76e7b10b30d51d2d682b1b7a268b6298
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2788799f5125aab63938241d737eade25f6cd61a
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285100"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221505"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>Alternando entre as interfaces do usuário do cliente Skype for Business e do cliente Lync
 
@@ -34,7 +34,7 @@ Para as organizações que têm o Skype for Business Online, você pode usar o P
 > [!OBSERVAçãO] A experiência do cliente Lync 2013 não é uma opção para as versões do cliente Skype for Business 2016. Antes de tentar configurar seu ambiente para usar o cliente Lync 2013, verifique a versão do cliente para garantir que ela não começa com o número 16. Por exemplo: 16.x.x.x. 
   
 > [!TIP]
-> [!DICA] Se desejar alternar facilmente a interface do usuário sem seguir as etapas manuais, consulte o [Centro de Download da Microsoft](https://go.microsoft.com/fwlink/?LinkId=532431) para obter um script PowerShell e tornar essa tarefa mais fácil.
+> Se você quiser alternar facilmente a interface do usuário e não quiser realizar as etapas manuais, consulte o [centro de download da Microsoft](https://go.microsoft.com/fwlink/?LinkId=532431) para obter um script do PowerShell para facilitar.
   
 ## <a name="switching-the-skype-for-business-user-interface-for-users"></a>Alternando a interface do Skype for Business para os usuários
 

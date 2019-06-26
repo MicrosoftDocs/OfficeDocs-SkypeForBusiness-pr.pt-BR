@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: 'Para que seja possível implantar o espelhamento de SQL, os servidores devem executar no mínimo o SQL Server 2008 R2. Essa versão deve ser executada em todos os servidores envolvidos: o principal, o espelho e a testemunha. Para obter detalhes, consulte pacote de atualizações cumulativas 9 para SQL Server 2008 Service Pack 1.'
-ms.openlocfilehash: 5ca6f214aed476b2f84a433a87c3fa444025dc68
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 49ccc2057641b23dffa309726bc5cdf0d74f6b08
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298536"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222113"
 ---
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Implantar o espelhamento do SQL para o back-end Server High Availability no Skype for Business Server 2015
 
 
-Para que seja possível implantar o espelhamento de SQL, os servidores devem executar no mínimo o SQL Server 2008 R2. Essa versão deve ser executada em todos os servidores envolvidos: o principal, o espelho e a testemunha. Para obter detalhes, consulte [pacote de atualizações cumulativas 9 para SQL Server 2008 Service Pack 1 ](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921).
+Para que seja possível implantar o espelhamento de SQL, os servidores devem executar no mínimo o SQL Server 2008 R2. Essa versão deve ser executada em todos os servidores envolvidos: o principal, o espelho e a testemunha. Para obter detalhes, consulte [pacote de atualizações cumulativas 9 para SQL Server 2008 Service Pack 1](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921).
 
 Em geral, a configuração do espelhamento SQL entre os dois Servidores Back-End com uma testemunha requer:
 
@@ -50,7 +50,7 @@ Com o espelhamento de SQL, você pode configurar a topologia do espelhamento qua
 > Usar o construtor de topologias ou cmdlets para configurar e remover o espelhamento do SQL só tem suporte quando os servidores primário, espelho e testemunha (se desejado) pertencem ao mesmo domínio. Se quiser configurar o espelhamento SQL entre servidores de domínios diferentes, consulte a documentação do SQL Server.
 
 > [!IMPORTANT]
-> Sempre que fizer uma alteração em uma relação de espelhamento de banco de dados back-end, você deverá reiniciar todos os servidores front-end do pool.  >, você deve usar o construtor de topologias para executar estas três etapas, como alterar o local de um espelho.
+> Sempre que fizer uma alteração em uma relação de espelhamento de banco de dados back-end, você deverá reiniciar todos os servidores front-end do pool.  > para uma alteração no espelhamento (como alterar a localização de um espelho), você deve usar o construtor de topologias para executar estas três etapas:
 
 1. Remova o espelhamento do servidor espelho antigo.
 
@@ -59,7 +59,7 @@ Com o espelhamento de SQL, você pode configurar a topologia do espelhamento qua
 3. Publique a topologia.
 
 > [!NOTE]
-> Um compartilhamento de arquivos deve ser criado para os arquivos espelho a serem gravados, e o serviço no qual o SQL Server e o SQL Agent estão sendo executados precisam de acesso de leitura/gravação. Se o serviço do SQL Server estiver sendo executado no contexto do serviço de rede, você \<poderá\>\\adicionar\><SQLSERVERNAME $ dos servidores principais e espelho ao SQL Server às permissões de compartilhamento. O $ é importante para identificar que esta é uma conta de computador.
+> Um compartilhamento de arquivos deve ser criado para os arquivos espelho a serem gravados, e o serviço no qual o SQL Server e o SQL Agent estão sendo executados precisam de acesso de leitura/gravação. Se o serviço do SQL Server estiver sendo executado no contexto do serviço de rede, você \<poderá\> \\ adicionar o domínio<\>SqlServerName $ dos servidores principal e espelho do SQL às permissões de compartilhamento. O $ é importante para identificar que esta é uma conta de computador.
 
 ## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a>Para configurar o espelhamento do SQL durante a criação de um pool no construtor de topologias
 

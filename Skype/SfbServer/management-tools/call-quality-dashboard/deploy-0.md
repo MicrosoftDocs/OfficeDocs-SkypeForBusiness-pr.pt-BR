@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Resumo: Saiba mais sobre o processo de implantação do painel de qualidade de chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.'
-ms.openlocfilehash: 3cc3b81180453454f8615d31f57911c0958553c5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 16877bff7f96bd4d2f6b308b33803c741c2672c2
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274839"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221563"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Implantar painel de qualidade de chamada no Skype for Business Server
  
@@ -140,7 +140,7 @@ Mensagens de log detalhadas serão mostradas se o modo de depuração estiver ha
 A página principal do portal pode ser `http://<machinename>/CQD`acessada pela. 
 ## <a name="managing-user-access-for-the-portal"></a>Gerenciando o acesso do usuário ao portal
 
-Para gerenciar a autorização do usuário para o portal, recomendamos usar a autorização de URL, que foi introduzida no IIS 7,0. Para obter mais informações sobre a segurança do IIS, consulte Entendendo a [autorização da URL do iis 7,0 ](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization).
+Para gerenciar a autorização do usuário para o portal, recomendamos usar a autorização de URL, que foi introduzida no IIS 7,0. Para obter mais informações sobre a segurança do IIS, consulte Entendendo a [autorização da URL do iis 7,0](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization).
   
 Qualquer site da Web ou aplicativo Web herda a autorização de URL padrão configurada para todo o IIS, que normalmente é "permitir todos os usuários". Se o acesso ao portal precisar ser mais restritivo, os administradores poderão conceder acesso somente a um grupo específico de usuários editando as "regras de autorização".
   
@@ -233,7 +233,7 @@ Para habilitar o SSL/TLS no IIS e forçar os usuários a se conectarem via HTTPS
   
 1. Configurar o Secure Sockets Layer no IIS, consulte [configuração do Secure Sockets Layer no IIS 7](https://technet.microsoft.com/en-us/library/cc771438%28v=ws.10%29.aspx). Uma vez feito isso `http` , `https`substitua por.
     
-2. Para obter instruções sobre como habilitar o TLS nas conexões do SQL Server, consulte [como habilitar a criptografia SSL para uma instância do SQL Server usando o console de gerenciamento Microsoft ](https://support.microsoft.com/en-us/kb/316898/).
+2. Para obter instruções sobre como habilitar o TLS nas conexões do SQL Server, consulte [como habilitar a criptografia SSL para uma instância do SQL Server usando o console de gerenciamento Microsoft](https://support.microsoft.com/en-us/kb/316898/).
     
 ## <a name="cube-sync-fails"></a>A sincronização do cubo falha
 

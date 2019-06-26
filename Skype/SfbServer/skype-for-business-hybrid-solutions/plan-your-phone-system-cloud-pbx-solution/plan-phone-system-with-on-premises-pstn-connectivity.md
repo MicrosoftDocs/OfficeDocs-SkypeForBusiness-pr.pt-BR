@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Saiba mais sobre as considerações de planejamento para o sistema telefônico no Office 365 (Cloud PBX) com conectividade PSTN local.
-ms.openlocfilehash: 7b24c0de8eab663dea771948b066a0752fe943ca
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1ca12d1680b56612c2e6f3a1785ee615138294ce
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287017"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221040"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planejar o sistema telefônico no Office 365 com conectividade PSTN local no Skype for Business Server
 
@@ -110,7 +110,7 @@ Além disso, você deve garantir o seguinte:
 
     Se você estiver usando o Lync Server 2013, consulte [Lync server 2013 Hybrid](https://technet.microsoft.com/EN-US/library/jj204805%28v=ocs.15%29.aspx).
 
-- **(Recomendado) serviços de Federação do Active Directory (AD FS)** Recomendamos implantar o AD FS para dar suporte ao logon único. Para obter mais informações, consulte [serviços de Federação do Active Directory (AD FS)](https://technet.microsoft.com/en-us/library/cc736690%28v=ws.10%29.aspx).
+- **Usar Serviços de Federação do Active Directory (AD FS).** Recomendamos implantar o AD FS para dar suporte a Logon Único. Para obter mais informações, consulte [serviços de Federação do Active Directory (AD FS)](https://technet.microsoft.com/en-us/library/cc736690%28v=ws.10%29.aspx).
 
 Para obter informações sobre a implantação do sistema telefônico no Office 365, consulte [habilitar usuários do sistema telefônico no office 365 com conectividade PSTN local no Skype for Business Server](enable-users-for-phone-system.md).
 

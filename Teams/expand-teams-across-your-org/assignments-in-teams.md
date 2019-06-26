@@ -15,12 +15,12 @@ description: Saiba como gerenciar atribuições no centro de administração do 
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8317a038f110a096d2185e7c5ba668a55a6913a4
-ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
+ms.openlocfilehash: 1c29f703994794d75047a260fe5d62deddb2d937
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "35131516"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221253"
 ---
 # <a name="assignments-in-teams-for-education"></a>Tarefas do Teams for Education
 
@@ -66,7 +66,7 @@ Para habilitar o TurnItIn com êxito para sua organização, você precisará te
 Aqui estão algumas instruções para ajudá-lo a obter essas informações.
 
 O TurnitinApiUrl é o endereço de host do seu console de administração.
-Exemplo. https:[]()//Your-Tenant-Name.TurnItIn.com
+Exemplo. `https://your-tenant-name.turnitin.com`
 
 O console de administração é onde você pode criar uma integração e uma chave de API associada à integração.
 

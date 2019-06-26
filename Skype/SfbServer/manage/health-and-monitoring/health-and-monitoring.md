@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
 description: 'Resumo: Saiba mais sobre as tarefas de monitoramento e configuração de integridade no Skype for Business Server.'
-ms.openlocfilehash: 7328168a1a653586253766fb3fdae3156c9ea6b4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b3595fcc42a2c2d94803fe1a9862bc726fe9d3ee
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305749"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221934"
 ---
 # <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>Gerenciar a integridade e o monitoramento no Skype for Business Server
 
@@ -39,5 +39,5 @@ Os tópicos desta seção fornecem procedimentos passo a passo para monitorament
 
 [Planejar o monitoramento](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
 
-[Implantar o monitoramento](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[Implantar monitoramento](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
 

@@ -1,9 +1,9 @@
 ---
-title: Usar tradução de mensagem embutida no Microsoft Teams
+title: Ativar a tradução de mensagens embutidas no Microsoft Teams
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 10/30/2018
+ms.date: 06/21/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -18,33 +18,32 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58e6fb04dd015e939125b75d604fe9692a32c0e2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: dfd0582837b2e9c9859b44292255e5e42a2f35a4
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222321"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222065"
 ---
-<a name="use-inline-message-translation-in-microsoft-teams"></a>Usar tradução de mensagem embutida no Microsoft Teams 
+<a name="turn-on-inline-message-translation-in-microsoft-teams"></a>Ativar a tradução de mensagens embutidas no Microsoft Teams 
 =================================================
 
 A tradução de mensagem embutida é um novo recurso do Microsoft Teams que permite aos usuários traduzir automaticamente as mensagens do Teams para o [idioma](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194) especificado nas configurações pessoais de idioma para o Office 365.
 
-A tradução de mensagem embutida está sendo lançada por padrão para sua organização. Se você quiser permitir que usuários usem esse recurso no cliente equipes, você deve ativar essa configuração.
+A tradução de mensagem embutida está sendo lançada por padrão para sua organização. Se você quiser permitir que os usuários usem esse recurso dentro do cliente do Teams, deverá ativar essa configuração.
 
 > [!NOTE]
->Essa distribuição é excluída da assinaturas do Office 365 em nossos ambientes de nuvem de comunidade do Office 365 governamental e Alemanha do Office 365.
+>Esta distribuição é excluída das assinaturas do Office 365 na nuvem da Comunidade do governo do Office 365 e nos ambientes do Office 365 Alemanha.
 
-## <a name="enable-by-using-powershell"></a>Habilitar usando PowerShell
+## <a name="use-powershell-to-turn-on-inline-message-translation"></a>Usar o PowerShell para ativar a tradução de mensagens embutidas
 
-Você pode ativar o recurso de conversão de mensagem embutida usando a diretiva de mensagens.
+Você pode usar a política de mensagens para ativar a tradução embutida da mensagem.
 
-1. Ative a política usando o cmdlet [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) .
-2. A política leva alguns minutos para aplicar. Os usuários talvez seja necessário sair e entrar novamente para equipes.
+Ative a política usando o cmdlet [set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) . A política demora alguns minutos para se aplicar. Os usuários podem precisar sair e entrar novamente no Microsoft Teams.
 
-## <a name="enable-by-using-the-microsoft-teams-admin-center"></a>Habilitar usando o Centro de administração do Microsoft Teams
+## <a name="use-the-microsoft-teams-admin-center-to-turn-on-inline-message-translation"></a>Usar o centro de administração do Microsoft Teams para ativar a tradução de mensagens embutidas
 
-No **Centro de administração de equipes da Microsoft**, selecione **Messaging Policies** na barra de ferramentas esquerda, em seguida, tanto criar uma nova política ou editar uma política existente e defina a opção de **Permitir que os usuários para traduzir mensagens** para **ativado**.
+No **centro de administração do Microsoft Teams**, selecione políticas de **mensagens** da navegação à esquerda, crie uma nova política ou edite uma política existente e defina a opção **permitir que os usuários traduzam mensagens** para **ativado**.
 
 > [!NOTE]
->Conversão é feita pelo serviço e entregue ao cliente com nenhum efeito sobre o conteúdo capturado nos registros de conformidade. Para saber mais sobre a conversão, consulte [o que é o Microsoft Translator?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview).
+> O serviço faz a tradução e a entrega para o cliente sem nenhum efeito sobre o conteúdo capturado nos registros de conformidade. Para saber mais sobre a tradução, confira [o que é o Microsoft Translator?](https://docs.microsoft.com/azure/cognitive-services/translator/translator-info-overview).

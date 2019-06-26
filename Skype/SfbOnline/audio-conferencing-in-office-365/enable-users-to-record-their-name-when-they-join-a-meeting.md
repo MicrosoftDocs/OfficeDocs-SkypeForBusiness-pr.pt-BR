@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Saiba como habilitar ou desabilitar se seus usuários podem gravar seus nomes quando ingressam em uma reunião no Skype for Business online.
-ms.openlocfilehash: d12d03c11340694673986733c73f46a3e7fccb1a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7209d95db6ada7b4569ee4c6dc1aded8b2e6b877
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290096"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221522"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Permitir que os usuários registrem seus nomes quando ingressarem em uma reunião no Skype for Business Online
 

@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: O Skype for Business Online permite que você crie políticas de acesso externo adicionais. Ao contrário das políticas de cliente ou de conferência, em que você pode ter várias combinações, há três políticas de acesso externo predefinidas que podem abranger a maioria dos cenários.
-ms.openlocfilehash: 0ffd39559e4bc45a7d70466d48fb9ae838660af9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ebe23e3cded24078f1d6baedba3a800aa24a5fbd
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297802"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221415"
 ---
 # <a name="create-custom-external-access-policies"></a>Criar políticas personalizadas de acesso externo
 
@@ -56,7 +56,7 @@ Para fazer isso funcionar, o usuário deve estar usando uma versão com suporte 
     
 2. Verifique a versão digitando  _Get-Host_ na janela do **Windows PowerShell**.
     
-3. Se você não tiver a versão 3.0 ou superior, deverá baixar e instalar as atualizações do Windows PowerShell. Confira [Windows Management Framework 4.0 ](https://www.microsoft.com/en-us/download/details.aspx?id=40855) para baixar e atualizar o Windows PowerShell para a versão 4.0. Reinicie o computador quando for solicitado.
+3. Se você não tiver a versão 3.0 ou superior, deverá baixar e instalar as atualizações do Windows PowerShell. Consulte [Windows Management Framework 4,0](https://www.microsoft.com/en-us/download/details.aspx?id=40855) para baixar e atualizar o Windows PowerShell para a versão 4,0. Reinicie o computador quando for solicitado.
     
 4. Você também precisará instalar o módulo do Windows PowerShell para Skype for Business Online, que permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online. Esse módulo, que tem suporte apenas em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft em [Módulo do Windows PowerShell para o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Se for solicitado, reinicie o seu computador.
     

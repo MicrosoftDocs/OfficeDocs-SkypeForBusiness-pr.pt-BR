@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: 'Learn about using Azure ExpressRoute to have a network with bandwidth requirements and Quality of Service capability for a business class user experience. '
-ms.openlocfilehash: 36af4a817a106758fbe95fb91e03661b9e200b85
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e42cf42caafbb5ecd43b3660608a23d20cf8814e
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299179"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221243"
 ---
 # <a name="expressroute-and-qos-in-skype-for-business-online"></a>ExpressRoute e QoS no Skype for Business Online
 
@@ -377,7 +377,7 @@ A associação recomendada de prioridades da Camada 3 para a Camada 2 é mostrad
 
 O método alternativo para implantar QoS em uma configuração ExpressRoute é usar a Lista de controle de acesso à rede (ACL). Nessa abordagem, em vez fazer com que todos os pontos de extremidade insiram a marcação DSCP adequada no cabeçalho de cada pacote, a marcação pode ser feita por um roteador upstream, com base na porta de origem UDP. Todos os switches e roteadores ainda precisam ser configurados para oferecer suporte a QoS para garantir que as definições de DSCP sejam mantidas. Mais importante, o roteador conectado à rede do provedor de serviços deve manter o DSCP no cabeçalho de cada pacote, pois essa configuração de DSCP é essencialmente sua instrução para o provedor de serviços de rede sobre como o pacote deve ser tratado.
   
-Os intervalos de porta recomendados para cada aplicativo do Skype for Business estão listadas na Seção 2.6.1.1 do guia [Planejamento de rede, monitoramento e solução de problemas do Lync Server](https://go.microsoft.com/fwlink/?LinkId=690286). É importante que isso seja coordenado com a abordagem geral da empresa à QoS, e você deve estar atento a diferentes políticas de QoS e a possíveis divergências na remarcação dos pacotes.
+Os intervalos de porta recomendados para cada aplicativo Skype for Business estão listados na seção 2.6.1.1 do guia [planejamento de rede, monitoramento e solução de problemas com o Lync Server](https://go.microsoft.com/fwlink/?LinkId=690286) . É importante que isso seja coordenado com a abordagem geral da empresa à QoS, e você deve estar atento a diferentes políticas de QoS e a possíveis divergências na remarcação dos pacotes.
   
 Embora o motivo principal para QoS e serviços de rede MPLS serem usados seja para garantir uma boa experiência do usuário com voz e vídeo em tempo real, esses mesmos recursos também podem ser usados com aplicações de dados. Em vez de tratar todas as aplicações igualmente, as redes MPLS podem permitir que as organizações priorizem algumas aplicações de dados sobre outras. Com o MPLS, aplicações em tempo real, como transações com cartão de crédito ou compartilhamento de tela, podem receber prioridade sobre tipos de tráfego menos sensíveis ao tempo, como email.
   

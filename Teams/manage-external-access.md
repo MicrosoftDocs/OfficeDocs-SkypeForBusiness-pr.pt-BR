@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Seu administrador de ti pode configurar o acesso externo para outros domínios (Federação) para permitir que os usuários desses domínios participem da equipe.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43e4153959a4d444a81f4769daf69976af018c4d
-ms.sourcegitcommit: 2af4c9e3a8374d9a6995e36604d8b0b8eff23b34
+ms.openlocfilehash: cf211e88a1eff071fcae10bc90c4d78ed3ccface
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35133919"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221269"
 ---
 <a name="manage-external-access-federation-in-microsoft-teams"></a>Gerenciar o acesso externo (federação) no Microsoft Teams
 ======================================================
@@ -67,13 +67,13 @@ Consulte a tabela a seguir para obter uma comparação de recursos de acesso ext
 | @mentions têm suporte | Não | Sim |
 | Fazer chamadas privadas | Sim | Sim |
 | Permitir vídeo IP | Sim | Sim |
-| Modo de compartilhamento de tela | Sim | Sim |
+| Modo de compartilhamento de tela | Não | Sim |
 | Permitir reunião agora | Não | Sim |
-| Editar mensagens enviadas | Sim | Sim |
-| Pode excluir mensagens enviadas | Sim | Sim |
-| Usar o Giphy em conversa | Sim | Sim |
-| Usar o memes em conversa | Sim | Sim |
-| Usar adesivos em conversa | Sim | Sim |
+| Editar mensagens enviadas | Não | Sim |
+| Pode excluir mensagens enviadas | Não | Sim |
+| Usar o Giphy em conversa | Não | Sim |
+| Usar o memes em conversa | Não | Sim |
+| Usar adesivos em conversa | Não | Sim |
 ||||
 
 <sup>1</sup> desde que o usuário tenha sido adicionado como um convidado e esteja conectado como convidado ao locatário de convidado.<br>

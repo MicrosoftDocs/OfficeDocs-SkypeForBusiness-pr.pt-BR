@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Leia este tópico para obter informações sobre como implantar salas do Microsoft Teams com o Exchange Online.
-ms.openlocfilehash: e90767c6209fdb13eb7a4c6d0794865aa88e65c4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 74cff1934e47cc8f4a621ad380bfb8e48f311666
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288424"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221367"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Implantar as Salas do Microsoft Teams com o Exchange Online
 
@@ -33,7 +33,10 @@ A maneira mais fácil de configurar contas de usuário é configurá-las usando 
 
 Antes de implantar salas do Microsoft Teams com o Exchange Online, verifique se você atendeu aos requisitos. Para obter mais informações, consulte [requisitos de salas do Microsoft Teams](requirements.md).
   
-Para implantar salas do Microsoft Teams com o Exchange Online, siga as etapas abaixo. Verifique se você tem as permissões apropriadas para executar os cmdlets associados.
+Para implantar salas do Microsoft Teams com o Exchange Online, siga as etapas abaixo. Verifique se você tem as permissões apropriadas para executar os cmdlets associados. 
+
+   > [!NOTE]
+   >  O [módulo do Azure Active Directory para cmdlets do Windows PowerShell](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0) nesta seção (por exemplo, Set-MsolUser) foram testados na configuração de contas para dispositivos de salas do Microsoft Teams. No entanto, é possível que outros cmdlets funcionem, mas não foram testados nesse cenário específico.
   
 ### <a name="create-an-account-and-set-exchange-properties"></a>Criar uma conta e definir as propriedades do Exchange
 
@@ -79,7 +82,7 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
     > Selecionar a **senha nunca expira** é um requisito para as salas do Skype for Business Server em Microsoft Teams. As regras do domínio podem proibir senhas que não expiram. Em caso afirmativo, você precisará criar uma exceção para cada conta de usuário das salas do Microsoft Teams.
   
 4. Clique em **Concluir** para criar a conta.
-5. Depois de criar a conta, execute a sincronização do diretório. Depois de concluir, vá para a página de usuários e verifique se as duas contas criadas nas etapas anteriores foram mescladas.
+5. Depois de criar a conta, execute uma sincronização de diretório. Isso pode ser feito usando [set-MsolDirSyncConfiguration](https://docs.microsoft.com/powershell/module/msonline/set-msoldirsyncconfiguration?view=azureadps-1.0) no PowerShell. Quando concluir, vá para a página usuários e verifique se as duas contas criadas nas etapas anteriores foram mescladas.
 
 ### <a name="assign-an-office-365-license"></a>Atribuir uma licença do Office 365
 

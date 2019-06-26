@@ -15,12 +15,12 @@ f1keywords:
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c1dfba0bdaec642b0ea078d7f10ba022c8514da
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8a80b39513fe86e0c49cd88988cb3f245129b2d0
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245050"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221352"
 ---
 # <a name="edit-microsoft-teams-user-settings-in-bulk"></a>Editar as configurações de usuário do Microsoft Teams em massa
 
@@ -33,7 +33,7 @@ Use o centro de administração do Microsoft Teams para editar as configuraçõe
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, selecione **usuários**.
 2. Procure os usuários que você deseja editar ou filtrar o modo de exibição para mostrar os usuários que você deseja editar.
 3. Na coluna **&#x2713;** (marca de seleção), selecione usuários seguindo um destes procedimentos:
-    - Selecione um usuário de cada vez. Um **&#x2713;** é exibido ao lado de cada usuário que você selecionar. Se você selecionar mais de 20 usuários, não será possível bloquea-los, mas lembre-se de que quanto mais usuários você selecionar, a operação levará mais tempo para ser concluída.
+    - Selecione um usuário de cada vez. Um **&#x2713;** é exibido ao lado de cada usuário que você selecionar. Se você selecionar mais de 20 usuários, não será possível bloquea-los, mas lembre-se de que quanto mais usuários você selecionar, mais demorado será a conclusão da operação.
 
         ![Captura de tela da página usuários mostrando seleção do usuário](media/bulk-edit-user-settings-select-users.png)
 

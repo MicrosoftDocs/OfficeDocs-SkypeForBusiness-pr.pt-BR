@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: Saiba mais sobre o gerenciamento de pool de front-end no Skype for Business Server, incluindo o gerenciamento de pools, a perda de quorum e etapas especiais para pools com apenas dois servidores front-end.
-ms.openlocfilehash: debc0700a142789f542e4b4357da4427ce74c050
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 719a6099ac4bd54d82a833548b2438d0e9d8cc2d
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297467"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221720"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>Alta disponibilidade e gerenciamento de Pool de Front-Ends
  
@@ -70,7 +70,7 @@ Para que um pool de front-end funcione, ele não pode estar em perda de quorum n
 |8-9  <br/> |Qualquer um dos 4 dos 7 primeiros servidores  <br/> |
 |10-12  <br/> |Qualquer um dos 5 dos 9 primeiros servidores  <br/> |
    
-Na tabela anterior, os "primeiros servidores" são os servidores que foram exibidos primeiro, cronologicamente, quando o pool foi iniciado pela primeira vez. Para determinar esses servidores, você pode usar o `Get-CsComputer` cmdlet com a ` -PoolFqdn` opção. Esse cmdlet exibirá os servidores na ordem em que aparecem na topologia, e aqueles que aparecem no topo da lista são os primeiros servidores.
+Na tabela anterior, os "primeiros servidores" são os servidores que foram exibidos primeiro, cronologicamente, quando o pool foi iniciado pela primeira vez. Para determinar esses servidores, você pode usar o `Get-CsComputer` cmdlet com a `-PoolFqdn` opção. Esse cmdlet exibirá os servidores na ordem em que aparecem na topologia, e aqueles que aparecem no topo da lista são os primeiros servidores.
   
 #### <a name="additional-steps-to-ensure-pools-are-functional"></a>Etapas adicionais para garantir que os pools sejam funcionais
 

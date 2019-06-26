@@ -3,7 +3,7 @@ title: Como é a experiência do convidado
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 11/26/18
+ms.date: 06/20/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: sbhatta
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8fa8b567e82e79fdd280e7f43147620e81ef8be
-ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
+ms.openlocfilehash: 52ad89d253c58d8c840698c32f697d91d7d69695
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "34748376"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221895"
 ---
 <a name="what-the-guest-experience-is-like"></a>Como é a experiência do convidado
 =================================
@@ -29,9 +29,11 @@ Quando um convidado é solicitado a entrar em uma equipe, ele recebe uma mensage
     
 ![Captura de tela mostrando um exemplo de uma mensagem de boas-vindas](media/guest-experience-image1.png)
     
-Todos os membros da equipe veem uma mensagem no tópico do canal anunciando que o proprietário da equipe adicionou um convidado e informou o nome do convidado. Todos da equipe podem identificar facilmente quem é um convidado. Conforme mostrado a seguir na captura de tela de uma equipe de exemplo, um banner indica “Esta equipe tem convidados” e um rótulo “CONVIDADO” aparece ao lado do nome de cada convidado.
+Todos os membros da equipe veem uma mensagem no tópico do canal anunciando que o proprietário da equipe adicionou um convidado e informou o nome do convidado. Todos da equipe podem identificar facilmente quem é um convidado. Conforme mostrado na captura de tela a seguir de uma equipe de exemplo, uma faixa indica que "esta equipe tem convidados" e um rótulo "(convidado)" é exibido ao lado do nome de cada convidado.
     
 ![Captura de tela mostrando usuários convidados de notificação de cabeçalho] A (media/guest-experience-image2.png "captura de tela mostra uma parte do canal de marketing da Northwind Traders, com a notificação na faixa superior informando que a equipe tem convidados e os usuários que os convidados são identificados com a palavra Guest ao lado do nome.")
+
+## <a name="comparison-of-team-member-and-guest-capabilities"></a>Comparação entre os recursos de membro da equipe e de convidado
 
 A tabela a seguir compara a funcionalidade do Microsoft Teams disponível para os membros de equipe de uma organização com a funcionalidade disponibilizada para um usuário convidado na equipe.
 
@@ -95,10 +97,10 @@ A tabela a seguir mostra os recursos de chamada e reunião disponíveis para con
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 
 I. Como faço para sair de uma organização para a qual foi convidado?<br>
-Um. Se você foi convidado para uma organização, que não quer ser convidado, você pode fazer o autoatendimento sair da organização. Para obter mais informações, vá para [deixar uma organização como um usuário convidado](https://docs.microsoft.com/en-us/azure/active-directory/b2b/leave-the-organization). Como alternativa, você também pode solicitar que o administrador da organização o remova do locatário. Observe que, em ambos os casos, você precisará ser convidado novamente para o locatário se quiser acessar a organização no futuro.
+Um. Se você tiver sido convidado para uma organização da qual não deseja ser convidado, pode optar por sair da organização. Para obter mais informações, vá para [deixar uma organização como um usuário convidado](https://docs.microsoft.com/en-us/azure/active-directory/b2b/leave-the-organization). Você também pode solicitar que o administrador da organização o remova do locatário. Observe que, em ambos os casos, você precisará ser convidado novamente para o locatário se quiser acessar a organização no futuro.
 
 I. Os convidados têm os mesmos recursos que os membros da equipe?<br>
-Um. Não. Para obter mais informações sobre o que um convidado pode e não pode fazer, acesse [recursos de convidado no Teams](https://support.office.com/article/guest-capabilities-in-teams-d03fdf5b-1a6e-48e4-8e07-b13e1350ec7b).
+Um. Não. Para obter mais informações sobre o que um convidado pode e não pode fazer, acesse a [comparação de recursos de convidados e de membros da equipe](#comparison-of-team-member-and-guest-capabilities) neste artigo.
 
 I. Quantos convidados posso convidar?<br>
 Um. Você pode adicionar até cinco convidados por usuário licenciado.
@@ -113,8 +115,10 @@ I. Os convidados podem pesquisar dentro dos arquivos?<br>
 Um. Não.
 
 I. Os convidados podem anexar arquivos?<br>
-Um. Sim, um convidado pode anexar arquivos destas duas maneiras: • selecionar arquivos no painel esquerdo e, em seguida, navegar até o local do arquivo.
-• Faça o upload do seu computador.
+Um. Sim, um convidado pode anexar arquivos destas duas maneiras:
+
+   - Selecione arquivos no painel esquerdo e navegue até o local do arquivo.
+   - Carregar arquivos do computador.
 
 I. Um convidado pode baixar um arquivo em um chat particular?<br>
 Um. Sim, eles podem receber um arquivo de um membro em um chat particular e, em seguida, baixá-lo para a área de trabalho.
