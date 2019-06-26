@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 458e6fc5fc788facb6ee900b9dd40be58428e08b
-ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
+ms.openlocfilehash: c4ec207061e53024b45b4e5a8e2ec9dfc20b13f1
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "35116021"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221532"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Gerencie as configurações do Microsoft Teams para sua organização 
 
@@ -44,13 +44,13 @@ Os aplicativos são guias, conectores, bots ou qualquer combinação destes trê
 
 #### <a name="default-apps"></a>Aplicativos padrão
 
-Esses aplicativos, como Planner, Elogiar e Clima, são fornecidos pelo Teams. Para ativar um aplicativo, marque a caixa de seleção dele. Para desativar um aplicativo, desmarque a caixa de seleção. 
+Aplicativos padrão, como o Planner, o Elogiar e o Clima, são fornecidos pelo Teams. Para ativar um aplicativo, marque a caixa de seleção dele. Para desativar um aplicativo, desmarque a caixa de seleção.
 
 ![Captura de tela da seção Aplicativos Padrão.](media/teams-manage-features-in-office365-image1.png "Captura de tela da seção Aplicativos Padrão.")
 
 #### <a name="external-apps"></a>Aplicativos externos
 
-Esses aplicativos são fornecidos por terceiros. Você pode definir as configurações a seguir para aplicativos externos.
+Os aplicativos externos são fornecidos por terceiros. Você pode definir as configurações a seguir para aplicativos externos.
 
 ![Captura de tela da seção Aplicativos externos.](media/teams-manage-features-in-office365-image2.png "Captura de tela da seção Aplicativos externos, mostrando configurações que você pode ativar e desativar")
 
@@ -65,7 +65,7 @@ Você pode controlar as configurações de usuário em toda a organização no c
 
 ### <a name="external-access"></a>Acesso externo
 
-O **acesso externo** permite que os usuários do Microsoft Teams e do Skype for Business se comuniquem com usuários que estão fora da organização. Para configurar o acesso externo, vá para [Let your Teams users chat and communicate with users in another Teams organization](let-your-teams-users-communicate-with-other-people.md) (Permitir que os usuários do Microsoft Teams conversem e se comuniquem com usuários em outra organização do Microsoft Teams).
+O **acesso externo** permite que os usuários do Microsoft Teams e do Skype for Business se comuniquem com usuários que estão fora da organização ou domínio. Para configurar o acesso externo, vá para [Permitir que os usuários do Microsoft Teams conversem e se comuniquem com usuários em outra organização](let-your-teams-users-communicate-with-other-people.md).
 
 Para adicionar ou bloquear um domínio:
 
@@ -118,7 +118,7 @@ A pesquisa de diretório no escopo do Microsoft Teams usa a APB (política de ca
 Você pode usar essas configurações para definir como os usuários serão atualizados do Skype for Business para o Microsoft Teams. 
 
 #### <a name="coexistence-mode"></a>Modo de coexistência
-Você pode especificar um modo de coexistência: **Somente Microsoft Teams**, **Ilhas** (o Microsoft Teams e o Skype for Business coexistem) ou **Somente Skype for Business**. O modo de Coexistência escolhido determina o roteamento de chats e chamadas recebidas e o aplicativo usado pelo usuário para iniciar chats e chamadas ou para agendar reuniões. Para obter mais informações sobre modos de coexistência, acesse [Entender a coexistência e a interoperabilidade do Microsoft Teams e do Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+Você pode especificar um modo de coexistência: **somente o Teams**, **Ilhas** (o Teams e o Skype for Business coexistirão) ou **somente o Skype for Business**. O modo de coexistência escolhido determina o roteamento de chats e chamadas recebidas e o aplicativo usado pelo usuário para iniciar chats e chamadas ou para agendar reuniões. Para obter mais informações sobre modos de coexistência, acesse [Entender a coexistência e a interoperabilidade do Microsoft Teams e do Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 #### <a name="app-preferences"></a>Preferências de aplicativo
 

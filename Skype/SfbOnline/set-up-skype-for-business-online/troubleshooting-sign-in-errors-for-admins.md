@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Aprenda causas comuns para erros de sinal do Skype for Business Online e trabalhe na solução de problemas. '
-ms.openlocfilehash: 25f6c08392823c35e4bb5d53ac523c1efeddf958
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 397e899796184274ca357e40e070e7c92cf23b66
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285030"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221487"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Solucionando erros de entrada no Skype for Business Online para administradores
 
@@ -50,7 +50,7 @@ Para solucionar erros de entrada no Skype for Business Online, comece eliminando
 > 
 > [Usar o guia de solução de problemas do Suporte da Microsoft](troubleshooting-sign-in-errors-for-admins.md#toc325626447)
 > 
-> [Coletar mais informações e procurar ajuda adicional](troubleshooting-sign-in-errors-for-admins.md#collect-more-information)
+> [Coletar mais informações e buscar ajuda adicional](troubleshooting-sign-in-errors-for-admins.md#collect-more-information)
 
 ## <a name="check-for-common-causes-of-skype-for-business-online-sign-in-errors"></a>Verificar as causas comuns dos erros de entrada do Skype for Business Online
 <a name="toc323194094"> </a>
@@ -75,7 +75,7 @@ Para solucionar erros de entrada no Skype for Business Online, comece eliminando
 <a name="toc325626440"> </a>
 
 > [!IMPORTANT]
->  Estas instruções destinam-se principalmente a clientes do Microsoft Office 365 Plano E. Se você for um cliente do Office 365 Plano P, continue na seção a seguir, [Colete mais informações e procure ajuda adicional.](troubleshooting-sign-in-errors-for-admins.md#collect-more-information)
+>  Estas instruções destinam-se principalmente a clientes do Microsoft Office 365 Plano E. Se você for um cliente do Office 365 Plano P, continue na seção a seguir, [Colete mais informações e procure ajuda adicional](troubleshooting-sign-in-errors-for-admins.md#collect-more-information).
 
 Se o usuário não conseguir entrar depois de ter tentado as sugestões da seção anterior, você poderá fazer uma solução de problemas adicional com base no tipo de erro. A tabela abaixo lista as mensagens de erro mais comuns e possíveis causas. Seguindo a tabela, há procedimentos detalhados para abordar cada questão.
 
