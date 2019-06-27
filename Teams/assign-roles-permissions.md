@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 423a12e8fce0c9d7508e97c1f57e17a0ba8a0ff0
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 9bcc0db65555d367f3af139be22e37690248b8e0
+ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34493798"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "35253699"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Atribuir proprietários de equipe e membros no Microsoft Teams
 =================================================
@@ -48,21 +48,14 @@ A tabela a seguir mostra a diferença nas permissões entre um proprietário e u
 |        **Adicionar conectores**         |    Sim     |    Sim<sup>2</sup>|
 |           **Adicionar bots**            |    Sim     |    Sim<sup>2</sup>|
 
-<sup>1</sup> os proprietários da equipe podem criar equipes, a menos que elas tenham sido limitadas de fazê-lo. Veja as "permissões para criar equipes" abaixo.
->
-<sup>2</sup> esses itens podem ser desativados por um proprietário em nível de equipe, caso em que os membros não tenham acesso a eles.
-
-<sup>3</sup> após adicionar um membro a uma equipe, um proprietário também pode promover um membro ao status de proprietário. Também é possível que um proprietário rebaixe seu próprio status para um membro.
-
-<sup>4</sup> os membros da equipe podem adicionar outros membros a uma equipe pública.
-
+<sup>1</sup> os proprietários da equipe podem criar equipes, a menos que elas tenham sido limitadas de fazê-lo. Veja [as permissões para criar equipes](#permissions-to-create-teams) abaixo.<br>
+<sup>2</sup> esses itens podem ser desativados por um proprietário em nível de equipe, caso em que os membros não tenham acesso a eles.<br>
+<sup>3</sup> após adicionar um membro a uma equipe, um proprietário também pode promover um membro ao status de proprietário. Também é possível que um proprietário rebaixe seu próprio status para um membro.<br>
+<sup>4</sup> os membros da equipe podem adicionar outros membros a uma equipe pública.<br>
 <sup>5</sup> embora um membro da equipe não possa adicionar membros diretamente a uma equipe privada, ele pode solicitar que alguém seja adicionado a uma equipe da qual eles já são membros. Quando um membro solicita que alguém seja adicionado a uma equipe, os proprietários da equipe recebem um alerta de que eles têm uma solicitação pendente que eles podem aceitar ou recusar.
 
-
-
 > [!NOTE]
-> Os Proprietários também podem fazer com que outros membros se tornem proprietários na opção Visualizar equipes. Uma equipe pode ter até 100 proprietários. É recomendável ter pelo menos alguns proprietários para gerenciar o Teams, isso também evitará grupos órfãos, caso o único proprietário saia da organização. Para obter mais informações sobre grupos órfãos, consulte [Atribuir novo proprietário a um grupo órfão](https://support.office.com/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732).
-
+> Os Proprietários também podem fazer com que outros membros se tornem proprietários na opção Visualizar equipes. Uma equipe pode ter até 100 proprietários. É recomendável ter pelo menos alguns proprietários para ajudar a gerenciar a equipe. Isso também impedirá grupos órfãos se o único proprietário deixar a sua organização. Para obter mais informações sobre grupos órfãos, consulte [Atribuir novo proprietário a um grupo órfão](https://support.office.com/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732).
 
 <a name="permissions-to-create-teams"></a>Permissões para criar equipes
 ---------------------------

@@ -3,7 +3,6 @@ title: Relatório de atividades do usuário do Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 04/22/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -16,12 +15,12 @@ MS.collection:
 description: Saiba como usar o relatório de atividade de usuários do teams no centro de administração do Microsoft Teams para ver como os usuários em sua organização estão usando o Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c217ae2d1344c8998e9dd8035f8c96d48a110a6d
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 00e54fe7f5d0f03058ac0814db38408226294783
+ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433004"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "35253806"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Relatório de atividades do usuário do Microsoft Teams
 
@@ -31,7 +30,7 @@ O relatório de atividade de usuários do teams fornece informações sobre os t
 
 ## <a name="view-the-report"></a>Exibir o relatório
 
-1. Vá para o centro de administração do Microsoft Teams, no painel de navegação esquerdo, clique em **relatórios do Analytics &** e, em seguida, em **relatório**, selecione **atividades do usuário**do teams. 
+1. Vá para o centro de administração do Microsoft Teams, no painel de navegação esquerdo, clique em **relatórios do Analytics &** e, em **relatório**, selecione **atividades do usuário**do teams. 
 2. Em **Intervalo de dados**, selecione intervalo e em seguida clique em **Executar relatório**. 
 
 ## <a name="interpret-the-report"></a>Interpretar relatório
@@ -46,7 +45,7 @@ O relatório de atividade de usuários do teams fornece informações sobre os t
 |**4**   |Você pode filtrar o que se vê no gráfico clicando em um item na legenda. Por exemplo, clique em **1:1 chamadas**, **mensagens de canal**ou mensagens de **chat** para ver apenas as informações relacionadas a cada uma delas. Alterar a seleção não altera as informações na tabela. |
 |**5**   |A tabela oferece uma divisão de uso por usuário.   <ul><li>**Nome para exibição** é o nome de exibição do usuário. Você pode clicar no nome para exibição para acessar a página de configuração do usuário no centro de administração do Microsoft Teams.</li><li>**chamadas 1:1** é o número de chamadas do 1:1 nas quais o usuário participou durante o período especificado.</li><li>**Mensagens de canal** é o número de mensagens exclusivas que o usuário publicou em um chat de equipe durante o período de tempo especificado.</li> <li>**Mensagens de chat** é o número de mensagens exclusivas que o usuário publicou em um chat particular durante o período de tempo especificado.</li>  <li>**Última atividade** é a última data (UTC) que o usuário participou em uma atividade do teams.</li> </ul>Para ver as informações desejadas na tabela, certifique-se de adicionar as colunas à tabela.
 |**6**   |Selecione **Editar colunas** para adicionar ou remover colunas na tabela. |
-|**7**   |Você pode exportar o relatório para um arquivo CSV para análise offline. Clique em **exportar para o Excel**e, na guia **downloads** , clique em **baixar** para baixar o relatório quando ele estiver pronto.<br>![Captura de tela da guia downloads mostrando relatórios exportados para download](../media/teams-reports-export-to-csv.png)||
+|**7**   |Você pode exportar o relatório para um arquivo CSV para análise offline. Clique em **exportar para o Excel**e, na guia **downloads** , clique em **baixar** para baixar o relatório quando ele estiver pronto.<br>![Captura de tela da guia downloads mostrando relatórios exportados para download](../media/teams-reports-export-to-csv.png) <br>Ao exibir o relatório no Excel, você também verá uma coluna de **identificação** , que representa a ID da equipe. Uma ID de equipe geralmente é uma cadeia de caracteres alfanumérica. Se a coluna **ID** aparecer como **\n**, isso significará que um usuário solicitou as informações a serem excluídas. ||
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Análises e relatórios do Teams](teams-reporting-reference.md)
