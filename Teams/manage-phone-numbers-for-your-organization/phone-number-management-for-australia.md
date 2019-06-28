@@ -13,26 +13,25 @@ ms.collection:
 - M365-voice
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Austrália do Skype for Business Online e do Microsoft Teams.
-ms.openlocfilehash: d70fcddf777aa08c71d366431eb033940668816a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Austrália do Microsoft Teams.
+ms.openlocfilehash: cd3d5c544356e806f6c33d85c951948dd33cbebc
+ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302710"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35347999"
 ---
 # <a name="phone-number-management-for-australia"></a>Gerenciamento de números de telefone para a Austrália
 Na Austrália, fizemos a parceria com a Telstra para compra e provisionamento de planos de chamadas. O Telstra venderá planos de chamadas e fornecerá o suporte para o gerenciamento de número de telefone para números de usuário e serviço para atendedores automáticos e filas de chamadas. No entanto, os números de serviço e as licenças de conferência de áudio ainda serão vendidos e gerenciados pelo Office 365.
 
 Para obter mais informações sobre as [chamadas Telstra para o Office 365](https://aka.ms/TelstraVoicePlan).
 
-Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Austrália do Skype for Business Online e do Microsoft Teams.
+Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Austrália do Microsoft Teams.
 
 Para obter mais informações, consulte [gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization.md).
   

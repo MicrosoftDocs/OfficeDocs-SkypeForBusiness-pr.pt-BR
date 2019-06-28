@@ -14,29 +14,28 @@ ms.collection:
 - M365-voice
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Use esta tabela para descobrir como obter e gerenciar números de telefone do Skype for Business Online e do Microsoft Teams para a Irlanda.
-ms.openlocfilehash: 49c795d796728844633d6b4a4286433c48e20c84
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Irlanda do Microsoft Teams.
+ms.openlocfilehash: f38e79b28f32c02157c5b0ce4c4820289343122f
+ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276118"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35347959"
 ---
 # <a name="phone-number-management-for-ireland"></a>Gerenciamento de números de telefone para a Irlanda
 
-Use esta tabela para descobrir como obter e gerenciar números de telefone do Skype for Business Online e do Microsoft Teams para a Irlanda. 
+Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na Irlanda do Microsoft Teams. 
   
 Para obter mais informações, consulte [Gerenciar os números de telefone de sua organização](manage-phone-numbers-for-your-organization.md).
   
 |**O que você deseja fazer?**|**Baixar os formulários corretos**|
 |:-----|:-----|
-|Obter novos números de telefone de usuário e serviço que não estão listados no centro de administração do Skype for Business. <br/> |Na Irlanda, não é possível obter números de telefone para a sua organização usando o Centro de administração do Skype for Business. Você deve enviar uma solicitação de novo número de telefone. Baixe a [nova solicitação de número de telefone da Irlanda (v. 4.0) (en-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-ireland-(v.4.0)-(en-us).pdf?raw=true), preencha-a e [envie-a para nós](mailto:ptneu@microsoft.com).  <br/> |
+|Obter novos números de telefone de usuário e serviço que não estão listados no centro de administração do Microsoft Teams. <br/> |Na Irlanda, você não pode obter números de telefone para sua organização usando o centro de administração do Microsoft Teams. Você deve enviar uma solicitação de novo número de telefone. Baixe a [nova solicitação de número de telefone da Irlanda (v. 4.0) (en-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-ireland-(v.4.0)-(en-us).pdf?raw=true), preencha-a e [envie-a para nós](mailto:ptneu@microsoft.com).  <br/> |
 |Obter números de telefone transferidos para nós.  <br/> |Baixe um destes formulários: <br/> [Carta de Autorização (LOA) para a Irlanda (números geográficos) (v.3.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(geographic-numbers)-(v.1.0)-(en-us).pdf?raw=true) <br/> [Carta de Autorização (LOA) para a Irlanda (números não geográficos) (v.1.0)(en.us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-ireland-(non-geographic-numbers)-(v.1.0)-(en-us).pdf?raw=true) <br/>  <br/>  Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com).  <br/> |
 |Publicar/cancelar a publicação de número (s) de telefone no diretório de telefones nacional.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de telefone que você deseja publicar/cancelar a publicação. <br/> |
 |Altere o número de um usuário para um número de serviço.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de usuário que você deseja converter em números de serviço. <br/> |
@@ -49,7 +48,4 @@ Para obter mais informações, consulte [Gerenciar os números de telefone de su
 
 [Termos e condições das Chamadas de Emergência](../emergency-calling-terms-and-conditions.md)
   
-[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
- 
-  
- 
+[Rótulo de isenção de isenção de emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

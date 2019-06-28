@@ -14,29 +14,28 @@ ms.collection:
 - M365-voice
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Use esta tabela para descobrir como obter e gerenciar números de telefone do Skype for Business Online e do Microsoft Teams para a França.
-ms.openlocfilehash: 1aa5dc8a993285a96474ac6f8836bd4a4f323b6e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na França para Microsoft Teams.
+ms.openlocfilehash: 7f704ba5d76e756afdaa386937a1075a7b82cf12
+ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298738"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35347840"
 ---
 # <a name="phone-number-management-for-france"></a>Gerenciamento de números de telefone para a França
 
-Use esta tabela para descobrir como obter e gerenciar números de telefone do Skype for Business Online e do Microsoft Teams para a França. 
+Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na França para Microsoft Teams. 
   
 Para obter mais informações, consulte [Gerenciar os números de telefone de sua organização](manage-phone-numbers-for-your-organization.md).
   
 |**O que você deseja fazer?**|**Baixe os formulários corretos e os envie para nós**|
 |:-----|:-----|
-|Obter novos números de telefone de usuário e serviço que não estão listados no centro de administração do Skype for Business.   <br/> | Baixe este formulário <br/> [Nova solicitação de número de telefone para a França (v. 4.0) (fr-FR)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-france-(v.4.0)-(fr-fr).pdf?raw=true) <br/>[Nova solicitação de número de telefone para a França (v. 4.0) (en-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-france-(v.4.0)-(en-us).pdf?raw=true) <br/>   Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com).  <br/> 
+|Obter novos números de telefone de usuário e serviço que não estão listados no centro de administração do Microsoft Teams.   <br/> | Baixe este formulário <br/> [Nova solicitação de número de telefone para a França (v. 4.0) (fr-FR)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-france-(v.4.0)-(fr-fr).pdf?raw=true) <br/>[Nova solicitação de número de telefone para a França (v. 4.0) (en-US)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-france-(v.4.0)-(en-us).pdf?raw=true) <br/>   Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com).  <br/> 
 |Obter números de telefone transferidos para nós.  <br/> |Baixe um destes formulários: <br/> [Carta de Autorização (LOA) para a França (números de telefone gratuito) (v.2.0)(fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(freephone-numbers)-(v.2.0)-(fr-fr).pdf?raw=true) <br/> [Carta de Autorização (LOA) para a França (números geográficos) (v.2.0)(fr-fr)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-france-(geographic-numbers)-(v.2.0)-(fr-fr).pdf?raw=true) <br/>  <br/>  Preencha o formulário e [o envie para nós](mailto:ptneu@microsoft.com).  <br/> |
 |Publicar/cancelar a publicação de número (s) de telefone no diretório de telefones nacional.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de telefone que você deseja publicar/cancelar a publicação. <br/> |
 |Altere o número de um usuário para um número de serviço.  <br/> |[Nos envie](mailto:ptneu@microsoft.com) a lista de números de usuário que você deseja converter em números de serviço. <br/> |
@@ -49,8 +48,4 @@ Para obter mais informações, consulte [Gerenciar os números de telefone de su
 
 [Termos e condições das Chamadas de Emergência](../emergency-calling-terms-and-conditions.md)
   
-[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
- 
-
-  
- 
+[Rótulo de isenção de isenção de emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true) 

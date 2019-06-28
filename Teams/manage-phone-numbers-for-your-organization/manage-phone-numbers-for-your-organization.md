@@ -22,25 +22,26 @@ f1keywords:
 - ms.lync.lac.VASAMissingGeoCodes
 ms.custom:
 - Calling Plans
-description: Each country or region has different instructions for getting phone numbers for users in Skype for Business Online and Microsoft Teams. Follow the link to your country or region below to get the information you need.
-ms.openlocfilehash: 087375b8874876fe5ed3f0bbf9f8799fc6f53c74
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: Saiba como obter e gerenciar números de telefone do Microsoft Teams para a sua organização.
+ms.openlocfilehash: 4260e87a5efe16d3b59053e672be3a348e8a5bdf
+ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278331"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35347856"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Gerenciar os números de telefone de sua organização
+
 Há três maneiras de obter números de usuário e serviço (tarifados e gratuitos) para sua organização.
-- Obter números no centro de administração do Skype for Business.
-- Use um formulário de solicitação para novos números que não estão listados no centro de administração do Skype for Business.
+- Obter números no centro de administração do Microsoft Teams.
 - Transferir ou "portabilizar" seus números existentes para nós.
+- Use um formulário de solicitação para novos números que não estão listados no centro de administração do Microsoft Teams.
 
 > [!IMPORTANT]
-> In **Belgium, Ireland, Germany, and the Netherlands**, you can't get phone new phone numbers using the **Skype for Business admin center**; you have to download and fill out a form. For new phone numbers in Australia, see [Telstra Voice Services](https://aka.ms/TelstraVoicePlan).
+> Na Bélgica, na França, na Alemanha, na Irlanda, nos Países Baixos e na Espanha, você não pode obter números de telefone de novos telefones usando o centro de administração do Microsoft Teams. Você precisa baixar e preencher um formulário. Para números de telefone novos na Austrália, consulte [Serviços de voz Telstra](https://aka.ms/TelstraVoicePlan).
 
 ***
-Se você souber que tipo de formulários você está procurando para usar a lista suspensa para selecionar o país/região onde você está obtendo os números.
+Se você sabe quais tipos de formulários você está procurando, use o menu suspenso para selecionar o país/região onde você está obtendo números.
 
 **Selecione seu país ou região para localizar os formulários para download que você precisa**
 > [!div class="op_single_selector"]
@@ -57,34 +58,39 @@ Se você souber que tipo de formulários você está procurando para usar a list
 
 ***
 ## <a name="heres-a-bit-more-information-about-these-number-request-forms"></a>Aqui está um pouco mais informações sobre esses formulários de solicitação de números.
+
 ### <a name="request-forms-for-new-phone-numbers"></a>Formulários de solicitação para novos números de telefone
-Cada país ou região tem diferentes de instruções, tipos diferentes de números (geográfica/não-geográfica (tarifados/gratuitos) e regras/regulamentos para obtenção de números de telefone para que possam ser usadas no Skype for Business Online e Microsoft Teams.
 
-Às vezes (dependendo do seu país/região), você não poderá obter novos números de usuário (assinante) ou de serviço (de chamada tarifada ou gratuita) usando o **centro de administração do Skype for Business**, ou pode precisar de números de telefone ou códigos de área específicos.
+Cada país ou região tem instruções diferentes, tipos diferentes de números (geográfico/não-geográfico e serviço (chamada tarifada/chamada gratuita) e regras/normas para obter números de telefone para que possam ser usados no Teams.
 
-If so, you will need to download the correct PDF form (per country/region and the type of numbers) and send it back to us. Our service desk will take it from there and will let you know about the progress or your order.
+Às vezes (dependendo do seu país/região) você não poderá obter novos números de usuário (assinante) ou serviço (de chamada tarifada ou gratuita) usando o centro de administração do Microsoft Teams ou talvez precise de números de telefone ou códigos de área específicos.
+
+Em caso afirmativo, você precisará fazer o download do formulário PDF correto (por país/região e do tipo de número) e enviá-lo de volta para nós. Nossa central de serviços levará isso e informará o progresso ou o seu pedido.
 
 ### <a name="letters-of-authorization-loas-for-transferring-numbers"></a>Cartas de autorização (LOAs) para a transferência de números
-If you need to transfer phone numbers, you'll to download a **Letter of Authorization (LOA)**, which gives us permission to request, on your behalf, transferring the existing number(s) from a different service provider in case of a dispute. Use an LOA if you have:
+
+Se você precisar transferir os números de telefone, você vai para baixar uma **Carta de autorização (LOA)**, que nos dá permissão para solicitar em seu nome, transferindo o(s) número(s) existente(s) de um provedor de serviço diferente em caso de uma contestação. Use uma LOA se você tiver:
 - Números de usuário que você já tiver de outra operadora.
 - Números de serviço (tarifado) de pontes de conferência de áudio, atendedores automáticos ou filas de chamada.
 - Números de telefone (gratuito) de serviço.
-- Você tem mais do que 999 números de telefone do usuário que você precisa obter, mas não consegue entrar no centro de administração do Skype for Business usando o **Assistente de portabilização do número local**.
+- Você tem mais de 999 números de telefone de usuário que precisa obter, mas não consegue acessar o centro de administração do Microsoft Teams usando o assistente de portabilidade de número local.
 
 ## <a name="if-you-still-need-help-and-arent-sure-what-to-do"></a>Se você ainda precisa de ajuda e não tiver certeza sobre o que fazer ….
-If you still need help, please let us know how we can help you. In your Help request, include details such as your organization ID, domains, what types of numbers you need help with, how many numbers you want, authorizing person on the account and other important details about your issue.
+
+Se você ainda precisar de ajuda, informe-nos como podemos ajudá-lo. Na sua solicitação de Ajuda, inclua detalhes como sua ID de organização, domínios, quais tipos de números você precisa de ajuda, quantos números que você deseja, autorizar pessoa na conta e outros detalhes importantes sobre o seu problema.
 - Para obter ajuda com números de telefone dentro dos EUA, [envie sua solicitação](mailto:ptn@microsoft.com).
 - Para obter ajuda com números de telefone fora dos EUA, [envie sua solicitação](mailto:ptneu@microsoft.com).
 
-#### <a name="additional-resources"></a>Recursos adicionais:
+#### <a name="additional-resources"></a>Recursos adicionais
+
 - Para ver se os planos de chamada estão disponíveis em seu país ou região, consulte [disponibilidade de países e regiões para videoconferências e planos de chamada](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - Para ajudá-lo a escolher o tipo de número de telefone que você precisa, leia os [diferentes tipos de números de telefone usados para planos de chamadas](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 - Para saber mais sobre a obtenção de números de telefone do usuário no centro de administração, leia [Obter números de telefone para seus usuários](/microsoftteams/getting-phone-numbers-for-your-users).
-- Para obter ajuda na configuração de números de telefone para sua organização, [entre em contato com o suporte para produtos empresariais-ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- Para obter ajuda na configuração de números de telefone para sua organização, [entre em contato com o serviço de suporte PSTN](contact-pstn-service-desk.md).
   
     
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Termos e condições para chamadas de emergência](../emergency-calling-terms-and-conditions.md)
+[Termos e condições da chamada de emergência](../emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Rótulo de isenção de isenção de emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true) 

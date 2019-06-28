@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Saiba quais tipos de planos de chamada de discagem (planos de discagem de chamada PSTN) estão disponíveis com o Office 365 e como escolher um para a sua organização.  '
-ms.openlocfilehash: 0439b1f18569ffb04fed7a0f2d00100fcbc7778e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d6656eb317f0a90a11376e4d69935fe2a7e75384
+ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288162"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35347991"
 ---
 # <a name="what-are-dial-plans"></a>O que são planos de discagem?
 
@@ -38,15 +38,15 @@ Consulte [criar e gerenciar planos](create-and-manage-dial-plans.md) de discagem
 
 ## <a name="tenant-dial-plan-scope"></a>Escopo do plano de discagem do locatário
 
-O escopo de um plano de discagem determina o nível hierárquico em que o plano de discagem pode ser aplicado. Os escopos são diferentes de uma implantação local do Skype for Business Server. Os clientes obtêm o plano de discagem adequado por meio de configurações de provisionamento que são fornecidas automaticamente quando os usuários se conectam ao Skype for Business Online. Como um administrador, você pode gerenciar e atribuir níveis de escopo de plano de discagem usando o PowerShell Remoto.
+O escopo de um plano de discagem determina o nível hierárquico em que o plano de discagem pode ser aplicado. Os escopos são diferentes de uma implantação local do Skype for Business Server. Os clientes obtêm o plano de discagem apropriado por meio das configurações de provisionamento que são fornecidas automaticamente quando os usuários fazem logon no Microsoft Teams ou no Skype for Business online. Como um administrador, você pode gerenciar e atribuir níveis de escopo de plano de discagem usando o PowerShell Remoto.
 
-No Skype for Business Online, há dois tipos de planos de discagem-o escopo do serviço e o locatário (que é para sua organização) estão com o escopo. Um plano de discagem de escopo do serviço é definido para cada país/região onde o sistema telefônico do Office 365 está disponível. Cada usuário recebe automaticamente o plano de discagem do país do serviço que corresponde ao local de uso do Office 365 atribuído ao usuário. Não é possível alterar o plano de discagem do país do serviço, mas você pode criar planos de discagem de escopo do locatário, o que aumenta o plano de discagem do país do serviço. Como os clientes são provisionados, eles obtêm um "plano de discagem efetivo", que é uma combinação do plano de discagem do país de serviço e o plano de discagem de locatário apropriado. Portanto, não é necessário definir todas as regras de normalização nos planos de discagem do locatário, visto que eles já podem existir no plano de discagem do país de serviço.
+No Teams e no Skype for Business Online, há dois tipos de planos de discagem: o escopo do serviço e o locatário (que é para sua organização) estão com o escopo. Um plano de discagem de escopo do serviço é definido para cada país ou região onde o sistema telefônico do Office 365 está disponível. Cada usuário recebe automaticamente o plano de discagem do país do serviço que corresponde ao local de uso do Office 365 atribuído ao usuário. Não é possível alterar o plano de discagem do país do serviço, mas você pode criar planos de discagem de escopo do locatário, o que aumenta o plano de discagem do país do serviço. Como os clientes são provisionados, eles obtêm um "plano de discagem efetivo", que é uma combinação do plano de discagem do país de serviço e o plano de discagem de locatário apropriado. Portanto, não é necessário definir todas as regras de normalização nos planos de discagem do locatário, visto que eles já podem existir no plano de discagem do país de serviço.
 
 Os planos de discagem do locatário podem ser divididos em dois escopos: escopo do locatário ou do usuário. Se um locatário definir e atribuir um plano de discagem de usuário com escopo, então esse usuário será provisionado com um plano de discagem efetivo do plano de discagem do país de serviço do usuário e o plano de discagem de usuário atribuído. Se um locatário definir um plano de discagem de locatário com escopo, mas não atribuir um plano de discagem de usuário com escopo, então esse usuário será provisionado com um plano de discagem efetivo do plano de discagem do país de serviço do usuário e o plano de discagem do locatário.
 
-A seguir é apresentado o modelo de herança de planos de discagem no Skype for Business Online.
+Veja a seguir o modelo de herança de planos de discagem no Teams e no Skype for Business online.
 
-![How dial plans are inherited in Skype for Business Online.](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
+![Como os planos de discagem são herdados do Teams e do Skype for Business Online](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
 
 A seguir são apresentados planos de discagem efetivos possíveis:
 
@@ -85,9 +85,6 @@ Para planos de discagem do usuário, você deve especificar um nome descritivo q
 Recomendamos que você digite o nome comum e reconhecível da localização geográfica ou grupo de usuários para os quais o plano de discagem correspondente se aplica.
 
 ### <a name="external-access-prefix"></a>Prefixo de acesso externo
-
-> [!CAUTION]
-> [!CUIDADO] O prefixo de acesso externo não tem suporte atualmente 
 
 É possível especificar um prefixo de acesso externo de até quatro caracteres (#, * e 0-9) se os usuários precisam discar um ou mais dígitos adicionais (por exemplo, 9) para obter uma linha externa.
 
@@ -158,4 +155,4 @@ A tabela a seguir mostra exemplos de regras de normalização que são gravadas 
 [Gerenciar os números de telefone de sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 [Termos e condições das chamadas de emergência](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Rótulo de isenção de isenção de emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

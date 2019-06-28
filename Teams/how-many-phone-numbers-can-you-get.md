@@ -20,19 +20,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Ao procurar e obter números de telefone para a sua organização, é possível obter mais números de telefone do que a quantidade de licenças atribuídas. Mas isso depende dos tipos de números de telefone e de licenças que você comprou e atribuiu. Você pode clicar em diferentes tipos de números de telefone usados para planos de chamadas para saber mais sobre os diferentes números de telefone usados no Skype for Business online.
-ms.openlocfilehash: 1051eea164cdee1c9582bf0226c1bd54620f502a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: Ao procurar e obter números de telefone para a sua organização, é possível obter mais números de telefone do que a quantidade de licenças atribuídas. Mas isso depende dos tipos de números de telefone e de licenças que você comprou e atribuiu. Você pode clicar em diferentes tipos de números de telefone usados para planos de chamadas para saber mais sobre os diferentes números de telefone usados no Microsoft Teams.
+ms.openlocfilehash: 062ff78f3fc1a56a86735dacf7a52dd3066d4f28
+ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299961"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35347912"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>Quantos números de telefone você consegue obter?
 
-Ao procurar e obter números de telefone para a sua organização, é possível obter mais números de telefone do que a quantidade de licenças atribuídas. Mas isso depende dos tipos de números de telefone e de licenças que você comprou e atribuiu. Você pode clicar em [diferentes tipos de números de telefone usados para planos de chamadas](different-kinds-of-phone-numbers-used-for-calling-plans.md) para saber mais sobre os diferentes números de telefone usados no Skype for Business online.
+Ao procurar e obter números de telefone para a sua organização, é possível obter mais números de telefone do que a quantidade de licenças atribuídas. Mas isso depende dos tipos de números de telefone e de licenças que você comprou e atribuiu. Você pode clicar em [diferentes tipos de números de telefone usados para planos de chamadas](different-kinds-of-phone-numbers-used-for-calling-plans.md) para saber mais sobre os diferentes números de telefone usados no Microsoft Teams.
   
-Você pode ver a quantidade de números de telefone que pode acessar na página **números de telefone** no centro de administração do Skype for Business ou pode executar o cmdlet [Get-CsOnlineTelephoneNumberAvailableCount](https://technet.microsoft.com/library/mt634605.aspx) .
+Você pode ver a quantidade de números de telefone que você pode obter na página **obter números de telefone** no centro de administração do Microsoft Teams, ou pode executar o cmdlet [Get-CsOnlineTelephoneNumberAvailableCount](https://technet.microsoft.com/library/mt634605.aspx) .
   
 > [!IMPORTANT]
 > [!IMPORTANTE] Os limites abaixo não incluem números de telefone que você fez portabilidade ou transferiu para a Microsoft. 
@@ -58,7 +58,7 @@ Você pode ver a quantidade de números de telefone que pode acessar na página 
 
 [Termos e condições das Chamadas de Emergência](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: etiqueta de aviso de isenção de responsabilidade por Chamadas de Emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Rótulo de isenção de isenção de emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

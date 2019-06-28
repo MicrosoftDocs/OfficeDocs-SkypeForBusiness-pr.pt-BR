@@ -3,7 +3,6 @@ title: Gerenciar a descoberta de equipes particulares no Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/20/2019
 ms.reviewer: shpoddar
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -17,16 +16,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como controlar se as equipes particulares podem ser descobertas pelos usuários do Microsoft Teams por meio de sugestões na Galeria de equipe e nos resultados da pesquisa.
-ms.openlocfilehash: c938830f4f59345863d3f84570b387f07f4b08fc
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 099daaed42e108e63a5f8334bd2ed89744479dbd
+ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221228"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35347872"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Gerenciar a descoberta de equipes particulares no Microsoft Teams
 
-> [!INCLUDE [preview feature](includes/preview-feature.md)] 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Administradores e proprietários de equipe podem controlar se as equipes particulares podem ser descobertas pelos usuários do Microsoft Teams em sua organização. Quando uma equipe privada é detectável, ela é mostrada nos resultados da pesquisa e está incluída em sugestões na Galeria de equipes juntamente com equipes públicas do Microsoft Teams. Isso torna mais fácil para os usuários procurarem e encontrarem as equipes particulares que desejam participar. Os usuários podem solicitar para ingressar em uma equipe particular, e o proprietário da equipe pode aprovar ou recusar a solicitação.
 
@@ -64,7 +63,7 @@ No Teams, vá para a equipe particular, clique em **mais opções** > **Gerencia
 
 ![Captura de tela da configuração de descoberta para equipes privadas existentes](media/private-team-discovery-existing-team.png)
 
-### <a name="using-powershell-coming-soon"></a>Usando o PowerShell (disponível em breve)
+### <a name="using-powershell"></a>Usando o PowerShell
 
 Use o cmdlet **[set-Team](https://docs.microsoft.com/powershell/module/teams/set-team?view=teams-ps)** para desativar ou ativar a configuração de descoberta para uma equipe privada existente. Veja um exemplo de como deixar uma equipe detectável:
 ```
@@ -80,7 +79,7 @@ Defina o parâmetro **AllowPrivateTeamDiscovery** como **true** para permitir ao
 
 Por padrão, **AllowPrivateTeamDiscovery** é definido como **verdadeiro** para todos os usuários de uma organização.
 
-Neste exemplo, criamos uma política denominada VendorPolicy que impede os usuários de descobrir qualquer equipe particular que seja tornada detectável e, em seguida, atribuímos a política a um usuário chamado vendoruser1. 
+Neste exemplo, criamos uma política denominada VendorPolicy que impede os usuários de descobrir qualquer equipe particular que seja tornada detectável e, em seguida, atribuímos a política a um usuário chamado vendoruser1.
 ```
      New-CsTeamsChannelsPolicy -Identity VendorPolicy -AllowPrivateTeamDiscovery $false
      Grant-CsTeamsChannelsPolicy -Identity vendoruser1@company.com -PolicyName VendorPolicy
