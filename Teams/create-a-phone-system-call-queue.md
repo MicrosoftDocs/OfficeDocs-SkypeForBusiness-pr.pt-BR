@@ -20,24 +20,24 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: Saiba como configurar o sistema telefônico para filas de chamadas em nuvem para dar a você uma saudação organizacional, música em espera e redirecionar chamadas para agentes de chamadas em listas de distribuição e grupos de segurança. Você também pode definir o tamanho máximo da fila, o tempo limite e as opções de tratamento de chamadas.
-ms.openlocfilehash: 3c98f7c9b8bb96b4c3792e4ec5abe92628d8e914
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+description: Saiba como configurar o sistema telefônico para filas de chamadas em nuvem com o Microsoft Teams.
+ms.openlocfilehash: b512d674a705c332213456ea639a015e15b51c2d
+ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34549007"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394593"
 ---
 # <a name="create-a-cloud-call-queue"></a>Criar uma fila de chamada do Cloud
 
-As filas de chamadas na nuvem incluem Saudações que são usadas quando alguém liga para um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de Pesquisar o próximo agente de chamada disponível para lidar com a chamada enquanto as pessoas que chamam são ouvindo música em espera. Você pode criar uma fila de chamadas única ou múltiplas para a sua organização.
+As filas de chamadas na nuvem são um serviço que executa uma saudação para as chamadas dos clientes antes de colocá-las em uma fila durante a pesquisa entre um conjunto predefinido de agentes para atender a essas chamadas. Você pode criar uma fila de chamadas única ou múltiplas para a sua organização.
   
 As filas de chamadas na nuvem podem fornecer:
   
-- Uma saudação organizacional.
+- Uma mensagem de saudação.
 - Música enquanto as pessoas estão aguardando a espera.
 - Redirecionamento de chamadas para agentes de chamada em listas de distribuição habilitadas por email e grupos de segurança.
-- Como fazer configurações para tamanho máximo, tempo limite e opções de tratamento de chamadas na fila de chamadas.
+- Configurações diferentes parâmetros, como tamanho máximo da fila, tempo limite e opções de tratamento de chamadas.
 
 Quando alguém liga para um número de telefone associado a uma fila de chamadas por meio de uma [conta de recurso](manage-resource-accounts.md), ele ouvirá primeiro uma saudação (se houver alguma configuração) e, em seguida, será colocado na fila e aguardará o próximo agente de chamada disponível. A pessoa que está ligando ouvirá música enquanto eles estiverem em espera, e as chamadas serão oferecidas aos agentes de chamadas em ordem *primeiro a entrar, primeiro a sair* (FIFO).
   
@@ -48,7 +48,7 @@ Todas as chamadas em espera na fila serão distribuídas usando um dos seguintes
 - Com o rodízio, o roteamento de chamadas recebidas é balanceado para que cada agente de chamadas obtenha o mesmo número de chamadas da fila.
 
     > [!NOTE]
-    > Os agentes de chamada que estiverem **offline**, definiram sua presença como **não incomodar** ou optaram pela fila de chamadas não serão chamados.
+    > Os agentes de chamada que estiverem **offline**, definiram sua presença como **não incomodar** ou recusaram a fila de chamadas não receberão chamadas.
   
 - Somente uma notificação de chamada de entrada (para a chamada no início da fila) ao mesmo tempo será enviada para os agentes de chamada.
 - Depois que um agente aceitar a chamada, a próxima chamada de entrada na fila começará a tocar nos agentes de chamadas.
@@ -61,14 +61,15 @@ Todas as chamadas em espera na fila serão distribuídas usando um dos seguintes
 Para começar a usar filas de chamadas, é importante lembrar-se de algumas coisas:
   
 - Uma fila de chamadas é necessária para ter uma conta de recurso associada. Consulte [gerenciar contas de recursos no Teams](manage-resource-accounts.md) para obter detalhes sobre contas de recursos.
-- Se você planeja atribuir um número de roteamento direto, será necessário adquirir e atribuir as seguintes licenças às contas \(do recurso Office 365 Enterprise E1, E3 ou E5 com o complemento do sistema telefônico.\)
-- Se estiver atribuindo um número de serviço da Microsoft, você precisará adquirir e atribuir as seguintes licenças à sua conta \(de recurso Office 365 Enterprise E1, E3 ou e5, com o complemento do sistema de telefonia e um plano\)de chamadas.
-- Você só precisa licenciar as contas de recursos com um número de telefone atribuído a ela. Em um atendedor automático aninhado ou fila de chamadas, você não precisa licenciar o restante dos atendedores automáticos ou filas de chamadas se eles não tiverem números de telefone associados a eles. 
+- Se você planeja atribuir um número de telefone à sua fila de chamadas, é necessário adquirir e atribuir uma das seguintes licenças às suas contas de recursos:
+    - Office 365 Enterprise E1 ou E3 com sistema telefônico adicionado
+    - Office 365 Enterprise E5 que inclui sistema telefônico
+- Você só precisa licenciar as contas de recursos com um número de telefone atribuído a ela. Em uma fila de chamadas aninhada, você não precisa licenciar o restante das filas de chamadas se elas não tiverem números de telefone associados a elas.
 
-> [!NOTE] 
-> Os números do serviço de roteamento direto para atendedor automático e filas de chamadas são suportados somente para usuários e agentes do Microsoft Teams.
+> [!NOTE]
+> Os números do serviço de roteamento direto para filas de chamadas têm suporte somente para usuários e agentes do Microsoft Teams.
 
-> [!NOTE] 
+> [!NOTE]
 > A Microsoft está trabalhando em um modelo de licenciamento sem custo para aplicativos como atendedores automáticos da nuvem e filas de chamadas, por ora, você precisa usar o modelo de licenciamento do usuário.
 
 > [!NOTE]
@@ -107,7 +108,7 @@ Para começar a usar filas de chamadas, é importante lembrar-se de algumas cois
 
 ## <a name="step-2---getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>Etapa 2-como receber ou transferir números de telefone de serviço de chamada tarifada ou gratuita
 
-Antes de você poder criar e configurar as filas de chamada, será necessário receber ou transferir os números de serviço de chamada gratuita ou tarifada. Depois de obter os números de telefone de serviço de chamada tarifada ou gratuita, eles serão exibidos no **Centro** > de administração do Microsoft Teams para**números de telefone**de**voz** > , e o **tipo de número** listado será listado como **serviço-chamada gratuita**. Para obter seus números de serviço, consulte [obtendo números de telefone de serviço](getting-service-phone-numbers.md) ou se você quiser transferir um número de serviço existente, consulte [transferir números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md).
+Antes de você poder criar e configurar as filas de chamada, será necessário receber ou transferir os números de serviço de chamada gratuita ou tarifada. Depois de obter os números de**** > telefone de serviço de chamada tarifada ou gratuita, eles aparecerão no centro de **Administração do centro** > de administração do Microsoft Teams para**números de telefone**de**voz** > e o tipo de **número** listado será listado como **serviço-chamada gratuita**. Para obter seus números de serviço, consulte [obtendo números de telefone de serviço](getting-service-phone-numbers.md) ou se você quiser transferir um número de serviço existente, consulte [transferir números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
 > Se você estiver fora dos Estados Unidos, não poderá usar o centro de administração do Microsoft Teams para obter números de serviço. Vá para [gerenciar números de telefone de sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) em vez de ver como fazer isso de fora dos Estados Unidos.
@@ -171,16 +172,20 @@ Você pode carregar um arquivo de áudio (formatos. wav,. mp3 ou. WMA).
 
 ![Ícone do número 1, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout1.png)
 
-Você pode selecionar até 200 agentes de chamadas pertencentes a listas ou grupos de endereçamento especificados. Os agentes de chamadas devem ser:
+Você pode selecionar até 200 agentes de chamada que pertencem a qualquer uma das seguintes listas de endereçamento ou grupos:
 
-- Um usuário online com uma licença do **sistema de telefonia** e habilitado para o Enterprise Voice ou com um plano de chamadas.
+- Grupo do Office 365
+- Grupo de segurança
+- Lista de distribuição
+
+Os agentes de chamada **** selecionados devem ser usuários online com uma licença do **sistema telefônico** e o Enterprise Voice habilitados **ou** ter um plano de chamada.
 
   > [!NOTE]
-  > Para redirecionar chamadas para pessoas em sua organização que estão online, elas devem ter uma licença do **sistema de telefonia** e estar habilitadas para o Enterprise Voice ou ter um plano de chamadas. Consulte [atribuir licenças do Skype for Business](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) ou [atribuir licenças do Microsoft Teams](assign-teams-licenses.md).
+  > Isso também se aplica se você quiser redirecionar chamadas para as pessoas em sua organização que estão online. Esses indivíduos devem ter uma licença do **sistema telefônico** e o Enterprise Voice habilitados **ou** ter um plano de chamadas. Para obter mais informações, consulte [atribuir licenças do Skype for Business](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses), [atribuir licenças do Microsoft Teams](https://docs.microsoft.com/microsoftteams/assign-teams-licenses)ou [qual plano de chamada é ideal para você?](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
 
- Para habilitá-las para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+ Para habilitar um agente para Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- Usuários online com uma licença do **sistema telefônico** e um plano de chamada que são adicionados a um grupo do Office 365, uma lista de distribuição habilitada para email ou um grupo de segurança. Pode levar até 3 horas para um novo agente adicionado para uma lista de distribuição ou um grupo de segurança para começar a receber chamadas de uma fila de chamadas. Uma lista de distribuição ou um grupo de segurança recém-criado pode levar até 48 horas para se tornar disponível para ser usado com filas de chamadas. Os grupos do Office 365 recém-criados estão disponíveis quase que imediatamente.
+- Usuários online com uma licença do **sistema telefônico** ou um plano de chamadas que são adicionados a um grupo do Office 365; uma lista de distribuição habilitada para email; ou um grupo de segurança. Pode levar até três horas para um agente recém-adicionado em uma lista de distribuição ou um grupo de segurança para começar a receber chamadas de uma fila de chamadas. Uma lista de distribuição ou um grupo de segurança recém-criado pode levar até 48 horas para se tornar disponível para ser usado com filas de chamadas. Os grupos do Office 365 recém-criados estão disponíveis quase que imediatamente.
 
 - Se seus agentes estiverem usando o aplicativo Microsoft Teams para receber chamadas na fila de chamadas, eles precisarão estar no modo TeamsOnly.
 
@@ -271,7 +276,7 @@ O valor de tempo limite pode ser definido em segundos, em intervalos de 15 segun
 
   - **Aplicativo de voz** Selecione o nome de uma fila de chamadas ou o atendedor automático que já foi criado.
 
-## <a name="changing-a-users-caller-id-for-outbound-calls"></a>Alterar a identificação de chamada de um usuário para chamadas de saída 
+## <a name="changing-a-users-caller-id-for-outbound-calls"></a>Alterar a identificação de chamada de um usuário para chamadas de saída
 
 Você pode proteger a identidade de um usuário alterando a identificação de chamadas para chamadas de saída para uma fila de chamadas, atendedor automático ou qualquer número de serviço, em vez disso, criando uma política usando o cmdlet **New-CsCallingLineIdentity** .
 
@@ -288,14 +293,10 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 ```
 
 Você pode obter mais informações sobre como fazer alterações nas configurações de identificação de chamada em sua organização no artigo [como a identificação de chamadas pode ser usada em sua organização](/microsoftteams/how-can-caller-id-be-used-in-your-organization).
-  
-## <a name="want-to-know-more"></a>Deseja saber mais?
 
-Você também pode usar o Windows PowerShell para criar e configurar filas de chamadas.
-  
-### <a name="call-queue-cmdlets"></a>Cmdlets da fila de chamadas
+## <a name="call-queue-cmdlets"></a>Cmdlets da fila de chamadas
 
-Estes são os cmdlets necessários para gerenciar uma fila de chamadas.
+Você também pode usar o Windows PowerShell para criar e configurar filas de chamadas. Estes são os cmdlets necessários para gerenciar uma fila de chamadas.
   
 - [New-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue?view=skype-ps)
 

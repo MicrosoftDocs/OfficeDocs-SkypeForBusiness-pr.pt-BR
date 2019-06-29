@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Saiba o que são atendedores automáticos da nuvem e como usá-los.
-ms.openlocfilehash: ae5d959918240cec63c925eff77653c54294e99c
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 3802cab121d7f88a48f657aaa9653e7144e77abe
+ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330352"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394543"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>Quais são os atendedores automáticos do Cloud?
 
@@ -55,8 +55,9 @@ Um atendedor automático na nuvem tem os seguintes recursos:
 Para começar a usar os atendedores automáticos, é importante lembrar-se de que:
 
 - Um atendedor automático é necessário para ter uma conta de recurso associada. Consulte [gerenciar contas de recursos no Teams](manage-resource-accounts.md) para obter detalhes sobre contas de recursos.
-- Se você planeja atribuir um número de roteamento direto, será necessário adquirir e atribuir as seguintes licenças às contas \(do recurso Office 365 Enterprise E1, E3 ou E5 com o complemento do sistema telefônico.\)
-- Se estiver atribuindo um número de serviço da Microsoft, você precisará adquirir e atribuir as seguintes licenças à sua conta \(de recurso Office 365 Enterprise E1, E3 ou e5, com o complemento do sistema de telefonia e um plano\)de chamadas.
+- Se você planeja atribuir um número de telefone ao atendedor automático, será necessário adquirir e atribuir uma das seguintes licenças às suas contas de recursos: 
+    - Office 365 Enterprise E1 ou E3 com sistema telefônico adicionado
+    - Office 365 Enterprise E5 que inclui sistema telefônico
 - Você só precisa licenciar as contas de recursos com um número de telefone atribuído a ela. Em um atendedor automático aninhado ou fila de chamadas, você não precisa licenciar o restante dos atendedores automáticos ou filas de chamadas se eles não tiverem números de telefone associados a eles. 
 
 > [!NOTE]
@@ -211,11 +212,10 @@ Cada atendedor automático tem opções de tratamento de chamadas que podem ser 
 - Também é possível:
   - Redirecionar a chamada para um usuário do Microsoft Teams que tenha uma licença do **sistema de telefonia** compatível com o Enterprise Voice ou um plano de chamadas atribuído a ele. Você pode configurá-lo para que o chamador possa ser enviado para a caixa postal. Para isso, selecione uma **Pessoa em sua empresa** e defina as chamadas dessa pessoa para serem encaminhadas diretamente para a caixa postal.
 
-  
   - Redirecionar a chamada para uma fila de chamadas. Para ver mais sobre filas de chamadas, consulte [criar uma fila de chamadas na nuvem](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
   - Redirecione a chamada para outro atendedor automático que você configurou.
-- Criar opções de menu e reproduzir o prompt do menu para o chamador. Por exemplo: "Pressione 1 para Vendas, Pressione 2 para Serviços. Para falar com o operador, pressione 0 a qualquer momento."
+  - Criar opções de menu e reproduzir o prompt do menu para o chamador. Por exemplo: "Pressione 1 para Vendas, Pressione 2 para Serviços. Para falar com o operador, pressione 0 a qualquer momento."
 
 ### <a name="menu-options"></a>Opções do menu
 
@@ -234,9 +234,9 @@ Para configurar um atendedor automático e as opções de menu, vá [configurar 
   
 ### <a name="assigning-phone-numbers-for-an-auto-attendant"></a>Atribuindo números de telefone para um atendedor automático
 
-Você pode atribuir um número de serviço do plano de chamadas da Microsoft ou um número híbrido de roteamento direto para o atendedor automático. Consulte [planejar o roteamento direto](direct-routing-plan.md) para obter detalhes.
+Você pode atribuir um número de serviço da Microsoft, um número de roteamento direto ou um número híbrido ao atendedor automático. Consulte [planejar o roteamento direto](direct-routing-plan.md) para obter detalhes.
 
-Para atribuir um número de serviço, você precisará obter ou transferir os números de serviço de chamada tarifada ou gratuita existentes. Depois que você receber os números de telefone de serviço de chamada tarifada ou gratuita, eles serão exibidos no <!-- validate nav path --> **** > Número de**telefone**de**voz** > do centro de administração do Skype for Business, e o **tipo de número** listado será listado como **serviço de chamada**gratuita. Para obter seus números de serviço, consulte [obtendo números de telefone de serviço para o Skype for Business e o Microsoft Teams](/microsoftteams/getting-service-phone-numbers) ou, se você quiser transferir e número de serviço existente, consulte [transferir números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md).
+Para atribuir um número de serviço, você precisará adquirir ou portar seus números de serviço de chamada tarifada ou gratuitas existentes. Depois que você receber os números de telefone de serviço de chamada tarifada ou gratuita, eles serão exibidos no <!-- validate nav path --> **** > Número de**telefone**de**voz** > do centro de administração do Skype for Business, e o **tipo de número** listado será listado como **serviço de chamada**gratuita. Para obter seus números de serviço, consulte [obtendo números de telefone de serviço para o Skype for Business e o Microsoft Teams](/microsoftteams/getting-service-phone-numbers) ou, se você quiser transferir e número de serviço existente, consulte [transferir números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
 > Se você estiver fora dos Estados Unidos, não poderá usar o centro de administração do Microsoft Teams para obter números de serviço. Em seguida, [gerencie os números de telefone de sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para ver como fazê-lo.

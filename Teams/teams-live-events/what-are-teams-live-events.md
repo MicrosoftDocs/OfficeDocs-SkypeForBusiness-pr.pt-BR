@@ -14,12 +14,12 @@ description: Saiba como eventos dinâmicos permitem que os usuários transmitam 
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4110e9dbfdff6548c0cae1406f1139835d00ec40
-ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
+ms.openlocfilehash: 54d29f243eddbeacc1bc9bc9f846ceda6cd1e12b
+ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35013002"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394535"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>O que são os eventos ao vivo do Microsoft Teams ?
 
@@ -75,6 +75,9 @@ O objetivo do eCDN é pegar o conteúdo de vídeo da Internet e distribuir o con
 A experiência do participante é o aspecto mais importante de eventos dinâmicos e é essencial que os participantes participem do evento ao vivo sem ter problemas. A experiência do participante usa o Azure Media Player (para eventos produzidos no Teams) e o Stream Player (para eventos produzidos em um aplicativo ou dispositivo externo) e funciona entre a área de trabalho, o navegador e o dispositivo móvel (iOS, Android). O Office 365 fornece o Yammer e o Teams como dois hubs de colaboração, e a experiência do Live articipante está integrada a essas ferramentas de colaboração. 
 
 ![Captura de tela mostrando a experiência do participante de eventos ao vivo] (../media/teams-live-events-attendee.png "Captura de tela mostrando a experiência do participante de eventos ao vivo")
+
+### <a name="live-event-usage-report"></a>Relatório de uso de eventos ao vivo 
+Administradores de locatários podem exibir a análise de uso em tempo real para eventos dinâmicos no centro de administração do Microsoft Teams.  O relatório de uso de eventos ao vivo mostra a visão geral de atividades dos eventos dinâmicos mantidos na organização.  Os administradores podem exibir informações de uso de eventos, incluindo status do evento, hora de início, modos de exibição e tipo de produção.  
 
 ## <a name="next-steps"></a>Próximas etapas
 Vá para [plano para eventos do teams Live](plan-for-teams-live-events.md).
