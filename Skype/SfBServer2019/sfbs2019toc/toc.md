@@ -100,10 +100,10 @@
 ##### [Configurar caixa postal da nuvem](../../sfbhybrid/hybrid/configure-cloud-voicemail.md)
 #### Atendedores automáticos da nuvem
 ##### [Atendedores automáticos do plano da nuvem](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md)
-##### [Configurar os atendedores automáticos da nuvem](../../SfbHybrid/hybrid/configure-cloud-auto-attendant.md)
+##### [Configurar contas de recurso](../../SfbHybrid/hybrid/configure-onprem-ra.md)
 #### Filas de chamadas da nuvem
 ##### [Planejar filas de chamadas da nuvem](../../SfbHybrid/hybrid/plan-call-queue.md)
-##### [Configurar filas de chamadas da nuvem](../../SfbHybrid/hybrid/configure-call-queue.md)
+##### [Configurar contas de recurso](../../SfbHybrid/hybrid/configure-onprem-ra.md)
 ### [Plano para integrar o Skype for Business e o Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
 #### [Unificação de Mensagens](../../SfbServer/plan-your-deployment/integrate-with-exchange/unified-messaging.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json)
 ##### [Visão geral de implantação](../../SfbServer/plan-your-deployment/integrate-with-exchange/deployment-overview.md?toc=/SkypeForBusiness/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json) 
