@@ -306,7 +306,7 @@
 
 ## Jurídico e regulatório
 ### [Declaração de conformidade relativa à acessibilidade do Skype for Business Online na França](../legal-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
-### [Soluções de acessibilidade do Skype for Business Online na França](../legal-and-regulatory/accessibility-solutions-in-france.md)
+### [Soluções de acessibilidade do Skype for Business Online na França](/microsoftteams/accessibility-solutions-in-france?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [IP Relay no Canadá - Criar conta](../legal-and-regulatory/ip-relay-canada-email-signup.md)
 ### [IP Relay no Canadá - Manual de instruções](../legal-and-regulatory/ip-relay-canada-user-guide.md)
 ### [Período de discagem gratuita](/microsoftteams/complimentary-dial-out-period?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
