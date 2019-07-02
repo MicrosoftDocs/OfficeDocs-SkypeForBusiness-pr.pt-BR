@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
 description: 'Resumo: Leia este tópico para saber como planejar a alta disponibilidade e a recuperação de desastres para o servidor de chat persistente no Skype for Business Server 2015.'
-ms.openlocfilehash: b9e509b987a9fe3b8d7755ce8d92f35c82b7d386
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0cdd1d17680f0546a0081bb769e2c6f45a370d0c
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297075"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418263"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Plano para alta disponibilidade e recuperação de desastres para servidor de chat persistente no Skype for Business Server 2015
  
@@ -28,7 +28,7 @@ A alta disponibilidade e a recuperação de desastres para servidor de chat pers
 > O uso de Grupos de Disponibilidade AlwaysOn do SQL não tem suporte com bancos de dados de Servidor de Chat Persistente. 
 
 > [!NOTE] 
-> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [jornada do Skype for Business para o Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015. 
+> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [introdução à atualização do Microsoft Teams](/microsoftteams/upgrade-start-here). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015. 
   
 ## <a name="resource-requirements"></a>Requisitos de recursos
 

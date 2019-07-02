@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: 'Resumo: Leia este tópico para saber como adicionar um servidor de chat persistente à sua topologia do Skype for Business Server 2015.'
-ms.openlocfilehash: c953b93d8ea20b8878269c8be0540ba8e032ce87
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7ce1db891fce953cbf0195870661c174703113d2
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282298"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418199"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>Adicionar um servidor de chat persistente à sua topologia do Skype for Business Server 2015
  
@@ -29,7 +29,7 @@ Depois de instalar o software de pré-requisito em cada servidor em que você pl
 - Postar a topologia atualizada
     
 > [!NOTE] 
-> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [jornada do Skype for Business para o Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015. 
+> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [introdução à atualização do Microsoft Teams](/microsoftteams/upgrade-start-here). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015. 
 
 ## <a name="update-your-topology-to-include-persistent-chat-server"></a>Atualizar sua topologia para incluir o Servidor de Chat Persistente
 

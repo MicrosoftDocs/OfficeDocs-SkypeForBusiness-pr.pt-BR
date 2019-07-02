@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4f2b689b-7f15-48dc-a069-da7bc8527def
 description: 'Resumo: saiba como fazer backup e restaurar bancos de dados persistentes do servidor de chat no Skype for Business Server 2015.'
-ms.openlocfilehash: 07d904620bbc5925ec6457924af6ee1e48d98d55
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0bb4895ef85ac9f38f2f9ef414769efcac6894b4
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279358"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417957"
 ---
 # <a name="back-up-and-restore-persistent-chat-databases-in-skype-for-business-server-2015"></a>Fazer backup e restaurar bancos de dados de Chat Persistente no Skype for Business Server 2015
  
@@ -25,7 +25,7 @@ ms.locfileid: "34279358"
 O servidor de chat persistente exige que o software de banco de dados do SQL Server armazene dados de sala de chat, como histórico e conteúdo, configuração, provisionamento de usuário e outros metadados relevantes. Além disso, se a sua organização tiver regulamentos que exijam que a atividade de chat persistente seja arquivada, e o serviço de conformidade opcional estiver habilitado, o software de banco de dados do SQL Server será usado para armazenar dados de conformidade, incluindo conteúdo e eventos de chat, como ingressar e sair de salas. Conteúdo da sala de chat é armazenado no banco de dados de chat persistente (MGC). Os dados de Conformidade são armazenados no banco de dados de Conformidade (mgccomp). Esses dados são essenciais para os negócios, cujo backup deve ser feito regularmente. 
   
 > [!NOTE]
-> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [jornada do Skype for Business para o Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015. 
+> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [introdução à atualização do Microsoft Teams](/microsoftteams/upgrade-start-here). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015. 
 
 ## <a name="back-up-the-databases"></a>Fazer backup dos bancos de dados
 

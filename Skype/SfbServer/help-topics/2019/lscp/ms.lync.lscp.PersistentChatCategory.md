@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 6875d930-7502-4e47-bdb3-45eaeb065350
 ROBOTS: NOINDEX, NOFOLLOW
 description: É possível usar a seção Categoria da página Chat Persistente para configurar as categorias. Uma categoria de sala de chat persistente é uma estrutura lógica para organizar salas de chat. Uma categoria define um conjunto padrão de listas de controle de acesso (ACLs) para controle dos usuários e dos grupos de usuários que podem criar ou ingressar em salas de chat. É possível usar as categorias para aplicar paredes éticas entre diferentes subdivisões dentro de suas organizações.
-ms.openlocfilehash: edfb7c078b1116cf19d7c9a872cd912aff0c1e5e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: da436c152290645d99d872b56ff05283eb1e1ca9
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278804"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418602"
 ---
 # <a name="persistent-chat-category"></a>Categoria de Chat Persistente
 
 > [!NOTE] 
-> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [atualização do Skype for Business para o Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). Se você precisar usar chats persistentes, suas opções serão migrar usuários que exigem essa funcionalidade para o Microsoft Teams ou continuar usando o Skype for Business Server 2015.
+> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [atualização do Skype for Business para o Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here). Se você precisar usar chats persistentes, suas opções serão migrar usuários que exigem essa funcionalidade para o Microsoft Teams ou continuar usando o Skype for Business Server 2015.

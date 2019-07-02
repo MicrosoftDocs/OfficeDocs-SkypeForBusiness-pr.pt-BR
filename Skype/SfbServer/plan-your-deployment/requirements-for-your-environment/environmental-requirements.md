@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Resumo: Configure seus requisitos de não-servidor para o Skype for Business Server 2015. Há várias coisas que você deve configurar antes de realizar a implantação, incluindo Active Directory, DNS, certificados e compartilhamento de fileshares.'
-ms.openlocfilehash: b547d6c4e99f0b29a4e415a15e9c1307165245b2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 68ccac9b4335de6b4f3bea0fba179e7d8e498224
+ms.sourcegitcommit: bd50c6239cee414ea9933e9d569fa5a24bc05544
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296858"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "35414979"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Requisitos de ambiente para o Skype for Business Server 2015
  
@@ -255,7 +255,7 @@ Portanto, é muito preciso pensar e, definitivamente, há uma variedade de níve
   
 ### <a name="certificates-for-your-internal-servers"></a>Certificados para seus servidores internos
 
-Você precisará de certificados para a maioria dos seus servidores internos e, provavelmente, receberá uma CA interna (que é uma localizada no seu domínio). Se quiser, você pode solicitar esses certificados de uma AC externa (localizada na internet). Se você estiver se perguntando qual é a autoridade de certificação pública, pode dar uma olhada na lista de [parceiros do certificado de Comunicação](https://support.microsoft.com/kb/929395/en-us) unificada.
+Você precisará de certificados para a maioria dos seus servidores internos e, provavelmente, receberá uma CA interna (que é uma localizada no seu domínio). Se quiser, você pode solicitar esses certificados de uma AC externa (localizada na internet). Se você estiver se perguntando qual é a autoridade de certificação pública, pode dar uma olhada na lista de [parceiros do certificado de Comunicação](/SkypeForBusiness/certification/services-ssl) unificada.
   
 Você também precisará de certificados quando o Skype for Business Server 2015 se comunicar com outros aplicativos e servidores, como o Microsoft Exchange Server. Esse, obviamente, deve ser um certificado que possa ser usado por outros aplicativos e servidores de maneira suportada. O Skype for Business Server 2015 e outros produtos da Microsoft dão suporte ao protocolo de autorização aberta (OAuth) para autenticação e autorização de servidor para servidor. Se você estiver interessado nisso, temos um artigo de planejamento adicional para o OAuth e o Skype for Business Server 2015.
   

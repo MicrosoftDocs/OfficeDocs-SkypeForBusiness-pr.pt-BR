@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Resumo: Saiba mais sobre os requisitos ambientais do servidor de borda no Skype for Business Server.'
-ms.openlocfilehash: c6127f862bcc21d113404eb7bf1868757a83cf32
-ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
+ms.openlocfilehash: 25584c10c8359cb4a3e695cee4838b80bc9643f5
+ms.sourcegitcommit: bd50c6239cee414ea9933e9d569fa5a24bc05544
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35203953"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "35414986"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Requisitos ambientais do servidor de borda no Skype for Business Server
  
@@ -285,7 +285,7 @@ Abordaremos as necessidades de certificados internos e externos separadamente, e
   
 ### <a name="external-certificates"></a>Certificados Externos
 
-No mínimo, o certificado atribuído às interfaces do servidor de borda externa precisará ser fornecido por uma CA (autoridade de certificação) pública. Não é possível recomendar uma CA específica para você, mas temos uma lista de CAs, [parceiros de comunicações](https://support.microsoft.com/en-us/kb/929395) unificadas que você pode examinar para ver se a sua CA preferida está listada.
+No mínimo, o certificado atribuído às interfaces do servidor de borda externa precisará ser fornecido por uma CA (autoridade de certificação) pública. Não é possível recomendar uma CA específica para você, mas temos uma lista de CAs, [parceiros de comunicações](/SkypeForBusiness/certification/services-ssl) unificadas que você pode examinar para ver se a sua CA preferida está listada.
   
 Quando você precisará enviar uma solicitação para um AC para ter este certificado público, e como você fazê-lo? Há várias formas de fazer isso:
   

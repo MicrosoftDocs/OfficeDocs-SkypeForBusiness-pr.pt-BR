@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 description: 'Resumo: Leia este tópico para saber mais sobre categorias, salas de chat e funções de usuário e administrador para servidor de chat persistente no Skype for Business Server 2015.'
-ms.openlocfilehash: 2499cabbf4d7563228108ff5037a49be2976c018
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bffdebdf6bbb57165b902026083de5628cdbc404
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297110"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418466"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>Categorias de chat persistente, salas de chat e funções de usuário no Skype for Business Server 2015
  
@@ -31,7 +31,7 @@ Você pode controlar o acesso a salas de chat criando categorias de sala de chat
 - Funções de administrador
 
 > [!NOTE] 
-> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [jornada do Skype for Business para o Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015. 
+> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [introdução à atualização do Microsoft Teams](/microsoftteams/upgrade-start-here). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015. 
     
 ## <a name="categories-for-organizing-chat-rooms"></a>Categorias para organizar salas de chat
 

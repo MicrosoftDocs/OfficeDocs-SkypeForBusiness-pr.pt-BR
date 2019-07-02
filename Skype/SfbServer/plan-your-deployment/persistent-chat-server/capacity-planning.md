@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 description: 'Resumo: Leia este tópico para saber mais sobre o planejamento de capacidade para o servidor de chat persistente no Skype for Business Server 2015.'
-ms.openlocfilehash: b303a0d6cd0e518ed1619d53f8fc7bc1b5101903
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7aa76aecf183fc0872adf6f6040132310d54a989
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297117"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418488"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planejamento de capacidade para o Servidor de Chat Persistente no Skype for Business Server 2015
  
@@ -29,7 +29,7 @@ O planejamento de capacidade é uma parte importante da preparação para a impl
 Antes de ler esta seção, é importante você se familiarizar com as topologias do Chat Persistente. Para obter mais informações, veja [Plan Persistent Chat Server topology](topology.md).
 
 > [!NOTE] 
-> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [jornada do Skype for Business para o Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015. 
+> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [introdução à atualização do Microsoft Teams](/microsoftteams/upgrade-start-here). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015. 
   
 ## <a name="persistent-chat-server-capacity-planning"></a>Planejamento da capacidade do servidor de chat persistente
 

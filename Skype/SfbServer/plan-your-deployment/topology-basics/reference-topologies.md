@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: Topologias de referência para o Skype for Business Server, incluindo diagramas e decisões para organizações grandes, médias e pequenas.
-ms.openlocfilehash: 6d3a3caa0dbad60909af54f153dcea416343c947
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9ec00fb6aa8d318a1eddec4b16c902e5f0fca5dd
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296634"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418030"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>Topologias de referência para o Skype for Business Server
 
@@ -132,7 +132,7 @@ Essa topologia é mostrada em vários diagramas, com uma visão geral seguida po
 - **O chat persistente está implantado.** Essa organização implantou os servidores necessários para habilitar o chat persistente. Ela implantou vários servidores front-end de chat persistente para lidar com a carga do número de usuários no pool e proporcionar alta disponibilidade. Ela também implantou conformidade para chat persistente e colocou o repositório do chat persistente e o repositório de conformidade do chat persistente em servidores separados. Esses repositórios podem ser colocados e até mesmo colocados com o servidor back-end, mas a organização optou por separá-los para proporcionar desempenho melhor.
 
     > [!NOTE]
-    > O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [jornada do Skype for Business para o Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015.
+    > O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [introdução à atualização do Microsoft Teams](/microsoftteams/upgrade-start-here). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015.
 
 - **Balanceamento de carga do DNS.** O pool de front-ends e o pool de servidores de borda usam balanceamento de carga do DNS. Isso elimina a necessidade de balanceadores de carga de hardware para a interface interna dos servidores de borda e reduz significativamente o tempo necessário para configuração e manutenção dos balanceadores de carga de hardware para os outros pools, pois os balanceadores de carga de hardware são necessários somente para tráfego HTTP. Para obter mais informações, consulte (.. /.. /plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing).
 

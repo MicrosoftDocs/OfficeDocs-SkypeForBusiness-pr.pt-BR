@@ -14,12 +14,12 @@ description: Saiba como eventos dinâmicos permitem que os usuários transmitam 
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54d29f243eddbeacc1bc9bc9f846ceda6cd1e12b
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: 2466ba45ecf043b7ce416ce7f94c2d47c201b262
+ms.sourcegitcommit: 5791b98589e64df2e2bcd96f05fd2f869a65861f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394535"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35420048"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>O que são os eventos ao vivo do Microsoft Teams ?
 
@@ -77,7 +77,7 @@ A experiência do participante é o aspecto mais importante de eventos dinâmico
 ![Captura de tela mostrando a experiência do participante de eventos ao vivo] (../media/teams-live-events-attendee.png "Captura de tela mostrando a experiência do participante de eventos ao vivo")
 
 ### <a name="live-event-usage-report"></a>Relatório de uso de eventos ao vivo 
-Administradores de locatários podem exibir a análise de uso em tempo real para eventos dinâmicos no centro de administração do Microsoft Teams.  O relatório de uso de eventos ao vivo mostra a visão geral de atividades dos eventos dinâmicos mantidos na organização.  Os administradores podem exibir informações de uso de eventos, incluindo status do evento, hora de início, modos de exibição e tipo de produção.  
+Administradores de locatários podem exibir a análise de uso em tempo real para eventos dinâmicos no centro de administração do Microsoft Teams.  O [relatório de uso de eventos ao vivo](../teams-analytics-and-reports/teams-live-event-usage-report.md) mostra a visão geral de atividades dos eventos dinâmicos mantidos na organização.  Os administradores podem exibir informações de uso de eventos, incluindo status do evento, hora de início, modos de exibição e tipo de produção.  
 
 ## <a name="next-steps"></a>Próximas etapas
 Vá para [plano para eventos do teams Live](plan-for-teams-live-events.md).

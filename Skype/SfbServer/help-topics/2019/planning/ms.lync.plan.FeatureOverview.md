@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: Ferramenta de planejamento do Skype for Business Server
-ms.openlocfilehash: b43c2ffef0c2e85413cda1720ea62527fece1556
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 90970dd3e82ffe401294307c09f356beca883c3b
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288251"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418581"
 ---
 # <a name="feature-overview-planning-tool"></a>Feature Overview (Planning Tool)
  
@@ -64,7 +64,7 @@ Os elementos restantes foram populados com respostas que você forneceu às perg
     O Chat persistente permite que vários usuários participem de conversas nas quais eles postam e acessam conteúdo sobre tópicos específicos, incluindo texto, links e arquivos. Embora os usuários possam se comunicar em tempo real durante uma sessão, o conteúdo de cada sessão é persistente, o que significa que continua disponível após o fim de uma sessão.
 
     > [!NOTE] 
-    > O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [atualização do Skype for Business para o Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). Se você precisar usar chats persistentes, suas opções serão migrar usuários que exigem essa funcionalidade para o Microsoft Teams ou continuar usando o Skype for Business Server 2015.
+    > O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [atualização do Skype for Business para o Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here). Se você precisar usar chats persistentes, suas opções serão migrar usuários que exigem essa funcionalidade para o Microsoft Teams ou continuar usando o Skype for Business Server 2015.
     
 ### <a name="users"></a>Usuários
 

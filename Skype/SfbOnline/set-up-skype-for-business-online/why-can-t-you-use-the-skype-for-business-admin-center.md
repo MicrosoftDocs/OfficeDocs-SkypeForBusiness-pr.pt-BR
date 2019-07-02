@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Saiba o que você pode e não pode usar no centro de administração do Skype for Business e em outros recursos quando o seu serviço estiver sendo migrado para outro Data Center da Microsoft. '
-ms.openlocfilehash: 006caf6542abfeeb38e9563b6866fb119c47b88f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9582b2c5209a0ad5231e4646f930cf1fcf65a55b
+ms.sourcegitcommit: 3c11153ffdc3296a9cf2a7078fff5049c091e55a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284873"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "35411565"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>Por que não posso usar o centro de administração do Skype for Business online agora?
 
@@ -45,7 +45,7 @@ Primeiro, vamos examinar alguns termos.
     
 - **** Como migrar Isso é quase igual a "mover". Nesse caso, significa que estamos movendo os usuários e as configurações do Skype for Business online de um datacenter para outro, o que está mais perto de você melhorar o serviço.
     
-- **Latência** Esta é a quantidade de tempo que leva você para acessar o centro de administração do Office 365, fazer uma alteração nas configurações e salvar essas alterações.
+- **Latência** Esta é a quantidade de tempo que leva você para acessar o centro de administração do Microsoft 365, fazer uma alteração nas configurações e, em seguida, salvar essas alterações.
     
 - **ID de correlação** Você pode ter visto isso listado na mensagem da qual você acabou de fazer isso. Essas informações são usadas pelos engenheiros de suporte da Microsoft para ajudá-lo a solucionar um erro. Se você entrar em contato com o suporte da Microsoft, você pode ser solicitado a solicitar a identificação de correlação.
     

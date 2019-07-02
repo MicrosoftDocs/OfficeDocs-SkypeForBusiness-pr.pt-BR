@@ -3,7 +3,6 @@ title: Análise e relatórios do Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/25/2019
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
@@ -17,12 +16,12 @@ MS.collection:
 description: Saiba mais sobre os relatórios do teams que estão disponíveis no centro de administração do Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 15c8580fb7a0f588f9a5605c348acff0458c6a77
-ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
+ms.openlocfilehash: fadd608c20f2992b4b6bcd42d4979c009b4bbf7f
+ms.sourcegitcommit: 5791b98589e64df2e2bcd96f05fd2f869a65861f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/26/2019
-ms.locfileid: "35253790"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35420032"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Análise e relatórios do Microsoft Teams
 
@@ -46,6 +45,7 @@ Estamos melhorando continuamente a experiência de relatório do Teams e adicion
 |[Relatório de uso do Teams](teams-usage-report.md)  |  Usuários ativos<br/>Usuários ativos em equipes e canais<br/>Canais ativos<br/>Mensagens<br/>Configuração de privacidade do teams<br/>Convidados em uma equipe   |
 |[Relatório de atividades do usuário do Teams](user-activity-report.md)  |  1:1 chamadas de um usuário participou<br/>Mensagens que um usuário postou em um chat de equipe<br/>Mensagens que um usuário publicou em um chat privado<br/>Data da última atividade de um usuário     |
 |[Relatório de uso de dispositivos do Teams](device-usage-report.md)   |  Usuários do Windows:<br/>Usuários do Mac<br/>usuários do iOS<br/>Usuários de telefones Android     |
+|[Relatório de uso de eventos do teams Live](teams-live-event-usage-report.md)   |  Total de exibições<br>Hora de início<br>Status do evento<br>Organizador<br>Apresentações<br>Produtor<br>Configuração de gravação<br>Tipo de produção    |
 
 > [!NOTE]
 > Os relatórios do teams mostram dados de usuários ativos e do Active Teams. Por exemplo, se um usuário em sua organização não estiver ativo no Teams durante o intervalo de datas especificado para um relatório, os dados desse usuário não serão incluídos nesse relatório.

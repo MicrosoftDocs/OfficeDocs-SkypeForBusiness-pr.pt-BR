@@ -1,9 +1,9 @@
 ---
 title: Barreiras de informações na visualização do Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
-ms.date: 06/17/2019
+ms.date: 07/01/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -12,12 +12,12 @@ ms.reviewer: vikramju
 description: Saiba mais sobre barreiras de informação e como elas afetam o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50a8600e3a1eb83ad43acb0b302239eb6e44f32a
-ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
+ms.openlocfilehash: 4a9c896e7131dfcd1a510a39712759fd8143fe3f
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35013017"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418284"
 ---
 # <a name="information-barriers-in-microsoft-teams-preview"></a>Barreiras de informações na visualização do Microsoft Teams
 
@@ -61,9 +61,9 @@ A função de administrador de barreiras de informação (gerenciamento de confo
 As políticas de barreira de informações são verificadas quando ocorrem os seguintes eventos de equipe:
 
 - **Os membros são adicionados a uma equipe** , sempre que você adiciona um usuário a uma equipe, a política do usuário deve ser avaliada em relação às políticas de barreira de informações de outros membros da equipe. Depois que o usuário for adicionado com êxito, o usuário poderá executar todas as funções na equipe sem verificações adicionais. Se a política do usuário impedir que elas sejam adicionadas à equipe, o usuário não aparecerá na pesquisa.
-- **Um novo Chat é solicitado** -sempre que um novo Chat é solicitado entre dois ou mais usuários, o chat é avaliado para garantir que ele não viole nenhuma política de barreira de informações. Se a conversa violar uma política de barreira de informações, a conversa não será iniciada e uma mensagem de erro será exibida.
-- **Um usuário é convidado a ingressar em uma reunião** -quando um usuário é convidado a ingressar em uma reunião, a política do usuário é avaliada em relação às políticas de outros membros da equipe e, se houver uma violação, o usuário não terá permissão para ingressar na reunião e verá uma mensagem de erro.
-- **Uma tela é compartilhada entre dois ou mais usuários** -a qualquer momento em que uma tela é compartilhada entre dois ou mais usuários, o compartilhamento de tela deve ser avaliado para garantir que ele não viole as políticas de barreira de informações de outros usuários. Se uma política de barreira de informações for violada, o compartilhamento de tela não será permitido e uma mensagem de erro será exibida.
+- **Um novo Chat é solicitado** -sempre que um novo Chat é solicitado entre dois ou mais usuários, o chat é avaliado para garantir que ele não viole nenhuma política de barreira de informações. Se a conversa violar uma política de barreira de informações, a conversa não será iniciada.
+- **Um usuário é convidado a ingressar em uma reunião** -quando um usuário é convidado a ingressar em uma reunião, a política do usuário é avaliada em relação às políticas de outros membros da equipe e, se houver uma violação, o usuário não terá permissão para ingressar na reunião.
+- **Uma tela é compartilhada entre dois ou mais usuários** -a qualquer momento em que uma tela é compartilhada entre dois ou mais usuários, o compartilhamento de tela deve ser avaliado para garantir que ele não viole as políticas de barreira de informações de outros usuários. Se uma política de barreira de informações for violada, o compartilhamento de tela não será permitido.
 - **Um usuário insere uma chamada telefônica (VoIP) no Teams** -sempre que uma chamada de voz é iniciada por um usuário para outro usuário ou grupo de usuários, a chamada é avaliada para garantir que ela não viole as políticas de barreira de informações de outros membros da equipe. Se houver alguma violação, a chamada de voz será bloqueada.
 
 ## <a name="what-happens-to-existing-chat-threads-when-a-policy-is-changed"></a>O que acontece com os threads de chat existentes quando uma política é alterada?

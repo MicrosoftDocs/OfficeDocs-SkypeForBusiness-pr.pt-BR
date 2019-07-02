@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 'Resumo: escolha sua topologia para o Skype for Business Server. Saiba mais sobre a colocação do servidor no Skype for Business Server.'
-ms.openlocfilehash: 5c8c4b7cc2a0bf1c392e3fad70a179b838a64606
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 064dc9d4f7f5d2a5ac722b3cfae928501b217822
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296620"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418008"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>Noções básicas de topologia para o Skype for Business Server
 
@@ -184,7 +184,7 @@ Os diretores podem autenticar solicitações de usuário do Skype for Business S
 ### <a name="persistent-chat-server-roles"></a>Funções de servidor de chat persistente
 
 > [!NOTE]
-> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [jornada do Skype for Business para o Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015.
+> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [introdução à atualização do Microsoft Teams](/microsoftteams/upgrade-start-here). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015.
 
 O chat persistente permite que os usuários participem de conversas baseadas em tópicos com vários participantes e que persistem ao longo do tempo. O Servidor Front-End de Chat Persistente executa o serviço de chat persistente. O Servidor Back-End de Chat Persistente armazena os dados de histórico de chat, bem como as informações sobre categorias e salas de chat. O Servidor Back-End de Conformidade de Chat Persistente (opcional) pode armazenar o conteúdo de chats e eventos de conformidade para fins de conformidade.
 
@@ -239,7 +239,7 @@ Esta é a área com diferenças reais entre implantações de servidor da ediç�
 Como o SQL Server Express é posicionado no servidor Standard Edition e não pode ser movido, isso é bem simples. Além disso, se você implantar o servidor de chat persistente em um servidor Standard Edition, também será possível colocar o chat persistente e o banco de dados de conformidade de chat persistente no servidor Standard Edition, mas você não precisa.
 
     > [!NOTE]
-    > Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Journey from Skype for Business to Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015.
+    > Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015.
 
 Elas não podem ser posicionadas no servidor Standard Edition, mas podem ficar em um único servidor de banco de dados próprio:
 
@@ -272,7 +272,7 @@ Agora, há algumas regras adicionais a serem seguidas ao posicionar bancos de da
 - O servidor de banco de dados não pode dar suporte a mais de um pool de front-end da Enterprise Edition, um servidor executando o arquivamento, um servidor com monitoramento, um único banco de dados persistente de chat e um único banco de dados de conformidade de chat persistente, mas ele pode dar suporte a um de cada, Não importa se os bancos de dados usam a mesma instância do SQL Server ou instâncias separadas do SQL Server.
 
     > [!NOTE]
-    > O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [jornada do Skype for Business para o Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015.
+    > O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [introdução à atualização do Microsoft Teams](/microsoftteams/upgrade-start-here). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015.
 
 ### <a name="file-shares"></a>Compartilhamentos de arquivo
 

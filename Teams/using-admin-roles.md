@@ -13,12 +13,12 @@ ms.reviewer: islubin
 description: Saiba como usar as diferentes funções administrativas para gerenciar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a3daac0708a4e841b3619ba5104cb0ef85daf29
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 6a4753fd90a687a176bb9145d4c216adc0453bce
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221213"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417978"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Usar funções de administrador do Microsoft Teams para gerenciar equipes
 
@@ -27,6 +27,8 @@ Usando o Active Directory do Azure (Azure AD), você pode designar administrador
 ## <a name="teams-roles-and-capabilities"></a>Funções e recursos do teams
 
 Há quatro funções de administração de equipes disponíveis: administrador de serviços do Teams, administrador de comunicações do Teams, especialista de suporte de comunicações de equipe e engenheiro de suporte de comunicações de equipe. Revise a tabela a seguir para entender o que cada função pode fazer e quais ferramentas o administrador pode usar no centro de administração do Microsoft Teams e no PowerShell.
+
+
 
 <!-- add Global admin role? -->
 
@@ -53,7 +55,9 @@ Você pode atribuir usuários a essas funções no Azure AD. Para saber como atr
 
 ## <a name="cmdlets-available-for-each-role"></a>Cmdlets disponíveis para cada função
 
-A maioria das ferramentas do PowerShell para essas funções de administração residem no módulo do PowerShell do Skype for Business, e é importante observar que alguns cmdlets que essas funções de administrador têm acesso para controlar as configurações compartilhadas que também são usadas para o Skype for Business online. Para ver a lista completa de cmdlets disponíveis atualmente para uma determinada função no módulo do PowerShell do Skype for Business, siga estas etapas:
+A maioria das ferramentas do PowerShell para essas funções de administração residem no módulo do PowerShell do Skype for Business, e é importante observar que alguns cmdlets que essas funções de administrador têm acesso para controlar as configurações compartilhadas que também são usadas para o Skype for Business online. A função de administrador do Skype for Business também tem acesso a todos os cmdlets do módulo PowerShell do Skype for Business.
+
+Para ver a lista completa de cmdlets disponíveis atualmente para uma determinada função no módulo do PowerShell do Skype for Business, siga estas etapas:
 
 1. Atribua essa função a um usuário (e certifique-se de que o usuário não tenha outras funções).
 2. Conecte-se ao módulo do PowerShell do Skype for Business:<br>

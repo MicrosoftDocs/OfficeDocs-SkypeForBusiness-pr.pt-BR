@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 'Resumo: saiba como configurar o serviço de conformidade do servidor de chat persistente no Skype for Business Server 2015.'
-ms.openlocfilehash: 81fcd9281efa0e897074ea154e9ae29a81aeb854
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 95418a814ac8f4796fbde561c90c5ac051c54725
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279309"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418695"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configurar o serviço de Conformidade para o Servidor de Chat Persistente no Skype for Business Server 2015
 
@@ -39,7 +39,7 @@ A conformidade de Chat Persistente permite que os administradores mantenham um u
 Essas informações podem ser recuperadas do banco de dados SQL de Conformidade, se necessário. 
 
 > [!NOTE]
-> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [jornada do Skype for Business para o Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015. 
+> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [introdução à atualização do Microsoft Teams](/microsoftteams/upgrade-start-here). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015. 
 
 ## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>Configure o serviço de Conformidade usando o Windows PowerShell
 

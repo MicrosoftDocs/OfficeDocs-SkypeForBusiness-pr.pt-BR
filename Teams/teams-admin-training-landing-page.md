@@ -1,7 +1,7 @@
 ---
 title: Treinamento para o administrador do Microsoft Teams
 ms.reviewer: ''
-description: Obtenha o treinamento que você precisa gerenciar Teams da Microsoft em sua organização
+description: Obter o treinamento necessário para gerenciar o Microsoft Teams em sua organização
 author: lanachin
 manager: serdars
 ms.date: 01/22/2018
@@ -15,16 +15,16 @@ ms.collection:
 - Teams_ITAdmin_Training
 ms.topic: landing-page
 ms.author: v-lanac
-ms.openlocfilehash: 5100186b7ca73ea9ef18c7aed75f6291efbb1505
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 40c17d17408f0359ba54204d363234d0b5d91e49
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896238"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417834"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Treinamento para o administrador do Microsoft Teams
 
-Saiba como gerenciar equipes para sua organização.
+Saiba como gerenciar o Microsoft Teams para sua organização.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -38,7 +38,7 @@ Saiba como gerenciar equipes para sua organização.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>NOVIDADE: De treinamento ministrado por instrutor para equipes</h3>
+                        <h3>NOVO: treinamento ministrado por instrutor para equipes</h3>
                     </div>
                 </div>
             </div>
@@ -100,7 +100,7 @@ Saiba como gerenciar equipes para sua organização.
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -134,7 +134,7 @@ Saiba como gerenciar equipes para sua organização.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Artigos</h3>
+                        <h3>Sobre</h3>
                         <p><a 
                         href="/SkypeForBusiness/what-is-phone-system-in-office-365/setting-up-your-phone-system">Configurar o Sistema de Telefonia na sua organização</a></p>
                         <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">Integração de terceiros com a Audioconferência</a></p>

@@ -15,12 +15,12 @@ MS.collection:
 description: Saiba como usar o relatório de atividade de usuários do teams no centro de administração do Microsoft Teams para ver como os usuários em sua organização estão usando o Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00e54fe7f5d0f03058ac0814db38408226294783
-ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
+ms.openlocfilehash: b1d152657dc658e6b10da5da3147dd4a695383b7
+ms.sourcegitcommit: 5791b98589e64df2e2bcd96f05fd2f869a65861f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/26/2019
-ms.locfileid: "35253806"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35420040"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Relatório de atividades do usuário do Microsoft Teams
 
@@ -43,11 +43,9 @@ O relatório de atividade de usuários do teams fornece informações sobre os t
 |**2**   |Cada relatório tem uma data de geração. O relatório geralmente reflete um período de latência de atividade de 24 a 48 horas. |
 |**3**   |<ul><li>O eixo X nos gráficos é o intervalo de datas selecionado para o relatório específico. </li><li>O eixo Y é o número de usuários que participam da atividade.</li></ul>Passe o mouse sobre o ponto que representa uma atividade em uma determinada data para ver o número de ocorrências dessa atividade nessa determinada data. |
 |**4**   |Você pode filtrar o que se vê no gráfico clicando em um item na legenda. Por exemplo, clique em **1:1 chamadas**, **mensagens de canal**ou mensagens de **chat** para ver apenas as informações relacionadas a cada uma delas. Alterar a seleção não altera as informações na tabela. |
-|**5**   |A tabela oferece uma divisão de uso por usuário.   <ul><li>**Nome para exibição** é o nome de exibição do usuário. Você pode clicar no nome para exibição para acessar a página de configuração do usuário no centro de administração do Microsoft Teams.</li><li>**chamadas 1:1** é o número de chamadas do 1:1 nas quais o usuário participou durante o período especificado.</li><li>**Mensagens de canal** é o número de mensagens exclusivas que o usuário publicou em um chat de equipe durante o período de tempo especificado.</li> <li>**Mensagens de chat** é o número de mensagens exclusivas que o usuário publicou em um chat particular durante o período de tempo especificado.</li>  <li>**Última atividade** é a última data (UTC) que o usuário participou em uma atividade do teams.</li> </ul>Para ver as informações desejadas na tabela, certifique-se de adicionar as colunas à tabela.
+|**5**   |A tabela oferece uma divisão de uso por usuário.   <ul><li>**Nome para exibição** é o nome de exibição do usuário. Você pode clicar no nome para exibição para acessar a página de configuração do usuário no centro de administração do Microsoft Teams.</li><li>**chamadas 1:1** é o número de chamadas do 1:1 nas quais o usuário participou durante o período especificado.</li><li>**Mensagens de canal** é o número de mensagens exclusivas que o usuário publicou em um chat de equipe durante o período de tempo especificado.</li> <li>**Mensagens de chat** é o número de mensagens exclusivas que o usuário publicou em um chat particular durante o período de tempo especificado.</li>  <li>**Última atividade** é a última data (UTC) que o usuário participou em uma atividade do teams.</li> </ul>Observe que, se uma conta de usuário não existir mais no Azure AD, o nome de usuário será exibido como "--" na tabela. <br><br>Para ver as informações desejadas na tabela, certifique-se de adicionar as colunas à tabela.
 |**6**   |Selecione **Editar colunas** para adicionar ou remover colunas na tabela. |
 |**7**   |Você pode exportar o relatório para um arquivo CSV para análise offline. Clique em **exportar para o Excel**e, na guia **downloads** , clique em **baixar** para baixar o relatório quando ele estiver pronto.<br>![Captura de tela da guia downloads mostrando relatórios exportados para download](../media/teams-reports-export-to-csv.png) <br>Ao exibir o relatório no Excel, você também verá uma coluna de **identificação** , que representa a ID da equipe. Uma ID de equipe geralmente é uma cadeia de caracteres alfanumérica. Se a coluna **ID** aparecer como **\n**, isso significará que um usuário solicitou as informações a serem excluídas. ||
 
 ## <a name="related-topics"></a>Tópicos relacionados
 - [Análises e relatórios do Teams](teams-reporting-reference.md)
-- [Relatório de uso do Teams](teams-usage-report.md)
-- [Relatório de uso de dispositivos do Teams](device-usage-report.md)

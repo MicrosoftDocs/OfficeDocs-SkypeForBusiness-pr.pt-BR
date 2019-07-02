@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: Este artigo resume os requisitos para dar suporte a salas do Microsoft Teams.
-ms.openlocfilehash: d87d21c7b0111b4825f01b71a266e209edc2bccc
-ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
+ms.openlocfilehash: 44f077bde6ec767b3897b25bfe8d0cbf05b6ac37
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35203989"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418213"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de salas do Microsoft Teams
 
@@ -53,24 +53,28 @@ As salas do Microsoft Teams podem ser dimensionadas para diferentes tamanhos de 
 
 - Uma das opções de Docking Station a seguir para proteger um tablet para a tabela de salas de reunião. 
 
-  - [Logitech SmartDock](https://partnersolutions.skypeforbusiness.com/solutionscatalog/all/logitech-smart-dock)
+  - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
 
   - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
 
   - [Série MSR Polycom](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
 
-**Consoles compatíveis**
+**Outros consoles de sala do Microsoft Teams com suporte**
 
-|Console|631|RAM|Disco|Versão do firmware|
-|:-----|:-----|:-----|:-----|:----|
-|[Crestron Flex M150](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Core i7|DIMM |GB|1.0.16.490|
-|[Fatia HP elite para salas de reunião G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5  |DIMM  |GB  | |
-|[Áudio G2 da fatia HP elite pronto para salas do Microsoft Teams](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |DIMM |GB | |
-|[Hub ThinkSmart Hub do Lenovo 500](https://www3.lenovo.com/us/en/hub500) |Core i5  |DIMM  |GB  |  |
-|[Controlador de toque do Logitech Touch para salas de reunião de vídeo](https://www.logitech.com/en-us/product/tap) |Core i5  |DIMM  |240GB  |  |
-|[Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|DIMM|GB|Áudio-92.10.0.15</br>Vídeo-92.10.0.15|
-|
+|Console|631|RAM|Disco|
+|:-----|:-----|:-----|:-----|
+|[Crestron Flex M150](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Core i7|DIMM |GB|
+|[Crestron Flex-M150-T](https://crestron.com/en-US/Products/Workspace-Solutions/All-In-One-Meeting-Solutions/Crestron-Mercury-Accessories/CCS-UC-1-T)|Core i7|DIMM |GB |
+[Crestron Flex-B160-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|DIMM |GB|
+|[Fatia HP elite para salas de reunião G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5  |DIMM  |GB  | 
+|[Áudio G2 da fatia HP elite pronto para salas do Microsoft Teams](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |DIMM |GB | 
+|[Hub ThinkSmart Hub do Lenovo 500](https://www3.lenovo.com/us/en/hub500) |Core i5  |DIMM  |GB  |  
+|[Logitech Tap + NUC](https://www.logitech.com/en-us/product/tap?crid=1691)|Core i5|DIMM |GB |
+|[Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|DIMM|GB|
+|[Controlador de toque do Logitech Touch para salas de reunião de vídeo](https://www.logitech.com/en-us/product/tap) |Core i5  |DIMM  |240GB  |  
+|||||
+
 > [!NOTE]
 > Não há suporte para os processadores Core m3.
 

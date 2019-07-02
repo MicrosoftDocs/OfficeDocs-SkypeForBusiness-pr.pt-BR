@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
 description: 'Resumo: Leia este tópico para saber como criar políticas iniciais de usuário para o servidor de chat persistente no Skype for Business Server 2015. Políticas de usuário de chat persistente determinam se os usuários podem ou não acesso a salas de chat.'
-ms.openlocfilehash: 7c73b34f418946dda76302c0ee2abb18125e6f07
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3f2a55f3a411fc3020ebe9af57d456f00dd74ef4
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34273851"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418119"
 ---
 # <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>Configurar políticas de usuário de Chat Persistente no Skype for Business Server 2015
  
@@ -35,7 +35,7 @@ Este tópico inclui as seguintes seções:
 - Aplicar uma política a um usuário ou grupo de usuários
     
 > [!NOTE] 
-> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [jornada do Skype for Business para o Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015.
+> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [introdução à atualização do Microsoft Teams](/microsoftteams/upgrade-start-here). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015.
 
 ## <a name="configure-the-global-policy"></a>Configurar a política global
 

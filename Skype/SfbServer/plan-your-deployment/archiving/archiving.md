@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9f0dcf7-66b4-4196-9e8c-b14721b1fb84
 description: 'Resumo: Leia este tópico para saber como planejar o arquivamento no Skype for Business Server.'
-ms.openlocfilehash: 4bbe6b5bd8eb9e5e56bfdea6f8a4187a6d14b231
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9d24457d8345aa6b496489b68347a98c069abc69
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277598"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417871"
 ---
 # <a name="plan-for-archiving-in-skype-for-business-server"></a>Planejar o arquivamento no Skype for Business Server
  
@@ -69,7 +69,7 @@ Para implementar o arquivamento, você precisa decidir como atender os requisito
     O Skype for Business Server também não arquiva conversas persistentes de chat. Para arquivar conversas de chat persistentes, você deve habilitar e configurar o serviço de conformidade, que é um componente que pode ser implantado com o servidor de chat persistente. Para obter detalhes, consulte [plano para servidor de chat persistente no Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md).
 
     > [!NOTE] 
-    > O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [jornada do Skype for Business para o Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015. 
+    > O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [introdução à atualização do Microsoft Teams](/microsoftteams/upgrade-start-here). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015. 
     
 - Por quanto **tempo os materiais arquivados devem ser mantidos**. O banco de dados de arquivamento não se destina à retenção de longo prazo, e o Skype for Business Server não fornece uma solução de descoberta eletrônica (pesquisa) para dados arquivados, portanto, os dados precisam ser movidos para outro armazenamento. O Skype for Business Server oferece uma ferramenta de exportação de sessão que você pode usar para exportar dados arquivados e que cria transcrições pesquisáveis dos dados arquivados. 
     

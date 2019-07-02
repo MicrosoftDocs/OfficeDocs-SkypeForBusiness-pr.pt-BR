@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: 'Resumo: Leia este tópico para saber como configurar a alta disponibilidade e a recuperação de desastres para o servidor de chat persistente no Skype for Business Server 2015.'
-ms.openlocfilehash: 152797229dc02bfcd1991a9ac6f67370c9154593
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 813ea29d8ea8b75c866e12c056b40e237173922c
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282291"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418164"
 ---
 # <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configurar a alta disponibilidade e a recuperação de desastres para o Servidor de Chat Persistente no Skype for Business Server 2015
  
@@ -28,7 +28,7 @@ O Skype for Business Server oferece suporte a vários modos de alta disponibilid
 > Os grupos de disponibilidade AlwaysOn não são compatíveis com servidores de chat persistentes. 
 
 > [!NOTE] 
-> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [jornada do Skype for Business para o Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015.
+> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [introdução à atualização do Microsoft Teams](/microsoftteams/upgrade-start-here). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015.
   
 Antes de configurar a implantação de chat persistente para alta disponibilidade e recuperação de desastres, certifique-se de que você esteja familiarizado com os conceitos do [plano para alta disponibilidade e recuperação de desastres para servidor de chat persistente no Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md). A solução de recuperação de desastres para servidor de chat persistente descrito nestes tópicos foi criada em um pool de servidores de chat persistentes ampliados. O conteúdo de planejamento descreve os requisitos do recurso e a topologia de pool ampliada que permite alta disponibilidade e recuperação de desastre para o servidor de chat persistente, incluindo o uso do espelhamento do SQL Server para alta disponibilidade e envio de log do SQL Server para recuperação de desastres.
   

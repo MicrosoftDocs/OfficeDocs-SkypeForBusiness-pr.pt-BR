@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 'Resumo: saiba como gerenciar categorias de servidor de chat persistente no Skype for Business Server 2015.'
-ms.openlocfilehash: 55cd4ef7e89e85bb78c061b05c612d6703c34221
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8a8e8060db896a272293df3259091d4f7667a7d3
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279351"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417936"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Gerenciar categorias no Servidor de Chat Persistente no Skype for Business Server 2015
  
@@ -39,7 +39,7 @@ Antes de configurar categorias, certifique-se de ler as [categorias de chat pers
 Você pode configurar e gerenciar categorias usando o Painel de Controle ou por meio dos cmdlets do Windows PowerShell.
 
 > [!NOTE]
-> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [jornada do Skype for Business para o Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015. 
+> O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [introdução à atualização do Microsoft Teams](/microsoftteams/upgrade-start-here). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015. 
   
 ## <a name="configure-categories-by-using-the-control-panel"></a>Configurar categorias usando o Painel de Controle
 
