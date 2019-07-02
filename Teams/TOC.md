@@ -89,7 +89,7 @@
 ## [Planejar sua implantação](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Reuniões no Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Gerenciar políticas de reunião](meeting-policies-in-teams.md)
-## [Gerenciar configurações de reuniões](meeting-settings-in-teams.md
+## [Gerenciar configurações de reuniões](meeting-settings-in-teams.md)
 ## [Emails enviados para os usuários quando suas configurações são alteradas](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Permitir que os usuários gravem seus nomes ao ingressar em uma reunião](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Ativar ou desativar os anúncios de entrada e de saída para reuniões](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
@@ -332,6 +332,7 @@
 
 ### Referência técnica do Roteamento direto
 #### [Failover de tronco em chamadas de saída](direct-routing-trunk-failover-on-outbound-call.md)
+#### [Códigos do país do caminho da mídia](direct-routing-country-codes.md)
 
 ## Telefones
 ### [Gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
@@ -630,7 +631,8 @@
 # 
 # 
 
-# [Expandir o Teams em sua organização](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
+# Diretrizes governamentais e de indústrias
+## [Visão geral](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
 ## [Introdução aos modelos do Teams](get-started-with-teams-templates.md)
 ## [Turnos do Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [O Microsoft StaffHub será desativado](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
@@ -666,16 +668,45 @@
 
 <!-- ============================================================ -->
 
-# 
-# 
+# Diretrizes para pequenas e médias empresas
+## [Modelos do Teams para pequenas e médias empresas](smb-templates.md)
+#    
+#    
 
 <!-- ============================================================ -->
 
+# Segurança e conformidade
+## [Visão geral](security-compliance-overview.md)
+## [Barreiras de informações do Teams](information-barriers-in-teams.md)
+## [Conduzir uma investigação eDiscovery de conteúdo no Teams](ediscovery-investigation.md)
+## [Modelos de identidade e autenticação no Microsoft Teams](identify-models-authentication.md)
+## [Entrar no Teams usando a autenticação moderna](sign-in-teams.md)
+## [Colocar um usuário ou uma equipe do Teams em retenção legal](legal-hold.md)
+## [Pesquisar o registro de auditoria de eventos no Teams](audit-log-events.md)
+## [Usar a pesquisa de conteúdo no Teams](content-search.md)
+## [Políticas de controle de aplicativos do AppLocker no Teams](applocker-in-teams.md)
+## Políticas de retenção no Teams
+### [Visão geral](retention-policies.md)
+### [Perguntas frequentes sobre as políticas de retenção](retention-policies-FAQ.md)
+### [Problemas conhecidos das políticas de retenção](retention-policies-known-issues.md)
+## [Localização dos dados no Teams](location-of-data-in-teams.md)
+## [Declaração de acessibilidade de conformidade na França para o Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
+## [Soluções de acessibilidade para o Skype for Business Online e o Microsoft Teams](accessibility-solutions-in-france.md)
+##  [Planos de chamadas no Office 365 - Código de práticas do Reino Unido](code-of-practice-for-the-united-kingdom-u-k.md)
+##  [Planos de chamada no Office 365 - Manipulação de reclamações do código do Reino Unido](complaint-handling-code-for-the-united-kingdom-u-k.md)
+## [Práticas de coleta de dados](data-collection-practices.md)
+## [Termos e condições da chamada de emergência](emergency-calling-terms-and-conditions.md)
+
+
+<!-- ============================================================ -->
+#       
+#        
 # [Treinamento](training-microsoft-teams-landing-page.md)
 ## [Treinamento do Teams com instrutor](instructor-led-training-teams-landing-page.md)
 ## [Treinamento para o administrador do Teams](itadmin-readiness.md)
 ## [Treinamento para o usuário final do Teams](enduser-training.md)
 <!-- ============================================================ -->
+
 
 
 # Referência
@@ -743,27 +774,6 @@
 ### [Telefones IP certificados para o Microsoft Teams](teams-ip-phones.md)
 ### [Telefones para o Skype for Business Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
-## Segurança e conformidade
-### [Visão geral](security-compliance-overview.md)
-### [Barreiras de informações do Teams](information-barriers-in-teams.md)
-### [Conduzir uma investigação eDiscovery de conteúdo no Teams](ediscovery-investigation.md)
-### [Modelos de identidade e autenticação no Microsoft Teams](identify-models-authentication.md)
-### [Entrar no Teams usando a autenticação moderna](sign-in-teams.md)
-### [Colocar um usuário ou uma equipe do Teams em retenção legal](legal-hold.md)
-### [Pesquisar o registro de auditoria de eventos no Teams](audit-log-events.md)
-### [Usar a pesquisa de conteúdo no Teams](content-search.md)
-### [Políticas de controle de aplicativos do AppLocker no Teams](applocker-in-teams.md)
-### Políticas de retenção no Teams
-#### [Visão geral](retention-policies.md)
-#### [Perguntas frequentes sobre as políticas de retenção](retention-policies-FAQ.md)
-#### [Problemas conhecidos das políticas de retenção](retention-policies-known-issues.md)
-### [Localização dos dados no Teams](location-of-data-in-teams.md)
-### [Declaração de acessibilidade de conformidade na França para o Microsoft Teams](accessibility-declaration-of-conformance-in-france-for-teams.md)
-### [Soluções de acessibilidade para o Skype for Business Online e o Microsoft Teams](accessibility-solutions-in-france.md)
-###  [Planos de chamadas no Office 365 - Código de práticas do Reino Unido](code-of-practice-for-the-united-kingdom-u-k.md)
-###  [Planos de chamada no Office 365 - Manipulação de reclamações do código do Reino Unido](complaint-handling-code-for-the-united-kingdom-u-k.md)
-### [Práticas de coleta de dados](data-collection-practices.md)
-### [Termos e condições da chamada de emergência](emergency-calling-terms-and-conditions.md)
 
 
 ## Solucionar problemas e suporte
