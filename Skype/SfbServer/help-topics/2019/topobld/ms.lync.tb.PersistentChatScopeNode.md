@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 35dfc16f-7190-4993-9d4a-e0262bf35166
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para começar a criação de um novo servidor de chat persistente ou pool de servidor de chat persistente, no construtor de topologia, clique com o botão direito do mouse em pools de chat persistente e selecione novo pool de chat persistente
-ms.openlocfilehash: 9651e5030b80d740514febd412f8a478ba4b533c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 791e63e483d02cde436879a3f804a07333e5b6eb
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302228"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418744"
 ---
-# <a name="persistent-chat-scope-node"></a><span data-ttu-id="b3968-103">Nó de Escopo de Chat Persistente</span><span class="sxs-lookup"><span data-stu-id="b3968-103">Persistent Chat Scope Node</span></span>
+# <a name="persistent-chat-scope-node"></a><span data-ttu-id="4d014-103">Nó de Escopo de Chat Persistente</span><span class="sxs-lookup"><span data-stu-id="4d014-103">Persistent Chat Scope Node</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="b3968-104">O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="b3968-104">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="b3968-105">A mesma funcionalidade está disponível no Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="b3968-105">The same functionality is available in Teams.</span></span> <span data-ttu-id="b3968-106">Para obter mais informações, consulte [atualização do Skype for Business para o Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span><span class="sxs-lookup"><span data-stu-id="b3968-106">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span></span> <span data-ttu-id="b3968-107">Se você precisar usar chats persistentes, suas opções serão migrar usuários que exigem essa funcionalidade para o Microsoft Teams ou continuar usando o Skype for Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="b3968-107">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>
+> <span data-ttu-id="4d014-104">O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="4d014-104">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="4d014-105">A mesma funcionalidade está disponível no Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="4d014-105">The same functionality is available in Teams.</span></span> <span data-ttu-id="4d014-106">Para obter mais informações, consulte [atualização do Skype for Business para o Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here).</span><span class="sxs-lookup"><span data-stu-id="4d014-106">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here).</span></span> <span data-ttu-id="4d014-107">Se você precisar usar chats persistentes, suas opções serão migrar usuários que exigem essa funcionalidade para o Microsoft Teams ou continuar usando o Skype for Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="4d014-107">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>

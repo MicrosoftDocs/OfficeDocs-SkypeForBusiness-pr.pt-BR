@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
 ROBOTS: NOINDEX, NOFOLLOW
 description: Os membros da função CsPersistentChatAdministrator (administradores de chat persistente) podem conceder direitos e permissões do Gerenciador de sala de chat a outros usuários e a eles mesmos.
-ms.openlocfilehash: 9ae973cf374f789c6c2c7ad5c6887a76a8e9f61b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 400872283ee6bb57b5549d9c943ede774873a81c
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293748"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418206"
 ---
-# <a name="users-view-persistent-chat"></a><span data-ttu-id="6ebee-103">Os usuários visualizam o chat persistente</span><span class="sxs-lookup"><span data-stu-id="6ebee-103">Users View Persistent Chat</span></span>
+# <a name="users-view-persistent-chat"></a><span data-ttu-id="13d2b-103">Os usuários visualizam o chat persistente</span><span class="sxs-lookup"><span data-stu-id="13d2b-103">Users View Persistent Chat</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="6ebee-104">O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="6ebee-104">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="6ebee-105">A mesma funcionalidade está disponível no Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="6ebee-105">The same functionality is available in Teams.</span></span> <span data-ttu-id="6ebee-106">Para obter mais informações, consulte [atualização do Skype for Business para o Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span><span class="sxs-lookup"><span data-stu-id="6ebee-106">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span></span> <span data-ttu-id="6ebee-107">Se você precisar usar chats persistentes, suas opções serão migrar usuários que exigem essa funcionalidade para o Microsoft Teams ou continuar usando o Skype for Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="6ebee-107">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>
+> <span data-ttu-id="13d2b-104">O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="13d2b-104">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="13d2b-105">A mesma funcionalidade está disponível no Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="13d2b-105">The same functionality is available in Teams.</span></span> <span data-ttu-id="13d2b-106">Para obter mais informações, consulte [atualização do Skype for Business para o Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here).</span><span class="sxs-lookup"><span data-stu-id="13d2b-106">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here).</span></span> <span data-ttu-id="13d2b-107">Se você precisar usar chats persistentes, suas opções serão migrar usuários que exigem essa funcionalidade para o Microsoft Teams ou continuar usando o Skype for Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="13d2b-107">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>
