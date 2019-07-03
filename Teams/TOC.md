@@ -97,6 +97,7 @@
 ## [Configurar o compartilhamento da área de trabalho no Teams](configure-desktop-sharing.md)
 ## [Gravação de reuniões na nuvem do Microsoft Teams](cloud-recording.md)
 ## [Usar o suplemento de Reunião do Teams no Outlook](teams-add-in-for-outlook.md)
+## [Configurar o recurso Telefonar para Mim para os usuários](set-up-the-call-me-feature-for-your-users.md)
 ## [Configurando o Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Salas do Microsoft Teams](room-systems/index.md)
 ## [Gerencie o quadro de comunicações no Teams](manage-whiteboard.md)
