@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Aprender a habilitar ou desabilitar chamadores anônimos para ingressar em uma reunião a partir do centro de administração Skype for Business ou usando um script do PowerShell. '
-ms.openlocfilehash: af62ed29ed2bbe835ab811651152b231a85caaf8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 146a23c35bca8e313f193dbd1407990fc8c6a788
+ms.sourcegitcommit: 868db85f0126e8f56d711ea590ad44acce8f96f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302765"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "35535862"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-skype-for-business-online"></a>Iniciar uma audioconferência por telefone sem um PIN no Skype for Business Online
 
@@ -65,13 +65,13 @@ A PIN isn't required for the meeting organizer if someone has started the meetin
 
 - Se você quiser redefinir o PIN, consulte [redefinir o PIN de audioconferência](reset-the-audio-conferencing-pin.md).
     
-- Se o acesso anônimo ou não exigir um PIN para iniciar uma reunião estiver habilitado:
+- Se o acesso anônimo ou não exigir um PIN para iniciar uma reunião estiver desabilitado:
     
   - Se a reunião ainda não tiver começado (ainda não existe uma na reunião): uma chamada será solicitada se for o organizador; Se ele disser sim, ele receberá o seu PIN e, depois dele receber o PIN, a reunião será iniciada e o usuário ingressará na reunião.
     
   - Se a reunião já iniciou (alguém já está na reunião): Não será perguntado a um chamador se ele é o organizador e nunca lhe será solicitado o PIN; a reunião já estará iniciada, e o chamador ingressará.
     
-- Se o acesso anônimo ou não exigir um PIN para iniciar uma reunião estiver desabilitado:
+- Se o acesso anônimo ou não exigir um PIN para iniciar uma reunião estiver habilitado:
     
   - If the meeting hasn't started (there's no one in the meeting yet): A caller won't be prompted if she's the organizer, and she'll never be prompted for the PIN. Because the setting of the organizer is set to off, the meeting will start and the anonymous callers will join the meeting.
     
