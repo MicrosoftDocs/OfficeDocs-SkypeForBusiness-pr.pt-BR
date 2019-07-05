@@ -15,22 +15,18 @@ search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b917183eeaaa4aed0a0f39474b3da42feab06f6b
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 5933489b2b356ad8f44163c4f1d3d6ab4fa0b5dd
+ms.sourcegitcommit: d955406a55cdc4c7abb193f1af90ebd4913c47bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35222073"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "35541060"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
 Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recurso.
 
 ## <a name="administration"></a>Administração
-
-|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|    
-|:-----|:-----|:-----|:-----|
-|Departamento de Conta de Recursos configurado incorretamente <br/> |Contas de recursos associadas a um atendedor automático ou filas de chamadas criadas antes de janeiro de 2019 podem não ter o parâmetro Departmento configurado corretamente, o que pode fazer com que uma atribuição de número de telefone falhe. Uma correção está sendo criada para resolver esse problema. <br/><br/> As Contas de Recurso configuradas usando New-CsHybridApplicationEndpoint com o Skype for Business Server não terão o conjunto de parâmetros do Departamento corretamente, o que causará a falha da criação da conta do recurso no Skype for Business online. Nesse caso, você precisa configurar o nome do departamento no Active Directory antes de sincronizá-lo online.|Para atenuar esse problema, você pode executar o seguinte cmdlet para configurar o parâmetro de departamento. Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Instância do aplicativo de comunicação da Microsoft" <br/> |08/05/19 <br/> |
 
 
 
@@ -226,6 +222,35 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |Fotos de perfil de usuário  <br/> | No momento, o Microsoft Teams não tem um mecanismo para impedir que os usuários alterem fotos. A equipe do BTS reuniu-se com a equipe de desenvolvimento, que apresentou o seguinte para consideração: Recurso 108874: Política de TI para desabilitar o upload de Foto de Perfil   <br/> | Se você tiver clientes que gostariam de evitar o upload de Foto de Perfil no Microsoft Teams, peça que eles votem e adicionem seu caso comercial aos comentários aqui: https://microsoftteams.uservoice.com/forums/555103-public/suggestions/18600505-disable-user-ability-to-change-profile-photos <br/> |01/03/2017 <br/> |
+
+
+
+## <a name="phone-system"></a>Sistema Telefônico
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Departamento de Conta de Recursos configurado incorretamente <br/> |Contas de recursos associadas a um atendedor automático ou filas de chamadas criadas antes de janeiro de 2019 podem não ter o parâmetro Departmento configurado corretamente, o que pode fazer com que uma atribuição de número de telefone falhe. Uma correção está sendo criada para resolver esse problema. <br/><br/> As Contas de Recurso configuradas usando New-CsHybridApplicationEndpoint com o Skype for Business Server não terão o conjunto de parâmetros do Departamento corretamente, o que causará a falha da criação da conta do recurso no Skype for Business online. Nesse caso, você precisa configurar o nome do departamento no Active Directory antes de sincronizá-lo online.|Para atenuar esse problema, você pode executar o seguinte cmdlet para configurar o parâmetro de departamento. Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Instância do aplicativo de comunicação da Microsoft" <br/> |08/05/19 <br/> |
+
+
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Atraso de sincronização de contas de recursos|Não é possível atribuir um número de telefone à conta do recurso ou você receberá a mensagem de erro "a seguinte instância do aplicativo não está presente no BVD."|Permita 24 horas por sincronização. Se já tiver decorrido 24 horas, remova a atribuição do número de telefone, elimine a conta do recurso e crie uma nova com um nome diferente.|18/5/2019|
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Não é possível atribuir um número de serviço gratuito do centro de administração do Teams|Ao tentar atribuir um número de serviço gratuito no centro de administração do Teams, você receberá a mensagem de erro "você precisa de uma licença do sistema de telefone".|Ao invés, use cmdlets do PowerShell para atribuir um número de serviço gratuito.|18/5/2019|
+
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Conta de recurso corrompida|Conta do recurso não funciona|Remover ou substituir a licença de uma conta de recurso ou criar uma nova conta de recurso com o mesmo URI do SIP como uma anteriormente excluída resultará em uma conta de recurso corrompida.|18/5/2019|
+
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Número de telefone bloqueado|Número de telefone bloqueado: Excluir a conta do recurso antes de remover o número de telefone bloqueará o número de telefone.|Contate o suporte da Microsoft para liberar o número de telefone.|18/5/2019|
+
 
 ## <a name="provisioning"></a>Provisionamento
 
