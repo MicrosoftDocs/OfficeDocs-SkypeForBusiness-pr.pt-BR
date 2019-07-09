@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Saiba como obter novos, portar ou transferir números existentes para o Microsoft Teams e como mostrar as alterações aos seus usuários. '
-ms.openlocfilehash: 59c5fc176f29a7fd12628d1778af6112afee0c84
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: c9cf47abe056e98fdc1ee92d520ba52675216430
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347920"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588211"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obter números de telefone para seus usuários
 
@@ -64,7 +64,7 @@ Há três maneiras de obter números de usuário:
   
 - Se precisar de 999 ou menos números de telefone para seus usuários, você poderá usar o portal herdado no centro de administração do Microsoft Teams. Siga as etapas em [transferir números de telefone para o Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) para transferir seus números de telefone para o Microsoft Teams.
     
-- Se você precisar portar mais de 999 números de telefone, consulte [Enviar manualmente uma solicitação de serviço personalizada](/skypeforbusiness/manually-submit-a-custom-service-request) para enviar uma solicitação de serviço de pedido de portabilidade ou para obter todos esses números de telefone portados para o Office 365.
+- Se você precisar portar mais de 999 números de telefone, consulte [Gerenciar solicitações de serviço no Service Manager](https://docs.microsoft.com/system-center/scsm/service-requests) para enviar uma solicitação de serviço de pedido de portabilidade ou para obter todos esses números de telefone portados para o Office 365.
     
 ## <a name="show-phone-numbers-for-your-organization"></a>Exibir os números de telefone de sua empresa
 

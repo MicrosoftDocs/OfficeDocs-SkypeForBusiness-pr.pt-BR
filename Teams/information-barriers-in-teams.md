@@ -1,9 +1,9 @@
 ---
-title: Barreiras de informações na visualização do Microsoft Teams
+title: Barreiras de informação no Microsoft Teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
-ms.date: 07/01/2019
+ms.date: 07/08/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -12,16 +12,14 @@ ms.reviewer: vikramju
 description: Saiba mais sobre barreiras de informação e como elas afetam o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a9c896e7131dfcd1a510a39712759fd8143fe3f
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 5a739130c399012e49522dcf3f88473fb6f85e5c
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418284"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588123"
 ---
-# <a name="information-barriers-in-microsoft-teams-preview"></a>Barreiras de informações na visualização do Microsoft Teams
-
-> [!INCLUDE [Preview feature](includes/preview-feature.md)]
+# <a name="information-barriers-in-microsoft-teams"></a>Barreiras de informação no Microsoft Teams
 
 Barreiras de informação são políticas que um administrador pode configurar para impedir que pessoas ou grupos se comuniquem uns com os outros. Isso é útil se, por exemplo, um departamento estiver manipulando informações que não devem ser compartilhadas com outros departamentos, ou se um grupo precisar ser impedido, ou isolado, de comunicar-se com qualquer pessoa fora do grupo.
 
@@ -47,14 +45,14 @@ O serviço de avaliação da política de barreira de informações determina se
 
 ## <a name="managing-information-barrier-policies"></a>Gerenciar políticas de barreira de informações
 
-As políticas de barreira de informações são gerenciadas com cmdlets do PowerShell do centro de conformidade do & Security (SCC). Para obter mais informações sobre como usar esses cmdlets, consulte [definir políticas para barreiras de informação (visualização)](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
+As políticas de barreira de informações são gerenciadas no centro de conformidade do & de segurança do Office 365 (SCC) usando cmdlets do PowerShell. Para obter mais informações, consulte [definir políticas para barreiras de informação](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
 > [!IMPORTANT]
-> Antes de configurar ou definir políticas, **você deve habilitar a pesquisa de diretório em escopo no Microsoft Teams**. Aguarde pelo menos 24 horas depois de habilitar a pesquisa de diretório de escopo antes de configurar ou definir políticas para barreiras de informação.
+> Antes de configurar ou definir políticas, **você deve habilitar a pesquisa de diretório em escopo no Microsoft Teams**. Aguarde pelo menos 24 horas depois de habilitar a pesquisa de diretório de escopo antes de configurar ou definir políticas para barreiras de informação. [Saiba mais sobre pré-requisitos para barreiras de informação](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites).
 
 ## <a name="information-barriers-administrator-role"></a>Função de administrador de barreiras de informações
 
-A função de administrador de barreiras de informação (gerenciamento de conformidade da IB) é responsável por gerenciar políticas de barreira de informações. Para obter mais informações sobre essa função, consulte [permissões no centro de conformidade do & de segurança do Office 365](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
+A função de gerenciamento de conformidade IB é responsável por gerenciar políticas de barreira de informações. Para obter mais informações sobre essa função, consulte [permissões no centro de conformidade do & de segurança do Office 365](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
 
 ## <a name="when-are-information-barrier-policies-checked"></a>Quando as políticas de barreira de informações são verificadas?
 
@@ -68,7 +66,7 @@ As políticas de barreira de informações são verificadas quando ocorrem os se
 
 ## <a name="what-happens-to-existing-chat-threads-when-a-policy-is-changed"></a>O que acontece com os threads de chat existentes quando uma política é alterada?
 
-Quando o administrador da política de barreira de informações faz alterações em uma política ou uma alteração de política entra em vigor devido a uma alteração no perfil de um usuário (por exemplo, para uma alteração de trabalho ou um motivo semelhante), o serviço de avaliação da política de barreira de informações pesquisa automaticamente os membros para garantir que os membros da equipe não violem nenhuma política.
+Quando o administrador de política de barreira de informações faz alterações em uma política ou uma alteração de política entra em vigor devido a uma alteração no perfil de um usuário (por exemplo, para uma alteração de trabalho ou um motivo semelhante), o serviço de avaliação de política de barreira de informações é automaticamente pesquisa os membros para garantir que os membros da equipe não violem nenhuma política.
 
 Se houver um chat existente ou outras comunicações entre usuários e uma nova política for definida ou uma política existente for alterada, o serviço avaliará as comunicações existentes para garantir que as comunicações ainda sejam permitidas. 
 
@@ -102,7 +100,7 @@ Em breve: os usuários perceberão o seguinte se uma política de barreira de in
 
 ## <a name="required-licenses-and-permissions"></a>Permissões e licenças necessárias
 
-Atualmente, os recursos de barreira de informações estão em visualização pública. Quando esses recursos estiverem disponíveis em geral, eles serão incluídos em assinaturas, como:
+As barreiras de informação estão sendo lançadas agora e são incluídas em assinaturas, como:
 
 - Microsoft 365 e5
 - Office 365 E5
@@ -113,6 +111,8 @@ Para obter mais detalhes, incluindo planos e preços, consulte [soluções de co
 
 ## <a name="more-information"></a>Mais informações
 
-- Para saber mais sobre as barreiras de informação, consulte [barreiras de informação (prévia)](https://docs.microsoft.com/office365/securitycompliance/information-barriers).
+- Para saber mais sobre as barreiras de informação, consulte [barreiras de informações](https://docs.microsoft.com/office365/securitycompliance/information-barriers).
 
-- Para configurar políticas de barreira de informações, consulte [definir políticas para barreiras de informação (prévia)](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)
+- Para configurar políticas de barreira de informações, consulte [definir políticas para barreiras de informação](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)
+
+- Para editar ou remover as políticas de barreira de informações, consulte [Editar (ou remover) políticas de barreira de informações](https://docs.microsoft.com/office365/securitycompliance/information-barriers-edit-segments-policies.md)

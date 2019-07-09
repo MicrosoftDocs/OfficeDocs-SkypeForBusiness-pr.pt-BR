@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba como configurar o sistema telefônico (Cloud PBX) para sua organização. '
-ms.openlocfilehash: 3b81ad07d73b87a6635a15bc924ecd70758e12fb
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 304bdc58f8f2e077aa58dc4ded46f55387392374
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548944"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588171"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Configurar o Sistema de Telefonia na sua organização
 
@@ -224,9 +224,9 @@ Para criar uma nova fila de chamadas, no **centro de administração do Skype fo
 
 Auto attendants let people that call in to your organization and navigate a menu system to get them to the right department, call queue, person, or the operator. You can create an auto attendant for your organization by using the Skype for Business admin center.
 
-Para criar um novo atendedor automático, no centro de administração do Skype for Business, clique em atendedores automáticos de **Roteamento** > **** de chamadas, clique em **Adicionar novo**e siga as instruções para cada página da **etapa 2** da [configuração de um atendedor automático na nuvem ](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant#step-2---create-a-new-auto-attendant).
+Para criar um novo atendedor automático, no centro de administração do Skype for Business, clique em atendedores automáticos de **Roteamento** > **** de chamadas, clique em **Adicionar novo**e siga as instruções para cada página da **etapa 2** da [configuração de um atendedor automático na nuvem ](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#step-2---create-a-new-auto-attendant).
 
-**Para obter mais detalhes sobre atendedores automáticos da nuvem, consulte [configurar um atendedor automático na nuvem](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant).**
+**Para obter mais detalhes sobre atendedores automáticos da nuvem, consulte [configurar um atendedor automático na nuvem](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant).**
 
 ## <a name="step-9-assign-service-phone-numbers-audio-conferencing-call-queues-auto-attendants"></a>Etapa 9: Atribua números de telefone de serviço (audioconferência, filas de chamadas, atendedores automáticos)
 
@@ -236,7 +236,7 @@ Once you have your service numbers from **Step 4 above**, you need to assign the
 
 - Para atendedores automáticos, você pode atribuir um número dedicado a um atendedor automático acessando > **centros** > de administração do **centro de administração do Microsoft 365**centro de administração de**chamadas** > do**Skype for Business** > **atendendo atendedores automáticos **e clique no atendedor automático. Na página **Geral**, o seu número de serviço atual será listado no menu suspenso **Número de telefone**. Para obter detalhes, consulte [configurar um atendedor automático na nuvem](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant).
 
-- Para filas de chamadas, você pode atribuir um número exclusivo a uma**** > fila de chamadas acessando o centro de administração do **Centro** > de administração do Microsoft 365 acesse as**filas de chamadas** de**Roteamento** > de administração do**Skype for Business** > e clique em na fila de chamadas. Na página **Geral**, o seu número de serviço atual será listado no menu suspenso**Número de telefone**. Para obter detalhes, consulte [criar uma fila de chamadas em nuvem](/SkypeForBusiness/create-a-phone-system-call-queue).
+- Para filas de chamadas, você pode atribuir um número exclusivo a uma**** > fila de chamadas acessando o centro de administração do **Centro** > de administração do Microsoft 365 acesse as**filas de chamadas** de**Roteamento** > de administração do**Skype for Business** > e clique em na fila de chamadas. Na página **Geral**, o seu número de serviço atual será listado no menu suspenso**Número de telefone**. Para obter detalhes, consulte [criar uma fila de chamadas em nuvem](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue).
 
 **Para obter informações detalhadas sobre como obter novos números de serviço e fazer a portabilidade de números de serviço existentes, consulte [Obter números de telefone de serviço](/microsoftteams/getting-service-phone-numbers).**
 

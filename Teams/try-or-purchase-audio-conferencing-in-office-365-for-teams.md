@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Veja como experimentar ou adquirir licenças de Audioconferência (Conferência PSTN) para o Office 365 para configurar chamadas de conferência em que as pessoas podem discar. '
-ms.openlocfilehash: cf7455a42d19d82ff4d82c4434b8e97962433131
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 67e1f87e279e84fa89b9368b89699724cc73c7b2
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298208"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588187"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Experimentar ou comprar a Audioconferência no Office 365 para o Microsoft Teams
 
@@ -77,7 +77,7 @@ Se você for um cliente de Volume e Licenciamento, pode obter licenças de Audio
 
 Quando você atribui uma licença de **audioconferência** para as pessoas em sua organização que não têm o Skype for Business integrado a um provedor de serviços de audioconferência de terceiros, todas elas estão configuradas e prontas para serem enviadas! (Você não precisará definir o provedor de serviços de audioconferência para eles.)
 
-Se você tiver usuários habilitados com um provedor de serviços de audioconferência de terceiros, será necessário alterar o provedor desses usuários para a Microsoft. Para alterar o provedor de um usuário, consulte [atribuir a Microsoft como o provedor de áudio de audioconferência](/Skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md).
+Se você tiver usuários habilitados com um provedor de serviços de audioconferência de terceiros, será necessário alterar o provedor desses usuários para a Microsoft. Para alterar o provedor de um usuário, consulte [atribuir a Microsoft como o provedor de áudio de audioconferência](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
 
 ## <a name="step-3-other-admin-tasks"></a>Etapa 3: Outras tarefas de administração
 

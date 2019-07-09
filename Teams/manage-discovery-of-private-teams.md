@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como controlar se as equipes particulares podem ser descobertas pelos usuários do Microsoft Teams por meio de sugestões na Galeria de equipe e nos resultados da pesquisa.
-ms.openlocfilehash: 099daaed42e108e63a5f8334bd2ed89744479dbd
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 0c75d0e08290b12cf658b2a84eef609e2d15dc86
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347872"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588203"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Gerenciar a descoberta de equipes particulares no Microsoft Teams
 
@@ -67,7 +67,7 @@ No Teams, vá para a equipe particular, clique em **mais opções** > **Gerencia
 
 Use o cmdlet **[set-Team](https://docs.microsoft.com/powershell/module/teams/set-team?view=teams-ps)** para desativar ou ativar a configuração de descoberta para uma equipe privada existente. Veja um exemplo de como deixar uma equipe detectável:
 ```
-    Set-Team -GroupId 0abc123d-e4f5-67gh-i890-jk1m2n345o6p -ShowInSearchAndSuggestions $true
+    Set-Team -GroupId 0abc123d-e4f5-67gh-i890-jk1m2n345o6p -ShowInTeamsSearchAndSuggestions $true
 ```
 Você pode usar esse cmdlet em um script para definir a configuração de descoberta de equipes particulares existentes em massa.
 

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51926629328d2c17a5b11c9b90b5083f5b9a5578
-ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
+ms.openlocfilehash: 3498c3eaf81b2b8be7513ec083957f89d3f7fd00
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/26/2019
-ms.locfileid: "35253691"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588075"
 ---
 <a name="teams-guest-access-checklist"></a>Lista de verificação de acesso de convidados do teams
 ==========================================
@@ -66,21 +66,25 @@ Lembre-se de algumas coisas:
 
 ## <a name="--step-1-configure-settings-in-azure-ad-business-to-business"></a>□ Etapa 1: definir as configurações do Azure AD para empresas
 
-1. Conectar-se https://portal.azure.comao.
-2. Clique em **Azure Active Directory** no painel esquerdo.
-3. Em **gerenciar**, clique em **configurações do usuário**.
-4. Em **usuários externos**, clique em **gerenciar configurações de colaboração externa**.
-5. Na página **configurações de colaboração externas** , certifique-se de que **os membros podem convidar** esteja definido como **Sim**.
+1. Entre no [portal do Azure](https://portal.azure.com) como um administrador de locatários.
+2. Selecione**as configurações de usuário** **do Azure Active Directory** > **Users** > .
+3. Em **usuários externos**, selecione **gerenciar configurações de colaboração externa**.
+   > [!NOTE]
+   > As **configurações de colaboração externa** também estão disponíveis na página **relações organizacionais** . No Azure Active Directory, em **gerenciar**, acesse**configurações**de **relações** > organizacionais.
+4. Na página **configurações de colaboração externas** , escolha as políticas que você deseja habilitar.
 
-      ![A captura de tela mostra um exemplo de uma alternância de configurações do AAD. ](media/guest-access-checklist-AADSettings1.png)
+   ![Configurações de colaboração externa](media/control-who-to-invite.png)
 
-    Para dar suporte a convidados, **os membros podem convidar** devem ser definidos como **Sim**.
-
-    > [!NOTE] 
-    > Se você definir que **os membros podem convidar** para **não** e, em seguida, habilitar o acesso de convidado nos grupos do Office 365 e no Microsoft Teams, os administradores poderão controlar os convites convidados para seu diretório. Depois que os convidados estiverem no diretório, eles poderão ser adicionados às equipes por membros não-administradores que sejam proprietários da equipe.
-
-Para obter mais informações, consulte [Autorizar acesso de convidados no Microsoft Teams](Teams-dependencies.md).
-
+  - **As permissões de usuários convidados são limitadas**: esta política determina permissões para convidados em seu diretório. Selecione **Sim** para bloquear convidados de determinadas tarefas de diretório, como enumerar usuários, grupos ou outros recursos de diretório. Selecione **não** para dar aos convidados o mesmo acesso aos dados do diretório como usuários regulares em seu diretório.
+   - **Administradores e usuários na função de convite de convidado podem convidar**: para permitir que administradores e usuários na função "convidador de convidado" possam convidar convidados, defina essa política como **Sim**.
+   - **Os membros podem convidar**: para permitir que membros que não sejam administradores do seu diretório convidem convidados, defina essa política como **Sim**.
+   
+       > [!NOTE]
+       > Se você definir que **os membros podem convidar** para **não** e, em seguida, habilitar o acesso de convidado nos grupos do Office 365 e no Microsoft Teams, os administradores poderão controlar os convites convidados para seu diretório. Depois que os convidados estiverem no diretório, eles poderão ser adicionados às equipes por membros não-administradores que sejam proprietários da equipe. Para obter mais informações, consulte [Autorizar acesso de convidados no Microsoft Teams](Teams-dependencies.md).
+   
+   - **Convidados podem convidar**: para permitir que os convidados convidem outros convidados, defina essa política como **Sim**.
+   - **Habilitar a senha de senha única para convidados (visualização)**: para obter mais informações sobre o recurso de senha de uso único, consulte [autenticação de senha única (visualização) de email](one-time-passcode.md).
+   - **Restrições de colaboração**: para obter mais informações sobre como permitir ou bloquear convites para domínios específicos, consulte [permitir ou bloquear convites para usuários B2B de organizações específicas](allow-deny-list.md).
 
 ## <a name="-step-2-configure-office-365-groups"></a>□ Etapa 2: configurar grupos do Office 365
 

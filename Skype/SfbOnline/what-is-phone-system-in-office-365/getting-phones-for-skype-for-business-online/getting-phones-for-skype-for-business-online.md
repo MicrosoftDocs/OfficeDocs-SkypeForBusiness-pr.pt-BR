@@ -21,26 +21,27 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba quais telefones da Polycom, HP, and Mitel funcionam com o Skype for Business e as licenças necessárias. '
-ms.openlocfilehash: f3a042a200f821f6e5836eb3fc6b062a88e2da35
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ac3b262a9888acb95eef4e2e8822abc3441617c4
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297994"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35587930"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Obter telefones para o Skype for Business Online
 
 Skype for Business Online qualifies and supports desktop phones for users who want to have a traditional phone experience, rather than use the Skype for Business app. This topic covers the phones and firmware versions that are supported for use in Skype for Business Online and other information that can help you when you are setting up phones in your organization.
-  
-Para obter as atualizações mais recentes e as informações mais atualizadas sobre os dispositivos compatíveis, consulte o [Catálogo de dispositivos do Skype for Business](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
+
+> [!NOTE]
+> O Skype for Business será substituído lentamente pelo Microsoft Teams como o principal método de comunicação do Office 365.  Veja [uma nova visão para comunicações inteligentes no Office 365](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) para obter mais informações.
+>
+>Para obter as atualizações mais recentes e as informações mais atualizadas sobre os dispositivos compatíveis, consulte os [dispositivos Microsoft Teams para comunicações inteligentes](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1).
   
 ## <a name="supported-phones"></a>Telefones compatíveis
-
-Para os usuários do Skype for Business Online, você pode escolher entre vários modelos dentro dos *telefones certificados para telefones* e telefones do Skype for Business que executam o Lync Phone Edition (LPe) listado na categoria Skype for Business online no [dispositivo Skype for Business Catálogo](http://partnersolutions.skypeforbusiness.com/solutionscatalog).
   
 A Microsoft está estabelecendo parcerias e trabalhando em conjunto com o Polycom, o Yealink e o AudioCodes para desenvolver e certificar uma ampla variedade de dispositivos por meio do programa de telefonia IP (PIP) do parceiro para o sistema telefônico no Office 365 e no Skype for Business Server.
   
-When ordering new phones for Skype for Business, it is important to buy phones with the *right product ID*. These product IDs will ensure that the phones you receive have the Skype for Business Online qualified version already installed.
+Ao solicitar novos telefones para o Skype for Business, é importante comprar telefones com a *ID de produto correta*. Essas IDs de produto garantirão que os telefones recebidos tenham a versão qualificada do Skype for Business online já instalada.
   
 |||
 |:-----|:-----|
@@ -56,9 +57,9 @@ Para obter mais detalhes sobre os telefones Yealink, veja [Telefones IP do Skype
 Para obter mais detalhes sobre telefones AudioCodes, consulte [telefones IP do Skype for Business](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/ip-phones-room-solutions).
   
 > [!NOTE]
-> Lync Phone Edition is supported with Skype for Business Online, but not with Microsoft Teams. Mainstream support for the LPE platform ended by April/10/2014, with extended support until April/11/2023 to align with the product support lifecycle of Lync Server 2013. See [Microsoft Product Lifecycle](https://support.microsoft.com/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO) for details on the LPE lifecycle. LPE CAP models aren't supported with Skype for Business Online.
+> O Lync Phone Edition é compatível com o Skype for Business Online, mas não com o Microsoft Teams. O suporte básico para a plataforma LPE terminou de abril/10/2014, com suporte estendido até abril/11/2023, para alinhar-se com o ciclo de vida de suporte do produto do Lync Server 2013. Consulte [ciclo de vida do produto da Microsoft](https://support.microsoft.com/lifecycle/search?qid=&amp;alpha=Lync%20Phone%20Edition&amp;Filter=FilterNO) para obter detalhes sobre o ciclo de vida da LPE. Os modelos de CAP LPE não são compatíveis com o Skype for Business online.
 >
-> Later this year, Office 365 will not support any version of TLS older than 1.2. Since the underlying operating system of LPE does not support TLS 1.2, LPE will not be supported to connect to Office 365 anymore. See [Preparing for the mandatory use of TLS 1.2 in Office 365](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365) for more information.
+> Este ano, o Office 365 não dará suporte a nenhuma versão do TLS anterior a 1.2. Como o sistema operacional subjacente do LPE não oferece suporte a TLS 1.2, LPE não poderá mais se conectar ao Office 365. Para obter mais informações, consulte o [Preparando para o uso obrigatório de TLS 1.2 no Office 365](https://support.microsoft.com/en-gb/help/4057306/preparing-for-tls-1-2-in-office-365).
   
 ## <a name="supported-firmware"></a>Firmware compatível
 
@@ -90,24 +91,24 @@ Para obter recursos e recursos completos do dispositivo, verifique os guias de u
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**Recurso** <br/> |**Polycom 3PIP** <br/> |**Yealink 3PIP** <br/> |**AudioCodes 3PIP** <br/> |**LPE** <br/> |
-|Entre com as credenciais dos usuários  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
-|Entrar via PC (Emparelhamento), somente Windows  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
-|Entrar usando (Entrada na Web)  <br/>  <br/> **Observação:** Verifique a matriz de suporte no guia de implantação.           |Sim  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
-|Clique único para ingressar na reunião  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
-|Clique para discar (Emparelhamento)  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
-|Controles de reunião  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
-|Caixa postal visual  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
-|Trava de telefone  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
-|Atualização de dispositivo  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
-|Provisionamento em banda  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
-|QoE  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
-|Upload de log  <br/> <br/> **Observação:** Atualmente, todos os logs são carregados somente para a equipe de suporte da Microsoft; o acesso do cliente a logs telefônicos ainda não está disponível.           |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
-|Autenticação moderna  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
+|Entre com as credenciais dos usuários  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Não  <br/> |
+|Entrar via PC (Emparelhamento), somente Windows  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
+|Entrar usando (Entrada na Web)  <br/>  <br/> **Observação:** Verifique a matriz de suporte no guia de implantação.           |Sim   <br/> |Sim   <br/> |Sim   <br/> |Não  <br/> |
+|Clique único para ingressar na reunião  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
+|Clique para discar (Emparelhamento)  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
+|Controles de reunião  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
+|Caixa postal visual  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
+|Trava de telefone  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim  <br/> |
+|Atualização de dispositivo  <br/> |Sim  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
+|Provisionamento em banda  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
+|QoE  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Não  <br/> |
+|Upload de log  <br/> <br/> **Observação:** Atualmente, todos os logs são carregados somente para a equipe de suporte da Microsoft; o acesso do cliente a logs telefônicos ainda não está disponível.           |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
+|Autenticação moderna  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Não  <br/> |
 |Vários Números de Emergência  <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |Sim  <br/> |
-|Integração com o calendário do Exchange*  <br/> |Sim  <br/> |Sim  <br/> |Sim   <br/> |Sim  <br/> <br/> **Observação:** Requer compartilhamento de Internet para PC           |
-|Integração de presença  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
-|Diretório Corporativo  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
-|Delegação  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
+|Integração com o calendário do Exchange*  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> <br/> **Observação:** Requer compartilhamento de Internet para PC           |
+|Integração de presença  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
+|Diretório Corporativo  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim  <br/> |
+|Delegação  <br/> |Sim  <br/> |Sim   <br/> |Sim   <br/> |Não  <br/> |
 |Integração da imagem do contato  <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |Sim  <br/> |
 ||||||
 

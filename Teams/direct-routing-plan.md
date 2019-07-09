@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Leia este tópico para saber como o roteamento direto do sistema de telefone da Microsoft permite que você conecte um controlador de borda de sessão (SBC) compatível com o cliente ao Microsoft Phone System.
-ms.openlocfilehash: 31f7723a98a1a94089dec74cda776ea30e09c014
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 06a5764cc0dd022f1a3077e9b00580a3dc95bfe9
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290382"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588195"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -29,7 +29,7 @@ ms.locfileid: "34290382"
 
 O roteamento direto do Microsoft Phone System permite conectar um controlador de borda de sessão (SBC) compatível com o cliente ao Microsoft Phone System.  Com esse recurso, por exemplo, você pode configurar a conectividade PSTN local com o cliente do Microsoft Teams, conforme mostrado no diagrama a seguir: 
 
-![Mostra a configuração de conectividade PSTN local com o cliente do Microsoft Teams](media/PlanDirectRouting1-PSTNwithTeams.png)
+![Diagrama mostrando a configuração de conectividade PSTN local] (media/PlanDirectRouting1-PSTNwithTeams.png "Configuração de conectividade PSTN local com o cliente do Microsoft Teams")
 
   > [!NOTE]
   > O Skype for Business online também permite que você emparelhe um SBC fornecido pelo cliente, mas isso exige uma implantação local do Skype for Business Server ou uma edição especial do Skype for Business, chamada de conector de nuvem, entre o SBC e a nuvem da Microsoft. Esse cenário é conhecido como voz híbrida. Por outro lado, o roteamento direto permite uma conexão direta entre o SBC compatível e a nuvem da Microsoft. 
@@ -89,10 +89,14 @@ Os usuários de roteamento direto devem ter as seguintes licenças atribuídas n
 - Microsoft Teams 
 - Conferência de áudio da Microsoft 
 
-A licença de audioconferência é necessária para adicionar participantes externos a reuniões agendadas, seja discando para eles ou fornecendo o número de discagem. 
- 
-  > [!NOTE]
-  > A licença E5 inclui o sistema telefônico e a conferência de áudio.   
+> [!NOTE]
+> Quando você estiver redimensionando a partir de uma chamada do 1:1, é preciso ter uma licença de conferência de áudio
+
+> [!IMPORTANT]
+>  Se você quiser adicionar participantes externos a reuniões agendadas, basta discar para eles ou fornecer o número de discagem, a licença de audioconferência será *necessária*.
+
+> [!NOTE]
+> A licença E5 inclui o sistema telefônico e a conferência de áudio.   
 
 Além disso, você deve garantir o seguinte:
  

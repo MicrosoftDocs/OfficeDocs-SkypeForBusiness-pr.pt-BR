@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: A nova área de relatórios do centro de administração do Skype for Business mostra a atividade de chamadas e conferência de áudio em sua organização. Ele permite que você faça uma busca detalhada nos relatórios para dar a você uma visão mais granular sobre as atividades de cada usuário. Por exemplo, você pode usar o relatório de detalhes do uso de PSTN do Skype for Business para ver o número de minutos gastos em chamadas de entrada/saída e o custo dessas chamadas. Você pode exibir os detalhes de uso de PSTN da videoconferência, incluindo o custo da chamada para que você possa entender seu uso e fazer chamadas para os detalhes de cobrança para determinar o uso dentro da sua organização.
-ms.openlocfilehash: dafe072cb327cde15cf4a02ca9e1c71a30f4431b
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 3d5ea4552cec8e9f10ad0108dad4c00875918c0e
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34493983"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35587912"
 ---
 # <a name="pstn-usage-report"></a>Relatório de uso de PSTN
 
@@ -76,7 +76,7 @@ Esta é a aparência do relatório.
      **Aplicativos de comunicação unificada (UCAP)** 
      *    **ucap_in** (uma chamada PSTN de entrada para o aplicativo de comunicação unificada, como atendedor automático ou fila de chamadas) 
      *    **ucap_out** (uma chamada PSTN de saída do aplicativo UC, como atendedor automático ou fila de chamadas)
-     *    **Observação:** As chamadas que foram transferidas para um usuário do aplicativo UC, como um atendedor automático ou fila de chamadas, não aparecerão no relatório de uso de PSTN, pois esses trechos de chamadas são chamadas de áudio ponto a ponto (P2P). Você pode acessar as chamadas ponto a ponto no centro de administração do Skype for Business em "ferramentas > o Skype for Business Call Analytics" e Pesquisar por nome de usuário ou endereço SIP que correlaciona a chamada por data/hora e/ou CLID (identificação da linha de chamada). 
+     *    **Observação:** As chamadas que foram transferidas para um usuário do aplicativo UC, como um atendedor automático ou fila de chamadas, não aparecerão no relatório de uso de PSTN, pois esses trechos de chamadas são chamadas de áudio ponto a ponto (P2P). Você pode acessar as chamadas ponto a ponto no centro de administração do Skype for Business em "ferramentas > Skype for Business Call Analytics" e Pesquisar por nome de usuário ou endereço SIP que correlaciona a chamada por data/hora e/ou CLID (ID da linha de chamada) de origem. 
 *     
      **Doméstica/internacional** informa se a chamada que foi feita foi considerada doméstica (dentro de um país/região) ou internacional (fora de um país/região) com base na localização do usuário. 
 *    **Destino discado** é o nome do destino de país/região que é discado, como França, Alemanha ou Estados Unidos (EUA). 
@@ -104,7 +104,7 @@ Esta é a aparência do relatório.
 ***
 ![Número 2](../images/sfbcallout2.png)<br/>Clique para arrastar uma coluna para **Para agrupar por uma coluna específica, arraste e solte o cabeçalho da coluna aqui** se desejar criar uma exibição que agrupe todos os dados em uma ou mais colunas.
  ***
-![Número 3](../images/sfbcallout3.png)<br/>Você também pode exportar os dados do relatório para um arquivo do Excel delimitado por TABULAção clicando ou tocando no botão **exportar para o Excel** . <br/><br/> Isso exporta dados de todos os usuários e permite que você faça uma classificação e filtragem simples para uma análise mais detalhada. Se tiver menos de 2.000 usuários, você poderá classificar e filtrar dentro da tabela no próprio relatório. 
+![Número 3](../images/sfbcallout3.png)<br/>Você também pode exportar os dados do relatório para um arquivo do Excel delimitado por TABULAção clicando ou tocando no botão **exportar para o Excel** . Você pode exportar dados até um ano a partir da data atual.<br/><br/> Isso exporta dados de todos os usuários e permite que você faça uma classificação e filtragem simples para uma análise mais detalhada. Se tiver menos de 2.000 usuários, você poderá classificar e filtrar dentro da tabela no próprio relatório. 
     > [!Note] 
     > Despite the export file named as .CSV (which implies a comma delimited export), as there may be commas in the data set, the file is actually delimited with **TABS** and not **COMMAS**.
 

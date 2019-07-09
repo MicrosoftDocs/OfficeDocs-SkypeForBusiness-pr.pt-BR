@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Saiba como configurar o roteamento direto do sistema de telefonia da Microsoft.
-ms.openlocfilehash: 1c93d8b028da3fb1aaf68241a974170d0045b950
-ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
+ms.openlocfilehash: 154f1b08d01bc9e66d7928d6f136c3c69c48efcc
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "35116013"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588147"
 ---
 # <a name="configure-direct-routing"></a>Configurar o Roteamento Direto
 
@@ -83,7 +83,9 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignallingPort <SBC SIP Port> -MaxC
   > 1. É altamente recomendável definir um limite máximo de chamadas no SBC, usando as informações que podem ser encontradas na documentação do SBC. O limite acionará uma notificação se o SBC estiver no nível de capacidade.
   > 2. Você só pode emparelhar o SBC se a parte do domínio de seu FQDN corresponder a um dos domínios registrados em seu locatário \*, exceto. onmicrosoft.com. Não \*há suporte para o uso de nomes de domínio. onmicrosoft.com para o nome FQDN do SBC. Por exemplo, se você tiver dois nomes de domínio:<br/><br/>
   > **contoso**. com<br/>**contoso**. onmicrosoft.com<br/><br/>
-  > Para o nome do SBC, você pode usar o nome sbc.contoso.com. Se você tentar emparelhar o SBC com um nome SBC. contoso. ABC, o sistema não permitirá que o domínio não seja pertencente a esse locatário.
+  > Para o nome do SBC, você pode usar o nome sbc.contoso.com. Se você tentar emparelhar o SBC com um nome SBC. contoso. ABC, o sistema não permitirá que o domínio não seja pertencente a esse locatário.<br/>
+  > Além do domínio registrado em seu locatário, é importante que haja um usuário com esse domínio e uma licença E3 ou E5 atribuída. Se não for, você receberá o seguinte erro:<br/>
+  `Can not use the “sbc.contoso.com” domain as it was not configured for this tenant`.
 
 ```
 New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 -MaxConcurrentSessions 100 

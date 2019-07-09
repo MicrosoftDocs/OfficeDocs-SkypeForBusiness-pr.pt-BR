@@ -1,5 +1,5 @@
 ---
-title: Processo de atualização de equipes
+title: Atualizações do Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -11,38 +11,39 @@ MS.collection:
 - M365-collaboration
 ms.reviewer: annaray
 search.appverid: MET150
-description: Saiba como o cliente de desktop equipes é atualizado.
+description: Saiba como o cliente de desktop Teams é atualizado.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 08381341903d21deb42ca83b3769c49f67d18b14
-ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
+ms.openlocfilehash: 436a2a3175cd057082c0e658ea5ab6d3db0364cc
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33970272"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588179"
 ---
 # <a name="teams-update-process"></a>Processo de atualização de equipes
 
-O aplicativo da web de equipes é atualizado semanal.
+O aplicativo Web Teams é atualizado semanalmente.
 
-Atualizações de cliente de desktop equipes sejam liberadas cada duas semanas após rigorosos testes internos e validação por meio de nosso programa de adoção de tecnologia (toque). Isso geralmente ocorre em uma terça-feira. Se uma atualização crítica for necessária, equipes irá ignorar essa agenda e liberar a atualização assim que estiver disponível.
+As atualizações do cliente de desktop do teams são lançadas a cada duas semanas após rigorosos testes internos e validação por meio do programa de adoção de tecnologia (toque). Geralmente, isso ocorre em uma terça-feira. Se for necessária uma atualização crítica, o Microsoft Teams ignorará esse cronograma e liberará a atualização assim que ela estiver disponível.
 
-Cliente de desktop do próprio atualiza automaticamente. Verificações de equipes para atualiza cada poucas horas em segundo plano, a baixa e aguarda até que o computador ficar ocioso antes silenciosamente instalando a atualização.
+O cliente da área de trabalho é atualizado automaticamente. O Teams verifica se há atualizações a cada poucas horas nos bastidores, o descarrega e, em seguida, aguarda o computador ficar ocioso antes de instalar silenciosamente a atualização.
 
-Os usuários podem baixar também manualmente as atualizações ao clicar em **Verificar se há atualizações** no menu suspenso de **perfil** no canto superior direito do aplicativo. Se houver uma atualização disponível, ele será baixado e instalado silenciosamente quando o computador estiver ocioso.
+Os usuários também podem baixar manualmente as atualizações clicando em **verificar se há atualizações** no menu suspenso **perfil** no canto superior direito do aplicativo. Se houver uma atualização disponível, ela será baixada e instalada silenciosamente quando o computador estiver ocioso.
 
-Os usuários precisam estar conectado para atualizações sejam baixados.
+Os usuários precisam estar conectados para que as atualizações sejam baixadas. A partir de 9 de julho de 2019, as atualizações de cliente do teams usam uma menor largura de banda de rede durante a atualização. Isso é ativado por padrão e não requer nenhuma ação de administradores ou usuários.
 
-## <a name="what-about-updates-to-office-365-proplus"></a>E sobre atualizações do Office 365 ProPlus?
 
-As equipes é instalado por padrão com as novas instalações do Office 365 ProPlus, conforme descrito em [Implantar equipes da Microsoft com o Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/teams-install). 
+## <a name="what-about-updates-to-office-365-proplus"></a>E quanto às atualizações do Office 365 ProPlus?
 
-As equipes segue seu próprio processo de atualização, conforme descrito acima e não o processo de atualização para os outros aplicativos de escritórios, como Word e Excel.
+O Teams é instalado por padrão com novas instalações do Office 365 ProPlus, conforme descrito em [implantar o Microsoft Teams com o Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/teams-install). 
 
-## <a name="what-about-updates-to-teams-on-vdi"></a>E quanto a atualizações a equipes de VDI?
+O Teams segue seu próprio processo de atualização, conforme descrito acima, e não o processo de atualização para os outros aplicativos do Office, como o Word e o Excel. Para saber mais, leia [visão geral dos canais de atualização do Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)
 
-Clientes de equipes em Virtual Desktop Infrastructure (VDI) não são atualizados automaticamente a maneira que os clientes não - VDI equipes. Você precisa atualizar a imagem da VM instalando um novo MSI, conforme descrito nas instruções para [Instalar equipes em VDI](https://docs.microsoft.com/microsoftteams/teams-for-vdi#install-teams-on-vdi). Você deve desinstalar a versão atual para atualizar para uma versão mais recente.
+## <a name="what-about-updates-to-teams-on-vdi"></a>E quanto às atualizações para o Microsoft Teams no VDI?
 
-## <a name="can-admins-deploy-updates-instead-of-teams-auto-updating"></a>Pode admins implantar as atualizações em vez de equipes atualização automática?
+Os clientes do teams na Virtual Desktop Infrastructure (VDI) não são atualizados automaticamente da maneira como os clientes de equipes não VDI são. Você precisa atualizar a imagem da VM instalando um novo MSI conforme descrito nas instruções para instalar o Microsoft [Teams no VDI](https://docs.microsoft.com/microsoftteams/teams-for-vdi#install-teams-on-vdi). Você deve desinstalar a versão atual para atualizar para uma versão mais recente.
 
-As equipes não dá admins a capacidade de implantar atualizações por meio de qualquer mecanismo de entrega.
+## <a name="can-admins-deploy-updates-instead-of-teams-auto-updating"></a>Os administradores podem implantar atualizações em vez de atualizações automáticas do teams?
+
+O Microsoft Teams não dá aos administradores a capacidade de implantar atualizações por meio de um mecanismo de entrega.
