@@ -1,9 +1,9 @@
 ---
 title: Usar o PowerShell para definir políticas de eventos ao vivo no Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: chuckedmonson
+ms.author: chucked
 manager: serdars
-ms.date: 10/23/2018
+ms.date: 07/10/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -15,12 +15,12 @@ MS.collection:
 description: Exemplos de como usar o PowerShell para definir políticas nas equipes controlar quem pode armazenar eventos dinâmicos em sua organização e recursos que estão disponíveis nos eventos que eles criam
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f92541cfdb69237631d1552202e95e4843987a30
-ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
+ms.openlocfilehash: 825fe7e7e80b2653d35c8b0752124b50386395d6
+ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35012970"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35602259"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Usar o PowerShell para definir políticas de eventos ao vivo no Microsoft Teams
 
@@ -30,7 +30,7 @@ Você pode usar os seguintes cmdlets do Windows PowerShell para definir e atribu
 - [New-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [Grant CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingbroadcastpolicy?view=skype-ps)
 
-Veja alguns exemplos.
+Aqui estão alguns exemplos.
 
 ## <a name="allow-users-to-schedule-live-events"></a>Permitir que os usuários agendem eventos dinâmicos 
 
@@ -129,11 +129,11 @@ Defina a política global para desabilitar a gravação de eventos dinâmicos:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode AlwaysDisabled 
 ```
-## <a name="set-transcription-and-translation-in-live-events-coming-soon"></a>Definir transcrição e tradução em eventos dinâmicos (em breve)
+## <a name="set-live-captions-and-subtitles-in-live-events"></a>Definir legendas ao vivo e legendas em eventos dinâmicos
 > [!NOTE]
 > Essa configuração se aplica somente a eventos produzidos no Teams. 
 
-Defina a política global para ativar a transcrição e a tradução para os participantes do evento:
+Defina a política global para ativar legendas dinâmicas e legendas (transcrição) para participantes do evento:
 ```
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```

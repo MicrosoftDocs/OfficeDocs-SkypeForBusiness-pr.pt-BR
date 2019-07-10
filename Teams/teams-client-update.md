@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Saiba como o cliente de desktop Teams é atualizado.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 436a2a3175cd057082c0e658ea5ab6d3db0364cc
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: ba5280e03e316dfcde3bda9b62520fa513f3157a
+ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588179"
+ms.locfileid: "35602267"
 ---
 # <a name="teams-update-process"></a>Processo de atualização de equipes
 
@@ -31,7 +31,9 @@ O cliente da área de trabalho é atualizado automaticamente. O Teams verifica s
 
 Os usuários também podem baixar manualmente as atualizações clicando em **verificar se há atualizações** no menu suspenso **perfil** no canto superior direito do aplicativo. Se houver uma atualização disponível, ela será baixada e instalada silenciosamente quando o computador estiver ocioso.
 
-Os usuários precisam estar conectados para que as atualizações sejam baixadas. A partir de 9 de julho de 2019, as atualizações de cliente do teams usam uma menor largura de banda de rede durante a atualização. Isso é ativado por padrão e não requer nenhuma ação de administradores ou usuários.
+Os usuários precisam estar conectados para que as atualizações sejam baixadas. 
+
+A partir de 9 de julho de 2019, as atualizações de cliente do teams usam uma menor largura de banda de rede durante a atualização. Isso é ativado por padrão e não requer nenhuma ação de administradores ou usuários.
 
 
 ## <a name="what-about-updates-to-office-365-proplus"></a>E quanto às atualizações do Office 365 ProPlus?

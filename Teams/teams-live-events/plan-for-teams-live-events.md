@@ -1,8 +1,9 @@
 ---
 title: Planejar eventos ao vivo no Microsoft Teams
-author: tonysmith
-ms.author: tonysmit
+author: chuckedmonson
+ms.author: chucked
 manager: serdars
+ms.date: 07/10/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -14,12 +15,12 @@ search.appverid: MET150
 description: Saiba mais sobre os fatores a serem considerados antes de configurar eventos dinâmicos no Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14827e6ded282c113e56dd3fa567b4c7835bbf23
-ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
+ms.openlocfilehash: 7f5d3b21b1a41779a094ba7b782b309365bc9503
+ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35013025"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35602251"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 
@@ -51,7 +52,7 @@ O usuário deve ter:
 - Permissões para criar eventos ao vivo em fluxo (para aplicativo externo ou produção de dispositivo).
 
 > [!IMPORTANT]
-> Os usuários convidados do Office 365, federados e anônimos não podem ser convidados como produtores ou apresentadores nos eventos ao vivo do teams. Os usuários federados e convidados do Office 365 podem apenas assistir a eventos ao vivo anonimamente. 
+> Os usuários convidados do Office 365, federados e anônimos não podem ser convidados como produtores ou apresentadores nos eventos ao vivo do teams. Os convidados do Office 365 e os usuários federados podem apenas assistir a eventos ao vivo anonimamente. 
  
 ## <a name="who-can-watch-live-events"></a>Quem pode assistir a eventos dinâmicos?
 
@@ -59,11 +60,12 @@ O usuário deve ter:
 |------------------------------|-----------------|----------------------|
 |Público (usuários anônimos)      |  Sim            |  Não                  |
 |Usuários convidados                   |  Sem<sup>1</sup> |  Não                  |
-|Todos na empresa federada |  Sem<sup>1</sup> |  Não                  |
+|Todos na empresa federada |  Sem<sup>2</sup> |  Não                  |
 |Todos na empresa           |  Sim             |  Sim                 |
 |Grupos/pessoas específicos      |  Sim             |  Sim                 |
 
-<sup>1</sup> só pode assistir a eventos dinâmicos como usuários anônimos.
+<sup>1</sup> pode assistir a eventos ao vivo se o evento ao vivo estiver configurado usando a opção de **toda a organização** .<br>
+<sup>2</sup> só pode assistir a eventos dinâmicos como usuários anônimos.
 
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Eventos ao vivo do Teams e transmissão de reunião do Skype
@@ -89,8 +91,8 @@ A tabela a seguir destaca os principais recursos e recursos oferecidos em evento
 |Apresentar um PowerPoint (compartilhamento do PPT) |&#x2714; |X (minimizado via compartilhamento de tela) |N/D |
 |Gravação de reunião baseada na nuvem |&#x2714; |&#x2714; |&#x2714; |
 |Publicação automática de gravação em fluxo |X |X |&#x2714; |
-|Legendas e translação em tempo real |&#x2714; |&#x2714; (disponível em breve) |X |
-|Legendas em gravações de eventos dinâmicos |&#x2714; |&#x2714; (disponível em breve) |&#x2714; |
+|Legendas e legendas ao vivo |&#x2714; |&#x2714; |X |
+|Legendas em gravações de eventos dinâmicos |&#x2714; |&#x2714; |&#x2714; |
 |Controles de DVR de participantes (pausa, retrocesso) |&#x2714; |&#x2714; |&#x2714; |
 |Suporte a eCDN de parceiros |&#x2714; (Hive, Kollective, rampa) |&#x2714; (Hive, Kollective, rampa) |&#x2714; (Hive, Kollective, rampa) |
 |Relatório de presença pós-transmissão para produtores |&#x2714; |&#x2714; |X |

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: 'Resumo: Saiba mais sobre suas opções para planejar uma solução de comunicação e comunicação unificada no Skype for Business Server.'
-ms.openlocfilehash: 7d9df9b8b5997a08a04ddcc802914b0dc01a23c0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 896bdcaabce3a22a9cda20a3eee108c3bb85e4f9
+ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276870"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35602166"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Planejar sua solução Enterprise Voice no Skype for Business Server
  
@@ -27,7 +27,7 @@ ms.locfileid: "34276870"
   
 O Skype for Business Server oferece duas opções locais de voz do Skype: Enterprise Voice e chamada via trabalho – para você integrar o sistema telefônico da sua organização com a implantação do Skype for Business Server, para fazer uma comunicação unificada verdadeira Solution. Ambas as opções permitem que os usuários usem o cliente Skype for Business para iniciar chamadas de voz com outros usuários, dentro e fora da sua organização.
   
-Você também pode aproveitar os serviços do Microsoft Cloud PBX, incluindo serviços PBX e chamadas PSTN, conectando sua infraestrutura de telefonia local a serviços fornecidos pelo Skype for Business online. Para obter mais informações, consulte [planejar o sistema telefônico na solução do Office 365 (Cloud PBX)](../../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md).
+Você também pode aproveitar os serviços do Microsoft Cloud PBX, incluindo serviços PBX e chamadas PSTN, conectando sua infraestrutura de telefonia local a serviços fornecidos pelo Skype for Business online. Para obter mais informações, consulte [voz na nuvem no Microsoft Teams](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page).
   
 Você também pode usar o Enterprise Voice e fazer chamadas via trabalho em conjunto.
   
