@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: Este artigo resume os requisitos para dar suporte a salas do Microsoft Teams.
-ms.openlocfilehash: 44f077bde6ec767b3897b25bfe8d0cbf05b6ac37
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 06e6a5c7c601ae4aa4c0411844aaa368aeacea74
+ms.sourcegitcommit: bd9b29cdaa183b1f5cc2d643a5a2d231a56a2c3f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418213"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "35614248"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de salas do Microsoft Teams
 
@@ -73,6 +73,7 @@ As salas do Microsoft Teams podem ser dimensionadas para diferentes tamanhos de 
 |[Logitech Tap + NUC](https://www.logitech.com/en-us/product/tap?crid=1691)|Core i5|DIMM |GB |
 |[Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|DIMM|GB|
 |[Controlador de toque do Logitech Touch para salas de reunião de vídeo](https://www.logitech.com/en-us/product/tap) |Core i5  |DIMM  |240GB  |  
+|[Yealink MVC500](https://www.yealink.com/products_126.html)|Core i5|DIMM |GB |
 |||||
 
 > [!NOTE]

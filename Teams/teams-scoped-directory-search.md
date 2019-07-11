@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf65cec72c21e34e0aab8338d20ae36549497846
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 068a37af62ea31c53caed8c9dc22feec6fd60ec6
+ms.sourcegitcommit: bd9b29cdaa183b1f5cc2d643a5a2d231a56a2c3f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221727"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "35614256"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Usar a pesquisa de diretório no escopo do Microsoft Teams
 
@@ -53,6 +53,5 @@ Para saber como usar as políticas do catálogo de endereços, leia [as polític
 
     ![Pesquisa de diretório em escopo no centro de administração do Microsoft Teams](media/teams-scoped-directory-search-image1.png)
 
-> [!NOTE]
-> As configurações híbridas (equipes com o Exchange local) não dão suporte ao modo de pesquisa com escopo. 
+
 

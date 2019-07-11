@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 05c870dd953a0be959c59996820b3f11bf721521
-ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
+ms.openlocfilehash: 5bedaee766005787bb7b532f4f5561faf91dd35d
+ms.sourcegitcommit: bd9b29cdaa183b1f5cc2d643a5a2d231a56a2c3f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591651"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "35614201"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem
 
@@ -62,6 +62,9 @@ O Microsoft Teams funciona com vários serviços do Office 365 para fornecer aos
 - Os usuários devem estar habilitados para a criação do grupo do Office 365 para criar equipes no Microsoft Teams.
 
 - Para permitir que o Microsoft Teams funcione com o Exchange local, você deve configurar o novo protocolo de autenticação OAuth do Exchange conforme descrito em [Configurar a autenticação OAuth entre as organizações Exchange e Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
+
+> [!NOTE]
+>Para a integração do Exchange local e das equipes, a licença necessária precisa ser atribuída para o usuário sincronizado do AAD.
 
 ## <a name="additional-considerations"></a>Considerações adicionais
 
