@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Saiba mais sobre como gerenciar contas de recursos no Microsoft Teams
-ms.openlocfilehash: 4dcb9327efba7be70628ad71a90734940fc3317e
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: 947f01f6a305c723558273feb5da477078c4fd71
+ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394496"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35643167"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gerenciar contas de recursos no Microsoft Teams
 
@@ -38,13 +38,17 @@ No Microsoft Teams ou no Skype for Business Online, cada fila de chamadas ou ate
 
 Se o seu serviço de sistema telefônico precisará de um número de serviço, as várias dependências podem ser atendidas na seguinte sequência:
 
-1. Obter um número de serviço
-2. Comprar uma licença do sistema de telefonia (Office 365 Enterprise E1 ou E3 com o sistema telefônico adicionado ou o Office 365 Enterprise E5 que inclui o sistema telefônico)
-3. Criar a conta do recurso. Um atendedor automático ou fila de chamadas é necessário para ter uma conta de recurso associada.
-4. Atribua a licença do sistema de telefone à conta do recurso.
-5. Atribuir um número de telefone à conta do recurso.
-6. Criar um serviço do sistema telefônico (uma fila de chamadas ou um atendedor automático)
-7. Associar a conta de recurso a um serviço: (novo-CsApplicationInstanceAssociation)
+1. Obter um número de serviço.
+2. Criar a conta do recurso. Um atendedor automático ou fila de chamadas é necessário para ter uma conta de recurso associada.
+3. Obter um sistema telefônico ou uma licença de usuário virtual do sistema telefônico.
+4. Compre um plano de chamadas doméstica ou internacional.
+5. Atribua à conta de recurso o sistema telefônico ou uma licença de usuário virtual do sistema telefônico.
+6. Atribua uma licença de plano de chamada à conta do recurso.
+7. Atribua uma licença de créditos de comunicações à conta do recurso.
+8. Configure créditos de comunicação e configure o recarregamento automático para a sua organização.
+9. Atribua um número de telefone de serviço à conta de recurso à qual você acabou de atribuir licenças.
+10. Criar um serviço do sistema telefônico (uma fila de chamadas ou um atendedor automático).
+11. Vincule a conta do recurso a um serviço.
 
 Se o atendedor automático ou a fila de chamadas estiverem aninhados em um atendedor automático de nível superior, a conta do recurso associado só precisará de um número de telefone se você quiser vários pontos de entrada na estrutura de atendedores automáticos e filas de chamadas.
 
@@ -64,18 +68,20 @@ A criação de uma conta de recurso que usa um número de telefone exigiria a ex
 
    Antes de atribuir um número de telefone a uma conta de recurso, você precisará adquirir ou portar seus números de serviço de chamada tarifada ou chamada gratuitas existentes. Depois de obter os números de telefone de serviço de chamada tarifada ou gratuita, eles serão exibidos no **Centro** > de administração do Microsoft Teams para**números de telefone**de**voz** > , e o **tipo de número** listado será listado como **serviço-chamada gratuita**. Para obter seus números de serviço, consulte [obtendo números de telefone de serviço](getting-service-phone-numbers.md) ou se você quiser transferir um número de serviço existente, consulte [transferir números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md).
 
-2. Comprar uma licença do sistema de telefonia. Vejam  
-   - [Office 365 Enterprise E1 e E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
-   - [Office 365 Enterprise E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
-   - [Office 365 Enterprise E5 software para empresas](https://products.office.com/business/office-365-enterprise-e5-business-software)
+   Se você estiver atribuindo um número de telefone a uma conta de recurso, agora poderá usar a licença de usuário virtual do sistema de telefone sem custo. Isso fornece recursos do sistema telefônico para números de telefone no nível organizacional e permite criar atendedores automáticos e recursos da fila de chamadas.
 
-3. Criar uma nova conta de recurso. Consulte [criar uma conta de recurso no centro de administração do Microsoft Teams](#create-a-resource-account-in-microsoft-teams-admin-center) ou [criar uma conta de recurso no PowerShell](#create-a-resource-account-in-powershell)
-4. Atribua a licença do sistema de telefone à conta do recurso. Consulte [atribuir licenças do Microsoft Teams](assign-teams-licenses.md) e [atribuir licenças a um usuário](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
-5. Atribua o número de serviço à conta do recurso. Consulte [atribuir/cancelar a atribuição de números de telefone e serviços](#assignunassign-phone-numbers-and-services).
-6. Configure um dos seguintes procedimentos:
+2. Criar uma nova conta de recurso. Consulte [criar uma conta de recurso no centro de administração do Microsoft Teams](#create-a-resource-account-in-microsoft-teams-admin-center) ou [criar uma conta de recurso no PowerShell](#create-a-resource-account-in-powershell)
+3. Obter um sistema telefônico ou uma licença de usuário virtual do sistema telefônico. No centro de administração do Microsoft 365, acesse**assinaturas complementares** de**Serviços** > de compra de **cobrança** > e role até o fim-você verá a licença "sistema de telefonia-usuário virtual". Selecione **comprar agora**.
+4. Compre um [plano de chamadas](calling-plans-for-office-365.md)doméstica ou internacional.
+5. Atribua a licença do sistema de telefone à conta do recurso. Consulte [atribuir licenças do Microsoft Teams](assign-teams-licenses.md) e [atribuir licenças a um usuário](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
+6. Atribua uma licença de plano de chamada à conta do recurso. Consulte [atribuir licenças do Microsoft Teams](assign-teams-licenses.md) para obter mais informações.
+7. Atribua o número de serviço à conta do recurso. Consulte [atribuir/cancelar a atribuição de números de telefone e serviços](#assignunassign-phone-numbers-and-services).
+8. Configure créditos de comunicação e configure o recarregamento automático para a sua organização. [Atribua uma licença de créditos de comunicações](set-up-communications-credits-for-your-organization.md#step-3-assign-a-communications-credits-license-to-users) à conta do recurso.
+9. [Atribua um número de telefone de serviço](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge) à conta de recurso à qual você acabou de atribuir licenças. 
+10. Configure um dos seguintes procedimentos:
    - [Atendedor automático na nuvem](create-a-phone-system-auto-attendant.md)
    - [Fila de chamadas em nuvem](create-a-phone-system-call-queue.md)
-7. Atribua a conta de recurso ao serviço. Ver [atribuir/cancelar a atribuição de números de telefone e serviços](#assignunassign-phone-numbers-and-services)
+11. Vincule a conta do recurso ao atendedor automático ou à fila de chamadas. Ver [atribuir/cancelar a atribuição de números de telefone e serviços](#assignunassign-phone-numbers-and-services)
 
 ### <a name="create-a-resource-account-without-a-phone-number"></a>Criar uma conta de recurso sem um número de telefone
 
@@ -89,7 +95,7 @@ A criação de uma conta de recurso que não precisa de um número de telefone e
 
 ## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>Criar uma conta de recurso no centro de administração do Microsoft Teams
 
-Depois de comprar uma licença do sistema de telefonia e um plano de chamada usando o centro de administração do Microsoft Teams, navegue até > **contas de recursos**de **configurações de toda a organização**.
+Depois de comprar uma licença do sistema telefônico, use o centro de administração do Microsoft Teams para acessar as > **contas de recursos** **das configurações de toda a organização**.
 
 ![Captura de tela da página contas do recurso](media/r-a-master.png)
 

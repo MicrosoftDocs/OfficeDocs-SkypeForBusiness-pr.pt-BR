@@ -11,15 +11,15 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Resumo: saiba como conectar o Skype for Business Server ao Skype consumidor. Também conhecida como conectividade com o Skype.'
-ms.openlocfilehash: 1f03b873299828dedf6c0ffca113d60d277bf65c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: eae06688e06f143011d4bd6559d6bcbb7b9b61aa
+ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302828"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35643175"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Implantar a conectividade do Skype no Skype for Business Server
- 
+
 **Resumo:** Saiba como conectar o Skype for Business Server com o Skype Consumer. Também conhecida como conectividade com o Skype.
   
 Este artigo apresenta o passo a passo da implantação da Conectividade Skype.
@@ -96,49 +96,48 @@ O Skype for Business Server usa a arquitetura de acesso à Federação para dar 
 > [!NOTE]
 > Se o Skype for Business Server já estiver configurado para conectar-se ao Windows Messenger usando PIC (conectividade a redes públicas de mensagens instantâneas), sua implantação já está configurada para a Conectividade Skype. A única mudança que você pode considerar é renomear sua entrada existente de PIC no Messenger como Skype.  
   
-### <a name="accessing-the-skype-for-business-server-public-im-connectivity-provisioning-site-from-skype-for-business-server"></a>Acessando o site de configuração de conectividade de mensagens instantâneas públicas do Skype for Business Server no Skype for Business Server
+### <a name="the-skype-for-business-server-public-im-connectivity-provisioning-site-is-no-longer-available"></a>O site de configuração de conectividade de mensagens instantâneas públicas do Skype for Business Server não está mais disponível
 
-A conclusão desse processo de provisionamento pode levar até trinta dias ou levar apenas alguns dias, de acordo com o volume de solicitações. Recomendamos que você inicie esse processo primeiro, antes de realizar as demais etapas descritas neste documento. Depois que o processo de provisionamento do Skype for concluído para a sua conta, a conta será ativada e seus usuários elegíveis serão habilitados para conectividade a redes públicas de mensagens instantâneas.  
+O site que antes era usado para provisionar manualmente a Federação entre implantações locais do Skype for Business e o Skype não é mais necessário e será desligado no 8/15/2019. A Federação com o Skype agora usa a descoberta de parceiro federado, que é o mesmo mecanismo necessário para federação com o Skype for Business online.
+
+A comunicação entre qualquer implantação do Skype for Business no local e usuários do Skype por meio da infraestrutura de IM pública existente agora requer que a configuração do servidor de borda local seja compatível com o Skype for Business online.
+
+> [!NOTE]
+> Nenhuma ação é necessária para a maioria dos clientes, incluindo todas as implantações que se agrupam com o Skype for Business online.
   
-Para provisionar a Conectividade Skype, você precisa das seguintes informações:
-  
-- Número do contrato da Microsoft
-    
-- Nome de domínio totalmente qualificado (FQDN) do serviço de Borda de Acesso
-    
-- Domínios do protocolo SIP
-    
-- Qualquer FQDN adicional do serviço de Borda de Acesso
-    
-- Informações de contato
-    
-Para iniciar o processo de provisionamento para Conectividade Skype:
-  
-1. Entre no site, https://pic.lync.comusando o Microsoft Windows Live ID.
-    
-2. Selecione o tipo de contrato de licenciamento da Microsoft.
-    
-3. Marque a caixa de seleção, confirmando que você leu e aceita os Direitos de Uso do Produto do Skype for Business Server.
-    
-4. Na página Iniciar uma Solicitação de Provisionamento, clique no link apropriado para iniciar uma solicitação de provisionamento:
-    
-5. Na página Especificar Informações de Provisionamento, insira o FQDN do serviço de Borda de Acesso. Por exemplo, sip.contoso.com.
-    
-    > [!IMPORTANT]
-    > A partir de 1º de julho de 2017, a Microsoft vai exigir, adicionalmente, que os clientes tenham o registro SRV DNS da Federação implantado para o funcionamento da conectividade a redes públicas de mensagens instantâneas.  
-  
-6. Insira pelo menos um ou mais nomes de domínio SIP e clique em Adicionar.
-    
-    > [!NOTE]
-    > Pelo menos um servidor de Borda de Acesso é necessário para concluir o processo de provisionamento. Enquanto um único FQDN de Borda de Acesso pode oferecer suporte a vários domínios SIP, um único domínio SIP não pode ser representado por mais de um FQDN de Borda de Acesso. O domínio SIP e o servidor de Borda de Acesso devem estar ativos, em funcionamento e acessíveis na rede.              
-  
-7. Na lista de Provedores de Serviço Público de Mensagens Instantâneas, selecione Skype e clique em Avançar para adicionar informações de contato e enviar a solicitação de provisionamento.
-    
-Após o envio da solicitação de provisionamento, pode levar até 30 dias para a conta ser ativada e os usuários serem habilitados para Conectividade Skype, mas o processo pode levar apenas alguns dias, de acordo com a fila de solicitações.
-  
+Implantações locais são necessárias para publicar um registro SRV DNS de Federação para cada domínio que eles hospedam. As diretrizes estão disponíveis no [planejamento de DNS](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning). Cada domínio deve ser resolvido pela consulta SRV DNS para um FQDN do servidor de borda que satisfaça a correspondência de sufixo de nível superior do domínio. Por exemplo, considere o domínio "contoso.com":
+
+|**FQDNs válidos**|**Comentário**|
+|:-----|:-----|
+|sip.contoso.com   ||
+|sipfed.contoso.com   |Em cada caso, o FQDN exato deve estar presente na opção SN ou SAN do certificado externo instalado no servidor de borda.   |
+|access.contoso.com   ||
+|**FQDNs inválidos**|**Motivo**|
+|sip.contoso-edge.com   |Não é uma correspondência de sufixo.  |
+|sip.it.contoso.com   |Não há correspondência de sufixo de nível superior.   |
+
+Diretrizes adicionais sobre certificados externos podem ser encontradas no [planejamento de certificado](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#certificate-planning).
+
+#### <a name="faqs"></a>Freqüente
+
+**Por que o site de provisionamento está sendo desligado?**
+O mecanismo de provisionamento do sistema de mensagens de chat (PIC) pública (PIC) que foi implantado no 2006 não é mais útil e será desligado no 8/15/2019. Em vez disso, a Federação de IM pública presumirá o mesmo modelo de Federação usado pelo Skype for Business Online, conhecido como "descoberta de parceiro", no qual uma implantação local é divulgada publicamente pelo (s) registro (s) SRV DNS de Federação.
+
+**Essa alteração significa que a Federação de mensagem instantânea pública está sendo preterida?**
+Não. A Federação de mensagem de chat pública continuará disponível por muitos anos, provavelmente até que o produto Skype for Business no local atinja o fim da vida.
+
+**Nossa empresa tem uma relação híbrida (espaço de endereço compartilhado) com o Skype for Business Online, estamos afetados?**
+Não, como você já está se agrupando com o Skype for Business Online, essa alteração não irá afetá-lo.
+ 
+**Essa alteração significa que nossa empresa tem de habilitar a Federação com o Skype for Business Online?**
+Não. Se as configurações de proxy do servidor de borda não habilitarem Federação com o provedor de hospedagem do Skype for Business online (sipfed.online.lync.com), essa alteração não afetará isso. No entanto, os mesmos requisitos de DNS e certificado que se aplicam à Federação com o Skype for Business online agora também se aplicam à Federação com usuários do Skype.
+ 
+**Nossa empresa é grande e não pode mudar sua configuração de borda devido a razões legais/de conformidade/etc... o que podemos fazer?**
+Qualquer organização local que não pode alterar a configuração do servidor de borda conforme especificado deve entrar em contato com o suporte ao produto da primeira oportunidade.
+
 ### <a name="enabling-federation-and-public-im-connectivity-pic"></a>Habilitando a federação e a PIC
 
-Após o envio da solicitação de provisionamento, você pode concentrar-se nas tarefas administrativas e nas tarefas relacionadas ao ambiente do Skype necessárias para configurar a Conectividade Skype. Nesta seção, presumimos que o administrador implantou o Skype for Business Server e configurou o acesso externo, também conhecido como servidores de borda.  
+Agora, concentre-se no ambiente do Skype for Business e nas tarefas administrativas necessárias para configurar a conectividade com o Skype. Nesta seção, presumimos que o administrador implantou o Skype for Business Server e configurou o acesso externo, também conhecido como servidores de borda. 
   
 Há três etapas principais necessárias para habilitar a federação e a PIC. São elas:
   
@@ -153,7 +152,7 @@ Há três etapas principais necessárias para habilitar a federação e a PIC. S
 A federação é necessária para permitir que os usuários do Skype se comuniquem com os usuários do Skype for Business em sua organização. A PIC é uma classe de federação e deve ser configurada para permitir que seus usuários do Skype for Business se comuniquem com os usuários do Skype. A federação e a PIC são configuradas por meio do Painel de Controle do Skype for Business.
   
 > [!NOTE]
-> A federação de PIC não tem mais suporte no Live Communication Server 2005 SP1 e no Office Communications Server 2007. As plataformas com suporte para a Federação PIC incluem o Skype for Business Server, o Lync Server 2013, o Lync Server 2010 e o Office Communications Server 2007 R2. 
+> A Federação de PIC não é mais suportada por versões de produto anteriores ao Lync Server 2010 (Live Communication Server, Office Communications Server). As plataformas com suporte para a Federação PIC incluem Skype for Business Server, Lync Server 2013 e Lync Server 2010. 
   
 A federação é necessária para permitir que os usuários do Skype se comuniquem com os usuários do Skype for Business em sua organização. A PIC é uma classe de federação e deve ser configurada para permitir que seus usuários do Skype for Business Server se comuniquem com os usuários do Skype. A federação e a PIC são configuradas por meio da caixa de diálogo de configuração de borda do Painel de Controle do Skype for Business, conforme mostra a figura.
   

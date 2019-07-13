@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba o que o sistema telefônico pode fazer por você. '
-ms.openlocfilehash: 60978b76eb6bf986c5db0b1a8ee04de1c5516c73
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 14ac7202232fc69636d4019e701cd562302026dd
+ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548952"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35643135"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>O que é o Sistema de Telefonia no Office 365?
 
@@ -41,9 +41,9 @@ Para habilitar chamadas para telefones fixos e celulares, o Sistema de Telefonia
   
 - Comprando um plano de chamadas (doméstico ou doméstica e internacional) para o Office 365. Ver o [sistema telefônico e os planos de chamada](calling-plan-landing-page.md)
     
-- Usando a conectividade PSTN local, onde o software local se conecta à sua infraestrutura de telefonia existente. Consulte [planejando o sistema telefônico](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution).
 
-![Diagrama que descreve as ofertas de Cloud PBX](media/29fd12ab-e86f-422d-b4d6-0b75824211bc.png).
+- Usando a conectividade PSTN local, onde o software local se conecta à sua infraestrutura de telefonia existente. Consulte [soluções de telefonia da Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
+
 
 ## <a name="more-about-calling-plans"></a>Mais sobre planos de chamada
 

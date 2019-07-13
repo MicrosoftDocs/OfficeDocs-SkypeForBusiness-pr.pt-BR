@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: M365-voice
 description: Este artigo discute melhorias cumulativas nas salas do Microsoft Teams.
-ms.openlocfilehash: 39101550be48703c3feaa367e3740f9f3c7dba9f
-ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
+ms.openlocfilehash: f6fc9bb36a4b34d9e900666bf14df0c4d0893c46
+ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35062407"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35643127"
 ---
 # <a name="release-notes"></a>Notas de versão 
 
@@ -27,6 +27,7 @@ Este artigo discute melhorias cumulativas nas salas do Microsoft Teams.
 
 | Liberação | Publicado em <br>Microsoft Store | 
 | ---     | ---  |
+| 4.0.105.0 | 07/10/2019   |
 | 4.0.85.0 | 04/08/2019   |
 | 4.0.78.0 | 03/14/2019   |
 | 4.0.76.0 | 03/04/2019   |
@@ -53,6 +54,20 @@ Este artigo discute melhorias cumulativas nas salas do Microsoft Teams.
 | RTM (1.0.8) | 12/7/2016  | 
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Introdução ao recurso salas do Microsoft Teams e resolução de problemas
+### <a name="401050-07102019"></a>4.0.105.0 (07/10/2019)
+
+Apresentado nesta atualização:
+- Remarcando aplicativos da loja do sistema da sala Skype para "sala do Microsoft Teams"
+- Alinhamento da interface do usuário do console de sala do Microsoft Teams ao Microsoft Teams
+- Atualização de tema para manter apenas a imagem de tela de fundo personalizada na frente dos monitores de sala ao fazer uma cor neutra de plano de fundo do console para garantir que os controles da interface do usuário do console atendam
+- Barra universal para controles de chamada em reunião para chamadas de equipe/reuniões para oferecer uma experiência consistente com o Microsoft Teams PC/Web/móvel clientes<sup>1</sup>
+- Classificação de comentários de qualidade da chamada após chamadas/reuniões do teams<sup>1</sup>
+- Receber/renderizar o Microsoft Whitebord no Microsoft Teams Room na sala de exibição de sala quando compartilhadas do cliente da equipe do PC/Web/celular<sup>1</sup>  <sup>2</sup>
+- Foi removido o suporte para a atualização para o Windows 10 versão 1809 devido a problemas de compatibilidade encontrados com o cliente da sala Microsoft Teams. O suporte do Windows 10 versão 19H1 será adicionado em lançamentos futuros
+
+<sup>1</sup> distribuição de serviço do Microsoft Teams usando anéis do teams. Esse recurso pode estar disponível antes ou depois da atualização do cliente 4.0.105.0
+
+<sup>2</sup> exige que os administradores de ti habilitem o Microsoft whiteboard Web. Além disso, se você tiver o recurso de exibição de sala de toque, você deve calibrar várias telas de toque usando as configurações do Windows com o logon de dispositivo do administrador para começar a usar o Microsoft whiteboard para collboration da exibição da sala depois de compartilhado para a reunião
 
 ### <a name="40850-0482019"></a>4.0.85.0 (04/8/2019)
 

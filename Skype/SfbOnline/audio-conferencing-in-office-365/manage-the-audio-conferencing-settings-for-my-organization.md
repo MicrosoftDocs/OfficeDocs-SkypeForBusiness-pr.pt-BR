@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Confira as etapas do Skype for Business online para atribuir uma ID de conferência e uma licença de conferência discada para um usuário e muitas outras configurações de conferência discada. '
-ms.openlocfilehash: e699cf51f3a9366cdd86004e48eeb18235849680
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: aef115d2882a368e085880a66332dc7d22e4ff04
+ms.sourcegitcommit: e65411a739c539d5232ebc89af3630d07d518b89
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494242"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35638560"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Gerenciar as configurações da Audioconferência para minha organização no Skype for Business Online
 
@@ -83,11 +83,11 @@ Pode ser mais fácil para você ver todas as configurações de audioconferênci
   Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
   ```
 
-    Você pode usar o [set-csonlinedialinconferencingtenantsettingshttp](https://go.microsoft.com/fwlink/?LinkId=627285) para gerenciar outras configurações de sua organização, incluindo o email.
+    Você pode usar o [set-csonlinedialinconferencingtenantsettingshttp](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) para gerenciar outras configurações de sua organização, incluindo o email.
 
 ## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>Alterar as informações de contato do remetente nas mensagens de email enviadas aos usuários
 
-You can make changes to the email that is automatically sent to your users, including the actual email address and the display name of the sender's contact information. By default, the sender of the emails is Office 365, but you can change the email address and display name using Windows PowerShell and the [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) cmdlet. To make changes to the email address that is sending the email to the users, you must:
+You can make changes to the email that is automatically sent to your users, including the actual email address and the display name of the sender's contact information. By default, the sender of the emails is Office 365, but you can change the email address and display name using Windows PowerShell and the [Set-CsOnlineDialInConferencingTenantSettings](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) cmdlet. To make changes to the email address that is sending the email to the users, you must:
 
 - Digite o endereço de email no parâmetro _SendEmailFromAddress_ .
 
@@ -103,7 +103,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 Se você quiser alterar as informações do endereço de email, deve verificar se as políticas de recebimento de email de sua organização permitem emails do endereço de email personalizado.
 
-Você pode usar o cmdlet [set-csonlinedialinconferencingtenantsettingshttp](https://go.microsoft.com/fwlink/?LinkId=627285) para gerenciar outras configurações de sua organização, incluindo o email.
+Você pode usar o cmdlet [set-csonlinedialinconferencingtenantsettingshttp](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) para gerenciar outras configurações de sua organização, incluindo o email.
 
 Veja [os emails enviados automaticamente para os usuários quando as configurações de conferência de áudio mudam](emails-sent-to-users-when-their-settings-change.md).
 
@@ -261,7 +261,7 @@ Veja [ver uma lista de números de audioconferência](see-a-list-of-audio-confer
 
 2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
 
-3. No **centro de administração do Skype for Business**, no painel de navegação esquerdo, vá para **videoconferências**de > e, em seguida, **usuários**.
+3. No **centro de administração do Skype for Business**, no painel de navegação esquerdo, vá para **videoconferências**> e depois **usuários**.
 
 Veja [Ver uma lista de usuários habilitados para conferência de áudio](see-a-list-of-users-that-are-enabled-for-audio-conferencing.md).
 
