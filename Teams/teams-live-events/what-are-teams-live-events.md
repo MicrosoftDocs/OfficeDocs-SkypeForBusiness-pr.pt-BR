@@ -1,7 +1,7 @@
 ---
 title: O que são os eventos ao vivo do Microsoft Teams ?
-author: tonysmith
-ms.author: tonysmit
+author: chuckedmonson
+ms.author: chucked
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -14,12 +14,12 @@ description: Saiba como eventos dinâmicos permitem que os usuários transmitam 
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2466ba45ecf043b7ce416ce7f94c2d47c201b262
-ms.sourcegitcommit: 5791b98589e64df2e2bcd96f05fd2f869a65861f
+ms.openlocfilehash: 8bbcb38e95a2ed44d022a4412e035238fea6282c
+ms.sourcegitcommit: 8052c2a6a29d65dcb8a6fa8baacb5568d798b0fa
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35420048"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "35756918"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>O que são os eventos ao vivo do Microsoft Teams ?
 
@@ -29,9 +29,9 @@ Com os eventos do teams Live, os usuários em sua organização podem transmitir
 
 Os eventos dinâmicos do Microsoft 365 dão transmissão de vídeo ao vivo para um novo nível, incentivando a conexão durante todo o ciclo de vida do compromisso com os participantes antes, durante e depois dos eventos ao vivo. Você pode criar um evento ao vivo em qualquer lugar em que seu público, equipe ou comunidade reside, usando o Microsoft Stream, o Teams ou o Yammer.  
 
-O Microsoft Teams oferece colaboração, chamadas, reuniões e eventos dinâmicos baseados em chat para que você possa expandir a audiência de suas reuniões. Os eventos dinâmicos do teams são uma extensão das reuniões do Teams, permitindo que os usuários transmitam conteúdo de vídeo e de reunião para um grande público online. Elas se destinam a comunicações um-para-muitos em que o host do evento está liderando as interações e a participação da audiência é principalmente para exibir o conteúdo compartilhado por host. Os participantes podem assistir ao evento ao vivo ou ao vivo no Yammer, ao Teams e/ou ao Stream e podem interagir com os apresentadores usando uma conversa em p & ou uma conversa do Yammer moderada. 
+O Microsoft Teams oferece colaboração, chamadas, reuniões e eventos dinâmicos baseados em chat para que você possa expandir a audiência de suas reuniões. Os eventos dinâmicos do teams são uma extensão das reuniões do Teams, permitindo que os usuários transmitam conteúdo de vídeo e de reunião para um grande público online. Elas se destinam a comunicações um-para-muitos em que o host do evento está liderando as interações e a participação da audiência é principalmente para exibir o conteúdo compartilhado por host. Os participantes podem assistir ao evento ao vivo ou ao vivo no Yammer, ao Teams e/ou ao Stream e podem interagir com os apresentadores usando uma conversa em p & ou uma conversa do Yammer moderada.
 
-Os eventos ao vivo do teams são considerados a próxima versão da transmissão de reunião do Skype e, eventualmente, substituirão os recursos fornecidos na transmissão de reunião do Skype. A esta altura, a Microsoft continuará a oferecer suporte à transmissão de reunião do Skype para os usuários que usam o Skype for Business em suas organizações, sem interrupções em serviço para eventos novos ou futuros. No entanto, recomendamos que você experimente eventos ao vivo do teams para aproveitar todos os novos e incríveis recursos, incluindo o compartilhamento de tela e o suporte para codificadores de hardware/software externos. 
+Os eventos ao vivo do teams são considerados a próxima versão da transmissão de reunião do Skype e, eventualmente, substituirão os recursos fornecidos na transmissão de reunião do Skype. A esta altura, a Microsoft continuará a oferecer suporte à transmissão de reunião do Skype para os usuários que usam o Skype for Business em suas organizações, sem interrupções em serviço para eventos novos ou futuros. No entanto, recomendamos que você experimente eventos ao vivo do teams para aproveitar todos os novos e incríveis recursos, incluindo o compartilhamento de tela e o suporte para codificadores de hardware/software externos.
 
 Então, vamos começar. Primeiro, dê uma olhada no diagrama a seguir que mostra componentes de alto nível envolvidos em eventos dinâmicos do Microsoft 365 e como eles estão conectados. 
 
@@ -42,6 +42,9 @@ Eventos dinâmicos no Microsoft Teams proporcionam várias funções (organizado
 
 ## <a name="key-components"></a>Componentes chave
 Você pode ver na imagem acima que há quatro componentes principais que são usados com eventos dinâmicos no Teams.
+
+> [!NOTE]
+> Para obter uma visão geral de como configurar eventos dinâmicos e a experiência do participante, confira estes [vídeos](https://support.office.com/en-us/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502)curtos.
 
 ### <a name="scheduling"></a>Plano
 O Microsoft Teams oferece a capacidade dos organizadores de criarem um evento com as permissões apropriadas do participante, designar os membros da equipe do evento, selecionar um método de produção e convidar participantes. Se o evento ao vivo foi criado dentro de um grupo do Yammer, os participantes do evento ao vivo poderão usar a conversa do Yammer para interagir com as pessoas no evento. 
