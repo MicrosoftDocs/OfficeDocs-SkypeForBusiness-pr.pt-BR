@@ -3,7 +3,6 @@ title: Autorizar o acesso para convidado no Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 04/01/19
 ms.topic: article
 ms.service: msteams
 MS.collection:
@@ -15,12 +14,12 @@ search.appverid: MET150
 description: Gerenciar recursos e funcionalidades de acesso de convidados no Microsoft Teams por meio de quatro níveis diferentes de autorização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11b088cd78e08263a18a646cd774d43e1294b028
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 3808a587de81c9d32fec15fce7bd942594b3aa82
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35222010"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35758916"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorizar o acesso para convidado no Microsoft Teams
 ===========================================
@@ -122,3 +121,7 @@ Você pode gerenciar as configurações de usuário externo do SharePoint Online
 ## <a name="guest-access-vs-external-access-federation"></a>Acesso de convidado vs. acesso externo (federação)
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+
+## <a name="related-topics"></a>Tópicos relacionados
+
+- [Referência das configurações de compartilhamento de convidados do Microsoft 365](https://docs.microsoft.com/Office365/Enterprise/microsoft-365-guest-settings)
