@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 'Resumo: examine os cenários das opções de implantação do Skype for Business Server. Se você deseja um único servidor ou prefere um pool de servidores com DNS ou HLB, este tópico deve ajudar.'
-ms.openlocfilehash: 6ef0fc7a19703d6eba0ec3bfa66c0b37fcece53f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6507f0ae0cae0712b261bfb772d5da9e528d3994
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297068"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35758939"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Planejamento DNS de servidor de borda avançado para o Skype for Business Server
  
@@ -112,7 +112,7 @@ Listaremos os registros de DNS das zonas internas e externas aqui, mas você pod
     
 - Todas as interfaces de borda interna do Skype for Business Server na sua rede de perímetro usam essa zona DNS interna para a resolução de consultas para o contoso.com.
     
-- Todos os servidores que executam o Skype for Business servem e clientes que executam o Skype for Business Server na rede corporativa, apontam para servidores DNS internos para a resolução de consultas para o contoso.com ou usam o arquivo host em cada servidor de borda e lista de A e AAAA (se você estiver usando Endereçamento IPv6) para o próximo servidor de salto (especificamente para o diretor de diretor ou diretor de diretor, VIP de pool de front-end ou servidor Standard Edition).
+- Todos os servidores que executam o Skype for Business Server e clientes que executam o Skype for Business Server na rede corporativa, apontam para servidores DNS internos para a resolução de consultas para o contoso.com ou usam o arquivo host em cada servidor de borda e lista de A e AAAA (se você estiver usando Endereçamento IPv6) para o próximo servidor de salto (especificamente para o diretor de diretor ou diretor de diretor, VIP de pool de front-end ou servidor Standard Edition).
     
 ### <a name="external-dns"></a>DNS Externo
 

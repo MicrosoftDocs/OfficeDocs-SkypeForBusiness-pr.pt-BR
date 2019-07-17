@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Resumo: Prepare seus servidores do Skype for Business Server 2015 com este tópico. Hardware, sistema operacional, bancos de dados, software, todos os requisitos de sistema e recomendações estão aqui para ajudar a garantir uma instalação e uma implantação bem-sucedidas do seu farm de servidores.'
-ms.openlocfilehash: 74b1a26f38a0055c8222b980754106011a86ce34
-ms.sourcegitcommit: 7d85a6784a21aec20dcaddd8940ffe95d532c2f4
+ms.openlocfilehash: 368c719ac4e61b62ab4c52c50433bf6cc996c886
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35134258"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35758946"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Requisitos de servidor no Skype for Business Server 2015
  
@@ -75,7 +75,7 @@ Após o hardware, você precisará instalar o sistema operacional (SO). Estes s�
 Se ele não estiver nesta lista, ele não funcionará corretamente, não tente fazê-lo para novas instalações do Skype for Business Server 2015.
   
 > [!NOTE]
-> Você pode ter notado que o Windows Server 2008 R2 não está na lista. Isso é porque recomendamos que o Windows Server 2012 R2 seja usado para todos os novos servidores para SFB. Você só deve usar o Windows Server 2008 R2 quando tiver servidores existentes com o Lync Server 2013 já instalados e se estiver pretendendo fazer uma atualização local deles. O Windows Server 2008 R2 chegou ao final do ciclo de vida do suporte principal em 1/13/2015. 
+> Você pode ter notado que o Windows Server 2008 R2 não está na lista. Isso é porque recomendamos que o Windows Server 2012 R2 seja usado para todos os novos servidores para SFB. Você só deve usar o Windows Server 2008 R2 quando tiver servidores existentes com o Lync Server 2013 já instalados e se estiver pretendendo fazer uma atualização local deles. O Windows Server 2008 R2 chegou ao final do ciclo de vida do suporte principal no 1/13/2015 e chegará ao final do ciclo de vida do suporte no 1/14/2020.
   
 Além da última versão do service pack, as atualizações a seguir devem estar instaladas quando for pertinente para você:
   

@@ -9,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Processo para verificar a coexistência do pool piloto com o pool herdado.
-ms.openlocfilehash: dd2edd2e6ecef26b22ba9bf5c093c631866110ff
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b41a1f24786fdf807f9c9c1d5854e397654fdadb
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280650"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35758901"
 ---
 # <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>Verificar coexistência de pool piloto com pool herdado
 
@@ -65,7 +65,7 @@ Essa topologia agora inclui funções de servidor herdadas e do Skype for Busine
 ## <a name="dont-attempt-to-open-the-topology-in-the-legacy-topology-builder"></a>Não tente abrir a topologia no construtor de topologias herdadas
 <a name="sectionSection2"> </a>
 
-Se você tentar abrir a topologia usando o construtor de topologias herdado, o erro será encontrado abaixo. A topologia só pode ser visualizada usando o construtor de topologias do Skype for Business Server 2019. O construtor de topologia do Skype for Business Server 2019 deve ser usado para criar pools para o Skype for Business Server 2019 e para a instalação herdada.
+A topologia só pode ser visualizada usando o construtor de topologias do Skype for Business Server 2019. O construtor de topologia do Skype for Business Server 2019 deve ser usado para criar pools para o Skype for Business Server 2019 e para a instalação herdada.
 
   
 
