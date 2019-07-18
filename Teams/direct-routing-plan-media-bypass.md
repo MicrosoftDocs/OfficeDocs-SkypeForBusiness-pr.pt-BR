@@ -14,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Leia este tópico para saber como planejar o bypass de mídia com o roteamento direto do sistema telefônico.
-ms.openlocfilehash: e309b0a21374cb0ea7e02bec82404474947215aa
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: af15adde3638adae72c85c5ca8b1301a18b4388e
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394575"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35768168"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planejar o bypass de mídia com Roteamento Direto
 
@@ -234,7 +234,7 @@ Você precisa abrir as portas 3478 e 3479 para fazer a transição. Quando a Mic
 
 ### <a name="requirements-for-using-media-processors"></a>Requisitos para usar processadores de mídia
 
-Processadores de mídia estão sempre no caminho de mídia para aplicativos de voz. Os requisitos são iguais aos da configuração não bypass.
+Processadores de mídia estão sempre no caminho de mídia para aplicativos de voz e para Web cleints (para exampe, Teams cleint no Microsoft Edge ou Google Chrome). Os requisitos são iguais aos da configuração não bypass.
 
 
 O intervalo IP para tráfego de mídia é 52.112.0.0/14 (endereços IP de 52.112.0.1 para 52.115.255.254).
@@ -282,9 +282,9 @@ Para obter informações sobre como configurar dois troncos no mesmo SBC, consul
 
 ## <a name="client-endpoints-supported-with-media-bypass"></a>Pontos de extremidade do cliente com suporte com bypass de mídia
 
-O bypass de mídia é compatível com todos os pontos de extremidade do Teams, exceto clientes Web da Teams, até notificação adicional. 
+O bypass de mídia é compatível com todos os pontos de extremidade do teams.
 
-Se seus usuários preferem o aplicativo Web Teams no Microsoft Edge, Google Chrome ou Mozilla Firefox, o bypass de mídia para tais usuários deve ser desativado. Introduziremos a chamada usando um tronco habilitado para bypass de mídia no futuro.   
+Observação para webcleints (aplicativo Web Teams no Microsoft Edge, Google Chrome ou Mozilla Firefox), veremos a chamada para não bypass, mesmo que ele tenha começado como uma chamada de bypass. Isso acontece automaticamente e não requer nenhuma ação no administrador. 
  
 ## <a name="see-also"></a>Confira também
 

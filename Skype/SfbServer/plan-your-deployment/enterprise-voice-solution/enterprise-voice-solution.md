@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: 'Resumo: Saiba mais sobre suas opções para planejar uma solução de comunicação e comunicação unificada no Skype for Business Server.'
-ms.openlocfilehash: 896bdcaabce3a22a9cda20a3eee108c3bb85e4f9
-ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
+ms.openlocfilehash: ec2e4710f238529b448a0388a3347e40611ee7d4
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35602166"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35768029"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Planejar sua solução Enterprise Voice no Skype for Business Server
  
@@ -27,7 +27,7 @@ ms.locfileid: "35602166"
   
 O Skype for Business Server oferece duas opções locais de voz do Skype: Enterprise Voice e chamada via trabalho – para você integrar o sistema telefônico da sua organização com a implantação do Skype for Business Server, para fazer uma comunicação unificada verdadeira Solution. Ambas as opções permitem que os usuários usem o cliente Skype for Business para iniciar chamadas de voz com outros usuários, dentro e fora da sua organização.
   
-Você também pode aproveitar os serviços do Microsoft Cloud PBX, incluindo serviços PBX e chamadas PSTN, conectando sua infraestrutura de telefonia local a serviços fornecidos pelo Skype for Business online. Para obter mais informações, consulte [voz na nuvem no Microsoft Teams](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page).
+Você também pode aproveitar os serviços do Microsoft Cloud PBX, incluindo serviços PBX e chamadas PSTN, conectando sua infraestrutura de telefonia local a serviços fornecidos pelo Skype for Business online. Para obter mais informações, consulte [soluções de telefonia da Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
   
 Você também pode usar o Enterprise Voice e fazer chamadas via trabalho em conjunto.
   

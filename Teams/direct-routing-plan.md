@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Leia este tópico para saber como o roteamento direto do sistema de telefone da Microsoft permite que você conecte um controlador de borda de sessão (SBC) compatível com o cliente ao Microsoft Phone System.
-ms.openlocfilehash: 06a5764cc0dd022f1a3077e9b00580a3dc95bfe9
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: e90d8fc91e98063e7d63d8c87d3c4f515e6546c6
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588195"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35768160"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -89,14 +89,15 @@ Os usuários de roteamento direto devem ter as seguintes licenças atribuídas n
 - Microsoft Teams 
 - Conferência de áudio da Microsoft 
 
-> [!NOTE]
-> Quando você estiver redimensionando a partir de uma chamada do 1:1, é preciso ter uma licença de conferência de áudio
 
 > [!IMPORTANT]
 >  Se você quiser adicionar participantes externos a reuniões agendadas, basta discar para eles ou fornecer o número de discagem, a licença de audioconferência será *necessária*.
 
 > [!NOTE]
-> A licença E5 inclui o sistema telefônico e a conferência de áudio.   
+> A licença de audioconferência é *necessária* para:
+> - Escalonar a partir de uma chamada do 1:1 para uma chamada em grupo.
+> - Adicione participantes externos a reuniões agendadas, discando ou fornecendo o número de discagem. 
+
 
 Além disso, você deve garantir o seguinte:
  

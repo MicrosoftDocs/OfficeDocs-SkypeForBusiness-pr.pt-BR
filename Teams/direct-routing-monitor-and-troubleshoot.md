@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Este artigo descreve como monitorar e solucionar problemas de configuração de roteamento direto.
-ms.openlocfilehash: c1cb84cd8ee764c58441ad9d5d33f18b77336a40
-ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
+ms.openlocfilehash: d20a409c7a5e902149ff20e72dde90850f0f5d12
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35062375"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35768152"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Monitorar e solucionar problemas do Roteamento Direto
 
@@ -48,20 +48,17 @@ O diagrama a seguir mostra um exemplo da configuração:
 
 Quando um usuário faz uma chamada para número + 1 425 \<quaisquer sete dígitos>, o roteamento direto avalia a rota. Há dois SBCs na rota: sbc1.contoso.com e sbc2.contoso.com. O SBCs tem prioridade igual na rota. Antes de escolher um SBC, o mecanismo de roteamento avalia a integridade do SBCs com base em quando o SBC enviou as opções de SIP pela última vez. 
 
-Um SBC é considerado Íntegro se as estatísticas no momento de enviar a chamada mostrarem que o SBC envia opções em um intervalo regular.  
+Um SBC é considerado Íntegro se as estatísticas no momento de enviar a chamada mostrarem que o SBC envia as opções a cada minuto.  
 
-O roteamento direto calcula intervalos regulares levando duas vezes a média quando o SBC envia opções antes de fazer a chamada e adicionar cinco minutos. 
+Quando uma chamada é feita, a seguinte lógica se aplica:
 
-Por exemplo, assuma o seguinte: 
-
-- Um SBC está configurado para enviar as opções a cada minuto. 
 - O SBC foi emparelhado em 11, 0 AM.  
 - O SBC envia opções em 11, 1 AM, 11, 2 AM e assim por diante.  
 - Em 11,15, um usuário faz uma chamada e o mecanismo de roteamento seleciona esse SBC. 
 
-A seguinte lógica é aplicada: duas vezes o intervalo médio quando o SBC envia opções (um minuto mais um minuto = dois minutos) mais cinco minutos = sete minutos. Esse é o valor do intervalo regular para o SBC.
- 
-Se o SBC em nosso exemplo enviou opções em qualquer período entre 11, 8 AM e 11,15 AM (o tempo em que a chamada foi feita), ele é considerado íntegro. Caso contrário, o SBC será rebaixado da rota. 
+O roteamento direto usa as opções de intervalo regular três vezes (o intervalo regular é um minuto). Se as opções forem enviadas durante os últimos três minutos, o SBC será considerado íntegro.
+
+Se o SBC no exemplo enviou opções em qualquer período entre 11,12 AM e 11,15 AM (o tempo em que a chamada foi feita), ele é considerado íntegro. Caso contrário, o SBC será rebaixado da rota. 
 
 O rebaixamento significa que o SBC não será tentado primeiro. Por exemplo, temos sbc1.contoso.com e sbc2.contoso.com com prioridade igual.  
 
