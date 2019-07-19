@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9a2704cf517ac4b8eb0b2f3143c09cb550614ee
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 6b27cbe49cef8f523504b6a308c6b55f2bd39d12
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548155"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793278"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gerenciar a oferta de avaliação na nuvem comercial do Microsoft Teams
 =======================================================
@@ -39,7 +39,7 @@ Os planos de serviço dessa oferta estão:
 - Formulários
 - Microsoft Planner
 - Microsoft Teams (Teams1, equipes IW)
-- Office Online
+- Office 
 - PowerApps para Office 365 Plano 1
 - SharePoint Online Kiosk
 - Fluxo
@@ -85,7 +85,7 @@ Você pode desativar a capacidade de um usuário de instalar serviços e aplicat
 
 2. Desative **Permitir que os usuários instalem aplicativos e serviços de avaliação**.
 
-    ![Captura de tela da página Aplicativos e serviços de propriedade do usuário no Centro de administração](media/iw-trial-enable-2.png)
+    ![Captura de tela da página Aplicativos e Serviços de propriedade do Usuário no Centro de administração](media/iw-trial-enable-2.png)
 
 
 ### <a name="manage-trial-availability-for-a-user-with-a-license-that-includes-teams"></a>Gerencie a disponibilidade de avaliação de um usuário com uma licença que inclua o Teams
