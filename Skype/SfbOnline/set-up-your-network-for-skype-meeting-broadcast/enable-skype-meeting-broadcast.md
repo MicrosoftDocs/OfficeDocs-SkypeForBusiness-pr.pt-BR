@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Antes que as pessoas em sua organização possam usar a transmissão de reunião do Skype, você precisa habilitá-la. Para fazer isso, você precisa saber como usar o Windows PowerShell. Se você não conhece o Windows PowerShell, considere contratar um Parceiro Microsoft para realizar essa etapa para você.
-ms.openlocfilehash: 6b68931bbedc80bcd8209e366de8201e4b93c98d
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 1d96ce1bb234ee319af2eeb11442fc15736b8f54
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221638"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793230"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Habilitar a Transmissão de Reunião do Skype
 
@@ -36,7 +36,7 @@ Antes que as pessoas em sua organização possam usar a transmissão de reunião
 
 1. Entre com sua conta de administrador global do Office 365 ou uma conta de administrador do [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)Skype for Business em.
     
-2. No centro de administração do Office 365, vá para**equipes**de **centros** > de administração.
+2. No centro de administração, vá para **** > **equipes**de centros de administração.
     
 3. No **centro de administração**do Teams, vá para reuniões**online** > do **portal** > herdado**reuniões de transmissão**e selecione **habilitar transmissão de reunião do Skype**.
     

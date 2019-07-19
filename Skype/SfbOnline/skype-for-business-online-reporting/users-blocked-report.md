@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'Esse relatório, juntamente com outros relatórios do Skype for Business, fornece detalhes sobre atividades, incluindo o uso da PSTN em toda a sua organização. '
-ms.openlocfilehash: 77ce7a5ff05c4302be875a16519c2dc1a3a994de
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 95269dc08806ab09a44f47153748d45a63fedbc2
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494001"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793010"
 ---
 # <a name="users-blocked-report"></a>Relatório de usuários bloqueados
 
@@ -32,13 +32,13 @@ O novo painel de **relatórios** do Skype for Business mostra a visão geral da 
  Confira a [visão geral de relatórios](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) para ver mais relatórios disponíveis.
   
 > [!NOTE]
-> Você pode ver todos os relatórios do Skype for Business quando entra como administrador no centro de administração do Office 365. 
+> Você pode ver todos os relatórios do Skype for Business quando entra como administrador no centro de administração do Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>Como acessar o relatório de usuários bloqueados do Skype for Business
 
 ![Um ícone mostrando o logotipo](../images/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
 
-- Vá para **Centro** > de administração do Office 365**centros** > **de administração do centro de administração do Skype for Business** > **relata** > **os usuários bloqueados**.
+- Vá para o centro de administração > **centros** > de administração o**Centro** > de administração do Skype for Business**relata** > **aos usuários bloqueados**.
     
 ## <a name="interpret-the-skype-for-business-users-blocked-report"></a>Interpretar o relatório de usuários bloqueados do Skype for Business
 
@@ -85,7 +85,7 @@ Isso exporta dados de todos os usuários e permite que você faça uma classific
 - [Relatório de detalhes da sessão do Skype for Business](session-details-report.md) Você pode ver detalhes sobre as experiências de chamadas de um usuário individual.
    
 ## <a name="related-topics"></a>Tópicos relacionados
-[Relatórios de atividades no Centro de administração do Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Relatórios de atividades no centro de administração](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Saiba como atribuir, alterar ou remover um número de telefone comercial para seus usuários de equipe para que empresas e clientes externos possam fazer chamadas.
-ms.openlocfilehash: 4536beb4e5dc11e579f2a6ef016e0c3f94e426a6
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: ccc8e723b1f4915781c47d416fa05d4cfb9c871d
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347943"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792926"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Atribuir, alterar ou remover o número de telefone de um usuário
 
@@ -38,7 +38,7 @@ Quando você está configurando usuários para que eles possam fazer e receber c
 Para saber como obter planos de chamada no Teams e quanto eles custam, consulte [Licenciamento de Complementos do](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)Microsoft Teams.
   
 > [!NOTE]
-> Uma maneira de ver se um usuário tem uma licença atribuída é acessar o centro de administração do Microsoft Teams > **usuários**. Se uma licença for atribuída, ela será indicada na página.  Você também pode usar o centro de administração do Office 365.
+> Uma maneira de ver se um usuário tem uma licença atribuída é acessar o centro de administração do Microsoft Teams > **usuários**. Se uma licença for atribuída, ela será indicada na página.  Você também pode usar o centro de administração do Microsoft 365.
   
 ## <a name="assign-a-phone-number-to-a-user"></a>Atribuir um número de telefone a um usuário
  

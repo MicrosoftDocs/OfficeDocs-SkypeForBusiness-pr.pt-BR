@@ -23,12 +23,12 @@ ms.custom:
 - Alchemy
 - LIL_Placement
 description: 'Aprenda a configurar seu domínio, usuários, mensagens instantâneas e presença para sua organização para instalar o Skype for Business. Veja também como configurar uma audioconferência, o Sistema de Telefonia e os Planos de Chamada e a transmissão do Reunião do Skype. '
-ms.openlocfilehash: fb31a2affa1507f043244fbe6f1988040cfec4ba
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 239e1c39563594ffe1ff106284bbbf912367fb88
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285250"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792616"
 ---
 # <a name="set-up-skype-for-business-online"></a>Configurar o Skype for Business Online
 
@@ -59,9 +59,9 @@ O Skype for Business Online faz parte do pacote de serviços do Office 365. Para
 
     ![Um exemplo de email de boas-vindas que você recebe após se inscrever no Skype for Business Online. Ele inclui a ID de usuário do Office 365.](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
 
-2. Entre no centro de administração do Office 365 e insira sua ID de usuário e senha do Office 365. Depois de entrar, você verá o Centro de administração do Office 365:
+2. Entre no centro de administração e insira sua ID de usuário e senha do Office 365. Depois de entrar, você verá o centro de administração do Microsoft 365:
 
-    ![Um exemplo da aparência do centro de administração do Office 365 quando você tem um plano do Skype for Business Online.](../images/ed1d9906-e717-450b-81a3-ce6679bd1be1.png)
+    ![Um exemplo de como é a aparência do centro de administração quando você tem um plano do Skype for Business online.](../images/ed1d9906-e717-450b-81a3-ce6679bd1be1.png)
 
 ## <a name="3-set-up-your-domain-and-users"></a>3. Configure seu domínio e usuários
 <a name="bkmk_users"> </a>

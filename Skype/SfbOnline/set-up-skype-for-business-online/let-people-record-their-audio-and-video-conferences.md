@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: "How to turn on recording for audio and video conferences, and learn what is and isn't included in recordings. "
-ms.openlocfilehash: 822a6eade4b910819a5b1ec0518086267288cc54
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: a7bb57fa4fe0124a4e2d6afb262fd298cb29e419
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494077"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792596"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>Permitir que as pessoas gravem suas conferências de áudio e vídeo
 
@@ -32,7 +32,7 @@ ms.locfileid: "34494077"
 
 ![Um ícone mostrando o logotipo](../images/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
 
-1. Vá para o **Centro** > de administração do Office 365**Skype for Business**e clique em **usuários**.
+1. Vá para o centro de administração > **Skype for Business**e clique em **usuários**.
     
 2. Na página **usuários** , selecione o usuário ou os usuários na lista e, em seguida, clique em **Editar**.
     

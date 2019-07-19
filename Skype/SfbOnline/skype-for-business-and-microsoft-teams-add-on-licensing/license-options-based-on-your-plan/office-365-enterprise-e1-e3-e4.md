@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba como comprar licenças de complemento, recursos e como comprar os planos E1, E3 e E4 do Office 365 Enterprise. '
-ms.openlocfilehash: 7b9cadab1b261c23ce98fd4b007488a54b5b15e9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a6cdfdac5aaa56d9e1bc87df8f33b1143517f1ac
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290052"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792878"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Enterprise E1, E3 e E4
 
@@ -44,7 +44,7 @@ Se você já adquiriu o [Office 365 Enterprise E1](https://products.office.com/e
 ## <a name="e1-and-e3-customers-how-to-see-prices-and-buy"></a>Clientes E1 e E3: Como ver preços e comprar
 <a name="bkmk_buypremium"> </a>
 
-1. Entre no Centro de Administração do Office 365.
+1. Entre no centro de administração.
 
 2. Vá para **Cobrança** > **Assinaturas** > **Complementos** > **Comprar complementos**.
 
@@ -59,14 +59,14 @@ The E3 plan is part of your Action Pack. To buy the **Phone System** and **Audio
 
 1. Buy one seat of E3 from our [marketing website](https://go.microsoft.com/fwlink/?LinkId=24393). Choose the option to add the seat to your existing tenant.
 
-2. Entre no Centro de administração do Office 365 e vá para **Cobrança** > **Assinaturas** > **Complementos**.
+2. Entre no centro de administração e vá para**Complementos**de**assinaturas** > de **cobrança** > .
 
     Agora, você verá os preços e a opção para comprar o **sistema de telefonia** e Complementos de **audioconferência** .
 
 ## <a name="why-dont-i-see-the-option-to-buy-add-ons"></a>Por que não vejo a opção para comprar complementos?
 <a name="bkmk_how"> </a>
 
-Em algumas situações, você não verá a opção para comprar Skype for Business complementos no Centro de administração do Office 365.
+Em algumas situações, você não verá a opção de comprar Complementos do Skype for Business no centro de administração do Microsoft 365.
 
 - **Você comprou o Office 365 Business Premium por meio do GoDaddy**. Nesse caso, você não pode comprar Complementos do Skype for Business. Você precisa trocar para o plano E3 (que não vende no GoDaddy) e, em seguida, poderá comprá-los. [Contatar o suporte do Office 365 para empresas - Ajuda para Administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 

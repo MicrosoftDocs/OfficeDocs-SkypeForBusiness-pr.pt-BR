@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Confira as etapas do Skype for Business online para atribuir uma ID de conferência e uma licença de conferência discada para um usuário e muitas outras configurações de conferência discada. '
-ms.openlocfilehash: aef115d2882a368e085880a66332dc7d22e4ff04
-ms.sourcegitcommit: e65411a739c539d5232ebc89af3630d07d518b89
+ms.openlocfilehash: 65c4eba931116b46099d37671700600d2b670489
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "35638560"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792307"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Gerenciar as configurações da Audioconferência para minha organização no Skype for Business Online
 
@@ -38,13 +38,13 @@ Pode ser mais fácil para você ver todas as configurações de audioconferênci
 ## <a name="assign-an-audio-conferencing-license"></a>Atribuir uma licença de Audioconferência
 
 > [!NOTE]
-> You can't assign licenses using the **Skype for Business admin center**. You must use the Office 365 admin center. See [Assign Skype for Business licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+> Você não pode atribuir licenças usando o **centro de administração do Skype for Business**. Você deve usar o centro de administração do Microsoft 365. Consulte [Atribuir licenças do Skype for Business](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
  **Para atribuir uma licença para um usuário**
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
 
-2. Na navegação à esquerda do **centro de administração do Office 365**, vá **** > para usuários**ativos**do Office e selecione o usuário ou os usuários na lista de usuários disponíveis.
+2. Na navegação à esquerda do centro de administração, vá para usuários**ativos**do **usuários** > e selecione o usuário ou os usuários na lista de usuários disponíveis.
 
     > [!NOTE]
     > If you are assigning licenses to up to 20 users at the same time, you can use the **Select a view** drop-down then choose one of the options or create your own view. Then click **Edit**, **Next** twice then select the license and click **Submit**. You can also assign licenses to multiple users by using Windows Powershell. For instructions and sample PowerShell scripts, see [Assign Skype for Business licenses](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
@@ -54,7 +54,7 @@ Pode ser mais fácil para você ver todas as configurações de audioconferênci
 4. On the **Product Licenses** page, turn on **Audio Conferencing** and then click **Save**. For more on licensing, see [Skype for Business add-on licensing](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
 > [!NOTE]
-> After you assign the license, Microsoft might not appear initially in the list as an audio conferencing provider. If this happens, either log out of the Office 365 admin center or press CTRL+F5 to refresh the browser window.
+> Depois de atribuir a licença, a Microsoft pode não ser exibida inicialmente na lista como um provedor de serviços de audioconferência. Se isso acontecer, desconecte-se do centro de administração ou pressione CTRL + F5 para atualizar a janela do navegador.
 
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Habilitar ou desabilitar emails enviados para usuários de audioconferência
 
@@ -62,7 +62,7 @@ Pode ser mais fácil para você ver todas as configurações de audioconferênci
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
 
-2. Vá para o **Centro** > de administração do Office 365**Skype for Business** e, no painel de navegação esquerdo, clique em **conferência de áudio**.
+2. Vá para o centro de administração > **Skype for Business** e, no painel de navegação esquerdo, clique em **videoconferência**.
 
 3. Na página **Configurações de ponte da Microsoft** , marque ou desmarque **Enviar emails para os usuários automaticamente se as suas configurações de audioconferência mudarem**.
 
@@ -111,7 +111,7 @@ Veja [os emails enviados automaticamente para os usuários quando as configuraç
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
 
-2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
+2. Vá para o centro de administração > **Skype for Business**.
 
 3. No **centro de administração do Skype for Business**, no painel de navegação esquerdo, vá para **Audioconferência**, e no painel Ação, em **ID da conferência**, clique em **Redefinir**.
 
@@ -129,7 +129,7 @@ Each meeting that a user schedules will get assigned a unique conference ID. Alt
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
 
-2. Vá para o **Centro** > de administração do Office 365**Skype for Business** e, no painel de navegação esquerdo, clique em **conferência de áudio**.
+2. Vá para o centro de administração > **Skype for Business** e, no painel de navegação esquerdo, clique em **videoconferência**.
 
 3. Clique em **usuários**e selecione o usuário para o qual você deseja redefinir o PIN.
 
@@ -143,7 +143,7 @@ Consulte [redefinir o PIN de audioconferência](reset-the-audio-conferencing-pin
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
 
-2. Vá para o **Centro** > de administração do Office 365**Skype for Business** e, no painel de navegação esquerdo, clique em **conferência de áudio**.
+2. Vá para o centro de administração > **Skype for Business** e, no painel de navegação esquerdo, clique em **videoconferência**.
 
 3. Clique em **usuários**e selecione o usuário para o qual você deseja redefinir o PIN.
 
@@ -158,7 +158,7 @@ Veja [Enviar um email para um usuário com suas informações de conferência de
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
 
-2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
+2. Vá para o centro de administração > **Skype for Business**.
 
 3. In the left navigation, go to **Audio conferencing** > **Users**. Select the user that you want to enable for Audio Conferencing.
 
@@ -176,7 +176,7 @@ Consulte [definir os números de telefone incluídos nos convites](set-the-phone
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
 
-2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
+2. Vá para o centro de administração > **Skype for Business**.
 
 3. No **centro de administração do Skype for Business**, no painel de navegação à esquerda, vá para **conferência** > de áudio**configurações da ponte da Microsoft**.
 
@@ -196,7 +196,7 @@ Consulte [alterar as configurações de uma ponte de conferência de áudio](/Mi
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
 
-2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
+2. Vá para o centro de administração > **Skype for Business**.
 
 3. No **centro de administração do Skype for Business**, no painel de navegação à esquerda, vá para **conferência** > de áudio**configurações da ponte da Microsoft**.
 
@@ -210,7 +210,7 @@ Consulte [alterar as configurações de uma ponte de conferência de áudio](/Mi
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
 
-2. Vá para o **Centro** > de administração do Office 365**Skype for Business** e, no painel de navegação esquerdo, clique em **conferência de áudio**.
+2. Vá para o centro de administração > **Skype for Business** e, no painel de navegação esquerdo, clique em **videoconferência**.
 
 3. Na página **Configurações de ponte da Microsoft** , marque ou desmarque **Enviar emails para os usuários automaticamente se as suas configurações de audioconferência mudarem**.
 
@@ -227,7 +227,7 @@ Consulte [alterar as configurações de uma ponte de conferência de áudio](/Mi
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
 
-2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
+2. Vá para o centro de administração > **Skype for Business**.
 
 3. No **centro de administração do Skype for Business**, no painel de navegação esquerdo, vá para **videoconferências**e clique em ponte da **Microsoft**.
 
@@ -241,7 +241,7 @@ Veja [Definir idiomas do atendedor automático para conferência de áudio](set-
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
 
-2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
+2. Vá para o centro de administração > **Skype for Business**.
 
 3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge**. Here you can:
 
@@ -259,7 +259,7 @@ Veja [ver uma lista de números de audioconferência](see-a-list-of-audio-confer
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
 
-2. Navegue para o **Centro de administração do Office 365** > **Skype for Business**.
+2. Vá para o centro de administração > **Skype for Business**.
 
 3. No **centro de administração do Skype for Business**, no painel de navegação esquerdo, vá para **videoconferências**> e depois **usuários**.
 
@@ -320,7 +320,7 @@ Aqui estão as configurações no nível da organização:
 
   - [Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
 
-- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center, such as when you are making settings changes for many users at one time. Learn about these advantages in the following topics:
+- O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade apenas usando o centro de administração, como quando você está realizando alterações de configurações para vários usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos:
 
   - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
 

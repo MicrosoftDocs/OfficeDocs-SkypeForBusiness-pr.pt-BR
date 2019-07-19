@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 3be118c02e260688f89bea31283c3914d657d045
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 143af6902c30c007d338b102534af2076a86cdcb
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303670"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793154"
 ---
 # <a name="conference-participant-activity-report"></a>Relatório de atividades dos participantes de conferências
 
@@ -35,11 +35,11 @@ Confira a [visão geral de relatórios](https://support.office.com/article/0d6df
 Esse relatório, juntamente com os outros relatórios do Skype for Business, fornece informações sobre atividades de conferência em toda a sua organização. Esses detalhes são muito úteis na investigação, no planejamento e na tomada de outras decisões de negócios para a sua organização.
   
 > [!NOTE]
-> [!OBSERVAçãO] Você pode ver todos os relatórios do Skype for Business ao fazer logon como um administrador no Centro de administração do Office 365. 
+> Você pode ver todos os relatórios do Skype for Business ao fazer logon como administrador no centro de administração do Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-conference-participant-report"></a>Como acessar o relatório de participantes de conferências do Skype for Business
 
-1. Vá para o **Centro** > de administração do Office 365**uso**dos**relatórios** > .
+1. Vá para o centro de administração >**uso**dos **relatórios** > .
     
 2. Na página **uso** , clique em **atividade de participantes de conferências do Skype for Business** na **lista Selecionar um relatório** à esquerda. Ou clique no widget **atividade do Skype for Business** e, em seguida, clique em atividade de participantes de conferências do Skype **for Business** na lista de **atividades do Skype for Business** .
     
@@ -87,7 +87,7 @@ O eixo X em ambos os gráficos é o intervalo de datas selecionado para esse rel
 *    **Discagem - terceiros** mostra o número total de conferências discadas que foram organizadas e que usam um provedor de serviços de audioconferência terceiro. 
 *    **Minutos de áudio/vídeo** mostra o número total de minutos usados quando os usuários participaram de conferências que usaram áudio/vídeo. 
 
-Se as políticas da sua organização impedirem você de exibir relatórios nos quais as informações do usuário sejam identificáveis, você pode alterar a configuração de privacidade de todos esses relatórios. Confira a seção **como faço para ocultar detalhes do nível do usuário?** nos [relatórios de atividades no centro de administração do Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
+Se as políticas da sua organização impedirem você de exibir relatórios nos quais as informações do usuário sejam identificáveis, você pode alterar a configuração de privacidade de todos esses relatórios. Confira a seção **como faço para ocultar detalhes do nível do usuário?** nos [relatórios de atividades no centro de administração](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
 ***
 ![Número 9](../images/sfbcallout9.png)<br/>Você também pode exportar os dados do relatório para um arquivo .csv do Excel. Basta clicar ou tocar em **Exportar**.                                            <br/> ![Botão Exportar relatório do Skype for Business.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>Isso exporta dados de todos os usuários e permite que você faça uma classificação e filtragem simples para uma análise mais detalhada. Se tiver menos de 2.000 usuários, você poderá classificar e filtrar dentro da tabela no próprio relatório. Se tiver mais de 2.000 usuários, será necessário exportar os dados para filtrar e classificar.
 ***
@@ -112,7 +112,7 @@ Se as políticas da sua organização impedirem você de exibir relatórios nos 
 - [Relatório de detalhes da sessão do Skype for Business](session-details-report.md) Você pode ver detalhes sobre as experiências de chamadas de um usuário individual.
     
 ## <a name="related-topics"></a>Tópicos relacionados
-[Relatórios de atividades no Centro de administração do Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Relatórios de atividades no centro de administração](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

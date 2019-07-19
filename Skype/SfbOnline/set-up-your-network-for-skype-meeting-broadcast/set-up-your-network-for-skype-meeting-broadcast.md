@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Learn about the Skype Meeting Broadcast feature of Skype for Business Online that enables you to schedule, produce, and broadcast meetings or events to large online audiences up to 10,000 attendees.
-ms.openlocfilehash: f9a85a1f64f88b55d99c7a27694a46b7ea885849
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 443810772eeb8bf11721825b06b6a87ccb2c97c8
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301284"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792916"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>Configurar a rede para a Transmissão de Reunião do Skype
 
@@ -39,9 +39,9 @@ Use **um** dos seguintes métodos para configurar os domínios permitidos:
 
 ## #
 
- **Método 1: usar o centro de administração do Office 365**
+ **Método 1: usar o centro de administração**
 
-1. Vá para o **centro de administração do Office 365** e, em seguida, na barra de navegação à esquerda, clique em **configurações** > de**Serviços &amp; **e em suplementos e escolha **Skype for Business**.
+1. Vá para o centro de administração e, em seguida, na barra de navegação à esquerda, clique em **configurações** > de**Serviços &amp; e suplementos**e, em seguida, escolha **Skype for Business**.
 
 2. Na página **compartilhamento externo** em **exceções de domínio**, selecione **todos os domínios estão bloqueados, exceto**e insira os seguintes domínios, separados por uma vírgula (,):
 

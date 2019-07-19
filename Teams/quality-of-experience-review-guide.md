@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b29506a30f20056b422b7780896d5661326986e0
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: 1f2b61361a362837314a3cd60bd87da21752df94
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198656"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793270"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guia de revisão da experiência de qualidade
 
@@ -74,7 +74,7 @@ Antes de usar este guia, verifique se você tem as [funções](https://docs.micr
 
 Como alternativa, você pode atribuir a função a seguir a uma conta de usuário do Office 365 para permitir o acesso somente aos recursos de relatório.
 
--   **Leitor de relatórios:** Pode exibir todos os [relatórios de atividades](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) no centro de administração do Office 365, todos os relatórios do [pacote de conteúdo de adoção do Microsoft 365](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)e relatórios do CQD.
+-   **Leitor de relatórios:** Pode exibir todos os [relatórios de atividades](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) no centro de administração, todos os relatórios do [pacote de conteúdo de adoção do 365](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)e relatórios do CQD.
 
 ## <a name="what-is-quality"></a>O que é qualidade?
 

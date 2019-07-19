@@ -21,19 +21,19 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: A validação de endereços é uma etapa importante da configuração de Planos de Chamadas no Office 365. Ela fornece ao usuário da organização um endereço de chamada de emergência que pode ser usado pelos serviços de resposta a emergências.
-ms.openlocfilehash: f9f24ff805cb78f0e77042d8ba180695fecf746c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7aefb714e3a27fb483bd6ff2e2d37ae15ed4a541
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290541"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793370"
 ---
 # <a name="why-is-number-activation-listed-as-updating"></a>Por que a ativação de número está listada como sendo atualizada?
 
 A validação de endereços é uma etapa importante da configuração de Planos de Chamadas no Office 365. Se por algum motivo um número de telefone não estiver ativado e estiver listado como sendo **atualizado** devido à validação do endereço, você precisará criar e enviar uma solicitação de serviço. A maneira de fazer isso depende do tamanho da sua organização.
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Para organizações com 150 usuários ou menos, siga estas etapas
-1. No **Centro de administração do Office 365**, escolha **Precisa de ajuda**?
+1. No centro de administração, escolha **precisa de ajuda**?
 2. No painel **Precisa de ajuda?**, informe qual é a ajuda de que você precisa e escolha **Obter ajuda**.
 3. Se os resultados da seção **Exibir soluções** não ajudarem, escolha uma destas opções:
     - **Permitir que liguemos para você (recomendado)**: confirme seu número de contato e pressione **Telefonar para mim**. O tempo de espera previsto para o retorno da chamada é indicado no painel **Precisa de ajuda?**
@@ -43,7 +43,7 @@ A validação de endereços é uma etapa importante da configuração de Planos 
 
 1. Entre no Office 365 como administrador usando sua conta corporativa ou de estudante.
     
-2. No Centro de administração do Office 365, no painel de navegação esquerdo, clique em **Suporte** > **Nova solicitação de serviço**.
+2. No centro de administração, no painel de navegação esquerdo, clique em **dar suporte** > a**nova solicitação de serviço**.
     
 3. Em **Solicitações de serviço**, clique em **Adicionar**.
     
@@ -93,7 +93,7 @@ A validação de endereços é uma etapa importante da configuração de Planos 
 8. Confira as informações e clique em **Enviar solicitação**.
     
 > [!TIP]
-> O número de referência será listado na página **Solicitações de serviço** no Centro de administração do Office 365.
+> O número de referência será listado na página **solicitações de serviço** no centro de administração do Microsoft 365.
 
 > [!NOTE]
 > Se precisar de mais números de telefone, veja [Contatar o suporte de produtos para empresas - Ajuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

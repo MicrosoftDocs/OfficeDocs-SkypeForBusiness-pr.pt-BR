@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba mais sobre licenças de complemento, recursos e como comprar para os planos do Office 365 Business Premium. '
-ms.openlocfilehash: b4f501d3a047e0408a484065e38ab23f98b850ab
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0e1c5ebe64c105e15485c0722920ec1437d05b27
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290069"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792888"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Business Premium
 
@@ -61,7 +61,7 @@ Se você tem o plano [Office 365 Business Premium](https://products.office.com/e
 
  **Para obter Audioconferência e Créditos de comunicação:**
 
-1. Entre no Centro de Administração do Office 365.
+1. Entre no centro de administração.
 
 2. Vá para **Cobrança** > **Assinaturas** > **Complementos** > **Comprar complementos**.
 
@@ -73,7 +73,7 @@ Se você tem o plano [Office 365 Business Premium](https://products.office.com/e
 
 1. Mude para o plano E1 ou E3.
 
-2. Vá para Centro de administração do Office 365 > **Cobrança** > **Assinaturas**.
+2. Vá para o centro de administração >**assinaturas**de **cobrança** > .
 
 3. Choose **Add-ons**. You'll now see the prices for Phone System, and the option to buy it.
 

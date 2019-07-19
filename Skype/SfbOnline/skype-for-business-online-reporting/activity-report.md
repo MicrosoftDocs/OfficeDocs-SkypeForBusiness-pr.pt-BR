@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
-ms.openlocfilehash: df46f6a8fa029936911d8cafd463e683d25b4551
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 05e3c61a144fb962cfb6c7aca83f2996db17370a
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298014"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793240"
 ---
 # <a name="activity-report"></a>Relatório de atividades
 
@@ -35,11 +35,11 @@ Confira a [visão geral de relatórios](https://support.office.com/article/0d6df
 Esse relatório, juntamente com os outros relatórios do Skype for Business, fornece informações sobre atividades em toda a organização. Esses detalhes são muito úteis na investigação, no planejamento e na tomada de outras decisões de negócios para a sua organização.
   
 > [!NOTE]
-> Você pode ver todos os relatórios do Skype for Business ao fazer logon como administrador no centro de administração do Office 365. 
+> Você pode ver todos os relatórios do Skype for Business ao fazer logon como administrador no centro de administração do Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-activity-report"></a>Como obter o relatório de atividade do Skype for Business
 
-1. Vá para o **Centro** > de administração do Office 365**uso**dos**relatórios** > .
+1. Vá para o centro de administração >**uso**dos **relatórios** > .
     
 2. Na página **uso** , clique em **atividade do Skype for Business** na **lista Selecionar um relatório** à esquerda ou clique no widget **atividade do Skype for Business** .
     
@@ -94,7 +94,7 @@ A tabela mostra uma divisão de todas as atividades de conferência por usuário
 * **Conferências participadas** mostra o número total de conferências das quais esse usuário participou.
 * **Produto atribuído** são os produtos do Office 365 atribuídos a esse usuário.<br/>
 
-Se as políticas da sua organização impedirem você de exibir relatórios nos quais as informações do usuário sejam identificáveis, você pode alterar a configuração de privacidade de todos esses relatórios. Confira a seção **ocultar detalhes do usuário na seção relatórios** nos [relatórios de atividades no centro de administração do Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
+Se as políticas da sua organização impedirem você de exibir relatórios nos quais as informações do usuário sejam identificáveis, você pode alterar a configuração de privacidade de todos esses relatórios. Confira a seção **ocultar detalhes do usuário na seção relatórios** nos [relatórios de atividades no centro de administração](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
 ***
 ![Número 8](../images/sfbcallout8.png)<br/>
 Clique ou toque no ícone de **colunas** em qualquer uma das colunas para adicionar ou remover colunas do relatório.           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
@@ -120,7 +120,7 @@ Você também pode exportar os dados do relatório para um arquivo .csv do Excel
 
     
 ## <a name="related-topics"></a>Tópicos relacionados
-[Relatórios de atividades no Centro de administração do Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Relatórios de atividades no centro de administração](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

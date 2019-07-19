@@ -18,13 +18,13 @@ f1keywords:
 - O365E_ReportsS4BClients
 ms.custom:
 - Reporting
-description: O novo painel Relatórios do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 na sua organização. Ele permite analisar detalhes dos relatórios no nível dos produtos individualmente para oferecer uma visão mais granular das atividades dentro de cada produto. Por exemplo, você pode usar o relatório de uso de dispositivos do Skype for Business para ver os dispositivos, incluindo sistemas operacionais baseados em Windows e dispositivos móveis, que têm o aplicativo Skype for Business instalado e estão usando-os para mensagens instantâneas e reuniões. Consulte os relatórios de atividades no centro de administração do Office 365 para saber mais.
-ms.openlocfilehash: aa96fc36e2efd5574bc363b8a199007a60060338
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: O novo painel Relatórios do Office 365 mostra a visão geral das atividades em todos os produtos do Office 365 na sua organização. Ele permite analisar detalhes dos relatórios no nível dos produtos individualmente para oferecer uma visão mais granular das atividades dentro de cada produto. Por exemplo, você pode usar o relatório de uso de dispositivos do Skype for Business para ver os dispositivos, incluindo sistemas operacionais baseados em Windows e dispositivos móveis, que têm o aplicativo Skype for Business instalado e estão usando-os para mensagens instantâneas e reuniões. Dê uma olhada nos relatórios de atividades no centro de administração para saber mais.
+ms.openlocfilehash: e5fade6e28c935a8ff454afc47d77cc691372d83
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280769"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793116"
 ---
 # <a name="device-usage-report"></a>Relatório de uso de dispositivos
 
@@ -35,11 +35,11 @@ Confira a [visão geral de relatórios](https://support.office.com/article/0d6df
 Esse relatório, juntamente com os outros relatórios do Skype for Business, fornece detalhes sobre os tipos de clientes/dispositivos que são usados em toda a sua organização. Esses detalhes são muito úteis na investigação, no planejamento e na tomada de outras decisões de negócios para a sua organização.
   
 > [!NOTE]
-> [!OBSERVAçãO] Você pode ver todos os relatórios do Skype for Business ao fazer logon como um administrador no Centro de administração do Office 365. 
+> Você pode ver todos os relatórios do Skype for Business ao fazer logon como administrador no centro de administração do Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-device-usage-report"></a>Como acessar o relatório de uso de dispositivos do Skype for Business
 
-1. Vá para o **Centro** > de administração do Office 365**uso**dos**relatórios** > .
+1. Vá para o centro de administração >**uso**dos **relatórios** > .
     
 2. Na página **uso** , clique em **uso do dispositivo do Skype for Business** na **lista Selecionar um relatório** à esquerda. Ou clique no widget **atividade do Skype for Business** e, em seguida, clique em uso de dispositivos do Skype **for Business** na lista de **atividades do Skype for Business** .
     
@@ -84,7 +84,7 @@ O eixo X em ambos os gráficos é o intervalo de datas selecionado para esse rel
 *    **iPhone** será selecionado se o usuário tiver o aplicativo cliente do Skype for Business instalado em um iPhone e estiver usando-o. 
 *    o **iPad** será selecionado se o usuário tiver o aplicativo cliente do Skype for Business instalado em um iPad e estiver usando-o. 
 
-Se as políticas da sua organização impedirem você de exibir relatórios nos quais as informações do usuário sejam identificáveis, você pode alterar a configuração de privacidade de todos esses relatórios. Confira a seção **como faço para ocultar detalhes do nível do usuário?** nos [relatórios de atividades no centro de administração do Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263). 
+Se as políticas da sua organização impedirem você de exibir relatórios nos quais as informações do usuário sejam identificáveis, você pode alterar a configuração de privacidade de todos esses relatórios. Confira a seção **como faço para ocultar detalhes do nível do usuário?** nos [relatórios de atividades no centro de administração](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263). 
 ***
 ![Número 8](../images/sfbcallout8.png)<br/>Clique ou toque no ícone de **colunas** em qualquer uma das colunas para adicionar ou remover colunas do relatório.           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
 ***
@@ -109,7 +109,7 @@ Se as políticas da sua organização impedirem você de exibir relatórios nos 
 - [Relatório de detalhes da sessão do Skype for Business](session-details-report.md) Você pode ver detalhes sobre as experiências de chamadas de um usuário individual.
     
 ## <a name="related-topics"></a>Tópicos relacionados
-[Relatórios de atividades no Centro de administração do Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Relatórios de atividades no centro de administração](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: A nova área de relatórios do centro de administração do Skype for Business mostra a atividade de chamadas e conferência de áudio em sua organização. Ele permite que você faça uma busca detalhada nos relatórios para dar a você uma visão mais granular sobre as atividades de cada usuário. Por exemplo, você pode usar o relatório de grupos de minutos PSTN do Skype for Business para ver o número de minutos consumidos durante o mês atual em sua organização.
-ms.openlocfilehash: bfbc21453732d338c4d0cf6355903df344c826f4
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 8d7441f74600557ac93051daf206af3f1f1842f9
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494011"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793086"
 ---
 # <a name="pstn-minute-pools-report"></a>Relatório de pools de minutos PSTN
 
@@ -37,13 +37,13 @@ Confira a [visão geral de relatórios](https://support.office.com/article/0d6df
 Esse relatório, juntamente com os outros relatórios do Skype for Business, fornece informações sobre atividades em toda a organização. Esses detalhes são muito úteis durante a investigação, o planejamento e a realização de outras decisões empresariais para a sua organização e para a configuração de [créditos de comunicações](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> [!OBSERVAçãO] Você pode ver todos os relatórios do Skype for Business ao fazer logon como um administrador no Centro de administração do Office 365. 
+> Você pode ver todos os relatórios do Skype for Business ao fazer logon como administrador no centro de administração do Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>Como acessar o relatório de grupos de minutos PSTN do Skype for Business
 
 ![Um ícone mostrando o logotipo](../images/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
 
-- Vá para **Centro** > de administração do Office 365**centros** > **de administração do centro de administração do Skype for Business** > **relata** > **pools de minutos PSTN**.
+- Vá para o centro de administração > **centros** > de administração o**Centro** > de administração do Skype for Business**relata** > **pools de minutos PSTN**.
     
 > [!NOTE]
 > Dependendo da assinatura do Office 365, talvez você não veja todos os mesmos detalhes mostrados aqui. 
@@ -62,7 +62,7 @@ Esta é a aparência do relatório.
 ![Número 1](../images/sfbcallout1.png)<br/>A tabela mostra uma divisão de pools de minutos por licença (funcionalidade) e localização de uso. 
 *    **Recurso** é o plano de licença/serviço usado para a chamada. Os planos de licença/serviço que você pode ver neste relatório incluem:
      * MCOPSTN1-plano de chamadas domésticas (3000-minuto-minutos/1200-minuto-planos da União Europeia
-     * MCOPSTN2-plano de chamadas internacionais & domésticos do qual você verá um pool doméstico (3000-minutos para os EUA/Canadá/PR, países europeus de 1200 minutos) e um pool internacional (600-minutos). O limite de minutos é atingido sempre que a Cap doméstica ou internacional é atingida dentro do mês do calendário. 
+     * MCOPSTN2-um plano de chamadas internacionais & doméstico do qual você verá um pool de pessoas (3000-minutos para os EUA/Canadá/PR, países europeus de 1200 minutos) e um pool internacional (600-minutos). O limite de minutos é atingido sempre que a Cap doméstica ou internacional é atingida dentro do mês do calendário. 
      * MCOPSTN5-plano de chamadas domésticas (plano de chamadas de 120 minutos)
      * MCOPSTN6-plano de chamadas domésticas (plano de chamadas de 240 minutos)
      * MCOMEETADD-audioconferência
@@ -93,7 +93,7 @@ Esta é a aparência do relatório.
 - [Relatório de detalhes da sessão do Skype for Business](session-details-report.md) Você pode ver detalhes sobre as experiências de chamadas de um usuário individual.
     
 ## <a name="related-topics"></a>Tópicos relacionados
-[Relatórios de atividades no Centro de administração do Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Relatórios de atividades no centro de administração](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
    

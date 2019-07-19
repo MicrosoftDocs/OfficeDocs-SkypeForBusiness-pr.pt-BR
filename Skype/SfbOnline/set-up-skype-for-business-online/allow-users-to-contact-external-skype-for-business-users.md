@@ -27,12 +27,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
-ms.openlocfilehash: 3656038efa660db0b63f382908f4de5a8b7172d4
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 570861f532371dc8eca253956ffdd200e60f5990
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344556"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792680"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>Permitir que os usuários entrem em contato com usuários externos do Skype for Business
 
@@ -56,7 +56,7 @@ Você deve ter [permissões de administrador](https://support.office.com/en-us/a
   
 1. Entre com sua conta de administrador do Office 365. 
     
-2. No centro de administração do Office 365, vá para**equipes**de **centros** > de administração.
+2. No centro de administração, vá para **** > **equipes**de centros de administração.
     
     ![Escolha o administrador do teams.](../images/MS-Teams-Admin.png)
   
@@ -126,7 +126,7 @@ Depois de habilitar a comunicação externa para toda a sua empresa, você poder
   
 1. Entre com sua conta de administrador do Office 365.
     
-2. No centro de administração do Office 365, vá **** > para usuários**ativos**do Office.
+2. No centro de administração, vá para usuários**ativos**do **usuários** > .
     
 3. Na lista de usuários, escolha o usuário e, em **Mais Configurações**, clique em **Editar as propriedades do Skype for Business**.
     

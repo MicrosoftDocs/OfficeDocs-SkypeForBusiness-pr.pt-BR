@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Learn how to set up Skype for Business so you can see the availability of your co-workers. '
-ms.openlocfilehash: e7a5eb07f21f889da545fd2270789d3bd34ed42b
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: ba6ff112eee78e6e70b435b19caa62187a98afcf
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494232"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793340"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>Configuração de presença do Skype for Business Online
 
@@ -36,7 +36,7 @@ Como **[administrador](https://support.office.com/article/eac4d046-1afd-4f1a-85f
 
 ![Um ícone mostrando o logotipo](../images/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
 
-1. Vá para centro de administração do **Office 365 centro** > de**Administração** > **do Skype for Business**.
+1. Vá para o centro de administração > centro de **Administração** > **do Skype for Business**.
 
 2. No **centro de administração do Skype for Business**, escolha **organização**.
 

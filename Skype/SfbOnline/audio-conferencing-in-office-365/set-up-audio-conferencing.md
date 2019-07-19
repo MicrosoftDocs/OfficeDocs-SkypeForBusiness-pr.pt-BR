@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Saiba como configurar a conferência discada ou de áudio para as pessoas em sua empresa que precisam usar um telefone para participar de chamadas em conferência. '
-ms.openlocfilehash: 9406c0ba680dd7eb6be52e2055041677913c3315
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: a36482dc6c58275491c65ac518e98cdc0ac0b787
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494192"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792169"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>Configurar a conferência de áudio para o Skype for Business
 
@@ -94,7 +94,7 @@ Em seguida, você deseja [definir os idiomas do atendedor automático para a vid
 
 ![Um ícone mostrando o logotipo](../images/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**:
 
-1. Vá para o portal de**Administração** > do centro > de administração do **Office 365****Teams** > **Legacy portal**.
+1. Vá para o centro de administração >**portal**de**equipes** > do centro de **Administração** > .
 2. Selecione **áudio videoconferência** > **Microsoft Bridge**. 
 3. Selecione o número de telefone da ponte de conferência, selecione **definir idiomas**e, em seguida, escolha o idioma padrão.
 
