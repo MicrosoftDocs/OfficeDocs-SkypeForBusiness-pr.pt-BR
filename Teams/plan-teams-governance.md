@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 10fb80667a957ac4f4a7d9e25713a9232129b0b7
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: a7022c700d2b7448625bb9ab627d1b77d780b50e
+ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344376"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "35804861"
 ---
 # <a name="plan-for-governance-in-teams"></a>Plano de governança no Teams
 
@@ -62,11 +62,11 @@ Sua organização pode exigir que você implemente controles estritos sobre como
 
 Depois de determinar suas necessidades, você poderá implementá-las usando controles do Azure AD. Para obter orientação técnica sobre como implementar essas configurações, consulte:
 
--   [Cmdlets do Azure Active Directory para definir configurações de grupo](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets).
+- [Cmdlets do Azure Active Directory para definir configurações de grupo](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets).
 
--   [Impor uma política de nomenclatura para grupos do Office 365 no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy).
+- [Impor uma política de nomenclatura para grupos do Office 365 no Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy).
 
--   [Política de nomenclatura de grupos do Office 365](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
+- [Política de nomenclatura de grupos do Office 365](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
 
 
 ## <a name="group-and-team-expiration-retention-and-archiving"></a>Expiração de grupo e de equipe, retenção e arquivamento
@@ -94,11 +94,11 @@ Sua organização pode ter requisitos adicionais para a configuração de polít
 
 Para obter orientação técnica sobre como implementar essas configurações, consulte:
 
--   [Configurar o vencimento dos grupos do Office 365](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle).
+- [Configurar o vencimento dos grupos do Office 365](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle).
 
--   [Configurar as políticas de retenção](retention-policies.md)do teams.
+- [Configurar as políticas de retenção](retention-policies.md)do teams.
 
--   [Arquivar ou restaurar uma equipe](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
+- [Arquivar ou restaurar uma equipe](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 
 
 ## <a name="teams-feature-management"></a>Gerenciamento de recursos do teams
@@ -117,10 +117,12 @@ O Teams oferece recursos granulares para o controle de mensagens, reuniões, cha
 
 Para obter listas detalhadas de todas as configurações, incluindo orientações técnicas sobre como implementá-las para sua organização, consulte os seguintes artigos:
 
--   [Gerenciar as configurações do Microsoft Teams para sua organização](enable-features-office-365.md)
--   [Gerenciar equipes durante a transição para o novo centro de administração do Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
--   [Gerenciar políticas de reunião no Teams](meeting-policies-in-teams.md)
+- [Gerenciar as configurações do Microsoft Teams para sua organização](enable-features-office-365.md)
+- [Gerenciar equipes durante a transição para o novo centro de administração do Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
+- [Gerenciar políticas de reunião no Teams](meeting-policies-in-teams.md)
+- [Gerenciar políticas de mensagens no Teams](messaging-policies-in-teams.md)
 
+Além disso, você pode configurar a moderação de um canal e dar recursos do moderador a certos usuários para que eles possam controlar quem pode criar postagens de canal e respondê-las. Consulte [configurar e gerenciar a moderação de canal no Microsoft Teams](manage-channel-moderation-in-teams.md) para obter mais informações.
 
 ## <a name="security-and-compliance"></a>Segurança e conformidade
 

@@ -3,7 +3,6 @@ title: Atribuir proprietários de equipe e membros no Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 08/27/2018
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dansteve
@@ -15,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9bcc0db65555d367f3af139be22e37690248b8e0
-ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
+ms.openlocfilehash: eca4f5350e4e06d3f598191e020b8708b6f47563
+ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/26/2019
-ms.locfileid: "35253699"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "35804765"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Atribuir proprietários de equipe e membros no Microsoft Teams
 =================================================
@@ -28,7 +27,7 @@ ms.locfileid: "35253699"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-No Microsoft Teams há duas funções de usuário: **proprietário** e **membro**. Por padrão, um usuário que cria uma nova equipe recebe o status de proprietário. Se uma equipe for criada a partir de um Grupo existente do Office 365, as permissões são herdadas.
+No Microsoft Teams há duas funções de usuário: **proprietário** e **membro**. Por padrão, um usuário que cria uma nova equipe recebe o status de proprietário. Além disso, os proprietários e membros podem ter recursos moderadores para um canal (desde que a moderação tenha sido configurada). Se uma equipe for criada a partir de um Grupo existente do Office 365, as permissões são herdadas.
 
 A tabela a seguir mostra a diferença nas permissões entre um proprietário e um membro.
 
@@ -48,17 +47,28 @@ A tabela a seguir mostra a diferença nas permissões entre um proprietário e u
 |        **Adicionar conectores**         |    Sim     |    Sim<sup>2</sup>|
 |           **Adicionar bots**            |    Sim     |    Sim<sup>2</sup>|
 
-<sup>1</sup> os proprietários da equipe podem criar equipes, a menos que elas tenham sido limitadas de fazê-lo. Veja [as permissões para criar equipes](#permissions-to-create-teams) abaixo.<br>
-<sup>2</sup> esses itens podem ser desativados por um proprietário em nível de equipe, caso em que os membros não tenham acesso a eles.<br>
+<sup>1</sup> os proprietários da equipe podem criar equipes, a menos que elas tenham sido limitadas de fazê-lo. [Permissões para criar equipes](#permissions-to-create-teams) abaixo.<br>
+><sup>2</sup> um proprietário pode desativar esses itens no nível da equipe, caso em que os membros não tenham acesso a eles.<br>
 <sup>3</sup> após adicionar um membro a uma equipe, um proprietário também pode promover um membro ao status de proprietário. Também é possível que um proprietário rebaixe seu próprio status para um membro.<br>
 <sup>4</sup> os membros da equipe podem adicionar outros membros a uma equipe pública.<br>
 <sup>5</sup> embora um membro da equipe não possa adicionar membros diretamente a uma equipe privada, ele pode solicitar que alguém seja adicionado a uma equipe da qual eles já são membros. Quando um membro solicita que alguém seja adicionado a uma equipe, os proprietários da equipe recebem um alerta de que eles têm uma solicitação pendente que eles podem aceitar ou recusar.
 
 > [!NOTE]
-> Os Proprietários também podem fazer com que outros membros se tornem proprietários na opção Visualizar equipes. Uma equipe pode ter até 100 proprietários. É recomendável ter pelo menos alguns proprietários para ajudar a gerenciar a equipe. Isso também impedirá grupos órfãos se o único proprietário deixar a sua organização. Para obter mais informações sobre grupos órfãos, consulte [Atribuir novo proprietário a um grupo órfão](https://support.office.com/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732).
+> Os proprietários podem fazer outros proprietários de membros na opção **Exibir equipes** . Uma equipe pode ter até 100 proprietários. Recomendamos que você tenha pelo menos alguns proprietários para ajudar a gerenciar a equipe; Isso também impedirá grupos órfãos se um único proprietário deixar sua organização. Para obter mais informações sobre grupos órfãos, consulte [Atribuir novo proprietário a um grupo órfão](https://support.office.com/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732).
 
-<a name="permissions-to-create-teams"></a>Permissões para criar equipes
----------------------------
+## <a name="moderator-capabilities"></a>Recursos do moderador
+
+Além de outros recursos, os proprietários e membros da equipe podem ter recursos moderadores para um canal (desde que a moderação esteja ativada para uma equipe). Os moderadores podem iniciar novas postagens em um canal e controlar se os membros da equipe podem responder às mensagens de canal existentes. Eles também podem controlar se os bots e conectores podem enviar mensagens de canal.
+
+Os recursos do moderador são atribuídos no nível de canal. Os proprietários da equipe têm recursos moderadores por padrão. Os membros da equipe têm recursos moderadores desativados por padrão, mas um proprietário da equipe pode oferecer recursos moderadores para um canal para um membro da equipe. Os moderadores dentro de um canal podem adicionar e remover outros moderadores nesse canal.
+
+Para obter mais informações sobre os recursos do moderador, consulte [configurar e gerenciar a moderação de canal no Microsoft Teams](manage-channel-moderation-in-teams.md).
+
+## <a name="assign-a-user-role"></a>Atribuir uma função de usuário
+
+Para atribuir uma função de usuário, no Teams, selecione o nome da equipe e clique em **mais opções** > **Gerenciar equipe**. Na guia **Membros** , você pode adicionar membros e escolher proprietários e moderadores (se tiver permissões suficientes). Para obter mais informações, consulte [alterar as configurações da equipe no](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc)Microsoft Teams.
+
+## <a name="permissions-to-create-teams"></a>Permissões para criar equipes
 
 Por padrão, todos os usuários com uma caixa de correio no Exchange Online têm permissões para criar grupos do Office 365 e, portanto, um time no Microsoft Teams. Você pode ter um controle mais rígido e restringir a criação de novas equipes e, assim, a criação de novos grupos do Office 365 ao delegar direitos de criação e gerenciamento de grupos a um conjunto de usuários. Para obter instruções, consulte [gerenciar quem pode criar grupos do Office 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
 

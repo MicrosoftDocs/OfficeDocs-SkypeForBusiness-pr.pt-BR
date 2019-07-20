@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c139efb2079a010c802b1c49ab18e0297cd8520
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 5c9c0986053fbfa5df2369205f75718abf5f114a
+ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221903"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "35804869"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Criar uma equipe englobando toda a organização no Microsoft Teams
 
@@ -51,15 +51,19 @@ Para aproveitar ao máximo sua equipe de toda a organização, recomendamos que 
 
 ### <a name="allow-only-team-owners-to-post-to-the-general-channel"></a>Permitir que apenas proprietários de equipe publiquem no canal geral
 
-Reduza o ruído do canal ao fazer com que apenas proprietários de equipes sejam postados ao canal geral. Vá para a equipe e clique em **mais opções** > **Gerenciar equipe**. Na guia **configurações** , clique em **permissões de membro**e, em seguida, selecione **somente proprietários podem publicar mensagens**.
+Reduza o ruído do canal ao fazer com que apenas proprietários de equipes sejam postados ao canal geral. Vá para a equipe e clique em **̇ ̇ ̇ mais opções** > **Gerenciar equipe**. Na guia **configurações** , clique em **permissões de membro** > selecionar **somente proprietários podem publicar mensagens**.
 
 ### <a name="turn-off-team-and-team-name-mentions"></a>Desativar @team e @ [nome da equipe] menção
 
-Reduza @mentions para mantê-los sobrecarregando toda a organização. Vá para a equipe e clique em **mais opções** > **Gerenciar equipe**. Na guia **configurações** , clique em <strong>@mentions</strong>e, em seguida, desabilite **mostrar membros a opção para @team ou @ [nome da equipe]**.
+ Reduza @mentions para mantê-los sobrecarregando toda a organização. Vá para a equipe e clique em **̇ ̇ ̇ mais opções** > **Gerenciar equipe**. Na guia **configurações** , clique em <strong>@mentions</strong> > desativar **mostrar membros a opção para @team ou @ [nome da equipe]**. 
 
 ### <a name="automatically-favorite-important-channels"></a>Canais importantes favoritos automaticamente
 
 Canais importantes favoritos para garantir que todos em sua organização se envolvam em conversas específicas. Para saber mais, confira [canais de favoritos automáticos para toda a equipe](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6).
+
+### <a name="set-up-channel-moderation"></a>Configurar a moderação do canal
+
+Considere a possibilidade de configurar a moderação do canal e dar recursos moderadores a determinados membros da equipe. (Quando a moderação é configurada, os proprietários da equipe recebem recursos do moderador automaticamente.) Os moderadores podem controlar quem pode iniciar uma nova postagem em um canal, adicionar e remover moderadores, controlar se os membros da equipe podem responder às mensagens de canal existentes e controlar se os bots e conectores podem enviar mensagens de canal. Para obter mais informações, consulte [configurar e gerenciar a moderação de canal no Microsoft Teams](manage-channel-moderation-in-teams.md).
 
 ### <a name="remove-accounts-that-might-not-belong"></a>Remover contas que não podem pertencer
 
