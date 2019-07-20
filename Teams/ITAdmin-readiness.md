@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Vídeos de treinamento, apresentações do PowerPoint, tutoriais e outros recursos para administradores sobre como planejar, implantar e executar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7bc64d540fc2f885eabd43417edd728a5ef426f2
-ms.sourcegitcommit: ff777b61573b9d90e2d49c49b41fad654eeb3af7
+ms.openlocfilehash: 67da3bc45f87cabcb173d5ea58f3c1183e20ab30
+ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34652742"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "35804757"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Treinamento para o administrador do Microsoft Teams
 
@@ -117,3 +117,4 @@ Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pe
 
 - [Habilitando o trabalho em equipe com o Microsoft Teams](https://aka.ms/edx-cld267x-about)
 - [Especialista em Adesão a Serviços da Microsoft](https://aka.ms/AdoptionCert)
+- [Teams em 30 treinamento interativo](https://docs.microsoft.com/MicrosoftTeams/teams-in-30-interactive-training)
