@@ -18,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Saiba mais sobre licenças de usuário virtual gratuitas.
-ms.openlocfilehash: acf7c3bb316e3b9a060c939cef032f888f6852b6
-ms.sourcegitcommit: 101fc98da3e8e969652ec1aca77dd4d7aef4a918
+ms.openlocfilehash: c369624e894bcf3870210d38509d7f5e517bad82
+ms.sourcegitcommit: 6d30a0b0eb51a20aef93833bb7c0e466f015b3c6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/20/2019
-ms.locfileid: "35807775"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "35818204"
 ---
 # <a name="virtual-user-license"></a>Licença de usuário virtual  
 

@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a3331537bf2966bbff70922611346cdc3603ae3
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: a1b85e9b8a2d3592c94a9275a8d6b7873b7551c3
+ms.sourcegitcommit: 6d30a0b0eb51a20aef93833bb7c0e466f015b3c6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35222034"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "35818172"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementar a QoS (qualidade de serviço) no Microsoft Teams
 
@@ -37,7 +37,7 @@ Sem alguma forma de QoS, você pode ver os seguintes problemas de qualidade em v
 
 A maneira menos complexa de solucionar esses problemas é aumentar o tamanho das conexões de dados, interna e externamente à Internet. Como isso é geralmente mais barato, a QoS oferece uma maneira de gerenciar com mais eficiência os recursos que você tem em vez de adicionar novos recursos. Para solucionar completamente os problemas de qualidade, você usaria a QoS em toda a implementação e, em seguida, adiciona conectividade apenas onde absolutamente necessário.
 
-Para que a QoS seja eficiente, você precisará aplicar configurações de QoS consistentes de ponta a ponta em sua organização (isso inclui todos os computadores de usuário, comutadores de rede e roteadores para a Internet), porque qualquer parte do caminho que não dê suporte a prioridades de QoS poderá diminuir o qualidade de chamadas, vídeo e compartilhamentos de tela.
+Para que a QoS seja eficiente, você terá configurações de QoS consistentes aplicadas para encerrar em sua organização, porque qualquer parte do caminho que não dê suporte a suas prioridades de QoS poderá diminuir a qualidade das chamadas, vídeo e compartilhamentos de tela. Isso inclui a aplicação de configurações a todos os computadores ou dispositivos de usuário, switches de rede, roteadores para a Internet e o serviço Teams online.
 
 _Figura 1. A relação entre as redes da organização e os serviços do Office 365_
 
