@@ -24,6 +24,7 @@
 ## [Práticas recomendadas para organizar equipes no Teams](best-practices-organizing.md)
 ## [Criar uma equipe englobando toda a organização no Teams](create-an-org-wide-team.md)
 ## [Gerenciar a descoberta de equipes particulares no Teams](manage-discovery-of-private-teams.md)
+## [Configurar a moderação de canal no Teams](manage-channel-moderation-in-teams.md)
 ## [Compartilhando arquivos no Teams](sharing-files-in-teams.md)
 ## [Gerenciar políticas de mensagens](messaging-policies-in-teams.md)
 ## [Presença do usuário no Teams](presence-admins.md)

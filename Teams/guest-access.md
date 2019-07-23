@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3f6e2c0b68f55521ad485fae86ae4c2b45bb11b
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 4af2c6870cb636703ae35a9d3c7c5c19bd2f3105
+ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221664"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "35804680"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Acesso para convidado no Microsoft Teams
 ======================================
@@ -37,7 +37,7 @@ O acesso a convidados é um dos recursos mais pedidos pelos clientes. Veja como 
 
 O acesso a convidados permite que as equipes da sua organização colaborem com pessoas de fora da sua organização, concedendo a elas acesso a equipes e canais existentes em um ou mais de seus locatários. Qualquer pessoa com uma conta de email corporativa ou de consumidor, como do Outlook, Gmail ou outras, pode participar como convidado no Microsoft Teams, com acesso total a chats, reuniões e arquivos de equipe.
 
-O acesso a convidados está incluído em todas as assinaturas do Office 365 Business Premium, do Office 365 Enterprise e do Office 365 Education sem nenhum requisito de licenciamento adicional. Você pode ter até cinco convidados por usuário licenciado no seu locatário. Para obter mais informações sobre licenciamento, consulte o [guia de licenciamento de colaboração do Azure Active Directory B2B](https://docs.microsoft.com/pt-BR/azure/active-directory/b2b/licensing-guidance). 
+O acesso de convidados está incluído em várias assinaturas do Office 365, sem requisitos adicionais de licenciamento. Para obter mais informações sobre licenciamento, consulte o [guia de licenciamento de colaboração do Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
 
 O acesso a convidados é uma configuração a nível de locatário no Microsoft Teams e está desabilitado por padrão. O acesso a convidados está sujeito aos limites de serviço do Azure AD e do Office 365.
 

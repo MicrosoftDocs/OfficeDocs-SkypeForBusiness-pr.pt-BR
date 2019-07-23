@@ -4,30 +4,29 @@ ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: Orientação passo a passo para implantar o chat, equipes, canais e aplicativos no Microsoft Teams
+description: Orientações passo a passo para implementar chat, equipes, canais e aplicativos no Microsoft Teams
 localization_priority: Priority
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d28eaee5b413444c9123f2334f38d599b6f753a5
-ms.sourcegitcommit: 2af4c9e3a8374d9a6995e36604d8b0b8eff23b34
+ms.openlocfilehash: 9ad965c4979345b41f257507cb172b4e564f28cf
+ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35133903"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "35804797"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, equipes, canais e aplicativos no Microsoft Teams
 
 O Teams oferece uma excelente experiência de colaboração pronta para uso para sua organização e a maioria das organizações acha que as configurações padrão atendem suas necessidades. Este artigo ajuda você a decidir se deseja alterar as configurações padrão, com base no perfil da organização e requisitos de negócios e, em seguida, orienta você em cada alteração. Dividimos as configurações em dois grupos, começando com o conjunto principal de [alterações que você provavelmente realizará](#core-deployment-decisions). O segundo grupo inclui [configurações adicionais](#additional-deployment-decisions) que poderão ser configuradas com base nas necessidades de sua organização.
 
 > [!TIP]
-> É recomendável incluir os aplicativos em destaque, como o Planner, na implementação inicial do Teams. Adicionar outros [aplicativos, bots e conectores](deploy-apps-microsoft-teams-landing-page.md) ao direcionar a adoção do Teams.
+> É recomendável incluir os aplicativos em destaque, como o Planner, na implementação inicial do Teams. Adicionar outros [aplicativos, bots e conectores](deploy-apps-microsoft-teams-landing-page.md) ao executar a adoção do Teams.
 
 ## <a name="chat-deployment-prerequisites"></a>Pré-requisitos de implantação do chat
 
@@ -42,7 +41,7 @@ Antes de implementar o Teams em sua organização, reserve algum tempo para conf
 
 |Pergunte-se|Ação |
 |------------|-------|
-|Minha organização está pronta para implementar o Teams?|Para responder a essa pergunta, confira: <ul><li> [Verificar a preparação de seu ambiente para o Teams](environment-readiness.md)</li><li>[Preparo da rede da sua organização para o Teams](prepare-network.md)</li><li>[URLs e intervalos de endereços IP do Office 365](office-365-urls-ip-address-ranges.md)</li><li>[Planejar os Grupos do Office 365 ao criar equipes](plan-office-365-groups.md)|
+|Minha organização está pronta para implementar o Teams?|Para responder a essa pergunta, confira: <ul><li> [Verificar a preparação de seu ambiente para o Teams](environment-readiness.md)</li><li>[Preparo da rede da sua organização para o Teams](prepare-network.md)</li><li>[URLs e intervalos de endereços IP do Office 365](office-365-urls-ip-address-ranges.md)</li><li>[Planejar os Grupos do Office 365 ao criar equipes](plan-office-365-groups.md)</li></ul>|
 |||
 
 ## <a name="core-deployment-decisions"></a>Decisões principais de implantação
@@ -51,7 +50,7 @@ Estas são as configurações de chat, equipes e canais que a maioria das organi
 
 ### <a name="teams-administrators"></a>Administradores do Teams
 
-O Teams fornece um conjunto personalizado de funções de administrador que pode ser usado para gerenciar o programa na organização. As funções fornecem vários recursos para administradores. 
+O Teams fornece um conjunto personalizado de funções de administrador que pode ser usado para gerenciar o programa na organização. As funções fornecem vários recursos para administradores.
 
 | Pergunte a si mesmo | Ação |
 |--------------|--------|
@@ -60,13 +59,23 @@ O Teams fornece um conjunto personalizado de funções de administrador que pode
 |A quem será atribuída a função de Especialista de Suporte de Comunicações do Teams?||
 |||
 
+### <a name="teams-owners-and-members"></a>Proprietários e membros do Teams
+
+Além das funções de administrador, o Teams permite que você atribua funções de usuário ao membro e ao proprietário e forneça seletivamente recursos de moderador (se a moderação tiver sido configurada) para controlar quem pode realizar determinadas ações dentro de um canal. A moderação permite controlar quem pode iniciar novas postagens em um canal, adicionar e remover membros da equipe como moderadores e controlar se os membros da equipe podem responder a mensagens existentes do canal.
+
+|Pergunte-se|Ação |
+|------------|-------|
+|Quem deve ser atribuído a cada função? | Para comparar os recursos de cada função, confira [Atribuir proprietários, moderadores e membros de equipe no Microsoft Teams.](assign-roles-permissions.md)
+|Como posso atribuir uma função de usuário? | Para atribuir ou alterar uma função, confira [Atribuir uma função de usuário](assign-roles-permissions.md#assign-a-user-role).
+|Preciso controlar quem pode postar e responder em um canal? | Para configurar a moderação, confira [Configurar e gerenciar a moderação de canal no Microsoft Teams](manage-channel-moderation-in-teams.md).
+
 ### <a name="messaging-policies"></a>Políticas de mensagens
 
 As políticas de mensagens controlam quais recursos de mensagens de chat e canal estão disponíveis para usuários no Teams. Por exemplo, quem pode editar e excluir mensagens, quem pode usar o chat, quem pode usar memes em conversas e muito mais. Por padrão, os usuários recebem a atribuição da política global de mensagens e todos os recursos estão **Habilitados**. Você pode usar a política global padrão ou criar uma ou mais políticas de mensagens personalizadas para pessoas em sua organização. 
 
 |Pergunte-se|Ação |
 |------------|-------|
-|Vou personalizar a política global de mensagens?|Para obter informações sobre como usar o Centro de administração do Microsoft Teams para alterar a política global de mensagens ou adicionar uma nova política, confira [Quais são as políticas de mensagens no Teams?](messaging-policies-in-teams.md).|
+|Vou personalizar a política global de mensagens?|Para obter informações sobre como usar o Centro de administração do Microsoft Teams para alterar a política global de mensagens ou adicionar uma nova política, confira [Gerenciar políticas de mensagens no Teams](messaging-policies-in-teams.md).|
 |Exijo várias políticas de mensagens?|Para criar e atribuir uma política de mensagens no PowerShell, confira [Exemplo de script do PowerShell - Criar e atribuir uma política de mensagens](scripts/powershell-script-teams-messaging-policy-edu.md).|
 |Como determinarei quais grupos de usuários receberão qual política de mensagens?|Para saber mais sobre os cmdlets CsTeamsMessagingPolicy, confira [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps).|
 ||| 
@@ -82,7 +91,7 @@ O acesso externo (anteriormente conhecido como federação) permite que os usuá
 
 ### <a name="guest-access"></a>Acesso de convidado
 
-No Teams, o acesso de convidado permite que pessoas que não pertencem à organização acessem canais e equipes. Você pode usar as configurações de acesso de convidado para controlar quais recursos os usuários convidados podem ou não usar. O acesso de convidado está desativado por padrão. Para saber mais, confira [Acesso de convidado no Teams](https://docs.microsoft.com/microsoftteams/guest-access).
+No Teams, o acesso de convidado permite que pessoas que não pertencem à organização acessem canais e equipes. Você pode usar as configurações de acesso de convidado para controlar quais recursos os usuários convidados podem ou não usar. O acesso de convidado está desativado por padrão. Para saber mais, confira [Acesso de convidado do Teams](https://docs.microsoft.com/microsoftteams/guest-access).
 
 |Pergunte-se|Ação |
 |------------|-------|
