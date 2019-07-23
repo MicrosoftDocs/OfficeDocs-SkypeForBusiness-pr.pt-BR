@@ -1,5 +1,5 @@
 ---
-title: Compartilhando arquivos em Teams da Microsoft
+title: Compartilhando arquivos no Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,59 +8,60 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
 search.appverid: MET150
-description: Microsoft Teams utiliza as configurações do OneDrive e do SharePoint para controlar o compartilhamento.
+description: O Microsoft Teams usa as configurações do OneDrive e do SharePoint para controlar o compartilhamento.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69f4ee036c951197e697c1f74bffb5c079d85bc3
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+ms.openlocfilehash: 8ddb342af669f710bfd9d05c8b21290ebc6e0451
+ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835071"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "35821042"
 ---
-# <a name="sharing-files-in-microsoft-teams"></a>Compartilhando arquivos em Teams da Microsoft
+# <a name="sharing-files-in-microsoft-teams"></a>Compartilhando arquivos no Microsoft Teams
 
 > [!INCLUDE [new feature coming soon](includes/new-feature-coming-soon-article.md)]
 
-O compartilhamento de recursos em equipes de arquivo permitem que usuários compartilhar conteúdo com outros usuários de equipes em suas organizações. Compartilhamento em equipes baseia-se nas configurações definidas no SharePoint e OneDrive, portanto o que você definir para SharePoint e OneDrive controlará o compartilhamento em equipes também.
+Os recursos de compartilhamento de arquivos no Microsoft Teams permitem que os usuários compartilhem conteúdo com outros usuários do Microsoft Teams em sua organização. O compartilhamento no Teams é baseado nas configurações definidas no SharePoint e no OneDrive, portanto, o que você configurou para o SharePoint e o OneDrive também controlará o compartilhamento no Teams.
+![Diagrama indicando como o compartilhamento de arquivos funciona entre o Microsoft Teams e o OneDrive for Business e o SharePoint](media/sharing-files-in-teams-image1.png)
 
-As equipes de compartilhamento permite que os usuários faça o seguinte:
+O compartilhamento de equipes permite que os usuários façam o seguinte:
 
 - Compartilhar arquivos do OneDrive.
 
-- Definir permissões para os arquivos que desejam compartilhar com outras pessoas.
+- Defina as permissões para os arquivos que desejam compartilhar com outras pessoas.
 
-- Compartilhar arquivos entre equipes.
+- Compartilhe arquivos entre equipes.
 
-- Compartilhar arquivos de sua lista de arquivos acessados recentemente (geralmente, estes são os arquivos que os usuários estão mais interessados em compartilhamento).
+- Compartilhar arquivos a partir de sua lista de arquivos acessados recentemente (normalmente, estes são os arquivos que os usuários estão mais interessados em compartilhar).
 
-- Mantenha-se dentro de equipes quando clicarem em um nome de arquivo para abrir um arquivo.
+- Permaneça dentro do teams quando clicar em um nome de arquivo para abrir um arquivo.
 
-As equipes abrevia long SharePoint URLS e URLS que apontam para um arquivo do navegador. As equipes usa apenas o nome de arquivo para vincular a um arquivo. Além disso, a opção de **obter o link** foi alterada para **copiar o link** para eliminar qualquer confusão que os usuários podem ter sobre como permitir que outras pessoas acessem um arquivo.
+O Teams encurta URLS longas do SharePoint e URLS de navegador que apontam para um arquivo. O Teams usa apenas o nome do arquivo para vincular a um arquivo. Além disso, a opção **obter link** foi alterada para **copiar** para eliminar a confusão que os usuários podem ter para dar acesso a um arquivo a outras pessoas.
 
-## <a name="configure-sharing-in-onedrive-and-sharepoint"></a>Configurar o compartilhamento em OneDrive e SharePoint
+## <a name="configure-sharing-in-onedrive-and-sharepoint"></a>Configurar o compartilhamento no OneDrive e no SharePoint
 
-Para obter mais informações sobre o compartilhamento de arquivos em OneDrive e do SharePoint, incluindo como configurar o compartilhamento e como ativar e desativar o compartilhamento, consulte:
+Para obter mais informações sobre o compartilhamento de arquivos no OneDrive e no SharePoint, incluindo como configurar o compartilhamento e como ativar e desativar o compartilhamento, consulte:
 
-- [Visão geral do compartilhamento externo](https://docs.microsoft.com/sharepoint/external-sharing-overview) - descreve o que acontece quando usuários compartilharem, dependendo de qual estiver compartilhando e com quem.
+- [Visão geral do compartilhamento externo](https://docs.microsoft.com/sharepoint/external-sharing-overview) – descreve o que acontece quando os usuários compartilham, dependendo do que estão compartilhando e com quem.
 
-- [Ativar externo ou desativar o compartilhamento](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off) - descreve como global e administradores do SharePoint podem alterar suas configurações de compartilhamento de nível da organização para SharePoint e OneDrive.
+- [Ativar ou desativar o compartilhamento externo](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off) -descreve como os administradores globais e do SharePoint podem alterar as configurações de compartilhamento no nível da organização para o SharePoint e o onedrive.
 
-- [Alteração externa de compartilhamento para um site](https://docs.microsoft.com/sharepoint/change-external-sharing-site) – descreve como global e administradores do SharePoint podem tornar externos ou desativar o compartilhamento para um site.
+- [Alterar o compartilhamento externo de um site](https://docs.microsoft.com/sharepoint/change-external-sharing-site) – descreve como os administradores globais e do SharePoint podem ativar ou desativar o compartilhamento externo de um site.
 
-- [Alterar o tipo de link padrão quando os usuários obtenham links para compartilhamento](https://docs.microsoft.com/sharepoint/change-default-sharing-link) - descreve como definir o tipo de link de padrão de forma que ele fique mais restritivo.
+- [Altere o tipo de link padrão quando os usuários recebem links para compartilhamento](https://docs.microsoft.com/sharepoint/change-default-sharing-link) – descreve como definir o tipo de link padrão para que seja mais restritivo.
 
 ## <a name="more-information"></a>Mais informações
 
 - [Como o SharePoint Online e o OneDrive for Business interagem com o Microsoft Teams](sharepoint-onedrive-interact.md)
 
-- [Equipes e SharePoint: melhores juntos](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593).
+- [SharePoint e Teams: melhor juntos](https://techcommunity.microsoft.com/t5/Microsoft-SharePoint-Blog/SharePoint-and-Teams-Better-Together/ba-p/189593).
 
-- [Compartilhar pastas e arquivos de OneDrive](https://support.office.com/article/Share-OneDrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07#OS_Type=OneDrive_-_Business)
+- [Compartilhar arquivos e pastas do OneDrive](https://support.office.com/article/Share-OneDrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07#OS_Type=OneDrive_-_Business)
 
-- [Compartilhar arquivos do SharePoint ou pastas](https://support.office.com/article/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c)
+- [Compartilhar arquivos ou pastas do SharePoint](https://support.office.com/article/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c)
 

@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1b85e9b8a2d3592c94a9275a8d6b7873b7551c3
-ms.sourcegitcommit: 6d30a0b0eb51a20aef93833bb7c0e466f015b3c6
+ms.openlocfilehash: dc2344494ed853a992f205b6bdcfd4d702136f99
+ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "35818172"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "35820981"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementar a QoS (qualidade de serviço) no Microsoft Teams
 
@@ -43,7 +43,7 @@ _Figura 1. A relação entre as redes da organização e os serviços do Office 
 
 ![Ilustração da relação entre redes e serviços] (media/Qos-in-Teams-Image1.png "A relação entre as redes da organização e os serviços do Office 365: a rede local e os dispositivos se conectam a uma rede de interconexão, que, por sua vez, se conecta com o Office 365 Cloud Voice and audio Conferencing Services.")
 
-Na maioria dos casos, a rede conectando sua empresa à nuvem será uma rede não gerenciada na qual você não poderá definir as opções de QoS de maneira confiável. Uma opção disponível para endereçar QoS ponto a ponto é o [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/), mas ainda recomendamos que você implemente QoS na sua rede local. Isso aumentará a qualidade das cargas de trabalho de comunicação em tempo real em toda a sua implantação e amenizará o chokepoints.
+Na maioria dos casos, a rede conectando sua empresa à nuvem será uma rede não gerenciada na qual você não poderá definir as opções de QoS de maneira confiável. Uma opção disponível para endereçar QoS ponto a ponto é o [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/), mas ainda recomendamos que você implemente QoS em sua rede local para tráfego de entrada e saída. Isso aumentará a qualidade das cargas de trabalho de comunicação em tempo real em toda a sua implantação e amenizará o chokepoints.
 
 ## <a name="verify-your-network-is-ready"></a>Verifique se a sua rede está pronta
 

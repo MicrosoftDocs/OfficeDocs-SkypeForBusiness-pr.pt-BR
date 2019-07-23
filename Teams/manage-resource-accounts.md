@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Saiba mais sobre como gerenciar contas de recursos no Microsoft Teams
-ms.openlocfilehash: ddea11e7aa3bc9287313b02db27d095c49528718
-ms.sourcegitcommit: 6d30a0b0eb51a20aef93833bb7c0e466f015b3c6
+ms.openlocfilehash: 1dd3fd8c7a9300b9c887cbc0c3cd3611b378d0c9
+ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "35818212"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "35821058"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gerenciar contas de recursos no Microsoft Teams
 
@@ -213,16 +213,16 @@ Para implementações híbridas com o Skype for Business Server:
 
    [Atendedores automáticos do plano da nuvem](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
   
-   [Planejar filas de chamadas da nuvem](/SkypeforBusiness/hybrid/plan-call-queue.md)
+   [Planejar filas de chamadas da nuvem](/SkypeforBusiness/hybrid/plan-call-queue)
    
-   [Configurar contas de recursos onlocal](/SkypeForBusiness/hybrid/configure-onprem-ra.md)
+   [Configurar contas de recursos onlocal](/SkypeForBusiness/hybrid/configure-onprem-ra)
 
 
 Para implementações do teams ou do Skype for Business Online:
 
    [Quais são os atendedores automáticos do Cloud?](what-are-phone-system-auto-attendants.md)
 
-   [Configurar um atendedor automático do Cloud](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+   [Configurar um atendedor automático do Cloud](/microsoftteams/create-a-phone-system-auto-attendant)
 
    [Exemplo de pequenas empresas - Configurar um atendedor automático](/microsoftteams/tutorial-org-aa)
 
