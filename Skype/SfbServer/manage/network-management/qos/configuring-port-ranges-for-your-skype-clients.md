@@ -13,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este artigo descreve como configurar intervalos de porta para seus clientes e configurar políticas de qualidade de serviço no Skype for Business Server para clientes em execução no Windows 10.
-ms.openlocfilehash: ce1690c295f1f5ed991780919370e5dbf5b5d6b1
-ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
+ms.openlocfilehash: 4d7999634864e222dd627ea3b46a3a3da5c67fe5
+ms.sourcegitcommit: 67282b5f2f1aac3e675c4a485f4846deba15deb4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35204011"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "35841466"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>Configurando intervalos de porta e uma política de qualidade de serviço para seus clientes no Skype for Business Server
 
@@ -221,7 +221,7 @@ Para uma política de transferência de arquivos:
 
 As novas políticas que você criou não entrarão em vigor até que a política de grupo seja atualizada em seus computadores cliente. Embora a Política de Grupo seja periodicamente atualizada por si só, você pode forçar a atualização imediata executando o comando a seguir em cada computador em que a Política de Grupo deve ser atualizada:
 
-    Gpudate.exe /force
+    Gpupdate.exe /force
 
 Esse comando pode ser executado em qualquer janela de comando executada com credenciais de administrador. Para executar uma janela de comando com credenciais de administrador, clique em **Iniciar**, clique com o botão direito do mouse em **Prompt de Comando** e clique em **Executar como administrador**.
 

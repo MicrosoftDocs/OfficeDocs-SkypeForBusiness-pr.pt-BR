@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3498c3eaf81b2b8be7513ec083957f89d3f7fd00
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: 3142a30a5131ed18a76a130c420b3af214c5190b
+ms.sourcegitcommit: 67282b5f2f1aac3e675c4a485f4846deba15deb4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588075"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "35841372"
 ---
 <a name="teams-guest-access-checklist"></a>Lista de verificação de acesso de convidados do teams
 ==========================================
@@ -59,7 +59,6 @@ O acesso de convidado no Microsoft Teams usa o Azure Active Directory (Azure AD)
 
 Lembre-se de algumas coisas:
 
-- Para cada licença paga do Azure AD atribuída a um usuário, os usuários podem convidar até cinco usuários convidados sob a bonificação de usuário externa.
 - Convidados são usuários de fora da sua organização. Seus funcionários, prestadores de no local, agentes no local e assim por diante não podem ser adicionados como convidados. O mesmo se aplica às suas afiliadas.
 - As licenças de convidado são contadas em relação à organização que convida. Considere isso quando você calcular o número de licenças necessárias.
 - As licenças são contadas em relação à sua organização se os convidados convidados vierem de outro locatário do Office 365 ou estiverem usando seus endereços de email pessoais.
