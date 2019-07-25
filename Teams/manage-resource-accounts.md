@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Saiba mais sobre como gerenciar contas de recursos no Microsoft Teams
-ms.openlocfilehash: 684e315c1db35b6a1e92854e248508e5d9d371b5
-ms.sourcegitcommit: 67282b5f2f1aac3e675c4a485f4846deba15deb4
+ms.openlocfilehash: f1028e35bff7a2801a82e50e032c1b181200e00e
+ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "35841473"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "35861891"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gerenciar contas de recursos no Microsoft Teams
 
@@ -39,15 +39,17 @@ No Microsoft Teams ou no Skype for Business Online, cada fila de chamadas do sis
 
 ## <a name="overview"></a>Visão geral
 
-Pressupondo que a sua organização já esteja usando pelo menos uma licença do sistema de telefonia, para atribuir um número de telefone ao serviço do sistema telefônico, você precisará tratar as várias dependências na seguinte sequência:
+Pressupondo que sua organização já esteja usando pelo menos uma licença do sistema de telefonia, para atribuir uma fila de chamadas do sistema telefônico ou atendedor automático um número de telefone, você precisará tratar as várias dependências na seguinte sequência:
 
 1. Obter um número de serviço.
 2. Obter um sistema de telefonia livre- [licença de usuário virtual](teams-add-on-licensing/virtual-user.md) ou uma licença do sistema de telefonia paga para usar com a conta do recurso.
 3. Criar a conta do recurso. Um atendedor automático ou fila de chamadas é necessário para ter uma conta de recurso associada.
 4. Atribua o sistema telefônico ou um sistema telefônico-licença de usuário virtual para a conta do recurso.
-5. Atribua um número de telefone de serviço à conta de recurso à qual você acabou de atribuir licenças.
-6. Criar um serviço do sistema telefônico (uma fila de chamadas ou um atendedor automático).
-7. Vincule a conta do recurso a um serviço.
+5. Atribua um número de telefone de serviço à conta de recurso à qual você acabou de atribuir licenças. 
+6. Criar uma fila de chamadas do sistema telefônico ou um atendedor automático
+7. Vincule a conta do recurso a uma fila de chamadas ou atendedor automático.
+
+
 
 Se o atendedor automático ou a fila de chamadas estiverem aninhados em um atendedor automático de nível superior, a conta do recurso associado só precisará de um número de telefone se você quiser vários pontos de entrada na estrutura de atendedores automáticos e filas de chamadas.
 
@@ -56,11 +58,11 @@ Para redirecionar chamadas para as pessoas em sua organização que estão onlin
 > [!WARNING]
 > Para evitar problemas com a conta do recurso, siga estas etapas nesta ordem.
 
-Se o serviço do sistema telefônico que você está criando for aninhado e não precisar de um número de telefone, o processo será:
+Se a fila de chamadas do sistema de telefonia ou o atendedor automático que você está criando for aninhado e não precisar de um número de telefone, o processo será:
 
 1. Criar a conta do recurso  
-2. Criar um serviço do sistema telefônico
-3. Associar a conta de recurso a um serviço de sistema telefônico
+2. Criar uma fila de chamadas do sistema telefônico ou um atendedor automático
+3. Associar a conta de recurso a uma fila de chamadas do sistema telefônico ou atendedor automático
 
 ### <a name="create-a-resource-account-with-a-phone-number"></a>Criar uma conta de recurso com um número de telefone
 
@@ -91,7 +93,7 @@ Um atendedor automático aninhado ou fila de chamadas exigir uma conta de recurs
 2. Configure um dos seguintes procedimentos:
    - [Atendedor automático na nuvem](create-a-phone-system-auto-attendant.md)
    - [Fila de chamadas em nuvem](create-a-phone-system-call-queue.md)
-3. Atribua a conta de recurso ao serviço. Ver [atribuir/cancelar a atribuição de números de telefone e serviços](#assignunassign-phone-numbers-and-services)
+3. Atribua a conta de recurso à fila de chamadas ou ao atendedor automático. Ver [atribuir/cancelar a atribuição de números de telefone e serviços](#assignunassign-phone-numbers-and-services)
 
 
 ## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>Criar uma conta de recurso no centro de administração do Microsoft Teams
@@ -120,7 +122,7 @@ Em seguida, aplique uma licença para a conta do recurso no centro de administra
 Para atribuir um roteamento direto ou número híbrido a uma conta de recurso, você precisará usar o PowerShell, confira a seção a seguir.
 
 > [!IMPORTANT]
-> Se a sua conta de recurso não tiver uma licença do sistema de telefonia ou de usuário virtual, uma verificação interna causará uma falha quando você tentar atribuir o número de telefone à conta do recurso. Você não poderá atribuir o número ou associar a conta do recurso a um serviço.
+> Se a sua conta de recurso não tiver uma licença válida, uma verificação interna causará uma falha quando você tentar atribuir o número de telefone à conta do recurso. Você não poderá atribuir o número ou associar a conta do recurso a uma fila de chamadas ou atendedor automático.
 
 ![Captura de tela das opções atribuir/Cancelar atribuição](media/r-a-assign.png)
 

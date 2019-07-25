@@ -18,43 +18,43 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20a10288c53ef26e47f50339c581901bd4e33958
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d2a87feab04e28f2219acc31cce1d4c60a76a530
+ms.sourcegitcommit: a84b8de70149d9688bde64809912dc470377807e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32190179"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "35851495"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Licença do Office 365 para o Microsoft Teams
 ========================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-As seguintes assinaturas do Office 365 habilitam usuários para equipes.
+As assinaturas do Office 365 a seguir permitem que usuários do teams.
 
 |Planos para pequenas empresas  |Planos empresariais  |Planos educacionais  |Planos de desenvolvedor |
 |---------|---------|---------|---------|
 |Office 365 Business Essentials     |Office 365 Enterprise E1  |Office 365 Education |Desenvolvedor do Office 365     |
 |Office 365 Business Premium     |Office 365 Enterprise E3         |Office 365 Education Plus         |      |
-|     |Office 365 Enterprise E4 (desativado)         |Office 365 Education E3 (desativado)         |  |
+|Microsoft 365 para empresas     |Office 365 Enterprise E4 (desativado)         |Office 365 Education E3 (desativado)         |  |
 |     |Office 365 Enterprise E5         |Office 365 Education E5  | 
 |     |Office 365 Enterprise F1 |    |     | 
 
-Para obter mais informações sobre a obtenção de equipes, confira [como obter acesso ao Microsoft Teams?](https://support.office.com/article/How-do-I-get-access-to-Microsoft-Teams-fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+Para obter mais informações sobre como obter o Microsoft Teams, confira [como faço para obter acesso ao Microsoft Teams?](https://support.office.com/article/How-do-I-get-access-to-Microsoft-Teams-fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 > [!NOTE]
-> O Microsoft Teams também está disponível para organizações sem fins lucrativos. As equipes começará a aplicação conosco governamentais nuvem da comunidade (GCC) em 17 de julho e esteja disponível para todos os clientes qualificados no final de agosto de 2018. Estamos trabalhando para trazer Teams da Microsoft para as outras nuvens de governamentais de US (GCC alta e DoD) em breve. Leitura mais no blog Microsoft Teams [aqui](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976).
+> O Microsoft Teams também está disponível para organizações sem fins lucrativos. O Microsoft Teams começará a ser implantado para a comunidade de nuvens do governo dos EUA em 17 de julho e estará disponível para todos os clientes qualificados até o final de agosto de 2018. Estamos trabalhando para trazer o Microsoft Teams para as outras nuvens do governo dos EUA (GCC alta e DoD) em breve. Leia mais no blog do Microsoft Teams [aqui](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976).
 
 > [!NOTE]
-> Iniciando 1 de outubro de 2018, novos clientes do Office 365 com 500 estações ou menos serão onboarded às equipes e não terão acesso ao Skype para negócios Online. Inquilinos que já estão usando Skype de negócios Online poderão continuar a fazer afirmativo (incluindo o provisionamento de novos usuários) até que sejam concluídas sua transição para equipes. Para saber mais, consulte [As equipes da Microsoft agora o cliente principal para reuniões e chamar no Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling).
+> A partir de 1 ° de outubro de 2018, novos clientes do Office 365 com 500 estações ou menos serão integrados ao Microsoft Teams e não terão acesso ao Skype for Business online. Os locatários que já usam o Skype for Business online poderão continuar a fazer isso (inclusive o provisionamento de novos usuários) até que eles concluam sua transição para o Microsoft Teams. Para saber mais, confira [Microsoft Teams agora o cliente principal para reuniões e chamadas no Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling).
         
-Em termos de funcionalidades de principais de equipes, não existem diferenças entre as assinaturas do Office 365. A disponibilidade de recursos de conformidade depende do nível correto da assinatura. Para saber mais, leia [Visão geral de segurança e conformidade no Microsoft Teams](security-compliance-overview.md). Para obter uma lista detalhada dos recursos disponíveis em cada assinatura, consulte a [Descrição do serviço de plataforma do Office 365](https://technet.microsoft.com/library/office-365-platform-service-description.aspx).
+Em termos de funcionalidades essenciais do Teams, não há diferenças entre as assinaturas do Office 365. A disponibilidade de recursos de conformidade depende do nível correto da assinatura. Para saber mais, leia [Visão geral de segurança e conformidade no Microsoft Teams](security-compliance-overview.md). Para obter uma lista detalhada dos recursos disponíveis em cada assinatura, consulte a [Descrição do serviço de plataforma do Office 365](https://technet.microsoft.com/library/office-365-platform-service-description.aspx).
 
-**Recursos de voz de nuvem**: para conferência de áudio, sua organização precisará comprar e atribuir uma licença de conferência de áudio para cada usuário que vai configurar discagem reuniões. Para chamar planos, cada usuário precisará um sistema telefônico plus um doméstico ou doméstico e internacional chamar planejar. Para saber mais, consulte [Licenciamento de complemento de equipes da Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+**Recursos de voz na nuvem**: para videoconferência, sua organização precisará comprar e atribuir uma licença de audioconferência para cada usuário que configurará as reuniões discadas. Para planos de chamada, cada usuário precisará de um sistema telefônico e um plano de chamada internacional ou doméstico e internacional. Para saber mais, consulte [Licenciamento de Complementos do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 Todos os planos de assinatura suportados são qualificados para acessar o cliente Web, os clientes de desktop e aplicativos móveis do Microsoft Teams.
 
 O Microsoft Teams não está disponível como um serviço autônomo.
 
 > [!TIP]
-> Para gerenciar o licenciamento de nível de usuário, consulte [Manage user access às equipes da Microsoft](user-access.md).
+> Para gerenciar o licenciamento em nível de usuário, consulte [gerenciar o acesso do usuário ao Microsoft Teams](user-access.md).

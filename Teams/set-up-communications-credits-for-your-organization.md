@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 31a4314b1666810dbd9dbdee398efc8631eac02e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f19f51662a2a954b268a6c36f6c9dc0b4b90fdd8
+ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298730"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "35861836"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de Comunicação para sua organização
 
@@ -35,7 +35,7 @@ Você precisará configurar Créditos de Comunicação se quiser usar números g
 > [!NOTE]
 > Para descobrir quanto isso custa, [consulte as taxas aqui](https://go.microsoft.com/fwlink/p/?LinkId=799523 ). 
   
-## <a name="step-1-assign-an-audio-conferencing-and-calling-plan-license-to-your-users"></a>Etapa 1: atribuir uma licença de áudio e plano de chamadas para seus usuários
+## <a name="step-1-assign-an-audio-conferencing-or-calling-plan-license-to-your-users"></a>Etapa 1: atribuir uma conferência de áudio ou um plano de chamadas a seus usuários
 
 Ao se inscrever, você recebe um determinado número de minutos, dependendo do seu país/região. Você pode ver a quantidade de minutos para a qual vai procurar o país ou região [aqui](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Depois de usar esses minutos, as chamadas serão desconectadas. Para evitar que isso aconteça, você precisa configurar créditos de comunicações.
   

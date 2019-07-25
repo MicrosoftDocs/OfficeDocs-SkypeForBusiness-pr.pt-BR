@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: Este artigo explica as considerações de planejamento pertinentes para a implantação de salas do Microsoft Teams, a próxima geração de sistemas de sala do Skype.
-ms.openlocfilehash: 9944caab333b52c0d31c513e91f1f1b4a4cd71d1
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: e5c902b5e4e015bfcc9be3b2d3927365483f3396
+ms.sourcegitcommit: a84b8de70149d9688bde64809912dc470377807e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198648"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "35851542"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planejar salas do Microsoft Teams
 
@@ -51,12 +51,13 @@ Além da combinação do Surface pro/Dock, você também pode comprar salas do M
 
 Normalmente, os pacotes e as unidades integradas incluem software pré-instalado, e se você comprar componentes compatíveis individualmente para os sistemas Surface pro, será necessário instalar o software. Para obter instruções, confira [Este artigo sobre a instalação de software em dispositivos](room-systems-scale.md). 
 
-Você pode implantar salas do Microsoft Teams com o Microsoft Teams, o Skype for Business online ou implantações locais ou do Skype for Business.  Consulte [Licenciamento de salas do Microsoft Teams](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md) para obter informações sobre as licenças necessárias.
+Você pode implantar salas do Microsoft Teams com o Microsoft Teams, o Skype for Business online ou implantações locais ou do Skype for Business.  Consulte a [atualização](skype-room-systems-v2.md) do licenciamento da sala de reunião do teams para obter informações sobre as licenças necessárias.
 
 |    |     |
 |-----------|------------|
 |![](../media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Você vai implantar salas do Microsoft Teams em sua organização? </li><li>Como você obterá seus sistemas de salas do Microsoft Teams: incluídos em componentes separados ou como uma unidade integrada?</li></ul> |
 | ![](../media/audio_conferencing_image9.png)<br/>Próximas etapas | <ul><li>Identifique quem realizará as principais atividades em toda a sua implantação.</li><li>Examine as salas de reunião que você tem (e planeje configurar) para compreender onde deseja implantar as salas do Microsoft Teams e os dispositivos periféricos que seriam apropriados para o tamanho da sala.</li></ul> |
+| | |
 
 ## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment"></a>Identifique quem realizará as principais atividades em toda a sua implantação
 

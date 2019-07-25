@@ -17,12 +17,12 @@ description: Seu administrador de ti pode configurar o acesso externo para outro
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: dc8d737ada80e6cd7e62e795e820e47246c29715
-ms.sourcegitcommit: 67282b5f2f1aac3e675c4a485f4846deba15deb4
+ms.openlocfilehash: 406805760829c2246f47fe9641606eea5b0eadc2
+ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "35841458"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "35861868"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Gerenciar o acesso externo no Microsoft Teams
 ======================================================
@@ -109,9 +109,9 @@ Para obter mais informações sobre a versão gratuita do Teams e como ela funci
 
 O acesso externo permite que suas equipes e usuários do Skype for Business se comuniquem com outros usuários que estão fora da sua organização. Por padrão, a sua organização pode se comunicar com todos os domínios externos. Se você adicionar domínios bloqueados, todos os outros domínios serão permitidos, mas se você adicionar domínios permitidos, todos os outros domínios serão bloqueados. Você pode facilmente configurar o acesso externo à sua organização. Há três cenários para configurá-lo:
 
-- **Cenário 1** – você pode usar a **Federação aberta**. Esta é a configuração padrão e permite que as pessoas em sua organização encontrem, liguem e enviem mensagens instantâneas, além de configurar reuniões com pessoas externas à sua organização.
+- **Cenário 1** – você pode usar a **Federação aberta**. Essa é a configuração padrão, e permite que as pessoas em sua organização encontrem, liguem e enviem mensagens instantâneas/chats, além de configurar reuniões com pessoas de fora da sua organização.
 
-    Quando você usa essa configuração, os usuários podem se comunicar com todos os domínios externos que estão executando o Teams, mas configurar o domínio/organização para permitir o seu domínio.
+    Quando você usa essa configuração, os usuários podem se comunicar com todos os domínios externos que estão executando o Microsoft Teams ou o Skype for Business e estão usando a Federação aberta ou adicionaram seu domínio à lista de permissões.
 
 - **Cenário 2** -você pode adicionar um domínio ou domínios à lista de **permissões** . Para fazer isso, clique em **Adicionar um domínio**, adicione o nome de domínio, clique em **ação para assumir o domínio**e selecione **permitido**. É importante saber que, se você fizer isso, todos os **** outros domínios serão bloqueados.
 
