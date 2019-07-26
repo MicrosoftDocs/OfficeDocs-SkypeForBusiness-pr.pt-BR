@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Resumo: Prepare seus servidores do Skype for Business Server 2019 e a infraestrutura de domínio com este tópico. Hardware, sistema operacional, bancos de dados, software, todos os requisitos de sistema e recomendações, juntamente com o DNS de certificado, o compartilhamento de arquivos e as informações do Active Directory, estão aqui para ajudar a garantir uma instalação e implantação bem-sucedidas do seu farm de servidores.'
-ms.openlocfilehash: c1703c28f7c095810044145c6b3e9512b017e901
-ms.sourcegitcommit: bd50c6239cee414ea9933e9d569fa5a24bc05544
+ms.openlocfilehash: ab7062e3629c4638c68198f19e061c31cba4ac67
+ms.sourcegitcommit: a3eb0032c21e88fce4c16b625f8cbb7c31efd0dc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "35415001"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "35904301"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Requisitos do sistema para o Skype for Business Server 2019
  
@@ -128,7 +128,7 @@ Há algumas coisas que você precisará instalar ou configurar para qualquer ser
 Para ajudar você, separamos esta amostra de script do PowerShell que você pode executar para automatizar esse processo:
   
 ```
-Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Server-Media-Foundation, Telnet-Client
+Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, Web-Http-Errors, Web-Asp-Net, Web-Net-Ext, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Log-Libraries, Web-Request-Monitor, Web-Http-Tracing, Web-Basic-Auth, Web-Windows-Auth, Web-Client-Auth, Web-Filtering, Web-Stat-Compression, Web-Dyn-Compression, NET-WCF-HTTP-Activation45, Web-Asp-Net45, Web-Mgmt-Tools, Web-Scripting-Tools, Web-Mgmt-Compat, Windows-Identity-Foundation, Server-Media-Foundation, Telnet-Client, BITS, ManagementOData, Web-Mgmt-Console, Web-Metabase, Web-Lgcy-Mgmt-Console, Web-Lgcy-Scripting, Web-WMI, Web-Scripting-Tools, Web-Mgmt-Service
 ```
 
  **Os directors também precisam de:**
