@@ -2,7 +2,7 @@
 title: Configurar o recurso ligar para mim para seus usuários
 author: LanaChin
 ms.author: v-lanac
-ms.reviewer: macai
+ms.reviewer: macai, phedry
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -12,18 +12,20 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f1ffee416b1d5674e831fda4c5bb15a89c510f4
-ms.sourcegitcommit: 1ddd29e3839e50387efb4ec7b9d2154991bb2642
+ms.openlocfilehash: ae36ddf9c7fd16ad21217d0c68d48d28a0b7463c
+ms.sourcegitcommit: 40328f5e80ee992cd0e63655ede9698a35069f15
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35432115"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "35908231"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>Configurar o recurso ligar para mim para seus usuários
 
 No Microsoft Teams, o recurso **Call me** fornece aos usuários uma maneira de ingressar na parte de áudio de uma reunião por telefone. Isso é útil em cenários em que o uso de um computador para áudio pode não ser possível. Os usuários obtêm a parte de áudio da reunião por meio de seu telefone celular ou linha terrestre e a parte&mdash;de conteúdo da reunião, quando outro participante da reunião compartilha sua&mdash;tela ou reproduz um vídeo por meio de seu computador.
 
 ## <a name="the-user-experience"></a>A experiência do usuário
+
+### <a name="join-a-meeting-by-using-phone-for-audio"></a>Ingressar em uma reunião usando o telefone para áudio
 
 Clique **** em ingressar para ingressar em uma reunião e, em seguida, clique em **áudio do telefone** na tela **escolher suas configurações de áudio e vídeo** . Aqui, os usuários podem ter a chamada de reunião e participar delas ou discar manualmente para a reunião.
 
@@ -41,6 +43,16 @@ Outra maneira de ingressar é discar diretamente para a reunião. Na tela **usar
 
 ![Captura de tela da opção discar manualmente](media/set-up-the-call-me-feature-for-your-users-dial-in.png)
 
+### <a name="get-a-call-back-when-something-goes-wrong-with-audio-during-a-meeting"></a>Fazer uma chamada de retorno quando algo der errado com o áudio durante uma reunião
+
+Se um usuário enfrentar problemas de áudio ao usar o computador durante uma reunião, o usuário poderá facilmente alternar para usar o telefone de áudio. O Microsoft Teams detecta quando um problema de áudio ou dispositivo ocorre e redireciona o usuário para usar o telefone ao exibir uma opção **ligar para mim** .
+
+Veja um exemplo da mensagem e a opção **ligar para mim** que é exibida quando o Microsoft Teams não detecta um microfone.
+
+![Captura de tela da opção ligar para fazer chamadas](media/set-up-the-call-me-feature-for-your-users-no-mic.PNG)
+
+O usuário clica em **ligar para mim de volta**, que exibe a tela **usar telefone para áudio** . A partir daqui, eles podem digitar seu número de telefone e fazer com que as equipes de reunião liguem e ingressem na reunião ou discarem manualmente para a reunião.
+
 ## <a name="set-up-the-call-me-feature"></a>Configurar o recurso ligar para mim
 
 Para habilitar o recurso ligar para mim para os usuários de sua organização, é necessário configurar o seguinte:
@@ -50,4 +62,3 @@ Para habilitar o recurso ligar para mim para os usuários de sua organização, 
 - Os usuários podem discar de reuniões. Para saber mais, consulte [gerenciar as configurações de audioconferência de áudio para um usuário no](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)Microsoft Teams.
 
 Se um usuário não tiver discagem de reuniões habilitada, a opção **ligar para mim** não estará disponível e o usuário não receberá uma chamada para ingressar nela na reunião. Em vez disso, o usuário vê uma lista de números de telefone na tela **usar telefone para áudio** que pode ser usada para discar manualmente para a reunião em seu telefone.
-
