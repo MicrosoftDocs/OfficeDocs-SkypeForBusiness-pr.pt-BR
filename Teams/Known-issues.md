@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 843a8f5f2ea960f711d1b4160186957b1c4b306e
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: 77e9d460867df89ea367d9ceae9c2bd64c168f78
+ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588083"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "35925330"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -248,7 +248,11 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Número de telefone bloqueado|Número de telefone bloqueado: Excluir a conta do recurso antes de remover o número de telefone bloqueará o número de telefone.|Contate o suporte da Microsoft para liberar o número de telefone.|18/5/2019|
+|Número de telefone bloqueado|Número de telefone bloqueado: Excluir a conta do recurso antes de remover o número de telefone bloqueará o número de telefone.|Contate o suporte da Microsoft para liberar o número de telefone.|18/05/2019|
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Não é possível configurar chamadas não atendidas para ir para a caixa postal no aplicativo da área de trabalho|Quando um usuário está no modo apenas Teams, sua caixa de correio do Exchange é local e, se acessar **Configurações** > **Chamadas** no aplicativo de área de trabalho do Teams, não poderá escolher a opção para encaminhar chamadas para a caixa postal (chamadas não atendidas ou todas as chamadas). Se uma das opções já estava configurada, ao abrir a guia Chamadas em Configurações desabilitará a opção de encaminhar para a caixa postal.|Configure o encaminhamento para a caixa postal usando o aplicativo móvel do Teams.|27/05/2019|
 
 
 ## <a name="provisioning"></a>Provisionamento
@@ -345,3 +349,7 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |Não é possível mover, excluir ou renomear arquivos após a edição  <br/> |Após um arquivo ser editado no Teams, ele não pode ser movido, renomeado ou excluído imediatamente <br/> |Atualmente, esse é um problema conhecido e a solução alternativa é aguardar algum tempo antes de fazer uma alteração administrativa.  <br/> |12/03/19  <br/> |
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Problema de interoperabilidade entre o Symantec DLP e o Teams <br/> |Os agentes de Ponto de Extremidade da Symantec DLP podem interferir no processo do Teams, o que pode levar a uma falha de inicialização ou de saída.  <br/> |Excluir (lista aprovada) do Teams.exe dos agentes de Ponto de Extremidade da Symantec DLP, conforme descrito no <a href="https://support.symantec.com/us/en/article.TECH220322.html">Artigo de suporte da Symantec</a>. <br/> |15/07/19  <br/> |
