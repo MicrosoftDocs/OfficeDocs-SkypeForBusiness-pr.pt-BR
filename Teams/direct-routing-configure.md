@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Saiba como configurar o roteamento direto do sistema de telefonia da Microsoft.
-ms.openlocfilehash: 154f1b08d01bc9e66d7928d6f136c3c69c48efcc
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: 37fe6fa9355a0892720fa32d2bab30474ddaf12a
+ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588147"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "35925493"
 ---
 # <a name="configure-direct-routing"></a>Configurar o Roteamento Direto
 
@@ -34,7 +34,9 @@ Este artigo descreve como configurar o roteamento direto do sistema de telefonia
 Recomendamos que você confirme que o seu SBC já foi configurado como recomendado pelo fornecedor do SBC: 
 
 - [Documentação de implantação do AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
+- [Documentação de implantação do Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
 - [Documentação da implantação de comunicações da faixa de opções](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
+- [Documentação de implantação do anynode (File-Systems)](https://www.anynode.de/anynode-and-microsoft-teams/)
 
 Você pode configurar seu sistema telefônico da Microsoft e permitir que os usuários usem o roteamento direto e, em seguida, configurar o Microsoft Teams como o cliente de chamada preferencial, completando os seguintes procedimentos: 
 

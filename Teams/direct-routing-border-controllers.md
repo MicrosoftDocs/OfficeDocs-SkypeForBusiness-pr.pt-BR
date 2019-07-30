@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: A Microsoft faz parceria com fornecedores selecionados de SBC (controlador de borda da sessão) para garantir que seus SBCs sejam compatíveis com o Roteamento Direto.
-ms.openlocfilehash: 7eabb32c1dbe569bd1838d190af6151e645dae5b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 73a9d24a507bd5d0c8448f444225f7dfe8943dde
+ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290473"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "35925485"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borda da sessão certificados para Roteamento Direto
 
@@ -44,12 +44,13 @@ A tabela a seguir lista os dispositivos certificados para Roteamento Direto.
 
 |                                                       Fornecedor                                                        |       Produto       | Sem bypass de mídia | Bypass de mídia | Versão do software |
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|
-| [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  7.20A.250.003   |
-|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  7.20A.250.003   |
-|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  7.20A.250.003   |
-|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  7.20A.250.003   |
-|                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   Pendente     |  7.20A.250.003   |
-|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  7.20A.250.003  |
+| [Audiocodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  7.20 a. 250   |
+|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  7.20 a. 250   |
+|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  7.20 a. 250   |
+|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  7.20 a. 250   |
+|                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   Pendente     |  7.20 a. 250  |
+|                                                                                                                     | Mamédia 9000 SBC  |     &#10004;     |   &#10004;     |  7.20 a. 250   |                                                                       
+|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  7.20 a. 250 |
 |  [Comunicações da faixa de opções](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V6.2       |
 |                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V6.2       |
 |                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V6.2       |
@@ -67,4 +68,4 @@ A tabela a seguir lista os dispositivos certificados para Roteamento Direto.
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v3.16.2      |
 
-Para nos fornecer comentários sobre o Teams, como ideias para novos recursos, acesse [Uservoice](https://microsoftteams.uservoice.com)
+Para dar a seus comentários sobre o produto sobre o Microsoft Teams, como ideias para [](https://microsoftteams.uservoice.com) novos recursos, acesse o UserVoice nota a certificação concedida a uma versão principal. Isso significa que o firmware com qualquer número no firmware SBC após a versão principal tem suporte.

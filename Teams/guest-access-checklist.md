@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3142a30a5131ed18a76a130c420b3af214c5190b
-ms.sourcegitcommit: 67282b5f2f1aac3e675c4a485f4846deba15deb4
+ms.openlocfilehash: 09a6ec1f60ca4bfc39dbeb5ba1829330c3413560
+ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "35841372"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "35925354"
 ---
 <a name="teams-guest-access-checklist"></a>Lista de verificação de acesso de convidados do teams
 ==========================================
@@ -72,8 +72,6 @@ Lembre-se de algumas coisas:
    > As **configurações de colaboração externa** também estão disponíveis na página **relações organizacionais** . No Azure Active Directory, em **gerenciar**, acesse**configurações**de **relações** > organizacionais.
 4. Na página **configurações de colaboração externas** , escolha as políticas que você deseja habilitar.
 
-   ![Configurações de colaboração externa](media/control-who-to-invite.png)
-
   - **As permissões de usuários convidados são limitadas**: esta política determina permissões para convidados em seu diretório. Selecione **Sim** para bloquear convidados de determinadas tarefas de diretório, como enumerar usuários, grupos ou outros recursos de diretório. Selecione **não** para dar aos convidados o mesmo acesso aos dados do diretório como usuários regulares em seu diretório.
    - **Administradores e usuários na função de convite de convidado podem convidar**: para permitir que administradores e usuários na função "convidador de convidado" possam convidar convidados, defina essa política como **Sim**.
    - **Os membros podem convidar**: para permitir que membros que não sejam administradores do seu diretório convidem convidados, defina essa política como **Sim**.
@@ -82,7 +80,7 @@ Lembre-se de algumas coisas:
        > Se você definir que **os membros podem convidar** para **não** e, em seguida, habilitar o acesso de convidado nos grupos do Office 365 e no Microsoft Teams, os administradores poderão controlar os convites convidados para seu diretório. Depois que os convidados estiverem no diretório, eles poderão ser adicionados às equipes por membros não-administradores que sejam proprietários da equipe. Para obter mais informações, consulte [Autorizar acesso de convidados no Microsoft Teams](Teams-dependencies.md).
    
    - **Convidados podem convidar**: para permitir que os convidados convidem outros convidados, defina essa política como **Sim**.
-   - **Habilitar a senha de senha única para convidados (visualização)**: para obter mais informações sobre o recurso de senha de uso único, consulte [autenticação de senha única (visualização) de email](one-time-passcode.md).
+   - **Habilitar a senha de senha única para convidados (visualização)**: para obter mais informações sobre o recurso de senha de uso único, consulte [autenticação de senha única (visualização) de email](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode).
    - **Restrições de colaboração**: para obter mais informações sobre como permitir ou bloquear convites para domínios específicos, consulte [permitir ou bloquear convites para usuários B2B de organizações específicas](allow-deny-list.md).
 
 ## <a name="-step-2-configure-office-365-groups"></a>□ Etapa 2: configurar grupos do Office 365

@@ -14,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Leia este tópico para saber como planejar o bypass de mídia com o roteamento direto do sistema telefônico.
-ms.openlocfilehash: af15adde3638adae72c85c5ca8b1301a18b4388e
-ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
+ms.openlocfilehash: 15a93a0b447f30af4387ec86fb5a8af2a6151bf7
+ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "35768168"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "35925501"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planejar o bypass de mídia com Roteamento Direto
 
@@ -276,9 +276,10 @@ Os dois troncos podem apontar para o mesmo SBC com o mesmo endereço IP público
 
 Para obter informações sobre como configurar dois troncos no mesmo SBC, consulte a documentação fornecida pelo seu fornecedor de SBC:
 
-- AudioCodes
-- Faixa
-- Anynode (SMS)   
+ - [Documentação de implantação do AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
+- [Documentação de implantação do Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
+- [Documentação da implantação de comunicações da faixa de opções](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
+- [Documentação de implantação do anynode (File-Systems)](https://www.anynode.de/anynode-and-microsoft-teams/)
 
 ## <a name="client-endpoints-supported-with-media-bypass"></a>Pontos de extremidade do cliente com suporte com bypass de mídia
 

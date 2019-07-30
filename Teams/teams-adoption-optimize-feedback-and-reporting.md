@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89b4c292f17321878c66513f2d25f34c2deb186f
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 65b3ec1b12f4e5074513378671044177a2ad9a6d
+ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494812"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "35925451"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Otimizar os comentários e relatórios de adoção do Microsoft Teams
 
@@ -46,7 +46,7 @@ Fique claro em seu programa de campeões projete o que seus funcionários recebe
 
 Prática recomendada: Segure uma reunião de equipe mensal para seus campeões internos. Divida sua agenda entre ensinar novos recursos, solucionando comentários e fornecendo ferramentas de autoatendimento para a sua comunidade de funcionários.
 
-Prática recomendada: os representantes da ave do seu departamento de suporte interno ou da assistência técnica de ti unem-se à sua comunidade de especialistas para ficar atualizado sobre novas informações sobre o uso de suas equipes. 
+Prática recomendada: faça com que os representantes do seu departamento de suporte interno ou da assistência técnica de ti ingressem em sua comunidade de especialistas para ficar atualizado sobre novas informações sobre o uso de suas equipes. 
 
 ## <a name="service-reporting"></a>Relatórios do serviço
 
