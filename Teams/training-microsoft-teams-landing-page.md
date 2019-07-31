@@ -16,12 +16,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 195c0ffaa15027c9bebe2c7892f7863982f8b62d
-ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
+ms.openlocfilehash: 97a7cad35787583db74adfc3ef77c877c9e8a75d
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "35804837"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934602"
 ---
 # <a name="microsoft-teams-training"></a>Treinamento do Microsoft Teams
 
@@ -108,18 +108,7 @@ Verifique com frequência - continuaremos atualizando esta lista para que você 
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Jornada de Migração do Skype for Business para o Microsoft Teams</h3>
-                         <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Tutorial: Jornada de Migração do Skype for Business para o Microsoft Teams</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li><li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Teamwork</h3>
+                        <h3>Trabalho em equipe</h3>
                          <p><a href="https://aka.ms/edx-cld267x-about">Curso: Habilitando o Teamwork com o Teams</a></p>
                     </div>
                 </div>
