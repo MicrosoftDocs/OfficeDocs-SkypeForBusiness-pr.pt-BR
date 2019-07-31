@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 362e973bee33b8e556a84c0f03fd54d649d9ab14
-ms.sourcegitcommit: 868db85f0126e8f56d711ea590ad44acce8f96f6
+ms.openlocfilehash: d662dfd98aa4706d32a7e9ba3bec06d5e32ae975
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "35535872"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934395"
 ---
 ![Atualize o diagrama de viagem, enfatizando implantação e implementação] (media/upgrade-banner-deployment.png "Estágios da jornada da atualização, com ênfase no estágio de implantação e implementação")
 
@@ -35,12 +35,18 @@ Este artigo faz parte do estágio de implantação e implementação da sua jorn
 
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Escolher a jornada da atualização do Skype for Business para o Teams
 
-O Microsoft Teams substituirá o Skype for Business online eventualmente, portanto, você precisa planejar o Teams agora para estar pronto.
-
 Como cliente existente do Skype for Business, sua transição completa para o Microsoft Teams pode levar algum tempo. No entanto, você pode começar a concretizar o valor do teams hoje, permitindo que seus usuários usem o Microsoft Teams juntamente com o Skype for Business. Como há alguns recursos sobrepostos entre os dois aplicativos, recomendamos que você revise os modos de coexistência e atualização disponíveis para ajudar a determinar qual caminho é ideal para a sua organização. Por exemplo, você pode optar por habilitar todas as cargas de trabalho em ambas as soluções sem interoperabilidade. Ou, você pode decidir gerenciar a experiência do usuário, introduzindo gradualmente os recursos do teams ou direcionando grupos de usuários para obter recursos de seleção, até que a sua organização esteja pronta para fazer a atualização de todos para o Microsoft Teams. Use o resultado do seu piloto para ajudar a avaliar a jornada de atualização certa para a sua organização.
 
 > [!IMPORTANT]
-> Este artigo descreve os vários modos que permitem que você gerencie quais modalidades do Skype for Business e do teams estão disponíveis para seus usuários. Assim como em qualquer implantação, recomendamos que você denomine [o plano pretendido](pilot-essentials.md) com um grupo de usuários selecionado antes de atualizar sua organização para o Teams. Lembre-se de que introduzir nova tecnologia pode causar interrupções para os usuários. Reserve algum tempo para avaliar a prontidão do usuário e implementar um plano de comunicação e treinamento antes de implementar qualquer um dos modos descritos aqui.
+> O Skype for Business online será desativado em 31 de julho de 2021, após o qual ele não estará mais acessível ou compatível. Para maximizar a concretização de benefícios e garantir que sua organização tenha tempo adequado para implementar a sua atualização, recomendamos que você comece sua jornada ao Microsoft Teams hoje mesmo.
+
+Este artigo descreve os vários modos que permitem que você gerencie quais modalidades do Skype for Business e do teams estão disponíveis para seus usuários. Assim como em qualquer implantação, recomendamos que você denomine [o plano pretendido](pilot-essentials.md) com um grupo de usuários selecionado antes de atualizar sua organização para o Teams. Lembre-se de que introduzir nova tecnologia pode causar interrupções para os usuários. Reserve algum tempo para avaliar a prontidão do usuário e implementar um plano de comunicação e treinamento antes de implementar qualquer um dos modos descritos aqui.
+
+> [!TIP]
+> Junte-se aos workshops interativos e ativos nos quais compartilharemos orientação, práticas recomendadas e recursos projetados para iniciar o planejamento e a implementação da atualização.
+>
+>Ingresse no [plano da sessão de atualização](https://aka.ms/SkypeToTeamsPlanning) primeiro para começar.
+
 
 ## <a name="upgrade-journey-building-blocks"></a>Atualizar blocos de construção de viagem
 
@@ -63,6 +69,9 @@ A tabela a seguir compara os modos de coexistência e atualização.
 |Skype for Business com colaboração e reuniões do teams |Implantação do Skype for Business com uso significativo de Enterprise Voice e requisitos que ainda não foram atendidos pelas chamadas de equipe<br><br>Necessidade a longo prazo e/ou compromisso com o Skype for Business<br><br>Pode estar usando um serviço de reunião de terceiros|Iniciar a adoção do teams rapidamente, indo além da colaboração em grupo<br><br>Melhorar a experiência de reuniões dos usuários<br><br>Uso recomendado para organizações locais que desejam tirar proveito das reuniões do teams antes de estarem prontas para a atualização completa (geralmente devido ao Enterprise Voice local). |Sem recursos sobrepostos<br><br>Reuniões superiores no Teams. Recursos de orientação, UX e plataforma cruzada, qualidade e confiabilidade<br><br>Experiências "melhor juntas" entre o Skype for Business e o Teams<br><br>Interoperabilidade entre usuários somente no Microsoft Teams.|Mensagens instantâneas e chats residirão no Skype for Business (vinculado a chamadas)|
 |Somente equipes |Teams only é o destino final para todos os usuários, eventualmente.<br><br>Alguns usuários precisam ficar no Skype for Business<br><br>Você está fazendo a atualização dos usuários do Skype for Business online para o Microsoft Teams e, ao mesmo tempo, mantém os usuários locais do Skype for Business no Skype for Business Server<br><br>Talvez você já tenha implantado usuários no modo de ilhas e esteja pronto para desativar o Skype for Business para grupos de usuários |Reduzir os custos variáveis no Skype for Business (operações do servidor local, contrato de terceirização e assim por diante)<br><br>Vá para toda a experiência da equipe o mais rápido possível, para pelo menos alguns usuários|Limita a confusão do usuário fornecendo apenas um cliente para trabalhar com interoperabilidade com usuários no Skype for Business apenas, Skype for Business com colaboração do Teams, Skype for Business com colaboração e reuniões do teams|A interoperabilidade só oferece suporte a chat e chamadas básicas entre o Skype for Business e o Teams e cenários de escalonamento para interoperabilidade para compartilhamento de área de trabalho e chat e chamadas de vários participantes|
 |Somente Skype for Business |Alguns usuários precisam ficar no Skype for Business<br><br>|Limita a confusão do usuário fornecendo apenas um cliente com o qual trabalhar<br><br>O usuário ainda pode participar de reuniões de equipes para as quais eles são convidados|Continuar a atender às necessidades de negócios que atualmente só podem ser atendidas pelo Skype for Business<br><br>Interoperabilidade com usuários somente no Teams|A interoperabilidade só oferece suporte a chat e chamadas básicas entre o Skype for Business e o Teams e cenários de escalonamento para interoperabilidade para compartilhamento de área de trabalho e chat e chamadas de vários participantes|
+
+> [!TIP]
+> Para ajudar a identificar o modo de atualização recomendado com base nos recursos que você deseja habilitar no Teams enquanto o Skype for Business ainda está em uso, use o [Assistente de atualização do Skype to Teams](https://aka.ms/SkypeToTeamsWizard).
 
 ## <a name="upgrade-journeys"></a>Atualizar viagens
 

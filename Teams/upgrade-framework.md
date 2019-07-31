@@ -3,7 +3,6 @@ title: Sobre a estrutura de atualização
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 12/18/2018
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -16,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e9f72e9381d15778b46ef18e49d27bbda4cacd1
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: b3049933069b6f7aaa2fcc52f77c6f85f485f34e
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432972"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934562"
 ---
 # <a name="about-the-upgrade-framework"></a>Sobre a estrutura de atualização
 
@@ -125,5 +124,4 @@ Para ajudar a demonstrar a forma como a sua viagem de atualização pode ficar d
 > Nosso conteúdo de atualização está sempre em evolução. Verifique as informações mais recentes sobre a orientação mais recente e leia o [blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)do teams. 
 
 > [!Important]
-> Se você for um administrador do seu locatário do Office 365, talvez comece a ver as opções de atualização no cmdlet do PowerShell ou no centro de administração do Microsoft Teams. Ter a opção de atualizar não necessariamente significa que sua organização está pronta para essa alteração. Para ter uma experiência ideal para o usuário, confirme se as equipes atendem aos requisitos de colaboração e comunicação, valide se sua rede está pronta para dar suporte a equipes e implemente o plano de preparação do usuário antes de atualizar os usuários para o Teams.
- 
+> O Skype for Business online será desativado em 31 de julho de 2021, após o qual ele não estará mais acessível ou compatível. Para maximizar a concretização de benefícios e garantir que sua organização tenha tempo adequado para implementar a sua atualização, recomendamos que você comece sua jornada ao Microsoft Teams hoje mesmo. Lembre-se de que uma atualização bem-sucedida alinha a prontidão técnica e do usuário, portanto, não deixe de aproveitar as diretrizes contidas ao navegar na jornada para o Microsoft Teams.

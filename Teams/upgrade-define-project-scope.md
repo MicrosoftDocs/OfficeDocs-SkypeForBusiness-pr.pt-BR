@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eaba703faecb0d77db4cf6b858e10af5ba9231e2
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 28a64be495417c07bf98cb5f42ae9068d98031a3
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432932"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934570"
 ---
 ![Atualizar o diagrama de jornada, realçando o estágio de definição do projeto] (media/upgrade-banner-project-definition.png "Estágios da jornada da atualização, com ênfase no estágio de definição do projeto")
 
@@ -81,7 +81,7 @@ A tabela a seguir mostra exemplos de OKRs e KSIs para as fases iniciais de um pr
 
 | Objetivo | Resultado da chave | Para fazer |
 |---|---|---|
-| Equipes piloto juntamente com o Skype for Business, no [modo somente colaboração](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) | FY18Q2:500-piloto do usuário conduzido e concluído | <ul><li>Identificar usuários piloto</li><li>Criar um plano de teste piloto</li><li>Habilitar usuários piloto no Teams</li><li>Implementar o piloto</li><li>Executar uma pesquisa de feedback piloto</li><li>Medir o sucesso piloto</li></ul> |
+| Equipes piloto juntamente com o Skype for Business, no [modo somente colaboração](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) | FY19Q2:500-piloto do usuário conduzido e concluído | <ul><li>Identificar usuários piloto</li><li>Criar um plano de teste piloto</li><li>Habilitar usuários piloto no Teams</li><li>Implementar o piloto</li><li>Executar uma pesquisa de feedback piloto</li><li>Medir o sucesso piloto</li></ul> |
 | Executou com êxito o modo somente colaboração para todos os usuários na organização ao lado do Skype for Business | <ul><li>60% dos usuários do Skype for Business estão usando o Microsoft Teams dentro de 30 dias após a distribuição</li><li>A satisfação do usuário com o Teams é &#8805;80%</li></ul> | <ul><li>Projetar e executar um plano amplo de comunicação e treinamento</li><li>Habilitar todos os usuários do teams no modo somente colaboração</li><li>Acompanhar o uso mensal</li><li>Coletar comentários do usuário</li><li>Monitorar a integridade/qualidade da rede</li><li>Atenue conforme necessário</li></ul> |
 
 | Tipo | Indicador de êxito de chave | Como foi mensurado | Critérios de sucesso | Mensurado |
@@ -119,3 +119,5 @@ Ao fazer o escopo da sua viagem de atualização, certifique-se de definir uma l
 Como um ponto de referência, uma linha do tempo de exemplo é fornecida para as fases de atualização, atualização e pós-atualização da [jornada do profissional de atualização](https://aka.ms/UpgradePro), que incentivamos você a ajustar conforme necessário para alinhar-se com as necessidades específicas da sua organização.
 
 Depois de concluir as atividades descritas acima, você deve ter uma base sólida para o seu projeto. Continue a [leitura técnica](https://aka.ms/SkypeToTeams-TechnicalReadiness) e atividades de planejamento de [preparação organizacional](https://aka.ms/SkypeToTeams-UserReadiness) .
+
+Lembre-se: o Skype for Business online será desativado em 31 de julho de 2021. Depois disso, o serviço Skype for Business online não poderá mais ser acessado ou suportado. Para maximizar a concretização de benefícios e garantir que sua organização tenha tempo adequado para concluir a atualização, recomendamos que você comece sua jornada com o Microsoft Teams hoje mesmo.

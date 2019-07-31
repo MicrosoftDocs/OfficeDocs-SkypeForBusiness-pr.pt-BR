@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 118bae776f4bb3709d62dea1f384ccaa0707397b
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 731a6b30fe2476d180198e88f83e80f24c8e8227
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34493975"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934514"
 ---
 ![Atualize o diagrama de viagem, enfatizando implantação e implementação] (media/upgrade-banner-deployment.png "Estágios da jornada da atualização, com ênfase no estágio de implantação e implementação")
 
@@ -40,7 +40,7 @@ Este artigo faz parte do estágio de implantação e implementação da sua jorn
 Siga as orientações neste artigo se você tiver implantado o Skype for Business ou o Microsoft Lync local e sua organização quiser atualizar para o Microsoft Teams de forma seletiva, usando vários modos de coexistência, ou todos. A primeira etapa é configurar a conectividade híbrida com o seu locatário do Office 365 e, em seguida, mover os usuários para o Skype for Business Online e atribuir a eles o modo de atualização e a coexistência apropriada. 
 
 > [!IMPORTANT]
-> [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
+> O Skype for Business online será desativado em 31 de julho de 2021, após o qual ele não estará mais acessível ou compatível. Para maximizar a concretização de benefícios e garantir que sua organização tenha tempo adequado para implementar a sua atualização, recomendamos que você comece sua jornada ao Microsoft Teams hoje mesmo. Lembre-se de que uma atualização bem-sucedida alinha a prontidão técnica e do usuário, portanto, não deixe de aproveitar as diretrizes contidas ao navegar na jornada para o Microsoft Teams.
 
 ## <a name="step-1-deploy-hybrid-connectivity"></a>Etapa 1: implantar a conectividade híbrida 
 

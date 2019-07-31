@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b1cfb8302476983eeb5be180307bc143eb281dc
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 9994bb8efa862cc66cb1e081d0ca8136b4fb1871
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548505"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934498"
 ---
 ![Atualize o diagrama de viagem, enfatizando implantação e implementação] (media/upgrade-banner-deployment.png "Estágios da jornada da atualização, com ênfase no estágio de implantação e implementação")
 
@@ -39,11 +39,11 @@ Este artigo faz parte do estágio de implantação e implementação da sua jorn
 Siga as orientações neste artigo se você tiver implantado o Skype for Business online com total implementação e quiser atualizar os usuários do Skype for Business para o Microsoft Teams. Você pode atualizar usuários seletivamente ou todos os usuários, com base na jornada de atualização que a sua organização escolheu, atribuindo o modo de coexistência e atualização apropriado para seus usuários.
 
 > [!IMPORTANT]
-> [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
+> O Skype for Business online será desativado em 31 de julho de 2021, após o qual ele não estará mais acessível ou compatível. Para maximizar a concretização de benefícios e garantir que sua organização tenha tempo adequado para implementar a sua atualização, recomendamos que você comece sua jornada ao Microsoft Teams hoje mesmo. Lembre-se de que uma atualização bem-sucedida alinha a prontidão técnica e do usuário, portanto, não deixe de aproveitar as diretrizes contidas ao navegar na jornada para o Microsoft Teams.
 
 ## <a name="assign-the-coexistence-and-upgrade-mode"></a>Atribuir a coexistência e o modo de atualização
 
-Você pode atualizar os usuários para o modo TeamsOnly atribuindo a instância UpgradeToTeams do TeamsUpgradePolicy, que pode ser realizada usando o centro de administração do Microsoft Teams ou uma sessão do Windows PowerShell remota do Skype for Business. Você pode fazer isso por usuário ou com base em todo o locatário se quiser ugprade o locatário inteiro em uma única etapa. 
+Você pode atualizar os usuários para o modo TeamsOnly atribuindo a instância UpgradeToTeams do TeamsUpgradePolicy, que pode ser realizada usando o centro de administração do Microsoft Teams ou uma sessão do Windows PowerShell remota do Skype for Business. Você pode fazer isso por usuário ou com base em todo o locatário, se quiser atualizar o locatário inteiro em uma etapa. 
 
 Para obter mais informações, consulte [definindo suas configurações de coexistência e atualização](https://aka.ms/SkypeToTeams-SetCoexistence) e [TeamsUpgradePolicy: Gerenciando a migração e](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence)a coexistência.
 
@@ -69,7 +69,7 @@ Siga estas etapas se quiser atualizar gradualmente seus usuários para o TeamsOn
 
 Muitas vezes, as organizações podem optar por atualizar suas organizações em ondas de sucesso de usuários.  Convém identificar esses usuários primeiro para que você possa procurá-los facilmente no centro de administração do Microsoft Teams. Você também pode querer usar o PowerShell para fazer isso com mais eficiência. Depois de identificar o conjunto de usuários para uma determinada onda de atualização, continue com as etapas restantes.
 
-### <a name="step-2-set-notification-for-the-users-in-the-current-ugprade-wave-optional"></a>Etapa 2: definir notificação para os usuários na onda ugprade atual (opcional)
+### <a name="step-2-set-notification-for-the-users-in-the-current-upgrade-wave-optional"></a>Etapa 2: definir notificação para os usuários na onda de atualização atual (opcional)
 
 Se estiver usando o centro de administração do Microsoft Teams, você pode configurar o TeamsUpgradePolicy para até 20 usuários de uma só vez:
 1. No centro de administração do Microsoft Teams, selecione **usuários**e localize e selecione várias caixas de seleção para até 20 usuários que devem ser atualizados. 

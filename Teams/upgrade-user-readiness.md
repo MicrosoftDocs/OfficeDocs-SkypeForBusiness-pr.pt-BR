@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1532df0ca1167f5ff3335dbbddbbaa45eabfcef
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: e7fa3e93abe4f7788ba491a76def3c067e2c0af1
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344110"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934490"
 ---
 ![Estágios da viagem de atualização, realçando o estágio de preparação do usuário] (media/upgrade-banner-user-readiness.png "Estágios da jornada da atualização, com ênfase no estágio de preparação do usuário")
 
@@ -47,7 +47,7 @@ Um plano de preparação do usuário ideal incorpora como você se comunicará, 
 <table>
 <tbody>
 <tr><th>Quais canais de comunicação você vai aproveitar?</th><th>Quais canais de treinamento você vai aproveitar?</th><th>Quais são os canais de suporte que você usará?</th></tr>
-<tr><td><ul><li>Email<br><strong>Dica:</strong> Use nosso exemplo de piloto, coexistência e atualização de e-mails para personalizar sua campanha de e-mail.</li><li>Cartazes e pôsteres digitais</li><li>Iniciar eventos</li><li>Gerentes de departamento</li><li>Defensores</li><li>Equipes/canais</li><li>Gamification</li></ul></td><td><ul><li>Artigos e vídeos online publicados pela Microsoft</li><li>Recursos<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Alternar para o Teams do Skype for Business</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">Treinamento em vídeo de equipes</a></li></ul></li><li>Assistência no produto (ajuda)</li><li>Equipe de treinamento interna</li><li>Equipe de treinamento de parceiros</li></ul></td><td><ul><li>Assistência técnica interna</li><li>Suporte técnico terceirizado</li><li>Auto-atendimento (site da intranet)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">Ajuda e instruções online</a></li><li>Andar-andadores e campeões</li><li>Loop de comentários (pesquisas, classificações)</li></ul></td></tr>
+<tr><td><ul><li>Email<br><strong>Dica:</strong> Use nosso exemplo de piloto, coexistência e atualização de e-mails para personalizar sua campanha de e-mail.</li><li>Cartazes e pôsteres digitais</li><li>Iniciar eventos</li><li>Gerentes de departamento</li><li>Defensores</li><li>Equipes/canais</li><li>Gamification</li></ul></td><td><ul><li><a href="https://aka.ms/teamslivetraining" data-raw-source="[Instructor-led training for Microsoft Teams](https://aka.ms/teamslivetraining)">Treinamento ministrado por instrutor da Microsoft</a></li><li>Artigos e vídeos online publicados pela Microsoft</li><li>Recursos<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Alternar para o Teams do Skype for Business</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">Treinamento em vídeo de equipes</a></li></ul></li><li>Assistência no produto (ajuda)</li><li>Equipe de treinamento interna</li><li>Equipe de treinamento de parceiros</li></ul></td><td><ul><li>Assistência técnica interna</li><li>Suporte técnico terceirizado</li><li>Auto-atendimento (site da intranet)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">Ajuda e instruções online</a></li><li>Andar-andadores e campeões</li><li>Loop de comentários (pesquisas, classificações)</li></ul></td></tr>
 </tbody>
 </table>
 </div>

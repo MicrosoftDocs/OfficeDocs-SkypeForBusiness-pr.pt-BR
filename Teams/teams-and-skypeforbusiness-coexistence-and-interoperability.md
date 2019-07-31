@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc51fb840cd22e291fd54c0fad2621a9b64496d3
-ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
+ms.openlocfilehash: e29e6f62167527dced8121abdd213b891de2349b
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "34933845"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934626"
 ---
 ![Atualize o diagrama de jornada, enfatizando o estágio de definição do projeto] (media/upgrade-banner-project-definition.png "Estágios da jornada da atualização, com ênfase no estágio de definição do projeto")
 
@@ -31,10 +31,14 @@ Este artigo faz parte do estágio de definição do projeto da sua jornada de at
 
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Entender o Microsoft Teams e a coexistência e interoperabilidade do Skype for Business
 
-Se a sua organização usa o Skype for Business hoje e você pretende começar a usar o Microsoft Teams juntamente com o Skype for Business — ou pretende começar a fazer a atualização para o Microsoft Teams, é importante entender como os dois aplicativos coexistem, quando e como eles interoperam e como gerenciar a migração dos usuários em relação à sua atualização eventual do Skype for Business para o Teams.
+Se sua organização usa o Skype for Business hoje e você está começando a usar o Microsoft Teams com o Skype for Business — ou está começando a fazer o upgrade para o Microsoft Teams, é importante entender como os dois aplicativos coexistem, quando e como eles interoperam e como gerenciar migração dos usuários em relação à sua eventual atualização do Skype for Business para o Teams.
 
 > [!Tip]
-> Assista à sessão a seguir para saber mais sobre [coexistência e](https://aka.ms/teams-upgrade-coexistence-interop) interoperabilidade
+> Assista à sessão a seguir para saber mais sobre [coexistência e](https://aka.ms/teams-upgrade-coexistence-interop)interoperabilidade.
+>
+> Além disso, você pode participar de workshops interativos e ativos nos quais compartilharemos orientação, práticas recomendadas e recursos projetados para começar a fazer o planejamento e a implementação da atualização.
+>
+> Ingresse no [plano da sessão de atualização](https://aka.ms/SkypeToTeamsPlanning) primeiro para começar.
 
 ## <a name="coexistence-of-teams-and-skype-for-business"></a>Coexistência de Teams e Skype for Business
 
@@ -81,12 +85,15 @@ Use esse modo para apresentar as equipes do seu ambiente enquanto você continua
 
 Use este modo de coexistência para acelerar a disponibilidade de recursos de reunião do teams em sua organização, além de seus recursos de colaboração, permitindo que os usuários aproveitem a experiência de reuniões de equipes superiores-excelente qualidade, recursos inovadores, como transcrição e tradução ou suavidade do plano de fundo, e experiência superior do usuário em todas as plataformas, incluindo dispositivos móveis e navegadores.
 
-Juntamente com o uso do teams para equipes e canais – conversas com base nesse modo, os usuários usarão o Teams para agendar e conduzir suas reuniões. Chat particular e chamadas permanecem no Skype for Business. O Teams e o Skype for Business tiram proveito de uma variedade de recursos "aprimorados juntos", como reconciliação de presença, retenção automática/desbloqueio e suporte a dispositivo HID em ambos os aplicativos. 
+Juntamente com o uso do teams para equipes e canais – conversas com base nesse modo, os usuários usarão o Teams para agendar e conduzir suas reuniões. O chat e as chamadas particulares permanecem no Skype for Business. O Teams e o Skype for Business tiram proveito de uma variedade de recursos "aprimorados juntos", como reconciliação de presença, retenção automática/desbloqueio e suporte a dispositivo HID em ambos os aplicativos. 
 
 Esse modo de coexistência é especialmente útil para usuários nas implantações locais do Skype for Business com o Enterprise Voice, que provavelmente levará algum tempo para ser atualizado para equipes e gostaria de aproveitar as reuniões de equipes superiores o mais rápido possível.
 
 > [!Note]
 > Quando implantados em modos de coexistência específicos, o Teams [](#interoperability-of-teams-and-skype-for-business)e o Skype for Business podem interoperar, permitindo que os usuários conversem e liguem um ao outro e garantindo que as comunicações permaneçam fluindo para toda a sua organização durante a viagem de atualização para o Teams. Os modos de coexistência regem a interoperabilidade. O modo de coexistência do receptor determina se a interoperabilidade estará disponível. Por exemplo, se o destinatário estiver em um modo no qual o chat está disponível apenas em um cliente (digamos, equipes), a interoperabilidade de chat geralmente estará disponível para o caso de o iniciador usar o outro cliente (neste caso, o Skype for Business) para iniciar o chat. Por outro lado, se o receptor estiver em um modo no qual o chat está disponível nos dois clientes (modo de ilhas), a interoperabilidade não estará disponível para o chat. A mensagem será recebida pelo destinatário no mesmo cliente no qual o iniciador iniciou o chat. Portanto, a comunicação adequada no modo de ilhas requer saturação de adoção do teams; ou seja, todos os usuários que usam ativamente e monitoram os dois clientes.
+
+> [!TIP]
+> Para ajudar a identificar o modo de atualização recomendado com base nos recursos que você deseja habilitar no Teams enquanto o Skype for Business ainda está em uso, use o [Assistente de atualização do Skype to Teams](https://aka.ms/SkypeToTeamsWizard).
 
 Para obter mais detalhes sobre modos de coexistência, pré-requisitos e gerenciamento, consulte [orientação de migração e interoperabilidade para organizações que usam o Skype for Business](https://aka.ms/SkypeToTeams-Interop) e [como configurar sua coexistência e configurações de atualização](https://aka.ms/SkypeToTeams-SetCoexistence).
 
