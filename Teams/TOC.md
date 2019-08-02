@@ -76,7 +76,7 @@
 ### [Usar a tradução de mensagens embutida](inline-message-translation-teams.md)
 ### [Usar a pesquisa de diretório no escopo do Microsoft Teams](teams-scoped-directory-search.md)
 
-### Análise e relatórios do Teams no centro de administração do Microsoft Teams
+### Análises e relatórios no centro de administração do Teams 
 #### [Visão geral](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Relatório de uso do Teams](teams-analytics-and-reports/teams-usage-report.md)
 #### [Relatório de atividades do usuário do Teams](teams-analytics-and-reports/user-activity-report.md) 
@@ -626,7 +626,6 @@
 ### [Monitorar a qualidade](upgrade-monitor-quality.md)
 ### [Aprimorar seu serviço](upgrade-enhance-my-service.md)
 
-## [Tutorial: Percurso do Skype for Business para o Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [Perguntas frequentes](FAQ-journey.md)
 ## Informações adicionais
 ### [Migração e interoperabilidade com o Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
