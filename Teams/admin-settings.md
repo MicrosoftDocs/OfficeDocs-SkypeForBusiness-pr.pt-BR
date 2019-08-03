@@ -3,11 +3,10 @@ title: Configurações de administração para aplicativos no Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/18/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.reviewer: ritikag, lajin
+ms.reviewer: ritikag, rarang
 description: Saiba mais sobre as políticas e configurações que você pode usar para gerenciar aplicativos para sua organização no Microsoft Teams.
 localization_priority: Normal
 ms.custom:
@@ -18,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 799d2f61562bdd0c484b31e670b73051f634147d
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: 141cff84c6c5304b40366cb89335d95d9c95daf6
+ms.sourcegitcommit: c6ecea3205d509609a655db2348c04f655319df8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198257"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "36171417"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Configurações de administração para aplicativos no Microsoft Teams
 ==========================================
@@ -32,11 +31,21 @@ ms.locfileid: "35198257"
 
 Os aplicativos fornecem ferramentas de ponta da sua organização para tirar o máximo proveito do teams. Esses aplicativos combinam a funcionalidade de guias, extensões de mensagens, conectores e bots fornecidos pela Microsoft, criados por um terceiro ou por desenvolvedores em sua organização.
 
-Em **aplicativos Teams** no centro de administração do Microsoft Teams, você pode definir políticas para gerenciar aplicativos para sua organização. Por exemplo, você pode definir políticas para personalizar o Microsoft Teams, fixando os aplicativos que são mais importantes para seus usuários.
+Em **aplicativos Teams** no centro de administração do Microsoft Teams, você pode definir políticas para gerenciar aplicativos para sua organização. Por exemplo, você pode definir políticas para controlar quais aplicativos estão disponíveis para os usuários do Teams e pode personalizar o Microsoft Teams, fixando os aplicativos que são mais importantes para seus usuários.
 
 Estamos melhorando continuamente a experiência do aplicativo em equipes e adicionando recursos e funcionalidades. Ao longo do tempo, vamos criar recursos adicionais de gerenciamento de aplicativos, portanto, verifique as informações mais atualizadas sobre as políticas de aplicativos.
 
-[!INCLUDE [external-apps-m365-admin-center](includes/external-apps-m365-admin-center.md)]
+## <a name="app-permission-policies"></a>Políticas de permissão do aplicativo
+
+Com as políticas de permissão do aplicativo, você pode bloquear ou permitir que aplicativos, em toda a organização ou para usuários específicos.  Quando você bloqueia um aplicativo, todas as interações com esse aplicativo são desabilitadas e o aplicativo não aparece no Teams para usuários.
+
+Por exemplo, você pode usar políticas de permissão do aplicativo para:
+
+- Desabilite um aplicativo que tenha uma permissão ou um risco de perda de dados para a sua organização.
+- Implemente gradualmente novos aplicativos de terceiros ou personalizados criados para usuários específicos.
+- Simplifique a experiência do usuário, especialmente quando você começa a distribuir equipes em toda a organização.
+
+Para saber mais, acesse [gerenciar políticas de permissão do aplicativo no](teams-app-permission-policies.md)Microsoft Teams.
 
 ## <a name="app-setup-policies"></a>Políticas de configuração do aplicativo
 
@@ -47,3 +56,11 @@ Veja alguns exemplos de como você pode usar as políticas de configuração do 
 - Fixe seletivamente recursos principais da equipe, como chats, equipes e chamadas. Isso pode ajudar a garantir que os usuários estejam envolvidos em atividades específicas dentro do teams.
 
 Para saber mais, confira [gerenciar políticas de configuração de aplicativos no](teams-app-setup-policies.md)Microsoft Teams.
+
+## <a name="custom-app-policies-and-settings"></a>Políticas e configurações personalizadas do aplicativo
+
+>[!INCLUDE [new-feature-coming-soon-section](includes/new-feature-coming-soon-section.md)]
+
+O Microsoft Teams permite que os desenvolvedores em sua organização construam, testem e implantem aplicativos personalizados para outros usuários. Aplicativos personalizados podem ser adicionados ao Teams carregando um pacote de aplicativo em um arquivo. zip diretamente para uma equipe ou no contexto pessoal. Você pode usar as políticas de configuração do aplicativo para controlar quem em sua organização pode carregar aplicativos personalizados. Você também pode definir as configurações de toda a organização para controlar se os usuários podem interagir com aplicativos personalizados específicos.
+
+Para saber mais, acesse [gerenciar políticas e configurações personalizadas do aplicativo no](teams-custom-app-policies-and-settings.md)Microsoft Teams.

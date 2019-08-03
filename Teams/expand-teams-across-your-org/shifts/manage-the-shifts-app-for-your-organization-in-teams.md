@@ -4,97 +4,102 @@ author: kenwith
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
-ms.date: 03/08/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: Aprenda a configurar e gerenciar o aplicativo desloca em equipes para trabalhadores de Firstline em sua organização.
+description: Saiba como configurar e gerenciar o aplicativo turnos no Microsoft Teams para trabalhadores de primeira mão em sua organização.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9927da9aea89eeb4d5b1b71eac2818c5deb52925
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6f773cc2ee3aa8a1e98d139f55067c9205355611
+ms.sourcegitcommit: c6ecea3205d509609a655db2348c04f655319df8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245922"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "36171637"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gerencie o aplicativo Turnos para sua organização no Microsoft Teams
 
 > [!IMPORTANT]
-> A partir de 1 de outubro de 2019, Microsoft StaffHub será desativada. Estamos compilando recursos StaffHub em Teams da Microsoft. Hoje, equipes inclui o aplicativo desloca para o gerenciamento de agenda e recursos adicionais serão distribuir ao longo do tempo. StaffHub irá parar de funcionar para todos os usuários em 1 de outubro de 2019. Qualquer pessoa que tenta abrir StaffHub será mostrada uma mensagem direcionando-os para baixar as equipes. Para saber mais, consulte [Microsoft StaffHub para ser retirado](microsoft-staffhub-to-be-retired.md).  
+> A partir de 1 ° de outubro de 2019, o Microsoft StaffHub será desativado. Estamos criando recursos de StaffHub no Microsoft Teams. Hoje, o Teams inclui o aplicativo turnos para gerenciamento de agendamento e recursos adicionais se acumularão ao longo do tempo. O StaffHub deixará de funcionar para todos os usuários em 1 ° de outubro de 2019. Qualquer pessoa que tentar abrir o StaffHub será exibida uma mensagem direcionando-o para o download do teams. Para saber mais, confira [Microsoft StaffHub para ser desativado](microsoft-staffhub-to-be-retired.md).  
 
-## <a name="overview-of-shifts"></a>Visão geral das mudanças
-O aplicativo desloca no Microsoft Teams mantém Firstline trabalhadores conectados e em sincronia. Ele é criado móvel primeiro para comunicação para equipes e gerenciamento de tempo rápida e eficaz. Desloca permite que trabalhadores Firstline e seus gerentes usam seus dispositivos móveis para gerenciar agendas e manter contato. 
+## <a name="overview-of-shifts"></a>Visão geral de turnos
+O aplicativo turnos no Microsoft Teams mantém os trabalhadores de primeiro lugar conectados e em sincronização. Ele foi criado para o seu celular primeiro para gerenciamento e comunicação de tempo rápido e eficiente para equipes. Os turnos permitem que os funcionários de primeira mão e seus gerentes usem seus dispositivos móveis para gerenciar os cronogramas e manter contato. 
 
-- Gerentes de criar, atualizar e gerenciar agendas shift para equipes. Eles podem enviar mensagens para uma pessoa ("há um excesso na base") ou a toda a equipe ("o GM regional está sendo recebido em 20 minutos"). Eles também podem enviar documentos de diretivas, boletins de notícias e vídeos. 
-- Funcionários exibir suas mudanças futuras, podem ver quem mais está agendado para o dia, solicitar trocar ou oferecer um turno e tempo de solicitação. 
+- Gerentes criam, atualizam e gerenciam os cronogramas de turnos do teams. Eles podem enviar mensagens para uma pessoa ("há um derramamento na base") ou toda a equipe ("a GM regional é chegando em 20 minutos"). Eles também podem enviar documentos de política, boletins de notícias e vídeos. 
+- Os funcionários visualizam seus próximos turnos, podem ver quem mais está agendado para o dia, solicitar a troca ou oferecer um turno e solicitar folga. 
 
-É importante saber que desloca atualmente não dá suporte aos usuários convidados. Isso significa que convidados em uma equipe não podem ser adicionados a ou usam agendas shift quando acesso como convidado está ativado em equipes. 
+É importante saber que os turnos atualmente não dão suporte a usuários convidados. Isso significa que os convidados de uma equipe não podem ser adicionados ou usar as agendas de turnos quando o acesso de convidado está ativado no Teams. 
 
-## <a name="availability-of-shifts"></a>Disponibilidade do desloca
+## <a name="availability-of-shifts"></a>Disponibilidade de turnos
 
-Desloca está disponível em todas as assinaturas do Office 365 que incluem equipes, com algumas exceções. As exceções são conosco governamentais nuvem da comunidade (GCC) e equipes livres. Desloca não está disponível no Office 365 conosco agências governamentais ou equipes livre ofertas.
+Os turnos estão disponíveis em todas as assinaturas do Office 365 que incluem equipes, com algumas exceções. As exceções são comunidade de nuvens do governo dos EUA (GCC) e equipes grátis. Os turnos não estão disponíveis no Office 365 governo dos EUA ou ofertas grátis do teams.
 
-Para saber mais sobre o licenciamento para equipes, incluindo uma lista de assinaturas do Office 365 que inclui as equipes, consulte [Licenciamento do Office 365 para equipes](../../Office-365-licensing.md).
+Para saber mais sobre licenciamento para equipes, incluindo uma lista de assinaturas do Office 365 que incluem o Teams, consulte licenciamento do [office 365 para Teams](../../Office-365-licensing.md).
 
-## <a name="location-of-shifts-data"></a>Localização dos dados desloca
+## <a name="location-of-shifts-data"></a>Local dos dados de turnos
 
-Atualmente, os dados de desloca são armazenados no Windows Azure em centros de dados na América do Norte, Europa Ocidental e Pacífico Asiático. Para obter mais informações sobre onde os dados são armazenados, consulte [onde estão meus dados](http://o365datacentermap.azurewebsites.net/)?
+Os dados de turnos atualmente estão armazenados no Azure em data centers na América do Norte, Europa Ocidental e Pacífico Asiático. Para obter mais informações sobre onde os dados são armazenados, confira [onde estão os meus dados](http://o365datacentermap.azurewebsites.net/)?
 
-## <a name="set-up-shifts"></a>Configurar desloca
+## <a name="set-up-shifts"></a>Configurar turnos
 
-### <a name="enable-or-disable-shifts-in-your-organization"></a>Habilitar ou desabilitar desloca em sua organização
+### <a name="enable-or-disable-shifts-in-your-organization"></a>Habilitar ou desabilitar turnos em sua organização
 
-Desloca é habilitado por padrão para todos os usuários de equipes em sua organização. Você pode desativar ou ativar o aplicativo para sua organização no Centro de administração do Microsoft 365.
+Os turnos são habilitados por padrão para todos os usuários do teams na sua organização. Você pode desativar ou ativar o aplicativo em toda a organização usando as configurações de toda a organização nas políticas de permissão do aplicativo no centro de administração do Microsoft Teams.
 
-1. Entrar no Centro de administração do Microsoft 365 com sua conta de administração do Office 365.
-2. Vá para **configurações** > **Serviços & complementos** > **Equipes da Microsoft**. 
-3. Em **configurações de todo o locatário**, selecione **aplicativos**e em **Aplicativos padrão**, desmarque ou marque a caixa de seleção **desloca** para desativar ou ativar o aplicativo. 
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para**políticas de permissão** de **aplicativos** > do teams.
+2. Clique em **configurações de toda a organização**.
+3. No painel **configurações de toda a organização** , em **aplicativos bloqueados**, siga um destes procedimentos:
 
-    ![Captura de tela da seção aplicativos padrão] (../../media/firstline-worker-enable-disable-shifts.png "Captura de tela da seção padrão Apps no Centro de administração do Microsoft 365, mostrando a lista de aplicativos, incluindo o aplicativo desloca")
+    - Para desativar os turnos da sua organização, procure o aplicativo turnos e clique em **Adicionar** para adicioná-lo à lista de aplicativos bloqueados.
+    - Para ativar turnos para sua organização, remova o aplicativo turnos da lista de aplicativos bloqueados.
+4. Clique em **Salvar**. 
 
-### <a name="use-the-firstline-worker-app-setup-policy-to-pin-shifts-to-teams"></a>Usar a diretiva de instalação de app Firstline trabalhador para pin desloca a equipes
+### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>Habilitar ou desabilitar turnos para usuários específicos em sua organização
 
-Políticas de configuração de aplicativo permitem que você personalize equipes para destacar os aplicativos que são mais importantes para os usuários em sua organização. Os aplicativos definidos em uma política estão vinculados à barra de aplicativos&mdash;barra no lado do cliente de desktop do equipes e na parte inferior dos clientes móveis equipes&mdash;onde os usuários possam rapidez e facilidade acessá-los. 
+Para permitir ou bloquear usuários específicos em sua organização usando turnos, certifique-se de que o recurso turnos esteja ativado para sua organização em configurações de toda a organização e, em seguida, crie uma política de permissão de aplicativo personalizada e atribua-a a esses usuários. Para saber mais, consulte [gerenciar políticas de permissão do aplicativo no](../../teams-app-permission-policies.md)Microsoft Teams.
+
+### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>Usar a política de configuração do aplicativo FirstlineWorker para fixar mudanças em equipes
+
+As políticas de configuração do aplicativo permitem que você personalize o Microsoft Teams para realçar os aplicativos que são mais importantes para os usuários da sua organização. Os aplicativos definidos em uma política são fixados na barra&mdash;do aplicativo na barra do cliente da área de trabalho do Teams e na parte inferior dos clientes&mdash;móveis do Teams, nos quais os usuários podem acessá-los de forma rápida e fácil. 
  
-As equipes inclui uma diretiva de instalação de aplicativo Firstline trabalhador interna que você pode atribuir aos trabalhadores Firstline em sua organização. Por padrão, a política inclui os aplicativos de atividade, desloca, Chat e chamada. 
+O Teams inclui uma política interna de configuração de aplicativos FirstlineWorker que você pode atribuir a trabalhos de primeiros a sua organização. Por padrão, a política inclui os aplicativos atividade, turnos, chat e chamadas. 
 
-Para exibir a política de trabalhador Firstline, no painel de navegação à esquerda do Centro de administração do Microsoft Teams, vá para **equipes app** > **políticas de configuração de aplicativo**.
+Para exibir a política FirstlineWorker, no painel de navegação esquerdo do centro de administração do Microsoft Teams, vá para**políticas de configuração do aplicativo**Teams **app** > .
 
-![Captura de tela da política de instalação de trabalhador Firstline app no Centro de administração de equipes da Microsoft] (../../media/firstline-worker-app-setup-policy.png "Captura de tela da política de instalação de trabalhador Firstline app no Centro de administração de equipes da Microsoft")
+![Captura de tela da política de configuração do aplicativo FirstlineWorker] (../../media/firstline-worker-app-setup-policy.png "Captura de tela da política de configuração do aplicativo FirstlineWorker no centro de administração do Microsoft Teams")
 
-#### <a name="assign-the-firstline-worker-policy-to-individual-users"></a>Atribuir a política de trabalhador Firstline a usuários individuais
+#### <a name="assign-the-firstlineworker-policy-to-individual-users"></a>Atribuir a política FirstlineWorker a usuários individuais
 
-1. No painel de navegação à esquerda do Centro de administração do Microsoft Teams, vá para **usuários**e, em seguida, clique no usuário.
-2. Ao lado de **políticas atribuído**, escolha **Editar**.
-3. Em **política de instalação do aplicativo de equipes**, selecione **FirstlineWorker**e, em seguida, escolha **Salvar**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**e, em seguida, clique no usuário.
+2. Ao lado de **políticas atribuídas**, escolha **Editar**.
+3. Em **política de configuração do aplicativo Teams**, selecione **FirstlineWorker**e, em seguida, escolha **salvar**.
 
-#### <a name="assign-the-firstline-worker-app-setup-policy-to-users-in-a-group"></a>Atribuir o trabalhador Firstline política de instalação de aplicativo aos usuários em um grupo
+#### <a name="assign-the-firstlineworker-app-setup-policy-to-users-in-a-group"></a>Atribuir a política de configuração do aplicativo FirstlineWorker a usuários em um grupo
 
-Você pode atribuir o trabalhador Firstline app instalação política aos usuários em um grupo, como um grupo de segurança, estabelecendo conexão com o Azure Active Directory PowerShell para o módulo de gráfico e do Skype para o módulo de PowerShell de negócios. Para obter mais informações sobre como usar o PowerShell para gerenciar equipes, consulte [Visão geral do PowerShell equipes](../../teams-powershell-overview.md).
+Você pode atribuir a política de configuração do aplicativo FirstlineWorker a usuários em um grupo, como um grupo de segurança, conectando-se ao módulo do PowerShell do Azure Active Directory e ao módulo do PowerShell do Skype for Business. Para obter mais informações sobre como usar o PowerShell para gerenciar o Microsoft Teams, consulte [visão geral do teams PowerShell](../../teams-powershell-overview.md).
 
-Neste exemplo, atribuímos o trabalhador Firstline política de instalação de aplicativo para todos os usuários no grupo Firstline equipe da Contoso.
+Neste exemplo, atribuímos a política de configuração do aplicativo FirstlineWorker a todos os usuários no grupo de equipe do primeiro grupo da contoso.
 
 > [!NOTE]
-> Certificar-se de que você primeiro conecte-se para o Windows Azure Active Directory PowerShell para o módulo de gráfico e Skype para o módulo de PowerShell de negócios seguindo as etapas em [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
+> Verifique se você se conectou primeiro ao módulo do PowerShell do Azure Active Directory e do módulo do PowerShell do Skype for Business seguindo as etapas em [conectar a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
 Obtenha o GroupObjectId do grupo específico.
 ```
 $group = Get-AzureADGroup -SearchString "Contoso Firstline Team"
 ```
-Obtenha os membros do grupo especificado.
+Obter os membros do grupo especificado.
 ```
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
-Atribua a todos os usuários no grupo à diretiva de instalação do aplicativo FirstlineWorker.
+Atribua todos os usuários do grupo à política de configuração do aplicativo FirstlineWorker.
 ```
 $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
 ``` 
-Dependendo do número de membros no grupo, este comando pode levar alguns minutos para executar.
+Dependendo do número de membros do grupo, esse comando pode levar alguns minutos para ser executado.
 
 ## <a name="related-topics"></a>Tópicos relacionados
-- [Desloca ajuda para trabalhadores de Firstline](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+- [Ajuda de turnos para trabalhadores de primeira mão](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)

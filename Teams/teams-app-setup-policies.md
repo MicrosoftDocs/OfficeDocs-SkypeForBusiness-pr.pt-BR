@@ -3,7 +3,6 @@ title: Gerenciar políticas de configuração de aplicativo no Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/21/2019
 ms.reviewer: lajin
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -18,13 +17,13 @@ localization_priority: Normal
 search.appverid: MET150
 description: Saiba mais sobre as políticas de configuração de aplicativos no Microsoft Teams e como usá-las para fixar aplicativos para personalizar o Microsoft Teams para usuários em sua organização.
 f1keywords:
-- ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: 7200dc64e620aebfb92da712d132c265b0f67b9e
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+- ms.teamsadmincenter.appsetuppolicies.overview
+ms.openlocfilehash: 492083de2414d93d5fe6d051374f3525311f8740
+ms.sourcegitcommit: c6ecea3205d509609a655db2348c04f655319df8
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221802"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "36171077"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gerenciar políticas de configuração de aplicativo no Microsoft Teams
 
@@ -45,8 +44,6 @@ Você pode editar as configurações na política global para incluir os aplicat
 
 ![Captura de tela mostrando a página de políticas de configuração de aplicativos](media/app-setup-policies.png)
 
-[!INCLUDE [external-apps-m365-admin-center](includes/external-apps-m365-admin-center.md)]
-
 > [!NOTE]
 > Se você tiver equipes para educação, é importante saber que o aplicativo de atribuições está fixado por padrão na política global, ainda que, no momento, você não a veja listado na política global. Será o quarto aplicativo na lista de aplicativos fixos em clientes do teams.
 
@@ -55,9 +52,9 @@ Você pode editar as configurações na política global para incluir os aplicat
 Você pode usar o centro de administração do Microsoft Teams para criar uma política personalizada.
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para**políticas de configuração**de **aplicativos** > do teams.
-2. Selecione **nova política**.
-3. Insira um nome descritivo para a política e, em seguida, clique em **adicionar aplicativos**.
-4. Ative ou desative a opção **permitir upload de aplicativos personalizados**, dependendo se você deseja permitir que os usuários carreguem aplicativos personalizados para o Microsoft Teams.
+2. Clique em **Adicionar**.
+3. Insira um nome e uma descrição para a política e, em seguida, clique em **adicionar aplicativos**.
+4. Ative ou desative a opção **permitir upload de aplicativos personalizados**, dependendo se você deseja permitir que os usuários carreguem aplicativos personalizados para o Microsoft Teams. Você não poderá alterar essa configuração se a opção **permitir que aplicativos de terceiros ou personalizados** estiverem desativados em [configurações de aplicativo de toda a organização](teams-app-permission-policies.md#manage-org-wide-app-settings) em políticas de permissão do aplicativo.
 5. No painel **adicionar aplicativos fixos** , procure os aplicativos que você deseja adicionar e, em seguida, clique em **Adicionar**. Você também pode filtrar aplicativos por política de permissão do aplicativo. Depois de escolher a lista de aplicativos, clique em **Adicionar**.
 
      ![Captura de tela mostrando o painel Adicionar aplicativos fixados](media/app-setup-policies-add-apps.png)
@@ -71,7 +68,7 @@ Você pode usar o centro de administração do Microsoft Teams para criar uma po
 Você pode usar o centro de administração do Microsoft Teams para editar uma política, incluindo a política global (padrão de toda a organização) e políticas personalizadas que você criar.
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para**políticas de configuração**de **aplicativos** > do teams.
-2. Selecione a política que você deseja editar. 
+2. Selecione a política clicando à esquerda do nome da política e, em seguida, clique em **Editar**.
 3. Aqui, faça as alterações desejadas. Você pode adicionar, remover e alterar a ordem dos aplicativos.
 4. Clique em **Salvar**.
 
@@ -79,24 +76,21 @@ Você pode usar o centro de administração do Microsoft Teams para editar uma p
 
 Você pode usar o centro de administração do Microsoft Teams para atribuir uma política personalizada a usuários individuais ou o módulo do PowerShell do Skype for Business para atribuir uma política personalizada a grupos de usuários, como um grupo de segurança ou grupo de distribuição.
 
-> [!IMPORTANT]
-> Recomendamos usar o PowerShell somente para atribuir políticas a usuários. Use o centro de administração do Microsoft Teams para criar, editar e gerenciar políticas.
-
-### <a name="assign-a-custom-app-setup-policy-to-individual-users"></a>Atribuir uma política de configuração de aplicativo personalizada a usuários individuais
+### <a name="assign-a-custom-app-setup-policy-to-users"></a>Atribuir uma política de configuração de aplicativo personalizada aos usuários
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**e, em seguida, clique no usuário.
-2. Ao lado de **políticas atribuídas**, escolha **Editar**.
-3. Em **política de configuração do aplicativo Teams**, selecione a política de configuração do aplicativo que você deseja atribuir e, em seguida, escolha **salvar**.
+2. Selecione o usuário clicando à esquerda do nome do usuário e, em seguida, clique em **Editar configurações**.
+3. Em **política de configuração do aplicativo**, selecione a política de configuração do aplicativo que você deseja atribuir e clique em **aplicar**.
 
-    ![Captura de tela mostrando o painel Editar políticas do usuário](media/app-setup-policies-assign-policy.png)
+Para atribuir uma política a vários usuários de uma vez, consulte [Editar configurações de usuários do teams em massa](edit-user-settings-in-bulk.md).
 
-Você também pode atribuir uma política de configuração do aplicativo a um ou mais usuários da seguinte maneira:
+Ou, você também pode fazer o seguinte:
 
-1. Vá para**políticas de configuração**de**aplicativos** >  **do centro** > de administração do Microsoft Teams.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para**políticas de configuração**de **aplicativos** > do teams.
 2. Selecione a política clicando à esquerda do nome da política.
 3. Selecione **gerenciar usuários**.
 4. No painel **gerenciar usuários** , procure pelo usuário por nome para exibição ou por nome de usuário, selecione o nome e, em seguida, selecione **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
-5. Quando terminar de adicionar usuários, selecione **salvar**.
+5. Quando tiver terminado de adicionar usuários, selecione **salvar**.
 
 ### <a name="assign-a-custom-app-setup-policy-to-users-in-a-group"></a>Atribuir uma política de configuração de aplicativo personalizada a usuários em um grupo
 
