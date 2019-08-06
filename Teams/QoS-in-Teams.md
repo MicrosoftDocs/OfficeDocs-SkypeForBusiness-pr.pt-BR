@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc2344494ed853a992f205b6bdcfd4d702136f99
-ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
+ms.openlocfilehash: 0f6a48f11dafaff0bc0435e4a01561824c212936
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "35820981"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36206961"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementar a QoS (qualidade de serviço) no Microsoft Teams
 
@@ -101,7 +101,7 @@ O valor de DSCP informa à rede uma rede configurada correspondente qual priorid
 
 O tamanho relativo dos intervalos de porta para cargas de trabalho de streaming em tempo real diferentes define a proporção entre a largura de banda total disponível dedicada a essa carga de trabalho. Para voltar à nossa analogia comum anterior: uma letra com um selo "mensagens de ar" pode ser retirada dentro de uma hora para o aeroporto mais próximo, enquanto um pacote pequeno marcado como "Bulk Mail" pode esperar por um dia antes de viajar em uma série de caminhões.
 
-A tabela a seguir mostra as marcações DSCP necessárias para o Microsoft Teams com rota expressa e as portas associadas para filas de carga de trabalho. Esses intervalos podem servir como um bom ponto de partida para os clientes que não têm certeza do que usar em seus próprios ambientes. Para saber mais, consulte [Requisitos de QoS para o ExpressRoute](https://docs.microsoft.com/azure/expressroute/expressroute-qos).
+A tabela a seguir mostra as marcações DSCP necessárias e os intervalos de porta de mídia sugeridos correspondentes usados pelo Teams e pela rota expressa. Esses intervalos podem servir como um bom ponto de partida para os clientes que não têm certeza do que usar em seus próprios ambientes. Para saber mais, consulte [Requisitos de QoS para o ExpressRoute](https://docs.microsoft.com/azure/expressroute/expressroute-qos).
 
 _Intervalos de portas iniciais recomendados_
 

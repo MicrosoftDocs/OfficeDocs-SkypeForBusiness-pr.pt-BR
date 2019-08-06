@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d203aefa4ba6991fbe6cf6a2ac463f4649f2aaa9
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: 041c391f202ac42b782ffc200db9ad495961fa52
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198417"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36206953"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparo da rede da sua organização para o Microsoft Teams
 
@@ -58,10 +58,7 @@ A conexão do site da sua empresa com o Microsoft Network Edge inclui o acesso d
 
 Os destinos de desempenho de rede pressupõem largura de banda e/ou [planejamento de QoS](QoS-in-Teams.md)adequado. Em outras palavras, os requisitos se aplicam diretamente ao tráfego de mídia em tempo real do teams quando a conexão de rede está com carga de pico.
 
-Para testar ambos os segmentos de rede, você pode usar a [ferramenta de avaliação de rede](https://go.microsoft.com/fwlink/?linkid=855799). Essa ferramenta pode ser implantada diretamente no PC cliente e em um PC conectado à borda de rede do cliente. A ferramenta inclui documentação limitada, mas uma documentação mais profunda sobre o uso da ferramenta pode ser encontrada aqui: [avaliação de prontidão de rede](https://go.microsoft.com/fwlink/?linkid=855800). Ao executar esta avaliação de preparação de rede, você pode validar a preparação da sua rede para executar aplicativos de mídia em tempo real, como o Microsoft Teams.
-
-> [!NOTE]
-> Esta é a mesma avaliação de preparação de rede que é recomendada para os clientes que pretendem implantar o Skype for Business com êxito.
+Para obter mais ajuda para preparar sua rede para o Microsoft Teams, consulte o planejador de [rede](https://docs.microsoft.com/microsoftteams/network-planner).
 
 
 ## <a name="bandwidth-requirements"></a>Requisitos de largura de banda

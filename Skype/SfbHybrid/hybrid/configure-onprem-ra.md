@@ -5,49 +5,50 @@ author: jambirk
 manager: serdars
 ms.reviewer: wasseemh
 ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
-description: configurar uma conta de recurso para o Skype for Business Server 2019.
-ms.openlocfilehash: 33211f7dcd56e402167a3c810343947d4dfe0954
-ms.sourcegitcommit: 868db85f0126e8f56d711ea590ad44acce8f96f6
+description: Configurar uma conta de recurso para o Skype for Business Server 2019.
+ms.openlocfilehash: 09663b1c539b561a0dc591590c53d22cdb530fee
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "36160402"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36207152"
 ---
 # <a name="configure-resource-accounts"></a>Configurar contas de recurso
 
 As implementações híbridas do Skype for Business Server 2019 usam apenas serviços em nuvem fornecidos pelo sistema de telefonia para Unificação de mensagens e não se integram ao Exchange Online. No Skype for Business Server 2019, agora você pode usar as filas de chamadas de nuvem e atendedores automáticos descritos [aqui, o que você obtém com o sistema de telefonia no Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system).
 
-Para usar esses serviços de sistema de telefonia com o Skype for Business Server 2019, você precisará criar contas de recurso que atuam como pontos de extremidade de aplicativo e podem ter números de telefone atribuídos e usar o centro de administração do teams online para configurar a fila de chamadas ou atendedor automático. Essa conta de recurso pode ser hospedada online (Confira [gerenciar contas de recursos no Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) para criar contas de recursos hospedadas online) ou local, conforme descrito neste artigo. Normalmente, você terá vários nós de serviço de sistema de telefonia, sendo que cada um deles é mapeado para contas de recursos, que podem estar hospedados online ou no Skype for Business Server 2019.
+Para usar um atendedor automático do sistema de telefonia ou uma fila de chamadas com o Skype for Business Server 2019, você precisará criar contas de recursos que atuem como pontos de extremidade de aplicativo e podem receber números de telefone e usar o centro de administração do teams online para configurar a fila de chamadas ou atendedor automático. Essa conta de recurso pode ser hospedada online (Confira [gerenciar contas de recursos no Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) para criar contas de recursos hospedadas online) ou local, conforme descrito neste artigo. Normalmente, você terá vários nós de atendedor automático ou de enfileiramento de sistema de telefonia, cada um deles mapeado para contas de recursos, que podem estar hospedados online ou no Skype for Business Server 2019.
 
 Se você tiver um atendedor automático de UM do Exchange e um sistema de fila de chamadas, antes de mudar para o Exchange Server 2019 ou Exchange Online, será necessário registrar manualmente os detalhes conforme descrito abaixo e implementar um sistema completamente novo usando o centro de administração do Microsoft Teams .
 
 ## <a name="overview"></a>Visão geral
 
-Se o seu serviço de sistema de telefonia precisa de um número de serviço, as várias dependências podem ser atendidas na seguinte sequência:
+Se o atendedor automático ou a fila de chamadas do sistema de telefonia precisar de um número de serviço, as várias dependências poderão ser atendidas na seguinte sequência:
 
 1. Obter um número de serviço
-2. Comprar uma licença do sistema de telefonia
+2. Obter um sistema de telefonia livre- [licença de usuário virtual](/MicrosoftTeams/teams-add-on-licensing/virtual-user.md) ou uma licença de sistema de telefonia pago para usar com a conta de recurso.
 3. Criar a conta de recurso. Um atendedor automático ou fila de chamada é necessário para ter uma conta de recurso associada.
-4. Aguardar uma sincronização do Active Directory entre online e local
+4. Aguarde uma sincronização do Active Directory entre online e local.
 5. Atribua a licença do sistema de telefonia à conta de recurso.
 6. Atribuir um número de serviço à conta de recurso.
-7. Criar um serviço de sistema de telefonia (uma fila de chamadas ou atendedor automático)
-8. Associar a conta de recurso a um serviço: (New-CsApplicationInstanceAssociation)
+7. Criar uma fila de chamadas do sistema de telefonia ou atendedor automático.
+8. Associe a conta de recurso a um atendedor automático ou a uma fila de chamada: (New-CsApplicationInstanceAssociation).
 
 Se o atendedor automático ou a fila de chamadas estiverem aninhados em um atendedor automático de nível superior, a conta de recurso associada só precisará de um número de telefone se você quiser vários pontos de entrada na estrutura de atendedores automáticos e filas de chamada.
 
 Para redirecionar as chamadas para pessoas em sua organização que estão hospedadas online, elas devem ter uma licença de **sistema de telefonia** e estar habilitadas para o Enterprise Voice ou ter planos de chamadas do Office 365. Consulte [atribuir licenças do Microsoft Teams](/MicrosoftTeams/assign-teams-licenses). Para habilitá-los para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-Se o serviço de sistema de telefonia que você está criando será aninhado e não precisará de um número de telefone, o processo será:
+Se o atendedor automático do sistema de telefonia ou a fila de chamada que você estiver criando for aninhado e não precisar de um número de telefone, o processo será:
 
 1. Criar a conta de recurso  
 2. Aguardar uma sincronização do Active Directory entre online e local
-3. Criar um serviço de sistema de telefonia
-4. Associar a conta de recurso a um serviço de sistema de telefonia
+3. Criar um atendedor automático ou fila de chamadas do sistema de telefonia
+4. Associar a conta de recurso a um atendedor automático ou a uma fila de chamadas do sistema de telefonia
 
 ## <a name="create-a-resource-account-with-a-phone-number"></a>Criar uma conta de recurso com um número de telefone
 
@@ -60,11 +61,12 @@ A criação de uma conta de recurso que usa um número de telefone precisaria ex
    Se você estiver fora dos Estados Unidos, não poderá usar o centro de administração do Microsoft Teams para obter os números de serviço. Vá para [gerenciar números de telefone para sua organização](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) em vez de ver como fazer isso fora dos Estados Unidos.
 
 2. Comprar uma licença do sistema de telefonia. Confira:  
+   - [Sistema de telefonia – licença de usuário virtual](/MicrosoftTeams/teams-add-on-licensing/virtual-user.md)
    - [Office 365 Enterprise E1 e E3](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e1-e3)
    - [Office 365 Enterprise E5](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing)
    - [Software comercial do Office 365 Enterprise e5](https://products.office.com/business/office-365-enterprise-e5-business-software)
 
-3. Crie uma conta de recurso local executando o `New-CsHybridApplicationEndpoint` cmdlet para cada serviço de sistema de telefonia e dê a cada um deles um nome, endereço SIP e assim por diante.
+3. Crie uma conta de recurso local executando o `New-CsHybridApplicationEndpoint` cmdlet para cada atendedor automático do sistema de telefonia ou fila de chamadas e dê um nome, endereço SIP e assim por diante.
 
     ``` Powershell
     New-CsHybridApplicationEndpoint -DisplayName appinstance01 -SipAddress sip:appinstance01@contoso.com -OU "ou=Redmond,dc=litwareinc,dc=com"
@@ -72,7 +74,7 @@ A criação de uma conta de recurso que usa um número de telefone precisaria ex
 
     Consulte [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) para obter mais detalhes sobre este comando.
 
-4. Opcion Depois que suas contas de recursos são criadas, você pode aguardar que o AD seja sincronizado entre online e local, ou forçar uma sincronização e prosseguir para a configuração online de serviços do sistema de telefonia. Para forçar uma sincronização, você deve executar o seguinte comando no computador que está executando o AAD Connect (se você ainda não tiver feito isso, `import-module adsync` você precisará carregar para executar o comando):
+4. Opcion Depois que suas contas de recursos são criadas, você pode aguardar que o AD seja sincronizado entre online e local, ou forçar uma sincronização e prosseguir para a configuração online de atendedor automático ou filas de chamadas do sistema de telefonia. Para forçar uma sincronização, você deve executar o seguinte comando no computador que está executando o AAD Connect (se você ainda não tiver feito isso, `import-module adsync` você precisará carregar para executar o comando):
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta
@@ -80,9 +82,9 @@ A criação de uma conta de recurso que usa um número de telefone precisaria ex
 
     Consulte [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) para obter mais detalhes sobre este comando.
 
-5. Atribua a licença do sistema de telefonia à conta de recurso. Consulte [atribuir licenças do Microsoft Teams](/MicrosoftTeams/assign-teams-licenses) e [atribuir licenças a um usuário](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
+5. Atribua a licença de usuário virtual ou de sistema de telefonia à conta de recurso. Consulte [atribuir licenças do Microsoft Teams](/MicrosoftTeams/assign-teams-licenses) e [atribuir licenças a um usuário](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
 
-    Se você estiver atribuindo um número de telefone a uma conta de recurso, agora poderá usar a licença de usuário virtual do sistema de telefonia livre de custo. Isso fornece recursos do sistema de telefonia para números de telefone no nível organizacional e permite que você crie recursos de atendedor automático e fila de chamadas.
+   Se você estiver atribuindo um número de telefone a uma conta de recurso, agora você pode usar o sistema de telefonia livre de custo-licença de usuário virtual. Isso fornece recursos do sistema de telefonia para números de telefone no nível organizacional e permite que você crie recursos de atendedor automático e fila de chamadas.
 
 
 6. Atribua o número de serviço à conta de recurso. Use o `Set-CsHybridApplicationEndpoint` comando para atribuir um número de telefone (com a opção-LineURI) à conta de recurso.
@@ -101,20 +103,17 @@ A criação de uma conta de recurso que usa um número de telefone precisaria ex
 
 A conta do recurso precisará de um número de telefone atribuído se ele for atribuído a um atendedor automático de nível superior ou a fila de chamadas. Os números de telefone do usuário (assinante) não podem ser atribuídos a uma conta de recurso, somente os números de telefone de chamada tarifada ou gratuita de serviço podem ser usados.
 
-    You can assign a Direct Routing Hybrid number to your resource account.  See [Plan Direct Routing](direct-routing-plan) for details.
+  Você pode atribuir um número híbrido de roteamento direto à sua conta de recurso.  Consulte [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan.md) para obter detalhes.
 
-    > [!NOTE]
-    > Direct Routing service numbers assigned to resource accounts for auto attendant and call queues are supported for Microsoft Teams users and agents only.
+  > [!NOTE]
+  > Os números de serviço de roteamento direto atribuídos às contas de recursos para atendedor automático e filas de chamada têm suporte apenas para usuários e agentes do Microsoft Teams.
 
-    > [!NOTE]
-    > Microsoft is working on an appropriate licensing model for applications such as Cloud auto attendants and call queues, for now you need to use the user-licensing model.
-
-7. Crie o serviço do sistema de telefonia. Confira um dos procedimentos a seguir:
+7. Crie o atendedor automático do sistema de telefonia ou a fila de chamadas. Confira um dos procedimentos a seguir:
 
    - [Configurar um atendedor automático na nuvem](/MicrosoftTeams/create-a-phone-system-auto-attendant)
    - [Criar uma fila de chamada em nuvem](/MicrosoftTeams/create-a-phone-system-call-queue)  
 
-8. Associe a conta de recurso ao serviço de sistema de telefonia escolhido anteriormente.
+8. Associe a conta de recurso ao atendedor automático ou à fila de chamadas do sistema de telefonia que você escolheu anteriormente.
 
 Um exemplo de uma implementação de pequena empresa está disponível no [exemplo de pequena empresa-configurar um atendedor automático e um](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) [exemplo de pequena empresa-configurar uma fila de chamadas](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq.yml).
 
@@ -122,11 +121,11 @@ Um exemplo de uma implementação de pequena empresa está disponível no [exemp
 
 Esta seção discute a criação de uma conta de recurso que está hospedada no local. A criação de uma conta de recurso que está hospedada online é abordada em [gerenciar contas de recursos no Microsoft Teams](/MicrosoftTeams/manage-resource-accounts).
 
-Essas etapas são necessárias se você estiver criando um sistema de serviço de sistema de telefonia novo, ou reconstruindo a estrutura originalmente criada no UM do Exchange.
+Essas etapas são necessárias se você estiver criando um atendedor automático do sistema de telefonia ou uma estrutura de fila de chamada novo, ou reconstruindo a estrutura originalmente criada no UM do Exchange.
 
 Faça logon no servidor front-end do Skype for Business e execute os seguintes cmdlets do PowerShell:
 
-1. Crie uma conta de recurso local executando o `New-CsHybridApplicationEndpoint` cmdlet para cada serviço de sistema de telefonia e dê a cada um deles um nome, endereço SIP e assim por diante.
+1. Crie uma conta de recurso local executando o `New-CsHybridApplicationEndpoint` cmdlet para cada atendedor automático do sistema de telefonia ou fila de chamadas e dê um nome, endereço SIP e assim por diante.
 
     ``` Powershell
     New-CsHybridApplicationEndpoint -DisplayName appinstance01 -SipAddress sip:appinstance01@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com"
@@ -134,7 +133,7 @@ Faça logon no servidor front-end do Skype for Business e execute os seguintes c
 
     Consulte [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) para obter mais detalhes sobre este comando.
 
-2. Opcion Depois que suas contas de recursos são criadas, você pode aguardar que o AD seja sincronizado entre online e local, ou forçar uma sincronização e prosseguir para a configuração online de serviços do sistema de telefonia. Para forçar uma sincronização, você deve executar o seguinte comando no computador que está executando o AAD Connect (se você ainda não tiver feito isso, `import-module adsync` você precisará carregar para executar o comando):
+2. Opcion Depois que suas contas de recursos são criadas, você pode aguardar que o AD seja sincronizado entre online e local, ou forçar uma sincronização e prosseguir para a configuração online de atendedor automático ou filas de chamadas do sistema de telefonia. Para forçar uma sincronização, você deve executar o seguinte comando no computador que está executando o AAD Connect (se você ainda não tiver feito isso, `import-module adsync` você precisará carregar para executar o comando):
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta
@@ -142,16 +141,16 @@ Faça logon no servidor front-end do Skype for Business e execute os seguintes c
 
     Consulte [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) para obter mais detalhes sobre este comando.
 
-3. Crie o serviço do sistema de telefonia. Confira um dos procedimentos a seguir:
+3. Crie o atendedor automático do sistema de telefonia ou a fila de chamadas. Confira um dos procedimentos a seguir:
    - [Configurar um atendedor automático na nuvem](/MicrosoftTeams/create-a-phone-system-auto-attendant)
    - [Criar uma fila de chamada em nuvem](/MicrosoftTeams/create-a-phone-system-call-queue)  
-4. Associe a conta de recurso e o serviço de sistema de telefonia escolhido anteriormente.
+4. Associe a conta de recurso e o atendedor automático ou a fila de chamadas do sistema de telefonia que você escolheu anteriormente.
 
 Um exemplo de uma implementação de pequena empresa está disponível no [exemplo de pequena empresa-configurar um atendedor automático e um](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) [exemplo de pequena empresa-configurar uma fila de chamadas](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq.yml).
 
 ## <a name="test-the-implementation"></a>Testar a implementação
 
-A melhor maneira de testar a implementação é chamar o número configurado para um serviço de sistema de telefonia e conectar-se a um dos agentes ou menus. Você também pode colocar rapidamente uma chamada de teste usando o **botão testar** no painel de ações do centro de administração. Se você deseja fazer alterações em um serviço de sistema de telefonia, selecione-o e, no painel de ações, clique em **Editar**.
+A melhor maneira de testar a implementação é chamar o número configurado para um atendedor automático do sistema de telefonia ou uma fila de chamadas e se conectar a um dos agentes ou menus. Você também pode colocar rapidamente uma chamada de teste usando o **botão testar** no painel de ações do centro de administração. Se você quiser fazer alterações em um atendedor automático ou na fila de chamadas do sistema de telefonia, selecione-a e, em seguida, no painel de ações, clique em **Editar**.
 
 ## <a name="moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system"></a>Mover um atendedor automático ou fila de chamadas do UM do Exchange para o sistema de telefonia
 
@@ -179,11 +178,11 @@ A migração do Exchange UM para o sistema de telefonia exigirá a recriação d
 3. Crie novos pontos de extremidade locais, conforme descrito anteriormente.
    Atribua o atendedor automático de nível superior um número temporário para fins de teste.
 
-4. Configure um serviço de sistema de telefonia que usa os pontos de extremidade conforme descrito anteriormente.
+4. Configure um atendedor automático do sistema de telefonia ou uma fila de chamada que usa os pontos de extremidade, conforme descrito anteriormente.
 
    Você pode achar útil usar os exercícios no tutorial intitulado [Small Business example-configurar um atendedor automático](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) para criar um mapa lógico das hierarquias em seu antigo sistema de um do Exchange.
-5. Teste o serviço do sistema de telefonia.
-6. Reatribua o número de telefone vinculado à fila de chamadas da UM do Exchange ou ao atendedor automático ao serviço do sistema de telefonia correspondente.  
+5. Teste o atendedor automático do sistema de telefonia ou a fila de chamadas.
+6. Reatribua o número de telefone vinculado à fila de chamadas da UM do Exchange ou ao atendedor automático ao atendedor automático ou à fila de chamadas do sistema de telefonia correspondente.  
 
    Neste ponto, se você já tiver migrado UM caixa postal de UM, você deve estar em uma posição para migrar para o Exchange Server 2019.
 

@@ -18,16 +18,16 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Saiba mais sobre como gerenciar contas de recursos no Microsoft Teams
-ms.openlocfilehash: f1028e35bff7a2801a82e50e032c1b181200e00e
-ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
+ms.openlocfilehash: dfb7a9b65003442266cc6cf25ea59b7270aa1c9c
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/25/2019
-ms.locfileid: "35861891"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36207162"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gerenciar contas de recursos no Microsoft Teams
 
-Uma conta de recurso também é conhecida como *objeto de usuário desabilitado* no Azure Active Directory e pode ser usada para representar recursos em geral. No Exchange, ele pode ser usado para representar salas de conferência, por exemplo, e permitir que elas tenham um número de telefone. Uma conta de recurso pode ser hospedada no Microsoft 365 ou em instalações locais usando o Skype for Business Server 2019.
+Uma conta de recurso também é conhecida como *objeto de usuário desabilitado* no Azure AD e pode ser usada para representar recursos em geral. No Exchange, ele pode ser usado para representar salas de conferência, por exemplo, e permitir que elas tenham um número de telefone. Uma conta de recurso pode ser hospedada no Microsoft 365 ou em instalações locais usando o Skype for Business Server 2019.
 
 No Microsoft Teams ou no Skype for Business Online, cada fila de chamadas do sistema de telefone ou atendedor automático é necessário para ter uma conta de recurso associada. Se uma conta de recurso precisa de um número de telefone atribuído dependerá do uso pretendido da fila de chamadas ou do atendedor automático associado, conforme mostrado no diagrama a seguir. Você também pode consultar os artigos sobre filas de chamadas e atendedores automáticos vinculados na parte inferior deste artigo antes de atribuir um número de telefone a uma conta de recurso.
 
@@ -39,38 +39,36 @@ No Microsoft Teams ou no Skype for Business Online, cada fila de chamadas do sis
 
 ## <a name="overview"></a>Visão geral
 
-Pressupondo que sua organização já esteja usando pelo menos uma licença do sistema de telefonia, para atribuir uma fila de chamadas do sistema telefônico ou atendedor automático um número de telefone, você precisará tratar as várias dependências na seguinte sequência:
+Se sua organização já estiver usando pelo menos uma licença do sistema de telefonia, para atribuir um número de telefone a uma fila de chamadas do sistema telefônico ou atendedor automático, o processo será:
 
 1. Obter um número de serviço.
-2. Obter um sistema de telefonia livre- [licença de usuário virtual](teams-add-on-licensing/virtual-user.md) ou uma licença do sistema de telefonia paga para usar com a conta do recurso.
+2. Obter um sistema telefônico gratuito- [licença de usuário virtual](teams-add-on-licensing/virtual-user.md) ou uma licença do sistema de telefonia paga para uso com a conta do recurso ou uma licença do sistema de telefonia.
 3. Criar a conta do recurso. Um atendedor automático ou fila de chamadas é necessário para ter uma conta de recurso associada.
 4. Atribua o sistema telefônico ou um sistema telefônico-licença de usuário virtual para a conta do recurso.
 5. Atribua um número de telefone de serviço à conta de recurso à qual você acabou de atribuir licenças. 
 6. Criar uma fila de chamadas do sistema telefônico ou um atendedor automático
 7. Vincule a conta do recurso a uma fila de chamadas ou atendedor automático.
 
-
-
 Se o atendedor automático ou a fila de chamadas estiverem aninhados em um atendedor automático de nível superior, a conta do recurso associado só precisará de um número de telefone se você quiser vários pontos de entrada na estrutura de atendedores automáticos e filas de chamadas.
 
-Para redirecionar chamadas para as pessoas em sua organização que estão online, elas devem ter uma licença de **sistema telefônico** e estar habilitadas para o Enterprise Voice ou ter planos de chamada do Office 365. Consulte [atribuir licenças do Microsoft Teams](assign-teams-licenses.md). Para habilitá-las para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, execute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+Para redirecionar chamadas para as pessoas em sua organização que estão online, elas devem ter uma licença de **sistema telefônico** e estar habilitadas para o Enterprise Voice ou ter planos de chamada do Office 365. Consulte [atribuir licenças do Microsoft Teams](assign-teams-licenses.md). Para habilitá-las para o Enterprise Voice, você pode usar o Windows PowerShell. Por exemplo, executar:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 > [!WARNING]
 > Para evitar problemas com a conta do recurso, siga estas etapas nesta ordem.
 
 Se a fila de chamadas do sistema de telefonia ou o atendedor automático que você está criando for aninhado e não precisar de um número de telefone, o processo será:
 
-1. Criar a conta do recurso  
+1. Criar a conta do recurso 
 2. Criar uma fila de chamadas do sistema telefônico ou um atendedor automático
 3. Associar a conta de recurso a uma fila de chamadas do sistema telefônico ou atendedor automático
 
 ### <a name="create-a-resource-account-with-a-phone-number"></a>Criar uma conta de recurso com um número de telefone
 
-Um atendedor automático de nível superior ou fila de chamadas exigirá que um número de telefone esteja vinculado ao atendedor automático. A criação de uma conta de recurso que usa um número de telefone exigiria a execução das seguintes tarefas na seguinte ordem:
+Um atendedor automático de nível superior ou fila de chamadas exigirá que um número de telefone esteja vinculado ao atendedor automático. Para criar uma conta de recurso que usa um número de telefone, o processo é:
 
 1. Porta ou obter um número de serviço de chamada tarifada ou gratuita. O número não pode ser atribuído a outros serviços de voz ou contas de recursos.
 
-   Antes de atribuir um número de telefone a uma conta de recurso, você precisará adquirir ou portar seus números de serviço de chamada tarifada ou chamada gratuitas existentes. Depois de obter os números de telefone de serviço de chamada tarifada ou gratuita, eles serão exibidos no **Centro** > de administração do Microsoft Teams para**números de telefone**de**voz** > , e o **tipo de número** listado será listado como **serviço-chamada gratuita**. Para obter seus números de serviço, consulte [obtendo números de telefone de serviço](getting-service-phone-numbers.md) ou se você quiser transferir um número de serviço existente, consulte [transferir números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md).
+   Antes de atribuir um número de telefone a uma conta de recurso, você precisa obter ou portar seus números de serviço de chamada tarifada ou chamada gratuitas existentes. Depois de obter os números de telefone de serviço de chamada tarifada ou gratuita, eles aparecem**** > **** no centro de **Administração do centro** > de administração do Microsoft Teams, e o **tipo de número** será listado como **serviço-chamada gratuita**. Para obter seus números de serviço, consulte [obtendo números de telefone de serviço](getting-service-phone-numbers.md) ou se você quiser transferir um número de serviço existente, consulte [transferir números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md).
 
    Se você estiver atribuindo um número de telefone a uma conta de recurso, agora poderá usar a licença de usuário virtual do sistema de telefone sem custo. Isso fornece recursos do sistema telefônico para números de telefone no nível organizacional e permite criar atendedores automáticos e recursos da fila de chamadas.
 
@@ -87,7 +85,7 @@ Um atendedor automático de nível superior ou fila de chamadas exigirá que um 
 
 ### <a name="create-a-resource-account-without-a-phone-number"></a>Criar uma conta de recurso sem um número de telefone
 
-Um atendedor automático aninhado ou fila de chamadas exigir uma conta de recurso, mas, em muitos casos, a conta de recurso correspondente não precisará de um número de telefone e do licenciamento necessário para dar suporte a um número de telefone.  A criação de uma conta de recurso que não precisa de um número de telefone exigiria a execução das seguintes tarefas na seguinte ordem:
+Um atendedor automático aninhado ou fila de chamadas exigir uma conta de recurso, mas, em muitos casos, a conta de recurso correspondente não precisará de um número de telefone e do licenciamento necessário para dar suporte a um número de telefone. A criação de uma conta de recurso que não precisa de um número de telefone exigiria a execução das seguintes tarefas na seguinte ordem:
 
 1. Criar uma nova conta de recurso. Consulte [criar uma conta de recurso no centro de administração do Microsoft Teams](#create-a-resource-account-in-microsoft-teams-admin-center) ou [criar uma conta de recurso no PowerShell](#create-a-resource-account-in-powershell)
 2. Configure um dos seguintes procedimentos:
@@ -112,7 +110,7 @@ Em seguida, aplique uma licença para a conta do recurso no centro de administra
 
 ### <a name="edit-resource-account-name"></a>Editar nome da conta do recurso
 
-![Ícone do número 2, fazendo referência a um texto explicativo na](media/sfbcallout2.png) captura de tela anterior, você pode editar o nome de exibição da conta do recurso usando a opção **Editar** .  Clique em **salvar** quando terminar.
+![Ícone do número 2, fazendo referência a um texto explicativo na](media/sfbcallout2.png) captura de tela anterior, você pode editar o nome de exibição da conta do recurso usando a opção **Editar** . Clique em **salvar** quando terminar.
 ![Captura de tela da opção Editar conta de recurso](media/r-a-edit.png)
 
 ### <a name="assignunassign-phone-numbers-and-services"></a>Atribuir/cancelar a atribuição de números de telefone e serviços
@@ -128,7 +126,7 @@ Para atribuir um roteamento direto ou número híbrido a uma conta de recurso, v
 
 ## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>Alterar uma conta de recurso existente para usar uma licença de usuário virtual
 
-Se você decidir mudar as licenças de sua conta de recurso existente de uma licença do sistema telefônico para uma licença de usuário virtual, será necessário aquire a licença de usuário virtual gratuita e, em seguida, seguir as etapas vinculadas no centro de administração do Microsoft 365 para [mover os usuários para um assinatura diferente](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
+Se você decidir mudar as licenças de sua conta de recurso existente de uma licença do sistema telefônico para uma licença de usuário virtual, será necessário adquirir a licença de usuário virtual gratuita e, em seguida, seguir as etapas vinculadas no centro de administração do Microsoft 365 para [mover os usuários para um assinatura diferente](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
 
 > [!WARNING]
 > Sempre remova uma licença completa do sistema de telefonia e atribua a licença de usuário virtual na mesma atividade de licença. Se você remover a antiga licença, salvar as alterações da conta, adicionar a nova licença e salvar as configurações da conta novamente, a conta do recurso talvez não funcione mais como esperado. Se isso acontecer, recomendamos que você crie uma nova conta de recurso para a licença de usuário virtual e remova a conta de recurso quebrada. 
@@ -149,7 +147,7 @@ A identificação do aplicativo que você precisa usar ao criar as instâncias d
 > [!NOTE]
 > Se quiser que a fila de chamadas ou o atendedor automático seja pesquisado por usuários locais, você deve criar suas contas de recursos no local, pois as contas de recursos online não são sincronizadas com o Active Directory.
 
-1. Para criar uma conta de recurso online para uso com um atendedor automático, use o comando a seguir.  
+1. Para criar uma conta de recurso online para uso com um atendedor automático, use o comando a seguir.
 
 ``` Powershell
 New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
@@ -177,7 +175,7 @@ Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhone
 
 ## <a name="manage-resource-account-settings-in-microsoft-teams-admin-center"></a>Gerenciar as configurações da conta do recurso no centro de administração do Microsoft Teams
 
-Para gerenciar as configurações da conta do recurso no centro de administração do Microsoft Teams, navegue até  > **contas de recursos**de **configurações de toda a organização**, selecione a conta do recurso para o qual você precisa alterar as configurações e clique no botão **Editar** . na tela **Editar conta do recurso** , você poderá alterar estas configurações:
+Para gerenciar as configurações da conta do recurso no centro de administração do Microsoft Teams, navegue até > **contas de recursos**de **configurações de toda a organização**, selecione a conta do recurso para o qual você precisa alterar as configurações e clique no botão **Editar** . na tela **Editar conta do recurso** , você poderá alterar estas configurações:
 
 - **Nome para exibição** da conta
 - Fila de chamadas ou atendedor automático que usa a conta
@@ -206,7 +204,7 @@ Get-MsolUser -UserPrincipalName "username@contoso.com"| fl objectID,department
 Se o atributo Department exibir o ponto de extremidade do aplicativo Skype for Business, execute o cmdlet abaixo:
 
 ``` Powershell
-Set-MsolUser -ObjectId  -Department "Microsoft Communication Application Instance"
+Set-MsolUser -ObjectId -Department "Microsoft Communication Application Instance"
 ```
 
 > [!NOTE]
@@ -220,7 +218,7 @@ Para implementações híbridas com o Skype for Business Server:
   
    [Planejar filas de chamadas da nuvem](/SkypeforBusiness/hybrid/plan-call-queue)
    
-   [Configurar contas de recursos onlocal](/SkypeForBusiness/hybrid/configure-onprem-ra)
+   [Configurar contas de recurso local](/SkypeForBusiness/hybrid/configure-onprem-ra)
 
 
 Para implementações do teams ou do Skype for Business Online:
