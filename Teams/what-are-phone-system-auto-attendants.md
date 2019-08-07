@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Saiba o que são atendedores automáticos da nuvem e como usá-los.
-ms.openlocfilehash: 3802cab121d7f88a48f657aaa9653e7144e77abe
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: b3541ad88f29727d07043cba46503d040e6434c0
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394543"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "35536001"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>Quais são os atendedores automáticos do Cloud?
 
@@ -55,17 +55,11 @@ Um atendedor automático na nuvem tem os seguintes recursos:
 Para começar a usar os atendedores automáticos, é importante lembrar-se de que:
 
 - Um atendedor automático é necessário para ter uma conta de recurso associada. Consulte [gerenciar contas de recursos no Teams](manage-resource-accounts.md) para obter detalhes sobre contas de recursos.
-- Se você planeja atribuir um número de telefone ao atendedor automático, será necessário adquirir e atribuir uma das seguintes licenças às suas contas de recursos: 
-    - Office 365 Enterprise E1 ou E3 com sistema telefônico adicionado
-    - Office 365 Enterprise E5 que inclui sistema telefônico
-- Você só precisa licenciar as contas de recursos com um número de telefone atribuído a ela. Em um atendedor automático aninhado ou fila de chamadas, você não precisa licenciar o restante dos atendedores automáticos ou filas de chamadas se eles não tiverem números de telefone associados a eles. 
+- Se você estiver atribuindo um número de telefone a uma conta de recurso, agora poderá usar a licença de usuário virtual do sistema de telefone sem custo. Isso fornece recursos do sistema telefônico para números de telefone no nível organizacional e permite criar atendedores automáticos e recursos da fila de chamadas.
 
 > [!NOTE]
 > Os números do serviço de roteamento direto para atendedor automático e filas de chamadas são suportados somente para usuários e agentes do Microsoft Teams.
-
-> [!NOTE]
-> A Microsoft está trabalhando em um modelo de licenciamento sem custo para aplicativos como atendedores automáticos da nuvem e filas de chamadas, por ora, você precisa usar o modelo de licenciamento do usuário.
-    
+  
    > [!TIP]
    > Para redirecionar chamadas para um operador ou uma opção de menu que seja um usuário online com uma licença do **sistema de telefonia** , você precisará habilitá-las para o Enterprise Voice ou atribuir planos de chamada a elas. Consulte [atribuir licenças do Microsoft Teams](assign-teams-licenses.md). Você também pode usar o Windows PowerShell. Por exemplo, execute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   

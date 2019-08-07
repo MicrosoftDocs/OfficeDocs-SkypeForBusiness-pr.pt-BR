@@ -14,10 +14,10 @@ description: Saiba como usar as diferentes funções administrativas para gerenc
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: fa461f587b2143b1981c3dfc70910572bd4cb004
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "35925419"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Usar funções de administrador do Microsoft Teams para gerenciar equipes

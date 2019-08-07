@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Áustria.
-ms.openlocfilehash: 64e5ea0c6dc25882f4d7be18df38f755f2106b49
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 88efe30018a5724ea901e1e1b456b86c74ff4393
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283318"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "34332231"
 ---
 # <a name="availability-in-austria"></a>Disponibilidade na Áustria
 
@@ -43,7 +43,7 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |A Audioconferência está disponível para compra?  <br/> |Sim  <br/> |
-|Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Sim, para:<br/><ul><li>Viena </ul>Para obter números de telefone dedicados, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
+|Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Sim, para:<br/><ul><li>Viena </ul>Para obter números de telefone dedicados, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
 |Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> |Disponível  <br/> |
    
 ## <a name="phone-system"></a>Sistema de Telefonia
@@ -71,7 +71,7 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Sim  <br/> |
    
- Para obter números de telefone de chamadas gratuitas e tarifadas para audioconferência, atendedores automáticos e filas de chamadas, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).
+ Para obter números de telefone de chamadas gratuitas e tarifadas para audioconferência, atendedores automáticos e filas de chamadas, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
 ## <a name="communications-credits"></a>Créditos de Comunicação
 
@@ -83,7 +83,7 @@ Para configurá-los, consulte [Configurar Créditos de Comunicação para a sua 
   
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

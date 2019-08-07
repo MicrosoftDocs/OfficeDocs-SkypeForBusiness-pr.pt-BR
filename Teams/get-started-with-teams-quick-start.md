@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38b2b5e263347dd97a20da2ca7ea00068cb341c7
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: c86fa96418f22ebc9dba0d6497e3ef09487a7d7f
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433116"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "35638634"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Introdução ao Microsoft Teams
 
@@ -40,7 +40,7 @@ Veja aqui como implementar o primeiro conjunto de equipes e canais para que seus
 
 Se sua organização for de grande porte, realize uma configuração híbrida ou no local do Skype for Business, defina requisitos regulamentares ou de conformidade rigorosos ou, se desejar implementar reuniões ou recursos de voz (como planos de chamadas ou sistema de telefonia), comece pela leitura do arquivo [Como implementar o Teams](how-to-roll-out-teams.md). Recomendamos que você ainda comece pela seção **Introdução** para desenvolver suas habilidades e começar a planejar sua implantação em toda a organização. "Planeje suas equipes com o Teams." Comece por algo mais simples implementando o Teams com chat, equipes, canais e aplicativos e se desenvolva a partir daí. Essas experiências iniciais ajudarão você a divulgar o Teams, gerando entusiasmo em toda a organização para a próxima fase de lançamento. 
 
-Se você tiver uma pequena empresa, poderá usar essa orientação para começar a implementar o Teams em sua organização. No caso das pequenas empresas, talvez não seja necessário realizar uma implantação em fases do Teams.
+Se você tiver uma pequena empresa, poderá usar essa orientação para começar a implementar o Teams em sua organização. No caso das pequenas empresas, talvez não seja necessário realizar uma implantação em fases do Teams. Não deixe de conferir os modelos disponíveis especificamente para pequenas empresas para tornar a implantação na sua organização mais simples e fácil. Confira[Introdução aos modelos do Teams para pequenas e médias empresas](https://docs.microsoft.com/microsoftteams/smb-templates).
 
 ## <a name="before-you-get-started"></a>Antes de começar
 

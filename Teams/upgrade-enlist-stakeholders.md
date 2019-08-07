@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c5534edd8257652a50351ea6d7e6e14d449104a
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: aaed448429bfa5715250eb7cf28488771c1c785c
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344621"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "34433475"
 ---
-![Estágios da jornada da atualização, com ênfase na coleta de sua equipe de participantes do projeto] (media/upgrade-banner-stakeholders.png "Estágios da jornada da atualização, com ênfase na coleta de sua equipe de participantes do projeto")
+![Ilustração mostrando o estado dos participantes da jornada da atualização] (media/upgrade-banner-stakeholders.png "Estágios da jornada da atualização, com ênfase na coleta de sua equipe de participantes do projeto")
 
 Este artigo faz parte do estágio de stakeholders do projeto da sua jornada de atualização, a primeira e mais essencial atividade que você concluiu para o sucesso do seu projeto.
 

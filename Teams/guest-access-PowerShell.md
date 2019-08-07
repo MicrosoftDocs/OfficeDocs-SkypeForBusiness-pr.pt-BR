@@ -15,10 +15,10 @@ description: Use o PowerShell para permitir ou bloquear o acesso de convidados Ã
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 0b429d4e2411e697c4e3357ebd7b5fc66ab27376
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "35220882"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>Usar o PowerShell para controlar o acesso de convidados a uma equipe

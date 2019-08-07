@@ -17,15 +17,15 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 641c0702605c0d5e6eca72ce5e2917b10b5ecf5d
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "34494494"
 ---
 # <a name="adopt-microsoft-teams"></a>Adotar o Microsoft Teams
 
-Se você for uma pequena empresa ou se quiser implantar equipes que comecem com o chat, o Teams & Channels e reuniões, use nossas [diretrizes](get-started-with-teams-quick-start.md)de introdução de introdução, que foram projetadas para você começar a trabalhar rapidamente. Se você for uma grande organização com uma configuração do Skype for Business local ou híbrida, ou se quiser implementar recursos de voz (como planos de chamadas do Office 365 ou sistema telefônico), comece com nossas diretrizes de introdução, mas você precisará de outras orientação abaixo, em **diretrizes de adoção mais profunda**.
+Se você for uma pequena empresa ou se quiser implantar equipes que comecem com chats, equipes & canais e reuniões, use nossas [diretrizes](get-started-with-teams-quick-start.md)de introdução de introdução, que foram projetadas para que você comece a trabalhar rapidamente. Se você for uma grande organização com uma configuração do Skype for Business local ou híbrida, ou se quiser implementar recursos de voz (como planos de chamadas do Office 365 ou sistema telefônico), comece com nossas diretrizes de introdução, mas você precisará de outras orientação abaixo, em **diretrizes de adoção mais profunda**.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -112,7 +112,7 @@ Se você for uma pequena empresa ou se quiser implantar equipes que comecem com 
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Certificação de treinamento &</h3>
+                        <h3>Treinamento & certificação</h3>
                     </div>
                 </div>
             </div>

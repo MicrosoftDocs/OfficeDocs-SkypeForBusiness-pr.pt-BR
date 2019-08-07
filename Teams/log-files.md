@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Saiba mais sobre registros de depuração, mídia e desktop produzidos pelo Microsoft Teams, onde podem ser encontrados e como eles podem ajudar na resolução de problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d210c5c2e3e2d9b3b3757c2945c504296f00788
-ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
+ms.openlocfilehash: ed1a78bc7ddd13a3fceb76d89b26e3e2282a7a8e
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 08/06/2019
-ms.locfileid: "36206945"
+ms.locfileid: "36212609"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Usar arquivos de registro para solucionar problemas no Microsoft Teams
 =================================================
@@ -86,11 +86,11 @@ Os registros de mídia contêm dados de diagnóstico de áudio, vídeo e compart
 
 |Cliente |Localização |
 |---------|---------|
-|Windows     |blog\*do%AppData%\Microsoft\Teams\media-Stack.         |
-|            |blog\*do%AppData%\Microsoft\Teams\skylib.
-|            |%appdata%\Microsoft\Teams\media-stack\*. etl         |
-|Mac OSX     |~/Library/Application Support/Microsoft/Teams/media-stack\*.blog         |
-|            |~/Library/Application Support Support/Microsoft/Teams/\*skylib. blog         |
+|Windows     |%appdata%\Microsoft\Teams\media-stack\\*. blog         |
+|            |%appdata%\Microsoft\Teams\skylib\\*. blog
+|            |%appdata%\Microsoft\Teams\media-stack\\*. etl         |
+|Mac OSX     |~/Library/Application Support Support/Microsoft/Teams/Media-Stack/*. blog         |
+|            |~/Library/Application Support Support/Microsoft/Teams/skylib/*. blog         |
 
 
 

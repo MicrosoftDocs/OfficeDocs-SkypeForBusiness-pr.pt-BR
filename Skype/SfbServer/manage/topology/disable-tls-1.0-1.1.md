@@ -11,10 +11,10 @@ localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Resumo: preparar e implementar a desabilitação do TLS 1,0 e do 1,1 em seus ambientes.'
 ms.openlocfilehash: 3f12642a5abf944ddbcddfdca0745998a8b634ec
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "34275238"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Desabilitar TLS 1.0/1.1 no Skype for Business Server 2015
@@ -451,7 +451,7 @@ Você pode ter notado que estamos fazendo mais do que simplesmente desabilitar o
 
 ### <a name="validate-that-workloads-are-functioning-as-expected"></a>Validar que as cargas de trabalho estão funcionando como esperado
 
-Depois que o TLS 1,0 e o 1,1 estiverem desabilitados em seu ambiente, certifique-se de que todas as suas cargas de trabalho principais estejam funcionando como esperado, como presença de chat &, chamadas ponto a ponto, Enterprise Voice etc.
+Quando o TLS 1,0 e o 1,1 estiverem desabilitados em seu ambiente, certifique-se de que todas as cargas de trabalho principais estejam funcionando como esperado, como mensagens instantâneas & presença, chamadas ponto a ponto, Enterprise Voice etc.
 
 **Validar somente o TLS 1,2 está sendo usado**
 

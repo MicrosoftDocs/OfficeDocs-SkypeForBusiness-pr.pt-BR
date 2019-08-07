@@ -3,7 +3,7 @@ title: Configurar um atendedor automático do Cloud
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: makolomi
+ms.reviewer: waseemh
 ms.topic: article
 ms.assetid: 6fc2687c-0abf-43b8-aa54-7c3b2a84b67c
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar atendedores automáticos da nuvem para o Microsoft Teams.
-ms.openlocfilehash: 480929abef1bd6a388afdb995b7f727d5421bc7c
-ms.sourcegitcommit: bd9b29cdaa183b1f5cc2d643a5a2d231a56a2c3f
+ms.openlocfilehash: 939d1ac17007e3d823b0588f9949330e24555449
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "35614258"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "35807532"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar um atendedor automático do Cloud
 
@@ -39,12 +39,7 @@ Se você quiser saber mais sobre atendedores automáticos, consulte [o que são 
 
 ## <a name="step-1---get-started"></a>Etapa 1-Introdução
 
-- Um atendedor automático é necessário para ter uma conta de recurso associada. Consulte [gerenciar contas de recursos no Teams](manage-resource-accounts.md) para obter detalhes sobre contas de recursos.
-- Se você planeja atribuir um número de roteamento direto, será necessário adquirir e atribuir as seguintes licenças às contas \(do recurso Office 365 Enterprise E1, E3 ou E5 com o complemento do sistema telefônico.\)
-- Se estiver atribuindo um número de serviço da Microsoft, você precisará adquirir e atribuir as seguintes licenças à sua conta \(de recurso Office 365 Enterprise E1, E3 ou e5, com o complemento do sistema telefônico\).
-
-> [!CAUTION]
-> Para obter e usar números de telefone gratuitos, você precisa configurar Créditos de Comunicação. Para fazer isso, consulte [O que são Créditos de Comunicação?](what-are-communications-credits.md) e [Configurar Créditos de Comunicação para a sua organização](set-up-communications-credits-for-your-organization.md).
+- Um atendedor automático é necessário para ter uma conta de recurso associada. Consulte [gerenciar contas de recursos no Teams](manage-resource-accounts.md) para obter detalhes sobre contas de recursos e todas as licenças necessárias.
 
 > [!TIP]
 > Para redirecionar chamadas para um operador ou uma opção de menu que seja um usuário online com uma licença do **sistema de telefonia** , será necessário habilitá-las para o Enterprise Voice. Consulte [atribuir licenças do Skype for Business](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) ou [atribuir licenças do Microsoft Teams](assign-teams-licenses.md). Você também pode usar o Windows PowerShell. Por exemplo, execute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
@@ -206,7 +201,7 @@ Para configurar as opções de menu, depois de selecionar as teclas de discagem,
   - Uma **Pessoa da sua empresa** com uma licença de **Sistema de Telefonia** habilitada para Enterprise Voice ou com um Plano de Chamadas do Office 365 atribuído. Você pode configurá-lo para que o chamador possa ser enviado para a caixa postal. Para fazer isso, selecione **pessoa em sua empresa** e defina esta pessoa para que as chamadas sejam encaminhadas diretamente para o correio de voz.
 
     > [!Note]
-    > A **Pessoa da sua empresa** pode ser um usuário Online ou um usuário hospedado no local usando o Skype for Business Server 2015 ou o Lync Server 2013.
+    > **A pessoa em sua empresa** pode ser um usuário online ou um usuário hospedado no local usando o Skype for Business Server ou o Lync Server 2013.
     - Outro **atendedor automático**
 
        Você pode usar um atendedor automático existente para criar um segundo nível de opções de menu contendo um submenu. These are called nested auto attendants. Para enviar a chamada para um atendedor automático aninhado, selecione **pessoa na empresa** e atribua uma conta de recurso, uma que já tenha um atendedor automático associado ou que você associe a um atendedor automático quando terminar de criar este atendedor automático.
@@ -214,13 +209,13 @@ Para configurar as opções de menu, depois de selecionar as teclas de discagem,
         > [!Note]
         > O **horário comercial** dos atendedores automáticos aninhados (ou de segundo nível) também será usado, incluindo as chamadas enviadas de outros atendedores automáticos que foram configurados.
 
-<!--    - **call queue** Using a call queue option allows the call to be transferred to an existing call queue that you have set up. -->
+     - **fila de chamadas** Usar uma opção de fila de chamadas permite que a chamada seja transferida para uma fila de chamadas existente que você configurou. 
 
 * * *
 
 ![Ícone do número 5, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout5.png)
 
-**Discar por nome** Se você escolher essa opção, as pessoas que ligarem para pesquisarem pessoas em sua organização serão habilitadas para a pesquisa de pastas usando a pesquisa de diretório. Você pode selecionar as pessoas que serão listadas como disponíveis ou indisponíveis para Discagem por Nome na página **Escopo de discagem**. Qualquer usuário online com uma licença de **Sistema de Telefonia** ou hospedado no local usando o Skype for Business Server 2015 ou o Lync Server 2013 pode ser encontrado com a Discagem por Nome.
+**Discar por nome** Se você escolher essa opção, as pessoas que ligarem para pesquisarem pessoas em sua organização serão habilitadas para a pesquisa de pastas usando a pesquisa de diretório. Você pode selecionar as pessoas que serão listadas como disponíveis ou indisponíveis para Discagem por Nome na página **Escopo de discagem**. Qualquer usuário online com uma licença de **sistema telefônico** ou qualquer usuário hospedado no local usando o Skype for Business Server ou o Lync Server 2013 pode ser encontrado com a discagem por nome.
 
 * * *
 
@@ -290,7 +285,7 @@ Nesta página, você pode configurar quais usuários em sua organização serão
 
 ![Ícone do número 1, fazendo referência a um texto explicativo na](media/sfbcallout1.png) captura de tela anterior usando a opção **incluir** , você tem duas opções:
 
-- **Todos os usuários online** O uso dessa opção permite que todas as pessoas da organização sejam incluídas na pesquisa do diretório. Todos os usuários Online com uma licença de **Sistema de Telefonia**, bem como os usuários hospedados no local que usam o Skype for Business Server 2015 ou o Lync Server 2013, que têm Planos de Chamadas no Office 365, serão listados.
+- **Todos os usuários online** O uso dessa opção permite que todas as pessoas da organização sejam incluídas na pesquisa do diretório. Todos os usuários online com uma licença do **sistema telefônico** , bem como os usuários hospedados no local usando o Skype for Business Server ou o Lync Server 2013 com planos de chamada no Office 365, serão listados.
 - **Grupo de usuários personalizado** Se você usar essa opção, poderá pesquisar um grupo, uma lista de distribuição ou um grupo de segurança do Office 365 que tenha sido criado em sua organização e as pessoas adicionadas a este grupo do Office 365, lista de distribuição ou grupo de segurança que sejam **usuários online com um Licença do sistema de telefone** ou hospedada no local usando o Skype for Business server 2015 ou o Lync server 2013. Você pode adicionar vários grupos do Office 365, listas de distribuição e grupos de segurança.
 
 * * *
