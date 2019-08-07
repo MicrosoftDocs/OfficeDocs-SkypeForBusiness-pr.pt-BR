@@ -1,2 +1,0 @@
-> [!NOTE]
-> Esta página descreve o software de pré-lançamento que pode ser alterado substancialmente antes do lançamento. Qualquer capturas de tela são espaços reservados e podem ser diferentes do que você vê. 
