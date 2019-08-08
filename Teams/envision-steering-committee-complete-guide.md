@@ -7,218 +7,219 @@ ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: Identifique um grupo de administração dos principais participantes e os líderes do projeto para identificar objetivos de implantação, acompanhar o progresso e remover bloqueadores.
+audience: admin
+description: Identifique um grupo regulador de principais interessados e líderes de projeto para identificar objetivos de implantação, acompanhar o progresso e remover bloqueadores.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3739da8b0c8d181902cb85c6e5d847a5bea98f24
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e4f264195a6c378f3724d99677f108abf631fed8
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910423"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36232090"
 ---
 # <a name="steering-committee"></a>Comitê de direcionamento
 
 ## <a name="steering-committee-overview"></a>Visão geral do Comitê de direcionamento
 
-Comitê de direcionamento de um é um grupo de administração dos principais participantes e os líderes de projetos que tenham sido colocados juntos para orientar a um projeto ou um programa em direção seus resultados de negócios definidas. Comitê de orientação de não está diretamente responsável por *como* o projeto é entregue, mas em vez disso, *que* o projeto oferece aos negócios.
+Um Comitê de direcionamento é um grupo regulador de principais interessados e líderes de projeto que se reuniram para orientar um projeto ou programa para seus resultados comerciais definidos. O Comitê de direcionamento não é responsável ** diretamente pela entrega do projeto, mas sim o *que* o projeto oferece à empresa.
 
-Cada projeto requer um concordou em visão e o compromisso. Para oferecer a visão deve ser claramente definida de resultados desejados dos projetos, ele precisa ser monitorados e mantido. Isso se torna a responsabilidade da comissão de direcionamento: unidade decisões, aviso, fornecer supervisão estratégico, para servir como defensores para a organização para iniciativas do projeto, e — quando necessário — remover bloqueadores.
+Cada projeto requer uma visão e uma compromisso acordados. Para fornecer os resultados desejados dos projetos, a visão deve ser claramente definida, que precisa ser monitorado e mantido. Isso se torna a responsabilidade do Comitê de direcionamento: para impulsionar decisões, aconselhar, fornecer supervisão estratégica, servir como defensores da organização para as iniciativas do projeto e, quando necessário, remover bloqueadores.
 
-Sua organização deve colocar pensamento significativo para a formação da comissão de direcionamento. O comitê deve assegurar que o projeto atinge os objetivos de negócios que você definiu para chegar a alteração em toda a organização, reunir periodicamente para discutir o pulso atual do projeto e ajuda a remover qualquer obstáculos que são encontrados durante o jornada.
+Sua organização deve colocar um pensamento significativo na formação do Comitê de direcionamento. O Comitê deve garantir que o projeto atinja os objetivos de negócios que você definiu para atender às mudanças em toda a organização, se reunir periodicamente para discutir o momento atual do projeto e ajudar a remover qualquer obstáculos detectado durante o to.
 
-Comissão de deve definir seu papel para incluir alguns objetivos principais:
+O Comitê deve definir seu compromisso para incluir alguns objetivos importantes:
 
--   Mantenha um alinhamento forte entre a equipe de projeto e o patrocinador executivo ou liderança executiva.
+-   Mantenha um forte alinhamento entre a equipe do projeto e o patrocinador executivo ou a liderança executiva.
 
--   Fornecer informações sobre o status do projeto ao Patrocinador executivo ou liderança executiva.
+-   Dê uma percepção do status do projeto para o patrocinador executivo ou liderança executiva.
 
--   Permitir que o patrocinador executivo ou a equipe de liderança executiva fornecer a direção de entrada para o projeto e certifique-se de que ele se alinha com abrangente objetivos comerciais, ajustando planos de projeto, os resultados de chave agregados (OKRs) e outras atividades de projeto.
+-   Permita que o patrocinador executivo ou a equipe de liderança executiva forneça a direção e a entrada para o projeto e garanta que ele se alinhe às principais metas comerciais, ajustando planos de projeto, resultados de chave objetiva (OKRs) e outras atividades do projeto.
 
-Comitê de orientação de atende em um intervalo recorrente durante o tempo de vida de um projeto para garantir o alinhamento entre a liderança organizacional e a equipe de projeto. Esta reunião crítico garante que a direção do projeto tem suporte completo do liderança e incorpora quaisquer comentários fornecidos pela liderança no projeto para o sucesso da unidade. Comissão de usa essas reuniões conheçam no status do projeto e também para:
+O Comitê de direcionamento se reúne em um intervalo recorrente durante o ciclo de vida de um projeto para garantir o alinhamento entre a liderança organizacional e a equipe do projeto. Essa reunião crítica garante que a direção do projeto tenha o suporte total da liderança e incorpora qualquer comentário oferecido pela liderança ao projeto para impulsionar o sucesso. O Comitê usa essas reuniões para obter informações sobre o status do projeto e também para:
 
--   Concorda em resultados de negócios que se alinham para o caso de negócios e para garantir que o projeto está impulsionando direção a entrega desses resultados.
+-   Concorde com os resultados dos negócios que se alinham ao business case e para garantir que o projeto seja direcionado à entrega desses resultados.
 
--   Verifique e aprovar o projeto para precisão e conformidade com o caso de negócios.
+-   Verifique e aprove o projeto para a precisão e a conformidade com o business case.
 
--   Revise e verifique se as alterações feitas no caso de negócios que poderia afetar quaisquer resultados definidos.
+-   Revise e verifique se as alterações feitas no business case podem afetar os resultados definidos.
 
--   Tomar decisões estratégicas relacionadas a priorização de resultados finais do projeto e aprovar entregas provisórias.
+-   Tome decisões estratégicas sobre a priorização dos resultados do projeto e aprove os resultados provisórios.
 
--   Identificar, gerenciar e atenuar lacunas, riscos e problemas onde influência adicional é necessária do comitê.
+-   Identifique, gerencie e atenue falhas, riscos e problemas em que a influência adicional é necessária do Comitê.
 
--   Obter suporte ao Patrocinador executivo ou à equipe de liderança executiva para problemas que exigem escalonamento, priorização e resolvendo conflitos entre unidades de negócios das partes interessadas. 
+-   Reúna o suporte do patrocinador executivo ou da equipe de liderança executiva para problemas que exigem escalonamento, priorização e resolução de qualquer conflito entre unidades de negócios interessadas. 
 
--   Fornecer comentários formal e recomendações para liderança executiva, conselho, ou outras empresas e acionistas IT, conforme aplicável.
+-   Forneça feedback formal e recomendações à liderança executiva, ao Conselho Consultivo de mudança ou a outros participantes de negócios e de ti, conforme aplicável.
 
-## <a name="identify-members-of-the-steering-committee"></a>Identificar membros da comissão de direcionamento
+## <a name="identify-members-of-the-steering-committee"></a>Identificar membros do Comitê de direcionamento
 
-Um comitê só é eficiente como seus participantes são influente. Comitê de orientação de precisa manter a representação de negócios e tomadores de decisões técnicas, junto com qualquer uma das equipes de parceiro que contribuem para a solução e liderança de equipe de projeto principal.
+Um Comitê é tão eficiente quanto seus participantes são influentes. O Comitê de direcionamento precisa manter a representação dos tomadores de decisões de negócios e técnicos, juntamente com qualquer líder da equipe de projeto principal e equipes parceiras que contribuem para a solução.
 
-Comitê de direcionamento de cada precisa liderança forte e claramente funções e responsabilidades definidas. Para definir as expectativas realistas de desempenho do comitê e a participação dos seus membros, você deve documentar e concorda em funções atribuídas e responsabilidades. Você absolutamente deve ter um patrocinador executivo responsivo e liderança empresarial desse comitê para fornecer influência efetiva em toda a organização e certifique-se de uma perspectiva de diversas.
+Cada Comitê de direcionamento precisa de forte liderança e funções e responsabilidades claramente definidas. Para definir expectativas realísticas para o desempenho do Comitê e a participação de seus membros, você deve documentar e concordar com funções e responsabilidades atribuídas. Você deve ter um patrocinador executivo responsivo e liderança em empresas nesse comitê para oferecer influência eficiente em toda a organização e garantir uma perspectiva diversificada.
 
 > [!NOTE]
-> Ajuste as funções e responsabilidade com base em sua organização e o design da equipe de projeto. Em organizações menores, essas funções podem sobrepor-se.
+> Ajustar funções e responsabilidades com base em sua organização e no design da equipe do projeto. Em organizações menores, essas funções podem se sobrepor.
 
-| Título | Função | Contato | Email |
+| Título | Função | Entrando | Email |
 |----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-----------|
-| Patrocinador executivo | Favor do projeto, certifique-se de que sua direção permanecerá em alinhamento com a visão da organização. Servir como autoridade ultimate tomar decisões comissão de puderem concordar com. | | |
-| Executivos de decisão de negócios | Favor do projeto, certifique-se de que sua direção permanecerá em alinhamento com a visão da organização | | |
-| Arquiteto | Garantir que as decisões de tecnologia são viáveis e alinhados à resultados de negócios concordou em. | | |
-| Equipe de projeto principal | Forneça os detalhes sobre qualquer componente específico, técnico ou não técnico (por exemplo, o gerenciamento de adoção e alterar) | | |
-| Campeão de qualidade | Ser responsável juntando métricas de qualidade. | | |
-| Gerente de projeto/programa | Assumir a responsabilidade para a apresentação e a coleção de comentários para incorporar ao projeto. | | |
-| Equipe de contas de parceiros | Forneça feedback do ponto de vista do parceiro de uma perspectiva mais ampla, outras atividades de parceiro. | | |
-| Equipe de projeto de parceiro | Forneça feedback do ponto de vista do parceiro relacionadas a entrega do projeto | | |
+| Patrocinador executivo | Defensora do projeto, certifique-se de que sua direção permaneça alinhada com a visão da organização. Serve como autoridade final para tomar decisões de que o comitê não pode concordar. | | |
+| Responsável (s) de decisões comerciais | Defensora do projeto, certifique-se de que sua direção permaneça alinhada com a visão da organização | | |
+| Arquiteto | Assegure-se de que as decisões tecnológicas sejam atingíveis e se alinhem a resultados acordados dos negócios. | | |
+| Equipe de projeto principal | Fornecer detalhes sobre qualquer componente específico, técnico ou não técnico (como adoção e gerenciamento de alterações) | | |
+| Especialista em qualidade | Seja possível para reunir as métricas de qualidade. | | |
+| Gerente de programa/projeto | Assuma a responsabilidade da apresentação e coleta de comentários para incorporá-lo ao projeto. | | |
+| Equipe de conta de parceiro | Forneça comentários do ponto de vista do parceiro de uma perspectiva mais ampla, outras atividades dos parceiros. | | |
+| Equipe de projeto para parceiros | Fornecer comentários do ponto de vista do parceiro em relação à entrega do projeto | | |
 
-## <a name="schedule-steering-committee-meetings"></a>Agendar reuniões comitê de direcionamento 
+## <a name="schedule-steering-committee-meetings"></a>Agendar reuniões do Comitê de direcionamento 
 
-Embora cada equipe de projeto e de cada organização está estruturado maneiras ligeiramente diferentes, a reunião comitê de orientação nunca deve ser qualquer outro reunião standup do projeto. Considere os objetivos da reunião comitê de orientação: é sua oportunidade para manter o projeto sob controle coletando suporte e a direção da liderança executiva ou patrocinador executivo. Certifique-se de que todos participar desta reunião para que haja direta de mensagens entre a equipe de projeto inteiro e patrocinador executivo ou liderança executiva e não há nenhum erro de comunicação quando a mensagem é retransmitida.
+Embora todas as organizações e todas as equipes de projeto sejam estruturadas de maneira ligeiramente diferente, a reunião do Comitê de direção nunca deve se tornar apenas outra reunião do Project standup. Considere os objetivos da reunião do Comitê de direcionamento: é sua oportunidade de manter o projeto sob controle ao reunir suporte e direção do patrocinador executivo ou liderança executiva. Certifique-se de que todos contenham essa reunião para que haja mensagens diretas entre a equipe de projeto inteira, o patrocinador executivo ou a liderança executiva, e não há comunicação alguma quando a mensagem for retransmitida.
 
-Ao agendar uma reunião de comissão, leve em consideração o projeto e cadência organizacional. Tente agendá-la semanal ou semanalmente, com base em preferência dos responsáveis sua executivos e o ritmo da sua organização.
+Ao agendar uma reunião de Comitê, leve em consideração o projeto e a cadência organizacional. Tente agendá-lo semanalmente ou a cada semana, com base na preferência dos seus patrocinadores executivos e no ritmo da sua organização.
 
 > [!TIP]
-> Se a sua for um ambiente velozes, não deixe muito tempo passar entre reuniões — que pode causar problemas que poderiam ter sido evitados promovendo reuniões com mais frequência. No entanto, em um ambiente mais lentos individual, fazer uma reunião toda semana pode levar a fadiga de reunião, que pode diminuir a eficácia das comitê de orientação de. Use sua experiência e julgamento para determinar a cadência apropriada e memorize sempre que você pode alterar a agenda. Não atendem apenas para fins de reunião.
+> Se o seu for um ambiente de movimento rápido, não deixe muito tempo passar entre as reuniões, o que pode causar problemas que poderiam ser evitados por reuniões mais frequentes. No entanto, em um ambiente mais lento, manter uma reunião todas as semanas pode levar à reunião do cansativo, o que pode diminuir a eficácia do Comitê de direcionamento. Use sua experiência e Judgement para determinar a cadência apropriada e lembre-se sempre de poder alterar o cronograma. Não se encontre apenas durante a reunião.
 
-### <a name="prepare-for-the-meeting"></a>Preparar para a reunião
+### <a name="prepare-for-the-meeting"></a>Preparar-se para a reunião
 
-Para aproveitar ao máximo de tempo de todos os participantes, você precisará preparar para a reunião. A equipe principal pode começar a preparar o material para a reunião comitê de orientação. [Modelo comitê de orientação – vínculo a amostra de modelo de PPT] comitê de direcionamento de modelo pode ser usado como um ponto de partida para a preparação.
+Para aproveitar ao máximo o tempo de todos, você precisa se preparar para a reunião. A equipe central pode começar a preparar o material para a reunião do Comitê de direcionamento. O modelo de Comitê de direcionamento – link para modelo PPT de exemplo] o modelo de Comitê de direcionamento pode ser usado como ponto de partida para preparação.
 
-Ativos a seguir devem ser concluídos e incluídos no deck de apresentação para a reunião:
+Os seguintes ativos devem ser preenchidos e incluídos no baralho da apresentação para a reunião:
 
--   Acompanhamento de pacientes nos itens de ação anterior comitê de direcionamento
+-   Acompanhamento de itens de ação do Comitê de direcionamento anterior
 
--   Comitê de orientação PowerPoint, o relatório de status de alto nível do projeto
+-   Comitê de direcionamento PowerPoint, relatório de status de alto nível do projeto
 
-    -   Examinar o projeto sempre para cima de uma análise do tipo mensal/trimestral/anualmente.
+    -   Examine o projeto em uma revisão mensal/trimestral/anual – digite.
 
-    -   Identificar marcos principais de projeto:
+    -   Identificar os principais marcos do projeto:
 
-        -   Discuta a importância e impacto das metas (estas devem ser capturadas no registrador riscos).
+        -   Discuta a importância e o impacto dos marcos (eles devem ser capturados no registro de riscos).
 
-        -   Decida sobre passar/não para migrações futuras com base na preparação, particularmente com tomadores de decisão de negócios.
+        -   Decida em ir/não para migrações futuras com base na preparação, especialmente com tomadores de decisões de negócios.
 
-    -   Chame as datas de execução de projetos e atividades de alto impacto.
+    -   Chame as datas de execução do projeto e atividades de alto impacto.
 
-    -   Enviar relatórios sobre os OKRs que foram identificados como importante comitê; Certifique-se de incluir o uso, sentimento de usuário, as métricas de qualidade e confiabilidade.
+    -   Relatório sobre o OKRs que foi identificado como importante para o Comitê; Certifique-se de incluir as métricas de uso, de indisponibilidade do usuário, qualidade e confiabilidade.
 
--   Comitê de orientação PowerPoint, o relatório de status semanal do projeto
+-   Comitê de direcionamento PowerPoint, relatório de status semanal do projeto
 
-    -   Contém o realce e pontos menos importantes, principais problemas e itens de ação e próximas etapas.
+    -   Contém realce e lowlights, principais problemas e itens de ação e próximas etapas.
 
-    -   Contém detalhes técnicos mais focalizados em questões de rotina e menos nos status geral do projeto.
+    -   Contém mais detalhes técnicos voltados para problemas de dia a dia e menos sobre o status geral do projeto.
 
--   Log de problemas e [riscos registrar](1-envision-define-my-success-cloud-voice.md#define-okrs-ksis-and-risks)
+-   Registro de problemas e registro de [riscos](1-envision-define-my-success-cloud-voice.md#define-okrs-ksis-and-risks)
 
-    -   Compartilhe o status de quaisquer problemas que comissão de está acompanhando.
+    -   Compartilhe o status de todos os problemas que o Comitê está acompanhando.
 
-        -   Esteja preparado para fornecer uma atualização em todos os bugs.
+        -   Prepare-se para fornecer uma atualização em todos e qualquer bug.
 
-    -   Identifique os itens novos que poderiam afetar o sucesso de alcançar os resultados dos negócios.
+    -   Identifique os novos itens que podem afetar o sucesso de obter resultados comerciais.
 
         -   Identifique o impacto no projeto.
 
-        -   Identifique os indivíduos afetados ou unidades de negócios.
+        -   Identifique as pessoas ou as unidades de negócios afetadas.
 
-        -   Identifica as próximas etapas e que tipo de Ajuda pode ser necessário de membros da comissão.
+        -   Identifique as próximas etapas e o que a assistência pode ser necessária para membros do Comitê.
 
--   Visão geral de qualidade: usar os relatórios do [campeão de qualidade](envision-planning-for-service-management-and-quality-complete-guide.md#the-quality-champion-role)
+-   Visão geral da qualidade: usar relatórios do [especialista em qualidade](envision-planning-for-service-management-and-quality-complete-guide.md#the-quality-champion-role)
 
-    -   Prepare-se para explicar os resultados desses relatórios de qualidade aprofundados e inclui recomendações para corrigir qualquer problema observado.
+    -   Esteja preparado para explicar os resultados dos relatórios de qualidade em detalhes e incluir recomendações para corrigir todos os problemas observados.
 
-    -   Ajuste os relatórios de qualidade de cada semana para focalizar as seguintes áreas:
+    -   Ajuste os relatórios de qualidade a cada semana para se concentrar nas seguintes áreas:
 
-        -   Tendências de qualidade geral para a organização
+        -   Tendências gerais de qualidade para a organização
 
-        -   O status de sites de problema conhecido ou enfrentando problemas, para mostrar a direção do site é o cabeçalho e — idealmente — relatar resultados positivos do trabalho de remediação
+        -   O status de sites problemáticos ou sites com problemas conhecidos, para mostrar a direção em que o site está em títulos e, idealmente, relatar resultados positivos do trabalho de correção
 
-        -   O status de qualidade de sites habilitados recentemente com base em andamento do projeto
+        -   O status de qualidade de sites habilitados recentemente com base no andamento do projeto
 
-Em seguida, agende uma chamada para se preparar para a reunião comitê de orientação. Essa chamada deve incluir somente os membros da equipe que são essenciais da equipe de projeto do núcleo, isso pode incluir recursos de rede, da área de trabalho, operações ou outras equipes que possuem itens que serão abordados durante a comissão de reunião. A equipe de projeto principal membros nunca devem ser detectadas desativa guard por qualquer material que você planeja abrangem durante a chamada comitê de orientação.
+Em seguida, agende uma chamada para se preparar para a reunião do Comitê de direcionamento. Essa chamada deve incluir somente os membros da equipe que são críticos da equipe de projeto principal, isso pode incluir recursos de rede, área de trabalho, operações ou outras equipes que tenham itens que serão endereçados durante a reunião do Comitê. Os principais membros da equipe do projeto nunca devem ser capturados por qualquer material que você planeja abordar durante a chamada do Comitê de direção.
 
-Essa chamada preparatórias é uma ótima maneira de sincronizar antes atinge o Comitê de orientação. Também é o tempo para garantir que qualquer abrir itens, discussão qualquer ou reclamações entre a equipe de projeto são trazidas para light. Isso é destinado a ajudar estimular a comunicação abertas e impedir que qualquer pessoa que está sendo desagradavelmente surpreso durante a reunião.
+Essa chamada preparatória é uma ótima maneira de sincronizar antes que o Comitê de direcionamento se cumpra. Também é o momento de garantir que todos os itens abertos, desacordos ou queixass entre a equipe do projeto sejam levados a luz. Isso se destina a ajudar a promover a comunicação aberta e impedir que qualquer pessoa se surpreenda com essa finalidade durante a reunião.
 
-Revisar relatórios daquela semana com a equipe principal e participantes de parceiro e alguma dúvida ou questão de endereços. Trabalhar dentro da equipe para ajustar, adicionar ou remover qualquer conteúdo com base em suas discussões ou concorda pedir esclarecimentos adicionais do Comitê de orientação de. Atribua membros da equipe que apresentarão cada seção, para ajudar a garantir a continuidade e fluxo.
+Revise os relatórios da semana com os principais participantes da equipe e dos parceiros e atenda a qualquer dúvida ou dúvida. Trabalhe na equipe para ajustar, adicionar ou remover qualquer conteúdo com base em suas discussões ou concordar em pedir esclarecimento adicional do Comitê de direcionamento. Atribua os membros da equipe que irão apresentar cada seção para ajudar a garantir o fluxo e a continuidade.
 
-### <a name="hold-the-meeting"></a>Mantenha a reunião 
+### <a name="hold-the-meeting"></a>Segure a reunião 
 
-A reunião propriamente dita deve ser uma continuação natural do trabalho de preparação da equipe principal tem feito. Lembre-se de que o objetivo dessas reuniões é estimular uma atmosfera de comunicação e colaboração para atingir a visão do projeto. Use as seguintes sugestões para ajudar a garantir o êxito das reuniões:
+A reunião em si deve ser uma continuação natural do trabalho Prep que a equipe principal fez. Lembre-se de que o objetivo dessas reuniões é estimular uma atmosfera de comunicação e colaboração para obter a visão do projeto. Use as sugestões a seguir para ajudar a garantir o sucesso das reuniões:
 
-1.  Agende a reunião seja para encarar. Identifica uma sala de conferência com uma tabela que é grande o suficiente para que todos sit ao redor. Certifique-se de que a sala de reunião tem recursos de vídeo. Embora seria ideal para que todos na sala, nem sempre é possível, portanto, verifique a reunião convite inclui a sala de conferência e as informações da reunião online com áudio pelo menos — mas, de modo ideal, áudio, vídeo e compartilhamento. Incentive a todos os participantes remotos usar vídeo quando eles entrarem na reunião.
+1.  Agende a reunião para a cara. Identifique uma sala de conferência com uma tabela grande o suficiente para que todos possam se sentar. Verifique se a sala de reunião tem recursos de vídeo. Embora seja ideal ter todos na sala, nem sempre é possível, portanto, certifique-se de que o convite da reunião inclua a sala de conferência e as informações da reunião online com pelo menos áudio, mas, idealmente, áudio, vídeo e compartilhamento. Incentive todos os participantes remotos a usarem vídeo quando entrarem na reunião.
 
-2.  Tente manter à agenda, embora, sem dúvida, surgirá distrações que precisam ser atendidas. Se possível (dependendo de sua importância), adicione esses itens a uma seção de "estacionamento" e abordá-los mais tarde. Se o tópico é muito importante para adiar, obter contrato para continuar analisá-lo, mas perceber que você precisará mover alguns outros itens de agenda para futuras reuniões. Reserve algum tempo (cinco a dez minutos) para lidar com os itens pressionando que precisam de atenção imediata da comissão de concorda.
+2.  Tente manter-se à agenda, embora não seja possível que haja distrações de dúvida que precisem ser abordadas. Se possível (dependendo da importância), adicione esses itens a uma seção de "lote de estacionamento" e o atenda mais tarde. Se o tópico for muito importante para adiar, obtenha o contrato para continuar discutindo-lo, mas saiba que você precisará mover alguns outros itens da agenda para reuniões futuras. Concorde em reservar algum tempo (de cinco a dez minutos) para lidar com os itens que forem pressionados, que precisam da atenção imediata do Comitê.
 
-3.  Prepare-se discutir qualquer casos de suporte abertos. Tente manter a discussão como alto nível possível para esta reunião — número de tíquetes, tipos de tíquetes, abrir itens principais. Você deve estar preparado para solucionar todos os problemas, mesmo se elas forem secundárias, entender o impacto para os negócios e efeitos no projeto
+3.  Prepare-se para discutir quaisquer casos de suporte abertos. Tente manter a discussão no nível mais alto possível para esta reunião – número de permissões, tipos de tíquetes, principais itens abertos. Você deve estar preparado para solucionar todos os problemas, mesmo se eles forem secundários, entender o impacto sobre os negócios e os efeitos no projeto
 
-4.  Delega um secretário. É muito difícil tomar notas durante a apresentação ou no meio de um debate aquecido. Certifique-se de que os detalhes estão documentadas para qualquer decisões que são feitas na comissão de. Prepare-se enviar essas decisões e notas de check-out como parte de um email de acompanhamento.
+4.  Delegue um secretário. É muito difícil fazer anotações enquanto você estiver fazendo uma apresentação ou no meio de um debate aquecido. Certifique-se de que os detalhes estejam documentados para as decisões que são feitas no Comitê. Esteja preparado para enviar essas decisões e anotações como parte de um email de acompanhamento.
 
-5.  Sempre tente promover as notícias positivas sobre comentários de usuário e o esforço de trabalho das pessoas (se disponível). Diga e vender a história. Se os comentários são totalmente negativo, estar preparado para discutir isso e explicam o que está sendo feito para resolver os problemas de experiência do usuário negativo.
+5.  Tente sempre promover a notícia positiva sobre o esforço de trabalho e os comentários dos usuários de pessoas (se disponíveis). Solicite e venda a história. Se os comentários forem totalmente negativos, prepare-se para discuti-lo e explicar o que está sendo feito para solucionar problemas de experiência de usuário negativos.
 
-    a.  Aproveite a oportunidade para dar Parabéns aos membros da equipe individuais para o bom trabalho fazem. É importante reconhecer quando um trabalho excelente, disco rígido está sendo obtido pelos membros da equipe, especialmente na frente de sua equipe de liderança.
+    a.  Aproveite a oportunidade para dar ao Parabéns a membros individuais da equipe o bom trabalho que estão fazendo. É importante reconhecer quando excelente, o trabalho árduo está sendo realizado pelos membros da equipe, especialmente na frente da equipe de liderança.
 
-6.  Sempre salve o término da reunião concorda em qualquer próximas etapas e identificar o proprietário desses itens de ação que foram combinados durante a reunião.
+6.  Sempre salve o final da reunião para concordar com as próximas etapas e identifique o proprietário dos itens de ação acordados durante a reunião.
 
-7.  Enviar email para acompanhamento que inclui a apresentação que você criou de participantes e acrescente quaisquer anotações feitas. Certifique-se de incluir qualquer pessoa que não participar.
+7.  Envie um email de acompanhamento dos participantes que inclua a apresentação que você criou e acrescente as anotações que foram feitas. Não se esqueça de incluir qualquer pessoa que não participou.
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Após revisar a visão geral da comissão de direcionamento, agora é hora de agir. A equipe de projeto deve começar seus trabalhos para implementar o Comitê de orientação para o cronograma do projeto e preparar uma cadência regular comitê de orientação da reunião. Idealmente, comissão de será formado antes que o projeto começa e oferecem orientação em todas as suas fases, mas se que não pode ser o caso, o comitê para orientar a equipe de projeto para um resultado bem-sucedido de formulário.
+Depois de analisar a visão geral do Comitê de direcionamento, agora é hora de agir. A equipe do projeto deve começar o trabalho para implementar o Comitê de direcionamento na linha do tempo do projeto e preparar uma cadência de reunião do Comitê de direcionamento regular. O ideal é que o Comitê seja elaborado antes que o projeto comece e forneça orientações em todas as suas fases, mas se isso não for o caso, acesse o Comitê para orientar a equipe do projeto a um resultado bem-sucedido.
 
-1.  Identifica membros comitê de orientação. Pergunte a si mesmo:
+1.  Identifique os membros do Comitê de direcionamento. Peça vocês:
 
-    -   Temos a representação correta dos negócios e liderança?
+    -   Temos a representação certa dos negócios e da liderança?
 
-    -   São os membros que podemos identificados capazes de influenciar suas unidades de negócios ou os colegas em outras unidades?
+    -   Os membros que identificamos podem influenciar suas unidades de negócios ou pares em outras unidades?
 
-2.  Crie uma comunicação envie a cada membro do Comitê de orientação de:
+2.  Crie uma comunicação para enviar a cada membro do Comitê de direcionamento:
 
-    -   Inclua a tabela de funções.
+    -   Inclua a tabela Roles.
 
-    -   Venda a importância da comissão de.
+    -   Venda a importância do Comitê.
 
-3.  Configure a primeira reunião para discutir as funções e responsabilidades, definir o compromisso da comissão de e validar ou definir os OKRs. Também podem incluir itens da agenda:
+3.  Configure a primeira reunião para discutir funções e responsabilidades, definir o compromisso do Comitê e validar ou definir o OKRs. Itens de pauta também podem incluir:
 
-    -   Discuta a cadência da reunião.
+    -   Discutir a cadência da reunião.
 
-    -   Valide que o compromisso e OKRs estão orientando em direção a um resultado de negócios significativas.
+    -   Valide se a OKRs e o compromisso estão direcionando para um resultado comercial significativo.
 
-    -   Verifique se a estratégia é em alinhamento com OKRs.
+    -   Verifique se a estratégia está alinhada com o OKRs.
 
-4.  Inicie a dirigir qualidade em cada conversa:
+4.  Comece a direcionar a qualidade em cada conversa:
 
-    -   Descrever a importância de ter um campeão de qualidade.
+    -   Articular a importância de ter um especialista em qualidade.
 
-    -   Identifique as pessoas ou a equipe que levará na função campeão de qualidade.
+    -   Identifique as pessoas ou a equipe que tomará a função de especialista em qualidade.
 
-Comitê de direcionamento de sucesso não acontece por sorte. Escolhendo os membros direita, com os melhores recursos de intenção, pode ainda gerar resultados ruins. Para ajudar a orientar o sucesso da comissão de direcionamento, você precisará garantir que você tem o seguinte:
+O direcionamento do sucesso do comitê não acontece com sorte. Escolher os membros certos, com o melhor de intenções, ainda pode produzir resultados ruins. Para ajudar a orientar o sucesso do Comitê de direcionamento, você precisa ter certeza de que tem o seguinte:
 
--   Um concordou em visão e o escopo para o projeto com os resultados de negócios mensuráveis bem definida comissão de vai ser defendendo.
+-   Uma visão e um escopo acordados para o projeto com resultados comerciais bem definidos e mensuráveis que o Comitê afetará.
 
--   Uma agenda bem organizada que direciona intencionais reuniões.
+-   Uma agenda bem organizada que impulsiona reuniões intencionais.
 
--   Uma atmosfera de comunicações abertas.
+-   Uma atmosfera de comunicação aberta.
 
-    -   Colaboração e comunicação abertas serão capacitar comissão de. Crie um ambiente onde todas as vozes forem ouvidos e opiniões são respeitadas. Perspectivas exclusivas podem ter um impacto maior.
+    -   A comunicação aberta e a colaboração capacitarão o Comitê. Crie um ambiente no qual todas as vozes são ouvidos e as opiniões são respeitadas. Perspectivas exclusivas podem ter o maior impacto.
 
-    -   Um ambiente aberto pode ser habilitado quando liderança atua para promover a comunicação e colaboração do membro. Aqui estão algumas diretrizes:
+    -   Um ambiente aberto pode ser habilitado quando a liderança age para promover a colaboração e a comunicação entre membros. Aqui estão algumas diretrizes:
 
-        -   Todos os membros da comissão devem ser fortes defensores para que a alteração que está sendo apresentado na organização.
+        -   Todos os membros dos comitês devem ser defensores fortes para a alteração que está sendo introduzida na organização.
 
-        -   Mantenha o tamanho de comissão limitado para aqueles que absolutamente necessários para fornecer uma imagem precisa e aqueles que pode fazer ou influenciam as decisões em unidades de negócios. Noções básicas sobre a hierarquia da organização e a linha direta de cada membro de influência será crucial quando bloqueadores aparecem.
+        -   Mantenha o tamanho do Comitê limitado àqueles que sejam absolutamente necessários para fornecer uma imagem precisa e aqueles que podem tomar ou influenciar decisões nas unidades de negócios. Entender a hierarquia da organização e a linha direta de influência de cada membro serão cruciais quando os bloqueadores forem exibidos.
 
-        -   Envolva os gerentes de projeto e os líderes de equipe em deliberações e discussões comitê. Prepare-se de convidar os membros da equipe principal adicionais para trazer clareza para discussões aprofundadas que podem ser necessários em áreas específicas.
+        -   Envolver os gerentes de projeto e os líderes de equipe em discussões e relibertaçãos de comitê. Esteja pronto para convidar membros de equipe principais adicionais a fim de dar clareza a discussões detalhadas que possam ser necessárias em áreas específicas.
 
-Sobre o ciclo de vida da solução a função da comissão de será alterado. Medida envisioning e inclusão passa para a fase de valor de unidade vários ajustes podem ser necessários para comissão de:
+Durante o ciclo de vida da solução, a função do Comitê mudará. À medida que a concepção e a integração se movimentam na fase de valor de drive, vários ajustes podem ser necessários para o Comitê:
 
--   Ajuste a cadência da reunião. Examine a dinâmica da organização e determinar se a reunião precisa acontecer com menos frequência. Como a alteração organizacional começa a diminuído provavelmente reduzirá a frequência para comunicação do nível. Investigar a alteração da reunião para uma cadência mensal ou trimestral reunião se apropriado
+-   Ajustar a cadência da reunião. Examine a dinâmica da organização e determine se a reunião precisa ser executada com menos frequência. À medida que a alteração organizacional começa a Dwindle, provavelmente será reduzida a frequência de comunicação de nível superior. Investigue alterar a reunião para uma reunião mensal ou trimestral de uma reunião, se adequado
 
--   Ajuste os representantes na reunião. Como a solução é movido para a fase de valor de unidade é provável que a equipe de projeto principal será reatribuída para novos projetos. Será necessário atualizar a equipe que está relatando como suporte e operações se tornará os líderes no status da solução.
+-   Ajustar os representantes na reunião. Como a solução se move para a fase de valor da unidade, é provável que a equipe do projeto principal seja reatribuída a novos projetos. Será necessário atualizar a equipe que está sendo reportada como suporte e as operações se tornarão os clientes potenciais do status da solução.
 
--   Definição e relatar contra OKRs operacionais. Principais resultados e os indicadores de sucesso serão alterados durante o ciclo de vida da solução. Os resultados comerciais desejados devem continuar a ser controlados e relatados. Continue a enviar relatórios sobre a qualidade e a confiabilidade da solução de voz no contexto de dirigir rumo o resultado de negócios. Métricas adicionais e chave resulta, como, sentimento de usuário, adoção dos usuários e as métricas de suporte se tornará os principais indicadores de sucesso.
+-   Definição e relatórios sobre a OKRs operacional. Os principais resultados e os indicadores de sucesso serão alterados no ciclo de vida da solução. Os resultados comerciais desejados devem continuar a ser rastreados e relatados. Continue a relatar a qualidade e a confiabilidade da solução de voz no contexto de dirigir-se ao resultado dos negócios. Métricas adicionais e resultados de chave, como, por exemplo, a insatisfação do usuário, a adoção do usuário e métricas de suporte se tornarão os principais indicadores de sucesso.
 
--   Use um maior abrangente de comitê de orientação para cobrir as fases de valor de unidade de várias soluções. Procure oportunidades de usar com mais eficiência o Comitê de orientação. Use o comitê para fornecer orientação entre uma esfera maior de soluções.
+-   Use um Comitê de direcionamento maior para cobrir as fases do valor da unidade de várias soluções. Procure oportunidades para usar o Comitê de direcionamento com mais eficiência. Use o Comitê para fornecer orientação em uma esfera maior de soluções.

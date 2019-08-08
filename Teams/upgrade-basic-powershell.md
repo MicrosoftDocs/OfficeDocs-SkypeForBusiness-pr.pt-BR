@@ -1,40 +1,41 @@
 ---
-title: PowerShell básica de atualização | As equipes da Microsoft | Política de interoperabilidade de atualização de Grant
+title: Atualização básica do PowerShell | Microsoft Teams | Conceder política de interoperabilidade de atualização
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
-description: Provisórias para atualizar para equipes se o Admin Center ainda não aceso no seu locatário
+description: Stopgap para a atualização para o Microsoft Teams se o centro de administração ainda não estiver aceso em seu locatário
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 281938456c4fca695b2254e7cf6e50078bb32c80
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 945422f6bb61fca8d2b17379a7c9bf4695e7dd09
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920428"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236536"
 ---
-# <a name="upgrading-your-users-from-skype-for-business-online-to-microsoft-teams"></a>Atualizar seus usuários do Skype para Business Online para o Microsoft Teams
+# <a name="upgrading-your-users-from-skype-for-business-online-to-microsoft-teams"></a>Atualizando seus usuários do Skype for Business online para o Microsoft Teams
 
 > [!Note]
-> Os comandos descritos neste artigo foram criados para ser usado como parte da lista de verificação [Atualizar básica](https://aka.ms/UpgradeBasic) .
+> Os comandos descritos neste artigo foram projetados para serem usados como parte da lista de verificação de [atualização básica](https://aka.ms/UpgradeBasic) .
 
-Os aspectos da migração técnico da sua atualização implicam notificar os usuários que Skype para negócios será atualizar para equipes e depois movê-los para um modo de **equipes apenas** . Essas etapas podem ser realizadas por meio de um Skype para a sessão do Windows PowerShell remoto de negócios ou por meio do Centro de administração do Microsoft Teams.
+Os aspectos da migração técnica de sua atualização envolvem a notificação de seus usuários que o Skype for Business será atualizado para o Microsoft Teams e, em seguida, movendo-os para um modo **somente para equipes** . Essas etapas podem ser realizadas por meio de uma sessão remota do Windows PowerShell do Skype for Business ou por meio do centro de administração do Microsoft Teams.
 
-Podemos ativamente está implantando ferramentas no [Centro de administração do Microsoft equipes](manage-teams-skypeforbusiness-admin-center.md)de atualização e ela deverá estar disponível em breve no seu locatário. Assim que estiver disponível, você pode encontrar informações sobre como migrar os usuários na [sua coexistência de configuração e as configurações de atualização](https://aka.ms/SkypeToTeams-SetCoexistence).
+Estamos lançando ativamente a ferramenta de atualização no [centro de administração do Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)e ele deve estar disponível em breve no seu locatário. Assim que estiver disponível, você poderá encontrar informações sobre como migrar seus usuários para [definir suas configurações de coexistência e atualização](https://aka.ms/SkypeToTeams-SetCoexistence).
 
-Se você estiver pronto para atualizar hoje, você pode usar os comandos do [PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell) listados na tabela a seguir.
+Se estiver pronto para atualizar hoje, você pode usar os comandos do [PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell) listados na tabela a seguir.
 
-| Etapa de atualização básica # | Modo | Comando do PowerShell |
+| Etapa básica de atualização # | Modo | Comando do PowerShell |
 |---|---|---|
-| [5](upgrade-basic.md#step-5) | Ilhas + notificar o Skype para o usuário de negócios<br>(Use esse comando se os usuários estão atualmente no modo **Ilhas** (padrão)) | ```Grant-CsTeamsUpgradePolicy -PolicyName IslandsWithNotify -Identity $SipAddress```<br>*(por exemplo, $SipAddress = 'TestUser@contoso.com')*<br><br>```Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingDefaultChatDefault -Identity $SipAddress``` |
-| [5](upgrade-basic.md#step-5) | Skype para negócios apenas + notificar o Skype para o usuário de negócios <br>(Use esse comando se os usuários estão atualmente no modo de **Skype para negócios somente** ) | ```Grant-CsTeamsUpgradePolicy -PolicyName SfBOnlyWithNotify -Identity $SipAddress``` <br><br>```Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingSfBChatSfB -Identity $SipAddress``` |
-| [7](upgrade-basic.md#step-7) | Somente as equipes | ```Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $SipAddress``` <br><br>```Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingTeamsChatTeams -Identity $SipAddress``` |
+| [5](upgrade-basic.md#step-5) | Ilhas + notifique o usuário do Skype for Business<br>(Use este comando se os usuários estiverem no modo de ilhas no modo de **ilhas** (padrão)) | ```Grant-CsTeamsUpgradePolicy -PolicyName IslandsWithNotify -Identity $SipAddress```<br>*(por exemplo, $SipAddress = ' TestUser@contoso.com ')*<br><br>```Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingDefaultChatDefault -Identity $SipAddress``` |
+| [5](upgrade-basic.md#step-5) | Skype para empresas apenas + notifique o usuário do Skype for Business <br>(Use este comando se os usuários estiverem no modo **somente Skype for Business** .) | ```Grant-CsTeamsUpgradePolicy -PolicyName SfBOnlyWithNotify -Identity $SipAddress``` <br><br>```Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingSfBChatSfB -Identity $SipAddress``` |
+| [7](upgrade-basic.md#step-7) | Somente equipes | ```Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $SipAddress``` <br><br>```Grant-CsTeamsInteropPolicy -PolicyName DisallowOverrideCallingTeamsChatTeams -Identity $SipAddress``` |

@@ -1,31 +1,32 @@
 ---
 title: Ferramentas e downloads para adoção
 ms.reviewer: karuanag
-description: Use estes recursos de adoção para ajudá-lo a adoção da Microsoft Teams e outros serviços do Office 365.
+description: Use esses recursos de adoção para ajudá-lo a conduzir a adoção do Microsoft Teams e outros serviços do Office 365.
 ms.topic: landing-page
 author: kenwith
 ms.author: kenwith
 manager: serdars
 layout: LandingPage
 ms.date: 11/20/2018
+audience: admin
 ms.service: msteams
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b32ef752923beeb2d38dfc25443a7d3a9ad4d195
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 211ea38343c2bb62a8dec479c62a2c8c4d1ace9d
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902844"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236649"
 ---
-# <a name="tools-for-driving-adoption"></a>Ferramentas para orientando a adoção 
+# <a name="tools-for-driving-adoption"></a>Ferramentas para conduzir a adoção 
 
-Use as ferramentas abaixo para oferecer suporte a cada fase do seu plano de adoção de serviço.  
+Use as ferramentas abaixo para dar suporte a cada fase do seu plano de adoção de serviço.  
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -41,7 +42,7 @@ Use as ferramentas abaixo para oferecer suporte a cada fase do seu plano de ado�
                     </div>
                     <div class="cardText">
                         <h3>Planos de projeto de adoção</h3>
-                        <p>JumpStart seu planejamento com nossos arquivos de plano de adoção</p>
+                        <p>Iniciar o seu planejamento com nossos arquivos de plano de adoção</p>
                     </div>
                 </div>
             </div>
@@ -60,8 +61,8 @@ Use as ferramentas abaixo para oferecer suporte a cada fase do seu plano de ado�
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Estilos de trabalho e personagens de exemplo</h3>
-                        <p>Use estes modelos para mapear o que é importante aos seus funcionários<p>
+                        <h3>Exemplo de pessoas e estilos de trabalho</h3>
+                        <p>Use esses modelos para mapear o que é importante para seus funcionários<p>
                     </div>
                 </div>
             </div>
@@ -80,7 +81,7 @@ Use as ferramentas abaixo para oferecer suporte a cada fase do seu plano de ado�
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Use esse modelo para atribuir os fluxos de trabalho para membros da equipe de chave e se comunicar com os participantes</h3>
+                        <h3>Use este modelo para atribuir fluxos aos principais membros da equipe e se comunicar com os interessados</h3>
                     </div>
                 </div>
             </div>
@@ -99,7 +100,7 @@ Use as ferramentas abaixo para oferecer suporte a cada fase do seu plano de ado�
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Inspirar seus funcionários com essas dia no quicksheets a vida</h3>
+                        <h3>Inspirar seus funcionários com este dia na vida QuickSheets</h3>
                     </div>
                 </div>
             </div>
@@ -117,7 +118,7 @@ Use as ferramentas abaixo para oferecer suporte a cada fase do seu plano de ado�
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Recursos de vídeos incorporáveis para campeões e profissionais de TI</h3>
+                        <h3>Recursos de vídeo incorporáveis para campeões e ITPros</h3>
                     </div>
                 </div>
             </div>
@@ -136,7 +137,7 @@ Use as ferramentas abaixo para oferecer suporte a cada fase do seu plano de ado�
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Preparar a assistência técnica for Microsoft Teams</h3>
+                        <h3>Preparar a assistência técnica para o Microsoft Teams</h3>
                     </div>
                 </div>
             </div>
@@ -146,10 +147,10 @@ Use as ferramentas abaixo para oferecer suporte a cada fase do seu plano de ado�
 
 
 ### <a name="office-365-champions-program"></a>Programa de campeões do Office 365
-O programa de campeões do Office 365 é um programa gratuito que ajuda as pessoas que desejam aproveitar ao máximo Teams da Microsoft e outros serviços do Office 365. Combinamos nossa comunidade online na [Comunidade técnica do Microsoft](https://aka.ms/DriveAdoption) com chamadas de comunidade mensal que destacar todos os componentes de impulsionar a adoção de governança para práticas recomendadas para novos recursos. Ingressar em nossa comunidade em https://aka.ms/O365Champions e obter acesso a liberação antecipada, ouvir de outros clientes e aprender com especialistas da Microsoft.  
+O programa campeões do Office 365 é um programa gratuito que ajuda as pessoas que desejam aproveitar ao máximo o Microsoft Teams e outros serviços do Office 365. Nós combinamos nossa comunidade online na [comunidade técnica da Microsoft](https://aka.ms/DriveAdoption) com chamadas de comunidade mensais que destacam todos os componentes de impulsionação da adoção do controle às práticas recomendadas para novos recursos. Junte-se à https://aka.ms/O365Champions nossa comunidade e obtenha acesso ao lançamento antecipado, ouça de outros clientes e aprenda com especialistas da Microsoft.  
 
-### <a name="teams-adoption-guide"></a>Guia de adoção de equipes
-Check-out do [quadro de adoção de equipes](https://aka.ms/teamstoolkit), um guia on-line que ajudarão você a implantar as equipes de sua empresa. Ele inclui várias ferramentas para download, modelos e outros recursos para ajudá-lo ao longo do percurso da adoção suas equipes.
+### <a name="teams-adoption-guide"></a>Guia de adoção do teams
+Confira a [adoção do teams quadro a quadro](https://aka.ms/teamstoolkit), um guia online que ajudará você a implantar equipes em sua empresa. Ele inclui muitas ferramentas, modelos e outros recursos disponíveis para download, além de outros recursos para ajudá-lo na jornada de adoção do seu Teams.
 
-### <a name="teams-customer-success-kit"></a>Kit de sucesso do cliente de equipes
-O [Kit de sucesso do cliente de equipes](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) fornece ferramentas para ajudá-lo a implantar as equipes de sua organização. Ela inclui os modelos de email para comunicados, cartazes panfletos, contagem regressiva e dicas & truques. Ele também inclui guias de Introdução para líderes de equipe e os administradores de TI.
+### <a name="teams-customer-success-kit"></a>Kit de sucesso do cliente do teams
+O [Kit de sucesso do cliente](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) do teams fornece ferramentas para ajudá-lo a implantar equipes em sua organização. Inclui modelos de email para anúncios, cartazes, contagem regressiva e dicas & truques. Ele também inclui guias de introdução para líderes da equipe e administradores de ti.

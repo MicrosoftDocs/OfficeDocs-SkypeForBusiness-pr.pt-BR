@@ -5,18 +5,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
 description: 'Resumo: criar um pool de servidores Interop de vídeo no Skype for Business Server usando o construtor de topologias.'
-ms.openlocfilehash: 3e01659c4cef268a8748bd14c658eb5168b3ac97
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: dc97fde4447778be20cb60d86cddac65b663c321
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302725"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235657"
 ---
 # <a name="create-a-vis-pool-in-skype-for-business-server"></a>Criar um pool de VIS no Skype for Business Server
  

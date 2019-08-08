@@ -5,21 +5,22 @@ ms.author: lolaj
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 ms.reviewer: srividhc
 description: A interoperabilidade de vídeo em nuvem permite que dispositivos de sala de reunião de terceiros ingressem em reuniões do Microsoft Teams.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eed6c2d1e876e9c04e32c82c8119d7dbd4483692
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 4d37acef498abfd0ed3e9125529abef38f737406
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34549015"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237066"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interoperabilidade de vídeo na nuvem para o Microsoft Teams
 
@@ -47,9 +48,9 @@ Os parceiros a seguir têm soluções de interoperabilidade de vídeo para Micro
 
 |Sócio|Solução de parceiros|
 |----|---|
-|![O logotipo para Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Serviço de RealConnect Polycom</a> |
-|![O logotipo para Pexip infinito](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip infinito para Microsoft Teams</a> | 
-|![O logotipo do BlueJeans gateway](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">BlueJeans gateway para Microsoft Teams</a> |
+|![O logotipo que representa Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Serviço de RealConnect Polycom</a> |
+|![O logotipo que representa o infinito Pexip](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip infinito para Microsoft Teams</a> | 
+|![O logotipo que representa o gateway BlueJeans](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">BlueJeans gateway para Microsoft Teams</a> |
 
 ### <a name="cloud-video-interop-overview"></a>Visão geral da interoperabilidade em nuvem
 

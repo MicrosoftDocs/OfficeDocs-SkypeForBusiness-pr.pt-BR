@@ -7,75 +7,76 @@ ms.date: 2/17/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: Implemente o Quality of Service (QoS) para clientes do Microsoft Teams.
+audience: admin
+description: Implementar a QoS (qualidade de serviço) para clientes do Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 101deb10cf3d86dbc97116cad269556683d03be4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 91b761cafa15172ae3fb0126f5059408e1a5f7ca
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32194690"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36246191"
 ---
 # <a name="set-qos-on-windows-clients"></a>Definir o QoS em clientes do Windows
 
-Você pode usar a QoS baseada em diretivas dentro da diretiva de grupo para definir o intervalo de porta de origem para o valor DSCP predefinido no cliente equipes. Os intervalos de porta especificados na tabela a seguir são um ponto de partida para criar uma política para cada carga de trabalho.
+Você pode usar a QoS baseada em política dentro da política de grupo para definir o intervalo de porta de origem para o valor DSCP predefinido no cliente do teams. Os intervalos de porta especificados na tabela a seguir são um ponto de partida para criar uma política para cada carga de trabalho.
 
-_Recomendado de intervalos de porta inicial_
+_Intervalos de portas iniciais recomendados_
 
 Tipo de tráfego de mídia| Intervalo de porta de origem do cliente |Protocolo|Valor de DSCP|Classe DSCP|
 |:--- |:--- |:--- |:--- |:--- |
-|Áudio| 50.000 – 50,019|TCP/UDP|46|Expedited Forwarding (EF)|
-|Vídeo| 50,020 – 50,039|TCP/UDP|34|Assured Forwarding (AF41)|
-|Compartilhamento de tela do aplicativo| 50,040 – 50,059|TCP/UDP|18|Assured Forwarding (AF21)|
+|Áudio| 50000 – 50019|TCP/UDP|46|Expedited Forwarding (EF)|
+|Vídeo| 50,020–50,039|TCP/UDP|34|Assured Forwarding (AF41)|
+|Compartilhamento de tela/aplicativo| 50,040–50,059|TCP/UDP|dezoito|Encaminhamento garantido (AF21)|
 | | | | |
 
-Sempre que possível, configure as configurações de QoS baseada em diretivas dentro de um objeto de diretiva de grupo. As etapas a seguir serão bastante similares às [Configurando intervalos de porta e uma política de qualidade de serviço para seus clientes em Skype para Business Server](https://docs.microsoft.com/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10), que tem alguns detalhes adicionais que talvez não seja necessários.
+Sempre que possível, configure as configurações de QoS baseadas em políticas em um objeto de política de grupo. As etapas a seguir são muito parecidas com a [configuração de intervalos de porta e uma política de qualidade de serviço para seus clientes no Skype for Business Server](https://docs.microsoft.com/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10), que tem alguns detalhes adicionais que podem não ser necessários.
 
-Para criar uma política de QoS de áudio para computadores associados a um domínio do Windows 10, primeiro faça logon em um computador no qual o gerenciamento de diretiva de grupo tenha sido instalado. Abra Gerenciamento de diretiva de grupo (clique em Iniciar, aponte para ferramentas administrativas e clique em gerenciamento de diretiva de grupo) e, em seguida, conclua as seguintes etapas:
+Para criar uma política de áudio QoS para computadores Windows 10 associados a um domínio, primeiro faça logon em um computador no qual o gerenciamento de política de grupo foi instalado. Abra gerenciamento de política de grupo (clique em Iniciar, aponte para ferramentas administrativas e clique em gerenciamento de política de grupo) e conclua as seguintes etapas:
 
-1. Em gerenciamento de diretiva de grupo, localize o contêiner onde a nova diretiva deve ser criada. Por exemplo, se todos os computadores cliente estão localizados em uma unidade Organizacional denominada **clientes**, a nova diretiva deve ser criada na unidade Organizacional cliente.
+1. No gerenciamento de política de grupo, localize o contêiner em que a nova política deve ser criada. Por exemplo, se todos os seus computadores cliente estiverem localizados em uma UO chamada **clientes**, a nova política deve ser criada na UO do cliente.
 
-2. Com o botão direito do contêiner apropriado e clique em **criar um GPO neste domínio e vinculá-lo aqui**.
+2. Clique com o botão direito do mouse no contêiner apropriado e, em seguida, clique em **criar um GPO neste domínio e vincule-o aqui**.
 
-3. Na caixa de diálogo **Novo GPO** , digite um nome para o novo objeto de diretiva de grupo na caixa **nome** e clique em **Okey**.
+3. Na caixa de diálogo **novo GPO** , digite um nome para o novo objeto de política de grupo na caixa **nome** e clique em **OK**.
 
-4. Clique com o botão a política recém-criada e clique em **Editar**.
+4. Clique com o botão direito do mouse na política recém-criada e, em seguida, clique em **Editar**.
 
-5. No Editor de gerenciamento de diretiva de grupo, expanda **Configuração do computador**, expanda **Configurações do Windows**, do mouse em **QoS baseada em política**e clique em **Criar nova política**.
+5. No editor de gerenciamento de política de grupo, expanda **configuração do computador**, expanda **configurações do Windows**, clique com o botão direito do mouse em **QoS baseado em política**e clique em **criar nova política**.
 
-6. Na caixa de diálogo **QoS baseada em política** , na página de abertura, digite um nome para a nova política na caixa **nome** . Selecione **Especificar valor de DSCP** e defina o valor para **46**. Deixe **Especificar taxa de aceleração saída** desmarcada e clique em **Avançar**.
+6. Na caixa de diálogo **QoS baseada em política** , na página de abertura, digite um nome para a nova política na caixa **nome** . Selecione **especificar valor DSCP** e defina o valor como **46**. Deixe **especificar a taxa** de aceleração de saída desmarcada e clique em **Avançar**.
 
-7. Na próxima página, selecione **apenas a aplicativos com este nome executável** e insira o nome **Teams.exe**e clique em **Avançar**. Essa configuração instrui a política priorizar apenas o tráfego do cliente equipes correspondente.
+7. Na próxima página, selecione **apenas aplicativos com esse nome executável** e insira o nome **Teams. exe**e clique em **Avançar**. Essa configuração instrui a política a priorizar somente o tráfego de correspondência do cliente do teams.
 
-8. Na terceira página, certifique-se de que **qualquer endereço IP de origem** e de **qualquer endereço IP de destino** estão marcada e clique em **Avançar**. Estas duas configurações Certifique-se de que os pacotes serão gerenciados independentemente do computador (endereço IP) enviadas os pacotes e qual computador (endereço IP) receberá os pacotes.
+8. Na terceira página, verifique se **qualquer endereço IP de origem** e **qualquer endereço IP de destino** estão selecionados e clique em **Avançar**. Essas duas configurações garantem que os pacotes serão gerenciados independentemente de qual computador (endereço IP) enviou os pacotes e qual computador (endereço IP) receberá os pacotes.
 
-9. Na página quatro, selecione **TCP e UDP** da lista suspensa **, selecione o protocolo que essa política de QoS se aplica** . TCP (Transmission Control Protocol) e UDP (User Datagram Protocol) são os dois protocolos de rede mais comumente usados.
+9. Na página quatro, selecione **TCP e UDP** na lista suspensa **Selecione o protocolo ao qual esta política de QoS se aplica** . TCP (Transmission Control Protocol) e UDP (User Datagram Protocol) são os dois protocolos de rede mais comumente usados.
 
-10. Sob o título, **Especifique o número da porta de origem**, selecione **este ou intervalo de porta de origem**. Na caixa de texto que o acompanha, digite o intervalo de portas reservado para transmissões de áudio. Por exemplo, se você reservadas portas 50000 através de portas 50019 para tráfego de áudio, insira o intervalo de portas usando este formato: **50000:50019**. Clique em **Concluir**.
+10. Em título, **especifique o número da porta de origem**, selecione uma **destas portas de origem ou intervalo**. Na caixa de texto acompanhada, digite o intervalo de porta reservado para transmissões de áudio. Por exemplo, se você reservou portas 50000 pelas portas 50019 para tráfego de áudio, insira o intervalo de porta usando este formato: **50000:50019**. Clique em **Concluir**.
 
-11. Repita as etapas 5 a 10 para criar políticas para vídeo e compartilhamento de aplicativo/área de trabalho, substituindo os valores apropriados nas etapas 6 e 10.
+11. Repita as etapas 5-10 para criar políticas para compartilhamento de aplicativos/aplicativos e vídeo, substituindo os valores apropriados nas etapas 6 e 10.
 
-As novas políticas que você criou não terão efeito até que a diretiva de grupo tenha sido atualizada em seus computadores cliente. Embora a diretiva de grupo for atualizada periodicamente por si só, você pode forçar uma atualização imediata, seguindo estas etapas:
+As novas políticas que você criou não entrarão em vigor até que a política de grupo seja atualizada em seus computadores cliente. Embora a política de grupo seja atualizada periodicamente por conta própria, você pode forçar uma atualização imediata seguindo estas etapas:
 
-1. Em cada computador para o qual você deseja atualizar a diretiva de grupo, abra um console de comando. Certifique-se de que o console de comando está definido para executar como administrador.
+1. Em cada computador para o qual você deseja atualizar a política de grupo, abra um console de comando. Verifique se o console de comando está definido como executar como administrador.
 
-2. No prompt de comando, digite:
+2. No prompt de comando, insira
 
    ``` powershell
     gpupdate.exe /force
    ```
 
-## <a name="verify-dscp-markings-in-the-group-policy-object"></a>Verifique se as marcações de DSCP no objeto de diretiva de grupo
+## <a name="verify-dscp-markings-in-the-group-policy-object"></a>Verificar marcações DSCP no objeto de política de grupo
 
-Para verificar se os valores do objeto de diretiva de grupo foram definidos, execute as seguintes etapas.
+Para verificar se os valores do objeto de política de grupo foram definidos, execute as etapas a seguir.
 
-1. Abra um console de comando. Certifique-se de que o console de comando está definido para executar como administrador.
+1. Abra um console de comando. Verifique se o console de comando está definido como executar como administrador.
 
 2. No prompt de comando, digite:
 
@@ -83,23 +84,23 @@ Para verificar se os valores do objeto de diretiva de grupo foram definidos, exe
    gpresult /R > gp.txt
    ```
 
-   Isso irá gerar um relatório e enviá-la para um arquivo de texto chamado GP. txt. Como alternativa, você pode inserir o seguinte comando para produzir os mesmos dados em um relatório HTML mais legível chamado gp.html:
+   Isso irá gerar um relatório e enviá-lo para um arquivo de texto chamado GP. txt. Você também pode inserir o seguinte comando para produzir os mesmos dados em um relatório HTML mais legível chamado GP. html:
 
    ``` powershell
    gpresult /H >gp.html
    ```
 
-   ![Captura de tela da janela do console, executando o comando gpresult.] (media/Qos-in-Teams-Image3.png "Captura de tela da janela do console, executando o comando gpresult.")
+   ![Captura de tela da janela do console executando o comando Gpresult.] (media/Qos-in-Teams-Image3.png "Captura de tela da janela do console executando o comando Gpresult.")
 
-3. No arquivo gerado, procure por título de **Objetos de diretiva de grupo aplicados** e verifique se os nomes dos objetos de diretiva de grupo criados anteriormente estão na lista de diretivas aplicadas.
+3. No arquivo gerado, procure o título objetos de **política de grupo aplicados** e verifique se os nomes dos objetos de política de grupo criados anteriormente estão na lista de políticas aplicadas.
 
-4. Abra o Editor do registro e vá para:
+4. Abra o editor do registro e acesse:
 
    HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\QoS\
 
-   Verifique se os valores para as entradas do Registro listadas na tabela 4.
+   Verifique os valores das entradas do registro listadas na tabela 4.
 
-   _Tabela 4. Valores para entradas de registro do Windows para QoS_
+   _Tabela 4. Valores para entradas do registro do Windows para QoS_
 
    |          Nome          |  Tipo  |    Dados     |
    |         :---:          |:---:   |    :---:    |
@@ -110,8 +111,8 @@ Para verificar se os valores do objeto de diretiva de grupo foram definidos, exe
    |       Porta Local       | REG_SZ | 50000-50019 |
    |        Protocolo        | REG_SZ |     \*      |
    |       IP Remoto        | REG_SZ |     \*      |
-   |    Prefixo IP remoto    | REG_SZ |     \*      |
+   |    Prefixo de IP remoto    | REG_SZ |     \*      |
    |      Porta Remota       | REG_SZ |     \*      |
    |     Taxa de Aceleração      | REG_SZ |     -1      |
 
-5. Verificar se o valor para a entrada de nome do aplicativo está correto para o cliente que você está usando e verificar que o valor DSCP e a porta Local entradas reflitam as configurações no objeto de diretiva de grupo.
+5. Verifique se o valor da entrada do nome do aplicativo está correto para o cliente que você está usando e verifique se as entradas do valor DSCP e da porta local refletem as configurações no objeto de política de grupo.

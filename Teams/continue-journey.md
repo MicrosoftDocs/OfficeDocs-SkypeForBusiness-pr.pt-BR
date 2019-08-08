@@ -5,22 +5,23 @@ ms.author: kenwith
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 search.appverid: MET150
 description: Orientação para continuar a viagem do Skype for Business para o Microsoft Teams
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5a9bc092f458533c95e2431ac8f23ba98abd8bd7
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 74471d45e99742774133477f6b978939864aab2e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548084"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236363"
 ---
 ![Atualize o diagrama de jornada, enfatizando o estágio operacional de excelência] (media/upgrade-banner-op-excellence.png "Estágios da jornada da atualização, com ênfase no estágio Operational de excelência")
 

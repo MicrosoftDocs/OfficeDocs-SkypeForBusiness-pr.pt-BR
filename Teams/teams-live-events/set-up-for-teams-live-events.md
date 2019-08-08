@@ -1,31 +1,32 @@
 ---
 title: Configurar eventos ao vivo no Microsoft Teams
-author: tonysmith
-ms.author: tonysmit
+author: chuckedmonson
+ms.author: chucked
 manager: serdars
-ms.date: 03/06/2019
+ms.date: 07/10/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
+audience: admin
 search.appverid: MET150
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Aprenda as etapas para configurar o Live para eventos no Teams, incluindo a preparação da rede, a atribuição de licenças, o uso de políticas para habilitar recursos de eventos dinâmicos e agendamento para usuários e a configuração de um provedor de distribuição de terceiros.
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7f69f036e01c86dd02eabf7f229a80f0c51c520
-ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
+ms.openlocfilehash: 3848dde21ae45c0354049a69c939ba4bd978bea4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35012993"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237363"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurar eventos ao vivo no Microsoft Teams
 
-Quando você está configurando para eventos ao vivo, há várias etapas que devem ser tomadas:
+Quando você está configurando para eventos ao vivo, há várias etapas que devem ser tomadas.
 
 ## <a name="step-1-set-up-your-network-for-live-events-in-teams"></a>Etapa 1: configurar sua rede para eventos dinâmicos no Microsoft Teams
 Eventos dinâmicos produzidos em equipes exigem que você [Prepare a rede da sua organização para o Teams](https://docs.microsoft.com/microsoftteams/prepare-network).  
@@ -37,7 +38,7 @@ Verifique se você tem atribuições de licença corretas para [quem pode criar 
 Políticas de eventos dinâmicos são usadas para controlar quem em sua organização pode manter eventos dinâmicos e os recursos que estão disponíveis nos eventos que eles criam. Você pode usar a política padrão ou criar uma ou mais políticas personalizadas de eventos dinâmicos. Depois de criar uma política personalizada, atribua-a a um usuário ou grupos de usuários em sua organização.
 
 > [!NOTE]
-> Os usuários em sua organização receberão a política global, a menos que você crie e atribua uma política personalizada. Por padrão, na política global, o agendamento de eventos dinâmicos está habilitado para usuários do Teams, a transcrição está desativada, todos na organização podem participar de eventos dinâmicos, e a configuração de gravação é definida como sempre gravar. 
+> Os usuários em sua organização receberão a política global, a menos que você crie e atribua uma política personalizada. Por padrão, na política global, o agendamento de eventos dinâmicos está habilitado para usuários do Teams, legendas ao vivo e legendas (transcrição) desativada, todos na organização podem participar de eventos dinâmicos e a configuração de gravação é definida como sempre gravar. 
 
 ### <a name="create-or-edit-a-live-events-policy"></a>Criar ou editar uma política de eventos dinâmicos
 <a name="bkcreatepolicy"> </a>
@@ -59,8 +60,8 @@ Políticas de eventos dinâmicos são usadas para controlar quem em sua organiza
 |**Nome**     |Este é o nome da política exibida na página políticas de eventos dinâmicos. Não pode ter mais de 64 caracteres ou ter caracteres especiais.          |
 |**Descrição**    |Use isso para adicionar uma descrição amigável à política.         |
 |**Permitir agendamento**     |Ativar isso permite que os usuários em sua organização criem e agendem eventos dinâmicos no Teams. É importante saber que, se você quiser que os usuários agendem um evento ao vivo produzido com um aplicativo ou dispositivo externo, há etapas adicionais que você deve fazer. Para saber mais, confira [habilitar usuários para agendar eventos que foram produzidos com um aplicativo ou dispositivo externo](#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device).     |
-|**Permitir transcrição para participantes** (disponível em breve) |Essa configuração só pode ser aplicada a eventos produzidos no Teams. Ativar isso permite que os participantes de eventos dinâmicos vejam legendas e translação em tempo real durante o evento.         |
-|**Quem pode participar de eventos dinâmicos programados**    |Escolha uma das opções a seguir.<br><br>**Todas as pessoas** Os usuários podem criar eventos dinâmicos que todos, incluindo pessoas de fora da sua organização, podem participar. Essa configuração habilita o tipo de permissão **pública** no Teams quando um usuário agenda um evento ao vivo.<br> **Todos na organização** Os usuários podem criar eventos dinâmicos que somente as pessoas em sua organização podem participar. Os usuários não podem criar eventos dinâmicos que participem de usuários anônimos. Essa configuração habilita o tipo de permissão de **toda a organização** no Teams quando um usuário agenda um evento ao vivo.<br> **Usuários ou grupos específicos** Os usuários podem criar eventos dinâmicos que apenas usuários ou grupos específicos em sua organização podem participar. Os usuários não podem criar eventos dinâmicos que participem de todos em sua organização ou de usuários anônimos. Essa configuração habilita o tipo de permissão **pessoas e grupos** no Teams quando um usuário agenda um evento ao vivo.       |
+|**Permitir transcrição para participantes** |Essa configuração só pode ser aplicada a eventos produzidos no Teams. Ativar isso permite que os participantes de eventos dinâmicos vejam legendas e legendas ao vivo durante o evento.         |
+|**Quem pode participar de eventos dinâmicos programados**    |Escolha uma das opções a seguir.<br><br>**Todas as pessoas** Os usuários podem criar eventos dinâmicos que todos, incluindo pessoas de fora da sua organização, podem participar. Essa configuração habilita o tipo de permissão **pública** no Teams quando um usuário agenda um evento ao vivo.<br> **Todos na organização** Os usuários podem criar eventos dinâmicos que as pessoas em sua organização, incluindo [os usuários convidados](../add-guests.md) adicionados à sua organização, podem participar. Os usuários não podem criar eventos dinâmicos que participem de usuários anônimos. Essa configuração habilita o tipo de permissão de **toda a organização** no Teams quando um usuário agenda um evento ao vivo.<br> **Usuários ou grupos específicos** Os usuários podem criar eventos dinâmicos que apenas usuários ou grupos específicos em sua organização podem participar. Os usuários não podem criar eventos dinâmicos que participem de todos em sua organização ou de usuários anônimos. Essa configuração habilita o tipo de permissão **pessoas e grupos** no Teams quando um usuário agenda um evento ao vivo.       |
 |**Configuração de gravação**  <br>     | Essa configuração só pode ser aplicada a eventos produzidos no Teams. Escolha uma das opções a seguir. <br><br> **Sempre gravar** Os eventos dinâmicos criados por usuários são sempre gravados. Após o evento terminar, os membros da equipe de eventos podem baixar a gravação e os participantes podem assistir ao evento. <br> **Nunca gravar** Os eventos dinâmicos criados pelos usuários nunca são gravados. <br>**Organizador pode gravar ou não** Os usuários podem decidir se desejam registrar o evento ao vivo. Se for gravada, depois que o evento terminar, os membros da equipe de eventos poderão baixar a gravação e os participantes poderão assistir ao evento.      
 
 Você também pode fazer isso usando o Windows PowerShell. Para obter mais informações, consulte [usar o PowerShell para definir políticas de eventos dinâmicos no](set-teams-live-events-policies-using-powershell.md)Microsoft Teams. 

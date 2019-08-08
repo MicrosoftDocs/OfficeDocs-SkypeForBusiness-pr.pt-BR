@@ -1,126 +1,127 @@
 ---
-title: Visão geral do PowerShell equipes
+title: Visão Geral do PowerShell do Teams
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/06/2018
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
-description: Saiba como usar os controles do PowerShell para gerenciar Teams da Microsoft.
+description: Saiba como usar os controles do PowerShell para gerenciar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a56783a4958038710440fc899081abfdd24f1dec
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 20e85b2f45977a0a78d0d358c2e8aaa01b9257e4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401626"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235126"
 ---
-# <a name="teams-powershell-overview"></a>Visão geral do PowerShell equipes
+# <a name="teams-powershell-overview"></a>Visão Geral do PowerShell do Teams
 
-Microsoft Teams tem um rico conjunto de ferramentas para administradores de TI gerenciar o produto através do Centro de administração do Microsoft Teams, controles do PowerShell e APIs do gráfico. Este guia explica como podemos estruturar nossos cmdlets do PowerShell para administradores de TI ser usado e fornece ponteiros a documentação adicional. Observe que as diferentes funções de administrador de equipes têm acesso aos cmdlets diferentes. Para obter mais informações, consulte [equipes da Microsoft que usar funções de administrador para gerenciar equipes](using-admin-roles.md).
+O Microsoft Teams tem um conjunto rico de ferramentas para administradores de ti gerenciar o produto por meio do centro de administração do Microsoft Teams, dos controles do PowerShell e de APIs de gráfico. Este guia explica como estruturamos nossos cmdlets do PowerShell para que os administradores de ti usem e fornecem ponteiros para documentação adicional. Observe que diferentes funções de administrador de equipes têm acesso a cmdlets diferentes. Para obter mais informações, consulte [usar funções de administrador do Microsoft Teams para gerenciar o Microsoft Teams](using-admin-roles.md).
 
 ## <a name="which-modules-do-you-need-to-use"></a>Quais módulos você precisa usar?
 
-Os controles do PowerShell para gerenciar equipes estão em dois diferentes módulos do PowerShell: 
-- [Módulo de PowerShell de equipes da Microsoft](https://www.powershellgallery.com/packages/MicrosoftTeams/) : O PowerShell de equipes módulo contém todos os cmdlets que você precisa criar e gerenciar equipes.  
-- [Skype para o módulo de PowerShell corporativos](https://www.microsoft.com/en-us/download/details.aspx?id=39366): O Skype para o módulo de PowerShell Business contém os cmdlets para gerenciar diretivas, configurações e outras ferramentas de equipes. 
+Os controles do PowerShell para gerenciar equipes estão em dois módulos diferentes do PowerShell: 
+- [Módulo do PowerShell do Microsoft Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/) : o módulo do PowerShell do teams contém todos os cmdlets que você precisa para criar e gerenciar equipes.  
+- [Módulo do PowerShell do Skype for Business](https://www.microsoft.com/en-us/download/details.aspx?id=39366): o módulo do PowerShell do Skype for Business contém os cmdlets para gerenciar políticas, configurações e outras ferramentas de equipe. 
 
-A documentação de referência para os controles do PowerShell você saberá qual módulo contiver o cmdlet que você está investigando. (Eventualmente, os dois módulos serão combinados.)
+A documentação de referência dos controles do PowerShell informará qual módulo contém o cmdlet que você está investigando. (Eventualmente, os dois módulos serão combinados.)
 
 ## <a name="what-can-each-admin-role-do"></a>O que cada função de administrador pode fazer?
 
-Leia as [equipes da Microsoft que usar funções de administrador para gerenciar equipes](using-admin-roles.md) para entender quais funções de administrador diferentes de cmdlets do PowerShell poderão aproveitar.
+Leia [usar funções de administração do Microsoft Teams para gerenciar equipes](using-admin-roles.md) para entender quais cmdlets do PowerShell diferentes funções de administrador poderão aproveitar.
 
 ## <a name="creating-and-managing-teams-via-powershell"></a>Criando e gerenciando equipes via PowerShell
 
-Os cmdlets para criar e gerenciar as equipes estão no [módulo de PowerShell de equipes da Microsoft](https://www.powershellgallery.com/packages/MicrosoftTeams/). 
+Os cmdlets para criar e gerenciar equipes estão no [módulo do Microsoft Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/). 
 
-As equipes contam com grupos do O365, portanto quando você criar uma equipe, você cria um grupo. Há um conjunto de cmdlets fornecidos para funcionando com a equipe principal e suas configurações (``new-team``, ``get-team``, ``set-team``), gerenciamento de usuários de equipe (``add-teamuser``, ``remove-teamuser``), bem como os cmdlets para gerenciar os canais da equipe (``new-teamchannel``, ``remove-teamchannel``). Todos esses cmdlets podem ser executados como os usuários finais, mas eles funcionam, somente nas equipes que você possui ou é um membro do. Se você for um Administrador Global ou administrador de serviço de equipes, você poderá agir em todas as equipes em sua organização.
+As equipes são apoiadas pelos grupos do O365, portanto, quando você cria uma equipe, cria um grupo. Há um conjunto de cmdlets fornecidos para operar na equipe principal e suas configurações (``new-team``, ``get-team``, ``set-team``) gerenciar usuários da equipe (``add-teamuser``, ``remove-teamuser``), bem como cmdlets para gerenciar os canais da equipe (``new-teamchannel``, ``remove-teamchannel``). Todos esses cmdlets podem ser executados como usuários finais, mas só funcionarão nas equipes que você possui ou são membros de. Se você for administrador global ou administrador de serviços do Teams, poderá atuar em todas as equipes da sua organização.
 
-> **GroupId** usados em que o módulo de cmdlets do PowerShell de equipes da Microsoft é o mesmo que a propriedade **Identity** retornada por ``Get-UnifiedGroup`` no módulo de PowerShell do Exchange.
+> O **GroupId** usado nos cmdlets do módulo do Microsoft Teams PowerShell é o mesmo que a propriedade **Identity** retornada pelo ``Get-UnifiedGroup`` módulo do PowerShell do Exchange.
 
-### <a name="differences-between-preview-and-generally-available-microsoft-teams-powershell-module"></a>Diferenças entre Preview e o módulo de PowerShell estará disponível equipes da Microsoft
+### <a name="differences-between-preview-and-generally-available-microsoft-teams-powershell-module"></a>Diferenças entre a visualização e o módulo do Microsoft Teams PowerShell do Microsoft Teams geralmente disponíveis
 
-Quando é lançado nossa versão disponível no mercado de nosso módulo de PowerShell, alguns cmdlets foram esquerdos no módulo somente beta, conforme descrito na tabela a seguir.
+Quando lançamos nossa versão geralmente disponível do nosso módulo do PowerShell, alguns cmdlets eram deixados no módulo beta-only, conforme descrito na tabela a seguir.
 
-| Cmdlet | Disponível no modo de visualização | Disponível no 1.0 |
+| Cmdlet | Disponível na visualização | Disponível no 1,0 |
 |------- | -------------------- | ------------------------------ |
-| Adicionar-TeamUser | Sim | Sim |
-| Conecte-se-MicrosoftTeams | Sim | Sim |
+| Add-TeamUser | Sim | Sim |
+| Connect-MicrosoftTeams | Sim | Sim |
 | Desconectar-MicrosoftTeams | Sim | Sim |
-| Get-equipe | Sim | Sim |
+| Get-Team | Sim | Sim |
 | Get-TeamChannel | Sim | Sim |
-| Get-TeamFunSettings | Antes da 1.0 versão somente | Não |
-| Get-TeamGuestSettings | Antes da 1.0 versão somente | Não |
+| Get-TeamFunSettings | Lançamento anterior a 1,0 apenas | Não |
+| Get-TeamGuestSettings | Lançamento anterior a 1,0 apenas | Não |
 | Get-TeamHelp | Sim | Sim |
-| Get-TeamMemberSettings | Antes da 1.0 versão somente | Não |
-| Get-TeamMessagingSettings | Antes da 1.0 versão somente | Não |
+| Get-TeamMemberSettings | Lançamento anterior a 1,0 apenas | Não |
+| Get-TeamMessagingSettings | Lançamento anterior a 1,0 apenas | Não |
 | Get-TeamUser | Sim | Sim |
-| Nova equipe | Sim | Sim |
+| New-Team | Sim | Sim |
 | New-TeamChannel | Sim | Sim |
-| Remove-equipe | Sim | Sim |
+| Remover-equipe | Sim | Sim |
 | Remove-TeamChannel | Sim | Sim |
 | Remove-TeamUser | Sim | Sim |
-| Set-equipe | Sim | Sim |
+| Set-Team | Sim | Sim |
 | Set-TeamChannel | Sim | Sim |
-| Set-TeamFunSettings | Antes da 1.0 versão somente | Não |
-| Set-TeamGuestSettings | Antes da 1.0 versão somente | Não |
-| Set-TeamMemberSettings | Antes da 1.0 versão somente | Não |
-| Set-TeamMessagingSettings | Antes da 1.0 versão somente | Não |
+| Set-TeamFunSettings | Lançamento anterior a 1,0 apenas | Não |
+| Set-TeamGuestSettings | Lançamento anterior a 1,0 apenas | Não |
+| Set-TeamMemberSettings | Lançamento anterior a 1,0 apenas | Não |
+| Set-TeamMessagingSettings | Lançamento anterior a 1,0 apenas | Não |
 | Set-TeamPicture | Sim | Não, planejado |
 
 
-## <a name="managing-policies-via-powershell"></a>Gerenciando políticas via PowerShell
+## <a name="managing-policies-via-powershell"></a>Gerenciando políticas pelo PowerShell
 
-Os cmdlets de gerenciamento de políticas estão no [Skype para o módulo do cmdlet de negócios](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
+Os cmdlets de gerenciamento de políticas estão no [módulo cmdlet do Skype for Business](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
 
-Uma política é um grupo de configurações que podem ser aplicadas de forma granular a usuários individuais. Cada tipo de política tem seu próprio conjunto de cmdlets para criar, exibindo, excluindo e atualizando as próprias diretivas e, em seguida, atribuindo essas políticas a usuários. A estrutura geral é:
+Uma política é um grupo de configurações que podem ser aplicadas detalhadamente a usuários individuais. Cada tipo de política tem seu próprio conjunto de cmdlets para criar, exibir, excluir e atualizar as políticas propriamente ditas e, em seguida, atribuir essas políticas aos usuários. A estrutura geral é:
 
-- Os comandos GET (por exemplo, ``Get-CsTeamsMeetingPolicy``): retornar os documentos de política que estão disponíveis para atribuir em sua organização, tanto as políticas criadas pela Microsoft para usar como as políticas personalizadas que você criou.
-   > Se você quiser encontrar apenas as políticas personalizadas que você criou na sua organização, você poderá usar ``-Filter "tag:*"``.
+- OBTER comandos (por exemplo, ``Get-CsTeamsMeetingPolicy``): retorne os documentos de política que estão disponíveis para você atribuir à sua organização, ambas as políticas criadas pela Microsoft para você usar e as políticas personalizadas que você criou.
+   > Se quiser localizar apenas as políticas personalizadas que você criou em sua organização, você pode usar ``-Filter "tag:*"``.
 
-- NOVOS comandos (por exemplo, ``New-CsTeamsMeetingPolicy``): permitem que você crie novas políticas, em seguida, estão disponíveis para ser atribuídas aos usuários em sua organização para sua organização. Nem todas as políticas oferecem suporte à criação de políticas personalizadas. Geralmente, esse é para garantir que as políticas que você pode usar em sua organização tenham uma combinação com suporte de configurações.
+- NOVOS comandos (por exemplo, ``New-CsTeamsMeetingPolicy``): permite que você crie novas políticas para sua organização que estão disponíveis para serem atribuídas aos usuários em sua organização. Nem todas as políticas dão suporte à criação de políticas personalizadas. Geralmente, isso é para garantir que as políticas usadas em sua organização tenham uma combinação de configurações com suporte.
 
-- CONJUNTO de comandos (por exemplo, ``Set-CsTeamsMeetingPolicy``): permite que você defina valores específicos em uma determinada política. Algumas diretivas não tem um conjunto de comandos disponíveis, ou contêm parâmetros que não podem ser personalizados na política. Descrição de cada PowerShell chamará o check-out de quais parâmetros não podem ser personalizados. 
-   > Para editar a política que serão por padrão atribuída aos usuários em sua organização que não têm uma política personalizada atribuída, execute ``Set-Cs<PolicyName> -Identity Global``.
+- DEFINIR comandos (por exemplo, ``Set-CsTeamsMeetingPolicy``): permite que você defina valores específicos em uma determinada política. Algumas políticas não têm comandos set disponíveis ou contêm parâmetros que não podem ser personalizados na política. Cada descrição do PowerShell irá chamar quais parâmetros não podem ser personalizados. 
+   > Para editar a política que, por padrão, será atribuída aos usuários em sua organização que não tenham uma política personalizada atribuída, executar ``Set-Cs<PolicyName> -Identity Global``.
 
-- REMOVE comandos (por exemplo, ``Remove-CsTeamsMeetingPolicy``): você pode usar esse cmdlet para excluir uma política personalizada que foi criada em seu locatário. Se você excluir uma política personalizada que tenha sido atribuída a pelo menos um usuário em sua organização, que o usuário se voltará para a política global.
-   > É possível remover efetivamente a política global em sua organização, mas se você deseja redefinir a política global em sua organização para as configurações padrão fornecidas pela Microsoft, você poderá executar ``Remove-Cs<PolicyName> -Identity Global``.
+- REMOVER comandos (por exemplo, ``Remove-CsTeamsMeetingPolicy``): você pode usar esse cmdlet para excluir uma política personalizada que foi criada em seu locatário. Se você excluir uma política personalizada atribuída a pelo menos um usuário em sua organização, esse usuário retornará à política global.
+   > Não é possível remover realmente a política global em sua organização, mas se você quiser redefinir a política global em sua organização para as configurações padrão fornecidas pela Microsoft, você pode executar ``Remove-Cs<PolicyName> -Identity Global``.
 
-- Comando GRANT (por exemplo, ``Grant-CsTeamsMeetingPolicy``): permite atribuir uma política a um usuário específico.
-   > Para remover uma atribuição de política personalizada e fazer com que o usuário de fallback para a política padrão na sua organização, execute ``Grant-Cs<PolicyName> -Identity <User Identity> -PolicyName $null``.
+- Comando conceder (por exemplo, ``Grant-CsTeamsMeetingPolicy``): permite atribuir uma política a um usuário específico.
+   > Para remover uma atribuição de política personalizada e fazer com que o usuário retorne à política padrão em sua organização ``Grant-Cs<PolicyName> -Identity <User Identity> -PolicyName $null``, execute.
 
 > [!TIP]
-> Nem todas as políticas permitem políticas personalizadas a ser criado e algumas diretivas de tem configurações que você não pode personalizar (para que você pode exibir a configuração, mas não é possível definir um valor personalizado durante ``set-`` e ``new-``). A documentação do cmdlet específico chamará check-out, se os parâmetros não estão disponíveis para uso por clientes.
+> Nem todas as políticas permitem a criação de políticas personalizadas, e algumas políticas têm configurações que você não pode personalizar (para que você possa exibir a configuração, mas não pode ``set-`` definir ``new-``um valor personalizado durante e). A documentação do cmdlet específico será chamada se os parâmetros não estiverem disponíveis para uso por clientes.
 
 Parâmetros comuns:
 
-- **Identidade**: para ``Get-``, ``Set-``, ``New-``, e ``Remove-``, o parâmetro **Identity** sempre fará referência a uma instância de políticas específicas. Para ``Grant``, o parâmetro **Identity** se refere a um objeto de usuário específicos aos quais a política será aplicada.
+- **Identidade**: para ``Get-``, ``Set-`` ``New-``, e ``Remove-``, o parâmetro **Identity** sempre se refere a uma instância específica de política. Para ``Grant``, o parâmetro **Identity** se refere a um objeto de usuário específico ao qual a política está sendo aplicada.
 
 <!--more info here?-->
 
-## <a name="managing-configurations-via-powershell"></a>Gerenciando configurações por meio do PowerShell
+## <a name="managing-configurations-via-powershell"></a>Gerenciando configurações pelo PowerShell
 
-Os cmdlets de gerenciamento de sua configuração estão no [Skype para o módulo do cmdlet de negócios](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
+Os cmdlets para gerenciar sua configuração estão no [módulo cmdlet do Skype for Business](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
 
-As configurações são partições de memória de configurações mantidas no serviço que não pode ser especificado em um nível de usuário. Configurações sempre se aplicam em toda a organização inteira. A configuração global é a configuração tem efeita apenas em sua organização. Cada tipo de configuração vem com dois cmdlets primários:
+As configurações são buckets de configurações mantidas no serviço que não podem ser especificadas em um nível de usuário. As configurações sempre se aplicam em toda a organização. A configuração global é a única configuração efetiva em sua organização. Cada tipo de configuração vem com dois cmdlets principais:
 
 - ``Get-Cs<ConfigurationName>``(por exemplo, ``Get-CsTeamsClientConfiguration``): 
 
-- CONJUNTO de comandos (por exemplo, ``Set-CsTeamsClientConfiguration``): definir propriedades na configuração desse tipo. Especifica os parâmetros que você deseja modificar.
-   > É possível fazer referência a configuração que você está modificando em uma das duas maneiras: especificando -**Identidade Global**, ou executando por ``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>``.
+- DEFINIR comandos (por exemplo, ``Set-CsTeamsClientConfiguration``): definir propriedades na configuração desse tipo. Especifique os parâmetros que você deseja modificar.
+   > Você pode fazer referência à configuração que está modificando de uma das seguintes maneiras: especificando-**Identity global**ou running ``Get-Cs<ConfigurationName>``  |  ``Set-Cs<ConfigurationName>``.
 
 ## <a name="other-powershell-tools"></a>Outras ferramentas do PowerShell
 
-Você pode encontrar instruções detalhadas sobre como usar todos os controles do PowerShell para gerenciar o Microsoft Teams e Skype para os negócios, incluindo descrições detalhadas sobre as configurações de cada política, na [referência do cmdlet equipes da Microsoft](https://docs.microsoft.com/powershell/teams/?view=teams-ps) e [Skype para Referência do cmdlet de negócios](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
+Você pode encontrar instruções detalhadas sobre como usar todos os controles do PowerShell para gerenciar o Microsoft Teams e o Skype for Business, incluindo descrições detalhadas das configurações em cada política, na [referência do cmdlet do Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps) e [Skype para Referência de cmdlet para empresas](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
 
 ## <a name="learn-more"></a>Saiba mais
 
-- [Referência do cmdlet Teams da Microsoft](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
-- [Skype para referência do cmdlet de negócios](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
+- [Referência do cmdlet do Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps)
+- [Referência do cmdlet do Skype for Business](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps)
 - [Usar as funções de administrador do Microsoft Teams para gerenciar o Microsoft Teams](using-admin-roles.md)

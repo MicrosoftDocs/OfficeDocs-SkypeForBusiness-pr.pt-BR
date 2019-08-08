@@ -6,21 +6,22 @@ manager: serdars
 ms.date: 05/08/2019
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: snigdhav
 search.appverid: MET150
 description: Saiba como o SharePoint Online e o OneDrive for Business interagem com o Microsoft Teams, como arquivos de bate-papo provados são armazenados e a relação entre equipe, canal e biblioteca de documentos.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95e43baa0e7cd03ef08b4c9737b859f4095a64bb
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: d28a4a968fc9e478c3a13fb38acd1019221b5dcb
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433108"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36232274"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Como o SharePoint Online e o OneDrive for Business interagem com o Microsoft Teams
 

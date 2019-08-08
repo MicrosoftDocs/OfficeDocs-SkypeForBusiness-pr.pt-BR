@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 ms.date: 7/14/2016
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: 'Resumo: saiba como atualizar do Lync Server 2013 para o Skype for Business Server 2015. Baixe um teste grátis do Skype for Business Server 2015 a partir do centro de avaliação da https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverMicrosoft em:.'
-ms.openlocfilehash: f68e944b75af9f921dacd182bab023177a3ab2b1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c34cbc7ce1d755f093ac14bc85d78106216c450b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275511"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237445"
 ---
 # <a name="upgrade-to-skype-for-business-server-2015"></a>Upgrade to Skype for Business Server 2015
  
@@ -72,7 +72,7 @@ A atualização do Lync Server 2013 para o Skype for Business Server 2015 envolv
 Antes de iniciar o processo de atualização, todos os serviços devem estar em execução para os pools que você planeja atualizar. Isso porque mudanças na topologia serão replicadas para o banco de dados local dos servidores no pool.
   
 > [!IMPORTANT]
->  Salve uma cópia do seu arquivo de topologia antes de fazer a atualização. Após a atualização, você não poderá fazer o downgrade da Topology. > se seus serviços estiverem nos mesmos servidores dos bancos de dados, como o serviço de chat persistente estiver no mesmo servidor do banco de dados de chat persistente, pule esta etapa e vá para a etapa 4. Depois de interromper os serviços, execute a atualização in-loco em cada servidor para atualizar os bancos de dados locais.
+>  Salve uma cópia do seu arquivo de topologia antes de fazer a atualização. Após a atualização, você não poderá fazer o downgrade da topologia. > se seus serviços estiverem nos mesmos servidores dos bancos de dados, como o serviço de chat persistente estiver no mesmo servidor do banco de dados de chat persistente, pule esta etapa e vá para a etapa 4. Depois de interromper os serviços, execute a atualização in-loco em cada servidor para atualizar os bancos de dados locais.
   
 > [!NOTE]
 > Se a topologia tiver um banco de dados de back-end espelhado, os bancos de dados Principal e Espelhado aparecerão **quando você publicar a topologia** usando o Construtor de Topologias. Certifique-se de que todos os bancos de dados estão em execução no Principal e selecione apenas o Principal, não o Espelhado, ao publicar a topologia. Caso contrário, você verá um aviso após a publicação da topologia.
@@ -180,7 +180,7 @@ Recomendamos usar Disable-CsComputer porque talvez seja necessário reinicializa
 ### <a name="step-5-upgrade-front-end-pools-and-non-front-end-pool-servers"></a>Etapa 5: atualizar servidores de pools de Front-Ends e de pools não-Front-End
 
 > [!NOTE]
->  Antes de atualizar, instale todos os novos pré-requisitos necessários para o Skype for Business Server 2015, que incluem: > pelo menos 32GB de espaço livre antes de tentar uma atualização. Além disso, certifique-se de que a unidade é uma unidade local fixa, que não está conectada por USB ou FireWire, está formatada com o sistema de arquivos NTFS, não está compactada e não contém um arquivo de página. > o PowerShell da versão 6.2.9200.0 ou posterior. > o Lync Server 2013 mais recente Atualização cumulativa instalada. > SQL Server 2012 SP1 instalado. > o seguinte KB instalado (instalado automaticamente se estiver usando o Microsoft Update): > Windows Server 2008 R2-[KB2533623](https://support.microsoft.com/kb/2533623)_GT_ windows Server 2012-[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2-[KB2982006](https://support.microsoft.com/kb/2982006)
+>  Antes de atualizar, instale todos os novos pré-requisitos necessários para o Skype for Business Server 2015, que incluem: > pelo menos 32 GB de espaço livre antes de tentar uma atualização. Além disso, certifique-se de que a unidade é uma unidade local fixa, que não está conectada por USB ou FireWire, está formatada com o sistema de arquivos NTFS, não está compactada e não contém um arquivo de página. > PowerShell versão 6.2.9200.0 ou posterior. > o Lync Server 2013 mais recente Atualização cumulativa instalada. > SQL Server 2012 SP1 instalado. > o seguinte KB instalado (instalado automaticamente se estiver usando o Microsoft Update): > Windows Server 2008 R2-[KB2533623](https://support.microsoft.com/kb/2533623)> windows Server 2012-[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2-[KB2982006](https://support.microsoft.com/kb/2982006)
   
 Use a atualização in-loco em cada servidor para atualizar o pool de front-end, o pool de mediação, o servidor de mediação e o pool de chat persistente.
   

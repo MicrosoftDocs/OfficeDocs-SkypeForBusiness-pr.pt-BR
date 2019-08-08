@@ -10,19 +10,19 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Conclua a lista de verificação para começar sua adoção Teams da Microsoft.
+description: Preencha a lista de verificação para começar sua adoção do Microsoft Teams.
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 222973b0377e8a8568a5a170aca0a11e23ea2fd6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9050959ba070bfae99ee077dedfd1b503bea1c2c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930376"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237811"
 ---
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Lista de verificação de início rápido da adoção do Microsoft Teams
 
@@ -36,30 +36,30 @@ ms.locfileid: "33930376"
 
 - [Entender as equipes e canais](teams-adoption-understand-teams-and-channels.md)
 - [Criar sua primeira equipe](teams-adoption-your-first-teams.md)
-- [Você está pronto para equipes?](teams-adoption-assess-readiness.md)
-- [Se encontrar com os participantes](teams-adoption-assess-readiness.md#assess-your-stakeholders)
-- [Identificar usuários iniciais](teams-adoption-assess-readiness.md#identify-early-adopters)
+- [Você está pronto para o Teams?](teams-adoption-assess-readiness.md)
+- [Reunir-se com os interessados](teams-adoption-assess-readiness.md#assess-your-stakeholders)
+- [Identificar os primeiros adeptos](teams-adoption-assess-readiness.md#identify-early-adopters)
 
 ## <a name="phase-2---experiment"></a>Fase 2 - Experimentar
 
 - [Criar seu programa de defensores](teams-adoption-create-champions-program.md)
-- [Conclua o início rápido de governança](teams-adoption-governance-quick-start.md)
+- [Concluir o início rápido de governança](teams-adoption-governance-quick-start.md)
 - [Definir os cenários de uso](teams-adoption-define-usage-scenarios.md)
-- [Participantes de negócios da entrevista](teams-adoption-define-usage-scenarios.md#interview-business-stakeholders)
-- [Mapear e priorizar os cenários de negócios](teams-adoption-define-usage-scenarios.md#map-and-prioritize-business-scenarios)
+- [Entrevistar stakeholders comerciais](teams-adoption-define-usage-scenarios.md#interview-business-stakeholders)
+- [Mapear e priorizar cenários comerciais](teams-adoption-define-usage-scenarios.md#map-and-prioritize-business-scenarios)
 - [Integração de usuários pioneiros e coleta de comentários](teams-adoption-onboard-early-adopters.md)
 - [Suporte à integração](teams-adoption-onboard-support.md)
 
 ## <a name="phase-3---scale"></a>Fase 3 - Dimensionar
 
-- [Definir os resultados e medidas de sucesso](teams-adoption-define-outcomes.md)
-- [Selecione uma estratégia de habilitação de serviço](teams-adoption-define-outcomes.md#select-a-service-enablement-strategy)
-- [Envolver as partes interessadas](teams-adoption-define-outcomes.md#engage-stakeholders)
-- [Expanda sua equipe de implementação](teams-adoption-define-outcomes.md#expand-your-implementation-team)
-- [Expanda suas políticas de gerenciamento de informações e governança](teams-adoption-define-outcomes.md#expand-your-governance-and-information-management-policies)
+- [Definir resultados e medidas de sucesso](teams-adoption-define-outcomes.md)
+- [Selecionar uma estratégia de capacitação de serviço](teams-adoption-define-outcomes.md#select-a-service-enablement-strategy)
+- [Envolver participantes](teams-adoption-define-outcomes.md#engage-stakeholders)
+- [Expandir sua equipe de implementação](teams-adoption-define-outcomes.md#expand-your-implementation-team)
+- [Expanda suas políticas de governança e gerenciamento de informações](teams-adoption-define-outcomes.md#expand-your-governance-and-information-management-policies)
 - [Otimizar comentários e relatórios](teams-adoption-optimize-feedback-and-reporting.md)
 - [Promover a conscientização e implementar treinamento](teams-adoption-drive-awareness.md)
-- [Agendar revisões de serviço](teams-adoption-schedule-service-health-reviews.md)
+- [Agendar análises de serviço](teams-adoption-schedule-service-health-reviews.md)
 
 
 

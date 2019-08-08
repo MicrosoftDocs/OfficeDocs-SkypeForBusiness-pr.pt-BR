@@ -6,21 +6,22 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: Planeje se comunicar com, treinar e dar suporte aos seus usuários durante o piloto, a integração e a atualização para o Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7fa3e93abe4f7788ba491a76def3c067e2c0af1
-ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
+ms.openlocfilehash: 71ee20ae80fa9fc7f8916efbc5a4736f50bd56f8
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "35934490"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235914"
 ---
 ![Estágios da viagem de atualização, realçando o estágio de preparação do usuário] (media/upgrade-banner-user-readiness.png "Estágios da jornada da atualização, com ênfase no estágio de preparação do usuário")
 

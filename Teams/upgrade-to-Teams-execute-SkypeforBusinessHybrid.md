@@ -1,59 +1,60 @@
 ---
-title: Atualizar Skype para implantação híbrida do Business a Microsoft Teams | PSTN
+title: Atualizar a implantação híbrida do Skype for Business para o Microsoft Teams | PSTN
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
-description: Considerações para atualizar a equipes de um Skype para implantação híbrida do Business.
+description: Considerações para a atualização do teams a partir de uma implantação híbrida do Skype for Business.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c043d870c719d4427494ab24dade4f733febf5d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7729cd65ff5d58d348229c4ec5ec6182f06aa5de
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926111"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235896"
 ---
-![Estágios da atualização jornada, com ênfase sobre a implantação e o estágio de implementação] (media/upgrade-banner-deployment.png "Estágios da atualização jornada, com ênfase sobre a implantação e o estágio de implementação")
+![Estágios da jornada da atualização, com ênfase no estágio de implantação e implementação] (media/upgrade-banner-deployment.png "Estágios da jornada da atualização, com ênfase no estágio de implantação e implementação")
 
-Este artigo faz parte do estágio de implantação e a implementação da sua jornada de atualização. Antes de continuar, confirme que você tiver concluído as seguintes atividades:
+Este artigo faz parte do estágio de implantação e implementação da sua jornada de atualização. Antes de prosseguir, confirme que você concluiu as seguintes atividades:
 
-- [Inscrito seus participantes do projeto](upgrade-enlist-stakeholders.md)
-- [Definido o escopo do projeto](https://aka.ms/SkypetoTeams-Scope)
-- [Compreendidos coexistência e interoperabilidade do Skype para equipes e de negócios](https://aka.ms/SkypeToTeams-Coexist)
-- [Escolhido sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [Preparado o seu ambiente](https://aka.ms/SkypeToTeams-TechnicalReadiness)
-- [Preparado sua organização](https://aka.ms/SkypeToTeams-UserReadiness)
-- [Conduzido um piloto](https://aka.ms/SkypeToTeams-Pilot)
+- [Listamos os participantes do projeto](upgrade-enlist-stakeholders.md)
+- [Definiu o escopo do projeto](https://aka.ms/SkypetoTeams-Scope)
+- [Compreendemos a coexistência e interoperabilidade do Skype for Business e do teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Escolhido a jornada da atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Seu ambiente foi preparado](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+- [Preparou sua organização](https://aka.ms/SkypeToTeams-UserReadiness)
+- [Conduziu um piloto](https://aka.ms/SkypeToTeams-Pilot)
 
-# <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>Atualizar a partir de um Skype para implantação híbrida do Business às equipes
+# <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>Atualizar de uma implantação híbrida do Skype for Business para o Teams
 
-Siga as orientações neste artigo se você implantou Skype para negócios ou Microsoft Lync local configurado em uma implantação híbrida com seu locatário do Office 365 e sua organização deseja atualizar para equipes ou seletivamente — usando vários modos de coexistência — ou tudo em. Para qualquer um dos jornada de atualização, você precisa mover os usuários para Skype para Business Online (se eles já não são hospedados online) e atribuí-las a coexistência apropriada e o modo de atualização.
+Siga as orientações neste artigo se você tiver implantado o Skype for Business ou o Microsoft Lync local e o configurou em uma implantação híbrida com o seu locatário do Office 365 e sua organização quiser atualizar para as equipes seletivamente — usando vários modos de coexistência — ou todos. Para a viagem de atualização, você precisa mover seus usuários para o Skype for Business online (se eles ainda não estiverem online) e atribuí-los ao modo de coexistência e à atualização apropriados.
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
 
-## <a name="step-1-move-users-to-skype-for-business-online"></a>Etapa 1: Mover usuários para Skype para negócios Online
+## <a name="step-1-move-users-to-skype-for-business-online"></a>Etapa 1: mover usuários para o Skype for Business Online
 
-Esta etapa se aplica a usuários que estão atualmente hospedados no local. Para obter mais informações sobre como mover esses usuários para Skype para Business Online, consulte [mover usuários de em - local para Skype para negócios Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online).
+Esta etapa se aplica a usuários que estão hospedados no momento no local. Para obter mais informações sobre como mover esses usuários para o Skype for Business Online, consulte [mover usuários do local para o Skype for Business online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online).
 
-## <a name="step-2-assign-a-coexistence-and-upgrade-mode"></a>Etapa 2: Atribuir uma coexistência e modo de atualização
+## <a name="step-2-assign-a-coexistence-and-upgrade-mode"></a>Etapa 2: atribuir um modo de coexistência e atualização
 
-Depois que você moveu os usuários para Skype para Business Online, você pode atribuir a eles o modo de coexistência apropriada com base em uma atualização jornada que sua organização tenha escolhido. Para obter mais informações, consulte [definindo sua coexistência e as configurações de atualização](https://aka.ms/SkypeToTeams-SetCoexistence) e [TeamsUpgradePolicy: Gerenciando a migração e coexistência](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
+Depois de mover os usuários para o Skype for Business Online, você pode atribuir a eles o modo de coexistência apropriado com base na jornada de atualização que a sua organização escolheu. Para obter mais informações, consulte [definindo suas configurações de coexistência e atualização](https://aka.ms/SkypeToTeams-SetCoexistence) e [TeamsUpgradePolicy: Gerenciando a migração e](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence)a coexistência.
 
 > [!NOTE]
-> Com o Skype para Business Server 2019 e uma atualização cumulativa futura do Skype para Business Server 2015, você poderá executar a etapa 1 (mover usuários para Skype para Business Online) e a etapa 2 (atualização usuários às equipes) em uma única etapa. Mais informações serão fornecidas após o lançamento do Skype para Business Server 2019.
+> Com o Skype for Business Server 2019 e uma atualização cumulativa futura do Skype for Business Server 2015, você poderá executar a etapa 1 (movendo usuários para o Skype for Business online) e a etapa 2 (atualizar usuários para o Microsoft Teams) em uma única etapa. Mais informações serão fornecidas após o lançamento do Skype for Business Server 2019.
 
-## <a name="phone-system-and-teams-upgrade"></a>Atualização de sistema telefônico e equipes
+## <a name="phone-system-and-teams-upgrade"></a>Atualização do sistema de telefonia e do teams
 
-Se você estiver fazendo a transição de seu Skype para implantação híbrida de negócios para o sistema telefônico com planos de chamada e Microsoft será seu provedor de (PSTN) da rede telefônica pública comutada — e assumindo que você tiver concluído o número de telefone portando — atualizando os usuários As equipes passará automaticamente PSTN de entrada chamando-se às equipes.
+Se você estiver fazendo a transição da sua implantação híbrida do Skype for Business para o sistema telefônico com planos de chamadas e a Microsoft for o seu provedor de rede telefônica pública comutada (PSTN) e presumir que você concluiu a portabilidade do número de telefone, a atualização dos usuários para O Microsoft Teams fará a transição de chamadas PSTN de entrada automaticamente para o Microsoft Teams.
 
-Se os planos de chamada não está disponível ou se você pretende usar seu provedor de conectividade PSTN existente, será necessário fazer a transição de sua implantação do enterprise voice — ou implantação de voz híbrida que usa as existentes no local implantação ou a edição de conector de nuvem — para Sistema telefônico Microsoft direcionar circulação. Para atualizar seus usuários para equipes, consulte as [Considerações adicionais sobre roteamento direto de sistema do telefone](2-envision-make-my-service-decisions-direct-routing.md).
+Se os planos de chamada não estiverem disponíveis ou se você pretende usar seu provedor de conectividade PSTN existente, é preciso fazer a transição de sua implantação de voz empresarial ou a implantação de voz híbrida que usa a implantação local existente ou a edição do conector de nuvem, para Encaminhamento direto do sistema telefônico da Microsoft. Para atualizar os usuários para o Microsoft Teams, consulte [considerações adicionais sobre o roteamento direto do sistema telefônico](2-envision-make-my-service-decisions-direct-routing.md).

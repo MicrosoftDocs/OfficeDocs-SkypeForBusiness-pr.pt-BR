@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 11/12/2018
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: kelsawi
 ms.collection:
 - M365-collaboration
@@ -17,17 +18,17 @@ description: Saiba como gerenciar dispositivos usados com o Microsoft Teams em s
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76692714bbf58dca7bd74461bed4da34abf55c58
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 3b259b893f443a068b8156f2298613b0feb6d028
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344637"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237498"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Gerenciar seus dispositivos no Microsoft Teams
 
 ::: zone target="docs"
-Como administrador, você gerencia todos os dispositivos usados com o Microsoft Teams em sua organização usando o centro de administração do Microsoft Teams & do Skype for Business. Você pode exibir e gerenciar o inventário de dispositivos da sua organização e executar tarefas como atualizar, reiniciar e monitorar o diagnóstico de dispositivos. Você também pode criar e atribuir perfis de configuração a um dispositivo ou grupos de dispositivos. 
+Como administrador, você gerencia todos os dispositivos usados com o Microsoft Teams na sua organização usando o centro de administração do Microsoft Teams & do Skype for Business. Você pode exibir e gerenciar o inventário de dispositivos da sua organização e executar tarefas como atualizar, reiniciar e monitorar o diagnóstico de dispositivos. Você também pode criar e atribuir perfis de configuração a um dispositivo ou grupos de dispositivos. 
 
 ## <a name="what-devices-can-you-manage"></a>Quais dispositivos você pode gerenciar?
 Os dispositivos devem ser certificados para equipes e registrados no Microsoft Teams. Um dispositivo é registrado automaticamente na primeira vez que o usuário entra no Microsoft Teams no dispositivo. Para obter uma lista de dispositivos certificados que podem ser gerenciados, consulte [telefones em conferência](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=16) e [telefones de mesa](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=34).
@@ -51,10 +52,10 @@ Os dispositivos devem ser certificados para equipes e registrados no Microsoft T
 |Para fazer isso...  |Fazer isso |
 |---------|---------|
 |Alterar as informações do dispositivo   | Selecione um dispositivo > **Editar**. Você pode editar detalhes, como o nome do dispositivo, as informações do usuário, a marca do ativo e adicionar anotações.     |
-|Gerenciar atualizações de software   |Selecione uma **atualização**de > de dispositivo. Você pode exibir a lista de atualizações de software e firmware disponíveis para o dispositivo e escolher as atualizações a serem instaladas.    |
+|Gerenciar atualizações de software   |Selecione um dispositivo > **atualização**. Você pode exibir a lista de atualizações de software e firmware disponíveis para o dispositivo e escolher as atualizações a serem instaladas.    |
 |Reiniciar um dispositivo   |Selecione um dispositivo > **reiniciar**.          |
-|Exibir o histórico de dispositivos  | Selecione um **histórico**de > de dispositivo. Você pode exibir o histórico de atualizações do dispositivo.     |
-|Exibir diagnósticos  | Selecione um **diagnóstico**de > de dispositivo.        |
+|Exibir o histórico de dispositivos  | Selecione um > **histórico**de dispositivos. Você pode exibir o histórico de atualizações do dispositivo.     |
+|Exibir diagnósticos  | Selecione um dispositivo > **diagnóstico**.        |
 
 ## <a name="use-configuration-profiles-in-teams"></a>Usar perfis de configuração no Teams
 

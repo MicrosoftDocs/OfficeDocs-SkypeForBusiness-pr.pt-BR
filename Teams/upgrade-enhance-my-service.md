@@ -5,22 +5,23 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: Avaliar regularmente oportunidades para aprimorar o serviço do teams após a atualização, monitore o mapa do teams para obter os aprimoramentos de recursos interessantes.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3a577f3d43e3eb6942a5fdd1d704a74adfc0b67
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: ff5cbba5f66e409a1c079f7a5f24170adb5c3e41
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548513"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236445"
 ---
 ![Atualize o diagrama de jornada, enfatizando o estágio operacional de excelência] (media/upgrade-banner-op-excellence.png "Estágios da jornada da atualização, com ênfase no estágio Operational de excelência")
 

@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -15,12 +16,12 @@ search.appverid: MET150
 description: Página de aterrissagem para implantar a voz na nuvem no Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 99c4f9d32dbdd914803c1b58f77ce472248c325d
-ms.sourcegitcommit: a47f0841b9a14ede65171a817ecb7ebc72f209e5
+ms.openlocfilehash: d7a17e207911ad4865cef5b82f7fe7f5f143a172
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2019
-ms.locfileid: "34185320"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236974"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Voz na nuvem no Microsoft Teams
 
@@ -99,7 +100,7 @@ Por padrão, todas as chamadas de saída usam o número de telefone atribuído c
 
 |Pergunte-se|Ação |
 |:------------|:-------|
-|Desejo mascarar ou desabilitar o recurso de identificação de chamadas? | Para alterar ou bloquear a identificação de chamadas, consulte [definir a identificação de chamadas para um usuário](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user). |
+|Desejo mascarar ou desabilitar o recurso de identificação de chamadas? | Para alterar ou bloquear a identificação de chamadas, consulte [definir a identificação de chamadas para um usuário](set-the-caller-id-for-a-user.md). |
 |||
 
 ### <a name="phone-numbers-from-microsoft"></a>Números de telefone da Microsoft

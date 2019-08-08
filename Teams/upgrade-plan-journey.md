@@ -6,21 +6,22 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: Planeje a atualização ao listar os stakeholders primeiro e, em seguida, fazer o escopo do projeto.
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c35b8f7c6e400e9788b87fc41c5e5ed23b88b31f
-ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
+ms.openlocfilehash: 8a72e32fc363d00c2da85be70a567551440ba942
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "35934554"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236054"
 ---
 ![Diagrama da jornada de atualização do teams] (media/upgrade-banner-main.png "Verifique se o seu projeto está configurado para o sucesso com a equipe de projeto certa. Defina o escopo, as metas e o cronograma do projeto. Confirme a prontidão técnica e do usuário. Executar o plano de distribuição. Mantenha a momentum para maximizar os resultados.")
 

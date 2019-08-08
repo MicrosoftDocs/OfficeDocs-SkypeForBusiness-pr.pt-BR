@@ -7,20 +7,21 @@ ms.date: 03/13/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
+audience: admin
 description: Siga as tarefas principais, tarefas pendentes e atividades desta lista de verificação quando configurar sua rede para o Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 885e483c6f0c2d79f850cdb78ff401cef15ff3a7
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: 2a9a8c6eb4c015a1fc86f35fac72117766cab326
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198241"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238503"
 ---
 # <a name="configure-networking"></a>Configurar a rede
 

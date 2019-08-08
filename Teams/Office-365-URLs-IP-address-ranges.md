@@ -6,22 +6,23 @@ ms.author: lolaj
 manager: serdars
 ms.date: 08/21/2018
 ms.topic: article
+audience: admin
 ms.service: msteams
 description: Saiba como configurar corretamente URLs do Office 365 e intervalos de endereços IP, desviar o proxy direto quando estiver disponível para conexões com o serviço Microsoft Teams e as exigências das políticas de rede e segurança.
 localization_priority: Normal
 search.appverid: MET150
 f1keywords: ms.teamsadmincenter.meetingsettings.network.ports
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e375452e236e38e036a5fe2413ba0848845587ab
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: 6acf22a10d52aadb90ff6312edfa4a5de33b1a17
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "32225924"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235137"
 ---
 <a name="office-365-urls-and-ip-address-ranges"></a>URLs e intervalos de endereços IP do Office 365
 =====================================

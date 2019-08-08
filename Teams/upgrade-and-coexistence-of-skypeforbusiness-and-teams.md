@@ -5,6 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen, bjwhalen
 description: Detalhes das opções e modos de coexistência do Skype for Business e do Microsoft Teams e de upgrade para o Teams do Skype for Business com cenários de exemplo.
 localization_priority: Normal
@@ -13,17 +14,17 @@ ms.custom: Teams-upgrade-guidance
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.teamsfeatures.upgradetoteamsarticle
 - ms.teamsadmincenter.upgradeoverride.learnmore
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d662dfd98aa4706d32a7e9ba3bec06d5e32ae975
-ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
+ms.openlocfilehash: 7509d0f3d6e3e557f6b7ccd388f7b9b340705bba
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "35934395"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236164"
 ---
 ![Atualize o diagrama de viagem, enfatizando implantação e implementação] (media/upgrade-banner-deployment.png "Estágios da jornada da atualização, com ênfase no estágio de implantação e implementação")
 

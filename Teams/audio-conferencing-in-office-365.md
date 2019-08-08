@@ -13,7 +13,7 @@ ms.collection:
 - M365-collaboration
 - M365-voice
 search.appverid: MET150
-audience: Admin
+audience: admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.audioconferencing.overview
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: 592f9bd4e336ae454ce74146f462bfbab2a2924c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 87ce2422fd4d14b5b9e2c90921b0fe84630f2887
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283536"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235743"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Audioconferência no Office 365
 A videoconferência no Office 365 permite que os usuários liguem para reuniões a partir de seus telefones. A videoconferência de áudio permite até 250 participantes telefônicos.
@@ -85,7 +85,7 @@ Para ver uma lista dos países/regiões que têm números de telefone automatica
 ## <a name="how-do-you-get-dedicated-phone-numbers"></a>Como obter números de telefone dedicados?
 Números de telefone de conferência de áudio dedicados são números de serviço que você pode obter e atribuir à sua organização. Você pode obter números de telefone de chamada tarifada e gratuita para as pontes de conferência de uma destas três maneiras:
 
-- **Use o centro de administração do Skype for Business.** Para alguns países/regiões, você pode obter números para suas pontes de conferência usando o centro de administração do Skype for Business. Veja [obtendo números de telefone de serviço](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).
+- **Use o centro de administração do Skype for Business.** Para alguns países/regiões, você pode obter números para suas pontes de conferência usando o centro de administração do Skype for Business. Veja [obtendo números de telefone de serviço](/microsoftteams/getting-service-phone-numbers).
     
 - **Fazer a portabilidade de seus números existentes.** Você pode fazer a portabilidade/transferência de números existentes do seu provedor de serviços ou operadora de telefonia atual para o Office 365. Consulte [Transferir números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md) ou [Gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para obter mais informações que ajudem você a fazer isso.  
   

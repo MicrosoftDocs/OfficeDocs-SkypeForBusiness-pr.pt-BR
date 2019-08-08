@@ -6,20 +6,21 @@ manager: serdars
 ms.reviewer: kblevens, phlouie
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 description: Saiba mais sobre associações dinâmicas a equipes com base no AAD.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f48309b5816c61668d240087c1f2815fc94ebe4
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: a4a0a7d9487b7697bad5ac565b98e605c4cc81dc
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221432"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237800"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>Visão geral da associação dinâmica de equipes
 

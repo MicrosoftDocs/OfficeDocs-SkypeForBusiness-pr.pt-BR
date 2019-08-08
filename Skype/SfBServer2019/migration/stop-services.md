@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Você pode usar o painel de controle do Skype for Business Server para iniciar ou parar todos os serviços herdados em execução em um computador específico ou para iniciar ou parar um serviço herdado específico.
-ms.openlocfilehash: 90cd9c0c7d2fbd87a4ae796c94f025b60d1a1f87
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e7cde5a947d9822106223216f1f826d6ebac036f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34307088"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241241"
 ---
 # <a name="stop-legacy-services"></a>Interromper serviços herdados
 

@@ -5,45 +5,46 @@ ms.author: jambirk
 manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: jambirk
-description: Use configurações de qualidade de serviço (QoS) e análise de chamada e painel de controle de qualidade de chamada no Microsoft Teams.
+description: Use as configurações de qualidade do serviço (QoS) e, em seguida, faça a análise de chamada e painel de qualidade da chamada no Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77730db17e900951f0fe1a60b7c0ae2ccdbfbc5b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 70e862adf2aad795a9ef1ab34eaa2de21240a388
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32228419"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239248"
 ---
-# <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>Implementação QoS e monitorar a qualidade de chamada no equipes da Microsoft
+# <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>Implementar QoS e monitorar a qualidade das chamadas no Microsoft Teams
 
-## <a name="get-started"></a>Guia de Introdução
+## <a name="get-started"></a>Comece a usar
 
-Como os usuários começam a usar as equipes para fazer chamadas e reter as reuniões, eles podem enfrentar voz de um chamador separação ou talhar e sair de uma chamada ou reunião. Shared maio vídeo congelamento ou Pixelizar, ou reprovação todo. Isso acontece devido à que representam o tráfego de voz e vídeo encontrando congestionamento da rede e que chegam fora de sequência ou não em todos os pacotes IP. Há maneiras para identificar esses problemas quando eles desvendar e impedem o retorno, principalmente Quality of Service (QoS).
+À medida que seus usuários começarem a usar o Microsoft Teams para fazer chamadas e participar de reuniões, eles poderão enfrentar a voz de um usuário que está decompondo ou travando uma chamada ou reunião. O vídeo compartilhado pode congelar ou ser pixel ou falhar completamente. Isso ocorre devido aos pacotes de IP que representam o tráfego de voz e vídeo que está encontrando o congestionamento da rede e que chega fora de sequência. Há maneiras de identificar esses problemas quando eles fazem a superfície e impedem o retorno, principalmente a QoS (qualidade de serviço).
 
-**Qualidade de serviço (QoS)** é uma maneira para permitir o tráfego de rede em tempo real (como fluxos de voz ou vídeo) sensível a atrasos de rede "cortar na linha" na frente de tráfego menos confidencial (como fazer o download de um novo aplicativo, onde um segundo extra para baixar não é importante). QoS identifica e marca todos os pacotes de fluxos em tempo real usando objetos de diretiva de grupo do Windows e um recurso de roteamento chamado porta-based Access Control Lists, que então ajuda a sua rede para dar a voz, vídeo e compartilhamento de tela transmite suas próprias partes dedicados de largura de banda de rede.
+A **QoS (qualidade de serviço)** é uma maneira de permitir o tráfego de rede em tempo real (como fluxos de voz ou de vídeo) sensíveis a atrasos na rede para "recortar linha" na frente do tráfego que é menos confidencial (como baixar um novo aplicativo, onde um segundo adicional para baixar Não é um negócio importante). A QoS identifica e marca todos os pacotes em fluxos em tempo real usando objetos de política de grupo do Windows e um recurso de roteamento chamado de listas de controle de acesso baseado em porta, o que, em seguida, ajuda sua rede a fornecer voz, vídeo e compartilhamento de tela para transmitir suas próprias partes exclusivas de largura de banda de rede.
 
- No momento, vamos dizer apenas que ele é muito parecido com o envio de uma carta pelo correio: se você enviá-la chegar lá muito breve e que é bom, se você enviar primeira classe chegar lá muito mais rapidez, e se você enviar o email de prioridade de taxa de catálogo , chegar lá dentro de dois dias. Obviamente redes executado mais rapidamente do que o email, mas ainda executa true que velocidade é fundamental para alguns aplicativos e não é tão crítica para outras pessoas. Esse assunto é naturalmente detalhadas e complicado compreender em um primeiro momento, mas ele faz com que uma enorme diferença no usuário experiência para que ele tenha a pena investir tempo e energia antecipadamente. Leia [Implementar Quality of Service (QoS) em equipes da Microsoft](QoS-in-Teams.md) para obter uma discussão mais detalhada.
+ Por enquanto, vamos dizer que é muito parecido com o envio de uma carta por meio do email: se você enviar a tarifa do livro de ti, ele fica lá logo e isso é bom o suficiente, se você enviá-lo para a primeira classe, ele se torna muito mais rápido e se você enviar emails de prioridade de ti , ele chega dentro de dois dias. De redes de curso são executados mais rapidamente do que o e-mail, mas ele ainda é válido para que a velocidade seja crítica para alguns aplicativos e não é tão importante para outras pessoas. Este assunto é inerentemente detalhado e difícil de entender em primeiro lugar, mas faz uma grande diferença na experiência do usuário para que ele valha a pena investir tempo e energia antecipadamente. Leia [implementar qualidade de serviço (QoS) no Microsoft Teams](QoS-in-Teams.md) para obter uma discussão mais detalhada.
 
-Idealmente, você poderia implementar QoS em sua rede interna durante a configuração de equipes, mas se você estiver pequeno suficiente é opcional. Isso permite que o atraso confidenciais tráfego de voz e vídeo para obter priorizados antes dos outros tráfegos. Você deseja fazer esta priorização em todos os [dispositivos cliente](QoS-in-Teams-clients.md), no [Centro de administração de equipes da Microsoft](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings), bem como sobre os switches e roteadores em sua rede.
+O ideal é que você implementasse a QoS na sua rede interna enquanto configurou o Microsoft Teams, mas se for pequeno o suficiente pode ser opcional. Isso permite que o tráfego de voz e vídeo sensível à atraso seja priorizado antes do outro tráfego. Você faria essa priorização em todos os [dispositivos cliente](QoS-in-Teams-clients.md), no centro de [Administração do Microsoft Teams](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings), bem como nos switches e roteadores da sua rede.
 
-[**Análise de chamada e o painel de controle de qualidade de chamada**](difference-between-call-analytics-and-call-quality-dashboard.md) são usados para encontrar e solucionar problemas que surgem durante a operação em andamento.  
+O [**painel de análise de chamadas e o painel de qualidade de chamada**](difference-between-call-analytics-and-call-quality-dashboard.md) são usados para localizar e solucionar problemas que surgem durante a operação em andamento.  
 
-**Análise de chamada** mostra informações detalhadas sobre os dispositivos, redes e conectividade relacionadas a ***reuniões e chamadas específicas*** para cada usuário em um Microsoft Teams ou Skype para a conta de negócios. Se você for um administrador do Office 365, você pode usar a análise de chamada para solucionar problemas de qualidade e conexão de chamada enfrentou em uma chamada específica. Isso pode ajudar a identificar e eliminar os problemas.
+A **análise de chamadas** mostra informações detalhadas sobre os dispositivos, redes e conectividade relacionados a ***chamadas e reuniões específicas*** para cada usuário em uma conta do Microsoft Teams ou do Skype for Business. Se você for um administrador do Office 365, poderá usar a análise de chamadas para solucionar problemas com a qualidade da chamada e a conexão com experiência em uma chamada específica. Isso pode ajudá-lo a identificar e eliminar problemas.
 
-**Painel de controle de qualidade de chamada (CQD)** foi projetado para ajudar os administradores e os engenheiros de rede otimizam sua ***rede***, não analisar e resolver problemas de uma única chamada. CQD alterna o foco de usuários específicos, examine as informações agregadas para uma organização inteira. Isso também pode ajudar a identificar e eliminar os problemas.
+O **painel de qualidade de chamada (CQD)** foi projetado para ajudar administradores e engenheiros de rede a otimizar sua ***rede***, não analisar e solucionar problemas de uma única chamada. CQD muda o foco de usuários específicos para ver as informações agregadas de uma organização inteira. Isso também pode ajudá-lo a identificar e eliminar problemas.
 
 ## <a name="related-topics"></a>Tópicos Relacionados
 
-[Implementar a qualidade do serviço (QoS) em equipes da Microsoft](QoS-in-Teams.md)
+[Implementar a QoS (qualidade de serviço) no Microsoft Teams](QoS-in-Teams.md)
 
-[Vídeo: Visão geral de qualidade de chamada](https://aka.ms/teams-quality)
+[Vídeo: visão geral da qualidade da chamada](https://aka.ms/teams-quality)
 
 [Configurar Análise de Chamada](set-up-call-analytics.md)
 

@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'A migração do aplicativo de estacionamento de chamadas inclui o provisionamento do pool do Skype for Business Server 2019 com qualquer música personalizada em arquivos de retenção que foram carregados na instalação herdada, a restauração das configurações de nível de serviço e o redirecionamento de todas as órbitas do estacionamento de chamada para o Pool do Skype for Business Server 2019. Se os arquivos de música em espera personalizados tiverem sido configurados no pool, esses arquivos precisarão ser copiados para o novo pool do Skype for Business Server 2019. Além disso, é recomendável que você faça backup de todos os arquivos de música em espera personalizados de qualquer telefone para outro destino para manter uma cópia de backup separada de todos os arquivos de música em espera personalizados que foram carregados para o parque da chamada. Os arquivos de música em espera personalizados para o aplicativo de estacionamento de chamadas são armazenados no repositório de arquivos do pool. Para copiar os arquivos de áudio de um repositório de arquivos de pool para um repositório de arquivos do Skype for Business Server 2019, use o comando xcopy com os seguintes parâmetros:'
-ms.openlocfilehash: aa4ac3cfbe6802b8853a8ec8886f8fffe1a20a51
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: efb2bfbf8ac62ad05e2ee560c2aca4fb7b496006
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280825"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238029"
 ---
 # <a name="migrate-call-park-application-settings"></a>Migrar configurações do aplicativo do Estacionamento de Chamada
 
