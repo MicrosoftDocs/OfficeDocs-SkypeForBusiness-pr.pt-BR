@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 ms.date: 7/14/2018
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
 description: 'Resumo: saiba como instalar as ferramentas administrativas necessárias para uma instalação do Skype for Business Server. Baixe um teste grátis do Skype for Business Server no centro de avaliação da Microsoft em https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server:.'
-ms.openlocfilehash: b700180a18cf7fcac3cb0353ff302edd1ed78584
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 168202048fcd72b16d93cfd410f678cad01b3058
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306609"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244617"
 ---
 # <a name="install-administrative-tools-in-skype-for-business-server"></a>Instalar ferramentas administrativas no Skype for Business Server
  

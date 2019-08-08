@@ -6,18 +6,18 @@ author: lanachin
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 795dc1c6-524f-4012-8b66-103b55198044
 description: 'Resumo: revise as etapas de integração do Exchange Server 2016 ou do Exchange Server 2013 e do Skype for Business Server.'
-ms.openlocfilehash: 25b2260805cf4e42bc15d1ae5607baa3f830fba6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 398ded1c138743c79de0e372b930dacef08fd94f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277983"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244040"
 ---
 # <a name="integrate-skype-for-business-server-with-exchange-server"></a>Integrar o Skype for Business Server com o Exchange Server
 

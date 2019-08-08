@@ -9,18 +9,18 @@ ms.service: msteams
 ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Saiba como usar o relatório de atividade de usuários do teams no centro de administração do Microsoft Teams para ver como os usuários em sua organização estão usando o Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1d152657dc658e6b10da5da3147dd4a695383b7
-ms.sourcegitcommit: 5791b98589e64df2e2bcd96f05fd2f869a65861f
+ms.openlocfilehash: 652df680f4394f8ad135278fc2f4ac68670d7f62
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35420040"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234776"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Relatório de atividades do usuário do Microsoft Teams
 

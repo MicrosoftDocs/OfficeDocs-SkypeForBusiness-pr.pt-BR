@@ -9,51 +9,51 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: Como entrar no Microsoft Teams usando autenticação moderna.
+description: Como entrar no Microsoft Teams usando a autenticação moderna.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5dc79f6913a2996734b34d589f124c440eb9835e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: af7ecffc6dbed108fdc3ec68802aac39aa4f54c4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201054"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242507"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Entrar no Microsoft Teams usando a autenticação moderna
 ==========================
 
-Teams da Microsoft usa autenticação moderna para manter a experiência de entrada, simples e segura. Para ver como os usuários fazem logon equipes, leia a [entrar em equipes](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055).
+O Microsoft Teams usa autenticação moderna para manter a experiência de entrada simples e segura. Para ver como os usuários entram no Microsoft Teams, leia [entrar](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055)no Microsoft Teams.
 
-## <a name="how-modern-authentication-works"></a>Moderno como funciona a autenticação
+## <a name="how-modern-authentication-works"></a>Como funciona a autenticação moderna
 
-Autenticação moderna é um processo que permite que as equipes saber que os usuários já foram inseridos suas credenciais (como seu trabalho email e senha) em outro lugar e eles não devem ser necessário inseri-las novamente para iniciar o aplicativo. A experiência variará dependendo de dois fatores, como se os usuários estão trabalhando no Windows ou em um Mac. Ele também irá variar dependendo se a sua organização tiver habilitado a autenticação de fator único ou a autenticação multifator (geralmente, a autenticação multifator envolve verificando credenciais por meio de um telefone, fornecendo um código exclusivo, inserindo um PIN, ou Apresentando uma impressão digital). Aqui está um resumo de cada cenário de autenticação moderno.
+A autenticação moderna é um processo que permite que as equipes saibam que os usuários já inseriram suas credenciais (como o email e a senha de trabalho) em outro lugar, e não devem ser necessárias para inseri-las novamente para iniciar o aplicativo. A experiência irá variar dependendo de alguns fatores, como se os usuários estiverem trabalhando no Windows ou em um Mac. Isso também varia de acordo com a existência da autenticação de fator único ou da autenticação multifator da sua organização (autenticação multifator geralmente envolve a verificação de credenciais por meio de um telefone, o fornecimento de um código exclusivo, a inserção de um pino ou Apresentando uma impressão digital). Aqui está um resumo de cada cenário de autenticação moderna.
 
 ### <a name="windows-users"></a>Usuários do Windows: 
 
-- Se os usuários já tenham entrado em para outros aplicativos do Office por meio de sua conta do Office 365 Enterprise, quando eles começarem a equipes serão levados retas para o aplicativo. Não é necessário para que eles possam Insira suas credenciais.
+- Se os usuários já entrarem em outros aplicativos do Office por meio da sua conta empresarial do Office 365, quando eles iniciarem as equipes, eles serão colocados diretamente no aplicativo. Não é necessário inserir suas credenciais.
 
-- Se os usuários não estiver conectados à sua conta do Office 365 Enterprise em outros lugares, quando eles começarem a equipes, ele são solicitados a fornecer autenticação fator único ou vários fator (SFA ou MFA), dependendo de qual sua organização tiver decidido gostariam de processo envolve.
+- Se os usuários não estiverem conectados à sua conta empresarial do Office 365 em qualquer outro lugar, quando iniciarem o Teams, eles serão solicitados a fornecer autenticação de fator único ou multifator (SFA ou MFA), dependendo do que a sua organização decidiu que gostaria da processo para implicar.
 
-- Se os usuários estiver conectados a um computador associado ao domínio, quando eles começarem a equipes, eles podem ser solicitados atravessar uma etapa de autenticação mais, dependendo se a sua organização tiver optado para exigir MFA ou se o seu computador já exige MFA entrar. Se seu computador já exigir MFA entrar, quando eles abrem backup equipes, o aplicativo automaticamente inicia.
+- Se os usuários estiverem conectados a um computador associado a um domínio, quando iniciarem o Teams, eles poderão ser solicitados a passar por mais uma etapa de autenticação, dependendo se a sua organização optou por exigir MFA ou se o computador já precisa de uma solicitação de conexão. Se o computador já precisa de uma MFA para entrar, quando ele abre equipes, o aplicativo é iniciado automaticamente.
 
 ### <a name="mac-users"></a>Usuários do Mac 
 
-Quando os usuários iniciam equipes, seu computador não poderá receber suas credenciais de sua conta do Office 365 Enterprise ou para qualquer um dos seus outros aplicativos do Office. Em vez disso, eles verão um aviso perguntando-los para SFA ou MFA (dependendo das configurações da sua organização). Depois que os usuários inserirem suas credenciais, eles não seja necessário para fornecer-lhes novamente. A partir desse momento, as equipes automaticamente inicia sempre eles estiver trabalhando no mesmo computador.
+Quando os usuários iniciarem o Microsoft Teams, o computador não poderá receber credenciais da conta empresarial do Office 365 ou de qualquer um dos outros aplicativos do Office. Em vez disso, eles verão um prompt solicitando o SFA ou o MFA (dependendo das configurações da sua organização). Uma vez que os usuários inserem suas credenciais, não será preciso fornecê-las novamente. Desse ponto em diante, o Teams é iniciado automaticamente sempre que estiverem trabalhando no mesmo computador.
 
-## <a name="switching-accounts-after-completing-modern-authentication"></a>Alternando contas depois de concluir a autenticação moderna
+## <a name="switching-accounts-after-completing-modern-authentication"></a>Alternar entre contas após concluir a autenticação moderna
 
-Se os usuários estão trabalhando em um computador associado ao domínio (por exemplo, se seu locatário tiver habilitado o Kerberos), eles não podem alternar contas de usuário quando concluírem autenticação moderna. Se os usuários não estiver trabalhando em um computador associado ao domínio, eles podem alternar contas.
+Se os usuários estiverem trabalhando em um computador associado a um domínio (por exemplo, se o locatário tiver habilitado o Kerberos), eles não poderão alternar entre contas de usuário depois que concluírem a autenticação moderna. Se os usuários não estiverem trabalhando em um computador associado a um domínio, eles poderão mudar de conta.
 
 ## <a name="signing-out-of-microsoft-teams-after-completing-modern-authentication"></a>Saindo do Microsoft Teams depois de concluir a autenticação moderna
-Para sair de equipes, os usuários podem clique em sua foto de perfil, na parte superior do aplicativo e selecione **Sair**. Eles podem também com o botão direito no ícone do aplicativo na sua barra de tarefas e selecione **efetuar logout**. Depois que eles já saírem equipes, elas precisam inserir suas credenciais novamente para iniciar o aplicativo.
+Para sair do Teams, os usuários podem clicar na imagem do perfil na parte superior do aplicativo e, em **** seguida, selecione sair. Eles também podem clicar com o botão direito do mouse no ícone do aplicativo na barra de tarefas e, em seguida, selecionar **logout**. Depois de desconectarem-se do Teams, será necessário inserir suas credenciais novamente para iniciar o aplicativo.
 
 ## <a name="troubleshooting-modern-authentication"></a>Solução de problemas de autenticação moderna
 
-Autenticação moderna está disponível para todas as organizações que usa as equipes, portanto se os usuários não conseguem concluir o processo, pode haver algo errada com seu domínio ou a conta do Office 365 Enterprise da sua organização. 
+A autenticação moderna está disponível para cada organização que usa o Teams, portanto, se os usuários não conseguem completar o processo, pode haver algo errado com o seu domínio ou com a conta corporativa do Office 365 da sua organização. 
 
-Para obter mais informações, consulte [por que estou tendo problemas para entrar na Microsoft Teams?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f).
+Para obter mais informações, consulte [por que estou tendo problemas para entrar no Microsoft Teams?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f).
 

@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Os procedimentos descritos neste tópico foram projetados para orientá-lo no processo de remoção de um pool Front-end do Enterprise Edition ou um servidor front-end padrão da edição. Depois de migrar para o Skype for Business Server 2019, esta é uma das primeiras etapas para descomissionar o ambiente herdado.
-ms.openlocfilehash: 62e9552f8781d753e5e03e8aa4f23ad67d40dbce
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 611f9c3129b46026c55c2184ea8416bbe8a1f26c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301101"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244174"
 ---
 # <a name="remove-the-front-end-server"></a>Remover o Servidor Front-End
 

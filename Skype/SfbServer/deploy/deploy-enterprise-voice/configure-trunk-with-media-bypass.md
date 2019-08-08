@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: 'Resumo: configurar um tronco com bypass de mídia habilitado para o Skype for Business Server. Isso permitirá que você minimize o número de servidores de mediação, supondo que o seu provedor de tronco SIP dê suporte a ele.'
-ms.openlocfilehash: 29fd1d4e978306f58e99b4a75cb5255863139888
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3b51cedfbead08cd70b543e9019c351adcc2a4eb
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289101"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233668"
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>Configurar um tronco com bypass de mídia no Skype for Business Server
 
@@ -53,7 +53,7 @@ Uma configuração de tronco, como descrita abaixo, agrupa um conjunto de parâm
    - **Tronco do pool**: Escolha o nome do tronco ao qual essa configuração de tronco se aplica. Esse tronco pode ser o tronco raiz ou qualquer tronco adicional definido no construtor de topologias. Em **Selecionar um Serviço**, clique em **OK**. Observe que se uma configuração de tronco já tiver sido criada para um tronco específico, o tronco não aparecerá em **Selecionar um Serviço**.
 
       > [!NOTE]
-      > Depois de selecionar o escopo da configuração de tronco, ele não poderá ser alterado. > o campo **Name** está preenchido previamente com o nome do site ou serviço associado da configuração do tronco e não pode ser alterado.
+      > Depois de selecionar o escopo da configuração de tronco, ele não poderá ser alterado. > o campo **nome** está previamente preenchido com o nome do site ou serviço associado de configuração de tronco e não pode ser alterado.
 
 4. Especifique um valor em **Máximo de caixas de diálogo iniciais com suporte**. Este é o número máximo de respostas bifurcadas que um gateway de rede de telefonia comutada pública (PSTN), IP-PBX, ou Controlador de Borda de Sessão (SBC) ITSP pode receber para um INVITE enviado para o Servidor de Mediação. O valor padrão é 20.
 

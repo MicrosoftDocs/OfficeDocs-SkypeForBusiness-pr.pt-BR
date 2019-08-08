@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: 'Resumo: Leia este tópico para saber como configurar a experiência do cliente para usuários do Skype for Business.'
-ms.openlocfilehash: bf6245b5b26875c7437990f09dd101ece01b1b47
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ea1d38693291ebfa7d7cc4f8893b0aa6ec1c0d83
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298281"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234448"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>Configurar a experiência do cliente com o Skype for Business 2015
  
@@ -75,7 +75,7 @@ Get-CsUser -LDAPFilter "Department=Sales" | Grant-CsClientPolicy -PolicyName Sal
 
 ## <a name="first-launch-client-behaviors"></a>Comportamentos do cliente na primeira inicialização
 
-Por padrão, quando os usuários iniciam o Skype for Business 2015 pela primeira vez, eles sempre verão a interface do usuário do Skype for Business, mesmo que você tenha selecionado a experiência do cliente do Lync definindo o valor do $false parâmetro EnableSkypeUI como descrito tenha. Após alguns minutos, os usuários serão solicitados a mudar para o modo Lync.
+Por padrão, quando os usuários iniciam o Skype for Business 2015 pela primeira vez, eles sempre verão a interface do usuário do Skype for Business, mesmo que você tenha selecionado a experiência do cliente do Lync definindo o valor do $False parâmetro EnableSkypeUI como descrito tenha. Após alguns minutos, os usuários serão solicitados a mudar para o modo Lync.
   
 Se você quiser exibir a interface do usuário do Lync quando os usuários iniciarem o cliente Skype for Business pela primeira vez, siga estas etapas antes de o cliente ser iniciado pela primeira vez após ser atualizado:
   

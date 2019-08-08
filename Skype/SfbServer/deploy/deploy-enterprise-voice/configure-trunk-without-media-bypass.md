@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: 'Resumo: configurar um tronco sem a bypass de mídia habilitada para o Skype for Business Server.'
-ms.openlocfilehash: 1e81f0d700d6dff90eb0bb0f6f61a8810f14bd97
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c60217b6dc127616dfbaf9590c43adec25c20eff
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289087"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233661"
 ---
 # <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>Configurar um tronco sem bypass de mídia no Skype for Business Server
 
@@ -46,7 +46,7 @@ Uma configuração de tronco, como descrito abaixo, agrupa um conjunto de parâm
    - **Tronco do pool**: escolha um nome para o tronco ao qual essa configuração de tronco se aplica em **Selecionar um Serviço** e clique em **OK**. Esse tronco pode ser o tronco raiz ou qualquer tronco adicional definido no construtor de topologias. Observe que se uma configuração de tronco já tiver sido criada para um tronco específico, o tronco não aparecerá em **Selecionar um Serviço**.
 
      > [!NOTE]
-     > Depois de selecionar o escopo da configuração de tronco, ele não poderá ser alterado. > o campo **Name** é previamente preenchido com o nome do site ou serviço associado da configuração do tronco e não pode ser alterado.
+     > Depois de selecionar o escopo da configuração de tronco, ele não poderá ser alterado. > o campo **nome** está previamente preenchido com o nome do site ou serviço associado de configuração de tronco e não pode ser alterado.
 
 4. Selecione uma das seguintes opções de **Nível de suporte de criptografia**:
 

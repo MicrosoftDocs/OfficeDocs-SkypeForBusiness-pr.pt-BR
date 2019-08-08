@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: Crie ou modifique uma tabela de faixa de órbita de estacionamento de chamada no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 77be47597e5bbb674719ac2b3192efdf4217a3dd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 305404ce74d3aec26741c0e26b999f6227dabe37
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286260"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233458"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>Criar ou modificar uma faixa de opções de estacionamento de chamada no Skype for Business
 
@@ -64,7 +64,7 @@ Utilize um dos seguintes procedimentos para criar ou modificar um intervalo de �
 
    - Se o intervalo de órbita começar com o \* caractere ou #, o intervalo deve ser maior que 100.
 
-   - Valores válidos: devem corresponder à cadeia de caracteres de expressão\\regular ([* | #] ? [1-{0,7}9] \d) | ([1-9] \d{0,8}). Isso significa que o valor deve ser uma cadeia de caracteres que comece \* com o caractere ou # ou um número de 1 a 9 (o primeiro caractere não pode ser zero). Se o primeiro caractere for \* ou #, o seguinte caractere deve ser um número de 1 a 9 (não pode ser zero). Os caracteres subsequentes podem ser qualquer número de 0 a 9 até sete caracteres adicionais (por exemplo, "#6000"\*, "92000"\*, "95551212" e "915551212"). Se o primeiro caractere não \* for ou #, o primeiro caractere deve ser um número de 1 a 9 (não pode ser zero), seguido por até oito caracteres, cada um dos números de 0 a 9 (por exemplo, "915551212", "41212", "300").
+   - Valores válidos: devem corresponder à cadeia de caracteres de expressão\\regular ([* | #]? [ 1-9] \d{0,7}) | ([1-9] \d{0,8}). Isso significa que o valor deve ser uma cadeia de caracteres que comece \* com o caractere ou # ou um número de 1 a 9 (o primeiro caractere não pode ser zero). Se o primeiro caractere for \* ou #, o seguinte caractere deve ser um número de 1 a 9 (não pode ser zero). Os caracteres subsequentes podem ser qualquer número de 0 a 9 até sete caracteres adicionais (por exemplo, "#6000"\*, "92000"\*, "95551212" e "915551212"). Se o primeiro caractere não \* for ou #, o primeiro caractere deve ser um número de 1 a 9 (não pode ser zero), seguido por até oito caracteres, cada um dos números de 0 a 9 (por exemplo, "915551212", "41212", "300").
 
    - Você não deve ter mais do que um total de 50.000 órbitas por pool. Cada intervalo de órbita geralmente possui 100 ou menos órbitas, mas pode ser muito maior contanto que inclua menos do que 10.000 órbitas. Por exemplo, ao invés de especificar um número inicial de "7000000" e um número final de "8000000," considere especificar um número inicial de "7000000" e um número final de "7000100."
 

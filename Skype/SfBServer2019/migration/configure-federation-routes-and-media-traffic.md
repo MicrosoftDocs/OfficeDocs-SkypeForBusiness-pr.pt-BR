@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: A Federação é uma relação de confiança entre dois ou mais domínios SIP que permite que os usuários de organizações separadas se comuniquem entre os limites da rede. Depois de migrar para o pool piloto, você precisa fazer a transição da rota de Federação de seus servidores de borda de versões anteriores para a rota de Federação dos seus servidores de borda do Skype for Business Server 2019.
-ms.openlocfilehash: 6b76932c8b988dbed61cba1470f32a51f6585536
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 50c10a4dced237e59c8dad12b5bdee1ef7d970fe
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298316"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239359"
 ---
 # <a name="configure-federation-routes-and-media-traffic"></a>Configurar rotas de federação e tráfego de mídia
 

@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: cc6a656a-6043-4b9b-85c2-5708b9bb1c06
 description: Implantar o E9-1-1 no Skype for Business Server Enterprise Voice. Inclui os pré-requisitos e a lista de verificação do processo de implantação.
-ms.openlocfilehash: 4373797b8a96f83100a39735cf20b51558eb15d8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a96d425f39b53c970047eb220e0ae9f61b515089
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291267"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233289"
 ---
 # <a name="deploy-emergency-services-in-skype-for-business-server"></a>Implantar serviços de emergência no Skype for Business Server
  

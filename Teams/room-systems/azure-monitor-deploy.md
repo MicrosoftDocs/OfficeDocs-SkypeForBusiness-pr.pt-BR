@@ -5,7 +5,7 @@ author: lanachin
 ms.reviewer: Turgayo
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Este artigo discute como implantar o gerenciamento de dispositivos de salas do Microsoft Teams de maneira integrada e de ponta a ponta usando o Azure monitor.
-ms.openlocfilehash: fd1f1b32bd999c18144831e2458b426bf55ca1a9
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 1f9a6e6ba4da22d8b14f4b1d545c0a6cfb16e14b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433371"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243614"
 ---
 # <a name="deploy-microsoft-teams-rooms-management-with-azure-monitor"></a>Implantar o gerenciamento de salas do Microsoft Teams com o Azure monitor
 
@@ -195,7 +195,7 @@ Você também pode criar seu próprio painel e adicionar apenas os blocos que de
 ### <a name="create-a-tile-that-displays-active-devices"></a>Criar um bloco que exiba dispositivos ativos
 
 1.  Selecione **exibir painel** para começar a adicionar blocos.
-2.  Selecionar a **lista de & de números** da Galeria
+2.  Selecionar **número & lista** da Galeria
 3.  Defina as propriedades **gerais** :<br>
     **Título do Grupo:** Status do Heartbeat<br>
     **Novo grupo:** Selecionado
@@ -213,7 +213,7 @@ Você também pode criar seu próprio painel e adicionar apenas os blocos que de
 
 ### <a name="create-a-tile-that-displays-devices-that-have-connectivity-issues"></a>Criar um bloco que exiba dispositivos com problemas de conectividade
 
-1.  Selecione a **lista de & de números** na galeria e adicione um novo bloco.
+1.  Selecione **número & lista** da galeria e, em seguida, adicione um novo bloco.
 2.  Defina as propriedades **gerais** :<br>
     **Título do Grupo:** Deixar vazio<br>
     **Novo grupo:** Não selecionada
@@ -231,7 +231,7 @@ Você também pode criar seu próprio painel e adicionar apenas os blocos que de
 
 ### <a name="create-a-tile-that-displays-devices-that-have-a-hardware-error"></a>Criar um bloco que exiba dispositivos com um erro de hardware
 
-1.  Selecione a **lista de & de números** na galeria e adicione um novo bloco.
+1.  Selecione **número & lista** da galeria e, em seguida, adicione um novo bloco.
 2.  Defina as propriedades **gerais** :<br>
     **Título do Grupo:** Status do hardware<br>
     **Novo grupo:** Selecionado
@@ -249,7 +249,7 @@ Você também pode criar seu próprio painel e adicionar apenas os blocos que de
 
 ### <a name="create-a-tile-that-displays-microsoft-teams-rooms-operating-system-versions"></a>Criar um bloco que exiba as versões do sistema operacional das salas do Microsoft Teams
 
-1.  Selecione **lista de & de rosca** da galeria e, em seguida, adicione um novo bloco.
+1.  Selecione **rosca & lista** da galeria e, em seguida, adicione um novo bloco.
 2.  Defina as propriedades **gerais** :<br>
     **Título do Grupo:** Detalhes do sistema operacional<br>
     **Novo grupo:** Selecionado
@@ -273,7 +273,7 @@ Você também pode criar seu próprio painel e adicionar apenas os blocos que de
 
 ### <a name="create-a-tile-that-displays-microsoft-teams-rooms-application-versions"></a>Criar um bloco que exibe as versões do aplicativo de salas do Microsoft Teams
 
-1.  Selecione **lista de & de rosca** da galeria e, em seguida, adicione um novo bloco.
+1.  Selecione **rosca & lista** da galeria e, em seguida, adicione um novo bloco.
 2.  Defina as propriedades **gerais** :<br>
     **Título do Grupo:** Detalhes do aplicativo salas do Microsoft Teams<br>
     **Novo grupo:** Selecionado
@@ -297,7 +297,7 @@ Você também pode criar seu próprio painel e adicionar apenas os blocos que de
 
 ### <a name="create-a-tile-that-displays-devices-that-have-an-application-error"></a>Criar um bloco que exiba dispositivos com um erro de aplicativo
 
-1.  Selecione a **lista de & de números** na galeria e adicione um novo bloco.
+1.  Selecione **número & lista** da galeria e, em seguida, adicione um novo bloco.
 2.  Defina as propriedades **gerais** .<br>
     **Título do Grupo:** Deixar vazio<br>
     **Novo grupo:** Não selecionada
@@ -315,7 +315,7 @@ Você também pode criar seu próprio painel e adicionar apenas os blocos que de
 
 ### <a name="create-a-tile-that-displays-devices-that-have-been-restarted"></a>Criar um bloco que exiba os dispositivos que foram reiniciados
 
-1.  Selecione a **lista de & de números** na galeria e adicione um novo bloco.
+1.  Selecione **número & lista** da galeria e, em seguida, adicione um novo bloco.
 2.  Defina as propriedades **gerais** .<br>
     **Título do Grupo:** Deixar vazio<br>
     **Novo grupo:** Não selecionada

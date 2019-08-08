@@ -7,20 +7,21 @@ ms.date: 09/11/2018
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: anach
+audience: admin
 description: Uma visão geral dos recursos de segurança e conformidade do Microsoft Teams, incluindo auditoria e relatórios, pesquisa de conteúdo de conformidade, descoberta eletrônica e muito mais.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7582a7890b13c2879a672f87c90e9e646557dbc0
-ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
+ms.openlocfilehash: d9e9b07ed1ca995d673ef6ea79652cb880c4dff6
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "35768036"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242779"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Visão geral de segurança e conformidade no Microsoft Teams
 ======================================================
@@ -121,10 +122,14 @@ A pesquisa de conteúdo e a descoberta eletrônica não exigem capacitação no 
 <a name="location-of-data-in-teams"></a>Localização dos dados no Microsoft Teams
 -------------------------
 
-Os dados no Microsoft Teams residem na região geográfica associada ao seu locatário do Office 365. Atualmente, o Teams é compatível com as regiões Austrália, Canadá, França, Índia, Japão, Reino Unido, Ásia e África do leste. 
+Os dados no Microsoft Teams residem na região geográfica associada ao seu locatário do Office 365. Atualmente, o Teams é compatível com a Austrália, Canadá, França, Índia, Japão, Reino Unido, Coréia do Sul, África do Sul, Américas, Ásia e África do Sul. 
 
 > [!IMPORTANT]
-> Atualmente, o Microsoft Teams oferece residência de dados na Austrália, no Canadá, na França, no Japão e no Reino Unido para novos locatários. Um novo locatário é definido como aquele que não teve nenhum usuário sequer entrando no Microsoft Teams. Os locatários existentes da Austrália, da Índia e do Japão continuarão a ter seus dados de equipe armazenados na região da Ásia. Os locatários existentes no Canadá continuarão a ter seus dados armazenados nas Américas. Locatários existentes na França e no Reino Unido continuarão a ter seus dados armazenados na região da EMEA.
+> Atualmente, o Microsoft Teams oferece residências de dados na Austrália, no Canadá, na Índia, no Japão, no Reino Unido, na Coréia do Sul e na África do Sul para novos locatários. Um novo locatário é definido como aquele que não teve nenhum usuário sequer entrando no Microsoft Teams. Os locatários existentes da Austrália, Índia, Japão e Coréia do Sul continuarão a ter seus dados de equipe armazenados na região da Ásia. Os locatários existentes no Canadá continuarão a ter seus dados armazenados nas Américas. Locatários existentes na França, no Reino Unido e na África do Sul continuarão a ter seus dados armazenados na região da EMEA.
+
+Mais informações sobre o centro de dados da África do Sul para Teams podem ser encontradas na postagem de blog do Varun Sagar, [o Microsoft Teams inicia a residência de dados do Sul Africana](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-South-Africa-Data-Residency/ba-p/776611).
+
+Mais leituras sobre a residência de dados do Sul do Sul para o Teams vêm cortesia da postagem de blog do Varun Sagar, [o Microsoft Teams inicia a residência de dados do Sul](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-South-Korea-Data-Residency/ba-p/789171).
 
 Para saber mais sobre o lançamento da residência de dados do Microsoft Teams da Índia e do Reino Unido, leia a postagem de Ansuman Acharya no blog, [Microsoft Teams launches India Data Residency, other geos coming soon](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827). 
 

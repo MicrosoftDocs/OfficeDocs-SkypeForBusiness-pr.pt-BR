@@ -6,32 +6,33 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
-description: Saiba mais sobre o uso de equipes em uma locação Multi-Geo-enabled OneDrive do Office 365 e no SharePoint Online.
+audience: admin
+description: Saiba mais sobre como usar o Microsoft Teams em um Office 365 para o OneDrive e o SharePoint Online habilitados para várias regiões.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e90e4a3c1ae2886a01802a805da3464cea3d8b50
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d81554517a42fd05b8f81097dc01f8dc72977c72
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204495"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243826"
 ---
 <a name="teams-experience-in-an-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>A experiência no Teams em um locatário do OneDrive do Office 365 e SharePoint Online com Funcionalidades Multigeográficas
 ===========================================
 
-Microsoft Teams é o software de bate-papo de grupo, o hub para o trabalho em equipe no Office 365. Ele é possibilitado pelo serviço de grupos do Office 365, juntamente com o SharePoint Online e o OneDrive for Business para sua experiência de arquivos. Em um OneDrive for Business/SharePoint Online Multi-Geo locação, no qual o inquilino é estendido para muitos locais geográficos como América do Norte, Europa e Austrália, a experiência de arquivos subjacente for Multi-Geo ciente, para que as equipes de experiência com o arquivo colaboração também está ciente Multi-Geo. Esse é um recurso de ponta principal para que as equipes a superfície arquivos hospedados em vários Geos na sua experiência de arquivos nativos.
+O Microsoft Teams é um software de chat em grupo, o Hub de trabalho em equipe do Office 365. Ele é oferecido pelo serviço grupos do Office 365, juntamente com o SharePoint Online e o OneDrive for Business, para que seus arquivos tenham experiência. Em uma locação de várias regiões do OneDrive for Business/SharePoint Online, na qual o locatário é estendido para muitos locais geográficos, como América do Norte, Europa e Austrália, a experiência de arquivos subjacentes é compatível com várias regiões, para que a experiência do teams com o arquivo a colaboração também reconhece várias regiões. Esta é uma importante funcionalidade de ponta para o uso de arquivos de superfície hospedados em vários GEOS em sua experiência nativa de arquivos.
 
-Por exemplo, em um locatário Contoso com Europa como um satélite Geo e América do Norte como o Geo central, um usuário de satélite Europeu verão seu arquivos OneDrive da guia arquivos no painel esquerdo, embora os arquivos são hospedados no local dos dados Europa e o Stat United es é o local de central de locatário. Além disso, o usuário pode acessar os arquivos usados mais recentemente sob o blade recente do modo de exibição. Arquivos recentes podem incluir arquivos compartilhados com o usuário dos usuários em outros Geos e podem ser administrados em outras localidades Geo estendido para o inquilino. 
+Por exemplo, em um aluguel da contoso com Europa como uma região satélite satélite e na América do Norte como a Geo central, um usuário de satélite Europeu verá os arquivos do OneDrive na guia arquivos no painel esquerdo, embora os arquivos estejam hospedados no local de dados da Europa e na estatística do país es é o local central do locatário. Além disso, o usuário pode acessar os arquivos usados mais recentemente sob a lâmina de exibição recente. Os arquivos recentes podem incluir arquivos compartilhados com o usuário de usuários em outras GEOS e podem ser mestres em outros locais geográficos nos quais o locatário é estendido. 
 
-Site da equipe de um determinado grupo também é Multi-Geo ciente. Ou seja, se um usuário de satélite Europeu está criando uma equipe, o site de grupos correspondente será criado no local Europa e os arquivos associados que o grupo de equipe será mantido em repouso nesse local. Qualquer experiências subsequentes, como carregar um novo arquivo ou a edição do arquivo, serão direcionadas ao local europeu, mantendo a promessa de residência de dados para esses arquivos. Isso é tudo possibilitado pela foundation subjacente se tornando Multi-Geo ciente de grupos do Office 365.
+Um site de grupo específico da equipe também reconhece várias regiões. Ou seja, se um usuário de satélite europeu estiver criando uma equipe, o site de grupos correspondentes será criado no local da Europa e os arquivos associados a esse grupo serão mantidos em repouso nesse local. Quaisquer experiências subsequentes, como carregar um novo arquivo ou editar o arquivo, serão direcionadas para esse local europeu, mantendo a promessa de residência de dados para esses arquivos. Isso é tudo o que se torna possível pelos grupos base do Office 365 com reconhecimento de várias regiões.
 
-Como um locatário Multi-Geo é um único locatário global, durante @ menções satélite os usuários poderão ver seus colegas em todo o mundo, não importa onde residem. 
+Como uma locação de várias regiões é um único locatário global, durante a @ menção, os usuários de satélite poderão ver seus colegas em todo o mundo, onde quer que eles estejam. 
 
-Observe que não estão ciente Multi-Geo conversas em bate-papos e anotações de mensagens Instantâneas dentro a experiência de equipes de reunião e que estão todos mantidos somente dentro do local central do inquilino. Normalmente, as conversas de bate-papo não serão aplicadas às necessidades de residência de dados.
+Observe que as conversas em chats e as anotações de mensagem instantânea da reunião dentro da experiência do usuário não são compatíveis com várias regiões e são mantidas apenas dentro do local central do locatário. Geralmente, as conversas de chat não são aplicadas às necessidades de residência de dados.
 
-Para obter mais informações sobre o Office 365 Multi-Geo, consulte a [página de recursos do Microsoft Multi-Geo](https://aka.ms/multi-geo).
+Para obter mais informações sobre o Office 365 multi-Geo, consulte a [página recursos de várias GEOS da Microsoft](https://aka.ms/multi-geo).

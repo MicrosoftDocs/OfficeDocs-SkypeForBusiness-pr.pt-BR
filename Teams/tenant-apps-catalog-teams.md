@@ -7,21 +7,22 @@ ms.date: 06/20/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: prem
+audience: admin
 description: Orientação para a publicação de aplicativos no catálogo de aplicativos Microsoft Teams locatário.
 localization_priority: Normal
 search.appverid: MET150
 f1keywords: ms.teamsadmincenter.apppolicies.publishtenantapps
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d016fd1c341774115b9b68edafcc47a63e42b0d
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: b8f239a136ae3a2242dba45da5a68e22b8fb29c4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221321"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235093"
 ---
 <a name="publish-apps-in-the-microsoft-teams-tenant-apps-catalog"></a>Publicar aplicativos no catálogo de aplicativos do Microsoft Teams locatário
 =======================================================
@@ -30,20 +31,20 @@ Você pode usar o catálogo de aplicativos Microsoft Teams locatário para testa
 
 O catálogo de aplicativos de locatários do teams permite distribuir aplicativos de linha de negócios que foram criados especificamente para a sua organização e que você depende de realizar funções comerciais essenciais.
 
-Para publicar aplicativos para sua organização, entre no cliente do Microsoft Teams usando as credenciais de administrador global e siga as instruções abaixo.
+Para publicar aplicativos para sua organização, entre no cliente do Microsoft Teams usando uma conta com as funções de administrador global ou administrador do Team Service e siga as instruções abaixo.
 
 ## <a name="publish-an-app-in-the-tenant-apps-catalog-from-the-teams-client"></a>Publicar um aplicativo no catálogo de aplicativos do locatário a partir do cliente do teams
 
 > [!NOTE]
-> Você precisa estar conectado ao cliente do Microsoft Teams usando suas credenciais de administrador global para publicar aplicativos para a sua organização.
+> Você precisa estar conectado ao cliente do Microsoft Teams com uma conta que tenha a função de administrador global de administrador ou Teams Service habilitada para publicar aplicativos para a sua organização. Saiba mais sobre o [uso de funções de administrador para gerenciar](https://docs.microsoft.com/MicrosoftTeams/using-admin-roles)o Microsoft Teams.
 
 ### <a name="get-a-teams-app-package"></a>Obter um pacote de aplicativos do teams
 
-Um pacote do aplicativo Teams é criado usando o [Teams app Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). Depois que tiver o pacote do aplicativo, você poderá adicioná-lo ao catálogo de aplicativos da empresa. Embora todos os usuários no locatário possam ver o catálogo de aplicativos, atualmente somente os administradores globais têm a capacidade de publicá-lo e gerenciá-lo. (Eventualmente, os administradores do teams também poderão fazer isso.)
+Um pacote do aplicativo Teams é criado usando o [Teams app Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). Depois que tiver o pacote do aplicativo, você poderá adicioná-lo ao catálogo de aplicativos da empresa. Embora todos os usuários no locatário possam ver o catálogo de aplicativos, apenas administradores globais e administradores de serviço de equipe têm a capacidade de publicá-lo e gerenciá-lo.
 
 ### <a name="go-to-the-tenant-apps-catalog"></a>Vá para o catálogo de aplicativos do locatário
 
-Inicie o cliente do Microsoft Teams e entre usando suas credenciais de administrador global. Na loja do Microsoft Teams, selecione a nova seção nomeada para a sua organização específica (neste exemplo, contoso). Os usuários em sua organização podem exibir os aplicativos no catálogo e instalá-los para as equipes das quais eles são membros.
+Inicie o cliente do Microsoft Teams e entre usando suas credenciais de administrador do serviço global ou Teams. Na loja do Microsoft Teams, selecione a nova seção nomeada para a sua organização específica (neste exemplo, contoso). Os usuários em sua organização podem exibir os aplicativos no catálogo e instalá-los para as equipes das quais eles são membros.
 
 ![Captura de tela da loja de aplicativos do teams mostrando o catálogo de aplicativos.](media/private-app-store-teams-image01.png)
 

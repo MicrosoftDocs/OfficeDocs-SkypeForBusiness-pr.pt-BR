@@ -6,54 +6,55 @@ manager: serdars
 ms.date: 09/11/2018
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: anach
-description: Saiba mais sobre como as políticas de retenção e como gerenciá-los em equipes.
+description: Saiba como as políticas de retenção e como gerenciá-las no Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3c253569f642a8833d9bfad6677fe1a17624447
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: dc547f30a7ff24b62e93501eba9a46a2e6e3da74
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32205116"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243592"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Políticas de retenção no Microsoft Teams
 
-As equipes conversas são persistentes e retido para sempre por padrão. Com a introdução das políticas de retenção, admins pode configurar políticas de retenção (preservação e exclusão) no & a segurança Centro de conformidade para mensagens de chat e canal de equipes. Isso ajuda as organizações a reter dados para fins de conformidade (isto é, a diretiva de preservação) por um período específico ou se livrar de dados (ou seja, a política de exclusão), se ele é considerado um passivo após um período específico. Políticas de retenção de equipes Certifique-se de que, quando você exclui dados, ele será removido de todos os locais de armazenamento de dados permanentes no serviço equipes. 
+As conversas de equipes são persistentes e mantidas para sempre por padrão. Com a introdução de políticas de retenção, os administradores podem configurar as políticas de retenção (preservação e exclusão) no centro de conformidade do & de segurança para mensagens de chat e de canal de equipe. Isso ajuda as organizações a reter dados para conformidade (especificamente, política de preservação) para um período específico ou livrar-se de dados (ou seja, política de exclusão) se for considerado um passivo após um período específico. As políticas de retenção de equipe garantem que, quando você exclui dados, ele é removido de todos os locais de armazenamento de dados permanentes do serviço Teams. 
 
-Para gerenciar políticas de retenção de equipes, use as configurações e os cmdlets no & de segurança do Office 365 Centro de conformidade em um **Governança dados** > **retenção**.
+Para gerenciar as políticas de retenção do Teams, use as configurações e cmdlets no centro de conformidade do Office 365 Security & em**retenção**de **governança** > de dados.
 
-Políticas de retenção de equipes têm suporte para: 
+As políticas de retenção de equipes oferecem suporte: 
     
-- Preservação: Manter dados de equipes por um período especificado e, em seguida, eu não fizer nada
-- Preservação e, em seguida, excluir: manter dados de equipes por um período especificado e excluir
-- Exclusão: Excluir dados de equipes após um período especificado
+- Preservação: manter os dados do teams por uma duração especificada e, em seguida, não fazer nada
+- Preservação e excluir: manter os dados do teams por uma duração especificada e excluir
+- Exclusão: excluir dados de equipes após uma duração especificada
 
-Políticas de retenção de equipes ainda não suportam:
+As políticas de retenção do teams ainda não dão suporte:
 
-- Políticas de retenção avançada não se aplicam ao chat de equipes e locais de mensagem de canal de equipes
+- Políticas avançadas de retenção não se aplicam a locais de mensagens de canal de chat e equipe do teams
 - Duração de menos de 30 dias
 
-Administradores podem configurar políticas de retenção separados para mensagens de canal de equipes e chats privadas de equipes (1:1 ou 1: muitos chats). Em muitos casos, as organizações considerar os dados de bate-papo privado como mais de uma obrigação de mensagens de canal, que geralmente são mais conversas relacionados ao projeto. Configurar essas diretivas de segurança & Centro de conformidade, **governança de dados** > **retenção**. Ative **equipes mensagens de canal** e **equipes de bate-papos** e, em seguida, definir políticas de retenção desses locais (também é mostradas no diagrama a seguir). 
+Os administradores podem configurar políticas de retenção separadas para chats privados do Teams (1:1 ou 1: muitos chats) e mensagens de canal de equipe. Em muitos casos, as organizações consideram dados de chat privados como uma obrigação mais passiva do que as mensagens de canal, que normalmente são mais conversas relacionadas ao projeto. Configure essas políticas no centro de conformidade & segurança,**retenção**de **governança** > de dados. Ative **mensagens de canal** e chats de **equipe** do Teams e, em seguida, defina as políticas de retenção para esses locais (também mostrado no diagrama abaixo). 
 
-Quando você ativa **as mensagens de canal de equipes**, você pode especificar as equipes ao qual esta política será aplicada. Por exemplo, para as equipes X, Y e Z, o administrador pode definir as políticas de exclusão por 1 ano (selecionando essas equipes individualmente) e aplicar uma política de exclusão de 3 anos para o restante das equipes. 
+Ao ativar **as mensagens de canal**do Teams, você pode especificar as equipes às quais essa política será aplicada. Por exemplo, para Teams X, Y e Z, o administrador pode definir as políticas de exclusão para 1 ano (selecionando essas equipes individualmente) e aplicar uma política de exclusão de 3 anos ao restante das equipes. 
 
-Você pode fazer a mesma coisa por **equipes chats** selecionando usuários específicos e aplicar políticas de retenção exclusivo. 
+Você pode fazer o mesmo para **chats de equipe** selecionando usuários específicos e aplicando políticas exclusivas de retenção. 
 
 ![Diagrama do fluxo de trabalho dos dados do Microsoft Teams para o Exchange e o SharePoint.](media/Retention-Policies.png)
 
 
 > [!IMPORTANT]
-> Os locais de mensagem do canal de equipes e os locais de chats de equipes apenas endereços as conversas de equipes armazenadas em caixas de correio Exchange Online (caixas de correio grupo e usuário). As mensagens são excluídas de todos os locais de armazenamento relevantes, notadamente as caixas de correio, substrate e serviço de bate-papo. 
+> Os locais de mensagens de canal de equipe e os chats de equipe só abordam as conversas de equipe armazenadas nas caixas de correio do Exchange Online (caixas de correio de grupo e de usuário). As mensagens são excluídas de todos os locais de armazenamento pertinentes, ou seja, as caixas de correio, substrato e serviço de chat. 
 > 
-> Para gerenciar políticas de retenção para arquivos de equipes, que são armazenados no OneDrive para negócios e do SharePoint, use suas políticas de retenção.
+> Para gerenciar políticas de retenção para arquivos do Teams, que são armazenados no OneDrive for Business e no SharePoint, use as políticas de retenção.
 
-Por design, as políticas de exclusão para arquivos de equipes são configuradas por meio do SharePoint Online e OneDrive para locais de negócios. Como resultado, é possível que uma política foi possível excluir um arquivo referenciado em uma mensagem de bate-papo ou canal de equipes antes que essas mensagens são excluídas. Nesse caso, o arquivo ainda serão exibidas na mensagem de equipes, mas se você clicar no arquivo, você receberá um erro "Arquivo não encontrado" (Isso também pode acontecer na ausência de uma política, se alguém manualmente exclui um arquivo do SharePoint Online ou do OneDrive for Business).
+Por design, as políticas de exclusão para arquivos do teams são configuradas por locais do SharePoint Online e do OneDrive for Business. Como resultado, é possível que uma política possa excluir um arquivo referenciado em uma mensagem de chat ou um canal de equipe antes de as mensagens serem excluídas. Nesse caso, o arquivo ainda será exibido na mensagem do Teams, mas, se você clicar no arquivo, receberá um erro "arquivo não encontrado" (isso também pode acontecer na ausência de uma política, se alguém excluir manualmente um arquivo do SharePoint Online ou do OneDrive for Business).
 
-Para obter informações detalhadas sobre como configurar as políticas de retenção para o Office 365, leia a [Visão geral das políticas de retenção](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423).
+Para obter informações detalhadas sobre a configuração de políticas de retenção do Office 365, leia [visão geral das políticas de retenção](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423).
  

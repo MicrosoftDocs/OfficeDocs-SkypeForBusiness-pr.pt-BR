@@ -5,22 +5,23 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: Use esta orientação para saber mais sobre os requisitos para a avaliação adequada do ambiente atual para a atualização do teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dca5d06bc4f7947a55c1867c9fab68810713059e
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 97b4ec0c46131c1bfae5ca078e59a366a1b64b51
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494606"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236098"
 ---
 ![Atualize o diagrama de jornada, enfatizando o estágio de preparação técnica] (media/upgrade-banner-tech-readiness.png "Estágios da jornada da atualização, com ênfase no estágio de preparação técnica")
 
@@ -138,15 +139,12 @@ Use a tabela a seguir para capturar os detalhes da rede da sua organização e c
 > | Como fazer (ou quais serão) os usuários em escopo para a migração <br>acessar o Microsoft Teams quando ele estiver no escritório? <br/>Selecione todas as opções que se aplicam. | <input type="checkbox">Conexão NAT roteada <br/> <input type="checkbox">Servidor proxy <br/> <input type="checkbox">Wi-Fi público <br/> <input type="checkbox">Wi-Fi gerenciado (não público) <br/> <input type="checkbox">ExpressRoute (emparelhamento da Microsoft) ||
 > | Se o acesso ao Office 365 é por meio de um servidor proxy, há <br>alguma maneira de ignorar o proxy? | <input type="checkbox">Sim <br/> <input type="checkbox">Não | |
 > | A Rota Expressa está sendo usada atualmente? | <input type="checkbox">Sim <br/> <input type="checkbox">Não <br/> <input type="checkbox">Não, mas está sendo planejada | |
-> | Você realizou uma avaliação de prontidão de rede? <br/>Para obter mais informações, consulte [avaliação de preparação de rede](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness). | <input type="checkbox">Sim <br/> <input type="checkbox">Não | |
+> | Você realizou uma avaliação de prontidão de rede? | <input type="checkbox">Sim <br/> <input type="checkbox">Não | |
 > | Os usuários precisam usar uma VPN quando se conectam ao <br>recursos corporativos remotamente? | <input type="checkbox">Sim <br/> <input type="checkbox">Não | |
 > | Se for usada uma VPN, o tráfego do teams pode ser excluído do <br>a VPN para acessar serviços do Office 365 diretamente? | <input type="checkbox">Sim <br/> <input type="checkbox">Não | |
 > | Sua rede dá suporte a QoS? | <input type="checkbox">Sim <br/> <input type="checkbox">Não | |
 > | Você pode priorizar o tráfego de áudio e vídeo das equipes <br>para impulsionar uma experiência de alta qualidade? | <input type="checkbox">Sim <br/> <input type="checkbox">Não | |
 > | Todos os locais dentro de uma região têm egresso na Internet, <br>ou é um egresso na Internet centralizado para toda a região? | <input type="checkbox">Acesso regional à Internet <br/> <input type="checkbox">Acesso centralizado à Internet | |
-
-> [!TIP]
-> Para calcular a quantidade de largura de banda e outros requisitos de rede para a implantação de voz em nuvem, dependendo dos detalhes e do uso estimado da sua organização, acesse o planejador de [rede](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) no myadvisor. [](https://myadvisor.fasttrack.microsoft.com/)
 
 ## <a name="endpoints"></a>Pontos de extremidade
 

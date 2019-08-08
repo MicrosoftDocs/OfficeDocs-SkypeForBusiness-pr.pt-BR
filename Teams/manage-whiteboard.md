@@ -6,23 +6,24 @@ manager: serdars
 ms.date: 05/24/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: esmather
 search.appverid: MET150
 description: Saiba como usar o aplicativo Web whiteboard (versão prévia) no Microsoft Teams
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 98dad25767c5269b55a186d6d3c460c6fbd27fc6
-ms.sourcegitcommit: e1532a45df1a43d5af7b5370e3444c3971adb450
+ms.openlocfilehash: 40c372c56cc58ad1f1682c48bf70bef60801fce3
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433726"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233253"
 ---
 <a name="manage-the-whiteboard-in-microsoft-teams"></a>Gerenciar o quadro de comunicações no Microsoft Teams
 ==========================================
@@ -42,7 +43,7 @@ Para ativar ou desativar o aplicativo Web whiteboard (versão prévia), faça o 
 
 2. Vá até **Configurações** > **Serviços e suplementos**.
 
-3. Na página de **suplementos do _AMP_ Service** , role para baixo e escolha **whiteboard**.
+3. Na página do **serviço & suplementos** , role para baixo e escolha **whiteboard**.
 
 4. Para ativar o aplicativo do quadro de comunicações, no painel do **quadro de comunicações** , ative ou desative a **** **visualização do quadro de comunicações para toda a sua organização** .
 

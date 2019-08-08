@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: A aparência da linha compartilhada permite que um usuário escolha um representante para atender ou manipular chamadas em seu nome.
-ms.openlocfilehash: 619e011e1af5a765bc86ca6bd68134dc5ab1e9fa
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e2e99d214ef493933ed44d28c4a9cbdaeaab1077
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298651"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243107"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Aparência de linha compartilhada no Microsoft Teams
 
@@ -43,7 +43,12 @@ Os gerentes e representantes precisam ter o Enterprise Voice habilitado. A exper
 
 A aparência da delegação e da linha compartilhada são recursos orientados pelo usuário: não há configurações de administração a serem definidas. Para obter informações sobre como usar o recurso, consulte [compartilhar uma linha telefônica com um representante](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)
 
-O administrador de locatários deve habilitar a delegação pela configuração **TeamsCallingPolicy AllowDelegation** para que esse recurso funcione.
+O administrador de locatários pode habilitar a delegação por meio da configuração **TeamsCallingPolicy AllowDelegation** ou por meio do portal de administração do teams para que esse recurso funcione. 
+
+O administrador de locatários também pode configurar relações de delegação para um usuário no centro de administração do teams. Além disso, o usuário final também pode configurar as relações de delegação diretamente no Teams. O administrador de locatários ou o usuário não pode bloquear a configuração entre si, mas o centro de administração do Teams e o cliente das equipes devem mostrar essa relação com precisão em ambos os locais. 
+
+> [!IMPORTANT]
+> Quando o administrador de locatário desativa a delegação para um usuário (depois que ele é ativado), ele também precisa limpar as relações de delegação desse usuário no centro de administração do teams para evitar roteamento de chamadas incorreto.
 
 ## <a name="shared-line-appearance-feature-availability"></a>Disponibilidade do recurso de aparência da linha compartilhada
 
