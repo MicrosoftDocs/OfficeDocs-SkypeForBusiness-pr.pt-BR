@@ -3,6 +3,7 @@ title: Configurar registros de DNS para implantação de pool piloto
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+audience: Admin
 TOCTitle: Configure DNS records for pilot pool deployment
 ms:assetid: 5c7a6e10-e1e9-4479-9bf9-d4a3e2e09ff0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688072(v=OCS.15)
@@ -10,12 +11,12 @@ ms:contentKeyID: 49733666
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b0425d8adf0e09f3a0d081b1708d7e67e3f53a24
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 18c9bc007eda604ce4894497db4a6ef334315d28
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836083"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233044"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +24,7 @@ ms.locfileid: "34836083"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-dns-records-for-pilot-pool-deployment"></a><span data-ttu-id="2078b-102">Configurar registros de DNS para implantação de pool piloto</span><span class="sxs-lookup"><span data-stu-id="2078b-102">Configure DNS records for pilot pool deployment</span></span>
+# <a name="configure-dns-records-for-pilot-pool-deployment"></a><span data-ttu-id="8063b-102">Configurar registros de DNS para implantação de pool piloto</span><span class="sxs-lookup"><span data-stu-id="8063b-102">Configure DNS records for pilot pool deployment</span></span>
 
 </div>
 
@@ -33,25 +34,25 @@ ms.locfileid: "34836083"
 
 <span> </span>
 
-<span data-ttu-id="2078b-103">_**Tópico da última modificação:** 2012-09-24_</span><span class="sxs-lookup"><span data-stu-id="2078b-103">_**Topic Last Modified:** 2012-09-24_</span></span>
+<span data-ttu-id="8063b-103">_**Tópico da última modificação:** 2012-09-24_</span><span class="sxs-lookup"><span data-stu-id="8063b-103">_**Topic Last Modified:** 2012-09-24_</span></span>
 
-<span data-ttu-id="2078b-104">Antes de implantar o pool piloto do Lync Server 2013, você deve atualizar as entradas do host DNS a para o pool piloto.</span><span class="sxs-lookup"><span data-stu-id="2078b-104">Prior to deploying the Lync Server 2013 pilot pool, you must update the DNS Host A entries for the pilot pool.</span></span> <span data-ttu-id="2078b-105">Para concluir esse procedimento com êxito, você deve estar conectado ao servidor ou domínio no mínimo como membro do grupo Domain admins ou um membro do grupo DnsAdmins.</span><span class="sxs-lookup"><span data-stu-id="2078b-105">To successfully complete this procedure, you should be logged on to the server or domain at minimum as a member of the Domain Admins group or a member of the DnsAdmins group.</span></span>
+<span data-ttu-id="8063b-104">Antes de implantar o pool piloto do Lync Server 2013, você deve atualizar as entradas do host DNS a para o pool piloto.</span><span class="sxs-lookup"><span data-stu-id="8063b-104">Prior to deploying the Lync Server 2013 pilot pool, you must update the DNS Host A entries for the pilot pool.</span></span> <span data-ttu-id="8063b-105">Para concluir esse procedimento com êxito, você deve estar conectado ao servidor ou domínio no mínimo como membro do grupo Domain admins ou um membro do grupo DnsAdmins.</span><span class="sxs-lookup"><span data-stu-id="8063b-105">To successfully complete this procedure, you should be logged on to the server or domain at minimum as a member of the Domain Admins group or a member of the DnsAdmins group.</span></span>
 
-<span data-ttu-id="2078b-106">**Para configurar registros do host DNS A**</span><span class="sxs-lookup"><span data-stu-id="2078b-106">**To configure DNS Host A records**</span></span>
+<span data-ttu-id="8063b-106">**Para configurar registros do host DNS A**</span><span class="sxs-lookup"><span data-stu-id="8063b-106">**To configure DNS Host A records**</span></span>
 
-1.  <span data-ttu-id="2078b-107">No servidor DNS (sistema de nomes de domínio), clique em **Iniciar**, clique em **Ferramentas administrativas**e clique em **DNS**.</span><span class="sxs-lookup"><span data-stu-id="2078b-107">On the Domain Name System (DNS) server, click **Start**, click **Administrative Tools**, and then click **DNS**.</span></span>
+1.  <span data-ttu-id="8063b-107">No servidor DNS (sistema de nomes de domínio), clique em **Iniciar**, clique em **Ferramentas administrativas**e clique em **DNS**.</span><span class="sxs-lookup"><span data-stu-id="8063b-107">On the Domain Name System (DNS) server, click **Start**, click **Administrative Tools**, and then click **DNS**.</span></span>
 
-2.  <span data-ttu-id="2078b-108">Na árvore de console do seu domínio, expanda **zonas de pesquisa direta**e clique com o botão direito do mouse no domínio no qual o Lync Server 2013 será instalado.</span><span class="sxs-lookup"><span data-stu-id="2078b-108">In the console tree for your domain, expand **Forward Lookup Zones**, and then right-click the domain in which Lync Server 2013 will be installed.</span></span>
+2.  <span data-ttu-id="8063b-108">Na árvore de console do seu domínio, expanda **zonas de pesquisa direta**e clique com o botão direito do mouse no domínio no qual o Lync Server 2013 será instalado.</span><span class="sxs-lookup"><span data-stu-id="8063b-108">In the console tree for your domain, expand **Forward Lookup Zones**, and then right-click the domain in which Lync Server 2013 will be installed.</span></span>
 
-3.  <span data-ttu-id="2078b-109">Clique em **novo host (A ou aaaa)**.</span><span class="sxs-lookup"><span data-stu-id="2078b-109">Click **New Host (A or AAAA)**.</span></span>
+3.  <span data-ttu-id="8063b-109">Clique em **novo host (A ou aaaa)**.</span><span class="sxs-lookup"><span data-stu-id="8063b-109">Click **New Host (A or AAAA)**.</span></span>
 
-4.  <span data-ttu-id="2078b-110">Clique em **nome**, digite o nome do host do pool (o nome do domínio é presumido na zona em que o registro é definido e não precisa ser inserido como parte do registro a).</span><span class="sxs-lookup"><span data-stu-id="2078b-110">Click **Name**, type the host name for the pool (the domain name is assumed from the zone that the record is defined in and does not need to be entered as part of the A record).</span></span>
+4.  <span data-ttu-id="8063b-110">Clique em **nome**, digite o nome do host do pool (o nome do domínio é presumido na zona em que o registro é definido e não precisa ser inserido como parte do registro a).</span><span class="sxs-lookup"><span data-stu-id="8063b-110">Click **Name**, type the host name for the pool (the domain name is assumed from the zone that the record is defined in and does not need to be entered as part of the A record).</span></span>
 
-5.  <span data-ttu-id="2078b-111">Clique em **endereço IP**, digite o endereço IP do pool de front-ends.</span><span class="sxs-lookup"><span data-stu-id="2078b-111">Click **IP Address**, type the IP address for the Front End pool.</span></span>
+5.  <span data-ttu-id="8063b-111">Clique em **endereço IP**, digite o endereço IP do pool de front-ends.</span><span class="sxs-lookup"><span data-stu-id="8063b-111">Click **IP Address**, type the IP address for the Front End pool.</span></span>
 
-6.  <span data-ttu-id="2078b-112">Clique em **Adicionar host**e, em seguida, clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="2078b-112">Click **Add Host**, and then click **OK**.</span></span>
+6.  <span data-ttu-id="8063b-112">Clique em **Adicionar host**e, em seguida, clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="8063b-112">Click **Add Host**, and then click **OK**.</span></span>
 
-7.  <span data-ttu-id="2078b-113">Quando terminar, clique em **concluído**.</span><span class="sxs-lookup"><span data-stu-id="2078b-113">When you are finished, click **Done**.</span></span>
+7.  <span data-ttu-id="8063b-113">Quando terminar, clique em **concluído**.</span><span class="sxs-lookup"><span data-stu-id="8063b-113">When you are finished, click **Done**.</span></span>
 
 </div>
 
