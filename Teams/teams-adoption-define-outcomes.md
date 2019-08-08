@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 ms.reviewer: karuanag
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Saiba como medir os resultados e o sucesso de sua habilitação em escala ampla de equipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad55031c06f114a8037715dff859d54f41b05a8c
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 9bb0d3e756f746a625e3831c38c6dd41d4c29d6f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548904"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242399"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Definir os resultados e o sucesso da adoção do Microsoft Teams
 
@@ -66,7 +66,7 @@ Exemplos de resultados em cada categoria são:
  
 Em geral, pense nessas medidas que se agregam para criar um quociente de alteração para a sua empresa desta maneira:
 
-![Medidas tangíveis divididas por um único quociente de alteração igual igual](media/teams-adoption-change-quotient.png)
+![Medidas tangíveis divididas por uma saações individuais = alterar quociente](media/teams-adoption-change-quotient.png)
 
 ## <a name="select-a-service-enablement-strategy"></a>Selecionar uma estratégia de capacitação de serviço
 

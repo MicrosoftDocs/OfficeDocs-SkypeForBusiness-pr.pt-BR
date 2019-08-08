@@ -8,7 +8,7 @@ ms.topic: reference
 ms.assetid: c17e8ea6-b83b-4345-9401-47a6c8b13aad
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
@@ -22,12 +22,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: A Microsoft coleta dados do censo, do uso e do erro para compreender como o Skype for Business está sendo usado e onde os usuários encontram problemas. Os dados são usados para planejar melhorias de produtos.
-ms.openlocfilehash: 532cfe380a9f61043e38768c4c5d7d9c9fa8e9a6
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: ff09801ca4810dcb92d778ca2ad3c85482accddd
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433387"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240969"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Práticas de coleta de dados do Skype for Business e do Microsoft Teams
 

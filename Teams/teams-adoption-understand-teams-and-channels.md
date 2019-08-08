@@ -10,51 +10,51 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba mais sobre como estruturar equipes e canais no Microsoft Teams.
+description: Saiba mais sobre como organizar equipes e canais no Microsoft Teams.
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f85c85c0753bb578f2e6b697194f1b7616ebdf1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5d4ed6cb14322569e851236eba86bc3b4470f8c7
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930322"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240766"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Compreender as equipes e os canais no Microsoft Teams
 
-Os conceitos de equipes e canais são fundamentais para uma implementação produtiva íntegra de Teams da Microsoft. 
+Os conceitos de equipes e canais são fundamentais para uma implementação íntegra e produtiva do Microsoft Teams. 
 
-- Uma equipe é uma coleção de pessoas, conteúdo e ferramentas que funcionam juntas para produzir um resultado de negócios para sua empresa. As equipes são criadas em Grupos do Office 365. Alterações na associação a um grupo do Office 365 são sincronizadas com a equipe. 
+- Uma equipe é um conjunto de pessoas, conteúdo e ferramentas que trabalham em conjunto para produzir um resultado comercial para a sua empresa. As equipes são criadas em Grupos do Office 365. Alterações na associação a um grupo do Office 365 são sincronizadas com a equipe. 
 
-- Canais são os espaços de colaboração dentro de uma equipe em que o trabalho real é feito. 
+- Os canais são os espaços de colaboração dentro de uma equipe na qual o trabalho real está concluído. 
 
-Para ler mais sobre as equipes e canais, consulte [Visão geral das equipes e canais em equipes da Microsoft](teams-channels-overview.md). Para obter orientação abrangente adoção equipes, obtenha o [Guia de adoção de equipes](https:aka.ms/teamstoolkit). Para saber mais sobre as equipes e grupos do Office 365, consulte [grupos do Office 365 e equipes da Microsoft](office-365-groups.md) e [aprender mais sobre os grupos do Office 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Para saber mais sobre equipes e canais, consulte a [visão geral de equipes e canais no Microsoft Teams](teams-channels-overview.md). Para obter orientação de adoção em equipes abrangentes, acesse o [Guia de adoção](https:aka.ms/teamstoolkit)do teams. Para saber mais sobre o Teams e grupos do Office 365, confira [grupos do office 365 e Microsoft Teams](office-365-groups.md) e [saiba mais sobre os grupos do Office 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 
 |  |  |
 |---------|---------|
-| Exibir este pequeno vídeo   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
+| Veja este breve vídeo   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
 
 
 
-Tipos de acesso equipe determinam quem pode ingressar em uma equipe:
+Os tipos de acesso à equipe determinam quem pode ingressar em uma equipe:
 
 - As equipes *privadas* estão restritas aos membros da equipe aprovados pelo(s) proprietário(s) dela. Essa é uma configuração típica para equipes de projeto e equipes virtuais em uma grande organização.
 
-- Equipes *públicas* estão abertas para qualquer pessoa da organização e os usuários podem ingressá-los diretamente. Equipes públicas são úteis para a colaboração em tópicos de interesse geral para pessoas em diferentes departamentos ou para pessoas que trabalham em projetos diferentes. Essa é uma boa configuração padrão para organizações menores.
+- As equipes *públicas* estão abertas para qualquer pessoa na organização, e os usuários podem participar delas diretamente. As equipes públicas são úteis para a colaboração em tópicos de interesse geral para pessoas em diferentes departamentos ou para pessoas que trabalham em diferentes projetos. Essa é uma boa configuração padrão para organizações menores.
 
-## <a name="use-teams-to-drive-cross-organization-collaboration"></a>Use as equipes para colaboração entre organizações de unidade
+## <a name="use-teams-to-drive-cross-organization-collaboration"></a>Usar o Microsoft Teams para conduzir a colaboração entre organizações
 
-É uma prática recomendada usar equipes para aprimorar a colaboração entre organizações e muitos projetos prestam-se a esse modelo. Além disso, os líderes ou divisões dentro de uma organização podem querer uma equipe dedicada para suas próprias pessoas. Considere o organizacional e mostrados na ilustração a seguir de modelos de projeto.
+É uma prática recomendada usar o Microsoft Teams para melhorar a colaboração entre organizações e muitos projetos se entantoão com esse modelo. Além disso, líderes ou divisões dentro de uma organização podem querer uma equipe dedicada para as pessoas. Considere os modelos organizacionais e de projeto mostrados na ilustração a seguir.
 
-![Modelos de projeto e organização](media/teams-adoption-organization-project.png)
+![Modelos de organização e projeto](media/teams-adoption-organization-project.png)
 
-Em uma equipe organizacional (mostrada no lado esquerdo), informações importantes sobre a forma em que a organização seja executado seus negócios, eventos de equipe, estratégias de núcleo e outras informações operacionais, como análises de negócios, podem ser compartilhadas. Para a equipe mostrada à direita, informações do Distrito divididas de canais que representam as categorias que estão sendo realizadas pela equipe de trabalho. Os membros dessa equipe podem ou não podem reportar à mesma pessoa, mas eles estiver participando em orientando os resultados para o bairro.
+Em uma equipe organizacional (mostrada à esquerda), informações importantes sobre a forma pela qual a organização executa seus negócios, eventos de equipe, estratégias essenciais e outras informações operacionais, como análises comerciais, podem ser compartilhadas. Para a equipe exibida à direita, as informações do distrito são divididas em canais que representam as categorias de trabalho que estão sendo realizadas pela equipe. Os membros da equipe podem ou não se reportam para a mesma pessoa, mas estão todos envolvidos na condução dos resultados do distrito.
   
-Você irá trabalhar mais na estrutura do seus equipes em [fase 2](teams-adoption-phase2-experiment.md) da sua implementação.
+Você trabalhará mais na estrutura de suas equipes na [fase 2](teams-adoption-phase2-experiment.md) da implementação.
 
-![Ícone de etapas próximo](media/teams-adoption-next-icon.png) próximo: [criar seus primeiro equipes](teams-adoption-your-first-teams.md)
+![Um ícone que representa a próxima etapa](media/teams-adoption-next-icon.png) seguinte: [criar suas primeiras equipes](teams-adoption-your-first-teams.md)

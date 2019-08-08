@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 description: 'Resumo: saiba como criar ou modificar um plano de discagem usando o painel de controle do Skype for Business Server.'
-ms.openlocfilehash: b2556a6b5a86b895f18db0daf981fd04ea49cda1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 456bd4c46b371da260340fab4e2b7152d14f7924
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291648"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240502"
 ---
 # <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>Criar ou modificar um plano de discagem no Skype for Business Server
 
@@ -50,7 +50,7 @@ ms.locfileid: "34291648"
 5. O campo  **Nome simples** é pré-preenchido com o mesmo nome que aparece no campo  **Nome**. Como opção, é possível editar esse campo para especificar um nome mais descritivo que reflete o site, o serviço ou o usuário ao qual o plano de discagem se aplica.
 
    > [!IMPORTANT]
-   > O **nome simples** deve ser exclusivo entre todos os planos de discagem na sua implantação. Ele não pode exceder os caracteres Unicode do 256, sendo que cada um deles pode ser um caractere numérico ou alfabético, um hífen (-), um ponto (.) ou um sublinhado (_). os caracteres > **não suportados** incluem espaços e caracteres<http://www.ietf.org/rfc/rfc3966.txt>reservados, conforme definidos em RFC 3966 (). Os caracteres reservados que **não têm suporte** no **nome simples** incluem o seguinte: > ";" "/" "?" ":" "@" "&amp;" "=" "+" "$" ","
+   > O **nome simples** deve ser exclusivo entre todos os planos de discagem na sua implantação. Ele não pode exceder os caracteres Unicode do 256, sendo que cada um deles pode ser um caractere numérico ou alfabético, um hífen (-), um ponto (.) ou um sublinhado (_). **não há suporte para** caracteres de > incluir espaços<http://www.ietf.org/rfc/rfc3966.txt>e caracteres reservados conforme definidos em RFC 3966 (). Os caracteres reservados que **não têm suporte** no **nome simples** incluem o seguinte: > ";" "/" "?" ":" "@" "&amp;" "=" "+" "$" ","
 
 6. (Opcional) No campo **Descrição**, você pode digitar informações descritivas adicionais sobre o plano de discagem.
 
@@ -109,7 +109,7 @@ ms.locfileid: "34291648"
 5. (Opcional) Em **Editar Plano de Discagem**, edite o campo **Nome simples**, que é pré-preenchido com o mesmo nome que aparece no campo  **Nome** para especificar um nome mais descritivo que reflita o site, serviço ou usuário para o qual o plano de discagem se aplica.
 
     > [!IMPORTANT]
-    > O **nome simples** deve ser exclusivo entre todos os planos de discagem na implantação do Lync Server 2013. Ele não pode exceder os caracteres Unicode do 256, e cada um deles pode ser um caractere alfabético ou numérico, um hífen (-), um ponto (.), um sinal de adição (+) ou um sublinhado (_). os espaços > não são permitidos no campo **nome simples** .
+    > O **nome simples** deve ser exclusivo entre todos os planos de discagem na implantação do Lync Server 2013. Ele não pode exceder os caracteres Unicode do 256, sendo que cada um deles pode ser um caractere numérico ou alfabético, um hífen (-), um ponto (.), um sinal de adição (+) ou um sublinhado (_). > espaços não são permitidos no campo **nome simples** .
 
 6. (Opcional) No campo **Descrição**, digite informações descritivas sobre o plano de discagem.
 

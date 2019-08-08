@@ -7,20 +7,21 @@ ms.date: 09/25/2017
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: anach
+audience: admin
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Saiba sobre os diferentes modelos de identidade no Microsoft Teams, como Nuvem, Sincronizada e Federada. Conheça também a autenticação multifator.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34e70313d83bfa7873e990a2d77bc165dfd8dfbe
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: fabd8a853202f49fb66c9b796a84beff554afdb5
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234934"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241900"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Modelos de identidade e autenticação no Microsoft Teams
 ==========================================
@@ -53,7 +54,7 @@ Consulte os guias [Escolha de um modelo de registro para o Office 365](https://g
 
 Os planos do Office 365 suportam a autenticação multifator (MFA) que aumenta a segurança dos logins de usuários nos serviços do Office 365. Com a MFA para o Office 365, os usuários devem confirmar pois uma chamada telefônica, uma mensagem de texto ou uma notificação de aplicativo no seu smartphone após inserir corretamente sua senha. O usuário poderá iniciar sessão somente depois que esse segundo fator de autenticação for satisfeito.
 
-Autenticação multifator multi é compatível com qualquer plano do Office 365 que inclui o Microsoft Teams. Os planos de inscrição do Office 365 que incluem o Microsoft Teams são discutidos posteriormente abaixo na seção de Licença.
+A autenticação multifator tem suporte com qualquer plano do Office 365 que inclua o Microsoft Teams. Os planos de inscrição do Office 365 que incluem o Microsoft Teams são discutidos posteriormente abaixo na seção de Licença.
 
 Depois de os usuários estarem inscritos na MFA, na próxima vez que um usuário entrar, ele verá uma mensagem solicitando que configure seu segundo fator de autenticação. Os métodos de autenticação suportados são:
 

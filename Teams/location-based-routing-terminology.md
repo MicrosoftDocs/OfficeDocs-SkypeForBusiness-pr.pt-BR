@@ -7,8 +7,9 @@ ms.date: 2/1/2019
 ms.topic: conceptual
 ms.reviewer: roykuntz
 ms.service: msteams
+audience: admin
 search.appverid: MET150
-description: Saiba a terminologia e conceitos associados ao roteamento baseado no local para roteamento direto.
+description: Aprenda terminologia e conceitos associados ao roteamento baseado em local para roteamento direto.
 localization_priority: Normal
 ms.collection:
 - Teams_ITAdmin_Help
@@ -16,25 +17,25 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8e02f8c9c9371771f41b1fc724bcc2f40ebd69b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9d35b42453ac0eb9d9ae4a3f4c71f4452943a3b0
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245176"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245090"
 ---
 # <a name="location-based-routing-terminology"></a>Terminologia do Roteamento baseado na localização
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
-Aqui estão alguns termos e conceitos que são usados em toda a documentação de roteamento baseados em local. É uma boa ideia estar familiarizado com esses termos e conceitos antes de fazer mais aprofundado para a documentação.
+Veja a seguir alguns termos e conceitos que são usados em toda a documentação de roteamento baseado em local. É uma boa ideia estar familiarizado com estes termos e conceitos antes de ficar mais profundo na documentação.
 
 |Termo  |Descrição  |
 |---------|---------|
-|Regiões de rede     | Uma região de rede contém uma coleção de locais de rede. Por exemplo, se sua organização tiver muitos sites localizados na Índia, você pode escolher designar "Índia" como uma região de rede.        |
-|Sites de rede    | Um site de rede representa um local onde a sua organização tem um local físico, como um escritório, um conjunto de prédios ou um campus. Sites de rede são definidos como uma coleção de subredes IP. Uma prática recomendada para roteamento baseado em local é criar um site separado para cada local que tenha conectividade PSTN exclusiva.  Cada site de rede deve ser associado uma região de rede. Você pode criar um site que está habilitado para roteamento baseado no local ou um site que não está habilitado para roteamento baseado no local. Por exemplo, convém criar um site que não está habilitado para roteamento baseado no local permitir que os usuários habilitados para roteamento baseado no local fazer chamadas PSTN quando estiverem em roaming nesse site. Observe que os sites de rede também podem ser usadas para habilitar e configurar as chamadas de emergência.        |
-|Subredes     |Subredes IP no local onde os pontos de extremidade de equipes podem se conectar à rede devem ser definidas e associados a uma rede definida para impor o bypass de Chamada Tarifada. Várias sub-redes podem ser associados ao mesmo site de rede, mas os múltiplos sites não podem ser associados uma mesma sub-rede. Essa associação de sub-redes permite o roteamento baseado no local localizar os pontos de extremidade geograficamente para determinar se uma determinada chamada PSTN deve ter permissão. Há suporte para sub-redes IPv4 e IPv6. Ao determinar se um ponto de extremidade de equipes está localizado em um site, roteamento baseado em local primeiro verifica um endereço IPv6 correspondente. Se um endereço IPv6 não estiver presente, o roteamento baseado em local procura um endereço IPv4. <br><br>Suporte a IPv6 estiver em andamento e estará disponível por gerais disponibilidade (GA) de roteamento baseados em local.          |
-|Confiáveis endereços IP externos    |Os endereços IP externos confiáveis são Internet endereços IP externos da rede corporativa. Elas determinam se o ponto de extremidade do usuário está dentro da rede corporativa antes de verificar uma correspondência de sites específico. Se IP externo do usuário corresponder a um endereço IP que é definido na lista de confiáveis, roteamento baseado em local verifica para determinar a sub-rede interna, onde o ponto de extremidade do usuário está localizado. Se o endereço IP externo do usuário não corresponder a qualquer endereço IP que é definido na lista de confiáveis, o ponto de extremidade é classificado como sendo em um local desconhecido e todas as chamadas PSTN de ou para um usuário habilitado para roteamento baseado no local são bloqueadas.          |
+|Regiões de rede     | Uma região de rede contém uma coleção de locais de rede. Por exemplo, se a sua organização tiver muitos sites localizados na Índia, você pode optar por designar "Índia" como uma região de rede.        |
+|Sites de rede    | Um site de rede representa um local onde a sua organização tem um local físico, como um escritório, um conjunto de prédios ou um campus. Os sites de rede são definidos como um conjunto de sub-redes IP. Uma prática recomendada para o roteamento baseado em localização é criar um site separado para cada local que tenha conectividade PSTN exclusiva.  Cada site de rede deve estar associado a uma região de rede. Você pode criar um site que está habilitado para roteamento baseado em localização ou um site que não está habilitado para roteamento baseado em local. Por exemplo, talvez você queira criar um site que não esteja habilitado para roteamento baseado em local para permitir que os usuários habilitados para roteamento baseado em localização façam chamadas PSTN quando estiverem em roaming para esse site. Observe que os sites de rede também podem ser usados para habilitar e configurar chamadas de emergência.        |
+|Sub-redes de rede     |As sub-redes IP no local onde os pontos de extremidade da equipe podem se conectar à rede devem ser definidas e associadas a uma rede definida para impor a chamada em tarifas. Várias sub-redes podem estar associadas ao mesmo local de rede, mas vários sites podem não estar associados a uma mesma sub-rede. Essa associação de sub-redes habilita o roteamento baseado em localização para localizar os pontos de extremidade geograficamente para determinar se uma determinada chamada PSTN deve ser permitida. As sub-redes IPv6 e IPv4 são aceitas. Ao determinar se um ponto de extremidade do teams está localizado em um site, o roteamento baseado em local verifica primeiro se há um endereço IPv6 correspondente. Se um endereço IPv6 não estiver presente, o roteamento baseado em local verificará se há um endereço IPv4. <br><br>
+|Endereços IP externos confiáveis    |Os endereços IP externos confiáveis são os endereços IP externos da Internet da rede corporativa. Elas determinam se o ponto de extremidade do usuário está dentro da rede corporativa antes de verificar se há uma correspondência de site específica. Se o IP externo do usuário for compatível com um endereço IP definido na lista de confiáveis, o roteamento baseado em local fará uma verificação para determinar a sub-rede interna na qual o ponto de extremidade do usuário está localizado. Se o endereço IP externo do usuário não corresponder a qualquer endereço IP definido na lista de confiáveis, o ponto de extremidade será classificado como sendo um local desconhecido e as chamadas PSTNs de ou para um usuário habilitado para roteamento baseado em localização serão bloqueadas.          |
 
 ### <a name="related-topics"></a>Tópicos relacionados
 - [Planejar o Roteamento baseado na localização para o Roteamento direto](location-based-routing-plan.md)

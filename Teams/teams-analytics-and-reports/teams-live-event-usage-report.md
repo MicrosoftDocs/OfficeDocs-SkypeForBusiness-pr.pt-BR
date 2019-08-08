@@ -9,18 +9,18 @@ ms.service: msteams
 ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Saiba como usar o relatório de uso de eventos Team Live no centro de administração do Microsoft Teams para obter uma visão geral da atividade de eventos do teams Live em sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9faa11aafa2c5b22bae0f1a77b436047adddaa24
-ms.sourcegitcommit: 5791b98589e64df2e2bcd96f05fd2f869a65861f
+ms.openlocfilehash: f4eacd7df49de824ac6c0a98b7b923331fdee61f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35420528"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239801"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Relatório de uso de eventos ao vivo do Microsoft Teams
 
