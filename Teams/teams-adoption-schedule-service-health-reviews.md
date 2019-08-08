@@ -10,27 +10,27 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba como usar o serviço de relatório de integridade em sua adoção de equipes.
+description: Saiba como usar o relatório de integridade do serviço na adoção de suas equipes.
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8f7958184946ec800c99c819d4707b7f37e9abf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6d1dea1c27dbffb8efd0c71a4fb8b0bec02511a2
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930416"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237822"
 ---
 # <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>Agendar revisões de integridade do serviço para a adoção do Microsoft Teams
 
-Em colaboração com a sua equipe de implementação técnica, planeje armazenar mensalmente avaliações de integridade do serviço para equipes. Essas revisões você compartilharão ideias sobre medidas a seguir:
+Em colaboração com sua equipe de implementação técnica, planeje a manutenção de análises mensais de integridade do serviço para equipes. Nessas análises, você compartilhará ideias nas seguintes medidas:
 
-- **Uso do serviço** – dados de uso ativo e podem incluir informações sobre serviços preteridos ou consumo reduzido como resultado de movimentação para equipes. Geralmente Administrada pelo Gerenciador de serviços ou proprietário do produto para serviços de colaboração.
-- **Integridade do serviço** – qualidade da chamada, integridade da reunião e integridade de serviço gerais. Revisão de qualquer incidentes de suporte e os níveis de tíquetes de assistência técnica. Tópicos de segurança e controle. Geralmente ministrados por equipes de suporte e proteção de informações. 
-- **Mapa do recurso/project** – o que é o agendamento de inclusão de funcionário restantes ou projetos de aprimoramento de colaboração ainda mais? Quais recursos adicionais vai para permitir que sua organização? Geralmente Administrada pelo Gerenciador de serviços ou proprietário do produto para serviços de colaboração em colaboração com participantes de negócios.
-- **Atualização de medir campanha de divulgação e o sucesso do treinamento** – inclui alcance, participação, temas de problemas de comentários importantes e problemas em aberto. Inclua wins principais e histórias de sucesso. 
+- **Uso do serviço** – dados de uso ativo, e pode incluir informações sobre os serviços preteridos ou consumo reduzidos como resultado da mudança para o Teams. Geralmente administrado por gerente de serviço ou proprietário do produto para serviços de colaboração.
+- **Integridade do serviço** – qualidade da chamada, integridade da reunião e integridade geral do serviço. Examine quaisquer incidentes de suporte e níveis de tíquete de assistência técnica. Tópicos de segurança e governança. Geralmente administrada pela proteção de informações e pelas equipes de suporte. 
+- **Roteiro de recursos/projetos** – Qual é o cronograma de projetos de melhoria de colaboração de funcionários Quais recursos adicionais a sua organização vai habilitar? Geralmente liderado por um gerente de serviço ou responsável pelo produto para serviços de colaboração em colaboração com os principais participantes da empresa.
+- **Campanha de conscientização e avaliação de medição de sucesso de treinamento** – inclui o alcance, a participação, os principais comentários e problemas em aberto. Inclua as principais histórias WINS e sucesso. 
 
-Este examinar mensal pode ser bastante formal em grandes organizações ou virtual em empresas menores. É importante compartilhar e monitorar dados para garantir uma íntegro e cada implementação de cada vez mais vibrante do Microsoft Teams. 
+Esta crítica mensal pode ser bastante formal em grandes organizações ou em empresas menores. É importante compartilhar e monitorar esses dados para garantir uma implementação íntegra e cada vez mais vibrantes do Microsoft Teams. 

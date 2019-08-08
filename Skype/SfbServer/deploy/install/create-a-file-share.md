@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
 description: 'Resumo: saiba como criar um compartilhamento de arquivos do Windows Server como parte da instalação do Skype for Business Server. Baixe um teste grátis do Skype for Business Server no centro de avaliação da Microsoft em https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server:.'
-ms.openlocfilehash: d6a34ad4807948a5580fc572628a4fd6333dd9f8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3f539d980d2978ee3be5e8249f869aa234493f32
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292162"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235239"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>Criar um compartilhamento de arquivos no Skype for Business Server
  
@@ -64,7 +64,7 @@ Assista as etapas do vídeo para **criar um compartilhamento de arquivos**:
 > [!NOTE]
 >Se o repositório de arquivos estiver hospedado em um compartilhamento DFS, o seguinte aviso será recebido:
 
-Aviso: não é possível acessar as permissões de\\<domain>\<compartilhamento para "share>".
+Aviso: não é possível acessar as permissões de\\<domain>\<compartilhamento para "compartilhar>".
 
 >Isso é esperado se você não for um administrador no servidor de arquivos ou se for um compartilhamento DFS (Distributed File System). Se as permissões de compartilhamento já tiverem sido configuradas, esse aviso pode ser ignorado. Se for um novo compartilhamento, consulte a documentação para obter detalhes sobre como configurar manualmente as permissões de compartilhamento.
 

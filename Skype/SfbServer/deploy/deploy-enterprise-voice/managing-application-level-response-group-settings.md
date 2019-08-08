@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 description: Gerenciar configurações de grupo de resposta no nível do aplicativo, como configurações de áudio em espera e de toque, no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 500ed8942fb859ce41340c94d0568e9e87b1c3d6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d39569c380abcc22993f7d87fc27143f355e7084
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288523"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240287"
 ---
 # <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>Gerenciando configurações de grupo de resposta no nível do aplicativo no Skype for Business
  

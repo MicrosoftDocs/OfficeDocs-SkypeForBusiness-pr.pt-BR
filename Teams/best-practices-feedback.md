@@ -7,27 +7,28 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 description: Conheça as boas práticas de métodos de feedback do usuário no Microsoft Teams para assegurar a melhor experiência possível para a equipe.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e29c76018f024559d90ff4d07b7dd102a0747b11
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c29a896c520aa6475e0739bc0555090958f35b92
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32194761"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236958"
 ---
 <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Boas práticas de métodos de feedback do usuário no Microsoft Teams
 ===========================================================
 
 A adoção de uma nova experiência de colaboração gira em torno de mudar o comportamento dos seus usuários. As pessoas precisam de treinamento, incentivo e exemplos positivos. É também fundamental que se sintam ouvidas durante a transição. Caso já tenha estabelecido anteriormente métodos de feedback bem-sucedidos na sua organização, considere ampliá-los para incluir a implementação do seu Teams. Se ainda não tiver feito isso antes, considere uma das seguintes abordagens:
 
--   Criando uma equipe pública dentro Teams da Microsoft que qualquer usuário pode ingressar para fornecer comentários sobre sua experiência (lembrando que grupos públicos é limitada a 5.000 usuários).
+-   Criar uma equipe pública no Microsoft Teams que qualquer usuário pode participar para fornecer comentários sobre sua experiência (Lembre-se de que os grupos públicos estão limitados a usuários do 5000).
 
 -   Uso do Yammer para oferecer uma comunidade aberta para boas práticas e suporte para a experiência.
 

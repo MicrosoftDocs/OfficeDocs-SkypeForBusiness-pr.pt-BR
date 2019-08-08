@@ -6,186 +6,187 @@ manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: francoid
+audience: admin
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-voice
 appliesto:
 - Microsoft Teams
-description: Este documento descreve o comportamento de bate-papo, roteamento de chamadas e presença entre usuários das equipes e Skype para os negócios, federados, tanto no locatário com base em modos de TeamsUpgrade atribuídos. Ela inclui as otimizações de roteamento, o comportamento de presença, bem como a alteração do modo de TeamsUpgrade padrão de *legado* para *Ilhas* e a iminente retirada de *legado*.
-ms.openlocfilehash: 3c88bd93805e6c2a33eb2f5c03ee04d4e7d55535
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Este documento descreve o comportamento do chat, o roteamento de chamadas e a presença entre os usuários do Teams e o Skype for Business, tanto no locatário quanto em federado, com base nos modos de TeamsUpgrade atribuídos. Ele inclui otimizações de roteamento, comportamento de presença, bem como a alteração do modo de TeamsUpgrade ** padrão do herdado para as *ilhas* e o afastamento iminente do *herdado*.
+ms.openlocfilehash: 22e931d50c3008a77df6ad6568bd50acbe891c8b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929101"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236906"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistência com o Skype for Business
 
-Coexistência e interoperabilidade entre os usuários e Skype para clientes empresariais e equipes é definida por TeamsUpgrade modos, descritos na [migração e orientações de interoperabilidade para organizações que usam equipes em conjunto com o Skype para negócios](migration-interop-guidance-for-teams-with-skype.md).
+A coexistência e interoperabilidade entre os clientes e os clientes do Skype for Business e do teams é definida pelos modos TeamsUpgrade, descritas em [orientação de migração e interoperabilidade para organizações que usam o Microsoft Teams em conjunto com o Skype for Business](migration-interop-guidance-for-teams-with-skype.md).
 
-Qualquer usuário sempre será atribuído um modo de TeamsUpgrade, por padrão, ou explicitamente pelo administrador. O valor padrão é *Ilhas*. Atualizado para equipes de usuários têm o modo de *TeamsOnly*. *SfBOnly*, *SfBWithTeamsCollab*e *SfBWithTeamsCollabAndMeetings* também são modos possíveis.
+Qualquer usuário sempre será atribuído um modo TeamsUpgrade, por padrão ou explicitamente pelo administrador. O valor padrão é *ilhas*. Os usuários atualizados para o Microsoft Teams têm o modo de *TeamsOnly*. *SfBOnly*, *SfBWithTeamsCollab*e *SfBWithTeamsCollabAndMeetings* também são possíveis modos.
 
 
 ## <a name="routing-parameters"></a>Parâmetros de roteamento
 
-O modo de TeamsUpgrade do destinatário é a chave na determinação o comportamento de bate-papos, chamadas e presença, dentro de um inquilino e entre locatários federados.
+O modo TeamsUpgrade do destinatário é fundamental para determinar o comportamento de chats, chamadas e presença, ambos dentro de um locatário e entre locatários federados.
 
-Se o remetente está usando equipes, a decisão de roteamento é feita ao criar um novo thread de conversação. Threads de conversa existente em equipes sempre retêm o método de roteamento determinado quando o thread foi criado: equipes suporta segmentos persistentes.
+Se o remetente estiver usando o Microsoft Teams, a decisão de roteamento será feita durante a criação de um novo thread de conversa. Os threads de conversa existentes no Teams sempre mantêm o método de roteamento determinado quando o thread foi criado: o Teams dá suporte a threads persistentes.
 
- Métodos de roteamento de thread são:  
+ Os métodos de roteamento de thread são:  
 
-- *nativo* para uma conversa de equipes em locatário as equipes
-- *interoperabilidade* para um equipes Skype para conversa de negócios no locatário
-- *federados* para uma conversa federado entre locatários
+- *nativo* para uma conversa do teams in Teams in-Tenant
+- ** interoperabilidade para uma equipe do Skype for Business conversa no locatário
+- *federado* para uma conversa federada entre locatários
 
 Os parâmetros que determinam o método de roteamento de thread são:
 
-- O modo de TeamsUpgrade do destinatário
-- O cliente utilizado pelo remetente
-- Se a conversa for novo ou parte de um thread existente
-- Se a conversa é no locatário ou federados
+- O modo TeamsUpgrade do destinatário
+- O cliente usado pelo remetente
+- Se a conversa é nova ou parte de um thread existente
+- Se a conversa é no locatário ou federado
 - Se a conversa é possível
-    - Interoperabilidade de *no locatário* requer que o inquilino é puro online ou Skype para o híbrido de negócios. Puramente local inquilinos não podem ter interoperabilidade no inquilino.
-    - *A federação de locatário entre* sempre requer Skype adequado para configuração da federação de negócios, bem como a configuração apropriada de federação de equipes de ambos os locatários. Skype para o híbrido de negócios não é necessário de um inquilino.
-    - Se o Skype para a conta de negócios do originador hospedados no local, o que o usuário não pode usar o cliente de equipes para a interoperabilidade no locatário ou para federação. Esse usuário só pode usar o Skype para o cliente de negócios para interoperabilidade e federação.
-    - As equipes de comunicação de equipes é sempre possíveis no inquilino.
+    - A interoperabilidade *no locatário* requer que o locatário seja puro online ou Skype for Business híbrido. Locatários puramente locais não podem ter interoperabilidade no locatário.
+    - *A Federação entre locatários* sempre exige a configuração de Federação apropriada do Skype for Business, bem como a configuração de Federação apropriada do teams de ambos os locatários. O Skype for Business híbrido não é necessário para o locatário.
+    - Se a conta do Skype for Business do originador for hospedada localmente, esse usuário não poderá usar o cliente do teams para interoperabilidade dentro do locatário ou para Federação. Esse usuário somente pode usar o cliente Skype for Business para interoperabilidade e agrupamento.
+    - O Teams para comunicação de equipes sempre é possível no locatário.
 
 > [!NOTE]
-> Atualmente, todos os federação envolvendo equipes aproveita o Skype para o pipeline de federação de negócios, bem como as equipes – Skype para a interoperabilidade de negócios. Podemos estiver planejando equipes nativas – federação de equipes. O documento presente será atualizado mediante a liberação da federação nativa.
+> Atualmente, todas as federações que envolvem o Teams aproveitam o pipeline de Federação do Skype for Business, bem como as equipes – interoperabilidade do Skype for Business. Estamos planejando equipes nativas – Federação de equipes. O documento atual será atualizado após a publicação da Federação nativa.
 
-# <a name="chat-and-call-routing"></a>Roteamento de chamadas e bate-papo
+# <a name="chat-and-call-routing"></a>Chat e encaminhamento de chamadas
 
-## <a name="in-tenant-routing-for-new-chats-or-calls"></a>Roteamento de chamadas ou novos chats no locatário 
+## <a name="in-tenant-routing-for-new-chats-or-calls"></a>Roteamento no locatário para novos chats ou chamadas 
 
-As tabelas a seguir capturam o roteamento de chamadas e no locatário chat e são válidas para novas chamadas ou chats não iniciados a partir de um segmento pré-existente. Ele descreve qual cliente receberá uma nova chamada ou bate-papo, se foi originada por um usuário à esquerda, para um usuário de destinatário no locatário à direita.
+As tabelas abaixo encaminham a circulação de chat e chamadas no locatário e são válidas para novas chamadas ou chats que não são iniciados a partir de um thread pré-existente. Ele descreve qual cliente receberá uma nova chamada ou chat, se for originado por um usuário à esquerda, a um usuário do destinatário no locatário à direita.
 
-Mensagens enviadas aos usuários TeamsOnly sempre roteará para equipes. Mensagens enviadas a SfB\* usuários sempre roteará para Skype para os negócios, se a conversa for possível, conforme descrito acima. Mensagens enviadas aos usuários Ilhas sempre roteará para o mesmo cliente do qual eles foram enviados.
+As mensagens enviadas para os usuários do TeamsOnly sempre serão roteadas para o Microsoft Teams. As mensagens enviadas para\* os usuários do SfB sempre direcionarão para o Skype for Business, se a conversa for possível, conforme descrito acima. As mensagens enviadas para as ilhas usuários sempre serão roteadas para o mesmo cliente a partir do qual elas foram enviadas.
 
-As tabelas a seguir mostram qual cliente em um determinado modo receberá uma chamada do originador (três extrema esquerdas colunas), dependendo do modo do originador, o cliente escolhido, e onde os seu Skype para o cliente de negócios está hospedado (em prem ou online).
+As tabelas a seguir mostram qual cliente em um determinado modo receberá uma chamada do originador (três colunas mais à esquerda), dependendo do modo do originador, do cliente escolhido e onde o cliente do Skype for Business é hospedado (local ou online).
 
 Nas tabelas a seguir: 
 - **SfB\* ** representa qualquer um dos seguintes modos: *SfBOnly*, *SfBWithTeamsCollab*, *SfBWithTeamsCollabAndMeetings*.
 
-- *Texto em itálico* realça uma conversa de interoperabilidade.
+- O *texto em itálico* realça uma conversa de interoperabilidade.
 
-- **Não é possível** representa uma situação na qual o bate-papo ou chamada não é possível. O originador deve usar Skype para negócios nesses casos. Este é um dos motivos por que uma orientação prescritiva da Microsoft para clientes no prem/híbrido é usar um modo que não seja Ilhas (geralmente SfBWithTeamsCollab) como ponto de partida da sua atualização jornada às equipes.
+- **Não é possível** representar uma situação na qual o chat ou a chamada não é possível. O originador deve usar o Skype for Business em vez desses casos. Esse é um dos motivos pelos quais a orientação prescritiva da Microsoft para clientes locais/híbridos é usar um modo que não seja ilhas (geralmente SfBWithTeamsCollab) como o ponto de partida da viagem de atualização para o Teams.
 
-**Tabela 1a: novo chat locatário ou para um destinatário de modo Ilhas o roteamento de chamadas**
+**Tabela 1a: novo chat no locatário ou encaminhamento de chamadas para um destinatário do modo de ilhas**
 
-| <br/><br/> Modo | Originador <br/><br/> Cliente | <br/><br/> SfB&nbsp;hospedados | | Destinatário <br/><br/> Ilhas  |
+| <br/><br/> Modo | Criador <br/><br/> Cliente | <br/><br/> SfB&nbsp;homed | | Correspondente <br/><br/> McDonald  |
 |--- |--- |--- |--- |--- |
-| Ilhas | Microsoft Teams <br/> Skype for Business<br/> Microsoft Teams<br/> Skype for Business| Online<br/> Online<br/> Em prem<br/>Em prem| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Microsoft Teams <br/> Skype for Business<br/> Microsoft Teams<br/> Skype for Business|
-|SfB\* <br/> | Skype for Business<br/>Skype for Business<br/> | Online<br/> Em prem<br/> |&boxv;<br/>&boxv;|Skype for Business<br/>Skype for Business<br/>|
+| McDonald | Microsoft Teams <br/> Skype for Business<br/> Microsoft Teams<br/> Skype for Business| Online<br/> Online<br/> Local<br/>Local| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Microsoft Teams <br/> Skype for Business<br/> Microsoft Teams<br/> Skype for Business|
+|SfB\* <br/> | Skype for Business<br/>Skype for Business<br/> | Online<br/> Local<br/> |&boxv;<br/>&boxv;|Skype for Business<br/>Skype for Business<br/>|
 |TeamsOnly |Microsoft Teams| Online<br/>|&boxv;<br/>|Microsoft Teams|
 | | | | | |
 
-**Tabela 1b: chat novo inquilino ou chamada de roteamento para um destinatário em uma SfB\* modo**
+**Tabela 1b: novo chat no locatário ou encaminhamento de chamadas para um destinatário em um\* modo de SfB**
 
-| <br/><br/> Modo   | Originador <br/><br/> Cliente | <br/><br/> SfB&nbsp;hospedados | |   Destinatário <br/><br/> SfB\*   |
+| <br/><br/> Modo   | Criador <br/><br/> Cliente | <br/><br/> SfB&nbsp;homed | |   Correspondente <br/><br/> SfB\*   |
 |--- |--- |--- |---   |--- |
-| Ilhas |Microsoft Teams<br/>Skype for Business<br/>Microsoft Teams <br/>Skype for Business  |Online<br/> Online<br/> Em prem<br/> Em prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business<br/> **Não é possível** <br/>Skype for Business<br/> |
-|SfB\* <br/> | Skype for Business<br/>Skype for Business<br/> | Online<br/> Em prem<br/> |&boxv;<br/>&boxv; |  Skype for Business<br/>Skype for Business<br/> |
+| McDonald |Microsoft Teams<br/>Skype for Business<br/>Microsoft Teams <br/>Skype for Business  |Online<br/> Online<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business<br/> **Não é possível** <br/>Skype for Business<br/> |
+|SfB\* <br/> | Skype for Business<br/>Skype for Business<br/> | Online<br/> Local<br/> |&boxv;<br/>&boxv; |  Skype for Business<br/>Skype for Business<br/> |
 |TeamsOnly |Microsoft Teams| Online<br/>|&boxv;<br/> |  *Skype for Business* <br/>| 
 | | | | | |
 
-**Tabela 1c: novo chat locatário ou para um destinatário de modo TeamsOnly o roteamento de chamadas**
+**Tabela 1C: novo chat no locatário ou encaminhamento de chamadas para um destinatário do modo TeamsOnly**
 
-| <br/><br/> Modo   | Originador <br/><br/> Cliente | <br/><br/> SfB&nbsp;hospedados | |   Destinatário <br/><br/> TeamsOnly  |
+| <br/><br/> Modo   | Criador <br/><br/> Cliente | <br/><br/> SfB&nbsp;homed | |   Correspondente <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
-| Ilhas   |Microsoft Teams<br/>Skype for Business<br/>Microsoft Teams <br/>Skype for Business<br/>|Online<br/> Online<br/> Em prem<br/> Em prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Microsoft Teams <br/>*Microsoft Teams* <br/>Microsoft Teams <br/>*Microsoft Teams*  |
-|SfB\*  | Skype for Business<br/>Skype for Business<br/> | Online<br/> Em prem<br/> | &boxv;<br/>&boxv; | *Microsoft Teams*  <br/>*Microsoft Teams*   |
+| McDonald   |Microsoft Teams<br/>Skype for Business<br/>Microsoft Teams <br/>Skype for Business<br/>|Online<br/> Online<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Microsoft Teams <br/>*Microsoft Teams* <br/>Microsoft Teams <br/>*Microsoft Teams*  |
+|SfB\*  | Skype for Business<br/>Skype for Business<br/> | Online<br/> Local<br/> | &boxv;<br/>&boxv; | *Microsoft Teams*  <br/>*Microsoft Teams*   |
 |TeamsOnly  | Microsoft Teams | Online |  &boxv; |Microsoft Teams   |
 |  |  |  | | |
 
-## <a name="federated-routing-for-new-chats-or-calls"></a>Federados roteamento para chamadas ou chats de novos
+## <a name="federated-routing-for-new-chats-or-calls"></a>Roteamento federado para novos chats ou chamadas
   
-As tabelas a seguir capturam o roteamento de bate-papos e chamadas federadas e são válidas para novas chamadas ou chats. Eles descrevem qual cliente receberá uma nova chamada ou bate-papo, se foi originada por um usuário à esquerda, para um usuário de destino federado à direita.
+As tabelas abaixo encaminham a circulação de chamadas federadas e chats e são válidas para novas chamadas ou chats. Elas descrevem qual cliente receberá uma nova chamada ou chat, se for originado por um usuário à esquerda, a um usuário de destino federado à direita.
 
-Em resumo, se a conversa for possível, conforme descrito acima, as mensagens enviadas aos usuários TeamsOnly serão sempre land em equipes; mensagens enviadas a SfB\* usuários sempre serão land no Skype para negócios; mensagens enviadas aos usuários Ilhas sempre serão land no Skype para negócios independentemente do cliente do qual eles foram enviados. Roteamento para federados bate-papos e chamadas difere no locatário roteamento nessa usuários Ilhas sempre receberá uma comunicação federada no Skype para negócios.
+Em resumo, se a conversa for possível, conforme descrito acima, as mensagens enviadas para os usuários do TeamsOnly sempre irão parar em equipes; as mensagens enviadas para\* usuários do SfB sempre vão parar no Skype for Business; as mensagens enviadas para as ilhas usuários sempre vão parar no Skype for Business, independentemente do cliente do qual foram enviadas. O roteamento de chats federados e chamadas é diferente do roteamento de locatários nessas ilhas que os usuários sempre receberão uma comunicação federada no Skype for Business.
 
-Isso ocorre porque não é possível assumimos que um Skype federado para um parceiro de negócios já usa equipes se eles estão no modo de ilhas. Ilhas é o modo padrão, no entanto, não é possível assumimos que todos os usuários de ilhas executem equipes. Pelo roteamento para Skype para negócios garantimos que nenhuma comunicação a um usuário Ilhas falhar. Se é roteada para equipes, que a comunicação poderão ser perdida se o destino não usou equipes. O roteamento para Skype para negócios garante que a mensagem sempre será recebida.  
+Isso ocorre porque não podemos pressupor que um parceiro federado do Skype for Business já usa o Teams se ele está no modo de ilhas. Ilhas é o modo padrão, no entanto, não podemos supor que todos os usuários de ilhas executam Teams. Ao direcionar para o Skype for Business, garantimos que não há comunicação com um usuário de ilhas. Se encaminhadas para o Microsoft Teams, essa comunicação poderá ser perdida se o destino não usar o Teams. O roteamento para o Skype for Business garante que a mensagem sempre será recebida.  
 
 > [!NOTE]
-> Implementação atual de federação de equipes baseia-se Skype para federação de negócios, portanto, ele aproveita a infraestrutura de interoperabilidade (que exige o locatário do originador seja qualquer puro online ou Skype para o híbrido de negócios) e fornece um conjunto de recursos em comparação com um thread nativo reduzido. Esperamos fornecer equipes nativas à Federação equipes no futuro, ' nesse momento o segmento será nativo e fornecem recursos completos.
+> A implementação atual da Federação do teams é baseada na Federação do Skype for Business, portanto, aproveita a infraestrutura de interoperabilidade (que exige que o locatário do originador seja puro online ou híbrido do Skype for Business) e forneça um conjunto reduzido de recursos comparados a um thread nativo. Esperamos fornecer às equipes nativas a Federação de equipes no futuro, em que o thread será nativo e oferecer recursos completos.
 
-As tabelas a seguir descrevem qual cliente receberá uma chamada do originador (três extrema esquerdas colunas), dependendo do modo do originador, escolhido do cliente, e onde os seu Skype para o cliente de negócios está hospedado (em prem ou online).
+As tabelas a seguir descrevem qual cliente receberá uma chamada do originador (três colunas mais à esquerda), dependendo do modo do originador, do cliente escolhido e do local em que o cliente do Skype for Business está hospedado (local ou online).
 
-**Tabela 2a: federados novo bate-papo ou roteamento de chamadas para um destinatário de ilhas**
+**Tabela 2a: novo chat federado ou encaminhamento de chamadas para um destinatário de ilhas**
 
-| <br/><br/>Modo   | Originador<br/><br/> Cliente| <br/><br/>SfB hospedados| | Destinatário<br/><br/> Ilhas |
+| <br/><br/>Modo   | Criador<br/><br/> Cliente| <br/><br/>SfB homed| | Correspondente<br/><br/> McDonald |
 |--- |--- |--- |--- |--- |
-| Ilhas |Microsoft Teams<br/>Skype for Business <br/>Microsoft Teams <br/>Skype for Business  |Online<br/> Online<br/> Em prem<br/> Em prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **Não é possível**   <br/> Skype for Business |
-| SfB\* |Skype for Business <br/>Skype for Business |Online<br/> Em prem<br/> | &boxv;<br/>&boxv;|Skype for Business <br/>Skype for Business |
+| McDonald |Microsoft Teams<br/>Skype for Business <br/>Microsoft Teams <br/>Skype for Business  |Online<br/> Online<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **Não é possível**   <br/> Skype for Business |
+| SfB\* |Skype for Business <br/>Skype for Business |Online<br/> Local<br/> | &boxv;<br/>&boxv;|Skype for Business <br/>Skype for Business |
 | TeamsOnly |Microsoft Teams |Online| &boxv;|*Skype for Business* |
 |  | | | | 
 
-**Tabela 2b: federados novo bate-papo ou roteamento de chamadas para um destinatário em uma SfB\* modo**
+**Tabela 2B: novo chat federado ou encaminhamento de chamadas para um destinatário em\* um modo de SfB**
 
-| <br/><br/>Modo   | Originador<br/><br/> Cliente| <br/><br/>SfB hospedados| |  Destinatário<br/><br/> SfB\* |  
+| <br/><br/>Modo   | Criador<br/><br/> Cliente| <br/><br/>SfB homed| |  Correspondente<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
-| Ilhas |Microsoft Teams<br/>Skype for Business <br/>Microsoft Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> Em prem<br/> Em prem<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **Não é possível** <br/>Skype for Business <br/> |  
-| SfB\* |Skype for Business <br/>Skype for Business  |Online<br/> Em prem<br/>  |&boxv;<br/>&boxv; | Skype for Business <br/>Skype for Business  |
+| McDonald |Microsoft Teams<br/>Skype for Business <br/>Microsoft Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> Local<br/> Local<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **Não é possível** <br/>Skype for Business <br/> |  
+| SfB\* |Skype for Business <br/>Skype for Business  |Online<br/> Local<br/>  |&boxv;<br/>&boxv; | Skype for Business <br/>Skype for Business  |
 | TeamsOnly | Microsoft Teams|Online |&boxv; |*Skype for Business*  |
 |  | | | | |
 
-**Tabela 2c: federados novo bate-papo ou roteamento de chamadas para um destinatário de modo TeamsOnly**
+**Tabela 2C: novo chat federado ou encaminhamento de chamadas para um destinatário do modo TeamsOnly**
 
-| <br/><br/>Modo | Originador<br/><br/> Cliente| <br/><br/>SfB hospedados| |  Destinatário<br/>  <br/> TeamsOnly  |
+| <br/><br/>Modo | Criador<br/><br/> Cliente| <br/><br/>SfB homed| |  Correspondente<br/>  <br/> TeamsOnly  |
 |--- |--- |--- |--- |--- |
-| Ilhas  |Microsoft Teams<br/>Skype for Business <br/>Microsoft Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> Em prem<br/> Em prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Microsoft Teams <br/>*Microsoft Teams* <br/>**Não é possível** <br/>*Microsoft Teams* |
-| SfB\* |Skype for Business <br/>Skype for Business  | Online<br/> Em prem| &boxv;<br/>&boxv;|*Microsoft Teams* <br/>*Microsoft Teams*   |
+| McDonald  |Microsoft Teams<br/>Skype for Business <br/>Microsoft Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Microsoft Teams <br/>*Microsoft Teams* <br/>**Não é possível** <br/>*Microsoft Teams* |
+| SfB\* |Skype for Business <br/>Skype for Business  | Online<br/> Local| &boxv;<br/>&boxv;|*Microsoft Teams* <br/>*Microsoft Teams*   |
 | TeamsOnly |Microsoft Teams |Online |&boxv; |Microsoft Teams |
 |  | | | | |
 
-## <a name="chats-and-calls-from-pre-existing-threads"></a>Bate-papos e chama a partir de threads pré-existente
+## <a name="chats-and-calls-from-pre-existing-threads"></a>Chats e chamadas de threads preexistentes
 
-### <a name="from-teams"></a>De equipes
+### <a name="from-teams"></a>Do teams
 
-Chamadas ou chats iniciado a partir de um pré-existente segmento persistente em equipes será roteado da mesma maneira como esse thread, se essa opção Roteamento ainda está disponível.
+Chamadas ou chats iniciados a partir de um thread persistente pré-existente no Teams serão roteados da mesma maneira que aquele thread, se essa opção de direcionamento ainda estiver disponível.
 
-Se o segmento persistente pré-existente em equipes era um thread nativo (isto é roteado para equipes), mensagens de chat adicionais e chamadas desse thread irão para equipes. Se foi um thread de interoperabilidade (isto é roteado para Skype for Business), chamadas e mensagens de bate-papo adicionais serão encaminhadas Skype para negócios (novamente supondo roteamento opções estão disponíveis).
+Se o thread persistente pré-existente no Microsoft Teams era um thread nativo (ou seja, roteado para equipes), mensagens de chat e chamadas adicionais desse thread vão para o Teams. Se for um thread de interoperabilidade (ou seja, roteado para o Skype for Business), mensagens de chat e chamadas adicionais vão para o Skype for Business (novamente presumindo que as opções de roteamento estão disponíveis).
 
 > [!NOTE]
-> É possível que pré-existente threads em equipes deixará de ser roteável, como quando o thread foi um thread de interoperabilidade para um usuário que agora é atualizado para equipes. Desde que ela foi criada por um segmento de interoperabilidade, o thread seria rotear para Skype para negócios, mas que o usuário não é mais pode usar Skype for Business para chamadas e bate-papo. Nesse caso, o thread não assinado será desabilitado e não permitir ainda mais a comunicação.
+> É possível que threads pré-existentes no Microsoft Teams não sejam mais roteáveis, como quando o thread era um thread de interoperabilidade para um usuário que agora está atualizado para o Microsoft Teams. Desde que ele foi criado como um thread de interoperabilidade, o thread encaminharia para o Skype for Business, mas esse usuário não pode mais usar o Skype for Business para chat e chamadas. Nesse caso, o thread será desabilitado e não permitirá outras comunicações.
 
-### <a name="from-skype-for-business"></a>Do Skype para negócios
+### <a name="from-skype-for-business"></a>Do Skype for Business
 
-Skype para os segmentos de negócios não persiste além do tempo limite da sessão SIP mín. 10. Bate-papos e chamadas de um thread existente no Skype para negócios antes da expiração da sessão SIP serão roteadas da mesma maneira como o segmento. Chamadas e chats de um thread existente no Skype para negócios além o limite de sessão SIP serão roteadas para Skype do participante remoto para a empresa, independentemente de qual cliente o segmento original é proveniente no lado da outra parte.
+Os threads do Skype for Business não persistem além do tempo limite de sessão SIP de 10 min. Chats e chamadas de um thread existente no Skype for Business antes da expiração da sessão SIP serão roteadas da mesma maneira que o thread. Chamadas e chats de um thread existente no Skype for Business além do tempo limite da sessão SIP serão roteadas para o Skype for Business da parte remota, independentemente do cliente do qual o thread original veio no lado da outra pessoa.
 
 ## <a name="availability"></a>Disponibilidade
 
-Ambos no locatário e federados comportamentos descritos acima estão disponíveis, com as seguintes limitações:
+Os comportamentos de locatário e federado descritos acima estão disponíveis com as seguintes limitações:
 
-- Participantes externos cujos inquilinos residem em uma implantação de GoLocal diferente ou um geografia não verá a mensagem Instantânea em uma reunião "federada" o bate-papo
-- Não há suporte para federação e interoperabilidade entre multi-inquilinos O365 e nuvens Sovereign
+- Os participantes externos cujos locatários residem em uma implantação diferente do GoLocal ou geografia não verão chats de mensagem instantânea enquanto estiverem em uma reunião "federada"
+- Não há suporte para Agrupamento e interoperabilidade entre nuvens multilocatário do O365 e do soberana
 
 # <a name="presence"></a>Presença
 
-Quando você tem uma situação na qual alguns dos usuários estão usando o cliente de equipes e outros ainda estiver usando o Skype para o cliente de negócios, você pode ter um número de usuários que estejam usando ambos os clientes. Deseja continuar a estados de presença para serem compartilhadas com todos os usuários sem relação com os qual um usuário individual tem de cliente. Quando isso é compartilhado em toda a organização, os usuários podem determinar melhor se é apropriado iniciar um bate-papo ou fazer uma chamada.
+Quando alguns usuários estiverem usando o cliente do Microsoft Teams e outros ainda estiverem usando o cliente do Skype for Business, você pode ter vários usuários que estão usando os dois clientes. Você ainda quer que os Estados de presença sejam compartilhados com todos os usuários sem considerar o cliente que um usuário individual tem. Quando isso é compartilhado em toda a organização, os usuários podem determinar melhor se é apropriado iniciar um chat ou fazer uma chamada.
 
-Por exemplo, se o bate-papo ou chamada de um originador deve parar em Skype do destino para o cliente de negócios, ele será o Skype para presença do cliente de negócios que deve ser exibida ao originador. Se ele deve land no cliente de equipes do destino, ele é presença do cliente equipes que deve ser exibida.
+Por exemplo, se o chat ou a chamada de um originador deve se chamar no cliente Skype for Business do alvo, a presença do cliente do Skype for Business que deve ser mostrada para o originador. Se ele deve ser apresentado no cliente do teams do destino, então é a presença do cliente das equipes que deve ser mostrada.
 
-Para saber qual comportamento esperar, você precisará compreender o que a presença é compartilhada com base no modo de coexistência de um usuário:
+Para saber qual comportamento esperar, você precisará compreender que a presença é compartilhada com base no modo de coexistência de um usuário:
 
-* Se um usuário estiver em modo TeamsOnly, qualquer outro usuário (seja expressa em equipes ou Skype para negócios) verá presença de equipes desse usuário TeamsOnly
-* Se um usuário estiver em qualquer uma do SfB\* modos (SfbOnly, SfbWithTeamsCollab, SfbWithTeamsCollabAndMeetings), então qualquer outro usuário (seja expressa em equipes ou Skype para negócios) verão que SfB\* Skype do usuário para a presença de negócios
-* Se um usuário está em Ilhas (ou herdada) modo, a presença em equipes e presença em Skype para negócios são independente (os valores não precisam corresponder) e outros usuários verão uma ou as outras informações de presença do usuário Ilhas, dependendo se eles estão no mesmo inquilino ou em um federat locatário ED e quais clientes utilizarem
-    * De equipes, qualquer outro usuário dentro do mesmo inquilino verá a presença de equipes do usuário Ilhas; Isso é alinhado com a tabela de roteamento no locatário acima
-    * De equipes, qualquer outro usuário em um locatário federado verá Skype do usuário ilhas de presença de negócios; Isso é alinhado com a tabela de roteamento federada acima
-    * Do Skype para os negócios, qualquer outro usuário verá Skype do usuário ilhas de presença de negócios (no locatário e federada); Isso é alinhado com as tabelas de roteamento acima
+* Se um usuário estiver no modo TeamsOnly, qualquer outro usuário (seja no Teams ou no Skype for Business) verá que a presença de equipes do usuário do TeamsOnly
+* Se um usuário estiver em qualquer um dos modos\* de SfB (SfbOnly, SfbWithTeamsCollab, SfbWithTeamsCollabAndMeetings), qualquer outro usuário (seja no Teams ou no Skype for Business) verá a\* presença do SfB do Skype for Business do
+* Se um usuário estiver no modo de ilhas (ou herdado), a presença nas equipes e presença no Skype for Business é independente (os valores precisam não corresponder) e outros usuários verão uma ou outra presença do usuário da Ilhas, dependendo se estiverem no mesmo locatário ou em uma federação locatário Ed e qual cliente ele usa
+    * No Teams, qualquer outro usuário no mesmo locatário verá a presença de equipes do usuário das Ilhas; Isso é alinhado com a tabela de roteamento do locatário acima
+    * No Teams, qualquer outro usuário em um locatário federado verá a presença do Skype for Business do usuário de ilhas; Isso é alinhado com a tabela de roteamento federado acima
+    * No Skype for Business, qualquer outro usuário verá a presença do Skype for Business do usuário das ilhas (dentro do locatário e federado); Isso é alinhado com as tabelas de roteamento acima
 
 
-## <a name="in-tenant-presence"></a>Presença locatário
+## <a name="in-tenant-presence"></a>Presença no locatário
 
-Mensagens enviadas aos usuários TeamsOnly sempre serão land em equipes. Mensagens enviadas a SfB\* usuários sempre serão land no Skype para os negócios, se a conversa for possível, conforme descrito acima. Mensagens enviadas aos usuários Ilhas sempre serão land no cliente que eles foram originou.
+As mensagens enviadas para usuários do TeamsOnly sempre vão para o Microsoft Teams. As mensagens enviadas para\* usuários do SfB sempre vão parar no Skype for Business, se a conversa for possível, conforme descrito acima. As mensagens enviadas para as ilhas usuários sempre vão para o cliente do qual elas se originaram.
 
-A tabela descreve a presença do Publisher que será vista por um Inspetor, dependendo do modo do Editor e o cliente do que o Inspetor (para um novo segmento).
+A tabela descreve a presença do fornecedor que será vista por um observador, dependendo do modo do fornecedor e do cliente do Inspetor (para um novo thread).
 
-**Tabela 3: no locatário presença (novo thread)**
+**Tabela 3: presença no locatário (novo thread)**
 
-|Inspetor <br/><br/>Cliente| |<br/><br/>Ilhas |Publisher <br/><br/>SfB\* |<br/>Somente as equipes|
+|Inspetor <br/><br/>Cliente| |<br/><br/>McDonald |Publisher <br/><br/>SfB\* |<br/>Somente equipes|
 |--- |--- |--- |--- |---|
 |Skype for Business |&boxv;|Skype for Business | Skype for Business | Microsoft Teams|
 |Microsoft Teams |&boxv; |Microsoft Teams |Skype for Business |Microsoft Teams |
@@ -193,25 +194,25 @@ A tabela descreve a presença do Publisher que será vista por um Inspetor, depe
 
 ## <a name="federated-presence"></a>Presença federada
 
-Presença federada baseia-se a capacidade de alcance federada mostrada na tabela 2.
+A presença federada se baseia na acessibilidade federada mostrada na tabela 2.
 
-A tabela abaixo descreve a presença do Publisher que será vista por um Inspetor, dependendo do modo do Editor e o cliente do que o Inspetor (para um novo segmento). Na prática o cliente do que o Inspetor não faz diferença na federação nesse estágio.
+A tabela a seguir descreve a presença do fornecedor que será vista por um observador, dependendo do modo do fornecedor e do cliente do Inspetor (para um novo thread). Na prática, o cliente do inspetor não faz diferença na Federação neste estágio.
 
-**Tabela 4: de presença federada (novo thread)**
+**Tabela 4: presença federada (novo thread)**
 
-|Inspetor <br/><br/> Cliente | |<br/><br/> Ilhas  |Publisher <br/><br/> SfB\* |<br/><br/> Somente as equipes |
+|Inspetor <br/><br/> Cliente | |<br/><br/> McDonald  |Publisher <br/><br/> SfB\* |<br/><br/> Somente equipes |
 |--- |--- |--- |--- |---|
 |Skype for Business |&boxv; |Skype for Business  | Skype for Business  | Microsoft Teams  |
 |Microsoft Teams | &boxv;|Skype for Business |Skype for Business |Microsoft Teams|
 | | | | ||
 
-## <a name="presence-in-pre-existing-threads"></a>Presença em threads pré-existente
+## <a name="presence-in-pre-existing-threads"></a>Presença em threads preexistentes
 
-Para alinhar a presença e a acessibilidade em segmentos pré-existente, a presença do destino exposto nesse thread precisa ser alinhado com o roteamento do thread, é possível considerando roteamento.
+Para alinhar a presença e a acessibilidade em threads pré-existentes, a presença do destino exposta nesse thread precisa ser alinhada com o roteamento do thread, pressupondo que o roteamento seja possível.
 
-Em particular, se um destinatário anteriormente possuía um thread de conversação interoperabilidade persistente com foi atualizado para equipes, que thread deixará de refletir presença precisa e deixará de ser roteável. Você deve iniciar um novo segmento.
+Em particular, se um destinatário com o qual você tinha anteriormente um thread de conversa de interoperabilidade persistente tivesse sido atualizado para o Teams, esse thread não refletirá mais a presença precisa e não será mais roteável. Você deve iniciar um novo thread.
 
 ## <a name="related-links"></a>Links relacionados
 [Orientações de migração e interoperabilidade para organizações que usam o Teams em conjunto com o Skype for Business](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
-[Vídeo: Gerenciar a interoperabilidade entre SfB e equipes e coexistência](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)
+[Vídeo: gerenciar a coexistência e interoperabilidade entre o SfB e o Teams](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

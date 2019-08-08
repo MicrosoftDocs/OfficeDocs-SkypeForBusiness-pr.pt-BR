@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: O procedimento de migração recomendado e compatível com o Skype for Business Server 2019 é migração lado a lado. Este tópico descreve porque você deve usar a migração lado a lado e também inclui informações sobre testes de coexistência.
-ms.openlocfilehash: 179ad56dcf4c31abe8b94fb7131dd27dc68bfd96
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6ef8a70aa436663b7ff88723800375eeef620b6d
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298152"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237776"
 ---
 # <a name="migration-process"></a>Processo de migração
 

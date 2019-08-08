@@ -7,20 +7,21 @@ ms.date: 08/10/2018
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
+audience: admin
 description: Saiba mais sobre como planejar a implementação de recursos de governança no Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7022c700d2b7448625bb9ab627d1b77d780b50e
-ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
+ms.openlocfilehash: eca84b8b8a8a80772b89800ad105ed1b2394224e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "35804861"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237690"
 ---
 # <a name="plan-for-governance-in-teams"></a>Plano de governança no Teams
 

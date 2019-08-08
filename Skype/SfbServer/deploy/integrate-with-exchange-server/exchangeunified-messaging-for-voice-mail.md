@@ -6,18 +6,18 @@ author: lanachin
 manager: serdars
 ms.date: 2/11/2019
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: 'Resumo: configurar o recurso de mensagens de voz do Exchange Server Unified para o Skype for Business Server.'
-ms.openlocfilehash: a1c83b4ec92e6e3b3d678d2d7e0a65f58fc9d6ce
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 514b2159c3836aee4bd6bcfad2b85311280277c4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278182"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238002"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>Configurar a Unificação de Mensagens do Exchange Server para a caixa postal do Skype for Business Server
  
@@ -153,7 +153,7 @@ Ao integrar o Microsoft Skype for Business Server com o Exchange Unified Messagi
 - Cria um grupo coletivo de UM para cada gateway IP do UM. O identificador piloto de cada número coletivo especifica o plano de discagem do URI SIP do UM usado pelo pool de front-end do Skype for Business Server ou do servidor Standard Edition associado ao gateway de IP do UM.
 - Concede permissão do Skype for Business Server para ler objetos do contêiner de UM do Active Directory, como planos de discagem da UM, atendedores automáticos, gateways IP do um e grupos coletivos de UM.
   > [!IMPORTANT]
-  > Cada floresta do UM deve ser configurada para confiar na floresta em que o Skype for Business Server está implantado, e a floresta na qual o Skype for Business Server 2013 está implantado deve ser configurada para confiar em cada floresta do UM. Se o Exchange UM estiver instalado em várias florestas, as etapas de integração do Exchange Server deverão ser realizadas para cada floresta do UM ou você precisará especificar o domínio do Skype for Business Server. Por exemplo, ExchUcUtil. ps1 – Forest: <lync-Domain-Controller-fqdn>. 
+  > Cada floresta do UM deve ser configurada para confiar na floresta em que o Skype for Business Server está implantado, e a floresta na qual o Skype for Business Server 2013 está implantado deve ser configurada para confiar em cada floresta do UM. Se o Exchange UM estiver instalado em várias florestas, as etapas de integração do Exchange Server deverão ser realizadas para cada floresta do UM ou você precisará especificar o domínio do Skype for Business Server. Por exemplo, ExchUcUtil. ps1 – Forest: <Lync-Domain-Controller-FQDN>. 
 
 ### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>Use o Shell para executar o script ExchUcUtil. ps1
 
@@ -164,7 +164,7 @@ Execute o script ExchUcUtil. ps1 em qualquer servidor Exchange em sua organizaç
 > Você deve ter as permissões da função de gerenciamento de organização do Exchange ou ser membro do grupo de segurança Administradores da organização do Exchange para executar o script. 
 
 1. Abra o Shell de gerenciamento do Exchange.
-2. No prompt C:\Windows\System32, digite **CD \<Drive letter>: \Arquivos de Files\Microsoft\Exchange Server\V15\Scripts>. ExchUcUtil. ps1**e, em seguida, pressione Enter.
+2. No prompt C:\Windows\System32, digite a **letra \<da unidade de CD>: \Arquivos de Files\Microsoft\Exchange Server\V15\Scripts>. ExchUcUtil. ps1**e, em seguida, pressione Enter.
 
 #### <a name="how-do-you-know-this-worked"></a>Como saber se funcionou?
 
@@ -189,7 +189,7 @@ O servidor Exchange deve ser configurado com um certificado de servidor para se 
 
 **Para baixar o certificado da CA:**
 
-1. No servidor que executa o Exchange UM, clique em **Iniciar**, clique em **executar**, digite **http://\<nome da sua CA de emissão Server>/certsrv**e, em seguida, clique em **OK**.
+1. No servidor que executa o Exchange UM, clique em **Iniciar**, clique em **executar**, digite **http://\<nome do seu servidor da CA de emissão>/certsrv**e, em seguida, clique em **OK**.
 2. Em Selecione uma tarefa, clique em **baixar um certificado de autoridade de certificação, uma cadeia de certificados ou uma CRL**.
 3. Em **baixar um certificado de autoridade de certificação, uma cadeia de certificados ou uma CRL**, selecione **método de codificação para base 64**e, em seguida, clique em**baixar certificado da CA**.
    > [!NOTE]

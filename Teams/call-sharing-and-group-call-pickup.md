@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Compartilhamento de chamadas e retirada de chamadas em grupo permitem que os usuários compartilhem chamadas com colegas para que as chamadas possam ser capturadas quando o usuário não estiver disponível.
-ms.openlocfilehash: 02c6605f3a5ea1df3457eaadea9956727431a827
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: caf472f9829f9cf68ccb87a5081bc0b5cfae28f8
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283475"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237157"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Compartilhamento de chamadas e atendimento de chamada em grupo no Microsoft Teams
 
@@ -48,11 +48,13 @@ Para configurar o recebimento de chamadas em grupo, um usuário primeiro configu
 
 A criação de grupos de chamadas e preferências de notificação são recursos controlados pelo usuário; os administradores não precisam configurar esses recursos para seus usuários. Os grupos de chamadas não podem ser criados a partir de grupos de segurança ou grupos do Office 365; Elas devem ser criadas no Teams.
 
-Os administradores devem habilitar os grupos de chamadas por meio da configuração **TeamsCallingPolicy AllowCallGroups** para um usuário. Os administradores podem controlar apenas se este usuário pode configurar grupos de chamadas. Quando o bit é definido como true, os administradores não podem impedir que o usuário configure e adicione os usuários do grupo de chamada de sua preferência.
+Os administradores devem habilitar os grupos de chamadas por meio da configuração **TeamsCallingPolicy AllowCallGroups** para um usuário. Os administradores também podem habilitá-lo por meio do portal de administração do teams.  Além disso, o usuário configurado também pode configurar seus grupos de chamadas diretamente por meio do cliente. Os usuários finais ou administradores não podem bloquear a configuração de cada uma, mas o portal de administração do Teams e o cliente das equipes devem mostrar essa relação com precisão em ambos os locais. 
+
+Importante: quando os administradores desativarem os grupos de chamadas para usuários (depois que ele for ativado e os relacionamentos do grupo de chamadas estiverem configurados), os administradores precisarão limpar as relações de grupo de chamadas para usuários no centro de administração do teams para evitar o roteamento de chamadas incorretas. 
 
 ## <a name="limitations"></a>Relacionadas
 
-Um locatário pode conter um máximo de grupos de chamadas do 32.768. Pode haver um máximo de cinco usuários em cada grupo de chamada. 
+Um locatário pode conter um máximo de grupos de chamadas do 32.768. Pode haver no máximo 25 usuários em cada grupo de chamada. 
 
 ## <a name="more-information"></a>Mais informações
 

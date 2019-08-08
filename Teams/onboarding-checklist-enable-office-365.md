@@ -7,20 +7,21 @@ ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
+audience: admin
 description: Siga as tarefas e atividades centrais e necessárias desta lista de verificação ao configurar o Office 365 para o Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f60fa24df90b23583f4ee682c6a9a1ce818794a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 53d20128607a44a0c8a6a9ef520c2a3808e0d495
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33898807"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238392"
 ---
 # <a name="enable-office-365"></a>Ativar o Office 365
  
