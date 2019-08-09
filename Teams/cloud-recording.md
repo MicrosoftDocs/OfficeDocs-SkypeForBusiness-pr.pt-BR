@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Orientações práticas para a implantação dos recursos de Cloud Voice no Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd749e00966c21677019d5d68d12e88287e96b45
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 88f043bec273cb19745e9800fc9cdb85f64c8e7a
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237025"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271387"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Gravação de reuniões na nuvem do Microsoft Teams
 
@@ -32,7 +32,7 @@ Relacionados: [documentação do usuário final da gravação de reunião](https
 Para que as reuniões de um usuário do Team sejam gravadas, o Microsoft Stream deve ser habilitado para o locatário. Além disso, os pré-requisitos a seguir são necessários para o organizador da reunião e para a pessoa que está iniciando a gravação:
 
 - O usuário tem um Office 365 E1, E3, e5, a1, a3, a5, M365, Business Premium ou fundamentos do negócio
-- O usuário precisa ser licenciado para o Microsoft Stream
+- O usuário precisa estar licenciado para o Microsoft Stream<sup>1</sup> 
 - O usuário tem permissões de vídeo de carregamento de fluxo da Microsoft
 - O usuário consentiu nas diretrizes da empresa, se configurado pelo administrador
 - O usuário tem armazenamento suficiente no Microsoft Stream para salvar gravações
@@ -41,6 +41,8 @@ Para que as reuniões de um usuário do Team sejam gravadas, o Microsoft Stream 
 
 > [!NOTE]
 > Além disso, para permitir que a pessoa que inicia a gravação escolha se deseja transcrever automaticamente a gravação, a configuração TeamsMeetingPolicy-AllowTranscription do usuário deve ser definida como true
+
+<sup>1</sup> O usuário precisa ser licenciado para carregar/baixar reuniões no Microsoft Stream, mas não precisa da licença para gravar uma reunião. Se você quiser impedir que um usuário grave uma reunião do Microsoft Teams, deverá conceder um TeamsMeetingPolicy que tenha AllowCloudRecording definido como $False.
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>Configurar a gravação da reunião na nuvem do teams para usuários em sua organização
 

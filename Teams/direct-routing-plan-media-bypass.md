@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Leia este tópico para saber como planejar o bypass de mídia com o roteamento direto do sistema telefônico.
-ms.openlocfilehash: db236b1fadb4dcb13d5405402f469afee9eb2dac
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 70d0b5ea61d0d7a8001bb1dbfabda2c45274e521
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236594"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271441"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planejar o bypass de mídia com Roteamento Direto
 
@@ -155,9 +155,17 @@ As retransmissões de transporte de equipes são sempre no caminho de mídia nos
 Verifique se o seu SBC tem acesso às retransmissões de transporte, conforme descrito abaixo.    
 
 
-## <a name="sip-signaling-fqdns-and-firewall-ports"></a>Sinalização SIP: FQDNs e portas de firewall
+## <a name="sip-signaling-fqdns"></a>Sinalização SIP: FQDNs
 
 Para sinalização SIP, os requisitos de FQDN e de firewall são iguais aos dos casos sem bypass. 
+
+O roteamento direto é oferecido nos seguintes ambientes do Office 365:
+- Office 365
+- Office 365 GCC
+- Office 365 GCC High
+- Office 365 DoD saiba mais sobre os [ambientes do office 365 e do governo dos EUA](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) , como GCC, gcc High e DOD.
+
+### <a name="office-365-and-office-365-gcc-environments"></a>Ambientes do Office 365 e do Office 365 GCC
 
 Os pontos de conexão para roteamento direto são os três FQDNs a seguir:
 
@@ -182,7 +190,43 @@ Os FQDNs **SIP.pstnhub.Microsoft.com**, **SIP2.pstnhub.Microsoft.com**e **sip3.p
 - 52.114.7.24
 - 52.114.14.70
 
-Você precisará abrir portas para todos esses endereços IP no seu firewall para permitir o recebimento e o tráfego de entrada e saída dos endereços para sinalização. Se o seu firewall der suporte a nomes DNS, a **SIP-ALL.PSTNHUB.Microsoft.com** FQDN será resolvida para todos os endereços IP acima. Você deve usar as seguintes portas:
+Você precisa abrir portas para todos esses endereços IP no seu firewall para permitir o recebimento e o tráfego de entrada e saída dos endereços para sinalização. Se o seu firewall der suporte a nomes DNS, a **SIP-ALL.PSTNHUB.Microsoft.com** FQDN será resolvida para todos esses endereços IP. 
+
+### <a name="office-365-gcc-dod-environment"></a>Ambiente do Office 365 GCC DoD
+
+O ponto de conexão para roteamento direto é o seguinte FQDN:
+
+**SIP.pstnhub.DoD.Teams.Microsoft.us** – FQDN global. Como o ambiente DoD do Office 365 existe somente nos data centers dos EUA, não há FQDNs secundários e terciários.
+
+Os FQDNs – sip.pstnhub.dod.teams.microsoft.us serão resolvidos para um dos seguintes endereços IP:
+
+- 52.127.64.33
+- 52.127.68.34
+
+Você precisa abrir portas para todos esses endereços IP no seu firewall para permitir o recebimento e o tráfego de entrada e saída dos endereços para sinalização.  Se o seu firewall der suporte a nomes DNS, a sip.pstnhub.dod.teams.microsoft.us FQDN será resolvida para todos esses endereços IP. 
+
+### <a name="office-365-gcc-high-environment"></a>Ambiente High do Office 365 GCC
+
+O ponto de conexão para roteamento direto é o seguinte FQDN:
+
+**SIP.pstnhub.gov.Teams.Microsoft.us** – FQDN global. Como o ambiente High GCC existe apenas nos data centers dos EUA, não há FQDNs secundários e terciários.
+
+Os FQDNs – sip.pstnhub.gov.teams.microsoft.us serão resolvidos para um dos seguintes endereços IP:
+
+- 52.127.88.59
+- 52.127.92.64
+
+Você precisa abrir portas para todos esses endereços IP no seu firewall para permitir o recebimento e o tráfego de entrada e saída dos endereços para sinalização.  Se o seu firewall der suporte a nomes DNS, a sip.pstnhub.gov.teams.microsoft.us FQDN será resolvida para todos esses endereços IP. 
+
+## <a name="sip-signaling-ports"></a>Sinalização SIP: portas
+
+Os requisitos de porta são iguais para todos os ambientes do Office 365 em que o roteamento direto é oferecido:
+- Office 365
+- Office 365 GCC
+- Office 365 GCC High
+- Office 365 DoD
+
+Você deve usar as seguintes portas:
 
 | Traffic | De | Até | Porta de origem | Porta de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
@@ -210,9 +254,22 @@ Observação: se você tiver um dispositivo de rede que traduz as portas de orig
 
 ### <a name="requirements-for-using-transport-relays"></a>Requisitos para usar retransmissões de transporte
 
-As retransmissões de transporte estão no mesmo intervalo dos processadores de mídia (para casos não bypass): 52.112.0.0/14 (endereços IP de 52.112.0.1 para 52.115.255.254).
+As retransmissões de transporte estão no mesmo intervalo dos processadores de mídia (para casos que não podem ser ignorados): 
 
-O intervalo de portas das retransmissões de transporte de equipes é mostrado na tabela a seguir:
+### <a name="office-365-and-office-365-gcc-environments"></a>Ambientes do Office 365 e do Office 365 GCC
+
+-52.112.0.0/14 (endereços IP de 52.112.0.1 para 52.115.255.254)
+
+## <a name="office-365-gcc-dod-environment"></a>Ambiente do Office 365 GCC DoD
+
+- 52.127.64.0/21
+
+### <a name="office-365-gcc-high-environment"></a>Ambiente High do Office 365 GCC
+
+- 52.127.88.0/21
+
+
+O intervalo de portas das retransmissões de transporte do Teams (aplicáveis a todos os ambientes) é mostrado na tabela a seguir:
 
 
 | Traffic | De | Até | Porta de origem | Porta de destino|
@@ -236,9 +293,21 @@ Você precisa abrir as portas 3478 e 3479 para fazer a transição. Quando a Mic
 Processadores de mídia estão sempre no caminho de mídia para aplicativos de voz e para Web cleints (para exampe, Teams cleint no Microsoft Edge ou Google Chrome). Os requisitos são iguais aos da configuração não bypass.
 
 
-O intervalo IP para tráfego de mídia é 52.112.0.0/14 (endereços IP de 52.112.0.1 para 52.115.255.254).
+O intervalo IP para tráfego de mídia é 
 
-O intervalo de portas dos processadores de mídia é mostrado na tabela a seguir:
+### <a name="office-365-and-office-365-gcc-environments"></a>Ambientes do Office 365 e do Office 365 GCC
+
+-52.112.0.0/14 (endereços IP de 52.112.0.1 para 52.115.255.254)
+
+## <a name="office-365-gcc-dod-environment"></a>Ambiente do Office 365 GCC DoD
+
+- 52.127.64.0/21
+
+### <a name="office-365-gcc-high-environment"></a>Ambiente High do Office 365 GCC
+
+- 52.127.88.0/21
+
+O intervalo de portas dos processadores de mídia (aplicáveis a todos os ambientes) é mostrado na tabela a seguir:
 
 | Traffic | De | Até | Porta de origem | Porta de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|

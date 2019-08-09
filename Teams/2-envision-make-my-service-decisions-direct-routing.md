@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa92fcf7c30ecd8dfcecb84c3463f70ba13ee7ef
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4d3410616cf3e841ab6689ffd0fea772975b484c
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240802"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271430"
 ---
 # <a name="make-my-service-decisions"></a>Fazer minhas decisões de serviço
 
@@ -191,7 +191,7 @@ SBCs exige conectividade bidirecional para se comunicar com os serviços de nuve
 
 Você precisa definir números de porta específicos em cada SBC para sinalização e mídia SIP e configurar seus firewalls para permitir o tráfego bidirecional para essas portas e seus endereços IP associados.
 
-Para obter mais detalhes, consulte [sinalização SIP: FQDNs e portas de firewall](direct-routing-plan.md#sip-signaling-fqdns-and-firewall-ports) e tráfego de [mídia: intervalos de porta](direct-routing-plan.md#media-traffic-port-ranges).
+Para obter mais detalhes, consulte [sinalização SIP: FQDNs](direct-routing-plan.md#sip-signaling-fqdns) e [tráfego de mídia: intervalos de porta](direct-routing-plan.md#media-traffic-port-ranges).
 
 
 > [!NOTE]

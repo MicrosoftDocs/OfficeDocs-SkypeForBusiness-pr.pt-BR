@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: Este artigo descreve as preferências e os padrões do cliente disponíveis para o cliente do Skype for Business no Mac e como editá-los de fora do aplicativo.
-ms.openlocfilehash: 6b343c076d0fd1736cc6974a5c33103f0b6dfcda
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: fe8e6280fc939283bccb02641672a4fec6d5481c
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234187"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271275"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Personalizar a experiência do cliente Mac no Skype for Business
  
@@ -34,7 +34,7 @@ Para definir essas preferências, acesse um prompt de terminal no Mac do cliente
 
 | Chave | Tipo | Valor | Descrição |
 |:-----|:-----|:-----|:-----|
-|AutoDetectAutoDiscoveryURLs    |Bool    |0 = configuração manual do servidor  <br/> 1 = detecção automática do servidor (padrão)    |Especifique como o Skype for Business identifica o transporte e o servidor a serem usados durante a entrada. Se você habilitar essa configuração de política, deverá especificar **internalAutoDiscoveryURL** e **externalAutoDiscoveryURL**.   |
+|autoDetectAutoDicoveryURLs    |Bool    |0 = configuração manual do servidor  <br/> 1 = detecção automática do servidor (padrão)    |Especifique como o Skype for Business identifica o transporte e o servidor a serem usados durante a entrada. Se você habilitar essa configuração de política, deverá especificar **internalAutoDiscoveryURL** e **externalAutoDiscoveryURL**.   |
 |internalAutoDiscoveryURL    |Cadeia de caracteres    |URL completa de descoberta automática    |URL interna de descoberta automática    |
 |externalAutoDiscoveryURL    |Cadeia de caracteres    |URL completa de descoberta automática    |URL externa de descoberta automática    |
 |httpProxyDomain    |Cadeia de caracteres    ||Domínio do Proxy HTTP    |

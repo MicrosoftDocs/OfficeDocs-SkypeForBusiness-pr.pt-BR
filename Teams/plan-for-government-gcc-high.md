@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6478938f26fb911cd3dc8f6ca8a7972cc906dd8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e6aacceaee811a80a9451f26cc1e8cba6ed56a49
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237658"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271376"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Plano para implantações altas do Microsoft 365 governo-GCC
 
@@ -78,14 +78,14 @@ Para acomodar os requisitos de nossos clientes de nuvem governamental, há algum
 |-----------------------------|-----------------------------|----------------|
 | Polybase | Login | Disponível |
 | | Presença | Disponível |
-| | Presença unificada (Skype for Business e equipes unificadas) | Na backlog do governo |
+| | Presença unificada (Skype for Business e equipes unificadas) | Disponível |
 | Atividades | Alimentação | Disponível |
 |  | Minha atividade | Disponível |
 | Chat | Conversa | Disponível |
 | | Arquivos | Disponível |
 | | Organograma | Disponível |
 | | Atividades | Disponível |
-| | Interoperabilidade (Teams 1:1-chat do Skype for Business) | Na backlog do governo |
+| | Interoperabilidade (Teams 1:1-chat do Skype for Business) | Disponível |
 | Microsoft Teams | Mensagem do canal | Disponível |
 | | Arquivos de canal | Disponível |
 | | Guia do OneNote | Na backlog do governo |

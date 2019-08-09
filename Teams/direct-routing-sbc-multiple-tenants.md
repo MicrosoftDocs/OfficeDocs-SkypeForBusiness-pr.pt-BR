@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Saiba como configurar um SBC (controlador de borda de sessão) para atender a vários locatários.
-ms.openlocfilehash: f12e4ac747607a8527021f50794b6fc742ed0b19
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: 33f9c00734ed9e5724c18eb57ceb361bd28df695
+ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "35925477"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "36254015"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar um controlador de borda da sessão para vários locatários
 
@@ -205,7 +205,7 @@ Com a versão inicial do roteamento direto, a Microsoft exigia que um tronco fos
 
 No entanto, isso não provou ideal por dois motivos:
  
-• **Gerenciamento de sobrecarga**. Descarregar ou descarregar um SBC, por exemplo, altera alguns parâmetros, como habilitar ou desabilitar o bypass de mídia. A alteração da porta requer a alteração de parâmetros em vários locatários (executando Set-CSonlinePSTNGateway), mas é, na verdade, o mesmo SBC. • **Processamento de sobrecarga**. Coletando e monitorando dados de integridade do tronco-opções SIP coletadas de vários troncos lógicos que são, na verdade, o mesmo SBC e o mesmo tronco físico, reduzem o processamento dos dados de roteamento.
+• **Gerenciamento de sobrecarga**. Descarregar ou descarregar um SBC, por exemplo, altera alguns parâmetros, como habilitar ou desabilitar o bypass de mídia. A alteração da porta requer a alteração de parâmetros em vários locatários (executando Set-CSOnlinePSTNGateway), mas é, na verdade, o mesmo SBC. • **Processamento de sobrecarga**. Coletando e monitorando dados de integridade do tronco-opções SIP coletadas de vários troncos lógicos que são, na verdade, o mesmo SBC e o mesmo tronco físico, reduzem o processamento dos dados de roteamento.
  
 
 Com base nesses comentários, a Microsoft está trazendo uma nova lógica para provisionar os troncos para os locatários do cliente.
@@ -226,7 +226,7 @@ Lógica de provisionamento e exemplo.
 
 Migração do modelo anterior para o tronco da operadora
  
-Para a migração da implementação atual do modelo hospedado da transportadora para o novo modelo, as operadoras precisarão reconfigurar os troncos para os locatários do cliente. Remova os troncos dos locatários do cliente usando Remove-CSOnluinePSTNGateway (deixando o tronco no locatário da operadora).
+Para a migração da implementação atual do modelo hospedado da transportadora para o novo modelo, as operadoras precisarão reconfigurar os troncos para os locatários do cliente. Remova os troncos dos locatários do cliente usando Remove-CSOnlinePSTNGateway (deixando o tronco no locatário da operadora).
 
 Incentivamos a migração para a nova solução o mais rápido possível, pois vamos melhorar o monitoramento e o provisionamento usando a operadora e o modelo de tronco derivado.
  

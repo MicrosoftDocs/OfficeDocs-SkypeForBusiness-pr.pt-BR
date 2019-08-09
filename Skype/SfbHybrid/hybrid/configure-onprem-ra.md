@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Configurar uma conta de recurso para o Skype for Business Server 2019.
-ms.openlocfilehash: 09663b1c539b561a0dc591590c53d22cdb530fee
-ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
+ms.openlocfilehash: a307a5ed40c52579020f4cd0eef6646afdb15649
+ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36207152"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "36253950"
 ---
 # <a name="configure-resource-accounts"></a>Configurar contas de recurso
 
@@ -31,7 +31,7 @@ Se você tiver um atendedor automático de UM do Exchange e um sistema de fila d
 Se o atendedor automático ou a fila de chamadas do sistema de telefonia precisar de um número de serviço, as várias dependências poderão ser atendidas na seguinte sequência:
 
 1. Obter um número de serviço
-2. Obter um sistema de telefonia livre- [licença de usuário virtual](/MicrosoftTeams/teams-add-on-licensing/virtual-user.md) ou uma licença de sistema de telefonia pago para usar com a conta de recurso.
+2. Obter um sistema de telefonia livre- [licença de usuário virtual](/MicrosoftTeams/teams-add-on-licensing/virtual-user) ou uma licença de sistema de telefonia pago para usar com a conta de recurso.
 3. Criar a conta de recurso. Um atendedor automático ou fila de chamada é necessário para ter uma conta de recurso associada.
 4. Aguarde uma sincronização do Active Directory entre online e local.
 5. Atribua a licença do sistema de telefonia à conta de recurso.

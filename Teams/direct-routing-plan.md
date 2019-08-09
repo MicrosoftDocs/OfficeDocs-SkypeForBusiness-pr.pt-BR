@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Leia este tópico para saber como o roteamento direto do sistema de telefone da Microsoft permite que você conecte um controlador de borda de sessão (SBC) compatível com o cliente ao Microsoft Phone System.
-ms.openlocfilehash: d462875103de900823b6754a9694cdada3a7a3e1
-ms.sourcegitcommit: 7ae59d1091ea086b7253c1d8ce85c28fabc5537a
+ms.openlocfilehash: b675fae995d228d440c5173ec444dce16745717f
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "36166278"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271419"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -55,9 +55,10 @@ Planejar a implantação do roteamento direto é essencial para uma implementaç
 - [Licenciamento e outros requisitos](#licensing-and-other-requirements)
 - [Nomes de domínio SBC](#sbc-domain-names)
 - [Certificado público confiável para o SBC](#public-trusted-certificate-for-the-sbc)
-- [Sinalização SIP: FQDNs e portas de firewall](#sip-signaling-fqdns-and-firewall-ports)
+- [Sinalização SIP: FQDNs](#sip-signaling-fqdns)
+- [Sinalização SIP: portas](#sip-signaling-ports)
 - [Tráfego de mídia: intervalos de porta](#media-traffic-port-ranges)
-- [SBCs compatível](#supported-session-border-controllers-sbcs)
+- [Controladores de borda de sessão com suporte (SBCs)](#supported-session-border-controllers-sbcs)
 
 Para obter informações detalhadas sobre como configurar o roteamento direto, consulte [Configurar o roteamento direto](direct-routing-configure.md).
 
@@ -75,7 +76,7 @@ Os requisitos de infraestrutura para o SBCs, os domínios e outros requisitos de
 |FQDN (nome de domínio totalmente qualificado) para o SBC|Um FQDN para o SBC, no qual a parte do domínio do FQDN é um dos domínios registrados no seu locatário do Office 365. Para obter mais informações, consulte [nomes de domínio SBC](#sbc-domain-names).|
 |Entrada DNS pública para o SBC |Uma entrada DNS pública que associa o endereço IP do SBC ao endereço IP público. |
 |Certificado público confiável para o SBC |Um certificado para o SBC ser usado para todas as comunicações com roteamento direto. Para obter mais informações, consulte [certificado público confiável para o SBC](#public-trusted-certificate-for-the-sbc).|
-|Pontos de conexão para roteamento direto |Os pontos de conexão para roteamento direto são os três FQDNs a seguir:<br/><br/>`sip.pstnhub.microsoft.com`– O FQDN global deve ser tentado primeiro.<br/>`sip2.pstnhub.microsoft.com`– FQDN secundário, mapas geograficamente para a segunda região de prioridade.<br/>`sip3.pstnhub.microsoft.com`– FQDN (FQDN), que é mapeado geograficamente para a terceira região de prioridade.<br/><br/>Para obter informações sobre os requisitos de configuração, consulte [sinalização SIP: FQDNs e portas de firewall](#sip-signaling-fqdns-and-firewall-ports).|
+|Pontos de conexão para roteamento direto |Os pontos de conexão para roteamento direto são os três FQDNs a seguir:<br/><br/>`sip.pstnhub.microsoft.com`– O FQDN global deve ser tentado primeiro.<br/>`sip2.pstnhub.microsoft.com`– FQDN secundário, mapas geograficamente para a segunda região de prioridade.<br/>`sip3.pstnhub.microsoft.com`– FQDN (FQDN), que é mapeado geograficamente para a terceira região de prioridade.<br/><br/>Para obter informações sobre os requisitos de configuração, consulte [sinalização SIP: FQDNs](#sip-signaling-fqdns).|
 |Endereços IP e portas do firewall para mídia de roteamento direto |O SBC se comunica com os seguintes serviços na nuvem:<br/><br/>Proxy SIP, que manipula a sinalização<br/>Processador de mídia, que manipula mídia-exceto quando a mídia ignorada está ativada<br/><br/>Esses dois serviços têm endereços IP separados no Microsoft Cloud, descritos mais adiante neste documento.<br/><br/>Para obter mais informações, consulte a [seção Microsoft Teams](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) nas [URLs e intervalos de endereços IP do Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |Perfil de transporte de mídia|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
 Endereços IP e portas do firewall para mídia do Microsoft Teams |Para obter mais informações, consulte [URLs e intervalos de endereços IP do Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
@@ -169,7 +170,17 @@ O certificado precisa ser gerado por uma das seguintes autoridades de certifica�
 
 A Microsoft está trabalhando para adicionar outras autoridades de certificação com base nas solicitações dos clientes. 
 
-## <a name="sip-signaling-fqdns-and-firewall-ports"></a>Sinalização SIP: FQDNs e portas de firewall 
+## <a name="sip-signaling-fqdns"></a>Sinalização SIP: FQDNs 
+
+O roteamento direto é oferecido nos seguintes ambientes do Office 365:
+- Office 365
+- Office 365 GCC
+- Office 365 GCC High
+- Office 365 DoD
+
+Saiba mais sobre os [ambientes do Office 365 e do governo dos EUA](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) , como GCC, gcc High e DOD.
+
+### <a name="office-365-and-office-365-gcc-environments"></a>Ambientes do Office 365 e do Office 365 GCC
 
 O ponto de conexão para roteamento direto são os três FQDNs a seguir:
 
@@ -191,7 +202,44 @@ Os FQDNs – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com e sip3.pstnhu
 - 52.114.7.24 
 - 52.114.14.70
 
-Você precisará abrir portas para todos esses endereços IP no seu firewall para permitir o recebimento e o tráfego de entrada e saída dos endereços para sinalização.  Se o seu firewall der suporte a nomes DNS, a sip-all.pstnhub.microsoft.com FQDN será resolvida para todos os endereços IP acima.  Você deve usar as seguintes portas:
+Você precisa abrir portas para todos esses endereços IP no seu firewall para permitir o recebimento e o tráfego de entrada e saída dos endereços para sinalização.  Se o seu firewall der suporte a nomes DNS, a sip-all.pstnhub.microsoft.com FQDN será resolvida para todos esses endereços IP. 
+
+
+### <a name="office-365-gcc-dod-environment"></a>Ambiente do Office 365 GCC DoD
+
+O ponto de conexão para roteamento direto é o seguinte FQDN:
+
+**SIP.pstnhub.DoD.Teams.Microsoft.us** – FQDN global. Como o ambiente DoD do Office 365 existe somente nos data centers dos EUA, não há FQDNs secundários e terciários.
+
+Os FQDNs – sip.pstnhub.dod.teams.microsoft.us serão resolvidos para um dos seguintes endereços IP:
+
+- 52.127.64.33
+- 52.127.68.34
+
+Você precisa abrir portas para todos esses endereços IP no seu firewall para permitir o recebimento e o tráfego de entrada e saída dos endereços para sinalização.  Se o seu firewall der suporte a nomes DNS, a sip.pstnhub.dod.teams.microsoft.us FQDN será resolvida para todos esses endereços IP. 
+
+### <a name="office-365-gcc-high-environment"></a>Ambiente High do Office 365 GCC
+
+O ponto de conexão para roteamento direto é o seguinte FQDN:
+
+**SIP.pstnhub.gov.Teams.Microsoft.us** – FQDN global. Como o ambiente High GCC existe apenas nos data centers dos EUA, não há FQDNs secundários e terciários.
+
+Os FQDNs – sip.pstnhub.gov.teams.microsoft.us serão resolvidos para um dos seguintes endereços IP:
+
+- 52.127.88.59
+- 52.127.92.64
+
+Você precisa abrir portas para todos esses endereços IP no seu firewall para permitir o recebimento e o tráfego de entrada e saída dos endereços para sinalização.  Se o seu firewall der suporte a nomes DNS, a sip.pstnhub.gov.teams.microsoft.us FQDN será resolvida para todos esses endereços IP. 
+
+## <a name="sip-signaling-ports"></a>Sinalização SIP: portas
+
+Os requisitos de porta são iguais para todos os ambientes do Office 365 em que o roteamento direto é oferecido:
+- Office 365
+- Office 365 GCC
+- Office 365 GCC High
+- Office 365 DoD
+
+Você deve usar as seguintes portas:
 
 |**Traffic**|**De**|**Até**|**Porta de origem**|**Porta de destino**|
 |:--- |:--- |:--- |:--- |:--- |
@@ -212,11 +260,25 @@ A tabela a seguir resume as relações entre os datacenters primários, secundá
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>Tráfego de mídia: intervalos de porta
-Observe que os requisitos abaixo se aplicam se você Ant para implantar o roteamento direto sem bypass de mídia. Para requisitos de firewall para bypass de mídia, consulte [planejar o bypass de mídia com roteamento direto](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass)
+Observe que os requisitos abaixo se aplicam se você deseja implantar o roteamento direto sem bypass de mídia. Para requisitos de firewall para bypass de mídia, consulte [planejar o bypass de mídia com roteamento direto](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass).
+
+
 
 O tráfego de mídia flui para e de um serviço separado na nuvem da Microsoft. O intervalo IP para tráfego de mídia:
+
+### <a name="office-365-and-office-365-gcc-environments"></a>Ambientes do Office 365 e do Office 365 GCC
+
 - 52.112.0.0/14 (endereços IP de 52.112.0.1 para 52.115.255.254).
 
+### <a name="office-365-gcc-dod-environment"></a>Ambiente do Office 365 GCC DoD
+
+- 52.127.64.0/21
+
+### <a name="office-365-gcc-high-environment"></a>Ambiente High do Office 365 GCC
+
+- 52.127.88.0/21
+
+### <a name="port-range-applicable-to-all-environments"></a>Intervalo de porta (aplicável a todos os ambientes)
 O intervalo de portas dos processadores de mídia é mostrado na tabela a seguir: 
 
 |**Traffic**|**De**|**Até**|**Porta de origem**|**Porta de destino**|

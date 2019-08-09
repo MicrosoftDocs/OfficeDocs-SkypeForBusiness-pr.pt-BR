@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Resumo: Configure seus requisitos de não-servidor para o Skype for Business Server 2015. Há várias coisas que você deve configurar antes de realizar a implantação, incluindo Active Directory, DNS, certificados e compartilhamento de fileshares.'
-ms.openlocfilehash: 68ccac9b4335de6b4f3bea0fba179e7d8e498224
-ms.sourcegitcommit: bd50c6239cee414ea9933e9d569fa5a24bc05544
+ms.openlocfilehash: 3e0c53d73da71e4ada89c95a6438b62dd2507872
+ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "35414979"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "36253922"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Requisitos de ambiente para o Skype for Business Server 2015
  
@@ -54,6 +54,8 @@ Embora muitos dados de configuração para servidores e serviços estejam armaze
 ### <a name="os-for-domain-controllers"></a>OS para controladores de domínio
 
 Portanto, qual OS para controladores de domínio pode ser usada? Temos a seguinte lista:
+
+- Windows Server 2019
   
 - Windows Server 2016
     
@@ -66,6 +68,8 @@ Portanto, qual OS para controladores de domínio pode ser usada? Temos a seguint
 - Windows Server 2008
     
 Agora, o nível funcional do domínio de qualquer domínio no qual você implanta o Skype for Business Server 2015 e o nível funcional da floresta de todas as quais você implanta o Skype for Business Server 2015 em, precisam ser um dos seguintes:
+
+- Windows Server 2019
   
 - Windows Server 2016
     
