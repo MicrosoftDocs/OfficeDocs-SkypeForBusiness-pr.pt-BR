@@ -1,9 +1,7 @@
 <!-- ============================================================ -->
 # [Bem-vindo ao Teams](teams-overview.md)
 # [Como implantar o Teams](How-to-roll-out-teams.md)
-# [Cartazes: Soluções de arquitetura e telefonia do Teams](teams-architecture-solutions-posters.md)
-#       
-#        
+# [Cartazes: Soluções de arquitetura e telefonia do Teams](teams-architecture-solutions-posters.md)  
 
 <!-- ============================================================ -->
 
@@ -672,6 +670,7 @@
 ### [Plano para o Microsoft 365 Government - GCC](plan-for-government-gcc.md)
 ### [Plano para o Microsoft 365 Government - GCC Alto](plan-for-government-gcc-high.md)
 ### [Plano para o Microsoft 365 Government - DoD](plan-for-government-dod.md)
+### [Conferências de Áudio com Roteamento Direto para GCC Alto e DoD](audio-conferencing-with-direct-routing-for-gcch-and-dod.md)
 
 <!-- ============================================================ -->
 
