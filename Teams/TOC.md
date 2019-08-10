@@ -72,6 +72,7 @@
 ### [Gerenciar políticas de configuração de aplicativo no Teams](teams-app-setup-policies.md)
 ### [Gerenciar políticas de aplicativo personalizado e as configurações no Teams](teams-custom-app-policies-and-settings.md)
 ### [Gerenciar políticas de comentários no Teams](manage-feedback-policies-in-teams.md)
+### [Gerenciar pacotes de política em equipes](manage-policy-packages.md)
 ### [Configurar o aplicativo de Reuniões do Skype para trabalhar com o Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Gerenciar acesso externo](manage-external-access.md)
 ### [Usar a tradução de mensagens embutida](inline-message-translation-teams.md)
