@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31c06403dc3dec9322e984e012fe597254db8f33
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 39d9a7a0e2fa144354857e750365d50182974976
+ms.sourcegitcommit: 88c4682deec2ec533cc7542cf3a1363a41c4726f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235175"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36279163"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparo da rede da sua organização para o Microsoft Teams
 
@@ -36,22 +36,20 @@ O Microsoft Teams combina três formas de tráfego:
 
 Isso impacta a rede em dois níveis: o tráfego fluirá entre os clientes Microsoft Teams diretamente para cenários ponto a ponto, e o tráfego fluirá entre o ambiente do Office 365 e os clientes Microsoft Teams para os cenários de reunião. Para garantir um fluxo de tráfego ideal, o tráfego deve ser permitido entre os segmentos internos da rede (por exemplo, entre sites da WAN), bem como entre os sites da rede e do Office 365. Deixar de abrir as portas corretas ou bloquear ativamente as portas especificadas prejudicará a experiência.
 
-> [!NOTE]
-> As reuniões têm suporte em dispositivos móveis iOS e Android. 
 
-Para ter uma experiência ideal com mídia em tempo real no Microsoft Teams, sua rede deve atender aos requisitos de rede do Office 365. Para obter mais informações, consulte [Qualidade de mídia e desempenho de conectividade de rede para o Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
+Para ter uma experiência ideal com mídia em tempo real no Microsoft Teams, sua rede deve atender aos requisitos de rede do Office 365. Para obter mais informações, consulte [qualidade de mídia e desempenho de conectividade de rede para o Skype for Business online](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
 
-Os dois segmentos de rede a ser definidos (Cliente para o Microsoft Edge e Edge do cliente para o Microsoft Edge), considere os seguintes requisitos.
+Para os dois que definem segmentos de rede (cliente para Microsoft Edge e cliente edge to Microsoft Edge), considere as recomendações a seguir.
 
 
-|Valor  |Cliente para o Microsoft Edge  |Edge do cliente para o Microsoft Edge  |
+|Valor  |Cliente para Microsoft Edge  |Borda do cliente ao Microsoft Edge  |
 |:--- |:--- |:--- |
-|**Latência (de uma maneira)**\*  |< 50 ms          |< 30 ms         |
-|**Latência (RTT ou tempo de viagem de ida e volta)**\* |< 100 ms   |< 60 ms |
-|**Perda de pacote de intermitência**    |<10% durante qualquer intervalo de 200 ms         |<1% durante qualquer intervalo de 200 ms         |
-|**Perda de pacote**     |<1% durante qualquer intervalo de 15 s          |<0,1% durante qualquer intervalo de 15 s         |
-|**Tremulação entre chegadas de pacote**    |<30 ms durante qualquer intervalo de 15 s         |<15 ms durante qualquer intervalo de 15 s         |
-|**Novo pedido de pacotes**    |<0,05% de pacotes com problemas         |<0,01% de pacotes com problemas         |
+|**Latência (de uma maneira)**\*  |< 50ms          |< 30ms         |
+|**Latência (RTT ou tempo de viagem de ida e volta)**\* |< 100 milhões   |< 60ms |
+|**Perda de pacote intermitente**    |<10% durante qualquer intervalo de 200ms         |<1% durante qualquer intervalo 200ms         |
+|**Perda de pacote**     |<1% durante qualquer intervalo 15s          |<0,1% durante qualquer intervalo 15s         |
+|**Tremulação entre entradas do pacote**    |<30ms durante qualquer intervalo 15s         |<15ms durante qualquer intervalo 15s         |
+|**Reordenação de pacotes**    |Pacotes fora de ordem do <0, 5%         |Pacotes fora de ordem do <0, 1%         |
 
 \*Os destinos de métrica de latência assumem que o site ou os sites da empresa e as bordas da Microsoft estão no mesmo continente.
 
