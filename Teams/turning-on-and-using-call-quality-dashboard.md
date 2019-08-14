@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Veja como ativar e usar o painel de qualidade de chamada do Skype for Business Online e obter relatórios resumidos de qualidade das chamadas. '
-ms.openlocfilehash: 258390562206f55918a2b1440ed30ca16f7e7a93
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: eaadd80030b04d5fb10fd8f29d656fe07e24a1db
+ms.sourcegitcommit: ab259764dc50bdd52efed3abb1d065ee19486946
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344881"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "36393488"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Ativar e usar o painel de qualidade da chamada para Microsoft Teams e Skype for Business Online
 
@@ -55,6 +55,7 @@ Consulte este artigo para obter uma lista de [dimensões e medidas disponíveis 
 ## <a name="activate-microsoft-call-quality-dashboard-cqd-summary-reports"></a>Ativar relatórios de resumo do Microsoft Call Quality Dashboard (CQD)
 
 Antes de começar a usar o CQD, você precisará ativá-lo para a sua organização do Office 365.
+
 ![Um ícone mostrando o logotipo](media/teams-logo-30x30.png) do Microsoft Teams **usando o centro de administração do Microsoft Teams**
  
 1. Entre em sua organização do Office 365 usando a conta de administrador do Microsoft Teams Service e, em seguida, selecione o bloco do **administrador** para abrir o centro de administração.
@@ -66,13 +67,13 @@ Antes de começar a usar o CQD, você precisará ativá-lo para a sua organizaç
   
 4. Na página que é aberta, entre com sua conta de administrador global ou com a conta de administrador do Microsoft Teams Service e forneça as credenciais da conta quando for solicitado.
     
-     ![CQD login](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
+     ![Captura de tela mostrando o prompt credenciais](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
 Depois de entrar, uma vez ativada, o CQD começará a coletar e processar dados.  
 > [!NOTE]
 > Pode levar algumas horas para processar dados suficientes para exibir resultados significativos nos relatórios. 
 
-![SFB-logo-30x30. png](media/sfb-logo-30x30.png) **usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo](media/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
  
 1. Entre em sua organização do Office 365 usando uma conta de administrador e, em seguida, selecione o bloco **administrador** para abrir o centro de administração.
     
@@ -80,11 +81,11 @@ Depois de entrar, uma vez ativada, o CQD começará a coletar e processar dados.
     
 3. No centro de administração do Skype for Business, selecione **ferramentas** no painel esquerdo e, em seguida, selecione **painel de qualidade de chamada do Skype for Business online**.
     
-     ![Ferramentas do Skype for Business](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
+     ![Captura de tela mostrando a seleção do painel de qualidade de chamada](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
   
 4. Na página que é aberta, entre com sua conta de administrador global e forneça as credenciais da conta quando for solicitado.
     
-     ![CQD login](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
+     ![Captura de tela mostrando o prompt credenciais](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
 Depois de entrar, uma vez ativada, o CQD começará a coletar e processar dados.
 
@@ -135,30 +136,30 @@ As quatro guias incluem:
 
 Use os dados desta guia para avaliar o status e as tendências da qualidade da chamada olhando para os números de fluxo e percentuais insatisfatórios. A legenda no canto superior direito mostra quais elementos visuais e de cor representam essas métricas.
   
-![Chave de dados CQD](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
+![Captura de tela mostrando a guia qualidade da chamada](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
 Os fluxos são classificados em três grupos: satisfatório, fraco e não classificados. Também são calculados valores de *baixa qualidade* que proporcionam a taxa de fluxos classificados ** como deficientes para a contagem total de fluxos classificados. Como *baixa% = fluxos ruins/(fluxos de má qualidade + bom fluxo) * 100* , isso faz com que os *% deficientes* não afetados pela presença com vários fluxos não *classificados* . Para o que é usado para classificar um fluxo como ruim ou bom, consulte [classificação de fluxo no painel de qualidade de chamada](stream-classification-in-call-quality-dashboard.md).
   
 Use a escala à esquerda para medir os valores de contagem de fluxo.
   
-![Contagem de dados CQD](media/850bd25d-d9b2-4df4-8ca6-526a528897c2.png)
+![Captura de tela mostrando valores de contagem de fluxo](media/850bd25d-d9b2-4df4-8ca6-526a528897c2.png)
   
 Use a escala à direita para medir os valores de baixa%.
   
-![Dados do CQD por cento](media/29795f71-ca96-4763-a76c-b4bb7c0e5828.png)
+![Captura de tela mostrando valores% deficientes](media/29795f71-ca96-4763-a76c-b4bb7c0e5828.png)
   
 Você também pode obter os valores numéricos reais passando o mouse sobre uma barra.
   
 > [!NOTE]
 > O exemplo a seguir é de um conjunto de dados de exemplo muito pequeno, e os valores não são realistas para uma implantação real. 
   
-![Dados numéricos do CQD](media/8724b016-1a50-4d19-b48a-3b1aae4eb895.png)
+![Captura de tela mostrando o uso do mouse para acessar dados](media/8724b016-1a50-4d19-b48a-3b1aae4eb895.png)
   
 O volume de fluxo geral é um fator importante na determinação da importância das porcentagens insatisfatórias calculadas. Quanto menor for o volume de fluxos gerais, menos confiável será a porcentagem dos valores de porcentagem deficientes reportados.
   
 ### <a name="server-client-tab-and-client-client-tabs"></a>Guias servidor-cliente e cliente-cliente
 
-Essas duas guias fornecem detalhes adicionais para os fluxos que ocorreram em seus cenários de ponto de extremidade a ponto de extremidade. Ambas as guias têm quatro seções recolhíveis, representando quatro cenários em que os fluxos de mídia fluiriam.
+Essas duas guias fornecem detalhes adicionais para os fluxos que ocorreram em seus cenários de ponto de extremidade a ponto de extremidade. A guia servidor-cliente tem quatro seções recolhíveis, representando quatro cenários em que os fluxos de mídia fluiriam.
   
 - Com fio interno
     
@@ -167,6 +168,19 @@ Essas duas guias fornecem detalhes adicionais para os fluxos que ocorreram em se
 - Sem fio dentro
     
 - Sem fio externo
+
+Da mesma forma, a guia cliente/cliente tem cinco seções recolhíveis:
+
+- Com fio dentro de dentro
+
+- Com fio interno-cabeado externo
+
+- Com fio externo-conectado fora
+
+- Com fio interno-WiFi dentro
+
+- Com fio interno-WiFi externo
+    
     
 #### <a name="inside-test"></a>Teste interno
 
@@ -184,7 +198,7 @@ Como os nomes indicam, esse é um critério de classificação com base no tipo 
 
 Nos relatórios avançados de resumo e de localização, você pode usar o menu suspenso **filtro do produto** para mostrar todos os dados do produto, somente dados do Microsoft Teams ou somente dados do Skype for Business online.
   
-![A captura de tela mostra o controle de filtro de produto com opções para todos, Microsoft Teams e Skype for Business.](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
+![Captura de tela mostrando as opções de controle de filtro do produto](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
   
 Em relatórios detalhados, você pode usar a dimensão **is Teams** para filtrar os dados para o Microsoft Teams ou dados do Skype for Business online como parte da definição do relatório.
   
@@ -193,9 +207,9 @@ Em relatórios detalhados, você pode usar a dimensão **is Teams** para filtrar
 
 O painel relatórios de resumo CQD inclui uma página de **carregamento de dados** de locatários, acessada selecionando **carregar dados do locatário** no menu configurações no canto superior direito. Esta página é usada para os administradores carregarem suas próprias informações, como o mapeamento de endereços IP e informações geográficas, o mapeamento de cada AP sem fio e seu endereço MAC, o mapeamento do ponto de extremidade para a marca/modelo/tipo de ponto de extremidade, etc.
   
-![Painel CQD](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
+![Captura de tela mostrando o painel de qualidade da chamada](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   
-1. Na página de **carregamento de dados do locatário** , use o menu suspenso para escolher um tipo de arquivo de dados para carregar. O tipo de dados arquivo denota o conteúdo do arquivo (por exemplo, "edifício" refere-se ao mapeamento do endereço IP e à criação, bem como outras informações geográficas, "ponto de extremidade" refere-se ao mapeamento do nome do ponto de extremidade para tipo/modelo/tipo de ponto de extremidade... informações). Atualmente, damos suporte ao upload de tipos de dados "Build" e "Endpoint" para CQD. Teams. Microsoft. com (no estágio Preview e ainda não está disponível oficialmente), cqd.lync.com só oferece suporte a upload "Building" tipo de dados. Mais alguns tipos de dados serão adicionados com versões subsequentes.
+1. Na página de **carregamento de dados do locatário** , use o menu suspenso para escolher um tipo de arquivo de dados para carregar. O tipo de dados arquivo denota o conteúdo do arquivo (por exemplo, "edifício" refere-se ao mapeamento do endereço IP e à criação, bem como outras informações geográficas, "ponto de extremidade" refere-se ao mapeamento do nome do ponto de extremidade para tipo/modelo/tipo de ponto de extremidade... informações). Atualmente, damos suporte ao carregamento de tipos de dados "edifício" e "ponto de extremidade" para cqd.teams.microsoft.com (no estágio de visualização e ainda não disponível oficialmente), cqd.lync.com só permite carregar o tipo de dados "edifício". Mais alguns tipos de dados serão adicionados com versões subsequentes.
     
 2. Depois de selecionar o tipo de dados do arquivo, clique em **procurar** para escolher um arquivo de dados.
     
@@ -203,7 +217,7 @@ O painel relatórios de resumo CQD inclui uma página de **carregamento de dados
     
    - O arquivo de dados não deve ter tamanho maior do que 50 MB.
 
-   - O arquivo carregado no cqd.teams.microsoft.com tem um limite de linha expandido de 1 milhão para acelerar o desempenho da consulta. Também podemos impor esse limite ao cqd.lync.com.
+   - Os arquivos carregados no cqd.teams.microsoft.com têm um limite de linha expandido de 1 milhão para manter o desempenho da consulta rápido. Também podemos impor esse limite ao cqd.lync.com.
     
    - Para cada arquivo de dados, cada coluna no arquivo deve corresponder a um tipo de dados predefinido, discutido posteriormente neste tópico.
     
@@ -213,19 +227,21 @@ O painel relatórios de resumo CQD inclui uma página de **carregamento de dados
     
     Antes de o arquivo ser carregado, ele é validado primeiro. Uma vez validada, ela é armazenada em um blob do Azure. Se ocorrer uma falha na validação ou o arquivo não for armazenado em um blob do Azure, uma mensagem de erro será exibida solicitando uma correção para o arquivo. A imagem a seguir mostra um erro que ocorre quando o número de colunas no arquivo de dados está incorreto.
     
-     ![Erro de validação de carregamento do exemplo CQD](media/22716a32-3d3d-4870-983c-46089e8b212a.png)
+     ![Captura de tela mostrando um erro de validação de carregamento](media/22716a32-3d3d-4870-983c-46089e8b212a.png)
   
 5. Se não ocorrerem erros durante a validação, o carregamento do arquivo será bem-sucedido. Em seguida, você pode ver o arquivo de dados carregado na tabela **My uploads** , que mostra a lista completa de todos os arquivos carregados para o locatário atual na parte inferior da página.
     
     Cada registro mostra um arquivo de dados do locatário carregado, com o tipo de arquivo, a hora da última atualização, o período de tempo, a descrição, um ícone de remoção e um ícone de download. Para remover um arquivo, selecione o ícone de lixeira na tabela. Para baixar um arquivo, selecione o ícone baixar na coluna **baixar** da tabela.
     
-     ![Tabela CQD My uploads](media/4168a883-bbea-461a-80b1-42eedf2e7732.png)
-  
+     ![Captura de tela mostrando a tabela My uploads](media/4168a883-bbea-461a-80b1-42eedf2e7732.png)
+
+6. Observe que, se você optar por usar vários arquivos de dados de construção ou vários arquivos de dados de ponto de extremidade, a velocidade da operação de alguns relatórios será mais lenta.
+
 ### <a name="tenant-data-file-format-and-structure"></a>Estrutura e formato de arquivo de dados do locatário
 <a name="BKMKTenantDataFile"> </a>
 
 ### <a name="building-data-file"></a>Criando arquivo de dados
-O CQD usa a construção de arquivo de dados pela primeira coluna de sub-rede na coluna rede + NetworkRange expandida e, em seguida, unindo a coluna de sub-rede à primeira coluna/segunda sub-rede do registro de chamada para mostrar a construção/cidade/país/região... às. O formato do arquivo de dados que você carregar deve atender ao seguinte para passar na verificação de validação antes de carregar.
+O CQD usa a construção de arquivo de dados primeiramente, derivando que a coluna de sub-rede expanda a coluna Network + NetworkRange e, em seguida, ingressando na coluna subnet na primeira sub-rede/segunda sub-rede do registro de chamada, na coluna de construção/cidade/país/região... às. O formato do arquivo de dados que você carregar deve atender ao seguinte para passar na verificação de validação antes de carregar.
   
 - O arquivo deve ser um arquivo. TSV, o que significa que, em cada linha, as colunas são separadas por uma TABULAção ou um arquivo. csv com cada coluna separada por uma vírgula.
     
@@ -290,11 +306,11 @@ O CQD usa o arquivo de dados de ponto de extremidade ao ingressar na coluna Endp
 
 Os relatórios detalhados dão suporte à análise da confiabilidade de qualidade e mídia para tipos de mídia de compartilhamento de tela de áudio, vídeo, compartilhamento de aplicativos e com base em vídeo. As dimensões, medidas e filtros que são específicos para um único tipo de mídia têm "áudio", "vídeo", "compartilhamento" ou "VBSS" como prefixo.
   
-![Dimensões do painel de qualidade da chamada.](media/ae132202-d6dc-43bd-b8b3-ea9c24c519e8.png)
+![Captura de tela mostrando dimensões de painel de qualidade de chamada.](media/ae132202-d6dc-43bd-b8b3-ea9c24c519e8.png)
   
 Se você quiser exibir as dimensões e medidas para um único tipo de mídia, a nova dimensão e o filtro de MediaType podem ser necessários. Por exemplo, para ter um relatório que mostra o número total de sessões em diferentes tipos de mídia, inclua a dimensão MediaType.
   
-![Contagem total de fluxos de painel de qualidade de chamada.](media/21d5d0dc-2321-415e-8ef2-cea06165601c.png)
+![Captura de tela mostrando a contagem total de fluxos do painel de qualidade da chamada.](media/21d5d0dc-2321-415e-8ef2-cea06165601c.png)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 [Configurar a Análise de Chamada do Skype for Business](set-up-call-analytics.md)

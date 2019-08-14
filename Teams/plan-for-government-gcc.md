@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: baeb60f00602052d28a85337387cb0024979360e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 506d33ab48ad35397a500ef8f274ef6a332f8cd1
+ms.sourcegitcommit: ab259764dc50bdd52efed3abb1d065ee19486946
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237657"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "36393433"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plano para implantações do governo Microsoft 365-GCC
 
@@ -98,9 +98,9 @@ Para acomodar os requisitos de nossos clientes de nuvem governamental, há algum
 | | Conceder e assumir o controle no compartilhamento | Disponível |
 | | Conectar-se a partir de uma sala de conferência | Disponível |
 | | Junção anônima | Disponível |
-| | Gravação na nuvem | Na backlog do governo |
+| | Gravação na nuvem | Disponível |
 | | Anotações da reunião | Disponível |
-| | Transmitir reuniões | Na backlog do governo |
+| | Eventos ao vivo | Disponível |
 | | Reuniões federadas | Disponível |
 | | Suporte a Surface Hub | Não disponível |
 | Chamadas | Contatos | Disponível |

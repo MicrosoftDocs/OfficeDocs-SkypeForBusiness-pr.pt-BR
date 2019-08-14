@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d89d9ed514eb5246911fe88d5fadc1af79caff1b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b0f3e24d38e877d923e52de3f1c7116853737dc7
+ms.sourcegitcommit: ab259764dc50bdd52efed3abb1d065ee19486946
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245079"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "36393344"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem
 
@@ -29,28 +29,40 @@ ms.locfileid: "36245079"
 
 Para a experiência completa com o Teams, todos os usuários devem estar habilitados para o Exchange Online, para o SharePoint Online e para a criação de grupos no Office 365.
 
-As caixas de correio dos usuários do Exchange não podem ficar hospedadas online nem no local. Os usuários hospedados no Exchange Online ou no Exchange Dedicated vNext podem usar todos os recursos do Microsoft Teams. Eles podem criar e ingressar em equipes e canais, criar e visualizar reuniões, fazer chamadas e chats, modificar imagens do perfil do usuário, adicionar e configurar conectores, guias e bots.
+As caixas de correio dos usuários do Exchange não podem ficar hospedadas online nem no local. No entanto, alguns recursos exigem uma implantação híbrida em vigor com o seu locatário do Office 365.
 
-Os usuários hospedados no Exchange Online Dedicated - Legacy ou no Exchange local precisam estar sincronizados com o Azure Active Directory para Office 365. Eles podem criar e entrar em equipes e canais, adicionar e configurar guias e bots, conversar via bate-papo e fazer chamadas. No entanto, eles não podem modificar imagens do perfil do usuário, nem adicionar e configurar conectores. Eles podem receber mensagens de conectores configurados por outros usuários. Para criar e exibir reuniões, há várias opções: É possível criar e exibir reuniões no Exchange 2016 cumulative update 3 (CU3) e superior, mas não nas versões anteriores ao Exchange 2016 CU3.
+Os usuários hospedados no Exchange Online ou no Exchange Dedicated vNext podem usar todos os recursos do Microsoft Teams. Eles podem criar e ingressar em equipes e canais, criar e exibir reuniões, ligar e bater papo, modificar imagens de perfil de usuário e adicionar e configurar conectores, guias e bots.
 
-A tabela a seguir oferece informações para usuários com o Exchange Online hospedado em vários ambientes.
+Os usuários hospedados no Exchange Online dedicado (Herdado) devem ser sincronizados com o Azure Active Directory no Office 365. Eles podem criar e ingressar em equipes e canais, adicionar e configurar guias e bots e usar os recursos de chat e chamadas. No entanto, eles não podem modificar imagens de perfil, gerenciar reuniões, acessar contatos do Outlook ou gerenciar conectores.
+
+Os usuários com caixas de correio hospedadas no local devem ser sincronizados com o Azure Active Directory. Eles podem usar todos os recursos no cenário acima, mas além disso, eles também podem alterar a imagem do perfil do usuário e gerenciar reuniões, fornecer o Exchange Server 2016 (atualização cumulativa 3) ou superior está em execução local.
+
+A tabela a seguir fornece uma referência rápida útil para a disponibilidade de recursos com base no ambiente do Exchange.
+
 
 **Ações suportadas:**
 
 | A caixa de correio do usuário está hospedada em: | eDiscovery| Controle&nbsp;legal | Tention| Gerenciamento de canal e equipe |Criar e visualizar reuniões| Modificar fotos de perfil de usuário | Histórico de chamadas | Gerenciar contatos | Acessar contatos do Outlook | Caixa postal |Adicionar e configurar conectores|Adicionar e configurar guias|Adicionar e configurar bots| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|Sim <sup>2</sup>|Sim <sup>2</sup>|Sim |Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim|Sim |Sim|
-|**Exchange Online Dedicated vNext**|Sim <sup>2</sup>|Sim <sup>2</sup>|Sim |Sim |Sim|Sim|Sim |Sim|Sim|Sim|Sim |Sim |Sim|
-|**Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD)|Sim <sup>2</sup>|Sim <sup>2, 3</sup>|Sim <sup>4|Sim|Não|Não|Sim |Sim|Não|Sim <sup>5|Sim |Sim |Sim|
-|**Exchange no local** (Sincronização obrigatória com o Azure AD)|Sim <sup>2</sup>| Sim <sup>2, 3</sup> |Sim <sup>4|Sim|Sim (Exchange 2016 CU3 +)|Sim (Exchange 2016 CU3 +)|Sim |Sim|Não|Sim <sup>5|Sim |Sim |Sim|
+|**Exchange Online**|Sim <sup>2</sup>|Sim <sup>2</sup>|Sim |Sim |Sim |Sim |Sim |Sim |Sim |Sim |Sim |Sim |Sim|
+|**Exchange Online Dedicated vNext**|Sim <sup>2</sup>|Sim <sup>2</sup>|Sim |Sim |Sim |Sim |Sim |Sim |Sim |Sim |Sim |Sim |Sim|
+|**Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD)|Sim <sup>2</sup>|Sim <sup>2, 3</sup>|Sim <sup>4|Sim|Não|Não|Sim |Sim|Não|Sim <sup>5|Sim <sup>6|Sim |Sim|
+|**Exchange local** (É necessário sincronizar com o Azure AD)|Sim <sup>2</sup>| Sim <sup>2, 3</sup> |Sim <sup>4|Sim|Sim (Exchange 2016 CU3 +)|Sim (Exchange 2016 CU3 +)|Sim |Sim|Não|Sim <sup>5|Sim <sup>6|Sim |Sim|
 
-<sup>1</sup> Exchange 2016 Cu3 e acima com suporte  
-<sup>2</sup> EDiscovery e retenção legal para conformidade com mensagens de canal são compatíveis com todas as opções de hospedagem.  
+<sup>1</sup> suporte do Exchange 2016 Cu3 e versões mais recentes.  
+
+<sup>2</sup> EDiscovery e retenção legal para conformidade com mensagens de canal são compatíveis com todas as opções de hospedagem.
+
 <sup>3</sup> as equipes de chat privadas do teams ainda não têm suporte para o controle legal para essa opção de hospedagem.
 
 <sup>4</sup> a retenção usará uma caixa de correio de sombra para o usuário online armazenar mensagens. [O Microsoft Teams dá suporte à descoberta eletrônica para usuários do teams em um ambiente híbrido do Exchange](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009).
 
 <sup>5</sup> os usuários do Microsoft Teams com a caixa de correio local do Exchange podem usar o correio de voz com o Microsoft Teams e receber mensagens de correio de voz no Outlook, mas as mensagens de correio de voz não estarão disponíveis para exibição ou reprodução dentro do cliente
+
+<sup>6</sup> se um dos proprietários de uma equipe puder adicionar conectores, todos os outros participantes dessa equipe poderão fazer isso, mesmo se as caixas de correio estiverem hospedadas no local.
+
+
+Informações adicionais:
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Requisitos para aproveitar ao máximo o Microsoft Teams
 
