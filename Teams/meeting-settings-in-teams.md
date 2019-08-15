@@ -18,12 +18,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Saiba como gerenciar as configurações de reuniões do Team que os usuários agendam em sua organização.
-ms.openlocfilehash: c26165abdc753fbe37d3465738200c43b42d087d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b1513e80028137c909f5fc0f854666b1770299c8
+ms.sourcegitcommit: c169b091a630ff78c233a2a2824da122184635d0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236555"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "36404598"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gerenciar configurações de reunião no Microsoft Teams
 
@@ -38,7 +38,7 @@ Com a junção anônima, qualquer pessoa pode ingressar na reunião como usuári
 1. No painel de navegação esquerdo, vá para**configurações de reunião**de **reuniões** > .
 2. Em **participantes**, ativar **usuários anônimos podem ingressar em uma reunião**.
 
-    ![Captura de tela das configurações de participantes para reuniões no centro de administração] (media/meeting-settings-participants.png "Captura de tela das configurações de participantes para reuniões do teams no centro de administração do Microsoft Teams")
+    ![Captura de tela de configurações de participantes para reuniões no centro de administração] (media/meeting-settings-participants.png "Captura de tela das configurações de participantes para reuniões do teams no centro de administração do Microsoft Teams")
 
 Se você não quiser que os usuários anônimos ingressem em reuniões agendadas pelos usuários da sua organização, desative essa configuração.
 
@@ -73,7 +73,10 @@ Você pode personalizar convites de reunião do teams para atender às necessida
 
 <a name="bknetwork"> </a>
 
-Se você estiver usando a [QoS (](qos-in-teams.md) qualidade de serviço) para priorizar o tráfego de rede, poderá habilitar os marcadores de QoS e poderá definir intervalos de porta para cada tipo de tráfego de mídia.
+Se você estiver usando a [QoS (](qos-in-teams.md) qualidade de serviço) para priorizar o tráfego de rede, poderá habilitar os marcadores de QoS e poderá definir intervalos de porta para cada tipo de tráfego de mídia. A configuração de intervalos de porta para diferentes tipos de tráfego é apenas uma etapa para manipular mídia em tempo real; consulte [QoS (qualidade de serviço) no Teams](qos-in-teams.md) para obter muito mais detalhes.
+
+> [!IMPORTANT]
+> Se você habilitar a QoS ou alterar as configurações no centro de administração do Microsoft Teams para o serviço do Microsoft Teams, também será necessário [aplicar as configurações correspondentes a todos os dispositivos de usuário](QoS-in-Teams-clients.md) e a todos os dispositivos de rede interna para implementar completamente as alterações no QoS no Microsoft Teams.
 
  ![Um ícone mostrando o logotipo](media/teams-logo-30x30.png) do Microsoft Teams **usando o centro de administração do Microsoft Teams**
 
@@ -89,7 +92,7 @@ Se você estiver usando a [QoS (](qos-in-teams.md) qualidade de serviço) para p
     >
     > A seleção de um intervalo de porta muito estreito levará a chamadas e a uma baixa qualidade da chamada. As recomendações a seguir devem ser um mínimo simples.
 
- Se você não tiver certeza de quais intervalos de porta usar no seu ambiente, as configurações a seguir são um bom ponto de partida. Para saber mais, leia [implementar qualidade de serviço (QoS) no Microsoft Teams](QoS-in-Teams.md). Estas são as marcações DSCP necessárias e os intervalos de porta de mídia sugeridos correspondentes usados pelo Teams e pela rota expressa.
+Se você não tiver certeza de quais intervalos de porta usar no seu ambiente, as configurações a seguir são um bom ponto de partida. Para saber mais, leia [implementar qualidade de serviço (QoS) no Microsoft Teams](QoS-in-Teams.md). Estas são as marcações DSCP necessárias e os intervalos de porta de mídia sugeridos correspondentes usados pelo Teams e pela rota expressa.
 
 _Intervalos de porta e marcações DSCP_
 
@@ -100,8 +103,6 @@ Tipo de tráfego de mídia| Intervalo de porta de origem do cliente\* |Protocolo
 |Compartilhamento de tela/aplicativo| 50,040–50,059      |TCP/UDP |dezoito        |Encaminhamento garantido (AF21)|
 | | | | |
 
-\*Os intervalos de porta que você atribui não podem ser sobrepostos e devem ser adjacentes entre si.
-
-A configuração de intervalos de porta para diferentes tipos de tráfego é apenas uma etapa na manipulação da mídia em tempo real; consulte [QoS (qualidade de serviço) no Teams](qos-in-teams.md) para obter muito mais detalhes. Se você habilitar ou alterar as configurações no centro de administração do Microsoft Teams, será necessário [aplicar configurações correspondentes a todos os dispositivos de usuário](QoS-in-Teams-clients.md) e dispositivos de rede interna para implementar completamente as alterações no QoS no Microsoft Teams.
+\*Os intervalos de porta que você atribui não podem ser sobrepostos e devem ser próximos uns dos outros.
 
 Depois que a QoS estiver em uso por algum tempo, você terá informações de uso sobre a demanda de cada uma dessas três cargas de trabalho e poderá escolher quais alterações devem ser feitas com base em suas necessidades específicas. O [painel de qualidade de chamada](turning-on-and-using-call-quality-dashboard.md) será útil para isso.
