@@ -16,19 +16,19 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a0f712b2eb753f3444b43a714d5f77fbd8b3f1a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 585e857ff6edf89880ed29d9a434747a0af3d127
+ms.sourcegitcommit: 2453f87088fc2f8034726c14699aacb65d859b1b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240827"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "36436349"
 ---
-# <a name="meetings--conferencing-in-microsoft-teams"></a>Conferências e reuniões no Microsoft Teams
+# <a name="meetings-and-conferencing-in-microsoft-teams"></a>Conferências e reuniões no Microsoft Teams
 
 Você concluiu a [Introdução](get-started-with-teams-quick-start.md). Você implementou o Teams com [chat, equipes, canais e aplicativos](deploy-chat-teams-channels-microsoft-teams-landing-page.md) na organização. Agora, você está pronto para adicionar a carga de trabalho de reuniões, que inclui [audioconferência](deploy-audio-conferencing-teams-landing-page.md), vídeos e compartilhamentos. Veja como. 
 
 
-## <a name="meetings--conferencing-deployment-decisions"></a>Decisões de implantação de conferências e reuniões
+## <a name="meetings-and-conferencing-deployment-decisions"></a>Decisões de implantação de conferências e reuniões
 
 O Teams oferece uma excelente experiência pronta para uso na organização. A maioria das organizações considera que as configurações padrão atendem às necessidades. Este artigo ajuda você a decidir se deseja alterar as configurações padrão, com base no perfil da organização e requisitos de negócios e, em seguida, orienta-o em cada alteração. Dividimos as configurações em dois grupos, começando com o conjunto principal de [alterações que você provavelmente realizará](#core-deployment-decisions). O segundo grupo inclui [configurações adicionais](#additional-deployment-decisions) que poderão ser configuradas com base nas necessidades da organização.
 
@@ -36,7 +36,7 @@ O Teams oferece uma excelente experiência pronta para uso na organização. A m
 > Para saber mais sobre reuniões, assista ao vídeo [Introdução às reuniões no Microsoft Teams para profissionais de TI](https://aka.ms/teams-meetings-intro).
 
 
-## <a name="meetings--conferencing-prerequisites"></a>Pré-requisitos de conferências e reuniões 
+## <a name="meetings-and-conferencing-prerequisites"></a>Pré-requisitos de conferências e reuniões 
 
 Antes de dimensionar a implantação de reuniões na organização, reserve um tempo para verificar e confirmar se o ambiente está pronto, a fim de fornecer a melhor experiência possível aos usuários. Examine as informações a seguir e faça as alterações necessárias no ambiente, quando for o caso.
 
