@@ -7,16 +7,16 @@ manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: Leia este tópico para saber mais sobre o gerenciamento de salas do Microsoft Teams, a próxima geração de sistemas de sala do Skype.
-ms.openlocfilehash: b32ac786c7c039bd1eaab060e12b7141a8d8cf72
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 601e9e31f6a874d84dae6f4a3b44c26324a7b6f3
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288559"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36427938"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Manutenção e operações de salas do Microsoft Teams 
  
@@ -80,7 +80,10 @@ Esta seção abrange as configurações do sistema das quais as salas do Microso
 |net accounts /maxpwage:unlimited  <br/> Ou uma maneira equivalente de desabilitar a expiração de senha na conta local. Deixar de fazer isso fará com que a conta do Skype falhe ao fazer logon com uma senha expirada. Observe que isso afeta todas as contas locais do computador e, portanto, não definir isso também fará com que a conta administrativa na caixa acabe de expirar também.  <br/> |Permite que a conta do Skype esteja sempre conectada  <br/> |
    
 A transferência de arquivos usando políticas de grupo é discutida em [configurar um item de arquivo](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx).
-  
+
+> [!NOTE]
+> Quando o dispositivo de salas do Microsoft Teams é compatível com a próxima versão do Windows 10 OS, o dispositivo é atualizado automaticamente para a próxima versão por meio do Windows Update. O dispositivo de salas do Microsoft Teams não deve ser atualizado manualmente para o próximo lançamento do Windows 10 ou por meio da habilitação das políticas de grupo do Windows Update for Business (WUFB) "selecionar o nível de preparação do Windows para as atualizações que você deseja receber" e "selecionar quando versões prévias e As atualizações de recursos são recebidas "através de um GPO. Um dispositivo com essas políticas de grupo habilitada é conhecido por ter problemas com o aplicativo de salas do Microsoft Teams para a atualização do Windows 10.
+
 ## <a name="remote-management-using-powershell"></a>Gerenciamento remoto usando o PowerShell
 <a name="RemotePS"> </a>
 

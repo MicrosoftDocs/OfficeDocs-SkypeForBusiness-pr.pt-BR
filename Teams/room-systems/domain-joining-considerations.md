@@ -4,19 +4,21 @@ ms.author: jambirk
 author: jambirk
 manager: serdars
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: Leia este tópico para saber como ingressar o PC do cliente do Sistema de Salas do Skype em seu domínio.
-ms.openlocfilehash: 02aa02cd0297a9f35db187c3b1b00d6615fbaa39
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 3c9471fe07cdacd4bb9dbb26a4b4591ed9945d9f
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243449"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36428062"
 ---
+<!-- This asset missed in the rebrand, and honestly not sure if it's worth keeping.   -->
+
 # <a name="skype-room-system-domain-joining-considerations"></a>Considerações de ingresso no domínio do Sistema de Salas do Skype
  
 Leia este tópico para saber como ingressar o PC do cliente do Sistema de Salas do Skype em seu domínio.

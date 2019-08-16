@@ -6,40 +6,41 @@ ms.reviewer: davgroom
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: Este artigo resume os requisitos para dar suporte a salas do Microsoft Teams.
-ms.openlocfilehash: a964511cbb0df2cd4d6843589423e1b7cbe88cd0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f8c29d023e78758b3e6933a958d6efe1cf30f0b5
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243350"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36427965"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de salas do Microsoft Teams
 
-Este artigo resume os requisitos para dar suporte a salas do Microsoft Teams. 
+Este artigo resume os requisitos para dar suporte a salas do Microsoft Teams.
 
 Sua implantação envolve a criação de conta, conforme descrito em [implantar salas do Microsoft Teams](room-systems-v2.md) e configurar os consoles de reunião, conforme descrito em [configurar um console de salas do Microsoft Teams](console.md).
 
-Você também pode se referir a:
+Além disso, consulte:
 
 - [Licenciamento do complemento Skype for Business](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
 - [Opções de licença com base em seu plano: salas do Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
-> As salas do Microsoft Teams devem ser usadas com o Microsoft Teams, o Skype for Business Server 2019, o Skype for Business Server 2015 ou o Skype for Business online. <br><br>Plataformas anteriores como o Lync Server 2013 não devem funcionar com salas do Microsoft Teams.
-
-> [!NOTE]
+> As salas do Microsoft Teams devem ser usadas com o Microsoft Teams, o Skype for Business Server 2019, o Skype for Business Server 2015 ou o Skype for Business online.
+>
+> Plataformas anteriores como o Lync Server 2013 não devem funcionar com salas do Microsoft Teams.
+>
 > Se você tiver um servidor Exchange local, as salas do Microsoft Teams exigem o uso do Exchange Server 2013 SP1 ou posterior.
 
 ## <a name="hardware-requirements"></a>Requisitos de hardware
 
 As salas do Microsoft Teams são dimensionadas para tamanhos de sala diferentes por meio de acessórios, dependendo de periféricos de áudio e vídeo. O hardware listado neste artigo é compatível com os modos de reunião do Skype e do teams. Os periféricos de áudio e vídeo se conectam a salas do Microsoft Team via conexão USB ou HDMI no dispositivo de encaixe. Também será necessário:
 
-- Um disco USB de | 32 GB ou maior que você configura como mídia inicializável da instalação do Windows para Windows 10 Enterprise.
+- Um disco USB de 32 GB ou maior que você configura como mídia inicializável da instalação do Windows para Windows 10 Enterprise.
 
 - Um dos seguintes tablets ou consoles:
 
@@ -59,7 +60,6 @@ As salas do Microsoft Teams são dimensionadas para tamanhos de sala diferentes 
 
   - [Série MSR Polycom](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
-
 **Outros consoles de salas do Microsoft Teams com suporte**
 
 |Console|631|RAM|Disco|
@@ -70,9 +70,9 @@ As salas do Microsoft Teams são dimensionadas para tamanhos de sala diferentes 
 |[Crestron Flex-M150-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Core i7|8 GB |128 GB |
 [Crestron Flex-B160-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8 GB |128 GB|
 |[Crestron Flex-C160-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8 GB|128 GB|
-|[Fatia HP elite para salas de reunião G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 GB |128 GB | 
-|[Áudio G2 da fatia HP elite pronto para salas do Microsoft Teams](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 GB |128 GB | 
-|[Hub ThinkSmart Hub do Lenovo 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 GB |128 GB | 
+|[Fatia HP elite para salas de reunião G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 GB |128 GB |
+|[Áudio G2 da fatia HP elite pronto para salas do Microsoft Teams](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 GB |128 GB |
+|[Hub ThinkSmart Hub do Lenovo 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 GB |128 GB |
 |[Logitech Tap](https://www.logitech.com/en-us/product/microsoft-rooms)|Core i5|8 GB |128 GB |
 |[Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8 GB|128 GB|
 |[Yealink MVC500](https://www.yealink.com/products_126.html)|Core i5|8 GB |128 GB |
@@ -81,29 +81,33 @@ As salas do Microsoft Teams são dimensionadas para tamanhos de sala diferentes 
 > [!NOTE]
 > Não há suporte para os processadores Core m3.
 
-**Versões de firmware certificadas para periféricos de áudio e vídeo USB**
+### <a name="certified-firmware-versions-for-usb-audio-and-video-peripherals"></a>**Versões de firmware certificadas para periféricos de áudio e vídeo USB**
 
-|Periféricos de salas do Microsoft Teams|Versão do firmware certificado para salas do Microsoft Teams|
-|:-----|:-----|
-|[Logitech Rally](https://www.logitech.com/en-us/product/rally-ultra-hd-conferencecam) <br/> |1.2.4 |
-|[Logitech BRIO](https://www.logitech.com/en-us/product/brio) <br/> |v240|
-|[Logitech MeetUp](http://www.logitech.com/en-us/product/meetup-conferencecam) <br/> |Áudio — 1.0.172 <br/> Vídeo — 1.0.156 <br/> |
-|[Conexão Logitech ConferenceCam](http://www.logitech.com/en-us/product/conferencecam-connect) <br/> |1.1.248.0 <br/> 1.1.684 <br/> |
-|[Grupo Logitech](http://www.logitech.com/en-us/product/conferencecam-group) <br/> |8.5.778 <br/> |
-|[Logitech 930e](http://www.logitech.com/en-us/product/c930e-webcam) <br/> | 8.0.914 <br/> |
-|[Logitech PTZ pro](http://www.logitech.com/en-us/product/conferencecam-ptz-pro) <br/> | 1.1.219 <br/> |
-|[Logitech PTZ Pro 2](http://www.logitech.com/en-us/product/conferencecam-ptz-pro2) <br/> |
-|[Polycom EagleEye IV](http://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl) <br/> |1.0.0 <br/> |
-|[Polycom CX5100 ](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl) <br/> | 1.2.0,70232 <br/> |
+Esses dispositivos estão disponíveis em [aka.ms/teamsdevices](https://aka.ms/teamsdevices).
+
+|Periféricos de salas do Microsoft Teams|Versão do firmware certificado para salas do Microsoft Teams| Câmera compatível com uso de câmera de conteúdo|
+|:--- |:--- | :--- |
+|[IQ Huddly de Crestron](https://www.crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | &#x2714; |
+|[Logitech BRIO](https://www.logitech.com/en-us/product/brio)   |v240| &#x2714; |
+|[Logitech 930e](http://www.logitech.com/en-us/product/c930e-webcam)   | 8.0.914   | &#x2714; |
+|[Logitech Rally](https://www.logitech.com/en-us/product/rally-ultra-hd-conferencecam)   |1.2.4 |
+|[Logitech MeetUp](http://www.logitech.com/en-us/product/meetup-conferencecam)   |Áudio — 1.0.172 <br/> Vídeo — 1.0.156  |
+|[Conexão Logitech ConferenceCam](http://www.logitech.com/en-us/product/conferencecam-connect)   |1.1.248.0 <br/> 1.1.684   |
+|[Grupo Logitech](http://www.logitech.com/en-us/product/conferencecam-group)   |8.5.778   |
+|[Logitech PTZ pro](http://www.logitech.com/en-us/product/conferencecam-ptz-pro)   | 1.1.219   |
+|[Logitech PTZ Pro 2](http://www.logitech.com/en-us/product/conferencecam-ptz-pro2)   |
+|[Polycom EagleEye IV](http://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl)   |1.0.0   |
+|[Polycom CX5100 ](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl)   | 1.2.0,70232   |
 |[Diretor de olhos Polycom Eagle II](https://www.polycom.com/hd-video-conferencing/peripherals/eagleeye-director-ii.html)|2.1.0.10|
-|[Polycom trio 8500/8800](https://www.polycom.com/voice-conferencing-solutions/conference-phones/trio.html) <br/> |5.7.2.3205|
-|[Sennheiser SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc) <br/> |2.0.12.0 <br/> |
-|[Sennheiser SP20](http://en-us.sennheiser.com/sp-20-og-sp-20-ml) <br/> |1.2.15 <br/> |
-|[Sennheiser SP30](https://en-us.sennheiser.com/sp-30) <br/> |2.1.52 <br/>|
-|[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK™-510_7510-209) <br/> |2.10.0 <br/> |
-|[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710) <br/> |1.8.0 <br/> |
-|[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810) <br/> |1.2.23 <br/> |
-|[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/) <br/> |100c <br/> |
+|[Polycom trio 8500/8800](https://www.polycom.com/voice-conferencing-solutions/conference-phones/trio.html)   |5.7.2.3205|
+|[Sennheiser SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc)   |2.0.12.0   |
+|[Sennheiser SP20](http://en-us.sennheiser.com/sp-20-og-sp-20-ml)   |1.2.15   |
+|[Sennheiser SP30](https://en-us.sennheiser.com/sp-30)   |2.1.52  |
+|[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK™-510_7510-209)   |2.10.0   |
+|[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710)   |1.8.0   |
+|[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |
+|[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100c   |
+| |  | |
 
 - **Extensores USB**:
 
@@ -118,10 +122,10 @@ As salas do Microsoft Teams são dimensionadas para tamanhos de sala diferentes 
 - Até 2 1080-p é exibido com conexões HDMI. Cabos HDMI de tamanho apropriado.
 
 > [!NOTE]
-> A TV usada em uma sala de exibição precisa suportar/habilitar o recurso CEC (Controle Eletrônico do Consumidor) do HDMI para que possa alternar automaticamente do modo de espera para uma fonte de vídeo ativa.  Esse recurso não é suportado em todas as TVs. 
+> A TV usada em uma sala de exibição precisa suportar/habilitar o recurso CEC (Controle Eletrônico do Consumidor) do HDMI para que possa alternar automaticamente do modo de espera para uma fonte de vídeo ativa.  Esse recurso não é suportado em todas as TVs.
 
 > [!NOTE]
-> As salas do Microsoft Teams não usam um teclado. Se necessário, o administrador deve usar o teclado virtual. Um mouse ou teclado USB será necessário ao fazer o Imaging do dispositivo de salas do Microsoft Teams. 
+> As salas do Microsoft Teams não usam um teclado. Se necessário, o administrador deve usar o teclado virtual. Um mouse ou teclado USB será necessário ao fazer o Imaging do dispositivo de salas do Microsoft Teams.
 
 As tabelas a seguir fornecem recomendações para periféricos com base no tamanho da sala:
 
@@ -129,19 +133,19 @@ As tabelas a seguir fornecem recomendações para periféricos com base no taman
 
 |Tipo de sala|Número de pessoas|Distância máxima recomendada do microfone para o alto-falante|Dispositivo, de acordo com o tamanho máximo da sala|Comentários|
 |:-----|:-----|:-----|:-----|:-----|
-|**Foco** <br/> 10 ' x 9 ' <br/> |2 a 4 <br/> |1,5 m <br/> |Logitech Connect <br/> |Os dispositivos Logitech Connect incluem uma câmera para que ela deva ser posicionada na frente da sala (não no centro da tabela) para capturar os participantes da reunião local. <br/> |
-|**Pequena** <br/> 16 ' x 16 ' <br/> |4 a 6 <br/> |2,0 m <br/> |Jabra 510 <br/> Sennheiser SP20 <br/> |O volume de reprodução pode ser limitado em salas maiores. <br/> |
-|**Médio** <br/> 18 ' x 20 ' <br/> |6 a 12 <br/> |2,4 m <br/> |Jabra 710 <br/> Jabra 810 <br/> Logitech MeetUp <br/> Logitech Group <br/> Polycom Trio <br/> Polycom CX5100  <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS <br/> |O Logitech MeetUp inclui uma câmera para que ela deva ser posicionada na frente da sala (não no centro da tabela para capturar os participantes da reunião local). <br/> Em geral, as salas com tabelas retangulares ou em formato de u longos podem se beneficiar com microfones satélites. <br/> O SP 220 MS deve ser usado em configuração de corrente margarida. <br/> |
-|**Grande** <br/> 15 ' x 32 ' <br/> |de 12 a 16 <br/> |3 m <br/> Essa distância também se aplica à área coberta por cada microfone de satélite conectado ao dispositivo de áudio. <br/> |Logitech Group + satélite duais <br/> Polycom trio + satélite duais <br/> Polycom CX5100 + satélite duais <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS + satélite duais <br/> |Todos os dispositivos de áudio listados nesta linha dão suporte a opções de microfones parabólicos. <br/> O CX5100 inclui uma câmera interna de 360 graus para que o dispositivo possa ser posicionado no centro da tabela. <br/> O SP 220 MS deve ser usado em configuração de corrente margarida. <br/> |
+|**Foco** <br/> 10 ' x 9 '   |2 a 4  |1,5 m  |Logitech Connect  |Os dispositivos Logitech Connect incluem uma câmera para que ela deva ser posicionada na frente da sala (não no centro da tabela) para capturar os participantes da reunião local.  |
+|**Pequena** <br/> 16 ' x 16 '  |4 a 6  |2,0 m  |Jabra 510 <br/> Sennheiser SP20  |O volume de reprodução pode ser limitado em salas maiores.  |
+|**Médio** <br/> 18 ' x 20 '  |6 a 12  |2,4 m  |Jabra 710 <br/> Jabra 810 <br/> Logitech MeetUp <br/> Logitech Group <br/> Polycom Trio <br/> Polycom CX5100  <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS  |O Logitech MeetUp inclui uma câmera para que ela deva ser posicionada na frente da sala (não no centro da tabela para capturar os participantes da reunião local). <br/> Em geral, as salas com tabelas retangulares ou em formato de u longos podem se beneficiar com microfones satélites. <br/> O SP 220 MS deve ser usado em configuração de corrente margarida.  |
+|**Grande** <br/> 15 ' x 32 '  |de 12 a 16  |3 m <br/> Essa distância também se aplica à área coberta por cada microfone de satélite conectado ao dispositivo de áudio.  |Logitech Group + satélite duais <br/> Polycom trio + satélite duais <br/> Polycom CX5100 + satélite duais <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS + satélite duais  |Todos os dispositivos de áudio listados nesta linha dão suporte a opções de microfones parabólicos. <br/> O CX5100 inclui uma câmera interna de 360 graus para que o dispositivo possa ser posicionado no centro da tabela. <br/> O SP 220 MS deve ser usado em configuração de corrente margarida.  |
 
 **Periféricos de vídeo certificados para salas do Microsoft Teams**
 
 |Tipo de sala|Número de pessoas|Dispositivo por tamanho ideal da sala|Comentários|
 |:-----|:-----|:-----|:-----|
-|**Foco** <br/> 10 ' x 9 ' <br/> |2 a 4 <br/> |Logitech Connect <br/> Logitech MeetUp <br/> Polycom CX5100  <br/> ||
-|**Pequena** <br/> 16 ' x 16 ' <br/> |4 a 6 <br/> |Logitech C930e <br/> Logitech MeetUp <br/> Logitech BRIO <br/> Logitech PTZ pro <br/> Polycom MSR <br/> Polycom CX5100  <br/> |A Logitech PTZ pro geralmente acompanhada do Logitech Group <br/> |
-|**Médio** <br/> 18 ' x 20 ' <br/> |6 a 12 <br/> |Logitech MeetUp <br/> Logitech BRIO <br/> Logitech PTZ pro <br/> Polycom MSR <br/> Polycom CX5100  <br/> ||
-|**Grande** <br/> 15 ' x 32 ' <br/> |de 12 a 16 <br/> |Logitech PTZ pro <br/> Polycom MSR <br/> Polycom CX5100  <br/> ||
+|**Foco** <br/> 10 ' x 9 '  |2 a 4  |Logitech Connect <br/> Logitech MeetUp <br/> Polycom CX5100   ||
+|**Pequena** <br/> 16 ' x 16 '  |4 a 6  |Logitech C930e <br/> Logitech MeetUp <br/> Logitech BRIO <br/> Logitech PTZ pro <br/> Polycom MSR <br/> Polycom CX5100   |A Logitech PTZ pro geralmente acompanhada do Logitech Group  |
+|**Médio** <br/> 18 ' x 20 '  |6 a 12  |Logitech MeetUp <br/> Logitech BRIO <br/> Logitech PTZ pro <br/> Polycom MSR <br/> Polycom CX5100   ||
+|**Grande** <br/> 15 ' x 32 '  |de 12 a 16  |Logitech PTZ pro <br/> Polycom MSR <br/> Polycom CX5100   ||
 
  > [!NOTE]
  > A resolução de tela frontal da sala deve ser definida como não maior do que 1920x1080p.
@@ -156,6 +160,7 @@ Para criar sua própria imagem de salas do Microsoft Teams, siga as instruções
 [SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/fwlink/?linkid=870105) é um download opcional que você pode usar para configurar contas de salas do Microsoft Teams.
 
 ## <a name="see-also"></a>Confira também
+
 [Procurar todos os pacotes](https://products.office.com/en-us/microsoft-teams/across-devices/devices)
 
 [Plano para salas do Microsoft Teams](skype-room-systems-v2-0.md)

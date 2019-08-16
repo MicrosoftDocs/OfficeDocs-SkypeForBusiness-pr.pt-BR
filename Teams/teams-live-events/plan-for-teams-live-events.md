@@ -3,7 +3,7 @@ title: Planejar eventos ao vivo no Microsoft Teams
 author: chuckedmonson
 ms.author: chucked
 manager: serdars
-ms.date: 07/10/2019
+ms.date: 08/15/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Saiba mais sobre os fatores a serem considerados antes de configurar eventos dinâmicos no Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5ba4810da9ac940d9562b524ea1473b09bf3ff3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0afac3e6099f866e5b2cb75395fa1d2bc568d663
+ms.sourcegitcommit: 62f507154e502bb43c608b6f15f72ff7679e93c5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243654"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36429987"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 
@@ -42,6 +42,9 @@ Aqui estão as licenças que devem ser atribuídas:
 
 - **Para eventos produzidos no Teams**  Deve ser atribuída uma licença do teams ao usuário.
 - **Para eventos produzidos com um aplicativo ou dispositivo externo** Deve ser atribuída uma licença de fluxo para o usuário.
+
+> [!NOTE]
+> Os eventos ao vivo do teams agora estão disponíveis para organizações da comunidade de nuvens (GCC) do governo dos EUA.
 
 Para obter mais informações sobre licenciamento, consulte [Licenciamento de Complementos do Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 

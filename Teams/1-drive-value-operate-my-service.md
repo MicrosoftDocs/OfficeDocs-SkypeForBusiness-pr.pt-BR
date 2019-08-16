@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
+description: Tarefas e atividades necessárias para o gerenciamento de serviços do Teams, incluindo monitorar a integridade do serviço e avaliar e garantir a qualidade e o uso da rede.
+localization_priority: Normal
 ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
-description: Tarefas e atividades necessárias para o gerenciamento de serviços do Teams, incluindo monitorar a integridade do serviço e avaliar e garantir a qualidade e o uso da rede.
-localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a63cac388a777073f5c022e493a5abab51a12add
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d319c27e7e541cb970fe53a974012f5bb4ad29c3
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244070"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36427608"
 ---
 # <a name="operate-my-service"></a>Operar meu serviço
 
