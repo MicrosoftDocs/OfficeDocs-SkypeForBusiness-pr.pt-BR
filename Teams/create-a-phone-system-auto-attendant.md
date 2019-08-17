@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar atendedores automáticos da nuvem para o Microsoft Teams.
-ms.openlocfilehash: 939d1ac17007e3d823b0588f9949330e24555449
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: bd23262a3b8cd3c50cffbb4be6aa70317d209613
+ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35807532"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "36447936"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar um atendedor automático do Cloud
 
@@ -37,14 +37,14 @@ Se você quiser saber mais sobre atendedores automáticos, consulte [o que são 
 > [!NOTE]
 > Este artigo se aplica ao Microsoft Teams e ao Skype for Business online.
 
-## <a name="step-1---get-started"></a>Etapa 1-Introdução
+## <a name="step-1--get-started"></a>Etapa 1-Introdução
 
 - Um atendedor automático é necessário para ter uma conta de recurso associada. Consulte [gerenciar contas de recursos no Teams](manage-resource-accounts.md) para obter detalhes sobre contas de recursos e todas as licenças necessárias.
 
 > [!TIP]
 > Para redirecionar chamadas para um operador ou uma opção de menu que seja um usuário online com uma licença do **sistema de telefonia** , será necessário habilitá-las para o Enterprise Voice. Consulte [atribuir licenças do Skype for Business](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) ou [atribuir licenças do Microsoft Teams](assign-teams-licenses.md). Você também pode usar o Windows PowerShell. Por exemplo, execute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-## <a name="step-2---create-a-new-auto-attendant"></a>Etapa 2 - Criar um novo atendedor automático
+## <a name="step-2--create-a-new-auto-attendant"></a>Etapa 2 — criar um novo atendedor automático
 
 > [!IMPORTANT]
 > Cada atendedor automático é necessário para ter uma [conta de recurso](manage-resource-accounts.md)associada. Você deve criar a conta do recurso primeiro, então você pode associá-la ao atendedor automático.
@@ -61,51 +61,51 @@ No **centro de administração do Microsoft Teams**, clique em atendedores autom
 
 ![Ícone do número 1, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout1.png)
 
-**Nome** Digite um nome de exibição descritivo para o atendedor automático. O nome é obrigatório e pode conter até 64 caracteres, incluindo espaços. Ele será listado na coluna **Nome** da guia **Atendedores automáticos**.
+**Nome** Digite um nome de exibição descritivo para o atendedor automático. O nome é obrigatório e pode conter até 64 caracteres, incluindo espaços. Ela está listada na coluna **nome** na guia **atendedores automáticos** .
 
 * * *
 
 ![Ícone do número 2, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout2.png)
 
-**Conta do recurso** Clique neste botão para selecionar uma ou mais contas de recursos para se conectar ao seu novo atendedor automático. Todos os atendedores automáticos devem ter uma conta de recurso associada. Uma conta de recurso pode ter um número de telefone associado à conta, mas pode não. Um atendedor automático de nível superior geralmente tem uma conta de recurso com um número de telefone atribuído, mas o atendedor automático aninhado (usado como um menu de nível 2 ao qual o atendedor automático de primeiro nível se conecta) pode não ter um número de telefone atribuído à sua conta de recurso.
+**Conta do recurso** Clique neste botão para selecionar uma ou mais contas de recursos para se conectar ao seu novo atendedor automático. Todos os atendedores automáticos devem ter uma conta de recurso associada. Uma conta de recurso pode ter um número de telefone associado à conta, mas um número de telefone não é um requisito. Um atendedor automático de nível superior geralmente tem uma conta de recurso com um número de telefone atribuído, mas o atendedor automático aninhado (usado como um menu de nível 2 ao qual o atendedor automático de primeiro nível se conecta) pode não ter um número de telefone atribuído à sua conta de recurso.
 
 * * *
 
 ![Ícone do número 3, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout3.png)
 
-**Fuso horário** Você deve definir o fuso horário para o atendedor automático, mas ele não precisa corresponder ao fuso horário do endereço principal de sua organização. Cada atendedor automático pode ter um fuso horário diferente e os horários comerciais definidos para o atendedor automático serão definidos com base no fuso horário que você selecionar aqui.
+**Fuso horário** Você deve definir o fuso horário para o atendedor automático, mas ele não precisa corresponder ao fuso horário do endereço principal de sua organização. Cada atendedor automático pode ter um fuso horário diferente, e o horário comercial definido para o atendedor automático é definido com base no fuso horário selecionado aqui.
 
 * * *
 
 ![Ícone do número 4, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout4.png)
 
-**Idioma** Selecione o idioma que você deseja usar para o atendedor automático entre os idiomas disponíveis listados. O idioma que você define aqui é o idioma que o atendedor automático usará para interagir com as pessoas que chamam nesse atendedor automático, e todos os prompts do sistema serão reproduzidos nesse idioma.
+**Idioma** Selecione o idioma que você deseja usar para o atendedor automático entre os idiomas disponíveis listados. O idioma que você define aqui é o idioma que o atendedor automático usa para interagir com as pessoas que fazem chamadas para este atendedor automático e todos os prompts do sistema são reproduzidos nesse idioma.
 
 * * *
 
 ![Ícone do número 5, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout5.png)
 
-**Operador** Isso é opcional e não precisa ser definido para o atendedor automático. No entanto, você pode definir a opção de **operador** para as pessoas que chamam para que possam sair dos menus para falar com uma pessoa para ajudá-los.
+**Operador** de Isso é opcional, mas você pode definir a opção de **operador** para permitir que os chamadores se quebrem dos menus e falar com uma pessoa.
 
-A tecla 0 é atribuída automaticamente ao Operador.
+A tecla 0 é atribuída ao operador por padrão.
 
-Se você configurar isso, também precisará dizer às pessoas que chamam se essa opção está disponível nas **Opções do menu Editar** na página de **manipulação de chamadas do horário comercial** . Se você definir um operador em seu atendedor automático, será necessário inserir o texto de aviso correspondente na caixa **** os chamadores ouvirá ou alterar seu arquivo de áudio para incluir essa opção. Por exemplo, "Para falar com o operador, pressione 0".
+Se você definir um operador, também precisará dizer às pessoas que chamam a opção sobre a opção nas **Opções do menu Editar** na página de **manipulação de chamadas do horário comercial** . Se você definir um operador em seu atendedor automático, será necessário inserir o texto de aviso correspondente na **** caixa os chamadores ouvirá ou alterar seu arquivo de áudio para incluir essa opção. Por exemplo, "Para falar com o operador, pressione 0".
 
-Você pode definir um dos seguintes como Operador:
+Você tem várias maneiras de definir o operador:
 
 - **Pessoa da sua empresa** com uma licença de **Sistema de Telefonia** habilitada para Enterprise Voice ou com Planos de Chamadas do Office 365 atribuídos.
 
      > [!Note]
      > A **Pessoa da sua empresa** pode ser um usuário Online ou um usuário hospedado no local usando o Skype for Business Server 2015 ou o Lync Server 2013.
 
-- Uma **fila de chamadas** que você configurou.
-- Você pode configurá-lo para que a pessoa que liga seja enviada para a caixa postal. Para fazer isso, selecione **pessoa em sua empresa** e defina as chamadas desta pessoa para serem encaminhadas diretamente para o correio de voz.
+- **Aplicativo de voz** Selecione o nome de uma conta de recurso associada a uma fila de chamadas ou atendedor automático que já foi criado.
+- Você pode configurá-lo para que a pessoa que faz a chamada seja enviada para o correio de voz. Para fazer isso, selecione **pessoa em sua empresa** e defina as chamadas desta pessoa para serem encaminhadas diretamente para o correio de voz.
 
 * * *
 
 ![Ícone do número 6, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout6.png)
 
-**Habilitar entradas de voz** O reconhecimento de fala estará disponível se esta opção for selecionada. As pessoas que chamam podem usar entrada de voz no [idioma que você definiu](set-auto-attendant-languages-for-audio-conferencing-in-teams.md). Você pode desativar o reconhecimento de fala definindo-o como desativado, se quiser permitir que as pessoas usem o teclado de telefone.
+**Habilitar entradas de voz** O reconhecimento de fala estará disponível se esta opção for selecionada. As pessoas que chamam podem usar entrada de voz no [idioma que você definiu](set-auto-attendant-languages-for-audio-conferencing-in-teams.md). Se quiser permitir que as pessoas usem o teclado de telefone, você pode desativar o reconhecimento de fala definindo-a como desativada.
 
 * * *
 
@@ -113,7 +113,7 @@ Quando terminar de selecionar as opções, clique em **Avançar**.
 
 #### <a name="business-hours-page"></a>Página de horário comercial
 
-Por padrão, o horário comercial é definido como 9h às 17:00, de segunda a sexta-feira.  Todos os horários que não estão incluídos nos horários comerciais são considerados horários fora do expediente. Você pode clicar em **selecionar 24/7** para fazer todas as horas de trabalho. A menos que você selecione a opção **selecionar 24/7** , a página de **configurações de chamada de horas** extras será usada para configurar a manipulação de chamadas de após o horário comercial para o atendedor automático.
+Por padrão, o horário comercial é definido como 9:00 de até 5:00 PM, de segunda a sexta-feira. Todas as horas que não estão incluídas no horário comercial são consideradas após o horário comercial. Você pode clicar em **selecionar 24/7** para fazer todas as horas de trabalho. A menos que você selecione a opção **selecionar 24/7** , a página de **configurações de chamada de horas** extras será usada para configurar as regras de tratamento de chamadas para o horário comercial do atendedor automático.
 
 ![Captura de tela da página de horário comercial](media/61769547-cdb4-45c0-af5a-3d6e0731fbc6.png)
 
@@ -121,13 +121,13 @@ Por padrão, o horário comercial é definido como 9h às 17:00, de segunda a se
 
 ![Ícone do número 1, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout1.png)
 
-Por padrão, o horário comercial é definido como de segunda a sexta-feira, 9:00 am-5:00 PM. Selecione a opção **limpar todas as horas** para desmarcar todas as horas no cronograma. Quando você selecionar **Redefinir para padrão**, o horário comercial será redefinido para segunda a sexta-feira, 9:00 am-5:00 PM.
+Por padrão, o horário comercial é definido como de segunda a sexta-feira, 9:00 am-5:00 PM. Selecione a opção **limpar todas as horas** para desmarcar todas as horas no cronograma. Quando você seleciona **Redefinir para padrão**, o horário comercial é redefinido para segunda a sexta-feira, 9:00 am-5:00 PM.
 
 * * *
 
 ![Ícone do número 2, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout2.png)
 
-Para alterar os horários comerciais, destaque os horários comerciais que deseja definir usando o calendário. O calendário permite que você selecione horários comerciais em intervalos de 30 minutos, e o horário comercial selecionado aqui será definido com base no fuso horário que você definiu na página **informações gerais** . Para configurar um intervalo (horário de almoço, por exemplo), desmarque ou arraste para desmarcar o horário no calendário. Você pode definir várias quebras dentro do horário comercial.
+Para alterar o horário comercial, realce o horário comercial que você deseja definir no calendário. O calendário permite que você selecione horários comerciais em intervalos de 30 minutos, e o horário comercial selecionado aqui é baseado no fuso horário que você definiu na página **informações gerais** . Para configurar um intervalo (horário de almoço, por exemplo), desmarque ou arraste para desmarcar o horário no calendário. Você pode definir várias quebras dentro do horário comercial.
 
 * * *
 
@@ -138,7 +138,7 @@ Quando terminar de selecionar as opções, clique em **Avançar**.
 > [!TIP]
 > Se você usar um cronograma personalizado de horário de trabalho, também precisará configurar o recurso de chamada para após o horário comercial usando a página de **processamento de chamadas de horas** extras, que lhe dará as mesmas opções que **as configurações de chamada do horário comercial**.
 
-Você pode configurar saudações, prompts e menus para os quais as pessoas que ligarem para o número de telefone do atendedor automático da sua organização estarão ouvindo durante o horário comercial.
+Você pode configurar saudações, avisos e menus que as pessoas ouvirão quando ligarem para o número de telefone vinculado ao atendedor automático da sua organização durante o horário comercial.
 
 ![Captura de tela da seção](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8.png)
 ![de ação da página de manipulação de chamadas para horário comercial da seção ações da página de manipulação de chamadas de horário comercial](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8b.png)
@@ -147,9 +147,7 @@ Você pode configurar saudações, prompts e menus para os quais as pessoas que 
 
 ![Ícone do número 1, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout1.png)
 
-**Saudação** Uma saudação na hora da empresa é opcional e pode ser definida como **sem saudação**. Nesse caso, o chamador não ouvirá nenhuma mensagem ou saudação antes que a chamada seja manipulada por uma das ações que você selecionar. Você também pode carregar um arquivo de áudio (em formatos .wav, .mp3 ou. wma) ou criar uma saudação personalizada usando conversão de texto em fala.
-
-- **Sem saudação** Nenhuma saudação será reproduzida quando as pessoas ligarem para o número de telefone do atendedor automático.
+**Saudação** Uma saudação na hora da empresa é opcional e pode ser definida como **sem saudação**. Nesse caso, o chamador não ouvirá uma mensagem ou saudação antes que a chamada seja manipulada por uma das ações que você selecionar. Você também pode carregar um arquivo de áudio (em formatos .wav, .mp3 ou. wma) ou criar uma saudação personalizada usando conversão de texto em fala.
 - **Carregar um arquivo de áudio** Se você escolher isso, grave a saudação e, em seguida, carregue seu arquivo de áudio (nos formatos. wav,. mp3 ou. WMA).
 - **Digite uma mensagem de saudação** Se você escolher essa opção, insira o texto que deseja que o sistema Leia (até 1000 caracteres). Por exemplo, você pode inserir "Bem-vindo à Contoso. A sua ligação é muito importante para nós." na caixa **Os chamadores ouvirão**.
 
@@ -209,7 +207,7 @@ Para configurar as opções de menu, depois de selecionar as teclas de discagem,
         > [!Note]
         > O **horário comercial** dos atendedores automáticos aninhados (ou de segundo nível) também será usado, incluindo as chamadas enviadas de outros atendedores automáticos que foram configurados.
 
-     - **fila de chamadas** Usar uma opção de fila de chamadas permite que a chamada seja transferida para uma fila de chamadas existente que você configurou. 
+       - **Aplicativo de voz** Selecione o nome de uma conta de recurso associada a uma fila de chamadas ou atendedor automático que já foi criado.
 
 * * *
 
@@ -269,8 +267,7 @@ Os nomes de feriados podem ter até 64 caracteres e devem ser únicos para o mes
     > [!Note]
     > A **Pessoa da sua empresa** pode ser um usuário Online ou um usuário hospedado no local usando o Skype for Business Server 2015 ou o Lync Server 2013.
 
-  - Uma **fila de chamadas** para transferir a chamada para uma fila de chamadas existente que você configurou.
-  - Outro **atendedor automático**para criar um segundo nível de opções de menu contendo um submenu. These are called nested auto attendants.
+   - **Aplicativo de voz** Selecione o nome de uma conta de recurso associada a uma fila de chamadas ou atendedor automático que já foi criado.
 
     > [!Note]
     > Por padrão, todas as chamadas recebidas durante um período de feriado desconectam a pessoa após a saudação (se houver uma), portanto, você deve especificar um redirecionamento caso outro comportamento seja desejado.
