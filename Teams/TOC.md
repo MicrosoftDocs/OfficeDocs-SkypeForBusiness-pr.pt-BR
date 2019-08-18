@@ -590,21 +590,18 @@
 #       
 #        
 
-
-<!-- ============================================================ -->
 # Atualizar para o Teams
+
 ## [Introdução](upgrade-start-here.md)
 ## [Sobre a estrutura de atualização](upgrade-framework.md)
 
-## Planeje sua jornada de atualização
+## Planejar sua jornada de atualização
+
 ### [Visão geral do planejamento de atualização](upgrade-plan-journey.md)
 ### [Listar os participantes em seu projeto](upgrade-enlist-stakeholders.md)
 ### [Definir o escopo de seu projeto](upgrade-define-project-scope.md)
-
-### Compreender a coexistência e interoperabilidade
-#### [Visão geral de coexistência e interoperabilidade](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-#### [Escolher sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-### [Planejar a qualidade](upgrade-plan-for-quality.md)
+### [Compreender a coexistência e interoperabilidade](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+### [Escolher sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 ## Preparar seu ambiente para o Teams
 ### [Visão geral de preparação técnica](upgrade-prepare-environment.md)
@@ -618,9 +615,15 @@
 ### [Visão geral de preparação Organizacional](upgrade-prepare-organization.md)
 ### [Avaliar preparação da mudança organizacional](upgrade-org-change-readiness.md)
 ### [Preparar um plano de preparação para usuários](upgrade-user-readiness.md)
-## [Realizar um piloto de usuário](pilot-essentials.md)
-## [Atualizar do Skype for Business Online para o Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
-## [Atualizar do Skype for Business híbrido ou local para o Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
+
+
+## Implementar sua atualização
+### [Visão geral](upgrade-to-Teams.md)
+### [Realizar um piloto de usuário](pilot-essentials.md)
+### [Atualizar o Skype for Business Online para o Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
+
+### [Atualizar do Skype for Business local para o Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
+
 
 ## Operar, adotar e otimizar
 ### [Visão geral do plano operacional](continue-journey.md)
@@ -628,15 +631,69 @@
 ### [Monitorar a qualidade](upgrade-monitor-quality.md)
 ### [Aprimorar seu serviço](upgrade-enhance-my-service.md)
 
-## [Perguntas frequentes](FAQ-journey.md)
-## Informações adicionais
+
+## [Perguntas Frequentes](FAQ-journey.md)
+
+## Saiba mais sobre a coexistência
 ### [Migração e interoperabilidade com o Skype for Business](migration-interop-guidance-for-teams-with-skype.md)
 ### [Coexistência com o Skype for Business](coexistence-chat-calls-presence.md)
 ### [Experiência e conformidade do cliente do Teams a modos de coexistência](teams-client-experience-and-conformance-to-coexistence-modes.md)
+#       
+#        
 
 <!-- ============================================================ -->
-# 
-# 
+
+# Conectividade híbrida 
+
+## 
+  [Planejar conectividade híbrida](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
+
+## Configurar conectividade híbrida
+### 
+  [Visão geral](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+### 
+  [Configurar o Azure AD Connect para ambientes híbridos](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/configure-azure-ad-connect)
+### 
+  [Configurar o Skype for Business híbrido](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online)
+
+## Mover os usuários entre um ambiente local e a nuvem
+### 
+  [Visão geral](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+### 
+  [Migrar usuários de um ambiente local para o Teams](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)
+### 
+  [Mover usuários do ambiente local para o Skype for Business Online](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
+### 
+  [Mover usuários da nuvem para o ambiente local](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
+
+### 
+  [Gerenciar migração da reunião](https://docs.microsoft.com/pt-BR/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+
+## 
+  [Disabilitar conectividade híbrida para concluir a migração para a nuvem](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
+
+## 
+  [Implantar uma topologia de floresta de recursos](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid)
+
+## Consolidação na nuvem para o Teams e Skype for Business
+### 
+  [Visão geral](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/cloud-consolidation)
+### 
+  [Atualizar o certificado de borda](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates)
+### 
+  [Atualizar o AAD Connect para incluir mais de uma floresta](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect)
+
+## 
+  [Integração com o Exchange e o SharePoint](https://docs.microsoft.com/pt-BR/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
+
+
+#       
+#        
+
+<!-- ============================================================ -->
+
+
+
 
 # Diretrizes governamentais e de indústrias
 ## [Visão geral](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
