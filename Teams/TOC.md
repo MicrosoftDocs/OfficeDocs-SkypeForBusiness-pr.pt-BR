@@ -645,46 +645,31 @@
 
 # Conectividade híbrida 
 
-## 
-  [Planejar conectividade híbrida](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
+## [Planejar conectividade híbrida](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
 ## Configurar conectividade híbrida
-### 
-  [Visão geral](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
-### 
-  [Configurar o Azure AD Connect para ambientes híbridos](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/configure-azure-ad-connect)
-### 
-  [Configurar o Skype for Business híbrido](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online)
+### [Visão geral](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+### [Configurar o Azure AD Connect para ambientes híbridos](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/configure-azure-ad-connect)
+### [Configurar o Skype for Business híbrido](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online)
 
 ## Mover os usuários entre um ambiente local e a nuvem
-### 
-  [Visão geral](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
-### 
-  [Migrar usuários de um ambiente local para o Teams](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)
-### 
-  [Mover usuários do ambiente local para o Skype for Business Online](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
-### 
-  [Mover usuários da nuvem para o ambiente local](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
+### [Visão geral](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+### [Migrar usuários de um ambiente local para o Teams](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)
+### [Mover usuários do ambiente local para o Skype for Business Online](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
+### [Mover usuários da nuvem para o ambiente local](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
 
-### 
-  [Gerenciar migração da reunião](https://docs.microsoft.com/pt-BR/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+### [Gerenciar migração da reunião](https://docs.microsoft.com/pt-BR/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
 
-## 
-  [Disabilitar conectividade híbrida para concluir a migração para a nuvem](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
+## [Disabilitar conectividade híbrida para concluir a migração para a nuvem](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
 
-## 
-  [Implantar uma topologia de floresta de recursos](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid)
+## [Implantar uma topologia de floresta de recursos](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid)
 
 ## Consolidação na nuvem para o Teams e Skype for Business
-### 
-  [Visão geral](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/cloud-consolidation)
-### 
-  [Atualizar o certificado de borda](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates)
-### 
-  [Atualizar o AAD Connect para incluir mais de uma floresta](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect)
+### [Visão geral](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/cloud-consolidation)
+### [Atualizar o certificado de borda](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates)
+### [Atualizar o AAD Connect para incluir mais de uma floresta](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect)
 
-## 
-  [Integração com o Exchange e o SharePoint](https://docs.microsoft.com/pt-BR/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
+## [Integração com o Exchange e o SharePoint](https://docs.microsoft.com/pt-BR/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
 
 
 #       
@@ -702,6 +687,7 @@
 ### [O Microsoft StaffHub será desativado](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Instalar o módulo PowerShell do Microsoft PowerHub](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
 ### [Executar um relatório para exibir o uso ativo do StaffHub](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
+### [Planejar a mudança de suas equipes do StaffHub para o Shifts no Teams](expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams.md)
 ### [Mova as suas equipes do Microsoft StaffHub para Turnos no Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
 ### [Gerenciar o aplicativo Turnos para sua organização no Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 

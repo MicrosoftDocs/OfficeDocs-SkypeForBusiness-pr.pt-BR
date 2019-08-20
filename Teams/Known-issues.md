@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f848647119fa0efa87f3928430ffbd9f0e0af6e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5c24899cb15cfec26cd1ee0d3304abbea93239e4
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235191"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464482"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -82,10 +82,6 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |Ao tentar ingressar no Teams usando o Internet Explorer ou o Edge, o programa entra em loop e falha consistentemente e não entra.   <br/> | Sua organização usa Sites Confiáveis no Internet Explorer e o aplicativo baseado na Web do Teams não se conecta porque sites confiáveis não são permitidos para o Teams. <br/>|Faça as seguintes alterações nas configurações do IE ou no Painel de Controle, usando direitos de Administrador ou um Objeto de Política de Grupo:<br/><ol><li>Em **Opções da Internet** &gt; **Privacidade** &gt; **Avançado**, aceite cookies Internos e de Terceiros e marque a caixa **Sempre permitir cookies de sessão**.</li><li>Clique em **Opções da Internet** &gt; **Segurança** &gt; **Sites Confiáveis** &gt; **Sites** e adicione todos os seguintes sites:<ul><li>https://login.microsoftonline.com</li><li>https://\*.teams.microsoft.com</li></ul></li></ol><br/><b>OBSERVAÇÃO</b>: Sempre valide e permita todas as URLs confiáveis para o Teams e os requisitos do seguinte documento: [URLs e intervalos de endereços IP do Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).   <br/> |01/11/2017  <br/> |
-
-|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
-|:-----|:-----|:-----|:-----|
-|Limitações no complemento do Outlook  <br/> |Para usar o complemento do Outlook, você precisa fazer login no Teams usando a autenticação multifator (MFA). Se a MFA falhar no meio do processo de login, você ainda poderá fazer login no Teams, mas você receberá uma mensagem de erro quando tentar usar o complemento.  <br/> Até o momento, o complemento só está disponível para usuários do Windows.  <br/> O complemento não funcionará se você estiver usando uma autenticação de proxy.  <br/> | Não há solução alternativa. <br/> |02/08/2017  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
