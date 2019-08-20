@@ -11,16 +11,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumo: saiba como usar o PowerShell para obter a funcionalidade do SEFAUtil no Skype for Business Server 2019 depois de instalar a atualização cumulativa 1.'
-ms.openlocfilehash: 1c5d8d32c1b7b1b988b0ab39c79e4a7f40752875
-ms.sourcegitcommit: 14700a4faab81a294ac794f25b26619a5ed242a5
+ms.openlocfilehash: 6e0f7fc8e4bbb25564faa8107dec81ae3887b360
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "35821315"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464542"
 ---
 # <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>Usando a funcionalidade do SEFAUtil pelo PowerShell no Skype for Business Server 2019
 
-SEFAUtil (ativação de recurso de extensão secundária) permite que os administradores do Skype for Business Server e do helpdesk configurem as configurações de toque, encaminhamento de chamadas e recebimento de chamadas em grupo em nome de um usuário do Skype for Business Server. Essa ferramenta também permite aos administradores consultar as configurações de roteamento de chamadas publicadas para determinado usuário. Depois de instalar essa atualização, a seguinte funcionalidade que atualmente pode ser gerenciada somente por meio do SEFAUtil também será gerenciável pelo PowerShell:
+SEFAUtil (ativação de recurso de extensão secundária) permite que os administradores do Skype for Business Server e do helpdesk configurem as configurações de toque, encaminhamento de chamadas e recebimento de chamadas em grupo em nome de um usuário do Skype for Business Server. Essa ferramenta também permite aos administradores consultar as configurações de roteamento de chamadas publicadas para determinado usuário. Depois de instalar a atualização cumulativa do Skype for Business Server 2019 de julho, as seguintes funcionalidades que podem ser gerenciadas apenas por meio do SEFAUtil também poderão ser gerenciadas pelo PowerShell:
 
 - [Configurações de encaminhamento de chamadas](#call-forwarding-settings)
 - [Configurações de delegação](#delegation-settings)

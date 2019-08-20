@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Resumo: saiba como conectar o Skype for Business Server ao Skype consumidor. Também conhecida como conectividade com o Skype.'
-ms.openlocfilehash: b41e974b2162826f375f2cce2b2eabbae320871b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4a335d2ec8e20310a34ce1bdfc8f39fe9b1117ee
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235700"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464596"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Implantar a conectividade do Skype no Skype for Business Server
 
@@ -100,7 +100,7 @@ O Skype for Business Server usa a arquitetura de acesso à Federação para dar 
 
 O site que antes era usado para provisionar manualmente a Federação entre implantações locais do Skype for Business e o Skype não é mais necessário e será desligado no 8/15/2019. A Federação com o Skype agora usa a descoberta de parceiro federado, que é o mesmo mecanismo necessário para federação com o Skype for Business online.
 
-A comunicação entre qualquer implantação do Skype for Business no local e usuários do Skype por meio da infraestrutura de IM pública existente agora requer que a configuração do servidor de borda local seja compatível com o Skype for Business online.
+A comunicação entre qualquer implantação local do Skype for Business e usuários do Skype por meio da atual infraestrutura de IM existente agora requer que a configuração do servidor de borda local seja compatível com o Skype for Business online.
 
 > [!NOTE]
 > Nenhuma ação é necessária para a maioria dos clientes, incluindo todas as implantações que se agrupam com o Skype for Business online.
@@ -121,10 +121,10 @@ Diretrizes adicionais sobre certificados externos podem ser encontradas no [plan
 #### <a name="faqs"></a>Freqüente
 
 **Por que o site de provisionamento está sendo desligado?**
-O mecanismo de provisionamento do sistema de mensagens de chat (PIC) pública (PIC) que foi implantado no 2006 não é mais útil e será desligado no 8/15/2019. Em vez disso, a Federação de IM pública presumirá o mesmo modelo de Federação usado pelo Skype for Business Online, conhecido como "descoberta de parceiro", no qual uma implantação local é divulgada publicamente pelo (s) registro (s) SRV DNS de Federação.
+O mecanismo de provisionamento do sistema de mensagens de chat (PIC) pública (PIC) que foi implantado no 2006 não é mais útil e será desligado no 8/15/2019. Em vez disso, a Federação de mensagem de chat pública presumirá o mesmo modelo de Federação usado pelo Skype for Business Online, conhecido como "descoberta de parceiro", no qual uma implantação local é divulgada publicamente pelo (s) registro (s) SRV DNS de Federação.
 
 **Essa alteração significa que a Federação de mensagem instantânea pública está sendo preterida?**
-Não. A Federação de mensagem de chat pública continuará disponível por muitos anos, provavelmente até que o produto Skype for Business no local atinja o fim da vida.
+Não. A Federação de mensagem de chat pública continuará disponível por muitos anos, provavelmente até que o produto do Skype for Business no local atinja o fim da vida útil.
 
 **Nossa empresa tem uma relação híbrida (espaço de endereço compartilhado) com o Skype for Business Online, estamos afetados?**
 Não, como você já está se agrupando com o Skype for Business Online, essa alteração não irá afetá-lo.

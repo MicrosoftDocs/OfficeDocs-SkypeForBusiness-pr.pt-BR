@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Leia este tópico para saber como planejar o bypass de mídia com o roteamento direto do sistema telefônico.
-ms.openlocfilehash: 70d0b5ea61d0d7a8001bb1dbfabda2c45274e521
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: a6f13b8f7db767d8a6a16f8f4493f15aeed9af38
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271441"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464585"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planejar o bypass de mídia com Roteamento Direto
 
@@ -290,7 +290,7 @@ Você precisa abrir as portas 3478 e 3479 para fazer a transição. Quando a Mic
 
 ### <a name="requirements-for-using-media-processors"></a>Requisitos para usar processadores de mídia
 
-Processadores de mídia estão sempre no caminho de mídia para aplicativos de voz e para Web cleints (para exampe, Teams cleint no Microsoft Edge ou Google Chrome). Os requisitos são iguais aos da configuração não bypass.
+Processadores de mídia estão sempre no caminho de mídia para aplicativos de voz e para clientes Web (por exemplo, clientes do teams no Microsoft Edge ou Google Chrome). Os requisitos são iguais aos da configuração não bypass.
 
 
 O intervalo IP para tráfego de mídia é 
@@ -353,7 +353,7 @@ Para obter informações sobre como configurar dois troncos no mesmo SBC, consul
 
 O bypass de mídia é compatível com todos os pontos de extremidade do teams.
 
-Observação para webcleints (aplicativo Web Teams no Microsoft Edge, Google Chrome ou Mozilla Firefox), veremos a chamada para não bypass, mesmo que ele tenha começado como uma chamada de bypass. Isso acontece automaticamente e não requer nenhuma ação no administrador. 
+Observação para clientes Web (aplicativo Web Teams no Microsoft Edge, Google Chrome ou Mozilla Firefox), veremos a chamada para non-bypass, mesmo que ele tenha começado como uma chamada de bypass. Isso acontece automaticamente e não requer nenhuma ação do administrador. 
  
 ## <a name="see-also"></a>Confira também
 

@@ -3,7 +3,7 @@ title: Planejar eventos ao vivo no Microsoft Teams
 author: chuckedmonson
 ms.author: chucked
 manager: serdars
-ms.date: 08/15/2019
+ms.date: 08/19/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Saiba mais sobre os fatores a serem considerados antes de configurar eventos dinâmicos no Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0afac3e6099f866e5b2cb75395fa1d2bc568d663
-ms.sourcegitcommit: 62f507154e502bb43c608b6f15f72ff7679e93c5
+ms.openlocfilehash: 1a38fad067f71fff0221a5af2f842ed1e2574d54
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36429987"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464543"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 
@@ -73,11 +73,12 @@ O usuário deve ter:
 
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Eventos ao vivo do Teams e transmissão de reunião do Skype
+
 A tabela a seguir destaca os principais recursos e recursos oferecidos em eventos dinâmicos e como eles diferem da transmissão de reunião do Skype. 
 
 |**Potencial**   |**Transmissão de Reunião do Skype** |**Eventos produzidos no Teams** |**Eventos produzidos em um aplicativo externo ou dispositivo** |
 |---------|---------|---------|---------|
-|Tamanho máximo da audiência |participantes do 10.000 |10.000 participantes * |10.000 participantes * |
+|Tamanho máximo da audiência |participantes do 10.000 |10.000 participantes<sup>1</sup> |10.000 participantes<sup>1</sup> |
 |Duração máxima do evento ao vivo |4 horas |4 horas |4 horas |
 |Número máximo de eventos simultâneos ao vivo por locatário do Office 365 |15  | 15  | 15  |
 |Criação de eventos ao vivo |   Portal de transmissão de reunião do Skype |Teams, Yammer via Teams | Teams, Yammer via Teams, Stream |
@@ -102,8 +103,7 @@ A tabela a seguir destaca os principais recursos e recursos oferecidos em evento
 |Relatório de presença pós-transmissão para produtores |&#x2714; |&#x2714; |X |
 |Análise de opiniões de audiência – votação ao vivo & sondagens |&#x2714; (Microsoft Pulse) |X |X |
 
-> [!IMPORTANT]
-> Os limites definidos podem ser alterados.
+<sup>1</sup> os limites definidos podem ser alterados.
 
 ## <a name="regional-availability"></a>Disponibilidade regional
 Você pode usar os eventos ao vivo do teams em várias regiões do mundo todo. As informações a seguir mostram a disponibilidade para participantes e membros da equipe do evento. 
@@ -118,7 +118,7 @@ Você pode usar os eventos ao vivo do teams em várias regiões do mundo todo. A
 - Vá para o Canadá local
 
 **Exclusões e considerações**
-- **Ir para locais:** Reino Unido, Índia, Austrália, Japão e outras equipes acessam locais não são compatíveis no momento.
+- **Ir para locais:** No momento, não há suporte para outros locais do Reino Unido e do Microsoft Teams go local.
 - **China:** Os membros da equipe de eventos e os participantes não poderão usar os eventos dinâmicos do Teams, pois a CDN do Azure não está acessível na China. Uma solução alternativa é usar uma conexão VPN da empresa, que obtém o cliente conectado à CDN por meio da rede corporativa do cliente.
 
 ## <a name="next-steps"></a>Próximas etapas

@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Saiba o que você precisa saber e fazer antes de portar números de telefone para o Microsoft Teams e como criar um pedido de portabilidade para transferi-los.
-ms.openlocfilehash: 9c0a7cd6957991257bc0cdb7feedacc8c0c49b24
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 4cd270fd01f0ec023181de7847914d8fdc8239b5
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347790"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464563"
 ---
 # <a name="transfer-phone-numbers-to-office-365"></a>Transferir números de telefone para o Office 365
 
@@ -39,7 +39,7 @@ Antes de começar a transferir números de telefone, recomendamos que você exam
   > [!NOTE]
   > Processamos pedidos de portais para transferir números de telefone apenas nos dias úteis dos EUA e não em feriados públicos ou em fins de semana.
   
-## <a name="how-to-create-a-port-order-and-transfer-your-phone-numbers-to-teamss"></a>Como criar um pedido de portabilidade e transferir seus números de telefone para a equipe
+## <a name="how-to-create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>Como criar um pedido de portabilidade e transferir seus números de telefone para o Microsoft Teams
 <a name="bk_LNPcountries_1"> </a>
 
   > [!NOTE]
