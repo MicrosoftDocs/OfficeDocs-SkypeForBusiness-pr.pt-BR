@@ -18,17 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords:
+- ms.teamsadmincenter.voice.phonenumbers.overview
+- ms.teamsadmincenter.voice.searchandacquire.PSTNpartner
 - ms.lync.lac.NewNumberManualAcquisitionOpenSupportTicket
 - ms.lync.lac.VASAMissingGeoCodes
 ms.custom:
 - Calling Plans
 description: Saiba como obter e gerenciar números de telefone do Microsoft Teams para a sua organização.
-ms.openlocfilehash: 4260e87a5efe16d3b59053e672be3a348e8a5bdf
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 832a5dd14d1d7ff1d74443e8243d8e5f022a25af
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347856"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483675"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Gerenciar os números de telefone de sua organização
 
@@ -51,6 +53,7 @@ Se você sabe quais tipos de formulários você está procurando, use o menu sus
 > - [França](phone-number-management-for-france.md)
 > - [Alemanha](phone-number-management-for-germany.md)
 > - [Irlanda](phone-number-management-for-ireland.md)
+> - [Japão](phone-number-management-for-japan.md)
 > - [Países Baixos](phone-number-management-for-the-netherlands.md)
 > - [Espanha](phone-number-management-for-spain.md)
 > - [Reino Unido](phone-number-management-for-the-u-k.md)
@@ -79,7 +82,8 @@ Se você precisar transferir os números de telefone, você vai para baixar uma 
 
 Se você ainda precisar de ajuda, informe-nos como podemos ajudá-lo. Na sua solicitação de Ajuda, inclua detalhes como sua ID de organização, domínios, quais tipos de números você precisa de ajuda, quantos números que você deseja, autorizar pessoa na conta e outros detalhes importantes sobre o seu problema.
 - Para obter ajuda com números de telefone dentro dos EUA, [envie sua solicitação](mailto:ptn@microsoft.com).
-- Para obter ajuda com números de telefone fora dos EUA, [envie sua solicitação](mailto:ptneu@microsoft.com).
+- Para obter ajuda para números de telefone na Europa, [Envie sua solicitação](mailto:ptneu@microsoft.com).
+- Para obter ajuda com o número de telefone na Ásia, [Envie sua solicitação](mailto:ptnapac@microsoft.com).
 
 #### <a name="additional-resources"></a>Recursos adicionais
 

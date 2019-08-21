@@ -17,15 +17,18 @@ localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar e gerenciar políticas de equipe em sua organização para controlar o que os usuários podem fazer em equipes e canais.
 f1keywords:
+- ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discoverteams
+- ms.teamsadmincenter.teams.teamspolicies.new.tooltip.createchannels
+- ms.teamsadmincenter.teams.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: 243492b5429e34d42f6dd452e5fcf04a957cafd2
-ms.sourcegitcommit: 7ae59d1091ea086b7253c1d8ce85c28fabc5537a
+ms.openlocfilehash: 40647aec4f55d3d922f29c853ec84ee175dc8166
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "36166306"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483197"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Gerenciar políticas do teams no Microsoft Teams
 
