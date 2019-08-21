@@ -15,18 +15,18 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0601ee50046d543bd252c205cd7b55acbf16a323
-ms.sourcegitcommit: 2453f87088fc2f8034726c14699aacb65d859b1b
+ms.openlocfilehash: 54c71dfb692dc5981699babdfdb708c404eb6231
+ms.sourcegitcommit: fd5d48b36d70e3f42e029572fe003ee397db090d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36436311"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "36473327"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
 Este artigo descreve alguns dos limites, as especificações e outros requisitos que se aplicam ao Teams.
 
-## <a name="teams-and-channels"></a>Equipes e canais 
+## <a name="teams-and-channels"></a>Equipes e canais
 
 |Recurso    | Limite máximo |
 |-----------|---------------|
@@ -113,6 +113,17 @@ A função de chat do Microsoft Teams funciona em um back-end do Microsoft Excha
 > Os limites tamanho da mensagem, anexos de arquivo e imagens embutidas são iguais em todas as licenças do Office 365.
 
 Para obter mais informações, consulte [limites do Exchange Online](https://technet.microsoft.com/library/exchange-online-limits.aspx).
+
+## <a name="contacts"></a>Contatos
+
+O Teams usa estes contatos:
+
+- Contatos no Active Directory da sua organização
+- Contatos adicionados à pasta padrão do Outlook do usuário
+
+Os usuários do teams podem se comunicar com qualquer pessoa no Active Directory da sua organização e podem adicionar qualquer pessoa no Active Directory da sua organização como contato e em suas listas de contatos indo para**contatos** ou **chamadas**  >  de **chat** >  **Contatos**.
+
+Os usuários do teams também podem adicionar uma pessoa que não esteja no Active Directory da sua organização como contato **** > acessando**contatos**.
 
 ## <a name="browsers"></a>Navegador
 
