@@ -17,12 +17,12 @@ description: Aprenda as etapas para configurar o Live para eventos no Teams, inc
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3848dde21ae45c0354049a69c939ba4bd978bea4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 882a6c708a7aae67a8aafae880d8f0244f5fa8b1
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237363"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493093"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurar eventos ao vivo no Microsoft Teams
 
@@ -57,7 +57,7 @@ Políticas de eventos dinâmicos são usadas para controlar quem em sua organiza
 
 |Configuração  |Descrição  |
 |---------|---------|
-|**Nome**     |Este é o nome da política exibida na página políticas de eventos dinâmicos. Não pode ter mais de 64 caracteres ou ter caracteres especiais.          |
+|**Título**     |Esse é o título da política exibida na página políticas de eventos dinâmicos. Não pode ter mais de 64 caracteres ou ter caracteres especiais.          |
 |**Descrição**    |Use isso para adicionar uma descrição amigável à política.         |
 |**Permitir agendamento**     |Ativar isso permite que os usuários em sua organização criem e agendem eventos dinâmicos no Teams. É importante saber que, se você quiser que os usuários agendem um evento ao vivo produzido com um aplicativo ou dispositivo externo, há etapas adicionais que você deve fazer. Para saber mais, confira [habilitar usuários para agendar eventos que foram produzidos com um aplicativo ou dispositivo externo](#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device).     |
 |**Permitir transcrição para participantes** |Essa configuração só pode ser aplicada a eventos produzidos no Teams. Ativar isso permite que os participantes de eventos dinâmicos vejam legendas e legendas ao vivo durante o evento.         |

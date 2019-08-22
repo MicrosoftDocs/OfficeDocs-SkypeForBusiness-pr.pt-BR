@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 6de37fb4f995e2af8be640fef62b379c2a1d7b0d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 18762b51fc44ed1bc3f63a0e815528174e4afd8a
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288200"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493071"
 ---
 # <a name="what-are-communications-credits"></a>O que são Créditos de Comunicação?
 
@@ -75,6 +75,9 @@ Nas**assinaturas**de > **cobrança** > do **centro de administração do Microso
 Cada organização terá um uso diferente de taxas e volumes de planos de chamadas a serem considerados. You will need to get this type of usage data from your current service provider. Para organizações que usam o Skype for Business já como provedor de serviços, você pode obter dados de uso revisando-os nos**relatórios** do **Centro** > de administração do Microsoft 365 ou nos > relatórios **do centro de administração do Skype for Business**** **Detalhes do **uso de PSTN.**  > 
   
 Ao configurar créditos de comunicações, você precisará investigar o uso da chamada para a sua organização para determinar os valores que precisará colocar. Você pode obter informações de uso de chamadas examinando o relatório **Detalhes de uso de PSTN**. Este relatório permite exportar os registros de dados de chamadas para o Excel e criar relatórios personalizados.
+
+> [!NOTE]
+> Os créditos de comunicações também são usados para números de Tarifa Premium. O chamador paga os encargos.
   
 ## <a name="recommended-funding-amounts"></a>Quantias de financiamento recomendadas
 

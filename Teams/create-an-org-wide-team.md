@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 881996d5f8acbc7458a775e02adfad9b38a231a9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 901f0dd116bf152433d226e0c131f795675784cc
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241230"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493107"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Criar uma equipe englobando toda a organização no Microsoft Teams
 
@@ -40,11 +40,12 @@ Esses tipos de contas não serão adicionados à sua equipe de toda a organizaç
 - Sala ou contas de equipamento
 - Contas com suporte em uma caixa de correio compartilhada
 
-Como o diretório de sua organização é atualizado para incluir novos usuários ativos ou se os usuários não funcionarem mais em sua empresa e a licença do teams estiver desativada, as alterações serão sincronizadas automaticamente e os usuários serão adicionados ou removidos da equipe. Os membros da equipe não podem sair de uma equipe de toda a organização. Como proprietário da equipe, você pode adicionar ou remover usuários manualmente, se necessário.
+Como o diretório de sua organização é atualizado para incluir novos usuários ativos ou se os usuários não funcionarem mais em sua empresa e a conta estiver desativada, as alterações serão sincronizadas automaticamente e os usuários serão adicionados ou removidos da equipe. Os membros da equipe não podem sair de uma equipe de toda a organização. Como proprietário da equipe, você pode adicionar ou remover usuários manualmente, se necessário.
 
 > [!NOTE]
-> - Se você não vir a opção de **toda** a organização ao criar uma equipe e se for um administrador global, o recurso ainda poderá ser implantado ou sua organização poderá ter mais do que o limite de tamanho atual de membros do 5.000. Estamos tentando aumentar esse limite no futuro.
+> - Se você não vir a opção de **toda a organização** ao criar uma equipe e se for um administrador global, o recurso ainda poderá ser implantado, você atingiu o limite de cinco Teams de toda a organização ou sua organização pode ter mais que o limite de tamanho atual de membros do 5.000. Estamos tentando aumentar esse limite no futuro.
 > - As salas que não fazem parte de uma lista de salas, equipamento e contas de recursos podem ser adicionadas ou sincronizadas com a equipe de toda a organização. Os proprietários da equipe podem remover facilmente essas contas da equipe.
+> - Todas as ações do sistema para adicionar ou remover membros são publicadas no canal geral. O canal também será marcado como tendo novas atividades no cliente do teams.
 
 ## <a name="best-practices"></a>Práticas recomendadas
 
@@ -68,7 +69,7 @@ Considere a possibilidade de configurar a moderação do canal e dar recursos mo
 
 ### <a name="remove-accounts-that-might-not-belong"></a>Remover contas que não podem pertencer
 
-Embora os membros não possam sair de uma equipe de toda a organização, como proprietário da equipe, você pode gerenciar a escala da equipe removendo contas que não pertencem. Certifique-se de usar o Microsoft Teams para remover usuários da sua equipe de toda a organização. Se você usar outra maneira de remover um usuário, como o centro de administração do Microsoft 365 ou de um grupo no Outlook, o usuário poderá ser adicionado novamente à equipe da organização.
+Embora os membros não possam sair de uma equipe de toda a organização, como proprietário da equipe, você pode gerenciar a escala da equipe removendo contas que não pertencem. **Certifique-se de usar o Microsoft Teams para remover usuários da sua equipe de toda a organização**. Se você usar outra maneira de remover um usuário, como o centro de administração do Microsoft 365 ou de um grupo no Outlook, o usuário poderá ser adicionado novamente à equipe da organização.
 
 ## <a name="faq"></a>Perguntas frequentes
 

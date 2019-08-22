@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Saiba como configurar um SBC (controlador de borda de sessão) para atender a vários locatários.
-ms.openlocfilehash: 3aad7aa5b958e9e4129bbf7e3553137768d1f4c1
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: a8ee395a0b588af976151923992efbb32971b43c
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271452"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493121"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar um controlador de borda da sessão para vários locatários
 
@@ -206,28 +206,34 @@ Com a versão inicial do roteamento direto, a Microsoft exigia que um tronco fos
 
 No entanto, isso não provou ideal por dois motivos:
  
-• **Gerenciamento de sobrecarga**. Descarregar ou descarregar um SBC, por exemplo, altera alguns parâmetros, como habilitar ou desabilitar o bypass de mídia. A alteração da porta requer a alteração de parâmetros em vários locatários (executando Set-CSOnlinePSTNGateway), mas é, na verdade, o mesmo SBC. • **Processamento de sobrecarga**. Coletando e monitorando dados de integridade do tronco-opções SIP coletadas de vários troncos lógicos que são, na verdade, o mesmo SBC e o mesmo tronco físico, reduzem o processamento dos dados de roteamento.
+- **Gerenciamento de sobrecarga**. Descarregar ou descarregar um SBC, por exemplo, altera alguns parâmetros, como habilitar ou desabilitar o bypass de mídia. A alteração da porta requer a alteração de parâmetros em vários locatários (executando Set-CSOnlinePSTNGateway), mas é, na verdade, o mesmo SBC. 
+
+-  **Processamento de sobrecarga**. Coletando e monitorando dados de integridade do tronco-opções SIP coletadas de vários troncos lógicos que são, na verdade, o mesmo SBC e o mesmo tronco físico, reduzem o processamento dos dados de roteamento.
  
 
 Com base nesses comentários, a Microsoft está trazendo uma nova lógica para provisionar os troncos para os locatários do cliente.
 
-Duas novas entidades foram introduzidas: • um tronco de portadora registrado no locatário da operadora usando o comando New-CSOnlinePSTNGateway, por exemplo, New-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignallingport 5068-ForwardPAI $true.
-• Um tronco derivado, que não exige registro. É simplesmente um nome de host desejado adicionado do tronco da transportadora. Ele deriva todos os parâmetros de configuração do tronco da transportadora. O tronco derivado não precisa ser criado no PowerShell, e a associação com o tronco da transportadora é baseada no nome FQDN (veja os detalhes abaixo).
+Duas novas entidades foram introduzidas:
+-   Um tronco de portadora registrado no locatário da operadora usando o comando New-CSOnlinePSTNGateway, por exemplo, New-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignallingport 5068-ForwardPAI $true.
 
-Lógica de provisionamento e exemplo.
+-   Um tronco derivado, que não exige registro. É simplesmente um nome de host desejado adicionado do tronco da transportadora. Ele deriva todos os parâmetros de configuração do tronco da transportadora. O tronco derivado não precisa ser criado no PowerShell, e a associação com o tronco da transportadora é baseada no nome FQDN (veja os detalhes abaixo).
 
-• As operadoras só precisam configurar e gerenciar um único tronco (tronco de portadora no domínio de transportadora) usando o comando Set-CSOnlinePSTNGateway. No exemplo acima, é adatum.biz; • No locatário do cliente, a transportadora precisa apenas adicionar o FQDN do tronco derivado às políticas de roteamento de voz dos usuários. Não é necessário executar New-CSOnlinePSTNGateway para um tronco.
-• O tronco derivado, como o nome sugere, herda ou deriva todos os parâmetros de configuração do tronco da transportadora. Exemplos: • Customers.adatum.biz – o tronco Carrier que precisa ser criado no locatário da operadora.
-• Sbc1.customers.adatum.biz – o tronco derivado em um locatário de cliente que não precisa ser criado no PowerShell.  Você pode simplesmente adicionar o nome do tronco derivado no locatário do cliente na política de roteamento de voz online sem criá-lo.
+**Lógica de provisionamento e exemplo**
 
-• Todas as alterações feitas em um tronco de transportadora (no locatário de transportadora) são automaticamente aplicadas a troncos derivados. Por exemplo, as operadoras podem alterar uma porta SIP no tronco da transportadora e essa alteração se aplica a todos os troncos derivados. A nova lógica para configurar os troncos simplifica o gerenciamento, pois você não precisa ir para cada locatário e alterar o parâmetro em cada tronco.
-• As opções são enviadas apenas ao FQDN do tronco de portadora. O status de integridade do tronco da transportadora é aplicado a todos os troncos derivados e é usado para decisões de roteamento. Saiba mais sobre [as opções de roteamento direto](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot).
-• A transportadora pode dissipar o tronco de portador e todos os troncos derivados também serão descarregadas. 
+-   As operadoras só precisam configurar e gerenciar um único tronco (tronco de portadora no domínio de transportadora) usando o comando Set-CSOnlinePSTNGateway. No exemplo acima, é adatum.biz;
+-   No locatário do cliente, a transportadora precisa apenas adicionar o FQDN do tronco derivado às políticas de roteamento de voz dos usuários. Não é necessário executar New-CSOnlinePSTNGateway para um tronco.
+-    O tronco derivado, como o nome sugere, herda ou deriva todos os parâmetros de configuração do tronco da transportadora. Exemplos
+-   Customers.adatum.biz – o tronco de portador que precisa ser criado no locatário da operadora.
+-   Sbc1.customers.adatum.biz – o tronco derivado em um locatário do cliente que não precisa ser criado no PowerShell.  Você pode simplesmente adicionar o nome do tronco derivado no locatário do cliente na política de roteamento de voz online sem criá-lo.
+
+-   Todas as alterações feitas em um tronco de transportadora (no locatário de transportadora) são automaticamente aplicadas a troncos derivados. Por exemplo, as operadoras podem alterar uma porta SIP no tronco da transportadora e essa alteração se aplica a todos os troncos derivados. A nova lógica para configurar os troncos simplifica o gerenciamento, pois você não precisa ir para cada locatário e alterar o parâmetro em cada tronco.
+-   As opções são enviadas apenas ao FQDN do tronco de portadora. O status de integridade do tronco da transportadora é aplicado a todos os troncos derivados e é usado para decisões de roteamento. Saiba mais sobre [as opções de roteamento direto](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot).
+-   A transportadora pode dissipar o tronco de portador e todos os troncos derivados também serão descarregadas. 
  
 
-Migração do modelo anterior para o tronco da operadora
+**Migração do modelo anterior para o tronco da operadora**
  
-Para a migração da implementação atual do modelo hospedado da transportadora para o novo modelo, as operadoras precisarão reconfigurar os troncos para os locatários do cliente. Remova os troncos dos locatários do cliente usando Remove-CSOnlinePSTNGateway (deixando o tronco no locatário da operadora).
+Para a migração da implementação atual do modelo hospedado da transportadora para o novo modelo, as operadoras precisarão reconfigurar os troncos para os locatários do cliente. Remova os troncos dos locatários do cliente usando Remove-CSOnlinePSTNGateway (deixando o tronco no locatário da transportadora)-
 
 Incentivamos a migração para a nova solução o mais rápido possível, pois vamos melhorar o monitoramento e o provisionamento usando a operadora e o modelo de tronco derivado.
  

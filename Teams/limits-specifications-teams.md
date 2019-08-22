@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54c71dfb692dc5981699babdfdb708c404eb6231
-ms.sourcegitcommit: fd5d48b36d70e3f42e029572fe003ee397db090d
+ms.openlocfilehash: 854c6beeccdae6286bc609a226a49b15de1114e6
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "36473327"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36492998"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -43,6 +43,43 @@ Este artigo descreve alguns dos limites, as especificações e outros requisitos
 &sup2; Esse limite inclui equipes arquivadas.
 
 &sup3; os canais excluídos podem ser restaurados dentro de 30 dias. Durante esses 30 dias, um canal excluído continua a ser contado em direção ao canal de 200 por limite da equipe. Após 30 dias, um canal excluído e seu conteúdo são excluídos permanentemente, e o canal não conta mais em relação ao 200 canais por equipe.
+
+## <a name="messaging"></a>Mensagens
+
+### <a name="chat"></a>Chat
+
+Os usuários que participam de conversas que fazem parte da lista de chats nas equipes devem ter uma caixa de correio do Exchange Online (baseada em nuvem) para que um administrador pesquise conversas de chat. Isso porque as conversas que fazem parte da lista de chats são armazenadas nas caixas de correio dos participantes do chat. Se um participante de bate-papo não tiver uma caixa de correio do Exchange Online, o administrador não poderá pesquisar nem fazer uma retenção das conversas de bate-papo. Por exemplo, em uma implantação híbrida do Exchange, os usuários com caixas de correio locais podem conseguir participar de conversas que fazem parte da lista de chat no Microsoft Teams. Entretanto, nesse caso, o conteúdo dessas conversas não pode ser pesquisada e não pode ser colocada em retenção porque os usuários não possuem caixas de correio baseadas em nuvem. (Para obter mais informações, consulte [como o Exchange e o Microsoft Teams interagem](exchange-teams-interact.md).)
+
+O chat do teams funciona em um back-end do Microsoft Exchange, portanto, os limites de mensagens do Exchange se aplicam à função chat no Teams
+
+|Recurso  | Limite máximo  |
+|---------|---------|
+|Número de pessoas em um chat privado<sup>1</sup>  | 100    |
+|Número de anexos de arquivo<sup>2</sup>  |254     |
+
+<sup>1</sup> Se você tiver mais de 20 pessoas em um chat, os seguintes recursos de chat são desativados: respostas automáticas do Outlook e mensagens de status do teams; indicador de digitação; chamadas com vídeo e áudio; compartilhamento confirmações de leitura.
+
+<sup>2</sup> Se o número de anexos exceder esse limite, você verá uma mensagem de erro.
+
+### <a name="emailing-a-channel"></a>Enviando um email para um canal
+
+ Se os usuários quiserem enviar um email para um canal no Teams, eles usarão o endereço de email do canal. Quando um email faz parte de um canal, qualquer pessoa pode responder a ele para iniciar uma conversa. Aqui estão alguns dos limites aplicáveis para enviar emails para um canal.
+
+|Recurso  | Limite máximo  |
+|---------|---------|
+|Tamanho<sup>da mensagem 1<sup> | 24 KB |
+|Número de anexos de arquivo<sup>2</sup>  |cedido     |
+|Tamanho de cada anexo de arquivo | Menos de 10 MB |
+|Número de imagens embutidas<sup>2</sup> |50   |
+
+<sup>1</sup> Se a mensagem exceder esse limite, uma mensagem de visualização será gerada e o usuário será solicitado a baixar e exibir o email original do link fornecido.
+
+<sup>2</sup> Se o número de anexos ou imagens exceder esse limite, você verá uma mensagem de erro.
+
+Para obter mais informações, consulte [limites do Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
+
+> [!NOTE]
+> Os limites tamanho da mensagem, anexos de arquivo e imagens embutidas são iguais em todas as licenças do Office 365.
 
 ## <a name="channel-names"></a>Nomes de canais
 
@@ -91,28 +128,6 @@ Como as equipes são executadas em um back-end do SharePoint Online para compart
 Os canais são apoiados por pastas dentro do conjunto de sites do SharePoint Online criado para a equipe, portanto, as guias de arquivo em canais compartilham os limites de armazenamento da equipe a que pertencem.
 
 Para obter mais informações, consulte [limites do SharePoint Online](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
-
-## <a name="messaging"></a>Mensagens
-
-Os usuários que participam de conversas que fazem parte da lista de chat no Microsoft Teams devem ter uma caixa de correio do Exchange Online (baseada em nuvem) para que um administrador pesquise conversas de chat. Isso ocorre porque as conversas que fazem parte da lista de bate-papo ficam armazenadas nas caixas de correio baseadas em nuvem dos participantes do bate-papo. Se um participante de bate-papo não tiver uma caixa de correio do Exchange Online, o administrador não poderá pesquisar nem fazer uma retenção das conversas de bate-papo. Por exemplo, em uma implantação híbrida do Exchange, os usuários com caixas de correio locais podem participar de conversas que fazem parte da lista de bate-papo do Microsoft Teams. Entretanto, nesse caso, o conteúdo dessas conversas não pode ser pesquisada e não pode ser colocada em retenção porque os usuários não possuem caixas de correio baseadas em nuvem. (Para obter mais informações, consulte [como o Exchange e o Microsoft Teams interagem](exchange-teams-interact.md).)
-
-A função de chat do Microsoft Teams funciona em um back-end do Microsoft Exchange, para que você possa aplicar os limites de mensagens do Exchange à função de chat no Microsoft Teams. Se os usuários quiserem enviar um email para um canal no Teams, eles usarão o endereço de email do canal. Quando um email faz parte de um canal, qualquer pessoa pode responder a ele para iniciar uma conversa. Aqui estão alguns dos limites aplicáveis para enviar emails para um canal. 
-
-|Recurso  | Limite máximo  |
-|---------|---------|
-|Número de pessoas em um chat privado  | 100    |
-|Tamanho da mensagem&dagger;  |25 KB   |
-|Número de anexos de arquivo&Dagger;  |254     |
-|Número de imagens embutidas&Dagger; |50   |
-
-&dagger;Se a mensagem exceder esse limite, uma mensagem de visualização será gerada e o usuário será solicitado a exibir/baixar o email original do link fornecido.
-
-&Dagger;Se o número de anexos ou imagens exceder esse limite, a mensagem não será processada e um email de NDR será enviado de volta para o remetente notificando sobre o erro.
-
-> [!NOTE]
-> Os limites tamanho da mensagem, anexos de arquivo e imagens embutidas são iguais em todas as licenças do Office 365.
-
-Para obter mais informações, consulte [limites do Exchange Online](https://technet.microsoft.com/library/exchange-online-limits.aspx).
 
 ## <a name="contacts"></a>Contatos
 
