@@ -1,0 +1,1 @@
+Esse recurso ainda não aparece no centro de administração do Microsoft Teams? Ele está sendo distribuído no momento e pode ainda não estar disponível em sua organização. Para ficar por dentro dos próximos recursos do Teams, consulte o [Roteiro do Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
