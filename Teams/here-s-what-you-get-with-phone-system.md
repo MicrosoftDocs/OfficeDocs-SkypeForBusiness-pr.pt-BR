@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 956834a7dbfee58601cb62848a12fad6a05abdd7
-ms.sourcegitcommit: 9053c0d5ddb6be3ce3da85dffcde3f45dbc0ab7c
+ms.openlocfilehash: 0046a008579c6c741d99825e6b79387a73eec55b
+ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36407971"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36645254"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Veja aqui o que você obtém com o Sistema de Telefonia no Office 365
 
@@ -51,7 +51,7 @@ Ao usar o sistema telefônico, os usuários do Skype for Business receberão os 
 |[Encontrar uma conversa anterior do Skype for Business (Lync)](https://support.office.com/article/d1d54123-0301-482e-b047-c82e9e2724a3) <br/> |Mantenha o controle de todas as suas conversas em um só lugar, quer se trate de mensagens instantâneas, chamadas telefônicas ou reuniões agendadas. As conversas são gravadas em seu histórico de chamadas.  <br/> |
 |Chamada em espera/recuperar  <br/> | Use quando várias chamadas ocorrerem ao mesmo tempo. Quando você atender ou fizer outra chamada, a chamada atual ficará em modo de espera automaticamente. <br/> |
 |[Transferir uma chamada do Skype for Business](https://support.office.com/article/f9f312a3-ccc9-4215-86e8-8928b2df1f97) <br/> |Transfira chamadas para outra pessoa. Ou, se precisar sair do escritório, mas quiser continuar a conversa, você pode transferir as chamadas do seu PC ou telefone IP para o telefone celular ou Tablet.  <br/> |
-|ID do Chamador  <br/> |Chamadas de dentro da empresa exibem uma ID de chamada que obtém as informações do diretório corporativo, mostrando a foto e o cargo, em vez de apenas um número de telefone.  <br/> |
+|ID do Chamador  <br/> |Chamadas de dentro da empresa exibem uma ID de chamada que obtém as informações do diretório corporativo, mostrando a foto e o cargo, em vez de apenas um número de telefone. Para chamadas de números de telefone externos, a identificação de chamadas fornecida pelo provedor de serviços de telefonia é exibida.   <br/> |
 |[Criar uma fila de chamada do Cloud](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |As filas de chamadas na nuvem incluem Saudações que são usadas quando alguém liga para um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de Pesquisar o próximo agente de chamada disponível para lidar com a chamada enquanto as pessoas que chamam são ouvindo música em espera.  <br/> |
 |[Diga-me quando o status de alguém mudar](https://support.office.com/article/042a13d8-c815-4101-8b41-1e141b6bf6e9) <br/> | Esse recurso permite que você marque pessoas que estão atualmente indisponíveis. Assim, você receberá uma notificação quando uma dessas pessoas estiver pronta para receber telefonemas. <br/> |
 |Clientes para PC, Mac e celular  <br/> | Isso lhe dá recursos de chamada em dispositivos, de tablets e celulares a PCs e telefones IP da área de trabalho. <br/> |

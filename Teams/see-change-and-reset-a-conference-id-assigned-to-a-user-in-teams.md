@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Saiba como atribuir um ID de conferência a um usuário no Microsoft Teams e quais devem ser os parâmetros do ID de conferência. '
-ms.openlocfilehash: a41935e324a7ed167efc905bbe274f6ef7c85de5
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 8c4832050626dadd1bec068be262281d1303ef46
+ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344312"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36645276"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Visualizar e redefinir um ID de conferência atribuído a um usuário no Microsoft Teams
 
@@ -84,9 +84,7 @@ Consulte a [referência do Microsoft Teams PowerShell](https://docs.microsoft.co
   
     
 - O ID de conferência deve seguir o comprimento em dígitos definido na ponte de audioconferência. Não é possível usar letras e caracteres especiais nos IDs de conferência, somente números.
-    
-- O ID de conferência de todos os seus usuários de audioconferência deve ter sete dígitos por padrão; o número de dígitos não pode ser alterado.
-    
+   
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 
@@ -100,5 +98,5 @@ Para obter mais informações sobre o Windows PowerShell, consulte a [referênci
     
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Experimentar ou comprar a audioconferência no Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[Experimentar ou comprar audioconferência no Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 

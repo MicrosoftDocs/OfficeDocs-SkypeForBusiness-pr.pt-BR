@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: A Microsoft está desativando o serviço online de Unificação de mensagens do Exchange (ExchUMO) em fevereiro de 2020. Este artigo resume o que os clientes afetados devem saber e fazer para planejar sua continuidade de negócios.
-ms.openlocfilehash: b9353546012a0cf16f154d330f27f36fd360b5ee
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0472d142cc9d6b535b950e86e41753c82992bee5
+ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243890"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36645244"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Suporte à migração da Unificação de Mensagens do Exchange Online
 
@@ -23,8 +23,7 @@ Em referência ao [anúncio](https://blogs.technet.microsoft.com/exchange/2019/0
  
 O ExchUMO é implantado por clientes para correio de voz, atendedor automático, fila de chamadas e serviços de integração de fax. A Microsoft planeja ajudar os clientes a migrar para serviços de sistema telefônico que já dão suporte a milhares de clientes no Skype for Business Online e no Microsoft Teams. 
 
-O correio de voz é basicamente uma migração orientada pela Microsoft; o envolvimento do administrador e o investimento serão necessários para um subconjunto de clientes. Atendedores automáticos e filas de chamadas têm uma migração orientada por administradores; os administradores precisam recriar as árvores de atendedor automático do ExchUMO no serviço de atendedor automático do sistema telefônico. Os clientes que usam qualquer um dos recursos do ExchUMO com um PBX de terceiros não migrarão para os serviços de nuvem do sistema de telefonia, pois esses serviços não oferecem suporte a sistemas PBX de terceiros. Um plano de aposentadoria para suporte a terceiros foi anunciado no ano passado neste [blog](https://blogs.technet.microsoft.com/exchange/2017/07/18/discontinuation-of-support-for-session-border-controllers-in-exchange-online-unified-messaging
-), e os clientes neste modelo de implantação podem migrar os usuários para uma das plataformas/serviços de comunicação unificada da Microsoft ou adquirir um correio de voz ou automática de terceiros solução do atendente para esses usuários. Não há suporte para a integração de fax no sistema telefônico; Os clientes precisarão migrar para uma solução de terceiros. 
+O correio de voz é basicamente uma migração orientada pela Microsoft; o envolvimento do administrador e/ou o investimento podem ser necessários para um subconjunto de clientes. O atendedor automático é uma migração orientada por administradores; Você precisará recriar as árvores de atendedor automático do ExchUMO no serviço de nuvem do atendedor automático na nuvem. Os clientes que estiverem consumindo qualquer um dos recursos do ExchUMO com um PBX de terceiros não serão migrados para os serviços de nuvem da Skype porque não são compatíveis com sistemas PBX de terceiros. Um plano de aposentadoria para suporte de terceiros foi anunciado neste [blog](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853), e os clientes neste modelo de implantação podem migrar os usuários para um dos serviços/plataformas de comunicação unificada da Microsoft ou adquirir um correio de voz e/ou automática de terceiros solução do atendente para esses usuários. Não há suporte para a integração de fax nos serviços baseados em nuvem; Os clientes precisarão migrar para uma solução de terceiros.
 
 ### <a name="who-is-affected"></a>Quem é afetado?
 
