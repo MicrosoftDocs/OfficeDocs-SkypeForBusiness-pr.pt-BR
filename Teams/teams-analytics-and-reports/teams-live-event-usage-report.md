@@ -15,18 +15,16 @@ ms.collection:
 description: Saiba como usar o relatório de uso de eventos Team Live no centro de administração do Microsoft Teams para obter uma visão geral da atividade de eventos do teams Live em sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4eacd7df49de824ac6c0a98b7b923331fdee61f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 416c8ee1a5dd2ef2294fc125926e1a83822170b2
+ms.sourcegitcommit: a5cde2df1aceed9d919ef53281dd0d75f1f5e183
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239801"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36667051"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Relatório de uso de eventos ao vivo do Microsoft Teams
 
 O relatório de uso de eventos Team Live no centro de administração do Microsoft Teams mostra a visão geral de atividade para eventos dinâmicos mantidos em sua organização. Você pode exibir informações de uso, incluindo status do evento, hora de início, exibições e tipo de produção para cada evento. Você pode obter informações sobre as tendências de uso e ver quem em sua organização agenda, apresenta e produz eventos ao vivo. 
-
-![Captura de tela do relatório de uso de eventos do teams Live no centro de administração do Microsoft Teams] (../media/teams-live-event-usage-report.png "Captura de tela do relatório de uso do teams no centro de administração")
 
 ## <a name="view-the-report"></a>Exibir o relatório
 
@@ -35,9 +33,9 @@ O relatório de uso de eventos Team Live no centro de administração do Microso
 3. Adicionais Em **organizador**, você pode optar por mostrar apenas eventos dinâmicos organizados por um usuário específico.
 4. Clique em **executar relatório**.  
 
-## <a name="interpret-the-report"></a>Interpretar relatório
+    ![Captura de tela do relatório de uso de eventos do teams Live no centro de administração do teams com textos explicativos] (../media/teams-live-event-usage-report-with-callouts.png "Captura de tela do relatório de uso de eventos do teams Live no centro de administração do teams com textos explicativos")
 
-![Captura de tela do relatório de uso de eventos do teams Live no centro de administração do Microsoft Teams] (../media/teams-live-event-usage-report-with-callouts.png "Captura de tela do relatório de uso de eventos do teams Live no centro de administração com textos explicativos numerados")
+## <a name="interpret-the-report"></a>Interpretar relatório
 
 |Texto explicativo |Descrição  |
 |--------|-------------|
@@ -56,5 +54,6 @@ A página detalhes do evento ao vivo fornece um resumo dos detalhes de um evento
 Se a sua organização estiver habilitada para [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) ECDN ou [Kollective](https://kollective.com) eCDN, você poderá obter outras análises de participantes clicando no link relatório de parceiro.
 
 ## <a name="related-topics"></a>Tópicos relacionados
+
 - [Análises e relatórios do Teams](teams-reporting-reference.md)
 - [O que são os eventos ao vivo do Teams?](../teams-live-events/what-are-teams-live-events.md)
