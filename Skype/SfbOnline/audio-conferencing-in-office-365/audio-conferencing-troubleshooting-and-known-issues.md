@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenha uma lista de problemas conhecidos ao usar a Microsoft como provedor de conferência discada, status e soluções alternativas. '
-ms.openlocfilehash: 9b70cfcdeeb80be43cd0ecc99ca7eced71bb9319
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bfb76c23d3b1235bf67435e0af09ddef2a8852f3
+ms.sourcegitcommit: bb8577aca8c7e0673b37634a24bf793c86c0537b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289579"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36675233"
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>Solução de problemas e problemas conhecidos da audioconferência
 
@@ -43,6 +43,7 @@ Por enquanto, use-o como referência quando estiver solucionando problemas em po
 |Se um usuário for provisionado pela primeira vez ao receber uma licença e5, talvez seja possível que o email de boas-vindas da videoconferência não seja entregue ao usuário se a caixa de correio não estiver habilitada.  <br/> |Se isso acontecer, você sempre poderá reenviar as informações de conferência de áudio do usuário usando a **videoconferência** no centro de administração do Skype for Business ou usando o PowerShell. Consulte [habilitar ou desabilitar o envio de emails quando as configurações de audioconferência forem alteradas](enable-or-disable-sending-emails-when-their-settings-change.md).  <br/> **Observação:** Para reenviar o PIN da conferência de áudio para o usuário, o PIN deve ser redefinido. Isso também pode ser feito usando **conferências de áudio** no centro de administração do Skype for Business ou usando o PowerShell.          |Não há solução alternativa.  <br/> |8/30/2017  <br/> |
 |As chamadas de audioconferência podem levar até 24 horas para serem exibidas nos relatórios de uso.  <br/> |Estamos ansiosos para fazer melhorias nessa área em futuras atualizações do serviço.  <br/> |Não há solução alternativa.  <br/> |8/30/2017  <br/> |
 |Quando um chamador disca para uma ponte de conferência após o bloqueio da reunião por um usuário do Skype for Business, não há uma notificação no aplicativo Skype for Business informando que o usuário está aguardando no lobby.  <br/> |Atualmente isso é intencional, mas levaremos em conta o feedback sobre o suporte a esse recurso em atualizações futuras do serviço.  <br/> |Não há solução alternativa.  <br/> |8/30/2017  <br/> |
+|Um usuário do Skype for Business Server (local) que atribuiu a licença de conferência de áudio antes de 1º de março de 2019 pode não ver as coordenadas de discagem nos convites de reunião.  <br/> |Provisionar usuários do Skype for Business Server para Team não há suporte para conferências de áudio até esta data. Agora ele tem suporte e é um componente de [reuniões primeiro](https://docs.microsoft.com/microsoftteams/meetings-first). O usuário deve ter uma licença do teams.  <br/> |O pipeline de provisionamento precisa ser reativado. Remova a licença de audioconferência do usuário, aguarde algumas horas e reatribua a licença.  <br/> |1/3/2019  <br/> |
    
 ## <a name="related-topics"></a>Tópicos relacionados
 
