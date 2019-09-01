@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.teamssettings.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9256c73e28a35a3dfba411bdd255e5e527ab8a9
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 26affd1d16470b8f821b9f93376b04612fe03c82
+ms.sourcegitcommit: 7d4a2fdda6d4d6230c170a4b49758a8a8c8fcafb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483285"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "36699367"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Gerencie as configurações do Microsoft Teams para sua organização 
 
@@ -56,15 +56,19 @@ O **Acesso de Convidado** no Microsoft Teams permite que as equipes em sua organ
 
 ### <a name="teams-settings"></a>Configurações de equipes
 
-Nas **Configurações de equipe**, você pode configurar a integração de email, opções de armazenamento em nuvem, interoperabilidade do Skype for Business e dispositivos.
+Nas **Configurações do Teams**, você pode configurar recursos para equipes, incluindo notificações e feeds, integração de email, opções de armazenamento em nuvem e dispositivos.
+
+#### <a name="notifications-and-feeds"></a>Notificações e feeds
+
+Aqui você pode controlar se os feeds sugeridos são exibidos no feed de atividades dos usuários do Teams. Para saber mais sobre o feed de atividades, confira [Explorar o feed de Atividades do Teams](https://support.office.com/article/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56).
 
 #### <a name="email-integration"></a>Integração de email
 
-Ative esse recurso para que os usuários possam enviar emails para um canal no Microsoft Teams usando o endereço de email do canal. Os usuários podem fazer isso para qualquer canal pertencente a uma equipe que possuem. Os usuários também podem enviar emails a qualquer canal de uma equipe que tenha conectores adicionais ativados para os membros da equipe. Para ativar a integração de email, verifique se **Allow users to send emails to a channel email address** (Permitir que os usuários enviem emails para um endereço de email do canal) está **Ativado**. 
+Ative esse recurso para que os usuários possam enviar emails para um canal no Microsoft Teams usando o endereço de email do canal. Os usuários podem fazer isso para qualquer canal pertencente a uma equipe que possuem. Os usuários também podem enviar emails a qualquer canal de uma equipe que tenha conectores adicionais ativados para os membros da equipe. Para ativar a integração de email, verifique se **Allow users to send emails to a channel email address** (Permitir que os usuários enviem emails para um endereço de email do canal) está **Ativado**.
 
 #### <a name="files"></a>Arquivos
 
-Aqui você pode ativar ou desativar as opções de compartilhamento de arquivos e armazenamento em nuvem. 
+Aqui você pode ativar ou desativar as opções de compartilhamento de arquivos e armazenamento em nuvem.
 
 Os usuários podem carregar e compartilhar arquivos de serviços de armazenamento em nuvem nos canais e chats do Microsoft Teams. No momento, as opções de armazenamento em nuvem do Microsoft Teams incluem ShareFile, Dropbox, Box e Google Drive. Ative a opção para os provedores de armazenamento em nuvem que sua organização deseja usar.
 
