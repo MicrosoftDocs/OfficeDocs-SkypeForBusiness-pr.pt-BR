@@ -62,6 +62,5 @@ O Teams é baseado nos Grupos do Office 365, e fornece uma nova maneira de acess
 ## <a name="more-information"></a>Mais informações
 
 [Entre em contato com o suporte para produtos comerciais - Ajuda para Administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)  
-
-  [Acesso a convidados em Grupos do Office 365](https://support.office.com/pt-BR/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
+[Acesso a convidados em Grupos do Office 365](https://support.office.com/pt-BR/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
   

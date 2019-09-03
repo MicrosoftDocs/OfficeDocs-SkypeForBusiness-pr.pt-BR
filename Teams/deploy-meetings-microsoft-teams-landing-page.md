@@ -51,9 +51,7 @@ Use a ferramenta [NetworkTestingCompanion](https://www.powershellgallery.com/pac
 
 | Pergunte a si mesmo | Ação |
 |--------------|--------|
-|Minha rede está pronta para a implantação de reuniões do Teams? | Para verificar se a rede está pronta, confira:<ul><li>
-  [Preparar a rede da organização para o Microsoft Teams](https://docs.microsoft.com/pt-BR/MicrosoftTeams/prepare-network)</li><li>
-  [URLs e intervalos de endereços IP do Office 365](https://docs.microsoft.com/pt-BR/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|Minha rede está pronta para a implantação de reuniões do Teams? | Para verificar se a rede está pronta, confira:<ul><li>[Preparar a rede da organização para o Microsoft Teams](https://docs.microsoft.com/pt-BR/MicrosoftTeams/prepare-network)</li><li>[URLs e intervalos de endereços IP do Office 365](https://docs.microsoft.com/pt-BR/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
 |||
 
 ## <a name="core-deployment-decisions"></a>Decisões importantes sobre implantação
