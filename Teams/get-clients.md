@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47341662267a3da0a83174cbccb2b2cd251538b6
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 646305383c8f38671c07f598bc9ff1671890d22f
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245749"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715795"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obter clientes do Microsoft Teams 
 ===========================
@@ -124,7 +124,7 @@ As plataformas móveis suportadas para os aplicativos móveis da Microsoft Teams
 > [!NOTE]
 > A versão móvel deve estar disponível ao público para que o Teams funcione conforme o esperado.
 
-Os aplicativos móveis são distribuídos e atualizados apenas pela respectiva loja de aplicativos da plataforma móvel e não estão disponíveis para ser distribuídos por meio de soluções MDM (gerenciamento de dispositivos móveis) ou carregamento lateral.
+Os aplicativos móveis são distribuídos e atualizados por meio da respectiva loja de aplicativos da plataforma móvel somente. Não há suporte para a distribuição de aplicativos móveis via MDM ou carregamento no lado da Microsoft. Quando o aplicativo móvel tiver sido instalado em uma plataforma móvel compatível, o próprio aplicativo móvel do teams será compatível, contanto que a versão seja dentro de três meses do lançamento atual.
 
 
 | | | |

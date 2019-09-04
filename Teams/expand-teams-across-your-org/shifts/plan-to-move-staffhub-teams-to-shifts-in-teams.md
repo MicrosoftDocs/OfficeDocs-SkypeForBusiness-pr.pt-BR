@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0804b3fb0783a588fdd79dfec1a8dd39e4d92f34
-ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
+ms.openlocfilehash: ac278593215fc982d7246059503d8c65990c9b87
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36447958"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715913"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>Planeje mover suas equipes do StaffHub para turnos no Microsoft Teams
 
@@ -44,7 +44,7 @@ Use a linha do tempo como orientação para planejar a mudança do StaffHub para
 |7     |Determine a linha do tempo e identifique os usuários do StaffHub para mover-se para o Teams       |[Executar um relatório para exibir o uso ativo do StaffHub](run-report-to-show-staffhub-usage.md) |
 |08     |Identifique os usuários do StaffHub que não têm uma conta do Azure AD (mostra como "inativo" no StaffHub) e vincule uma conta para elas     |[Vincular uma conta do Azure AD para os membros da equipe do StaffHub que não têm uma](move-staffhub-teams-to-shifts-in-teams.md#link-an-azure-ad-account-for-staffhub-team-members-who-dont-have-one)        |
 |222    |Criar conteúdo de treinamento para usuários personalizados para sua organização         |[Preparar um plano de preparação do usuário para Teams](../../upgrade-user-readiness.md)     |
-|254    |Comunicar-se a usuários do StaffHub sobre a transição para turnos no Microsoft Teams         |         |
+|254    |Comunicar-se a usuários do StaffHub sobre a transição para turnos no Microsoft Teams         |[StaffHub de comunicação por email do teams para usuários](staffhub-to-teams-email-template.md)         |
 |11:00     |Instalar clientes do Microsoft Teams         |[Obter clientes para o Teams](../../get-clients.md) |
 |12    |Atribua a política de configuração do aplicativo FirstLineWorker aos usuários (ou crie e atribua uma política de configuração de aplicativo personalizada) para fixar o aplicativo turnos a clientes do teams  |[Atribuir a política de configuração do aplicativo FirstlineWorker aos usuários](move-staffhub-teams-to-shifts-in-teams.md#assign-the-firstlineworker-app-setup-policy-to-users)         |
 |0,13     |Treinar os usuários sobre como usar turnos e equipes         |[Usuários integrados ao Microsoft Teams](move-staffhub-teams-to-shifts-in-teams.md#onboard-users-to-teams)<br><br>[Documentação de ajuda de turnos](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)<br><br>[Documentação da Ajuda do Teams](https://support.office.com/teams)<br><br>[Vídeos de treinamento do Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)       |

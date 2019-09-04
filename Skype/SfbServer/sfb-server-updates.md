@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Localize e gerencie atualizações para o Skype for Business Server 2015/2019 e o Lync 2013 em um só lugar. Use os links desta página para obter mais informações sobre atualizações e, em seguida, baixe as atualizações.
-ms.openlocfilehash: 7243c607f4855c431256335131f70cd080b6d00c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d0349434785b7acf79cba7bb577cb5ba0b43482a
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234604"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715708"
 ---
 # <a name="skype-for-business-server-updates"></a>Atualizações do Skype for Business Server
 
@@ -37,6 +37,7 @@ Para obter as atualizações mais recentes do Skype for Business Online e do Off
 
 |Número do pacote|Número KB|Data do lançamento|
 |:--- |:--- |:--- |
+|Atualização cumulativa 10 do Skype for Business Server 2015 hotfix 1|[KB 4470124](https://support.microsoft.com/kb/4470124)| Setembro de 2019 |
 |Atualização cumulativa 9 para o Skype for Business Server 2015, Web Components Server|[KB 4487981](https://support.microsoft.com/kb/4487981)| Maio de 2019 |
 |Atualização cumulativa 8 para o Skype for Business Server 2015, servidor front-end e servidor de borda|[KB 4464355](https://support.microsoft.com/kb/4464355)|Janeiro de 2019|
 |Atualização cumulativa 7 para o Skype for Business Server 2015, servidor front-end e servidor de borda |[KB 4340904](https://support.microsoft.com/kb/3134260) |Julho de 2018 |

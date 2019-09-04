@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar políticas de comentários para controlar se os usuários de equipes em sua organização podem enviar comentários sobre o Teams para a Microsoft.
-ms.openlocfilehash: 148ba1dc19eecba4e447dd7049ae580c920a7bdf
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a181b0af6527e154997ef611be19b08ea026ffa4
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242145"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715813"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Gerenciar políticas de comentários no Microsoft Teams
 
@@ -49,7 +49,7 @@ Você pode editar a política global ou criar e atribuir uma política personali
 
 Digamos, por exemplo, permitir que todos os usuários em sua organização enviem comentários por meio de **comentários** e recebam pesquisas, exceto para novas contratações no treinamento. Nesse cenário, você cria uma política personalizada para desativar os dois recursos e atribuí-lo a novas contratações. Todos os outros usuários da sua organização obtêm a política global com os recursos ativados.  
 
-Use o cmdlet **New-CsTeamsFeedbackPolicy** para criar uma política personalizada e o cmdlet **Grant-CsTeamsFeedbackPolicy** para atribuí-lo a um ou mais usuários ou grupos de usuários, como um grupo de segurança ou grupo de distribuição.
+Use o cmdlet **New-CsTeamsFeedbackPolicy** , *que pode ser [encontrado aqui](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)*, para criar uma política personalizada e o cmdlet **Grant-CsTeamsFeedbackPolicy** para atribuí-lo a um ou mais usuários ou grupos de usuários, como um grupo de segurança ou grupo de distribuição.
 
 Para desativar e ativar os recursos, defina os seguintes parâmetros:
 

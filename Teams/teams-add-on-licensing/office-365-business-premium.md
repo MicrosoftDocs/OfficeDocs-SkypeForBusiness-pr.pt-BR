@@ -18,29 +18,24 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba mais sobre licenças de complemento, recursos e como comprar planos do Office 365 Business Premium. '
-ms.openlocfilehash: 1372948962e15de861402fa4f9d30e5749204af8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 48cfc0803f062f4ded43821b7db8604a49022fda
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242653"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715902"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Business Premium
 
 Se você tiver o [Office 365 Business Premium](https://products.office.com/en/business/office-365-business-premium), poderá usar o Microsoft Teams para fazer chamadas para outras pessoas em sua empresa que estejam na sua assinatura. Por exemplo, se a sua empresa tiver 10 pessoas, você poderá usar o Teams para fazer chamadas e enviar mensagens de chat entre si.
 
-**Para fazer e receber chamadas de pessoas externas à sua empresa, você tem três opções**:
+**Para fazer e receber chamadas de pessoas externas à sua empresa, você tem as seguintes opções**:
 
 - **Opção 1**. Use o [aplicativo Teams gratuito](https://products.office.com/microsoft-teams/free). Se você tiver uma pequena empresa (por exemplo, 1-2 pessoas), usar o aplicativo Teams é a melhor maneira de começar. É mais barato fazer chamadas nacionais e internacionais. Ainda é possível fazer chamadas de áudio e vídeo em grupo do 1:1 e do grupo e compartilhar sua área de trabalho para apresentações. [Compare os recursos, as taxas e as opções de pagamento](https://products.office.com/microsoft-teams/free).
 
      Recomendamos que você comece com o Teams Free para ver se ele atende às suas necessidades. No entanto, se ainda não tiver duas opções.
-
-- **Opção 2. Mantenha seu plano e compre um sistema telefônico e um plano de chamadas internacional ou doméstico e internacional**.
-    1. Compre o complemento Sistema de Telefonia.
     
-    2. Comprar um [plano de chamadas para o Office 365](../calling-plans-for-office-365.md) -você só poderá comprá-lo depois de comprar o complemento do sistema telefônico.
-    
-- **Opção 3. Atualize o seu plano e compre um sistema telefônico e um plano de chamadas domésticas ou domésticas e internacionais**.
+- **Opção 2. Atualize seu plano e compre um Sistema de Telefonia e um Doméstico ou um Plano de Chamadas Doméstico e Internacional**.
 
     1. [Migrar para um outro plano do Office 365 para empresas](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). Recomendamos que você avalie se um plano Enterprise E5 pode ser mais vantajoso.
 

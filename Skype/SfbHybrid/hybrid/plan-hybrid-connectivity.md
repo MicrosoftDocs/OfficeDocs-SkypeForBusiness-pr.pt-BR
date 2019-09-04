@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Considerações de planejamento para implementar a conectividade híbrida entre o Skype for Business Server e o Skype for Business online ou o Teams.
-ms.openlocfilehash: 2cca98740aeb991923683ce80b3b33a6ac49fbc6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 65e0f19e536cb2ec9b92fc73a1abb938be3b3c7c
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160367"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715824"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Planejar a conectividade híbrida entre o Skype for Business Server e o Office 365
 
