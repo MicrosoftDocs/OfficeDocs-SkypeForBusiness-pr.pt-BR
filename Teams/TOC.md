@@ -690,8 +690,9 @@
 ### [Instalar o módulo PowerShell do Microsoft PowerHub](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
 ### [Executar um relatório para exibir o uso ativo do StaffHub](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
 ### [Planejar a mudança de suas equipes do StaffHub para o Shifts no Teams](expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams.md)
-### [Mova as suas equipes do Microsoft StaffHub para Turnos no Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
-### [Gerenciar o aplicativo Turnos para sua organização no Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+### [Mova as suas equipes do Microsoft StaffHub para o Shifts no Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
+### [Exemplo de comunicação por email para os usuários](expand-teams-across-your-org/shifts/staffhub-to-teams-email-template.md)
+### [Gerenciar o aplicativo Shifts para sua organização no Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## Teams para Serviços de Saúde
 ### [Introdução ao Teams para Organizações de Saúde](expand-teams-across-your-org/healthcare/teams-in-hc.md)
