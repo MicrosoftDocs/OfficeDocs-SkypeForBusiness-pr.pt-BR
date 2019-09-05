@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ec2df17ca154ca01aac5febe572068225165435
-ms.sourcegitcommit: c169b091a630ff78c233a2a2824da122184635d0
+ms.openlocfilehash: d5910a363032a35bd7096e4048d38d51f260b72b
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "36404539"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715725"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>Perguntas frequentes ‒ atualização do Skype for Business para o Microsoft Teams
 
@@ -80,7 +80,9 @@ Com o objetivo de oferecer suporte a clientes de menor porte que talvez não ten
 
 ### <a name="how-does-the-skype-for-business-online-retirement-announcement-affect-organizations-with-hybrid-configurations-skype-for-business-online-and-skype-for-business-server"></a>Como o anúncio da desativação do Skype for Business Online afeta as organizações com configurações híbridas (Skype for Business Online e Skype for Business Server)?
 
-Os clientes híbridos com configurações locais e online serão solicitados a migrar os usuários do Skype for Business Online para o Microsoft Teams até a data de desativação de 31 de julho de 2021. Os clientes com assinaturas qualificadas são incentivados a participar com o [FastTrack](https://fasttrack.microsoft.com/) para obter assistência na integração do Teams.
+Os clientes híbridos com configurações locais e online serão solicitados a migrar os usuários do Skype for Business Online para o Microsoft Teams até a data de desativação de 31 de julho de 2021. Os caminhos de atualização para configurações híbridas criados com base nos princípios de coexistência e interoperabilidade permanecerão após a desativação do Skype for Business Online. 
+
+Os clientes com assinaturas qualificadas são incentivados a participar com o [FastTrack](https://fasttrack.microsoft.com/) para obter assistência na integração do Teams.
 
 ## <a name="skype-for-business-to-teams-upgrade"></a>Atualização do Skype for Business para o Teams
 

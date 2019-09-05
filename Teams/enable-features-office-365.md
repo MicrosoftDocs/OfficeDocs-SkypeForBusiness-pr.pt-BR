@@ -20,18 +20,18 @@ f1keywords:
 - ms.teamsadmincenter.teamssettings.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26affd1d16470b8f821b9f93376b04612fe03c82
-ms.sourcegitcommit: 7d4a2fdda6d4d6230c170a4b49758a8a8c8fcafb
+ms.openlocfilehash: dbb05df61a9baec544ad2ff1441a0faf329949e1
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/31/2019
-ms.locfileid: "36699367"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715921"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Gerencie as configurações do Microsoft Teams para sua organização 
 
 ## <a name="teams-apps-settings-in-the-microsoft-teams-admin-center"></a>Configurações dos aplicativos do Teams no centro de administração do Microsoft Teams.
 
-Gerencie aplicativos para a sua organização em ** aplicativos do Teams** no centro de administração do Microsoft Teams. Por exemplo, é possível definir políticas para controlar quais aplicativos estão disponíveis para usuários específicos de equipes ou de toda a organização, e pode personalizar o Teams fixando os aplicativos mais importantes aos seus usuários.
+Gerencie aplicativos para a sua organização em ** aplicativos do Teams** no [centro de administração do Microsoft Teams](https://admin.teams.microsoft.com). Por exemplo, é possível definir políticas para controlar quais aplicativos estarão disponíveis para toda a organização ou para usuários específicos do Teams e poderá personalizar o Teams fixando os aplicativos mais importantes para seus usuários.
 
 Para saber mais, veja [Configurações de administração para aplicativos no Teams](admin-settings.md).  
 
