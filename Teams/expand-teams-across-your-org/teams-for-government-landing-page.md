@@ -7,22 +7,21 @@ author: lanachin
 ms.author: v-lanac
 manager: serdars
 audience: admin
-ms.date: 03/01/2019
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 461e3113be6965044d2f60c0a6a59b658a191626
-ms.sourcegitcommit: 8a8c71aea5bd2420b110619607ef0715136578ab
+ms.openlocfilehash: 432c9db8e99375ff373755c172bdfa37e4dd65c1
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2019
-ms.locfileid: "36286207"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767063"
 ---
 # <a name="teams-for-government"></a>Teams para a Administração Pública
 
-Use estes recursos para planejar e implantar equipes nos ambientes de governo do Microsoft 365.
+Use estes recursos para aprender considerações específicas sobre a implantação de equipes em ambientes de governo do Microsoft 365. Quando estiver pronto, siga o mesmo caminho de implantação recomendado para o Microsoft Teams, conforme descrito em [como implantar o Microsoft Teams](../How-to-roll-out-teams.md).
 
 <ul class="panelContent cardsFTitle">
     <li>
