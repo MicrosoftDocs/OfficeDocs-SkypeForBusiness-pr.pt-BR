@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b079ebc84dfef1714243f79daed970fb148b7c5a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 32bd7664e8aa8fa8a818b3223e64b09f7982d12f
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236950"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36766930"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Práticas recomendadas para organizar equipes no Microsoft Teams
 ======================================================
@@ -30,7 +30,7 @@ ms.locfileid: "36236950"
 
 As equipes são coleções de pessoas que se reúnem em torno de uma meta comum. Esse grupo de pessoas pode estar dentro de um departamento ou em toda a organização. O que os une é o resultado que eles estão conduzindo. Os membros de uma equipe podem funcionar em um ritmo diferente ou criar ativos de forma diferente, mas, em nossa experiência, eles costumam colaborar rapidamente entre si, um processo que chamamos de "trabalho em equipe de alta velocidade".  
 
-Antes de criar uma equipe em seu produto, é uma prática recomendada pensar sobre a meta, o projeto ou itens de trabalho e as pessoas da organização que podem ajudar a entregá-la de forma colaborativa. Depois de identificá-los, adicione essas pessoas ou grupos a uma equipe para começar a colaborar. Como a associação pode mudar ao longo do tempo, é uma boa ideia designar vários proprietários para cada equipe. Para obter mais informações, consulte [gerenciando equipes](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
+Antes de criar uma equipe, pense na meta, no projeto ou nos itens de trabalho e quem em sua organização pode ajudar a entregá-la de forma colaborativa. Depois de identificá-los, adicione essas pessoas ou grupos a uma equipe para começar a colaborar. Como a associação pode mudar ao longo do tempo, é uma boa ideia designar vários proprietários para cada equipe. Para obter mais informações, consulte [gerenciando equipes](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
 
 Dê uma olhada neste pequeno vídeo para ver alguns exemplos de como estruturar equipes interorganizacionais ou de propósito único:
 

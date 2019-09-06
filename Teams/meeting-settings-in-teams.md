@@ -20,12 +20,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Saiba como gerenciar as configurações de reuniões do Team que os usuários agendam em sua organização.
-ms.openlocfilehash: 5f45e8498a63397154b98d0dd2ac1469080fe5f6
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 1e5b3fd1c76f4ff925b23b838e2719ec93077f14
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483296"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767189"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gerenciar configurações de reunião no Microsoft Teams
 
@@ -88,6 +88,8 @@ Se você estiver usando a [QoS (](qos-in-teams.md) qualidade de serviço) para p
     ![Captura de tela das configurações de rede para reuniões no centro de administração] (media/meeting-settings-network.png "Captura de tela das configurações de rede para reuniões do teams no centro de administração do Microsoft Teams")
 
     - Para permitir que as marcações DSCP sejam usadas para a QoS, ative **Inserir marcadores de qualidade de serviço (QoS) para tráfego de mídia em tempo real**. Você só tem a opção de usar marcadores ou não; Você não pode definir marcadores personalizados para cada tipo de tráfego. Consulte [selecionar um método de implementação de QoS](QoS-in-Teams.md#select-a-qos-implementation-method) para saber mais sobre marcadores DSCP.
+    > [!NOTE] 
+    > Ativar a **inserção de marcadores de qualidade de serviço (QoS) para tráfego de mídia em tempo real** também habilitará a comunicação com a transmissão de transporte com portas UDP 3479 (áudio), 3480 (vídeo) e 3481 (compartilhamento).
     - Para especificar intervalos de porta, ao lado de **selecionar um intervalo de portas para cada tipo de tráfego de mídia em tempo real**, selecione **especificar intervalos de porta**e insira as portas inicial e final para o áudio, o vídeo e o compartilhamento de tela. Selecionar essa opção é necessária para implementar QoS.
     > [!IMPORTANT]
     > Se você selecionar **usar automaticamente as portas disponíveis**, as portas disponíveis entre 1024 e 65535 serão usadas. Use essa opção somente quando não estiver implementando a QoS.

@@ -3,7 +3,6 @@ title: Plano para o Microsoft 365 Government ‒ implantações de DoD ‒ Micro
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/11/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
@@ -17,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 247f0209c66a5d6ea1e39e938498eb0f75f9fdab
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 210712e29fb64f587f2d1f2c9281e6383da11da1
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237701"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767178"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Plano para implantações do governo Microsoft 365-DoD
 
@@ -153,6 +152,6 @@ Determine suas necessidades de governança e como você pode atendê-las. Vá pa
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Etapa 6. Implantar equipes para colaboração
 
-Depois de ter sido integrado ao governo Microsoft 365 – DoD, você pode seguir a abordagem de implantação padrão do uso do [FastTrack](https://www.microsoft.com/fasttrack) e do seu parceiro escolhido para a integração do serviço.
+Depois de ter sido integrado ao governo Microsoft 365 – DoD, siga o caminho de implantação recomendado descrito em [como implantar o Microsoft Teams](How-to-roll-out-teams.md). Não deixe de entrar em contato com sua equipe de adoção e gerenciamento de mudanças e especialistas do teams.
 
-Quando estiver pronto, implante o Microsoft Teams para [habilitar a colaboração em sua organização por meio de equipes e canais](teams-overview.md). Não deixe de entrar em contato com sua equipe de adoção e gerenciamento de mudanças ou especialistas do teams.
+Você também pode trabalhar com o [FastTrack](https://www.microsoft.com/fasttrack) ou o parceiro escolhido para onboard do serviço.

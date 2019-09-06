@@ -3,7 +3,6 @@ title: Introdução aos modelos do Teams no varejo
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/11/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -13,54 +12,54 @@ ms.collection:
 - Teams_ITAdmin_Help
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba como usar modelos de equipes para criar as estruturas de equipe projetadas para atender às necessidades do revendedor.
+description: Saiba como usar os modelos do teams para criar estruturas de equipe projetadas para as necessidades do revendedor.
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e463061dca0633480124bbe91fb2e8e6f9f926f6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1ef5647ba20b3fd9d3d4378182ea2e8b39b1487b
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245742"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767096"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>Introdução aos modelos do Teams no varejo 
 
-Modelos de equipes permitem que você rapidamente e criar facilmente equipes, fornecendo um modelo predefinido de configurações, canais e pré-instaladas apps.
+Os modelos de equipe permitem criar equipes de forma rápida e fácil, fornecendo um modelo predefinido de configurações, canais e aplicativos pré-instalados.
 
-Modelos de equipes têm pré-criados definições de estruturas de equipe projetadas levando em consideração as necessidades do revendedor. Você pode usar modelos de equipes para criar rapidamente os tipos de equipes que funcionam bem para varejistas e implantação-los em sua organização. Você também pode estender os modelos de equipes para criar equipes que são adaptadas às suas necessidades organizacionais específicas.
+Os modelos de equipe têm definições predefinidas de estruturas de equipe projetadas com base nas necessidades do revendedor. Você pode usar modelos do teams para criar rapidamente os tipos de equipes que funcionam bem para varejistas e implantá-las em toda a organização. Você também pode estender os modelos de equipe para criar equipes que sejam adequadas às suas necessidades organizacionais específicas.
 
-Neste artigo, apresentaremos cada um dos modelos de equipes e como é recomendável usá-los.
+Neste artigo, apresentaremos cada um dos modelos de equipe e como recomendamos usá-los.
 
-Este artigo é para você, se você é responsável pelo planejamento, implantação e gerenciamento de várias equipes em toda a organização de varejo.
+Este artigo é para você se for responsável por planejar, implantar e gerenciar várias equipes em toda a organização de varejo. Presumimos que você já tenha implantado o serviço do Microsoft Teams em sua organização. Se você ainda não distribuiu o Microsoft Teams, comece lendo o guia [como implantar o Microsoft Teams](How-to-roll-out-teams.md).
 
-Para saber mais sobre a equipe modelos em geral, consultem [Introdução ao modelos de equipes](get-started-with-teams-templates.md).
+Para saber mais sobre os modelos de equipe em geral, consulte [introdução aos modelos](get-started-with-teams-templates.md)do Microsoft Teams.
 
-## <a name="store-template"></a>Modelo do repositório
+## <a name="store-template"></a>Modelo da loja
 
-O modelo do repositório é ideal para a criação de uma equipe para representar um local do repositório de varejo individuais. Usando o modelo do repositório, você pode criar uma equipe para cada local do repositório de varejo em sua organização.
+O modelo da loja é ideal para criar uma equipe para representar um local individual da loja de varejo. Usando o modelo da loja, você pode criar uma equipe para cada local da loja de varejo em sua organização.
 
-| Tipo de modelo base | baseTemplateId | Propriedades que acompanham este modelo base |
+| Tipo de modelo base | baseTemplateId | Propriedades que vêm com este modelo base |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Varejo- <br>Repositório | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')`| Canais <ul><li>Desloca da entrega\*</li><li>Aprendizado\*</li></ul>\*Canais de auto-favorited<br><br>Propriedades da equipe <ul><li>Visibilidade da equipe pública</li></ul> <br>Permissões de membro <ul><li>Não é possível criar/atualizar/excluir canais </li><li>Não é possível adicionar/remover aplicativos </li><li>Não é possível criar/atualizar/remover guias</li><li>Não é possível criar/atualizar/remover conectores</li><ul>|
+| Varejo <br>Armazenadas | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')`| Canais <ul><li>Entrega de turnos\*</li><li>Aprendizagem\*</li></ul>\*Canais de favoritos automáticos<br><br>Propriedades da equipe <ul><li>Visibilidade da equipe definida como Public</li></ul> <br>Permissões de membro <ul><li>Não é possível criar/atualizar/excluir canais </li><li>Não é possível adicionar/remover aplicativos </li><li>Não é possível criar/atualizar/remover guias</li><li>Não é possível criar/atualizar/remover conectores</li><ul>|
 ||||
 
-Recomendado maneiras para personalizar o modelo de repositório para a sua organização:
+Maneiras recomendadas de personalizar o modelo de loja para sua organização:
 
-- Se sua organização tiver departamentos dentro de cada loja, adicione um canal para cada departamento. Isso irá facilitar a comunicação e colaboração dentro do departamento.
+- Se a sua organização tiver departamentos em cada loja, adicione um canal para cada departamento. Isso facilitará a comunicação e a colaboração dentro do departamento.
 
-- Se sua organização tiver quaisquer sites internos (por exemplo, um site do SharePoint), considere a possibilidade de fixação-las como guias no canal equipe relevante. Consulte [guia de Introdução com modelos de equipes](get-started-with-teams-templates.md) para obter instruções.
+- Se sua organização tiver sites internos (por exemplo, um site do SharePoint), considere fixar como guias no canal da equipe relevante. Confira o introdução ao [Teams templates](get-started-with-teams-templates.md) para obter instruções.
 
-## <a name="manager-collaboration-template"></a>Modelo do Gerenciador de colaboração
+## <a name="manager-collaboration-template"></a>Modelo de colaboração do gerente
 
-O modelo de colaboração do Gerenciador está outro precisa de um dos modelos de equipes projetados levando em consideração revendedor. O modelo de colaboração Manager é ideal para a criação de uma equipe para um conjunto de gerentes para colaborar nas repositórios/regiões, etc. Por exemplo, se sua organização tiver regiões, você pode criar uma equipe de colaboração do gerente para a região da Califórnia e incluem todos os gerentes de armazenamento na região, bem como o gerente regional para essa região.
+O modelo de colaboração do gerente é outro um dos modelos de equipe projetados em torno das necessidades do revendedor. O modelo de colaboração do gerente é ideal para criar uma equipe para um conjunto de gerentes colaborar em lojas/regiões etc. Por exemplo, se a sua organização tiver regiões, você pode criar uma equipe de colaboração do gerente para a região da Califórnia e incluir todos os gerentes da loja nessa região, bem como o gerente regional dessa região.
 
-| Tipo de modelo base | baseTemplateId | Propriedades que acompanham este modelo base |
+| Tipo de modelo base | baseTemplateId | Propriedades que vêm com este modelo base |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Varejo- <br>Repositório | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| Canais <ul><li>Operações\*</li><li>Aprendizado\*</li></ul>\*Canais de auto-favorited<br><br>Propriedades da equipe <ul><li>Visibilidade da equipe definida como privado</li></ul> <br>Permissões de membro <ul><li>Pode criar/atualizar/excluir canais </li><li>Pode adicionar/remover aplicativos </li><li>Pode criar/atualizar/remover guias</li><li>Pode criar/atualizar/remover conectores</li><ul>|
+| Varejo <br>Armazenadas | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| Canais <ul><li>Operações\*</li><li>Aprendizagem\*</li></ul>\*Canais de favoritos automáticos<br><br>Propriedades da equipe <ul><li>Visibilidade da equipe definida como particular</li></ul> <br>Permissões de membro <ul><li>Pode criar/atualizar/excluir canais </li><li>Pode adicionar/remover aplicativos </li><li>Pode criar/atualizar/remover guias</li><li>Pode criar/atualizar/remover conectores</li><ul>|
 ||||
 
-Recomendado maneiras para personalizar o modelo do Gerenciador de colaboração para sua organização:
+Maneiras recomendadas de personalizar o modelo de colaboração do gerente para sua organização:
 
-- Se sua organização tiver quaisquer sites internos (por exemplo, um site do SharePoint) que são relevantes para gerentes, considere a possibilidade de fixação-las como guias em um canal de equipe relevante (consulte a documentação [aqui](get-started-with-teams-templates.md) para obter instruções).
+- Se sua organização tiver qualquer site interno (por exemplo, um site do SharePoint) relevante para gerentes, considere fixar as guias em um canal de equipe relevante (consulte a documentação [aqui](get-started-with-teams-templates.md) para obter instruções).

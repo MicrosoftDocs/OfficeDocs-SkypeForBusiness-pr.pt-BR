@@ -3,7 +3,6 @@ title: Plano para o Microsoft 365 Government ‒ implantações de GCC ‒ Micro
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/03/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
@@ -17,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 506d33ab48ad35397a500ef8f274ef6a332f8cd1
-ms.sourcegitcommit: ab259764dc50bdd52efed3abb1d065ee19486946
+ms.openlocfilehash: a167c8a6df85b5d3d861f42ce40f67e845709a77
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "36393433"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767118"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plano para implantações do governo Microsoft 365-GCC
 
@@ -158,9 +157,9 @@ Determine suas necessidades de governança e como você pode atendê-las. Vá pa
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Etapa 6. Implantar equipes para colaboração
 
-Depois de ter sido integrado ao Microsoft 365 governo-GCC, você pode seguir a abordagem de implantação padrão do uso do [FastTrack](https://www.microsoft.com/fasttrack) e do seu parceiro escolhido para o serviço.
+Depois de ter sido integrado ao Microsoft 365 governo – GCC, siga o caminho de implantação recomendado descrito em [como implantar o Microsoft Teams](How-to-roll-out-teams.md). Não deixe de entrar em contato com sua equipe de adoção e gerenciamento de mudanças e especialistas do teams.
 
-Quando estiver pronto, implante o Microsoft Teams para [habilitar a colaboração em sua organização por meio de equipes e canais](teams-overview.md). Não deixe de entrar em contato com sua equipe de adoção e gerenciamento de mudanças ou especialistas do teams.
+Você também pode trabalhar com o [FastTrack](https://www.microsoft.com/fasttrack) ou o parceiro escolhido para onboard do serviço.
 
 ## <a name="step-7-deploy-teams-for-meetings-and-voice"></a>Etapa 7. Implantar equipes para reuniões e voz
 
