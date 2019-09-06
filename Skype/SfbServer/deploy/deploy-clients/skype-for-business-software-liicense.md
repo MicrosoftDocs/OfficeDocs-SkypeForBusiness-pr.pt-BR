@@ -4,18 +4,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: Leia este tópico para saber como verificar se você tem uma licença de volume do software Skype for Business.
-ms.openlocfilehash: 731eefa49714fdced552c6cbedf4ecc288065d6b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 15f768de96d65cd8584ceb2529b92892a7a94afe
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234720"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774812"
 ---
 # <a name="skype-room-system-skype-for-business-software-license"></a>Sistema de Salas do Skype: licença do software Skype for Business
  
@@ -41,7 +41,7 @@ Se o cliente utilizar qualquer outro software de licença de volume, o departame
   
 O cliente com um VLA deve conhecer suas credenciais VLSC, que serão utilizadas para administrar o contrato e obter o MAK. Se certeza, o departamento de finanças do cliente deve ser capaz de confirmar se o cliente pagou por uma VLA.
   
-Para obter um MAK, acesse o Centro de Serviços de Licenciamento de Volume para visualizar os contratos e fazer o download das chaves de produtos (MAK). Para obter mais informações, acesse o [centro de serviços](https://www.microsoft.com/Licensing/servicecenter/default.aspx)de licenciamento por volume. 
+Para obter um MAK, acesse o Centro de Serviços de Licenciamento de Volume para visualizar os contratos e fazer o download das chaves de produtos (MAK). Para obter mais informações, acesse o [centro de serviços de licenciamento por volume](https://www.microsoft.com/Licensing/servicecenter/default.aspx). 
   
 ## <a name="mak-for-office-365-without-vlsc-access"></a>MAK para o Office 365 sem acesso VLSC
 

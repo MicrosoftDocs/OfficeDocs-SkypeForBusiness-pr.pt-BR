@@ -3,7 +3,7 @@ title: Usar a ferramenta de recuperação das Salas do Microsoft Teams
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.date: 4/17/2018
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: Este artigo discute como usar a ferramenta de recuperação para salas do Microsoft Teams, que você usaria para colocar um sistema desatualizado em um estado com suporte.
-ms.openlocfilehash: 90e6db7739a4a95e3f1fbde62f5b8dd8bde9e237
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: aded92fac90f20246444419bff19415922175856
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427982"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775200"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Usar a ferramenta de recuperação das Salas do Microsoft Teams
  
@@ -33,7 +33,7 @@ Você também pode precisar instalar o [KB4089848](http://download.windowsupdate
 <a name="Windows-ver"> </a>
 ## <a name="verify-windows-version"></a>Verificar versão do Windows 
 
-1. Faça logon em uma conta de administrador acessando **configurações> configuração do Windows> entrar no** Microsoft Teams Inscreva-se no dispositivo de salas do Microsoft Teams. Essa opção traz para a tela de login.
+1. Faça logon em uma conta de administrador acessando **configurações> configuração do Windows> entrar no Microsoft Teams Inscreva-se** no dispositivo de salas do Microsoft Teams. Essa opção traz para a tela de login.
 2. Conecte-se a uma conta de administrador, a conta `admin` de administrador padrão `sfb`que está usando a senha.
 3. Clique no menu iniciar e digite `winver.exe` na caixa de pesquisa e clique em **executar comando* no resultado.
 4. Anote o número após ' version ' na segunda linha do painel de informações.

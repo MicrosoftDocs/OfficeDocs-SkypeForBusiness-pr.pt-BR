@@ -3,7 +3,7 @@ title: Disponibilidade na Arábia Saudita
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 54905c72-2214-47c7-8ac2-7a27597475c5
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Arábia Saudita.
-ms.openlocfilehash: f9c4e84669079baa801e9ed7193678e20a4157e0
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 87cbdcf35cf523a68f53b434a7d2d29a3945125f
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331304"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775461"
 ---
 # <a name="availability-in-saudi-arabia"></a>Disponibilidade na Arábia Saudita
 
@@ -67,8 +67,8 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |Não aplicável  <br/> |
-|Há números de chamada tarifada disponíveis?  <br/> |Não  <br/> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> | Riad ([na solicitação](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Há números de chamada tarifada disponíveis?  <br/> |Sim ([solicitação](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Sim  <br/> |
    
  Para obter números de telefone de chamadas gratuitas e tarifadas para audioconferência, atendedores automáticos e filas de chamadas, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers).

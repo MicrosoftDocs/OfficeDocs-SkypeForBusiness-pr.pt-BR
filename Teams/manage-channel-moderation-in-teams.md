@@ -16,16 +16,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como configurar os canais para moderação no Microsoft Teams, incluindo como adicionar membros da equipe como moderadores do canal.
-ms.openlocfilehash: 93fb0a6d8a88979d14031792ccf96a8861629b1d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d176c1d0076ea444fb46b69011bad94c0c2b3eb4
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244970"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775374"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Configurar e gerenciar a moderação do canal no Microsoft Teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 No Microsoft Teams, os proprietários da equipe podem ativar a moderação de um canal para controlar quem pode iniciar novas postagens e responder a postagens nesse canal.
 
@@ -59,13 +57,15 @@ Nesse cenário, o professor permite que seus assistentes de ensino moderam o can
 
 No Teams, vá para o canal, clique em **mais opções...**  >  **Gerenciar canal**. Aqui você pode ativar e desativar a moderação, adicionar membros da equipe como moderadores e definir preferências.
 
+A moderação do canal é uma configuração por canal. Não há nenhuma configuração em nível de locatário para a moderação do canal. Se você quiser adicionar uma configuração de moderação de canal no nível do locatário, solicite o [UserVoice do teams](https://microsoftteams.uservoice.com/).
+
 ![Manage-Channel-Moderation-in-Teams-Preferences. png](media/manage-channel-moderation-in-teams-preferences.png)
 
 ### <a name="turn-on-or-turn-off-moderation-for-a-channel"></a>Ativar ou desativar a moderação de um canal
 
-Por padrão, a moderação está desativada e você pode restringir novas postagens somente a membros da equipe ou permitir que todos, inclusive convidados, iniciem novas postagens.
+Por padrão, a moderação está desativada, o que significa que as configurações de canal usuais se aplicam a proprietários de equipe e membros da equipe. Por exemplo, você pode restringir novas postagens somente a membros da equipe ou permitir que todos, incluindo convidados, iniciem novas postagens.
 
-Para ativar a moderação de um canal, em moderação do **canal**, clique **em ativado**. Quando a moderação do canal está ativada, somente moderadores podem iniciar novas postagens. 
+Para ativar a moderação de um canal, em **moderação do canal**, clique **em ativado**. Quando a moderação do canal está ativada, somente moderadores podem iniciar novas postagens. 
 
 ### <a name="add-or-remove-channel-moderators"></a>Adicionar ou remover moderadores de canal
 

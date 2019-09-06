@@ -2,7 +2,7 @@
 title: Preparar seu ambiente
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: Este artigo explica as preparações de infra-estrutura para a implantação de salas do Microsoft Teams.
-ms.openlocfilehash: 5789f8138bf5ab9e12c77a8b2963ff32e7f33586
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: 4f5242d2647810616f0ffaabc1cda938e24147da
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493072"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775046"
 ---
 # <a name="prepare-your-environment"></a>Preparar seu ambiente
 
@@ -28,22 +28,17 @@ Esta seção contém uma visão geral das etapas necessárias para preparar seu 
 2. Verifique se existe uma conexão de rede/Internet para o dispositivo usar.  
     
    - Ele deve ser capaz de receber um endereço IP usando DHCP. (As salas do Microsoft Teams não podem ser configuradas com um endereço IP estático na primeira unidade de inicialização, mas posteriormente o IP estático para o dispositivo pode ser configurado no dispositivo ou na opção de upstream ou no roteador.)
-    
    - Ele deve ter essas portas abertas (além de abrir as portas normais para mídia):
-    
    - HTTPS: 443
-    
    - HTTP: 80
-    
    - Se sua rede é executada através de um proxy, você também precisa do endereço de proxy ou de informações do script.
     
      > [!NOTE]
-     > O SkypeRoomSystemv2 não oferece suporte à entrada HDCP, pois foi observado que ela causa conflitos com a funcionalidade de ingestão HDMI (vídeo e áudio). Certifique-se que as chaves conectadas às Salas do Microsoft Teams estejam com as opções HDCP desativadas. 
+     > O SkypeRoomSystemv2 não oferece suporte à entrada HDCP, pois foi observado que ela causa conflitos com a funcionalidade de ingestão HDMI (vídeo e áudio). Certifique-se que as chaves conectadas às Salas do Microsoft Teams estejam com as opções HDCP desativadas.
   
-3. Para aprimorar sua experiência, a Microsoft coleta dados. Para coletar dados, estes sites devem ser autorizados:
-    
+3. Para aprimorar sua experiência, a Microsoft coleta dados. Para permitir que a Microsoft colete dados, acesse os sites da lista branca:
+
    - Ponto de extremidade do cliente de telemetria:https://vortex.data.microsoft.com/
-    
    - Ponto de extremidade das configurações de telemetria:https://settings.data.microsoft.com/
     
 ### <a name="create-and-test-a-device-account"></a>Criar e testar uma conta de dispositivo
@@ -90,13 +85,13 @@ As salas do Microsoft Teams foram projetadas para herdar as configurações de p
  
 8. Abra a tecla Skype e navegue até as configurações do HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet e verifique se essas configurações foram inseridas: 
     
-    [HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
+    `[HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]`
     
-    "MigrateProxy"=dword:00000001
+    `"MigrateProxy"=dword:00000001`
     
-    "ProxyEnable"=dword:00000001
+    `"ProxyEnable"=dword:00000001`
     
-    "ProxyServer"="xx.xx.xx.xx:8080"
+    `"ProxyServer"="xx.xx.xx.xx:8080"`
     
     Se ProxyServer não existir, talvez seja necessário adicionar essa chave como uma cadeia de caracteres. Altere xx.xx.xx.xx:8080 para o ip/host e a porta de seu servidor proxy.
     
@@ -123,7 +118,7 @@ Para usar esse aplicativo, você deve poder conectar-se aos pontos de extremidad
 |Notificações por push do Lync Mobile para o Lync Mobile 2010 em dispositivos iOS. Você não precisa disso para dispositivos móveis Android, Nokia Symbian ou Windows Phone.  <br/> |Computador cliente ou usuário conectado  <br/> |Portas efêmeras  <br/> |\*. contoso.com  <br/> |Não  <br/> |Sim  <br/> |[Intervalos de IP do Skype for Business](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
 |Telemetria do Skype  <br/> |Computador cliente ou usuário conectado  <br/> |Portas efêmeras  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |Não  <br/> |Não  <br/> |N/D  <br/> |TCP 443  <br/> |
 |Dicas rápidas do cliente Skype  <br/> |Computador cliente ou usuário conectado  <br/> |Portas efêmeras  <br/> |quicktips.skypeforbusiness.com  <br/> |Não  <br/> |Não  <br/> |N/D  <br/> |TCP 443  <br/> |
-   
+
 > [!NOTE]
 > O curinga para contoso.com e broadcast.skype.com representa uma longa lista de nós que são usados exclusivamente para o Office 365. 
   

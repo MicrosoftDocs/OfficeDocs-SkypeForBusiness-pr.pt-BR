@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Você pode selecionar um país/região para ver se a conferência de áudio, o sistema de telefonia, os planos de chamada, os créditos de comunicações e os números de telefone de chamada tarifada estão disponíveis ou não.
-ms.openlocfilehash: 9a93ecaf9f68f5aa0412253a7a9355a0cfe33445
-ms.sourcegitcommit: 40328f5e80ee992cd0e63655ede9698a35069f15
+ms.openlocfilehash: 05e34a663e2c6e5ff4c2c0359bd0183d03caeb16
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "35908223"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774648"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilidade de audioconferência e planos de chamadas por país e região
 
@@ -38,7 +38,8 @@ Você pode selecionar um país ou região para ver quais recursos de voz na nuve
 ***
 ## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>Selecione seu país ou região para ver o que está disponível para a sua organização
 
-> [!div class="op_single_selector"]    
+> [!div class="op_single_selector"]
+> - [Argélia](availability-in-algeria.md)    
 > - [Argentina](availability-in-argentina.md)
 > - [Austrália](availability-in-australia.md)
 > - [Áustria ](availability-in-austria.md)
@@ -46,10 +47,12 @@ Você pode selecionar um país ou região para ver quais recursos de voz na nuve
 > - [Bielorrússia ](availability-in-belarus.md)
 > - [Bélgica ](availability-in-belgium.md)
 > - [Belize](availability-in-belize.md)
+> - [Benin](availability-in-benin.md)
 > - [Bosnia and Herzegovina (Bosna i Hercegovina)](availability-in-bosniaherzegovina.md)
 > - [Brasil](availability-in-brazil.md)
 > - [Brunei](availability-in-brunei.md)
 > - [Bulgária](availability-in-bulgaria.md)
+> - [Camboja](availability-in-cambodia.md)
 > - [Canadá](availability-in-canada.md)
 > - [Chile](availability-in-chile.md)
 > - [China](availability-in-china.md)
@@ -68,6 +71,7 @@ Você pode selecionar um país ou região para ver quais recursos de voz na nuve
 > - [França ](availability-in-france.md)
 > - [Geórgia](availability-in-georgia.md)
 > - [Alemanha ](availability-in-germany.md)
+> - [Gana](availability-in-ghana.md)
 > - [Grécia](availability-in-greece.md)
 > - [Honduras](availability-in-honduras.md)
 > - [Hong-Kong](availability-in-hong-kong.md)
@@ -79,7 +83,9 @@ Você pode selecionar um país ou região para ver quais recursos de voz na nuve
 > - [Itália](availability-in-italy.md)
 > - [Japão](availability-in-japan.md)
 > - [Jordânia](availability-in-jordan.md)
+> - [Cazaquistão](availability-in-kazakhstan.md)
 > - [Quênia](availability-in-kenya.md)
+> - [Kuaite](availability-in-kuwait.md)
 > - [Letônia](availability-in-latvia.md)
 > - [Lituânia ](availability-in-lithuania.md)
 > - [Luxemburgo](availability-in-luxembourg.md)
@@ -89,8 +95,11 @@ Você pode selecionar um país ou região para ver quais recursos de voz na nuve
 > - [México](availability-in-mexico.md)
 > - [Moldova](availability-in-moldova.md)
 > - [Mônaco ](availability-in-monaco.md)
+> - [Marrocos](availability-in-morocco.md)
 > - [Países Baixos](availability-in-the-netherlands.md)
 > - [Nova Zelândia](availability-in-new-zealand.md)
+> - [Nicarágua](availability-in-nicaragua.md)
+> - [Nigéria](availability-in-nigeria.md)
 > - [Noruega](availability-in-norway.md)
 > - [Paquistão ](availability-in-pakistan.md)
 > - [Panamá](availability-in-panama.md)
@@ -117,6 +126,7 @@ Você pode selecionar um país ou região para ver quais recursos de voz na nuve
 > - [Taiwan](availability-in-taiwan.md)
 > - [Tailândia](availability-in-thailand.md)
 > - [Trinidad e Tobago](availability-in-trinidad-and-tobago.md)
+> - [Tunísia](availability-in-tunisia.md)
 > - [Turquia](availability-in-turkey.md)
 > - [Ucrânia](availability-in-the-ukraine.md)
 > - [Emirados Árabes Unidos (EAU)](availability-in-the-united-arab-emirates-uae.md)
@@ -126,7 +136,7 @@ Você pode selecionar um país ou região para ver quais recursos de voz na nuve
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnã ](availability-in-vietnam.md)
 
-**Se você estiver procurando uma planilha com todos os países e regiões, baixe e salve a [planilha de recursos de voz em nuvem/disponibilidade de país/região](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-07252019)-(en-us).xlsx?raw=true)**.
+**Se você estiver procurando uma planilha com todos os países e regiões, baixe e salve a [planilha de recursos de voz em nuvem/disponibilidade de país/região](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-09052019)-(en-us).xlsx?raw=true)**.
 
 ***
 
@@ -146,7 +156,7 @@ Depois de verificar se um dos serviços do Skype for Business ou do Microsoft Te
 Com o áudio videoconferência, há números de telefone de chamadas gratuitas e chamadas que podem ser usados pelos usuários para discar para reuniões. Os números de chamada dos seguintes países ou regiões são atribuídos automaticamente como números de conferência de áudio compartilhada às organizações quando eles são habilitados para videoconferências. Números de chamada tarifada e gratuita podem ser atribuídos à sua organização de outras cidades.
 
 > [!IMPORTANT]
-> Não há um recurso que contenha uma listagem de todos os números de discagem para videoconferências. Para descobrir se há números de telefone de discagem disponíveis**** na sua área ou país/região, acesse o **centro de administração do centro** > **** > de administração do Skype for Business, clique em **Adicionar**e, em seguida, clique em **novos números de serviço**. Use as listas para **país/região**, **estado/região**e **cidade** para filtrar sua pesquisa. Se você estiver procurando números de serviço de chamada gratuita, selecione **gratuito** na lista de **Estados/regiões** .
+> Não há um recurso que contenha uma listagem de todos os números de discagem para videoconferências. Para descobrir se há números > **de telefone de** > discagem disponíveis na sua área ou país/região, acesse o **centro de administração do centro de administração do Skype for Business****, clique**em **Adicionar**e, em seguida, clique em **novos números de serviço**. Use as listas para **país/região**, **estado/região**e **cidade** para filtrar sua pesquisa. Se você estiver procurando números de serviço de chamada gratuita, selecione **gratuito** na lista de **Estados/regiões** .
 
 Para ver mais sobre a videoconferência, consulte [perguntas comuns sobre videoconferência](../audio-conferencing-common-questions.md)
 

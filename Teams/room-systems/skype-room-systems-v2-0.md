@@ -2,7 +2,7 @@
 title: Plano para salas do Microsoft Teams
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: Este artigo explica as considerações de planejamento pertinentes para a implantação de salas do Microsoft Teams, a próxima geração de sistemas de sala do Skype.
-ms.openlocfilehash: 270155dcc4aaca10540689db053846fdc9dbfe8e
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 2c47e95eccc8dcb362a10bd1a6980c2b12384711
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36428015"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775101"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planejar salas do Microsoft Teams
 
@@ -51,7 +51,7 @@ Além da combinação do Surface pro/Dock, você também pode comprar salas do M
 
 Normalmente, os pacotes e as unidades integradas incluem software pré-instalado, e se você comprar componentes compatíveis individualmente para os sistemas Surface pro, será necessário instalar o software. Para obter instruções, confira [Este artigo sobre a instalação de software em dispositivos](room-systems-scale.md). 
 
-Você pode implantar salas do Microsoft Teams com o Microsoft Teams, o Skype for Business online ou implantações locais ou do Skype for Business.  Consulte a [atualização](skype-room-systems-v2.md) do licenciamento da sala de reunião do teams para obter informações sobre as licenças necessárias.
+Você pode implantar salas do Microsoft Teams com o Microsoft Teams, o Skype for Business online ou implantações locais ou do Skype for Business.  Consulte a [atualização do licenciamento da sala de reunião do teams](skype-room-systems-v2.md) para obter informações sobre as licenças necessárias.
 
 |    |     |
 |-----------|------------|

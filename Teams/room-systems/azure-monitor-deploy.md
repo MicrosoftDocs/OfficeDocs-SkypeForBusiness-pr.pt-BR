@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Este artigo discute como implantar o gerenciamento de dispositivos de salas do Microsoft Teams de maneira integrada e de ponta a ponta usando o Azure monitor.
-ms.openlocfilehash: e52692b1a2ca8830b93a32546724b282b888c03a
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 4be57f97ef3b0813afef2aefd70c551ee50422ee
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36428095"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774679"
 ---
 # <a name="deploy-microsoft-teams-rooms-management-with-azure-monitor"></a>Implantar o gerenciamento de salas do Microsoft Teams com o Azure monitor
 
@@ -34,13 +34,13 @@ Seguindo este guia, você pode usar um painel como o exemplo a seguir para obter
 Em um nível superior, é necessário executar as seguintes tarefas:
 
 
-1.  [Validar configuração da análise de logs](azure-monitor-deploy.md#validate_LogAnalytics)
-2.  [Configurar dispositivos de teste para configuração de gerenciamento de análise de log](azure-monitor-deploy.md#configure_test_devices)
-3.  [Mapear os campos personalizados](azure-monitor-deploy.md#Custom_fields)
-4.  [Definir os modos de exibição de salas do Microsoft Teams em análises de logs](azure-monitor-deploy.md#Define_Views)
-5.  [Definir alertas](azure-monitor-deploy.md#Alerts)
-6.  [Configurar todos os dispositivos para monitoramento](azure-monitor-deploy.md#configure_all_devices)
-7.  [Configurar soluções adicionais do Azure monitor](azure-monitor-deploy.md#Solutions)
+1. [Validar configuração da análise de logs](azure-monitor-deploy.md#validate_LogAnalytics)
+2. [Configurar dispositivos de teste para configuração de gerenciamento de análise de log](azure-monitor-deploy.md#configure_test_devices)
+3. [Mapear os campos personalizados](azure-monitor-deploy.md#Custom_fields)
+4. [Definir os modos de exibição de salas do Microsoft Teams em análises de logs](azure-monitor-deploy.md#Define_Views)
+5. [Definir alertas](azure-monitor-deploy.md#Alerts)
+6. [Configurar todos os dispositivos para monitoramento](azure-monitor-deploy.md#configure_all_devices)
+7. [Configurar soluções adicionais do Azure monitor](azure-monitor-deploy.md#Solutions)
 
 > [!IMPORTANT]
 > Embora com a configuração mínima, a análise de log do Azure monitor pode monitorar um computador que executa um sistema operacional Windows, ainda há algumas salas do Microsoft Teams que você precisa tomar antes de começar a implantar agentes em todas as Microsoft Teams Dispositivos de salas.

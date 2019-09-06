@@ -2,7 +2,7 @@
 title: Manutenção e operações de salas do Microsoft Teams
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
@@ -11,12 +11,12 @@ ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: Leia este tópico para saber mais sobre o gerenciamento de salas do Microsoft Teams, a próxima geração de sistemas de sala do Skype.
-ms.openlocfilehash: 601e9e31f6a874d84dae6f4a3b44c26324a7b6f3
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 14f4fb23868cc3e4247c700d15851511310db471
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427938"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775225"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Manutenção e operações de salas do Microsoft Teams 
  
@@ -51,7 +51,7 @@ Configure a tela frontal da sala para o modo Estendido. Isso garantirá que a in
 Se as salas do Microsoft Teams não estiverem funcionando bem, executar uma redefinição de fábrica pode ajudar. Isso pode ser feito no aplicativo configurações na guia **recuperação** . abaixo **restaurar este PC**, selecione **introdução**e, em seguida, **remover tudo**. Siga os prompts restantes para redefinir o dispositivo.
   
 > [!NOTE]
-> Há um problema conhecido em que as salas do Microsoft Teams podem ficar inúteis se a opção **manter meus arquivos-remove meus arquivos-remove aplicativos e configurações, mas mantém a opção arquivos pessoais** selecionada durante o processo de redefinição do Windows. Não __ Use essa opção.
+> Há um problema conhecido em que as salas do Microsoft Teams podem ficar inúteis se a opção **manter meus arquivos-remove meus arquivos-remove aplicativos e configurações, mas mantém a opção arquivos pessoais** selecionada durante o processo de redefinição do Windows. Não _Use essa_ opção.
   
 ## <a name="supported-remote-options"></a>Opções remotas com suporte
 <a name="RemoteOptions"> </a>
@@ -198,7 +198,7 @@ Algumas funções de gerenciamento, como instalar manualmente um certificado de 
 
 1. Desligue as chamadas em andamento e retorne à tela inicial.
     
-2. Selecione o ícone de engrenagem e exibir o menu (opções são **configurações**, **acessibilidade**e reinicialização do **dispositivo** ).
+2. Selecione o ícone de engrenagem e exibir o menu (opções são **configurações**, **acessibilidade**e **reinicialização do dispositivo** ).
     
 3. Selecione **Configurações**.
     

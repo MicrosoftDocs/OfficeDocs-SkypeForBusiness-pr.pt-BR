@@ -2,7 +2,7 @@
 title: Visão geral de gerenciamento para salas do Microsoft Teams
 ms.author: jambirk
 author: jambirk
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
@@ -12,14 +12,14 @@ localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection: M365-voice
 description: Visão geral de gerenciamento para salas do Microsoft Teams.
-ms.openlocfilehash: db1569f86ba0066691b6797517351087307cf38a
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 28a48bb4aba417fba076e8c31492e8191e7164c9
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427869"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775082"
 ---
-# <a name="management-overview"></a>Visão geral do gerenciamento 
+# <a name="management-overview"></a>Visão geral do gerenciamento
 
 É essencial que você desenvolva e execute manutenção e operações contínuas para garantir que seus sistemas de salas do Microsoft Teams estejam disponíveis para seus usuários e proporcionar uma excelente experiência do usuário. 
 
@@ -27,14 +27,12 @@ ms.locfileid: "36427869"
 
 Monitorar as salas do Microsoft Teams Systems consiste em duas atividades importantes:
 
--  Monitoramento de dispositivos, aplicativos e periféricos
-
--  Monitoramento de qualidade e confiabilidade (CQD)
+- Monitoramento de dispositivos, aplicativos e periféricos
+- Monitoramento de qualidade e confiabilidade (CQD)
 
 ### <a name="microsoft-teams-rooms-device-application-and-peripheral-device-monitoring"></a>Monitoramento de dispositivos, aplicativos e dispositivos periféricos do Microsoft Teams
 
 Para garantir que os usuários possam usar as unidades de sala do Microsoft Teams, as unidades devem estar conectadas à rede com o aplicativo salas do Microsoft Teams configurado corretamente e estar conectado a dispositivos periféricos em funcionamento. 
-
 
 Informações sobre o estado do aplicativo salas do Microsoft Teams e dispositivos periféricos conectados são escritos pelo aplicativo salas do Microsoft Teams para o log de eventos do Windows e documentados em [entender as entradas do log](azure-monitor-manage.md#understand-the-log-entries). 
 
@@ -43,7 +41,7 @@ Informações sobre o estado do aplicativo salas do Microsoft Teams e dispositiv
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (DWORD) 1  <br/> |Permite que salas do Microsoft Teams sejam inicializadas  <br/> |
 |Gerenciamento de energia\> -em AC, desligar a tela após 10 minutos  <br/> Gerenciamento de energia\> -em AC, nunca coloque o sistema em suspensão  <br/> |Permite que as salas do Microsoft Teams desativem exibições anexadas e ativadas automaticamente  <br/> |
 |net accounts /maxpwage:unlimited  <br/> Ou uma maneira equivalente de desabilitar a expiração de senha na conta local. Deixar de fazer isso fará com que a conta do Skype falhe ao fazer logon com uma senha expirada. Observe que isso afeta todas as contas locais do computador e, portanto, não definir isso também fará com que a conta administrativa na caixa acabe de expirar também.  <br/> |Permite que a conta do Skype esteja sempre conectada  <br/> |
-   
+
 A transferência de arquivos usando políticas de grupo é discutida em [configurar um item de arquivo](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx).
   
 ## <a name="remote-management-using-powershell"></a>Gerenciamento remoto usando o PowerShell

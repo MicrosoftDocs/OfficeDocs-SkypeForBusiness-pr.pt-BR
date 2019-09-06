@@ -2,7 +2,7 @@
 title: Gerenciar atualizações do Windows para salas do Microsoft Teams
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 10/10/2018
 audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: M365-voice
 ms.assetid: ''
 description: Gerenciar atualizações do Windows para salas do Microsoft Teams
-ms.openlocfilehash: 7ea7197752b42db788b2f67b9ae1c80cdad80177
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 09be03b0308dfcf00a39421e2e84b75fe94a9fae
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279260"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775312"
 ---
 # <a name="manage-windows-updates"></a>Gerenciar atualizações do Windows
 
@@ -34,7 +34,7 @@ As atualizações do Windows podem ser gerenciadas de algumas maneiras diferente
 ## <a name="windows-updates-for-businesshttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-wufb-gpo-or-intune"></a>[Atualizações do Windows para empresas](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) (GPO ou Intune)   
 - As atualizações são baixadas do WU ou do seu WSUS, mas com atrasos configurados após a data de lançamento original do KB. 
 - Combinadas com várias políticas de ou filtradas, isso permite a criação de "toques" de implantação, em que os administradores podem especificar quais dispositivos instalam atualizações de qualidade primeiro e quais serão instalados mais tarde. Isso permite o teste de confiabilidade e desempenho em um subconjunto de sistemas antes de distribuir atualizações em toda a implantação sem a sobrecarga de gerenciamento de atualizações do Windows no SCCM, por exemplo.
-- As atualizações do WSUS e do Windows para empresas podem ser configuradas [ao mesmo tempo](https://docs.microsoft.com/windows/deployment/update/waas-integrate-wufb) se você quiser tanto o gerenciamento de largura de banda quanto o controle que o Windows Update for Business oferece.
+- As atualizações do WSUS e do Windows para empresas podem ser [configuradas ao mesmo tempo](https://docs.microsoft.com/windows/deployment/update/waas-integrate-wufb) se você quiser tanto o gerenciamento de largura de banda quanto o controle que o Windows Update for Business oferece.
 - Atualizações de recursos. Veja as anotações adicionais abaixo.
 
 ## <a name="wsussccmhttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-configuration-manager"></a>[WSUS/SCCM](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)

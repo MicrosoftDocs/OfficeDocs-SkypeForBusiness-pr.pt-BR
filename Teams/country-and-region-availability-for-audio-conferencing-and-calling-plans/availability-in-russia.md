@@ -3,7 +3,7 @@ title: Disponibilidade na Rússia
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: a1534ecf-fae6-4472-9f3f-c205f547af17
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Rússia.
-ms.openlocfilehash: bdf48a912b1afc2a4c273dfb35334fff10d5f564
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 0e283296f2675dc50230a156f92e123a0975c4d5
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331328"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775472"
 ---
 # <a name="availability-in-russia"></a>Disponibilidade na Rússia
 
@@ -67,7 +67,7 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |Moscou  <br/> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |<ul><li>Moscou <li>São Petersburgo ([na solicitação](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))</ul>|
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Não  <br/> |
    

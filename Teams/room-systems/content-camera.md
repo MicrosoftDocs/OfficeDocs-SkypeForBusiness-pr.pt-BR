@@ -2,7 +2,7 @@
 title: Gerenciar as configurações de um console de salas do Microsoft Teams remotamente com um arquivo de configuração XML
 ms.author: jambirk
 author: jambirk
-ms.reviewer: gregbari
+ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: Este artigo discute o gerenciamento remoto das configurações padrão usadas por um dispositivo de salas do Microsoft Teams, incluindo a aplicação de um tema personalizado.
-ms.openlocfilehash: 4161474f02959b091db6584f1aeed72646028e6d
-ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
+ms.openlocfilehash: f72eb6248fa2e35bdfb6cfe1de19eb34094b2acc
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "36645287"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774563"
 ---
 # <a name="content-cameras"></a>Câmeras de conteúdo
 
@@ -84,7 +84,7 @@ Ou, consulte o Marketplace de dispositivos do Microsoft Teams para kits de câme
 Depois que a câmera estiver instalada na sala, configure-a no console de salas do Microsoft Teams da sala:
 
 1. Selecione **** ![o ícone](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)configurações de configurações, faça logon como administrador e selecione **configurações de dispositivo**.
-2. Na seção **padrões da câmera** , selecione a câmera de conteúdo e certifique-se de que a opção aprimoramentos de **conteúdo** esteja selecionada.
+2. Na seção **padrões da câmera** , selecione a câmera de conteúdo e certifique-se de que a opção **aprimoramentos de conteúdo** esteja selecionada.
 3. Adicionais Se a câmera foi instalada de cabeça para baixo porque a câmera foi montada a partir do teto, marque a opção **girar conteúdo câmera 180 °** .
 4. Selecione **salvar e sair**.
 

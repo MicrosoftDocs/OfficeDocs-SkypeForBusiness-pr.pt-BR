@@ -5,7 +5,7 @@ author: lanachin
 manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: Leia este tópico para saber mais sobre como configurar contas para salas do Microsoft Teams no Exchange e no Skype for Business.
-ms.openlocfilehash: d405214660e34c9cda6e54f0198d0d4477aace9b
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 0ba44079e52a644e1d53ae937582a8d209f921da
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427949"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775134"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Configurar contas para salas do Microsoft Teams
  

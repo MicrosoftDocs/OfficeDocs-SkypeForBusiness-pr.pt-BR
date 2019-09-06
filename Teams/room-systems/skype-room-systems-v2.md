@@ -3,7 +3,7 @@ title: Suporte às Salas do Microsoft Teams
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
@@ -22,14 +22,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba mais sobre os recursos disponíveis em salas do Microsoft Teams. '
-ms.openlocfilehash: 8112cdd11f5f5ca192da0780a6a316056e85063b
-ms.sourcegitcommit: c13bd343c3f3d14c7b8ff710ac5a4fec17ab88b7
+ms.openlocfilehash: d9908ce78b52e2f1f67040ac51f8ae035d79826c
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34859724"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775048"
 ---
-# <a name="teams-meeting-room-licensing-update"></a>Atualização do licenciamento da sala de reunião do teams 
+# <a name="teams-meeting-room-licensing-update"></a>Atualização do licenciamento da sala de reunião do teams
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>Soluções de licenciamento para dispositivos de comunicação compartilhados
 
@@ -43,7 +43,7 @@ A Microsoft tem e uma SKU dedicada para licenciamento de reuniões e chamadas em
 |Audioconferência|&#x2714; &SUP1;|
 |Microsoft Intune|&#x2714;|  
 |Disponibilidade mundial | &#x2714; &sup2;|
-|Disponibilidade do canal | EA, EAS, CSP, <br>Web Direct |
+|Disponibilidade do canal | EA, EAS, CSP, <br/>Web Direct |
 | | | |
 
 &SUP1; A disponibilidade e os minutos incluídos podem variar de acordo com a região. Para verificar a disponibilidade do serviço, confira a [disponibilidade de país e região para videoconferências e planos de chamada](http://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans). Tarifas de consumo podem ser aplicadas para serviços adicionais, como chamadas grátis, minutos internacionais para planos nacionais, etc. Os clientes podem desabilitar esses recursos para evitar cobrança adicional.  
@@ -71,4 +71,4 @@ A tabela a seguir lista os recursos que estão disponíveis nos quartos do Micro
 > [!NOTE]
 > Se você tiver licenças existentes atribuídas para sistemas de sala, elas continuarão a funcionar sem nenhuma interrupção. Você deve mover-se para usar o novo SKU da sala de reunião quando as licenças existentes expirarem.  
 
- **Use a versão correta do Windows 10**: para clientes que desejam implantar imagens do Windows 10 em seus dispositivos, consulte [configurar um console de salas do Microsoft Teams](https://docs.microsoft.com/microsoftteams/room-systems/console). Você pode obter uma cópia do [centro de serviços](https://www.microsoft.com/Licensing/servicecenter/)de licenciamento por volume.
+ **Use a versão correta do Windows 10**: para clientes que desejam implantar imagens do Windows 10 em seus dispositivos, consulte [configurar um console de salas do Microsoft Teams](https://docs.microsoft.com/microsoftteams/room-systems/console). Você pode obter uma cópia do [centro de serviços de licenciamento por volume](https://www.microsoft.com/Licensing/servicecenter/).

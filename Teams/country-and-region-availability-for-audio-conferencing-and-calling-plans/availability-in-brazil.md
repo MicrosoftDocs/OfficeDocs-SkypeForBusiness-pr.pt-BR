@@ -3,7 +3,7 @@ title: Disponibilidade no Brasil
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 7cd45341-1289-4592-a511-f07556ff9139
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para o Brasil.
-ms.openlocfilehash: 7d9f4509cb81df78ef780fffdb3145e7ec825f3a
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 670b81d973fc47831574a90ec0ab05855cc2685f
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34332152"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774593"
 ---
 # <a name="availability-in-brazil"></a>Disponibilidade no Brasil
 
@@ -67,7 +67,7 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> | <ul><li>Rio de Rio <li>  São Paulo </ul> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> | <ul><li>Rio de Rio <li>  São Paulo <li>Outras cidades [na solicitação](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Sim  <br/> |
    

@@ -2,7 +2,7 @@
 title: Gerenciar as configurações de um console de salas do Microsoft Teams remotamente com um arquivo de configuração XML
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -12,22 +12,22 @@ localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection: M365-voice
 description: Este artigo discute o gerenciamento remoto das configurações padrão usadas por um dispositivo de salas do Microsoft Teams, incluindo a aplicação de um tema personalizado.
-ms.openlocfilehash: c66aaba35fc678400118e67d7c66f362842c869f
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 916eca45a39e7bf0dfe6a35b5985832ef5d580f5
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427616"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774908"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Gerenciar as configurações de um console de salas do Microsoft Teams remotamente com um arquivo de configuração XML
 
-Este artigo discute o gerenciamento remoto das configurações padrão usadas por um dispositivo de salas do Microsoft Teams, incluindo a aplicação de um tema personalizado.
+Este artigo discute o gerenciamento remoto das configurações padrão usadas por um dispositivo de salas do Microsoft Teams, incluindo a aplicação de um tema personalizado. Ele discute como criar um arquivo de configurações mestre e links para discussões sobre como colocá-los conforme necessário em dispositivos gerenciados remotamente.
   
-A atualização de um arquivo mestre XML e o envio de cópias aos consoles que você gerencia torna possível alterar as configurações padrão de dispositivos gerenciados remotamente. Este artigo aborda como criar esse arquivo e apresenta links para discussões de como colocá-lo conforme necessário nos dispositivos gerenciados remotamente. Usando esse método, você também pode implementar temas personalizados em seus consoles de sala do Microsoft Teams.
+É possível alterar as configurações padrão de dispositivos gerenciados remotamente atualizando um arquivo XML mestre e enviando cópias para os consoles gerenciados. Você também pode implementar temas personalizados em seus consoles de sala do Microsoft Teams com arquivos de configuração XML.
   
 ## <a name="create-an-xml-configuration-file"></a>Criar um arquivo de configuração XML
 
-A tabela a seguir explica os elementos mostrados neste arquivo de configuração de exemplo SkypeSettings. XML (nome do arquivo obrigatório).
+Qualquer editor de texto pode ser usado para criar um arquivo de configurações. A tabela de **elementos XML** explica os elementos mostrados neste arquivo de configuração de exemplo SkypeSettings. XML (nome do arquivo obrigatório).
   
 ```
 <SkypeSettings>
@@ -69,7 +69,7 @@ A tabela a seguir explica os elementos mostrados neste arquivo de configuração
 </SkypeSettings>
 ```
 
-Se o arquivo XML estiver mal formado (um valor de variável é do tipo errado, os elementos estiverem fora da ordem, os elementos não serão fechados e assim por diante), as configurações encontradas até o ponto em que o erro foi encontrado serão aplicadas, e o restante do arquivo será ignorado durante o processamento. Todos os elementos desconhecidos do XML serão ignorados. Se um parâmetro for omitido, ele permanecerá inalterado no dispositivo. Se um valor de parâmetro for inválido, seu valor anterior permanecerá inalterado.
+Se um valor de variável for do tipo errado, os elementos estiverem fora da ordem, os elementos não serão fechados ou outro erro será encontrado, o arquivo XML estará *incorreto*. Durante o processamento de um arquivo XML mal formado, as configurações encontradas até o ponto em que o erro ocorre são aplicadas, e o restante do arquivo é ignorado. Todos os elementos desconhecidos do XML serão ignorados. Se um parâmetro for omitido, ele permanecerá inalterado no dispositivo. Se um valor de parâmetro for inválido, seu valor anterior permanecerá inalterado.
   
 **Elementos XML**
 
@@ -94,43 +94,42 @@ Se o arquivo XML estiver mal formado (um valor de variável é do tipo errado, o
 |\<SendLogsAndFeedback\> |&#x2777; Boolean  || Se verdadeiro, os logs são enviados para o administrador. Se falso, somente os comentários são enviados para o administrador (e não os logs).  |
 | \<Dispositivos\>  |Contêiner |Primeiro &#x2776;  | Os nomes dos dispositivos de áudio conectados nos elementos filho têm os mesmos valores listados no aplicativo Gerenciador de Dispositivos. A configuração pode conter um dispositivo que atualmente não existe no sistema, como um dispositivo de A/V que não está conectado ao console. A configuração seria mantida para o dispositivo correspondente.  |
 |\<MicrophoneForCommunication\> |Cadeia de caracteres &#x2778;  ||Define o microfone usado como o dispositivo de gravação em uma conferência. |
-|\<SpeakerForCommunication\> |Cadeia de caracteres &#x2778;  ||Dispositivo que deve ser usado como alto-falante para a conferência. Essa configuração é usada para definir o dispositivo alto-falante que será usado para ouvir o áudio de uma chamada. |
+|\<SpeakerForCommunication\> |Cadeia de caracteres &#x2778;  ||Dispositivo que deve ser usado como alto-falante para a conferência. Essa configuração é usada para definir o dispositivo de alto-falantes usado em uma chamada. |
 |\<Defaultspeakr\> |Cadeia de caracteres &#x2778;  ||Dispositivo que deve ser usado para executar o áudio de uma fonte de ingestão HDMI.  |
 |\<ContentCameraId>  | Cadeia de caracteres &#x2778;  | | Defina o caminho da instância da câmera configurada em sala para compartilhar conteúdo analógico do quadro de comunicações em uma reunião. Consulte [localizar o caminho da instância USB da câmera de conteúdo](#locate-the-content-camera-usb-instance-path).|
 |\<ContentCameraInverted>  | &#x2777; Boolean | | Especifique se a câmera de conteúdo está fisicamente instalada de cabeça para baixo. Para câmeras de conteúdo que dão suporte à rotação automática, especifique falso. |
 |\<ContentCameraEnhancement>  | &#x2777; Boolean | |Quando definida como true (o padrão), a imagem da câmera de conteúdo é aprimorada digitalmente: a borda do quadro de comunicações é detectada e um zoom apropriado é selecionado, as linhas de tinta são aprimoradas e a pessoa que está escrevendo no quadro de comunicações torna-se transparente.  <br><br> Defina como falso se você pretende enviar um RSS feed de vídeo para os participantes de uma reunião de espaços em que um quadro de comunicações não está desenhado com uma caneta e, em vez disso, a câmera é usada para mostrar notas autoadesivas, cartazes ou outras mídias.  |
-| \<Temas\>  |Contêiner |Primeiro &#x2776;  |Um dos recursos que podem ser aplicados usando um arquivo XML é um tema personalizado para a sua organização. Você pode especificar um nome de tema, uma imagem de fundo e uma cor. |
-|\<ThemeName\> |Cadeia de caracteres &#x2778;  || Usado para identificar o tema no cliente. As opções de Nome do Tema são Padrão, um dos temas predefinidos fornecidos ou Personalizado. <br/>  Os nomes de temas personalizados sempre devem usar o nome *Personalizado*. A interface do usuário do cliente pode ser definida no console como Padrão ou um dos predefinidos, mas a aplicação de um tema personalizado deve ser definida remotamente por um administrador. <br/>  Os temas predefinidos incluem:  <br/>  Padrão <br/>  Onda Azul <br/>  Floresta Digital <br/>  Apanhador de Sonhos <br/>  Suco de Lima <br/>  Pixel Perfeito <br/>  Mapa Rodoviário <br/>  Pôr do Sol <br/>  Para desabilitar o tema atual, use "nenhum tema" para o ThemeName.  |
-|\<CustomThemeImageUrl\> |Cadeia de caracteres &#x2778;  ||É obrigatória quando se usa um tema personalizado, caso contrário, opcional. Consulte a seção [imagens de tema personalizadas](xml-config-file.md#Themes) abaixo para obter mais detalhes sobre a imagem do tema personalizado.  |
-|\<CustomThemeColor\> |Contêiner ||Contêiner para os \<valores\>RedComponent \<,\>GreenComponent e \<BlueComponent\> . Esses valores são obrigatórios ao usar um tema personalizado. |
+| \<Temas\>  |Contêiner |Primeiro &#x2776;  |Um dos recursos que podem ser aplicados com um arquivo XML é um tema personalizado para a sua organização. Você pode especificar um nome de tema, uma imagem de fundo e uma cor. |
+|\<ThemeName\> |Cadeia de caracteres &#x2778;  || Usado para identificar o tema no cliente. As opções de Nome do Tema são Padrão, um dos temas predefinidos fornecidos ou Personalizado. <br/>  Os nomes de temas personalizados sempre usam o nome *personalizado*. A interface do usuário do cliente pode ser definida no console com o padrão ou uma das predefinições, mas o uso de um tema personalizado deve ser definido remotamente por um administrador. <br/>  Os temas predefinidos incluem:  <br/>  Padrão <br/>  Onda Azul <br/>  Floresta Digital <br/>  Apanhador de Sonhos <br/>  Suco de Lima <br/>  Pixel Perfeito <br/>  Mapa Rodoviário <br/>  Pôr do Sol <br/>  Para desabilitar o tema atual, use "nenhum tema" para o ThemeName.  |
+|\<CustomThemeImageUrl\> |Cadeia de caracteres &#x2778;  ||Obrigatório para um tema personalizado, caso contrário, opcional.   |Para obter mais informações sobre a imagem do tema personalizado, consulte a seção [imagens do tema personalizado](xml-config-file.md#Themes) .
+|\<CustomThemeColor\> |Contêiner ||Contêiner para os \<valores\>RedComponent \<,\>GreenComponent e \<BlueComponent\> . Esses valores são necessários para um tema personalizado. |
 |\<RedComponent\> |Byte (0-255) ||Representa o componente da cor vermelha. |
 |\<GreenComponent\> |Byte (0-255) ||Representa o componente da cor verde. |
 |\<BlueComponent\> |Byte (0-255) ||Representa o componente da cor azul. |
 | | | |
- 
+
 &#x2776; todos os elementos de primeiro nível são opcionais. Se um elemento de primeiro nível for omitido, todos os seus parâmetros filho permanecerão inalterados no dispositivo.
   
-&#x2777; um sinalizador booliano pode ser qualquer um destes: true, false, 0 ou 1. Deixar valores boolianos ou numéricos vazios pode renderizar o XML malformado e impedir alterações nas configurações.
+&#x2777; um sinalizador booliano pode ser: true, false, 0 ou 1. Deixar valores Boolean ou numéricos vazios pode renderizar o XML malformado e impedir alterações nas configurações.
   
- &#x2778; se um parâmetro de cadeia de caracteres estiver presente, vazio e vazio for um valor válido, o parâmetro será limpo no dispositivo.
+&#x2778; se um parâmetro de cadeia de caracteres estiver presente e vazio e vazio for um valor válido, o parâmetro será limpo no dispositivo.
   
-## <a name="manage-console-settings-using-an-xml-configuration-file"></a>Gerenciar as configurações do console usando um arquivo de configuração XML
+## <a name="manage-console-settings-with-an-xml-configuration-file"></a>Gerenciar as configurações do console usando um arquivo de configuração XML
 
-Na inicialização, se um console de salas do Microsoft Teams encontrar um arquivo XML chamado SkypeSettings. xml no local **C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**, ele aplicará as definições de configuração indicado pelo arquivo XML e exclua o arquivo XML.
+Na inicialização, se um console de salas do Microsoft Teams encontrar um arquivo XML chamado SkypeSettings. `C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState`XML localizado em, ele aplicará as configurações indicadas pelo arquivo XML e excluirá o arquivo XML.
   
 Dependendo de quantas salas do Microsoft Teams sua empresa tem e como você opta por gerenciar para configurá-los, há várias maneiras de colocar o arquivo de configuração XML. Quando o arquivo for enviado por push para o console, reinicie-o para processar as alterações de configuração. O arquivo de configuração XML é excluído após seu processamento bem-sucedido. Os métodos de gerenciamento sugeridos para os dispositivos de salas do Microsoft Teams são discutidos em:
   
 - [Configurando a política de grupo para salas do Microsoft Teams](room-systems-v2-operations.md#GroupPolicy)
-
 - [Gerenciamento remoto usando o PowerShell](room-systems-v2-operations.md#RemotePS) e [configurar um item de arquivo](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
 
-Você pode usar o método de sua preferência, desde que possa usá-lo para transferir arquivos e disparar a reinicialização do dispositivo de console. O arquivo deve ser legível, gravável e Delete-habilitado pela conta de usuário local do dispositivo (de preferência, deve ser de propriedade e ter privilégios totais concedidos a esse usuário). Se as permissões do arquivo não forem definidas corretamente, o software pode não conseguir aplicar as configurações, pode não conseguir excluir o arquivo após o processamento bem-sucedido e, possivelmente, pode até falhar.
+Você pode usar o método de sua preferência, desde que possa usá-lo para transferir arquivos e disparar a reinicialização do dispositivo de console. O arquivo deve ser legível, gravável e Delete-habilitado pela conta de usuário local do dispositivo. Preferencialmente, ele é de propriedade e tem privilégios totais concedidos a esse usuário. Se as permissões de arquivo não estiverem definidas corretamente, o software pode falhar para aplicar as configurações, pode falhar ao excluir o arquivo após o processamento bem-sucedido, e até mesmo pode falhar.
   
 ## <a name="custom-theme-images"></a>Imagens de tema personalizado
 
 <a name="Themes"> </a>
 
-O arquivo de imagem do tema personalizado deve ser colocado no **C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**, insira o nome do arquivo e \<a\> extensão na variável CustomThemeImageUrl.
+O arquivo de imagem do tema personalizado deve ser colocado`C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` na pasta. Digite o nome do arquivo e a extensão \<na\> variável CustomThemeImageUrl.
   
 O arquivo de imagem deve ser exatamente 3840X1080 pixels e deve ser um dos seguintes formatos de arquivo: jpg, JPEG, png e BMP. Se a sua organização quiser uma imagem personalizada, um designer de elementos gráficos poderá usar o [modelo do Photoshop de tema personalizado](https://go.microsoft.com/fwlink/?linkid=870441). Ele contém mais detalhes sobre onde colocar vários elementos em uma imagem de tema e quais áreas aparecem em consoles e telas.
   

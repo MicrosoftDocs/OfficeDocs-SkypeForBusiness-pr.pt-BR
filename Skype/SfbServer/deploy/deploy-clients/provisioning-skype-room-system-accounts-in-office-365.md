@@ -4,18 +4,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: Leia este tópico para aprender sobre provisionamento de contas do Sistema de Salas do Skype no Office 365.
-ms.openlocfilehash: 5df77e9a9e5e3ca67eb831596c12516457a15c45
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d247983647641c91376c99bed3a13606027a7e11
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235061"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775385"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-office-365"></a>Provisionamento das contas do Sistema de Salas do Skype no Office 365
  
@@ -91,7 +91,7 @@ Depois de criar a caixa de correio, você pode usar o cmdlet Set-CalendarProcess
 
 ## <a name="assigning-a-skype-for-business-online-license"></a>Atribuindo uma licença do Skype for Business Online 
 
-Agora você pode atribuir uma licença do Skype for Business online (plano 2) ou do Skype for Business online (plano 3) usando o portal administrativo do Office 365 conforme descrito em [atribuir ou remover licenças para o Office 365 para empresas](https://support.office.com/en-us/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) ou no complemento do [Skype for Business. licenciamento](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7). 
+Agora você pode atribuir uma licença do Skype for Business online (plano 2) ou do Skype for Business online (plano 3) usando o portal administrativo do Office 365 conforme descrito em [atribuir ou remover licenças para o Office 365 para empresas](https://support.office.com/en-us/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) ou no [complemento do Skype for Business. licenciamento](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7). 
   
 Depois de atribuir uma licença do Skype for Business Online, você poderá se conectar e validar que a conta está ativa usando qualquer cliente Skype for Business.
   

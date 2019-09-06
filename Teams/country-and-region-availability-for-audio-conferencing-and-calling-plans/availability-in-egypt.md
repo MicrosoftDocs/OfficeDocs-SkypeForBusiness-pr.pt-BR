@@ -3,7 +3,7 @@ title: Disponibilidade no Egito
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para o Egito.
-ms.openlocfilehash: 410840eac1158a0aed9abadf442cd9e021dd3634
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: b217d69ee353404e63a726dc28cade0ccff7b85a
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331968"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775439"
 ---
 # <a name="availability-in-egypt"></a>Disponibilidade no Egito
 
@@ -68,7 +68,7 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 |:-----|:-----|
 |Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |Não aplicável  <br/> |
 |Há números de chamada tarifada disponíveis?  <br/> |Não  <br/> |
-|Há números de chamada gratuita disponíveis?  <br/> |Não <br/> |
+|Há números de chamada gratuita disponíveis?  <br/> |Sim ([solicitação](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
    
  Para obter números de telefone de chamadas gratuitas e tarifadas para audioconferência, atendedores automáticos e filas de chamadas, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   

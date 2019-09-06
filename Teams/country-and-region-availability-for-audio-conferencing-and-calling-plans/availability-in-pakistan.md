@@ -3,7 +3,7 @@ title: Disponibilidade no Paquistão
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 2066d1f9-cbf6-411f-91bb-84d824b4325e
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para o Paquistão.
-ms.openlocfilehash: 29d925bc24f07e9a907b004eb59b8e59e42254fa
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: faa9114fd080b05045bc26c4ff13f8ecc9301893
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331464"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775483"
 ---
 # <a name="availability-in-pakistan"></a>Disponibilidade no Paquistão
 
@@ -71,7 +71,7 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 |Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
 |Há números de chamada gratuita disponíveis?  <br/> |Não  <br/> |
    
- Para obter números de telefone de chamadas gratuitas e tarifadas para audioconferência, atendedores automáticos e filas de chamadas, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
+ Observe que, no Paquistão, os números de serviço só podem ser usados para videoconferências. Portanto, se você quiser receber números de chamada tarifada e gratuita para videoconferência, consulte [obtendo números de telefone de serviço para o Skype for Business e o Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
 ## <a name="communications-credits"></a>Créditos de Comunicação
 

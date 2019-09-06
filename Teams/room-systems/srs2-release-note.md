@@ -2,7 +2,7 @@
 title: Notas de versão
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 4/17/2018
 audience: ITPro
@@ -11,21 +11,20 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: Este artigo discute melhorias cumulativas nas salas do Microsoft Teams.
-ms.openlocfilehash: e14785d7ad36485bc083e040470b00dd3286b377
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 985a261cab4ce9d7cf4bb6949183142a84f76dd0
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427649"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775211"
 ---
-# <a name="release-notes"></a>Notas de versão 
+# <a name="release-notes"></a>Notas de versão
 
 Este artigo discute melhorias cumulativas nas salas do Microsoft Teams.
 
-
 ## <a name="version-history"></a>Histórico de versões
 
-|Liberação |Publicado em <br> Microsoft Store |
+|Liberação |Publicado em <br/> Microsoft Store |
 |--- |--- |
 |4.1.22.0 |08/15/2019 |
 |4.0.105.0 |07/10/2019 |
@@ -55,18 +54,21 @@ Este artigo discute melhorias cumulativas nas salas do Microsoft Teams.
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Introdução ao recurso salas do Microsoft Teams e resolução de problemas
+
 ### <a name="41220-08152019"></a>4.1.22.0 (08/15/2019)
 
 Apresentado nesta atualização:
+
 - Um novo recurso de câmera de conteúdo que permite que os usuários incluam de forma inteligente um quadro de comunicações tradicional em suas reuniões de equipe
 - Melhorias adicionais na interface do usuário do console para reduzir a desordem e as configurações migradas para uma nova barra lateral que é acessada por mais no console
 - Botão Desabilitar compartilhamento de bandeja se o cabo de conteúdo local não estiver conectado ou se não houver uma câmera de conteúdo conectada
 - Correção de um problema com o teclado virtual em que ele falhou aparece na primeira vez apenas após uma reinicialização do sistema do MTR
-- Correções de qualidade e confiabilidade.
+- Correções de qualidade e confiabilidade
 
 ### <a name="401050-07102019"></a>4.0.105.0 (07/10/2019)
 
 Apresentado nesta atualização:
+
 - Remarcando aplicativos da loja do sistema da sala Skype para "salas do Microsoft Teams"
 - Interface do usuário do console de salas do Microsoft Teams realinhada ao Microsoft Teams
 - Atualização de tema: manter a imagem de tela de fundo personalizada somente na frente das exibições de sala, enquanto torna a tela de fundo do console uma cor neutra para garantir que os controles da interface do usuário do console atendam às
@@ -127,7 +129,7 @@ Apresentado nesta atualização:
 ### <a name="40270-1012018"></a>4.0.27.0 (10/1/2018)
 
 Apresentado nesta atualização:
- 
+
 - Alterações de código necessárias para preparar o aplicativo salas do Microsoft Teams para atualização mais recente do Windows 10 versão 1803
 - Correção de problemas de formatação com EULAs localizados (especificamente norueguês) que evitam o progresso além da janela de configuração de OOBE do EULA
 - Alterações de código necessárias para deixar o aplicativo salas do Microsoft Teams ser executado em sistemas de salas de Lync herdados. Veja mais [aqui](https://aka.ms/lrsupgrade).
@@ -203,11 +205,10 @@ Apresentado nesta atualização:
 Introduced in this update: 
 - Support for [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) hardware only. -->
 
-
 ### <a name="30160-11272017"></a>3.0.16.0 (11/27/2017)
 
 Apresentado nesta atualização:
- 
+
 - Corrige um problema com o recurso "fornecer comentários".
 
 ### <a name="30150-1032017"></a>3.0.15.0 (10/3/2017)
@@ -217,7 +218,6 @@ Apresentado nesta atualização:
 - Suporte para hardware de encaixe da [série POLYCOM MSR](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)
 - Suporte para o [Logitech brio](https://www.logitech.com/en-us/product/brio)
 - Resolve um problema em que os modos de exibição (console e frontal da sala) falham ao entrar no modo de suspensão quando não há atividade na sala
-
 
 ### <a name="30120-912017"></a>3.0.12.0 (9/1/2017)
 
@@ -248,7 +248,6 @@ Apresentado nesta atualização:
 - Capacidade para o administrador de ti configurar dispositivos remotamente
  <!-- - Front-of-Room UX shows room details pre-meeting U2 -->
 
-
 ### <a name="2020-03152017"></a>2.0.2.0 (03/15/2017)
 
 Apresentado nesta atualização:
@@ -261,7 +260,7 @@ Apresentado nesta atualização:
 **Recurso (s):**
 
  **Projetado para o Skype for Business**
- 
+
 - Reuniões do Skype com apenas um toque
 - Experiência de reunião do Skype otimizada para salas com vídeo em HD com preenchimento de tela e áudio de banda larga de alta definição
 - Todos os participantes podem se conectar à Reunião do Skype usando o dispositivo que quiserem, onde quer que estejam
