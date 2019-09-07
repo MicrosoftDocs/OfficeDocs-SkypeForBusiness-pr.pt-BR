@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c24899cb15cfec26cd1ee0d3304abbea93239e4
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: 6d4eac2b4b6791040ba8f4d2ea980f69c1451140
+ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464482"
+ms.lasthandoff: 09/07/2019
+ms.locfileid: "36790828"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -225,8 +225,7 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Departamento de Conta de Recursos configurado incorretamente <br/> |Contas de recursos associadas a um atendedor automático ou filas de chamadas criadas antes de janeiro de 2019 podem não ter o parâmetro Departmento configurado corretamente, o que pode fazer com que uma atribuição de número de telefone falhe. Uma correção está sendo criada para resolver esse problema. <br/><br/> As Contas de Recurso configuradas usando New-CsHybridApplicationEndpoint com o Skype for Business Server não terão o conjunto de parâmetros do Departamento corretamente, o que causará a falha da criação da conta do recurso no Skype for Business online. Nesse caso, você precisa configurar o nome do departamento no Active Directory antes de sincronizá-lo online.|Para atenuar esse problema, você pode executar o seguinte cmdlet para configurar o parâmetro de departamento. Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Instância do aplicativo de comunicação da Microsoft" <br/> |08/05/19 <br/> |
-
+|Departamento de Conta de Recursos configurado incorretamente <br/> | As Contas de recursos locais associadas a um atendedor automático ou filas de chamadas criadas antes de janeiro de 2019 podem não ter o parâmetro Departamento configurado corretamente, o que pode fazer com que uma atribuição de número de telefone falhe. Uma correção está em andamento para resolver esse problema. <br/><br/> As Contas de Recurso configuradas usando New-CsHybridApplicationEndpoint com o Skype for Business Server podem não ter o conjunto de parâmetros do Departamento corretamente, o que causará a falha da criação da conta do recurso no centro de administração do Teams. Nesse caso, você precisa configurar o nome do departamento no Active Directory local antes de sincronizá-lo online.|Para atenuar esse problema, você pode executar o seguinte cmdlet para configurar o parâmetro de departamento. Set-MsolUser -ObjectId <Resource Account Object ID> -Department "Instância do aplicativo de comunicação da Microsoft" <br/> Confira também a [Atualização do atendente automático e do serviço das filas de chamadas](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521). |08/05/19 <br/> |
 
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
