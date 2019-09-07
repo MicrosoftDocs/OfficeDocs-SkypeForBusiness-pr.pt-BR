@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Localize e gerencie atualizações para o Skype for Business Server 2015/2019 e o Lync 2013 em um só lugar. Use os links desta página para obter mais informações sobre atualizações e, em seguida, baixe as atualizações.
-ms.openlocfilehash: 860b71070fea50072ebd8db2f1eded204396261d
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: 25869f25f02c51d952d7eba1c162852d3868d71d
+ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36766959"
+ms.lasthandoff: 09/07/2019
+ms.locfileid: "36790811"
 ---
 # <a name="skype-for-business-server-updates"></a>Atualizações do Skype for Business Server
 
@@ -30,6 +30,16 @@ Para obter as atualizações mais recentes do Skype for Business Online e do Off
 |:--- |:--- |:--- |
 |Atualização cumulativa 1 do Skype for Business Server 2019|[KB 4470124](https://support.microsoft.com/kb/4470124)| De julho de 2019 |
 | | | |
+
+### <a name="skype-for-business-server-2019-tools"></a>Ferramentas do Skype for Business Server 2019
+
+|Nome do pacote/Link|Data do lançamento|
+|:--- |:--- |
+|[SDK DO UCMA 6,0](https://www.microsoft.com/en-in/download/details.aspx?id=57506)     |  De junho de 2019       |
+|[Tempo de execução da API gerenciada do Unified Communication 5,0](https://www.microsoft.com/en-in/download/details.aspx?id=57507)    | Junho de 2018        |
+|[Skype for Business Server 2019, pacote de gerenciamento](https://www.microsoft.com/en-in/download/details.aspx?id=57511)    | Junho de 2018        |
+|||
+
 
 ## <a name="skype-for-business-server-2015-update-history"></a>Histórico de atualizações do Skype for Business Server 2015
 
@@ -54,7 +64,14 @@ Para obter as atualizações mais recentes do Skype for Business Online e do Off
 |Atualização cumulativa do Skype for Business Server 2015, Servidor do Front End e Servidor de Borda|[KB 3061059](https://support.microsoft.com/kb/3061059) |Junho de 2015 |
 ||||
 
-* * *
+### <a name="skype-for-business-server-2015-tools"></a>Ferramentas do Skype for Business Server 2015
+
+|Nome do pacote/Link|Data do lançamento|
+|:--- |:--- |
+|[SDK DO UCMA 5,0](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  Maio de 2015       |
+|[Tempo de execução da API gerenciada do Unified Communication 5,0](https://www.microsoft.com/en-us/download/details.aspx?id=47344)     |   Maio de 2015      |
+|[Skype for Business Server 2015, pacote de gerenciamento](https://www.microsoft.com/en-in/download/details.aspx?id=47364)     |  De junho de 2019       |
+|||
 
 ## <a name="lync-server-2013-update-history"></a>Histórico de atualizações do Lync Server 2013
 

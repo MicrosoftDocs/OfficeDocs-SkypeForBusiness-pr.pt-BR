@@ -18,12 +18,12 @@ search.appverid: MET150
 description: Saiba mais sobre as políticas de configuração de aplicativos no Microsoft Teams e como usá-las para fixar aplicativos para personalizar o Microsoft Teams para usuários em sua organização.
 f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 492083de2414d93d5fe6d051374f3525311f8740
-ms.sourcegitcommit: c6ecea3205d509609a655db2348c04f655319df8
+ms.openlocfilehash: 95d96e3bebdcbe7acfde1bc84da7d7216090e5b3
+ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "36171077"
+ms.lasthandoff: 09/07/2019
+ms.locfileid: "36790904"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gerenciar políticas de configuração de aplicativo no Microsoft Teams
 
@@ -51,7 +51,7 @@ Você pode editar as configurações na política global para incluir os aplicat
 
 Você pode usar o centro de administração do Microsoft Teams para criar uma política personalizada.
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para**políticas de configuração**de **aplicativos** > do teams.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para > **políticas de configuração**de **aplicativos do teams**.
 2. Clique em **Adicionar**.
 3. Insira um nome e uma descrição para a política e, em seguida, clique em **adicionar aplicativos**.
 4. Ative ou desative a opção **permitir upload de aplicativos personalizados**, dependendo se você deseja permitir que os usuários carreguem aplicativos personalizados para o Microsoft Teams. Você não poderá alterar essa configuração se a opção **permitir que aplicativos de terceiros ou personalizados** estiverem desativados em [configurações de aplicativo de toda a organização](teams-app-permission-policies.md#manage-org-wide-app-settings) em políticas de permissão do aplicativo.
@@ -67,7 +67,7 @@ Você pode usar o centro de administração do Microsoft Teams para criar uma po
 
 Você pode usar o centro de administração do Microsoft Teams para editar uma política, incluindo a política global (padrão de toda a organização) e políticas personalizadas que você criar.
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para**políticas de configuração**de **aplicativos** > do teams.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para > **políticas de configuração**de **aplicativos do teams**.
 2. Selecione a política clicando à esquerda do nome da política e, em seguida, clique em **Editar**.
 3. Aqui, faça as alterações desejadas. Você pode adicionar, remover e alterar a ordem dos aplicativos.
 4. Clique em **Salvar**.
@@ -86,7 +86,7 @@ Para atribuir uma política a vários usuários de uma vez, consulte [Editar con
 
 Ou, você também pode fazer o seguinte:
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para**políticas de configuração**de **aplicativos** > do teams.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para > **políticas de configuração**de **aplicativos do teams**.
 2. Selecione a política clicando à esquerda do nome da política.
 3. Selecione **gerenciar usuários**.
 4. No painel **gerenciar usuários** , procure pelo usuário por nome para exibição ou por nome de usuário, selecione o nome e, em seguida, selecione **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
@@ -137,6 +137,8 @@ O aplicativo de chamada não está disponível no Teams for Education. Quando vo
 #### <a name="how-many-apps-can-be-added-to-a-policy"></a>Quantos aplicativos podem ser adicionados a uma política?
 
 No mínimo dois aplicativos devem ser fixados para os clientes móveis do Teams (iOS e Android). Se uma política tem menos de dois aplicativos, os clientes móveis não refletem as configurações de política e, em vez disso, continuarão a usar a configuração existente.
+
+Não há limite quanto ao número de aplicativos que você pode adicionar a uma política.
 
 #### <a name="how-long-does-it-take-for-policy-changes-to-take-effect"></a>Quanto tempo leva para as alterações de política entrarem em vigor?
 

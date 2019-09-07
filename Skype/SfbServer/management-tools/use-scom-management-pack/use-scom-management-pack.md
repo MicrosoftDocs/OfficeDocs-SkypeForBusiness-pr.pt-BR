@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 'Resumo: saiba como configurar sua infraestrutura do Skype for Business Server 2015 para trabalhar com o System Center Operations Manager.'
-ms.openlocfilehash: 0f16e49477e457be7743d024061288f869d9ff58
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: a5f676180508898b433953c37656063bd34bd323
+ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221570"
+ms.lasthandoff: 09/07/2019
+ms.locfileid: "36790888"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>Manage Skype for Business Server 2015 using SCOM Management pack
  
@@ -41,7 +41,7 @@ Identificar e [Configurar o servidor de gerenciamento primário](configure-the-p
 
 Os pacotes de gerenciamento podem ser usados com o System Center Operations Manager 2007 R2 (64 bits) (com suporte somente para fins de migração) ou o System &amp; Center Operations Manager 2012 SP1 R2 (64-bit) ou o System Center Operations Manager 2016 (64-bit). A tabela a seguir mostra as configurações com suporte para os pacotes de gerenciamento do Skype for Business Server 2015: 
   
-|**Configuração**|**Suporte?**|
+|Configuração|Com suporte?|
 |:-----|:-----|
 |Sistema operacional Windows Server 2008 R2  <br/> Sistema operacional Windows Server 2012 R2  <br/> |Sim. Ambos no servidor do Skype for Business Server 2015 e nós do Inspetor de transação sintética.  <br/> |
 |Servidores em Cluster  <br/> |Sem suporte.  <br/> |
@@ -54,7 +54,7 @@ Os pacotes de gerenciamento podem ser usados com o System Center Operations Mana
    
 A tabela a seguir mostra a capacidade e os requisitos de sistema operacional para um nó do inspetor da transação sintética:
   
-|**Componente de hardware**|**Requisitos mínimos**|
+|Componente de hardware|Requisitos mínimos|
 |:-----|:-----|
 |CPU  <br/> |Um dos seguintes:  <br/> Processador de 64 bits, quad-core, 2.33 GHz ou superior  <br/> Processador de 2 vias e 64 bits, dual-core, 2.33 GHz ou superior  <br/> |
 |Memória  <br/> |8 GB  <br/> |
@@ -84,12 +84,14 @@ O pacote de monitoramento para o Skype for Business Server 2015 inclui os seguin
 ## <a name="whats-new"></a>Novidades
 
 Os recursos a seguir são novos nos pacotes de gerenciamento do Skype for Business Server 2015.
-  
+
+- **Mudanças na [atualização de junho de 2019](https://www.microsoft.com/en-in/download/details.aspx?id=47364) ** Alguns alertas têm caracteres especiais removidos. Em alguns casos, os caracteres especiais interferem com o recurso de notificação de canal de comando do SCOM.
+
 - **Descoberta automática para entrada do cliente** Os aplicativos cliente que entram no Skype for Business Server 2015 geralmente detectam automaticamente o servidor para entrar. As transações sintéticas agora oferecem suporte para verificar se a descoberta automática está configurada corretamente.
     
 - **Intervalos de execução de transação sintética personalizada** Para simplificar o processo de configuração dos nós de Inspetor, as transações sintéticas podem compartilhar contas de usuário. Isso diminui a frequência com que os testes são executados uma vez que os testes são serializados para evitar conflitos. Por padrão, as transações sintéticas são executadas a cada 15 minutos para garantir que todos os testes sejam executados em tempo hábil. Os administradores que optam por utilizar mais usuários ou menos testes por usuário agora também podem reduzir o intervalo de execução.
     
-- **Transação sintética dos serviços** de interoperabilidade de vídeo Os clientes que estão migrando para o Skype for Business Server 2015 de outras soluções do fornecedor muitas vezes desejam continuar usando os dispositivos de teleconferência de vídeo (VTCs) desses outros fornecedores. O servidor de interoperabilidade de vídeo é uma nova função de servidor do Skype for Business Server 2015 que permite que os clientes continuem a usar o Cisco VTCs nas salas de conferência conectando-se ao Cisco CUCM por meio de um tronco de vídeo SIP. Este recurso também adiciona uma transação sintética para ajudar a verificar se o Servidor de Interoperabilidade de Vídeo está ativo e pode lidar com conexões de entrada através de um tronco SIP de vídeo.
+- **Transação sintética dos serviços de interoperabilidade de vídeo** Os clientes que estão migrando para o Skype for Business Server 2015 de outras soluções do fornecedor muitas vezes desejam continuar usando os dispositivos de teleconferência de vídeo (VTCs) desses outros fornecedores. O servidor de interoperabilidade de vídeo é uma nova função de servidor do Skype for Business Server 2015 que permite que os clientes continuem a usar o Cisco VTCs nas salas de conferência conectando-se ao Cisco CUCM por meio de um tronco de vídeo SIP. Este recurso também adiciona uma transação sintética para ajudar a verificar se o Servidor de Interoperabilidade de Vídeo está ativo e pode lidar com conexões de entrada através de um tronco SIP de vídeo.
     
 - **Transação Sintética de Conferência para Compartilhamento de Aplicativos** Agora, a validação do cenário completo para Conferências de Compartilhamento de Aplicativos é compatível.
     
@@ -97,13 +99,14 @@ Os recursos a seguir são novos nos pacotes de gerenciamento do Skype for Busine
 
 O pacote de gerenciamento do Skype for Business Server 2015 aproveita vários recursos para ajudá-lo a detectar e diagnosticar problemas. Esses recursos fornecem visibilidade em tempo real da integridade de um ambiente do Skype for Business Server 2015.
   
-|**Monitoramento de Cenário**|**Descrição**|
+|Monitoramento de Cenário|Descrição|
 |:-----|:-----|
 |Transações sintéticas  <br/> | Cmdlets do Windows PowerShell para testar e ajudar a garantir a alta disponibilidade de cenários como entrar, presença, mensagens instantâneas e conferências para usuários. <br/> As transações sintéticas podem ser executadas de qualquer localização geográfica incluindo locais dento da empresa, fora da empresa e filiais.  <br/> Quando uma transação sintética falhar, os logs HTML são criados para ajudar a determinar a natureza exata da falha. Isso inclui entender qual ação falhou, a latência de cada ação, a linha de comando usada para executar o teste e o erro específico que ocorreu.  <br/> |
 |Alertas de confiabilidade de chamada  <br/> |Os registros de detalhes da chamada (CDRs) escritos pelos servidores do Skype for Business Server 2015 refletem se os usuários podem se conectar a uma chamada ou por que uma chamada é encerrada. Os alertas de confiabilidade de chamada consultam o banco de dados do CDR para produzir alertas que indicam quando um grande número de usuários experimentam problemas de conectividade para chamadas ponto a ponto ou funcionalidade básica de conferência.  <br/> A cobertura do cenário inclui chamadas de áudio, mensagens instantâneas (IM) de ponto a ponto e outros recursos de conferência.  <br/> |
 |Alertas de qualidade de mídia  <br/> |Consultas de banco de dados que procuram relatórios de qualidade da experiência (QoE) publicadas pelos clientes do Skype for Business Server 2015 no final de cada chamada. Essas consultas produzem alertas que identificam cenários nos quais os usuários provavelmente terão uma qualidade de mídia comprometida durante chamadas e conferências. Os dados estão embutidos nas principais métricas como latência e perda de pacote, que contribuem diretamente para a qualidade da experiência do usuário.  <br/> |
 |Alertas da Integridade do componente  <br/> |Os componentes individuais do servidor geram alertas via logs de eventos e contadores de desempenho para indicar condições de falha que possam afetar significativamente os cenários do usuário. Esses alertas indicam uma variedade de condições como serviços que não estão funcionando, alta taxa de falhas, alta latência de mensagens ou problemas de conectividade.  <br/> |
 |Monitoramento de Integridade da Dependência  <br/> |O Skype for Business Server pode falhar por vários motivos externos. O Pacote de Gerenciamento monitora e os coleta dados para dependência externas críticas que podem indicar problemas graves. Essas dependências incluem a disponibilidade dos serviços de informações da Internet (IIS) e a CPU de servidores usados para o Skype for Business Server.  <br/> |
+|||
    
 ### <a name="alert-prioritization"></a>Priorização de Alertas
 
@@ -119,19 +122,18 @@ Os alertas são classificados de acordo com as seguintes categorias:
 
 Os pacotes de gerenciamento do Skype for Business Server 2015 fornecem maior cobertura para alertas por meio de transações sintéticas. As transações sintéticas são cmdlets do Windows PowerShell integrados ao pacote de gerenciamento do Operations Manager para testar cenários de usuário de ponta a ponta. Quando você designa um servidor para executar transações sintéticas, esses cmdlets são acionados periodicamente pelo pacote de gerenciamento. As falhas resultantes de uma transação sintética geram um alerta de estado. Aqui há suporte para transações sintéticas do Skype for Business Server 2015:
   
-**Transações Sintéticas Suportadas para Registro, Presença e Contatos**
 
-||||
+
+|Transações Sintéticas Suportadas para Registro, Presença e Contatos|||
 |:-----|:-----|:-----|
 |1  <br/> |Registro (login do usuário)  <br/> |Disponível Lync Server 2010 e posterior  <br/> |
 |2  <br/> |Serviço de Catálogo de Endereços (download de arquivo)  <br/> |Disponível Lync Server 2010 e posterior  <br/> |
 |3  <br/> |Consulta à Web do Catálogo de Endereços  <br/> |Disponível Lync Server 2010 e posterior  <br/> |
 |4  <br/> |Presença  <br/> |Disponível Lync Server 2010 e posterior  <br/> |
 |5  <br/> |Repositório Unificado de Contatos  <br/> |Disponível Lync Server 2013 e posterior  <br/> |
-   
-**Transações Sintéticas Suportadas para Serviços Ponto-a-Ponto**
+||||   
 
-||||
+|Transações Sintéticas Suportadas para Serviços Ponto-a-Ponto|||
 |:-----|:-----|:-----|
 |6  <br/> |Sistema de Mensagens Instantâneas Ponto-a-Ponto  <br/> |Disponível no Lync Server 2010 e mais recentes  <br/> |
 |7  <br/> |Áudio Vídeo Ponto-a-Ponto  <br/> |Disponível no Lync Server 2010 e mais recentes  <br/> |
@@ -139,10 +141,9 @@ Os pacotes de gerenciamento do Skype for Business Server 2015 fornecem maior cob
  
 > [!NOTE]
 > O suporte do MCX (serviço de mobilidade) para clientes móveis herdados não está mais disponível no Skype for Business Server 2019. Todos os clientes móveis atuais do Skype for Business já usam a API da Web de comunicação unificada (UCWA) para dar suporte a mensagens instantâneas (IM), presença e contatos. Os usuários com clientes herdados que usam o MCX precisarão atualizar para um cliente atual.
-  
-**Transações Sintéticas Suportadas para Conferência e Chat Persistente**
 
-||||
+
+|Transações Sintéticas Suportadas para Conferência e Chat Persistente|||
 |:-----|:-----|:-----|
 |222  <br/> |Conferências de áudio/vídeo  <br/> |Disponível no Lync Server 2010 e mais recentes  <br/> |
 |254  <br/> |Conferência de dados  <br/> |Disponível no Lync Server 2013 e mais recentes  <br/> |
@@ -152,22 +153,22 @@ Os pacotes de gerenciamento do Skype for Business Server 2015 fornecem maior cob
 |14  <br/> |Conferência discada  <br/> |Novo no Skype for Business Server 2015  <br/> |
 |15  <br/> |Conferência para Compartilhamento de Aplicativos  <br/> |Novo no Skype for Business Server 2015  <br/> |
 |16  <br/> |Conferência de UCWA (participação de reunião na web)  <br/> |Novo no Skype for Business Server 2015  <br/> |
-   
-**Transações Sintéticas Suportadas para Dependências de Rede e Parceiro**
-
 ||||
+
+|Transações Sintéticas Suportadas para Dependências de Rede e Parceiro|||
 |:-----|:-----|:-----|
 |16  <br/> |Conectividade de Borda AV  <br/> |Disponível no Lync Server 2013 e mais recentes  <br/> |
 |dezoito  <br/> |Conectividade de Borda AV e Conectividade de Mensagem Unificada do Exchange (caixa postal)  <br/> |Disponível no Lync Server 2013 e mais recentes  <br/> |
 |pol  <br/> |Chamada Ponto-a-Ponto PSTN  <br/> |Disponível no Lync Server 2010 e mais recentes  <br/> |
 |cedido  <br/> |Sistema de Mensagens Instantâneas XMPP (federação)  <br/> |Disponível no Lync Server 2013 e no Skype for Business 2015  <br/> |
 |21  <br/> |Servidor de Interoperabilidade de Vídeo  <br/> |Novo no Skype for Business Server 2015  <br/> |
+||||
    
 ## <a name="how-health-rolls-up"></a>Estado de Integridade
 
 A tabela a seguir mostra os Estados de integridade dos objetos do pacote de monitoramento do Skype for Business Server.
   
-|**Objeto do Pacote de Gerenciamento**|**Descrição**|
+|Objeto do Pacote de Gerenciamento|Descrição|
 |:-----|:-----|
 |Implantação do Skype for Business Server  <br/> |Representa a implantação do Skype for Business Server 2015 na organização.  <br/> |
 |Site do Skype for Business Server  <br/> |Representa as diferentes áreas geográficas onde os serviços são implantados.  <br/> |

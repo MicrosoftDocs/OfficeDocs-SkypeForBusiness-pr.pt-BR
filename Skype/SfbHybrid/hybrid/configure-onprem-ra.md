@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Configurar uma conta de recurso para o Skype for Business Server 2019.
-ms.openlocfilehash: a307a5ed40c52579020f4cd0eef6646afdb15649
-ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
+ms.openlocfilehash: 72c56d8534eeacf9b3430e4439c2f40ab1f51f6d
+ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "36253950"
+ms.lasthandoff: 09/07/2019
+ms.locfileid: "36790857"
 ---
 # <a name="configure-resource-accounts"></a>Configurar contas de recurso
 
@@ -56,12 +56,12 @@ A criação de uma conta de recurso que usa um número de telefone precisaria ex
 
 1. Porta ou obter um número de serviço de chamada tarifada ou gratuita. O número não pode ser atribuído a nenhum outro serviço de voz ou contas de recurso.
 
-   Antes de atribuir um número de telefone a uma conta de recurso, você precisará obter ou portar os números de serviço de chamada gratuita ou tarifada existentes. Após obter os números de telefone de serviço de chamada tarifada ou gratuita, eles serão exibidos nos**números de telefone**de**voz** > do **Centro** > de administração do Microsoft Teams e o **tipo de número** listado será listado como **serviço de chamada**gratuita. Para obter seus números de serviço, consulte [obter números de telefone de serviço](/MicrosoftTeams/getting-service-phone-numbers) ou se você deseja transferir um número de serviço existente, consulte [transferir números de telefone para o Office 365](/MicrosoftTeams/transfer-phone-numbers-to-office-365).
+   Antes de atribuir um número de telefone a uma conta de recurso, você precisará obter ou portar os números de serviço de chamada gratuita ou tarifada existentes. Após obter os números de telefone de serviço de chamada tarifada ou gratuita, eles serão exibidos nos**números de telefone**de**voz** > do centro > de **Administração do Microsoft Teams**e o **tipo de número** listado será listado como **serviço de chamada**gratuita. Para obter seus números de serviço, consulte [obter números de telefone de serviço](/MicrosoftTeams/getting-service-phone-numbers) ou se você deseja transferir um número de serviço existente, consulte [transferir números de telefone para o Office 365](/MicrosoftTeams/transfer-phone-numbers-to-office-365).
 
    Se você estiver fora dos Estados Unidos, não poderá usar o centro de administração do Microsoft Teams para obter os números de serviço. Vá para [gerenciar números de telefone para sua organização](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) em vez de ver como fazer isso fora dos Estados Unidos.
 
 2. Comprar uma licença do sistema de telefonia. Confira:  
-   - [Sistema de telefonia – licença de usuário virtual](/MicrosoftTeams/teams-add-on-licensing/virtual-user.md)
+   - [Sistema de telefonia – licença de usuário virtual](/MicrosoftTeams/teams-add-on-licensing/virtual-user)
    - [Office 365 Enterprise E1 e E3](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e1-e3)
    - [Office 365 Enterprise E5](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing)
    - [Software comercial do Office 365 Enterprise e5](https://products.office.com/business/office-365-enterprise-e5-business-software)
@@ -103,7 +103,7 @@ A criação de uma conta de recurso que usa um número de telefone precisaria ex
 
 A conta do recurso precisará de um número de telefone atribuído se ele for atribuído a um atendedor automático de nível superior ou a fila de chamadas. Os números de telefone do usuário (assinante) não podem ser atribuídos a uma conta de recurso, somente os números de telefone de chamada tarifada ou gratuita de serviço podem ser usados.
 
-  Você pode atribuir um número híbrido de roteamento direto à sua conta de recurso.  Consulte [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan.md) para obter detalhes.
+  Você pode atribuir um número híbrido de roteamento direto à sua conta de recurso.  Consulte [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan) para obter detalhes.
 
   > [!NOTE]
   > Os números de serviço de roteamento direto atribuídos às contas de recursos para atendedor automático e filas de chamada têm suporte apenas para usuários e agentes do Microsoft Teams.
@@ -115,7 +115,7 @@ A conta do recurso precisará de um número de telefone atribuído se ele for at
 
 8. Associe a conta de recurso ao atendedor automático ou à fila de chamadas do sistema de telefonia que você escolheu anteriormente.
 
-Um exemplo de uma implementação de pequena empresa está disponível no [exemplo de pequena empresa-configurar um atendedor automático e um](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) [exemplo de pequena empresa-configurar uma fila de chamadas](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq.yml).
+Um exemplo de uma implementação de pequena empresa está disponível no [exemplo de pequena empresa-configurar um atendedor automático e um](/microsoftteams/tutorial-org-aa) [exemplo de pequena empresa-configurar uma fila de chamadas](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
 
 ## <a name="create-a-resource-account-without-a-phone-number"></a>Criar uma conta de recurso sem um número de telefone
 
@@ -146,11 +146,14 @@ Faça logon no servidor front-end do Skype for Business e execute os seguintes c
    - [Criar uma fila de chamada em nuvem](/MicrosoftTeams/create-a-phone-system-call-queue)  
 4. Associe a conta de recurso e o atendedor automático ou a fila de chamadas do sistema de telefonia que você escolheu anteriormente.
 
-Um exemplo de uma implementação de pequena empresa está disponível no [exemplo de pequena empresa-configurar um atendedor automático e um](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) [exemplo de pequena empresa-configurar uma fila de chamadas](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq.yml).
+Um exemplo de uma implementação de pequena empresa está disponível no [exemplo de pequena empresa-configurar um atendedor automático e um](/microsoftteams/tutorial-org-aa) [exemplo de pequena empresa-configurar uma fila de chamadas](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
 
 ## <a name="test-the-implementation"></a>Testar a implementação
 
-A melhor maneira de testar a implementação é chamar o número configurado para um atendedor automático do sistema de telefonia ou uma fila de chamadas e se conectar a um dos agentes ou menus. Você também pode colocar rapidamente uma chamada de teste usando o **botão testar** no painel de ações do centro de administração. Se você quiser fazer alterações em um atendedor automático ou na fila de chamadas do sistema de telefonia, selecione-a e, em seguida, no painel de ações, clique em **Editar**.
+A melhor maneira de testar a implementação é chamar o número configurado para um atendedor automático do sistema de telefonia ou uma fila de chamadas e se conectar a um dos agentes ou menus. Você também pode colocar rapidamente uma chamada de teste usando o **botão testar** no painel de ações do centro de administração. Se você quiser fazer alterações em um atendedor automático ou na fila de chamadas do sistema de telefonia, selecione-a e, em seguida, no painel de ações, clique em **Editar**. 
+
+> [!TIP]
+> Se sua conta de recursos tiver dificuldades com a atribuição de uma fila de chamadas ou atendedor automático, consulte [problemas conhecidos do Microsoft Teams](/MicrosoftTeams/Known-issues#phone-system) e a seção [como corrigir minhas instâncias de aplicativos híbridos](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521) no blog do Microsoft Teams.
 
 ## <a name="moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system"></a>Mover um atendedor automático ou fila de chamadas do UM do Exchange para o sistema de telefonia
 
@@ -180,7 +183,7 @@ A migração do Exchange UM para o sistema de telefonia exigirá a recriação d
 
 4. Configure um atendedor automático do sistema de telefonia ou uma fila de chamada que usa os pontos de extremidade, conforme descrito anteriormente.
 
-   Você pode achar útil usar os exercícios no tutorial intitulado [Small Business example-configurar um atendedor automático](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) para criar um mapa lógico das hierarquias em seu antigo sistema de um do Exchange.
+   Você pode achar útil usar os exercícios no tutorial intitulado [Small Business example-configurar um atendedor automático](/microsoftteams/tutorial-org-aa) para criar um mapa lógico das hierarquias em seu antigo sistema de um do Exchange.
 5. Teste o atendedor automático do sistema de telefonia ou a fila de chamadas.
 6. Reatribua o número de telefone vinculado à fila de chamadas da UM do Exchange ou ao atendedor automático ao atendedor automático ou à fila de chamadas do sistema de telefonia correspondente.  
 
