@@ -11,12 +11,12 @@ ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: Leia este tópico para saber mais sobre o gerenciamento de salas do Microsoft Teams, a próxima geração de sistemas de sala do Skype.
-ms.openlocfilehash: 14f4fb23868cc3e4247c700d15851511310db471
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: f5c4cf2a7b0c5f8fc12d94553d6c0f77216d9487
+ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775225"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "36838073"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Manutenção e operações de salas do Microsoft Teams 
  
@@ -43,7 +43,7 @@ Os logs serão exibidos como um arquivo ZIP em c:\rigel.
 Configure a tela frontal da sala para o modo Estendido. Isso garantirá que a interface do usuário do console não seja duplicada naquele vídeo quando você desligar o monitor.
   
 > [!NOTE]
-> A TV usada em uma sala de exibição precisa suportar/habilitar o recurso CEC (Controle Eletrônico do Consumidor) do HDMI para que possa alternar automaticamente do modo de espera para uma fonte de vídeo ativa.  Esse recurso não é suportado em todas as TVs. 
+> Se você quiser uma exibição do lado da sala para alternar automaticamente para uma fonte de vídeo ativa (como um console do MTR) quando a origem é ativada do modo de espera, determinadas condições devem ser atendidas. Esse recurso é opcional, mas suportado pelo software de salas Microsoft Teams, desde que o hardware subjacente seja compatível com o recurso. Uma TV para consumidor usada como uma frontal da exibição de sala precisa dar suporte ao recurso de controle de eletrônicos do consumidor (CEC) de HDMI.  Dependendo do Dock ou console selecionado (que pode não ser compatível com o CEC, confira a documentação de suporte do fabricante), um controlador de espaço de trabalho como um [EXTRON HD CTL 100](https://www.extron.com/article/hdctl100ad) pode ser necessário para habilitar o comportamento desejado. 
   
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Redefinição de salas do Microsoft Teams (restauração de fábrica)
 <a name="Reset"> </a>
@@ -59,7 +59,7 @@ Se as salas do Microsoft Teams não estiverem funcionando bem, executar uma rede
 A tabela a seguir resume as operações remotas possíveis e os métodos que você pode usar para executá-las.
   
 
-|**Grupo de trabalho **|**Não ingresso em domínio**|**Ingresso em domínio**|
+|Grupo de trabalho |Não ingresso em domínio|Ingresso em domínio|
 |:-----|:-----|:-----|
 |Reiniciar  <br/> |Área de trabalho remota  <br/> PowerShell Remoto  <br/> |Área de trabalho remota (requer configuração adicional)  <br/> PowerShell remoto (requer configuração adicional)  <br/> SCCM  <br/> |
 |Atualização do sistema operacional  <br/> |Se forem necessárias regras mais restritivas, veja as seguintes URLs de lista de permissões:  <br/> |Windows Update  <br/> WSUS  <br/> |
@@ -73,7 +73,7 @@ A tabela a seguir resume as operações remotas possíveis e os métodos que voc
 Esta seção abrange as configurações do sistema das quais as salas do Microsoft Teams dependem para funcionar corretamente. Ao ingressar em salas do Microsoft Teams em um domínio, verifique se a política de grupo não substitui as configurações na tabela a seguir.
   
 
-|**Configuração**|**Permite**|
+|Configuração|Permite|
 |:-----|:-----|
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (REG_SZ) 1  <br/> |Permite que salas do Microsoft Teams sejam inicializadas  <br/> |
 |Gerenciamento de energia\> -em AC, desligar a tela após 10 minutos  <br/> Gerenciamento de energia\> -em AC, nunca coloque o sistema em suspensão  <br/> |Permite que as salas do Microsoft Teams desativem exibições anexadas e ativadas automaticamente  <br/> |
@@ -90,15 +90,10 @@ A transferência de arquivos usando políticas de grupo é discutida em [configu
 Você pode executar as seguintes operações de gerenciamento remotamente usando o PowerShell (consulte a tabela abaixo para obter exemplos de script):
   
 - Obter dispositivos conectados
-    
 - Obter o status do aplicativo
-    
 - Obter informações do sistema
-    
 - Reiniciar o sistema
-    
 - Recuperar logs
-    
 - Transferir arquivos (requer salas do Microsoft Teams associadas a um domínio)
     
 > [!NOTE]
@@ -107,21 +102,15 @@ Você pode executar as seguintes operações de gerenciamento remotamente usando
 Por exemplo, você pode habilitar o PowerShell Remoto da seguinte maneira:
   
 1. Entre como administrador em um dispositivo de salas do Microsoft Teams.
-    
 2. Abra um prompt de comando elevado do PowerShell.
-    
 3. Insira o seguinte comando: Enable-PSRemoting -force
-    
+
 Para executar uma operação de gerenciamento:
   
 1. Entre em um computador com credenciais de conta que têm permissão para executar comandos do PowerShell em um dispositivo de salas do Microsoft Teams.
-    
 2. Abra um prompt de comando normal do PowerShell no computador.
-    
 3. Copie o texto do comando da tabela abaixo e cole-o no prompt.
-    
 4. Substituir `<Device fqdn>` os campos pelos valores de FQDN apropriados para o seu ambiente.
-    
 5. Substituir * \<caminho\> * com o nome do arquivo e o caminho local do arquivo de configuração Master SkypeSettings. XML (ou imagem do tema).
     
 Para obter dispositivos conectados
@@ -182,7 +171,6 @@ Se você quiser gerenciar as atualizações manualmente e não conseguir seguir 
 ### <a name="to-update-using-powershell"></a>Para atualizar usando o PowerShell
 
 1. Extraia o pacote do [MSI](https://go.microsoft.com/fwlink/?linkid=851168) de instalação para um compartilhamento que o dispositivo possa acessar.
-    
 2. Execute o script a seguir direcionando os dispositivos de sala do \<Microsoft\> Teams, alterando o compartilhamento para o compartilhamento de dispositivo conforme apropriado:
     
 ```
@@ -197,28 +185,15 @@ Algumas funções de gerenciamento, como instalar manualmente um certificado de 
 ### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>Alternar para o modo de administrador e voltar quando o aplicativo salas do Microsoft Teams estiver em execução
 
 1. Desligue as chamadas em andamento e retorne à tela inicial.
-    
 2. Selecione o ícone de engrenagem e exibir o menu (opções são **configurações**, **acessibilidade**e **reinicialização do dispositivo** ).
-    
 3. Selecione **Configurações**.
-    
-4. Digite a senha do administrador. A tela Configuração será exibida.
-    
-    > [!NOTE]
-    > Se o dispositivo não for associado ao domínio, a conta administrativa local (nome de usuário "administrador") será usada por padrão. A senha padrão para essa conta será 'sfb', mas é recomendável que sua organização mude essa senha o quanto antes por motivos de segurança. Se o computador for associado a um domínio, você poderá entrar com uma conta de domínio apropriadamente privilegiada. 
-  
+4. Digite a senha do administrador. A tela Configuração será exibida.  Se o dispositivo não for associado ao domínio, a conta administrativa local (nome de usuário "administrador") será usada por padrão. A senha padrão desta conta é ' SFB ', altere a senha o mais rápido possível. Se o computador for associado a um domínio, você poderá entrar com uma conta de domínio apropriadamente privilegiada. 
 5. Selecione **configurações do Windows** na coluna à esquerda.
-    
 6. Escolha **Vá para Entrada como Admin**.
-    
 7. Digite a senha do administrador. Isso faz com que o aplicativo seja desativado e leva você até a tela de logon do Windows. 
-    
 8. Faça logon no desktop usando as credenciais administrativas. Você terá os privilégios necessários para gerenciar o dispositivo.
-    
 9. Execute as tarefas administrativas necessárias.
-    
 10. Saia da conta de Administrador.
-    
 11. Retorne a salas do Microsoft Teams selecionando o ícone de conta de usuário no lado esquerdo da tela e, em seguida, selecionando **Skype**.
     
     Se o usuário do **Skype** não estiver listado, talvez seja necessário selecionar **outro usuário** , digitar **.\skype** como o nome de usuário e entrar.
@@ -228,29 +203,21 @@ O console agora está novamente em seu modo de operação normal. O procedimento
 ### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>Alternar para o modo de administrador e voltar quando o aplicativo salas do Microsoft Teams falha
 
 1. Pressione a tecla do Windows cinco vezes em uma sucessão rápida. Isso levará você para a tela de logon do Windows. 
-    
 2. Faça logon no desktop usando as credenciais administrativas.
-    
+3. Execute as tarefas administrativas necessárias.
+4. Reinicie o computador quando tiver terminado.
+
     > [!NOTE]
     > Esse método não registra o usuário do Skype ou encerra o aplicativo normalmente, mas você o usaria se o aplicativo não estivesse respondendo e o outro método não estivesse disponível. 
-  
-3. Execute as tarefas administrativas necessárias.
-    
-4. Reinicie o computador quando tiver terminado.
-    
+
    O console é reiniciado em seu modo de operação normal, executando o aplicativo salas do Microsoft Teams. Você pode remover o teclado, se ele estiver associado, para permitir que você execute este procedimento.
    ## <a name="troubleshooting-tips"></a>Dicas para solução de problemas
    <a name="TS"> </a>
 
 - Os convites de reunião podem não ser exibidos quando enviados entre os limites do domínio (por exemplo, entre duas empresas). Nesses casos, os administradores de ti devem decidir se desejam permitir que usuários externos agendem uma reunião.
-    
 - As salas do Microsoft Teams não dão suporte a redirecionamentos de descoberta automática do Exchange via Exchange 2010.
-    
 - Em geral, é uma boa prática para os administradores de ti desabilitarem pontos de extremidade de áudio que eles não pretendam usar.
-    
 - Caso seja exibida uma imagem espelhada na visualização da sala, o administrador de TI pode corrigir isso desligando e ligando a câmera ou invertendo a orientação da imagem com o controle remoto da câmera.
-    
 - Sabe-se que pode ocorrer a perda do acesso à tela touch do console. Nesses casos, o problema também é resolvido ao reiniciar o sistema de salas do Microsoft Teams.
-    
 - Sabe-se que pode ocorrer a perda do áudio local ao conectar um computador ao console via entrada com fio. Nesses casos, reiniciar o computador pode resolver o problema de reprodução do áudio local.
     
