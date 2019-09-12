@@ -643,7 +643,7 @@
 ### [Monitorar a qualidade](upgrade-monitor-quality.md)
 ### [Aprimorar seu serviço](upgrade-enhance-my-service.md)
 
-
+## [Desativação do Skype for Business Online](skype-for-business-online-retirement.md)
 ## [Perguntas Frequentes](FAQ-journey.md)
 
 ## Saiba mais sobre a coexistência
