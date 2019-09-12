@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Introdução aos modelos do Teams para Organizações de Saúde
-ms.openlocfilehash: 437a645a0ab32024e81f3c73ba0db09b08267b3d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9a00d0d707867d009a9bc724d88fd4f9d8e6997f
+ms.sourcegitcommit: 113c00a26c5a6ad22ef24b1bdcd830e7c2cd14ff
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232245"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "36852834"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Introdução aos modelos do Teams para Organizações de Saúde
 
@@ -43,7 +43,7 @@ O modelo para a era destinado à comunicação e à colaboração em um departam
 
 ## <a name="hospital-template"></a>Modelo do hospital
 
-O modelo hospital destina-se à comunicação e colaboração entre vários departamentos, pods e departamentos em um hospital. Neste modelo, há vários canais operacionais, incluindo *anúncios*, *custodial*e farmácias **, mas também oferecemos um script abaixo que estende o modelo com uma variedade de departamentos adicionais ou canais voltados para a especialidade que você pode adicionar, excluir ou editar de preferência. Por exemplo, se você tiver um departamento *Endocrinology* , mas não precisa de um canal para *ophthalmology*, o script poderá ser adaptado para incluir um canal de *Endocrinology* e remover o canal de *ophthalmology* . Recomendamos que esses canais de especialidade ou modelo não sejam favoritos automaticamente para evitar a saturação da notificação. Os usuários geralmente têm favorito todos os canais que encontrarem relevantes.
+O modelo hospital destina-se à comunicação e colaboração entre vários departamentos, pods e departamentos em um hospital. Neste modelo, há vários canais operacionais, incluindo *anúncios*, *custodial*e *Farmácias*, mas também oferecemos um script abaixo que estende o modelo com uma variedade de departamentos adicionais ou canais voltados para a especialidade que você pode adicionar, excluir ou editar de preferência. Por exemplo, se você tiver um departamento *Endocrinology* , mas não precisa de um canal para *ophthalmology*, o script poderá ser adaptado para incluir um canal de *Endocrinology* e remover o canal de *ophthalmology* . Recomendamos que esses canais de especialidade ou modelo não sejam favoritos automaticamente para evitar a saturação da notificação. Os usuários geralmente têm favorito todos os canais que encontrarem relevantes.
 
 |Tipo de modelo base |baseTemplateId |Canais de modelo de linha de base|
 |:--- |:---|:---|
@@ -54,7 +54,7 @@ O modelo hospital destina-se à comunicação e colaboração entre vários depa
 
 ## <a name="how-to-use-first-party-templates"></a>Como usar modelos de primeira empresa
 
-Para usar esses modelos, basta alterar a propriedade ' template@odata.bind ' no corpo da solicitação de ' padrão ' para a TemplateIDs acima.  Para obter mais informações sobre como implantar modelos de equipe, consulte o artigo Microsoft Graph [sobre a criação de uma equipe](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
+Para usar esses modelos, basta alterar a propriedade ' template@odata.bind ' no corpo da solicitação de ' padrão ' para a TemplateIDs acima.  Para obter mais informações sobre como implantar modelos de equipe, consulte o artigo Microsoft Graph sobre como [criar uma equipe](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
 
 > [!NOTE]
 > Os canais no modelo serão automaticamente criados na guia geral.
