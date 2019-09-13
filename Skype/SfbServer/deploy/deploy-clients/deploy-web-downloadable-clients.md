@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Resumo: implante o aplicativo Skype for Business Web App e reuniões do Skype usadas com o Skype for Business.'
-ms.openlocfilehash: 8f2449fde2f270834bda50602fe163829f3b725f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 273ffca9ae91973fe9e3953efc914364de382ed4
+ms.sourcegitcommit: 8a20cb7bd1d23e2cf2987f55039748bad60f501b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234389"
+ms.lasthandoff: 09/12/2019
+ms.locfileid: "36972872"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Implantar clientes para download da Web no Skype for Business Server
 
@@ -26,7 +26,7 @@ O Skype for Business Web App é um cliente Web do IIS (serviços de informaçõe
 Os recursos de voz, vídeo e compartilhamento do Skype for Business Web App exigem um controle ActiveX da Microsoft usado como um plugin pelo navegador do usuário. Você pode instalar o controle ActiveX antecipadamente ou permitir que os usuários o instalem quando solicitado, o que acontecerá na primeira vez em que usarem o Skype for Business Web App ou na primeira vez que acessar um recurso que exija o controle ActiveX.
 
 > [!NOTE]
-> Nas implantações do servidor de borda do Skype for Business Server, um proxy reverso HTTPS na rede de perímetro é necessário para o acesso ao cliente do Skype for Business Web App. Você também deve publicar URLs simples. Para obter detalhes, consulte Configurando [servidores proxy reverso](https://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) e [requisitos de DNS para URLs simples no Skype for Business Server](../../plan-your-deployment/network-requirements/simple-urls.md).
+> Nas implantações do servidor de borda do Skype for Business Server, um proxy reverso HTTPS na rede de perímetro é necessário para o acesso ao cliente do Skype for Business Web App. Você também deve publicar URLs simples. Para obter detalhes, consulte [Configurando servidores proxy reverso](https://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) e [requisitos de DNS para URLs simples no Skype for Business Server](../../plan-your-deployment/network-requirements/simple-urls.md).
 
 ## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>Habilitar a autenticação multifator para o Skype for Business Web App
 <a name="MFA"> </a>
@@ -140,6 +140,10 @@ Esse procedimento é opcional e se aplica ao Skype for Business Server 2015 CU5 
    ```
    Set-CsWebServiceConfiguration -JoinLauncherCdnTimeout (New-TimeSpan -Seconds 10)
    ```
+
+> [!NOTE]
+> Com o MeetingUxUseCdn na atualização cumulativa 5 do Skype for Business Server 2015, o valor padrão é definido como false. Isso causa um problema em que o cliente do Skype for Business para Mac não consegue ingressar em reuniões de parceiros não federados como convidados, mesmo que o administrador do Skype for Business tenha definido o MeetingUxUseCdn como verdadeiro. Para que isso funcione, o Skype for Business Server 2015 deve ter a atualização cumulativa 7, 6.0.9319.534 ou posterior. Consulte [habilitar o aplicativo reuniões do Skype para substituir o Skype for Business Web App no Skype for Business Server 2015](https://support.microsoft.com/kb/4132312).
+
 
 ## <a name="see-also"></a>Confira também
 <a name="SMA_Enable"> </a>
