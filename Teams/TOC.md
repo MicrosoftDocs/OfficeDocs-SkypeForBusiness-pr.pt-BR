@@ -27,6 +27,7 @@
 ## [Compartilhando arquivos no Teams](sharing-files-in-teams.md)
 ## [Gerenciar políticas de mensagens](messaging-policies-in-teams.md)
 ## [Presença do usuário no Teams](presence-admins.md)
+## [Exibir análise entre equipes e por equipe em Teams](teams-analytics-and-reports/cross-team-per-team-analytics.md)
 ## [Arquivar ou excluir uma Equipe](archive-or-delete-a-team.md)
 
 
@@ -291,6 +292,7 @@
 #### [Idiomas de mensagens e saudações da caixa postal](languages-for-voicemail-greetings-and-messages.md)
 ### ID do chamador
 #### [Como a identificação de chamada pode ser usada em sua organização](how-can-caller-id-be-used-in-your-organization.md)
+#### [Gerenciar políticas de ID do chamador](caller-id-policies.md)
 #### [Definir a identificação de chamada de um usuário](set-the-caller-id-for-a-user.md)
 #### [Mais informações sobre a Identificação da Linha de Chamada e o Nome do Chamador](more-about-calling-line-id-and-calling-party-name.md)
 ### Atendedores automáticos e filas de chamadas 
@@ -304,7 +306,6 @@
 ### [Recuperação e estacionamento de chamadas](call-park-and-retrieve.md)
 ### [Atendimento de chamada de grupo e compartilhamento de chamada](call-sharing-and-group-call-pickup.md)
 ### [Política de chamada](teams-calling-policy.md)
-### [Política de ID do chamador](caller-id-policies.md)
 ### [Aparência de linha compartilhada](shared-line-appearance.md)
 ### [Entender como os usuários podem bloquear chamadas PSTN no Teams clients](block-pstn-calls-on-Teams-clients.md)
 
