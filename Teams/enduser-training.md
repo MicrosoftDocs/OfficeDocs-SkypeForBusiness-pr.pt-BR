@@ -7,21 +7,24 @@ layout: LandingPage
 ms.date: 11/26/2018
 ms.topic: landing-page
 ms.service: msteams
+audience: admin
 ms.collection:
 - Teams_ITAdmin_Training
 - M365-collaboration
 ms.reviewer: lolaj
 search.appverid: MET150
 description: Vídeos de treinamento, tutoriais e outros recursos para os usuários em sua organização aprenderem sobre e usarem o Teams.
-f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
+f1keywords:
+- ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
+- ms.teamsadmincenter.dashboard.trainingvideos.enduser
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01246103d321e40316df01799c3c7f5a82940340
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
-ms.translationtype: MT
+ms.openlocfilehash: ba589ea0e83f506c3367df96fb130a8d6d7dea57
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493659"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483020"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Treinamento para o usuário final do Microsoft Teams
 
@@ -35,7 +38,7 @@ Use esses recursos de treinamento para ajudar os usuários da sua organização 
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/whats-new-megaphone-blue.svg" alt="megaphone" />
+                            <img src="https://docs.microsoft.com/office/media/icons/whats-new-megaphone-blue.svg" alt="Megaphone icon representing an introduction" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -54,7 +57,7 @@ Assista a este breve vídeo de introdução ao Teams</h3>
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="get started" />
+                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="Pointing hand icon representing getting started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -71,7 +74,7 @@ Assista a este breve vídeo de introdução ao Teams</h3>
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/help.svg" alt="Help" />
+                            <img src="https://docs.microsoft.com/office/media/icons/help.svg" alt="Question mark icon representing help" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -89,7 +92,7 @@ Assista a este breve vídeo de introdução ao Teams</h3>
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg" alt="education tutorial" />
+                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg" alt="Mortarboard icon representing training videos" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -107,7 +110,7 @@ Assista a este breve vídeo de introdução ao Teams</h3>
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/video-play.svg" alt="video play" />
+                            <img src="https://docs.microsoft.com/office/media/icons/video-play.svg" alt="Play button icon representing YouTube videos" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -202,7 +205,7 @@ Assista a este breve vídeo de introdução ao Teams</h3>
                     <div class="cardText">
                         <h3>Postagens e mensagens</h3>
                          <p><a href="https://support.office.com/article/create-and-format-a-post-e66777da-636b-49eb-9408-b0d88b212885">Vídeo: crie e formate uma postagem</a></p>
-                         <p><a href="https://support.office.com/en-us/article/get-attention-with-mentions-b2ffb135-7069-4880-84ee-5b27f402418b">Vídeo: receba atenção com @menções</a></p>
+                         <p><a href="https://support.office.com/pt-BR/article/get-attention-with-mentions-b2ffb135-7069-4880-84ee-5b27f402418b">Vídeo: receba atenção com @menções</a></p>
                          <p><a href="https://support.office.com/article/save-a-post-or-a-message-3f63e7d0-0011-47fa-99c0-98af60a71357)">Vídeo: salve uma postagem ou uma mensagem</a></p>
                     </div>
                 </div>
