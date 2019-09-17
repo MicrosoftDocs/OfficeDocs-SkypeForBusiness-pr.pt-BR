@@ -15,10 +15,10 @@ localization_priority: Normal
 search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
-description: Saiba mais sobre as políticas de mensagens e como elas podem ser usadas para controlar as mensagens de chat no Microsoft Teams.
+description: Saiba mais sobre as políticas de mensagens e como elas podem ser usadas para controlar as mensagens de chat no Teams.
 ms.openlocfilehash: 0707214a2bff442102dd1481af1f031c1a59703d
 ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 07/25/2019
 ms.locfileid: "35861860"
@@ -27,41 +27,41 @@ ms.locfileid: "35861860"
 
 <!--- Add zone marker here--->
 
-As políticas de mensagens são usadas para controlar quais recursos de chat e mensagens de canal estão disponíveis para os usuários do Microsoft Teams. Você pode usar a política padrão criada automaticamente ou criar uma ou mais políticas de mensagens personalizadas para as pessoas em sua organização. Depois de criar uma política, você pode atribuí-la a um usuário ou grupo de usuários em sua organização.
+As políticas de mensagens são usadas para controlar quais recursos de mensagens de chat e canal estão disponíveis para usuários no Microsoft Teams. Você pode usar a política padrão que é criada automaticamente ou criar uma ou mais políticas de mensagens personalizadas para pessoas em sua organização. Depois de criar uma política, você pode atribuí-la a um usuário ou grupo de usuários da organização.
 
-Por padrão, uma política chamada global (padrão para toda a organização) é criada. Por padrão, todos os usuários de sua organização serão atribuídos a essa política de serviço. Você pode fazer alterações nessa política ou criar uma ou mais políticas personalizadas e atribuir usuários a elas. Quando você cria uma política personalizada, pode permitir ou impedir que determinados recursos sejam disponibilizados para seus usuários e, em seguida, atribuí-los a um ou mais usuários que precisarão das configurações aplicadas a eles. 
+Por padrão, uma política denominada Global (padrão toda a organização) é criada. Por padrão, todos os usuários da organização recebem a atribuição dessa política de mensagens. Você pode fazer alterações nessa política ou criar uma ou mais políticas personalizadas e atribuir usuários a elas. Quando cria uma política personalizada, você pode permitir ou impedir que certos recursos fiquem disponíveis para seus usuários e atribuí-la a um ou mais usuários que precisarão que essas configurações sejam aplicadas a eles. 
 
 ## <a name="change-or-create-a-messaging-policy"></a>Alterar ou criar uma política de mensagens
 
-Você pode gerenciar facilmente as políticas de mensagens no centro de administração dohttp://admin.teams.microsoft.com) Microsoft Teams (entrando com credenciais de administrador e escolhendo **políticas de mensagens** no painel de navegação à esquerda. Para editar a política de mensagens padrão existente para sua organização, selecione a linha **global (padrão para toda** a organização) e faça as alterações. Para criar uma nova política de mensagens personalizada, selecione **nova política**, forneça um nome para a nova política e selecione as configurações. Escolha **salvar** quando terminar.
+Você pode gerenciar facilmente as políticas de mensagens no centro de administração do Microsoft Teams (http://admin.teams.microsoft.com) entrando com credenciais de administrador e escolhendo **Políticas de mensagens** no painel de navegação esquerdo. Para editar a política de mensagens padrão existente para sua organização, escolha a linha **Global (padrão em toda a organização)** e faça as alterações. Para criar uma nova política de mensagens personalizada, escolha **Nova política**, dê um nome à nova política e escolha as configurações. Escolha **Salvar** quando terminar.
 
-Por exemplo, digamos que você queira garantir que as mensagens enviadas não sejam excluídas ou alteradas. Você criaria uma nova política personalizada chamada "reter mensagens enviadas" e desativar as seguintes configurações:
+Por exemplo, digamos que você queira garantir que as mensagens enviadas não sejam excluídas ou alteradas. Você criaria uma nova política personalizada chamada "Reter mensagens enviadas" e desativaria as seguintes configurações:
 
-- Os proprietários podem excluir mensagens enviadas
-- Os usuários podem excluir mensagens enviadas
-- Os usuários podem editar mensagens enviadas
+- Os proprietários podem excluir as mensagens enviadas
+- Os usuários podem excluir as mensagens enviadas
+- Os usuários podem editar as mensagens enviadas
 
 Em seguida, atribua a política aos usuários.
 
 > [!NOTE] 
-> Um usuário só pode receber uma política de mensagens de cada vez.
+> Um usuário só pode ter uma política de mensagem atribuída por vez.
  
-## <a name="assign-a-messaging-policy-to-a-user"></a>Atribuir uma política de mensagens a um usuário
+## <a name="assign-a-messaging-policy-to-a-user"></a>Atribuir uma política mensagens a um usuário
 
-Se você criar uma política de mensagens personalizada, ela estará ativa somente para um usuário se a política for atribuída ao usuário. Para atribuir uma política personalizada a um usuário, vá para o centro de administração do Microsoft Teams, escolha **usuários** no painel de navegação à esquerda e selecione o usuário ao qual você deseja atribuir a política. Na página do usuário, escolha **Editar** ao lado de **políticas atribuídas**. Em seguida, no painel **Editar políticas do usuário** , em **política de mensagens**, selecione a política de mensagens na lista suspensa e selecione **salvar**. Você também pode editar as configurações da lista de usuários. Para fazer isso, selecione o usuário clicando à esquerda do nome para exibição do usuário. Selecione **Editar configurações**. Em seguida, no painel **Editar configurações** , em **política de mensagens**, selecione a política na lista suspensa e, em seguida, selecione **salvar**.
+Se você criar uma política de mensagens personalizada, ela só estará ativa para um usuário se a política estiver atribuída a ele. Para atribuir uma política personalizada a um usuário, vá para o centro de administração do Microsoft Teams, escolha **Usuários** no painel de navegação à esquerda e escolha o usuário ao qual você deseja atribuir a política. Na página do usuário, escolha **Editar** ao lado de **Políticas atribuídas**. Em seguida, no painel **Editar políticas de usuário**, em **Política de mensagens**, escolha a política de mensagens na lista suspensa e marque **Salvar**. Você também pode editar as configurações na lista de usuários. Para fazer isso, escolha o usuário clicando à esquerda do nome de exibição do usuário. Escolha **Editar configurações**. Em seguida, no painel **Editar configurações**, em **Política de mensagens**, escolha a política na lista suspensa e marque **Salvar**.
 
-Se você estiver aplicando uma política a mais de um usuário, selecione cada um dos usuários clicando à esquerda do nome do usuário e selecione **Editar configurações**. No painel **Editar configurações** , em **política de mensagens**, selecione a política na lista suspensa e, em seguida, selecione **salvar**.
+Se você estiver aplicando uma política a mais de um usuário, escolha cada um deles clicando à esquerda do nome do usuário e, em seguida, escolha **Editar configurações**. No painel **Editar configurações**, em **Política de mensagens**, escolha a política na lista suspensa e marque **Salvar**.
 
 Você também pode atribuir uma política de mensagens a um ou mais usuários da seguinte maneira:
 
-1. Vá para > **políticas de mensagens** **do centro de administração do Microsoft Teams**.
-2. Selecione a política clicando à esquerda do nome da política.
-3. Selecione **gerenciar usuários**.
-4. No painel **gerenciar usuários** , procure pelo usuário por nome para exibição ou por nome de usuário, selecione o nome e, em seguida, selecione **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
-5. Quando terminar de adicionar usuários, selecione **salvar**.
+1. Vá para **Centro de administração do Microsoft Teams** > **Políticas de mensagens**.
+2. Escolha a política clicando à esquerda do nome da política.
+3. Escolha **Gerenciar usuários**.
+4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
+5. Quando terminar de adicionar os usuários, escolha **Salvar**.
 
 > [!NOTE]
-> Você não pode excluir uma política se os usuários estiverem atribuídos a ela. Você deve primeiro atribuir uma política diferente para todos os usuários afetados e, em seguida, pode excluir a política original.
+> Você não pode excluir uma política se usuários estiverem atribuídos a ela. Primeiro, você deve atribuir uma política diferente a todos os usuários afetados. em seguida, é possível excluir a política original.
 
 <!--- End zone marker here--->
 
@@ -69,33 +69,33 @@ Você também pode atribuir uma política de mensagens a um ou mais usuários da
 
 Use as configurações a seguir para alterar a política de mensagens globais ou criar uma nova política personalizada:
 
-- Os **proprietários podem excluir mensagens enviadas**  Use esta configuração para permitir que os proprietários excluam mensagens que os usuários enviaram no chat.
-- **Os usuários podem excluir mensagens enviadas** Use essa configuração para permitir que os usuários excluam mensagens enviadas por chat.
-- **Os usuários podem editar mensagens enviadas** Use esta configuração para permitir que os usuários editem as mensagens que enviaram no chat.
-- Confirmações de **leitura** Confirmações de leitura permitem que o remetente de uma mensagem de chat seja notificado quando a mensagem foi lida pelo destinatário no 1:1 e chats em grupo 20 pessoas ou menos. As confirmações de leitura de mensagens são removidas indeterminadamente sobre se uma mensagem foi lida e para melhorar a comunicação da equipe.  
-    - **Controlado pelo usuário** Isso significa que os usuários podem decidir se desejam ativar ou desativar as confirmações de leitura. A configuração padrão dentro do aplicativo está ATIVAda. Os usuários podem então desativá-lo. 
-    - **Ativado para todos** Isso significa que todos no locatário terão o recurso ativado sem opção para desativá-lo. Lembre-se de que, ao usar a configuração **ativado para todos** , a única maneira de definir confirmações para o locatário inteiro é ter apenas uma política de mensagens para todo o locatário (a política padrão nomeada "global (padrão para toda a organização)") ou para ter todas as políticas de mensagens o locatário usa as mesmas configurações para recibos. O recurso confirmações de leitura é mais eficaz quando o recurso está habilitado para **ativado para todos**.
-    - **Desativado para todos** Isso significa que o recurso está desativado e ninguém no locatário tem recibos de leitura nem pode ativá-lo. 
+- **Os proprietários podem excluir as mensagens enviadas**  Use essa configuração para permitir que os proprietários excluam mensagens que os usuários enviaram por chat.
+- **Os usuários podem excluir as mensagens enviadas** Use essa configuração para permitir que os usuários excluam mensagens que eles enviaram por chat.
+- **Os usuários podem editar as mensagens enviadas** Use essa configuração para permitir que os usuários editem mensagens que eles enviaram por chat.
+- **Confirmações de leitura** Os recibos de leitura permitem que o remetente de uma mensagem de chat seja notificado quando a mensagem foi lida pelo destinatário em chats individuais e em grupo de 20 pessoas ou menos. Os recibos de leitura de mensagens realizam a remoção sem ter a certeza se uma mensagem foi lida e melhoram a comunicação da equipe.  
+    - **Controlado pelo usuário** Isso significa que os usuários decidem se desejam ATIVAR ou DESATIVAR os recibos de leitura. A configuração padrão dentro do aplicativo está ATIVA. Os usuários podem DESATIVÁ-LA. 
+    - **Ativado para todos** Isso significa que todos os locatários terão o recurso ATIVADO, sem opção para desativá-lo. Lembre-se de que, ao usar a configuração **Ativado para todos**, a única maneira de definir recibos para todos os locatários é ter apenas uma política de mensagens para todos os locatários (a política padrão denominada "Global - para toda a organização padrão") ou fazer com que todas as políticas de mensagens no locatário usem as mesmas configurações para recibos. O recurso de confirmações de leitura é mais eficaz quando o recurso está habilitado como **Ativado para todos**.
+    - **Desativado para todos** Isso significa que o recurso está desabilitado e ninguém no locatário tem confirmações de leitura, nem pode habilitá-lo. 
 <a name="bkchat"> </a>
 
-- **Chat**  Ative essa configuração se quiser que os usuários em sua organização possam usar o aplicativo Teams para conversar com outras pessoas.
-- **Usar o Giphys em conversas**  Se você ativar esta opção, os usuários poderão incluir o Giphys em conversas de chat com outras pessoas. O Giphy é um banco de dados online e um mecanismo de pesquisa que permite aos usuários procurar e compartilhar arquivos GIF animados. Cada Giphy é atribuído a uma classificação de conteúdo.
-- **Classificação de conteúdo do Giphy** 
-    - **Sem restrição** Isso significa que os usuários poderão inserir qualquer Giphy em chats, independentemente da classificação de conteúdo.
-    - **Moderado**  Isso significa que os usuários poderão inserir Giphys em chats, mas serão moderadamente restritos ao conteúdo somente para adultos.
-    - **Estrito**  Isso significa que os usuários poderão inserir Giphys em chats, mas serão estritamente restritos ao conteúdo somente para adultos.
-- **Usar o memes em conversas** Se você ativar esta opção, os usuários poderão incluir o memes em conversas de chat com outras pessoas. 
-- **Usar adesivos nas conversas** Se você ativar esta opção, os usuários poderão incluir adesivos em conversas de chat com outras pessoas.
-- **Permitir visualizações de URL** Use essa configuração para ativar ou desativar a visualização automática de URL nas mensagens.
-- **Permitir que os usuários traduzam mensagens** Ative essa configuração para permitir que os usuários traduzam mensagens de equipe automaticamente para o idioma especificado pelas configurações de idioma pessoal do Office 365.
-- **Permitir leitura avançada para exibição de mensagens** Ative essa configuração para permitir que os usuários exibam mensagens na leitura avançada da Microsoft. Leitura avançada é uma ferramenta de aprendizagem que oferece uma experiência de leitura de tela inteira para aumentar a legibilidade do texto.
-- **Os usuários podem enviar notificações de <a name="urgent-message">prioridade</a> ** Se você ativar isso, os usuários poderão enviar uma mensagem que usa notificações de prioridade. As notificações de prioridade notificam os usuários a cada 2 minutos por um período de 20 minutos ou até que as mensagens sejam retiradas e lidas pelo destinatário, maximizando a probabilidade de que a mensagem seja retirada e que ela seja cumprida de forma oportuna.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
-- **Criação de mensagem de voz** 
-    - **Permitido em chats e canais** Isso significa que os usuários podem deixar mensagens de voz em chats e canais.
-    - **Permitido somente em chats** Isso significa que os usuários podem deixar mensagens de voz em chats, mas não em canais.
-    - **Desativado** Isso significa que os usuários não podem criar mensagens de voz em chats ou canais.  
-- **Em dispositivos móveis, exiba os canais favoritos acima dos chats recentes** Habilite essa configuração para mover os canais favoritos para a parte superior da tela do dispositivo móvel para que um usuário não precise rolar para localizá-los. 
-- **Permitir que um usuário remova usuários de um chat em grupo** Ative essa configuração para permitir que um usuário remova outros usuários de um chat em grupo. Esse recurso permite que você continue um chat com um grupo menor de pessoas sem perder o histórico de chats.
+- **Chat**  Habilite essa configuração se quiser que os usuários da organização possam usar o aplicativo do Teams para conversar com outras pessoas.
+- **Usar Giphys em conversas**  Se você habilitar essa opção, os usuários poderão incluir Giphys em conversas de chat com outras pessoas. O Giphy é um mecanismo de pesquisa e banco de dados online que permite aos usuários pesquisar e compartilhar arquivos GIF animados. Cada Giphy recebe uma classificação de conteúdo.
+- **Classificação de conteúdo Giphy** 
+    - **Sem restrições** Isso significa que os usuários poderão inserir qualquer Giphy em chats independentemente da classificação de conteúdo.
+    - **Moderado**  Isso significa que seus usuários poderão inserir Giphys em chats, mas o conteúdo adulto será moderadamente restringido.
+    - **Estrito**  Isso significa que seus usuários poderão inserir Giphys em chats, mas o conteúdo adulto será estritamente restringido.
+- **Usar memes em conversas** Se você habilitar essa opção, os usuários poderão incluir Memes em conversas de chat com outras pessoas. 
+- **Usar Figurinhas em conversas** Se você habilitar essa opção, os usuários poderão incluir Figurinhas em conversas de chat com outras pessoas.
+- **Permitir visualizações de URLs** Use essa configuração para ativar ou desativar a visualização automática de URLs nas mensagens.
+- **Permitir que os usuários traduzam mensagens** Ative essa configuração para permitir que os usuários traduzam automaticamente as mensagens do Teams para o idioma especificado pelas configurações de idioma pessoal do Office 365.
+- **Permitir leitura avançada na exibição de mensagens** Ative essa configuração para permitir que os usuários exibam mensagens na Leitura Avançada da Microsoft. A Leitura Avançada é uma ferramenta de aprendizagem que fornece uma experiência de leitura em tela inteira para aumentar a legibilidade do texto.
+- **Os usuários podem enviar <a name="urgent-message">notificações</a> de prioridade** Se o recurso for ativado, os usuários podem enviar uma mensagem que usa notificações de prioridade. As notificações de prioridade notificam os usuários a cada dois minutos por um período de 20 minutos ou até que as mensagens sejam captadas e lidas pelo destinatário maximizando a probabilidade de que a mensagem seja captada e atendida em tempo hábil.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
+- **Criação de mensagens de voz** 
+    - **Permitido em chats e canais** Isso significa que os usuários podem sair de mensagens de voz em chats e canais.
+    - **Permitido em chats apenas** Isso significa que os usuários podem sair de mensagens de voz em chats, mas não em canais.
+    - **Desativado** Isso significa que os usuários não podem criar mensagens de voz em chats nem em canais.  
+- **Em dispositivos móveis, exibir canais favoritos acima dos chats recentes** Habilite essa configuração para mover canais favoritos para a parte superior da tela de um dispositivo móvel de modo que o usuário não precise rolar para encontrá-los. 
+- **Permitir que um usuário remova usuários de um chat em grupo** Habilite essa configuração para permitir que um usuário remova outros usuários de um chat em grupo. Esse recurso permite que você continue um chat com um grupo menor de pessoas sem perder o histórico do chat.
 
 ### <a name="related-topics"></a>Tópicos relacionados
 [Políticas de reunião no Teams](meeting-policies-in-teams.md)
