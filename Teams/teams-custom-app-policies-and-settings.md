@@ -21,16 +21,14 @@ f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.allowsideloading
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
-ms.openlocfilehash: cd2f28df6b5b831d260f3d0070250249dfc90f6e
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 90733b43ddb1d94d8c0f763ac048384816681f46
+ms.sourcegitcommit: 472825b0f4db1542a5b855d637aa90b4bcd797bc
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483578"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "36993972"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Gerencie políticas e configurações de aplicativo personalizado no Microsoft Teams
-
->[!INCLUDE [new-feature-coming-soon-article](includes/new-feature-coming-soon-article.md)]
 
 > [!NOTE]
 > Para usar o app Studio [, consulte Introdução à plataforma Microsoft Teams com C#/.net e app Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-dotnet-app-studio) a última etapa ainda não está funcionando, portanto, será necessário baixar o zip e instalá-lo da maneira antiga de [carregar um pacote do aplicativo para o Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload).
@@ -72,7 +70,7 @@ Você pode editar as configurações na política de configuração do aplicativ
 
 #### <a name="set-a-user-custom-app-policy"></a>Definir uma política de aplicativo personalizada do usuário
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para**políticas de configuração**de **aplicativos** > do teams.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para > **políticas de configuração**de **aplicativos do teams**.
 2. Clique em **Adicionar**.
 3. Ative ou desative a opção **permitir upload de aplicativos personalizados**.
 4. Escolha qualquer outra configuração que você queira para a política.
@@ -106,11 +104,11 @@ A configuração de aplicativo personalizada em toda a organização, **permitir
 
 #### <a name="configure-the-org-wide-custom-app-setting"></a>Configurar a configuração de aplicativo personalizado em toda a organização
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para**políticas de permissão**de **aplicativos** > do teams.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para > **políticas de permissão**de **aplicativos do teams**.
 2. Clique em **configurações de aplicativo de toda a organização**.
 3. Em **aplicativos personalizados**, ative ou desative **a interação de permissão com aplicativos personalizados**.
 
-    ![Captura de tela mostrando as configurações personalizadas do aplicativo em toda a organização](media/teams-custom-app-policy-and-settings-org-wide.png)
+    ![Captura de tela mostrando as configurações personalizadas do aplicativo de toda a organização](media/teams-custom-app-policy-and-settings-org-wide.png)
 
 ## <a name="how-custom-app-policies-and-settings-work-together"></a>Como as configurações e políticas personalizadas do aplicativo funcionam em conjunto
 
