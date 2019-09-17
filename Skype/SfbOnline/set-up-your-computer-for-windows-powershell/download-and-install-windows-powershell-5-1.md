@@ -1,5 +1,5 @@
 ---
-title: Baixar e instalar o Windows PowerShell 5,1
+title: Baixar e instalar o Windows PowerShell 5.1
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -18,21 +18,21 @@ f1keywords: None
 ms.custom:
 - PowerShell
 - LIL_Placement
-description: Baixe, instale e use o Windows PowerShell 5,1 para criar uma sessão remota do PowerShell que se conecta ao Skype for Business online.
+description: Baixar, instalar e usar o Windows PowerShell 5.1 para criar uma sessão remota do PowerShell que se conecta ao Skype for Business online.
 ms.openlocfilehash: 5afca0ef1fd5d7437c3974de1424a664c99ab1a1
 ms.sourcegitcommit: 9c54fd0a51ece8624155dc543d5df922834aa51e
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 07/16/2019
 ms.locfileid: "35701547"
 ---
-# <a name="download-and-install-windows-powershell-51"></a>Baixar e instalar o Windows PowerShell 5,1
+# <a name="download-and-install-windows-powershell-51"></a>Baixar e instalar o Windows PowerShell 5.1
 
-Se estiver usando a atualização de aniversário do Windows 10 ou o Windows Server 2016, você já deve ter o Windows PowerShell 5,1. Isso porque este aplicativo vem pré-instalado com esses sistemas operacionais.
+Caso esteja usando a Atualização de Aniversário do Windows 10 ou o Windows Server 2016, você já deve ter o Windows PowerShell 5.1. Esse aplicativo vem pré-instalado com esses sistemas operacionais.
   
-Para determinar qual versão do Microsoft PowerShell você está usando, faça o seguinte no seu computador com Windows 7 ou Windows Server 2008 R2 ou Windows Server 2012:
+Para determinar a versão do Microsoft PowerShell em uso, faça o seguinte em seu computador com o Windows 7, o Windows Server 2008 R2 ou o Windows Server 2012:
   
-1. Clique em **Iniciar**, **em todos os programas**, em **acessórios**, em **Windows PowerShell**e, em seguida, clique em **Windows PowerShell**.
+1. Clique em **Iniciar**, em **Todos os programas**, em **Acessórios**, em **Windows PowerShell** e em **Windows PowerShell**.
     
 2. No console do PowerShell, digite o seguinte comando e pressione ENTER:
     
@@ -40,7 +40,7 @@ Para determinar qual versão do Microsoft PowerShell você está usando, faça o
    Get-Host | Select-Object Version
    ```
 
-3. Informações semelhantes às seguintes devem ser exibidas na janela do console:
+3. Informações semelhantes às seguintes devem então ser exibidas na janela do console:
     
     <pre>
     Version <BR>
@@ -48,30 +48,30 @@ Para determinar qual versão do Microsoft PowerShell você está usando, faça o
     4.0
     </pre>
 
-    Se o número de versão retornado for 5,1, então você está executando o Windows PowerShell 5,1. Se o número de versão retornado não for 5,1, você precisará instalar o Windows PowerShell 5,1. Você pode baixar o Windows Management Framework 5,1, que inclui o Windows PowerShell 5,1, a partir do [centro de download da Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=54616).
+    Se o número de versão retornado for 5.1, o Windows PowerShell 5.1 está em execução. Se o número de versão retornado não for 5.1, será necessário instalar o Windows PowerShell 5.1. Você pode baixar o Windows Management Framework 5.1, que inclui o Windows PowerShell 5.1, no [Centro de Download da Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=54616).
   
-Depois de verificar se o Windows PowerShell 5,1 está instalado, você deve certificar-se de que o PowerShell foi configurado para executar scripts remotos. Para fazer isso, inicie o PowerShell como administrador. No Windows 7, Windows Server 2008 R2, Windows Server 2012 ou Windows Server 2012 R2 faça o seguinte:
+Depois de verificar se o Windows PowerShell 5.1 está instalado, verifique se o PowerShell foi configurado para executar scripts remotos. Para isso, inicie o Windows PowerShell como um administrador. No Windows 7, Windows Server 2008 R2, Windows Server 2012 ou no Windows Server 2012 R2, faça o seguinte:
   
-1. Clique em **Iniciar**, em **todos os programas**, em **acessórios**, em **Windows PowerShell**, clique com o botão direito do mouse em **Windows PowerShell**e, em seguida, clique em **Executar como administrador**.
+1. Clique em **Iniciar**, em **Todos os Programas**, em **Acessórios**, em **Windows PowerShell**, clique com o botão direito do mouse em **Windows PowerShell** e depois clique em **Executar como administrador**.
     
-2. Se a caixa de diálogo **controle de conta de usuário** for exibida, clique em **Sim** para verificar se você deseja executar o PowerShell em credenciais de administrador.
+2. Se a caixa de diálogo **Controle da Conta de Usuário** for exibida, clique em **Sim** para verificar se você deseja executar o Windows PowerShell sob as credenciais de administrador.
     
-Se você estiver executando o Windows 8, siga este procedimento em vez disso:
+Se você estiver executando o Windows 8, conclua este procedimento:
   
-1. Acesse a barra de botões, clique em **Pesquisar**e, em seguida, clique com o botão direito do mouse no **Windows PowerShell**. Você pode acessar rapidamente a barra de botões em qualquer computador com o Windows 8 (tela sensível ao toque ou tela não sensível ao toque), mantendo pressionada a tecla Windows e pressionando C.
+1. Acesse a barra de Botões, clique em **Pesquisar** e, em seguida, clique com o botão direito do mouse em **Windows PowerShell**. Você pode acessar rapidamente a barra Botões em qualquer computador com o Windows 8 (tela sensível ao toque ou não) ao manter a tecla do Windows pressionada e pressionando C.
     
 2. Na barra de ferramentas na parte inferior da tela, clique em **Executar como administrador**.
     
-3. Se a caixa de diálogo **controle de conta de usuário** for exibida, clique em **Sim** para verificar se você deseja executar o PowerShell em credenciais de administrador.
+3. Se a caixa de diálogo **Controle da Conta de Usuário** for exibida, clique em **Sim** para verificar se você deseja executar o Windows PowerShell sob as credenciais de administrador.
     
-Após a execução do PowerShell, você deve alterar a política de execução para permitir a execução de scripts remotos. No console do PowerShell, digite o seguinte comando e pressione ENTER:
+Depois que o PowerShell estiver em execução, você deverá alterar a política de execução para permitir a execução de scripts remotos. No console do PowerShell, digite o seguinte comando e pressione ENTER:
 ```
 Set-ExecutionPolicy RemoteSigned -Force
 ```
    
  
 > [!NOTE]
-> Ao executar o comando anterior, você pode receber a seguinte mensagem de erro: > *set\\-ExecutionPolicy: acesso ao key'HKEY_LOCAL_MACHINE do registro do\\software\\Microsoft\\PowerShell\\1 ShellIds\\Micrsoft. PowerShell ' negado.* Essa mensagem de erro geralmente ocorre se você não estiver executando o PowerShell em credenciais de administrador. Feche a sessão do PowerShell e inicie uma nova sessão como administrador.
+> Ao executar o comando anterior, você pode receber a seguinte mensagem de erro:> *Set-ExecutionPolicy: o acesso à chave do registro'HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\PowerShell\\1\\ShellIds\\Micrsoft.PowerShell' foi negado.* Esta mensagem de erro normalmente ocorrerá se você não estiver executado o PowerShell sob credenciais de administrador. Feche sua sessão do PowerShell e inicie uma nova sessão como um administrador.
  
 Para verificar se a política de execução foi configurada corretamente, digite o seguinte no prompt do PowerShell e pressione ENTER:
   
@@ -79,29 +79,29 @@ Para verificar se a política de execução foi configurada corretamente, digite
 Get-ExecutionPolicy
 ```
 
-Se você receber o seguinte valor, então tudo foi configurado corretamente:
+Se você obtiver o valor a seguir, tudo estará configurado corretamente:
   
 `RemoteSigned`
 
-Se você não estiver atualmente executando o Windows PowerShell 5,1, também precisará baixar e instalar o Windows Management Framework 5,1 do centro de download da Microsoft. Este é um pacote de instalação que inclui o Windows PowerShell 5,1 e o gerenciamento remoto do Windows (WinRM) 3,0. Este pacote de instalação pode ser necessário se você, por exemplo, estiver executando o Windows 7 SP1 e ainda não tiver sido atualizado para o Windows PowerShell 5,1. Se você estiver executando o Windows Server 2016 ou a atualização de aniversário do Windows 10, não será necessário instalar o Windows PowerShell 5,1. O Windows PowerShell 5,1 vem pré-instalado nesses sistemas operacionais.
+Se o Windows PowerShell 5.1 não estiver em execução no momento, você também precisará baixar e instalar o Windows Management Framework 5.1 no Centro de Download da Microsoft. Este é um pacote de instalação que inclui o Windows PowerShell 5.1 e o Gerenciamento Remoto do Windows (WinRM) 3.0. Este pacote de instalação pode ser necessário caso você esteja executando, por exemplo, o Windows 7 SP1 e ainda não tenha atualizado para o Windows PowerShell 5.1. Se você estiver executando o Windows Server 2016 ou a Atualização de Aniversário do Windows 10, não deve ser necessário instalar o Windows PowerShell 5.1. O Windows PowerShell 5.1 vem pré-instalado nestes sistemas operacionais.
   
-Antes de instalar o Windows Management Framework 5,1:
+Antes de instalar o Windows Management Framework 5.1:
   
-- Verifique se você fez o download da versão correta do pacote de instalação. Se você estiver executando a versão de 64 bits do Windows 7 SP1, baixe o arquivo Win7AndW2K8R2-KB3191566-x64. ZIP. Se você estiver executando a versão de 32 bits do Windows 7, baixe o arquivo Win7-KB3191566-x86. ZIP.
+- Verifique se baixou a versão correta do pacote de instalação. Se você estiver executando a versão de 64 bits do Windows 7 SP1, baixe o arquivo Win7AndW2K8R2-KB3191566-x64.ZIP. Se você estiver executando a versão de 32 bits do Windows 7, baixe o arquivo Win7-KB3191566-x86.ZIP.
     
 - Se você estiver executando o Windows 7 em seu computador, verifique se instalou o Windows 7 Service Pack 1.
 
-Se não tiver certeza de qual versão do Windows você está executando ou se não tiver certeza de que instalou o Windows 7 Service Pack 1, clique em **Iniciar**, clique com o botão direito do mouse em **computador**e, em seguida, clique em **Propriedades**. Essas informações serão informadas na caixa de diálogo sistema.
+Se não tiver certeza sobre qual versão do Windows está em execução ou se o Windows 7 Service Pack 1 está instalado, clique em **Iniciar**, clique com o botão direito do mouse em **Computador** e clique em **Propriedades**. Essas informações são relatadas na caixa de diálogo Sistema.
   
-Para instalar o Windows Management Framework 5,1, conclua o procedimento em [instalar e configurar o WMF 5,1](https://docs.microsoft.com/powershell/wmf/setup/install-configure).
+Para instalar o Windows Management Framework 5.1, conclua o procedimento em [Instalar e configurar o WMF 5.1](https://docs.microsoft.com/powershell/wmf/setup/install-configure).
   
-Após a reinicialização do computador, verifique se o Windows PowerShell pode iniciar e se o aplicativo pode ser executado em credenciais administrativas. Para fazer isto:
+Após a reinicialização do computador, verifique se é possível iniciar o Windows PowerShell e se o aplicativo pode ser executado sob credenciais administrativas. Para fazer isso:
   
-1. Clique em **Iniciar**, em **todos os programas**, em **acessórios**, clique em **Windows PowerShell**, clique com o botão direito do mouse em **Windows PowerShell** e clique em **Executar como administrador**.
+1. Clique em **Iniciar**, em **Todos os Programas**, em **Acessórios**, em **Windows PowerShell**, clique com o botão direito do mouse em **Windows PowerShell** e depois clique em **Executar como administrador**.
     
-2. Se a caixa de diálogo controle de conta de usuário for exibida, clique em **Sim** para verificar se você deseja executar o PowerShell em credenciais de administrador.
+2. Se a caixa de diálogo Controle da Conta de Usuário for exibida, clique em **Sim** para verificar se você deseja executar o Windows PowerShell sob as credenciais de administrador.
     
-Quando o console do PowerShell for exibido, verifique se o serviço WinRM está em execução e configurado corretamente. Para verificar se o serviço está em execução, digite o seguinte comando no prompt do PowerShell e pressione ENTER:
+Quando o console do PowerShell for exibido, verifique se o serviço WinRM está em execução e se foi configurado corretamente. Para verificar se o serviço está em execução, digite o comando a seguir no prompt do PowerShell e pressione ENTER:
   
 ```
 Get-Service winrm
@@ -115,19 +115,19 @@ Status   Name               DisplayName
 Running  winrm              Windows Remote Management (WS-Manag...
 </pre>
 
-Se o status do serviço não for igual a "Running", inicie o serviço WinRM digitando o seguinte comando e pressionando ENTER:
+Se o Status do serviço não for "Em execução", inicie o serviço WinRM digitando o comando a seguir e pressione ENTER:
   
 ```
 Start-Service winrm
 ```
 
-Após o início do serviço, execute o seguinte comando para ter certeza de que o WinRM está usando a autenticação básica:
+Depois que o serviço iniciar, execute o comando a seguir para garantir que o WinRM esteja usando a autenticação Básica:
   
 ```
 winrm set winrm/config/client/auth '@{Basic="True"}'
 ```
 
-Informações semelhantes às seguintes serão exibidas na tela:
+Informações semelhantes às seguintes deverão ser exibidas na tela:
   
 <pre>
 Auth
@@ -139,12 +139,12 @@ Auth
     CredSSP = false
 </pre>
 
-Se a autenticação básica tiver sido definida como true, você estará pronto para usar o PowerShell para se conectar ao Skype for Business online.
+Se a autenticação básica for definida como verdadeira, então você está pronto para usar o PowerShell para se conectar ao Skype for Business Online.
   
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    
 ## <a name="related-topics"></a>Tópicos relacionados
-[Configurar seu computador para o Windows PowerShell](set-up-your-computer-for-windows-powershell.md) 
+[Configurar o computador para o Windows PowerShell](set-up-your-computer-for-windows-powershell.md) 
 
   
  
