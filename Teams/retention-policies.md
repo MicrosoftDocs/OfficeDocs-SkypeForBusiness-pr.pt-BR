@@ -7,7 +7,7 @@ ms.date: 09/11/2018
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: anach
+ms.reviewer: prvijay
 description: Saiba como as políticas de retenção e como gerenciá-las no Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc547f30a7ff24b62e93501eba9a46a2e6e3da74
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f2f3cc0c74b85d0b243dd8fefcd6bce1f2451fae
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243592"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018807"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Políticas de retenção no Microsoft Teams
 
@@ -40,9 +40,9 @@ As políticas de retenção do teams ainda não dão suporte:
 - Políticas avançadas de retenção não se aplicam a locais de mensagens de canal de chat e equipe do teams
 - Duração de menos de 30 dias
 
-Os administradores podem configurar políticas de retenção separadas para chats privados do Teams (1:1 ou 1: muitos chats) e mensagens de canal de equipe. Em muitos casos, as organizações consideram dados de chat privados como uma obrigação mais passiva do que as mensagens de canal, que normalmente são mais conversas relacionadas ao projeto. Configure essas políticas no centro de conformidade & segurança,**retenção**de **governança** > de dados. Ative **mensagens de canal** e chats de **equipe** do Teams e, em seguida, defina as políticas de retenção para esses locais (também mostrado no diagrama abaixo). 
+Os administradores podem configurar políticas de retenção separadas para chats privados do Teams (1:1 ou 1: muitos chats) e mensagens de canal de equipe. Em muitos casos, as organizações consideram dados de chat privados como uma obrigação mais passiva do que as mensagens de canal, que normalmente são mais conversas relacionadas ao projeto. Configure essas políticas no centro de conformidade & segurança,**retenção**de **governança** > de dados. Ative mensagens de canal e **chats de equipe** do **Teams** e, em seguida, defina as políticas de retenção para esses locais (também mostrado no diagrama abaixo). 
 
-Ao ativar **as mensagens de canal**do Teams, você pode especificar as equipes às quais essa política será aplicada. Por exemplo, para Teams X, Y e Z, o administrador pode definir as políticas de exclusão para 1 ano (selecionando essas equipes individualmente) e aplicar uma política de exclusão de 3 anos ao restante das equipes. 
+Ao ativar **as mensagens de canal do teams**, você pode especificar as equipes às quais essa política será aplicada. Por exemplo, para Teams X, Y e Z, o administrador pode definir as políticas de exclusão para 1 ano (selecionando essas equipes individualmente) e aplicar uma política de exclusão de 3 anos ao restante das equipes. 
 
 Você pode fazer o mesmo para **chats de equipe** selecionando usuários específicos e aplicando políticas exclusivas de retenção. 
 

@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 09/11/2018
 ms.topic: reference
 ms.service: msteams
-ms.reviewer: anach
+ms.reviewer: prvijay
 audience: admin
 description: Perguntas frequentes sobre políticas de retenção no Microsoft Teams.
 localization_priority: Normal
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 955006d952454e31698156fa89e2a2047cff823b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a0eb556f53c617636f9169dbf0358455860c46b6
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243548"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018785"
 ---
 # <a name="microsoft-teams-retention-policies-faq"></a>Perguntas frequentes sobre diretivas de retenção do Teams 
 
@@ -59,7 +59,7 @@ Sim, os chats do Skype for Business Online e do Team Interop funcionam da mesma 
 
 ### <a name="can-i-do-these-through-security--compliance-center-cmdlets-what-should-i-use"></a>Posso fazer isso por meio de cmdlets de segurança & centro de conformidade? O que devo usar? 
 
-Totalmente. Você pode criar políticas de retenção de equipes usando cmdlets do [PowerShell do centro de conformidade do & central de segurança]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps). Lembre-se de que não são cmdlets do Exchange Online. Estes são os cmdlets que criamos para o Teams. Eles seguem Nomenclature e estilos existentes dos cmdlets de retenção disponíveis hoje em centro de conformidade & segurança.
+Totalmente. Você pode criar políticas de retenção de equipes usando [cmdlets do PowerShell do centro de conformidade do & central de segurança]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps). Lembre-se de que não são cmdlets do Exchange Online. Estes são os cmdlets que criamos para o Teams. Eles seguem Nomenclature e estilos existentes dos cmdlets de retenção disponíveis hoje em centro de conformidade & segurança.
 
 |Regras|Das|
 |---|---|

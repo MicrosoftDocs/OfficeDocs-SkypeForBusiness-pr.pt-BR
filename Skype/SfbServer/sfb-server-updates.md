@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Localize e gerencie atualizações para o Skype for Business Server 2015/2019 e o Lync 2013 em um só lugar. Use os links desta página para obter mais informações sobre atualizações e, em seguida, baixe as atualizações.
-ms.openlocfilehash: 836903d8040d9ea040309306533484f68453e375
-ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
+ms.openlocfilehash: ba23d01b4e5367d816d475a1b5daa8b852b4c23e
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "36838017"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018645"
 ---
 # <a name="skype-for-business-server-updates"></a>Atualizações do Skype for Business Server
 
@@ -48,8 +48,22 @@ Para obter as atualizações mais recentes do Skype for Business Online e do Off
 |Número do pacote|Número KB|Data do lançamento|
 |:--- |:--- |:--- |
 |Atualização cumulativa 10 do Skype for Business Server 2015 hotfix 1|[KB 3061064](https://support.microsoft.com/kb/3061064)| Agosto de 2019 |
-
-| Atualização cumulativa 10 do Skype for Business Server 2015 | [KB 3061064](https://support.microsoft.com/kb/3061064)| De julho de 2019 | | Atualização cumulativa 9 para Skype for Business Server 2015, Web Components Server | [KB 4487981](https://support.microsoft.com/kb/4487981)| Maio de 2019 | | Atualização cumulativa 8 para o Skype for Business Server 2015, servidor front-end e Edge Server | [KB 4464355](https://support.microsoft.com/kb/4464355)| Janeiro de 2019 | | Atualização cumulativa 7 para o Skype for Business Server 2015, servidor front-end e Edge Server | [KB 4340904](https://support.microsoft.com/kb/4340904) | De julho de 2018 | | Atualização cumulativa 6 hotfix 2 para o Skype for Business Server 2015, servidor front-end e Edge Server | [KB 4086059](https://support.microsoft.com/kb/4086059) | Março de 2018 | | Atualização cumulativa 6 hotfix 1 para o Skype for Business Server 2015, servidor front-end e Edge Server | [KB 4074701](https://support.microsoft.com/kb/4074701)| Janeiro de 2018 | | Atualização cumulativa 6 para o Skype for Business Server 2015, servidor front-end e Edge Server | [KB 4036312](https://support.microsoft.com/kb/4036312) | Dezembro de 2017 | | Atualização cumulativa 5 para o Skype for Business Server 2015, servidor front-end e Edge Server | [KB 4012621](https://support.microsoft.com/kb/4012621) | Maio de 2017 | | Atualização cumulativa 4 hotfix 1 para o Skype for Business Server 2015, servidor front-end e Edge Server | [KB 3207506](https://support.microsoft.com/kb/3207506) | Fevereiro de 2017 | | Atualização cumulativa 4 para o Skype for Business Server 2015, servidor front-end e Edge Server | [KB 3199093](https://support.microsoft.com/kb/3199093) | Novembro de 2017 | | Atualização cumulativa 3 para o Skype for Business Server 2015, servidor front-end e Edge Server | [KB 3149227](https://support.microsoft.com/kb/3149227) | De junho de 2016 | | Atualização cumulativa 2 para o Skype for Business Server 2015, servidor front-end e Edge Server | [KB 3134260](https://support.microsoft.com/kb/3134260) | Março de 2016 | | Atualização cumulativa 1 para o Skype for Business Server 2015, servidor front-end e Edge Server | [KB 3097645](https://support.microsoft.com/kb/3097645) | Novembro de 2015 | | Atualização cumulativa para o Skype for Business Server 2015, componentes principais | [KB 3098601](https://support.microsoft.com/kb/3098601) | Setembro de 2015 | | Atualização cumulativa para o Skype for Business Server 2015, servidor front-end e servidor de borda | [KB 3061059](https://support.microsoft.com/kb/3061059) | De junho de 2015 | | | | |
+|Atualização cumulativa 10 do Skype for Business Server 2015 |[KB 3061064](https://support.microsoft.com/kb/3061064)| De julho de 2019 |
+|Atualização cumulativa 9 para o Skype for Business Server 2015, Web Components Server|[KB 4487981](https://support.microsoft.com/kb/4487981)| Maio de 2019 |
+|Atualização cumulativa 8 para o Skype for Business Server 2015, servidor front-end e servidor de borda|[KB 4464355](https://support.microsoft.com/kb/4464355)|Janeiro de 2019|
+|Atualização cumulativa 7 para o Skype for Business Server 2015, servidor front-end e servidor de borda |[KB 4340904](https://support.microsoft.com/kb/4340904) |Julho de 2018 |
+|Atualização cumulativa 6 hotfix 2 para o Skype for Business Server 2015, servidor front-end e servidor de borda |[KB 4086059](https://support.microsoft.com/kb/4086059) |Março de 2018 |
+|Atualização cumulativa 6 hotfix 1 para o Skype for Business Server 2015, servidor front-end e servidor de borda |[KB 4074701](https://support.microsoft.com/kb/4074701)|Janeiro de 2018 |
+|Atualização cumulativa 6 para o Skype for Business Server 2015, servidor front-end e servidor de borda|[KB 4036312](https://support.microsoft.com/kb/4036312) |Dezembro de 2017 |
+|Atualização cumulativa 5 para o Skype for Business Server 2015, servidor front-end e servidor de borda  |[KB 4012621](https://support.microsoft.com/kb/4012621) |Maio de 2017 |
+|Atualização cumulativa 4 hotfix 1 para o Skype for Business Server 2015, servidor front-end e servidor de borda |[KB 3207506](https://support.microsoft.com/kb/3207506) |Fevereiro de 2017 |
+|Atualização cumulativa 4 para o Skype for Business Server 2015, servidor front-end e servidor de borda |[KB 3199093](https://support.microsoft.com/kb/3199093) |Novembro de 2017 |
+|Atualização cumulativa 3 para o Skype for Business Server 2015, servidor front-end e servidor de borda |[KB 3149227](https://support.microsoft.com/kb/3149227) |Junho de 2016 |
+|Atualização cumulativa 2 para o Skype for Business Server 2015, servidor front-end e servidor de borda |[KB 3134260](https://support.microsoft.com/kb/3134260) |Março de 2016 |
+|Atualização cumulativa 1 para o Skype for Business Server 2015, servidor front-end e servidor de borda |[KB 3097645](https://support.microsoft.com/kb/3097645) |Novembro de 2015 |
+|Atualização cumulativa do Skype for Business Server 2015, Componentes principais |[KB 3098601](https://support.microsoft.com/kb/3098601) |Setembro de 2015 |
+|Atualização cumulativa do Skype for Business Server 2015, Servidor do Front End e Servidor de Borda|[KB 3061059](https://support.microsoft.com/kb/3061059) |Junho de 2015 |
+||||
 
 ### <a name="skype-for-business-server-2015-tools"></a>Ferramentas do Skype for Business Server 2015
 

@@ -16,12 +16,12 @@ f1keywords: ms.teamsadmincenter.directrouting.overview
 description: Página de aterrissagem para roteamento direto
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 965fb26aee3d83550740e2ae7f855559fd9cdb79
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 7ded644f552c233b712f43de212f2269ee6e70b2
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36484054"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018796"
 ---
 # <a name="phone-system-direct-routing"></a>Roteamento Direto do Sistema Telefônico
 
@@ -75,13 +75,13 @@ Você precisará configurar o sistema de telefonia para direcionar as chamadas p
 | Quais usuários serão atribuídos à política de roteamento de voz que eu defino? | Consulte os exemplos em [Configurar roteamento de voz](direct-routing-configure.md#configure-voice-routing). |
 |||
 
-### <a name="calling-and-interop-policies"></a>Políticas de chamadas e de interoperabilidade
+### <a name="ensure-incoming-calls-land-in-the-teams-client-using-teamsupgradepolicy"></a>Garanta chamadas de entrada no cliente das equipes usando o TeamsUpgradePolicy
 
-O roteamento direto só tem suporte no Microsoft Teams. Para fazer ou receber chamadas PSTN por meio do direcionamento direto, você precisa configurar as políticas necessárias para garantir que as chamadas recebidas sejam recebidas no Microsoft Teams. Você pode configurar os usuários para definir o Microsoft Teams como cliente preferencial para chamadas Configurando o usuário para o modo somente Teams ou configurando as equipes como o cliente de chamada preferencial, atribuindo o TeamsCallingPolicy e o TeamsInteropPolicy.
+O roteamento direto só tem suporte no Microsoft Teams. Para receber chamadas PSTN por meio do direcionamento direto, você precisa configurar o TeamsUpgradePolicy para garantir que as chamadas recebidas sejam recebidas no Microsoft Teams. Os usuários devem estar no modo somente Teams, que você pode fazer atribuindo a eles a instância "UpgradeToTeams" do TeamsUpgradePolicy. 
 
 |Pergunte-se|Ação |
 |:------------|:-------|
-|Como definir o Microsoft Teams como o cliente preferencial para chamadas? | Para obter mais informações, consulte [Configurar o Microsoft Teams como o cliente de chamadas preferencial para usuários](direct-routing-configure.md#set-microsoft-teams-as-the-preferred-calling-client-for-users).|
+|O que significa o modo somente Teams? | Para obter mais informações, consulte [orientação de migração e interoperabilidade para organizações que usam o Skype for Business em equipe](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype).|
 |||
 
 ## <a name="additional-deployment-considerations"></a>Considerações adicionais sobre a implantação

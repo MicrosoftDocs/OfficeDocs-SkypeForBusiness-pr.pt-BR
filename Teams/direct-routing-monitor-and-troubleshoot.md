@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Este artigo descreve como monitorar e solucionar problemas de configuração de roteamento direto.
-ms.openlocfilehash: d20a409c7a5e902149ff20e72dde90850f0f5d12
-ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
+ms.openlocfilehash: e236a5cecb190d10082e06de24655bd722a410e5
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "35768152"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018818"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Monitorar e solucionar problemas do Roteamento Direto
 
@@ -32,7 +32,7 @@ A capacidade de fazer e receber chamadas usando o roteamento direto envolve os s
 - Componentes de roteamento direto no Microsoft Cloud 
 - Troncos de telecomunicações 
 
-Se você tiver dificuldades para solucionar problemas, abra um caso de suporte com o fornecedor do SBC ou a Microsoft. 
+Se tiver dificuldades para solucionar problemas, você pode abrir um caso de suporte com o fornecedor do SBC ou a Microsoft. 
 
 A Microsoft está trabalhando para fornecer mais ferramentas para solução de problemas e monitoramento. Verifique a documentação em busca de atualizações periodicamente. 
 
@@ -52,23 +52,23 @@ Um SBC é considerado Íntegro se as estatísticas no momento de enviar a chamad
 
 Quando uma chamada é feita, a seguinte lógica se aplica:
 
-- O SBC foi emparelhado em 11, 0 AM.  
-- O SBC envia opções em 11, 1 AM, 11, 2 AM e assim por diante.  
-- Em 11,15, um usuário faz uma chamada e o mecanismo de roteamento seleciona esse SBC. 
+- O SBC foi emparelhado em 11:00 AM.  
+- O SBC envia opções em 11:01 AM, 11:02 AM e assim por diante.  
+- Em 11:15, um usuário faz uma chamada e o mecanismo de roteamento seleciona esse SBC. 
 
 O roteamento direto usa as opções de intervalo regular três vezes (o intervalo regular é um minuto). Se as opções forem enviadas durante os últimos três minutos, o SBC será considerado íntegro.
 
-Se o SBC no exemplo enviou opções em qualquer período entre 11,12 AM e 11,15 AM (o tempo em que a chamada foi feita), ele é considerado íntegro. Caso contrário, o SBC será rebaixado da rota. 
+Se o SBC no exemplo enviou opções em qualquer período entre 11:12 AM e 11:15 AM (o tempo em que a chamada foi feita), ele é considerado íntegro. Caso contrário, o SBC será rebaixado da rota. 
 
 O rebaixamento significa que o SBC não será tentado primeiro. Por exemplo, temos sbc1.contoso.com e sbc2.contoso.com com prioridade igual.  
 
-Se o sbc1.contoso.com não enviar opções de SIP em um intervalo regular, conforme descrito acima, ele será rebaixado. Em seguida, sbc2.contoso.com tenta fazer a chamada. Se sbc2. contoso. con não puder enviar a chamada, o sbc1.contoso.com (rebaixado) será tentado novamente antes de uma falha ser gerada. 
+Se o sbc1.contoso.com não enviar opções de SIP em um intervalo regular conforme descrito anteriormente, ele será rebaixado. Em seguida, sbc2.contoso.com tenta fazer a chamada. Se sbc2. contoso. con não puder enviar a chamada, o sbc1.contoso.com (rebaixado) será tentado novamente antes de uma falha ser gerada. 
 
-Se dois (ou mais) SBCs em uma rota concidered Healthy e Equals, a ordem aleatória Yates aplicada para distrubute as chamadas entre o SBCs.
+Se dois (ou mais) SBCs em uma rota forem considerados saudáveis e iguais, a ordem aleatória Yates será aplicada para distribuir as chamadas entre o SBCs.
 
 ## <a name="monitor-call-quality-analytics-dashboard-and-sbc-logs"></a>Monitorar o painel de análise de qualidade de chamada e os logs SBC 
  
-Em alguns casos, especialmente durante o emparelhamento inicial, podem haver problemas relacionados à configuração incorreta do SBCs e/ou do serviço de roteamento direto. 
+Em alguns casos, especialmente durante o emparelhamento inicial, pode haver problemas relacionados à configuração incorreta do SBCs ou do serviço de roteamento direto. 
 
 Você pode usar as seguintes ferramentas para monitorar a configuração:  
  
@@ -83,4 +83,4 @@ Em caso de falhas de chamadas, o recurso de análise de chamadas fornece código
 
 ![Exemplo de código SIP para falha na chamada](media/failed-response-code.png)
 
-No entanto, a análise de chamadas só pode ajudar quando chamadas chegam aos componentes internos de roteamento direto e falham. Em caso de problemas com emparelhamento de SBC ou problemas nos quais o SIP "INVITE" foi recusado (por exemplo, o nome do FQDN do tronco está configurado incorretamente), a análise de chamadas não ajuda. Nesse caso, confira os logs SBC. O roteamento direto envia uma descrição detalhada de problemas para o SBCs; esses problemas podem ser lidos nos logs SBC. 
+No entanto, a análise de chamadas só pode ajudar quando chamadas chegam aos componentes internos de roteamento direto e falham. Em caso de problemas com emparelhamento de SBC ou problemas nos quais o SIP "INVITE" foi recusado (por exemplo, o nome do FQDN do tronco está configurado incorretamente), a análise de chamadas não ajuda. Nesse caso, consulte os logs do SBC. O roteamento direto envia uma descrição detalhada de problemas para o SBCs; esses problemas podem ser lidos nos logs SBC. 

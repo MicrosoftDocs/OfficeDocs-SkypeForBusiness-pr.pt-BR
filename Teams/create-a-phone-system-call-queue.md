@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar o sistema telefônico para filas de chamadas em nuvem com o Microsoft Teams.
-ms.openlocfilehash: 8ae41603e3899c379fa09b2b08dd5e111b8405da
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 99e12ba4ee8bf983a62dee87a82f3bb7b9cb1ccc
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483310"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018850"
 ---
 # <a name="create-a-cloud-call-queue"></a>Criar uma fila de chamada do Cloud
 
@@ -101,9 +101,12 @@ Para começar a usar filas de chamadas, é importante lembrar-se de algumas cois
 
   - Aplicativo Android do Microsoft Teams
 
+    > [!NOTE]
+    > As filas de chamadas atribuídas a um número de roteamento direto não oferecerão suporte para clientes do Skype for Business, clientes do Lync ou telefones IP do Skype for Business como agentes. 
+
 ## <a name="step-2--getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>Etapa 2: obter ou transferir números de telefone de serviço de chamada tarifada ou gratuita
 
-Antes de criar e configurar suas filas de chamadas, você precisa obter ou transferir seus números de serviço de chamada tarifada ou chamada gratuitas existentes. Depois de obter os números de telefone de serviço de chamada tarifada ou gratuita, eles aparecerão no**** > **** > **** **centro de administração do centro** > de administração do Microsoft Teams, e o **tipo de número** será listado como **Serviço — chamada gratuita**. Para obter seus números de serviço, consulte [obtendo números de telefone de serviço](getting-service-phone-numbers.md) ou se você quiser transferir um número de serviço existente, consulte [transferir números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md).
+Antes de criar e configurar suas filas de chamadas, você precisa obter ou transferir seus números de serviço de chamada tarifada ou chamada gratuitas existentes. Depois de obter os números**** > **de telefone de** > serviço de chamada tarifada ou gratuita, eles aparecerão no centro de administração do centro > de **Administração do Microsoft Teams****, e**o **tipo de número** será listado como **Serviço — chamada gratuita**. Para obter seus números de serviço, consulte [obtendo números de telefone de serviço](getting-service-phone-numbers.md) ou se você quiser transferir um número de serviço existente, consulte [transferir números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md).
 
 > [!NOTE]
 > Se você estiver fora dos Estados Unidos, não poderá usar o centro de administração do Microsoft Teams para obter números de serviço. Vá para [gerenciar números de telefone de sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) em vez de ver como fazer isso de fora dos Estados Unidos.
@@ -119,7 +122,7 @@ Ao configurar vários atendedores automáticos, você pode atribuir apenas um n�
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usar o centro de administração do Microsoft Teams
 
-No **centro de administração do Microsoft Teams**, filas de**chamadas**de **voz** > e clique em **+ Adicionar novo**:
+No **centro de administração do Microsoft Teams**,**filas de chamadas**de **voz** > e clique em **+ Adicionar novo**:
 
 ### <a name="set-the-call-queue-display-name-and-resource-account"></a>Definir o nome de exibição da fila de chamadas e a conta do recurso
 
@@ -151,7 +154,7 @@ Se não houver uma lista, você precisará obter números de serviço e atribuí
 
 ![Ícone do número 1, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout1.png)
 
-**** A saudação é opcional. Esta é a saudação que é reproduzida para as pessoas que ligarem para o número da fila de chamadas.
+A **saudação** é opcional. Esta é a saudação que é reproduzida para as pessoas que ligarem para o número da fila de chamadas.
 
 Você pode carregar um arquivo de áudio (formatos. wav,. mp3 ou. WMA).
 
@@ -173,7 +176,11 @@ Você pode selecionar até 200 agentes de chamada que pertencem a qualquer uma d
 - Grupo de segurança
 - Lista de distribuição
 
-Os agentes de chamada **** selecionados devem ser usuários online com uma licença do **sistema telefônico** e o Enterprise Voice habilitados **ou** ter um plano de chamada.
+Os agentes de chamada selecionados devem ser um dos seguintes: 
+
+- Usuários online com uma licença do sistema telefônico e Enterprise Voice habilitadas 
+- Usuários online com um plano de chamada
+- Usuários locais do Skype for Business Server
 
   > [!NOTE]
   > Isso também se aplica se você quiser redirecionar chamadas para as pessoas em sua organização que estão online. Esses indivíduos devem ter uma licença do **sistema telefônico** e o Enterprise Voice habilitados **ou** ter um plano de chamadas. Para obter mais informações, consulte [atribuir licenças do Skype for Business](/Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md), [atribuir licenças do Microsoft Teams](https://docs.microsoft.com/microsoftteams/assign-teams-licenses)ou [qual plano de chamada é ideal para você?](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page)
@@ -190,10 +197,10 @@ Os agentes de chamada **** selecionados devem ser usuários online com uma licen
 
 **Método de roteamento** Você pode escolher o **atendedor**, a **série**ou o **rodízio** para o método de distribuição da fila de chamadas. Todas as filas de chamadas novas e existentes terão o roteamento de atendedor selecionado por padrão. Quando o roteamento do atendente é usado, a primeira chamada na fila toca em todos os agentes de chamada ao mesmo tempo. O primeiro agente de chamadas para atender a chamada recebe a chamada.
 
-- O **Roteamento** de atendedor faz com que a primeira chamada na fila toque em todos os agentes de chamada ao mesmo tempo. O primeiro agente de chamadas para atender a chamada recebe a chamada.
+- O **Roteamento de atendedor** faz com que a primeira chamada na fila toque em todos os agentes de chamada ao mesmo tempo. O primeiro agente de chamadas para atender a chamada recebe a chamada.
 - **Roteamento serial** as chamadas recebidas para os agentes de chamada um por um, começando do início da lista de agentes de chamadas. Os agentes não podem ser ordenados na lista agente de chamadas. Se um agente ignorar ou não atender a chamada, a chamada tocará o próximo agente na lista e experimentará todos os agentes, um por vez, até que ele seja retirado ou expire em espera na fila.
   > [!NOTE]
-  > O roteamento serial vai ignorar os agentes que estiverem **offline**, definir sua presença como **não incomodar**ou optar por **** não receber chamadas desta fila.
+  > O roteamento serial vai ignorar os agentes que estiverem **offline**, definir sua presença como **não incomodar** **ou optar por** não receber chamadas desta fila.
 - O direcionamento de **rodízio** equilibra a circulação de chamadas de entrada para que cada agente de chamadas obtenha o mesmo número de chamadas da fila. Isso pode ser desejável em um ambiente de vendas de entrada para garantir uma oportunidade igual entre todos os agentes de chamadas.
 
 ### <a name="select-an-agent-opt-out-option"></a>Selecionar uma opção de cancelamento de agente

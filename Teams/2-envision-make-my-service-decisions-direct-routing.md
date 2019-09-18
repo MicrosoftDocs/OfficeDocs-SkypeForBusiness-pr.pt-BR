@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d3410616cf3e841ab6689ffd0fea772975b484c
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: c57b3c8950f7e1618f578862290e8fb1696b6bc0
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271430"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018774"
 ---
 # <a name="make-my-service-decisions"></a>Fazer minhas decisões de serviço
 
@@ -271,7 +271,7 @@ Você pode configurar seus usuários para definir o Microsoft Teams como cliente
 
 -   Configure o Microsoft Teams como o cliente de chamadas preferenciais atribuindo o TeamsCallingPolicy e o TeamsInteropPolicy.
 
-Para obter mais detalhes, consulte [Configurar o Microsoft Teams como o cliente de chamadas preferencial para usuários](direct-routing-configure.md#set-microsoft-teams-as-the-preferred-calling-client-for-users).
+Para obter mais detalhes, consulte [atribuir o modo apenas Teams para usuários para garantir chamadas no Microsoft Teams](direct-routing-configure.md#assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams).
 
 
 |         |         |         |

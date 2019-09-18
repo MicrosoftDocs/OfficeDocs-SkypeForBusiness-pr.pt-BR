@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Saiba como configurar o roteamento direto do sistema de telefonia da Microsoft.
-ms.openlocfilehash: 4013e0fd914630f154f407ad9c70e2c6915723f5
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: d1a763f150004b5c558dd311dd54ed6975dcb0c1
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464606"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018763"
 ---
 # <a name="configure-direct-routing"></a>Configurar o Roteamento Direto
 
@@ -42,7 +42,7 @@ Você pode configurar seu sistema telefônico da Microsoft e permitir que os usu
 
 - [Emparelhar o SBC com um sistema telefônico da Microsoft e validar o emparelhamento](#pair-the-sbc-to-the-direct-routing-service-of-phone-system)
 - [Habilitar usuários para o serviço de roteamento direto](#enable-users-for-direct-routing-service)
-- [Garantir que o Microsoft Teams seja o cliente de chamadas preferencial para os usuários](#set-microsoft-teams-as-the-preferred-calling-client-for-users) 
+- Garantir que o Microsoft Teams seja o cliente de chamadas preferencial para os usuários
 
 ## <a name="pair-the-sbc-to-the-direct-routing-service-of-phone-system"></a>Emparelhar o SBC com o serviço de roteamento direto do sistema telefônico 
 
@@ -528,9 +528,9 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 
 O resultado é que a política de voz aplicada a chamadas de John Woods é irrestrita e seguirá a lógica de roteamento de chamadas disponível para chamadas para os EUA, Canadá e internacional.
 
-## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-users"></a>Configurar o Microsoft Teams como o cliente de chamadas preferencial para usuários
+## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>Atribuir o modo apenas Teams aos usuários para garantir chamadas no Microsoft Teams
 
-O roteamento direto só direciona chamadas para usuários e para usuários se usarem o cliente do teams. Se a sua organização usa apenas o Microsoft Teams, a configuração do modo "somente equipes" na política de atualização é recomendada. Se a sua organização usa o Skype for Business Server ou o Skype for Business Online, consulte o artigo a seguir para obter mais informações e selecione a opção apropriada: [entender a coexistência e atualizar a viagem para o Skype for Business e](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype)o Teams. 
+O roteamento direto requer que os usuários estejam no modo somente Teams para garantir que as chamadas de entrada sejam feitas no cliente do teams. Para colocar usuários no modo somente Teams, atribua a eles a instância "UpgradeToTeams" de TeamsUpgradePolicy. Se a sua organização usa o Skype for Business Server ou o Skype for Business Online, confira o artigo a seguir para interoperabilidade de informações entre o Skype e o Teams: [orientação de migração e interoperabilidade para organizações que usam o Skype em equipe. para empresas](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
 
 
 ## <a name="see-also"></a>Confira também

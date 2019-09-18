@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Este artigo descreve como alcançar essa consolidação para organizações com a implantação local do Skype for Business (ou Lync), que pretende migrar para mover a carga de trabalho de UC para o Microsoft Teams e/ou para o Skype for Business online.
-ms.openlocfilehash: 46e84f9a65ec7626c5285196af83d63baa46c15e
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: 33cbc823fd7aeece1591810d63d2ebf4a348237a
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "36160406"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018840"
 ---
 # <a name="cloud-consolidation-for-teams-and-skype-for-business"></a>Consolidação de nuvem para Teams e Skype for Business
 
@@ -168,13 +168,13 @@ As etapas no exemplo canônica acima supõem que a organização começa com dua
 Ao mover usuários do local para a nuvem em um ambiente híbrido, você pode movê-los para o Skype for Business somente ou para o modo TeamsOnly. *Se você planeja mover usuários para o modo TeamsOnly, leia esta seção primeiro.*
 
 - Quando você atribui o modo TeamsOnly a um usuário, todos os chats e as chamadas de qualquer outro usuário vão parar no cliente do Microsoft Teams. 
-- Para garantir o roteamento adequado de chats e chamadas entre usuários que são TeamsOnly e usuários que ainda estão usando o Skype for Business no local, você deve garantir que os usuários locais tenham o TeamsUpgradePolicy com um dos modos SfB, em vez de ilhas (que é o padrão ). 
+- Se os usuários com o Skype for Business no local usam principalmente o cliente Skype for Business e não as equipes, considere definir TeamsUpgradePolicy para que o roteamento para os usuários locais sempre fique no Skype for Business, e não no Microsoft Teams. Para garantir o roteamento adequado de chats e chamadas entre usuários que são TeamsOnly e usuários que ainda estejam usando o Skype for Business no local, os usuários locais devem ter um valor efetivo de TeamsUpgradePolicy com um dos modos SfB, em vez de ilhas (que é o padrão). 
     - Para fazer isso, *você deve primeiro definir a instância global do seu locatário do TeamsUpgradePolicy como um destes valores*:
         - SfBWithTeamsCollab (recomendado)
         - SfBWithTeamsCollabAndMeetings
         - SfBOnly
     - Você pode conceder a política de todo o locatário usando este comando:<br>`Grant-CsTeamsUpgradePolicy -PolicyName SfBWithTeamsCollab -Global`
-    - Observação: no momento, você deve fazer isso em um nível de locatário, pois a política não pode ser atribuída a usuários individuais que não tenham um endereço SIP no diretório online. Embora você tenha desabilitado domínios SIP online para sua (s) implantação (ões) local (is) pura (s), os usuários desses domínios não terão endereços SIP no diretório online por design. Portanto, a única maneira de aplicar a política aos usuários locais é atribuindo no nível do locatário. Por outro lado, nos usuários de implantação híbrida terão um endereço SIP no diretório online para que eles possam ser explicitamente atribuídos a uma política se desejado tiverem um valor diferente do que a política global do locatário.
+    - Observação: você deve fazer isso em um nível de locatário, pois a política não pode ser atribuída a usuários individuais que não tenham um endereço SIP no diretório online. Embora você tenha desabilitado domínios SIP online para sua (s) implantação (ões) local (is) pura (s), os usuários desses domínios não terão endereços SIP no diretório online por design. Portanto, a única maneira de aplicar a política aos usuários locais é atribuindo no nível do locatário. Por outro lado, nos usuários de implantação híbrida terão um endereço SIP no diretório online para que eles possam ser explicitamente atribuídos a uma política se desejado tiverem um valor diferente do que a política global do locatário.
 - O cliente do teams UX ainda não respeita os modos SfB do TeamsUpgradePolicy. Por exemplo, quando nesses modos, o início da chamada e do chat no Microsoft Teams é possível no momento, embora no futuro que não seja o caso. Isso pode causar confusão entre os usuários porque as respostas podem às vezes chegarem ao Teams e, às vezes, Skype for Business, dependendo das circunstâncias. É recomendável que você desabilite separadamente a chamada e o chat por meio do TeamsMessagingPolicy e do TeamsCallingPolicy para usuários que ainda estão no local.
 
 ## <a name="see-also"></a>Confira também
