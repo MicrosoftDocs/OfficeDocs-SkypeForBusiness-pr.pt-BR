@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: Topologias de referência para o Skype for Business Server, incluindo diagramas e decisões para organizações grandes, médias e pequenas.
-ms.openlocfilehash: 9ec00fb6aa8d318a1eddec4b16c902e5f0fca5dd
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 7f284b141da25175e3a41545349a0e61f6036019
+ms.sourcegitcommit: 5d29e8eb7a0c13edde8015da1e63b01b7081b4b5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418030"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37028278"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>Topologias de referência para o Skype for Business Server
 
@@ -37,7 +37,7 @@ A topologia de referência para pequenas organizações mostra como você pode i
 
 ![Topologia de referência implantando três servidores diagrama](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology1.jpg)
 
-- **Par de servidores Standard Edition** implantados Esta organização tem os usuários do 4.000 em seu site central. Eles implantaram dois servidores de edição padrão e emparelharam-os para permitir alta disponibilidade e recuperação de desastres. Each server homes 2,000 users, but information about all users is synchronized between the two servers. If one goes down, an administrator can fail over those users to be served by the other server, with a minimum of disruption to users. Para obter mais informações sobre alta disponibilidade e recursos de recuperação de desastre no Skype for Business Server, consulte [planejar a alta disponibilidade e a recuperação de desastres no Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+- **Par de servidores Standard Edition implantados** Esta organização tem os usuários do 4.000 em seu site central. Eles implantaram dois servidores de edição padrão e emparelharam-os para permitir alta disponibilidade e recuperação de desastres. Each server homes 2,000 users, but information about all users is synchronized between the two servers. If one goes down, an administrator can fail over those users to be served by the other server, with a minimum of disruption to users. Para obter mais informações sobre alta disponibilidade e recursos de recuperação de desastre no Skype for Business Server, consulte [planejar a alta disponibilidade e a recuperação de desastres no Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
 
 - **A implantação de um servidor de borda é recomendada.** Embora não seja necessário ter um servidor de borda para mensagens instantâneas internas, presença e conferência, nós o recomendamos até mesmo para pequenas implantações. Você pode maximizar seu investimento no Skype for Business Server implantando um servidor de borda para fornecer serviço para os usuários que estão fora dos firewalls da sua organização. Veja alguns dos benefícios:
 
@@ -79,7 +79,7 @@ A topologia de referência com alta disponibilidade e um único data center é p
 
 - **Opções de implantação de site de filiais.** A organização nessa topologia tem o Enterprise Voice implantado como sua solução de voz. O site de filial 1 não tem um link de rede de longa distância (WAN) resistente para o site central, portanto, ele tem um aparelho de ramificação sobreviventes implantado para manter muitos recursos do Skype for Business Server, caso o link de WAN para o site central fique inativo. Já o Site de filial 2 tem um link de WAN resiliente e, portanto, requer apenas um gateway PSTN (rede telefônica pública comutada). Como o gateway PSTN implantado dá suporte para bypass de mídia, o Site de filial 2 não requer nenhum Servidor de Mediação. Para obter mais informações, consulte [Plan for Enterprise Voice resiliency in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md).
 
-- **Balanceamento de carga do DNS.** O pool de front-ends e o pool de servidores de borda têm balanceamento de carga do DNS para tráfego SIP implantado. Isso elimina a necessidade de balanceadores de carga de hardware para os servidores de borda e reduz significativamente a configuração e a manutenção dos balanceadores de carga de hardware para os outros pools, pois os balanceadores de carga de hardware são necessários somente para tráfego HTTP. Para obter mais informações, consulte (.. /.. /plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing).
+- **Balanceamento de carga do DNS.** O pool de front-ends e o pool de servidores de borda têm balanceamento de carga do DNS para tráfego SIP implantado. Isso elimina a necessidade de balanceadores de carga de hardware para os servidores de borda e reduz significativamente a configuração e a manutenção dos balanceadores de carga de hardware para os outros pools, pois os balanceadores de carga de hardware são necessários somente para tráfego HTTP. Para obter mais informações, consulte [balanceamento de carga de DNS](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing).
 
 - **Implantação de UM do Exchange.** Esta topologia de referência inclui um servidor de UM (Unificação de mensagens) do Exchange, que executa o Microsoft Exchange Server, não o Skype for Business Server.
 
@@ -140,7 +140,7 @@ Essa topologia é mostrada em vários diagramas, com uma visão geral seguida po
 
     O Site central B usa o Exchange hospedado. Portanto, a funcionalidade do servidor de UM do Exchange também é hospedada.
 
-    Para obter detalhes sobre o Exchange UM, consulte [integração de Unificação de mensagens do Exchange local](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx) e integração de Unificação de [mensagens do Exchange hospedada](https://technet.microsoft.com/library/f4de0165-da3b-499e-98fc-28ddd0db02d5.aspx) na documentação de planejamento.
+    Para obter detalhes sobre o Exchange UM, consulte [integração de Unificação de mensagens do Exchange local](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx) e [integração de Unificação de mensagens do Exchange hospedada](https://technet.microsoft.com/library/f4de0165-da3b-499e-98fc-28ddd0db02d5.aspx) na documentação de planejamento.
 
 - **Servidor do Office Web Apps.** Recomendamos implantar um servidor ou farm de servidores do Office Web Apps em todas as organizações que usem webconferência. Você pode implantar um único farm de servidores do Office Web Apps em um site que sirva tráfego de todos os sites ou implantá-lo em cada site. O servidor do Office Web Apps possibilita a apresentação de slides do PowerPoint em webconferências.
 

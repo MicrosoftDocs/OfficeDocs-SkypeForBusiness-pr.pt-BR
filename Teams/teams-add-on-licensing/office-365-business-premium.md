@@ -18,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba mais sobre licenças de complemento, recursos e como comprar planos do Office 365 Business Premium. '
-ms.openlocfilehash: 48cfc0803f062f4ded43821b7db8604a49022fda
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 08d9ce55088c83126a6a8d303b4a02d6aa385584
+ms.sourcegitcommit: c6a79bebbbd7c1a1f801f465092a64fb40720296
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715902"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37040731"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Business Premium
 
@@ -39,7 +39,7 @@ Se você tiver o [Office 365 Business Premium](https://products.office.com/en/bu
 
     1. [Migrar para um outro plano do Office 365 para empresas](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). Recomendamos que você avalie se um plano Enterprise E5 pode ser mais vantajoso.
 
-    2. Se você decidir comprar uma licença Enterprise e5, ela inclui uma licença do sistema de telefonia. Se você usa uma licença Enterprise E1 ou E3 ou um Office 365 Business Essentials ou o Office 365 Business Premium licsense, precisará comprar o complemento do sistema telefônico.
+    2. Se você decidir comprar uma licença Enterprise e5, ela inclui uma licença do sistema de telefonia. Se você usar uma licença Enterprise E1 ou E3, precisará comprar o complemento do sistema telefônico.
     
     3. Comprar um [plano de chamadas do Office 365](../calling-plans-for-office-365.md): você só poderá comprá-lo depois de comprar o complemento do sistema telefônico.
 
@@ -50,7 +50,7 @@ Se você tiver o [Office 365 Business Premium](https://products.office.com/en/bu
 
 1. Entre no centro de administração do Microsoft 365.
 
-2. Acesse assinaturas complementares de**Serviços** > **de**compra de **cobrança** > .
+2. Acesse**assinaturas complementares**de**Serviços** > de compra de **cobrança** > .
 
    Você verá os preços e a opção de comprar videoconferência.
 
@@ -58,7 +58,7 @@ Se você tiver o [Office 365 Business Premium](https://products.office.com/en/bu
 
 1. Entre no centro de administração do Microsoft 365.
 
-2. Acesse assinaturas complementares de**Serviços** > **de**compra de **cobrança** > .
+2. Acesse**assinaturas complementares**de**Serviços** > de compra de **cobrança** > .
 
    Você verá a opção de comprar créditos de comunicações.
 
@@ -73,7 +73,7 @@ Se você tiver o [Office 365 Business Premium](https://products.office.com/en/bu
 
 2. Vá para o centro de administração do Microsoft 365.
 
-3. Acesse assinaturas complementares de**Serviços** > **de**compra de **cobrança** > .
+3. Acesse**assinaturas complementares**de**Serviços** > de compra de **cobrança** > .
 
     Você verá os preços do sistema telefônico e a opção de comprá-lo.
 
