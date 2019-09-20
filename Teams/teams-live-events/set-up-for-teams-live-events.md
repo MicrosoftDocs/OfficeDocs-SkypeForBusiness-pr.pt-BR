@@ -17,12 +17,12 @@ description: Aprenda as etapas para configurar o Live para eventos no Teams, inc
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 882a6c708a7aae67a8aafae880d8f0244f5fa8b1
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: 973e079cda665005dac55e466d444b09ecddb7da
+ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493093"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047066"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurar eventos ao vivo no Microsoft Teams
 
@@ -53,7 +53,7 @@ Políticas de eventos dinâmicos são usadas para controlar quem em sua organiza
 
     Aqui estão as configurações que você pode alterar de acordo com as necessidades da sua organização.
 
-    ![Captura de tela de configurações de política de eventos dinâmicos] (../media/teams-live-events-policies.png "Captura de tela de configurações de política de eventos dinâmicos no centro de administração do Microsoft Teams") 
+    ![Captura de tela de configurações de política de eventos dinâmicos](../media/teams-live-events-policies.png "captura de tela das configurações de política de eventos dinâmicos no centro de administração do Microsoft Teams") 
 
 |Configuração  |Descrição  |
 |---------|---------|
@@ -64,7 +64,7 @@ Políticas de eventos dinâmicos são usadas para controlar quem em sua organiza
 |**Quem pode participar de eventos dinâmicos programados**    |Escolha uma das opções a seguir.<br><br>**Todas as pessoas** Os usuários podem criar eventos dinâmicos que todos, incluindo pessoas de fora da sua organização, podem participar. Essa configuração habilita o tipo de permissão **pública** no Teams quando um usuário agenda um evento ao vivo.<br> **Todos na organização** Os usuários podem criar eventos dinâmicos que as pessoas em sua organização, incluindo [os usuários convidados](../add-guests.md) adicionados à sua organização, podem participar. Os usuários não podem criar eventos dinâmicos que participem de usuários anônimos. Essa configuração habilita o tipo de permissão de **toda a organização** no Teams quando um usuário agenda um evento ao vivo.<br> **Usuários ou grupos específicos** Os usuários podem criar eventos dinâmicos que apenas usuários ou grupos específicos em sua organização podem participar. Os usuários não podem criar eventos dinâmicos que participem de todos em sua organização ou de usuários anônimos. Essa configuração habilita o tipo de permissão **pessoas e grupos** no Teams quando um usuário agenda um evento ao vivo.       |
 |**Configuração de gravação**  <br>     | Essa configuração só pode ser aplicada a eventos produzidos no Teams. Escolha uma das opções a seguir. <br><br> **Sempre gravar** Os eventos dinâmicos criados por usuários são sempre gravados. Após o evento terminar, os membros da equipe de eventos podem baixar a gravação e os participantes podem assistir ao evento. <br> **Nunca gravar** Os eventos dinâmicos criados pelos usuários nunca são gravados. <br>**Organizador pode gravar ou não** Os usuários podem decidir se desejam registrar o evento ao vivo. Se for gravada, depois que o evento terminar, os membros da equipe de eventos poderão baixar a gravação e os participantes poderão assistir ao evento.      
 
-Você também pode fazer isso usando o Windows PowerShell. Para obter mais informações, consulte [usar o PowerShell para definir políticas de eventos dinâmicos no](set-teams-live-events-policies-using-powershell.md)Microsoft Teams. 
+Você também pode fazer isso usando o Windows PowerShell. Para obter mais informações, consulte [usar o PowerShell para definir políticas de eventos dinâmicos no Microsoft Teams](set-teams-live-events-policies-using-powershell.md). 
 
 ### <a name="assign-a-live-events-policy-to-users"></a>Atribuir uma política de eventos ao vivo aos usuários 
 
@@ -91,7 +91,7 @@ Você também pode atribuir uma política de eventos ao vivo a um ou mais usuár
 
 Para que os usuários agendem eventos produzidos com um aplicativo ou dispositivo externo, você também deve fazer o seguinte:
 
-1. Habilite o Microsoft Stream para os usuários em sua organização. Stream está disponível como parte de assinaturas elegíveis do Office 365 ou como um serviço autônomo. O Stream não está incluído nos planos do Business Essentials ou Business Premium. Consulte [visão geral](https://docs.microsoft.com/stream/license-overview) de licenciamento de fluxo para obter mais detalhes.
+1. Habilite o Microsoft Stream para os usuários em sua organização. Stream está disponível como parte de assinaturas elegíveis do Office 365 ou como um serviço autônomo. O Stream não está incluído nos planos do Business Essentials ou Business Premium. Consulte [visão geral de licenciamento de fluxo](https://docs.microsoft.com/stream/license-overview) para obter mais detalhes.
 
       Saiba mais sobre como você pode [atribuir licenças a usuários no Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) para que os usuários possam acessar o Stream. Certifique-se de que o fluxo não está bloqueado para os usuários, conforme definido neste [artigo](https://docs.microsoft.com/stream/disable-user-organization).
 
@@ -108,7 +108,7 @@ As seguintes soluções do SDN/eCDN são pré-testadas e podem ser configuradas 
 
 - O **streaming de Hive** oferece uma solução simples e potente para distribuição de vídeo empresarial ao vivo e sob demanda. Hive é uma solução baseada em software que não requer hardware ou largura de banda adicional e fornece uma maneira segura de permitir milhares de visualizadores de vídeo simultâneos, sem afetar a sua rede. Para os clientes que desejam entender o vídeo de impacto está em sua rede antes de comprar uma solução SDN/eCDN, o streaming de Hive também oferece uma solução de análise baseada em navegador para clientes da Microsoft. [Saiba mais](https://www.hivestreaming.com/partners/integration-partners/microsoft/).
  
-- O **Kollective** é uma plataforma de distribuição de emparelhamento inteligente baseada em nuvem que aproveita sua infraestrutura de rede existente para fornecer conteúdo, em muitos formatos (vídeo ao vivo, vídeo sob demanda, atualizações de software, patches de segurança, etc.) mais rápido e mais confiabilidade e com menos largura de banda. Nossa plataforma segura é confiável para as maiores instituições financeiras do mundo, sem necessidade de hardware, configuração e manutenção adicionais. [Saiba mais](http://www.kollective.com).
+- O **Kollective** é uma plataforma de distribuição de emparelhamento inteligente baseada em nuvem que aproveita sua infraestrutura de rede existente para fornecer conteúdo, em muitos formatos (vídeo ao vivo, vídeo sob demanda, atualizações de software, patches de segurança, etc.) mais rápido e mais confiabilidade e com menos largura de banda. Nossa plataforma segura é confiável para as maiores instituições financeiras do mundo, sem necessidade de hardware, configuração e manutenção adicionais. [Saiba mais](https://kollective.com/microsoft-pilot/).
  
 - A **rampa OmniCache** oferece distribuição de rede de última geração e garante a entrega transparente do conteúdo de vídeo em WANs globais, ajudando os produtores de eventos a otimizar a largura de banda da rede e dar suporte a difusões de eventos dinâmicos e sob demanda bem-sucedidas Stream. O suporte para a Ramp OmniCache para eventos dinâmicos produzidos em Teams será disponibilizado em breve. [Saiba mais](http://www.ramp.com). 
  
