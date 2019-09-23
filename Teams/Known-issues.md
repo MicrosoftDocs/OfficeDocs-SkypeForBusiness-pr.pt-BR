@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d4eac2b4b6791040ba8f4d2ea980f69c1451140
-ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
+ms.openlocfilehash: 1b9da7e2757902de025cb748bd2bb03a456a6b11
+ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2019
-ms.locfileid: "36790828"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047036"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -155,7 +155,11 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 |:-----|:-----|:-----|:-----|
 |O uso de Symlink ou o mapeamento de uma unidade para c:\users fará com que o aplicativo seja iniciado com uma tela em branco  <br/> |Quando o local padrão de `C:\users\<user>\appData` é alterado movendo a pasta `C:\users` ou com o uso de symlink, o aplicativo é iniciado com uma tela em branco.   <br/> |Não há solução alternativa conhecida. Se o mapeamento precisar existir, você deverá usar a versão da Web do Microsoft Teams.   <br/> |13/03/2017  <br/> |
 
-## <a name="environment"></a>Ambiente.
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|A presença no aplicativo do Office não é exibida depois que um usuário é movido para a experiência Apenas Teams. <br/> |Quando um usuário é movido para a experiência ApenasTeams e o cliente do Skype for Business é desinstalado, a presença para de funcionar.  <br/> |Para que a Presença funcione no Outlook, o Skype for Business deve ser incluído na implantação do Office, mesmo que você pretenda usar apenas o Microsoft Teams.  Há planos para no futuro remover a dependência do Skype for Business, mas isso não está programado no momento.     <br/> |09/2019  <br/> |
+
+## <a name="environment"></a>Ambiente
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
