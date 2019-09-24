@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b9da7e2757902de025cb748bd2bb03a456a6b11
-ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
+ms.openlocfilehash: 04f8f5c79bc347f0393cd6180c7dcbfffca8da09
+ms.sourcegitcommit: 299f854bbb73887ba315b09b9adf9ea9ff91e8ec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047036"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "37062887"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -155,11 +155,7 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 |:-----|:-----|:-----|:-----|
 |O uso de Symlink ou o mapeamento de uma unidade para c:\users fará com que o aplicativo seja iniciado com uma tela em branco  <br/> |Quando o local padrão de `C:\users\<user>\appData` é alterado movendo a pasta `C:\users` ou com o uso de symlink, o aplicativo é iniciado com uma tela em branco.   <br/> |Não há solução alternativa conhecida. Se o mapeamento precisar existir, você deverá usar a versão da Web do Microsoft Teams.   <br/> |13/03/2017  <br/> |
 
-|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
-|:-----|:-----|:-----|:-----|
-|A presença no aplicativo do Office não é exibida depois que um usuário é movido para a experiência Apenas Teams. <br/> |Quando um usuário é movido para a experiência ApenasTeams e o cliente do Skype for Business é desinstalado, a presença para de funcionar.  <br/> |Para que a Presença funcione no Outlook, o Skype for Business deve ser incluído na implantação do Office, mesmo que você pretenda usar apenas o Microsoft Teams.  Há planos para no futuro remover a dependência do Skype for Business, mas isso não está programado no momento.     <br/> |09/2019  <br/> |
-
-## <a name="environment"></a>Ambiente
+## <a name="environment"></a>Ambiente.
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
@@ -253,6 +249,12 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |Não é possível configurar chamadas não atendidas para ir para a caixa postal no aplicativo da área de trabalho|Quando um usuário está no modo apenas Teams, sua caixa de correio do Exchange é local e, se acessar **Configurações** > **Chamadas** no aplicativo de área de trabalho do Teams, não poderá escolher a opção para encaminhar chamadas para a caixa postal (chamadas não atendidas ou todas as chamadas). Se uma das opções já estava configurada, ao abrir a guia Chamadas em Configurações desabilitará a opção de encaminhar para a caixa postal.|Configure o encaminhamento para a caixa postal usando o aplicativo móvel do Teams.|27/05/2019|
+
+## <a name="presence"></a>Presença
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|A presença no Outlook e em outros aplicativos do Office não é exibida depois que um usuário é movido para o modo **Somente Microsoft Teams**. <br/> |Se você desinstalar o cliente do Skype for Business depois de mover um usuários para o modo **Somente Microsoft Teams**, a presença deixará de funcionar no Outlook e em outros aplicativos do Office. A presença funciona bem no Microsoft Teams.  <br/> |Para ver a presença no Outlook (e em outros aplicativos do Office), o Skype for Business deve ser instalado, mesmo que você esteja executando o Microsoft Teams no modo **Somente Microsoft Teams**. A Microsoft está ciente desse problema e trabalhando para corrigi-lo.  <br/> |09/2019  <br/> |
+
 
 
 ## <a name="provisioning"></a>Provisionamento
