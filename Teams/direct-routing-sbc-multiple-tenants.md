@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Saiba como configurar um SBC (controlador de borda de sessão) para atender a vários locatários.
-ms.openlocfilehash: d331fa51b8065ba7d1d39c7583beebbc093ddcce
-ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
+ms.openlocfilehash: d3defa7be5fc7e2f8c9d96017706329184c4ad59
+ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "36645306"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37131642"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar um controlador de borda da sessão para vários locatários
 
@@ -58,7 +58,7 @@ Para ver as etapas detalhadas sobre como implantar e configurar o SBCs para um c
 
 - **AudioCodes:** [Rotas diretas de configuração de roteamento](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), a configuração do cenário de Hospedagem de SBC descrito em "conectando AudioCodes SBC para a Microsoft Teams Direct Routing Host Configuration model observação". 
 - **Oracle:** [Rotas diretas de configuração de roteamento](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html), a configuração do cenário de Hospedagem de SBC é descrita na seção "Microsoft". 
-- **Comunicações da faixa** de opções:  Consulte o guia de [configuração do Microsoft Teams SBC da faixa](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) de opções do Microsoft Teams para obter a documentação sobre como configurar a faixa de opções da faixa de opções SBCS e para esta página de [práticas recomendadas-configurando as operadoras do Microsoft Teams Direct Margem](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
+- **Comunicações da faixa** de opções:  Consulte o guia de [configuração do Microsoft Teams SBC da faixa de opções do Microsoft Teams](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) para obter a documentação sobre como configurar a faixa de opções da faixa de opções SBCS e para esta página de [práticas recomendadas-configurando as operadoras do Microsoft Teams Direct Margem](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 - **SMS (anynode):**  Registre-se na [página da comunidade de SMS](https://community.te-systems.de/) para obter documentação e exemplos sobre como configurar o SBC anynode para vários locatários.
 
 > [!NOTE]
@@ -111,7 +111,7 @@ Para configurar a base e subdomínios, siga as etapas descritas abaixo. No exemp
 
 Você só poderá adicionar novos domínios se tiver entrado no centro de administração do Microsoft 365 como administrador global. 
 
-Para validar a função que você tem, entre no centro de administração do Microsoft 365 (https://portal.office.com), vá para **** > usuários**ativos**do Microsoft e verifique se você tem uma função de administrador global. 
+Para validar a função que você tem, entre no centro de administração do Microsoft 365 (https://portal.office.com), **vá para** > usuários**ativos**do Microsoft e verifique se você tem uma função de administrador global. 
 
 Para obter mais informações sobre funções de administrador e como atribuir uma função no Office 365, consulte [sobre as funções de administrador do office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
@@ -152,7 +152,7 @@ Será necessário criar um nome de subdomínio exclusivo para cada cliente. Nest
 
 Você só poderá adicionar novos domínios se tiver entrado no centro de administração do Microsoft 365 como administrador global. 
 
-Para validar a função que você tem, entre no centro de administração do Microsoft 365 (https://portal.office.com), vá para **** > usuários**ativos**do Microsoft e verifique se você tem uma função de administrador global. 
+Para validar a função que você tem, entre no centro de administração do Microsoft 365 (https://portal.office.com), **vá para** > usuários**ativos**do Microsoft e verifique se você tem uma função de administrador global. 
 
 Para obter mais informações sobre funções de administrador e como atribuir uma função no Office 365, consulte [sobre as funções de administrador do office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
@@ -169,7 +169,7 @@ Para obter mais informações sobre funções de administrador e como atribuir u
 
 5. Clique em **Avançar**e observe o valor txt gerado para verificar o nome do domínio.
 
-    ![Captura de tela de registros de texto na página verificar domínio](media/direct-routing-7-sbc-verify-domain-txt.png)
+    ![Captura de tela dos registros de texto na página verificar domínio](media/direct-routing-7-sbc-verify-domain-txt.png)
 
 6. Crie o registro TXT com o valor da etapa anterior no provedor de Hospedagem de DNS da transportadora.
 
@@ -202,7 +202,7 @@ Depois de registrar um nome de domínio, você precisa ativá-lo adicionando pel
 
 Por exemplo: test@sbc1.customers.adatum.biz
 
-![Captura de tela da ativação da página de subdomínio](media/direct-routing-13-sbc-activate-subdomain.png)
+![Captura de tela da ativação da página subdomínio](media/direct-routing-13-sbc-activate-subdomain.png)
 
 ### <a name="create-a-trunk-and-provision-users"></a>Criar um tronco e provisionar usuários
 
@@ -229,6 +229,7 @@ Duas novas entidades foram introduzidas:
 -    O tronco derivado, como o nome sugere, herda ou deriva todos os parâmetros de configuração do tronco da transportadora. Exemplos
 -   Customers.adatum.biz – o tronco de portador que precisa ser criado no locatário da operadora.
 -   Sbc1.customers.adatum.biz – o tronco derivado em um locatário do cliente que não precisa ser criado no PowerShell.  Você pode simplesmente adicionar o nome do tronco derivado no locatário do cliente na política de roteamento de voz online sem criá-lo.
+-   A transportadora precisará configurar o registro de DNS resolvendo o endereço IP do SBC do tronco derivado para a Carrier.
 
 -   Todas as alterações feitas em um tronco de transportadora (no locatário de transportadora) são automaticamente aplicadas a troncos derivados. Por exemplo, as operadoras podem alterar uma porta SIP no tronco da transportadora e essa alteração se aplica a todos os troncos derivados. A nova lógica para configurar os troncos simplifica o gerenciamento, pois você não precisa ir para cada locatário e alterar o parâmetro em cada tronco.
 -   As opções são enviadas apenas ao FQDN do tronco de portadora. O status de integridade do tronco da transportadora é aplicado a todos os troncos derivados e é usado para decisões de roteamento. Saiba mais sobre [as opções de roteamento direto](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot).

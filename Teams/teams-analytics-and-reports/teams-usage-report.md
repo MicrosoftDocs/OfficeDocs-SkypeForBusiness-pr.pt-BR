@@ -15,12 +15,12 @@ ms.collection:
 description: Saiba como usar o relatório de uso do Teams no centro de administração do Microsoft Teams para obter uma visão geral das atividades to Teams na sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d530ba8009cd113354a511b61589b409958ec276
-ms.sourcegitcommit: a5cde2df1aceed9d919ef53281dd0d75f1f5e183
+ms.openlocfilehash: 512b7844f1eb659758b95b8f0924506ce6542f41
+ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "36667076"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37131588"
 ---
 # <a name="microsoft-teams-usage-report"></a>Relatório de uso do Microsoft Teams
 
@@ -28,10 +28,10 @@ O relatório de uso do Teams no centro de administração do Microsoft Teams apr
 
 ## <a name="view-the-report"></a>Exibir o relatório
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em **relatórios de análise &** e, em **relatório**, selecione **uso de equipes**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em **análises &** > relatórios de**uso**dos relatórios. Na guia **exibir relatórios** , em **relatório**, selecione **uso do teams**.
 2. Em **Intervalo de dados**, selecione intervalo e em seguida clique em **Executar relatório**.
 
-![Captura de tela do relatório de uso do teams no centro de administração do teams com textos explicativos] (../media/teams-reports-teams-usage-with-callouts.png "Captura de tela do relatório de uso do teams no centro de administração do teams com textos explicativos")
+    ![Captura de tela do relatório de uso do teams no centro de administração do teams com textos explicativos] (../media/teams-reports-teams-usage-with-callouts.png "Captura de tela do relatório de uso do teams no centro de administração do teams com textos explicativos")
 
 ## <a name="interpret-the-report"></a>Interpretar relatório
 

@@ -15,12 +15,12 @@ ms.collection:
 description: Saiba como usar o relatório de atividade de usuários do teams no centro de administração do Microsoft Teams para ver como os usuários em sua organização estão usando o Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d64937d76ad2b634509972f203992b50eb64ccff
-ms.sourcegitcommit: a5cde2df1aceed9d919ef53281dd0d75f1f5e183
+ms.openlocfilehash: dd8c33bfa1ebfbeb4ba4c79827c13e4c33f9a340
+ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "36667073"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37131587"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Relatório de atividades do usuário do Microsoft Teams
 
@@ -28,10 +28,10 @@ O relatório de atividade de usuários do teams fornece informações sobre os t
 
 ## <a name="view-the-report"></a>Exibir o relatório
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em **relatórios de análise &** e, em **relatório**, selecione **atividades do usuário**do teams.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em **análises &** > relatórios de**uso**dos relatórios. Na guia **exibir relatórios** , em **relatório**, selecione **atividade do usuário do teams**.
 2. Em **Intervalo de dados**, selecione intervalo e em seguida clique em **Executar relatório**.
 
-    ![Captura de tela do relatório de atividade de usuários do teams no centro de administração do teams com textos explicativos] (../media/teams-reports-user-activity-with-callouts.png "Captura de tela do relatório de atividade de usuários do teams no centro de administração do teams com textos explicativos")
+    ![Captura de tela do relatório de atividade do usuário do teams no centro de administração do teams com textos explicativos] (../media/teams-reports-user-activity-with-callouts.png "Captura de tela do relatório de atividade do usuário do teams no centro de administração do teams com textos explicativos")
 
 ## <a name="interpret-the-report"></a>Interpretar relatório
 

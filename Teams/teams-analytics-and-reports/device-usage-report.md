@@ -15,12 +15,12 @@ ms.collection:
 description: Saiba como usar o relatório de uso de dispositivos do teams no centro de administração do Microsoft Teams para ver como os usuários em sua organização se conectam ao Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cfe8b11d633a8848d73e87c8fe0b4ecc8854062f
-ms.sourcegitcommit: a5cde2df1aceed9d919ef53281dd0d75f1f5e183
+ms.openlocfilehash: a1da28ccda6394a2e88685132150516cfed2c7fc
+ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "36667084"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37131620"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Relatório de uso de dispositivos do Microsoft Teams
 
@@ -28,7 +28,7 @@ O relatório de uso de dispositivos do teams no centro de administração do Mic
 
 ## <a name="view-the-report"></a>Exibir o relatório
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em **relatórios de análise &** e, em **relatório**, selecione **uso de dispositivos de equipe**.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em **análises &** > relatórios de**uso**dos relatórios. Na guia **exibir relatórios** , em **relatório**, selecione **uso do dispositivo do teams**.
 2. Em **Intervalo de dados**, selecione intervalo e em seguida clique em **Executar relatório**.
 
     ![Captura de tela do relatório de uso de dispositivos do teams no centro de administração do teams com textos explicativos] (../media/teams-reports-device-usage-with-callouts.png "Captura de tela do relatório de uso de dispositivos do teams no centro de administração do teams com textos explicativos")
