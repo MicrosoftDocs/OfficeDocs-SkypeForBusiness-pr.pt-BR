@@ -10,12 +10,12 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: Este artigo discute o gerenciamento remoto das configurações padrão usadas por um dispositivo de salas do Microsoft Teams, incluindo a aplicação de um tema personalizado.
-ms.openlocfilehash: f72eb6248fa2e35bdfb6cfe1de19eb34094b2acc
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 7f895e90a585c350f2b746fcc88296f09007b64b
+ms.sourcegitcommit: 6ba9eeb81b7d55ffc319d6d6658d0ecac83c2159
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774563"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37142062"
 ---
 # <a name="content-cameras"></a>Câmeras de conteúdo
 
@@ -97,3 +97,7 @@ Você também pode ajustar essas configurações remotamente usando um [arquivo 
 [Gerenciar as configurações de um console de salas do Microsoft Teams remotamente com um arquivo de configuração XML](xml-config-file.md)
 
 [Requisitos de salas do Microsoft Teams](requirements.md)
+
+> [!NOTE]
+> Certos dispositivos da sala do Microsoft Teams que têm consoles baseados em Microsoft Surface pro (como o Logitech Smartdock e Crestron SR) ainda não dão suporte à câmera de conteúdo. O suporte para esses dispositivos será adicionado mais tarde no CY2019. 
+>

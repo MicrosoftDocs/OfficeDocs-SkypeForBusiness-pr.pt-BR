@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d4ed6cb14322569e851236eba86bc3b4470f8c7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c077d49a09210862936d94d46708db95efe4585b
+ms.sourcegitcommit: 6ba9eeb81b7d55ffc319d6d6658d0ecac83c2159
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240766"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37142051"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Compreender as equipes e os canais no Microsoft Teams
 
@@ -32,7 +32,7 @@ Os conceitos de equipes e canais são fundamentais para uma implementação ínt
 
 - Os canais são os espaços de colaboração dentro de uma equipe na qual o trabalho real está concluído. 
 
-Para saber mais sobre equipes e canais, consulte a [visão geral de equipes e canais no Microsoft Teams](teams-channels-overview.md). Para obter orientação de adoção em equipes abrangentes, acesse o [Guia de adoção](https:aka.ms/teamstoolkit)do teams. Para saber mais sobre o Teams e grupos do Office 365, confira [grupos do office 365 e Microsoft Teams](office-365-groups.md) e [saiba mais sobre os grupos do Office 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Para saber mais sobre equipes e canais, consulte a [visão geral de equipes e canais no Microsoft Teams](teams-channels-overview.md). Para obter orientação de adoção em equipes abrangentes, acesse o [Guia de adoção do teams](https://aka.ms/teamstoolkit). Para saber mais sobre o Teams e grupos do Office 365, confira [grupos do office 365 e Microsoft Teams](office-365-groups.md) e [saiba mais sobre os grupos do Office 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 
 |  |  |

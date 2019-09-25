@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cef8c6fbfd5ed0b19d6762b7508b311413d11066
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5bf9776dbf5a5992354f542436b4904d53d58508
+ms.sourcegitcommit: 6ba9eeb81b7d55ffc319d6d6658d0ecac83c2159
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233278"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37142040"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Mover suas equipes do Microsoft StaffHub para turnos no Microsoft Teams
 
@@ -38,7 +38,7 @@ Este artigo apresenta uma orientação sobre como mover as equipes do StaffHub d
 
 Seja você uma pequena empresa com uma ou duas equipes do StaffHub ou uma grande empresa com centenas de equipes do StaffHub, você encontrará as diretrizes de administração necessárias para ajudar a fazer sua transição para o Microsoft Teams com êxito.
 
-Você deve ser um administrador global para executar as etapas neste artigo. Se ainda não tiver feito isso, examine as [perguntas frequentes sobre](microsoft-staffhub-to-be-retired.md) a descontinuação do StaffHub para obter respostas para qualquer pergunta que você tenha.
+Você deve ser um administrador global para executar as etapas neste artigo. Se ainda não tiver feito isso, examine as [perguntas frequentes sobre a descontinuação do StaffHub](microsoft-staffhub-to-be-retired.md) para obter respostas para qualquer pergunta que você tenha.
 
 ## <a name="what-you-need-to-know-about-the-move-to-teams"></a>O que você precisa saber sobre a mudança para o Teams
 
@@ -88,9 +88,11 @@ Você gerencia as licenças do teams no centro de administração do Microsoft 3
 > [!NOTE]
 > Se a sua organização usa o Skype for Business e você não está pronto para mover todos os usuários para o Microsoft Teams, você pode habilitar o Microsoft Teams para os seus primeiros trabalhadores que podem executar o Microsoft Teams junto ao Skype for Business. Nesse modo de coexistência, chamado de *ilhas*, cada aplicativo cliente Opera como uma solução separada. Para saber mais, consulte [entender o Microsoft Teams e a coexistência e interoperabilidade do Skype for Business](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
-### <a name="install-the-staffhub-powershell-module"></a>Instalar o módulo PowerShell do StaffHub
+### <a name="install-the-prerelease-version-of-the-staffhub-powershell-module"></a>Instalar a versão de pré-lançamento do módulo StaffHub PowerShell
 
-Se ainda não fez isso, [Instale o módulo StaffHub PowerShell](install-the-staffhub-powershell-module.md). 
+Se você ainda não fez isso, [Instale a versão de pré-lançamento do módulo StaffHub PowerShell](install-the-staffhub-powershell-module.md). 
+
+Você deve ter a versão de pré-lançamento do módulo instalada para mover suas equipes do StaffHub para o Microsoft Teams.
 
 ### <a name="link-an-azure-ad-account-for-staffhub-team-members-who-dont-have-one"></a>Vincular uma conta do Azure AD para os membros da equipe do StaffHub que não têm uma
 
@@ -132,7 +134,7 @@ Para ver as etapas sobre como atribuir a política de configuração do aplicati
 
 Recomendamos que você conclua esta etapa pelo menos uma semana antes de mover suas equipes e usuários do StaffHub para o Microsoft Teams. Quando os usuários estão em equipes, confirme se eles podem ver e acessar o aplicativo turnos.
 
-Você também pode criar políticas de configuração de aplicativo personalizadas e editar as configurações na política de configuração de aplicativo global. Para saber mais, confira [gerenciar políticas de configuração de aplicativos no](../../teams-app-setup-policies.md)Microsoft Teams.
+Você também pode criar políticas de configuração de aplicativo personalizadas e editar as configurações na política de configuração de aplicativo global. Para saber mais, confira [gerenciar políticas de configuração de aplicativos no Microsoft Teams](../../teams-app-setup-policies.md).
 
 ### <a name="onboard-users-to-teams"></a>Usuários integrados ao Microsoft Teams
 
@@ -157,7 +159,7 @@ Tenha acesso à identificação de duas ou três equipes piloto. Todos os membro
 
 Identifique especialistas em nossas equipes piloto e as solicite para ajudar a evangelizar turnos. Os representantes da equipe são apaixonados pelo que fazem, compartilhando suas próprias informações para oferecer suporte e orientação aos membros da equipe. Os campeões da equipe podem ser proprietários ou gerentes da equipe.
 
-Os campeões de equipe devem garantir que os membros da equipe sejam configurados dedicando-se tempo para que todos [obtenham clientes](../../get-clients.md)do Teams, entrem no Teams e confiram suas agendas em turnos e comecem a conversar uns com os outros. Os usuários que já estão familiarizados com o StaffHub estarão em funcionamento rapidamente em turnos. Você também pode apontá-los para a [ajuda](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b) de turnos para obter ajuda adicional.
+Os campeões de equipe devem garantir que os membros da equipe sejam configurados dedicando-se tempo para que todos [obtenham clientes](../../get-clients.md)do Teams, entrem no Teams e confiram suas agendas em turnos e comecem a conversar uns com os outros. Os usuários que já estão familiarizados com o StaffHub estarão em funcionamento rapidamente em turnos. Você também pode apontá-los para a [ajuda de turnos](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b) para obter ajuda adicional.
 
 ### <a name="move-a-staffhub-team"></a>Mover uma equipe do StaffHub
 
@@ -296,7 +298,7 @@ Get-StaffHubTeamsForTenant -ManagedBy "Teams"
 
 ### <a name="move-files-from-your-staffhub-teams-to-teams"></a>Mover arquivos de suas equipes do StaffHub para o Microsoft Teams
 
-Se as equipes do StaffHub que você moveu contiverem arquivos que você também deseja mover para o Microsoft Teams, consulte [mover arquivos de uma equipe do StaffHub para](#move-files-from-a-staffhub-team-to-teams)o Microsoft Teams.
+Se as equipes do StaffHub que você moveu contiverem arquivos que você também deseja mover para o Microsoft Teams, consulte [mover arquivos de uma equipe do StaffHub para o Microsoft Teams](#move-files-from-a-staffhub-team-to-teams).
 
 ## <a name="monitor-teams-usage"></a>Monitorar o uso do teams
 
