@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Introdução ao Teams para Organizações de Saúde
-ms.openlocfilehash: 380d9c75bc2f7eeb66bc6d0d0f5598d2a243a9da
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: 5fe896db8acf690fbb71b1b6ecf0fcd571d903c5
+ms.sourcegitcommit: c22e55cda855ec61e5b6cb3455d6b87467c24e21
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767150"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "37159725"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Introdução ao Teams para Organizações de Saúde
 
@@ -30,7 +30,7 @@ O Microsoft Teams oferece diversos recursos úteis para hospitais e outras organ
 - Integração do EHR (Electronic Healthcare Record) 
 - Integração do sistema de trabalho de primeira mão 
 
-O conteúdo desta seção baseia-se nos recursos básicos do Teams, como reuniões, chamadas e mensagens e pressupõe que você já implantou equipes implantadas em sua organização. Se você ainda não distribuiu o Microsoft Teams, comece lendo [como implantar o Microsoft Teams](../../How-to-roll-out-teams.md).
+O conteúdo desta seção baseia-se nos recursos básicos do Teams, como reuniões, chamadas e mensagens e pressupõe que você já implantou o Microsoft Teams em sua organização. Se você ainda não distribuiu o Microsoft Teams, comece lendo [como implantar o Microsoft Teams](../../How-to-roll-out-teams.md).
 
 ## <a name="care-coordination---microsoft-teams-patients-app"></a>Coordenação de cuidado-aplicativo pacientes do Microsoft Teams
 
