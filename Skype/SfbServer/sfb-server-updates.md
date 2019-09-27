@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Localize e gerencie atualizações para o Skype for Business Server 2015/2019 e o Lync 2013 em um só lugar. Use os links desta página para obter mais informações sobre atualizações e, em seguida, baixe as atualizações.
-ms.openlocfilehash: ba23d01b4e5367d816d475a1b5daa8b852b4c23e
-ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
+ms.openlocfilehash: d95776848e27a5d43d273f8ad1caedd40636ab1c
+ms.sourcegitcommit: 77f102a7ca0226c79cf9aa9573e27afb4fba6893
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "37018645"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "37275520"
 ---
 # <a name="skype-for-business-server-updates"></a>Atualizações do Skype for Business Server
 
@@ -26,9 +26,12 @@ Para obter as atualizações mais recentes do Skype for Business Online e do Off
 
 ## <a name="skype-for-business-server-2019-update-history"></a>Histórico de atualização do Skype for Business Server 2019
 
+KB 4470124 é o KB mestre para o Skype for Business Server 2019, que tem toda a lista histórica de todas as atualizações cumulativas e hotfixes que foram publicadas. 
+
 |Número do pacote|Número KB|Data do lançamento|
 |:--- |:--- |:--- |
 |Atualização cumulativa 1 do Skype for Business Server 2019|[KB 4470124](https://support.microsoft.com/kb/4470124)| De julho de 2019 |
+|Atualização cumulativa 1 do Skype for Business Server 2019 hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Setembro de 2019 |
 | | | |
 
 ### <a name="skype-for-business-server-2019-tools"></a>Ferramentas do Skype for Business Server 2019

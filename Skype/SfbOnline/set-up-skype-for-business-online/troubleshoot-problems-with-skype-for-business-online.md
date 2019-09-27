@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Learn how to fix issues for admins and users of Skype for Business in Office 365.
-ms.openlocfilehash: e08eb29827996ff65e85de1afe7aabba1b02ac40
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 06dd690aeaf01f19fe703e6d827cab49cfcf7031
+ms.sourcegitcommit: 77f102a7ca0226c79cf9aa9573e27afb4fba6893
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285048"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "37275510"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>Solucionar problemas com o Skype for Business Online
 
@@ -31,7 +31,7 @@ ms.locfileid: "34285048"
 
 ## <a name="troubleshoot-admin-issues-for-skype-for-business-online"></a>Solucionar problemas de administrador do Skype for Business Online
 
-Você pode obter respostas para a maioria das suas perguntas sobre o Skype for Business Online, [verificando causas comuns de erros de entrada do Skype for Business online](troubleshooting-sign-in-errors-for-admins.md#toc323194094). Este artigo da base de dados de conhecimento também inclui muitos recursos de solução de problemas e referências de código de erro: [Como resolver problemas de entrada no Skype for Business Online](https://go.microsoft.com/fwlink/p/?LinkId=747952).
+Você pode obter respostas para a maioria das suas perguntas sobre o Skype for Business online no artigo [verificar causas comuns de erros de entrada do Skype for Business online](troubleshooting-sign-in-errors-for-admins.md#toc323194094). O seguinte artigo da base de conhecimento também inclui muitos recursos de solução de problemas e referências de código de erro: [solução de problemas de erros de entrada do Skype for Business online para administradores](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/troubleshooting-sign-in-errors-for-admins).
 
 Para problemas de conferência discada, consulte [solução de problemas de áudio de audioconferência e problemas conhecidos](../audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues.md).
 
