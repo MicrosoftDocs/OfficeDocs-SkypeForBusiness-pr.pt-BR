@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 0046a008579c6c741d99825e6b79387a73eec55b
-ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
+ms.openlocfilehash: c8725523fbef65b5687e68a860d2f2f3137e649d
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "36645254"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305780"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Veja aqui o que você obtém com o Sistema de Telefonia no Office 365
 
@@ -66,6 +66,8 @@ Ao usar o sistema telefônico, os usuários do Skype for Business receberão os 
 |[Fazer e receber uma chamada de vídeo usando o Skype for Business](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | Você pode ver o nome do interlocutor e a transmissão de vídeo em uma pequena janela flutuante. Assim, você sempre estará pronto para responder a perguntas. <br/> |
 |[Verificar a caixa postal e as opções do Skype for Business](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8) <br/> |Veja como funciona o correio de voz na nuvem: quando um usuário recebe um correio de voz, ele é entregue à sua caixa de correio como um email com a mensagem de correio de voz como um anexo. Também é possível ouvir suas mensagens através de um telefone de mesa certificado pelo Skype, em todos os aplicativos do Skype for Business ou no Lync for Mac 2011.  <br/> O correio de voz na nuvem inclui saudação personalizada, indicador de mensagem em espera e responder com chamada. Você pode ter todas as mensagens da caixa postal depositadas em caixas de correio e disponibilizadas pelo Skype for Business em seu computador, dispositivo móvel e telefone IP.  <br/> |
 |Música de espera | Disponível em setembro de 2019, o sistema de telefonia executará a música padrão definida pelo serviço quando uma chamada externa da PSTN (rede telefônica pública comutada) estiver colocada em espera.  Esse recurso funciona para chamadas PSTN-to-Team de um para um, além de chamadas feitas para uma fila de chamadas. Esse recurso fornece a paridade de notificação em espera com outras plataformas. (Todas as outras plataformas fornecem uma indicação visual quando um usuário é colocado em espera, mas o chamador PSTN não teve uma maneira de saber.)  No primeiro lançamento, esse recurso não é configurável pelo administrador.| 
+|Pesquisa de número reverso | Disponível em setembro de 2019, o sistema telefônico mostrará a ID chamada para um número de telefone externo, se o número estiver associado a um usuário no AAD. Se o número de telefone não estiver no AAD, o nome de exibição fornecido pela Telco será exibido se estiver disponível.  |
+
    
 ## <a name="plan-and-set-up-the-phone-system-in-office-365"></a>Planejar e configurar o sistema telefônico no Office 365
 <a name="bkmk_setup"> </a>

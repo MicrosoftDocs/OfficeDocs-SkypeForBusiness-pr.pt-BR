@@ -18,18 +18,21 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 068a37af62ea31c53caed8c9dc22feec6fd60ec6
-ms.sourcegitcommit: bd9b29cdaa183b1f5cc2d643a5a2d231a56a2c3f
+ms.openlocfilehash: 4e3b95e9d8de04abc6299a52a27cf07d95365a4f
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "35614256"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305794"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Usar a pesquisa de diretório no escopo do Microsoft Teams
 
 A pesquisa de diretório em escopo do Microsoft Teams permite que as organizações criem limites virtuais que controlam como os usuários podem encontrar e se comunicar com outros usuários em sua organização. 
 
 O Microsoft Teams permite que as organizações forneçam modos de exibição personalizados do diretório para seus usuários. O Microsoft Teams usa [políticas do catálogo de endereços do Exchange](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies) para dar suporte a essas exibições personalizadas. Depois que as políticas são habilitadas, os resultados retornados por pesquisas para outros usuários (por exemplo, para iniciar um chat ou para adicionar membros a uma equipe) serão definidos em escopo de acordo com as políticas configuradas. Os usuários não poderão pesquisar nem descobrir Teams quando a pesquisa com escopo estiver em vigor. 
+
+> [!NOTE]
+> Em ambientes híbridos do Exchange, esse recurso funciona apenas com caixas de correio do Exchange Online e não com caixas de correio locais.
 
 ## <a name="when-should-you-use-scoped-directory-searches"></a>Quando você deve usar pesquisas de diretório de escopo?
 
@@ -49,7 +52,7 @@ Para saber como usar as políticas do catálogo de endereços, leia [as polític
 
 2. No centro de administração do Microsoft Teams, selecione**configurações de equipes** **de configurações** > de toda a organização.
 
-3. Em **Pesquisar**, ao lado de **pesquisa de diretório de escopo no Teams usando uma política de catálogo de endereços do Exchange (APB)**, ative o botão de alternância. ****
+3. Em **Pesquisar**, ao lado de **pesquisa de diretório de escopo no Teams usando uma política de catálogo de endereços do Exchange (APB)**, ative o botão **de alternância.**
 
     ![Pesquisa de diretório em escopo no centro de administração do Microsoft Teams](media/teams-scoped-directory-search-image1.png)
 

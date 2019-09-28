@@ -26,12 +26,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.upgradetoteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ab31a067c9a39909416228e3d580ca28c105b3da
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 80f35070b520d53db87b21c9c382a116db83ed4b
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483941"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305745"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Introdução à atualização para o Microsoft Teams
 
@@ -53,7 +53,7 @@ Sim, a Microsoft oferece várias opções para executar o Skype for Business Onl
  
 ## <a name="how-is-microsoft-helping-customers-with-their-upgrade-to-teams"></a>Como a Microsoft está ajudando os clientes com a atualização para o Microsoft Teams? 
 
-A Microsoft está comprometida a ajudar a fazer sua transição do Skype for Business para o Teams que você é um sucesso. A Microsoft está fornecendo uma orientação sólida com base em uma estrutura de sucesso de atualização comprovada e completa projetada para ajudá-lo a planejar e executar a atualização para o Microsoft Teams. Nossas diretrizes foram projetadas para todos os estágios da jornada da atualização, seja para começar a planejar o planejamento, já executando o Microsoft Teams juntamente com o Skype for Business, ou pronto para fazer a atualização para o Microsoft Teams.
+A Microsoft está comprometida em ajudar a fazer com que a transição do Skype for Business para o Teams seja bem-sucedida. A Microsoft está fornecendo uma orientação sólida com base em uma estrutura de sucesso de atualização comprovada e completa projetada para ajudá-lo a planejar e executar a atualização para o Microsoft Teams. Nossas diretrizes foram projetadas para todos os estágios da jornada da atualização, seja para começar a planejar o planejamento, já executando o Microsoft Teams juntamente com o Skype for Business, ou pronto para fazer a atualização para o Microsoft Teams.
 
 Para ajudar a facilitar o planejamento e a implementação de atualização, a Microsoft está hospedando workshops complementares de planejamento de atualização ao vivo e interativos, projetados para se familiarizar com a estrutura de atualização, compartilhar ideias para preparar os usuários para o Atualize e identifique o caminho certo para sua organização na sua jornada para o Microsoft Teams. Junte-se a nós para obter uma sessão [https://aka.ms/SkypeToTeamsPlanning](https://aka.ms/SkypeToTeamsPlanning)de visão geral do planejamento de atualização:.
  

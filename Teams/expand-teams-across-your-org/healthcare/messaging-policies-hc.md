@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Introdução às Mensagens Seguras para Organizações de Saúde
-ms.openlocfilehash: 154588eb1008bd1cd2749642fb2b9c994d9fb647
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6fa8ceef15b0f88a4624ebaaeaa177c4f0d1e1e3
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232331"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37306677"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Introdução às Mensagens Seguras para Organizações de Saúde
 
@@ -26,7 +26,7 @@ As políticas de mensagens são usadas para controlar quais recursos de mensagen
 
 Você pode usar a política padrão ou criar uma ou mais políticas de mensagens personalizadas para as pessoas em sua organização. Depois de criar uma política, você atribuirá a ela um usuário ou grupos de usuários em sua organização. Por exemplo, você pode optar por permitir que apenas determinadas funções de trabalho usem esses recursos (talvez apenas os médicos e os recursos humanos) e outros trabalhadores (como o janitorial ou a cozinha cozinha) para obter um conjunto mais limitado de recursos. Decida por si mesmo o que precisa da sua organização, as orientações aqui são no máximo uma sugestão.
 
-As políticas podem ser facilmente gerenciadas no [centro de administração do Microsoft Teams](http://admin.teams.microsoft.com) , fazendo logon com credenciais de administrador e escolhendo políticas de **mensagens** no painel de navegação à esquerda.
+As políticas podem ser facilmente gerenciadas no [centro de administração do Microsoft Teams](http://admin.teams.microsoft.com) , fazendo logon com credenciais de administrador e escolhendo **políticas de mensagens** no painel de navegação à esquerda.
 
  ![Captura de tela da página de políticas de mensagens](../../media/messaging-policies-image1.png)
 
@@ -38,7 +38,7 @@ As configurações a seguir são de interesse especial para aplicativos de saúd
 
 ## <a name="read-receipts"></a>Confirmações de leitura
 
-- ![Ícone do número 1, fazendo referência a um texto explicativo nas](../../media/sfbcallout1.png) **** confirmações de leitura prévias da captura de tela, as confirmações de leitura permitem que o remetente de uma mensagem de chat saiba quando a mensagem foi lida pelo destinatário no 1:1 e chats em grupo 20 pessoas ou menos. Use esta configuração para especificar se as confirmações de leitura são controladas pelo usuário, ativadas para todos ou desativadas para todos. As confirmações de leitura de mensagens são importantes em organizações de assistência médica porque elas se removem de forma indeterminada sobre se uma mensagem foi lida.
+- ![Ícone do número 1, fazendo referência a um texto explicativo nas](../../media/sfbcallout1.png) **confirmações** de leitura prévias da captura de tela, as confirmações de leitura permitem que o remetente de uma mensagem de chat saiba quando a mensagem foi lida pelo destinatário no 1:1 e chats em grupo 20 pessoas ou menos. Use esta configuração para especificar se as confirmações de leitura são controladas pelo usuário, ativadas para todos ou desativadas para todos. As confirmações de leitura de mensagens são importantes em organizações de assistência médica porque elas se removem de forma indeterminada sobre se uma mensagem foi lida.
 
   Para aplicativos de saúde, escolha o **usuário controlado** ou **ativado para todos**. Lembre-se de que, ao usar a configuração **ativado para todos** , a única maneira de definir confirmações para o locatário inteiro é ter apenas uma política de mensagens para todo o locatário (a política padrão nomeada "global (padrão para toda a organização)") ou para ter todas as políticas de mensagens o locatário usa as mesmas configurações para recibos. O recurso confirmações de leitura é mais eficaz quando o recurso está habilitado para **ativado para todos**.
 
@@ -47,8 +47,6 @@ As configurações a seguir são de interesse especial para aplicativos de saúd
     *Exemplo de uso com confirmações de leitura:* Jakob Roth, um paciente de alto risco, é admitido para o hospital.Sófia Krause é um enfermeira que trabalha como parte da equipe inter-disciplinara (IDT) de funcionários médicos, incluindo especialistas diferentes, é atribuído como o principal coordenador responsável por este paciente.  Sófia inicia um chat em grupo com um conjunto de médicos e outros repacientes que trabalharão com o paciente para coordenar o cuidado e iniciar uma triagem de emergência.As hojes e médicos se comunicam e colaboram com o plano de atendimento do paciente em todo o processo de coordenação de atendimento.  Mensagens importantes e urgentes são enviadas pelo 1:1 e conversas de chat em grupo. Sófia usa a funcionalidade de confirmações de leitura para determinar se as mensagens enviadas solicitando suporte são entregues e lidas pelos médicos ou às mensagens de destino. Os resultados do paciente de Jakob são praticamente ótimos, e ele fica mais cedo, porque a equipe de cuidado comunica-se tranqüilamente.
 
 ## <a name="priority-notifications"></a>Notificações de prioridade
-
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 [!INCLUDE [pri-message-offer](../../includes/pri-message-offer.md)]
 
