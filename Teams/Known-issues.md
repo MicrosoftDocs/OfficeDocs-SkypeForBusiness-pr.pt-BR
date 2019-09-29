@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04f8f5c79bc347f0393cd6180c7dcbfffca8da09
-ms.sourcegitcommit: 299f854bbb73887ba315b09b9adf9ea9ff91e8ec
+ms.openlocfilehash: 6540daab8e42fd5f1d64d94e8112dc919ba21600
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37062887"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305682"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -63,7 +63,7 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Não é possível excluir conectores como proprietário de equipe  <br/> |A tentativa de excluir um conector como um proprietário, que pode adicionar um conector, enquanto a opção "Allow members to create, update, and remove connectors" (Permitir que os membros criem, atualizem e removam conectores) está desabilitada, gera um erro que indica que o usuário não tem permissão para fazer isso. <br/> |Habilitar temporariamente "Allow members to create, update, and remove connectors" (Permitir que os membros criem, atualizem e removam conectores) permitirá que o proprietário exclua o conector.  <br/> |27/07/2018  <br/> |
+|Não é possível excluir conectores como proprietário de equipe  <br/> |A tentativa de excluir um conector como um proprietário, que pode adicionar um conector, enquanto a opção "Permitir que os membros criem, atualizem e removam conectores" está desabilitada, gera um erro que indica que o usuário não tem permissão para fazer isso. <br/> |Habilitar temporariamente "Allow members to create, update, and remove connectors" (Permitir que os membros criem, atualizem e removam conectores) permitirá que o proprietário exclua o conector.  <br/> |27/07/2018  <br/> |
 
 ## <a name="audio-conferencing"></a>Audioconferência
 
@@ -76,6 +76,8 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 |O controle de discagem é ocultado de forma intermitente.  <br/> |O controle de discagem pode não estar visível no painel Informações da Reunião.  <br/> |Não há solução alternativa.  <br/> |25/09/2017  <br/> |
 |A ID de conferência estática não tem suporte em reuniões do Microsoft Teams.  <br/> |Se o administrador substituir a configuração padrão de ID de conferência dinâmica para ID de conferência estática, essa configuração não entrará em vigor nas reuniões do Microsoft Teams. Veja [Usar IDs dinâmicas de Audioconferência em sua organização](/skypeforbusiness/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md)  <br/> |Não há solução alternativa.  <br/> |25/09/2017  <br/> |
 |Coordenadas de reunião PSTN não estão disponíveis para usuários locais do Skype for Business  <br/> |Se o usuário for um usuário local do Skype for Business, com licenças do Skype for Business Online, de Audioconferência e do Microsoft Teams atribuídas, todas as reuniões agendadas usando o Microsoft Teams não incluirão as coordenadas da reunião PSTN. <br/> |Não há solução alternativa.  <br/> |01/02/2018  <br/> |
+
+| Informações de Interoperabilidade de Vídeo na Nuvem em Reunir Agora  <br/> | Se você criar uma instância Reunir Agora de uma reunião no Microsoft Teams com uma licença do CVI existente, ela não preencherá as informações do CVI. <br/> | A recomendação é agendar a reunião para preencher essas informações.  <br/> 6/11/2019   <br/> |
 
 ## <a name="authentication"></a>Autenticação
 
@@ -315,6 +317,10 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |Os logs de auditoria poderão relatar um nome de usuário incorreto como iniciador quando alguém tiver sido removido de uma equipe  <br/> |A equipe do Microsoft Teams é um grupo moderno no AAD. Quando você adiciona/remove um membro por meio da interface do usuário do Teams, o fluxo sabe exatamente qual usuário iniciou a alteração e o log de auditoria reflete as informações corretas. No entanto, se um usuário adicionar/remover um membro por meio do AAD, a alteração será sincronizada com o back-end das equipes sem informar às equipes que iniciaram a ação. O Microsoft Teams seleciona o primeiro proprietário da equipe como o iniciador, que também é refletido no log de Auditoria.    <br/> |  <br/> |11/05/2018  <br/> |
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Os e-mails do correio de voz do Teams chegarão com falha de spf se for uma chamada sip, se for uma chamada pstn para um usuário, chegarão com o atributo from sem o valor correto, se o cliente tiver uma regra que analisa os correios de voz spf terão uma ação onde o etr decidirá. <br/> | <br/> | A solução alternativa de 29/08/2019 adicionará uma exceção no etr se a mensagem for uma caixa postal.
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
