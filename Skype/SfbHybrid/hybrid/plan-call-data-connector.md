@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Visão geral do uso das ferramentas de telemetria do Skype for Business online para monitorar uma implementação local em um cenário híbrido.
-ms.openlocfilehash: dc129ed99e1ed69e3faf5d2a7b6923f818c482eb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3300ad17b109ac069c4f7382f610dd0214b30197
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160391"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328423"
 ---
 # <a name="plan-call-data-connector"></a>Planejar o Call data Connector
 
@@ -23,8 +23,6 @@ ms.locfileid: "36160391"
 
 Este tópico descreve os benefícios, as considerações de planejamento e os requisitos para implementar o conector de dados de chamadas do Skype for Business Server. Para obter mais informações sobre a configuração do conector de dados de chamadas, consulte [Configure Call data Connector](configure-call-data-connector.md).
 
-> [!NOTE]
-> Na versão prévia pública, somente o painel de análise de chamada está disponível.
 
 O Call data Connector simplifica bastante o monitoramento de chamadas em um ambiente híbrido, porque você não precisa mais usar conjuntos diferentes de ferramentas locais e online para monitorar toda a qualidade de chamada de seus usuários. Se seus usuários estão hospedados no local ou online, você pode optar por exibir a qualidade da chamada para toda a organização online.
 
@@ -73,6 +71,8 @@ Os requisitos a seguir pressupõem que você já tenha o Skype for Business Serv
 
 > [!IMPORTANT]
 > Call data Connector não funcionará se o monitoramento não estiver habilitado no pool de front-ends.
+
+- [Autenticação de servidor para servidor](https://docs.microsoft.com/skypeforbusiness/manage/authentication/server-to-server-and-partner-applications)configurada corretamente. 
 
 ## <a name="comparison-of-on-premises-and-online-call-quality-dashboard-cqd-reports"></a>Comparação de relatórios do painel de qualidade de chamada online e local (CQD)
 

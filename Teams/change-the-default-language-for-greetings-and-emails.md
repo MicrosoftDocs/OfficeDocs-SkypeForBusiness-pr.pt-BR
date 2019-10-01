@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: 'Saiba como configurar o Skype for Business para usar outro idioma na saudação da mensagem de voz padrão de sua organização. '
-ms.openlocfilehash: 5502bea261e3313bed2dae854ca23d6a27f4f8b8
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+description: 'Saiba como configurar o Skype for Business para usar outro idioma para a saudação de correio de voz padrão da sua organização. '
+ms.openlocfilehash: 085262a4ae4362aa40d20d3da657db6bcac694a3
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494566"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328337"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Alterar o idioma padrão de saudações e emails
 
@@ -41,9 +41,9 @@ Se você é [Administrador global do Office 365](https://support.office.com/arti
     > [!NOTE]
     > Depois de entrar, os usuários podem alterar seu próprio idioma de saudação por meio das configurações. 
   
-- **Deseja gravar sua mensagem de caixa postal de saída?** Veja [Verificar a caixa postal e as opções do Skype for Business](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8).
+- **Deseja gravar sua mensagem de caixa postal de saída?** Veja [Verificar a caixa postal e as opções do Skype for Business](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8). Para o Microsoft Teams-os usuários podem alterar as configurações de caixa postal nas [configurações do cliente de área de trabalho do teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
 
-- **Deseja alterar o idioma do prompt de correio de voz?** Vá para [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) e escolha um novo idioma em **idioma do prompt**.
+- **Deseja alterar o idioma do prompt de correio de voz?** Para o Skype for Business [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) -e escolha um novo idioma em **idioma do pedido**. Para o Microsoft Teams-os usuários podem alterar as configurações de caixa postal nas [configurações do cliente de área de trabalho do teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Alterar o idioma do sistema para todas as pessoas na organização
 

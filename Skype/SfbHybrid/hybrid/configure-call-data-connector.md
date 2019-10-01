@@ -10,19 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instruções para configurar o Call data Connector, que permite que a telemetria do Skype for Business local seja exibida usando as ferramentas do Skype for Business online.
-ms.openlocfilehash: 1851e1e0c430107a27d706f7bc16ad974c5abaed
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: 48af644523e9872107c814aa330d2af2d9a4272f
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "36160405"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328370"
 ---
 # <a name="configure-call-data-connector"></a>Configurar o Call data Connector
 
-Este artigo descreve como configurar o Call data Connector – um único conjunto de ferramentas que permite exibir dados de qualidade de chamada do Skype for Business Server usando o painel de qualidade de chamada do Skype for Business online (CQD) e as ferramentas de análise de chamada (CA). 
-
-> [!NOTE]
-> Na versão prévia pública, somente o painel de análise de chamada está disponível.
+Este artigo descreve como configurar o Call data Connector – um único conjunto de ferramentas que permite exibir dados de qualidade de chamada do Skype for Business Server usando o painel de qualidade de chamada do Skype for Business online (CQD) e as ferramentas de análise de chamada (CA).
 
 Para obter mais informações sobre os benefícios e pré-requisitos do Call data Connector, como requisitos de função e configuração da conectividade híbrida, consulte [Plan Call data Connector](plan-call-data-connector.md).
 
@@ -139,8 +136,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 
 ## <a name="view-on-premises-data-through-the-online-dashboard"></a>Exibir dados locais por meio do painel online
 
- Após a habilitação do conector de dados de chamada, você pode exibir seus dados de chamada local no painel de análise de chamada, conforme descrito em [usar o Call Analytics para solucionar problemas de qualidade ruim](https://docs.microsoft.com/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality).
-
+ Após a habilitação do conector de dados de chamada, você pode exibir seus dados de chamada local no painel de análise de chamada ou no painel de qualidade de chamada, conforme descrito em [usar o Call Analytics para solucionar problemas de qualidade ruim](https://docs.microsoft.com/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality) e [ativar e usar o painel de qualidade de chamada para Microsoft Teams e Skype for Business online](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard).
 
 ## <a name="for-more-information"></a>Para saber mais
 

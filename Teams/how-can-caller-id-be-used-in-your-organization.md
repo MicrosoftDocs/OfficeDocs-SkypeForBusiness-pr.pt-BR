@@ -21,12 +21,12 @@ f1keywords: ms.teamsadmincenter.voice.callerid.overview
 ms.custom:
 - Calling Plans
 description: A identificação de chamadas pode ser controlada para chamadas de entrada e de saída para usuários do sistema telefônico usando uma política chamada CallingLineIdentity.
-ms.openlocfilehash: 31948a8361d8ae5a15ce84549d982d0c7f9adf1b
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: f5357ae8c19182329a7c82651ac74a6727228d03
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36484032"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328305"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Como a identificação de chamadas pode ser usada em sua organização
 
@@ -65,7 +65,7 @@ Para definir a identificação de chamada de saída, consulte [Definir a identif
 
 The EnableUserOverride attribute enables single or multiple users to change their Caller ID setting to **Anonymous**. This only applies when a CallingLineIdentity policy is configured with a CallingIDSubstitute parameter of either LineURI or Substitute. The default value of EnableUserOverride is False.
   
-Seus usuários finais podem definir a identificação de chamadas **** como anônimas usando a guia **configurações** no cliente da área de trabalho do Skype for Business, selecionar **chamadas para um usuário final** (se habilitado pelo administrador), selecionar **ocultar meu número de telefone e informações de perfil para todas as chamadas **.
+Seus usuários finais podem definir a identificação de chamadas como **anônimas** usando a guia **configurações** no cliente da área de trabalho do Skype for Business, selecionar **chamadas para um usuário final** (se habilitado pelo administrador), selecionar **ocultar meu número de telefone e informações de perfil para todas as chamadas **.
   
 ||||
 |:-----|:-----|:-----|
@@ -78,7 +78,9 @@ Seus usuários finais podem definir a identificação de chamadas **** como anô
    
 ## <a name="inbound-caller-id"></a>Identificação de chamada de entrada
 
-The BlockIncomingCallerID attribute allows for blocking the caller ID on incoming PSTN calls. You can set this attribute, but it isn't available to your end users on the user settings page. And it is currently available only with Online PSTN connectivity.
+O sistema de telefonia mostrará a ID chamada para um número de telefone externo se o número estiver associado a um usuário no Azure AD. Se o número de telefone não estiver no Azure AD, o nome de exibição fornecido pela Telco será exibido se estiver disponível.
+
+O atributo BlockIncomingCallerID permite o bloqueio da identificação de chamada nas chamadas PSTN de entrada. Você pode definir esse atributo, mas ele não está disponível para os usuários finais na página Configurações do usuário. E ele está disponível atualmente apenas com a conectividade PSTN Online.
   
 Para definir a identificação de chamada de saída, consulte [Definir a identificação de chamadas para um usuário](/microsoftteams/set-the-caller-id-for-a-user).
   

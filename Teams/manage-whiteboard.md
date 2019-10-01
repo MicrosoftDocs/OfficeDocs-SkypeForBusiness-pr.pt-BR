@@ -1,15 +1,15 @@
 ---
 title: Gerenciar o quadro de comunicações no Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: chuckedmonson
+ms.author: chucked
 manager: serdars
-ms.date: 05/24/2019
+ms.date: 10/01/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: esmather
 search.appverid: MET150
-description: Saiba como usar o aplicativo Web whiteboard (versão prévia) no Microsoft Teams
+description: Saiba como usar o aplicativo Web whiteboard no Microsoft Teams
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
@@ -18,26 +18,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40c372c56cc58ad1f1682c48bf70bef60801fce3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7ef6e203f615f9ea4ed1b67fc9d5995713916367
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233253"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328390"
 ---
 <a name="manage-the-whiteboard-in-microsoft-teams"></a>Gerenciar o quadro de comunicações no Microsoft Teams
 ==========================================
 
-O Microsoft Whiteboard é uma tela de forma livre e digital na qual pessoas, conteúdo e ideias vêm juntos. A integração do whiteboard nas reuniões do Microsoft Teams é a plataforma do aplicativo Web whiteboard (versão prévia), que permite que os participantes da reunião do Team desenham, esboço e gravação juntos em uma tela digital compartilhada.
+O Microsoft Whiteboard é uma tela de forma livre e digital na qual pessoas, conteúdo e ideias vêm juntos. A integração do whiteboard nas reuniões do Microsoft Teams é a plataforma do aplicativo Web whiteboard, que permite que os participantes da reunião do Team desenhem, esboços e escrever juntos em uma tela digital compartilhada.
 
-> [!NOTE]
-> A integração do whiteboard nas reuniões do teams está atualmente em visualização comercial, disponível para Microsoft Teams no Windows 10, iOS, Android e na Web. Ele deve estar ativado no centro de administração do Microsoft 365.
-
-Os usuários podem compartilhar um quadro de comunicações para torná-lo disponível para todos os participantes de uma reunião do teams. O mesmo quadro de comunicações está simultaneamente disponível em todos os aplicativos do quadro de comunicações no Windows 10, iOS e no aplicativo Web (visualização).
+Os usuários podem compartilhar um quadro de comunicações para torná-lo disponível para todos os participantes de uma reunião do teams. O mesmo quadro de comunicações está simultaneamente disponível em todos os aplicativos do quadro de comunicações no Windows 10, iOS e no aplicativo Web.
 
 ## <a name="turn-on-or-turn-off-the-whiteboard-app"></a>Ativar ou desativar o aplicativo quadro de comunicações
 
-Para ativar ou desativar o aplicativo Web whiteboard (versão prévia), faça o seguinte:
+Para ativar ou desativar o aplicativo Web do whiteboard, siga estas etapas:
 
 1. Vá para o centro de administração do Microsoft 365.
 
@@ -45,15 +42,15 @@ Para ativar ou desativar o aplicativo Web whiteboard (versão prévia), faça o 
 
 3. Na página do **serviço & suplementos** , role para baixo e escolha **whiteboard**.
 
-4. Para ativar o aplicativo do quadro de comunicações, no painel do **quadro de comunicações** , ative ou desative a **** **visualização do quadro de comunicações para toda a sua organização** .
+4. **Para ativar**o aplicativo do quadro de comunicações, no painel **whiteboard** , **ative ou desative o quadro de comunicações para toda a sua organização** .
 
-    Para desativar o aplicativo quadro de comunicações, no painel **quadro de comunicações** , ative ou desative a **** **visualização do whiteboard para toda a organização** .
+    Para desativar o aplicativo whiteboard, no painel **whiteboard** , ative ou desative o **quadro de comunicações para toda a sua organização** **.**
 
 5. Clique em **Salvar**.
 
 ## <a name="whiteboard-on-surface-hub"></a>Whiteboard no Surface Hub
 
-Antes de tentar usar o Microsoft whiteboard, verifique se o aplicativo Microsoft whiteboard está instalado em seu dispositivo Surface Hub. Se o whiteboard não estiver instalado, no dispositivo Surface Hub, vá para o aplicativo da Microsoft Store e obtenha o [Microsoft whiteboard](https://www.microsoft.com/en-us/p/microsoft-whiteboard/9mspc6mp8fm4?activetab=pivot:overviewtab). Para obter mais informações, vá para [habilitar o Microsoft whiteboard no Surface Hub](https://support.office.com/article/enable-microsoft-whiteboard-on-surface-hub-b5df4539-f735-42ff-b22a-0f5e21be7627).
+Antes de tentar usar o Microsoft whiteboard, verifique se o aplicativo do quadro de comunicações está instalado em seu dispositivo Surface Hub. Se o whiteboard não estiver instalado, no dispositivo Surface Hub, vá para o aplicativo da Microsoft Store e obtenha o [Microsoft whiteboard](https://www.microsoft.com/p/microsoft-whiteboard/9mspc6mp8fm4?activetab=pivot:overviewtab). Para obter mais informações, consulte [habilitar o Microsoft whiteboard no Surface Hub](https://support.office.com/article/enable-microsoft-whiteboard-on-surface-hub-b5df4539-f735-42ff-b22a-0f5e21be7627).
 
 ## <a name="more-information"></a>Mais informações
 
