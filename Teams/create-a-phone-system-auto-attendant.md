@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar atendedores automáticos da nuvem para o Microsoft Teams.
-ms.openlocfilehash: bd23262a3b8cd3c50cffbb4be6aa70317d209613
-ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
+ms.openlocfilehash: 6ac4ccea48e70a8bba5e11511379fef5c5a2a861
+ms.sourcegitcommit: e89c2234fc5aa8f7eeef66ba1ae093a0f7beda85
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36447936"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "37349244"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar um atendedor automático do Cloud
 
@@ -51,7 +51,7 @@ Se você quiser saber mais sobre atendedores automáticos, consulte [o que são 
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Usar o centro de administração do Microsoft Teams
 
-No **centro de administração do Microsoft Teams**, clique em atendedores automáticos de **voz** > **** e, em seguida, clique em **+ novo**:
+No **centro de administração do Microsoft Teams**, clique em**atendedores automáticos**de **voz** > e, em seguida, clique em **+ novo**:
 
 #### <a name="general-info-page"></a>Página de informações gerais
 
@@ -67,11 +67,14 @@ No **centro de administração do Microsoft Teams**, clique em atendedores autom
 
 ![Ícone do número 2, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout2.png)
 
+<a name="phonenumber"> </a>
+
 **Conta do recurso** Clique neste botão para selecionar uma ou mais contas de recursos para se conectar ao seu novo atendedor automático. Todos os atendedores automáticos devem ter uma conta de recurso associada. Uma conta de recurso pode ter um número de telefone associado à conta, mas um número de telefone não é um requisito. Um atendedor automático de nível superior geralmente tem uma conta de recurso com um número de telefone atribuído, mas o atendedor automático aninhado (usado como um menu de nível 2 ao qual o atendedor automático de primeiro nível se conecta) pode não ter um número de telefone atribuído à sua conta de recurso.
 
 * * *
 
-![Ícone do número 3, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout3.png)
+![Ícone do número 3, fazendo referência a um texto explicativo na](media/sfbcallout3.png)
+ <a name="timezone"> </a> captura de tela anterior
 
 **Fuso horário** Você deve definir o fuso horário para o atendedor automático, mas ele não precisa corresponder ao fuso horário do endereço principal de sua organização. Cada atendedor automático pode ter um fuso horário diferente, e o horário comercial definido para o atendedor automático é definido com base no fuso horário selecionado aqui.
 
@@ -79,17 +82,21 @@ No **centro de administração do Microsoft Teams**, clique em atendedores autom
 
 ![Ícone do número 4, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout4.png)
 
+<a name="language"> </a>
+
 **Idioma** Selecione o idioma que você deseja usar para o atendedor automático entre os idiomas disponíveis listados. O idioma que você define aqui é o idioma que o atendedor automático usa para interagir com as pessoas que fazem chamadas para este atendedor automático e todos os prompts do sistema são reproduzidos nesse idioma.
 
 * * *
 
 ![Ícone do número 5, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout5.png)
 
+<a name="operator"> </a>
+
 **Operador** de Isso é opcional, mas você pode definir a opção de **operador** para permitir que os chamadores se quebrem dos menus e falar com uma pessoa.
 
 A tecla 0 é atribuída ao operador por padrão.
 
-Se você definir um operador, também precisará dizer às pessoas que chamam a opção sobre a opção nas **Opções do menu Editar** na página de **manipulação de chamadas do horário comercial** . Se você definir um operador em seu atendedor automático, será necessário inserir o texto de aviso correspondente na **** caixa os chamadores ouvirá ou alterar seu arquivo de áudio para incluir essa opção. Por exemplo, "Para falar com o operador, pressione 0".
+Se você definir um operador, também precisará dizer às pessoas que chamam a opção sobre a opção nas **Opções do menu Editar** na página de **manipulação de chamadas do horário comercial** . Se você definir um operador em seu atendedor automático, será necessário inserir o texto de aviso correspondente na caixa os **chamadores ouvirá** ou alterar seu arquivo de áudio para incluir essa opção. Por exemplo, "Para falar com o operador, pressione 0".
 
 Você tem várias maneiras de definir o operador:
 
@@ -147,6 +154,8 @@ Você pode configurar saudações, avisos e menus que as pessoas ouvirão quando
 
 ![Ícone do número 1, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout1.png)
 
+<a name="greetingsandrouting"> </a>
+
 **Saudação** Uma saudação na hora da empresa é opcional e pode ser definida como **sem saudação**. Nesse caso, o chamador não ouvirá uma mensagem ou saudação antes que a chamada seja manipulada por uma das ações que você selecionar. Você também pode carregar um arquivo de áudio (em formatos .wav, .mp3 ou. wma) ou criar uma saudação personalizada usando conversão de texto em fala.
 - **Carregar um arquivo de áudio** Se você escolher isso, grave a saudação e, em seguida, carregue seu arquivo de áudio (nos formatos. wav,. mp3 ou. WMA).
 - **Digite uma mensagem de saudação** Se você escolher essa opção, insira o texto que deseja que o sistema Leia (até 1000 caracteres). Por exemplo, você pode inserir "Bem-vindo à Contoso. A sua ligação é muito importante para nós." na caixa **Os chamadores ouvirão**.
@@ -156,6 +165,8 @@ Você pode configurar saudações, avisos e menus que as pessoas ouvirão quando
 ![Ícone do número 2, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout2.png)
 
 Você pode selecionar o que acontece com as chamadas que chegam durante o horário comercial. Você pode escolher entre as seguintes ações:
+
+<a name="redirectcalls"> </a>
 
 - **Desconectar** Se você selecioná-lo, a pessoa que está ligando será desconectada depois de ouvir uma saudação de horário comercial.
 - **Redirecionar chamada** Isso pode ser usado para enviar a chamada automaticamente para:
