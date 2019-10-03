@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Saiba o que são atendedores automáticos da nuvem e como usá-los.
-ms.openlocfilehash: b3541ad88f29727d07043cba46503d040e6434c0
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: fd1fd053c0ecab8e0a36835f6d26127db91431be
+ms.sourcegitcommit: 2d31209aae9e0171693389db97b0b5c974864673
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35536001"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37375682"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>Quais são os atendedores automáticos do Cloud?
 
@@ -75,7 +75,7 @@ Para começar a usar os atendedores automáticos, é importante lembrar-se de qu
 
 ### <a name="dial-by-name"></a>Discar por Nome
 
-Discar por nome é um recurso de um atendedor automático que também é conhecido como pesquisa de diretório. Ele permite que as pessoas que chamam seu atendedor automático usem voz (reconhecimento de fala) ou as respostas do teclado de telefone (DTMF) para inserir um nome completo ou parcial para pesquisar o diretório da empresa, localizar a pessoa e fazer com que a chamada seja transferida para ela. Os usuários que você quer localizar e alcançarem usando a discagem por nome **não devem ter um número de telefone ou ter planos de chamada atribuídos a eles, mas devem ter uma licença de sistema telefônico se eles forem usuários online ou EV habilitado para usuários**onmises. Discar por nome poderá, até mesmo, localizar e transferir chamadas para os usuários do Microsoft Teams que são hospedados em diferentes países ou regiões para organizações multinacionais.
+Discar por nome é um recurso de um atendedor automático que também é conhecido como pesquisa de diretório. Ele permite que as pessoas que chamam seu atendedor automático usem voz (reconhecimento de fala) ou as respostas do teclado de telefone (DTMF) para inserir um nome completo ou parcial para pesquisar o diretório da empresa, localizar a pessoa e fazer com que a chamada seja transferida para ela. Os usuários que você quer localizar e alcançarem usando a discagem por nome **não devem ter um número de telefone ou ter planos de chamada atribuídos a eles, mas devem ter uma licença de sistema telefônico se eles forem usuários online ou EV habilitado para usuários onmises**. Discar por nome poderá, até mesmo, localizar e transferir chamadas para os usuários do Microsoft Teams que são hospedados em diferentes países ou regiões para organizações multinacionais.
 
 ### <a name="maximum-directory-size"></a>Tamanho máximo do diretório
 
@@ -90,7 +90,6 @@ Não há limite no tamanho do Active Directory para o qual o dial por nome tem s
 > Se você estiver usando o recurso discar por nome com reconhecimento de fala, mas o Active Directory da sua organização for maior do que o 80.000 usuários e você não tiver limitado o escopo de discagem por nome usando o recurso de escopo de discagem, o recurso discar por nome ainda funcionará para seus chamadores usando um teclado de telefone , e as entradas de voz estarão disponíveis para todos os outros cenários. Você pode usar o recurso Escopo de Discagem para restringir os nomes que são acessíveis mudando o escopo da Discagem por Nome para um atendedor automático específico.
   
 ### <a name="dial-by-name---keypad-dtmf-entry"></a>Discar por Nome - entrada de teclado (DTMF)
-
 As pessoas que fazem chamadas podem usar o recurso discar por nome para acessar os usuários especificando o nome completo ou parcial da pessoa que estão tentando acessar. Há vários formatos que podem ser usados quando o nome é inserido.
 
 Ao pesquisar o diretório de sua organização, as pessoas podem usar a tecla '0' (zero) para indicar um espaço entre o nome e o sobrenome ou sobrenome e nome. Quando eles estiverem inserindo o nome, será solicitado que ele encerre a entrada do teclado com a tecla #. Por exemplo, "Depois que você inserir o nome da pessoa que está tentando contatar, pressione #". Se vários nomes forem localizados, a pessoa que liga receberá uma lista de nomes para escolher.

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar atendedores automáticos da nuvem para o Microsoft Teams.
-ms.openlocfilehash: 6ac4ccea48e70a8bba5e11511379fef5c5a2a861
-ms.sourcegitcommit: e89c2234fc5aa8f7eeef66ba1ae093a0f7beda85
+ms.openlocfilehash: 0cac6b1bb7d19e91e4042bcb0673f6c677e77d2e
+ms.sourcegitcommit: 2d31209aae9e0171693389db97b0b5c974864673
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "37349244"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37375704"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar um atendedor automático do Cloud
 
@@ -211,14 +211,15 @@ Para configurar as opções de menu, depois de selecionar as teclas de discagem,
 
     > [!Note]
     > **A pessoa em sua empresa** pode ser um usuário online ou um usuário hospedado no local usando o Skype for Business Server ou o Lync Server 2013.
-    - Outro **atendedor automático**
+
+  - Outro **atendedor automático**
 
        Você pode usar um atendedor automático existente para criar um segundo nível de opções de menu contendo um submenu. These are called nested auto attendants. Para enviar a chamada para um atendedor automático aninhado, selecione **pessoa na empresa** e atribua uma conta de recurso, uma que já tenha um atendedor automático associado ou que você associe a um atendedor automático quando terminar de criar este atendedor automático.
 
         > [!Note]
-        > O **horário comercial** dos atendedores automáticos aninhados (ou de segundo nível) também será usado, incluindo as chamadas enviadas de outros atendedores automáticos que foram configurados.
+        > The **Business Hours** of nested (or second-level) auto attendants will also be used, including for the calls sent from other auto attendants that have been set up.
 
-       - **Aplicativo de voz** Selecione o nome de uma conta de recurso associada a uma fila de chamadas ou atendedor automático que já foi criado.
+    - **Aplicativo de voz** Selecione o nome de uma conta de recurso associada a uma fila de chamadas ou atendedor automático que já foi criado.
 
 * * *
 
@@ -231,6 +232,8 @@ Para configurar as opções de menu, depois de selecionar as teclas de discagem,
 Quando terminar de selecionar as opções, clique em **Avançar**.
 
 #### <a name="holiday-call-settings"></a>Configurações de chamadas de Natal
+
+<a name="holidaygreetings"> </a>
 
 Você pode adicionar até 20 feriados agendados para cada atendedor automático.
 
@@ -283,6 +286,7 @@ Os nomes de feriados podem ter até 64 caracteres e devem ser únicos para o mes
     > [!Note]
     > Por padrão, todas as chamadas recebidas durante um período de feriado desconectam a pessoa após a saudação (se houver uma), portanto, você deve especificar um redirecionamento caso outro comportamento seja desejado.
 
+<a name="dialscope"></a>
 #### <a name="select-dial-scope-page"></a>Página Selecionar escopo de discagem
 
 Nesta página, você pode configurar quais usuários em sua organização serão listados em seu diretório e disponíveis para discar por nome quando uma pessoa ligar para a sua organização.

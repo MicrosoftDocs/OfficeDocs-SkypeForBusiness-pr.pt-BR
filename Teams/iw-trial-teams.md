@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6db5146248157893a26f62fb6e01fb020a67f70
-ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
+ms.openlocfilehash: 74eb3ab344dae0bd60e9b5c82199ef3dd51975c5
+ms.sourcegitcommit: 6cee93b799f60f19513c29e8c16fa67c4de028fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "37018829"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "37341863"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gerenciar a oferta de avaliação na nuvem comercial do Microsoft Teams
 =======================================================
@@ -71,9 +71,9 @@ Todas as avaliações em sua organização compartilham as mesmas datas de iníc
 
 ## <a name="manage-the-trial"></a>Gerenciar a versão de avaliação
 
-As licenças de avaliação são atribuídas da mesma forma que qualquer outra assinatura adquirida por um administrador é atribuída. Para obter mais informações, consulte [Atribuir licenças a usuários no Office 365 para empresas](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide). 
+A Versão de Avaliação do Teams deve ser iniciada por usuários finais individuais, e você não pode iniciar a oferta de Avaliação do Teams em nome de funcionários finais.
 
-Além disso, os administradores podem desabilitar a capacidade de os usuários finais solicitarem aplicativos e serviços de avaliação na organização.  Atualmente, a avaliação descrita neste artigo é a única avaliação nessa categoria, mas pode se aplicar a outros programas semelhante no futuro. 
+Os administradores podem desativar a capacidade de os usuários finais reivindicarem aplicativos e serviços de avaliação em sua organização. Atualmente, a avaliação descrita neste artigo é a única avaliação nessa categoria, mas pode se aplicar a outros programas semelhante no futuro. 
 
 ### <a name="prevent-users-from-installing-trial-apps-and-services"></a>Impeça que os usuários instalem serviços e aplicativos de avaliação
 

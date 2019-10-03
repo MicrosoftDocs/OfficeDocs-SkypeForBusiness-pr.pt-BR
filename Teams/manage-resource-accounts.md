@@ -18,16 +18,14 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Saiba mais sobre como gerenciar contas de recursos no Microsoft Teams
-ms.openlocfilehash: 0508408fbf5bde620cefe9233df4aa62ecf880df
-ms.sourcegitcommit: e89c2234fc5aa8f7eeef66ba1ae093a0f7beda85
+ms.openlocfilehash: 07718421daca271358964914fd29409b7b23fb58
+ms.sourcegitcommit: 2d31209aae9e0171693389db97b0b5c974864673
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "37349258"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37375693"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gerenciar contas de recursos no Microsoft Teams
-
-<a name="bk">intervalo</a>
 
 Uma conta de recurso também é conhecida como *objeto de usuário desabilitado* no Azure AD e pode ser usada para representar recursos em geral. No Exchange, ele pode ser usado para representar salas de conferência, por exemplo, e permitir que elas tenham um número de telefone. Uma conta de recurso pode ser hospedada no Microsoft 365 ou em instalações locais usando o Skype for Business Server 2019.
 
@@ -118,6 +116,7 @@ Em seguida, aplique uma licença para a conta do recurso no centro de administra
 ![Ícone do número 2, fazendo referência a um texto explicativo na](media/sfbcallout2.png) captura de tela anterior, você pode editar o nome de exibição da conta do recurso usando a opção **Editar** . Clique em **salvar** quando terminar.
 ![Captura de tela da opção Editar conta de recurso](media/r-a-edit.png)
 
+<a name="phonenumber"></a>
 ### <a name="assignunassign-phone-numbers-and-services"></a>Atribuir/cancelar a atribuição de números de telefone e serviços
 
 ![Ícone do número 3, fazendo referência a um texto explicativo na](media/sfbcallout3.png) captura de tela anterior depois de criar a conta do recurso e atribuir a licença, você pode clicar em **atribuir/Cancelar atribuição** para atribuir um número de serviço para a conta do recurso ou atribuir o recurso conta em um atendedor automático ou em uma fila de chamadas que já existe. Só é possível fazer a atribuição de um número de roteamento direto usando cmdlets. Se a fila de chamadas ou o atendedor automático ainda precisar ser criado, você poderá vincular a conta do recurso enquanto a cria. Clique em **salvar** quando terminar.
