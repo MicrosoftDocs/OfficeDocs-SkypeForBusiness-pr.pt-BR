@@ -3,10 +3,9 @@ title: Gerenciar políticas de reunião
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 05/14/2019
 ms.topic: article
 ms.service: msteams
-ms.reviewer: sonua
+ms.reviewer: sonua, shalenc
 audience: admin
 localization_priority: Normal
 search.appverid: MET150
@@ -22,19 +21,19 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Saiba como gerenciar as configurações de política de reunião no Teams.
-ms.openlocfilehash: eff7eb41b5dccba299f8650c5771b33df04e719b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f926704a256bbea551d4aaa32bd98ba87322930c
+ms.sourcegitcommit: 58be786003d5ff703adfcd636585fb1852aba486
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236616"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "37391432"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
 ::: zone target="docs"
 As políticas de reunião são usadas para controlar os recursos que estão disponíveis para os participantes da reunião em reuniões agendadas pelos usuários da sua organização. Depois de criar uma política e fazer suas alterações, você pode atribuir usuários à política. Você gerencia políticas de reunião no centro de administração do Microsoft Teams ou [usando o PowerShell](teams-powershell-overview.md).
 
-Você pode implementar políticas das seguintes maneiras, que afetam a experiência de reunião para os usuários antes de iniciar uma reunião, durante uma reunião ou após uma reunião. 
+Você pode implementar políticas das seguintes maneiras, que afetam a experiência de reunião para os usuários antes de iniciar uma reunião, durante uma reunião ou após uma reunião.
 
 |Tipo de implementação  |Descrição  |
 |---------|---------|
@@ -72,7 +71,7 @@ Se você estiver aplicando uma política a mais de um usuário, selecione **usu�
  
 Você também pode atribuir uma política de reunião a um ou mais usuários da seguinte maneira:
 
-1. Acesse **o centro** > de administração do Microsoft Teams,**políticas de reunião**de**reuniões** > .
+1. Acesse >  **o centro de administração do Microsoft Teams**,**políticas de reunião**de**reuniões** > .
 2. Selecione a política clicando à esquerda do nome da política.
 3. Selecione **gerenciar usuários**.
 4. No painel **gerenciar usuários** , procure pelo usuário por nome para exibição ou por nome de usuário, selecione o nome e, em seguida, selecione **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
@@ -104,7 +103,7 @@ Ao selecionar uma política existente na página **políticas de reunião** ou s
 
 ### <a name="allow-meet-now-in-channels"></a>Permitir reunir agora em canais
 
-Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Esta configuração controla se um usuário pode iniciar uma reunião ad-hoc em um canal do teams. Se você ativar esta opção, quando um usuário postar uma mensagem em um canal do Teams, o usuário pode clicar em **reunir agora** abaixo da caixa de texto para iniciar uma reunião ad-hoc no canal.
+Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Esta configuração controla se um usuário pode iniciar uma reunião ad hoc em um canal do teams. Se você ativar esta opção, quando um usuário postar uma mensagem em um canal do Teams, o usuário pode clicar em **reunir agora** abaixo da caixa de texto para iniciar uma reunião ad hoc no canal.
 
 ![Captura de tela mostrando o ícone reunir agora abaixo de uma mensagem](media/meeting-policies-meet-now.png)
 
@@ -118,13 +117,13 @@ Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Es
 
 ![Captura de tela mostrando a capacidade de agendar uma nova reunião](media/meeting-policies-outlook-add-in.png)
 
-Se você desativar essa opção, os usuários não poderão agendar reuniões do teams ao criarem uma nova reunião no Outlook. Por exemplo, no Outlook no Windows, a **nova** opção de reunião do Teams não aparece na faixa de opções.
+Se você desativar essa opção, os usuários não poderão agendar reuniões do teams ao criarem uma nova reunião no Outlook. Por exemplo, no Outlook no Windows, a **nova opção de reunião do teams** não aparece na faixa de opções.
 
 ### <a name="allow-channel-meeting-scheduling"></a>Permitir agendamento de reunião de canal
 
 Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Esta configuração controla se os usuários podem agendar uma reunião em um canal do teams.  Se você desativar essa opção, a opção **agendar uma reunião** não estará disponível para o usuário quando ele iniciar uma reunião em um canal do Teams e a opção **selecionar um canal para atender** não estará disponível para o usuário quando eles agendarem uma reunião a partir de reuniões no Microsoft Teams.
 
-![Captura de tela mostrando a opção agendar uma reunião no Microsoft Teams](media/meeting-policies-schedule-a-meeting.png)
+![Captura de tela mostrando a opção agendar uma reunião no Teams](media/meeting-policies-schedule-a-meeting.png)
 
 ![Captura de tela mostrando a opção Selecionar um canal para se reunir](media/meeting-policies-select-a-channel-to-meet-in.png)
 
@@ -132,7 +131,7 @@ Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Es
 
 Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Esta configuração controla se os usuários podem agendar reuniões privadas no Teams. Uma reunião é particular quando não é publicada em um canal de uma equipe.
 
-Observe que, se você desativar a opção **permitir reuniões privadas de agendamento** e **permitir agendamento de reunião de canal**, a opção agendar **uma reunião** não estará disponível e os usuários não poderão agendar reuniões no Microsoft Teams.
+Observe que, se você desativar a opção **permitir reuniões privadas de agendamento** e **permitir agendamento de reunião de canal**, a opção **agendar uma reunião** não estará disponível e os usuários não poderão agendar reuniões no Microsoft Teams.
 
 <a name="bkaudioandvideo"> </a>
 
@@ -142,7 +141,7 @@ Observe que, se você desativar a opção **permitir reuniões privadas de agend
 - [Permitir gravação na nuvem](#allow-cloud-recording)
 - [Permitir vídeo IP](#allow-ip-video)
 - [Taxa de bits de mídia (KBs)](#media-bit-rate-kbs)
-- [Habilitar legendas dinâmicas (em breve)](#enable-live-captions-coming-soon)
+- [Habilitar legendas ao vivo (visualização)](#enable-live-captions-preview)
 
 ### <a name="allow-transcription"></a>Permitir transcrição
 
@@ -158,7 +157,7 @@ Trata-se de uma combinação de uma política por organização e por usuário. 
 
 Pessoas de fora da sua organização, como usuários federados e anônimos, não podem iniciar a gravação. Os usuários convidados não podem iniciar ou parar a gravação. 
 
-![Captura de tela mostrando as opções de gravação](media/meeting-policies-recording.png)
+![Captura de tela mostrando opções de gravação](media/meeting-policies-recording.png)
 
 Vamos dar uma olhada no exemplo a seguir.
 
@@ -170,13 +169,13 @@ Vamos dar uma olhada no exemplo a seguir.
 
 Reuniões organizadas por Daniela não podem ser gravadas e Amanda, que tem a configuração de política habilitada, não pode gravar reuniões organizadas por Daniela. Reuniões organizadas por Amanda podem ser registradas, no entanto, Daniela, que têm a configuração de política desabilitada e John, que é um usuário externo, não pode gravar reuniões organizadas por Amanda.
 
-Para saber mais sobre a gravação de reunião em nuvem, consulte [gravação de reunião na nuvem](cloud-recording.md)do teams.
+Para saber mais sobre a gravação de reunião em nuvem, consulte [gravação de reunião na nuvem do teams](cloud-recording.md).
 
 ### <a name="allow-ip-video"></a>Permitir vídeo IP
 
 Trata-se de uma combinação de uma política por organização e por usuário. Vídeo é um componente importante para reuniões. Em algumas organizações, os administradores podem querer ter mais controle sobre quais reuniões de usuários têm vídeo. Esta configuração controla se o vídeo pode ser ativado em reuniões hospedadas por um usuário e em chamadas do 1:1 e chamadas em grupo iniciadas por um usuário. Reuniões organizadas por um usuário que tem essa política habilitada, permitir o compartilhamento de vídeo na reunião pelos participantes da reunião, se os participantes da reunião também tiverem a política habilitada. Os participantes da reunião que não têm políticas atribuídas (por exemplo, participantes anônimos e federados) herdam a política do organizador da reunião.
 
-![Captura de tela mostrando uma reunião com configurações de áudio e vídeo](media/meeting-policies-audio-video-settings.png)
+![Captura de tela mostrando uma reunião com as configurações de áudio e vídeo](media/meeting-policies-audio-video-settings.png)
 
 Vamos dar uma olhada no exemplo a seguir.
 
@@ -199,9 +198,17 @@ Se não houver largura de banda suficiente para uma reunião, os participantes v
 
 Para reuniões que precisam de experiência com vídeo de alta qualidade, como reuniões de tabuleiro de CEO e eventos ao vivo da equipe, recomendamos que você defina a largura de banda como 10 Mbps. Mesmo quando a experiência máxima é definida, a pilha de mídia do teams se adapta às condições de pouca largura de banda quando determinadas condições de rede são detectadas, dependendo do cenário. 
 
-### <a name="enable-live-captions-coming-soon"></a>Habilitar legendas dinâmicas (em breve)
+### <a name="enable-live-captions-preview"></a>Habilitar legendas ao vivo (visualização)
 
-Esta é uma política por usuário e aplica-se durante uma reunião. Se essa configuração estiver ativada, o usuário verá uma opção para exibir legendas durante uma reunião.
+Esta é uma política por usuário e aplica-se durante uma reunião. Esta configuração controla se a opção **Ativar legendas dinâmicas** está disponível para o usuário ativar e desativar legendas dinâmicas em reuniões que o usuário participa.  
+
+![Captura de tela mostrando a opção Ativar legendas ao vivo](media/meeting-policies-live-captions.png)
+
+|Valor de configuração |Comportamento  |
+|---------|---------|
+|**Desativado e o usuário pode substituir**     | As legendas dinâmicas não são ativadas automaticamente para o usuário durante uma reunião. O usuário vê a opção **Ativar legendas ao vivo** no menu de estouro (**...**) para ativá-las. Esta é a configuração padrão. |
+|**Desabilitado**     | As legendas ao vivo são desabilitadas para o usuário durante uma reunião. O usuário não tem a opção de ativá-los.          |
+
 
 <a name="bkcontentsharing"> </a>
 
@@ -320,7 +327,6 @@ Essas configurações controlam quais participantes da reunião aguardam no lobb
 - [Admitir pessoas automaticamente](#automatically-admit-people)
 - [Permitir que pessoas anônimas iniciem uma reunião](#allow-anonymous-people-to-start-a-meeting)
 - [Permitir que os usuários de discagem ignorem o lobby](#allow-dial-in-users-to-bypass-the-lobby-coming-soon)
-- [Permitir que os organizadores substituam as configurações de lobby](#allow-organizers-to-override-lobby-settings-coming-soon)
 
 > [!NOTE]
 >As opções para ingressar em uma reunião irão variar, dependendo das configurações de cada grupo de equipe e do método de conexão. Se o seu grupo tiver videoconferência e o usar para se conectar, consulte [videoconferência no Office 365](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). Se o grupo Teams não tiver videoconferências, consulte [ingressar em uma reunião no Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
@@ -382,31 +388,6 @@ Aqui está o comportamento da junção de pessoas que discam por telefone.
 |   | Todos em sua organização     |Aguardar no lobby         |
 |   | Todos em sua organização e organizações federadas      | Aguardar no lobby         |
 
-### <a name="allow-organizers-to-override-lobby-settings-coming-soon"></a>Permitir que os organizadores substituam as configurações de lobby (disponível em breve)
-
-Esta é uma política por organizador. Esta configuração controla se o organizador da reunião pode substituir as configurações de lobby que um administrador definiu para **admitir automaticamente as pessoas** e **permitir que os usuários de discagem ignorem o lobby** quando eles agendam uma nova reunião. 
-
-Os organizadores da reunião podem clicar em **Opções de reunião** no convite da reunião para alterar as configurações de lobby de cada reunião que elas agendam. 
-
-Veja como essa configuração afeta se o organizador da reunião pode alterar a configuração **admitir pessoas automaticamente** para cada reunião agendada pelo organizador.
-
-|Permitir que os organizadores substituam as configurações de lobby  |Admitir pessoas automaticamente  |Comportamento |
-|---------|---------|---------|
-|True    | Todos      | O organizador pode alterar a configuração para qualquer outro valor. |
-|   | Todos em sua organização       | O organizador pode alterar a configuração para qualquer outro valor.|
-|   | Todos em sua organização e organizações federadas       | O organizador pode alterar isso para qualquer outro valor.         |
-|False    | Todos        | O organizador pode alterar a configuração para qualquer outro valor.|
-|   | Todos em sua organização     |O organizador pode alterar a configuração para **todos em sua organização**. |
-|   | Todos em sua organização e organizações federadas      | O organizador não substitui a configuração de lobby. |
-
-Veja como essa configuração afeta se o organizador da reunião pode alterar o **permitir que os usuários de discagem ignorem a** configuração de lobby para cada reunião agendada pelo organizador.
-    
-|Permitir que os organizadores substituam as configurações de lobby  |Permitir que os usuários de discagem ignorem o lobby  |Comportamento |
-|---------|---------|---------|
-|True    |  True        | O organizador pode alterar a configuração para false.       |
-|True      | False         | O organizador pode alterar a configuração para true.        |
-|False     | True        |O organizador pode alterar a configuração para false.         |
-|False      |False          |O organizador não substitui a configuração de lobby e não pode permitir que os usuários de discagem ignorem o lobby na reunião.        |
 
 [Artigo completo](meeting-policies-in-teams.md)
 
