@@ -1,14 +1,14 @@
 ---
-title: Atualizar para o Microsoft Teams de uma implantação híbrida ou local do Skype for Business ‒ Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+title: Atualize para o Teams a partir de uma implantação local do Skype for Business-Microsoft Teams
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 01/09/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: dearbeen
-description: Considerações para a atualização do teams a partir de uma implantação híbrida ou local do Skype for Business.
+ms.reviewer: bjwhalen
+description: Considerações para a atualização para o Teams a partir de uma implantação local do Skype for Business.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -17,14 +17,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 873e15e5b1f64e82889bfda6fa30c5b9394dcf3a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b41e716bb115d84b38aa5f2ead25d6347e2e0f1a
+ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235867"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "37396416"
 ---
-![Atualize o diagrama de viagem, enfatizando implantação e implementação] (media/upgrade-banner-deployment.png "Estágios da jornada da atualização, com ênfase no estágio de implantação e implementação")
+![Atualize o diagrama de jornada, enfatizando os estágios de implantação e implementação](media/upgrade-banner-deployment.png "da jornada da atualização, com ênfase no estágio de implantação e implementação")
 
 Este artigo faz parte do estágio de implantação e implementação da sua jornada de atualização. Antes de prosseguir, confirme que você concluiu as seguintes atividades:
 
@@ -36,34 +36,43 @@ Este artigo faz parte do estágio de implantação e implementação da sua jorn
 -   [Preparou sua organização](https://aka.ms/SkypeToTeams-UserReadiness)
 -   [Conduziu um piloto](https://aka.ms/SkypeToTeams-Pilot)
 
-# <a name="upgrade-to-teams-from-a-skype-for-business-hybrid-or-on-premises-deployment"></a>Atualize para o Teams a partir de uma implantação híbrida ou local do Skype for Business
+# <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Atualize o Skype for Business no local para o Microsoft Teams
 
-Siga as orientações neste artigo se você tiver implantado o Skype for Business ou o Microsoft Lync local e sua organização quiser atualizar para o Microsoft Teams de forma seletiva, usando vários modos de coexistência, ou todos. A primeira etapa é configurar a conectividade híbrida com o seu locatário do Office 365 e, em seguida, mover os usuários para o Skype for Business Online e atribuir a eles o modo de atualização e a coexistência apropriada. 
+Se você implantou o Skype for Business Server ou o Microsoft Lync local e sua organização quer atualizar para o Microsoft Teams, siga as orientações deste artigo. Você precisa configurar a conectividade híbrida com o seu locatário do Office 365 e determinar os requisitos de coexistência se estiver movendo os usuários para o Teams em fases. 
 
 > [!IMPORTANT]
 > O Skype for Business online será desativado em 31 de julho de 2021, após o qual ele não estará mais acessível ou compatível. Para maximizar a concretização de benefícios e garantir que sua organização tenha tempo adequado para implementar a sua atualização, recomendamos que você comece sua jornada ao Microsoft Teams hoje mesmo. Lembre-se de que uma atualização bem-sucedida alinha a prontidão técnica e do usuário, portanto, não deixe de aproveitar as diretrizes contidas ao navegar na jornada para o Microsoft Teams.
 
-## <a name="step-1-deploy-hybrid-connectivity"></a>Etapa 1: implantar a conectividade híbrida 
+## <a name="step-1-configure-hybrid-connectivity"></a>Etapa 1: configurar a conectividade híbrida 
 
-O principal pré-requisito para atualizar os usuários para o Microsoft Teams é implantar a conectividade híbrida. Isso pode envolver a implantação de uma nova conectividade externa para a implantação existente do Skype for Business ou do Lync, ou simplesmente configurar uma relação híbrida com o seu locatário do Office 365. 
+O principal pré-requisito para atualizar seus usuários locais para o Teams é configurar a conectividade híbrida para a implantação local do Skype for Business Server. 
 
-Para obter mais informações, consulte [implantar conectividade híbrida entre o Skype for Business Server e o Skype for Business online](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity).
+Comece lendo [planejar conectividade híbrida](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json) e siga as tarefas descritas em [configurar conectividade híbrida](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity).
 
-## <a name="step-2-move-users-to-skype-for-business-online"></a>Etapa 2: mover usuários para o Skype for Business Online 
 
-Depois de concluir a configuração híbrida, mova os usuários para o Skype for Business online. 
+## <a name="step-2-set-transitional-coexistence-mode-optional"></a>Etapa 2: definir o modo de coexistência de transições (opcional)
 
-Para obter mais informações, consulte [mover usuários do local para o Skype for Business online](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online). 
+A coexistência e interoperabilidade entre clientes do Skype for Business e do Teams e usuários são definidas pelos modos de atualização de equipe.  Por padrão, as organizações estão no modo de ilhas, o que permite que os usuários usem o Teams e os clientes do Skype for Business lado a lado.
 
-## <a name="step-3-assign-a-coexistence-and-upgrade-mode"></a>Etapa 3: atribuir um modo de coexistência e atualização
+Para uma organização migrando para o Microsoft Teams, o modo TeamsOnly é o destino final de cada usuário, mas nem todos os usuários precisam ser atribuídos TeamsOnly (ou qualquer outro modo) ao mesmo tempo.
 
-Depois de mover os usuários para o Skype for Business Online, você pode atribuir a eles o modo de coexistência apropriado com base na jornada de atualização que a sua organização escolheu. Para obter mais informações, consulte [definindo suas configurações de coexistência e atualização](https://aka.ms/SkypeToTeams-SetCoexistence) e [TeamsUpgradePolicy: Gerenciando a migração e](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence)a coexistência.
+Antes de os usuários alcançarem o modo TeamsOnly, as organizações podem usar opcionalmente qualquer um dos modos de coexistência do Skype for Business para garantir a comunicação previsível entre os usuários que estão no modo TeamsOnly e usuários que ainda não estão.  A finalidade dos modos de coexistência do Skype for Business (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) é fornecer uma experiência simples e previsível para os usuários finais como as organizações migrando do Skype for Business para o Teams. 
 
-> [!NOTE]
-> Com o Skype for Business Server 2019 e uma atualização cumulativa futura do Skype for Business Server 2015, você poderá executar a etapa 2 (movendo usuários para o Skype for Business online) e a etapa 3 (atualizar usuários para o Microsoft Teams) em uma única etapa. Mais informações serão fornecidas após o lançamento do Skype for Business Server 2019.
+Quando um usuário está em qualquer um dos modos do Skype for Business, todos os chats e chamadas recebidos são roteados para o cliente Skype for Business do usuário. Para evitar a confusão do usuário final e garantir o roteamento adequado, a chamada e a funcionalidade de chat no cliente do teams são desabilitadas quando um usuário está em qualquer um dos modos do Skype for Business. Da mesma forma, o agendamento da reunião no Teams é explicitamente desabilitado quando os usuários estão nos modos SfBOnly ou SfBWithTeamsCollab, e explicitamente habilitados quando um usuário está no modo de SfBWithTeamsCollabAndMeetings.
+
+Dependendo dos seus requisitos, você pode atribuir o modo de coexistência apropriado com base no caminho de atualização que a sua organização escolheu. Para obter mais informações, consulte [orientação de migração e interoperabilidade para organizações que usam o Microsoft Teams com o Skype for Business](migration-interop-guidance-for-teams-with-skype.md) e [como configurar sua coexistência e configurações de atualização](https://aka.ms/SkypeToTeams-SetCoexistence).
+
+
+## <a name="step-3-move-users-from-skype-for-business-on-premises-to-teams-only"></a>Etapa 3: mover os usuários do Skype for Business no local apenas para o Microsoft Teams
+
+Em última análise, você desejará mover seus usuários para o modo TeamsOnly. Isso pode envolver uma ou duas etapas, dependendo do seu ambiente local atual.  
+
+Para obter mais informações, consulte [mover usuários entre locais e a nuvem](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud) e [mover usuários do local para o Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams). 
+
+
 
 ## <a name="phone-system-and-teams-upgrade"></a>Atualização do sistema de telefonia e do teams
 
-Se você estiver fazendo a transição da sua implantação híbrida do Skype for Business para o sistema telefônico com planos de chamadas e a Microsoft for o seu provedor de rede telefônica pública comutada (PSTN) e presumir que você concluiu a portabilidade do número de telefone, a atualização dos usuários para O Microsoft Teams fará a transição de chamadas PSTN de entrada automaticamente para o Microsoft Teams.
+Se você estiver migrando sua implantação do Skype for Business para o sistema telefônico com planos de chamada, a Microsoft será o seu provedor de rede telefônica pública comutada (PSTN). Pressupondo que você concluiu a portabilidade do número de telefone--a atualização dos usuários para o Teams fará automaticamente a chamada PSTN de entrada para o Microsoft Teams.
 
-Se os planos de chamada não estiverem disponíveis, você precisará fazer a transição de sua implantação do Enterprise Voice para o roteamento direto do Microsoft Phone System. Para atualizar os usuários para o Microsoft Teams, consulte [considerações adicionais sobre o roteamento direto do sistema telefônico](2-envision-make-my-service-decisions-direct-routing.md).
+Se estiver migrando sua implantação do Skype for Business para o sistema telefônico, mas não estiver usando planos de chamada, você precisará fazer a transição de sua implantação do Enterprise Voice para o roteamento direto do sistema de telefone da Microsoft. Para obter mais informações, consulte [Roteamento direto do sistema telefônico](direct-routing-landing-page.md).
