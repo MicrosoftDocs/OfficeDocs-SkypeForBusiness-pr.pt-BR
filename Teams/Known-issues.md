@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6540daab8e42fd5f1d64d94e8112dc919ba21600
-ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
+ms.openlocfilehash: d3e5c5377543e780c8dd68e27451ee1ac526787f
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37305682"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435000"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -195,6 +195,10 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |Não há áudio durante o compartilhamento de conteúdo em uma reunião de transmissão  <br/> |Ao compartilhar conteúdo durante uma reunião de transmissão, o áudio do conteúdo compartilhado (link do YouTube ou um arquivo de vídeo salvo) não pode ser ouvido pelos participantes.  <br/> |Isso não é por design.  No momento o Microsoft Teams não dá suporte ao áudio do compartilhamento de conteúdo  <br/> |09/10/2018  <br/> |
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Não foi possível iniciar a reunião como Organizador no Outlook, pois você pode ficar preso no Lobby Virtual  <br/> |Você pode se deparar com esse problema se o seu cliente do Outlook estiver conectado a uma conta diferente do seu cliente do Teams. <br/> |Ao ingressar na reunião, certifique-se de que o cliente do Outlook e o cliente do Teams estejam conectados à mesma conta em que a reunião foi agendada.  <br/> |05/11/18  <br/> |
 
 ## <a name="mobile"></a>Mobile
 

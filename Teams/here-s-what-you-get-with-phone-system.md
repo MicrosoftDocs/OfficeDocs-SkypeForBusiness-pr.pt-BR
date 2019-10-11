@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: dd1a9d68646481f9508657db2634b7d3c325396d
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 398dcd2347f51cf4f50ee6fd7d6bfc6e95fe20d6
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328359"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434859"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Veja aqui o que você obtém com o Sistema de Telefonia no Office 365
 
@@ -35,7 +35,7 @@ Um PBX é um sistema telefônico em uma empresa. O sistema telefônico no comple
   
 Com o complemento do sistema telefônico, você pode usar o Skype for Business para concluir tarefas básicas, como fazer e receber chamadas, transferir chamadas e desativar ou desativar chamadas, de praticamente qualquer lugar com acesso à Internet. Ele está disponível em todo o mundo! 
   
-Para obter mais informações, consulte [preços do sistema telefônico](https://products.office.com/skype-for-business/cloud-pbx#requirements).
+Para obter mais informações, consulte [preços do sistema telefônico](https://products.office.com/microsoft-teams/voice-calling#requirements).
   
 ## <a name="phone-system-in-office-365-features"></a>Sistema telefônico nos recursos do Office 365
 
@@ -80,7 +80,7 @@ Configure o sistema telefônico da maneira mais adequada para a sua empresa:
     
 Consulte estes artigos para planejar e configurar o sistema telefônico na sua empresa:
 
-- [Sistema telefônico com planos de chamada](calling-plan-landing-page.md)
+- [Sistema de Telefonia com Planos de Chamadas](calling-plan-landing-page.md)
 
 - [Configurar planos de chamadas](set-up-calling-plans.md): Este artigo apresenta instruções passo a passo para se familiarizar com seus números de telefone ou transferir os números de telefone existentes para o Skype for Business.
     

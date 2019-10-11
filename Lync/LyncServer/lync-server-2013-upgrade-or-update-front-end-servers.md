@@ -10,12 +10,12 @@ ms:contentKeyID: 48183597
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 99c91a4f5fcae9f8d78bf01b19a17795916fb660
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5e4edb5ea009960fe0456f266a428431049f542b
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844559"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435167"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +39,7 @@ Os servidores de front-end em um pool da edição Enterprise são organizados em
 
 Ao atualizar os servidores, você deve fazer um domínio de atualização de cada vez. Coloque cada servidor em um domínio de atualização abaixo, atualize-o e reinicie-o antes de passar para outro domínio de atualização. Certifique-se de acompanhar quais domínios e servidores de atualização você atualizou até agora. Use o diagrama de fluxograma a seguir ao atualizar cada servidor.
 
-![42ed59a4-1c26-49f7-ade4-a5a788457ab9] (images/JJ204736.42ed59a4-1c26-49f7-ade4-a5a788457ab9(OCS.15).jpg "42ed59a4-1c26-49f7-ade4-a5a788457ab9")
+:::image type="content" source="images/UpgradeUpdateFrontEndServerslync2013.png" alt-text="Atualizar ou atualizar servidores front-end":::
 
 <div>
 

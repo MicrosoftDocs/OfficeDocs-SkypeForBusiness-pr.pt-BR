@@ -16,12 +16,12 @@ ms.collection:
 description: Saiba mais sobre os relatórios do teams que estão disponíveis no centro de administração do Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: de405a89b74a5e772e0f3d58027592d2e6ae4289
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: fad12604373c271d41b486d54c0093b5d273c6b8
+ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131568"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37439534"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Análise e relatórios do Microsoft Teams
 
@@ -45,10 +45,10 @@ Estamos melhorando continuamente a experiência de relatório do Teams e adicion
 |[Relatório de uso do Teams](teams-usage-report.md)  |  Usuários ativos<br/>Usuários ativos em equipes e canais<br/>Canais ativos<br/>Mensagens<br/>Configuração de privacidade do teams<br/>Convidados em uma equipe   |
 |[Relatório de atividades do usuário do Teams](user-activity-report.md)  |  1:1 chamadas de um usuário participou<br/>Mensagens que um usuário postou em um chat de equipe<br/>Mensagens que um usuário publicou em um chat privado<br/>Data da última atividade de um usuário     |
 |[Relatório de uso de dispositivos do Teams](device-usage-report.md)   |  Usuários do Windows:<br/>Usuários do Mac<br/>usuários do iOS<br/>Usuários de telefones Android     |
-|[Relatório de uso de eventos do teams Live](teams-live-event-usage-report.md)   |  Total de exibições<br>Hora de início<br>Status do evento<br>Organizador<br>Apresentações<br>Produtor<br>Configuração de gravação<br>Tipo de produção    |
+|[Relatório de uso de evento ao vivo do Teams](teams-live-event-usage-report.md)   |  Total de exibições<br>Hora de início<br>Status do evento<br>Organizador<br>Apresentações<br>Produtor<br>Configuração de gravação<br>Tipo de produção    |
 |[Relatório de usuários bloqueados PSTN de equipe](pstn-blocked-users-report.md)   |  Nome para exibição<br>Número de telefone<br>Motivo<br>Tipo de ação<br>Data e hora da ação   |
+|[Relatório de pools de minutos da PSTN em equipes](pstn-minute-pools-report.md) |  País ou região<br>Recurso (licença) <br>Total de minutos<br>Minutos usados<br>Minutos disponíveis|
 |[Relatório de uso de PSTN de equipe-planos de chamada](pstn-usage-report.md#calling-plans)|  Carimbo de data/hora<br>Nome de usuário<br>Número de telefone<br>Tipo de chamada <br>Chamado para<br>Para país ou região <br>Chamado de <br>Do país ou região<br>Chargeback<br>Moeda<br>Duração<br>Doméstica/internacional<br>ID da chamada<br>Tipo de número<br>País ou região<br>ID de conferência<br>Recurso (licença)|
-|[Relatório de uso de PSTN Teams-roteamento direto](pstn-usage-report.md#direct-routing)  |  Carimbo de data/hora<br>Nome para exibição<br>Endereço SIP<br>Número de telefone <br>Tipo de chamada<br>Chamado para<br>Hora de início<br>Hora do convite<br>Tempo de falha<br>Hora de término<br>Duração<br>Tipo de número<br>Bypass de mídia<br>O FQDN DO SBC<br>Região do Azure<br>Tipo de evento<br>Código SIP final<br>Subcódigo final da Microsoft<br>Frase SIP final<br>ID do coorelation  |
+|[Relatório de uso de PSTN Teams-roteamento direto](pstn-usage-report.md#direct-routing)  |  Carimbo de data/hora<br>Nome para exibição<br>Endereço SIP<br>Número de telefone <br>Tipo de chamada<br>Chamado para<br>Hora de início<br>Hora do convite<br>Tempo de falha<br>Hora de término<br>Duração<br>Tipo de número<br>Bypass de mídia<br>O FQDN DO SBC<br>Região do Azure<br>Tipo de evento<br>Código SIP final<br>Subcódigo final da Microsoft<br>Frase SIP final<br>ID de correlação  |
 
-> [!NOTE]
-> Os relatórios do teams mostram dados de usuários ativos e do Active Teams. Por exemplo, se um usuário em sua organização não estiver ativo no Teams durante o intervalo de datas especificado para um relatório, os dados desse usuário não serão incluídos nesse relatório.
+[!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]

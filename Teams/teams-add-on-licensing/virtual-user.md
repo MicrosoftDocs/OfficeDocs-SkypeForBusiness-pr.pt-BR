@@ -18,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Saiba mais sobre licenças de usuário virtual gratuitas.
-ms.openlocfilehash: c8d196d876ed8df32f28aabf96a5817be0195145
-ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
+ms.openlocfilehash: 96ea4ed71eac8c6b67e4fd4c7964591dcef1f635
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36447906"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435120"
 ---
 # <a name="phone-systemvirtual-user-license"></a>Sistema telefônico – licença de usuário virtual 
 
@@ -51,8 +51,11 @@ A Contoso deve considerar a reformulação do atendedor automático e o sistema 
 
 ## <a name="how-to-acquire-phone-systemvirtual-user-licenses"></a>Como adquirir um sistema telefônico – licenças de usuário virtual 
 
+> [!NOTE] 
+> Ao seguir essas instruções, desative o modo de visualização para comprar um sistema telefônico-licença de usuário virtual.
+
 1. Entre no centro de administração do Microsoft 365.
-2. Acesse assinaturas complementares de**Serviços** > **de** compra de **cobrança** > 
+2. Acesse**assinaturas complementares** de**Serviços** > de compra de **cobrança** > 
 3. Role até o fim para localizar a licença **"sistema de telefonia – usuário virtual"** . Selecione **comprar agora**.
 
 > [!WARNING]

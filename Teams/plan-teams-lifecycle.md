@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22e59a33fc6b58f2b2ae41c666506ebb5eddb90e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 92fe612a805f350cfa8ff1f0bfb7556fe895180d
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237679"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435190"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planejar o gerenciamento de ciclo de vida no Teams
 
@@ -195,7 +195,7 @@ Se uma equipe começar a cair na rotina, considere estas opções:
 
 Quando o trabalho de uma equipe chega ao fim, é importante reconhecer formalmente que ela terminou. Assim, os membros da equipe são informados do encerramento. Além disso, é impedido o acesso a informações desatualizadas e obsoletas. Você pode usar a própria equipe para realizar tarefas de encerramento, como post-mortems e resumos executivos.
 
-Você pode excluir equipes que sabe que não são necessárias (por exemplo, uma equipe criada exclusivamente para testes ou que contém dados confidenciais). Na verdade, as equipes são excluídas com uma “exclusão reversível” que a TI pode reverter por até 21 dias (30 dias para Grupos do Office 365). A exclusão de equipes não afeta os chats nem o conteúdo retidos de acordo com políticas de conformidade.
+Você pode excluir equipes que sabe que não são necessárias (por exemplo, uma equipe criada exclusivamente para testes ou que contém dados confidenciais). Na verdade, as equipes são excluídas com uma “exclusão reversível” que a TI pode reverter por até 21 dias (30 dias para Grupos do Office 365). A exclusão de equipes não afeta os chats nem o conteúdo retidos de acordo com políticas de conformidade. Os canais também têm uma "exclusão reversível" e podem ser revertidos por até 21 dias após a exclusão.
 
 Você também pode usar as políticas de expiração e retenção, além de recursos de arquivamento, para reduzir a exposição de equipes que não estão mais ativas ou cujos proprietários deixaram a organização.
 

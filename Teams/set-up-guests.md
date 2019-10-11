@@ -1,5 +1,5 @@
 ---
-title: Ativar ou desativar o acesso de convidado ao Microsoft Teams
+title: Ativar ou desativar o acesso de convidados ao Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -20,17 +20,17 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f00b585b1473a366769650c2a59f6dee2a9d3bea
 ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 08/07/2019
 ms.locfileid: "36242616"
 ---
-<a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Ativar ou desativar o acesso de convidado ao Microsoft Teams
+<a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Ativar ou desativar o acesso de convidados ao Microsoft Teams
 ===================================================
 
 Como administrador do Office 365, você precisa habilitar o recurso de convidados para que você ou os usuários da sua organização (especificamente os proprietários de equipe) possam adicionar convidados.
 
-As configurações do convidado são definidas no Azure Active Directory. Leva entre 2 e 24 horas para que as alterações entrem em vigor na sua organização do Office 365. Se um usuário vir a mensagem "entrar em contato com seu administrador" ao tentar adicionar um convidado à equipe, é provável que o recurso convidado ainda não tenha sido habilitado ou que as configurações ainda não sejam efetivadas.
+As configurações do convidado são definidas no Azure Active Directory. Leva entre 2 e 24 horas para que as alterações entrem em vigor na sua organização do Office 365. Se um usuário vir a mensagem “Entre em contato com o seu administrador” ao tentar adicionar um convidado para a sua equipe, é provável que o recurso de convidado não tenha sido ativado ou as configurações ainda não entraram em vigor.
 
 > [!IMPORTANT]
 > Para habilitar a experiência completa do recurso de acesso de convidados, é importante compreender a dependência de autorização básica entre o Microsoft Teams, o Azure Active Directory e o Office 365. Para obter mais informações, consulte [Autorizar acesso de convidados no Microsoft Teams](Teams-dependencies.md).
@@ -39,44 +39,44 @@ As configurações do convidado são definidas no Azure Active Directory. Leva e
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
-## <a name="configure-guest-access-in-the-microsoft-teams-admin-center"></a>Configurar o acesso de convidado no centro de administração do Microsoft Teams
+## <a name="configure-guest-access-in-the-microsoft-teams-admin-center"></a>Configure o acesso de convidados no centro de administração do Microsoft Teams
 
 1.  Entre no centro de administração do Microsoft Teams.
 
-2.   > Selecione **configurações de toda a organização****acesso de convidado**.
+2.  Selecione **Configurações em toda a organização** > **Acesso de convidados**.
 
-3. Defina o botão de alternância **permitir acesso de convidado no Microsoft Teams** como **ativado**.
+3. Defina o botão de alternância **Permitir acesso de convidados no Microsoft Teams** para **Ativado**.
 
-    ![Opção permitir acesso de convidado definido como ativado ](media/set-up-guests-image1.png)
+    ![Permita que a opção de acesso de convidados seja definida como Ativada ](media/set-up-guests-image1.png)
 
-4.  Defina as alternâncias em **chamada**, **reunião**e **mensagens** para **ativado** ou **desativado**, dependendo das funcionalidades que você deseja permitir para os usuários convidados.
+4.  Defina as alternâncias em **Chamada**, **Reunião** e **Mensagens** como **Ativada** ou **Desativada**, dependendo dos recursos que você deseja permitir aos usuários convidados.
 
-    - **Faça chamadas privadas** -Ative essa configuração **** para permitir que os convidados façam chamadas ponto a ponto.
-    - **Permitir vídeo por IP** -Ative esta **** configuração para permitir que os convidados usem vídeo em suas chamadas e reuniões.
-    - **Modo de compartilhamento de tela** – essa configuração controla a disponibilidade de compartilhamento de tela para usuários convidados. 
-       - Transforme essa configuração **** como desabilitada para remover a capacidade dos convidados de compartilhar suas telas no Teams. 
-       - Ative essa configuração para **um único aplicativo** para permitir o compartilhamento de aplicativos individuais. 
-       - Transforme essa configuração em **tela inteira** para permitir o compartilhamento de tela completo.
-    - **Permitir reunião agora** – Ative essa configuração **** para permitir que os convidados usem o recurso reunir agora no Microsoft Teams.
-    - **Editar mensagens enviadas** -Ative essa configuração **** para permitir que os convidados editem as mensagens que enviaram anteriormente.
-    - **Convidados podem excluir mensagens enviadas** – Ative essa configuração **** para permitir que os convidados excluam mensagens que enviaram anteriormente.
-    - **Chat** – Ative essa configuração **** para dar aos convidados a capacidade de usar o chat no Microsoft Teams.
-    - **Use o Giphys em conversas** – Ative essa **** configuração para permitir que os convidados usem o Giphys nas conversas. O Giphy é um banco de dados online e um mecanismo de pesquisa que permite aos usuários procurar e compartilhar arquivos GIF animados. Cada Giphy é atribuído a uma classificação de conteúdo.
-    - **Classificação de conteúdo do Giphy** – selecione uma classificação na lista suspensa:
-       - **Permitir todo o conteúdo** -convidados poderão inserir todos os Giphys em chats, independentemente da classificação de conteúdo.
-       - **Moderado** -convidados poderão inserir Giphys em chats, mas serão moderadamente restritos ao conteúdo somente para adultos.
-       - **Estrito** – os convidados poderão inserir Giphys em chats, mas não poderão inserir conteúdo somente para adultos.
-    - **Usar o memes em conversas** -Ative essa **** configuração para permitir que os convidados usem o memes nas conversas.
-    - **Use adesivos em conversas** – Ative essa **** configuração para permitir que os convidados usem adesivos nas conversas. 
+    - **Fazer chamadas privadas** – **Ativar** essa função para permitir que os usuários façam chamadas ponto a ponto.
+    - **Permitir vídeo IP** - **Ativar** essa configuração para permitir que os convidados usem vídeos em suas chamadas e reuniões.
+    - **Modo de compartilhamento de tela** – Essa configuração controla a disponibilidade do compartilhamento de tela para usuários convidados. 
+       - **Desativar** essa configuração para remover a capacidade de os convidados compartilharem suas telas no Teams. 
+       - Defina essa configuração como **Aplicativo único** para permitir o compartilhamento de aplicativos individuais. 
+       - Defina essa configuração como **Tela inteira** para permitir o compartilhamento completo da tela.
+    - **Permitir Reunir Agora** - **Ativar** essa configuração para permitir que os convidados usem o recurso Reunir Agora no Microsoft Teams.
+    - **Editar mensagens enviadas** - **Ativar** essa configuração para permitir que os convidados editem as mensagens enviadas anteriormente.
+    - **Os convidados podem excluir mensagens enviadas** - **Ativar** essa configuração para permitir que os convidados excluam mensagens enviadas anteriormente.
+    - **Chat** - **Ativar** essa configuração para oferecer aos convidados a capacidade de usar o chat no Teams.
+    - **Usar Giphys em conversas** - **Ativar** essa configuração para permitir que os convidados usem Giphys nas conversas. O Giphy é um mecanismo de pesquisa e banco de dados online que permite aos usuários pesquisar e compartilhar arquivos GIF animados. Cada Giphy recebe uma classificação de conteúdo.
+    - **Classificação de conteúdo para Giphy** – Selecione uma classificação na lista suspensa:
+       - **Permitir todo o conteúdo** - Os convidados poderão inserir todos os Giphys nos chats, independentemente da classificação do conteúdo.
+       - **Moderado** - Os convidados poderão inserir Giphys nos chats, mas o conteúdo adulto será moderadamente restringido.
+       - **Estrito** - Os convidados poderão inserir Giphys nos chats, mas serão impedidos de inserir conteúdo adulto.
+    - **Usar memes em conversas** - **Ativar** essa configuração para permitir que os convidados usem memes nas conversas.
+    - **Usar Figurinhas em conversas** - **Ativar** essa configuração para permitir que os convidados usem figurinhas nas conversas. 
 
 
 5.  Clique em **Salvar**.
 
-## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>Usar o PowerShell para ativar ou desativar o acesso ao convidado
+## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>Use o PowerShell para ativar ou desativar o acesso de convidados
 
-1.  Baixe o módulo PowerShell do Skype for Business online emhttps://www.microsoft.com/en-us/download/details.aspx?id=39366
+1.  Baixe o módulo PowerShell do Skype for Business Online em https://www.microsoft.com/en-us/download/details.aspx?id=39366
  
-2.  Conecte uma sessão do PowerShell ao ponto de extremidade do Skype for Business online.
+2.  Conecte uma sessão do PowerShell ao ponto de extremidade do Skype for Business Online.
 
     ```
     Import-Module SkypeOnlineConnector
@@ -84,7 +84,7 @@ As configurações do convidado são definidas no Azure Active Directory. Leva e
     $CSSession = New-CsOnlineSession -Credential $Cred
     Import-PSSession -Session $CSSession
     ```
-3.  Verifique a configuração e, `AllowGuestUser` se `$False`estiver, use o cmdlet [set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) para defini- `$True`la.
+3.  Verifique sua configuração e se `AllowGuestUser` for `$False`, use o cmdlet [Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) para defini-lo como `$True`.
 
     ```
     Get-CsTeamsClientConfiguration
@@ -106,7 +106,7 @@ As configurações do convidado são definidas no Azure Active Directory. Leva e
     
     Set-CsTeamsClientConfiguration -AllowGuestUser $True -Identity Global
     ```
-Agora você pode ter usuários convidados no Teams para sua organização.
+Agora você pode ter usuários convidados no Teams da sua organização.
 
 ## <a name="more-information"></a>Mais informações
 

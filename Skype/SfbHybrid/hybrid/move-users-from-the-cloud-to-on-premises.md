@@ -16,12 +16,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Saiba como mover usuários do Skype for Business online para o local.
-ms.openlocfilehash: 16e4419bfd8ea073c04d0b3c4a402455097e4ad5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ec3aa727753ed9ac6564712d591ab6d2beac4ebf
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160369"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434724"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>Mover usuários da nuvem para o local 
 
@@ -33,7 +33,7 @@ Se necessário, você pode mover um usuário que foi migrado anteriormente do lo
 ## <a name="prerequisites"></a>Pré-requisitos
 
 - A organização deve ter o Azure AD Connect configurado corretamente e sincronizar todos os atributos relevantes para o usuário, conforme descrito em [Configure Azure ad Connect](configure-azure-ad-connect.md).
-- O usuário que está sendo movido online de volta para o local já deve existir no Active Directory local.
+- O usuário que está sendo movido online de volta para o local deve já existir no Active Directory local.
 - O Skype for Business híbrido deve ser configurado, conforme descrito em [Configure Skype for Business Hybrid](configure-federation-with-skype-for-business-online.md).
 
 ## <a name="moving-users-back-to-on-premises"></a>Movendo usuários de volta para o local
@@ -43,7 +43,7 @@ Depois de mover um usuário da nuvem de volta para o local:
 - O usuário interage com sua implantação do Skype for Business Server para sua funcionalidade. 
 - Todos os contatos que existiam no Skype for Business online ou no Teams são migrados para o Skype for Business Server. Os dois conjuntos de contatos são mesclados e migrados de volta para o local.  Além disso, os contatos que estão previamente existentes no Teams permanecem no Teams.
 - Se o usuário também usa o Microsoft Teams, eles não terão a capacidade de interoperar com os usuários do Skype for Business, nem poderão se comunicar com os usuários em organizações federadas.
-- As reuniões no Skype for Business Online *não* são migradas automaticamente de volta para o local. Os usuários devem reagendar suas reuniões ou, se desejado, usar a [ferramenta de migração da reunião](https://support.office.com/en-us/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4).
+- As reuniões no Skype for Business Online *não* são migradas automaticamente de volta para o local. Os usuários devem reagendar suas reuniões ou, se desejado, usar a [ferramenta de migração da reunião](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4).
 
 ### <a name="move-users-with-move-csuser"></a>Mover usuários com o move-CsUser
 
@@ -72,12 +72,12 @@ Move-CsUser -Identity username@contoso.com -Target pool.corp.contoso.com -Creden
 4. Selecione o (s) usuário (s) e, em seguida, na lista suspensa **ação** acima da lista, escolha **mover usuários selecionados para o local**.
 5. No assistente, selecione o pool de usuários que hospedará o usuário e clique em **Avançar**.
 6. Se solicitado, entre no Office 365, com uma conta que termina em. onmicrosoft.com e tem permissões suficientes.
-7. Clique em **Avançar**e, **** em seguida, mais uma vez para mover o usuário.
+7. Clique em **Avançar**e, em seguida, **mais uma vez** para mover o usuário.
 8. Observe que as mensagens de status referentes a sucesso ou falha são fornecidas na parte superior do aplicativo painel de controle principal, e não no assistente.
 
 ### <a name="removing-teamsonly-mode"></a>Removendo o modo TeamsOnly
 
-Se você estiver usando uma versão anterior ao Skype for Business 2015 com o CU8 e o usuário estiver sendo movido de volta para o local no modo TeamsOnly, você deverá remover a instância `TeamsUpgradePolicy` do UpgradeToTeams de antes de mover o usuário local. Você pode conceder explicitamente uma política com um modo diferente ou simplesmente remover a atribuição de política existente para que esse usuário use a política global (desde que a política global do seu locatário não seja UpgradeToTeams).
+Se você estiver usando uma versão anterior ao Skype for Business 2015 com o CU8 e o usuário estiver sendo movido de volta para o local no modo TeamsOnly, você deverá remover a instância do `TeamsUpgradePolicy` UpgradeToTeams de antes de mover o usuário local. Você pode conceder explicitamente uma política com um modo diferente ou simplesmente remover a atribuição de política existente para que esse usuário use a política global (desde que a política global do seu locatário não seja UpgradeToTeams).
 
 Para remover a atribuição do usuário do TeamsUpgradePolicy, execute o seguinte cmdlet em uma janela do PowerShell do Skype for Business Online:
 

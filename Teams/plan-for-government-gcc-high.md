@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9e346e4e9d94c30454ad42ef5a3c44e12f2cde0
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: 46d4edb3b5345fcd2267716968a2987c96259efb
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767107"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435201"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Plano para implantações altas do Microsoft 365 governo-GCC
 
@@ -85,7 +85,7 @@ Para acomodar os requisitos de nossos clientes de nuvem governamental, há algum
 | | Organograma | Disponível |
 | | Atividades | Disponível |
 | | Interoperabilidade (Teams 1:1-chat do Skype for Business) | Disponível |
-| Microsoft Teams | Mensagem do canal | Disponível |
+| Teams | Mensagem do canal | Disponível |
 | | Arquivos de canal | Disponível |
 | | Guia do OneNote | Na backlog do governo |
 | | Enviar um canal por email | Não disponível |
@@ -109,7 +109,7 @@ Para acomodar os requisitos de nossos clientes de nuvem governamental, há algum
 | | Chamada VoIP | Disponível |
 | | Skype para empresas-chamadas para equipes | Disponível |
 | | Planos de Chamadas | Não disponível |
-| | Conferência de áudio (permitindo que os participantes da reunião ingressem via PSTN) | Na backlog do governo |
+| | Conferência de áudio (permitindo que os participantes da reunião ingressem via PSTN) | Disponível |
 | | Encaminhamento direto do sistema telefônico da Microsoft | Na backlog do governo |
 | | Lobby para chamadores PSTN | Na backlog do governo |
 | | Fila de chamadas | Na backlog do governo |

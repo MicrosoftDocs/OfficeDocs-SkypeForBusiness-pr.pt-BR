@@ -14,12 +14,12 @@ ms.collection:
 description: Saiba como usar os controles do PowerShell para gerenciar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20e85b2f45977a0a78d0d358c2e8aaa01b9257e4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 75bb6a982db4ab3986a423cf958ad8e81105380c
+ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235126"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37439578"
 ---
 # <a name="teams-powershell-overview"></a>Visão Geral do PowerShell do Teams
 
@@ -43,7 +43,7 @@ Os cmdlets para criar e gerenciar equipes estão no [módulo do Microsoft Teams 
 
 As equipes são apoiadas pelos grupos do O365, portanto, quando você cria uma equipe, cria um grupo. Há um conjunto de cmdlets fornecidos para operar na equipe principal e suas configurações (``new-team``, ``get-team``, ``set-team``) gerenciar usuários da equipe (``add-teamuser``, ``remove-teamuser``), bem como cmdlets para gerenciar os canais da equipe (``new-teamchannel``, ``remove-teamchannel``). Todos esses cmdlets podem ser executados como usuários finais, mas só funcionarão nas equipes que você possui ou são membros de. Se você for administrador global ou administrador de serviços do Teams, poderá atuar em todas as equipes da sua organização.
 
-> O **GroupId** usado nos cmdlets do módulo do Microsoft Teams PowerShell é o mesmo que a propriedade **Identity** retornada pelo ``Get-UnifiedGroup`` módulo do PowerShell do Exchange.
+> O **GroupId** usado nos cmdlets do módulo do Microsoft Teams PowerShell é o mesmo **** que a propriedade Identity ``Get-UnifiedGroup`` retornada pelo módulo do PowerShell do Exchange.
 
 ### <a name="differences-between-preview-and-generally-available-microsoft-teams-powershell-module"></a>Diferenças entre a visualização e o módulo do Microsoft Teams PowerShell do Microsoft Teams geralmente disponíveis
 
@@ -79,6 +79,9 @@ Quando lançamos nossa versão geralmente disponível do nosso módulo do PowerS
 ## <a name="managing-policies-via-powershell"></a>Gerenciando políticas pelo PowerShell
 
 Os cmdlets de gerenciamento de políticas estão no [módulo cmdlet do Skype for Business](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
+
+> [!NOTE]
+> Os cmdlets estarão disponíveis na sessão do PowerShell quando você se conectar ao Skype for Business online. Para obter mais informações, consulte [gerenciar o Skype for Business online com o Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell). 
 
 Uma política é um grupo de configurações que podem ser aplicadas detalhadamente a usuários individuais. Cada tipo de política tem seu próprio conjunto de cmdlets para criar, exibir, excluir e atualizar as políticas propriamente ditas e, em seguida, atribuir essas políticas aos usuários. A estrutura geral é:
 

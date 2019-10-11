@@ -11,12 +11,12 @@ ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: Leia este tópico para saber mais sobre o gerenciamento de salas do Microsoft Teams, a próxima geração de sistemas de sala do Skype.
-ms.openlocfilehash: f5c4cf2a7b0c5f8fc12d94553d6c0f77216d9487
-ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
+ms.openlocfilehash: 2ef5bbb7c4b630174c32016fdf1b65d30d82ac52
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "36838073"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435142"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Manutenção e operações de salas do Microsoft Teams 
  
@@ -43,7 +43,7 @@ Os logs serão exibidos como um arquivo ZIP em c:\rigel.
 Configure a tela frontal da sala para o modo Estendido. Isso garantirá que a interface do usuário do console não seja duplicada naquele vídeo quando você desligar o monitor.
   
 > [!NOTE]
-> Se você quiser uma exibição do lado da sala para alternar automaticamente para uma fonte de vídeo ativa (como um console do MTR) quando a origem é ativada do modo de espera, determinadas condições devem ser atendidas. Esse recurso é opcional, mas suportado pelo software de salas Microsoft Teams, desde que o hardware subjacente seja compatível com o recurso. Uma TV para consumidor usada como uma frontal da exibição de sala precisa dar suporte ao recurso de controle de eletrônicos do consumidor (CEC) de HDMI.  Dependendo do Dock ou console selecionado (que pode não ser compatível com o CEC, confira a documentação de suporte do fabricante), um controlador de espaço de trabalho como um [EXTRON HD CTL 100](https://www.extron.com/article/hdctl100ad) pode ser necessário para habilitar o comportamento desejado. 
+> Se você quiser uma exibição do lado da sala para alternar automaticamente para uma fonte de vídeo ativa (como um console do MTR) quando a origem é ativada do modo de espera, determinadas condições devem ser atendidas. Esse recurso é opcional, mas suportado pelo software de salas Microsoft Teams, desde que o hardware subjacente seja compatível com o recurso. Uma TV para consumidor usada como uma frontal da exibição de sala precisa dar suporte ao recurso de controle de eletrônicos do consumidor (CEC) de HDMI.  Dependendo do Dock ou console selecionado (que pode não ser compatível com o CEC, consulte a documentação de suporte do fabricante), um controlador como um controlador de [HD-RX-201-C-E](https://www.crestron.com/en-US/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) do Crestron ou [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) de Extron pode ser necessário para habilitar o funcionamento. 
   
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Redefinição de salas do Microsoft Teams (restauração de fábrica)
 <a name="Reset"> </a>

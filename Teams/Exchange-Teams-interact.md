@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f2e605e86b91fc5d0ea2f22d2aec3941a3d31d9
-ms.sourcegitcommit: 299f854bbb73887ba315b09b9adf9ea9ff91e8ec
+ms.openlocfilehash: 42d15f32cbdf7326ea8daf85860bd451d93ed3f3
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37062879"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434647"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem
 
@@ -44,10 +44,10 @@ A tabela a seguir fornece uma referência rápida útil para a disponibilidade d
 
 | A caixa de correio do usuário está hospedada em: | eDiscovery| Controle&nbsp;legal | Tention| Gerenciamento de canal e equipe |Criar e visualizar reuniões| Modificar fotos de perfil de usuário | Histórico de chamadas | Gerenciar contatos | Acessar contatos do Outlook | Caixa postal |Adicionar e configurar conectores|Adicionar e configurar guias|Adicionar e configurar bots| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|Sim <sup>2</sup>|Sim <sup>2</sup>|Sim |Sim |Sim |Sim |Sim |Sim |Sim |Sim |Sim |Sim |Sim|
-|**Exchange Online Dedicated vNext**|Sim <sup>2</sup>|Sim <sup>2</sup>|Sim |Sim |Sim |Sim |Sim |Sim |Sim |Sim |Sim |Sim |Sim|
-|**Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD)|Sim <sup>2</sup>|Sim <sup>2, 3</sup>|Sim <sup>4|Sim|Não|Não|Sim |Sim|Não|Sim <sup>5|Sim <sup>6|Sim |Sim|
-|**Exchange local** (É necessário sincronizar com o Azure AD)|Sim <sup>2</sup>| Sim <sup>2, 3</sup> |Sim <sup>4|Sim|Sim (Exchange 2016 CU3 +)|Sim (Exchange 2016 CU3 +)|Sim |Sim|Não|Sim <sup>5|Sim <sup>6|Sim |Sim|
+|**Exchange Online**|Sim <sup>2</sup>|Sim <sup>2</sup>|Sim|Sim |Sim |Sim |Sim |Sim |Sim |Sim |Sim |Sim |Sim|
+|**Exchange Online Dedicated vNext**|Sim <sup>2</sup>|Sim <sup>2</sup>|Sim|Sim |Sim |Sim |Sim |Sim |Sim |Sim |Sim |Sim |Sim|
+|**Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD)|Sim <sup>2</sup>|Sim <sup>2, 3</sup>|Sim <sup>4|Sim|Não|Não|Sim|Sim|Não|Sim <sup>5|Sim <sup>6|Sim|Sim|
+|**Exchange no local** (necessário sincronização para o Azure AD)|Sim <sup>2</sup>| Sim <sup>2, 3</sup> |Sim <sup>4|Sim|Sim (Exchange 2016 CU3 +)|Sim (Exchange 2016 CU3 +)|Sim|Sim|Não|Sim <sup>5|Sim <sup>6|Sim|Sim|
 
 <sup>1</sup> suporte do Exchange 2016 Cu3 e versões mais recentes.  
 
@@ -57,7 +57,7 @@ A tabela a seguir fornece uma referência rápida útil para a disponibilidade d
 
 <sup>4</sup> a retenção usará uma caixa de correio de sombra para o usuário online armazenar mensagens. [O Microsoft Teams dá suporte à descoberta eletrônica para usuários do teams em um ambiente híbrido do Exchange](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009).
 
-<sup>5</sup> os usuários do Microsoft Teams com a caixa de correio local do Exchange podem usar o correio de voz com o Microsoft Teams e receber mensagens de correio de voz no Outlook, mas as mensagens de correio de voz não estarão disponíveis para exibição ou reprodução dentro do cliente
+<sup>cinco</sup> usuários do teams com caixa de correio local do Exchange podem usar o correio de voz com o Microsoft Teams e receber mensagens de correio de voz no Outlook, mas as mensagens de correio de voz não estarão disponíveis para exibição ou reprodução dentro do cliente da equipe.
 
 <sup>6</sup> se um dos proprietários de uma equipe puder adicionar conectores, todos os outros participantes dessa equipe poderão fazer isso, mesmo se as caixas de correio estiverem hospedadas no local.
 
@@ -80,7 +80,7 @@ O Microsoft Teams funciona com vários serviços do Office 365 para fornecer aos
 >Para a integração do Exchange local e das equipes, a licença necessária precisa ser atribuída para o usuário sincronizado do AAD.
 
 > [!IMPORTANT]
-> Se você desinstalar o cliente Skype for Business após mover um usuário para o modo **somente para equipes** , a presença deixará de funcionar no Outlook e em outros aplicativos do Office. A presença funciona bem no Teams. Solução alternativa: para ver a presença no Outlook (e em outros aplicativos do Office), o Skype for Business deve estar instalado, mesmo se você estiver executando o Microsoft Teams no modo **somente Teams** . A Microsoft está ciente desse problema e está trabalhando em uma correção.
+> Se você desinstalar o cliente do Skype for Business depois de mover um usuários para o modo **Somente Microsoft Teams**, a presença deixará de funcionar no Outlook e em outros aplicativos do Office. A presença funciona bem no Microsoft Teams. Solução alternativa: para ver a presença no Outlook (e em outros aplicativos do Office), o Skype for Business deve estar instalado, mesmo se você estiver executando o Microsoft Teams no modo **somente Teams** . A Microsoft está ciente desse problema e trabalhando para corrigi-lo.
 
 ## <a name="additional-considerations"></a>Considerações adicionais
 

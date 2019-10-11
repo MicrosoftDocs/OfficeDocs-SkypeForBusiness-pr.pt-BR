@@ -18,21 +18,18 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Saiba mais sobre como gerenciar contas de recursos no Microsoft Teams
-ms.openlocfilehash: 022163de7c3674fa0123927bad09a389514cc107
-ms.sourcegitcommit: d349922409f49b52048597a56b81501163749a69
+ms.openlocfilehash: 998436e48acec3552bc88f960d12771d9f1e941b
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "37401843"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435153"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Gerenciar contas de recursos no Microsoft Teams
 
-Uma conta de recurso também é conhecida como *objeto de usuário desabilitado* no Azure AD e pode ser usada para representar recursos em geral. No Exchange, ele pode ser usado para representar salas de conferência, por exemplo, e permitir que elas tenham um número de telefone. Uma conta de recurso pode ser hospedada no Microsoft 365 ou no Skype for Business Server 2019.
+Uma conta de recurso também é conhecida como *objeto de usuário desabilitado* no Azure AD e pode ser usada para representar recursos em geral. No Exchange, ele pode ser usado para representar salas de conferência, por exemplo, e permitir que elas tenham um número de telefone. Uma conta de recurso pode ser hospedada no Microsoft 365 ou em instalações locais usando o Skype for Business Server 2019.
 
 No Microsoft Teams ou no Skype for Business Online, cada fila de chamadas do sistema de telefone ou atendedor automático é necessário para ter pelo menos uma conta de recurso associada. Se uma conta de recurso precisa de um número de telefone atribuído dependerá do uso pretendido da fila de chamadas ou do atendedor automático associado, conforme mostrado no diagrama a seguir. Você também pode consultar os artigos sobre filas de chamadas e atendedores automáticos vinculados na parte inferior deste artigo antes de atribuir um número de telefone a uma conta de recurso.
-
-> [!IMPORTANT]
-> Um número de telefone não é atribuído diretamente ao atendedor automático ou à fila de chamadas, mas sim à conta de recurso associada ao atendedor automático ou à fila de chamadas.
 
 ![exemplo de contas de recursos e licenças de usuário](media/resource-account.png)
 
@@ -124,7 +121,8 @@ Em seguida, aplique uma licença para a conta do recurso no centro de administra
 ![Ícone do número 2, fazendo referência a um texto explicativo na](media/sfbcallout2.png) captura de tela anterior, você pode editar o nome de exibição da conta do recurso usando a opção **Editar** . Clique em **salvar** quando terminar.
 ![Captura de tela da opção Editar conta de recurso](media/r-a-edit.png)
 
-<a name="phonenumber"></a>
+<a name="phonenumber"> </a>
+
 ### <a name="assignunassign-phone-numbers-and-services"></a>Atribuir/cancelar a atribuição de números de telefone e serviços
 
 ![Ícone do número 3, fazendo referência a um texto explicativo na](media/sfbcallout3.png) captura de tela anterior depois de criar a conta do recurso e atribuir a licença, você pode clicar em **atribuir/Cancelar atribuição** para atribuir um número de serviço para a conta do recurso ou atribuir o recurso conta em um atendedor automático ou em uma fila de chamadas que já existe. Só é possível fazer a atribuição de um número de roteamento direto usando cmdlets. Se a fila de chamadas ou o atendedor automático ainda precisar ser criado, você poderá vincular a conta do recurso enquanto a cria. Clique em **salvar** quando terminar.
@@ -133,6 +131,9 @@ Para atribuir um roteamento direto ou número híbrido a uma conta de recurso, v
 
 > [!IMPORTANT]
 > Se a sua conta de recurso não tiver uma licença válida, uma verificação interna causará uma falha quando você tentar atribuir o número de telefone à conta do recurso. Você não poderá atribuir o número ou associar a conta do recurso a uma fila de chamadas ou atendedor automático.
+
+> [!IMPORTANT]
+> Um número de telefone não é atribuído diretamente ao atendedor automático ou à fila de chamadas, mas sim à conta de recurso associada ao atendedor automático ou à fila de chamadas.
 
 ![Captura de tela das opções atribuir/Cancelar atribuição](media/r-a-assign.png)
 

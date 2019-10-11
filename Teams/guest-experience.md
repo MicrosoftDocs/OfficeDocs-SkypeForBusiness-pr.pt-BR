@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4dddd12a291ece817669114e0b836e6df56d2610
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d89150f3e4947ee43b013132ea73ae9d38ff14ea
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241993"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434655"
 ---
 <a name="what-the-guest-experience-is-like"></a>Como é a experiência do convidado
 =================================
@@ -32,7 +32,7 @@ Quando um convidado é solicitado a entrar em uma equipe, ele recebe uma mensage
     
 Todos os membros da equipe veem uma mensagem no tópico do canal anunciando que o proprietário da equipe adicionou um convidado e informou o nome do convidado. Todos da equipe podem identificar facilmente quem é um convidado. Conforme mostrado na captura de tela a seguir de uma equipe de exemplo, uma faixa indica que "esta equipe tem convidados" e um rótulo "(convidado)" é exibido ao lado do nome de cada convidado.
     
-![Captura de tela mostrando usuários convidados de notificação de cabeçalho] A (media/guest-experience-image2.png "captura de tela mostra uma parte do canal de marketing da Northwind Traders, com a notificação na faixa superior informando que a equipe tem convidados e os usuários que os convidados são identificados com a palavra Guest ao lado do nome.")
+![Captura de tela mostrando a notificação de faixa](media/guest-experience-image2.png "a captura de tela dos usuários convidados mostra uma parte do canal de marketing da Northwind Traders, com a notificação na faixa superior informando que a equipe tem convidados e os usuários que são convidados são identificados com o CONVIDADO do Word ao lado do nome.")
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>Comparação entre os recursos de membro da equipe e de convidado
 
@@ -54,6 +54,7 @@ A tabela a seguir compara a funcionalidade do Microsoft Teams disponível para o
 |Criar uma equipe  <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Descobrir e entrar em uma equipe pública  <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Visualizar o organograma  <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Usar a tradução embutida  <br/> |![Um ícone que representa uma marca de seleção ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
 A tabela a seguir mostra os recursos de chamada e reunião disponíveis para convidados.
 

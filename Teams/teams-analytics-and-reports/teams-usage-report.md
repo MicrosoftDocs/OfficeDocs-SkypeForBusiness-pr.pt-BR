@@ -15,12 +15,12 @@ ms.collection:
 description: Saiba como usar o relatório de uso do Teams no centro de administração do Microsoft Teams para obter uma visão geral das atividades to Teams na sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 512b7844f1eb659758b95b8f0924506ce6542f41
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: 6a31d3a6bf374e512dde0549dbbd59ed90904cd0
+ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131588"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37439567"
 ---
 # <a name="microsoft-teams-usage-report"></a>Relatório de uso do Microsoft Teams
 
@@ -31,7 +31,7 @@ O relatório de uso do Teams no centro de administração do Microsoft Teams apr
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em **análises &** > relatórios de**uso**dos relatórios. Na guia **exibir relatórios** , em **relatório**, selecione **uso do teams**.
 2. Em **Intervalo de dados**, selecione intervalo e em seguida clique em **Executar relatório**.
 
-    ![Captura de tela do relatório de uso do teams no centro de administração do teams com textos explicativos] (../media/teams-reports-teams-usage-with-callouts.png "Captura de tela do relatório de uso do teams no centro de administração do teams com textos explicativos")
+    ![Captura de tela do relatório de uso do teams no centro de administração do teams com]a(../media/teams-reports-teams-usage-with-callouts.png "captura de tela do relatório de uso do teams no centro de administração do teams com textos explicativos")
 
 ## <a name="interpret-the-report"></a>Interpretar relatório
 
@@ -44,6 +44,8 @@ O relatório de uso do Teams no centro de administração do Microsoft Teams apr
 |**5**   |A tabela oferece um detalhamento do uso por equipe. <ul><li>**Nome da equipe** é o nome de exibição da equipe. Você pode clicar no nome da equipe para ir para a página Configurações da equipe no centro de administração do Microsoft Teams. </li> <li>**Privacidade** refere-se à equipe ser particular ou pública.</li> <li>**Usuários ativos** é o número de usuários ativos na equipe no período de tempo especificado.</li><li>**Convidados** é o número de convidados na equipe no período de tempo especificado.</li> </li> </ul>Observe que, se uma conta de usuário não existir mais no Azure AD, o nome de usuário será exibido como "--" na tabela. <br><br>Para ver as informações desejadas na tabela, certifique-se de adicionar as colunas à tabela. |
 |**6**   |Selecione **Editar colunas** para adicionar ou remover colunas na tabela.|
 |**7**   |Você pode exportar o relatório para um arquivo CSV para análise offline. Clique em **exportar para o Excel**e, na guia **downloads** , clique em **baixar** para baixar o relatório quando ele estiver pronto.<br><br>![Captura de tela da guia downloads mostrando relatórios exportados para download](../media/teams-reports-export-to-csv.png)|
+
+[!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

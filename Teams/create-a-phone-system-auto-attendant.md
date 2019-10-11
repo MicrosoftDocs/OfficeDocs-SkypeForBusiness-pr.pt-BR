@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar atendedores automáticos da nuvem para o Microsoft Teams.
-ms.openlocfilehash: 424b6cea41132bd03b9eecfbd2d387697332505f
-ms.sourcegitcommit: d349922409f49b52048597a56b81501163749a69
+ms.openlocfilehash: 60fce49f2c03ef674e0b1e09f5d0193bcdab7ca0
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "37401883"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434959"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar um atendedor automático do Cloud
 
@@ -44,7 +44,7 @@ As implementações de atendedor automático geralmente envolvem vários atended
 ## <a name="step-1--get-started"></a>Etapa 1-Introdução
 
 - Um atendedor automático é necessário para ter uma conta de recurso associada. Consulte [gerenciar contas de recursos no Teams](manage-resource-accounts.md) para obter detalhes sobre contas de recursos e todas as licenças necessárias. 
-- 
+ 
 <!-- When you create a new auto attendant in Teams after October 10th, 2019, the required auto attendant is automatically created and linked with the new auto attendant. -->
  
 > [!TIP]
@@ -88,7 +88,7 @@ Você tem várias maneiras de definir o operador:
      > [!Note]
      > **A pessoa em sua organização** pode ser um usuário online ou um usuário hospedado no local usando o Skype for Business Server.
 
-- **Recurso de voz**  Selecione o nome da conta de recurso vinculada a um atendedor automático ou fila de chamadas que já foi criada. Os chamadores que solicitam um operador são redirecionados para lá.  
+- **Aplicativo de voz**  Selecione o nome da conta de recurso vinculada a um atendedor automático ou fila de chamadas que já foi criada. Os chamadores que solicitam um operador são redirecionados para lá.  
 <!--   
 
 - **Auto attendant** Select the name of the resource account linked to an auto attendant that has already been created. Callers that request an operator are redirected there.
@@ -100,10 +100,11 @@ Você tem várias maneiras de definir o operador:
 > Auto attendants created after October 10th, 2019 also create a new [resource account](manage-resource-accounts.md) that is associated with the auto attendant. If a phone number is applied to the auto attendant's resource account,  a Phone System - Virtual user license is applied to the resource account if one is available.
 -->
 
-* * * 
+* * *
 
-![Ícone do número 3, um texto explicativo no](media/teamscallout3.png)<a name="timezone"> </a>  
- **fuso horário** anterior da captura de tela, você precisa definir o fuso horário para o atendedor automático. A configuração pode ser a mesma que o fuso horário do endereço principal listado para a sua organização ou um fuso horário diferente. Cada atendedor automático pode ter um fuso horário diferente. O horário comercial definido para o atendedor automático também usa este fuso horário.
+<a name="timezone"> </a>
+
+![Ícone do número 3, um texto explicativo no](media/teamscallout3.png) **fuso horário** anterior da captura de tela, você precisa definir o fuso horário para o atendedor automático. A configuração pode ser a mesma que o fuso horário do endereço principal listado para a sua organização ou um fuso horário diferente. Cada atendedor automático pode ter um fuso horário diferente. O horário comercial definido para o atendedor automático também usa este fuso horário.
 
 * * *
 
@@ -147,7 +148,6 @@ Você pode configurar saudações, avisos e menus personalizados que as pessoas 
 ![Ícone do número 3, um texto explicativo na captura de](media/teamscallout3.png) tela anterior **digite uma mensagem de saudação** , se você escolher essa opção, insira o texto que você deseja que o sistema Leia (até 1000 caracteres) no campo fornecido. Por exemplo, digite "bem-vindo à contoso. A sua ligação é muito importante para nós." A saída é criada pelo software de texto para voz.
 
 * * *
-
 
 Você pode selecionar o que acontece ao lado de chamadas das seguintes ações na seção **encaminhar a chamada** . As configurações são **Opções de menu** **Desconectar**, **chamada redirecionar**ou reproduzir.
 
@@ -197,13 +197,9 @@ Se você selecionar **Desconectar**, o chamador será desconectado após a sauda
 > [!NOTE]
 > As chaves \* (repetir) e \# (verso) são reservadas pelo sistema e não podem ser reatribuídas. Se o reconhecimento de fala estiver habilitado, pressionar * corresponderá com "repetir" e # corresponderá com os comandos de voz "verso".
 
-![Ícone do número 3, um texto explicativo na captura de tela anterior](media/teamscallout3.png)
+![Ícone do número 3, um texto explicativo na captura de](media/teamscallout3.png) tela anterior para configurar uma opção de menu, clique na **tecla + atribuir uma tecla de discagem** e insira as informações das seguintes opções:
 
-Para configurar uma opção de menu, clique na **tecla + atribuir uma tecla de discagem** e insira as informações das seguintes opções:
-
-![Ícone do número 4, um texto explicativo na captura de tela anterior](media/teamscallout4.png) 
-
-A coluna de **comando de voz** para uma opção pode ter até 64 caracteres de comprimento e pode conter várias palavras como "atendimento ao cliente" ou "operações e aterramento". Se o reconhecimento de fala estiver habilitado, o nome será reconhecido automaticamente, e o autor será capaz de pressionar 3, diga "três" ou diga "atendimento ao cliente" para selecionar a opção mapeada para a chave 3.
+![O ícone do número 4, um texto explicativo na coluna](media/teamscallout4.png)anterior de**comando de voz** de captura de tela de uma opção pode ter até 64 caracteres de comprimento e pode conter várias palavras como "atendimento ao cliente" ou "operações e aterramento".   Se o reconhecimento de fala estiver habilitado, o nome será reconhecido automaticamente, e o autor será capaz de pressionar 3, diga "três" ou diga "atendimento ao cliente" para selecionar a opção mapeada para a chave 3. Esse texto também é renderizado por texto em fala para o prompt de confirmação do serviço, que pode ser algo parecido com "Transferindo sua chamada para a operadora".
 
 ![Ícone do número 5, um texto explicativo na captura de](media/teamscallout5.png) tela anterior, a opção **redirecionar para** define o local em que a chamada vai se a tecla correspondente for pressionada ou a opção for selecionada usando o reconhecimento de fala. A chamada pode ser enviada para:
 
@@ -219,13 +215,14 @@ A coluna de **comando de voz** para uma opção pode ter até 64 caracteres de c
 - **External phone number** routes the caller to a designated phone number outside your local system.<!-- does this have prerequisites like direct routing?
 - **Group Voicemail** routes the call to a voicemail box that you select.  -->
 
-![Ícone do número 6, um texto explicativo na captura de tela anterior](media/teamscallout6.png) 
-
-**Pesquisa de diretório** Nesta seção, você pode habilitar a **discagem por nome** e **discar por extensão** para o atendedor automático. Você pode definir quem é e não está incluído nesses serviços na página de escopo opcional de discagem. Pesquisa de diretório é definida como **None** por padrão.
+![Ícone do número 6, um balão na pesquisa anterior de](media/teamscallout6.png)  **diretório** de captura de tela nesta seção, você pode habilitar a **discagem por nome** e **discar por extensão** para o atendedor automático. Você pode definir quem é e não está incluído nesses serviços na página de escopo opcional de discagem. Pesquisa de diretório é definida como **None** por padrão.
 
 **Discar por nome** Se você habilitar essa opção, os chamadores poderão procurar pessoas em sua organização usando **discar por nome**. Eles dizem que o nome do usuário e o reconhecimento de voz correspondem a um usuário. Você pode definir quem é e não está incluído nesses serviços na página de escopo opcional de discagem. Qualquer usuário online com uma licença de sistema telefônico ou qualquer usuário hospedado no local usando o Skype for Business Server é um usuário elegível e pode ser encontrado com o nome discado.
 
 **Discar por extensão** Se você habilitar essa opção, os chamadores poderão se conectar com os usuários em sua organização, inserindo a extensão de telefone, **Configurando um plano de discagem que usa extensões**. Você pode selecionar quais usuários estão listados como disponíveis ou não estão disponíveis para **discar por extensão** na página de escopo opcional de discagem. Qualquer usuário online com uma licença do sistema telefônico ou qualquer usuário hospedado no local usando o Skype for Business Server é um usuário elegível e pode ser encontrado com a extensão dial-to.
+
+> [!NOTE]
+> Se quiser usar os recursos **discar por nome** e **discar pelos** recursos de extensão, você pode criar o atendedor automático principal (habilitado para **discar por nome**) que solicita que os chamadores escolham uma opção de menu 3 se saberem a extensão do usuário e definir a opção 3 como trans Sfer a chamada para um atendedor automático habilitado para discar por extensão. 
 
 * * *
 
@@ -328,7 +325,9 @@ Se você selecionar **todos os usuários online**, todos os usuários qualificad
 
 **Grupos de usuários personalizados** Essa opção permite pesquisar e selecionar um grupo do Office 365, uma lista de distribuição ou um grupo de segurança já criado em sua organização. Os usuários são adicionados ao diretório se estiverem no grupo, lista de distribuição ou grupo de segurança escolhido do Office 365, e eles forem **usuários online com uma licença do sistema de telefone** ou hospedados no local usando o Skype for Business Server. Você pode adicionar vários grupos do Office 365, listas de distribuição e grupos de segurança ao diretório.
 
+<a name="dialscope"> </a>
 
+Nesta página, você pode configurar quais usuários em sua organização serão listados em seu diretório e disponíveis para discar por nome quando uma pessoa ligar para a sua organização.
 
 ![Ícone do número 2, um texto explicativo na captura de](media/teamscallout2.png) tela anterior **exclui** as opções desta seção permite excluir usuários ou grupos de usuários específicos do diretório da organização.
 
@@ -420,7 +419,7 @@ Você também pode usar o PowerShell para criar e configurar atendedores automá
 
 [Obter números de telefone de serviço](/microsoftteams/getting-service-phone-numbers)
 
-[Disponibilidade de audioconferência e planos de chamadas por país e região](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+[Disponibilidade de Audioconferência e Planos de Chamadas por país e região](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
 [New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
 

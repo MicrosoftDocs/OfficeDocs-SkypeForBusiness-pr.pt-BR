@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Veja como ativar e usar o painel de qualidade da chamada e obter relatórios resumidos de qualidade das chamadas. '
-ms.openlocfilehash: 25f141f30691700414c3a24e705c7d8b490fd265
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: e4125b8a8c4cdb4fddf98b52381e2959ed557a84
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328348"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435095"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Ativar e usar o painel de qualidade de chamada do Microsoft Teams e do Skype for Business Online
 
@@ -40,7 +40,7 @@ Atualmente, o CQD versão 3 e o CQD versão 2 estão disponíveis para uso. O CQ
 
 ## <a name="latest-changes-and-updates"></a>Alterações e atualizações mais recentes
 
-O CQD versão 3 oferece um painel de CQD (latência de 30 minutos) próximo e usa as informações identificáveis do usuário final (EUII), oferecendo aos administradores a capacidade de ampliar para o nível de usuário. Também há e relatar interatividade para dar suporte a novos cenários, como:
+O CQD versão 3 oferece um painel de CQD (latência de 30 minutos) próximo e usa as informações identificáveis do usuário final (EUII), oferecendo aos administradores a capacidade de ampliar para o nível de usuário. Também há uma interatividade de relatório para dar suporte a novos cenários, como:
 
 - Qualidade da chamada por região:
   - data por região
@@ -129,11 +129,11 @@ Quando um campo Drill-through é selecionado, o painel navega automaticamente pa
 
 Por exemplo, em um relatório de Drill-through de qualidade de chamada, um usuário pode clicar na data em que gostaria de "analisar", o que leva à guia local.
 
-    ![Screenshot: shows the drill thru report](media/CQD-drill-thru-report.png)
+![Captura de tela: mostra o relatório Drill-through](media/CQD-drill-thru-report.png)
 
 Você pode adicionar várias datas na guia local, como adicionar 2019-09-22 a data: 2019-09-24: 
 
-    ![Screenshot: add a date to the drill thru report](media/CQD-add-date.png)
+![Captura de tela: adicionar uma data ao relatório de Drill-through](media/CQD-add-date.png)
 
 > [!NOTE]
 > Não vá diretamente para a última guia. Sem filtros selecionados em um Drill-through anterior, o resultado será muito grande para ser mostrado em uma tabela.
@@ -339,6 +339,8 @@ O painel relatórios de resumo CQD inclui uma página de **carregamento de dados
 ### <a name="building-data-file"></a>Criando arquivo de dados
 
 O CQD usa um arquivo de construção de dados, que ajuda a fornecer detalhes úteis de chamadas. A coluna de sub-rede é derivada expandindo a coluna Network + NetworkRange e, em seguida, ingressando na coluna subnet na primeira sub-rede ou segunda coluna do registro de chamada para mostrar as informações de construção, cidade, país ou região. O formato do arquivo de dados que você carrega deve atender aos seguintes critérios para passar a verificação de validação antes do carregamento:
+
+Você pode baixar um modelo de exemplo [aqui](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)
   
 - O arquivo deve ser um arquivo. TSV (as colunas são separadas por uma TABULAção) ou um arquivo. csv (as colunas são separadas por uma vírgula).
 - O arquivo de dados não inclui uma linha de cabeçalho de tabela. Espera-se que a primeira linha do arquivo de dados seja dados reais, e não rótulos de cabeçalho como "rede".
@@ -359,9 +361,7 @@ O CQD usa um arquivo de construção de dados, que ajuda a fornecer detalhes út
 
 **Linha de amostra:**
 
-```
-192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,0
-```
+`192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,0`
 
 > [!IMPORTANT]
 > O intervalo de rede pode ser usado para representar um Supernet (combinação de várias sub-redes com um único prefixo de roteamento). Todos os novos carregamentos de construção serão verificados em busca de intervalos sobrepostos. Se você já carregou um arquivo de construção, baixe o arquivo atual e carregue-o novamente para identificar se há sobreposições e corrigir o problema antes de carregá-lo novamente. Qualquer sobreposição em arquivos carregados anteriormente pode resultar em mapeamentos errados de sub-redes para prédios nos relatórios. Algumas implementações de VPN não reportam precisamente as informações de sub-rede. É recomendável que, ao adicionar uma sub-rede VPN ao arquivo de construção, em vez de uma entrada para a sub-rede, as entradas separadas sejam adicionadas para cada endereço na sub-rede VPN como uma rede de 32 bits separada. Cada linha pode ter os mesmos metadados de construção. Por exemplo, em vez de uma linha para 172.16.18.0/24, você deve ter 256 linhas, com uma linha para cada endereço entre 172.16.18.0/32 e 172.16.18.255/32, inclusive.
@@ -382,11 +382,11 @@ O CQD usa um arquivo de dados de ponto de extremidade. Os valores de coluna são
 
   **Ordem dos campos:**
 
-  EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, EndpointLabel3
+EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, EndpointLabel3
 
   **Linha de amostra:**
 
-  `1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
+`1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
 
 ## <a name="create-custom-detailed-reports"></a>Criar relatórios detalhados personalizados
 

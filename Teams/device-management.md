@@ -18,17 +18,17 @@ description: Saiba como gerenciar dispositivos usados com o Microsoft Teams em s
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 871a066644aaca3b899d1c7f8b3c3c55f6a516a5
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 38d716396a61f259a3a1ac90f45b0b5b4b110e33
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483820"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434895"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Gerenciar seus dispositivos no Microsoft Teams
 
 ::: zone target="docs"
-Como administrador, você gerencia todos os dispositivos usados com o Microsoft Teams na sua organização usando o centro de administração do Microsoft Teams & do Skype for Business. Você pode exibir e gerenciar o inventário de dispositivos da sua organização e executar tarefas como atualizar, reiniciar e monitorar o diagnóstico de dispositivos. Você também pode criar e atribuir perfis de configuração a um dispositivo ou grupos de dispositivos. 
+Como administrador, você gerencia todos os dispositivos usados com o Microsoft Teams em sua organização usando o centro de administração do Microsoft Teams. Você pode exibir e gerenciar o inventário de dispositivos da sua organização e executar tarefas como atualizar, reiniciar e monitorar o diagnóstico de dispositivos. Você também pode criar e atribuir perfis de configuração a um dispositivo ou grupos de dispositivos. 
 
 ## <a name="what-devices-can-you-manage"></a>Quais dispositivos você pode gerenciar?
 Os dispositivos devem ser certificados para equipes e registrados no Microsoft Teams. Um dispositivo é registrado automaticamente na primeira vez que o usuário entra no Microsoft Teams no dispositivo. Para obter uma lista de dispositivos certificados que podem ser gerenciados, consulte [telefones em conferência](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=16) e [telefones de mesa](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=34).

@@ -85,6 +85,7 @@
 #### [Relatório de atividades do usuário do Teams](teams-analytics-and-reports/user-activity-report.md)
 #### [Relatório de uso de dispositivos do Teams](teams-analytics-and-reports/device-usage-report.md)
 #### [Relatório de usuários bloqueados da PSTN](teams-analytics-and-reports/pstn-blocked-users-report.md)
+#### [Relatório de pools de minutos PSTN](teams-analytics-and-reports/pstn-minute-pools-report.md)
 #### [Relatório de uso da PSTN](teams-analytics-and-reports/pstn-usage-report.md)
 #### [Relatório de uso de evento ao vivo do Teams](teams-analytics-and-reports/teams-live-event-usage-report.md)
 ### [Relatórios de atividades do Teams no centro de administração do Microsoft 365](teams-activity-reports.md)
