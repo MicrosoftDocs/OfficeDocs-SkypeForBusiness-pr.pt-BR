@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: Este artigo resume os requisitos para dar suporte a salas do Microsoft Teams.
-ms.openlocfilehash: f5e78b9731a84841291a93aaeb9e0a25a084c87b
-ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
+ms.openlocfilehash: 98f7b4871133840bc531f563652b335bf706e37f
+ms.sourcegitcommit: e84becc101232b8017aab519378480c5dbebbb48
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37439523"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37468471"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de salas do Microsoft Teams
 
@@ -111,7 +111,7 @@ Esses dispositivos estão disponíveis em [aka.ms/teamsdevices](https://aka.ms/t
 
 #### <a name="usb-extenders"></a>Extensores USB
 
-- Portas USB em cais de Tablet são compatíveis com USB 3,0. Você pode usar um extensor USB 2. x. Isso limitará você a velocidades USB 2. x na extremidade oposta, o que não é recomendado para periféricos USB 3,0.
+- Portas USB em cais de Tablet são compatíveis com USB 3,0. Você pode usar um Extender USB 2. x, mas isso o limita a velocidades USB 2. x na extremidade. Os extensores não são recomendados para periféricos USB 3,0.
 - Um Extender deve atender às especificações USB 2,0 ou mais recente.
   - Os encaixes de Tablet dão suporte a pelo menos dois estágios de extensão de Hub USB externo. Se você conectar mais de dois hubs USB em série, verifique com o fabricante do Dock para confirmar se eles dão suporte à conexão de série.
   - Conexão GbE com fio na sala. Cabo Ethernet de comprimento adequado.

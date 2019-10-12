@@ -11,12 +11,12 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: Este artigo aborda os problemas conhecidos das Salas do Microsoft Teams, por área de recurso.
-ms.openlocfilehash: 3e3da371a294582fc6a56db7e59615fdbe97c48b
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: eaf95f8afd470376ee4f14549b50df8b38d93d34
+ms.sourcegitcommit: e84becc101232b8017aab519378480c5dbebbb48
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775189"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37468482"
 ---
 # <a name="known-issues"></a>Problemas conhecidos 
  
@@ -54,7 +54,7 @@ O SkypeRoomSystemv2 não oferece suporte à entrada HDCP, pois foi observado que
 
 ***
 
-Uma TV para consumidor usada como uma exibição de primeira sala deve dar suporte ao recurso de controle de eletrônicos do consumidor (CEC) de HDMI para alternar automaticamente para uma fonte de vídeo ativa a partir do modo de espera. Esse recurso não é suportado em todas as TVs.
+Se você quiser uma exibição do lado da sala para alternar automaticamente para uma fonte de vídeo ativa (como um console do MTR) quando a origem é ativada do modo de espera, determinadas condições devem ser atendidas. Esse recurso é opcional, mas suportado pelo software de salas Microsoft Teams, desde que o hardware subjacente seja compatível com o recurso. Uma TV para consumidor usada como uma frontal da exibição de sala precisa dar suporte ao recurso de controle de eletrônicos do consumidor (CEC) de HDMI.  Dependendo do Dock ou console selecionado (que pode não ser compatível com o CEC, confira a documentação de suporte do fabricante), um controlador de espaço de trabalho como um [EXTRON HD CTL 100](https://www.extron.com/article/hdctl100ad) pode ser necessário para habilitar o comportamento desejado. 
 
 ***
 
@@ -67,6 +67,9 @@ Se o seu dispositivo de salas do Microsoft Teams perder a confiança com o domí
 A versão de 64 bits da edição de aniversário do Windows 10 Enterprise (em inglês, versão 1607) não tem mais suporte em salas do Microsoft Teams da versão 3.0.12.0. 
 ***
 Salas do Microsoft Teams é um aplicativo com várias janelas e requer que a exibição da sala seja conectada à porta HDMI do dispositivo para que o aplicativo funcione corretamente. Verifique se você tem uma tela HDMI conectada ou use um plugue HDMI fictício se estiver testando e ainda não tiver uma exibição adquirida.
+***
+O Windows 10 1903 ainda não é oferecido em dispositivos de salas do Microsoft Teams do Crestron devido a problemas com um driver gráfico.
+
 ***
 <a name="See"> </a>  
 ## <a name="see-also"></a>Confira também
