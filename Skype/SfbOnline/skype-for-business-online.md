@@ -17,7 +17,7 @@ ms.author: tonysmit
 f1keywords: ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
 ms.openlocfilehash: d2d2d647d200d6b043dbf131102fba402af6bf1f
 ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 08/06/2019
 ms.locfileid: "35418334"
@@ -38,7 +38,7 @@ Saiba como gerenciar o Skype for Business Online em sua organização.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Introdução ao Skype for Business</h3>
+                        <h3>Comece a usar o Skype for Business</h3>
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@ Saiba como gerenciar o Skype for Business Online em sua organização.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>&#39;mos a reformulação para ajudar</h3>
+                        <h3>Estamos aqui para ajudar</h3>
                     </div>
                 </div>
             </div>
@@ -121,7 +121,7 @@ Saiba como gerenciar o Skype for Business Online em sua organização.
 
 ---
 
-<h2>O que&#39;s novo</h2>
+<h2>Novidades</h2>
 
 <ul class="panelContent cardsF">
     <li>
@@ -134,7 +134,7 @@ Saiba como gerenciar o Skype for Business Online em sua organização.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Sobre</h3>
+                        <h3>Artigos</h3>
                         <p><a 
                         href="/microsoftteams/setting-up-your-phone-system">Configurar o Sistema de Telefonia na sua organização</a></p>
                         <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">Integração de terceiros com a Audioconferência</a></p>
@@ -171,7 +171,7 @@ Saiba como gerenciar o Skype for Business Online em sua organização.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Atualizações principais</h3>
+                        <h3>Principais atualizações</h3>
                         <p><a href="/microsoftteams/audio-conferencing-in-office-365">Configurar a Audioconferência</a></p>
                     </div>
                 </div>
@@ -202,7 +202,7 @@ Saiba como gerenciar o Skype for Business Online em sua organização.
                 <div class="card">
                     <div class="cardText">
                         <h3>Configurar</h3>
-                        <p><a href="/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online">Configurar o Skype for Business Online</a></p><p><a href="/SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users">Permitir que os usuários entrem em contato com usuários externos do Skype for Business</a></p><p><a href="/SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts">Permitir que os usuários do Skype for Business adicionem contatos do Skype</a></p>
+                        <p><a href="/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online">Instalar o Skype for Business Online</a></p><p><a href="/SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users">Permitir que os usuários entrem em contato com usuários externos do Skype for Business</a></p><p><a href="/SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts">Permitir que os usuários do Skype for Business adicionem contatos do Skype</a></p>
                      </div>
                 </div>
             </div>
@@ -237,8 +237,8 @@ Saiba como gerenciar o Skype for Business Online em sua organização.
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Sistema de Telefonia</h3>
-                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">O que é o Sistema de Telefonia no Office 365?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Aqui&#39;s o que você obtém com o sistema telefônico no Office 365</a></p>
+                        <h3>Sistema Telefônico</h3>
+                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">O que é o Sistema de Telefonia no Office 365?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Veja aqui o que você obtém com o Sistema de Telefonia no Office 365</a></p>
                </div>
                 </div>
             </div>
@@ -249,7 +249,7 @@ Saiba como gerenciar o Skype for Business Online em sua organização.
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Melhorar a qualidade de chamadas e do vídeo</h3>
+                        <h3>Melhorar a qualidade da chamada e do vídeo</h3>
                         <p><a href="https://support.office.com/article/ca302828-783f-425c-bbe2-356348583771">Solucionar problemas de conexão no Skype for Business</a></p><p><a href="https://support.office.com/article/62777bc6-c52b-47ae-84ba-a8905c3b71dc">Solucionar problemas de áudio e vídeo no Skype for Business</a></p><p><a href="https://support.office.com/article/beec23c2-c5d6-4e84-a8af-e82aefca7802">Ajustar o desempenho do Skype for Business Online</a></p>
                     </div>
                 </div>
