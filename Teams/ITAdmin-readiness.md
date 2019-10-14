@@ -20,7 +20,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 1ba3b888a598f0cb3348fd50fe1dfd549a988553
 ms.sourcegitcommit: 472825b0f4db1542a5b855d637aa90b4bcd797bc
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 09/16/2019
 ms.locfileid: "36993939"
@@ -99,7 +99,7 @@ Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pe
 | Planejamento de rede | [Vídeo](https://aka.ms/teams-networking) | [Apresentação](https://aka.ms/teams-networking-deck) |
 | Visão geral de qualidade de chamadas | [Vídeo](https://aka.ms/teams-quality) | [Apresentação](https://aka.ms/teams-quality-deck) |
 | Introdução às reuniões | [Vídeo](https://aka.ms/teams-meetings-intro) | [Apresentação](https://aka.ms/teams-meetings-intro-deck) |
-| Mídia |[Vídeo](https://aka.ms/media-in-teams)  | [Apresentação](https://aka.ms/media-in-teams-deck)|
+| Mídia |[Video](https://aka.ms/media-in-teams)  | [Apresentação](https://aka.ms/media-in-teams-deck)|
 | Eventos ao vivo | [Vídeo](https://aka.ms/teams-live-events-session) | [Apresentação](https://aka.ms/teams-live-events-deck) |
 | Introdução ao sistema de telefonia | [Vídeo](https://aka.ms/teams-phone-system) | [Apresentação](https://aka.ms/teams-phone-system-deck) |
 | Roteamento Direto | [Vídeo](https://aka.ms/teams-direct-routing) | [Apresentação](https://aka.ms/teams-direct-routing-deck) |
