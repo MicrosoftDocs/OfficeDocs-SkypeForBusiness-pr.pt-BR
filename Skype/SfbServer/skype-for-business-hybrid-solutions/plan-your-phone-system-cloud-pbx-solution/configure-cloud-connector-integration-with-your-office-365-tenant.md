@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Saiba como configurar a integração do Cloud Connector com seu locatário do Office 365.
-ms.openlocfilehash: 1742fbadec95eb72e46fb6cc46f006e1baeaf8f1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b4c70c5698601a2aa69669da3384b6806af98110
+ms.sourcegitcommit: 0d7f3c7a84584ec25a23190187215109c8756189
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287612"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37508806"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configurar a integração do Cloud Connector com seu locatário do Office 365
  
@@ -112,7 +112,7 @@ Depois de adicionar os usuários ao Office 365, habilite suas contas para os ser
   ```
 
     > [!NOTE]
-    > Você também pode especificar a identidade do usuário pelo endereço SIP, nome UPN, nome de domínio e nome de usuário (domínio\nome de usuário) e nome de exibição no Active Directory ("Diogo Martins").  
+    > Uma identidade de usuário pode ser especificada usando o endereço SIP do usuário, o nome de usuário principal (UPN) ou o nome de exibição do Active Directory do usuário (por exemplo, "Bob Kelly"). O caractere asterisco\*() também pode ser usado com o nome para exibição como a identidade do usuário. Por exemplo, a identidade "\*Smith" retorna todos os usuários que têm um nome de exibição que termina com o valor de cadeia de caracteres "Smith".
   
 Em seguida, é possível verificar se os usuários foram adicionados e habilitados usando o seguinte script:
   
@@ -169,7 +169,7 @@ Quando uma chamada ponto a ponto é escalonada para uma conferência PSTN, o ser
     
     Observe que a atribuição de licenças só é necessária para a propagação do usuário no diretório do Skype for Business online. Atribua as licenças do Office 365 (como E5) à conta que você criar, aguarde até uma hora para que as alterações sejam propagadas, verifique se as contas de usuário foram provisionadas corretamente para o diretório do Skype for Business online executando o cmdlet a seguir e, em seguida, remova o licença desta conta.
     ```
-   Gets-CsOnlineUser -Identity <UserPrincipalName>
+   Get-CsOnlineUser -Identity <UserPrincipalName>
    ```
     
 2. Inicie uma sessão de locatário do PowerShell remoto do Azure AD usando suas credenciais de administrador global ou de usuário e execute o cmdlet a seguir para definir o departamento da conta de usuário do Azure AD configurada na etapa 1 para "HybridMediationServer":

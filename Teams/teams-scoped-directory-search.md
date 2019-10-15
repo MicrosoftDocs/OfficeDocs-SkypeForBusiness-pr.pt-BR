@@ -18,18 +18,18 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e3b95e9d8de04abc6299a52a27cf07d95365a4f
-ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
+ms.openlocfilehash: e4966c2ac6071f0796efeb59248ed3eeacae69a7
+ms.sourcegitcommit: e5a9f276ace283b415f0abd4da6d27433a3d7d3b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37305794"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "37495278"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Usar a pesquisa de diretório no escopo do Microsoft Teams
 
 A pesquisa de diretório em escopo do Microsoft Teams permite que as organizações criem limites virtuais que controlam como os usuários podem encontrar e se comunicar com outros usuários em sua organização. 
 
-O Microsoft Teams permite que as organizações forneçam modos de exibição personalizados do diretório para seus usuários. O Microsoft Teams usa [políticas do catálogo de endereços do Exchange](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies) para dar suporte a essas exibições personalizadas. Depois que as políticas são habilitadas, os resultados retornados por pesquisas para outros usuários (por exemplo, para iniciar um chat ou para adicionar membros a uma equipe) serão definidos em escopo de acordo com as políticas configuradas. Os usuários não poderão pesquisar nem descobrir Teams quando a pesquisa com escopo estiver em vigor. 
+O Microsoft Teams permite que as organizações forneçam modos de exibição personalizados do diretório para seus usuários. O Microsoft Teams usa [políticas de barreira de informações](https://docs.microsoft.com/microsoft-365/compliance/information-barriers) para dar suporte a essas exibições personalizadas. Depois que as políticas são habilitadas, os resultados retornados por pesquisas para outros usuários (por exemplo, para iniciar um chat ou para adicionar membros a uma equipe) serão definidos em escopo de acordo com as políticas configuradas. Os usuários não poderão pesquisar nem descobrir Teams quando a pesquisa com escopo estiver em vigor. 
 
 > [!NOTE]
 > Em ambientes híbridos do Exchange, esse recurso funciona apenas com caixas de correio do Exchange Online e não com caixas de correio locais.
@@ -41,14 +41,14 @@ Cenários que se beneficiam de pesquisas de diretório com escopo são semelhant
 - Sua organização tem várias empresas dentro no locatário que você deseja manter separadas. 
 - Sua escola quer limitar os chats entre professores e alunos. 
  
-Para saber como usar as políticas do catálogo de endereços, leia [as políticas do catálogo de endereços no Exchange Online](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies).
+Para saber como usar as políticas do catálogo de endereços, leia [políticas de barreira de informações no Exchange Online](https://docs.microsoft.com/microsoft-365/compliance/information-barriers).
 
 > [!IMPORTANT]
 > As políticas de catálogo de endereços fornecem apenas uma separação virtual de usuários da perspectiva do diretório. Os usuários ainda podem iniciar comunicações com outras pessoas fornecendo endereços de e-mail completos. Também é importante observar que todos os dados do usuário que já haviam sido armazenados em cache, antes da aplicação de políticas novas ou atualizadas do catálogo de endereços, permanecerão disponíveis para os usuários por até 30 dias.
 
 ## <a name="turn-on-scoped-directory-search"></a>Ativar a pesquisa de diretório escopo
 
-1. Use as políticas de catálogo de endereços para configurar sua organização em subgrupos virtuais. Para obter mais informações, consulte [procedimentos para políticas do catálogo de endereços](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies).
+1. Use as políticas de barreira de informações para configurar sua organização em subgrupos virtuais. Para obter mais informações, consulte [definir políticas de barreira de informações](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies).
 
 2. No centro de administração do Microsoft Teams, selecione**configurações de equipes** **de configurações** > de toda a organização.
 
