@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: Tarefas e atividades necessárias para o gerenciamento de serviços do Teams, incluindo monitorar a integridade do serviço e avaliar e garantir a qualidade e o uso da rede.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d319c27e7e541cb970fe53a974012f5bb4ad29c3
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 61d0bc220de81b67c27d21d3ea22c7974a4c84d1
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427608"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516615"
 ---
 # <a name="operate-my-service"></a>Operar meu serviço
 
@@ -39,7 +39,7 @@ O gerenciamento de serviços abrange todas as atividades e os processos envolvid
 
 As tarefas e atividades neste guia são agrupadas em oito categorias, conforme mostrado no diagrama a seguir. Cada uma dessas categorias será expandida nas seções a seguir.
 
-![Um diagrama que mostra uma lista de categorias de tarefas e atividades] (media/operate-my-service-image1.png "Um diagrama que mostra uma lista de categorias de tarefas e atividades que o gerenciamento de serviços para equipes compreende. O diagrama também descreve que o gerenciamento de serviços é basicamente uma tarefa de cliente.")
+![Um diagrama que mostra uma lista de categorias de tarefas e atividades](media/operate-my-service-image1.png "um diagrama que ilustra uma lista de categorias de tarefas e atividades que o gerenciamento de serviços para equipes compreende. O diagrama também descreve que o gerenciamento de serviços é basicamente uma tarefa de cliente.")
 
 
 <table>
@@ -316,7 +316,7 @@ NPS é um índice, que varia de – 100 a 100, que mede a disposição do client
 
 -   Entre 1 e 6 são desviadores: clientes insatisfeitos que podem danificar seu serviço e impedir o crescimento.
 
-![Um diagrama que demonstra a escala do NPS] (media/operate-my-service-image2.png "Este diagrama demonstra a escala do NPS. Ele mostra que as classificações de 0 a 6 são detratores, 7 a 8 são passivos e 9 a 10 são promodores.")
+![Um diagrama que demonstra a escala do NPS](media/operate-my-service-image2.png "este diagrama demonstra a escala do NPS. Ele mostra que as classificações de 0 a 6 são detratores, 7 a 8 são passivos e 9 a 10 são promodores.")
 
 Embora o número de base do NPS seja útil, você obterá o valor máximo de análise de comentários do usuário. Elas o ajudarão a entender por que o usuário faria (ou não) recomendaria equipes para outras pessoas. Esses comentários podem fornecer feedback importante para ajudar as equipes de gerenciamento de projeto ou serviço a entender os ajustes necessários para fornecer um serviço de qualidade.
 
@@ -548,7 +548,7 @@ Por padrão, todos os usuários com uma caixa de correio no Exchange Online têm
 
 O [Guia de revisão da qualidade da experiência](https://aka.ms/qerguide) inclui um conjunto de atividades que avaliam e fornecem orientação de correção em áreas importantes que têm o maior impacto na melhoria da experiência do usuário, conforme ilustrado a seguir.
 
-![Diagrama de áreas a serem examinadas durante uma revisão de qualidade da experiência] (media/plan-my-service-management-image2.png "As principais áreas a serem examinadas durante uma revisão de qualidade da experiência: áudio, confiabilidade e resultados da pesquisa de usuários.")
+![Diagrama de áreas a serem examinadas durante uma qualidade de experiência analise](media/plan-my-service-management-image2.png "as principais áreas a serem examinadas durante uma revisão de qualidade da experiência: áudio, confiabilidade e resultados da pesquisa de usuários.")
 
 Ao avaliar continuamente e corrigir as áreas descritas no guia, você pode reduzir o potencial de afetar negativamente a experiência do usuário. A maioria dos problemas de experiência do usuário encontrada em uma implantação pode ser agrupada nas seguintes categorias:
 

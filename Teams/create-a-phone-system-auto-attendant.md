@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar atendedores automáticos da nuvem para o Microsoft Teams.
-ms.openlocfilehash: 60fce49f2c03ef674e0b1e09f5d0193bcdab7ca0
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: eeeafb99a7cf1344d973b5963eab5b0c4ee8eaea
+ms.sourcegitcommit: 9145ce09efe490d4d79b2a52ecc318f54d2feb2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434959"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37522765"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar um atendedor automático do Cloud
 
@@ -219,10 +218,20 @@ Se você selecionar **Desconectar**, o chamador será desconectado após a sauda
 
 **Discar por nome** Se você habilitar essa opção, os chamadores poderão procurar pessoas em sua organização usando **discar por nome**. Eles dizem que o nome do usuário e o reconhecimento de voz correspondem a um usuário. Você pode definir quem é e não está incluído nesses serviços na página de escopo opcional de discagem. Qualquer usuário online com uma licença de sistema telefônico ou qualquer usuário hospedado no local usando o Skype for Business Server é um usuário elegível e pode ser encontrado com o nome discado.
 
-**Discar por extensão** Se você habilitar essa opção, os chamadores poderão se conectar com os usuários em sua organização, inserindo a extensão de telefone, **Configurando um plano de discagem que usa extensões**. Você pode selecionar quais usuários estão listados como disponíveis ou não estão disponíveis para **discar por extensão** na página de escopo opcional de discagem. Qualquer usuário online com uma licença do sistema telefônico ou qualquer usuário hospedado no local usando o Skype for Business Server é um usuário elegível e pode ser encontrado com a extensão dial-to.
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
+
+**Discar por extensão** Se você habilitar essa opção (atualmente somente disponível em alguns locatários), os chamadores poderão se conectar com os usuários em sua organização inserindo a extensão do seu telefone. Você pode selecionar quais usuários estão listados como disponíveis ou não estão disponíveis para **discar por extensão** na página de escopo opcional de discagem. Qualquer usuário online com uma licença do sistema telefônico ou qualquer usuário hospedado no local usando o Skype for Business Server é um usuário elegível e pode ser encontrado com a extensão dial-to.
+
+> [!IMPORTANT]
+> Por favor, observe o seguinte:
+>- Os usuários que você deseja disponibilizar pela extensão de discagem precisam ter uma extensão especificada como parte do número de telefone ou celular atribuído no centro de [Administração do Microsoft 365](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users).  O formato obrigatório para inserir a extensão no campo de número de telefone do usuário é `+<phonenumber>;ext=<extension>` ou `x<extension>`.
+>- Não há suporte para a atribuição de uma extensão no centro de administração do teams no momento. Você deve usar o comando [set-MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) do PowerShell ou o centro de administração do Microsoft 365.
+>- Pode levar até 12 horas antes que as alterações nos atributos AAD intervalo e MobilePhone estejam disponíveis.
+>- Não defina uma extensão para o LineUri de um usuário. Não há suporte para isso no momento.
+>- Um atendedor automático pode ser configurado para discar por nome ou discar por extensão, mas não ambos.
 
 > [!NOTE]
-> Se quiser usar os recursos **discar por nome** e **discar pelos** recursos de extensão, você pode criar o atendedor automático principal (habilitado para **discar por nome**) que solicita que os chamadores escolham uma opção de menu 3 se saberem a extensão do usuário e definir a opção 3 como trans Sfer a chamada para um atendedor automático habilitado para discar por extensão. 
+> Se você quiser usar os recursos **discar por nome** e **discar pelos** recursos de extensão, você pode criar atendedor automático principal (habilitado para **discar por nome**) que solicita que os chamadores escolham uma opção de menu se saberem a extensão do usuário e definir essa opção como Transfira a chamada para um atendedor automático habilitado para discar por extensão. 
 
 * * *
 

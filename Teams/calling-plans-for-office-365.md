@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -25,12 +24,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: c3cafee8dcce326dd20661f919dc57b0e1f1fe26
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 305416df22353743b891df6c7722bededaae0980
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548984"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516742"
 ---
 # <a name="calling-plans-for-office-365"></a>Planos de Chamadas do Office 365
 
@@ -52,12 +51,12 @@ Para obter informações detalhadas sobre limites de uso e termos de uso, consul
   
 ## <a name="how-to-buy-a-calling-plan"></a>Como comprar um plano de chamadas
 
-1. <strong>Primeiro, você deve comprar uma</strong> licença do complemento do sistema de telefonia * *<strong>. Para fazer isso, [entre no centro de administração do Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e escolha * * cobranças</strong> > de**Serviços** > de compra complementares de**assinaturas** > **comprar agora**.
+1. <strong>Primeiro, você deve comprar uma</strong> licença do complemento do sistema de telefonia * *<strong>. Para fazer isso, [entre no centro de administração do Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e escolha * * cobranças</strong> > **Serviços** > de compra**complementares de assinaturas** > **comprar agora**.
     
     ![Captura de tela mostrando a opção para comprar um plano de chamada de voz.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > Dependendo do seu plano, talvez seja necessário comprar mais Complementos antes de poder comprar licenças do sistema de telefonia. Para saber mais, confira "opções de licença com base em seu plano" no licenciamento do complemento do [Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+    > Dependendo do seu plano, talvez seja necessário comprar mais Complementos antes de poder comprar licenças do sistema de telefonia. Para saber mais, confira "opções de licença com base em seu plano" no [Licenciamento do complemento do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 2. Depois de comprar licenças do sistema telefônico, você pode comprar o plano de chamadas entrando no **centro de administração do Microsoft 365**, escolher**assinaturas complementares**de**Serviços** > de compra de **cobrança** > e, em seguida, clicar em **comprar agora **. Você verá os planos de chamadas ali.
     

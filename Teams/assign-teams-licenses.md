@@ -8,19 +8,18 @@ ms.date: 12/14/2018
 ms.topic: article
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: mikedav
 description: Saiba como atribuir licenças para recursos como conferência de áudio, sistema telefônico e planos de chamada.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8d51e2cf8a563c5094da923949c8e736aceeb864
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1e5783a2fa0c6479d59e563b9001b736015f20fa
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241878"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515775"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>Atribuir licenças do Microsoft Teams
 
@@ -110,7 +109,7 @@ for each ($user in $users)
 
 Veja o que você precisa saber antes de atribuir licenças de conferência de áudio.
 
-- **Provedor de**serviços de audioconferência terceirizado: se alguém já estiver configurado para usar um provedor de serviços de audioconferência de terceiros, ao atribuir uma licença de audioconferência, ele será alterado para usar a Microsoft como provedor de serviços de audioconferência. Você poderá mudá-lo de volta para o provedor terceirizado.
+- **Provedor de serviços de audioconferência terceirizado**: se alguém já estiver configurado para usar um provedor de serviços de audioconferência de terceiros, ao atribuir uma licença de audioconferência, ele será alterado para usar a Microsoft como provedor de serviços de audioconferência. Você poderá mudá-lo de volta para o provedor terceirizado.
 
 - **Próximas etapas**: depois de atribuir licenças de audioconferência, você precisa atribuir um provedor de serviços de audioconferência. Consulte [atribuir a Microsoft como o provedor de áudio de audioconferência](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
 

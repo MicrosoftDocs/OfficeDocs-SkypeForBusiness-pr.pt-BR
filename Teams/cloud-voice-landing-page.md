@@ -8,7 +8,6 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
 ms.reviewer: crowe
@@ -18,12 +17,12 @@ search.appverid: MET150
 description: Página de aterrissagem para implantar a voz na nuvem no Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92e32950526f12c5da1856ce390ee3e532892681
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: f60159d2d9d65afd3837a0b48b82ac7e13b8e0df
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483854"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515827"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Voz na nuvem no Microsoft Teams
 
@@ -42,7 +41,7 @@ Recomendamos que todas as organizações funcionem pelas decisões básicas e, s
 Os artigos a seguir fornecem mais informações sobre a implantação e o uso de recursos de voz na nuvem no Teams:
 
 - [Sistema de telefonia no Office 365](what-is-phone-system-in-office-365.md)
-- [Sistema telefônico com planos de chamada](calling-plan-landing-page.md)
+- [Sistema de Telefonia com Planos de Chamadas](calling-plan-landing-page.md)
 - [Roteamento Direto do Sistema Telefônico](direct-routing-landing-page.md)
 - [Implantação do Cloud Voice](cloud-voice-deployment.md)
 - [Soluções de telefonia da Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
@@ -107,7 +106,7 @@ Por padrão, todas as chamadas de saída usam o número de telefone atribuído c
 
 ### <a name="phone-numbers-from-microsoft"></a>Números de telefone da Microsoft
 
-A Microsoft tem dois tipos de números de telefone ** disponíveis: números de assinante (usuário), que podem ser atribuídos a usuários em sua organização e números de *serviço* , disponíveis como chamada de serviço de chamada tarifada e gratuita, que têm uma chamada simultânea maior capacidade do que os números de assinantes e podem ser atribuídos a serviços como conferência de áudio, atendedor automático ou filas de chamadas.
+A Microsoft tem dois tipos de números de telefone disponíveis: números de *assinante* (usuário), que podem ser atribuídos a usuários em sua organização e números de *serviço* , disponíveis como chamada de serviço de chamada tarifada e gratuita, que têm uma chamada simultânea maior capacidade do que os números de assinantes e podem ser atribuídos a serviços como conferência de áudio, atendedor automático ou filas de chamadas.
 
 |Pergunte-se|Ação |
 | :------------|:-------|
@@ -125,12 +124,12 @@ Para obter mais informações sobre os planos de discagem, confira [O que são o
 |Pergunte-se|Ação |
 |:------------|:-------|
 | Minha organização precisa de um plano de discagem personalizado? | Para ajudar a determinar se você precisa de um plano de discagem personalizado, consulte [planejando planos de discagem de locatários](what-are-dial-plans.md#planning-for-tenant-dial-plans)|
-Quais usuários exigem um plano de discagem personalizado e qual plano de discagem de locatários deve ser atribuído a cada usuário? | Para adicionar usuários a um plano de discagem personalizado no PowerShell, consulte [criar e gerenciar planos](create-and-manage-dial-plans.md)de discagem. |
+Quais usuários exigem um plano de discagem personalizado e qual plano de discagem de locatários deve ser atribuído a cada usuário? | Para adicionar usuários a um plano de discagem personalizado no PowerShell, consulte [criar e gerenciar planos de discagem](create-and-manage-dial-plans.md). |
 |||
 
 ### <a name="call-queues"></a>Filas de chamadas
 
-As filas de chamadas na nuvem incluem Saudações que são usadas quando alguém liga para um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de Pesquisar o próximo agente de chamada disponível para lidar com a chamada enquanto as pessoas que chamam são ouvindo música em espera. Você pode criar uma fila de chamadas única ou múltiplas para a sua organização. 
+As filas de chamadas na nuvem incluem Saudações que são usadas quando alguém liga para um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de Pesquisar o próximo agente de chamada disponível para lidar com a chamada enquanto as pessoas que chamam são ouvindo música em espera. Você pode criar uma ou várias filas de chamadas para sua organização. 
 
 
 |Pergunte-se|Ação |

@@ -1,5 +1,5 @@
 ---
-title: Configurar o aplicativo de Reuniões do Skype para trabalhar com as equipes
+title: Configurar o aplicativo de Reuniões do Skype para trabalhar com o Teams
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: Lolaj
@@ -12,17 +12,16 @@ search.appverid: MET150
 description: Os administradores podem usar o centro de administração do Microsoft Teams para configurar o aplicativo reuniões do Skype para trabalhar com o Microsoft Teams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 227ac287958634ee699a29990149a494a00b2078
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1f478eaaa1248e7738026f32ae0ccfb7ee03480f
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236857"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516917"
 ---
-<a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Configurar o aplicativo de Reuniões do Skype para trabalhar com as equipes
+<a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Configurar o aplicativo de Reuniões do Skype para trabalhar com o Teams
 ===================================================
 
 Depois que um usuário for atualizado para o Microsoft Teams, os administradores poderão usar o centro de administração do Microsoft Teams para especificar o aplicativo preferencial que os usuários usarão para ingressar em reuniões do Skype for Business.
@@ -30,7 +29,7 @@ Depois que um usuário for atualizado para o Microsoft Teams, os administradores
 Para especificar o aplicativo Skype para reuniões como o aplicativo preferencial:
 
 1. Entre no centro de administração do Microsoft Teams.
-2. No painel esquerdo, em **configurações da organização em toda a organização**, selecione **atualização**do Microsoft Teams.
+2. No painel esquerdo, em **configurações da organização em toda a organização**, selecione atualização do Microsoft **Teams**.
 3. Na página de atualização do Teams, em **preferências do aplicativo**, selecione **aplicativo reuniões do Skype** na lista suspensa **aplicativo preferencial para os usuários ingressarem em reuniões do Skype for Business** .
 
     ![Escolha o aplicativo preferencial para que os usuários ingressem em reuniões do Skype for Business](media/teams-configure-skype-meetings-app-to-work-with-teams-image1.png)

@@ -9,20 +9,19 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 description: Saiba como atribuir ou alterar um local de emergência para os usuários de sua organização.
-ms.openlocfilehash: ac10117654c8fe2757792562beee1893111cc22a
-ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
+ms.openlocfilehash: cca8db844b8b0400fe2940583f6c01140dc247be
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37396449"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515868"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>Atribuir ou alterar um local de emergência para um usuário
 
@@ -43,9 +42,9 @@ Para saber como obter planos de chamada no Office 365 e quanto eles custam, cons
     
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [O que são locais de emergência, locais e encaminhamento de chamadas?](what-are-emergency-locations-addresses-and-call-routing.md)
+- [O que são locais e endereços de emergência, e roteamento de chamada?](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Adicionar, alterar ou remover um local de emergência para sua organização](add-change-remove-emergency-location-organization.md)
-- [Adicionar, alterar ou remover um local para um local de emergência em sua organização](add-change-remove-emergency-place-organization.md)
-- [Atribuir ou alterar um local para um local de emergência de um usuário](assign-change-emergency-place-user.md)
+- [Adicionar, alterar ou remover um endereço de um local de emergência para sua organização](add-change-remove-emergency-place-organization.md)
+- [Atribuir ou alterar um endereço de um local de emergência para um usuário](assign-change-emergency-place-user.md)
 - [Gerenciar os números de telefone de sua organização](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Termos e condições das Chamadas de Emergência](/microsoftteams/emergency-calling-terms-and-conditions)

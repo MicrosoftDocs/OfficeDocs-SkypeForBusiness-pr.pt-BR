@@ -10,17 +10,17 @@ audience: admin
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-voice
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-description: Este documento descreve o comportamento do chat, o roteamento de chamadas e a presença entre os usuários do Teams e o Skype for Business, tanto no locatário quanto em federado, com base nos modos de TeamsUpgrade atribuídos. Ele inclui otimizações de roteamento, comportamento de presença, bem como a alteração do modo de TeamsUpgrade ** padrão do herdado para as *ilhas* e o afastamento iminente do *herdado*.
-ms.openlocfilehash: 22e931d50c3008a77df6ad6568bd50acbe891c8b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: Este documento descreve o comportamento do chat, o roteamento de chamadas e a presença entre os usuários do Teams e o Skype for Business, tanto no locatário quanto em federado, com base nos modos de TeamsUpgrade atribuídos. Ele inclui otimizações de roteamento, comportamento de presença, bem como a alteração do modo de TeamsUpgrade padrão do *herdado* para as *ilhas* e o afastamento iminente do *herdado*.
+ms.openlocfilehash: 3af54bdfecc7843fbbc095ca0d0cebb91732e648
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236906"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515857"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistência com o Skype for Business
 
@@ -38,7 +38,7 @@ Se o remetente estiver usando o Microsoft Teams, a decisão de roteamento será 
  Os métodos de roteamento de thread são:  
 
 - *nativo* para uma conversa do teams in Teams in-Tenant
-- ** interoperabilidade para uma equipe do Skype for Business conversa no locatário
+- *interoperabilidade* para uma equipe do Skype for Business conversa no locatário
 - *federado* para uma conversa federada entre locatários
 
 Os parâmetros que determinam o método de roteamento de thread são:
@@ -79,7 +79,7 @@ Nas tabelas a seguir:
 |--- |--- |--- |--- |--- |
 | McDonald | Microsoft Teams <br/> Skype for Business<br/> Microsoft Teams<br/> Skype for Business| Online<br/> Online<br/> Local<br/>Local| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Microsoft Teams <br/> Skype for Business<br/> Microsoft Teams<br/> Skype for Business|
 |SfB\* <br/> | Skype for Business<br/>Skype for Business<br/> | Online<br/> Local<br/> |&boxv;<br/>&boxv;|Skype for Business<br/>Skype for Business<br/>|
-|TeamsOnly |Microsoft Teams| Online<br/>|&boxv;<br/>|Microsoft Teams|
+|TeamsOnly |Teams| Online<br/>|&boxv;<br/>|Teams|
 | | | | | |
 
 **Tabela 1b: novo chat no locatário ou encaminhamento de chamadas para um destinatário em um\* modo de SfB**
@@ -88,16 +88,16 @@ Nas tabelas a seguir:
 |--- |--- |--- |---   |--- |
 | McDonald |Microsoft Teams<br/>Skype for Business<br/>Microsoft Teams <br/>Skype for Business  |Online<br/> Online<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business<br/> **Não é possível** <br/>Skype for Business<br/> |
 |SfB\* <br/> | Skype for Business<br/>Skype for Business<br/> | Online<br/> Local<br/> |&boxv;<br/>&boxv; |  Skype for Business<br/>Skype for Business<br/> |
-|TeamsOnly |Microsoft Teams| Online<br/>|&boxv;<br/> |  *Skype for Business* <br/>| 
+|TeamsOnly |Teams| Online<br/>|&boxv;<br/> |  *Skype for Business* <br/>| 
 | | | | | |
 
 **Tabela 1C: novo chat no locatário ou encaminhamento de chamadas para um destinatário do modo TeamsOnly**
 
 | <br/><br/> Modo   | Criador <br/><br/> Cliente | <br/><br/> SfB&nbsp;homed | |   Correspondente <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
-| McDonald   |Microsoft Teams<br/>Skype for Business<br/>Microsoft Teams <br/>Skype for Business<br/>|Online<br/> Online<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Microsoft Teams <br/>*Microsoft Teams* <br/>Microsoft Teams <br/>*Microsoft Teams*  |
+| McDonald   |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business<br/>|Online<br/> Online<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Microsoft Teams* <br/>Teams <br/>*Microsoft Teams*  |
 |SfB\*  | Skype for Business<br/>Skype for Business<br/> | Online<br/> Local<br/> | &boxv;<br/>&boxv; | *Microsoft Teams*  <br/>*Microsoft Teams*   |
-|TeamsOnly  | Microsoft Teams | Online |  &boxv; |Microsoft Teams   |
+|TeamsOnly  | Teams | Online |  &boxv; |Teams   |
 |  |  |  | | |
 
 ## <a name="federated-routing-for-new-chats-or-calls"></a>Roteamento federado para novos chats ou chamadas
@@ -117,27 +117,27 @@ As tabelas a seguir descrevem qual cliente receberá uma chamada do originador (
 
 | <br/><br/>Modo   | Criador<br/><br/> Cliente| <br/><br/>SfB homed| | Correspondente<br/><br/> McDonald |
 |--- |--- |--- |--- |--- |
-| McDonald |Microsoft Teams<br/>Skype for Business <br/>Microsoft Teams <br/>Skype for Business  |Online<br/> Online<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **Não é possível**   <br/> Skype for Business |
+| McDonald |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business  |Online<br/> Online<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **Não é possível**   <br/> Skype for Business |
 | SfB\* |Skype for Business <br/>Skype for Business |Online<br/> Local<br/> | &boxv;<br/>&boxv;|Skype for Business <br/>Skype for Business |
-| TeamsOnly |Microsoft Teams |Online| &boxv;|*Skype for Business* |
+| TeamsOnly |Teams |Online| &boxv;|*Skype for Business* |
 |  | | | | 
 
 **Tabela 2B: novo chat federado ou encaminhamento de chamadas para um destinatário em\* um modo de SfB**
 
 | <br/><br/>Modo   | Criador<br/><br/> Cliente| <br/><br/>SfB homed| |  Correspondente<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
-| McDonald |Microsoft Teams<br/>Skype for Business <br/>Microsoft Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> Local<br/> Local<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **Não é possível** <br/>Skype for Business <br/> |  
+| McDonald |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> Local<br/> Local<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **Não é possível** <br/>Skype for Business <br/> |  
 | SfB\* |Skype for Business <br/>Skype for Business  |Online<br/> Local<br/>  |&boxv;<br/>&boxv; | Skype for Business <br/>Skype for Business  |
-| TeamsOnly | Microsoft Teams|Online |&boxv; |*Skype for Business*  |
+| TeamsOnly | Teams|Online |&boxv; |*Skype for Business*  |
 |  | | | | |
 
 **Tabela 2C: novo chat federado ou encaminhamento de chamadas para um destinatário do modo TeamsOnly**
 
 | <br/><br/>Modo | Criador<br/><br/> Cliente| <br/><br/>SfB homed| |  Correspondente<br/>  <br/> TeamsOnly  |
 |--- |--- |--- |--- |--- |
-| McDonald  |Microsoft Teams<br/>Skype for Business <br/>Microsoft Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Microsoft Teams <br/>*Microsoft Teams* <br/>**Não é possível** <br/>*Microsoft Teams* |
+| McDonald  |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Microsoft Teams* <br/>**Não é possível** <br/>*Microsoft Teams* |
 | SfB\* |Skype for Business <br/>Skype for Business  | Online<br/> Local| &boxv;<br/>&boxv;|*Microsoft Teams* <br/>*Microsoft Teams*   |
-| TeamsOnly |Microsoft Teams |Online |&boxv; |Microsoft Teams |
+| TeamsOnly |Teams |Online |&boxv; |Teams |
 |  | | | | |
 
 ## <a name="chats-and-calls-from-pre-existing-threads"></a>Chats e chamadas de threads preexistentes
@@ -188,8 +188,8 @@ A tabela descreve a presença do fornecedor que será vista por um observador, d
 
 |Inspetor <br/><br/>Cliente| |<br/><br/>McDonald |Publisher <br/><br/>SfB\* |<br/>Somente equipes|
 |--- |--- |--- |--- |---|
-|Skype for Business |&boxv;|Skype for Business | Skype for Business | Microsoft Teams|
-|Microsoft Teams |&boxv; |Microsoft Teams |Skype for Business |Microsoft Teams |
+|Skype for Business |&boxv;|Skype for Business | Skype for Business | Teams|
+|Microsoft Teams |&boxv; |Microsoft Teams |Skype for Business |Teams |
 | | | | |
 
 ## <a name="federated-presence"></a>Presença federada
@@ -202,8 +202,8 @@ A tabela a seguir descreve a presença do fornecedor que será vista por um obse
 
 |Inspetor <br/><br/> Cliente | |<br/><br/> McDonald  |Publisher <br/><br/> SfB\* |<br/><br/> Somente equipes |
 |--- |--- |--- |--- |---|
-|Skype for Business |&boxv; |Skype for Business  | Skype for Business  | Microsoft Teams  |
-|Microsoft Teams | &boxv;|Skype for Business |Skype for Business |Microsoft Teams|
+|Skype for Business |&boxv; |Skype for Business  | Skype for Business  | Teams  |
+|Microsoft Teams | &boxv;|Skype for Business |Skype for Business |Teams|
 | | | | ||
 
 ## <a name="presence-in-pre-existing-threads"></a>Presença em threads preexistentes

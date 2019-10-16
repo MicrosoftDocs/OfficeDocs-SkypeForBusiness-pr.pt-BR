@@ -12,17 +12,16 @@ search.appverid: MET150
 description: Guia de Início Rápido para configurar Planos de Chamadas no Microsoft Teams.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- Teams_ITAdmin_Training
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e043633749e0ef2dba41b5b3b18776cfbe1c497
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 87670ea398150e4895f2d87ccc48f60aba2d1377
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236569"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516476"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guia de Início Rápido: como configurar Planos de Chamadas no Microsoft Teams
 ==============================================================
@@ -43,8 +42,8 @@ Para habilitar a guia **chamadas** em Teams os usuários precisam ter chamadas d
 > [!NOTE]
 > No momento, o correio de voz não estará disponível na guia chamadas, a menos que o usuário esteja habilitado para chamadas PSTN. 
 
-## <a name="prerequisites-for-enabling-the-dial-pad-in-teams"></a>Pré-requisitos para habilitar o **teclado** de discagem no Teams
-Para habilitar a guia do **teclado** de discagem no Teams e permitir que os usuários façam e recebam chamadas PSTN, você precisará provisionar usuários para o sistema telefônico e planos de chamadas. Para saber como configurar planos de chamadas, leia [configurar planos de chamadas](https://docs.microsoft.com/microsoftteams/set-up-calling-plans).
+## <a name="prerequisites-for-enabling-the-dial-pad-in-teams"></a>Pré-requisitos para habilitar o **teclado de discagem** no Teams
+Para habilitar a guia do **teclado de discagem** no Teams e permitir que os usuários façam e recebam chamadas PSTN, você precisará provisionar usuários para o sistema telefônico e planos de chamadas. Para saber como configurar planos de chamadas, leia [configurar planos de chamadas](https://docs.microsoft.com/microsoftteams/set-up-calling-plans).
 
 > [!NOTE]
 > Você também pode usar o roteamento direto para permitir que os usuários façam e recebam chamadas PSTN. Para saber como configurar o roteamento direto, leia [Configurar roteamento direto](https://docs.microsoft.com/microsoftteams/direct-routing-configure).
@@ -77,7 +76,7 @@ Para garantir que os usuários recebam todas as chamadas VOIP e PSTN de entrada 
 
 [Orientações de migração e interoperabilidade para organizações que usam o Teams em conjunto com o Skype for Business](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
-[Sistema telefônico com planos de chamada](calling-plan-landing-page.md)
+[Sistema de Telefonia com Planos de Chamadas](calling-plan-landing-page.md)
 
 [Referência do cmdlet do PowerShell do Skype for Business](https://docs.microsoft.com/powershell/module/skype)
 

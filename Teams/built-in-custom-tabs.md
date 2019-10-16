@@ -8,19 +8,18 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: lucarras
 search.appverid: MET150
 description: Saiba como usar guias internas e personalizadas para incluir recursos, como conversas, arquivos, mapas e muito mais.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8fb0fcd1fab0fc51319b72d5557caac836bcb51
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9a9a78f2b611bd586b0e465f8e5045484417d07f
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236898"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516433"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Usar guias internas e personalizadas no Microsoft Teams
 ==================================================

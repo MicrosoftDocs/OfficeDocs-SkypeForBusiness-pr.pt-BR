@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -22,12 +21,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Compartilhamento de chamadas e retirada de chamadas em grupo permitem que os usuários compartilhem chamadas com colegas para que as chamadas possam ser capturadas quando o usuário não estiver disponível.
-ms.openlocfilehash: 23850f71986530a504cd6005142e3f5e89c3a54e
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 0f61039fc2027da83472f042c723a43d249da080
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483271"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37517013"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Compartilhamento de chamadas e atendimento de chamada em grupo no Microsoft Teams
 
@@ -46,7 +45,7 @@ Os usuários devem ter o Enterprise Voice habilitado para configurar e usar o co
 
 ## <a name="configure-group-call-pickup"></a>Configurar a retirada de chamadas em grupo
 
-Para configurar o recebimento de chamadas em grupo, um usuário primeiro configura um grupo de chamadas (isso não é o mesmo que um grupo de segurança ou um grupo do Office 365) e, em seguida, adiciona os usuários com quem deseja compartilhar suas chamadas. Em seguida, eles escolhem uma configuração de toque simultâneo ou encaminhamento de chamadas. Para obter mais informações e procedimentos passo a passo, consulte encaminhamento de [chamadas e toque simultâneo no Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e).
+Para configurar o recebimento de chamadas em grupo, um usuário primeiro configura um grupo de chamadas (isso não é o mesmo que um grupo de segurança ou um grupo do Office 365) e, em seguida, adiciona os usuários com quem deseja compartilhar suas chamadas. Em seguida, eles escolhem uma configuração de toque simultâneo ou encaminhamento de chamadas. Para obter mais informações e procedimentos passo a passo, consulte [encaminhamento de chamadas e toque simultâneo no Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e).
 
 A criação de grupos de chamadas e preferências de notificação são recursos controlados pelo usuário; os administradores não precisam configurar esses recursos para seus usuários. Os grupos de chamadas não podem ser criados a partir de grupos de segurança ou grupos do Office 365; Elas devem ser criadas no Teams.
 

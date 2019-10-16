@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: Escolha aplicativos cliente do Teams, plano para a qualidade do ponto de extremidade, Obtenha recomendações para a implantação de pontos de extremidade Wi-Fi e escolha dispositivos de áudio.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 688b1d05acb882b08128fa144f28bd8e682d57fa
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 37b74c631bc8194037b332e821b29fa61cb6530b
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235183"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515969"
 ---
 # <a name="plan-my-users-experience"></a>Planejar a experiência de meus usuários
 
@@ -41,7 +41,7 @@ Um dos principais benefícios do teams é que o cliente é mantido atualizado au
 
 Como você pode ver no diagrama abaixo, os pontos de extremidade são um bloco de construção importante para oferecer uma experiência de qualidade para os usuários.
 
-![Diagrama descrevendo os três componentes de qualidade] (media/plan-my-users-experience-image1.png "Diagrama descrevendo os três componentes de qualidade e como o gerenciamento de serviços se sobrepõe a todos os três componentes. Com foco em pontos de extremidade.")
+![Diagrama descrevendo os três componentes do diagrama de qualidade](media/plan-my-users-experience-image1.png "descrevendo os três componentes de qualidade e como o gerenciamento de serviços se sobrepõe a todos os três componentes. Com foco em pontos de extremidade.")
 
 Os pontos de extremidade do teams podem ser executados em muitos dispositivos, incluindo PCs, Macs, tablets e dispositivos móveis. Parte da experiência não só inclui o dispositivo, mas como um usuário se conecta ao dispositivo — por exemplo, usando o microfone/alto-falante interno do dispositivo, o fones ou um fone de ouvido com microfone otimizado. O uso de um fone de ouvido com microfone otimizado pode melhorar a experiência geral do usuário.
 

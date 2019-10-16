@@ -14,18 +14,18 @@ search.appverid: MET150
 description: Orientações práticas para a implantação dos recursos de Cloud Voice no Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88f043bec273cb19745e9800fc9cdb85f64c8e7a
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: 9feaffd1677d96c53dee57b03f9061c6fa8184ce
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271387"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516936"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Gravação de reuniões na nuvem do Microsoft Teams
 
 No Microsoft Teams, os usuários podem gravar suas reuniões de equipe e chamadas em grupo para capturar a atividade de compartilhamento de áudio, vídeo e tela. Há também uma opção para habilitar a transcrição automática nas gravações. Com isso, os usuários podem reproduzir gravações de reunião com legendas ocultas e procurar itens de discussão importantes na transcrição. A gravação ocorre na nuvem e é salva no [Microsoft Stream](https://docs.microsoft.com/stream/), para que os usuários possam compartilhá-lo com segurança em toda a organização.
 
-Relacionados: [documentação do usuário final da gravação de reunião](https://aka.ms/recordmeeting) do teams
+Relacionados: [documentação do usuário final da gravação de reunião do teams](https://aka.ms/recordmeeting)
 
 ## <a name="prerequisites-for-teams-cloud-meeting-recording"></a>Pré-requisitos para a gravação de reuniões na nuvem do teams
 
@@ -50,7 +50,7 @@ Esta seção explica como você pode configurar e planejar reuniões de equipes 
 
 ### <a name="enable-microsoft-stream-for-users-in-the-organization"></a>Habilitar o Microsoft Stream para usuários na organização
 
-O Microsoft Stream está disponível como parte de assinaturas qualificadas do Office 365 ou como um serviço autônomo.  Consulte a [visão geral](https://docs.microsoft.com/stream/license-overview) de licenciamento de fluxo para obter mais detalhes.  O Microsoft Stream agora está incluído no Microsoft 365 Business, no Office 365 Business Premium e no Office 365 Business Essentials.
+O Microsoft Stream está disponível como parte de assinaturas qualificadas do Office 365 ou como um serviço autônomo.  Consulte a [visão geral de licenciamento de fluxo](https://docs.microsoft.com/stream/license-overview) para obter mais detalhes.  O Microsoft Stream agora está incluído no Microsoft 365 Business, no Office 365 Business Premium e no Office 365 Business Essentials.
 
 Saiba mais sobre como você pode [atribuir licenças a usuários no Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) para que os usuários possam acessar o Microsoft Stream. Certifique-se de que o Microsoft Stream não seja bloqueado para os usuários, conforme definido neste [artigo](https://docs.microsoft.com/stream/disable-user-organization).
 
@@ -60,7 +60,7 @@ Por padrão, todos os participantes da empresa podem criar conteúdo no fluxo, u
 
 ### <a name="notify-employees-to-consent-to-company-guidelines-in-microsoft-stream"></a>Notificar os funcionários pelo consentimento para as diretrizes da empresa no Microsoft Stream
 
-Se um administrador de fluxo da Microsoft configurou a [política de diretriz da empresa](https://docs.microsoft.com/stream/company-policy-and-consent) e requer que os funcionários aceitem essa política antes de salvar o conteúdo, os usuários devem fazer isso antes da gravação no Microsoft Teams. Antes de distribuir o recurso de gravação na organização, certifique-se de que os usuários consentiam na política.
+Se um administrador de fluxo [da Microsoft configurou a política de diretriz da empresa](https://docs.microsoft.com/stream/company-policy-and-consent) e requer que os funcionários aceitem essa política antes de salvar o conteúdo, os usuários devem fazer isso antes da gravação no Microsoft Teams. Antes de distribuir o recurso de gravação na organização, certifique-se de que os usuários consentiam na política.
 
 ### <a name="turn-on-or-turn-off-cloud-recording"></a>Ativar ou desativar a gravação na nuvem
 

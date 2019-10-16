@@ -11,17 +11,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Meça os resultados da sua conferência de áudio, sistema telefônico com planos de chamadas ou implantação de roteamento direto do sistema telefônico e verifique se você obteve os resultados desejados.
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a84f0d38afbac74b296ccdfed626d6f8830d46a9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 918869697b5cd63580a654b9d0051fdac35c44f4
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244160"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37517070"
 ---
 # <a name="define-my-success"></a>Definir meu sucesso
 
@@ -230,7 +230,7 @@ Você precisa identificar riscos empresariais como parte deste exercício e defi
 
 ## <a name="establish-a-steering-committee"></a>Estabelecer um Comitê de direcionamento
 
-Um Comitê de direcionamento é um grupo regulador de principais interessados e líderes de projeto que se reuniram para orientar um projeto ou programa para seus resultados comerciais definidos. O Comitê de direcionamento não é responsável ** diretamente pela entrega do projeto, mas sim o *que* o projeto oferece à empresa.
+Um Comitê de direcionamento é um grupo regulador de principais interessados e líderes de projeto que se reuniram para orientar um projeto ou programa para seus resultados comerciais definidos. O Comitê de direcionamento não é responsável diretamente pela *entrega do projeto* , mas sim o *que* o projeto oferece à empresa.
 
 Cada projeto requer uma visão e uma compromisso acordados. Para entregar os resultados desejados do projeto, a visão deve ser claramente definida, e ele precisa ser monitorado e mantido. Isso se torna a responsabilidade do Comitê de direcionamento: para impulsionar decisões, aconselhar, fornecer supervisão estratégica, servir como defensores da organização para as iniciativas do projeto e, quando necessário, remover bloqueadores.
 

@@ -7,7 +7,6 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 ms.reviewer: roykuntz
 localization_priority: Normal
@@ -15,12 +14,12 @@ search.appverid: MET150
 description: Configurar chamadas de emergência dinâmicas
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 006f131183fe75b8246f0d2fa2d0ae28575e9e1d
-ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
+ms.openlocfilehash: 5b166c93bb213fab6e8025a1837ef67baa65c884
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37396452"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516928"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling-for-calling-plans"></a>Planejar e configurar chamadas de emergência dinâmicas para planos de chamada
 Chamadas de emergência dinâmicas para planos de chamada da Microsoft fornecem a funcionalidade de configurar e rotear chamadas de emergência com base na localização atual do cliente da equipe.  A capacidade de direcionar o roteamento automático para o ponto de resposta de segurança pública adequado (PSAP) ou notificar a equipe de suporte técnico varia de acordo com o país de uso do usuário do teams.  

@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: Use as listas de verificação integradas para preparar o Office 365 para equipes e configurar as principais funcionalidades, redes e cargas de trabalho de voz na nuvem do teams.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63b507237cbc9a1d32dc891b99eaf6425528b559
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 653b5cf46e0b079af47c282b4110b181e76be915
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236194"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516492"
 ---
 # <a name="prepare-my-service"></a>Preparar meu serviço
 
@@ -103,7 +103,7 @@ Em sua forma mais simples, a abordagem de teste baseia-se na revisão dos recurs
 
 
 >[!TIP]
->Para ajudar a criação de casos de teste como ponto de partida, confira a lista de diretrizes do usuário disponível em [reuniões e chamadas](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8#bkmk_havingmeetings)do Microsoft Teams.
+>Para ajudar a criação de casos de teste como ponto de partida, confira a lista de diretrizes do usuário disponível em [reuniões e chamadas do Microsoft Teams](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8#bkmk_havingmeetings).
 
 <!--ENDOFSECTION-->
 
@@ -140,7 +140,7 @@ Após a configuração do ambiente do usuário e do serviço, a última etapa do
 
 -   A lista de números de discagem de conferência de áudio dedicada e compartilhada com a preferência de idioma foi identificada e configurada.
 
--   [Créditos de comunicações](what-are-communications-credits.md) (se necessário) foram configurados para sua organização.
+-   [Créditos de comunicações](what-are-communications-credits.md) (se necessário) foram configurados para a sua organização.
 
 -   As configurações da ponte de conferência de áudio foram identificadas e configuradas (tamanho do pino, notificações de entrada/saída, preferência de notificação de habilitação).
 
@@ -158,7 +158,7 @@ Após a configuração do ambiente do usuário e do serviço, a última etapa do
 
 -   Os números de telefone a serem atribuídos aos usuários foram adquiridos ou portados para a Microsoft e estão disponíveis no portal de locatários.
 
--   [Créditos de comunicações](what-are-communications-credits.md) (se necessário) foram configurados para sua organização.
+-   [Créditos de comunicações](what-are-communications-credits.md) (se necessário) foram configurados para a sua organização.
 
 -   Políticas de usuário locatários e configurações de plano de discagem que dão suporte a cenários de planos de chamada foram identificadas, configuradas e aplicadas.
 

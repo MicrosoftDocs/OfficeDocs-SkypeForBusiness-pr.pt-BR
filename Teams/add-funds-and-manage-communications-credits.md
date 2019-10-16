@@ -11,8 +11,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -29,12 +28,12 @@ f1keywords:
 ms.custom:
 - Licensing
 description: 'Saiba como pagar por créditos de comunicação (consumo PSTN) dos serviços do Skype for Business e consulte planos para manter os usuários com acesso contínuo ao sistema telefônico. '
-ms.openlocfilehash: b6fde8cf36d31caca0c53d977b8844c263a53ff9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 30f3d164fd28cfc9bbec034c404d9fe71a58568b
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239330"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516807"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Adicionar fundos e gerenciar Créditos de Comunicação
 
@@ -76,9 +75,9 @@ Você pode ver os planos e preços visitando um dos seguintes links:
     
 - [Planos de sistema telefônico](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-Você também pode ver as informações conectando- [se ao centro de administração do Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e indo fazer assinaturas de **cobrança** > **** > **adicionar assinaturas**.
+Você também pode ver as informações conectando- [se ao centro de administração do Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e indo**fazer assinaturas de** >  **cobrança** > **adicionar assinaturas**.
   
-Para ver uma tabela com as licenças ou licenças necessárias para cada recurso, consulte licenciamento [de Complementos do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Para ver uma tabela com as licenças ou licenças necessárias para cada recurso, consulte [Licenciamento de Complementos do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## <a name="related-topics"></a>Tópicos relacionados
 

@@ -11,16 +11,15 @@ ms.service: msteams
 search.appverid: MET150
 description: Configurar uma política de reunião para permitir que os usuários compartilhem suas áreas de trabalho nos chats ou reuniões do teams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f36804fc4d7c28f08ca383ddb09f22ee52f804e7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 99c6e2a5adb9d0f9a4b4e3f6f17b7484bda96a74
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236928"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516881"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Configurar o compartilhamento de área de trabalho no Microsoft Teams
 ============================================
@@ -55,7 +54,7 @@ Para configurar o compartilhamento de tela, crie uma nova política de reuniões
     - **Permitir que um participante externo conceda ou solicite controle** – permite que convidados e usuários externos (federados) conceda ou solicitem controle da área de trabalho ou do aplicativo do apresentador.
     - **Permitir compartilhamento do PowerPoint** -permite que os usuários criem reuniões que permitem que as apresentações do PowerPoint sejam carregadas e compartilhadas.
     - **Permitir quadro de comunicações** – permite que os usuários compartilhem um quadro de comunicações.
-    - **Permitir anotações** compartilhadas – permite que os usuários façam anotações compartilhadas.
+    - **Permitir anotações compartilhadas** – permite que os usuários façam anotações compartilhadas.
 
 6. Clique em **Salvar**.
 

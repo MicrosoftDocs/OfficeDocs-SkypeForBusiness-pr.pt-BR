@@ -10,8 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Quando você compra licenças de audioconferência, a Microsoft está hospedando sua ponte de conferência de áudio para sua organização. A ponte de audioconferência oferece números de telefone de discagem de locais diferentes, para que os organizadores da reunião e os participantes possam usá-los para ingressar em reuniões do Skype for Business ou do Microsoft Teams usando um telefone.
-ms.openlocfilehash: 60095ff820c6aeb13745f5195a6274fa90f5eec0
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 9c4d16f3f68e190549b1e8a1d7b6f3f03e8a44c6
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221679"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516958"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Alterar os números de telefone em sua ponte de Audioconferência
 
@@ -43,7 +43,7 @@ Além dos números de telefone já atribuídos à sua ponte de conferência, voc
 
 1. Entre no Office 365 com sua conta corporativa.
 
-2. Vá para **Centro** > de administração do Microsoft 365 Teams**centers** > Administration Teams & números de**telefone**de**voz** > do**portal** > herdado**do Skype** > 
+2. Vá para **Centro** > de administração do Microsoft 365 Teams**centers** > Administration**Teams &** > **números de telefone**de**voz** > do**portal** > herdado do Skype
 
 3. Selecione o número de telefone na lista e, no painel Ação, clique em **atribuir**.
 
@@ -57,7 +57,7 @@ Somente um número de chamada de serviço pode ser definido como o número padr�
 
 1. Entre no Office 365 com sua conta corporativa.
 
-2. Vá**** > para **Centro** > de administração do Microsoft 365 Team centers**Teams & reuniões do Skype** > **reuniões** > **conferência**.
+2. Vá para **Centro** > **** > de administração do Microsoft 365 Team centers**Teams & reuniões do Skype** > **reuniões** > **conferência**.
 
 3. Realce o número de chamada de serviço que você deseja configurar como padrão.
 
@@ -69,7 +69,7 @@ Os números de telefone padrão de um usuário são aqueles que estão incluído
   
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
 
-2. Vá para o & centro de administração do 365 de administração do**** >  **Centro** > de administração do,**usuários**de > **videoconferência** > **do** > **portal herdado**do Skype e selecione os usuários na lista.
+2. Vá para o & **centro de administração do 365** > **de administração** > do centro de administração do,**usuários**de**videoconferência** > **do** > **portal** > herdado do Skype e selecione os usuários na lista.
 
 3. Clique em **Editar** no painel de ação.
 

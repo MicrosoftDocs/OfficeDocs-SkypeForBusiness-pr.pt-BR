@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Use o parque de chamadas e recupere para colocar uma chamada em espera no serviço do teams na nuvem.
-ms.openlocfilehash: 01d46aff527a0e846b6bb552f5b3241deb3d9c14
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: ab70832cde09cf5328e6fa0743c00614c839fc8d
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483417"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37517024"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamento e recuperação de chamadas no Microsoft Teams
 
@@ -65,7 +64,7 @@ Para obter informações sobre como usar o recurso Park e retrieve Call, consult
 
 Siga estas etapas para habilitar uma política de estacionamento de chamadas:
 
-1. Vá para**políticas de estacionamento de chamada**de**voz** >  **do centro** > de administração do Microsoft Teams.
+1. Vá para**políticas de estacionamento de chamada**de**voz** > do centro > de **Administração do Microsoft Teams**.
 2. Selecione **nova política**.
 3. Dê um nome à política e, em seguida, alterne **permitir estacionamento de chamada** para **ativado**.
 4. Selecione **salvar**.
@@ -74,7 +73,7 @@ Siga estas etapas para habilitar uma política de estacionamento de chamadas:
 
 Siga estas etapas para atribuir uma política de estacionamento de chamadas a um ou mais usuários:
 
-1. Vá para**políticas de estacionamento de chamada**de**voz** >  **do centro** > de administração do Microsoft Teams.
+1. Vá para**políticas de estacionamento de chamada**de**voz** > do centro > de **Administração do Microsoft Teams**.
 2. Selecione a política clicando à esquerda do nome da política.
 3. Selecione **gerenciar usuários**.
 4. No painel **gerenciar usuários** , procure pelo usuário por nome para exibição ou por nome de usuário, selecione o nome e, em seguida, selecione **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.

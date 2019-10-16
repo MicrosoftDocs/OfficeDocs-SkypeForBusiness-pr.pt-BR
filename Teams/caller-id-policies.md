@@ -9,20 +9,19 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-- M365-collaboration
-- Teams_ITAdmin_Help
+- M365-voice
 f1keywords: ms.teamsadmincenter.voice.callinglineid.overview
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar e gerenciar políticas de identificação de chamadas no Microsoft Teams para alterar ou bloquear a identificação de chamadas de usuários do teams em sua organização.
-ms.openlocfilehash: 95771336e71e56752483519cd089b1c755ec11d3
-ms.sourcegitcommit: 25c30baec1c969eef95b725251a3f4ad3706a19d
+ms.openlocfilehash: 95d1a2e836e79158ffc6e9f48d46decca31e01ca
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/24/2019
-ms.locfileid: "36622075"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37517005"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Gerenciar políticas de identificação de chamadas no Microsoft Teams
 
@@ -80,7 +79,7 @@ Para atribuir uma política de ID de linha de chamada personalizada a vários us
 
 Ou, você também pode fazer o seguinte:
 
-1. Vá para**políticas de identificação de chamadas**de**voz** >  **do centro** > de administração do Microsoft Teams.
+1. Vá para**políticas de identificação de chamadas**de**voz** > do centro > de **Administração do Microsoft Teams**.
 2. Selecione a política clicando à esquerda do nome da política.
 3. Selecione **gerenciar usuários**.
 4. No painel **gerenciar usuários** , procure pelo usuário por nome para exibição ou por nome de usuário, selecione o nome e, em seguida, selecione **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.

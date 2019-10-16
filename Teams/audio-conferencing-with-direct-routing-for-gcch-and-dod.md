@@ -8,8 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
+- M365-voice
 - M365-collaboration
-- Teams_ITAdmin_Help
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -17,14 +17,14 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Saiba como você pode usar a conferência de áudio com roteamento direto em ambientes GCCH e DoD.
-ms.openlocfilehash: 54458087b508c607b797cf7e7e877a8a793d8ed8
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: 67c8a8b3ec16f36a93eb4561473facacdbd85464
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36272233"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516731"
 ---
-# <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Conferência de áudio com roteamento direto para GCC alta e DoD
+# <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Conferências de Áudio com Roteamento Direto para GCC Alto e DoD
 
 Conferência de áudio com roteamento direto para GCC elevado e DoD permite que os participantes ingressem em reuniões de equipe na sua organização GCC alta ou DoD usando um dispositivo de telefone. Os participantes da reunião podem preferir usar um dispositivo de telefone para ingressar em reuniões de equipe em cenários, como quando a conectividade com a Internet é limitada ou quando os usuários estão em trânsito e não têm acesso ao Teams. Os participantes podem optar por ingressar em reuniões discando para um número de telefone de discagem para a sua organização ou fazendo com que a reunião disque para o dispositivo telefônico.
 

@@ -11,20 +11,20 @@ ms.reviewer: srividhc
 description: Este artigo explica como você pode planejar e configurar a interoperabilidade de vídeo em nuvem para os usuários da sua organização.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38a0368a2fb11fb1f6d1a37e5a7f53a1798733d7
-ms.sourcegitcommit: 8a8c71aea5bd2420b110619607ef0715136578ab
+ms.openlocfilehash: a94292719f8f93b818cbc52dd312859611940e3b
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2019
-ms.locfileid: "36286251"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516656"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Configurar a interoperabilidade de vídeo na nuvem para o Microsoft Teams
 
-Depois de [escolher seu (s) parceiro (s) de](cloud-video-interop.md)interoperabilidade de vídeo em nuvem, você precisará planejar a implantação, configurar os detalhes de provisionamento e a chave do locatário do parceiro e consentir o aplicativo de interoperabilidade de vídeo em sua organização. O diagrama a seguir descreve o processo. 
+Depois de [escolher seu (s) parceiro (s) de interoperabilidade de vídeo em nuvem](cloud-video-interop.md), você precisará planejar a implantação, configurar os detalhes de provisionamento e a chave do locatário do parceiro e consentir o aplicativo de interoperabilidade de vídeo em sua organização. O diagrama a seguir descreve o processo. 
 
 ![Implantando o CVI em sua organização](media/deploying-cvi.png)
 

@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: Baixe o guia de capacitação do site para planejar a implementação de suas equipes e acelerar e otimizar a adoção, a percepção de qualidade e a satisfação do usuário.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17b73629aa874232a449605b45f97ea10e445204
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 760beb6b5f786367c76ce9ac2b66d808fa10c6de
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232282"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515996"
 ---
 # <a name="deploy-my-service"></a>Implantar meu serviço
 
@@ -42,7 +42,7 @@ Ao completar as atividades neste guia estratégico, sua organização pode:
 -   Reduza as necessidades de suporte e aumente a satisfação do usuário.
 
 > [!NOTE]
-> Este artigo e o guia estratégico associado não têm a finalidade de descrever todas as etapas de configuração técnica necessárias para a habilitação de serviços ou o fornecimento de Tom de discagem para um site específico. Em vez disso, eles se concentram em atividades e tarefas recomendadas para os usuários integrados facilmente e têm a necessidade de começar a consumir cargas de trabalho de voz do teams por meio de uma transição rápida e tranqüila com uma alta taxa de adoção e minimizar os requisitos de suporte. Para obter orientação técnica sobre como configurar melhor seu ambiente para a voz do Teams, consulte as listas de verificação de integração para [configurar as cargas de trabalho de voz](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md), configurando o [Roteamento direto nas equipes](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), [recursos essenciais](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)do Teams, [rede para equipes](onboarding-checklist-configure-networking.md)e habilitando o [Office 365](onboarding-checklist-enable-office-365.md).
+> Este artigo e o guia estratégico associado não têm a finalidade de descrever todas as etapas de configuração técnica necessárias para a habilitação de serviços ou o fornecimento de Tom de discagem para um site específico. Em vez disso, eles se concentram em atividades e tarefas recomendadas para os usuários integrados facilmente e têm a necessidade de começar a consumir cargas de trabalho de voz do teams por meio de uma transição rápida e tranqüila com uma alta taxa de adoção e minimizar os requisitos de suporte. Para obter orientação técnica sobre como configurar melhor seu ambiente para a voz do Teams, consulte as listas de verificação de integração para [configurar as cargas de trabalho de voz](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md), [Configurando o roteamento direto nas equipes](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), [recursos essenciais do teams](onboarding-checklist-configure-microsoft-teams-core-capabilities.md), [rede para equipes](onboarding-checklist-configure-networking.md)e [habilitando o Office 365](onboarding-checklist-enable-office-365.md).
 
 <!--ENDOFSECTION-->
 
@@ -65,7 +65,7 @@ O foco do guia estratégico é abordar os fatores que influenciam a percepção 
 
 O [Guia de ativação do site para voz (guia estratégico)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) é uma pasta de trabalho do Microsoft Excel. Cada uma dessas cinco áreas de foco é uma planilha separada na pasta de trabalho, e cada tarefa de implantação e atividade é agrupada em uma dessas planilhas.
 
-![Captura de tela do guia de capacitação do site] (media/deploy-my-service-image1.png "Captura de tela do guia estratégico")
+![Captura de tela da captura guia de ativação do site](media/deploy-my-service-image1.png "do guia estratégico")
 
 > [!NOTE]
 > Você criará uma instância separada do guia estratégico para cada site em escopo para a distribuição da sua equipe.
@@ -84,7 +84,7 @@ Independentemente do tamanho e da complexidade do local, a habilitação de cada
 
 4. Digite o **nome do site, o código do site**e a **data de lançamento planejada**, conforme ilustrado abaixo. Essa é uma etapa crítica, pois ele ajusta os prazos recomendados para cada atividade no guia estratégico.
 
-   ![Exemplo com o nome do site, o código do site e a data de lançamento planejada] (media/deploy-my-service-image2.png "Exemplo com o nome do site de Nova York, NY01 de código de site e data de lançamento planejada de 20 de março de 18")
+   ![Exemplo com o nome do site, o código do site e o exemplo de data de lançamento planejada](media/deploy-my-service-image2.png "com o nome do site de Nova York, NY01 de código do site e data de lançamento planejada de 20 de março de 18")
 
 5. Examine cada atividade, execute as ações necessárias e atualize o status enquanto percorre a linha do tempo. O status é representado graficamente, conforme descrito abaixo:
   
@@ -94,14 +94,14 @@ Independentemente do tamanho e da complexidade do local, a habilitação de cada
 
 6. O status é acumulado dentro de cada seção, e o título da seção é formatado com um desses indicadores de status. O **status semanal** também é atualizado automaticamente.
 
-![Captura de tela de roll-ups de status semanal no guia estratégico] (media/deploy-my-service-image6.png "Captura de tela de roll-ups de status semanal no guia estratégico")
+![Captura de tela de roll-ups de status semanal na](media/deploy-my-service-image6.png "captura de tela do guia estratégico das roll-ups de status semanais no guia estratégico")
 
 > [!TIP]
 > Repita as etapas acima para todos os locais que você tem.
 
 > [!IMPORTANT]
 > Algumas etapas podem não ser aplicáveis a todos os locais e sites. Se uma atividade específica não for relevante para um site, você deverá selecionar **não aplicável** para esta atividade. **Não exclua** linhas no guia estratégico; Se fizer isso, as fórmulas de acúmulo de status não funcionarão.<br/><br/>
-Preste atenção às atividades que podem levar mais tempo do que você planejou, como portabilidade de números e atividades de compras. Essas atividades podem afetar negativamente a linha do tempo de implantação do site. Certifique-se de revisar e atualizar a lista de atividades e a linha do tempo associada semanalmente e apresentá-las em [reuniões de Comitê](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide) de direcionamento para garantir que os interessados estejam cientes do status de cada site e dos possíveis desvios do cronograma de implantação.
+Preste atenção às atividades que podem levar mais tempo do que você planejou, como portabilidade de números e atividades de compras. Essas atividades podem afetar negativamente a linha do tempo de implantação do site. Certifique-se de revisar e atualizar a lista de atividades e a linha do tempo associada semanalmente e apresentá-las em [reuniões de Comitê de direcionamento](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide) para garantir que os interessados estejam cientes do status de cada site e dos possíveis desvios do cronograma de implantação.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Decida se o guia de habilitação de site é necessário para a sua implantação.</li><li>Decida quem será responsável por personalizar o guia de viabilização do site para o Microsoft Teams para cada site que você implantar.</li></ul></td></tr>

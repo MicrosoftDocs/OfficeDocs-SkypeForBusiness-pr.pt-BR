@@ -9,7 +9,6 @@ ms.assetid: dc6e95cd-51e8-49ca-bcd3-78dc9dae486a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
 search.appverid: MET150
@@ -22,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: Os clientes podem usar o plano de chamadas do Office 365 e a conferência de áudio do Office 365, conforme permitido no Skype for Business Online e os serviços PSTN do Microsoft Teams, usar termos e contrato de licenciamento por volume do cliente.
-ms.openlocfilehash: 4dcc4cbd85c8dbc9b821fd3cd1905c0270dce08c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e5f0d49cfd43b04f5c361564adcc05805d04b594
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236939"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516892"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Período complementar de discagem de audioconferência
 
@@ -55,7 +54,7 @@ Usuários com um local de uso de licença (esse é o local do país de usuário 
 - Todas as chamadas de saída para destinos que não estão na zona uma lista de países são cobradas por minuto usando créditos de comunicações em nossas tarifas publicadas para esse destino (o locatário fornecido configurou créditos de comunicações e atribuiu a licença créditos de comunicação ao organizador da reunião).
 
 > [!NOTE]
-> Você pode monitorar o uso com o pool de minutos de discagem externa no centro de administração do Skype for Business. No centro de administração do Microsoft Teams & Skype**** > , acesse **portal** > herdado pools de**minutos PSTN**. Este pool de minutos complementares será rotulado no relatório como "chamadas de saída para a zona de países e regiões".
+> Você pode monitorar o uso com o pool de minutos de discagem externa no centro de administração do Skype for Business. No centro de administração do Microsoft Teams & Skype, acesse**** >  >  **portal herdado****pools de minutos PSTN**. Este pool de minutos complementares será rotulado no relatório como "chamadas de saída para a zona de países e regiões".
 
 As notificações por email serão enviadas para todos os administradores de locatários de um determinado cliente quando a utilização do pool de minutos de discagem de locatário do locatário tiver atingido 80% e 100%.
 

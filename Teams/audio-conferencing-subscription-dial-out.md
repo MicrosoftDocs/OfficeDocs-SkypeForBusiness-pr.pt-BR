@@ -1,5 +1,5 @@
 ---
-title: Benefício da assinatura de Audioconferência “Discar”/”Ligar para mim em”
+title: Benefício da assinatura de Audioconferência “Discar”/”Ligar para mim”
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,9 +9,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,20 +20,20 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Os clientes receberam um recurso de discagem gratuita que terminará em 30 de novembro de 2019.  A partir de 1 ° de dezembro de 2019, cada assinatura de audioconferência fornece 60 minutos por mês para qualquer região de um país, conforme descrito neste documento. '
-ms.openlocfilehash: 8c60a469684705b2a227711c5bfb22cd6baa9111
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8da1082d0bf7e9a50248e29877309053f706e741
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283520"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515876"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>Benefícios da assinatura "discagem"/"ligar para mim por" minutos da assinatura de áudio audioconferência
 
 ## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>Conferência de áudio PSTN do Microsoft Teams e do Skype for Business
 
-Os clientes receberam um [recurso de discagem gratuita](complimentary-dial-out-period.md) que terminará em 30 de novembro de 2019. A partir de 1 ° de dezembro de 2019, cada assinatura de audioconferência fornece 60 minutos por mês que pode ser usada para discar para números não Premium em qualquer uma das zonas de um país, conforme descrito neste documento. Seu tamanho do pool de minutos de discagem de locatário ** é baseado em licenças atribuídas e não em licenças adquiridas. Esse benefício se aplica às licenças de *assinatura mensal* da conferência de áudio e não se estende às licenças de pagamento por minuto de audioconferência. 
+Os clientes receberam um [recurso de discagem gratuita](complimentary-dial-out-period.md) que terminará em 30 de novembro de 2019. A partir de 1 ° de dezembro de 2019, cada assinatura de audioconferência fornece 60 minutos por mês que pode ser usada para discar para números não Premium em qualquer uma das zonas de um país, conforme descrito neste documento. Seu tamanho do pool de minutos de discagem de locatário é baseado em licenças *atribuídas* e não em licenças adquiridas. Esse benefício se aplica às licenças de *assinatura mensal* da conferência de áudio e não se estende às licenças de pagamento por minuto de audioconferência. 
 
-## <a name="audio-conferencing-dial-out-from-a-meeting--call-me-at-details"></a>Informações de "discagem" & "ligar para mim" em uma reunião
+## <a name="audio-conferencing-dial-out-from-a-meeting--call-me-at-details"></a>Detalhes da "discagem" de conferência de áudio "&" ligar para mim em "
 
 Para os clientes adotarem o nosso serviço de audioconferência, a Microsoft oferece a capacidade de discar de reuniões organizadas por usuários com uma licença de assinatura de audioconferência atribuída. As chamadas discada para países não incluídos na lista de países "zona A" são cobradas por minuto usando créditos de comunicações. Para chamadas discadas cobradas por minuto (chamadas que excedem o pool de minutos de discagem de locatário ou chamadas para destinos fora da lista de países), as chamadas e suas tarifas associadas se baseiam no destino da chamada e não no país do organizador de residência ou o participante da reunião que inicia a chamada de discagem externa. Por exemplo, uma chamada de discagem de conferência de áudio para um número de telefone na França, que é uma zona para um país, será cobrada com a mesma tarifa por minuto se ela tiver sido iniciada por um participante da reunião nos Estados Unidos, na França ou no Zimbábue. 
 
@@ -64,7 +63,7 @@ Considere o exemplo a seguir. Um cliente comprou licenças de assinatura do 115 
 
 ## <a name="how-can-i-monitor-minute-pool-usage"></a>Como faço para monitorar o uso do pool de minutos?
 
-- Você pode monitorar o uso em seu pool de minutos de discagem externa no centro de administração do Skype for Business "herdado. No centro de administração do Microsoft Teams, navegue até **portal** > herdado que**relata** > **pools de minutos PSTN**. A zona um pool de minutos de discagem externa será rotulado no relatório como "chamadas de saída para a região A países".
+- Você pode monitorar o uso em seu pool de minutos de discagem externa no centro de administração do Skype for Business "herdado. No centro de administração do Microsoft Teams > , navegue até **portal herdado**que**relata** > **pools de minutos PSTN**. A zona um pool de minutos de discagem externa será rotulado no relatório como "chamadas de saída para a região A países".
 - As notificações por email serão enviadas para todos os administradores de locatários de um determinado cliente quando a utilização do pool de minutos de discagem de locatário do locatário tiver atingido 80% e 100%.
 
 Para obter informações adicionais sobre créditos de comunicação, consulte [créditos de comunicações](what-are-communications-credits.md).

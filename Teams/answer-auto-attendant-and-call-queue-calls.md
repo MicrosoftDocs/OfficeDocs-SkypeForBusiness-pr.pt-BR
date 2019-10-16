@@ -12,16 +12,16 @@ description: Descreve atendedores automáticos da nuvem e filas de chamadas e ex
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5eb58a945f1a5ff06c9f92c9440e783e4df9cde0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a508aeb6c5e1359c9b3432834f2f0f3d141aea2d
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241248"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516790"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Atender chamadas do atendedor automático e da fila de chamadas diretamente no Teams
 ===========================================================
@@ -32,7 +32,7 @@ Os usuários do teams podem receber e atender chamadas de atendedores automátic
 
 Os atendedores automáticos na nuvem fornecem uma série de prompts de voz ou um arquivo de áudio que os chamadores ouvem em vez de uma operadora humana quando eles chamam para uma organização. Um atendedor automático permite que os chamadores se movam pelo sistema de menus, façam chamadas ou localizem usuários usando um teclado de telefone (DTMF) ou entradas de voz usando reconhecimento de voz.
 
-As filas de chamadas na nuvem incluem Saudações que são usadas quando alguém liga para um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de Pesquisar o próximo agente de chamada disponível para lidar com a chamada enquanto as pessoas que chamam são ouvindo música em espera. Você pode criar uma fila de chamadas única ou múltiplas para a sua organização.
+As filas de chamadas na nuvem incluem Saudações que são usadas quando alguém liga para um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de Pesquisar o próximo agente de chamada disponível para lidar com a chamada enquanto as pessoas que chamam são ouvindo música em espera. Você pode criar uma ou várias filas de chamadas para sua organização.
 
 ## <a name="handling-an-auto-attendant-or-call-queue-call"></a>Manipulando um atendedor automático ou chamada em fila de chamadas
 
@@ -40,7 +40,7 @@ Os usuários poderão diferenciar as chamadas recebidas de um atendedor automát
 
 A ilustração a seguir mostra como uma chamada de entrada de um atendedor automático ou fila de chamadas aparecerá para um usuário.
 
-![Captura de tela de uma notificação de chamada de entrada](media/answer-auto-attendant-and-call-queue-calls-image1.png)
+![Captura de tela de uma notificação de chamada recebida](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
 Quando um atendedor automático ou uma chamada de fila de chamada for respondido, o usuário poderá processar a chamada como qualquer outra chamada &#x2014; ela pode adicionar ou enviar uma conferência para outro usuário ou transferir a chamada para outra pessoa. Além disso, as chamadas de atendedor automático serão encaminhadas com base na configuração do usuário.
 

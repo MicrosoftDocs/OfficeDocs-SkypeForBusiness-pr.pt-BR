@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: Escolha um modelo de implantação, desenvolva uma matriz informada por conta responsável – com consulta (RACI), crie planos de execução e governança.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f324c703c71adbcabedc71d9a5fdb6a4ce63ca0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1ef741290a4d669084ad55335d0a08ec1c9ffd5c
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245156"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515988"
 ---
 # <a name="document-my-success-plan"></a>Documentar meu plano de sucesso
 
@@ -88,11 +88,11 @@ Veja a seguir um exemplo de um plano de execução trimestral da fase enVision d
 
 | Site/divisão                            | Número de funcionários | Audioconferência | Sistema Telefônico                    | Trimestre para executar |
 |------------------------------------------|---------------------|--------------------|---------------------------------|--------------------|
-| EUA: Nova York                             | 2000                | Sim                | Sistema telefônico com planos de chamada | T1 CY2018          |
-| Irlanda: Dublin                          | 300                 | Sim                | Sistema telefônico com planos de chamada | T1 CY2018          |
-| Áustria: Viena                          | 500                 | Sim                | Roteamento Direto do Sistema Telefônico     | Q2 CY2018          |
+| EUA: Nova York                             | 2000                | Sim                | Sistema de Telefonia com Planos de Chamadas | T1 CY2018          |
+| Irlanda: Dublin                          | 300                 | Sim                | Sistema de Telefonia com Planos de Chamadas | T1 CY2018          |
+| Áustria: Viena                          | 500                 | Sim                | Roteamento Direto do Sistema de Telefonia     | Q2 CY2018          |
 | Itália: Milão                             | 200                 | Sim                | N/D                             | Q2 CY2018          |
-| América do Sul: Brasil                    | 1500                | Sim                | Roteamento Direto do Sistema Telefônico     | Q2 CY2018          |
+| América do Sul: Brasil                    | 1500                | Sim                | Roteamento Direto do Sistema de Telefonia     | Q2 CY2018          |
 | Índia: Délhi                             | 7000                | Sim                | N/D                             | Q3 CY2018          |
 
 

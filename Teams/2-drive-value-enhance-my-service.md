@@ -12,16 +12,16 @@ audience: admin
 description: Avaliar regularmente oportunidades para aprimorar o serviço do Teams, monitorar o roteiro do teams para obter os aprimoramentos de recursos interessantes.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3561584038dc7b235ce897e3873f483b32e499e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f5face19093459f1a4fbc4aeb978476f9a045231
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243789"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516484"
 ---
 # <a name="enhance-my-service"></a>Aprimorar meu serviço
 
@@ -30,7 +30,7 @@ Este artigo oferece uma visão geral dos requisitos para aproveitar ao máximo o
 ## <a name="enhance-my-service-overview"></a>Melhorar a visão geral do serviço
 Depois de implantar com êxito a conferência de áudio ou o sistema telefônico com os serviços de planos de chamadas para sua organização e operar o serviço com qualidade e confiabilidade, a próxima etapa é avaliar regularmente se você tem oportunidades de Aprimore seus serviços. Isso faz parte do planejamento contínuo do aperfeiçoamento de serviços que é um padrão moderno para gerenciamento de serviços em nuvem. 
 
-Uma ótima maneira de garantir que você esteja sempre obtendo o máximo dos seus serviços é monitorar os roteiros [públicos](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) do teams para os novos aprimoramentos de recursos que podem ser de interesse para a sua organização. Se você tiver acesso ao portal de administração do Office 365, receberá atualizações regulares dos mesmos sobre os recursos novos e dinâmicos por meio do nosso centro de mensagens. 
+Uma ótima maneira de garantir que você esteja sempre obtendo o máximo dos seus serviços é monitorar os [roteiros públicos do teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) para os novos aprimoramentos de recursos que podem ser de interesse para a sua organização. Se você tiver acesso ao portal de administração do Office 365, receberá atualizações regulares dos mesmos sobre os recursos novos e dinâmicos por meio do nosso centro de mensagens. 
 
 Além disso, como as organizações crescem e mudam, você deve levar tempo para revisitar e atualizar seus casos de uso empresarial em intervalos regulares para garantir que o serviço seja configurado para atender às necessidades atuais da sua organização.  Assegure-se de que você esteja obtendo comentários do mundo real de seus usuários e especialistas internos, estabelecendo canais de feedback em sua organização. Elas podem ser conversas informais, reuniões regulares ou por meio de um canal do teams ou da Comunidade do Yammer. 
 

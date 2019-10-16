@@ -11,8 +11,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- Strat_SB_PSTN
+- M365-voice
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Saiba como atribuir, alterar ou remover um número de telefone comercial para seus usuários de equipe para que empresas e clientes externos possam fazer chamadas.
-ms.openlocfilehash: c9d4927b29438c47763941b0d1d73b7fef98c78b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d9fdb0a2c5ea36acd0a231b49450efda8aab2979
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241979"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516870"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Atribuir, alterar ou remover o número de telefone de um usuário
 
@@ -35,7 +34,7 @@ Ao configurar planos de chamada, você atribui números de telefone a seus usuá
 
 Quando você está configurando usuários para que eles possam fazer e receber chamadas telefônicas, primeiro você deve usar o centro de administração do Microsoft Teams e atribuir um número de telefone. Você pode alterar ou remover o número de telefone, se for necessário.
   
-Para saber como obter planos de chamada no Teams e quanto eles custam, consulte [Licenciamento de Complementos do](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)Microsoft Teams.
+Para saber como obter planos de chamada no Teams e quanto eles custam, consulte [Licenciamento de Complementos do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 > [!NOTE]
 > Uma maneira de ver se um usuário tem uma licença atribuída é acessar o centro de administração do Microsoft Teams > **usuários**. Se uma licença for atribuída, ela será indicada na página.  Você também pode usar o centro de administração do Microsoft 365.
