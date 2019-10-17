@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar atendedores automáticos da nuvem para o Microsoft Teams.
-ms.openlocfilehash: eeeafb99a7cf1344d973b5963eab5b0c4ee8eaea
-ms.sourcegitcommit: 9145ce09efe490d4d79b2a52ecc318f54d2feb2c
+ms.openlocfilehash: b1756cc58e485971157c0429e8180a5f5e507ec8
+ms.sourcegitcommit: 61deca3fd35142d210ab8307c21a576b3301ec84
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37522765"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "37553777"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar um atendedor automático do Cloud
 
@@ -220,7 +220,7 @@ Se você selecionar **Desconectar**, o chamador será desconectado após a sauda
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-**Discar por extensão** Se você habilitar essa opção (atualmente somente disponível em alguns locatários), os chamadores poderão se conectar com os usuários em sua organização inserindo a extensão do seu telefone. Você pode selecionar quais usuários estão listados como disponíveis ou não estão disponíveis para **discar por extensão** na página de escopo opcional de discagem. Qualquer usuário online com uma licença do sistema telefônico ou qualquer usuário hospedado no local usando o Skype for Business Server é um usuário elegível e pode ser encontrado com a extensão dial-to.
+**Discar por extensão** (este recurso de visualização ainda não está disponível para o público geral) se você habilitar essa opção, os chamadores poderão se conectar aos usuários em sua organização inserindo a extensão do seu telefone. Você pode selecionar quais usuários estão listados como disponíveis ou não estão disponíveis para **discar por extensão** na página de escopo opcional de discagem. Qualquer usuário online com uma licença do sistema telefônico ou qualquer usuário hospedado no local usando o Skype for Business Server é um usuário elegível e pode ser encontrado com a extensão dial-to.
 
 > [!IMPORTANT]
 > Por favor, observe o seguinte:
@@ -231,7 +231,7 @@ Se você selecionar **Desconectar**, o chamador será desconectado após a sauda
 >- Um atendedor automático pode ser configurado para discar por nome ou discar por extensão, mas não ambos.
 
 > [!NOTE]
-> Se você quiser usar os recursos **discar por nome** e **discar pelos** recursos de extensão, você pode criar atendedor automático principal (habilitado para **discar por nome**) que solicita que os chamadores escolham uma opção de menu se saberem a extensão do usuário e definir essa opção como Transfira a chamada para um atendedor automático habilitado para discar por extensão. 
+> Se você quiser usar os recursos **discar por nome** e **discar pelos** recursos de extensão, você pode criar atendedor automático principal (habilitado para **discar por nome**) que solicita que os chamadores escolham uma opção de menu se saberem a extensão do usuário e definir essa opção como Transfira a chamada para um atendedor automático habilitado para discar por extensão.
 
 * * *
 
@@ -326,7 +326,7 @@ Clique em **ao lado** de definir escopo de discagem, de **volta** para fazer alt
 
 ![Captura de tela mostrando a página de escopo de discagem](media/1bcb185c-00db-43a7-b5c4-9b021c0627f7.png)
 
-Nesta página, você pode definir quem está listado no seu diretório e disponível para discar por nome quando uma pessoa chama a sua organização. Discar por nome é definido como **desativado** por padrão em uma tela anterior. Se você tiver criado planos de discagem, todos os usuários com uma extensão estarão disponíveis se a **discagem por extensão** tiver sido selecionada anteriormente.
+Nesta página, você pode definir quem está listado no seu diretório e disponível para discar por nome quando uma pessoa chama a sua organização. Discar por nome é definido como **desativado** por padrão em uma tela anterior. Todos os usuários com uma extensão estarão disponíveis se a **discagem por extensão** tiver sido selecionada anteriormente.
 
 ![Ícone do número 1, um texto explicativo na captura de](media/teamscallout1.png) tela anterior **inclui** as opções desta seção são **todos os usuários online** ou **grupos de usuários personalizados**
 

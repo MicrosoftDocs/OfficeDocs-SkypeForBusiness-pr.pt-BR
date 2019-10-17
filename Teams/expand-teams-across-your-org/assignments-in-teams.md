@@ -20,12 +20,12 @@ description: Saiba como gerenciar atribuições no centro de administração do 
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0eaaa4782ac1c0f5fa8d1618f89c05d3ffd58e57
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 91d74a96cedcd0cdbdfd6b7fcc5ac1b8e261027e
+ms.sourcegitcommit: fa55f9e3690fcca36b530bd13a9eeaa44120b87c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483974"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "37547274"
 ---
 # <a name="assignments-in-teams-for-education"></a>Tarefas do Teams for Education
 
@@ -83,6 +83,4 @@ O TurnitinApiKey será atribuído a você depois de seguir as instruções. Copi
 
 Ao clicar no botão **salvar** no centro de administração para esta configuração, aguarde até 24 horas para que essas configurações entrem em vigor.
 
-[Saiba mais sobre a integração entre o TurnItIn e o Microsoft Teams](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)
-
-[Saiba mais sobre o TurnItIn](https://www.turnitin.com/)
+Pronto para começar a usar a integração do TurnItIn no Microsoft Teams? Inscreva-se para o [programa de acesso antecipado](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration).
