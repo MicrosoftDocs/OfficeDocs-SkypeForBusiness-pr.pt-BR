@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -23,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Isso vai ajudá-lo a descobrir como discar números de chamada gratuita em cada país/região. Depois de selecionar o país/região, você será direcionado a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade de serviço de chamada gratuita em que o serviço de chamada gratuita está disponível. O formato ou formatos de discagem mostrará os códigos de acesso necessários em cada país/região para discar o número de chamada gratuita.
-ms.openlocfilehash: 9b17dcda588128fac550db3c096e015a455f700b
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 70cfbcd90aee6ab3e70aaf8e83f2b1b0b448f14b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330520"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570064"
 ---
 # <a name="toll-free-dialing-restrictions-in-argentina"></a>Restrições de discagem de chamada gratuita na Argentina
 

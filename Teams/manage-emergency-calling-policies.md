@@ -9,20 +9,19 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-- M365-collaboration
-- Teams_ITAdmin_Help
+- M365-voice
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar e gerenciar políticas de chamadas de emergência para o recurso de E911 dinâmico no Microsoft Teams.
 f1keywords: ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: 863727929d2dbf2a2a44e8bffbadca209fa5993f
-ms.sourcegitcommit: d349922409f49b52048597a56b81501163749a69
+ms.openlocfilehash: 4a1846217734142388fdf3466f68ccadea49c829
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "37401835"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573171"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Gerenciar políticas de chamadas de emergência no Microsoft Teams
 

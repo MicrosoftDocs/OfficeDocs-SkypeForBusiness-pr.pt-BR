@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -23,12 +22,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Saiba o que você precisa saber e fazer antes de portar números de telefone para o Microsoft Teams e como criar um pedido de portabilidade para transferi-los.
-ms.openlocfilehash: 4cd270fd01f0ec023181de7847914d8fdc8239b5
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: a876309f8404002a76f13913d64926132b315d2b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464563"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571508"
 ---
 # <a name="transfer-phone-numbers-to-office-365"></a>Transferir números de telefone para o Office 365
 
@@ -45,7 +44,7 @@ Antes de começar a transferir números de telefone, recomendamos que você exam
   > [!NOTE]
   > Se você tiver números de serviço para pontes de conferência discada, atendedores automáticos ou outros números de serviço, números de telefone de chamada gratuita ou tiver mais de 999 números de telefone do usuário (assinante) que você precisa transferir para o Microsoft Teams, consulte [gerenciar números de telefone para a sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para selecionar o país ou região correto e fazer o download dos formulários corretos e enviá-los para nós.
  
-![Um ícone mostrando o logotipo](media/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo do Skype for Business](media/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
 
 1. Vá para o > **portal herdado**do **centro de administração do Microsoft Teams**.
 

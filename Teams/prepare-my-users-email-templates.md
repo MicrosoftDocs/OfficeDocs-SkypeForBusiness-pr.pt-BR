@@ -11,17 +11,14 @@ audience: admin
 description: Use modelos para enviar emails aos usuários à medida que você implementar recursos de voz na nuvem no Teams ou no Skype for Business.
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a1885b04766ed5c6da271becc2beb58a7d45ca0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7f5793678df25f353b2400719fa8d64c3a0acd78
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237196"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567702"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Facilitar a adoção pelo usuário do seu novo sistema telefônico online
 

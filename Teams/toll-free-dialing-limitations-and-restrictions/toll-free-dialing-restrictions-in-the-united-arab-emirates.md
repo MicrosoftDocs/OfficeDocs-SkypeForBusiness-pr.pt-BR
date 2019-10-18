@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -23,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Isso vai ajudá-lo a descobrir como discar números de chamada gratuita em cada país/região. Depois de selecionar o país/região, você será direcionado a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade de serviço de chamada gratuita em que o serviço de chamada gratuita está disponível. O formato ou formatos de discagem mostrará os códigos de acesso necessários em cada país/região para discar o número de chamada gratuita.
-ms.openlocfilehash: f2cf37c2069168d1ebbbb0daf714ea2c17386084
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: e934fdd2d3d4330d44e7fa1bc95df94f1f96bece
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34329840"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572635"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-united-arab-emirates"></a>Restrições de discagem de chamada gratuita nos Emirados Árabes Unidos
 

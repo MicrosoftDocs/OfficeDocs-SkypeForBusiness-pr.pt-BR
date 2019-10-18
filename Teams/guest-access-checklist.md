@@ -12,16 +12,16 @@ description: Use esta lista de verificação para ajudar a configurar o acesso d
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_GuestAccess
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83cd25ed9f675f04f090255cbc387275c0dee90d
-ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
+ms.openlocfilehash: e7f019f2260b1e86b422f8b4238439fbd2f1607a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "36253914"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37563487"
 ---
 <a name="teams-guest-access-checklist"></a>Lista de verificação de acesso de convidados do teams
 ==========================================
@@ -70,7 +70,7 @@ Lembre-se de algumas coisas:
 2. Selecione**as configurações de usuário** **do Azure Active Directory** > **Users** > .
 3. Em **usuários externos**, selecione **gerenciar configurações de colaboração externa**.
    > [!NOTE]
-   > As **configurações de colaboração externa** também estão disponíveis na página **relações organizacionais** . No Azure Active Directory, em **gerenciar**, acesse**configurações**de **relações** > organizacionais.
+   > As **configurações de colaboração externa** também estão disponíveis na página **relações organizacionais** . No Azure Active Directory, em **gerenciar**, acesse > **configurações**de **relações organizacionais**.
 4. Na página **configurações de colaboração externas** , escolha as políticas que você deseja habilitar.
 
   - **As permissões de usuários convidados são limitadas**: esta política determina permissões para convidados em seu diretório. Selecione **Sim** para bloquear convidados de determinadas tarefas de diretório, como enumerar usuários, grupos ou outros recursos de diretório. Selecione **não** para dar aos convidados o mesmo acesso aos dados do diretório como usuários regulares em seu diretório.

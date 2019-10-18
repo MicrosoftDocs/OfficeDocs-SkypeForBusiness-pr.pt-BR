@@ -10,7 +10,6 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -23,24 +22,24 @@ f1keywords:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: 6a562f9a271a9771796fd73424a94f2820c2f966
-ms.sourcegitcommit: 25c30baec1c969eef95b725251a3f4ad3706a19d
+ms.openlocfilehash: 5edaa21f3d9a2438532f8cc7f45f182c105b2f1e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/24/2019
-ms.locfileid: "36622056"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570130"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Gerenciar políticas do teams no Microsoft Teams
 
 Como administrador, você pode usar políticas do teams no Microsoft Teams para controlar o que os usuários em sua organização podem fazer em equipes e canais. Por exemplo, você pode definir se os usuários podem descobrir equipes particulares nos resultados da pesquisa e na Galeria da equipe e se os usuários podem criar canais privados.
 
-Você gerencia políticas do teams acessando **** > **políticas** do teams Team no centro de administração do Microsoft Teams. Você pode usar a política global (padrão para toda a organização) ou criar políticas personalizadas e atribuí-las aos usuários. Os usuários em sua organização receberão automaticamente a política global, a menos que você crie e atribua uma política personalizada.
+Você gerencia políticas do teams acessando > **políticas** **do teams**Team no centro de administração do Microsoft Teams. Você pode usar a política global (padrão para toda a organização) ou criar políticas personalizadas e atribuí-las aos usuários. Os usuários em sua organização receberão automaticamente a política global, a menos que você crie e atribua uma política personalizada.
 
 Você pode editar a política global ou criar e atribuir uma política personalizada. Se for atribuída uma política personalizada a um usuário, essa política se aplicará ao usuário. Se um usuário não estiver atribuído a uma política personalizada, a política global se aplicará ao usuário. Depois de editar a política global ou atribuir uma política, pode levar até 24 horas para que as alterações entrem em vigor.
 
 ## <a name="create-a-custom-teams-policy"></a>Criar uma política personalizada do Microsoft Teams
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, **** > vá para**políticas**do teams Teams.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, **vá para** > políticas do teams**Teams**.
 2. Clique em **Adicionar**.
 3. Insira um nome e uma descrição para a política.
 
@@ -56,7 +55,7 @@ Você pode editar a política global ou criar e atribuir uma política personali
 
 Você pode editar a política global ou qualquer política personalizada criada.
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, **** > vá para**políticas**do teams Teams.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, **vá para** > políticas do teams**Teams**.
 2. Selecione a política clicando à esquerda do nome da política e, em seguida, clique em **Editar**.
 3. Ative ou desative as configurações desejadas e clique em **salvar**.
 
@@ -68,13 +67,13 @@ Você pode usar o centro de administração do Microsoft Teams para atribuir uma
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**e, em seguida, clique no usuário.
 2. Clique em **políticas**e, em seguida, ao lado de **políticas atribuídas**, clique em **Editar**.
-3. Em **políticas**do Teams, selecione a política que você deseja atribuir e clique em **salvar**.
+3. Em **políticas do teams**, selecione a política que você deseja atribuir e clique em **salvar**.
 
 Para atribuir uma política personalizada do teams a vários usuários de uma só vez, consulte [Editar configurações de usuários do teams em massa](edit-user-settings-in-bulk.md).
 
 Ou, você também pode fazer o seguinte:
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, **** > vá para**políticas**do teams Teams.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, **vá para** > políticas do teams**Teams**.
 2. Selecione a política clicando à esquerda do nome da política.
 3. Selecione **gerenciar usuários**.
 4. No painel **gerenciar usuários** , procure pelo usuário por nome para exibição ou por nome de usuário, selecione o nome e, em seguida, selecione **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
@@ -105,4 +104,4 @@ Dependendo do número de membros do grupo, esse comando pode levar alguns minuto
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Gerenciar a descoberta de equipes particulares no Teams](manage-discovery-of-private-teams.md)
+- [Gerenciar a descoberta de equipes privadas no Teams](manage-discovery-of-private-teams.md)

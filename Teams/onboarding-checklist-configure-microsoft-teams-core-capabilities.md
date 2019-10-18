@@ -11,17 +11,14 @@ audience: admin
 description: Siga as tarefas principais, tarefas pendentes e atividades desta lista de verificação quando você configura o Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1ee5e3ab901cb5bc0fb35aee9dbc03e9b636621
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e6f0f3482258af46b049f22af73e0efe4bc463a6
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238598"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567918"
 ---
 # <a name="configure-microsoft-teams-core-capabilities"></a>Configurar os recursos principais do Microsoft Teams
 
@@ -34,6 +31,6 @@ ms.locfileid: "36238598"
 | 5  | OPCIONAL: configurar o acesso de convidado | Você usa o acesso de convidado no Teams para colaborar com pessoas de fora da sua organização, concedendo a elas acesso a equipes e canais. O acesso de convidado é uma configuração em nível de locatário no Teams. Ele está desativado por padrão. <br/>Habilite o acesso de convidado e configure as configurações de convidados em todo o locatário, se sua organização planeja usar esse recurso. | | [Acesso para convidado no Microsoft Teams](guest-access.md) |
 | 6  | OPCIONAL: configurar política de nomenclatura de equipes | O Teams aproveita as políticas de nomenclatura dos grupos do Office 365 quando os usuários criam ou editam nomes de equipe. <br/><br/>Por padrão, nenhuma restrição de nomenclatura é aplicada quando um usuário cria uma equipe. <br/><br/>Se você precisar impor regras para nomes de equipes, configure as políticas de nomenclatura de grupos do Office 365 que se aplicam à sua organização. Você pode definir prefixos e sufixos obrigatórios e especificar palavras bloqueadas. | | [Planejar grupos do Office 365 ao criar equipes no Microsoft Teams](plan-office-365-groups.md) <br/><br/>[Política de nomenclatura de grupos do Office 365](https://support.office.com/article/Office-365-Groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552) |
 | 7  | Configurar o Exchange para o domínio SMTP do teams | O Microsoft Teams usa o Exchange Online para enviar notificações para os membros da equipe usando o domínio SMTP – email.teams.microsoft.com — quando foram adicionados ou removidos. <br/><br/>Certifique-se de adicionar esse domínio SMTP à lista de domínios aceitos na sua infraestrutura do Exchange. | | [Adicionar o domínio SMTP ao Microsoft Teams como um domínio aceito no Exchange Online](smtp-accepted-domain.md) |
-| 08  | Configurar e gerenciar o acesso do usuário às equipes | Embora seja altamente recomendável que você habilite todos os usuários do Teams, é possível permitir ou proibir o acesso ao Teams por usuário ao atribuir ou remover a licença de produto do teams. | | [Gerenciar o acesso de usuários ao Microsoft Teams](user-access.md) |
-| 222  | Atribuir licenças a usuários | Atribuir licenças a seus usuários para obter recursos como videoconferência, sistema telefônico e planos de chamada | | [Atribuir licenças do Skype for Business e do Microsoft Teams](assign-teams-licenses.md)|
+| 8  | Configurar e gerenciar o acesso do usuário às equipes | Embora seja altamente recomendável que você habilite todos os usuários do Teams, é possível permitir ou proibir o acesso ao Teams por usuário ao atribuir ou remover a licença de produto do teams. | | [Gerenciar o acesso de usuários ao Microsoft Teams](user-access.md) |
+| 9  | Atribuir licenças a usuários | Atribuir licenças a seus usuários para obter recursos como videoconferência, sistema telefônico e planos de chamada | | [Atribuir licenças do Skype for Business e do Microsoft Teams](assign-teams-licenses.md)|
 | 254 | Opcional: usar o PowerShell para administrar equipes | Você pode usar cmdlets do PowerShell em vez do centro de administração do Microsoft 365 para administrar e gerenciar as configurações do teams. | | [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) |

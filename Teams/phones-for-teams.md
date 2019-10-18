@@ -11,17 +11,15 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
 localization_priority: Normal
 description: Este artigo aborda a lista de telefones certificados para o Microsoft Teams e os recursos com suporte nos telefones certificados para o Microsoft Teams.
-ms.openlocfilehash: 2f8f0fc8d813ea697afe9f96ffef8043662d4692
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: c73732d999cc775bdf85e33a37fb6dda792d9b8b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394559"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573304"
 ---
 # <a name="phones-for-microsoft-teams"></a>Telefones para o Microsoft Teams
 
@@ -38,26 +36,26 @@ Um conjunto de recursos de alto nível com suporte em telefones IP certificados 
 |Recursos |Telefone de mesa (modo pessoal) |Telefone da sala de conferência (modo compartilhado)|
 |---------|---------|---------|
 |**Autenticação** | |  |
-|Entre com as credenciais dos usuários |  Sim  | Sim |
-|Entrar usando PC/smartphone  | Sim  |Sim|
-|Autenticação moderna | Sim  |Sim  |
+|Entre com as credenciais dos usuários |  Sim | Sim|
+|Entrar usando PC/smartphone  | Sim |Sim|
+|Autenticação moderna | Sim |Sim |
 |Bloquear/desbloquear telefone | Sim |Não |
 |**Chamadas** |  |  |
-|Chamadas de entrada/saída ponto a ponto | Sim   |Sim  |
-|Controles de chamada por meio da interface do usuário (ativar mudo, reter/retomar/retomar, transferir, encerrar chamada)| Sim   |Sim  |
-|Chamadas PSTN| Sim   |Sim  |
+|Chamadas de entrada/saída ponto a ponto | Sim  |Sim |
+|Controles de chamada por meio da interface do usuário (ativar mudo, reter/retomar/retomar, transferir, encerrar chamada)| Sim  |Sim |
+|Chamadas PSTN| Sim  |Sim |
 |Caixa postal visual | Sim | Não |
-|suporte do 911  | Sim   |Sim  |
+|suporte do 911  | Sim  |Sim |
 |**Calendário e presença**|   | |
-|Acesso do calendário e detalhes da reunião|Sim  |Sim |
-|Integração de presença |Sim|Sim |
-|Integração de calendário do Exchange |Sim |Sim |
-|Integração da imagem do contato  |Sim |Sim |
-|Acesso a diretório corporativo | Sim |Sim |
+|Acesso do calendário e detalhes da reunião|Sim |Sim|
+|Integração de presença |Sim|Sim|
+|Integração de calendário do Exchange |Sim|Sim|
+|Integração da imagem do contato  |Sim|Sim|
+|Acesso a diretório corporativo | Sim|Sim|
 |**Reuniões**|   ||
-|Junção com um único clique para reuniões  | Sim   |Sim  |
-|Participar de reuniões do Skype for Business | Sim   | Sim |
-|Controles de chamada de reunião (ativar mudo/desativar mudo, reter/retomar, desligar, adicionar/remover participante)|Sim |Sim |
+|Junção com um único clique para reuniões  | Sim  |Sim |
+|Participar de reuniões do Skype for Business | Sim  | Sim|
+|Controles de chamada de reunião (ativar mudo/desativar mudo, reter/retomar, desligar, adicionar/remover participante)|Sim|Sim|
 |Detalhes da reunião|Sim|Não|
 
 Estamos nos empenhando para adicionar recursos continuamente para ajudar nossos usuários a aprimorar a experiência do seu Teams nos telefones. As capturas de tela a seguir ilustram algumas das experiências aceitas hoje.
@@ -104,7 +102,7 @@ O usuário do Microsoft Teams pode levantar o aparelho ou pressionar o botão de
 
 ## <a name="meeting-experience"></a>Experiência de reunião
 
-O usuário do Microsoft Teams pode navegar até a guia reuniões para exibir suas reuniões e **** usar o botão ingressar para ingressar em reuniões de equipes.
+O usuário do Microsoft Teams pode navegar até a guia reuniões para exibir suas reuniões e usar o botão **ingressar** para ingressar em reuniões de equipes.
 
 **Visão de calendário**
 
@@ -123,7 +121,7 @@ O usuário do Microsoft Teams pode acessar o correio de voz ao navegar para a gu
 
 ## <a name="user-sign-out"></a>Assinatura do usuário
 
-O usuário do telefone da equipe pode optar por desconectar selecionando a opção sair no menu superior esquerdo. ****
+O usuário do telefone da equipe pode optar por **Desconectar selecionando a opção sair** no menu superior esquerdo.
 
 ![Captura de tela da desconexão de equipes](media/teams-sign-out.png)
 

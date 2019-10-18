@@ -11,14 +11,15 @@ ms.service: msteams
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 description: Leia este tópico para saber mais sobre a implantação de salas do Microsoft Teams em implantações em grandes escalas.
-ms.openlocfilehash: 26bb864f1b3eea49eaf99b598af9b5794df824be
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 2bd78bd737622515ff0722aa3635cf1ebcc83a29
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36428004"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573622"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>Implantar salas do Microsoft Teams usando o System Center Configuration Manager
 
@@ -259,7 +260,7 @@ Você cria esse pacote para distribuir o certificado raiz para dispositivos que 
 
 ### <a name="create-the-microsoft-teams-rooms-deployment-kit-package"></a>Criar o pacote do kit de implantação de salas do Microsoft Teams
 
-1.  Baixe a versão mais recente do **Kit** <https://go.microsoft.com/fwlink/?linkid=851168>de implantação de salas do Microsoft Teams e instale-a em uma estação de trabalho.
+1.  Baixe a versão mais recente <https://go.microsoft.com/fwlink/?linkid=851168>do **Kit de implantação de salas do Microsoft Teams** e instale-a em uma estação de trabalho.
 
 2.  Copie o conteúdo de **C:\\arquivos de programas (x86\\) kit de implantação do sistema de sala do Skype** para a pasta do **pacote de aplicativos SRS v2-SRS** .
 
@@ -490,7 +491,7 @@ As salas do Microsoft Teams são compatíveis com o Surface pro e o Surface Pro 
 
 4.  Selecione **importar todos os drivers no seguinte caminho de rede (UNC)**, selecione a pasta de origem (por exemplo,\\C\\:\\_Sources drivers Surface pro) e, em seguida, selecione **Avançar**.
 
-5.  Na página **especificar os detalhes** da página de drivers importados, selecione todos os drivers listados e, em seguida, selecione **habilitar esses drivers e permitir que os computadores os instalem**.
+5.  Na página **especificar os detalhes da página de drivers importados** , selecione todos os drivers listados e, em seguida, selecione **habilitar esses drivers e permitir que os computadores os instalem**.
 
 6.  Selecione **categorias**, crie uma nova categoria que corresponda ao modelo de superfície, selecione **OK**e, em seguida, selecione **Avançar**.
 
@@ -581,7 +582,7 @@ Você usa sequências de tarefas com o System Center Configuration Manager para 
 Você pode baixar e importar facilmente uma sequência de tarefas de exemplo e personalizá-la para atender às suas necessidades.
 
 1.  [**Baixe**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true) a sequência de tarefas de exemplo e copie o arquivo zip baixado para um local compartilhado.
-2.  No console do Configuration Manager, vá para sequências de **tarefas**de **sistemas** \> operacionais da **biblioteca** \> de software e selecione **importar sequência de tarefas**.
+2.  No console do Configuration Manager, vá para **sequências de tarefas**de **sistemas** \> operacionais da **biblioteca** \> de software e selecione **importar sequência de tarefas**.
 
 3.  Selecione **procurar**, vá para o local da pasta compartilhada que você usou na etapa 1, selecione o arquivo **. zip da implantação de salas do Microsoft Teams (en-US)** e, em seguida, selecione **Avançar**.
 
@@ -625,17 +626,17 @@ Você pode baixar e importar facilmente uma sequência de tarefas de exemplo e p
 
    9. **Instalar certificado raiz**: esta etapa distribui o certificado raiz para dispositivos não associados ao domínio e, portanto, é opcional e desabilitado por padrão.
       -   Habilite esta etapa se você precisar implantar um certificado raiz nas unidades de salas de Microsoft Teams.
-      -   Se você precisar executar esta etapa, verifique se o pacote de **certificado raiz do SRS v2** e desabilite o redirecionamento do **sistema de arquivos de 64** está selecionado.
+      -   Se você precisar executar esta etapa, verifique se o pacote de **certificado raiz do SRS v2** e **desabilite o redirecionamento do sistema de arquivos de 64** está selecionado.
 
    10. **Instalar e configurar o agente de monitoramento**: esta etapa instala a versão de 64 bits do agente de monitor do Microsoft Azure e configura o agente para se conectar ao espaço de trabalho de análise de log.
        -   Esta etapa é desativada por padrão. Habilite essa etapa somente se você for usar o agente de monitoramento para monitorar a integridade de suas unidades de sala de Microsoft Teams.
        -   Edite esta etapa e atualize os parâmetros de linha de comando para especificar a **ID do espaço de trabalho** e a chave do espaço de **trabalho**.
        -   Consulte [configurar dispositivos de teste para monitoramento do Azure](azure-monitor-deploy.md#configure-test-devices-for-azure-monitoring) para obter mais informações sobre como obter a ID do espaço de trabalho do Operations Management Suite e a chave primária.
-       -   Verifique se o **pacote SRS v2 – Microsoft Monitoring Agent** e desabilite o redirecionamento do **sistema de arquivos de 64-bit** está selecionado.
+       -   Verifique se o **pacote SRS v2 – Microsoft Monitoring Agent** e **desabilite o redirecionamento do sistema de arquivos de 64-bit** está selecionado.
        -   Para obter mais informações sobre como monitorar a integridade da implantação de salas do Microsoft Teams, consulte planejar o gerenciamento de salas do Microsoft [Teams com o Azure monitor](azure-monitor-plan.md), [implantar o gerenciamento de salas do Microsoft Teams com o Azure monitor](azure-monitor-deploy.md) e [gerenciar o Microsoft Dispositivos de salas de equipe com o Azure monitor](azure-monitor-manage.md).
 
    11. **Copiar os arquivos de configuração do SRS v2**: esta etapa copia os arquivos de configuração e configuração necessários do kit de implantação de salas do Microsoft Teams para o disco rígido local. Nenhuma personalização é necessária para esta etapa.
-       -   Verifique se o **pacote do aplicativo SRS v2 – SRS** e desabilite o redirecionamento do **sistema de arquivos do 64-bit** está selecionado.
+       -   Verifique se o **pacote do aplicativo SRS v2 – SRS** e **desabilite o redirecionamento do sistema de arquivos do 64-bit** está selecionado.
 
    12. **Install-SRSv2-os-so-updates**: esta etapa implanta todas as atualizações obrigatórias do sistema operacional necessárias para a implantação de salas do Microsoft Teams. Do the following:
        -   Marque [configurar um console de salas do Microsoft Teams](console.md) para ver quais atualizações são necessárias.
@@ -652,7 +653,7 @@ Você pode baixar e importar facilmente uma sequência de tarefas de exemplo e p
    16. **Adicionar usuário local do Skype**: esta etapa cria a conta do Skype local usada para entrar automaticamente no Windows e iniciar o aplicativo salas do Microsoft Teams. Esta etapa não tem nenhum pacote de software associado a ele, e nenhuma personalização é necessária para ele.
 
    17. **Configurar e configurar o aplicativo SRS**: esta etapa configura a instalação do aplicativo salas do Microsoft Teams para a próxima inicialização do sistema operacional.
-       -   Verifique se o **SRS v2 – configurar o pacote de configuração do SRS** e desativar o redirecionamento do **sistema de arquivos de 64 bits** está selecionado.
+       -   Verifique se o **SRS v2 – configurar o pacote de configuração do SRS** e **desativar o redirecionamento do sistema de arquivos de 64 bits** está selecionado.
 
 > [!IMPORTANT]
 > É muito importante que as etapas da sequência de tarefas devem estar na ordem fornecida. Modificar a ordem das etapas ou configurar etapas adicionais pode interromper a implantação.
@@ -665,7 +666,7 @@ Você pode baixar e importar facilmente uma sequência de tarefas de exemplo e p
 
 2. Selecione **procurar** para selecionar a coleção de destino para implantação.
 
-3. Selecione **todos os computadores** desconhecidos e, em seguida, selecione **OK**.
+3. Selecione **todos os computadores desconhecidos** e, em seguida, selecione **OK**.
 
 4. Selecione **Avançar**.
 

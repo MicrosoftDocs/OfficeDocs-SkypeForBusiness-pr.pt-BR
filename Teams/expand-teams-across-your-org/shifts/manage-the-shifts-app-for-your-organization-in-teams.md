@@ -11,21 +11,21 @@ search.appverid: MET150
 description: Saiba como configurar e gerenciar o aplicativo turnos no Microsoft Teams para trabalhadores de primeira mão em sua organização.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
+- Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7dbe54c0f7239653b8f36179e57ab83510e0a5a1
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 52d4410393398e28c1f7ade4af70901703a09418
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232263"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568714"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gerencie o aplicativo Turnos para sua organização no Microsoft Teams
 
 > [!IMPORTANT]
-> A partir de 1 ° de outubro de 2019, o Microsoft StaffHub será desativado. Estamos criando recursos de StaffHub no Microsoft Teams. Hoje, o Teams inclui o aplicativo turnos para gerenciamento de agendamento e recursos adicionais se acumularão ao longo do tempo. O StaffHub deixará de funcionar para todos os usuários em 1 ° de outubro de 2019. Qualquer pessoa que tentar abrir o StaffHub será exibida uma mensagem direcionando-o para o download do teams. Para saber mais, confira [Microsoft StaffHub para ser desativado](microsoft-staffhub-to-be-retired.md).  
+> A partir de 31 de dezembro de 2019, o Microsoft StaffHub será desativado. Estamos criando recursos de StaffHub no Microsoft Teams. Hoje, o Teams inclui o aplicativo turnos para gerenciamento de agendamento e recursos adicionais se acumularão ao longo do tempo. O StaffHub deixará de funcionar para todos os usuários em 31 de dezembro de 2019. Qualquer pessoa que tentar abrir o StaffHub será exibida uma mensagem direcionando-o para o download do teams. Para saber mais, confira [Microsoft StaffHub para ser desativado](microsoft-staffhub-to-be-retired.md).  
 
 ## <a name="overview-of-shifts"></a>Visão geral de turnos
 O aplicativo turnos no Microsoft Teams mantém os trabalhadores de primeiro lugar conectados e em sincronização. Ele foi criado para o seu celular primeiro para gerenciamento e comunicação de tempo rápido e eficiente para equipes. Os turnos permitem que os funcionários de primeira mão e seus gerentes usem seus dispositivos móveis para gerenciar os cronogramas e manter contato. 
@@ -39,7 +39,7 @@ O aplicativo turnos no Microsoft Teams mantém os trabalhadores de primeiro luga
 
 Os turnos estão disponíveis em todas as assinaturas do Office 365 que incluem equipes, com algumas exceções. As exceções são comunidade de nuvens do governo dos EUA (GCC) e equipes grátis. Os turnos não estão disponíveis no Office 365 governo dos EUA ou ofertas grátis do teams.
 
-Para saber mais sobre licenciamento para equipes, incluindo uma lista de assinaturas do Office 365 que incluem o Teams, consulte licenciamento do [office 365 para Teams](../../Office-365-licensing.md).
+Para saber mais sobre licenciamento para equipes, incluindo uma lista de assinaturas do Office 365 que incluem o Teams, consulte [Licenciamento do office 365 para Teams](../../Office-365-licensing.md).
 
 ## <a name="location-of-shifts-data"></a>Local dos dados de turnos
 
@@ -51,7 +51,7 @@ Os dados de turnos atualmente estão armazenados no Azure em data centers na Am�
 
 Os turnos são habilitados por padrão para todos os usuários do teams na sua organização. Você pode desativar ou ativar o aplicativo em toda a organização usando as configurações de toda a organização nas políticas de permissão do aplicativo no centro de administração do Microsoft Teams.
 
-1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para**políticas de permissão** de **aplicativos** > do teams.
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para > **políticas de permissão** de **aplicativos do teams**.
 2. Clique em **configurações de toda a organização**.
 3. No painel **configurações de toda a organização** , em **aplicativos bloqueados**, siga um destes procedimentos:
 
@@ -61,7 +61,7 @@ Os turnos são habilitados por padrão para todos os usuários do teams na sua o
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>Habilitar ou desabilitar turnos para usuários específicos em sua organização
 
-Para permitir ou bloquear usuários específicos em sua organização usando turnos, certifique-se de que o recurso turnos esteja ativado para sua organização em configurações de toda a organização e, em seguida, crie uma política de permissão de aplicativo personalizada e atribua-a a esses usuários. Para saber mais, consulte [gerenciar políticas de permissão do aplicativo no](../../teams-app-permission-policies.md)Microsoft Teams.
+Para permitir ou bloquear usuários específicos em sua organização usando turnos, certifique-se de que o recurso turnos esteja ativado para sua organização em configurações de toda a organização e, em seguida, crie uma política de permissão de aplicativo personalizada e atribua-a a esses usuários. Para saber mais, consulte [gerenciar políticas de permissão do aplicativo no Microsoft Teams](../../teams-app-permission-policies.md).
 
 ### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>Usar a política de configuração do aplicativo FirstlineWorker para fixar mudanças em equipes
 
@@ -69,9 +69,9 @@ As políticas de configuração do aplicativo permitem que você personalize o M
  
 O Teams inclui uma política interna de configuração de aplicativos FirstlineWorker que você pode atribuir a trabalhos de primeiros a sua organização. Por padrão, a política inclui os aplicativos atividade, turnos, chat e chamadas. 
 
-Para exibir a política FirstlineWorker, no painel de navegação esquerdo do centro de administração do Microsoft Teams, vá para**políticas de configuração do aplicativo**Teams **app** > .
+Para exibir a política FirstlineWorker, no painel de navegação esquerdo do centro de administração do Microsoft Teams, vá para**políticas de configuração do aplicativo** **Teams app** > .
 
-![Captura de tela da política de configuração do aplicativo FirstlineWorker] (../../media/firstline-worker-app-setup-policy.png "Captura de tela da política de configuração do aplicativo FirstlineWorker no centro de administração do Microsoft Teams")
+![Captura de tela da política de configuração do aplicativo FirstlineWorker](../../media/firstline-worker-app-setup-policy.png "Captura de tela da política de configuração do aplicativo FirstlineWorker no centro de administração do Microsoft Teams")
 
 #### <a name="assign-the-firstlineworker-policy-to-individual-users"></a>Atribuir a política FirstlineWorker a usuários individuais
 

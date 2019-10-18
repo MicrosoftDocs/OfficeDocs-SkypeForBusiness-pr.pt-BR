@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-voice
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Saiba o que você precisa e como os organizadores da reunião podem fazer chamadas para outras pessoas que usam o Microsoft Teams.
-ms.openlocfilehash: f4eb5cd784af7bec6f8b2c19f50b7574745ef2b1
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: aab3db4057d82237b1e5bf7de8e0157b5833951a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548920"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571775"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Discar de uma reunião do Microsoft Teams para que outras pessoas possam ingressar
 

@@ -1,5 +1,5 @@
 ---
-title: Configurar o recurso ligar para mim para seus usuários
+title: Configurar o recurso Telefonar para Mim para os usuários
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: macai, phedry
@@ -10,17 +10,18 @@ audience: admin
 search.appverid: MET150
 description: Saiba como configurar o recurso ligar para mim no Microsoft Teams para que os usuários possam ingressar na parte de áudio por telefone em cenários em que o uso do computador para áudio pode não ser possível.
 localization_priority: Normal
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54e9d90a3380358abd0c1e984b90834455eb44e2
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8bd9ca9b73d3d2e60b707d0f40ebb1797d4e1a00
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243168"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571541"
 ---
-# <a name="set-up-the-call-me-feature-for-your-users"></a>Configurar o recurso ligar para mim para seus usuários
+# <a name="set-up-the-call-me-feature-for-your-users"></a>Configurar o recurso Telefonar para Mim para os usuários
 
 No Microsoft Teams, o recurso **Call me** fornece aos usuários uma maneira de ingressar na parte de áudio de uma reunião por telefone. Isso é útil em cenários em que o uso de um computador para áudio pode não ser possível. Os usuários obtêm a parte de áudio da reunião por meio de seu telefone celular ou linha terrestre e a parte&mdash;de conteúdo da reunião, quando outro participante da reunião compartilha sua&mdash;tela ou reproduz um vídeo por meio de seu computador.
 
@@ -28,7 +29,7 @@ No Microsoft Teams, o recurso **Call me** fornece aos usuários uma maneira de i
 
 ### <a name="join-a-meeting-by-using-phone-for-audio"></a>Ingressar em uma reunião usando o telefone para áudio
 
-Clique **** em ingressar para ingressar em uma reunião e, em seguida, clique em **áudio do telefone** na tela **escolher suas configurações de áudio e vídeo** . Aqui, os usuários podem ter a chamada de reunião e participar delas ou discar manualmente para a reunião.
+Clique em **ingressar** para ingressar em uma reunião e, em seguida, clique em **áudio do telefone** na tela **escolher suas configurações de áudio e vídeo** . Aqui, os usuários podem ter a chamada de reunião e participar delas ou discar manualmente para a reunião.
 
 ![Captura de tela da opção áudio do telefone](media/set-up-the-call-me-feature-for-your-users-phone-audio.png)
 
@@ -58,8 +59,8 @@ O usuário clica em **ligar para mim de volta**, que exibe a tela **usar telefon
 
 Para habilitar o recurso ligar para mim para os usuários de sua organização, é necessário configurar o seguinte:
 
-- A audioconferência está habilitada para os usuários de sua organização que agendam reuniões (organizadores da reunião). Para saber mais, consulte [Configurar a conferência de áudio para](set-up-audio-conferencing-in-teams.md) o Microsoft Teams e [gerenciar as configurações de audioconferência para um usuário no Teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md).
+- A audioconferência está habilitada para os usuários de sua organização que agendam reuniões (organizadores da reunião). Para saber mais, consulte [Configurar a conferência de áudio para o Microsoft Teams](set-up-audio-conferencing-in-teams.md) e [gerenciar as configurações de audioconferência para um usuário no Teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md).
 
-- Os usuários podem discar de reuniões. Para saber mais, consulte [gerenciar as configurações de audioconferência de áudio para um usuário no](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)Microsoft Teams.
+- Os usuários podem discar de reuniões. Para saber mais, consulte [gerenciar as configurações de audioconferência de áudio para um usuário no Microsoft Teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md).
 
 Se um usuário não tiver discagem de reuniões habilitada, a opção **ligar para mim** não estará disponível e o usuário não receberá uma chamada para ingressar nela na reunião. Em vez disso, o usuário vê uma lista de números de telefone na tela **usar telefone para áudio** que pode ser usada para discar manualmente para a reunião em seu telefone.

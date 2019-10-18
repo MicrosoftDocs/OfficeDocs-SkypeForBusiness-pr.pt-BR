@@ -9,7 +9,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba como configurar o sistema telefônico (Cloud PBX) para sua organização. '
-ms.openlocfilehash: e7d833e6170a442f9e97ff867e979bfd52700969
-ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
+ms.openlocfilehash: 429cedb3d8bad25982e4eacdaa82f82cacfc75ae
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "36645295"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571530"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Configurar o Sistema de Telefonia na sua organização
 
@@ -41,7 +40,7 @@ The following is a step-by-step guide for setting up Phone System in Office 365.
 
 ## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>Etapa 2: Comprar e atribuir licenças do Sistema de Telefonia e Planos de Chamadas
 
-Para atribuir uma licença de Sistema de Telefonia e Plano de Chamadas a um único usuário, as etapas são as mesmos da atribuição de licença do Office 365. Consulte [atribuir licenças do Microsoft Teams](assign-teams-licenses.md). Se você quiser atribuir vários usuários em massa, consulte [atribuir licenças do Microsoft Teams](assign-teams-licenses.md).
+Para atribuir uma licença do sistema telefônico e do plano de chamada a um único usuário, as etapas são as mesmas que a atribuição de uma licença do Office 365. Consulte [atribuir licenças do Microsoft Teams](assign-teams-licenses.md). Se você quiser atribuir vários usuários em massa, consulte [atribuir licenças do Microsoft Teams](assign-teams-licenses.md).
 
 ## <a name="step-3-get-phone-numbers-for-your-users"></a>Etapa 3: obter números de telefone para seus usuários
 
@@ -56,7 +55,7 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
 
 ### <a name="get-new-user-phone-numbers"></a>Obter novos números de telefone de usuário 
  
-![Um ícone mostrando o logotipo](media/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo do Skype for Business](media/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
 
 1. Entre no Microsoft 365 com sua conta corporativa ou de estudante.
 
@@ -82,14 +81,14 @@ In addition to getting phone numbers for your users from Office 365, you can sea
 
 ### <a name="get-new-service-numbers"></a>Obtenha novos números de serviço
 
-![Um ícone mostrando o logotipo](media/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo do Skype for Business](media/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
 
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
 
 2. Vá para o **Centro** > de administração do Microsoft 365**Skype for Business**.
 
-3. No**** painel de navegação esquerdo, vá para números > de**telefone**de **voz** > e, em seguida, clique em **novos números de serviço**.
+3. No painel de navegação**esquerdo, vá**para**números** > de telefone de **voz** > e, em seguida, clique em **novos números de serviço**.
 
     > [!IMPORTANT]
     > Para ver a opção de **voz** no painel de navegação à esquerda no centro de administração do Skype for Business, primeiro você deve comprar pelo menos uma **licença do Enterprise E5**, uma licença complementar do **sistema de telefonia** ou uma licença do suplemento de conferência de **áudio** .
@@ -179,7 +178,7 @@ You only need to set up Audio Conferencing for people who plan to schedule or le
   
 Para as perguntas frequentes sobre Audioconferência, consulte [Perguntas comuns sobre Audioconferência](audio-conferencing-common-questions.md).
     
-1. Se você adquiriu licenças complementares de **Audioconferência** e licenças Créditos de Comunicação, atribua-as também. Para obter instruções, consulte [atribuir licenças do Microsoft Teams](assign-teams-licenses.md).
+1. Se você comprou licenças de complemento de **conferência de áudio** e licenças de créditos de comunicações, atribua-as também. Para obter instruções, consulte [atribuir licenças do Microsoft Teams](assign-teams-licenses.md).
 
     Decide on your audio conferencing provider. An audio conferencing provider supplies an audio conferencing bridge. The conferencing bridge sets your dial-in phone numbers, PINs, and conference IDs for meetings. Decide whether to use Microsoft or a third-party audio conferencing provider:
 
@@ -194,11 +193,11 @@ Para as perguntas frequentes sobre Audioconferência, consulte [Perguntas comuns
 
 3. Set up meeting invitations. The following steps are optional, but a lot of admins like to do them: 
   
-   1. [Personalizar convites de reunião no Skype for Business](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations). Os números de discagem definidos para o usuário serão automaticamente adicionados aos convites de reunião enviados aos participantes. No entanto, você pode adicionar seus próprios links de ajuda e informações jurídicas, uma mensagem de texto e um pequeno gráfico da empresa.
+   1. [Personalizar convites de reunião no Skype for Business](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations). Os números de discagem definidos para o usuário serão automaticamente adicionados aos convites de reunião enviados aos participantes. No entanto, você pode adicionar sua própria ajuda e links legais, uma mensagem de texto e um elemento gráfico de pequena empresa.
     
    2. Defina os números de telefone de conferência de áudio para os organizadores de reunião incluídos nos convites [no Skype for Business](/skypeforbusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites) ou [no Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md). Este é o número de telefone que aparecerá na reunião agendada pelo usuário.
     
-   3. Definir idiomas do atendedor automático para conferências de áudio [no Skype for Business](/skypeforbusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing) ou [no Microsoft Teams](set-auto-attendant-languages-for-audio-conferencing-in-teams.md) que o atendedor automático da conferência de áudio usa para receber um chamador quando discar para um número de telefone de conferência de áudio. Esta etapa só é válida se você estiver usando o Microsoft como provedor de áudio.
+   3. Definir idiomas do atendedor automático para conferências de áudio [no Skype for Business](/skypeforbusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing) ou [no Microsoft Teams](set-auto-attendant-languages-for-audio-conferencing-in-teams.md) que o atendedor automático da conferência de áudio usa para receber um chamador quando discar para um número de telefone de conferência de áudio. Esta etapa só se aplica se você estiver usando a Microsoft como provedor de áudio.
     
    4. Defina o comprimento do PIN para reuniões de videoconferência [no Microsoft Teams](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md).
     
@@ -209,14 +208,14 @@ Para as perguntas frequentes sobre Audioconferência, consulte [Perguntas comuns
 
 ## <a name="step-7-if-you-want-to-set-up-a-cloud-call-queue"></a>Etapa 7: se você quiser configurar uma fila de chamadas em nuvem
 
-As filas de chamadas na nuvem incluem Saudações que são usadas quando alguém liga para um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de Pesquisar o próximo agente de chamada disponível para lidar com a chamada enquanto as pessoas que chamam são ouvindo música em espera. Você pode criar uma fila de chamadas única ou múltiplas para a sua organização.
+As filas de chamadas na nuvem incluem Saudações que são usadas quando alguém liga para um número de telefone para sua organização, a capacidade de colocar automaticamente as chamadas em espera e a capacidade de Pesquisar o próximo agente de chamada disponível para lidar com a chamada enquanto as pessoas que chamam são ouvindo música em espera. Você pode criar uma ou várias filas de chamadas para sua organização.
 
 Before you can create and set up your call queues, you will need to get or transfer your existing toll or toll-free service numbers. After you get the toll or toll-free service phone numbers, they will show up in **Skype for Business admin center** > **Voice** > **Phone numbers**, and the **Number type** listed will be listed as **Service - Toll-Free**. To get your service numbers, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers) or if you want to transfer and existing service number, see [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
 > If you are outside the United States, you can't use the Skype for Business admin center to get service numbers. Go to [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) instead to see how to do it from the outside of the United States.
 
-Para criar uma nova fila de chamadas, no **centro de administração do Skype for Business**, clique em filas de > **chamadas**de encaminhamento de **chamadas**, clique em **Adicionar novo**e siga as instruções na **etapa 3** da [criação de uma fila de chamadas em nuvem](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue#step-3---create-a-new-call-queue).
+Para criar uma nova fila de chamadas, no **centro de administração do Skype for Business**, clique em**filas de chamadas**de **encaminhamento** > de chamadas, clique em **Adicionar novo**e siga as instruções na **etapa 3** da [criação de uma fila de chamadas em nuvem](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue#step-3---create-a-new-call-queue).
 
 **Para obter mais detalhes sobre filas de chamadas, consulte [criar uma fila de chamadas na nuvem](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).**
 
@@ -224,7 +223,7 @@ Para criar uma nova fila de chamadas, no **centro de administração do Skype fo
 
 Auto attendants let people that call in to your organization and navigate a menu system to get them to the right department, call queue, person, or the operator. You can create an auto attendant for your organization by using the Skype for Business admin center.
 
-Para criar um novo atendedor automático, no centro de administração do Skype for Business, clique em atendedores automáticos de **Roteamento** > **** de chamadas, clique em **Adicionar novo**e, em seguida, siga as instruções para cada página da **etapa 2** da [criação de um atendedor automático da nuvem ](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#step-2---create-a-new-auto-attendant).
+Para criar um novo atendedor automático, no centro de administração do Skype for Business, clique em**atendedores automáticos**de **Roteamento** > de chamadas, clique em **Adicionar novo**e, em seguida, siga as instruções para cada página da **etapa 2** da [criação de um atendedor automático da nuvem ](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#step-2---create-a-new-auto-attendant).
 
 
 **Para obter mais detalhes sobre atendedores automáticos da nuvem, consulte [configurar um atendedor automático na nuvem](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant).**
@@ -233,10 +232,10 @@ Para criar um novo atendedor automático, no centro de administração do Skype 
 
 Once you have your service numbers from **Step 4 above**, you need to assign them to each type of service that you want. For example, if you want a dedicated service phone number (toll or toll-free), you will need to assign the number to the conferencing bridge.
 
-- Para a videoconferência, você pode atribuir um número exclusivo a uma ponte de conferência acessando o centro de**** > administração do **Centro** > de administração do Microsoft 365 para o**Skype for Business** > **áudio videoconferência** e clique no botão Bridge ou ver [alterar os números de chamada tarifada ou gratuita na sua ponte de audioconferência](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
+- Para a videoconferência, você pode atribuir um número exclusivo a uma ponte de conferência acessando o centro de administração do **Centro** > **** > de administração do Microsoft 365 para o**Skype for Business** > **áudio videoconferência** e clique no botão Bridge ou ver [alterar os números de chamada tarifada ou gratuita na sua ponte de audioconferência](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
 
 - Para atendedores automáticos, você pode atribuir um número dedicado a um atendedor automático acessando > **centros** > de administração do **centro de administração do Microsoft 365**centro de administração de**chamadas** > do**Skype for Business** > **atendendo atendedores automáticos **e clicando no atendedor automático. Na página **geral** , o número de serviço que você já tem estará listado na lista suspensa **número de telefone** . Para obter detalhes, consulte [configurar um atendedor automático na nuvem](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant).
-- Para filas de chamadas, você pode atribuir um número exclusivo a uma**** > fila de chamadas acessando o centro de administração do **Centro** > de administração do Microsoft 365 acesse as**filas de chamadas** de**Roteamento** > de administração do**Skype for Business** > e clique em na fila de chamadas. Na página **Geral**, o seu número de serviço atual será listado no menu suspenso**Número de telefone**. Para obter detalhes, consulte [criar uma fila de chamadas em nuvem](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue).
+- Para filas de chamadas, você pode atribuir um número exclusivo a uma fila de chamadas acessando o centro de administração do **Centro** > **** > de administração do Microsoft 365 acesse as**filas de chamadas** de**Roteamento** > de administração do**Skype for Business** > e clique em na fila de chamadas. Na página **geral** , o número de serviço que você já tem estará listado na lista suspensa **número de telefone** . Para obter detalhes, consulte [criar uma fila de chamadas em nuvem](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue).
 
 **Para obter informações detalhadas sobre como obter novos números de serviço e fazer a portabilidade de números de serviço existentes, consulte [Obter números de telefone de serviço](/microsoftteams/getting-service-phone-numbers).**
 
@@ -251,7 +250,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
 
 1. Entre no Microsoft 365 com sua conta corporativa ou de estudante.
 
-2. Na navegação à esquerda do centro de administração, vá para Complementos de**assinaturas** > **** >  **cobranças** > **comprar**Complementos e, em seguida, escolha **créditos** > de comunicações**comprar agora**.
+2. Na navegação à esquerda do centro de administração, vá**para Complementos de** > **assinaturas** >  **cobranças** > **comprar**Complementos e, em seguida, escolha **créditos** > de comunicações**comprar agora**.
 
 3. Na página de assinatura **Créditos de Comunicação**, preencha as informações e clique em **Avançar**.
 
@@ -265,7 +264,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
 
-2. Na navegação à esquerda do centro de administração do Microsoft 365, vá **** > para usuários**ativos**do usuário e selecione um ou mais usuários na lista.
+2. Na navegação à esquerda do centro de administração do Microsoft 365, vá **para** > usuários**ativos**do usuário e selecione um ou mais usuários na lista.
 
 3. No painel Ação em **Licenças de**, clique em **Editar**.
 

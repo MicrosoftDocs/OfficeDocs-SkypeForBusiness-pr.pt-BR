@@ -11,21 +11,21 @@ search.appverid: MET150
 description: Obtenha orientação sobre como planejar para mover suas equipes do StaffHub para turnos no Microsoft Teams.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
+- Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac278593215fc982d7246059503d8c65990c9b87
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 78b31bb0c17db9ef379b54c02433569ba4d46aff
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715913"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569669"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>Planeje mover suas equipes do StaffHub para turnos no Microsoft Teams
 
 > [!IMPORTANT]
-> A partir de 1 ° de outubro de 2019, o Microsoft StaffHub será desativado. Estamos criando recursos de StaffHub no Microsoft Teams. Hoje, o Teams inclui o aplicativo turnos para gerenciamento de agendamento e recursos adicionais se acumularão ao longo do tempo. O StaffHub deixará de funcionar para todos os usuários em 1 ° de outubro de 2019. Qualquer pessoa que tentar abrir o StaffHub será exibida uma mensagem direcionando-o para o download do teams. Para saber mais, confira [Microsoft StaffHub para ser desativado](microsoft-staffhub-to-be-retired.md). 
+> A partir de 31 de dezembro de 2019, o Microsoft StaffHub será desativado. Estamos criando recursos de StaffHub no Microsoft Teams. Hoje, o Teams inclui o aplicativo turnos para gerenciamento de agendamento e recursos adicionais se acumularão ao longo do tempo. O StaffHub deixará de funcionar para todos os usuários em 31 de dezembro de 2019. Qualquer pessoa que tentar abrir o StaffHub será exibida uma mensagem direcionando-o para o download do teams. Para saber mais, confira [Microsoft StaffHub para ser desativado](microsoft-staffhub-to-be-retired.md). 
 
 Fazer a transição do StaffHub para o Teams começa quando você começa a planejar a alteração. Para ajudar a garantir que a mudança para o Microsoft Teams seja bem-sucedida, criamos uma linha do tempo de exemplo que demonstra um plano de transição típico. A linha do tempo de exemplo descreve as atividades de planejamento para se preparar para a movimentação e leva você para mover as equipes do StaffHub da sua organização para o Microsoft Teams.
 
@@ -42,8 +42,8 @@ Use a linha do tempo como orientação para planejar a mudança do StaffHub para
 |5   |Atribuir licenças de equipe a usuários do StaffHub em sua organização|[Atribuir licenças do Teams](move-staffhub-teams-to-shifts-in-teams.md#assign-teams-licenses)<br><br>[Gerenciamento do acesso de usuários ao Teams](../../user-access.md)      |
 |6    |Instalar o módulo PowerShell do StaffHub        |[Instalar o módulo PowerShell do StaffHub](install-the-staffhub-powershell-module.md)        |
 |7     |Determine a linha do tempo e identifique os usuários do StaffHub para mover-se para o Teams       |[Executar um relatório para exibir o uso ativo do StaffHub](run-report-to-show-staffhub-usage.md) |
-|08     |Identifique os usuários do StaffHub que não têm uma conta do Azure AD (mostra como "inativo" no StaffHub) e vincule uma conta para elas     |[Vincular uma conta do Azure AD para os membros da equipe do StaffHub que não têm uma](move-staffhub-teams-to-shifts-in-teams.md#link-an-azure-ad-account-for-staffhub-team-members-who-dont-have-one)        |
-|222    |Criar conteúdo de treinamento para usuários personalizados para sua organização         |[Preparar um plano de preparação do usuário para Teams](../../upgrade-user-readiness.md)     |
+|8     |Identifique os usuários do StaffHub que não têm uma conta do Azure AD (mostra como "inativo" no StaffHub) e vincule uma conta para elas     |[Vincular uma conta do Azure AD para os membros da equipe do StaffHub que não têm uma](move-staffhub-teams-to-shifts-in-teams.md#link-an-azure-ad-account-for-staffhub-team-members-who-dont-have-one)        |
+|9    |Criar conteúdo de treinamento para usuários personalizados para sua organização         |[Preparar um plano de preparação do usuário para Teams](../../upgrade-user-readiness.md)     |
 |254    |Comunicar-se a usuários do StaffHub sobre a transição para turnos no Microsoft Teams         |[StaffHub de comunicação por email do teams para usuários](staffhub-to-teams-email-template.md)         |
 |11:00     |Instalar clientes do Microsoft Teams         |[Obter clientes para o Teams](../../get-clients.md) |
 |12    |Atribua a política de configuração do aplicativo FirstLineWorker aos usuários (ou crie e atribua uma política de configuração de aplicativo personalizada) para fixar o aplicativo turnos a clientes do teams  |[Atribuir a política de configuração do aplicativo FirstlineWorker aos usuários](move-staffhub-teams-to-shifts-in-teams.md#assign-the-firstlineworker-app-setup-policy-to-users)         |

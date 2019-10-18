@@ -12,16 +12,16 @@ search.appverid: MET150
 description: Conheça a funcionalidade do Microsoft Teams disponível para usuários convidados.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_GuestAccess
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d89150f3e4947ee43b013132ea73ae9d38ff14ea
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: e034c7fe8b9e0863bab257b735987ec15c65a3c9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434655"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37563471"
 ---
 <a name="what-the-guest-experience-is-like"></a>Como é a experiência do convidado
 =================================
@@ -32,7 +32,7 @@ Quando um convidado é solicitado a entrar em uma equipe, ele recebe uma mensage
     
 Todos os membros da equipe veem uma mensagem no tópico do canal anunciando que o proprietário da equipe adicionou um convidado e informou o nome do convidado. Todos da equipe podem identificar facilmente quem é um convidado. Conforme mostrado na captura de tela a seguir de uma equipe de exemplo, uma faixa indica que "esta equipe tem convidados" e um rótulo "(convidado)" é exibido ao lado do nome de cada convidado.
     
-![Captura de tela mostrando a notificação de faixa](media/guest-experience-image2.png "a captura de tela dos usuários convidados mostra uma parte do canal de marketing da Northwind Traders, com a notificação na faixa superior informando que a equipe tem convidados e os usuários que são convidados são identificados com o CONVIDADO do Word ao lado do nome.")
+![Captura de tela mostrando usuários convidados de notificação de cabeçalho](media/guest-experience-image2.png "A captura de tela mostra uma parte do canal de marketing da Northwind Traders, com a notificação na faixa superior informando que a equipe tem convidados e os usuários que os convidados são identificados com a palavra GUEST ao lado do nome.")
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>Comparação entre os recursos de membro da equipe e de convidado
 

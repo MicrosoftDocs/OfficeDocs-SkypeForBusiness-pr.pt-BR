@@ -9,7 +9,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -24,12 +23,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para o Egito.
-ms.openlocfilehash: b217d69ee353404e63a726dc28cade0ccff7b85a
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 98835b079b9b2d5c2c0081ba231cf0663738caad
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775439"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570433"
 ---
 # <a name="availability-in-egypt"></a>Disponibilidade no Egito
 

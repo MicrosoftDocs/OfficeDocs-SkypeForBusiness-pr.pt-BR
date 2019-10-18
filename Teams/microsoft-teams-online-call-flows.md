@@ -11,23 +11,21 @@ audience: admin
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: Descreve como o Microsoft Teams usa fluxos do Office 365 em várias topologias.
-ms.openlocfilehash: d98f789017c0f5388a0adebd382d947e716d7fc9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 91be46f556419dfd1ba8c52a99b8f06a19c63542
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239348"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573407"
 ---
 # <a name="microsoft-teams-call-flows"></a>Fluxos de chamadas do Microsoft Teams
 
 > [!Tip]
-> Assista à sessão a seguir para saber como as equipes aproveitam a sua rede e como planejar a conectividade de rede ideal: [planejamento de rede](https://aka.ms/teams-networking) do teams
+> Assista à sessão a seguir para saber como as equipes aproveitam a sua rede e como planejar a conectividade de rede ideal: [planejamento de rede do teams](https://aka.ms/teams-networking)
 
 ## <a name="overview"></a>Visão geral
 Este artigo descreve como o Microsoft Teams usa fluxos de chamadas do Office 365 em várias topologias. Além disso, ele descreve fluxos exclusivos do teams que são usados para comunicação de mídia ponto a ponto. O documento descreve esses fluxos, sua finalidade e sua origem e rescisão na rede. Para fins deste artigo, assuma o seguinte:
@@ -73,7 +71,7 @@ O Microsoft Teams requer [conectividade com a Internet](https://support.office.c
 A conectividade de fluxos de mídia do teams é implementada por meio dos procedimentos padrão IETF ICE (estabelecimento de conectividade interativa).
 
 ### <a name="interoperability-restrictions"></a>Restrições de interoperabilidade
-Retransmissores de **mídia de terceiros**: um fluxo de mídia do Teams (ou seja, um dos pontos de extremidade de mídia são equipes) pode atravessar apenas equipes ou retransmissões de mídia nativas do Skype for Business. Não há suporte para a interoperabilidade com uma transmissão de mídia de terceiros. (Observação: um SBC de terceiros no limite com PSTN deve encerrar o fluxo RTP/RTCP, protegido via SRTP e não retransmitir para o próximo nó.)
+**Retransmissores de mídia de terceiros**: um fluxo de mídia do Teams (ou seja, um dos pontos de extremidade de mídia são equipes) pode atravessar apenas equipes ou retransmissões de mídia nativas do Skype for Business. Não há suporte para a interoperabilidade com uma transmissão de mídia de terceiros. (Observação: um SBC de terceiros no limite com PSTN deve encerrar o fluxo RTP/RTCP, protegido via SRTP e não retransmitir para o próximo nó.)
 
 **Servidores proxy SIP de terceiros**: uma caixa de diálogo de SINALização SIP de equipes com um SBC e/ou gateway de terceiros pode atravessar equipes ou proxies SIP nativos do Skype for Business. Não há suporte para interoperabilidade com um proxy SIP de terceiros.
 
@@ -115,7 +113,7 @@ Observe que:
 
 Você pode encontrar mais informações sobre as seguintes topologias opcionais mais adiante neste artigo:
 
-- A implantação do Skype for Business local é descrita na **topologia híbrida**do teams.
+- A implantação do Skype for Business local é descrita na **topologia híbrida do teams**.
 - O roteamento direto do sistema telefônico (para conectividade PSTN) é descrito em **equipes com a topologia de roteamento direto**.
 - A rota expressa é descrita em **equipes com otimização de rota expressa**.
 

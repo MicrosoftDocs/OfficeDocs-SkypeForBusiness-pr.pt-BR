@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone no Reino Unido (Reino Unido) para Microsoft Teams.
-ms.openlocfilehash: 900ebd3e7579e01a40e4c7f0ef273c81d5abbd33
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: bdad256ee68b1ecd6cf07dc7bf67388a6929dc26
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347904"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571951"
 ---
 # <a name="phone-number-management-for-the-uk"></a>Gerenciamento de números de telefone para o Reino Unido
 

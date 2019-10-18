@@ -1,5 +1,5 @@
 ---
-title: Recomendações de driver para decodificador de hardware e codificador
+title: Recomendações para o driver codificador e decodificador de hardware
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -9,8 +9,7 @@ audience: Admin
 ms.topic: reference
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 localization_priority: Normal
 search.appverid: MET150
 description: Lista as combinações de sistema operacional, modelo e drivers que não estão habilitados para aceleração de hardware devido a problemas de driver.
@@ -18,14 +17,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - MicrOperating systemoft Teams
-ms.openlocfilehash: 282dce404d96a678fdd6532d62bcb185073aecc1
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5210f092993a2ecd52efc56f6953bfab6c2b0d19
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242189"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570758"
 ---
-# <a name="hardware-decoder-and-encoder-driver-recommendations"></a>Recomendações de driver para decodificador de hardware e codificador
+# <a name="hardware-decoder-and-encoder-driver-recommendations"></a>Recomendações para o driver codificador e decodificador de hardware
 
 A Microsoft oferece suporte a todos os decodificadores e codificadores, exceto os listados neste artigo.
 

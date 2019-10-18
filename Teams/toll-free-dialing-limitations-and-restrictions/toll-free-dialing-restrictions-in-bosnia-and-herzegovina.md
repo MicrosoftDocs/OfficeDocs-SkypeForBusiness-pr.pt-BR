@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -23,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Isso vai ajudá-lo a descobrir como discar números de chamada gratuita em cada país/região. Depois de selecionar o país/região, você será direcionado a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade de serviço de chamada gratuita em que o serviço de chamada gratuita está disponível. O formato ou formatos de discagem mostrará os códigos de acesso necessários em cada país/região para discar o número de chamada gratuita.
-ms.openlocfilehash: 215f84847d3a9afd7f289672dce73d7655d7c94a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: caa1f955846606fbd1dd662694d9a05d50c74721
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300845"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571602"
 ---
 # <a name="toll-free-dialing-restrictions-in-bosnia-and-herzegovina"></a>Restrições de discagem de chamada gratuita na Bósnia e Herzegovina
 
@@ -49,7 +48,7 @@ ms.locfileid: "34300845"
 ## <a name="related-topics"></a>Tópicos relacionados
 [Limitações e restrições de discagem gratuita](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
   
  

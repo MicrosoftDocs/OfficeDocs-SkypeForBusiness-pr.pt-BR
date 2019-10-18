@@ -10,14 +10,15 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 description: Este artigo discute o gerenciamento remoto das configurações padrão usadas por um dispositivo de salas do Microsoft Teams, incluindo a aplicação de um tema personalizado.
-ms.openlocfilehash: 916eca45a39e7bf0dfe6a35b5985832ef5d580f5
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 928f2ee5bc734aa128faf8af9e47387159666000
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774908"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573457"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Gerenciar as configurações de um console de salas do Microsoft Teams remotamente com um arquivo de configuração XML
 
@@ -131,7 +132,7 @@ Você pode usar o método de sua preferência, desde que possa usá-lo para tran
 
 O arquivo de imagem do tema personalizado deve ser colocado`C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState` na pasta. Digite o nome do arquivo e a extensão \<na\> variável CustomThemeImageUrl.
   
-O arquivo de imagem deve ser exatamente 3840X1080 pixels e deve ser um dos seguintes formatos de arquivo: jpg, JPEG, png e BMP. Se a sua organização quiser uma imagem personalizada, um designer de elementos gráficos poderá usar o [modelo do Photoshop de tema personalizado](https://go.microsoft.com/fwlink/?linkid=870441). Ele contém mais detalhes sobre onde colocar vários elementos em uma imagem de tema e quais áreas aparecem em consoles e telas.
+O arquivo de imagem deve ser exatamente 3840X1080 pixels e deve ser um dos seguintes formatos de arquivo: jpg, JPEG, png e BMP. Se a sua organização quiser uma imagem personalizada, um designer de elementos gráficos poderá usar o [modelo do Photoshop de tema personalizado](../downloads/ThemingTemplateMicrosoftTeamsRooms_v2.1.psd). Ele contém mais detalhes sobre onde vários elementos da interface do usuário são relativos ao restante de uma imagem de tema e quais áreas aparecem em consoles e exibições.
   
 O arquivo de configuração XML deve ser atualizado na inicialização do dispositivo para reconhecer a imagem de tema. Depois que o novo arquivo XML for processado e excluído, o arquivo gráfico do tema será excluído do diretório.
   

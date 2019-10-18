@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -20,12 +19,12 @@ f1keywords: ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbert
 ms.custom:
 - Calling Plans
 description: Saiba mais sobre os diferentes tipos de número de telefone que o Microsoft Teams usa para planos de chamada.
-ms.openlocfilehash: 9dd6996a4ea455c30025b9430735e22079d870ac
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 353f3810be41aff5365b9dca00831d6b5a4dad5c
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483754"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572262"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>Diferentes tipos de números de telefone utilizados para Planos de Chamadas
 
@@ -35,9 +34,9 @@ O Microsoft Teams usa diferentes tipos de números de telefone dependendo da fin
     
     Os números de usuários são atribuídos aos usuários, e existem dois tipos:
     
-  - **Números** geográficos Números geográficos têm uma relação com uma área geográfica e são os mais comuns. Por exemplo, os números de telefone geográficos na maioria dos casos só podem ser usados dentro de um determinado endereço, cidade, estado ou região do país.
+  - **Números geográficos** Números geográficos têm uma relação com uma área geográfica e são os mais comuns. Por exemplo, os números de telefone geográficos na maioria dos casos só podem ser usados dentro de um determinado endereço, cidade, estado ou região do país.
     
-  - **Números não** geográficos Números não geográficos são números nacionais que não têm uma relação com uma área geográfica dentro de um país/região. Por exemplo, os números não geográficos geralmente têm o mesmo custo ao ligar para o número de qualquer lugar dentro do país/região. Além disso, alguns países, como a Dinamarca, têm apenas números não geográficos disponíveis.
+  - **Números não geográficos** Números não geográficos são números nacionais que não têm uma relação com uma área geográfica dentro de um país/região. Por exemplo, os números não geográficos geralmente têm o mesmo custo ao ligar para o número de qualquer lugar dentro do país/região. Além disso, alguns países, como a Dinamarca, têm apenas números não geográficos disponíveis.
     
 - **Números de serviço** Os números de serviço estão disponíveis em vários tipos de números diferentes, e a disponibilidade varia de acordo com o país/região.
     
@@ -45,9 +44,9 @@ O Microsoft Teams usa diferentes tipos de números de telefone dependendo da fin
     
     Os números de serviço de chamada tarifada podem gerar um custo de chamada para o chamador, e existem dois tipos:
     
-      - **Números** geográficos Números geográficos têm uma relação com uma área geográfica. Por exemplo, os números de telefone geográficos na maioria dos casos só podem ser usados dentro de um determinado endereço, cidade, estado ou região do país.
+      - **Números geográficos** Números geográficos têm uma relação com uma área geográfica. Por exemplo, os números de telefone geográficos na maioria dos casos só podem ser usados dentro de um determinado endereço, cidade, estado ou região do país.
         
-      - **Números não** geográficos Números não geográficos são números nacionais que não têm uma relação com uma área geográfica dentro de um país/região. Por exemplo, os números não geográficos geralmente têm o mesmo custo ao ligar para o número de qualquer lugar dentro do país/região.
+      - **Números não geográficos** Números não geográficos são números nacionais que não têm uma relação com uma área geográfica dentro de um país/região. Por exemplo, os números não geográficos geralmente têm o mesmo custo ao ligar para o número de qualquer lugar dentro do país/região.
    
   - **Números de serviço de chamada gratuita** Esses números de serviço normalmente não provocam um custo de chamada para o chamador. O Microsoft Teams oferece números de chamada nacionais em mais de 60 países/regiões.
     

@@ -9,7 +9,6 @@ ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -19,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba mais sobre licenças de complemento, recursos e como comprar para os planos Office 365 Enterprise E1 e E3. '
-ms.openlocfilehash: 30a7f18382c6fcbc28d80089c5cd9f855c00aa8e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7c8851da745009439cd473c9bbd1e90cc7498363
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242642"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571175"
 ---
 # <a name="office-365-enterprise-e1-and-e3"></a>Office 365 Enterprise E1 e E3
 
@@ -44,7 +43,7 @@ Se você já comprou o [Office 365 Enterprise E1](https://products.office.com/en
 
 1. Entre no centro de administração do Microsoft 365.
 
-2. Acesse assinaturas complementares de**Serviços** > **de** compra de **cobrança** > 
+2. Acesse**assinaturas complementares** de**Serviços** > de compra de **cobrança** > 
 
 3. Você verá o complemento do sistema telefônico. Selecione **comprar agora**. 
 
@@ -66,7 +65,7 @@ O plano E3 faz parte de seu Action Pack. Comprar os complementos doSistema de Te
 
 Em algumas situações, você não verá a opção de comprar Complementos do Microsoft Teams no centro de administração do Microsoft 365:
 
-- **Você comprou o Office 365 Business Premium por meio do GoDaddy**. Nesse caso, você não pode comprar Complementos do Microsoft Teams. Você precisa trocar para o plano E3 (que não vende no GoDaddy) e, em seguida, poderá comprá-los. [Contatar o suporte do Office 365 para empresas - Ajuda para Administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- **Você comprou o Office 365 Business Premium por meio do GoDaddy**. Nesse caso, você não pode comprar Complementos do Microsoft Teams. Você precisa mudar para o plano E3 e, em seguida, pode comprá-lo. [Contatar o suporte do Office 365 para empresas - Ajuda para Administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 - **Você tem um compromisso mensal, em vez de um compromisso anual**. Em alguns casos, os clientes que têm um compromisso mensal não podem comprar os complementos (isso é diferente do método de pagamento, o que pode ser mensal). Esse é um problema conhecido que estamos corrigindo. [Contatar o suporte do Office 365 para empresas - Ajuda para Administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 

@@ -12,16 +12,15 @@ description: Saiba como executar o Microsoft Teams em um ambiente de infraestrut
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d0680e81799152bfc6eb9a976634384eb70954c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4fa560347d7263dafafc4f98e031b3b267f8fb12
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243815"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570218"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para Infraestrutura de Área de Trabalho Virtualizada
 
@@ -172,7 +171,7 @@ Com as diversas cargas de trabalho e necessidades de usuário em um ambiente vir
 |---------|---------|
 |vCPU    |  2 núcleos       |
 |RAM     |  4 GB      |
-|SPS     | 8 GB       |
+|Armazenamento     | 8 GB       |
 
 ### <a name="virtual-machine-operating-system-requirements"></a>Requisitos do sistema operacional da máquina virtual
 
@@ -185,33 +184,33 @@ Os sistemas operacionais com suporte para VM são:
 
 Aqui está o processo e as ferramentas para implantar o aplicativo da área de trabalho Teams. 
 
-1. Baixe o pacote MSI do teams usando um dos links a seguir, dependendo do ambiente. Recomendamos a versão de 64 bits para uma VM VDI com um sistema operacional de 64 bits.
+1. Baixe o pacote MSI do Teams usando um dos seguintes links, dependendo do ambiente. Recomendamos a versão de 64 bits de uma máquina virtual (VM) da VDI com um sistema operacional de 64 bits.
 
-    - [versão de 32 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true)
-    - [versão de 64 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true&arch=x64)
+    - [Versão de 32 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true)
+    - [Versão de 64 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true&arch=x64)
 
-2. Execute o seguinte comando para instalar o MSI na VM VDI (ou conclua a atualização).
+2. Execute o seguinte comando para instalar o MSI na VM da VDI (ou conclua a atualização).
 
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
 
-    Isso instala o Microsoft Teams para arquivos de programas. Neste ponto, a configuração da imagem dourada está completa.
+    Isso instala o Teams em Arquivos de Programas. Nesse ponto, a configuração da imagem dourada está concluída.
  
-    A próxima sessão de logon interativo inicia o Teams e solicita credenciais. Observe que não é possível desabilitar a inicialização automática de equipes ao instalar o Microsoft Teams no VDI usando a propriedade MyUser. 
+    A próxima sessão de logon interativo inicia o Teams e pede credenciais. Lembre-se de que não é possível desativar o início automático do Teams ao instalá-lo na VDI usando a propriedade ALLUSER. 
 
-3. Execute o comando a seguir para desinstalar o MSI da VM VDI (ou preparar-se para atualizá-lo).
+3. Execute o comando a seguir para desinstalar o MSI na VM da VDI (ou preparar para atualizá-lo).
 
         msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
 
-    Isso desinstala equipes de arquivos de programas.
+    Isso desinstala o Teams do Arquivos de Programas.
 
 ## <a name="known-issues-and-limitations"></a>Limitações e problemas conhecidos
 
 Os itens a seguir são limitações e problemas conhecidos do teams em VDI.
 
-- Implantações de **tipos de host de sessão compartilhada**: implantações de tipo de host de sessão compartilhada (por exemplo, configuração de VM não persistente compartilhada) não estão no escopo.
+- **Implantações de tipos de host de sessão compartilhada**: implantações de tipo de host de sessão compartilhada (por exemplo, configuração de VM não persistente compartilhada) não estão no escopo.
 - **Chamadas e reuniões**:
 
-    - Os cenários de chamada e reunião não são otimizados para VDI. Esses cenários serão executados com baixa qualidade. Recomendamos o uso de políticas em nível de usuário, conforme descrito na seção [definir as políticas para desativar a funcionalidade de chamada e de reunião na](#set-policies-to-turn-off-calling-and-meeting-functionality-in-teams) seção Teams.  
+    - Os cenários de chamada e reunião não são otimizados para VDI. Esses cenários serão executados com baixa qualidade. Recomendamos o uso de políticas em nível de usuário, conforme descrito na seção [definir as políticas para desativar a funcionalidade de chamada e de reunião na seção Teams](#set-policies-to-turn-off-calling-and-meeting-functionality-in-teams) .  
     - A aplicação das políticas descritas neste artigo impacta a capacidade de usar a funcionalidade de chamada e de reunião, o que, dependendo das outras políticas, pode afetar outros usuários da organização. Se os usuários da sua organização usarem clientes não VDI, você poderá optar por não aplicar as políticas.  
 
 - **Ingressando em chamadas e reuniões criadas por outros usuários**: embora as políticas impeçam que os usuários criem reuniões, elas ainda podem ingressar em reuniões se outro usuário discar para elas pela reunião. Nessas reuniões, a capacidade do usuário de compartilhar vídeo, usar o whiteboard e outros recursos depende se você desabilitou esses recursos usando o TeamsMeetingPolicy.  
@@ -223,4 +222,4 @@ Para os problemas conhecidos do teams que não estão relacionados ao VDI, consu
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Instalar o Microsoft Teams usando o MSI](msi-deployment.md)
+- [Instalar o Microsoft Teams usando MSI](msi-deployment.md)

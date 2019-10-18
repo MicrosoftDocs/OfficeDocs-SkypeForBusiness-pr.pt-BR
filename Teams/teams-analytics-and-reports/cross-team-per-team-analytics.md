@@ -1,5 +1,5 @@
 ---
-title: Exibir análises entre equipes e por equipe no Microsoft Teams
+title: Exibir análise entre equipes e por equipe em Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -10,19 +10,18 @@ ms.reviewer: v-rifer
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Saiba mais sobre a análise de equipe cruzada e a análise por equipe no Teams, que permitem aos usuários ver dados de uso para as equipes das quais são membros.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc8796b3ddc0d34e11e89a57535d2ff7b7459366
-ms.sourcegitcommit: 8a74ea2e16bf263e37a2064e276a58b00911c17c
+ms.openlocfilehash: 265099706e5c6fd502cabf688d539678d8669717
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/13/2019
-ms.locfileid: "36978767"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569699"
 ---
-# <a name="view-cross-team-and-per-team-analytics-in-teams"></a>Exibir análises entre equipes e por equipe no Microsoft Teams
+# <a name="view-cross-team-and-per-team-analytics-in-teams"></a>Exibir análise entre equipes e por equipe em Teams
 
 No Microsoft Teams, os usuários podem visualizar a análise de equipes às quais sejam membros ou proprietários. Essas informações dão aos usuários a percepção dos padrões de uso e atividades em suas equipes. Eles podem ver dados como o número de usuários, convidados e mensagens ativos em cada equipe.
 

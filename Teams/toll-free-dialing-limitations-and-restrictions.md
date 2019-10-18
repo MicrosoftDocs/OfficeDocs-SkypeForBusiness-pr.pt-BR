@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -22,12 +21,12 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Isso vai ajudá-lo a descobrir como discar números de chamada gratuita em cada país/região. Depois de selecionar o país/região, você será direcionado a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade de serviço de chamada gratuita em que o serviço de chamada gratuita está disponível. O formato ou formatos de discagem mostrará os códigos de acesso necessários em cada país/região para discar o número de chamada gratuita.
-ms.openlocfilehash: 8cba8dc9fffbe843f715445649a78d8a02fba4db
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: d9cf7bf601237552b397413c65875707157a73c9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330512"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571646"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>Limitações e restrições de discagem gratuita
 
@@ -40,7 +39,7 @@ Se estiver pronto, selecione um país ou região:
 > [!div class="op_single_selector"]    
 > - [Argentina](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
 > - [Austrália](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
-> - [Bielorrússia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
+> - [Belarus](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
 > - [Bélgica ](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md)
 > - [Belize](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md)
 > - [Bosnia and Herzegovina (Bosna i Hercegovina)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md)

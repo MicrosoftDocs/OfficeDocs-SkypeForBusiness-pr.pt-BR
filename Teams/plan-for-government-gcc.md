@@ -12,16 +12,15 @@ localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a167c8a6df85b5d3d861f42ce40f67e845709a77
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: b99941cfcd1622a20304ec9fd8d52143c9690ab9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767118"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573268"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plano para implantações do governo Microsoft 365-GCC
 
@@ -50,7 +49,7 @@ A [Descrição do serviço governo dos EUA do Office 365](https://technet.micros
 
 |    |     |
 |-----------|------------|
-| ![Um ícone que representa os pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida se o Microsoft 365 governo-GCC é apropriado para sua organização.</li><li>Confirme se a sua organização atende aos requisitos de qualificação.</li></ul> |
+| ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Decida se o Microsoft 365 governo-GCC é apropriado para sua organização.</li><li>Confirme se a sua organização atende aos requisitos de qualificação.</li></ul> |
 
 > [!Note]
 > Microsoft 365 governo-GCC só está disponível nos Estados Unidos. Os clientes do governo dos EUA podem escolher entre vários [planos governamentais do Office 365](https://products.office.com/en/government/compare-office-365-government-plans).
@@ -84,7 +83,7 @@ Para acomodar os requisitos de nossos clientes de nuvem governamental, há algum
 | | Organograma | Disponível |
 | | Atividades | Disponível |
 | | Interoperabilidade (Teams 1:1-chat do Skype for Business) | Disponível |
-| Microsoft Teams | Mensagem do canal | Disponível |
+| Teams | Mensagem do canal | Disponível |
 | | Arquivos de canal | Disponível |
 | | Guia do OneNote | Na backlog do governo |
 | | Enviar um canal por email | Não disponível |

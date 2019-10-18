@@ -10,8 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba como configurar telefones celulares comuns para "lobbies", áreas de recepção e salas de conferência '
-ms.openlocfilehash: a62399c1c7b7b27e35fdea1fc52b9531a1fa25cc
-ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
+ms.openlocfilehash: fa25de7484d8ac70e924e750c4e7633bfc160c04
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "35131508"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571588"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configurar a licença de Telefone de Área Comum para o Microsoft Teams
 > [!NOTE]

@@ -12,23 +12,22 @@ description: Informações para administradores sobre a presença no Microsoft T
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bd57165cbb88df135827ae72fa3952dd8ddd452
-ms.sourcegitcommit: 299f854bbb73887ba315b09b9adf9ea9ff91e8ec
+ms.openlocfilehash: 054c3a639cc5857fb25a7e211a272868477dcb61
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37062956"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573212"
 ---
 # <a name="user-presence-in-teams"></a>Presença do usuário no Teams
 
 A presença faz parte do perfil de um usuário no Microsoft Teams (e durante todo o Office 365) que indica a disponibilidade e o status atuais do usuário para outros usuários. Por padrão, qualquer pessoa em sua organização que use o Microsoft Teams poderá ver (em pouco tempo) se outros usuários estiverem disponíveis online.
 
 > [!IMPORTANT]
-> Se você desinstalar o cliente Skype for Business após mover um usuário para o modo **somente para equipes** , a presença deixará de funcionar no Outlook e em outros aplicativos do Office. A presença funciona bem no Teams. Solução alternativa: para ver a presença no Outlook (e em outros aplicativos do Office), o Skype for Business deve estar instalado, mesmo se você estiver executando o Microsoft Teams no modo **somente Teams** . A Microsoft está ciente desse problema e está trabalhando em uma correção.
+> Se você desinstalar o cliente do Skype for Business depois de mover um usuários para o modo **Somente Microsoft Teams**, a presença deixará de funcionar no Outlook e em outros aplicativos do Office. A presença funciona bem no Microsoft Teams. Solução alternativa: para ver a presença no Outlook (e em outros aplicativos do Office), o Skype for Business deve estar instalado, mesmo se você estiver executando o Microsoft Teams no modo **somente Teams** . A Microsoft está ciente desse problema e trabalhando para corrigi-lo.
 
 ## <a name="presence-states-in-teams"></a>Estados de presença no Teams
 

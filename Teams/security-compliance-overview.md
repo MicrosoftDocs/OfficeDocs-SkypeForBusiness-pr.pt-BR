@@ -12,18 +12,17 @@ description: Uma visão geral dos recursos de segurança e conformidade do Micro
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea0231ae9ad654e360a153029d06ea9fb564d49a
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: f5780720cfcd5adcf079c0f3d31423949cecea23
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483028"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568052"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Visão geral de segurança e conformidade no Microsoft Teams
 ======================================================
@@ -100,13 +99,13 @@ Quando falamos em recursos de proteção de informações, as assinaturas do Off
 
 | Recurso de proteção da informação | Office 365 Business Essentials | Office 365 Business Premium | Office 365 Enterprise E1 | Office 365 Enterprise E3/E4 | Office 365 Enterprise E5 |
 |-----------------------------------|--------------------------------|-----------------------------|--------------------------|-----------------------------|--------------------------|
-|              Arquivamento              |               -                |              -              |            -             |             Sim              |           Sim             |
-|        In-Place eDiscovery        |               -                |              -              |            -             |             Sim              |           Sim             |
+|              Arquivamento              |               -                |              -              |            -             |             Sim             |           Sim            |
+|        In-Place eDiscovery        |               -                |              -              |            -             |             Sim             |           Sim            |
 |        Advanced eDiscovery        |               -                |              -              |            -             |              -              |           Sim            |
-|            Retenção legal             |               -                |              -              |            -             |             Sim              |           Sim             |
-|     Pesquisa de conteúdo de conformidade     |               -                |             Sim              |           Sim             |             Sim              |           Sim             |
-|      Auditoria e relatórios       |              Sim               |             Sim              |           Sim             |             Sim              |           Sim             |
-|       Acesso condicional\*        |              Sim                |             Sim              |           Sim             |             Sim              |           Sim            |
+|            Retenção legal             |               -                |              -              |            -             |             Sim             |           Sim            |
+|     Pesquisa de conteúdo de conformidade     |               -                |             Sim             |           Sim            |             Sim             |           Sim            |
+|      Auditoria e relatórios       |              Sim               |             Sim             |           Sim            |             Sim             |           Sim            |
+|       Acesso condicional\*        |              Sim               |             Sim             |           Sim            |             Sim             |           Sim            |
 
 > [!NOTE]
 > \*O acesso condicional precisa de licenças adicionais

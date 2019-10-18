@@ -9,17 +9,16 @@ ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
 ms.collection:
-- Strat_SB_Admin
-- M365-voice
+- M365-collaboration
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Este artigo discute como implantar o gerenciamento de dispositivos de salas do Microsoft Teams de maneira integrada e de ponta a ponta usando o Azure monitor.
-ms.openlocfilehash: 4be57f97ef3b0813afef2aefd70c551ee50422ee
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 12936113a951f90bb1a3bed72f71d09f1f72ccd9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774679"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569935"
 ---
 # <a name="deploy-microsoft-teams-rooms-management-with-azure-monitor"></a>Implantar o gerenciamento de salas do Microsoft Teams com o Azure monitor
 
@@ -29,7 +28,7 @@ Você pode configurar a análise de logs no Azure monitor para fornecer telemetr
 
 Seguindo este guia, você pode usar um painel como o exemplo a seguir para obter relatórios de status detalhados de disponibilidade do dispositivo, integridade do aplicativo e do hardware e distribuição de versão do sistema operacional e do aplicativo de salas do Microsoft Teams.
 
-![Captura de tela do modo de exibição análise de log de amostra para salas do Microsoft Teams] (../media/Deploy-Azure-Monitor-1.png "Exemplo de exibição de análise de log para salas do Microsoft Teams")
+![Captura de tela do modo de exibição análise de log de amostra para salas do Microsoft Teams](../media/Deploy-Azure-Monitor-1.png "Exemplo de exibição de análise de log para salas do Microsoft Teams")
 
 Em um nível superior, é necessário executar as seguintes tarefas:
 
@@ -64,7 +63,7 @@ Você precisa configurar a análise de logs para coletar os logs necessários pa
 
 Para configurar a análise de logs para coletar os eventos de salas do Microsoft Teams, consulte [fontes de dados de log de eventos do Windows no Azure monitor](https://docs.microsoft.com/azure/azure-monitor/platform/data-sources-windows-events)
 
-![Captura de tela das configurações do log de eventos] (../media/Deploy-Azure-Monitor-2.png "Configurações do log de eventos")
+![Captura de tela das configurações do log de eventos](../media/Deploy-Azure-Monitor-2.png "Configurações do log de eventos")
 
 > [!IMPORTANT]
 > Defina as configurações do log de eventos **do** Windows e insira o sistema de salas da Skype como nome do log de eventos e marque as caixas de seleção **erro**, **aviso**e **informações** .
@@ -122,7 +121,7 @@ Para extrair seus campos personalizados dos logs de eventos capturados, siga est
 3. Selecione um dos registros, selecione o botão à esquerda e inicie o assistente de extração de campos.
 4. Realce os dados que você deseja extrair do RenderedDescription e forneça um título de campo. Os nomes de campo que você deve usar são fornecidos na tabela 1.
 
-   ![Definição de campo personalizado] (../media/Deploy-Azure-Monitor-4.png "Definição de campo personalizado")
+   ![Definição de campo personalizado](../media/Deploy-Azure-Monitor-4.png "Definição de campo personalizado")
 
 5. Use os mapeamentos mostrados na *tabela 1*. A análise de log acrescentará automaticamente a cadeia de caracteres do ** \_CF** quando você definir o novo campo.
 
@@ -131,7 +130,7 @@ Para extrair seus campos personalizados dos logs de eventos capturados, siga est
 > 
 > Preste atenção às consultas necessárias para cada campo personalizado na tabela abaixo. Você precisa usar as consultas corretas para análise de log para extrair com êxito valores de campos personalizados.
 > 
- ![Definição de campo personalizado] (../media/Deploy-Azure-Monitor-5.png "Definição de campo personalizado")
+ ![Definição de campo personalizado](../media/Deploy-Azure-Monitor-5.png "Definição de campo personalizado")
 
 **Tabela 1**
 
@@ -412,7 +411,7 @@ Agora, você concluiu a definição de alertas. Você pode definir alertas adici
 
 Quando um alerta é gerado, você receberá um email que lista os dispositivos que encontraram um problema na última hora.
 
-![Exemplo de email de alerta do Azure monitor] (../media/Deploy-Azure-Monitor-6.png "Exemplo de email de alerta do Azure monitor")
+![Exemplo de email de alerta do Azure monitor](../media/Deploy-Azure-Monitor-6.png "Exemplo de email de alerta do Azure monitor")
 
 ## <a name="configure-all-devices-for-azure-monitoring"></a>Configurar todos os dispositivos do Azure Monitoring
 <a name="configure_all_devices"></a> Depois que os painéis e alertas estiverem configurados, você poderá configurar e configurar o Microsoft Monitoring Agent em todos os dispositivos de salas do Microsoft Teams para concluir a implantação do monitoramento.

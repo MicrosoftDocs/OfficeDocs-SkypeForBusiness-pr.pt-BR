@@ -8,7 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -19,16 +20,16 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Saiba como obter o status de seus pedidos de portabilidade e saiba quais são as diferentes ações que você pode tomar. '
-ms.openlocfilehash: 8725f87fc1bb2afb6e035fca7e9dd3c34d2c8a60
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 34abd630740d654e640818270047d850f34efa2a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298971"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568515"
 ---
 # <a name="whats-the-status-of-my-port-orders-in-teams"></a>Qual é o status dos meus pedidos de portabilidade no Teams?
 
-Para ver o status do seu pedido de portabilidade, acesse o **Centro** > de administração do Microsoft Teams para**pedidos de porta**de**voz** > do**portal** > herdado. Cada status de pedido de portabilidade será listado na coluna **status** . Se precisar de ajuda, [entre em contato com o suporte para produtos empresariais-ajuda para administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
+Para ver o status do seu pedido de portabilidade, acesse o centro > de **Administração do Microsoft Teams**para**pedidos de porta**de**voz** > do**portal** > herdado. Cada status de pedido de portabilidade será listado na coluna **status** . Se precisar de ajuda, [entre em contato com o suporte para produtos empresariais-ajuda para administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
 
 A tabela a seguir lista os status do pedido de portabilidade, bem como as ações que podem ser tomadas, se necessário.
 
@@ -38,7 +39,7 @@ A tabela a seguir lista os status do pedido de portabilidade, bem como as açõe
 |**Contatando a operadora** <br/> |Sim  <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |O pedido foi recebido e aprovado pela Microsoft, e estamos trabalhando com a transportadora perdida para que ela seja aprovada.  <br/> |
 |**Transferência aprovada** <br/> |Sim  <br/> |Compromisso do pedido de confirmação (FOC)  <br/> |Sim  <br/> |Não  <br/> |O pedido foi aceito pela transportadora perdedor, e a data FOC foi definida.  <br/> |
 |**Transferência pendente** <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |A transferência tem menos de 24 horas de distância, portanto, a ordem não pode mais ser editada ou cancelada.  <br/> |
-|**Error** <br/> |Não  <br/> |Sim   <br/> |Sim  <br/> |Sim (no momento, não será possível excluir a ordem das portas se houver um erro. A ordem das portas precisa ser recriada ou você precisa [entrar em contato com o suporte para produtos empresariais-ajuda para administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).  <br/> |A transportadora perdida rejeitou o pedido.  <br/> |
+|**Error** <br/> |Não  <br/> |Sim  <br/> |Sim  <br/> |Sim (no momento, não será possível excluir a ordem das portas se houver um erro. A ordem das portas precisa ser recriada ou você precisa [entrar em contato com o suporte para produtos empresariais-ajuda para administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).  <br/> |A transportadora perdida rejeitou o pedido.  <br/> |
 |**Feito** <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |Os números foram transferidos com êxito.  <br/> |
 |**Cela** <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |O administrador cancelou o pedido.  <br/> |
    

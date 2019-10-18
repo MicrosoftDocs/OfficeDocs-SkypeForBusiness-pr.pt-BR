@@ -11,16 +11,15 @@ description: Use as configurações de qualidade do serviço (QoS) e, em seguida
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70e862adf2aad795a9ef1ab34eaa2de21240a388
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 19e97053120f5f28dcd634fd2047fed0abd2dd57
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239248"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573385"
 ---
 # <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>Implementar QoS e monitorar a qualidade das chamadas no Microsoft Teams
 

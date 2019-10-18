@@ -11,17 +11,16 @@ localization_priority: Normal
 search.appverid: MET150
 f1keywords: ms.teamsadmincenter.analyticsandreports.overview
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Saiba mais sobre os relatórios do teams que estão disponíveis no centro de administração do Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fad12604373c271d41b486d54c0093b5d273c6b8
-ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
+ms.openlocfilehash: 43d31c24745bb0ceba26160c09a3d11b5db0905b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37439534"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570978"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Análise e relatórios do Microsoft Teams
 

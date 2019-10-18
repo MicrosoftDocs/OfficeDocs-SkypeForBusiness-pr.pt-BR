@@ -7,7 +7,6 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: bjwhalen
 search.appverid: MET150
@@ -16,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 581aab3067dcc2e8dbdc579236f340259b5c6e74
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ce472ca1c5307dd8a5573ca076c58e32e2d41df9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243179"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571519"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Definir suas configurações de coexistência e atualização
 
@@ -42,11 +41,11 @@ Você pode obter uma compreensão melhor dos tipos de modos disponíveis para vo
 
 1. Na navegação à esquerda, vá para a**atualização de equipes**de **configurações** > em toda a organização. 
 
-2. Na parte superior da página de **atualização** do Teams, faça as seguintes alterações se elas funcionarem para você.
-    - Defina o **** modo de coexistência.
+2. Na parte superior da página de **atualização do teams** , faça as seguintes alterações se elas funcionarem para você.
+    - Defina o modo de **coexistência** .
         - **Ilhas** – Use essa configuração se quiser que os usuários possam usar o Skype for Business e o Teams simultaneamente.
         - **Skype para empresas apenas** – Use esta configuração se quiser que os usuários usem o Skype for Business apenas.
-        - **Somente equipes** (na visualização para algumas organizações) – Use essa configuração se desejar que os usuários usem apenas as equipes. Observe que, mesmo com essa configuração, os usuários ainda podem ingressar em reuniões hospedadas no Skype for Business.
+        - **Somente equipes** (em visualização para algumas organizações) – Use essa configuração se desejar que os usuários usem apenas as equipes. Observe que, mesmo com essa configuração, os usuários ainda podem ingressar em reuniões hospedadas no Skype for Business.
     - Defina **notificar os usuários do Skype for Business de que o Microsoft Teams está disponível para atualização**. Se você ativar esse recurso, ele informará aos usuários do Skype for Business que eles logo serão atualizados para o aplicativo Teams.
     - Defina o **aplicativo preferencial para que os usuários ingressem em reuniões do Skype for Business**. Essa configuração determina qual aplicativo é usado para ingressar em reuniões do Skype for Business e é respeitado independentemente do valor do modo de coexistência.
       - **Aplicativo reuniões do Skype**
@@ -59,13 +58,13 @@ Você pode obter uma compreensão melhor dos tipos de modos disponíveis para vo
 ![Um ícone mostrando o logotipo](media/teams-logo-30x30.png) do Microsoft Teams **usando o centro de administração do Microsoft Teams**
 
 1. No painel de navegação esquerdo, vá para **usuários**e selecione o usuário na lista. 
-2. Na guia **conta** do usuário, em **atualização**do Microsoft Teams, clique em **Editar**.
-3. Você pode definir o **modo**de coexistência. Escolha uma das seguintes opções:
+2. Na guia **conta** do usuário, em atualização do Microsoft **Teams**, clique em **Editar**.
+3. Você pode definir o **modo de coexistência**. Escolha uma das seguintes opções:
      - **Use as configurações de toda a organização** – Use essa configuração se quiser que o usuário use as configurações nas configurações de **toda a organização** . 
      - **Ilhas** – Use essa configuração se quiser que o usuário possa usar o Skype for Business e o Teams. 
      - **Skype para empresas somente** – Use esta configuração se quiser que o usuário use o Skype for Business. 
      - **Somente para equipes** – Use essa configuração se quiser que o usuário use apenas as equipes. O usuário ainda poderá ingressar em reuniões do Skype for Business.
-4. Se você selecionar qualquer **modo** de coexistência diferente de **usar as configurações de toda a organização**, terá a opção de habilitar notificações no aplicativo Skype for Business do usuário que a atualização para o Microsoft Teams estará disponível em breve. Você pode habilitar essa notificação para o usuário ativando a opção **notificar o usuário do Skype for Business** .
+4. Se você selecionar qualquer **modo de coexistência** diferente de **usar as configurações de toda a organização**, terá a opção de habilitar notificações no aplicativo Skype for Business do usuário que a atualização para o Microsoft Teams estará disponível em breve. Você pode habilitar essa notificação para o usuário ativando a opção **notificar o usuário do Skype for Business** .
 5. Clique em **salvar** depois de fazer as alterações.
 
 ### <a name="related-topics"></a>Tópicos relacionados

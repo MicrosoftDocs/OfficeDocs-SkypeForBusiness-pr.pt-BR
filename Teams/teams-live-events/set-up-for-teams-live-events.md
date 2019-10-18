@@ -11,18 +11,17 @@ audience: admin
 search.appverid: MET150
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Aprenda as etapas para configurar o Live para eventos no Teams, incluindo a preparação da rede, a atribuição de licenças, o uso de políticas para habilitar recursos de eventos dinâmicos e agendamento para usuários e a configuração de um provedor de distribuição de terceiros.
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 973e079cda665005dac55e466d444b09ecddb7da
-ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
+ms.openlocfilehash: 8ce126b6e0e7a1bc9efec28f3b7fec5020c2da1e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047066"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570152"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurar eventos ao vivo no Microsoft Teams
 
@@ -53,7 +52,7 @@ Políticas de eventos dinâmicos são usadas para controlar quem em sua organiza
 
     Aqui estão as configurações que você pode alterar de acordo com as necessidades da sua organização.
 
-    ![Captura de tela de configurações de política de eventos dinâmicos](../media/teams-live-events-policies.png "captura de tela das configurações de política de eventos dinâmicos no centro de administração do Microsoft Teams") 
+    ![Captura de tela de configurações de política de eventos dinâmicos](../media/teams-live-events-policies.png "Captura de tela de configurações de política de eventos dinâmicos no centro de administração do Microsoft Teams") 
 
 |Configuração  |Descrição  |
 |---------|---------|

@@ -11,17 +11,16 @@ audience: admin
 search.appverid: MET150
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Exemplos de como usar o PowerShell para definir políticas nas equipes controlar quem pode armazenar eventos dinâmicos em sua organização e recursos que estão disponíveis nos eventos que eles criam
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b92d52178f7b57b453eaaec010ded4731d166caf
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d9f96adcf4aa40b93b89b99013b9bc5ca466c25b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243643"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570163"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Usar o PowerShell para definir políticas de eventos ao vivo no Microsoft Teams
 

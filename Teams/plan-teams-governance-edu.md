@@ -11,16 +11,15 @@ description: Respostas para perguntas frequentes de administradores de grupos do
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1bfa8f141f7aa8ce8dd258610ff8b510ff66aac
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4faddea2a6d0366a45fab3667b781d9d1fe81f0b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237646"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573257"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>Perguntas frequentes sobre governança do Microsoft Education para administradores
 

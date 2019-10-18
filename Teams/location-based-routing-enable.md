@@ -12,17 +12,15 @@ search.appverid: MET150
 description: Saiba como habilitar o roteamento baseado em local para roteamento direto.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 160a4646ba212c9e654ec06fca2fdd107b2671c7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4acd03dfff78d5aae329492014b24e55b2f92ec9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245123"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572017"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Habilitar o Roteamento baseado na localização para o Roteamento direto
 
@@ -93,7 +91,7 @@ Este artigo descreve como habilitar o roteamento baseado em localização para r
     ||Site 1 (Déli)  |Site 2 (Hyderabad)  |
     |---------|---------|---------|
 |Nome do site    |Site 1 (Déli)    |Site 2 (Hyderabad)   
-    |EnableLocationBasedRouting    |True    |True    |
+    |EnableLocationBasedRouting    |Verdadeiro    |Verdadeiro    |
     |Sub-redes     |Sub-rede 1 (Déli)     |Sub-rede 2 (Hyderabad)     |
 
 ## <a name="enable-location-based-routing-for-gateways"></a>Habilitar roteamento baseado em local para gateways
@@ -143,8 +141,8 @@ Este artigo descreve como habilitar o roteamento baseado em localização para r
 
     ||GatewaySiteLbrEnabled   |NetworkSiteID  |
     |---------|---------|---------|
-    |PstnGateway: gateway 1 DEL-GW    |    True     |   Site 1 (Déli)      |
-    |PstnGateway: gateway 2 HYD-GW     |   True      |      Site 2 (Hyderabad)   |
+    |PstnGateway: gateway 1 DEL-GW    |    Verdadeiro     |   Site 1 (Déli)      |
+    |PstnGateway: gateway 2 HYD-GW     |   Verdadeiro      |      Site 2 (Hyderabad)   |
     |PstnGateway: gateway 3 DEL-PBX    |    False     |     Site 1 (Déli)    |
     |PstnGateway: gateway 4 HYD-PBX    |    False     |    Site 2 (Hyderabad)     |
 

@@ -10,17 +10,16 @@ ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Saiba como usar o relatório de uso de eventos Team Live no centro de administração do Microsoft Teams para obter uma visão geral da atividade de eventos do teams Live em sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad0ecd27df1f7bccd9a451f2581d55e5c335b1e0
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: 3c391370e757aedcf9ede889fc46f165cfc636f4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131609"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571142"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Relatório de uso de eventos ao vivo do Microsoft Teams
 
@@ -33,11 +32,11 @@ O relatório de uso de eventos Team Live no centro de administração do Microso
 3. Adicionais Em **organizador**, você pode optar por mostrar apenas eventos dinâmicos organizados por um usuário específico.
 4. Clique em **executar relatório**.  
 
-    ![Captura de tela do relatório de uso de eventos do teams Live no centro de administração do teams com textos explicativos] (../media/teams-live-event-usage-report-with-callouts.png "Captura de tela do relatório de uso de eventos do teams Live no centro de administração do teams com textos explicativos")
+    ![Captura de tela do relatório de uso de eventos do teams Live no centro de administração do teams com textos explicativos](../media/teams-live-event-usage-report-with-callouts.png "Captura de tela do relatório de uso de eventos do teams Live no centro de administração do teams com textos explicativos")
 
 ## <a name="interpret-the-report"></a>Interpretar relatório
 
-|Texto explicativo |Descrição  |
+|Texto Explicativo |Descrição  |
 |--------|-------------|
 |**1**   |O relatório de eventos do teams Live pode ser exibido para obter tendências nos últimos sete dias, 28 dias ou um intervalo de datas personalizado que você definiu. |
 |**2**   |Cada relatório tem uma data para o momento em que foi gerado. O relatório reflete a atividade próxima do tempo real quando a página é atualizada. |

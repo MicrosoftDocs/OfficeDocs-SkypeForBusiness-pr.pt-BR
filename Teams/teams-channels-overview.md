@@ -16,19 +16,19 @@ f1keywords:
 - ms.teamsadmincenter.teamschannel.overview
 - ms.teamsadmincenter.teamssettings.overview
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
+ms.custom: okr_smb
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12dca0160b4434472e2afa60971fb80ddebf925d
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
-ms.translationtype: HT
+ms.openlocfilehash: 604ea944d54e71e72d49505f111606beae5343ea
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483398"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564429"
 ---
 > [!NOTE]
-> Analise as informações a seguir para entender como funciona o bate-papo, equipes, canais e aplicativos no Teams. Em seguida, acesse [Bate-papo, equipes, canais e aplicativos no Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) para ver uma lista de decisões importantes para a sua configuração do Teams.
+> Analise as informações a seguir para entender como funciona o bate-papo, equipes, canais e aplicativos no Teams. Em seguida, acesse [chats, equipes, canais, & aplicativos no Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) para percorrer uma lista de decisões importantes para a distribuição de suas equipes.
 
 <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Visão geral de equipes e canais no Microsoft Teams
 =================================================
@@ -41,13 +41,13 @@ Vamos começar pensando em como o Microsoft Teams permite que equipes individuai
 
     - As equipes também podem ser criadas para serem públicas e abertas, permitindo que qualquer pessoa dentro da organização participe (até 5000 membros).
     
-    As equipes são projetadas para reunir um grupo de pessoas que trabalham unidas para realizar tarefas. O Teams pode ser dinâmico para um trabalho baseado em um projeto (por exemplo, lançamento de um produto, criação de uma sala de guerra digital), assim como para trabalhos contínuos a fim de refletir a estrutura interna da empresa (por exemplo, localizações de departamentos e escritórios). Conversas, arquivos e notas nos canais de equipe são visíveis apenas para os membros da equipe.
+    Uma equipe foi designada a reunir um grupo de pessoas que trabalham em proximidade para realizar suas tarefas. O Teams pode ser dinâmico para um trabalho baseado em um projeto (por exemplo, lançamento de um produto, criação de uma sala de guerra digital), assim como para trabalhos contínuos a fim de refletir a estrutura interna da empresa (por exemplo, localizações de departamentos e escritórios). Conversas, arquivos e notas nos canais de equipe são visíveis apenas para os membros da equipe.
 
-- **Canais** são seções exclusivas dentro de uma equipe para manter as conversas organizadas por tópicos, projetos e disciplinas específicas — o que funcionar melhor para a sua equipe! Os arquivos que você compartilha em um canal (na guia Arquivos) são armazenados no SharePoint. Para saber mais, leia [Como o SharePoint Online e o OneDrive for Business interagem com o Teams](SharePoint-OneDrive-interact.md).
+- **Canais** são seções exclusivas dentro de uma equipe para manter as conversas organizadas por tópicos, projetos e disciplinas específicas — o que funcionar melhor para a sua equipe! Os arquivos que você compartilha em um canal (na guia arquivos) são armazenados no SharePoint. Para saber mais, leia [como o SharePoint Online e o onedrive for Business interagem com o Microsoft Teams](SharePoint-OneDrive-interact.md).
 
-    - Os canais das equipes são lugares onde todos na equipe podem conversar abertamente. As conversas particulares são visíveis apenas para as pessoas no bate-papo (e os arquivos que você compartilha em um bate-papo são armazenados no OneDrive for Business). 
+    - Os canais das equipes são lugares onde todos na equipe podem conversar abertamente. Os chats privados são visíveis apenas para as pessoas no chat (e os arquivos que você compartilha em um chat são armazenados no OneDrive for Business). 
 
-    - Os canais são mais valiosos quando estendidos com aplicativos que incluem guias, conectores e bots que aumentam seu valor para os membros da equipe. Para saber mais, consulte [Aplicativos, bots e conectores no Teams](deploy-apps-microsoft-teams-landing-page.md).
+    - Os canais são mais valiosos quando estendidos com aplicativos que incluem guias, conectores e bots que aumentam seu valor para os membros da equipe. Para saber mais, consulte [aplicativos, bots, & conectores no Teams](deploy-apps-microsoft-teams-landing-page.md).
 
 Veja este pequeno vídeo para saber mais sobre as práticas recomendadas para criar equipes e canais.
 
@@ -58,41 +58,41 @@ Veja este pequeno vídeo para saber mais sobre as práticas recomendadas para cr
 
 **Associação da equipe**
 
-Quando o Microsoft Teams é ativado para toda a organização, os proprietários da equipe designada podem convidar qualquer funcionário com quem trabalham para ingressar na equipe. O Microsoft Teams torna fácil para os proprietários de equipe adicionarem pessoas na empresa baseado nos seus nomes. Dependendo das configurações usadas pela empresa, convidados que são membros da equipe, mas não pertencem à empresa também podem sem adicionados às suas equipes. Veja [Acesso de Convidado no Microsoft Teams](guest-access.md) para obter mais detalhes. 
+Quando o Microsoft Teams é ativado para toda a sua organização, os proprietários designados da equipe podem convidar qualquer funcionário ao qual eles trabalham para ingressar em sua equipe. O Microsoft Teams torna fácil para os proprietários de equipe adicionarem pessoas na empresa baseado nos seus nomes. Dependendo das configurações usadas pela empresa, convidados que são membros da equipe, mas não pertencem à empresa também podem sem adicionados às suas equipes. Veja [Acesso de Convidado no Microsoft Teams](guest-access.md) para obter mais detalhes. 
 
-Os proprietários de equipe também podem criar uma equipe baseado em um grupo do Office 365 existente. Quaisquer alterações feitas no grupo serão sincronizadas com o Microsoft Teams automaticamente. Criar uma equipe baseada em um grupo do Office 365 existente, não apenas simplifica o processo de convidar e gerenciar os membros, mas também sincronizar os arquivos de grupo dentro do Microsoft Teams.
+Os proprietários de equipe também podem criar uma equipe baseado em um grupo do Office 365 existente. Todas as alterações feitas no grupo serão sincronizadas automaticamente com o Microsoft Teams. Criar uma equipe baseada em um grupo do Office 365 existente, não apenas simplifica o processo de convidar e gerenciar os membros, mas também sincronizar os arquivos de grupo dentro do Microsoft Teams.
 
 **Funções da equipe**
 
-Existem duas funções principais no Microsoft Teams: 
+Há duas funções principais no Microsoft Teams: 
 
-- **Proprietário da equipe** - a pessoa que cria a equipe. Os proprietários de equipe podem tornar qualquer membro da sua equipe um coproprietário quando é feito o convite para a equipe ou a qualquer momento após ele ter entrado na equipe. Ter vários proprietários de equipes permite compartilhar as responsabilidades de gerenciamento configurações e associação de membros, incluindo convites.
-- **Membros da equipe** - as pessoas que os proprietários convidam para ingressar na equipe.
+- **Proprietário da equipe** -a pessoa que cria a equipe. Os proprietários de equipe podem tornar qualquer membro da sua equipe um coproprietário quando é feito o convite para a equipe ou a qualquer momento após ele ter entrado na equipe. Ter vários proprietários de equipe permite que você compartilhe as responsabilidades de gerenciamento de configurações e associação, incluindo convites.
+- **Membros da equipe** -as pessoas que os proprietários convidam para ingressar em sua equipe.
 
-Além disso, se a moderação estiver configurada, os proprietários e membros da equipe poderão ter recursos de moderador para um canal. Os moderadores podem iniciar novas postagens no canal e controlar se os membros da equipe podem responder às mensagens existentes do canal. Os proprietários da equipe podem atribuir moderadores em um canal. (Os proprietários da equipe têm recursos de moderador por padrão.) Os moderadores em um canal podem adicionar ou remover outros moderadores nesse canal. Para mais informações, consulte [Configurar e gerenciar a moderação de canal no Microsoft Teams](manage-channel-moderation-in-teams.md).
+Além disso, se a moderação estiver configurada, os proprietários da equipe e os membros poderão ter recursos moderadores para um canal. Os moderadores podem iniciar novas postagens no canal e controlar se os membros da equipe podem responder às mensagens de canal existentes. Os proprietários da equipe podem atribuir moderadores em um canal. (Os proprietários da equipe têm recursos moderadores por padrão.) Os moderadores dentro de um canal podem adicionar ou remover outros moderadores nesse canal. Para obter mais informações, consulte [configurar e gerenciar a moderação de canal no Microsoft Teams](manage-channel-moderation-in-teams.md).
 
 **Configurações da equipe** 
 
-Os proprietários da equipe podem gerenciar as configurações de toda a equipe diretamente no Microsoft Teams. As configurações incluem a capacidade de adicionar uma imagem da equipe, permissões de configuração entre os membros da equipe para criar canais, adicionar guias e conectores, @menção da equipe ou canal completo e a utilização de GIFs, figurinhas e memes. 
+Os proprietários da equipe podem gerenciar as configurações em toda a equipe diretamente no Microsoft Teams. As configurações incluem a capacidade de adicionar uma imagem da equipe, permissões de configuração entre os membros da equipe para criar canais, adicionar guias e conectores, @menção da equipe ou canal completo e a utilização de GIFs, figurinhas e memes. 
 
 Reserve três minutos para conferir este vídeo de guia para proprietários de equipe: 
 
    > [!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
 
-Se você for um administrador do Microsoft Teams no Office 365, terá acesso às configurações de todo o sistema no centro de administração do Microsoft Teams. Essas configurações podem impactar as opções e padrões que os proprietários de equipe veem nas configurações de equipe. Por exemplo, você pode ativar um canal padrão, "Geral", para anúncios, discussões e recursos em toda a equipe, que será exibido em todas as equipes.
+Se você for um administrador do Microsoft Teams no Office 365, terá acesso às configurações de todo o sistema no centro de administração do Microsoft Teams. Essas configurações podem impactar as opções e padrões que os proprietários de equipe veem nas configurações de equipe. Por exemplo, você pode habilitar um canal padrão, "geral", para anúncios em toda a equipe, discussões e recursos, que serão exibidos em todas as equipes.
 
-Por padrão, todos os usuários têm permissões para criar uma equipe no Microsoft Teams (para modificar isso, consulte [Atribuir funções e permissões no Teams)](assign-roles-permissions.md). Os usuários de um grupo existente do Office 365 também podem aprimorar suas permissões com a funcionalidade do Teams.
+Por padrão, todos os usuários têm permissões para criar uma equipe no Microsoft Teams (para modificar isso, consulte [Atribuir funções e permissões no Teams)](assign-roles-permissions.md). Os usuários de um grupo existente do Office 365 também podem melhorar suas permissões com a funcionalidade do Microsoft Teams.
 
-Uma atividade importante de planejamento inicial para envolver os usuários com o Microsoft Teams é ajudar as pessoas a pensarem sobre e entenderem como o Teams pode aprimorar a colaboração no dia a dia. Converse com as pessoas e ajude-as a selecionar cenários de negócios em que elas estejam colaborando atualmente de maneira fragmentada. Reúna-os em um canal com as guias relevantes que os ajudarão a realizar seu trabalho. Um dos casos de uso mais eficientes do Microsoft Teams é em qualquer processo multiorganizacional. 
+Uma das principais atividades de planejamento antecipado para envolver usuários com o Microsoft Teams é ajudar as pessoas a pensar e compreender como as equipes podem aprimorar a colaboração em suas vidas úteis do dia-a-dia. Converse com as pessoas e ajude-as a selecionar cenários de negócios em que elas estejam colaborando atualmente de maneira fragmentada. Reúna-os em um canal com as guias relevantes que os ajudarão a realizar o trabalho. Um dos casos de uso mais eficientes do Microsoft Teams é em qualquer processo multiorganizacional. 
 
 <a name="example-teams"></a>Exemplo do Teams
 --------------
 
-Abaixo estão alguns exemplos funcionais de como os diferentes tipos de usuários podem abordar a criação de equipes, canais e aplicativos (guias/conectores/bots). Isso pode ser útil para ajudar a iniciar uma conversa sobre o Microsoft Teams com sua comunidade de usuários. Ao pensar em como implementar o Microsoft Teams em sua organização, lembre-se de fornecer orientações sobre como estruturar suas equipes; no entanto, os usuários têm controle de como eles podem se auto-organizar. São apenas exemplos para ajudar as equipes a começar a pensar nas possibilidades.
+Veja a seguir alguns exemplos funcionais de como os diferentes tipos de usuários podem abordar a configuração de suas equipes, canais e aplicativos (guias/conectores/bots). Isso pode ser útil para ajudar a disparar uma conversa sobre o Microsoft Teams com sua comunidade de usuários. Como você pensa em como implementar o Microsoft Teams em sua organização, lembre-se de que você pode fornecer orientação sobre como estruturar suas equipes; no entanto, os usuários têm o controle de como eles podem organizar o seu pessoal. São apenas exemplos para ajudar as equipes a começar a pensar nas possibilidades.
 
-O Microsoft Teams é ótimo para dividir silos organizacionais e promover equipes multifuncionais. Por isso, incentive seus usuários a pensarem em equipes funcionais, e não em limites organizacionais.
+O Microsoft Teams é ótimo para dividir os silos organizacionais e promover equipes multifuncionais, para incentivar seus usuários a pensar em equipes funcionais, em vez de fronteiras organizacionais.
 
-|Tipos de equipe  |Canais potenciais  |Aplicativos (Guias ![Um ícone representando uma pasta com uma guia](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Conectores ![Um ícone representando blocos de conexão](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![Um ícone representando um pequeno robô](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
+|Tipos de equipe  |Canais potenciais  |Aplicativos (Guias ![Um ícone que representa uma pasta com uma guia](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Conectores ![Um ícone que representa a conexão de blocos](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![Um ícone que representa um robô pequeno](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
 |Vendas     |Reunião anual de vendas<br></br> Avaliação trimestral de negócios<br></br> Avaliação mensal do pipeline de vendas<br></br> Conjunto de estratégias de vendas |Power BI<br></br>Trello<br></br>CRM<br></br>Resumir bot         |
 |Relações Públicas     |Notas de imprensa<br></br>Novidades e atualizações<br></br>Verificação de fatos         |RSS Feed<br></br>Twitter         |
@@ -105,7 +105,7 @@ O Microsoft Teams é ótimo para dividir silos organizacionais e promover equipe
 |RH     |Gerenciamento de talentos<br></br>Recrutamento<br></br>Planejamento de avaliações de desempenho<br></br>Moral         |Ferramentas de RH<br></br>Sites de publicação de trabalhos externos<br></br>Growbot         |
 |Multiorganizacional <br></br>Equipe virtual |Estratégia<br></br>Desenvolvimento da força de trabalho<br></br>Competir e pesquisar         |Power BI<br></br>Microsoft Stream         |
 
-É possível criar equipes alinhadas com a estrutura organizacional. Isso é melhor usado para líderes que desejam elevar a moral, fazer análises específicas da equipe, esclarecer os processos de integração dos funcionários, discutir planos de força de trabalho e aumentar a visibilidade em uma força de trabalho diversificada.  
+É possível criar equipes que se alinham com a estrutura organizacional. Isso é melhor usado para líderes que desejam conduzir a moral, ter análises específicas da equipe, esclarecer os processos de integração de funcionários, discutir planos de força de equipe e aumentar a visibilidade de uma força de equipe diversificada.  
 
 ![Diagrama de hierarquia de equipes e canais organizados no Microsoft Teams.](media/overview-of-teams-and-channels-image1.png)
 

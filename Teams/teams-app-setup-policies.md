@@ -10,7 +10,6 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -18,12 +17,12 @@ search.appverid: MET150
 description: Saiba mais sobre as políticas de configuração de aplicativos no Microsoft Teams e como usá-las para fixar aplicativos para personalizar o Microsoft Teams para usuários em sua organização.
 f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 95d96e3bebdcbe7acfde1bc84da7d7216090e5b3
-ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
+ms.openlocfilehash: aaee74017fc6a380c77526b28c19411e413f37d0
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2019
-ms.locfileid: "36790904"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570287"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gerenciar políticas de configuração de aplicativo no Microsoft Teams
 
@@ -115,7 +114,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 ``` 
 Dependendo do número de membros do grupo, esse comando pode levar alguns minutos para ser executado.
 
-## <a name="faq"></a>Perguntas frequentes
+## <a name="faq"></a>Perguntas Frequentes
 
 ### <a name="working-with-app-setup-policies"></a>Trabalhando com políticas de configuração de aplicativos
 

@@ -7,7 +7,8 @@ ms.reviewer: dvank, kponnus
 ms.topic: article
 ms.tgt.pltfrm: lync
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -17,12 +18,12 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 description: IP Desk e telefones de conferência certificados para o Microsoft Teams
-ms.openlocfilehash: 887393825d2894f97afa6f811455e349fd91d877
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 6025b8c3d3db84e085489f52407e4fc63f39b2eb
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427586"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570196"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Telefones IP certificados para o Microsoft Teams
 
@@ -40,13 +41,13 @@ Além de oferecer aos clientes uma variedade de telefones IP certificados pelo S
 
 Os seguintes telefones são certificados para o Microsoft Teams:
 
-|Modelo de telefone|Versão do firmware|Data do lançamento |
+|Modelo de telefone|Versão do firmware|Data de lançamento |
 |:---|:---|:---|
 |AudioCodes C450HD | C450HD_TEAMS_0.225 | Março de 2019|
 |Crestron M100|2.3875.00068|Dezembro de 2018|
 |Crestron Flex UC-P100-T & UC-P110-T  | 58.15.91.6 |Janeiro de 2019|
-|Polyline trio 8500/8800 (somente modo compartilhado)| 5.9.0.10869|De junho de 2019|
-|Yealink VP59 | 91.15.0.16 |De junho de 2019|
+|Polyline trio 8500/8800 (somente modo compartilhado)| 5.9.0.10869|Junho de 2019|
+|Yealink VP59 | 91.15.0.16 |Junho de 2019|
 |Yealink T55 | 58.15.0.36 |Maio de 2019|
 |Yealink CP 960 |73.15.0.20|Dezembro de 2018|
 |Yealink T58 & série T56 |58.15.0.20|Dezembro de 2018|

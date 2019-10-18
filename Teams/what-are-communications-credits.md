@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 18762b51fc44ed1bc3f63a0e815528174e4afd8a
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: 284c4b04ad1652b7a9ab3cb5d6d9bcb2f0902550
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493071"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568570"
 ---
 # <a name="what-are-communications-credits"></a>O que são Créditos de Comunicação?
 
@@ -59,7 +58,7 @@ Se você estiver se perguntando qual o custo das chamadas para os planos de cham
 Para usar números de chamada gratuita no Skype for Business, é necessário fazer créditos de comunicação, pois essas chamadas são cobradas por minuto. Além disso, recomendamos que você configure créditos de comunicações para o seu plano de chamadas e usuários de audioconferência que precisam da capacidade de discar para **qualquer destino PSTN**. Muitos países/regiões estão incluídos, mas alguns destinos podem não ser incluídos no seu plano de chamadas ou assinaturas de audioconferência. Se você não configurar créditos de comunicações ou atribuir uma licença para seus usuários e tiver tempo em minutos para a sua organização (dependendo do seu plano de chamadas, do plano de audioconferência ou do seu país/região), esses usuários não poderão fazer chamadas ou discar de online Reuniões de audioconferência.
   
 > [!NOTE]
-> Você deve configurar créditos de comunicações e atribuir uma licença de créditos de comunicações para cada usuário no**** > centro > de **Administração do Microsoft 365**usuários**ativos**. 
+> Você deve configurar créditos de comunicações e atribuir uma licença de créditos de comunicações para cada usuário no **Centro** > **** > de administração do Microsoft 365 usuários**ativos**. 
   
 É recomendável que você avalie cuidadosamente o uso do serviço PSTN da sua organização para entender a melhor configuração de créditos de comunicações. Você pode ver mais sobre os serviços PSTN lendo o [sistema telefônico e os planos de chamada](calling-plan-landing-page.md) e as [perguntas comuns sobre o áudio audioconferência](Audio-Conferencing-common-questions.md).
   
@@ -91,13 +90,13 @@ Você pode ver os planos e preços visitando um dos seguintes links:
   
 - [Planos de chamadas](https://go.microsoft.com/fwlink/?linkid=799761)
     
-- [Audioconferência](https://go.microsoft.com/fwlink/?linkid=799762)
+- [Conferência de áudio](https://go.microsoft.com/fwlink/?linkid=799762)
     
 - [Sistema Telefônico](https://go.microsoft.com/fwlink/?linkid=799763 )
     
-Você também pode ver informações sobre preços [entrando no centro de administração do Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e indo a **** > **assinaturas** > **Adicionar**assinaturas.
+Você também pode ver informações sobre preços [entrando no centro de administração do Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e **indo a** > **assinaturas** > **Adicionar**assinaturas.
   
-Para ver uma tabela com as licenças ou licenças necessárias para cada recurso, consulte licenciamento [de Complementos do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Para ver uma tabela com as licenças ou licenças necessárias para cada recurso, consulte [Licenciamento de Complementos do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## <a name="related-topics"></a>Tópicos relacionados
 [Relatório de uso de PSTN do Skype for Business](/SkypeForBusiness/skype-for-business-online-reporting/pstn-usage-report)

@@ -11,23 +11,20 @@ audience: admin
 description: Identifique um grupo regulador de principais interessados e líderes de projeto para identificar objetivos de implantação, acompanhar o progresso e remover bloqueadores.
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4f264195a6c378f3724d99677f108abf631fed8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 482779904ba49e945f6b071b3be17fe0a6f290dd
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232090"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564558"
 ---
 # <a name="steering-committee"></a>Comitê de direcionamento
 
 ## <a name="steering-committee-overview"></a>Visão geral do Comitê de direcionamento
 
-Um Comitê de direcionamento é um grupo regulador de principais interessados e líderes de projeto que se reuniram para orientar um projeto ou programa para seus resultados comerciais definidos. O Comitê de direcionamento não é responsável ** diretamente pela entrega do projeto, mas sim o *que* o projeto oferece à empresa.
+Um Comitê de direcionamento é um grupo regulador de principais interessados e líderes de projeto que se reuniram para orientar um projeto ou programa para seus resultados comerciais definidos. O Comitê de direcionamento não é responsável diretamente pela *entrega do projeto* , mas sim o *que* o projeto oferece à empresa.
 
 Cada projeto requer uma visão e uma compromisso acordados. Para fornecer os resultados desejados dos projetos, a visão deve ser claramente definida, que precisa ser monitorado e mantido. Isso se torna a responsabilidade do Comitê de direcionamento: para impulsionar decisões, aconselhar, fornecer supervisão estratégica, servir como defensores da organização para as iniciativas do projeto e, quando necessário, remover bloqueadores.
 

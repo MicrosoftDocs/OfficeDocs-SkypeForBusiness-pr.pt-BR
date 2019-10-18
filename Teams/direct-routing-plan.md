@@ -10,17 +10,16 @@ ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: Leia este tópico para saber como o roteamento direto do sistema de telefone da Microsoft permite que você conecte um controlador de borda de sessão (SBC) compatível com o cliente ao Microsoft Phone System.
-ms.openlocfilehash: 8dc06650a50af5b66931f196c0a1c3d7c5090bc5
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: ab76d3ee8a08b6bf109e1cb235b4f0f3a4fbdcc8
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464574"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572141"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -29,7 +28,7 @@ ms.locfileid: "36464574"
 
 O roteamento direto do Microsoft Phone System permite conectar um controlador de borda de sessão (SBC) compatível com o cliente ao Microsoft Phone System.  Com esse recurso, por exemplo, você pode configurar a conectividade PSTN local com o cliente do Microsoft Teams, conforme mostrado no diagrama a seguir: 
 
-![Diagrama mostrando a configuração de conectividade PSTN local] (media/PlanDirectRouting1-PSTNwithTeams.png "Configuração de conectividade PSTN local com o cliente do Microsoft Teams")
+![Diagrama mostrando a configuração de conectividade PSTN local](media/PlanDirectRouting1-PSTNwithTeams.png "Configuração de conectividade PSTN local com o cliente do Microsoft Teams")
 
   > [!NOTE]
   > O Skype for Business online também permite que você emparelhe um SBC fornecido pelo cliente, mas isso exige uma implantação local do Skype for Business Server ou uma edição especial do Skype for Business, chamada de conector de nuvem, entre o SBC e a nuvem da Microsoft. Esse cenário é conhecido como voz híbrida. Por outro lado, o roteamento direto permite uma conexão direta entre o SBC compatível e a nuvem da Microsoft. 
@@ -47,7 +46,7 @@ A Microsoft também oferece soluções de voz todas em nuvem, como o plano de ch
 
 O roteamento direto também oferece suporte a usuários que têm a licença adicional para o plano de chamadas da Microsoft. Para obter mais informações, consulte [sistema telefônico e planos de chamada](calling-plan-landing-page.md). 
 
-Com o roteamento direto, quando os usuários participam de uma conferência agendada, o número de discagem é fornecido pelo serviço de conferência de áudio da Microsoft, que requer o licenciamento adequado.  Ao discar, o serviço de audioconferência da Microsoft coloca a chamada usando recursos de chamada online, que requer o licenciamento adequado. (Observe que a discagem não roteia pelo roteamento direto.) Para obter mais informações, consulte [reuniões online com](https://products.office.com/microsoft-teams/online-meeting-solutions)o Teams. 
+Com o roteamento direto, quando os usuários participam de uma conferência agendada, o número de discagem é fornecido pelo serviço de conferência de áudio da Microsoft, que requer o licenciamento adequado.  Ao discar, o serviço de audioconferência da Microsoft coloca a chamada usando recursos de chamada online, que requer o licenciamento adequado. (Observe que a discagem não roteia pelo roteamento direto.) Para obter mais informações, consulte [reuniões online com o Teams](https://products.office.com/microsoft-teams/online-meeting-solutions). 
  
 Planejar a implantação do roteamento direto é essencial para uma implementação bem-sucedida. Este artigo descreve os requisitos de infraestrutura e licença e fornece informações sobre a conectividade SBC: 
 
@@ -88,7 +87,7 @@ Os usuários de roteamento direto devem ter as seguintes licenças atribuídas n
 
 - Sistema telefônico da Microsoft 
 - Microsoft Teams + Skype for Business plano 2, se incluído na SKU de licenciamento
-- Conferência de áudio da Microsoft 
+- Conferência de áudio da Microsoft (leia as anotações e o parágrafo abaixo para obter exemplos específicos de quando a licença é necessária)
 
 > [!NOTE]
 > O plano do Skype for Business não deve ser removido de nenhuma SKU de licenciamento onde está incluído. 
@@ -97,10 +96,12 @@ Os usuários de roteamento direto devem ter as seguintes licenças atribuídas n
 > [!IMPORTANT]
 >  Se você quiser adicionar participantes externos a reuniões agendadas, basta discar para eles ou fornecer o número de discagem, a licença de audioconferência será *necessária*.
 
-> [!NOTE]
-> A licença de audioconferência é *necessária* para:
-> - Escalonar a partir de uma chamada do 1:1 para uma chamada em grupo.
-> - Adicione participantes externos a reuniões agendadas, discando ou fornecendo o número de discagem. 
+
+Licença de encaminhamento de chamadas ad hoc e conferência de áudio
+
+Um usuário do teams pode iniciar uma pessoa em uma única equipe para a PSTN ou equipes para a chamada do Teams e adicionar um participante PSTN a ele. Esse cenário é chamado de conferência ad hoc. O caminho que a chamada leva depende se o usuário que Escalona a chamada tem uma licença de conferência de áudio da Microsoft atribuída ou não.
+1. Se o usuário do teams que escalonar a chamada tiver uma licença de conferência de áudio da Microsoft atribuída, o escalonamento ocorrerá por meio do serviço de conferência de áudio da Microsoft. O participante PSTN remoto que é convidado para a chamada existente recebe uma notificação sobre a chamada recebida e vê o número da ponte da Microsoft atribuído ao usuário do teams que iniciou o escalonamento.
+2. Se o usuário do teams que Escalona a chamada não tiver a licença de conferência de áudio da Microsoft atribuída, o escalonamento ocorrerá por meio de um controlador de borda de sessão conectado à interface de roteamento direto. O participante PSTN remoto que é convidado para a chamada recebe uma notificação sobre a chamada recebida e vê o número do usuário da equipe que iniciou o escalonamento. O SBC específico, usado para o escalonamento, é definido pela política de roteamento do usuário. 
 
 
 Além disso, você deve garantir o seguinte:

@@ -13,17 +13,15 @@ metadata:
   localization_priority: Normal
   search.appverid: MET150
   ms.collection:
-  - Teams_ITAdmin_PracticalGuidance
-  - Teams_ITAdmin_Training
-  - M365-collaboration
+  - M365-voice
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: e94334eb0cfab8b4e9bf9c42035d33d3584aef5f
-  ms.sourcegitcommit: bf7de2101862a154eb375c06bc89e6e0c4872119
+  ms.openlocfilehash: a2e373c46ee3c07f3842f4c9632d42c84ceef496
+  ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 05/22/2019
-  ms.locfileid: "34381773"
+  ms.lasthandoff: 10/17/2019
+  ms.locfileid: "37566985"
 items:
 - durationInMinutes: 1
   content: >
@@ -246,6 +244,6 @@ items:
 - title: Gerar valor
   durationInMinutes: 1
   content: "\nAgora que você planejou e implementou corretamente o Sistema de Telefonia em seu ambiente, precisa garantir que ele seja usado e ofereça uma ótima experiência para o usuário. Embora os detalhes completos ultrapassem o escopo deste treinamento, queremos apontar as áreas de engajamento mais importantes:\n\n-   Os usuários de adoção e gerenciamento de alterações podem simplesmente começar a usar o serviço quando você ofereci-lo a ele. Ou não. Portanto, é importante executar o gerenciamento adequado da adoção e de mudanças.\n\n-   Monitoramento e direcionamento do uso recomendamos que um de seus KSIs seja o número de usuários ativos para ajudá-lo a medir a forma como as equipes são aceitas como um cliente telefônico.\n\n-   Monitorar e promover a qualidade\n\nA satisfação dos usuários está diretamente relacionada à qualidade de suas chamadas. Portanto, é importante monitorar a qualidade das chamadas e, se necessário, melhorá-la. Para entender como reportar a qualidade das chamadas, acesse o treinamento Painel de Qualidade de Chamadas. Embora esses vídeos tenham sido criados para o Skype for Business, eles também se aplicam ao <https://aka.ms/sof-cqd>Teams:.\n"
-- title: Próximas etapas
+- title: Próximos passos
   durationInMinutes: 1
-  content: "\nNeste treinamento, abordamos estes pontos de aprendizagem principais:\n-   O que são as chamadas do Teams?\n\n-   Como planejar as chamadas no Teams\n\n-   Como configurar as chamadas no Teams\n\nPara saber mais, veja:\n\n-   [Sistema telefônico com planos de chamada](calling-plan-landing-page.md)\n\n-   [Guia de Início Rápido: Como configurar Planos de Chamadas no Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide)\n\nPróximos passos\n\n1.  Inscreva-se no [MyAdvisor](https://aka.ms/myadvisor) para obter orientações personalizadas de implantação.\n2.  Inicie sua implantação do Sistema de Telefonia para o Teams\n3.  Envie-nos seus comentários:\n    - Poste na seção de comentários na parte inferior desta página.\n    - Para dar feedback sobre o Teams ou compartilhar suas ideias de novos recursos, visite o [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).\n4.  Mantenha-se atualizado:\n    - Siga o [blog](https://aka.ms/teamsblog)do teams.\n    - Leia o [mapa](https://aka.ms/O365Roadmap)do teams.\n    - Saiba mais sobre os recursos lançados mais recentes nas [notas de versão](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).\n5.  Explore [mais treinamento e tutoriais](https://aka.ms/Teamsacademy)."
+  content: "\nNeste treinamento, abordamos estes pontos de aprendizagem principais:\n-   O que são as chamadas do Teams?\n\n-   Como planejar as chamadas no Teams\n\n-   Como configurar as chamadas no Teams\n\nPara saber mais, veja:\n\n-   [Sistema de Telefonia com Planos de Chamadas](calling-plan-landing-page.md)\n\n-   [Guia de Início Rápido: Como configurar Planos de Chamadas no Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide)\n\nPróximos passos\n\n1.  Inicie sua implantação do Sistema de Telefonia para o Teams\n2.  Envie-nos seus comentários:\n    - Poste na seção de comentários na parte inferior desta página.\n    - Para dar feedback sobre o Teams ou compartilhar suas ideias de novos recursos, visite o [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).\n3.  Mantenha-se atualizado:\n    - Siga o [blog do teams](https://aka.ms/teamsblog).\n    - Leia o [mapa do teams](https://aka.ms/O365Roadmap).\n    - Saiba mais sobre os recursos lançados mais recentes nas [notas de versão](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).\n4.  Explore [mais treinamento e tutoriais](https://aka.ms/Teamsacademy)."

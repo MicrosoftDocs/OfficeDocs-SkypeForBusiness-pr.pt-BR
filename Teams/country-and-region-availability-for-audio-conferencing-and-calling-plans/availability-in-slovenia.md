@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Eslovênia.
-ms.openlocfilehash: e7fb3850635ffaf2b1aa3b416b8a917e579984ed
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 6ebd45cda9b4ccb12f4aa365b1b45fb5858bbe74
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331232"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572383"
 ---
 # <a name="availability-in-slovenia"></a>Disponibilidade na Eslovênia
 

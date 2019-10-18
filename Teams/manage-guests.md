@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_GuestAccess
 - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
 description: Os administradores de TI podem adicionar convidados em nível de locatário, definir e gerenciar políticas e permissões de usuários convidados, determinar quais usuários podem convidar convidados e extrair relatórios sobre a atividade do usuário convidado.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3ede35352436074cbf7c94fc9df78100a73a017
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7db3d42a8d4ae44364ee56f6c7f31ce501a34137
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241806"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567615"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Gerenciar o acesso de convidados no Microsoft Teams
 ======================================
@@ -31,7 +31,7 @@ Após a ativação do tipo de usuário/licença de **convidado** , você pode de
     
 Os administradores de ti podem adicionar convidados no nível do locatário, definir e gerenciar políticas e permissões do usuário de convidado e receber relatórios sobre atividades do usuário convidado. Esses controles estão disponíveis por meio do centro de administração do Microsoft Teams. O conteúdo e as atividades dos usuários convidados estão sob a mesma proteção de conformidade e auditoria que o restante do Office 365.
 
-Os proprietários da equipe podem convidar novos convidados e adicionar usuários convidados do diretório existente a suas equipes. Os proprietários da equipe podem identificar os usuários convidados por meio do **Teams** > **** Teams e definir recursos relacionados ao canal para convidados por meio do**acesso de convidados**às configurações > de **toda a organização**, incluindo permitir que os convidados criem, atualizem e Exclua os canais, conforme mostrado na ilustração a seguir.
+Os proprietários da equipe podem convidar novos convidados e adicionar usuários convidados do diretório existente a suas equipes. Os proprietários da equipe podem identificar os usuários convidados por meio do **Teams** > **Teams**e definir recursos relacionados ao canal para convidados por meio do > **acesso de convidados**às **configurações de toda a organização**, incluindo permitir que os convidados criem, atualizem e Exclua os canais, conforme mostrado na ilustração a seguir.
 
 ![Configurações de permissões de convidado no Teams](media/manage-guest-access-image1.png)
   
@@ -54,11 +54,11 @@ Você também pode fazer uma crítica de acesso de convidado, pedir aos convidad
 
 As avaliações do Access estão disponíveis com a versão Premium P2 do Azure AD, que está incluída no Microsoft Enterprise Mobility + Security, e5. Para obter mais informações, consulte [edições do Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis). Cada usuário que interage com esse recurso criando uma revisão, preenchendo uma revisão ou confirmando o acesso dela deve ter uma licença.
 
-O Microsoft Teams não restringe o número de convidados que você pode adicionar. No entanto, o número total de convidados que podem ser adicionados ao seu locatário é baseado no que o licenciamento do AAD permite. Para obter mais informações, consulte licenciamento de [colaboração B2B do Azure ad](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance).
+O Microsoft Teams não restringe o número de convidados que você pode adicionar. No entanto, o número total de convidados que podem ser adicionados ao seu locatário é baseado no que o licenciamento do AAD permite. Para obter mais informações, consulte [Licenciamento de colaboração B2B do Azure ad](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance).
 
 ## <a name="guest-access-latencies"></a>Latências de acesso de convidado
 
-As configurações de convidado são definidas no Azure AD. Leva entre 2 e 24 horas para que as alterações entrem em vigor na sua organização do Office 365. Se um usuário vir a mensagem "entrar em contato com seu administrador" ao tentar adicionar um convidado à equipe, é provável que o recurso convidado ainda não tenha sido habilitado ou que as configurações ainda não sejam efetivadas.
+As configurações de convidado são definidas no Azure AD. Leva entre 2 e 24 horas para que as alterações entrem em vigor na sua organização do Office 365. Se um usuário vir a mensagem “Entre em contato com o seu administrador” ao tentar adicionar um convidado para a sua equipe, é provável que o recurso de convidado não tenha sido ativado ou as configurações ainda não entraram em vigor.
 
 ## <a name="more-information"></a>Mais informações
 

@@ -12,23 +12,22 @@ description: Saiba como usar o planejador de rede para determinar os requisitos 
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 f1keywords:
 - ms.teamsadmincenter.networkplanner.overview
 - ms.teamsadmincenter.networkplanner.personas
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69de49397baab5e1a9dc037799aa3ac5ba4f6421
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 2920f33417fa640b99a408441be6d3f49c3f078d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36484043"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573360"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Usar o planejador de rede para o Microsoft Teams
 
-O planejador de rede é uma nova ferramenta que está disponível no centro de administração do teams. Ele pode ser encontrado indo para >  **configurações de toda a organização**planejador de**rede**. Em apenas algumas etapas, o planejador de rede pode ajudá-lo a determinar e organizar os requisitos de rede para a conexão de usuários do Microsoft Teams em toda a sua organização. Quando você fornece os detalhes da rede e o uso das equipes, o planejador de rede calcula os requisitos de rede para a implantação de equipes e voz na nuvem nos locais físicos da sua organização.
+O planejador de rede é uma nova ferramenta que está disponível no centro de administração do teams. Ele pode ser encontrado indo para >  **configurações de toda a organização****planejador de rede**. Em apenas algumas etapas, o planejador de rede pode ajudá-lo a determinar e organizar os requisitos de rede para a conexão de usuários do Microsoft Teams em toda a sua organização. Quando você fornece os detalhes da rede e o uso das equipes, o planejador de rede calcula os requisitos de rede para a implantação de equipes e voz na nuvem nos locais físicos da sua organização.
 
 ![Captura de tela do planejador de rede](media/network-planner.png)
 
@@ -104,4 +103,4 @@ Depois de adicionar todos os sites, você pode criar um relatório da seguinte m
 
 ## <a name="example-scenario"></a>Cenário de exemplo
 
-Para obter um exemplo de como usar o planejador de rede para configurar um plano de rede e gerar um relatório usando essas etapas, baixe o conjunto do [PowerPoint de instruções](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) do planejador de rede (somente em inglês).
+Para obter um exemplo de como usar o planejador de rede para configurar um plano de rede e gerar um relatório usando essas etapas, baixe o conjunto do [PowerPoint de instruções do planejador de rede](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) (somente em inglês).

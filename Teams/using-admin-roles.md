@@ -9,7 +9,6 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 f1keywords:
 - ms.teamsadmincenter.errorpage.needadminpermsforadmincenter.assignadminrolesarticle
 - ms.teamsadmincenter.errorpage.needadminperms.assignadminrolesarticle
@@ -19,12 +18,12 @@ ms.reviewer: islubin
 description: Saiba como usar as diferentes funções administrativas para gerenciar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b0bc064e6f01b215f4af53a3e7cb51f2b529cd4a
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 89463b2bc36dc1886fdf595105290d67dcd10d66
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483875"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568584"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Usar funções de administrador do Microsoft Teams para gerenciar equipes
 
@@ -51,7 +50,7 @@ Há quatro funções de administração de equipes disponíveis: administrador d
 <!-- <sup>4</sup> Azure Active Directory admin center <<note that these are going to come later because they’re related to O365 Group management>> 
 <sup>5</sup> Microsoft 365 Admin Center <<note that these are going to come later because they’re related to O365 Group management>> 
 -->
-Para obter mais informações sobre as ferramentas de administração disponíveis para gerenciar o Microsoft Teams, consulte Gerenciando o [Microsoft Teams](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center).
+Para obter mais informações sobre as ferramentas de administração disponíveis para gerenciar o Microsoft Teams, consulte [Gerenciando o Microsoft Teams](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center).
 
 Para obter mais informações sobre limites, especificações e outros requisitos que se aplicam ao Teams, consulte [limites e especificações do Microsoft Teams](limits-specifications-teams.md).
 

@@ -1,5 +1,5 @@
 ---
-title: Disponibilidade de audioconferência e planos de chamadas por país e região
+title: Disponibilidade de Audioconferência e Planos de Chamadas por país e região
 ms.date: 03/18/2019
 ms.author: crowe
 author: CarolynRowe
@@ -11,7 +11,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-collaboration
 - M365-voice
 audience: Admin
 appliesto:
@@ -25,14 +25,14 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Você pode selecionar um país/região para ver se a conferência de áudio, o sistema de telefonia, os planos de chamada, os créditos de comunicações e os números de telefone de chamada tarifada estão disponíveis ou não.
-ms.openlocfilehash: 05e34a663e2c6e5ff4c2c0359bd0183d03caeb16
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: b4ff3d9a760587788a93c459c7888b1972579f89
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774648"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573080"
 ---
-# <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilidade de audioconferência e planos de chamadas por país e região
+# <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilidade de Audioconferência e Planos de Chamadas por país e região
 
 Você pode selecionar um país ou região para ver quais recursos de voz na nuvem estão disponíveis para sua organização.
 ***
@@ -44,7 +44,7 @@ Você pode selecionar um país ou região para ver quais recursos de voz na nuve
 > - [Austrália](availability-in-australia.md)
 > - [Áustria ](availability-in-austria.md)
 > - [Bahrein](availability-in-bahrain.md)
-> - [Bielorrússia ](availability-in-belarus.md)
+> - [Belarus](availability-in-belarus.md)
 > - [Bélgica ](availability-in-belgium.md)
 > - [Belize](availability-in-belize.md)
 > - [Benin](availability-in-benin.md)
@@ -83,13 +83,13 @@ Você pode selecionar um país ou região para ver quais recursos de voz na nuve
 > - [Itália](availability-in-italy.md)
 > - [Japão](availability-in-japan.md)
 > - [Jordânia](availability-in-jordan.md)
-> - [Cazaquistão](availability-in-kazakhstan.md)
+> - [Cazaquistão ](availability-in-kazakhstan.md)
 > - [Quênia](availability-in-kenya.md)
-> - [Kuaite](availability-in-kuwait.md)
+> - [Kuwait](availability-in-kuwait.md)
 > - [Letônia](availability-in-latvia.md)
 > - [Lituânia ](availability-in-lithuania.md)
 > - [Luxemburgo](availability-in-luxembourg.md)
-> - [Macedônia (ARIM)](availability-in-macedonia.md)
+> - [Macedônia do Norte](availability-in-macedonia.md)
 > - [Malásia](availability-in-malaysia.md)
 > - [Malta](availability-in-malta.md)
 > - [México](availability-in-mexico.md)

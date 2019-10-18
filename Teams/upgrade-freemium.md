@@ -14,16 +14,15 @@ localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 881437654744ef1d314f239ee98b7119e774cd00
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: fd0de5ba0901b77ef42e40ca0b18228d5d78e6fb
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236393"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568482"
 ---
 <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Atualizar o Microsoft Teams gratuitamente para a versão de assinatura do Office 365
 ======================================================
@@ -53,11 +52,11 @@ A versão completa do teams incluída em uma assinatura do Office 365 fornece os
 - OneDrive, SharePoint, Planner, Yammer e mais serviços do Office 365
 - 1 TB de armazenamento por usuário
 - Reuniões agendadas
-- Conferência de áudio
+- Audioconferência
 - Recursos avançados de segurança e conformidade, incluindo autenticação multifator, logon único e auditoria e relatórios avançados
 - Controles administrativos e recursos de suporte, incluindo suporte por telefone e Web de 24 x 7, ferramentas de administração para gerenciar usuários e aplicativos, relatório de uso dos serviços do Office 365, contrato de nível de serviço e políticas e configurações de usuário configuráveis
 
-Para obter uma comparação detalhada dos recursos do teams gratuito e do Teams, consulte [comparar planos](https://products.office.com/microsoft-teams/free)do teams.
+Para obter uma comparação detalhada dos recursos do teams gratuito e do Teams, consulte [comparar planos do teams](https://products.office.com/microsoft-teams/free).
 
 ## <a name="upgrade-requirements"></a>Requisitos de atualização
 
@@ -92,8 +91,8 @@ Após concluir a atualização, consulte [introdução ao Microsoft Teams](get-s
 
 ## <a name="more-information"></a>Mais informações
 
-- Para saber mais sobre as versões do Teams e seus recursos, consulte [comparar planos](https://products.office.com/microsoft-teams/free)do teams.
-- Para obter mais informações sobre como atualizar para a versão completa do Teams, consulte [Atualizar do teams gratuitamente para](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39)o Microsoft Teams.
+- Para saber mais sobre as versões do Teams e seus recursos, consulte [comparar planos do teams](https://products.office.com/microsoft-teams/free).
+- Para obter mais informações sobre como atualizar para a versão completa do Teams, consulte [Atualizar do teams gratuitamente para o Microsoft Teams](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39).
 - Para obter tarefas de administração adicionais associadas à atualização de usuários, incluindo a adição de licenças de usuário, a alteração de nomes de usuários e a atribuição de senhas temporárias, consulte [para administradores fazendo a atualização do teams gratuitamente para uma assinatura paga](https://support.office.com/article/for-admins-upgrading-from-teams-free-to-a-paid-subscription-75a95e7f-001e-42d0-a787-ae8b992d5a52).
 - Para obter informações sobre como gerenciar equipes grátis em sua organização, consulte [gerenciar a versão gratuita do Microsoft Teams](manage-freemium.md).
 

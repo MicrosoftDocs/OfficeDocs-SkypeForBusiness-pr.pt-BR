@@ -8,7 +8,8 @@ ms.topic: conceptual
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -18,12 +19,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom: Reporting
 description: Obtenha informações detalhadas sobre as dimensões e medidas usadas pelo painel de qualidade de chamada do Microsoft Teams e do Skype for Business online.
-ms.openlocfilehash: 7683ebdf4743db1ad8798817c24fe926bd959815
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 6dcbf7b415e2c337968e5c2c3af09efcb02be0a5
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328401"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572251"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Dimensões e medidas disponíveis no painel de qualidade da chamada
 
@@ -392,8 +393,7 @@ As informações de dimensões são baseadas em parte em dados carregados no por
 | Nome de produto do primeiro ponto de extremidade|Cadeia de caracteres|O nome do produto do primeiro ponto de extremidade (Skype for Business ou Microsoft Teams).|
 | Nome de produto do segundo ponto de extremidade|Cadeia de caracteres|O nome do produto do segundo ponto de extremidade (Skype for Business ou Microsoft Teams).|
 | Primeiro UserType|Cadeia de caracteres de enumeração|O tipo de usuário no primeiro ponto de extremidade. <br/> **Valores possíveis:** Usuário, servidor, anônimo, aplicativo, PSTN, correio de voz, desconhecido <br/> <br/>**Desconhecido** -o valor padrão se UserType não puder ser determinado com base nas informações recebidas. <br/>**PSTN** -um usuário PSTN. <br/>**Anônimo** -um usuário do teams ou um visitante do Skype for Business. <br/>**Aplicativo** -um bot. <br/>**Usuário** – um usuário do AAD pode ser usuário do Skype for Business ou do teams. <br/>**Servidor** – para conferências, pelo menos um lado é um servidor. <br/>**Correio de voz** -o ponto de extremidade foi atendido pelo serviço de correio de voz.||
-| Segundo UserType|Cadeia de caracteres de enumeração|O tipo de usuário no segundo ponto de extremidade. <br/> **Valores possíveis:** Usuário, servidor, anônimo, aplicativo, PSTN, correio de voz, desconhecido <br/> <br/>**Desconhecido** -o valor padrão se UserType não puder ser determinado com base nas informações recebidas. <br/>**PSTN** -um usuário PSTN. <br/>**Anônimo** -um usuário do teams ou um visitante do Skype for Business. <br/>**Aplicativo** -um bot. <br/>**Usuário** – um usuário do AAD pode ser usuário do Skype for Business ou do teams. <br/>**Servidor** – para conferências, pelo menos um lado é o servidor.
-<br/>**Correio de voz** -o ponto de extremidade foi respondido pelo serviço de correio de voz.||
+| Segundo UserType|Cadeia de caracteres de enumeração|O tipo de usuário no segundo ponto de extremidade. <br/> **Valores possíveis:** Usuário, servidor, anônimo, aplicativo, PSTN, correio de voz, desconhecido <br/> <br/>**Desconhecido** -o valor padrão se UserType não puder ser determinado com base nas informações recebidas. <br/>**PSTN** -um usuário PSTN. <br/>**Anônimo** -um usuário do teams ou um visitante do Skype for Business. <br/>**Aplicativo** -um bot. <br/>**Usuário** – um usuário do AAD pode ser usuário do Skype for Business ou do teams. <br/>**Servidor** – para conferências, pelo menos um lado é o servidor. <br/>**Correio de voz** -o ponto de extremidade foi respondido pelo serviço de correio de voz.||
 |**Par de datapair**|||
 | Par de detalhes de conexão de rede  | Par enumerado <br/>**Valores possíveis:** <br/> WiFi: WiFi <br/> WiFi: com fio <br/> Com fio: WiFi <br/> Wired: Wired <br/> MobileBB : MobileBB <br/> MobileBB: outro <br/> MobileBB: Tunnel <br/> MobileBB: WiFi <br/> MobileBB: Wired <br/> Outros: outros <br/> Outros: WiFi <br/> Outros: com fio <br/> Tunnel: Tunnel <br/> Tunnel: WiFi <br/> Tunnel: Wired <br/> : MobileBB <br/> : Outros <br/> : Tunnel <br/> : WiFi <br/> : Com fio <br/> :  | Par de detalhes de conexão de rede para o primeiro e o segundo pontos de extremidade.  | &bull;Tipo de conectividade de rede de ponto de extremidade desconhecido. Isso pode acontecer se não foi possível estabelecer a chamada.   |
 | Par de categorias de agente do usuário  | Par enumerado  | Par da categoria do agente do usuário para o primeiro e o segundo pontos de extremidade. <br/> **Valor de exemplo:** AV-MCU: OC  | &bull;O agente de usuário da empresa não era um tipo conhecido  |

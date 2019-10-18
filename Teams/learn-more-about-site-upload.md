@@ -1,5 +1,5 @@
 ---
-title: Adicionar e atualizar rótulos de relatório
+title: Adicionar e atualizar rótulos de relatórios
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
@@ -10,7 +10,6 @@ ms.reviewer: ''
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Saiba como carregar um arquivo de texto que contém uma lista de locais físicos e sub-redes associadas para usar como rótulos de relatório para relatórios de análise de chamada e de painel de qualidade de chamada.
 ms.custom:
@@ -21,14 +20,14 @@ f1keywords:
 - ms.teamsadmincenter.locations.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a876e6b007674aba9e0132005a57913c38f3297
-ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
+ms.openlocfilehash: 0519af0f9c26260f23e2a0dd9b0c60a676aa5766
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37396427"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572031"
 ---
-<a name="add-and-update-reporting-labels"></a>Adicionar e atualizar rótulos de relatório
+<a name="add-and-update-reporting-labels"></a>Adicionar e atualizar rótulos de relatórios
 ============================
 
 Os rótulos de relatório são usados em sua organização para indicar os locais físicos de escritórios, prédios ou sites organizacionais. A página de etiquetas de relatório no centro de administração do Microsoft Teams permite que você forneça um arquivo de texto (. csv ou. tsv) que contém uma lista de locais físicos e suas sub-redes de rede associadas. Esse arquivo é usado pelo painel de análise de chamadas e de qualidade de chamada para gerar relatórios. Quando você carregar o mapeamento de sub-rede, os relatórios fornecidos por esses serviços também conterão os nomes de localização, facilitando a compreensão e o uso dos relatórios para corrigir problemas em potencial.

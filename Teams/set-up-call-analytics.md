@@ -9,8 +9,7 @@ ms.assetid: fbf7247a-84ae-46cc-9204-2c45b1c734cd
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Configurar e usar a análise de chamadas para identificar e solucionar problemas de qualidade de chamada do Skype for Business e do Microsoft Teams.
-ms.openlocfilehash: 51f28b402fea69f0e5033954018a5f67bf6c90d6
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 7a91bc0d8503d313ae3b3dfa7ddd32b6a8c5207a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432773"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571244"
 ---
 # <a name="set-up-call-analytics"></a>Configurar Análise de Chamada
 
@@ -54,7 +53,7 @@ Como administrador, você tem acesso total a todos os recursos do recurso de an�
 > [!NOTE]
 > A função de especialista de suporte de comunicações é equivalente ao suporte de nível 1 e a função de engenheiro de suporte de comunicações equivale ao suporte de nível 2.
 
-Para obter mais informações sobre as funções de administração do Teams, consulte [usar funções de administrador do Microsoft Teams para gerenciar](using-admin-roles.md)o Teams. 
+Para obter mais informações sobre as funções de administração do Teams, consulte [usar funções de administrador do Microsoft Teams para gerenciar o Teams](using-admin-roles.md). 
   
 Especialistas de suporte de comunicações lidam com problemas básicos de qualidade de chamada. Eles não investigam problemas com reuniões. Em vez disso, eles coletam informações relacionadas e encaminham para um engenheiro de suporte de comunicações. Engenheiros de suporte a comunicações consulte informações em logs de chamadas detalhados que estão ocultos a especialistas de suporte de comunicações. A tabela a seguir fornece uma visão geral das informações disponíveis para especialistas de suporte de comunicações e engenheiros de suporte de comunicações quando eles usam a análise de chamadas.
 
@@ -81,11 +80,11 @@ Para saber como atribuir funções administrativas no Azure Active Directory, co
 
 Você pode adicionar informações de construção, site e locatário para fazer uma chamada de análise para fazer o upload de um arquivo. csv ou. TSV. Com todas essas informações, a análise de chamadas pode mapear endereços IP para locais físicos. Os agentes da assistência técnica ou da assistência técnica podem encontrar essas informações úteis para ajudar a identificar tendências em problemas com chamadas. Por exemplo, por que muitos usuários na mesma criação têm problemas de qualidade de chamada semelhantes? 
 
-Se você for um administrador do Teams e do Skype for Business, poderá usar um arquivo de dados existente do painel do teams & de qualidade de chamada do Skype for Business. Primeiro, baixe o arquivo do painel de qualidade de chamada e, em seguida, carregue-o para a análise de chamadas. 
+Se você é um administrador do Teams e do Skype for Business, pode usar um arquivo de dados existente do teams & painel de qualidade de chamada do Skype for Business. Primeiro, baixe o arquivo do painel de qualidade de chamada e, em seguida, carregue-o para a análise de chamadas. 
 
 - Para baixar um arquivo de dados existente, acesse o > **painel** > de qualidade de chamada **do centro de administração do Microsoft Teams****agora**. Na lista **meus uploads** , clique em **baixar** ao lado do arquivo desejado.
 
-- Para carregar o novo arquivo, vá para**locais**do **Centro** > de administração do Microsoft Teams e, em seguida, selecione **carregar dados de localização** ou **substituir dados de localização**.
+- Para carregar o novo arquivo, vá para > **locais**do **centro de administração do Microsoft Teams**e, em seguida, selecione **carregar dados de localização** ou **substituir dados de localização**.
   
 Se você estiver criando o arquivo. tsv ou. csv do zero, consulte [formato de arquivo de dados locatários e estrutura de arquivo de dados de construção](turning-on-and-using-call-quality-dashboard.md#BKMKTenantDataFile).
   

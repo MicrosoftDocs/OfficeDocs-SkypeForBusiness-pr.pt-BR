@@ -11,17 +11,14 @@ audience: admin
 description: Coletar comentários dos usuários para melhorar a implementação de voz em nuvem no Microsoft Teams ou no Skype for Business.
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c0a18f82eebb926792e7c3450ef1db1eb9f2fad
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4690321129ef9b57e70ec497161acd863f061ef9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232849"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567675"
 ---
 # <a name="user-feedback-surveys"></a>Pesquisas de comentários do usuário 
 
@@ -58,13 +55,13 @@ Se você escolheu **um pouco discordo** ou **discordo completamente** para qualq
 
 Qual é a probabilidade de você recomendar o uso do teams como um telefone para um amigo ou colega? (0 = nada provável... 10 = extremamente provável)
 
-| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 08 | 222 | 254 |
+| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 254 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 
 Qual é a probabilidade de você recomendar o seu dispositivo de telefone para um amigo ou colega? (0 = nada provável... 10 = extremamente provável)  
 
-| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 08 | 222 | 254 |
+| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 254 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 

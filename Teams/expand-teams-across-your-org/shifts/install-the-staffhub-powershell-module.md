@@ -11,21 +11,21 @@ search.appverid: MET150
 description: Saiba como instalar e se conectar à versão de pré-lançamento do módulo do PowerShell do Microsoft StaffHub.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
+- Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80f8f586d8a2a41d0d716e0821eb1f6d8d4bcbee
-ms.sourcegitcommit: 6ba9eeb81b7d55ffc319d6d6658d0ecac83c2159
+ms.openlocfilehash: aa7f84342b2d4ae16cf801be513e1ae9d6440802
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37142029"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569205"
 ---
 # <a name="install-the-microsoft-staffhub-powershell-module"></a>Instalar o módulo PowerShell do Microsoft PowerHub
 
 > [!IMPORTANT]
-> A partir de 1 ° de outubro de 2019, o Microsoft StaffHub será desativado. Estamos criando recursos de StaffHub no Microsoft Teams. Hoje, o Teams inclui o aplicativo turnos para gerenciamento de agendamento e recursos adicionais se acumularão ao longo do tempo. O StaffHub deixará de funcionar para todos os usuários em 1 ° de outubro de 2019. Qualquer pessoa que tentar abrir o StaffHub será exibida uma mensagem direcionando-o para o download do teams. Para saber mais, confira [Microsoft StaffHub para ser desativado](microsoft-staffhub-to-be-retired.md).  
+> A partir de 31 de dezembro de 2019, o Microsoft StaffHub será desativado. Estamos criando recursos de StaffHub no Microsoft Teams. Hoje, o Teams inclui o aplicativo turnos para gerenciamento de agendamento e recursos adicionais se acumularão ao longo do tempo. O StaffHub deixará de funcionar para todos os usuários em 31 de dezembro de 2019. Qualquer pessoa que tentar abrir o StaffHub será exibida uma mensagem direcionando-o para o download do teams. Para saber mais, confira [Microsoft StaffHub para ser desativado](microsoft-staffhub-to-be-retired.md).  
 
 Use as etapas neste artigo para instalar e se conectar à versão de pré-lançamento do módulo Microsoft StaffHub PowerShell. Você precisará disso para [mover suas equipes do StaffHub para o Microsoft Teams](move-staffhub-teams-to-shifts-in-teams.md).
 
@@ -62,4 +62,4 @@ Use as etapas neste artigo para instalar e se conectar à versão de pré-lança
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Referência do Microsoft StaffHub PowerShell](https://docs.microsoft.com/en-us/powershell/module/staffhub/?view=staffhub-ps)
-- [Mova as suas equipes do Microsoft StaffHub para Turnos no Teams](move-staffhub-teams-to-shifts-in-teams.md)
+- [Mova as suas equipes do Microsoft StaffHub para o Shifts no Teams](move-staffhub-teams-to-shifts-in-teams.md)

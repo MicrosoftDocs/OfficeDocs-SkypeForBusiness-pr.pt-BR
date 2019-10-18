@@ -12,16 +12,15 @@ description: Guia para analisar o desempenho de mídia em tempo real do Microsof
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba3ff4eca48ea8f64f6d50d647c05af4f2c76c1e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 141527e7decdfec2b1070cfdd41897f38a63a458
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243726"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568373"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guia de revisão da experiência de qualidade
 
@@ -33,7 +32,7 @@ Este guia se refere à fase valor do drive do Microsoft Teams e do Skype for Bus
 Para ter o maior impacto para melhorar a experiência do usuário, as organizações precisam fazer a operação de áreas importantes que são mostradas na figura a seguir. As áreas adicionais incluem a identificação de tarefas operacionais, o estabelecimento de destinos para métricas de qualidade, a tarefa de garantir que as métricas sejam usadas para medir o sucesso organizacional e a limitação de áreas de investigação conforme necessário.
 
 
-![Áreas chave para a qualidade da experiência do usuário] (media/qerguide-image-keyareas.png "As áreas chave para a qualidade da experiência do usuário incluem áudio, confiabilidade, pesquisas de usuários, dispositivos e clientes.")
+![Áreas chave para a qualidade da experiência do usuário](media/qerguide-image-keyareas.png "As áreas chave para a qualidade da experiência do usuário incluem áudio, confiabilidade, pesquisas de usuários, dispositivos e clientes.")
 
 _Figura 1: principais áreas operacionais abordadas em todo este guia_
 
@@ -82,7 +81,7 @@ Como alternativa, você pode atribuir a função a seguir a uma conta de usuári
 Ao discutir qualidade no Teams e no Skype for Business, é importante definir o termo para obter uma compreensão comum. Qualidade, conforme definido aqui, é uma combinação de métricas de serviço e experiência do usuário.
 
 <!-- Note: need to update graphic-->
-![Ilustração de métricas de serviço e experiência do usuário] (media/qerguide-image-whatisquality.png "As métricas do serviço são formadas por baixa taxa de fluxo, confiabilidade, pontos de extremidade/dispositivos e versões de cliente. A experiência do usuário é composta pela percepção do usuário sobre a qualidade do serviço.")
+![Ilustração de métricas de serviço e experiência do usuário](media/qerguide-image-whatisquality.png "Sas métricas ervice são formadas por baixa taxa de fluxo, confiabilidade, pontos de extremidade/dispositivos e versões de cliente. A experiência do usuário é composta pela percepção do usuário sobre a qualidade do serviço. ")
 
 _Figura 2: o que é a qualidade?_
 
@@ -215,7 +214,7 @@ O sucesso da operação em uma implantação de alta qualidade e confiabilidade 
 
     -   Segundo estão as tarefas que sua organização deve gerenciar para garantir o acesso confiável ao serviço, como a atualização de informações de construção e a manutenção de firewalls de novos endereços IP do Office 365 à medida que a infraestrutura é adicionada ao serviço.
 
-![Gráfico das categorias de qualidade em uma organização] (media/qerguide-image-categories.png "As categorias de qualidade em uma organização: gerenciamento de serviços, pontos de extremidade e rede.")
+![Gráfico das categorias de qualidade em uma organização](media/qerguide-image-categories.png "As categorias de qualidade em uma organização: gerenciamento de serviços, pontos de extremidade e rede.")
 
 _Figura 3: categorias essenciais para o Teams e implantação do Skype for Business Online_
 
@@ -224,7 +223,7 @@ O gráfico a seguir descreve as tarefas que você deve executar em cada categori
 Na primeira vez que você executar essas tarefas, você terá mais esforço do que as iterações subsequentes, pois muitas dessas categorias exigem que você valide as configurações de implantação. Depois de alcançar o estado desejado ao atender os destinos que você definiu, a execução dessas tarefas vai ajudá-lo a manter esse estado.
 
 <!--  This is a net new graphic, never was included in the online article. OOPS! -->
-![Lista de tarefas semanais por categoria de qualidade] (media/qerguide-image-tasks.png "Lista de tarefas semanais por categoria de qualidade")
+![Lista de tarefas semanais por categoria de qualidade](media/qerguide-image-tasks.png "List de tarefas semanais por categoria de qualidade ")
 
 #### <a name="service-management-tasks"></a>Tarefas de gerenciamento de serviço
 
@@ -295,7 +294,7 @@ _Figura 4-categorias de relatórios do CQD_
 
 Os relatórios resumidos são divididos em quatro categorias:
 
--   Os **relatórios** resumidos se concentram em analisar tendências de qualidade com relatórios diários, mensais e de tabela para ajudar a identificar sub-redes com baixa qualidade. Esta é a página de destino padrão quando você entra pela primeira vez no CQD online.
+-   Os **relatórios resumidos** se concentram em analisar tendências de qualidade com relatórios diários, mensais e de tabela para ajudar a identificar sub-redes com baixa qualidade. Esta é a página de destino padrão quando você entra pela primeira vez no CQD online.
 -   **Local-os relatórios avançados** se concentram em analisar tendências de qualidade com base nas informações de localização. Para usar esses relatórios, você deve ter carregado um arquivo de construção.
 -   Os **relatórios de confiabilidade** se concentram em analisar as tendências de confiabilidade de áudio, vídeo, compartilhamento de tela baseado em vídeo (vBSS) e compartilhamento de aplicativos.
 -   Os **relatórios de qualidade da experiência** são uma versão "reduzida" dos modelos detalhados do qer, com foco em áreas essenciais para a análise da qualidade e da confiabilidade do áudio.
@@ -394,7 +393,7 @@ _Figura 6: adicionando um filtro do Microsoft Teams a um relatório_
 Por padrão, todos os pontos de extremidade no CQD são classificados como externos. Assim que um arquivo de criação é introduzido, podemos começar a examinar dados de ponto de extremidade gerenciados. Conforme discutido anteriormente, as redes no CQD são definidas como:
 
 -   Uma _rede gerenciada_, geralmente conhecida como interna ou interna, pode ser influenciada e controlada pela organização. Isso inclui a LAN interna, a WAN remota e a VPN.
--   Uma _rede_não gerenciada, muitas vezes conhecida como externa ou externa, não pode ser influenciada ou controlada pela organização. Um exemplo de uma rede não gerenciada é uma rede de Hotel ou aeroporto.
+-   Uma _rede não gerenciada_, muitas vezes conhecida como externa ou externa, não pode ser influenciada ou controlada pela organização. Um exemplo de uma rede não gerenciada é uma rede de Hotel ou aeroporto.
 
 ### <a name="dimensions-measures-and-filters"></a>Dimensões, medidas e filtros
 
@@ -475,20 +474,20 @@ Você pode acessar o CQD de uma destas três maneiras:
 
 -   Vá para **centro de administração do Microsoft Teams** e selecione o link para CQD, conforme mostrado na ilustração a seguir.
 
-![Captura de tela do painel de qualidade da chamada selecionado.] (media/qerguide-image-mopo.png "No painel de navegação à esquerda, o link para o painel de qualidade de chamada é selecionado.")
+![Captura de tela do painel de qualidade da chamada selecionado.](media/qerguide-image-mopo.png "No painel de navegação à esquerda, o link para o painel de qualidade de chamada é selecionado.")
 
 _Figura 7 – acessando o CQD por meio do centro de administração do Microsoft Teams_
 
 -   Vá para as > **ferramentas**herdadas do **centro de administração do Skype for Business**e selecione o link para CQD, conforme mostrado na ilustração a seguir.
 
-![Captura de tela de CQD selecionada no painel principal.] (media/qerguide-image-legacyui.png "Ferramentas está selecionada no painel de navegação à esquerda e o link para CQD está selecionado no painel principal.")
+![Captura de tela de CQD selecionada no painel principal.](media/qerguide-image-legacyui.png "Ferramentas está selecionada no painel de navegação à esquerda e o link para CQD está selecionado no painel principal.")
 
 _Figura 8-acessando o CQD por meio do centro de administração do Skype for Business_
 
 
 ### <a name="getting-started"></a>Introdução
 
-Ao navegar pela primeira vez para CQD, você verá a página relatórios de resumo. A maioria dos relatórios descritos neste guia são relatórios detalhados personalizados. Para começar a usar os relatórios detalhados, selecione **relatórios** resumidos na parte superior da página e, em seguida, escolha **relatórios detalhados**.
+Ao navegar pela primeira vez para CQD, você verá a página relatórios de resumo. A maioria dos relatórios descritos neste guia são relatórios detalhados personalizados. Para começar a usar os relatórios detalhados, selecione **relatórios resumidos** na parte superior da página e, em seguida, escolha **relatórios detalhados**.
 
 ![Captura de tela mostrando tipos de relatórios disponíveis no CQD](media/qerguide-image-choosereports.png)
 
@@ -500,10 +499,10 @@ A página relatórios detalhados no CQD é semelhante à ilustração a seguir.
 
 |             |           |
 | ------------|-----------|
-| ![Ícone do número 1, fazendo referência a um texto explicativo na captura de tela anterior] (media/qerguide-image-callout1.png "um") | O painel Resumo mostra o contexto para o conjunto de relatórios que aparece à direita. |
-| ![Ícone do número 2, fazendo referência a um texto explicativo na captura de tela anterior] (media/qerguide-image-callout2.png "duas") | Você pode selecionar **Editar** no painel Resumo para definir as propriedades de nível de relatório (incluindo a altura do eixo y) e para importar novos modelos. |
-| ![Ícone do número 3, fazendo referência a um texto explicativo na captura de tela anterior] (media/qerguide-image-callout3.png "três") | O breadcrumb ajuda os usuários a identificar sua localização atual na hierarquia de conjuntos de relatórios. |
-| ![Ícone do número 4, fazendo referência a um texto explicativo na captura de tela anterior] (media/qerguide-image-callout4.png "quatro") | Os relatórios que têm relatórios secundários são mostrados com um link azul. Ao selecionar o link, você pode fazer uma busca detalhada nos relatórios filho. |
+| ![Ícone do número 1, fazendo referência a um texto explicativo na captura de tela anterior](media/qerguide-image-callout1.png "alguma") | O painel Resumo mostra o contexto para o conjunto de relatórios que aparece à direita. |
+| ![Ícone do número 2, fazendo referência a um texto explicativo na captura de tela anterior](media/qerguide-image-callout2.png "cauda") | Você pode selecionar **Editar** no painel Resumo para definir as propriedades de nível de relatório (incluindo a altura do eixo y) e para importar novos modelos. |
+| ![Ícone do número 3, fazendo referência a um texto explicativo na captura de tela anterior](media/qerguide-image-callout3.png "seguintes") | O breadcrumb ajuda os usuários a identificar sua localização atual na hierarquia de conjuntos de relatórios. |
+| ![Ícone do número 4, fazendo referência a um texto explicativo na captura de tela anterior](media/qerguide-image-callout4.png "quatro") | Os relatórios que têm relatórios secundários são mostrados com um link azul. Ao selecionar o link, você pode fazer uma busca detalhada nos relatórios filho. |
 
 _Figura 10-página relatórios detalhados_
 
@@ -517,10 +516,10 @@ Ao selecionar **Editar** no menu de ação de um relatório, você abrirá o edi
 
 |             |           |
 | ------------|-----------|
-| ![Ícone do número 1, fazendo referência a um texto explicativo na captura de tela anterior] (media/qerguide-image-callout1.png "um") | Escolha dimensões, medidas e filtros no painel esquerdo. A apontar para um valor existente exibe um botão fechar (**X**) você pode selecionar para remover o valor.<ul><li>Ao selecionar a dimensão ou medida, você pode alterar o título editando o campo de **título** . Você também pode alterar a ordem selecionando as setas azuis para cima ou para baixo no painel superior.</li><li>Selecionar (**+**) ao lado de um título abre a caixa de diálogo para adicionar uma nova dimensão, medida ou filtro.</li><li>Insira as primeiras letras da dimensão, medida ou filtro no campo **localizar um** para filtrar a lista para facilitar a pesquisa.</li></ul> |
-| ![Ícone do número 2, fazendo referência a um texto explicativo na captura de tela anterior] (media/qerguide-image-callout2.png "duas") | O painel superior mostra opções para personalização do gráfico. |
-| ![Ícone do número 3, fazendo referência a um texto explicativo na captura de tela anterior] (media/qerguide-image-callout3.png "três") | O editor de consultas mostra uma visualização do relatório. |
-| ![Ícone do número 4, fazendo referência a um texto explicativo na captura de tela anterior] (media/qerguide-image-callout4.png "quatro") | Use a caixa **Editar** na parte inferior da tela para criar ou editar uma descrição detalhada do relatório. |
+| ![Ícone do número 1, fazendo referência a um texto explicativo na captura de tela anterior](media/qerguide-image-callout1.png "alguma") | Escolha dimensões, medidas e filtros no painel esquerdo. A apontar para um valor existente exibe um botão fechar (**X**) você pode selecionar para remover o valor.<ul><li>Ao selecionar a dimensão ou medida, você pode alterar o título editando o campo de **título** . Você também pode alterar a ordem selecionando as setas azuis para cima ou para baixo no painel superior.</li><li>Selecionar (**+**) ao lado de um título abre a caixa de diálogo para adicionar uma nova dimensão, medida ou filtro.</li><li>Insira as primeiras letras da dimensão, medida ou filtro no campo **localizar um** para filtrar a lista para facilitar a pesquisa.</li></ul> |
+| ![Ícone do número 2, fazendo referência a um texto explicativo na captura de tela anterior](media/qerguide-image-callout2.png "cauda") | O painel superior mostra opções para personalização do gráfico. |
+| ![Ícone do número 3, fazendo referência a um texto explicativo na captura de tela anterior](media/qerguide-image-callout3.png "seguintes") | O editor de consultas mostra uma visualização do relatório. |
+| ![Ícone do número 4, fazendo referência a um texto explicativo na captura de tela anterior](media/qerguide-image-callout4.png "quatro") | Use a caixa **Editar** na parte inferior da tela para criar ou editar uma descrição detalhada do relatório. |
 
 _Figura 11-editor de consulta_
 
@@ -603,7 +602,7 @@ Este guia inclui [dois modelos de CQD organizadas](https://aka.ms/qertemplates).
 
 5. Após o carregamento do modelo, uma janela pop-up exibirá a mensagem "relatório de importação foi bem-sucedido". Selecione **OK.**
 
-   ![Captura de tela de uma notificação de importação bem-sucedida] (media/qerguide-image-importmessage.png "Notificação de que o modelo foi importado com êxito")
+   ![Captura de tela de uma notificação de importação bem-sucedida](media/qerguide-image-importmessage.png "Notificação de que o modelo foi importado com êxito")
 
 6. Repita as etapas 4 e 5 para o segundo modelo CQD.
 
@@ -708,7 +707,7 @@ Os dados de qualidade da experiência (QoE) que os clientes enviam para o Office
 
 ### <a name="uploading-building-information"></a>Carregando informações de construção
 
-O painel relatórios de resumo CQD inclui uma página de **carregamento de dados** de locatários, acessada selecionando a marca link de **carregamento de dados do locatário** no canto superior direito (procure o ícone de engrenagem). Esta página é usada para os administradores carregarem suas próprias informações, como o mapeamento de endereços IP e informações geográficas, o mapeamento de cada ponto de acesso sem fio e seu endereço MAC e assim por diante.
+O painel relatórios de resumo CQD inclui uma página de **carregamento de dados de locatários** , acessada selecionando a marca link de **carregamento de dados do locatário** no canto superior direito (procure o ícone de engrenagem). Esta página é usada para os administradores carregarem suas próprias informações, como o mapeamento de endereços IP e informações geográficas, o mapeamento de cada ponto de acesso sem fio e seu endereço MAC e assim por diante.
 
 1. Acesse CQD online navegando até <https://cqd.lync.com>.
 
@@ -1315,11 +1314,11 @@ A qualidade da mídia em tempo real (compartilhamento de áudio, vídeo e aplica
 
 _Tabela 12-requisitos de desempenho de rede_
 
-| Indicador                            | Cliente para Microsoft Edge           | Borda do cliente ao Microsoft Edge    |
+| Indicador                            | Cliente para o Microsoft Edge           | Edge do cliente para o Microsoft Edge    |
 |-----------------------------------|------------------------------------|------------------------------------|
-| Latência (de uma maneira)                 | \<50 ms                            | \<30 ms                            |
+| Latência (unidirecional)                 | \<50 ms                            | \<30 ms                            |
 | Latência (RTT ou tempo de viagem de ida e volta) | \<100 ms                           | \<60 MS                            |
-| Perda de pacote intermitente                 | \<10% durante qualquer 200-MS Interval   | \<1% durante qualquer 200-MS Interval    |
+| Perda de pacote de intermitência                 | \<10% durante qualquer 200-MS Interval   | \<1% durante qualquer 200-MS Interval    |
 | Perda de pacote                       | \<1% durante qualquer intervalo de 15 segundos    | \<0,1% durante qualquer intervalo de 15 segundos  |
 | Tremulação entre entradas do pacote       | \<30 ms durante qualquer intervalo de 15 segundos | \<15 MS durante qualquer intervalo de 15 segundos |
 | Reordenação de pacotes                    | \<0, 5% de pacotes fora da ordem       | \<0, 1% de pacotes fora da ordem      |

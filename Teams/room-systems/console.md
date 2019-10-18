@@ -9,17 +9,16 @@ ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
 ms.collection:
-- Strat_SB_Admin
-- M365-voice
+- M365-collaboration
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Este artigo descreve como configurar o console de salas do Microsoft Teams e seus periféricos.
-ms.openlocfilehash: 820921cdcf35f4c4072dae3b2029527b98454dc5
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: f42f89d25a58ce96308318cc732e85f7080b86e5
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493049"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569902"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Configurar um console de salas do Microsoft Teams
 
@@ -62,7 +61,7 @@ O script CreateSrsMedia. ps1 automatiza as seguintes tarefas:
 3. Baixe os componentes de suporte necessários.
 4. Monte os componentes necessários na mídia de instalação.
 
-Uma versão específica do Windows 10 é necessária, e essa versão só está disponível para clientes de licenciamento por volume.  Você pode obter uma cópia do [centro de serviços](https://www.microsoft.com/Licensing/servicecenter/)de licenciamento por volume.
+Uma versão específica do Windows 10 é necessária, e essa versão só está disponível para clientes de licenciamento por volume.  Você pode obter uma cópia do [centro de serviços de licenciamento por volume](https://www.microsoft.com/Licensing/servicecenter/).
 
 Quando terminar, remova o disco USB do computador e prossiga para [instalar o Windows 10 e o aplicativo de console de salas do Microsoft Teams](console.md#Reimage).
 

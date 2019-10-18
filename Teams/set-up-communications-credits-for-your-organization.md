@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: f19f51662a2a954b268a6c36f6c9dc0b4b90fdd8
-ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
+ms.openlocfilehash: f1eb46647facce3a849a249cac1b26b2bb9632c8
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/25/2019
-ms.locfileid: "35861836"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571577"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de Comunicação para sua organização
 
@@ -70,7 +69,7 @@ Para obter mais informações, consulte [Licenciamento de Complementos do Micros
     
      É recomendável que você use a configuração de **recarga automática** para evitar qualquer interrupção do serviço caso o saldo dos créditos de comunicações atinja 0 (zero). Você receberá um email quando o recarregamento das transações for bem-sucedido, quando o recarregamento de transações falhar (como um cartão de crédito expirado) e quando o saldo dos créditos de comunicações atingir 0 (zero).
     
-   - **Valor** da recarga Digite o valor na caixa **recarregar com** que você deseja adicionar à sua conta quando ele atingir o valor de gatilho abaixo.
+   - **Valor da recarga** Digite o valor na caixa **recarregar com** que você deseja adicionar à sua conta quando ele atingir o valor de gatilho abaixo.
     
    - **Valor do gatilho** Digite o valor de **quando o saldo ficar abaixo** de a caixa que será usada para ' *disparar* ' a recarga automática. Quando o saldo ficar abaixo desse valor, o valor da recarga será adicionado automaticamente à sua conta.
 
@@ -91,7 +90,7 @@ Ao configurar créditos de comunicações, você precisará investigar o uso da 
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Na navegação à esquerda do centro de administração do Microsoft 365, vá **** > para usuários**ativos**do usuário e selecione um ou mais usuários na lista.
+2. Na navegação à esquerda do centro de administração do Microsoft 365, vá **para** > usuários**ativos**do usuário e selecione um ou mais usuários na lista.
     
 3. No painel Ação em **Licenças de**, clique em **Editar**.
     
@@ -110,9 +109,9 @@ Você pode ver os planos e preços visitando um dos seguintes links:
     
 - [Planos de sistema telefônico](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-Você também pode ver as informações conectando- [se ao centro de administração do Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e indo fazer assinaturas de **cobrança** > **** > **adicionar assinaturas**.
+Você também pode ver as informações conectando- [se ao centro de administração do Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e indo**fazer assinaturas de** >  **cobrança** > **adicionar assinaturas**.
   
-Para ver uma tabela com as licenças ou licenças necessárias para cada recurso, consulte licenciamento [de Complementos do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Para ver uma tabela com as licenças ou licenças necessárias para cada recurso, consulte [Licenciamento de Complementos do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## <a name="related-topics"></a>Tópicos relacionados
 

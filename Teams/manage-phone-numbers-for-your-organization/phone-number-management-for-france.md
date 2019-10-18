@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Use esta tabela para encontrar informações sobre como obter e gerenciar números de telefone na França para Microsoft Teams.
-ms.openlocfilehash: 7f704ba5d76e756afdaa386937a1075a7b82cf12
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 822d577086ca6c941431ebc48d6b8b8be5c4aa5a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347840"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571973"
 ---
 # <a name="phone-number-management-for-france"></a>Gerenciamento de números de telefone para a França
 

@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para as Filipinas.
-ms.openlocfilehash: fddf9dcfdf8686feac7568e711ca24297ff58d5b
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: a32517f2de48d345d723521142a051f6af8c7d4f
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331064"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570934"
 ---
 # <a name="availability-in-the-philippines"></a>Disponibilidade nas Filipinas
 

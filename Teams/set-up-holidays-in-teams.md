@@ -9,21 +9,19 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
-- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: ms.teamsadmincenter.orgwidesettings.holidays.overview
 description: Saiba como configurar feriados no Microsoft Teams e conectá-los ao atendedor automático.
-ms.openlocfilehash: ae960cddb2c5e8d590e5eb73d9f0763dacd582b6
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: ee07b33325ee436f6f0397a30034f40db819be09
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483249"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571563"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Configurar feriados no Microsoft Teams
 
@@ -73,17 +71,17 @@ Para obter mais informações sobre atendedores automáticos, consulte [o que s�
 
 ## <a name="connect-a-holiday-to-an-auto-attendant"></a>Conectar um feriado a um atendedor automático
 
-1. No centro de administração do Microsoft Teams, acesse atendedores automáticos de **voz** > ****.
+1. No centro de administração do Microsoft Teams, acesse**atendedores automáticos**de **voz** > .
 2. Selecione uma conta de recurso na lista.
 3. No painel esquerdo, selecione **configurações de chamadas de Natal**.
 4. Selecione **novo feriado**.
 5. Selecione o feriado na lista suspensa.
 6. Você pode adicionar uma saudação opcional:
     - Para reproduzir uma saudação gravada, selecione **executar um arquivo de áudio**e, em seguida, selecione **carregar arquivo**. Navegue até o local do arquivo de áudio, selecione o arquivo e, em seguida, selecione **abrir**.
-    - Para criar uma saudação, selecione **digitar uma mensagem**de saudação e, em seguida, digite sua mensagem. Os chamadores ouvirão essa mensagem se você não tiver fornecido um arquivo de áudio.
-7. Para encerrar a chamada após a saudação, em **ações**, **** selecione desconectar. 
+    - Para criar uma saudação, selecione **digitar uma mensagem de saudação**e, em seguida, digite sua mensagem. Os chamadores ouvirão essa mensagem se você não tiver fornecido um arquivo de áudio.
+7. Para encerrar a chamada após a saudação, em **ações**, selecione **Desconectar**. 
 
-    Para redirecionar a chamada, selecione redirecionar **chamada**e, em seguida, selecione a pessoa que receberá a chamada redirecionada na lista suspensa ou procure a pessoa por nome para exibição.
+    Para redirecionar a chamada, selecione **redirecionar chamada**e, em seguida, selecione a pessoa que receberá a chamada redirecionada na lista suspensa ou procure a pessoa por nome para exibição.
 8. Selecione **salvar**.
 
 ## <a name="related-topics"></a>Tópicos relacionados

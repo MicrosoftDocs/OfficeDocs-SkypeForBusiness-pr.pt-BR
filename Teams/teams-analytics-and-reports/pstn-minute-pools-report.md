@@ -10,17 +10,16 @@ ms.reviewer: v-rifer
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 description: Saiba como usar o relatório de grupos de minutos PSTN do teams no centro de administração do Microsoft Teams para ver o número de minutos consumidos durante o mês atual em sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 900d847b5b0978ca2bfdccd4788a828a32f2ee3b
-ms.sourcegitcommit: 3ce40094a58509b69376b941b151c9d1c8538654
+ms.openlocfilehash: f67bc5e20d9e1f23e63b0b4c78b3e198d4b30a40
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37428329"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568384"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Relatório de grupos de minutos PSTN do Microsoft Teams
 
@@ -30,11 +29,11 @@ O relatório de grupos de minutos de tempo PSTN do teams no centro de administra
 
 Na navegação à esquerda do centro de administração do Microsoft Teams, clique em **análises &** > relatórios de**uso**dos relatórios. Na guia **exibir relatórios** , em **relatório**, selecione **pools de minutos PSTN**e clique em **executar relatório**.
 
-![Captura de tela do relatório de grupos de minutos PSTN do teams na](../media/teams-reports-pstn-minute-pools-with-callouts.png "captura de tela do centro de administração do relatório de grupos de minutos PSTN do teams no centro de administração do Microsoft Teams com textos explicativos numerados")
+![Captura de tela do relatório de grupos de minutos PSTN do teams no centro de administração](../media/teams-reports-pstn-minute-pools-with-callouts.png "Captura de tela do relatório de grupos de minutos PSTN do teams no centro de administração do Microsoft Teams com textos explicativos numerados")
 
 ## <a name="interpret-the-report"></a>Interpretar relatório
 
-|Texto explicativo |Descrição  |
+|Texto Explicativo |Descrição  |
 |--------|-------------|
 |**1**   |Cada relatório tem uma data para o momento em que foi gerado. O relatório geralmente reflete um período de latência de atividade de 24 a 48 horas. |
 |**2**   |Clique em uma funcionalidade (licença) para exibir atividades para essa funcionalidade. |

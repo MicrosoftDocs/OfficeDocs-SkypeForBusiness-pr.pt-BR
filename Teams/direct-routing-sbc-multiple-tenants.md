@@ -10,17 +10,16 @@ ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: Saiba como configurar um SBC (controlador de borda de sessão) para atender a vários locatários.
-ms.openlocfilehash: d3defa7be5fc7e2f8c9d96017706329184c4ad59
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: 5009f600af0d9632ed94b544e75f791d9ecead85
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131642"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572130"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar um controlador de borda da sessão para vários locatários
 
@@ -56,8 +55,8 @@ Veja a seguir as etapas de implementação técnica para configurar o cenário.
 
 Para ver as etapas detalhadas sobre como implantar e configurar o SBCs para um cenário de hospedagem SBC, consulte a documentação do fornecedor do SBC.
 
-- **AudioCodes:** [Rotas diretas de configuração de roteamento](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), a configuração do cenário de Hospedagem de SBC descrito em "conectando AudioCodes SBC para a Microsoft Teams Direct Routing Host Configuration model observação". 
-- **Oracle:** [Rotas diretas de configuração de roteamento](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html), a configuração do cenário de Hospedagem de SBC é descrita na seção "Microsoft". 
+- **AudioCodes:** [observações sobre a configuração de roteamento direto](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), a configuração do cenário de Hospedagem de SBC descrito em "conectando AudioCodes SBC para o Microsoft Teams Direct Routing Routing Model Configuration observação". 
+- **Oracle:** [notas de configuração de roteamento direto](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html), a configuração do cenário de Hospedagem de SBC é descrita na seção "Microsoft". 
 - **Comunicações da faixa** de opções:  Consulte o guia de [configuração do Microsoft Teams SBC da faixa de opções do Microsoft Teams](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) para obter a documentação sobre como configurar a faixa de opções da faixa de opções SBCS e para esta página de [práticas recomendadas-configurando as operadoras do Microsoft Teams Direct Margem](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 - **SMS (anynode):**  Registre-se na [página da comunidade de SMS](https://community.te-systems.de/) para obter documentação e exemplos sobre como configurar o SBC anynode para vários locatários.
 

@@ -7,18 +7,19 @@ ms.date: 07/08/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- M365-collaboration
 search.appverid: MET150
 ms.reviewer: vikramju
 description: Saiba mais sobre barreiras de informação e como elas afetam o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1238e0e4d015a9216523c96e981e3f37ad54c131
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: bd9ac22a45d0e76e8f2d31c3d11be726148b3863
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245358"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572064"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreiras de informação no Microsoft Teams
 
@@ -86,7 +87,7 @@ No momento, os usuários perceberão o seguinte se uma política de barreira de 
 - **Contatos sugeridos** -na lista contatos sugeridos (a lista de contatos inicial exibida para novos usuários), os usuários podem ver todos os contatos sugeridos (incluindo usuários bloqueados). No entanto, se um usuário clicar no nome de um usuário bloqueado para abrir o painel chats, a mensagem será bloqueada.
 - **Contatos do chat** -um usuário pode ver usuários bloqueados na lista de contatos do chat.
 - **Chamadas para contatos** -um usuário pode ver os usuários bloqueados na lista de contatos chamadas, e as ações, como chamadas e mensagens, serão exibidas, mas quando o usuário tentar ligar ou enviar uma mensagem para o usuário bloqueado, a chamada ou mensagem não será perenviada.
-- **Migração do Skype para** o Teams-durante uma migração do Skype for Business para o Teams, todos os usuários, mesmo aqueles bloqueados por políticas de barreira de informações, serão migrados para o Teams e, em seguida, serão manipulados conforme descrito acima.
+- **Migração do Skype para o Teams** -durante uma migração do Skype for Business para o Teams, todos os usuários, mesmo aqueles bloqueados por políticas de barreira de informações, serão migrados para o Teams e, em seguida, serão manipulados conforme descrito acima.
 
 Em breve: os usuários perceberão o seguinte se uma política de barreira de informações bloquear outro usuário:
 
@@ -97,7 +98,7 @@ Em breve: os usuários perceberão o seguinte se uma política de barreira de in
 - **Contatos sugeridos** -os usuários bloqueados não aparecem na lista de contatos sugeridos (a lista de contatos inicial exibida para novos usuários).
 - **Contatos do chat** -um usuário não pode ver usuários bloqueados na lista de contatos do chat.
 - **Chamadas contatos** -um usuário pode ver os usuários bloqueados na lista de contatos chamadas, mas os usuários bloqueados serão identificados e a única ação que o usuário poderá executar será excluí-los.
-- **Migração do Skype para** o Teams-durante uma migração do Skype for Business para o Teams, todos os usuários, mesmo aqueles bloqueados por políticas de barreira de informações, serão migrados para o Teams e, em seguida, serão manipulados conforme descrito acima.
+- **Migração do Skype para o Teams** -durante uma migração do Skype for Business para o Teams, todos os usuários, mesmo aqueles bloqueados por políticas de barreira de informações, serão migrados para o Teams e, em seguida, serão manipulados conforme descrito acima.
 
 ## <a name="required-licenses-and-permissions"></a>Permissões e licenças necessárias
 

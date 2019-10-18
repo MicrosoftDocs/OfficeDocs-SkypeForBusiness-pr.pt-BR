@@ -10,8 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers.
-ms.openlocfilehash: 0ffcb07a649c8fc82b3c5a6139f9692263961ef2
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 831bfc30feccca06fbfa9414e92d6dc5a957cb40
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494654"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569548"
 ---
 # <a name="getting-service-phone-numbers"></a>Obter números de telefone de serviço
 
@@ -46,13 +45,13 @@ Você tem duas maneiras de obter números de serviço para poder usá-los com o 
   
 ## <a name="get-new-service-numbers"></a>Obtenha novos números de serviço
 
-![Um ícone mostrando o logotipo](media/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo do Skype for Business](media/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
-2. Vá para as equipes do **Centro** > de administração**e** > o**administrador herdado**do Skype Skype.
+2. Vá para as equipes do **Centro** > de administração e o**administrador herdado**do**Skype** > Skype.
     
-3. No**** painel de navegação esquerdo, vá para números > de**telefone**de **voz** > e, em seguida, clique em **novos números de serviço**.
+3. No painel de navegação**esquerdo, vá**para**números** > de telefone de **voz** > e, em seguida, clique em **novos números de serviço**.
     
     > [!IMPORTANT] 
     > Para ver a opção de **voz** no painel de navegação à esquerda no centro de administração do Skype for Business, primeiro você deve comprar pelo menos uma **licença do Enterprise E5**, uma licença complementar do **sistema de telefonia** ou uma licença do suplemento de conferência de **áudio** .

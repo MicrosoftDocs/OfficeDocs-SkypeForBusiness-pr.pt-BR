@@ -10,17 +10,16 @@ ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: A Microsoft faz parceria com fornecedores selecionados de SBC (controlador de borda da sessão) para garantir que seus SBCs sejam compatíveis com o Roteamento Direto.
-ms.openlocfilehash: 73a9d24a507bd5d0c8448f444225f7dfe8943dde
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: 5fa0cb728beed0f308a4d168cd149ef1e75e2809
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "35925485"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572240"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borda da sessão certificados para Roteamento Direto
 
@@ -68,4 +67,4 @@ A tabela a seguir lista os dispositivos certificados para Roteamento Direto.
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v3.16.2      |
 
-Para dar a seus comentários sobre o produto sobre o Microsoft Teams, como ideias para [](https://microsoftteams.uservoice.com) novos recursos, acesse o UserVoice nota a certificação concedida a uma versão principal. Isso significa que o firmware com qualquer número no firmware SBC após a versão principal tem suporte.
+Para dar a seus comentários sobre o produto sobre o Microsoft Teams, como ideias para novos recursos, acesse o [UserVoice](https://microsoftteams.uservoice.com) nota a certificação concedida a uma versão principal. Isso significa que o firmware com qualquer número no firmware SBC após a versão principal tem suporte.

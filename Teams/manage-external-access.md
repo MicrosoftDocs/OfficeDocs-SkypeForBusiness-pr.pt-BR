@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_GuestAccess
 - M365-collaboration
 ms.reviewer: vinbel
 search.appverid: MET150
@@ -18,19 +18,19 @@ description: O administrador de TI pode configurar o acesso externo para outros 
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: f39760eb971a333373191b444abbb72395f13737
-ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
-ms.translationtype: HT
+ms.openlocfilehash: 3005f0c7281045a3f2ca692becb6e7eff2b9af54
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37305756"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570639"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Gerenciar o acesso externo no Microsoft Teams
 ======================================================
 
 Com o acesso externo do Microsoft Teams, os usuários do Teams de outros domínios podem participar de chats e chamadas. Também é possível permitir a participação de outros usuários externos que ainda estejam usando o Skype for Business Online, o Skype for Business local ou até mesmo o Skype.
 
-Use as etapas presentes neste artigo quando:
+Use o acesso externo quando:
   
 - Você tiver usuários em diferentes domínios na sua empresa, como carlos@contoso.com e ana@northwindtraders.com.
 
@@ -41,7 +41,7 @@ Use as etapas presentes neste artigo quando:
 O acesso externo permite aos usuários externos localizar você, telefonar e enviar mensagens instantâneas, além de marcar reuniões. No entanto, se você desejar que usuários externos tenham acesso a equipes e canais, o acesso de convidados deve ser a melhor opção. Para obter mais informações sobre as diferenças entre o acesso externo e o acesso de convidado, confira [Acesso externo versus acesso de convidado](#external-access-vs-guest-access) abaixo. Para ativar o acesso de convidado, confira [Ativar ou desativar o acesso de convidado ao Microsoft Teams](set-up-guests.md) para que os usuários possam se comunicar.
 
 > [!IMPORTANT]
-> Atualmente, para executar a federação dentro do aplicativo Microsoft Teams a um usuário externo à sua organização que não seja um convidado do Azure AD (Azure Active Directory) ou locatário, a sua configuração como híbrido deve estar correta e você deve ter migrado para o Skype for Business Online. A partir de 25/02/2019, o Teams não terá mais suporte à federação nativa sem o usuário do perfil SIP estar hospedado no Skype for Business Online. Para saber mais sobre como configurar sua conta como híbrida e depois migrar o Teams, confira [Atualizar de uma implantação híbrida do Skype for Business para o Teams](https://docs.microsoft.com/pt-BR/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid).
+> Atualmente, para executar a federação dentro do aplicativo Microsoft Teams a um usuário externo à sua organização que não seja um convidado do Azure AD (Azure Active Directory) ou locatário, a sua configuração como híbrido deve estar correta e você deve ter migrado para o Skype for Business Online. A partir de 25/02/2019, o Teams não terá mais suporte à federação nativa sem o usuário do perfil SIP estar hospedado no Skype for Business Online. Para saber mais sobre como configurar sua conta como híbrida e depois migrar o Teams, confira [Atualizar de uma implantação híbrida do Skype for Business para o Teams](https://docs.microsoft.com/en-us/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid).
 
 > [!IMPORTANT]
 > Os usuários convidados seguem as configurações de toda a organização para o modo de coexistência. Isso não pode ser alterado.
