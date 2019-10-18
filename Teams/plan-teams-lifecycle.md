@@ -11,16 +11,15 @@ audience: admin
 description: Saiba como planejar a implementação dos recursos de gerenciamento de ciclo de vida no Teams.
 localization_priority: Priority
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92fe612a805f350cfa8ff1f0bfb7556fe895180d
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: bf965386ce471458ed47edb0083d2b6f18b4ba8a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435190"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573235"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planejar o gerenciamento de ciclo de vida no Teams
 

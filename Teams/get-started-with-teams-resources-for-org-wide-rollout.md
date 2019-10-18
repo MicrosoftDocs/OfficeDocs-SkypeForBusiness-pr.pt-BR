@@ -12,25 +12,18 @@ description: Saiba onde encontrar recursos detalhados de implantação e adoçã
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3410dfc54521bea2ff7f29dfcc9046ea984a7cc6
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: eedd234c248e7c217d23a378989cc5e90f55d01d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241567"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570775"
 ---
 # <a name="choose-a-path-to-your-organization-wide-rollout-of-microsoft-teams"></a>Escolher um caminho para a distribuição do Microsoft Teams em toda a organização
 
 Agora que você configurou suas primeiras equipes com sucesso e integrou um grupo inicial de usuários ao incentivar o uso, é hora de analisar seu plano para implantar o Teams em todo o restante da organização ao mesmo tempo em que impulsiona a adoção. Comece pela primeira carga de trabalho, [Chat, equipes, canais e aplicativos](deploy-chat-teams-channels-microsoft-teams-landing-page.md).
 
 Para ajudar a escolher o caminho de implementação do Teams, leia [Como implantar o Teams](How-to-roll-out-teams.md).
-
-## <a name="let-us-know-what-you-think"></a>Dê sua opinião
-
-:memo: você concluirá <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4LAPvZJykZPhSy1f9kvlZdURFVYS0k5V0xNQ1UwQlE3VzlDWUZYQU42WS4u" target="_blank">essa pesquisa</a> (leva cerca de um minuto) para nos dar sua opinião sobre a seção **Introdução**? A pesquisa é anônima.
-
-Você também pode fazer comentários sobre um artigo específico. Para isso, acesse a seção **Comentários** do artigo. 
