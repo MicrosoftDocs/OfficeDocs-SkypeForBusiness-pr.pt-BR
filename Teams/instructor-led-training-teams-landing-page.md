@@ -12,19 +12,18 @@ ms.author: lolaj
 ms.service: msteams
 f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
-- Teams_ITAdmin_Training
 - M365-collaboration
-ms.openlocfilehash: 27ef173f20f7d2dae66d66bec8b41b5d5c6d48df
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: d6ddba5756f812667fd5fac2ccf980efec9267e4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36484010"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570719"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Treinamento do Microsoft Teams com instrutor</h1>
-A Microsoft está feliz por hospedar uma série de sessões de treinamento online, gratuitas e ao vivo desenvolvidas para você começar a trabalhar com o Teams.Seja você um tomador de decisão de negócios, administrador, profissional de TI ou usuário final, você encontrará a aula ideal. Participe para ver o Teams em ação, tire suas dúvidas e interaja com os nossos instrutores ao vivo. Para mais oportunidades de treinamento, incluindo versões sob demanda de treinamento ao vivo, confira nosso <a href="https://docs.microsoft.com/microsoftteams/enduser-training">treinamento do usuário final sob demanda</a>.<br><br>Clique em uma sessão abaixo para se inscrever.
+A Microsoft está feliz por hospedar uma série de sessões de treinamento online, gratuitas e ao vivo desenvolvidas para você começar a trabalhar com o Teams.Seja você um tomador de decisão de negócios, administrador, profissional de TI ou usuário final, você encontrará a aula ideal. Participe para ver o Teams em ação, tire suas dúvidas e interaja com os nossos instrutores ao vivo. Para visualizar nossas aulas de treinamento em seu próprio tempo, acesse nosso treinamento <a href="https://aka.ms/TeamsOnDemand">sob demanda de treinamento do usuário final</a>.<br><br>Clique em uma sessão abaixo para se inscrever.
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a>
@@ -145,7 +144,7 @@ A Microsoft está feliz por hospedar uma série de sessões de treinamento onlin
                     <div class="cardText">
                         <h3>Teams para o governo dos EUA (GCC)</h3>
                         <p>Venha conferir uma visão geral interativa do Teams no Office 365 GCC que apresenta as práticas recomendadas para colaboração.</p>
-                    <p><i>Público-alvo: Profissionais de TI, usuários finais</i></p>
+                    <p><i>Público-alvo: Todos</i></p>
                     </div>
                 </div>
             </div>
@@ -173,18 +172,18 @@ A Microsoft está feliz por hospedar uma série de sessões de treinamento onlin
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/FLW3"target="_blank">
+        <a href="https://aka.ms/LearnTeamsApps"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="Clock symbol" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/blocks-teams.svg" alt="Blocks" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Trabalhadores de Contato Direto com o Teams</h3>
-                        <p>Saiba mais sobre os novos recursos para trabalhadores de contato direto no Teams.</p>
+                        <h3>Aprenda a usar aplicativos no Teams</h3>
+                        <p>Compreender como melhorar o trabalho em equipe com os aplicativos.</p>
                         <p><i>Público-alvo: Usuários finais</i></p>
                     </div>
                 </div>
@@ -212,7 +211,26 @@ A Microsoft está feliz por hospedar uma série de sessões de treinamento onlin
         </div>
         </a>
     </li>
-        </ul>
+    <li>
+        <a href="https://microsoftteams.eventbuilder.com/FLW3"target="_blank">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="Clock symbol" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Trabalhadores de Contato Direto com o Teams</h3>
+                        <p>Saiba mais sobre os novos recursos para trabalhadores de contato direto no Teams.</p>
+                        <p><i>Público-alvo: Usuários finais</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>        </ul>
         </li>
     </ul>
     </div>
