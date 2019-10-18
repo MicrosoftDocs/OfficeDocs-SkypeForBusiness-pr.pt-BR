@@ -194,7 +194,7 @@ Para corrigir esse problema, siga estas etapas:
 
 1. Atualize o atributo **msRTCSIP-UserEnabled** de todos os usuários afetados para **TRUE**.
 
-2. Execute novamente a Ferramenta de Sincronização de Diretórios do Microsoft Online Services (DirSync). Para obter detalhes, consulte [Integre seus diretórios locais com o Azure Active Directory](https://technet.microsoft.com/pt-BR/library/hh967642.aspx).
+2. Execute novamente a Ferramenta de Sincronização de Diretórios do Microsoft Online Services (DirSync). Para obter detalhes, consulte [Integre seus diretórios locais com o Azure Active Directory](https://technet.microsoft.com/en-us/library/hh967642.aspx).
 
 Para solucionar erros de entrada no Skype for Business Online, comece eliminando as causas mais comuns de dificuldade de entrada. Se necessário, você pode seguir etapas de resolução específicas com base no tipo de erro. Se o usuário ainda não conseguir entrar, colete informações adicionais e, em seguida, procure ajuda adicional.
 ## <a name="use-the-microsoft-support-troubleshooting-guide"></a>Usar o guia de solução de problemas do Suporte da Microsoft
