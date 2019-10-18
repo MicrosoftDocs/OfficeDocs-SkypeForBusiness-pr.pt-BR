@@ -13,15 +13,14 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Training
 ms.topic: landing-page
 ms.author: v-lanac
-ms.openlocfilehash: 673202003bd1a6203b4e4d7ad9059a6fe15ce6ff
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7c1a264a3a286dec464af8d3389262fdfbb56f33
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242485"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572427"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Treinamento para o administrador do Microsoft Teams
 
@@ -135,7 +134,7 @@ Saiba como gerenciar o Microsoft Teams para sua organização.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Sobre</h3>
+                        <h3>Artigos</h3>
                         <p><a 
                         href="/SkypeForBusiness/what-is-phone-system-in-office-365/setting-up-your-phone-system">Configurar o Sistema de Telefonia na sua organização</a></p>
                         <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">Integração de terceiros com a Audioconferência</a></p>
@@ -172,7 +171,7 @@ Saiba como gerenciar o Microsoft Teams para sua organização.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Atualizações principais</h3>
+                        <h3>Principais atualizações</h3>
                         <p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing">Configurar a Audioconferência</a></p>
                     </div>
                 </div>
