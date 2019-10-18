@@ -10,7 +10,6 @@ audience: admin
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
@@ -21,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Saiba como gerenciar as configurações de política de reunião no Teams.
-ms.openlocfilehash: f926704a256bbea551d4aaa32bd98ba87322930c
-ms.sourcegitcommit: 58be786003d5ff703adfcd636585fb1852aba486
+ms.openlocfilehash: 1407e18387aac5ae9ad5bdaa894d738f48fb3b42
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37391432"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564961"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
@@ -164,7 +163,7 @@ Vamos dar uma olhada no exemplo a seguir.
 |Usuário |Política de reunião  |Permitir gravação na nuvem |
 |---------|---------|---------|
 |Daniela | Global   | False |
-|Amanda | Location1MeetingPolicy | True|
+|Amanda | Location1MeetingPolicy | Verdadeiro|
 |John (usuário externo) | Não aplicável | Não aplicável|
 
 Reuniões organizadas por Daniela não podem ser gravadas e Amanda, que tem a configuração de política habilitada, não pode gravar reuniões organizadas por Daniela. Reuniões organizadas por Amanda podem ser registradas, no entanto, Daniela, que têm a configuração de política desabilitada e John, que é um usuário externo, não pode gravar reuniões organizadas por Amanda.
@@ -181,7 +180,7 @@ Vamos dar uma olhada no exemplo a seguir.
 
 |Usuário |Política de reunião  |Permitir vídeo IP |
 |---------|---------|---------|
-|Daniela   | Global   | True        |
+|Daniela   | Global   | Verdadeiro        |
 |Amanda    | Location1MeetingPolicy        | False      |
 
 Reuniões hospedadas pela Daniela permitem que o vídeo seja ativado. Daniela pode ingressar na reunião e ativar o vídeo. O Amanda não pode ativar o vídeo na reunião do Daniela porque a política de Amanda está definida como não permitir vídeo. Amanda pode ver vídeos compartilhados por outros participantes da reunião.
@@ -259,7 +258,7 @@ Vamos dar uma olhada no exemplo a seguir.
 
 |Usuário |Política de reunião  |Permitir que o participante conceda ou solicite o controle |
 |---------|---------|---------|
-|Daniela   | Global   | True       |
+|Daniela   | Global   | Verdadeiro       |
 |Babek    | Location1MeetingPolicy        | False   |
 
 O Daniela pode dar ao controle da área de trabalho compartilhada ou janela para outros participantes de uma reunião organizada por Babek, enquanto o Babek não pode conceder ao controle outros participantes.
@@ -283,7 +282,7 @@ Vamos dar uma olhada no exemplo a seguir.
 
 |Usuário |Política de reunião  |Permitir compartilhamento do PowerPoint |
 |---------|---------|---------|
-|Daniela   | Global   | True       |
+|Daniela   | Global   | Verdadeiro       |
 |Amanda   | Location1MeetingPolicy        | False   |
 
 O Amanda não pode compartilhar apresentações de slides do PowerPoint em reuniões, mesmo que ela seja o organizador da reunião. Daniela pode compartilhar decks de slides do PowerPoint mesmo se a reunião for organizada por Amanda. O Amanda pode exibir os decks de slides do PowerPoint compartilhados por outras pessoas na reunião, mesmo que ele não possa compartilhar os slides do PowerPoint.
@@ -296,7 +295,7 @@ Vamos dar uma olhada no exemplo a seguir.
 
 |Usuário |Política de reunião  |Permitir quadro de comunicações|
 |---------|---------|---------|
-|Daniela   | Global   | True       |
+|Daniela   | Global   | Verdadeiro       |
 |Amanda   | Location1MeetingPolicy        | False   |
 
 O Amanda não pode compartilhar o quadro de comunicações em uma reunião, mesmo que ela seja o organizador da reunião. Daniela pode compartilhar o quadro de comunicações mesmo se uma reunião for organizada por Amanda.  
@@ -309,7 +308,7 @@ Vamos dar uma olhada no exemplo a seguir.
 
 |Usuário |Política de reunião  |Permitir anotações compartilhadas |
 |---------|---------|---------|
-|Daniela   | Global   | True       |
+|Daniela   | Global   | Verdadeiro       |
 |Amanda   | Location1MeetingPolicy | False |
 
 Daniela pode fazer anotações nas reuniões do Amanda, e o Amanda não pode fazer anotações em nenhuma reunião.
@@ -355,7 +354,7 @@ Aqui está o comportamento da junção de pessoas anônimas quando os usuários 
 
 |Permitir que pessoas anônimas iniciem uma reunião  |Admitir pessoas automaticamente |Ingressar no comportamento de pessoas anônimas |
 |---------|---------|---------|
-|True    | Todos      | Ingressar diretamente         |
+|Verdadeiro    | Todos      | Ingressar diretamente         |
 |   | Todos em sua organização       | Aguardar no lobby        |
 |   | Todos em sua organização e organizações federadas       | Aguardar no lobby         |
 |False    | Todos        | Ingressar diretamente        |
@@ -366,7 +365,7 @@ Aqui está o comportamento da junção de pessoas anônimas quando nenhum usuár
 
 |Permitir que pessoas anônimas iniciem uma reunião |Admitir pessoas automaticamente  |Ingressar no comportamento de pessoas anônimas |
 |---------|---------|---------|
-|True    | Todos      | Ingressar diretamente         |
+|Verdadeiro    | Todos      | Ingressar diretamente         |
 |   | Todos em sua organização       | Aguardar no lobby        |
 |   | Todos em sua organização e organizações federadas       | Aguardar no lobby         |
 |False    | Todos        | Aguardar no lobby. Os usuários são automaticamente admitidos quando o primeiro usuário autenticado entra na reunião.        |
@@ -381,7 +380,7 @@ Aqui está o comportamento da junção de pessoas que discam por telefone.
 
 |Permitir que os usuários de discagem ignorem o lobby  |Admitir usuários automaticamente  |Comportamento de junção de pessoas que discam |
 |---------|---------|---------|
-|True    | Todos      | Ingressar diretamente         |
+|Verdadeiro    | Todos      | Ingressar diretamente         |
 |   | Todos em sua organização       | Ingressar diretamente        |
 |   | Todos em sua organização e organizações federadas       | Ingressar diretamente         |
 |False    | Todos        | Ingressar diretamente        |

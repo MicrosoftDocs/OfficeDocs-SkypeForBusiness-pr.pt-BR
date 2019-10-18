@@ -1,5 +1,5 @@
 ---
-title: Delegação de mensagens
+title: Delegação de mensagem
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -8,19 +8,21 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
-ms.collection: Teams_ITAdmin_PracticalGuidance
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
 description: Um usuário pode definir explicitamente outro usuário como um representante na mensagem de status.
-ms.openlocfilehash: cc9895ec639589ec260a03b0a1828ccf2a4eb9b1
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 56c0e9bd5394e738170130bab15803e5cb4d741c
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232342"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570353"
 ---
-# <a name="message-delegation"></a>Delegação de mensagens
+# <a name="message-delegation"></a>Delegação de mensagem
 
 Um usuário já pode definir explicitamente seu status como ausente ou não incomodar e fornecer texto personalizado. O recurso de delegação de mensagens funciona da seguinte maneira:
 

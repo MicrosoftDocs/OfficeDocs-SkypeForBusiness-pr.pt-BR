@@ -10,17 +10,16 @@ ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Saiba como usar o relatório de uso do Teams no centro de administração do Microsoft Teams para obter uma visão geral das atividades to Teams na sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a31d3a6bf374e512dde0549dbbd59ed90904cd0
-ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
+ms.openlocfilehash: 7aba4d3e185052d7c4f5399dd9370a05a4a7dc0a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37439567"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570967"
 ---
 # <a name="microsoft-teams-usage-report"></a>Relatório de uso do Microsoft Teams
 
@@ -31,11 +30,11 @@ O relatório de uso do Teams no centro de administração do Microsoft Teams apr
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, clique em **análises &** > relatórios de**uso**dos relatórios. Na guia **exibir relatórios** , em **relatório**, selecione **uso do teams**.
 2. Em **Intervalo de dados**, selecione intervalo e em seguida clique em **Executar relatório**.
 
-    ![Captura de tela do relatório de uso do teams no centro de administração do teams com]a(../media/teams-reports-teams-usage-with-callouts.png "captura de tela do relatório de uso do teams no centro de administração do teams com textos explicativos")
+    ![Captura de tela do relatório de uso do teams no centro de administração do teams com textos explicativos](../media/teams-reports-teams-usage-with-callouts.png "Captura de tela do relatório de uso do teams no centro de administração do teams com textos explicativos")
 
 ## <a name="interpret-the-report"></a>Interpretar relatório
 
-|Texto explicativo |Descrição  |
+|Texto Explicativo |Descrição  |
 |--------|-------------|
 |**1**   |O relatório de atividade de uso do Teams pode ser consultado sobre tendências dos últimos 7 ou 28 dias. |
 |**2**   |Cada relatório tem uma data de geração. O relatório geralmente reflete um período de latência de atividade de 24 a 48 horas. |

@@ -14,18 +14,17 @@ localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 f1keywords:
 - ms.teamsadmincenter.callingpolicies.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e97f16097a30172a2ea56eb7fc9808042055f0e
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 788cc0e93b16585f1d3424d3bfa0a62693528740
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483674"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570265"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Políticas de chamada no Microsoft Teams
 ===================================
@@ -38,7 +37,7 @@ Siga estas etapas para criar uma política de chamada personalizada.
 
 1. No centro de administração do Microsoft Teams, selecione**política de chamadas**de **voz** > .
 2. Selecione **nova política**.
-3. Ative os recursos que você deseja usar na sua política de chamadas. Todas as seleções são **** desativadas por padrão.
+3. Ative os recursos que você deseja usar na sua política de chamadas. Todas as seleções são **desativadas** por padrão.
 4. Para controlar se os usuários podem rotear chamadas recebidas para o correio de voz, selecione **sempre habilitado** ou **controlado pelo usuário**. Para impedir o roteamento para correio de voz, selecione **sempre desabilitado**.
 5. Selecione **salvar**.
 
@@ -48,7 +47,7 @@ Siga estas etapas para modificar uma política de chamada existente.
 
 1. No centro de administração do Microsoft Teams, selecione**política de chamadas**de **voz** > .
 2. Clique em ao lado da política que você deseja modificar e, em seguida, selecione **Editar**.
-3. Ative os recursos que você deseja usar na sua política de chamadas. Todas as seleções são **** desativadas por padrão.
+3. Ative os recursos que você deseja usar na sua política de chamadas. Todas as seleções são **desativadas** por padrão.
 4. Para controlar se os usuários podem rotear chamadas recebidas para o correio de voz, selecione **sempre habilitado** ou **controlado pelo usuário**. Para impedir o roteamento para correio de voz, selecione **sempre desabilitado**.
 5. Selecione **salvar**.
 

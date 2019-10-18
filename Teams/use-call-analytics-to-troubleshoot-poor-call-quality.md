@@ -10,8 +10,7 @@ ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -24,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: Use os detalhes da análise de chamadas sobre dispositivos, redes e conectividade para solucionar problemas do usuário com o Microsoft Teams e chamadas e reuniões do Skype for Business.
-ms.openlocfilehash: 952cd0f34221f0a7e1203f8ff78edf2abdadb9b1
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 4b2d6a5a18bf0a13f3fd32aecb8ad98192f3851a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548976"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568629"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Usar a Análise de Chamada para solucionar problemas de baixa qualidade da chamada
 
@@ -43,16 +42,16 @@ Especialistas de suporte de comunicações lidam com problemas básicos de quali
 
 O nível de permissões atribuído a você determina que tipo de informações você tem acesso na análise de chamadas:
   
-- Administrador de **Serviços do teams ou administrador de comunicações**do teams: você tem acesso a todas as informações no Microsoft Analytics Analytics e no centro de administração do Microsoft Teams.
+- Administrador de **Serviços do teams ou administrador de comunicações do teams**: você tem acesso a todas as informações no Microsoft Analytics Analytics e no centro de administração do Microsoft Teams.
     
-- **Especialista em suporte às comunicações**do teams: você vê um conjunto limitado de dados na análise de chamadas. Você pode solucionar problemas, mas vai desligar problemas com reuniões para um engenheiro de suporte de comunicações do teams. Você não tem acesso ao restante do centro de administração do Microsoft Teams.
+- **Especialista em suporte às comunicações do teams**: você vê um conjunto limitado de dados na análise de chamadas. Você pode solucionar problemas, mas vai desligar problemas com reuniões para um engenheiro de suporte de comunicações do teams. Você não tem acesso ao restante do centro de administração do Microsoft Teams.
     
-- **Engenheiro de suporte de comunicações**do teams: você vê todos os dados disponíveis na análise de chamadas e pode ajudar a solucionar problemas com chamadas e reuniões. Você não tem acesso ao restante do centro de administração do Microsoft Teams.
+- **Engenheiro de suporte de comunicações do teams**: você vê todos os dados disponíveis na análise de chamadas e pode ajudar a solucionar problemas com chamadas e reuniões. Você não tem acesso ao restante do centro de administração do Microsoft Teams.
     
 > [!NOTE]
 > A função de especialista de suporte de comunicações é equivalente ao suporte de nível 1 e a função de engenheiro de suporte de comunicações equivale ao suporte de nível 2.
 
-Para obter mais informações sobre as funções de administração do Teams, consulte [usar funções de administrador do Microsoft Teams para gerenciar](using-admin-roles.md)o Teams. Para obter uma comparação detalhada das funções do especialista em suporte de comunicações do teams support e do engenheiro de suporte de comunicações do Teams, consulte [Configurar Analytics de chamadas](set-up-call-analytics.md#set-call-analytics-permissions) 
+Para obter mais informações sobre as funções de administração do Teams, consulte [usar funções de administrador do Microsoft Teams para gerenciar o Teams](using-admin-roles.md). Para obter uma comparação detalhada das funções do especialista em suporte de comunicações do teams support e do engenheiro de suporte de comunicações do Teams, consulte [Configurar Analytics de chamadas](set-up-call-analytics.md#set-call-analytics-permissions) 
   
 Veja suas equipes e o administrador do Skype for Business se precisar de ajuda com permissões.
   
@@ -85,8 +84,8 @@ Para sessões de áudio que têm dados de qualidade da experiência (QoE), a tab
 |**Problema**|**Área**|**Descrição**|
 |:-----|:-----|:-----|
 |Configuração da chamada  <br/> |Session  <br/> |O código de erro MS-diag 20-29 indica falha na configuração da chamada. O usuário não pôde ingressar na chamada ou na reunião.  <br/> |
-|Chamada deficiente da rede de áudio classificada  <br/> |Session  <br/> |Problemas de qualidade de rede (como perda de pacotes, tremulação, degradação do NMOS, RTT ou proporção oculta) foram encontrados. Para obter mais informações sobre as condições usadas para classificar chamadas ruins, consulte esta postagem de [blog da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=852133).  <br/> |
-|O dispositivo não está funcionando  <br/> |Dispositivo  <br/> | Um dispositivo não está funcionando corretamente. As proporções do dispositivo não estão funcionando: <br/>  DeviceRenderNotFunctioningEventRatio > = 0, 5 <br/>  DeviceCaptureNotFunctioningEventRatio > = 0, 5 <br/> |
+|Chamada deficiente da rede de áudio classificada  <br/> |Session  <br/> |Problemas de qualidade de rede (como perda de pacotes, tremulação, degradação do NMOS, RTT ou proporção oculta) foram encontrados. Para obter mais informações sobre as condições usadas para classificar chamadas ruins, consulte esta [postagem de blog da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=852133).  <br/> |
+|O dispositivo não está funcionando  <br/> |Dispositivo  <br/> | Um dispositivo não está funcionando corretamente. As proporções do dispositivo não estão funcionando: <br/>  DeviceRenderNotFunctioningEventRatio >= 0, 5 <br/>  DeviceCaptureNotFunctioningEventRatio >= 0, 5 <br/> |
    
 ## <a name="related-topics"></a>Tópicos relacionados
 [Configurar Análise de Chamada](set-up-call-analytics.md)

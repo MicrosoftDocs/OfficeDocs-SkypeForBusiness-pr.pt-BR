@@ -12,21 +12,20 @@ ms.reviewer: ''
 description: Como entrar no Microsoft Teams usando a autenticação moderna.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af7ecffc6dbed108fdc3ec68802aac39aa4f54c4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a5698058cbfecd62f92cfe9f198657f7c280deff
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242507"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37563118"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Entrar no Microsoft Teams usando a autenticação moderna
 ==========================
 
-O Microsoft Teams usa autenticação moderna para manter a experiência de entrada simples e segura. Para ver como os usuários entram no Microsoft Teams, leia [entrar](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055)no Microsoft Teams.
+O Microsoft Teams usa autenticação moderna para manter a experiência de entrada simples e segura. Para ver como os usuários entram no Microsoft Teams, leia entrar no Microsoft [Teams](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055).
 
 ## <a name="how-modern-authentication-works"></a>Como funciona a autenticação moderna
 
@@ -49,7 +48,7 @@ Quando os usuários iniciarem o Microsoft Teams, o computador não poderá receb
 Se os usuários estiverem trabalhando em um computador associado a um domínio (por exemplo, se o locatário tiver habilitado o Kerberos), eles não poderão alternar entre contas de usuário depois que concluírem a autenticação moderna. Se os usuários não estiverem trabalhando em um computador associado a um domínio, eles poderão mudar de conta.
 
 ## <a name="signing-out-of-microsoft-teams-after-completing-modern-authentication"></a>Saindo do Microsoft Teams depois de concluir a autenticação moderna
-Para sair do Teams, os usuários podem clicar na imagem do perfil na parte superior do aplicativo e, em **** seguida, selecione sair. Eles também podem clicar com o botão direito do mouse no ícone do aplicativo na barra de tarefas e, em seguida, selecionar **logout**. Depois de desconectarem-se do Teams, será necessário inserir suas credenciais novamente para iniciar o aplicativo.
+Para sair do Teams, os usuários podem clicar na imagem do perfil na parte superior do aplicativo e, em seguida **, selecione sair**. Eles também podem clicar com o botão direito do mouse no ícone do aplicativo na barra de tarefas e, em seguida, selecionar **logout**. Depois de desconectarem-se do Teams, será necessário inserir suas credenciais novamente para iniciar o aplicativo.
 
 ## <a name="troubleshooting-modern-authentication"></a>Solução de problemas de autenticação moderna
 

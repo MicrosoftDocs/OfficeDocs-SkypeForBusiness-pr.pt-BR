@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -25,12 +24,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Saiba como obter e gerenciar números de telefone do Microsoft Teams para a sua organização.
-ms.openlocfilehash: 832a5dd14d1d7ff1d74443e8243d8e5f022a25af
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 7ff1da0b93c6775b8e564f6ea324404697c92411
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483675"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571984"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Gerenciar os números de telefone de sua organização
 

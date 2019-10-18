@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: ms.teamsadmincenter.voice.dialplans.overview
 ms.custom:
 - Calling Plans
 description: 'Saiba quais tipos de planos de chamada de discagem (planos de discagem de chamada PSTN) estão disponíveis com o Office 365 e como escolher um para a sua organização.  '
-ms.openlocfilehash: 71fe659b2dac511b8895689018989e0f9178d1f9
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 7a7f736ab701f2e87e29ee2a33b4cfbebccd7c21
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483963"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568559"
 ---
 # <a name="what-are-dial-plans"></a>O que são planos de discagem?
 
@@ -34,13 +33,13 @@ Um plano de discagem é um conjunto nomeado de regras de normalização que conv
 
 Um plano de discagem consiste em uma ou mais regras de normalização que definem como os números de telefone expressos em vários formatos são convertidos em um formato alternativo. A mesma cadeia de caracteres de discagem pode ser interpretada e traduzida de forma diferente em diferentes planos de discagem, de acordo com o plano de discagem atribuído a um determinado usuário, o mesmo número discado pode ser convertido e roteado de forma diferente.
 
-Consulte [criar e gerenciar planos](create-and-manage-dial-plans.md) de discagem para criar e gerenciar planos de discagem de locatários.
+Consulte [criar e gerenciar planos de discagem](create-and-manage-dial-plans.md) para criar e gerenciar planos de discagem de locatários.
 
 ## <a name="tenant-dial-plan-scope"></a>Escopo do plano de discagem do locatário
 
-O escopo de um plano de discagem determina o nível hierárquico em que o plano de discagem pode ser aplicado. Os escopos são diferentes de uma implantação local do Skype for Business Server. Os clientes obtêm o plano de discagem apropriado por meio das configurações de provisionamento que são fornecidas automaticamente quando os usuários fazem logon no Microsoft Teams ou no Skype for Business online. Como um administrador, você pode gerenciar e atribuir níveis de escopo de plano de discagem usando o PowerShell Remoto.
+O escopo de um plano de discagem determina o nível hierárquico em que o plano de discagem pode ser aplicado. Os escopos são diferentes de uma implantação local do Skype for Business Server. Os clientes obtêm o plano de discagem apropriado por meio das configurações de provisionamento que são fornecidas automaticamente quando os usuários fazem logon no Microsoft Teams ou no Skype for Business online. Como administrador, você pode gerenciar e atribuir níveis de escopo do plano de discagem usando o PowerShell remoto.
 
-No Teams e no Skype for Business Online, há dois tipos de planos de discagem: o escopo do serviço e o locatário (que é para sua organização) estão com o escopo. Um plano de discagem de escopo do serviço é definido para cada país ou região onde o sistema telefônico do Office 365 está disponível. Cada usuário recebe automaticamente o plano de discagem do país do serviço que corresponde ao local de uso do Office 365 atribuído ao usuário. Não é possível alterar o plano de discagem do país do serviço, mas você pode criar planos de discagem de escopo do locatário, o que aumenta o plano de discagem do país do serviço. Como os clientes são provisionados, eles obtêm um "plano de discagem efetivo", que é uma combinação do plano de discagem do país de serviço e o plano de discagem de locatário apropriado. Portanto, não é necessário definir todas as regras de normalização nos planos de discagem do locatário, visto que eles já podem existir no plano de discagem do país de serviço.
+No Teams e no Skype for Business Online, há dois tipos de planos de discagem: o escopo do serviço e o locatário (que é para sua organização) estão com o escopo. Um plano de discagem de escopo do serviço é definido para cada país ou região onde o sistema telefônico do Office 365 está disponível. Cada usuário recebe automaticamente o plano de discagem do país do serviço que corresponde ao local de uso do Office 365 atribuído ao usuário. Não é possível alterar o plano de discagem do país do serviço, mas você pode criar planos de discagem de escopo do locatário, o que aumenta o plano de discagem do país do serviço. Como os clientes são provisionados, eles obtêm um "plano de discagem efetivo", que é uma combinação do plano de discagem do país de serviço e o plano de discagem de locatário apropriado. Portanto, não é necessário definir todas as regras de normalização nos planos de discagem do locatário, pois elas podem já existir no plano de discagem do país do serviço.
 
 Os planos de discagem do locatário podem ser divididos em dois escopos: escopo do locatário ou do usuário. Se um locatário definir e atribuir um plano de discagem de usuário com escopo, então esse usuário será provisionado com um plano de discagem efetivo do plano de discagem do país de serviço do usuário e o plano de discagem de usuário atribuído. Se um locatário definir um plano de discagem de locatário com escopo, mas não atribuir um plano de discagem de usuário com escopo, então esse usuário será provisionado com um plano de discagem efetivo do plano de discagem do país de serviço do usuário e o plano de discagem do locatário.
 
@@ -56,7 +55,7 @@ A seguir são apresentados planos de discagem efetivos possíveis:
 
  **Usuário do locatário-país do serviço** Se um plano de discagem do usuário do locatário for definido e atribuído a um usuário, o usuário provisionado receberá um plano de discagem efetivo que consiste no plano de discagem do usuário do locatário mesclado e o plano de discagem do país do serviço associado ao local de uso do Office 365.
 
-Consulte [criar e gerenciar planos](create-and-manage-dial-plans.md) de discagem para criar seus planos de discagem de locatários.
+Consulte [criar e gerenciar planos de discagem](create-and-manage-dial-plans.md) para criar seus planos de discagem de locatários.
 
 ## <a name="planning-for-tenant-dial-plans"></a>Planejamento de planos de discagem de locatário
 
@@ -91,7 +90,7 @@ Recomendamos que você digite o nome comum e reconhecível da localização geog
 > [!NOTE]
 > [!OBSERVAçãO] Se você especificar um prefixo de acesso externo, não será necessário criar uma regra de normalização adicional para acomodar o prefixo. 
 
-Consulte [criar e gerenciar planos](create-and-manage-dial-plans.md) de discagem para criar seus planos de discagem de locatários.
+Consulte [criar e gerenciar planos de discagem](create-and-manage-dial-plans.md) para criar seus planos de discagem de locatários.
 
 ## <a name="normalization-rules"></a>Regras de normalização
 
@@ -109,7 +108,7 @@ As regras de normalização usam as expressões regulares do .NET Framework para
 
 Para obter detalhes sobre como usar expressões regulares do .NET Framework, consulte [expressões regulares do .NET Framework](https://go.microsoft.com/fwlink/p/?linkId=140927).
 
-Consulte [criar e gerenciar planos](create-and-manage-dial-plans.md) de discagem para criar e gerenciar regras de normalização para seus planos de discagem de locatário.
+Consulte [criar e gerenciar planos de discagem](create-and-manage-dial-plans.md) para criar e gerenciar regras de normalização para seus planos de discagem de locatário.
 
 ### <a name="sample-normalization-rules"></a>Regras de normalização de exemplo
 

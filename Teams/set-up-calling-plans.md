@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -22,12 +21,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 9f01c73c8374a367beb03db0a14df5dada0c562d
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 964748a9af9d7a31d7dd4cc4648353b6724fc54e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494702"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571233"
 ---
 # <a name="set-up-calling-plans"></a>Configurar Planos de Chamadas
 
@@ -58,13 +57,13 @@ Há três maneiras de obter novos números de usuário:
 
 **Para adicionar um endereço de emergência para sua organização**
 
-![Um ícone mostrando o logotipo](media/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo do Skype for Business](media/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
 
 No centro de administração do Skype for Business, vá para**locais** > de emergência de **voz** > **Adicionar novo endereço**. Para obter detalhes [, consulte Adicionar ou remover e endereço de emergência de sua organização](/skypefor business/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization) .
 
 **Para adicionar um local de emergência para sua organização** 
 
-![Um ícone mostrando o logotipo](media/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo do Skype for Business](media/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
 
 No centro de administração do Skype for Business, vá para**locais** > de emergência de **voz** > **Adicionar novo endereço**. Consulte [Adicionar, alterar ou remover um local de emergência para sua organização](/skypefor business/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization) para obter detalhes.
 
@@ -74,7 +73,7 @@ No centro de administração do Skype for Business, vá para**locais** > de emer
 
 **Para adicionar um endereço de emergência para um usuário** 
 
-![Um ícone mostrando o logotipo](media/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo do Skype for Business](media/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
 
 No centro de administração do Skype for Business,**** > vá para**usuários** > de voz de **voz** > **atribuir** > **local de alteração**de número. Para obter mais detalhes, consulte [atribuir ou alterar um endereço de emergência para um usuário](/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user) .
 
@@ -83,7 +82,7 @@ No centro de administração do Skype for Business,**** > vá para**usuários** 
 
 **Para atribuir um número de telefone a um usuário**
 
-![Um ícone mostrando o logotipo](media/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo do Skype for Business](media/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
 
 No centro de administração do Skype for Business, vá para**usuários** > de voz de **voz** > atribuir**local de alteração**de**número** > . Para obter mais detalhes [, consulte atribuir, alterar ou remover um número de telefone para um usuário](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) .
 

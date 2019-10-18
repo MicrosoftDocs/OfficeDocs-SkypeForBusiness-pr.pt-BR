@@ -10,9 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Como administrador do Office 365, você pode editar as configurações de audioconferência do Microsoft Teams, como o provedor, número de telefone padrão tarifado ou gratuito, ID de conferência ou PIN, para um usuário individual na sua organização. '
-ms.openlocfilehash: 808b1c9034cd6e246ccd4110d588b208004b97cc
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 673441acebf9b31893925539471040bffa621f38
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34343974"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571918"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Gerenciar as configurações de audioconferência de um usuário no Microsoft Teams
 
@@ -46,7 +45,7 @@ Como um administrador do Office 365, você pode editar as configurações de aud
 |**Enviar informações de conferência por email**  |Clique neste link apenas se você quiser enviar imediatamente um e-mail para o usuário com sua ID de conferência e número de telefone. (Este e-mail não inclui o PIN.) Consulte [Enviar um e-mail para um usuário com informações de audioconferência](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).  |
 |**ID de conferência**  |Clique em **Redefinir ID de conferência** se precisar redefinir a ID de conferência do usuário. Para obter mais informações, consulte [Redefinir uma ID de conferência para um usuário](reset-a-conference-id-for-a-user-in-teams.md).  |
 |**PIN** |Clique em **Redefinir PIN** se precisar redefinir o PIN para o usuário. Para obter mais informações, consulte [Redefinir o PIN de audioconferência](reset-the-audio-conferencing-pin-in-teams.md). |
-|**Número de telefone de Tarifa automática padrão** Querido |Eles serão números definidos na ponte de audioconferência. Formate os números como deseja que eles apareçam nas solicitações de reunião do Skype for Business e do Microsoft Teams. Para alterar o número de chamada padrão, clique em **Editar** ao lado de **conferência de áudio** e, no painel **videoconferência** , selecione um número em **número de chamada tarifada**. |
+|**Número de telefone fixo de conferência padrão** (obrigatório) |Eles serão números definidos na ponte de audioconferência. Formate os números como deseja que eles apareçam nas solicitações de reunião do Skype for Business e do Microsoft Teams. Para alterar o número de chamada padrão, clique em **Editar** ao lado de **conferência de áudio** e, no painel **videoconferência** , selecione um número em **número de chamada tarifada**. |
 |**Os convites deste usuário podem incluir números de chamada gratuita**|Para alterar essa configuração, clique em **Editar** ao lado de **conferência de áudio** e, no painel **videoconferência** , ative ou desative números de **chamada gratuita em solicitações de reunião deste usuário** . |
 |**Usuários não autenticados podem ser a primeira pessoa na reunião**|Para alterar essa configuração, alterne **os usuários não autenticados podem ser a primeira pessoa na reunião** ativada ou desativada.
 |**Permissões de discagem**|Para alterar essa configuração, clique em **Editar** ao lado de **conferência de áudio** e, no painel **videoconferência** , escolha uma opção em **discagem de reuniões**.|

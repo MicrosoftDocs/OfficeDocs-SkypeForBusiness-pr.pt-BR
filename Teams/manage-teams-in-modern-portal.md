@@ -13,16 +13,15 @@ localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b8937827cb5e3fa80e9ebae93d9958be2cf0f38
-ms.sourcegitcommit: 8a8c71aea5bd2420b110619607ef0715136578ab
+ms.openlocfilehash: 4fea7081ee66cbd7b103f4292f577aaf5d841e11
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/10/2019
-ms.locfileid: "36286218"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571929"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Gerenciar equipes no centro de administração do Microsoft Teams
 ==========================================
@@ -40,7 +39,7 @@ Este artigo fornece uma visão geral das ferramentas de gerenciamento para Teams
 
 ## <a name="teams-overview-grid"></a>Grade de visão geral do teams
 
-As ferramentas de gerenciamento do teams **** estão sob o nó Teams no centro de administração do Microsoft Teams. (No centro de administração, selecione **Teams** > **Manage Teams**.) Cada equipe tem o suporte de um grupo do Office 365, e esse nó fornece um modo de exibição de grupos que foram habilitados para o Microsoft Teams na sua organização.
+As ferramentas de gerenciamento do teams estão sob o nó **Teams** no centro de administração do Microsoft Teams. (No centro de administração, selecione **Teams** > **Manage Teams**.) Cada equipe tem o suporte de um grupo do Office 365, e esse nó fornece um modo de exibição de grupos que foram habilitados para o Microsoft Teams na sua organização.
 
 ![Captura de tela da grade de visão geral do teams](media/manage-teams-in-modern-portal-grid.png)  
 
@@ -115,7 +114,7 @@ Algumas de suas equipes estão ausentes da lista de equipes na grade de visão g
 
 **Resolução: definir manualmente a propriedade como o valor correto via MS Graph**
 
-Substitua **{GroupId}** na consulta para o GroupId em questão real, que você pode obter por meio do PowerShell do Exchange Online, com o cmdlet **"[Get-](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)unificado"** , como o atributo "**ExternalDirectoryObjectId**".
+Substitua **{GroupId}** na consulta para o GroupId em questão real, que você pode obter por meio do PowerShell do Exchange Online, com o cmdlet **"[Get-unificado](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** , como o atributo "**ExternalDirectoryObjectId**".
 
 1. [Gerenciador de gráficos](https://developer.microsoft.com/en-us/graph/graph-explorer)do Access.
 

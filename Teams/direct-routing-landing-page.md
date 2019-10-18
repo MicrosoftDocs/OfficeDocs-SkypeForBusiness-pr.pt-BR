@@ -1,5 +1,5 @@
 ---
-title: Roteamento Direto do Sistema Telefônico
+title: Roteamento Direto do Sistema de Telefonia
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -8,7 +8,6 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
@@ -16,14 +15,14 @@ f1keywords: ms.teamsadmincenter.directrouting.overview
 description: Página de aterrissagem para roteamento direto
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ded644f552c233b712f43de212f2269ee6e70b2
-ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
+ms.openlocfilehash: decbe74eaece7508c2118175bd25f8acab200cc2
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "37018796"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572185"
 ---
-# <a name="phone-system-direct-routing"></a>Roteamento Direto do Sistema Telefônico
+# <a name="phone-system-direct-routing"></a>Roteamento Direto do Sistema de Telefonia
 
 Você concluiu a [Introdução](get-started-with-teams-quick-start.md). Você implementou o Teams com [chat, equipes, canais e aplicativos](deploy-chat-teams-channels-microsoft-teams-landing-page.md) na organização. Talvez você tenha implantado [reuniões & conferência](deploy-meetings-microsoft-teams-landing-page.md). Agora, você está pronto para adicionar cargas de trabalho de voz na nuvem e decidiu usar sua própria operadora de telefonia para conectividade PSTN (rede telefônica pública comutada) usando o roteamento direto do sistema telefônico. Com o roteamento direto, você pode usar o sistema telefônico com praticamente qualquer operadora de telefonia.
 

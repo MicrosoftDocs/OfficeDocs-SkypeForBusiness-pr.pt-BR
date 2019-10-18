@@ -15,16 +15,15 @@ f1keywords:
 - ms.teamsadmincenter.apppermspolicies.publishtenantapps
 - ms.teamsadmincenter.apppolicies.publishtenantapps
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 35f15986fa5977a08cd91ce8cc5ca40ace0daca9
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 5affe464ac300d0084916ad8ec0044ca74f8fa6b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36484065"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570075"
 ---
 <a name="publish-apps-in-the-microsoft-teams-tenant-apps-catalog"></a>Publicar aplicativos no catálogo de aplicativos do Microsoft Teams locatário
 =======================================================
@@ -38,7 +37,7 @@ Para publicar aplicativos para sua organização, entre no cliente do Microsoft 
 ## <a name="publish-an-app-in-the-tenant-apps-catalog-from-the-teams-client"></a>Publicar um aplicativo no catálogo de aplicativos do locatário a partir do cliente do teams
 
 > [!NOTE]
-> Você precisa estar conectado ao cliente do Microsoft Teams com uma conta que tenha a função de administrador global de administrador ou Teams Service habilitada para publicar aplicativos para a sua organização. Saiba mais sobre o [uso de funções de administrador para gerenciar](https://docs.microsoft.com/MicrosoftTeams/using-admin-roles)o Microsoft Teams.
+> Você precisa estar conectado ao cliente do Microsoft Teams com uma conta que tenha a função de administrador global de administrador ou Teams Service habilitada para publicar aplicativos para a sua organização. Saiba mais sobre o [uso de funções de administrador para gerenciar o Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/using-admin-roles).
 
 ### <a name="get-a-teams-app-package"></a>Obter um pacote de aplicativos do teams
 

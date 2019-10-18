@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -24,12 +23,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Este tópico contém todos os países/regiões nos quais os usuários podem fazer chamadas de saída se tiverem um plano de chamada.
-ms.openlocfilehash: ab24f12098a01fbce9e31cb83819f1c10dc28389
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: fd876a66484101c58eaf65d3d78ca57576f2193f
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330864"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572505"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Os usuários podem fazer chamadas de saída para esses países e regiões
 
@@ -38,7 +37,7 @@ ms.locfileid: "34330864"
 |**A-D**| **E-H**|**I-L**|**M-O**|**P-S**|**T-Z**|
 ---|---|---|---|---|---|
 |Afeganistão|Equador |Islândia |Macau |Paquistão  |Taiwan   |
-|Albânia|Egito |Índia |Macedônia (ARIM) |Palau |Tadjiquistão   |
+|Albânia|Egito |Índia |Macedônia do Norte |Palau |Tadjiquistão   |
 |Argélia|El Salvador |Indonésia |Malaui |Autoridade Palestina |Tanzânia, República americana da  |
 |Samoa Americana|Guiné Equatorial |Irã |Malásia |Panamá | Tailândia   |
 |Andorra |Eritreia |Iraque |Mali |Paraguai |Togo   |
@@ -48,10 +47,10 @@ ms.locfileid: "34330864"
 |Argentina|Ilhas |Jamaica |Ilhas |Portugal |Ilhas Turks e Caicos   |
 |Armênia |Finlândia |Japão |Mayotte | Porto Rico |Xelim  |
 |Aruba |França |Jordânia |México |Catar | Ucrânia   |
-|Austrália |Guiana francesa |Cazaquistão |Micronésia |Reuniões |Emirados Árabes Unidos (U. A. E)  |
+|Austrália |Guiana francesa |Cazaquistão  |Micronésia |Reuniões |Emirados Árabes Unidos (U. A. E)  |
 |Áustria |Polinésia francesa |Quênia |Moldova, República da |Romênia |Reino Unido (U.K.) |
 |Azerbaijão |Geórgia |Coréia, República da |Mônaco | Federação Russa |Estados Unidos  |
-|Bahamas |Alemanha |Kuaite |Mongólia |Ruanda | Uruguai |
+|Bahamas |Alemanha |Kuwait |Mongólia |Ruanda | Uruguai |
 |Bahrein |Gana |Quirguistão |Montenegro | São Cristóvão e Névis |Uzbequistão  |
 |Bangladesh |Gialtar |Laosiana |Montserrat | Santa Lúcia |Estado da cidade do Vaticano  |
 |Barbados |Grécia |Letônia |Marrocos |São Vicente e Granadinas |Venezuela   |

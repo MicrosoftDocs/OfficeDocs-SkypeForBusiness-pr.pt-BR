@@ -10,18 +10,17 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar políticas de comentários para controlar se os usuários de equipes em sua organização podem enviar comentários sobre o Teams para a Microsoft.
-ms.openlocfilehash: a181b0af6527e154997ef611be19b08ea026ffa4
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: e43cc46e16a17ad4f059398e99736d14fdee62ee
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715813"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570628"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Gerenciar políticas de comentários no Microsoft Teams
 
@@ -53,7 +52,7 @@ Use o cmdlet **New-CsTeamsFeedbackPolicy** , *que pode ser [encontrado aqui](htt
 
 Para desativar e ativar os recursos, defina os seguintes parâmetros:
 
- - **Enviar comentários**: defina o **** parâmetro useriniciad como **Enabled** para permitir que os usuários atribuídos à política forneçam comentários. Definir o parâmetro como **desativado** desativa o recurso e os usuários atribuídos à política não têm a opção de enviar comentários.
+ - **Enviar comentários**: defina o parâmetro **useriniciad** como **Enabled** para permitir que os usuários atribuídos à política forneçam comentários. Definir o parâmetro como **desativado** desativa o recurso e os usuários atribuídos à política não têm a opção de enviar comentários.
  - **Pesquisas**: defina o parâmetro **receiveSurveysMode** como **Enabled** para permitir que os usuários atribuídos à política recebam a pesquisa. Para que os usuários recebam a pesquisa e permitam que eles se recusem, defina o parâmetro como **enabledUserOverride**. No Teams, os usuários podem ir até a**privacidade** **das configurações** > e escolher se desejam participar de pesquisas. Definir o parâmetro como **desativado** desativa o recurso e os usuários atribuídos a política não receberão a pesquisa.
 
 ## <a name="create-a-custom-feedback-policy"></a>Criar uma política de comentários personalizada

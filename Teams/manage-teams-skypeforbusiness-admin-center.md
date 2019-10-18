@@ -15,17 +15,16 @@ ms.custom:
 - NewAdminCenter_Update
 f1keywords: ms.teamsadmincenter.dashboard.helparticle.manageteamsnewadmincenter
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 5369206deda7a9d4c9e17a87406f208383927f05
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0d473ffa67b21c4ec3a160a8687a1688ea1d1cf5
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232951"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564781"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Gerenciar equipes durante a transição para o novo centro de administração do Microsoft Teams
 ======================================================
@@ -66,7 +65,7 @@ A tabela a seguir identifica as seções da experiência do teams que foram migr
 |Chamadas e reuniões     |Permitir o agendamento de reuniões de canal         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Usuário          |
 |Chamadas e reuniões     |Permitir vídeos em reuniões         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Usuário          |
 |Chamadas e reuniões     |Permitir o compartilhamento de tela em reuniões         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Usuário          |
-|Chamadas e reuniões     |Permitir chamadas privadas         |[TeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |Usuário          |
+|Chamadas e reuniões     |Permitir chamadas privadas         |[TeamsCallingPolicy ](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |Usuário          |
 |Mensagens     |Habilite o Giphy para que os usuários possam adicionar GIFs a conversas         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuário         |
 |Mensagens     |Classificação de conteúdo         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuário         |
 |Mensagens     |Habilite o memes que os usuários podem editar e adicionar às conversas         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuário         |
@@ -103,7 +102,7 @@ A tabela a seguir mostra onde você pode gerenciar recursos durante a migração
 |Configurações do teams   |    X    |      |       |
 |Configurações de acesso externo     |    X    |      |       |
 |Gerenciamento de usuários    |         |         |    X     |    
-|Conferência de áudio     |    X     |    X     |         |
+|Audioconferência     |    X     |    X     |         |
 |Planos de chamada     |         |    X     |         |
 |Sistema Telefônico    |         |     X    |         |
 |Gerenciamento de número de telefone     |         |   X      |         |

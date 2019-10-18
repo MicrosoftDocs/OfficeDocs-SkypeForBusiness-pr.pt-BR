@@ -8,15 +8,16 @@ audience: ITPro
 ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 ms.assetid: ''
 description: Leia este tópico para saber como migrar dispositivos do sistema de sala do Lync para usar o software de salas do Microsoft Teams.
-ms.openlocfilehash: c98d2081c29967c033d705082b4ebbffbd42b3ea
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 9bf01b334e13de5cb1407443f16223f86c1df929
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427954"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573655"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>Migrar dispositivos do Lync Room System (LRS) para salas do Microsoft Teams
 
@@ -49,7 +50,7 @@ Os clientes Crestron RL2 (também chamados de Crestron RL200) podem adquirir um 
 
 ### <a name="smart-room-systems-upgrade"></a>Atualização dos sistemas da sala inteligente
 
-Para clientes do SMART LRS, além do programa de troca de hardware do Crestron, o SMART também está trabalhando para fornecer uma solução para fazer a atualização para salas do Microsoft Teams. Esta atualização será fornecida pela SMART Technologies Inc. para o cliente em suporte a produtos. Para saber mais sobre isso [](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml), acesse isso.
+Para clientes do SMART LRS, além do programa de troca de hardware do Crestron, o SMART também está trabalhando para fornecer uma solução para fazer a atualização para salas do Microsoft Teams. Esta atualização será fornecida pela SMART Technologies Inc. para o cliente em suporte a produtos. Para saber mais [sobre isso,](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml)acesse isso.
 
 
 ## <a name="what-should-you-do"></a>O que você deve fazer?

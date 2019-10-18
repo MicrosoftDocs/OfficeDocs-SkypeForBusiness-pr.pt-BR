@@ -11,16 +11,15 @@ search.appverid: MET150
 description: Saiba mais sobre associações dinâmicas a equipes com base no AAD.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4a0a7d9487b7697bad5ac565b98e605c4cc81dc
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 3d22c7f068617cd4c5c73c850a37eaa89a0c8efa
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237800"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569891"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>Visão geral da associação dinâmica de equipes
 
@@ -47,7 +46,7 @@ Enquanto estiver conectado como administrador de locatários, siga as instruçõ
 
 ## <a name="create-a-new-team-with-your-o365-group"></a>Criar uma nova equipe com seu grupo do O365
 
-Agora, aguarde o tempo para as alterações de associação entrarem em vigor e crie uma nova equipe, conforme descrito em aprimorar os [grupos existentes do Office 365 com o Microsoft Teams](enhance-office-365-groups.md).
+Agora, aguarde o tempo para as alterações de associação entrarem em vigor e crie uma nova equipe, conforme descrito em [aprimorar os grupos existentes do Office 365 com o Microsoft Teams](enhance-office-365-groups.md).
 
 ## <a name="apply-dynamic-membership-to-an-existing-team"></a>Aplicar associação dinâmica a uma equipe existente
 

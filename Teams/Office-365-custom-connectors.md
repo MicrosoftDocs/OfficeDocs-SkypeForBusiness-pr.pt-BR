@@ -8,19 +8,18 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: lucarras
 search.appverid: MET150
 description: Os conectores mantêm a sua equipe atualizada ao entregar conteúdo e atualizações de serviços que você usa com frequência diretamente em um canal.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8235ce9eb950df0c04ab41949500a640376e612
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4b1dc57bbe3d216ee779f962ef4b2fc1152e2161
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245204"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37563851"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Usar o Office 365 e conectores personalizados no Microsoft Teams
 =======================================================
@@ -36,7 +35,7 @@ Os conectores do Office 365 podem ser usados com o Microsoft Teams e com os grup
 
 No momento, você pode adicionar conectores usando clientes da Web e de área de trabalho do Microsoft Teams. No entanto, as informações postadas por esses conectores podem ser vistas em **todos os clientes** , inclusive móvel.
 
-1. Para adicionar um conector a um canal, clique nas **reticências (...)** à direita de um nome de canal e, em seguida ****, clique em conectores.
+1. Para adicionar um conector a um canal, clique nas **reticências (...)** à direita de um nome de canal e, em seguida, clique em **conectores**.
 
     ![Captura de tela da interface do teams com a opção conectores selecionada.](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
 
@@ -55,7 +54,7 @@ No momento, você pode adicionar conectores usando clientes da Web e de área de
 <a name="develop-custom-connectors"></a>Desenvolvimento de conectores personalizados
 -----------------------------
 
-É muito fácil desenvolver conectores personalizados que podem ser integrados a seus aplicativos de linha de negócios (LOB). Você pode usar o conector de webhook de **entrada** interno para criar um ponto de extremidade para um canal que obtém dados de qualquer aplicativo usando métodos post http.
+É muito fácil desenvolver conectores personalizados que podem ser integrados a seus aplicativos de linha de negócios (LOB). Você pode usar o conector de **webhook de entrada** interno para criar um ponto de extremidade para um canal que obtém dados de qualquer aplicativo usando métodos post http.
 
 1. E o **Incoming Webhook** como qualquer outro conector.
 

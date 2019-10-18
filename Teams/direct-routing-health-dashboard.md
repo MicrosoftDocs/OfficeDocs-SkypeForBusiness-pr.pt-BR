@@ -10,17 +10,16 @@ ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: Saiba como usar o painel de integridade para monitorar a conexão entre o controlador de borda de sessão e o roteamento direto.
-ms.openlocfilehash: b6ec0c04200fac018b721bfe6c94f8d9bd969a2f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0424f24e323928f487e8b43ce72e51602f9eab52
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237487"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572196"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>Painel de integridade para roteamento direto
 
@@ -52,7 +51,7 @@ O painel de integridade fornece as seguintes informações relacionadas à integ
   
    Como a ação que você pode ter pode depender do número de chamadas afetadas, o painel de integridade mostra quantas chamadas foram analisadas para calcular um parâmetro. Se o número de chamadas for menor do que 100, o NER pode estar muito baixo, mas ainda é normal. 
 
-   A fórmula usada para calcuate NER é:
+   A fórmula usada para calcular o NER é:
 
    NER = chamadas atendidas + usuário ocupado + toque em nenhuma resposta + capturas de rejeição de terminal x 100
 
@@ -107,7 +106,7 @@ O modo de exibição detalhado mostra os seguintes parâmetros adicionais:
 
    - Perda de pacotes – é uma medida do pacote que falhou ao chegar; Ele é calculado entre dois pontos de extremidade.
 
-   - Latancy-(também conhecido como tempo de viagem de ida e volta) é o período de tempo que leva para o envio de um sinal mais o tempo necessário para que a confirmação daquele sinal seja recebida. Esse atraso de tempo consiste nos tempos de propagação entre os dois pontos de um sinal.
+   - Latência-(também conhecido como tempo de viagem de ida e volta) é o período de tempo que leva para o envio de um sinal mais o tempo necessário para que a confirmação daquele sinal seja recebida. Esse atraso de tempo consiste nos tempos de propagação entre os dois pontos de um sinal.
 
    Você pode deslizar os dados por número de dias e direção de chamada (entrada/saída/todos os fluxos).
 

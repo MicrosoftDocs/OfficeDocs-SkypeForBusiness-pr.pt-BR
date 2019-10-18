@@ -12,17 +12,15 @@ search.appverid: MET150
 description: Saiba como planejar o roteamento baseado em localização para roteamento direto.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38097d06cff62481d48c794b83a01a2fa1155b52
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 3c11d43f8fcf5418d27ca26e648291969779a8bf
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245112"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570683"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planejar o Roteamento baseado na localização para o Roteamento direto
 
@@ -89,7 +87,7 @@ Esta seção descreve diferentes cenários para restringir o bypass da chamada u
 
 O diagrama a seguir mostra as restrições habilitadas pelo roteamento baseado em local em cada cenário. Os usuários, os sites de rede e os gateways que são habilitados para o roteamento baseado em local têm uma borda ao seu. Use o diagrama como um guia para ajudá-lo a entender como o roteamento baseado em localização funciona em cada cenário.  
 
-![Diagrama mostrando cenários para roteamento baseado em local] (media/lbr-direct-routing.png "Diagrama mostrando cenários para roteamento baseado em local")
+![Diagrama mostrando cenários para roteamento baseado em local](media/lbr-direct-routing.png "Diagrama mostrando cenários para roteamento baseado em local")
 
 ### <a name="teams-user-places-an-outbound-call-to-the-pstn"></a>O usuário do teams insere uma chamada de saída para a PSTN
 

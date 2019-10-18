@@ -12,16 +12,15 @@ description: Implementar a QoS (qualidade de serviço) para clientes do Microsof
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-voice
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91b761cafa15172ae3fb0126f5059408e1a5f7ca
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 28e6664fa43819493e5b9e02d182bcec44f00905
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36246191"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572558"
 ---
 # <a name="set-qos-on-windows-clients"></a>Definir o QoS em clientes do Windows
 
@@ -50,7 +49,7 @@ Para criar uma política de áudio QoS para computadores Windows 10 associados a
 
 5. No editor de gerenciamento de política de grupo, expanda **configuração do computador**, expanda **configurações do Windows**, clique com o botão direito do mouse em **QoS baseado em política**e clique em **criar nova política**.
 
-6. Na caixa de diálogo **QoS baseada em política** , na página de abertura, digite um nome para a nova política na caixa **nome** . Selecione **especificar valor DSCP** e defina o valor como **46**. Deixe **especificar a taxa** de aceleração de saída desmarcada e clique em **Avançar**.
+6. Na caixa de diálogo **QoS baseada em política** , na página de abertura, digite um nome para a nova política na caixa **nome** . Selecione **especificar valor DSCP** e defina o valor como **46**. Deixe **especificar a taxa de aceleração de saída** desmarcada e clique em **Avançar**.
 
 7. Na próxima página, selecione **apenas aplicativos com esse nome executável** e insira o nome **Teams. exe**e clique em **Avançar**. Essa configuração instrui a política a priorizar somente o tráfego de correspondência do cliente do teams.
 
@@ -90,7 +89,7 @@ Para verificar se os valores do objeto de política de grupo foram definidos, ex
    gpresult /H >gp.html
    ```
 
-   ![Captura de tela da janela do console executando o comando Gpresult.] (media/Qos-in-Teams-Image3.png "Captura de tela da janela do console executando o comando Gpresult.")
+   ![Captura de tela da janela do console executando o comando Gpresult.](media/Qos-in-Teams-Image3.png "Captura de tela da janela do console executando o comando Gpresult.")
 
 3. No arquivo gerado, procure o título objetos de **política de grupo aplicados** e verifique se os nomes dos objetos de política de grupo criados anteriormente estão na lista de políticas aplicadas.
 

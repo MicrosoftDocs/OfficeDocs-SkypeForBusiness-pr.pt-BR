@@ -12,16 +12,15 @@ description: Saiba mais sobre como planejar a implementação de recursos de gov
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eca84b8b8a8a80772b89800ad105ed1b2394224e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 2400ef05c65bf69adb820d62e98c93c060641350
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237690"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573246"
 ---
 # <a name="plan-for-governance-in-teams"></a>Plano de governança no Teams
 
@@ -76,8 +75,8 @@ Sua organização pode ter requisitos adicionais para a configuração de polít
 
 |           |            |
 |-----------|------------|
-| ![Um ícone que representa os pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Sua organização requer a especificação de uma data de expiração para o Teams?</li><li>Sua organização requer políticas específicas de retenção de dados serem aplicadas ao Teams?</li><li>Sua organização espera exigir a capacidade de arquivar equipes inativas para preservar o conteúdo em um estado somente leitura?</li></ul>|
-| ![Um ícone que representa as próximas etapas](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Documentar os requisitos da sua organização para expiração da equipe, retenção de dados e arquivamento.</li><li>Planeje a implementação desses requisitos como parte da distribuição de suas equipes.</li><li>Comunique e Publique suas políticas para informar aos usuários da equipe o comportamento que elas podem esperar.</li></ul>|
+| ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Sua organização requer a especificação de uma data de expiração para o Teams?</li><li>Sua organização requer políticas específicas de retenção de dados serem aplicadas ao Teams?</li><li>Sua organização espera exigir a capacidade de arquivar equipes inativas para preservar o conteúdo em um estado somente leitura?</li></ul>|
+| ![Um ícone representando os próximos passos](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Documentar os requisitos da sua organização para expiração da equipe, retenção de dados e arquivamento.</li><li>Planeje a implementação desses requisitos como parte da distribuição de suas equipes.</li><li>Comunique e Publique suas políticas para informar aos usuários da equipe o comportamento que elas podem esperar.</li></ul>|
 
 > [!TIP]
 > Use a tabela a seguir para capturar os requisitos da sua organização.
@@ -97,7 +96,7 @@ Para obter orientação técnica sobre como implementar essas configurações, c
 
 - [Configurar o vencimento dos grupos do Office 365](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle).
 
-- [Configurar as políticas de retenção](retention-policies.md)do teams.
+- [Configurar as políticas de retenção do teams](retention-policies.md).
 
 - [Arquivar ou restaurar uma equipe](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7).
 
@@ -109,8 +108,8 @@ Outro aspecto importante do gerenciamento de controle e ciclo de vida para equip
 
 |         |         |
 |---------|---------|
-| ![Um ícone que representa os pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Sua organização requer a limitação de recursos de equipes para o seu locatário inteiro?</li><li>Sua organização requer a limitação de recursos de equipes para usuários específicos?</li></ul>|
-| ![Um ícone que representa as próximas etapas](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Documentar os requisitos da sua organização para limitar os recursos da equipe no nível do locatário e do usuário.</li><li>Planeje a implementação de seus requisitos específicos como parte da distribuição de suas equipes.</li><li>Comunique e Publique suas políticas para informar aos usuários da equipe o comportamento que elas podem esperar.</li></ul>|
+| ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Sua organização requer a limitação de recursos de equipes para o seu locatário inteiro?</li><li>Sua organização requer a limitação de recursos de equipes para usuários específicos?</li></ul>|
+| ![Um ícone representando os próximos passos](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Documentar os requisitos da sua organização para limitar os recursos da equipe no nível do locatário e do usuário.</li><li>Planeje a implementação de seus requisitos específicos como parte da distribuição de suas equipes.</li><li>Comunique e Publique suas políticas para informar aos usuários da equipe o comportamento que elas podem esperar.</li></ul>|
 
 ### <a name="teams-feature-management-focus-areas"></a>Áreas de foco do gerenciamento de recursos do teams
 

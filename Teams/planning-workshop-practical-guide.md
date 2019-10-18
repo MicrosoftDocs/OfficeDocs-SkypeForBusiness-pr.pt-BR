@@ -11,17 +11,14 @@ ms.reviewer: lolaj, rowille
 description: Ferramentas de planejamento, workshops e kits de introdução para ajudar as empresas a começar a usar o Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d6286ef37d90177ac719015ebfb76c67418c121
-ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
+ms.openlocfilehash: 71e864364c089b149f0351570fd673a0bf24068e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "36253906"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567721"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>Ferramentas e workshops: Planejamento, implantação e adoção do Microsoft Teams
 
@@ -43,7 +40,7 @@ Baixe estas ferramentas para usar durante o planejamento, implantação e adoç�
 
 - [Clientes do governo do Office 365](plan-for-government-gcc.md)
 
-   Sua jornada ao Microsoft Teams é muito parecida com a experiência de nossos clientes empresariais. À medida que o Microsoft Teams se torna disponível para seus locatários, incentivamos você a começar a usar nosso [plano para o artigo de implantações do Microsoft 365 governo-gcc e o](plan-for-government-gcc.md) guia de [início rápido para administradores](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx). Nossa visão geral [de segurança e conformidade](security-compliance-overview.md) ajudará você a se sentir confiante sobre as equipes do seu ambiente.
+   Sua jornada ao Microsoft Teams é muito parecida com a experiência de nossos clientes empresariais. À medida que o Microsoft Teams se torna disponível para seus locatários, incentivamos você a começar a usar nosso [plano para o artigo de implantações do Microsoft 365 governo-gcc e o](plan-for-government-gcc.md) [Guia de início rápido para administradores](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx). Nossa visão geral [de segurança e conformidade](security-compliance-overview.md) ajudará você a se sentir confiante sobre as equipes do seu ambiente.
 
 ### <a name="see-also"></a>Consulte também
 
@@ -53,7 +50,7 @@ Baixe estas ferramentas para usar durante o planejamento, implantação e adoç�
 
 [Workshop de planejamento de atualização do Skype for Business para Teams](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
 
-[Mover usuários do local para o Microsoft Teams](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
+[Migrar usuários de um ambiente local para o Teams](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
 
 [Gerenciar as configurações do Microsoft Teams para sua organização](enable-features-office-365.md)
 

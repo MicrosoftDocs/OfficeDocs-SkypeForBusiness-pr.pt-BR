@@ -10,14 +10,15 @@ ms.topic: conceptual
 ms.service: msteams
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 description: Este artigo explica as considerações de planejamento pertinentes para a implantação de salas do Microsoft Teams, a próxima geração de sistemas de sala do Skype.
-ms.openlocfilehash: 2c47e95eccc8dcb362a10bd1a6980c2b12384711
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 7225635e1069b880dd78d4d32060f1beb6e7b389
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775101"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573578"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planejar salas do Microsoft Teams
 
@@ -29,7 +30,7 @@ Você encontrará informações sobre o planejamento abaixo da abordagem recomen
 
 As salas do Microsoft Teams fornecem uma experiência de reunião completa que traz vídeo em alta definição, áudio e compartilhamento de conteúdo para reuniões de todos os portes, desde pequenas áreas huddle a grandes salas de conferência.
 
-![Um console, um microfone e uma tela grande montada em uma parede da sala de conferência ilustram os elementos de um exemplo de configuração de salas do Microsoft Teams.] (../media/room-systems-image1.png "Um console, um microfone e uma tela grande montada em uma parede da sala de conferência ilustram os elementos de um exemplo de configuração de salas do Microsoft Teams.")
+![Um console, um microfone e uma tela grande montada em uma parede da sala de conferência ilustram os elementos de um exemplo de configuração de salas do Microsoft Teams.](../media/room-systems-image1.png "Um console, um microfone e uma tela grande montada em uma parede da sala de conferência ilustram os elementos de um exemplo de configuração de salas do Microsoft Teams.")
 
 A [ajuda das salas do Microsoft Teams](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) é um ótimo recurso para saber mais sobre as salas do Microsoft Teams e como elas podem agregar valor como parte da sua implantação. Além disso, recomendamos assistir a este [vídeo de visão geral](https://youtu.be/tNey5KZVCl0). 
 
@@ -65,7 +66,7 @@ Use a abordagem ilustrada abaixo para orientá-lo na sua implantação e persona
 
 Comece a entender quais salas de conferência você tem e que concepção o que funciona melhor para você no futuro e, em seguida, percorra a seleção e procuring o equipamento que você precisa, preparando seus sites, Configurando e implantando o serviço, gerenciando mudanças e adoção do usuário e desenvolvimento de operações e procedimentos de manutenção.
 
-![Comece a entender o que você tem e que o que funciona melhor para você e, em seguida, percorra a seleção e procuring o equipamento necessário, preparando seus sites, Configurando e implantando o serviço, gerenciando alterações e adoção do usuário e desenvolvimento de operações e procedimentos de manutenção.] (../media/room-systems-image2.png "Comece a entender o que você tem e que o que funciona melhor para você e, em seguida, percorra a seleção e procuring o equipamento necessário, preparando seus sites, Configurando e implantando o serviço, gerenciando alterações e adoção do usuário e desenvolvimento de operações e procedimentos de manutenção.")
+![Comece a entender o que você tem e que o que funciona melhor para você e, em seguida, percorra a seleção e procuring o equipamento necessário, preparando seus sites, Configurando e implantando o serviço, gerenciando alterações e adoção do usuário e desenvolvendo operações e procedimentos de manutenção.](../media/room-systems-image2.png "Comece a entender o que você tem e que o que funciona melhor para você e, em seguida, percorra a seleção e procuring o equipamento necessário, preparando seus sites, Configurando e implantando o serviço, gerenciando alterações e adoção do usuário e desenvolvendo operações e procedimentos de manutenção.")
 
 Talvez seja necessário coordenar essas atividades em várias equipes. Oferecemos uma exibição de alto nível das principais atividades que você deve abranger e também sugestões para as equipes que normalmente estão envolvidas na implantação e gerenciamento de sistemas de sala de conferência, para ajudar você a decidir com quem precisa trabalhar.
 

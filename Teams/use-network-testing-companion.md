@@ -8,7 +8,6 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: lolaj
 search.appverid: MET150
@@ -18,17 +17,17 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: e2fcdb6da76de62e7fca87d822c0c9ecacc68377
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 193bc6b335766da15e28ff805efb0558bdf6ef4d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236627"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568598"
 ---
 <a name="use-the-network-testing-companion"></a>Usar o complemento de teste de rede
 =================================
 
-O complemento do [teste de rede](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.4) do Skype for Business e do Microsoft Teams oferece uma maneira fácil de testar a qualidade da sua rede e sua conexão com o Skype for Business online ou o Microsoft Teams. Você pode interpretar facilmente os resultados e compartilhá-los com administradores de rede para obter informações sobre possíveis problemas de rede.
+O [complemento do teste de rede](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.4) do Skype for Business e do Microsoft Teams oferece uma maneira fácil de testar a qualidade da sua rede e sua conexão com o Skype for Business online ou o Microsoft Teams. Você pode interpretar facilmente os resultados e compartilhá-los com administradores de rede para obter informações sobre possíveis problemas de rede.
 
 Você pode usar essa ferramenta na fase de planejamento de uma implantação do Skype for Business ou do Microsoft Teams. Se estiver usando o Teams ou o Skype for Business online no momento, você pode usar essa ferramenta para solucionar problemas de qualidade de voz ou simplesmente para verificar a conexão de rede antes de fazer uma chamada ou depois de ter uma experiência de baixa qualidade.
 

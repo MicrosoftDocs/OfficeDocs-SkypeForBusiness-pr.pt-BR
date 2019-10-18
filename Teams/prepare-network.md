@@ -12,16 +12,15 @@ description: Saiba como preparar e gerenciar sua rede para o Microsoft Teams. As
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39d9a7a0e2fa144354857e750365d50182974976
-ms.sourcegitcommit: 88c4682deec2ec533cc7542cf3a1363a41c4726f
+ms.openlocfilehash: a9013eb1048d022244166906edb1737b01757ed6
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36279163"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567683"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparo da rede da sua organização para o Microsoft Teams
 
@@ -37,19 +36,19 @@ O Microsoft Teams combina três formas de tráfego:
 Isso impacta a rede em dois níveis: o tráfego fluirá entre os clientes Microsoft Teams diretamente para cenários ponto a ponto, e o tráfego fluirá entre o ambiente do Office 365 e os clientes Microsoft Teams para os cenários de reunião. Para garantir um fluxo de tráfego ideal, o tráfego deve ser permitido entre os segmentos internos da rede (por exemplo, entre sites da WAN), bem como entre os sites da rede e do Office 365. Deixar de abrir as portas corretas ou bloquear ativamente as portas especificadas prejudicará a experiência.
 
 
-Para ter uma experiência ideal com mídia em tempo real no Microsoft Teams, sua rede deve atender aos requisitos de rede do Office 365. Para obter mais informações, consulte [qualidade de mídia e desempenho de conectividade de rede para o Skype for Business online](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
+Para ter uma experiência ideal com mídia em tempo real no Microsoft Teams, sua rede deve atender aos requisitos de rede do Office 365. Para obter mais informações, consulte [Qualidade de mídia e desempenho de conectividade de rede para o Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
 
 Para os dois que definem segmentos de rede (cliente para Microsoft Edge e cliente edge to Microsoft Edge), considere as recomendações a seguir.
 
 
-|Valor  |Cliente para Microsoft Edge  |Borda do cliente ao Microsoft Edge  |
+|Valor  |Cliente para o Microsoft Edge  |Edge do cliente para o Microsoft Edge  |
 |:--- |:--- |:--- |
-|**Latência (de uma maneira)**\*  |< 50ms          |< 30ms         |
+|**Latência (unidirecional)** \*  |< 50ms          |< 30ms         |
 |**Latência (RTT ou tempo de viagem de ida e volta)**\* |< 100 milhões   |< 60ms |
-|**Perda de pacote intermitente**    |<10% durante qualquer intervalo de 200ms         |<1% durante qualquer intervalo 200ms         |
+|**Perda de pacote de intermitência**    |<10% durante qualquer intervalo de 200ms         |<1% durante qualquer intervalo 200ms         |
 |**Perda de pacote**     |<1% durante qualquer intervalo 15s          |<0,1% durante qualquer intervalo 15s         |
 |**Tremulação entre entradas do pacote**    |<30ms durante qualquer intervalo 15s         |<15ms durante qualquer intervalo 15s         |
-|**Reordenação de pacotes**    |Pacotes fora de ordem do <0, 5%         |Pacotes fora de ordem do <0, 1%         |
+|**Reordenação de pacotes**    |< 0,05% de pacotes com problemas         |< 0,01% de pacotes com problemas         |
 
 \*Os destinos de métrica de latência assumem que o site ou os sites da empresa e as bordas da Microsoft estão no mesmo continente.
 
@@ -57,11 +56,11 @@ A conexão do site da sua empresa com o Microsoft Network Edge inclui o acesso d
 
 Os destinos de desempenho de rede pressupõem largura de banda e/ou [planejamento de QoS](QoS-in-Teams.md)adequado. Em outras palavras, os requisitos se aplicam diretamente ao tráfego de mídia em tempo real do teams quando a conexão de rede está com carga de pico.
 
-Para obter mais ajuda para preparar sua rede para o Microsoft Teams, consulte o planejador de [rede](https://docs.microsoft.com/microsoftteams/network-planner).
+Para obter mais ajuda para preparar sua rede para o Microsoft Teams, consulte o [planejador de rede](https://docs.microsoft.com/microsoftteams/network-planner).
 
 
 ## <a name="bandwidth-requirements"></a>Requisitos de largura de banda
-O Microsoft Teams oferece a melhor experiência de áudio, vídeo e compartilhamento de conteúdo, independentemente das condições da rede. Com os codecs variáveis, a mídia pode ser negociada em ambientes limitados de largura de banda com impacto mínimo. Mas onde a largura de banda não é uma preocupação, as experiências podem ser otimizadas para qualidade, incluindo até 1080p de resolução de vídeo, até 30 qps para vídeo e 15fps para conteúdo e áudio de alta fidelidade.
+O Microsoft Teams oferece a melhor experiência de compartilhamento de áudio, vídeo e conteúdo, independentemente das condições de rede. Com codecs variáveis, a mídia pode ser negociada em ambientes de largura de banda limitados com impacto mínimo. No entanto, quando a largura de banda não é uma preocupação, as experiências podem ser otimizadas para obter qualidade, incluindo até 1.080 p de resolução de vídeo, até 30 q/s para o vídeo e 15 q/s de conteúdo, além de áudio de alta fidelidade.
 
 [!INCLUDE [Bandwidth requirements](includes/bandwidth-requirements.md)]
 
@@ -95,7 +94,7 @@ Verifique se todos os computadores cliente que executam o cliente do teams podem
 
 Quando vários usuários/dispositivos acessam o Office 365 usando a NAT (conversão de endereços de rede) ou PAT (conversão de endereço de porta), você precisa garantir que os dispositivos ocultos atrás de cada endereço IP roteável publicamente não exceda o número compatível.
 
-Para reduzir esse risco, certifique-se de que os endereços IP públicos adequados sejam atribuídos aos pools de NAT para evitar a exaustão de portabilidade. A exaustão da porta fará com que usuários finais e dispositivos internos tenham problemas quando se conectar aos serviços do Office 365. Para obter mais informações, consulte [suporte a NAT com o Office 365](https://support.office.com/article/NAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9).
+Para reduzir esse risco, certifique-se de que os endereços IP públicos adequados sejam atribuídos aos pools de NAT para evitar a exaustão de portabilidade. O esgotamento de portas fará com que dispositivos e usuários finais internos enfrentem problemas ao se conectar aos serviços do Office 365. Para saber mais, veja [Suporte a NAT com o Office 365](https://support.office.com/article/NAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9).
 
 #### <a name="intrusion-detection-and-prevention-guidance"></a>**Orientação de detecção e prevenção de invasões**
 
@@ -118,4 +117,4 @@ Se você não atender a esses critérios, essa é a hora de considerar a pausa d
 
 ## <a name="related-topics"></a>Tópicos Relacionados
 
-[Vídeo: planejamento de rede](https://aka.ms/teams-networking)
+[Vídeo: Planejamento de rede](https://aka.ms/teams-networking)

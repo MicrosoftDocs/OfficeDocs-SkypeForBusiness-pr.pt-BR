@@ -12,18 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 ms.collection:
-- Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68ae38caa6671b3b5b46d8f295947bdbd9527379
-ms.sourcegitcommit: bb8577aca8c7e0673b37634a24bf793c86c0537b
+ms.openlocfilehash: 3207a7e7f460cb2941dd4c46df2a215df7997ed4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "36675512"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564901"
 ---
-# <a name="meetings-first"></a>Reuniões primeiro
+# <a name="meetings-first"></a>Meetings First
 
 "Reuniões primeiro" tem como alvo e são otimizadas para organizações do Skype for Business Server com Enterprise Voice no local que desejam começar a usar reuniões do Team o mais rápido possível. Para essas organizações, as reuniões primeiro são uma alternativa para usar o modo de **ilhas** que prioriza a experiência de reuniões do teams.
 
@@ -31,7 +30,7 @@ ms.locfileid: "36675512"
 
 As reuniões primeiro se baseiam no modo de coexistência de **SfBWithTeamsCollabAndMeetings** . As reuniões primeiro não são um produto ou um recurso — é uma configuração que aproveita recursos e recursos do Teams e do Skype for Business para fornecer uma experiência de coexistência adaptada exclusivamente.
 
-Em reuniões primeiro, os usuários criam sua reunião no Microsoft Teams, ao mesmo tempo em que continuam a usar o Skype for Business para chat, chamadas e presença. Não há sobreposição de modalidades entre o Teams e o Skype for Business. Chat, chamadas e presença são ativadas no Skype for Business e no Teams. Isso permite cenários exclusivos "melhor juntos" entre o Skype for Business e as equipes que melhoram a experiência do usuário durante a coexistência, bem como cenários **** de interoperabilidade com usuários do Microsoft Teams.
+Em reuniões primeiro, os usuários criam sua reunião no Microsoft Teams, ao mesmo tempo em que continuam a usar o Skype for Business para chat, chamadas e presença. Não há sobreposição de modalidades entre o Teams e o Skype for Business. Chat, chamadas e presença são ativadas no Skype for Business e no Teams. Isso permite cenários exclusivos "melhor juntos" entre o Skype for Business e as equipes que melhoram a experiência do usuário durante a coexistência, bem como cenários de interoperabilidade com usuários do Microsoft **Teams** .
 
 ![Captura de tela do cenário melhor em conjunto com o Microsoft Teams e o Skype for Business](media/meetings-first-meeting-in-meeting.png)
 
@@ -52,9 +51,9 @@ Além disso, as reuniões primeiro são úteis para organizações cujo escopo �
 
 Em primeiro lugar, a reunião traz os seguintes recursos:
 
-- [Provisionar um usuário do Skype for Business Server (local)](https://docs.microsoft.com/microsoftteams/tutorial-audio-conferencing?tutorial-step=3) com [conferência de áudio](tutorial-audio-conferencing.yml)do teams.
+- [Provisionar um usuário do Skype for Business Server (local)](https://docs.microsoft.com/microsoftteams/tutorial-audio-conferencing?tutorial-step=3) com [conferência de áudio do teams](tutorial-audio-conferencing.yml).
 - [Serviço de migração de reuniões](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms): as reuniões organizadas pelo usuário serão migradas para a nuvem e convertidas em reuniões do Team, pois o usuário será promovido para reuniões primeiro (requer o Exchange Online).
-- Experiência do usuário simplificada no Microsoft Teams, centralizado em reuniões de equipes e equipes e canais (que, opcionalmente, podem ser ocultados usando a [política de permissões do aplicativo](teams-app-permission-policies.md)); As [equipes de chat, chamada e autopresença particulares](teams-client-experience-and-conformance-to-coexistence-modes.md) do Teams não são expostas em reuniões primeiro, permitindo que a implantação e o esforço de adoção se destaquem totalmente em reuniões.
+- Experiência do usuário simplificada no Microsoft Teams, centralizado em reuniões de equipes e equipes e canais (que, opcionalmente, podem ser ocultados usando a [política de permissões do aplicativo](teams-app-permission-policies.md)); As [equipes de chat, chamada e autopresença particulares do teams](teams-client-experience-and-conformance-to-coexistence-modes.md) não são expostas em reuniões primeiro, permitindo que a implantação e o esforço de adoção se destaquem totalmente em reuniões.
 - [Experiência de reunião de equipes](tutorial-meetings-in-teams.yml)superiores.
 - "Melhor juntos" entre o Teams e o Skype for Business: 
   - Retenção automática: quando estiver em uma reunião no Microsoft Teams, entrar em uma chamada no Skype for Business colocará a reunião do Microsoft Teams em espera e vice-versa. Isso impede que os usuários tenham suas chamadas privadas ensaiadas pelos participantes da reunião.
@@ -81,7 +80,7 @@ Para a melhor experiência da melhor reunião, os usuários devem ser habilitado
 
 No mínimo, os usuários devem ser [licenciados para equipes](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide). Além disso, eles podem ser licenciados para [conferências de áudio](set-up-audio-conferencing-in-teams.md), se necessário.
 
-Recomendamos que você conceda o [ **SfBOnly** ou o modo **SfBWithTeamsCollab** ](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) como padrão do locatário no momento em que licenciasse os usuários. Isso garante que os usuários não comecem a usar o Microsoft Teams no modo de **ilhas** padrão antes de você estar pronto para iniciar reuniões primeiro.
+Recomendamos que você [conceda o **SfBOnly** ou o modo **SfBWithTeamsCollab** ](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) como padrão do locatário no momento em que licenciasse os usuários. Isso garante que os usuários não comecem a usar o Microsoft Teams no modo de **ilhas** padrão antes de você estar pronto para iniciar reuniões primeiro.
 
 As reuniões primeiro têm suporte em clientes de área de trabalho completos (Windows e Mac), em clientes de navegador e em clientes móveis. Ele também é compatível com as [salas do Microsoft Teams](https://docs.microsoft.com/microsoftteams/room-systems/). Melhor juntos requer o cliente de área de trabalho completo.
 
@@ -92,11 +91,11 @@ Para os usuários terem a melhor experiência possível em reuniões do Teams, v
 - Siga as etapas em [reuniões e conferências do Microsoft Teams](deploy-meetings-microsoft-teams-landing-page.md), em particular.
 - [Avalie seu ambiente](3-envision-evaluate-my-environment.md).
 - [Prepare a rede da sua organização para o Microsoft Teams](prepare-network.md).
-- Atualize suas salas de reunião com as [soluções e dispositivos da sala de reunião](https://docs.microsoft.com/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)habilitados para o Microsoft Teams ou use a interoperabilidade [de vídeo em nuvem para Microsoft Teams](cloud-video-interop.md) para permitir que seus dispositivos e salas de terceiros participem de reuniões de equipe.
+- Atualize suas salas de reunião com as [soluções e dispositivos da sala de reunião](https://docs.microsoft.com/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)habilitados para o Microsoft Teams ou use a [interoperabilidade de vídeo em nuvem para Microsoft Teams](cloud-video-interop.md) para permitir que seus dispositivos e salas de terceiros participem de reuniões de equipe.
 - Equipar seus usuários com [dispositivos de áudio e vídeo USB certificados](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
 - Prepare-se para a [conscientização da unidade e a adoção de reuniões do teams](adopt-microsoft-teams-landing-page.md).
 - [Planejar o gerenciamento de serviços](4-envision-plan-my-service-management.md).
-- Familiarize-se com os avançados relatórios de análise de chamadas para solucionar problemas com a [qualidade de chamadas ruins](use-call-analytics-to-troubleshoot-poor-call-quality.md).
+- Familiarize-se com os avançados relatórios de análise de chamadas para [solucionar problemas com a qualidade de chamadas ruins](use-call-analytics-to-troubleshoot-poor-call-quality.md).
 
 Você pode considerar a execução de um piloto de preparação da produção de escala moderada neste estágio.
 
@@ -104,7 +103,7 @@ Você pode considerar a execução de um piloto de preparação da produção de
 
 Depois de licenciar seus usuários e preparar sua organização para reuniões do Teams, é hora de habilitar seus usuários para reuniões primeiro. Ficou mais fácil: uma única configuração fará tudo isso!
 
-Todos os recursos e experiências do usuário em reuniões primeiro, incluindo a configuração do cliente do Teams e a [conformidade automática](teams-client-experience-and-conformance-to-coexistence-modes.md) da experiência do usuário, o serviço de migração de reuniões e recursos aprimorados juntos, são configurados por meio da concessão do usuário (ou grupo de usuários ou padrão locatário) o modo de coexistência de [SfBWithTeamsCollabAndMeetings](setting-your-coexistence-and-upgrade-settings.md) no centro de [Administração do Microsoft Teams](manage-teams-in-modern-portal.md) ou usando o [PowerShell](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps).
+Todos os recursos e experiências do usuário em reuniões primeiro, incluindo a configuração do cliente do Teams e a [conformidade automática](teams-client-experience-and-conformance-to-coexistence-modes.md) da experiência do usuário, o serviço de migração de reuniões e recursos aprimorados juntos, são configurados por meio da concessão do usuário (ou grupo de usuários ou padrão locatário) o [modo de coexistência de SfBWithTeamsCollabAndMeetings](setting-your-coexistence-and-upgrade-settings.md) no centro de administração do [Microsoft Teams](manage-teams-in-modern-portal.md) ou usando o [PowerShell](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps).
 
 ![Captura de tela das configurações do administrador para habilitar as reuniões primeiro](media/teams-meeting-admin-settings.png)
 
@@ -116,6 +115,6 @@ O relatório e a análise de chamadas para reuniões de equipe em reuniões prim
 
 ## <a name="related-links"></a>Links relacionados
 
-Depois de revisar este artigo, talvez você queira consultar [escolher a sua viagem de atualização, a](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)orientação de [migração e](migration-interop-guidance-for-teams-with-skype.md)interoperabilidade e [a coexistência com o Skype for Business](coexistence-chat-calls-presence.md) para obter mais detalhes.
+Depois de revisar este artigo, talvez você queira consultar [escolher a sua viagem de atualização, a](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)orientação de [migração e interoperabilidade](migration-interop-guidance-for-teams-with-skype.md)e [a coexistência com o Skype for Business](coexistence-chat-calls-presence.md) para obter mais detalhes.
 
 

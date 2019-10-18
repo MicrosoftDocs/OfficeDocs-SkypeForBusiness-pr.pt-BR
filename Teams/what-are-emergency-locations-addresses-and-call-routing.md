@@ -1,5 +1,5 @@
 ---
-title: O que são locais de emergência, locais e encaminhamento de chamadas?
+title: O que são locais e endereços de emergência, e roteamento de chamada?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -22,14 +21,14 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Saiba o que são locais de emergência, locais e encaminhamento de chamadas de emergência e como planejar e atribuí-los aos usuários. '
-ms.openlocfilehash: 7ab3c17e6d74d8e53358f91b3f99759cf4b22203
-ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
+ms.openlocfilehash: a6f3051c4902d9fda2f20ca17e4aa501a8922264
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37396397"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568548"
 ---
-# <a name="what-are-emergency-locations-places-and-call-routing"></a>O que são locais de emergência, locais e encaminhamento de chamadas?
+# <a name="what-are-emergency-locations-places-and-call-routing"></a>O que são locais e endereços de emergência, e roteamento de chamada?
 
 Ao configurar planos de chamada, você precisa atribuir um local de emergência para cada número de telefone quando receber o número de telefone ou atribuí-lo a um usuário para dar suporte a chamadas de emergência. Antes de poder atribuir um local de emergência a um número de telefone, você deve adicionar e validar um local de emergência. A validação verifica se o local de emergência é reconhecido e se está em um formato correto que pode ser usado por serviços de resposta de emergência. Opcionalmente, você pode adicionar um local no local de emergência para fornecer um local mais específico para o usuário. Por exemplo, o local pode ser um andar, um asa ou um escritório que está vinculado a um local de emergência específico. Embora locais de emergência sejam validados, os lugares não estão.
   
