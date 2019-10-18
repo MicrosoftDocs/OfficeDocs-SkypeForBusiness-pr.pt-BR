@@ -12,16 +12,15 @@ description: Para começar a usar o Microsoft Teams, implemente as primeiras equ
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0607544da01d6dce094f64684a717d2704acee4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 62e7b361f47c802e626821a2d3c97bc20e7c933f
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241590"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569570"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Introdução ao Microsoft Teams
 
@@ -30,7 +29,7 @@ Para começar a usar o Teams rapidamente, recomendamos que você crie duas ou tr
 
 O Teams permite reunir rapidamente uma equipe com pessoas de dentro e fora da organização, conversar com outras pessoas para gerar conversas rápidas e inclusivas, compartilhar e co-autorizar documentos com segurança e realizar iterações em projetos. Para personalizar o Teams, adicione acesso rápido às observações compartilhadas, páginas da Web e aplicativos. Use as reuniões e chamadas para colaborar em tempo real a partir dos locais onde os usuários se encontram. O Teams simplificará seu acesso aos serviços do Office 365 e a aplicativos de terceiros para ser o novo centro de gravidade para suas necessidades de colaboração e comunicação. Incentive seus usuários pioneiros a instalar os aplicativos móveis e de área de trabalho para aprimorar a experiência e receber os comentários mais precisos.
 
-![Captura de tela mostrando a captura de tela das interfaces](media/get-started-microsoft-teams.png "de usuário do cliente móvel e da área de trabalho mostrando a interface de usuário do cliente de área de trabalho do Teams" ) 
+![Captura de tela mostrando as interfaces de usuário do cliente móvel e da área de trabalho](media/get-started-microsoft-teams.png "Captura de tela exibindo o cliente de área de trabalho do Teams e o cliente móvel da interface do usuário" ) 
 
 Veja aqui como implementar o primeiro conjunto de equipes e canais para que seus usuários iniciais possam começar a usar o chat, compartilhamento de arquivos e colaboração.
 

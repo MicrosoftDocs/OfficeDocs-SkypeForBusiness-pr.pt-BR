@@ -12,16 +12,15 @@ description: Saiba mais sobre as opções de relatórios disponíveis para ver c
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae59765eabf25ee608b897e1468df30b1fa49450
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8700802f0f307ef474bde602c813da404a7c82bd
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245887"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569581"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Monitorar o uso e os comentários no Microsoft Teams
 É importante saber como os usuários estão usando o Teams e como está sendo a experiência deles com o Teams. Os relatórios de uso podem ajudar você a entender melhor os padrões de uso e, com os comentários dos usuários, fornecer informações para orientar a implantação geral e indicar onde priorizar os esforços de treinamento e comunicação.
@@ -41,14 +40,14 @@ Para ver esses relatórios, você deve ser um administrador global do Office 365
 
 - **Relatório de uso do Teams**: este relatório fornece uma visão geral da atividade de uso no Teams, inclusive do total de usuários e canais ativos, e do número de usuários e canais ativos, convidados e mensagens em cada equipe. 
 
-    ![Captura de tela do relatório de uso do Teams](media/teams-reports-teams-usage.png "Captura de tela do relatório de uso do Teams no centro de administração do Microsoft Teams")     
+    0![Captura de tela de um relatório de uso de equipes](media/teams-reports-teams-usage.png "Captura de tela do relatório de uso do Teams no centro de administração do Microsoft Teams")     
 - **Relatório de atividades do usuário no Teams**: este relatório fornece informações sobre os tipos de atividades com as quais os usuários se envolvem, como quantas pessoas se comunicam por chamadas particulares, mensagens do canal e mensagens de chat privadas. 
 
-    ![Captura de tela do relatório de atividades do usuário do Teams](media/teams-reports-user-activity.png "Captura de tela do relatório de atividades do usuário do Teams no centro de administração do Microsoft Teams") 
+    ![Relatório de atividades do usuário do Microsoft Team](media/teams-reports-user-activity.png "Captura de tela do relatório de atividade do Teams no centro de administração do Microsoft Teams") 
 `
 - **Relatório de uso de dispositivos do Teams**: este relatório mostra como os usuários se conectam ao Teams, inclusive quantas pessoas usam o Teams em seus dispositivos móveis. 
 
-    ![Captura de tela do relatório de uso de dispositivos do Teams](media/teams-reports-device-usage.png "Captura de tela do relatório de uso de dispositivos do Teams no centro de administração do Microsoft Teams")
+    ![Captura de tela do relatório de uso de dispositivos do Teams](media/teams-reports-device-usage.png "Captura de tela do relatório de uso de dispositivo do Teams no centro de administração do Microsoft Teams")
 
 Para saber mais, confira [Análises e relatórios de equipes](teams-analytics-and-reports/teams-reporting-reference.md). 
 
