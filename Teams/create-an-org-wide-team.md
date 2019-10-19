@@ -15,10 +15,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: db7caa3879e016b6e8453ad151785578d2391dd1
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37516645"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Criar uma equipe englobando toda a organização no Microsoft Teams
@@ -27,7 +27,7 @@ As equipes de toda a organização fornecem uma maneira automática para todos e
 
 Com as equipes de toda a organização, os administradores globais podem criar facilmente uma equipe pública que recebe cada usuário da organização e mantém a participação atualizada com o Active Directory, pois os usuários entram e saem da organização. Somente administradores globais podem criar equipes de toda a organização e, atualmente, uma equipe de toda a organização está limitada a organizações com no máximo 5.000 usuários. Também há um limite de cinco equipes de toda a organização por locatário. Se esses requisitos forem atendidos, os administradores globais verão **toda a organização** como uma opção quando selecionarem **criar uma equipe do zero** ao criar uma equipe. 
 
-![Captura de tela da opção de toda a organização para criar uma](media/create-org-wide-team.png "captura de tela da equipe de toda a organização da opção de toda a organização para criar uma equipe de toda a organização")
+![Captura de tela da opção de toda a organização para criar uma equipe de toda a organização](media/create-org-wide-team.png "Captura de tela da opção de toda a organização para criar uma equipe de toda a organização")
 
 Quando uma equipe de toda a organização é criada, todos os administradores globais são adicionados como proprietários da equipe e todos os usuários ativos são adicionados como membros da equipe. Os usuários não licenciados também são adicionados à equipe. Na primeira vez que um usuário não licenciado entrar no Teams, é atribuída ao usuário uma licença de avaliação de nuvem comercial do Microsoft Teams. Para saber mais sobre a licença de avaliação, confira [gerenciar a oferta de avaliação de nuvem comercial do teams](iw-trial-teams.md). 
 

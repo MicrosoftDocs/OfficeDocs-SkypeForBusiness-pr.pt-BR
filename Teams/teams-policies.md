@@ -23,10 +23,10 @@ f1keywords:
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
 ms.openlocfilehash: 5edaa21f3d9a2438532f8cc7f45f182c105b2f1e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37570130"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Gerenciar políticas do teams no Microsoft Teams
@@ -74,9 +74,9 @@ Para atribuir uma política personalizada do teams a vários usuários de uma s�
 Ou, você também pode fazer o seguinte:
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, **vá para** > políticas do teams**Teams**.
-2. Selecione a política clicando à esquerda do nome da política.
-3. Selecione **gerenciar usuários**.
-4. No painel **gerenciar usuários** , procure pelo usuário por nome para exibição ou por nome de usuário, selecione o nome e, em seguida, selecione **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
+2. Escolha a política clicando à esquerda do nome da política.
+3. Escolha **Gerenciar usuários**.
+4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
 5. Quando tiver terminado de adicionar usuários, clique em **salvar**.
 
 ### <a name="assign-a-custom-teams-policy-to-users-in-a-group"></a>Atribuir uma política personalizada do teams a usuários em um grupo

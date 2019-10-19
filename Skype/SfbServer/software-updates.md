@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Localize e gerencie atualizações para o Skype for Business Server ou o Lync 2013. Use os links para obter mais informações e baixar as atualizações.
-ms.openlocfilehash: 8e0e7c2e42c6b778c219cb31dc3460ea8e220bb8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 121c91b4882eb7509dfd19ca2c6261720a4e7fc3
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286793"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "35746446"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>Downloads e atualizações do Skype for Business
 
@@ -24,18 +24,19 @@ A página da Web de _downloads e atualizações do Skype for Business_ que estav
 
 - [Atualizações para clientes do Skype for Business](sfb-client-updates.md) que contenham as seções:
     - [Atualizações do Cliente Skype for Business 2016](sfb-client-updates.md#skype-for-business-2016-client-updates)
-    - [Atualizações do Cliente Skype for Business 2015](sfb-client-updates.md#skype-for-business-2015-client-updates)
+    - [Atualizações do cliente do Skype for Business 2015](sfb-client-updates.md#skype-for-business-2015-client-updates)
     - [Atualizações para o cliente Mac do Skype for Business](sfb-client-updates.md#skype-for-business-on-mac-client-updates)
     - [Atualização do cliente do Lync 2013](sfb-client-updates.md#lync-2013-client-updates)
         - [Atualizações do Lync Phone Edition](sfb-client-updates.md#lync-phone-edition-updates)
         - [Clientes do Lync Phone Edition no Centro de Download](sfb-client-updates.md#lync-phone-edition-clients-on-download-center)
         - [Software de avaliação Lync Basic 2013](sfb-client-updates.md#trial-software)
     - [Atualizações do cliente Lync for Mac 2011](sfb-client-updates.md#lync-for-mac-2011-client-updates)
-    - [Atualização do cliente do Lync 2010](sfb-client-updates.md#lync-2010-client-updates)
+    - [Atualizações do cliente do Lync 2010](sfb-client-updates.md#lync-2010-client-updates)
         - [Atualizações do Lync 2010 Attendant](sfb-client-updates.md#lync-2010-attendant-updates)
         - [Atualizações do Lync 2010 Attendee](sfb-client-updates.md#lync-2010-attendee-updates)
 
 - [Atualizações do Skype for Business Server](sfb-server-updates.md) que contêm as seções:
+    - [Histórico de atualização do Skype for Business Server 2019](sfb-server-updates.md#skype-for-business-server-2019-update-history)
     - [Histórico de atualizações do Skype for Business Server 2015](sfb-server-updates.md#skype-for-business-server-2015-update-history)
     - [Histórico de atualizações do Lync Server 2013](sfb-server-updates.md#lync-server-2013-update-history)
         - [Ferramentas para Desenvolvedores do Lync Server 2013](sfb-server-updates.md#lync-server-2013-dev-tools)

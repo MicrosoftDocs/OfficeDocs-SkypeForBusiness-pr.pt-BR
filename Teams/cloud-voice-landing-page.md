@@ -18,10 +18,10 @@ description: Página de aterrissagem para implantar a voz na nuvem no Microsoft 
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f60159d2d9d65afd3837a0b48b82ac7e13b8e0df
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37515827"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Voz na nuvem no Microsoft Teams
@@ -30,7 +30,7 @@ Você concluiu a [Introdução](get-started-with-teams-quick-start.md). Você im
 
 A Cloud Voice oferece recursos de PBX (Private Branch Exchange) e opções para conexão à rede telefônica pública comutada (PSTN).
 
-Este artigo ajuda você a decidir se precisa alterar qualquer uma das configurações de voz de nuvem padrão, com base nas necessidades de negócios e perfil da sua organização, e o orienta durante cada alteração. Dividimos as configurações em dois grupos, começando pelo conjunto básico de [alterações que você tem mais probabilidade de fazer](#core-deployment-decisions). O segundo grupo inclui [configurações adicionais](#additional-deployment-decisions) que poderão ser configuradas com base nas necessidades de sua organização.
+Este artigo ajuda você a decidir se precisa alterar qualquer uma das configurações de voz de nuvem padrão, com base nas necessidades de negócios e perfil da sua organização, e o orienta durante cada alteração. Dividimos as configurações em dois grupos, começando pelo conjunto básico de [alterações que você tem mais probabilidade de fazer](#core-deployment-decisions). O segundo grupo inclui [configurações adicionais](#additional-deployment-decisions) que poderão ser configuradas com base nas necessidades da organização.
 
 Recomendamos que todas as organizações funcionem pelas decisões básicas e, se a sua organização tiver requisitos adicionais, revise o material a seguir.
 
@@ -44,7 +44,7 @@ Os artigos a seguir fornecem mais informações sobre a implantação e o uso de
 - [Sistema de Telefonia com Planos de Chamadas](calling-plan-landing-page.md)
 - [Roteamento Direto do Sistema Telefônico](direct-routing-landing-page.md)
 - [Implantação do Cloud Voice](cloud-voice-deployment.md)
-- [Soluções de telefonia da Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Soluções de Telefonia da Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
 - Assista à sessão a seguir para saber mais sobre o sistema telefônico: [introdução ao sistema telefônico no Microsoft Teams](https://aka.ms/teams-phone-system)
 
 

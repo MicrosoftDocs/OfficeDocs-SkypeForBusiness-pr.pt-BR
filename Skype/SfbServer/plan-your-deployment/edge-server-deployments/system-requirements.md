@@ -15,10 +15,10 @@ ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 'Resumo: Saiba mais sobre os requisitos do sistema para o servidor de borda no Skype for Business Server.'
 ms.openlocfilehash: 01a5cce8dd1ccb85d322b6c66615d022c8d6c2df
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "34277143"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Requisitos do sistema do servidor de borda no Skype for Business Server
@@ -41,7 +41,7 @@ Com isso em mente, esses são os componentes nos quais você deverá prestar ate
     
 - [Directors](system-requirements.md#Directors) (são opcionais e, se forem incluídos, ficarão localizados em sua rede interna)
     
-- [Balanceadores de carga](system-requirements.md#LoadBalancers) (você pode ter o balanceamento de carga de DNS ou um balanceador de carga de hardware (HLB), mas para um único servidor de borda, isso não é necessário)
+- [Balanceadores de carga](system-requirements.md#LoadBalancers) (você pode ter equilíbrio de carga de DNS ou um balanceador de carga de hardware (HLB), mas para um único servidor de borda, isso não é necessário)
     
 Temos mais detalhes sobre cada um abaixo:
   
@@ -52,7 +52,7 @@ Estes são os servidores do Skype for Business implantados em seu ambiente de pe
   
 - **Serviço de borda de acesso**: fornece um ponto de conexão confiável e único para tráfego de protocolo de iniciação de sessão (SIP) de entrada e saída.
     
-- **Serviço de borda**de Webconferência: permite que usuários externos ingressem em reuniões hospedadas em seu ambiente interno do Skype for Business Server.
+- **Serviço de borda de Webconferência**: permite que usuários externos ingressem em reuniões hospedadas em seu ambiente interno do Skype for Business Server.
     
 - **O serviço de borda A/V**: torna o compartilhamento de áudio, vídeo, compartilhamento de aplicativos e transferência de arquivos disponíveis para usuários externos.
     

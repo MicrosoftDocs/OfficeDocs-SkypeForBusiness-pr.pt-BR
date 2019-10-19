@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
-description: 'Resumo: Saiba mais sobre a API reembolsará proporcionalmente ao para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.'
-ms.openlocfilehash: f74f581a3d46ba7cf75daf92df5ade16dab510d0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: 'Resumo: Saiba mais sobre a API de dados para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.'
+ms.openlocfilehash: 016cc1be9f5cd5506f8ee7d8ddbe2765e0015ffd
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274797"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "36571915"
 ---
 # <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>API de dados para o painel de qualidade de chamada (CQD) no Skype for Business Server
  
-**Resumo:** Saiba mais sobre a API reembolsará proporcionalmente ao para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.
+**Resumo:** Saiba mais sobre a API de dados para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.
   
 A API de dados fornece acesso programático para o painel de qualidade de chamada para o Skype for Business Server.
   
@@ -42,7 +42,7 @@ As operações REST estão incluídas na tabela a seguir.
    
  **Suporte ao compartilhamento de recursos entre origens (CORS) para a API de dados**
   
-A API de dados dá suporte ao compartilhamento de recursos entre origens (CORS). O CORS é um recurso HTTP que permite que um aplicativo Web em execução em um domínio acesse recursos em outro domínio. Os navegadores da Web implementam uma [](https://www.w3.org/Security/wiki/Same_Origin_Policy) restrição de segurança conhecida como política da mesma origem que impede que uma página da Web chame APIs em um domínio diferente. O CORS fornece uma maneira segura de permitir que um domínio (o domínio de origem) chame APIs em outro domínio. Consulte a [especificação CORS](https://www.w3.org/TR/cors/) para obter detalhes sobre o CORS.
+A API de dados dá suporte ao compartilhamento de recursos entre origens (CORS). O CORS é um recurso HTTP que permite que um aplicativo Web em execução em um domínio acesse recursos em outro domínio. Os navegadores da Web implementam uma restrição de segurança conhecida como política [da mesma origem](https://www.w3.org/Security/wiki/Same_Origin_Policy) que impede que uma página da Web chame APIs em um domínio diferente. O CORS fornece uma maneira segura de permitir que um domínio (o domínio de origem) chame APIs em outro domínio. Consulte a [especificação CORS](https://www.w3.org/TR/cors/) para obter detalhes sobre o CORS.
   
  **Habilitando o CORS para a API de dados**
   

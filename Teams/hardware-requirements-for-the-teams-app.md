@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ec568123f92c188d8642f6e5c8907485dc6de05
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 14f41c30c00c871ba4a0a96717fabba422cf85dd
+ms.sourcegitcommit: 14d342644d94f75396cf38bfe787cab408e1fb77
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37565065"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37590134"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Requisitos de hardware para o aplicativo Microsoft Teams
 
@@ -59,9 +59,15 @@ ms.locfileid: "37565065"
 
 Você pode usar o Microsoft Teams nestas plataformas móveis:
 
-- Android – requer Android 4,4 ou posterior
+- Android – requer Android 5,0 ou posterior. Compatível com telefones e tablets Android.
 
-- iOS – requer iOS 10,0 ou posterior. Compatível com iPhone, iPad e iPod Touch.
+  O suporte limita-se às quatro últimas versões principais do Android. Quando uma nova versão principal do Android é lançada, a nova versão e as três versões anteriores são oficialmente aceitas.
+
+- iOS – requer iOS 10,0 ou posterior. Compatível com iPhone, iPad e iPod Touch. 
+
+  O suporte limita-se às duas versões principais mais recentes do iOS. Quando uma nova versão principal do iOS é liberada, a nova versão do iOS e da versão anterior é suportada oficialmente.
+
+Para obter a melhor experiência com o Microsoft Teams, use a versão mais recente do iOS e Android.
 
 ## <a name="hardware-requirements-for-the-teams-app-in-a-virtual-desktop-infrastructure-vdi-environment"></a>Requisitos de hardware para o aplicativo Teams em um ambiente VDI (infraestrutura de área de trabalho virtual)
 

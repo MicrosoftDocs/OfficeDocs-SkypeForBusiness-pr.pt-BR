@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumo: saiba como configurar sua infraestrutura do Skype for Business Server 2019 para trabalhar com o System Center Operations Manager.'
-ms.openlocfilehash: 5a0415c0447127b0da2b7670e857dbf1a6185794
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: e08debc645665d8be69ce062930d64421b093433
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221880"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37318953"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>Gerenciar o Skype for Business Server 2019 usando o pacote de gerenciamento do SCOM
  
@@ -83,12 +83,14 @@ O pacote de monitoramento para o Skype for Business Server 2019 inclui os seguin
 ## <a name="whats-new"></a>Novidades
 
 Os recursos a seguir são novos nos pacotes de gerenciamento do Skype for Business Server 2019.
-  
+
+- **Alterações na [atualização de setembro de 2019](https://www.microsoft.com/download/details.aspx?id=57511) ** Alguns alertas têm caracteres especiais removidos. Em alguns casos, os caracteres especiais interferem com o recurso de notificação de canal de comando do SCOM.
+
 - **Descoberta automática para entrada do cliente** Os aplicativos cliente que entram no Skype for Business Server 2019 geralmente detectam automaticamente o servidor para entrar. As transações sintéticas agora oferecem suporte para verificar se a descoberta automática está configurada corretamente.
     
 - **Intervalos de execução de transação sintética personalizada** Para simplificar o processo de configuração dos nós de Inspetor, as transações sintéticas podem compartilhar contas de usuário. Isso diminui a frequência com que os testes são executados uma vez que os testes são serializados para evitar conflitos. Por padrão, as transações sintéticas são executadas a cada 15 minutos para garantir que todos os testes sejam executados em tempo hábil. Os administradores que optam por utilizar mais usuários ou menos testes por usuário agora também podem reduzir o intervalo de execução.
     
-- **Transação sintética dos serviços** de interoperabilidade de vídeo Os clientes que estão migrando para o Skype for Business Server 2019 de outras soluções do fornecedor muitas vezes desejam continuar usando os dispositivos de teleconferência de vídeo (VTCs) desses outros fornecedores. O servidor de interoperabilidade de vídeo é uma nova função de servidor do Skype for Business Server 2019 que permite que os clientes continuem a usar o Cisco VTCs nas salas de conferência conectando-se ao Cisco CUCM por meio de um tronco de vídeo SIP. Este recurso também adiciona uma transação sintética para ajudar a verificar se o Servidor de Interoperabilidade de Vídeo está ativo e pode lidar com conexões de entrada através de um tronco SIP de vídeo.
+- **Transação sintética dos serviços de interoperabilidade de vídeo** Os clientes que estão migrando para o Skype for Business Server 2019 de outras soluções do fornecedor muitas vezes desejam continuar usando os dispositivos de teleconferência de vídeo (VTCs) desses outros fornecedores. O servidor de interoperabilidade de vídeo é uma nova função de servidor do Skype for Business Server 2019 que permite que os clientes continuem a usar o Cisco VTCs nas salas de conferência conectando-se ao Cisco CUCM por meio de um tronco de vídeo SIP. Este recurso também adiciona uma transação sintética para ajudar a verificar se o Servidor de Interoperabilidade de Vídeo está ativo e pode lidar com conexões de entrada através de um tronco SIP de vídeo.
     
 - **Transação Sintética de Conferência para Compartilhamento de Aplicativos** Agora, a validação do cenário completo para Conferências de Compartilhamento de Aplicativos é compatível.
     
@@ -134,7 +136,7 @@ Os pacotes de gerenciamento do Skype for Business Server 2019 fornecem maior cob
 |:-----|:-----|:-----|
 |6  <br/> |Sistema de Mensagens Instantâneas Ponto-a-Ponto  <br/> |Disponível no Lync Server 2010 e mais recentes  <br/> |
 |7  <br/> |Áudio Vídeo Ponto-a-Ponto  <br/> |Disponível no Lync Server 2010 e mais recentes  <br/> |
-|08  <br/> |Sistema de Mensagens Instantâneas Ponto-a-Ponto do MCX (móvel)  <br/> |Disponível no lançamento de setembro de 2011 do Lync Server 2010 para o Skype for Business 2019  <br/> |
+|8  <br/> |Sistema de Mensagens Instantâneas Ponto-a-Ponto do MCX (móvel)  <br/> |Disponível no lançamento de setembro de 2011 do Lync Server 2010 para o Skype for Business 2019  <br/> |
  
 > [!NOTE]
 > O suporte do MCX (serviço de mobilidade) para clientes móveis herdados não está mais disponível no Skype for Business Server 2019. Todos os clientes móveis atuais do Skype for Business já usam a API da Web de comunicação unificada (UCWA) para dar suporte a mensagens instantâneas (IM), presença e contatos. Os usuários com clientes herdados que usam o MCX precisarão atualizar para um cliente atual.
@@ -143,7 +145,7 @@ Os pacotes de gerenciamento do Skype for Business Server 2019 fornecem maior cob
 
 ||||
 |:-----|:-----|:-----|
-|222  <br/> |Conferências de áudio/vídeo  <br/> |Disponível no Lync Server 2010 e mais recentes  <br/> |
+|9  <br/> |Conferências de áudio/vídeo  <br/> |Disponível no Lync Server 2010 e mais recentes  <br/> |
 |254  <br/> |Conferência de dados  <br/> |Disponível no Lync Server 2013 e mais recentes  <br/> |
 |11:00  <br/> |Conferência de Mensagens Instantâneas  <br/> |Disponível no Lync Server 2010 e mais recentes  <br/> |
 |12  <br/> | Chat Persistente <br/> |Disponível no Lync Server 2013 e mais recentes  <br/> |

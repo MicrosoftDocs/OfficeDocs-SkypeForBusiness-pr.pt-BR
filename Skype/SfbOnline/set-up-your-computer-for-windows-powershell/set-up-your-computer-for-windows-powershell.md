@@ -1,5 +1,5 @@
 ---
-title: Configurar seu computador para o Windows PowerShell
+title: Configurar o computador para o Windows PowerShell
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -19,13 +19,13 @@ ms.custom:
 - PowerShell
 description: Saiba quais são os requisitos de gerenciamento remoto do Skype for Business online por meio do Windows PowerShell, incluindo sistemas operacionais compatíveis.
 ms.openlocfilehash: 2c4cae9e7ff0d2ed1d7d27a2a8f6e790959a62fe
-ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "36645151"
 ---
-# <a name="set-up-your-computer-for-windows-powershell"></a>Configurar seu computador para o Windows PowerShell
+# <a name="set-up-your-computer-for-windows-powershell"></a>Configurar o computador para o Windows PowerShell
 
 O gerenciamento remoto do Skype for Business online usando o Microsoft PowerShell só tem suporte em computadores de 64 bits que executam um dos seguintes sistemas operacionais:
 
@@ -55,7 +55,7 @@ Você pode encontrar informações sobre como baixar e instalar esses itens nos 
   
 - [Baixar e instalar o módulo do conector do Skype for Business Online](download-and-install-the-skype-for-business-online-connector.md)
     
-- [Baixar e instalar o Windows PowerShell 5,1](download-and-install-windows-powershell-5-1.md)
+- [Baixar e instalar o Windows PowerShell 5.1](download-and-install-windows-powershell-5-1.md)
 
 - [Gerenciar o Skype for Business online com o Office 365 PowerShell](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/blob/live/Enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell.md)
     

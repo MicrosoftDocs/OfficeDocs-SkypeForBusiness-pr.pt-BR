@@ -20,10 +20,10 @@ appliesto:
 - Microsoft Teams
 - Skype for Business Online
 ms.openlocfilehash: 0d473ffa67b21c4ec3a160a8687a1688ea1d1cf5
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37564781"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Gerenciar equipes durante a transição para o novo centro de administração do Microsoft Teams
@@ -121,12 +121,12 @@ Durante Junho e 2019 de julho, os locatários EDU restantes serão migrados da e
 
 |Seção do teams no centro de administração do Microsoft 365  |Nome da configuração (nível do locatário)  |Política do centro de administração do Microsoft Teams   |Nível: locatário ou usuário   |
 |---------|---------|---------|---------|  
-| Mensagens  |Os proprietários podem excluir mensagens enviadas |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Usuário |
-| Mensagens | Os usuários podem excluir mensagens enviadas |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Usuário |
-| Mensagens  | Os usuários podem editar mensagens enviadas |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)  |Usuário|
+| Mensagens  |Os proprietários podem excluir as mensagens enviadas |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Usuário |
+| Mensagens | Os usuários podem excluir as mensagens enviadas |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Usuário |
+| Mensagens  | Os usuários podem editar as mensagens enviadas |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)  |Usuário|
 | Mensagens | Permitir que os usuários conversem |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Usuário |
 | Mensagens | Usar o Giphys em conversas | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Usuário |
-| Mensagens | Classificação de conteúdo do Giphy | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Usuário |
+| Mensagens | Classificação de conteúdo Giphy | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Usuário |
 | Mensagens | Usar o memes em conversas  |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Usuário |
 | Mensagens | Usar adesivos nas conversas |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Usuário |
 
@@ -140,5 +140,5 @@ Além disso, aqui estão as configurações que estão disponíveis apenas no ce
 |Permitir que os usuários traduzam mensagens |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)| Usuário |
 |Confirmações de leitura | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Usuário |
 |Os usuários podem enviar notificações de prioridade | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Usuário |
-|Criação de mensagem de voz |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| Usuário |
+|Criação de mensagens de voz |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| Usuário |
 |Em dispositivos móveis, exiba os canais favoritos acima dos chats recentes |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| Usuário |

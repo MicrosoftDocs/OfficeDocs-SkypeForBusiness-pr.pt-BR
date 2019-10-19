@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: Para recuperação de desastres, o Skype for Business Server oferece emparelhamento de pool com failover em caso de um pool ficar inativo.
-ms.openlocfilehash: 15df85790cd7959b88126c5e6bb0e7fd99b836e1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3999b7b8c2dd9b5eea942779f09924c6b5a79210
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297502"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37341927"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>Recuperação de desastre do pool de front-end no Skype for Business Server
  
@@ -56,7 +56,7 @@ Para failover e failback de pool, o destino projetado para objetivo de tempo de 
   
 Para failover e failback de pool, o destino projetado para objetivo de ponto de recuperação (RPO) é de 5 minutos. Isso representa o tempo medido dos dados que pode ser perdido devido ao desastre, devido à latência de replicação do serviço de backup. Por exemplo, se um pool ficar inoperante em 10:00, e o RPO for de 5 minutos, dados gravados no pool entre 9:55 A.M. e 10:00 A. M. talvez não tenham sido replicados para o pool de backup e seriam perdidos.
   
-Todos os números de RTO e RPO neste documento supõem que os dois data centers estão localizados na mesma região do mundo com alta velocidade e transporte de baixa latência entre os dois locais. Esses números são medidos para um pool com 40.000 usuários ativos ao mesmo tempo e 200.000 usuários habilitados para Lync com respeito a um modelo de usuário predefinido, onde não há backlog na replicação de dados. Eles estão sujeitos a alteração baseado no teste e na validação de desempenho.
+Todos os números de RTO e RPO neste documento supõem que os dois data centers estão localizados na mesma região do mundo com alta velocidade e transporte de baixa latência entre os dois locais. Esses números são medidos para um pool com usuários do 40.000 simultaneamente ativos e 200.000 usuários habilitados para o Skype for Business com respeito a um modelo de usuário predefinido onde não há uma lista de pendências na replicação de dados. Eles estão sujeitos a alteração baseado no teste e na validação de desempenho.
   
 ## <a name="central-management-store-failover"></a>Failover do Repositório de Gerenciamento Central
 

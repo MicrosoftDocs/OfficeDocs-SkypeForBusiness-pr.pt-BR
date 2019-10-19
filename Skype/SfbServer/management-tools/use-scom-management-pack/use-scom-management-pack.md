@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 'Resumo: saiba como configurar sua infraestrutura do Skype for Business Server 2015 para trabalhar com o System Center Operations Manager.'
-ms.openlocfilehash: a5f676180508898b433953c37656063bd34bd323
-ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
+ms.openlocfilehash: 5622b09b3d55b4d0d3a3fe026f66b28e3c4be75e
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2019
-ms.locfileid: "36790888"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "36824544"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>Manage Skype for Business Server 2015 using SCOM Management pack
  
@@ -85,7 +85,7 @@ O pacote de monitoramento para o Skype for Business Server 2015 inclui os seguin
 
 Os recursos a seguir são novos nos pacotes de gerenciamento do Skype for Business Server 2015.
 
-- **Mudanças na [atualização de junho de 2019](https://www.microsoft.com/en-in/download/details.aspx?id=47364) ** Alguns alertas têm caracteres especiais removidos. Em alguns casos, os caracteres especiais interferem com o recurso de notificação de canal de comando do SCOM.
+- **Alterações na [atualização de setembro de 2019](https://www.microsoft.com/en-in/download/details.aspx?id=47364) ** Alguns alertas têm caracteres especiais removidos. Em alguns casos, os caracteres especiais interferem com o recurso de notificação de canal de comando do SCOM.
 
 - **Descoberta automática para entrada do cliente** Os aplicativos cliente que entram no Skype for Business Server 2015 geralmente detectam automaticamente o servidor para entrar. As transações sintéticas agora oferecem suporte para verificar se a descoberta automática está configurada corretamente.
     
@@ -137,7 +137,7 @@ Os pacotes de gerenciamento do Skype for Business Server 2015 fornecem maior cob
 |:-----|:-----|:-----|
 |6  <br/> |Sistema de Mensagens Instantâneas Ponto-a-Ponto  <br/> |Disponível no Lync Server 2010 e mais recentes  <br/> |
 |7  <br/> |Áudio Vídeo Ponto-a-Ponto  <br/> |Disponível no Lync Server 2010 e mais recentes  <br/> |
-|08  <br/> |Sistema de Mensagens Instantâneas Ponto-a-Ponto do MCX (móvel)  <br/> |Disponível no lançamento de setembro de 2011 do Lync Server 2010 para o Skype for Business 2015  <br/> |
+|8  <br/> |Sistema de Mensagens Instantâneas Ponto-a-Ponto do MCX (móvel)  <br/> |Disponível no lançamento de setembro de 2011 do Lync Server 2010 para o Skype for Business 2015  <br/> |
  
 > [!NOTE]
 > O suporte do MCX (serviço de mobilidade) para clientes móveis herdados não está mais disponível no Skype for Business Server 2019. Todos os clientes móveis atuais do Skype for Business já usam a API da Web de comunicação unificada (UCWA) para dar suporte a mensagens instantâneas (IM), presença e contatos. Os usuários com clientes herdados que usam o MCX precisarão atualizar para um cliente atual.
@@ -145,7 +145,7 @@ Os pacotes de gerenciamento do Skype for Business Server 2015 fornecem maior cob
 
 |Transações Sintéticas Suportadas para Conferência e Chat Persistente|||
 |:-----|:-----|:-----|
-|222  <br/> |Conferências de áudio/vídeo  <br/> |Disponível no Lync Server 2010 e mais recentes  <br/> |
+|9  <br/> |Conferências de áudio/vídeo  <br/> |Disponível no Lync Server 2010 e mais recentes  <br/> |
 |254  <br/> |Conferência de dados  <br/> |Disponível no Lync Server 2013 e mais recentes  <br/> |
 |11:00  <br/> |Conferência de Mensagens Instantâneas  <br/> |Disponível no Lync Server 2010 e mais recentes  <br/> |
 |12  <br/> | Chat Persistente <br/> |Disponível no Lync Server 2013 e mais recentes  <br/> |

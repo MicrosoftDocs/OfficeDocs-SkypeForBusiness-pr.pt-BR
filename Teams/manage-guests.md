@@ -16,10 +16,10 @@ description: Os administradores de TI podem adicionar convidados em nível de lo
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 7db3d42a8d4ae44364ee56f6c7f31ce501a34137
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37567615"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Gerenciar o acesso de convidados no Microsoft Teams

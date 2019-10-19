@@ -12,12 +12,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 258430b0-574a-47fb-90b7-54ee8996b2ec
 description: Este artigo lista as topologias online e locais que são compatíveis com a autenticação moderna no Skype for Business, bem como os recursos de segurança aplicáveis a cada topologia.
-ms.openlocfilehash: 04dc6933fb63db7ebaec4f2c346e3cfbc60f9e24
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0d66790d2c471af29ed5c3f886393b1cd33f2b6a
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297334"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "34408627"
 ---
 # <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>Skype for Business topologies supported with Modern Authentication
  
@@ -77,7 +77,7 @@ Primeiro, vamos tratar da autorização moderna com o Skype for Business em topo
 |Nome da topologia  <br/> |Exemplo  <br/> |Descrição  <br/> |Compatível   <br/> |
 |:-----|:-----|:-----|:-----|
 |Somente na nuvem  <br/> |![SFB compatível com a topologia do MA, somente na nuvem.](../../media/4d19b47f-8257-4a6f-9dab-0755206f7c52.PNG)Usuários hospedados/caixas de correio localizadas: Online   <br/> |A autenticação moderna está ativada tanto para o EXO quanto para o SFBO.  <br/> Portanto, o servidor de autorização é o Azure AD.  <br/> |Autenticação multifatorial (MFA), Autenticação baseada no certificado do cliente (CBA), Acesso condicional (CA)/Gerenciamento de aplicativo móvel (MAM) com o Intune. \*  <br/> |
-|Somente local  <br/> |![Compatível com SFB com topologia MA somente local.](../../media/9773e9a5-7cd6-41ef-940b-c4386c9fce20.PNG)Usuários hospedados/caixas de correio localizadas: no local  <br/> |A autenticação moderna está ativada para o SFB local.  <br/> Portanto, o servidor de autorização é o ADFS.  <br/> Para obter detalhes de configuração, confira [Este artigo.](https://technet.microsoft.com/en-us/library/mt710548.aspx) <br/> |MFA (somente para o Windows Desktop - os clientes móveis não são compatíveis). Nenhum recurso de integração do Exchange.  <br/> |
+|Somente local  <br/> |![Compatível com SFB com topologia MA somente local.](../../media/9773e9a5-7cd6-41ef-940b-c4386c9fce20.PNG)Usuários hospedados/caixas de correio localizadas: no local  <br/> |A autenticação moderna está ativada para o SFB local.  <br/> Portanto, o servidor de autorização é o ADFS.  <br/> Para obter detalhes de configuração, confira [Este artigo.](https://technet.microsoft.com/en-us/library/mt710548.aspx) <br/> |MFA (somente para o Windows Desktop - os clientes móveis não são compatíveis). Nenhum recurso de integração do Exchange.  <br/><p> **Não recomendamos essa abordagem. **Acesse:[https://aka.ms/ModernAuthOverview](https://aka.ms/ModernAuthOverview)<p/> |
    
 > [!IMPORTANT]
 > Recomenda-se que o estado da autenticação moderna seja o mesmo no Skype for Business e no Exchange (e suas contrapartes online) para a redução do número de prompts. 
