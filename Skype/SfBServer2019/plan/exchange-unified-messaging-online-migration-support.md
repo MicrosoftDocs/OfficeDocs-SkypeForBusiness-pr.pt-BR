@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: A Microsoft está desativando o serviço online de Unificação de mensagens do Exchange (ExchUMO) em fevereiro de 2020. Este artigo resume o que os clientes afetados devem saber e fazer para planejar sua continuidade de negócios.
-ms.openlocfilehash: 0472d142cc9d6b535b950e86e41753c82992bee5
-ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
+ms.openlocfilehash: 57a9e6fa688fc17aedde3dbcf5e6b689263c5b4e
+ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "36645244"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "37616084"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Suporte à migração da Unificação de Mensagens do Exchange Online
 
@@ -208,3 +208,14 @@ Os novos usuários do Skype for Business serão provisionados automaticamente pa
 #### <a name="admin-auto-attendant-management-experience"></a>Experiência de gerenciamento do atendedor automático do administrador 
 
 Para saber mais sobre atendedores automáticos, consulte [configurar um atendedor automático na nuvem](/MicrosoftTeams/create-a-phone-system-auto-attendant.md). 
+
+#### <a name="known-issues"></a>Problemas conhecidos
+
+**Caixa de correio compartilhada:** Uma caixa de correio compartilhada que é configurada usando o Exchange UM online continuará a receber mensagens depois de migrar para o CVM e continuará a ser acessada pelos usuários via Outlook. No entanto, o acesso para alterar as mensagens de saudação dessas caixas de correio não estará disponível após a migração para o CVM. Os clientes com caixas de correio compartilhadas que são usadas para capturar chamadores de atendedor automáticos devem aproveitar os recursos de caixa de correio de atendedores automáticos e filas de caixa de correio compartilhadas depois de lançado (ETA de 2019 outubro
+  
+**Atualize para a faixa do teams no cliente SFB:** O serviço CVM é baseado na infraestrutura do Microsoft Teams; as chamadas para o cliente Skype for Business podem fazer com que uma faixa de informações seja exibida no cliente que diz: "username não está usando o Skype for Business. Para uma experiência mais rica, mude para o Microsoft Teams ou inicie uma reunião do Skype. "
+Certifique-se de atualizar o cliente Skype for Business dos usuários para a atualização mais recente do cliente do C2R para impedir que essa faixa seja exibida. 
+  
+**Configurar o correio de voz leva você ao OWA:** Clicar em "configurar correio de voz" do cliente continuará a levar os clientes do Skype for Business Server 2015/2013 para a página do portal do Office Web Access (OWA) após a migração para o CVM. Todas as configurações foram removidas da guia correio de voz no OWA, e uma faixa será exibida com um link de redirecionamento para levar os usuários ao portal de configurações do usuário do CVM. 
+ 
+**Alterar o acesso móvel à saudação:** O acesso ao Assinante PSTN não é compatível com o CVM. Para os usuários que precisam alterar a saudação remotamente, uma opção de menu "alterar sua saudação" é adicionada ao serviço IVR de correio de voz para clientes móveis. Os usuários podem chamar esse serviço pressionando e mantendo a tecla "1" no teclado de discagem do cliente móvel. 

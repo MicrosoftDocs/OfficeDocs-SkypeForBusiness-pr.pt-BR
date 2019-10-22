@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instruções para implementar a caixa postal baseada em nuvem para usuários hospedados no Skype for Business Server.
-ms.openlocfilehash: 99fc250ff4c01a0b51e784c165edb99cbb867b3c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7423f16e7985a063ae5a974ea6c36684bfb75e7c
+ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160376"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "37616064"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>Configurar o serviço de caixa postal na nuvem para usuários locais
 
@@ -75,7 +75,7 @@ Para garantir que a caixa postal de sua organização seja encaminhada para o se
 Para modificar a política global, execute o seguinte comando no Shell de gerenciamento do Skype for Business Server após atualizar sua organização e Tenantid:
 
 ```
-Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemail Policy" -Destination exap.um.outlook.com -Organization YourDefaultDomain.onmicrosoft.com -TenantID “11111111-1111-1111-1111-111111111111”
+Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemail Policy" -Destination exap.um.outlook.com -Organization YourDefaultDomain.onmicrosoft.com -Tenant “11111111-1111-1111-1111-111111111111”
 ```
 
 - **Destination** especifica o FQDN (nome de domínio totalmente qualificado) do serviço de caixa postal hospedado na nuvem. Esse valor deve ser definido como **exap.um.Outlook.com**.
@@ -84,7 +84,7 @@ Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemai
 
     O nome da organização também é o nome de domínio padrão no Office 365.
 
-- **Tenantid** é usada para identificar seu locatário no Office 365. Para obter mais informações, consulte [Find Your Office 365 locatário ID](https://support.office.com/en-us/article/find-your-office-365-tenant-id-6891b561-a52d-4ade-9f39-b492285e2c9b).
+- O **locatário** é usado para identificar seu locatário no Office 365. Para obter mais informações, consulte [Find Your Office 365 locatário ID](https://support.office.com/en-us/article/find-your-office-365-tenant-id-6891b561-a52d-4ade-9f39-b492285e2c9b).
 
 Para garantir que uma política de caixa postal hospedada seja criada com êxito, execute o seguinte comando:
 
