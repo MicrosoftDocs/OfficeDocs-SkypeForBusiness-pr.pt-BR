@@ -28,7 +28,8 @@
 ## [Gerenciar políticas de mensagens](messaging-policies-in-teams.md)
 ## [Presença do usuário no Teams](presence-admins.md)
 ## [Exibir análise entre equipes e por equipe em Teams](teams-analytics-and-reports/cross-team-per-team-analytics.md)
-## [Arquivar ou excluir uma Equipe](archive-or-delete-a-team.md)
+## [Expiração e renovação da equipe](team-expiration-renewal.md)
+## [Arquivar ou excluir uma equipe](archive-or-delete-a-team.md)
 
 
 
