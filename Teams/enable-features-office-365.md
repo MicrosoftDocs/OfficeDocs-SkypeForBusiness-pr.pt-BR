@@ -13,19 +13,18 @@ localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.teamssettings.targetingintro
 - ms.teamsadmincenter.teamssettings.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbb05df61a9baec544ad2ff1441a0faf329949e1
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 1cb645143cfb5066226bb32b590c17b0f42c9764
+ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715921"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "37616063"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Gerencie as configurações do Microsoft Teams para sua organização 
 
@@ -98,11 +97,22 @@ A pesquisa de diretório no escopo do Microsoft Teams usa a APB (política de ca
 Você pode usar essas configurações para definir como os usuários serão atualizados do Skype for Business para o Microsoft Teams. 
 
 #### <a name="coexistence-mode"></a>Modo de coexistência
-Você pode especificar um modo de coexistência: **somente o Teams**, **Ilhas** (o Teams e o Skype for Business coexistirão) ou **somente o Skype for Business**. O modo de coexistência escolhido determina o roteamento de chats e chamadas recebidas e o aplicativo usado pelo usuário para iniciar chats e chamadas ou para agendar reuniões. Para obter mais informações sobre modos de coexistência, acesse [Entender a coexistência e a interoperabilidade do Microsoft Teams e do Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+Você pode especificar um modo de coexistência: 
+
+- **Somente Teams**
+- **Uso Paralelo** (O Teams e o Skype for Business coexistirão)
+- **Somente Skype for Business**
+- **Skype For Business com colaboração do Teams** (Os usuários recebem chats e chamadas e agendam reuniões no Skype for Business, mas usam o Teams para colaboração em grupo)
+- **Colaboração e reuniões com o Skype for Business e o Teams** (Os usuários recebem chats e chamadas no Skype for Business, mas usam o Teams para colaboração em grupo e para agendar reuniões)
+
+O modo de coexistência escolhido determina o roteamento de chats e chamadas recebidas e o aplicativo usado pelo usuário para iniciar chats e chamadas ou para agendar reuniões. Para obter mais informações sobre modos de coexistência, acesse [Entender a coexistência e a interoperabilidade do Microsoft Teams e do Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 #### <a name="app-preferences"></a>Preferências de aplicativo
 
 Aqui você pode escolher o aplicativo que os usuários usarão para ingressar em reuniões do Skype for Business (Skype for Business ou o [aplicativo Reuniões do Skype](https://support.office.com/pt-BR/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Essa configuração não depende da configuração do modo de coexistência.
+
+Você também pode selecionar a opção "Baixar o aplicativo Teams em segundo plano para usuários do Skype for Business".  Por padrão, essa configuração é definida como Ativada. Com essa configuração ativada, será realizado o download do aplicativo Teams em segundo plano para usuários que executam o aplicativo Skype for Business em computadores com Windows. Isso acontece se o modo de coexistência para o usuário for Somente Teams ou se uma notificação de atualização pendente estiver ativada no aplicativo Skype for Business.
+
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>Como saber quais recursos estão disponíveis?
 
