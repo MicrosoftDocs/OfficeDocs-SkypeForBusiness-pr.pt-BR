@@ -41,6 +41,7 @@
 ### [Adicione bots para bate-papos pessoais, bate-papos em grupo e canais no Teams](add-bots.md)
 ### [Usar guias internas e personalizadas](built-in-custom-tabs.md)
 ### [Usar o Office 365 e conectores personalizados](Office-365-custom-connectors.md)
+### [Gerenciar seu aplicativo de linha de negócios](manage-your-lob-apps.md)
 ### [Publicar aplicativos no Catálogo de Aplicativos do Locatário do Teams](tenant-apps-catalog-teams.md)
 ### [Certificação de aplicativo](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Modelos de aplicativos para o Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
