@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5910a363032a35bd7096e4048d38d51f260b72b
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 2aa6a4f4a498f5b694e3ff23d4043374def6fbff
+ms.sourcegitcommit: 70323d648e9ae3b20a710120b9dcdc452afc462b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715725"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "37698024"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>Perguntas frequentes ‒ atualização do Skype for Business para o Microsoft Teams
 
@@ -76,7 +76,7 @@ O Microsoft Teams está disponível nos pacotes do Office 365. Os recursos que a
 
 No momento, não temos planos para atualizações programadas para clientes empresariais. Os clientes podem optar por migrar para o Teams, se fizer sentido para suas organizações, antes da data de desativação do Skype for Business Online em 31 de julho de 2021. Capacitaremos os administradores e os usuários com ferramentas e diretrizes para ajudar na transição para o Teams.
 
-Com o objetivo de oferecer suporte a clientes de menor porte que talvez não tenham recursos de TI dedicados, a Microsoft está ajudando com atualizações automatizadas do Skype for Business Online para o Microsoft Teams. Os clientes qualificados serão notificados da atualização por meio de emails e notificações do Centro de Mensagens. Detalhes adicionais são fornecidos nas comunicações.
+Com o objetivo de oferecer suporte a clientes de menor porte que talvez não tenham recursos de TI dedicados, a Microsoft está ajudando com atualizações automatizadas do Skype for Business Online para o Microsoft Teams. Os clientes qualificados serão notificados da atualização por meio de emails e notificações do Centro de Mensagens. Detalhes adicionais são fornecidos nas comunicações. Para saber mais, confira [as atualizações automáticas do Skype for Business online para o Microsoft Teams](upgrade-automated.md).
 
 ### <a name="how-does-the-skype-for-business-online-retirement-announcement-affect-organizations-with-hybrid-configurations-skype-for-business-online-and-skype-for-business-server"></a>Como o anúncio da desativação do Skype for Business Online afeta as organizações com configurações híbridas (Skype for Business Online e Skype for Business Server)?
 
