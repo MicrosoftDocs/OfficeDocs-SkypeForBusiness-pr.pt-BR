@@ -3,40 +3,6 @@
 
 
 
-## <a name="week-of-september-16-2019"></a>Semana de 16 de setembro de 2019
-
-
-| Publicado em |Título do tópico | Alteração |
-|------|------------|--------|
-| 9/16/2019 | [Treinamento de administrador para o Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | modificado |
-| 9/16/2019 | [Gerencie políticas e configurações de aplicativo personalizado no Microsoft Teams](/MicrosoftTeams/teams-custom-app-policies-and-settings) | modificado |
-| 9/17/2019 | [Gerenciar as configurações de um console de salas do Microsoft Teams remotamente com um arquivo de configuração XML](/MicrosoftTeams/room-systems/xml-config-file) | modificado |
-| 9/17/2019 | [Exemplo de pequena empresa – configurar um atendedor automático](/MicrosoftTeams/tutorial-org-aa) | modificado |
-| 9/17/2019 | [Tomar decisões de serviço de Roteamento Direto do Sistema de Telefonia – Microsoft Teams](/MicrosoftTeams/2-envision-make-my-service-decisions-direct-routing) | modificado |
-| 9/17/2019 | [Criar uma fila de chamadas](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
-| 9/17/2019 | [Configurar o Roteamento Direto](/MicrosoftTeams/direct-routing-configure) | modificado |
-| 9/17/2019 | [Roteamento Direto do Sistema Telefônico](/MicrosoftTeams/direct-routing-landing-page) | modificado |
-| 9/17/2019 | [Monitorar e solucionar problemas do Roteamento Direto](/MicrosoftTeams/direct-routing-monitor-and-troubleshoot) | modificado |
-| 9/17/2019 | [Gerenciar a oferta de avaliação na nuvem comercial do Microsoft Teams](/MicrosoftTeams/iw-trial-teams) | modificado |
-| 9/17/2019 | [Perguntas frequentes sobre diretivas de retenção do Teams ](/MicrosoftTeams/retention-policies-faq) | modificado |
-| 9/17/2019 | [Políticas de retenção no Microsoft Teams](/MicrosoftTeams/retention-policies) | modificado |
-| 9/18/2019 | [Licenças do Office 365 para o Microsoft Teams](/MicrosoftTeams/office-365-licensing) | modificado |
-| 9/18/2019 | [Escolher um caminho para a distribuição do Microsoft Teams em toda a organização](/MicrosoftTeams/get-started-with-teams-resources-for-org-wide-rollout) | modificado |
-| 9/18/2019 | [Gerenciar contas de recursos no Teams](/MicrosoftTeams/manage-resource-accounts) | modificado |
-| 9/18/2019 | [Planejar eventos ao vivo no Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modificado |
-| 9/18/2019 | [Idiomas de mensagens e saudações da caixa postal](/MicrosoftTeams/languages-for-voicemail-greetings-and-messages) | modificado |
-| 9/18/2019 | [Office 365 Business Premium ](/MicrosoftTeams/teams-add-on-licensing/office-365-business-premium) | modificado |
-| 9/19/2019 | [Problemas conhecidos do Microsoft Teams](/MicrosoftTeams/known-issues) | modificado |
-| 9/19/2019 | [Obter clientes para o Microsoft Teams](/MicrosoftTeams/get-clients) | modificado |
-| 9/19/2019 | [Ativar a tradução de mensagens embutidas no Microsoft Teams](/MicrosoftTeams/inline-message-translation-teams) | modificado |
-| 9/19/2019 | [Configurar eventos ao vivo no Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | modificado |
-| 9/20/2019 | [Como o Exchange e o Microsoft Teams interagem](/MicrosoftTeams/exchange-teams-interact) | modificado |
-| 9/20/2019 | [Problemas conhecidos do Microsoft Teams](/MicrosoftTeams/known-issues) | modificado |
-| 9/20/2019 | [Presença do usuário no Teams](/MicrosoftTeams/presence-admins) | modificado |
-| 9/20/2019 | [Microsoft Teams \| Atualização, Modo Ilhas, Interop, Política, Somente](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | modificado |
-| 9/20/2019 | [Teams em 30](/MicrosoftTeams/teams-in-30-workshops) | modificado |
-
-
 ## <a name="week-of-september-23-2019"></a>Semana de 23 de setembro de 2019
 
 
@@ -602,3 +568,17 @@
 | 10/17/2019 | [Relatório de grupos de minutos PSTN do Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/pstn-minute-pools-report) | modificado |
 | 10/17/2019 | [Relatório de uso PSTN do Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | modificado |
 | 10/18/2019 | [Requisitos de hardware para o aplicativo Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modificado |
+
+
+## <a name="week-of-october-21-2019"></a>Semana de 21 de outubro de 2019
+
+
+| Publicado em |Título do tópico | Alteração |
+|------|------------|--------|
+| 10/21/2019 | [Gerenciar as configurações do Microsoft Teams para sua organização](/MicrosoftTeams/enable-features-office-365) | modificado |
+| 10/21/2019 | [Limites e especificações para o Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
+| 10/21/2019 | [Usar funções de administrador do Microsoft Teams para gerenciar equipes](/MicrosoftTeams/using-admin-roles) | modificado |
+| 10/24/2019 | [Guia de início rápido do trabalho de primeira mão](/MicrosoftTeams/firstline-workers-quickstart) | modificado |
+| 10/24/2019 | [Gerenciar políticas de permissões de aplicativo no Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | modificado |
+| 10/24/2019 | [Lista de verificação\| Skype Business para Atualização do Teams \| Etapas Básicas](/MicrosoftTeams/upgrade-basic) | modificado |
+| 10/24/2019 | [Perguntas frequentes – atualização do Skype for Business para o Microsoft Teams](/MicrosoftTeams/faq-journey) | modificado |
