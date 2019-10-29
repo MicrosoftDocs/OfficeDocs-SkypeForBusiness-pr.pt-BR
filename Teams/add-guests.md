@@ -4,7 +4,6 @@ author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
 audience: ITPro
-ms.date: 06/21/2019
 ms.topic: article
 ms.service: msteams
 ms.collection:
@@ -16,12 +15,12 @@ localization_priority: Priority
 description: Conheça as ferramentas disponíveis para adicionar novos usuários a uma organização, incluindo clientes desktop e web do Microsoft Teams e o portal de colaboração do Azure Active Directory B2B.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b23ee82e90dea1bc302f14f305274d3ba64d471
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 78f495b10e953a8e416c8cadd755a098c8c948a7
+ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516116"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37753246"
 ---
 <a name="add-a-guest-to-a-team"></a>Adicionar um convidado a uma equipe
 =====================
@@ -31,7 +30,7 @@ ms.locfileid: "37516116"
 Qualquer pessoa com uma conta de email corporativa ou de consumidor, como o Outlook, o Gmail ou outras, pode participar como convidado no Teams.
 
 Como administrador, você pode adicionar um novo usuário convidado à organização de algumas maneiras:
-- Administradores globais que são proprietários de uma equipe podem adicionar um convidado a uma equipe através do cliente web ou cliente desktop do Microsoft Teams. Para mais detalhes, confira [Adicionar convidados à uma equipe](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f)
+- Os administradores globais ou administradores do Teams e os proprietários de equipes adicionam um convidado a uma equipe nos clientes do Teams ou no centro de administração do Teams. Para saber mais, leia [Adicionar convidados a uma equipe](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f). Se você ainda não configurou o acesso de convidado, siga as etapas da [Lista de verificação de acesso de convidado](guest-access-checklist.md).
 
 > [!NOTE] 
 > Isso não se aplica quando o recurso **Administradores e usuários na função de emissor de convites podem convidar** se encontra ativado. Isso ocorre porque a função de emissor de convites não é compatível com o Teams.
@@ -47,9 +46,6 @@ Os usuários convidados que você já adicionou por meio do Azure AD B2B, dos Gr
 
 Você pode acompanhar a adição de convidados no Centro de Conformidade &amp; Segurança do Azure AD ou do Office 365. A adição de um convidado no Microsoft Teams é auditada e registrada como uma atividade de administração de grupo do Azure AD: “Adicionou membro a grupo”. Para obter mais detalhes, consulte [Auditar e reportar um usuário de colaboração B2B](https://go.microsoft.com/fwlink/p/?linkid=858884) e [Procurar registro de auditoria no Centro de Segurança &amp; Conformidade do Office 365](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security--Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c).
 
-## <a name="guest-access-vs-external-access-federation"></a>Acesso de convidado vs. acesso externo (federação)
-
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## <a name="more-information"></a>Mais informações
 
