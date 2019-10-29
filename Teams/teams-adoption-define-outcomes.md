@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Saiba como medir os resultados e o sucesso de sua habilitação em escala ampla de equipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9bb0d3e756f746a625e3831c38c6dd41d4c29d6f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 24b04571a647838ee4890c813e7f3b83f387c12d
+ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242399"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37749269"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Definir os resultados e o sucesso da adoção do Microsoft Teams
 
@@ -75,7 +75,7 @@ O Teams é uma tecnologia Transformative, portanto, dependendo do tamanho da sua
 | Teams First | Teams Core | As equipes ficam grandes | Skype lado a lado | Migração |
 |------------ | ---------- | ------------ | ------------------ | --------- |
 | Implantação de nuvem líder com o Teams | Habilitação do cenário de colaboração líder com equipes | Todos os funcionários em equipes e em equipes de toda a organização | Habilitar o Microsoft Teams e o Skype for Business | Migrar usuários do Skype for Business para o Teams |
-| -Aplicável aos novos ou baixos usos do Office 365 para clientes <br/>-Liderar com o Microsoft Teams no cenário específico do cliente <br/>-Destaque a experiência do usuário integrado e o tempo de implantação acelerado para o Office 365 <br/>-Realize a habilitação de carga de trabalho de planejamento para evitar a implementação em série | -Habilitar equipes juntamente com o OneDrive e o SharePoint Online <br/>-Criar uma intranet corporativa para compartilhar recursos de notícias e vídeo com o Microsoft Stream<br/>**Melhor juntos**: <br/>Microsoft Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |-Para clientes com menos de 1000 estações (limitação atual)<br/>-Habilitar a colaboração entre organizações com uma equipe para todos<br/>-Automatizar tarefas comuns (solicitações de férias, pesquisas de funcionários, envolvimento executivo) |-Use as táticas essenciais do teams para acelerar a colaboração<br/>-Destaque as diretrizes de cenário de reunião com base no tamanho e no conjunto de recursos necessários</br>-Usar o Skype for Business para chamadas, interoperabilidade e cenários híbridos da empresa<br/>-Use um roteiro público para planejamento de recursos. |-Plano passe para o Teams do Skype for Business criando roteiro de estratégia de serviço para o cliente<br/>-Anexar ao recurso cronograma de lançamento<br/>-Recomendável incluir o lado a lado e o Teams Core para facilitar a transição
+| -Aplicável aos novos ou baixos usos do Office 365 para clientes <br/>-Liderar com o Microsoft Teams no cenário específico do cliente <br/>-Destaque a experiência do usuário integrado e o tempo de implantação acelerado para o Office 365 <br/>-Realize a habilitação de carga de trabalho de planejamento para evitar a implementação em série | -Habilitar equipes juntamente com o OneDrive e o SharePoint Online <br/>-Criar uma intranet corporativa para compartilhar recursos de notícias e vídeo com o Microsoft Stream<br/>**Melhor juntos**: <br/>Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |-Para clientes com menos de 5000 estações (limitação atual)<br/>-Habilitar a colaboração entre organizações com uma equipe para todos<br/>-Automatizar tarefas comuns (solicitações de férias, pesquisas de funcionários, envolvimento executivo) |-Use as táticas essenciais do teams para acelerar a colaboração<br/>-Destaque as diretrizes de cenário de reunião com base no tamanho e no conjunto de recursos necessários</br>-Usar o Skype for Business para chamadas, interoperabilidade e cenários híbridos da empresa<br/>-Use um roteiro público para planejamento de recursos. |-Plano passe para o Teams do Skype for Business criando roteiro de estratégia de serviço para o cliente<br/>-Anexar ao recurso cronograma de lançamento<br/>-Recomendável incluir o lado a lado e o Teams Core para facilitar a transição
 
 Veja a seguir nossas recomendações para a maioria das organizações de clientes. No entanto, há exceções. Para obter orientação para qualquer cenário não abordado aqui, faça suas perguntas na nossa comunidade de adoção e entre em contato com a equipe FastTrack ou a rede de parceiros da Microsoft.
 

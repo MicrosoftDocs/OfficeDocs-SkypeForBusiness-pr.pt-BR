@@ -3,12 +3,11 @@ title: Ativar ou desativar o acesso de convidados ao Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 03/06/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_GuestAccess
 - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
@@ -18,38 +17,36 @@ ms.custom:
 f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f00b585b1473a366769650c2a59f6dee2a9d3bea
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
-ms.translationtype: HT
+ms.openlocfilehash: 20971fd985d4512e8a9bf00db23092f1a6e44702
+ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242616"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37753346"
 ---
 <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Ativar ou desativar o acesso de convidados ao Microsoft Teams
 ===================================================
 
-Como administrador do Office 365, você precisa habilitar o recurso de convidados para que você ou os usuários da sua organização (especificamente os proprietários de equipe) possam adicionar convidados.
+Por padrão, o acesso de convidado está desativado. Como administrador do Office 365, você deve ativar o acesso de convidado para equipes antes que o administrador ou os proprietários da equipe possam adicionar convidados. Para ativar o acesso de convidado, use a [lista de verificação de acesso de convidado](guest-access-checklist.md). 
 
-As configurações do convidado são definidas no Azure Active Directory. Leva entre 2 e 24 horas para que as alterações entrem em vigor na sua organização do Office 365. Se um usuário vir a mensagem “Entre em contato com o seu administrador” ao tentar adicionar um convidado para a sua equipe, é provável que o recurso de convidado não tenha sido ativado ou as configurações ainda não entraram em vigor.
+Depois de ativar o acesso de convidado, são necessárias 2-24 horas para que as alterações entrem em vigor. Se um usuário vir a mensagem "entrar em contato com seu administrador" ao tentar adicionar um convidado à equipe, é provável que o acesso de convidado não tenha sido ativado ou que as configurações ainda não estejam efetivas.
 
 > [!IMPORTANT]
-> Para habilitar a experiência completa do recurso de acesso de convidados, é importante compreender a dependência de autorização básica entre o Microsoft Teams, o Azure Active Directory e o Office 365. Para obter mais informações, consulte [Autorizar acesso de convidados no Microsoft Teams](Teams-dependencies.md).
+> Ativar o acesso de convidado depende das configurações do Azure Active Directory, do Office 365, do SharePoint Online e do teams. Para obter mais informações, consulte [autorizar o acesso de convidado no Microsoft Teams](Teams-dependencies.md).
 
-## <a name="guest-access-vs-external-access-federation"></a>Acesso de convidado vs. acesso externo (federação)
 
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
-## <a name="configure-guest-access-in-the-microsoft-teams-admin-center"></a>Configure o acesso de convidados no centro de administração do Microsoft Teams
+## <a name="configure-guest-access-in-the-teams-admin-center"></a>Configurar o acesso de convidado no centro de administração do teams
 
 1.  Entre no centro de administração do Microsoft Teams.
 
 2.  Selecione **Configurações em toda a organização** > **Acesso de convidados**.
 
-3. Defina o botão de alternância **Permitir acesso de convidados no Microsoft Teams** para **Ativado**.
+3. Defina **permitir acesso de convidado no Microsoft Teams** como **ativado**.
 
     ![Permita que a opção de acesso de convidados seja definida como Ativada ](media/set-up-guests-image1.png)
 
-4.  Defina as alternâncias em **Chamada**, **Reunião** e **Mensagens** como **Ativada** ou **Desativada**, dependendo dos recursos que você deseja permitir aos usuários convidados.
+4.  Em **chamadas**, **reuniões**e **mensagens**, selecione **Ativar** ou **desativar** para cada recurso, dependendo do que você deseja permitir para usuários convidados.
 
     - **Fazer chamadas privadas** – **Ativar** essa função para permitir que os usuários façam chamadas ponto a ponto.
     - **Permitir vídeo IP** - **Ativar** essa configuração para permitir que os convidados usem vídeos em suas chamadas e reuniões.
@@ -73,45 +70,16 @@ As configurações do convidado são definidas no Azure Active Directory. Leva e
 5.  Clique em **Salvar**.
 
 ## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>Use o PowerShell para ativar ou desativar o acesso de convidados
+Ler [usar o PowerShell para ativar ou desativar o acesso ao convidado](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off)
 
-1.  Baixe o módulo PowerShell do Skype for Business Online em https://www.microsoft.com/en-us/download/details.aspx?id=39366
- 
-2.  Conecte uma sessão do PowerShell ao ponto de extremidade do Skype for Business Online.
 
-    ```
-    Import-Module SkypeOnlineConnector
-    $Cred = Get-Credential
-    $CSSession = New-CsOnlineSession -Credential $Cred
-    Import-PSSession -Session $CSSession
-    ```
-3.  Verifique sua configuração e se `AllowGuestUser` for `$False`, use o cmdlet [Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) para defini-lo como `$True`.
-
-    ```
-    Get-CsTeamsClientConfiguration
-
-    Identity                         : Global
-    AllowEmailIntoChannel            : True
-    RestrictedSenderList             :
-    AllowDropBox                     : True
-    AllowBox                         : True
-    AllowGoogleDrive                 : True
-    AllowShareFile                   : True
-    AllowOrganizationTab             : True
-    AllowSkypeBusinessInterop        : True
-    ContentPin                       : RequiredOutsideScheduleMeeting
-    AllowResourceAccountSendMessage  : True
-    ResourceAccountContentAccess     : NoAccess
-    AllowGuestUser                   : True
-    AllowScopedPeopleSearchandAccess : False
-    
-    Set-CsTeamsClientConfiguration -AllowGuestUser $True -Identity Global
-    ```
-Agora você pode ter usuários convidados no Teams da sua organização.
-
-## <a name="more-information"></a>Mais informações
-
-Assista ao vídeo a seguir para obter mais detalhes sobre o acesso de convidados.
+## <a name="video-adding-guests-in-teams"></a>Vídeo: como adicionar convidados no Microsoft Teams
 
 |  |  |
 |---------|---------|
 | Adição de convidados no Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
+
+
+## <a name="external-access-federation-vs-guest-access"></a>Acesso externo (Federação) versus acesso de convidado
+
+[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]

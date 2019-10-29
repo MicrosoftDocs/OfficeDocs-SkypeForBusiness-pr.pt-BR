@@ -3,7 +3,6 @@ title: Editar informações do usuários convidados
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 11/26/2017
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -15,12 +14,12 @@ search.appverid: MET150
 description: Saiba como um administrador pode editar informações sobre usuários convidados no portal do Azure Active Directory.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd3f2a1fc4e4888731061db6aa251ad88a871496
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f6092366ab2687c40aa7d722023afb3c5eed97b3
+ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37565857"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37753266"
 ---
 <a name="edit-guest-user-information"></a>Editar informações do usuários convidados
 ===========================
@@ -28,7 +27,3 @@ ms.locfileid: "37565857"
 Para editar contas de convidados (como o nome de exibição ou a imagem de perfil), vá para o portal do Azure Active Directory. Para obter mais informações, consulte [Entender a identidade do Office 365 e o Azure Active Directory](https://support.office.com/article/Understanding-Office-365-Identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9).
 
 No momento, você não pode editar informações de convidado no centro de administração do Microsoft Teams, no centro de administração do Microsoft 365 ou no centro de administração do Exchange.
-
-## <a name="guest-access-vs-external-access-federation"></a>Acesso de convidado vs. acesso externo (federação)
-
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]

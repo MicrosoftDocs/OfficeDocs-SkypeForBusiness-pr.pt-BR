@@ -3,7 +3,6 @@ title: Usar o PowerShell para controlar o acesso de convidados a uma equipe
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/25/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -15,12 +14,12 @@ search.appverid: MET150
 description: Use o PowerShell para permitir ou bloquear o acesso de convidados às equipes do Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1cecceb81b967d4c6d2f4c9ca440e04d6fec9518
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 90ca96b6a28b1a94c375af0b4b4166da5bbee9e9
+ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37563479"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37753326"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>Usar o PowerShell para controlar o acesso de convidados a uma equipe
 ================================================
@@ -34,10 +33,48 @@ Além de usar o centro de administração do Microsoft 365 e o portal do Azure A
 - Permitir ou bloquear usuários convidados de uma equipe ou grupo do Office 365 específico
 
 Para obter detalhes, consulte "usar o PowerShell para controlar o acesso de convidado" em [gerenciar o acesso de convidados nos grupos do Office 365](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups#use-powershell-to-control-guest-access).
+
   
 Você também pode usar o PowerShell para permitir ou bloquear um usuário convidado com base no seu domínio. Por exemplo, digamos que a sua empresa (Contoso) tem uma parceria com outra empresa (Fabrikam). Você pode adicionar a Fabrikam na sua lista de permissões para que seus usuários possam adicionar esses convidados aos seus grupos. Para obter mais informações, consulte [permitir/bloquear o acesso de convidados a grupos do Office 365](https://go.microsoft.com/fwlink/?linkid=854001).
   
 Se quiser bloquear convidados no Microsoft Teams e ainda quiser permitir que eles acessem sites do SharePoint, você pode usar cmdlets do PowerShell do Azure AD para desabilitar o parâmetro AllowGuestsToAccessGroups no objeto Company, pressupondo que o compartilhamento externo esteja ativado para sites do SharePoint .
+
+## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>Use o PowerShell para ativar ou desativar o acesso de convidados
+
+1.  Baixe o módulo PowerShell do Skype for Business Online em https://www.microsoft.com/en-us/download/details.aspx?id=39366
+ 
+2.  Conecte uma sessão do PowerShell ao ponto de extremidade do Skype for Business Online.
+
+    ```
+    Import-Module SkypeOnlineConnector
+    $Cred = Get-Credential
+    $CSSession = New-CsOnlineSession -Credential $Cred
+    Import-PSSession -Session $CSSession
+    ```
+3.  Verifique sua configuração e se `AllowGuestUser` for `$False`, use o cmdlet [Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) para defini-lo como `$True`.
+
+    ```
+    Get-CsTeamsClientConfiguration
+
+    Identity                         : Global
+    AllowEmailIntoChannel            : True
+    RestrictedSenderList             :
+    AllowDropBox                     : True
+    AllowBox                         : True
+    AllowGoogleDrive                 : True
+    AllowShareFile                   : True
+    AllowOrganizationTab             : True
+    AllowSkypeBusinessInterop        : True
+    ContentPin                       : RequiredOutsideScheduleMeeting
+    AllowResourceAccountSendMessage  : True
+    ResourceAccountContentAccess     : NoAccess
+    AllowGuestUser                   : True
+    AllowScopedPeopleSearchandAccess : False
+    
+    Set-CsTeamsClientConfiguration -AllowGuestUser $True -Identity Global
+    ```
+Agora você pode ter usuários convidados no Teams da sua organização.
+
 
 ## <a name="guest-access-vs-external-access"></a>Acesso de convidado versus acesso externo
 
