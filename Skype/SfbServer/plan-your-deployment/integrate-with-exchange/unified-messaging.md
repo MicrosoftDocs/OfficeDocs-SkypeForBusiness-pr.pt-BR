@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 'Resumo: revise este tópico ao planejar a integração do Skype for Business Server com o Exchange 2013 ou 2016.'
-ms.openlocfilehash: 3b71dd740440aeab37919bb94ef98eaeb83d4d87
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bed73151b1010dd287c21ea55372e4eb18117665
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297341"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772614"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Planejar para integração de Unificação de Mensagens do Exchange no Skype for Business
 
@@ -36,7 +36,6 @@ Para que esses recursos tenham suporte em uma implantação do Exchange UM local
 - Microsoft Exchange Server 2010 ou Service Pack mais recente (somente para o Skype for Business Server 2015)
 - Microsoft Exchange Server 2013
 - Microsoft Exchange Server 2016
-- Microsoft Exchange Server 2019 (somente o Skype for Business Server 2019)
 
 > [!NOTE]
 > A Unificação de mensagens do Exchange como anteriormente conhecida não está mais disponível no Skype for Business Server 2019, que usa o sistema de telefonia para gravar mensagens de correio de voz e deixar a gravação em uma caixa de correio do Exchange do usuário. Para obter mais informações, consulte [planejar o serviço de correio de voz na nuvem](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) .
@@ -53,7 +52,7 @@ Skype for Business Server, o Enterprise Voice usa a infraestrutura de Unificaç�
 
 - **Atendedor automático** O atendedor automático é um recurso do Exchange UM que pode ser usado para configurar um número de telefone que os usuários externos podem discar para acessar os representantes da empresa. Especificamente, ele fornece uma série de avisos de voz que auxiliam um chamador externo a navegar por um sistema de menus. A lista de opções disponíveis é configurada no servidor do Exchange UM pelo administrador de UM do Exchange.
 
-- **Serviços de fax** O Exchange UM inclui recursos de fax, que permitem que os usuários recebam faxes de entrada nas caixas de correio do Exchange. Para obter detalhes, consulte Unificação de [mensagens](https://go.microsoft.com/fwlink/p/?linkId=135652) na documentação do Microsoft Exchange Server.
+- **Serviços de fax** O Exchange UM inclui recursos de fax, que permitem que os usuários recebam faxes de entrada nas caixas de correio do Exchange. Para obter detalhes, consulte [Unificação de mensagens](https://go.microsoft.com/fwlink/p/?linkId=135652) na documentação do Microsoft Exchange Server.
 
     > [!NOTE]
     > Os serviços de fax fornecidos pelo Exchange UM servidor não estão disponíveis nas implantações do Skype for Business Server integradas ao Microsoft Exchange Server 2010, Exchange 2010 com o Service Pack mais recente, Exchange 2013 ou Exchange 2016.
@@ -64,7 +63,7 @@ Skype for Business Server, o Enterprise Voice usa a infraestrutura de Unificaç�
 
 Para fornecer os recursos e os serviços do Exchange UM descritos em [recursos de Unificação de mensagens integrada e do Skype for Business Server](#features-of-integrated-unified-messaging-and-skype-for-business-server) para usuários do Enterprise Voice em sua organização, você deve implantar um servidor de caixa de correio do Microsoft Exchange e acesso do cliente Server, que hospeda caixas de correio de usuários e fornece um único local de armazenamento para email e caixa postal. O Exchange UM é executado como um serviço na caixa de correio do Exchange e nos servidores de acesso para cliente.
 
-Para obter detalhes sobre os componentes de UM do Exchange no Microsoft Exchange Server 2010, consulte Implantando o [Exchange um local para fornecer o Lync Server 2013 Preview voice mail](https://technet.microsoft.com/library/9673bd73-a3a3-425d-870f-04d801c6d0d5.aspx) .
+Para obter detalhes sobre os componentes de UM do Exchange no Microsoft Exchange Server 2010, consulte [implantando o Exchange um local para fornecer o Lync Server 2013 Preview voice mail](https://technet.microsoft.com/library/9673bd73-a3a3-425d-870f-04d801c6d0d5.aspx) .
 
 ### <a name="supported-topologies"></a>Topologias suportadas
 
@@ -94,7 +93,7 @@ As diretrizes e práticas recomendadas abaixo devem ser levadas em consideraçã
 
 - Trabalhar com os administradores do Exchange para confirmar que tarefas cada um executará para garantir uma integração tranqüila e bem-sucedida.
 
-- Implante as funções de servidor de caixa de correio do Exchange em cada floresta do Exchange Unified Messaging (UM) onde você deseja habilitar usuários para o Exchange UM. Para obter detalhes sobre a instalação de funções do Exchange Server, consulte a documentação do Microsoft Exchange Server 2013.
+- Implante as funções de servidor de caixa de correio do Exchange em cada floresta do Exchange Unified Messaging (UM) onde você deseja habilitar usuários para o Exchange UM. Para obter detalhes sobre como instalar as funções do Exchange Server, consulte a documentação do Microsoft Exchange Server.
 
     > [!IMPORTANT]
     > Quando a UM (Exchange Unified Messaging) do Exchange está instalada, ela é configurada para usar um certificado auto-assinado. O certificado autoassinado não habilita o Skype for Business Server e o Exchange UM para confiar uns dos outros, que é por isso que é necessário solicitar um certificado separado de uma autoridade de certificação que os dois servidores confiam.

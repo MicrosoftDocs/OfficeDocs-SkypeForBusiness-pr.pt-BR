@@ -14,12 +14,12 @@ ms.collection:
 description: Saiba como usar o relatório de uso de dispositivos do teams no centro de administração do Microsoft Teams para ver como os usuários em sua organização se conectam ao Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c961b6c5897d0c494d0461a3533cae63fa613d41
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 76831972e4f813b9e7b8c0dcc9a8cdbebb9e3a34
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568392"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772604"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Relatório de uso de dispositivos do Microsoft Teams
 
@@ -38,8 +38,8 @@ O relatório de uso de dispositivos do teams no centro de administração do Mic
 |--------|-------------|
 |**1**   |O relatório de uso de dispositivos do teams pode ser exibido para obter tendências nos últimos sete dias ou 28 dias.  |
 |**2**   |Cada relatório tem uma data para quando o relatório foi gerado. O relatório geralmente reflete um período de latência de atividade de 24 a 48 horas. |
-|**3**   |<ul><li>O eixo X no gráfico representa os diferentes dispositivos (**Windows**, **Mac**, **Ios**, **telefone Android**) usados para conexão com o Microsoft Teams. </li><li>O eixo Y é o número de usuários que usam o dispositivo durante o período de tempo selecionado.</li> </ul>Passe o mouse sobre a barra que representa um dispositivo para ver o número de usuários que estão usando o dispositivo para se conectar ao Microsoft Teams.|
-|**4**   |A tabela oferece uma divisão do uso do dispositivo pelo usuário. <ul><li>**Nome para exibição** é o nome de exibição do usuário. Você pode clicar no nome para exibição para acessar a página de configuração do usuário no centro de administração do Microsoft Teams. </li><li>O **Windows** estará selecionado se o usuário estava ativo no cliente da área de trabalho do teams em um computador com Windows.</li><li>**Mac** estará selecionado se o usuário estiver ativo no cliente de desktop do Teams em um computador com macOS. </li> <li>**iOS** estará selecionado se o usuário estiver ativo no cliente do Mobile Teams para iOS.</li><li>**Telefone Android** estará selecionado se o usuário estava ativo no cliente do teams Mobile para Android. <li>**Última atividade** é a última data (UTC) que o usuário participou em uma atividade do teams.</li> </ul> Observe que, se uma conta de usuário não existir mais no Azure AD, o nome de usuário será exibido como "--" na tabela. <br><br>Para ver as informações desejadas na tabela, certifique-se de adicionar as colunas à tabela. |
+|**3**   |<ul><li>O eixo X no gráfico representa os diferentes dispositivos (**Windows**, **Mac**, **Linux**, **Ios**, **telefone Android**) usados para conexão com o Microsoft Teams. </li><li>O eixo Y é o número de usuários que usam o dispositivo durante o período de tempo selecionado.</li> </ul>Passe o mouse sobre a barra que representa um dispositivo para ver o número de usuários que estão usando o dispositivo para se conectar ao Microsoft Teams.|
+|**4**   |A tabela oferece uma divisão do uso do dispositivo pelo usuário. <ul><li>**Nome para exibição** é o nome de exibição do usuário. Você pode clicar no nome para exibição para acessar a página de configuração do usuário no centro de administração do Microsoft Teams. </li><li>O **Windows** estará selecionado se o usuário estava ativo no cliente da área de trabalho do teams em um computador com Windows.</li><li>**Mac** estará selecionado se o usuário estiver ativo no cliente de desktop do Teams em um computador com macOS. </li> <li>**Linux** estará selecionado se o usuário estava ativo no cliente da área de trabalho do teams em um computador Linux. </li> <li>**iOS** estará selecionado se o usuário estiver ativo no cliente do Mobile Teams para iOS.</li><li>**Telefone Android** estará selecionado se o usuário estava ativo no cliente do teams Mobile para Android. <li>**Última atividade** é a última data (UTC) que o usuário participou em uma atividade do teams.</li> </ul> Observe que, se uma conta de usuário não existir mais no Azure AD, o nome de usuário será exibido como "--" na tabela. <br><br>Para ver as informações desejadas na tabela, certifique-se de adicionar as colunas à tabela. |
 |**5**   |Selecione **Editar colunas** para adicionar ou remover colunas na tabela. |
 |**6**   |Você pode exportar o relatório para um arquivo CSV para análise offline. Clique em **exportar para o Excel**e, na guia **downloads** , clique em **baixar** para baixar o relatório quando ele estiver pronto.<br><br>![Captura de tela da guia downloads mostrando relatórios exportados](../media/teams-reports-export-to-csv.png)|
 

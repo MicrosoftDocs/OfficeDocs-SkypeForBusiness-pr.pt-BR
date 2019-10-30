@@ -3,7 +3,6 @@ title: Barreiras de informação no Microsoft Teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
-ms.date: 07/08/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -14,12 +13,12 @@ ms.reviewer: vikramju
 description: Saiba mais sobre barreiras de informação e como elas afetam o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd9ac22a45d0e76e8f2d31c3d11be726148b3863
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2b38a21e9e18bb94809a8c42fba33ab273cfb004
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572064"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772584"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreiras de informação no Microsoft Teams
 
@@ -65,6 +64,7 @@ As políticas de barreira de informações são verificadas quando ocorrem os se
 - **Um usuário é convidado a ingressar em uma reunião** -quando um usuário é convidado a ingressar em uma reunião, a política do usuário é avaliada em relação às políticas de outros membros da equipe e, se houver uma violação, o usuário não terá permissão para ingressar na reunião.
 - **Uma tela é compartilhada entre dois ou mais usuários** -a qualquer momento em que uma tela é compartilhada entre dois ou mais usuários, o compartilhamento de tela deve ser avaliado para garantir que ele não viole as políticas de barreira de informações de outros usuários. Se uma política de barreira de informações for violada, o compartilhamento de tela não será permitido.
 - **Um usuário insere uma chamada telefônica (VoIP) no Teams** -sempre que uma chamada de voz é iniciada por um usuário para outro usuário ou grupo de usuários, a chamada é avaliada para garantir que ela não viole as políticas de barreira de informações de outros membros da equipe. Se houver alguma violação, a chamada de voz será bloqueada.
+- **Usuários convidados em equipes** – as políticas de barreira de informações se aplicam também a usuários convidados no Microsoft Teams. Se os usuários convidados precisarem ser detectáveis na lista de endereços global da sua organização, consulte [gerenciar o acesso de convidados nos grupos do Office 365](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#can-i-make-guest-objects-visible-in-the-global-address-list). Depois que os usuários convidados são detectáveis, você pode [definir políticas de barreira de informações](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
 ## <a name="what-happens-to-existing-chat-threads-when-a-policy-is-changed"></a>O que acontece com os threads de chat existentes quando uma política é alterada?
 
@@ -117,4 +117,4 @@ Para obter mais detalhes, incluindo planos e preços, consulte [soluções de co
 
 - Para configurar políticas de barreira de informações, consulte [definir políticas para barreiras de informação](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)
 
-- Para editar ou remover as políticas de barreira de informações, consulte [Editar (ou remover) políticas de barreira de informações](https://docs.microsoft.com/office365/securitycompliance/information-barriers-edit-segments-policies.md)
+- Para editar ou remover as políticas de barreira de informações, consulte [Editar (ou remover) políticas de barreira de informações](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-edit-segments-policies.md)

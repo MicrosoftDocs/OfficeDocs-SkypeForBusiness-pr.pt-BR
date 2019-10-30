@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4801545455b9f3d3762ae5b3d3fcce1ffe71eed4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 029d4870a6826866ddff9b712c5acd2b59897b75
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245148"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772395"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Descoberta ambiental para uma implementação do Microsoft Teams
 ===================================================
@@ -116,7 +116,7 @@ Se aplicável, capture os detalhes de sua implantação de equipes usando a tabe
 > | Quais recursos e modalidades de equipe estão em uso? | <input type="checkbox">Conversas baseadas em canais <br/> <input type="checkbox">Chat privado <br/> <input type="checkbox">Acesso de convidado <br/> <input type="checkbox">Reuniões de canal <br/> <input type="checkbox">Reuniões privadas <br/> <input type="checkbox">Chamadas privadas <br/> <input type="checkbox">Canal ad-hoc Meetup <br/> <input type="checkbox">Vídeos em reuniões <br/> <input type="checkbox">Compartilhamento de tela em reuniões <br/> <input type="checkbox">Conferência de áudio <br/><input type="checkbox">Aplicativos (aplicativos)<br> &nbsp;&nbsp; &nbsp; Guias <input type="checkbox"> de<br>&nbsp;&nbsp; Bots &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"><br><input type="checkbox">Integração personalizada do armazenamento em nuvem <br>&nbsp;&nbsp; (Caixa, Dropbox, Sharefile, Google &nbsp; Drive) <br/> <input type="checkbox">Integração de email de canal <br/> <input type="checkbox">Outro (especificar na coluna comentários.) | |
 > | Quais aplicativos você implantou para o Microsoft Teams? | | |
 > | Você bloqueou especificamente alguma funcionalidade do Microsoft Teams? <br/>Em caso afirmativo, observe os detalhes na coluna comentários. | <input type="checkbox">Sim <br/> <input type="checkbox">Não ||
-> | Quais clientes Microsoft Teams estão em uso? | <input type="checkbox">Pela <br/> <input type="checkbox">Windows <br/> <input type="checkbox">Macintosh <br/> <input type="checkbox">SS <br/> <input type="checkbox">Android <br/> <input type="checkbox">Windows Mobile | |
+> | Quais clientes Microsoft Teams estão em uso? | <input type="checkbox">Pela <br/> <input type="checkbox">Windows <br/> <input type="checkbox">Macintosh <br/> <input type="checkbox">Linux <br/>  <input type="checkbox">SS <br/> <input type="checkbox">Android <br/> <input type="checkbox">Windows Mobile | |
 > | Quem tem permissões para criar equipes? | <input type="checkbox">Todos na organização <br>&nbsp;&nbsp; (Essa é a configuração &nbsp;padrão) <br/> <input type="checkbox">Pessoas específicas <br>&nbsp;&nbsp; (Especificar na coluna comentários &nbsp;.) | |
 > | Você está usando os recursos de segurança e conformidade do Microsoft Teams? | <input type="checkbox">Sim <br/> <input type="checkbox">Não | |
 
@@ -171,7 +171,7 @@ Use a tabela a seguir para capturar os detalhes dos clientes e pontos de extremi
 
 > | Pergunta | Resposta | Comentários |
 > |---|---|---|
-> | Que sistema operacional de área de trabalho os usuários estão utilizando? | <input type="checkbox">Windows XP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">Windows 10 <br/> <input type="checkbox">Mac (especifique a versão na coluna comentários). <br/> <input type="checkbox">Outros (Observe os detalhes na coluna comentários.) | |
+> | Que sistema operacional de área de trabalho os usuários estão utilizando? | <input type="checkbox">Windows XP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">Windows 10 <br/> <input type="checkbox">Mac (especifique a versão na coluna comentários). <br/> <input type="checkbox">Linux (especifica a distribuição na coluna comentários). <br/><input type="checkbox">Outros (Observe os detalhes na coluna comentários.) | |
 > | Qual versão do Microsoft Office foi implantada <br>para estes dispositivos? | <input type="checkbox">Office 2003 <br/> <input type="checkbox">Office 2007 <br/> <input type="checkbox">Office 2010 <br/> <input type="checkbox">Office 2013 <br/> <input type="checkbox">Office 2016 <br/> <input type="checkbox">Office para Mac 2011 <br/> <input type="checkbox">Office para Mac 2016 <br/> <input type="checkbox">Outros (Observe os detalhes na coluna comentários.) | |
 > | Qual tecnologia de implantação do Office está em uso <br>em sua organização? | <input type="checkbox">MSI <br/> <input type="checkbox">Clique para executar | |
 > | Quais são os dispositivos móveis permitidos e compatíveis <br>plataformas em uso? <br/>Selecione todas as opções que se aplicam. | <input type="checkbox">Windows <br/> <input type="checkbox">Celular <br/> <input type="checkbox">SS <br/> <input type="checkbox">Android <br/> <input type="checkbox">Outros (Observe os detalhes na coluna comentários.) | |

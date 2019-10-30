@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14f41c30c00c871ba4a0a96717fabba422cf85dd
-ms.sourcegitcommit: 14d342644d94f75396cf38bfe787cab408e1fb77
+ms.openlocfilehash: 4616b3d78ae8d5e349b4cf29ca9112df77d7a295
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37590134"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772345"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Requisitos de hardware para o aplicativo Microsoft Teams
 
@@ -54,6 +54,21 @@ ms.locfileid: "37590134"
 |Vídeo  |    Webcam compatível     |
 |Voz    |  Microfone e alto-falantes compatíveis, fone de ouvido com microfone ou dispositivo equivalente       |
 |Reuniões e chamadas com vídeo | Para melhor experiência com chamadas com vídeo e reuniões online, recomendamos usar um computador com um processador de 2,0 GHz e 4,0 GB de RAM (ou superior). O desfoque opcional meu efeito de vídeo em segundo plano requer um processador com suporte a Advanced vector Extensions 2 (AVX2), compatível nos mais recentes dispositivos Mac do 2013 e mais tarde. Consulte [recomendações de driver](hardware-decoders-and-encoders.md) de codificador e codificador de hardware para obter uma lista de codificadores e codificadores sem suporte.|
+
+## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-linux"></a>Requisitos de hardware para o aplicativo da área de trabalho Teams em um Linux
+
+|**Componente**|**Requisito**  |
+|---------|---------|
+|Computador e processador    | Mínimo de 1,6 GHz (ou mais) (32 bits ou 64 bits).        |
+|Memória     |    2,0 GB DE RAM     |
+|Disco rígido    | 3,0 GB de espaço disponível em disco        |
+|Exibir    |   resolução de tela x 768 de 1024 |
+|Hardware gráfico |  Mínimo de 128 MB de memória gráfica
+|Sistema operacional  | Distribuição Linux capaz de instalar o DEB, o ajuste ou o RPM. |
+|Vídeo    |  Câmera de vídeo USB 2,0       |
+|Dispositivos    |   Câmera de laptop padrão, microfone e alto-falantes    | 
+|Voz    |  Microfone e alto-falantes compatíveis, fone de ouvido com microfone ou dispositivo equivalente       |
+|Reuniões e chamadas com vídeo | Para melhor experiência com chamadas com vídeo e reuniões online, recomendamos usar um computador com um processador de 2,0 GHz e 4,0 GB de RAM (ou superior). O desfoque opcional meu efeito de vídeo em segundo plano requer um processador com suporte a Advanced vector Extensions 2 (AVX2), compatível nos mais recentes dispositivos Mac do 2013 e mais tarde. Consulte [recomendações de driver](hardware-decoders-and-encoders.md) de codificador e codificador de hardware para obter uma lista de codificadores e codificadores sem suporte.
 
 ## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>Requisitos de hardware para o aplicativo Teams em dispositivos móveis
 
