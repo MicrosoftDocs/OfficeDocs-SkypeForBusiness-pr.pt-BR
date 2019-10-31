@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Introdução aos modelos do Teams para Organizações de Saúde
-ms.openlocfilehash: df917c3a6f1cbf20c9226dd58e4706c4c0e3bc2c
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e19c0403f259f400e784faf928738d36df66d618
+ms.sourcegitcommit: ced9b584eeceff7ca0109cba5823c7c3ddbd092e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570342"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37886434"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Introdução aos modelos do Teams para Organizações de Saúde
 
@@ -48,6 +48,17 @@ O modelo hospital destina-se à comunicação e colaboração entre vários depa
 |Tipo de modelo base |baseTemplateId |Canais de modelo de linha de base|
 |:--- |:---|:---|
 |Assistência médica – hospital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | Comunicados\* <br> Conformidade\* <br> Custodial <br> Recursos humanos <br> Farmácia |
+| | |  |
+
+\*Favoritos automaticamente 
+
+## <a name="care-coordination-template"></a>Modelo de coordenação de cuidados
+
+O modelo de coordenação de atendimento é destinado a facilitar a comunicação dentro de uma equipe de atendimento ao paciente, com alguns exemplos, incluindo equipes interdisciplinares e multidisciplinares. Nosso aplicativo pacientes patenteados é pré-carregado nesse modelo e fica no canal geral. Com o aplicativo pacientes, você pode selecionar listas de pacientes e seus valores associados e vitais, tornando-os úteis para cenários de gerenciamento de pacientes e de arredondamento. 
+
+|Tipo de modelo base |baseTemplateId |Canais de modelo de linha de base|
+|:--- |:---|:---|
+|Coordenação da área de saúde | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareCareCoordination')`   | Revisão pós-tratamento\* <br> Plano\* <br> Curso\* |
 | | |  |
 
 \*Favoritos automaticamente 

@@ -16,16 +16,14 @@ f1keywords: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar e gerenciar pacotes de política no Microsoft Teams.
-ms.openlocfilehash: 1caa1606f330b92507342140efbfc144def8c547
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fb01a7e15d43c18e115ecfbd0edb73b4808c2a59
+ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571940"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37885505"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Gerenciar pacotes de política no Microsoft Teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Um pacote de política no Microsoft Teams é uma coleção de políticas predefinidas e configurações de política que você pode atribuir aos usuários que têm funções semelhantes em sua organização. Nós criamos pacotes de políticas para simplificar, simplificar e ajudar a fornecer consistência ao gerenciar políticas para grupos de usuários em toda a sua organização.  
 
@@ -50,7 +48,7 @@ Atualmente, o Microsoft Teams inclui os seguintes pacotes de política.
 Cada política individual recebe o nome do pacote de política para que você possa facilmente identificar as políticas que estão vinculadas a um pacote de política.
 Por exemplo, quando você atribui o pacote de política de Education_Teacher a professores em sua escola, uma política nomeada Education_Teacher é criada para cada política no pacote.
 
-![Captura de tela do pacote de política Education_Teacher](media/policy-packages-education_teacher.png)
+![Captura de tela do pacote da política Education_Teacher](media/policy-packages-education_teacher.png)
 
 ## <a name="how-to-use-policy-packages"></a>Como usar pacotes de política
 

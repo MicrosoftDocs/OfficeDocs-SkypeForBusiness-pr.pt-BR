@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cef0a06ceb37cdfff3e9e4952f10397e7ee9b698
-ms.sourcegitcommit: 876b576db1fee38c09ab3a0092116212e498eda7
+ms.openlocfilehash: dc54251d228a4b496480759d90d850cf000f5aeb
+ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "37733081"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37885535"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>Atualize o Skype for Business para o &mdash; Teams para administradores de ti
 
@@ -227,6 +227,8 @@ Ao atribuir o modo TeamsOnly no nível do locatário, a migração da reunião n
 - Se você tiver usuários com contas do Skype for Business no local, não deverá atribuir o modo TeamsOnly no nível do locatário, a menos que você explicitamente atribua outro modo para todos os usuários com contas do Skype for Business local. 
 
 - Você deve garantir que seus usuários sejam sincronizados corretamente com o Azure AD com os atributos corretos do Skype for Business. Esses atributos são todos os prefixos com "msRTCSIP-". Se os usuários não forem sincronizados corretamente para o Azure AD, as ferramentas de gerenciamento do Teams não poderão gerenciar esses usuários. Para obter mais informações, consulte [Configurar o Azure ad Connect para Teams e o Skype for Business](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect).
+
+- Para criar um novo usuário do TeamsOnly ou do Skype for Business online em uma organização híbrida, *primeiro você deve habilitar o usuário no Skype for Business Server no local*e, em seguida, mover o usuário do local para a nuvem usando mover-CsUser.  A criação do usuário no local primeiro garante que qualquer outro usuário do Skype for Business restante seja direcionado para o usuário recém criado. Depois que todos os usuários tiverem sido movidos online, não será mais necessário primeiro habilitar os usuários no local.
 
 - Quando um usuário é movido do local para a nuvem, as reuniões organizadas por esse usuário são migradas para o Skype for Business online ou para o Teams, dependendo se a opção-MoveToTeams está ou não especificada.
 

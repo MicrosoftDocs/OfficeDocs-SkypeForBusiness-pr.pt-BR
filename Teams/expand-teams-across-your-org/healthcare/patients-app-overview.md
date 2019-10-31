@@ -14,12 +14,12 @@ MS.collection:
 appliesto: Microsoft Teams
 ms.reviewer: anach
 description: Aplicativo pacientes para administradores do teams
-ms.openlocfilehash: 1ed3efc1aa5a6d3eb4554fca6ee3bd7cfe57f4c0
-ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
+ms.openlocfilehash: 85f0d382de11b9259c6839aa8d0e556ad2512f5a
+ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37749553"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37885495"
 ---
 # <a name="patients-app-overview"></a>Visão geral do aplicativo de pacientes
 
@@ -43,6 +43,30 @@ Para obter informações sobre como preparar seu ambiente para usar o aplicativo
 <!-- For information on how your end users can access and install the Patients App to a team that they own or manage, you will need to see [End user documentation for the Patients App]() -->
 
 <!-- add link out to client doc, doesn't seem to be available yet, Grant is finalizing -->
+
+## <a name="frequently-asked-questions-faq"></a>Perguntas frequentes (FAQ)
+
+**Onde os dados do aplicativo pacientes são armazenados?**
+
+Todos os dados inseridos pelos usuários finais no aplicativo pacientes, incluindo o esquema de coluna/campo, os dados reais inseridos nos itens de lista e lista (por exemplo, pacientes), são armazenados na infraestrutura do Exchange Online segura e compatível. Todos os dados são armazenados na caixa de correio do grupo associada à equipe. Essa arquitetura permite que o aplicativo pacientes atenda facilmente à residência de dados, ao suporte à nuvem governamental (futuramente) e a outros recursos de conformidade/proteção de informações, como suporte para descoberta eletrônica. O aplicativo pacientes opera em um escopo de equipe. Será necessário instalar uma instância do aplicativo por equipe.
+
+<!-- add link to eDiscovery article for the Patients app, Mark Johnson will finalize soon -->
+
+**De onde eu posso adquirir o aplicativo pacientes?**
+
+Se o aplicativo pacientes estiver habilitado para sua organização pelo administrador, qualquer usuário final poderá acessar a app Team Store e adicionar o aplicativo pacientes a uma equipe da qual eles são membros. Para obter mais informações, consulte [gerenciar políticas de configuração de aplicativos no Microsoft Teams](../../teams-app-setup-policies.md).
+
+**Posso ter várias instâncias do aplicativo pacientes em uma equipe porque é assim que a minha unidade/unidade funciona?**
+
+Atualmente, você só pode instalar uma instância do aplicativo pacientes para uma determinada equipe e somente no canal geral. No entanto, no aplicativo, várias listas podem ser criadas para lidar com cenários de vários canais ou isolamento/separação. Por padrão, todos os membros da equipe terão acesso à guia pacientes no canal geral. 
+
+**Eu posso exportar todos os dados do aplicativo pacientes?**
+No momento, mas este recurso estará disponível em breve. 
+
+**Como esse aplicativo acomoda PHI, há auditoria para impedir o acesso não autorizado ou a conformidade com regulamentos?**
+
+Sim, há. Cada ação de interface do usuário realizada por um usuário do Microsoft Teams no aplicativo pacientes é auditada e está disponível no centro de segurança e conformidade. Os detalhes são explicados no artigo [aqui](patients-audit.md)
+
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

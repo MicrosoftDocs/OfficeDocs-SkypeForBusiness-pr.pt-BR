@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 517083fb4767b54cb79f618875be7572a19faee1
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 397c8b4b42151a726dec25885ed8924cddb9f181
+ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37565218"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37885515"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Veja aqui o que você obtém com o Sistema de Telefonia no Office 365
 
@@ -64,7 +64,7 @@ Ao usar o sistema telefônico, os usuários do Skype for Business receberão os 
 |[Defina opções de encaminhamento de chamadas no Skype for Business](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |Envia as chamadas para sua equipe imediatamente ou após um período de tempo determinado.  <br/> |
 |[Fazer e receber uma chamada de vídeo usando o Skype for Business](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | Você pode ver o nome do interlocutor e a transmissão de vídeo em uma pequena janela flutuante. Assim, você sempre estará pronto para responder a perguntas. <br/> |
 |[Verificar a caixa postal e as opções do Skype for Business](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8) <br/> |Veja como funciona o correio de voz na nuvem: quando um usuário recebe um correio de voz, ele é entregue à sua caixa de correio como um email com a mensagem de correio de voz como um anexo. Também é possível ouvir suas mensagens através de um telefone de mesa certificado pelo Skype, em todos os aplicativos do Skype for Business ou no Lync for Mac 2011.  <br/> O correio de voz na nuvem inclui saudação personalizada, indicador de mensagem em espera e responder com chamada. Você pode ter todas as mensagens da caixa postal depositadas em caixas de correio e disponibilizadas pelo Skype for Business em seu computador, dispositivo móvel e telefone IP.  <br/> |
-|Música de espera | Disponível em setembro de 2019, o sistema de telefonia executará a música padrão definida pelo serviço quando uma chamada externa da PSTN (rede telefônica pública comutada) estiver colocada em espera.  Esse recurso funciona para chamadas PSTN-to-Team de um para um, além de chamadas feitas para uma fila de chamadas. Esse recurso fornece a paridade de notificação em espera com outras plataformas. (Todas as outras plataformas fornecem uma indicação visual quando um usuário é colocado em espera, mas o chamador PSTN não teve uma maneira de saber.)  No primeiro lançamento, esse recurso não é configurável pelo administrador.| 
+|Música de espera | Disponível em setembro de 2019, o sistema de telefonia executará a música padrão definida pelo serviço quando uma chamada externa da PSTN (rede telefônica pública comutada) estiver colocada em espera.  Esse recurso funciona para chamadas PSTN-to-Team de um para um, além de chamadas feitas para uma fila de chamadas. Esse recurso fornece a paridade de notificação em espera com outras plataformas. (Todas as outras plataformas fornecem uma indicação visual quando um usuário é colocado em espera, mas o chamador PSTN não teve uma maneira de saber.)  No primeiro lançamento, esse recurso não é configurável pelo administrador. Também não há suporte para a música em uma transferência consultiva de uma chamada PSTN.| 
 |Pesquisa de número reverso | Disponível em setembro de 2019, o sistema telefônico mostrará a ID chamada para um número de telefone externo, se o número estiver associado a um usuário no AAD. Se o número de telefone não estiver no AAD, o nome de exibição fornecido pela Telco será exibido se estiver disponível.  |
 
    
