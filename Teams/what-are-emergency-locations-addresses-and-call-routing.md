@@ -21,30 +21,30 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Saiba o que são locais de emergência, locais e encaminhamento de chamadas de emergência e como planejar e atribuí-los aos usuários. '
-ms.openlocfilehash: a6f3051c4902d9fda2f20ca17e4aa501a8922264
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ff29f807f0766889db8e6be4305e994bdc9637fe
+ms.sourcegitcommit: d0f03b8abccdacb675f1063a7532397fd0e91a58
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568548"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "37901900"
 ---
 # <a name="what-are-emergency-locations-places-and-call-routing"></a>O que são locais e endereços de emergência, e roteamento de chamada?
 
-Ao configurar planos de chamada, você precisa atribuir um local de emergência para cada número de telefone quando receber o número de telefone ou atribuí-lo a um usuário para dar suporte a chamadas de emergência. Antes de poder atribuir um local de emergência a um número de telefone, você deve adicionar e validar um local de emergência. A validação verifica se o local de emergência é reconhecido e se está em um formato correto que pode ser usado por serviços de resposta de emergência. Opcionalmente, você pode adicionar um local no local de emergência para fornecer um local mais específico para o usuário. Por exemplo, o local pode ser um andar, um asa ou um escritório que está vinculado a um local de emergência específico. Embora locais de emergência sejam validados, os lugares não estão.
+Ao configurar planos de chamada, você precisa atribuir um local de emergência para cada número de telefone ao adquirir o número de telefone ou ao atribuí-lo a um usuário para dar suporte a chamadas de emergência. Antes de poder atribuir um local de emergência a um número de telefone, você deve adicionar e validar um local de emergência. A validação verifica se o local de emergência é reconhecido e se está em um formato correto que pode ser usado por serviços de resposta de emergência. Se desejar, você pode adicionar um local no local de emergência para fornecer um local mais específico para o usuário. Por exemplo, o local pode ser um andar, um asa ou um escritório que está vinculado a um local de emergência específico. Embora locais de emergência sejam validados, os lugares não estão.
   
 ## <a name="what-are-emergency-locations"></a>O que são locais de emergência?
 
-Um local de emergência é necessário para números de telefone ativos e quando ele é necessário depende do país/região. Nos Estados Unidos, é preciso um local de emergência quando um número é atribuído a um usuário. Para outros países, como na Europa, Oriente Médio e África (EMEA), é preciso um local de emergência quando você recebe o número de telefone do Office 365 ou quando ele é transferido de outro provedor de serviços ou operadora.
+Um local de emergência é necessário para números de telefone ativos e quando ele é necessário depende do país/região. Nos Estados Unidos, é preciso um local de emergência quando um número é atribuído a um usuário. Para outros países, como na Europa, Oriente Médio e África (EMEA), é preciso um local de emergência quando você recebe o número de telefone do teams ou quando ele é transferido de outro provedor de serviços ou operadora para o Microsoft Teams.
   
-Um local de emergência pode ser chamado de endereço cívico, endereço ou endereço físico. É o endereço residencial ou cívico de um local de negócios para sua organização. Por exemplo, o endereço *12345 residencial do Norte, Redmond, WA 98052* é usado para direcionar chamadas de emergência para as autoridades de expedição adequadas e para ajudar a localizar o chamador de emergência. É provável que você precise de mais de um local de emergência se a sua empresa tiver mais de um local corporativo físico.
+Um local de emergência pode ser chamado de endereço cívico, endereço ou endereço físico com o lugar opcional. É o endereço residencial ou cívico de um local de negócios para sua organização. Por exemplo, o endereço *12345 residencial do Norte, Redmond, WA 98052* é usado para direcionar chamadas de emergência para as autoridades de expedição adequadas e para ajudar a localizar o chamador de emergência. É provável que você precise de mais de um local de emergência se a sua empresa tiver mais de um local corporativo físico.
   
-Validar um local de emergência envolve certificar-se de que seja legítimo e formatado corretamente para serviços de resposta de emergência. É possível adicionar e salvar um local de emergência que não seja validado, mas somente locais validados podem ser associados a um usuário. Depois que um local de emergência for validado e salvo, você poderá atribuí-lo a um usuário. Para alterar um local de emergência salvo e validado, você precisará criar um novo.
+Validar um endereço de emergência envolve certificar-se de que seja legítimo e formatado corretamente para serviços de resposta de emergência. É possível adicionar e salvar um local de emergência que não seja validado, mas somente locais validados podem ser associados a um usuário. Depois que um local de emergência for validado e salvo, você poderá atribuí-lo a um usuário. Para alterar um local de emergência salvo e validado, você precisará criar um novo.
   
 ## <a name="what-are-places"></a>O que são locais?
 
-Um local está associado a um local de emergência para dar um local mais exato dentro de um edifício. Um local é geralmente um andar, um wingman de prédio ou um número de escritório onde o usuário está localizado. Você pode ter um número ilimitado de locais associados a um local de emergência. 
+Um local está associado a um local de emergência para dar um local mais exato dentro de um edifício. Um local é geralmente um andar, um wingman de prédio ou um número de escritório onde o usuário está localizado. Você pode ter um número ilimitado de locais associados a um endereço de emergência.
   
-Ao atribuir um local de emergência a um usuário, na verdade, é uma ID de localização referenciada quando você atribui o local. A ID de localização inclui o local de emergência referenciado (a rua ou o endereço cívico). Um local padrão está incluído em um local de emergência para casos em que os locais de construção não são necessários.
+Ao atribuir um local de emergência a um usuário, na verdade, é uma ID de localização referenciada quando você atribui o local. A ID de localização inclui o endereço de emergência referenciado (a rua ou o endereço cívico). Um local padrão está incluído em um local de emergência para casos em que os locais de construção não são necessários.
   
 ## <a name="what-is-emergency-call-routing"></a>O que é o encaminhamento de chamada de emergência?
 

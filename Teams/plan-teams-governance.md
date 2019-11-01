@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2400ef05c65bf69adb820d62e98c93c060641350
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 4ab8f3571ac38273f40cc228c05b51c8f00159a1
+ms.sourcegitcommit: 800a5c3881d0ebceb505a538fcf7e48f7b6df17e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573246"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37913034"
 ---
 # <a name="plan-for-governance-in-teams"></a>Plano de governança no Teams
 
@@ -130,6 +130,10 @@ O Teams foi desenvolvido sobre os recursos avançados de segurança e conformida
 
 > [!Important]
 > Se sua organização tiver requisitos de conformidade e segurança, examine o conteúdo detalhado fornecido sobre este tópico na [visão geral de segurança e conformidade no Microsoft Teams](security-compliance-overview.md).
+
+## <a name="related-topics"></a>Tópicos relacionados
+
+[Início rápido de governança para Teams](teams-adoption-governance-quick-start.md)
 
 <!--
 ## Teams lifecycle management
