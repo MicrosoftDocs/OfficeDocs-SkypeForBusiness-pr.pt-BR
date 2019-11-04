@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Configurar uma conta de recurso para o Skype for Business Server 2019.
-ms.openlocfilehash: 0439532eba2639dc836f62fff94531d4930f03e0
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 9b21f77c4b4558e6f08163173f587ef4956ed8d0
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328295"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37924952"
 ---
 # <a name="configure-resource-accounts"></a>Configurar contas de recurso
 
@@ -26,7 +26,7 @@ Para usar um atendedor automático do sistema de telefonia ou uma fila de chamad
 
 Se você tiver um atendedor automático de UM do Exchange e um sistema de fila de chamadas, antes de mudar para o Exchange Server 2019 ou Exchange Online, será necessário registrar manualmente os detalhes conforme descrito abaixo e implementar um sistema completamente novo usando o centro de administração do Microsoft Teams .
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 Se o atendedor automático ou a fila de chamadas do sistema de telefonia precisar de um número de serviço, as várias dependências poderão ser atendidas na seguinte sequência:
 
@@ -56,7 +56,7 @@ A criação de uma conta de recurso que usa um número de telefone precisaria ex
 
 1. Porta ou obter um número de serviço de chamada tarifada ou gratuita. O número não pode ser atribuído a nenhum outro serviço de voz ou contas de recurso.
 
-   Antes de atribuir um número de telefone a uma conta de recurso, você precisará obter ou portar os números de serviço de chamada gratuita ou tarifada existentes. Após obter os números de telefone de serviço de chamada tarifada ou gratuita, eles serão exibidos nos**números de telefone**de**voz** > do centro > de **Administração do Microsoft Teams**e o **tipo de número** listado será listado como **serviço de chamada**gratuita. Para obter seus números de serviço, consulte [obter números de telefone de serviço](/MicrosoftTeams/getting-service-phone-numbers) ou se você deseja transferir um número de serviço existente, consulte [transferir números de telefone para o Office 365](/MicrosoftTeams/transfer-phone-numbers-to-office-365).
+   Antes de atribuir um número de telefone a uma conta de recurso, você precisará obter ou portar os números de serviço de chamada gratuita ou tarifada existentes. Após obter os números de telefone de serviço de chamada tarifada ou gratuita, eles serão exibidos nos**números de telefone**de**voz** > do centro > de **Administração do Microsoft Teams**e o **tipo de número** listado será listado como **serviço de chamada**gratuita. Para obter seus números de serviço, consulte [obter números de telefone de serviço](/MicrosoftTeams/getting-service-phone-numbers) ou se você deseja transferir um número de serviço existente, consulte [transferir números de telefone para o Microsoft Teams](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
 
    Se você estiver fora dos Estados Unidos, não poderá usar o centro de administração do Microsoft Teams para obter os números de serviço. Vá para [gerenciar números de telefone para sua organização](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) em vez de ver como fazer isso fora dos Estados Unidos.
 

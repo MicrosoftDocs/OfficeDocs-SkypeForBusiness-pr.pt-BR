@@ -15,10 +15,10 @@ description: Saiba mais sobre a análise de equipe cruzada e a análise por equi
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 265099706e5c6fd502cabf688d539678d8669717
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37569699"
 ---
 # <a name="view-cross-team-and-per-team-analytics-in-teams"></a>Exibir análise entre equipes e por equipe em Teams

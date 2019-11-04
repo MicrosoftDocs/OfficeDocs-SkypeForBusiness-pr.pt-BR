@@ -13,12 +13,12 @@ ms.reviewer: vikramju
 description: Saiba mais sobre barreiras de informação e como elas afetam o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a8f67e03ca005ef99a4a2fbfd3c3e05373c53ad
-ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
+ms.openlocfilehash: f3d6d8d603d9ff6ccf20a355e374b58fdf46ffa1
+ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37885525"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "37931799"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreiras de informação no Microsoft Teams
 
@@ -27,7 +27,7 @@ Barreiras de informação são políticas que um administrador pode configurar p
 > [!NOTE]
 > - Grupos de barreira de informações não podem ser criados entre locatários.
 > - Não há suporte para o uso de bots para adicionar usuários na versão 1.
-> - Barreiras de informação a versão 1 não inclui suporte para o SharePoint e o OneDrive for Business. Estamos trabalhando para habilitar o recurso no SharePoint e ele se comunicará assim que estiver disponível.
+> - Novo: o suporte à barreira de informações do site do SharePoint conectado ao Teams agora está em visualização particular. Clique [aqui](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u) para participar da visualização particular. .
 
 As políticas de barreira de informações também impedem pesquisas e descobrimento. Isso significa que, se você tentar se comunicar com alguém com quem não deveria se comunicar, não encontrará esse usuário no seletor de pessoas.
 
@@ -76,45 +76,37 @@ Se houver um chat existente ou outras comunicações entre usuários e uma nova 
 - **Chat em grupo** -se a comunicação de um usuário para o grupo não for mais permitida (por exemplo, se um usuário alterar trabalhos), o usuário juntamente com os outros usuários que violam a política poderá ser removido do chat em grupo e outras comunicações com o grupo não serão autorizados. O usuário ainda pode ver conversas antigas (que serão somente leitura), mas não poderá ver ou participar de nenhuma nova conversa com o grupo. Se a política nova ou alterada que impede a comunicação for aplicada a mais de um usuário, os usuários afetados pela política poderão ser removidos do chat em grupo. Eles ainda podem ver conversas antigas. 
 - **Equipe** -todos os usuários que foram removidos do grupo são removidos da equipe e não poderão ver nem participar de conversas existentes ou novas.
 
+
 ## <a name="what-will-users-experience-if-another-user-is-blocked"></a>O que os usuários terão se outro usuário estiver bloqueado?
 
 No momento, os usuários perceberão o seguinte se uma política de barreira de informações bloquear outro usuário:
 
-- **Guia pessoas** -um usuário pode ver alguns usuários bloqueados na guia **pessoas** . O usuário pode selecionar os usuários bloqueados.
-- **Guia atividade** -se um usuário visitar a guia **atividade** de um usuário bloqueado, nenhuma postagem será exibida. (A guia **atividade** exibe somente Postagens de canal e não haveria canais comuns entre os dois usuários.)
-- **Organogramas** -se um usuário acessar um organograma no qual um usuário bloqueado é exibido, o usuário verá o usuário bloqueado no gráfico e poderá clicar em ações no gráfico, mas as ações (como chamadas) não serão exibidas.
-- **Cartão de visita** -se um usuário participar de uma conversa e estiver bloqueado posteriormente, outros usuários ainda poderão ver o cartão de pessoas para o usuário bloqueado. Todas as ações listadas no cartão (como chamada e chat) estarão disponíveis, mas as ações não passarão.
-- **Contatos sugeridos** -na lista contatos sugeridos (a lista de contatos inicial exibida para novos usuários), os usuários podem ver todos os contatos sugeridos (incluindo usuários bloqueados). No entanto, se um usuário clicar no nome de um usuário bloqueado para abrir o painel chats, a mensagem será bloqueada.
-- **Contatos do chat** -um usuário pode ver usuários bloqueados na lista de contatos do chat.
-- **Chamadas para contatos** -um usuário pode ver os usuários bloqueados na lista de contatos chamadas, e as ações, como chamadas e mensagens, serão exibidas, mas quando o usuário tentar ligar ou enviar uma mensagem para o usuário bloqueado, a chamada ou mensagem não será perenviada.
-- **Migração do Skype para o Teams** -durante uma migração do Skype for Business para o Teams, todos os usuários, mesmo aqueles bloqueados por políticas de barreira de informações, serão migrados para o Teams e, em seguida, serão manipulados conforme descrito acima.
-
-Em breve: os usuários perceberão o seguinte se uma política de barreira de informações bloquear outro usuário:
-
 - **Guia pessoas** -um usuário não pode ver usuários bloqueados na guia **pessoas** .
+- **Seletor de pessoas** -os usuários bloqueados não ficarão visíveis no seletor de pessoas.
 - **Guia atividade** -se um usuário visitar a guia **atividade** de um usuário bloqueado, nenhuma postagem será exibida. (A guia **atividade** exibe somente Postagens de canal e não haveria canais comuns entre os dois usuários.)
 - **Organogramas** -se um usuário acessar um organograma no qual um usuário bloqueado é exibido, o usuário bloqueado não será exibido no organograma e uma mensagem de erro será exibida.
 - **Cartão de visita** -se um usuário participar de uma conversa e o usuário for bloqueado posteriormente, outros usuários verão uma mensagem de erro em vez do cartão de pessoas quando passarem o mouse sobre o nome do usuário bloqueado. As ações listadas no cartão (como chamada e chat) não estarão disponíveis.
 - **Contatos sugeridos** -os usuários bloqueados não aparecem na lista de contatos sugeridos (a lista de contatos inicial exibida para novos usuários).
-- **Contatos do chat** -um usuário não pode ver usuários bloqueados na lista de contatos do chat.
+- **Contatos de chat** -um usuário pode ver usuários bloqueados na lista de contatos chats, mas os usuários bloqueados serão identificados e a única ação que o usuário poderá executar será excluí-los. O usuário também pode clicar neles para ver a conversa anterior.
 - **Chamadas contatos** -um usuário pode ver os usuários bloqueados na lista de contatos chamadas, mas os usuários bloqueados serão identificados e a única ação que o usuário poderá executar será excluí-los.
 - **Migração do Skype para o Teams** -durante uma migração do Skype for Business para o Teams, todos os usuários, mesmo aqueles bloqueados por políticas de barreira de informações, serão migrados para o Teams e, em seguida, serão manipulados conforme descrito acima.
 
+
+
 ## <a name="required-licenses-and-permissions"></a>Permissões e licenças necessárias
 
-As barreiras de informação estão sendo lançadas agora e são incluídas em assinaturas, como:
+Quando uma equipe é criada, um site do SharePoint é provisionado e associado à equipe para a experiência dos arquivos. O acesso a este site e arquivos do SharePoint honra a política IB da organização, ou seja, somente os usuários cujo segmento IB corresponde à política IB têm permissão de acesso. Mesmo no momento do compartilhamento de arquivos, a política IB é respeitada.
 
-- Microsoft 365 e5
-- Office 365 E5
-- Conformidade avançada do Office 365
-- Conformidade com o Microsoft 365 e5
+Por exemplo: na contoso Bank Corporation, o usuário ' Sesha@contosobank.onmicrosoft.com ' pertence ao segmento bancário de investimentos e o usuário ' Nikita@contosobank.onmicrosoft.com ' pertence ao consultor do segmento. A política IB da organização bloqueia a comunicação e a colaboração entre esses dois segmentos. Quando o usuário Sesha cria um segmento de banco de investimentos, a equipe e o site do SharePoint que os reproduzir serão acessíveis somente para os usuários do segmento do banco de investimentos. O Nikita do usuário não pode acessar esse site, mesmo que ele tenha o link do site.
 
-Para obter mais detalhes, incluindo planos e preços, consulte [soluções de conformidade](https://products.office.com/business/security-and-compliance/compliance-solutions?rtc=1).
+Para obter mais detalhes, incluindo planos e preços, consulte [orientação de licenciamento](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-tenantlevel-services-licensing-guidance).
+
 
 ## <a name="more-information"></a>Mais informações
 
 - Para saber mais sobre as barreiras de informação, consulte [barreiras de informações](https://docs.microsoft.com/office365/securitycompliance/information-barriers).
 
-- Para configurar políticas de barreira de informações, consulte [definir políticas para barreiras de informação](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)
+- Para configurar políticas de barreira de informações, consulte [definir políticas para barreiras de informação](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
 - Para editar ou remover as políticas de barreira de informações, consulte [Editar (ou remover) políticas de barreira de informações](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-edit-segments-policies.md)
+

@@ -13,10 +13,10 @@ ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 'Resumo: saiba como configurar sua infraestrutura do Skype for Business Server 2015 para trabalhar com o System Center Operations Manager.'
 ms.openlocfilehash: 5622b09b3d55b4d0d3a3fe026f66b28e3c4be75e
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "36824544"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>Manage Skype for Business Server 2015 using SCOM Management pack

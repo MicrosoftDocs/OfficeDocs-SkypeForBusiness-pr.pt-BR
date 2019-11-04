@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53424be46dbc857f2a361ec1c3278e2d56fe16d7
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 8ad3700b3b0186ba3e95d8f55ad704f37cf33bc7
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516012"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925072"
 ---
 # <a name="evaluate-my-environment"></a>Avaliar meu ambiente
 
@@ -42,7 +42,7 @@ Você deve incorporar essas informações no registro de risco.
 
 Como parte da sua descoberta ambiental, inclua todos os assuntos relacionados à computação do usuário final, como uma avaliação de prontidão de PCs e dispositivos móveis para dar suporte à conferência de áudio e a sistemas de telefonia com os casos de uso empresarial do plano de chamadas, de acordo com os requisitos de hardware para requisitos de software.
 
-A descoberta ambiental também pode descobrir se você precisa [transferir números de telefone para a Microsoft](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365).
+A descoberta ambiental também pode descobrir se você precisa [transferir números de telefone para a Microsoft](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 Saber isso ajudará sua organização a ajustar seu plano de projeto de acordo e preparar as informações necessárias para portabilidade de números. Você pode usar a [descoberta ambiental para a distribuição do Microsoft Teams](environmental-discovery-for-microsoft-teams-rollout.md) para executar a descoberta ambiental.
 
 <table>
@@ -74,7 +74,7 @@ Use as seguintes considerações para avaliar a prontidão da sua organização 
 
 O Teams usa tecnologia de áudio e vídeo (codecs) que pode se adaptar à maioria das condições de rede e, portanto, tem um melhor desempenho nelas. Para garantir um desempenho ideal e consistente, você deve preparar sua rede para o Teams.
 
-![Diagrama que descreve os três componentes da qualidade](media/evaluate-my-environment-image1.png "Diagrama que descreve os três componentes da qualidade e como o gerenciamento de serviços se sobrepõe a todos os três componentes. Com foco na rede.")
+![Diagrama descrevendo os três componentes de qualidade](media/evaluate-my-environment-image1.png "Diagrama descrevendo os três componentes de qualidade e como o gerenciamento de serviços se sobrepõe a todos os três componentes. Com foco na rede.")
 
 ## <a name="key-takeaways"></a>Principais conclusões
 

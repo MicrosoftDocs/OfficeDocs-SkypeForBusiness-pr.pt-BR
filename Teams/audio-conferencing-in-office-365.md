@@ -20,12 +20,12 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.audioconferencing.overview
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: cf8aa0de368803fa957667e239ba6ed0b161c0cb
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 5b7cb2e92a3246b7a3f5098e91c3ab84ad19bbf0
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37517038"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925592"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Audioconferência no Office 365
 A videoconferência no Office 365 permite que os usuários liguem para reuniões a partir de seus telefones. A videoconferência de áudio permite até 250 participantes telefônicos.
@@ -86,7 +86,7 @@ Números de telefone de conferência de áudio dedicados são números de servi�
 
 - **Use o centro de administração do Skype for Business.** Para alguns países/regiões, você pode obter números para suas pontes de conferência usando o centro de administração do Skype for Business. Veja [obtendo números de telefone de serviço](/microsoftteams/getting-service-phone-numbers).
     
-- **Fazer a portabilidade de seus números existentes.** Você pode fazer a portabilidade/transferência de números existentes do seu provedor de serviços ou operadora de telefonia atual para o Office 365. Consulte [Transferir números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md) ou [Gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para obter mais informações que ajudem você a fazer isso.  
+- **Fazer a portabilidade de seus números existentes.** Você pode fazer a portabilidade/transferência de números existentes do seu provedor de serviços ou operadora de telefonia atual para o Office 365. Consulte [transferir números de telefone para o Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) ou [gerenciar números de telefone de sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para obter mais informações para ajudá-lo a fazer isso.  
   
 - **Usar um formulário de solicitação para novos números.** Às vezes (dependendo do seu país/região) você não poderá obter seus novos números de telefone usando o centro de administração do Skype for Business ou precisará de números de telefone ou códigos de área específicos. Se for o caso, será necessário baixar um formulário e enviá-lo para nós. Para obter mais informações, consulte [Gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 

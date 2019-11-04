@@ -12,15 +12,15 @@ localization_priority: Normal
 ms.collection: ''
 description: Instruções para implementar a caixa postal baseada em nuvem para usuários hospedados no Skype for Business Server.
 ms.openlocfilehash: 7423f16e7985a063ae5a974ea6c36684bfb75e7c
-ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2019
+ms.lasthandoff: 11/01/2019
 ms.locfileid: "37616064"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>Configurar o serviço de caixa postal na nuvem para usuários locais
 
-## <a name="overview"></a>Visão geral 
+## <a name="overview"></a>Visão Geral 
 Este artigo descreve como configurar o serviço de caixa postal do Microsoft Cloud para seus usuários locais do Skype for Business.  
 
 Este artigo pressupõe que você já tem o Skype for Business Server implantado em uma topologia com suporte e que você atende aos pré-requisitos para a configuração da conectividade híbrida.

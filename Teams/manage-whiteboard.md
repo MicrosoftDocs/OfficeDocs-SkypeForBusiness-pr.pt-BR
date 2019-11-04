@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80a57388e48e73d62b863d886c5510c002509e47
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e30179b955d2ab157dbbf5311845a6697474a7fd
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571907"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925172"
 ---
 <a name="manage-the-whiteboard-in-microsoft-teams"></a>Gerenciar o quadro de comunicações no Microsoft Teams
 ==========================================
@@ -31,21 +31,7 @@ O Microsoft Whiteboard é uma tela de forma livre e digital na qual pessoas, con
 
 Os usuários podem compartilhar um quadro de comunicações para torná-lo disponível para todos os participantes de uma reunião do teams. O mesmo quadro de comunicações está simultaneamente disponível em todos os aplicativos do quadro de comunicações no Windows 10, iOS e no aplicativo Web.
 
-## <a name="turn-on-or-turn-off-the-whiteboard-app"></a>Ativar ou desativar o aplicativo quadro de comunicações
-
-Para ativar ou desativar o aplicativo Web do whiteboard, siga estas etapas:
-
-1. Vá para o centro de administração do Microsoft 365.
-
-2. Vá até **Configurações** > **Serviços e suplementos**.
-
-3. Na página do **serviço & suplementos** , role para baixo e escolha **whiteboard**.
-
-4. **Para ativar**o aplicativo do quadro de comunicações, no painel **whiteboard** , **ative ou desative o quadro de comunicações para toda a sua organização** .
-
-    Para desativar o aplicativo whiteboard, no painel **whiteboard** , ative ou desative o **quadro de comunicações para toda a sua organização** **.**
-
-5. Clique em **Salvar**.
+Para ativar ou desativar o aplicativo do quadro de comunicações, consulte [habilitar o Microsoft whiteboard para a sua organização](https://support.office.com/article/1caaa2e2-5c18-4bdf-b878-2d98f1da4b24). Lembre-se de que essa configuração habilitará ou desabilitará o whiteboard para toda a sua organização, e não apenas para equipes.
 
 ## <a name="whiteboard-on-surface-hub"></a>Whiteboard no Surface Hub
 

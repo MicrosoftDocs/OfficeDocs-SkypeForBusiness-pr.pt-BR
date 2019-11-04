@@ -10,19 +10,18 @@ audience: admin
 ms.date: 01/28/2019
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3ed86a8989cc1664d2ff73111b85d2fe30dcad3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 81ba166d86fde3272131e1349551c6df0eab6376
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240924"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925082"
 ---
 # <a name="audio-conferencing-in-microsoft-teams"></a>Audioconferência no Microsoft Teams
 
@@ -73,7 +72,7 @@ Confira [Audioconferência no Office 365](audio-conferencing-in-office-365.md) p
 |------------|-------|
 |Preciso adicionar novos números de ponte de conferência?| Para adicionar novos números, confira [Obter números de telefone de serviço](/microsoftteams/getting-service-phone-numbers).|
 |Será necessário modificar as configurações da ponte?|Para alterar essas configurações de ponte, confira [Alterar as configurações de uma ponte de Audioconferência](change-the-settings-for-an-audio-conferencing-bridge.md).|
-|Preciso transferir números para usar na audioconferência?|Para saber mais sobre a portabilidade de números de telefone, leia [Transferir números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md).|
+|Preciso transferir números para usar na audioconferência?|Para saber mais sobre a portabilidade de números de telefone, leia [Transferir números de telefone para o Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).|
 |||
 
 

@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Página de aterrissagem para implantar a voz na nuvem no Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f60159d2d9d65afd3837a0b48b82ac7e13b8e0df
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 969d55f41226d1c6effaf4c183992f15bf48e385
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37515827"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925572"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Voz na nuvem no Microsoft Teams
 
@@ -30,7 +30,7 @@ Você concluiu a [Introdução](get-started-with-teams-quick-start.md). Você im
 
 A Cloud Voice oferece recursos de PBX (Private Branch Exchange) e opções para conexão à rede telefônica pública comutada (PSTN).
 
-Este artigo ajuda você a decidir se precisa alterar qualquer uma das configurações de voz de nuvem padrão, com base nas necessidades de negócios e perfil da sua organização, e o orienta durante cada alteração. Dividimos as configurações em dois grupos, começando pelo conjunto básico de [alterações que você tem mais probabilidade de fazer](#core-deployment-decisions). O segundo grupo inclui [configurações adicionais](#additional-deployment-decisions) que poderão ser configuradas com base nas necessidades da organização.
+Este artigo ajuda você a decidir se precisa alterar qualquer uma das configurações de voz de nuvem padrão, com base nas necessidades de negócios e perfil da sua organização, e o orienta durante cada alteração. Dividimos as configurações em dois grupos, começando pelo conjunto básico de [alterações que você tem mais probabilidade de fazer](#core-deployment-decisions). O segundo grupo inclui [configurações adicionais](#additional-deployment-decisions) que poderão ser configuradas com base nas necessidades de sua organização.
 
 Recomendamos que todas as organizações funcionem pelas decisões básicas e, se a sua organização tiver requisitos adicionais, revise o material a seguir.
 
@@ -44,7 +44,7 @@ Os artigos a seguir fornecem mais informações sobre a implantação e o uso de
 - [Sistema de Telefonia com Planos de Chamadas](calling-plan-landing-page.md)
 - [Roteamento Direto do Sistema Telefônico](direct-routing-landing-page.md)
 - [Implantação do Cloud Voice](cloud-voice-deployment.md)
-- [Soluções de Telefonia da Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Soluções de telefonia da Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
 - Assista à sessão a seguir para saber mais sobre o sistema telefônico: [introdução ao sistema telefônico no Microsoft Teams](https://aka.ms/teams-phone-system)
 
 
@@ -112,7 +112,7 @@ A Microsoft tem dois tipos de números de telefone disponíveis: números de *as
 | :------------|:-------|
 | Quais locais de usuário precisam de novos números de telefone da Microsoft? | Para obter informações sobre como obter números de telefone, consulte [gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) e [obter números de telefone para seus usuários](getting-phone-numbers-for-your-users.md). 
 | Que tipo de número de telefone (assinante ou serviço) eu preciso? | Para ajudá-lo a escolher o tipo de número de telefone necessário, consulte [diferentes tipos de números de telefone usados para planos de chamadas](different-kinds-of-phone-numbers-used-for-calling-plans.md).
-Como faço para portar números de telefone existentes para o Office 365?|Para obter mais informações, consulte [transferir números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md).
+Como faço para portar números de telefone existentes para o Microsoft Teams?|Para obter mais informações, consulte [transferir números de telefone para o Microsoft Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 |||
 
 ### <a name="dial-plans"></a>Planos de discagem
@@ -134,7 +134,7 @@ As filas de chamadas na nuvem incluem Saudações que são usadas quando alguém
 
 |Pergunte-se|Ação |
 |:------------|:-------|
-| Minha organização precisa de filas de chamadas? | Para obter mais informações, consulte [criar uma fila de chamadas em nuvem](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) e [Configurar o sistema telefônico](setting-up-your-phone-system.md). |
+| Minha organização precisa de filas de chamadas? | Para obter mais informações, consulte [criar uma fila de chamadas em nuvem](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) e [Configurar o sistema telefônico](setting-up-your-phone-system.md). |
 
 ### <a name="auto-attendants"></a>Atendedores automáticos
 
@@ -149,8 +149,8 @@ Os atendedores automáticos na nuvem podem ser usados para criar um sistema de m
 Para obter mais informações sobre os dispositivos compatíveis, consulte o seguinte:
 
 - [Gerenciar seus dispositivos no Microsoft Teams](device-management.md)
-- [Telefones IP](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-- [Dispositivos de áudio e vídeo USB](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-- [Comunicações inteligentes para dispositivos](https://products.office.com/en-gb/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
+- [Telefones IP](https://docs.microsoft.com/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [Dispositivos de áudio e vídeo USB](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [Comunicações inteligentes para dispositivos](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
 
 
