@@ -22,12 +22,12 @@ f1keywords:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: 5edaa21f3d9a2438532f8cc7f45f182c105b2f1e
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 5bcc084c96ededbf4337057834763e9d53ac4348
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37570130"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968272"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Gerenciar políticas do teams no Microsoft Teams
 
@@ -43,11 +43,11 @@ Você pode editar a política global ou criar e atribuir uma política personali
 2. Clique em **Adicionar**.
 3. Insira um nome e uma descrição para a política.
 
-    ![Captura de tela das configurações de política do teams](media/teams-policies.png)
+    ![Captura de tela das configurações de política de equipes](media/teams-policies.png)
 4. Escolha as configurações desejadas:
 
-- [**Descubra equipes particulares**](https://docs.microsoft.com/MicrosoftTeams/teams-policies#discoverteams): Ative essa configuração para permitir que os usuários descubram equipes particulares nos resultados da pesquisa e na Galeria de equipe.
-- [**Criar canais privados**](https://docs.microsoft.com/MicrosoftTeams/teams-policies#createchannels): Ative essa configuração para permitir que os usuários criem canais privados.
+- **Descubra equipes particulares**:<a name="discoverteams"> </a> Ative essa configuração para permitir que os usuários descubram equipes particulares nos resultados da pesquisa e na Galeria de equipe.
+- **Criar canais privados**: <a name="createchannels"> </a>Ative essa configuração para permitir que os usuários criem canais privados.
 
 5. Clique em **Salvar**.
 
@@ -105,3 +105,4 @@ Dependendo do número de membros do grupo, esse comando pode levar alguns minuto
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Gerenciar a descoberta de equipes privadas no Teams](manage-discovery-of-private-teams.md)
+- [Canais privados no Teams](private-channels.md)

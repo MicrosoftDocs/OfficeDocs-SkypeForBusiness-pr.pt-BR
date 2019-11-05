@@ -17,14 +17,17 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5832ccce69c9863e364f94c6e850f8d938ac162
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 378977e86854f3c4b2192017fa10ce19aeb4990e
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569559"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968312"
 ---
-# <a name="get-started-with-teams-templates"></a>Introdução aos modelos do Teams 
+# <a name="get-started-with-teams-templates"></a>Introdução aos modelos do Teams
+
+> [!NOTE]
+> Atualmente, os modelos de equipe não dão suporte à criação de canais particulares. A criação do canal privado não está incluída nas definições do modelo. 
 
 Os modelos de equipe são definições predefinidas da estrutura de uma equipe projetada em torno de uma necessidade ou projeto comercial. Você pode usar modelos de equipe para criar rapidamente espaços de colaboração avançados com canais para diferentes tópicos e aplicativos pré-instalar para extrair conteúdo e serviços de missão crítica. Os modelos de equipe fornecem uma estrutura de equipe predefinida que pode ajudá-lo a criar facilmente equipes consistentes em toda a sua organização. 
 
@@ -33,7 +36,7 @@ Neste artigo, explicaremos as propriedades que podem ser definidas nos modelos, 
 Este artigo é para você, se estiver:
 
 - Responsável por planejar, implantar e gerenciar várias equipes em toda a organização<br>
-- Um desenvolvedor que queira criar programaticamente uma equipe com canais e aplicativos predefinidos 
+- Um desenvolvedor que queira criar programaticamente uma equipe com canais e aplicativos predefinidos
 
 ## <a name="teams-template-capabilities"></a>Recursos de modelos de equipes
 
@@ -48,7 +51,7 @@ A maioria das propriedades em uma equipe é incluída e suportada pelos modelos.
 | Configurações da equipe (por exemplo, membro, convidado, @ menção) | Arquivos e conteúdo |
 | Canal de favoritos automático | |
 | Aplicativo instalado | |
-| Guias fixadas | | 
+| Guias fixadas | |
 
 > [!NOTE]
 > Adicionaremos mais recursos de modelo em versões futuras do Microsoft Teams, portanto verifique as informações mais atualizadas sobre as propriedades com suporte.
@@ -57,7 +60,7 @@ A maioria das propriedades em uma equipe é incluída e suportada pelos modelos.
 
 Tipos de modelo básico são modelos especiais criados pela Microsoft para indústrias específicas. Esses modelos básicos geralmente contêm aplicativos proprietários que não estão disponíveis nas propriedades da loja e da equipe que ainda não são suportadas individualmente nos modelos do teams.
 
-Depois que um tipo de modelo base é definido, você pode estender ou substituir esses modelos especiais por propriedades adicionais que gostaria de especificar. Mas alguns tipos de modelo básico contêm propriedades que não podem ser substituídas. 
+Depois que um tipo de modelo base é definido, você pode estender ou substituir esses modelos especiais por propriedades adicionais que gostaria de especificar. Mas alguns tipos de modelo básico contêm propriedades que não podem ser substituídas.
 
 Por padrão, o modelo base é definido como **padrão** , que não contém nenhum aplicativo proprietário adicional ou propriedades especiais. Abaixo está a lista atual de tipos de modelo base disponíveis.
 
@@ -75,7 +78,6 @@ Por padrão, o modelo base é definido como **padrão** , que não contém nenhu
 
 > [!NOTE]
 > Adicionaremos mais tipos de modelos básicos em versões futuras do Microsoft Teams, portanto verifique as informações mais atualizadas sobre as propriedades com suporte.
-
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

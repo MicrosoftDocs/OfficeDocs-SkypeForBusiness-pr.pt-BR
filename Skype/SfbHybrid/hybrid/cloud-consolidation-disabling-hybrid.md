@@ -19,23 +19,24 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Este apêndice inclui etapas detalhadas para desabilitar o híbrido como parte da consolidação em nuvem para o Teams e o Skype for Business.
-ms.openlocfilehash: f78c5a5cb792ecdb39125292c531097219dc58e3
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: d441d9fcc5e4f2cec495efabdbea423eaaec882c
+ms.sourcegitcommit: 7920c47eb73e665dad4bf7214b28541d357bce25
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37924962"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "37962045"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>Desabilitar a migração híbrida para concluir a nuvem
 
 Após mover todos os usuários do local para a nuvem, você poderá encerrar a implantação do Skype for Business local. Além de remover qualquer hardware, uma etapa crítica é separar logicamente a implantação local do Office 365 desabilitando o híbrido. A desabilitação híbrida consiste em três etapas:
 
 1. Atualizar registros DNS para apontar para o Office 365.
+
 2. Desabilitar o domínio de divisão no locatário do Office 365.
-3. Desabilitar a capacidade no local para se comunicar com o Office 365.
 
+3. Desabilite a capacidade no local para se comunicar com o Office 365.
 
-Essas etapas devem ser feitas juntas como uma unidade. Os detalhes são fornecidos abaixo. Além disso, diretrizes para o gerenciamento de números de telefone para usuários migrados, quando a implantação local é desconectada.
+Essas etapas devem ser feitas juntas como uma unidade. Os detalhes são fornecidos abaixo. Além disso, as diretrizes são fornecidas para o gerenciamento de números de telefone para usuários migrados depois que a implantação local é desconectada.
 
 > [!Note] 
 > Em casos raros, alterar o DNS de apontar para local para o Office 365 para sua organização pode fazer com que a Federação com algumas outras organizações pare de funcionar até que outra organização Atualize sua configuração de Federação:<ul><li>
@@ -56,19 +57,30 @@ O DNS externo da organização para a organização local precisa ser atualizado
 2.  *Desabilitar o espaço de endereçamento SIP compartilhado no locatário do Office 365.*
 O comando a seguir precisa ser feito de uma janela do PowerShell do Skype for Business online.
 
-    `Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false`
+    ```
+    Set-CsTenantFederationConfiguration -SharedSipAddressSpace $false
+    ```
  
 3.  *Desabilitar a capacidade no local para se comunicar com o Office 365.*  
-O comando a seguir precisa ser feito a partir de uma janela do PowerShell local.  Se você importou uma sessão do Skype for Business online anteriormente, inicie uma nova sessão do PowerShell do Skype for Business.
+O comando a seguir precisa ser feito a partir de uma janela do PowerShell local.  Se você importou uma sessão do Skype for Business online anteriormente, inicie uma nova sessão do PowerShell do Skype for Business da seguinte maneira:
 
-    `Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false`
+```
+    Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
+```
 
-### <a name="managing-phone-numbers-for-users-who-were-migrated-from-on-premises"></a>Gerenciando números de telefone para usuários que foram migrados do local
+### <a name="manage-phone-numbers-for-users-who-were-migrated-from-on-premises"></a>Gerenciar números de telefone para usuários que foram migrados do local
 
-Os administradores podem gerenciar os usuários que foram movidos anteriormente do Skype for Business Server local para a nuvem, mesmo depois que a implantação local é encerrada. Há duas possibilidades diferentes:
-1.  Se o usuário tivesse um lineURI local antes da movimentação (supostamente porque o usuário foi habilitado para o Enterprise Voice), se você quiser alterar o lineURI, deverá fazer isso no AD local e deixar o valor fluir até o AAD. Isso não requer o Skype for Business Server local. Em vez disso, esse atributo, msRTCSIP, pode ser editado diretamente no Active Directory local, usando o snap-in usuários e computadores do Active Directory, ou por meio do PowerShell. Se estiver usando o snap-in do MMC, abra a página de propriedades do usuário e clique na guia Editor de atributos e localize msRTCSIP-line.
+Os administradores podem gerenciar os usuários que foram movidos anteriormente de um Skype for Business Server local para a nuvem, mesmo depois que a implantação local é descomissionada. Há duas possibilidades diferentes:
 
-2.  Se o usuário não tiver um valor para lineURI local antes da movimentação, você poderá modificar o LineURI usando os parâmetros-onpremLineUri no cmdlet Set-CsUser no módulo PowerShell do Skype for Business online.
+- O usuário não tinha um valor para lineURI no local antes da movimentação. 
+
+  Nesse caso, você pode modificar o LineURI usando os parâmetros-onpremLineUri no [cmdlet Set-CsUser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) no módulo PowerShell do Skype for Business online.
+
+- O usuário tinha um lineURI local antes da movimentação (supostamente porque o usuário foi habilitado para o Enterprise Voice). 
+
+  Se quiser alterar o lineURI, você deve fazer isso no Active Directory local e deixar o valor fluir para o Azure AD. Isso não requer o Skype for Business Server local. Em vez disso, esse atributo, msRTCSIP, pode ser editado diretamente no Active Directory local, usando o snap-in usuários e computadores do Active Directory do MMC ou usando o PowerShell. Se você estiver usando o snap-in do MMC, abra na página de propriedades do usuário, clique na guia Editor de atributo e encontre msRTCSIP.
+
+  ![Ferramenta usuários e computadores do Active Directory](../media/disable-hybrid-1.png)
 
 ## <a name="see-also"></a>Confira também
 

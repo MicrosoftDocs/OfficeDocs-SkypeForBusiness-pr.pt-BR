@@ -15,16 +15,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como levar seus aplicativos personalizados do teams do desenvolvimento para a implantação.
-ms.openlocfilehash: cd64ff0a3307ada0f1fbfaf29b94cfcd1da3c0df
-ms.sourcegitcommit: d6a0ff7f00defda2b58726f5f0f0fac871f46ab7
+ms.openlocfilehash: 6064c4408fba367d0623f4b4dec85800d33718f9
+ms.sourcegitcommit: 7920c47eb73e665dad4bf7214b28541d357bce25
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37682671"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "37962065"
 ---
 # <a name="manage-your-line-of-business-apps-in-microsoft-teams"></a>Gerenciar seus aplicativos de linha de negócios no Microsoft Teams
 
-Este artigo fornece uma orientação de ponta a ponta para como levar o aplicativo Teams do desenvolvimento para a implantação. Esta orientação se concentra nos aspectos da equipe do aplicativo e destina-se aos profissionais de ti. Para obter mais informações sobre o desenvolvimento de aplicativos do Teams, consulte [aqui](https://docs.microsoft.com/microsoftteams/platform).
+Este artigo fornece uma orientação de ponta a ponta para como levar o aplicativo Teams do desenvolvimento para a implantação. Esta orientação se concentra nos aspectos da equipe do aplicativo e destina-se aos profissionais de ti. Para obter mais informações sobre o desenvolvimento de aplicativos do Teams, consulte <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">aqui</a>.
 
 ![Visão geral do seu aplicativo do desenvolvimento para a implantação](media/manage-your-lob-apps.png)
 
@@ -33,13 +33,13 @@ Este artigo fornece uma orientação de ponta a ponta para como levar o aplicati
 Para criar e gerenciar aplicativos de linha de negócios (LOB) no Teams, você precisará de dois locatários: um locatário de teste para desenvolvimento e um locatário de produção.
 
 > [!NOTE]
-> Se ainda não tiver um locatário de teste, você pode criar rapidamente um e preenchê-lo com dados de teste usando o programa para desenvolvedores do Office 365. [Saiba mais aqui](https://developer.microsoft.com/office/dev-program).
+> Se ainda não tiver um locatário de teste, você pode criar rapidamente um e preenchê-lo com dados de teste usando o programa para desenvolvedores do Office 365. <a href="https://developer.microsoft.com/office/dev-program" target="_blank">Saiba mais aqui</a>.
 
 ## <a name="step-1-develop-and-test"></a>Etapa 1: desenvolver e testar
 
 ### <a name="create-test-users"></a>Criar usuários de teste
 
-Certifique-se de que os desenvolvedores, internos ou externos, tenham contas em seu locatário de teste. [Saiba mais sobre como adicionar usuários](https://docs.microsoft.com/office365/admin/add-users/add-users).
+Certifique-se de que os desenvolvedores, internos ou externos, tenham contas em seu locatário de teste. <a href="https://docs.microsoft.com/office365/admin/add-users/add-users" target="_blank">Saiba mais sobre como adicionar usuários</a>.
 
 ### <a name="allow-custom-apps-in-the-test-tenant"></a>Permitir aplicativos personalizados no locatário de teste
 
@@ -48,35 +48,35 @@ Para dar aos desenvolvedores o acesso necessário para o teste, permita que todo
 Para permitir que os usuários carreguem aplicativos personalizados, siga estas etapas:
 
 1. Ative a configuração **permitir interação com aplicativos personalizados** de toda a organização. Para fazer isso:
-    1. Na navegação à esquerda do [centro de administração do Microsoft Teams](https://admin.teams.microsoft.com/), vá para**políticas de permissão**de **aplicativos** > do Teams e clique em **configurações de toda a organização**.
+    1. Na navegação à esquerda do <a href="https://admin.teams.microsoft.com/" target="_blank">centro de administração do Microsoft Teams</a>, vá para**políticas de permissão**de **aplicativos** > do Teams e clique em **configurações de toda a organização**.
     2. Em **aplicativos personalizados**, ative **permitir interação com aplicativos personalizados**e, em seguida, clique em **salvar**.
 
     ![Captura de tela da configuração de "permitir interação com aplicativos personalizados" para toda a organização](media/manage-your-lob-apps-org-wide-custom-apps.png)
 
 2. Ative a configuração **carregar aplicativos personalizados** na política de configuração do aplicativo global. Para fazer isso:
-    1. Na navegação à esquerda do [centro de administração do Microsoft Teams](https://admin.teams.microsoft.com/), vá para**políticas de configuração**de aplicativos > do **Teams**e clique na política **global (padrão para toda a organização)** .
+    1. Na navegação à esquerda do <a href="https://admin.teams.microsoft.com/" target="_blank">centro de administração do Microsoft Teams</a>, vá para**políticas de configuração**de aplicativos > do **Teams**e clique na política **global (padrão para toda a organização)** .
     2. Ative **carregar aplicativos personalizados**e, em seguida, clique em **salvar**.
 
     ![Captura de tela da configuração de política "carregar aplicativos personalizados" do aplicativo de configuração de aplicativos](media/manage-your-lob-apps-app-setup-custom-apps.png)
 
 > [!NOTE]
-> Também há uma configuração de aplicativo de carregamento personalizado no nível da equipe. Por padrão, essa configuração está ativada. No entanto, se os desenvolvedores não conseguirem carregar um aplicativo personalizado para uma equipe, verifique a configuração seguindo as etapas descritas [aqui](teams-custom-app-policies-and-settings.md#configure-the-team-custom-app-setting).
+> Também há uma configuração de aplicativo de carregamento personalizado no nível da equipe. Por padrão, essa configuração está ativada. No entanto, se os desenvolvedores não conseguirem carregar um aplicativo personalizado para uma equipe, verifique a configuração seguindo as etapas descritas <a href="https://docs.microsoft.com/microsoftteams/teams-custom-app-policies-and-settings#configure-the-team-custom-app-setting" target="_blank">aqui</a>.
 
 ### <a name="create-your-app"></a>Criar seu aplicativo
 
-Os desenvolvedores agora devem ter o que precisam para criar seu aplicativo. Veja [aqui](https://docs.microsoft.commicrosoftteams/platform) as diretrizes sobre isso.
+Os desenvolvedores agora devem ter o que precisam para criar seu aplicativo. Veja <a href="https://docs.microsoft.com/microsoftteams/platform" target="_blank">aqui</a> as diretrizes sobre isso.
 
 ## <a name="step-2-validate-in-production"></a>Etapa 2: validar na produção
 
 ### <a name="get-the-app-package"></a>Obter o pacote do aplicativo
 
-Quando o aplicativo está pronto para ser usado na produção, o desenvolvedor deve produzir um pacote de aplicativo. Eles podem usar o [app Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio) para isso. Eles enviarão o arquivo no formato. zip.
+Quando o aplicativo está pronto para ser usado na produção, o desenvolvedor deve produzir um pacote de aplicativo. Eles podem usar o <a href="https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio" target="_blank">app Studio</a> para isso. Eles enviarão o arquivo no formato. zip.
 
-A Microsoft usa [essas diretrizes](https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-approval) para garantir que os aplicativos estejam em conformidade com os padrões de qualidade e segurança da loja de aplicativos global do teams.
+A Microsoft usa <a href="https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-approval" target="_blank">essas diretrizes</a> para garantir que os aplicativos estejam em conformidade com os padrões de qualidade e segurança da loja de aplicativos global do teams.
 
 ### <a name="allow-trusted-users-to-upload-custom-apps-in-the-production-tenant"></a>Permitir que usuários confiáveis carreguem aplicativos personalizados no locatário de produção
 
-Para validar que o aplicativo está funcionando corretamente no seu locatário de produção, você precisa permitir que os usuários de si mesmo e/ou confiáveis em sua organização carreguem aplicativos personalizados.  Assim como na etapa anterior [permitir aplicativos personalizados na etapa testar locatário](#allow-custom-apps-in-the-test-tenant) , você usa políticas de configuração do aplicativo para fazer isso.
+Para validar que o aplicativo está funcionando corretamente no seu locatário de produção, você precisa permitir que os usuários de si mesmo e/ou confiáveis em sua organização carreguem aplicativos personalizados.  Assim como na <a href="https://docs.microsoft.com/microsoftteams/manage-your-lob-apps#allow-custom-apps-in-the-test-tenant" target="_blank">etapa</a>anterior, você usa políticas de configuração do aplicativo para fazer isso.
 
 > [!NOTE]
 > Se você não se sentir à vontade para fazer o upload do aplicativo em seu locatário de produção para validação, mesmo para usuários confiáveis ou para usuários confiáveis, pode ignorar esta etapa e seguir as etapas 3 e 4 para carregar o aplicativo não validado para a loja de aplicativos do locatário. Em seguida, restrinja o acesso a esse aplicativo apenas para você e os usuários confiáveis. Esses usuários podem, então, obter o aplicativo a partir da loja de aplicativos do locatário para executar a validação. Depois que o aplicativo for validado, use as mesmas políticas de permissão para abrir o Access e faça o lançamento do aplicativo para uso em produção.
@@ -84,13 +84,13 @@ Para validar que o aplicativo está funcionando corretamente no seu locatário d
 Para permitir que usuários confiáveis carreguem aplicativos personalizados, siga estas etapas:
 
 1. Ative a configuração **permitir interação com aplicativos personalizados** de toda a organização. Para fazer isso:
-    1. Na navegação à esquerda do [centro de administração do Microsoft Teams](https://admin.teams.microsoft.com/), vá para**políticas de permissão**de **aplicativos** > do Teams e clique em **configurações de toda a organização**.
+    1. Na navegação à esquerda do <a href="https://admin.teams.microsoft.com/" target="_blank">centro de administração do Microsoft Teams</a>, vá para**políticas de permissão**de **aplicativos** > do Teams e clique em **configurações de toda a organização**.
     2. Em **aplicativos personalizados**, ative **permitir interação com aplicativos personalizados**e, em seguida, clique em **salvar**.
 2. Desative a configuração **carregar aplicativos personalizados** na política de configuração do aplicativo global. Para fazer isso:
-    1. Na navegação à esquerda do [centro de administração do Microsoft Teams](https://admin.teams.microsoft.com/), vá para**políticas de configuração**de aplicativos > do **Teams**e clique na política **global (padrão para toda a organização)** .
+    1. Na navegação à esquerda do <a href="https://admin.teams.microsoft.com/" target="_blank">centro de administração do Microsoft Teams</a>, vá para**políticas de configuração**de aplicativos > do **Teams**e clique na política **global (padrão para toda a organização)** .
     2. Desative **carregar aplicativos personalizados**e, em seguida, clique em **salvar**.
 3. Crie uma nova política de configuração de aplicativo que permita carregar aplicativos personalizados e atribuí-lo ao conjunto de usuários confiáveis. Para fazer isso:
-    1. Na navegação à esquerda do [centro de administração do Microsoft Teams](https://admin.teams.microsoft.com/), vá para**políticas de configuração**de aplicativos > do **Teams**e, em seguida, clique em **Adicionar**. Dê um nome e uma descrição para a nova política, ative **carregar aplicativos personalizados**e, em seguida, clique em **salvar**.
+    1. Na navegação à esquerda do <a href="https://admin.teams.microsoft.com/" target="_blank">centro de administração do Microsoft Teams</a>, vá para**políticas de configuração**de aplicativos > do **Teams**e, em seguida, clique em **Adicionar**. Dê um nome e uma descrição para a nova política, ative **carregar aplicativos personalizados**e, em seguida, clique em **salvar**.
     2. Selecione a nova política que você criou e clique em **gerenciar usuários**. Procure um usuário, clique em **Adicionar**e, em seguida, clique em **aplicar**. Repita esta etapa para atribuir a política a todos os usuários confiáveis.
 
         ![Captura de tela da página "Adicionar política de configuração de aplicativo"](media/manage-your-lob-apps-new-app-setup-policy.png)
@@ -99,7 +99,7 @@ Para permitir que usuários confiáveis carreguem aplicativos personalizados, si
 
 ## <a name="step-3-upload-to-the-tenant-apps-catalog"></a>Etapa 3: carregar para o catálogo de aplicativos do locatário
 
-Para disponibilizar o aplicativo para os usuários no repositório de aplicativos do locatário, carregue o aplicativo. Você pode fazer isso usando o cliente da área de trabalho do teams. Siga as etapas [aqui](tenant-apps-catalog-teams.md#go-to-the-tenant-apps-catalog).
+Para disponibilizar o aplicativo para os usuários no repositório de aplicativos do locatário, carregue o aplicativo. Você pode fazer isso usando o cliente da área de trabalho do teams. Siga as etapas <a href="https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams#go-to-the-tenant-apps-catalog" target="_blank">aqui</a>.
 
 ![Captura de tela da página aplicativos](media/manage-your-lob-apps-store.png)
 
@@ -107,13 +107,13 @@ Para disponibilizar o aplicativo para os usuários no repositório de aplicativo
 
 ### <a name="control-access-to-the-app"></a>Controlar o acesso ao aplicativo
 
-Por padrão, todos os usuários têm acesso a este aplicativo na loja de aplicativos do teams. Para restringir e controlar quem tem permissão para usar o aplicativo, você pode criar e atribuir uma nova política de permissão de aplicativo. Siga as etapas [aqui](teams-app-permission-policies.md#create-a-custom-app-permission-policy).
+Por padrão, todos os usuários têm acesso a este aplicativo na loja de aplicativos do teams. Para restringir e controlar quem tem permissão para usar o aplicativo, você pode criar e atribuir uma nova política de permissão de aplicativo. Siga as etapas <a href="https://docs.microsoft.com/microsoftteams/teams-app-permission-policies#create-a-custom-app-permission-policy" target="_blank">aqui</a>.
 
 ![Captura de tela da página "Adicionar política de permissão de aplicativo"](media/manage-your-lob-apps-new-app-permission-policy.png)
 
 ### <a name="pin-the-app-for-users-to-discover"></a>Fixar o aplicativo para que os usuários descubram
 
-Por padrão, para os usuários encontrarem esse aplicativo, eles precisarão ir para a loja de aplicativos do Teams e procurá-lo ou procurá-lo. Para facilitar para os usuários acessar o aplicativo, você pode fixar o aplicativo à barra de aplicativos no Microsoft Teams. Para fazer isso, crie uma nova política de configuração de aplicativo e atribua-a a usuários. Siga as etapas [aqui](teams-app-setup-policies.md#create-a-custom-app-setup-policy).
+Por padrão, para os usuários encontrarem esse aplicativo, eles precisarão ir para a loja de aplicativos do Teams e procurá-lo ou procurá-lo. Para facilitar para os usuários acessar o aplicativo, você pode fixar o aplicativo à barra de aplicativos no Microsoft Teams. Para fazer isso, crie uma nova política de configuração de aplicativo e atribua-a a usuários. Siga as etapas <a href="https://docs.microsoft.com/microsoftteams/teams-app-setup-policies#create-a-custom-app-setup-policy" target="_blank">aqui</a>.
 
 ![Captura de tela do painel "adicionar aplicativos fixos"](media/manage-your-lob-apps-pinned-apps.png)
 

@@ -16,17 +16,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82ba160c1b2a36d67d67b69a0d7eb71bdde4c35f
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: ceb699ff4c8d7ba2cf10e1b8e94ca33f60eb9b8d
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515909"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968262"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Arquivar ou excluir uma equipe no Microsoft Teams
 ===========================================
 
-Com o tempo, uma equipe criada no Microsoft Teams pode ficar fora do uso ou talvez você queira arquivar ou excluir uma equipe no final de um projeto. Se você for um administrador do Microsoft Teams, siga as etapas deste artigo para arquivar ou excluir uma equipe que não é mais necessária. Quando você arquiva uma equipe, todas as atividades da equipe são interrompidas, mas você ainda pode adicionar ou remover membros e atualizar funções e ainda pode exibir todas as atividades da equipe em canais, arquivos e chats. Quando você exclui uma equipe, a atividade de equipe em canais, arquivos e chats associados também é excluída.
+Com o tempo, uma equipe criada no Microsoft Teams pode ficar fora do uso ou talvez você queira arquivar ou excluir uma equipe no final de um projeto. Se você for um administrador do Microsoft Teams, siga as etapas deste artigo para arquivar ou excluir uma equipe que não é mais necessária.
+
+Quando você arquiva uma equipe, todas as atividades da equipe são interrompidas. O arquivamento de uma equipe também arquiva canais privados na equipe e nos conjuntos de sites associados.  No entanto, você ainda pode adicionar ou remover membros e atualizar funções e ainda pode exibir todas as atividades da equipe em canais padrão e privados, arquivos e chats.
+
+Quando você exclui uma equipe, a atividade de equipe em canais padrão e privados (e conjuntos de sites associados), arquivos e chats também é excluída.
 
 > [!IMPORTANT]
 > As equipes arquivadas podem ser reativadas, mas você não pode reexcluir diretamente uma equipe que tenha sido excluída. Considere o arquivamento da equipe primeiro e adie a exclusão até ter certeza de que você não precisa mais da equipe.
@@ -63,7 +67,9 @@ Se a equipe não for necessária no futuro, você poderá excluí-la em vez de a
 
 ## <a name="restore-a-deleted-team"></a>Restaurar uma equipe excluída
 
-Siga estas etapas para restaurar uma equipe excluída restaurando o grupo do Office 365 associado à equipe. Por padrão, um grupo do Office 365 excluído é mantido por 30 dias. Este período de 30 dias é chamado de "exclusão reversível" porque você pode restaurar o grupo. Para saber mais, confira [restaurar um grupo do Office 365 excluído](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group).
+Siga estas etapas para restaurar uma equipe excluída restaurando o grupo do Office 365 associado à equipe. Restaurar o grupo do Office 365 para uma equipe, restaura o conteúdo da equipe, incluindo guias, canais padrão e canais privados e seus conjuntos de sites associados.
+
+Por padrão, um grupo do Office 365 excluído é mantido por 30 dias. Este período de 30 dias é chamado de "exclusão reversível" porque você pode restaurar o grupo. Para saber mais, confira [restaurar um grupo do Office 365 excluído](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group).
 
 ### <a name="install-the-azureadpreview-module"></a>Instalar o módulo AzureADPreview
 

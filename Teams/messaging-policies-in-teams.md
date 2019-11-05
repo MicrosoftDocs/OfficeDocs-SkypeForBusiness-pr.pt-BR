@@ -7,7 +7,8 @@ ms.reviewer: jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- M365-collaboration
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -16,12 +17,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Saiba mais sobre as políticas de mensagens e como elas podem ser usadas para controlar as mensagens de chat no Teams.
-ms.openlocfilehash: 0707214a2bff442102dd1481af1f031c1a59703d
-ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
-ms.translationtype: HT
+ms.openlocfilehash: 3ac3e25dfc6f8ec65922d0265664649de6e9f55c
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/25/2019
-ms.locfileid: "35861860"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968232"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gerenciar políticas de mensagens no Teams
 
@@ -33,7 +34,7 @@ Por padrão, uma política denominada Global (padrão toda a organização) é c
 
 ## <a name="change-or-create-a-messaging-policy"></a>Alterar ou criar uma política de mensagens
 
-Você pode gerenciar facilmente as políticas de mensagens no centro de administração do Microsoft Teams (http://admin.teams.microsoft.com) entrando com credenciais de administrador e escolhendo **Políticas de mensagens** no painel de navegação esquerdo. Para editar a política de mensagens padrão existente para sua organização, escolha a linha **Global (padrão em toda a organização)** e faça as alterações. Para criar uma nova política de mensagens personalizada, escolha **Nova política**, dê um nome à nova política e escolha as configurações. Escolha **Salvar** quando terminar.
+Você pode gerenciar facilmente as políticas de mensagens no centro de administração do Microsoft Teams (https://admin.teams.microsoft.com) entrando com credenciais de administrador e escolhendo **Políticas de mensagens** no painel de navegação esquerdo. Para editar a política de mensagens padrão existente para sua organização, escolha a linha **Global (padrão em toda a organização)** e faça as alterações. Para criar uma nova política de mensagens personalizada, escolha **Nova política**, dê um nome à nova política e escolha as configurações. Escolha **Salvar** quando terminar.
 
 Por exemplo, digamos que você queira garantir que as mensagens enviadas não sejam excluídas ou alteradas. Você criaria uma nova política personalizada chamada "Reter mensagens enviadas" e desativaria as seguintes configurações:
 
@@ -96,6 +97,9 @@ Use as configurações a seguir para alterar a política de mensagens globais ou
     - **Desativado** Isso significa que os usuários não podem criar mensagens de voz em chats nem em canais.  
 - **Em dispositivos móveis, exibir canais favoritos acima dos chats recentes** Habilite essa configuração para mover canais favoritos para a parte superior da tela de um dispositivo móvel de modo que o usuário não precise rolar para encontrá-los. 
 - **Permitir que um usuário remova usuários de um chat em grupo** Habilite essa configuração para permitir que um usuário remova outros usuários de um chat em grupo. Esse recurso permite que você continue um chat com um grupo menor de pessoas sem perder o histórico do chat.
+
+> [!NOTE]
+> Algumas dessas configurações, como o uso de Giphys, também podem ser configuradas no nível da equipe por proprietários da equipe e no nível de canal privado por proprietários de canal privado.
 
 ### <a name="related-topics"></a>Tópicos relacionados
 [Políticas de reunião no Teams](meeting-policies-in-teams.md)

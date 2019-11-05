@@ -15,14 +15,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbeab6df377dd898b9c0d424288300ad7f01fbfc
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 9b3d2ed05459c6866c73b0f49b128eea3980605f
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37569968"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968302"
 ---
 # <a name="microsoft-teams-retention-policies-faq"></a>Perguntas frequentes sobre diretivas de retenção do Teams 
+
+> [!NOTE]
+> Ainda não damos suporte à configuração para a retenção de mensagens de canal privado. A retenção de arquivos compartilhados em canais privados tem suporte.
 
 ### <a name="what-types-of-policies-can-i-set-up-in-retention-policies-and-how-do-they-work"></a>Que tipos de diretivas eu posso configurar nas políticas de retenção e como elas funcionam?
 
@@ -40,7 +43,7 @@ Sim, eles estão. Se você criar uma política de retenção para excluir dados 
 
 ### <a name="what-is-the-default-retention-policy"></a>O que é a política de retenção padrão? 
 
-Por padrão, os dados de chat, canal e arquivos de equipe são mantidos para sempre. Um usuário pode excluir algo, mas na ausência de políticas de retenção, os dados do teams sempre são arquivados nas caixas de correio do Exchange Online (usuário e grupo) e permanecem lá para descoberta eletrônica. 
+Por padrão, os dados de chat, canal e arquivos de equipe são mantidos para sempre.
 
 ### <a name="can-i-target-sets-of-users-or-teams-in-a-policy"></a>Posso direcionar conjuntos de usuários ou equipes em uma política? 
 

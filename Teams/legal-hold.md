@@ -3,7 +3,6 @@ title: Colocar um usuário ou uma equipe do Microsoft Teams em retenção legal
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -14,12 +13,12 @@ search.appverid: MET150
 description: Saiba como colocar um usuário ou uma equipe do Microsoft Teams em retenção legal usando o Centro de Segurança e Conformidade, e saiba o que necessita de uma retenção legal com base nas exigências de dados.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe6418162d95ebfb14665e004c3aeb508c3baaf4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 25bd8e235be79ed805a854cbda2b4947f1c1269b
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37564983"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968032"
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Colocar um usuário ou uma equipe do Microsoft Teams em retenção legal
 ==================================================
@@ -29,10 +28,11 @@ Para colocar um usuário ou uma equipe em retenção legal, navegue até o [Cent
 > [!NOTE]
 > A colocação de um usuário em retenção não coloca automaticamente um grupo em retenção ou vice-versa.
 
+> [!NOTE]
+> Ainda não damos suporte à configuração de controle legal de mensagens de canal privado. Há suporte para o controle legal de arquivos compartilhados em canais privados.
+
 > [!IMPORTANT]
 > Quando um usuário ou grupo é colocado em espera, todas as cópias da mensagem serão mantidas. Exemplo: Clay publicou uma mensagem em um canal e depois modificou a mensagem. Em um cenário de retenção, ambas as cópias da mensagem são mantidas. Sem a retenção legal, apenas a última mensagem seria mantida.
-
-
 
 Na imagem abaixo, há uma investigação que envolve Clay. Clay é membro da equipe de Corretores-Revendedores.
 

@@ -13,12 +13,12 @@ ms.reviewer: vikramju
 description: Saiba mais sobre barreiras de informação e como elas afetam o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3d6d8d603d9ff6ccf20a355e374b58fdf46ffa1
-ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
+ms.openlocfilehash: dfc56ab28be03e0301228eb9220437c2e1ef2673
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "37931799"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968252"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreiras de informação no Microsoft Teams
 
@@ -27,7 +27,8 @@ Barreiras de informação são políticas que um administrador pode configurar p
 > [!NOTE]
 > - Grupos de barreira de informações não podem ser criados entre locatários.
 > - Não há suporte para o uso de bots para adicionar usuários na versão 1.
-> - Novo: o suporte à barreira de informações do site do SharePoint conectado ao Teams agora está em visualização particular. Clique [aqui](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u) para participar da visualização particular. .
+> - Os canais privados são compatíveis com as políticas de barreira de informações que você configurar.
+> - Novo: o suporte à barreira de informações do site do SharePoint conectado ao Teams agora está em visualização particular. Clique [aqui](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u) para participar da visualização particular.
 
 As políticas de barreira de informações também impedem pesquisas e descobrimento. Isso significa que, se você tentar se comunicar com alguém com quem não deveria se comunicar, não encontrará esse usuário no seletor de pessoas.
 

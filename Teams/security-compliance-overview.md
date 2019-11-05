@@ -17,12 +17,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5780720cfcd5adcf079c0f3d31423949cecea23
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: da0e576bf299bcd4c5362e7055cd843805b783dc
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37568052"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968172"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Visão geral de segurança e conformidade no Microsoft Teams
 ======================================================
@@ -37,7 +37,10 @@ O Teams também aplica uma autenticação de dois fatores para todas as equipe e
 
 Também acrescentamos suporte para pesquisa de registros de auditoria, eDiscovery e retenção legal para canais, bate-papos e arquivos, bem como gerenciamento de aplicativos móveis com o Microsoft Intune. Vá para o centro de conformidade & segurança do Office 365 para gerenciar essas configurações. 
 
-Para saber mais sobre a conformidade com & de segurança do Office 365, leia [configurar seu locatário do office 365 para aumentar a segurança](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)
+Para saber mais sobre a conformidade e a segurança do Office 365, leia [configurar seu locatário do office 365 para maior segurança](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security).
+
+> [!NOTE]
+> Atualmente, os [canais privados](private-channels.md) dão suporte a recursos limitados de segurança e conformidade. O suporte para todo o conjunto de recursos de segurança e conformidade em canais privados estará disponível em breve.
 
 ## <a name="auditing-and-reporting"></a>Auditoria e relatórios
 
@@ -47,7 +50,7 @@ A pesquisa de log de auditoria se conecta diretamente ao centro de conformidade 
 
 A pesquisa de conteúdo pode ser usada para pesquisar todos os dados do teams por meio de recursos sofisticados de filtragem e exportados para um contêiner específico de conformidade e suporte jurídico. Isso pode ser feito com ou sem um caso do eDiscovery. Isso permite que os administradores de conformidade coletem dados do teams em todos os usuários, analise e exporte-os para processamento adicional. Consulte este [link](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4) para saber mais sobre como conduzir um conteúdo de pesquisa de conteúdo de conformidade para o conteúdo do Microsoft Teams no centro de conformidade do Office 365 Security &. 
 
-Dica: o tipo Microsoft Teams pode ser usado para filtrar somente o conteúdo do Microsoft Teams, ou seja, mensagens de chat e de canal, reuniões e chamadas. 
+Dica: o tipo Microsoft Teams pode ser usado para filtrar somente o conteúdo do Microsoft Teams, ou seja, mensagens de chat e de canal, reuniões e chamadas.
 
 ## <a name="ediscovery"></a>eDiscovery
 

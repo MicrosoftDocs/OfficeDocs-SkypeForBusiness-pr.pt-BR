@@ -3,44 +3,46 @@ title: Como o SharePoint Online e o OneDrive for Business interagem com o Micros
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/08/2019
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: snigdhav
 search.appverid: MET150
-description: Saiba como o SharePoint Online e o OneDrive for Business interagem com o Microsoft Teams, como arquivos de bate-papo provados são armazenados e a relação entre equipe, canal e biblioteca de documentos.
+description: Saiba como o SharePoint Online e o OneDrive for Business interagem com o Microsoft Teams, como como os arquivos de chat privados são armazenados e a relação entre a equipe, o canal padrão e a biblioteca de documentos.
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af1d12eda58dc481ba28bf96ff4ecbfeab8ed5f0
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 5b18cf1f97d0798df5cac4881672c0756cc56616
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37567116"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968242"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Como o SharePoint Online e o OneDrive for Business interagem com o Microsoft Teams
 
 > [!Tip]
 > Assista à sessão a seguir para saber como as equipes interagem com o Azure Active Directory (AAD), o Office 365 Groups, o Exchange, o SharePoint e o OneDrive for Business: [bases do Microsoft Teams](https://aka.ms/teams-foundations)
 
-Cada equipe do Microsoft Teams tem um site de equipe no SharePoint Online, e cada canal de uma equipe obtém uma pasta dentro da biblioteca de documentos padrão do site da equipe. Os arquivos compartilhados em uma conversa são adicionados automaticamente à biblioteca de documentos e as permissões e as opções de segurança do arquivo definidas no SharePoint são refletidas automaticamente dentro do Teams.
+Cada equipe do Microsoft Teams tem um site de equipe no SharePoint Online, e cada canal padrão em uma equipe Obtém uma pasta dentro da biblioteca de documentos padrão do site de equipe. Os arquivos compartilhados em uma conversa são adicionados automaticamente à biblioteca de documentos e as permissões e as opções de segurança do arquivo definidas no SharePoint são refletidas automaticamente dentro do Teams.
+
+> [!NOTE]
+> Este artigo se aplica somente a canais padrão. A arquitetura para canais privados é diferente dos canais padrão. Cada canal privado tem seu próprio conjunto de sites do SharePoint separado do site de equipe pai. Para saber mais, confira [canais privados no Microsoft Teams](private-channels.md).
 
 Os arquivos de bate-papo privado ficam armazenados na pasta do OneDrive for Business do remetente e as permissões são concedidas automaticamente a todos os participantes como parte do processo de compartilhamento de arquivos.
 
-Se os usuários não forem designados e habilitados com as licenças do SharePoint Online, eles não terão o armazenamento OneDrive for Business no Office 365. O compartilhamento de arquivos continuará a funcionar em canais, mas os usuários não poderão compartilhar arquivos em chats sem o armazenamento do OneDrive for Business no Office 365.
+Se os usuários não forem designados e habilitados com as licenças do SharePoint Online, eles não terão o armazenamento OneDrive for Business no Office 365. O compartilhamento de arquivos continuará a funcionar em canais padrão, mas os usuários não poderão compartilhar arquivos em chats sem o armazenamento do OneDrive for Business no Office 365.
 
 Ao armazenar os arquivos na biblioteca de documentos do SharePoint Online e no OneDrive for Business, todas as regras de conformidade configuradas no nível tenant serão cumpridas. 
 
 > [!NOTE]
 > A integração com o SharePoint local não é compatível com o Microsoft Teams no momento.
 
-A seguir, um exemplo das relações entre equipe, canal e biblioteca de documentos.
+Veja a seguir o exemplo de relações entre a equipe, o canal padrão e a biblioteca de documentos.
 
-É criado um site SharePoint para cada equipe e a pasta **Documentos compartilhados** é a pasta padrão criada para cada uma das equipes. Todos os canais, inclusive o canal **Geral** (o canal padrão de cada equipe), têm uma pasta em **Documentos Compartilhados**.
+É criado um site SharePoint para cada equipe e a pasta **Documentos compartilhados** é a pasta padrão criada para cada uma das equipes. Cada canal padrão, incluindo o canal **geral** (o canal padrão de cada equipe) tem uma pasta em **documentos compartilhados**.
 
 ![Diagrama de pastas de documentos compartilhados no SharePoint Online.](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image1.png)
 

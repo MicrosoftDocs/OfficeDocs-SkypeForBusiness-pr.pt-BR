@@ -16,16 +16,14 @@ f1keywords: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar e gerenciar pacotes de política no Microsoft Teams.
-ms.openlocfilehash: d9e18f662f96d4021cf4878ba5130decb40bb9e4
-ms.sourcegitcommit: b6e17a6690011917c8fc14e98a49af654441a204
+ms.openlocfilehash: fb01a7e15d43c18e115ecfbd0edb73b4808c2a59
+ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "37889850"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37972432"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Gerenciar pacotes de política no Microsoft Teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Um pacote de política no Microsoft Teams é uma coleção de políticas predefinidas e configurações de política que você pode atribuir aos usuários que têm funções semelhantes em sua organização. Nós criamos pacotes de políticas para simplificar, simplificar e ajudar a fornecer consistência ao gerenciar políticas para grupos de usuários em toda a sua organização.  
 

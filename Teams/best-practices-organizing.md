@@ -11,16 +11,15 @@ description: Conheça as práticas recomendadas para organizar as equipes no Mic
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32bd7664e8aa8fa8a818b3223e64b09f7982d12f
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
-ms.translationtype: HT
+ms.openlocfilehash: 516d49c84efc43000597d74756c699012cacf28e
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36766930"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968022"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Práticas recomendadas para organizar equipes no Microsoft Teams
 ======================================================
@@ -46,7 +45,11 @@ Depois de criar a sua equipe, é uma boa ideia começar a pensar sobre os difere
 
 Saiba mais sobre como [trabalhar em equipes](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams) com essas dicas rápidas para usuários finais. 
 
-Nossa orientação de melhores práticas é criar equipes com um conjunto maior de membros e mais canais. Para manter uma experiência de usuário de alta qualidade, é útil minimizar o número de equipes que exigem a participação de uma pessoa. Canais dentro de uma equipe devem ser pensados como tópicos ou fluxos de trabalho para ajudar a equipe na organização de seu trabalho para cumprir seus objetivos comuns. Não há um número específico de canais que devem ser criados. Cada equipe deve criar canais com base em seu trabalho, prioridades e estilo. Organizações maiores podem querer criar equipes como "modelos" para padronizar as informações que capturam sobre tipos específicos de trabalho. Isso é útil para o gerenciamento estratégico de clientes, gerenciamento de sala de aula, cenários de assistência médica, gerenciamento de reclamações, gerenciamento de incidentes e outros cenários apropriados a um setor específico.
+Nossa orientação de melhores práticas é criar equipes com um conjunto maior de membros e mais canais.  Para manter uma experiência de usuário de alta qualidade, é útil minimizar o número de equipes que exigem a participação de uma pessoa. Canais dentro de uma equipe devem ser pensados como tópicos ou fluxos de trabalho para ajudar a equipe na organização de seu trabalho para cumprir seus objetivos comuns. Não há um número específico de canais que devem ser criados. Cada equipe deve criar canais com base em seu trabalho, prioridades e estilo. 
+
+Use canais padrão para conversas que todos os membros da equipe possam contribuir para canais privados, quando um espaço de colaboração mais focalizado for necessário para um subconjunto de pessoas da equipe. Para saber mais sobre canais privados e quando criá-los, consulte [canais privados no Teams](private-channels.md).
+
+Organizações maiores podem querer criar equipes como "modelos" para padronizar as informações que capturam sobre tipos específicos de trabalho.  Isso é útil para gerenciamento estratégico do cliente, gerenciamento da sala de aula, cenários de assistência médica, gerenciamento de reivindicação, gerenciamento de incidentes e outros cenários apropriados para um setor específico.
 
 ## <a name="use-the-general-channel"></a>Use o canal Geral
 
