@@ -16,6 +16,7 @@
 
 # Bate-papo, equipes, canais e aplicativos
 ## [Planejar sua implantação](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+## [Use o Advisor for Teams para implementar equipes](use-advisor-teams-roll-out.md)
 ## [Visão geral de equipes e canais](teams-channels-overview.md)
 ## [Atribuir proprietários e membros da equipe no Teams](assign-roles-permissions.md)
 ## [Visão geral da associação dinâmica de equipes](dynamic-memberships.md)
@@ -363,8 +364,11 @@
 ### [Ver uma lista de números de telefone em sua organização](see-a-list-of-phone-numbers-in-your-organization.md)
 ### [Atribuir, alterar ou remover o número de telefone de um usuário](assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [Obter números de telefone de serviço](getting-service-phone-numbers.md)
-### [Transferir números de telefone para o Office 365](transfer-phone-numbers-to-office-365.md)
-### [Perguntas comuns sobre transferência de números de telefone](transferring-phone-numbers-common-questions.md)
+### Transferindo números de telefone
+#### [O que é um pedido de portabilidade?](phone-number-calling-plans/port-order-overview.md)
+#### [Transferir números de telefone para o Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+#### [Enviar manualmente um pedido de portabilidade](phone-number-calling-plans/manually-submit-port-order.md)
+#### [Qual é o status dos seus pedidos de portabilidade?](phone-number-calling-plans/port-order-status.md)
 
 ## Roteamento de chamadas
 ### [O que são planos de discagem?](what-are-dial-plans.md)
