@@ -21,10 +21,10 @@ ms.custom:
 - Audio Conferencing
 description: Envie aos sus usuários um e-mail com as informações da audioconferência no Microsoft Teams.
 ms.openlocfilehash: 9e4508f3907de35ee2752077ac22b5cd8a5e5735
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37571310"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Enviar um e-mail para um usuário com suas informações de audioconferência no Microsoft Teams

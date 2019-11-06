@@ -14,12 +14,12 @@ MS.collection:
 appliesto: Microsoft Teams
 ms.reviewer: anach
 description: Aplicativo pacientes para administradores do teams
-ms.openlocfilehash: 85f0d382de11b9259c6839aa8d0e556ad2512f5a
-ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
+ms.openlocfilehash: 7f451f212bdb289d19588a2b908394d7673ee69f
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37885495"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38001324"
 ---
 # <a name="patients-app-overview"></a>Visão geral do aplicativo de pacientes
 
@@ -40,7 +40,7 @@ Durante as sessões de arredondamento em cada mudança de médico, os clínicos 
 
 Para obter informações sobre como preparar seu ambiente para usar o aplicativo pacientes do modo EMR, consulte [integrando registros eletrônicos de saúde ao Microsoft Teams](patients-app.md). Você também precisará ver [gerenciar políticas de configuração do aplicativo no Microsoft Teams](../../teams-app-setup-policies.md) para habilitar o aplicativo pacientes para a sua organização.
 
-<!-- For information on how your end users can access and install the Patients App to a team that they own or manage, you will need to see [End user documentation for the Patients App]() -->
+Para obter informações sobre como os usuários finais podem acessar e instalar o aplicativo pacientes em uma equipe que eles possuem ou gerenciar, consulte [introdução aos pacientes do Microsoft Teams](https://support.office.com/article/get-started-with-microsoft-teams-patients-aa7daebe-706a-4a65-8ce9-b9b79233f393) 
 
 <!-- add link out to client doc, doesn't seem to be available yet, Grant is finalizing -->
 

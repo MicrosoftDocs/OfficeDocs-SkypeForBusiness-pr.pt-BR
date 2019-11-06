@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Leia este tópico para obter informações sobre como implantar salas do Microsoft Teams com o Exchange Online.
-ms.openlocfilehash: 25542c5165940b4595345a0c37d7588a90829c78
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8b4974b2da2fabf3230fc54359b041cebdffcdd9
+ms.sourcegitcommit: 2b4fcf2561134b9f1b9a1b49401d97da1286e89d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573490"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37979784"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Implantar as Salas do Microsoft Teams com o Exchange Online
 
@@ -86,10 +86,10 @@ Import-PSSession $Session -DisableNameChecking
 
 ### <a name="assign-an-office-365-license"></a>Atribuir uma licença do Office 365
 
-1. Primeiro, conecte-se ao Azure AD para aplicar algumas configurações de conta. Você poderá executar este cmdlet para se conectar. Para obter detalhes sobre o Active Directory, consulte [Azure ActiveDirectory (MSOnline) 1,0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+1. Primeiro, conecte-se ao Azure AD para aplicar algumas configurações de conta. Você poderá executar este cmdlet para se conectar. Para obter detalhes sobre o Active Directory, consulte [Azure ActiveDirectory (MSOnline) 1,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0). 
 
    > [!NOTE]
-   > Não há suporte para o [Azure Active Directory PowerShell 2,0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) . 
+   > Não há suporte para o [Azure Active Directory PowerShell 2,0](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) . 
 
   ``` PowerShell
  Connect-MsolService -Credential $cred
@@ -132,7 +132,7 @@ Import-PSSession $Session -DisableNameChecking
     Se não tiver certeza de qual valor usar para o parâmetro RegistrarPool em seu ambiente, você pode obter o valor de um usuário existente do Skype for Business Server usando este comando
 
    ``` Powershell
-   Get-CsOnlineUser -Identity 'alice@contoso.com'| fl *registrarpool*
+   Get-CsUser -Identity 'alice@contoso.com'| fl *registrarpool*
    ```
 
 ### <a name="assign-a-skype-for-business-server-license-to-your-microsoft-teams-rooms-account"></a>Atribuir uma licença do Skype for Business Server à sua conta de salas do Microsoft Teams
