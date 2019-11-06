@@ -18,6 +18,8 @@
 ## [Planejar sua implantação](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [Use o Advisor for Teams para implementar equipes](use-advisor-teams-roll-out.md)
 ## [Visão geral de equipes e canais](teams-channels-overview.md)
+## [Visão geral dos canais privados](private-channels.md)
+## [Gerenciar o ciclo de vida de canais privados](private-channels-life-cycle-management.md)
 ## [Atribuir proprietários e membros da equipe no Teams](assign-roles-permissions.md)
 ## [Visão geral da associação dinâmica de equipes](dynamic-memberships.md)
 ## [Práticas recomendadas para organizar equipes no Teams](best-practices-organizing.md)
@@ -25,7 +27,6 @@
 ## [Gerenciar equipes e políticas de canais](teams-policies.md)
 ## [Gerenciar a descoberta de equipes privadas no Teams](manage-discovery-of-private-teams.md)
 ## [Configurar a moderação de canal no Teams](manage-channel-moderation-in-teams.md)
-## [Compartilhando arquivos no Teams](sharing-files-in-teams.md)
 ## [Gerenciar políticas de mensagens](messaging-policies-in-teams.md)
 ## [Presença do usuário no Teams](presence-admins.md)
 ## [Exibir análise entre equipes e por equipe em Teams](teams-analytics-and-reports/cross-team-per-team-analytics.md)
@@ -101,9 +102,6 @@
 #### [Relatório de uso da PSTN](teams-analytics-and-reports/pstn-usage-report.md)
 #### [Relatório de uso de evento ao vivo do Teams](teams-analytics-and-reports/teams-live-event-usage-report.md)
 ### [Relatórios de atividades do Teams no centro de administração do Microsoft 365](teams-activity-reports.md)
-
-
-
 
 <!-- ============================================================ -->
 
@@ -679,34 +677,66 @@
 #    
 # Conectividade híbrida 
 
-## [Planejar conectividade híbrida](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
+## [Planejar conectividade híbrida](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
 ## Configurar conectividade híbrida
-### [Visão geral](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
-### [Configurar o Azure AD Connect para ambientes híbridos](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/configure-azure-ad-connect)
-### [Configurar o Skype for Business híbrido](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online)
+### [Visão geral](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+### [Configurar o Azure AD Connect para ambientes híbridos](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)
+### [Configurar o Skype for Business híbrido](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online)
 
 ## Mover os usuários entre um ambiente local e a nuvem
-### [Visão geral](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
-### [Migrar usuários de um ambiente local para o Teams](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)
-### [Mover usuários do ambiente local para o Skype for Business Online](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
-### [Mover usuários da nuvem para o ambiente local](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
+### [Visão geral](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+### [Migrar usuários de um ambiente local para o Teams](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)
+### [Mover usuários do ambiente local para o Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
+### [Mover usuários da nuvem para o ambiente local](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
 
-### [Gerenciar migração da reunião](https://docs.microsoft.com/en-us/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+### [Gerenciar migração da reunião](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
 
-## [Disabilitar conectividade híbrida para concluir a migração para a nuvem](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
+## [Disabilitar conectividade híbrida para concluir a migração para a nuvem](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
 
-## [Implantar uma topologia de floresta de recursos](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid)
+## [Implantar uma topologia de floresta de recursos](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid)
 
 ## Consolidação na nuvem para o Teams e Skype for Business
-### [Visão geral](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/cloud-consolidation)
-### [Atualizar o certificado de borda](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates)
-### [Atualizar o AAD Connect para incluir mais de uma floresta](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect)
+### [Visão geral](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation)
+### [Atualizar o certificado de borda](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates)
+### [Atualizar o AAD Connect para incluir mais de uma floresta](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect)
 
-## [Integração com o Exchange e o SharePoint](https://docs.microsoft.com/pt-BR/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
+## [Integração com o Exchange e o SharePoint](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
 
+#     
+#     
 
-#       
+<!-- ============================================================ -->
+
+# Microsoft 365 Business Voice
+## [O que é o Microsoft 365 Business Voice?](business-voice/whats-business-voice.md)
+## O que saber antes de comprar
+### [O que comprar para obter o Business Voice](business-voice/what-to-buy.md)
+### [Verificar sua conexão com a Internet](business-voice/get-ready-internet.md)
+### [Preparar os usuários](business-voice/prepare-users.md)
+## [Executar o Assistente de Introdução](business-voice/use-getting-started-wizard.md)
+
+<!--
+## [Things to try](business-voice/things-to-try.md)
+-->
+## Personalizar sua configuração
+### [Opções de personalização](business-voice/customize-business-voice.md)
+### [Portabilidade de números de telefone](business-voice/port-phone-numbers.md)
+### [Configurar atendedores automáticos](business-voice/set-up-auto-attendants.md)
+### [Configurar políticas de chamadas](business-voice/set-up-policies.md)
+### [Gerenciar pacotes de política](business-voice/policy-packages.md)
+### [Criar usuários adicionais](business-voice/create-users.md)
+### [Configurar filas de chamadas](business-voice/set-up-call-queues.md)
+
+## Gerenciar suas configurações
+### [Criar um ou mais usuários](business-voice/create-users.md)
+### [Gerenciar dispositivos](business-voice/manage-devices.md)
+### [Monitorar a qualidade da chamada](business-voice/monitor-quality.md)
+### [Painel de Qualidade da Chamada](business-voice/analytics-dashboard.md)
+
+## [Recursos para parceiros](business-voice/partner-resources.md)
+
+#        
 #        
 
 <!-- ============================================================ -->
