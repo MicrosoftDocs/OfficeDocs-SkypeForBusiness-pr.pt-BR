@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Este apêndice inclui etapas detalhadas para desabilitar o híbrido como parte da consolidação em nuvem para o Teams e o Skype for Business.
-ms.openlocfilehash: d441d9fcc5e4f2cec495efabdbea423eaaec882c
-ms.sourcegitcommit: 7920c47eb73e665dad4bf7214b28541d357bce25
+ms.openlocfilehash: 7bd0b4c606a84dea08fb568d42fe403f624c522d
+ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "37962045"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38010574"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>Desabilitar a migração híbrida para concluir a nuvem
 
@@ -47,8 +47,8 @@ O DNS externo da organização para a organização local precisa ser atualizado
 
     |Tipo de registro|Nome|TTL|Valor|
     |---|---|---|---|
-    |SRV|_sipfederationtls. _ TCP|3600|100 1 5061 sipfed. online. Lync. <span>com|
-    |SRV|_sip._tls|3600|100 1 443 sipdir. online. Lync. <span>com|
+    |SRV|_sipfederationtls. _tcp|3600|100 1 5061 sipfed. online. Lync. <span>com|
+    |SRV|_sip. _tls|3600|100 1 443 sipdir. online. Lync. <span>com|
     |CNAME| lyncdiscover|   3600|   Webdir. online. Lync. <span>com|
     |CNAME| sip|    3600|   sipdir. online. Lync. <span>com|
     |CNAME| cumpra|   3600|   Webdir. online. Lync. <span>com|
@@ -62,8 +62,7 @@ O comando a seguir precisa ser feito de uma janela do PowerShell do Skype for Bu
     ```
  
 3.  *Desabilitar a capacidade no local para se comunicar com o Office 365.*  
-O comando a seguir precisa ser feito a partir de uma janela do PowerShell local.  Se você importou uma sessão do Skype for Business online anteriormente, inicie uma nova sessão do PowerShell do Skype for Business da seguinte maneira:
-
+O comando abaixo precisa ser feito de uma janela do PowerShell local:
 ```
     Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
 ```
@@ -72,13 +71,13 @@ O comando a seguir precisa ser feito a partir de uma janela do PowerShell local.
 
 Os administradores podem gerenciar os usuários que foram movidos anteriormente de um Skype for Business Server local para a nuvem, mesmo depois que a implantação local é descomissionada. Há duas possibilidades diferentes:
 
-- O usuário não tinha um valor para lineURI no local antes da movimentação. 
+- O usuário não tinha um valor para LineURI no local antes da movimentação. 
 
   Nesse caso, você pode modificar o LineURI usando os parâmetros-onpremLineUri no [cmdlet Set-CsUser](https://docs.microsoft.com/powershell/module/skype/set-csuser?view=skype-ps) no módulo PowerShell do Skype for Business online.
 
-- O usuário tinha um lineURI local antes da movimentação (supostamente porque o usuário foi habilitado para o Enterprise Voice). 
+- O usuário tinha um LineURI local antes da movimentação (supostamente porque o usuário foi habilitado para o Enterprise Voice). 
 
-  Se quiser alterar o lineURI, você deve fazer isso no Active Directory local e deixar o valor fluir para o Azure AD. Isso não requer o Skype for Business Server local. Em vez disso, esse atributo, msRTCSIP, pode ser editado diretamente no Active Directory local, usando o snap-in usuários e computadores do Active Directory do MMC ou usando o PowerShell. Se você estiver usando o snap-in do MMC, abra na página de propriedades do usuário, clique na guia Editor de atributo e encontre msRTCSIP.
+  Se quiser alterar o LineURI, você deve fazer isso no Active Directory local e deixar o valor fluir para o Azure AD. Isso não requer o Skype for Business Server local. Em vez disso, esse atributo, msRTCSIP, pode ser editado diretamente no Active Directory local, usando o snap-in usuários e computadores do Active Directory do MMC ou usando o PowerShell. Se você estiver usando o snap-in do MMC, abra na página de propriedades do usuário, clique na guia Editor de atributo e encontre msRTCSIP.
 
   ![Ferramenta usuários e computadores do Active Directory](../media/disable-hybrid-1.png)
 

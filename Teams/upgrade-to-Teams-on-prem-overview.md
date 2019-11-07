@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc54251d228a4b496480759d90d850cf000f5aeb
-ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
+ms.openlocfilehash: 2b801f9dfe27aec4cb35dc6d28b80e9dfbf55390
+ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37885535"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38010624"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>Atualize o Skype for Business para o &mdash; Teams para administradores de ti
 
@@ -32,7 +32,7 @@ Ao fazer a atualização do Skype for Business para o Teams, algumas organizaç�
 >[!NOTE]
 >Este artigo usa os termos Skype for Business Online, Skype for Business local e Skype for Business.  O último termo refere-se às versões online e local.
 
-Um usuário migrado para o Microsoft Teams não usa mais um cliente Skype for Business, exceto para ingressar em uma reunião hospedada no Skype for Business.  Todos os chats recebidos e chamadas entram no cliente das equipes do usuário, independentemente de o remetente usar o Microsoft Teams ou o Skype for Business. Qualquer reunião nova organizada pelo usuário migrado será agendada como reuniões do teams. Se o usuário tentar usar o cliente Skype for Business, a iniciação de chats e chamadas será bloqueada<sup>1</sup>.  No entanto, o usuário pode (e deve) ainda usar o cliente Skype for Business para ingressar em reuniões para as quais foram convidados.
+Um usuário migrado para o Microsoft Teams não usa mais um cliente Skype for Business, exceto para ingressar em uma reunião hospedada no Skype for Business.  Todos os chats recebidos e chamadas entram no cliente das equipes do usuário, independentemente de o remetente usar o Microsoft Teams ou o Skype for Business. Qualquer reunião nova organizada pelo usuário migrado será agendada como reuniões do teams. Se o usuário tentar usar o cliente Skype for Business, a iniciação de chats e chamadas será bloqueada.  No entanto, o usuário pode (e deve) ainda usar o cliente Skype for Business para ingressar em reuniões para as quais foram convidados. (Os clientes Skype for Business mais antigos que foram enviados antes do 2017 não obedecem ao TeamsUpgradePolicy. Verifique se você está usando o mais recente cliente Skype for Business.
  
 Os administradores gerenciam a transição para o Microsoft Teams usando o conceito de [Mode](migration-interop-guidance-for-teams-with-skype.md#coexistence-modes), que é uma propriedade de [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps). Um usuário que foi migrado para o Teams, conforme descrito acima, está no modo "TeamsOnly".  Para uma organização que está migrando para o Microsoft Teams, o objetivo final é mover todos os usuários para o modo TeamsOnly.
 
@@ -44,10 +44,6 @@ Há dois métodos para migrar uma organização existente com o Skype for Busine
 
 Este artigo ajuda você a escolher o método certo para sua organização, descrevendo os dois métodos e apresentando os prós e os contras de cada um deles. 
 
-**Observações:**
-<sup>1</sup>os clientes mais antigos do Skype for Business fornecidos antes do 2017 não obedecem ao TeamsUpgradePolicy. Verifique se você está usando o cliente Skype for Business mais recente.
-
-
 ## <a name="side-by-side-method-using-islands-mode"></a>Método lado a lado (usando o modo de ilhas)
 
 Com o método lado a lado, os usuários podem usar o Microsoft Teams e clientes do Skype for Business para chats, chamadas de VoIP e reuniões. Esse estado é conhecido como o modo "ilhas" porque o tráfego de comunicação do Skype for Business e do teams permanece separado (mesmo para o mesmo usuário) e os dois clientes diferentes nunca se comunicam uns com os outros (para os usuários da mesma organização). Por exemplo, suponha que o usuário do destinatário A esteja no modo de ilhas:
@@ -56,7 +52,7 @@ Com o método lado a lado, os usuários podem usar o Microsoft Teams e clientes 
 - A comunicação iniciada do cliente das equipes de outro usuário sempre chegará ao cliente do teams do usuário, *se o outro usuário estiver na mesma organização*. 
 - A comunicação iniciada do cliente das equipes de outro usuário sempre chegará ao cliente Skype for Business do usuário A, *se o outro usuário estiver em uma organização federada*.
 
-O modo de ilhas é o modo padrão de TeamsUpgradePolicy para qualquer organização existente que ainda não esteja TeamsOnly. Quando você atribui uma licença do Office 365, as duas equipes e licenças do Skype for Business online são atribuídas por padrão. <sup>2</sup> na verdade, se você não tiver feito nenhuma etapa para alterar a configuração padrão, talvez já tenha um uso significativo do teams em sua organização.  Esse é um dos benefícios de uma abordagem lado a lado. Ele permite uma adoção rápida e orientada pelo usuário final em uma organização.
+O modo de ilhas é o modo padrão de TeamsUpgradePolicy para qualquer organização existente que ainda não esteja TeamsOnly. Quando você atribui uma licença do Office 365, as duas equipes e licenças do Skype for Business online são atribuídas por padrão. (Isso é verdadeiro mesmo se o usuário estiver em um local no Skype for Business Server. Não importa se o usuário está hospedado no local ou online, deixe a licença do Skype for Business online habilitada, pois ela é necessária no momento para a funcionalidade completa do teams. Na verdade, se você não tiver feito nenhuma etapa para alterar a configuração padrão, talvez já tenha um uso significativo do teams em sua organização.  Esse é um dos benefícios de uma abordagem lado a lado. Ele permite uma adoção rápida e orientada pelo usuário final em uma organização.
 
 Para esse método funcionar de forma eficaz, é preciso que todos os usuários executem os dois clientes simultaneamente. Chats recebidos e chamadas de dentro da organização para um usuário no modo de ilhas podem ser divididos no cliente do Skype for Business ou do Teams, e isso não está sob o controle do destinatário. Depende do cliente que o remetente usa para iniciar a comunicação. Se o remetente e o destinatário estiverem em organizações diferentes, as chamadas recebidas e chats para um usuário no modo ilhas sempre chegam no cliente Skype for Business.  
 
@@ -69,7 +65,7 @@ Quando o usuário A está no modo de ilhas, A presença do usuário A ser vista 
 
 Isso significa que outros usuários podem ver Estados de presença diferentes para o usuário A, dependendo de qual cliente ele usa. Para obter mais detalhes, consulte [presença](#presence).
 
-Quando estiver pronto para atualizar os usuários para o modo TeamsOnly, você pode atualizar os usuários individualmente ou pode atualizar o locatário inteiro de uma só vez usando a política<sup>3</sup>de todo o locatário. Depois que um usuário é atualizado para o modo TeamsOnly, ele recebe todos os chats e chamadas recebidos no Teams. 
+Quando estiver pronto para atualizar os usuários para o modo TeamsOnly, você pode atualizar os usuários individualmente ou pode atualizar o locatário inteiro de uma só vez usando a política de todo o locatário. Depois que um usuário é atualizado para o modo TeamsOnly, ele recebe todos os chats e chamadas recebidos no Teams. (Observe que a migração de reuniões do Skype for Business para reuniões de equipe é disparada somente ao aplicar TeamsUpgradePolicy a usuários individuais, e não a cada locatário. Consulte [migração de reunião](#meeting-migration) para obter detalhes.)
 
 No entanto, os destinatários sem atualização no modo de ilhas podem continuar a receber chats e chamadas de um usuário do TeamsOnly em seus clientes do Skype for Business ou do teams.  Isso ocorre porque o cliente do teams mantém threads de conversa separados para comunicação entre equipes e equipes para Skype para empresas, mesmo para o mesmo usuário.  (Consulte [conversas de equipes – interoperabilidade versus threads nativos](#teams-conversations---interop-versus-native-threads).)  Por exemplo, assuma ilhas o usuário A usa equipes para a mensagem TeamsOnly o usuário B. Quando o usuário B responder a esse chat, a comunicação será esterrada no cliente do teams do usuário A. Agora, suponha que o usuário A Use o cliente Skype for Business para enviar mensagens de TeamsOnly para o usuário B. o usuário B receberá o chat no Microsoft Teams, mas isso será uma conversa separada no cliente do teams do usuário B em comparação com a outra conversa. Se o usuário B responder a essa conversa com o usuário A, ele chegará ao cliente Skype for Business do usuário A. 
 
@@ -90,14 +86,6 @@ A tabela a seguir resume os prós e os contras de usar o método lado a lado par
 | Permite que os usuários aprendam e se familiarizem com o Microsoft Teams e ainda tenham acesso completo ao Skype for Business. | Potencial para insatisfação do usuário final devido a mensagens perdidas se o usuário não estiver executando ambos os clientes. Os usuários podem reclamar que não estão recebendo mensagens.|
 | Esforço de administração mínima para começar a usar o Microsoft Teams. | Pode ser um desafio para "sair do modo de ilhas" e mudar para o modo TeamsOnly, se nem todos na organização estiverem usando o Microsoft Teams, especialmente se nem todos os usuários estiverem ativos no Teams. Por exemplo, quando um subconjunto de usuários for atualizado para o modo TeamsOnly, esses usuários só serão enviados para o Microsoft Teams. Para o restante da população no modo ilhas, essas mensagens sempre serão exibidas no Microsoft Teams. Mas se parte dessa população não estiver em execução no Microsoft Teams, ele perceberá essas mensagens como perdida. |
 |  | Ao usar o Microsoft Teams, os usuários que têm uma conta local no Skype for Business Server não têm suporte à interoperabilidade ou Federação.  Isso pode potencialmente criar confusão se você tiver uma combinação de usuários de ilhas, alguns que são hospedados no Skype for Business Online e alguns no Skype for Business local.   |
-
-**Informa**
-
-<sup>2</sup> Isso é verdadeiro mesmo que o usuário seja hospedado no Skype for Business Server. Não importa se o usuário está hospedado no local ou online, deixe a licença do Skype for Business online habilitada, pois ela é necessária no momento para a funcionalidade completa do teams.
-
-<sup>3</sup> Observe que a migração de reuniões do Skype for Business para reuniões de equipe é disparada somente ao aplicar TeamsUpgradePolicy a usuários individuais, e não a cada locatário. Consulte [migração de reunião](#meeting-migration) para obter detalhes. 
-
-
 
 ## <a name="managed-transition-method-using-skype-for-business-modes"></a>Método de transição gerenciado (usando os modos Skype for Business)
 
@@ -148,10 +136,9 @@ A tabela a seguir resume os métodos de atualização:
 
 Para qualquer um dos métodos descritos acima, os administradores gerenciam a transição para TeamsOnly usando [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps), que controla o modo de coexistência de um usuário. Para obter mais informações sobre cada um dos modos, consulte [modos de coexistência](migration-interop-guidance-for-teams-with-skype.md#coexistence-modes).
 
-
 Se o administrador executar uma transição gerenciada usando os modos Skype for Business ou apenas as atualizações para o modo TeamsOnly da configuração de ilhas padrão, TeamsUpgradePolicy é a principal ferramenta.  Como qualquer outra política do Microsoft Teams, o TeamsUpgradePolicy pode ser atribuído diretamente a um usuário, e também pode ser definido como o padrão de todo o locatário. Qualquer atribuição para um usuário tem precedência sobre a configuração padrão do locatário.  Ele pode ser gerenciado no console de administração do Teams e no PowerShell.
 
-Os administradores podem atribuir qualquer modo de TeamsUpgradePolicy aos usuários se o usuário estiver hospedado no Skype for Business online ou no local, exceto se o modo TeamsOnly só puder ser atribuído a um usuário que já esteja hospedado no Skype for Business online. <sup>4</sup>  
+Os administradores podem atribuir qualquer modo de TeamsUpgradePolicy aos usuários se o usuário estiver hospedado no Skype for Business online ou no local, exceto se o modo TeamsOnly só puder ser atribuído a um usuário que já esteja hospedado no Skype for Business online. Isso ocorre porque a interoperabilidade com usuários e Federação do Skype for Business só é possível se o usuário estiver hospedado no Skype for Business online.
 
 Os usuários com contas do Skype for Business hospedadas no local [devem ser movidos online](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams) (para o Skype for Business online ou direto para o Microsoft Teams) usando o conjunto de ferramentas de CsUser no Skype for Business local. Esses usuários podem ser movidos para o TeamsOnly nas etapas 1 ou 2:
 
@@ -187,8 +174,6 @@ Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
 >[!NOTE]
 >Se você tiver usuários com contas do Skype for Business no local, não deverá atribuir o modo TeamsOnly no nível do locatário, a menos que você explicitamente atribua outro modo para todos os usuários com contas do Skype for Business local.
 
-**Observações:**
-<sup>4</sup> isso ocorre porque a interoperabilidade com os usuários e a Federação do Skype for Business só é possível se o usuário estiver hospedado no Skype for Business online.
 
 ### <a name="using-notifications-in-skype-for-business-clients"></a>Usar notificações nos clientes Skype for Business
 
@@ -209,7 +194,6 @@ Em seguida, usando a mesma janela do PowerShell local, atribua essa nova políti
 ```
 Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 ```
-
 
 ### <a name="meeting-migration"></a>Migração de reunião
 
@@ -498,7 +482,7 @@ Um chat ou chamada interoperabilidade entre dois usuários é criado quando cada
 
 - O usuário do teams também não tem uma conta do Skype for Business hospedada no local. 
 
-Na comunicação de interoperabilidade, o chat somente é de texto sem formatação. Além disso, o compartilhamento de arquivos e o compartilhamento não são possíveis *no chat de interoperabilidade*. No entanto, os usuários em uma conversa de interoperabilidade podem facilmente alcançar arquivos e/ou compartilhamento criando uma reunião sob demanda de dentro do chat de interoperabilidade, conforme descrito abaixo:
+Na comunicação de interoperabilidade, o chat somente é de texto sem formatação. Além disso, o compartilhamento de arquivos e o compartilhamento de tela não são possíveis *no chat de interoperabilidade*. No entanto, os usuários em uma conversa de interoperabilidade podem facilmente alcançar compartilhamento de arquivos e/ou telas criando uma reunião sob demanda, a partir do chat de interoperabilidade, conforme descrito abaixo:
 
 - Se o usuário do teams tentar compartilhar a tela, uma reunião de equipes sob demanda será criada automaticamente e um link de convite para essa reunião será enviado ao cliente do usuário do Skype for Business. Ao clicar no link, o usuário do Skype for Business abrirá o Teams e ingressará na reunião. Os dois usuários estão agora em uma reunião do Teams e podem compartilhar conforme necessário.
 
@@ -508,7 +492,7 @@ Na comunicação de interoperabilidade, o chat somente é de texto sem formataç
 
 Como as comunicações de interoperabilidade não são compatíveis com todos os recursos da conversa de equipes nativas, o cliente das equipes mantém threads de conversa separados para comunicações entre equipes e equipes para Skype para empresas. Essas conversas são renderizadas de forma diferente na interface do usuário: os threads de interoperabilidade podem ser diferenciados de um thread regular de equipes nativas por:
 
-- Falta de controles para Rich Text, arquivo/compartilhamento, incapacidade de adicionar usuários.
+- Falta de controles para Rich Text, compartilhamento de arquivo/tela, incapacidade de adicionar usuários.
 - Uma modificação no ícone do usuário de destino, mostrando um "S" para o Skype for Business.
 
 Essas diferenças são mostradas nas seguintes capturas de tela:

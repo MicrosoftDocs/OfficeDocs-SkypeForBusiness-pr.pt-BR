@@ -1,7 +1,7 @@
 ---
 title: Gerenciar as configurações de um console de salas do Microsoft Teams remotamente com um arquivo de configuração XML
-ms.author: jambirk
-author: jambirk
+ms.author: serdars
+author: serdarsoysal
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: Este artigo discute o gerenciamento remoto das configurações padrão usadas por um dispositivo de salas do Microsoft Teams, incluindo a aplicação de um tema personalizado.
-ms.openlocfilehash: e127b476920a8086d3502c0583ca58cea95b0e86
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 24dcec21b9bc2fdb65f63fa21412bbf0f5503c1f
+ms.sourcegitcommit: c782999728e8adae51c52d122700d3e8fa651fdb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573666"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38019944"
 ---
 # <a name="content-cameras"></a>Câmeras de conteúdo
 
