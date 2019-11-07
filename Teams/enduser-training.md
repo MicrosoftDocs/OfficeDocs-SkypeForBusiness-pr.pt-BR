@@ -20,7 +20,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 8379e81038882a4aab99ef943c10952b47f62e12
 ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/18/2019
 ms.locfileid: "37567464"
@@ -113,7 +113,7 @@ Assista a este breve vídeo de introdução ao Teams</h3>
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Confira o canal de treinamento do teams no YouTube</h3>
+                        <h3>Confira o canal de treinamento do Teams no YouTube</h3>
                     </div>
                 </div>
             </div>
