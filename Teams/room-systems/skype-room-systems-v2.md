@@ -20,18 +20,18 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba mais sobre os recursos disponíveis em salas do Microsoft Teams. '
-ms.openlocfilehash: 392f2c44e739eb0f9c2bcb80827d52491a0c5a9d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d6f08cb45905951eda72845ca8bfb21d77c82e4e
+ms.sourcegitcommit: 5e6eb8286bd5eb318a901e42235e91a58946c3a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573567"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38038730"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Atualização do licenciamento da sala de reunião do teams
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>Soluções de licenciamento para dispositivos de comunicação compartilhados
 
-A Microsoft tem e uma SKU dedicada para licenciamento de reuniões e chamadas em cada dispositivo para dispositivos de sala de reunião (como salas do Microsoft Teams e Microsoft Surface Hub).
+A Microsoft tem uma SKU dedicada para licenciar reuniões e fazer chamadas em cada dispositivo para dispositivos de sala de reunião (como salas do Microsoft Teams e Microsoft Surface Hub).
 
 ||SKU da sala da Microsoft |  
 |:--- |:---: |
@@ -57,7 +57,7 @@ A tabela a seguir lista os recursos que estão disponíveis nos quartos do Micro
 > [!NOTE]
 > [!OBSERVAçãO] A sala que está sendo configurada precisa ser um objeto de usuário e ter essas licenças atribuídas a ele.
 
-|  | Você tem o Microsoft Teams ou o Skype for Business Online <br/> Veja o que precisa comprar:   |Você tem o Skype for Business Server 2015/2019 (local ou híbrido). <br/> Veja o que precisa comprar:|
+|  | Você tem o Microsoft Teams ou o Skype for Business Online <br/> Veja o que você precisa comprar:   |Você tem o Skype for Business Server 2015/2019 (local ou híbrido). <br/> Veja o que você precisa comprar:|
 |:-----|:-----|:-----|
 |Ingressar em uma reunião agendada  | SKU da sala de reunião  |Skype for Business Server Standard CAL  |
 |Iniciar uma reunião ad hoc | SKU da sala de reunião  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|

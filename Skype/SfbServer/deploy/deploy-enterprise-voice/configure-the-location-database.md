@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: Configurar, preencher e publicar o banco de dados de local E9-1-1 no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 36ddd57e39b51171581c0c6316f165f44879e3f9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5aad449d8d286fb4bd71373be33baea9cbb2c8f3
+ms.sourcegitcommit: 5e6eb8286bd5eb318a901e42235e91a58946c3a9
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233684"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38038700"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>Configurar o banco de dados de localização no Skype for Business Server
  
@@ -49,7 +49,7 @@ Se você usa um gateway de número da chamada de emergência (Emergency Location
 |:-----|:-----|
 |**Ponto de acesso sem fio** <br/> |\<BSSID\>,\<Descrição\>,\<local\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<predirectional\>,...  <br/> ... \<Streetname\>,\<StreetSuffix\>,\<monodirecional\>,\<cidade\>,\<estado\>,\<CEP\>,\<país\>  <br/> |
 |**Sub-rede** <br/> |\<Sub-rede\>,\<Descrição\>,\<local\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<predirectional\>,...  <br/> ... \<Streetname\>,\<StreetSuffix\>,\<monodirecional\>,\<cidade\>,\<estado\>,\<CEP\>,\<país\>  <br/> |
-|**Porta** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<portid\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\< HouseNumberSuffix\>,...  <br/> ... \<Predirectional\>,\<streetname\>,\<StreetSuffix\>,\<monodirecional\>,\<cidade\>,\<estado\>,\<CEP\>,\< País\>  <br/> |
+|**Porta** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<portid\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,...  <br/> ... \<Predirectional\>,\<streetname\>,\<StreetSuffix\>,\<monodirecional\>,\<cidade\>,\<estado\>,\<CEP\>,\<país\>  <br/> |
 |**Opção** <br/> |\<ChassisID\>,\<Descrição\>,\<local\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<predirectional\>,...  <br/> ... \<Streetname\>,\<StreetSuffix\>,\<monodirecional\>,\<cidade\>,\<estado\>,\<CEP\>,\<país\>  <br/> |
    
 ### <a name="to-add-network-elements-to-the-location-database"></a>Para adicionar elementos de rede no banco de dados de localização
@@ -89,7 +89,7 @@ Se você usa um gateway de número da chamada de emergência (Emergency Location
 3. Execute o seguinte cmdlet para adicionar locais de opções ao banco de dados de localização.
     
    ```
-   Set-CsLisSwitch-ChassisID 0B-23-CD-16-AA-BB -Description "Switch1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
+   Set-CsLisSwitch -ChassisID 0B-23-CD-16-AA-BB -Description "Switch1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
    Alternativamente, é possível executar os cmdlets a seguir e usar um arquivo denominado "switches.csv" para atualização em locais de switch.
