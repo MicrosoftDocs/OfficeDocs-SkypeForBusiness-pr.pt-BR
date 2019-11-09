@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar e gerenciar canais privados no Microsoft Teams.
-ms.openlocfilehash: 1731f210382403320c8faffa57c04bd3486ab172
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: b4937addf861be56a0a90a2c63a0ed6181bdc555
+ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37969379"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "38077424"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canais privados no Microsoft Teams
 
@@ -112,11 +112,11 @@ A tabela a seguir descreve quais ações os proprietários, membros e convidados
 |Editar configurações|Não|N/D|N/D|Sim|Não|Não|
 |Gerenciar guias e aplicativos|Não|N/D|N/D|Sim<sup>4</sup>|Sim<sup>5</sup>|Não|
 
-<sup>1</sup> Pressupondo que a política que você, o administrador configurou permite que o usuário crie canais privados.<br>
-<sup>2</sup> Cada equipe tem uma configuração que os proprietários da equipe podem ativar ou desativar para permitir que os membros da equipe criem canais privados. Os proprietários da equipe sempre podem criar canais privados.<br>
-<sup>3</sup> Pressupondo que o proprietário do canal privado não seja o último proprietário do canal. <br>
-<sup>4</sup> Requer que a equipe tenha um aplicativo instalado para que um canal privado o use.<br>
-<sup>5</sup> Os proprietários de canal privado podem configurar isso.
+<sup>1</sup> pressupondo que a política que você, o administrador configurou permite que o usuário crie canais privados.<br>
+<sup>2</sup> cada equipe tem uma configuração que os proprietários da equipe podem ativar ou desativar para permitir que os membros da equipe criem canais privados. Os proprietários da equipe sempre podem criar canais privados.<br>
+<sup>3</sup> pressupondo que o proprietário do canal privado não seja o último proprietário do canal. <br>
+<sup>4</sup> exige que a equipe tenha um aplicativo instalado para que um canal privado o use.<br>
+<sup>5</sup> os proprietários de canal privado podem configurar isso.
 
 ### <a name="manage-private-channel-membership-and-settings"></a>Gerenciar associações e configurações de canal privado
 

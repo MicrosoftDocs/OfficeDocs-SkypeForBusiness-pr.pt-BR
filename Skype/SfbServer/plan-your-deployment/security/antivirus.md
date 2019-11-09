@@ -11,22 +11,16 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
 description: Visão geral da interoperação do verificador de antivírus com o Skype for Business Server.
-ms.openlocfilehash: 9ec13b31328744bb154c9eb5e09dff7665c4b540
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 69fb02d04f27b7444a3b8cadaacafc05654a1c9f
+ms.sourcegitcommit: 1aa98e3865d5a0f7be5e1cba497dea4ac7b9c607
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296970"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38074623"
 ---
 # <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Exclusões de verificação antivírus para o Skype for Business Server
 
 Visão geral da interoperação do verificador de antivírus com o Skype for Business Server.
-
-Este artigo contém recomendações que podem ajudar um administrador a determinar a causa de possível instabilidade em um computador que esteja executando uma versão com suporte do Microsoft Windows quando ele é usado com um software antivírus em um domínio do Active Directory ambiente ou em um ambiente de negócios gerenciado.
-
-Recomendamos que você aplique temporariamente esses procedimentos para avaliar um sistema. Se o desempenho do sistema ou a estabilidade forem aprimorados pelas recomendações feitas neste artigo, entre em contato com o fornecedor do software antivírus para obter instruções ou para obter uma versão atualizada do software antivírus.
-
-Este artigo contém informações que mostram como ajudar a reduzir as configurações de segurança ou como desativar temporariamente os recursos de segurança em um computador. Você pode fazer essas alterações para compreender a natureza de um problema específico. Antes de fazer essas alterações, recomendamos que avalie os riscos associados à implementação dessa solução alternativa em seu ambiente específico. Se você implementar esta solução alternativa, siga as etapas apropriadas adicionais para ajudar a proteger o computador para os arquivos que não estão mais sendo verificados pelo seu software antivírus.
 
 Para garantir que o verificador de vírus não interfira com a operação do Skype for Business Server, você deve excluir processos e diretórios específicos para cada função de servidor ou servidor do Skype for Business Server na qual você executa um scanner antivírus. Os seguintes processos e diretórios devem ser excluídos:
 

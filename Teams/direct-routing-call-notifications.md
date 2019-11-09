@@ -16,14 +16,14 @@ description: Notificação de chamada de roteamento direto
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 07efe11d304107a5a8606a07f5d1c2a7a130bc0b
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: a031af6a7bdfedfebd6d666b717d03259d92f56c
+ms.sourcegitcommit: 1aa98e3865d5a0f7be5e1cba497dea4ac7b9c607
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37595329"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38074603"
 ---
-# <a name="manage-call-notifications"></a>Gerenciar notificações de chamada
+# <a name="manage-call-notifications"></a>Gerenciar notificações de chamadas
 
 Este artigo descreve como gerenciar notificações de chamada para seus usuários. Você pode configurar pontos de extremidade de chamada para as duas equipes e para um PBX ou um controlador de borda de sessão (SBC) ou um controlador de borda de sessão (SBC) de terceiros.  Isso é útil, por exemplo, se você quiser enviar uma chamada para telefones celulares e de mesa de um usuário ao mesmo tempo.   
 
@@ -43,7 +43,7 @@ Você pode impedir a notificação de "chamada perdida" Configurando o SBC para 
 
 MOTIVO: SIP; causa = 200; texto "chamada concluída em outro lugar" 
 
-Observe que a chamada não será registrada nos registros de detalhes da chamada do sistema de telefonia da Microsoft como uma chamada bem-sucedida. A chamada será registrada como uma "tentativa" com o código SIP final "487", subcódigo final da Microsoft "540200" e a frase de código SIP final "chamada concluída".   (Para exibir os registros de detalhes da chamada, vá para o portal de administração do Teams, análises e relatórios, relatórios de uso e selecione uso do PSNT.)
+Observe que a chamada não será registrada nos registros de detalhes da chamada do sistema de telefonia da Microsoft como uma chamada bem-sucedida. A chamada será registrada como uma "tentativa" com o código SIP final "487", subcódigo final da Microsoft "540200" e a frase de código SIP final "chamada concluída".   (Para exibir os registros de detalhes da chamada, vá para o portal de administração do Teams, análises e relatórios, relatórios de uso e selecione uso de PSTN.)
 
 
 O diagrama a seguir ilustra a escada SIP para a bifurcação 1, explica o fluxo de chamadas e o motivo esperado na mensagem de cancelamento. 

@@ -13,12 +13,12 @@ ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection:
 - M365-collaboration
 description: Este artigo discute o gerenciamento remoto das configurações padrão usadas por um dispositivo de salas do Microsoft Teams, incluindo a aplicação de um tema personalizado.
-ms.openlocfilehash: 928f2ee5bc734aa128faf8af9e47387159666000
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f00edb0d3d391daaf3cfa7a6f83e5c2951638236
+ms.sourcegitcommit: 1aa98e3865d5a0f7be5e1cba497dea4ac7b9c607
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573457"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38074613"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Gerenciar as configurações de um console de salas do Microsoft Teams remotamente com um arquivo de configuração XML
 
@@ -60,7 +60,7 @@ Qualquer editor de texto pode ser usado para criar um arquivo de configurações
     </Devices>
     <Theming>
         <ThemeName>Custom</ThemeName>
-        <CustomThemeImageUrl>folder path</CustomThemeImageUrl>
+        <CustomThemeImageUrl>file name</CustomThemeImageUrl>
         <CustomThemeColor>
             <RedComponent>100</RedComponent>
             <GreenComponent>100</GreenComponent>
@@ -102,7 +102,7 @@ Se um valor de variável for do tipo errado, os elementos estiverem fora da orde
 |\<ContentCameraEnhancement>  | &#x2777; Boolean | |Quando definida como true (o padrão), a imagem da câmera de conteúdo é aprimorada digitalmente: a borda do quadro de comunicações é detectada e um zoom apropriado é selecionado, as linhas de tinta são aprimoradas e a pessoa que está escrevendo no quadro de comunicações torna-se transparente.  <br><br> Defina como falso se você pretende enviar um RSS feed de vídeo para os participantes de uma reunião de espaços em que um quadro de comunicações não está desenhado com uma caneta e, em vez disso, a câmera é usada para mostrar notas autoadesivas, cartazes ou outras mídias.  |
 | \<Temas\>  |Contêiner |Primeiro &#x2776;  |Um dos recursos que podem ser aplicados com um arquivo XML é um tema personalizado para a sua organização. Você pode especificar um nome de tema, uma imagem de fundo e uma cor. |
 |\<ThemeName\> |Cadeia de caracteres &#x2778;  || Usado para identificar o tema no cliente. As opções de Nome do Tema são Padrão, um dos temas predefinidos fornecidos ou Personalizado. <br/>  Os nomes de temas personalizados sempre usam o nome *personalizado*. A interface do usuário do cliente pode ser definida no console com o padrão ou uma das predefinições, mas o uso de um tema personalizado deve ser definido remotamente por um administrador. <br/>  Os temas predefinidos incluem:  <br/>  Padrão <br/>  Onda Azul <br/>  Floresta Digital <br/>  Apanhador de Sonhos <br/>  Suco de Lima <br/>  Pixel Perfeito <br/>  Mapa Rodoviário <br/>  Pôr do Sol <br/>  Para desabilitar o tema atual, use "nenhum tema" para o ThemeName.  |
-|\<CustomThemeImageUrl\> |Cadeia de caracteres &#x2778;  ||Obrigatório para um tema personalizado, caso contrário, opcional.   |Para obter mais informações sobre a imagem do tema personalizado, consulte a seção [imagens do tema personalizado](xml-config-file.md#Themes) .
+|\<CustomThemeImageUrl\> |Cadeia de caracteres &#x2778;  ||Obrigatório para um tema personalizado, caso contrário, opcional. Insira somente o nome do arquivo.   |Para obter mais informações sobre a imagem do tema personalizado, consulte a seção [imagens do tema personalizado](xml-config-file.md#Themes) .
 |\<CustomThemeColor\> |Contêiner ||Contêiner para os \<valores\>RedComponent \<,\>GreenComponent e \<BlueComponent\> . Esses valores são necessários para um tema personalizado. |
 |\<RedComponent\> |Byte (0-255) ||Representa o componente da cor vermelha. |
 |\<GreenComponent\> |Byte (0-255) ||Representa o componente da cor verde. |
