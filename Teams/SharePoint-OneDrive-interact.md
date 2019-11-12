@@ -12,14 +12,15 @@ description: Saiba como o SharePoint Online e o OneDrive for Business interagem 
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+- SPO_Content
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b18cf1f97d0798df5cac4881672c0756cc56616
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 0e48c3e156fed45e447ddcbaaba5300537c651ab
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968242"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231102"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Como o SharePoint Online e o OneDrive for Business interagem com o Microsoft Teams
 

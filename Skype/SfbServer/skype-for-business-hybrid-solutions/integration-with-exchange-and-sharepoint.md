@@ -15,15 +15,16 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 - Strat_SB_Hybrid
+- SPO_Content
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Resumo: Saiba mais sobre a integração do Skype for Business Server 2015 com o Exchange e o SharePoint.'
-ms.openlocfilehash: fa4e6d93dd1538dbeafdb05998c4f57482e0f4f5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 18839125faee2dfd27ad3843e37b723f56581ff3
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294310"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231142"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Integração com o Exchange e o SharePoint
 
@@ -45,15 +46,15 @@ As tabelas a seguir listam os recursos com suporte em uma implantação híbrida
 |Mensagem instantânea/presença no Outlook Web App  <br/> |Para obter mais informações, consulte [configurar um ambiente híbrido no Skype for Business Server 2015](../manage/authentication/configure-a-hybrid-environment.md).  <br/> |
 |Agendar e ingressar em reunião online por meio do Outlook Web App  <br/> ||
 |IM/Presença em clientes de dispositivos móveis  <br/> ||
-|Participe de reuniões online em clientes de dispositivos móveis  <br/> |Para obter mais informações, consulte Implantando a [mobilidade](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx).  <br/> |
+|Participe de reuniões online em clientes de dispositivos móveis  <br/> |Para obter mais informações, consulte [implantando a mobilidade](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx).  <br/> |
 |Publique o status com base nas informações de ocupado/livre do calendário do Outlook  <br/> ||
-|Lista de contatos (via repositório de contato unificado)  <br/> |Requer o Exchange 2016 ou o Exchange 2013.  <br/> É necessário um cliente de desktop do Lync 2013 ou Skype for Business.  <br/>  Para obter mais informações, consulte [Configurar o Skype for Business Server 2015 para usar o repositório de contatos](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md)unificado.  <br/> |
+|Lista de contatos (via repositório de contato unificado)  <br/> |Requer o Exchange 2016 ou o Exchange 2013.  <br/> É necessário um cliente de desktop do Lync 2013 ou Skype for Business.  <br/>  Para obter mais informações, consulte [Configurar o Skype for Business Server 2015 para usar o repositório de contatos unificado](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md).  <br/> |
 |Foto de contato de alta resolução no cliente do Lync 2013, cliente Skype for Business e Lync Web App.  <br/> |Requer o Exchange 2016 ou o Exchange 2013.  <br/> Para obter mais informações, consulte [Configurar o uso de fotos de alta resolução no Skype for Business Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> Para fotos no aplicativo Skype for Business para MAC e celular, a integração entre o Skype for Business Server 2015 e o Exchange Server deve ser configurada conforme descrito em [configurar aplicativos de parceiro no Skype for Business Server e no Exchange Server](../deploy/integrate-with-exchange-server/configure-partner-applications.md). <br/> |
 |Delegação da reunião  <br/> |Com suporte apenas quando ambos os usuários estão hospedados online na mesma floresta ou quando ambos estão hospedados no local. Para obter mais informações, consulte [soluções híbridas do Skype for Business](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Histórico de conversas perdidas e logs de chamadas são gravados na caixa de correio do Exchange do usuário  <br/> ||
 |Arquivamento de conteúdo (IM e reunião) no Exchange  <br/> |Requer o Exchange 2016 ou o Exchange 2013.  <br/> Para obter mais informações, consulte [lista de verificação de implantação para arquivamento](https://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx).  <br/> |
 |Pesquise o conteúdo arquivado  <br/> |Requer o Exchange 2016 ou o Exchange 2013.  <br/> |
-|Caixa postal  <br/> |Para obter mais informações, consulte Implantando o [Exchange um local para fornecer correio de voz do Lync Server 2013](https://technet.microsoft.com/library/9673bd73-a3a3-425d-870f-04d801c6d0d5.aspx).  <br/> |
+|Caixa postal  <br/> |Para obter mais informações, consulte [implantando o Exchange um local para fornecer correio de voz do Lync Server 2013](https://technet.microsoft.com/library/9673bd73-a3a3-425d-870f-04d801c6d0d5.aspx).  <br/> |
 
  **Skype for Business Server no local e Exchange Online**
 
@@ -67,7 +68,7 @@ As tabelas a seguir listam os recursos com suporte em uma implantação híbrida
 |IM/Presença em clientes de dispositivos móveis  <br/> ||
 |Participe de uma reunião online em clientes de dispositivos móveis  <br/> ||
 |Publique o status com base nas informações de ocupado/livre do calendário do Outlook  <br/> ||
-|Lista de contatos (via repositório de contato unificado).  <br/> |Somente Lync Server 2013. É necessário um cliente de desktop do Lync 2013 ou Skype for Business.  <br/> Para obter mais informações, consulte [Configurar o Skype for Business Server 2015 para usar o repositório de contatos](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md) unificado <br/> |
+|Lista de contatos (via repositório de contato unificado).  <br/> |Somente Lync Server 2013. É necessário um cliente de desktop do Lync 2013 ou Skype for Business.  <br/> Para obter mais informações, consulte [Configurar o Skype for Business Server 2015 para usar o repositório de contatos unificado](../deploy/integrate-with-exchange-server/use-the-unified-contact-store.md) <br/> |
 |Foto de contato de alta resolução no cliente do Lync 2013, cliente Skype for Business e Lync Web App.  <br/> |Para obter mais informações, consulte [Configurar o uso de fotos de alta resolução no Skype for Business Server 2015](../deploy/integrate-with-exchange-server/high-resolution-photos.md).  <br/> Para fotos no aplicativo Skype for Business para MAC e celular, a integração entre o Skype for Business Server 2015 e o Exchange Server deve ser configurada conforme descrito em [Configurar a integração entre o Skype for Business Server local e o Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md). <br/> |
 |Delegação da reunião  <br/> |Com suporte apenas quando ambos os usuários estão hospedados online na mesma floresta ou quando ambos estão hospedados no local. Para obter mais informações, consulte [soluções híbridas do Skype for Business](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Histórico de conversas perdidas e logs de chamadas são gravados na caixa de correio do Exchange do usuário  <br/> ||
