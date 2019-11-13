@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba mais sobre os recursos disponíveis em salas do Microsoft Teams. '
-ms.openlocfilehash: c822e034512a0e4f7cf24402fb12571d7f48f91d
-ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
+ms.openlocfilehash: 3856eb89c0672c8afde1a148d11ee1361ae51256
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "38077414"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290921"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Atualização do licenciamento da sala de reunião do teams
 
@@ -37,7 +37,7 @@ A Microsoft tem uma SKU dedicada para licenciar reuniões e fazer chamadas em ca
 |:--- |:---: |
 |Skype for Business |&#x2714;|
 |Microsoft Teams|  &#x2714;|
-|Sistemas de telefonia|  &#x2714;|
+|Sistema Telefônico|  &#x2714;|
 |Audioconferência|&#x2714; &SUP1;|
 |Microsoft Intune|&#x2714;|  
 |Disponibilidade mundial | &#x2714; &sup2;|

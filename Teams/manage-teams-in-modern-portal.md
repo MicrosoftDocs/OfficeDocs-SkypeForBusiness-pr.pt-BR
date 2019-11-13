@@ -16,17 +16,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fea7081ee66cbd7b103f4292f577aaf5d841e11
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 0c7adfc2762d632f600f2982445f381139263894
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37571929"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290931"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Gerenciar equipes no centro de administração do Microsoft Teams
 ==========================================
 
 ## <a name="overview"></a>Visão geral
+
+Este artigo fornece uma visão geral das ferramentas de gerenciamento para Teams no centro de administração do Microsoft Teams. Para começar, Assista a este breve vídeo (3 minutos):
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yi]
 
 Como administrador, talvez você precise exibir ou atualizar as equipes configuradas para colaboração ou pode precisar executar ações de correção, como a atribuição de proprietários para equipes sem proprietário. Você pode gerenciar as equipes usadas em sua organização por meio do módulo do Microsoft Teams PowerShell e do centro de administração do Microsoft Teams. Para obter recursos de administração plena usando esses dois conjuntos de ferramentas, você deve certificar-se de que recebeu uma das funções a seguir:
 
@@ -35,7 +39,7 @@ Como administrador, talvez você precise exibir ou atualizar as equipes configur
 
 Você pode saber mais sobre as funções de administrador no Teams em [usar funções de administração do Microsoft Teams para gerenciar o Teams](using-admin-roles.md)e ler mais sobre como usar os cmdlets do PowerShell para gerenciar equipes na [referência do cmdlet do Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps).
 
-Este artigo fornece uma visão geral das ferramentas de gerenciamento para Teams no centro de administração do Microsoft Teams.
+
 
 ## <a name="teams-overview-grid"></a>Grade de visão geral do teams
 
@@ -69,7 +73,7 @@ Para editar configurações específicas do grupo e da equipe, selecione a equip
 
 ### <a name="archive"></a>Arquivamento
 
-Você pode arquivar uma equipe. Arquivar uma equipe coloca a equipe em modo somente leitura no Microsoft Teams. Como administrador, você pode arquivar e Desarquivar equipes em nome de sua organização no centro de administração. 
+Você pode arquivar uma equipe. Arquivar uma equipe coloca a equipe em modo somente leitura no Microsoft Teams. Como administrador, você pode arquivar e cancelar o arquivamento de equipes em nome da sua organização no centro de administração. 
 
 ### <a name="delete"></a>Excluir
 
@@ -116,7 +120,7 @@ Algumas de suas equipes estão ausentes da lista de equipes na grade de visão g
 
 Substitua **{GroupId}** na consulta para o GroupId em questão real, que você pode obter por meio do PowerShell do Exchange Online, com o cmdlet **"[Get-unificado](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** , como o atributo "**ExternalDirectoryObjectId**".
 
-1. [Gerenciador de gráficos](https://developer.microsoft.com/en-us/graph/graph-explorer)do Access.
+1. [Gerenciador de gráficos](https://developer.microsoft.com/graph/graph-explorer)do Access.
 
 2. Conecte-se ao Graph Explorer no menu à esquerda.
 

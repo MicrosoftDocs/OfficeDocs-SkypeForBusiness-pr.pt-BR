@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 141527e7decdfec2b1070cfdd41897f38a63a458
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 56d622a3a8757ca377c75bea79028dc5587b6bb8
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568373"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290971"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guia de revisão da experiência de qualidade
 
@@ -62,15 +62,17 @@ Este guia também deve ser usado pelo (s) especialista (s) de qualidade designad
 
 Antes de usar este guia, verifique se você tem as [funções](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) de locatário adequadas atribuídas para poder acessar o CQD.
 
--   **Função de administrador global do Office 365** 
+-   **Administrador global do Office 365** 
 
--   **Função de administrador do Skype for Business** 
+-   **Administrador do Skype for Business** 
 
--   **Função de administrador do teams Service** 
+-   **Administrador de Serviço de Equipes** 
 
--   **Função do engenheiro de suporte de comunicações do teams** 
+-   **Administrador de Comunicações de Equipes** 
 
--   **Função de especialista de suporte às comunicações de equipe** 
+-   **Engenheiro de Suporte de Comunicações de Equipes** 
+
+-   **Especialista em suporte do teams Communications** 
 
 Como alternativa, você pode atribuir a função a seguir a uma conta de usuário do Office 365 para permitir o acesso somente aos recursos de relatório.
 
@@ -227,7 +229,7 @@ Na primeira vez que você executar essas tarefas, você terá mais esforço do q
 
 #### <a name="service-management-tasks"></a>Tarefas de gerenciamento de serviço
 
-Em uma nuvem-primeiro mundo, você deve executar determinadas tarefas de gerenciamento de serviço para manter experiências de usuário de alta qualidade. Essas tarefas variam desde a garantia de que há largura de banda suficiente para acessar o serviço sem saturating links de Internet, Validando que a QoS (qualidade de serviço) está em vigor em todas as áreas de rede gerenciadas e, em última parte, manter-se atualizado sobre os [intervalos de IP do Office 365 em firewalls](https://aka.ms/o365ips).
+Em uma nuvem-primeiro mundo, você deve executar determinadas tarefas de gerenciamento de serviço para manter experiências de usuário de alta qualidade. Essas tarefas variam desde a garantia de que há largura de banda suficiente para acessar o serviço sem saturating links da Internet, Validando que a QoS (qualidade de serviço) está em vigor em todas as áreas de rede gerenciadas e, em última parte, manter-se atualizado sobre os [intervalos de IP do Office 365 em firewalls](https://aka.ms/o365ips).
 
 #### <a name="network-tasks"></a>Tarefas de rede
 
@@ -265,9 +267,6 @@ Para obter treinamento e recursos mais aprofundados, consulte o [Apêndice](#oth
 
 Use o painel de qualidade de chamada (CQD) para obter informações sobre a qualidade das chamadas feitas usando o Microsoft Teams e os serviços do Skype for Business. O CQD foi projetado para ajudar os administradores do Skype for Business e do Teams e os engenheiros de rede a otimizar a rede e ter um olho próximo na qualidade, na confiabilidade e na experiência do usuário. CQD examina a telemetria de agregação para uma organização inteira, em que os padrões gerais podem se tornar aparentes, permitindo que a equipe faça avaliações e atividades de correção bem fundamentadas para maximizar o impacto. O CQD fornece relatórios de métricas que proporcionam uma visão geral da qualidade, da confiabilidade e da experiência do usuário.
 
-> [!Note]
-> O CQD não contém informações de identificação pessoal (PII). PII são informações que podem ser usadas por conta própria ou por outras informações para identificar, contatar ou localizar uma única pessoa, ou para identificar um indivíduo no contexto.
-
 Este guia ajudará a compreender os principais conceitos do CQD para ajudar a maximizar o impacto que você pode fazer para melhorar a experiência dos seus usuários com o Microsoft Teams ou o Skype for Business online. Recursos adicionais do CQD podem ser encontrados no [Apêndice](#other-resources).
 
 ### <a name="expectations-using-cqd"></a>Expectativas usando o CQD
@@ -277,18 +276,15 @@ CQD, embora útil para analisar tendências e sub-redes, nem sempre fornece uma 
 -   O CQD não fornecerá a causa básica para todos os cenários.
 -   O CQD não conterá fluxos de sistema de telefonia ou de audioconferência.
 -   O CQD chamará as áreas para uma investigação mais profunda com base nas tendências.
--   CQD não contém PII.
 
 ### <a name="report-editions"></a>Edições de relatório
 
-Há duas edições de relatório no CQD online: Resumo e detalhadas. Use o menu suspenso localizado na barra azul, na parte superior da tela, para abrir uma edição de relatório. O nome da edição de relatório selecionada é exibido na parte superior da tela.
+Há duas edições de relatório no CQD online: Resumo e detalhadas. Use o menu suspenso localizado na barra na parte superior da tela para abrir a edição do relatório. O nome da edição de relatório selecionada é exibido na parte superior da tela.
 
 -   Os relatórios resumidos são estáticos e não podem ser editados, baixados ou exportados. 
 -   Relatórios detalhados são totalmente personalizáveis e podem ser baixados para um arquivo CSV, exportados ou clonados.
 
 Para obter uma descrição completa da diferença entre as duas edições, confira [Este artigo](turning-on-and-using-call-quality-dashboard.md).
-
-![Captura de tela do menu suspenso com relatórios de resumo selecionados](media/qerguide-image-reportcategories.png)
 
 _Figura 4-categorias de relatórios do CQD_
 
@@ -801,36 +797,6 @@ O planejador de rede determina e organiza os requisitos de rede para a implanta�
 
 Apesar de o planejador de rede não automatizar o processo de mapeamento de construção completamente, após a inserção das informações de rede no planejador de rede, ele pode ser exportado para um arquivo de construção pronto para carregamento.
 
-## <a name="diagnostic-alerts"></a>Alertas de diagnóstico
-
-A Microsoft monitora proativamente a telemetria do CQD para criar alertas de diagnóstico para problemas conhecidos que afetam negativamente a experiência do usuário. Esses alertas serão entregues automaticamente ao administrador do serviço por meio do centro de mensagens. A tabela a seguir descreve os alertas de diagnóstico mostrados no centro de mensagens, além de links para obter mais informações.
-
-_Tabela 6 – alertas de diagnóstico_
-
-| Alertas                                                                | Mais informações             |
-|----------------------------------------------------------------------|------------------------------|
-| As versões do cliente com mau desempenho desconhecido estão em uso                   | [Versões do cliente](#client-versions)              |
-| Drivers de áudio estão causando quedas de chamadas                                 | [Dispositivos](#devices)                      |
-| Restrições no firewall estão causando falhas de configuração de chamada         | [Investigações de falha na configuração](#setup-failure-investigations) |
-| A inspeção de pacotes profunda está causando falhas de configuração de chamadas                | [Investigações de falha na configuração](#setup-failure-investigations) |
-| Os dispositivos de sala de reunião em redes Wi-Fi estão causando uma qualidade de chamada ruim | [Investigações de qualidade](#quality-investigations)       |
-| O tráfego UDP está sendo limitado, o que provoca uma baixa qualidade de chamada         | [TCP](#tcp)                          |
-| O uso de VPN está afetando a qualidade das chamadas                                  | [Investigações de qualidade](#quality-investigations)       |
-
-
-### <a name="message-center"></a>Centro de mensagens
-
-O centro de mensagens alerta sobre novas atualizações, recursos ou problemas. O centro de mensagens está disponível no centro de administração do Microsoft 365 para administradores de serviço. Cada postagem fornece uma visão geral de alto nível de como a atualização, o recurso ou o problema afeta seus usuários e fornece links para informações mais detalhadas.
-
-Para abrir o centro de mensagens, no centro de administração do Microsoft 365, vá para**centro de mensagens**de **saúde** > ou selecione o cartão central de mensagens no painel **página inicial** . O painel exibe as três últimas mensagens que foram postadas e links para a página completa do centro de mensagens.
- 
-
-![Captura de tela do centro de mensagens mostrando as três últimas mensagens postadas](media/qerguide-image-messagecentercard.png)
-
-_Figura 18-cartão do centro de mensagens_
-
-Você também pode usar o [aplicativo de administração do Office 365](https://go.microsoft.com/fwlink/p/?linkid=627216) em seu dispositivo móvel para ver o centro de mensagens, que é uma ótima maneira de ficar atualizado com as notificações por push. Para obter mais informações, consulte [Este artigo](https://support.office.com/article/Message-center-in-Office-365-38FB3333-BFCC-4340-A37B-DEDA509C2093).
-
 ## <a name="reliability-investigations"></a>Investigações de confiabilidade
 
 A primeira etapa para melhorar a qualidade é avaliar o estado da confiabilidade em toda a organização. Como a confiabilidade é vital para uma experiência positiva do usuário, começamos com os dois componentes que avaliam a confiabilidade:
@@ -884,10 +850,6 @@ Este relatório de resumo é usado para descobrir e isolar quaisquer prédios ou
 ![Captura de tela mostrando falhas de configuração](media/qerguide-image-setupfailuresbysubnet.png)
 
 _Figura 20-falhas de configuração de áudio por sub-rede_
-
-##### <a name="diagnostic-alert"></a>Alerta de diagnóstico
-
-Se você recebeu um alerta de diagnóstico "restrições do firewall estão causando falhas de configuração de chamada" ou "a inspeção de pacotes profunda está causando falhas de configuração de chamadas", concentre seus esforços de correção nas sub-redes identificadas primeiro. O alerta identificou sub-redes que afetam negativamente a confiabilidade das chamadas. Você pode usar os relatórios de falhas de configuração encontrados na seção confiabilidade para auxiliar na correção.
 
 ##### <a name="remediation"></a>NAP 
 
@@ -956,7 +918,7 @@ Causas comuns de cancelamentos de chamadas:
 -   Versões mais antigas do cliente
 -   Comportamento do usuário
 
-Depois de descobrir suas áreas problemáticas, você pode usar a [análise de chamadas](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309) para revisar os usuários que estão criando problemas específicos. A análise de chamadas contém dados PII e pode ser útil para isolar ainda mais possíveis motivos para as falhas de soltura.
+Depois de descobrir suas áreas problemáticas, você pode usar a [análise de chamadas](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309) para revisar os usuários que estão criando problemas específicos. O recurso de análise de chamadas contém dados PII adicionais e pode ser útil para isolar ainda mais possíveis motivos para o cancelamento de falhas.
 
 Independentemente da sua próxima etapa, é uma prática recomendada notificar a assistência técnica de que um problema foi descoberto com prédios ou sub-redes específicos. Dessa forma, eles podem responder rapidamente às chamadas recebidas e fazer a triagem dos usuários com mais eficiência. Os usuários sinalizados podem ser relatados para a equipe de engenharia para que você possa fazer uma investigação adicional.
 
@@ -1025,12 +987,6 @@ Embora as dimensões usadas possam variar ligeiramente entre os relatórios, cad
 ![Captura de tela mostrando o resumo do fluxo de áudio ruim](media/qerguide-image-poorqualitysummary.png)
 
 _Figura 24 – Resumo de fluxo de áudio ruim por prédio e conferência_
-
-##### <a name="diagnostic-alert"></a>Alerta de diagnóstico
-
-Se você recebeu um alerta de diagnóstico "os dispositivos da sala de reunião em redes Wi-Fi estão causando uma qualidade de chamada ruim", inclua e Priorize esses dispositivos em seus esforços de correção. O alerta identificou salas de reunião em Wi-Fi que estão contribuindo ativamente para a baixa qualidade da chamada.
-
-Se você receber um alerta de diagnóstico "o uso da VPN está afetando a qualidade da chamada", investigue uma solução de tunelamento dividido para ignorar o aparelho VPN e permitir que a mídia se conecte diretamente ao serviço. O alerta identificou que a VPN está afetando negativamente a qualidade da chamada.
 
 ##### <a name="remediation"></a>NAP
 
@@ -1112,13 +1068,9 @@ Nos modelos CQD fornecidos, navegue até os fluxos TCP por meio de relatórios d
 > [!NOTE]
 > Certifique-se de ajustar o filtro de ano do mês para o mês atual. Selecione **Editar**e ajuste **ano do mês** para salvar o novo mês padrão.                                  |
 
-![Captura de tela do uso do TCP pelo prédio e pela sub-rede](media/qerguide-image-tcpstreams.png)
+![Captura de tela do uso do TCP pela construção e sub-rede](media/qerguide-image-tcpstreams.png)
 
 _Figura 27 – fluxos TCP por prédio e conferência_
-
-##### <a name="diagnostic-alert"></a>Alerta de diagnóstico
-
-Se você recebeu um alerta de diagnóstico "o tráfego UDP está sendo limitado, o que causa uma qualidade de baixa qualidade", concentre seus esforços de correção de TCP nessas sub-redes primeiro. O alerta identificou sub-redes em que o uso do TCP está afetando negativamente a qualidade da chamada.
 
 ##### <a name="remediation"></a>NAP
 
@@ -1159,7 +1111,7 @@ Você deseja ver a menor possibilidade possível de fluxos de mídia HTTP. Se vo
 
 Se você tiver apenas um proxy da Internet em sua organização, verifique as exclusões corretas de [intervalo de endereços IP e URLs do Office 365](https://aka.ms/o365ips). Se mais de um proxy da Internet estiver configurado em sua organização, use o sub-relatório HTTP para isolar qual construção ou sub-rede será afetada.
 
-Para as organizações que não podem ignorar o proxy, certifique-se de que o cliente Skype for Business está configurado para se conectar corretamente quando ele estiver localizado atrás de um proxy, conforme descrito no artigo o [Skype for Business deve usar o servidor proxy para se conectar em vez de tentar direto conexão](https://support.microsoft.com/help/3207112/skype-for-business-should-use-proxy-server-to-sign-in-instead-of-tryin). 
+Para organizações que não podem ignorar o proxy, certifique-se de que o cliente Skype for Business esteja configurado para se conectar corretamente quando ele estiver localizado atrás de um proxy, conforme descrito no artigo o [Skype for Business deve usar o servidor proxy para se conectar em vez de tentar uma conexão direta](https://support.microsoft.com/help/3207112/skype-for-business-should-use-proxy-server-to-sign-in-instead-of-tryin). 
 
 
 #### <a name="http-proxy-investigations"></a>Investigações de proxy HTTP
@@ -1209,10 +1161,6 @@ Os relatórios neste espaço se concentram em identificar as versões de cliente
 ![Captura de tela do relatório de cliente e dispositivos](media/qerguide-image-clientversionreport.png)
 
 _Figura 30-relatório de versão do cliente_
-
-#### <a name="diagnostic-alert"></a>Alerta de diagnóstico
-
-Se você recebeu um alerta de diagnóstico "as versões de cliente com desempenho desconhecido estão em uso", concentre-se em atualizar esses clientes primeiro. O alerta identificou que esses clientes estão afetando negativamente a qualidade da chamada. Você pode usar o relatório de dispositivos & cliente (mostrado acima) para ajudar a garantir que os clientes com problemas conhecidos não sejam mais atualizados.
 
 #### <a name="remediation"></a>NAP
 
@@ -1265,10 +1213,6 @@ Os relatórios de dispositivo são usados para avaliar o uso do dispositivo por 
 ![Captura de tela do relatório de dispositivos (microfone)](media/qerguide-image-devicesmicrophone.png)
 
 _Figura 31 – relatório de dispositivos (microfone)_
-
-##### <a name="diagnostic-alert"></a>Alerta de diagnóstico
-
-Se você recebeu um alerta de diagnóstico, os drivers de áudio estão causando quedas de chamadas, "concentre-se em corrigir esses drivers primeiro. O alerta identificou que drivers inválidos conhecidos estão causando chamadas para soltar e estão afetando negativamente a confiabilidade das chamadas. Você pode usar o relatório de microfone-drivers (mostrado acima), que é encontrado na seção de dispositivos cliente &, para ajudar com o processo.
 
 ##### <a name="remediation"></a>NAP
 
