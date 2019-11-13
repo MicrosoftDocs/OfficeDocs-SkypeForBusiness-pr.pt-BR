@@ -6,26 +6,28 @@ ms.topic: article
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/28/2019
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 585e857ff6edf89880ed29d9a434747a0af3d127
-ms.sourcegitcommit: 2453f87088fc2f8034726c14699aacb65d859b1b
+ms.openlocfilehash: 4b0375a2710337e3c95755bdd2676bf730e26bad
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36436349"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290961"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Conferências e reuniões no Microsoft Teams
 
-Você concluiu a [Introdução](get-started-with-teams-quick-start.md). Você implementou o Teams com [chat, equipes, canais e aplicativos](deploy-chat-teams-channels-microsoft-teams-landing-page.md) na organização. Agora, você está pronto para adicionar a carga de trabalho de reuniões, que inclui [audioconferência](deploy-audio-conferencing-teams-landing-page.md), vídeos e compartilhamentos. Veja como. 
+Você concluiu a [Introdução](get-started-with-teams-quick-start.md). Você implementou o Teams com [chat, equipes, canais e aplicativos](deploy-chat-teams-channels-microsoft-teams-landing-page.md) na organização. Agora, você está pronto para adicionar a carga de trabalho de reuniões, que inclui [audioconferência](deploy-audio-conferencing-teams-landing-page.md), vídeos e compartilhamentos. Esse artigo o orientará durante a implementação de reuniões e conferências de áudio. Comece vendo nosso vídeo sobre reuniões, conferências e dispositivos do Teams (3:28 minutos):
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE46ZdQ]
+
+*Novidades de novembro de 2019*: Agora você pode [usar o Assistente do Teams (visualização) para ajudá-lo na implantação do Microsoft Teams](use-advisor-teams-roll-out.md). O Assistente do Teams (visualização) o orienta na implementação do Microsoft Teams, incluindo reuniões e conferências. Ele avalia o ambiente do Office 365 e identifica as configurações mais comuns que talvez seja necessário atualizar ou modificar antes de poder implantar o Teams com êxito.
 
 
 ## <a name="meetings-and-conferencing-deployment-decisions"></a>Decisões de implantação de conferências e reuniões
@@ -51,7 +53,7 @@ Use a ferramenta [NetworkTestingCompanion](https://www.powershellgallery.com/pac
 
 | Pergunte a si mesmo | Ação |
 |--------------|--------|
-|Minha rede está pronta para a implantação de reuniões do Teams? | Para verificar se a rede está pronta, confira:<ul><li>[Preparar a rede da organização para o Microsoft Teams](https://docs.microsoft.com/pt-BR/MicrosoftTeams/prepare-network)</li><li>[URLs e intervalos de endereços IP do Office 365](https://docs.microsoft.com/pt-BR/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|Minha rede está pronta para a implantação de reuniões do Teams? | Para verificar se a rede está pronta, confira:<ul><li>[Preparar a rede da organização para o Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[URLs e intervalos de endereços IP do Office 365](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
 |||
 
 ## <a name="core-deployment-decisions"></a>Decisões importantes sobre implantação

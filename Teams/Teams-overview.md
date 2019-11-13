@@ -16,21 +16,23 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef565e9113f30e3c3d42e5482b2a52425eacbb2e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 101849cdae4e60b927a99c808ad3e37682f19b03
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37566993"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290841"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Bem-vindo ao Microsoft Teams
 Se você é o administrador do Microsoft Teams em sua organização, está no lugar certo. Se você está pronto para começar a usar o Teams, comece em [Como implementar o Teams](How-to-roll-out-teams.md).
 
 Se você está procurando a Ajuda do Teams para o usuário final, clique em **Ajuda** no lado esquerdo do aplicativo, ou acesse a [Central de Ajuda do Microsoft Teams](https://support.office.com/teams). Para obter treinamento, acesse [Treinamento do Microsoft Teams](training-microsoft-teams-landing-page.md). 
 
-Se você não conhece o Teams e deseja saber mais, confira o nosso vídeo Bem-Vindo ao Teams (de 55 segundos).
+Se você não conhece o Teams e deseja saber mais, confira o nosso vídeo [Bem-Vindo ao Teams](https://www.youtube.com/embed/s3aQV3T0D6c) (de 55 segundos).
 
-> [!VIDEO https://www.youtube.com/embed/s3aQV3T0D6c]
+Não perca o nosso vídeo Bem-vindo ao Teams da administração do Teams (pouco mais de 3 minutos):
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
 
 ## <a name="teams-architecture"></a>Arquitetura do Teams
 

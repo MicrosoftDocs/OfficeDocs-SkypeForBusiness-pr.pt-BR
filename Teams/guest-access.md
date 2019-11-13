@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a0bba0c8893ee706061b989f95d4e22619fa4f9
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: ad8b75e244efa0d28709d6c5ff225f1e6676200a
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753276"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290851"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Acesso para convidado no Microsoft Teams
 ======================================
@@ -75,6 +75,7 @@ A experiência de convidado tem limitações por padrão. Compreenda a experiên
 - Procurar uma esquipe
 - Carregar arquivos para um chat de pessoa para pessoa
 - Os convidados ainda poderão pesquisar e localizar usuários (fora da equipe) se souberem o ID de email completo do usuário. Para evitar isso, os administradores de TI podem usar padrões como a [pesquisa de diretório com escopo](teams-scoped-directory-search.md) que têm a capacidade de restringir convidados à sua GAL virtual.
+- Atualmente, o Teams é compatível apenas aos usuários convidados do Estado 1 e Estado 2, [conforme definido pelo Azure B2B](https://docs.microsoft.com/azure/active-directory/b2b/user-properties)
 
 Para obter uma lista completa do que um convidado pode ou não fazer no Teams, confira a tabela [comparação de recursos de membros e de convidados da equipe](guest-experience.md#comparison-of-team-member-and-guest-capabilities). Para saber mais sobre o acesso de convidados no nível do Office 365, leia [Adicionando convidados a Grupos do Office 365](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
 
