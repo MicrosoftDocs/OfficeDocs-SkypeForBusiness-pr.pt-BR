@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: Os clientes podem usar o plano de chamadas do Office 365 e a conferência de áudio do Office 365, conforme permitido no Skype for Business Online e os serviços PSTN do Microsoft Teams, usar termos e contrato de licenciamento por volume do cliente.
-ms.openlocfilehash: e5f0d49cfd43b04f5c361564adcc05805d04b594
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 10f56c62ccac79fcd20b0ca88fd7d71a8fc7c43a
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516892"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38311226"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Período complementar de discagem de audioconferência
 
@@ -37,6 +37,8 @@ Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as p
 ### <a name="end-of-complimentary-dial-out-period"></a>Fim do período de discagem grátis
 
 A partir de 1 ° de dezembro de 2019, a funcionalidade de discagem gratuita será encerrada. Consulte [assinatura de áudio da conferência discada e ligue para mim em benefício](audio-conferencing-subscription-dial-out.md) para obter mais detalhes. 
+
+Esta alteração não ocorrerá para os países onde a assinatura de audioconferência está disponível, mas não oferecemos a capacidade de configurar créditos de comunicações. Esses países específicos são Rússia, Coréia do Sul e Taiwan.
 
 ### <a name="complimentary-dial-out-period-details"></a>Detalhes do período de discagem grátis
 

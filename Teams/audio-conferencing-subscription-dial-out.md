@@ -20,18 +20,22 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Os clientes receberam um recurso de discagem gratuita que terminará em 30 de novembro de 2019.  A partir de 1 ° de dezembro de 2019, cada assinatura de audioconferência fornece 60 minutos por mês para qualquer região de um país, conforme descrito neste documento. '
-ms.openlocfilehash: 8da1082d0bf7e9a50248e29877309053f706e741
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: e98844a1b3d9b00d489cd32e90add357b4b85b57
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515876"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38311266"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>Benefícios da assinatura "discagem"/"ligar para mim por" minutos da assinatura de áudio audioconferência
 
 ## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>Conferência de áudio PSTN do Microsoft Teams e do Skype for Business
 
 Os clientes receberam um [recurso de discagem gratuita](complimentary-dial-out-period.md) que terminará em 30 de novembro de 2019. A partir de 1 ° de dezembro de 2019, cada assinatura de audioconferência fornece 60 minutos por mês que pode ser usada para discar para números não Premium em qualquer uma das zonas de um país, conforme descrito neste documento. Seu tamanho do pool de minutos de discagem de locatário é baseado em licenças *atribuídas* e não em licenças adquiridas. Esse benefício se aplica às licenças de *assinatura mensal* da conferência de áudio e não se estende às licenças de pagamento por minuto de audioconferência. 
+
+> [!NOTE]
+> O final do período de discagem gratuita não ocorrerá em 30 de novembro de 2019 para os países onde a assinatura de audioconferência está disponível, mas não oferecemos a capacidade de configurar créditos de comunicações. Esses países específicos são Rússia, Coréia do Sul e Taiwan.
+
 
 ## <a name="audio-conferencing-dial-out-from-a-meeting--call-me-at-details"></a>Detalhes da "discagem" de conferência de áudio "&" ligar para mim em "
 

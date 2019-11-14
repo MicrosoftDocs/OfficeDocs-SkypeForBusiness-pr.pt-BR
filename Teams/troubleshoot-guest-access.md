@@ -15,12 +15,12 @@ description: Obtenha ajuda para solucionar problemas e corrigir problemas de ace
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: eefaece55876bc66905716526884fd21303c630e
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 2931a3f5440492aa1ab99a53cd196ab2973eb122
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37754357"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38311256"
 ---
 <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Solucionar problemas de acesso de convidado no Microsoft Teams
 ======================================================
@@ -45,8 +45,11 @@ Se você estiver vendo erros de licenciamento, leia a [orientação de licenciam
 - As licenças de convidado são contadas em relação à organização que convida. Considere isso quando você calcular o número de licenças necessárias.
 - As licenças são contadas em relação à sua organização se os convidados convidados vierem de outro locatário do Office 365 ou estiverem usando seus endereços de email pessoais.
 
+## <a name="support-for-b2b-user-types"></a>Suporte para tipos de usuário B2B
+Atualmente o Microsoft Teams tem suporte apenas para tipos de estado 1 e estado 2 de usuários convidados [, conforme definido pelo Azure B2B](https://docs.microsoft.com/azure/active-directory/b2b/user-properties).
+
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Acesso de convidado no Teams](guest-access.md)
+[Acesso de convidados ao Teams](guest-access.md)
 
 

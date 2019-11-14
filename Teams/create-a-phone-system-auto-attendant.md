@@ -1,7 +1,7 @@
 ---
 title: Configurar um atendedor automático do Cloud
-ms.author: jambirk
-author: jambirk
+ms.author: kenwith
+author: kenwith
 manager: serdars
 ms.reviewer: waseemh
 ms.topic: article
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar atendedores automáticos da nuvem para o Microsoft Teams.
-ms.openlocfilehash: b1756cc58e485971157c0429e8180a5f5e507ec8
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 36725b9c322c5d084fdfc344132f36b9265ce9dd
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972472"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38318124"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar um atendedor automático do Cloud
 
@@ -103,7 +103,7 @@ Você tem várias maneiras de definir o operador:
 
 <a name="timezone"> </a>
 
-![Ícone do número 3, um texto explicativo no](media/teamscallout3.png) **fuso horário** anterior da captura de tela, você precisa definir o fuso horário para o atendedor automático. A configuração pode ser a mesma que o fuso horário do endereço principal listado para a sua organização ou um fuso horário diferente. Cada atendedor automático pode ter um fuso horário diferente. O horário comercial definido para o atendedor automático também usa este fuso horário.
+![Ícone do número 3, um texto explicativo no](media/teamscallout3.png) **fuso horário** anterior da captura de tela, você precisa definir o fuso horário para o atendedor automático. A configuração pode ser a mesma que o fuso horário do endereço principal listado para a sua organização ou um fuso horário diferente. Cada atendedor automático pode ter um fuso horário diferente. O horário comercial definido para o atendedor automático também usa este fuso horário. Certifique-se de definir o fuso horário certo para evitar discrepâncias de horário comercial, pois nem todas as regiões têm o horário de verão. 
 
 * * *
 
@@ -231,7 +231,7 @@ Se você selecionar **Desconectar**, o chamador será desconectado após a sauda
 >- Um atendedor automático pode ser configurado para discar por nome ou discar por extensão, mas não ambos.
 
 > [!NOTE]
-> Se você quiser usar os recursos **discar por nome** e **discar pelos** recursos de extensão, você pode criar atendedor automático principal (habilitado para **discar por nome**) que solicita que os chamadores escolham uma opção de menu se saberem a extensão do usuário e definir essa opção como Transfira a chamada para um atendedor automático habilitado para discar por extensão.
+> Se quiser usar os recursos **discar por nome** e **discar pelos** recursos de extensão, você pode criar o atendedor automático principal (habilitado para **discar por nome**) que solicita que os chamadores escolham uma opção de menu se saberem a extensão do usuário e definir essa opção para transferir a chamada para um atendedor automático habilitado para discar por extensão.
 
 * * *
 
@@ -249,7 +249,7 @@ Quando terminar de fazer suas seleções, clique em **Avançar** se desejar alte
 - Escopo de discagem
 - Contas de recursos
 
-Como o atendedor automático é necessário para ter uma conta de recurso, você tem a opção de prosseguir para a página da **conta do recurso** e associar uma conta de recurso que você já configurou ou criar uma conta de recurso e associá-la ao auto atendente conforme descrito em [gerenciar contas de recurso no Microsoft Teams](manage-resource-accounts.md). Você não poderá usar esse atendedor automático até que ele tenha sido associado a uma conta do recurso. para fazer isso, clique no botão **Avançar** na parte inferior da tela e, em seguida, clique em **contas de recurso** no painel de navegação à esquerda para ir diretamente para a página contas do recurso e associar o atendedor automático a uma conta de recurso.
+Como o atendedor automático é necessário para ter uma conta de recurso, você tem a opção de prosseguir para a página da **conta do recurso** e associar uma conta de recurso que você já configurou ou criar uma conta de recurso e associá-la ao atendedor automático, conforme descrito em [gerenciar contas de recursos no Microsoft Teams](manage-resource-accounts.md). Você não poderá usar esse atendedor automático até que ele tenha sido associado a uma conta do recurso. para fazer isso, clique no botão **Avançar** na parte inferior da tela e, em seguida, clique em **contas de recurso** no painel de navegação à esquerda para ir diretamente para a página contas do recurso e associar o atendedor automático a uma conta de recurso.
 
 #### <a name="advanced-settings-optional"></a>Configurações avançadas (opcional)
 
@@ -273,7 +273,7 @@ Inicialmente, o horário comercial é definido para começar em 12:00 e terminar
 
 ![Ícone do número 3, um texto explicativo na captura de](media/teamscallout3.png) tela anterior, selecione **limpar todas as horas** para limpar completamente o cronograma. A seleção dessa opção e a saída de horas não é recomendável, portanto Use essa opção somente se desejar refazer o horário comercial.
 
-![Ícone do número 4, um texto explicativo no ícone de](media/teamscallout4.png)![captura de tela anterior do número 5, um texto explicativo](media/teamscallout5.png) na captura de tela anterior para personalizar a hora de início ou de término de um dia da semana, clique em **Iniciar em** ou **terminar no** momento em que deseja redefinir e Selecione o novo horário na lista exibida.   A lista permite que você selecione o horário comercial em intervalos de 15 minutos, e o horário comercial selecionado aqui é baseado no fuso horário que você definiu na página **informações gerais** .
+![Ícone 4, um texto explicativo no ícone de captura de](media/teamscallout4.png)![tela anterior do número 5, um texto explicativo na captura](media/teamscallout5.png) de tela anterior para personalizar a hora de início ou de término para um dia da semana, clique em **Iniciar em** ou **terminar no** momento em que deseja redefinir e selecione o novo horário na lista exibida.   A lista permite que você selecione o horário comercial em intervalos de 15 minutos, e o horário comercial selecionado aqui é baseado no fuso horário que você definiu na página **informações gerais** .
 
  <!-- The **Apply to all days** option can be used to reset all days of the week to match the settings for that day. This makes setting weekdays and weekends to different hours easier.-->
 
@@ -309,7 +309,7 @@ Você pode adicionar até 20 feriados agendados para cada atendedor automático.
 
 Um nome de fluxo de chamadas de feriados pode ter até 64 caracteres de comprimento e deve ser exclusivo para a organização. Por exemplo, você não pode ter dois fluxos de chamadas de Natal chamados "de Graças" na mesma organização. O atendedor automático pode ter um fluxo de chamadas para cada feriado que você configurou, mas talvez queira ter um conjunto comum de comportamentos planejados que não sejam uma saudação personalizada.
 
-![O ícone do número 3, um balão na captura de tela](media/teamscallout3.png) anterior, as opções de [saudação](#call-flow) disponíveis para um fluxo de chamadas de feriados são iguais às opções disponíveis durante o horário comercial. As **ações** executadas após a saudação também são semelhantes, exceto que as únicas ações disponíveis são para **Desconectar** ou **redirecionar**e, ao escolher a opção **redirecionar para** , o operador não é uma das opções disponíveis . Você não pode configurar um menu específico para um fluxo de feriados.
+![O ícone do número 3, um balão na captura de tela](media/teamscallout3.png) anterior, as opções de [saudação](#call-flow) disponíveis para um fluxo de chamadas de feriados são iguais às opções disponíveis durante o horário comercial. As **ações** executadas após a saudação também são semelhantes, exceto que as únicas ações disponíveis são para **Desconectar** ou **redirecionar**e, ao escolher a opção **redirecionar para** , o operador não é uma das opções disponíveis. Você não pode configurar um menu específico para um fluxo de feriados.
 
 > [!NOTE]
 > Por padrão, todas as chamadas recebidas durante um período de feriado são definidas como **Desconectar** após a saudação (se houver), portanto, você deve especificar um redirecionamento se desejar um comportamento personalizado.
@@ -414,11 +414,11 @@ Você também pode usar o PowerShell para criar e configurar atendedores automá
 
   - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-  - [Por que você precisa usar o PowerShell do Office 365](https://docs.microsoft.com/en-us/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
+  - [Por que você precisa usar o PowerShell do Office 365](https://docs.microsoft.com/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
 
 - O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade apenas usando o centro de administração do Microsoft 365, como as alterações de configuração de vários usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos:
 
-  - [Gerenciar o Office 365 com o Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
+  - [Gerenciar o Office 365 com o Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 
   - [Usar o Windows PowerShell para gerenciar o Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
@@ -430,7 +430,7 @@ Você também pode usar o PowerShell para criar e configurar atendedores automá
 
 [Disponibilidade de Audioconferência e Planos de Chamadas por país e região](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
-[New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
+[New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
 
 [Quais são os atendedores automáticos do Cloud?](what-are-phone-system-auto-attendants.md)
 

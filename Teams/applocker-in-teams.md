@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Saiba como habilitar o aplicativo cliente da equipe de trabalho com políticas de controle de aplicativo do AppLocker.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb12012c0775d98c7d1b08b61c6c0deba83a4d5f
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 6035341aa649e966f15be7d33894f450ec8be251
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516768"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38311246"
 ---
 # <a name="applocker-application-control-policies-in-microsoft-teams"></a>Políticas de controle de aplicativo do AppLocker no Microsoft Teams
 
@@ -38,11 +38,12 @@ Como os arquivos executáveis da área de trabalho do teams são assinados digit
 
 ### <a name="example-of-publisher-condition-rules"></a>Exemplo de regras de condição do Publisher
 
-Para o aplicativo cliente do Teams (todos os arquivos, todas as versões):
+Para o aplicativo cliente do Teams (todos os arquivos, todas as versões) adicione o seguinte às regras executáveis & regras de DLL:
 
 ```
 Publisher: O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US
 Product name: MICROSOFT TEAMS
+Product name: MICROSOFT TEAMS UPDATE
 ```
 
 ## <a name="related-topics"></a>Tópicos relacionados
