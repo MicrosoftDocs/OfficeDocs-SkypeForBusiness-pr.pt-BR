@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fa560347d7263dafafc4f98e031b3b267f8fb12
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 450fd98d65d092f3cbc684e4efd90691b5e389a1
+ms.sourcegitcommit: 69217fb6d6b71081386364db58083eb5d1932c07
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570218"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38638801"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para Infraestrutura de Área de Trabalho Virtualizada
 
@@ -165,6 +165,9 @@ O aplicativo Teams foi validado nos principais provedores de soluções de virtu
 
 ### <a name="virtual-machine-requirements"></a>Requisitos da máquina virtual
 
+> [!NOTE]
+> Os seguintes requisitos se aplicam ao aplicativo da área de trabalho Teams e ao aplicativo Web Teams.
+
 Com as diversas cargas de trabalho e necessidades de usuário em um ambiente virtualizado, a seguir está a configuração de VM mínima recomendada.
 
 |Parâmetro  |Certa  |
@@ -214,7 +217,7 @@ Os itens a seguir são limitações e problemas conhecidos do teams em VDI.
     - A aplicação das políticas descritas neste artigo impacta a capacidade de usar a funcionalidade de chamada e de reunião, o que, dependendo das outras políticas, pode afetar outros usuários da organização. Se os usuários da sua organização usarem clientes não VDI, você poderá optar por não aplicar as políticas.  
 
 - **Ingressando em chamadas e reuniões criadas por outros usuários**: embora as políticas impeçam que os usuários criem reuniões, elas ainda podem ingressar em reuniões se outro usuário discar para elas pela reunião. Nessas reuniões, a capacidade do usuário de compartilhar vídeo, usar o whiteboard e outros recursos depende se você desabilitou esses recursos usando o TeamsMeetingPolicy.  
-- **Conteúdo em cache**: se o ambiente virtual no qual as equipes estiver em execução não for persistente (e os dados forem limpos no final de cada sessão do usuário), os usuários poderão perceber a degradação do desempenho devido à atualização de conteúdo, independentemente de o usuário ter acesso ao mesmo conteúdo em uma sessão anterior.
+- **Conteúdo em cache**: se o ambiente virtual no qual as equipes estiver em execução não for persistente (e os dados forem limpos no final de cada sessão do usuário), os usuários poderão observar a degradação do desempenho devido à atualização de conteúdo, independentemente de o usuário ter acesso ao mesmo conteúdo em uma sessão anterior.
 - **Atualizações do cliente**: o Teams no VDI não é atualizado automaticamente com a instalação MSI por computador. Você precisa atualizar a imagem da VM instalando um novo MSI, conforme descrito na seção instalar o Microsoft [Teams no VDI](#install-teams-on-vdi) . Você deve desinstalar a versão atual para atualizar para uma versão mais recente.
 - **Experiência do usuário**: a experiência do usuário do teams em um ambiente VDI pode ser diferente de um ambiente não VDI. As diferenças podem ser devido às configurações de política e/ou suporte a recursos no ambiente.
 
