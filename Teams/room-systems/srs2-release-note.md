@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: Este artigo discute melhorias cumulativas nas salas do Microsoft Teams.
-ms.openlocfilehash: d432d12b8f17f12e49ea0622ce3ec97cefb2e36a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e82bd160cf09781605cadaf03245b1cdf31b6908
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573523"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38676109"
 ---
 # <a name="release-notes"></a>Notas de versão
 
@@ -225,7 +225,7 @@ Apresentado nesta atualização:
 Apresentado nesta atualização:
 
 - Suporte para hardware de encaixe da [série POLYCOM MSR](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)
-- Suporte para o [Logitech brio](https://www.logitech.com/en-us/product/brio)
+- Suporte para o [Logitech brio](https://www.logitech.com/product/brio)
 - Resolve um problema em que os modos de exibição (console e frontal da sala) falham ao entrar no modo de suspensão quando não há atividade na sala
 
 ### <a name="30120-912017"></a>3.0.12.0 (9/1/2017)
@@ -297,7 +297,7 @@ Apresentado nesta atualização:
 <a name="See"> </a> 
 ## <a name="see-also"></a>Confira também
 
-[Suporte às Salas do Microsoft Teams](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Suporte às Salas do Microsoft Teams](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Preparar seu ambiente](srs-v2-prep.md)
 

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: Este artigo discute o gerenciamento remoto das configurações padrão usadas por um dispositivo de salas do Microsoft Teams, incluindo a aplicação de um tema personalizado.
-ms.openlocfilehash: 24dcec21b9bc2fdb65f63fa21412bbf0f5503c1f
-ms.sourcegitcommit: c782999728e8adae51c52d122700d3e8fa651fdb
+ms.openlocfilehash: 21f60c95c556e9fd006d378a0ff7b48dd0b1b6c2
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38019944"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675759"
 ---
 # <a name="content-cameras"></a>Câmeras de conteúdo
 
@@ -24,7 +24,7 @@ Agora você pode usar uma câmera de conteúdo com um sistema de sala do Microso
 
 Consulte o vídeo a seguir para obter exemplos de funcionalidade de câmera de conteúdo.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3E7fy]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3E7fy]
 
 ## <a name="set-up-a-content-camera"></a>Configurar uma câmera de conteúdo
 

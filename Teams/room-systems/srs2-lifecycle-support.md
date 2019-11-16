@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: Este artigo discute o suporte do ciclo de vida para salas do Microsoft Teams.
-ms.openlocfilehash: 736933c2c47d42073d2f8b90bce6af6755c89338
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 55fde6317fe53102b97f752667d540e33a7b8c8c
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573534"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675789"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Suporte à versão do aplicativo salas do Microsoft Teams
  
@@ -54,7 +54,7 @@ A tabela a seguir mostra as versões recomendadas e com suporte do Windows 10 qu
 | 1903 |2019-05-21 |&#x2780; com suporte, <br/>Recomendado  |4.2.4.0 |18362,356 |
 | 1809 |2019-03-28 |Ignorada <br/>Não recomendado &#x2781;|&#x2014; |&#x2014; |
 | 1803 |2018-07-10 |Com suporte                             |4.1.22.0 |17134,191|
-| 1709 |2018-01-18 |Sem suporte                         |&#x2014; |&#x2014; |
+| 1709 |2018-01-18 |Incompatível                         |&#x2014; |&#x2014; |
 | 1703 |2017-07-11 |Sem suporte                         |&#x2014; |&#x2014; |
 ||||||
 
@@ -66,7 +66,7 @@ Ao usar uma versão com suporte do Windows 10, você sempre terá as atualizaç�
 
 ## <a name="see-also"></a>Confira também
 
-[Suporte às Salas do Microsoft Teams](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Suporte às Salas do Microsoft Teams](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Salas de lançamento das salas do Microsoft Teams](srs2-release-note.md)
 

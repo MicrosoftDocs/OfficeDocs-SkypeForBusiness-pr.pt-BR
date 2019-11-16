@@ -16,10 +16,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 5c6e2d8cfb4e3932d4559a5c5c7b618189da7e57
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37572053"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Instalando a integração do Moodle com o Microsoft Teams
@@ -151,7 +151,7 @@ Para instalar o bot, primeiro você precisa registrá-lo na [plataforma de ident
 1. Clique no botão **gerar nova senha** . Copie a senha gerada e cole-a no campo **senha do aplicativo bot** na página **configurações da equipe** .
 1. Role até a parte inferior do formulário e clique em **salvar alterações**.
 
-Agora que você gerou a ID do aplicativo e a senha, é hora de implantar seu bot para o Azure. Clique no botão **implantar no Azure** e preencha o formulário com as informações necessárias (a ID do aplicativo bot, a senha do aplicativo bot e o segredo Moodle estão na página **configurações da equipe** e as informações do Azure estão na página de **configuração** ) . Depois de preencher o formulário, clique na caixa de seleção para concordar com os termos e condições e clique no botão **comprar** (todos os recursos do Azure são implantados no nível gratuito).
+Agora que você gerou a ID do aplicativo e a senha, é hora de implantar seu bot para o Azure. Clique no botão **implantar no Azure** e preencha o formulário com as informações necessárias (a ID do aplicativo bot, a senha do aplicativo bot e o segredo Moodle estão na página **configurações da equipe** e as informações do Azure estão na página de **configuração** ). Depois de preencher o formulário, clique na caixa de seleção para concordar com os termos e condições e clique no botão **comprar** (todos os recursos do Azure são implantados no nível gratuito).
 
 Depois que os recursos terminarem de implantar para o Azure, você precisará configurar o plugin do Moodle do Office 365 com o ponto de extremidade de mensagem. Primeiro, você precisará obter o ponto de extremidade do bot no Azure. Para fazer isso:
 

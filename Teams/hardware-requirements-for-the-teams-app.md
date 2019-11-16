@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68b263dde1637c5caaf9ec800c83ba047d641a53
-ms.sourcegitcommit: 69217fb6d6b71081386364db58083eb5d1932c07
+ms.openlocfilehash: 753e134e34c68ab139819d8eaffb0ebfeac571cd
+ms.sourcegitcommit: aad6c02b172a1412d3523a3cb3b3400423c0c3e0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/15/2019
-ms.locfileid: "38638701"
+ms.locfileid: "38670188"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Requisitos de hardware para o aplicativo Microsoft Teams
 
@@ -71,6 +71,14 @@ Todos os requisitos nas seções a seguir se aplicam ao aplicativo da área de t
 |Dispositivos    |   Câmera de laptop padrão, microfone e alto-falantes    | 
 |Voz    |  Microfone e alto-falantes compatíveis, fone de ouvido com microfone ou dispositivo equivalente       |
 |Reuniões e chamadas com vídeo | Para melhor experiência com chamadas com vídeo e reuniões online, recomendamos usar um computador com um processador de 2,0 GHz e 4,0 GB de RAM (ou superior). O desfoque opcional meu efeito de vídeo em segundo plano requer um processador com suporte a Advanced vector Extensions 2 (AVX2), compatível nos mais recentes dispositivos Mac do 2013 e mais tarde. Consulte [recomendações de driver](hardware-decoders-and-encoders.md) de codificador e codificador de hardware para obter uma lista de codificadores e codificadores sem suporte.
+|Distribuições Linux com suporte | Ubuntu 16, 4 LTS *, 18, 4 LTS, Fedora 30 Workstation, RHEL 8 Workstation, CentOS 8
+
+* Etapas de pré-requisito para instalar o Ubuntu 16, 4 LTS que adiciona um repositório com versões mais recentes do libc + + (e compilador etc.) e atualiza libc + +:
+```
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+sudo apt-get update
+sudo apt-get upgrade
+```
 
 ## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>Requisitos de hardware para o aplicativo Teams em dispositivos móveis
 

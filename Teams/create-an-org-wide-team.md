@@ -15,10 +15,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: db7caa3879e016b6e8453ad151785578d2391dd1
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37516645"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Criar uma equipe englobando toda a organização no Microsoft Teams
@@ -64,7 +64,7 @@ Canais importantes favoritos para garantir que todos em sua organização se env
 
 ### <a name="set-up-channel-moderation"></a>Configurar a moderação do canal
 
-Considere a possibilidade de configurar a moderação do canal e dar recursos moderadores a determinados membros da equipe. (Quando a moderação é configurada, os proprietários da equipe recebem recursos do moderador automaticamente.) Os moderadores podem controlar quem pode iniciar uma nova postagem em um canal, adicionar e remover moderadores, controlar se os membros da equipe podem responder às mensagens de canal existentes e controlar se os bots e conectores podem enviar mensagens de canal. Para obter mais informações, consulte [configurar e gerenciar a moderação de canal no Microsoft Teams](manage-channel-moderation-in-teams.md).
+Considere a possibilidade de configurar a moderação do canal e dar recursos moderadores a determinados membros da equipe. (Quando a moderação é configurada, os proprietários da equipe recebem recursos do moderador automaticamente.) Os moderadores podem controlar quem pode iniciar uma nova postagem em um canal, adicionar e remover moderadores, controlar se os membros da equipe podem responder às mensagens de canal existentes e controlar se os bots e conectores podem enviar mensagens de canal. Para mais informações, consulte [Configurar e gerenciar a moderação de canal no Microsoft Teams](manage-channel-moderation-in-teams.md).
 
 ### <a name="remove-accounts-that-might-not-belong"></a>Remover contas que não podem pertencer
 

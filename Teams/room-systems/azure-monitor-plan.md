@@ -1,7 +1,7 @@
 ---
 title: Planejar o gerenciamento de salas do Microsoft Teams com o Azure monitor
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 ms.reviewer: Turgayo
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection:
 - M365-collaboration
 description: Este artigo discute considerações de planejamento para usar o Azure monitor para administrar dispositivos de salas do Microsoft Teams na implementação do Skype for Business ou do teams.
-ms.openlocfilehash: e605f3cba8f6e21bb1da4f8301b54922dc8804d5
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 1e5c41866b02a74bee06b472623919f955691dd9
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569913"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675779"
 ---
 # <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>Planejar o gerenciamento de salas do Microsoft Teams com o Azure monitor
  
@@ -25,7 +25,7 @@ ms.locfileid: "37569913"
   
 O [Azure monitor](https://docs.microsoft.com/azure/azure-monitor/overview) é uma coleção de serviços de gerenciamento que foram projetados na nuvem desde o início. Em vez de implantar e gerenciar recursos no local, os componentes do monitor do Azure são totalmente hospedados no Azure. A configuração é mínima, e você pode estar em funcionamento literalmente em questão de minutos. Com algum trabalho de personalização, ele pode ajudar a gerenciar sistemas de conferência de salas do Microsoft Teams ao fornecer notificações em tempo real de integridade do sistema ou falhas para sistemas de sala individuais, e pode ser capaz de dimensionar para gerenciar milhares de Microsoft Teams Salas de conferência de salas.
   
-Este artigo fornece uma discussão sobre os requisitos, o design/a arquitetura e as práticas recomendadas de implementação necessárias para implementar o gerenciamento do Azure monitor baseado em dispositivos de conferência de salas do Microsoft Teams e fornece links para artigos detalhados sobre implementação do Azure monitor para salas do Microsoft Teams e informações de referência críticas para o monitoramento contínuo de salas de salas do Microsoft Teams. 
+Este artigo fornece uma discussão sobre os requisitos, o design/a arquitetura e as práticas recomendadas de implementação necessárias para implementar o gerenciamento do Azure monitor baseado em dispositivos de conferência de salas do Microsoft Teams e fornece links para artigos detalhados sobre como implementar o Azure monitor para salas do Microsoft Teams e informações de referência críticas para o monitoramento contínuo de salas de salas do Microsoft Teams. 
   
 ## <a name="functional-overview"></a>Visão geral funcional
 

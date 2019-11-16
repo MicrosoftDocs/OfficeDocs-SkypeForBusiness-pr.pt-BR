@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Este artigo descreve como configurar o console de salas do Microsoft Teams e seus periféricos.
-ms.openlocfilehash: f42f89d25a58ce96308318cc732e85f7080b86e5
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 6172e37b53934bc75ae7f5bdf848fd503ffe2e8a
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569902"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675769"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Configurar um console de salas do Microsoft Teams
 
@@ -99,7 +99,7 @@ Após o sistema ser desligado, é seguro remover o disco de instalação USB. Ne
 Na atualização do criador, você precisará usar o script ApplyCurrentRegionAndLanguage. ps1 em cenários em que a seleção de idioma implícita não forneça ao usuário o idioma real do aplicativo desejado (por exemplo, que eles querem que o aplicativo de console seja exibido em francês, mas Ele está chegando em inglês).
   
 > [!NOTE]
-> As instruções a seguir funcionam apenas para consoles criados usando a atualização do criador do Windows. Sistemas herdados/no mercado que não foram configurados usando mídia com o novo sistema de provisionamento não poderão usar essas instruções, mas também não devem ser prejudicadas com o problema inicial que exige essa intervenção manual (edição de aniversário permite que você escolha seu linguagem do aplicativo explicitamente como parte da instalação).
+> As instruções a seguir funcionam apenas para consoles criados usando a atualização do criador do Windows. Sistemas herdados/no mercado que não foram configurados usando mídia com o novo sistema de provisionamento não poderão usar essas instruções, mas também não devem ser de acordo com o problema inicial que exige essa intervenção manual (a edição de aniversário permite que você escolha o idioma do aplicativo explicitamente como parte da instalação).
   
 ### <a name="to-apply-your-desired-language"></a>Para aplicar o idioma desejado
 
@@ -142,7 +142,7 @@ O idioma desejado agora está aplicado ao console de salas do Microsoft Teams.
 
 Após a instalação do Windows, o aplicativo de console de salas do Microsoft Teams entrará em seu processo inicial de configuração quando for iniciado em seguida, ou se a opção/reboot tiver sido escolhida.
   
-1. A tela Conta de Usuário é exibida. Insira o endereço de entrada do Skype (no formato do usuário @ domínio) da conta da sala a ser usada com o console.
+1. A tela Conta de Usuário é exibida. Digite o endereço de entrada do Skype (no formato user@domain) da conta da sala a ser usada com o console.
     
 2. Digite a senha para a conta da sala e digite-a novamente para verificar.
     
@@ -162,7 +162,7 @@ Após a instalação do Windows, o aplicativo de console de salas do Microsoft T
     
 6. Clique em **Concluir**.
     
-O aplicativo de console de salas do Microsoft Teams deve começar imediatamente a entrar no Skype for Business Server com as credenciais inseridas acima e também deve começar a sincronizar seu calendário com o Exchange usando essas mesmas credenciais. Para obter detalhes sobre como usar o aplicativo console, consulte a [ajuda de salas do Microsoft Teams](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+O aplicativo de console de salas do Microsoft Teams deve começar imediatamente a entrar no Skype for Business Server com as credenciais inseridas acima e também deve começar a sincronizar seu calendário com o Exchange usando essas mesmas credenciais. Para obter detalhes sobre como usar o aplicativo console, consulte a [ajuda de salas do Microsoft Teams](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
   
 > [!IMPORTANT]
 > Salas do Microsoft Teams depende da presença de hardware de console certificado. Até mesmo uma imagem criada corretamente contendo o aplicativo de console de salas do Microsoft Teams não será inicializada após o procedimento de configuração inicial, a menos que o hardware do console seja detectado. Para soluções com base em Surface pro, o Surface pro deve estar conectado ao seu equipamento de encaixe que o acompanha para transmitir essa verificação.

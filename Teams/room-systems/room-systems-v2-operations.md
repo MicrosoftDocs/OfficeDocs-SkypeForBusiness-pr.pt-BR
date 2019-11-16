@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: Leia este tópico para saber mais sobre o gerenciamento de salas do Microsoft Teams, a próxima geração de sistemas de sala do Skype.
-ms.openlocfilehash: c764490df9912ca464b1f11d56a2cb376b96c388
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 003ede11615e42ec120d618f0a732df58d10f452
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573600"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675335"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Manutenção e operações de salas do Microsoft Teams 
  
@@ -25,7 +25,7 @@ Leia este tópico para saber mais sobre o gerenciamento de salas do Microsoft Te
   
 Salas do Microsoft Teams é a solução de conferência mais recente da Microsoft projetada para transformar sua sala de reunião em uma experiência avançada e colaborativa. Os usuários gostarão da interface familiar do Microsoft Teams ou do Skype for Business, e os administradores de ti apreciarão um aplicativo de reunião do Skype com facilidade de implantação e gerenciamento do Windows 10. As salas do Microsoft Teams foram projetadas para aproveitar o equipamento existente, como painéis LCD, para facilitar a instalação e trazer o Microsoft Teams ou o Skype for Business para a sua sala de reuniões.
   
-Com configurações adicionais, o gerenciamento remoto é possível usando o Microsoft Azure monitor, conforme descrito em [planejar o gerenciamento de salas do Microsoft Teams com o Azure monitor](azure-monitor-plan.md), [implantar o gerenciamento de salas do Microsoft Teams com o Azure monitor](azure-monitor-deploy.md), [gerenciar Salas do Microsoft Teams para dispositivos com o Azure monitor](azure-monitor-deploy.md). Você também pode [gerenciar as configurações do console de salas do Microsoft Teams remotamente com um arquivo de configuração XML](xml-config-file.md), que inclui a aplicação de um tema de exibição personalizado. 
+Com configurações adicionais, o gerenciamento remoto é possível usando o Microsoft Azure monitor, conforme descrito em [planejar o gerenciamento de salas do Microsoft Teams com o Azure monitor](azure-monitor-plan.md), [implantar o gerenciamento de salas do Microsoft Teams com o Azure monitor](azure-monitor-deploy.md), [gerenciar dispositivos de salas do Microsoft Teams com o Azure monitor](azure-monitor-deploy.md). Você também pode [gerenciar as configurações do console de salas do Microsoft Teams remotamente com um arquivo de configuração XML](xml-config-file.md), que inclui a aplicação de um tema de exibição personalizado. 
   
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Coletando logs em salas do Microsoft Teams
 <a name="Logs"> </a>
@@ -44,7 +44,7 @@ Os logs serão exibidos como um arquivo ZIP em c:\rigel.
 Configure a tela frontal da sala para o modo Estendido. Isso garantirá que a interface do usuário do console não seja duplicada naquele vídeo quando você desligar o monitor.
   
 > [!NOTE]
-> Se você quiser uma exibição do lado da sala para alternar automaticamente para uma fonte de vídeo ativa (como um console do MTR) quando a origem é ativada do modo de espera, determinadas condições devem ser atendidas. Esse recurso é opcional, mas suportado pelo software de salas Microsoft Teams, desde que o hardware subjacente seja compatível com o recurso. Uma TV para consumidor usada como uma frontal da exibição de sala precisa dar suporte ao recurso de controle de eletrônicos do consumidor (CEC) de HDMI.  Dependendo do Dock ou console selecionado (que pode não ser compatível com o CEC, consulte a documentação de suporte do fabricante), um controlador como um controlador de [HD-RX-201-C-E](https://www.crestron.com/en-US/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) do Crestron ou [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) de Extron pode ser necessário para habilitar o funcionamento. 
+> Se você quiser uma exibição do lado da sala para alternar automaticamente para uma fonte de vídeo ativa (como um console do MTR) quando a origem é ativada do modo de espera, determinadas condições devem ser atendidas. Esse recurso é opcional, mas suportado pelo software de salas Microsoft Teams, desde que o hardware subjacente seja compatível com o recurso. Uma TV para consumidor usada como uma frontal da exibição de sala precisa dar suporte ao recurso de controle de eletrônicos do consumidor (CEC) de HDMI.  Dependendo do Dock ou console selecionado (que pode não ser compatível com o CEC, confira a documentação de suporte do fabricante), um controlador como um controlador [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) do Crestron ou [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) de Extron pode ser necessário para habilitar o comportamento desejado. 
   
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Redefinição de salas do Microsoft Teams (restauração de fábrica)
 <a name="Reset"> </a>
@@ -167,7 +167,7 @@ Por padrão, as salas do Microsoft Teams tentam se conectar à Windows Store par
   
 Por padrão, as salas do Microsoft Teams se conectam ao Windows Update para recuperar atualizações do sistema operacional e do firmware do dispositivo periférico USB e as instalam fora do horário comercial configurado. Para configurar o horário comercial, entre na conta de administrador e execute o aplicativo Configurações.
   
-Se você quiser gerenciar as atualizações manualmente e não conseguir seguir o procedimento normal para a [Microsoft Store para empresas](https://businessstore.microsoft.com/store) [distribuir aplicativos offline](https://docs.microsoft.com/microsoft-store/distribute-offline-apps), você pode adquirir o arquivo Appx apropriado e as dependências do [Kit de implantação](https://go.microsoft.com/fwlink/?linkid=851168) (do as instruções para [configurar um console de salas do Microsoft Teams](console.md)) que podem ser usadas com o SCCM. A versão do kit de implantação está atrasada atrás do lançamento da loja, portanto, talvez nem sempre corresponda à versão mais recente disponível.
+Se você quiser gerenciar as atualizações manualmente e não conseguir seguir o procedimento normal para a [Microsoft Store para empresas](https://businessstore.microsoft.com/store) [distribuir aplicativos offline](https://docs.microsoft.com/microsoft-store/distribute-offline-apps), você pode adquirir o arquivo Appx e as dependências apropriados do [Kit de implantação](https://go.microsoft.com/fwlink/?linkid=851168) (nas instruções para [configurar um console de salas do Microsoft Teams](console.md)) que podem ser usados com o SCCM. A versão do kit de implantação está atrasada atrás do lançamento da loja, portanto, talvez nem sempre corresponda à versão mais recente disponível.
   
 ### <a name="to-update-using-powershell"></a>Para atualizar usando o PowerShell
 
