@@ -15,12 +15,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 571490c07e453c4a33144c01063159cf6ab9d257
-ms.sourcegitcommit: 082f451dd800b92d0b52e37402ecf621a738b4e5
+ms.openlocfilehash: 554ea9b5855a4b177c9f22dd985fc14c4b0e3877
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37973210"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38653537"
 ---
 # <a name="how-do-i-get-my-users-ready-for-business-voice"></a>Como fazer para que meus usuários estejam preparados para o Business Voice?
 
@@ -51,7 +51,7 @@ Para ver todos os dispositivos compatíveis com o Teams, dê uma olhada na [Loja
 
 ## <a name="set-up-voicemail-greetings-and-other-business-voice-features"></a>Configurar saudações de caixa postal e outros recursos do Business Voice
 
-Assim como os telefones comuns, você pode configurar as saudações da caixa postal, o encaminhamento de chamadas, escolher toques e muito mais. Tudo o que pode ser configurado por usuários está nas **Configurações** do aplicativo Teams. Para obter ajuda sobre como configurar esses recursos, confira [Gerenciar as configurações de chamadas no Teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f).
+Assim como os telefones comuns, você pode configurar as saudações da caixa postal, o encaminhamento de chamadas, escolher toques e muito mais. Todos os itens que podem ser configurados por usuários podem ser encontrados no aplicativo do Teams, clicando na foto de perfil do usuário no canto superior direito do Teams e selecionando **Configurações** > **Chamadas**. Para obter ajuda sobre como configurar esses recursos, confira [Gerenciar as configurações de chamadas no Teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f).
 
 ## <a name="learn-what-microsoft-teams-and-business-voice-can-do"></a>Saiba o que é possível fazer com o Microsoft Teams e o Business Voice
 
