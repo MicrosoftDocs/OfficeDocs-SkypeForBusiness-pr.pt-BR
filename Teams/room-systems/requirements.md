@@ -12,16 +12,18 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: Este artigo resume os requisitos para dar suporte a salas do Microsoft Teams.
-ms.openlocfilehash: 7ec4cae76476091a4e4854637a48b258a6bfadb5
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: 9e0aa01e72fee194dc57af733adfdfa59e6fce71
+ms.sourcegitcommit: 361ca60a66bab31cd54d8c1f805697460427e44d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675365"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38696811"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de salas do Microsoft Teams
 
-Este artigo resume os requisitos para dar suporte a salas do Microsoft Teams.
+As salas do Microsoft Teams são dimensionadas para diferentes tamanhos de sala usando uma ampla variedade de periféricos de áudio e vídeo com base no tamanho e no uso da sala. Ao selecionar o dispositivo e o console corretos, combinados com microfones, alto-falantes, câmeras e exibições apropriados para o espaço, você pode implantar salas do Microsoft Team em espaços de qualquer tamanho de huddles de pequeno porte em espaços de conferência muito grandes e de alta gerência.  O conjunto completo de todos os periféricos certificados de áudio e vídeo disponíveis que podem ser usados para configurar sua sala está disponível na [demonstração do dispositivo](https://products.office.com/microsoft-teams/across-devices).
+
+Este artigo resume os requisitos de configuração e implantação de dispositivos para dar suporte a salas do Microsoft Teams.
 
 Sua implantação envolve a criação de conta, conforme descrito em [implantar salas do Microsoft Teams](room-systems-v2.md) e configurar os consoles de reunião, conforme descrito em [configurar um console de salas do Microsoft Teams](console.md).
 
@@ -31,34 +33,18 @@ Além disso, consulte:
 - [Opções de licença com base em seu plano: salas do Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
-> As salas do Microsoft Teams devem ser usadas com o Microsoft Teams, o Skype for Business Server 2019, o Skype for Business Server 2015 ou o Skype for Business online.
+> As salas do Microsoft Teams entram no Microsoft Teams, no Skype for Business Server 2019, no Skype for Business Server 2015 ou no Skype for Business Online, e podem ingressar em reuniões hospedadas por qualquer um desses serviços.
 >
-> Plataformas anteriores como o Lync Server 2013 não devem funcionar com salas do Microsoft Teams. Não há suporte para salas do Microsoft Teams no Office 365 operado pela 21Vianet ou em ambientes GCC, GCC-superior ou DoD.
+> Plataformas anteriores como o Lync Server 2013 não são compatíveis com as salas do Microsoft Teams. Não há suporte para salas do Microsoft Teams no Office 365 operado pela 21Vianet ou em ambientes GCC-High ou DoD.
 >
 > Se você tiver um servidor Exchange local, as salas do Microsoft Teams exigem o uso do Exchange Server 2013 SP1 ou posterior.
 
 ## <a name="hardware-requirements"></a>Requisitos de hardware
+Uma implantação de hardware inclui uma seleção de um sistema de sala do Microsoft Teams, combinado com periféricos de áudio e vídeo e uma solução de cabeamento para integrar esses dispositivos juntos.  Essas opções são descritas aqui.
 
-As salas do Microsoft Teams são dimensionadas para diferentes tamanhos de sala usando diferentes periféricos de áudio e vídeo com base no tamanho da sala. O hardware listado neste artigo é compatível com os modos de reunião do Skype e do teams. Os periféricos de áudio e vídeo se conectam a salas do Microsoft Team via conexão USB ou HDMI no dispositivo de encaixe. Você também precisa de:
+**Sistemas de sala Microsoft Teams com suporte**
 
-- Um disco USB de 32 GB ou maior que você configura como mídia inicializável da instalação do Windows para Windows 10 Enterprise.
-- Um dos seguintes tablets ou consoles:
-
-  **Tablets compatíveis**
-
-  |Sofrer|631|RAM|Disco|
-  |:-----|:-----|:-----|:-----|
-  |Surface pro 6| Core i5 |16 GB ou 8 GB |128 GB ou mais |
-  |Surface pro </br>(quinta geração) |Core i5 |8 GB ou 4 GB |128 GB ou mais |
-  |Surface Pro 4 |Core i5 |8 GB ou 4 GB |128 GB ou mais |
-
-- Uma das opções de Docking Station a seguir para proteger um tablet para a tabela de salas de reunião.
-
-  - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
-  - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
-  - [Série MSR Polycom](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
-
-- **Outros consoles de salas do Microsoft Teams com suporte**
+Todos os dispositivos e pacotes da sala do Microsoft Teams atuais estão disponíveis na [apresentação de produto de sistemas da sala](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=).
 
   |Console|631|RAM|Disco|
   |:-----|:-----|:-----|:-----|
@@ -77,13 +63,27 @@ As salas do Microsoft Teams são dimensionadas para diferentes tamanhos de sala 
   |[Yealink MVC300](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
   ||||||
 
-
 > [!NOTE]
-> Não há suporte para os processadores Core m3.
+> - Não há suporte para os processadores Core m3.
+> - Você precisa de uma unidade USB de 32 GB ou maior configurada como mídia inicializável para a instalação do Windows para Windows 10 Enterprise.
+
+**Tablets da Surface pro suportados para sistemas de encaixe em estilo**
+
+  |Sofrer|631|RAM|Disco|
+  |:-----|:-----|:-----|:-----|
+  |Surface pro 6| Core i5 |16 GB ou 8 GB |128 GB ou mais |
+  |Surface pro </br>(quinta geração) |Core i5 |8 GB ou 4 GB |128 GB ou mais |
+  |Surface Pro 4 |Core i5 |8 GB ou 4 GB |128 GB ou mais |
+
+- Uma das opções de Docking Station a seguir para proteger um tablet para a tabela de salas de reunião.
+
+  - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
+  - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
+  - [Série MSR Polycom](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
 ### <a name="certified-firmware-versions-for-usb-audio-and-video-peripherals"></a>Versões de firmware certificadas para periféricos de áudio e vídeo USB
 
-Esses dispositivos estão disponíveis em [aka.ms/teamsdevices](https://aka.ms/teamsdevices).
+Esses dispositivos estão disponíveis na [apresentação do produto acessórios do sistema](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=73&page=1&filterIds=) da [https://office.com/teamsdevices](https://office.com/teamsdevices)sala e.
 
 |Salas do Microsoft Teams Peripheral|Versão do firmware certificado | Câmera compatível com uso de câmera de conteúdo|
 |:--- |:--- | :--- |

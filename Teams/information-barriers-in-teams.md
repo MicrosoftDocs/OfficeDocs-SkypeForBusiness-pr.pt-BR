@@ -13,12 +13,12 @@ ms.reviewer: vikramju
 description: Saiba mais sobre barreiras de informação e como elas afetam o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dfc56ab28be03e0301228eb9220437c2e1ef2673
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 0772a9599a38afc05520b8dcccba3cb463df3409
+ms.sourcegitcommit: 361ca60a66bab31cd54d8c1f805697460427e44d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968252"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38696821"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreiras de informação no Microsoft Teams
 
@@ -74,7 +74,7 @@ Quando o administrador de política de barreira de informações faz alteraçõe
 Se houver um chat existente ou outras comunicações entre usuários e uma nova política for definida ou uma política existente for alterada, o serviço avaliará as comunicações existentes para garantir que as comunicações ainda sejam permitidas. 
 
 - **1:1 chat** -se a comunicação entre os dois usuários não for mais permitida (se uma comunicação de bloqueio de política for aplicada a um ou aos dois usuários), a comunicação adicional será bloqueada e a conversa de chat se tornará somente leitura.
-- **Chat em grupo** -se a comunicação de um usuário para o grupo não for mais permitida (por exemplo, se um usuário alterar trabalhos), o usuário juntamente com os outros usuários que violam a política poderá ser removido do chat em grupo e outras comunicações com o grupo não serão autorizados. O usuário ainda pode ver conversas antigas (que serão somente leitura), mas não poderá ver ou participar de nenhuma nova conversa com o grupo. Se a política nova ou alterada que impede a comunicação for aplicada a mais de um usuário, os usuários afetados pela política poderão ser removidos do chat em grupo. Eles ainda podem ver conversas antigas. 
+- **Chat em grupo** -se a comunicação de um usuário para o grupo não for mais permitida (por exemplo, se um usuário alterar trabalhos), o usuário juntamente com os outros usuários que violam a política poderá ser removido do chat em grupo e outras comunicações com o grupo não serão permitidas. O usuário ainda pode ver conversas antigas (que serão somente leitura), mas não poderá ver ou participar de nenhuma nova conversa com o grupo. Se a política nova ou alterada que impede a comunicação for aplicada a mais de um usuário, os usuários afetados pela política poderão ser removidos do chat em grupo. Eles ainda podem ver conversas antigas. 
 - **Equipe** -todos os usuários que foram removidos do grupo são removidos da equipe e não poderão ver nem participar de conversas existentes ou novas.
 
 
@@ -92,16 +92,15 @@ No momento, os usuários perceberão o seguinte se uma política de barreira de 
 - **Chamadas contatos** -um usuário pode ver os usuários bloqueados na lista de contatos chamadas, mas os usuários bloqueados serão identificados e a única ação que o usuário poderá executar será excluí-los.
 - **Migração do Skype para o Teams** -durante uma migração do Skype for Business para o Teams, todos os usuários, mesmo aqueles bloqueados por políticas de barreira de informações, serão migrados para o Teams e, em seguida, serão manipulados conforme descrito acima.
 
-
-
-## <a name="required-licenses-and-permissions"></a>Permissões e licenças necessárias
-
+## <a name="will-files-and-sharepoint-site-experiences-connected-to-teams-honor-ib-policy"></a>Os arquivos e as experiências do site do SharePoint se conectam ao Teams honra política de IB?
+ 
 Quando uma equipe é criada, um site do SharePoint é provisionado e associado à equipe para a experiência dos arquivos. O acesso a este site e arquivos do SharePoint honra a política IB da organização, ou seja, somente os usuários cujo segmento IB corresponde à política IB têm permissão de acesso. Mesmo no momento do compartilhamento de arquivos, a política IB é respeitada.
 
 Por exemplo: na contoso Bank Corporation, o usuário ' Sesha@contosobank.onmicrosoft.com ' pertence ao segmento bancário de investimentos e o usuário ' Nikita@contosobank.onmicrosoft.com ' pertence ao consultor do segmento. A política IB da organização bloqueia a comunicação e a colaboração entre esses dois segmentos. Quando o usuário Sesha cria um segmento de banco de investimentos, a equipe e o site do SharePoint que os reproduzir serão acessíveis somente para os usuários do segmento do banco de investimentos. O Nikita do usuário não pode acessar esse site, mesmo que ele tenha o link do site.
 
-Para obter mais detalhes, incluindo planos e preços, consulte [orientação de licenciamento](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-tenantlevel-services-licensing-guidance).
+## <a name="required-licenses-and-permissions"></a>Permissões e licenças necessárias
 
+Para obter mais detalhes, incluindo planos e preços, consulte [orientação de licenciamento](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-tenantlevel-services-licensing-guidance).
 
 ## <a name="more-information"></a>Mais informações
 

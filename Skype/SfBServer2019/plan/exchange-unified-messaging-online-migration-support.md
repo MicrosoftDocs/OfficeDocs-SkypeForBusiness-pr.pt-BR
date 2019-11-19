@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: A Microsoft está desativando o serviço online de Unificação de mensagens do Exchange (ExchUMO) em fevereiro de 2020. Este artigo resume o que os clientes afetados devem saber e fazer para planejar sua continuidade de negócios.
-ms.openlocfilehash: 57a9e6fa688fc17aedde3dbcf5e6b689263c5b4e
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: abaf16996a6d634bac77118e35b30228c2a43e07
+ms.sourcegitcommit: 9ae5dadaab999acd061cc9418dbd55d98b82980e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37616084"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38702302"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Suporte à migração da Unificação de Mensagens do Exchange Online
 
@@ -23,7 +23,7 @@ Em referência ao [anúncio](https://blogs.technet.microsoft.com/exchange/2019/0
  
 O ExchUMO é implantado por clientes para correio de voz, atendedor automático, fila de chamadas e serviços de integração de fax. A Microsoft planeja ajudar os clientes a migrar para serviços de sistema telefônico que já dão suporte a milhares de clientes no Skype for Business Online e no Microsoft Teams. 
 
-O correio de voz é basicamente uma migração orientada pela Microsoft; o envolvimento do administrador e/ou o investimento podem ser necessários para um subconjunto de clientes. O atendedor automático é uma migração orientada por administradores; Você precisará recriar as árvores de atendedor automático do ExchUMO no serviço de nuvem do atendedor automático na nuvem. Os clientes que estiverem consumindo qualquer um dos recursos do ExchUMO com um PBX de terceiros não serão migrados para os serviços de nuvem da Skype porque não são compatíveis com sistemas PBX de terceiros. Um plano de aposentadoria para suporte de terceiros foi anunciado neste [blog](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853), e os clientes neste modelo de implantação podem migrar os usuários para um dos serviços/plataformas de comunicação unificada da Microsoft ou adquirir um correio de voz e/ou automática de terceiros solução do atendente para esses usuários. Não há suporte para a integração de fax nos serviços baseados em nuvem; Os clientes precisarão migrar para uma solução de terceiros.
+O correio de voz é basicamente uma migração orientada pela Microsoft; o envolvimento do administrador e/ou o investimento podem ser necessários para um subconjunto de clientes. O atendedor automático é uma migração orientada por administradores; Você precisará recriar as árvores de atendedor automático do ExchUMO no serviço de nuvem do atendedor automático na nuvem. Os clientes que estiverem consumindo qualquer um dos recursos do ExchUMO com um PBX de terceiros não serão migrados para os serviços de nuvem da Skype porque não são compatíveis com sistemas PBX de terceiros. Um plano de aposentadoria para suporte a terceiros foi anunciado neste [blog](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853), e os clientes neste modelo de implantação podem migrar os usuários para um dos serviços/plataformas de comunicação unificada da Microsoft ou adquirir uma solução de correio de voz e/ou atendedor automático de terceiros para esses usuários. Não há suporte para a integração de fax nos serviços baseados em nuvem; Os clientes precisarão migrar para uma solução de terceiros.
 
 ### <a name="who-is-affected"></a>Quem é afetado?
 
@@ -156,7 +156,7 @@ A Microsoft identificou várias implantações de clientes que estão consumindo
 | Altere | Recursos do serviço | Suporte a vários idiomas | Detalhes da linguagem aqui:https://docs.microsoft.com/en-us/microsoftteams/what-are-phone-system-auto-attendants | S | S    |
 | Altere | Recursos do serviço | Transferir para o Operator, o CQ ou um usuário |  | S | S    |
 | Altere | Recursos do serviço | Transferir para o número PSTN internamente (RNL)  |  | S | S    |
-| Altere | Recursos do serviço | Transferir para o número PSTN externamente  |  | Q3CY19 | Y    |
+| Altere | Recursos do serviço | Transferir para o número PSTN externamente  |  | Veja a seção problemas conhecidos abaixo | Y    |
 | Altere | Recursos do serviço | Horário comercial |  | S | S    |
 | Altere | Recursos do serviço | Opções do menu | Opções do menu IVR  | S | S    |
 | Altere | Recursos do serviço | Atribuindo um número PSTN à nuvem para AA |  | Y | N    |
@@ -210,6 +210,15 @@ Os novos usuários do Skype for Business serão provisionados automaticamente pa
 Para saber mais sobre atendedores automáticos, consulte [configurar um atendedor automático na nuvem](/MicrosoftTeams/create-a-phone-system-auto-attendant.md). 
 
 #### <a name="known-issues"></a>Problemas conhecidos
+
+**Transferência de chamada de atendedor automático para PSTN** Os clientes são incentivados a configurar uma solução temporária para atender aos requisitos de transferência de uma chamada de atendedor automático para um número de PSTN externo ou para uma instância de RGS. 
+ 
+Um problema foi identificado durante a garantia de qualidade com o recurso transferir para o número PSTN, que não será corrigido no tempo para que os clientes comecem a migrar o serviço Exchange UMO antes da data de aposentadoria agendada de 1 de fevereiro de 2020. Como solução alternativa, os administradores podem transferir chamadores de atendedor automático para um usuário virtual local com uma configuração de encaminhamento de chamada ativa para o número de telefone PSTN ou o número de telefone do RGS. 
+ 
+Experiência esperada
+- Os administradores não precisam licenciar o usuário virtual, uma vez que esta solução alternativa 
+- Os administradores podem manipular a identificação de chamadas que o receptor PSTN verá ao atribuir o número desejado ao usuário virtual ou usar os recursos de manipulação de dígitos de SBC 
+- Os chamadores PSTN não sofrerão atraso durante a transferência de chamadas e continuarão a ver a identificação de chamadas do atendedor automático após a transferência ser bem-sucedida  
 
 **Caixa de correio compartilhada:** Uma caixa de correio compartilhada que é configurada usando o Exchange UM online continuará a receber mensagens depois de migrar para o CVM e continuará a ser acessada pelos usuários via Outlook. No entanto, o acesso para alterar as mensagens de saudação dessas caixas de correio não estará disponível após a migração para o CVM. Os clientes com caixas de correio compartilhadas que são usadas para capturar chamadores de atendedor automáticos devem aproveitar os recursos de caixa de correio de atendedores automáticos e filas de caixa de correio compartilhadas depois de lançado (ETA de 2019 outubro
   

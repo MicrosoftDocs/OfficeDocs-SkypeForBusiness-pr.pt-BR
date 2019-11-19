@@ -1,7 +1,7 @@
 ---
 title: Introdução aos modelos do Teams para Organizações de Saúde
-author: jambirk
-ms.author: jambirk
+author: kenwith
+ms.author: kenwith
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Introdução aos modelos do Teams para Organizações de Saúde
-ms.openlocfilehash: e19c0403f259f400e784faf928738d36df66d618
-ms.sourcegitcommit: ced9b584eeceff7ca0109cba5823c7c3ddbd092e
+ms.openlocfilehash: 756f9a50dac14575250a521750f80dbe8d1242b8
+ms.sourcegitcommit: 9ae5dadaab999acd061cc9418dbd55d98b82980e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37886434"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38702312"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Introdução aos modelos do Teams para Organizações de Saúde
 
@@ -43,7 +43,7 @@ O modelo para a era destinado à comunicação e à colaboração em um departam
 
 ## <a name="hospital-template"></a>Modelo do hospital
 
-O modelo hospital destina-se à comunicação e colaboração entre vários departamentos, pods e departamentos em um hospital. Neste modelo, há vários canais operacionais, incluindo *anúncios*, *custodial*e *Farmácias*, mas também oferecemos um script abaixo que estende o modelo com uma variedade de departamentos adicionais ou canais voltados para a especialidade que você pode adicionar, excluir ou editar de preferência. Por exemplo, se você tiver um departamento *Endocrinology* , mas não precisa de um canal para *ophthalmology*, o script poderá ser adaptado para incluir um canal de *Endocrinology* e remover o canal de *ophthalmology* . Recomendamos que esses canais de especialidade ou modelo não sejam favoritos automaticamente para evitar a saturação da notificação. Os usuários geralmente têm favorito todos os canais que encontrarem relevantes.
+O modelo hospital destina-se à comunicação e colaboração entre vários departamentos, pods e departamentos em um hospital. Neste modelo, há vários canais operacionais, incluindo *anúncios*, *custodial*e *Farmácias*, mas também fornecemos um script abaixo que estende o modelo com uma variedade de canais complementares de departamento ou especialidade que você pode adicionar, excluir ou editar de preferência. Por exemplo, se você tiver um departamento *Endocrinology* , mas não precisa de um canal para *ophthalmology*, o script poderá ser adaptado para incluir um canal de *Endocrinology* e remover o canal de *ophthalmology* . Recomendamos que esses canais de especialidade ou modelo não sejam favoritos automaticamente para evitar a saturação da notificação. Os usuários geralmente têm favorito todos os canais que encontrarem relevantes.
 
 |Tipo de modelo base |baseTemplateId |Canais de modelo de linha de base|
 |:--- |:---|:---|
@@ -52,20 +52,9 @@ O modelo hospital destina-se à comunicação e colaboração entre vários depa
 
 \*Favoritos automaticamente 
 
-## <a name="care-coordination-template"></a>Modelo de coordenação de cuidados
-
-O modelo de coordenação de atendimento é destinado a facilitar a comunicação dentro de uma equipe de atendimento ao paciente, com alguns exemplos, incluindo equipes interdisciplinares e multidisciplinares. Nosso aplicativo pacientes patenteados é pré-carregado nesse modelo e fica no canal geral. Com o aplicativo pacientes, você pode selecionar listas de pacientes e seus valores associados e vitais, tornando-os úteis para cenários de gerenciamento de pacientes e de arredondamento. 
-
-|Tipo de modelo base |baseTemplateId |Canais de modelo de linha de base|
-|:--- |:---|:---|
-|Coordenação da área de saúde | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareCareCoordination')`   | Revisão pós-tratamento\* <br> Plano\* <br> Curso\* |
-| | |  |
-
-\*Favoritos automaticamente 
-
 ## <a name="how-to-use-first-party-templates"></a>Como usar modelos de primeira empresa
 
-Para usar esses modelos, basta alterar a propriedade ' template@odata.bind ' no corpo da solicitação de ' padrão ' para a TemplateIDs acima.  Para obter mais informações sobre como implantar modelos de equipe, consulte o artigo Microsoft Graph sobre como [criar uma equipe](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
+Para usar esses modelos, basta alterar a propriedade ' template@odata. BIND ' no corpo da solicitação de ' Standard ' para a TemplateIDs acima.  Para obter mais informações sobre como implantar modelos de equipe, consulte o artigo Microsoft Graph sobre como [criar uma equipe](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
 
 > [!NOTE]
 > Os canais no modelo serão automaticamente criados na guia geral.
