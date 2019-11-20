@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: 6564c57cee0821aa0e9204692f160b154ee5513b
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 1c25fc6d331e538aacbebd350180ec0a65821ef5
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792646"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746334"
 ---
 # <a name="peer-to-peer-activity-report"></a>Relatório de atividades ponto a ponto
 
@@ -43,13 +43,8 @@ Esse relatório, juntamente com os outros relatórios do Skype for Business, for
 
 1. Vá para o centro de administração >**uso**dos **relatórios** > .
     
-2. Na página **uso** , clique em **atividade ponto a ponto do Skype for Business** na **lista Selecionar um relatório** à esquerda. Ou clique no widget **atividade do Skype for Business** e, em seguida, clique em **atividade ponto a ponto** do Skype for Business na lista de **atividades do Skype for Business** .
-    
-     ![Menu ponto a ponto do Skype selecionado](../images/603ec74a-7f39-4e12-8f10-00979f7ee977.PNG)
-  
-    > [!IMPORTANT]
-    > [!IMPORTANTE] Dependendo da sua assinatura do Office 365, talvez você não veja todos os produtos e relatórios de atividades mostrados aqui. 
-  
+2. Na página **uso** , selecione**atividade ponto a ponto** do **Skype for Business** > na **lista Selecionar um relatório** à esquerda. Ou clique no widget **atividade do Skype for Business** e, em seguida, clique em **atividade ponto a ponto** do Skype for Business na lista de **atividades do Skype for Business** .
+
 ## <a name="interpret-the-skype-for-business-peer-to-peer-activity-report"></a>Interpretar o relatório Atividade ponto a ponto do Skype for Business
 
 Você pode obter uma visão de sua atividade ponto a ponto do Skype for Business olhando os gráficos **Atividade**, **Usuários** e **Minutos**.
@@ -65,7 +60,7 @@ Você pode obter uma visão de sua atividade ponto a ponto do Skype for Business
 ***
 ![Número 2](../images/sfbcallout2.png)<br/>Cada relatório tem uma data de geração. Os relatórios geralmente refletem uma latência de 24 a 48 horas a partir do momento da atividade. 
 ***
-![Número 3](../images/sfbcallout3.png)<br/>Use os dados do gráfico interativo **Atividade** para entender as tendências de uso e ver o número total de sessões por tipo de sessão que estão sendo realizadas na sua organização. Ele mostrará o número total e os tipos de sessões de **mensagens instantâneas**, **áudio**, **vídeo**, **compartilhamento de aplicativos**e transferências de **arquivos** em toda a sua organização. 
+![Número 3](../images/sfbcallout3.png)<br/>Use os dados do gráfico interativo **Atividade** para entender as tendências de uso e ver o número total de sessões por tipo de sessão que estão sendo realizadas na sua organização. Ele mostrará o número total e os tipos de sessões de **mensagens instantâneas**, **áudio**, **vídeo**, **compartilhamento de aplicativos**e **transferências de arquivos** em toda a sua organização. 
 ***
 ![Número 4](../images/sfbcallout4.png)<br/>Use os dados do gráfico interativo **Usuários** para entender as tendências de uso e ver o número de usuários únicos que estão participando em atividades ponto a ponto realizadas em sua organização. Ele mostrará o número total de usuários juntamente com os tipos de **mensagens instantâneas**, **áudio**, **vídeo**, **compartilhamento de aplicativos**e transferências de **arquivos** em sessões ponto a ponto.
 ***
@@ -78,7 +73,7 @@ Você pode obter uma visão de sua atividade ponto a ponto do Skype for Business
 
 O eixo X em ambos os gráficos é o intervalo de datas selecionado para esse relatório específico.
 ***
-![Número 7](../images/sfbcallout7.png)<br/>Para filtrar a série apresentada no gráfico, clique no item da legenda. Por exemplo, no gráfico **atividade** , clique ou toque em **mensagens instantâneas**, **áudio**, **vídeo**, **compartilhamento de aplicativos**e transferências de **arquivos** para ver apenas as informações relacionadas a cada uma delas. Essa seleção não altera as informações contidas na tabela de grade. 
+![Número 7](../images/sfbcallout7.png)<br/>Para filtrar a série apresentada no gráfico, clique no item da legenda. Por exemplo, no gráfico **atividade** , clique ou toque em **mensagens instantâneas**, **áudio**, **vídeo**, **compartilhamento de aplicativos**e **transferências de arquivos** para ver apenas as informações relacionadas a cada uma delas. Essa seleção não altera as informações contidas na tabela de grade. 
 ***
 ![Número 8](../images/sfbcallout8.png)<br/>A tabela mostra uma divisão das atividades ponto a ponto por usuário. Ela mostra todos os usuários que têm o Skype for Business atribuído a eles e suas atividades ponto a ponto. Você pode adicionar mais colunas à tabela.
 *    **Nome de usuário** é o nome do usuário.
@@ -93,7 +88,7 @@ O eixo X em ambos os gráficos é o intervalo de datas selecionado para esse rel
 *    **Minutos de áudio** mostra o número total de minutos de áudio que foram usados em toda a organização. 
 *    **Minutos de vídeo** mostra o número total de minutos de vídeo que foram usados em toda a organização. 
 
-Se as políticas da sua organização impedirem você de exibir relatórios nos quais as informações do usuário sejam identificáveis, você pode alterar a configuração de privacidade de todos esses relatórios. Confira a seção **como faço para ocultar detalhes do nível do usuário?** nos [relatórios de atividades no centro de administração](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263). 
+Se as políticas da sua organização impedem a exibição de relatórios em que as informações do usuário podem ser identificadas, você pode alterar a configuração de privacidade para todos esses relatórios. Confira a seção **como faço para ocultar detalhes do nível do usuário?** nos [relatórios de atividades no centro de administração](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263). 
 ***
 ![Número 9](../images/sfbcallout9.png)<br/>Você também pode exportar os dados do relatório para um arquivo .csv do Excel. Basta clicar ou tocar em **Exportar**.                                            <br/> ![Botão Exportar relatório do Skype for Business.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>Isso exporta dados de todos os usuários e permite que você faça uma classificação e filtragem simples para uma análise mais detalhada. Se tiver menos de 2.000 usuários, você poderá classificar e filtrar dentro da tabela no próprio relatório. Se tiver mais de 2.000 usuários, será necessário exportar os dados para filtrar e classificar.
 ***

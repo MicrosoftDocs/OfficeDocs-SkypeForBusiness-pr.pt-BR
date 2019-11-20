@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: f1eb46647facce3a849a249cac1b26b2bb9632c8
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 202a8555b43902e553b8eadfaaa30b5577a8e4fa
+ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571577"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38714237"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de Comunicação para sua organização
 
-Você precisará configurar Créditos de Comunicação se quiser usar números gratuitos com o Skype for Business e o Microsoft Teams. Além disso, recomendamos que você configure créditos de comunicações para seus planos de chamadas (domésticos ou internacionais) e usuários de audioconferência que precisem da capacidade de discar para **qualquer destino**. Muitos países/regiões estão incluídos, mas alguns destinos podem não ser incluídos no seu plano de chamadas ou assinaturas de audioconferência. Se você não configurar a cobrança de créditos de comunicações e atribuir uma licença de **créditos de comunicações** aos seus usuários e estiver em minutos para a sua organização (dependendo do seu plano de chamadas ou plano de audioconferência no seu país/região), esses usuários Não poderá fazer chamadas nem discar de reuniões do áudio audioconferência. Você pode obter mais informações, incluindo os valores de financiamento recomendados, lendo [o que são créditos de comunicações?](what-are-communications-credits.md)
+Você precisará configurar Créditos de Comunicação se quiser usar números gratuitos com o Skype for Business e o Microsoft Teams. Além disso, recomendamos que você configure créditos de comunicações para seus planos de chamadas (domésticos ou internacionais) e usuários de audioconferência que precisem da capacidade de discar para **qualquer destino**. Muitos países/regiões estão incluídos, mas alguns destinos podem não ser incluídos no seu plano de chamadas ou assinaturas de audioconferência. Se você não configurar a cobrança de créditos de comunicações e atribuir uma licença de **créditos de comunicações** aos seus usuários e estiver em minutos para a sua organização (dependendo do seu plano de chamadas ou plano de audioconferência em seu país/região), esses usuários não poderão fazer chamadas nem discar de reuniões de audioconferência. Você pode obter mais informações, incluindo os valores de financiamento recomendados, lendo [o que são créditos de comunicações?](what-are-communications-credits.md)
   
 > [!NOTE]
 > Para descobrir quanto isso custa, [consulte as taxas aqui](https://go.microsoft.com/fwlink/p/?LinkId=799523 ). 
@@ -44,7 +44,7 @@ Para fazer isso, **você precisa atribuir uma conferência de áudio ou uma lice
     
     Depois de atribuir essa licença, você precisará configurar a conferência de áudio. Para obter instruções passo a passo, consulte [experimentar ou comprar o áudio videoconferência no Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
     
-- Atribua um **sistema telefônico** e uma licença de plano de chamadas domésticas ou domésticas e internacionais para seus usuários. Consulte [atribuir licenças do Microsoft Teams](assign-teams-licenses.md).
+- Atribua um **sistema telefônico** e uma licença de plano de chamadas **domésticas ou domésticas e internacionais** para seus usuários. Consulte [atribuir licenças do Microsoft Teams](assign-teams-licenses.md).
     
     > [!NOTE]
     > Embora isso não seja obrigatório para créditos de comunicações, você ainda precisa atribuir um **plano de chamadas domésticas** ou uma licença de **plano de chamadas doméstica e internacional** .
@@ -55,7 +55,7 @@ Para obter mais informações, consulte [Licenciamento de Complementos do Micros
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>Etapa 2: configurar créditos de comunicações para sua organização
 
-1. Entre no Office 365 com sua conta corporativa ou de estudante.
+1. Entre no novo portal do Office 365 com sua conta corporativa ou de estudante.
     
 2. Na navegação à esquerda do centro de administração do Microsoft 365, vá para**assinaturas** > de **cobrança** > **adicionar assinaturas**.
 

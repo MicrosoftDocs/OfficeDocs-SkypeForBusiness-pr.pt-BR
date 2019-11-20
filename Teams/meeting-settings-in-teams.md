@@ -19,12 +19,12 @@ f1keywords:
 ms.collection:
 - M365-collaboration
 description: Saiba como gerenciar as configurações de reuniões do Team que os usuários agendam em sua organização.
-ms.openlocfilehash: 36325fe82c8864850da8e92de385752422e02f72
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: cba1a51130a9999ca62c70700a387c88ea1ff58e
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37564928"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746444"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gerenciar configurações de reunião no Microsoft Teams
 
@@ -32,14 +32,15 @@ Como administrador, você usa as configurações de reuniões do teams para cont
 
 ## <a name="allow-anonymous-users-to-join-meetings"></a>Permitir que usuários anônimos ingressem em reuniões
 
-Com a junção anônima, qualquer pessoa pode ingressar na reunião como usuário anônimo clicando no link no convite da reunião.
+Com a junção anônima, qualquer pessoa pode ingressar na reunião como usuário anônimo clicando no link no convite da reunião. Para saber mais, consulte [ingressar em uma reunião sem uma conta do teams](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508).
+
 
 ![Um ícone mostrando o logotipo](media/teams-logo-30x30.png) do Microsoft Teams **usando o centro de administração do Microsoft Teams**
 
 1. No painel de navegação esquerdo, vá para**configurações de reunião**de **reuniões** > .
 2. Em **participantes**, ativar **usuários anônimos podem ingressar em uma reunião**.
 
-    ![Captura de tela de configurações de participantes para reuniões no centro de administração](media/meeting-settings-participants.png "Captura de tela das configurações de participantes para reuniões do teams no centro de administração do Microsoft Teams")
+    ![Captura de tela de configurações de participantes para reuniões no centro de administração](media/meeting-settings-participants.png "Captura de tela de configurações de participantes para reuniões do teams no centro de administração do Microsoft Teams")
 
 Se você não quiser que os usuários anônimos ingressem em reuniões agendadas pelos usuários da sua organização, desative essa configuração.
 

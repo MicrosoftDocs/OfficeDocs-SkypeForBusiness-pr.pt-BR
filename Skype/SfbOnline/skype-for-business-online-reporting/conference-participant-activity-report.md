@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 143af6902c30c007d338b102534af2076a86cdcb
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: b79e90a1dc53ab95af314c99d0ffd1c33f2e1181
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793154"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746294"
 ---
 # <a name="conference-participant-activity-report"></a>Relatório de atividades dos participantes de conferências
 
@@ -41,12 +41,8 @@ Esse relatório, juntamente com os outros relatórios do Skype for Business, for
 
 1. Vá para o centro de administração >**uso**dos **relatórios** > .
     
-2. Na página **uso** , clique em **atividade de participantes de conferências do Skype for Business** na **lista Selecionar um relatório** à esquerda. Ou clique no widget **atividade do Skype for Business** e, em seguida, clique em atividade de participantes de conferências do Skype **for Business** na lista de **atividades do Skype for Business** .
+2. Na página **uso** , selecione**atividade de participantes de conferências** do **Skype for Business** > na **lista Selecionar um relatório** à esquerda. Ou clique no widget **atividade do Skype for Business** e, em seguida, clique em atividade de participantes de conferências do Skype **for Business** na lista de **atividades do Skype for Business** .
     
-     ![Item de menu atividade do participante da conferência do Skype selecionada](../images/4033059e-dd2d-447d-8ee8-7515a5c26672.PNG)
-  
-    > [!IMPORTANT]
-    > [!IMPORTANTE] Dependendo da sua assinatura do Office 365, talvez você não veja todos os produtos e relatórios de atividades mostrados aqui. 
   
 ## <a name="interpret-the-skype-for-business-conference-participant-activity-report"></a>Interpretar o relatório Atividade de participantes de conferências do Skype for Business
 
@@ -64,7 +60,7 @@ Esse relatório, juntamente com os outros relatórios do Skype for Business, for
 ***
 ![Número 4](../images/sfbcallout4.png)<br/>Use os dados do gráfico interativo **Usuários** para entender as tendências de uso e ver o número de usuários únicos que participaram nas conferências que estão sendo realizadas em sua organização. Ele mostrará o número total de usuários, bem como os tipos de conferência de **Mensagens instantâneas**, **Áudio/vídeo**, **Compartilhamento de aplicativos**, **Web** e **Discagem - terceiros** que foram organizados. 
 ***
-![Número 5](../images/sfbcallout5.png)<br/>Use os dados de gráfico interativo no gráfico de **minutos** para entender as tendências de uso e para ver o número de minutos que são usados pelos usuários quando eles organizam uma conferência usando áudio/vídeo, e discando para fora-Microsoft como videoconferências provedores. Ele mostrará o número total de minutos de **Áudio/vídeo** usados durante as conferências em que os usuários participaram.
+![Número 5](../images/sfbcallout5.png)<br/>Use os dados de gráfico interativo no gráfico de **minutos** para entender as tendências de uso e para ver o número de minutos que são usados pelos usuários quando eles organizam uma conferência usando áudio/vídeo, e discando para fora da Microsoft como provedor de serviços de audioconferência. Ele mostrará o número total de minutos de **Áudio/vídeo** usados durante as conferências em que os usuários participaram.
 ***
 ![Número 6](../images/sfbcallout6.png)<br/>Você pode filtrar a série que vê no gráfico clicando em um item na legenda. Por exemplo, no gráfico **Atividade**, clique ou toque em **Mensagens instantâneas**, **Áudio/vídeo**, **Compartilhamento de aplicativos**, **Web** e **Discagem - terceiros** para ver apenas as informações relacionadas a cada um. A alteração dessa seleção não altera as informações na tabela de grade.  
 ***
@@ -87,7 +83,7 @@ O eixo X em ambos os gráficos é o intervalo de datas selecionado para esse rel
 *    **Discagem - terceiros** mostra o número total de conferências discadas que foram organizadas e que usam um provedor de serviços de audioconferência terceiro. 
 *    **Minutos de áudio/vídeo** mostra o número total de minutos usados quando os usuários participaram de conferências que usaram áudio/vídeo. 
 
-Se as políticas da sua organização impedirem você de exibir relatórios nos quais as informações do usuário sejam identificáveis, você pode alterar a configuração de privacidade de todos esses relatórios. Confira a seção **como faço para ocultar detalhes do nível do usuário?** nos [relatórios de atividades no centro de administração](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
+Se as políticas da sua organização impedem a exibição de relatórios em que as informações do usuário podem ser identificadas, você pode alterar a configuração de privacidade para todos esses relatórios. Confira a seção **como faço para ocultar detalhes do nível do usuário?** nos [relatórios de atividades no centro de administração](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263).
 ***
 ![Número 9](../images/sfbcallout9.png)<br/>Você também pode exportar os dados do relatório para um arquivo .csv do Excel. Basta clicar ou tocar em **Exportar**.                                            <br/> ![Botão Exportar relatório do Skype for Business.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>Isso exporta dados de todos os usuários e permite que você faça uma classificação e filtragem simples para uma análise mais detalhada. Se tiver menos de 2.000 usuários, você poderá classificar e filtrar dentro da tabela no próprio relatório. Se tiver mais de 2.000 usuários, será necessário exportar os dados para filtrar e classificar.
 ***
