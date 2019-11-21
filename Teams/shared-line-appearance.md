@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: A aparência da linha compartilhada permite que um usuário escolha um representante para atender ou manipular chamadas em seu nome.
-ms.openlocfilehash: aed55d29f2b9fc45c66040390d4d698acaf25258
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e668a4d98077eb8d1c2ac3b349e9ba16cb6abcba
+ms.sourcegitcommit: d46e739785595727e2b3e1e5f96f5bff65e78540
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571753"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753418"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Aparência de linha compartilhada no Microsoft Teams
 
@@ -36,9 +36,9 @@ A aparência da linha compartilhada faz parte do recurso de delegação que perm
 
 ## <a name="license-required"></a>Licença necessária
 
-Um usuário deve ser um usuário do Enterprise Voice para ser um representante ou configurar a delegação e permitir que outras pessoas façam ou recebam chamadas em seu nome.
+Um usuário deve ter o sistema telefônico com conectividade PSTN (uma licença de plano de chamada ou um OnlineVoiceRoutingPolicy de roteamento direto) para ser um representante ou configurar a delegação e permitir que outras pessoas façam ou recebam chamadas em seu nome.
 
-Os gerentes e representantes precisam ter o Enterprise Voice habilitado. A experiência de linha compartilhada faz parte da delegação e não requer licença adicional. Para obter detalhes adicionais sobre o modelo de licenciamento, consulte [Licenciamento do Office 365 para Microsoft Teams](office-365-licensing.md).
+Os gerentes e representantes precisam ter um sistema telefônico com conectividade PSTN (uma licença de plano de chamada ou um OnlineVoiceRoutingPolicy de roteamento direto). A experiência de linha compartilhada faz parte da delegação e está incluída com o sistema telefônico. Para obter detalhes adicionais sobre o modelo de licenciamento, consulte [Licenciamento do Office 365 para Microsoft Teams](office-365-licensing.md).
 
 ## <a name="configuring-delegation-and-shared-line-appearance"></a>Configurar a aparência da delegação e da linha compartilhada
 
