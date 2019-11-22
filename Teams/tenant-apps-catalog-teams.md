@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5affe464ac300d0084916ad8ec0044ca74f8fa6b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 42fd9820f6f8ce11b245412a5ae99ed7b43dbc1e
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570075"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793527"
 ---
 <a name="publish-apps-in-the-microsoft-teams-tenant-apps-catalog"></a>Publicar aplicativos no catálogo de aplicativos do Microsoft Teams locatário
 =======================================================
@@ -45,13 +45,13 @@ Um pacote do aplicativo Teams é criado usando o [Teams app Studio](https://docs
 
 ### <a name="go-to-the-tenant-apps-catalog"></a>Vá para o catálogo de aplicativos do locatário
 
-Inicie o cliente do Microsoft Teams e entre usando suas credenciais de administrador do serviço global ou Teams. Na loja do Microsoft Teams, selecione a nova seção nomeada para a sua organização específica (neste exemplo, contoso). Os usuários em sua organização podem exibir os aplicativos no catálogo e instalá-los para as equipes das quais eles são membros.
+Inicie o cliente do Microsoft Teams e entre usando suas credenciais de administrador do serviço global ou Teams. Selecione **aplicativos** no lado esquerdo do aplicativo e, em seguida, selecione a nova seção chamada para sua organização específica (neste exemplo, contoso). Os usuários em sua organização podem exibir os aplicativos no catálogo e instalá-los para as equipes das quais eles são membros.
 
 ![Captura de tela da loja de aplicativos do teams mostrando o catálogo de aplicativos.](media/private-app-store-teams-image01.png)
 
 ### <a name="add-an-app-to-the-tenant-apps-catalog"></a>Adicionar um aplicativo ao catálogo de aplicativos do locatário
 
-1. Na loja, selecione **carregar um** > carregamento de aplicativo personalizado**para contoso**.
+1. Na página **aplicativos** , selecione **carregar um** > carregamento de aplicativo personalizado**para contoso**.
 
     ![Captura de tela da loja de aplicativos do teams mostrando o catálogo de aplicativos.](media/private-app-store-teams-image02.png)
 
@@ -75,7 +75,7 @@ O aplicativo será revisado para a versão 2,0. Você também pode excluir o apl
 
 ## <a name="use-the-office-365-admin-portal-to-manage-the-tenant-apps-catalog"></a>Usar o portal de administração do Office 365 para gerenciar o catálogo de aplicativos do locatário
 
-Se você tiver aplicativos que precisem de correções de bugs, poderá desabilitar temporariamente os aplicativos por meio do portal de administração do Office 365. Selecione **configurações** > **Serviços & suplementos** > **Microsoft Teams**. Além das configurações anteriores, agora há uma seção dedicada aos aplicativos da sua empresa. Você pode escolher quais aplicativos deseja habilitar ou desabilitar.
+Se você tiver aplicativos que precisem de correções de bugs, poderá desabilitar temporariamente os aplicativos por meio do centro de administração do Microsoft 365 >**políticas de permissão** de**aplicativos** > do **Centro** > de administração do Microsoft > <nome da política, por exemplo: "global (padrão para toda a organização)" > **aplicativos locatário** > bloquear aplicativos específicos e permitir todos os outros e adicionar seu aplicativo à lista.
 
 ![Captura de tela da loja de aplicativos do teams mostrando o catálogo de aplicativos.](media/private-app-store-teams-image05.png)
 
