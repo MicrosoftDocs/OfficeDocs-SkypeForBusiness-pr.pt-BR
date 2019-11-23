@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Use o parque de chamadas e recupere para colocar uma chamada em espera no serviço do teams na nuvem.
-ms.openlocfilehash: ab70832cde09cf5328e6fa0743c00614c839fc8d
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 9a6f5b6a51a0193625ecd2dab294c2cf454cb21f
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517024"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209177"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamento e recuperação de chamadas no Microsoft Teams
 
@@ -74,10 +74,10 @@ Siga estas etapas para habilitar uma política de estacionamento de chamadas:
 Siga estas etapas para atribuir uma política de estacionamento de chamadas a um ou mais usuários:
 
 1. Vá para**políticas de estacionamento de chamada**de**voz** > do centro > de **Administração do Microsoft Teams**.
-2. Selecione a política clicando à esquerda do nome da política.
-3. Selecione **gerenciar usuários**.
-4. No painel **gerenciar usuários** , procure pelo usuário por nome para exibição ou por nome de usuário, selecione o nome e, em seguida, selecione **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
-5. Quando terminar de adicionar usuários, selecione **salvar**.
+2. Escolha a política clicando à esquerda do nome da política.
+3. Escolha **Gerenciar usuários**.
+4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
+5. Quando terminar de adicionar os usuários, escolha **Salvar**.
  
 ### <a name="configure-call-park-and-retrieve-with-powershell"></a>Configurar o estacionamento de chamadas e recuperar com o PowerShell
 
@@ -99,7 +99,7 @@ Se os usuários não conseguirem ver o botão Park ou retrieve:
 Se um usuário tentar recuperar uma chamada e não tiver êxito, verifique o seguinte:
 
 - Verifique se o usuário está usando o cliente do teams ou um dispositivo/telefone habilitado para equipes
-- Agrupamento – o usuário é membro do grupo de estacionamento de chamadas?
+- Agrupamento – é o usuário membro do grupo de estacionamento de chamadas, que se baseia em ter as mesmas equipes de chamada de equipe de estacionamento atribuídas. 
 - Modo ilha – o parque de chamadas e a recuperação não está disponível no modo da ilha Teams.
 - A chamada já foi recuperada ou terminada.
 
