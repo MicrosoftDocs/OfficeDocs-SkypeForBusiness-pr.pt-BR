@@ -18,18 +18,18 @@ f1keywords:
 - ms.teamsadmincenter.deploymentadvisor.overview
 ms.custom: ''
 description: Use o Assistente do Teams (versão prévia) para ajudá-lo a planejar e concluir a implantação do Microsoft Teams.
-ms.openlocfilehash: 13c76c61a99869459c0dabcffedc45e06f6fd42e
-ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
+ms.openlocfilehash: f7de348c6f8ca60cc1d062fce79725b4b18d0350
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "37931809"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209187"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Use o Assistente do Teams para ajudá-lo na implantação do Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-O Assistente do Teams (versão prévia) o orienta na implantação do Microsoft Teams. Ele avalia o ambiente de locatário do Office 365 e identifica as configurações mais comuns que talvez seja necessário atualizar ou modificar antes de poder implantar o Teams com êxito. Em seguida, o Assistente do Teams cria uma Equipe de gerenciamento de serviços (no Teams), com canais para cada carga de trabalho que você deseja implantar. Cada carga de trabalho da Equipe de gerenciamento de serviços vem com um plano abrangente do Planner que inclui todas as tarefas de implantação para cada carga de trabalho.  Usando esse plano do Planner, você atribuirá tarefas às pessoas responsáveis por cada fase da implantação, incluindo o gerente de projeto, os administradores do Teams e do Office 365, o pessoal do suporte e a equipe de adoção e preparação do usuário. Cada tarefa de implantação contém todas as orientações e recursos necessários para concluir a tarefa com êxito.
+O Assistente do Teams (versão prévia) o orienta na implantação do Microsoft Teams. Ele avalia o ambiente de locatário do Office 365 e identifica as configurações mais comuns que talvez seja necessário atualizar ou modificar antes de poder implantar o Teams com êxito. Em seguida, o Assistente do Teams cria uma Equipe de implantação (no Teams), com canais para cada carga de trabalho que você deseja implantar. Cada carga de trabalho da Equipe de implantação vem com um plano abrangente do Planner que inclui todas as tarefas de implantação para cada carga de trabalho.  Usando esse plano do Planner, você atribuirá tarefas às pessoas responsáveis por cada fase da implantação, incluindo o gerente de projeto, os administradores do Teams e do Office 365, o pessoal do suporte e a equipe de adoção e preparação do usuário. Cada tarefa de implantação contém todas as orientações e recursos necessários para concluir a tarefa com êxito.
 
 O Assistente do Teams faz parte do [centro de administração do Teams](https://admin.teams.microsoft.com). Para usar o Assistente do Teams pela primeira vez, clique no botão **Iniciar** no widget de **Implantação da carga de trabalho do Teams** no Painel.  Ou vá para **Planejamento** > **Assistente**.
 
@@ -40,7 +40,7 @@ O Assistente do Teams faz parte do [centro de administração do Teams](https://
 
 Você não precisa ser um administrador do Teams para usar o Assistente do Teams, qualquer pessoa em sua organização pode usá-lo. Configuramos permissões especiais para que usuários não administradores possam acessar o Assistente do Teams, mesmo que seja no centro de administração do Teams. Você PRECISA ser um administrador do Teams, Administrador de Serviços do Teams ou Administrador Global para abrir as avaliações de prontidão do locatário.
 
-Na primeira vez em que você usar o Assistente do Teams, ele criará uma Equipe de gerenciamento de serviços no Teams. Ele adiciona canais para cada carga de trabalho que você deseja implantar. 
+Na primeira vez em que você usar o Assistente do Teams, ele criará uma Equipe de implantação no Teams. Ele adiciona canais para cada carga de trabalho que você deseja implantar. 
 
 
 ## <a name="available-advisor-for-teams-plans"></a>Planos de Assistente do Teams Disponíveis
@@ -90,20 +90,20 @@ Cada plano inclui uma avaliação de prontidão do locatário que você pode usa
 
 
 ### <a name="advisor-bot"></a>Bot do Assistente
-Depois que o Assistente cria a Equipe de gerenciamento de serviços, o bot do Assistente fornece a seguinte mensagem.
+Depois que o Assistente cria a Equipe de implantação, o bot do Assistente fornece a seguinte mensagem.
 
->**Bem-vindo à equipe de gerenciamento de serviços do Microsoft Teams!**
+>**Bem-vindo à Equipe de implantação do Microsoft Teams!**
 >  
 >A finalidade dessa equipe é orientá-lo na implantação do Teams da organização, fornecendo todos os recursos necessários e fornecendo um espaço de colaboração para a equipe do projeto. Cada canal criado usando o Assistente do Teams inclui um passo a passo do plano do Planner e outros recursos, como uma pesquisa de usuários do Forms que pode ser usada durante a implantação. A qualquer momento, você pode voltar e revisar a avaliação de prontidão do locatário ou adicionar planos de carga de trabalho adicionais usando o Centro de administração do Teams. 
 > 
 >**Chamada para ação** 
 >- Se você não estiver familiarizado com o Teams ou o Planner, confira nosso [Passo a passo do Teams.](https://teamsdemo.office.com/) e assista aos [Vídeos de início rápido do Planner](https://support.office.com/article/microsoft-planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7). 
->- Vá para a Equipe de gerenciamento de serviços no Teams. Escolha seu canal de carga de trabalho (por exemplo, Chat, equipes, canais e aplicativos) e selecione a guia **Planner** para começar.
+>- Vá para a Equipe de implantação no Teams. Escolha seu canal de carga de trabalho (por exemplo, Chat, equipes, canais e aplicativos) e selecione a guia **Planner** para começar.
 > 
 >Para saber mais sobre o Assistente do Teams, leia [Usar o Assistente do Teams para implantar o Microsoft Teams](use-advisor-teams-roll-out.md).
 >
 > [!IMPORTANT]
-> O Bot do Assistente do Teams é usado apenas para enviar uma mensagem de boas-vindas à sua equipe de gerenciamento de serviços. Nenhum dado adicional é coletado.
+> O Bot do Assistente do Teams é usado apenas para enviar uma mensagem de boas-vindas à sua Equipe de implantação. Nenhum dado adicional é coletado.
 
 > [!IMPORTANT]
 > O Bot do Assistente do Teams está habilitado por padrão. Não desabilite-o se você usar ou planeja usar o Assistente do Teams.
@@ -113,30 +113,30 @@ Depois que o Assistente cria a Equipe de gerenciamento de serviços, o bot do As
 ### <a name="what-are-the-licensing-requirements-for-advisor-for-teams"></a>Quais são os requisitos de licenciamento para o Assistente do Teams?
 Não há requisitos de licenciamento adicionais além de ser licenciado para o Teams.
 
-### <a name="can-i-delete-the-service-management-team"></a>Posso excluir a Equipe de gerenciamento de serviços?
-Depois que o Assistente do Teams tiver criado a Equipe de gerenciamento de serviços, gerencie a equipe como qualquer outra equipe, incluindo a capacidade de excluí-la. Lembre-se de que, se você não excluir a equipe usando o centro de administração do Teams, será relatado que a equipe existe.
+### <a name="can-i-delete-the-deployment-team"></a>Posso excluir a Equipe de implantação?
+Depois que o Assistente do Teams tiver criado a Equipe de implantação, gerencie-a como qualquer outra equipe, incluindo a capacidade de excluí-la. Lembre-se de que, se você não excluir a equipe usando o centro de administração do Teams, será relatado que a equipe existe.
 
-### <a name="can-i-add-or-remove-channels-in-the-service-management-team"></a>Posso adicionar ou remover canais da Equipe de gerenciamento de serviços?
-Sim, uma vez que a Equipe de gerenciamento de serviços foi criada, você gerenciará os canais da mesma maneira que em qualquer outra equipe.
+### <a name="can-i-add-or-remove-channels-in-the-deployment-team"></a>Posso adicionar ou remover canais da Equipe de implantação?
+Sim, uma vez que a Equipe de implantação foi criada, você gerenciará os canais da mesma maneira que em qualquer outra equipe.
 
-### <a name="can-i-add-or-remove-project-team-members-in-the-service-management-team"></a>Posso adicionar ou remover membros da equipe do projeto da Equipe de gerenciamento de serviços?
-Sim, uma vez que a Equipe de gerenciamento de serviços foi criada, você gerenciará da mesma maneira que em qualquer outra equipe.
+### <a name="can-i-add-or-remove-project-team-members-in-the-deployment-team"></a>Posso adicionar ou remover membros na Equipe de implantação?
+Sim, uma vez que a Equipe de implantação foi criada, você gerenciará da mesma maneira que em qualquer outra equipe.
 
 ### <a name="can-i-modify-the-planner-plans"></a>Posso modificar os planos do Planner?
-Sim, depois que o Assistente do Teams tiver criado a Equipe de gerenciamento de serviços, você deverá atualizar o plano do Planner para que ele dê um melhor suporte na implantação do Teams. Você pode modificar qualquer item (buckets, tarefas, detalhes da tarefa), como qualquer outro plano do Planner.
+Sim, depois que o Assistente do Teams tiver criado a Equipe de implantação, você deverá atualizar o plano do Planner para que ele dê um melhor suporte na implantação do Teams. Você pode modificar qualquer item (buckets, tarefas, detalhes da tarefa), como qualquer outro plano do Planner.
 
 
 ### <a name="can-i-modify-the-forms-survey"></a>Posso modificar a pesquisa do Forms?
-Sim, depois que o Assistente do Teams tiver criado a Equipe de gerenciamento de serviços, você poderá modificar a pesquisa do Forms, conforme necessário.
+Sim, depois que o Assistente do Teams tiver criado a Equipe de implantação, você poderá modificar a pesquisa do Forms, conforme necessário.
 
 ### <a name="what-information-is-advisor-for-teams-collecting-about-my-organization"></a>Quais informações o Assistente do Teams está coletando sobre minha organização?
 O Assistente do Teams solicita o seu contrato para coletar informações não fazem parte da informações de identificação do usuário final (EUII). As informações coletadas estão na forma de telemetria que fornece comentários à Microsoft sobre a forma como o Assistente do Teams está impulsionando os resultados bem-sucedidos e onde talvez seja necessário melhorar o desempenho. Esses mesmos dados são usados para identificar oportunidades para a Microsoft se envolver proativamente com sua organização, podendo assim ajudar na implantação.
 
 ### <a name="can-i-use-advisor-for-teams-with-fasttrack"></a>Posso usar o Assistente do Teams com o FastTrack?
-Sim, o FastTrack usa o Assistente do Teams para todos os clientes que desejam implantar o Teams. Eles podem ajudar na configuração inicial da Equipe de gerenciamento de serviços usando o Assistente do Teams (se necessário) e também fornecer o suporte necessário sobre tópicos específicos durante a implantação do Teams.
+Sim, o FastTrack usa o Assistente do Teams para todos os clientes que desejam implantar o Teams. Eles podem ajudar na configuração inicial da Equipe de implantação usando o Assistente do Teams (se necessário) e também fornecer o suporte necessário sobre tópicos específicos durante a implantação do Teams.
 
 ### <a name="can-i-use-advisor-for-teams-with-a-partner"></a>Posso usar o Assistente do Teams com um parceiro?
-Sim, você pode usar o Assistente do Teams e, ao mesmo tempo, usar um parceiro de implantação para a implantação do Teams. Se o seu parceiro é um CSP e gerencia o locatário em seu nome, ele poderá usar o Assistente do Teams para criar a Equipe de gerenciamento de serviços e ajudá-lo na execução geral do projeto. Além disso, você pode trabalhar com qualquer parceiro, adicionando-os como convidados na Equipe de gerenciamento de serviços, para permitir que eles participem como membro da equipe geral do projeto.
+Sim, você pode usar o Assistente do Teams e, ao mesmo tempo, usar um parceiro de implantação para a implantação do Teams. Se o seu parceiro é um CSP e gerencia o locatário em seu nome, ele poderá usar o Assistente do Teams para criar a Equipe de implantação e ajudá-lo na execução geral do projeto. Além disso, você pode trabalhar com qualquer parceiro, adicionando-os como convidados na Equipe de implantação, para permitir que eles participem como membro da equipe geral do projeto.
 
 ### <a name="how-do-i-use-planner"></a>Como usar o Planner?
 Confira a [Ajuda do Microsoft Planner](https://support.office.com/article/Microsoft-Planner-help-4a9a13c6-3adf-4a60-a6fc-15c0b15e16fc) e os [Vídeos de início rápido do Planner](https://support.office.com/article/microsoft-planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7). 

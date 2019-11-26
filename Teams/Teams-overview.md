@@ -16,12 +16,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 101849cdae4e60b927a99c808ad3e37682f19b03
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: 787849735883b25d8cb002c06f3e455438193769
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290841"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209057"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Bem-vindo ao Microsoft Teams
 Se você é o administrador do Microsoft Teams em sua organização, está no lugar certo. Se você está pronto para começar a usar o Teams, comece em [Como implementar o Teams](How-to-roll-out-teams.md).
@@ -83,7 +83,7 @@ Ao decidir quais aplicativos e serviços do Office 365 usar, pense no trabalho d
 
 - O **OneDrive for Business**, para armazenar arquivos e compartilhá-los com as pessoas que um usuário convidar. O conteúdo que um usuário salva no OneDrive for Business é privado até que o usuário o compartilhe com outras pessoas. Assim, ele é a melhor opção para armazenar documentos pessoais e de rascunho que não devem ser compartilhados ou não estão prontos para serem compartilhados.
 
-- O **Yammer**, para conectar pessoas em toda a organização. Promova iniciativas em toda a empresa, compartilhe práticas recomendadas e crie comunidades relacionadas a tópicos de interesse comum, áreas ou prática. Colabore em ideias para promover discussões abertas com pessoas de toda a empresa.
+- O **Yammer**, para conectar pessoas em toda a organização. Promova iniciativas em toda a empresa, compartilhe práticas recomendadas e crie comunidades relacionadas a tópicos de interesse ou áreas de prática em comum. Colabore em ideias para promover discussões abertas com pessoas de toda a empresa.
 
 - Os **aplicativos do Office** são todas as ferramentas familiares que as pessoas conhecem e usam regularmente, como o Word, o Excel, o PowerPoint e o OneNote. 
 
