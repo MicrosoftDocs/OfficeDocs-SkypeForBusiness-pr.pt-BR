@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Leia este tópico para saber como o roteamento direto do sistema de telefone da Microsoft permite que você conecte um controlador de borda de sessão (SBC) compatível com o cliente ao Microsoft Phone System.
-ms.openlocfilehash: ab76d3ee8a08b6bf109e1cb235b4f0f3a4fbdcc8
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 3fb9fcd8ec8dab78b03b408813d32292879cbec2
+ms.sourcegitcommit: 4c763a3824e6a2271d98a46d25a03c8f04ee2f74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572141"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39257470"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -264,7 +264,7 @@ A tabela a seguir resume as relações entre os datacenters primários, secundá
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>Tráfego de mídia: intervalos de porta
-Observe que os requisitos abaixo se aplicam se você deseja implantar o roteamento direto sem bypass de mídia. Para requisitos de firewall para bypass de mídia, consulte [planejar o bypass de mídia com roteamento direto](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass).
+Observe que os requisitos abaixo se aplicam se você deseja implantar o roteamento direto sem bypass de mídia. Para requisitos de firewall para bypass de mídia, consulte [planejar o bypass de mídia com roteamento direto](https://docs.microsoft.com/microsoftteams/direct-routing-plan-media-bypass).
 
 
 
@@ -287,9 +287,8 @@ O intervalo de portas dos processadores de mídia é mostrado na tabela a seguir
 
 |**Traffic**|**De**|**Até**|**Porta de origem**|**Porta de destino**|
 |:--- |:--- |:--- |:--- |:--- |
-|UDP/SRTP|Processador de mídia|SBC|49 152 – 53 247|Definido no SBC|
-|UDP/SRTP|SBC|Processador de mídia|Definido no SBC|49 152 – 53 247|
-|
+|UDP/SRTP|Processador de mídia|SBC|49152 – 53247|Definido no SBC|
+|UDP/SRTP|SBC|Processador de mídia|Definido no SBC|49152 – 53247|
 
   > [!NOTE]
   > A Microsoft recomenda pelo menos duas portas por chamada simultânea no SBC.

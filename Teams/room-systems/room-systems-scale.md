@@ -14,12 +14,29 @@ ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection:
 - M365-collaboration
 description: Leia este tópico para saber mais sobre a implantação de salas do Microsoft Teams em implantações em grandes escalas.
-ms.openlocfilehash: 2bd78bd737622515ff0722aa3635cf1ebcc83a29
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+no-loc:
+- Microsoft
+- Microsoft Corporation
+- Microsoft Teams Rooms
+- Microsoft Teams Room
+- System Center
+- Configuration Manager
+- Windows
+- Surface
+- Surface Pro
+- Windows PE
+- Windows 10
+- Windows 10 Enterprise
+- Azure
+- Azure Monitor
+- Log Analytics
+- Operations Management Suite
+ms.openlocfilehash: d116ea000bc18bf0e9c017b67bfa104dcfa29795
+ms.sourcegitcommit: 000957709b841ce55a6813ccc2fbe745b1a9295b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573622"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39218028"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>Implantar salas do Microsoft Teams usando o System Center Configuration Manager
 
@@ -633,7 +650,7 @@ Você pode baixar e importar facilmente uma sequência de tarefas de exemplo e p
        -   Edite esta etapa e atualize os parâmetros de linha de comando para especificar a **ID do espaço de trabalho** e a chave do espaço de **trabalho**.
        -   Consulte [configurar dispositivos de teste para monitoramento do Azure](azure-monitor-deploy.md#configure-test-devices-for-azure-monitoring) para obter mais informações sobre como obter a ID do espaço de trabalho do Operations Management Suite e a chave primária.
        -   Verifique se o **pacote SRS v2 – Microsoft Monitoring Agent** e **desabilite o redirecionamento do sistema de arquivos de 64-bit** está selecionado.
-       -   Para obter mais informações sobre como monitorar a integridade da implantação de salas do Microsoft Teams, consulte planejar o gerenciamento de salas do Microsoft [Teams com o Azure monitor](azure-monitor-plan.md), [implantar o gerenciamento de salas do Microsoft Teams com o Azure monitor](azure-monitor-deploy.md) e [gerenciar o Microsoft Dispositivos de salas de equipe com o Azure monitor](azure-monitor-manage.md).
+       -   Para obter mais informações sobre como monitorar a integridade da implantação de salas do Microsoft Teams, consulte planejar o gerenciamento de salas do Microsoft [Teams com o Azure monitor](azure-monitor-plan.md), [implantar o gerenciamento de salas do Microsoft Teams com o Azure monitor](azure-monitor-deploy.md) e [gerenciar dispositivos de salas do Microsoft Teams com o Azure monitor](azure-monitor-manage.md)
 
    11. **Copiar os arquivos de configuração do SRS v2**: esta etapa copia os arquivos de configuração e configuração necessários do kit de implantação de salas do Microsoft Teams para o disco rígido local. Nenhuma personalização é necessária para esta etapa.
        -   Verifique se o **pacote do aplicativo SRS v2 – SRS** e **desabilite o redirecionamento do sistema de arquivos do 64-bit** está selecionado.
@@ -742,8 +759,8 @@ O arquivo SMSTS. log está armazenado em um de vários caminhos, dependendo do e
 | **Fase de implantação**                                                            | **Caminho do log da sequência de tarefas**                         |
 |---------------------------------------------------------------------------------|----------------------------------------------------|
 | WinPE, antes do formato do HDD                                                        | X:\\Windows\\temp\\smstslog\\SMSTS. log             |
-| WinPE, após o formato do HDD                                                         | C:\\_SMSTaskSequence\\registra\\Smstslog\\SMSTS. log    |
-| Sistema operacional implantado antes da instalação do agente do Configuration Manager | c:\\_SMSTaskSequence\\registra\\Smstslog\\SMSTS. log    |
+| WinPE, após o formato do HDD                                                         | C:\\_SMSTaskSequence\\registra\\-\\se Smstslog SMSTS. log    |
+| Sistema operacional implantado antes da instalação do agente do Configuration Manager | c:\\_SMSTaskSequence\\registra\\-\\se Smstslog SMSTS. log    |
 | Sistema operacional e o agente do Configuration Manager implantado                   | % WINDIR%\\system32\\CCM\\logs\\Smstslog\\SMSTS. log |
 | Execução da sequência de tarefas concluída                                                | % WINDIR%\\system32\\CCM\\registra\\SMSTS. log           |
 

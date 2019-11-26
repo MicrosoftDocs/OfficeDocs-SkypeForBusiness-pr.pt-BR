@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Leia este tópico para saber como planejar o bypass de mídia com o roteamento direto do sistema telefônico.
-ms.openlocfilehash: cdfeb5313416730c703a1d0f10e2c7ccdddee1cc
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: dbc88f7954708ef3842c0cb7afa67815c70976a6
+ms.sourcegitcommit: 4c763a3824e6a2271d98a46d25a03c8f04ee2f74
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572152"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39257480"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planejar o bypass de mídia com Roteamento Direto
 
@@ -145,15 +145,15 @@ O intervalo IP é 52.112.0.0/14 (endereços IP de 52.112.0.1 a 52.115.255.254).
 
 - As retransmissões de transporte não são B2BUA, o que significa que o codec nunca é alterado entre o cliente e o SBC, mesmo se o tráfego fluir via retransmissões.
 
-### <a name="use-of-teams-transport-relays-in-escalation-scenarios-if-trunk-is-configured-for-media-bypass"></a>Uso de retransmissões de transporte de equipe em cenários de escalonamento se o tronco estiver configurado para bypass de mídia
+### <a name="use-of-teams-media-processors-if-trunk-is-configured-for-media-bypass"></a>Uso de processadores de mídia do teams se o tronco estiver configurado para bypass de mídia
 
-As retransmissões de transporte de equipes são sempre no caminho de mídia nos seguintes cenários:
+Os processadores de mídia de equipe sempre são inseridos no caminho de mídia nos seguintes cenários:
 
 - A chamada é escalonada de 1:1 para uma chamada em grupo
 - A chamada está indo para um usuário de equipes federadas
 - A chamada é encaminhada ou transferida para um usuário do Skype for Business
 
-Verifique se o seu SBC tem acesso às retransmissões de transporte, conforme descrito abaixo.    
+Verifique se o seu SBC tem acesso aos processadores de mídia e intervalos de transporte de transporte conforme descrito abaixo.    
 
 
 ## <a name="sip-signaling-fqdns"></a>Sinalização SIP: FQDNs
@@ -243,7 +243,7 @@ O tráfego de mídia flui entre o cliente do SBC e do teams se a conectividade d
 
 O cliente deve ter acesso às portas especificadas (consulte Table) no endereço IP público do SBC. 
 
-Observação: se o cliente estiver em uma rede interna, a mídia flui para o endereço IP público do SBC. Você pode configurar o hairpinning no seu dispositivo NAT para que o tráfego nunca saia do equipamento de rede da empresa.
+Observação: se o cliente estiver em uma rede interna, a mídia flui para o endereço IP público do SBC. Você pode configurar a fixação de cabelo em seu dispositivo NAT para que o tráfego nunca saia do equipamento de rede da empresa.
 
 | Traffic | De | Até | Porta de origem | Porta de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
