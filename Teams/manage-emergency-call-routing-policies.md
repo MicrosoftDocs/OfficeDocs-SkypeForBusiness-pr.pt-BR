@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar e gerenciar políticas de roteamento de chamadas de emergência para o recurso de E911 dinâmico no Microsoft Teams.
 f1keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: e5fe0957ce0c329f8161690fea7128036e2e1777
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: aed3b3d3cbd1023a3370c3c271e07a61179447da
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570650"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615801"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Gerenciar políticas de roteamento de chamadas de emergência no Microsoft Teams
 
@@ -29,7 +29,7 @@ ms.locfileid: "37570650"
 
 Se você implantou o roteamento direto do sistema telefônico em sua organização, poderá usar as políticas de roteamento de chamadas de emergência no Microsoft Teams para configurar os números de emergência e especificar como as chamadas de emergência serão roteadas. Uma política de roteamento de chamadas de emergência determina se os serviços de emergência avançados estão habilitados para usuários que receberam a política, os números usados para chamar serviços de emergência (por exemplo, 911 nos Estados Unidos) e como as chamadas para serviços de emergência são roteadas.
 
-Para gerenciar as políticas de roteamento de chamadas de emergência, acesse**as políticas de emergência** de **voz** > no centro de administração do Microsoft Teams ou usando o Windows PowerShell. As políticas podem ser atribuídas a usuários e [sites de rede](location-based-routing-terminology.md).
+Para gerenciar as políticas de roteamento de chamadas de emergência, acesse**as políticas de emergência** de **voz** > no centro de administração do Microsoft Teams ou usando o Windows PowerShell. As políticas podem ser atribuídas a usuários e [sites de rede](cloud-voice-network-settings.md).
 
 Para os usuários, você pode usar a política global (padrão para toda a organização) ou criar e atribuir políticas personalizadas. Os usuários receberão automaticamente a política global, a menos que você crie e atribua uma política personalizada. Lembre-se de que você pode editar as configurações na política global, mas não pode renomeá-la ou excluí-la. Para sites de rede, você cria e atribui políticas personalizadas.
 
@@ -84,9 +84,9 @@ Para atribuir uma política personalizada do teams a vários usuários de uma s�
 Ou, você também pode fazer o seguinte:
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para**políticas de emergência**de **voz** > e clique na guia **políticas de roteamento de chamadas** .
-2. Selecione a política clicando à esquerda do nome da política.
-3. Selecione **gerenciar usuários**.
-4. No painel **gerenciar usuários** , procure pelo usuário por nome para exibição ou por nome de usuário, selecione o nome e, em seguida, selecione **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
+2. Escolha a política clicando à esquerda do nome da política.
+3. Escolha **Gerenciar usuários**.
+4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
 5. Quando tiver terminado de adicionar usuários, clique em **salvar**.
 
 ### <a name="using-powershell"></a>Usando o PowerShell

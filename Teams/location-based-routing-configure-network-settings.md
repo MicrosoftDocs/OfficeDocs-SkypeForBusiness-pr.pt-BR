@@ -3,7 +3,6 @@ title: Configurar definições de rede para o Roteamento baseado na localizaçã
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 2/1/2019
 ms.topic: article
 ms.reviewer: roykuntz
 audience: admin
@@ -15,96 +14,47 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 240bbce48452edf505a61830891d0fcd6a6d199d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 18df741dad691ba24d6950f132086b1f49b40684
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570694"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615841"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>Configurar definições de rede para o Roteamento baseado na localização
 
-> [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
 Se ainda não tiver feito isso, leia [roteamento baseado em local de plano para roteamento direto](location-based-routing-plan.md) para revisar outras etapas que você precisará tomar antes de definir as configurações de rede para roteamento baseado em local.
 
-Este artigo descreve como definir as configurações de rede para roteamento baseado em local. Depois de implantar o roteamento direto do sistema telefônico em sua organização, as próximas etapas são criar e configurar regiões de rede, sites de rede e sub-redes de rede. Para concluir as etapas deste artigo, você precisará de familiaridade com cmdlets do PowerShell. Para saber mais, consulte [visão geral do teams PowerShell](teams-powershell-overview.md).
+Este artigo descreve como definir as configurações de rede para roteamento baseado em local. Depois de implantar o roteamento direto do sistema telefônico em sua organização, as próximas etapas são criar e configurar regiões de rede, sites de rede e sub-redes de rede.
 
 ## <a name="define-network-regions"></a>Definir regiões de rede
- Uma região de rede interconecta várias partes de uma rede em várias áreas geográficas. Use o cmdlet [New-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion?view=skype-ps) para definir regiões de rede. Observe que o parâmetro RegionID é um nome lógico que representa a geografia da região e não tem dependências ou restrições e o parâmetro &lt;de ID&gt; de site do CentralSite é opcional. 
 
-```
-New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
-```
-
-Neste exemplo, criamos uma região de rede chamada Índia. 
-```
-New-CsTenantNetworkRegion -NetworkRegionID "India"  
-```
+Uma região de rede contém um conjunto de sites de rede e interconecta várias partes de uma rede em várias áreas geográficas. Para ver as etapas sobre como configurar regiões de rede, vá para [gerenciar a topologia de rede para recursos de nuvem no Teams](manage-your-network-topology.md).
 
 ## <a name="define-network-sites"></a>Definir sites de rede
 
-Use o cmdlet [New-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps) para definir sites de rede. 
+Um site de rede representa um local onde a sua organização tem um local físico, como um escritório, um conjunto de prédios ou um campus. Você deve associar cada site de rede na sua topologia a uma região de rede. Para ver as etapas sobre como configurar sites de rede, consulte [gerenciar a topologia de rede para recursos de nuvem no Teams](manage-your-network-topology.md).
 
-```
-New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
-```
-Neste exemplo, criamos dois novos sites de rede, Delhi e Hyderabad, na região da Índia. 
-```
-New-CsTenantNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India" 
-New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India" 
-```
-A tabela a seguir mostra os sites de rede definidos neste exemplo. 
-
-||Site 1 |Site 2 |
-|---------|---------|---------|
-|ID do site    |    Site 1 (Déli)     |  Site 2 (Hyderabad)       |
-|ID da região  |     Região 1 (Índia)    |   Região 1 (Índia)      |
+Uma prática recomendada para o roteamento baseado em localização é criar um site separado para cada local que tenha conectividade PSTN exclusiva. Você pode criar um site que está habilitado para roteamento baseado em localização ou um site que não está habilitado para roteamento baseado em local. Por exemplo, talvez você queira criar um site que não esteja habilitado para roteamento baseado em local para permitir que os usuários habilitados para roteamento baseado em localização façam chamadas PSTN quando estiverem em roaming para esse site.
 
 ## <a name="define-network-subnets"></a>Definir sub-redes de rede
 
-Use o cmdlet [New-CsTenantNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) para definir sub-redes de rede e associá-las a sites de rede. Cada sub-rede interna só pode ser associada a um site. 
-```
-New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID> 
-```
-Neste exemplo, criamos uma associação entre a sub-rede 192.168.0.0 e o site de rede de Délhi e entre a sub-rede 2001:4898: E8:25:844e: 926f: 85ad: dd8e e o site de rede do Hyderabad.
-```
-New-CsTenantNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi" 
-New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskBits "120" -NetworkSiteID "Hyderabad" 
-```
-A tabela a seguir mostra as sub-redes definidas neste exemplo. 
+Cada sub-rede deve estar associada a um site de rede específico. Você pode associar várias sub-redes com o mesmo site de rede, mas não pode associar vários sites com a mesma sub-rede. Para ver as etapas sobre como configurar sub-redes de rede, vá para [gerenciar a topologia de rede para recursos de nuvem no Teams](manage-your-network-topology.md).
 
-||Site 1 |Site 2 |
-|---------|---------|---------|
-|ID de sub-rede   |    192.168.0.0     |  2001:4898: E8:25:844e: 926f: 85ad: dd8e     |
-|Remoção  |     24    |   120      |
-|ID do site  | Site (Delhi) | Site 2 (Hyderabad) |
+Para roteamento baseado em local, as sub-redes IP no local onde os pontos de extremidade da equipe podem se conectar à rede devem ser definidas e associadas a uma rede definida para aplicar a chamada em tarifas. Essa associação de sub-redes habilita o roteamento baseado em localização para localizar os pontos de extremidade geograficamente para determinar se uma determinada chamada PSTN deve ser permitida. As sub-redes IPv6 e IPv4 são aceitas. Ao determinar se um ponto de extremidade do teams está localizado em um site, o roteamento baseado em local verifica primeiro se há um endereço IPv6 correspondente. Se um endereço IPv6 não estiver presente, o roteamento baseado em local verificará se há um endereço IPv4.
 
-Para várias sub-redes, você pode importar um arquivo CSV usando um script como o seguinte.
-```
-Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.SubnetID-MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
-```
-Neste exemplo, o arquivo CSV tem a seguinte aparência:
-```
-Identity, Mask, SiteID 
-172.11.12.0, 24, Redmond 
-172.11.13.0, 24, Chicago 
-172.11.14.0, 25, Vancouver 
-172.11.15.0, 28, Paris
-```
-## <a name="define-external-subnets"></a>Definir sub-redes externas
-Use o cmdlet [New-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) para definir sub-redes externas e atribuí-las ao locatário. Você pode definir um número ilimitado de sub-redes para um locatário. 
-```
-New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
-```
-Por exemplo:
-```
-New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "Contoso address"  
-```
+## <a name="define-trusted-ip-addresses-external-subnets"></a>Definir endereços IP confiáveis (sub-redes externas)
+
+Os endereços IP confiáveis são endereços IP externos da Internet da rede corporativa e são usados para determinar se o ponto de extremidade do usuário está dentro da rede corporativa. Para ver as etapas sobre como configurar endereços IP confiáveis, vá para [gerenciar a topologia de rede para recursos de nuvem no Teams](manage-your-network-topology.md).
+
+Se o endereço IP externo do usuário corresponder a um endereço IP que está na lista de endereços IP confiáveis, o roteamento baseado em local fará uma verificação para determinar a sub-rede interna na qual o ponto de extremidade do usuário está localizado. Se o endereço IP externo do usuário não corresponder a qualquer endereço IP definido na lista de endereços IP confiáveis, o ponto de extremidade será classificado como sendo de um local desconhecido e as chamadas PSTNs de ou para um usuário habilitado para roteamento baseado em local serão bloqueadas.
 
 ## <a name="next-steps"></a>Próximas etapas
+
 Vá para [habilitar o roteamento baseado em local para roteamento direto](location-based-routing-enable.md).
 
-### <a name="related-topics"></a>Tópicos relacionados
-- [Planejar o Roteamento baseado na localização para o Roteamento direto](location-based-routing-plan.md)
-- [Terminologia do Roteamento baseado na localização](location-based-routing-terminology.md)
+## <a name="related-topics"></a>Tópicos relacionados
+
+- [Configurações de rede para recursos de voz na nuvem no Teams](cloud-voice-network-settings.md)

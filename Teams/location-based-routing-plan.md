@@ -3,7 +3,6 @@ title: Planejar o Roteamento baseado na localização para o Roteamento direto
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 2/1/2019
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -15,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c11d43f8fcf5418d27ca26e648291969779a8bf
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 429ed4dcd2996c404b47839de036972d44cc0d26
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570683"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615811"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planejar o Roteamento baseado na localização para o Roteamento direto
 
@@ -49,7 +48,7 @@ Quando um usuário do teams estiver habilitado para roteamento baseado em local,
 
 O roteamento baseado em local usa a mesma região de rede, site e definições de sub-rede que o Skype for Business Server usa. Quando a chamada tarifada é restrita para um local, um administrador associa cada sub-rede de IP e cada gateway PSTN desse local a um site de rede. A localização de um usuário é determinada pela sub-rede IP à qual os pontos de extremidade do usuário da equipe estão conectados no momento da chamada PSTN. Um usuário pode ter vários clientes do teams localizados em sites diferentes, e nesse caso, o roteamento baseado em localização impõe cada roteamento de cliente separadamente, dependendo da localização do seu ponto de extremidade. 
 
-Para se familiarizar com algumas das terminologias de rede usadas neste artigo, consulte [terminologia de roteamento baseado em local](location-based-routing-terminology.md).
+Para se familiarizar com algumas das terminologias de rede usadas neste artigo, consulte [configurações de rede para recursos de voz na nuvem no Teams](cloud-voice-network-settings.md).
 
 ## <a name="apply-location-based-routing"></a>Aplicar roteamento baseado em local
 
@@ -72,7 +71,7 @@ Os sites de rede devem ser habilitados para roteamento baseado em local para aju
 
 ### <a name="apply-location-based-routing-at-the-pstn-gateway"></a>Aplicar roteamento baseado em local ao gateway PSTN 
 
-Os gateways estão associados a sites para determinar onde um usuário habilitado para roteamento baseado em localização pode ser localizado quando eles fazem ou recebem uma chamada PSTN. Os gateways devem ser habilitados para roteamento baseado em local para garantir que ele esteja em restrições de desvios de chamada e não possa ser usado por usuários que não estão habilitados para roteamento baseado em localização. O mesmo gateway pode estar associado a vários sites, e ele pode ser configurado para ser habilitado para roteamento baseado em localização ou não habilitado para roteamento baseado em local, dependendo do site. 
+Os gateways estão associados a sites para determinar onde um usuário habilitado para roteamento baseado em localização pode ser localizado quando eles fazem ou recebem uma chamada PSTN. Os gateways devem ser habilitados para roteamento baseado em local para garantir que ele esteja em restrições de desvios de chamada e não possa ser usado por usuários que não estão habilitados para roteamento baseado em localização. O mesmo gateway pode estar associado a vários sites, e ele pode ser configurado para ser habilitado para roteamento baseado em localização ou não habilitado para roteamento baseado em local, dependendo do site.
 
 ## <a name="scenarios-for-location-based-routing"></a>Cenários do Roteamento Baseado na Localização
 
@@ -250,8 +249,10 @@ O roteamento baseado em local não se aplica aos seguintes tipos de interações
 Um usuário habilitado para roteamento baseado em local em uma chamada PSTN não pode iniciar uma conferência com outro usuário ou número PSTN. É permitido conectar-se a atendedores automáticos ou filas de chamadas. Se o usuário tiver uma licença de conferência, o usuário deverá iniciar uma conferência com os usuários relevantes e chamar a PSTN por meio da ponte de conferência para iniciar uma chamada em conferência.  
 
 ## <a name="next-steps"></a>Próximas etapas
+
 Vá para [definir configurações de rede para roteamento baseado em local](location-based-routing-configure-network-settings.md).
 
-### <a name="related-topics"></a>Tópicos relacionados
+## <a name="related-topics"></a>Tópicos relacionados
+
 - [Habilitar o Roteamento baseado na localização para o Roteamento direto](location-based-routing-enable.md)
-- [Terminologia do Roteamento baseado na localização](location-based-routing-terminology.md)
+- [Configurações de rede para recursos de voz na nuvem no Teams](cloud-voice-network-settings.md)

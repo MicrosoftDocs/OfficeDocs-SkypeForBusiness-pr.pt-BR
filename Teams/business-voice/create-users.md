@@ -15,25 +15,25 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd00c4baf7958926c2e27e8141630444e7df637c
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: a789300c7b7b646ab7b7d288ce5679b6fe3dfff2
+ms.sourcegitcommit: 000957709b841ce55a6813ccc2fbe745b1a9295b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972072"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39218018"
 ---
 # <a name="create-and-license-users-and-assign-phone-numbers-to-them"></a>Crie usuários e atribua licenças e números de telefone a eles
 
-Para usar o Microsoft 365 Business Voice, um usuário precisa de uma conta do Microsoft 365 com uma licença do Microsoft 365 Business Voice com SMS. Após a criação de uma conta com uma licença do Microsoft 365 Business Voice com SMS, você pode atribuir um número de telefone a ela.
+Para usar o :::no-loc text="Microsoft 365 Business Voice":::, o usuário precisa de uma conta do :::no-loc text="Microsoft 365"::: com uma licença :::no-loc text="Microsoft 365 Business Voice with SMS":::. Após a criação de uma conta com uma licença :::no-loc text="Microsoft 365 Business Voice with SMS":::, você pode atribuir um número de telefone a ela.
 
 ## <a name="create-and-license-users"></a>Criar e licenciar usuários
 
-1. Siga as etapas em [Adicionar usuários individualmente ou em massa ao Office 365](https://docs.microsoft.com/office365/admin/add-users/add-users) para adicionar um ou mais usuários.
-2. No painel **Atribuir licenças do produto**, selecione **Microsoft 365 Business Voice com SMS**.
+1. Siga as etapas em [Adicionar usuários individualmente ou em massa :::no-loc text="Office 365":::](https://docs.microsoft.com/office365/admin/add-users/add-users) para adicionar um ou mais usuários.
+2. No painel **Atribuir licenças do produto**, selecione **:::no-loc text="Microsoft 365 Business Voice with SMS":::**.
 
 ## <a name="assign-phone-numbers-to-users"></a>Atribuir números de telefone aos usuários
 
-Depois que os usuários tiverem sido criados e receberem uma licença do Microsoft 365 Business Voice com SMS, você poderá atribuir números de telefone a eles. Você precisa de um número de telefone não atribuído para cada usuário que precisa de um. Se você não tiver números de telefone não atribuídos suficientes, consulte [Obter mais números de telefone](#get-more-phone-numbers) posteriormente neste artigo.
+Após os usuários serem criados e receberem uma licença :::no-loc text="Microsoft 365 Business Voice with SMS":::, você poderá atribuir números de telefone a eles. Você precisa de um número de telefone não atribuído para cada usuário que precisa de um. Se você não tiver números de telefone não atribuídos suficientes, consulte [Obter mais números de telefone](#get-more-phone-numbers) posteriormente neste artigo.
 
 1. Acesse https://admin.teams.microsoft.com
 2. Digite um nome e uma descrição para a solicitação de número de telefone
