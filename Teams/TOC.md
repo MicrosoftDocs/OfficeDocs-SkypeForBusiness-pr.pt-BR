@@ -114,7 +114,8 @@
 ## [Gerenciar configurações de reuniões](meeting-settings-in-teams.md)
 ## [Emails enviados para os usuários quando suas configurações são alteradas](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Permitir que os usuários gravem seus nomes ao ingressar em uma reunião](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
-## [Ativar ou desativar os anúncios de entrada e de saída para reuniões](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+## [Ativar ou desativar anúncios de entrada e de saída em reuniões](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+## [Reuniões do Teams em navegadores sem suporte](unsupported-browsers.md)
 ## [Configurar o compartilhamento da área de trabalho no Teams](configure-desktop-sharing.md)
 ## [Gravação de reuniões na nuvem do Microsoft Teams](cloud-recording.md)
 ## [Usar o suplemento de Reunião do Teams no Outlook](teams-add-in-for-outlook.md)
@@ -339,7 +340,6 @@
 ### [Configurar um controlador de borda da sessão para vários locatários](direct-routing-sbc-multiple-tenants.md)
 ### [Lista de controladores de borda da sessão certificados para Roteamento Direto](direct-routing-border-controllers.md)
 ### Roteamento com Base no Local
-#### [Terminologia do Roteamento baseado na localização](location-based-routing-terminology.md)
 #### [Planejar o Roteamento baseado na localização para o Roteamento direto](location-based-routing-plan.md)
 #### [Configurar definições de rede para o Roteamento baseado na localização](location-based-routing-configure-network-settings.md)
 #### [Habilitar o Roteamento baseado na localização para o Roteamento direto](location-based-routing-enable.md)
@@ -374,10 +374,15 @@
 ### [O que são planos de discagem?](what-are-dial-plans.md)
 ### [Criar e gerenciar planos de discagem](create-and-manage-dial-plans.md)
 ### [Adicionar e atualizar rótulos de relatórios](learn-more-about-site-upload.md)
+
+## Configurações de rede e topologia
+### [Configurações de rede para recursos de voz na nuvem](cloud-voice-network-settings.md)
+### [Gerenciar a topologia de rede para os recursos de voz na nuvem](manage-your-network-topology.md)
+
 ## Chamada de emergência
-### [Planejar e configurar chamadas de emergência dinâmicas](configure-dynamic-emergency-calling.md)
+### [Visão geral](what-are-emergency-locations-addresses-and-call-routing.md)
+### [Configurar chamadas de emergência dinâmicas](configure-dynamic-emergency-calling.md)
 ### Gerenciar endereços de emergência
-#### [O que são locais e endereços de emergência, e roteamento de chamada?](what-are-emergency-locations-addresses-and-call-routing.md)
 #### [Adicionar, alterar ou remover um local de emergência para sua organização](add-change-remove-emergency-location-organization.md)
 #### [Adicionar, alterar ou remover um endereço de um local de emergência para sua organização](add-change-remove-emergency-place-organization.md)
 #### [Atribuir ou alterar um local de emergência para um usuário](assign-change-emergency-location-user.md)
