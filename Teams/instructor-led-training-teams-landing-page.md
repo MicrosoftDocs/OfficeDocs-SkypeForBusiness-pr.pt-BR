@@ -13,17 +13,17 @@ ms.service: msteams
 f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: d6ddba5756f812667fd5fac2ccf980efec9267e4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 9983b61f28e4bfb37b0f6673503e3a982e40da5a
+ms.sourcegitcommit: 2557331f72bd0d8637c9f1b2a9606ca48a1c9954
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570719"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39621269"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Treinamento do Microsoft Teams com instrutor</h1>
-A Microsoft está feliz por hospedar uma série de sessões de treinamento online, gratuitas e ao vivo desenvolvidas para você começar a trabalhar com o Teams.Seja você um tomador de decisão de negócios, administrador, profissional de TI ou usuário final, você encontrará a aula ideal. Participe para ver o Teams em ação, tire suas dúvidas e interaja com os nossos instrutores ao vivo. Para visualizar nossas aulas de treinamento em seu próprio tempo, acesse nosso treinamento <a href="https://aka.ms/TeamsOnDemand">sob demanda de treinamento do usuário final</a>.<br><br>Clique em uma sessão abaixo para se inscrever.
+A Microsoft está feliz por hospedar uma série de sessões de treinamento online, gratuitas e ao vivo desenvolvidas para você começar a trabalhar com o Teams.Seja você um tomador de decisão de negócios, administrador, profissional de TI ou usuário final, você encontrará a aula ideal. Não sabe por onde começar? Faça nossa <a href="https://aka.ms/TeamsKnowledgeCheck">Verificação de conhecimento do Teams</a>. Participe para ver o Teams em ação, tire suas dúvidas e interaja com os nossos instrutores ao vivo. Para visualizar nossas aulas de treinamento em seu próprio tempo, acesse nosso treinamento <a href="https://aka.ms/TeamsOnDemand">sob demanda de treinamento do usuário final</a>.<br><br>Clique em uma sessão abaixo para se inscrever.
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a>
