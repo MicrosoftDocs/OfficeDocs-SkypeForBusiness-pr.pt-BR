@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: Este artigo descreve como configurar o console de salas do Microsoft Teams e seus periféricos.
-ms.openlocfilehash: 6172e37b53934bc75ae7f5bdf848fd503ffe2e8a
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: fd09d7e9d70a5912469d4ed2d79a4dc8f465eeb6
+ms.sourcegitcommit: 486eaa85042670edec2231efaf7dae8fa329e852
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675769"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "39665434"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Configurar um console de salas do Microsoft Teams
 
@@ -45,6 +45,9 @@ A instalação do aplicativo de console de salas do Microsoft Teams requer um di
 
 > [!NOTE]
 > O processo abaixo destina-se à criação de mídia de instalação em imagens de novos dispositivos de sala do Microsoft Teams. Os dispositivos existentes, por padrão, são atualizados automaticamente no Windows Update e na Windows Store.
+
+> [!IMPORTANT]
+> A máquina Windows 10 usada para criar a mídia de instalação de salas do Microsoft Teams deve estar na mesma versão ou mais recente do Windows como a mídia de instalação de destino.
   
 1. Baixe o [script CreateSrsMedia. ps1](https://go.microsoft.com/fwlink/?linkid=867842).
 2. Execute o script CreateSrsMedia.ps1 de um prompt com privilégios elevados em um computador Windows 10.

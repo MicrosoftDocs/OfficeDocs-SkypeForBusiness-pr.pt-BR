@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 ms.assetid: ''
 description: Leia este tópico para saber como migrar dispositivos do sistema de sala do Lync para usar o software de salas do Microsoft Teams.
-ms.openlocfilehash: 377e901446d69e0956ff981b1b45686c949cf61c
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: 2a324e426368722cf261554b09298f098644d5ba
+ms.sourcegitcommit: 74c06b00ff78dc816a59e6c59e9be87181fc0f3e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675355"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39669269"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>Migrar dispositivos do Lync Room System (LRS) para salas do Microsoft Teams
 
@@ -25,7 +25,7 @@ Os dispositivos do sistema de salas do Lync (LRS) com o software Skype V1 (vers�
 
 O software de salas Microsoft Teams funciona com o Microsoft Teams, além do Skype for Business Server e serviços online para reuniões e chamadas em todos os dispositivos compatíveis com as salas do Microsoft Teams.
 
-Seus dispositivos existentes **podem** continuar a funcionar após o término do suporte do software sistema de sala do Skype v1. No entanto, se este software chegar a um bug de software que precisa da Microsoft para lançar uma correção, ele não será compatível. O SRS v1 usa TLS 1.0/1,1, que será preterido pela Microsoft no futuro. Você pode saber mais sobre como se [preparar para a substituição de TLS 1.0/1.1](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608). As salas do Microsoft Teams estão adicionando suporte para o TLS 1,2 e continuarão a funcionar após 31 de outubro de 2018. Os clientes no local do Skype for Business não devem desabilitar o TLS 1.0/1.1 até que as salas do Microsoft Teams anunciem o suporte para TLS 1,2, independentemente das diretrizes gerais da substituição do TLS 1.0/1.1.
+Seus dispositivos existentes **podem** continuar a funcionar após o término do suporte do software sistema de sala do Skype v1. No entanto, se este software chegar a um bug de software que precisa da Microsoft para lançar uma correção, ele não será compatível. O SRS v1 usa TLS 1.0/1,1, que será preterido pela Microsoft no futuro. Você pode saber mais sobre como se [preparar para a substituição de TLS 1.0/1.1](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608). 
 
 ## <a name="which-devices-are-affected"></a>Quais dispositivos são afetados?
 
@@ -57,8 +57,6 @@ Para clientes do SMART LRS, além do programa de troca de hardware do Crestron, 
 
 Recomendamos que você planeje atualizar os dispositivos do sistema de sala do Lync para salas do Microsoft Teams antes da substituição do TLS 1.0/1.1 usando as opções de atualização mencionadas acima. Além disso, você também pode considerar a substituição de dispositivos existentes por novos dispositivos certificados para salas do Microsoft Teams. Consulte [dispositivos da sala](https://aka.ms/roomdevices) para obter detalhes e também dê uma olhada nos [requisitos de salas do Microsoft Teams](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements).  
 
-> [!NOTE]
-> A funcionalidade de toque e quadro de comunicações ainda não tem suporte em salas do Microsoft Teams. No momento, o suporte para toque e quadro de comunicações está previsto para salas do Microsoft Teams e será adicionado no 2019.
 
 > [!NOTE]
 > O software de salas Microsoft Teams dá suporte ao protocolo TLS 1,2 a partir de 14 de dezembro de 2018 com a versão de aplicativo 4.0.64.0. Para clientes locais, a habilitação da comunicação com o TLS 1,2 para salas do Microsoft Teams requer o Skype for Business Server 2015 atualização cumulativa 9 (CU9) ou a atualização cumulativa 1 do Skype for Business Server 2019 (CU1). A alteração não deve afetar os clientes do Skype for Business Online, pois as alterações do cliente são compatíveis com versões anteriores e posteriores.
