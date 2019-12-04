@@ -36,7 +36,7 @@ Quando uma organização com o Skype for Business começa a adotar o Teams, os a
 
 1.  *Interoperabilidade*: comunicação entre duas pessoas, ou quais são um usuário do Lync/Skype for Business e um usuário do Teams.
 
-2.  * Federação*: comunicação entre usuários de locatários diferentes.
+2.  *Federação*: comunicação entre usuários de locatários diferentes.
 
 3.  Todos os usuários do Teams têm uma conta subjacente do Skype for Business que é "hospedada" online ou localmente:
     - Os usuários que já usam o Skype for Business online usam a sua conta online já existente.
@@ -146,7 +146,7 @@ A Federação do Teams para outro usuário usando o Skype for Business exige que
 
 TeamsUpgradePolicy determina o roteamento para chamadas e conversas federadas e de entrada. O comportamento de roteamento federado é o mesmo para cenários de mesmo locatário, *exceto no modo de Ilhas*.  Quando os destinatários estiverem no modo de Ilhas: 
 - Chats e chamadas iniciados a partir do Teams são recebidos no SfB se o destinatário estiver em um *locatário federado*.
-- Chats e chamadas iniciados a partir do Teams são recebidos no Teams se o destinatário estiver no * mesmo locatário*.
+- Chats e chamadas iniciados a partir do Teams são recebidos no Teams se o destinatário estiver no *mesmo locatário*.
 - Chats e chamadas iniciados a partir do SfB sempre chegam no Skype for Business.
 
 Para obter mais detalhes, consulte [Coexistência com o Skype for Business](https://docs.microsoft.com/pt-BR/MicrosoftTeams/coexistence-chat-calls-presence).
