@@ -5,7 +5,7 @@ ms.author: chucked
 manager: serdars
 ms.topic: reference
 audience: Admin
-ms.reviewer: annikaelias
+ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
@@ -14,17 +14,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e09b94f51c9d36f32eb83eb97d7cd15545d2ed4b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 21d0ff8f9cd256010bc4767cf2f6f415b1c808c7
+ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572042"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39679301"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gerenciar a oferta de avaliação na nuvem comercial do Microsoft Teams
 =======================================================
 
-O Microsoft Teams é uma ótima ferramenta de colaboração para sua organização. Ele permite que colaboradores e equipes discutam, inovem e compartilhem ideias usando o poder do Office 365. A avaliação do Microsoft Teams Commercial Cloud oferece 1 ano de avaliação do produto para usuários que já possuem o Office 365 em sua organização e não possuem licenças do Microsoft Teams.. Os administradores podem mudar ou desativar esse recurso para os usuários de sua organização. 
+A avaliação do Microsoft Teams Commercial Cloud oferece 1 ano de avaliação do produto para usuários que já possuem o Office 365 em sua organização e não possuem licenças do Microsoft Teams.. Os administradores podem mudar ou desativar esse recurso para os usuários de sua organização. 
 
 > [!IMPORTANT]
 > A avaliação da Nuvem Comercial do Microsoft Teams foi atualizada para incluir planos de serviço adicionais para aumentar a funcionalidade do Teams e agora é de propriedade e controle do administrador de cobrança da sua organização. Isso torna o teste mais fácil de gerenciar e consistente com todas as outras ofertas do Microsoft 365. 
