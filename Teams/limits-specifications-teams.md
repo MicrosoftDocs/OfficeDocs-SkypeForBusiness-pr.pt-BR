@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b11f326f35d7c30ffba29e4247db75800eeb3790
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: 098477cc36237736009e1ec2010fea625d08937c
+ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231092"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39679231"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Limites e especificações para o Microsoft Teams
 
@@ -38,12 +38,13 @@ Este artigo descreve alguns dos limites, das especificações e de outros requis
 |Número de equipes que um administrador global pode criar        |  500.000   |
 |Número de equipes que um locatário de Office 365 pode ter    | 500.000&sup2;     |
 |Número de canais por equipe    | 200 (inclui canais excluídos)&sup3;         |
+|Número de canais privados por equipe    |30|
 
-&sup1;Qualquer objeto de diretório no Azure Active Directory conta para este limite. Os administradores globais estão isentos desse limite, assim como os aplicativos que chamam o Microsoft Graph usando as [permissões de aplicativo](https://docs.microsoft.com/graph/permissions-reference).
+&sup1; Qualquer objeto de diretório no Azure Active Directory conta para este limite. Os administradores globais estão isentos desse limite, assim como os aplicativos que chamam o Microsoft Graph usando as [permissões de aplicativo](https://docs.microsoft.com/graph/permissions-reference).
 
-&sup2;Esse limite inclui equipes arquivadas.
+&sup2; Esse limite inclui equipes arquivadas.
 
-&sup3;Os canais excluídos podem ser restaurados dentro de 30 dias. Durante esses 30 dias, um canal excluído continua a ser contado no limite de 200 canais por equipe. Depois de 30 dias, um canal e seu conteúdo excluídos serão permanentemente excluídos e o canal deixará de contar com o limite de 200 canais por equipe.
+&sup3; Os canais excluídos podem ser restaurados de 30 dias. Durante esses 30 dias, um canal excluído continua a ser contado no limite de 200 canais por equipe. Depois de 30 dias, um canal e seu conteúdo excluídos serão permanentemente excluídos e o canal deixará de contar com o limite de 200 canais por equipe.
 
 ## <a name="messaging"></a>Mensagens
 
@@ -58,9 +59,9 @@ O bate-papo do Teams funciona em um back-end do Microsoft Exchange, para que os 
 |Número de pessoas em um bate-papo particular <sup>1</sup>  | 100    |
 |Número de anexos de arquivo<sup>2</sup>  |10     |
 
-<sup>1</sup>Se você tiver mais de 20 pessoas em um bate-papo, os seguintes recursos de bate-papo serão desabilitados: respostas automáticas do Outlook e mensagens de status do Teams; indicador de digitação; chamadas de áudio e vídeo; compartilhamento; confirmação de leitura.
+<sup>1</sup> Se você tiver mais de 20 pessoais em um bate-papo, os seguintes recursos do bate-papo serão desabilitados: respostas automáticas do Outlook e mensagens de status do Teams; indicador de digitação; chamadas de áudio e vídeo; compartilhamento; confirmação de leitura.
 
-<sup>2</sup>Se o número de anexos exceder esse limite, você verá uma mensagem de erro.
+<sup>2</sup> Se o número de anexos exceder esse limite, você verá uma mensagem de erro.
 
 ### <a name="emailing-a-channel"></a>Enviar um email para um canal
 
@@ -73,9 +74,9 @@ O bate-papo do Teams funciona em um back-end do Microsoft Exchange, para que os 
 |Tamanho de cada anexo de arquivo | Menor que 10 MB |
 |Número de imagens embutidas<sup>2</sup> |50   |
 
-<sup>1</sup>Se a mensagem exceder esse limite, uma mensagem de visualização será gerada e o usuário será solicitado a baixar e exibir o email original no link fornecido.
+<sup>1</sup> Se a mensagem exceder esse limite, uma mensagem de visualização será gerada e o usuário será solicitado a baixar e exibir o email original no link fornecido.
 
-<sup>2</sup>Se o número de anexos ou imagens exceder esse limite, você verá uma mensagem de erro.
+<sup>2</sup> Se o número de anexos ou imagens exceder, você verá uma mensagem de erro.
 
 Para obter mais informações, confira [Limites do Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
