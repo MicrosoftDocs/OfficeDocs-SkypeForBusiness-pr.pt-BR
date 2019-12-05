@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: Leia este tópico para saber mais sobre o gerenciamento de salas do Microsoft Teams, a próxima geração de sistemas de sala do Skype.
-ms.openlocfilehash: 003ede11615e42ec120d618f0a732df58d10f452
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: aeab9235b54138d649cee2f5e67a76a109c36c6a
+ms.sourcegitcommit: b8e16703e4611ca2bde55896ec158b33be4f9ba0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675335"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39842473"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Manutenção e operações de salas do Microsoft Teams 
  
@@ -49,10 +49,10 @@ Configure a tela frontal da sala para o modo Estendido. Isso garantirá que a in
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Redefinição de salas do Microsoft Teams (restauração de fábrica)
 <a name="Reset"> </a>
 
-Se as salas do Microsoft Teams não estiverem funcionando bem, executar uma redefinição de fábrica pode ajudar. Isso pode ser feito no aplicativo configurações na guia **recuperação** . abaixo **restaurar este PC**, selecione **introdução**e, em seguida, **remover tudo**. Siga os prompts restantes para redefinir o dispositivo.
-  
+Se as salas do Microsoft Teams não estiverem funcionando bem, executar uma redefinição de fábrica pode ajudar. Para fazer isso, use a [ferramenta de recuperação de sala do Microsoft Teams](recovery-tool.md) e siga as instruções de restauração de fábrica.
+
 > [!NOTE]
-> Há um problema conhecido em que as salas do Microsoft Teams podem ficar inúteis se a opção **manter meus arquivos-remove meus arquivos-remove aplicativos e configurações, mas mantém a opção arquivos pessoais** selecionada durante o processo de redefinição do Windows. Não _Use essa_ opção.
+> Há um problema conhecido em que as salas do Microsoft Teams podem ficar inúteis se a opção **manter meus arquivos-remove meus arquivos-remove aplicativos e configurações, mas mantém a opção arquivos pessoais** selecionada durante o processo de redefinição do Windows. Não *Use essa* opção.
   
 ## <a name="supported-remote-options"></a>Opções remotas com suporte
 <a name="RemoteOptions"> </a>

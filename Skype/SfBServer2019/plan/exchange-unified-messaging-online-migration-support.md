@@ -8,22 +8,21 @@ audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-ms.collection: ''
 description: A Microsoft está desativando o serviço online de Unificação de mensagens do Exchange (ExchUMO) em fevereiro de 2020. Este artigo resume o que os clientes afetados devem saber e fazer para planejar sua continuidade de negócios.
-ms.openlocfilehash: abaf16996a6d634bac77118e35b30228c2a43e07
-ms.sourcegitcommit: 9ae5dadaab999acd061cc9418dbd55d98b82980e
+ms.openlocfilehash: 6fe0436d0ae4df2b4eb56a3c84319770b45f3139
+ms.sourcegitcommit: b8e16703e4611ca2bde55896ec158b33be4f9ba0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38702302"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39842463"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Suporte à migração da Unificação de Mensagens do Exchange Online
 
-Em referência ao [anúncio](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) em 8 de fevereiro de 2019, a Microsoft está desativando o serviço do Exchange Unified Messaging online (ExchUMO) até 2020 de fevereiro. Este artigo oferece um resumo do que os clientes afetados devem saber e fazer para planejar sua continuidade de negócios. 
+Em referência ao [anúncio](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) em 8 de fevereiro de 2019, a Microsoft está desativando o serviço do Exchange Unified Messaging online (ExchUMO) até 2020 de fevereiro. Este artigo oferece um resumo do que os clientes afetados devem saber e fazer para planejar sua continuidade de negócios.
  
-O ExchUMO é implantado por clientes para correio de voz, atendedor automático, fila de chamadas e serviços de integração de fax. A Microsoft planeja ajudar os clientes a migrar para serviços de sistema telefônico que já dão suporte a milhares de clientes no Skype for Business Online e no Microsoft Teams. 
+O ExchUMO é implantado por clientes para correio de voz, atendedor automático, fila de chamadas e serviços de integração de fax. A Microsoft planeja ajudar os clientes a migrar para serviços de sistema telefônico que já dão suporte a milhares de clientes no Skype for Business Online e no Microsoft Teams.
 
-O correio de voz é basicamente uma migração orientada pela Microsoft; o envolvimento do administrador e/ou o investimento podem ser necessários para um subconjunto de clientes. O atendedor automático é uma migração orientada por administradores; Você precisará recriar as árvores de atendedor automático do ExchUMO no serviço de nuvem do atendedor automático na nuvem. Os clientes que estiverem consumindo qualquer um dos recursos do ExchUMO com um PBX de terceiros não serão migrados para os serviços de nuvem da Skype porque não são compatíveis com sistemas PBX de terceiros. Um plano de aposentadoria para suporte a terceiros foi anunciado neste [blog](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853), e os clientes neste modelo de implantação podem migrar os usuários para um dos serviços/plataformas de comunicação unificada da Microsoft ou adquirir uma solução de correio de voz e/ou atendedor automático de terceiros para esses usuários. Não há suporte para a integração de fax nos serviços baseados em nuvem; Os clientes precisarão migrar para uma solução de terceiros.
+O correio de voz é basicamente uma migração orientada pela Microsoft; o envolvimento do administrador e/ou o investimento podem ser necessários para um subconjunto de clientes. O atendedor automático é uma migração orientada por administradores; Você precisará recriar as árvores de atendedor automático do ExchUMO no serviço de nuvem do atendedor automático na nuvem. Os clientes que consomem qualquer um dos recursos do ExchUMO com um PBX de terceiros não serão migrados para os serviços de nuvem da Skype porque não dão suporte a sistemas PBX de terceiros. Um plano de aposentadoria para suporte a terceiros foi anunciado neste [blog](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853), e os clientes neste modelo de implantação podem migrar os usuários para um dos serviços/plataformas de comunicação unificada da Microsoft ou adquirir uma solução de correio de voz e/ou atendedor automático de terceiros para esses usuários. Não há suporte para a integração de fax nos serviços baseados em nuvem; Os clientes precisarão migrar para uma solução de terceiros.
 
 ### <a name="who-is-affected"></a>Quem é afetado?
 
@@ -46,14 +45,14 @@ A Microsoft identificou várias implantações de clientes que estão consumindo
 |Grupo de clientes |Cronológica  |Detalhes  |
 |---------|---------|---------|
 |Clientes que estão prontos para migrar<br><br>Recursos a serem migrados:<br><ul><li>Caixa postal</ul>   |   Março — maio de 2019  |Exemplos<ul><li>    Clientes com implantação e uso simples de correio de voz<li>Clientes que têm todos os requisitos estabelecidos pela Microsoft para executar a migração<ul>|
-|Clientes com pré-requisitos<br><br>Recursos a serem migrados:<br><ul><li>Caixa postal<li>Atendedor automático<li>Fila de chamadas</ul> |  Maio – 2019 de dezembro |Exemplos <br><ul><li>Configuração híbrida não concluída<li>Os números PSTN híbridos não estão configurados</ul>|
-|Clientes que exigem envolvimento da administração & investimento do cliente<br><br>Recursos a serem migrados:<ul><li>caixa<li>Atendedor automático<li>Filas de chamadas<li>Integração de fax</ul>| Até fevereiro de 2020  | Exemplos <br><ul><li>O serviço ExchUMO é consumido pelo PBX de terceiros<li>Clientes com requisitos de acesso do assinante PSTN<li>Clientes no SFB 2010 (não suportados)<li>Integração de fax</ul> |
+|Clientes com pré-requisitos<br><br>Recursos a serem migrados:<br><ul><li>Caixa postal<li>Atendedor Automático<li>Fila de chamadas</ul> |  Maio – 2019 de dezembro |Exemplos <br><ul><li>Configuração híbrida não concluída<li>Os números PSTN híbridos não estão configurados</ul>|
+|Clientes que exigem envolvimento da administração & investimento do cliente<br><br>Recursos a serem migrados:<ul><li>caixa<li>Atendedor Automático<li>Filas de chamadas<li>Integração de fax</ul>| Até fevereiro de 2020  | Exemplos <br><ul><li>O serviço ExchUMO é consumido pelo PBX de terceiros<li>Clientes com requisitos de acesso do assinante PSTN<li>Clientes no SFB 2010 (não suportados)<li>Integração de fax</ul> |
 
-## <a name="migration-steps"></a>Etapas de migração
+## <a name="voicemail-migration-steps"></a>Etapas de migração de correio de voz
 
 1.  **Seja informado**
  
-    Familiarize-se com o [anúncio do blog](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) e este artigo para planejar uma migração tranqüila para seus usuários. Consulte [verificar a caixa postal e as opções do Skype for Business](https://support.office.com/en-us/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8) para obter detalhes sobre os recursos de correio de voz do sistema telefônico.  
+    Familiarize-se com o [anúncio do blog](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) e este artigo para planejar uma migração tranqüila para seus usuários. Consulte [verificar a caixa postal e as opções do Skype for Business](https://support.office.com/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8) para obter detalhes sobre os recursos de correio de voz do sistema telefônico.  
  
 2.  **Estabelecer uma topologia híbrida do Skype for Business**
 
@@ -96,7 +95,28 @@ A Microsoft identificou várias implantações de clientes que estão consumindo
  
     - ID do locatário: 32 número de caracteres nesse formato 0046728c-688a-4472-a38f-098fec60ac6x. Você pode encontrar sua ID de locatário no portal de administração do Microsoft 365 em Azure AD ou usando o seguinte cmdlet do PowerShell:`Get-CsTenant | Select ObjectId`
  
-    Você receberá uma confirmação de email depois que seu locatário for migrado com sucesso. 
+    Você receberá uma confirmação de email depois que seu locatário for migrado com sucesso.
+
+## <a name="auto-attendant-migration-guidelines"></a>Diretrizes de migração do atendedor automático
+
+Os administradores do locatário do Office 365 são obrigados a recriar seus atendedores automáticos online do Exchange UM no serviço de atendedor automático do Microsoft Cloud e alternar os números de telefone locais para eles antes de 1 ° de fevereiro de 2020, que é quando o serviço do Exchange UMO será continua. Esta é a diretriz recomendada para migrar e testar com êxito novos atendedores automáticos de nuvem. Se você tiver um grande número de atendedores automáticos, poderá usar o [atendedor automático do Exchange um para os scripts de migração do atendedor automático da nuvem](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) para simplificar a migração em massa de atendedores automáticos.
+
+### <a name="setup"></a>Instalação
+
+Recomendamos que você inicie a configuração de seus novos atendedores automáticos antecipadamente para evitar problemas de último minuto e para se familiarizar com a funcionalidade e a experiência do serviço de atendedor automático na nuvem. Para atendedores automáticos que exigem um ou mais recursos de lacuna, você pode criar e testar atendedores automáticos quando os recursos de lacuna estiverem disponíveis para se preparar para a implantação. Para obter mais informações sobre os recursos de espaço, consulte o [Apêndice](#appendix).
+
+1. Use os cmdlets do Exchange UMO para exportar a configuração de atendedores automáticos existentes usando [Get-UMAutoAttendant](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/get-umautoattendant).  
+2. Use o cmdlet [Export-UMprompt](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/export-umprompt) no PowerShell do Exchange Online para exportar os arquivos de mídia de saudação (se usados) e convertê-los em formato. mp3.
+3. Siga as instruções em [planejar atendedores automáticos da nuvem](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md) e [Configure um atendedor automático na nuvem](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) para criar atendedores automáticos usando o centro de administração do Microsoft Teams ou o PowerShell.
+4. Revise suas saudações se as opções do menu forem alteradas.
+5. Configure transferências para seus grupos de resposta usando a solução alternativa "transferência de chamada de atendedor automático para PSTN" na seção [problemas conhecidos](#known-issues) deste artigo.  
+6. Teste os novos atendedores automáticos. Para testar, chame-os internamente ou atribua um número de telefone de teste.  
+
+### <a name="cutover"></a>Transfira
+
+1. Mude os números de telefone dos atendedores automáticos do Exchange UMO para os novos atendedores automáticos.
+2. Mova o URI SIP do objeto de contato para a conta do recurso.
+3. Teste e valide seus atendedores automáticos usando os números de telefone atribuídos recentemente. 
 
 ## <a name="appendix"></a>Anexo
 
@@ -120,14 +140,14 @@ A Microsoft identificou várias implantações de clientes que estão consumindo
 | VIRTUAIS | Recursos do usuário | Gravar saudações pessoais (dispositivo autenticado) |  | S | S    |
 | VIRTUAIS | Recursos do usuário | Gravar mensagens pessoais (PSTN)-tocar no telefone |  | N | Y    |
 | VIRTUAIS | Recursos do usuário | Configuração do usuário para desabilitar a transcrição |  | N | Y    |
-| VIRTUAIS | Recursos do usuário | Transcrição  |  | S | S    |
-| VIRTUAIS | Recursos do usuário | Caixa postal Visual em todos os pontos de extremidade   | Com o controle de usuário para reproduzir, excluir, indicador de mensagem aguardando e status-alternar, em todos os pontos de extremidade compatíveis  | S | S    |
+| VIRTUAIS | Recursos do usuário | Transcrição  |  | Y | S    |
+| VIRTUAIS | Recursos do usuário | Caixa postal Visual em todos os pontos de extremidade   | Com o controle de usuário para reproduzir, excluir, indicador de mensagem aguardando e status-alternar, em todos os pontos de extremidade compatíveis  | Y | S    |
 | VIRTUAIS | Recursos do usuário | Formato de arquivo de áudio MP3 no Outlook    |  | Y | S    |
 | VIRTUAIS | Recursos do usuário | Controle de reprodução de velocidade variável |  | Y | S    |
 | VIRTUAIS | Recursos do usuário | Encaminhar um correio de voz  | Encaminhar um correio de voz recebido para outros usuários | Y | S    |
 | VIRTUAIS | Recursos do usuário | Enviar uma mensagem de voz para um grupo de usuários  |Transmissão de correio de voz   | N | Y   |
 | VIRTUAIS | Recursos do usuário | Notificação de correio de voz usando SMS    | Os usuários podem receber SMS quando tiverem um novo correio de voz    | N | Y    |
-| VIRTUAIS | Recursos do usuário | Idiomas de saudação suportados | Detalhes aqui:https://docs.microsoft.com/en-us/microsoftteams/what-are-phone-system-auto-attendants | Y | S    |
+| VIRTUAIS | Recursos do usuário | Idiomas de saudação suportados | Detalhes aqui:https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | Y | S    |
 | VIRTUAIS | Recursos do usuário | Regras de atendimento de chamada |  | Y | S    |
 | VIRTUAIS | Recursos do usuário | Executar no telefone (PSTN)-para reproduzir mensagem | Ligar para mim na minha célula para ouvir a mensagem de voz  | N | Y    |
 | VIRTUAIS | Recursos do usuário | Reproduzir no telefone (auth)-para reproduzir mensagem | Ligar para mim no meu dispositivo autenticado  | Y | S    |
@@ -136,10 +156,10 @@ A Microsoft identificou várias implantações de clientes que estão consumindo
 | VIRTUAIS | Recursos do chamador  | Experiência de chamadas — correio de voz privado | O chamador pode escolher uma opção para marcar uma mensagem gravada como particular  | N | Y    |
 | VIRTUAIS | Recursos do chamador  | Detecção de silêncio   |  | N | Y    |
 | VIRTUAIS | Locatário-recursos de administração | Correio de voz protegido no nível do servidor    | Locatário-o administrador pode configurar uma regra de nível de serviço para marcar o correio de voz recebido como protegido | Y | S    |
-| VIRTUAIS | Locatário-recursos de administração | Alterar o limite de tempo de duração da gravação  |     | Y | S    |
+| VIRTUAIS | Locatário-recursos de administração | Alterar o limite de tempo de duração da gravação  |     | S | S    |
 | VIRTUAIS | Locatário-recursos de administração | Alterar o tempo limite de detecção de silêncio    |  | N/D    | Y    |
 | VIRTUAIS | Locatário-recursos de administração | Alterar o número de falhas de entrada | CVM: embutido em código para 3 | N | Y    |
-| VIRTUAIS | Locatário-recursos de administração | Alterar o idioma padrão |  | Y | S    |
+| VIRTUAIS | Locatário-recursos de administração | Alterar o idioma padrão |  | S | S    |
 | VIRTUAIS | Locatário-recursos de administração | Desabilitar/habilitar transcrição |  | S | S    |
 | VIRTUAIS | Locatário-recursos de administração | Desabilitar/habilitar a notificação de chamada perdida |  | N | Y    |
 | VIRTUAIS | Locatário-recursos de administração | Ajude a Microsoft a melhorar a visualização da caixa postal    |  | S | S    |
@@ -153,7 +173,7 @@ A Microsoft identificou várias implantações de clientes que estão consumindo
 | Altere | Recursos do serviço | Suporte ao Microsoft Teams|  | Y | N    |
 | Altere | Recursos do serviço | Discar por nome, entrada DTMF    |  | S | S    |
 | Altere | Recursos do serviço | Discar por nome, entrada de fala  |  | S | S    |
-| Altere | Recursos do serviço | Suporte a vários idiomas | Detalhes da linguagem aqui:https://docs.microsoft.com/en-us/microsoftteams/what-are-phone-system-auto-attendants | S | S    |
+| Altere | Recursos do serviço | Suporte a vários idiomas | Detalhes da linguagem aqui:https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | S | S    |
 | Altere | Recursos do serviço | Transferir para o Operator, o CQ ou um usuário |  | S | S    |
 | Altere | Recursos do serviço | Transferir para o número PSTN internamente (RNL)  |  | S | S    |
 | Altere | Recursos do serviço | Transferir para o número PSTN externamente  |  | Veja a seção problemas conhecidos abaixo | Y    |
@@ -164,7 +184,7 @@ A Microsoft identificou várias implantações de clientes que estão consumindo
 | Altere | Recursos do serviço | Seleção de usuário personalizada  | Como habilitar os chamadores para acessar a lista personalizada de usuários da organização| S | S    |
 | Altere | Recursos do serviço | Tratamento de horas extras e feriados  |  | S | S    |
 | Altere | Recursos do serviço | Saudação personalizada usando texto para fala  |  | S | S    |
-| Altere | Recursos do serviço | Discagem de extensão   | Como alcançar um usuário ao discar a extensão dele  | CY19   | Y    |
+| Altere | Recursos do serviço | Discagem de extensão   | Como alcançar um usuário ao discar a extensão dele  | S   | S    |
 | Altere | Recursos do serviço | Caixa de correio para chamadores AA para deixar uma mensagem    |  | CY19   | Y    |
 | Altere | Recursos do serviço | Várias atribuições de números PSTN a um AA|  | S | S    |
 | Altere | Locatário-recursos de administração | Administração do portal da Web   |  | Y | N    |
@@ -201,13 +221,13 @@ Veja a seguir uma visão geral da experiência de migração de correio de voz d
 |Regras do Outlook para mensagens VM | Nenhuma alteração<br>As regras criadas anteriormente serão aplicadas às mensagens CVM após a migração.
  |
 
-#### <a name="user-management-and-provisioning-in-cvm"></a>Gerenciamento e provisionamento de usuários no CVM 
+#### <a name="user-management-and-provisioning-in-cvm"></a>Gerenciamento e provisionamento de usuários no CVM
 
 Os novos usuários do Skype for Business serão provisionados automaticamente para o correio de voz na nuvem quando criados. Não é preciso qualquer trabalho ou licença de administrador adicional para fornecer novos usuários de correio de voz. Consulte [Configurar o correio de voz na nuvem](/microsoftteams/set-up-phone-system-voicemail) para saber mais sobre o gerenciamento de políticas para usuários novos e existentes.
 
-#### <a name="admin-auto-attendant-management-experience"></a>Experiência de gerenciamento do atendedor automático do administrador 
+#### <a name="admin-auto-attendant-management-experience"></a>Experiência de gerenciamento do atendedor automático do administrador
 
-Para saber mais sobre atendedores automáticos, consulte [configurar um atendedor automático na nuvem](/MicrosoftTeams/create-a-phone-system-auto-attendant.md). 
+Para saber mais sobre atendedores automáticos, consulte [configurar um atendedor automático na nuvem](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant).
 
 #### <a name="known-issues"></a>Problemas conhecidos
 
@@ -217,14 +237,14 @@ Um problema foi identificado durante a garantia de qualidade com o recurso trans
  
 Experiência esperada
 - Os administradores não precisam licenciar o usuário virtual, uma vez que esta solução alternativa 
-- Os administradores podem manipular a identificação de chamadas que o receptor PSTN verá ao atribuir o número desejado ao usuário virtual ou usar os recursos de manipulação de dígitos de SBC 
+- Os administradores podem manipular a identificação de chamadas que o receptor PSTN verá ao atribuir o número desejado ao usuário virtual ou usar os recursos de manipulação de dígitos de SBC
 - Os chamadores PSTN não sofrerão atraso durante a transferência de chamadas e continuarão a ver a identificação de chamadas do atendedor automático após a transferência ser bem-sucedida  
 
 **Caixa de correio compartilhada:** Uma caixa de correio compartilhada que é configurada usando o Exchange UM online continuará a receber mensagens depois de migrar para o CVM e continuará a ser acessada pelos usuários via Outlook. No entanto, o acesso para alterar as mensagens de saudação dessas caixas de correio não estará disponível após a migração para o CVM. Os clientes com caixas de correio compartilhadas que são usadas para capturar chamadores de atendedor automáticos devem aproveitar os recursos de caixa de correio de atendedores automáticos e filas de caixa de correio compartilhadas depois de lançado (ETA de 2019 outubro
   
 **Atualize para a faixa do teams no cliente SFB:** O serviço CVM é baseado na infraestrutura do Microsoft Teams; as chamadas para o cliente Skype for Business podem fazer com que uma faixa de informações seja exibida no cliente que diz: "username não está usando o Skype for Business. Para uma experiência mais rica, mude para o Microsoft Teams ou inicie uma reunião do Skype. "
-Certifique-se de atualizar o cliente Skype for Business dos usuários para a atualização mais recente do cliente do C2R para impedir que essa faixa seja exibida. 
+Certifique-se de atualizar o cliente Skype for Business dos usuários para a atualização mais recente do cliente do C2R para impedir que essa faixa seja exibida.
   
-**Configurar o correio de voz leva você ao OWA:** Clicar em "configurar correio de voz" do cliente continuará a levar os clientes do Skype for Business Server 2015/2013 para a página do portal do Office Web Access (OWA) após a migração para o CVM. Todas as configurações foram removidas da guia correio de voz no OWA, e uma faixa será exibida com um link de redirecionamento para levar os usuários ao portal de configurações do usuário do CVM. 
+**Configurar o correio de voz leva você ao OWA:** Clicar em "configurar correio de voz" do cliente continuará a levar os clientes do Skype for Business Server 2015/2013 para a página do portal do Office Web Access (OWA) após a migração para o CVM. Todas as configurações foram removidas da guia correio de voz no OWA, e uma faixa será exibida com um link de redirecionamento para levar os usuários ao portal de configurações do usuário do CVM.
  
-**Alterar o acesso móvel à saudação:** O acesso ao Assinante PSTN não é compatível com o CVM. Para os usuários que precisam alterar a saudação remotamente, uma opção de menu "alterar sua saudação" é adicionada ao serviço IVR de correio de voz para clientes móveis. Os usuários podem chamar esse serviço pressionando e mantendo a tecla "1" no teclado de discagem do cliente móvel. 
+**Alterar o acesso móvel à saudação:** O acesso ao Assinante PSTN não é compatível com o CVM. Para os usuários que precisam alterar a saudação remotamente, uma opção de menu "alterar sua saudação" é adicionada ao serviço IVR de correio de voz para clientes móveis. Os usuários podem chamar esse serviço pressionando e mantendo a tecla "1" no teclado de discagem do cliente móvel.

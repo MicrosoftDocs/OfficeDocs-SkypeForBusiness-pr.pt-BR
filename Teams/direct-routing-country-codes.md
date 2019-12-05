@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Leia este artigo para localizar códigos de país do caminho de mídia para roteamento direto.
-ms.openlocfilehash: 8607b6720104e743243851ad7edac20811ecd29f
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 277544a5b169c2e2e17cea530239e992321d3d46
+ms.sourcegitcommit: c6d0da888ceb13f38bae139a1ced428e121e60b5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572207"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39837563"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>Código de caminho de mídia de roteamento direto
 
@@ -46,7 +46,7 @@ A tabela a seguir mostra os valores de código de país para o parâmetro-MediaR
 | Samoa Americana  | COMO |
 | Andorra         | AD |
 | Angola          | AO |
-| Anguilla        | AL |
+| Anguilla        | AI |
 | Horário      | CAPTURA | 
 | Antígua e Barbuda | AG |
 | Argentina       | AR |
@@ -155,7 +155,7 @@ A tabela a seguir mostra os valores de código de país para o parâmetro-MediaR
 | Japão           | JP |
 | Jersey          | JE |
 | Jordânia          | Joana |
-| Cazaquistão       | KZ |
+| Cazaquistão      | KZ |
 | Quênia           | KE |
 | Kiribati        | KI |
 | Coreia           | KR |
