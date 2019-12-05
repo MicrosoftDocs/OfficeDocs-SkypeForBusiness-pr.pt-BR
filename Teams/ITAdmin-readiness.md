@@ -10,7 +10,6 @@ ms.topic: landing-page
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Training
 - M365-collaboration
 search.appverid: MET150
 f1keywords:
@@ -18,12 +17,12 @@ f1keywords:
 description: Vídeos de treinamento, apresentações do PowerPoint, tutoriais e outros recursos para administradores sobre como planejar, implantar e executar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ba3b888a598f0cb3348fd50fe1dfd549a988553
-ms.sourcegitcommit: 472825b0f4db1542a5b855d637aa90b4bcd797bc
-ms.translationtype: HT
+ms.openlocfilehash: 55ac7c4adf51e920aba2a8eed0f0d6c5aa83ca36
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "36993939"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "37563875"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Treinamento para o administrador do Microsoft Teams
 
