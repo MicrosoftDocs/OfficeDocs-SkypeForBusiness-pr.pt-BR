@@ -15,18 +15,18 @@ description: Obtenha ajuda para solucionar problemas e corrigir problemas de ace
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 2931a3f5440492aa1ab99a53cd196ab2973eb122
-ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
+ms.openlocfilehash: e0a3530b7a1f9029d9f671d0a02ef58cbb7907bf
+ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38311256"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871727"
 ---
 <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Solucionar problemas de acesso de convidado no Microsoft Teams
 ======================================================
 
 > [!IMPORTANT]
-> [!OBSERVAçãO] Talvez você precise aguardar até 24 horas para que as configurações entrem em vigor. 
+> Talvez seja necessário aguardar até 24 horas para que as alterações entrem em vigor. 
 
 
 - Para verificar os problemas de suporte atuais com o acesso de convidado no Teams, vá para solução de problemas do Microsoft [Teams](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/).
