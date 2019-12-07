@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: A Microsoft está desativando o serviço online de Unificação de mensagens do Exchange (ExchUMO) em fevereiro de 2020. Este artigo resume o que os clientes afetados devem saber e fazer para planejar sua continuidade de negócios.
-ms.openlocfilehash: 6fe0436d0ae4df2b4eb56a3c84319770b45f3139
-ms.sourcegitcommit: b8e16703e4611ca2bde55896ec158b33be4f9ba0
+ms.openlocfilehash: 8b8a0590dd53301a93fb9a6b2ed50e0d5dc830ed
+ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39842463"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39890575"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Suporte à migração da Unificação de Mensagens do Exchange Online
 
@@ -99,7 +99,7 @@ A Microsoft identificou várias implantações de clientes que estão consumindo
 
 ## <a name="auto-attendant-migration-guidelines"></a>Diretrizes de migração do atendedor automático
 
-Os administradores do locatário do Office 365 são obrigados a recriar seus atendedores automáticos online do Exchange UM no serviço de atendedor automático do Microsoft Cloud e alternar os números de telefone locais para eles antes de 1 ° de fevereiro de 2020, que é quando o serviço do Exchange UMO será continua. Esta é a diretriz recomendada para migrar e testar com êxito novos atendedores automáticos de nuvem. Se você tiver um grande número de atendedores automáticos, poderá usar o [atendedor automático do Exchange um para os scripts de migração do atendedor automático da nuvem](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) para simplificar a migração em massa de atendedores automáticos.
+Os administradores do locatário do Office 365 são obrigados a recriar seus atendedores automáticos online do Exchange UM no serviço de atendedor automático do Microsoft Cloud e alternar os números de telefone locais para eles antes de 28 de fevereiro de 2020, que é quando o serviço do Exchange UMO será continua. Esta é a diretriz recomendada para migrar e testar com êxito novos atendedores automáticos de nuvem. Se você tiver um grande número de atendedores automáticos, poderá usar o [atendedor automático do Exchange um para os scripts de migração do atendedor automático da nuvem](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) para simplificar a migração em massa de atendedores automáticos.
 
 ### <a name="setup"></a>Instalação
 

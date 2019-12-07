@@ -1,5 +1,5 @@
 ---
-title: Usar o serviço de migração de reunião (MMS)
+title: Usando o Meeting Migration Service (MMS)
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,14 +21,14 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: O serviço de migração de reunião (MMS) é um serviço executado em segundo plano e atualiza automaticamente as reuniões do Skype for Business e do Microsoft Teams para usuários. MMS is designed to eliminate the need for users to run the Meeting Migration Tool to update their Skype for Business and Microsoft Teams meetings.
-ms.openlocfilehash: 3f643f20937fd13b0d9576640487da30f17dd7bf
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 91fcc1b95e107f36a55516e7f459eb8fae581bbe
+ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772275"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39890525"
 ---
-# <a name="using-the-meeting-migration-service-mms"></a>Usar o serviço de migração de reunião (MMS)
+# <a name="using-the-meeting-migration-service-mms"></a>Usando o Meeting Migration Service (MMS)
 
 O serviço de migração de reunião (MMS) é o serviço que atualiza as reuniões existentes de um usuário nos seguintes cenários:
 
@@ -128,7 +128,7 @@ Além das migrações automáticas de reunião, os administradores podem dispara
 **SourceMeetingType:**
 - Usar `SourceMeetingType SfB` indica que somente as reuniões do Skype for Business (sejam locais ou online) devem ser atualizadas.
 - Usar `SourceMeetingType Teams` indica que apenas reuniões de equipes devem ser atualizadas.
-- Usar `SourceMeetingType All` indica que as reuniões do Skype para empresas e reuniões de equipe devem ser atualizadas. Esse é o valor padrão para SourceMeetingType.
+- Usar `SourceMeetingType All` indica que as reuniões do Skype for Business e as reuniões de equipes devem ser atualizadas. Esse é o valor padrão para SourceMeetingType.
     
 
 O exemplo a seguir mostra como iniciar a migração de reunião para o usuário ashaw@contoso.com para que todas as reuniões sejam migradas para o Teams:

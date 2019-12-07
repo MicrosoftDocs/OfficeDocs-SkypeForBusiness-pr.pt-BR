@@ -5,7 +5,6 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 03/14/2019
 ms.topic: landing-page
 ms.service: msteams
 audience: admin
@@ -17,12 +16,12 @@ f1keywords:
 description: Vídeos de treinamento, apresentações do PowerPoint, tutoriais e outros recursos para administradores sobre como planejar, implantar e executar o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55ac7c4adf51e920aba2a8eed0f0d6c5aa83ca36
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: e0fd8f08094549e26612872b73d42b96cbbb0080
+ms.sourcegitcommit: 2fd1fcb0e5944f36261e551df04819713d868a11
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37563875"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39886178"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Treinamento para o administrador do Microsoft Teams
 
@@ -91,14 +90,15 @@ Use os recursos de treinamento para se instruir sobre o Teams, ensinar outras pe
 
 | Módulo | Vídeo | Apresentação do PowerPoint |
 | ------------ | -------------------- | -------------------- |
+| [Microsoft mecânica – fundamentos do teams para IT o canal do YouTube](https://aka.ms/MicrosoftTeamsforIT) | [Vídeo: Noções básicas sobre o Microsoft Teams](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 min)<br>[Vídeo: implantar & configurar equipes-introdução](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 min)  ||
 | Fundações - Componentes Principais | [Vídeo](https://aka.ms/teams-foundations) | [Apresentação](https://aka.ms/teams-foundations-deck) |
 | Cliente da área de trabalho do Windows | [Vídeo](https://aka.ms/teams-clients) | [Apresentação](https://aka.ms/teams-clients-deck) |
 | Governança, gerenciamento e ciclo de vida | [Vídeo](https://aka.ms/teams-governance) | [Apresentação](https://aka.ms/teams-governance-deck) |
 | Conformidade e Segurança | [Vídeo](https://aka.ms/teams-security-compliance) | [Apresentação](https://aka.ms/teams-security-compliance-deck) |
 | Planejamento de rede | [Vídeo](https://aka.ms/teams-networking) | [Apresentação](https://aka.ms/teams-networking-deck) |
 | Visão geral de qualidade de chamadas | [Vídeo](https://aka.ms/teams-quality) | [Apresentação](https://aka.ms/teams-quality-deck) |
-| Introdução às reuniões | [Vídeo](https://aka.ms/teams-meetings-intro) | [Apresentação](https://aka.ms/teams-meetings-intro-deck) |
-| Mídia |[Video](https://aka.ms/media-in-teams)  | [Apresentação](https://aka.ms/media-in-teams-deck)|
+| Introdução às reuniões | [Video](https://aka.ms/teams-meetings-intro) | [Apresentação](https://aka.ms/teams-meetings-intro-deck) |
+| Mídia |[Vídeo](https://aka.ms/media-in-teams)  | [Apresentação](https://aka.ms/media-in-teams-deck)|
 | Eventos ao vivo | [Vídeo](https://aka.ms/teams-live-events-session) | [Apresentação](https://aka.ms/teams-live-events-deck) |
 | Introdução ao sistema de telefonia | [Vídeo](https://aka.ms/teams-phone-system) | [Apresentação](https://aka.ms/teams-phone-system-deck) |
 | Roteamento Direto | [Vídeo](https://aka.ms/teams-direct-routing) | [Apresentação](https://aka.ms/teams-direct-routing-deck) |
