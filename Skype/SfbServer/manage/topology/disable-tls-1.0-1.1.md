@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Resumo: preparar e implementar a desabilitação do TLS 1,0 e do 1,1 em seus ambientes.'
-ms.openlocfilehash: ce158aeaa84e00367b265404fe3d3407606f4759
-ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
+ms.openlocfilehash: f6fa608174bc22bc91512a69cc67a688b9bc7bb9
+ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "38077434"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39919305"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Desabilitar TLS 1.0/1.1 no Skype for Business Server 2015
 
@@ -140,11 +140,11 @@ Uma atualização de dependência extensa é necessária antes de começar a des
 - Skype for Business Server 2015 CU9 6.0.9319.548 (2019 de maio) ou superior
 - [.NET Framework 4,7](https://www.microsoft.com/download/details.aspx?id=55167) ou superior com o SchUseStrongCrypto habilitado no registro (fornecido abaixo)
 - O SQL deve ser atualizado em todos os servidores do Skype for Business 2015 e nos back-ends. Atualize o pool de SQL do pool do SQL back ends primeiro e depois o respectivo FEs. 
-    - SQL Server 2014 SP1 + CU5 ([link](https://support.microsoft.com/help/3130926)) ou superior/sql Server 2012 SP2 + CU16 ou superior/sql Server 2014 RTM + CU12 ([link](https://support.microsoft.com/help/3130923/cumulative-update-12-for-sql-server-2014)) ou superior/SQL Server 2014 SP2
-     - SQL Server Native Client para SQL Server 2012 ([link](https://www.microsoft.com/download/details.aspx?id=50402))
-     - Microsoft ODBC Driver 11 para SQL Server ([link](https://www.microsoft.com/download/details.aspx?id=36434)) ou superior
-     - Objetos de gerenciamento compartilhado para SQL Server 2014 SP2 ([link](https://www.microsoft.com/download/details.aspx?id=42295))
-     - SQLSysClrTypes para SQL Server 2014 SP2 ([link](https://www.microsoft.com/download/details.aspx?id=42295))
+    - [SQL server 2014 SP1 + CU5](https://support.microsoft.com/help/3130926)ou superior/sql Server 2012 SP2 + CU16 ou superior/ [SQL Server 2014 RTM + CU12](https://support.microsoft.com/help/3130923/cumulative-update-12-for-sql-server-2014)ou superior/SQL Server 2014 SP2
+     - [SQL Server Native Client para SQL Server 2012](https://www.microsoft.com/download/details.aspx?id=50402)
+     - [Microsoft ODBC Driver 11 para SQL Server](https://www.microsoft.com/download/details.aspx?id=36434)ou superior
+     - [Objetos de gerenciamento compartilhado para SQL Server 2014 SP2](https://www.microsoft.com/download/details.aspx?id=53164)
+     - [SQLSysClrTypes para SQL Server 2014 SP2](https://www.microsoft.com/download/details.aspx?id=42295)
 
 ### <a name="basic-steps-to-install-pre-requisites-in-recommended-order-of-operations"></a>Etapas básicas para instalar pré-requisitos, em ordem de operações recomendada
 

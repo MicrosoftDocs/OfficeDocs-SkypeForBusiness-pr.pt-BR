@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Saiba como usar guias internas e personalizadas para incluir recursos, como conversas, arquivos, mapas e muito mais.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3cec2b6bef02eaa334bcd50d225edd1f579df038
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: a4a07a8e6469de812dfc440119e5f53bcf393c03
+ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39209107"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39909357"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Usar guias internas e personalizadas no Microsoft Teams
 ==================================================
@@ -53,9 +53,7 @@ Os proprietários e membros da equipe podem incluir guias em um canal, chat priv
 
 ## <a name="develop-custom-tabs"></a>Desenvolvimento de guias personalizadas
 
-Além das guias internas, você pode criar e desenvolver suas próprias guias para integrar-se a equipes ou compartilhar com o restante da Comunidade. Você pode [controlar o acesso à sua guia personalizada](https://docs.microsoft.com/microsoftteams/platform/get-started/design#streamline-access) Configurando os grupos apropriados do Office 365.
-
-A Microsoft Developer Network oferece [exemplos de guias](https://docs.microsoft.com/MicrosoftTeams/platform/samples/code-samples) desenvolvidos pela Microsoft que você pode baixar e [instruções detalhadas](https://docs.microsoft.com/MicrosoftTeams/platform/tabs/design/tabs) para projetar e criar suas próprias guias.
+Além das guias internas, você pode criar e desenvolver suas próprias guias para integrar-se a equipes ou compartilhar com o restante da Comunidade. Consulte a [documentação do desenvolvedor](/microsoftteams/platform/tabs/what-are-tabs) para obter mais informações.
 
 ![Captura de tela de um exemplo de guia personalizada no Microsoft Teams.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
 

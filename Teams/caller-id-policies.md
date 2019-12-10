@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar e gerenciar políticas de identificação de chamadas no Microsoft Teams para alterar ou bloquear a identificação de chamadas de usuários do teams em sua organização.
-ms.openlocfilehash: 95d1a2e836e79158ffc6e9f48d46decca31e01ca
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: b30f2f8650d1d875c56254d99efddb2f5fdbb5d0
+ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517005"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39919365"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Gerenciar políticas de identificação de chamadas no Microsoft Teams
 
@@ -44,7 +44,7 @@ Você pode editar a política global ou criar e atribuir uma política personali
 4. Aqui, escolha as configurações desejadas:
 
     - **Bloquear a identificação**de chamadas de entrada: Ative essa configuração para impedir que a identificação de chamadas de chamadas de entrada seja exibida.
-    - **Os usuários podem substituir a política de identificação de chamadas**: Ative essa configuração para permitir que os usuários substituam as configurações na política. Isso significa que os usuários podem escolher se a identificação de chamadas será exibida ou bloquear a identificação de chamadas de entrada.
+    - **Os usuários podem substituir a política de identificação de chamadas**: Ative essa configuração para permitir que os usuários substituam as configurações na política para exibir seu número para chamar ou não. Isso significa que os usuários podem escolher se desejam exibir a identificação de chamadas.
     - **Substituir identificação de chamadas**: defina a identificação de chamadas a ser exibida para os usuários selecionando uma das seguintes opções:
 
         - **Número do usuário**: exibe o número do usuário. 
@@ -80,9 +80,9 @@ Para atribuir uma política de ID de linha de chamada personalizada a vários us
 Ou, você também pode fazer o seguinte:
 
 1. Vá para**políticas de identificação de chamadas**de**voz** > do centro > de **Administração do Microsoft Teams**.
-2. Selecione a política clicando à esquerda do nome da política.
-3. Selecione **gerenciar usuários**.
-4. No painel **gerenciar usuários** , procure pelo usuário por nome para exibição ou por nome de usuário, selecione o nome e, em seguida, selecione **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
+2. Escolha a política clicando à esquerda do nome da política.
+3. Escolha **Gerenciar usuários**.
+4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
 5. Quando tiver terminado de adicionar usuários, selecione **salvar**.
 
 ### <a name="assign-a-custom-caller-id-policy-to-users-in-a-group"></a>Atribuir uma política de identificação de chamadas personalizada a usuários em um grupo

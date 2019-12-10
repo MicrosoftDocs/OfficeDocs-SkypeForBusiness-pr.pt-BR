@@ -18,12 +18,12 @@ f1keywords:
 - ms.teamsadmincenter.deploymentadvisor.overview
 ms.custom: ''
 description: Use o Assistente do Teams (versão prévia) para ajudá-lo a planejar e concluir a implantação do Microsoft Teams.
-ms.openlocfilehash: f7de348c6f8ca60cc1d062fce79725b4b18d0350
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: 63a3ae01dbe47323fd9227e65fa8c38a2d725ddf
+ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39209187"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39909467"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Use o Assistente do Teams para ajudá-lo na implantação do Microsoft Teams
 
@@ -35,6 +35,8 @@ O Assistente do Teams faz parte do [centro de administração do Teams](https://
 
 > [!IMPORTANT]
 > O Assistente do Teams não está disponível para implantações do Office 365 U.S. Government DoD ou GCC High.
+
+Consulte nosso Assistente do Teams nesse vídeo de [Introdução à Implantação e Configuração do Teams](https://youtu.be/o2mlsUubIO4?t=44) (Assistente do Teams está entre 0:50 – 3:15 minutos)  
 
 ## <a name="using-advisor-for-teams-preview"></a>Usando o Assistente do Teams (versão prévia)
 
