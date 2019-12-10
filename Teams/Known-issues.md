@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78e5a420bdadf7417388aef48679b28e438aeec4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f800fd9e22eb40753a6bd951f548c4bc16499147
+ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37563883"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39919153"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -37,7 +37,7 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|A política de EAF no EMET (Kit de Ferramentas Avançado de Experiência de Redução) pode identificar incorretamente as otimizações da área restrita do Chromium como ameaças. <br/> |Há um problema com a área restrita do Chromium no qual a política de EAF (Filtragem de Acesso à Tabela de Endereços de Exportação) no EMET (Kit de Ferramentas Avançado de Experiência de Redução) e no ATP pode identificar incorretamente as otimizações de área restrita do Chromium como ameaças. Isso faz com que o Microsoft Teams não funcione corretamente.  <br/> | Para contornar esse problema, desative o EAF para o Microsoft Teams. Você pode ler mais sobre o assunto em [Diretrizes de mitigação de EMET](https://support.microsoft.com/pt-BR/help/2909257/emet-mitigations-guidelines) Para obter mais informações sobre a política de ATP e EAF do Windows Defender, veja [Personalizar a proteção contra explorações](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/customize-exploit-protection) <br/> |11/10/2018 <br/> |
+|A política de EAF no EMET (Kit de Ferramentas Avançado de Experiência de Redução) pode identificar incorretamente as otimizações da área restrita do Chromium como ameaças. <br/> |Há um problema com a área restrita do Chromium no qual a política de EAF (Filtragem de Acesso à Tabela de Endereços de Exportação) no EMET (Kit de Ferramentas Avançado de Experiência de Redução) e no ATP pode identificar incorretamente as otimizações de área restrita do Chromium como ameaças. Isso faz com que o Microsoft Teams não funcione corretamente.  <br/> | Para contornar esse problema, desative o EAF para o Teams. Você pode ler mais sobre o assunto em [Diretrizes de mitigação de EMET](https://support.microsoft.com/pt-BR/help/2909257/emet-mitigations-guidelines) Para obter mais informações sobre a política de ATP e EAF do Windows Defender, veja [Habilitar a proteção contra explorações](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/enable-exploit-protection) <br/> |11/10/2018 <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
@@ -51,7 +51,7 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|O [Acesso Condicional](https://docs.microsoft.com/pt-BR/azure/active-directory/conditional-access/overview) pode não funcionar ao usar a guia "Site" no aplicativo da área de trabalho<br/> |Se um site, como um portal de intranet, tiver políticas de acesso condicional (como restrições de navegador ou endereço IP), esse site poderá não ser renderizado como uma guia dentro do Teams no aplicativo da área de trabalho. <br/> |Use o Teams em um navegador em vez de usar o aplicativo da área de trabalho.  <br/> |1/7/18  <br/> |
+|O [Acesso Condicional](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) pode não funcionar ao usar a guia "Site" no aplicativo da área de trabalho<br/> |Se um site, como um portal de intranet, tiver políticas de acesso condicional (como restrições de navegador ou endereço IP), esse site poderá não ser renderizado como uma guia dentro do Teams no aplicativo da área de trabalho. <br/> |Use o Teams em um navegador em vez de usar o aplicativo da área de trabalho.  <br/> |1/7/18  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
@@ -173,6 +173,44 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |O Wiki não é criado para canais criados por convidados  <br/> |Quando um convidado cria um novo canal, a guia **Wiki** não é criada. Não existe forma de anexar manualmente a guia **Wiki** ao canal. <br/> |Não há solução alternativa.  <br/> |20/09/2017  <br/>|
+
+## <a name="linux"></a>Linux
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|O AutoStart no Linux não está funcionando. <br/> |O AutoStart no Linux não inicia o aplicativo Teams. <br/> | <br/> |05/12/19  <br/>|
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Tela branca ao retomar da suspensão. <br/> |Quando o computador é retomado/despertado do modo de suspensão, pode haver uma alteração de rede (especialmente quando o computador está conectado à VPN antes de ser colocado em suspensão) e demora algum tempo para que o computador obtenha novamente a conexão. A combinação dessas coisas pode levar a uma tela branca no Teams. <br/> |Será útil reiniciar o cliente Teams.  <br/> |05/12/19  <br/>|
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Cursor ausente no compartilhamento de tela. <br/> |Ao compartilhar a tela, a outra parte não vê o cursor da pessoa que está compartilhando a tela. <br/> | <br/> |05/12/19  <br/>|
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Problema na execução em paralelo com o VMWare workstation. <br/> |O aplicativo Teams enfrenta problemas ao ser executado paralelamente com o VMWare workstation. <br/> | <br/> |05/12/19  <br/>|
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Notificações no KDE criam uma nova barra de tarefas.<br/> |Notificação no KDE criam uma nova janela na barra de tarefas. <br/> | <br/> |05/12/19  <br/>|
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Os gerenciadores de pacotes não mostram a lista de alterações. <br/> |O gerenciador de pacotes não mostra a lista de alterações. <br/> | <br/> |05/12/19  <br/>|
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Não é possível iniciar o cliente Teams no modo offline. <br/> |Não é possível iniciar o Teams Offline no cliente do Linux. <br/> | <br/> |05/12/19  <br/>|
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Configurações de dispositivo durante a reunião. <br/> |Quando estiver em uma reunião e alterar as configurações do dispositivo, o indicador do Microfone não registrará nada que está sendo capitado. <br/> | <br/> |05/12/19  <br/>|
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Não é possível fechar o aplicativo Teams usando o teclado. <br/> |Não é possível fechar o aplicativo Teams usando a `$mod + shift + q` padrão ou clicando no botão fechar no aplicativo. <br/> | <br/> |05/12/19  <br/>|
 
 ## <a name="meetings"></a>Reuniões
 
