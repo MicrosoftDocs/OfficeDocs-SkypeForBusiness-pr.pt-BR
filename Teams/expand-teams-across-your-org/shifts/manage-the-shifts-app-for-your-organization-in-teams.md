@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52d4410393398e28c1f7ade4af70901703a09418
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 6bd65376be278a3d07e5a7a8c4ba69ccd5408090
+ms.sourcegitcommit: a23f45ab3a2cb7b5c279356edddf61c4030c41bd
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568714"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39961606"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gerencie o aplicativo Turnos para sua organização no Microsoft Teams
 
@@ -37,9 +37,7 @@ O aplicativo turnos no Microsoft Teams mantém os trabalhadores de primeiro luga
 
 ## <a name="availability-of-shifts"></a>Disponibilidade de turnos
 
-Os turnos estão disponíveis em todas as assinaturas do Office 365 que incluem equipes, com algumas exceções. As exceções são comunidade de nuvens do governo dos EUA (GCC) e equipes grátis. Os turnos não estão disponíveis no Office 365 governo dos EUA ou ofertas grátis do teams.
-
-Para saber mais sobre licenciamento para equipes, incluindo uma lista de assinaturas do Office 365 que incluem o Teams, consulte [Licenciamento do office 365 para Teams](../../Office-365-licensing.md).
+Os turnos estão disponíveis em todos os SKUs corporativos nos quais o Microsoft Teams está disponível.
 
 ## <a name="location-of-shifts-data"></a>Local dos dados de turnos
 
