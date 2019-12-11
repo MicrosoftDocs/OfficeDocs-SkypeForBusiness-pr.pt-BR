@@ -353,6 +353,7 @@
 #### [Códigos do país do caminho da mídia](direct-routing-country-codes.md)
 #### [Script do PowerShell para testar conexões de controlador de borda da sessão](sip-tester-powershell-script.md)
 #### [Gerenciar notificações de chamadas](direct-routing-call-notifications.md)
+#### [Configurar o bot de retorno de toque](direct-routing-ringback-bot.md)
 
 ## Telefones
 ### [Gerenciar números de telefone para sua organização](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
