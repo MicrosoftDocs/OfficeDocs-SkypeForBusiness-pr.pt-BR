@@ -14,18 +14,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Saiba como usar e gerenciar políticas de roteamento de chamadas de emergência para o recurso de E911 dinâmico no Microsoft Teams.
+description: Saiba como usar e gerenciar políticas de roteamento de chamadas de emergência no Microsoft Teams.
 f1keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: aed3b3d3cbd1023a3370c3c271e07a61179447da
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 704becbffc0168c10ab9f357a6f6ffe8431790d2
+ms.sourcegitcommit: 5243494676ffa039fc0a32e6279e5a9a05675eec
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615801"
+ms.lasthandoff: 12/12/2019
+ms.locfileid: "39986952"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Gerenciar políticas de roteamento de chamadas de emergência no Microsoft Teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Se você implantou o roteamento direto do sistema telefônico em sua organização, poderá usar as políticas de roteamento de chamadas de emergência no Microsoft Teams para configurar os números de emergência e especificar como as chamadas de emergência serão roteadas. Uma política de roteamento de chamadas de emergência determina se os serviços de emergência avançados estão habilitados para usuários que receberam a política, os números usados para chamar serviços de emergência (por exemplo, 911 nos Estados Unidos) e como as chamadas para serviços de emergência são roteadas.
 
@@ -45,6 +43,8 @@ Se você tiver atribuído uma política de roteamento de chamadas de emergência
 4. Para habilitar serviços de emergência avançados, ative os **serviços de emergência avançados**. Quando os serviços de emergência aprimorados são habilitados, o Teams recupera informações de política e local do serviço e inclui essas informações como parte da chamada de emergência.
 5. Defina um ou mais números de emergência. Para fazer isso, em **números de emergência**, faça o seguinte:
     1. **Cadeia de discagem de emergência**: digite a cadeia de caracteres de discagem de emergência. Esta cadeia de caracteres de discagem indica que uma chamada é uma chamada de emergência.
+        > [!NOTE]
+        > Para roteamento direto, estamos migrando de clientes do teams que enviam chamadas de emergência com "+" na frente da cadeia de discagem de emergência. Até que a transição seja concluída, o padrão de rota de voz para corresponder a uma cadeia de discagem de emergência deve garantir que seja feita uma correspondência para cadeias de caracteres que tenham e não tenham um "+" anterior, como 911 e + 911. Por exemplo, ^\+? 911 ou. *.
     2. **Máscara de discagem de emergência**: para cada número de emergência, você pode especificar zero ou mais máscaras de discagem de emergência. Uma máscara de discagem é o número que você deseja traduzir para o valor da cadeia de caracteres de discagem de emergência. Isso permite que números de emergência alternativos sejam discados e ainda que a chamada atinja serviços de emergência. <br>Por exemplo, você adiciona 112 como a máscara de discagem de emergência, que é o número do serviço de emergência para a maioria da Europa e 911 como a cadeia de discagem de emergência. Um usuário do teams da Europa que está visitando talvez não saiba que 911 é o número de emergência nos Estados Unidos e, quando discam o 112, a chamada é feita ao 911. Para definir várias máscaras de discagem, separe cada valor por um ponto-e-vírgula. Por exemplo, 112; 212.
     3. **Uso de PSTN**: selecione o uso da rede telefônica pública comutada (PSTN). O uso de PSTN é usado para determinar qual rota é usada para direcionar chamadas de emergência de usuários que estão autorizados a usá-las. O roteiro associado a esse uso deve apontar para um tronco SIP dedicado a chamadas de emergência ou para um gateway de número de identificação de local de emergência (ELIN) que roteia as chamadas de emergência para o ponto de resposta de segurança pública mais próximo (PSAP).
 

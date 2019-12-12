@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 78271e193cb3e74cf2d9c363517546f61b5587ea
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 686b0bc48cd2f6df590172d53618d96ca775aae0
+ms.sourcegitcommit: 1bb776e6c03086ca997d45b9b44660c4e426e8a4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570298"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39984531"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Gerenciar políticas de permissões de aplicativo no Microsoft Teams
 
@@ -48,7 +48,7 @@ Use as configurações de aplicativo de toda a organização para controlar quai
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para > **políticas de permissão**de **aplicativos do teams**.
 2. Selecione **configurações de toda a organização**. Em seguida, você pode definir as configurações desejadas no painel. 
-    ![Captura de tela da política de permissão de novo aplicativo](media/app-permission-policies-org-wide-settings.png)
+    ![Captura de tela das configurações de aplicativo de toda a organização](media/app-permission-policies-org-wide-settings.png)
 3. Em **aplicativos de terceiros**, desative ou ative essas configurações para controlar o acesso a aplicativos de terceiros:
 
     - **Permitir aplicativos de terceiros ou personalizados no Microsoft Teams**: isso controla se os usuários podem usar aplicativos personalizados ou de terceiros.
@@ -106,8 +106,8 @@ Para atribuir uma política a vários usuários de uma vez, consulte [Editar con
 Ou, você também pode fazer o seguinte:
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para > **políticas de permissão**de **aplicativos do teams**.
-2. Selecione a política clicando à esquerda do nome da política.
-3. Selecione **gerenciar usuários**.
+2. Escolha a política clicando à esquerda do nome da política.
+3. Escolha **Gerenciar usuários**.
 4. No painel **gerenciar usuários** , procure pelo usuário por nome para exibição ou por nome de usuário, selecione o nome e clique em **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
 5. Quando tiver terminado de adicionar usuários, clique em **salvar**.
 
@@ -130,7 +130,7 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 Atribua todos os usuários do grupo a uma política de permissão de aplicativo específica. Neste exemplo, a política de permissão do aplicativo em RH.
 ```
-$members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App Permission Policy" -Identity $_.EmailAddress}
+$members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App Permission Policy" -Identity $_.UserPrincipalName}
 ``` 
 Dependendo do número de membros do grupo, esse comando pode levar alguns minutos para ser executado.
 
