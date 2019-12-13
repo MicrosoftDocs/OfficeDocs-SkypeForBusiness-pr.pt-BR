@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Saiba como configurar o roteamento direto do sistema de telefonia da Microsoft.
-ms.openlocfilehash: a15b679dfa5ac74c6c78242ac40b00e2f24f75a4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 55f4fbb0f4faa70f73c742e8e849bc258dbfd481
+ms.sourcegitcommit: c2e315d0fcec742d2e1ba5ad90dffd1a1157a466
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572218"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40002295"
 ---
 # <a name="configure-direct-routing"></a>Configurar o Roteamento Direto
 
@@ -110,15 +110,15 @@ A tabela a seguir lista os parâmetros adicionais que você pode usar em definin
 |Necessário?|Nome|Descrição|Padrão|Valores possíveis|Tipo e restrições|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Sim|FQDN|O nome FQDN do SBC |Nenhum|Nome do NoneFQDN, limite de 63 caracteres|Cadeia de caracteres, lista de caracteres permitidos e não permitidos em [convenções de nomenclatura no Active Directory para computadores, domínios, sites e UOs](https://support.microsoft.com/help/909264)|
-|Não|MediaBypass |O parâmetro indicado do SBC dá suporte à bypass de mídia e o administrador deseja usá-la.|Nenhum|Verdadeiro<br/>False|Boolean|
+|Não|MediaBypass |O parâmetro indicado do SBC dá suporte à bypass de mídia e o administrador deseja usá-la.|Nenhum|Verdadeiro<br/>Falso|Boolean|
 |Sim|SipSignallingPort |Porta de escuta usada para comunicação com serviços de roteamento direto usando o protocolo TLS (Transport Layer Security).|Nenhum|Qualquer porta|0 a 65535 |
 |Não|FailoverTimeSeconds |Quando definido como 10 (valor padrão), as chamadas de saída que não são respondidas pelo gateway em 10 segundos são roteadas para o próximo tronco disponível; Se não houver troncos adicionais, a chamada será automaticamente cancelada. Em uma empresa com redes e respostas de gateway lentas, que poderia resultar em chamadas desligadas desnecessariamente. O valor padrão é 10.|254|Número|Núm|
-|Não|ForwardCallHistory |Indica se as informações do histórico de chamada serão encaminhadas por meio do tronco. Se habilitado, o proxy PSTN do Office 365 envia dois cabeçalhos: histórico-informações e referenciado por. O valor padrão é **false** ($false). |False|Verdadeiro<br/>False|Boolean|
-|Não|ForwardPAI|Indica se o header de P-Asserted-Identity (PAI) será encaminhado junto com a chamada. O header PAI oferece uma forma de verificar a identidade do chamador. Se habilitado, o cabeçalho de identificação privacidade: também será enviado. O valor padrão é **false** ($false).|False|Verdadeiro<br/>False|Boolean|
-|Não|SendSIPOptions |Define se um SBC irá ou não enviará as opções de SIP. Se desabilitado, o SBC será excluído do sistema de monitoramento e alerta. É altamente recomendável que você ative as opções do SIP. O valor padrão é **true**. |Verdadeiro|Verdadeiro<br/>False|Boolean|
+|Não|ForwardCallHistory |Indica se as informações do histórico de chamada serão encaminhadas por meio do tronco. Se habilitado, o proxy PSTN do Office 365 envia dois cabeçalhos: histórico-informações e referenciado por. O valor padrão é **false** ($false). |Falso|Verdadeiro<br/>Falso|Boolean|
+|Não|ForwardPAI|Indica se o header de P-Asserted-Identity (PAI) será encaminhado junto com a chamada. O header PAI oferece uma forma de verificar a identidade do chamador. Se habilitado, o cabeçalho de identificação privacidade: também será enviado. O valor padrão é **false** ($false).|Falso|Verdadeiro<br/>Falso|Boolean|
+|Não|SendSIPOptions |Define se um SBC irá ou não enviará as opções de SIP. Se desabilitado, o SBC será excluído do sistema de monitoramento e alerta. É altamente recomendável que você ative as opções do SIP. O valor padrão é **true**. |Verdadeiro|Verdadeiro<br/>Falso|Boolean|
 |Não|MaxConcurrentSessions |Usado pelo sistema de alerta. Quando qualquer valor for definido, o sistema de alerta gerará um alerta para o administrador do locatário quando o número da sessão simultânea for 90% ou superior a este valor. Se o parâmetro não estiver definido, os alertas não serão gerados. No entanto, o sistema de monitoramento reportará o número da sessão simultânea a cada 24 horas. |Vazio|Vazio<br/>de 1 a 100.000 ||
 |Não|MediaRelayRoutingLocationOverride |Permite a seleção de caminho para mídia manualmente. O roteamento direto atribui um datacenter para caminho de mídia com base no IP público do SBC. Sempre selecionamos mais próximo ao Datacenter do SBC. No entanto, em alguns casos, um IP público de, por exemplo, um intervalo dos EUA pode ser atribuído a um SBC localizado na Europa. Nesse caso, vamos usar o caminho de mídia ideal. Esse parâmetro permite definir manualmente a região preferida para tráfego de mídia. Recomendamos configurar esse parâmetro apenas se os logs de chamada indicar claramente que a atribuição automática do Media Center para o caminho de mídia não atribui o mais próximo possível ao Datacenter do SBC. |Nenhum|Códigos de país no formato ISO||
-|Não|Habilitado|Usado para habilitar este SBC para chamadas de saída. Pode ser usado para remover temporariamente o SBC, enquanto ele está sendo atualizado ou durante a manutenção. |False|Verdadeiro<br/>False|Boolean|
+|Não|Habilitado|Usado para habilitar este SBC para chamadas de saída. Pode ser usado para remover temporariamente o SBC, enquanto ele está sendo atualizado ou durante a manutenção. |Falso|Verdadeiro<br/>Falso|Boolean|
  
 ### <a name="verify-the-sbc-pairing"></a>Verificar o emparelhamento de SBC 
 
@@ -485,15 +485,15 @@ As etapas para criar o uso de PSTN "internacional", a rota de voz "internacional
    </pre>
 3. Em seguida, crie uma política de roteamento de voz "sem restrições". O uso de PSTN "Redmond 1" e "Redmond" é reutilizado nesta política de roteamento de voz para preservar a manipulação especial de chamadas para número "+ 1 425 XXX XX XX XX" e "+ 1 206 XXX XX XX" como chamadas locais ou locais.
 
-```
-New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
-```
+   ```
+   New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
+   ```
 
-    Take note of the order of PSTN Usages:
+    Tome nota da ordem dos usos de PSTN:
 
-    a. If a call made to number "+1 425 XXX XX XX" with the usages configured as in the following example, the call follows the route set in "US and Canada" usage and the special routing logic is applied. That is, the call is routed using sbc1.contoso.biz and sbc2.contoso.biz first, and then sbc3.contoso.biz and sbc4.contoso.biz as the backup routes. 
+    a. Se uma chamada feita ao número "+ 1 425 XXX XX XX" com os usos configurados como no exemplo a seguir, a chamada seguirá a rota definida no uso "EUA e Canadá" e a lógica de roteamento especial for aplicada. Ou seja, a chamada é roteada usando sbc1.contoso.biz e sbc2.contoso.biz primeiro e, em seguida, sbc3.contoso.biz e sbc4.contoso.biz como as rotas de backup. 
 
-    b.  If "International" PSTN usage is before "US and Canada," calls to +1 425 XXX XX XX are routed to sbc2.contoso.biz and sbc5.contoso.biz as part of the routing logic. Enter the command:
+    b.  Se o uso de PSTN "internacional" for anterior aos "EUA e Canadá", as chamadas para + 1 425 XXX XX XX são roteadas para sbc2.contoso.biz e sbc5.contoso.biz como parte da lógica de roteamento. Digite o comando:
 
     ```New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"```
 
@@ -529,12 +529,12 @@ O resultado é que a política de voz aplicada a chamadas de John Woods é irres
 
 ## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>Atribuir o modo apenas Teams aos usuários para garantir chamadas no Microsoft Teams
 
-O roteamento direto requer que os usuários estejam no modo somente Teams para garantir que as chamadas de entrada sejam feitas no cliente do teams. Para colocar usuários no modo somente Teams, atribua a eles a instância "UpgradeToTeams" de TeamsUpgradePolicy. Se a sua organização usa o Skype for Business Server ou o Skype for Business Online, confira o artigo a seguir para interoperabilidade de informações entre o Skype e o Teams: [orientação de migração e interoperabilidade para organizações que usam o Skype em equipe. para empresas](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
+O roteamento direto requer que os usuários estejam no modo somente Teams para garantir que as chamadas de entrada sejam feitas no cliente do teams. Para colocar usuários no modo somente Teams, atribua a eles a instância "UpgradeToTeams" de TeamsUpgradePolicy. Se a sua organização usa o Skype for Business Server ou o Skype for Business Online, consulte o artigo a seguir para interoperabilidade de informações entre o Skype e o Teams: [orientação de migração e interoperabilidade para organizações que usam o Skype for Business em equipe](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
 
 
 ## <a name="configuring-sending-calls-directly-to-voicemail"></a>Configurar o envio de chamadas diretamente para o correio de voz
 
-O roteamento direto permite encerrar a chamada para um usuário e enviá-la diretamente para a caixa postal dos usuários. Se você quiser enviar a chamada diretamente para o correio de voz, anexe o aplicativo opaco = App: correio de voz ao cabeçalho URI da solicitação. Por exemplo, "SIP: user@yourdomain.com; opaco = App: correio de voz".
+O roteamento direto permite encerrar a chamada para um usuário e enviá-la diretamente para a caixa postal dos usuários. Se você quiser enviar a chamada diretamente para o correio de voz, anexe o aplicativo opaco = App: correio de voz ao cabeçalho URI da solicitação. Por exemplo, "SIP: user@yourdomain. com; opaco = App: correio de voz".
 Nesse caso, o usuário do Teams não receberá a notificação de chamada, a chamada será conectada diretamente ao correio de voz do usuário.
 
 ## <a name="see-also"></a>Confira também

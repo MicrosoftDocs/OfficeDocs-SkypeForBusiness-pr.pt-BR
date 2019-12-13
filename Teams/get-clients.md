@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8ea5133998e9d11e5ab070ffe66f7e719252ee5
-ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
+ms.openlocfilehash: f3332f25366ea79d69bb95727f01651cb158de53
+ms.sourcegitcommit: c2e315d0fcec742d2e1ba5ad90dffd1a1157a466
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39919143"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40002235"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obter clientes do Microsoft Teams 
 
@@ -110,7 +110,7 @@ A chave de assinatura para habilitar a atualização automática usando o Gerenc
 
 > [!NOTE] 
 > Se você encontrar um bug, envie-o `Report a Problem` usando de dentro do cliente. Para saber mais sobre problemas conhecidos, veja [problemas conhecidos](Known-issues.md).
-> Para o suporte do teams para Linux, você pode usar o canal de suporte do fórum do Linux nohttps://docs.microsoft.com/answers/topics/teams.htmlMicrosoft Q&A) []. Certifique-se de usar `teams-linux` a marca ao postar perguntas. 
+> Para o suporte do teams para Linux, você pode usar o [canal de suporte do fórum do Linux no Microsoft Q&A](https://docs.microsoft.com/answers/topics/teams.html). Certifique-se de usar `teams-linux` a marca ao postar perguntas. 
 
 #### <a name="install-teams-using-deb-package"></a>Instalar o Microsoft Teams usando o pacote DEB
 
