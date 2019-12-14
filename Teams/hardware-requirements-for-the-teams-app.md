@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81fc050df43e6f0c6d179601b1a9186974222276
-ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
+ms.openlocfilehash: 1c33a0ed8bf88469e6e9ab41a049a1d566cc686b
+ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39966704"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40019955"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Requisitos de hardware para o aplicativo Microsoft Teams
 
@@ -41,7 +41,7 @@ Todos os requisitos nas seções a seguir se aplicam ao aplicativo da área de t
 |Versão do .NET    |  Requer o .NET 4,5 CLR ou posterior       |
 |Vídeo    |  Câmera de vídeo USB 2,0       |
 |Dispositivos    |   Câmera de laptop padrão, microfone e alto-falantes    | 
-|Reuniões e chamadas com vídeo | Para ter uma experiência melhor com chamadas com vídeo e reuniões online, recomendamos usar um computador com um processador de 2,0 GHz e 4,0 GB de RAM (ou superior). O desfoque opcional meu efeito de vídeo **em segundo plano** requer um processador com suporte a Advanced vector Extensions 2 (AVX2). Consulte [recomendações de driver](hardware-decoders-and-encoders.md) de codificador e codificador de hardware para obter uma lista de codificadores e codificadores sem suporte. |
+|Reuniões e chamadas com vídeo | <ul><li>Para ter uma experiência melhor com chamadas com vídeo e reuniões online, recomendamos usar um computador com um processador de 2,0 GHz e 4,0 GB de RAM (ou superior). </li><li>O desfoque opcional meu efeito de vídeo **em segundo plano** requer um processador com suporte a Advanced vector Extensions 2 (AVX2). Consulte [recomendações de driver](hardware-decoders-and-encoders.md) de codificador e codificador de hardware para obter uma lista de codificadores e codificadores sem suporte.</li><li>Ingressar em uma reunião usando a detecção de proximidade em uma sala do Microsoft Teams requer Bluetooth LE, o que requer que o Bluetooth esteja habilitado no dispositivo cliente e para clientes Windows exija o cliente das equipes de 64 bits. Ele não está disponível em clientes do teams de 32 bits.</li></ul> |
 |Eventos ao vivo do Teams | Se você estiver produzindo um evento ao vivo do Teams, recomendamos usar um computador com um processador Core i5 KABY Lake, 4,0 GB de RAM (ou superior) e codificador de hardware. Consulte [recomendações de driver](hardware-decoders-and-encoders.md) de codificador e codificador de hardware para obter uma lista de codificadores e codificadores sem suporte. |
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-mac"></a>Requisitos de hardware para o aplicativo da área de trabalho Teams em um Mac
@@ -55,7 +55,7 @@ Todos os requisitos nas seções a seguir se aplicam ao aplicativo da área de t
 |Sistema operacional  |    Mac OS X 10,11 El Capitan ou posterior     |
 |Vídeo  |    Webcam compatível     |
 |Voz    |  Microfone e alto-falantes compatíveis, fone de ouvido com microfone ou dispositivo equivalente       |
-|Reuniões e chamadas com vídeo | Para melhor experiência com chamadas com vídeo e reuniões online, recomendamos usar um computador com um processador de 2,0 GHz e 4,0 GB de RAM (ou superior). O desfoque opcional meu efeito de vídeo em segundo plano requer um processador com suporte a Advanced vector Extensions 2 (AVX2), compatível nos mais recentes dispositivos Mac do 2013 e mais tarde. Consulte [recomendações de driver](hardware-decoders-and-encoders.md) de codificador e codificador de hardware para obter uma lista de codificadores e codificadores sem suporte.|
+|Reuniões e chamadas com vídeo | Para melhor experiência com chamadas com vídeo e reuniões online, recomendamos usar um computador com um processador de 2,0 GHz e 4,0 GB de RAM (ou superior).  <ul><li>O desfoque opcional meu efeito de vídeo **em segundo plano** requer um processador com suporte a Advanced vector Extensions 2 (AVX2), compatível nos mais recentes dispositivos Mac do 2013 e mais tarde. Consulte [recomendações de driver](hardware-decoders-and-encoders.md) de codificador e codificador de hardware para obter uma lista de codificadores e codificadores sem suporte.</li><li>Ingressar em uma reunião usando a detecção de proximidade em uma sala do Microsoft Teams não está disponível no Mac OS.</li></ul> |
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-linux"></a>Requisitos de hardware para o aplicativo da área de trabalho Teams em um Linux
 
@@ -70,7 +70,7 @@ Todos os requisitos nas seções a seguir se aplicam ao aplicativo da área de t
 |Vídeo    |  Câmera de vídeo USB 2,0       |
 |Dispositivos    |   Câmera de laptop padrão, microfone e alto-falantes    | 
 |Voz    |  Microfone e alto-falantes compatíveis, fone de ouvido com microfone ou dispositivo equivalente       |
-|Reuniões e chamadas com vídeo | Para melhor experiência com chamadas com vídeo e reuniões online, recomendamos usar um computador com um processador de 2,0 GHz e 4,0 GB de RAM (ou superior). O desfoque opcional meu efeito de vídeo em segundo plano requer um processador com suporte a Advanced vector Extensions 2 (AVX2), compatível nos mais recentes dispositivos Mac do 2013 e mais tarde. Consulte [recomendações de driver](hardware-decoders-and-encoders.md) de codificador e codificador de hardware para obter uma lista de codificadores e codificadores sem suporte.
+|Reuniões e chamadas com vídeo | <ul><li>Para melhor experiência com chamadas com vídeo e reuniões online, recomendamos usar um computador com um processador de 2,0 GHz e 4,0 GB de RAM (ou superior). </li><li>O desfoque opcional meu efeito de vídeo em segundo plano requer um processador com suporte a Advanced vector Extensions 2 (AVX2), compatível nos mais recentes dispositivos Mac do 2013 e mais tarde. Consulte [recomendações de driver](hardware-decoders-and-encoders.md) de codificador e codificador de hardware para obter uma lista de codificadores e codificadores sem suporte.</li><li>Ingressar em uma reunião usando a detecção de proximidade em uma sala do Microsoft Teams não está disponível no Linux.</li></ul>
 |Distribuições Linux com suporte | Ubuntu 16, 4 LTS, 18, 4 LTS, Fedora 30 Workstation, RHEL 8 Workstation, CentOS 8
 
 

@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar e gerenciar canais privados no Microsoft Teams.
-ms.openlocfilehash: b4937addf861be56a0a90a2c63a0ed6181bdc555
-ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
+ms.openlocfilehash: d7a491a64e32edef61b067c864c21f41e19f267d
+ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "38077424"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40020045"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canais privados no Microsoft Teams
 
@@ -139,6 +139,12 @@ Para acomodar um número maior de conjuntos de sites por locatário, o limite au
 O Teams gerencia o ciclo de vida do conjunto de sites do SharePoint do canal privado. Se o conjunto de sites for excluído fora do Teams, um trabalho em segundo plano restaura o site dentro de quatro horas, desde que o canal privado ainda esteja ativo. Se o site for excluído e excluído com o disco rígido, um novo conjunto de sites será provisionado para o canal privado.
 
 Se um canal privado ou uma equipe que contém um canal privado for restaurado, os conjuntos de sites serão restaurados. Se um conjunto de sites de canal privado for restaurado e estiver além da janela de exclusão de software de 30 dias do canal privado, o conjunto de sites funcionará como um conjunto de sites autônomo.
+
+## <a name="private-channel-message-compliance-records"></a>Registros de conformidade de mensagens de canal privado
+
+Os registros de mensagens enviadas em um canal privado são entregues na caixa de correio de todos os membros do canal privado, e não em uma caixa de correio de grupo. Os títulos dos registros são formatados para indicar o canal privado do qual foram enviados.
+
+Para obter mais informações sobre como executar uma pesquisa de descoberta eletrônica para mensagens de canal privado, consulte [descoberta eletrônica de canais privados](ediscovery-investigation.md#ediscovery-of-private-channels).
 
 ## <a name="considerations-around-access-in-private-channels"></a>Considerações sobre o acesso em canais privados
 

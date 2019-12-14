@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ac9b520334b29df8f2fc05808b32f2e73db8557
-ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
+ms.openlocfilehash: fd9440ce7c4d35af28e577c9d9e01845f298ef01
+ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39966774"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40020055"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para Infraestrutura de Área de Trabalho Virtualizada
 
@@ -68,12 +68,14 @@ Você pode baixar a versão mais recente dos aplicativos e áreas de trabalho vi
 
 Para obter os requisitos mais recentes do servidor e do cliente, consulte [este website da Citrix](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
-## <a name="install-the-teams-desktop-app-on-vdi"></a>Instalar o aplicativo da área de trabalho Teams no VDI
+## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>Instalar ou atualizar o aplicativo da área de trabalho Teams no VDI
 
 Você pode implantar o aplicativo da área de trabalho Teams para VDI usando uma instalação por computador ou instalação por usuário usando o pacote MSI. Decidir qual abordagem usar depende se você usa uma configuração persistente ou não persistente e as necessidades de funcionalidade associadas à sua organização.
 Para uma configuração persistente dedicada, qualquer uma das abordagens funcionaria.  No entanto, para uma configuração não persistente, a instalação por máquina é necessária para que as equipes trabalhem com eficiência. Consulte a seção [configuração não persistente](#non-persistent-setup) .
 
 Com a instalação por máquina, as atualizações automáticas estão desabilitadas. Isso significa que para atualizar o aplicativo Teams, você deve desinstalar a versão atual para atualizar para uma versão mais recente. Com a instalação por usuário, as atualizações automáticas são habilitadas. Para a maioria das implantações de VDI, recomendamos implantar o Microsoft Teams usando a instalação por máquina.
+
+Para atualizar para a versão mais recente do Teams, comece com o procedimento de desinstalação seguido pela implantação da versão mais recente do teams.
 
 Para que a otimização de AV do Team em ambientes de VDI funcione corretamente, o ponto de extremidade do cliente leve deve ter acesso à Internet. Se o acesso à Internet não estiver disponível no ponto de extremidade do cliente fino, a inicialização da otimização não será bem-sucedida. Isso significa que o usuário está em um estado de mídia não otimizado.
 
@@ -93,7 +95,7 @@ A seguir está a configuração mínima de VM recomendada.
 
 Em uma configuração não persistente, as alterações do sistema operacional local dos usuários não são mantidas após o logoff dos usuários. Essas configurações geralmente são sessões de vários usuários compartilhadas. A configuração da VM varia de acordo com o número de usuários e os recursos de caixa física disponíveis.
 
-Para uma configuração não persistente, o aplicativo da área de trabalho Teams deve ser instalado por computador para a imagem dourada. (Para saber mais, confira a seção [instalar o aplicativo Teams desktop no VDI](#install-the-teams-desktop-app-on-vdi) ). Isso garante uma inicialização eficiente do aplicativo Teams durante uma sessão de usuário. Usar o Microsoft Teams com uma configuração não persistente também exige um Gerenciador de cache de perfis para sincronização eficiente de dados do teams Runtime. Isso garante que as informações apropriadas específicas do usuário (por exemplo, dados do usuário, perfil e configurações) sejam armazenadas em cache durante a sessão do usuário.  Há diversas soluções do caching Manager disponíveis. Por exemplo, [FSLogix](https://docs.microsoft.com/fslogix/overview). Consulte o provedor do Gerenciador de armazenamento em cache para obter instruções de configuração específicas.
+Para uma configuração não persistente, o aplicativo da área de trabalho Teams deve ser instalado por computador para a imagem dourada. (Para saber mais, confira a seção [instalar ou atualizar o aplicativo Teams desktop no VDI](#install-or-update-the-teams-desktop-app-on-vdi) ). Isso garante uma inicialização eficiente do aplicativo Teams durante uma sessão de usuário. Usar o Microsoft Teams com uma configuração não persistente também exige um Gerenciador de cache de perfis para sincronização eficiente de dados do teams Runtime. Isso garante que as informações apropriadas específicas do usuário (por exemplo, dados do usuário, perfil e configurações) sejam armazenadas em cache durante a sessão do usuário.  Há diversas soluções do caching Manager disponíveis. Por exemplo, [FSLogix](https://docs.microsoft.com/fslogix/overview). Consulte o provedor do Gerenciador de armazenamento em cache para obter instruções de configuração específicas.
 
 ##### <a name="teams-cached-content-exclusion-list-for-non-persistent-setup"></a>Lista de exclusão de conteúdo em cache da Teams para configuração não persistente
 
@@ -110,11 +112,11 @@ Considere o seguinte ao implantar o Microsoft Teams com o Office 365 ProPlus em 
 
 Antes de implantar o Microsoft Teams por meio do Office 365 ProPlus, você deve primeiro desinstalar todos os aplicativos do teams que foram implantados usando a instalação por máquina.
 
-As equipes por meio do Office 365 ProPlus são instaladas por usuário. Para saber mais, confira a seção [instalar o aplicativo Teams desktop no VDI](#install-the-teams-desktop-app-on-vdi) .
+As equipes por meio do Office 365 ProPlus são instaladas por usuário. Para saber mais, confira a seção [instalar ou atualizar o aplicativo Teams desktop no VDI](#install-or-update-the-teams-desktop-app-on-vdi) .
 
 #### <a name="teams-deployments-through-office-365-proplus-updates"></a>Implantações de equipes por meio do Office 365 ProPlus atualizações
 
-As equipes também estão sendo adicionadas às instalações existentes do Office 365 ProPlus. Como o Office 365 ProPlus instala o Microsoft Teams por usuário somente, consulte a seção [instalar o aplicativo Teams desktop no VDI](#install-the-teams-desktop-app-on-vdi) .
+As equipes também estão sendo adicionadas às instalações existentes do Office 365 ProPlus. Como o Office 365 ProPlus instala o Microsoft Teams por usuário somente, consulte a seção [instalar ou atualizar o aplicativo Teams desktop no VDI](#install-or-update-the-teams-desktop-app-on-vdi) .
 
 #### <a name="using-teams-with-per-machine-installation-and-office-365-proplus"></a>Usar o Microsoft Teams com a instalação por computador e o Office 365 ProPlus
 
@@ -331,7 +333,8 @@ Para saber mais sobre como usar o PowerShell para gerenciar as políticas de reu
 
 ### <a name="client-deployment-installation-and-setup"></a>Implantação, instalação e configuração do cliente
 
-- Com a instalação por máquina, o Teams não é atualizado automaticamente na maneira como os clientes de equipes não VDI. Você precisa atualizar a imagem da VM instalando um novo MSI, conforme descrito na seção [instalar o aplicativo da área de trabalho do teams no VDI](#install-the-teams-desktop-app-on-vdi) . Você deve desinstalar a versão atual para atualizar para uma versão mais recente.
+- Com a instalação por máquina, o Teams não é atualizado automaticamente na maneira como os clientes de equipes não VDI. Você precisa atualizar a imagem da VM instalando um novo MSI, conforme descrito na seção [instalar ou atualizar o aplicativo da área de trabalho do teams no VDI](#install-or-update-the-teams-desktop-app-on-vdi) . Você deve desinstalar a versão atual para atualizar para uma versão mais recente.
+- O Teams deve ser implantado por usuário ou por computador. Não há suporte para a implantação de equipes simultâneas por usuário e por computador.  Para migrar de cada computador ou por usuário para um desses modos, siga o procedimento de desinstalação e reimplante para qualquer um dos modos.
 - No momento, os clientes baseados em Linux e MacOs não são compatíveis com o Citrix.
 - A Citrix não oferece suporte ao uso de proxies HTTP explícitos definidos em um ponto de extremidade. 
 

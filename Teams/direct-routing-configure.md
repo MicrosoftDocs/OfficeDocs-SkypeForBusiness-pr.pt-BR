@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Saiba como configurar o roteamento direto do sistema de telefonia da Microsoft.
-ms.openlocfilehash: 55f4fbb0f4faa70f73c742e8e849bc258dbfd481
-ms.sourcegitcommit: c2e315d0fcec742d2e1ba5ad90dffd1a1157a466
+ms.openlocfilehash: 3524d3d41db02dbc123700ae259386bb97257bbd
+ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 12/13/2019
-ms.locfileid: "40002295"
+ms.locfileid: "40020065"
 ---
 # <a name="configure-direct-routing"></a>Configurar o Roteamento Direto
 
@@ -105,7 +105,7 @@ Enabled               : True
 </pre>
 Há opções adicionais que podem ser definidas durante o processo de emparelhamento. No exemplo anterior, no entanto, somente os parâmetros mínimos necessários são exibidos. 
  
-A tabela a seguir lista os parâmetros adicionais que você pode usar em definindo parâmetros para`New-CsOnlinePstnGateway`
+A tabela a seguir lista os parâmetros adicionais que você pode usar em definir parâmetros ```New-CsOnlinePstnGateway```para.
 
 |Necessário?|Nome|Descrição|Padrão|Valores possíveis|Tipo e restrições|
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -130,7 +130,7 @@ Verifique a conexão:
 
 Depois de emparelhar o SBC, valide se o SBC está presente na lista de SBCs emparelhada executando o seguinte comando em uma sessão remota do PowerShell:`Get-CSOnlinePSTNGateway`
 
-O gateway emparelhado deve aparecer na lista, conforme mostrado no exemplo abaixo, e verificar se o parâmetro *habilitado* exibe o valor **true**. Dique
+O gateway emparelhado deve aparecer na lista, conforme mostrado no exemplo abaixo, e verificar se o parâmetro **Enabled** exibe um valor de **true**. Dique
 
 ```
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
@@ -293,10 +293,11 @@ Get-CSOnlinePSTNUsage
 ``` 
 Que retorna uma lista de nomes que podem estar truncados:
 ```
-  Identity  : Global
-  Usage     : {testusage, US and Canada, International, karlUsage. . .}
+Identity    : Global
+Usage       : {testusage, US and Canada, International, karlUsage. . .}
 ```
-No exemplo abaixo, você pode ver o resultado do comando `(Get-CSOnlinePSTNUsage).usage` running the PowerShell para exibir nomes completos (não truncados). 
+No exemplo abaixo, você pode ver o resultado do comando `(Get-CSOnlinePSTNUsage).usage` running the PowerShell para exibir nomes completos (não truncados).
+
 <pre>
  testusage
  US and Canada
@@ -313,20 +314,20 @@ No exemplo abaixo, você pode ver o resultado do comando `(Get-CSOnlinePSTNUsage
 
 Para criar a rota "Redmond 1", digite:
 
-  ```
-  New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)
-  (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
-  ```
+```
+New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)
+(\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
+```
 
 Que retorna:
 <pre>
 Identity                : Redmond 1
-Priority            : 1
-Description         :
-NumberPattern       : ^\+1(425|206) (\d{7})$
-OnlinePstnUsages    : {US and Canada}
+Priority                : 1
+Description             :
+NumberPattern           : ^\+1(425|206) (\d{7})$
+OnlinePstnUsages        : {US and Canada}
 OnlinePstnGatewayList   : {sbc1.contoso.biz, sbc2.contoso.biz}
-Name            : Redmond 1
+Name                    : Redmond 1
 </pre>
 Para criar a rota Redmond 2, digite:
 
@@ -347,14 +348,13 @@ New-CsOnlineVoiceRoute -Identity "Other +1" -NumberPattern "^\+1(\d{10})$"
 
 Em alguns casos, há a necessidade de rotear todas as chamadas para o mesmo SBC; Use-NumberPattern ". *"
 
-- Rotear todas as chamadas para o mesmo SBC
+Rotear todas as chamadas para o mesmo SBC.
 
-    ```
-    Set-CsOnlineVoiceRoute -id "Redmond 1" -NumberPattern ".*" 
-     -OnlinePstnGatewayList sbc1.contoso.biz
-    ```
+```
+Set-CsOnlineVoiceRoute -id "Redmond 1" -NumberPattern ".*" -OnlinePstnGatewayList sbc1.contoso.biz
+```
 
-Valide se você configurou corretamente a rota executando o comando `Get-CSOnlineVoiceRoute` do PowerShell usando as opções, conforme mostrado: 
+Valide se você configurou corretamente a rota executando o comando `Get-CSOnlineVoiceRoute` do PowerShell usando as opções, conforme mostrado:
 
 ```
 Get-CsOnlineVoiceRoute | Where-Object {($_.priority -eq 1) -or ($_.priority -eq 2) or ($_.priority -eq 4) -Identity "Redmond 1" -NumberPattern "^\+1(425|206) (\d{7})$" -OnlinePstnGatewayList sbc1.contoso.biz, sbc2.contoso.biz -Priority 1 -OnlinePstnUsages "US and Canada"
@@ -398,7 +398,7 @@ New-CsOnlineVoiceRoutingPolicy "US Only" -OnlinePstnUsages "US and Canada"
 O resultado é mostrado neste exemplo:
 
 <pre>
-Identity        : Tag:US only
+Identity            : Tag:US only
 OnlinePstnUsages    : {US and Canada}
 Description         :
 RouteType           : BYOT
@@ -406,20 +406,23 @@ RouteType           : BYOT
 
 **Etapa 4:** Conceder ao usuário Spencer uma política de roteamento de voz baixa usando o PowerShell.
 
-- Em uma sessão do PowerShell no Skype for Business Online, digite:
+Em uma sessão do PowerShell no Skype for Business Online, digite:
 
-    ```Grant-CsOnlineVoiceRoutingPolicy -Identity "Spencer Low" -PolicyName "US Only"```
+```
+Grant-CsOnlineVoiceRoutingPolicy -Identity "Spencer Low" -PolicyName "US Only"
+```
 
-- Valide a atribuição de política inserindo este comando:
+Valide a atribuição de política inserindo este comando:
 
 ```
 Get-CsOnlineUser "Spencer Low" | select OnlineVoiceRoutingPolicy
 ```
+
 Que retorna:
 <pre>
-    OnlineVoiceRoutingPolicy
-    ---------------------
-    US Only
+OnlineVoiceRoutingPolicy
+---------------------
+US Only
 </pre>
 
 #### <a name="creating-a-voice-routing-policy-with-several-pstn-usages"></a>Criando uma política de roteamento de voz com vários usos de PSTN
@@ -461,68 +464,76 @@ A tabela a seguir resume as designações de uso de política de roteamento "sem
 As etapas para criar o uso de PSTN "internacional", a rota de voz "internacional", a política de roteamento de voz "sem restrições" e, em seguida, atribuí-lo ao usuário "John Woods" são as seguintes.
 
 
-1. Primeiro, crie o uso de PSTN "internacional". Em uma sessão remota do PowerShell no Skype for Business Online, digite:
+**Etapa 1**: criar o uso de PSTN "internacional". 
 
-   ```
-   Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
-   ```
+Em uma sessão remota do PowerShell no Skype for Business Online, digite:
 
-2. Em seguida, crie a nova rota de voz "internacional".
+```
+Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
+```
 
-   ```
-   New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
-   ```
-   Que retorna:
+**Etapa 2**: criar a nova rota de voz "internacional".
 
-   <pre>
-   Identity                  : International 
-   Priority                      : 5
-   Description                   : 
-   NumberPattern                 : .*
-   OnlinePstnUsages          : {International} 
-   OnlinePstnGatewayList           : {sbc2.contoso.biz, sbc5.contoso.biz}
-   Name                            : International
-   </pre>
-3. Em seguida, crie uma política de roteamento de voz "sem restrições". O uso de PSTN "Redmond 1" e "Redmond" é reutilizado nesta política de roteamento de voz para preservar a manipulação especial de chamadas para número "+ 1 425 XXX XX XX XX" e "+ 1 206 XXX XX XX" como chamadas locais ou locais.
+```
+New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc2.contoso.biz, sbc5.contoso.biz -OnlinePstnUsages "International"
+```
+Que retorna:
+
+<pre>
+Identity                  : International
+Priority                  : 5
+Description               :
+NumberPattern             : .*
+OnlinePstnUsages          : {International}
+OnlinePstnGatewayList     : {sbc2.contoso.biz, sbc5.contoso.biz}
+Name                      : International
+</pre>
+
+**Etapa 3**: criar uma política de roteamento de voz "sem restrições". 
+
+O uso de PSTN "Redmond 1" e "Redmond" é reutilizado nesta política de roteamento de voz para preservar a manipulação especial de chamadas para número "+ 1 425 XXX XX XX XX" e "+ 1 206 XXX XX XX" como chamadas locais ou locais.
 
    ```
    New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
    ```
 
-    Tome nota da ordem dos usos de PSTN:
+Tome nota da ordem dos usos de PSTN:
 
-    a. Se uma chamada feita ao número "+ 1 425 XXX XX XX" com os usos configurados como no exemplo a seguir, a chamada seguirá a rota definida no uso "EUA e Canadá" e a lógica de roteamento especial for aplicada. Ou seja, a chamada é roteada usando sbc1.contoso.biz e sbc2.contoso.biz primeiro e, em seguida, sbc3.contoso.biz e sbc4.contoso.biz como as rotas de backup. 
+a. Se uma chamada feita ao número "+ 1 425 XXX XX XX" com os usos configurados como no exemplo a seguir, a chamada seguirá a rota definida no uso "EUA e Canadá" e a lógica de roteamento especial for aplicada. Ou seja, a chamada é roteada usando sbc1.contoso.biz e sbc2.contoso.biz primeiro e, em seguida, sbc3.contoso.biz e sbc4.contoso.biz como as rotas de backup.
 
-    b.  Se o uso de PSTN "internacional" for anterior aos "EUA e Canadá", as chamadas para + 1 425 XXX XX XX são roteadas para sbc2.contoso.biz e sbc5.contoso.biz como parte da lógica de roteamento. Digite o comando:
+b. Se o uso de PSTN "internacional" for anterior aos "EUA e Canadá", as chamadas para + 1 425 XXX XX XX são roteadas para sbc2.contoso.biz e sbc5.contoso.biz como parte da lógica de roteamento. Digite o comando:
 
-    ```New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"```
+```
+New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
+```
 
-   Que retorna
-
-  <pre>
-   Identity     : International 
-   OnlinePstnUsages     : {US and Canada, International}     
-   Description      :  
-   RouteType        : BYOT
-  </pre>
-
-4. Atribua a política de roteamento de voz ao usuário "John Woods" usando o comando a seguir.
-
-   ```
-   Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
-   ```
-
-   Em seguida, verifique a tarefa usando o comando: 
-
-   ```
-   Get-CsOnlineUser "John Woods" | Select OnlineVoiceRoutingPolicy
-   ```
-   Que retorna:
+Que retorna
 
 <pre>
-    OnlineVoiceRoutingPolicy
-    ------------------------
-    No Restrictions
+Identity              : International 
+OnlinePstnUsages : {US and Canada, International}    
+Description      :  
+RouteType             : BYOT
+</pre>
+
+**Etapa 4**: atribua a política de roteamento de voz ao usuário "John Woods" usando o comando a seguir.
+
+```
+Grant-CsOnlineVoiceRoutingPolicy -Identity "John Woods" -PolicyName "No Restrictions”
+```
+
+Em seguida, verifique a tarefa usando o comando: 
+
+```
+Get-CsOnlineUser "John Woods" | Select OnlineVoiceRoutingPolicy
+```
+
+Que retorna:
+
+<pre>
+OnlineVoiceRoutingPolicy
+------------------------
+No Restrictions
 </pre>
 
 O resultado é que a política de voz aplicada a chamadas de John Woods é irrestrita e seguirá a lógica de roteamento de chamadas disponível para chamadas para os EUA, Canadá e internacional.
@@ -531,11 +542,90 @@ O resultado é que a política de voz aplicada a chamadas de John Woods é irres
 
 O roteamento direto requer que os usuários estejam no modo somente Teams para garantir que as chamadas de entrada sejam feitas no cliente do teams. Para colocar usuários no modo somente Teams, atribua a eles a instância "UpgradeToTeams" de TeamsUpgradePolicy. Se a sua organização usa o Skype for Business Server ou o Skype for Business Online, consulte o artigo a seguir para interoperabilidade de informações entre o Skype e o Teams: [orientação de migração e interoperabilidade para organizações que usam o Skype for Business em equipe](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
 
-
 ## <a name="configuring-sending-calls-directly-to-voicemail"></a>Configurar o envio de chamadas diretamente para o correio de voz
 
 O roteamento direto permite encerrar a chamada para um usuário e enviá-la diretamente para a caixa postal dos usuários. Se você quiser enviar a chamada diretamente para o correio de voz, anexe o aplicativo opaco = App: correio de voz ao cabeçalho URI da solicitação. Por exemplo, "SIP: user@yourdomain. com; opaco = App: correio de voz".
 Nesse caso, o usuário do Teams não receberá a notificação de chamada, a chamada será conectada diretamente ao correio de voz do usuário.
+
+## <a name="translate-caller-and-callee-numbers-for-outbound-and-inbound-calls-to-an-alternate-format"></a>Traduza números de chamadas e de chamadas para chamadas de entrada e saída para um formato alternativo
+
+Às vezes, os administradores de locatários podem querer alterar o chamador ou o número de chamada para chamadas de entrada e/ou de entrada com base nos padrões que criaram para garantir a interoperabilidade com SBCs. Você pode definir uma política de regras de tradução de números para traduzir chamadas para chamadas ou números de chamadas para um formato alternativo. Você pode usar a política para traduzir números para o seguinte:
+
+- Chamadas recebidas: chamadas de um ponto de extremidade PSTN (chamador) para um cliente do Teams (chamado).
+- Chamadas de saída: chamadas de um cliente do Teams (chamador) para um ponto de extremidade PSTN (chamado).
+
+A política é aplicada no nível de SBC. Você pode atribuir várias regras de tradução a um SBC, que são aplicadas na ordem em que aparecem quando você as lista no PowerShell. Você também pode alterar a ordem das regras na política.
+
+Para criar, modificar, exibir e excluir regras de manipulação de números, use os cmdlets New-TeamsTranslationRule, Set-TeamsTranslationRule, Get-TeamsTranslationRule e remove-TeamsTranslationRule.
+
+Para atribuir, configurar e listar as regras de manipulação de números no SBCS, use os cmdlets [New-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) e [set-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) juntos ```InboundPSTNNumberTranslationRules```com ```OutboundTeamsNumberTranslationRules```os ```OutboundPSTNNumberTranslationRules``` ```InboundTeamsNumberTranslationRules```parâmetros ```InboundTeamsNumberTranslationRulesList```, ```InboundPSTNNumberTranslationRulesList``` ```OutboundTeamsNumberTranslationRulesList```,,, ```OutboundPSTNNumberTranslationRulesList``` , e.
+
+### <a name="examples"></a>Exemplos
+
+#### <a name="example-sbc-configuration"></a>Exemplo de configuração do SBC
+
+Para os cenários de exemplo, executamos ```New-CsOnlinePSTNGateway``` o cmdlet para criar a configuração do SBC a seguir.
+
+```
+New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignallingPort 5061 –InboundTeamsNumberTranslationRulesList ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRulesList ‘AddPlus1’ -OnboundPSTNNumberTranslationRulesList ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRulesList ‘StripPlus1’
+```
+
+As regras de tradução atribuídas ao SBC são resumidas na tabela a seguir.
+
+|Nome  |Padrão |Conversão  |
+|---------|---------|---------|
+|AddPlus1     |^ (\d{10}) $          |+1$1          |
+|AddE164SeattleAreaCode      |^ (\d{4}) $          | + 1206555 $1         |
+|AddSeattleAreaCode    |^ (\d{4}) $          | 425555 $1         |
+|StripPlus1    |^ + 1 (\d{10}) $          | $1         |
+
+Nestes cenários de exemplo, temos dois usuários, Alice e Bob. Alice é um usuário do Teams e seu número é + 1 206 555 0100. Bob é um usuário PSTN e seu número é + 1 425 555 0100.
+
+#### <a name="example-1-inbound-call-to-a-ten-digit-number"></a>Exemplo 1: chamada de entrada para um número de 10 dígitos
+
+Bob chama Alice usando um número que não seja E. 164 de dez dígitos. Bob disca 2065550100 para falar com Alice.
+O SBC usa 2065550100 no RequestURI e em cabeçalhos e 4255550100 no cabeçalho de.
+
+|Cabeçalho  |Original |Cabeçalho traduzido |Parâmetro e regra aplicados  |
+|---------|---------|---------|---------|
+|RequestURI  |CONVIDAR sip:2065550100@sbc.contoso.com|CONVIDAR sip:+12065550100@sbc.contoso.com|InboundTeamsNumberTranslationRulesList 'AddPlus1'|
+|Para    |PARA: \<SIP:2065550100@sbc.contoso.com>|PARA: \<SIP:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddPlus1'|
+|De   |DE: \<SIP:4255550100@sbc.contoso.com>|DE: \<SIP:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranslationRulesList 'AddPlus1'|
+
+#### <a name="example-2-inbound-call-to-a-four-digit-number"></a>Exemplo 2: chamada de entrada para um número de quatro dígitos
+
+Bob chama Alice usando um número de quatro dígitos. Bob disca 0100 para falar com Alice.
+O SBC usa 0100 no RequestURI e em cabeçalhos e 4255550100 no cabeçalho de.
+
+|Cabeçalho  |Original |Cabeçalho traduzido |Parâmetro e regra aplicados  |
+|---------|---------|---------|---------|
+|RequestURI  |CONVIDAR sip:0100@sbc.contoso.com          |CONVIDAR sip:+12065550100@sbc.contoso.com           |InboundTeamsNumberTranlationRulesList 'AddE164SeattleAreaCode'        |
+|Para    |PARA: \<SIP:0100@sbc.contoso.com>|PARA: \<SIP:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddE164SeattleAreaCode'         |
+|De   |DE: \<SIP:4255550100@sbc.contoso.com>|DE: \<SIP:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranlationRulesList 'AddPlus1'        |
+
+#### <a name="example-3-outbound-call-using-a-ten-digit-non-e164-number"></a>Exemplo 3: chamada de saída usando um número não-E de dez dígitos. 164
+
+Alice chama Bob usando um número de dez dígitos. Ana discagem 425 555 0100 para falar com o Bob.
+O SBC está configurado para usar números de dez dígitos que não são E. 164 para equipes e usuários de PSTN.
+
+Nesse cenário, um plano de discagem converte o número antes de enviá-lo para a interface de roteamento direto. Quando Ana entra em 425 555 0100 no cliente do Teams, o número é convertido em + 14255550100 pelo plano de discagem do país. Os números resultantes são uma normalização cumulativa das regras do plano de discagem e das regras de tradução do teams. As regras de tradução do teams removem o "+ 1" que foi adicionado pelo plano de discagem.
+
+|Cabeçalho  |Original |Cabeçalho traduzido |Parâmetro e regra aplicados  |
+|---------|---------|---------|---------|
+|RequestURI  |CONVIDAR sip:+14255550100@sbc.contoso.com          |CONVIDAR sip:4255550100@sbc.contoso.com       |OutboundPSTNNumberTranlationRulesList 'StripPlus1'         |
+|Para    |PARA: \<SIP:+14255550100@sbc.contoso.com>|PARA: \<SIP:4255555555@sbc.contoso.com>|OutboundPSTNNumberTranlationRulesList 'StripPlus1'       |
+|De   |DE: \<SIP:+12065550100@sbc.contoso.com>|DE: \<SIP:2065550100@sbc.contoso.com>|OutboundTeamsNumberTranlationRulesList 'StripPlus1'         |
+
+#### <a name="example-4-outbound-call-using-a-four-digit-non-e164-number"></a>Exemplo 4: chamada de saída usando um número de quatro dígitos que não é E. 164
+
+Alice chama Bob usando um número de quatro dígitos. Alice usa 0100 para se comunicar com Bob em chamadas ou usando um contato.
+O SBC está configurado para usar números de quatro dígitos que não são E. 164 para usuários do Teams e números de dez dígitos para usuários de PSTN. O plano de discagem não é aplicado nesse cenário.
+
+|Cabeçalho  |Original |Cabeçalho traduzido |Parâmetro e regra aplicados  |
+|---------|---------|---------|---------|
+|RequestURI  |CONVIDAR sip:0100@sbc.contoso.com           |CONVIDAR sip:4255550100@sbc.contoso.com       |InboundTeamsNumberTranlationRulesList 'AddSeattleAreaCode'         |
+|Para    |PARA: \<SIP:0100@sbc.contoso.com>|PARA: \<SIP:4255555555@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddSeattleAreaCode'       |
+|De   |DE: \<SIP:+12065550100@sbc.contoso.com>|DE: \<SIP:2065550100@sbc.contoso.com>| InboundPSTNNumberTranlationRulesList 'StripPlus1' |
 
 ## <a name="see-also"></a>Confira também
 
