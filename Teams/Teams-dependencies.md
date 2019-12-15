@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Gerenciar recursos e funcionalidades de acesso de convidados no Microsoft Teams por meio de quatro níveis diferentes de autorização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2340d684aecbe427ef5e7426dff4f1daefb92d71
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: 200e0d94948d735786fd1775fc803c6017bd3100
+ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231122"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40019975"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorizar o acesso para convidado no Microsoft Teams
 ===========================================
@@ -76,7 +76,7 @@ Para obter mais informações sobre como controlar quem pode convidar pessoas, c
 Não é necessário adicionar a conta de convidado do usuário manualmente ao B2B do Azure AD, pois a conta será adicionada ao diretório automaticamente quando você adicionar o convidado ao Teams.
 
 ### <a name="licensing-for-guest-access"></a>Licenciamento para acesso de convidado
-O licenciamento de acesso de convidado faz parte do licenciamento do Azure AD. O acesso de convidados é incluído em todas as assinaturas do Office 365 Business Premium e Office 365. Para obter mais informações sobre licenciamento, confira o [guia de licenciamento de colaboração do Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
+O licenciamento de acesso de convidado faz parte do licenciamento do Azure AD. O acesso de convidados é incluído em todas as assinaturas do Office 365 Business Premium e do Office 365. Para obter mais informações sobre licenciamento, confira o [guia de licenciamento de colaboração do Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
 
 
 > [!NOTE]
