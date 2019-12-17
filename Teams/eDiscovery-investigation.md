@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Saiba o que fazer quando precisar executar uma Descoberta Eletrônica, como quando precisar enviar todas as informações armazenadas eletronicamente para procedimentos judiciais.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e645085130b65283a1841661c4e2885e5ea9cba4
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: 205b10c9fc1576b260e72c145239d56b1c71b643
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231112"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069182"
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Conduzir uma investigação de Descoberta Eletrônica de conteúdo no Microsoft Teams
 ============================
@@ -42,6 +42,8 @@ Todas as equipes 1:1 ou chats em grupo são registradas nas caixas de correio do
 3.  Para ver chats privados na caixa de correio de um usuário, eles também estão localizados dentro da pasta de chat da equipe em histórico de conversas.
 
 ## <a name="ediscovery-of-guest-to-guest-chats"></a>Descoberta eletrônica de chats convidados para convidados
+
+Atualmente, para um cenário em que apenas convidados participam do 1:1 ou 1: N chat, não oferecemos suporte para a eDiscovery dessas mensagens de chat. 
 
 Sem uma caixa de correio, chats convidados para convidados (chats 1xN em que não há usuários locatários domésticos) não seriam indexados e, consequentemente, não seriam incluídos na descoberta eletrônica. Para facilitar a descoberta eletrônica para chats convidados a convidados, uma caixa de correio baseada em nuvem (ou uma caixa de correio fantasma) é criada para armazenar os dados do 1xN. Depois que os dados de chat de equipe são armazenados na caixa de correio baseada em nuvem, eles são indexados para pesquisa de conteúdo de descoberta eletrônica e conformidade.
 

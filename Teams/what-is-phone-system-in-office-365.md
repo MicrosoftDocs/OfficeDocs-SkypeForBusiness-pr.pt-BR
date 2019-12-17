@@ -19,16 +19,16 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba o que o Sistema de Telefonia pode fazer por você. '
-ms.openlocfilehash: d6bc3d8265059520e3f8448f800de91331e26e01
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: bd17ff93c2327b63920dc4a180277dfce885de0c
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37568526"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069392"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>O que é o Sistema de Telefonia no Office 365?
 
-**Sistema de Telefonia** é a tecnologia da Microsoft para habilitar os recursos de controle de chamada e PBX na nuvem do Office 365 com o Skype for Business Online e o Microsoft Teams. O Sistema de Telefonia permite que você substitua seu sistema PBX existente por um conjunto de recursos fornecidos do Office 365 que estão totalmente integrados à sua experiência na nuvem. Para saber mais sobre os recursos, confira [Veja aqui o que você obtém com o Sistema de Telefonia no Office 365](here-s-what-you-get-with-phone-system.md).
+**Sistema de Telefonia** é a tecnologia da Microsoft para habilitar os recursos de controle de chamada e PBX na nuvem do Office 365 com o Skype for Business Online e o Microsoft Teams. O Sistema de Telefonia permite que você substitua seu sistema PBX existente por um conjunto de recursos fornecidos do Office 365 que estão totalmente integrados à sua experiência na nuvem. Para obter mais informações sobre os recursos, consulte o [que você obtém com o sistema telefônico no Office 365](here-s-what-you-get-with-phone-system.md).
   
 Com o Sistema de Telefonia, os usuários podem usar o Skype for Business Online e o Microsoft Teams para fazer e receber chamadas, transferir chamadas e ativar ou desativar o mudo. Os usuários do Sistema de Telefonia podem clicar em um nome no catálogo de endereços e o Skype for Business ou o Microsoft Teams fazem a chamada para essa pessoa. Para fazer e receber chamadas, os usuários do Sistema de Telefonia podem usar seus dispositivos móveis, um fone de ouvido com um laptop ou PC ou um dos muitos telefones IP que funcionam com o Skype for Business ou Microsoft Teams. Os administradores do sistema telefônico podem gerenciar as opções de chamada e as configurações no mesmo console usado para mensagens, colaboração e assim por diante.
   

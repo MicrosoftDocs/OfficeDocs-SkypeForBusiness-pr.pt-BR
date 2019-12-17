@@ -19,12 +19,12 @@ f1keywords:
 ms.collection:
 - M365-collaboration
 description: Saiba como gerenciar as configurações de reuniões do Team que os usuários agendam em sua organização.
-ms.openlocfilehash: cba1a51130a9999ca62c70700a387c88ea1ff58e
-ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
+ms.openlocfilehash: adb1beaa7aff84d2ef51820332bc7f823b124a22
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38746444"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069452"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Gerenciar configurações de reunião no Microsoft Teams
 
@@ -52,7 +52,7 @@ Você pode personalizar convites de reunião do teams para atender às necessida
 
 1. Crie uma imagem que não tenha mais de 188 pixels de largura por 30 pixels de altura (é muito pequena).
 2. Salve a imagem no formato JPG ou PNG.
-3. Armazene a imagem em um local central que todos em sua organização possam acessar, como um compartilhamento de rede.
+3. Armazene a imagem em um local no qual todas as pessoas que receberem o convite possam acessá-la, como um site público.
 
     Agora você pode adicioná-lo aos convites para reunião. Veja as próximas etapas.
 

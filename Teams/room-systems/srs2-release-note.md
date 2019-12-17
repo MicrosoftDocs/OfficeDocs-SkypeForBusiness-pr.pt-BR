@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: Este artigo discute melhorias cumulativas nas salas do Microsoft Teams.
-ms.openlocfilehash: 721acfeb04512a75da225a4c638f15e13b4d5d65
-ms.sourcegitcommit: 4093a3e0d4c72777057d78ab06dc7d49d826c5de
+ms.openlocfilehash: 222a4737085c7201c3452ed9735cb5bee5689ff1
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39987854"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069312"
 ---
 # <a name="release-notes"></a>Notas de versão
 
@@ -27,7 +27,7 @@ Este artigo discute melhorias cumulativas nas salas do Microsoft Teams.
 
 |Liberação |Publicado em <br/> Microsoft Store |
 |--- |--- |
-|4.3.21.0 |12/09/2019 |
+|4.3.23.0 |12/13/2019 |
 |4.2.4.0 |10/07/2019 |
 |4.1.22.0 |08/15/2019 |
 |4.0.105.0 |07/10/2019 |
@@ -58,7 +58,7 @@ Este artigo discute melhorias cumulativas nas salas do Microsoft Teams.
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Introdução ao recurso salas do Microsoft Teams e resolução de problemas
 
-### <a name="43210-12092019"></a>4.3.21.0 (12/09/2019)
+### <a name="43230-12132019"></a>4.3.23.0 (12/13/2019)
 
 Apresentado nesta atualização:
 
@@ -66,7 +66,7 @@ Apresentado nesta atualização:
 - Atualização da interface do usuário das configurações do administrador do dispositivo com adição de configuração de dispositivo na guia sobre
 - Controle da sala de volta para a tela principal
 - SKU da sala de reunião disponível no GCC
-- Suporte à câmera de conteúdo para sistema baseado em Surface pro 
+- Suporte à câmera de conteúdo para sistema baseado em Surface pro (compilação mínima necessária do aplicativo: 4.2.4.0)
 
 ### <a name="4240-10072019"></a>4.2.4.0 (10/07/2019)
 

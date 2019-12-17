@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37b74c631bc8194037b332e821b29fa61cb6530b
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 8f12b80fa1914166d48860b15cda7a928ca94ece
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515969"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069192"
 ---
 # <a name="plan-my-users-experience"></a>Planejar a experiência de meus usuários
 
@@ -41,7 +41,7 @@ Um dos principais benefícios do teams é que o cliente é mantido atualizado au
 
 Como você pode ver no diagrama abaixo, os pontos de extremidade são um bloco de construção importante para oferecer uma experiência de qualidade para os usuários.
 
-![Diagrama descrevendo os três componentes do diagrama de qualidade](media/plan-my-users-experience-image1.png "descrevendo os três componentes de qualidade e como o gerenciamento de serviços se sobrepõe a todos os três componentes. Com foco em pontos de extremidade.")
+![Diagrama descrevendo os três componentes de qualidade](media/plan-my-users-experience-image1.png "Diagrama descrevendo os três componentes de qualidade e como o gerenciamento de serviços se sobrepõe a todos os três componentes. Com foco em pontos de extremidade.")
 
 Os pontos de extremidade do teams podem ser executados em muitos dispositivos, incluindo PCs, Macs, tablets e dispositivos móveis. Parte da experiência não só inclui o dispositivo, mas como um usuário se conecta ao dispositivo — por exemplo, usando o microfone/alto-falante interno do dispositivo, o fones ou um fone de ouvido com microfone otimizado. O uso de um fone de ouvido com microfone otimizado pode melhorar a experiência geral do usuário.
 
@@ -106,7 +106,9 @@ Um exercício de mapeamento entre personas e dispositivos deve ser realizado com
 Depois de selecionar os dispositivos, inclua-os no plano de testes do piloto para a validação final. Faça pesquisas durante o piloto para obter comentários e assim garantir que sua estratégia de dispositivos seja a ideal.
 
 > [!NOTE]
-> No momento, recomendamos usar dispositivos de áudio certificados pelo Programa de Certificação do Skype for Business. Para localizar dispositivos certificados neste programa, consulte o catálogo [dispositivos USB certificados para o catálogo de soluções do Skype for Business](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) .
+> No momento, recomendamos usar dispositivos de áudio certificados pelo Programa de Certificação do Skype for Business. Para localizar dispositivos certificados neste programa, consulte dispositivos e dispositivos de áudio e [vídeo USB](https://docs.microsoft.com/SkypeForBusiness/certification/devices-usb-devices)do [Microsoft Teams](https://products.office.com/en-us/microsoft-teams/across-devices/devices) .
+
+
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Decidir sobre a estratégia geral de dispositivos da sua organização para experiências de usuário e de sala de reunião.</li></ul></td></tr>

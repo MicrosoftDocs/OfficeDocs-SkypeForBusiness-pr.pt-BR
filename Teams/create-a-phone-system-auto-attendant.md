@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar atendedores automáticos da nuvem para o Microsoft Teams.
-ms.openlocfilehash: 36725b9c322c5d084fdfc344132f36b9265ce9dd
-ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
+ms.openlocfilehash: 2cd468b3a4f151d6ad19d2ad430bb94045fb808f
+ms.sourcegitcommit: 89106cfda0d900d8be541943b7d1537bc69ed57f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38318124"
+ms.lasthandoff: 12/16/2019
+ms.locfileid: "40070227"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar um atendedor automático do Cloud
 
@@ -218,9 +218,8 @@ Se você selecionar **Desconectar**, o chamador será desconectado após a sauda
 
 **Discar por nome** Se você habilitar essa opção, os chamadores poderão procurar pessoas em sua organização usando **discar por nome**. Eles dizem que o nome do usuário e o reconhecimento de voz correspondem a um usuário. Você pode definir quem é e não está incluído nesses serviços na página de escopo opcional de discagem. Qualquer usuário online com uma licença de sistema telefônico ou qualquer usuário hospedado no local usando o Skype for Business Server é um usuário elegível e pode ser encontrado com o nome discado.
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-**Discar por extensão** (este recurso de visualização ainda não está disponível para o público geral) se você habilitar essa opção, os chamadores poderão se conectar aos usuários em sua organização inserindo a extensão do seu telefone. Você pode selecionar quais usuários estão listados como disponíveis ou não estão disponíveis para **discar por extensão** na página de escopo opcional de discagem. Qualquer usuário online com uma licença do sistema telefônico ou qualquer usuário hospedado no local usando o Skype for Business Server é um usuário elegível e pode ser encontrado com a extensão dial-to.
+**Discar por extensão** Se você habilitar essa opção, os chamadores poderão se conectar com os usuários em sua organização inserindo a extensão de seu telefone. Você pode selecionar quais usuários estão listados como disponíveis ou não estão disponíveis para **discar por extensão** na página de escopo opcional de discagem. Qualquer usuário online com uma licença do sistema telefônico ou qualquer usuário hospedado no local usando o Skype for Business Server é um usuário elegível e pode ser encontrado com a extensão dial-to.
 
 > [!IMPORTANT]
 > Por favor, observe o seguinte:

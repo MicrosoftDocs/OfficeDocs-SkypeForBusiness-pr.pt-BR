@@ -14,12 +14,12 @@ MS.collection:
 description: Saiba mais sobre a análise de equipe cruzada e a análise por equipe no Teams, que permitem aos usuários ver dados de uso para as equipes das quais são membros.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 265099706e5c6fd502cabf688d539678d8669717
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 6914d391d8dfdd1e5a5b5e0e7f826bef78e67678
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37569699"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069442"
 ---
 # <a name="view-cross-team-and-per-team-analytics-in-teams"></a>Exibir análise entre equipes e por equipe em Teams
 
@@ -39,7 +39,7 @@ A análise por equipe proporciona aos usuários uma visão mais granular dos dad
     |Item |Descrição  |
     |--------|-------------|
     |**Nome**   |Nome da equipe. |
-    |**Usuários ativos**   |Número de usuários ativos na linha de equipe e na linha de tendência das atividades da equipe durante o período de tempo especificado.
+    |**Usuários ativos**   |Número de usuários ativos na linha de equipe e na linha de tendência das atividades da equipe durante o período de tempo especificado. Definimos 
     |**Pessoas**   |Número total de pessoas na equipe no período de tempo especificado. Isso inclui os proprietários da equipe, os membros da equipe e os convidados.|
     |**Pessoas**   |Número de convidados na equipe durante o período de tempo especificado. |
     |**Mensagens**   |Número de mensagens exclusivas postadas no chat da equipe durante o período de tempo especificado. |
@@ -59,6 +59,9 @@ A análise por equipe proporciona aos usuários uma visão mais granular dos dad
     |**Função**   |Números de usuários na equipe por função, incluindo proprietários de equipes, membros da equipe e convidados.|
     |Gráfico **usuários ativos**  |Número de usuários ativos na equipe por data. Passe o mouse sobre o ponto em uma determinada data para ver o número de usuários ativos nessa data.|
     |Gráfico de **mensagens**  |Número de mensagens exclusivas postadas no chat da equipe por data. Passe o mouse sobre o ponto em uma determinada data para ver o número de mensagens exclusivas lançadas nessa data.|
+    
+> [!NOTE]
+> Definimos os usuários ativos à medida que os usuários executam uma ação intencional no cliente da área de trabalho, cliente móvel e cliente Web. Exemplos de uma ação intencional incluem o início de um chat, a realização de uma chamada, o compartilhamento de um arquivo, a edição de um documento no Teams, a participação em uma reunião etc. Impedimos ações passivas, como inicialização automática, minimizando uma tela ou fechando o aplicativo. Também eliminamos a duplicação de todas as ações em uma única ID de usuário.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
