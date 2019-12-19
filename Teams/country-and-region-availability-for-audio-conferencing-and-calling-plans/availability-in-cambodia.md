@@ -3,7 +3,7 @@ title: Disponibilidade em Camboja
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para Camboja.
-ms.openlocfilehash: 6d758a5171ecd8af006a6c8afd466b2a0aab5f2d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 438ac6dc00ea92c46143df287a4615879300a540
+ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570543"
+ms.lasthandoff: 12/18/2019
+ms.locfileid: "40741365"
 ---
 # <a name="availability-in-cambodia"></a>Disponibilidade em Camboja
 
@@ -40,7 +40,7 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|A Audioconferência está disponível para compra?  <br/> |Não  <br/> |
+|A Audioconferência está disponível para compra?  <br/> |Sim, somente [pagamento por minuto](../audio-conferencing-pay-per-minute.md)  <br/> |
 |Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Não  <br/> |
 |Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> | Requer créditos de comunicação <br/> |
    
@@ -65,9 +65,9 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?   | Phnom Penh ([na solicitação](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) |
-|Há números de chamada tarifada disponíveis?  <br/> |Sim ([solicitação](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))  <br/> |
-|Números de chamada gratuita estão disponíveis?  <br/> |Sim ([solicitação](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?   | Phnom Penh |
+|Há números de chamada tarifada disponíveis?  <br/> |Sim <br/> |
+|Números de chamada gratuita estão disponíveis?  <br/> |Não <br/> |
    
  Se quiser obter números de telefone de chamada tarifada e gratuita para videoconferências, atendedores automáticos e filas de chamadas, consulte [obtendo números de telefone de serviço para o Skype for Business e o Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
@@ -75,7 +75,7 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Há Créditos de Comunicação disponíveis?  <br/> |Não  <br/> |
+|Há Créditos de Comunicação disponíveis?  <br/> |Sim  <br/> |
    
 Para configurá-los, consulte [Configurar Créditos de Comunicação para a sua organização](../set-up-communications-credits-for-your-organization.md).
   

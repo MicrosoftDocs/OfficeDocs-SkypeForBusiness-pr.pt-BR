@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Você pode selecionar um país/região para ver se a conferência de áudio, o sistema de telefonia, os planos de chamada, os créditos de comunicações e os números de telefone de chamada tarifada estão disponíveis ou não.
-ms.openlocfilehash: b4ff3d9a760587788a93c459c7888b1972579f89
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d98e085667c97dbf4b4afc6dfc67fe1eb847d731
+ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573080"
+ms.lasthandoff: 12/18/2019
+ms.locfileid: "40741385"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilidade de Audioconferência e Planos de Chamadas por país e região
 
@@ -39,21 +39,26 @@ Você pode selecionar um país ou região para ver quais recursos de voz na nuve
 ## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>Selecione seu país ou região para ver o que está disponível para a sua organização
 
 > [!div class="op_single_selector"]
-> - [Argélia](availability-in-algeria.md)    
+> - [Argélia](availability-in-algeria.md)
+> - [Antígua e Barbuda](availability-in-antigua-and-barbuda.md)
 > - [Argentina](availability-in-argentina.md)
 > - [Austrália](availability-in-australia.md)
 > - [Áustria ](availability-in-austria.md)
+> - [Bahamas](availability-in-the-bahamas.md)
 > - [Bahrein](availability-in-bahrain.md)
+> - [Barbados](availability-in-barbados.md)
 > - [Belarus](availability-in-belarus.md)
-> - [Bélgica ](availability-in-belgium.md)
+> - [Bélgica](availability-in-belgium.md)
 > - [Belize](availability-in-belize.md)
 > - [Benin](availability-in-benin.md)
+> - [Bermuda](availability-in-bermuda.md)
 > - [Bosnia and Herzegovina (Bosna i Hercegovina)](availability-in-bosniaherzegovina.md)
 > - [Brasil](availability-in-brazil.md)
 > - [Brunei](availability-in-brunei.md)
 > - [Bulgária](availability-in-bulgaria.md)
 > - [Camboja](availability-in-cambodia.md)
 > - [Canadá](availability-in-canada.md)
+> - [Ilhas Cayman](availability-in-the-cayman-islands.md)
 > - [Chile](availability-in-chile.md)
 > - [China](availability-in-china.md)
 > - [Colômbia](availability-in-colombia.md)
@@ -62,6 +67,7 @@ Você pode selecionar um país ou região para ver quais recursos de voz na nuve
 > - [Chipre](availability-in-cyprus.md)
 > - [República Tcheca](availability-in-the-czech-republic.md)
 > - [Dinamarca](availability-in-denmark.md)
+> - [Dominica](availability-in-dominica.md)
 > - [República Dominicana](availability-in-the-dominican-republic.md)
 > - [Equador ](availability-in-ecuador.md)
 > - [Egito](availability-in-egypt.md)
@@ -73,6 +79,8 @@ Você pode selecionar um país ou região para ver quais recursos de voz na nuve
 > - [Alemanha ](availability-in-germany.md)
 > - [Gana](availability-in-ghana.md)
 > - [Grécia](availability-in-greece.md)
+> - [Granada](availability-in-grenada.md)
+> - [Guam](availability-in-guam.md)
 > - [Honduras](availability-in-honduras.md)
 > - [Hong-Kong](availability-in-hong-kong.md)
 > - [Hungria](availability-in-hungary.md)
@@ -81,9 +89,10 @@ Você pode selecionar um país ou região para ver quais recursos de voz na nuve
 > - [Irlanda](availability-in-ireland.md)
 > - [Israel](availability-in-israel.md)
 > - [Itália](availability-in-italy.md)
+> - [Jamaica](availability-in-jamaica.md)
 > - [Japão](availability-in-japan.md)
 > - [Jordânia](availability-in-jordan.md)
-> - [Cazaquistão ](availability-in-kazakhstan.md)
+> - [Cazaquistão](availability-in-kazakhstan.md)
 > - [Quênia](availability-in-kenya.md)
 > - [Kuwait](availability-in-kuwait.md)
 > - [Letônia](availability-in-latvia.md)
@@ -104,7 +113,7 @@ Você pode selecionar um país ou região para ver quais recursos de voz na nuve
 > - [Paquistão ](availability-in-pakistan.md)
 > - [Panamá](availability-in-panama.md)
 > - [Paraguai](availability-in-paraguay.md)
-> - [Peru ](availability-in-peru.md)
+> - [Peru](availability-in-peru.md)
 > - [Filipinas](availability-in-the-philippines.md)
 > - [Polônia](availability-in-poland.md)
 > - [Portugal](availability-in-portugal.md)
@@ -112,6 +121,8 @@ Você pode selecionar um país ou região para ver quais recursos de voz na nuve
 > - [Catar](availability-in-qatar.md)
 > - [Romênia](availability-in-romania.md)
 > - [Rússia ](availability-in-russia.md)
+> - [São Cristóvão e Névis](availability-in-saint-kitts-and-nevis.md)
+> - [Santa Lúcia](availability-in-saint-lucia.md)
 > - [Arábia Saudita](availability-in-saudi-arabia.md)
 > - [Sérvia](availability-in-serbia.md)
 > - [Singapura](availability-in-singapore.md)
@@ -136,7 +147,7 @@ Você pode selecionar um país ou região para ver quais recursos de voz na nuve
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnã ](availability-in-vietnam.md)
 
-**Se você estiver procurando uma planilha com todos os países e regiões, baixe e salve a [planilha de recursos de voz em nuvem/disponibilidade de país/região](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-09052019)-(en-us).xlsx?raw=true)**.
+**Se você estiver procurando uma planilha com todos os países e regiões, baixe e salve a [planilha de recursos de voz em nuvem/disponibilidade de país/região](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-12182019)-(en-us).xlsx?raw=true)**.
 
 ***
 
@@ -188,7 +199,7 @@ Juntamente com o sistema telefônico, um plano de chamadas permite que os usuár
 Você também pode ver o [sistema telefônico e o licenciamento planos de chamada](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) para obter informações de licenciamento.
 
 > [!NOTE]
-> O país/região é baseado na localização da licença do usuário no **Centro** > de administração do Microsoft 365,**usuários ativos** e **não** no endereço de cobrança listado no **perfil da organização** no **Microsoft 365 admin Centro**. 
+> O país/região é baseado na localização da licença do usuário no **Centro** > de administração do Microsoft 365,**usuários ativos** e **não** no endereço de cobrança listado no **perfil da organização** no **centro de administração do Microsoft 365**. 
   
 ### <a name="toll-and-toll-free-phone-numbers-for-services"></a>Números de telefone de chamada tarifada e gratuita para serviços
 

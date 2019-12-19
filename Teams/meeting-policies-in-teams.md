@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Saiba como gerenciar as configurações de política de reunião no Teams.
-ms.openlocfilehash: 1407e18387aac5ae9ad5bdaa894d738f48fb3b42
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ba44188d978c9109d1ba3d038c5b1f48d0670746
+ms.sourcegitcommit: 43cab5f0fc8692174db09badf3d448e8ff6a50d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37564961"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40744865"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
@@ -40,7 +40,7 @@ Você pode implementar políticas das seguintes maneiras, que afetam a experiên
 |Por usuário    |Quando você implementa uma política por usuário, somente a política por usuário se aplica para restringir determinados recursos para o organizador e/ou participantes da reunião. Por exemplo, **permitir reunião agora** é uma política por usuário.     |
 |Por organização e por usuário     |Quando você implementa uma combinação de uma política por organização e por usuário, certos recursos são restritos para participantes da reunião com base em sua política e na política do organizador. Por exemplo, **permitir gravação na nuvem** é uma política por organização e por usuário. Ative essa configuração para permitir que o organizador da reunião e os participantes iniciem e parem de gravar. 
 
-Por padrão, uma política chamada global (padrão para toda a organização) é criada. Por padrão, todos os usuários de sua organização serão atribuídos a essa política de reunião. Você pode fazer alterações nessa política ou criar uma ou mais políticas personalizadas e atribuir usuários a elas. Quando você cria uma política personalizada, pode permitir ou impedir que determinados recursos sejam disponibilizados para seus usuários e, em seguida, atribuí-los a um ou mais usuários que terão as configurações aplicadas a eles. 
+Por padrão, uma política denominada Global (padrão toda a organização) é criada. Por padrão, todos os usuários de sua organização serão atribuídos a essa política de reunião. Você pode fazer alterações nessa política ou criar uma ou mais políticas personalizadas e atribuir usuários a elas. Quando você cria uma política personalizada, pode permitir ou impedir que determinados recursos sejam disponibilizados para seus usuários e, em seguida, atribuí-los a um ou mais usuários que terão as configurações aplicadas a eles. 
 
 ## <a name="change-or-create-a-meeting-policy"></a>Alterar ou criar uma política de reunião
 
@@ -64,20 +64,20 @@ Em seguida, atribua a política aos usuários.
 
 ## <a name="assign-a-meeting-policy-to-users"></a>Atribuir uma política de reunião aos usuários
 
-Se você estiver aplicando a política a um usuário, selecione **usuários** no painel de navegação à esquerda e clique no nome de exibição do usuário. Na página do usuário, ao lado de **políticas atribuídas**, selecione **Editar**. Em seguida, no painel **Editar políticas de usuário** , em **política de reunião**, selecione a política de reunião na lista suspensa e, em seguida, selecione **salvar**. Você também pode atribuir políticas da lista de usuários. Para fazer isso, selecione o usuário clicando à esquerda do nome para exibição do usuário. Selecione **Editar configurações**. Em seguida, no painel **Editar configurações** , em **política de reunião**, selecione a política na lista suspensa e, em seguida, selecione **salvar**. 
+Se você estiver aplicando a política a um usuário, selecione **usuários** no painel de navegação à esquerda e clique no nome de exibição do usuário. Na página do usuário, ao lado de **políticas atribuídas**, selecione **Editar**. Em seguida, no painel **Editar políticas de usuário** , em **política de reunião**, selecione a política de reunião na lista suspensa e, em seguida, selecione **salvar**. Você também pode atribuir políticas da lista de usuários. Para fazer isso, escolha o usuário clicando à esquerda do nome de exibição do usuário. Escolha **Editar configurações**. Em seguida, no painel **Editar configurações** , em **política de reunião**, selecione a política na lista suspensa e, em seguida, selecione **salvar**. 
  
 Se você estiver aplicando uma política a mais de um usuário, selecione **usuários** no painel de navegação à esquerda e, em seguida, selecione cada usuário clicando à esquerda do nome do usuário e, em seguida, clique em **Editar configurações**. No painel **Editar configurações** , em **política de reunião**, selecione a política na lista suspensa e, em seguida, selecione **salvar**.
  
 Você também pode atribuir uma política de reunião a um ou mais usuários da seguinte maneira:
 
 1. Acesse >  **o centro de administração do Microsoft Teams**,**políticas de reunião**de**reuniões** > .
-2. Selecione a política clicando à esquerda do nome da política.
-3. Selecione **gerenciar usuários**.
-4. No painel **gerenciar usuários** , procure pelo usuário por nome para exibição ou por nome de usuário, selecione o nome e, em seguida, selecione **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
+2. Escolha a política clicando à esquerda do nome da política.
+3. Escolha **Gerenciar usuários**.
+4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
 5. Quando tiver terminado de adicionar usuários, selecione **salvar**.
  
 > [!NOTE] 
-> Você não pode excluir uma política se os usuários estiverem atribuídos a ela. Você deve primeiro atribuir uma política diferente para todos os usuários afetados e, em seguida, pode excluir a política original.
+> Você não pode excluir uma política se usuários estiverem atribuídos a ela. Primeiro, você deve atribuir uma política diferente a todos os usuários afetados. em seguida, é possível excluir a política original.
  
 ## <a name="meeting-policy-settings"></a>Configurações da política de reunião
 
@@ -95,7 +95,7 @@ Ao selecionar uma política existente na página **políticas de reunião** ou s
 ## <a name="meeting-policy-settings---general"></a>Configurações da política de reunião-geral
 
 - [Permitir reunir agora em canais](#allow-meet-now-in-channels)
-- [Permitir reunião privada agora (disponível em breve)](#allow-private-meet-now-coming-soon)
+- [Permitir reunião particular agora](#allow-private-meet-now)
 - [Permitir o suplemento do Outlook](#allow-the-outlook-add-in)
 - [Permitir agendamento de reunião de canal](#allow-channel-meeting-scheduling)
 - [Permitir agendamento de reuniões particulares](#allow-scheduling-private-meetings)
@@ -106,7 +106,7 @@ Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Es
 
 ![Captura de tela mostrando o ícone reunir agora abaixo de uma mensagem](media/meeting-policies-meet-now.png)
 
-### <a name="allow-private-meet-now-coming-soon"></a>Permitir reunião privada agora (disponível em breve)
+### <a name="allow-private-meet-now"></a>Permitir reunião particular agora
 
 Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Esta configuração controla se um usuário pode iniciar uma reunião privada ad hoc.  
 
@@ -162,7 +162,7 @@ Vamos dar uma olhada no exemplo a seguir.
 
 |Usuário |Política de reunião  |Permitir gravação na nuvem |
 |---------|---------|---------|
-|Daniela | Global   | False |
+|Daniela | Global   | Falso |
 |Amanda | Location1MeetingPolicy | Verdadeiro|
 |John (usuário externo) | Não aplicável | Não aplicável|
 
@@ -181,7 +181,7 @@ Vamos dar uma olhada no exemplo a seguir.
 |Usuário |Política de reunião  |Permitir vídeo IP |
 |---------|---------|---------|
 |Daniela   | Global   | Verdadeiro        |
-|Amanda    | Location1MeetingPolicy        | False      |
+|Amanda    | Location1MeetingPolicy        | Falso      |
 
 Reuniões hospedadas pela Daniela permitem que o vídeo seja ativado. Daniela pode ingressar na reunião e ativar o vídeo. O Amanda não pode ativar o vídeo na reunião do Daniela porque a política de Amanda está definida como não permitir vídeo. Amanda pode ver vídeos compartilhados por outros participantes da reunião.
 
@@ -259,7 +259,7 @@ Vamos dar uma olhada no exemplo a seguir.
 |Usuário |Política de reunião  |Permitir que o participante conceda ou solicite o controle |
 |---------|---------|---------|
 |Daniela   | Global   | Verdadeiro       |
-|Babek    | Location1MeetingPolicy        | False   |
+|Babek    | Location1MeetingPolicy        | Falso   |
 
 O Daniela pode dar ao controle da área de trabalho compartilhada ou janela para outros participantes de uma reunião organizada por Babek, enquanto o Babek não pode conceder ao controle outros participantes.
 
@@ -283,7 +283,7 @@ Vamos dar uma olhada no exemplo a seguir.
 |Usuário |Política de reunião  |Permitir compartilhamento do PowerPoint |
 |---------|---------|---------|
 |Daniela   | Global   | Verdadeiro       |
-|Amanda   | Location1MeetingPolicy        | False   |
+|Amanda   | Location1MeetingPolicy        | Falso   |
 
 O Amanda não pode compartilhar apresentações de slides do PowerPoint em reuniões, mesmo que ela seja o organizador da reunião. Daniela pode compartilhar decks de slides do PowerPoint mesmo se a reunião for organizada por Amanda. O Amanda pode exibir os decks de slides do PowerPoint compartilhados por outras pessoas na reunião, mesmo que ele não possa compartilhar os slides do PowerPoint.
 
@@ -296,7 +296,7 @@ Vamos dar uma olhada no exemplo a seguir.
 |Usuário |Política de reunião  |Permitir quadro de comunicações|
 |---------|---------|---------|
 |Daniela   | Global   | Verdadeiro       |
-|Amanda   | Location1MeetingPolicy        | False   |
+|Amanda   | Location1MeetingPolicy        | Falso   |
 
 O Amanda não pode compartilhar o quadro de comunicações em uma reunião, mesmo que ela seja o organizador da reunião. Daniela pode compartilhar o quadro de comunicações mesmo se uma reunião for organizada por Amanda.  
 
@@ -309,7 +309,7 @@ Vamos dar uma olhada no exemplo a seguir.
 |Usuário |Política de reunião  |Permitir anotações compartilhadas |
 |---------|---------|---------|
 |Daniela   | Global   | Verdadeiro       |
-|Amanda   | Location1MeetingPolicy | False |
+|Amanda   | Location1MeetingPolicy | Falso |
 
 Daniela pode fazer anotações nas reuniões do Amanda, e o Amanda não pode fazer anotações em nenhuma reunião.
 
@@ -357,7 +357,7 @@ Aqui está o comportamento da junção de pessoas anônimas quando os usuários 
 |Verdadeiro    | Todos      | Ingressar diretamente         |
 |   | Todos em sua organização       | Aguardar no lobby        |
 |   | Todos em sua organização e organizações federadas       | Aguardar no lobby         |
-|False    | Todos        | Ingressar diretamente        |
+|Falso    | Todos        | Ingressar diretamente        |
 |   | Todos em sua organização     | Aguardar no lobby        |
 |   | Todos em sua organização e organizações federadas      | Aguardar no lobby         |
 
@@ -368,7 +368,7 @@ Aqui está o comportamento da junção de pessoas anônimas quando nenhum usuár
 |Verdadeiro    | Todos      | Ingressar diretamente         |
 |   | Todos em sua organização       | Aguardar no lobby        |
 |   | Todos em sua organização e organizações federadas       | Aguardar no lobby         |
-|False    | Todos        | Aguardar no lobby. Os usuários são automaticamente admitidos quando o primeiro usuário autenticado entra na reunião.        |
+|Falso    | Todos        | Aguardar no lobby. Os usuários são automaticamente admitidos quando o primeiro usuário autenticado entra na reunião.        |
 |   | Todos em sua organização     |Aguardar no lobby         |
 |   | Todos em sua organização e organizações federadas      | Aguardar no lobby         |
 
@@ -383,12 +383,10 @@ Aqui está o comportamento da junção de pessoas que discam por telefone.
 |Verdadeiro    | Todos      | Ingressar diretamente         |
 |   | Todos em sua organização       | Ingressar diretamente        |
 |   | Todos em sua organização e organizações federadas       | Ingressar diretamente         |
-|False    | Todos        | Ingressar diretamente        |
+|Falso    | Todos        | Ingressar diretamente        |
 |   | Todos em sua organização     |Aguardar no lobby         |
 |   | Todos em sua organização e organizações federadas      | Aguardar no lobby         |
 
-
-[Artigo completo](meeting-policies-in-teams.md)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 [Políticas de mensagens no Teams](messaging-policies-in-teams.md)

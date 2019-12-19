@@ -1,11 +1,10 @@
 ---
-title: Disponibilidade em El Salvador
-ms.author: crowe
-author: CarolynRowe
+title: Disponibilidade em Jamaica
+author: LanaChin
+ms.author: v-lanac
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, fafan
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
-ms.assetid: ba39f7c0-3bdd-4cd5-b4bc-dccda2414c3a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -23,34 +22,34 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para El Salvador.
-ms.openlocfilehash: ee73a0ed7a49d87e84fb9df0c6dcfcb25c90192a
+description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Jamaica.
+ms.openlocfilehash: 2860d014eeca08627e8eb51e168eb593767291fb
 ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741355"
+ms.locfileid: "40741477"
 ---
-# <a name="availability-in-el-salvador"></a>Disponibilidade em El Salvador
+# <a name="availability-in-jamaica"></a>Disponibilidade em Jamaica
 
 [Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.
 
-Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para El Salvador.
+Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Jamaica.
   
 ## <a name="audio-conferencing"></a>Audioconferência
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |A Audioconferência está disponível para compra?  <br/> |Sim, somente [pagamento por minuto](../audio-conferencing-pay-per-minute.md)  <br/> |
-|Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Não <br/> |
-|Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> |Requer créditos de comunicação  <br/> |
+|Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> | Não |
+|Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> | Requer créditos de comunicação <br/> |
    
 ## <a name="phone-system"></a>Sistema de Telefonia
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |O Sistema de Telefonia está disponível para compra?  <br/> |Sim  <br/> |
-| Atendedores automáticos <br/> |Disponível  <br/> |
+|Atendedores automáticos <br/> |Disponível  <br/> |
 |Filas de chamadas  <br/> |Disponível  <br/> |
 |Caixa postal  <br/> |Disponível  <br/> |
    
@@ -59,18 +58,18 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Não  <br/> |
-|Minutos disponíveis para Planos de Chamadas  <br/> |Não aplicável  <br/> |
+|Minutos disponíveis para Planos de Chamadas  <br/> |Não se aplica  <br/> |
 |É possível fazer chamadas de saída?  <br/> |Não se aplica  <br/> |
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços
+## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamada tarifada e gratuita para serviços
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?  <br/> |San Salvador  <br/> |
-|Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
-|Há números de chamada gratuita disponíveis?  <br/> |Não  <br/> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?   | Não aplicável <br/> |
+|Há números de chamada tarifada disponíveis?  <br/> |Não <br/> |
+|Números de chamada gratuita estão disponíveis?  <br/> |Sim  <br/> |
    
- Para obter números de telefone de chamadas gratuitas e tarifadas para audioconferência, atendedores automáticos e filas de chamadas, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
+ Se quiser obter números de telefone de chamada tarifada e gratuita para videoconferências, atendedores automáticos e filas de chamadas, consulte [obtendo números de telefone de serviço para o Skype for Business e o Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
 ## <a name="communications-credits"></a>Créditos de Comunicação
 
@@ -85,5 +84,4 @@ Para configurá-los, consulte [Configurar Créditos de Comunicação para a sua 
 [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
 

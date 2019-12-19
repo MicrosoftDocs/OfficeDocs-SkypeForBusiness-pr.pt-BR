@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Saiba como configurar o roteamento direto do sistema de telefonia da Microsoft.
-ms.openlocfilehash: 3524d3d41db02dbc123700ae259386bb97257bbd
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: beeecb1ece84980337c7fe385c6a0e1190bc5e3c
+ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40020065"
+ms.lasthandoff: 12/18/2019
+ms.locfileid: "40741375"
 ---
 # <a name="configure-direct-routing"></a>Configurar o Roteamento Direto
 
@@ -556,7 +556,7 @@ Nesse caso, o usuário do Teams não receberá a notificação de chamada, a cha
 
 A política é aplicada no nível de SBC. Você pode atribuir várias regras de tradução a um SBC, que são aplicadas na ordem em que aparecem quando você as lista no PowerShell. Você também pode alterar a ordem das regras na política.
 
-Para criar, modificar, exibir e excluir regras de manipulação de números, use os cmdlets New-TeamsTranslationRule, Set-TeamsTranslationRule, Get-TeamsTranslationRule e remove-TeamsTranslationRule.
+Para criar, modificar, exibir e excluir regras de manipulação de números, use os cmdlets New-CsTeamsTranslationRule, Set-CsTeamsTranslationRule, Get-CsTeamsTranslationRule e remove-CsTeamsTranslationRule.
 
 Para atribuir, configurar e listar as regras de manipulação de números no SBCS, use os cmdlets [New-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) e [set-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) juntos ```InboundPSTNNumberTranslationRules```com ```OutboundTeamsNumberTranslationRules```os ```OutboundPSTNNumberTranslationRules``` ```InboundTeamsNumberTranslationRules```parâmetros ```InboundTeamsNumberTranslationRulesList```, ```InboundPSTNNumberTranslationRulesList``` ```OutboundTeamsNumberTranslationRulesList```,,, ```OutboundPSTNNumberTranslationRulesList``` , e.
 

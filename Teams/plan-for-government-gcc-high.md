@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71060818ceb826249cb726264c9533172edd1c39
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 12ef34ed9a4602f747b706c08586ecfe5854dcf4
+ms.sourcegitcommit: 43cab5f0fc8692174db09badf3d448e8ff6a50d6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573279"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40744855"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Plano para implantações altas do Microsoft 365 governo-GCC
 
@@ -40,7 +40,7 @@ O ambiente High Microsoft 365 governo-GCC oferece conformidade com os requisitos
 
 Você pode encontrar mais informações sobre o governo Microsoft 365 – GCC High para clientes do governo dos EUA nos [planos do governo](https://products.office.com/government/compare-office-365-government-plans)dos EUA do Office 365, incluindo [os requisitos de qualificação](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements).
 
-A [Descrição do serviço governo dos EUA do Office 365](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) descreve as vantagens da plataforma, que são centralizadas em requisitos de conformidade de reunião nos Estados Unidos.
+A [Descrição do serviço governo dos EUA do Office 365](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) descreve as vantagens da plataforma, que são centralizadas em requisitos de conformidade de reunião nos Estados Unidos.
 
 
 > [!Tip]
@@ -109,7 +109,7 @@ Para acomodar os requisitos de nossos clientes de nuvem governamental, há algum
 | | Skype para empresas-chamadas para equipes | Disponível |
 | | Planos de Chamadas | Não disponível |
 | | Conferência de áudio (permitindo que os participantes da reunião ingressem via PSTN) | Disponível |
-| | Encaminhamento direto do sistema telefônico da Microsoft | Na backlog do governo |
+| | Encaminhamento direto do sistema telefônico da Microsoft | Disponível |
 | | Lobby para chamadores PSTN | Na backlog do governo |
 | | Fila de chamadas | Na backlog do governo |
 | | Suporte chefe e representante | Na backlog do governo |
