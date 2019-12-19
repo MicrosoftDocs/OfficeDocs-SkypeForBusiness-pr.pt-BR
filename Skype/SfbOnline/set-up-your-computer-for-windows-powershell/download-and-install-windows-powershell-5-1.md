@@ -32,7 +32,7 @@ Caso esteja usando a Atualização de Aniversário do Windows 10 ou o Windows Se
   
 Para determinar a versão do Microsoft PowerShell em uso, faça o seguinte em seu computador com o Windows 7, o Windows Server 2008 R2 ou o Windows Server 2012:
   
-1. Clique em **Iniciar**, em **Todos os programas**, em **Acessórios**, em **Windows PowerShell** e em **Windows PowerShell**.
+1. Clique em **Iniciar**, em **Todos os Programas**, em **Acessórios**, em **Windows PowerShell** e em **Windows PowerShell**.
     
 2. No console do PowerShell, digite o seguinte comando e pressione ENTER:
     
