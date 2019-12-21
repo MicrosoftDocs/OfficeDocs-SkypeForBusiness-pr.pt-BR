@@ -18,15 +18,15 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b41e716bb115d84b38aa5f2ead25d6347e2e0f1a
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.sourcegitcommit: e43a66a7f769f855dc45c1bb7f83636d0390949b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
+ms.lasthandoff: 12/20/2019
 ms.locfileid: "37396416"
 ---
 ![Atualize o diagrama de viagem, enfatizando implantação e implementação](media/upgrade-banner-deployment.png "Estágios da jornada da atualização, com ênfase no estágio de implantação e implementação")
 
-Este artigo faz parte do estágio de implantação e implementação da sua jornada de atualização. Antes de prosseguir, confirme que você concluiu as seguintes atividades:
+Este artigo faz parte do estágio de implantação e implementação da sua jornada de atualização. Antes de prosseguir, confirme se você concluiu as seguintes atividades:
 
 -   [Alistou as partes envolvidas no seu projeto](upgrade-enlist-stakeholders.md)
 -   [Definiu o escopo do seu projeto](https://aka.ms/SkypetoTeams-Scope)
@@ -41,7 +41,7 @@ Este artigo faz parte do estágio de implantação e implementação da sua jorn
 Se você implantou o Skype for Business Server ou o Microsoft Lync local e sua organização quer atualizar para o Microsoft Teams, siga as orientações deste artigo. Você precisa configurar a conectividade híbrida com o seu locatário do Office 365 e determinar os requisitos de coexistência se estiver movendo os usuários para o Teams em fases. 
 
 > [!IMPORTANT]
-> O Skype for Business Online será desativado em 31 de julho de 2021, e depois disso não estará mais acessível nem terá suporte. Para maximizar a concretização de benefícios e garantir que sua organização tenha tempo adequado para implementar a sua atualização, recomendamos que você comece sua jornada ao Microsoft Teams hoje mesmo. Lembre-se de que uma atualização bem-sucedida alinha a prontidão técnica e do usuário, portanto, não deixe de aproveitar as diretrizes contidas ao navegar na jornada para o Microsoft Teams.
+> O Skype for Business Online será desativado em 31 de julho de 2021, e depois disso não estará mais acessível nem terá suporte. Para maximizar a realização dos benefícios e garantir que sua organização tenha tempo adequado para implementar a atualização, recomendamos que você comece hoje sua jornada para o Microsoft Teams. Lembre-se de que uma atualização bem-sucedida alinha a prontidão técnica e do usuário, portanto, não deixe de aproveitar as diretrizes contidas ao navegar na jornada para o Microsoft Teams.
 
 ## <a name="step-1-configure-hybrid-connectivity"></a>Etapa 1: configurar a conectividade híbrida 
 
