@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: A Microsoft está desativando o serviço online de Unificação de mensagens do Exchange (ExchUMO) em fevereiro de 2020. Este artigo resume o que os clientes afetados devem saber e fazer para planejar sua continuidade de negócios.
-ms.openlocfilehash: 8b8a0590dd53301a93fb9a6b2ed50e0d5dc830ed
-ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
+ms.openlocfilehash: adef85a59a5d0add990196e5b76587b502f052b5
+ms.sourcegitcommit: 4ccc24dcf61cf9b59224b85757f93f8aceae1771
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "39890575"
+ms.lasthandoff: 12/24/2019
+ms.locfileid: "40854086"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Suporte à migração da Unificação de Mensagens do Exchange Online
 
@@ -185,7 +185,7 @@ Recomendamos que você inicie a configuração de seus novos atendedores automá
 | Altere | Recursos do serviço | Tratamento de horas extras e feriados  |  | S | S    |
 | Altere | Recursos do serviço | Saudação personalizada usando texto para fala  |  | S | S    |
 | Altere | Recursos do serviço | Discagem de extensão   | Como alcançar um usuário ao discar a extensão dele  | S   | S    |
-| Altere | Recursos do serviço | Caixa de correio para chamadores AA para deixar uma mensagem    |  | CY19   | Y    |
+| Altere | Recursos do serviço | Caixa de correio para chamadores AA para deixar uma mensagem    |  | S   | S    |
 | Altere | Recursos do serviço | Várias atribuições de números PSTN a um AA|  | S | S    |
 | Altere | Locatário-recursos de administração | Administração do portal da Web   |  | Y | N    |
 | Altere | Locatário-recursos de administração | Cmdlets do PowerShell  |  | S | S    |

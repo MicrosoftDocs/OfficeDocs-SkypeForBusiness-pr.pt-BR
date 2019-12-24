@@ -3,61 +3,6 @@
 
 
 
-## <a name="week-of-november-11-2019"></a>Semana de 11 de novembro de 2019
-
-
-| Publicado em |Título do tópico | Alteração |
-|------|------------|--------|
-| 11/11/2019 | [Como o SharePoint Online e o OneDrive for Business interagem com o Microsoft Teams](/MicrosoftTeams/sharepoint-onedrive-interact) | modificado |
-| 11/11/2019 | [Autorizar o acesso para convidado no Microsoft Teams](/MicrosoftTeams/teams-dependencies) | modificado |
-| 11/11/2019 | [Usar a pesquisa de conteúdo no Microsoft Teams](/MicrosoftTeams/content-search) | modificado |
-| 11/11/2019 | [Conduzir uma investigação eDiscovery de conteúdo no Microsoft Teams](/MicrosoftTeams/ediscovery-investigation) | modificado |
-| 11/11/2019 | [Mova as suas equipes do StaffHub para Turnos do Microsoft Teams](/MicrosoftTeams/expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams) | modificado |
-| 11/11/2019 | [Limites e especificações para o Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
-| 11/11/2019 | [A experiência no Teams em um locatário do OneDrive do Office 365 e SharePoint Online com Funcionalidades Multigeográficas](/MicrosoftTeams/teams-experience-o365odb-spo-multi-geo) | modificado |
-| 11/12/2019 | [Bem-vindo ao Microsoft Teams](/MicrosoftTeams/teams-overview) | modificado |
-| 11/12/2019 | [Chat, equipes, canais e aplicativos no Microsoft Teams](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | modificado |
-| 11/12/2019 | [Conferências e reuniões no Microsoft Teams](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | modificado |
-| 11/12/2019 | [Acesso para convidado no Microsoft Teams](/MicrosoftTeams/guest-access) | modificado |
-| 11/12/2019 | [Gerenciar equipes no centro de administração do Microsoft Teams](/MicrosoftTeams/manage-teams-in-modern-portal) | modificado |
-| 11/12/2019 | [Qualidade da experiência do guia de avaliação do Microsoft Teams](/MicrosoftTeams/quality-of-experience-review-guide) | modificado |
-| 11/12/2019 | [Suporte às Salas do Microsoft Teams](/MicrosoftTeams/room-systems/skype-room-systems-v2) | modificado |
-| 11/12/2019 | [Requisitos de salas do Microsoft Teams](/MicrosoftTeams/room-systems/requirements) | modificado |
-| 11/13/2019 | [Políticas de controle de aplicativo do AppLocker no Microsoft Teams](/MicrosoftTeams/applocker-in-teams) | modificado |
-| 11/13/2019 | [Benefício da assinatura de Audioconferência “Discar”/”Ligar para mim em”](/MicrosoftTeams/audio-conferencing-subscription-dial-out) | modificado |
-| 11/13/2019 | [Período de discagem gratuita](/MicrosoftTeams/complimentary-dial-out-period) | modificado |
-| 11/13/2019 | [Configurar um atendedor automático do Cloud](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modificado |
-| 11/13/2019 | [Solucionar problemas de acesso de convidado no Microsoft Teams](/MicrosoftTeams/troubleshoot-guest-access) | modificado |
-| 11/14/2019 | [Usar o suplemento de Reunião do Microsoft Teams no Outlook](/MicrosoftTeams/teams-add-in-for-outlook) | modificado |
-| 11/14/2019 | [Gerenciar equipes no centro de administração do Microsoft Teams](/MicrosoftTeams/manage-teams-in-modern-portal) | modificado |
-| 11/14/2019 | [Requisitos de hardware para o aplicativo Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modificado |
-| 11/14/2019 | [Teams para Infraestrutura de Área de Trabalho Virtualizada](/MicrosoftTeams/teams-for-vdi) | modificado |
-| 11/14/2019 | [O que são os eventos ao vivo do Microsoft Teams ?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events) | modificado |
-| 11/14/2019 | [Verificar sua conexão com a Internet](/MicrosoftTeams/business-voice/get-ready-internet) | modificado |
-| 11/14/2019 | [Como fazer para que meus usuários estejam preparados para o Microsoft 365 Business Voice?](/MicrosoftTeams/business-voice/prepare-users) | modificado |
-| 11/14/2019 | [Usar o assistente do Guia de Introdução para configurar o Business Voice](/MicrosoftTeams/business-voice/use-getting-started-wizard) | modificado |
-| 11/15/2019 | [Requisitos de hardware para o aplicativo Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modificado |
-| 11/15/2019 | [Gerenciar pacotes de política no Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | modificado |
-| 11/15/2019 | [Telefones para o Microsoft Teams](/MicrosoftTeams/phones-for-teams) | modificado |
-| 11/15/2019 | [Planejar o gerenciamento de salas do Microsoft Teams com o Azure monitor](/MicrosoftTeams/room-systems/azure-monitor-plan) | modificado |
-| 11/15/2019 | [Configurar um console de salas do Microsoft Teams](/MicrosoftTeams/room-systems/console) | modificado |
-| 11/15/2019 | [Gerenciar as configurações de um console de salas do Microsoft Teams remotamente com um arquivo de configuração XML](/MicrosoftTeams/room-systems/content-camera) | modificado |
-| 11/15/2019 | [Considerações sobre associação ao domínio do sistema de sala do Skype](/MicrosoftTeams/room-systems/domain-joining-considerations) | modificado |
-| 11/15/2019 | [Problemas conhecidos](/MicrosoftTeams/room-systems/known-issues) | modificado |
-| 11/15/2019 | [Migrar dispositivos do sistema de sala do Lync para salas do Microsoft Teams](/MicrosoftTeams/room-systems/lrs-migration) | modificado |
-| 11/15/2019 | [Usar a ferramenta de recuperação das Salas do Microsoft Teams](/MicrosoftTeams/room-systems/recovery-tool) | modificado |
-| 11/15/2019 | [Requisitos de salas do Microsoft Teams](/MicrosoftTeams/room-systems/requirements) | modificado |
-| 11/15/2019 | [Manutenção e operações de salas do Microsoft Teams](/MicrosoftTeams/room-systems/room-systems-v2-operations) | modificado |
-| 11/15/2019 | [Visão geral de gerenciamento para salas do Microsoft Teams](/MicrosoftTeams/room-systems/skype-room-systems-v3) | modificado |
-| 11/15/2019 | [Prepare seu ambiente](/MicrosoftTeams/room-systems/srs-v2-prep) | modificado |
-| 11/15/2019 | [Suporte de versão](/MicrosoftTeams/room-systems/srs2-lifecycle-support) | modificado |
-| 11/15/2019 | [Notas de versão](/MicrosoftTeams/room-systems/srs2-release-note) | modificado |
-| 11/15/2019 | [Gerenciar atualizações do Windows para salas do Microsoft Teams](/MicrosoftTeams/room-systems/updates) | modificado |
-| 11/15/2019 | [Implantar as Salas do Microsoft Teams com o Exchange no local](/MicrosoftTeams/room-systems/with-exchange-on-premises) | modificado |
-| 11/15/2019 | [Implantar Salas do Microsoft Teams com o Office 365](/MicrosoftTeams/room-systems/with-office-365) | modificado |
-| 11/15/2019 | [Telefones e dispositivos para Teams](/MicrosoftTeams/teams-ip-phones) | modificado |
-
-
 ## <a name="week-of-november-18-2019"></a>Semana de 18 de novembro de 2019
 
 
@@ -196,3 +141,35 @@
 | 12/13/2019 | [Canais privados no Microsoft Teams](/MicrosoftTeams/private-channels) | modificado |
 | 12/13/2019 | [Teams para Infraestrutura de Área de Trabalho Virtualizada](/MicrosoftTeams/teams-for-vdi) | modificado |
 | 12/13/2019 | [Use o Assistente do Teams (versão prévia) para ajudá-lo na implantação do Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | modificado |
+
+
+## <a name="week-of-december-16-2019"></a>Semana de 16 de dezembro de 2019
+
+
+| Publicado em |Título do tópico | Alteração |
+|------|------------|--------|
+| 12/16/2019 | [Configurar um atendedor automático do Cloud](/MicrosoftTeams/create-a-phone-system-auto-attendant) | modificado |
+| 12/16/2019 | [Planejar a experiência dos usuários do Microsoft Teams](/MicrosoftTeams/5-envision-plan-my-users-experience) | modificado |
+| 12/16/2019 | [Criar e gerenciar planos de discagem](/MicrosoftTeams/create-and-manage-dial-plans) | modificado |
+| 12/16/2019 | [Lista de controladores de borda da sessão certificados para Roteamento Direto](/MicrosoftTeams/direct-routing-border-controllers) | modificado |
+| 12/16/2019 | [Conduzir uma investigação eDiscovery de conteúdo no Microsoft Teams](/MicrosoftTeams/ediscovery-investigation) | modificado |
+| 12/16/2019 | [Gerenciar configurações de reunião](/MicrosoftTeams/meeting-settings-in-teams) | modificado |
+| 12/16/2019 | [Fluxos de chamadas do Microsoft Teams](/MicrosoftTeams/microsoft-teams-online-call-flows) | modificado |
+| 12/16/2019 | [Plano para o Microsoft 365 Government ‒ implantações de GCC ‒ Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc) | modificado |
+| 12/16/2019 | [Notas de versão](/MicrosoftTeams/room-systems/srs2-release-note) | modificado |
+| 12/16/2019 | [Definir suas configurações de coexistência e atualização](/MicrosoftTeams/setting-your-coexistence-and-upgrade-settings) | modificado |
+| 12/16/2019 | [Exibir análise entre equipes e por equipe em Teams](/MicrosoftTeams/teams-analytics-and-reports/cross-team-per-team-analytics) | modificado |
+| 12/16/2019 | [Teams para Infraestrutura de Área de Trabalho Virtualizada](/MicrosoftTeams/teams-for-vdi) | modificado |
+| 12/16/2019 | [O que são planos de discagem?](/MicrosoftTeams/what-are-dial-plans) | modificado |
+| 12/16/2019 | [O que é o Sistema de Telefonia no Office 365?](/MicrosoftTeams/what-is-phone-system-in-office-365) | modificado |
+| 12/17/2019 | [Implementar Qualidade de Serviço nos clientes do Microsoft Teams](/MicrosoftTeams/qos-in-teams-clients) | modificado |
+| 12/18/2019 | [Disponibilidade em Belize](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-belize) | modificado |
+| 12/18/2019 | [Disponibilidade em Camboja](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-cambodia) | modificado |
+| 12/18/2019 | [Disponibilidade em El Salvador](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-el-salvador) | modificado |
+| 12/18/2019 | [Disponibilidade em Honduras](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-honduras) | modificado |
+| 12/18/2019 | [Disponibilidade de Audioconferência e Planos de Chamadas por país e região](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | modificado |
+| 12/18/2019 | [Configurar o Roteamento Direto](/MicrosoftTeams/direct-routing-configure) | modificado |
+| 12/18/2019 | [Gerenciar políticas de reunião](/MicrosoftTeams/meeting-policies-in-teams) | modificado |
+| 12/18/2019 | [Plano para o Microsoft 365 Government ‒ elevadas implantações de GCC ‒ Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc-high) | modificado |
+| 12/18/2019 | [Telefones e dispositivos para Teams](/MicrosoftTeams/teams-ip-phones) | modificado |
+| 12/19/2019 | [Limites e especificações para o Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
