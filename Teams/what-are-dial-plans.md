@@ -19,18 +19,18 @@ f1keywords: ms.teamsadmincenter.voice.dialplans.overview
 ms.custom:
 - Calling Plans
 description: 'Saiba quais tipos de planos de chamada de discagem (planos de discagem de chamada PSTN) estão disponíveis com o Teams e como escolher um para a sua organização.  '
-ms.openlocfilehash: 0dadb0335f622bb297d4299aafc50a40dafcc583
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: bd41b257af80a3a21da1013e604214d1e0303edf
+ms.sourcegitcommit: 472909325a47cf0ad00bed949d02ab5766d35832
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069322"
+ms.lasthandoff: 12/28/2019
+ms.locfileid: "40891210"
 ---
 # <a name="what-are-dial-plans"></a>O que são planos de discagem?
 
 Um plano de discagem é um conjunto nomeado de regras de normalização que converte os números de telefone discados por um usuário em um formato alternativo (normalmente E.164) para fins de autorização e roteamento de chamadas.
 
-Um plano de discagem consiste em uma ou mais regras de normalização que definem como os números de telefone expressos em vários formatos são convertidos em um formato alternativo. A mesma cadeia de caracteres de discagem pode ser interpretada e traduzida de forma diferente em diferentes planos de discagem, de acordo com o plano de discagem atribuído a um determinado usuário, o mesmo número discado pode ser convertido e roteado de forma diferente.
+Um plano de discagem consiste em uma ou mais regras de normalização que definem como os números de telefone expressos em vários formatos são convertidos em um formato alternativo. A mesma cadeia de caracteres de discagem pode ser interpretada e traduzida de forma diferente em diferentes planos de discagem, de acordo com o plano de discagem atribuído a um determinado usuário, o mesmo número discado pode ser convertido e roteado de forma diferente. Pode haver um máximo de 1.000 planos de discagem de locatários.
 
 Consulte [criar e gerenciar planos de discagem](create-and-manage-dial-plans.md) para criar e gerenciar planos de discagem de locatários.
 
@@ -38,7 +38,7 @@ Consulte [criar e gerenciar planos de discagem](create-and-manage-dial-plans.md)
 
 O escopo de um plano de discagem determina o nível hierárquico em que o plano de discagem pode ser aplicado. Os clientes obtêm o plano de discagem apropriado por meio das configurações de provisionamento que são fornecidas automaticamente quando os usuários entram no Microsoft Teams. Como administrador, você pode gerenciar e atribuir níveis de escopo do plano de discagem usando o centro de administração do Microsoft Teams ou o PowerShell remoto.
 
-No Teams, há dois tipos de planos de discagem: escopo de serviço e escopo de locatários (que é para sua organização). Um plano de discagem de escopo de serviço é definido para cada país ou região onde o sistema telefônico está disponível. Cada usuário recebe automaticamente o plano de discagem do país do serviço que corresponde ao local de uso atribuído ao usuário. Não é possível alterar o plano de discagem do país do serviço, mas você pode criar planos de discagem de escopo do locatário, o que aumenta o plano de discagem do país do serviço. Como os clientes são provisionados, eles obtêm um "plano de discagem efetivo", que é uma combinação do plano de discagem do país de serviço e o plano de discagem de locatário apropriado. Portanto, não é necessário definir todas as regras de normalização nos planos de discagem do locatário, visto que eles já podem existir no plano de discagem do país de serviço.
+No Teams, há dois tipos de planos de discagem: escopo de serviço e escopo de locatários (que é para sua organização). Um plano de discagem de escopo de serviço é definido para cada país ou região onde o sistema telefônico está disponível. Cada usuário recebe automaticamente o plano de discagem do país do serviço que corresponde ao local de uso atribuído ao usuário. Não é possível alterar o plano de discagem do país do serviço, mas você pode criar planos de discagem de escopo do locatário, o que aumenta o plano de discagem do país do serviço. Como os clientes são provisionados, eles obtêm um "plano de discagem efetivo", que é uma combinação do plano de discagem do país de serviço e o plano de discagem de locatário apropriado. Portanto, não é necessário definir todas as regras de normalização nos planos de discagem do locatário, pois elas podem já existir no plano de discagem do país do serviço.
 
 Os planos de discagem de locatário podem ser divididos em dois escopos-escopo do locatário ou escopo do usuário. Se um locatário define e atribui um plano de discagem de escopo do usuário, esse usuário será provisionado com um plano de discagem efetivo do plano de discagem de país do serviço do usuário e o plano de discagem do usuário atribuído. Se um locatário define um plano de discagem de escopo de locatário, mas não atribui um plano de discagem de escopo do usuário, esse usuário será provisionado com um plano de discagem efetivo do plano de discagem de país do usuário e o plano de discagem do locatário.
 
