@@ -3,46 +3,6 @@
 
 
 
-## <a name="week-of-november-18-2019"></a>Semana de 18 de novembro de 2019
-
-
-| Publicado em |Título do tópico | Alteração |
-|------|------------|--------|
-| 11/18/2019 | [Barreiras de informação no Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | modificado |
-| 11/18/2019 | [Requisitos de salas do Microsoft Teams](/MicrosoftTeams/room-systems/requirements) | modificado |
-| 11/18/2019 | [Criar uma fila de chamadas](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
-| 11/18/2019 | [Introdução aos modelos do Teams para Organizações de Saúde](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates) | modificado |
-| 11/18/2019 | [Suporte às Salas do Microsoft Teams](/MicrosoftTeams/room-systems/skype-room-systems-v2) | modificado |
-| 11/19/2019 | [Presença do usuário no Teams](/MicrosoftTeams/presence-admins) | modificado |
-| 11/19/2019 | [Gerenciar o ciclo de vida de canais privados no Microsoft Teams](/MicrosoftTeams/private-channels-life-cycle-management) | modificado |
-| 11/19/2019 | [Suporte às Salas do Microsoft Teams](/MicrosoftTeams/room-systems/skype-room-systems-v2) | modificado |
-| 11/19/2019 | [Configurar Créditos de Comunicação para sua organização](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | modificado |
-| 11/19/2019 | [Acesso para convidado no Microsoft Teams](/MicrosoftTeams/guest-access) | modificado |
-| 11/19/2019 | [Gerenciar configurações de reunião](/MicrosoftTeams/meeting-settings-in-teams) | modificado |
-| 11/20/2019 | [Comunique-se com usuários de outras organizações no Microsoft Teams](/MicrosoftTeams/communicate-with-users-from-other-organizations) | modificado |
-| 11/20/2019 | [Gerenciar as configurações do Microsoft Teams para sua organização](/MicrosoftTeams/enable-features-office-365) | modificado |
-| 11/20/2019 | [Obter clientes para o Microsoft Teams](/MicrosoftTeams/get-clients) | modificado |
-| 11/20/2019 | [Modelos de identidade e autenticação no Microsoft Teams](/MicrosoftTeams/identify-models-authentication) | modificado |
-| 11/20/2019 | [Aparência de linha compartilhada no Microsoft Teams](/MicrosoftTeams/shared-line-appearance) | modificado |
-| 11/21/2019 | [Pesquisar o registro de auditoria de eventos no Teams](/MicrosoftTeams/audit-log-events) | modificado |
-| 11/21/2019 | [Migrar do Slack para o Microsoft Teams](/MicrosoftTeams/migrate-slack-to-teams) | modificado |
-| 11/21/2019 | [Usar o planejador de rede para o Microsoft Teams](/MicrosoftTeams/network-planner) | modificado |
-| 11/21/2019 | [Perguntas frequentes sobre diretivas de retenção do Teams ](/MicrosoftTeams/retention-policies-faq) | modificado |
-| 11/21/2019 | [Políticas de retenção no Microsoft Teams](/MicrosoftTeams/retention-policies) | modificado |
-| 11/21/2019 | [Suporte de versão](/MicrosoftTeams/room-systems/srs2-lifecycle-support) | modificado |
-| 11/21/2019 | [Visão geral de equipes e canais no Microsoft Teams](/MicrosoftTeams/teams-channels-overview) | modificado |
-| 11/21/2019 | [Publicar aplicativos no catálogo de aplicativos do Microsoft Teams locatário](/MicrosoftTeams/tenant-apps-catalog-teams) | modificado |
-| 11/22/2019 | [Bem-vindo ao Microsoft Teams](/MicrosoftTeams/teams-overview) | modificado |
-| 11/22/2019 | [Usar guias internas e personalizadas no Microsoft Teams](/MicrosoftTeams/built-in-custom-tabs) | modificado |
-| 11/22/2019 | [Estacionamento e recuperação de chamadas no Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | modificado |
-| 11/22/2019 | [Criar uma fila de chamadas](/MicrosoftTeams/create-a-phone-system-call-queue) | modificado |
-| 11/22/2019 | [Gerenciar seus dispositivos no Microsoft Teams](/MicrosoftTeams/device-management) | modificado |
-| 11/22/2019 | [Obter clientes para o Microsoft Teams](/MicrosoftTeams/get-clients) | modificado |
-| 11/22/2019 | [Obter números de telefone para seus usuários](/MicrosoftTeams/getting-phone-numbers-for-your-users) | modificado |
-| 11/22/2019 | [Use o Assistente do Teams (versão prévia) para ajudá-lo na implantação do Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | modificado |
-| 11/22/2019 | [Gerenciar o acesso de usuários ao Microsoft Teams](/MicrosoftTeams/user-access) | modificado |
-
-
 ## <a name="week-of-november-25-2019"></a>Semana de 25 de novembro de 2019
 
 
@@ -173,3 +133,11 @@
 | 12/18/2019 | [Plano para o Microsoft 365 Government ‒ elevadas implantações de GCC ‒ Microsoft Teams](/MicrosoftTeams/plan-for-government-gcc-high) | modificado |
 | 12/18/2019 | [Telefones e dispositivos para Teams](/MicrosoftTeams/teams-ip-phones) | modificado |
 | 12/19/2019 | [Limites e especificações para o Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
+
+
+## <a name="week-of-december-23-2019"></a>Semana de 23 de dezembro de 2019
+
+
+| Publicado em |Título do tópico | Alteração |
+|------|------------|--------|
+| 12/27/2019 | [O que são planos de discagem?](/MicrosoftTeams/what-are-dial-plans) | modificado |

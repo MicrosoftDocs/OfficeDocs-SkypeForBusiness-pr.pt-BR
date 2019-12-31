@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Saiba mais sobre as políticas de configuração de aplicativos no Microsoft Teams e como usá-las para fixar aplicativos para personalizar o Microsoft Teams para usuários em sua organização.
 f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b7f0585c62d7d22e1fc5a7e55c90e59f8cda554d
-ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
+ms.openlocfilehash: 271ffd879ddf55596da0c77765a269570a4878b2
+ms.sourcegitcommit: e59914458b4c22cc12556795468bc019e00a8940
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39998849"
+ms.lasthandoff: 12/30/2019
+ms.locfileid: "40910039"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gerenciar políticas de configuração de aplicativo no Microsoft Teams
 
@@ -168,7 +168,7 @@ Atualmente, os usuários podem alterar a ordem dos aplicativos fixos em clientes
 
 #### <a name="my-organization-built-a-custom-teams-app-and-published-it-either-to-appsource-or-the-tenant-app-catalog-but-the-app-icon-isnt-displayed-as-expected-when-the-app-is-pinned-to-the-app-bar-in-teams-how-do-i-fix-it"></a>Minha organização construiu um aplicativo de equipes personalizado e o publicou, seja para AppSource ou o catálogo de aplicativos do locatário, mas o ícone do aplicativo não é exibido como esperado quando o aplicativo é fixado à barra de aplicativos no Teams. Como corrigir? 
 
-Certifique-se de seguir as diretrizes do logotipo antes de enviar o aplicativo. Para saber mais, consulte [a lista de verificação para envio do painel do vendedor](https://docs.microsoft.com/microsoftteams/platform/publishing/office-store-checklist). 
+Certifique-se de seguir as diretrizes do logotipo antes de enviar o aplicativo. Para saber mais, consulte [a lista de verificação para envio do painel do vendedor](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview). 
 
  ## <a name="related-topics"></a>Tópicos relacionados
 - [Configurações de administração para aplicativos no Teams](admin-settings.md)

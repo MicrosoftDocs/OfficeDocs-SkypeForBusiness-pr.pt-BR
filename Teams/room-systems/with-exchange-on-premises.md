@@ -13,12 +13,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Leia este tópico para obter informações sobre como implantar salas do Microsoft Teams em um ambiente híbrido com o Exchange no local.
-ms.openlocfilehash: 783e5af7f0325ecd78e613b445544c5231db46ab
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: cc9b46554bcbef227bc6f721a7af93331d9552ca
+ms.sourcegitcommit: e59914458b4c22cc12556795468bc019e00a8940
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675405"
+ms.lasthandoff: 12/30/2019
+ms.locfileid: "40910049"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Implantar as Salas do Microsoft Teams com o Exchange no local
 
@@ -44,11 +44,11 @@ Se você estiver implantando salas do Microsoft Teams com o Exchange no local, u
 
   - Você precisará ter o Skype for Business online (plano 2) ou versão mais recente no seu plano do Office 365. O plano precisa dar suporte à funcionalidade de conferência.
   
-  - - Se você precisa do Enterprise Voice (telefonia PSTN) usando provedores de serviços de telefonia para salas do Microsoft Teams, você precisa do Skype for Business online (plano 3).
+  - Se você precisa do Enterprise Voice (telefonia PSTN) usando provedores de serviços de telefonia para salas do Microsoft Teams, você precisa do Skype for Business online (plano 3).
   
-  - - Os usuários do locatário devem ter caixas de correio do Exchange.
+  - Os usuários do locatário devem ter caixas de correio do Exchange.
   
-  - - Sua conta de salas do Microsoft Teams exige uma licença do Skype for Business online (plano 2) ou do Skype for Business online (plano 3), mas não requer uma licença do Exchange Online.
+  - Sua conta de salas do Microsoft Teams exige uma licença do Skype for Business online (plano 2) ou do Skype for Business online (plano 3), mas não requer uma licença do Exchange Online.
 
 - Atribua uma licença do Skype for Business Server à sua conta de salas do Microsoft Teams.
 
@@ -144,9 +144,9 @@ O PowerShell do Skype for Business Online é usado para gerenciar serviços para
 
 2. Obter o endereço SIP da conta:
 
-  ``` Powershell
-   $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
-   ```
+   ``` Powershell
+    $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
+    ```
 
 3. Para habilitar a sua conta de salas do Microsoft Teams, execute este comando:
 

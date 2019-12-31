@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87670ea398150e4895f2d87ccc48f60aba2d1377
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: d0bebe58780456435388f9f5c2b5ef75478dda12
+ms.sourcegitcommit: e59914458b4c22cc12556795468bc019e00a8940
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516476"
+ms.lasthandoff: 12/30/2019
+ms.locfileid: "40909999"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guia de Início Rápido: como configurar Planos de Chamadas no Microsoft Teams
 ==============================================================
@@ -44,12 +44,12 @@ Para habilitar a guia **chamadas** em Teams os usuários precisam ter chamadas d
 
 ## <a name="prerequisites-for-enabling-the-dial-pad-in-teams"></a>Pré-requisitos para habilitar o **teclado de discagem** no Teams
 Para habilitar a guia do **teclado de discagem** no Teams e permitir que os usuários façam e recebam chamadas PSTN, você precisará provisionar usuários para o sistema telefônico e planos de chamadas. Para saber como configurar planos de chamadas, leia [configurar planos de chamadas](https://docs.microsoft.com/microsoftteams/set-up-calling-plans).
-
+Além disso, somente para usuários do Teams, você deve garantir que "permitir chamadas privadas" esteja habilitado na política de chamada de equipes. Consulte [gerenciar equipes durante a transição para o novo centro de administração do Microsoft Teams](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center) para obter mais informações.
 > [!NOTE]
 > Você também pode usar o roteamento direto para permitir que os usuários façam e recebam chamadas PSTN. Para saber como configurar o roteamento direto, leia [Configurar roteamento direto](https://docs.microsoft.com/microsoftteams/direct-routing-configure).
 
 ## <a name="using-teamsupgradepolicy-to-control-where-calls-land"></a>Usar o TeamsUpgradePolicy para controlar onde as chamadas se esterram
-Para controlar se as chamadas recebidas (e chats) chegam ao Teams ou ao Skype for Business, os administradores usam o TeamsUpgradePolicy usando o [centro de administração do Microsoft Teams](https://aka.ms/teamsadmincenter) ou usando uma sessão remota do Windows PowerShell com o [Skype for Business](https://docs.microsoft.com/powershell/module/skype) cmdlets.
+Para controlar se as chamadas recebidas (e chats) chegam ao Teams ou ao Skype for Business, os administradores usam o TeamsUpgradePolicy usando o [centro de administração do Microsoft Teams](https://aka.ms/teamsadmincenter) ou usando uma sessão remota do Windows PowerShell com os cmdlets do [Skype for Business](https://docs.microsoft.com/powershell/module/skype) .
 
 
 A configuração padrão de TeamsUpgradePolicy é o modo de ilhas, que é projetado para garantir que os fluxos de trabalho de negócios existentes não sejam interrompidos durante uma implantação do teams. Por padrão, VoIP, PSTN e chamadas federadas para seus usuários continuarão a ser roteadas para o Skype for Business até você atualizar a política para habilitar as chamadas de entrada para o Microsoft Teams.  Quando os destinatários estão no modo de ilhas:
