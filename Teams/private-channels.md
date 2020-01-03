@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar e gerenciar canais privados no Microsoft Teams.
-ms.openlocfilehash: d7a491a64e32edef61b067c864c21f41e19f267d
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: 942070f9c77fb16895dd15e1920198f3604150f9
+ms.sourcegitcommit: 9c743b267b46a475a7da51c0899467960421ad8a
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40020045"
+ms.lasthandoff: 01/02/2020
+ms.locfileid: "40929557"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canais privados no Microsoft Teams
 
@@ -132,7 +132,7 @@ Consulte [gerenciar o ciclo de vida de canais privados no Teams](private-channel
 
 ## <a name="private-channel-sharepoint-sites"></a>Sites do SharePoint de canal privado
 
-Cada canal privado tem seu próprio conjunto de sites do SharePoint otimizado para compartilhamento de arquivos e provisionamento rápido. O conjunto de sites separado serve para garantir que o acesso a arquivos de canais privados seja restrito somente a membros do canal privado, em comparação com o site de equipe, onde os proprietários da equipe têm acesso a todos os ativos dentro do conjunto de sites. Esses conjuntos de sites são criados com uma biblioteca de documentos por padrão e podem ser facilmente aprimorados para um conjunto de sites com recursos completos por meio da [interface de gerenciamento de sites](https://support.office.com/article/Enable-or-disable-site-collection-features-A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Cada conjunto de sites é criado na mesma região geográfica que o conjunto de sites da equipe pai. Estes sites leves têm uma ID de modelo Personalizada, "TEAMCHANNEL # 0", para facilitar o gerenciamento por meio do PowerShell e da API do Graph.
+Cada canal privado tem seu próprio conjunto de sites do SharePoint otimizado para compartilhamento de arquivos e provisionamento rápido. O conjunto de sites separado serve para garantir que o acesso a arquivos de canais privados seja restrito somente a membros do canal privado, em comparação com o site de equipe, onde os proprietários da equipe têm acesso a todos os ativos dentro do conjunto de sites. Esses conjuntos de sites são criados com uma biblioteca de documentos por padrão e podem ser facilmente aprimorados para um conjunto de sites com recursos completos por meio da [interface de gerenciamento de sites](https://support.office.com/article/Enable-or-disable-site-collection-features-A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Cada conjunto de sites é criado na mesma região geográfica que o conjunto de sites da equipe pai. Estes sites leves têm uma ID de modelo Personalizada, "TEAMCHANNEL # 0", para facilitar o gerenciamento por meio do PowerShell e da API do Graph.  Por design, eles não ficam visíveis no centro de administração do SharePoint.
 
 Para acomodar um número maior de conjuntos de sites por locatário, o limite aumentou de 500.000 para 2 milhões. Um conjunto de sites de canal privado sincroniza a classificação de dados e herda as permissões de acesso de convidado do conjunto de sites da equipe pai.  A associação ao proprietário do conjunto de sites e aos grupos de membros são mantidas em sincronia com a associação do canal privado no Microsoft Teams. Todas as alterações na associação de grupos de proprietários ou membros no SharePoint Online serão revertidas para a associação de canal privado em quatro horas automaticamente. Em cenários em que certos usuários precisam acessar documentos sem precisar acessar mensagens de canal privado, adicione-os ao grupo visitantes do site ou a um novo grupo separado de proprietários e membros.
 
