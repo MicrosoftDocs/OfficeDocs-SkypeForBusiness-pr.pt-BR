@@ -3,27 +3,6 @@
 
 
 
-## <a name="week-of-november-25-2019"></a>Semana de 25 de novembro de 2019
-
-
-| Publicado em |Título do tópico | Alteração |
-|------|------------|--------|
-| 11/25/2019 | [Planejar o bypass de mídia com Roteamento Direto](/MicrosoftTeams/direct-routing-plan-media-bypass) | modificado |
-| 11/25/2019 | [Planejar o Roteamento Direto](/MicrosoftTeams/direct-routing-plan) | modificado |
-| 11/25/2019 | [Relatório de uso PSTN do Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | modificado |
-| 11/26/2019 | [Ativar o Microsoft Teams em sua organização do Office 365](/MicrosoftTeams/office-365-set-up) | modificado |
-| 11/26/2019 | [Configurar chamadas de emergência dinâmicas](/MicrosoftTeams/configure-dynamic-emergency-calling) | modificado |
-| 11/26/2019 | [Configurar definições de rede para o Roteamento baseado na localização](/MicrosoftTeams/location-based-routing-configure-network-settings) | modificado |
-| 11/26/2019 | [Habilitar o Roteamento baseado na localização para o Roteamento direto](/MicrosoftTeams/location-based-routing-enable) | modificado |
-| 11/26/2019 | [Planejar o Roteamento baseado na localização para o Roteamento direto](/MicrosoftTeams/location-based-routing-plan) | modificado |
-| 11/26/2019 | Terminologia do Roteamento baseado na localização | removido |
-| 11/26/2019 | [Gerenciar políticas de roteamento de chamadas de emergência no Microsoft Teams](/MicrosoftTeams/manage-emergency-call-routing-policies) | modificado |
-| 11/26/2019 | [Gerenciar políticas de chamadas de emergência no Microsoft Teams](/MicrosoftTeams/manage-emergency-calling-policies) | modificado |
-| 11/26/2019 | [Planejar chamadas de emergência, endereços de emergência, roteamento de chamadas de emergência, chamadas de emergência dinâmicas](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | modificado |
-| 11/26/2019 | [Treinamento com instrutor e vídeos para usuários do Microsoft Teams](/MicrosoftTeams/instructor-led-training-teams-landing-page) | modificado |
-| 11/27/2019 | [Disponibilidade no Japão](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-japan) | modificado |
-
-
 ## <a name="week-of-december-02-2019"></a>Semana de 02 de dezembro de 2019
 
 
@@ -141,3 +120,11 @@
 | Publicado em |Título do tópico | Alteração |
 |------|------------|--------|
 | 12/27/2019 | [O que são planos de discagem?](/MicrosoftTeams/what-are-dial-plans) | modificado |
+
+
+## <a name="week-of-december-30-2019"></a>Semana de 30 de dezembro de 2019
+
+
+| Publicado em |Título do tópico | Alteração |
+|------|------------|--------|
+| 1/2/2020 | [Canais privados no Microsoft Teams](/MicrosoftTeams/private-channels) | modificado |
