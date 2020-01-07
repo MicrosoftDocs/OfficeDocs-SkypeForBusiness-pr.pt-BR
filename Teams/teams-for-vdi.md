@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c63195f4732931083a12a455b79d77d9c1e6b01
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: 2afe86014bcce01d60ceef768f6f888718c3696c
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069342"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952844"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para Infraestrutura de Área de Trabalho Virtualizada
 
@@ -262,7 +262,7 @@ Ou, você também pode fazer o seguinte:
 
 O exemplo a seguir mostra como usar o [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) para atribuir a política de chamada DisallowCalling a um usuário.
 
-```
+```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email id”
 ```
 
@@ -270,7 +270,7 @@ Para saber mais sobre como usar o PowerShell para gerenciar as políticas de cha
 
 O exemplo a seguir mostra como usar o [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) para atribuir a política de reunião do AllOff a um usuário.
 
-```
+```PowerShell
 Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”
 ```
 
@@ -314,7 +314,7 @@ Ou, você também pode fazer o seguinte:
 
 O exemplo a seguir mostra como usar o [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) para atribuir a política de chamada AllowCalling a um usuário.
 
-```
+```PowerShell
 Grant-CsTeamsCallingPolicy -PolicyName AllowCalling -Identity “user email id”
 ```
 
@@ -322,7 +322,7 @@ Para saber mais sobre como usar o PowerShell para gerenciar as políticas de cha
 
 O exemplo a seguir mostra como usar o [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) para atribuir a política de reunião de permissão a um usuário.
 
-```
+```PowerShell
 Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity “user email id”
 ```
 

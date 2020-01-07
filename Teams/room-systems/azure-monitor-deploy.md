@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: Este artigo discute como implantar o gerenciamento de dispositivos de salas do Microsoft Teams de maneira integrada e de ponta a ponta usando o Azure monitor.
-ms.openlocfilehash: a7a71fa9fa87bd8cfb424234d6ffcedf46039115
-ms.sourcegitcommit: 000957709b841ce55a6813ccc2fbe745b1a9295b
+ms.openlocfilehash: e428b54f1a91c8443000dafa3270d2283dc1d029
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39218038"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952784"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>Implantar :::no-loc text="Microsoft Teams Rooms"::: gerenciamento com:::no-loc text="Azure Monitor":::
 
@@ -449,7 +449,7 @@ Se você já implantou seus :::no-loc text="Microsoft Teams Rooms"::: dispositiv
 
 7.  :::no-loc text="Microsoft Teams Rooms":::os dispositivos devem instalar e configurar :::no-loc text="Microsoft Monitoring"::: o agente com a segunda reinicialização.
 
-```
+```PowerShell
 # Install-MMAgent.ps1
 <#
 Date:        04/20/2018

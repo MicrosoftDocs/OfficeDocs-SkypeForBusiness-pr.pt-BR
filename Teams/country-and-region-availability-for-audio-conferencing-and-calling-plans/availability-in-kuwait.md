@@ -3,7 +3,7 @@ title: Disponibilidade no Kuwait
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para o Kuwait.
-ms.openlocfilehash: 88f8365d9f6b57ee3c15a096e8075d299444d3b4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 84baa73a7111aee2783dced09d5d2113deffb412
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570023"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952444"
 ---
 # <a name="availability-in-kuwait"></a>Disponibilidade no Kuwait
 
@@ -40,7 +40,7 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|A Audioconferência está disponível para compra?  <br/> |Não  <br/> |
+|A Audioconferência está disponível para compra?  <br/> |Sim, somente [pagamento por minuto](../audio-conferencing-pay-per-minute.md) <br/> |
 |Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Não  <br/> |
 |Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> | Requer créditos de comunicação <br/> |
    
@@ -65,8 +65,8 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?   | Cidade do Kuwait ([na solicitação](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
-|Há números de chamada tarifada disponíveis?  <br/> |Sim ([solicitação](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))  <br/> |
+|Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?   | Cidade do Kuwait <br/> |
+|Há números de chamada tarifada disponíveis?  <br/> |Sim <br/> |
 |Números de chamada gratuita estão disponíveis?  <br/> |Não  <br/> |
    
  Se quiser obter números de telefone de chamada tarifada e gratuita para videoconferências, atendedores automáticos e filas de chamadas, consulte [obtendo números de telefone de serviço para o Skype for Business e o Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
@@ -75,7 +75,7 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Há Créditos de Comunicação disponíveis?  <br/> |Não  <br/> |
+|Há Créditos de Comunicação disponíveis?  <br/> |Sim  <br/> |
    
 Para configurá-los, consulte [Configurar Créditos de Comunicação para a sua organização](../set-up-communications-credits-for-your-organization.md).
   

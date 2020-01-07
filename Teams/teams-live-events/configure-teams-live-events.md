@@ -16,12 +16,12 @@ description: Saiba como gerenciar as configurações de eventos dinâmicos do te
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb2b0f6c29af383061877562e8e6762965937f5f
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 6ad9d97c6d4dd6b7eb370bda026dbee3e33f2a32
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570185"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952834"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurar eventos ao vivo no Microsoft Teams
 
@@ -44,7 +44,7 @@ Esta URL é mostrada para participantes do evento ao vivo. Adicione a URL de sup
 
 ### <a name="using-windows-powershell"></a>Usar o Windows PowerShell
 Execute o seguinte:
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}” 
 ```
 Para obter mais informações, consulte [set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).
@@ -68,11 +68,11 @@ Se você comprou e configurou uma solução SDN (software defined Network) ou um
 Obtenha a ID da licença ou o token da API e o modelo de API do contato do provedor e execute um dos seguintes procedimentos, dependendo do provedor que você está usando:
 
 **Hive** 
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName hive -SdnLicenseId {license ID GUID provided by Hive} -SdnApiTemplateUrl “{API template URL provided by Hive}”
 ```
 **Kollective** 
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName kollective -SdnApiTemplateUrl "{API template URL provided by Kollective}" -SdnApiToken {API token GUID provided by Kollective}
 ```
 Para obter mais informações, consulte [set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).

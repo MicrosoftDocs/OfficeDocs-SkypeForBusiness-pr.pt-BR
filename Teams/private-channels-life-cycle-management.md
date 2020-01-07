@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como gerenciar o ciclo de vida de canais privados em sua organização.
-ms.openlocfilehash: b33df48d6d019015a0e7553619e2e42d29f7ca11
-ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
+ms.openlocfilehash: 263f25e283670b0ab8cc0337c0936eee23f43c61
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38714477"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952884"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Gerenciar o ciclo de vida de canais privados no Microsoft Teams
 
@@ -36,7 +36,7 @@ Os proprietários da equipe podem desativar ou ativar a capacidade de os Membros
 
 Como administrador, você pode usar a API de gráficos para controlar se os membros podem criar canais privados em equipes específicas. Aqui está um exemplo.
 
-```
+```Graph API
 PATCH /teams/<team_id>
 {"memberSettings": 
   {
@@ -65,13 +65,13 @@ Como administrador, você pode usar a API do PowerShell ou do Graph para criar u
 
 ### <a name="using-powershell"></a>Usando o PowerShell
 
-```
+```PowerShell
 New-TeamChannel –GroupId <Group_Id> –MembershipType Private –DisplayName “<Channel_Name>” –Owner <Owner_UPN>
 ```
 
 ### <a name="using-graph-api"></a>Usando a API do Graph
 
-```
+```Graph API
 POST /teams/{id}/channels
 { "membershipType": "Private",
   "displayName": "<Channel_Name>",
@@ -86,7 +86,7 @@ POST /teams/{id}/channels
 
 Você pode querer obter uma lista de todas as mensagens e respostas postadas em um canal privado para fins de arquivamento e auditoria.  Veja como usar a API de gráfico para fazer isso.
 
-```
+```Graph API
 GET /teams/{id}/channels/{id}/messages
 GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 ```
@@ -102,7 +102,7 @@ Como administrador, você pode usar os comandos do PowerShell ou de APIs de grá
 1. Instale e conecte-se ao [Shell de gerenciamento do SharePoint Online](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps) com sua conta de administrador.
 2. Execute o seguinte, onde &lt;group_id&gt; é a ID do grupo da equipe. (Você pode localizar facilmente a identificação do grupo no link para a equipe.)
 
-    ```
+    ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
     $groupID = “<group_id>"
     foreach ($site in $sites) {$x= Get-SpoSite -Identity
@@ -118,13 +118,13 @@ Você pode experimentar esses comandos por meio do [Graph Explorer](https://deve
 
     **Solicitação**
 
-    ```
+    ```Graph API
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels?$filter=membershipType eq 'private'
     ```
 
     **Resposta**
 
-    ```
+    ```Graph API
     HTTP/1.1 200 OK
     Content-type: application/json
     Content-length:
@@ -148,13 +148,13 @@ Você pode experimentar esses comandos por meio do [Graph Explorer](https://deve
 
     **Solicitação**
 
-    ```
+    ```Graph API
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/filesFolder
     ```
 
     **Resposta**
 
-    ```
+    ```Graph API
     HTTP/1.1 200 OK
     Content-type: application/json
     Content-length:
@@ -187,13 +187,13 @@ Como administrador, você pode usar os comandos do PowerShell ou de APIs de grá
 
     **Solicitação**
 
-    ```
+    ```PowerShell
     Get-TeamChannelUser -GroupId <group_id> -MembershipType Private -DisplayName "<channel_name>" 
     ```
     
     **Resposta**
 
-    ```
+    ```PowerShell
     HTTP/1.1 200 OK Content-type: application/json
     Content-length:
     {
@@ -213,7 +213,7 @@ Como administrador, você pode usar os comandos do PowerShell ou de APIs de grá
 
 3. Promover um membro a um proprietário.
 
-    ```
+    ```PowerShell
     Add-TeamChannelUser -GroupId <group_id> -MembershipType Private -DisplayName "<channel_name>" -User <UPN> -Role Owner
     ```
 
@@ -225,13 +225,13 @@ Você pode experimentar esses comandos por meio do [Graph Explorer](https://deve
 
     **Solicitação**
 
-    ```
+    ```Graph API
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members
     ```
     
     **Resposta**
 
-    ```
+    ```Graph API
     HTTP/1.1 200 OK Content-type: application/json
     Content-length: 
     {
@@ -261,7 +261,7 @@ Você pode experimentar esses comandos por meio do [Graph Explorer](https://deve
 
     **Solicitação**
 
-    ```
+    ```Graph API
     PATCH 
     https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members/<id>
       
@@ -273,7 +273,7 @@ Você pode experimentar esses comandos por meio do [Graph Explorer](https://deve
 
     **Resposta**
 
-    ```
+    ```Graph API
     HTTP/1.1 200 OK
     Content-type: application/json
 
@@ -301,26 +301,26 @@ A versão mais recente disponível publicamente do módulo Teams PowerShell (atu
 2. Inicie uma nova instância do módulo do Windows PowerShell.
 3. Execute o seguinte para desinstalar o módulo do teams PowerShell da galeria do PowerShell público:
 
-    ```
+    ```PowerShell
     Uninstall-Module -Name MicrosoftTeams
     ```
 
 4. Feche todas as sessões existentes do PowerShell.
 5. Inicie o módulo do Windows PowerShell novamente e, em seguida, execute o seguinte para registrar a Galeria de teste do PowerShell como uma fonte confiável:
 
-    ```
+    ```PowerShell
     Register-PSRepository -Name PSGalleryInt -SourceLocation https://www.poshtestgallery.com/ -InstallationPolicy Trusted
     ```
 
 6. Execute o seguinte para instalar o módulo do PowerShell mais recente do teams a partir da Galeria de teste do PowerShell:
 
-    ```
+    ```PowerShell
     Install-Module -Name MicrosoftTeams -Repository PSGalleryInt -Force
     ```
 
 7. Execute o seguinte para verificar se a versão mais recente do módulo do teams PowerShell da Galeria de teste do PowerShell foi instalada com êxito:
 
-    ```
+    ```PowerShell
     Get-Module -Name MicrosoftTeams
     ```
 
@@ -332,13 +332,13 @@ Se você já tiver instalado o módulo do teams PowerShell da Galeria de teste d
 2. Inicie uma nova instância do módulo do Windows PowerShell.
 3. Execute o seguinte para atualizar a versão atualmente instalada do módulo do teams PowerShell a partir da Galeria de teste do PowerShell:
 
-    ```
+    ```PowerShell
     Update-Module -Name MicrosoftTeams -Force
     ```
 
 4. Execute o seguinte para verificar se a versão mais recente do módulo do teams PowerShell da Galeria de teste do PowerShell foi instalada com êxito:
 
-    ```
+    ```PowerShell
     Get-Module -Name MicrosoftTeams
     ```
 

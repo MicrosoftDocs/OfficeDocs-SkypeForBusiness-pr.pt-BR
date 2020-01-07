@@ -3,7 +3,7 @@ title: Disponibilidade em Tunísia
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Tunísia.
-ms.openlocfilehash: a106889ba37d07c323918a34acdb24566d9659f0
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2a5f9085dee44b263c7222cfdab6bfb56f8f2ef9
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569517"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952864"
 ---
 # <a name="availability-in-tunisia"></a>Disponibilidade em Tunísia
 
@@ -40,7 +40,7 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|A Audioconferência está disponível para compra?  <br/> |Não  <br/> |
+|A Audioconferência está disponível para compra?  <br/> |Sim, somente [pagamento por minuto](../audio-conferencing-pay-per-minute.md) <br/> |
 |Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Não  <br/> |
 |Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> | Requer créditos de comunicação <br/> |
    
@@ -66,7 +66,7 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?   | Não geográfico. Os números de telefone não estão vinculados a uma cidade ou local específico. <br/> |
-|Há números de chamada tarifada disponíveis?  <br/> |Sim ([solicitação](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|Há números de chamada tarifada disponíveis?  <br/> |Sim  <br/> |
 |Números de chamada gratuita estão disponíveis?  <br/> |Não  <br/> |
    
  Se quiser obter números de telefone de chamada tarifada e gratuita para videoconferências, atendedores automáticos e filas de chamadas, consulte [obtendo números de telefone de serviço para o Skype for Business e o Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
@@ -75,7 +75,7 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Há Créditos de Comunicação disponíveis?  <br/> |Não  <br/> |
+|Há Créditos de Comunicação disponíveis?  <br/> |Sim <br/> |
    
 Para configurá-los, consulte [Configurar Créditos de Comunicação para a sua organização](../set-up-communications-credits-for-your-organization.md).
   

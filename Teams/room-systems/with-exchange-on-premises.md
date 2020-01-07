@@ -13,12 +13,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Leia este tópico para obter informações sobre como implantar salas do Microsoft Teams em um ambiente híbrido com o Exchange no local.
-ms.openlocfilehash: cc9b46554bcbef227bc6f721a7af93331d9552ca
-ms.sourcegitcommit: e59914458b4c22cc12556795468bc019e00a8940
+ms.openlocfilehash: 62840e0a28ee1eba2a9b5a94f976f169eab628da
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/30/2019
-ms.locfileid: "40910049"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952714"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Implantar as Salas do Microsoft Teams com o Exchange no local
 
@@ -71,7 +71,7 @@ Se você estiver implantando salas do Microsoft Teams com o Exchange no local, u
 
 2. No PowerShell do Exchange, encaixar uma caixa de correio para a conta (habilitar a caixa de correio na conta) executando o seguinte comando:
 
-   ``` Powershell
+   ```PowerShell
    Enable-Mailbox PROJECTRIGEL01@contoso.com -Room
    ```
 
@@ -95,7 +95,7 @@ Se você estiver implantando salas do Microsoft Teams com o Exchange no local, u
 
    Este exemplo configura essas configurações na caixa de correio da sala chamada Project-Rigel-01.
 
-   ``` PowerShell
+   ```PowerShell
    Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
    ```
 

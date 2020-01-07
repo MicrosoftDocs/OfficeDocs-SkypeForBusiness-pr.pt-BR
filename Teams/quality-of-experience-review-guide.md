@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56d622a3a8757ca377c75bea79028dc5587b6bb8
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: fcf18aa2487527c436b104011140524e6ce4ae5d
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290971"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952804"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guia de revisão da experiência de qualidade
 
@@ -83,7 +83,7 @@ Como alternativa, você pode atribuir a função a seguir a uma conta de usuári
 Ao discutir qualidade no Teams e no Skype for Business, é importante definir o termo para obter uma compreensão comum. Qualidade, conforme definido aqui, é uma combinação de métricas de serviço e experiência do usuário.
 
 <!-- Note: need to update graphic-->
-![Ilustração de métricas de serviço e experiência do usuário](media/qerguide-image-whatisquality.png "Sas métricas ervice são formadas por baixa taxa de fluxo, confiabilidade, pontos de extremidade/dispositivos e versões de cliente. A experiência do usuário é composta pela percepção do usuário sobre a qualidade do serviço. ")
+![Ilustração de métricas de serviço e experiência do usuário](media/qerguide-image-whatisquality.png "As métricas do serviço são formadas por baixa taxa de fluxo, confiabilidade, pontos de extremidade/dispositivos e versões de cliente. A experiência do usuário é composta pela percepção do usuário sobre a qualidade do serviço.")
 
 _Figura 2: o que é a qualidade?_
 
@@ -225,7 +225,7 @@ O gráfico a seguir descreve as tarefas que você deve executar em cada categori
 Na primeira vez que você executar essas tarefas, você terá mais esforço do que as iterações subsequentes, pois muitas dessas categorias exigem que você valide as configurações de implantação. Depois de alcançar o estado desejado ao atender os destinos que você definiu, a execução dessas tarefas vai ajudá-lo a manter esse estado.
 
 <!--  This is a net new graphic, never was included in the online article. OOPS! -->
-![Lista de tarefas semanais por categoria de qualidade](media/qerguide-image-tasks.png "List de tarefas semanais por categoria de qualidade ")
+![Lista de tarefas semanais por categoria de qualidade](media/qerguide-image-tasks.png "Lista de tarefas semanais por categoria de qualidade")
 
 #### <a name="service-management-tasks"></a>Tarefas de gerenciamento de serviço
 
@@ -323,7 +323,7 @@ Alguns relatórios do CQD exigem que você inclua um filtro para a sua ID de loc
 
 2. Abra uma janela de comando do PowerShell PowerShell e execute o seguinte script, insira suas credenciais do Office 365 quando solicitado: 
 
-   ```
+   ```PowerShell
    Login-AzureRmAccount
    ```
 
@@ -345,7 +345,7 @@ Alguns relatórios do CQD exigem que você inclua um filtro para a sua ID de loc
 
 2. Execute o seguinte comando:
 
-   ```
+   ```PowerShell
    (Get-cstenant).tenantid
    ```
 
@@ -367,7 +367,7 @@ _Figura 5: selecionar um filtro de produto_
 
 Para filtrar todos os relatórios detalhados, na barra do navegador, acrescente o seguinte ao final da URL:
 
-```
+```PowerShell
 /filter/[AllStreams].[Is Teams]|[FALSE]
 ```
 
@@ -531,7 +531,7 @@ Excluir dados federados dos relatórios do CQD é útil quando você está remed
 
 Para implementar um filtro de URL, na barra de endereços do navegador, adicione o seguinte ao final da URL:
 
-```
+```PowerShell
 /filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
 ```
 
@@ -541,7 +541,7 @@ Exemplo
 
 Para filtrar os relatórios do teams ou do Skype for Business, acrescente o seguinte ao final da URL:
 
-```
+```PowerShell
 /filter/[AllStreams].[Is Teams]|[TRUE | FALSE]
 ```
 
@@ -791,7 +791,7 @@ Essas ferramentas se baseiam no PowerShell e podem aproveitar os sites e serviç
 
 Para obter mais informações sobre essa ferramenta, consulte [esta postagem de blog](https://aka.ms/cqdtools).
 
-#### <a name="network-planner"></a>Network Planner
+#### <a name="network-planner"></a>Planejador de Rede
 
 O planejador de rede determina e organiza os requisitos de rede para a implantação de voz em nuvem em apenas algumas etapas simples. Ao fornecer os detalhes da rede da sua organização e o uso de voz na nuvem, você pode obter um cálculo aproximado dos requisitos de rede para a implantação de voz em nuvem, gerenciar e exportar esses detalhes para relatórios e exibir áreas para investigação adicional e próximas etapas.
 

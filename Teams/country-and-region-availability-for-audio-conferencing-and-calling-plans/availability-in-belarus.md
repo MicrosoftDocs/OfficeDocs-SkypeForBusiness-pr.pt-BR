@@ -3,7 +3,7 @@ title: Disponibilidade em Belarus
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference
 ms.assetid: 4ace3c1d-c1b6-4f99-bc71-0d1757c8aba9
 ms.tgt.pltfrm: cloud
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para Belarus.
-ms.openlocfilehash: ce623271b3a619271ba9c89b860b0944e19719de
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 7c5df54c4aec7b621dc8ff2f4cb775268d4efe0b
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571131"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952894"
 ---
 # <a name="availability-in-belarus"></a>Disponibilidade em Belarus
 
@@ -41,7 +41,7 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|A Audioconferência está disponível para compra?  <br/> |Não  <br/> |
+|A Audioconferência está disponível para compra?  <br/> |Sim, somente [pagamento por minuto](../audio-conferencing-pay-per-minute.md) <br/> |
 |Os números de telefone são atribuídos automaticamente para a Audioconferência?  <br/> |Não  <br/> |
 |Funcionalidade de discagem usando o recurso Telefonar para Mim  <br/> |Disponível com créditos de comunicações pagas por minuto  <br/> |
    
@@ -76,7 +76,7 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
-|Há Créditos de Comunicação disponíveis?  <br/> |Não  <br/> |
+|Há Créditos de Comunicação disponíveis?  <br/> |Sim  <br/> |
    
 Para configurá-los, consulte [Configurar Créditos de Comunicação para a sua organização](../set-up-communications-credits-for-your-organization.md).
   

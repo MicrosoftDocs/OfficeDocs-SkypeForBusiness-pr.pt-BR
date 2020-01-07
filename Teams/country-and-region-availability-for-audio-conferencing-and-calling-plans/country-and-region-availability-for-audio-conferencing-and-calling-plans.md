@@ -1,6 +1,5 @@
 ---
 title: Disponibilidade de Audioconferência e Planos de Chamadas por país e região
-ms.date: 03/18/2019
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -25,12 +24,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Você pode selecionar um país/região para ver se a conferência de áudio, o sistema de telefonia, os planos de chamada, os créditos de comunicações e os números de telefone de chamada tarifada estão disponíveis ou não.
-ms.openlocfilehash: d98e085667c97dbf4b4afc6dfc67fe1eb847d731
-ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
+ms.openlocfilehash: 4d7e1f2f4481baf51c6c3f619f47dc9440d957da
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741385"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952434"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilidade de Audioconferência e Planos de Chamadas por país e região
 
@@ -51,7 +50,7 @@ Você pode selecionar um país ou região para ver quais recursos de voz na nuve
 > - [Bélgica](availability-in-belgium.md)
 > - [Belize](availability-in-belize.md)
 > - [Benin](availability-in-benin.md)
-> - [Bermuda](availability-in-bermuda.md)
+> - [Bermudas](availability-in-bermuda.md)
 > - [Bosnia and Herzegovina (Bosna i Hercegovina)](availability-in-bosniaherzegovina.md)
 > - [Brasil](availability-in-brazil.md)
 > - [Brunei](availability-in-brunei.md)
@@ -69,14 +68,14 @@ Você pode selecionar um país ou região para ver quais recursos de voz na nuve
 > - [Dinamarca](availability-in-denmark.md)
 > - [Dominica](availability-in-dominica.md)
 > - [República Dominicana](availability-in-the-dominican-republic.md)
-> - [Equador ](availability-in-ecuador.md)
+> - [Equador](availability-in-ecuador.md)
 > - [Egito](availability-in-egypt.md)
 > - [El Salvador](availability-in-el-salvador.md)
 > - [Estônia](availability-in-estonia.md)
 > - [Finlândia ](availability-in-finland.md)
 > - [França ](availability-in-france.md)
 > - [Geórgia](availability-in-georgia.md)
-> - [Alemanha ](availability-in-germany.md)
+> - [Alemanha](availability-in-germany.md)
 > - [Gana](availability-in-ghana.md)
 > - [Grécia](availability-in-greece.md)
 > - [Granada](availability-in-grenada.md)
@@ -121,7 +120,7 @@ Você pode selecionar um país ou região para ver quais recursos de voz na nuve
 > - [Catar](availability-in-qatar.md)
 > - [Romênia](availability-in-romania.md)
 > - [Rússia ](availability-in-russia.md)
-> - [São Cristóvão e Névis](availability-in-saint-kitts-and-nevis.md)
+> - [São Cristóvão e Nevis](availability-in-saint-kitts-and-nevis.md)
 > - [Santa Lúcia](availability-in-saint-lucia.md)
 > - [Arábia Saudita](availability-in-saudi-arabia.md)
 > - [Sérvia](availability-in-serbia.md)
@@ -147,7 +146,7 @@ Você pode selecionar um país ou região para ver quais recursos de voz na nuve
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnã ](availability-in-vietnam.md)
 
-**Se você estiver procurando uma planilha com todos os países e regiões, baixe e salve a [planilha de recursos de voz em nuvem/disponibilidade de país/região](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-12182019)-(en-us).xlsx?raw=true)**.
+**Se você estiver procurando uma planilha com todos os países e regiões, baixe e salve a [planilha de recursos de voz em nuvem/disponibilidade de país/região](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-01012020)-(en-us).xlsx?raw=true)**.
 
 ***
 

@@ -13,12 +13,12 @@ ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection:
 - M365-collaboration
 description: Este artigo discute o gerenciamento remoto das configurações padrão usadas por um dispositivo de salas do Microsoft Teams, incluindo a aplicação de um tema personalizado.
-ms.openlocfilehash: f00edb0d3d391daaf3cfa7a6f83e5c2951638236
-ms.sourcegitcommit: 1aa98e3865d5a0f7be5e1cba497dea4ac7b9c607
+ms.openlocfilehash: 042e62cda753cc622d3b2a6b614d5eca6880a97c
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38074613"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952454"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Gerenciar as configurações de um console de salas do Microsoft Teams remotamente com um arquivo de configuração XML
 
@@ -30,7 +30,7 @@ Este artigo discute o gerenciamento remoto das configurações padrão usadas po
 
 Qualquer editor de texto pode ser usado para criar um arquivo de configurações. A tabela de **elementos XML** explica os elementos mostrados neste arquivo de configuração de exemplo SkypeSettings. XML (nome do arquivo obrigatório).
   
-```
+```XML
 <SkypeSettings>
     <AutoScreenShare>true</AutoScreenShare>
     <HideMeetingName>true</HideMeetingName>

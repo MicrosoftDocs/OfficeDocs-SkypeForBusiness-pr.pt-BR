@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e32eb60b238d606ac30fe74c7551e01efe88242a
-ms.sourcegitcommit: c2e315d0fcec742d2e1ba5ad90dffd1a1157a466
+ms.openlocfilehash: a621c4e1cfcf9e485b68fd96a76d9179cef84a48
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40002225"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952594"
 ---
 # <a name="install-microsoft-teams-using-msi"></a>Instalar o Microsoft Teams usando MSI
 
@@ -91,11 +91,11 @@ O comportamento padrão do MSI é instalar o cliente do Teams assim que um usuá
 - Uma vez iniciado manualmente, o Teams será iniciado automaticamente sempre que o usuário fizer logon
 
 Para a versão de 32 bits
-```
+```PowerShell
 msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
 ```
 Para a versão de 64 bits
-```
+```PowerShell
 msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
 ```
 
