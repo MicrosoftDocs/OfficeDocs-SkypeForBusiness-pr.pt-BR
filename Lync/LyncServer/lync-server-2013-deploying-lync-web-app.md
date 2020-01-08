@@ -10,12 +10,12 @@ ms:contentKeyID: 48185189
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ca2a0d2da0b10b8e60df8489b8cc0a584cd70e3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c355be1c1709cede9c032d59790d6beefb337ff6
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829543"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971132"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +43,7 @@ Os recursos de voz, vídeo e compartilhamento no Lync Web App exigem um controle
 
 
 > [!NOTE]  
-> Nas implantações do servidor de borda do Lync Server 2013, é necessário um proxy reverso HTTPS na rede de perímetro para acesso de cliente do Lync Web App. Você também deve publicar URLs simples. Para obter detalhes, consulte Configurando <A href="lync-server-2013-setting-up-reverse-proxy-servers.md">servidores proxy inversos para o Lync Server 2013</A> e <A href="lync-server-2013-planning-for-simple-urls.md">planejando para URLs simples no Lync Server 2013</A>.
+> Nas implantações do servidor de borda do Lync Server 2013, é necessário um proxy reverso HTTPS na rede de perímetro para acesso de cliente do Lync Web App. Você também deve publicar URLs simples. Para obter detalhes, consulte <A href="lync-server-2013-setting-up-reverse-proxy-servers.md">Configurando servidores proxy inversos para o Lync Server 2013</A> e <A href="lync-server-2013-planning-for-simple-urls.md">planejando para URLs simples no Lync Server 2013</A>.
 
 
 
@@ -81,25 +81,25 @@ A versão do Lync Server 2013 do Lync Web App oferece suporte à autenticação 
 2.  Crie certificados para o AD FS. Para obter mais informações, consulte a seção "certificados do servidor de Federação" do tópico planejar e implantar o AD FS para uso com o tópico logon [http://go.microsoft.com/fwlink/p/?LinkId=285376](http://go.microsoft.com/fwlink/p/?linkid=285376)único em.
 
 3.  Na interface de linha de comando do Windows PowerShell, execute o seguinte comando:
-    
-        add-pssnapin Microsoft.Adfs.powershell
-
+    ```powershell
+    add-pssnapin Microsoft.Adfs.powershell
+    ```
 4.  Estabeleça uma parceria executando o seguinte comando:
-    
-        Add-ADFSRelyingPartyTrust -Name ContosoApp -MetadataURL https://lyncpool.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
-
+    ```powershell
+    Add-ADFSRelyingPartyTrust -Name ContosoApp -MetadataURL https://lyncpool.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
+     ```
 5.  Defina as seguintes regras de confiabilidade de parte:
     
-       ```
+       ```powershell
         $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'
         $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
        ```
     
-       ```
+       ```powershell
         Set-ADFSRelyingPartyTrust -TargetName ContosoApp -IssuanceAuthorizationRules $IssuanceAuthorizationRules -IssuanceTransformRules $IssuanceTransformRules
        ```
     
-       ```
+       ```powershell
         Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
        ```
 

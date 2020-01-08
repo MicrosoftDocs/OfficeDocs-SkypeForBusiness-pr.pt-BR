@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instruções para configurar o Call data Connector, que permite que a telemetria do Skype for Business local seja exibida usando as ferramentas do Skype for Business online.
-ms.openlocfilehash: 48af644523e9872107c814aa330d2af2d9a4272f
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 4d472ce49a3059df7286c647b013abe321b9fd15
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328370"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40963036"
 ---
 # <a name="configure-call-data-connector"></a>Configurar o Call data Connector
 
@@ -58,13 +58,13 @@ Há dois métodos para fazer logon no Skype for Business online PowerShell:
 
 1. Se habilitar o conector pela primeira vez, execute o seguinte comando:
 
-   ```
+   ```PowerShell
    New-CsCloudCallDataConnection | Set-CsCloudCallDataConnector -TenantId <tenant_id>
    ```
 
 2. Se você receber um erro de que a conexão já existe, isso significa que a conexão de dados de chamada já existe para o locatário. Nesse caso, execute o comando: 
 
-   ```
+   ```PowerShell
    Get-CsCloudCallDataConnection | Set-CsCloudCallDataConnector -TenantId <tenant_id>
    ```
 
@@ -73,13 +73,13 @@ Há dois métodos para fazer logon no Skype for Business online PowerShell:
 
 1.  Se habilitar o conector pela primeira vez, execute o seguinte comando: 
 
-    ``` 
+    ```PowerShell 
     New-CsCloudCallDataConnection 
     ```
 
 2.  Se você receber um erro de que a conexão já existe, isso significa que a conexão de dados de chamada já existe para o locatário. Nesse caso, execute o comando: 
 
-    ```
+    ```PowerShell
     Get-CsCloudCallDataConnection  
     ```
 
@@ -87,7 +87,7 @@ A saída dos comandos acima contém um valor de token, que você precisará ao c
 
 No Shell de gerenciamento do Skype for Business Server, especifique o seguinte comando:
 
-```
+```PowerShell
 Set-CsCloudCallDataConnector -Identity Global -TenantId <tenant_id> -Token <token-copied-from-online>
 ```
 
@@ -95,17 +95,17 @@ Set-CsCloudCallDataConnector -Identity Global -TenantId <tenant_id> -Token <toke
 
 Você pode habilitar o Call data Connector para um determinado site ou para toda a sua implantação do Skype for Business Server usando o cmdlet Set-CsCloudCallDataConnectorConfiguration de dentro do Shell de gerenciamento do Skype for Business Server. Por exemplo, o seguinte comando habilita o Call data Connector no escopo global:
 
-```
+```PowerShell
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $True
 ```
 
 Além das configurações globais, as definições de configuração do conector de dados de chamadas podem ser atribuídas ao escopo do site. Isso oferece flexibilidade de gerenciamento adicional quando se trata de monitoramento. Por exemplo, um administrador pode habilitar o encaminhamento do conector de dados de chamada para o site de Redmond, mas desabilitar o encaminhamento do conector de dados de chamadas para o site Dublin, conforme mostrado no exemplo a seguir:
 
-```
+```PowerShell
 Set-CsCloudCallDataConnectorConfiguration -Identity "site:Redmond" -EnableCallDataConnector $True
 ```
 
-```
+```PowerShell
 Set-CsCloudCallDataConnectorConfiguration -Identity "site:Dublin" -EnableCallDataConnector $False
 ```
 
@@ -124,21 +124,21 @@ Desabilitar o Call data Connector não desassocia o repositório de monitorament
 
 Você desabilita o Call data Connector usando o cmdlet Set-CsCloudCallDataConnectorConfiguration de dentro do Shell de gerenciamento do Skype for Business Server. Por exemplo, o comando a seguir desabilita o conector de dados de chamada no escopo global, definindo a propriedade EnableCallDataConnector como $False:
 
-```
+```PowerShell
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $False
 ```
 
 Se você quiser continuar carregando dados de chamada para a nuvem, defina a propriedade EnableCallDataConnector de volta para $True, conforme mostrado no exemplo a seguir:
 
-```
+```PowerShell
 Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConnector $True
 ```
 
 ## <a name="view-on-premises-data-through-the-online-dashboard"></a>Exibir dados locais por meio do painel online
 
- Após a habilitação do conector de dados de chamada, você pode exibir seus dados de chamada local no painel de análise de chamada ou no painel de qualidade de chamada, conforme descrito em [usar o Call Analytics para solucionar problemas de qualidade ruim](https://docs.microsoft.com/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality) e [ativar e usar o painel de qualidade de chamada para Microsoft Teams e Skype for Business online](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard).
+ Após a habilitação do conector de dados de chamada, você pode exibir os dados de chamada local no painel do Analytics ou no painel de qualidade de chamada, conforme descrito em [usar o Call Analytics para solucionar problemas de qualidade ruim](https://docs.microsoft.com/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality) e [ativar e usar o painel de qualidade da chamada para o Microsoft Teams e o Skype for Business online](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard).
 
-## <a name="for-more-information"></a>Para saber mais
+## <a name="for-more-information"></a>Para obter mais informações
 
 Para obter mais informações sobre os cmdlets, você pode usar o comando Get-Help do Shell de gerenciamento do Skype for Business Server. Por exemplo:
 

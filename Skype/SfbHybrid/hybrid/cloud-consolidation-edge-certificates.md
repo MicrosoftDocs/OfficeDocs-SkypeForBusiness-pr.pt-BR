@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Este apêndice inclui etapas detalhadas para a atualização do certificado de borda como parte da consolidação de nuvem para o Teams e o Skype for Business.
-ms.openlocfilehash: 1c3aaa8859db530ceccbebc68ae76f21e8d4a77f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 52ab646387acb6901798f215f9677f16978e87fb
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160387"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40963049"
 ---
 # <a name="update-the-edge-certificate"></a>Atualizar o certificado de borda
 
@@ -35,10 +35,10 @@ O nome alternativo de entidade (SAN) do certificado em todos os servidores de bo
 **Necessárias**
 
 1.  Obtenha um novo certificado de borda externo para a borda que tenha todas as entradas existentes, além de entradas adicionais na SAN para todos os domínios SIP no ambiente de nuvem (excluindo os domínios *. onmicrosoft.com) no formato "SIP. <DomainName>".
-2.  Instale o certificado localmente em cada servidor de borda e atribua-o ao serviço de borda do Skype em cada um dos serviços de borda.  Para obter etapas detalhadas, consulte a seção "certificados de interface de borda externa" em [implantar serviço de borda no Skype for Business Server 2015](https://technet.microsoft.com/en-us/library/dn951368.aspx).
+2.  Instale o certificado localmente em cada servidor de borda e atribua-o ao serviço de borda do Skype em cada um dos serviços de borda.  Para obter etapas detalhadas, consulte a seção "certificados de interface de borda externa" em [implantar serviço de borda no Skype for Business Server 2015](https://technet.microsoft.com/library/dn951368.aspx).
 3.  Reinicie o serviço de borda em cada um dos servidores de borda. Você pode fazer isso para uma única caixa com os seguintes comandos do PowerShell:
 
-    ```
+    ```PowerShell
     Stop-CsWindowsService
     Start-CsWindowsService
     ```

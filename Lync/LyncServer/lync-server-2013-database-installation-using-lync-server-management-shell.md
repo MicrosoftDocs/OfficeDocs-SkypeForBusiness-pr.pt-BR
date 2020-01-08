@@ -10,12 +10,12 @@ ms:contentKeyID: 48185401
 ms.date: 06/16/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3fd9f07b979f89a28b6fa545f3a43009402f4ed1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: deac68fb5f20066632bc48a9e9b6244a9bd34fe9
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829741"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971174"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -79,13 +79,13 @@ Para a instalação de bancos de dados, **install-CsDatabase** usa três método
 
 3.  Use o cmdlet **install-CsDatabase** para instalar o repositório de gerenciamento central.
     
-       ```
+       ```powershell
         Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn <fully qualified domain name of SQL Server> 
         -SqlInstanceName <named instance> -DatabasePaths <logfile path>,<database file path> 
         -Report <path to report file>
        ```
     
-       ```
+       ```powershell
         Install-CsDatabase -CentralManagementDatabase -SqlServerFqdn sqlbe.contoso.net -SqlInstanceName rtc -DatabasePaths "C:\CSDB-Logs","C:\CSDB-CMS" -Report "C:\Logs\InstallDatabases.html"
        ```
     
@@ -98,12 +98,12 @@ Para a instalação de bancos de dados, **install-CsDatabase** usa três método
     
     </div>
 
-4.  **Install-CsDatabase –** databasepaths podem usar até seis parâmetros de caminho, cada um definindo os caminhos para as unidades definidas nos dados do SQL Server e na colocação de arquivos de log. Pelas regras lógicas da configuração de banco de dados no Lync Server 2013, as unidades são analisadas em buckets de duas, quatro ou seis. Dependendo da configuração do SQL Server e do número de buckets, você fornecerá dois caminhos, quatro caminhos ou seis caminhos.
+4.  **Install-CsDatabase – Databasepaths** podem usar até seis parâmetros de caminho, cada um definindo os caminhos para as unidades definidas nos dados do SQL Server e na colocação de arquivos de log. Pelas regras lógicas da configuração de banco de dados no Lync Server 2013, as unidades são analisadas em buckets de duas, quatro ou seis. Dependendo da configuração do SQL Server e do número de buckets, você fornecerá dois caminhos, quatro caminhos ou seis caminhos.
     
     Se você tiver três unidades, o log terá prioridade e os arquivos de dados serão distribuídos após. Um exemplo de um servidor baseado em SQL Server configurado com seis unidades:
-    
-        Install-CsDatabase -ConfiguredDatases -SqlServerFqdn sqlbe.contoso.net -DatabasePaths "D:\CSDynLogs","E:\CSRtcLogs","F:\MonCdrArcLogs","G:\MonCdrArchData","H:\AbsAppLog","I:\DynRtcAbsAppData" -Report "C:\Logs\InstallDatabases.html"
-
+    ```powershell
+    Install-CsDatabase -ConfiguredDatases -SqlServerFqdn sqlbe.contoso.net -DatabasePaths "D:\CSDynLogs","E:\CSRtcLogs","F:\MonCdrArcLogs","G:\MonCdrArchData","H:\AbsAppLog","I:\DynRtcAbsAppData" -Report "C:\Logs\InstallDatabases.html"
+    ```
 5.  Quando a instalação do banco de dados é concluída, você pode fechar o Shell de gerenciamento do Lync Server 2013 ou prosseguir para a instalação dos bancos de dados configurados do Lync Server 2013 definidos no construtor de topologias.
 
 </div>
@@ -129,12 +129,12 @@ Para a instalação de bancos de dados, **install-CsDatabase** usa três método
 
 4.  Use o cmdlet **install-CsDatabase** para instalar os bancos de dados do construtor de topologias configurados.
     
-       ```
+       ```powershell
         Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn <fully qualified domain name of SQL Server> 
          -DatabasePaths <logfile path>,<database file path> -Report <path to report file>
        ```
     
-       ```
+       ```powershell
         Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn sqlbe.contoso.net 
         -Report "C:\Logs\InstallDatabases.html"
        ```
@@ -173,21 +173,21 @@ Para a instalação de bancos de dados, **install-CsDatabase** usa três método
 
 4.  Use o cmdlet **install-CsDatabase** com o parâmetro DatabasePathMap e uma tabela de hash do PowerShell para instalar os bancos de dados do construtor de topologias configurados.
 
-5.  No código de exemplo, os caminhos definidos para os bancos de dados podem ser determinados de uma maneira granular usando-se o parâmetro – DatabasePathMap e uma tabela de hash definida da seguinte maneira (o exemplo\\usa "c: CSData" para todos os arquivos de banco de dados (\\ . MDF) e "C: CSLogFiles "para todos os arquivos de log (. ldf). A pasta será criada conforme necessário pelo install-CsDatabase):
-    
-        $pathmap = @{
-        "BackendStore:BlobStore:DbPath"="C:\CsData";"BackendStore:BlobStore:LogPath"="C:\CsLogFiles"
-        "BackendStore:RtcSharedDatabase:DbPath"="C:\CsData";"BackendStore:RtcSharedDatabase:LogPath"="C:\CsLogFiles"
-        "ABSStore:AbsDatabase:DbPath"="C:\CsData";"ABSStore:AbsDatabase:LogPath"="C:\CsLogFiles"
-        "ApplicationStore:RgsConfigDatabase:DbPath"="C:\CsData";"ApplicationStore:RgsConfigDatabase:LogPath"="C:\CsLogFiles"
-        "ApplicationStore:RgsDynDatabase:DbPath"="C:\CsData";"ApplicationStore:RgsDynDatabase:LogPath"="C:\CsLogFiles"
-        "ApplicationStore:CpsDynDatabase:DbPath"="C:\CsData";"ApplicationStore:CpsDynDatabase:LogPath"="C:\CsLogFiles"
-        "ArchivingStore:ArchivingDatabase:DbPath"="C:\CsData";"ArchivingStore:ArchivingDatabase:LogPath"="C:\CsLogFiles"
-        "MonitoringStore:MonitoringDatabase:DbPath"="C:\CsData";"MonitoringStore:MonitoringDatabase:LogPath"="C:\CsLogFiles"
-        "MonitoringStore:QoEMetricsDatabase:DbPath"="C:\CsData";"MonitoringStore:QoEMetricsDatabase:LogPath"="C:\CsLogFiles"
-        }
-        Install-CsDatabase -ConfigureDatabases -SqlServerFqdn sqlbe01.contoso.net -DatabasePathMap $pathmap
-
+5.  No código de exemplo, os caminhos definidos para os bancos de dados podem ser determinados de uma maneira granular usando-se o parâmetro – DatabasePathMap e uma tabela de hash definida da seguinte maneira (o exemplo\\usa "c: CSData" para todos os arquivos de banco de dados (\\. MDF) e "C: CSLogFiles" para todos os arquivos de log (. ldf). A pasta será criada conforme necessário pelo install-CsDatabase):
+    ```powershell
+    $pathmap = @{
+    "BackendStore:BlobStore:DbPath"="C:\CsData";"BackendStore:BlobStore:LogPath"="C:\CsLogFiles"
+    "BackendStore:RtcSharedDatabase:DbPath"="C:\CsData";"BackendStore:RtcSharedDatabase:LogPath"="C:\CsLogFiles"
+    "ABSStore:AbsDatabase:DbPath"="C:\CsData";"ABSStore:AbsDatabase:LogPath"="C:\CsLogFiles"
+    "ApplicationStore:RgsConfigDatabase:DbPath"="C:\CsData";"ApplicationStore:RgsConfigDatabase:LogPath"="C:\CsLogFiles"
+    "ApplicationStore:RgsDynDatabase:DbPath"="C:\CsData";"ApplicationStore:RgsDynDatabase:LogPath"="C:\CsLogFiles"
+    "ApplicationStore:CpsDynDatabase:DbPath"="C:\CsData";"ApplicationStore:CpsDynDatabase:LogPath"="C:\CsLogFiles"
+    "ArchivingStore:ArchivingDatabase:DbPath"="C:\CsData";"ArchivingStore:ArchivingDatabase:LogPath"="C:\CsLogFiles"
+    "MonitoringStore:MonitoringDatabase:DbPath"="C:\CsData";"MonitoringStore:MonitoringDatabase:LogPath"="C:\CsLogFiles"
+    "MonitoringStore:QoEMetricsDatabase:DbPath"="C:\CsData";"MonitoringStore:QoEMetricsDatabase:LogPath"="C:\CsLogFiles"
+    }
+    Install-CsDatabase -ConfigureDatabases -SqlServerFqdn sqlbe01.contoso.net -DatabasePathMap $pathmap
+    ```
 6.  Como o banco de dados e os arquivos de log são explicitamente nomeados com sua localização no servidor de banco de dados de destino, você pode definir locais específicos para cada tipo de serviço de banco de dados real e local de log. O exemplo a seguir coloca os bancos de dados de cada tipo de serviço específico em discos separados e os arquivos de log associados em outro. Por exemplo:
     
       - Todos os bancos de dados RTC para "D\\: RTCDatabase"
@@ -216,8 +216,7 @@ Para a instalação de bancos de dados, **install-CsDatabase** usa três método
     
     <!-- end list -->
     
-    ``` 
-    
+    ```powershell    
     $pathmap = @{
     "BackendStore:BlobStore:DbPath"="D:\RTCDatabase";"BackendStore:BlobStore:LogPath"="E:\RTCLogs"
     "BackendStore:RtcSharedDatabase:DbPath"="D:\RTCDatabase";"BackendStore:RtcSharedDatabase:LogPath"="E:\RTCLogs"

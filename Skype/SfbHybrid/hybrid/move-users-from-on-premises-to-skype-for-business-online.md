@@ -16,12 +16,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Saiba como mover usuários para o Skype for Business online.
-ms.openlocfilehash: 74816ae4c67f62cabad018a344b4b1800bd84444
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: ddf25614afae48ef647dc325e53ccbab8ac2e5d0
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715889"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40963019"
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>Mover usuários do local para o Skype for Business Online
 
@@ -31,7 +31,7 @@ Antes de mover qualquer usuário, leia os [pré-requisitos](move-users-between-o
  
 ## <a name="move-users-with-move-csuser"></a>Mover usuários com o move-CsUser 
 
-O move-CsUser está disponível em uma janela do PowerShell do Shell de gerenciamento do Skype for Business local. Você deve ter privilégios suficientes no ambiente local, bem como no locatário do Office 365, conforme descrito em [credenciais administrativas necessárias](move-users-between-on-premises-and-cloud.md#required-administrative-credentials). Você pode usar uma única conta que tenha privilégios em ambos os ambientes ou pode iniciar uma janela local do Shell de gerenciamento do Skype for Business Server com credenciais locais e usar o `-Credential` parâmetro para especificar credenciais para um Office 365 conta com a função administrativa necessária do Office 365.
+O move-CsUser está disponível em uma janela do PowerShell do Shell de gerenciamento do Skype for Business local. Você deve ter privilégios suficientes no ambiente local, bem como no locatário do Office 365, conforme descrito em [credenciais administrativas necessárias](move-users-between-on-premises-and-cloud.md#required-administrative-credentials). Você pode usar uma única conta que tenha privilégios em ambos os ambientes ou pode iniciar uma janela local do Shell de gerenciamento do Skype for Business Server com credenciais locais e usar o `-Credential` parâmetro para especificar credenciais para uma conta do Office 365 com a função administrativa necessária do Office 365.
 
 Para mover um usuário para o modo online usando o move-CsUser:
 
@@ -45,7 +45,7 @@ Para mover um usuário para o modo online usando o move-CsUser:
 
 A sequência de cmdlet a seguir pode ser usada para mover um usuário para o Skype for Business Online e supõe que a credencial do Office 365 é uma conta separada e fornecida como entrada para o prompt Get-Credential.
 
-```
+```PowerShell
 $cred=Get-Credential
 $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
  
@@ -62,9 +62,9 @@ Se a conta de administrador for a MFA (autenticação multifator) habilitada, n�
 4. Selecione o (s) usuário (s) e, no menu suspenso **ação** acima da lista, escolha **mover usuários selecionados para o Skype for Business online**.
 5. No assistente, clique em **Avançar**.
 6. Se solicitado, entre no Office 365, com uma conta que termina em. onmicrosoft.com e tem permissões suficientes.
-7. Clique em **Avançar**e, **** em seguida, mais uma vez para mover o usuário.
+7. Clique em **Avançar**e, em seguida, **mais uma vez** para mover o usuário.
 8. Observe que as mensagens de status referentes a sucesso ou falha são fornecidas na parte superior do aplicativo painel de controle principal, e não no assistente.
 
 ## <a name="see-also"></a>Confira também
 
-[Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)
+[Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser)

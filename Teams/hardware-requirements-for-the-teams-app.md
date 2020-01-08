@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c33a0ed8bf88469e6e9ab41a049a1d566cc686b
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: fd53a3bb39ba48046ce7670c567f630659daee62
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40019955"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40970959"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Requisitos de hardware para o aplicativo Microsoft Teams
 
@@ -78,11 +78,11 @@ Todos os requisitos nas seções a seguir se aplicam ao aplicativo da área de t
 
 Você pode usar o Microsoft Teams nestas plataformas móveis:
 
-- Android – requer Android 5,0 ou posterior. Compatível com telefones e tablets Android.
+- Android: compatível com telefones e tablets Android.
 
   O suporte limita-se às quatro últimas versões principais do Android. Quando uma nova versão principal do Android é lançada, a nova versão e as três versões anteriores são oficialmente aceitas.
 
-- iOS – requer iOS 10,0 ou posterior. Compatível com iPhone, iPad e iPod Touch. 
+- iOS: compatível com iPhone, iPad e iPod Touch. 
 
   O suporte limita-se às duas versões principais mais recentes do iOS. Quando uma nova versão principal do iOS é liberada, a nova versão do iOS e da versão anterior é suportada oficialmente.
 

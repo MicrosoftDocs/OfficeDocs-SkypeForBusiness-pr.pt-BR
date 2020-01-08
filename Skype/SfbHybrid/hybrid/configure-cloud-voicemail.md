@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instruções para implementar a caixa postal baseada em nuvem para usuários hospedados no Skype for Business Server.
-ms.openlocfilehash: 7423f16e7985a063ae5a974ea6c36684bfb75e7c
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: e3b18f8048f8779eac322dece88e5919b2aa7a96
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37616064"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962999"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>Configurar o serviço de caixa postal na nuvem para usuários locais
 
@@ -64,7 +64,7 @@ Você configura a caixa postal na nuvem como o provedor de hospedagem em um serv
 Por exemplo, no Shell de gerenciamento do Skype for Business, o seguinte cmdlet configura a caixa postal na nuvem como o provedor de hospedagem:
 
 
-```
+```PowerShell
 New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
 ```
 
@@ -74,7 +74,7 @@ Para garantir que a caixa postal de sua organização seja encaminhada para o se
 
 Para modificar a política global, execute o seguinte comando no Shell de gerenciamento do Skype for Business Server após atualizar sua organização e Tenantid:
 
-```
+```PowerShell
 Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemail Policy" -Destination exap.um.outlook.com -Organization YourDefaultDomain.onmicrosoft.com -Tenant “11111111-1111-1111-1111-111111111111”
 ```
 
@@ -88,7 +88,7 @@ Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemai
 
 Para garantir que uma política de caixa postal hospedada seja criada com êxito, execute o seguinte comando:
 
-```
+```PowerShell
 Get-CsHostedVoicemailPolicy
 ```
 
@@ -99,7 +99,7 @@ Por padrão, a política de caixa postal hospedada global é atribuída a todos 
 Por exemplo, o seguinte comando atribui uma política de caixa postal hospedada não global a um usuário:
 
 
-```
+```PowerShell
 Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -Identity "Tag:CloudVoiceMailUsers" 
 ```
 

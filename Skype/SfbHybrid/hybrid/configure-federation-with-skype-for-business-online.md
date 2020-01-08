@@ -16,12 +16,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Resumo: saiba como configurar a interoperabilidade entre a sua implantação local e o Skype for Business online.'
-ms.openlocfilehash: 59f5f752e7a6d9fa4047e736f1a988819525955e
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+ms.openlocfilehash: c451224e7f421b4505560533b2880a14cc04e1a9
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "36160395"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40963029"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>Configurar o Skype for Business híbrido
 
@@ -31,13 +31,13 @@ Para configurar o Skype for Business híbrido, você precisa:
 - [Configure seu ambiente local para confiar no Office 365 e habilitar o espaço de endereçamento SIP compartilhado com o Office 365](#configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-office-365).
 - [Habilitar o espaço de endereçamento SIP compartilhado no seu locatário do Office 365](#enable-shared-sip-address-space-in-your-office-365-tenant).
 
-Observe que, se você tiver o Exchange local, convém configurar o OAuth entre seus ambientes do Exchange local e do Skype for Business online. Para obter mais informações, consulte [gerenciar a autenticação de servidor para servidor no Skype for Business Server](https://docs.microsoft.com/en-us/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications) e [planejar a integração do Skype for Business e do Exchange](https://docs.microsoft.com/en-us/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support). 
+Observe que, se você tiver o Exchange local, convém configurar o OAuth entre seus ambientes do Exchange local e do Skype for Business online. Para obter mais informações, consulte [gerenciar a autenticação de servidor para servidor no Skype for Business Server](https://docs.microsoft.com/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications) e [planejar a integração do Skype for Business e do Exchange](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support). 
   
 ## <a name="configure-your-on-premises-edge-service-to-federate-with-office-365"></a>Configurar seu serviço de borda local para federação com o Office 365
 
 A Federação permite que os usuários em sua implantação local se comuniquem com os usuários do Office 365 em sua organização. Para configurar a Federação, execute o seguinte cmdlet no Shell de gerenciamento do Skype for Business Server:
   
-```
+```PowerShell
 Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -EnablePartnerDiscovery 1 -UseDnsSrvRouting
 ```
 
@@ -51,13 +51,13 @@ Você também deve configurar seu ambiente local para confiar no Office 365 e ha
 
 Primeiro, verifique se você já tem um provedor de hospedagem com ProxyFqdn = sipfed. online. Lync. com. Se houver uma, remova-a usando o seguinte comando:
 
-```
+```PowerShell
 Get-CsHostingProvider | ?{ $_.ProxyFqdn -eq "sipfed.online.lync.com" } | Remove-CsHostingProvider
 ```
 
 Em seguida, crie um novo provedor de hospedagem, use o cmdlet New-CsHostingProvider da seguinte maneira: 
 
-```
+```PowerShell
 New-CsHostingProvider -Identity Office365 -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root 
 ```
 
@@ -67,7 +67,7 @@ Além da alteração feita em sua implantação local, você precisará fazer co
 
 Para habilitar o espaço de endereçamento SIP compartilhado no seu locatário do Office 365, estabeleça uma sessão remota do PowerShell com o Skype for Business Online e execute o seguinte cmdlet:
   
-```
+```PowerShell
 Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 ```
 
@@ -78,7 +78,7 @@ Para estabelecer uma sessão remota do PowerShell com o Teams ou o Skype for Bus
   
 Após instalar o módulo, você pode estabelecer uma sessão remota com os seguintes cmdlets:
   
-```
+```PowerShell
 $cred = Get-Credential
 Import-PSSession (New-CsOnlineSession -Credential $cred) -AllowClobber
 ```

@@ -10,12 +10,12 @@ ms:contentKeyID: 48183311
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fcbdbfbca5f532b1ca192cc0e9d89e93e3c8acb1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c4a97a97d96f91b0433c65b7eb3e352dcf47c7d5
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836327"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971223"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,15 +57,15 @@ Este tópico descreve como configurar o Microsoft Exchange Unified Messaging (um
     
 
     > [!WARNING]  
-    > Se você definir seu valor de configuração de segurança como <STRONG>SIP Secured</STRONG> para exigir criptografia somente para tráfego SIP, como recomendado anteriormente, observe que essa configuração de segurança em um plano de discagem é insuficiente se o pool de front-ends estiver configurado para exigir criptografia, o que significa o pool requer criptografia para tráfego SIP e RTP. Quando o plano de discagem e as configurações de segurança do pool não forem compatíveis, todas as chamadas para o Exchange UM do pool de front-ends falharão, resultando em um erro, indicando que você tem uma "configuração de segurança incompatível".
+    > Se você definir seu valor de configuração de segurança como <STRONG>SIP Secured</STRONG> para exigir criptografia somente para tráfego SIP, como recomendado anteriormente, observe que essa configuração de segurança em um plano de discagem é insuficiente se o pool de front-ends estiver configurado para exigir criptografia, o que significa que o pool requer criptografia para tráfego SIP e RTP. Quando o plano de discagem e as configurações de segurança do pool não forem compatíveis, todas as chamadas para o Exchange UM do pool de front-ends falharão, resultando em um erro, indicando que você tem uma "configuração de segurança incompatível".
 
     
     </div>
     
     Se você usar o Shell de gerenciamento do Exchange, digite:
-    
-        New-UMDialPlan -Name <dial plan name> -UriType "SipName" -VoipSecurity <SIPSecured|Unsecured|Secured> -NumberOfDigitsInExtension <number of digits> -AccessTelephoneNumbers <access number in E.164 format>
-    
+    ```powershell
+     New-UMDialPlan -Name <dial plan name> -UriType "SipName" -VoipSecurity <SIPSecured|Unsecured|Secured> -NumberOfDigitsInExtension <number of digits> -AccessTelephoneNumbers <access number in E.164 format>
+    ```
     Para obter detalhes, consulte:
     
       - Para o Office Communications Server 2007, consulte "como criar um plano de discagem de URI SIP [http://go.microsoft.com/fwlink/p/?LinkId=268632](http://go.microsoft.com/fwlink/p/?linkid=268632) de Unificação de mensagens" at e "New [http://go.microsoft.com/fwlink/p/?LinkId=268666](http://go.microsoft.com/fwlink/p/?linkid=268666)-UMDialPlan: Exchange 2007 ajuda" em.
@@ -85,7 +85,7 @@ Este tópico descreve como configurar o Microsoft Exchange Unified Messaging (um
 
 2.  Execute o cmdlet a seguir para obter o nome de domínio totalmente qualificado (FQDN) de cada plano de discagem do UM:
     
-    ``` 
+    ```powershell
     (Get-UMDialPlan <dialplanname>).PhoneContext  
     ```
     
@@ -119,12 +119,12 @@ Este tópico descreve como configurar o Microsoft Exchange Unified Messaging (um
         Para o Exchange 2013, consulte "mensagens unificadas" em [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579).
     
       - Se você usar o Shell de gerenciamento do Exchange, execute o seguinte para cada um dos seus servidores do Exchange UM:
-        
-            $ums=get-umserver; 
-            $dp=get-umdialplan -id <name of dial-plan created in step 1>; 
-            $ums[0].DialPlans +=$dp.Identity; 
-            set-umservice -instance $ums[0]
-    
+        ```powershell
+        $ums=get-umserver; 
+        $dp=get-umdialplan -id <name of dial-plan created in step 1>; 
+        $ums[0].DialPlans +=$dp.Identity; 
+        set-umservice -instance $ums[0]
+        ```
     <div>
     
 
@@ -135,13 +135,13 @@ Este tópico descreve como configurar o Microsoft Exchange Unified Messaging (um
     </div>
 
 5.  Navegue até \<os scripts do\>\\diretório de instalação do Exchange e, se o Exchange estiver implantado em uma única floresta, digite:
-    
-        exchucutil.ps1
-    
+    ```console
+    exchucutil.ps1
+    ```
     Ou, se o Exchange estiver implantado em várias florestas, digite:
-    
-        exchucutil.ps1 -Forest:"<forest FQDN>"
-    
+    ```console
+    exchucutil.ps1 -Forest:"<forest FQDN>"
+    ```
     em que floresta FQDN especifica a floresta na qual o Lync Server é implantado.
     
     Se você tiver um ou mais planos de discagem de UM associados a vários gateways IP, vá para a etapa 6. Se seus planos de discagem estiverem associados a apenas um único gateway IP, pule a etapa 6.
@@ -176,9 +176,9 @@ Este tópico descreve como configurar o Microsoft Exchange Unified Messaging (um
     </div>
     
       - Se você usar o Shell de gerenciamento do Exchange, desabilite cada gateway IP executando o seguinte comando:
-        
-            Set-UMIPGateway <gatewayname> -OutcallsAllowed $false
-        
+        ```powershell
+        Set-UMIPGateway <gatewayname> -OutcallsAllowed $false
+        ```
         Para o Exchange 2007, consulte "Set-UMIPGateway: Exchange 2007 Help" [http://go.microsoft.com/fwlink/p/?LinkId=268687](http://go.microsoft.com/fwlink/p/?linkid=268687)at.
         
         Para o Exchange 2010, consulte "Set-UMIPGateway: Exchange 2010 Help" [http://go.microsoft.com/fwlink/p/?LinkId=268688](http://go.microsoft.com/fwlink/p/?linkid=268688)at.
@@ -205,8 +205,9 @@ Este tópico descreve como configurar o Microsoft Exchange Unified Messaging (um
     
     </div>
     
-        New-umautoattendant -name <auto attendant name> -umdialplan < name of dial plan created in step 1> -PilotIdentifierList <auto attendant phone number in E.164 format> -SpeechEnabled $true -Status Enabled
-    
+    ```powershell
+    New-umautoattendant -name <auto attendant name> -umdialplan < name of dial plan created in step 1> -PilotIdentifierList <auto attendant phone number in E.164 format> -SpeechEnabled $true -Status Enabled
+    ```
     Para obter detalhes, consulte:
     
       - Para o Exchange 2007, consulte "New-UMAutoAttendant: Exchange 2007 Help" [http://go.microsoft.com/fwlink/p/?LinkId=268689](http://go.microsoft.com/fwlink/p/?linkid=268689)at.
@@ -226,8 +227,9 @@ Este tópico descreve como configurar o Microsoft Exchange Unified Messaging (um
     
     </div>
     
-        enable-ummailbox -id <user name> -ummailboxpolicy <name of the mailbox policy for the dial plan created in step 1> -Extensions <extension> -SIPResourceIdentifier "<user name>@<full domain name>" -PIN <user pin>
-    
+    ```powershell
+    enable-ummailbox -id <user name> -ummailboxpolicy <name of the mailbox policy for the dial plan created in step 1> -Extensions <extension> -SIPResourceIdentifier "<user name>@<full domain name>" -PIN <user pin>
+    ```
     Para obter detalhes, consulte:
     
       - Para o Exchange 2007, consulte "Enable-UMMailbox: Exchange 2007 Help" [http://go.microsoft.com/fwlink/p/?LinkId=268691](http://go.microsoft.com/fwlink/p/?linkid=268691)at.

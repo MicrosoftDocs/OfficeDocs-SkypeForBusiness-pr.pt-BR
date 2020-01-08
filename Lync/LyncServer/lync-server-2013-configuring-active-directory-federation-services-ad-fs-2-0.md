@@ -10,12 +10,12 @@ ms:contentKeyID: 54973682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 924f9c1b6e7fe64186eeee6a34364417d497866b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a88fb9db7109bdd2a2938f8f9624b4fd0f369fd9
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836295"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971209"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,13 +57,13 @@ A seção a seguir descreve como configurar o Serviços de Federação do Active
 2.  Inicie o Windows PowerShell.
 
 3.  Na linha de comando do Windows PowerShell, execute o seguinte comando:
-    
-        add-pssnapin Microsoft.Adfs.PowerShell
-
+    ```powershell
+    add-pssnapin Microsoft.Adfs.PowerShell
+    ```
 4.  Estabeleça uma parceria com cada Lync Server 2013 com atualizações cumulativas para o Lync Server 2013: Director de julho de 2013, pool corporativo e servidor Standard Edition que será habilitado para autenticação passiva executando o comando a seguir, substituindo o nome do servidor específico da sua implantação:
-    
-        Add-ADFSRelyingPartyTrust -Name LyncPool01-PassiveAuth -MetadataURL https://lyncpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
-
+    ```powershell
+    Add-ADFSRelyingPartyTrust -Name LyncPool01-PassiveAuth -MetadataURL https://lyncpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
+     ```
 5.  No menu Ferramentas Administrativas, inicie o Console de Gerenciamento do AD FS 2.0.
 
 6.  Expanda **relações** \> de confiança **confiança de terceira parte confiável**.
@@ -72,22 +72,22 @@ A seção a seguir descreve como configurar o Serviços de Federação do Active
 
 8.  Crie e atribua uma Regra de Autorização de Emissão para seu objeto de confiança de terceira parte confiável usando o Windows PowerShell executando os seguintes comandos:
     
-       ```
+       ```powershell
         $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
        ```
     
-       ```
+       ```powershell
         Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth 
         -IssuanceAuthorizationRules $IssuanceAuthorizationRules
        ```
 
 9.  Crie e atribua uma Regra de Transformação de Emissão para seu objeto de confiança de terceira parte confiável usando o Windows PowerShell executando os seguintes comandos:
     
-       ```
+       ```powershell
         $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
        ```
     
-       ```
+       ```powershell
         Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
        ```
 

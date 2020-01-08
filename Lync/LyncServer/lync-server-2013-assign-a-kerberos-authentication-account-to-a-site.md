@@ -10,12 +10,12 @@ ms:contentKeyID: 48183929
 ms.date: 04/18/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c706f9fdd8932456a9f1617e55dc9231dbd6a84
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fb755f7e7b814d4ca643bd04ddfc0241b4d96d60
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836754"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971139"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,23 +49,23 @@ Depois de criar a conta Kerberos, você deve atribuí-la a um site. Este é um s
 
 3.  Na linha de comando, execute os dois comandos a seguir:
     
-       ```
+       ```powershell
         New-CsKerberosAccountAssignment -UserAccount "Domain\UserAccount"
                   -Identity "site:SiteName"
        ```          
     
-       ```
+       ```powershell
         Enable-CsTopology
        ```
     
     Por exemplo:
     
-       ```
+       ```powershell
         New-CsKerberosAccountAssignment -UserAccount "contoso\kerbauth"
                   -Identity "site:redmond"
        ```
     
-       ```
+       ```powershell
         Enable-CsTopology
        ```
     
@@ -73,15 +73,16 @@ Depois de criar a conta Kerberos, você deve atribuí-la a um site. Este é um s
     
 
     > [!NOTE]  
-    > Você deve especificar o parâmetro USERACCOUNT usando o formato domínio \ usuário. Não há suporte para o formato de usuário @ domínio. extensão para fazer referência aos objetos de computador criados para fins de autenticação Kerberos.
+    > Você deve especificar o parâmetro USERACCOUNT usando o formato domínio \ usuário. Não há suporte para o formato de extensão User@Domain. para fazer referência aos objetos de computador criados para fins de autenticação Kerberos.
 
     
     </div>
 
 4.  **Opcional**: você pode ter configurado um FQDN (nome de domínio totalmente qualificado) de substituição para seus serviços Web, de acordo com [as alterações na URL de serviços Web no Lync Server 2013](lync-server-2013-change-the-web-services-url.md). Se esse for o caso, você precisará adicionar um SPN para esse FQDN também. Por exemplo, se o FQDN era WebServices. contoso. local, você deve executar:
     
-        setspn -S http/webservices.contoso.local kerbauth
-
+    ```console
+    setspn -S http/webservices.contoso.local kerbauth
+    ```
 5.     
     <div class="">
     

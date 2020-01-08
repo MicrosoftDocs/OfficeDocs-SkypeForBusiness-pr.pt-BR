@@ -11,12 +11,12 @@ ms:contentKeyID: 49733538
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e972b8729126615a375f4d82f4c378a71642a4fb
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 185a52322ad0eea681e9a3318787921d9c49453a
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233246"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971146"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,11 +69,11 @@ Quando você configura políticas para dar suporte a parceiros federados do prot
     
     2.  Em **comprimento de bit**, especifique o comprimento do bit (geralmente, o padrão de 2048).
     
-    3.  Verifique se a caixa de seleção **Marcar chave privada de certificado como** exportável está marcada.
+    3.  Verifique se a caixa de seleção **Marcar chave privada de certificado como exportável** está marcada.
 
 8.  Na página **informações da organização** , digite o nome da organização e da unidade organizacional (por exemplo, uma divisão ou um departamento).
 
-9.  Na página **informações** geográficas, especifique as informações de localização.
+9.  Na página **informações geográficas** , especifique as informações de localização.
 
 10. Na página **nome do assunto/nomes alternativos de assunto** , as informações a serem automaticamente preenchidas pelo assistente serão exibidas. Se forem necessários nomes alternativos de entidades adicionais, especifique-os nas próximas duas etapas.
 
@@ -100,11 +100,11 @@ Quando você configura políticas para dar suporte a parceiros federados do prot
 
 17. Depois de receber, importar e atribuir o certificado público, você deve parar e reiniciar os serviços do servidor de borda. Para fazer isso, digite no console de gerenciamento do Lync Server:
     
-       ```
+       ```console
         Stop-CsWindowsService
        ```
     
-       ```
+       ```console
         Start-CsWindowsService
        ```
 

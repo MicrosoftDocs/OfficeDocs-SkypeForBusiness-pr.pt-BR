@@ -10,12 +10,12 @@ ms:contentKeyID: 72522137
 ms.date: 06/13/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 708dc90d28944a050624e83af5f0c5fe48f6eeeb
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: da81073fc239822a682f926e1b782c8555153bf6
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221314"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971244"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -48,23 +48,23 @@ A aparência da linha compartilhada (SLA) é um novo recurso do Lync Server 2013
 1.  Após o Lync Server 2013, a atualização cumulativa de abril 2016 é implantada, o aplicativo SLA não é habilitado por padrão. Para habilitar o aplicativo, siga as etapas abaixo:
     
     1.  Registrar SLA como um aplicativo de servidor executando o seguinte comando para cada pool:
-        
-            New-CsServerApplication -Identity
-                            'Service:Registrar:%FQDN%/SharedLineAppearance' -Uri
-                            http://www.microsoft.com/LCS/SharedLineAppearance -Critical $false -Enabled
-                            $true -Priority (Get-CsServerApplication -Identity
-                            'Service:Registrar:%FQDN%/UserServices').Priority 
-        
+        ```powershell
+        New-CsServerApplication -Identity
+                        'Service:Registrar:%FQDN%/SharedLineAppearance' -Uri
+                        http://www.microsoft.com/LCS/SharedLineAppearance -Critical $false -Enabled
+                        $true -Priority (Get-CsServerApplication -Identity
+                        'Service:Registrar:%FQDN%/UserServices').Priority 
+        ```
         onde %FQDN% é o nome de domínio totalmente qualificado do pool.
     
     2.  Execute o seguinte comando para atualizar as funções do RBAC para cmdlets de SLA:
-        
-            Update-CsAdminRole 
-    
+        ```powershell
+        Update-CsAdminRole 
+        ```
     3.  Reiniciar todos os Servidores Front-end (serviço RTCSRV) em todos os pools onde o SLA foi instalado e ativado:
         
-        ``` 
-         Stop-CsWindowsService RTCSRV Start-CsWindowsService RTCSRV
+        ```powershell 
+        Stop-CsWindowsService RTCSRV Start-CsWindowsService RTCSRV
                         
         ```
 
@@ -75,21 +75,21 @@ A aparência da linha compartilhada (SLA) é um novo recurso do Lync Server 2013
 ## <a name="create-an-sla-group-and-add-users-to-it"></a>Criar um grupo SLA e adicionar usuários a ele
 
 1.  Criar o grupo SLA utilizando o cmdlet [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration):
-    
-        Set-CsSlaConfiguration -Identity <IdentityOfGroup>
-                  -MaxNumberOfCalls <Number> -BusyOption
-                  <BusyOnBusy|Voicemail|Forward> [-Target
-                  <TargetUserOrPhoneNumber>]
-    
+    ```powershell
+    Set-CsSlaConfiguration -Identity <IdentityOfGroup>
+                -MaxNumberOfCalls <Number> -BusyOption
+                <BusyOnBusy|Voicemail|Forward> [-Target
+                <TargetUserOrPhoneNumber>]
+    ```
     O cmdlet Set-Cs SlaConfiguration marca a conta SLAGroup1 da conta do Enterprise Voice como uma entidade SLA, e o número de SLAGroup1 transforma-se no número para o grupo SLA. Todas as chamadas para SLAGroup1 tocarão no grupo SLA inteiro.
     
     O exemplo a seguir cria um grupo SLA para um usuário Enterprise Voice existente, SLAGroup1 e usa o número atribuído para SLAGroup1 como número principal de SLA.
     
     O comando define o número máximo de chamadas simultâneas para o novo grupo SLA em 3, e chamadas além desse número ouvirão um sinal de ocupado:
-    
-        Set-CsSlaConfiguration -Identity SLAGroup1 -MaxNumberOfCalls 3
-                  -BusyOption BusyOnBusy
-    
+    ```powershell
+    Set-CsSlaConfiguration -Identity SLAGroup1 -MaxNumberOfCalls 3
+                -BusyOption BusyOnBusy
+    ```
     Você pode usar Set-Cs SlaConfiguration para criar um novo grupo SLA ou modificar um existente.
     
     <div>
@@ -102,15 +102,15 @@ A aparência da linha compartilhada (SLA) é um novo recurso do Lync Server 2013
     </div>
 
 2.  Adicionar representantes ao grupo utilizando o cmdlet [Add-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/add-cssladelegates):
-    
-        Add-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
-                  <NameOfDelegate@domain>
-    
+    ```powershell
+    Add-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
+              <NameOfDelegate@domain>
+    ```
     O exemplo a seguir adiciona um usuário ao grupo SLA. Cada usuário adicionado ao grupo deve ser um usuário habilitado para o Enterprise Voice habilitado:
-    
-        Add-CsSlaDelegates -Identity SLAGroup1 -Delegate
-                  sip:SLA_Delegate1@contoso.com
-    
+    ```powershell
+    Add-CsSlaDelegates -Identity SLAGroup1 -Delegate
+              sip:SLA_Delegate1@contoso.com
+    ```
     Repita o cmdlet para cada usuário que você deseja adicionar ao grupo. Os usuários podem somente pertencer a um único grupo SLA.
 
 </div>
@@ -120,15 +120,15 @@ A aparência da linha compartilhada (SLA) é um novo recurso do Lync Server 2013
 ## <a name="configure-the-sla-group-busy-option"></a>Configuração da Opção Ocupado do grupo SLA
 
 1.  Configurar a Opção Ocupado do grupo SLA usando o cmdlet [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration):
-    
-        Set-CsSlaConfiguration -Identity <IdentityOfGroup>
-                  -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
-    
+    ```powershell
+    Set-CsSlaConfiguration -Identity <IdentityOfGroup>
+              -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
+    ```
     O exemplo a seguir define que as chamadas excedendo o número máximo de chamadas simultâneas serão encaminhadas ao número de telefone 202-555-1234. O destino pode ser um usuário em sua organização em vez de um número de telefone; Nesse caso, a sintaxe para a pessoa que receber as chamadas encaminhadas é a mesma que quando você especifica um representante: `sip:<NameofDelegate@domain>`. O outro parâmetro possível para `BusyOption` é `Voicemail`:
-    
-        Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward
-                  -Target tel:+2025551234]
-
+    ```powershell
+    Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward
+              -Target tel:+2025551234]
+    ```
 </div>
 
 <div>
@@ -136,17 +136,17 @@ A aparência da linha compartilhada (SLA) é um novo recurso do Lync Server 2013
 ## <a name="configure-the-sla-group-missed-call-option"></a>Configuração da Opção de Chamada perdida do grupo SLA
 
 1.  Configurar a Opção de Chamada Perdida do grupo SLA usando o cmdlet [Set-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csslaconfiguration):
-    
-        Set-CsSlaConfiguration -Identity <IdentityOfGroup> 
-                  -MissedCallOption <Option> -MissedCallForwardTarget
-                  <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
-    
+    ```powershell
+    Set-CsSlaConfiguration -Identity <IdentityOfGroup> 
+              -MissedCallOption <Option> -MissedCallForwardTarget
+              <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
+    ```
     O exemplo a seguir especifica que as chamadas perdidas serão encaminhadas para o usuário `sla_forward_number`chamado. As opções válidas para `-MissedCallOption` o parâmetro `Forward`são `BusySignal`, ou `Disconnect`. Se você escolher `Forward`, também deverá incluir o `-MissedCallForwardTarget` parâmetro, com um número de usuário ou de telefone como o destino:
-    
-        Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption
-                  Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com 
-            -BusyOption Forward -MaxNumberOfCalls 2 -Target sip:sla_forward_number@contoso.com 
-
+    ```powershell
+    Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption
+              Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com 
+        -BusyOption Forward -MaxNumberOfCalls 2 -Target sip:sla_forward_number@contoso.com 
+    ```
 </div>
 
 <div>
@@ -154,15 +154,15 @@ A aparência da linha compartilhada (SLA) é um novo recurso do Lync Server 2013
 ## <a name="remove-a-delegate-from-a-group"></a>Remover um representante de um grupo
 
 1.  Remover um representante de um grupo usando o cmdlet [Remove-CsSlaDelegates](https://docs.microsoft.com/powershell/module/skype/remove-cssladelegates):
-    
-        Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
-                  <NameOfDelegate@domain>
-    
+    ```powershell
+    Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate
+              <NameOfDelegate@domain>
+    ```
     Por exemplo:
-    
-        Remove-CsSlaDelegates -Identity SLAGroup1 -Delegate
-                  sip:SLA_Delegate3@contoso.com
-
+    ```powershell
+    Remove-CsSlaDelegates -Identity SLAGroup1 -Delegate
+              sip:SLA_Delegate3@contoso.com
+    ```
 </div>
 
 <div>
@@ -171,15 +171,15 @@ A aparência da linha compartilhada (SLA) é um novo recurso do Lync Server 2013
 
 1.  Excluir um grupo SLA utilizando o cmdlet [Remove-CsSlaConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csslaconfiguration?view=skype-ps):
     
-    ``` 
+    ```powershell
     Remove-CsSlaConfiguration -Identity <IdentityOfGroup>
               
     ```
     
     Por exemplo:
-    
-        Remove-CsSlaConfiguration -Identity SLAGroup1 
-
+    ```powershell
+    Remove-CsSlaConfiguration -Identity SLAGroup1 
+    ```
 </div>
 
 </div>

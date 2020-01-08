@@ -10,12 +10,12 @@ ms:contentKeyID: 54973690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c85bd20222a5fa70d052b21f62d0c19c76eea46
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 590a196ca0e34c0c063b10703c7edd131eb82c50
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836195"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971104"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -60,9 +60,10 @@ As etapas a seguir descrevem como criar uma configuração personalizada de serv
 2.  Inicie o Shell de gerenciamento do Lync Server 2013.
 
 3.  Na linha de comando do Shell de gerenciamento do Lync Server, crie uma nova configuração de serviço Web para cada director, pool corporativo e servidor Standard Edition que será habilitado para autenticação passiva executando o seguinte comando:
-    
-        New-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
-    
+    ```powershell
+    New-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
+    ```
+
     <div class="">
     
 
@@ -73,17 +74,17 @@ As etapas a seguir descrevem como criar uma configuração personalizada de serv
     </div>
 
 4.  Verifique se os valores UseWsFedPassiveAuth e WsFedPassiveMetadataUri foram definidos corretamente executando o seguinte comando:
-    
-        Get-CsWebServiceConfiguration -identity "Service:WebServer:LyncPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
-
+     ```powershell
+     Get-CsWebServiceConfiguration -identity "Service:WebServer:LyncPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
+     ```
 5.  Para clientes, a Autenticação Passiva é o método de autenticação menos indicado para autenticação de webticket. Para todos os directors, pools corporativos e servidores Standard Edition que serão habilitados para autenticação passiva, todos os outros tipos de autenticação deverão ser desabilitados nos serviços Web do Lync executando o seguinte comando:
-    
-        Set-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
-
+    ```powershell
+    Set-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
+     ```
 6.  Verifique se todos os outros tipos de autenticação foram desabilitados com êxito executando o seguinte comando:
-    
-        Get-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" | format-list UseCertificateAuth, UsePinAuth, UseWindowsAuth
-
+    ```powershell
+    Get-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" | format-list UseCertificateAuth, UsePinAuth, UseWindowsAuth
+     ```
 </div>
 
 <div>
@@ -98,21 +99,21 @@ As etapas a seguir descrevem como criar uma configuração personalizada de prox
 
 1.  Na linha de comando do Shell de gerenciamento do Lync Server, crie uma nova configuração de proxy para cada Lync Server 2013 com atualizações cumulativas: o pool de bordas de julho de 2013, o pool corporativo e o servidor Standard Edition que serão habilitados para autenticação passiva executando o seguintes comandos:
     
-       ```
+       ```powershell
         New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" 
         -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
        ```
     
-       ```
+       ```powershell
         New-CsProxyConfiguration -Identity "Service:Registrar:LyncPool01.contoso.com" 
         -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
        ```
 
 2.  Verifique se todos os outros tipos de autenticação de proxy foram desabilitados com sucesso executando o seguinte comando:
-    
-        Get-CsProxyConfiguration -Identity "Service:Registrar:LyncPool01.contoso.com"
+    ```powershell
+    Get-CsProxyConfiguration -Identity "Service:Registrar:LyncPool01.contoso.com"
          | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
-
+     ```
 </div>
 
 </div>
