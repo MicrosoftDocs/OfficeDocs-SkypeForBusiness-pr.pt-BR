@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Saiba como atribuir uma ID de conferência a um usuário no Skype for Business Online e o que os parâmetros de IDs de conferência devem estar. '
-ms.openlocfilehash: 65a27315898ec0673d68842e7d5249cbad2d7298
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 4932eb9a7124f0ddefcf9f6dc7ffeb8b9e29c162
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793000"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962679"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Visualizar e redefinir uma ID de conferência atribuída a um usuário no Skype for Business Online
 
@@ -45,7 +45,7 @@ An email will be sent to the user with the conference ID and the default audio c
 
 ### <a name="to-view-the-conference-id"></a>Para exibir a ID de conferência
 
-![Um ícone mostrando o logotipo](../images/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo do Skype for Business](../images/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
 
 Você pode exibir sua ID de conferência e enviá-la aos usuários.
 
@@ -64,7 +64,7 @@ Você pode exibir sua ID de conferência e enviá-la aos usuários.
 
 You can use Windows PowerShell to view the conference ID for a user. To do so, run:
 
-  ```
+  ```PowerShell
   Get-CsOnlineDialInConferencingUser -Identity "Amos Marble"
   ```
 
@@ -75,7 +75,7 @@ You can use Windows PowerShell to view the conference ID for a user. To do so, r
 
 É possível redefinir uma ID de conferência para um usuário se, por exemplo, ele a esquecer.
 
-![Um ícone mostrando o logotipo](../images/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo do Skype for Business](../images/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
 
@@ -89,7 +89,7 @@ You can use Windows PowerShell to view the conference ID for a user. To do so, r
 
 You can reset the conference ID for a user by using the Windows PowerShell. To do this, run:
 
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUser -Identity "Amos Marble" -ResetConferenceID
   ```
 
@@ -113,7 +113,7 @@ You can reset the conference ID for a user by using the Windows PowerShell. To d
 
   - [Por que você precisa usar o PowerShell do Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
 
-- O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade apenas usando o centro de administração do Microsoft 365, como quando você está usando alterações de configuração para muitos usuários de uma só vez. Learn about these advantages in the following topics:
+- O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade apenas usando o centro de administração do Microsoft 365, como quando você está usando alterações de configuração para muitos usuários de uma só vez. Saiba mais sobre essas vantagens nos tópicos a seguir:
 
   - [Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
 

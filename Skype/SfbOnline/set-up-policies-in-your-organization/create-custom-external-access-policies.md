@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: O Skype for Business Online permite que você crie políticas de acesso externo adicionais. Ao contrário das políticas de cliente ou de conferência, em que você pode ter várias combinações, há três políticas de acesso externo predefinidas que podem abranger a maioria dos cenários.
-ms.openlocfilehash: 7f3edac77af8d9948ef7118c0f94b1ec9c3ae6c1
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 978bad4e87e3e7dbe2a9bac5565aa7a6a45ca2df
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792481"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962499"
 ---
 # <a name="create-custom-external-access-policies"></a>Criar políticas personalizadas de acesso externo
 
@@ -35,7 +35,7 @@ O Skype for Business Online permite que você crie políticas de acesso externo 
     
 - Acesso federado e de consumidor (_FederationAndPICDefault_)
     
-Políticas externas personalizadas permitem que você crie políticas adicionais que não estão incluídas nas configurações acima. Após a criação da política, você será solicitado a definir todos os parâmetros obrigatórios e não poderá alterá-los mais tarde. A criação de novas políticas personalizadas permite que você controle recursos como o acesso do consumidor do Skype ou uma política para desabilitar o áudio/vídeo de nuvem pública, que é algo que não está coberto por configurações predefinidas. As políticas personalizadas de acesso externo seguem a mesma sintaxe das políticas de cliente, mobilidade e conferência. Você pode saber mais sobre essas configurações [aqui](https://technet.microsoft.com/en-us/library/mt228132.aspx).
+Políticas externas personalizadas permitem que você crie políticas adicionais que não estão incluídas nas configurações acima. Após a criação da política, você será solicitado a definir todos os parâmetros obrigatórios e não poderá alterá-los mais tarde. A criação de novas políticas personalizadas permite que você controle recursos como o acesso do consumidor do Skype ou uma política para desabilitar o áudio/vídeo de nuvem pública, que é algo que não está coberto por configurações predefinidas. As políticas personalizadas de acesso externo seguem a mesma sintaxe das políticas de cliente, mobilidade e conferência. Você pode saber mais sobre essas configurações [aqui](https://technet.microsoft.com/library/mt228132.aspx).
   
 Para fazer isso funcionar, o usuário deve estar usando uma versão com suporte do 2016 clique para executar o aplicativo Skype for Business compatível com ele. A seguinte versão mínima do Skype for Business 2016 clique para executar cliente é necessária:
   
@@ -60,7 +60,7 @@ Para fazer isso funcionar, o usuário deve estar usando uma versão com suporte 
     
 4. Você também precisará instalar o módulo do Windows PowerShell para Skype for Business Online, que permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online. Esse módulo, que tem suporte apenas em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft em [Módulo do Windows PowerShell para o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Se for solicitado, reinicie o seu computador.
     
-    Se precisar saber mais, confira [Conectar-se a todos os serviços do Office 365 usando uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
+    Se precisar saber mais, confira [Conectar-se a todos os serviços do Office 365 usando uma única janela do Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
     
 - **Iniciar uma sessão do Windows PowerShell**
     
@@ -71,26 +71,26 @@ Para fazer isso funcionar, o usuário deve estar usando uma versão com suporte 
     > [!NOTE]
     > [!OBSERVAçãO] Execute o comando **Import-Module** apenas quando usar o módulo do Windows PowerShell do Skype for Business Online pela primeira vez.
 
-   ```      
+   ```PowerShell      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
    ```
 
-   Se você quiser mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [configurar seu computador para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+   Se você quiser mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) ou [configurar seu computador para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
 ## <a name="create-a-custom-external-access-policy-for-a-user"></a>Criar uma política de acesso externo personalizada para um usuário
 
 Para fazer isso, execute:
   
 > 
->   ```
+>   ```PowerShell
 >   New-CsExternalAccessPolicy -Identity BlockSkypeVideo -EnablePublicCloudAccess $True -EnablePublicCloudAudioVideoAccess $False -EnableFederationAccess $True -EnableOutsideAccess $True
 >   ```
 > 
 > 
->   ```
+>   ```PowerShell
 >   Grant-CsExternalAccessPolicy -PolicyName BlockSkypeVideo -Identity amosm@contoso.com
 >   ```
 

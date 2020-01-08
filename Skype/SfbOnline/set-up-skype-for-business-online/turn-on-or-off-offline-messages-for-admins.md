@@ -18,16 +18,16 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Learn how to send Skype for Business instant messages even when your contacts aren't signed in using PowerShell.
-ms.openlocfilehash: 85e8378c41f3d2398982bacee3c568291903ccce
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 3e083f7bf0d4f83ba5e904452721eaa92ed9e652
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792990"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962829"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>Ativar ou desativar mensagens offline para administradores
 
-Você pode enviar mensagens instantâneas do Skype for Business para seus contatos, mesmo que elas não estejam conectadas. Esse recurso permite que seus contatos saibam que você está tentando entrar em contato. Você não precisa esperar até que alguém fique online antes de enviar uma mensagem.
+Você pode enviar mensagens instantâneas do Skype for Business para seus contatos, mesmo que elas não estejam conectadas. Esse recurso permite que seus contatos saibam que você está tentando contatá-los. Você não precisa esperar até que alguém esteja online antes de enviar uma mensagem.
 
 Para mensagens offline, é importante saber:
 
@@ -53,7 +53,7 @@ Para obter mais informações, consulte [usar mensagens offline no Skype for Bus
 
 4. Você também precisará instalar o módulo do Windows PowerShell para Skype for Business Online, que permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online. Esse módulo, que tem suporte apenas em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft em [Módulo do Windows PowerShell para o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Se for solicitado, reinicie o seu computador.
 
-Se precisar saber mais, confira [Conectar-se a todos os serviços do Office 365 usando uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
+Se precisar saber mais, confira [Conectar-se a todos os serviços do Office 365 usando uma única janela do Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
 
 ## #
 
@@ -67,14 +67,14 @@ Se precisar saber mais, confira [Conectar-se a todos os serviços do Office 365 
     > [!OBSERVAçãO] Execute o comando **Import-Module** apenas quando usar o módulo do Windows PowerShell do Skype for Business Online pela primeira vez.
 
 >
-  ```
+  ```PowerShell
   Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
   $credential = Get-Credential
   $session = New-CsOnlineSession -Credential $credential
   Import-PSSession $session
   ```
 
-Se você quiser mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [configurar seu computador para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+Se você quiser mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) ou [configurar seu computador para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
 
 ## <a name="turning-on-or-off-offline-im"></a>Ativar ou desativar mensagens instantâneas offline
 
@@ -85,14 +85,14 @@ Para habilitar ou desabilitar mensagens offline, envie mensagens offline para os
 
 Para desativá-lo, use o cmdlet **Set-CsClientPolicy** e execute:
 
-```
+```PowerShell
 Set-CsClientPolicy -Identity Global -EnableIMAutoArchiving $False
 ```
 
 Para habilitar ou desabilitar mensagens offline, envie mensagens offline para um usuário, __ defina opção enableimautoarchiving `True` como `False`ou. Por padrão, ele é definido como  `True`. Você pode usar uma política existente ou criar uma como o exemplo abaixo.
 
 
-  ```
+  ```PowerShell
   New-CsClientPolicy -Identity OfflineIM
   Set-CsClientPolicy -Identity OfflineIM -EnableIMAutoArchiving $False
   Grant -CsClientPolicy -Identity "Tony Smith" - PolicyName OfflineIM

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Confira as etapas do Skype for Business online para atribuir uma ID de conferência e uma licença de conferência discada para um usuário e muitas outras configurações de conferência discada. '
-ms.openlocfilehash: 65c4eba931116b46099d37671700600d2b670489
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: f5597ae2b857569b7890d81577e4fd4252da5106
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792307"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962699"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Gerenciar as configurações da Audioconferência para minha organização no Skype for Business Online
 
@@ -38,7 +38,7 @@ Pode ser mais fácil para você ver todas as configurações de audioconferênci
 ## <a name="assign-an-audio-conferencing-license"></a>Atribuir uma licença de Audioconferência
 
 > [!NOTE]
-> Você não pode atribuir licenças usando o **centro de administração do Skype for Business**. Você deve usar o centro de administração do Microsoft 365. Consulte [Atribuir licenças do Skype for Business](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+> Você não pode atribuir licenças usando o **centro de administração do Skype for Business**. Você deve usar o centro de administração do Microsoft 365. Consulte [atribuir licenças do Skype for Business](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
 
  **Para atribuir uma licença para um usuário**
 
@@ -58,7 +58,7 @@ Pode ser mais fácil para você ver todas as configurações de audioconferênci
 
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Habilitar ou desabilitar emails enviados para usuários de audioconferência
 
-![Um ícone mostrando o logotipo](../images/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo do Skype for Business](../images/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
 
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
 
@@ -79,7 +79,7 @@ Pode ser mais fácil para você ver todas as configurações de audioconferênci
 
 - Também é possível usar o Windows PowerShell e executar:
 
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
   ```
 
@@ -97,7 +97,7 @@ You can make changes to the email that is automatically sent to your users, incl
 
 Você pode fazer alterações nos emails enviados para usuários, como o endereço de email que envia as mensagens ou o nome de exibição do email executando:
 
-```
+```PowerShell
 Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmailFromAddress amos.marble@contoso.com -SendEmailFromDisplayName "Amos Marble"
 ```
 
@@ -229,7 +229,7 @@ Consulte [alterar as configurações de uma ponte de conferência de áudio](/Mi
 
 2. Vá para o centro de administração > **Skype for Business**.
 
-3. No **centro de administração do Skype for Business**, no painel de navegação esquerdo, vá para **videoconferências**e clique em ponte da **Microsoft**.
+3. No **centro de administração do Skype for Business**, no painel de navegação esquerdo, vá para **videoconferências**e clique em **ponte da Microsoft**.
 
 4. Selecione um número de telefone na lista, clique em **definir idiomas** no painel ação e, na página **definir idiomas** , clique na lista usar o **idioma principal** para exibir a lista completa de idiomas com suporte.
 
@@ -274,42 +274,42 @@ Para obter mais ajuda sobre cada cmdlet, consulte [Cmdlets do Skype for Business
 Aqui estão as configurações no nível da organização:
 
 - **Configurar notificações de entrada/saída** O padrão é _$true_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -EnableEntryExitNotifications $true|$false
   ```
 
 - **Configurar registro de nome** O padrão é _$true_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -EnableNameRecording $true|false
   ```
 
 - **Configurar comprimento do PIN** O padrão é 5.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -PinLength 7
   ```
 
 - **Configurar apenas reuniões por telefone** O padrão _$false_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -AllowPSTNOnlyMeetingsByDefault $true|$false
   ```
 
 - **Configurar o envio de email para usuários** O padrão é _$true_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
   ```
 
 - **Configurar o envio de email a partir de uma conta diferente** O padrão é _$false_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromOverride $true|$false
   ```
 
 - **Configurar o endereço De no email enviado aos usuários** O padrão é _$null_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromAddress
   ```
 
 - **Configurar o nome para exibição do email que é enviado aos usuários** O padrão é _$null_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromDisplayName
   ```
 
@@ -320,7 +320,7 @@ Aqui estão as configurações no nível da organização:
 
   - [Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
 
-- O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade apenas usando o centro de administração, como quando você está realizando alterações de configurações para vários usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos seguintes tópicos:
+- O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade apenas usando o centro de administração, como quando você está realizando alterações de configurações para vários usuários ao mesmo tempo. Saiba mais sobre essas vantagens nos tópicos a seguir:
 
   - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
 

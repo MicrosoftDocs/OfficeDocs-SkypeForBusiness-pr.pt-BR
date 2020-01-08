@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'See how to turn preloaded content on or off for Skype for Business meetings using files or attachments on an Outlook meeting invitation. '
-ms.openlocfilehash: 61e57b39954df8931b9612e853fccf1e74e9623f
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: f876519ba7d3cf25e61f4f6458129d724d1bcb84
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792980"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962779"
 ---
 # <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>Ativar ou desativar a permissão para que o conteúdo seja pré-carregado para reuniões usando o Outlook
 
@@ -46,7 +46,7 @@ Os usuários podem pré-carregar conteúdo, arquivos ou anexos anexados a um con
     
 4. Você também precisará instalar o módulo do Windows PowerShell para Skype for Business Online, que permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online. Esse módulo, que tem suporte apenas em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft em [Módulo do Windows PowerShell para o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Se for solicitado, reinicie o seu computador.
     
-Se precisar saber mais, confira [Conectar-se a todos os serviços do Office 365 usando uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
+Se precisar saber mais, confira [Conectar-se a todos os serviços do Office 365 usando uma única janela do Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
   
 ### 
 
@@ -59,14 +59,14 @@ Se precisar saber mais, confira [Conectar-se a todos os serviços do Office 365 
     > [!NOTE]
     > [!OBSERVAçãO] Execute o comando **Import-Module** apenas quando usar o módulo do Windows PowerShell do Skype for Business Online pela primeira vez.
   
-```
+```PowerShell
 Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
 $credential = Get-Credential
 $session = New-CsOnlineSession -Credential $credential
 Import-PSSession $session
 ```
 
-Se você quiser mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [configurar seu computador para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+Se você quiser mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) ou [configurar seu computador para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 ## <a name="turning-it-on-or-off"></a>Ativar ou desativar o recurso
 
@@ -77,13 +77,13 @@ A capacidade de pré-carregar conteúdo anexado a um convite de reunião do Outl
   
  **Para desativá-la, abra o Windows PowerShell e faça o seguinte:**
   
-```
+```PowerShell
 Grant-CsGraphPolicy -PolicyName GraphDisabled 
 ```
 
  **Se quiser ativá-la, abra o Windows PowerShell e faça o seguinte:**
   
-```
+```PowerShell
 Grant-CsGraphPolicy -PolicyName GraphEnabled 
 ```
 

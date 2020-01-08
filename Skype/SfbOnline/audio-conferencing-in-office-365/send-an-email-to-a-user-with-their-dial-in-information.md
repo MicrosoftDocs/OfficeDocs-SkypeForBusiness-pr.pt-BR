@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Envie um email aos seus usuários com as informações de videoconferência no Skype for Business online.
-ms.openlocfilehash: cf1555f572c4c8f4e6c11e87315f2fdfcac22cd8
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 08e1f67f042d9497854f6d96643ff41e9bf528ed
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792264"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962569"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Enviar um email para um usuário com suas informações de audioconferência no Skype for Business Online
 
@@ -100,7 +100,7 @@ Aqui está um exemplo do e-mail enviado:
     
     Para enviar um email para o usuário com as informações da conferência de áudio, execute o seguinte:
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com  -SendEmail
   ```
 

@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Saiba mais sobre as políticas de configuração de aplicativos no Microsoft Teams e como usá-las para fixar aplicativos para personalizar o Microsoft Teams para usuários em sua organização.
 f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 271ffd879ddf55596da0c77765a269570a4878b2
-ms.sourcegitcommit: e59914458b4c22cc12556795468bc019e00a8940
+ms.openlocfilehash: 3cc794829df70fcbadc8a461a6a953d381536365
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/30/2019
-ms.locfileid: "40910039"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40955305"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gerenciar políticas de configuração de aplicativo no Microsoft Teams
 
@@ -101,15 +101,15 @@ Neste exemplo, atribuímos uma política de configuração de aplicativo persona
 > Verifique se você se conectou primeiro ao módulo do PowerShell do Azure Active Directory e do módulo do PowerShell do Skype for Business seguindo as etapas em [conectar a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
 Obtenha o GroupObjectId do grupo específico.
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso Pharmaceuticals HR Project"
 ```
 Obter os membros do grupo especificado.
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 Atribua todos os usuários do grupo a uma política de configuração de aplicativo específica. Neste exemplo, a política de configuração de aplicativo de RH.
-```
+```PowerShell
 $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $_.UserPrincipalName}
 ``` 
 Dependendo do número de membros do grupo, esse comando pode levar alguns minutos para ser executado.

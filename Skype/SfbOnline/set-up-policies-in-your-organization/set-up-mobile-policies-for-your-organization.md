@@ -17,17 +17,17 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: Você pode configurar como os usuários se conectam ao Skype for Business online usando o aplicativo Skype for Business em dispositivos móveis, como um recurso que permite aos usuários fazer e receber chamadas no celular usando o número de telefone comercial dele em vez do nu do seu celular mero. As políticas de mobilidade também podem ser usadas para requerer conexões Wi-Fi ao fazer ou receber chamadas.
-ms.openlocfilehash: 1e5cb04bbd63c91d1302ace41b1c9bdbaa492574
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+description: Você pode configurar como os usuários se conectam ao Skype for Business online usando o aplicativo Skype for Business em dispositivos móveis, como um recurso que permite aos usuários fazer e receber chamadas no celular usando o número de telefone comercial dele em vez do nu do seu celular mero. As políticas de mobilidade também podem ser usadas para exigir conexões Wi-Fi ao fazer ou receber chamadas.
+ms.openlocfilehash: 8ade1f69c7374009ea0f19fb1e777df76b45220c
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792461"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962549"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>Configurar políticas móveis para sua organização
 
-Você pode configurar como os usuários se conectam ao Skype for Business online usando o aplicativo Skype for Business em dispositivos móveis, como um recurso que permite aos usuários fazer e receber chamadas no celular usando o número de telefone comercial dele em vez do nu do seu celular mero. As políticas de mobilidade também podem ser usadas para requerer conexões Wi-Fi ao fazer ou receber chamadas.
+Você pode configurar como os usuários se conectam ao Skype for Business online usando o aplicativo Skype for Business em dispositivos móveis, como um recurso que permite aos usuários fazer e receber chamadas no celular usando o número de telefone comercial dele em vez do nu do seu celular mero. As políticas de mobilidade também podem ser usadas para exigir conexões Wi-Fi ao fazer ou receber chamadas.
   
 As configurações da política móvel podem ser configuradas no momento em que uma política é criada ou você pode usar o cmdlet **set-CsMobilityPolicy** para modificar as configurações de uma política existente.
   
@@ -44,11 +44,11 @@ As configurações da política móvel podem ser configuradas no momento em que 
     
 2. Verifique a versão digitando  _Get-Host_ na janela do **Windows PowerShell**.
     
-3. Se você não tiver a versão 3.0 ou superior, deverá baixar e instalar as atualizações do Windows PowerShell. Consulte [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) para baixar e atualizar o Windows PowerShell para a versão 4,0. Reinicie o computador quando for solicitado.
+3. Se você não tiver a versão 3,0 ou superior, será necessário baixar e instalar atualizações para o Windows PowerShell. Consulte [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) para baixar e atualizar o Windows PowerShell para a versão 4,0. Reinicie o computador quando for solicitado.
     
 4. Você também precisará instalar o módulo do Windows PowerShell para Skype for Business Online, que permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online. Esse módulo, que tem suporte apenas em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft em [Módulo do Windows PowerShell para o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Se for solicitado, reinicie o seu computador.
     
-    Se precisar saber mais, confira [Conectar-se a todos os serviços do Office 365 usando uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
+    Se precisar saber mais, confira [Conectar-se a todos os serviços do Office 365 usando uma única janela do Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
     
 - **Iniciar uma sessão do Windows PowerShell**
     
@@ -59,68 +59,68 @@ As configurações da política móvel podem ser configuradas no momento em que 
     > [!NOTE]
     > [!OBSERVAçãO] Execute o comando **Import-Module** apenas quando usar o módulo do Windows PowerShell do Skype for Business Online pela primeira vez.
 
-   ```      
+   ```PowerShell      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
    ```
 
-   Se você quiser mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [configurar seu computador para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+   Se você quiser mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) ou [configurar seu computador para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
 
 ### <a name="require-a-wifi-connection-for-video-for-a-user"></a>Requerer uma conexão WiFi para vídeo para um usuário
 
 - Para criar uma nova política para essas configurações, execute:
   > 
-  > ```
+  > ```PowerShell
   > New-CsMobilityPolicy -Identity MobilityPolicy -RequireWIFIForIPVideo $true
   > ```
-  > Veja mais no cmdlet [New-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) .
+  > Veja mais no cmdlet [New-CsMobilityPolicy](https://technet.microsoft.com/library/mt779150.aspx) .
     
 - Para conceder a nova política criada para todos os usuários de sua organização, execute:
   > 
-  > ```
+  > ```PowerShell
   > Grant-CsMobilityPolicy -Identity"amos.marble@contoso.com" -PolicyName MobilityPolicy
   > ```
-  > Veja mais no cmdlet [Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) .
+  > Veja mais no cmdlet [Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) .
     
-  Se você já tiver criado uma política, poderá usar o cmdlet [set-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx) para fazer alterações na política existente e usar o cmdlet[Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) para aplicar a configuração aos seus usuários.
+  Se você já tiver criado uma política, poderá usar o cmdlet [set-CsMobilityPolicy](https://technet.microsoft.com/library/mt779147.aspx) para fazer alterações na política existente e usar o cmdlet[Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) para aplicar a configuração aos seus usuários.
   
 ### <a name="prevent-a-user-from-using-the-skype-for-business-app"></a>Impedir que um usuário use o app Skype for Business
 
 - Para criar uma nova política para essas configurações, execute:
-  ```
+  ```PowerShell
   New-CsMobilityPolicy -Identity NoAppClientPolicy -EnableMobility $false 
   ```
-  Veja mais no cmdlet [New-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) .
+  Veja mais no cmdlet [New-CsMobilityPolicy](https://technet.microsoft.com/library/mt779150.aspx) .
     
 - Para conceder a nova política criada para o Marble Amos, execute:  
   > 
-  > ```
+  > ```PowerShell
   > Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com"-PolicyName NoAppClientPolicy
   > ```
-  > Veja mais no cmdlet [Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) .
+  > Veja mais no cmdlet [Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) .
     
-  Se você já tiver criado uma política, poderá usar o cmdlet [set-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx) para fazer alterações na política existente e usar o cmdlet [Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) para aplicar a configuração aos seus usuários.
+  Se você já tiver criado uma política, poderá usar o cmdlet [set-CsMobilityPolicy](https://technet.microsoft.com/library/mt779147.aspx) para fazer alterações na política existente e usar o cmdlet [Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) para aplicar a configuração aos seus usuários.
   
 ### <a name="prevent-a-user-from-making-voice-over-ip-calls-using-a-mobile-device"></a>Impedir que um usuário faça chamadas IP usando um dispositivo móvel
 
 - Para criar uma nova política para essas configurações, execute:
   > 
-  > ```
+  > ```PowerShell
   > New-CsMobilityPolicy -Identity VoIPClientPolicy -EnableIPAudioVideo  $false
   > ```
-  > Veja mais no cmdlet [New-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) .
+  > Veja mais no cmdlet [New-CsMobilityPolicy](https://technet.microsoft.com/library/mt779150.aspx) .
     
 - Para conceder a nova política criada para todos os usuários de sua organização, execute:
   > 
-  > ```
+  > ```PowerShell
   > Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com" -PolicyName VoIPClientPolicy
   > ```
 
-  Veja mais no cmdlet [Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) .
+  Veja mais no cmdlet [Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) .
     
-Se você já tiver criado uma política, poderá usar o cmdlet [set-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx) para fazer alterações na política existente e usar o cmdlet[Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) para aplicar a configuração aos seus usuários.
+Se você já tiver criado uma política, poderá usar o cmdlet [set-CsMobilityPolicy](https://technet.microsoft.com/library/mt779147.aspx) para fazer alterações na política existente e usar o cmdlet[Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) para aplicar a configuração aos seus usuários.
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>Deseja saber mais sobre o Windows PowerShell?
 

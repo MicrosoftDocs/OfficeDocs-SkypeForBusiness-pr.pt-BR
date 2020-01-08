@@ -3,7 +3,6 @@ title: Lista de verificação de acesso de convidados do Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/21/2019
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -16,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bcba883166e01bd8a18d6d76b4622df0740500c8
-ms.sourcegitcommit: 000fdb3bc1a0d4dda63fb00bab6a9a9ab0c85ab0
+ms.openlocfilehash: c3354f7b503b2f1ea91c050a751b5d7d9ab0537a
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39813771"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962529"
 ---
 <a name="microsoft-teams-guest-access-checklist"></a>Lista de verificação de acesso de convidados do Microsoft Teams
 ==========================================
@@ -84,11 +83,11 @@ Para ativar o acesso de convidado, vá para o **centro de administração do Mic
 
 ## <a name="step-3-configure-office-365-groups"></a>Etapa 3: configurar grupos do Office 365
 
-1. No centro de administração do Microsoft 365, vá para **configurações** > de**Serviços & suplementos** > **do Office 365 grupos**.
-2. Verifique se **deixar que os membros do grupo fora do conteúdo do grupo de acesso à organização** estejam definidos como **ativado**. Se essa configuração estiver desativada, os convidados não poderão acessar qualquer conteúdo do grupo.
-3. Certifique-se de **que o recurso proprietários de grupos Adicione pessoas de fora da organização a grupos** esteja definido como **ativado**. Se essa configuração estiver desativada, os proprietários da equipe não poderão adicionar novos convidados. No mínimo, essa configuração deve estar ativada para dar suporte ao acesso de convidado.
+1. No centro de administração do Microsoft 365, vá para **configurações** > de**Serviços & suplementos**e, em seguida, selecione **Office 365 grupos**.
 
      ![A captura de tela mostra as alternâncias dos grupos do Office 365](media/guest-access-checklist-office365.png)
+2. Certifique-se de que a caixa de seleção **permitir que membros do grupo fora da organização do conteúdo do grupo de acesso à organização** esteja marcada. Se essa configuração não for selecionada, os convidados não poderão acessar qualquer conteúdo do grupo.
+3. Certifique-se de que a caixa de seleção permitir que os **proprietários do grupo Adicione pessoas fora da organização a grupos** esteja marcada. Se essa configuração não for selecionada, os proprietários da equipe não poderão adicionar novos convidados. No mínimo, essa configuração deve estar ativada para dar suporte ao acesso de convidado.
 
 Para obter instruções detalhadas sobre como definir essas configurações, consulte [gerenciar o acesso de convidados nos grupos do Office 365](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) e [controlar o acesso de convidados a grupos do Office 365](Teams-dependencies.md#control-guest-access-in-office-365-groups).
  
@@ -115,14 +114,16 @@ Certifique-se de que os usuários possam adicionar convidados. Veja como:
 
 ## <a name="step-5-verify-sharing-setting-in-sharepoint"></a>Etapa 5: verificar a configuração de compartilhamento no SharePoint
 
-Isso é um pouco de uma outra. O acesso de convidado no Microsoft Teams não funciona se a configuração **não permitir o compartilhamento fora da organização** estiver selecionada no centro de administração do SharePoint.
-
 1. Entre no centro de administração do Microsoft 365.
-2. Clique em **centro de administração**e selecione **SharePoint**.
-3. No centro de administração do SharePoint, selecione **compartilhamento**.
-4. Certifique-se de que a opção **não permitir o compartilhamento fora da sua organização** *não* esteja selecionada.
+2. Em **centros de administração**, selecione **SharePoint**.
+3. No novo centro de administração do SharePoint, em **sites**, selecione **sites ativos**.
+
+    ![Sites ativos no centro de administração do SharePoint](media/guest-access-checklist-SPOSettings0.png)
+
+3. Selecione o site e, em seguida, clique em **compartilhamento**.
+4. Certifique-se de que a opção está definida para **qualquer pessoa** ou **convidados novos e existentes**.
  
-     ![A captura de tela mostra um exemplo de uma alternância de configurações online do SparePoint.](media/guest-access-checklist-SPOSettings1.png)
+     ![A captura de tela mostra um exemplo de uma alternância de configurações do SharePoint Online](media/guest-access-checklist-SPOSettings1.png)
 
 
 ## <a name="step-6-set-up-guest-user-permissions"></a>Etapa 6: configurar permissões de usuário convidado

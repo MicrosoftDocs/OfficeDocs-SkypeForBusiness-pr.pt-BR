@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Saiba o que você deve saber sobre PINs e como redefini-los no Skype for Business online. '
-ms.openlocfilehash: ca2bbef02b0c6ecdefef700ca316188f5c544070
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: a00c36475059a05bb7cf3a9057920b63a09e9a43
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792274"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962689"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Redefinir o PIN da conferência de áudio no Skype for Business Online
 
@@ -81,7 +81,7 @@ A user can reset a PIN by using the **Reset PIN** option on the **Dial-in Confer
     
 - Você pode definir o PIN de Amos Marble com:
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com -ResetLeaderPIN
   ```
 
@@ -91,7 +91,7 @@ A user can reset a PIN by using the **Reset PIN** option on the **Dial-in Confer
     
   - [Melhores maneiras de gerenciar o Office 365 com o Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade apenas usando o centro de administração do Microsoft 365, como quando você está realizando alterações de configurações para muitos usuários de uma só vez. Saiba mais sobre essas vantagens nos seguintes tópicos:
+- O Windows PowerShell tem muitas vantagens em velocidade, simplicidade e produtividade apenas usando o centro de administração do Microsoft 365, como quando você está realizando alterações de configurações para muitos usuários de uma só vez. Saiba mais sobre essas vantagens nos tópicos a seguir:
     
   - [Uma introdução ao Windows PowerShell e ao Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

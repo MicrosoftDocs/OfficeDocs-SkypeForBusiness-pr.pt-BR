@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: No Skype for Business Online, você pode controlar as transferências de arquivo ponto a ponto (P2P) como parte das configurações de política de conferência existentes. No entanto, isso permite ou bloqueia transferências de arquivos para usuários se eles estão ou não transferindo arquivos para um usuário que está dentro da mesma organização ou para um usuário federado de outra organização. Seguindo as etapas abaixo, você pode bloquear transferências de arquivos P2P com organizações federadas ou parceiros.
-ms.openlocfilehash: 8e9f2bba654f2e44e4e7360f46730a6e1d2d9426
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: a92382a2fae3fd439aba4246937f1f6bda3c0b36
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792510"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962519"
 ---
 # <a name="block-point-to-point-file-transfers"></a>Bloquear transferências de arquivos ponto a ponto
 
@@ -35,7 +35,7 @@ No Skype for Business Online, você pode controlar as transferências de arquivo
     
 - Crie uma política de comunicação de usuário externo global definida para bloquear transferências de arquivo P2P externas (_EnableP2PFileTransfer_ definidas como _false_) e atribuí-las a um usuário em sua organização. 
     
-Você pode saber mais sobre essas configurações [aqui](https://technet.microsoft.com/en-us/library/mt228132.aspx).
+Você pode saber mais sobre essas configurações [aqui](https://technet.microsoft.com/library/mt228132.aspx).
   
 Se um usuário federado fora da sua organização tentar enviar um arquivo para um usuário em que a política foi aplicada, ele receberá um erro de **transferência com falha** . E se um usuário tentar enviar um arquivo, ele receberá um erro de **transferência de arquivo** desativado.
   
@@ -62,7 +62,7 @@ Para fazer isso funcionar, o usuário deve estar usando uma versão com suporte 
     
 4. Você também precisará instalar o módulo do Windows PowerShell para Skype for Business Online, que permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype for Business Online. Esse módulo, que tem suporte apenas em computadores de 64 bits, pode ser baixado do Centro de Download da Microsoft em [Módulo do Windows PowerShell para o Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Se for solicitado, reinicie o seu computador.
     
-    Se precisar saber mais, confira [Conectar-se a todos os serviços do Office 365 usando uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
+    Se precisar saber mais, confira [Conectar-se a todos os serviços do Office 365 usando uma única janela do Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
     
 - **Iniciar uma sessão do Windows PowerShell**
     
@@ -73,14 +73,14 @@ Para fazer isso funcionar, o usuário deve estar usando uma versão com suporte 
     > [!NOTE]
     > [!OBSERVAçãO] Execute o comando **Import-Module** apenas quando usar o módulo do Windows PowerShell do Skype for Business Online pela primeira vez.
 
-   ```      
+   ```PowerShell      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
    ```
 
-   Se você quiser mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) ou [configurar seu computador para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+   Se você quiser mais informações sobre como iniciar o Windows PowerShell, consulte [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) ou [configurar seu computador para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
 ## <a name="disable-p2p-file-transfers-for-your-organization"></a>Desabilitar transferências de arquivos P2P para sua organização
 
@@ -88,7 +88,7 @@ Por padrão, o _EnableP2PFileTransfer_ está habilitado na política global da o
   
 Para permitir transferências P2P para dentro da sua organização, mas bloquear transferências de arquivos externos para outra organização, você precisa apenas alterá-lo em um nível global. Para fazer isso, execute:
     
-  ```
+  ```PowerShell
   Set-CsExternalUserCommunicationPolicy -EnableP2PFileTransfer $False
   ```
 
@@ -96,11 +96,11 @@ Para permitir transferências P2P para dentro da sua organização, mas bloquear
 
 Você pode aplicar isso a um usuário criando uma nova política e concedendo-a a esse usuário. Para fazer isso, execute: 
 > 
->   ```
+>   ```PowerShell
 >   New-CsExternalUserCommunicationPolicy -Identity BlockExternalFT -EnableP2PFileTransfer $False
 >   ```
 > 
->   ```
+>   ```PowerShell
 >   Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity amosm@contoso.com
 >   ```
 
