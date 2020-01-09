@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 'Resumo: saiba como iniciar ou parar uma sessão de captura de log de serviço de log centralizada no Skype for Business Server 2015.'
-ms.openlocfilehash: 49c36620cd58bf113ad1ce7823fcc438d88d8724
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b4da74e05a1eb6f6945f44c0c045c2292e7acca7
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274384"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991436"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Iniciar ou interromper captura de log CLS no Skype for Business Server 2015
  
@@ -37,13 +37,13 @@ O serviço de log centralizado oferece duas maneiras de emitir comandos. Vários
     
 2. Inicie um cenário de log com o serviço de log centralizado digitando o seguinte:
     
-   ```
+   ```PowerShell
    Start-CsClsLogging -Scenario <name of scenario>
    ```
 
     Por exemplo, para iniciar o cenário **AlwaysOn**, digite:
     
-   ```
+   ```PowerShell
    Start-CsClsLogging -Scenario AlwaysOn
    ```
 
@@ -59,7 +59,7 @@ O serviço de log centralizado oferece duas maneiras de emitir comandos. Vários
   
 4. Para iniciar outro cenários, use o cmdlet **Start-CsClsLogging** com o nome do cenário adicional para executar o seguinte (por exemplo, o cenário **Autenticação**):
     
-   ```
+   ```PowerShell
    Start-CsClsLogging -Scenario Authentication
    ```
 
@@ -74,7 +74,7 @@ O serviço de log centralizado oferece duas maneiras de emitir comandos. Vários
     
     Você inicia uma sessão de log para o cenário UserReplicator no pool "pool01.contoso.net". Você também define duração da sessão de log em 8 horas. Para isso, digite:
     
-   ```
+   ```PowerShell
    Start-CsClsLogging -Scenario UserReplicator -Duration 8:00 -Pools "pool01.contoso.net"
    ```
 
@@ -96,13 +96,13 @@ Depois de entender o problema e o escopo do impacto, faça escolhas cuidadosas s
   
 Para controlar as funções de serviço de log centralizado usando o Shell de gerenciamento do Skype for Business Server, você deve ser membro do grupo de segurança CsAdministrator ou do controle de acesso baseado em função do CsServerAdministrator (RBAC) ou uma função RBAC personalizada que contenha um desses dois grupos. Para retornar uma lista de todas as funções RBAC às quais esse cmdlet foi atribuído (incluindo qualquer função RBAC personalizada que você criou), execute o seguinte comando no Shell de gerenciamento do Skype for Business Server ou no prompt do Windows PowerShell:
   
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
 ```
 
 Por exemplo:
   
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
@@ -115,7 +115,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. Consulte o serviço de log centralizado para descobrir quais cenários estão sendo executados digitando o seguinte:
     
-   ```
+   ```PowerShell
    Show-CsClsLogging
    ```
 
@@ -125,12 +125,12 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 3. Para interromper uma sessão de registro em log atualmente em execução com um cenário específico, digite:
     
-   ```
+   ```PowerShell
    Stop-CsClsLogging -Scenario <scenario name> -Computers <comma separated list of fully qualified computer names> -Pools <comma separated list of fully qualified pool names>
    ```
    Por exemplo:
     
-   ```
+   ```PowerShell
    Stop-CsClsLogging -Scenario UserReplicator -Pools pool01.contoso.net
    ```
 

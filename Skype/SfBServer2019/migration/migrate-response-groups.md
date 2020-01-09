@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Depois que os usuários forem movidos para pools do Skype for Business Server 2019, você poderá migrar seus grupos de resposta. Migrar grupos de resposta inclui copiar grupos de agente, filas, fluxos de trabalho, arquivos de áudio e mover objetos de contato de grupo de resposta da implantação herdada para o pool do Skype for Business Server 2019. Depois de migrar seus grupos de resposta herdados, as chamadas para os grupos de resposta são manipuladas pelo aplicativo grupo de resposta no pool do Skype for Business Server 2019. As chamadas para grupos de resposta não são mais manipuladas pelo pool herdado.
-ms.openlocfilehash: b8d49205f4f54ca7c00a9aed0b6ac176c11cd617
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 148fbe2ca547c3bd7e3d240e687b37c94d10270b
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237967"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991106"
 ---
 # <a name="migrate-response-groups"></a>Migrar grupos de resposta
 
@@ -57,13 +57,13 @@ O procedimento a seguir para migrar configurações de grupo de resposta pressup
     
 3. Execute:
     
-   ```
+   ```PowerShell
    Move-CsRgsConfiguration -Source <source pool FQDN> -Destination <destination pool FQDN>
    ```
 
     Por exemplo:
     
-   ```
+   ```PowerShell
    Move-CsRgsConfiguration -Source skype-old.contoso.net -Destination skype-new.contoso.net
    ```
 
@@ -91,13 +91,13 @@ O procedimento a seguir para migrar configurações de grupo de resposta pressup
     
     Para obter detalhes sobre os seguintes cmdlets, execute:
     
-   ```
+   ```PowerShell
    Get-Help <cmdlet name> -Detailed
    ```
 
 3. Execute:
     
-   ```
+   ```PowerShell
    Get-CsRgsAgentGroup
    ```
 
@@ -105,7 +105,7 @@ O procedimento a seguir para migrar configurações de grupo de resposta pressup
     
 5. Execute:
     
-   ```
+   ```PowerShell
    Get-CsRgsQueue
    ```
 
@@ -113,7 +113,7 @@ O procedimento a seguir para migrar configurações de grupo de resposta pressup
     
 7. Execute:
     
-   ```
+   ```PowerShell
    Get-CsRgsWorkflow
    ```
 

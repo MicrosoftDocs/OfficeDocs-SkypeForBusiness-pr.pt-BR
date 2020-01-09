@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
 description: 'Resumo: saiba como bloquear sessões de mensagens instantâneas e de conferência no caso de uma falha do Skype for Business Server que impediria o arquivamento.'
-ms.openlocfilehash: 38f79277ff12aa8e716b034e8393a4d8b71cdbba
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ed8a59a8c19ace9a83b699e1b69515f52c3af010
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286236"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992748"
 ---
 # <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>Configurar opções de arquivamento para lidar com falhas no Skype for Business Server
 
@@ -45,13 +45,13 @@ Você também pode especificar se as sessões de comunicação devem ser permiti
   
 Por exemplo, o comando a seguir desabilita as comunicações no caso de uma falha de arquivamento:
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $True
 ```
 
 O seguinte comando habilita as comunicações em caso de falha no arquivamento:
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $False
 ```
 

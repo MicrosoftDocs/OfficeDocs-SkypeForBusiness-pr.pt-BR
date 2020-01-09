@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
 description: 'Resumo: saiba como gerenciar números de acesso de conferência discada no Skype for Business Server.'
-ms.openlocfilehash: e41011c4ba06da7f05d8cb1a52717e707cd2f8bd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bd2aff1789c040667062d34b8bc037fd0543c029
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289031"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991916"
 ---
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Gerenciar números de acesso à conferência discada no Skype for Business Server
  
@@ -47,7 +47,7 @@ Para exibir informações sobre números de acesso de discagem, use o cmdlet **G
   
 O comando a seguir retorna uma coleção de todos os números de acesso à conferência discada configurados para uso na organização: 
   
-```
+```PowerShell
 Get-CsDialInConferencingAccessNumber
 ```
 
@@ -134,13 +134,13 @@ Para modificar os números de acesso de discagem, use o cmdlet **Set-Cs DialInCo
   
 O comando a seguir modifica a propriedade DisplayName do número de acesso da conferência discada com Identity sip:RedmondDialIn@litwareinc.com. Nesse exemplo, o nome para exibição é definido como "Redmond Dial-In Access Number".
   
-```
+```PowerShell
 Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com" -DisplayName "Redmond Dial-In Access Number"
 ```
 
 No próximo exemplo, o número de acesso da conferência discada com Identity sip:RedmondDialIn@litwareinc.com é modificado para incluir duas regiões: Redmond e Seattle. Para isso, o parâmetro Regions é chamado, seguido das duas regiões (dois valores da cadeia de caracteres separados por vírgulas). Observe que haverá falha nesse comando, a menos que as regiões Redmond e Seattle já tenham sido definidas em planos de discagem.
   
-```
+```PowerShell
 Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com" -Regions "Redmond", "Seattle"
 ```
 
@@ -168,19 +168,19 @@ Para excluir um número de acesso de conferência discada, use o **Remove-CsDial
   
 O comando a seguir exclui o número de acesso da conferência discada com Identity sip:RedmondDialInAccess@litwareinc.com:
   
-```
+```PowerShell
 Remove-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialInAccess@litwareinc.com"
 ```
 
 O próximo comando exclui todos os números de acesso de conferência discada associados com a região Noroeste:
   
-```
+```PowerShell
 Get-CsDialInConferencingAccessNumber -Region "Northwest" | Remove-CsDialInConferencingAccessNumber
 ```
 
 O próximo comando exclui todos os números de acesso de conferência discada onde italiano é o idioma principal:
   
-```
+```PowerShell
 Get-CsDialInConferencingAccessNumber | Where-Object {$_.PrimaryLanguage -eq "it-IT"} | Remove-CsDialInConferencingAccessNumber
 ```
 

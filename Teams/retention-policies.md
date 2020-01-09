@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6779e9b0fa236b1c239f9e6aa56d97e9437fb422
-ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
+ms.openlocfilehash: 73d8de57b7b47ced8217e0f7aca384f4b55b0468
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793517"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988976"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Políticas de retenção no Microsoft Teams
 
@@ -39,7 +39,6 @@ As políticas de retenção de equipes oferecem suporte:
 As políticas de retenção do teams ainda não dão suporte:
 
 - Políticas avançadas de retenção não se aplicam a locais de mensagens de canal de chat e equipe do teams
-- Duração de menos de 30 dias
 
 Os administradores podem configurar políticas de retenção separadas para chats privados do Teams (1:1 ou 1: muitos chats) e mensagens de canal de equipe. Em muitos casos, as organizações consideram dados de chat privados como uma obrigação mais passiva do que as mensagens de canal, que normalmente são mais conversas relacionadas ao projeto. Configure essas políticas no centro de conformidade & segurança,**retenção**de **governança** > de informações. Ative mensagens de canal e **chats de equipe** do **Teams** e, em seguida, defina as políticas de retenção para esses locais (também mostrado no diagrama abaixo). 
 

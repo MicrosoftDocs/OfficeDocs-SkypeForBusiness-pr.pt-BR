@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6730e92-6d74-4fa7-a83f-50b7bdadbffa
 description: 'Resumo: Saiba mais sobre o serviço de mobilidade (MCX) no Skype for Business Server 2015 suporte para clientes herdados.'
-ms.openlocfilehash: b8d22146de43f020b62cc249a07990fb9f0cc73c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f519a04f878caf953c54873a6a704232245b344b
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305658"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992176"
 ---
 # <a name="monitoring-iis-request-tracing-log-files-in-skype-for-business-server-2015"></a>Monitorando arquivos de log de rastreamento de solicitações de IIS no Skype for Business Server 2015
  
@@ -32,7 +32,7 @@ Por padrão, o IIS armazena os arquivos de log em %SystemDrive%\inetpub\logs\Log
   
 Para desativar o rastreamento de solicitação IIS para todo um servidor, na linha de comando, digite o seguinte:
   
-```
+```console
 %SystemDrive%\Windows\System32\inetsrv\appcmd set config /section:httpLogging /dontLog:True
 ```
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: Este artigo descreve como gerenciar serviços executados em uma topologia do Skype for Business Server.
-ms.openlocfilehash: 9d1a79226422da57eee36e27590769f76b89b560
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 76628840c37bdb0eb85d58887d8bfdcedd20f27c
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279617"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991666"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>Gerenciar serviços para o Skype for Business Server
 
@@ -59,7 +59,7 @@ Você também pode exibir o status do serviço usando o Windows PowerShell e o c
 
 Para exibir o status do serviço em um computador, digite um comando semelhante ao seguinte no Shell de gerenciamento do Skype for Business Server e pressione ENTER:
   
-```
+```PowerShell
 Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object RoleName, Status
 ```
 
@@ -104,7 +104,7 @@ Você pode usar o painel de controle do Skype for Business Server para iniciar o
 
 1. Em uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que esteja na rede na qual você implantou o Skype for Business Server . Você pode determinar se você atribuiu o CsServerAdministrator ou a função RBAC CsAdministrator executando um comando semelhante ao seguinte:
     
-   ```
+   ```PowerShell
    Get-CsAdminRoleAssignment -Identity "kenmyer"
    ```
 

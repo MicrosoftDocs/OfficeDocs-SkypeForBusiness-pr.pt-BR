@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: 'Resumo: saiba como gerenciar o servidor de chat persistente alta disponibilidade e recuperação de desastres no Skype for Business Server 2015.'
-ms.openlocfilehash: ff30bcdd99a4c92bd8fbd8f0a5c4bcedd8aa63b0
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: d46e34485f231d313475b4fdc5948a7262b324ed
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418702"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991976"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Gerenciar a alta disponibilidade e a recuperação de desastres para o Servidor de Chat Persistente no Skype for Business Server 2015
  
 **Resumo:** Saiba como gerenciar a alta disponibilidade do servidor de chat persistente e a recuperação de desastres no Skype for Business Server 2015.
   
-Este tópico descreve como fazer failover e failback do servidor de chat persistente. Antes de ler este tópico, certifique-se de ler [plano de alta disponibilidade e recuperação de desastres para servidor de chat persistente no Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) e [Configurar a alta disponibilidade e a recuperação de desastres para o servidor de chat persistente no Skype para Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
+Este tópico descreve como fazer failover e failback do servidor de chat persistente. Antes de ler este tópico, certifique-se de ler [plano para alta disponibilidade e recuperação de desastres para servidor de chat persistente no Skype for Business server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) e [Configurar a alta disponibilidade e a recuperação de desastres para o servidor de chat persistente no Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
 
 > [!NOTE]
 > O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [introdução à atualização do Microsoft Teams](/microsoftteams/upgrade-start-here). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015. 
@@ -55,7 +55,7 @@ Para fazer failover do Servidor de Chat Persistente:
     
    - Use o seguinte comando para remover o envio de logs:
     
-   ```
+   ```SQL
    exec sp_delete_log_shipping_secondary_database mgc
    ```
 
@@ -133,7 +133,7 @@ Estas etapas foram criadas para recuperar a configuração como ela se encontrav
     
    - Aceite o nome de conjunto de backup padrão sugerido em **Nome** ou insira outro nome para o conjunto de backup.
     
-   -  * \<\> Opcionais*  Em **Descrição**, digite uma descrição do conjunto de backup.
+   -  * \<Opcionais\> *  Em **Descrição**, digite uma descrição do conjunto de backup.
     
    - Remova o local de backup padrão da lista de destino.
     
@@ -170,7 +170,7 @@ Estas etapas foram criadas para recuperar a configuração como ela se encontrav
   
 Para restaurar o pool para seu estado normal, execute o seguinte comando do Windows PowerShell:
   
-```
+```PowerShell
 Set-CsPersistentChatState -Identity "service: lyncpc.dci.discovery.com" -PoolState Normal
 ```
 

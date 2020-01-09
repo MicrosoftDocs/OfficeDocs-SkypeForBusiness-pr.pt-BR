@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 505d9619-adab-4cc4-b054-89286e18a19b
 description: Você pode usar os procedimentos desta seção para modificar propriedades de conta de usuário individuais.
-ms.openlocfilehash: fda11a1b52519f3653c841837af20392383cadd1
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: eca88717d0b81ddd7c27fc140df9bdbf7590c5c6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35222058"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991426"
 ---
 # <a name="customize-user-account-properties-for-skype-for-business-server"></a>Personalizar as propriedades da conta de usuário para o Skype for Business Server
  
@@ -50,7 +50,7 @@ Para obter detalhes sobre como configurar a telefonia de uma organização, cons
     
 3. Na barra de navegação esquerda, clique em **Usuários**.
     
-4. Na caixa **Pesquisar usuários** , digite toda ou a primeira parte do nome para exibição, nome, sobrenome, nome da conta do Gerenciador de contas de segurança (Sam), endereço SIP ou URI (Uniform Resource Identifier) da conta de usuário que você deseja e clique em **Localizar **.
+4. Na caixa **Pesquisar usuários** , digite toda ou a primeira parte do nome para exibição, nome, sobrenome, nome da conta do Gerenciador de contas de segurança (Sam), endereço SIP ou URI (Uniform Resource Identifier) da conta de usuário que você deseja e, em seguida, clique em **Localizar**.
     
 5. Na tabela, clique na conta de usuário que você deseja modificar.
     
@@ -62,7 +62,7 @@ Para obter detalhes sobre como configurar a telefonia de uma organização, cons
     
    - Para habilitar as comunicações de áudio PC para PC para o usuário, mas não o controle de chamada remota ou o Enterprise Voice, clique em **PC para PC somente**. Especifique um valor para o **URI da linha** para o telefone que o usuário usa para comunicações de áudio PC para PC.
     
-   - Para encaminhar as chamadas telefônicas do usuário usando a infraestrutura do Skype for Business, de acordo com a classe de política de serviço, incluindo comunicação de áudio PC para PC, clique em **Enterprise Voice**. Em **URI da linha**, especifique o número de telefone do Enterprise Voice. Em **política de plano** de discagem e **política de voz**, especifique as políticas adequadas para o usuário. Para especificar as regras de normalização para a tradução de números de telefone discados pelo usuário para o formato E. 164, selecione o perfil de localização apropriado na **política de localização**.
+   - Para encaminhar as chamadas telefônicas do usuário usando a infraestrutura do Skype for Business, de acordo com a classe de política de serviço, incluindo comunicação de áudio PC para PC, clique em **Enterprise Voice**. Em **URI da linha**, especifique o número de telefone do Enterprise Voice. Em **política de plano de discagem** e **política de voz**, especifique as políticas adequadas para o usuário. Para especificar as regras de normalização para a tradução de números de telefone discados pelo usuário para o formato E. 164, selecione o perfil de localização apropriado na **política de localização**.
     
    - Para habilitar o controle de chamada remota, que permite que os usuários controlem a linha de telefone da área de trabalho do Skype for Business Server para fazer chamadas de PC para PC e chamadas de PC para telefone, clique em **controle de chamada remota**. Em **URI de linha**, especifique o número de telefone para o controle de chamada remota. O usuário deve ter uma conexão de telefone de mesa e PBX (Private Branch Exchange) para roteamento de chamadas.
     
@@ -82,13 +82,13 @@ Você pode usar o painel de controle do Skype for Business Server para atribuir 
     
 3. Na barra de navegação esquerda, clique em **Usuários**.
     
-4. Na caixa **Pesquisar usuários** , digite toda ou a primeira parte do nome para exibição, nome, sobrenome, nome da conta do Gerenciador de contas de segurança (Sam), endereço SIP ou URI (Uniform Resource Identifier) da conta de usuário que você deseja e clique em **Localizar **. 
+4. Na caixa **Pesquisar usuários** , digite toda ou a primeira parte do nome para exibição, nome, sobrenome, nome da conta do Gerenciador de contas de segurança (Sam), endereço SIP ou URI (Uniform Resource Identifier) da conta de usuário que você deseja e, em seguida, clique em **Localizar**. 
     
 5. Na tabela, selecione um usuário ou usuários específicos na lista. 
     
 6. No menu **ação** , clique em **mover usuários selecionados para o pool**.
     
-7. Em **mover usuários**, selecione o pool para o qual você deseja mover os usuários no **pool**de registradores de destino.
+7. Em **mover usuários**, selecione o pool para o qual você deseja mover os usuários no **pool de registradores de destino**.
     
 8. Adicionais Se o servidor ou o pool de destino não estiver disponível, marque a caixa de seleção **forçar** .
     
@@ -105,9 +105,9 @@ Você pode usar o painel de controle do Skype for Business Server para atribuir 
     
 4. No menu **ação** , clique em **mover todos os usuários para o pool**.
     
-5. Em **mover usuários**, selecione o pool que contém as contas de usuário que você deseja mover no **pool**de registradores de origem.
+5. Em **mover usuários**, selecione o pool que contém as contas de usuário que você deseja mover no **pool de registradores de origem**.
     
-6. No **pool**de registradores de destino, selecione o pool para o qual você deseja mover os usuários.
+6. No **pool de registradores de destino**, selecione o pool para o qual você deseja mover os usuários.
     
 7. Adicionais Se o servidor ou o pool de destino não estiver disponível, marque a caixa de seleção **forçar** .
     
@@ -124,16 +124,16 @@ Você pode usar o painel de controle do Skype for Business Server para atribuir 
     
 4. Em **pesquisa de usuário**, clique em **Pesquisar**e, em seguida, clique em **Adicionar filtro**.
     
-5. Nos critérios de pesquisa, selecione **pool**de registradores, selecione **igual a**, selecione o **FQDN do pool atual**e clique em **Localizar**.
+5. Nos critérios de pesquisa, selecione **pool de registradores**, selecione **igual a**, selecione o **FQDN do pool atual**e clique em **Localizar**.
     
 6. No menu **ação** , clique em **mover todos os usuários para o pool**.
     
     > [!NOTE]
     > Quando um filtro é aplicado a um conjunto de usuários existente, a opção **mover todos os usuários para o pool** está no contexto do subconjunto filtrado de usuários, e não **todos** os usuários possíveis.
   
-7. Em **mover usuários**, selecione o pool que contém as contas de usuário que você deseja mover no **pool**de registradores de origem.
+7. Em **mover usuários**, selecione o pool que contém as contas de usuário que você deseja mover no **pool de registradores de origem**.
     
-8. No **pool**de registradores de destino, selecione o pool para o qual você deseja mover os usuários.
+8. No **pool de registradores de destino**, selecione o pool para o qual você deseja mover os usuários.
     
 9. Adicionais Se o servidor ou o pool de destino não estiver disponível, marque a caixa de seleção **forçar** .
     
@@ -144,7 +144,7 @@ Você pode usar o painel de controle do Skype for Business Server para atribuir 
 
 1. Dependendo de como você executa comandos do Windows PowerShell (ou seja, local ou remotamente), você precisa fazer logon como membro das funções administrativas corretas do Skype for Business Server da seguinte forma:
     
-   a. Se você estiver executando os comandos no computador local (por exemplo, você fizer logon diretamente em um servidor front-end): faça logon no computador em que o Shell de gerenciamento do Skype for Business Server está instalado como um membro do grupo RTCUniversalServerAdmins ou com o necessário direitos de usuário, conforme descrito em **permissões de configuração de representante**.
+   a. Se você estiver executando os comandos no computador local (por exemplo, você fizer logon diretamente em um servidor front-end): faça logon no computador em que o Shell de gerenciamento do Skype for Business Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários, conforme descrito em **permissões de configuração de representante**.
     
    b. Se você estiver executando os comandos remotamente em outro computador (por exemplo, se conectar ao seu computador e executar os comandos remotamente em um servidor front-end Standard Edition): de uma conta de usuário atribuída à função CsUserAdministrator ou ao CsAdministrator , faça logon em qualquer computador na sua implantação interna.
     
@@ -152,7 +152,7 @@ Você pode usar o painel de controle do Skype for Business Server para atribuir 
     
 3. Para mover usuários únicos, use o cmdlet Move-CsUser da seguinte maneira:
     
-    ```
+    ```PowerShell
     Move-CsUser -Identity "Pilar Ackerman" -Target "pool01.contoso.net"
     ```
 
@@ -160,13 +160,13 @@ Você pode usar o painel de controle do Skype for Business Server para atribuir 
     
 4. Para mover um grande número de usuários, use filtros com o cmdlet **Get-CsUser** e passe o conjunto resultante de usuários para **mover-CsUser**:
     
-    ```
+    ```PowerShell
     Get-CsUser -Filter {RegistrarPool -eq "CurrentPoolFqdn"} | Move-CsUser -Target "TargetPoolFQDN"
     ```
 
     Os comandos combinados do **Get-CsUser** e do **move-CsUser** podem fazer isso:
     
-    ```
+    ```PowerShell
     Get-CsUser -Filter {RegistrarPool -eq "pool02.contoso.net"} | Move-CsUser -Target "pool01.contoso.net"
     ```
 

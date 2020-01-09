@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'As configurações de tronco SIP definem a relação e os recursos entre um servidor de mediação e o gateway PSTN (rede telefônica pública comutada), um PBX (PBX IP-Public Branch Exchange) ou um SBC (controlador de borda de sessão) no provedor de serviços. '
-ms.openlocfilehash: 9f254d833f5d679343a39062bc2ed68c9122af56
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bfb09511c8d074555c0b84d2da141a029f63a01a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274916"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992558"
 ---
 # <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Testar as configurações de tronco SIP no Skype for Business Server
 
@@ -32,7 +32,7 @@ As definições de configuração de tronco podem ser testadas apenas usando o W
 
 Este comando verifica se as definições de configuração para o local Redmond podem converter corretamente o número discado 4255551212.
 
-```
+```PowerShell
 $trunk = Get-CsTrunkConfiguration -Identity "site:Redmond"
 Test-CsTrunkConfiguration -DialedNumber 4255551212 -TrunkConfiguration $trunk
 ```

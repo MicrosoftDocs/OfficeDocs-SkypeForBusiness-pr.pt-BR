@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Quando um usuário clica em um link de reunião em uma solicitação de reunião, a página ingressar na reunião detecta qual cliente já está instalado no computador do usuário. Se um cliente já estiver instalado, esse cliente abrirá e ingressará na reunião. Se um cliente não estiver instalado, por padrão o aplicativo Web será aberto.
-ms.openlocfilehash: 1bab2dff25db94b36c41e5824401777006760bfc
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5c9e6653783d90411e0f701b5d3395c569d8bdff
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239323"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989556"
 ---
 # <a name="configure-the-meeting-join-page"></a>Configurar a página de ingresso na reunião
 
@@ -35,7 +35,7 @@ Você pode modificar o comportamento da página de associação de reunião se d
     
 2. Execute o seguinte cmdlet: 
     
-   ```
+   ```PowerShell
    Get-CsWebServiceConfiguration
    ```
 
@@ -43,7 +43,7 @@ Você pode modificar o comportamento da página de associação de reunião se d
     
 3. Execute o seguinte comando, com os parâmetros definidos como verdadeiro ou falso, dependendo da sua preferência (para obter detalhes sobre os parâmetros para esse cmdlet, consulte a documentação do [Shell de gerenciamento do Skype for Business Server](../../SfbServer/manage/management-shell.md) ):
     
-   ```
+   ```PowerShell
    Set-CsWebServiceConfiguration -Identity global -ShowJoinUsingLegacyClientLink $True
    ```
 

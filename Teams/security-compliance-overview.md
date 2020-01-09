@@ -17,12 +17,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da0e576bf299bcd4c5362e7055cd843805b783dc
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 95f8910005121faceb261a399ed64a4f68e5cad4
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968172"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988796"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Visão geral de segurança e conformidade no Microsoft Teams
 ======================================================
@@ -31,7 +31,7 @@ O Microsoft Teams está criado na nuvem empresarial de grande escala do Office 3
 
 O Teams é compatível com a camada D. Isso inclui as seguintes normas: ISO 27001, ISO 27018, SSAE16 SOC 1 e SOC 2, HIPAA e EU Model Clauses (EUMC). Dentro da estrutura de conformidade da Microsoft, a Microsoft classifica os aplicativos e serviços do Office 365 em quatro categorias. Cada categoria é definida por compromissos de conformidade específicos que devem ser atendidos por um serviço do Office 365 ou um serviço relacionado da Microsoft para que sejam listados naquela categoria.
 
-Os serviços das categorias de conformidade C e D que têm compromissos de conformidade líderes do setor estão habilitados por padrão. Os serviços das categorias A e B vêm com controles de ativação ou desativação para a organização inteira. Você pode encontrar detalhes em [Estrutura de conformidade para as normas e regulamentos do setor](https://download.microsoft.com/download/B/2/7/B27B3EF3-8849-4C18-8BA4-5AD755728620/Compliance%20Framework_customer%20guidance.pdf). O Microsoft Teams também dá suporte à conformidade com o Cloud Security Alliance.
+Os serviços das categorias de conformidade C e D que têm compromissos de conformidade líderes do setor estão habilitados por padrão. Os serviços das categorias A e B vêm com controles de ativação ou desativação para a organização inteira. Você pode encontrar detalhes em [Estrutura de conformidade para as normas e regulamentos do setor](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf). O Microsoft Teams também dá suporte à conformidade com o Cloud Security Alliance.
 
 O Teams também aplica uma autenticação de dois fatores para todas as equipe e organizações, registro único através do diretório ativo e criptografia de dados em trânsito e em repouso. Os arquivos ficam armazenados no SharePoint e são respaldados pela criptografia do SharePoint. As notas ficam armazenadas no OneNote e são respaldadas pela criptografia do OneNote. Os dados do OneNote são armazenados no site de equipe do SharePoint. A guia wiki também pode ser usada para fazer anotações, e o conteúdo dele também é armazenado no site de equipe do SharePoint.
 
@@ -44,7 +44,7 @@ Para saber mais sobre a conformidade e a segurança do Office 365, leia [configu
 
 ## <a name="auditing-and-reporting"></a>Auditoria e relatórios
 
-A pesquisa de log de auditoria se conecta diretamente ao centro de conformidade do Office 365 Security & e expõe habilidades para definir alertas e/ou relatar eventos de auditoria, disponibilizando a exportação da carga de trabalho específica ou de conjuntos de eventos genéricos para uso e investigação de administração, em um linha do tempo de auditoria ilimitada. Todos os dados de log de auditoria estão disponíveis para configurar alertas no centro de conformidade & segurança do Office 365, bem como para filtragem e exportação para análise adicional. Consulte este [link](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) para saber mais sobre como realizar uma pesquisa de log de auditoria para eventos do Microsoft Teams no centro de conformidade do Office 365 Security &. 
+A pesquisa de log de auditoria se conecta diretamente ao centro de conformidade do Office 365 Security & e expõe habilidades para definir alertas e/ou relatar eventos de auditoria, disponibilizando a exportação da carga de trabalho específica ou de conjuntos de eventos genéricos para uso e investigação de administração em uma linha do tempo de auditoria ilimitada. Todos os dados de log de auditoria estão disponíveis para configurar alertas no centro de conformidade & segurança do Office 365, bem como para filtragem e exportação para análise adicional. Consulte este [link](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) para saber mais sobre como realizar uma pesquisa de log de auditoria para eventos do Microsoft Teams no centro de conformidade do Office 365 Security &. 
 
 ## <a name="compliance-content-search"></a>Pesquisa de conteúdo de conformidade
 
@@ -79,7 +79,7 @@ Os clientes podem aproveitar a descoberta eletrônica in-loco ou [descoberta ele
 
 ## <a name="legal-hold"></a>Retenção legal
 
-Durante um litígio, muitas vezes é necessário que todos os dados associados a um usuário (responsáveis) ou uma equipe sejam preservados imutavelmente para que possam ser usados como evidências para o caso. Isso é conseguido colocando um usuário (caixa de correio do usuário) ou uma equipe em retenção legal. Quando qualquer equipe do teams é colocada no bloqueio in-loco (subconjunto da caixa de correio ou conjunto de sites por meio de consultas direcionadas ou conteúdo filtrado) ou retenção de litígio (caixa de correio ou conjunto de sites inteiro), a retenção é colocada na caixa de correio de grupos. Isso garante que, mesmo se os usuários finais excluirem ou editarem mensagens de canal que estejam ingeridas na caixa de correio de grupo, cópias imutáveis desse conteúdo serão mantidas e estarão disponíveis na pesquisa de descoberta eletrônica. As retenções locais costumam ser aplicadas no contexto de um caso do eDiscovery. Consulte [este](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) artigo de ajuda para saber mais sobre preservação e suspensões no centro de conformidade do Office 365 Security &. 
+Durante um litígio, muitas vezes é necessário que todos os dados associados a um usuário (responsáveis) ou uma equipe sejam preservados como imutáveis para que possam ser usados como evidências para o caso. Isso é conseguido colocando um usuário (caixa de correio do usuário) ou uma equipe em retenção legal. Quando qualquer equipe do teams é colocada no bloqueio in-loco (subconjunto da caixa de correio ou conjunto de sites por meio de consultas direcionadas ou conteúdo filtrado) ou retenção de litígio (caixa de correio ou conjunto de sites inteiro), a retenção é colocada na caixa de correio de grupos. Isso garante que, mesmo se os usuários finais excluirem ou editarem mensagens de canal que estejam ingeridas na caixa de correio de grupo, cópias imutáveis desse conteúdo serão mantidas e estarão disponíveis na pesquisa de descoberta eletrônica. As retenções locais costumam ser aplicadas no contexto de um caso do eDiscovery. Consulte [este](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) artigo de ajuda para saber mais sobre preservação e suspensões no centro de conformidade do Office 365 Security &. 
 
 ## <a name="information-protection-architecture-for-microsoft-teams"></a>Arquitetura de proteção de informações do Microsoft Teams. 
 

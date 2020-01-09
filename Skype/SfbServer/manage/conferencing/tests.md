@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: 'Resumo: saiba como testar a conferência discada no Skype for Business Server.'
-ms.openlocfilehash: cd1192950ff7c8b609655d78bbc57dfdbc4c1710
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a19adba9d36fd7f862b9b40d3c7c239933fa7847
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280359"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992268"
 ---
 # <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Testar a conferência discada no Skype for Business Server
  
@@ -31,7 +31,7 @@ Como verificação final da configuração da conferência discada, você pode p
     
 3. Execute o seguinte no prompt de comando:
     
-   ```
+   ```PowerShell
    Get-CsDialinConferencingAccessNumber -EmptyRegion
    ```
 
@@ -47,7 +47,7 @@ Para obter mais informações, consulte [Get-CsDialInConferencingAccessNumber](h
     
 3. Execute o seguinte no prompt de comando:
     
-   ```
+   ```PowerShell
    Get-CsDialinConferencingAccessNumber -Region NULL
    ```
 
@@ -71,7 +71,7 @@ Para verificar se a página da Web de Configurações de Conferência Discada e 
     
 3. Execute o seguinte no prompt de comando:
     
-   ```
+   ```PowerShell
    $credentials = Get-Credential
    User name:  testuser1@contoso.com
    Password:  ********

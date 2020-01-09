@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
 description: 'Resumo: saiba como atribuir uma política de arquivamento aos usuários no Skype for Business Server.'
-ms.openlocfilehash: 895a7fac34fcac0a4a7e39756796f6b7d2fc6377
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5dbd1624813b187e8c0981aa1a84b6096b79e86a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282046"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992778"
 ---
 # <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>Aplicar uma política de arquivamento aos usuários no Skype for Business Server
 
@@ -38,7 +38,7 @@ Para aplicar uma política de usuário usando o Painel de Controle:
     
 4. Na tabela que lista os resultados da pesquisa, clique em conta de usuário, em **Editar** e em **Mostrar detalhes**.
     
-5. Em **Editar o usuário do Lync Server** na **política**de arquivamento, selecione a política de usuário de arquivamento que você deseja aplicar.
+5. Em **Editar o usuário do Lync Server** na **política de arquivamento**, selecione a política de usuário de arquivamento que você deseja aplicar.
     
     > [!NOTE]
     > As ** \<configurações\> automáticas** aplicam as configurações de instalação do servidor padrão. Essas configurações são aplicadas automaticamente pelo servidor.
@@ -51,19 +51,19 @@ Você também pode aplicar uma política de usuário usando o cmdlet **Grant-CsA
   
 O comando a seguir atribui a política de arquivamento por usuário RedmondArchivingPolicy ao usuário Ken Myer.
   
-```
+```PowerShell
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName "RedmondArchivingPolicy"
 ```
 
 Este comando atribui a política de arquivamento por usuário RedmondArchivingPolicy a todos os usuários que possuem contas hospedadas no pool de registradores atl-cs-001.contoso.com. Para obter detalhes sobre o parâmetro de filtro usado neste comando, consulte a documentação do cmdlet [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) .
   
-```
+```PowerShell
 Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.contoso.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 ```
 
 O comando a seguir remove a política de arquivamento por usuário anteriormente atribuída a Ken Myer. Depois que a política de voz por usuário é removida, Ken Myer será automaticamente gerenciado usando uma política global ou, se existir, a política do seu site local. A política de site tem precedência sobre a política global.
   
-```
+```PowerShell
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 ```
 

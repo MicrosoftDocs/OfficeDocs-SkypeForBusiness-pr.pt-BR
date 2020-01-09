@@ -15,12 +15,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como controlar se as equipes particulares podem ser descobertas pelos usuários do Microsoft Teams por meio de sugestões na Galeria de equipe e nos resultados da pesquisa.
-ms.openlocfilehash: b60c06299f779ebe798db1ff3df465f1683508ed
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e2e0ec956b40ff5e84bb29874c0dc567edefd034
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571995"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992006"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Gerenciar a descoberta de equipes particulares no Microsoft Teams
 
@@ -65,7 +65,7 @@ No Teams, vá para a equipe particular, clique em **mais opções** > **Gerencia
 ### <a name="using-powershell"></a>Usando o PowerShell
 
 Use o cmdlet **[set-Team](https://docs.microsoft.com/powershell/module/teams/set-team?view=teams-ps)** para desativar ou ativar a configuração de descoberta para uma equipe privada existente. Veja um exemplo de como deixar uma equipe detectável:
-```
+```PowerShell
     Set-Team -GroupId 0abc123d-e4f5-67gh-i890-jk1m2n345o6p -ShowInTeamsSearchAndSuggestions $true
 ```
 Você pode usar esse cmdlet em um script para definir a configuração de descoberta de equipes particulares existentes em massa.
@@ -79,7 +79,7 @@ Defina o parâmetro **AllowPrivateTeamDiscovery** como **true** para permitir ao
 Por padrão, **AllowPrivateTeamDiscovery** é definido como **verdadeiro** para todos os usuários de uma organização.
 
 Neste exemplo, criamos uma política denominada VendorPolicy que impede os usuários de descobrir qualquer equipe particular que seja tornada detectável e, em seguida, atribuímos a política a um usuário chamado vendoruser1.
-```
+```PowerShell
      New-CsTeamsChannelsPolicy -Identity VendorPolicy -AllowPrivateTeamDiscovery $false
      Grant-CsTeamsChannelsPolicy -Identity vendoruser1@company.com -PolicyName VendorPolicy
 ```

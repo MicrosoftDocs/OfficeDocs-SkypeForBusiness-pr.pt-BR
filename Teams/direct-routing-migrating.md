@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Saiba o que é necessário para migrar para o Roteamento Direto de uma perspectiva de configuração do Skype for Business Online e do Teams.
-ms.openlocfilehash: dd0b2cd1ac6014ea0f6c79a46314eb4e3d5e0380
-ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
+ms.openlocfilehash: 4c65a8c5d5a28ab5046c23e2743962fe1114c2a4
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871707"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992578"
 ---
 # <a name="migrate-to-direct-routing"></a>Migrar para o Roteamento Direto
 
@@ -86,7 +86,7 @@ Para obter mais informações sobre como migrar do Sistema de Telefonia com cone
 
 É recomendável remover as informações de roteamento de voz configuradas anteriormente da seguinte maneira:
 
-```
+```PowerShell
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
 > Se uma CsVoiceRoutingPolicy global estiver configurada, recomendamos que você remova todos os usos de PSTN associados a essa política global. 
@@ -101,7 +101,7 @@ Para obter mais informações sobre como migrar do Sistema de Telefonia com cone
 
 É recomendável remover as informações de roteamento de voz configuradas anteriormente da seguinte maneira:
  
-```
+```PowerShell
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPSTNSite $null 
 ```

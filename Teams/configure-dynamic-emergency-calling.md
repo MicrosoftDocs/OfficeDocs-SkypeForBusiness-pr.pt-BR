@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Configurar chamadas de emergência dinâmicas
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53af7f64cd7050d3dcd6120f7729cd069a4331d0
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 2d4480e875c37ba2c608c826bb648231c0f6fc23
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615851"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992086"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planejar e configurar chamadas de emergência dinâmicas 
 
@@ -61,7 +61,7 @@ Para obter mais informações sobre chamadas de emergência, incluindo informaç
 
 - [Gerenciar chamadas de emergência](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Gerenciar configurações de rede para recursos de voz na nuvem](cloud-voice-network-settings.md)
-- [Gerenciar a topologia de rede para recursos de voz na nuvem](manage-your-network-topology.md)
+- [Gerenciar a topologia de rede para os recursos de voz na nuvem](manage-your-network-topology.md)
 
 
 ## <a name="supported-clients"></a>Clientes com suporte
@@ -164,25 +164,25 @@ A política TeamsEmergencyCallRouting se aplica apenas ao roteamento direto. (Em
 
 Por exemplo, para habilitar um usuário específico para a notificação do Security Desk, use o seguinte comando:
 
-```
+```PowerShell
 Grant-CsTeamsEmergencyCallingPolicy -Identity user1 -PolicyName SecurityDeskNotification
 ```
 
 Para atribuir uma política chamada "política de chamadas de emergência da Contoso 1" ao site 1, use o seguinte comando:
 
-```
+```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
 ```
 
 Para habilitar um usuário de roteamento direto específico para fazer chamadas de emergência, use o seguinte comando:
 
-```
+```PowerShell
 Grant-CsTeamsEmergencyCallRoutingPolicy -Identity user1 -PolicyName UnitedStates
 ```
 
 Para atribuir uma política chamada "roteamento de chamada de emergência do contoso New York" ao site 1, use o seguinte comando:
 
-```
+```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso New York Emergency Call Routing"
 ```
 
@@ -205,4 +205,4 @@ Alguns provedores de serviços de roteamento de emergência (ERSPs) nos Estados 
 - [Adicionar, alterar ou remover um local de emergência para sua organização](add-change-remove-emergency-location-organization.md)
 - [Atribuir ou alterar um local de emergência para o usuário](assign-change-emergency-location-user.md)
 - [Configurações de rede para recursos de voz na nuvem](cloud-voice-network-settings.md)
-- [Gerenciar a topologia de rede para recursos de voz na nuvem](manage-your-network-topology.md)
+- [Gerenciar a topologia de rede para os recursos de voz na nuvem](manage-your-network-topology.md)

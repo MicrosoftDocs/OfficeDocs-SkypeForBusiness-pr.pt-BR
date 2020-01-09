@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: Este tópico descreve as ferramentas no kit de recursos do Skype for Business Server 2015, incluindo a finalidade de cada ferramenta e exemplos de seu uso. O kit de recursos do Skype for Business Server 2015 ajuda a facilitar tarefas de rotina para administradores de ti que implantam e gerenciam o Skype for Business Server 2015. Por exemplo, a ferramenta Web Conf Data pode ser usada para controlar facilmente os dados carregados pelos usuários durante uma reunião online. A ferramenta SEFAUtil pode ser usada para configurar o encaminhamento e as respostas de chamadas de representantes para os usuários. Incentivamos os administradores de ti a usar essas ferramentas para gerenciar o Skype for Business Server 2015 com mais eficiência.
-ms.openlocfilehash: c34998cf86de6bc85d384081c0db77f70edb68f9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0087f4286246833f0266ad0c78636bad00167756
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289059"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992528"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Documentação das Ferramentas do Kit de Recursos do Skype for Business Server 2015
 
@@ -92,7 +92,7 @@ A ferramenta ABSConfig pode ser iniciada usando o arquivo absConfig.exe. A ferra
 
 A ABSConfig armazena a configuração do Serviço de Catálogo de Endereços no banco de dados.
 
-```
+```PowerShell
 Path: %ProgramFiles%\Skype for Business Server 2015\Reskit
 ```
 
@@ -260,7 +260,7 @@ O registro da linha do tempo permite que o usuário da ferramenta especifique o 
 
 Os seguintes diretórios de arquivo devem ser especificados pelo usuário, como a seguir:
 
-- **Local dos arquivos de log do servidor** O local da pasta onde os logs do servidor de política de largura de banda são armazenados. Geralmente, isso ocorre \<no\>\\<choice de los\>do FE \AppServerFiles\PDP.
+- **Local dos arquivos de log do servidor** O local da pasta onde os logs do servidor de política de largura de banda são armazenados. Geralmente, isso ocorre \<\> \\<em \AppServerFiles\PDP. de opções\>de FE do FE
 
 - **Local de armazenamento de arquivo temporário** O local do arquivo temporário onde os arquivos intermediários são armazenados enquanto o relatório está sendo gerado.
 
@@ -424,7 +424,7 @@ O objetivo da ferramenta CPS é fornecer acesso de linha de comando ao banco de 
 
 Não haverá nenhum requisito se esta ferramenta for executada no mesmo computador que estiver executando o CPS. Se essa ferramenta for executada em um computador remoto, o banco de dados do SQL Server usado pelo Skype for Business Server 2015 deve ser configurado para permitir o acesso remoto. Chame Parkometer deve ser configurado com uma cadeia de conexão de banco de dados SQL Server para se conectar ao SQL Server do pool. Esta cadeia de conexão de banco de dados do SQL Server é definida no arquivo de configuração **parkometer. exe. config**. Ele deve ser colocado no mesmo diretório em que o parkometer. exe está localizado. O arquivo XML a seguir é um exemplo de um parkometer. exe. config. Os parâmetros que devem ser configurados são o nome de usuário (por exemplo, mydomain\Administrator), senha (por exemplo, mypassword) e nome do host (por exemplo, meuservidor).
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <configuration>
   <appSettings>
@@ -470,14 +470,14 @@ O Parquímetro de Chamada é uma ferramenta de linha de comando que fornece info
 
 DBAnalyze é uma ferramenta de linha de comando que ajuda os administradores a reunir relatórios de análise sobre os bancos de dados do Skype for Business Server 2015. O DBAnalyze tem os seguintes modos: diagnóstico, dados do usuário, conferência, MCUs e fragmentação de disco:
 
-- **Modo de diagnóstico** Cria um relatório que inclui informações sobre tabelas (número de registros, fragmentação, tamanho de dados e tamanho de índice), dados e tamanhos de arquivo de log, o último tempo de backup, distribuição de contatos entre servidores que executam o Microsoft Office Communications Server, o número médio de permissões, contatos, contêineres, assinaturas, publicações, pontos de extremidade por usuário, qualquer usuário incorretamente hospedado, usuários que não podem ser encaminhados, o número médio de conferências organizadas por usuário, conferências programadas, conferências ativas e a versão do banco de dados.
+- **Modo de diagnóstico** Cria um relatório que inclui informações sobre tabelas (número de registros, fragmentação, tamanho de dados e tamanho de índice), arquivos de dados e log, o último tempo de backup, a distribuição de contatos entre servidores que executam o Microsoft Office Communications Server, o número médio de permissões, contatos, contêineres, assinaturas, publicações, pontos de extremidade por usuário, todos os usuários hospedados incorretamente, usuários que não podem ser roteados, o número médio de conferências organizadas por usuário, conferências programadas e a versão do banco de dados.
 
     > [!NOTE]
     > A execução do modo de diagnóstico pode afetar o desempenho do servidor.
 
 - **Modo de dados do usuário** Relata os dados de contato, contêiner, assinatura, publicação, permissão e grupo de contatos para um usuário especificado ou para usuários que tenham esse usuário em suas listas de contatos e permissões. Este modo também relata dados resumidos de conferências que um usuário organizou ou para as quais foi convidado.
 
-- **Modo de conferência** Relata dados detalhados para uma conferência específica, incluindo todos os detalhes de tempo de agendamento da conferência, a lista de convidados, a lista de tipos de mídia permitidos para a conferência, as MCUs ativas (unidades de controle multiponto), a lista de participantes ativos e cada Estado de sinalização do participante.
+- **Modo de conferência** Relata dados detalhados para uma conferência específica, incluindo todos os detalhes de tempo de agendamento da conferência, a lista de convidados, a lista de tipos de mídia permitidos para a conferência, as MCUs ativas (unidades de controle multiponto), a lista de participantes ativa e o estado de sinalização de cada participante.
 
 - **Decodificar ID da reunião** Decodifica uma ID de reunião PSTN (rede telefônica pública comutada) especificada pela opção **/pstnid** , mas não se conecta ao back-end para obter informações detalhadas.
 
@@ -485,7 +485,7 @@ DBAnalyze é uma ferramenta de linha de comando que ajuda os administradores a r
 
 - **Modo MCUs** Informa a identificação, o tipo de mídia, a URL, o status de Heartbeat, a carga de conferência e a carga de participantes para cada MCU do pool.
 
-- **Modo** de fragmentação de disco Exibe o status de fragmentação de todos os discos.
+- **Modo de fragmentação de disco** Exibe o status de fragmentação de todos os discos.
 
 Esta ferramenta pode ser usada para diagnosticar diversos problemas ou para ajudar os administradores no planejamento da capacidade. Por exemplo, se a maioria dos usuários hospedados no servidor A escolher como contatos usuários hospedados no servidor B, o administrador poderá mover os usuários do servidor A para o servidor B para reduzir o tráfego entre servidores.
 
@@ -788,11 +788,11 @@ C:\Program Files\Skype for Business Server 2015 \ reskit\>LookupUserConsole. exe
 ## <a name="msturnping"></a>MsTurnPing
 <a name="MsTurnPing"> </a>
 
-A ferramenta MSTurnPing permite que um administrador do software de comunicação do Skype for Business Server 2015 Verifique o status dos servidores que estão executando a borda de áudio/vídeo e os serviços de autenticação de áudio/vídeo, bem como os servidores que estão executando a política de largura de banda Serviços na topologia.
+A ferramenta MSTurnPing permite que um administrador do software de comunicação do Skype for Business Server 2015 Verifique o status dos servidores que executam a borda de áudio/vídeo e os serviços de autenticação de áudio/vídeo, bem como os servidores que estão executando os serviços de política de largura de banda na topologia.
 
 ### <a name="description"></a>Descrição
 
-A ferramenta MSTurnPing permite que um administrador do software de comunicação do Skype for Business Server 2015 Verifique o status dos servidores que estão executando a borda de áudio/vídeo e os serviços de autenticação de áudio/vídeo, bem como os servidores que estão executando a política de largura de banda Serviços na topologia.
+A ferramenta MSTurnPing permite que um administrador do software de comunicação do Skype for Business Server 2015 Verifique o status dos servidores que executam a borda de áudio/vídeo e os serviços de autenticação de áudio/vídeo, bem como os servidores que estão executando os serviços de política de largura de banda na topologia.
 
 A ferramenta permite ao administrador realizar os seguintes testes:
 
@@ -877,7 +877,7 @@ Exibir os links de topologia de rede do CAC da empresa em uma interface gráfica
 
 ### <a name="examples"></a>Exemplos
 
- **Carregar e exibir a topologia de rede do CAC a partir de uma implantação do Skype for Business server 2015 em um formato gráfico**: Skype for business Server 2015 os administradores podem carregar e exibir a configuração de topologia de rede do CAC em qualquer Skype for business Server 2015 computador, usando a opção **baixar a configuração de rede** , conforme mostrado na figura abaixo. A ferramenta não fará o download ou exibirá essa configuração quando implantada em um computador que não tenha conectividade com o repositório de configuração do Skype for Business Server 2015.
+ **Carregar e exibir a topologia de rede do CAC a partir de uma implantação do Skype for Business server 2015 em um formato gráfico**: Skype for business Server 2015 os administradores podem carregar e exibir a configuração de topologia de rede do CAC em qualquer computador com o Skype for business Server 2015, usando a opção **baixar a configuração de rede** , conforme mostrado na figura a seguir. A ferramenta não fará o download ou exibirá essa configuração quando implantada em um computador que não tenha conectividade com o repositório de configuração do Skype for Business Server 2015.
 
 ![Baixando a configuração de rede.](../media/Reskit_2012_Tools_Documentation_Image23.jpg)
 
@@ -889,11 +889,11 @@ Salvar e armazenar a topologia de rede do CAC em um formato XML no disco: os adm
 
 ![Salvando a configuração de rede como um arquivo XML.](../media/Reskit_2012_Tools_Documentation_Image25.jpg)
 
-Salvar e armazenar o diagrama de topologia de rede do CAC no formato JPG ou BMP: os administradores do Skype for Business Server 2015 podem salvar a configuração de topologia de rede do CAC em um formato gráfico (formatos de arquivo JPG e BMP) usando o **diagrama salvar configuração de rede como **opção de imagem conforme mostrado abaixo.
+Salvar e armazenar o diagrama de topologia de rede do CAC no formato JPG ou BMP: os administradores do Skype for Business Server 2015 podem salvar a configuração de topologia de rede do CAC em um formato gráfico (formatos de arquivo JPG e BMP) usando a opção **salvar diagrama de configuração de rede como imagem** , conforme mostrado a seguir.
 
 ![Salvando a configuração de rede como uma imagem.](../media/Reskit_2012_Tools_Documentation_Image26.jpg)
 
- <strong>Exibir dados de configuração de topologia de rede do CAC:</strong> Os administradores do Skype for Business Server 2015 podem exibir dados de configuração de rede relacionados, como regiões de rede, sites de rede, perfis de largura de banda e endereços IP de sub-rede de sites em um formato de texto usando a opção Exibir dados de configuração de rede conforme mostrado baixo.
+ <strong>Exibir dados de configuração de topologia de rede do CAC:</strong> Os administradores do Skype for Business Server 2015 podem exibir dados de configuração de rede relacionados, como regiões de rede, sites de rede, perfis de largura de banda e endereços IP de sub-rede de sites em um formato de texto usando a opção Exibir dados de configuração de rede, conforme mostrado a seguir.
 
 ![Exibir dados de configuração de rede.](../media/Reskit_2012_Tools_Documentation_Image27.jpg)
 
@@ -1048,7 +1048,7 @@ A ferramenta SEFAUtil pode ser executada apenas em um computador que faça parte
 
 1. A ferramenta SEFAUTil pode ser executada apenas em um computador que faça parte de um pool de aplicativos confiáveis. Se necessário, adicionar um pool como um novo pool de aplicativos confiável pode ser feito por meio do Shell de gerenciamento do Skype for Business Server com o seguinte cmdlet:
 
-   ```
+   ```PowerShell
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
    ```
 
@@ -1057,7 +1057,7 @@ A ferramenta SEFAUtil pode ser executada apenas em um computador que faça parte
 
 2. Um aplicativo confiável precisa ser definido na topologia para a ferramenta SEFAUtil. Para definir SEFAUtil como um novo aplicativo confiável, use o Shell de gerenciamento do Skype for Business Server e execute o seguinte cmdlet:
 
-   ```
+   ```PowerShell
    New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN> -Port 7489
    ```
 
@@ -1065,13 +1065,13 @@ A ferramenta SEFAUtil pode ser executada apenas em um computador que faça parte
     > Uma porta diferente pode ser usada, se necessário.
     
     > [!NOTE]
-    > FQDN do pool: o FQDN do servidor ou pool que hospedará o aplicativo SEFAUtil (geralmente, um servidor front-end do > ou pool) do Skype for Business.
+    > FQDN do pool: o FQDN do servidor ou pool que hospedará o aplicativo SEFAUtil (geralmente, um servidor front-end do Skype for Business > ou o pool).
     > FQDN do registrador de pool: o FQDN do servidor de front-end do Skype for Business ou pool associado a este pool de aplicativos.
     > Site de pool: a ID do site na qual esse pool é hospedado.
 
 3. As alterações de topologia precisam ser habilitadas. Habilitar as alterações de topologia pode ser feito por meio do Shell de gerenciamento do Skype for Business Server executando o seguinte cmdlet:
 
-   ```
+   ```PowerShell
    Enable-CsToplogy
    ```
 
@@ -1079,7 +1079,7 @@ A ferramenta SEFAUtil pode ser executada apenas em um computador que faça parte
 
 5. Verifique se o SEFAUtil está sendo executado corretamente. Para fazer isso, execute a ferramenta em um prompt de comando do Windows com privilégios de administrador para exibir as configurações de encaminhamento de chamadas de um usuário na implantação. Por padrão, a ferramenta estará localizada em: ". ..\Program Files\Skype for Business Server 2015 \ reskit". Para exibir as configurações de encaminhamento de chamadas de um usuário, use o seguinte comando:
 
-   ```
+   ```console
    SEFAUtil.exe <user SIP address> /server:<Skype for Business Server/Pool FQDN>
    ```
 
@@ -1100,7 +1100,7 @@ O comando a seguir exibe a administração de chamadas do usuário.  `SEFAUtil.e
 
  **Saída**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1119,7 +1119,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablefwdno
 
  **Saída**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1138,7 +1138,7 @@ SEFAUtil.exe sip:katarina@contoso.com /enablefwdimmediate /setfwddestination:and
 
  **Saída**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1156,7 +1156,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com katarina@contoso.com  /disablefwdimme
 
  **Saída**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1175,7 +1175,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /adddelegate
 
  **Saída**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1192,7 +1192,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /delayringde
 
  **Resultado**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1213,7 +1213,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /removedeleg
 
  **Saída**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1232,7 +1232,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /adddelegate
 
  **Saída**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1252,7 +1252,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /setsimulrin
 
  **Saída**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1270,7 +1270,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /disablesimu
 
  **Saída**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1292,7 +1292,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /addteammemb
 
  **Saída**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1312,7 +1312,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /removeteamm
 
  **Saída**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1330,7 +1330,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /delayringte
 
  **Saída**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1360,7 +1360,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /disableteam
 
  **Saída**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1378,7 +1378,7 @@ SEFAUtil.exe /server:SfBserver.contoso.com sip:katarina@contoso.com /enablegroup
 
  **Saída**
 
-```
+```output
 User Aor: sip:katarina@contoso.com
 Display Name: Katarina Larsson
 UM Enabled: True
@@ -1448,7 +1448,7 @@ O parâmetro **-SetupFolder** assume como um argumento o local do diretório dos
 
 Para executar o script SYSPrep. ps1 e instalar os pré-requisitos do Skype for Business Server 2015, execute o seguinte comando em um prompt de comando elevado:
 
-```
+```console
 ./SysPrep.PS1 -SetupFolder D:\Setup
 ```
 
@@ -1484,7 +1484,7 @@ Se a execução da operação for interrompida por qualquer erro, os intervalos 
 
 O script de Migração de Comunicados de Número Não Atribuído pode ser usado nos três cenários a seguir:
 
-- **Migrando definições de configuração para uma nova versão do Skype for Business Server:** A Contoso está em processo de migração para o Skype for Business Server 2015 e, como parte do processo de migração, o administrador do Skype for Business Server gostaria de mover a configuração de números não atribuídas atendida pelo aplicativo de anúncio do Lync Implantação do 2013 Server para a nova implantação do 2015 Skype for Business Server. Para mover as definições de configuração, o administrador do Skype for Business Server usa a ferramenta de migração de anúncios de número não atribuído.
+- **Migrando definições de configuração para uma nova versão do Skype for Business Server:** A Contoso está em processo de migração para o Skype for Business Server 2015 e, como parte do processo de migração, o administrador do Skype for Business Server gostaria de mover a configuração de números não atribuídas atendida pelo aplicativo de anúncio da implantação do Lync Server 2013 para a nova implantação do 2015 do Skype for Business Server. Para mover as definições de configuração, o administrador do Skype for Business Server usa a ferramenta de migração de anúncios de número não atribuído.
 
 - Reverter **uma implantação do Skype for Business server 2015 para o Lync Server 2013:** Devido a fatores inesperados, a contoso tem que reverter a migração para a nova implantação do Skype for Business Server 2015. Para minimizar as interrupções do serviço, o administrador do Skype for Business Server usa a ferramenta de migração de anúncios de número não atribuído para reverter a configuração da implantação do Skype for Business Server 2015 para a implantação do Lync Server 2013.
 
@@ -1510,7 +1510,7 @@ O script Move-CsAnnouncementConfiguration exige os dois parâmetros descritos na
 
 Este exemplo move os anúncios de número não atribuído do pool de origem (Lync Server 2013) para o pool de destino (Skype for Business Server 2015).
 
-```
+```PowerShell
 Move-CsAnnouncementConfiguration.ps1 -Source LS2013Pool.contoso.com -Destination SfBS2015Pool.contoso.com
 ```
 
@@ -1518,7 +1518,7 @@ Move-CsAnnouncementConfiguration.ps1 -Source LS2013Pool.contoso.com -Destination
 
 Este exemplo move os anúncios de número não atribuído do pool de origem (Skype for Business Server 2015) para o pool de destino (Lync Server 2013).
 
-```
+```PowerShell
 Move-CsAnnouncementConfiguration.ps1 -Source SfBS2015Pool.contoso.com -Destination LS2013Pool.contoso.com
 ```
 

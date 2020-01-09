@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
 description: 'Resumo: saiba como excluir as configurações de QoE (qualidade da experiência) no Skype for Business Server.'
-ms.openlocfilehash: 4b521afd85a97550b27f320b9e49c5439e431681
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 134ebe39f41ca051db4ff79eafb094dcc929b5e8
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305798"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992418"
 ---
 # <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>Excluir configurações de qualidade de experiência no Skype for Business Server
  
@@ -49,7 +49,7 @@ Você pode excluir as definições de configuração de QoE usando o Windows Pow
 
  Esse comando remove as definições de configuração de QoE aplicadas ao local Redmond:
     
-  ```
+  ```PowerShell
   Remove-CsQoEConfiguration -Identity "site:Redmond"
   ```
 
@@ -57,7 +57,7 @@ Você pode excluir as definições de configuração de QoE usando o Windows Pow
 
  Esse comando remove todas as definições de configuração de QoE aplicadas ao escopo local:
     
-  ```
+  ```PowerShell
   Get-CsQoEConfiguration -Filter "site:*" | Remove-CsQoEConfiguration
   ```
 
@@ -65,7 +65,7 @@ Você pode excluir as definições de configuração de QoE usando o Windows Pow
 
  Este comando remove todas as definições de configuração de QoE onde o monitoramento de QoE foi desabilitado:
     
-  ```
+  ```PowerShell
   Get-CsQoEConfiguration | Where-Object {$_.EnableQoE -eq $False} | Remove-CsQoEConfiguration
   ```
 

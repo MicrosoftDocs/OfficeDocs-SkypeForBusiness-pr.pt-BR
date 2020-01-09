@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: 'Resumo: saiba como gerenciar salas de chat do servidor de chat persistente no Skype for Business Server 2015.'
-ms.openlocfilehash: 5b7345626a42073bf7ebd0cb5f9900c6e15f0e2b
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: cbced7f62a4684e5541e35b5985b7e93cc7d3e66
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35417943"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992116"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Gerenciar salas de chat no Servidor de Chat Persistente no Skype for Business Server 2015
  
@@ -83,7 +83,7 @@ Além dos parâmetros acima, o cmdlet **set-CsPersistentChatRoom** permite atrib
 
 Você pode criar uma nova sala usando o cmdlet **New-CsPersistentChatRoom**. Por exemplo, o comando a seguir cria uma nova sala de chat chamada ITChatRoom no pool atl-cs-001.contoso.com. Neste exemplo, a sala de chat é adicionada à categoria de TI:
   
-```
+```PowerShell
 New-CsPersistentChatRoom -Name "ITChatRoom" -PersistentChatPoolFqdn "atl-cs-001.contoso.com"-Category "IT"
 ```
 
@@ -99,7 +99,7 @@ New-CsPersistentChatRoom -Name "ITChatRoom" -PersistentChatPoolFqdn "atl-cs-001.
 
 Você pode configurar uma sala existente usando o cmdlet **set-CsPersistentChatRoom** . Por exemplo, o comando a seguir atribui user1 como membro e apresentador, Usuário2 como gerente, da testCat Auditorium:
   
-```
+```PowerShell
 Set-CsPersistentChatRoom -Identity testCat -Members @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}
 Set-CsPersistentChatRoom -Identity testCat -Presenters @{Add="sip:user1@contoso.com"}
 Set-CsPersistentChatRoom -Identity testCat -Managers @{Add="sip:user2@contoso.com"}
@@ -107,13 +107,13 @@ Set-CsPersistentChatRoom -Identity testCat -Managers @{Add="sip:user2@contoso.co
 
  O próximo exemplo adiciona todos os usuários da UO NorthAmericaUsers no Active Directory à sala de chat NorthAmerica:
   
-```
+```PowerShell
 Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.contoso.com\NorthAmerica" -Members @{Add="OU=NorthAmericaUsers,DC=contoso,DC=com"}
 ```
 
 O próximo exemplo adiciona todos os membros do grupo de distribuição Finanças à mesma sala de chat:
   
-```
+```PowerShell
 Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.contoso.com\NorthAmerica" -Members @{Add="CN=Finance,OU=ExternalUsers,DC=contoso,DC=com"}
 ```
 
@@ -127,13 +127,13 @@ Se uma sala de chat for desabilitada, sua lista de associação e outras configu
   
 Você pode desabilitar uma sala usando o cmdlet **set-CsPersistentChatRoom** e definindo o parâmetro Disabled como true:
   
-```
+```PowerShell
 Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled $True
 ```
 
 Para habilitar uma sala de chat, defina o parâmetro Disabled para False:
   
-```
+```PowerShell
 Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled $False
 ```
 
@@ -143,7 +143,7 @@ Para obter informações sobre as salas configuradas para uso em sua organizaç�
   
 O comando a seguir retorna informações sobre todas as salas de chat configuradas para uso na organização:
   
-```
+```PowerShell
 Get-CsPersistentChatRoom
 ```
 
@@ -151,7 +151,7 @@ Get-CsPersistentChatRoom
 
 Você pode remover o conteúdo de uma sala usando o cmdlet **Clear-CsPersistentChatRoom**. Por exemplo, o comando a seguir remove todo o conteúdo da sala de Chat Persistente ITChatRoom, que foi adicionado à sala em ou antes de 1º de março de 2015:
   
-```
+```PowerShell
 Clear-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -EndDate "3/1/2015"
 ```
 
@@ -159,13 +159,13 @@ Clear-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -EndDat
 
 Você pode remover uma ou mais mensagens no banco de dados de Chat Persistente e, como opção, substituir a mensagem com uma mensagem padrão ou com uma mensagem fornecida pelo administrador por meio do cmdlet **Remove-CsPersistentChatMessage**. Por exemplo, o comando a seguir remove todas as mensagens da sala de chat ITChatRoom que foram publicadas pelo usuário kenmyer@contoso.com:
   
-```
+```PowerShell
 Remove-CsPersistentChatMessage -Identity "atl-persistentchat-001.contoso.com\ITChatRoom" -UserUri "sip:kenmyer@contoso.com"
 ```
 
 O próximo exemplo substitui as mensagens removidas pela observação de que a mensagem não está mais disponível:
   
-```
+```PowerShell
 Remove-CsPersistentChatMessage -Identity "atl-persistentchat-001.contoso.com\ITChatRoom" -UserUri "sip:kenmyer@contoso.com" -ReplaceMessage "This message is no longer available."
 ```
 
@@ -175,7 +175,7 @@ Você pode remover uma sala usando o cmdlet **Remove-CsPersistentChatRoom**.
   
 Por exemplo, o comando a seguir remove a sala de chat RedmondChatRoom:
   
-```
+```PowerShell
 Remove-CsPersistentChatRoom -Identity "atl-gc-001.contoso.com\RedmondChatRoom"
 ```
 

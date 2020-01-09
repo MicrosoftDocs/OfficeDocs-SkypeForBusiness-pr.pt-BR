@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumo: configurar as contas de usuário de teste e as configurações de nó de inspetor para transações sintéticas do Skype for Business Server.'
-ms.openlocfilehash: 0da038f90538cce62f2e811471a2ebc8ba685fb2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 991b78a4581d616e79aaa4f096a76aad8636b632
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284064"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989026"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>Configurar usuários de teste e configurações do nó do inspetor
  
@@ -35,7 +35,7 @@ As contas de teste não precisam representar pessoas reais, mas devem ser contas
   
 Se você estiver usando o método de autenticação TrustedServer, tudo o que você precisa fazer é certificar-se de que essas contas existem e configurá-las como observado. É necessário atribuir pelo menos três usuários de teste a cada pool que deseja testar. Se você estiver usando o método de autenticação Negotiate, também deverá usar o cmdlet Set-CsTestUserCredential e o Shell de gerenciamento do Skype for Business Server para permitir que essas contas de teste funcionem com as transações sintéticas. Faça isso executando um comando semelhante ao seguinte (estes comandos pressupõem que as três contas de usuário do Active Directory foram criadas e que essas contas estão habilitadas para o Skype for Business Server):
   
-```
+```PowerShell
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
 Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "litwareinc\watcher2" -Password "P@ssw0rd"
 Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "litwareinc\watcher3" -Password "P@ssw0rd"
@@ -45,7 +45,7 @@ Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "li
   
 Para verificar se as credenciais do usuário de teste foram criadas, execute esses comandos do Shell de gerenciamento do Skype for Business Server:
   
-```
+```PowerShell
 Get-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com"
 Get-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com"
 Get-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com"
@@ -61,7 +61,7 @@ Informações semelhantes a estas devem ser retornadas para cada usuário:
 
 Depois que os usuários de teste são criados, você pode criar um nó do inspetor usando um comando semelhante a este:
   
-```
+```PowerShell
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"}
 ```
 
@@ -69,7 +69,7 @@ Esse comando cria um novo nó do inspetor que usa as configurações padrão e e
   
 Para validar se a descoberta automática de pool de destino a ser inserida está configurada corretamente, ao invés de direcionar um pool diretamente, siga as etapas abaixo:
   
-```
+```PowerShell
 New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"}
 ```
 
@@ -77,7 +77,7 @@ New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.l
 
 Se quiser habilitar o teste PSTN, que verifica a conectividade com a rede telefônica pública comutada, você precisará fazer algumas configurações adicionais ao configurar o nó do inspetor. Primeiro, você deve associar seus usuários de teste ao tipo de teste da PSTN executando um comando semelhante a este no Shell de Gerenciamento do Skype for Business Server:
   
-```
+```PowerShell
 $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"  -Name "Contoso Provider Test" -TestType PSTN
 ```
 
@@ -86,7 +86,7 @@ $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:wa
   
 Em seguida, você pode usar o cmdlet **New-CsWatcherNodeConfiguration** para associar o tipo de teste (armazenado na variável $pstnTest) a um pool do servidor do Skype for Business. Por exemplo, o seguinte comando cria uma nova configuração de nó do inspetor para o pool atl-cs-001.litwareinc.com, adicionando os três usuários de teste que foram criados anteriormente e também adicionando o tipo de teste de PSTN:
   
-```
+```PowerShell
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
 ```
 
@@ -146,13 +146,13 @@ Os seguintes componentes não serão testados por padrão:
 
 Depois que um nó do inspetor é configurado, é possível usar o cmdlet  Set-CsWatcherNodeConfiguration para adicionar ou remover transações sintéticas do nó. Por exemplo, para adicionar o teste PersistentChatMessage ao nó do inspetor, use o método Add e um comando semelhante a este:
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage"}
 ```
 
 É possível adicionar vários testes separando os nomes de teste com vírgulas. Por exemplo:
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage","DataConference","UnifiedContactStore"}
 ```
 
@@ -164,13 +164,13 @@ Quando esse erro ocorre, nenhuma alteração será aplicada. O comando deve ser 
   
 Para remover uma transação sintética do nó do inspetor, use o método Remove. Por exemplo, esse comando remove o teste ABWQ do nó do inspetor:
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Remove="ABWQ"}
 ```
 
 É possível usar o método Replace para substituir todos os testes ativados no momento por um ou mais testes novos. Por exemplo, se desejar que apenas um nó do inspetor execute o teste IM, você pode configurar isso usando este comando:
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Replace="IM"}
 ```
 
@@ -180,7 +180,7 @@ Quando você executa o comando anterior, todas as transações sintéticas no n�
 
 Se quiser exibir os testes que foram atribuídos ao nó do inspetor, use um comando semelhante a este:
   
-```
+```PowerShell
 Get-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Object -ExpandProperty Tests
 ```
 
@@ -190,13 +190,13 @@ Registration IM GroupIM P2PAV AvConference Presence PersistentChatMessage dataco
 > [!TIP]
 > Para exibir as transações sintéticas em ordem alfabética, use este comando: 
   
-```
+```PowerShell
 Get-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Object -ExpandProperty Tests | Sort-Object
 ```
 
 Para verificar se um nó do inspetor foi criado, digite o seguinte comando no Shell de Gerenciamento do Skype for Business Server:
   
-```
+```PowerShell
 Get-CsWatcherNodeConfiguration
 ```
 
@@ -204,7 +204,7 @@ Você receberá informações semelhantes a estas:
   
 Identidade: atl-cs-001.litwareinc.com testusers: {sip:watcher1@litwareinc.com, sip:watcher2@litwareinc.com...} ExtendedTests : {TestUsers=IList<System.String>;Name=PSTN Test; Te...} TargetFqdn: atl-cs-001.litwareinc.com PortNumber: 5061To Verifique se o nó do inspetor foi configurado corretamente, digite o seguinte comando no Shell de gerenciamento do Skype for Business Server:
   
-```
+```PowerShell
 Test-CsWatcherNodeConfiguration
 ```
 
@@ -227,20 +227,20 @@ Além de modificar as transações sintéticas que são executadas em um nó do 
   
 Por padrão, os nós do inspetor são projetados para executar periodicamente todas as transações sintéticas habilitadas. Às vezes, no entanto, você pode querer suspender essas transações. Por exemplo, se o nó do inspetor estiver temporariamente desconectado da rede, não há motivo para executar as transações sintéticas. Sem conectividade de rede, essas transações falharão. Para desabilitar o nó do inspetor temporariamente, execute um comando semelhante a este no Shell de Gerenciamento do Skype for Business Server:
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $False
 ```
 
 Esse comando desabilitará a execução das transações sintéticas no nó do inspetor atl-watcher- 001.litwareinc.com. Para retomar a execução das transações sintéticas, defina a propriedade Enabled novamente como True ($True):
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $True
 ```
 
 > [!NOTE]
 > A propriedade Enabled pode ser usada para habilitar e desabilitar os nós do inspetor. Se você desejar excluir permanentemente um nó do inspetor, use o cmdlet **Remove-CsWatcherNodeConfiguration** :
   
-```
+```PowerShell
 Remove-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com"
 ```
 
@@ -248,13 +248,13 @@ Esse comando remove todas as configurações de nó do inspetor do computador es
   
 Por padrão, os nós do inspetor usam as URLs da Web externas de uma organização durante a realização de seus testes. No entanto, também é possível configurá-los para usar as URLs da Web internas da organização. Isso permite que os administradores verifiquem o acesso a URLs para os usuários localizados dentro da rede de perímetro. Para configurar um nó do inspetor para usar as URLs internas em vez das externas, defina a propriedade UseInternalWebUrls como True ($True):
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $True
 ```
 
 A redefinição dessa propriedade para o valor padrão False ($False) fará com que o inspetor mais uma vez use as URLs externas:
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseInternalWebUrls $False
 ```
 
@@ -271,7 +271,7 @@ Se o computador de nó do inspetor estiver localizado fora da sua rede de perím
     
 2. Na janela do console, digite o seguinte comando e pressione ENTER. 
     
-```
+```PowerShell
 bitsadmin /util /SetIEProxy NetworkService NO_PROXY
 ```
 
@@ -297,7 +297,7 @@ Para usar a transação sintética do chat persistente, você deve primeiro cria
   
 Você pode usar a transação sintética de chat persistente para configurar esse canal: 
   
-```
+```PowerShell
 $cred1 = Get-Credential "contoso\testUser1"
 $cred2 = Get-Credential "contoso\testUser2"
 
@@ -336,13 +336,13 @@ Para usar essa transação sintética, as seguintes condições devem ser atendi
     
 Depois que essas condições forem atendidas, você poderá executar o seguinte cmdlet do Windows PowerShell para migrar as listas de contatos dos usuários de teste para o Exchange:
   
-```
+```PowerShell
 Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:testUser1@contoso.com -RegistrarPort 5061 -Authentication TrustedServer -Setup
 ```
 
 Pode levar algum tempo para que as listas de contato do usuário de teste migrem para o Exchange. Para monitorar o progresso da migração, a mesma linha de comando pode ser executada sem o sinalizador de configuração:
   
-```
+```PowerShell
 Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:testUser1@contoso.com -RegistrarPort 5061 -Authentication TrustedServer
 ```
 
@@ -354,7 +354,7 @@ A transação sintética de IM do protocolo XMPP (Extensible Messaging and Prese
   
 Para habilitar a transação sintética XMPP, um parâmetro XmppTestReceiverMailAddress deve ser fornecido com uma conta de usuário em um domínio XMPP roteável. Por exemplo:
   
-```
+```PowerShell
 Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com
 ```
 
@@ -415,7 +415,7 @@ Essas informações são geradas automaticamente sempre que uma transação sint
   
 Para recuperar as informações sobre a solução, especifique o parâmetro OutLoggerVariable, seguido por um nome da variável que você escolher:
   
-```
+```PowerShell
 Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable RegistrationTest
 ```
 
@@ -426,13 +426,13 @@ Quando executar este comando, você verá um resultado semelhante ao seguinte:
   
 FQDN de destino: resultado do atl-cs-001.litwareinc.com: latência da falha: 00:00:00 mensagem de erro: esta máquina não tem nenhum certificado atribuído. Diagnóstico: você pode acessar informações muito mais detalhadas para esta falha do que apenas a mensagem de erro mostrada aqui. Para acessar essas informações em formato HTML, use um comando semelhante a este para salvar as informações armazenadas na variável RegistrationTest em um arquivo HTML:
   
-```
+```PowerShell
 $RegistrationTest.ToHTML() | Out-File C:\Logs\Registration.html
 ```
 
 Como alternativa, é possível usar o método ToXML() para salvar os dados em um arquivo XML:
   
-```
+```PowerShell
 $RegistrationTest.ToXML() | Out-File C:\Logs\Registration.xml
 ```
 

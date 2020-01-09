@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bdfe063b-e808-4f3c-884a-acbbabb9be0a
 description: 'Resumo: Saiba mais sobre a operação obter configurações de usuário, que faz parte do serviço de configurações do usuário. O serviço configurações do usuário faz parte da API do repositório para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.'
-ms.openlocfilehash: 8d1bb1da9e9a186cbc10f0c8ba36275348bb7267
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 42934496b8b65132a67d4012d81d7b8997859726
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274615"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992628"
 ---
 # <a name="get-user-settings"></a>Obter configurações de usuário
  
@@ -49,7 +49,7 @@ Obter configurações do usuário retorna uma lista de configurações para um u
   
   **Corpo da resposta** -abaixo está uma carga de resposta de exemplo em JSON.
   
-```
+```json
 [{
 "userId": 6,
 "key": "ShowDescriptions",

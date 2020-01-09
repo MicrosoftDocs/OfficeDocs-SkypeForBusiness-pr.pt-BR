@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Solucionar problemas de criação de uma sessão remota do PowerShell para se conectar ao Skype for Business Online, incluindo o módulo de importação, o Shell simultâneo, o Live ID e os erros de permissão.
-ms.openlocfilehash: dac4e2007853b489345f8ea137423cbd71363d56
-ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
+ms.openlocfilehash: 863593c3068136f4b2332a55d8e0c293d2acc1d8
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "37615968"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991306"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnosticar problemas de conexão com o Conector do Skype for Business Online
 
@@ -51,7 +51,7 @@ Este tópico fornece informações que ajudarão você a diagnosticar e solucion
     
 
 > [!IMPORTANT]
-> Por padrão, as sessões do PowerShell expiram após 60 minutos. Para se reconectar, você precisa fechar a sessão e iniciar uma nova sessão do PowerShell. Uma nova versão do [Skype for Business Online, do módulo do Windows PowerShell (2046,123-publicada 10/2/2019)](https://www.microsoft.com/download/details.aspx?id=39366), foi iniciada recentemente, que inclui um novo cmdlet chamado **Enable-CsOnlineSessionForReconnection** que atenua os minutos do 60 problema de tempo limite.
+> Por padrão, as sessões do PowerShell expiram após 60 minutos. Para se reconectar, você precisa fechar a sessão e iniciar uma nova sessão do PowerShell. Uma nova versão do [Skype for Business Online, do módulo do Windows PowerShell (2046,123-publicada 10/2/2019)](https://www.microsoft.com/download/details.aspx?id=39366), foi iniciada recentemente, que inclui um novo cmdlet chamado **Enable-CsOnlineSessionForReconnection** que atenua o problema de tempo limite de 60 minutos.
 > A sessão do PowerShell é reconectada e autenticada, permitindo que ela seja reutilizada sem precisar iniciar uma nova instância para se conectar novamente.
 
 
@@ -61,10 +61,10 @@ Este tópico fornece informações que ajudarão você a diagnosticar e solucion
 
 A política de execução do PowerShell ajuda a determinar quais arquivos de configuração podem ser carregados no console do PowerShell e quais scripts um usuário pode executar desse console. No mínimo, o módulo do conector Skype for Business online não pode ser importado, a menos que a política de execução tenha sido definida como RemoteSigned. Se não tiver, você receberá a seguinte mensagem de erro ao tentar importar o módulo:
   
-- **Erro**: <em>Import-Module: file C:\\arquivos de\\programas arquivos\\comuns Microsoft Lync Server\\2013\\LyncOnlineConnector\\LyncOnlineConnectorStartup. psm1 não podem ser carregados porque em execução o script está desabilitado neste sistema. Para obter mais informações, consulte about_Execution_Policies https://go.microsoft.com/fwlink/?LinkID=135170em.</em>
+- **Erro**: <em>Import-Module: file C:\\arquivos de\\programas arquivos\\comuns Microsoft Lync Server\\2013\\LyncOnlineConnector\\LyncOnlineConnectorStartup. psm1 não podem ser carregados porque a execução de scripts está desabilitada neste sistema. Para obter mais informações, consulte about_Execution_Policies https://go.microsoft.com/fwlink/?LinkID=135170em.</em>
 
 - **Solução** Para solucionar esse problema, inicie o PowerShell como administrador e, em seguida, execute o seguinte comando:
-    ```
+    ```PowerShell
     Set-ExecutionPolicy RemoteSigned
     ```
     Para obter detalhes sobre a política de execução, consulte [sobre políticas de execução](https://go.microsoft.com/fwlink/?LinkID=135170).
@@ -93,11 +93,11 @@ Geralmente, há três motivos pelos quais a tentativa de conexão pode falhar co
   - **Erro**: *Get-CsWebTicket: falha ao conectar servidores Live ID. Verifique se o proxy está habilitado ou se o computador tem conexão de rede com servidores Live ID.*
 
 - **Resolução**: geralmente esse erro significa que o assistente de conexão do Microsoft Online Services não está em execução. Você pode verificar o status desse serviço executando o seguinte comando no prompt do PowerShell: 
-    ```
+    ```PowerShell
     Get-Service "msoidsvc"
     ```
     Se o serviço não estiver em execução, inicie o serviço usando este comando:
-    ```
+    ```PowerShell
     Start-Service "msoidsvc"
     ```
 

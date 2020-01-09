@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
 description: 'Resumo: Saiba mais sobre o relatório de dispositivos no Skype for Business Server.'
-ms.openlocfilehash: 2c92faaca47ef78aca403fe436562029f5fde551
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9b9198d8080c8f1e22e59e2cd496bb7fb318eaae
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303867"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992408"
 ---
 # <a name="device-report-in-skype-for-business-server"></a>Relatório de dispositivo no Skype for Business Server
  
@@ -109,7 +109,7 @@ Tratando-se de nomes de dispositivos, o Relatório de Dispositivos é extremamen
   
 Muitas vezes você precisará desse nível de detalhe; mas, em outros momentos, você só estará interessado na quantidade de chamadas que usam um microfone Aastra, independente do número do modelo. Uma forma de obter informações deste tipo é exportar os dados do Relatório de Dispositivos para o Microsoft Excel e salvar esses dados em um arquivo de valores separados por vírgulas (por exemplo, C:\Data\Devices_Report.csv). É possível usar um conjunto de comandos parecidos com esses para importar o arquivo .CSV no Windows PowerShell e relatar o número total de chamadas feitas usando um dispositivo de captura Aastra:
   
-```
+```PowerShell
 $devices = Import-Csv "C:\Data\Device_Report.csv
 $sum = $devices | Where-Object {$_."Capture device" -match "Aastra"}
 $sum | foreach-object {[Int]$x = [Int]$x + [Int]$_."call volume"}

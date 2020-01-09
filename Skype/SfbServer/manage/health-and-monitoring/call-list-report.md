@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
 description: 'Resumo: Saiba mais sobre o aplicativo de grupo de resposta no Skype for Business Server.'
-ms.openlocfilehash: 216f07a81beaa962bf091e815c797611f9e236ac
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2d372f7b57909ee2b926dbf0a8333df5904df0c3
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289333"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992056"
 ---
 # <a name="response-group-call-list-report-in-skype-for-business-server"></a>Relatório de lista de chamadas em grupo de resposta no Skype for Business Server
 
@@ -67,7 +67,7 @@ uma pergunta como esta: "Qual é o fluxo de trabalho individual que recebeu a ma
 
 Por exemplo, se você salvou os dados em um arquivo chamado C:\Data\Response_Group_Call_List_Report.csv, o seguinte comando pode ser usado para retornar o número total de chamadas recebidas para cada fluxo de trabalho listado no relatório:
 
-```
+```PowerShell
 $calls = Import-Csv -Path "C:\ Data\Response_Group_Call_List_Report.csv"
 $calls | Group-Object Workflow | Select-Object Count, Name | Sort-Object Count -Descending
 ```

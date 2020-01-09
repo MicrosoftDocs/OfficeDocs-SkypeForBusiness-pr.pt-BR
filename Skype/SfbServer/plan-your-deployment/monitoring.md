@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
 description: 'Resumo: revise este tópico ao planejar o serviço de monitoramento no Skype for Business Server.'
-ms.openlocfilehash: e03fc9714cbb958a9c34bb14db0129a94e49692b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ebe94d3088e319a0c210c9d169f35f1c783ad5f5
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297278"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991776"
 ---
 # <a name="plan-for-monitoring-in-skype-for-business-server"></a>Planejar o monitoramento no Skype for Business Server
 
@@ -80,7 +80,7 @@ Para muitas organizações, a capacidade do banco de dados não será o fator de
 
 Você também deve levar em conta que o Skype for Business Server oferece suporte ao uso de bancos de dados espelhados. O "espelhamento do banco de dados" possibilita manter simultaneamente duas cópias de um banco de dados, com cada banco de dados residindo em um servidor diferente. Qualquer dado de tempo é gravado no banco de dados principal, e o mesmo dado também é gravado no banco de dados espelho. Se o banco de dados primário não funcionar ou se tornar indisponível, você pode "fazer failover" para o banco de dados espelho usando um comando do PowerShell do Skype for Business Server simples. Por exemplo:
 
-```
+```PowerShell
 Invoke-CsDatabaseFailover -PoolFqdn atl-cs-001.litwareinc.com -DatabaseType "Monitoring" -NewPrincipal "Mirror"
 ```
 

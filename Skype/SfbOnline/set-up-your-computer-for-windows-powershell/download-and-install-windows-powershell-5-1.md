@@ -19,12 +19,12 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Baixar, instalar e usar o Windows PowerShell 5.1 para criar uma sessão remota do PowerShell que se conecta ao Skype for Business online.
-ms.openlocfilehash: 5afca0ef1fd5d7437c3974de1424a664c99ab1a1
-ms.sourcegitcommit: 9c54fd0a51ece8624155dc543d5df922834aa51e
-ms.translationtype: HT
+ms.openlocfilehash: 190e1cdcbdd15018e576a4da8a50410cfb062a71
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "35701547"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992951"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>Baixar e instalar o Windows PowerShell 5.1
 
@@ -36,7 +36,7 @@ Para determinar a versão do Microsoft PowerShell em uso, faça o seguinte em se
     
 2. No console do PowerShell, digite o seguinte comando e pressione ENTER:
     
-   ```
+   ```PowerShell
    Get-Host | Select-Object Version
    ```
 
@@ -65,7 +65,7 @@ Se você estiver executando o Windows 8, conclua este procedimento:
 3. Se a caixa de diálogo **Controle da Conta de Usuário** for exibida, clique em **Sim** para verificar se você deseja executar o Windows PowerShell sob as credenciais de administrador.
     
 Depois que o PowerShell estiver em execução, você deverá alterar a política de execução para permitir a execução de scripts remotos. No console do PowerShell, digite o seguinte comando e pressione ENTER:
-```
+```PowerShell
 Set-ExecutionPolicy RemoteSigned -Force
 ```
    
@@ -75,7 +75,7 @@ Set-ExecutionPolicy RemoteSigned -Force
  
 Para verificar se a política de execução foi configurada corretamente, digite o seguinte no prompt do PowerShell e pressione ENTER:
   
-```
+```PowerShell
 Get-ExecutionPolicy
 ```
 
@@ -103,7 +103,7 @@ Após a reinicialização do computador, verifique se é possível iniciar o Win
     
 Quando o console do PowerShell for exibido, verifique se o serviço WinRM está em execução e se foi configurado corretamente. Para verificar se o serviço está em execução, digite o comando a seguir no prompt do PowerShell e pressione ENTER:
   
-```
+```PowerShell
 Get-Service winrm
 ```
 
@@ -117,13 +117,13 @@ Running  winrm              Windows Remote Management (WS-Manag...
 
 Se o Status do serviço não for "Em execução", inicie o serviço WinRM digitando o comando a seguir e pressione ENTER:
   
-```
+```PowerShell
 Start-Service winrm
 ```
 
 Depois que o serviço iniciar, execute o comando a seguir para garantir que o WinRM esteja usando a autenticação Básica:
   
-```
+```PowerShell
 winrm set winrm/config/client/auth '@{Basic="True"}'
 ```
 

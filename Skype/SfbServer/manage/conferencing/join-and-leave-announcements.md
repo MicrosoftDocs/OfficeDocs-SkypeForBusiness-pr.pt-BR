@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
 description: 'Resumo: saiba como gerenciar o ingresso em conferência e deixar comunicados no Skype for Business Server.'
-ms.openlocfilehash: 3d9a14e36dfe6b8df51e5ee91dd329ce34452cda
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5c2bc7175f99ee50e94bee26ef0e6d54a6a8db5a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283792"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991826"
 ---
 # <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>Gerenciar o ingresso em conferência e deixar comunicados no Skype for Business Server
  
@@ -40,7 +40,7 @@ Quando os usuários de discagem entram ou deixam uma conferência, o aplicativo 
     
 3. Execute o seguinte no prompt de comando:
     
-   ```
+   ```PowerShell
    Get-CsDialinConferencingConfiguration
    ```
 
@@ -48,7 +48,7 @@ Esse cmdlet recupera informações sobre a necessidade de os participantes grava
     
 4. Execute o seguinte no prompt de comando:
     
-   ```
+   ```PowerShell
    Set-CsDialinConferencingConfiguration -Identity <identity of dial-in conferencing settings to be modified>
    [-EnableNameRecording <$true | $false>]
    [-EntryExitAnnouncementsEnabledByDefault <$true | $false>]
@@ -57,7 +57,7 @@ Esse cmdlet recupera informações sobre a necessidade de os participantes grava
 
 Neste exemplo, as configurações estão definidas no escopo do site para Redmond. Os anúncios estão ativados, mas os participantes não recebem uma solicitação para inserir seus nomes quando ingressam em uma conferência. Um tom é reproduzido quando os participantes entram e saem de uma conferência.
   
-```
+```PowerShell
 Set-CsDialinConferencingConfiguration -Identity site:Redmond
 -EnableNameRecording $false
 -EntryExitAnnouncementsEnabledByDefault $true

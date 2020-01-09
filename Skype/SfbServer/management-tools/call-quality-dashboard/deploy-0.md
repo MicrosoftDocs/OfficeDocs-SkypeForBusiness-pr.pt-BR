@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Resumo: Saiba mais sobre o processo de implantação do painel de qualidade de chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.'
-ms.openlocfilehash: 16877bff7f96bd4d2f6b308b33803c741c2672c2
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: aa7f5d81fd9778e148dcf64f84c757676bd1df2d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221563"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992688"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Implantar painel de qualidade de chamada no Skype for Business Server
  
@@ -83,7 +83,7 @@ A implantação do painel de qualidade da chamada envolve a configuração da in
   
    - **Diretório de arquivos da partição:** Caminho para o local onde as partições para o banco de dados de arquivo QoE devem ser colocadas. Isso deve estar em uma unidade (HDD3 na configuração de hardware recomendada) separada da unidade do sistema operacional e da unidade de arquivos de log do banco de dados SQL. Observe que, como os nomes de arquivo são corrigidos na instalação, para evitar possíveis conflitos, é recomendável que um diretório em branco sem arquivos seja usado.
     
-   - **Nome &amp; de usuário do trabalho do agente SQL: senha:** Nome e senha da conta de serviço de domínio (mascarado) que serão usados para executar a etapa "QoE Archive Data" do trabalho do SQL Server Agent (que executará o procedimento armazenado para buscar dados do BD de métricas de QoE em banco de dados de arquivo, portanto, essa conta deve ter acesso de leitura ao BD de métricas de QoE,  conforme indicado na seção contas. Essa conta também precisa ter um login na instância de arquivo QoE do SQL Server.
+   - **Nome &amp; de usuário do trabalho do agente SQL: senha:** Nome e senha da conta de serviço de domínio (mascarado) que serão usados para executar a etapa "QoE Archive Data" do trabalho do SQL Server Agent (que executará o procedimento armazenado para buscar dados do BD de métricas de QoE em banco de dados de arquivo, portanto, essa conta deve ter acesso de leitura ao banco de métricas de QoE, conforme indicado na seção contas. Essa conta também precisa ter um login na instância de arquivo QoE do SQL Server.
     
      > [!NOTE]
      > A conta em que a instância do SQL Server está sendo executada, como NT SERVICE\MSSQLSERVER, deve ter acesso/permissão aos diretórios acima para que a instalação seja bem-sucedida. Para obter detalhes, consulte [configurar permissões do sistema de arquivos para acesso ao mecanismo de banco de dados](https://msdn.microsoft.com/en-us/library/jj219062%28v=sql.110%29.aspx)
@@ -140,7 +140,7 @@ Mensagens de log detalhadas serão mostradas se o modo de depuração estiver ha
 A página principal do portal pode ser `http://<machinename>/CQD`acessada pela. 
 ## <a name="managing-user-access-for-the-portal"></a>Gerenciando o acesso do usuário ao portal
 
-Para gerenciar a autorização do usuário para o portal, recomendamos usar a autorização de URL, que foi introduzida no IIS 7,0. Para obter mais informações sobre a segurança do IIS, consulte Entendendo a [autorização da URL do iis 7,0](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization).
+Para gerenciar a autorização do usuário para o portal, recomendamos usar a autorização de URL, que foi introduzida no IIS 7,0. Para obter mais informações sobre a segurança do IIS, consulte [entendendo a autorização da URL do iis 7,0](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization).
   
 Qualquer site da Web ou aplicativo Web herda a autorização de URL padrão configurada para todo o IIS, que normalmente é "permitir todos os usuários". Se o acesso ao portal precisar ser mais restritivo, os administradores poderão conceder acesso somente a um grupo específico de usuários editando as "regras de autorização".
   
@@ -159,7 +159,7 @@ Em seguida, os administradores devem adicionar novas regras de permissão e dar 
   
 Os detalhes de configuração são armazenados no Web. config localizado no diretório físico do Portal.
   
-```
+```XML
 <?xml version="1.0" encoding="UTF-8"?> <configuration> <system.webServer> <security> <authorization> <remove users="*" roles="" verbs="" /> <add accessType="Allow" roles="CQDPortalUsers" /> </authorization> </security> </system.webServer> </configuration> 
 ```
 
@@ -282,7 +282,7 @@ Exemplos
     
   **Exemplo de sintaxe SQL**
   
-```
+```SQL
 INSERT INTO
 [dbo].[CqdBuildingType]
 ([BuildingTypeId],
@@ -313,7 +313,7 @@ Exemplos
     
   **Exemplo de sintaxe SQL**
   
-```
+```SQL
 INSERT INTO
 [dbo].[CqdBuildingOwnershipType]
 ([OwnershipTypeId],
@@ -343,7 +343,7 @@ Exemplos
     
   **Exemplo de sintaxe SQL**
   
-```
+```SQL
 INSERT INTO [dbo].[CqdNetworkName] 
 ( [NetworkName]
 ,[NetworkType]
@@ -365,7 +365,7 @@ Antes de importar um novo edifício, você já deve ter um BuildingKey predefini
   
  **Exemplo de sintaxe SQL**
   
-```
+```SQL
 INSERT INTO [dbo].[CqdBuilding] 
 ( [BuildingKey]
 ,[BuildingName]
@@ -390,7 +390,7 @@ Importar sub-redes e mapeá-las para os edifícios importados na última etapa. 
   
  **Exemplo de sintaxe SQL**
   
-```
+```SQL
 INSERT INTO [dbo].[CqdNetwork] 
 ([Network]
 ,[NetworkNameID]
@@ -410,7 +410,7 @@ Preencher as informações de BSSID proporciona mais correlação de fluxo WiFi 
   
  **Exemplo de sintaxe SQL**
   
-```
+```SQL
 INSERT INTO [dbo].[CqdBssid]
 ([Ap],
 [Bss],

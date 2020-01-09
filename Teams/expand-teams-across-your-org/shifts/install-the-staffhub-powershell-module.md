@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef80290e6b8a1ce4de834a000148d60b2c5ef89d
-ms.sourcegitcommit: 7d5dd650480ca2e55c24ce30408a5058067f6932
+ms.openlocfilehash: 122a704df184619591f121f088162a045733cf4b
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37775070"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992126"
 ---
 # <a name="install-the-microsoft-staffhub-powershell-module"></a>Instalar o módulo PowerShell do Microsoft PowerHub
 
@@ -37,40 +37,41 @@ Use as etapas neste artigo para instalar e se conectar ao módulo do PowerShell 
     > Para obter a versão mais recente do Windows PowerShell, consulte [instalando o Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell).
 3. Execute o seguinte:
 
-    ```
+    ```PowerShell
     $ENV:PSModulePath
     ```
 4. Verifique o caminho da pasta na saída e certifique-se de que todas as pastas no caminho existem em seu computador antes de ir para a próxima etapa. Se estiverem faltando pastas, crie-as.
 5. Execute o seguinte para permitir a instalação do módulo StaffHub PowerShell:
 
-    ```
+    ```PowerShell
     Set-ExecutionPolicy RemoteSigned
     ```
 6. Execute o seguinte, em &lt;que&gt; Path é o caminho na saída da etapa 3. Por exemplo, o caminho pode se parecer como C:\Users\User1\Documents\WindowsPowerShell\Modules.
 
     Certifique-se de executar cada comando separadamente.
 
-    ```
+    ```PowerShell
     Install-Module -Name PackageManagement -Force  -AllowClobber
     Install-Module -Name PowerShellGet -Force  -AllowClobber
     ```
 7. Saia do Windows PowerShell.
 8. Abra o Windows PowerShell 3,0 ou posterior como um administrador global e, em seguida, execute o seguinte:
 
-    ```
+    ```PowerShell
     Install-Module -Name MicrosoftStaffHub
-
-## Connect to the Microsoft StaffHub PowerShell module
-
-1. Run the following:
-
     ```
+
+## <a name="connect-to-the-microsoft-staffhub-powershell-module"></a>Conectar-se ao módulo do Microsoft StaffHub PowerShell
+
+1. Execute o seguinte:
+
+    ```PowerShell
     Connect-StaffHub
     ```
 
-2. When you're prompted, log in as a global admin.
+2. Quando for solicitado, faça logon como um administrador global.
 
-## Related topics
+## <a name="related-topics"></a>Tópicos relacionados
 
-- [Microsoft StaffHub PowerShell reference](https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps)
-- [Move your Microsoft StaffHub teams to Shifts in Teams](move-staffhub-teams-to-shifts-in-teams.md)
+- [Referência do Microsoft StaffHub PowerShell](https://docs.microsoft.com/powershell/module/staffhub/?view=staffhub-ps)
+- [Mova as suas equipes do Microsoft StaffHub para o Shifts no Teams](move-staffhub-teams-to-shifts-in-teams.md)

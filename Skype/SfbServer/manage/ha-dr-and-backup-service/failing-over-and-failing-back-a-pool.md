@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: .
-ms.openlocfilehash: 2848261164ac568d3db4dd05160b7e50ec3981d3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f2a1970df43aa2fb7becb03319ee6ff5934afe0a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303880"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991796"
 ---
 # <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>Com failover e failback de um pool no Skype for Business Server 
 
@@ -102,8 +102,8 @@ Além disso, se um pool de front-ends falhar, mas o pool de bordas nesse site ai
 6.  Instale o repositório de gerenciamento central no servidor back-end do\_pool de backup.
     
       - Primeiro, execute o seguinte comando:
-        
-        ``` 
+        ```PowerShell
+         
         Install-CsDatabase -CentralManagementDatabase -Clean -SqlServerFqdn <Backup_Pool Back End Server FQDN> -SqlInstanceName rtc  
         ```
     
@@ -158,11 +158,11 @@ Nenhuma outra etapa é necessária. Se você tiver reprovado o servidor central 
 
 Se o pool de bordas em que você tiver configurado o Skype for Business Server configurado ficar inativo, você deverá alterar a Federação para usar um pool de bordas diferente para o trabalho de Federação.
 
-1.  Em um servidor front-end, abra o construtor de topologias. Expanda Pools de **bordas**e clique com o botão direito do mouse no servidor de borda ou no pool do servidor de borda atualmente configurado para Federação. Selecione **Editar propriedades**.
+1.  Em um servidor front-end, abra o construtor de topologias. Expanda **pools de bordas**e clique com o botão direito do mouse no servidor de borda ou no pool do servidor de borda atualmente configurado para Federação. Selecione **Editar propriedades**.
 
 2.  Em **Editar propriedades** em **geral**, desmarque **habilitar Federação para este pool de bordas (porta 5061)**. Clique em **OK**.
 
-3.  Expanda Pools de **bordas**e clique com o botão direito do mouse no servidor de borda ou no pool do servidor de borda que você agora deseja usar para a Federação. Selecione **Editar propriedades**.
+3.  Expanda **pools de bordas**e clique com o botão direito do mouse no servidor de borda ou no pool do servidor de borda que você agora deseja usar para a Federação. Selecione **Editar propriedades**.
 
 4.  Em **Editar propriedades** em **geral**, selecione **habilitar Federação para este pool de bordas (porta 5061)**. Clique em **OK**.
 
@@ -218,11 +218,11 @@ Depois que um pool de borda com falha que foi usado para hospedar a Federação 
 
 2.  Se você quiser fazer failback da rota de Federação do Skype for Business Server para usar o servidor de borda restaurado, faça o seguinte:
     
-      - Em um servidor front-end, abra o construtor de topologias. Expanda Pools de **bordas**, clique com o botão direito do mouse no servidor de borda ou no pool do servidor de borda que está atualmente configurado para Federação. Selecione **Editar propriedades**.
+      - Em um servidor front-end, abra o construtor de topologias. Expanda **pools de bordas**, clique com o botão direito do mouse no servidor de borda ou no pool do servidor de borda que está atualmente configurado para Federação. Selecione **Editar propriedades**.
     
       - Em **Editar propriedades** em **geral**, desmarque **habilitar Federação para este pool de bordas (porta 5061)**. Clique em **OK**.
     
-      - Expanda Pools de **bordas**e clique com o botão direito do mouse no servidor de borda original ou no pool do servidor de borda que você deseja usar novamente para a Federação. Selecione **Editar propriedades**.
+      - Expanda **pools de bordas**e clique com o botão direito do mouse no servidor de borda original ou no pool do servidor de borda que você deseja usar novamente para a Federação. Selecione **Editar propriedades**.
     
       - Em **Editar propriedades** em **geral**, selecione **habilitar Federação para este pool de bordas (porta 5061)**. Clique em **OK**.
     

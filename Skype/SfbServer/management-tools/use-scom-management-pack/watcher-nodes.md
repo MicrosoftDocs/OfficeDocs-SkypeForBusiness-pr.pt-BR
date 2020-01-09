@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 'Resumo: instalar e configurar nós do inspetor para transações sintéticas do Skype for Business Server.'
-ms.openlocfilehash: f95803f61d527196c97c7a6a17b8e0bfcfdfbc7a
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 7711c7c2009149fc6dd49ed34b4c55312cb7417a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221515"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992438"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>Instalar e configurar nós do inspetor
  
@@ -110,9 +110,9 @@ Para instalar os arquivos principais do Skype for Business Server 2015 e o banco
   
 1. No computador de nó do inspetor, clique em Iniciar, em Todos os Programas, em Acessórios, clique com o botão direito do mouse em Prompt de Comando e clique em Executar como administrador.
     
-2. Na janela de console, digite o seguinte comando e pressione ENTER. Certifique-se de digitar o caminho apropriado para os arquivos de instalação do Skype for Business Server: D:\Setup.exe/BootstrapLocalMgmtTo Verifique se os principais componentes do Skype for Business Server foram instalados com êxito, clique em **Iniciar**, em **todos os programas** clique em **Skype for Business server 2015**e, em seguida, clique em **Shell de gerenciamento do Skype for Business Server**. No Shell de gerenciamento do Skype for Business Server, digite o seguinte comando do Windows PowerShell e pressione ENTER:
+2. Na janela de console, digite o seguinte comando e pressione ENTER. Certifique-se de digitar o caminho apropriado para os arquivos de instalação do Skype for Business Server: D:\Setup.exe/BootstrapLocalMgmtTo Verifique se os principais componentes do Skype for Business Server foram instalados com êxito, clique em **Iniciar**, clique em **todos os programas**, clique em **Skype for Business Server 2015**e, em seguida, clique em **Shell de gerenciamento do Skype for Business Server**. No Shell de gerenciamento do Skype for Business Server, digite o seguinte comando do Windows PowerShell e pressione ENTER:
   
-```
+```PowerShell
 Get-CsWatcherNodeConfiguration
 ```
 
@@ -169,26 +169,26 @@ Para configurar autenticação de Servidor Confiável, você deve primeiro criar
   
 Para criar um pool de aplicativos confiável, abra o Shell de gerenciamento do Skype for Business Server e execute um comando semelhante a este:
   
-```
+```PowerShell
 New-CsTrustedApplicationPool -Identity atl-watcher-001.litwareinc.com -Registrar atl-cs-001.litwareinc.com -ThrottleAsServer $True -TreatAsAuthenticated $True -OutboundOnly $False -RequiresReplication $True -ComputerFqdn atl-watcher-001.litwareinc.com -Site Redmond
 ```
 
 > [!NOTE]
 > Para obter detalhes sobre os parâmetros no comando anterior, digite o seguinte no prompt do Shell de gerenciamento do Skype for Business Server: 
   
-```
+```PowerShell
 Get-Help New-CsTrustedApplicationPool -Full | more
 ```
 
 Após criar o pool de aplicativo confiável, configure o computador de nó do inspetor para executar transações sintéticas como aplicativo confiável. Isso é feito utilizando o cmdlet **New-CsTrustedApplication** e um comando similar a este:
   
-```
+```PowerShell
 New-CsTrustedApplication -ApplicationId STWatcherNode -TrustedApplicationPoolFqdn atl-watcher-001.litwareinc.com -Port 5061
 ```
 
 Quando o comando estiver concluído e o aplicativo confiável for criado, você precisará executar o cmdlet **Enable-CsTopology** para certificar-se de que as alterações tenham efeito:
   
-```
+```PowerShell
 Enable-CsTopology
 ```
 
@@ -196,7 +196,7 @@ Após executar o Enable-CsTopology, reinicie o computador.
   
 Para verificar se o novo aplicativo confiável foi criado, digite o seguinte no prompt do Shell de gerenciamento do Skype for Business Server:
   
-```
+```PowerShell
 Get-CsTrustedApplication -Identity "atl-watcher-001.litwareinc.com/urn:application:STWatcherNode"
 ```
 
@@ -231,7 +231,7 @@ Para instalar e configurar um nó de inspetor:
     
 2. No Shell de Gerenciamento, digite o seguinte comando e pressione ENTER (tenha certeza e especifique o caminho real até sua cópia de Watchernode.msi):
     
-```
+```PowerShell
 C:\Tools\Watchernode.msi Authentication=TrustedServer
 ```
 
@@ -241,7 +241,7 @@ C:\Tools\Watchernode.msi Authentication=TrustedServer
 > [!IMPORTANT]
 > No comando anterior, o par de valor/nome Authentication=TrustedServer diferencia maiúscula de minúscula. Ele deve ser digitado exatamente como mostrado. Por exemplo, este comando falhará porque não utiliza a formatação correta: 
   
-```
+```PowerShell
 C:\Tools\Watchernode.msi authentication=trustedserver
 ```
 
@@ -282,7 +282,7 @@ Sua próxima etapa será executar o arquivo Watchernode.msi:
     
 2. No Shell de Gerenciamento do Skype for Business Server, digite o seguinte comando e pressione ENTER (tenha certeza e especifique o caminho real até sua cópia de Watchernode.msi):
     
-   ```
+   ```PowerShell
    c:\Tools\Watchernode.msi Authentication=Negotiate
    ```
 

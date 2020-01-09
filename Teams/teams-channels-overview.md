@@ -20,18 +20,17 @@ ms.collection:
 ms.custom: okr_smb
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ea246588e6884e7c7dd2755d7d24aa486d193df
-ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
+ms.openlocfilehash: c125b8d62e78f9fc67689c5cd785f9cd13d8c619
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793387"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40990996"
 ---
+# <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Visão geral de equipes e canais no Microsoft Teams
+
 > [!NOTE]
 > Analise as informações a seguir para entender como funciona o bate-papo, equipes, canais e aplicativos no Teams. Em seguida, acesse [Bate-papo, equipes, canais e aplicativos no Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) para ver uma lista de decisões importantes para a sua configuração do Teams.
-
-<a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Visão geral de equipes e canais no Microsoft Teams
-=================================================
 
 Vamos começar pensando em como o Microsoft Teams permite que equipes individuais se auto-organizem e colaborem em vários cenários de negócios:
 
@@ -51,7 +50,7 @@ Para obter ajuda sobre como usar equipes e canais, consulte [equipes e canais](h
 
 Veja este pequeno vídeo para saber mais sobre as práticas recomendadas para criar equipes e canais.
 
-   > [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
+   > [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
 
 <a name="membership-roles-and-settings"></a>Associação, funções e configurações
 ------------------------------

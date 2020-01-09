@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: 'Se você precisar remover o servidor de arquivos que está atuando como o repositório de arquivos para a implantação do Skype for Business Server, ou se precisar fazer outras alterações para tornar o repositório de arquivos atual indisponível, primeiro você precisará criar um novo compartilhamento. Em seguida deverá executar as seguintes etapas:'
-ms.openlocfilehash: c37a811bc04ab8ef6f69ef823cf30e28209e9821
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6ae09d2415b24a4337edbee3c66e8b9a8bd2009a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275140"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991506"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Mover dados do repositório de arquivos para um novo repositório de arquivos no Skype for Business Server
 
@@ -68,7 +68,7 @@ Se você precisar remover o servidor de arquivos que está atuando como o reposi
 
 11. Na linha de comando, digite o seguinte:
 
-     ```
+     ```console
      Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
 
      ```

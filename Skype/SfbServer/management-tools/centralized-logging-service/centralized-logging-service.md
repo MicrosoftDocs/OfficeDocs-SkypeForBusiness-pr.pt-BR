@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: 'Resumo: Saiba mais sobre os componentes de serviço e as configurações de configuração para o serviço de log centralizado no Skype for Business Server 2015.'
-ms.openlocfilehash: a02d2a283716dd01572e0cbd8cccf075b29fd9b8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1dfdc0de999e79182e5beb57c6d51ecc75359672
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274510"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992598"
 ---
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>Serviço centralizado de registro em log no Skype for Business 2015
  
@@ -36,7 +36,7 @@ O serviço de registro centralizado pode:
   - Usar um provedor local ou criar um novo provedor. Aprovider define o que a sessão de log coleta, o nível de detalhes, quais componentes rastrear e quais sinalizadores são aplicados.
     
     > [!TIP]
-    >  Se você estiver familiarizado com o OCSLogger, o termproviders refere-se à coleção de **componentes** (por exemplo, S4, SIPStack), um **tipo de log** (por exemplo, WPP, EventLog ou logfile do IIS), um **nível de rastreamento** (por exemplo, All, Verbose, debug) e **sinalizadores** (por exemplo, TF_COMPONENT, TF_DIAG). Esses itens são definidos no provedor (uma variável do Windows PowerShell) e passados para o comando de serviço de log centralizado.
+    >  Se você estiver familiarizado com o OCSLogger, o termproviders refere-se à coleção de **componentes** (por exemplo, S4, SIPStack), um **tipo de log** (por exemplo, WPP, EventLog ou logfile do IIS), um **nível de rastreamento** (por exemplo, All, Verbose, debug) e **flags** (por exemplo, TF_COMPONENT, TF_DIAG). Esses itens são definidos no provedor (uma variável do Windows PowerShell) e passados para o comando de serviço de log centralizado.
   
   - Configurar logs para computadores e pools específicos.
     
@@ -95,7 +95,7 @@ O serviço de log centralizado é configurado para definir o que o serviço de l
     
 2. Digite o seguinte em uma linha de comando do prompt:
     
-   ```
+   ```PowerShell
    Get-CsClsConfiguration
    ```
 

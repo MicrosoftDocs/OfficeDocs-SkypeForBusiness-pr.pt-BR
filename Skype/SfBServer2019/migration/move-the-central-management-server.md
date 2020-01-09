@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Depois de migrar para o Skype for Business Server 2019, você precisa mover o servidor de gerenciamento central para o servidor ou pool de front-end do Skype for Business Server 2019 para poder remover o servidor herdado.
-ms.openlocfilehash: 0e13dab272a60967c0ccc676a47954b75170eeb3
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: b6a2dd08949b5b15370f27e1da936009048982f6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434938"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40990926"
 ---
 # <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>Mover o servidor de gerenciamento central herdado para o Skype for Business Server 2019
 
@@ -24,19 +24,19 @@ O servidor de gerenciamento central é um único sistema de réplica mestra/múl
   
 Depois de mover com êxito o servidor de gerenciamento central, você deve remover os bancos de dados do servidor de gerenciamento central do servidor front-end original. Para obter informações sobre como remover os bancos de dados do servidor de gerenciamento central, consulte [remover o banco de dados do SQL Server de um pool de front-ends](remove-the-sql-server-database-for-a-front-end-pool.md).
   
-Você usa o cmdlet **move-CsManagementServer** do Windows PowerShell no Shell de gerenciamento do Skype for Business Server para mover o banco de dados do banco de dados do SQL Server de instalação herdado para o banco de dados do SQL Server do Skype for Business Server 2019 e, em seguida, atualizar o SCP para apontar para o local do servidor de gerenciamento central do Skype for Business Server 2019. 
+Você usa o cmdlet **move-CsManagementServer** do Windows PowerShell no Shell de gerenciamento do Skype for Business Server para mover o banco de dados do banco de dados do SQL Server de instalação herdado para o banco de dados do SQL Server do Skype for business Server 2019 e, em seguida, atualizar o scp para apontar para o local do servidor do Skype for business Server 2019 central Management Server. 
   
 Use os procedimentos desta seção para preparar os servidores front-end do Skype for Business Server 2019 antes de mover o servidor de gerenciamento central.
   
 ## <a name="to-prepare-an-enterprise-edition-front-end-pool"></a>Para preparar um pool de front-end do Enterprise Edition
 
-1. No pool de front-ends do Skype for Business Server 2019 Enterprise Edition onde você deseja realocar o servidor de gerenciamento central, faça logon no computador em que o Shell de gerenciamento do Skype for Business Server está instalado como membro da **RTCUniversalServerAdmins **grupo. Você também deve ter direitos de usuário e permissões do banco de dados do SQL Server sysadmin no banco de dados onde deseja instalar o repositório de gerenciamento central. 
+1. No pool de front-ends do Skype for Business Server 2019 Enterprise Edition onde você deseja realocar o servidor de gerenciamento central, faça logon no computador onde o Shell de gerenciamento do Skype for Business Server está instalado como membro do grupo **RTCUniversalServerAdmins** . Você também deve ter direitos de usuário e permissões do banco de dados do SQL Server sysadmin no banco de dados onde deseja instalar o repositório de gerenciamento central. 
     
 2. Abra o Shell de gerenciamento do Skype for Business Server.
     
 3. Para criar o novo repositório de gerenciamento central no banco de dados do Skype for Business Server 2019 do SQL Server, no Shell de gerenciamento do Skype for Business Server, digite:
     
-   ```
+   ```PowerShell
    Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your SQL Server> -SQLInstanceName <name of instance>
    ```
 
@@ -44,7 +44,7 @@ Use os procedimentos desta seção para preparar os servidores front-end do Skyp
     
 ## <a name="to-prepare-a-standard-edition-front-end-server"></a>Para preparar um servidor front-end padrão da edição
 
-1. No servidor front-end do Skype for Business Server 2019 Standard Edition onde você deseja realocar o servidor de gerenciamento central, faça logon no computador em que o Shell de gerenciamento do Skype for Business Server está instalado como membro da **RTCUniversalServerAdmins **grupo. 
+1. No servidor front-end do Skype for Business Server 2019 Standard Edition onde você deseja realocar o servidor de gerenciamento central, faça logon no computador em que o Shell de gerenciamento do Skype for Business Server está instalado como membro do grupo **RTCUniversalServerAdmins** . 
     
 2. Abra o assistente de implantação do Skype for Business Server.
     
@@ -57,7 +57,7 @@ Use os procedimentos desta seção para preparar os servidores front-end do Skyp
   
 5. Para criar o novo repositório de gerenciamento central no servidor front-end do Skype for Business Server 2019 Standard Edition, no Shell de gerenciamento do Skype for Business Server, digite: 
     
-   ```
+   ```PowerShell
    Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your Standard Edition Server> -SQLInstanceName <name of instance - RTC by default>
    ```
 
@@ -71,7 +71,7 @@ Use os procedimentos desta seção para preparar os servidores front-end do Skyp
     
 3. No Shell de gerenciamento do Skype for Business Server, digite: 
     
-   ```
+   ```PowerShell
    Enable-CsTopology
    ```
 
@@ -80,7 +80,7 @@ Use os procedimentos desta seção para preparar os servidores front-end do Skyp
   
 4. No servidor front-end do Skype for Business Server 2019 ou no pool de front-end do Shell de gerenciamento do Skype for Business Server, digite: 
     
-   ```
+   ```PowerShell
    Move-CsManagementServer
    ```
 
@@ -90,17 +90,17 @@ Use os procedimentos desta seção para preparar os servidores front-end do Skyp
     
 7. No servidor do Skype for Business Server 2019, abra o assistente de implantação do Skype for Business Server. 
     
-8. No assistente de implantação do Skype for Business Server, clique em **instalar ou atualizar o sistema do Skype for Business Server**, clique em **etapa 2: configurar ou remover componentes do Skype for Business Server**, clique em **Avançar**, revise o resumo e clique em **concluir. **. 
+8. No assistente de implantação do Skype for Business Server, clique em **instalar ou atualizar o sistema do Skype for Business Server**, clique em **etapa 2: configurar ou remover componentes do Skype for Business Server**, clique em **Avançar**, revise o resumo e clique em **concluir**. 
     
 9. No servidor de instalação herdado, abra o assistente de implantação. 
     
-10. No assistente de implantação do Skype for Business Server, clique em **instalar ou atualizar o sistema do Skype for Business Server**, clique em **etapa 2: configurar ou remover componentes do Skype for Business Server**, clique em **Avançar**, revise o resumo e clique em **concluir. **. 
+10. No assistente de implantação do Skype for Business Server, clique em **instalar ou atualizar o sistema do Skype for Business Server**, clique em **etapa 2: configurar ou remover componentes do Skype for Business Server**, clique em **Avançar**, revise o resumo e clique em **concluir**. 
     
 11. Reinicie o servidor do Skype for Business Server 2019. Isso é necessário devido a uma alteração de associação do grupo para acessar o banco de dados do servidor de gerenciamento central.
     
 12. Para confirmar se a replicação com o novo repositório de gerenciamento central está ocorrendo, no Shell de gerenciamento do Skype for Business Server, digite: 
     
-    ```
+    ```PowerShell
     Get-CsManagementStoreReplicationStatus
     ```
 
@@ -118,13 +118,13 @@ Use os procedimentos desta seção para preparar os servidores front-end do Skyp
   
 3. Para remover os arquivos de banco de dados do repositório de gerenciamento central do servidor de gerenciamento central de instalação herdada, digite:
     
-   ```
+   ```PowerShell
    Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn <FQDN of SQL Server> -SqlInstanceName <Name of source server>
    ```
 
     Por exemplo:
     
-   ```
+   ```PowerShell
    Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc
    ```
 

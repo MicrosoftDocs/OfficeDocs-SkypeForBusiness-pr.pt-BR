@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 9e189a48-4944-4f93-88d7-9d56b56770a6
 description: 'Resumo: Saiba mais sobre a operação obter itens, que faz parte do serviço de item. O serviço de item faz parte da API do repositório para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.'
-ms.openlocfilehash: a1e7e8525df77cd5aacafb6d41316a985fbe9694
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: be93e16750c1a977a6bc3cfc9651e78a043ef563
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274699"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992658"
 ---
 # <a name="get-items"></a>Obter itens
  
@@ -49,7 +49,7 @@ Obter itens retorna todos os itens no repositório.
 > [!NOTE]
 > Uma matriz de objetos de item é retornada. Para obter detalhes sobre o objeto de item, consulte obter item. 
   
-```
+```json
 [{
 "itemId": 1652,
 "userId": 0,

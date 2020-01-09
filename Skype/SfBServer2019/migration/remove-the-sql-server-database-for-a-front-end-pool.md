@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Depois de remover um pool de front-end ou reconfigurar o pool para usar um banco de dados diferente, você pode remover os bancos de dados do SQL Server que hospedam os dados do pool. Use os procedimentos a seguir para remover as definições do construtor de topologias e, em seguida, remover os arquivos de banco de dados e de log do servidor de banco de dados.
-ms.openlocfilehash: d22a90401bdfa4a2897a18805e8b9c588892c5fb
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f26cf1f93abb8538c068a4ab2d6f81c9c36d759d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241560"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989086"
 ---
 # <a name="remove-the-sql-server-database-for-a-front-end-pool"></a>Remover o banco de dados do Servidor SQL para um pool Front-End
 
@@ -24,7 +24,7 @@ Depois de remover um pool de front-end ou reconfigurar o pool para usar um banco
 
 1. No servidor front-end do Skype for Business Server 2019, abra o construtor de topologias e baixe a topologia existente. 
     
-2. No construtor de topologias, navegue até **componentes compartilhados** e, em seguida, repositórios do **SQL Server**, clique com o botão direito do mouse na instância do SQL Server associada ao pool de front-end removido ou reconfigurado e clique em **excluir**.
+2. No construtor de topologias, navegue até **componentes compartilhados** e, em seguida, **repositórios do SQL Server**, clique com o botão direito do mouse na instância do SQL Server associada ao pool de front-end removido ou reconfigurado e clique em **excluir**.
     
 3. Publique a topologia e verifique o status de replicação. 
     
@@ -36,7 +36,7 @@ Depois de remover um pool de front-end ou reconfigurar o pool para usar um banco
     
 3. Para remover o banco de dados do armazenamento de usuários do pool, digite:
     
-   ```
+   ```PowerShell
    Uninstall-CsDataBase -DatabaseType User -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
    ```
 
@@ -44,7 +44,7 @@ Depois de remover um pool de front-end ou reconfigurar o pool para usar um banco
     
 4. Para remover o banco de dados do repositório de aplicativos do pool, digite:
     
-   ```
+   ```PowerShell
    Uninstall-CsDataBase -DatabaseType Application -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
    ```
 

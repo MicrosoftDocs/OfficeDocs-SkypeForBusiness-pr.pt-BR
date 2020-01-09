@@ -11,19 +11,19 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c7413954-2504-47f4-a073-44548aff1c0c
 description: 'Resumo: atribuir um certificado de autenticação de servidor a servidor para o Skype for Business Server.'
-ms.openlocfilehash: 7198c103a771029ec93e589169fafb652f5d8842
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0332ba66c1cad69470b0007c4d9524a3025e0be7
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278346"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991766"
 ---
 # <a name="assign-a-server-to-server-authentication-certificate-to-skype-for-business-server"></a>Atribuir um certificado de autenticação de servidor a servidor ao Skype for Business Server
 **Resumo:** Atribuir um certificado de autenticação de servidor a servidor para o Skype for Business Server.
   
 Para determinar se um certificado de autenticação de servidor para servidor já foi atribuído ao Skype for Business Server, execute o seguinte comando no Shell de gerenciamento do Skype for Business Server:
   
-```
+```PowerShell
 Get-CsCertificate -Type OAuthTokenIssuer
 ```
 
@@ -31,7 +31,7 @@ Se nenhuma informação de certificado for retornada, você deverá atribuir um 
   
 Se você não tiverum certificado que possa ser usado para autenticação servidor-servidor, é possível obter um novo certificado, importá-lo e usar para autenticação servidor-servidor. Depois de solicitar e obter o novo certificado, você pode fazer logon em qualquer um dos seus servidores front-end e usar um comando do Windows PowerShell semelhante a este para importar e atribuir esse certificado:
   
-```
+```PowerShell
 Import-CsCertificate -Identity global -Type OAuthTokenIssuer -Path C:\Certificates\ServerToServerAuth.pfx  -Password "P@ssw0rd"
 ```
 
@@ -39,7 +39,7 @@ No comando anterior, o parâmetro Path representa o caminho completo para o arqu
   
 Como alternativa, é possível usar um certificado existente como seu certificado de autenticação servidor-servidor. (Conforme observado, o certificado padrão pode ser usado como certificado de autenticação de servidor para servidor.) O seguinte par de comandos do Windows PowerShell recupera o valor da propriedade de impressão digital do certificado padrão e, em seguida, usa esse valor para torná-lo o certificado padrão do certificado de autenticação de servidor para servidor:
   
-```
+```PowerShell
 $x = (Get-CsCertificate -Type Default).Thumbprint
 Set-CsCertificate -Identity global -Type OAuthTokenIssuer -Thumbprint $x
 ```
@@ -50,7 +50,7 @@ O cmdlet Set-CsCertificate leva o certificado em questão e configura imediatame
   
 Também é possível usar o cmdlet Set-CsCertificate para "criar" um novo certificado. "Criar" um certificado simplesmente significa que você configura um novo certificado para se tornar o certificado OAuthTokenIssuer atual em um determinado ponto no tempo. Por exemplo, esse comando recupera o certificado padrão e configura o certificado para assumir como o certificado OAuthTokenIssuer atual a partir de 1° de julho de 2015:
   
-```
+```PowerShell
 $x = (Get-CsCertificate -Type Default).Thumbprint
 Set-CsCertificate -Identity global -Type OAuthTokenIssuer -Thumbprint $x -EffectiveDate "7/1/2015" -Roll
 ```

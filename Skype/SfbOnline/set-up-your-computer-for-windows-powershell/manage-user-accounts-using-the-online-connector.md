@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Use o cmdlet Get-CsOnlineUser no Windows PowerShell para obter informações sobre os usuários do Skype for Business online da sua organização.
-ms.openlocfilehash: 02f3aa50f2256cd0d58f4c53cfa607c011bfa565
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 143f7934564caf4e2c00b5b4a40bc6f2e597950d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221769"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40990986"
 ---
 # <a name="manage-user-accounts-using-the-online-connector"></a>Gerenciar contas de usuário usando o conector online
 
@@ -47,19 +47,19 @@ Este tópico inclui as seguintes seções:
 
 Para retornar informações sobre todos os usuários que foram habilitados para o Skype for Business Online, chame o cmdlet [Get-CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603) sem parâmetros adicionais.
 
-```
+```PowerShell
 Get-CsOnlineUser
 ```
 
-Para retornar informações para um único usuário selecionado aleatoriamente (por exemplo, para usar esta conta para fins de teste), chame o cmdlet **Get-CsOnlineUser** e defina __ o parâmetro resulte como 1.
+Para retornar informações para um único usuário selecionado aleatoriamente (por exemplo, para usar esta conta para fins de teste), chame o cmdlet **Get-CsOnlineUser** e defina o parâmetro _resulte_ como 1.
 
-```
+```PowerShell
 Get-CsOnlineUser -ResultSize 1
 ```
 
 Isso faz com que o cmdlet **Get-CsOnlineUser** retorne informações para apenas um usuário, independentemente de quantos usuários você tem em sua organização. Para retornar informações para cinco usuários, defina o valor do parâmetro _resulte_ como 5.
 
-```
+```PowerShell
 Get-CsOnlineUser -ResultSize 5
 ```
 
@@ -68,19 +68,19 @@ Get-CsOnlineUser -ResultSize 5
 
 Há várias maneiras de fazer referência a uma conta de usuário específica ao chamar o cmdlet [Get-CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603) . Você pode usar o nome de exibição dos serviços de domínio Active Directory (AD DS) do usuário.
 
-```
+```PowerShell
 Get-CsOnlineUser -Identity "Ken Myer"
 ```
 
 Você pode usar o endereço SIP do usuário.
 
-```
+```PowerShell
 Get-CsOnlineUser -Identity "sip:kenmyer@litwareinc.com"
 ```
 
 Você pode usar o nome UPN do usuário.
 
-```
+```PowerShell
 Get-CsOnlineUser -Identity "kenmyer@litwareinc.com"
 ```
 
@@ -89,19 +89,19 @@ Get-CsOnlineUser -Identity "kenmyer@litwareinc.com"
 
 Por padrão, o cmdlet [Get-CsOnlineUser](https://technet.microsoft.com/library/2bfafd70-a7d9-4308-a353-5ecf44249b53.aspx) retorna uma quantidade enorme de informações para cada conta de usuário do Skype for Business online. Se você estiver interessado em apenas um subconjunto dessas informações, canalize os dados retornados para o cmdlet **Select-Object** . Por exemplo, esse comando retorna todos os dados do usuário Ken Myer e, em seguida, usa o cmdlet **Select-Object** para limitar as informações exibidas na tela para o nome para exibição do AD DS e o plano de discagem de Ken.
 
-```
+```PowerShell
 Get-CsOnlineUser -Identity "Ken Myer" | Select-Object DisplayName, DialPlan
 ```
 
 O comando a seguir retorna o nome para exibição e o plano de discagem para todos os usuários.
 
-```
+```PowerShell
 Get-CsOnlineUser | Select-Object DisplayName, DialPlan
 ```
 
 Para localizar as propriedades de uma conta de usuário do Skype for Business Online, use o comando a seguir.
 
-```
+```PowerShell
 Get-CsOnlineUser | Get-Member
 ```
 
@@ -110,7 +110,7 @@ Get-CsOnlineUser | Get-Member
 
 Ao usar o cmdlet [Get-CsOnlineUser](https://go.microsoft.com/fwlink/p/?linkid=849603) e os parâmetros _LdapFilter_ ou _Filter_ , você pode facilmente retornar informações sobre um conjunto direcionado de usuários. Por exemplo, esse comando retorna todos os usuários que trabalham no departamento financeiro.
 
-```
+```PowerShell
 Get-CsOnlineUser -LdapFilter "department=Finance"
 ```
 

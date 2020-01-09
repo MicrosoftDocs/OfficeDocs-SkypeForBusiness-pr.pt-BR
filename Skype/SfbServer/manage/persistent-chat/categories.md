@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 'Resumo: saiba como gerenciar categorias de servidor de chat persistente no Skype for Business Server 2015.'
-ms.openlocfilehash: 8a8e8060db896a272293df3259091d4f7667a7d3
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: f0c85c2246c85c93f96e6c13cef0a5d4360213cb
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35417936"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991996"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Gerenciar categorias no Servidor de Chat Persistente no Skype for Business Server 2015
  
@@ -69,7 +69,7 @@ Você pode configurar e gerenciar categorias usando o Painel de Controle ou por 
     
 7. Em  **Editar categoria**, faça o seguinte:
     
-   - Em **Associação**, na seção **Membros permitidos** , adicione ou remova usuários e outros princípios de serviços de domínio do Active Directory (usuários, grupos de distribuição, unidades organizacionais e assim por diante) que podem ser adicionados como membros de salas de chat pertencente à categoria. As entidades permitidas por uma categoria podem pesquisar por salas na categoria (a menos que uma sala esteja oculta, caso o qual apenas membros da sala podem pesquisar por ela no diretório).
+   - Em **Associação**, na seção **Membros permitidos** , adicione ou remova usuários e outras entidades de segurança dos serviços de domínio Active Directory (usuários, grupos de distribuição, unidades organizacionais e assim por diante) que podem ser adicionados como membros de salas de chat pertencentes à categoria. As entidades permitidas por uma categoria podem pesquisar por salas na categoria (a menos que uma sala esteja oculta, caso o qual apenas membros da sala podem pesquisar por ela no diretório).
     
    - Em **Associação**, na seção **Membros negados** , adicione ou remova usuários e outras entidades de segurança do Active Directory associadas a membros sendo negados da sala.
     
@@ -109,7 +109,7 @@ Para obter mais informações sobre a sintaxe cmdlet, incluindo todos os parâme
 
 Você pode criar uma nova categoria usando o cmdlet **New-CsPersistentChatCategory**. Por exemplo, o comando a seguir cria uma nova categoria chamada HelpDesk no pool atl-cs-001.contoso.com. Neste exemplo, o envio de arquivos está habilitado:
   
-```
+```PowerShell
 New-CsPersistentChatCategory -Name "HelpDesk" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -EnableFileUpload 
 ```
 
@@ -119,7 +119,7 @@ Você pode configurar uma categoria existente usando o cmdlet **Set-CsPersistent
   
 Por exemplo, o comando a seguir especifica que Usuário1 é um AllowedMember e um criador, enquanto que User2 tem acesso negado às salas da categoria:
   
-```
+```PowerShell
 Set-CsPersistentChatCategory -Identity testCat -AllowedMembers @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}  -DeniedMembers @{Add="sip:user2@contoso.com"}
 Set-CsPersistentChatCategory -Identity testCat -Creators @{Add="sip:user1@contoso.com"}
 ```
@@ -128,7 +128,7 @@ Set-CsPersistentChatCategory -Identity testCat -Creators @{Add="sip:user1@contos
 
 Você pode obter informações sobre categorias usando o cmdlet **Get-CsPersistentChatCategory**. Por exemplo, o comando a seguir retorna as informações para todas as categorias do Chat Persistente na organização:
   
-```
+```PowerShell
 Get-CsPersistentChatCategory
 ```
 
@@ -136,6 +136,6 @@ Get-CsPersistentChatCategory
 
 Você pode remover uma categoria usando o cmdlet **Remove-CsPersistentChatCategory**. Antes de remover uma categoria, você deve primeiro excluir todas as salas de chat dela ou movê-las para uma nova categoria. Por exemplo, o comando a seguir remove a categoria que tem a identidade "atl-cs-001.contoso.com\helpdesk":
   
-```
+```PowerShell
 Remove-CsPersistentChatCategory -Identity "atl-cs-001.contoso.com\helpdesk"
 ```

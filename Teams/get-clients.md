@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70a0c87060bf4d2a560a997e287b1507e2281ee4
-ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
+ms.openlocfilehash: 5e47e8e4765bc93c2281efc07766f77f173b0fad
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 01/08/2020
-ms.locfileid: "40970969"
+ms.locfileid: "40990846"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obter clientes do Microsoft Teams 
 
@@ -114,7 +114,7 @@ A chave de assinatura para habilitar a atualização automática usando o Gerenc
 
 #### <a name="install-teams-using-deb-package"></a>Instalar o Microsoft Teams usando o pacote DEB
 
-1. Baixar o pacote de https://aka.ms/getteams. (O cliente Linux está em visualização limitada e será iniciado em breve. Se você não vir o cliente Linux na página de downloads, ele ainda não foi iniciado.)
+1. Baixar o pacote de https://aka.ms/getteams.
 2. Instale usando uma das seguintes opções:  
     - Abra a ferramenta de gerenciamento de pacotes relevante e percorra o processo de instalação do aplicativo Linux autoorientado.
     - Ou, se você ama terminal, digite:`sudo apt install **teams download file**`
@@ -123,12 +123,50 @@ Você pode iniciar o Microsoft Teams por meio de atividades `Teams`ou via termin
 
 #### <a name="install-teams-using-rpm-package"></a>Instalar o Microsoft Teams usando o pacote RPM
 
-1. Baixar o pacote de https://aka.ms/getteams. (O cliente Linux está em visualização limitada e será iniciado em breve. Se você não vir o cliente Linux na página de downloads, ele ainda não foi iniciado.)
+1. Baixar o pacote de https://aka.ms/getteams.
 2. Instale usando uma das seguintes opções:
     - Abra a ferramenta de gerenciamento de pacotes relevante e percorra o processo de instalação do aplicativo Linux autoorientado.
     - Ou, se você ama terminal, digite:`sudo yum install **teams download file**`
 
 Você pode iniciar o Microsoft Teams por meio de atividades `Teams`ou via terminal digitando.
+
+#### <a name="install-manually-from-the-command-line"></a>Instalar manualmente a partir da linha de comando
+
+Instalar manualmente nas distribuições Debian e Ubuntu:
+```
+curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+ 
+sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams stable main" > /etc/apt/sources.list.d/teams.list'
+ 
+sudo apt update
+sudo apt install teams
+```
+
+Instalar manualmente em distribuições baseadas em RHEL, Fedora e CentOS:
+```
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+ 
+sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/teams.repo'
+ 
+sudo dnf check-update
+sudo dnf install teams
+```
+
+Aternatively, para usar yum em vez de DNF:
+```
+yum check-update
+sudo yum install teams
+```
+
+Instalar manualmente nas distribuições baseadas em openSUSE:
+```
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+ 
+sudo sh -c 'echo -e "[teams]\nname=teams\nbaseurl=https://packages.microsoft.com/yumrepos/ms-teams\nenabled=1\nautorefresh=1\nkeeppackages=0\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/zypp/repos.d/teams.repo'
+ 
+sudo zypper refresh
+sudo zypper install teams
+```
 
 ## <a name="web-client"></a>Clientes Web 
 

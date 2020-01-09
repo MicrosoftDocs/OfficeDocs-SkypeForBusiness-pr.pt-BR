@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
 description: 'Resumo: Saiba mais sobre o painel de monitoramento no Skype for Business Server.'
-ms.openlocfilehash: 0ca85bff7cfcad7f3b64a4b0f5b92a22299e5719
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 39f5e9c2b024f73f669098c4da7eaca40ef4ea61
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279925"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992026"
 ---
 # <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Usar o painel de monitoramento no Skype for Business Server
  
@@ -31,7 +31,7 @@ O painel Monitoramento fornece aos administradores uma rápida visão geral da i
     
 Observe que você pode usar o cmdlet [Get-CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) para retornar a URL usada para acessar os relatórios de monitoramento do Skype for Business Server:
   
-```
+```PowerShell
 Get-CsReportingConfiguration
 ```
 

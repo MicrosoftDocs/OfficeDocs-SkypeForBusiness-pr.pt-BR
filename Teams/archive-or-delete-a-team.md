@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ceb699ff4c8d7ba2cf10e1b8e94ca33f60eb9b8d
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 30913e67c80f5f5e8c04ddf5d7855dcf25536834
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968262"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992901"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Arquivar ou excluir uma equipe no Microsoft Teams
 ===========================================
@@ -33,7 +33,7 @@ Quando você arquiva uma equipe, todas as atividades da equipe são interrompida
 Quando você exclui uma equipe, a atividade de equipe em canais padrão e privados (e conjuntos de sites associados), arquivos e chats também é excluída.
 
 > [!IMPORTANT]
-> As equipes arquivadas podem ser reativadas, mas você não pode reexcluir diretamente uma equipe que tenha sido excluída. Considere o arquivamento da equipe primeiro e adie a exclusão até ter certeza de que você não precisa mais da equipe.
+> As equipes arquivadas podem ser reativadas, mas você não pode restaurar diretamente uma equipe que tenha sido excluída. Considere o arquivamento da equipe primeiro e adie a exclusão até ter certeza de que você não precisa mais da equipe.
 
 ## <a name="archive-a-team"></a>Arquivar uma equipe
 
@@ -76,37 +76,37 @@ Por padrão, um grupo do Office 365 excluído é mantido por 30 dias. Este perí
 1. Abra o Windows PowerShell como administrador.
 2. Se você tiver uma versão anterior do módulo AzureADPreview instalada ou o módulo AzureAD instalado, desinstale-o executando um dos seguintes procedimentos:
 
-    ``` 
+    ```PowerShell 
     Uninstall-Module AzureADPreview
     ```
 
-    ```
+    ```PowerShell
     Uninstall-Module AzureAD
     ```
 3. Instale a versão mais recente do módulo AzureADPreview executando o seguinte:
 
-    ```
+    ```PowerShell
     Install-Module AzureADPreview
     ```    
 
 ### <a name="restore-the-deleted-office-365-group"></a>Restaurar o grupo do Office 365 excluído
 
 1. Conecte-se ao Azure AD executando o seguinte:
-    ```
+    ```PowerShell
     Connect-AzureAD
     ```
     Quando for solicitado, entre usando sua conta de administrador e senha.  
 2. Execute o seguinte para exibir uma lista de todos os grupos do Office 365 excluídos de maneira flexível que ainda estão dentro do período de retenção de 30 dias. Use o parâmetro **-All $true** se você tiver muitos grupos.
-    ```
+    ```PowerShell
     Get-AzureADMSDeletedGroup
     ``` 
 3. Localize o grupo que você deseja restaurar e tome nota da identificação.
 4. Execute o seguinte para restaurar o grupo em que [ID] é a ID do grupo.
-    ```
+    ```PowerShell
     Restore-AzureADMSDeletedDirectoryObject -Id [Id]
     ```
 5.  Execute o seguinte para verificar se o grupo foi restaurado com êxito, em que [ID] é a ID do grupo.
-    ```
+    ```PowerShell
     Get-AzureADGroup -ObjectId [Id]
     ```
 

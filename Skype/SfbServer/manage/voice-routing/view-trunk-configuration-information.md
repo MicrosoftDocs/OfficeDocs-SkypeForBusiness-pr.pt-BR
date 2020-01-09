@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: As configurações de tronco SIP definem a relação e os recursos entre um servidor de mediação e o gateway PSTN (rede telefônica pública comutada), um PBX (PBX IP-Public Branch Exchange) ou um SBC (controlador de borda de sessão) no provedor de serviços.
-ms.openlocfilehash: dd8bd94bb8831fc3e406bed46015b2d955a2359c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8fb180994fdcd8409b0776a2fcaee6316110a36d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274867"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992548"
 ---
 # <a name="view-trunk-configuration-information-in-skype-for-business-server"></a>Exibir informações de configuração de tronco no Skype for Business Server
 
@@ -29,7 +29,7 @@ Quando você instala o Skype for Business Server, uma coleção global de config
 **Para ver as informações de configuração do tronco SIP usando o painel de controle do Skype for Business Server**
 
 1. No painel de controle do Skype for Business Server, clique em **Roteamento de voz**e, em seguida, clique em **configuração de tronco**.
-2. Na guia **configuração de tronco** , você verá uma lista de todas as suas coleções de definições de configuração de tronco; para cada coleção, você verá os valores para as propriedades **nome**, **escopo**, **estado**e **ignorar mídia** , juntamente com o número de **usos de PSTN**, **as regras de número de chamada**e **as regras de número chamadas** associadas com a coleção. Para ver detalhes adicionais sobre uma coleção de definições de configuração de tronco, clique na coleção de interesse, clique em **Editar**e, em seguida, clique em **Mostrar detalhes**. Observe que você pode exibir informações detalhadas apenas para um conjunto de configurações de tronco de configuração de tronco de cada vez.
+2. Na guia **configuração de tronco** , você verá uma lista de todas as suas coleções de definições de configuração de tronco; para cada coleção, você verá os valores para as propriedades **nome**, **escopo**, **estado**e **ignorar mídia** , juntamente com o número de **usos de PSTN**, **as regras de número de chamada**e **as regras de número chamadas** associadas à coleção. Para ver detalhes adicionais sobre uma coleção de definições de configuração de tronco, clique na coleção de interesse, clique em **Editar**e, em seguida, clique em **Mostrar detalhes**. Observe que você pode exibir informações detalhadas apenas para um conjunto de configurações de tronco de configuração de tronco de cada vez.
 
 ## <a name="viewing-sip-trunk-configuration-information-by-using-windows-powershell-cmdlets"></a>Exibindo informações de configuração de tronco SIP usando cmdlets do Windows PowerShell
 
@@ -44,7 +44,7 @@ Para ver as informações sobre todas as suas configurações de tronco SIP, dig
 
 Isso retornará informações parecidas com:
 
-```
+```console
 Identity                                  : Global
 OutboundTranslationRulesList              : {}
 SipResponseCodeTranslationRulesList       : {}

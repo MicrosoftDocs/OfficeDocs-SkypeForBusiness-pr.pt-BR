@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Migrar números de acesso de discagem para o Skype for Business Server 2019 requer a execução do cmdlet Move-CsApplicationEndpoint para migrar os objetos de contato. Durante a instalação herdada e o período de coexistência do Skype for Business Server 2019, os números de acesso discado que você criou no Skype for Business Server 2019 se comportam de forma semelhante aos números de acesso de discagem que você cria na instalação herdada, conforme descrito neste seção.
-ms.openlocfilehash: 81f100979d009f4f9b48cf9a538ec92095a67ad8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 35c1e665f8affdbf84628f9a7d532405779648f0
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238043"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991136"
 ---
 # <a name="migrate-dial-in-access-numbers"></a>Migrar números de acesso de discagem
 
@@ -50,7 +50,7 @@ Você deve concluir a migração dos números de acesso à discagem que apontam 
 
 2. Para mover cada número de acesso à discagem para um pool hospedado no Skype for Business Server 2019, a partir da linha de comando, execute: 
 
-   ```
+   ```PowerShell
    Move-CsApplicationEndpoint -Identity <SIP URI of the access number to be moved> -Target <FQDN of the pool to which the access number is moving>
    ```
 
@@ -58,7 +58,7 @@ Você deve concluir a migração dos números de acesso à discagem que apontam 
 
 4. Na barra de navegação esquerda, clique em **Conferência**.
 
-5. Clique na guia **número de acesso** à discagem. 
+5. Clique na guia **número de acesso à discagem** . 
 
 6. Verifique se os números de acesso de discagem permanecem para o pool de instalação herdado do qual você está migrando.
 
@@ -73,7 +73,7 @@ Você deve concluir a migração dos números de acesso à discagem que apontam 
 
 3. Na barra de navegação esquerda, clique em **Conferência**.
 
-4. Clique na guia **número de acesso** à discagem. 
+4. Clique na guia **número de acesso à discagem** . 
 
 5. Verifique se todos os números de acesso de discagem foram migrados para o pool hospedado no Skype for Business Server 2019.
 
@@ -83,7 +83,7 @@ Você deve concluir a migração dos números de acesso à discagem que apontam 
 
 2. Para retornar todos os números de acesso de conferência discada migrados, a partir da linha de comando executar:
 
-   ```
+   ```PowerShell
    Get-CsDialInConferencingAccessNumber -Filter {Pool -eq "<FQDN of the pool to which the access number is moved>"}
    ```
 

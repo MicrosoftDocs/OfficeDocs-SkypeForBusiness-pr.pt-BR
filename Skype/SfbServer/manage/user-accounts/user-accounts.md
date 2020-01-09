@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: As seções neste artigo descrevem como habilitar, desabilitar ou remover temporariamente usuários do Active Directory do Skype for Business Server.
-ms.openlocfilehash: 83ab64415b21d37f12d3768feeb39b11491787af
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 45217593dd010c4daf73d6b5edcbf6f5f4e681a5
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275105"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992398"
 ---
 # <a name="manage-user-accounts-for-skype-for-business-server"></a>Gerenciar contas de usuário do Skype for Business Server
 
@@ -72,7 +72,7 @@ Você pode pesquisar usuários usando o painel de controle do Skype for Business
 
 Depois de habilitar uma conta de usuário em usuários e computadores do Active Directory, você pode usar o painel de controle do Skype for Business Server para criar e habilitar novas contas de usuário do Skype for Business Server ao adicionar um usuário do Active Directory ao Skype for Business Server.
 
-Você também pode usar um cmdlet, habilite-o especificamente [para CsUser](https://docs.microsoft.com/powershell/module/skype/enable-csuser?view=skype-ps).
+Você também pode usar um cmdlet, [habilite-o especificamente para CsUser](https://docs.microsoft.com/powershell/module/skype/enable-csuser?view=skype-ps).
 
 1. Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
 
@@ -84,7 +84,7 @@ Você também pode usar um cmdlet, habilite-o especificamente [para CsUser](http
 
 5. Na caixa de diálogo **novo usuário do Lync Server** , clique em **Adicionar**.
 
-6. Na caixa **Pesquisar usuários** , digite toda ou a primeira parte do nome, o nome para exibição, o nome, o sobrenome, o nome da conta do Gerenciador de contas de segurança (Sam), o endereço de email, o nome UPN ou o número de telefone da conta de usuário do Active Directory que você deseja e, em seguida, clique em **Localizar**.
+6. Na caixa **Pesquisar usuários** , digite toda ou a primeira parte do nome, nome para exibição, nome, sobrenome, nome da conta do Gerenciador de contas de segurança (Sam) nome da conta, endereço de email, nome UPN ou número de telefone da conta de usuário do Active Directory que você deseja e clique em **Localizar**.
 
 7. Na tabela, selecione a conta que você deseja adicionar ao Skype for Business Server e clique em **OK**.
 
@@ -101,7 +101,7 @@ Você pode usar o procedimento a seguir para desabilitar uma conta de usuário h
 
 3. Na barra de navegação esquerda, clique em **Usuários**.
 
-4. Na caixa **Pesquisar usuários** , digite toda ou a primeira parte do nome para exibição, nome, sobrenome, nome da conta do Gerenciador de contas de segurança (Sam), endereço SIP ou URI (Uniform Resource Identifier) da conta de usuário que você deseja desabilitar ou reabilitar, e, em seguida, clique em **Localizar**.
+4. Na caixa **Pesquisar usuários** , digite toda ou a primeira parte do nome para exibição, nome, sobrenome, nome da conta do Gerenciador de contas de segurança (Sam), endereço SIP ou URI (Uniform Resource Identifier) da conta de usuário que você deseja desabilitar ou reabilitar e clique em **Localizar**.
 
 5. Na tabela, clique na conta de usuário que você deseja desabilitar ou habilitar novamente.
 
@@ -119,7 +119,7 @@ As contas de usuário podem ser desabilitadas temporariamente e, em seguida, rea
 
 - Para desativar temporariamente uma conta de usuário, defina o valor da propriedade Enabled como false ($False). Por exemplo:
 
-  ```
+  ```PowerShell
   Set-CsUser -Identity "Ken Myer" -Enabled $False
   ```
 
@@ -127,7 +127,7 @@ As contas de usuário podem ser desabilitadas temporariamente e, em seguida, rea
 
 - Para habilitar novamente uma conta de usuário desabilitada, defina o valor da propriedade Enabled como true ($True). Por exemplo:
 
-  ```
+  ```PowerShell
   Set-CsUser -Identity "Ken Myer" -Enabled $True
   ```
 
@@ -174,7 +174,7 @@ Você pode usar o procedimento a seguir para remover uma conta de usuário adici
 
 3. Na barra de navegação esquerda, clique em **Usuários**.
 
-4. Na caixa **Pesquisar usuários** , digite toda ou a primeira parte do nome para exibição, nome, sobrenome, nome da conta do Gerenciador de contas de segurança (Sam), endereço SIP ou URI (Uniform Resource Identifier) da conta de usuário que você deseja desabilitar ou reabilitar, e, em seguida, clique em **Localizar**.
+4. Na caixa **Pesquisar usuários** , digite toda ou a primeira parte do nome para exibição, nome, sobrenome, nome da conta do Gerenciador de contas de segurança (Sam), endereço SIP ou URI (Uniform Resource Identifier) da conta de usuário que você deseja desabilitar ou reabilitar e clique em **Localizar**.
 
 5. Na tabela, clique na conta de usuário que você deseja remover.
 
@@ -189,7 +189,7 @@ Você pode remover contas de usuário usando o cmdlet Disable-CsUser. Esse cmdle
 ### <a name="to-remove-a-user-account"></a>Para remover uma conta de usuário
 Para remover uma conta de usuário, use o cmdlet Disable-CsUser. Por exemplo:
 
-  ```
+  ```PowerShell
   Disable-CsUser -Identity "Ken Myer"
   ```
 

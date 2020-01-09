@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
 description: 'Resumo: saiba como habilitar a Quality of Experience (QoE) no Skype for Business Server.'
-ms.openlocfilehash: 90110c5664e80ac1d4f9d382c20e0fd58d9ce134
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0a05266ed88b9d476ca787f1d32b91727e90475c
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305707"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992931"
 ---
 # <a name="enable-quality-of-experience-in-skype-for-business-server"></a>Habilite a qualidade de experiência no Skype for Business Server
 
@@ -46,7 +46,7 @@ Você pode habilitar a QoE usando o Windows PowerShell e o cmdlet **set-CsQoECon
 
  Para habilitar a QoE, defina o parâmetro EnableQoE para True ($True).
 
-  ```
+  ```PowerShell
   Set-CsQoEConfiguration -Identity "site:Redmond" -EnableQoE $True
   ```
 
@@ -54,7 +54,7 @@ Você pode habilitar a QoE usando o Windows PowerShell e o cmdlet **set-CsQoECon
 
  Para desabilitar a QoE, defina o parâmetro EnableQoE para False ($False). Isso não desinstala o monitoramento; pausa o conjunto e armazena os dados de QoE.
 
-  ```
+  ```PowerShell
   Set-CsQoEConfiguration -Identity "site:Redmond" -EnableQoE $False
   ```
 
@@ -62,7 +62,7 @@ Você pode habilitar a QoE usando o Windows PowerShell e o cmdlet **set-CsQoECon
 
  Este comando habilita a QoE para todas as definições de configuração de QoE atualmente em uso na sua organização.
 
-  ```
+  ```PowerShell
   Get-CsQoEConfiguration | Set-CsQoEConfiguration "site:Redmond" -EnableQoE $True
   ```
 

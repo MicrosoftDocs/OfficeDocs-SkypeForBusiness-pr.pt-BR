@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
 description: Para executar a ferramenta de stress e desempenho do Skype for Business Server 2015, você precisará poder gerenciar os usuários, os contatos e os perfis de usuário, configurar a ferramenta para executar e, em seguida, revisar a saída ou resultados produzidos pela ferramenta.
-ms.openlocfilehash: e0cf241417272cfa16b3e332e7bafe7a112af38b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: af4d0dcb1cc4196f98941799c61dcf29510ba795
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277717"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992478"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Usando a ferramenta de stress e desempenho do Skype for Business Server 2015
  
@@ -228,7 +228,7 @@ A guia **configuração comum** da ferramenta de configuração de carga é most
     
 8. No campo **porcentagem** (ponto de presença múltiplo) MPOP, forneça um valor para a porcentagem de usuários que se conectaram de várias máquinas ou dispositivos, por exemplo, 10%.
     
-9. Digite o número máximo de pontos de extremidade simultâneos no campo **entrar por segundo (por instância)** . Esse é o número máximo de logs para seus usuários, e a recomendação é uma taxa de menos de/igual a 2 por segundo (< = 2).
+9. Digite o número máximo de pontos de extremidade simultâneos no campo **entrar por segundo (por instância)** . Esse é o número máximo de logs para seus usuários, e a recomendação é uma taxa de menos de/igual a 2 por segundo (<= 2).
     
 10. No campo **proxy do Access ou FQDN do pool** , digite o nome de domínio totalmente qualificado (FQDN) do servidor ao qual você deseja que os clientes se conectem. Se os usuários estiverem fazendo logon externamente, você precisará digitar o proxy de acesso. Se os usuários forem internos, forneça o FQDN do seu pool da empresa ou do servidor Standard Edition.
     
@@ -243,7 +243,7 @@ A guia **configuração comum** da ferramenta de configuração de carga é most
 Você pode configurar os níveis de carga e os parâmetros para cada um dos cenários gerais oferecidos determinando o que você deseja executar ou deixar desabilitado. Aqui estão suas opções gerais:
   
 > [!NOTE]
-> Os valores de nível de carga para todos os campos, **** mas os serviços de informações locais são desabilitados, **baixados**, **médios**, **altos**ou **personalizados**. Se você selecionar qualquer configuração, mas desativada, as configurações serão geradas para cada cliente. Resultados altos na carga máxima suportada no servidor; médio é 60% de alta carga; baixo é 30%. 
+> Os valores de nível de carga para todos os campos, mas os serviços de informações locais são **desabilitados**, **baixados**, **médios**, **altos**ou **personalizados**. Se você selecionar qualquer configuração, mas desativada, as configurações serão geradas para cada cliente. Resultados altos na carga máxima suportada no servidor; médio é 60% de alta carga; baixo é 30%. 
   
 - **Mensagens instantâneas-** Isso inclui ponto a ponto e conferência; Escolha o valor apropriado para nível de carga.
     
@@ -317,7 +317,7 @@ O aplicativo Web dá suporte a cenários de conferência por meio do servidor UC
 - **Conferência de voz-** Selecione um valor para nível de carga.
     
 > [!NOTE]
-> Cada um dos cenários tem um botão **avançado** localizado ao lado dele. As caixas de diálogo avançadas contêm valores específicos para cada cenário que alteram o comportamento da ferramenta de stress e desempenho e permitem a personalização. > para cada um dos cenários do aplicativo Web, se o nível de carga for **personalizado**, o valor especificado na ** **O campo ConversationsPerHour é usado em vez do padrão.
+> Cada um dos cenários tem um botão **avançado** localizado ao lado dele. As caixas de diálogo avançadas contêm valores específicos para cada cenário que alteram o comportamento da ferramenta de stress e desempenho e permitem a personalização. > para cada um dos cenários do aplicativo Web, se o nível de carga for **personalizado**, o valor especificado no campo **ConversationsPerHour** será usado em vez do padrão.
   
 #### <a name="mobility-tab"></a>Guia Mobility
 
@@ -332,7 +332,7 @@ As opções são:
 - **Presença e mensagens instantâneas P2P/áudio-** Selecione um valor para o nível de carga para habilitar a simulação de mobilidade.
     
 > [!NOTE]
-> Cada um dos cenários tem um botão **avançado** localizado ao lado dele. As caixas de diálogo avançadas contêm valores específicos para cada cenário que alteram o comportamento da ferramenta de stress e desempenho e permitem a personalização. > para cada um dos cenários de mobilidade, se o nível de carga for **personalizado**, o valor especificado na ** **O campo ConversationsPerHour é usado em vez do padrão.
+> Cada um dos cenários tem um botão **avançado** localizado ao lado dele. As caixas de diálogo avançadas contêm valores específicos para cada cenário que alteram o comportamento da ferramenta de stress e desempenho e permitem a personalização. > para cada um dos cenários de mobilidade, se o nível de carga for **personalizado**, o valor especificado no campo **ConversationsPerHour** será usado em vez do padrão.
   
 #### <a name="summary-tab"></a>Guia Resumo
 
@@ -365,19 +365,19 @@ A ferramenta de configuração de carregamento (UserProfileGenerator. exe) cria 
     
 2. Navegue até a pasta cliente e execute o script em lotes **RunClient** . Você pode clicar duas vezes no arquivo em lotes no Windows Explorer e ele executará todos os arquivos de configuração desse cliente. Você também pode executar o script a partir de uma pasta de cliente usando a seguinte sintaxe:
     
-   ```
+   ```PowerShell
    RunClient0.bat "C:\Program Files\Skype for Business Server 2015\LyncStressAndPerfTool\LyncStress" 
    ```
 
 Para executar a ferramenta stress and Performance diretamente, abra um prompt de comando e digite o seguinte comando na linha de comando (e, quando fizer isso pela primeira vez, certifique-se de registrar os `regsvr32 /i /n /s LyncPerfToolPerf.dll`contadores de desempenho, conforme mostrado na observação mais adiante neste tópico):
   
-```
+```console
 LyncPerfTool.exe /file:IM_client0.xml
 ```
 
 Para que a ferramenta exiba os valores no arquivo de configuração, inclua o `/displayfile` parâmetro no comando anterior para que ele tenha a seguinte aparência:
   
-```
+```console
 LyncPerfTool.exe /file:IM_client0.xml /displayfile
 ```
 

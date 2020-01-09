@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 497e6ca0-7a49-4f3e-9804-14414cf87b57
 description: 'Resumo: saiba como excluir políticas de conferência no Skype for Business Server.'
-ms.openlocfilehash: 2d02fa580acbc11c1b41643ab25cecba618ed09a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7cf195e53ec159a8999561c0ddb8461ee1bf0ba6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294247"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991866"
 ---
 # <a name="delete-conferencing-policies-in-skype-for-business-server"></a>Excluir políticas de conferência no Skype for Business Server
  
@@ -39,13 +39,13 @@ Para excluir as políticas de conferência, use o cmdlet **Remove-CsConferencing
   
 O comando a seguir remove a política de conferência com a identidade RedmondConferencingPolicy:
   
-```
+```PowerShell
 Remove-CsConferencingPolicy -Identity "RedmondConferencingPolicy"
 ```
 
 O comando a seguir exclui todas as políticas de conferência que permitem que os usuários externos registrem a conferência:
   
-```
+```PowerShell
 Get-CsConferencingPolicy | Where-Object {$_.AllowExternalUsersToRecordMeetings -eq $True} | Remove-CsConferencingPolicy
 ```
 

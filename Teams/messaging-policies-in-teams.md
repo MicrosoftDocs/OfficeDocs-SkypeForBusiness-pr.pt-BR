@@ -1,7 +1,7 @@
 ---
 title: Gerenciar políticas de mensagens no Teams
-ms.author: tonysmit
-author: tonysmit
+ms.author: lolaj
+author: lolajacobsen
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -17,12 +17,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Saiba mais sobre as políticas de mensagens e como elas podem ser usadas para controlar as mensagens de chat no Teams.
-ms.openlocfilehash: 3ac3e25dfc6f8ec65922d0265664649de6e9f55c
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 590b0de09488a1d4e1cdaba3530a9a34894e45d0
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968232"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991556"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Gerenciar políticas de mensagens no Teams
 
@@ -73,7 +73,7 @@ Use as configurações a seguir para alterar a política de mensagens globais ou
 - **Os proprietários podem excluir as mensagens enviadas**  Use essa configuração para permitir que os proprietários excluam mensagens que os usuários enviaram por chat.
 - **Os usuários podem excluir as mensagens enviadas** Use essa configuração para permitir que os usuários excluam mensagens que eles enviaram por chat.
 - **Os usuários podem editar as mensagens enviadas** Use essa configuração para permitir que os usuários editem mensagens que eles enviaram por chat.
-- **Confirmações de leitura** Os recibos de leitura permitem que o remetente de uma mensagem de chat seja notificado quando a mensagem foi lida pelo destinatário em chats individuais e em grupo de 20 pessoas ou menos. Os recibos de leitura de mensagens realizam a remoção sem ter a certeza se uma mensagem foi lida e melhoram a comunicação da equipe.  
+- **Confirmações de leitura** Os recibos de leitura permitem que o remetente de uma mensagem de chat seja notificado quando a mensagem foi lida pelo destinatário em chats individuais e em grupo de 20 pessoas ou menos. Os recibos de leitura de mensagens realizam a remoção sem ter a certeza se uma mensagem foi lida e melhoram a comunicação da equipe. Observe que as confirmações de leitura não são capturadas nos relatórios de descoberta eletrônica.  
     - **Controlado pelo usuário** Isso significa que os usuários decidem se desejam ATIVAR ou DESATIVAR os recibos de leitura. A configuração padrão dentro do aplicativo está ATIVA. Os usuários podem DESATIVÁ-LA. 
     - **Ativado para todos** Isso significa que todos os locatários terão o recurso ATIVADO, sem opção para desativá-lo. Lembre-se de que, ao usar a configuração **Ativado para todos**, a única maneira de definir recibos para todos os locatários é ter apenas uma política de mensagens para todos os locatários (a política padrão denominada "Global - para toda a organização padrão") ou fazer com que todas as políticas de mensagens no locatário usem as mesmas configurações para recibos. O recurso de confirmações de leitura é mais eficaz quando o recurso está habilitado como **Ativado para todos**.
     - **Desativado para todos** Isso significa que o recurso está desabilitado e ninguém no locatário tem confirmações de leitura, nem pode habilitá-lo. 
@@ -91,10 +91,10 @@ Use as configurações a seguir para alterar a política de mensagens globais ou
 - **Permitir que os usuários traduzam mensagens** Ative essa configuração para permitir que os usuários traduzam automaticamente as mensagens do Teams para o idioma especificado pelas configurações de idioma pessoal do Office 365.
 - **Permitir leitura avançada na exibição de mensagens** Ative essa configuração para permitir que os usuários exibam mensagens na Leitura Avançada da Microsoft. A Leitura Avançada é uma ferramenta de aprendizagem que fornece uma experiência de leitura em tela inteira para aumentar a legibilidade do texto.
 - **Os usuários podem enviar <a name="urgent-message">notificações</a> de prioridade** Se o recurso for ativado, os usuários podem enviar uma mensagem que usa notificações de prioridade. As notificações de prioridade notificam os usuários a cada dois minutos por um período de 20 minutos ou até que as mensagens sejam captadas e lidas pelo destinatário maximizando a probabilidade de que a mensagem seja captada e atendida em tempo hábil.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
-- **Criação de mensagens de voz** 
-    - **Permitido em chats e canais** Isso significa que os usuários podem sair de mensagens de voz em chats e canais.
-    - **Permitido em chats apenas** Isso significa que os usuários podem sair de mensagens de voz em chats, mas não em canais.
-    - **Desativado** Isso significa que os usuários não podem criar mensagens de voz em chats nem em canais.  
+- **Criação de mensagens de áudio** – importante: as mensagens de áudio não são capturadas em relatórios de descoberta eletrônica. 
+    - **Permitido em chats e canais** Isso significa que os usuários podem deixar mensagens de áudio em chats e canais.
+    - **Permitido somente em chats** Isso significa que os usuários podem deixar mensagens de áudio em chats, mas não em canais.
+    - **Desativado** Isso significa que os usuários não podem criar mensagens de áudio em chats ou canais.  
 - **Em dispositivos móveis, exibir canais favoritos acima dos chats recentes** Habilite essa configuração para mover canais favoritos para a parte superior da tela de um dispositivo móvel de modo que o usuário não precise rolar para encontrá-los. 
 - **Permitir que um usuário remova usuários de um chat em grupo** Habilite essa configuração para permitir que um usuário remova outros usuários de um chat em grupo. Esse recurso permite que você continue um chat com um grupo menor de pessoas sem perder o histórico do chat.
 

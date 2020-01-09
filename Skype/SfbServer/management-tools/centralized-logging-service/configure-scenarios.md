@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 description: 'Resumo: saiba como criar, modificar e remover cenários para o serviço de log centralizado no Skype for Business Server 2015.'
-ms.openlocfilehash: 89aa0c37dfb13f7614067b64e37ee9c9fb376331
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9a6ce9a760255275c3ad265cdd6c58fa964f8e43
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274433"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991596"
 ---
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Configurar cenários para o Serviço de Log Centralizado no Skype for Business Server 2015
  
@@ -30,13 +30,13 @@ Cenários definem o escopo (ou seja, global, site, pool ou computador) e quais p
   
 Para executar as funções de serviço de log centralizado usando o Shell de gerenciamento do Skype for Business Server, você deve ser membro do grupo de segurança de controle de acesso baseado em função do CsAdministrator ou do CsServerAdministrator (RBAC) ou uma função RBAC personalizada que contém um desses dois grupos. Para retornar uma lista de todas as funções RBAC às quais esse cmdlet foi atribuído, incluindo qualquer função RBAC personalizada que você tenha criado, execute o seguinte comando no Shell de gerenciamento do Skype for Business Server ou no prompt do Windows PowerShell:
   
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
 ```
 
 Por exemplo:
   
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
@@ -63,19 +63,19 @@ Como apresentado no [serviço de registro centralizado no Skype for Business 201
     
     Para criar um cenário usando as opções definidas, digite:
     
-   ```
+   ```PowerShell
    New-CsClsScenario -Identity <scope>/<unique scenario name> -Provider <provider variable>
    ```
 
     Por exemplo:
     
-   ```
+   ```PowerShell
    New-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider $LyssProvider
    ```
 
     O formato alternativo usando-Name e-Parent:
     
-   ```
+   ```PowerShell
    New-CsClsScenario -Name "LyssServiceScenario" -Parent "site:Redmond" -Provider $LyssProvider
    ```
 
@@ -85,7 +85,7 @@ Como apresentado no [serviço de registro centralizado no Skype for Business 201
     
 2. Há um limite de dois cenários por escopo. No entanto, não há um limite quanto ao número de provedores. Neste exemplo, vamos supor que criamos três provedores e você deseja atribuir todos eles ao cenário que está definindo. Os nomes das variáveis dos provedores são LyssProvider, ABServerProvider e SIPStackProvider. Para definir e atribuir vários provedores a um cenário, digite o seguinte em um shell de gerenciamento do Skype for Business Server ou prompt de comando do Windows PowerShell:
     
-   ```
+   ```PowerShell
    New-CsClsScenario -Identity "site:Redmond/CollectDataScenario" -Provider @{Add=$LyssProvider, $ABServerProvider,  $SIPStackProvider}
    ```
 
@@ -98,31 +98,31 @@ Como apresentado no [serviço de registro centralizado no Skype for Business 201
     
 2. Há um limite de dois cenários por escopo. Você pode alterar quais cenários estão em execução a qualquer momento, mesmo quando uma sessão de coleta de log está em andamento. Se você redefinir os cenários em execução, a sessão de registro em log atual parará de usar o cenário que foi removido e começará a usar o novo cenário. No entanto, as informações de log que já foram coletadas com o cenário removido permanecerão nos logs coletados. Para definir um novo cenário, faça o seguinte (ou seja, supondo a adição de um provedor já definido chamado "S4Provider"):
     
-   ```
+   ```PowerShell
    Set-CsClsScenario -Identity <name of scope and scenario defined by New-CsClsScenario> -Provider @{Add=<new provider to add>}
    ```
 
     Por exemplo:
     
-   ```
+   ```PowerShell
    Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Add=$S4Provider}
    ```
 
     Se você desejar substituir provedores, defina um único provedor ou uma lista separada por vírgulas de provedores para substituir o conjunto atual. Se você desejar substituir apenas um de vários provedores, adicione os provedores atuais junto com os novos provedores para criar um novo conjunto de provedores que contenha os provedores novos e existentes. Para substituir todos os provedores por um novo conjunto, digite o seguinte:
     
-   ```
+   ```PowerShell
    Set-CsClsScenario -Identity <name of scope and scenario defined by New-CsClsScenario> -Provider @{Replace=<providers to replace existing provider set>}
    ```
 
     Por exemplo, para substituir o conjunto atual de $LyssProvider, $ABServerProvider e $SIPStackProvider por $LyssServiceProvider:
     
-   ```
+   ```PowerShell
    Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Replace=$LyssServiceProvider}
    ```
 
     Para substituir apenas o provedor $LyssProvider do conjunto atual de $LyssProvider, $ABServerProvider e $SIPStackProvider por $LyssServiceProvider, digite o seguinte:
     
-   ```
+   ```PowerShell
    Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Replace=$LyssServiceProvider, $ABServerProvider, $SIPStackProvider}
    ```
 
@@ -132,13 +132,13 @@ Como apresentado no [serviço de registro centralizado no Skype for Business 201
     
 2. Se você desejar remover um cenário que foi definido anteriormente, digite o seguinte:
     
-   ```
+   ```PowerShell
    Remove-CsClsScenario -Identity <name of scope and scenario>
    ```
 
     Por exemplo, para remover o cenário definido site:Redmond/LyssServiceScenario:
     
-   ```
+   ```PowerShell
    Remove-CsClsScenario -Identity "site:Redmond/LyssServiceScenario"
    ```
 
@@ -152,7 +152,7 @@ O cmdlet **Remove-CsClsScenario** remove o cenário especificado, mas os rastrea
   
 2. No Windows PowerShell, digite:
     
-   ```
+   ```PowerShell
    Import-Module "CDBurn\OCO\amd64\Support"
    ```
 
@@ -161,7 +161,7 @@ O cmdlet **Remove-CsClsScenario** remove o cenário especificado, mas os rastrea
   
 3. Para descarregar os módulos, digite:
     
-   ```
+   ```PowerShell
    Remove-Module ClsController
    ```
 
@@ -174,7 +174,7 @@ O cmdlet **Remove-CsClsScenario** remove o cenário especificado, mas os rastrea
     
 2. No Windows PowerShell, digite:
     
-   ```
+   ```PowerShell
    Import-Module "CDBurn\OCO\amd64\Support"
    ```
 
@@ -183,19 +183,19 @@ O cmdlet **Remove-CsClsScenario** remove o cenário especificado, mas os rastrea
   
 3. Para remover um provedor do cenário AlwaysOn, digite:
     
-   ```
+   ```PowerShell
    Edit-CsClsScenario -ScenarioName <string of the scenario to edit> -ProviderName <string of the provider to remove> -Remove
    ```
 
    Por exemplo:
     
-   ```
+   ```PowerShell
    Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Remove
    ```
 
    Os parâmetros ScenarioName e ProviderName são posicionais (ou seja, devem ser definidos na posição esperada na linha de comando). O nome do parâmetro não precisa ser explicitamente definido se o nome do cenário estiver na segunda ou na terceira posição em relação ao nome do cmdlet na primeira posição. Usando essas informações, o comando anterior seria digitado como:
     
-   ```
+   ```PowerShell
    Edit-CsClsScenario AlwaysOn ChatServer -Remove
    ```
 
@@ -207,20 +207,20 @@ O cmdlet **Remove-CsClsScenario** remove o cenário especificado, mas os rastrea
     
 2. Para adicionar um provedor ao cenário AlwaysOn, digite:
     
-   ```
+   ```PowerShell
    Edit-CsClsScenario -ScenarioName <string of the scenario to edit> -ProviderName <string of the provider to add> -Level <string of type level> -Flags <string of type flags>
    ```
 
     Por exemplo:
     
-   ```
+   ```PowerShell
    Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Level Info -Flags TF_COMPONENT
    ```
 
-    -Loglevel pode ser do tipo Fatal, Error, Warning, Info, Verbose, Debug ou All. -Os sinalizadores podem ser qualquer um dos sinalizadores compatíveis com o provedor, como TF_COMPONENT, TF_DIAG. -OS sinalizadores também podem ser do valor ALL
+    -Loglevel pode ser do tipo Fatal, Error, Warning, Info, Verbose, Debug ou All. -Os sinalizadores podem ser qualquer um dos sinalizadores compatíveis com o provedor, como TF_COMPONENT TF_DIAG. -OS sinalizadores também podem ser do valor ALL
     
    O exemplo anterior também pode ser digitado com o uso do recurso posicional do cmdlet. Por exemplo, para adicionar o provedor ChatServer ao cenário AlwaysOn, digite:
     
-   ```
+   ```PowerShell
    Edit-CsClsScenario AlwaysOn ChatServer -Level Info -Flags ALL
    ```

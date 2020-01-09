@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
 description: 'Resumo: Saiba mais sobre o relatório de Resumo de conferências PSTN no Skype for Business Server.'
-ms.openlocfilehash: 8b8b108243e257c414e9d6bb101e69fc9701d82e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c0ecb9ae2a5630a8d68b9d22892890617127826a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279981"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992156"
 ---
 # <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>Relatório de Resumo de conferência PSTN no Skype for Business Server
  
@@ -35,7 +35,7 @@ Para determinar a porcentagem de todas as suas conferências que incluem usuári
   
 Se você não vir o número de conferências PSTN que esperava ver, saiba que a capacidade de organizar uma conferência que permita usuários discados depende da política de conferência que foi atribuída a um usuário: se poucos usuários tiverem permissão para hospedar conferências PSTN, você obviamente verá poucas conferências PSTN. Você pode verificar rapidamente quais políticas de conferência (se houver) permitem que os usuários agendem conferências PSTN executando o seguinte comando no Shell de gerenciamento do Skype for Business Server:
   
-```
+```PowerShell
 Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing
 ```
 

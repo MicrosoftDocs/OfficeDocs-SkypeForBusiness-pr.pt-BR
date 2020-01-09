@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: 'Baixe, instale e use o conector Skype for Business online para criar uma sessão remota do Windows PowerShell que se conecta ao Skype for Business online. '
-ms.openlocfilehash: 7e97bc31d85370919eec7c50fae01d00f5b1ddac
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4d794902ce39687c32f584f97b126c98f237c486
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284706"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991296"
 ---
 # <a name="download-and-install-the-skype-for-business-online-connector-module"></a>Baixar e instalar o módulo do conector do Skype for Business Online
 
@@ -37,19 +37,19 @@ O módulo conector do Skype for Business Online inclui o cmdlet **New-CsOnlineSe
     
 O programa de instalação copia o módulo do conector do Skype for Business online (e o cmdlet **New-CsOnlineSession** ) para o seu computador. Para acessar o módulo, inicie uma sessão do Windows PowerShell em credenciais do administrador e execute o seguinte comando:
   
-```
+```PowerShell
 Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
 ```
 
 Se você não quiser digitar esse comando toda vez que iniciar o Windows PowerShell, poderá adicionar o comando ao seu perfil do Windows PowerShell. Para fazer isso, digite o seguinte comando no prompt do Windows PowerShell e pressione ENTER:
   
-```
+```PowerShell
 notepad.exe $profile
 ```
 
  Quando o bloco de notas for exibido, adicione a seguinte linha na parte inferior dos comandos que já estão no perfil (se houver):
   
-```
+```PowerShell
 Import-Module SkypeOnlineConnector
 ```
 

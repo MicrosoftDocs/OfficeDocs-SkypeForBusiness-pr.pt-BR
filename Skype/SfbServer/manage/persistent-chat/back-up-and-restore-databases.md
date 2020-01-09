@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4f2b689b-7f15-48dc-a069-da7bc8527def
 description: 'Resumo: saiba como fazer backup e restaurar bancos de dados persistentes do servidor de chat no Skype for Business Server 2015.'
-ms.openlocfilehash: 0bb4895ef85ac9f38f2f9ef414769efcac6894b4
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: a8c407c35b9d864889c26cbea7296dbed86516fa
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35417957"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991966"
 ---
 # <a name="back-up-and-restore-persistent-chat-databases-in-skype-for-business-server-2015"></a>Fazer backup e restaurar bancos de dados de Chat Persistente no Skype for Business Server 2015
  
@@ -41,19 +41,19 @@ Se você quiser usar os procedimentos de backup do SQL Server, consulte a docume
   
 Se quiser usar o cmdlet **Export-CsPersistentChatData**, você pode especificar o comando da seguinte forma:
   
-```
+```PowerShell
 Export-CsPersistentChatData [-FileName <String>] <COMMON PARAMETERS>
 ```
 
 ou
   
-```
+```PowerShell
 Export-CsPersistentChatData [-AsBytes <SwitchParameter>] <COMMON PARAMETERS>
 ```
 
 Por exemplo, o seguinte comando exporta dados de Chat Persistente do banco de dados de Chat Persistente localizado no servidor atl-sql-001.contoso.com; os dados exportados serão armazenados no arquivo C:\Logs\PersistentChatData.zip. Como o parâmetro Level não foi especificado, comando fará uma exportação completa das informações de Chat Persistente:
   
-```
+```PowerShell
 Export-CsPersistentChatData -DBInstance "atl-sql-001.contoso.com\rtc" -FileName "C:\Logs\PersistentChatData.zip"
 ```
 
@@ -61,12 +61,12 @@ Export-CsPersistentChatData -DBInstance "atl-sql-001.contoso.com\rtc" -FileName 
 
 A maneira como você restaura seus dados de chat persistentes depende do método usado para fazer o backup. Se você usou procedimentos de backup do SQL Server, então deve usar procedimentos de restauração do SQL Server. Se você usou o cmdlet **Export-CsPersistentChatData** para fazer backup de dados de chat persistente, deve usar o cmdlet **Import-CsPersistentChatData** para restaurar os dados:
   
-```
+```PowerShell
 Import-CsPersistentChatData -FileName <String> <COMMON PARAMETERS>
 ```
 
 ou
   
-```
+```PowerShell
 Import-CsPersistentChatData -ByteInput <Byte > <COMMON PARAMETERS>
 ```

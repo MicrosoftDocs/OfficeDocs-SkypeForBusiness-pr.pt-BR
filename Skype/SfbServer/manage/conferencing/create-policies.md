@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: 'Resumo: saiba como criar políticas de conferência no Skype for Business Server.'
-ms.openlocfilehash: 323a50ab779e772ca6149dc4c151f9d42d55df66
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 078c80af0304c796bd3935200764a9ce6e13585b
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304009"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991886"
 ---
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>Criar políticas de conferência no Skype for Business Server
  
@@ -120,7 +120,7 @@ Para criar políticas de conferência, use o cmdlet **New-Cs ConferencingPolicy*
   
 O exemplo a seguir cria uma nova política de conferência com o SalesConferencingPolicy de identidade. Essa política utilizará todos os valores padrão em uma política de conferência, exceto um: MaxMeetingSize. Nesse exemplo, o tamanho máximo de uma reunião será definido como 50, em vez do valor padrão de 250.:
   
-```
+```PowerShell
 New-CsConferencingPolicy -Identity SalesConferencingPolicy -MaxMeetingSize 50
 ```
 

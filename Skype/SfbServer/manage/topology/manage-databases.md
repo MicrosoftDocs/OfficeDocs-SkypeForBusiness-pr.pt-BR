@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 026c4469-f471-4e4f-a77d-a7d22a925e5a
 description: 'Resumo: saiba como adicionar mais bancos de dados do Skype for Business Server a um grupo de disponibilidade AlwaysOn existente e saber mais sobre as etapas adicionais necessárias após o patch ou a atualização de um servidor back-end que faz parte de um grupo de disponibilidade AlwaysOn no Skype para Business Server.'
-ms.openlocfilehash: c6d8877448a68aa2331f3c290170418f6dca08ae
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 221964eb7d8dfcbb0303a0e1148de4fcef6cec51
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275182"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991536"
 ---
 # <a name="manage-databases-with-an-alwayson-availability-group-in-skype-for-business-server"></a>Gerenciar bancos de dados com um grupo de disponibilidade AlwaysOn no Skype for Business Server
 
@@ -45,7 +45,7 @@ Depois de corrigir um servidor back-end que faz parte de um grupo de disponibili
     
 2. Execute o seguinte comando do PowerShell no Skype for Business Management Shell (acessado com uma conta que tenha a devida permissão para aplicar alterações nos bancos de dados do SQL AlwaysOn) conforme segue:
     
-    ```
+    ```PowerShell
     Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn [sqlpool.contoso.com] -Verbose
     ```
 

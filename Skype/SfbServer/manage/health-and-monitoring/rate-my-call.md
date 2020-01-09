@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: 'Resumo: Saiba mais sobre o recurso classificar minha chamada no Skype for Business Server.'
-ms.openlocfilehash: e146bba647c9586d96682bf8056417630676726e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6902bdaa9b5021963d128bf67dab7adc8ab1d982
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279855"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991736"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>Classificar minha chamada no Skype for Business Server
 
@@ -51,7 +51,7 @@ O recurso classificar minha chamada está habilitado por padrão na política do
 
 Não há nenhuma ação necessária para habilitar o recurso base, mas se você quiser um comentário personalizado, será necessário habilitá-lo separadamente. O cmdlet do Windows PowerShell a seguir é um exemplo de como habilitar comentários personalizados do usuário final e alterar o intervalo de 10% para 80%.
 
-```
+```PowerShell
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - RateMyCallAllowCustomUserFeedback $true 
 ```
 
@@ -114,7 +114,7 @@ Podem ser usadas as seguintes consultas em SQL:
 
  **Áudio**
 
-```
+```SQL
 SELECT
         s.ConferenceDateTime
         ,Caller.URI as Caller
@@ -151,7 +151,7 @@ SELECT
 
  **Vídeo**
 
-```
+```SQL
 SELECT
         s.ConferenceDateTime
         ,Caller.URI as Caller
@@ -190,7 +190,7 @@ SELECT
 
 Os clientes mais recentes do Skype for Business relatam novas\> IDs de token de problema (100) que podem não estar presentes em sua [QoeMetrics]. [dbo]. Tabela [CallQualityFeedbackTokenDef]. Para atualizar a tabela de banco de dados com as definições de token mais recentes, o comando SQL abaixo pode ser executado no banco de dados de monitoramento usando o Microsoft SQL Server Management Studio. Esse comando substituirá todas as entradas no [QoeMetrics]. [dbo]. Tabela [CallQualityFeedbackTokenDef].
 
-```
+```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];
 INSERT INTO [CallQualityFeedbackTokenDef] (TokenId, TokenDescription) VALUES
     (1,   N'DistortedSpeech'),

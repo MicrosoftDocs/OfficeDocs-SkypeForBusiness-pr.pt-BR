@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: 'Resumo: testar o AV e certificados OAuth para o Skype for Business Server.'
-ms.openlocfilehash: 6a2e851aac8aae9aaecac424290195270415706c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 37edb6843d420ca3387958c54b3db8c72a28be92
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286127"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991956"
 ---
 # <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>Testar o AV e os certificados OAuth no Skype for Business Server usando-roll in Set-CsCertificate
  
@@ -57,11 +57,11 @@ Ao separar certificados OAuthTokenIssuer, há requisitos diferentes para o tempo
 4. Configure o certificado importado com o cmdlet Set-CsCertificate e use o parâmetro-roll com o parâmetro-EffectiveDate. A data efetiva deve ser definida como o tempo de expiração do certificado atual (14:00:00 ou 2:00:00 PM) menos o tempo de vida do token (por padrão, oito horas). Isso nos dá um momento em que o certificado deve ser definido como ativo e é a cadeia de \<caracteres\>EFFECTIVEDATE: "7/22/2015 6:00:00 AM". 
     
     > [!IMPORTANT]
-    > Para um pool de bordas, você deve ter todos os certificados do AudioVideoAuthentication implantados e provisionados pela data e hora definidas pelo parâmetro-EffectiveDate do primeiro certificado implantado para evitar possíveis interrupções nas comunicações A/V devido ao mais antigo o certificado expira antes que todos os tokens do cliente e do consumidor tenham sido renovados usando o novo certificado. 
+    > Para um pool de bordas, você deve ter todos os certificados do AudioVideoAuthentication implantados e provisionados por data e hora definidos pelo parâmetro-EffectiveDate do primeiro certificado implantado para evitar possíveis interrupções nas comunicações A/V devido ao vencimento do certificado mais antigo antes que todos os tokens do cliente e do consumidor sejam renovados usando o novo certificado. 
   
     O comando Set-CsCertificate com o parâmetro-roll e-effectiveTime:
     
-   ```
+   ```PowerShell
    Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint
           <thumb print of new certificate> -Roll -EffectiveDate <date and time
           for certificate to become active>
@@ -69,7 +69,7 @@ Ao separar certificados OAuthTokenIssuer, há requisitos diferentes para o tempo
 
     Um comando Set-CsCertificate de exemplo:
     
-   ```
+   ```PowerShell
    Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint
           "B142918E463981A76503828BB1278391B716280987B" -Roll -EffectiveDate "7/22/2015
           6:00:00 AM"
@@ -82,16 +82,16 @@ Para entender melhor o processo que Set-CsCertificate,-roll e-EffectiveDate usa 
   
 ![Usar os parâmetros roll e EffectiveDate.](../../media/Ops_Certificate_Set_Roll_EffectiveTime_Timeline.jpg)
   
-|**Texto explicativo**|**Estágio**|
+|**Texto Explicativo**|**Estágio**|
 |:-----|:-----|
 |1  <br/> |Início: 22/07/2015 00:00:00  <br/> O certificado AudioVideoAuthentication atual expira 14:00:00 em 22/07/2015. Isso é determinado pelo carimbo de data/hora de vencimento no certificado. Planeje a substituição e sobreposição do certificado na conta para sobreposição de 8 horas (tempo do token padrão) antes do certificado existente atingir a hora de vencimento. O tempo limite 02:00:00 é utilizado neste exemplo para permitir que o administrador tenha tempo suficiente para colocar e provisionar os novos certificados antes da hora efetiva 06:00:00.  <br/> |
-|2  <br/> |22/07/2015 02:00:00 - 22/07/2015 05:59:59  <br/> Defina certificados em servidores de borda com tempo efetivo de 6:00:00 AM (4 horas de prazo de entrega para este exemplo, mas pode ser mais longo) usando o tipo \<\> de uso do certificado Set \<-CsCertificate-Thumbprint\> impressão digital do novo certificado- EffectiveDate \<cadeia de caracteres de data/hora do tempo efetivo do novo certificado\>  <br/> |
+|2  <br/> |22/07/2015 02:00:00 - 22/07/2015 05:59:59  <br/> Defina certificados em servidores de borda com tempo efetivo de 6:00:00 AM (4 horas de prazo de entrega para este exemplo, mas pode ser mais longo) usando o tipo \<\> de uso de certificado Set \<-CsCertificate-Thumbprint\> impressão digital do novo \<certificado-roll-EffectiveDate DateTime String do tempo efetivo para o novo certificado\>  <br/> |
 |3  <br/> |22/07/2015 06:00 - 22/07/2015 14:00  <br/> Para validar tokens, o novo certificado é usado primeiro e, se o novo certificado não conseguir validar o token, o certificado antigo será usado. Esse processo é usado para todos os tokens durante o período de sobreposição de 8 horas (tempo do token padrão).  <br/> |
 |4  <br/> |Fim: 22/07/2015 14:00:01  <br/> O certificado antigo expirou e o novo certificado foi usado. O certificado antigo pode ser removido com segurança com o tipo \<\> de uso de certificado remove-CsCertificate-Type-anterior  <br/> |
    
 Quando a hora efetiva é atingida (22/07/2015 06:00:00 AM), todos os novos tokens são emitidos pelo novo certificado. Ao validar tokens, os tokens serão validados primeiro no novo certificado. Se a validação falhar, o certificado antigo é testado. O processo de teste do novo certificado e retorno ao certificado antigo continuará até o tempo de expiração do certificado antigo. Quando o certificado antigo vencer (22/07/2015 14:00:00 PM), os tokens serão validados apenas pelo novo certificado. O certificado antigo pode ser removido com segurança usando o cmdlet Remove-CsCertificate com o parâmetro-Previous.
 
-```
+```PowerShell
 Remove-CsCertificate -Type AudioVideoAuthentication -Previous
 ```
 
@@ -107,7 +107,7 @@ Remove-CsCertificate -Type AudioVideoAuthentication -Previous
     
     O comando Set-CsCertificate com o parâmetro-roll e-effectiveTime:
     
-   ```
+   ```PowerShell
    Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint <thumb
           print of new certificate> -Roll -EffectiveDate <date and time for
           certificate to become active> -identity Global 
@@ -115,7 +115,7 @@ Remove-CsCertificate -Type AudioVideoAuthentication -Previous
 
 Um comando Set-CsCertificate de exemplo:
     
-  ```
+  ```PowerShell
   Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint
           "B142918E463981A76503828BB1278391B716280987B" -Roll -EffectiveDate "7/21/2015
           1:00:00 PM" 
@@ -125,7 +125,7 @@ Um comando Set-CsCertificate de exemplo:
 > O EffectiveDate deve ser formatado para corresponder à região do seu servidor e às configurações de idioma. O exemplo usa as configurações de Idioma e Região Inglês dos EUA 
   
 Quando a hora efetiva é atingida (21/07/2015 1:00:00 AM), todos os novos tokens são emitidos pelo novo certificado. Ao validar tokens, os tokens serão validados primeiro no novo certificado. Se a validação falhar, o certificado antigo é testado. O processo de teste do novo certificado e retorno ao certificado antigo continuará até o tempo de expiração do certificado antigo. Quando o certificado antigo vencer (22/07/2015 14:00:00 PM), os tokens serão validados apenas pelo novo certificado. O certificado antigo pode ser removido com segurança usando o cmdlet Remove-CsCertificate com o parâmetro-Previous.
-```
+```PowerShell
 Remove-CsCertificate -Type OAuthTokenIssuer -Previous 
 ```
 

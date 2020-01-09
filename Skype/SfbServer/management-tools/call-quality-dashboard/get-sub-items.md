@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0542eba9-3dda-40de-bba8-095d22825e4e
 description: 'Resumo: Saiba mais sobre a operação obter subitens, que faz parte do serviço de item. O serviço de item faz parte da API do repositório para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.'
-ms.openlocfilehash: 7be427ed4ea90cd46c6f8cea4ffe3a97be98479b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 75fc4fcd331925c224d8dfb72c681d25e3485eb6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274657"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992648"
 ---
 # <a name="get-sub-items"></a>Obter subitens
  
@@ -50,7 +50,7 @@ Obter subitens retorna os subitens de um item específico.
 > [!NOTE]
 > Uma matriz de objeto de item é retornada. 
   
-```
+```json
 [{
 "itemId": 1653,
 "userId": 0,

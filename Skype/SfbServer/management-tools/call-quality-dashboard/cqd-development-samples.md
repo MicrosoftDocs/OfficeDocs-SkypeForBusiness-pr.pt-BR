@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: 'Resumo: revise um tutorial e exemplos de desenvolvimento para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.'
-ms.openlocfilehash: 4eac679950abdff5041bdfb63b633287d06a11e7
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5e650047fefb865f7fe9af84f93a5f57e7bbf086
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274825"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992858"
 ---
 # <a name="cqd-development-samples"></a>Amostras de Desenvolvimento para o CQD
 
@@ -64,7 +64,7 @@ Vejamos um exemplo simples primeiro. Se quisermos mostrar a contagem de Fluxos d
 
 É preciso enviar uma chamada para o Serviço de Dados com os parâmetros corretos e mostrar os resultados da consulta em uma tabela HTML. A seguir, uma amostra do código JavaScript:
 
-```        
+```javascript        
 $($.fn.freeFormReport = function (queries, urlApi, presentation) {
             var query = {
                 Dimensions: [{ DataModelName: '[StartDate].[Month]' }],
@@ -132,7 +132,7 @@ Este exemplo pode ser segmentado em três etapas:
 
 Colocar o código JavaScript em uma página HTML, e a página mostrará um relatório como o que é mostrado na imagem. O HTML completo fica assim:
 
-```
+```javascript
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -203,7 +203,7 @@ Para criar a ferramenta de visualização da definição do relatório, precisam
 
 A seguir, apresentamos um exemplo rápido, o código contém um bloco que é um exemplo simples para enviar uma consulta ao Serviço de Repositório para obter o conteúdo de um item do repositório com base em seu identificador. E a próxima parte do código (método processReportSetData) está enviando chamadas AJAX para obter a definição de cada relatório dentro desse conjunto de relatórios. Como o ID no portal da Web do CQD é o ID de um conjunto de relatórios, a chamada AJAX retornará um item de conjunto de relatórios. Mais detalhes sobre a API do repositório e, especificamente, GetItems, podem ser encontrados em [obter itens](get-items.md). 
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -332,7 +332,7 @@ Aqui estão as etapas detalhadas para acessar a página de scorecard na figura d
 
 2. Atualize os filtros. Os dados JSON para filtros no exemplo 1 têm um filtro, que é definido na dimensão `[StartDate].[Month]`. Como Filters é uma matriz JSON, dimensões adicionais podem ser adicionadas à lista de filtros. Por exemplo, para obter o cliente do cliente em chamadas com fio internas para "currentMonth", devemos ter os seguintes filtros:
 
-   ```
+   ```javascript
    Filters: [
      { DataModelName: '[StartDate].[Month]', Value: currentMonth, Operand: 0 },
     {
@@ -347,7 +347,7 @@ Aqui estão as etapas detalhadas para acessar a página de scorecard na figura d
    ],
    ```
 
-   Aqui, a `[Scenarios].[ScenarioPair]` dimensão está definida como `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`Equals. A `[Scenario.][ScenarioPair]` é uma dimensão especial criada para simplificar a criação de relatórios. Ele tem seis valores correspondentes a `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`. Portanto, em vez de usar uma combinação de seis filtros para definir um cenário, basta usar um filtro. Em nosso exemplo, o valor `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` é convertido para o cenário em que: o primeiro é o servidor, o segundo não é um servidor, o segundo está dentro, o segundo está dentro, o primeiro tipo de conexão é com fio, e o segundo tipo de conexão é com fio, que é a definição exata de " Server-Client-Inside Wired ".
+   Aqui, a `[Scenarios].[ScenarioPair]` dimensão está definida como `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`Equals. A `[Scenario.][ScenarioPair]` é uma dimensão especial criada para simplificar a criação de relatórios. Ele tem seis valores correspondentes a `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`. Portanto, em vez de usar uma combinação de seis filtros para definir um cenário, basta usar um filtro. Em nosso exemplo, o valor `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` é convertido para o cenário em que: o primeiro é o servidor, o segundo não é o servidor, o segundo está dentro, o segundo está dentro, o primeiro tipo de conexão é com fio, e o segundo tipo de conexão é com fio, que é a definição exata de "servidor-cliente-dentro com fio".
 
 3. Crie um conjunto de filtros por cenário. Cada linha do scorecard, na figura, representa um cenário diferente, que será um filtro diferente (enquanto as dimensões e as medições permanecem as mesmas). 
 
@@ -360,7 +360,7 @@ Aqui estão as etapas detalhadas para acessar a página de scorecard na figura d
 
 Código HTML do Exemplo 3 (amostra de scorecard):
 
-```
+```html
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>

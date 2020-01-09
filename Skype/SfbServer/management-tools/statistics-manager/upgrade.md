@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: 'Resumo: Leia este tópico para saber como atualizar o Gerenciador de estatísticas do Skype for Business Server.'
-ms.openlocfilehash: 70826776e9dfacdef75c7084a9aba6f4eede940a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: de88257b628256c47b68036852d82fb6715c043f
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299720"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992498"
 ---
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Atualizar o Gerenciador de estatísticas do Skype for Business Server
  
@@ -50,7 +50,7 @@ O script reunirá suas informações de certificado e senha do ouvinte atuais, d
     
 2. Abra uma janela de administrador do PowerShell. Atualize o componente do Ouvinte:
     
-   ```
+   ```PowerShell
    .\Update-StatsMan.ps1 -Service Listener
    ```
 
@@ -65,7 +65,7 @@ O script reunirá suas informações de certificado e senha do ouvinte atuais, d
     
 4. Abra uma janela de administrador do PowerShell. Atualize o componente do site:
     
-   ```
+   ```PowerShell
    .\Update-StatsMan.ps1 -Service Website
    ```
 
@@ -77,7 +77,7 @@ O script reunirá suas informações de certificado e senha do ouvinte atuais, d
     
 8. Abra uma janela de administrador do PowerShell. Atualize o componente do Agente:
     
-   ```
+   ```PowerShell
    .\Update-StatsMan.ps1 -Service Agent
    ```
 

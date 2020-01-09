@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Leia este tópico para saber como o roteamento direto do sistema de telefone da Microsoft permite que você conecte um controlador de borda de sessão (SBC) compatível com o cliente ao Microsoft Phone System.
-ms.openlocfilehash: 3fb9fcd8ec8dab78b03b408813d32292879cbec2
-ms.sourcegitcommit: 4c763a3824e6a2271d98a46d25a03c8f04ee2f74
+ms.openlocfilehash: 5b43bad6d0b8828a88ccb3ee48a85cb0c390e6a2
+ms.sourcegitcommit: 9eaa314a9e81a2a56686c035ba0292256ccb2bf5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39257470"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "40995111"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -116,6 +116,14 @@ A combinação de plano de chamada e a conectividade de roteamento direto para o
 Para obter mais informações sobre o licenciamento do sistema telefônico, consulte [obter o máximo do Office com](https://products.office.com/compare-all-microsoft-office-products?tab=2) [as opções de plano](https://technet.microsoft.com/library/office-365-plan-options.aspx)do Office 365 e do Office 365. 
 
 Para obter mais informações sobre o licenciamento do sistema telefônico, consulte [Licenciamento de Complementos do Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). 
+
+## <a name="supported-end-points"></a>Pontos de extremidade compatíveis 
+
+Você pode usar como ponto de extremidade:
+- Qualquer cleintg de equipe. 
+- Telefones de área comuns, plese consulte [Configurar a licença telefônica da área comum para o Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/set-up-common-area-phones). Observação Você não precisa da licença do plano de chamada ao definir o telefone de área comum com roteamento direto.
+- Skype for Business 3PIP para telefones. Leia [suporte do Skype for Business para telefones fixos (3PIP) com o Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
+
 
 ## <a name="sbc-domain-names"></a>Nomes de domínio SBC
 

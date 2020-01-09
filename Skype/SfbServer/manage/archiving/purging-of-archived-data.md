@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
 description: 'Resumo: saiba como gerenciar a eliminação de dados arquivados para o Skype for Business Server.'
-ms.openlocfilehash: 193e17791290b384552542129d8d89c20296f109
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f168f7fe744ef388de246cbcd2dd9de0fc2ef805
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278388"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991606"
 ---
 # <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>Gerenciar a eliminação de dados arquivados no Skype for Business Server
 
@@ -57,13 +57,13 @@ Você pode gerenciar a limpeza de dados arquivados usando os cmdlets do Windows 
     
 Por exemplo, o seguinte comando habilita a limpeza de todos os dados arquivados. Depois que esse comando for executado, o Skype for Business Server limpará todos os registros de arquivamento anteriores ao valor especificado para o parâmetro KeepArchivingDataForDays. 
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True
 ```
 
 O comando a seguir limita a limpeza a registros arquivados que foram exportados para um arquivo de dados (usando o cmdlet **Export-CSArchivingData** ). Você também deve definir o parâmetro PurgeExportedArchivesOnly como true ($True):
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
 ```
 
@@ -71,12 +71,12 @@ Depois que esse comando for executado, o Skype for Business Server limpará some
   
 Para desabilitar a limpeza automática dos registros de arquivamento, defina o parâmetro EnablePurging para Falso ($False):
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 ```
 
 O exemplo a seguir usa o cmdlet **Invoke-CsArchivingDatabasePurge** para limpar todos os registros de mais de 24 horas de idade do banco de dados de arquivamento no ATL-SQL-001.contoso.com. Para assegurar que todos os registros serão limpos, incluindo registros que não foram exportados, o parâmetro PurgeExportedArchivesOnly é definido para Falso ($False):
   
-```
+```PowerShell
 Invoke-CsArchivingDatabasePurge -Identity "service:ArchivingDatabase:atl-sql-001.contoso.com" -PurgeArchivingDataOlderThanHours 24 -PurgeExportedArchivesOnly $False
 ```

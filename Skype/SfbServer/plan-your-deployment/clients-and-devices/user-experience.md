@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: 'Resumo: Saiba mais sobre o novo Skype for Business e as etapas que você pode seguir para preparar seu ambiente e seus usuários para a atualização, se você estiver usando o Skype for Business Online, o Skype for Business Server 2019, o Skype for Business Server 2015, o Lync Server 2013 ou Lync Server 2010.'
-ms.openlocfilehash: d5224c628624d6d93d8b3a06cd4c59d246523b1e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 21a28af999b285910884241e6e7809a88b943a87
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277290"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989846"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Planejar a experiência do cliente do Skype for Business 2015 para seus usuários
  
@@ -84,25 +84,25 @@ Siga as etapas nesta seção se você quiser configurar a experiência de client
   
   **Opção 1:** defina a experiência de cliente do Skype usando uma política global. Observe que a política global se aplica a todos os usuários na sua implantação, mas as políticas de nível de usuário e site têm precedência sobre a política global:
   
-```
+```PowerShell
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $True
 ```
 
  **Opção 2:** modifique uma política de cliente existente que você esteja usando no seu ambiente para incluir a configuração para permitir a experiência de cliente do Skype. Isso permite que você atribua a experiência de cliente do Skype apenas aos usuários que têm a política existente atribuída:
   
-```
+```PowerShell
 Set-CsClientPolicy -Identity ExistingClientPolicyName -EnableSkypeUI $True
 ```
 
  **Opção 3:** crie uma nova política para atribuir aos usuários que inclua a configuração para a experiência de cliente do Skype. Primeiro, crie a nova política de cliente e forneça o nome da política como um valor do parâmetro **Identity**:
   
-```
+```PowerShell
 New-CsClientPolicy -Identity UseSkypeUI -EnableSkypeUI $True
 ```
 
 Em seguida, atribua a política aos usuários, utilizando o nome dela (o valor usado para o parâmetro **Identity**) como o valor do parâmetro **PolicyName**:
   
-```
+```PowerShell
 Grant-CsClientPolicy username@contoso.com -PolicyName UseSkypeUI
 ```
 
@@ -130,25 +130,25 @@ Siga as etapas nesta seção se você quiser configurar a experiência de client
   
  **Opção 1:** defina a experiência de cliente do Lync usando uma política global. Observe que a política global se aplica a todos os usuários na sua implantação, mas as políticas de nível de usuário e site têm precedência sobre a política global:
   
-```
+```PowerShell
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $False
 ```
 
  **Opção 2:** modifique uma política de cliente existente que você esteja usando no seu ambiente para incluir a configuração para permitir a experiência de cliente do Lync. Isso permite que você atribua a experiência de cliente do Lync apenas aos usuários que têm a política existente atribuída:
   
-```
+```PowerShell
 Set-CsClientPolicy -Identity ExistingClientPolicyName -EnableSkypeUI $False
 ```
 
  **Opção 3:** crie uma nova política para atribuir aos usuários que inclua a configuração para a experiência de cliente do Lync. Primeiro, crie a nova política de cliente e forneça o nome da política como um valor do parâmetro **Identity**:
   
-```
+```PowerShell
 New-CsClientPolicy -Identity UseLyncUI -EnableSkypeUI $False
 ```
 
 Em seguida, atribua a política aos usuários, utilizando o nome dela (o valor usado para o parâmetro **Identity**) como o valor do parâmetro **PolicyName**:
   
-```
+```PowerShell
 Grant-CsClientPolicy username@contoso.com -PolicyName UseLyncUI
 ```
 
@@ -165,25 +165,25 @@ Se você estiver usando o Skype for Business Online, ainda poderá usar a experi
   
  **Opção 1:** Defina a experiência do cliente do Lync usando uma política global. Observe que as políticas do cliente e do site aplicadas aos usuários terão precedência sobre uma política global.
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
  **Opção 2:** modifique uma política de cliente existente que você esteja usando no seu ambiente para incluir a configuração para permitir a experiência de cliente do Lync. Isso permite que você atribua a experiência de cliente do Lync apenas aos usuários que têm a política existente atribuída:
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
  **Opção 3:** Use uma instância de política personalizada que inclua a configuração para a experiência do cliente do Lync.
   
-```
+```PowerShell
 Grant-CsClientPolicy username@contoso.com -PolicyName ClientPolicyNoIMURLDisableSkypeUI
 ```
 
 Depois de configurar as políticas de cliente, implante o cliente Skype for Business, Build 4711,1002 (abril, 2015) ou posterior.
   
-Para obter informações detalhadas sobre como configurar a experiência do cliente com o Skype for Business Online, incluindo as etapas sobre como controlar a experiência de primeira execução e os scripts do PowerShell que você pode usar para configurar seu ambiente, consulte [alternando entre o Skype for Business e interfaces do usuário do cliente Lync](https://aka.ms/SfBOUI).
+Para obter informações detalhadas sobre como configurar a experiência do cliente com o Skype for Business Online, incluindo as etapas sobre como controlar a experiência de primeira execução e os scripts do PowerShell que você pode usar para configurar seu ambiente, consulte [alternando entre as interfaces do usuário do cliente Skype for Business e do cliente Lync](https://aka.ms/SfBOUI).
   
 ## <a name="resources-to-help-you-prepare-your-support-teams-and-your-end-users-for-the-update"></a>Recursos para ajudá-lo a preparar suas equipes de suporte e seus usuários finais para a atualização
 <a name="support"> </a>

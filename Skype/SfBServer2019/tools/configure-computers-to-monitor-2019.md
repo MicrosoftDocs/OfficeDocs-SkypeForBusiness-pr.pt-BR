@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumo: Instale os arquivos de agente do Operations Manager no computador do Skype for Business Server 2019 para ser monitorado e configure o computador para atuar como um proxy do System Center.'
-ms.openlocfilehash: ae5e1c2ab3d8eb17449c391ea321cfb44272368f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4d4abd3f28831ffe386470f1a91c34a3ac0568b9
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284050"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989036"
 ---
 # <a name="configure-the-skype-for-business-server-computers-that-will-be-monitored"></a>Configurar os computadores que serão monitorados no Skype for Business Server
 
@@ -43,7 +43,7 @@ Se você implantar um agente em um desses locais, também será necessário soli
 
 5. Na página Configuração do Grupo de Gerenciamento, selecione **Especificar a informação do grupo de gerenciamento** e clique em **Avançar**.
 
-6. Na página configuração do grupo de gerenciamento, digite o nome do grupo de gerenciamento do Operations Manager na caixa **nome do grupo de gerenciamento** e digite o nome do host do servidor do Operations Manager (por exemplo, ATL-SCOM-001) no servidor de **Gerenciamento **caixa. Se você alterou o número da porta usada pelo Operations Manager, digite o novo número da porta na caixa **Porta do Servidor de Gerenciamento**. Caso contrário, deixe a porta no valor padrão de 5723 e clique em **Avançar**.
+6. Na página configuração do grupo de gerenciamento, digite o nome do grupo de gerenciamento do Operations Manager na caixa **nome do grupo de gerenciamento** e digite o nome do host do servidor do Operations Manager (por exemplo, ATL-SCOM-001) na caixa servidor de **Gerenciamento** . Se você alterou o número da porta usada pelo Operations Manager, digite o novo número da porta na caixa **Porta do Servidor de Gerenciamento**. Caso contrário, deixe a porta no valor padrão de 5723 e clique em **Avançar**.
 
 7. Na página Conta de Ação do Agente, selecione **Sistema Local** e clique em **Avançar**.
 
@@ -56,7 +56,7 @@ Se você implantar um agente em um desses locais, também será necessário soli
 11. Clique em **Sair**.
 
 Para o System Center 2012, você pode verificar se o agente foi criado ao clicar em **Iniciar**, clicar em **todos os programas**, clicar em **System Center Operations Manager 2012**e, em seguida, clicar em **Shell de gerenciamento de operações do 2012**. In the Operations Manager Shell, type the following Windows PowerShell command, and then press ENTER:
-```
+```PowerShell
 Get-SCOMAgent
 ```
 

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 'Resumo: Confira este tópico para obter informações sobre como integrar o Skype for Business Server com o Exchange Server 2016 ou o Exchange Server 2013.'
-ms.openlocfilehash: f62ad2475fe17668e82b06b1b4a0f19b6a2ee7c8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 54a079a550b1c915d9ffc124b1608a3fd3f2a5ef
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297397"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991476"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>Plan to integrate Skype for Business and Exchange
  
@@ -50,7 +50,7 @@ Após a atribuição dos certificados, você deve configurar o serviço de desco
     
 O serviço de descoberta automática deve ser configurado para que você possa integrar o Skype for Business Server e o Exchange Server. Você pode verificar se o serviço de descoberta automática foi ou não configurado executando o seguinte comando no Shell de gerenciamento do Exchange Server e verificando o valor da propriedade AutoDiscoverServiceInternalUri:
   
-```
+```PowerShell
 Get-ClientAccessServer | Select-Object Name, AutoDiscoverServiceInternalUri | Format-List
 ```
 
@@ -58,15 +58,15 @@ Se esse valor estiver em branco, você deverá atribuir um URI para o serviço d
   
 Você pode atribuir o URI de descoberta automática executando um comando similar a este:
   
-```
+```PowerShell
 Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri "https://autodiscover.litwareinc.com/autodiscover/autodiscover.xml"
 ```
 
 Para obter detalhes sobre o serviço de descoberta automática, consulte [serviço de descoberta automática](https://go.microsoft.com/fwlink/p/?LinkId=268542).
   
-Após a configuração do serviço de descoberta automática, você deve modificar as configurações de configuração OAuth do Skype for Business Server; Isso garante que o Skype for Business Server saiba onde encontrar o serviço de descoberta automática. Para modificar as configurações de configuração OAuth no Skype for Business Server, execute o seguinte comando no Shell de gerenciamento do Skype for Business Server. Ao executar esse comando, certifique-se de especificar o URI para o serviço de descoberta automática em execução no seu servidor do Exchange e se você usa o **autodiscover. svc** para apontar para o local do serviço em vez do autodiscover **. xml** (que aponta para o arquivo XML usado pelo serviço):
+Após a configuração do serviço de descoberta automática, você deve modificar as configurações de configuração OAuth do Skype for Business Server; Isso garante que o Skype for Business Server saiba onde encontrar o serviço de descoberta automática. Para modificar as configurações de configuração OAuth no Skype for Business Server, execute o seguinte comando no Shell de gerenciamento do Skype for Business Server. Ao executar esse comando, certifique-se de especificar o URI para o serviço de descoberta automática em execução no seu servidor do Exchange e se você usa o **autodiscover. svc** para apontar para o local do serviço em vez do **autodiscover. xml** (que aponta para o arquivo XML usado pelo serviço):
   
-```
+```PowerShell
 Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc" 
 ```
 
@@ -81,7 +81,7 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
   
 Além de configurar o serviço de descoberta automática, você também deve criar um registro DNS para o serviço que aponta para o servidor Exchange. Por exemplo, se o serviço descoberta automática estiver localizado em autodiscover.litwareinc.com, você precisará criar um registro DNS para o autodiscover.litwareinc.com que é resolvido para o nome de domínio totalmente qualificado do servidor Exchange (por exemplo, atl-exchange-001.litwareinc.com).
   
-Se você estiver integrando o Skype for Business Server com o Exchange Online, suas próximas etapas estão em [Configurar a integração entre o Skype for Business Server local e o Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md), caso contrário, consulte [integrar o Skype for Business Server com o Exchange Servidor](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
+Se você estiver integrando o Skype for Business Server com o Exchange Online, suas próximas etapas estão em [Configurar a integração entre o Skype for Business Server local e o Outlook Web App](../../deploy/integrate-with-exchange-server/outlook-web-app.md), caso contrário, consulte [integrar o Skype for Business Server com o Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
   
 ## <a name="feature-support"></a>Suporte aos recursos
 <a name="feature_support"> </a>

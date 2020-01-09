@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
 description: 'Resumo: saiba como excluir uma configuração de arquivamento no Skype for Business Server.'
-ms.openlocfilehash: e2a79949da21c9b3b8e94019375ea0e1f0887353
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 22da9464a4bb6b17c6d4b9aa63ad8990a9152c38
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286194"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992368"
 ---
 # <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>Excluir uma configuração de arquivamento no Skype for Business Server
 
@@ -46,25 +46,25 @@ Você também pode excluir uma configuração de arquivamento usando o cmdlet **
   
 Por exemplo, o seguinte comando remove as configurações de arquivamento aplicadas ao site Redmond. Quando uma política configurada no escopo do site é excluída, os usuários previamente gerenciados pela política de site passarão a ser governados pela política global de arquivamento:
   
-```
+```PowerShell
 Remove-CsArchivingConfiguration -Identity "site:Redmond"
 ```
 
 O seguinte comando remove todas as definições de configuração de arquivamento aplicadas ao escopo do site:
   
-```
+```PowerShell
 Get-CsArchivingConfiguration -Filter "site:*" | Remove-CsArchivingConfiguration
 ```
 
 O próximo comando remove todas as definições de configuração de arquivamento onde o arquivamento do Exchange foi desativado:
   
-```
+```PowerShell
 Get-CsArchivingConfiguration | Where-Object {$_.EnableExchangeArchiving -eq $False} | Remove-CsArchivingConfiguration
 ```
 
 Você também pode usar o cmdlet **Remove-CsArchivingConfiguration** para redefinir as configurações globais com o valor padrão. Por exemplo, suponhamos que você tenha habilitado o arquivamento de sessões de IM no nível global; o seguinte comando redefinirá o valor para o padrão Nenhum, que desabilitará o arquivamento no nível global:
   
-```
+```PowerShell
 Remove-CsArchivingConfiguration -Identity global
 ```
 

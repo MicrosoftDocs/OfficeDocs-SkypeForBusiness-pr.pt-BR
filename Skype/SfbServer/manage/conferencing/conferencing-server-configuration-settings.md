@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
 description: 'Resumo: saiba como gerenciar as definições de configuração do servidor de conferência no Skype for Business Server.'
-ms.openlocfilehash: 190cd78e3c81f98859c40fe386fae2c4fd934a8e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: be6ccb094cc19a29534d1ca78eb2cae1457d6512
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288996"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991896"
 ---
 # <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>Gerenciar definições de configuração do servidor de conferência no Skype for Business Server
  
@@ -42,7 +42,7 @@ Para gerenciar as configurações de configuração de conferência usando o She
    
 O seguinte comando cria uma nova coleção de definições de configuração de conferência para o site Redmond (site:Redmond). Neste exemplo, foi incluído um parâmetro adicional (Organization), que é usado para definir o valor da propriedade Organization como Litwareinc: 
   
-```
+```PowerShell
 New-CsConferencingConfiguration -Identity site:Redmond -Organization Litwareinc
 ```
 
@@ -56,7 +56,7 @@ Depois que a coleção tiver sido criada, o segundo comando define o valor da pr
   
 Finalmente, o terceiro comando usa o cmdlet **Set-CsConferencingConfiguration** para aplicar realmente as novas configurações ao site Redmond:
   
-```
+```PowerShell
 $x = New-CsConferencingConfiguration -Identity site:Redmond -InMemory
 $x.Organization = "Litwareinc"
 Set-CsConferencingConfiguration -Instance $x

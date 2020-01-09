@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Depois de remover um servidor de arquivamento, você pode remover os bancos de dados do SQL Server que hospedavam os dados do pool. Use os procedimentos a seguir para remover as definições do construtor de topologias e, em seguida, remover os arquivos de banco de dados e de log do servidor de banco de dados.
-ms.openlocfilehash: ab76c8ebc629206827be0a4c0a5477eff54a0923
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 149342f49fded4af294f76028140a9f76f190ed1
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241553"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988996"
 ---
 # <a name="remove-the-sql-server-database-for-an-archiving-server"></a>Remover o banco de dados do Servidor SQL de um servidor de Arquivamento
 
@@ -24,7 +24,7 @@ Depois de remover um servidor de arquivamento, você pode remover os bancos de d
 
 1. No servidor front-end do Skype for Business Server 2019, abra o construtor de topologias.
     
-2. No construtor de topologias, navegue até **componentes compartilhados** e, em seguida, repositórios do **SQL Server**, clique com o botão direito do mouse na instância do SQL Server associada ao servidor de arquivamento removido ou reconfigurado e clique em **excluir**.
+2. No construtor de topologias, navegue até **componentes compartilhados** e, em seguida, **repositórios do SQL Server**, clique com o botão direito do mouse na instância do SQL Server associada ao servidor de arquivamento removido ou reconfigurado e clique em **excluir**.
     
 3. Publique a topologia e, em seguida, verifique o status de replicação. 
     
@@ -36,7 +36,7 @@ Depois de remover um servidor de arquivamento, você pode remover os bancos de d
     
 3. Na linha de comando, digite o seguinte:
     
-   ```
+   ```PowerShell
    Uninstall-CsDataBase -DatabaseType Archiving -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
    ```
 

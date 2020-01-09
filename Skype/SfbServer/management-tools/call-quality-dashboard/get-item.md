@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e77bf649-d62a-4d94-80de-066ba47730cd
 description: 'Resumo: Saiba mais sobre a operação de obtenção de itens, que faz parte do serviço de item. O serviço de item faz parte da API do repositório para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.'
-ms.openlocfilehash: bfd5015603ac73fb48c4e30635cf8ae0fb14bf13
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 208ad3d1852ab58b7fcd0d01eeb440097328f733
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274713"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992668"
 ---
 # <a name="get-item"></a>Obter item
  
@@ -46,7 +46,7 @@ Obter item retorna um item específico no repositório.
   
  **Corpo da resposta** -abaixo está uma carga de resposta de exemplo em JSON.
   
-```
+```json
 {
 "itemId": 1652,
 "userId": 0,
@@ -64,6 +64,6 @@ Obter item retorna um item específico no repositório.
   
  *tipo* – o tipo do conteúdo. Este campo é definido pelos aplicativos.
   
- ** subitemids – as IDs de subitens, se houver. Trata-se de um curto circuito para obter a operação de subitens para salvar uma chamada. Os aplicativos também podem obter as mesmas informações usando a operação obter subitens.
+ *Subitemids* – as IDs de subitens, se houver. Trata-se de um curto circuito para obter a operação de subitens para salvar uma chamada. Os aplicativos também podem obter as mesmas informações usando a operação obter subitens.
   
 

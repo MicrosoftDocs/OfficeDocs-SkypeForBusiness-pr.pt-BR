@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 143cf9bd-b935-494d-817c-a8b0ccc61eb8
 description: O Skype for Business Server 2015 altera ou provisionamento de topologia para permitir que os usuários executem com êxito a ferramenta de stress e desempenho.
-ms.openlocfilehash: c7cdc10b3667ac99376904c81309df739e49844a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e58bfce5e618c6e62f272c0acb0b415cbb471d40
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299699"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992488"
 ---
 # <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>Provisionando a topologia para executar carga em cenários de carga e desempenho
  
@@ -27,13 +27,13 @@ Dependendo das configurações existentes e da configuração da sua implantaç�
   
 1. Defina a política de execução do Windows PowerShell como Irrestrito. Se não tiver certeza de que ele está definido no momento, você pode abrir o Shell de gerenciamento do Skype for Business Server e executar este comando:
     
-   ```
+   ```PowerShell
    Get-ExecutionPolicy
    ```
 
    Se o valor irrestrito não for retornado, você precisará executar o seguinte:
     
-   ```
+   ```PowerShell
    Set-ExecutionPolicy -Unrestricted
    ```
 
@@ -45,7 +45,7 @@ Dependendo das configurações existentes e da configuração da sua implantaç�
     
 3. Para executar um script a partir da linha de comando, você pode usar:
     
-   ```
+   ```PowerShell
    PowerShell.exe -file <path to the file>
    ```
 

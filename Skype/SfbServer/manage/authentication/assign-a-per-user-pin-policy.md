@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
 description: 'Resumo: testar o AV e certificados OAuth para o Skype for Business Server.'
-ms.openlocfilehash: dafb70239552b9ee2c5e84e7624e881711e8ce6f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7591464d55970a9aee4fb1f7ddbb28c2efbac601
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278353"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992718"
 ---
 # <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>Atribuir uma política de PIN por usuário no Skype for Business Server
 
@@ -84,7 +84,7 @@ Você pode atribuir políticas de PIN por usuário usando o Windows PowerShell e
 
 - O seguinte comando atribui a política PIN por usuário RedmondPinPolicy ao usuário Ken Myer.
     
-  ```
+  ```PowerShell
   Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName "RedmondPinPolicy"
   ```
 
@@ -92,7 +92,7 @@ Você pode atribuir políticas de PIN por usuário usando o Windows PowerShell e
 
 - O seguinte comando atribui a política PIN por usuário RedmondUsersPinPolicy a todos os usuários que trabalham na cidade de Redmond. Para obter detalhes sobre o parâmetro LdapFilter usado neste comando, consulte [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps).
     
-  ```
+  ```PowerShell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"
   ```
 
@@ -100,7 +100,7 @@ Você pode atribuir políticas de PIN por usuário usando o Windows PowerShell e
 
 - O seguinte comando retira a atribuição de qualquer política PIN por usuário anteriormente atribuída a Ken Myer. Após a política por usuário ser retirada, Ken irá automaticamente ser gerenciado usando a política global ou, se existir, sua política de site local. Uma política de site tem precedência sobre a política global.
     
-  ```
+  ```PowerShell
   Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 

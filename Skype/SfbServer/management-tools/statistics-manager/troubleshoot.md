@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 'Resumo: Leia este tópico para solucionar problemas de implantação do Gerenciador de estatísticas do Skype for Business Server.'
-ms.openlocfilehash: b85ee6593413cce0aa5b7c76901dbbc6099107fd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7d9ea061453998f2df01cd2ec31e792600697ee1
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299692"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992508"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Solução de problemas do Gerenciador de estatísticas do Skype for Business Server
  
@@ -39,13 +39,13 @@ Este tópico descreve como solucionar problemas de implantação do Gerenciador 
     
     O Agente é executado dentro de um Objeto de trabalho do Windows que limita automaticamente seu volume de memória. Se o agente não for iniciado e essas entradas de evento estiverem presentes no log de eventos, o Objeto de trabalho não consegue ser instanciado no servidor. Para contornar o problema, o limite de memória superior pode ser removido com a alteração de um valor no arquivo de configurações:
     
-  ```
+  ```console
   C:\Program Files\Skype for Business Server StatsMan Agent\PerfAgent.exe.config
   ```
 
     Procure por "MaxProcessMemoryMB" e altere o valor para "0" conforme mostrado:
     
-  ```
+  ```console
   <setting name="MaxProcessMemoryMB" serializeAs="String"> <value>300</value> </setting>
   ```
 

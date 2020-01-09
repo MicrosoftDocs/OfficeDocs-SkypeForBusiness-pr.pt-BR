@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: 'Resumo: saiba como gerenciar políticas de PIN para conferência discada no Skype for Business Server.'
-ms.openlocfilehash: a8db6fc0398d2f577afe54ab2289c3122adcb197
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f5ffef4af17a4337fe600b2059aab1ea106235ae
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280352"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992288"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>Gerenciar políticas de PIN para conferência discada no Skype for Business Server
  
@@ -47,7 +47,7 @@ Você pode exibir informações sobre políticas de PIN usando o painel de contr
 
 Para exibir informações sobre políticas de PIN, use o cmdlet **Get-CsPinPolicy**. Por exemplo, o seguinte comando retorna informações sobre uma única política de PIN com a identidade site:Redmond:
   
-```
+```PowerShell
 Get-CsPinPolicy -Identity "site:Redmond"
 ```
 
@@ -92,7 +92,7 @@ Para modificar a política de PIN de conferência de discagem global, use o cmdl
   
 O seguinte comando altera o valor de MinPasswordLength em todas as políticas de PIN configuradas para uso na organização. Para isso, o comando chama primeiro o cmdlet **Get-CsPinPolicy**. sem nenhum parâmetro para recuperar uma coleção de todas as políticas de PIN existentes. Esta coleção é então canalizada ao cmdlet **Set-CsPinPolicy**, que modifica o valor da propriedade MinPasswordLength de cada política da coleção:
   
-```
+```PowerShell
 Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
 ```
 
@@ -143,7 +143,7 @@ Para criar uma política de PIN de site ou usuário, use o cmdlet **New-CsPinPol
   
 O comando a seguir cria uma nova política de PIN com a Identidade site:Redmond. Esse comando inclui apenas um parâmetro opcional (MinPasswordLength), que é usado para definir a propriedade MinPasswordLength como sendo 7. Todas as demais propriedades de política serão configuradas usando-se os valores padrão.
   
-```
+```PowerShell
 New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
 ```
 
@@ -173,7 +173,7 @@ Para modificar a política de PIN de conferência de discagem, use o cmdlet **Se
   
 O seguinte comando modifica a política de PIN atribuída ao site de Redmond. Nesse caso, o comando alterará o valor da propriedade MinPasswordLength para 10. Isso significa que os novos PINs deverão conter pelo menos dez dígitos:
   
-```
+```PowerShell
 Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
 ```
 
@@ -199,7 +199,7 @@ Para excluir uma política de PIN de site ou usuário, use o cmdlet **Remove-CsP
   
 O comando a seguir remove todas as diretivas de PIN que foram configuradas no escopo do site. Para fazer isso, o cmdlet **Get-CsPinPolicy** é usado, com o parâmetro Filter, para retornar uma coleção de todas as diretivas que tenham Identidade começando com os caracteres "site:". A coleção é então canalizada para o cmdlet **Remove-CsPinPolicy**, que exclui todas as diretivas na coleção.
   
-```
+```PowerShell
 Get-CsPinPolicy -Filter "site:*" | Remove-CsPinPolicy
 ```
 

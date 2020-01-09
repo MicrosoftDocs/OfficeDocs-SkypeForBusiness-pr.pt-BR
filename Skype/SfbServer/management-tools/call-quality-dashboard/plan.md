@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Resumo: saiba o que deve ser considerado ao planejar o painel de qualidade da chamada.'
-ms.openlocfilehash: c98828f8fed3567a892e20dcab8040bb731c91f2
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 3a0982f565495740887b6da07dd802de1205dcf8
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328433"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991406"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Planejar o painel de qualidade de chamada para o Skype for Business Server 
  
@@ -195,7 +195,7 @@ Esta seção pressupõe a pressuposição de que há um único QoEMetrics DB no 
 |:-----|:-----|:-----|:-----|:-----|
 |Máquina virtual  <br/> |4  <br/> |7 GB  <br/> |Sim  <br/> |Sim  <br/> |
 |4 núcleo  <br/> |4  <br/> |20 GB  <br/> |Sim  <br/> |Não  <br/> |
-|8 núcleo  <br/> |08  <br/> |32 GB  <br/> |Sim  <br/> |Não  <br/> |
+|8 núcleo  <br/> |8  <br/> |32 GB  <br/> |Sim  <br/> |Não  <br/> |
 |16 núcleo  <br/> |16  <br/> |128 GB  <br/> |Não  <br/> |Não  <br/> |
    
 **Resultados de desempenho**
@@ -284,11 +284,11 @@ Estes são os serviços de função IIS necessários (em ordem hierárquica):
   
 Para instalar esses requisitos usando o PowerShell, execute o seguinte:
   
-```
+```PowerShell
 import-module servermanager
 ```
 
-```
+```PowerShell
 add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net, Web-Asp-Net45, Web-Net-Ext, Web-Net-Ext45, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Url-Auth, Web-Windows-Auth, Web-Mgmt-Console
 ```
 
@@ -320,7 +320,7 @@ Para obter ajuda adicional sobre como instalar e configurar os recursos de Busin
 
 Três contas de serviço de domínio são recomendadas no princípio do privilégio mínimo: 
   
-- Um que já tenha um objeto de segurança de logon para o banco de dados de métricas de QoE (com o privilégio db_datareader) e um objeto de segurança de logon no recurso QoE Archive SQL Server (necessário para criar um objeto de servidor vinculado durante a instalação). Esta conta será usada para executar a etapa "QoE Archive Data" do trabalho do SQL Server Agent.
+- Um que já tem um objeto de segurança de logon para o banco de dados de métricas de QoE (com db_datareader privilégio) e um objeto de segurança de logon no recurso de QoE do SQL Server (necessário para criar um objeto de servidor vinculado durante a instalação). Esta conta será usada para executar a etapa "QoE Archive Data" do trabalho do SQL Server Agent.
     
 - Um que será usado para executar a etapa "processar cubo" do trabalho do agente do SQL Server. A instalação criará uma entidade de segurança de logon para o arquivo de banco de dados de QoE (com privilégio de leitura e gravação) e também criará um membro na função QoE (com o privilégio controle total) para o cubo.
     
