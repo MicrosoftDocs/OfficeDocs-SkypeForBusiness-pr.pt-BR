@@ -10,76 +10,76 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: 'Resumo: saiba como testar a conferência discada no Skype for Business Server.'
-ms.openlocfilehash: cd1192950ff7c8b609655d78bbc57dfdbc4c1710
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a19adba9d36fd7f862b9b40d3c7c239933fa7847
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280359"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992268"
 ---
-# <a name="test-dial-in-conferencing-in-skype-for-business-server"></a><span data-ttu-id="db1cf-103">Testar a conferência discada no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="db1cf-103">Test dial-in conferencing in Skype for Business Server</span></span>
+# <a name="test-dial-in-conferencing-in-skype-for-business-server"></a><span data-ttu-id="d6974-103">Testar a conferência discada no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="d6974-103">Test dial-in conferencing in Skype for Business Server</span></span>
  
-<span data-ttu-id="db1cf-104">**Resumo:** Saiba como testar a conferência discada no Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="db1cf-104">**Summary:** Learn how to test dial-in conferencing in Skype for Business Server.</span></span>
+<span data-ttu-id="d6974-104">**Resumo:** Saiba como testar a conferência discada no Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="d6974-104">**Summary:** Learn how to test dial-in conferencing in Skype for Business Server.</span></span>
   
-<span data-ttu-id="db1cf-105">Como verificação final da configuração da conferência discada, você pode pesquisar planos de discagem com uma região de conferência discada que não seja usada por nenhum número de acesso e para números de acesso que não especificaram uma região de conferência discada.</span><span class="sxs-lookup"><span data-stu-id="db1cf-105">As final verification of your dial-in conferencing configuration, you can search for dial plans that have a dial-in conferencing region that is not used by any access number and for access numbers that have not specified a dial-in conferencing region.</span></span> <span data-ttu-id="db1cf-106">Você também deve verificar se a página da web de Configurações de Conferência Discada e os números de acesso discado funcionam corretamente.</span><span class="sxs-lookup"><span data-stu-id="db1cf-106">You should also verify that the Dial-in Conferencing Settings webpage and the dial-in access numbers work correctly.</span></span>
+<span data-ttu-id="d6974-105">Como verificação final da configuração da conferência discada, você pode pesquisar planos de discagem com uma região de conferência discada que não seja usada por nenhum número de acesso e para números de acesso que não especificaram uma região de conferência discada.</span><span class="sxs-lookup"><span data-stu-id="d6974-105">As final verification of your dial-in conferencing configuration, you can search for dial plans that have a dial-in conferencing region that is not used by any access number and for access numbers that have not specified a dial-in conferencing region.</span></span> <span data-ttu-id="d6974-106">Você também deve verificar se a página da web de Configurações de Conferência Discada e os números de acesso discado funcionam corretamente.</span><span class="sxs-lookup"><span data-stu-id="d6974-106">You should also verify that the Dial-in Conferencing Settings webpage and the dial-in access numbers work correctly.</span></span>
   
-## <a name="find-dial-plans-with-a-dial-in-conferencing-region-that-is-not-used-by-an-access-number"></a><span data-ttu-id="db1cf-107">Encontre planos de discagem com uma região de conferência discada que não seja usada por um número de acesso</span><span class="sxs-lookup"><span data-stu-id="db1cf-107">Find dial plans with a dial-in conferencing region that is not used by an access number</span></span>
+## <a name="find-dial-plans-with-a-dial-in-conferencing-region-that-is-not-used-by-an-access-number"></a><span data-ttu-id="d6974-107">Encontre planos de discagem com uma região de conferência discada que não seja usada por um número de acesso</span><span class="sxs-lookup"><span data-stu-id="d6974-107">Find dial plans with a dial-in conferencing region that is not used by an access number</span></span>
 
-1. <span data-ttu-id="db1cf-108">Faça logon no computador como membro do grupo  RTCUniversalServerAdmins  ou como membro da função  Cs-ServerAdministrator  ou  CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="db1cf-108">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the Cs-ServerAdministrator or CsAdministrator role.</span></span>
+1. <span data-ttu-id="d6974-108">Faça logon no computador como membro do grupo  RTCUniversalServerAdmins  ou como membro da função  Cs-ServerAdministrator  ou  CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="d6974-108">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the Cs-ServerAdministrator or CsAdministrator role.</span></span>
     
-2. <span data-ttu-id="db1cf-109">Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.</span><span class="sxs-lookup"><span data-stu-id="db1cf-109">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+2. <span data-ttu-id="d6974-109">Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.</span><span class="sxs-lookup"><span data-stu-id="d6974-109">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-3. <span data-ttu-id="db1cf-110">Execute o seguinte no prompt de comando:</span><span class="sxs-lookup"><span data-stu-id="db1cf-110">Run the following at the command prompt:</span></span>
+3. <span data-ttu-id="d6974-110">Execute o seguinte no prompt de comando:</span><span class="sxs-lookup"><span data-stu-id="d6974-110">Run the following at the command prompt:</span></span>
     
-   ```
+   ```PowerShell
    Get-CsDialinConferencingAccessNumber -EmptyRegion
    ```
 
-    <span data-ttu-id="db1cf-111">Este cmdlet retorna todos os planos de discagem que possuem uma região de conferência discada que não é usada por um número de acesso.</span><span class="sxs-lookup"><span data-stu-id="db1cf-111">This cmdlet returns all of the dial plans that have a dial-in conferencing region that is not used by an access number.</span></span>
+    <span data-ttu-id="d6974-111">Este cmdlet retorna todos os planos de discagem que possuem uma região de conferência discada que não é usada por um número de acesso.</span><span class="sxs-lookup"><span data-stu-id="d6974-111">This cmdlet returns all of the dial plans that have a dial-in conferencing region that is not used by an access number.</span></span>
     
-<span data-ttu-id="db1cf-112">Para obter mais informações, consulte [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="db1cf-112">For more information, see [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).</span></span>
+<span data-ttu-id="d6974-112">Para obter mais informações, consulte [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="d6974-112">For more information, see [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).</span></span>
   
-## <a name="find-access-numbers-without-assigned-regions"></a><span data-ttu-id="db1cf-113">Encontre números de acesso sem regiões atribuídas</span><span class="sxs-lookup"><span data-stu-id="db1cf-113">Find access numbers without assigned regions</span></span>
+## <a name="find-access-numbers-without-assigned-regions"></a><span data-ttu-id="d6974-113">Encontre números de acesso sem regiões atribuídas</span><span class="sxs-lookup"><span data-stu-id="d6974-113">Find access numbers without assigned regions</span></span>
 
-1. <span data-ttu-id="db1cf-114">Faça logon no computador como membro do grupo  RTCUniversalServerAdmins  ou como membro da função  Cs-ServerAdministrator  ou  CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="db1cf-114">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the Cs-ServerAdministrator or CsAdministrator role.</span></span>
+1. <span data-ttu-id="d6974-114">Faça logon no computador como membro do grupo  RTCUniversalServerAdmins  ou como membro da função  Cs-ServerAdministrator  ou  CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="d6974-114">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the Cs-ServerAdministrator or CsAdministrator role.</span></span>
     
-2. <span data-ttu-id="db1cf-115">Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.</span><span class="sxs-lookup"><span data-stu-id="db1cf-115">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+2. <span data-ttu-id="d6974-115">Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.</span><span class="sxs-lookup"><span data-stu-id="d6974-115">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-3. <span data-ttu-id="db1cf-116">Execute o seguinte no prompt de comando:</span><span class="sxs-lookup"><span data-stu-id="db1cf-116">Run the following at the command prompt:</span></span>
+3. <span data-ttu-id="d6974-116">Execute o seguinte no prompt de comando:</span><span class="sxs-lookup"><span data-stu-id="d6974-116">Run the following at the command prompt:</span></span>
     
-   ```
+   ```PowerShell
    Get-CsDialinConferencingAccessNumber -Region NULL
    ```
 
-    <span data-ttu-id="db1cf-117">Este cmdlet retorna todos números de acesso de conferência discada que não estão associados a uma região.</span><span class="sxs-lookup"><span data-stu-id="db1cf-117">This cmdlet returns all the dial-in conferencing access numbers that are not associated with a region.</span></span>
+    <span data-ttu-id="d6974-117">Este cmdlet retorna todos números de acesso de conferência discada que não estão associados a uma região.</span><span class="sxs-lookup"><span data-stu-id="d6974-117">This cmdlet returns all the dial-in conferencing access numbers that are not associated with a region.</span></span>
     
-<span data-ttu-id="db1cf-118">Para obter mais informações, consulte [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="db1cf-118">For more information, see [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).</span></span>
+<span data-ttu-id="d6974-118">Para obter mais informações, consulte [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="d6974-118">For more information, see [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).</span></span>
   
-## <a name="test-webpage-and-access-numbers"></a><span data-ttu-id="db1cf-119">Teste a página da web e os números de acesso</span><span class="sxs-lookup"><span data-stu-id="db1cf-119">Test webpage and access numbers</span></span>
+## <a name="test-webpage-and-access-numbers"></a><span data-ttu-id="d6974-119">Teste a página da web e os números de acesso</span><span class="sxs-lookup"><span data-stu-id="d6974-119">Test webpage and access numbers</span></span>
 
-<span data-ttu-id="db1cf-120">Para verificar se a página da Web de Configurações de Conferência Discada e os números de acesso discado funcionam corretamente, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="db1cf-120">To verify that the Dial-in Conferencing Settings webpage and the dial-in access numbers work correctly, you need to do the following:</span></span>
+<span data-ttu-id="d6974-120">Para verificar se a página da Web de Configurações de Conferência Discada e os números de acesso discado funcionam corretamente, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="d6974-120">To verify that the Dial-in Conferencing Settings webpage and the dial-in access numbers work correctly, you need to do the following:</span></span>
   
-- <span data-ttu-id="db1cf-121">Entre na URL simples para testar a página da Web Configurações de Conferência Discada.</span><span class="sxs-lookup"><span data-stu-id="db1cf-121">Test the Dial-in Conferencing Settings webpage by signing in to the simple URL.</span></span>
+- <span data-ttu-id="d6974-121">Entre na URL simples para testar a página da Web Configurações de Conferência Discada.</span><span class="sxs-lookup"><span data-stu-id="d6974-121">Test the Dial-in Conferencing Settings webpage by signing in to the simple URL.</span></span>
     
-- <span data-ttu-id="db1cf-p102">Teste se os números de acesso funcionam corretamente para um pool específico executando o script posteriormente neste tópico. Esse script simula chamadas para números de acesso. Você precisa do endereço SIP e das credenciais de um cliente de UC (comunicações unificadas) que esteja hospedado no pool específico para usar esse script.</span><span class="sxs-lookup"><span data-stu-id="db1cf-p102">Test that access numbers work correctly for a specific pool by running the script later in this topic. This script simulates calls to access numbers. You need the SIP address and credentials of one unified communications (UC) client that is hosted on the specific pool to use this script.</span></span>
+- <span data-ttu-id="d6974-p102">Teste se os números de acesso funcionam corretamente para um pool específico executando o script posteriormente neste tópico. Esse script simula chamadas para números de acesso. Você precisa do endereço SIP e das credenciais de um cliente de UC (comunicações unificadas) que esteja hospedado no pool específico para usar esse script.</span><span class="sxs-lookup"><span data-stu-id="d6974-p102">Test that access numbers work correctly for a specific pool by running the script later in this topic. This script simulates calls to access numbers. You need the SIP address and credentials of one unified communications (UC) client that is hosted on the specific pool to use this script.</span></span>
     
-### <a name="to-test-access-numbers-for-a-specific-pool"></a><span data-ttu-id="db1cf-125">Para testar os números de acesso de um pool específico</span><span class="sxs-lookup"><span data-stu-id="db1cf-125">To test access numbers for a specific pool</span></span>
+### <a name="to-test-access-numbers-for-a-specific-pool"></a><span data-ttu-id="d6974-125">Para testar os números de acesso de um pool específico</span><span class="sxs-lookup"><span data-stu-id="d6974-125">To test access numbers for a specific pool</span></span>
 
-1. <span data-ttu-id="db1cf-126">Faça logon no computador como membro do grupo  RTCUniversalServerAdmins  ou como membro da função  Cs-ServerAdministrator  ou  CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="db1cf-126">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the Cs-ServerAdministrator or CsAdministrator role.</span></span>
+1. <span data-ttu-id="d6974-126">Faça logon no computador como membro do grupo  RTCUniversalServerAdmins  ou como membro da função  Cs-ServerAdministrator  ou  CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="d6974-126">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the Cs-ServerAdministrator or CsAdministrator role.</span></span>
     
-2. <span data-ttu-id="db1cf-127">Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.</span><span class="sxs-lookup"><span data-stu-id="db1cf-127">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+2. <span data-ttu-id="d6974-127">Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.</span><span class="sxs-lookup"><span data-stu-id="d6974-127">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-3. <span data-ttu-id="db1cf-128">Execute o seguinte no prompt de comando:</span><span class="sxs-lookup"><span data-stu-id="db1cf-128">Run the following at the command prompt:</span></span>
+3. <span data-ttu-id="d6974-128">Execute o seguinte no prompt de comando:</span><span class="sxs-lookup"><span data-stu-id="d6974-128">Run the following at the command prompt:</span></span>
     
-   ```
+   ```PowerShell
    $credentials = Get-Credential
    User name:  testuser1@contoso.com
    Password:  ********
    Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
    ```
 
-    <span data-ttu-id="db1cf-129">O relatório resultante mostra êxito ou falha, juntamente com informações de diagnóstico específicas.</span><span class="sxs-lookup"><span data-stu-id="db1cf-129">The resulting report shows either Success or Failure, along with specific diagnostic information.</span></span> <span data-ttu-id="db1cf-130">O sinalizador-Verbose fornece informações mais detalhadas sobre quantos números de acesso foram encontrados e detalhes sobre eles.</span><span class="sxs-lookup"><span data-stu-id="db1cf-130">The -Verbose flag provides more detailed information about how many access numbers were found and details about them.</span></span>
+    <span data-ttu-id="d6974-129">O relatório resultante mostra êxito ou falha, juntamente com informações de diagnóstico específicas.</span><span class="sxs-lookup"><span data-stu-id="d6974-129">The resulting report shows either Success or Failure, along with specific diagnostic information.</span></span> <span data-ttu-id="d6974-130">O sinalizador-Verbose fornece informações mais detalhadas sobre quantos números de acesso foram encontrados e detalhes sobre eles.</span><span class="sxs-lookup"><span data-stu-id="d6974-130">The -Verbose flag provides more detailed information about how many access numbers were found and details about them.</span></span>
     
-<span data-ttu-id="db1cf-131">Para obter mais informações, consulte [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="db1cf-131">For more information, see [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps).</span></span>
+<span data-ttu-id="d6974-131">Para obter mais informações, consulte [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="d6974-131">For more information, see [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps).</span></span>
   
 
