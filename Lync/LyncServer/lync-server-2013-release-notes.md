@@ -10,12 +10,12 @@ ms:contentKeyID: 48184930
 ms.date: 12/09/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a93fabf10355dcc4ba7873921c0aaf35475927c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bf5eadb591b7e198ee75ff197b3836673ae0ecc3
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824033"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992378"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -107,7 +107,7 @@ O serviço de armazenamento do Lync Server usa a Windows Fabric para replicaçã
 
 **Possíveis**
 
-Para\_contornar esse problema, se o LYSS de\_\_\_erros de BD (ID = 32058) e o espaço\_\_\_de BD do\_LYSS usados críticos (ID = 32059) forem gerados no log de eventos, os administradores deverão verificar o contador de desempenho no servidor front-end em **ls: LYSS-API do serviço de armazenamento** com um nome **LYSS-número atual de itens de fila obsoletos do serviço de armazenamento**. Se esse contador de desempenho tiver um valor alto — por exemplo, maior que 50000 – o administrador deve executar a ferramenta CleanuUpStorageServiceData. exe no kit de recursos do Lync Server 2013, que excluirá todos os dados órfãos do pool. Para obter detalhes sobre a ferramenta, consulte a documentação do kit de recursos do Lync Server 2013.
+Para contornar esse problema, se o LYSS\_de\_\_\_erros de BD (ID = 32058) e o espaço\_\_\_de BD do\_LYSS usados críticos (ID = 32059) forem gerados no log de eventos, os administradores devem verificar o contador de desempenho no servidor front-end em **ls: LYSS-Storage Service API** com um nome **LYSS-número atual de itens da fila obsoleto do serviço de armazenamento**. Se esse contador de desempenho tiver um valor alto — por exemplo, maior que 50000 – o administrador deve executar a ferramenta CleanuUpStorageServiceData. exe no kit de recursos do Lync Server 2013, que excluirá todos os dados órfãos do pool. Para obter detalhes sobre a ferramenta, consulte a documentação do kit de recursos do Lync Server 2013.
 
 </div>
 
@@ -123,11 +123,11 @@ Quando a configuração de endereço IP for alterada para uma implantação do L
 
 Para contornar esse problema, reinicie os serviços do Lync Server depois de alterar a configuração do endereço IP para a implantação. Para fazer isso, execute os seguintes cmdlets no Shell de gerenciamento do Lync Server:
 
-   ```
+   ```PowerShell
     Stop-CsWindowsService -graceful
    ```
 
-   ```
+   ```PowerShell
     Start-CsWindowsService
    ```
 
@@ -449,11 +449,11 @@ Para contornar esse problema, atualize o registro do sistema antes de instalar o
 
 1.  Inicie o Windows PowerShell e execute os seguintes cmdlets:
     
-       ```
+       ```PowerShell
         New-PSDrive -Name HKU -PSProvider Registry -Root HKEY_USERS
        ```
     
-       ```
+       ```PowerShell
         $a="HKU:\.Default\Control Panel\International"
        ```
 
@@ -949,7 +949,7 @@ Não há solução alternativa para esses problemas. Para obter mais informaçõ
 
 **Problema**
 
-Depois de concluir o design usando a ferramenta de planejamento, se você fizer alterações nas opções de rede de borda, endereços IP adicionais poderão ser adicionados ao design em vez de atualizar os endereços IP existentes. Isso pode ocorrer quando você estiver exibindo os detalhes do diagrama de rede de borda, selecione **clique aqui para atualizar suas opções**e, em seguida, na caixa de diálogo opções de configuração, selecione o Edge Network selecionar **desejo usar os mesmos FQDNS e endereços IP, mas diferentes portas para os serviços de borda no meu servidor de borda**. Aplicar alterações pode resultar em novos endereços IP e servidores de borda sendo adicionados ao design.
+Depois de concluir o design usando a ferramenta de planejamento, se você fizer alterações nas opções de rede de borda, endereços IP adicionais poderão ser adicionados ao design em vez de atualizar os endereços IP existentes. Isso pode ocorrer quando você estiver exibindo os detalhes do diagrama de rede de borda, selecione **clique aqui para atualizar suas opções**e, em seguida, na caixa de diálogo opções de configuração, selecione usar o Edge Network selecionar **eu quero usar os mesmos FQDNS e endereços IP, mas diferentes portas para os serviços de borda no meu servidor de borda**. Aplicar alterações pode resultar em novos endereços IP e servidores de borda sendo adicionados ao design.
 
 **Possíveis**
 
@@ -963,7 +963,7 @@ No momento, não há solução alternativa para esse problema.
 
 **Problema**
 
-Ao usar o painel de controle do Lync Server para mover todos os usuários de um pool para outro em um ambiente do Active Directory complexo, como um com vários controladores de domínio e domínios pai/filho, uma mensagem de erro pode ser retornada que diz "o usuário especificado é e não um usuário herdado, use o cmdlet Move-CsUser. " Isso resulta de tempos de replicação mais longos em ambientes complexos do Active Directory.
+Ao usar o painel de controle do Lync Server para mover todos os usuários de um pool para outro em um ambiente do Active Directory complexo, como um com vários controladores de domínio e domínios pai/filho, uma mensagem de erro pode ser retornada que diz: "o usuário especificado não é um usuário herdado, use o cmdlet Move-CsUser em vez disso." Isso resulta de tempos de replicação mais longos em ambientes complexos do Active Directory.
 
 **Possíveis**
 
@@ -1003,7 +1003,7 @@ Para contornar esse problema, siga um destes procedimentos:
 
 **Problema**
 
-Quando um administrador desabilita um banco de dados de espelhamento no construtor de topologias e, em seguida, exclui o banco de dados de espelhamento no construtor de topologias, uma mensagem é exibida na lista de tarefas pendentes para que o administrador execute o cmdlet **Uninstall-csMirrorDatabase** para remover espelhamento do SQL Server. Quando o administrador tenta executar o cmdlet, ele falha.
+Quando um administrador desabilita um banco de dados de espelhamento no construtor de topologias e, em seguida, exclui o banco de dados de espelhamento no construtor de topologias, uma mensagem é exibida na lista de tarefas pendentes para que o administrador execute o cmdlet **Uninstall-csMirrorDatabase** para remover o espelhamento do SQL Server. Quando o administrador tenta executar o cmdlet, ele falha.
 
 **Possíveis**
 
@@ -1019,7 +1019,7 @@ O parâmetro *DropExistingDatabasesOnMirror* faz com que os bancos de dados afet
 
 1.  No Construtor de Topologias, clique com o botão direito do mouse no pool e clique em **Editar Propriedades**.
 
-2.  Desmarque Habilitar o espelhamento do **SQL Store** e clique em **OK**.
+2.  Desmarque **habilitar o espelhamento do SQL Store** e clique em **OK**.
 
 3.  Publique a topologia.
 
@@ -1041,7 +1041,7 @@ O parâmetro *DropExistingDatabasesOnMirror* faz com que os bancos de dados afet
 
 **Problema**
 
-Se um administrador tentar usar o comando **remover implantação** no construtor de topologias para remover uma implantação que inclua um pool de front-end com um repositório testemunha associado, um erro de validação será exibido no construtor de topologias e a ação não continuará .
+Se um administrador tentar usar o comando **remover implantação** no construtor de topologias para remover uma implantação que inclui um pool de front-ends com um repositório testemunha associado, um erro de validação será exibido no construtor de topologias e a ação não continuará.
 
 **Possíveis**
 
@@ -1181,7 +1181,7 @@ Os seguintes caracteres e locais não podem ser indexados:
 
 **Problema**
 
-Ao selecionar uma localidade neutra em um navegador da Web (no Internet Explorer, por exemplo, o nome do idioma sem especificação adicional, como \["\]norueguês não") em vez de uma localidade especificando o idioma, o script e a localidade (como "norueguês, Bokmål ( Noruega) \[NB-no\]") pode levar a comportamento de exibição inesperado para determinados idiomas no Lync Web Scheduler, discar, inicializador de junção, gerenciamento de salas de chat persistente e OCTab. Por exemplo, os usuários podem ver a página em inglês quando um dos seguintes idiomas estiver selecionado:
+Ao selecionar uma localidade neutra em um navegador da Web (no Internet Explorer, por exemplo, o nome do idioma sem especificação adicional, como \["\]norueguês não") em vez de uma localidade especificando o idioma, o script e a localidade (como "norueguês \[, BOKMÅL (\]Noruega) NB-não") pode levar a comportamento de exibição inesperado para certos idiomas no Lync Web Scheduler, discar, inicializador de junção, gerenciamento de salas de chat persistente e OCTab. Por exemplo, os usuários podem ver a página em inglês quando um dos seguintes idiomas estiver selecionado:
 
   - Norueguês
 
@@ -1237,9 +1237,9 @@ Quando um usuário que estiver usando a versão em romeno do Lync Web App execut
 
 2.  Selecione a guia **telefone** .
 
-3.  Clique na lista suspensa de ingressar **na reunião**.
+3.  Clique na lista suspensa de **ingressar na reunião**.
     
-    Os usuários não verão uma seta que indica que há mais opções do que o Lync padrão do **Lync**, que inclui: **não ingressar no áudio** (em Romeno, "nu se asociaža o componenteum áudio") e **novo número**"(em Romeno," Număr Nou ").
+    Os usuários não verão uma seta que indica que há mais opções do que o **Lync**padrão do Lync, que inclui: **não ingressar no áudio** (em Romeno, "nu se asociaža o componenteum áudio") e **novo número**"(em Romeno," Număr Nou ").
 
 **Possíveis**
 

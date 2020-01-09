@@ -10,12 +10,12 @@ ms:contentKeyID: 48184270
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cda79f7b80d6f1bbdf2163ecf987f4a05949bfc4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6bad6bf4e2b09296e21aec75e206ba867415754a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844933"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992046"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -109,11 +109,11 @@ Para implantar o proxy XMPP no servidor de borda, você deve configurar o servid
 
 22. Depois de receber, importar e atribuir o certificado público, você deve parar e reiniciar os serviços do servidor de borda. Para fazer isso, digite no console de gerenciamento do Lync Server:
     
-       ```
+       ```PowerShell
         Stop-CsWindowsService
        ```
     
-       ```
+       ```PowerShell
         Start-CsWindowsService
        ```
 
@@ -130,39 +130,39 @@ Para implantar o proxy XMPP no servidor de borda, você deve configurar o servid
 
 24. Configure uma nova política de acesso externo para permitir que todos os usuários abram o Shell de gerenciamento do Lync Server no front-end e digitem:
     
-       ```
+       ```PowerShell
         New-CsExternalAccessPolicy -Identity <name of policy to create.  If site scope, prepend with 'site:'> -EnableFederationAcces $true -EnablePublicCloudAccess $true
        ```
     
-       ```
+       ```PowerShell
         New-CsExternalAccessPolicy -Identity FedPic -EnableFederationAcces $true -EnablePublicCloudAccess $true
        ```
     
-       ```
+       ```PowerShell
         Get-CsUser | Grant-CsExternalAccessPolicy -PolicyName FedPic
        ```
     
     Habilite o acesso do XMPP para usuários externos digitando:
     
-       ```
+       ```PowerShell
         Set-CsExternalAccessPolicy -Identity <name of the policy being used> EnableXmppAccess $true
        ```
     
-       ```
+       ```PowerShell
         Set-CsExternalAccessPolicy -Identity FedPic -EnableXmppAccess $true
        ```
 
 25. No servidor de borda em que o proxy XMPP está implantado, abra um prompt de comando ou uma interface de linha de comando™ do Windows PowerShell e digite o seguinte:
     
-       ```
+       ```PowerShell
         Netstat -ano | findstr 5269
        ```
     
-       ```
+       ```PowerShell
         Netstat -ano | findstr 23456
        ```
     
-    O comando **netstat – ano** é um comando de estatísticas de rede, os parâmetros – pedido de **ano** em que o netstat exibe todas as conexões e portas de escuta, endereço e portas são exibidos em um formato numérico, e que a ID do processo proprietário está associada com cada conexão. O caractere **|** define um pipe para o próximo comando, **findstr**ou localizar cadeia de caracteres. O número 5269 e 23456 que é passado para findstr como parâmetro instrui findstr para pesquisar a saída do netstat para as cadeias de caracteres 5269 e 23456. Se XMPP estiver configurado corretamente, o resultado dos comandos deve resultar em conexões de escuta e estabelecidas, ambas nas interfaces externa (porta 5269) e interna (porta 23456) do servidor de borda.
+    O comando **netstat – ano** é um comando de estatísticas de rede, os parâmetros – pedido do **ano** em que o netstat exibe todas as conexões e portas de escuta, endereço e portas são exibidos em uma forma numérica e se a ID do processo de propriedade está associada a cada conexão. O caractere **|** define um pipe para o próximo comando, **findstr**ou localizar cadeia de caracteres. O número 5269 e 23456 que é passado para findstr como parâmetro instrui findstr para pesquisar a saída do netstat para as cadeias de caracteres 5269 e 23456. Se XMPP estiver configurado corretamente, o resultado dos comandos deve resultar em conexões de escuta e estabelecidas, ambas nas interfaces externa (porta 5269) e interna (porta 23456) do servidor de borda.
     
     Se os comandos não retornam portas estabelecidas ou em escuta no 5269 e no 23456, verifique o seguinte:
 

@@ -10,12 +10,12 @@ ms:contentKeyID: 48184816
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9c1f5693a14084627d20ae66fa6ec85f6b6c6c6f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6cd8c09346c8f5b562a72e77b9ba40915b480c91
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823844"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991376"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,11 +43,11 @@ Se a herança de permissões estiver desabilitada ou as permissões de usuário 
 
 Se sua organização usa unidades organizacionais (OU) em vez de três recipientes internos (ou seja, usuários, computadores e controladores de domínio), você deve conceder acesso de leitura às UOs do grupo usuários autenticados. O acesso de leitura aos recipientes é necessário para a preparação do domínio. Se o grupo usuários autenticados não tiver acesso de leitura à OU, execute o cmdlet **Grant-CsOuPermission** conforme ilustrado nos exemplos de código a seguir para conceder permissões de leitura para cada UO.
 
-   ```
+   ```PowerShell
     Grant-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU > 
    ```
 
-   ```
+   ```PowerShell
     Grant-CsOuPermission -ObjectType "user","contact",inetOrgPerson" -OU "ou=Redmond,dc=contoso,dc=net"
    ```
 

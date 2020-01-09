@@ -10,12 +10,12 @@ ms:contentKeyID: 62258120
 ms.date: 11/13/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d33888069b00eaf8a4d743f1e6ed3937d7a442bc
-ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
+ms.openlocfilehash: 47fb8d24a2bb112ab07d35097414141b9eaaa606
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34857488"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991646"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,17 +51,17 @@ _**Tópico da última modificação:** 2015-11-13_
 
 1.  Primeiro, verifique se a sua organização está configurada para híbrido.
     
-      - Instale a ferramenta de sincronização do Azure Active Directory. Para obter mais informações, <http://social.technet.microsoft.com/wiki/contents/articles/19098.howto-install-the-windows-azure-active-directory-sync-tool.aspx>consulte.
+      - Instale a ferramenta de sincronização do Azure Active Directory. Para saber mais, confira <http://social.technet.microsoft.com/wiki/contents/articles/19098.howto-install-the-windows-azure-active-directory-sync-tool.aspx>.
     
       - Para permitir que seus usuários usem o logon único para o Lync Online, instale os serviços <http://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx>de Federação do Active Directory.
     
       - Na sua implantação local, no Shell de gerenciamento do Lync Server, digite os seguintes cmdlets para criar o provedor de hospedagem para o Lync Online:
         
-           ```
+           ```PowerShell
            Set-CsAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
            ```
         
-           ```
+           ```PowerShell
             New-CsHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
            ```
 
@@ -127,11 +127,11 @@ _**Tópico da última modificação:** 2015-11-13_
     
     Para mover um único usuário, digite:
     
-       ```
+       ```PowerShell
        $cred = Get-Credential
        ```
     
-       ```
+       ```PowerShell
        Move-CsUser -Identity <username>@contoso.com -Target "<fe-pool>.contoso.com" -Credential $cred -HostedMigrationOverrideURL <URL>
        ```
     
@@ -139,7 +139,7 @@ _**Tópico da última modificação:** 2015-11-13_
     
         Get-CsUser -Filter {Hosting Provider -eq "sipfed.online.lync.com"} | Move-CsUser -Target "<fe-pool>.contoso.com" -Credential $creds -HostedMigrationOverrideURL <URL>
     
-    O formato da URL especificada para o parâmetro **HostedMigrationOverrideUrl** deve ser a URL do pool em que o serviço de migração hospedada está em execução, no seguinte formato *:\<https://pool\>FQDN/HostedMigration/ hostedmigrationService. svc*.
+    O formato da URL especificada para o parâmetro **HostedMigrationOverrideUrl** deve ser a URL do pool em que o serviço de migração hospedada está em execução, no seguinte formato *:\<https://pool\>FQDN/HostedMigration/hostedmigrationService.svc*.
     
     Você pode identificar a URL do serviço de migração hospedado visualizando a URL do Painel de Controle do Lync Online da sua conta de locatário do Office 365.
     
@@ -171,12 +171,12 @@ _**Tópico da última modificação:** 2015-11-13_
     
 
     > [!NOTE]  
-    > O tamanho máximo padrão para arquivos de registro de transação do banco de dados rtcxds é 16 GB. Este tamanho pode não ser suficiente caso você esteja movendo uma grande quantidade de usuários de uma só vez, especialmente se o espelhamento estiver ativado. Para contornar a situação, aumente o tamanho de arquivo ou faça backup dos arquivos de registro regularmente. Para obter mais informações, <A class=uri href="http://support.microsoft.com/kb/2756725">http://support.microsoft.com/kb/2756725</A>consulte.
+    > O tamanho máximo padrão para arquivos de registro de transação do banco de dados rtcxds é 16 GB. Este tamanho pode não ser suficiente caso você esteja movendo uma grande quantidade de usuários de uma só vez, especialmente se o espelhamento estiver ativado. Para contornar a situação, aumente o tamanho de arquivo ou faça backup dos arquivos de registro regularmente. Para saber mais, confira <A class=uri href="http://support.microsoft.com/kb/2756725">http://support.microsoft.com/kb/2756725</A>.
 
     
     </div>
 
-8.  Esta etapa é opcional. Caso precise fazer a integração com o Exchange 2013 Online, será necessário utilizar um provedor de hospedagem adicional. Para obter detalhes, consulte Configurando [a integração do Lync Server 2013 no Exchange Online](lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md).
+8.  Esta etapa é opcional. Caso precise fazer a integração com o Exchange 2013 Online, será necessário utilizar um provedor de hospedagem adicional. Para obter detalhes, consulte [Configurando a integração do Lync Server 2013 no Exchange Online](lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md).
 
 9.  Os usuários foram movidos. Para verificar se um usuário possui os valores corretos dos atributos exibidos na tabela a seguir, digite este cmdlet:
     
@@ -214,8 +214,8 @@ _**Tópico da última modificação:** 2015-11-13_
     <tr class="odd">
     <td><p>msRTCSIP-UserEnabled</p></td>
     <td><p>Habilitado</p></td>
-    <td><p>True</p></td>
-    <td><p>True</p></td>
+    <td><p>Verdadeiro</p></td>
+    <td><p>Verdadeiro</p></td>
     </tr>
     </tbody>
     </table>

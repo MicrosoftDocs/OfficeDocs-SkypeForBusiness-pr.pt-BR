@@ -10,12 +10,12 @@ ms:contentKeyID: 56558799
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce954eff790bae6974f144360637d6061318d3d3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d9e9582941b05a4151be5baa2ce74acfc79b3db3
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837060"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992568"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -104,7 +104,7 @@ configuração. **documentação**
 RHDSetup. **exe**  
 pldok. **efetua**
 
-Embora o Windows PowerShell use uma terminologia diferente, a abordagem básica para trabalhar com o Windows PowerShell é a mesma que trabalhar com a janela de comando: você digita comandos, inclui argumentos e valores de argumento conforme necessário e, em seguida, pressiona ENTER para executar esses comandos. Como observado, no entanto, o Windows PowerShell usa uma terminologia diferente do que o Shell de comando usa. No Windows PowerShell, os comandos que você executa são conhecidos ** como cmdlets. Por sua vez, os argumentos passados para um cmdlet são conhecidos como *parâmetros*, e os valores passados para um parâmetro são conhecidos como *valores de parâmetro*.
+Embora o Windows PowerShell use uma terminologia diferente, a abordagem básica para trabalhar com o Windows PowerShell é a mesma que trabalhar com a janela de comando: você digita comandos, inclui argumentos e valores de argumento conforme necessário e, em seguida, pressiona ENTER para executar esses comandos. Como observado, no entanto, o Windows PowerShell usa uma terminologia diferente do que o Shell de comando usa. No Windows PowerShell, os comandos que você executa são conhecidos como *cmdlets*. Por sua vez, os argumentos passados para um cmdlet são conhecidos como *parâmetros*, e os valores passados para um parâmetro são conhecidos como *valores de parâmetro*.
 
 As definições anteriores são um pouco simplificadas. Cmdlets são essencialmente mini-aplicativos que podem ser executados somente de dentro do ambiente do Windows PowerShell. No entanto, você também pode executar outros comandos e aplicativos no Windows PowerShell, incluindo a maioria dos comandos e aplicativos que podem ser executados a partir de uma janela de comando. Por exemplo, se você quiser iniciar o bloco de notas no Windows PowerShell, tudo o que precisa fazer é digitar o seguinte e pressionar ENTER:
 
@@ -128,7 +128,7 @@ Este comando consiste em três partes:
     
     Isso é útil, não apenas porque os parâmetros devem ser precedidas com um traço, mas também porque isso é diferente da janela de comando, em que os argumentos são precedidas usando uma barra (/):
     
-    ``` 
+    ```console 
     /b
     ```
 
