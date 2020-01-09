@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f800fd9e22eb40753a6bd951f548c4bc16499147
-ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
+ms.openlocfilehash: 50501c3d5e077deacaf183dd36efce72d295f556
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39919153"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40990646"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -29,15 +29,9 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 ## <a name="administration"></a>Administração
 
-
-
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Os logs de auditoria poderão relatar um nome de usuário incorreto como iniciador quando alguém tiver sido removido de uma equipe  <br/> |A equipe do Microsoft Teams é um grupo moderno no AAD. Quando você adiciona/remove um membro por meio da interface do usuário do Teams, o fluxo sabe exatamente qual usuário iniciou a alteração e o log de auditoria reflete as informações corretas. No entanto, se um usuário adicionar/remover um membro por meio do AAD, a alteração será sincronizada com o back-end das equipes sem informar às equipes que iniciaram a ação. O Microsoft Teams seleciona o primeiro proprietário da equipe como o iniciador, que também é refletido no log de Auditoria.    <br/> |  <br/> |11/05/2018  <br/> |
-
-|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
-|:-----|:-----|:-----|:-----|
-|A política de EAF no EMET (Kit de Ferramentas Avançado de Experiência de Redução) pode identificar incorretamente as otimizações da área restrita do Chromium como ameaças. <br/> |Há um problema com a área restrita do Chromium no qual a política de EAF (Filtragem de Acesso à Tabela de Endereços de Exportação) no EMET (Kit de Ferramentas Avançado de Experiência de Redução) e no ATP pode identificar incorretamente as otimizações de área restrita do Chromium como ameaças. Isso faz com que o Microsoft Teams não funcione corretamente.  <br/> | Para contornar esse problema, desative o EAF para o Teams. Você pode ler mais sobre o assunto em [Diretrizes de mitigação de EMET](https://support.microsoft.com/pt-BR/help/2909257/emet-mitigations-guidelines) Para obter mais informações sobre a política de ATP e EAF do Windows Defender, veja [Habilitar a proteção contra explorações](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/enable-exploit-protection) <br/> |11/10/2018 <br/> |
+|A política de EAF no EMET (Kit de Ferramentas Avançado de Experiência de Redução) pode identificar incorretamente as otimizações da área restrita do Chromium como ameaças. <br/> |Há um problema com a área restrita do Chromium no qual a política de EAF (Filtragem de Acesso à Tabela de Endereços de Exportação) no EMET (Kit de Ferramentas Avançado de Experiência de Redução) e no ATP pode identificar incorretamente as otimizações de área restrita do Chromium como ameaças. Isso faz com que o Microsoft Teams não funcione corretamente.  <br/> | Para contornar esse problema, desative o EAF para o Teams. Você pode ler mais sobre o assunto em [Diretrizes de mitigação de EMET](https://support.microsoft.com/help/2909257/emet-mitigations-guidelines) Para obter mais informações sobre a política de ATP e EAF do Windows Defender, veja [Habilitar a proteção contra explorações](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/enable-exploit-protection) <br/> |11/10/2018 <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
@@ -61,10 +55,6 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 |:-----|:-----|:-----|:-----|
 |O aplicativo "Tarefas" permanece visível quando desabilitado  <br/> |Quando o aplicativo "Tarefas" está desabilitado no centro de administração, ele permanece visível no cliente Microsoft Teams para usuários com uma licença EDU. Ao selecioná-lo quando desabilitado, será exibido um erro indicando: "Houve algum problema... "  <br/> |Não há solução alternativa.  <br/> |29/12/2017  <br/> |
 
-|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
-|:-----|:-----|:-----|:-----|
-|Não é possível excluir conectores como proprietário de equipe  <br/> |A tentativa de excluir um conector como um proprietário, que pode adicionar um conector, enquanto a opção "Permitir que os membros criem, atualizem e removam conectores" está desabilitada, gera um erro que indica que o usuário não tem permissão para fazer isso. <br/> |Habilitar temporariamente "Allow members to create, update, and remove connectors" (Permitir que os membros criem, atualizem e removam conectores) permitirá que o proprietário exclua o conector.  <br/> |27/07/2018  <br/> |
-
 ## <a name="audio-conferencing"></a>Audioconferência
 
 |**Problema**|**Comportamento/Sintomas**|**Solução alternativa conhecida**|**Data da descoberta**|
@@ -76,8 +66,7 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 |O controle de discagem é ocultado de forma intermitente.  <br/> |O controle de discagem pode não estar visível no painel Informações da Reunião.  <br/> |Não há solução alternativa.  <br/> |25/09/2017  <br/> |
 |A ID de conferência estática não tem suporte em reuniões do Microsoft Teams.  <br/> |Se o administrador substituir a configuração padrão de ID de conferência dinâmica para ID de conferência estática, essa configuração não entrará em vigor nas reuniões do Microsoft Teams. Veja [Usar IDs dinâmicas de Audioconferência em sua organização](/skypeforbusiness/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md)  <br/> |Não há solução alternativa.  <br/> |25/09/2017  <br/> |
 |Coordenadas de reunião PSTN não estão disponíveis para usuários locais do Skype for Business  <br/> |Se o usuário for um usuário local do Skype for Business, com licenças do Skype for Business Online, de Audioconferência e do Microsoft Teams atribuídas, todas as reuniões agendadas usando o Microsoft Teams não incluirão as coordenadas da reunião PSTN. <br/> |Não há solução alternativa.  <br/> |01/02/2018  <br/> |
-
-| Informações de Interoperabilidade de Vídeo na Nuvem em Reunir Agora  <br/> | Se você criar uma instância Reunir Agora de uma reunião no Microsoft Teams com uma licença do CVI existente, ela não preencherá as informações do CVI. <br/> | A recomendação é agendar a reunião para preencher essas informações.  <br/> 6/11/2019   <br/> |
+|Informações de Interoperabilidade de Vídeo na Nuvem em Reunir Agora  <br/> |Se você criar uma instância Reunir Agora de uma reunião no Microsoft Teams com uma licença do CVI existente, ela não preencherá as informações do CVI. <br/> |A recomendação é agradar a reunião para preencher essas informações.  <br/> |11/06/2019  <br/> |
 
 ## <a name="authentication"></a>Autenticação
 
@@ -140,8 +129,6 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 ## <a name="client"></a>Cliente
 
-
-
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |Não é possível iniciar equipes do Surface Hub na Microsoft Store |O Microsoft Teams para Surface Hub não será iniciado **quando** você clicar em Iniciar na Microsoft Store. | A inicialização dos aplicativos do Surface Hub na lista da Microsoft Store não tem suporte do Windows no Surface Hub. <br> <br/> Reinicie o Surface Hub após instalar as equipes. | 27/02/18 |
@@ -170,10 +157,6 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 |:-----|:-----|:-----|:-----|
 |Os cliente da UE e da APAC recebem um erro quando adicionam um usuário convidado de outro locatário    <br/> | Para os clientes da UE e da APAC, ocorre um atraso na replicação entre o Microsoft Teams e o Azure Active Directory. Quando usuários de um locatário da UE ou da APAC tentam adicionar um usuário convidado de outro locatário, eles recebem uma mensagem de erro solicitando nova tentativa.   <br/> |Clique mais uma vez no botão Tentar Novamente para adicionar o usuário convidado.  <br/> |08/11/2017  <br/> |
 
-|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
-|:-----|:-----|:-----|:-----|
-|O Wiki não é criado para canais criados por convidados  <br/> |Quando um convidado cria um novo canal, a guia **Wiki** não é criada. Não existe forma de anexar manualmente a guia **Wiki** ao canal. <br/> |Não há solução alternativa.  <br/> |20/09/2017  <br/>|
-
 ## <a name="linux"></a>Linux
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
@@ -198,7 +181,7 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Os gerenciadores de pacotes não mostram a lista de alterações. <br/> |O gerenciador de pacotes não mostra a lista de alterações. <br/> | <br/> |05/12/19  <br/>|
+|Os gerenciadores de pacote não mostram a lista de alterações. <br/> |O gerenciador de pacote não mostra a lista de alterações. <br/> | <br/> |05/12/19  <br/>|
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
@@ -251,10 +234,6 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Diferenças de layout entre os clientes móveis do Microsoft Teams  <br/> |As equipes são listadas em ordem alfabética, e os canais não podem ser recolhidos no cliente móvel.  <br/> |Não há solução alternativa.  <br/> |13/03/2017  <br/>|
-
-|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
-|:-----|:-----|:-----|:-----|
 |Problemas que você pode encontrar se estiver usando iOS 13 Beta  <br/> |1. As notificações do Teams não estão sendo disparadas.  Isso inclui chats, menção e chamadas.  2. A visualização de arquivo não está funcionando com a versão beta.  <br/> |Não há nenhuma solução alternativa neste momento.  Estamos trabalhando com desenvolvedores da Apple para encontrar correções para esses problemas.  <br/> | 25/06/19  <br/>|
 
 
@@ -290,10 +269,6 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |Número de telefone bloqueado|Número de telefone bloqueado: Excluir a conta do recurso antes de remover o número de telefone bloqueará o número de telefone.|Contate o suporte da Microsoft para liberar o número de telefone.|18/05/2019|
-
-|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
-|:-----|:-----|:-----|:-----|
-|Não é possível configurar chamadas não atendidas para ir para a caixa postal no aplicativo da área de trabalho|Quando um usuário está no modo apenas Teams, sua caixa de correio do Exchange é local e, se acessar **Configurações** > **Chamadas** no aplicativo de área de trabalho do Teams, não poderá escolher a opção para encaminhar chamadas para a caixa postal (chamadas não atendidas ou todas as chamadas). Se uma das opções já estava configurada, ao abrir a guia Chamadas em Configurações desabilitará a opção de encaminhar para a caixa postal.|Configure o encaminhamento para a caixa postal usando o aplicativo móvel do Teams.|27/05/2019|
 
 ## <a name="presence"></a>Presença
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
@@ -359,11 +334,8 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Os logs de auditoria poderão relatar um nome de usuário incorreto como iniciador quando alguém tiver sido removido de uma equipe  <br/> |A equipe do Microsoft Teams é um grupo moderno no AAD. Quando você adiciona/remove um membro por meio da interface do usuário do Teams, o fluxo sabe exatamente qual usuário iniciou a alteração e o log de auditoria reflete as informações corretas. No entanto, se um usuário adicionar/remover um membro por meio do AAD, a alteração será sincronizada com o back-end das equipes sem informar às equipes que iniciaram a ação. O Microsoft Teams seleciona o primeiro proprietário da equipe como o iniciador, que também é refletido no log de Auditoria.    <br/> |  <br/> |11/05/2018  <br/> |
-
-|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
-|:-----|:-----|:-----|:-----|
 |Os e-mails do correio de voz do Teams chegarão com falha de spf se for uma chamada sip, se for uma chamada pstn para um usuário, chegarão com o atributo from sem o valor correto, se o cliente tiver uma regra que analisa os correios de voz spf terão uma ação onde o etr decidirá. <br/> | <br/> | A solução alternativa de 29/08/2019 adicionará uma exceção no etr se a mensagem for uma caixa postal.
+
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
@@ -376,10 +348,6 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |Nomes de equipe que contêm caracteres especiais podem criar erros na criação de reuniões  <br/> |O usuário receberá a mensagem **ocorreu um erro** em vermelho ao tentar criar uma reunião para uma Equipe que tenha caracteres especiais no nome.   <br/> |Renomeie ou recrie a equipe com um nome que não contenha "/".  <br/> |13/07/2017  <br/> |
-
-|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
-|:-----|:-----|:-----|:-----|
-|O nome de uma equipe com o símbolo &amp; interrompe a funcionalidade do conector  <br/> |Quando o nome de uma equipe é criado com o símbolo &amp;, os conectores dentro da equipe/grupo não podem ser estabelecidos.  <br/> |Não use caracteres especiais no nome de equipes.  <br/> |21/06/17  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
@@ -399,8 +367,8 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Não é possível mover, excluir ou renomear arquivos após a edição  <br/> |Após um arquivo ser editado no Teams, ele não pode ser movido, renomeado ou excluído imediatamente <br/> |Atualmente, esse é um problema conhecido e a solução alternativa é aguardar algum tempo antes de fazer uma alteração administrativa.  <br/> |12/03/19  <br/> |
+|Problema de interoperabilidade entre o Symantec DLP e o Teams <br/> |Os agentes de Ponto de Extremidade da Symantec DLP podem interferir no processo do Teams, o que pode levar a uma falha de inicialização ou de saída.  <br/> |Excluir (lista aprovada) do Teams.exe dos agentes de Ponto de Extremidade da Symantec DLP, conforme descrito no <a href="https://support.symantec.com/us/en/article.TECH220322.html">Artigo de suporte da Symantec</a>. <br/> |15/07/19  <br/> |
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
-|Problema de interoperabilidade entre o Symantec DLP e o Teams <br/> |Os agentes de Ponto de Extremidade da Symantec DLP podem interferir no processo do Teams, o que pode levar a uma falha de inicialização ou de saída.  <br/> |Excluir (lista aprovada) do Teams.exe dos agentes de Ponto de Extremidade da Symantec DLP, conforme descrito no <a href="https://support.symantec.com/us/en/article.TECH220322.html">Artigo de suporte da Symantec</a>. <br/> |15/07/19  <br/> |
+|A criptografia Dell impede a inicialização do Teams <br/> |A criptografia Dell (chamada anteriormente de Criptografia de Proteção de Dados da Dell) pode corromper a instalação do Teams durante o processo de atualização, levando a uma falha permanente para iniciar o aplicativo. <br/> |Exclua a pasta do Teams em %LocalAppData%\Microsoft\Teams da política de criptografia. <br/> |21/11/19  <br/> |
