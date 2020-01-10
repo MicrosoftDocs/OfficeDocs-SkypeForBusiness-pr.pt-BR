@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f16d8ea-8161-4b07-9c79-d57e786b3e78
 description: O cmdlet Get-CcApplianceLogDirectory mostra o diretório atual em que os logs do dispositivo do Skype for Business Cloud Connector Edition são armazenados.
-ms.openlocfilehash: 675e89f49c7c1384edc7cfa5944c8aee3f236c79
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a8b7e1b13302bec27c2fe784804f8f43fe2e023c
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287367"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003391"
 ---
 # <a name="get-ccappliancelogdirectory"></a>Get-CcApplianceLogDirectory
  
@@ -24,7 +24,7 @@ O cmdlet Get-CcApplianceLogDirectory mostra o diretório atual em que os logs do
   
 Este cmdlet se aplica ao Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.
   
-```
+```powershell
 Get-CcApplianceLogDirectory
 ```
 
@@ -39,7 +39,7 @@ Nenhum
 
 O exemplo a seguir mostra a pasta atual em que os logs do aplicativo do conector de nuvem atual são armazenados:
   
-```
+```powershell
 Get-CcApplianceLogDirectory
 ```
 

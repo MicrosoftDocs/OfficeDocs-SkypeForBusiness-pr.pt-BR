@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 description: 'Resumo: configurar transcrições de mensagens instantâneas do Exchange Server 2016 ou do Exchange Server 2013 e do Skype for Business Server.'
-ms.openlocfilehash: 89aaf4d931bb3aa33358e314a4dd714fd58e8e7a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f3ada031b6dc2175ff3241b809a6288daf043010
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244145"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003561"
 ---
 # <a name="configure-skype-for-business-server-to-use-exchange-server-archiving"></a>Configurar o Skype for Business Server para usar o arquivamento do Exchange Server
 
@@ -48,13 +48,13 @@ O arquivamento no Skype for Business Server é essencialmente gerenciado usando-
 
 A propriedade EnableExchangeArchiving é um valor booliano: defina EnableExchangeArchiving como true ($True) para habilitar o arquivamento do Exchange ou defina EnableExchangeArchiving como false ($False) para desabilitar o arquivamento do Exchange. Por exemplo, esse comando permite o arquivamento de transcrições de mensagens instantâneas e também permite o arquivamento do Exchange:
 
-```
+```powershell
 Set-CsArchivingConfiguration -Identity "global" -EnableArchiving ImOnly -EnableExchangeArchiving $True
 ```
 
 Para desabilitar o arquivamento do Exchange, use um comando semelhante ao seguinte, que permite o arquivamento de mensagens instantâneas, mas que desabilite o arquivamento no Exchange (em outras palavras, as transcrições serão arquivadas no Skype for Business Server):
 
-```
+```powershell
 Set-CsArchivingConfiguration -Identity "global" -EnableArchiving ImOnly -EnableExchangeArchiving $False
 ```
 
@@ -88,19 +88,19 @@ Depois de habilitar o arquivamento (e o arquivamento do Exchange), você deve mo
 
 Por padrão, os valores de ambas as propriedade são definidos como False, indicando que nem as sessões de comunicação interna nem externa são arquivadas. Para modificar a política global, você pode usar o Shell de gerenciamento do Skype for Business Server e o cmdlet Set-CsArchivingPolicy. Este comando habilita o arquivamento das sessões de comunicação interna e externa:
 
-```
+```powershell
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal $True
 ```
 
 Como alternativa, é possível usar New-CsArchivingPolicy para criar uma nova política no escopo do site ou no escopo por usuário. Por exemplo, este comando cria uma nova política de arquivamento por usuário chamada RedmondArchivingPolicy:
 
-```
+```powershell
 New-CsArchivingPolicy -Identity "RedmondArchivingPolicy" -ArchiveInternal $True -ArchiveExternal $True
 ```
 
 Se você criar uma política por usuário, precisará atribuir esta política para os usuários adequados. Por exemplo:
 
-```
+```powershell
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName  "RedmondArchivingPolicy"
 ```
 
@@ -110,7 +110,7 @@ As políticas de arquivamento também podem ser gerenciadas usando o painel de c
 
 Se o Skype for Business Server e o Exchange Server estiverem localizados em florestas diferentes, não será suficiente simplesmente habilitar o arquivamento do Exchange nas configurações de arquivamento de configuração. Isso não resultará em mensagens instantâneas e transcrições de conferência na Web sendo arquivadas no Exchange. Em vez disso, você também deve configurar a propriedade ExchangeArchivingPolicy em cada uma das contas de usuário relevantes do Skype for Business Server. Essa propriedade pode ser definida como um destes quatro valores:
 
-1. **** Não inicializado. Indica que o arquivamento será baseado nas configurações de bloqueio in-loco definidas para a caixa de correio do Exchange do usuário; Se o bloqueio in-loco não tiver sido habilitado na caixa de correio do usuário, o usuário terá suas transcrições de mensagens e de Webconferência arquivadas no Skype for Business Server.
+1. Não **inicializado**. Indica que o arquivamento será baseado nas configurações de bloqueio in-loco definidas para a caixa de correio do Exchange do usuário; Se o bloqueio in-loco não tiver sido habilitado na caixa de correio do usuário, o usuário terá suas transcrições de mensagens e de Webconferência arquivadas no Skype for Business Server.
 
 2. **UseLyncArchivingPolicy**. Indica que as transcrições de mensagens instantâneas e conferência na Web do usuário devem ser arquivadas no Skype for Business Server, em vez de no Exchange.
 
@@ -120,13 +120,13 @@ Se o Skype for Business Server e o Exchange Server estiverem localizados em flor
 
 Por exemplo, para configurar uma conta de usuário para que as transcrições de mensagens instantâneas e webconferências sejam sempre arquivadas no Exchange, você pode usar um comando semelhante a este do Shell de gerenciamento do Skype for Business Server:
 
-```
+```powershell
 Set-CsUser -Identity "Ken Myer" -ExchangeArchivingPolicy ArchivingToExchange
 ```
 
 Se desejar definir a mesma política de arquivamento para um grupo de usuários (por exemplo, todos os usuários hospedados em um pool de Registradores Avançados especificado), você poderá usar um comando semelhante ao seguinte:
 
-```
+```powershell
 Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Set-CsUser -ExchangeArchivingPolicy ArchivingToExchange
 ```
 
@@ -134,13 +134,13 @@ Observe que você deve usar o Shell de gerenciamento do Skype for Business Serve
 
 Se desejar exibir uma lista de todos os usuários aos quais foi atribuída uma política de arquivamento específica, você poderá usar um comando semelhante ao apresentando a seguir, que retorna o nome para exibição do Active Directory de todos os usuários que tiveram a propriedade ExchangeArchivingPolicy definida como Não inicializado:
 
-```
+```powershell
 Get-CsUser | Where-Object {$_.ExchangeArchivingPolicy -eq "Uninitialized"} | Select-Object DisplayName
 ```
 
 Da mesma forma, este comando retorna o nome para exibição dos usuários que não têm a propriedade ExchangeArchivingPolicy definida como UseLyncArchivingPolicy:
 
-```
+```powershell
 Get-CsUser | Where-Object {$_.ExchangeArchivingPolicy -ne "UseLyncArchivingPolicy"} | Select-Object DisplayName
 ```
 

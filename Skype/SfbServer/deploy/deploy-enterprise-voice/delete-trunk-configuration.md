@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: 'Resumo: saiba como excluir uma coleção de definições de configuração de tronco usando o painel de controle do Skype for Business Server.'
-ms.openlocfilehash: 5823c47234f912293c7af2a15bf1fcb87ff23e15
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 97a0820258a837968b88e6840232829f3ad11d21
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233208"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41000991"
 ---
 # <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Excluir uma coleção existente de definições de configuração de tronco SIP no Skype for Business Server
  
@@ -63,7 +63,7 @@ Você pode excluir as definições de configuração de tronco usando o Shell de
 
 - O seguinte comando remove as definições de configuração do tronco aplicadas ao site Redmond:
     
-  ```
+  ```powershell
   Remove-CsTrunkConfiguration -Identity site:Redmond
   ```
 
@@ -71,7 +71,7 @@ Você pode excluir as definições de configuração de tronco usando o Shell de
 
 - Este comando remove todas as definições de configuração do tronco aplicadas ao escopo do serviço:
     
-  ```
+  ```powershell
   Get-CsTrunkConfiguration -Filter "service:*" | Remove-CsTrunkConfiguration
   ```
 
@@ -79,7 +79,7 @@ Você pode excluir as definições de configuração de tronco usando o Shell de
 
 - O seguinte comando remove todas as definições de configuração do tronco em que o desvio de mídia está habilitado:
     
-  ```
+  ```powershell
   Get-CsTrunkConfiguration | Where-Object {$_.EnableBypass -eq $True} | Remove-CsTrunkConfiguration
   ```
 

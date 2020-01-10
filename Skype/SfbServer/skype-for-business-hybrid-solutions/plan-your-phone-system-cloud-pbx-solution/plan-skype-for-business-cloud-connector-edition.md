@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Encontre informações sobre o Skype for Business Cloud Connector Edition, um conjunto de máquinas virtuais (VMs) compactadas que implementam conectividade PSTN local com o Sistema de Telefonia do Office 365 (Cloud PBX).
-ms.openlocfilehash: 1ef79cc9d50e21dc8b3376901638cd4f34e03f62
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3b95c1cca24b6faac8a6cf2807b6af324fdc57bd
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287010"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002271"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Plano do Skype for Business Edição Cloud Connector
 
@@ -127,7 +127,7 @@ Os componentes do conector de nuvem oferecem a seguinte funcionalidade:
 
   - Serviços de Certificado do Active Directory para emitir certificados internos
 
-- **Componente** de mediação-implementa o protocolo SIP e o protocolo de mapeamento do gateway de mídia entre os gateways PSTN e PSTN do Skype for Business. Inclui uma réplica CMS que sincroniza a configuração do banco de dados CMS global.
+- **Componente de mediação** -implementa o protocolo SIP e o protocolo de mapeamento do gateway de mídia entre os gateways PSTN e PSTN do Skype for Business. Inclui uma réplica CMS que sincroniza a configuração do banco de dados CMS global.
 
 ## <a name="cloud-connector-edition-topologies"></a>Topologias da Edição do Cloud Connector
 <a name="BKMK_Topologies"> </a>
@@ -244,7 +244,7 @@ Antes de implantar o Cloud Connector Edition, verifique se você tem o seguinte 
 
   - Especifique as configurações de proxy por máquina, em vez de por usuário. Caso contrário, os downloads do conector de nuvem falharão. Você pode especificar as configurações de proxy por máquina com uma alteração no Registro ou com a configuração de Política de Grupo da seguinte forma:
 
-  - **Registro:** Configurações do HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet] ProxySettingsPerUser DWORD: 00000000
+  - **Registro:** HKEY_LOCAL_MACHINE configurações de \SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet] ProxySettingsPerUser DWORD: 00000000
 
   - **Política de Grupo:** Modelos\>\>administrativos do computador\> Internet Explorer para Windows: fazer configurações de proxy por máquina (em vez de por usuário)
 
@@ -360,13 +360,13 @@ Para fins de segurança, você pode limitar o intervalo de porta do componente d
 
 Por exemplo, o comando a seguir limita o número de portas que o componente de mediação usará para o tráfego de mídia para 50 000-51 000 para áudio (in and out). O componente de Mediação poderá administrar 250 chamadas simultâneas com essa configuração. Observe que você também pode querer limitar esse intervalo no SBC/gateway de PSTN:
 
-```
+```powershell
 Set-CSMediationServer -Identity MediationServer:mspool.contoso.com -AudioPortStart 50000 - AudioPortCount 1000
 ```
 
 Para recuperar o nome do componente de mediação e ver portas padrão, você pode usar o cmdlet [Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps) da seguinte maneira:
 
-```
+```powershell
 Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPortCount
 ```
 
@@ -442,7 +442,7 @@ O componente Edge precisa resolver os nomes externos dos serviços do Office 365
 
 Cada componente de Borda é um computador multihomed com interfaces voltadas para o exterior e o interior. O Cloud Connector implanta servidores DNS no componente de controlador de domínio dentro da rede de perímetro. Você pode apontar o servidor de borda para o servidor DNS dentro do perímetro para todas as resoluções de nomes, mas é necessário habilitar o servidor DNS do conector de nuvem para resolver nomes externos definindo uma zona DNS contendo um ou mais registros DNS A para consultas externas que fazem referência a nome pesquisas em outros servidores DNS públicos.
 
-No arquivo .ini, se você definir o nome FQDN para gateways do mesmo espaço de domínio que seu domínio SIP, a zona autoritativa para esse domínio SIP será criada no servidor DNS dentro do perímetro. Se o servidor de borda for apontado para este servidor DNS para resolver nomes, o Edge nunca resolverá o sipfederationtls. \<seudomínio\> registro DNS, que é necessário para o fluxo de chamadas. Nesse caso, a Microsoft recomenda que você forneça um servidor DNS na interface externa Edge para resolver pesquisas de nomes de Internet, e cada componente de borda deve usar um arquivo HOST para resolver outros nomes de componentes do conector de nuvem para endereços IP.
+No arquivo .ini, se você definir o nome FQDN para gateways do mesmo espaço de domínio que seu domínio SIP, a zona autoritativa para esse domínio SIP será criada no servidor DNS dentro do perímetro. Se o servidor de borda for apontado para este servidor DNS para resolver nomes, o Edge nunca resolverá o _sipfederationtls. \<seudomínio\> registro DNS, que é necessário para o fluxo de chamadas. Nesse caso, a Microsoft recomenda que você forneça um servidor DNS na interface externa Edge para resolver pesquisas de nomes de Internet, e cada componente de borda deve usar um arquivo HOST para resolver outros nomes de componentes do conector de nuvem para endereços IP.
 
 > [!NOTE]
 > Por motivos de segurança, recomendamos que você não aponte o servidor DNS do conector de nuvem para servidores internos no domínio de produção para resolução de nomes.
@@ -516,7 +516,7 @@ Ao configurar informações de gateway, lembre-se do seguinte:
 |Endereço IP do gateway de voz 1  <br/> |Endereço IP do Gateway de Voz.  <br/> ||
 |Endereço IP do gateway de voz 2 (copiar esta linha se você tiver mais de 2 gateways)  <br/> |Endereço IP do Gateway de Voz.  <br/> ||
 |Porta do gateway de voz 1 porta # (copiar esta linha se você tiver mais de 2 gateways)  <br/> |Porta que o tronco SIP do Gateway de Voz escutará, por exemplo, 5060.  <br/> ||
-|Porta # do gateway de voz 2  <br/> |Porta que o tronco SIP do Gateway de Voz escutará, por exemplo, 5060.  <br/> ||
+|Porta do gateway de voz 2 #  <br/> |Porta que o tronco SIP do Gateway de Voz escutará, por exemplo, 5060.  <br/> ||
 |Protocolo de gateway de voz 1 para tráfego SIP  <br/> |TCP ou TLS.  <br/> ||
 |Protocolo de gateway de voz 2 para tráfego SIP (copiar esta linha se você tiver mais de 2 gateways)  <br/> |TCP ou TLS.  <br/> ||
 |Intervalo de porta de Mídia Externa para tráfego de/para componente de Borda  <br/> |Intervalo de portas TCP/UDP para tráfego de mídia de/para interface externa da borda. Deve sempre começar a partir de 50000. Consulte "portas e protocolos" para obter mais informações.  <br/> |50000 - 59 999  <br/> |
@@ -706,7 +706,7 @@ O Cloud Connector 2.1 e versões posteriores dão suporte ao monitoramento do Cl
 
 Para obter mais informações, consulte o seguinte:
 
-- [Soluções de telefonia da Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Soluções de Telefonia da Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
 
 - [Configurar e gerenciar o Skype for Business Cloud Connector Edition](configure-skype-for-business-cloud-connector-edition.md)
 

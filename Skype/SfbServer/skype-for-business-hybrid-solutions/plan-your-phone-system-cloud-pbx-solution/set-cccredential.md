@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
 description: 'O cmdlet Set-CcCredential define a credencial da implantação atual do Skype for Business Cloud Connector Edition. '
-ms.openlocfilehash: 59c058f8965bbc6fc011806f383c547c1e7b6cd1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bcb88f11fb78d995e6d8271593c2e09bb0b11d22
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286975"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003211"
 ---
 # <a name="set-cccredential"></a>Set-CcCredential
  
@@ -24,7 +24,7 @@ O cmdlet Set-CcCredential define a credencial da implantação atual do Skype f
   
 Com o Cloud Connector versão 2,0 e posterior, esse cmdlet também pode definir as informações da conta para o administrador da máquina virtual e para o administrador do domínio.
   
-```
+```powershell
 Set-CcCredential [[-AccountType] <string> {TenantAdmin}]
 ```
 
@@ -35,7 +35,7 @@ Set-CcCredential [[-AccountType] <string> {TenantAdmin}]
 
 O exemplo a seguir especifica o nome e a senha da conta do administrador do locatário:
   
-```
+```powershell
 Set-CcCredential -AccountType "TenantAdmin"
 ```
 

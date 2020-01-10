@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Leia este tópico para saber mais sobre as etapas de implantação do bypass de mídia com o Cloud Connector Edition versão 2,0 e posterior.
-ms.openlocfilehash: 6f3ad140d25d5f1d03196e576ac57dc56e905d44
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 63d8f9e289c38a50444bee2667c98543e09b875d
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287542"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003481"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Implantar o bypass de mídia no Cloud Connector Edition
  
@@ -37,7 +37,7 @@ Depois de configurar o DNS, conecte-se ao Skype for Business Online usando o Pow
   
 Na sessão do PowerShell, insira os seguintes comandos para habilitar o bypass de mídia:
   
-```
+```powershell
 Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl http://newname.domain/hybridconfig/hybridconfigservice.svc
 $mediabypass = New-CsNetworkMediaBypassConfiguration -AlwaysBypass $true -Enabled $true
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
@@ -53,14 +53,14 @@ Você pode verificar as configurações de bypass de mídia da seguinte maneira.
   
 Para verificar a replicação online para o pool do locatário, execute o seguinte comando no PowerShell remoto:
   
-```
+```powershell
 Get-CsTenantHybridConfiguration -LocalStore
 Get-CsNetworkConfiguration -LocalStore
 ```
 
 Para verificar a replicação local, conecte-se aos servidores de remediação do conector de nuvem, execute o seguinte comando no PowerShell e confirme se Enabled = true e AlwaysBypass = true
   
-```
+```powershell
 Get-CsNetworkConfiguration -LocalStore
 ```
 
@@ -74,7 +74,7 @@ Para verificar as configurações do cliente, desconecte-se do cliente Skype for
 
 Os administradores de locatários podem alterar o nome DNS do serviço Web executando o seguinte cmdlet:
   
-```
+```powershell
 Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl http://newname.domain/hybridconfig/hybridconfigservice.svc
 ```
 
@@ -85,14 +85,14 @@ Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl http://newname.d
 
 Esse cenário pode ser útil para a solução de problemas ou para a manutenção. Para desabilitar o serviço, execute os seguintes cmdlets:
   
-```
+```powershell
 $mediabypass = New-CsNetworkMediaBypassConfiguration  -Enabled $false
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 
 Depois de fazer a alteração, pode levar algum tempo até que as alterações sejam replicadas em todos os Cloud Connectors. Para verificar o status da replicação, execute o seguinte cmdlet no PowerShell em servidores de Media Connector: 
   
-```
+```powershell
 Get- CsNetworkConfiguration -LocalStore
 ```
 
@@ -102,7 +102,7 @@ Depois de replicadas as alterações, o serviço Web no Servidor de Mediação c
 
 Para a desabilitação permanente do bypass de mídia, um administrador de locatários precisa executar os seguintes comandos: 
   
-```
+```powershell
 Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl  $null
     $mediabypass = New-CsNetworkMediaBypassConfiguration  -Enabled $false 
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass 

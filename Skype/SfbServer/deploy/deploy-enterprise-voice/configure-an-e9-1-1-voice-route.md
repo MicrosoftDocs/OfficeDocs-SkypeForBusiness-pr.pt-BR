@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 description: Configurar o E9-1-1 roteiros de voz no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: a8121cc7a7345150e485dc2e2b81e062672f5703
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c835aa2ab2b20f7877aa6a0deeb70c7459bcd8cc
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233711"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001391"
 ---
 # <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server"></a>Configurar uma rota de voz E9-1-1 no Skype for Business Server
  
@@ -40,7 +40,7 @@ Para implantar o E9-1-1, é preciso primeiro configurar uma rota de voz de chama
     
     Esse deve ser o mesmo nome que você usará para a configuração **PSTN** na política de local. Embora sua implantação tenha vários registros de uso de telefone, o exemplo a seguir adiciona "Uso de emergência" à lista atual de usos de PSTN disponíveis. Para obter detalhes, consulte [Configurar políticas de voz, registros de uso PSTN e rotas de voz no Skype for Business](voice-and-pstn.md).
     
-   ```
+   ```powershell
    Set-CsPstnUsage -Usage @{add='EmergencyUsage'}
    ```
 
@@ -48,7 +48,7 @@ Para implantar o E9-1-1, é preciso primeiro configurar uma rota de voz de chama
     
     O padrão de número deve ser o mesmo usado na configuração de **Cadeia de Caracteres de Discagem de Emergência** na política de local. É necessário um sinal "+" porque o Skype for Business adiciona "+" às chamadas de emergência. "Co1-pstngateway-1" é a ID de serviço do tronco SIP do provedor de serviços de E9-1-1 ou a ID de serviço do gateway ELIN. O exemplo a seguir usa "EmergencyRoute" como o nome da rota de voz.
     
-   ```
+   ```powershell
    New-CsVoiceRoute -Name "EmergencyRoute" -NumberPattern "^\+911$" -PstnUsages @{add="EmergencyUsage"} -PstnGatewayList @{add="co1-pstngateway-1"}
    ```
 
@@ -56,7 +56,7 @@ Para implantar o E9-1-1, é preciso primeiro configurar uma rota de voz de chama
     
     O exemplo a seguir pressupõe que o usuário tenha o uso "Local" em sua política de voz.
     
-   ```
+   ```powershell
    New-CsVoiceRoute -Name "LocalEmergencyRoute" -NumberPattern "^\+911$" -PstnUsages @{add="Local"} -PstnGatewayList @{add="co1-pstngateway-2"}
    ```
 

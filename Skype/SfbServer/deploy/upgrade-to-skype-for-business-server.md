@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: 'Resumo: saiba como atualizar do Lync Server 2013 para o Skype for Business Server 2015. Baixe um teste grátis do Skype for Business Server 2015 a partir do centro de avaliação da https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverMicrosoft em:.'
-ms.openlocfilehash: c34cbc7ce1d755f093ac14bc85d78106216c450b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d9ce950ead8b8a3a8857c53d421470a0e647ea23
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237445"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001871"
 ---
 # <a name="upgrade-to-skype-for-business-server-2015"></a>Upgrade to Skype for Business Server 2015
  
@@ -49,7 +49,7 @@ A atualização do Lync Server 2013 para o Skype for Business Server 2015 envolv
 
 1. Conecte-se ao computador na topologia que não tenha o Lync OCSCore ou qualquer outro componente do Lync instalado.
     
-2. Na mídia de instalação do Skype for Business Server 2015, execute **Setup. exe a** partir do **OCS_Volume\Setup\AMD64**. 
+2. Na mídia de instalação do Skype for Business Server 2015, execute **Setup. exe a** partir de **OCS_Volume \setup\amd64**. 
     
 3. Clique em **Instalar**. 
     
@@ -171,7 +171,7 @@ Aguarde alguns instantes até a replicação publicar a topologia atualizada em 
 
 Em cada servidor que está servindo o pool que você vai atualizar, execute o seguinte cmdlet no PowerShell:
   
-```
+```powershell
 Disable-CsComputer -Scorch
 ```
 
@@ -180,11 +180,11 @@ Recomendamos usar Disable-CsComputer porque talvez seja necessário reinicializa
 ### <a name="step-5-upgrade-front-end-pools-and-non-front-end-pool-servers"></a>Etapa 5: atualizar servidores de pools de Front-Ends e de pools não-Front-End
 
 > [!NOTE]
->  Antes de atualizar, instale todos os novos pré-requisitos necessários para o Skype for Business Server 2015, que incluem: > pelo menos 32 GB de espaço livre antes de tentar uma atualização. Além disso, certifique-se de que a unidade é uma unidade local fixa, que não está conectada por USB ou FireWire, está formatada com o sistema de arquivos NTFS, não está compactada e não contém um arquivo de página. > PowerShell versão 6.2.9200.0 ou posterior. > o Lync Server 2013 mais recente Atualização cumulativa instalada. > SQL Server 2012 SP1 instalado. > o seguinte KB instalado (instalado automaticamente se estiver usando o Microsoft Update): > Windows Server 2008 R2-[KB2533623](https://support.microsoft.com/kb/2533623)> windows Server 2012-[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2-[KB2982006](https://support.microsoft.com/kb/2982006)
+>  Antes de atualizar, instale todos os novos pré-requisitos necessários para o Skype for Business Server 2015, que incluem: > pelo menos 32 GB de espaço livre antes de tentar uma atualização. Além disso, certifique-se de que a unidade é uma unidade local fixa, não está conectada por USB ou FireWire, está formatado com o sistema de arquivos NTFS, não é compactado e não contém um arquivo de página. > PowerShell versão 6.2.9200.0 ou posterior. > a atualização cumulativa do Lync Server 2013 instalada. > SQL Server 2012 SP1 instalado. > o seguinte KB instalado (instalado automaticamente se você estiver usando o Microsoft Update): > Windows Server 2008 R2-[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012-[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 [KB2982006](https://support.microsoft.com/kb/2982006)
   
 Use a atualização in-loco em cada servidor para atualizar o pool de front-end, o pool de mediação, o servidor de mediação e o pool de chat persistente.
   
-1. Em cada servidor, execute **Setup. exe** em **OCS_Volume\Setup\amd64** na mídia de instalação do Skype for Business Server 2015.
+1. Em cada servidor, execute **Setup. exe** a partir do **OCS_Volume \setup\amd64** na mídia de instalação do Skype for Business Server 2015.
     
 2. Aceite o contrato de licença e siga os prompts para a atualização in-loco.
     
@@ -204,7 +204,7 @@ Quando a atualização in-loco for concluída com sucesso, você verá a seguint
   
 - Depois de atualizar todos os servidores no pool de front-ends, reinicie os serviços usando o seguinte comando do PowerShell: 
     
-  ```
+  ```powershell
   Start-CsPool
   ```
 
@@ -213,7 +213,7 @@ Quando a atualização in-loco for concluída com sucesso, você verá a seguint
   
 - Nos servidores do pool não-Front-End, reinicie os serviços usando o seguinte comando:
     
-  ```
+  ```powershell
   Start-CsWindowsService
   ```
 
@@ -237,7 +237,7 @@ Se a atualização in-loco falhar, você pode ver uma mensagem similar à seguin
   
 Reveja a mensagem completa parte inferior da página para ajudar a solucionar o problema. Clique em **Exibir logs** para obter mais detalhes.
   
-Se a atualização in-loco falhar durante a **verificação da preparação da atualização** ou da **instalação de pré-requisitos ausentes**, verifique se o servidor tem todas as atualizações mais recentes do Windows Server, Lync Server e SQL Server aplicadas e todas as funções e o software necessário instalado. Para obter uma lista do que é necessário, consulte [requisitos do servidor para o Skype for Business server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md) e [Instalar pré-requisitos para o Skype for Business Server 2015](install/install-prerequisites.md).
+Se a atualização in-loco falhar durante a **verificação da preparação da atualização** ou da **instalação de pré-requisitos ausentes**, verifique se o servidor tem todas as atualizações mais recentes do Windows Server, Lync Server e SQL Server aplicadas e todas as funções e o software obrigatórios instalados. Para obter uma lista do que é necessário, consulte [requisitos do servidor para o Skype for Business server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md) e [Instalar pré-requisitos para o Skype for Business Server 2015](install/install-prerequisites.md).
   
 ## <a name="see-also"></a>Confira também
 

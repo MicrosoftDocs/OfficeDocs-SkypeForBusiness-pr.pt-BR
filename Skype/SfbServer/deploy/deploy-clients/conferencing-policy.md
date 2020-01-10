@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: Leia este tópico para aprender como atribuir as políticas de conferência às contas do Sistema de Salas do Skype.
-ms.openlocfilehash: 20115ee2ab361a0bc15bf2053feb3f70bbe6f7ef
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: e235ac84b92f770ae16eec3bd99511e4beea8871
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775364"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003541"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Política de conferência das contas do Sistema de Salas do Skype
  
@@ -46,8 +46,8 @@ A política de conferência atribuída à conta do sistema de sala do Skype deve
 |EnableAppDesktopSharing  <br/> |Área de trabalho  <br/> |Afeta as sessões de quadro de comunicações agora (ad hoc) no sistema de salas da Skype  <br/> |
 |AllowConferenceRecording  <br/> |FALSE  <br/> |N/d para sistema de sala da Skype. Se estiver definido como TRUE, uma parte remota pode registrar  <br/> |
 |EnableP2PRecording  <br/> |FALSE  <br/> |N/d para sistema de sala da Skype. Se estiver definido como TRUE, uma parte remota pode registrar  <br/> |
-|EnableFileTransfer  <br/> |TRUE  <br/> |N/D  <br/> |
-|EnableP2PFileTransfer  <br/> |TRUE  <br/> |N/D  <br/> |
+|EnableFileTransfer  <br/> |TRUE  <br/> |Não disponível  <br/> |
+|EnableP2PFileTransfer  <br/> |TRUE  <br/> |Não disponível  <br/> |
 |EnableP2PVideo  <br/> |TRUE  <br/> |Permite que o cliente do sistema de sala da Skype participe de sessões de vídeo ponto a ponto  <br/> |
 |AllowLargeMeetings  <br/> |FALSE  <br/> |N/D  <br/> |
 |EnableDataCollaboration estiver  <br/> |TRUE  <br/> |Afeta as sessões de quadro de comunicações agora (ad hoc) no sistema de salas da Skype  <br/> |
@@ -71,7 +71,7 @@ O sistema de sala do Skype solicita aos usuários a autenticação quando eles u
   
 O seguinte comando permite que os administradores exijam autenticação para todas as reuniões, incluindo, reuniões sem restrições: 
   
-```
+```powershell
 Set-CsMeetingConfiguration -RequireRoomSystemsAuthorization $TRUE
 ```
 

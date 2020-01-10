@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: Saiba como atualizar sua implantação do Cloud Connector Edition.
-ms.openlocfilehash: c2613069f1626f8fc7e28b4fb5a246fc7647cf98
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c340b7325c95d25212c9c1f77f9379a25708cea8
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286624"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002041"
 ---
 # <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Upgrade to a new version of Cloud Connector
  
@@ -62,7 +62,7 @@ A atualização automática requer que o serviço do conector de nuvem esteja em
   - Esvazie o dispositivo antigo e alterne a conexão da rede para o novo dispositivo.
     
 > [!NOTE]
->  Quando atualizações do Cloud Connector para um novo Build, cmdlets do conector de nuvem podem não ser atualizados. Isso pode acontecer, por exemplo, se uma janela do PowerShell for deixada aberta enquanto ocorre a atualização automática. Para carregar os cmdlets atualizados, você pode fazer qualquer uma das seguintes etapas: > fechar o PowerShell no aparelho do Cloud Connector e, em seguida, abrir PowerShell. > novamente ou executar a importação-Module CloudConnector-Force.
+>  Quando atualizações do Cloud Connector para um novo Build, cmdlets do conector de nuvem podem não ser atualizados. Isso pode acontecer, por exemplo, se uma janela do PowerShell for deixada aberta enquanto ocorre a atualização automática. Para carregar os cmdlets atualizados, você pode executar uma das seguintes etapas: > fechar o PowerShell no aparelho do Cloud Connector e, em seguida, abrir novamente o PowerShell. > ou, você pode executar Import-Module CloudConnector-Force.
   
 ## <a name="upgrade-a-single-site-to-a-new-version"></a>Atualizar um único site para uma nova versão
 <a name="BKMK_Upgrade"> </a>
@@ -77,25 +77,25 @@ Se existir somente um dispositivo no site que você deseja atualizar, faça o se
     
 4. Inicie um console do PowerShell como administrador e execute o seguinte cmdlet para registrar o dispositivo atual:
     
-   ```
+   ```powershell
    Register-CcAppliance
    ```
 
 5. Execute o seguinte cmdlet para baixar a versão mais recente:
     
-   ```
+   ```powershell
    Start-CcDownload
    ```
 
 6. Execute o seguinte cmdlet para iniciar a instalação: 
     
-   ```
+   ```powershell
    Install-CcAppliance -Upgrade
    ```
 
 7. Execute o seguinte cmdlet para ativar a nova implantação e desativar a versão anterior.
     
-   ```
+   ```powershell
    Switch-CcVersion
    ```
 
@@ -103,7 +103,7 @@ Se existir mais de um dispositivo no site, siga as etapas anteriores para atuali
   
 Se quiser atualizar o administrador do domínio, o administrador da máquina virtual, o administrador do modo de segurança e as credenciais de administrador do locatário, você pode executar o cmdlet com o parâmetro _UpdateAllCredentials_ para redefinir todas as credenciais:
   
-```
+```powershell
 Install-CcAppliance -UpdateAllCredentials
 ```
 
@@ -111,7 +111,7 @@ Posteriormente, quando você iniciar a atualização para uma nova versão, o pr
   
 Para apenas redefinir as credenciais do administrador de locatários, execute o seguinte cmdlet:
   
-```
+```powershell
 Set-CcCredential -AccountType TenantAdmin
 ```
 

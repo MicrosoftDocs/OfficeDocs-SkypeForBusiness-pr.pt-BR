@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: Crie ou modifique uma fila de grupo de resposta no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: b58ec9065eea1cc2dd8686b07ea798ac71c460fa
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9027c239c92c7c04b9de8b5579d7ebb73069b1a3
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233451"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001701"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>Criar ou modificar uma fila no Skype for Business
  
@@ -69,11 +69,11 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     
    - Para desconectar a chamada após o tempo limite, clique em **Desconectar**.
     
-   - Para encaminhar a chamada para a caixa postal, clique em encaminhar para caixa **postal**e, no campo **endereço SIP** , digite um endereço de correio de voz no formato SIP: * \<username\>*@ *\<\> nome_do_domínioname* (para exemplo, sip:bob@contoso.com).
+   - Para encaminhar a chamada para a caixa postal, clique em **encaminhar para caixa postal**e, em seguida, no campo **endereço SIP** , digite um endereço de correio de voz no formato SIP: * \<username\>*@ *\<\> DomainName* (por exemplo, SIP:Bob@contoso.com).
     
-   - Para encaminhar a chamada para outro número de telefone, clique em encaminhar **para número de telefone**e, em seguida, no campo **endereço SIP** , digite o número de telefone no formato SIP: * \<\>Number*@ *\<DomainName\>* (por exemplo, SIP:+14255550121@contoso.com).
+   - Para encaminhar a chamada para outro número de telefone, clique em **encaminhar para número de telefone**e, em seguida, no campo **endereço SIP** , digite o número de telefone no formato SIP: * \<número\>*@ *\<DomainName\> * (por exemplo, SIP:+14255550121@contoso.com).
     
-   - Para encaminhar a chamada para outro usuário, clique em encaminhar **para endereço SIP**e, no campo **endereço SIP** , digite o URI para o usuário no formato SIP: _ \<username\>_@ _\<DomainName\>_.
+   - Para encaminhar a chamada para outro usuário, clique em **encaminhar para endereço SIP**e, no campo **endereço SIP** , digite o URI para o usuário no formato SIP: _ \<username\>_@ _\<DomainName\>_.
     
    - Para encaminhar a chamada para outra fila de espera, clique em **Encaminhar para outra fila**e, em seguida, procure na fila a ser usada.
     
@@ -87,11 +87,11 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     
    - Para desconectar a chamada após o tempo limite, clique em **Desconectar**.
     
-   - Para encaminhar a chamada para a caixa postal, clique em encaminhar para caixa **postal**e, no campo **endereço SIP** , digite um endereço de correio de voz no formato SIP: * \<username\>*@ *\<\> nome_do_domínioname* (para exemplo, sip:bob@contoso.com).
+   - Para encaminhar a chamada para a caixa postal, clique em **encaminhar para caixa postal**e, em seguida, no campo **endereço SIP** , digite um endereço de correio de voz no formato SIP: * \<username\>*@ *\<\> DomainName* (por exemplo, SIP:Bob@contoso.com).
     
-   - Para encaminhar a chamada para outro número de telefone, clique em encaminhar **para número de telefone**e, em seguida, no campo **endereço SIP** , digite o número de telefone no formato SIP: * \<\>Number*@ *\<DomainName\>* (por exemplo, SIP:+14255550121@contoso.com).
+   - Para encaminhar a chamada para outro número de telefone, clique em **encaminhar para número de telefone**e, em seguida, no campo **endereço SIP** , digite o número de telefone no formato SIP: * \<número\>*@ *\<DomainName\> * (por exemplo, SIP:+14255550121@contoso.com).
     
-   - Para encaminhar a chamada para outro usuário, clique em encaminhar **para endereço SIP**e, no campo **endereço SIP** , digite o URI para o usuário no formato SIP: _ \<username\>_@ _\<DomainName\>_.
+   - Para encaminhar a chamada para outro usuário, clique em **encaminhar para endereço SIP**e, no campo **endereço SIP** , digite o URI para o usuário no formato SIP: _ \<username\>_@ _\<DomainName\>_.
     
    - Para encaminhar a chamada para outra fila de espera, clique em **Encaminhar para outra fila**e, em seguida, procure na fila a ser usada.
     
@@ -108,13 +108,13 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
     
 3. Crie o prompt para que seja reproduzido quando o limite de tempo da fila for atingido e salve-o em um variável. Na linha de comando, execute:
     
-   ```
+   ```powershell
    $promptTO = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
    ```
 
    Por exemplo:
     
-   ```
+   ```console
    "All agents are currently busy. Please call back later."
    ```
 
@@ -123,7 +123,7 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
   
 4. Defina a ação que será executada quando o limite de tempo da fila for atingido e salve-o em um variável. Na linha de comando, execute:
     
-   ```
+   ```powershell
    $actionTO = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
    ```
 
@@ -132,19 +132,19 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
   
     Por exemplo:
     
-   ```
+   ```powershell
    $action = New-CsRgsCallAction -Prompt $promptTO -Action Terminate
    ```
 
 5. Crie o prompt que será reproduzido quando o limite de excedente da fila for atingido e salve-o em uma variável. Na linha de comando, execute:
     
-   ```
+   ```powershell
    $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
    ```
 
    Por exemplo:
     
-   ```
+   ```powershell
    $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "Too many calls are waiting. Please call back later."
    ```
 
@@ -153,7 +153,7 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
   
 6. Defina a ação que será executada quando o limite de excedente da fila for atingido e salve-o em uma variável. Na linha de comando, execute:
     
-   ```
+   ```powershell
    $actionOV = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
    ```
 
@@ -162,19 +162,19 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
   
     Por exemplo:
     
-   ```
+   ```powershell
    $action = New-CsRgsCallAction -Prompt $promptOV -Action Terminate
    ```
 
 7. Recupere o nome do serviço do Grupo de Resposta e o atribua a uma variável. Na linha de comando, execute:
     
-   ```
+   ```powershell
    $serviceId="service:"+(Get-CSService | ?{$_.Applications -Like "*RGS*"}).ServiceId;
    ```
 
 8. Obtenha a identidade do grupo de agente que será atribuído à fila. Na linha de comando, execute:
     
-   ```
+   ```powershell
    $agid = (Get-CsRgsAgentGroup -Name "Help Desk").Identity;
    ```
 
@@ -183,19 +183,19 @@ Use um dos seguintes procedimentos para criar ou modificar uma fila.
   
 9. Crie a fila. Na linha de comando, execute:
     
-   ```
+   ```powershell
    $q = New-CsRgsQueue -Parent <saved service ID from previous step> -Name "<name of queue>" [-Description "<description for queue>"] [-TimeoutThreshold <# seconds before call times out>] [-TimeoutAction <saved timeout action>] [-OverflowThreshold <# calls queue can hold>] [-OverflowCandidate <call to be acted on when overflow threshold met>] [-OverflowAction <saved overflow action>] [-AgentGroupIDList(<agent group identity>)];
    ```
 
    Por exemplo:
     
-   ```
+   ```powershell
    $q = New-CsRgsQueue -Parent $serviceId -Name "Help Desk" -Description "Contoso Help Desk" -TimeoutThreshold 300 -TimeoutAction $actionTO -OverflowThreshold 10 -OverflowCandidate NewestCall -OverflowAction $actionOV -AgentGroupIDList($agid.Identity;
    ```
 
 10. Confirme se a fila foi criada. Execute:
     
-    ```
+    ```powershell
     Get-CsRgsQueue -Name "Help Desk"
     ```
 

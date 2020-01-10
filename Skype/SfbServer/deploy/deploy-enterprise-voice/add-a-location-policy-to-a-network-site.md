@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
 description: Atribua políticas de localização E9-1-1 a sites de rede no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 4a74b1ee44d1e2f34a51d7859235e10649d0e2ee
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 36885fadddddd1fd0bf5ba91a6e0c30e79ef8b90
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233864"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001421"
 ---
 # <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>Adicionar uma política de localização a um site de rede no Skype for Business Server
  
@@ -45,7 +45,7 @@ Para obter detalhes sobre como trabalhar com sites de rede, consulte a documenta
     
     Atribua a política de Local marcada **Redmond** a um site de rede existente denominado **Redmond**.
     
-   ```
+   ```powershell
    Set-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
    ```
 
@@ -57,7 +57,7 @@ Para obter detalhes sobre como trabalhar com sites de rede, consulte a documenta
     
     Crie um novo site de rede na região de rede e atribua a política de local marcada **Redmond**.
     
-   ```
+   ```powershell
    New-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
    ```
 

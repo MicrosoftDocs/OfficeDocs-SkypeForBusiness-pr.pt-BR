@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: 'Resumo: Leia este tópico para saber como atribuir uma política de voz para usuários que usam o sistema telefônico no Office 365 com conectividade PSTN local.'
-ms.openlocfilehash: 0d310378b77c09b427836f0d9bceb60a14982071
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fc1bf50eabc1b596ba54e3447c0357cfd304ad2c
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294429"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003031"
 ---
 # <a name="assign-a-voice-routing-policy"></a>Atribuir uma Política de Roteamento de Voz
  
@@ -51,13 +51,13 @@ Antes de usar uma política de roteamento de voz global para seu sistema telefô
     
 3. Adicione os registros de uso de PSTN à política:
     
-   ```
+   ```powershell
    Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages <PSTNUsagesId> 
    ```
 
     Por exemplo:
     
-   ```
+   ```powershell
    Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages "Local", "Long Distance" 
    ```
 
@@ -71,13 +71,13 @@ Antes de usar uma política de roteamento de voz global para seu sistema telefô
     
 3. Crie uma nova política de roteamento de voz:
     
-   ```
+   ```powershell
    New-CSVoiceRoutingPolicy -Identity <String> -Name <String> -PSTNUsages <PSTNUsagesId>
    ```
 
     Por exemplo:
     
-   ```
+   ```powershell
    New-CSVoiceRoutingPolicy -Identity HybridVoice -Name Hybrid -PSTNUsages "Local", "Long Distance"
    ```
 
@@ -95,13 +95,13 @@ Para política de roteamento de voz global ou específica do usuário, use as et
     
 3. Atribua uma política de voz existente a um usuário:
     
-   ```
+   ```powershell
    Grant-CsVoiceRoutingPolicy -Identity <UserIdParameter> -PolicyName <String>
    ```
 
     Por exemplo:
     
-   ```
+   ```powershell
    Grant-CsVoiceRoutingPolicy -Identity "Bob Kelly" -PolicyName HybridVoice
    ```
 

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: 'Resumo: saiba como implantar a chamada por meio do trabalho no Skype for Business Server para alguns ou todos os seus usuários.'
-ms.openlocfilehash: d1c55e44cae944664a51eaddb2ad54e758d4f52c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d989c05b6b2b3e01a3a96e66133ec314029329e1
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234251"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002701"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server"></a>Implantar chamada por meio do trabalho no Skype for Business Server
  
@@ -58,13 +58,13 @@ Depois que todos os pré-requisitos forem implantados, execute as seguintes aç�
 
 - Digite o seguinte cmdlet
     
-  ```
+  ```powershell
   Set-CsRoutingConfiguration -CallViaWorkCallerId +<PhoneNumber>
   ```
 
     Por exemplo, o seguinte cmdlet configura o número de telefone global para 1-555-123-4567.
     
-  ```
+  ```powershell
   Set-CsRoutingConfiguration -CallViaWorkCallerId +15551234567
   ```
 
@@ -72,13 +72,13 @@ Depois que todos os pré-requisitos forem implantados, execute as seguintes aç�
 
 - Digite o seguinte cmdlet
     
-  ```
+  ```powershell
   New-CsCallViaWorkPolicy [-Identity] <XdsIdentity> [-Tenant <guid>] [-Enabled <bool>] [-UseAdminCallbackNumber  <bool>] [-AdminCallbackNumber <string>] [-InMemory] [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
   ```
 
     Por exemplo, o cmdlet a seguir cria uma chamada via política de trabalho chamada ContosoUser1CvWP, requer que o usuário use um número de retorno de chamada de administrador e define esse número de retorno de chamada para 1-555-789-1234.
     
-  ```
+  ```powershell
   New-CsCallViaWorkPolicy -Identity Tag:ContosoUser1CvWP -Enabled $true -UseAdminCallbackNumber $true -AdminCallbackNumber +15557891234
   ```
 
@@ -86,13 +86,13 @@ Depois que todos os pré-requisitos forem implantados, execute as seguintes aç�
 
 - Digite o seguinte cmdlet
     
-  ```
+  ```powershell
   Grant-CsCallViaWorkPolicy -Identity <UserName> -PolicyName Tag:<PolicyName>
   ```
 
     Por exemplo, o cmdlet a seguir atribui a chamada via política de trabalho "ContosoUser1CvWP" ao usuário chamado **ContosoUser1**.
     
-  ```
+  ```powershell
   Grant-CsCallViaWorkPolicy -Identity ContosoUser1 -PolicyName Tag:ContosoUser1CvWP
   ```
 

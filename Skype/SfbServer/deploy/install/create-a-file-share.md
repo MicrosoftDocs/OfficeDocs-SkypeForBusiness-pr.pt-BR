@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
 description: 'Resumo: saiba como criar um compartilhamento de arquivos do Windows Server como parte da instalação do Skype for Business Server. Baixe um teste grátis do Skype for Business Server no centro de avaliação da Microsoft em https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server:.'
-ms.openlocfilehash: 3f539d980d2978ee3be5e8249f869aa234493f32
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 47713c0283c5908605abec31913e104963aea2b0
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235239"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001011"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>Criar um compartilhamento de arquivos no Skype for Business Server
  
@@ -68,6 +68,7 @@ Aviso: não é possível acessar as permissões de\\<domain>\<compartilhamento p
 
 >Isso é esperado se você não for um administrador no servidor de arquivos ou se for um compartilhamento DFS (Distributed File System). Se as permissões de compartilhamento já tiverem sido configuradas, esse aviso pode ser ignorado. Se for um novo compartilhamento, consulte a documentação para obter detalhes sobre como configurar manualmente as permissões de compartilhamento.
 
->Devido à incapacidade de acessar as permissões de compartilhamento em um compartilhamento DFS, o Skype for Business Server não poderá definir grupos explicitamente no compartilhamento de arquivos. Para garantir que os componentes do Skype for Business possam acessar o compartilhamento de arquivos com as permissões apropriadas, certifique-se de que os seguintes grupos RTC sejam adicionados com permissões de compartilhamento de nível de alteração, além dos administradores locais, com permissões de compartilhamento de controle total.
-
-RTCHSUniversalServices RTCComponentUniversalServices RTCUniversalServerAdmins
+>Devido à incapacidade de acessar as permissões de compartilhamento em um compartilhamento DFS, o Skype for Business Server não poderá definir grupos explicitamente no compartilhamento de arquivos. Para garantir que os componentes do Skype for Business possam acessar o compartilhamento de arquivos com as permissões apropriadas, certifique-se de que os seguintes grupos RTC sejam adicionados com permissões de compartilhamento de nível de leitura e alteração, além dos administradores locais, com o compartilhamento de controle total Elas.
+* RTCHSUniversalServices
+* RTCComponentUniversalServices
+* RTCUniversalServerAdmins

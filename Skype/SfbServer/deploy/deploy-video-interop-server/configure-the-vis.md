@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
 description: 'Resumo: Configure a função do servidor de interoperabilidade de vídeo (VIS) no Skype for Business Server.'
-ms.openlocfilehash: 9ac7b64b33c48bd4010c1431b5c0d658f223599a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: fb9dc36bcf2f1a6f1346705f74dd3cf2844a973c
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235677"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003051"
 ---
 # <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>Configurar o servidor de interoperabilidade de vídeo no Skype for Business Server
  
@@ -34,31 +34,31 @@ Um plano de discagem com escopo global é criado pela implantação do Skype for
 
 1. Crie uma nova configuração de tronco de vídeo (um conjunto de configurações) para usar no tronco entre o VIS e o Gerenciador de comunicações unificadas da Cisco (CallManager ou CUCM), usando o seguinte cmdlet do Windows PowerShell:
     
-   ```
+   ```powershell
    New-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -GatewaySendsRtcpForActiveCalls $false -GatewaySendsRtcpForCallsOnHold $false -EnableMediaEncryptionForSipOverTls $true(or $false)
    ```
 
     Se houver um tronco de vídeo existente que precisa ser modificado, use o seguinte cmdlet do Windows PowerShell:
     
-   ```
+   ```powershell
    Set-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -GatewaySendsRtcpForActiveCalls $false -GatewaySendsRtcpForCallsOnHold $false -EnableMediaEncryptionForSipOverTls  $true(or $false)
    ```
 
     Para exibir as configurações associadas a uma configuração de tronco de vídeo específica, use o seguinte cmdlet do Windows PowerShell:
     
-   ```
+   ```powershell
    Get-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com"
    ```
 
     Para remover uma configuração de tronco de vídeo específica, use o seguinte cmdlet do Windows PowerShell (Observe que a configuração de troncos de vídeo globalmente em escopo será aplicada se não houver uma configuração de tronco de vídeo com o escopo mais especificamente para um tronco específico):
     
-   ```
+   ```powershell
    Remove-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com"
    ```
 
 2. Estabeleça um plano de discagem para associar ao tronco usando os seguintes cmdlets do Windows PowerShell:
     
-   ```
+   ```powershell
    New-CsDialPlan -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -SimpleName "TrunkTestDialPlan" 
    New-CsVoiceNormalizationRule -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com/SevenDigitRule" -Pattern '^(\d{7})$' -Translation '+1425$1' 
    Get-CsDialPlan -Identity "Service:CUCMVIS1.CUCMInterop.contoso.com"

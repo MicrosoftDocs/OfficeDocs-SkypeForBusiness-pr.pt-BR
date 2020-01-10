@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
 description: 'Resumo: como usar a ferramenta de personalização do Office com o cliente Skype for Business.'
-ms.openlocfilehash: e7eb331c1b63a9e6a94ae3920e65ef57f426fbb0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b5c66fee4f6c879c8ded2897b64e63654dd950be
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234597"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001591"
 ---
 # <a name="use-the-office-customization-tool-oct-in-skype-for-business-server"></a>Usar a ferramenta de personalização do Office (OCT) no Skype for Business Server
  
@@ -25,13 +25,13 @@ O Office Customization Tool (OCT) faz parte do programa de Instalação e é a f
   
 A OCT faz parte da configuração e só é usada para versões licenciadas por volume do produto. Você executa a OCT digitando `setup.exe /admin` na linha de comando da raiz do ponto de instalação da rede que contém os arquivos de origem do Office. Por exemplo, use o seguinte:
   
- ```
+ ```console
 \\server\share\Office15\setup.exe /admin
 ```
   
 Os administradores usam a OCT para criar um arquivo de configuração de personalização. msp e podem personalizar as seguintes áreas:
   
-- **Configurar** Usado para especificar o local de instalação padrão no cliente e o nome da organização padrão, origens adicionais de instalação de rede, chave do produto, contrato de licença de usuário final, nível de exibição, versões anteriores do Office para remover, programas personalizados a serem executados durante instalação, configurações de segurança e propriedades de configuração.
+- **Configurar** Usado para especificar o local de instalação padrão no cliente e o nome da organização padrão, origens adicionais de instalação de rede, chave do produto, contrato de licença de usuário final, nível de exibição, versões anteriores do Office para remover, programas personalizados para executar durante a instalação, configurações de segurança e propriedades de configuração.
     
 - **Recursos** do Usado para definir as configurações do usuário e para personalizar como os recursos do Office são instalados. Os administradores podem usar o OCT para especificar os valores padrões iniciais das configurações do aplicativo do Office para usuários. Os usuários podem modificar a maioria das configurações após a instalação.
     

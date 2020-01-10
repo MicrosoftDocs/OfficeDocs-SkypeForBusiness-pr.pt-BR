@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: 'Resumo: Leia este tópico para saber como configurar a experiência do cliente para usuários do Skype for Business.'
-ms.openlocfilehash: ea1d38693291ebfa7d7cc4f8893b0aa6ec1c0d83
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0122e86648a30cf0c4a17957b5d000b742d4c16a
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234448"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003531"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>Configurar a experiência do cliente com o Skype for Business 2015
  
@@ -35,7 +35,7 @@ O Skype for Business Server é compatível com a nova experiência de cliente do
 
 Você pode especificar a experiência que os clientes na sua organização terão usando o cmdlet **Set-CSClientPolicy** com o parâmetro EnableSkypeUI:
   
-```
+```powershell
 Set-CsClientPolicy  [-Identity <XdsIdentity] [-EnableSkypeUI <$true | $false>]
 ```
 
@@ -43,33 +43,33 @@ onde XdsIdentity refere-se à política Global ou a uma política de local nomea
   
 O comando a seguir seleciona a experiência do cliente Skype for Business para todos os usuários da sua organização afetados pela política global (Lembre-se de que as políticas específicas do site ou do usuário substituem a política global): 
   
-```
+```powershell
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $true
 ```
 
 O próximo comando seleciona a experiência do cliente do Lync para todos os usuários da sua organização afetados pela política global:
   
-```
+```powershell
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $false
 ```
 
 O próximo comando seleciona a experiência do cliente Skype for Business para todos os usuários no site de Redmond:
   
-```
+```powershell
 Set-CsClientPolicy -Identity site:Redmond -EnableSkypeUI $true
 ```
 
-Se você quiser configurar a experiência do cliente para usuários específicos em sua organização, poderá criar uma nova política de usuário usando o cmdlet **New-CsClientPolicy** e atribuir a política a usuários específicos usando o **Grant-CsClientPolicy** cmdlet.
+Se você quiser configurar a experiência do cliente para usuários específicos em sua organização, poderá criar uma nova política de usuário usando o cmdlet **New-CsClientPolicy** e, em seguida, atribuir a política a usuários específicos usando o cmdlet **Grant-CsClientPolicy** .
   
 Por exemplo, o comando a seguir cria uma nova política de cliente, SalesClientUI, que seleciona a experiência do cliente do Skype for Business:
   
-```
+```powershell
 New-CsClientPolicy -Identity SalesClientUI -EnableSkypeUI $true
 ```
 
 A próximo comando atribui a política, SalesClientUI, a todos os membros do departamento de Vendas:
   
-```
+```powershell
 Get-CsUser -LDAPFilter "Department=Sales" | Grant-CsClientPolicy -PolicyName SalesClientUI
 ```
 
@@ -117,7 +117,7 @@ Na chave **[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync]**, crie um no
   
 Lync
   
-```
+```console
 "TutorialFeatureEnabled"=dword:00000000
 ```
 
@@ -131,11 +131,11 @@ Se a sua organização tiver o Skype for Business Server e o Lync Server implant
 |**Versão do servidor**|**Configuração EnableSkypeUI**|**Experiência do cliente**|
 |:-----|:-----|:-----|
 |Skype for Business Server |Padrão  <br/> |Skype for Business  <br/> |
-|Skype for Business Server  |True  <br/> |Skype for Business  <br/> |
-|Skype for Business Server  |False  <br/> |O usuário pediu alternar para o modo Lync (o usuário pode alternar para o Skype for Business mais tarde, se você alterar a configuração da interface do usuário para $true)  <br/> |
+|Skype for Business Server  |Verdadeiro  <br/> |Skype for Business  <br/> |
+|Skype for Business Server  |Falso  <br/> |O usuário pediu alternar para o modo Lync (o usuário pode alternar para o Skype for Business mais tarde, se você alterar a configuração da interface do usuário para $true)  <br/> |
 |Lync Server 2010 ou Lync Server 2013 (com patches corretos)  <br/> |Padrão  <br/> |O usuário pediu alternar para o modo Lync (o usuário pode alternar para o Skype for Business mais tarde, se você alterar a configuração da interface do usuário para $true)  <br/> |
-|Lync Server 2010 ou Lync Server 2013 (com patches corretos)  <br/> |True  <br/> |Skype for Business  <br/> |
-|Lync Server 2010 ou Lync Server 2013 (com patches corretos)  <br/> |False  <br/> |O usuário pediu alternar para o modo Lync (o usuário pode alternar para o Skype for Business mais tarde, se você alterar a configuração da interface do usuário para $true)  <br/> |
+|Lync Server 2010 ou Lync Server 2013 (com patches corretos)  <br/> |Verdadeiro  <br/> |Skype for Business  <br/> |
+|Lync Server 2010 ou Lync Server 2013 (com patches corretos)  <br/> |Falso  <br/> |O usuário pediu alternar para o modo Lync (o usuário pode alternar para o Skype for Business mais tarde, se você alterar a configuração da interface do usuário para $true)  <br/> |
 |Lync Server 2010 ou Lync Server 2013 (sem patches)  <br/> |Padrão  <br/> |O usuário pediu alternar para o modo Lync (o usuário não pode mudar para o Skype for Business mais tarde)  <br/> |
    
 A tabela a seguir mostra a experiência do cliente quando o administrador muda a configuração inicial para a experiência da interface do usuário do Skype:
@@ -143,10 +143,10 @@ A tabela a seguir mostra a experiência do cliente quando o administrador muda a
 
 |**Versão do servidor**|**Configuração EnableSkypeUI**|**Interface do usuário do cliente = Lync**|**Interface do usuário do cliente = Skype for Business**|
 |:-----|:-----|:-----|:-----|
-|Skype for Business Server |True  <br/> |O usuário pediu que mudar para o Skype for Business  <br/> |Skype for Business  <br/> |
-|Skype for Business Server |False  <br/> |Modo Lync  <br/> |O usuário pediu alternar para o modo Lync  <br/> |
-|Lync Server 2010 ou Lync Server 2013 (com patches corretos)  <br/> |True  <br/> |O usuário pediu que mudar para o Skype for Business  <br/> |Skype for Business  <br/> |
-|Lync Server 2010 ou Lync Server 2013 (com patches corretos)  <br/> |False  <br/> |Modo Lync  <br/> |O usuário pediu alternar para o modo Lync  <br/> |
+|Skype for Business Server |Verdadeiro  <br/> |O usuário pediu que mudar para o Skype for Business  <br/> |Skype for Business  <br/> |
+|Skype for Business Server |Falso  <br/> |Modo Lync  <br/> |O usuário pediu alternar para o modo Lync  <br/> |
+|Lync Server 2010 ou Lync Server 2013 (com patches corretos)  <br/> |Verdadeiro  <br/> |O usuário pediu que mudar para o Skype for Business  <br/> |Skype for Business  <br/> |
+|Lync Server 2010 ou Lync Server 2013 (com patches corretos)  <br/> |Falso  <br/> |Modo Lync  <br/> |O usuário pediu alternar para o modo Lync  <br/> |
 |Lync Server 2010 ou Lync Server 2013 (sem patches)  <br/> |Padrão  <br/> |Modo Lync (não é possível mudar para o Skype for Business)  <br/> |Modo Lync (não é possível mudar para o Skype for Business)  <br/> |
    
 As versões de patch necessárias para gerenciar a configuração do cliente Skype for Business são:
@@ -200,7 +200,7 @@ Em seguida, você terá de vincular o GPO criado ao grupo de usuários ao qual v
     
 3. No computador do usuário de destino, abra um prompt de comando e digite o seguinte comando:
        
-```
+```console
 gpupdate /target:user
 ```
 

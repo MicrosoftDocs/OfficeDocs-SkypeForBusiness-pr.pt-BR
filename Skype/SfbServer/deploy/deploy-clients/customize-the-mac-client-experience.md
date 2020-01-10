@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: Este artigo descreve as preferências e os padrões do cliente disponíveis para o cliente do Skype for Business no Mac e como editá-los de fora do aplicativo.
-ms.openlocfilehash: fe8e6280fc939283bccb02641672a4fec6d5481c
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: 582c9a1b12cf6dd687eff5fe0cb829e1aca98df7
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271275"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002651"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Personalizar a experiência do cliente Mac no Skype for Business
  
@@ -61,7 +61,7 @@ defaults Write com. Microsoft. SkypeForBusiness trustedDomainList-array-Add "sfb
 
 Para referência, aqui está um arquivo de configurações de exemplo usando somente configurações padrão:  
   
-```
+```console
 {
     BITApplicationDidEnterBackgroundTime = "1496164840.505589";
     BITApplicationWasLaunched = 1;

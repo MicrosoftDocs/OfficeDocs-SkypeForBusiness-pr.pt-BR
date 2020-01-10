@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 62fdc9cc-e82e-463f-b8b3-05d5c6482ea2
 description: O cmdlet Get-CcExternalCertificateFilePath retorna o caminho do arquivo do certificado externo para a implantação do Skype for Business Cloud Connector Edition. O usuário prepara este certificado.
-ms.openlocfilehash: ed725814380741aade73166d01025650dfa78538
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7a471b0e4258728bfaa50558aab54955346b457c
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287318"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003371"
 ---
 # <a name="get-ccexternalcertificatefilepath"></a>Get-CcExternalCertificateFilePath
  
@@ -24,7 +24,7 @@ O cmdlet Get-CcExternalCertificateFilePath retorna o caminho do arquivo do certi
   
 Este cmdlet se aplica ao Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.
   
-```
+```powershell
 Get-CcExternalCertificateFilePath [[-Target] <string> {EdgeServer | MediationServer}]
 ```
 
@@ -35,7 +35,7 @@ Get-CcExternalCertificateFilePath [[-Target] <string> {EdgeServer | MediationSer
 
 O seguinte exemplo mostra o caminho do certificado para o Servidor de Borda:
   
-```
+```powershell
 Get-CcExternalCertificateFilePath -Target EdgeServer
 ```
 
@@ -43,7 +43,7 @@ Get-CcExternalCertificateFilePath -Target EdgeServer
 
 O seguinte exemplo mostra o certificado definido para o Servidor de Mediação:
   
-```
+```powershell
 Get-CcExternalCertificateFilePath -Target MediationServer
 ```
 

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Resumo: saiba como conectar o Skype for Business Server ao Skype consumidor. Também conhecida como conectividade com o Skype.'
-ms.openlocfilehash: 4a335d2ec8e20310a34ce1bdfc8f39fe9b1117ee
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: 41a183912604c5880dfa46529f9034bc0673288d
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464596"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003071"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Implantar a conectividade do Skype no Skype for Business Server
 
@@ -187,14 +187,14 @@ Também é possível configurar a Conectividade Skype usando somente o PowerShel
     
 2. Execute estes dois comandos:
     
-   ```
+   ```powershell
     Remove-CsPublicProvider -Identity <identity-name>
    ```
 
     > [!NOTE]
     > Se você ainda não tem um provedor de PIC em seu ambiente e está criando um novo provedor de PIC, não é necessário executar o cmdlet Remove-CsPublicProvider.  
   
-   ```
+   ```powershell
    New-CsPublicProvider -Identity Skype -ProxyFqdn federation.messenger.msn.com -IconUrl https://images.edge.messenger.live.com/Messenger_16x16.png -NameDecorationRoutingDomain msn.com -NameDecorationExcludedDomainList "msn.com,outlook.com,live.com,hotmail.com" -Enabled $true -EnableSkypeIdRouting $true -EnableSkypeDirectorySearch $true
    ```
 
@@ -210,7 +210,7 @@ Também é possível configurar a Conectividade Skype usando somente o PowerShel
      > Em caso de alterações, o provedor público deverá ser removido e um novo provedor deverá ser adicionado. Não é permitido fazer alterações in-loco. 
   
      > [!NOTE]
-     > Adicionado ao Lync Server 2013 CU5 &amp; o cliente de área de trabalho Lync no Office 2013 SP1, o NameDecorationRoutingDomain e o NameDecorationExcludedDomainList melhoram a situação em que os usuários do Lync adicionam contatos do Skype necessários para "decorar" domínios que não sejam da Microsoft Identifique e encaminhe-os para o Skype (o formato de: usuário (contoso. com) @msn. com). Essas novas configurações permitirão a formatação automática da entrada do usuário do endereço na caixa de diálogo "Adicionar contato do Skype" com o NameDecorationRoutingDomain (que deve ser definido como msn.com) se ele não contiver os domínios no NameDecorationExcludedDomainList ( Atualmente, podemos dar suporte a msn.com, live.com, Hotmail.com, outlook.com). 
+     > Adicionado ao Lync Server 2013 CU5 &amp; o cliente de área de trabalho Lync no Office 2013 SP1, o NameDecorationRoutingDomain e o NameDecorationExcludedDomainList melhoram a situação em que os usuários do Lync adicionam contatos do Skype necessários para "decorar" domínios não-Microsoft para identificar e roteá-los para o Skype (o formato de: usuário (contoso. com) @msn. com). Essas novas configurações permitirão a formatação automática da entrada do usuário do endereço na caixa de diálogo "Adicionar contato do Skype" com o NameDecorationRoutingDomain (que deve ser definido como msn.com) se ele não contiver os domínios no NameDecorationExcludedDomainList ( Atualmente, podemos dar suporte a msn.com, live.com, Hotmail.com, outlook.com). 
   
 3. Agora, a partir de um cliente Skype for Business, os usuários podem pesquisar e adicionar usuários do Skype.
     
@@ -231,7 +231,7 @@ A tabela a seguir descreve o status de interoperabilidade entre a versão mais r
   
 |**Cliente**|**Pesquisa de diretórios do Skype e Adicionar contatos**|**Interop de áudio e vídeo e mensagens instantâneas do Skype**|
 |:-----|:-----|:-----|
-|Skype for Business  <br/> |Sim   <br/> |Sim   <br/> |
+|Skype for Business  <br/> |Sim  <br/> |Sim   <br/> |
 |Skype for Business para Mac  <br/> |É possível adicionar (sem pesquisa)  <br/> |Sim  <br/> |
 |Lync Desktop 2013  <br/> |É possível adicionar (sem pesquisa)  <br/> |Sim  <br/> |
 |Lync Web App – online e local  <br/> |N/D  <br/> |N/D  <br/> |

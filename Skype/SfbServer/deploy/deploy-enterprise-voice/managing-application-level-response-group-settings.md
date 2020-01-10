@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 description: Gerenciar configurações de grupo de resposta no nível do aplicativo, como configurações de áudio em espera e de toque, no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: d39569c380abcc22993f7d87fc27143f355e7084
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4c5964d84e5fb84bf1c20c3e43bb0cc4aa25ae17
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240287"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001271"
 ---
 # <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>Gerenciando configurações de grupo de resposta no nível do aplicativo no Skype for Business
  
@@ -37,19 +37,19 @@ A música de espera padrão é tocada quando uma chamada é coloca em espera, ap
     
 3. Na linha de comando, execute:
     
-   ```
+   ```powershell
    Set-CsRgsConfiguration -Identity <name of service hosting Response Group> [-AgentRingbackGracePeriod <# seconds until call returns to agent after declined>] [-DefaultMusicOnHoldFile <audio file>] [-DisableCallContext <$true | $false>]
    ```
 
     Por exemplo:
     
-   ```
+   ```powershell
    Set-CsRgsConfiguration -Identity "service:ApplicationServer:redmond.contoso.com" -AgentRingbackGracePeriod 30 -DisableCallContext $false
    ```
 
     Para especificar um arquivo de áudio para ser usado como a música de espera padrão, você precisa primeiro importar o arquivo de áudio. Por exemplo:
     
-   ```
+   ```powershell
    $x = Import-CsRgsAudioFile -Identity "service:ApplicationServer:redmond.contoso.com" -FileName "MusicWhileYouWait.wav" -Content (Get-Content C:\Media\ MusicWhileYouWait.wav -Encoding byte -ReadCount 0)
    Set-CsRgsConfiguration -Identity "service:ApplicationServer:redmond.contoso.com" -DefaultMusicOnHoldFile <$x>
    ```

@@ -12,18 +12,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 description: 'Resumo: configurar o SharePoint Server para pesquisar dados arquivados pelo Exchange Server e pelo Skype for Business Server.'
-ms.openlocfilehash: ef8fde621eddfb83972f6cdd540336c9380c7cd7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d896d6acecd808e5b153e931b8c4b3a8ba62ed9a
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244137"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003571"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>Configurar o SharePoint Server para pesquisar dados arquivados do Skype for Business
  
 **Resumo:** Configure o SharePoint Server para pesquisar dados arquivados pelo Exchange Server 2016 ou pelo Exchange Server 2013 e pelo Skype for Business Server.
   
-Uma das principais vantagens de armazenar mensagens instantâneas e transcrições de webconferências no Exchange Server em vez do Skype for Business Server é que armazenar dados no mesmo local permite que os administradores usem uma única ferramenta para pesquisar dados do Exchange arquivados e/ou os dados arquivados do Skype for Business Server. Como todos os dados são armazenados no mesmo lugar (Exchange), qualquer ferramenta que possa pesquisar dados do Exchange arquivado também pode procurar por dados arquivados do Skype for Business Server.
+Uma das principais vantagens de armazenar mensagens de chat e transcrições de webconferências no Exchange Server, em vez do Skype for Business Server, é que armazenar dados no mesmo local permite que os administradores usem uma única ferramenta para pesquisar dados do Exchange arquivados e/ou dados arquivados do Skype for Business Server. Como todos os dados são armazenados no mesmo lugar (Exchange), qualquer ferramenta que possa pesquisar dados do Exchange arquivado também pode procurar por dados arquivados do Skype for Business Server.
   
 Uma ferramenta que torna mais fácil pesquisar dados arquivados é o Microsoft SharePoint Server 2013. Se quiser usar o SharePoint para pesquisar dados do Skype for Business Server, primeiro você deve concluir todas as etapas envolvidas na configuração do arquivamento do Exchange no Skype for Business Server. Após a integração do Exchange Server e do Skype for Business Server, você deve instalar a [API gerenciada dos serviços Web](https://go.microsoft.com/fwlink/p/?LinkId=258305) do Exchange no seu servidor do SharePoint. O arquivo baixado (EWSManagedAPI.msi) pode ser salvo em qualquer pasta do SharePoint Server.
   
@@ -33,25 +33,25 @@ Depois que o arquivo for baixado, conclua o procedimento a seguir no servidor do
     
 2. Na janela de comando, use o comando cd para mudar o diretório atual para a pasta onde o arquivo EWSManagedAPI.msi foi salvo. Por exemplo, se você salvou o arquivo no C:\Downloads digite o seguinte comando na janela de comando e pressione ENTER:
     
-   ```
+   ```console
    cd C:\Downloads
    ```
 
 3. Para instalar a API, digite o seguinte comando e pressione ENTER:
     
-   ```
+   ```console
    msiexec /I EwsManagedApi.msi addlocal="ExchangeWebServicesApi_Feature,ExchangeWebServicesApi_Gac"
    ```
 
 4. Após instalar a API, redefina o IIS digitando o seguinte comando e pressionando ENTER:
     
-   ```
+   ```console
    iisreset
    ```
 
 Após a instalação do Exchange Web Services, você deve configurar a autenticação de servidor para servidor entre o SharePoint Server e o Exchange Server. Para fazer isso, primeiro abra o Shell de gerenciamento do SharePoint e execute o seguinte conjunto de comandos:
   
-```
+```powershell
 New-SPTrustedSecurityTokenIssuer -Name "Exchange" -MetadataEndPoint "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
 $service = Get-SPSecurityTokenServiceConfig
 $service.HybridStsSelectionEnabled = $True
@@ -65,7 +65,7 @@ $service.Update()
   
 Depois de criar o emissor do token e configurar o serviço de token, execute esses comandos, substituindo a URL do seu site do SharePoint pela URL de exemplohttp://atl-sharepoint-001:
   
-```
+```powershell
 $exchange = Get-SPTrustedSecurityTokenIssuer "Exchange"
 $app = Get-SPAppPrincipal -Site "https://atl-sharepoint-001" -NameIdentifier $exchange.NameID
 $site = Get-SPSite  "https://atl-sharepoint-001"
@@ -74,13 +74,13 @@ Set-SPAppPrincipalPermission -AppPrincipal $app -Site $site.RootWeb -Scope "Site
 
 Para configurar a autenticação de servidor para servidor para o Exchange Server, abra o Shell de gerenciamento do Exchange e execute um comando semelhante a isso (pressupondo que o Exchange tenha sido instalado na unidade C: e que ele use o caminho de pasta padrão):
   
-```
+```powershell
 "C:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl 'https://atl-sharepoint-001/_layouts/15/metadata/json/1' -ApplicationType SharePoint"
 ```
 
 Depois de configurar o aplicativo de parceiro, é recomendável parar e reiniciar os serviços de informações da Internet (IIS) em todos os servidores de caixa de correio do Exchange e de acesso para cliente. Você pode reiniciar o IIS usando um comando similar a esse, que reinicia o serviço no atl-exchange-001 do computador:
   
-```
+```powershell
 iisreset atl-exchange-001
 ```
 
@@ -88,13 +88,13 @@ Esse comando pode ser executado de dentro do Shell de gerenciamento do Exchange 
   
 Em seguida, execute um comando semelhante ao seguinte, que fornece ao usuário especificado (neste exemplo, kenmyer) o direito de fazer a descoberta no Exchange:
   
-```
+```powershell
 Add-RoleGroupMember "Discovery Management" -Member "kenmyer"
 ```
 
 Após o estabelecimento da autenticação de servidor para servidor entre o Exchange e o SharePoint, a próxima etapa é criar um site de descoberta eletrônica no SharePoint. Isso pode ser feito executando-se comandos semelhantes aos do Shell de gerenciamento do SharePoint:
   
-```
+```powershell
 $template = Get-SPWebTemplate | Where-Object {$_.Title -eq "eDiscovery Center"}
 New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmyer" -Template $Template -Name "Discovery Center"
 ```

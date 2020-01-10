@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Saiba mais sobre os fatores a serem considerados antes de configurar eventos dinâmicos no Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 736d6b8f2000f94806077e8f1739b28be248b136
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 66054194c197d40c10850582e624b543b4561f42
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570174"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001261"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planejar eventos ao vivo no Microsoft Teams
 
@@ -55,7 +55,7 @@ O usuário deve ter:
 - Permissões para criar eventos ao vivo em fluxo (para aplicativo externo ou produção de dispositivo).
 
 > [!IMPORTANT]
-> Os usuários convidados do Office 365, federados e anônimos não podem ser convidados como produtores ou apresentadores nos eventos ao vivo do teams. Os convidados do Office 365 e os usuários federados podem apenas assistir a eventos ao vivo anonimamente. 
+> Usuários anônimos não autenticados não podem ser convidados como produtores ou apresentadores nos eventos ao vivo do teams. 
  
 ## <a name="who-can-watch-live-events"></a>Quem pode assistir a eventos dinâmicos?
 
@@ -86,13 +86,13 @@ A tabela a seguir destaca os principais recursos e recursos oferecidos em evento
 |Cliente do produtor no Windows |&#x2714; (Skype for Business) |&#x2714; (Teams) |&#x2714; (fluxo, equipes via Stream embed) |
 |Cliente do produtor no Mac |X  | &#x2714; (Teams) |&#x2714; (fluxo, equipes via Stream embed) |
 |Contagem de participantes na interface do usuário do Producer |X  |&#x2714; (Teams) |&#x2714; (fluxo, equipes via Stream embed) |
-|Permite vários apresentadores |&#x2714; (Skype for Business) |&#x2714; (Teams) |N/D  |
-|Convidar um apresentador durante a reunião |&#x2714; (Skype for Business) |X |N/D |
-|Junção do apresentador na Web e no celular |&#x2714; (Skype for Business)  |X |N/D |
-|Apresentadores/participantes de convidados & agrupados |&#x2714; (Skype for Business)  | (disponível em breve) |N/D |
-|Apresentador – acesso PSTN |X |&#x2714; (Teams) |N/D |
-|Apresentar uma tela |X |&#x2714; (Teams) |N/D |
-|Apresentar um PowerPoint (compartilhamento do PPT) |&#x2714; |X (minimizado via compartilhamento de tela) |N/D |
+|Permite vários apresentadores |&#x2714; (Skype for Business) |&#x2714; (Teams) |Não disponível  |
+|Convidar um apresentador durante a reunião |&#x2714; (Skype for Business) |X |Não disponível |
+|Junção do apresentador na Web e no celular |&#x2714; (Skype for Business)  |X |Não disponível |
+|Apresentadores/participantes de convidados & agrupados |&#x2714; (Skype for Business)  | (disponível em breve) |Não disponível |
+|Apresentador – acesso PSTN |X |&#x2714; (Teams) |Não disponível |
+|Apresentar uma tela |X |&#x2714; (Teams) |Não disponível |
+|Apresentar um PowerPoint (compartilhamento do PPT) |&#x2714; |X (minimizado via compartilhamento de tela) |Não disponível |
 |Gravação de reunião baseada na nuvem |&#x2714; |&#x2714; |&#x2714; |
 |Publicação automática de gravação em fluxo |X |X |&#x2714; |
 |Legendas e legendas ao vivo |&#x2714; |&#x2714; |X |

@@ -21,12 +21,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Saiba o que são atendedores automáticos da nuvem e como usá-los.
-ms.openlocfilehash: d326b707ff94d9d30e26f6da31f12588b083872e
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: e9d6da8a73333218990611bd287a852683d52f9c
+ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37924882"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41004766"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>O que são atendedores automáticos da nuvem?
 
@@ -45,6 +45,7 @@ Um atendedor automático na nuvem tem os seguintes recursos:
 - Ele oferece suporte a vários idiomas para solicitações, conversão de texto em fala e reconhecimento de fala.
 - Ele é compatível com a especificação de feriados e horários de trabalho.
 - Ele permite a transferência de chamadas para um operador, outros usuários, filas de chamadas e atendedores automáticos.
+- Ele dá suporte à caixa postal compartilhada para que os chamadores deixem uma mensagem para uma organização.
 
 > [!NOTE]
 > Este artigo se aplica ao Microsoft Teams e ao Skype for Business online.
@@ -74,9 +75,9 @@ Para começar a usar os atendedores automáticos, é importante lembrar-se de qu
 
 ### <a name="searching-for-users"></a>Procurando usuários
 
-Discar por nome é um recurso de um atendedor automático que também é conhecido como pesquisa de diretório. Ele permite que as pessoas que chamam seu atendedor automático usem voz (reconhecimento de fala) ou as respostas do teclado de telefone (DTMF) para inserir um nome completo ou parcial para pesquisar o diretório da empresa, localizar a pessoa e fazer com que a chamada seja transferida para ela. Os usuários que você quer localizar e chegarem usando o recurso discar por nome **não devem ter um número de telefone ou ter planos de chamada atribuídos a eles, mas devem ter uma licença de sistema telefônico se eles forem usuários online ou o Enterprise Voice estiver habilitado para o Skype for Business Server usuários**. Discar por nome poderá, até mesmo, localizar e transferir chamadas para os usuários do Microsoft Teams que são hospedados em diferentes países ou regiões para organizações multinacionais. Devido aos pré-requisitos envolvidos, você habilitou explicitamente o recurso discar por nome em um atendedor automático.
+Discar por nome é um recurso de um atendedor automático que também é conhecido como pesquisa de diretório. Ele permite que as pessoas que chamam seu atendedor automático usem voz (reconhecimento de fala) ou as respostas do teclado de telefone (DTMF) para inserir um nome completo ou parcial para pesquisar o diretório da empresa, localizar a pessoa e fazer com que a chamada seja transferida para ela. Os usuários que você quer localizar e acessar usando o recurso discar por nome **não devem ter um número de telefone ou ter planos de chamadas atribuídos a eles, mas devem ter uma licença de sistema telefônico se eles forem usuários online ou o Enterprise Voice estiver habilitado para usuários do Skype for Business Server**. Discar por nome poderá, até mesmo, localizar e transferir chamadas para os usuários do Microsoft Teams que são hospedados em diferentes países ou regiões para organizações multinacionais. Devido aos pré-requisitos envolvidos, você habilitou explicitamente o recurso discar por nome em um atendedor automático.
 
-Discar por extensão é um recurso de um atendedor automático que também faz parte da pesquisa de diretório. Ele permite que as pessoas que chamam seu atendente automático usem voz (reconhecimento de fala) ou as respostas do teclado de telefone (DTMF) para inserir a extensão de telefone do usuário para o qual estão tentando falar e, em seguida, fazer com que a chamada seja transferida para elas. Os usuários que você quer localizar e acessados usando o recurso discar por **não devem ter um número de telefone ou ter planos de chamadas atribuídos a eles, mas devem ter uma licença de sistema telefônico se eles forem usuários online ou o Enterprise Voice estiver habilitado para o Skype for Business Usuários do servidor**. Você também precisará ter um plano de discagem configurado adequadamente para seus usuários. A discagem por extensão poderá até mesmo localizar e transferir chamadas para os usuários do Microsoft Teams que são hospedados em diferentes países ou regiões para organizações multinacionais. Devido aos pré-requisitos envolvidos, você habilitou explicitamente a extensão dial by em um atendedor automático.
+Discar por extensão é um recurso de um atendedor automático que também faz parte da pesquisa de diretório. Ele permite que as pessoas que chamam seu atendente automático usem voz (reconhecimento de fala) ou as respostas do teclado de telefone (DTMF) para inserir a extensão de telefone do usuário para o qual estão tentando falar e, em seguida, fazer com que a chamada seja transferida para elas. Os usuários que você quer localizar e se encontrarem usando o recurso discar por **não devem ter um número de telefone ou ter planos de chamada atribuídos a eles, mas devem ter uma licença de sistema telefônico se eles forem usuários online ou Enterprise Voice habilitado para usuários do Skype for Business Server**. Você também precisará ter um plano de discagem configurado adequadamente para seus usuários. A discagem por extensão poderá até mesmo localizar e transferir chamadas para os usuários do Microsoft Teams que são hospedados em diferentes países ou regiões para organizações multinacionais. Devido aos pré-requisitos envolvidos, você habilitou explicitamente a extensão dial by em um atendedor automático.
 
 #### <a name="maximum-directory-size"></a>Tamanho máximo do diretório
 

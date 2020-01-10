@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 description: 'Resumo: saiba como habilitar usuários para fazer e receber chamadas usando o Enterprise Voice no Skype for Business Server.'
-ms.openlocfilehash: cf9aab0f104582c57e745c95ae5cf8f24f07b3a5
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 441b7a5705268dedea1feb87e01a48d0ef68b32c
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240328"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002521"
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>Habilitar usuários do Enterprise Voice no Skype for Business Server
  
@@ -59,7 +59,7 @@ Depois de implantar o Enterprise Voice ou ligar pelo trabalho, você pode usar o
 Para concluir a habilitação de um usuário para o Enterprise Voice, certifique-se de que o usuário tenha atribuído uma política de voz e um plano de discagem, seja global (atribuído por padrão) ou específico ao usuário. Por padrão, todos os usuários recebem uma política de voz global e um plano de discagem. Se houver uma política de voz ou um plano de discagem no nível do site no qual a conta de usuário é hospedada, essas políticas do site serão aplicadas automaticamente ao usuário. Para aplicar uma política de voz por usuário ou um plano de discagem a um usuário, você deve executar os cmdlets **Grant-CsVoicePolicy** e **Grant-CsDialPlan** . Para obter detalhes, consulte os procedimentos a seguir neste tópico.
 ## <a name="voice-policy-assignment"></a>Atribuição de política de voz
 
-Políticas de voz globais e no nível do site são automaticamente atribuídas a todas as contas de usuário habilitadas para o Enterprise Voice. Você também pode criar políticas de voz que se aplicam a usuários ou grupos específicos. Essas políticas por usuário devem ser explicitamente atribuídas aos usuários ou grupos. Se quiser usar a política de voz global ou de site para todos os usuários habilitados para o Enterprise Voice, você poderá ignorar esta seção e continuar a discagem da seção de [atribuição de plano](enable-users-for-enterprise-voice.md#BKMK_DialPlanAssignment) posteriormente neste tópico.
+Políticas de voz globais e no nível do site são automaticamente atribuídas a todas as contas de usuário habilitadas para o Enterprise Voice. Você também pode criar políticas de voz que se aplicam a usuários ou grupos específicos. Essas políticas por usuário devem ser explicitamente atribuídas aos usuários ou grupos. Se quiser usar a política de voz global ou de site para todos os usuários habilitados para o Enterprise Voice, você poderá ignorar esta seção e continuar a [discagem](enable-users-for-enterprise-voice.md#BKMK_DialPlanAssignment) da seção de atribuição de plano posteriormente neste tópico.
   
 ### <a name="to-assign-a-user-specific-voice-policy"></a>Para atribuir uma política de voz específica do usuário
 
@@ -69,13 +69,13 @@ Políticas de voz globais e no nível do site são automaticamente atribuídas a
     
 3. Para atribuir uma política de voz de usuário existente a um usuário, execute o seguinte no prompt de comando:
     
-   ```
+   ```powershell
    Grant-CsVoicePolicy -Identity <UserIdParameter> -PolicyName <String>
    ```
 
     Por exemplo:
     
-   ```
+   ```powershell
    Grant-CsVoicePolicy -Identity "Bob Kelly" -PolicyName VoicePolicyJapan
    ```
 
@@ -94,13 +94,13 @@ Para concluir a configuração da conta de usuário para usuários do Enterprise
     
 3. Para atribuir um plano de discagem específico do usuário, execute o seguinte no prompt de comando:
     
-   ```
+   ```powershell
    Grant-CsDialPlan -Identity <UserIdParameter> -PolicyName <String>
    ```
 
     Por exemplo:
     
-   ```
+   ```powershell
    Grant-CsDialPlan -Identity "Bob Kelly" -PolicyName DialPlanJapan
    ```
 

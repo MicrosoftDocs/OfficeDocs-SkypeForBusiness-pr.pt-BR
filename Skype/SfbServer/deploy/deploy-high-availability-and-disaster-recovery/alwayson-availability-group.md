@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: Implantar (instalar) um grupo de disponibilidade AlwaysOn na implantação do Skype for Business Server.
-ms.openlocfilehash: 2cfc75aecd53a82e146feefd944134a4695c21fe
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: eadf3c67f5d2618d7070c2a3540c2a9ad08b5942
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240122"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002911"
 ---
 # <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>Implantar um grupo de disponibilidade AlwaysOn em um servidor back-end no Skype for Business Server
  
@@ -138,7 +138,7 @@ A maneira como você implanta uma AG depende se você a está implantando em um 
     
    - Abra o Shell de gerenciamento do Skype for Business Server e digite o seguinte cmdlet para criar os logons do SQL nesta réplica:
     
-   ```
+   ```powershell
    Install-CsDatabase -Update
    ```
 
@@ -152,13 +152,13 @@ A maneira como você implanta uma AG depende se você a está implantando em um 
   
 1. Falhe em todos os dados do espelho para o nó principal abrindo o Shell de gerenciamento do Skype for Business Server e digitando o cmdlet a seguir.
     
-   ```
+   ```powershell
    Invoke-CsDatabaseFailover -PoolFqdn <Pool FQDN> -DatabaseType <DatabaseType> -NewPrincipal "Primary"
    ```
 
     Repita esse cmdlet para cada tipo de banco de dados no pool. Você pode utilizar o seguinte cmdlet para localizar todos os tipos de bancos de dados armazenados neste pool.
      
-   ```
+   ```powershell
    Get-CsPool -Identity <Pool FQDN>
    ```
 
@@ -296,7 +296,7 @@ A maneira como você implanta uma AG depende se você a está implantando em um 
     
     - Abra o Shell de gerenciamento do Skype for Business Server e digite o seguinte cmdlet para criar os logons do SQL nesta réplica:
     
-    ```
+    ```powershell
     Install-CsDatabase -Update
     ```
 
@@ -428,7 +428,7 @@ A maneira como você implanta uma AG depende se você a está implantando em um 
     
     - Abra o Shell de gerenciamento do Skype for Business Server e digite o seguinte cmdlet para criar os logons do SQL nesta réplica:
     
-      ```
+      ```powershell
       Install-CsDatabase -Update
       ```
 

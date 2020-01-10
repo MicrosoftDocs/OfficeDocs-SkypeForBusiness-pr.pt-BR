@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1309c09-ad9a-4c54-9650-4e3f5b2a4a00
 description: 'Resumo: saiba como configurar um tronco entre um servidor de mediação e os pares para Enterprise Voice no Skype for Business Server.'
-ms.openlocfilehash: 714c712816709e8f2211e752f87d20c8d2067c7b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9bd285f1364d54940afd827858248656a6bb9f00
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233654"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001231"
 ---
 # <a name="configure-trunks-in-skype-for-business-server"></a>Configurar troncos no Skype for Business Server
  
@@ -43,7 +43,7 @@ A funcionalidade do Skype for Business Server oferece suporte a várias associa�
     
 Quando um tronco é definido, ele precisa ser associado à rota. Para associar um tronco a uma rota, você define um nome simples para o tronco no construtor de topologias. Esse nome simples é usado como o nome do tronco no painel de controle do Skype for Business Server, em que os troncos podem ser associados às rotas. O nome do tronco simples é usado como o nome do gateway do Shell de gerenciamento do Skype for Business Server. 
   
-```
+```powershell
 New-CsVoiceRoute -Identity <RouteId> -NumberPattern <String> -PstnUsages @{add="<UsageString>"} -PstnGatewayList @{add="<TrunkSimpleName>"}
 ```
 

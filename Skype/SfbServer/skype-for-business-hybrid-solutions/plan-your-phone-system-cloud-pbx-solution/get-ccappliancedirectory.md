@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c2fda202-db2f-4122-b630-7df11a697c5f
 description: 'O cmdlet Get-CcApplianceDirectory recupera o diretório de trabalho no servidor host do Skype for Business Cloud Connector Edition. Todos os arquivos de implantação são armazenados neste diretório. '
-ms.openlocfilehash: ada1b587b738d882f81557e61438d6642aa03fff
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 77064676062411c3417e554e422b0ffaae461191
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287388"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003401"
 ---
 # <a name="get-ccappliancedirectory"></a>Get-CcApplianceDirectory
  
@@ -24,7 +24,7 @@ O cmdlet Get-CcApplianceDirectory recupera o diretório de trabalho no servidor 
   
 Este cmdlet se aplica ao Skype for Business Cloud Connector Edition 1.4.1, 1.4.2.
   
-```
+```powershell
 Get-CcApplianceDirectory
 ```
 
@@ -39,7 +39,7 @@ Nenhum
 
 O exemplo a seguir mostra a pasta atual na qual os arquivos de configuração e de máquina virtual dos componentes do conector de nuvem são armazenados:
   
-```
+```powershell
 Get-CcApplianceDirectory
 ```
 

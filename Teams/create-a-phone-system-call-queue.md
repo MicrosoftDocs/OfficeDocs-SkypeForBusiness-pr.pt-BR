@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar o sistema telefônico para filas de chamadas em nuvem com o Microsoft Teams.
-ms.openlocfilehash: e55028bb3e77291e6ed69069b09d812907fc35fb
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: 95cf9701705950d997e1d200fee117b5f8f9738b
+ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39211926"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41005154"
 ---
 # <a name="create-a-cloud-call-queue"></a>Criar uma fila de chamada do Cloud
 
@@ -36,6 +36,7 @@ As filas de chamadas na nuvem podem fornecer:
 - Música enquanto as pessoas estão aguardando a espera.
 - Redirecionar chamadas para agentes de chamada em listas de distribuição habilitadas por email e grupos de segurança.
 - Configuração de parâmetros diferentes, como tamanho máximo da fila, tempo limite e opções de tratamento de chamadas.
+- Caixa postal compartilhada para chamadores deixar uma mensagem para uma organização.
 
 Você pode associar um número de telefone a uma fila de chamadas usando uma [conta de recurso](manage-resource-accounts.md). Uma fila de chamadas pode ser discada diretamente ou acessada por uma seleção em um atendedor automático.
 
@@ -165,9 +166,11 @@ Você pode carregar um arquivo de áudio (formatos. wav,. mp3 ou. WMA).
 
 ### <a name="select-the-call-answering-options"></a>Selecionar as opções de atendimento de chamada
 
-![Captura de tela das opções de atendimento de chamadas, com textos explicativos numerados](media/5d249515-d532-4af2-90da-011404028b89.png)
+![Captura de tela das opções de atendimento de chamadas](media/5d249515-d532-4af2-90da-011404028b89.png) 
 
-![Ícone do número 1, fazendo referência a um texto explicativo na captura de tela anterior](media/sfbcallout1.png)
+Para adicionar agentes individuais diretamente, sem adicioná-los a um grupo, clique em **Adicionar usuários**. Coloque agentes individuais na ordem em que você deseja que eles recebam a chamada. Você pode adicionar até 20 agentes individuais (para adicionar mais de 20, colocá-los em um grupo).
+
+As chamadas são roteadas primeiro para agentes individuais e depois para os agentes em grupos. 
 
 Você pode selecionar até 200 agentes de chamada que pertencem a qualquer uma das seguintes listas de endereçamento ou grupos:
 
@@ -323,7 +326,7 @@ Você também pode usar o Windows PowerShell para criar e configurar filas de ch
 
   - [Gerenciar o Office 365 com o Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 
-  - [Configurar seu computador para o Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+  - [Configurar o computador para o Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

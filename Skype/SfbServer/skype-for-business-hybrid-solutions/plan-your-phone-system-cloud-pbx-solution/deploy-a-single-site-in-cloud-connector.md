@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: Saiba como implantar um único local de PSTN no Cloud Connector Edition.
-ms.openlocfilehash: 10d9e5f286b00af8791097707dc0345e100e55d5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a2cc8933276bc85b19ee79559ca4bcf9e88a079f
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287360"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001021"
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>Deploy a single site in Cloud Connector
  
@@ -31,7 +31,7 @@ Você pode implantar o Skype for Business Cloud Connector Edition com ou sem sup
 
 Para implantar o primeiro dispositivo em um site, abra um console do PowerShell como administrador e execute o seguinte cmdlet para registrar o dispositivo:
   
-```
+```powershell
 Register-CcAppliance
 ```
 
@@ -43,7 +43,7 @@ Na versão 2.0 e posteriores, siga as instruções para fornecer a senha do cert
   
 Para iniciar a instalação, abra um console do PowerShell como administrador e execute o seguinte cmdlet:
   
-```
+```powershell
 Install-CcAppliance
 ```
 
@@ -55,24 +55,24 @@ Você pode estender um site existente do conector de nuvem para dar suporte à a
     
 2. Execute o cmdlet a seguir apenas no servidor host recém-adicionado para atualizar as informações de topologia na configuração do locatário do O365. Se quiser adicionar vários dispositivos ao mesmo tempo, execute o cmdlet em cada servidor host recém-adicionado um a um:
     
-   ```
+   ```powershell
    Register-CcAppliance
    ```
 
 3. Atualize a topologia nos dispositivos existentes executando o cmdlet a seguir em cada servidor host. Execute o cmdlet apenas nos dispositivos existentes.
     
-   ```
+   ```powershell
    Publish-CcAppliance
    ```
 
 4. Execute o cmdlet a seguir apenas em servidores host recém-adicionados. Não execute esse cmdlet no dispositivo existente. Se quiser adicionar vários dispositivos ao mesmo tempo, execute o cmdlet em cada servidor host recém-adicionado um a um.
     
-   ```
+   ```powershell
    Install-CcAppliance
    ```
 
 > [!NOTE]
-> Se o diretório de sites estiver configurado como um caminho de pasta local, você precisará definir um compartilhamento de arquivos para essa pasta e usar um caminho UNC para o diretório de sites no novo dispositivo. Você pode deixar o diretório de sites do primeiro dispositivo com o caminho local ou modificá-lo para usar o caminho UNC para o compartilhamento na mesma pasta. Se o local do diretório de sites compartilhado mudar, todos os dispositivos instalados anteriormente precisarão ser desinstalados e reinstalados. > importante: a senha para a conta CceService e a conta CABackupFile deve ser a mesma em todos os aparelhos implantados no site, para que os aparelhos possam acessar o compartilhamento do diretório de sites e o arquivo de backup da CA criptografada no diretório de sites. 
+> Se o diretório de sites estiver configurado como um caminho de pasta local, você precisará definir um compartilhamento de arquivos para essa pasta e usar um caminho UNC para o diretório de sites no novo dispositivo. Você pode deixar o diretório de sites do primeiro dispositivo com o caminho local ou modificá-lo para usar o caminho UNC para o compartilhamento na mesma pasta. Se o local do diretório de sites compartilhado mudar, todos os dispositivos instalados anteriormente precisarão ser desinstalados e reinstalados. > importante: a senha da conta CceService e da conta CABackupFile devem ser iguais em todos os aparelhos implantados no site, para que os aparelhos possam acessar o compartilhamento do diretório de sites e o arquivo de backup da CA criptografada no diretório de sites. 
   
 ## <a name="remove-an-appliance-from-an-existing-site"></a>Remover um dispositivo de um site existente
 
@@ -80,13 +80,13 @@ Se você deseja remover um dispositivo de um site existente:
   
 1. Execute o cmdlet a seguir apenas nos servidores host que você deseja remover do site para atualizar as informações de topologia na configuração do locatário do O365.
     
-   ```
+   ```powershell
    Unregister-CcAppliance
    ```
 
 2. Execute o cmdlet a seguir apenas nos servidores host dos quais você deseja remover todas as máquinas virtuais do dispositivo.
     
-   ```
+   ```powershell
    Uninstall-CcAppliance
    ```
 

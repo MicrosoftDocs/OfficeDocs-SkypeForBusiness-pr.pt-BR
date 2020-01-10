@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Saiba como configurar a integração do Cloud Connector com seu locatário do Office 365.
-ms.openlocfilehash: b4c70c5698601a2aa69669da3384b6806af98110
-ms.sourcegitcommit: 0d7f3c7a84584ec25a23190187215109c8756189
+ms.openlocfilehash: ed9437026ddbae07aadbe81585886ed0cb5cb0cc
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37508806"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002851"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configurar a integração do Cloud Connector com seu locatário do Office 365
  
@@ -69,7 +69,7 @@ Para configurar a conectividade híbrida entre a implantação do Skype for Busi
   
 O cmdlet define o FQDN externo da Borda de Acesso. No primeiro dos comandos, o \<FQDN\> de borda de acesso externo deve ser aquele da função de borda de acesso SIP. Por padrão, isso deve ser AP.\<nome\>do domínio.
   
-```
+```powershell
 Set-CsTenantHybridConfiguration -PeerDestination <External Access Edge FQDN> -UseOnPremDialPlan $false
 Set-CsTenantFederationConfiguration -SharedSipAddressSpace $True
 ```
@@ -107,7 +107,7 @@ Depois de adicionar os usuários ao Office 365, habilite suas contas para os ser
   
 - Atribua a política ao seu usuário e configure o número de telefone comercial do usuário, que você especifica com o valor do parâmetro de **identidade** :
     
-  ```
+  ```powershell
   Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI <tel:+phonenumber>
   ```
 
@@ -116,7 +116,7 @@ Depois de adicionar os usuários ao Office 365, habilite suas contas para os ser
   
 Em seguida, é possível verificar se os usuários foram adicionados e habilitados usando o seguinte script:
   
-```
+```powershell
 # Input the user name you want to verify
 $user = Get-CsOnlineUser <User name>
 
@@ -134,7 +134,7 @@ Você deverá decidir se os usuários poderão ou não fazer chamadas internacio
   
 Para desabilitar as chamadas internacionais por usuário, execute o seguinte cmdlet no Powershell do Skype for Business Online:
   
-```
+```powershell
 Grant-CsVoiceRoutingPolicy -PolicyName InternationalCallsDisallowed -Identity $user
 ```
 
@@ -144,7 +144,7 @@ Para reativar a chamada internacional a cada usuário depois que ela tiver sido 
 
 Use o PowerShell remoto do locatário para atribuir o site aos usuários, mesmo que você tenha implantado um único site. Para saber como estabelecer uma sessão remota do PowerShell, consulte: [configurar seu computador para Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362831%28v=ocs.15%29.aspx).
   
-```
+```powershell
 # Set the site to users
 Set-CsUserPstnSettings -Identity <User Name> -HybridPstnSite <PSTN Site Name>
 
@@ -168,19 +168,19 @@ Quando uma chamada ponto a ponto é escalonada para uma conferência PSTN, o ser
     Use o domínio SIP padrão do conector de nuvem (o primeiro domínio SIP no arquivo. ini) como o domínio do usuário.
     
     Observe que a atribuição de licenças só é necessária para a propagação do usuário no diretório do Skype for Business online. Atribua as licenças do Office 365 (como E5) à conta que você criar, aguarde até uma hora para que as alterações sejam propagadas, verifique se as contas de usuário foram provisionadas corretamente para o diretório do Skype for Business online executando o cmdlet a seguir e, em seguida, remova o licença desta conta.
-    ```
+    ```powershell
    Get-CsOnlineUser -Identity <UserPrincipalName>
    ```
     
 2. Inicie uma sessão de locatário do PowerShell remoto do Azure AD usando suas credenciais de administrador global ou de usuário e execute o cmdlet a seguir para definir o departamento da conta de usuário do Azure AD configurada na etapa 1 para "HybridMediationServer":
 
-   ```
+   ```powershell
    Set-MsolUser -UserPrincipalName <UserPrincipalName> -Department "HybridMediationServer"
    ```
 
-3. Inicie uma sessão do PowerShell remoto do Skype for Business locatário usando suas credenciais de administrador de locatário do Skype for Business e execute o cmdlet a seguir para definir o servidor de mediação e o FQDN do \<servidor\> de borda para essa conta de usuário, substituindo DisplayName com o nome de exibição do usuário da conta que você criou na etapa 1:
+3. Inicie uma sessão do PowerShell remoto do Skype for Business locatário usando suas credenciais de administrador de locatários do Skype for Business e execute o seguinte cmdlet para definir o servidor de mediação e o FQDN do \<servidor\> de borda para essa conta de usuário, substituindo DisplayName pelo nome de exibição do usuário para a conta criada na etapa 1:
     
-   ```
+   ```powershell
    Set-CsHybridMediationServer -Identity <DisplayName> -Fqdn <MediationServerFQDN> -AccessProxyExternalFqdn <EdgeServerExternalFQDN>
    ```
 

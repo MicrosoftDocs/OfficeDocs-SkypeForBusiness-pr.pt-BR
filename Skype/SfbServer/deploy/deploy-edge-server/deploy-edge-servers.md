@@ -13,18 +13,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
 description: 'Resumo: saiba como implantar servidores de borda em seu ambiente do Skype for Business Server.'
-ms.openlocfilehash: 70355f6f00e8f38a13d74afd2d13c62a345fa063
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e912e4c0b75781805a0e691bc81794119f62fe9c
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233881"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001441"
 ---
 # <a name="deploy-edge-servers-in-skype-for-business-server"></a>Implantar servidores de borda no Skype for Business Server
  
 **Resumo:** Saiba como implantar servidores de borda em seu ambiente do Skype for Business Server.
   
-As seções a seguir contêm etapas que devem ser seguidas após a análise do plano do Skype for Business Server para implantações do [servidor de borda na documentação do Skype for Business Server](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) . As etapas da implantação são:
+As seções a seguir contêm etapas que devem ser seguidas após a análise do plano do Skype for Business Server [para implantações do servidor de borda na documentação do Skype for Business Server](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) . As etapas da implantação são:
   
 - Interfaces de Rede
     
@@ -119,13 +119,13 @@ Os requisitos de certificado para o servidor de borda podem ser encontrados na d
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;II. Abra o **início**e **Execute** (ou **pesquise** e **Execute** ) e, em seguida, digite o seguinte:
     
-  ```
+  ```console
   https://<NAME OF YOUR ISSUING CA SERVER>/certsrv
   ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por exemplo:
     
-  ```
+  ```console
   https://ca01/contoso.com/certsrv
   ```
 
@@ -290,7 +290,7 @@ Os requisitos de certificado para o servidor de borda podem ser encontrados na d
     
 &nbsp;&nbsp;&nbsp;letra. Na página de conclusão do assistente, clique em  **Concluir**.
     
-&nbsp;&nbsp;&nbsp;p. Depois de concluir esse procedimento, é uma boa ideia abrir o snap-in do MMC de certificados em cada servidor de borda, expandir **certificados (computador local)**, expandir **pessoal**, clicar em **certificados**e confirmar que a borda interna o certificado está listado no painel detalhes.
+&nbsp;&nbsp;&nbsp;p. Depois de concluir esse procedimento, é uma boa ideia abrir o snap-in do MMC de certificados em cada servidor de borda, expandir **certificados (computador local)**, expandir **pessoal**, clicar em **certificados**e confirmar se o certificado de borda interna está listado no painel de detalhes.
     
 ### <a name="external-edge-interface-certificates"></a>Certificados de Interface de Borda Externa
 
@@ -423,7 +423,7 @@ Os requisitos de certificado para o servidor de borda podem ser encontrados na d
     
 &nbsp;&nbsp;&nbsp;letra. Na página de conclusão do assistente, clique em  **Concluir**.
     
-&nbsp;&nbsp;&nbsp;p. Depois de concluir esse procedimento, é uma boa ideia abrir o snap-in do MMC de certificados em cada servidor, expandir **certificados (computador local)**, expandir **pessoal**, clicar em **certificados**e confirmar que a borda interna o certificado está listado no painel detalhes.
+&nbsp;&nbsp;&nbsp;p. Depois de concluir esse procedimento, é uma boa ideia abrir o snap-in do MMC de certificados em cada servidor, expandir **certificados (computador local)**, expandir **pessoal**, clicar em **certificados**e confirmar que o certificado de borda interna está listado no painel de detalhes.
     
    > [!NOTE]
    > Você também deverá configurar os certificados para seu servidor de proxy reverso. 

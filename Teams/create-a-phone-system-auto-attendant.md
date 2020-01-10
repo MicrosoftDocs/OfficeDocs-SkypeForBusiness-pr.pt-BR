@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Saiba como configurar e testar atendedores automáticos da nuvem para o Microsoft Teams.
-ms.openlocfilehash: 2cd468b3a4f151d6ad19d2ad430bb94045fb808f
-ms.sourcegitcommit: 89106cfda0d900d8be541943b7d1537bc69ed57f
+ms.openlocfilehash: 5a018b6c3b193d17bfbabdc5178c095a635e65ea
+ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/16/2019
-ms.locfileid: "40070227"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41005156"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar um atendedor automático do Cloud
 
@@ -162,6 +162,11 @@ Se você selecionar **Desconectar**, o chamador será desconectado após a sauda
   > A **pessoa na organização** pode ser um usuário online ou um usuário hospedado no local usando o Skype for Business Server.
 
   - **Aplicativo de voz** Selecione um atendedor automático ou fila de chamadas que já tenha sido configurada. Você pesquisa o atendedor automático ou a fila de chamadas pelo nome da conta do recurso associada ao serviço.
+  - **Correio de voz** Selecione o grupo do Office 365 que representa os usuários em sua organização que precisam acessar este correio de voz. É aqui que você pode ativar a transcrição de correio de voz também. Requer um grupo do Office 365.
+
+  > [!NOTE]
+> Não é possível acessar as mensagens de voz enviadas a usuários desta conta de correio de voz do atendente automático no Teams. Eles serão enviados como emails.
+
 
 <!-- - **Auto attendant** Select the name of an existing auto attendant.
 - **Call queue** Select the name of an auto attendant that has already been created.
@@ -207,7 +212,9 @@ Se você selecionar **Desconectar**, o chamador será desconectado após a sauda
 - **Operador** de Se um operador já estiver configurado, a opção será automaticamente mapeada para a chave 0, mas também pode ser excluída ou reatribuída a uma chave diferente. O chamador que seleciona essa opção é enviado para o operador designado. Se o operador não estiver definido como qualquer chave, o comando de voz "operador" também será desabilitado. 
 - A **pessoa na organização** pode ser um usuário online ou um usuário hospedado no local usando o Skype for Business Server. O usuário deve ter uma licença do sistema de telefonia habilitada para Enterprise Voice ou planos de chamada atribuídos no Office 365. Procure a pessoa no campo **Pesquisar por nome** .
 
-  - **Aplicativo de voz** Selecione um atendedor automático ou fila de chamadas que já tenha sido configurada. Você pesquisa o atendedor automático ou a fila de chamadas pelo nome da conta de recurso associada ao aplicativo.
+- **Aplicativo de voz** Selecione um atendedor automático ou fila de chamadas que já tenha sido configurada. Você pesquisa o atendedor automático ou a fila de chamadas pelo nome da conta de recurso associada ao aplicativo.
+
+- **Correio de voz** Selecione o grupo do Office 365 que representa os usuários em sua organização que precisam acessar este correio de voz. É aqui que você pode ativar a transcrição de correio de voz também. Requer um grupo do Office 365.
 
 <!-- - **Auto attendant** Select the name of an existing auto attendant in the **Search by name** field. You will also have to select a resource account associated to the auto attendant. The caller who selects this option is sent to that auto attendant.
 - **Call queue** Select the name of an existing call queue in the **Search by name** field. You will also have to select a resource account associated to the call queue. The caller who selects this option is sent to that call queue, where the call is answered by a call agent.

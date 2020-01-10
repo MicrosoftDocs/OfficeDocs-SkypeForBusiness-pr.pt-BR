@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 9c3a3054-6201-433f-b128-4c49d3341370
 description: 'Resumo: configurar a autenticação do servidor para o Exchange Server 2016 ou o Exchange Server 2013 e o Skype for Business Server.'
-ms.openlocfilehash: 5a1958db05ea1e4fae37737512368d509b3c62cf
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 004b9c1926f00cd869658ae0b90679897d20516b
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245505"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001251"
 ---
 # <a name="configure-partner-applications-in-skype-for-business-server-and-exchange-server"></a>Configurar aplicativos de parceiros no Skype for Business Server e no Exchange Server
  
@@ -33,19 +33,19 @@ Para configurar a autenticação de servidor para servidor entre o Skype for Bus
 
 A maneira mais fácil de configurar o Skype for Business Server para ser um aplicativo de parceiro com o Exchange Server 2016 ou o Exchange Server 2013 é executar o script Configure-EnterprisePartnerApplication. ps1, um script do Windows PowerShell fornecido com o Exchange Server. Para executar esse script, você deve fornecer a URL para o documento de metadados de autenticação do Skype for Business Server; Isso normalmente será o nome de domínio totalmente qualificado do pool do servidor do Skype for Business seguido do sufixo/Metadata/JSON/1. Por exemplo:
   
-```
+```console
 https://atl-cs-001.litwareinc.com/metadata/json/1
 ```
 
 Para configurar o Skype for Business Server como um aplicativo de parceiro, abra o Shell de gerenciamento do Exchange e execute um comando semelhante a este (pressupondo que o Exchange tenha sido instalado na unidade C: e que ele use o caminho de pasta padrão):
   
-```
+```powershell
 "C:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl 'https://atl-cs-001.litwareinc.com/metadata/json/1' -ApplicationType Lync"
 ```
 
 Depois de configurar o aplicativo de parceiro, é recomendável parar e reiniciar os serviços de informações da Internet (IIS) em sua caixa de correio do Exchange e servidores de acesso para cliente. Você pode reiniciar o IIS usando um comando similar a esse, que reinicia o serviço no atl-exchange-001 do computador:
   
-```
+```powershell
 iisreset atl-exchange-001
 ```
 
@@ -55,23 +55,23 @@ Esse comando pode ser executado no Shell de gerenciamento do Exchange ou em qual
 
 Depois de configurar o Skype for Business Server para ser um aplicativo parceiro para Exchange Server 2016 ou Exchange Server 2013, configure o Exchange Server para ser um aplicativo de parceiro do Skype for Business Server. Isso pode ser feito usando o Shell de gerenciamento do Skype for Business Server e especificando o documento de metadados de autenticação para o Exchange; Isso normalmente será o URI do serviço de descoberta automática do Exchange seguido pelo sufixo/Metadata/JSON/1. Por exemplo:
   
-```
+```console
 https://autodiscover.litwareinc.com/autodiscover/metadata/json/1
 ```
 
 No Skype for Business Server, os aplicativos de parceiros são configurados usando o cmdlet [New-CsPartnerApplication](https://docs.microsoft.com/powershell/module/skype/new-cspartnerapplication?view=skype-ps) . Além de especificar o URI dos metadados, você também deve definir o nível de confiança do aplicativo como Full; Isso permitirá que o Exchange represente tanto e qualquer usuário autorizado no território. Por exemplo:
   
-```
+```powershell
 New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -MetadataUrl "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
 ```
 
 Você também pode criar um aplicativo de parceiro copiando e modificando o código de script encontrado na documentação de autenticação do servidor para servidor do Skype for Business Server. Para obter mais informações, consulte o artigo [gerenciar autenticação de servidor para servidor (OAuth) e aplicativos de parceiros no Skype for Business Server](../../manage/authentication/server-to-server-and-partner-applications.md) para obter mais informações.
   
-Se você configurou com êxito aplicativos de parceiros para o Skype for Business Server e o Exchange Server, também configurou com êxito a autenticação de servidor para servidor entre os dois produtos. O Skype for Business Server inclui um cmdlet do Windows PowerShell, [teste-CsExStorageConnectivity](https://docs.microsoft.com/powershell/module/skype/test-csexstorageconnectivity?view=skype-ps) , que permite que você verifique se a autenticação servidor-a-servidor foi configurada corretamente e se o serviço de armazenamento do Skype for Business Server pode Conecte-se ao Exchange Server. O cmdlet faz isso conectando-se à caixa de correio de um usuário do Exchange Server, escrevendo um item na pasta de histórico de conversas desse usuário e, em seguida, (opcionalmente) excluir esse item.
+Se você configurou com êxito aplicativos de parceiros para o Skype for Business Server e o Exchange Server, também configurou com êxito a autenticação de servidor para servidor entre os dois produtos. O Skype for Business Server inclui um cmdlet do Windows PowerShell, [teste-CsExStorageConnectivity](https://docs.microsoft.com/powershell/module/skype/test-csexstorageconnectivity?view=skype-ps) , que permite que você verifique se a autenticação de servidor-a-servidor foi configurada corretamente e se o serviço de armazenamento do Skype for Business Server pode se conectar ao Exchange Server. O cmdlet faz isso conectando-se à caixa de correio de um usuário do Exchange Server, escrevendo um item na pasta de histórico de conversas desse usuário e, em seguida, (opcionalmente) excluir esse item.
   
 Para testar a integração do Skype for Business Server e do Exchange Server, execute um comando semelhante ao seguinte do Shell de gerenciamento do Skype for Business Server:
   
-```
+```powershell
 Test-CsExStorageConnectivity -SipUri "sip:kenmyer@litwareinc.com"
 ```
 

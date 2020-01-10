@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b2b5aefb-a08d-4bec-9204-76597d413849
 description: 'O cmdlet Get-CcCredential retorna a credencial da implantação atual do Skype for Business Cloud Connector Edition. '
-ms.openlocfilehash: 87dd3934767a4be7afb57889fd0641e8507fba13
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 46c51783361ad6613d1e2971600969b324f0f350
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287332"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003381"
 ---
 # <a name="get-cccredential"></a>Get-CcCredential
  
@@ -24,7 +24,7 @@ O cmdlet Get-CcCredential retorna a credencial da implantação atual do Skype 
   
 Com a versão 2,0 e posterior, você também pode usar o parâmetro-DisplayPassword para mostrar as senhas de TenantAdmin, DomainAdmin e VMAdmin.
   
-```
+```powershell
 Get-CcCredential [[-AccountType] <string> {VmAdmin | DomainAdmin | SafeModeAdmin | ExternalCert | TenantAdmin}]
 ```
 
@@ -35,7 +35,7 @@ Get-CcCredential [[-AccountType] <string> {VmAdmin | DomainAdmin | SafeModeAdmin
 
 O exemplo seguinte retorna a credencial do administrador do domínio da máquina virtual do Cloud Connector:
   
-```
+```powershell
 Get-CcCredential -AccountType DomainAdmin
 ```
 
@@ -48,7 +48,7 @@ O cmdlet Get-CcCredential retorna instâncias do objeto System.Management.Automa
   
 Se você deseja obter o texto claro da senha do administrador de domínio, verifique se a senha foi inserida pela conta de logon atual no servidor host e, em seguida, abra o console do PowerShell como administrador e execute o script a seguir:
   
-```
+```powershell
 $cred = Get-CcCredential -AccountType DomainAdmin
 $password =  $cred.Password
 $bstr = [System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($password);

@@ -15,12 +15,12 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 'Resumo: Saiba mais sobre as etapas que você precisa executar para configurar a transmissão de reunião do Skype para sua implantação híbrida do Skype for Business Server local.'
-ms.openlocfilehash: bd87c64dd1e54c8092186a3e233557ebd11eec77
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ac08707a60e0c71719ab2cb85141e89329a947f9
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234438"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002801"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Configure your on-premises deployment for Skype Meeting Broadcast
  
@@ -55,7 +55,7 @@ Para habilitar a Federação com os recursos do Skype for Business Online, você
    
 Você também pode habilitar a Federação com os recursos do Skype for Business online executando o seguinte cmdlet no Shell de gerenciamento do Skype for Business Server:
   
-```
+```powershell
 New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.lync.com -VerificationLevel AlwaysVerifiable -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $True -IsLocal $False
 ```
 
@@ -79,7 +79,7 @@ Em seguida, você precisa adicionar domínios federados do SIP à lista de domí
     
 Você também pode configurar o acesso externo para domínios federados SIP executando os seguintes cmdlets no Shell de gerenciamento do Skype for Business Server:
   
-```
+```powershell
 New-CsAllowedDomain -Identity "noammeetings.lync.com"
 New-CsAllowedDomain -Identity "emeameetings.lync.com"
 New-CsAllowedDomain -Identity "apacmeetings.lync.com"

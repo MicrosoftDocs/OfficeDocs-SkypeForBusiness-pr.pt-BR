@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 01eed3c5-af68-4db7-90b3-d28ebe7ffef1
 description: O cmdlet Register-CcAppliance registra as informações do dispositivo para um site PSTN em uma configuração de locatário online. Um dispositivo deve ser registrado antes de ele poder ser implantado e gerenciado pelo serviço de gerenciamento do Skype for Business Cloud Connector Edition.
-ms.openlocfilehash: 9e15d7b8227bf9ee657d197041056703505ca7c8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 93f1fe59a199214615c5ecdf8445f6c363ce6bbe
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287122"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003301"
 ---
 # <a name="register-ccappliance"></a>Register-CcAppliance
  
 O cmdlet Register-CcAppliance registra as informações do dispositivo para um site PSTN em uma configuração de locatário online. Um dispositivo deve ser registrado antes de ele poder ser implantado e gerenciado pelo serviço de gerenciamento do Skype for Business Cloud Connector Edition.
   
-```
+```powershell
 Register-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Local]
 ```
 
@@ -33,7 +33,7 @@ Register-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Local]
 
 O seguinte exemplo registra as informações atuais do dispositivo para uma configuração de locatário online:
   
-```
+```powershell
 Register-CcAppliance
 ```
 
@@ -41,7 +41,7 @@ Register-CcAppliance
 
 O exemplo a seguir verifica a configuração para registro local sem conexão com uma configuração de locatário online:
   
-```
+```powershell
 Register-CcAppliance -Local
 ```
 
@@ -49,7 +49,7 @@ Register-CcAppliance -Local
 
 O exemplo a seguir registra o dispositivo atual com o nome e "Appliance1" para o site PSTN "Site1":
   
-```
+```powershell
 Register-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 ```
 

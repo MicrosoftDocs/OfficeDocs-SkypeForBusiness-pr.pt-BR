@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
 description: 'Resumo: saiba como criar, publicar e exportar a topologia do servidor de borda no Skype for Business Server.'
-ms.openlocfilehash: b20877f805cb0357f6038a822962ad6eb9cdd5e1
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c625656f1686b6e72be2f0223d6560464bb9e7bc
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233904"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001471"
 ---
 # <a name="create-your-edge-topology-for-skype-for-business-server"></a>Criar sua topologia de borda para o Skype for Business Server
  
@@ -89,7 +89,7 @@ Se você não souber com certeza do que precisa, é uma boa hora para consultar 
     
    - Se tiver marcado a caixa de seleção **usar um único FQDN e endereço IP** , você precisará inserir seu único FQDN externo na caixa de **acesso SIP** . Em seguida, você precisará inserir números de porta diferentes para cada serviço de borda para permitir que todos se conectem de forma independente. Recomendamos 5061 para o serviço de Borda de **Acesso SIP**, 444 para o serviço de Borda de **Webconferência** e 443 para o serviço de Borda **A/V**. Clique em **Avançar** quando terminar.
     
-   - Se você não tiver verificado a caixa de seleção **usar um único FQDN e endereço IP** , agora precisará inserir os três FQDNs externos para o serviço de borda de **acesso SIP** , o serviço de borda de Webconferência e o serviço **de borda a/V** . **** Clique em **Avançar** quando terminar.
+   - Se você não tiver verificado a caixa de seleção **usar um único FQDN e endereço IP** , agora precisará inserir os três FQDNs externos para o serviço de borda de **acesso SIP** , o serviço de borda de **Webconferência** e o serviço **de borda a/V** . Clique em **Avançar** quando terminar.
     
 10. Agora você está na tela **definir o endereço IP interno** . Aqui você digitará o endereço IP do servidor de borda nas caixas de texto **endereço IPv4 interno** e **endereço IPv6 interno** , dependendo das opções feitas novamente na etapa 8. Clique em **Avançar** quando terminar.
     
@@ -97,7 +97,7 @@ Se você não souber com certeza do que precisa, é uma boa hora para consultar 
     
     - Você pode estar usando um único FQDN para todos os serviços. Em caso afirmativo, digite seu endereço IPv4 ou IPv6 externo (o que você estiver usando) na caixa de texto do **acesso SIP** e clique em **Avançar**.
     
-    - Você pode ter escolhido usar três FQDNs e endereços IP separados para os serviços. Se esse for o caso, insira seus endereços IPv4 ou IPv6 externos para o serviço de borda de **acesso SIP** , o serviço de borda de Webconferência e o serviço **de borda a/V** e clique em **Avançar**. ****
+    - Você pode ter escolhido usar três FQDNs e endereços IP separados para os serviços. Se esse for o caso, insira seus endereços IPv4 ou IPv6 externos para o serviço de borda de **acesso SIP** , o serviço de borda de **Webconferência** e o serviço **de borda a/V** e clique em **Avançar**.
     
     > [!NOTE]
     > Se você não escolheu habilitar e atribuir endereços IPv6 anteriormente, você não verá essa caixa de diálogo. Isso é normal, basta ir para a próxima etapa. 
@@ -151,7 +151,7 @@ Se você não souber com certeza do que precisa, é uma boa hora para consultar 
     
    - Se tiver marcado a caixa de seleção **usar um único FQDN e endereço IP** , você precisará inserir seu único FQDN externo na caixa de **acesso SIP** . Em seguida, você precisará inserir números de porta diferentes para cada serviço de borda para permitir que todos se conectem de forma independente. Recomendamos 5061 para o serviço de Borda de **Acesso SIP**, 444 para o serviço de Borda de **Webconferência** e 443 para o serviço de Borda **A/V**. Clique em **Avançar** quando terminar.
     
-   - Se você não tiver verificado a caixa de seleção **usar um único FQDN e endereço IP** , agora precisará inserir os três FQDNs externos para o serviço de borda de **acesso SIP** , o serviço de borda de Webconferência e o serviço **de borda a/V** . **** Clique em **Avançar** quando terminar.
+   - Se você não tiver verificado a caixa de seleção **usar um único FQDN e endereço IP** , agora precisará inserir os três FQDNs externos para o serviço de borda de **acesso SIP** , o serviço de borda de **Webconferência** e o serviço **de borda a/V** . Clique em **Avançar** quando terminar.
     
 10. Agora você atingiu a tela **definir os computadores neste pool** . Clique no botão **Adicionar**.
     
@@ -161,7 +161,7 @@ Se você não souber com certeza do que precisa, é uma boa hora para consultar 
     
     - Você pode estar usando um único FQDN para todos os serviços. Em caso afirmativo, digite seu endereço IPv4 ou IPv6 externo (o que você estiver usando) na caixa de texto do **acesso SIP** e clique em **Avançar**.
     
-    - Você pode ter escolhido usar três FQDNs e endereços IP separados para os serviços. Se esse for o caso, insira seus endereços IPv4 ou IPv6 externos para o serviço de borda de **acesso SIP** , o serviço de borda de Webconferência e o serviço **de borda a/V** e clique em **Avançar**. ****
+    - Você pode ter escolhido usar três FQDNs e endereços IP separados para os serviços. Se esse for o caso, insira seus endereços IPv4 ou IPv6 externos para o serviço de borda de **acesso SIP** , o serviço de borda de **Webconferência** e o serviço **de borda a/V** e clique em **Avançar**.
     
     > [!NOTE]
     > Se você não escolheu habilitar e atribuir endereços IPv6 anteriormente, você não verá essa caixa de diálogo. Isso é normal, basta ir para a próxima etapa. 
@@ -222,7 +222,7 @@ Se você não souber com certeza do que precisa, é uma boa hora para consultar 
     
    - Se tiver marcado a caixa de seleção **usar um único FQDN e endereço IP** , você precisará inserir seu único FQDN externo na caixa de **acesso SIP** . Em seguida, você precisará inserir números de porta diferentes para cada serviço de borda para permitir que todos se conectem de forma independente. Recomendamos 5061 para o serviço de Borda de **Acesso SIP**, 444 para o serviço de Borda de **Webconferência** e 443 para o serviço de Borda **A/V**. Clique em **Avançar** quando terminar.
     
-   - Se você não tiver verificado a caixa de seleção **usar um único FQDN e endereço IP** , agora precisará inserir os três FQDNs externos para o serviço de borda de **acesso SIP** , o serviço de borda de Webconferência e o serviço **de borda a/V** . **** Clique em **Avançar** quando terminar.
+   - Se você não tiver verificado a caixa de seleção **usar um único FQDN e endereço IP** , agora precisará inserir os três FQDNs externos para o serviço de borda de **acesso SIP** , o serviço de borda de **Webconferência** e o serviço **de borda a/V** . Clique em **Avançar** quando terminar.
     
 10. Agora você atingiu a tela **definir os computadores neste pool** . Clique no botão **Adicionar**.
     
@@ -232,7 +232,7 @@ Se você não souber com certeza do que precisa, é uma boa hora para consultar 
     
     - Você pode estar usando um único FQDN para todos os serviços. Em caso afirmativo, digite seu endereço IPv4 ou IPv6 externo (o que você estiver usando) na caixa de texto do **acesso SIP** e clique em **Avançar**.
     
-    - Você pode ter escolhido usar três FQDNs e endereços IP separados para os serviços. Se esse for o caso, insira seus endereços IPv4 ou IPv6 externos para o serviço de borda de **acesso SIP** , o serviço de borda de Webconferência e o serviço **de borda a/V** e clique em **Avançar**. ****
+    - Você pode ter escolhido usar três FQDNs e endereços IP separados para os serviços. Se esse for o caso, insira seus endereços IPv4 ou IPv6 externos para o serviço de borda de **acesso SIP** , o serviço de borda de **Webconferência** e o serviço **de borda a/V** e clique em **Avançar**.
     
     > [!NOTE]
     > Se você não escolheu habilitar e atribuir endereços IPv6 anteriormente, você não verá essa caixa de diálogo. Isso é normal, basta ir para a próxima etapa. 
@@ -258,7 +258,7 @@ Depois de concluir as etapas acima, é hora de publicar essa nova topologia, o q
   
 1. Inicie o **Construtor de Topologia** (se ele já não foi iniciado no procedimento anterior).
     
-2. No **Construtor**de topologias, na árvore de console, clique com o botão direito do mouse em **Skype for Business Server** e clique em **Construtor de topologia do Skype for Business Server**.
+2. No **Construtor de topologias**, na árvore de console, clique com o botão direito do mouse em **Skype for Business Server** e clique em **Construtor de topologia do Skype for Business Server**.
     
 3. Na página **Bem-vindo** do assistente, clique em **Avançar**.
     
@@ -278,7 +278,7 @@ Para implantar com êxito, o assistente de implantação do Skype for Business S
     
 2. No **Shell de gerenciamento do Skype for Business Server**, execute o seguinte:
     
-   ```
+   ```powershell
    Export-CsConfiguration -FileName <ConfigurationFilePath.zip>
    ```
 

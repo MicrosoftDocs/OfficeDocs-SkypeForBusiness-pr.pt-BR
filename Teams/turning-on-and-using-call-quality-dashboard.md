@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Veja como ativar e usar o painel de qualidade da chamada e obter relatórios resumidos de qualidade das chamadas. '
-ms.openlocfilehash: 8d6e97ea5454b8e933424c2e8db595a5af7ac8c8
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 429904020a63b93fefd1adee7ee89d02a47f1d61
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972482"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41005153"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Ativar e usar o painel de qualidade de chamada do Microsoft Teams e do Skype for Business Online
 
@@ -35,11 +35,13 @@ Saiba como configurar sua organização do Office 365 para usar o painel de qual
   
 O painel de qualidade de chamada (CQD) fornece informações sobre a qualidade das chamadas feitas usando o Microsoft Teams e os serviços do Skype for Business online. Este tópico descreve as etapas para iniciar a coleta de dados que você pode usar para solucionar problemas de qualidade de chamada.
 
-Atualmente, o CQD versão 3 e o CQD versão 2 estão disponíveis para uso. O CQD v3 está disponível <span>https://cqd.teams.microsoft.com</span>em. Faça logon com as credenciais de administrador do Microsoft Teams.
+Atualmente, o CQD e o CQD avançados estão disponíveis para uso. O CQD avançado está disponível <span>https://cqd.teams.microsoft.com</span>em. Nova URL, mas o mesmo logon com as credenciais de administrador.
 
 ## <a name="latest-changes-and-updates"></a>Alterações e atualizações mais recentes
 
-O CQD versão 3 oferece um painel de CQD (latência de 30 minutos) próximo e usa as informações identificáveis do usuário final (EUII), oferecendo aos administradores a capacidade de ampliar para o nível de usuário. Também há uma interatividade de relatório para dar suporte a novos cenários, como:
+
+O CQD atualizado (a partir do início de novembro de 2019) oferece um painel de CQDs próximo em tempo real. Os dados do CQD agora estão disponíveis em média em 30 minutos (em comparação com o CQD anterior, que está na média de 24 horas).  O CQD atualizado usa as informações identificáveis do usuário final (EUII), oferecendo aos administradores a capacidade de fazer buscas detalhadas e ampliar no nível do usuário. Também há uma interatividade de relatório para dar suporte a novos cenários, como:
+
 
 - Qualidade da chamada por região:
   - data por região
@@ -387,11 +389,11 @@ O CQD usa um arquivo de dados de ponto de extremidade. Os valores de coluna são
 
   **Ordem dos campos:**
 
-EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, EndpointLabel3
+EndpointName, EndpointMake, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, EndpointLabel3
 
   **Linha de amostra:**
 
-`1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
+"1409W3534, fabricante do 123, modelo da Fabrikam 123, laptop, designado para laptop 2018, etiqueta de ativo 5678, comprar 2018
 
 ## <a name="create-custom-detailed-reports"></a>Criar relatórios detalhados personalizados
 

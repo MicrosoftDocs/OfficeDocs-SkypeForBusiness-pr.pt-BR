@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: A configuração da autenticação OAuth entre o Exchange local e o Skype for Business Online permite que os recursos de integração do Skype for Business e do Exchange descritos em suporte a recursos.
-ms.openlocfilehash: 1d64f8fe7b2d6dcf276ae34e74c84faf5c93f65a
-ms.sourcegitcommit: 2b4fcf2561134b9f1b9a1b49401d97da1286e89d
+ms.openlocfilehash: 35dc8777ddf5c7102e99d726f916f9b8f8bb4aae
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37979774"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002891"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>Configurar a integração e o OAuth entre o Skype for Business Online e o Exchange Server 
 
@@ -49,23 +49,23 @@ Esta etapa é feita no Exchange Server. Ela criará um usuário de caixa de corr
 
 Especifique um domínio verificado para sua organização do Exchange. Esse domínio deve ser o mesmo usado como o domínio SMTP principal usado para as contas do Exchange no local. Esse domínio é chamado \<de domínio\> verificado no procedimento a seguir. Além disso, \<o\> DOMAINCONTROLLERFQDN deve ser o FQDN de um controlador de domínio.
 
-``` Powershell
+```powershell
 $user = New-MailUser -Name SfBOnline-ApplicationAccount -ExternalEmailAddress SfBOnline-ApplicationAccount@<your Verified Domain> -DomainController <DomainControllerFQDN>
 ```
 
 Esse comando ocultará o novo usuário da caixa de correio das listas de endereços.
 
-``` Powershell
+```powershell
 Set-MailUser -Identity $user.Identity -HiddenFromAddressListsEnabled $True -DomainController <DomainControllerFQDN>
 ```
 
 Esses dois próximos comandos atribuirão a função de gerenciamento de UserApplication e ArchiveApplication a esta nova conta.
 
-``` Powershell
+```powershell
 New-ManagementRoleAssignment -Role UserApplication -User $user.Identity -DomainController <DomainControllerFQDN>
 ```
 
-``` Powershell
+```powershell
 New-ManagementRoleAssignment -Role ArchiveApplication -User $user.Identity -DomainController <DomainControllerFQDN>
 ```
 
@@ -73,7 +73,7 @@ New-ManagementRoleAssignment -Role ArchiveApplication -User $user.Identity -Doma
 
 Crie um novo aplicativo parceiro e use a conta que você acabou de criar. Execute o seguinte comando no PowerShell do Exchange em sua organização do Exchange local.
 
-``` Powershell
+```powershell
 New-PartnerApplication -Name SfBOnline -ApplicationIdentifier 00000004-0000-0ff1-ce00-000000000000 -Enabled $True -LinkedAccount $user.Identity
 ```
 
@@ -83,7 +83,7 @@ Execute um script do PowerShell para exportar o certificado de autorização loc
 
 Salve o seguinte texto em um arquivo de script do PowerShell denominado, por exemplo, ExportAuthCert.ps1.
 
-``` Powershell
+```powershell
 $thumbprint = (Get-AuthConfig).CurrentCertificateThumbprint
 if((test-path $env:SYSTEMDRIVE\OAuthConfig) -eq $false)
 {
@@ -107,7 +107,7 @@ Em seguida, utilize o Windows PowerShell para carregar o certificado de autoriza
 
 2. Salve o seguinte texto em um arquivo de script do PowerShell chamado, por `UploadAuthCert.ps1`exemplo,.
 
-   ``` Powershell
+   ```powershell
    Connect-MsolService;
    Import-Module msonlineextended;
    $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
@@ -128,7 +128,7 @@ Em seguida, utilize o Windows PowerShell para carregar o certificado de autoriza
 
 ### <a name="step-6-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>Etapa 6: Verifique se o certificado foi carregado na entidade de serviço do Skype for Business
 1. No PowerShell aberto e autenticado para o Azure Active Directory, execute o seguinte
-```
+```powershell
 Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
 ```
 2. Pressione Enter quando solicitado para ReturnKeyValues
@@ -144,9 +144,9 @@ Verifique se a configuração está correta verificando se alguns dos recursos e
 
 3. Confirme se as mensagens de chat arquivadas são depositadas na caixa de correio local do usuário na pasta Purges usando o [EWSEditor](https://blogs.msdn.microsoft.com/webdav_101/2018/03/12/where-to-get-ewseditor/).
 
-Como alternativa, examine seu tráfego. O tráfego em um handshake OAuth é realmente distintivo (e não se parece com autenticação básica), especialmente em relação a territórios, onde você começará a ver o tráfego do emissor que tem a seguinte aparência: 00000004-0000-0ff1-ce00-000000000000 @ (às vezes com/antes o símbolo @), nos tokens que estão sendo passados. Você não verá um nome de usuário ou senha, que é o ponto de OAuth. Mas você verá o emissor "Office" – neste caso, ' 4 ' é o Skype for Business – e o território da sua assinatura.
+Como alternativa, examine seu tráfego. O tráfego em um handshake OAuth é realmente distintivo (e não se parece com autenticação básica), especialmente em relação a territórios, onde você começará a ver o tráfego do emissor parecido com este: 00000004-0000-0ff1-ce00-000000000000 @ (às vezes, com/antes do símbolo @), nos símbolos que estão sendo passados. Você não verá um nome de usuário ou senha, que é o ponto de OAuth. Mas você verá o emissor "Office" – neste caso, ' 4 ' é o Skype for Business – e o território da sua assinatura.
 
-Se você quiser ter certeza de que está usando o OAuth com êxito, verifique se sabe o que esperar e saiba para que tal tráfego deve ser exibido. Portanto, [Veja o que esperar](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34), aqui está um exemplo bem padrão [de tráfego OAuth em um aplicativo da Microsoft](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf) (muito útil para ler, embora não use tokens de atualização), e existem extensões Fiddler que permitem que você examine seu JWT OAuth (JSON Token da Web).
+Se você quiser ter certeza de que está usando o OAuth com êxito, verifique se sabe o que esperar e saiba para que tal tráfego deve ser exibido. Portanto, [Veja o que esperar](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34), aqui está um exemplo bem padrão [de tráfego OAuth em um aplicativo da Microsoft](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf) (muito útil para ler, embora não use os tokens de atualização), e existem extensões Fiddler que permitem que você examine seu JWT OAuth (JSON Web token).
 
 Veja um [exemplo de](https://blogs.msdn.microsoft.com/kaevans/2015/03/30/updated-fiddler-oauth-inspector/)como configurar um, mas você pode usar qualquer ferramenta de rastreamento de rede que você queira para empreender esse processo.
 

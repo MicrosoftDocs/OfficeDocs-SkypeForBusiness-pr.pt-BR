@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
 description: 'Resumo: saiba como associar pools de front-end a um repositório de monitoramento usado pelo Skype for Business Server.'
-ms.openlocfilehash: 66d51e89a41c5e6ce2608b4fe8ecd1c4af336b6b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 17f7cbf7d8725fc3d1c23f161060d9bb386cea19
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239987"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001221"
 ---
 # <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server"></a>Associar um repositório de monitoramento a um pool de front-end no Skype for Business Server 
 **Resumo:** Saiba como associar pools de front-end a um repositório de monitoramento usado pelo Skype for Business Server.
@@ -40,7 +40,7 @@ Em alternativa, é possível associar um pool de front-ends existente com um rep
     
 6. Na caixa de diálogo **Editar propriedades**, na guia **Geral**, selecione a opção **Monitoramento (CDR e métricas de QoE)** e selecione um banco de dados existente do SQL Server na lista suspensa **Monitoramento do repositório do SQL Server**. (Você também pode clicar em **Novo** para associar o pool a um novo repositório do banco de dados.) Se você escolher usar um novo repositório do banco de dados, na caixa de diálogo **Definir novo repositório SQL**, insira o FQDN do computador do SQL Server na caixa **FQDN do SQL Server**. Se você deseja usar a instância padrão do SQL Server para esse repositório, selecione **Instância padrão**; caso contrário, selecione **Instância nomeada** e insira o nome da instância na caixa **Instância nomeada**.
     
-    A caixa de diálogo **Editar propriedades** também oferece a opção de criar um espelho SQL para seu banco de dados de monitoramento (um espelho SQL permite manter duas cópias do seu banco de dados de monitoramento, uma cópia armazenada no computador do repositório de monitoramento e outra no computador do espelho SQL). Para habilitar o espelhamento, selecione T **sua instância SQL está na relação espelhada** e insira o número da porta do servidor espelho na caixa **número da porta** de espelhamento.
+    A caixa de diálogo **Editar propriedades** também oferece a opção de criar um espelho SQL para seu banco de dados de monitoramento (um espelho SQL permite manter duas cópias do seu banco de dados de monitoramento, uma cópia armazenada no computador do repositório de monitoramento e outra no computador do espelho SQL). Para habilitar o espelhamento, selecione T **sua instância SQL está na relação espelhada** e insira o número da porta do servidor espelho na caixa **número da porta de espelhamento** .
     
 7. Na caixa de diálogo **Editar propriedades**, clique em **OK**.
     
@@ -54,7 +54,7 @@ Após associar o repositório de monitoramento a um pool de front-ends, você de
     
 Após a topologia ser publicada, é possível instalar o banco de dados de monitoramento no computador que hospedará o repositório de monitoramento. O banco de dados de monitoramento pode ser instalado usando o Shell de gerenciamento do Skype for Business Server e o Windows PowerShell. Para instalar o banco de dados localmente (ou seja, instalar o banco de dados no mesmo computador em que você está executando o Shell de gerenciamento do Skype for Business Server), inicie o Shell de gerenciamento no computador apropriado e, em seguida, digite o seguinte comando e pressione ENTER:
   
-```
+```powershell
 Install-CsDatabase -LocalDatabases
 ```
 
@@ -64,7 +64,7 @@ Para instalar o banco de dados em um computador remoto (isto é, um computador d
   
 Por exemplo, este comando instala o banco de dados de monitoramento no computador atl-sql-001.litwareinc.com:
   
-```
+```powershell
 Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn atl-sql-001.litwareinc.com
 ```
 

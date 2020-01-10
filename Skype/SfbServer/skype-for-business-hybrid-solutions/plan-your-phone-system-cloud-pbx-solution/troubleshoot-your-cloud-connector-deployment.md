@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: Solucionar problemas de implantação da edição do Cloud Connector.
-ms.openlocfilehash: 1049ec2f8f3b85c71c7b9203916b79764e9be161
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3edc67d5887c21543e4cbb01a6057a0c657e95e3
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286720"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002071"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Solução de problemas de implantação do Cloud Connector
  
@@ -76,11 +76,11 @@ Veja a seguir as soluções para problemas freqüentes encontrados:
     
     **Resolução:** Esse problema não pode ser resolvido automaticamente. Desligue e remova essas VMs no Gerenciador do Hyper-V. Depois, execute estes cmdlets:
     
-  ```
+  ```powershell
   Uninstall-CcAppliance
   ```
 
-  ```
+  ```powershell
   Install-CcAppliance
   ```
 
@@ -111,7 +111,7 @@ Veja a seguir as soluções para problemas freqüentes encontrados:
     
     Importe manualmente o Certificado de Autoridade de Certificação raiz e todos os Certificados de Autoridade de Certificação intermediários de seu certificado externo para o Servidor de Borda e reinicie o Servidor de Borda. Depois que os serviços RTCMRAUTH e RTCSRV forem iniciados no Servidor de Borda, volte ao servidor host, inicie um console do PowerShell como administrador e execute o seguinte cmdlet para alternar para a nova implantação:
     
-  ```
+  ```powershell
   Switch-CcVersion
   ```
 
@@ -123,7 +123,7 @@ Veja a seguir as soluções para problemas freqüentes encontrados:
     
 1. No servidor host, inicie um console do PowerShell como administrador e execute:
     
-   ```
+   ```powershell
    Enter-CcUpdate
    ```
 
@@ -131,7 +131,7 @@ Veja a seguir as soluções para problemas freqüentes encontrados:
     
 3. No console do PowerShell, execute o seguinte cmdlet:
     
-   ```
+   ```powershell
    Exit-CcUpdate
    ```
 
@@ -145,19 +145,19 @@ Veja a seguir as soluções para problemas freqüentes encontrados:
     
     **Resolução:** Inicie uma sessão do PowerShell remoto de locatário usando as credenciais de administrador de locatários do Skype for Business e execute o seguinte cmdlet para verificar a configuração do _EnableAutoUpdate_ do seu site:
     
-  ```
+  ```powershell
   Get-CsHybridPSTNSite
   ```
 
     Se _EnableAutoUpdate_ for definido como **true**, você poderá ignorar com segurança essa mensagem de aviso porque o serviço CCEManagement manipulará o download e a instalação das atualizações do Windows para as máquinas virtuais e o servidor host. Se _EnableAutoUpdate_ estiver definido como **false**, execute o cmdlet a seguir para defini-lo como **verdadeiro**.
     
-  ```
+  ```powershell
   Set-CsHybridPSTNSite -EnableAutoUpdate $true
   ```
 
     Como opção, você pode verificar e instalar as atualizações manualmente. Consulte a próxima seção.
     
-- **Problema: você recebe uma mensagem de erro: não é possível registrar o dispositivo porque o \<endereço\> IP \<do servidor\> ou \<o FQDN\> ou o \<endereço IP do servidor de MEDIANAME ou servidor de mediação atual \> em conflito com os aparelhos existentes. Remova o dispositivo de conflito ou atualize as informações de entrada/configuração e registre-se novamente. ' When Run-CcAppliance para registrar o aplicativo atual para online.**
+- **Problema: você recebe uma mensagem de erro: não é possível registrar o dispositivo porque o \<endereço\> IP \<do servidor\> de \<\> \<MediaName ou o FQDN ou o endereço\> IP do servidor de mediação atual ou o endereço IP do servidor de mediação está em conflito com os aplicativos existentes Remova o dispositivo de conflito ou atualize as informações de entrada/configuração e registre-se novamente. ' When Run-CcAppliance para registrar o aplicativo atual para online.**
     
     **Resolução:** Os valores para \<o reaparelhoname\> \<, o\> servidor \<de mediador de\> servidor FQDN e o endereço IP do servidor de mediação devem ser exclusivos e apenas usados para um registro de dispositivo. Por padrão, \<o nome\> do aplicativo vem do nome do host. \<Endereço\> IP do\> servidor \<de mediação e FQDN do servidor de mediação definido no arquivo ini de configuração.
     
@@ -167,13 +167,13 @@ Veja a seguir as soluções para problemas freqüentes encontrados:
     
     Em seguida, inicie o PowerShell Remote locatário usando suas credenciais de administrador de locatário do Skype for Business e execute o cmdlet a seguir para verificar o (s) dispositivo (s) registrado (s).
     
-  ```
+  ```powershell
   Get-CsHybridPSTNAppliance
   ```
 
     Depois de identificar os conflitos, você poderá atualizar o arquivo CloudConnector.ini com informações compatíveis com o dispositivo registrado ou cancelar o registro do dispositivo existente para resolver os conflitos.
     
-  ```
+  ```powershell
   Unregister-CsHybridPSTNAppliance -Force
   ```
 
@@ -205,7 +205,7 @@ Veja a seguir as soluções para problemas freqüentes encontrados:
     
 1. Execute o cmdlet Enter-CcUpdate para esvaziar os serviços e colocar o dispositivo no modo de manutenção.
    
-   ```
+   ```powershell
    Enter-CcUpdate
    ```
    
@@ -213,7 +213,7 @@ Veja a seguir as soluções para problemas freqüentes encontrados:
     
     Para versões do conector de nuvem antes de 2,0:
     
-    ```
+    ```powershell
     Reset-CcCACertificate 
     Renew-CcServerCertificate 
     Remove-CcLegacyServerCertificate 
@@ -221,7 +221,7 @@ Veja a seguir as soluções para problemas freqüentes encontrados:
 
     Ou para o Cloud Connector Release 2,0 e posterior:
     
-    ```
+    ```powershell
     Reset-CcCACertificate 
     Update-CcServerCertificate 
     Remove-CcLegacyServerCertificate 
@@ -229,13 +229,13 @@ Veja a seguir as soluções para problemas freqüentes encontrados:
     
 3. Se o TLS for usado entre o gateway e o servidor de mediação, execute o cmdlet Export-CcRootCertificate do aparelho e instale o certificado exportado em seus gateways PSTN. Você também pode ser solicitado a emitir novamente o certificado em seu gateway.
 
-   ```
+   ```powershell
    Export-CcRootCertificate
    ```
 
 4. Execute o cmdlet Exit-CcUpdate para iniciar serviços e sair do modo de manutenção.
 
-   ```
+   ```powershell
    Exit-CcUpdate
    ```
 
@@ -246,13 +246,13 @@ Veja a seguir as soluções para problemas freqüentes encontrados:
     
 1. No primeiro dispositivo, execute o cmdlet Remove-CcCertificationAuthorityFile para limpar os arquivos de backup da CA no diretório \<SiteRoot\> .
 
-     ```
+     ```powershell
      Remove-CcCertificationAuthorityFile
      ```
     
 2. Execute o cmdlet Enter-CcUpdate para drenar serviços e colocar cada utilitário no modo de manutenção.
 
-     ```
+     ```powershell
      Enter-CcUpdate
      ```
     
@@ -260,7 +260,7 @@ Veja a seguir as soluções para problemas freqüentes encontrados:
     
      Para versões do conector de nuvem antes de 2,0:
     
-     ```
+     ```powershell
      Reset-CcCACertificate
      Renew-CcServerCertificate
      Remove-CcLegacyServerCertificate 
@@ -268,7 +268,7 @@ Veja a seguir as soluções para problemas freqüentes encontrados:
 
      Ou para o Cloud Connector Release 2,0 e posterior:
     
-     ```
+     ```powershell
      Reset-CcCACertificate
      Update-CcServerCertificate
      Remove-CcLegacyServerCertificate 
@@ -276,13 +276,13 @@ Veja a seguir as soluções para problemas freqüentes encontrados:
 
 4. No primeiro dispositivo, execute o cmdlet a seguir para fazer backup dos arquivos da CA para \<a\> pasta SiteRoot.
     
-     ```
+     ```powershell
      Backup-CcCertificationAuthority
      ```
    
 5. Em todos os outros aplicativos do mesmo site, execute os seguintes comandos para consumir os arquivos de backup da CA, para que todos os aplicativos usem o mesmo certificado raiz e, em seguida, solicite novos certificados. 
    
-     ```
+     ```powershell
      Reset-CcCACertificate
      Update-CcServerCertificate
      Remove-CcLegacyServerCertificate 
@@ -290,22 +290,22 @@ Veja a seguir as soluções para problemas freqüentes encontrados:
      
 6. Se o TLS for usado entre o gateway e o servidor de mediação, execute o cmdlet Export-CcRootCertificate de qualquer dispositivo no site e instale o certificado exportado em seus gateways PSTN. Você também pode ser solicitado a emitir novamente o certificado em seu gateway.
   
-     ```
+     ```powershell
      Export-CcRootCertificate
      ```
      
 7. Execute o cmdlet Exit-CcUpdate para iniciar serviços e sair do modo de manutenção. 
 
-     ```
+     ```powershell
      Exit-CcUpdate
      ```
     
     
-- **Problema: você recebe a seguinte mensagem de erro no log do serviço de gerenciamento do Cloud Connector, "C:\Program Files\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log": CceService erro: 0: exceção inesperada quando status de relatório para online: System. Management. Automation. CmdletInvocationException: falha no logon para \<o administrador\>de locatário global do usuário. Crie um novo objeto Credential, certificando-se de que você usou o nome de usuário e a senha corretos. ---\>**
+- **Problema: você recebe a seguinte mensagem de erro no log do serviço de gerenciamento do Cloud Connector, "C:\Program Files\Skype for Business Cloud Connector Edition\ManagementService\CceManagementService.log": CceService erro: 0: exceção inesperada ao relatar status para online: System. Management. Automation. CmdletInvocationException: falha no \<logon para o\>administrador de locatário global do usuário. Crie um novo objeto Credential, certificando-se de que você usou o nome de usuário e a senha corretos. ---\>**
     
     **Resolução:** As credenciais de administrador de locatário global do Office 365 foram alteradas desde que o dispositivo do conector de nuvem foi registrado. Para atualizar as credenciais armazenadas localmente no aparelho do Cloud Connector, execute o seguinte do administrador do PowerShell no dispositivo host:
     
-  ```
+  ```powershell
   Set-CcCredential -AccountType TenantAdmin
   ```
 
@@ -379,7 +379,7 @@ Veja a seguir as soluções para problemas freqüentes encontrados:
     
   - Para marcar o aparelho como implantado com êxito, execute o set-CsCceApplianceDeploymentStatus da seguinte maneira:
     
-  ```
+  ```powershell
   Set-CsCceApplianceDeploymentStatus -Identity <Appliance Identity GUID> -Action Deploy -Status Finished
   ```
 
@@ -432,7 +432,7 @@ Para verificar as atualizações manualmente, conecte-se a cada servidor host e 
     
 2. Remova a instância da alta disponibilidade usando o seguinte cmdlet:
     
-   ```
+   ```powershell
    Enter-CcUpdate
    ```
 
@@ -442,7 +442,7 @@ Para verificar as atualizações manualmente, conecte-se a cada servidor host e 
     
 4. Defina a instância novamente para alta disponibilidade com o seguinte cmdlet:
     
-   ```
+   ```powershell
    Exit-CcUpdate
    ```
 

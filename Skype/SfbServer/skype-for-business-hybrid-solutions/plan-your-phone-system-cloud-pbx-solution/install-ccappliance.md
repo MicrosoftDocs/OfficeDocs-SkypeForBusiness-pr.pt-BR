@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 385453cd-3a96-4837-8bb4-513aa97a256b
 description: 'O cmdlet Install-CcAppliance instala o dispositivo do Skype for Business Cloud Connector Edition — incluindo as máquinas virtuais do AD, do Repositório de Gerenciamento Central, do Servidor de Mediação e do Servidor de Borda — no servidor host. '
-ms.openlocfilehash: 01c689c4a4639c12292d59def6b698281f402299
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cccf500c6506c8ba3459631d5c823940907ad213
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287269"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003321"
 ---
 # <a name="install-ccappliance"></a>Install-CcAppliance
  
 O cmdlet Install-CcAppliance instala o dispositivo do Skype for Business Cloud Connector Edition — incluindo as máquinas virtuais do AD, do Repositório de Gerenciamento Central, do Servidor de Mediação e do Servidor de Borda — no servidor host.  
   
-```
+```powershell
 Install-CcAppliance [-Steps <array>] [-SkipExistingObjects] [-Upgrade] [-UpdateAllCredentials] [<CommonParameters>]
 Install-CcAppliance [-Steps <array>] [-PrepareOnly]  [<CommonParameters>]
 Install-CcAppliance [-ShowStepsOnly]  [<CommonParameters>]
@@ -35,7 +35,7 @@ Install-CcAppliance [-ShowStepsOnly]  [<CommonParameters>]
 
 O exemplo a seguir instala um novo dispositivo de conector de nuvem no servidor host:
   
-```
+```powershell
 Install-CcAppliance
 ```
 
@@ -43,7 +43,7 @@ Install-CcAppliance
 
 O exemplo a seguir atualiza o conector de nuvem para a versão mais recente:
   
-```
+```powershell
 Install-CcAppliance -Upgrade
 ```
 
@@ -51,7 +51,7 @@ Install-CcAppliance -Upgrade
 
 O exemplo a seguir remove todas as credenciais do conector de nuvem armazenadas em cache no servidor host, solicita que o usuário especifique todas as informações de credenciais novamente e, em seguida, instale o Cloud Connector:
   
-```
+```powershell
 Install-CcAppliance -UpdateAllCredentials
 ```
 
@@ -59,7 +59,7 @@ Install-CcAppliance -UpdateAllCredentials
 
 O seguinte exemplo exibe todas as etapas de implantação no console do PowerShell:
   
-```
+```powershell
 Install-CcAppliance -ShowStepsOnly
 ```
 
@@ -67,9 +67,9 @@ O parâmetro -ShowStepsOnly é apenas para solução de problemas.
   
 ### <a name="example-5"></a>Exemplo 5
 
-O exemplo seguinte gera arquivos de configuração para cada etapa de implantação no servidor host. Os arquivos de configuração são salvos \<na\>pasta\\ApplianceRoot\>\Instances <Version-default\ExportedConfig no servidor host:
+O exemplo seguinte gera arquivos de configuração para cada etapa de implantação no servidor host. Os arquivos de configuração são salvos \<na\>pasta\\ ApplianceRoot \Instances\><versão-default\ExportedConfig no servidor host:
   
-```
+```powershell
 Install-CcAppliance -PrepareOnly
 ```
 
@@ -79,7 +79,7 @@ Para determinar a raiz do dispositivo, execute o cmdlet Get-CcApplianceDirectory
 
 No exemplo seguinte, o Cloud Connector executa as etapas de implantação 1, 2 e 3 para criar comutadores virtuais, criar uma máquina virtual do AD e instalar o serviço do domínio no servidor AD. Ele pula a etapa se ela já tiver sido executada:
   
-```
+```powershell
 Install-CcAppliance -Steps @(1,2,3) -SkipExistingObjects
 ```
 

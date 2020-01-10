@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
 ms.collection: M365-voice
 description: Leia este tópico para saber como gerenciar as contas do Sistema de Salas do Skype.
-ms.openlocfilehash: ab82780617ba8fc6304bb97f56a319c7898bff44
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 7594532e5da42ac9f1b41444052ec51c3779ee2b
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774893"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001481"
 ---
 # <a name="manage-skype-room-system-accounts"></a>Gerenciar contas do Sistema de Salas do Skype
  
@@ -29,7 +29,7 @@ Leia este tópico para saber como gerenciar as contas do Sistema de Salas do Sky
 
 Se você precisar mover a conta do sistema de sala do Skype de um pool do Skype for Business Server para outro (por exemplo, durante as atualizações), use o seguinte comando para mover o pool de contas do sistema de salas do Skype: 
   
-```
+```powershell
 Move-CsMeetingRoom -Identity LRS01 -Target "LYNCPool15-2.contoso.com"
 ```
 
@@ -37,7 +37,7 @@ Move-CsMeetingRoom -Identity LRS01 -Target "LYNCPool15-2.contoso.com"
 
 Se você precisar desabilitar uma conta existente do sistema de sala do Skype dos serviços do Skype for Business em um pool de servidores do Skype for Business, use o seguinte comando para desativar a conta: 
   
-```
+```powershell
 Disable-CsMeetingRoom LRS01 -domaincontroller DC-ND-001.contoso.com
 ```
 

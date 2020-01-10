@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Saiba como habilitar o sistema telefônico nos serviços de voz do Office 365 para seus usuários do Skype for Business.
-ms.openlocfilehash: 1305f4045d4de86a65e0286938d22490f577507c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 902d2e1bad76c8275bfc8f4ce7ec7b4243b8572a
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287500"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003461"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Habilitar os usuários do Enterprise Voice online e do Sistema de Telefone na Caixa Postal do Office 365
  
@@ -36,19 +36,19 @@ Para habilitar um usuário para o sistema telefônico no Office 365 voz e correi
   
 ### <a name="to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail"></a>Para habilitar os usuários do sistema telefônico no Office 365 voz e correio de voz
 
-1. Antes de começar, verifique se o conector do Skype for Business online (módulo do Windows PowerShell) está implantado em seus servidores front-end. Se não for, você pode baixá-lo [a partir do centro de download](https://www.microsoft.com/en-us/download/details.aspx?id=39366). Você pode encontrar mais informações sobre como usar este módulo em Configurando [seu computador para gerenciamento do Skype for Business online](https://technet.microsoft.com/en-us/library/dn362839%28v=ocs.15%29.aspx).
+1. Antes de começar, verifique se o conector do Skype for Business online (módulo do Windows PowerShell) está implantado em seus servidores front-end. Se não for, você pode baixá-lo [a partir do centro de download](https://www.microsoft.com/en-us/download/details.aspx?id=39366). Você pode encontrar mais informações sobre como usar este módulo em [configurando seu computador para gerenciamento do Skype for Business online](https://technet.microsoft.com/en-us/library/dn362839%28v=ocs.15%29.aspx).
     
 2. Inicie o Windows PowerShell como um administrador.
     
 3. Digite o seguinte e pressione Enter:
     
-   ```
+   ```powershell
    Import-Module skypeonlineconnector
    ```
 
 4. Digite o seguinte e pressione Enter:
     
-   ```
+   ```powershell
    $cred = Get-Credential
    ```
 
@@ -58,13 +58,13 @@ Para habilitar um usuário para o sistema telefônico no Office 365 voz e correi
     
 6. Na janela do PowerShell, digite o seguinte e pressione Enter:
     
-   ```
+   ```powershell
    $Session = New-CsOnlineSession -Credential $cred -Verbose
    ```
 
 7. Importe a sessão digitando o seguinte cmdlet:
     
-   ```
+   ```powershell
    Import-PSSession $Session -AllowClobber
    ```
 
@@ -72,13 +72,13 @@ Para habilitar um usuário para o sistema telefônico no Office 365 voz e correi
     
 8. Use o cmdlet Set-CsUser para atribuir as propriedades $EnterpriseVoiceEnabled e $HostedVoiceMail ao usuário, como a seguir:
     
-   ```
+   ```powershell
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
    ```
 
     Por exemplo:
     
-   ```
+   ```powershell
    Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
    ```
 
@@ -114,7 +114,7 @@ Você pode atribuir planos de discagem por usuário com o Windows PowerShell e o
 
 - Use o cmdlet [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) para atribuir o plano de discagem por usuário RedmondDialPlan ao usuário Ken Myer:
     
-  ```
+  ```powershell
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName "RedmondDialPlan"
   ```
 
@@ -122,7 +122,7 @@ Você pode atribuir planos de discagem por usuário com o Windows PowerShell e o
 
 - Esse comando atribui o plano de discagem por usuário RedmondDialPlan a todos os usuários que trabalham na cidade de Redmond. Para obter mais informações sobre o parâmetro LdapFilter usado neste comando, consulte a documentação do cmdlet [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) :
     
-  ```
+  ```powershell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"
   ```
 
@@ -133,7 +133,7 @@ Você pode atribuir planos de discagem por usuário com o Windows PowerShell e o
 
 - Use o cmdlet [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) para cancelar a atribuição de qualquer plano de discagem por usuário atribuído anteriormente a Ken Myer. Depois que a atribuição do plano de discagem por usuário for cancelada, Ken Myer será automaticamente gerenciado com o uso do plano de discagem global ou do plano de discagem de escopo de serviço atribuído ao seu Registrador ou gateway PSTN. Um plano de discagem de escopo de serviço tem precedência sobre o plano de discagem global:
     
-  ```
+  ```powershell
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
   ```
 
@@ -150,7 +150,7 @@ O sistema telefônico nos usuários do Office 365 deve ter uma política de rote
 
 - Use o cmdlet [Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps) para atribuir a política de roteamento de voz por usuário RedmondVoiceRoutingPolicy ao usuário Ken Myer:
     
-  ```
+  ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName "RedmondVoiceRoutingPolicy"
   ```
 
@@ -158,7 +158,7 @@ O sistema telefônico nos usuários do Office 365 deve ter uma política de rote
 
 - O comando a seguir atribui a política de roteamento de voz por usuário RedmondVoiceRoutingPolicy a todos os usuários que trabalham na cidade de Redmond. Para obter mais informações sobre o parâmetro LdapFilter usado neste comando, consulte [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps).
     
-  ```
+  ```powershell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsVoiceRoutingPolicy -PolicyName "RedmondVoiceRoutingPolicy"
   ```
 
@@ -169,7 +169,7 @@ O sistema telefônico nos usuários do Office 365 deve ter uma política de rote
 
 - Use o Grant-CsVoiceRoutingPolicy para cancelar a atribuição de qualquer política de roteamento de voz por usuário atribuída anteriormente a Ken Myer. Depois que a atribuição da política de roteamento de voz por usuário for cancelada, Ken Myer será automaticamente gerenciado com o uso da política de roteamento de voz global.
     
-  ```
+  ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 

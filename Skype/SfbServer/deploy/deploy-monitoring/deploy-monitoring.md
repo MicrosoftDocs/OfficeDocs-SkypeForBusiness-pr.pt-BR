@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: 'Resumo: saiba como implantar o monitoramento no Skype for Business Server.'
-ms.openlocfilehash: 1eedcaaa30ecf464a5238e274e14de6770858290
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7f3bd96b814b45b625612aae9b56a706dfff470f
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239947"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001141"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>Implantar o monitoramento no Skype for Business Server
 
@@ -67,7 +67,7 @@ Para obter instruções passo a passo sobre como associar servidores de front-en
 
 Para começar a coleta de dados, você precisará habilitar o CDR e/ou o monitoramento QoE. (Observe que você não precisa habilitar o monitoramento de CDR e QoE; se preferir, você pode habilitar um tipo de monitoramento enquanto deixa o outro tipo desabilitado.) Para habilitar o monitoramento de CDR no escopo global, execute o seguinte comando no Shell de gerenciamento do Skype for Business Server:
 
-```
+```powershell
 Set-CsCdrConfiguration -Identity "global" -EnableCDR $True
 ```
 
@@ -81,7 +81,7 @@ Você também pode habilitar o monitoramento de CDR no painel de controle do Sky
 
 Para habilitar o monitoramento de QoE no escopo global, execute este comando no Shell de gerenciamento do Skype for Business Server:
 
-```
+```powershell
 Set-CsQoEConfiguration -Identity "global" -EnableQoE $True
 ```
 

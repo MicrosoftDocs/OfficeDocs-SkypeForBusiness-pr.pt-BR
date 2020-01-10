@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d516e65-fb9b-4a0b-8296-969fc9eda334
 description: O cmdlet Unregister-CcAppliance cancela o registro do dispositivo do Skype for Business Cloud Connector Edition atual a partir de um site PSTN na configuração online do locatário.
-ms.openlocfilehash: fafe374371cd01b2ec7c67ade89dd2a905e16d18
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2bd8f3a3ef4ac2b29ab9e7d766836d7a3555c0f4
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286870"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003131"
 ---
 # <a name="unregister-ccappliance"></a>Unregister-CcAppliance
  
 O cmdlet Unregister-CcAppliance cancela o registro do dispositivo do Skype for Business Cloud Connector Edition atual a partir de um site PSTN na configuração online do locatário.
   
-```
+```powershell
 Unregister-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Local]
 ```
 
@@ -33,7 +33,7 @@ Unregister-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Loca
 
 O seguinte exemplo cancela o registro do dispositivo atual da configuração de locatário online:
   
-```
+```powershell
 Unregister-CcAppliance
 ```
 
@@ -41,7 +41,7 @@ Unregister-CcAppliance
 
 O exemplo seguinte verifica a configuração para cancelar o registro local sem conexão com uma configuração de locatário online:
   
-```
+```powershell
 Unregister-CcAppliance -Local
 ```
 
@@ -49,7 +49,7 @@ Unregister-CcAppliance -Local
 
 O exemplo a seguir cancela o registro o dispositivo atual com o nome "Appliance1" para o site PSTN "Site1":
   
-```
+```powershell
 Unregister-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 ```
 

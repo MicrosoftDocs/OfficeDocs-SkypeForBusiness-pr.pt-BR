@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0aaacc05-3430-4579-acbf-d7c7670c3864
 description: O cmdlet Export-CcConfigurationSampleFile exporta um arquivo (.ini) de configuração de amostra do Skype for Business Cloud Connector Edition para o diretório de um dispositivo do Cloud Connector. Você pode modificar e renomear o arquivo para usar na implantação.
-ms.openlocfilehash: 440253bc6b9c4e980a6f7ac4aae0c82ebad05660
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b62d5d7ffa9e8f10aeae509201c5aa0a1e7fa0a4
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287375"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003421"
 ---
 # <a name="export-ccconfigurationsamplefile"></a>Export-CcConfigurationSampleFile
  
@@ -24,7 +24,7 @@ O cmdlet Export-CcConfigurationSampleFile exporta um arquivo (.ini) de configura
   
 Este cmdlet se aplica ao Skype for Business Cloud Connector Edition 1.4.1 e 1.4.2.
   
-```
+```powershell
 Export-CcConfigurationSampleFile
 ```
 
@@ -39,7 +39,7 @@ Nenhum
 
 O exemplo a seguir baixa um arquivo de configuração de exemplo do site da Microsoft e grava-o no diretório de aplicativos do dispositivo do conector de nuvem:
   
-```
+```powershell
 Export-CcConfigurationSampleFile
 ```
 

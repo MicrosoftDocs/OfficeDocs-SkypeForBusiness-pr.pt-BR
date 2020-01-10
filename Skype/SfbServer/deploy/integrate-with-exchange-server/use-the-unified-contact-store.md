@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 description: 'Resumo: configurar o repositório de contatos unificado do Exchange Server e do Skype for Business Server.'
-ms.openlocfilehash: 2719105478860f0352ae4a4cef75466ec460d475
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7a52a6bf648632daac416dcf6ffd4fd4149804c0
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244127"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003551"
 ---
 # <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>Configurar o Skype for Business Server para usar o repositório unificado de contatos
  
@@ -38,19 +38,19 @@ Quando você instala o Skype for Business Server, uma única política de servi�
   
 Se você preferir não migrar todos os contatos para o repositório unificado de contatos, desabilite esse repositório para todos os usuários configurando a propriedade UcsAllowed na política global como False:
   
-```
+```powershell
 Set-CsUserServicesPolicy -Identity global -UcsAllowed $False
 ```
 
 Depois de desabilitar o repositório de contatos unificado na política global, você pode criar uma política por usuário que permite o uso do repositório de contatos unificado; Isso permite que alguns usuários mantenham seus contatos no repositório de contatos unificado enquanto outros usuários continuam a manter seus contatos no Skype for Business Server. É possível criar uma política de serviços de usuário por usuário utilizando um comando como este:
   
-```
+```powershell
 New-CsUserServicesPolicy -Identity "AllowUnifiedContactStore" -UcsAllowed $True
 ```
 
 Depois de criar a nova política, você terá que atribuí-la aos usuários que devem ter acesso ao repositório unificado de contatos. As políticas por usuário podem ser atribuídas aos usuários com o uso de comandos semelhantes ao seguinte:
   
-```
+```powershell
 Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "AllowUnifiedContactStore"
 ```
 
@@ -58,23 +58,23 @@ Após a atribuição da política, o Skype for Business Server começará a migr
   
 Você pode verificar se os contatos de um usuário foram migrados com êxito para o repositório de contatos unificado executando o cmdlet [Test-CsUnifiedContactStore](https://docs.microsoft.com/powershell/module/skype/test-csunifiedcontactstore?view=skype-ps) de dentro do Shell de gerenciamento do Skype for Business Server:
   
-```
+```powershell
 Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 ```
 
-Se Test-CsUnifiedContactStore tiver êxito, isso significa que os contatos do usuário SIP: kenmyer @<span></span>litwareinc<span></span>. com foram migrados para o repositório de contatos unificado.
+Se Test-CsUnifiedContactStore tiver êxito, isso significará que os contatos do usuário SIP:<span></span>kenmyer@<span></span>litwareinc. com foram migrados para o repositório de contatos unificado.
   
 ## <a name="rolling-back-the-unified-contact-store"></a>Revertendo o repositório unificado de contatos
 
 Se você precisar remover os contatos de um usuário do repositório de contatos unificado (por exemplo, se o usuário precisar ser rehomeado no Microsoft Lync Server 2010 e, portanto, não puder mais usar o repositório de contatos unificado), você deverá fazer duas coisas. Primeiro, você deve atribuir ao usuário uma nova política de serviços de usuário, que proíba para armazenar contatos no repositório de contatos unificado. (Ou seja, uma política em que a propriedade UcsAllowed foi definida como $False.) Se você não tiver essa política, poderá criar uma usando um comando semelhante a isto:
   
-```
+```powershell
 New-CsUserServicesPolicy -Identity NoUnifiedContactStore -UcsAllowed $False
 ```
 
 Em seguida, você pode atribuir essa nova política por usuário (NoUnifiedContactStore) usando um comando como o seguinte:
   
-```
+```powershell
 Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName NoUnifiedContactStore
 ```
 
@@ -87,7 +87,7 @@ O comando anterior atribui a nova política ao usuário Ken Myer e também imped
   
 Isso também significa que, depois de atribuir o usuário a uma nova política de serviços de usuário, você deve executar o cmdlet [Invoke-CsUcsRollback](https://docs.microsoft.com/powershell/module/skype/invoke-csucsrollback?view=skype-ps) para mover os contatos do usuário do Exchange Server e voltar para o Skype for Business Server. Por exemplo, após atribuir uma nova política de serviços de usuário a Ken Myer, você poderá remover seus contatos do repositório unificado de contatos usando o seguinte comando:
   
-```
+```powershell
 Invoke-CsUcsRollback -Identity "Ken Myer"
 ```
 

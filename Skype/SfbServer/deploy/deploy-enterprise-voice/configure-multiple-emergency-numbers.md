@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
 description: Leia este tópico para saber como configurar vários números de emergência no Skype for Business Server.
-ms.openlocfilehash: 184a0060ed2383a652928356ab2999aa55b3d7bd
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a0a16536799024085afcce07d6a2a9a0e4c899e1
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233694"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001311"
 ---
 # <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>Configurar vários números de emergência no Skype for Business
 
@@ -35,31 +35,31 @@ Para configurar vários números de emergência, use o cmdlet New-CsEmergencyNum
 
 O comando a seguir cria um novo número de emergência com a cadeia de caracteres de discagem 911 usando o cmdlet New-CsEmergency:
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 911 
 ```
 
 O próximo comando associa o número à política de local especificada, especificando o parâmetro EmergencyNumbers no cmdlet Set-CsLocationPolicy:
 
-```
+```powershell
 > Set-CsLocationPolicy -Identity <id> -EmergencyNumbers @{add=$a} 
 ```
 
 No próximo exemplo, um número de emergência é criado com uma única máscara de discagem, 112:
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112 
 ```
 
 O próximo comando cria um número de emergência com várias máscaras de discagem:
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112;999 
 ```
 
 O próximo exemplo adiciona vários números de emergência com várias máscaras de discagem e associa os números de emergência à política de local especificada:
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112;999 
 > $b = New-CsEmergencyNumber -DialString 500 -DialMask 501;502
 > Set-CsLocationPolicy -Identity <id> -EmergencyNumbers @{add=$a,$b} 
@@ -67,7 +67,7 @@ O próximo exemplo adiciona vários números de emergência com várias máscara
 
 O próximo exemplo configura vários números de emergência para os prestadores de serviços de saúde que usam 911 e 450:  
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 911 
 > $b = New-CsEmergencyNumber -DialString 450
 > Set-CsLocationPolicy -Identity US-Hospital -EmergencyNumbers @{add=$a,$b}
@@ -75,7 +75,7 @@ O próximo exemplo configura vários números de emergência para os prestadores
 
 O próximo exemplo configura vários números de emergência para a cidade de Londres:
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 999 -DialMask 144
 > $b = New-CsEmergencyNumber -DialString 112 -DialMask 911;117;118
 > Set-CsLocationPolicy -Identity London -EmergencyNumbers @{add=$a,$b}
@@ -83,7 +83,7 @@ O próximo exemplo configura vários números de emergência para a cidade de Lo
 
 O próximo exemplo configura vários números de emergência para a Índia:
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 100 -DialMask 911
 > $b = New-CsEmergencyNumber -DialString 101 
 > $c = New-CsEmergencyNumber -DialString 102 
@@ -92,7 +92,7 @@ O próximo exemplo configura vários números de emergência para a Índia:
 
 O próximo exemplo remove uma entrada existente com a cadeia de caracteres de discagem 911 e as máscaras de discagem 112 e 999:
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112;999
 > Set-CsLocationPolicy -Identity <id> -EmergencyNumbers @{remove=$a} 
 ```

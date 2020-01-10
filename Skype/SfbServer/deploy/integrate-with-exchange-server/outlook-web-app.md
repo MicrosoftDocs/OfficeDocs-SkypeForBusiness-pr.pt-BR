@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: 'Resumo: integre o Skype for Business Server e o Outlook Web App.'
-ms.openlocfilehash: b7c279dc41515d9613d8c000ab9e81164a1ccaa6
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 2aedd3b5e2399ae2487c0bb6da3e468d56567897
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244205"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002871"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>Configurar a integração entre o Skype for Business Server local e o Outlook Web App
 
@@ -37,7 +37,7 @@ Para integrar o Skype for Business Server local com o Exchange Online, você dev
 
 Usando o Shell de gerenciamento do Skype for Business Server, configure o servidor de borda para Federação executando o cmdlet **set-CSAccessEdgeConfiguration** usando os parâmetros exibidos no seguinte exemplo:
 
-```
+```powershell
 Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 ```
 
@@ -49,7 +49,7 @@ Para obter detalhes sobre como usar o Shell de gerenciamento do Skype for Busine
 
 Usando o Shell de gerenciamento do Skype for Business Server, configure um provedor de hospedagem no servidor de borda executando o cmdlet **New-CsHostingProvider** usando os parâmetros no exemplo a seguir:
 
-```
+```powershell
 New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
 ```
 
@@ -76,14 +76,14 @@ As alterações feitas usando cmdlets nas seções anteriores são automaticamen
 
 Para verificar as atualizações de replicação, em um servidor interno na implantação do Skype for Business Server, execute o seguinte cmdlet:
 
-```
+```powershell
 Get-CsManagementStoreReplicationStatus
 ```
 Verifique se o valor UpToDate está sendo exibido como verdadeiro para todas as réplicas.
 
 Para confirmar se as alterações foram aplicadas, no servidor de borda, execute o seguinte cmdlet:
 
-```
+```powershell
 Get-CsHostingProvider -LocalStore
 ```
 Verifique se as informações mostradas correspondem às alterações confirmadas nas etapas anteriores.

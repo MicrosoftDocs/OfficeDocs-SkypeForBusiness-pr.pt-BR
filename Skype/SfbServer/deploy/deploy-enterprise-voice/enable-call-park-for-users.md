@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: Habilite os usuários para o parque de chamadas no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 797b17cb3d9482d9059bedcbbc347c3dd592e478
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c3ad2bcf70c7b175ba372ba2834e56209de9f664
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240372"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002551"
 ---
 # <a name="enable-call-park-for-users-in-skype-for-business"></a>Habilitar o estacionamento de chamadas para usuários no Skype for Business
  
@@ -53,13 +53,13 @@ Você pode habilitar o estacionamento de chamadas no escopo global ou no escopo 
     
 3. Execute:
     
-   ```
+   ```powershell
    Set-CsVoicePolicy -Identity <VoicePolicy> -EnableCallPark $true
    ```
 
     Por exemplo, para habilitar o estacionamento de chamadas para a política de voz global padrão:
     
-   ```
+   ```powershell
    Set-CsVoicePolicy -EnableCallPark $true
    ```
 

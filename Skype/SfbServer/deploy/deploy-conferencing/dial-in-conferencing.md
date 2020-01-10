@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: 'Resumo: Leia este tópico para saber como configurar a conferência discada no Skype for Business Server.'
-ms.openlocfilehash: 148e9340d705aba87b80d3b4b7f1e0d321cfbe8a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ff04637cf077bae4c1408a48a487582a04123b54
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234133"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002921"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Configurar a conferência discada no Skype for Business Server
  
@@ -83,13 +83,13 @@ Para verificar se a região está definida para todos os planos de discagem da c
     
 3. Execute o seguinte no prompt de comando:
     
-   ```
+   ```powershell
    Get-CsDialPlan [-Identity <Identifier of the dial plans to be retrieved>]
    ```
 
    Por exemplo:
     
-   ```
+   ```powershell
    Get-CsDialPlan
    ```
 
@@ -107,13 +107,13 @@ Para obter mais informações, consulte [Get-CsDialPlan](https://docs.microsoft.
     
 3. Para todos os planos de discagem que não têm a região de conferência discada, execute:
     
-   ```
+   ```powershell
    Set-CsDialPlan [-Identity <Identity of the dial plan to be modified>] -DialinConferencingRegion "<new region>"
    ```
 
    Por exemplo:
     
-   ```
+   ```powershell
    Set-CsDialPlan -Identity Redmond -DialinConferencingRegion "US West Coast"
    ```
 

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: Crie ou modifique uma tabela de faixa de órbita de estacionamento de chamada no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 305404ce74d3aec26741c0e26b999f6227dabe37
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e4dc9e9384210ec2abcceb652b814aef8c401b05
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233458"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001721"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>Criar ou modificar uma faixa de opções de estacionamento de chamada no Skype for Business
 
@@ -82,19 +82,19 @@ Utilize um dos seguintes procedimentos para criar ou modificar um intervalo de �
 
     Na linha de comando, execute:
 
-   ```
+   ```powershell
    New-CsCallParkOrbit -Identity <name of orbit range> -NumberRangeStart <first number in orbit range> -NumberRangeEnd <last number in orbit range> -CallParkService <FQDN or service ID of the Application service that hosts the Call Park application>
    ```
 
     Por exemplo:
 
-   ```
+   ```powershell
    New-CsCallParkOrbit -Identity "Redmond orbit 1" -NumberRangeStart 100 -NumberRangeEnd 199 -CallParkService redmond-applicationserver-1
    ```
 
     O seguinte exemplo mostra como modificar os números em intervalo de órbitas existente
 
-   ```
+   ```powershell
    Set-CsCallParkOrbit -Identity "Redmond orbit 1" -NumberRangeStart 500 -NumberRangeEnd 699
    ```
 

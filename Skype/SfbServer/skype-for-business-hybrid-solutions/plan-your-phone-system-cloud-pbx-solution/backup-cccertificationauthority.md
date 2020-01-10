@@ -11,19 +11,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 47ed4559-fb63-42cd-8ecd-b7d1617e91d3
 description: "O cmdlet Backup-CcCertificationAuthority \nfaz backup do serviço de autoridade de certificação do Skype for Business Cloud Connector Edition em um arquivo e salva na pasta AC no diretório de compartilhamento de site."
-ms.openlocfilehash: 463aab2516deec5b47e549aec67bcba6a0a80bc0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f99745e1dd5e28e2d7d8d10d4d152c7ada913fbf
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294415"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003021"
 ---
 # <a name="backup-cccertificationauthority"></a>Backup-CcCertificationAuthority
  
 O cmdlet Backup-CcCertificationAuthority 
 faz backup do serviço de autoridade de certificação do Skype for Business Cloud Connector Edition em um arquivo e salva na pasta AC no diretório de compartilhamento de site.
   
-```
+```powershell
 Backup-CcCertificationAuthority 
 ```
 
@@ -38,7 +38,7 @@ Nenhum
 
 O exemplo seguinte faz backup do serviço de autoridade de certificação em um arquivo e salva na pasta AC no diretório de compartilhamento de site:
   
-```
+```powershell
 Backup-CcCertificationAuthority 
 ```
 

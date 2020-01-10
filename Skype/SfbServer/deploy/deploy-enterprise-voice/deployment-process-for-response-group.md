@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: Processo de implantação e etapas para o grupo de resposta no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 12497d143f9ff5c7630f81db8f416e2f7c74d574
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e15acb5f4750ce1d82cd5f785a9ea38e73b2af30
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233296"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001181"
 ---
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>Processo de implantação do grupo de resposta no Skype for Business
 
@@ -85,7 +85,7 @@ Para modificar o arquivo Web.config, faça o seguinte:
 
 3. Adicione a seguinte `<machineKey>` seção à `<system.web>` seção:
 
-   ```
+   ```xml
    <machineKey validationKey="AutoGenerate,IsolateApps" decryptionKey="AutoGenerate,IsolateApps" validation="3DES" decryption="3DES"/>
    ```
 
@@ -93,7 +93,7 @@ Para modificar o arquivo Web.config, faça o seguinte:
 
 5. Reinicie o serviço de serviços de informações da Internet (IIS) executando o seguinte comando em um prompt de comando:
 
-   ```
+   ```console
    iisreset
    ```
 
