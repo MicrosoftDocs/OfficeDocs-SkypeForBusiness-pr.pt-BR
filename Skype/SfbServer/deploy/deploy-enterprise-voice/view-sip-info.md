@@ -14,41 +14,41 @@ ms.collection:
 ms.custom: ''
 ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
 description: 'Resumo: saiba como exibir informações sobre troncos SIP no Skype for Business Server.'
-ms.openlocfilehash: 3d8ad70428926c26445c6556544a5a363de12f5c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 366e03c1a3ceef345a52bca6e038c9311fcc3003
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239940"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001121"
 ---
-# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a><span data-ttu-id="8d0ca-103">Exibir informações sobre troncos SIP individuais no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="8d0ca-103">View information about individual SIP trunks in Skype for Business Server</span></span>
+# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a><span data-ttu-id="befc4-103">Exibir informações sobre troncos SIP individuais no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="befc4-103">View information about individual SIP trunks in Skype for Business Server</span></span>
  
-<span data-ttu-id="8d0ca-104">**Resumo:** Saiba como exibir informações sobre troncos SIP no Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="8d0ca-104">**Summary:** Learn how to view information about SIP trunks in Skype for Business Server.</span></span>
+<span data-ttu-id="befc4-104">**Resumo:** Saiba como exibir informações sobre troncos SIP no Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="befc4-104">**Summary:** Learn how to view information about SIP trunks in Skype for Business Server.</span></span>
   
-<span data-ttu-id="8d0ca-105">Os troncos SIP são usados para conectar a rede de telefone de voz do Skype for Business Server à rede telefônica pública comutada (PSTN).</span><span class="sxs-lookup"><span data-stu-id="8d0ca-105">SIP trunks are used to connect Skype for Business Server Voice over IP phone network with the Public Switched Telephone Network (PSTN).</span></span> <span data-ttu-id="8d0ca-106">Na versão anterior do produto, os troncos foram usados para rotear chamadas de saída de um Servidor de Mediação para um gateway PSTN e cada gateway estava limitado a um único tronco.</span><span class="sxs-lookup"><span data-stu-id="8d0ca-106">In previous version of the product, trunks were used to route outbound calls from a Mediation Server to a PSTN gateway and each gateway was limited to a single trunk.</span></span> <span data-ttu-id="8d0ca-107">Como resultado, um gateway PSTN e um tronco SIP eram essencialmente idênticos.</span><span class="sxs-lookup"><span data-stu-id="8d0ca-107">As a result, a PSTN gateway and a SIP trunk were essentially identical.</span></span> <span data-ttu-id="8d0ca-108">Para os administradores, isso significava que seria possível exibir informações sobre um tronco SIP individual simplesmente exibindo informações sobre o gateway PSTN associado.</span><span class="sxs-lookup"><span data-stu-id="8d0ca-108">For administrators, that meant they could view information about an individual SIP trunk simply by viewing information about the associated PSTN gateway.</span></span>
+<span data-ttu-id="befc4-105">Os troncos SIP são usados para conectar a rede de telefone de voz do Skype for Business Server à rede telefônica pública comutada (PSTN).</span><span class="sxs-lookup"><span data-stu-id="befc4-105">SIP trunks are used to connect Skype for Business Server Voice over IP phone network with the Public Switched Telephone Network (PSTN).</span></span> <span data-ttu-id="befc4-106">Na versão anterior do produto, os troncos foram usados para rotear chamadas de saída de um Servidor de Mediação para um gateway PSTN e cada gateway estava limitado a um único tronco.</span><span class="sxs-lookup"><span data-stu-id="befc4-106">In previous version of the product, trunks were used to route outbound calls from a Mediation Server to a PSTN gateway and each gateway was limited to a single trunk.</span></span> <span data-ttu-id="befc4-107">Como resultado, um gateway PSTN e um tronco SIP eram essencialmente idênticos.</span><span class="sxs-lookup"><span data-stu-id="befc4-107">As a result, a PSTN gateway and a SIP trunk were essentially identical.</span></span> <span data-ttu-id="befc4-108">Para os administradores, isso significava que seria possível exibir informações sobre um tronco SIP individual simplesmente exibindo informações sobre o gateway PSTN associado.</span><span class="sxs-lookup"><span data-stu-id="befc4-108">For administrators, that meant they could view information about an individual SIP trunk simply by viewing information about the associated PSTN gateway.</span></span>
   
-<span data-ttu-id="8d0ca-109">No entanto, no Skype for Business Server, vários troncos agora podem ser atribuídos a um único gateway PSTN; Isso significa que os gateways e troncos não são mais um e iguais.</span><span class="sxs-lookup"><span data-stu-id="8d0ca-109">In Skype for Business Server, however, multiple trunks can now be assigned to a single PSTN gateway; this means that gateways and trunks are no longer one and the same.</span></span> <span data-ttu-id="8d0ca-110">Por outro lado, isso significa que os administradores devem usar o novo cmdlet [Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/get-cstrunk?view=skype-ps) para exibir informações sobre um tronco SIP individual.</span><span class="sxs-lookup"><span data-stu-id="8d0ca-110">In turn, that means that administrators must use the new [Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/get-cstrunk?view=skype-ps) cmdlet in order to view information about an individual SIP trunk.</span></span>
+<span data-ttu-id="befc4-109">No entanto, no Skype for Business Server, vários troncos agora podem ser atribuídos a um único gateway PSTN; Isso significa que os gateways e troncos não são mais um e iguais.</span><span class="sxs-lookup"><span data-stu-id="befc4-109">In Skype for Business Server, however, multiple trunks can now be assigned to a single PSTN gateway; this means that gateways and trunks are no longer one and the same.</span></span> <span data-ttu-id="befc4-110">Por outro lado, isso significa que os administradores devem usar o novo cmdlet [Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/get-cstrunk?view=skype-ps) para exibir informações sobre um tronco SIP individual.</span><span class="sxs-lookup"><span data-stu-id="befc4-110">In turn, that means that administrators must use the new [Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/get-cstrunk?view=skype-ps) cmdlet in order to view information about an individual SIP trunk.</span></span>
   
-### <a name="to-view-information-for-all-your-sip-trunks"></a><span data-ttu-id="8d0ca-111">Para visualizar as informações de todos os seus troncos SIP</span><span class="sxs-lookup"><span data-stu-id="8d0ca-111">To view information for all your SIP trunks</span></span>
+### <a name="to-view-information-for-all-your-sip-trunks"></a><span data-ttu-id="befc4-111">Para visualizar as informações de todos os seus troncos SIP</span><span class="sxs-lookup"><span data-stu-id="befc4-111">To view information for all your SIP trunks</span></span>
 
-- <span data-ttu-id="8d0ca-112">O seguinte comando retorna informações sobre todos os troncos SIP usados em sua organização:</span><span class="sxs-lookup"><span data-stu-id="8d0ca-112">The following command returns information about all the SIP trunks in use in your organization:</span></span>
+- <span data-ttu-id="befc4-112">O seguinte comando retorna informações sobre todos os troncos SIP usados em sua organização:</span><span class="sxs-lookup"><span data-stu-id="befc4-112">The following command returns information about all the SIP trunks in use in your organization:</span></span>
     
-  ```
+  ```powershell
   Get-CsTrunk
   ```
 
-### <a name="to-view-information-for-a-specific-sip-trunk"></a><span data-ttu-id="8d0ca-113">Para visualizar as informações de um tronco SIP específico</span><span class="sxs-lookup"><span data-stu-id="8d0ca-113">To view information for a specific SIP trunk</span></span>
+### <a name="to-view-information-for-a-specific-sip-trunk"></a><span data-ttu-id="befc4-113">Para visualizar as informações de um tronco SIP específico</span><span class="sxs-lookup"><span data-stu-id="befc4-113">To view information for a specific SIP trunk</span></span>
 
-- <span data-ttu-id="8d0ca-114">Este comando retorna informações somente para o tronco SIP com a Identidade PstnGateway:192.168.0.240:</span><span class="sxs-lookup"><span data-stu-id="8d0ca-114">This command returns information only for the SIP trunk with the Identity PstnGateway:192.168.0.240:</span></span>
+- <span data-ttu-id="befc4-114">Este comando retorna informações somente para o tronco SIP com a Identidade PstnGateway:192.168.0.240:</span><span class="sxs-lookup"><span data-stu-id="befc4-114">This command returns information only for the SIP trunk with the Identity PstnGateway:192.168.0.240:</span></span>
     
-  ```
+  ```powershell
   Get-CsTrunk -Identity "PstnGateway:192.168.0.240"
   ```
 
-### <a name="view-information-for-all-the-sip-trunks-assigned-to-a-pool"></a><span data-ttu-id="8d0ca-115">Exibir informações de todos os troncos SIP atribuídos a um pool</span><span class="sxs-lookup"><span data-stu-id="8d0ca-115">View information for all the SIP trunks assigned to a pool</span></span>
+### <a name="view-information-for-all-the-sip-trunks-assigned-to-a-pool"></a><span data-ttu-id="befc4-115">Exibir informações de todos os troncos SIP atribuídos a um pool</span><span class="sxs-lookup"><span data-stu-id="befc4-115">View information for all the SIP trunks assigned to a pool</span></span>
 
-- <span data-ttu-id="8d0ca-116">Neste exemplo, as informações são retornadas para todos os troncos SIP atribuídos ao pool atl-cs-001.litwareinc.com:</span><span class="sxs-lookup"><span data-stu-id="8d0ca-116">In this example, information is returned for all the SIP trunks assigned to the pool atl-cs-001.litwareinc.com:</span></span>
+- <span data-ttu-id="befc4-116">Neste exemplo, as informações são retornadas para todos os troncos SIP atribuídos ao pool atl-cs-001.litwareinc.com:</span><span class="sxs-lookup"><span data-stu-id="befc4-116">In this example, information is returned for all the SIP trunks assigned to the pool atl-cs-001.litwareinc.com:</span></span>
     
-  ```
+  ```powershell
   Get-CsTrunk -PoolFqdn "atl-cs-001.litwareinc.com"
   ```
