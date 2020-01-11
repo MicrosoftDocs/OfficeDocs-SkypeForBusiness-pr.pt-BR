@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a621c4e1cfcf9e485b68fd96a76d9179cef84a48
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: a1e8e74924bac23e2f8067fa5aa4d83a214b63d7
+ms.sourcegitcommit: f238d70aa34cded327ed252b0eb2704cc7f8f5c5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952594"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "41023385"
 ---
 # <a name="install-microsoft-teams-using-msi"></a>Instalar o Microsoft Teams usando MSI
 
@@ -81,14 +81,21 @@ Se um usuário desinstalar o Teams do seu perfil de usuário, o instalador do MS
 > [!TIP]
 > Você pode usar nosso script de [Limpeza de implantação do Microsoft Teams](scripts/Powershell-script-teams-deployment-clean-up.md) para concluir as etapas 1 e 2 via SCCM.
 
-## <a name="disable-auto-launch-for-the-msi-installer"></a>Desabilitar o início automático do instalador MSI
+## <a name="prevent-teams-from-starting-automatically-after-installation"></a>Impedir que o Microsoft Teams inicie automaticamente após a instalação
 
-O comportamento padrão do MSI é instalar o cliente do Teams assim que um usuário entrar e iniciá-lo automaticamente. Você pode modificar esse comportamento com os parâmetros abaixo desta maneira:
+O comportamento padrão do MSI é instalar o aplicativo Teams assim que um usuário entrar e iniciar automaticamente o Microsoft Teams. Se não quiser que as equipes iniciem automaticamente para os usuários após a instalação, você pode usar a política de grupo para definir uma configuração de política ou desabilitar o início automático para o instalador MSI.
 
-- Quando um usuário fizer logon no Windows, as equipes serão instaladas com o MSI
-- No entanto, o cliente do Teams não será iniciado até que o usuário o tenha iniciado manualmente
-- Um atalho para iniciar o Teams será adicionado à área de trabalho do usuário
-- Uma vez iniciado manualmente, o Teams será iniciado automaticamente sempre que o usuário fizer logon
+#### <a name="use-group-policy-recommended"></a>Usar política de grupo (recomendado)
+
+Habilite a configuração **impedir que o Microsoft Teams seja iniciado automaticamente após a instalação** da política de grupo. Você pode encontrar essa configuração de política nas equipes do usuário Templates\Microsoft de configuração do usuário. Esse é o método recomendado porque você pode desativar ou ativar a configuração de política de acordo com as necessidades da sua organização.
+
+Quando você habilitar essa configuração de política antes de instalar o Microsoft Teams, o Teams não iniciará automaticamente quando os usuários fizerem logon no Windows. Após o usuário entrar no Microsoft Teams pela primeira vez, o Teams é iniciado automaticamente na próxima vez que o usuário faz logon.
+
+Para saber mais, consulte [usar a política de grupo para impedir que o Microsoft Teams inicie automaticamente após a instalação](https://docs.microsoft.com/deployoffice/teams-install#use-group-policy-to-prevent-microsoft-teams-from-starting-automatically-after-installation).
+
+### <a name="disable-auto-launch-for-the-msi-installer"></a>Desabilitar o início automático do instalador MSI
+
+Você pode desabilitar o início automático para o instalador MSI usando o parâmetro **Options = "noAutoStart = true"** da seguinte maneira.  
 
 Para a versão de 32 bits
 ```PowerShell
@@ -99,5 +106,7 @@ Para a versão de 64 bits
 msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
 ```
 
+Quando um usuário faz logon no Windows, o Microsoft Teams é instalado com o MSI e um atalho para iniciar o Teams é adicionado à área de trabalho do usuário. O Microsoft Teams não começará até que o usuário inicie manualmente o Teams. Após o usuário iniciar manualmente o Teams, o Teams é iniciado automaticamente sempre que o usuário faz logon.
+
 > [!Note]
-> Se executar o MSI manualmente, certifique-se de executá-lo com permissões elevadas. Mesmo que você o execute como administrador, se isso não for feito com permissões elevadas, o instalador não poderá configurar a opção para desabilitar o início automático.
+> Se executar o MSI manualmente, certifique-se de executá-lo com permissões elevadas. Mesmo que você o execute como administrador, sem executá-lo com permissões elevadas, o instalador não poderá configurar a opção de desabilitar o início automático.
