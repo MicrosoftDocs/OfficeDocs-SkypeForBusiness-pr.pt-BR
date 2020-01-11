@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c8712308-0e2d-4e39-8f90-d1a250487a94
 description: 'Resumo: saiba como testar as configurações de configuração de tronco SIP usando o Shell de gerenciamento do Skype for Business Server.'
-ms.openlocfilehash: 1ef034f0b1de187e472fc3049573e9453e5a9505
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7f0d4f4046a5bffbde4267b5de8ae651a35a2add
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240105"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001971"
 ---
 # <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Testar as configurações de tronco SIP no Skype for Business Server
  
@@ -41,7 +41,7 @@ As definições de configuração de tronco podem ser testadas apenas usando o W
 
 - Este comando verifica se as definições de configuração para o local Redmond podem converter corretamente o número discado 4255551212.
     
-  ```
+  ```powershell
   $trunk = Get-CsTrunkConfiguration -Identity "site:Redmond"
   Test-CsTrunkConfiguration -DialedNumber 4255551212 -TrunkConfiguration $trunk
   ```

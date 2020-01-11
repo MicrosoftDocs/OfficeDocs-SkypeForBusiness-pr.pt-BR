@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 'Crie ou modifique regiões de rede, sites de rede e associe sub-redes de rede no Skype for Business Server. Todas elas são usadas para os recursos avançados de voz empresarial: bypass de mídia, controle de admissão de chamadas e roteamento baseado em local.'
-ms.openlocfilehash: 237720373c78bcb4a3cb3ad0aed376f2dc136a71
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 90410338d13ae8109e4a090bade739add32846b6
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245407"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001931"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Implantar regiões de rede, sites e sub-redes no Skype for Business
 
@@ -45,13 +45,13 @@ No entanto, pode ser necessário modificar uma definição de região da rede ex
 
 2. Execute o cmdlet New-CsNetworkRegion para criar regiões da rede:
 
-   ```
+   ```powershell
    New-CsNetworkRegion -Identity <String> -CentralSite <String>
    ```
 
     Por exemplo:
 
-   ```
+   ```powershell
    New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
    ```
 
@@ -85,13 +85,13 @@ No entanto, pode ser necessário modificar uma definição de região da rede ex
 
 2. Execute o cmdlet Set-CsNetworkRegion para modificar uma região da rede existente:
 
-   ```
+   ```powershell
    Set-CsNetworkRegion -Identity <String> -CentralSite <String>
    ```
 
     Por exemplo:
 
-   ```
+   ```powershell
    Set-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "North American Region"
    ```
 
@@ -127,13 +127,13 @@ Se você já tiver criado sites de rede para um desses recursos, não precisará
 
 2. Execute o cmdlet do New-CsNetworkSite para criar sites da rede:
 
-   ```
+   ```powershell
    New-CsNetworkSite -NetworkSiteID <string>
    ```
 
     Por exemplo:
 
-   ```
+   ```powershell
    New-CsNetworkSite -NetworkSiteID Chicago -Description "Corporate headquarters"-NetworkRegionID NorthAmerica
    ```
 
@@ -180,13 +180,13 @@ Se você já tiver criado sites de rede para um desses recursos, não precisará
 
 2. Execute o cmdlet Set-CsNetworkSite para modificar os sites da rede:
 
-   ```
+   ```powershell
    Set-CsNetworkSite -Identity <string>
    ```
 
     Por exemplo:
 
-   ```
+   ```powershell
    Set-CsNetworkSite -Identity Albuquerque -NetworkRegionID NorthAmerica
    ```
 
@@ -228,13 +228,13 @@ Todos os endereços IP públicos configurados dos Servidores de Borda de Áudio/
 
 2. Execute o cmdlet  **New-CsNetworkSubnet** para associar uma sub-rede a um site da rede:
 
-   ```
+   ```powershell
    New-CsNetworkSubnet -SubnetID <String> -MaskBits <Int32> -NetworkSiteID <String>
    ```
 
     Por exemplo:
 
-   ```
+   ```powershell
    New-CsNetworkSubnet -SubnetID 172.11.12.13 - MaskBits 20 -NetworkSiteID Chicago
    ```
 
@@ -260,7 +260,7 @@ Todos os endereços IP públicos configurados dos Servidores de Borda de Áudio/
 
 3. Execute o cmdlet a seguir para importar o **subnet. csv**e, em seguida, armazenar seu conteúdo na loja de gerenciamento do Lync Server:
 
-   ```
+   ```powershell
    import-csv subnet.csv | foreach {New-CsNetworkSubnet -Identity $_.IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}
    ```
 

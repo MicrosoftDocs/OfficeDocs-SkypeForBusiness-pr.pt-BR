@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Saiba como preparar seu aparelho do Cloud Connector para implantação e uso com o sistema telefônico no Office 365 (Cloud PBX).
-ms.openlocfilehash: f2140eb0be25ba0b6935f389e5ae7b27bfc37359
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 779cb53dd19d627d8864da65e3e41f5d6dabee99
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286996"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001941"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Preparar o dispositivo do Cloud Connector
 
@@ -54,7 +54,7 @@ Esta seção descreve como obter os arquivos de instalação do Skype for Busin
 
 1. Abra um console do PowerShell como administrador e confirme se os cmdlets do Skype for Business Cloud Connector Edition estão disponíveis usando o seguinte cmdlet:
 
-   ```
+   ```powershell
    Get-Command *-Cc*
    ```
 
@@ -64,7 +64,7 @@ Esta seção descreve como obter os arquivos de instalação do Skype for Busin
 
     Você pode localizar o **Diretório de Sites** com o seguinte cmdlet:
 
-   ```
+   ```powershell
    Get-CcSiteDirectory
    ```
 
@@ -78,7 +78,7 @@ Esta seção descreve como obter os arquivos de instalação do Skype for Busin
 
      Para definir o **Diretório de Sites** para um local diferente do padrão, execute o seguinte cmdlet:
 
-   ```
+   ```powershell
    Set-CcSiteDirectory <UNC File path>
    ```
 
@@ -90,13 +90,13 @@ Esta seção descreve como obter os arquivos de instalação do Skype for Busin
 
     Você pode localizar o **Diretório de Sites** executando o seguinte cmdlet:
 
-   ```
+   ```powershell
    Get-CcApplianceDirectory
    ```
 
     Para definir o **Diretório de Dispositivos** para um local diferente do padrão, execute o seguinte cmdlet:
 
-   ```
+   ```powershell
    Set-CcApplianceDirectory <File path>
    ```
 
@@ -109,7 +109,7 @@ Esta seção descreve como obter os arquivos de instalação do Skype for Busin
 
 - Execute o cmdlet a seguir para definir o caminho do certificado externo de Borda, incluindo o nome do arquivo. Por exemplo: C:\certs\cce\ap.contoso.com.pfx. O certificado deve conter chaves privadas.
 
-  ```
+  ```powershell
   Set-CcExternalCertificateFilePath -Path <Full path to External certificate, including file name> -Target EdgeServer
   ```
 
@@ -125,7 +125,7 @@ Esta seção descreve como obter os arquivos de instalação do Skype for Busin
 
 Se você estiver usando o TLS entre o Servidor de Mediação e o gateway PSTN/SBC, execute o seguinte cmdlet para definir o caminho, incluindo o nome do arquivo, para o certificado de gateway. Por exemplo: C:\certs\cce\sbc.contoso.com.cer. O certificado deve conter a Autoridade de Certificação raiz e a cadeia intermediária para o certificado atribuído ao gateway:
 
-```
+```powershell
 Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, including file name> -Target MediationServer 
 ```
 
@@ -154,7 +154,7 @@ Prepare o arquivo CloudConnector. ini usando as informações coletadas em [dete
 
 Para atualizar o arquivo, execute o seguinte cmdlet para obter o modelo (CloudConnector.Sample.ini):
 
-```
+```powershell
 Export-CcConfigurationSampleFile
 ```
 
@@ -227,7 +227,7 @@ Ao atualizar o arquivo .ini, considere o seguinte:
 
 Execute o seguinte cmdlet para baixar os bits e os arquivos de informações de versão para o **Diretório de Sites**:
 
-```
+```powershell
 Start-CcDownload
 ```
 
@@ -255,7 +255,7 @@ Antes de continuar com esta etapa, verifique se o comutador corpnet foi criado. 
 
 Inicie um console do PowerShell como administrador e execute o seguinte cmdlet para converter a imagem ISO em um VHD:
 
-```
+```powershell
 Convert-CcIsoToVhdx -IsoFilePath <Windows ISO File Path, including file name>
 ```
 
@@ -278,13 +278,13 @@ Se você estiver fazendo uma implantação de vários sites, não será necessá
 
 Os scripts do PowerShell fornecidos exigem que a política de execução seja definida como RemoteSigned. Para ver a configuração atual, abra um console do PowerShell como administrador e execute o seguinte cmdlet:
 
-```
+```powershell
 Get-ExecutionPolicy
 ```
 
 Caso ela não esteja definida como "RemoteSigned”, execute o seguinte cmdlet para alterá-la:
 
-```
+```powershell
 Set-ExecutionPolicy RemoteSigned
 ```
 
