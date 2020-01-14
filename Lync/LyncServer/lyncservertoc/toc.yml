@@ -440,7 +440,7 @@
                 - name: Configurando o envio de logs do SQL Server ao banco de dados primário do servidor de chat persistente
                   href: ../lync-server-2013-setting-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database.md
                 - name: Configuração do Envio de Logs do Servidor SQL entre o espelho primário e o banco de dados secundário de Envio de Logs
-                  href: ../lync-server-2013-setting-up-sql-server-log-shipping-between-the-primary-mirror-and-the-log-shipping-secondary-database.md
+                  href: ../lync-server-2013-set-up-log-shipping-secondary-database.md
             - name: Resiliência de site metropolitano no Lync Server 2010
               href: ../lync-server-2013-compatibility-with-lync-server-2010-metropolitan-site-resiliency.md
         - name: Planejando a capacidade de gerenciamento e a virtualização
@@ -610,7 +610,7 @@
                   href: ../lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md
                   items:
                     - name: 'Resumo de certificado - borda consolidada em escala, balanceamento de carga de DNS com endereços IP privados usando NAT'
-                      href: ../lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md
+                      href: ../lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-private-ip.md
                     - name: 'Resumo de porta - borda consolidada em escala, balanceamento de carga de DNS com endereços IP privados usando NAT'
                       href: ../lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md
                     - name: 'Resumo de DNS - borda consolidada dimensionada, balanceamento de carga DNS com endereços IP privados usando NAT'
@@ -3029,7 +3029,7 @@
                 - name: Remover BackCompatSite
                   href: ../remove-backcompatsite.md
         - name: 'Migração do Lync Server 2010, Chat em Grupo ou Office Communications Server 2007 R2 Group Chat para Lync Server 2013, Servidor de Chat Persistente'
-          href: ../migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md
+          href: ../migrate-to-lync-server-2013-persistent-chat-server.md
           items:
             - name: Cenário de migração padrão - nível alto
               href: ../standard-migration-scenario-high-level.md
@@ -3959,9 +3959,9 @@
               href: ../lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md
               items:
                 - name: Criar uma política de arquivamento para habilitar ou desabilitar o arquivamento de comunicações internas ou externas para sites ou usuários específicos
-                  href: ../lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md
+                  href: ../lync-server-2013-create-archiving-policy-sites-users.md
                 - name: 'Alterar uma política de arquivamento para habilitar ou desabilitar o arquivamento de comunicações internas ou externas para sua organização, sites ou usuários'
-                  href: ../lync-server-2013-changing-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-your-organization-sites-or-us.md
+                  href: ../lync-server-2013-change-archiving-policy-org-sites-users.md
                 - name: Aplicação de uma política de arquivamento aos usuários
                   href: ../lync-server-2013-applying-an-archiving-policy-to-users.md
                 - name: Configurar políticas para arquivamento ao usar a integração com o Exchange Server
@@ -3978,7 +3978,7 @@
                 - name: Habilitar ou desabilitar a eliminação de dados arquivados
                   href: ../lync-server-2013-enabling-or-disabling-the-purging-of-archived-data.md
                 - name: Habilitando ou desabilitando o modo crítico para bloquear ou permitir mensagens instantâneas e conferências de Web em caso de falha no arquivamento
-                  href: ../lync-server-2013-enabling-or-disabling-critical-mode-to-block-or-allow-im-and-web-conferencing-sessions-if-archiving-fails.md
+                  href: ../lync-server-2013-enable-disable-critical-mode.md
                 - name: Habilitar ou desabilitar o envio de um aviso de isenção de responsabilidade de Arquivamento a parceiros federados
                   href: ../lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md
                 - name: Habilitando ou desabilitando a integração com o armazenamento do Exchange

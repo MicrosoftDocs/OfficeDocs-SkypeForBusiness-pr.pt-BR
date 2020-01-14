@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Saiba como configurar o roteamento direto do sistema de telefonia da Microsoft.
-ms.openlocfilehash: 7a3cd61c3b92482fd402b58734b2af720c21cf3a
-ms.sourcegitcommit: f238d70aa34cded327ed252b0eb2704cc7f8f5c5
+ms.openlocfilehash: 40439fd31db458f8cb306c0e3dbd456aa59a7a21
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "41023415"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111725"
 ---
 # <a name="configure-direct-routing"></a>Configurar o Roteamento Direto
 
@@ -453,7 +453,7 @@ A tabela a seguir resume as designações de uso de política de roteamento "sem
 
 #### <a name="example-of-voice-routing-policy-for-user-john-woods"></a>Exemplo de política de roteamento de voz para usuário John Woods
 
-As etapas para criar o uso de PSTN "internacional", a rota de voz "internacional", a política de roteamento de voz "sem restrições" e, em seguida, atribuí-lo ao usuário "John Woods" são as seguintes.
+As etapas para criar o uso de PSTN "internacional", a rota de voz "internacional", a política de roteamento de voz "sem restrições" e, em seguida, atribuí-lo ao usuário "John Woods" são as seguintes.   
 
 
 **Etapa 1**: criar o uso de PSTN "internacional". 

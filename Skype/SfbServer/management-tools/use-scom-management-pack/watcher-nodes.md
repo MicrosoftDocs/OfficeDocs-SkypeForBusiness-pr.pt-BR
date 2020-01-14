@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 'Resumo: instalar e configurar nós do inspetor para transações sintéticas do Skype for Business Server.'
-ms.openlocfilehash: 7711c7c2009149fc6dd49ed34b4c55312cb7417a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 8c7ea0465d9a53bd8972c823ef7bfc7d7ee9b4bc
+ms.sourcegitcommit: 208179a3dd166f53b5a3058242cb84207909f4ee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992438"
+ms.lasthandoff: 01/13/2020
+ms.locfileid: "41104480"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>Instalar e configurar nós do inspetor
  
@@ -192,7 +192,7 @@ Quando o comando estiver concluído e o aplicativo confiável for criado, você 
 Enable-CsTopology
 ```
 
-Após executar o Enable-CsTopology, reinicie o computador.
+A conta de computador do nó do Inspetor requer a capacidade de consultar o CMS para algumas transações sintéticas. Para permitir esse recurso, adicione a conta de computador do nó do Inspetor ao grupo de segurança RTCUniversalReadOnlyAdmins. Após a duplicação do anúncio, reinicie o computador.
   
 Para verificar se o novo aplicativo confiável foi criado, digite o seguinte no prompt do Shell de gerenciamento do Skype for Business Server:
   

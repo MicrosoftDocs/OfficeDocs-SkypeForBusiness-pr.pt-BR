@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1e8e74924bac23e2f8067fa5aa4d83a214b63d7
-ms.sourcegitcommit: f238d70aa34cded327ed252b0eb2704cc7f8f5c5
+ms.openlocfilehash: d4a14876f359b2742a04461671ccaefd523ef3f1
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "41023385"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111535"
 ---
 # <a name="install-microsoft-teams-using-msi"></a>Instalar o Microsoft Teams usando MSI
 
@@ -64,6 +64,7 @@ Não use o MSI para implantar atualizações, pois o cliente atualizará automat
 
 - .NET framework 4.5 ou posterior
 - Windows 7 ou posterior
+- Windows Server 2012 R2 ou posterior
 - 3 GB de espaço em disco para cada perfil de usuário (recomendado)
 
 ### <a name="vdi-installation"></a>Instalação da VDI

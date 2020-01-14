@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Resumo: Prepare seus servidores do Skype for Business Server 2019 e a infraestrutura de domínio com este tópico. Hardware, sistema operacional, bancos de dados, software, todos os requisitos de sistema e recomendações, juntamente com o DNS de certificado, o compartilhamento de arquivos e as informações do Active Directory, estão aqui para ajudar a garantir uma instalação e implantação bem-sucedidas do seu farm de servidores.'
-ms.openlocfilehash: 41faef4d02927e25e724b0c70922bdc6c5c3e05a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: ea4ae18a3714058e0df4f42a0190046ce7006ef8
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40988806"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111375"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Requisitos do sistema para o Skype for Business Server 2019
  
@@ -92,7 +92,7 @@ Depois de instalar o hardware, você precisará do sistema operacional de instal
 |Windows Server 2016 <br/> ||
 ||
    
-Qualquer coisa diferente dos sistemas operacionais listados aqui não funcionará corretamente; Não experimente instalar o Skype for Business Server 2019. Por exemplo, a opção de núcleo do servidor não está listada e, portanto, não é suportada.
+Qualquer coisa diferente dos sistemas operacionais listados aqui não funcionará corretamente; Não experimente instalar o Skype for Business Server 2019. Por exemplo, a opção de núcleo do servidor não está listada e, portanto, não é suportada.  Observação: a atualização in-loco do sistema operacional não é compatível com o Lync Server 2013.  Você deve implantar um pool separado e migrar usuários para o novo pool com um sistema operacional de diferença.
 
 > [!NOTE]
 > 
@@ -115,7 +115,7 @@ Há algumas coisas que você precisará instalar ou configurar para qualquer ser
 |**Software/função**|**Detalhes**|
 |:-----|:-----|
 |Windows PowerShell 3.0  <br/> |Todos os servidores do Skype for Business precisam ter o Windows PowerShell 3,0 instalado.  <br/> • Isso deve ser instalado por padrão com o Windows Server 2016.<br/> |
-|Microsoft .NET Framework  <br/> |Os serviços do WCF são um **recurso** que é instalado como um recurso do Windows, no **Gerenciador de servidores**, inicialmente não há necessidade de downloads. <br/> • Você precisa ter certeza de que, ao instalar esse recurso, ou se ele já estiver instalado e você estiver verificando, se a opção de **ativação http** também está marcada e instalada, assim: <br/> ![Captura de tela mostrando a opção de ativação HTTP nos recursos do .NET Framework 4,5.](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> Não se preocupe se você tiver uma janela pop up adicional dizendo que outras devem ser instaladas para que a Ativação HTTP seja instalada. Isso é normal; clique em OK e vá em frente. Se você não receber esse pop-up, poderá pressupor que essas coisas já estejam instaladas e prosseguir.  <br/> O Microsoft .NET Framework geralmente é instalado quando o Windows Server 2016 está instalado. No entanto, o Skype for Business Server requer o Microsoft .NET Framework 4,7 ou 4,8 para que você provavelmente precise atualizá-lo. Você pode encontrar a atualização [aqui](https://support.microsoft.com/en-us/help/3186497/the-net-framework-4-7-offline-installer-for-windows/)<br/> |
+|Microsoft .NET Framework  <br/> |Os serviços do WCF são um **recurso** que é instalado como um recurso do Windows, no **Gerenciador de servidores**, inicialmente não há necessidade de downloads. <br/> • Você precisa ter certeza de que, ao instalar esse recurso, ou se ele já estiver instalado e você estiver verificando, se a opção de **ativação http** também está marcada e instalada, assim: <br/> ![Captura de tela mostrando a opção de ativação HTTP nos recursos do .NET Framework 4,5.](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> Não se preocupe se você tiver uma janela pop up adicional dizendo que outras devem ser instaladas para que a Ativação HTTP seja instalada. Isso é normal; clique em OK e vá em frente. Se você não receber esse pop-up, poderá pressupor que essas coisas já estejam instaladas e prosseguir.  <br/> O Microsoft .NET Framework geralmente é instalado quando o Windows Server 2016 está instalado. No entanto, o Skype for Business Server requer o Microsoft .NET Framework 4,7 ou 4,8 para que você provavelmente precise atualizá-lo. Você pode encontrar a atualização [aqui](https://support.microsoft.com/help/3186497/the-net-framework-4-7-offline-installer-for-windows/)<br/> |
 |Media Foundation  <br/> |Para o Windows Server 2016, o tempo de execução do Windows Media Format é instalado com o Microsoft Media Foundation.  <br/> Todos os servidores de front-end e servidores de edição padrão usados para a conferência exigem o tempo de execução do Windows Media Format para executar os arquivos de áudio do Windows Media (. WMA) que os aplicativos do parque, do anúncio e do grupo de resposta da chamada são reproduzidos para anúncios e músicas.  <br/> |
 |Windows Identity Foundation  <br/> |Precisamos do Windows Identity Foundation 3,5 para dar suporte a cenários de autenticação de servidor para servidor para o Skype for Business Server 2019.  <br/> • Para Windows Server 2016, não é necessário baixar nada. Abra o **Gerenciador do Servidor** e vá para o **Assistente de Adição de Funções e Recursos**. O **Windows Identity Foundation 3.5** está listado na seção **Recursos**. Se estiver selecionado, você está bom. Caso contrário, selecione-o e clique em **Avançar** para acessar o botão **instalar** . <br/> |
 |AD DS and AD LDS ToolsFerramentas de Administração de Servidor Remoto  <br/> |Ferramentas de Administração de Funções: ferramentas do AD DS e AD LDS  <br/> |
@@ -273,7 +273,7 @@ O nível funcional do domínio de qualquer domínio no qual você implanta o Sky
     
 É possível ter controladores de domínio somente leitura nesses ambientes? Não se esqueça de que, desde que haja também controladores de domínio graváveis disponíveis.
   
-É importante saber que o Skype for Business Server 2019 não é compatível com domínios de rótulo único. O que são esses domínios? Se você tiver um domínio raiz chamado contoso. local, isso vai funcionar bem. Se você tiver um domínio raiz chamado de local, isso não funcionará, e isso não será compatível como resultado. Um pouco mais sobre isso foi escrito neste [artigo da base de dados de conhecimento](https://support.microsoft.com/kb/300684/en-us).
+É importante saber que o Skype for Business Server 2019 não é compatível com domínios de rótulo único. O que são esses domínios? Se você tiver um domínio raiz chamado contoso. local, isso vai funcionar bem. Se você tiver um domínio raiz chamado de local, isso não funcionará, e isso não será compatível como resultado. Um pouco mais sobre isso foi escrito neste [artigo da base de dados de conhecimento](https://support.microsoft.com/kb/300684/).
   
 O Skype for Business Server 2019 também não permite a renomeação de domínios. Se você realmente precisa renomear seu domínio, será necessário desinstalar o Skype for Business Server 2019, fazer a renomeação do domínio e, em seguida, reinstalar o Skype for Business Server 2019.
   
@@ -541,7 +541,7 @@ Este SAN precisa ser atribuído ao certificado que, por sua vez, é atribuído a
 
 O Skype for Business Server 2019 pode usar o mesmo compartilhamento de arquivo para todo o armazenamento de arquivos. Deve-se ter em mente:
   
-- Um compartilhamento de arquivo precisa estar em um armazenamento anexado direto (DAS) ou em uma rede de área de armazenamento (SAN), e isso inclui o sistema de arquivos distribuído (DFS), bem como uma matriz redundante de RAID para repositórios de arquivos. Para ler mais sobre o DFS para Windows Server 2012, confira [esta página DFS](https://technet.microsoft.com/en-us/library/jj127250.aspx).
+- Um compartilhamento de arquivo precisa estar em um armazenamento anexado direto (DAS) ou em uma rede de área de armazenamento (SAN), e isso inclui o sistema de arquivos distribuído (DFS), bem como uma matriz redundante de RAID para repositórios de arquivos. Para ler mais sobre o DFS para Windows Server 2012, confira [esta página DFS](https://technet.microsoft.com/library/jj127250.aspx).
     
 - Recomendamos um cluster compartilhado para o compartilhamento de arquivo. Se já estiver usando uma, você deverá usar um cluster do Windows Server 2012 ou versões mais recentes
 

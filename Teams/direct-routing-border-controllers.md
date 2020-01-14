@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: A Microsoft faz parceria com fornecedores selecionados de SBC (controlador de borda da sessão) para garantir que seus SBCs sejam compatíveis com o Roteamento Direto.
-ms.openlocfilehash: 6953828ce3b97598a0173bc344bf7d43d7fe8097
-ms.sourcegitcommit: 9eaa314a9e81a2a56686c035ba0292256ccb2bf5
+ms.openlocfilehash: 32ba55ec9cd7fb95c527d8cab16f18af7ef2fbb5
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "40995101"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111745"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borda da sessão certificados para Roteamento Direto
 
@@ -50,11 +50,11 @@ A tabela a seguir lista os dispositivos certificados para Roteamento Direto.
 |                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   Pendente     |  7.20 a. 250  |    |    |    
 |                                                                                                                     | Mamédia 9000 SBC  |     &#10004;     |   &#10004;     |  7.20 a. 250   |    |    |                                                                       
 |                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  7.20 a. 250 |    |    |    
-|  [Comunicações da faixa de opções](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V6.2       |  Inentrada ERS <br>Inentrada EGW |   Não |    
-|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V6.2       |   Inentrada ERS <br>Inentrada EGW  | Não   |    
-|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V6.2       |  Inentrada ERS <br>Inentrada EGW    |Não|    
-|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V6.2       |   Inentrada ERS <br>Inentrada EGW  |  Não  |    
-|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V6.2       |   Inentrada ERS <br>Inentrada EGW |   Não |    
+|  [Comunicações da faixa de opções](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V 7.2       |  Inentrada ERS <br>Inentrada EGW |   Não |    
+|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V 7.2       |   Inentrada ERS <br>Inentrada EGW  | Não   |    
+|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V 7.2       |  Inentrada ERS <br>Inentrada EGW    |Não|    
+|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V 7.2       |   Inentrada ERS <br>Inentrada EGW  |  Não  |    
+|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V 7.2       |   Inentrada ERS <br>Inentrada EGW |   Não |    
 |                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v8.0.1     |  Inentrada ERS <br>Inentrada EGW   |  Pendente  |    
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v8.0.1     |  Inentrada ERS <br>Inentrada EGW  |  Pendente  |    
 |                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      v8.0.1    |  Inentrada ERS <br>Inentrada EGW   |  Pendente  |    

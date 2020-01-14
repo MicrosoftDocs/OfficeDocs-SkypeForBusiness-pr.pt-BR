@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 TOCTitle: Assign a per-user archiving policy
 ms:assetid: a12ca483-b235-460f-b3fe-130fb3087264
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182560(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg182560(v=OCS.15)
 ms:contentKeyID: 48185014
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f82b2398002a1c2536c9a57b18f9276a9d138903
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 36d23e44e397a77f0d490d8fda27ee711d1c61c5
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836758"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111575"
 ---
 # <a name="assign-a-per-user-archiving-policy-in-lync-server-2013"></a>Atribuir uma política de arquivamento por usuário no Lync Server 2013
 
@@ -28,7 +28,7 @@ A implantação de uma ou mais políticas de arquivamento por usuário é opcion
 
 Depois de criar pelo menos uma política de arquivamento por usuário, use os procedimentos neste tópico para atribuir a política que especifica apropriadamente se as comunicações internas de um determinado usuário, as comunicações externas ou ambas, serão arquivadas pelo servidor.
 
-Para obter detalhes sobre como criar políticas de arquivamento por usuário, consulte [criando uma política de arquivamento no Lync Server 2013 para habilitar ou desabilitar o arquivamento de comunicações internas ou externas para sites ou usuários específicos](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md).
+Para obter detalhes sobre como criar políticas de arquivamento por usuário, consulte [criando uma política de arquivamento no Lync Server 2013 para habilitar ou desabilitar o arquivamento de comunicações internas ou externas para sites ou usuários específicos](lync-server-2013-create-archiving-policy-sites-users.md).
 
 ## <a name="to-assign-a-per-user-archiving-policy"></a>Para atribuir uma política de arquivamento por usuário
 
@@ -69,7 +69,7 @@ Para obter detalhes sobre como criar políticas de arquivamento por usuário, co
 
 
 
-7.  Em **atribuir políticas**, em **política**de arquivamento, siga um destes procedimentos:
+7.  Em **atribuir políticas**, em **política de arquivamento**, siga um destes procedimentos:
     
 
     > [!NOTE]  
@@ -78,7 +78,7 @@ Para obter detalhes sobre como criar políticas de arquivamento por usuário, co
     
       - Permitir que o Lync Server 2013 escolha automaticamente a política de nível global ou, se definida, a política de nível de site.
     
-      - Clique no nome de uma política de arquivamento por usuário definida anteriormente na página **política** de arquivamento.
+      - Clique no nome de uma política de arquivamento por usuário definida anteriormente na página **política de arquivamento** .
         
 
         > [!TIP]  
@@ -90,7 +90,7 @@ Para obter detalhes sobre como criar políticas de arquivamento por usuário, co
 
 ## <a name="assigning-a-per-user-archiving-policy-by-using-windows-powershell-cmdlets"></a>Atribuir uma política de arquivamento por usuário usando cmdlets do Windows PowerShell
 
-Você pode atribuir políticas de arquivamento por usuário usando o Windows PowerShell e o cmdlet **Grant-CsArchivingPolicy** . Você pode executar esse cmdlet a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.
+Você pode atribuir políticas de arquivamento por usuário usando o Windows PowerShell e o cmdlet **Grant-CsArchivingPolicy** . Você pode executar esse cmdlet a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.
 
 ## <a name="to-assign-a-per-user-archiving-policy-to-a-single-user"></a>Para atribuir uma política de arquivamento por usuário a um único usuário
 
@@ -100,7 +100,7 @@ Você pode atribuir políticas de arquivamento por usuário usando o Windows Pow
 
 ## <a name="to-assign-a-per-user-archiving-policy-to-multiple-users"></a>Para atribuir uma política de arquivamento por usuário a vários usuários
 
-  - Esse comando atribui a política de arquivamento por usuário RedmondArchivingPolicy a todos os usuários que têm contas hospedadas no pool de registradores atl-cs-001.litwareinc.com. Para obter mais informações sobre o parâmetro Filter usado neste comando, consulte a documentação do cmdlet [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) .
+  - Esse comando atribui a política de arquivamento por usuário RedmondArchivingPolicy a todos os usuários que têm contas hospedadas no pool de registradores atl-cs-001.litwareinc.com. Para obter mais informações sobre o parâmetro Filter usado neste comando, consulte a documentação do cmdlet [Get-CsUser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) .
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 
@@ -110,12 +110,12 @@ Você pode atribuir políticas de arquivamento por usuário usando o Windows Pow
     
         Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para obter mais informações, consulte o tópico da ajuda para o cmdlet [Grant-CsArchivingPolicy](https://technet.microsoft.com/en-us/library/gg398475\(v=ocs.15\)) .
+Para obter mais informações, consulte o tópico da ajuda para o cmdlet [Grant-CsArchivingPolicy](https://technet.microsoft.com/library/gg398475\(v=ocs.15\)) .
 
 ## <a name="see-also"></a>Confira também
 
 
-[Criar uma política de arquivamento no Lync Server 2013 para habilitar ou desabilitar o arquivamento de comunicações internas ou externas para sites ou usuários específicos](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md)  
+[Criar uma política de arquivamento no Lync Server 2013 para habilitar ou desabilitar o arquivamento de comunicações internas ou externas para sites ou usuários específicos](lync-server-2013-create-archiving-policy-sites-users.md)  
 
 
 [Como atribuir políticas por usuário no Lync Server 2013](lync-server-2013-assigning-per-user-policies.md)

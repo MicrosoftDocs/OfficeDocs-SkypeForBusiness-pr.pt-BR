@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Leia este tópico para obter informações sobre como implantar salas do Microsoft Teams com o Office 365.
-ms.openlocfilehash: 467a7300a2912dcaffe66a44f0f6e181d36ced1c
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: cda552fbc38196751ccdcc105bcf9973fe321edd
+ms.sourcegitcommit: 208179a3dd166f53b5a3058242cb84207909f4ee
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675435"
+ms.lasthandoff: 01/13/2020
+ms.locfileid: "41104470"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Implantar Salas do Microsoft Teams com o Office 365
 
@@ -205,7 +205,7 @@ Depois de concluir as etapas anteriores para habilitar sua conta de salas do Mic
 
 4. Clique na opção **Licenças**.
 
-5. Na seção **atribuir licenças** , você precisa selecionar o Skype for Business online (plano 2) ou o Skype for Business online (plano 3), dependendo do seu licenciamento e do que você decidiu em termos de necessidade do Enterprise Voice. Você terá que usar uma licença do plano 3 se quiser usar o Cloud PBX em salas do Microsoft Teams. O CloudPBX será necessário como requisito mínimo para habilitar a conectividade de voz. Em seguida, configure as chamadas PSTN ou de voz híbridas com base no método de conectividade PSTN. Consulte [licenças de salas do Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2) para obter mais detalhes.
+5. Na seção **atribuir licenças** , você precisa selecionar o Skype for Business online (plano 2) ou o Skype for Business online (plano 3), dependendo do seu licenciamento e do que você decidiu em termos de necessidade do Enterprise Voice. Você terá que usar uma licença do plano 3 se quiser usar o Cloud PBX em salas do Microsoft Teams. O CloudPBX será necessário como requisito mínimo para habilitar a conectividade de voz. Em seguida, configure as chamadas PSTN ou de voz híbridas com base no método de conectividade PSTN. Consulte [licenças de salas do Microsoft Teams](skype-room-systems-v2.md) para obter mais detalhes.
 
 6. Clique em **Salvar** para concluir a tarefa.
 
@@ -263,4 +263,4 @@ Para a validação, você deve ser capaz de usar qualquer cliente Skype for Busi
 
 [Gerenciar Salas do Microsoft Teams](skype-room-systems-v2.md)
 
-[Licenciamento de salas do Microsoft Teams](/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
+[Licenciamento de salas do Microsoft Teams](skype-room-systems-v2.md)
