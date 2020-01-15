@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Configurar chamadas de emergência dinâmicas
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d4480e875c37ba2c608c826bb648231c0f6fc23
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: b1a19a7f3459fb30f4f162c849e52be8f6ed07f4
+ms.sourcegitcommit: 842279933cc38931f025eebc028efc5094380d03
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992086"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "41122922"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planejar e configurar chamadas de emergência dinâmicas 
 
@@ -70,6 +70,8 @@ Os clientes a seguir têm suporte no momento.  Verifique com frequência para ve
 
 - Cliente de área de trabalho do teams para Windows
 - Cliente de área de trabalho do teams para Mac
+- Cliente do teams Mobile para IOS versão 1.0.92.2019121004 e versão 1.0.92 do App Store versão e posterior
+- Cliente do teams Mobile para cliente Android e para a loja versão 1416/1.0.0.2019121201 e posterior
 
 ## <a name="assign-emergency-addresses"></a>Atribuir endereços de emergência
 
