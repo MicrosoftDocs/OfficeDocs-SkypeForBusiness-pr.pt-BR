@@ -17,17 +17,19 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95f8910005121faceb261a399ed64a4f68e5cad4
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 56491fdde5dbd47e91f8c6f2386564b9e78160d3
+ms.sourcegitcommit: f742ad9ba61d6cc52a9ed6885d1f2893bcfad354
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40988796"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "41165611"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Visão geral de segurança e conformidade no Microsoft Teams
 ======================================================
 
 O Microsoft Teams está criado na nuvem empresarial de grande escala do Office 365, oferecendo os recursos avançados de segurança e conformidade que nossos clientes esperam.
+
+Para obter uma breve introdução (12:42 min) à segurança e à conformidade do Teams, Assista a este vídeo: [Microsoft Teams Essentials para ti: segurança e conformidade](https://youtu.be/91lHNKVVvQ4).
 
 O Teams é compatível com a camada D. Isso inclui as seguintes normas: ISO 27001, ISO 27018, SSAE16 SOC 1 e SOC 2, HIPAA e EU Model Clauses (EUMC). Dentro da estrutura de conformidade da Microsoft, a Microsoft classifica os aplicativos e serviços do Office 365 em quatro categorias. Cada categoria é definida por compromissos de conformidade específicos que devem ser atendidos por um serviço do Office 365 ou um serviço relacionado da Microsoft para que sejam listados naquela categoria.
 
