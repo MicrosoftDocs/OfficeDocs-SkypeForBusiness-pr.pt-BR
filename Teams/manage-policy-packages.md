@@ -16,12 +16,12 @@ f1keywords: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar e gerenciar pacotes de política no Microsoft Teams.
-ms.openlocfilehash: ecfc6ae6fb1bb4d9632b8cd04b35dcee6d63359d
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: 87fda86d1dbe09858c3850dc92ee5085666d8ba7
+ms.sourcegitcommit: 52d924e654909a2017ce42ba9d1b4bbc3efa9262
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38679820"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41205288"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Gerenciar pacotes de política no Microsoft Teams
 
@@ -37,19 +37,20 @@ Atualmente, o Microsoft Teams inclui os seguintes pacotes de política.
 
 |**Nome do pacote**  |**Descrição** |
 |---------|---------|
-|Pacote Education_Teacher     |Cria um conjunto de políticas e configurações de política que se aplicam a professores.      |
-|Pacote Education_PrimaryStudent    |Cria um conjunto de políticas e configurações de política que se aplicam a alunos principais.|
-|Pacote Education_SecondaryStudent    |Cria um conjunto de políticas e configurações de política que se aplicam a alunos secundários.         |
-|Pacote Education_HigherEducationStudent    |Cria um conjunto de políticas e configurações de política que se aplicam a alunos de ensino superior.|
-|Pacote SmallMediumBusiness_BusinessVoice    |Cria uma política de configuração de aplicativo que inclui os aplicativos para uma experiência de voz empresarial.|
+|Educação (aluno de ensino superior)    |Cria um conjunto de políticas e configurações de política que se aplicam a alunos de ensino superior.|
+|Educação (aluno da escola principal)   |Cria um conjunto de políticas e configurações de política que se aplicam a alunos principais.|
+|Educação (aluno escolar secundário)    |Cria um conjunto de políticas e configurações de política que se aplicam a alunos secundários.         |
+|Educação (professor)    |Cria um conjunto de políticas e configurações de política que se aplicam a professores.      |
+|Business Voice |Cria uma política de configuração de aplicativo que inclui os aplicativos para uma experiência de voz empresarial.|
+|Diretor de segurança pública   |Cria um conjunto de políticas e configurações de política que se aplicam a órgãos públicos de segurança em sua organização.|
 
 > [!NOTE]
 > Vamos adicionar mais pacotes de política em lançamentos futuros do Teams, portanto verifique as informações mais atualizadas.  
 
 Cada política individual recebe o nome do pacote de política para que você possa facilmente identificar as políticas que estão vinculadas a um pacote de política.
-Por exemplo, quando você atribui o pacote de política de Education_Teacher a professores em sua escola, uma política nomeada Education_Teacher é criada para cada política do pacote.
+Por exemplo, quando você atribui o pacote de política de formação educacional (professor) a professores em sua escola, uma política nomeada Education_Teacher é criada para cada política do pacote.
 
-![Captura de tela do pacote de política de Education_Teacher](media/policy-packages-education_teacher.png)
+![Captura de tela do pacote de política de educação (professor)](media/policy-packages-education_teacher.png)
 
 ## <a name="how-to-use-policy-packages"></a>Como usar pacotes de política
 
