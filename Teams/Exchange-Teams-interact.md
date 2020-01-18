@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7ca2b091cfe27c1e81d429ac95f085b52c8465d
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: 6c3f0b5c545f1a7e8900c01a79544079ea4fedcc
+ms.sourcegitcommit: bcac0d94f6eb7132fc17b0ace62e7028f77b0ee6
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40019965"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "41230311"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Como o Exchange e o Microsoft Teams interagem
 
@@ -43,8 +43,8 @@ A tabela a seguir fornece uma referência rápida útil para a disponibilidade d
 
 | A caixa de correio do usuário está hospedada em: | eDiscovery| Controle&nbsp;legal | Tention| Gerenciamento de canal e equipe |Criar e exibir reuniões no Microsoft Teams| Modificar fotos de perfil de usuário | Histórico de chamadas | Gerenciar contatos | Acessar contatos do Outlook | Caixa postal |Adicionar e configurar conectores|Adicionar e configurar guias|Adicionar e configurar bots| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|Sim <sup>2</sup>|Sim <sup>2</sup>|Sim|Sim |Sim |Sim |Sim |Sim |Sim |Sim |Sim |Sim |Sim|
-|**Exchange Online Dedicated vNext**|Sim <sup>2</sup>|Sim <sup>2</sup>|Sim|Sim |Sim |Sim |Sim |Sim |Sim |Sim |Sim |Sim |Sim|
+|**Exchange Online**|Sim <sup>2</sup>|Sim <sup>2</sup>|Sim|Sim |Sim |Sim |Sim |Sim|Sim <sup>7</sup>|Sim|Sim |Sim |Sim|
+|**Exchange Online Dedicated vNext**|Sim <sup>2</sup>|Sim <sup>2</sup>|Sim|Sim |Sim |Sim |Sim |Sim|Sim <sup>7</sup>|Sim|Sim |Sim |Sim|
 |**Exchange Online Dedicated – Legacy** (Sincronização obrigatória com o Azure AD)|Sim <sup>2</sup>|Sim <sup>2, 3</sup>|Sim <sup>4|Sim|Não|Não|Sim|Sim|Não|Sim <sup>5|Sim <sup>6|Sim|Sim|
 |**Exchange no local** (necessário sincronização para o Azure AD)|Sim <sup>2</sup>| Sim <sup>2, 3</sup> |Sim <sup>4|Sim|Sim (Exchange 2016 CU3 +)|Sim (Exchange 2016 CU3 +)|Sim|Sim|Não|Sim <sup>5|Sim <sup>6|Sim|Sim|
 
@@ -60,8 +60,7 @@ A tabela a seguir fornece uma referência rápida útil para a disponibilidade d
 
 <sup>6</sup> se um dos proprietários de uma equipe puder adicionar conectores, todos os outros participantes dessa equipe poderão fazer isso, mesmo se as caixas de correio estiverem hospedadas no local.
 
-
-Informações adicionais:
+<sup>7</sup> somente contatos na pasta de contatos padrão. Não há suporte para o acesso a outras pastas de contatos ou subpastas.
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Requisitos para aproveitar ao máximo o Microsoft Teams
 
