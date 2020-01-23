@@ -1,0 +1,49 @@
+---
+title: Gerenciar dispositivos de salas do Microsoft Teams com o Azure monitor
+ms.author: v-lanac
+author: lanachin
+ms.reviewer: sohailta
+manager: serdars
+audience: ITPro
+ms.topic: article
+ms.service: msteams
+localization_priority: Normal
+ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
+ms.collection:
+- M365-collaboration
+description: Este artigo discute como gerenciar dispositivos de salas do Microsoft Teams de forma integrada usando o Azure monitor.
+ms.openlocfilehash: 33132d7d72498fd01a156ce28114d1e584d6760c
+ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.translationtype: MT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "41268749"
+---
+# <a name="manage-microsoft-teams-rooms-devices-with-azure-monitor"></a>Gerenciar dispositivos de salas do Microsoft Teams com o Azure monitor
+
+Este artigo discute como gerenciar dispositivos de salas do Microsoft Teams de forma integrada usando o Azure monitor.
+
+Você pode configurar o Azure monitor para fornecer telemetria básica para ajudar a gerenciar os dispositivos da sala de reunião do Skype. Consulte [planejar o gerenciamento de salas do Microsoft Teams com o Azure monitor](azure-monitor-plan.md) e [implantar o gerenciamento de salas do Microsoft Teams com o Azure monitor](azure-monitor-deploy.md) para obter detalhes. À medida que sua solução de gerenciamento amadurece, você pode usar recursos adicionais de gerenciamento e dados para criar uma visão mais detalhada do desempenho do dispositivo.
+
+## <a name="understand-the-log-entries"></a>Entenda as entradas do log
+
+As descrições de evento a seguir são inseridas no campo de descrição do log de eventos a cada cinco minutos, quando o aplicativo salas do Microsoft Teams registra as informações correspondentes no log de eventos do Windows. O agente de monitoramento da Microsoft passa esses registros para a análise de log no Azure monitor, que os analisa no painel que você criou em [implantar o gerenciamento de salas do Microsoft Teams com o Azure monitor](azure-monitor-deploy.md). Com o painel, você pode ver as entradas individuais do log para determinar os cursos de ação, se necessário.
+
+As identificações de evento 2000 e 3000 indicam que o dispositivo em questão está funcionando conforme esperado. Os IDs de evento 2001 e 3001 indicam que foi encontrado um problema. A identificação do evento 4000 pode exigir uma ação se for vista com mais frequência do que o esperado, em comparação com uma linha de base definida ou para outros dispositivos implantados em sua organização.
+
+Se você entender essas descrições de eventos, será alertado rapidamente sobre problemas e terá um ponto inicial para a solução de problemas.
+
+| Nível&nbsp;de&nbsp;ID do evento|Comportamento&nbsp;do evento&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Descrição&nbsp;do evento&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+|:---    |:---   |:---  |
+| 2000  <br> Informações | Este é um evento de pulsação íntegra. A cada 5 minutos, as salas do Microsoft Teams verificam se estão conectadas ao Microsoft Teams ou ao Skype for Business e têm conectividade de rede e Exchange. <br> Se todos os três fatores forem verdadeiros, a identificação do evento 2000 será gravada no log de eventos a cada 5 minutos até que o dispositivo esteja offline ou que uma ou mais das condições não sejam mais atendidas. | {"Descrição": "a pulsação está íntegra.", "resourcestate": "Healthy", "OperationName": "Heartbeat", "OperationResult": "Pass", "so": "alias", "OSVersion": "10.0.14393.693", "alias": "<span></span>alias @contoso. com", "DisplayName": "Display Name", "AppVersion": "1.0.38.0", "IPv4Address": "10.10.10.10", "IPv6Address": "endereço IP V6"} <br><br> Neste exemplo, todas as condições de pulsação foram atendidas e o dispositivo de salas do Microsoft Teams foi marcado como íntegro. Se tivessem ocorrido erros, o aplicativo teria registrado a ID do Evento 2001. |
+| 2001  <br> Erro | Este é um evento de erro do aplicativo. A cada 5 minutos, as salas do Microsoft Teams verificam se estão conectadas ao Microsoft Teams ou ao Skype for Business com conectividade de rede e Exchange. Se um ou mais fatores não forem verdadeiros, ele grava EventID 2001 no log de eventos a cada 5 minutos até que o dispositivo esteja offline ou que todas as condições sejam atendidas mais uma vez.  | {"Description":"Network status : Healthy. Exchange status : Connected. **Signin status: Unhealthy.** "," Resourcestate ":" não íntegro "," OperationName ":" Windows 10 "," OSVersion ":" 10.0.14393.693 "," o alias ":" "," DisplayName ":" Display Name "," AppVersion ":" 1.0.38.0 "," IPv4Address ":" 10.10.10.10 "," "," "," ":" 10.10.10.10 "," IPv6Address ":" endereço IP V6 "} <br><br>  Neste exemplo, as salas do Microsoft Teams determinaram que a conexão de rede estava íntegra e o aplicativo foi conectado ao Exchange, mas a parte em negrito indica que o aplicativo não está conectado. Pode ser um problema de configuração no dispositivo ou no host.  <br> <br> O status da rede é mostrado como íntegro ou não íntegro. Se o status não for íntegro, você pode ter um problema de rede ou o dispositivo pode ter sido desconectado (mas você provavelmente também tem o Exchange e o Microsoft Teams ou erros do Skype for Business).  <br><br> O status do Exchange é exibido como conectado ou um dos seguintes: desconectado, conectando, AutodiscoveryError (o erro mais comumente visto), GeneralError ou ServerVersionNotSupported. Se o status for Connecting, aguarde até que a próxima mensagem de integridade seja enviada; para outros erros, mencione o problema a um administrador com experiência em resolução de problemas do Exchange.  <br><br>  O status de entrada (indicando que o aplicativo está conectado) é mostrado como íntegro ou não íntegro. Se o status for não íntegro, peça para um técnico investigar melhor. |
+| 3000  <br> Informações | Esse evento verifica se uma verificação de hardware foi executada e está íntegra. A cada 5 minutos, as salas do Microsoft Teams verificam se os componentes de hardware configurados como a frente da exibição da sala, microfone, alto-falante e câmera estão conectados e funcionando. Se todos os componentes estiverem íntegros, ele gravará EventID 3000 no log de eventos. Esse evento é escrito a cada 5 minutos, a menos que haja um problema com um dispositivo conectado.  <br> | {"Descrição": "HardwareCheckEngine está íntegro.", "resourcestate": "Healthy", "OperationName": "HardwareCheckEngine", "OperationResult": "Pass", "so": "alias", "OSVersion": "10.0.14393.693", "alias": "alias<span></span>@contoso. com", "DisplayName": "nome de exibição", "IPv6Address": "1.0.38.0 V6", "IPv4Address": "10.10.10.10", "IPv6Address": "endereço IP V6"}  <br><br> Neste exemplo, todas as verificações de hardware foram positivas. Se houver erros, o aplicativo registraria a identificação do evento 3001 em vez disso. |
+| 3001  <br> Evento de erro  | Este é um evento de erro de hardware. O aplicativo salas do Microsoft Teams tem um processo que verifica a integridade dos componentes de hardware conectados (frente da sala, microfone, alto-falante, câmera) a cada 5 minutos. Se um ou mais dos componentes não estiverem íntegros, ele gravará EventID 3001 no log de eventos. Esse evento é escrito a cada 5 minutos até que o problema com o dispositivo seja corrigido.   | {"Descrição": " **status da tela frontal da sala: não íntegro.** Configured display count is 2. Real display count is 0. **Conference Microphone status : Unhealthy.** Conference Speaker status : Healthy. Default Speaker status : Healthy. Status da câmera: íntegro. "," resourcestate ":" não íntegro "," OperationName ":" HardwareCheckEngine "," OperationResult ":" FAIL "," so ":" Windows 10 "," OSVersion ":" 10.0.14393.1198 "," alias ":" alias<span></span>@contoso. com "," DisplayName ":" Yosemite sala de conferência "," AppVersion ":" 2.0.58.0 "," IPv4Address ":" 10.10.10.10 "," IPv6Address ":" IPv6Address "," IPv4Address2 " <br><br>  Os periféricos de hardware são mostrados como Healthy ou Unhealthy. <br> Neste exemplo, há duas telas frontais da sala configuradas e, no momento, nenhuma delas está disponível. O status do microfone da conferência não é íntegro, o que pode ter várias causas possíveis. Como pelo menos um recurso não passou na verificação, ResourceState é listado como Unhealthy. Peça para um técnico investigar melhor. |
+| 4000  <br> Informações  <br> | Este é um evento de reinício do aplicativo. Sempre que o aplicativo é reiniciado, esse evento é registrado no log de eventos do Windows.  <br> | {"Descrição": "reinicialização do aplicativo.", "resourcestate": "Healthy", "OperationName": "reiniciar", "OperationResult": "Pass", "so": "alias @domain. com", "DisplayName": "10.0.14393.693", "alias"<span></span>: "alias. com", "DisplayName": "nome para exibição", "IPv6Address": "1.0.38.0", "IPv4Address": "10.10.10.10", "IPv6Address": "endereço IP V6"} <br><br> O aplicativo pode ser reiniciado por vários motivos. Comparar a frequência de reinicialização de dispositivos na mesma compilação e em prédios diferentes. Tenha em mente problemas conhecidos como flutuações e falhas de energia, pois isso pode fornecer pistas para problemas de infraestrutura.|
+
+## <a name="see-also"></a>Confira também
+ 
+
+[Planejar o gerenciamento de salas do Microsoft Teams com o Azure monitor](azure-monitor-plan.md)
+
+[Implantar o gerenciamento de salas do Microsoft Teams com o Azure monitor](azure-monitor-deploy.md)

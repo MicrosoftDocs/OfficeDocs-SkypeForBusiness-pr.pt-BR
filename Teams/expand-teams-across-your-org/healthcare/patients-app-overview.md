@@ -11,30 +11,29 @@ localization_priority: Normal
 MS.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
-appliesto: Microsoft Teams
+appliesto:
+- Microsoft Teams
 ms.reviewer: anach
 description: Aplicativo pacientes para administradores do teams
-ms.openlocfilehash: 7f451f212bdb289d19588a2b908394d7673ee69f
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 550a92ac638f1d83cf8bca9a89e0e29d323247e0
+ms.sourcegitcommit: d7fab927e96954f294f28dfb33c0889f736b3ab5
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38001324"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41259060"
 ---
 # <a name="patients-app-overview"></a>Visão geral do aplicativo de pacientes
 
-O aplicativo pacientes é um aplicativo do Microsoft Teams Store disponível para todos os usuários do teams. O aplicativo permite que as equipes de atendimento ao paciente que consistem em funcionários clínicos (por exemplo, retomadas, médicos, colegas de trabalho sociais) podem auxiliar e revisar listas de pacientes para cenários que vão desde rodadas e reuniões interdisciplinares da equipe até o monitoramento geral do paciente.   
+O aplicativo pacientes é um aplicativo do Microsoft Teams Store disponível para todos os usuários do teams. O aplicativo permite que as equipes de atendimento ao paciente que consistem em funcionários clínicos (por exemplo, retomadas, médicos, colegas de trabalho sociais) podem auxiliar e revisar listas de pacientes para cenários que vão desde rodadas e reuniões interdisciplinares da equipe até o monitoramento geral do paciente.
 
-O aplicativo tem dois modos: 
+O aplicativo tem dois modos:
 
-- O modo conectado do EMR que se conecta ao EMRs por meio do FHIR. O aplicativo modo conectado do EMR permanece em uma visualização privada e clientes interessados ou administradores podem solicitar acesso ao aplicativo, descartando um email da Microsoft no teamsforhealthcare@service.microsoft.com com informações sobre o locatário do Office 365. 
+- O modo conectado do EMR que se conecta ao EMRs por meio do FHIR. O aplicativo modo conectado do EMR permanece em uma visualização privada e clientes interessados ou administradores podem solicitar acesso ao aplicativo, descartando um email da Microsoft no teamsforhealthcare@service.microsoft.com com informações sobre o locatário do Office 365.
 - O modo manual que permite às equipes de cuidado adicionar/trazer as informações do paciente manualmente. O aplicativo está disponível na loja de aplicativos do teams para que os usuários finais baixem por padrão e estejam em visualização pública. O aplicativo pode ser restrito a determinadas seções de usuários usando [políticas de configuração de aplicativos no Microsoft Teams](../../teams-app-setup-policies.md)
-
-
 
 ## <a name="usage-example"></a>Exemplo de uso
 
-Durante as sessões de arredondamento em cada mudança de médico, os clínicos reúnem-se na estação Nursing para discutir as atualizações mais recentes sobre o andamento com os pacientes.  Elas destacam as principais métricas críticas (não necessariamente médicas ou que se encontram explícitas nos registros médicos dos pacientes) e garantem que o paciente esteja no caminho deslizante certo para a descarga eletrostática com base em seu diagnóstico. Para arredondar esses pacientes, a enfermeira de cobrança define o aplicativo paciente em uma equipe em que todos os clínicos são adicionados e adiciona pacientes a uma lista de pacientes. Durante os rodadas, as minhas mãos e os outros responsáveis pelos participantes do paciente acessarem o Microsoft Teams e o aplicativo pacientes em seus dispositivos móveis e atualizarão as informações relevantes dos pacientes em seus dispositivos e, em seguida, todos os outros na equipe de atendimento podem ver essas atualizações e anotações e Fique em sincronia. Duas vezes por dia, no início e no final de um turno, eles também têm reuniões de equipe displicinary para passar pela lista de pacientes e usar o aplicativo pacientes para se basear e compartilhar informações sobre cada paciente usando o aplicativo pacientes em uma tela grande de exibição. Muitas vezes, alguns clínicos também podem discar para essas reuniões de equipes remotamente e ainda fazer parte da discussão. 
+Durante as sessões de arredondamento em cada mudança de médico, os clínicos reúnem-se na estação Nursing para discutir as atualizações mais recentes sobre o andamento com os pacientes.  Elas destacam as principais métricas críticas (não necessariamente médicas ou que se encontram explícitas nos registros médicos dos pacientes) e garantem que o paciente esteja no caminho deslizante certo para a descarga eletrostática com base em seu diagnóstico. Para arredondar esses pacientes, a enfermeira de cobrança define o aplicativo paciente em uma equipe em que todos os clínicos são adicionados e adiciona pacientes a uma lista de pacientes. Durante os rodadas, as minhas mãos e os outros responsáveis pelos participantes do paciente acessarem o Microsoft Teams e o aplicativo pacientes em seus dispositivos móveis e atualizarão as informações relevantes dos pacientes em seus dispositivos e, em seguida, todos os outros na equipe de atendimento podem ver essas atualizações e anotações e Fique em sincronia. Duas vezes por dia, no início e no final de um turno, eles também têm reuniões de equipe multidisciplinares para passar pela lista de pacientes e usar o aplicativo pacientes para se basear e compartilhar informações sobre cada paciente usando o aplicativo pacientes em uma tela grande de exibição. Muitas vezes, alguns clínicos também podem discar para essas reuniões de equipes remotamente e ainda fazer parte da discussão.
 
 ## <a name="configure-patients-app"></a>Configurar o aplicativo pacientes
 
@@ -66,7 +65,6 @@ No momento, mas este recurso estará disponível em breve.
 **Como esse aplicativo acomoda PHI, há auditoria para impedir o acesso não autorizado ou a conformidade com regulamentos?**
 
 Sim, há. Cada ação de interface do usuário realizada por um usuário do Microsoft Teams no aplicativo pacientes é auditada e está disponível no centro de segurança e conformidade. Os detalhes são explicados no artigo [aqui](patients-audit.md)
-
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
