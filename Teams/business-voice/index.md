@@ -14,17 +14,17 @@ ms.collection:
 - Teams_Business_Voice
 title: Microsoft 365 Business Voice
 description: Aprenda a planejar, implantar e usar o Microsoft 365 Business Voice.
-ms.openlocfilehash: c34c447ac183effab5412f4202fd2c2b6c9d426f
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 4e8d681955013c7f1efd5d75fd90cd0a7b0c7af8
+ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972332"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "41268677"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Recursos do Microsoft 365 Business Voice</h1>
-        <P>Aprenda a planejar, configurar e usar o Microsoft 365 Business Voice na sua organização. O Business Voice facilita a configuração de um sistema telefônico avançado e flexível para empresas de pequeno e médio porte sem a despesa e a complexidade das soluções internas. </p>
+        <P>Aprenda a planejar, configurar e usar o Microsoft 365 Business Voice na sua organização. O Business Voice facilita a configuração de um sistema telefônico avançado e flexível para empresas de pequeno e médio porte sem a despesa e a complexidade das soluções internas.</p>
         <P></p>
         <ul class="pivots">
             <li>
@@ -124,7 +124,7 @@ ms.locfileid: "37972332"
                                             </div>
                                             <div class="cardText">
                                                 <h3>Recursos para parceiros</h3>
-                                                <P><a href="/partner-center" target="_blank">Obtenha o Microsoft 365 Business no Centro de Parceria</a></p>
+                                                <P><a href="/partner-center" target="_blank">Obtenha o Microsoft 365 Business no Partner Center</a></p>
                                                 <P><a href="https://www.microsoft.com/microsoft-365/partners/businessvoice" target="_blank">Microsoft 365 Business Voice para parceiros</a></p>
                                                 <p><a href="partner-resources.md" target="_blank">Recursos de suporte para Parceiros do Microsoft 365 Business Voice</a>
                                             </div>
