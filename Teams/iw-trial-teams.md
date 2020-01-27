@@ -14,17 +14,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7274669e4567be02efbd2fdeb4c6524ce6e55f38
-ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
+ms.openlocfilehash: aaf2a4aeeb5a3320d30ed261307aa074defecb84
+ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871687"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "41554218"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Gerenciar a oferta de avaliação na nuvem comercial do Microsoft Teams
 =======================================================
 
-A avaliação do Microsoft Teams Commercial Cloud oferece 1 ano de avaliação do produto para usuários que já possuem o Office 365 em sua organização e não possuem licenças do Microsoft Teams.. Os administradores podem mudar ou desativar esse recurso para os usuários de sua organização. 
+A avaliação do Microsoft Teams Commercial Cloud oferece 1 ano de avaliação do produto para usuários que já possuem o Office 365 em sua organização e não possuem licenças do Microsoft Teams.. Os administradores podem mudar ou desativar esse recurso para os usuários de sua organização.
 
 > [!IMPORTANT]
 > A Avaliação da Nuvem Comercial do Microsoft Teams será substituído pelo Microsoft Teams Exploratory a partir de janeiro de 2020. Para saber mais sobre essa nova oferta, leia a [licença Gerenciar o Teams Exploratory](teams-exploratory.md).
@@ -78,13 +78,13 @@ Os administradores podem desativar a capacidade de os usuários finais reivindic
 
 Você pode desativar a capacidade de um usuário de instalar serviços e aplicativos de avaliação.
 
-1. No [Centro de administração do Microsoft 365](https://portal.office.com/adminportal/home), vá até **Configurações** > **Serviços e suplementos** > ** Aplicativos e serviços de propriedade do usuário**.
+1. No [Centro de administração do Microsoft 365](https://portal.office.com/adminportal/home), vá até **Configurações** > **Configurações**, selecione**Serviços**e, em seguida, selecione **Aplicativos e serviços de propriedade do usuário**.
 
-    ![Captura de tela da página Serviços e complementos do Centro de administração](media/iw-trial-enable-1.png)
+    ![Captura de tela da página Serviços do centro de administração](media/iw-trial-services.png)
 
-2. Desative **Permitir que os usuários instalem aplicativos e serviços de avaliação**.
+2. Desative a caixa de seleção **Permitir que os usuários instalem aplicativos e serviços de avaliação**.
 
-    ![Captura de tela da página Aplicativos e Serviços de propriedade do Usuário no Centro de administração](media/iw-trial-enable-2.png)
+    ![Captura de tela da página Aplicativos e serviços de propriedade do usuário no centro de administração](media/iw-trial-user-owned-apps-services.png)
 
 
 ### <a name="manage-trial-availability-for-a-user-with-a-license-that-includes-teams"></a>Gerencie a disponibilidade de avaliação de um usuário com uma licença que inclua o Teams
@@ -119,8 +119,8 @@ Para desativar a licença de avaliação:
 
     ![Captura de tela da configuração de licença de avaliação do Teams no painel de licenças](media/iW-trial-enable-4.png)
     
->[!Note]
->A opção de alternância da Avaliação do Microsoft Teams será exibida depois que o primeiro usuário da organização se inscrever para a avaliação.
+    >[!Note]
+    >A opção de alternância da Avaliação do Microsoft Teams será exibida depois que o primeiro usuário da organização se inscrever para a avaliação.
 
 ### <a name="manage-teams-for-users-who-have-the-trial-license"></a>Gerenciamento do Teams para usuários que possuem a licença de avaliação
 

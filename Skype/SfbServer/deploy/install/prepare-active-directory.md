@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: 'Resumo: saiba como preparar seu domínio do Active Directory para uma instalação do Skype for Business Server. Baixe um teste grátis do Skype for Business Server no centro de avaliação da Microsoft em https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server:.'
-ms.openlocfilehash: 114b2a91491dd440972f589ff45d86835c676bef
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: a7b9a22042cecae76a5a5390b0778119363043b5
+ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41000881"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "41554048"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>Preparar o Active Directory para o Skype for Business Server
  
@@ -35,7 +35,7 @@ O Skype for Business Server funciona em conjunto com o Active Directory. Você d
 O Skype for Business Server está totalmente integrado aos serviços de domínio Active Directory (AD DS). Para que o Skype for Business Server possa ser instalado pela primeira vez, o Active Directory deve estar preparado. A seção do assistente de implantação intitulado **preparar o Active Directory** prepara o ambiente do Active Directory para uso com o Skype for Business Server.
   
 > [!NOTE]
-> O Skype for Business Server usa (AD DS) para acompanhar e se comunicar com todos os servidores em uma topologia. Cada servidor deve estar associado ao domínio para que o Skype for Business Server possa funcionar corretamente. 
+> O Skype for Business Server usa (AD DS) para acompanhar e se comunicar com todos os servidores em uma topologia. A maioria desses servidores deve ser associada ao domínio para que o Skype for Business Server possa funcionar corretamente. Lembre-se de que os servidores como o Edge e o proxy reverso não devem ser associados ao domínio.
   
 > [!IMPORTANT]
 > O procedimento Preparar o Active Directory deve ser executado apenas uma vez para cada domínio na implantação. 

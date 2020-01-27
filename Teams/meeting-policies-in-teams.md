@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Saiba como gerenciar as configurações de política de reunião no Teams.
-ms.openlocfilehash: 20382a41ac8d0a78d56ebcb51e852f5302ea74a7
-ms.sourcegitcommit: 447c5ffc27c5b0928e033f85914810af56e510ef
+ms.openlocfilehash: 41d1bf8c68ef96f3a657113864c21a993dfc3826
+ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41120389"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "41554338"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
@@ -105,10 +105,10 @@ Ao selecionar uma política existente na página **políticas de reunião** ou s
 Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Esta configuração controla se um usuário pode iniciar uma reunião ad hoc em um canal do teams. Se você ativar esta opção, quando um usuário postar uma mensagem em um canal do Teams, o usuário pode clicar em **reunir agora** abaixo da caixa de texto para iniciar uma reunião ad hoc no canal.
 
 ![Captura de tela mostrando o ícone reunir agora abaixo de uma mensagem](media/meeting-policies-meet-now.png)
-
 ### <a name="allow-private-meet-now"></a>Permitir reunião particular agora
 
 Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Esta configuração controla se um usuário pode iniciar uma reunião privada ad hoc.  
+
 
 ### <a name="allow-the-outlook-add-in"></a>Permitir o suplemento do Outlook
 
@@ -140,7 +140,6 @@ Observe que, se você desativar a opção **permitir reuniões privadas de agend
 - [Permitir gravação na nuvem](#allow-cloud-recording)
 - [Permitir vídeo IP](#allow-ip-video)
 - [Taxa de bits de mídia (KBs)](#media-bit-rate-kbs)
-- [Habilitar legendas ao vivo (visualização)](#enable-live-captions-preview)
 
 ### <a name="allow-transcription"></a>Permitir transcrição
 
@@ -197,20 +196,6 @@ Se não houver largura de banda suficiente para uma reunião, os participantes v
 
 Para reuniões que precisam de experiência com vídeo de alta qualidade, como reuniões de tabuleiro de CEO e eventos ao vivo da equipe, recomendamos que você defina a largura de banda como 10 Mbps. Mesmo quando a experiência máxima é definida, a pilha de mídia do teams se adapta às condições de pouca largura de banda quando determinadas condições de rede são detectadas, dependendo do cenário. 
 
-### <a name="enable-live-captions-preview"></a>Habilitar legendas ao vivo (visualização)
-
-Esta é uma política por usuário e aplica-se durante uma reunião. Esta configuração controla se a opção **Ativar legendas dinâmicas** está disponível para o usuário ativar e desativar legendas dinâmicas em reuniões que o usuário participa.  
-
-![Captura de tela mostrando a opção Ativar legendas ao vivo](media/meeting-policies-live-captions.png)
-
-|Valor de configuração |Comportamento  |
-|---------|---------|
-|**Desativado e o usuário pode substituir**     | As legendas dinâmicas não são ativadas automaticamente para o usuário durante uma reunião. O usuário vê a opção **Ativar legendas ao vivo** no menu de estouro (**...**) para ativá-las. Esta é a configuração padrão. |
-|**Desabilitado**     | As legendas ao vivo são desabilitadas para o usuário durante uma reunião. O usuário não tem a opção de ativá-los.          |
-
-
-<a name="bkcontentsharing"> </a>
-
 ## <a name="meeting-policy-settings---content-sharing"></a>Configurações da política de reunião – compartilhamento de conteúdo
 
 - [Modo de compartilhamento de tela](#screen-sharing-mode)
@@ -219,7 +204,6 @@ Esta é uma política por usuário e aplica-se durante uma reunião. Esta config
 - [Permitir compartilhamento do PowerPoint](#allow-powerpoint-sharing)
 - [Permitir quadro de comunicações](#allow-whiteboard)
 - [Permitir anotações compartilhadas](#allow-shared-notes)
-- [Permitir chat em reuniões (disponível em breve)](#allow-chat-in-meetings-coming-soon)
 
 ### <a name="screen-sharing-mode"></a>Modo de compartilhamento de tela
 
@@ -266,7 +250,7 @@ O Daniela pode dar ao controle da área de trabalho compartilhada ou janela para
 Para usar o PowerShell para controlar quem pode conceder controle ou aceitar solicitações de controle, use o cmdlet AllowParticipantGiveRequestControl.
 
 > [!NOTE]
-> Para dar e assumir o controle do conteúdo compartilhado durante o compartilhamento, ambas as partes devem usar o cliente da área de trabalho do teams. O controle não tem suporte quando ambas as partes estão executando o Teams em um navegador. Isso se deve a uma limitação técnica que estamos planejando corrigir. 
+> Para dar e assumir o controle do conteúdo compartilhado durante o compartilhamento, ambas as partes devem usar o cliente da área de trabalho do teams. Não há suporte para controle quando ambas as partes estiverem executando o Teams em um navegador. Isso ocorre devido a uma limitação técnica de que estamos planejando corrigir. 
 
 ### <a name="allow-an-external-participant-to-give-or-request-control"></a>Permitir que um participante externo conceda ou solicite controle
 
@@ -320,19 +304,16 @@ Vamos dar uma olhada no exemplo a seguir.
 
 Daniela pode fazer anotações nas reuniões do Amanda, e o Amanda não pode fazer anotações em nenhuma reunião.
 
-### <a name="allow-chat-in-meetings-coming-soon"></a>Permitir chat em reuniões (disponível em breve)
-
-Esta é uma política por organizador. Esta configuração controla se o chat da reunião é permitido na reunião do usuário. 
-
-<a name="bkparticipantsandguests"> </a>
-
 ## <a name="meeting-policy-settings---participants--guests"></a>Configurações de política de reunião-participantes & convidados
 
 Essas configurações controlam quais participantes da reunião aguardam no lobby antes de serem admitidos para a reunião e o nível de participação que eles são permitidos em uma reunião.
 
 - [Admitir pessoas automaticamente](#automatically-admit-people)
 - [Permitir que pessoas anônimas iniciem uma reunião](#allow-anonymous-people-to-start-a-meeting)
-- [Permitir que os usuários de discagem ignorem o lobby](#allow-dial-in-users-to-bypass-the-lobby-coming-soon)
+- [Permitir que os usuários de discagem ignorem o lobby](#allow-dial-in-users-to-bypass-the-lobby)
+- [Permitir reunião particular agora](#allow-private-meet-now)
+- [Habilitar legendas dinâmicas](#enable-live-captions)
+- [Permitir chat em reuniões](#allow-chat-in-meetings)
 
 > [!NOTE]
 >As opções para ingressar em uma reunião irão variar, dependendo das configurações de cada grupo de equipe e do método de conexão. Se o seu grupo tiver videoconferência e o usar para se conectar, consulte [videoconferência no Office 365](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). Se o grupo Teams não tiver videoconferências, consulte [ingressar em uma reunião no Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
@@ -379,7 +360,7 @@ Aqui está o comportamento da junção de pessoas anônimas quando nenhum usuár
 |   | Todos em sua organização     |Aguardar no lobby         |
 |   | Todos em sua organização e organizações federadas      | Aguardar no lobby         |
 
-### <a name="allow-dial-in-users-to-bypass-the-lobby-coming-soon"></a>Permitir que os usuários de discagem ignorem o lobby (em breve)
+### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Permitir que os usuários de discagem ignorem o lobby
 
 Esta é uma política por organizador. Esta configuração controla se as pessoas que discam por telefone entram diretamente na reunião ou esperam no lobby, independentemente da configuração de usuário **admitir pessoas automaticamente** .
 
@@ -394,6 +375,29 @@ Aqui está o comportamento da junção de pessoas que discam por telefone.
 |   | Todos em sua organização     |Aguardar no lobby         |
 |   | Todos em sua organização e organizações federadas      | Aguardar no lobby         |
 
+### <a name="allow-private-meet-now"></a>Permitir reunião particular agora
+
+Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Esta configuração controla se um usuário pode iniciar uma reunião privada ad hoc. 
+
+### <a name="enable-live-captions"></a>Habilitar legendas dinâmicas
+
+Esta é uma política por usuário e aplica-se durante uma reunião. Esta configuração controla se a opção **Ativar legendas dinâmicas** está disponível para o usuário ativar e desativar legendas dinâmicas em reuniões que o usuário participa.  
+
+![Captura de tela mostrando a opção Ativar legendas ao vivo](media/meeting-policies-live-captions.png)
+
+|Valor de configuração |Comportamento  |
+|---------|---------|
+|**Desativado e o usuário pode substituir**     | As legendas dinâmicas não são ativadas automaticamente para o usuário durante uma reunião. O usuário vê a opção **Ativar legendas ao vivo** no menu de estouro (**...**) para ativá-las. Esta é a configuração padrão. |
+|**Desabilitado**     | As legendas ao vivo são desabilitadas para o usuário durante uma reunião. O usuário não tem a opção de ativá-los.          |
+
+
+<a name="bkcontentsharing"> </a>
+
+### <a name="allow-chat-in-meetings"></a>Permitir chat em reuniões
+
+Esta é uma política por organizador. Esta configuração controla se o chat da reunião é permitido na reunião do usuário. 
+
+<a name="bkparticipantsandguests"> </a>
 
 ## <a name="related-topics"></a>Tópicos relacionados
 [Políticas de mensagens no Teams](messaging-policies-in-teams.md)
