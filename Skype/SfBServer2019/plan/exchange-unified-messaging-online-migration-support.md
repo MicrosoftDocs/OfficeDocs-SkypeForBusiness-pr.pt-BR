@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: A Microsoft está desativando o serviço online de Unificação de mensagens do Exchange (ExchUMO) em fevereiro de 2020. Este artigo resume o que os clientes afetados devem saber e fazer para planejar sua continuidade de negócios.
-ms.openlocfilehash: adef85a59a5d0add990196e5b76587b502f052b5
-ms.sourcegitcommit: 4ccc24dcf61cf9b59224b85757f93f8aceae1771
+ms.openlocfilehash: 55382780fe6ef1c67cbecc1f6c997809f9173b8a
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/24/2019
-ms.locfileid: "40854086"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628667"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Suporte à migração da Unificação de Mensagens do Exchange Online
 
@@ -157,13 +157,13 @@ Recomendamos que você inicie a configuração de seus novos atendedores automá
 | VIRTUAIS | Recursos do chamador  | Detecção de silêncio   |  | N | Y    |
 | VIRTUAIS | Locatário-recursos de administração | Correio de voz protegido no nível do servidor    | Locatário-o administrador pode configurar uma regra de nível de serviço para marcar o correio de voz recebido como protegido | Y | S    |
 | VIRTUAIS | Locatário-recursos de administração | Alterar o limite de tempo de duração da gravação  |     | S | S    |
-| VIRTUAIS | Locatário-recursos de administração | Alterar o tempo limite de detecção de silêncio    |  | N/D    | Y    |
+| VIRTUAIS | Locatário-recursos de administração | Alterar o tempo limite de detecção de silêncio    |  | Não disponível    | Y    |
 | VIRTUAIS | Locatário-recursos de administração | Alterar o número de falhas de entrada | CVM: embutido em código para 3 | N | Y    |
 | VIRTUAIS | Locatário-recursos de administração | Alterar o idioma padrão |  | S | S    |
 | VIRTUAIS | Locatário-recursos de administração | Desabilitar/habilitar transcrição |  | S | S    |
 | VIRTUAIS | Locatário-recursos de administração | Desabilitar/habilitar a notificação de chamada perdida |  | N | Y    |
 | VIRTUAIS | Locatário-recursos de administração | Ajude a Microsoft a melhorar a visualização da caixa postal    |  | S | S    |
-| VIRTUAIS | Locatário-recursos de administração | Personalizar mensagem de texto para usuários habilitados|  | N/D    | Y    |
+| VIRTUAIS | Locatário-recursos de administração | Personalizar mensagem de texto para usuários habilitados|  | Não disponível    | Y    |
 | VIRTUAIS | Locatário-recursos de administração | Mascaramento de obscenidades da transcrição|  | Y | N    |
 | VIRTUAIS | Locatário-recursos de administração | Política de correio de voz    |   | S | S    |
 | VIRTUAIS | Locatário-recursos de administração | Administração do portal da Web   |  | CY19   | Y    |
@@ -233,7 +233,7 @@ Para saber mais sobre atendedores automáticos, consulte [configurar um atendedo
 
 **Transferência de chamada de atendedor automático para PSTN** Os clientes são incentivados a configurar uma solução temporária para atender aos requisitos de transferência de uma chamada de atendedor automático para um número de PSTN externo ou para uma instância de RGS. 
  
-Um problema foi identificado durante a garantia de qualidade com o recurso transferir para o número PSTN, que não será corrigido no tempo para que os clientes comecem a migrar o serviço Exchange UMO antes da data de aposentadoria agendada de 1 de fevereiro de 2020. Como solução alternativa, os administradores podem transferir chamadores de atendedor automático para um usuário virtual local com uma configuração de encaminhamento de chamada ativa para o número de telefone PSTN ou o número de telefone do RGS. 
+Um problema foi identificado durante a garantia de qualidade com o recurso transferir para número PSTN, que não será corrigido em tempo para que os clientes comecem a migrar o serviço Exchange UMO antes de sua data de aposentadoria agendada de 28 de fevereiro de 2020. Como solução alternativa, os administradores podem transferir chamadores de atendedor automático para um usuário virtual local com uma configuração de encaminhamento de chamada ativa para o número de telefone PSTN ou o número de telefone do RGS. 
  
 Experiência esperada
 - Os administradores não precisam licenciar o usuário virtual, uma vez que esta solução alternativa 

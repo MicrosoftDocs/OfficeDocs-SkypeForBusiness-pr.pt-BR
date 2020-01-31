@@ -1,5 +1,5 @@
 ---
-title: Implantar salas do Microsoft Teams usando o System Center Configuration Manager
+title: Implantar salas do Microsoft Teams usando o Gerenciador de configuração do Microsoft Endpoint
 author: lanachin
 ms.author: v-lanac
 ms.reviewer: Turgayo
@@ -30,18 +30,18 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: fe6ea140f15c5234117aabe6612e0190e47ddc4d
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 3735553c1d2c0cc1b0d7e6065be606b69337e9cc
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268765"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628637"
 ---
-# <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>Implantar salas do Microsoft Teams usando o System Center Configuration Manager
+# <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Implantar salas do Microsoft Teams usando o Gerenciador de configuração do Microsoft Endpoint
 
-Este artigo fornece todas as informações necessárias para criar suas implantações de salas do Microsoft Teams usando o System Center Configuration Manager.
+Este artigo fornece todas as informações necessárias para criar suas implantações de salas do Microsoft Teams usando o Gerenciador de configuração do Microsoft Endpoint.
 
-Com os métodos fáceis de usar fornecidos pelo System Center Configuration Manager, você pode implantar o sistema operacional e outros aplicativos em vários dispositivos de destino.
+Com os métodos fáceis de usar fornecidos pelo Configuration Manager, você pode implantar o sistema operacional e outros aplicativos em vários dispositivos de destino.
 
 Use a abordagem ilustrada abaixo para orientá-lo na configuração do Configuration Manager e personalize os exemplos de pacotes e scripts fornecidos nesta orientação, conforme necessário para a sua organização.
 
@@ -54,17 +54,17 @@ Use a abordagem ilustrada abaixo para orientá-lo na configuração do Configura
 
 Para implantar salas do Microsoft Teams com o Configuration Manager, verifique se você atende aos seguintes pré-requisitos e requisitos.
 
-### <a name="system-center-configuration-manager-requirements"></a>Requisitos do System Center Configuration Manager
+### <a name="microsoft-endpoint-configuration-manager-requirements"></a>Requisitos do Gerenciador de configuração do Microsoft Endpoint
 
--   A versão do System Center Configuration Manager deve ser pelo menos 1706 ou superior. Recomendamos usar o 1710 ou posterior. Consulte o [suporte do Windows 10 no System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client) para saber mais sobre as versões do Windows 10 compatíveis com o Configuration Manager.
+-   A versão do Microsoft Endpoint Configuration Manager deve ser pelo menos 1706 ou superior. Recomendamos usar o 1710 ou posterior. Consulte o [suporte do Windows 10 no Configuration Manager](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client) para saber mais sobre as versões do Windows 10 compatíveis com o Configuration Manager.
 
--   É preciso instalar uma versão com suporte do kit de avaliação e implantação do Windows (ADK) para Windows 10. Veja as versões do [Windows 10 ADK](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-adk) que você pode usar com versões diferentes do Configuration Manager e certifique-se de que sua implantação inclui a versão correta.
+-   É preciso instalar uma versão com suporte do kit de avaliação e implantação do Windows (ADK) para Windows 10. Veja as versões do [Windows 10 ADK](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-adk) que você pode usar com versões diferentes do Configuration Manager e certifique-se de que sua implantação inclui a versão correta.
 
--   Os servidores de sistema de site devem ter sido atribuídos à função de ponto de distribuição, e as imagens de inicialização devem ser habilitadas para [suporte a PXE (ambiente de execução Preboot)](https://docs.microsoft.com/sccm/osd/deploy-use/use-pxe-to-deploy-windows-over-the-network) para habilitar implantações iniciadas pela rede. Se o suporte a PXE não estiver habilitado, você poderá usar [mídia inicializável](https://docs.microsoft.com/sccm/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) para suas implantações.
+-   Os servidores de sistema de site devem ter sido atribuídos à função de ponto de distribuição, e as imagens de inicialização devem ser habilitadas para [suporte a PXE (ambiente de execução Preboot)](https://docs.microsoft.com/configmgr/osd/deploy-use/use-pxe-to-deploy-windows-over-the-network) para habilitar implantações iniciadas pela rede. Se o suporte a PXE não estiver habilitado, você poderá usar [mídia inicializável](https://docs.microsoft.com/configmgr/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) para suas implantações.
 
--   Uma conta de acesso à rede deve ser configurada para dar suporte a novos cenários de implantação de computador (bare metal). Para saber mais sobre a configuração de uma conta de acesso à rede, consulte [gerenciar contas para acessar conteúdo no System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
+-   Uma conta de acesso à rede deve ser configurada para dar suporte a novos cenários de implantação de computador (bare metal). Para saber mais sobre a configuração de uma conta de acesso à rede, consulte [contas usadas no Configuration Manager](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
 
--   Recomendamos que você habilite o [suporte ao multicast](https://docs.microsoft.com/sccm/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network), se provavelmente você vai implantar a mesma imagem de salas do Microsoft Teams em várias unidades ao mesmo tempo.
+-   Recomendamos que você habilite o [suporte ao multicast](https://docs.microsoft.com/configmgr/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network), se provavelmente você vai implantar a mesma imagem de salas do Microsoft Teams em várias unidades ao mesmo tempo.
 
 ### <a name="networking-requirements"></a>Requisitos de rede
 
@@ -73,14 +73,14 @@ Para implantar salas do Microsoft Teams com o Configuration Manager, verifique s
     > [!NOTE]
     > A duração da concessão DHCP deve ser definida como um valor maior que a duração da implantação da imagem. Caso contrário, a implantação poderá falhar.
 
--   Sua rede, incluindo opções e LANs virtuais (VLANs), devem ser configuradas para dar suporte ao PXE. Consulte o fornecedor da sua rede para obter mais informações sobre o auxiliar de IP e a configuração PXE. Você também pode usar [mídia inicializável](https://docs.microsoft.com/sccm/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) para suas implantações, se o suporte a PXE não estiver habilitado.
+-   Sua rede, incluindo opções e LANs virtuais (VLANs), devem ser configuradas para dar suporte ao PXE. Consulte o fornecedor da sua rede para obter mais informações sobre o auxiliar de IP e a configuração PXE. Você também pode usar [mídia inicializável](https://docs.microsoft.com/configmgr/osd/deploy-use/use-bootable-media-to-deploy-windows-over-the-network) para suas implantações, se o suporte a PXE não estiver habilitado.
 
     > [!NOTE]
     > Para dispositivos Surface pro, inicializar a partir da rede (inicialização PXE) só tem suporte quando você usa um adaptador Ethernet ou uma docking Station da Microsoft. Adaptadores Ethernet de terceiros não dão suporte à inicialização PXE com Surface pro. Consulte [adaptadores Ethernet e implantação de superfície](https://docs.microsoft.com/surface/ethernet-adapters-and-surface-device-deployment) para obter mais informações.
 
-## <a name="configure-system-center-configuration-manager-for-operating-system-deployment"></a>Configurar o System Center Configuration Manager para implantação de sistema operacional
+## <a name="configure-microsoft-endpoint-configuration-manager-for-operating-system-deployment"></a>Configurar o Microsoft Endpoint Configuration Manager para implantação do sistema operacional
 
-Este artigo pressupõe que você já tenha uma implantação íntegra do System Center Configuration Manager e não detalha todas as etapas necessárias para implantar e configurar o Configuration Manager do zero. A [documentação e as diretrizes de configuração](https://docs.microsoft.com/sccm/) do System Center Configuration Manager são um recurso excelente; Recomendamos que você comece com esses recursos se ainda não tiver implantado o Configuration Manager.
+Este artigo pressupõe que você já tenha uma implantação íntegra do Configuration Manager e não detalha todas as etapas necessárias para implantar e configurar o Configuration Manager do zero. A [documentação e as diretrizes de configuração](https://docs.microsoft.com/configmgr/) no Gerenciador de configuração do Microsoft Endpoint são um recurso excelente; Recomendamos que você comece com esses recursos se ainda não tiver implantado o Configuration Manager.
 
 Use as instruções a seguir para verificar se os recursos de implantação do sistema operacional (OSD) estão configurados corretamente.
 
@@ -90,7 +90,7 @@ Use as instruções a seguir para verificar se os recursos de implantação do s
 
 2.  Verifique a compilação instalada e as atualizações aplicáveis que ainda não foram instaladas.
 
-3.  Revisar o [suporte para Windows 10 no System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client); Se precisar atualizar a implantação, selecione a atualização que você deseja instalar e, em seguida, selecione **baixar**.
+3.  Revise o [suporte para Windows 10 no Configuration Manager](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10#windows-10-as-a-client); Se precisar atualizar a implantação, selecione a atualização que você deseja instalar e, em seguida, selecione **baixar**.
 
 4.  Após a conclusão do download, selecione a atualização e, em seguida, selecione **instalar pacote de atualização**.
 
@@ -118,7 +118,7 @@ Use as instruções a seguir para verificar se os recursos de implantação do s
 3.  Selecione a guia **conta de acesso à rede** . configurar uma ou mais contas e, em seguida, selecione **OK**.
 
 > [!NOTE]
-> As contas não precisam de direitos especiais, exceto para o direito **acesso a este computador pela rede** no servidor de ponto de distribuição. Uma conta de usuário de domínio genérico será apropriada. Para obter mais informações, consulte [gerenciar contas para acessar conteúdo no System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
+> As contas não precisam de direitos especiais, exceto para o direito **acesso a este computador pela rede** no servidor de ponto de distribuição. Uma conta de usuário de domínio genérico será apropriada. Para obter mais informações, consulte [contas usadas no Configuration Manager](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
 
 ### <a name="configure-a-boot-image"></a>Configurar uma imagem de inicialização
 
@@ -140,15 +140,15 @@ Use as instruções a seguir para verificar se os recursos de implantação do s
 
 6.  Quando for solicitado, selecione **Sim** e distribua a imagem de inicialização atualizada para seus pontos de distribuição.
 
-Para obter mais informações, consulte [gerenciar imagens de inicialização com o System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-boot-images).
+Para obter mais informações, consulte [gerenciar imagens de inicialização com o Configuration Manager](https://docs.microsoft.com/configmgr/osd/get-started/manage-boot-images).
 
 > [!NOTE]
-> Você pode criar uma mídia USB inicializável para iniciar implantações baseadas em sequência de tarefas do Configuration Manager em ambientes com suporte a PXE. A mídia inicializável contém apenas a imagem de inicialização, os comandos prestart opcionais e os arquivos necessários e os binários do Configuration Manager para dar suporte à inicialização no Windows PE e à conexão com o Configuration Manager para o restante do processo de implantação. Para obter mais informações, consulte [como criar mídia inicializável](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia).
+> Você pode criar uma mídia USB inicializável para iniciar implantações baseadas em sequência de tarefas do Configuration Manager em ambientes com suporte a PXE. A mídia inicializável contém apenas a imagem de inicialização, os comandos prestart opcionais e os arquivos necessários e os binários do Configuration Manager para dar suporte à inicialização no Windows PE e à conexão com o Configuration Manager para o restante do processo de implantação. Para obter mais informações, consulte [criar mídia inicializável](https://docs.microsoft.com/configmgr/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia).
 
 ## <a name="create-configuration-manager-packages"></a>Criar pacotes do Configuration Manager
 
 > [!IMPORTANT]
-> A versão do sistema operacional necessária para cada versão do instalador do SRS muda a cada lançamento do MSI. Para determinar a melhor versão do sistema operacional para um determinado MSI, execute o script de configuração do console uma vez. Para saber mais, consulte [implantar salas do Microsoft Teams usando o System Center Configuration Manager](rooms-scale.md).
+> A versão do sistema operacional necessária para cada versão do instalador do SRS muda a cada lançamento do MSI. Para determinar a melhor versão do sistema operacional para um determinado MSI, execute o script de configuração do console uma vez. Para saber mais, consulte [implantar salas do Microsoft Teams usando o Gerenciador de configuração do Microsoft Endpoint](rooms-scale.md).
 
 O Configuration Manager requer um número de pacotes para implantar e configurar as unidades de salas do Microsoft Teams.
 
@@ -168,13 +168,13 @@ Você precisa criar e configurar os seguintes pacotes e, em seguida, distribuí-
 | Surface pro                          | Pacote de driver         | Pacote para drivers de dispositivo e firmware para Microsoft Surface pro                     |
 | Surface Pro 4                        | Pacote de driver         | Pacote para drivers de dispositivo e firmware para Microsoft Surface Pro 4                   |
 
-Para obter mais informações, consulte [pacotes e programas no System Center Configuration Manager](https://docs.microsoft.com/sccm/apps/deploy-use/packages-and-programs).
+Para obter mais informações, consulte [pacotes e programas no Configuration Manager](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs).
 
 ### <a name="create-folders-for-the-package-source-files"></a>Criar pastas para os arquivos de origem do pacote
 
 O Configuration Manager requer que os arquivos de origem do pacote sejam organizados em uma estrutura de pastas específica quando são criados pela primeira vez e quando são atualizados.
 
-Crie a seguinte estrutura de pastas no site de administração central do System Center Configuration Manager ou no site primário ou em um compartilhamento de servidor que você está usando para hospedar arquivos de origem do pacote:
+Crie a seguinte estrutura de pastas no site de administração central do Gerenciador de ponto de extremidade do Microsoft ou no site primário ou em um compartilhamento de servidor que você está usando para hospedar arquivos de origem do pacote:
 
 -   SRS v2-pacote do Microsoft Monitoring Agent
 -   SRS v2-pacote de atualizações do so
@@ -486,7 +486,7 @@ Você cria esse pacote para distribuir o certificado raiz para dispositivos que 
 
 6.  Selecione **fechar**.
 
-Para obter mais informações, consulte [gerenciar imagens do sistema operacional com o System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-operating-system-images).
+Para obter mais informações, consulte [gerenciar imagens do sistema operacional com o Configuration Manager](https://docs.microsoft.com/configmgr/osd/get-started/manage-operating-system-images).
 
 ### <a name="create-surface-pro-device-driver-packages"></a>Criar pacotes de driver de dispositivo Surface pro
 
@@ -524,7 +524,7 @@ As salas do Microsoft Teams são compatíveis com o Surface pro e o Surface Pro 
 12. Mova todos os drivers importados para a pasta recém criada para facilitar a navegação e a operação.
 
 > [!NOTE]
-> Repita as mesmas etapas para outros modelos de Surface pro que você possa ter. Para obter mais informações, consulte [gerenciar drivers no System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-drivers).
+> Repita as mesmas etapas para outros modelos de Surface pro que você possa ter. Para obter mais informações, consulte [gerenciar drivers no Configuration Manager](https://docs.microsoft.com/configmgr/osd/get-started/manage-drivers).
 
 ### <a name="create-microsoft-teams-rooms-configuration-package"></a>Criar pacote de configuração de salas do Microsoft Teams
 
@@ -591,7 +591,7 @@ Todos os pacotes devem ser distribuídos para os servidores que foram atribuído
 
 ## <a name="configuration-manager-task-sequences"></a>Sequências de tarefas do Configuration Manager
 
-Você usa sequências de tarefas com o System Center Configuration Manager para automatizar as etapas para implantar uma imagem do sistema operacional em um computador de destino. Para implantar uma unidade de salas do Microsoft Teams de maneira automatizada, crie uma sequência de tarefas que referencie a imagem de inicialização usada para iniciar o computador de salas de destino do Microsoft Teams, a imagem do sistema operacional Windows 10 Enterprise que você deseja instalar e qualquer outros conteúdos adicionais, como outros aplicativos ou atualizações de software.
+Você usa sequências de tarefas com o Configuration Manager para automatizar as etapas para implantar uma imagem do sistema operacional em um computador de destino. Para implantar uma unidade de salas do Microsoft Teams de maneira automatizada, crie uma sequência de tarefas que referencie a imagem de inicialização usada para iniciar o computador de salas de destino do Microsoft Teams, a imagem do sistema operacional Windows 10 Enterprise que você deseja instalar e qualquer outros conteúdos adicionais, como outros aplicativos ou atualizações de software.
 
 ### <a name="import-the-sample-task-sequence"></a>Importar a sequência de tarefas de exemplo
 
@@ -708,9 +708,9 @@ Você pode baixar e importar facilmente uma sequência de tarefas de exemplo e p
 <a name="validate-and-troubleshoot-the-solution"></a>Validar e solucionar problemas com a solução
 --------------------------------------
 
-Depois de concluir as sequências de tarefas do System Center Configuration Manager, você precisará executar uma execução de teste para validar que a sequência de tarefas pode implantar e configurar unidades de salas do Microsoft Teams.
+Depois de concluir as sequências de tarefas do Microsoft Endpoint Configuration Manager, você precisará executar uma execução de teste para validar que a sequência de tarefas pode implantar e configurar unidades de sala de equipe do Microsoft Teams.
 
-1.  Conecte o dispositivo de teste à rede com fio usando um dos adaptadores Ethernet compatíveis ou usando o Dock Dock. Se a funcionalidade de inicialização PXE não tiver sido configurada para o seu ambiente, você poderá usar a imagem de inicialização na unidade flash USB [que você criou anteriormente](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media) para inicializar a partir do USB e conectar-se ao Configuration Manager.
+1.  Conecte o dispositivo de teste à rede com fio usando um dos adaptadores Ethernet compatíveis ou usando o Dock Dock. Se a funcionalidade de inicialização PXE não tiver sido configurada para o seu ambiente, você poderá usar a imagem de inicialização na unidade flash USB [que você criou anteriormente](https://docs.microsoft.com/configmgr/osd/deploy-use/create-bootable-media) para inicializar a partir do USB e conectar-se ao Configuration Manager.
 
 2.  Acesse o firmware e inicie a inicialização PXE:
 
@@ -772,4 +772,4 @@ Para solucionar problemas de inicialização PXE, verifique os dois arquivos de 
 
 -   **Smspxe. log**, localizado no diretório de logs do ponto de gerenciamento do Configuration Manager (MP)
 
-Para obter uma lista completa dos arquivos de log que você pode usar para solucionar problemas com a instalação do Configuration Manager, consulte [arquivos de log no System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/log-files).
+Para obter uma lista completa dos arquivos de log que você pode usar para solucionar problemas com a instalação do Configuration Manager, consulte a [referência do arquivo de log](https://docs.microsoft.com/configmgr/core/plan-design/hierarchy/log-files)do Microsoft Endpoint Configuration Manager.

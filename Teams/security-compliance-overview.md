@@ -3,7 +3,6 @@ title: Visão geral de segurança e conformidade no Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/11/2018
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: anach
@@ -17,19 +16,21 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56491fdde5dbd47e91f8c6f2386564b9e78160d3
-ms.sourcegitcommit: f742ad9ba61d6cc52a9ed6885d1f2893bcfad354
+ms.openlocfilehash: 8e0f6424770e2a0ccbe7367d2786949ef4ef2f6d
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "41165611"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573637"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Visão geral de segurança e conformidade no Microsoft Teams
 ======================================================
 
 O Microsoft Teams está criado na nuvem empresarial de grande escala do Office 365, oferecendo os recursos avançados de segurança e conformidade que nossos clientes esperam.
 
-Para obter uma breve introdução (12:42 min) à segurança e à conformidade do Teams, Assista a este vídeo: [Microsoft Teams Essentials para ti: segurança e conformidade](https://youtu.be/91lHNKVVvQ4).
+Não perca esses vídeos de mecânica da Microsoft sobre segurança e conformidade:
+- [Fundamentos do Microsoft Teams para ti: segurança e conformidade](https://youtu.be/91lHNKVVvQ4) (12:42 min)
+- [Controles do Microsoft Teams para segurança e conformidade](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 min)
 
 O Teams é compatível com a camada D. Isso inclui as seguintes normas: ISO 27001, ISO 27018, SSAE16 SOC 1 e SOC 2, HIPAA e EU Model Clauses (EUMC). Dentro da estrutura de conformidade da Microsoft, a Microsoft classifica os aplicativos e serviços do Office 365 em quatro categorias. Cada categoria é definida por compromissos de conformidade específicos que devem ser atendidos por um serviço do Office 365 ou um serviço relacionado da Microsoft para que sejam listados naquela categoria.
 

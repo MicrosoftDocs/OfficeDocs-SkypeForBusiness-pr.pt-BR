@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 99c6e2a5adb9d0f9a4b4e3f6f17b7484bda96a74
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: bb3340da960728b1a261efc510573702c5a17076
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37516881"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628707"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Configurar o compartilhamento de área de trabalho no Microsoft Teams
 ============================================
@@ -28,7 +28,7 @@ O compartilhamento de área de trabalho permite que os usuários apresentem uma 
 
 Para configurar o compartilhamento de tela, crie uma nova política de reuniões e atribua-a aos usuários que você deseja gerenciar.
 
-**No centro de administração do Microsoft Teams**
+**No [centro de administração do Microsoft Teams](https://admin.teams.microsoft.com/)**
 
 1. Selecionar **** > **as políticas de reunião**de reuniões.
 
@@ -60,7 +60,7 @@ Para configurar o compartilhamento de tela, crie uma nova política de reuniões
 
 ## <a name="use-powershell-to-configure-shared-desktop"></a>Usar o PowerShell para configurar a área de trabalho compartilhada
 
-Você também pode usar o cmdlet [set-CsTeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) para controlar o compartilhamento da área de trabalho. Defina os seguintes parâmetros:
+Você também pode usar o cmdlet [set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) para controlar o compartilhamento da área de trabalho. Defina os seguintes parâmetros:
 
 - Descrição
 - ScreenSharingMode
@@ -70,5 +70,5 @@ Você também pode usar o cmdlet [set-CsTeamsMeetingPolicy](https://docs.microso
 - AllowWhiteboard
 - AllowSharedNotes
 
-[Saiba mais sobre como usar o cmdlet csTeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).
+[Saiba mais sobre como usar o cmdlet csTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).
 

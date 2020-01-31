@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Saiba quais são as etapas de implantação para obter o firmware correto, atualize-o, se necessário, atribua licenças e defina as configurações para telefones do Skype for Business Online
-ms.openlocfilehash: 8d3de52f7c732571b3692ed2b3683673acdb8e60
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 10562165547a27bb8a2903e7f11f3c547cca1b1e
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432581"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628377"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Implantando telefones do Skype for Business Online
 
@@ -69,7 +69,7 @@ Verifique a versão do firmware em seus telefones. De
 > [!NOTE]
 > O firmware do Polycom antes do 5.5.1. X tinha um mecanismo de bloqueio de dispositivo específico do fabricante que é substituído por um "Phone-Lock" de implementação do Skype for Business. A atualização de um telefone de 5.4. X. X que foi protegido com "Device-Lock" como 5.5.1. X com "Phone-Lock" não herdará o código PIN de "Device-Lock", o que pode deixar o telefone desprotegido. Os usuários que ativaram o "Device-Lock" precisam habilitar o seguinte parâmetro de perfil de dispositivo Polycom para dar aos usuários o controle do tempo de atualização (Lync. deviceUpdate. popUpSK. Enabled = 1). 
   
-As atualizações de firmware são gerenciadas pelo serviço Skype for Business. Todo firmware de telefone certificado pelo Skype for Business é carregado para o servidor de atualização do Skype for Business e a atualização do dispositivo é habilitada em todos os telefones por padrão. Dependendo do tempo de inatividade no telefone e nos intervalos de sondagem, os telefones baixarão e instalarão automaticamente as compilações certificadas mais recentes. Você pode desativar as configurações de atualização de dispositivo usando o cmdlet [set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx) e definindo __ o parâmetro EnableDeviceUpdate `false`como.
+As atualizações de firmware são gerenciadas pelo serviço Skype for Business. Todo firmware de telefone certificado pelo Skype for Business é carregado para o servidor de atualização do Skype for Business e a atualização do dispositivo é habilitada em todos os telefones por padrão. Dependendo do tempo de inatividade no telefone e nos intervalos de sondagem, os telefones baixarão e instalarão automaticamente as compilações certificadas mais recentes. Você pode desativar as configurações de atualização de dispositivo usando o cmdlet [set-CsIPPhonePolicy](https://technet.microsoft.com/library/mt629497.aspx) e definindo __ o parâmetro EnableDeviceUpdate `false`como.
   
 ![Captura de tela mostrando a implantação de telefones](../../images/be727622-1924-439f-96ca-89230739db9e.png)
   
@@ -88,7 +88,7 @@ Você também pode optar por gerenciar atualizações de firmware usando um sist
   
 ### <a name="step-5---configuration-and-infrastructure-phone-settings"></a>Etapa 5-configurações e configurações de telefone de infraestrutura
 
-Você pode configurar as opções de telefone mais usadas e políticas usando cmdlets do Windows PowerShell de gerenciamento em banda do Skype for Business. Consulte [set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx) para obter detalhes sobre esses parâmetros e configurações.
+Você pode configurar as opções de telefone mais usadas e políticas usando cmdlets do Windows PowerShell de gerenciamento em banda do Skype for Business. Consulte [set-CsIPPhonePolicy](https://technet.microsoft.com/library/mt629497.aspx) para obter detalhes sobre esses parâmetros e configurações.
   
 Para o planejamento de infraestrutura de rede, consulte a [estrutura de operações do Skype](https://www.skypeoperationsframework.com/).
   
@@ -172,19 +172,19 @@ Você pode saber mais sobre os planos de chamadas lendo [sistema telefônico e p
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**Skype for Business** <br/> |**Exchange** <br/> |**Método de entrada no telefone** <br/> |**Acesso ao Skype for Business** <br/> |**Acesso do Exchange com autenticação moderna e MFA desabilitadas** <br/> |**Acesso do Exchange com autenticação moderna e MFA habilitados** <br/> |
-|Online  <br/> |Online  <br/> |Entrada na Web  <br/> |Sim  <br/> |Sim   <br/> |Sim  <br/> |
-|Online  <br/> |Online  <br/> |Nome de usuário/Senha  <br/> |Sim   <br/> |Sim  <br/> |Não  <br/> |
+|Online  <br/> |Online  <br/> |Entrada na Web  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
+|Online  <br/> |Online  <br/> |Nome de usuário/Senha  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
 |Online  <br/> |Local  <br/> |Entrada na Web  <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |
-|Online  <br/> |Local  <br/> |Nome de usuário/Senha  <br/> |Sim   <br/> |Sim  <br/> |Não  <br/> |
+|Online  <br/> |Local  <br/> |Nome de usuário/Senha  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
 |Local  <br/> |Online/local  <br/> |Autenticação de PIN  <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |
-|Local  <br/> |Online/local  <br/> |Nome de usuário/Senha  <br/> |Sim   <br/> |Sim  <br/> |N/D  <br/> |
-|Local  <br/> |Online/local  <br/> |Entrada via PC (BTOE)  <br/> |Sim   <br/> |Sim  <br/> |N/D  <br/> |
+|Local  <br/> |Online/local  <br/> |Nome de usuário/Senha  <br/> |Sim  <br/> |Sim  <br/> |N/D  <br/> |
+|Local  <br/> |Online/local  <br/> |Entrada via PC (BTOE)  <br/> |Sim  <br/> |Sim  <br/> |N/D  <br/> |
    
 - **Recursos de telefone** O conjunto de recursos pode variar um pouco de acordo com o parceiro de telefone IP. Para obter o conjunto de recursos completo e obter mais informações sobre os recursos para cada fabricante de telefone, consulte [como obter telefones para o Skype for Business online](getting-phones-for-skype-for-business-online.md).
     
 - **Phone-Lock** é um recurso introduzido recentemente nos telefones certificados pelo Skype for Business que é usado para proteger um telefone. Se habilitada, os usuários serão solicitados a criar um PIN após uma autenticação bem-sucedida. Após a criação, os telefones serão bloqueados quando o tempo limite ocioso definido expirar, um usuário bloqueará manualmente o telefone ou sincronizará seus telefones com o bloqueio do computador usando o emparelhamento por telefone. Se o PIN de bloqueio de telefone for digitado várias vezes, o telefone desconectará o usuário ou exigirá um código de administrador para desbloquear o telefone, mas isso varia de acordo com o parceiro de telefone. O PIN do usuário deve ter entre 6 e 15 dígitos.
     
-    Você pode desativar o bloqueio de telefone para sua organização (que é habilitado por padrão), alterar o tempo limite de ociosidade e escolher se os usuários podem fazer chamadas telefônicas enquanto estiverem bloqueados ou não usando as configurações de inband. Consulte [set-CsUCPhoneConfiguration](https://technet.microsoft.com/en-us/library/mt629497.aspx) para obter mais detalhes sobre essas configurações.
+    Você pode desativar o bloqueio de telefone para sua organização (que é habilitado por padrão), alterar o tempo limite de ociosidade e escolher se os usuários podem fazer chamadas telefônicas enquanto estiverem bloqueados ou não usando as configurações de inband. Consulte [set-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps) para obter mais detalhes sobre essas configurações.
     
 ## <a name="step-7-optional---if-you-have-device-pairing-and-better-together-over-ethernet-btoe"></a>Etapa 7 (opcional)-se você tiver o emparelhamento de dispositivos e melhor em conjunto com a Ethernet (BToE)
 <a name="BK_BTOE"> </a>
@@ -205,7 +205,7 @@ O BToE pode ser configurado para operar em dois modos: *automático* (padrão) e
     
      ![Captura de tela mostrando conexão a um PC](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
   
-2. Baixe e instale o software BToE mais recente do website do fabricante nos links abaixo. Para melhorar a experiência do usuário, você pode distribuir e instalar o software BToE usando uma solução de distribuição de administração, como o System Center Configuration Manager (SCCM). Para obter ajuda sobre como usar o SCCM, consulte [pacotes e programas no System Center Configuration Manager](https://docs.microsoft.com/sccm/apps/deploy-use/packages-and-programs).
+2. Baixe e instale o software BToE mais recente do website do fabricante nos links abaixo. Para ter uma experiência de usuário melhor, você pode distribuir e instalar o software BToE usando uma solução de distribuição de administração, como o Gerenciador de configuração do Microsoft Endpoint. Para obter ajuda sobre como usar o Configuration Manager, consulte [pacotes e programas no Configuration Manager](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs).
     
    - [Site de download de software do Polycom BToE](http://www.polycom.com/voice-conferencing-solutions/microsoft-phones.html)
     
@@ -213,7 +213,7 @@ O BToE pode ser configurado para operar em dois modos: *automático* (padrão) e
     
    - [Downloads de software do AudioCodes BToE](https://www.audiocodes.com/solutions-products/solutions/skype-for-business-microsoft-teams/skype-for-business-online)
     
-3. A configuração do servidor para BToE é definida como **Enabled** e **modo automático** por padrão. Para alterar essas configurações, consulte [set-CsIPPhonePolicy](https://technet.microsoft.com/en-us/library/mt629497.aspx).
+3. A configuração do servidor para BToE é definida como **Enabled** e **modo automático** por padrão. Para alterar essas configurações, consulte [set-CsIPPhonePolicy](https://technet.microsoft.com/library/mt629497.aspx).
     
 > [!NOTE]
 > BToE atualmente não é compatível com plataformas Mac e VDI. 

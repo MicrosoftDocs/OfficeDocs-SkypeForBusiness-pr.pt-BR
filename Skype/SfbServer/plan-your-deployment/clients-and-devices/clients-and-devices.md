@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'Resumo: revisão dos clientes e aplicativos compatíveis com o Skype for Business.'
-ms.openlocfilehash: bda5ca2a9694b87e3bc8a6684770e7efcfc224d4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d1ee70e39595d5891736dcd4e4830a9a7ef67213
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277437"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628267"
 ---
 # <a name="plan-for-clients-and-devices"></a>Planejar clientes e dispositivos
 
@@ -70,7 +70,7 @@ Se o Skype for Business não estiver instalado no computador de um usuário e o 
 
 ### <a name="skype-for-business-web-scheduler"></a>Agendador da Web do Skype for Business
 
-O Agendador do [Skype for Business Web](https://sched.lync.com) é uma ferramenta de agendamento e gerenciamento de reunião baseada na Web para usuários do Skype for Business online que não têm acesso ao Microsoft Outlook ou que estão em um sistema operacional que não é baseado no Windows. Com o Agendador do Skype for Business Web, os usuários podem criar novas reuniões, modificar reuniões existentes e enviar convites usando o programa de email preferido. A [documentação](https://support.office.com/en-us/article/Skype-for-Business-Web-Scheduler-3b24a211-6470-4a2d-81b7-22d9399d0fec?ui=en-US&amp;rs=en-US&amp;ad=US) do Agendador do Skype for Business Web fornece mais detalhes.
+O [Agendador do Skype for Business Web](https://sched.lync.com) é uma ferramenta de agendamento e gerenciamento de reunião baseada na Web para usuários do Skype for Business online que não têm acesso ao Microsoft Outlook ou que estão em um sistema operacional que não é baseado no Windows. Com o Agendador do Skype for Business Web, os usuários podem criar novas reuniões, modificar reuniões existentes e enviar convites usando o programa de email preferido. A [documentação](https://support.office.com/en-us/article/Skype-for-Business-Web-Scheduler-3b24a211-6470-4a2d-81b7-22d9399d0fec?ui=en-US&amp;rs=en-US&amp;ad=US) do Agendador do Skype for Business Web fornece mais detalhes.
 
 ### <a name="vdi-plugins"></a>Plug-ins VDI
 
@@ -91,7 +91,7 @@ Se sua organização comprou as licenças adequadas, escolha o cliente completo;
 
 Seus usuários podem instalar o cliente para si mesmo de [baixar o Skype for Business em todos os seus dispositivos](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3). O cliente também é instalado quando os usuários instalam o Office 365 no Windows. Se alguns dos seus usuários tiverem Macs, esses usuários terão um conjunto diferente de recursos, conforme descrito em seções anteriores.
 
-Alguns recursos disponíveis com o Skype for Business Server 2015 não estão disponíveis no Skype for Business online ou no Skype for Business Server 2019, consulte [limitações da conta de usuário online ou híbrida para 2015](desktop-feature-comparison.md#Online-Hybrid) ou [limitações da conta de usuário híbrida ou híbrida para 2019 ](desktop-feature-comparison.md#Online-Hybrid)para especificações específicas. Os administradores do Skype for Business Online podem querer consultar a [Descrição do serviço do Skype for Business online](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) para obter informações sobre os diferentes planos disponíveis.
+Alguns recursos disponíveis com o Skype for Business Server 2015 não estão disponíveis no Skype for Business online ou no Skype for Business Server 2019, consulte [limitações da conta de usuário online ou híbrida para 2015](desktop-feature-comparison.md#Online-Hybrid) ou [limitações da conta de usuário online ou híbrida para 2019](desktop-feature-comparison.md#Online-Hybrid) para fins específicos. Os administradores do Skype for Business Online podem querer consultar a [Descrição do serviço do Skype for Business online](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) para obter informações sobre os diferentes planos disponíveis.
 
  Antes de implantar ou atualizar para o Skype for Business, verifique quais clientes já estão em uso em sua organização. Use a [comparação de recursos do cliente de desktop do Skype for Business](desktop-feature-comparison.md) para entender o impacto do suporte a recursos nesses clientes. Isso pode ajudar você a comunicar alterações aos usuários, a acompanhar o processo de implantação e a compreender totalmente os benefícios da atualização para o cliente mais recente.
 
@@ -128,7 +128,7 @@ As versões de cliente básicas e completas (com a opção de versões de 32 e 6
 
 ### <a name="msi"></a>MSI
 
-O MSI é um método de instalação mais tradicional, usado nos clientes do Skype for Business 2015 e do 2016. Ele permite que você instale manualmente atualizações e patches, use o licenciamento por volume e a ativação, e é personalizável por meio da [ferramenta de personalização do Office](https://www.microsoft.com/en-us/download/details.aspx?id=49030). Você pode distribuir clientes aplicando as Políticas de Grupo, usando o System Center Configuration Manager ou usando uma ferramenta de terceiros.
+O MSI é um método de instalação mais tradicional, usado nos clientes do Skype for Business 2015 e do 2016. Ele permite que você instale manualmente atualizações e patches, use o licenciamento por volume e a ativação, e é personalizável por meio da [ferramenta de personalização do Office](https://www.microsoft.com/en-us/download/details.aspx?id=49030). Você pode distribuir clientes aplicando políticas de grupo usando o Gerenciador de configuração do Microsoft Endpoint ou usando uma ferramenta de terceiros.
 
 
 
@@ -137,7 +137,7 @@ O MSI é um método de instalação mais tradicional, usado nos clientes do Skyp
 
 O Skype for Business Server 2019 e o Skype for Business online são compatíveis com os seguintes clientes lançados anteriormente: Skype for Business 2016, Skype for Business 2015, Lync 2013.
 
-O Skype for Business Server 2015 oferece suporte aos seguintes clientes lançados anteriormente: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition e Lync 2010 Attendant. Para obter informações sobre esses clientes quando usados com outros servidores, consulte as tabelas de [comparação de clientes do Lync server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) e as [tabelas de comparação de clientes do Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx).
+O Skype for Business Server 2015 oferece suporte aos seguintes clientes lançados anteriormente: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition e Lync 2010 Attendant. Para obter informações sobre esses clientes quando usados com outros servidores, consulte as tabelas de [comparação de clientes do Lync server 2013](https://technet.microsoft.com/library/gg425836%28v=ocs.15%29.aspx) e as [tabelas de comparação de clientes do Lync Server 2010](https://technet.microsoft.com/library/gg425836%28v=ocs.14%29.aspx).
 
 
 ## <a name="client-system-requirements"></a>Requisitos do sistema do cliente

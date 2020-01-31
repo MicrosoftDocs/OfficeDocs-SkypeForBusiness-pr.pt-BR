@@ -3,7 +3,7 @@ title: Gerenciar políticas de configuração de aplicativo no Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: lajin
+ms.reviewer: lajin,rarang
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -17,21 +17,21 @@ search.appverid: MET150
 description: Saiba mais sobre as políticas de configuração de aplicativos no Microsoft Teams e como usá-las para fixar aplicativos para personalizar o Microsoft Teams para usuários em sua organização.
 f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 3cc794829df70fcbadc8a461a6a953d381536365
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: e80cacb952bd456e742aa6da0fec32d50c5f3188
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40955305"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573779"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Gerenciar políticas de configuração de aplicativo no Microsoft Teams
 
 > [!NOTE]
 > Se você habilitou a configuração de política de permissão do aplicativo em toda a organização, **permita a interação com aplicativos personalizados**, talvez você não veja as políticas de configuração do aplicativo ainda no centro de administração do Microsoft Teams. Ele está sendo implantado e estará disponível em breve em sua organização.
 
-Como administrador, você pode usar políticas de configuração do aplicativo para personalizar o Microsoft Teams para realçar os aplicativos que são mais importantes para seus usuários. Você escolhe os aplicativos para fixar e define a ordem em que eles aparecem. As políticas de configuração do aplicativo permitem que você mostre os aplicativos necessários para os usuários de sua organização, incluindo os criados por terceiros ou por desenvolvedores em sua organização. Você também pode usar as políticas de configuração do aplicativo para gerenciar como os recursos internos são exibidos.
+Como administrador, você pode usar políticas de configuração do aplicativo para personalizar o Microsoft Teams para realçar os aplicativos que são mais importantes para seus usuários. Você escolhe os aplicativos para fixar e define a ordem em que eles aparecem. As políticas de configuração do aplicativo permitem que você mostre os aplicativos necessários para os usuários de sua organização, incluindo os criados por terceiros ou por desenvolvedores em sua organização. Você também pode usar políticas de configuração do aplicativo para controlar se os usuários podem fixar aplicativos em equipes e gerenciar como os recursos internos são exibidos.
 
-Os aplicativos são fixados na barra de aplicativos. Esta é a barra do lado do cliente de desktop Teams e na parte inferior dos clientes móveis do Teams (iOS e Android). 
+Os aplicativos são fixados na barra de aplicativos. Esta é a barra do lado do cliente de desktop Teams e na parte inferior dos clientes móveis do Teams (iOS e Android).
 
 |Cliente de desktop Teams  |Cliente móvel do teams |
 |---------|---------|
@@ -52,13 +52,16 @@ Você pode usar o centro de administração do Microsoft Teams para criar uma po
 
 1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para > **políticas de configuração**de **aplicativos do teams**.
 2. Clique em **Adicionar**.
-3. Insira um nome e uma descrição para a política e, em seguida, clique em **adicionar aplicativos**.
-4. Ative ou desative a opção **permitir upload de aplicativos personalizados**, dependendo se você deseja permitir que os usuários carreguem aplicativos personalizados para o Microsoft Teams. Você não poderá alterar essa configuração se a opção **permitir que aplicativos de terceiros ou personalizados** estiverem desativados em [configurações de aplicativo de toda a organização](teams-app-permission-policies.md#manage-org-wide-app-settings) em políticas de permissão do aplicativo.
-5. No painel **adicionar aplicativos fixos** , procure os aplicativos que você deseja adicionar e, em seguida, clique em **Adicionar**. Você também pode filtrar aplicativos por política de permissão do aplicativo. Depois de escolher a lista de aplicativos, clique em **Adicionar**.
+    ![Captura de tela mostrando a página Adicionar políticas de configuração de aplicativos](media/app-setup-policies-add.png)
+3. Insira um nome e uma descrição para a política.
+4. Ative ou desative **carregar aplicativos personalizados**, dependendo se você deseja permitir que os usuários carreguem aplicativos personalizados para o Microsoft Teams. Você não poderá alterar essa configuração se a opção **permitir que aplicativos de terceiros** estiverem desativados em [configurações de aplicativo de toda a organização](teams-app-permission-policies.md#manage-org-wide-app-settings) em políticas de permissão do aplicativo.
+5. Ative ou desative **permitir a fixação do usuário**, dependendo se você deseja permitir que os usuários personalizem a barra de aplicativos fixando os aplicativos nela.
+6. Clique em **adicionar aplicativos**.
+7. No painel **adicionar aplicativos fixos** , procure os aplicativos que você deseja adicionar e, em seguida, clique em **Adicionar**. Você também pode filtrar aplicativos por política de permissão do aplicativo. Depois de escolher a lista de aplicativos, clique em **Adicionar**.
 
      ![Captura de tela mostrando o painel Adicionar aplicativos fixados](media/app-setup-policies-add-apps.png)
 
-6. Organize os aplicativos na ordem em que você deseja que eles apareçam no Teams e, em seguida, clique em **salvar**.
+8. Organize os aplicativos na ordem em que você deseja que eles apareçam no Teams e, em seguida, clique em **salvar**.
 
     ![Captura de tela mostrando a seção de aplicativos fixos](media/app-setup-policies-new-policy-setup.png)
 

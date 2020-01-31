@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Saiba como configurar telefones celulares comuns para "lobbies", áreas de recepção e salas de conferência '
-ms.openlocfilehash: d00d91d4461a8b197f8629d3dfe9cee6653b2473
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 95346976488c9e08286f8158dc280ef447b4fc8f
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925302"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628387"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configurar a licença de Telefone de Área Comum para o Microsoft Teams
 > [!NOTE]
@@ -34,7 +34,7 @@ Um telefone de área comum geralmente é colocado em uma área como um lobby ou 
 
 Nas etapas a seguir, ajudaremos você a configurar uma conta para o sistema telefônico implantar telefones de área comuns para a sua organização. Para obter uma experiência de reunião mais completa, incluindo videoconferência, considere comprar a licença de sala de reunião dedicada com um dispositivo de sala de reunião. 
 
-As primeiras coisas que você precisa fazer são comprar uma licença de CAP (telefone fixo) comum e verificar se você tem um telefone certificado. Para procurar e saber mais sobre telefones certificados, acesse [dispositivos Microsoft Teams](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1). 
+Primeiro, você precisa comprar uma licença de telefone (CAP) de área comum e verificar se tem um telefone certificado. Para procurar e saber mais sobre telefones certificados, acesse [dispositivos Microsoft Teams](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1). 
 
 ## <a name="step-1---buy-the-licenses"></a>Etapa 1 - Compre as licenças
 
@@ -44,7 +44,7 @@ As primeiras coisas que você precisa fazer são comprar uma licença de CAP (te
 
 2. Selecione comprar **telefone** > da área comum**agora**.
 
-3. Na página **check-out** , clique em **comprar agora**.
+3. Na página check-out, clique em **comprar agora**.
 
 4. Expanda **assinaturas complementares** e clique para comprar um plano de chamadas. Escolha o **plano de chamadas domésticas** ou de **chamadas domésticas e internacionais**.
 
@@ -93,17 +93,15 @@ Para obter mais informações, consulte [Adicionar um usuário](https://docs.mic
 
 ## <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>Etapa 3 - Atribuir um número de telefone à conta de usuário do Telefone de Área Comum
 
-Use o centro de administração do Skype for Business para atribuir um número ao usuário.
+Use o centro de administração do teams para atribuir um número ao usuário.
 
-1. No centro de administração do Microsoft 365, **selecione centros** > de administração e**equipes & portal do Skype** > **Legacy**.
-
-2. No centro de administração do Skype for Business, selecione**números de telefone**de **voz** > .
+1. No centro de administração do Teams, selecione**números de telefone**de **voz** > .
 
 3.  Selecione um número na lista de números de telefone e clique em **Atribuir**.
 
 4. Na página **atribuir** , na caixa usuário de voz, digite o nome do usuário que usará o telefone e, em seguida, selecione o usuário na lista suspensa **selecionar um usuário de voz** .
 
-5. Na página, você precisa adicionar um endereço de emergência. Escolha **Pesquisar por cidade**, **Pesquisar por descrição**ou **Pesquisar por local** na lista suspensa e, em seguida, insira a cidade, a descrição ou o local na caixa de texto. Depois de Pesquisar, procure em **selecionar endereço de emergência** para selecionar o endereço correto para você.
+5. Em seguida, você precisa adicionar um endereço de emergência. Escolha **Pesquisar por cidade**, **Pesquisar por descrição**ou **Pesquisar por local** na lista suspensa e, em seguida, insira a cidade, a descrição ou o local na caixa de texto. Depois de Pesquisar, procure em **selecionar endereço de emergência** para selecionar o endereço correto para você.
 
 6. Clique em **Salvar** e seu usuário ficará assim:
 
@@ -112,7 +110,7 @@ Use o centro de administração do Skype for Business para atribuir um número a
 > [!NOTE]
 > Os usuários só aparecerão se tiverem uma licença do sistema de telefonia aplicada. Quando fizer isso, pode levar um tempo para que o usuário apareça na lista.
 
-Para obter mais informações, consulte [como obter números de telefone para seus usuários](/microsoftteams/getting-phone-numbers-for-your-users).
+Para obter mais informações, consulte [como obter números de telefone para seus usuários](getting-phone-numbers-for-your-users.md).
 
 Você também pode levar seu número de telefone com outra transportadora e "portar" ou transferi-la para o Office 365. Veja [transferir números de telefone para o Microsoft Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 

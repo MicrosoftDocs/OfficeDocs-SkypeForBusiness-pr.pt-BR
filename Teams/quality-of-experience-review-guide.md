@@ -3,7 +3,6 @@ title: Qualidade da experiência do guia de avaliação do Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 09/05/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
@@ -15,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fcf18aa2487527c436b104011140524e6ce4ae5d
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: 91a4cda0cb7f16363f3fa90deb0358bf5600330a
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952804"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41580898"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guia de revisão da experiência de qualidade
 
@@ -58,25 +57,28 @@ Este guia se destina a ser usado por parceiros e interessados do cliente com fun
 
 Este guia também deve ser usado pelo (s) especialista (s) de qualidade designado (s). Para obter mais informações, consulte [a função Champion de qualidade](4-envision-plan-my-service-management.md#the-quality-champion-role).
 
-## <a name="prerequisites"></a>Pré-requisitos
+## <a name="assign-roles-for-accessing-cqd"></a>Atribuir funções para acessar o CQD
 
 Antes de usar este guia, verifique se você tem as [funções](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) de locatário adequadas atribuídas para poder acessar o CQD.
 
--   **Administrador global do Office 365** 
+Esta tabela mostra o que cada função pode fazer no CQD:
 
--   **Administrador do Skype for Business** 
 
--   **Administrador de Serviço de Equipes** 
+|  |Exibir relatórios  |Exibir campos EUII  |Criar relatórios  |Carregar dados de construção  |
+|---------|:-------:|:-------:|:-------:|:-------:|
+|Administrador global do Office 365     |Sim         |Sim          |Sim          |Sim         |
+|Administrador de Serviço de Equipes     |Sim         |Sim          |Sim          |Sim         |
+|Administrador de Comunicações de Equipes     |Sim         |Sim          |Sim          |Sim         |
+|Engenheiro de Suporte de Comunicações de Equipes     |Sim         |Sim          |Sim         |Não         |
+|Especialista em suporte do teams Communications     |Sim         |Não         |Sim         |Não         |
+|Administrador do Skype for Business     |Sim         |Sim          |Sim          |Sim         |
+|Leitor global do Azure AD |Sim         |Sim          |Sim         |Não         |
+|Leitor de relatórios<sup>1</sup> do Office 365     |Sim         |Não         |Sim         |Não         |
 
--   **Administrador de Comunicações de Equipes** 
+<sup>1</sup> além de ler relatórios do CQD, o leitor de relatórios do Office 365 pode exibir todos os [relatórios de atividades](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) no centro de administração e todos os relatórios do pacote de conteúdo de [adoção do Microsoft 365](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f).
 
--   **Engenheiro de Suporte de Comunicações de Equipes** 
-
--   **Especialista em suporte do teams Communications** 
-
-Como alternativa, você pode atribuir a função a seguir a uma conta de usuário do Office 365 para permitir o acesso somente aos recursos de relatório.
-
--   **Leitor de relatórios:** Pode exibir todos os [relatórios de atividades](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) no centro de administração, todos os relatórios do [pacote de conteúdo de adoção do 365](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)e relatórios do CQD.
+> [!NOTE]
+> Se você não estiver vendo EUII (informações identificáveis pelo usuário final) e tiver uma das funções que tem permissão para ver essas informações, lembre-se de que CQD só mantém EUII por 30 dias. Qualquer item mais antigo que 30 dias é excluído.
 
 ## <a name="what-is-quality"></a>O que é qualidade?
 
@@ -285,6 +287,8 @@ Há duas edições de relatório no CQD online: Resumo e detalhadas. Use o menu 
 -   Relatórios detalhados são totalmente personalizáveis e podem ser baixados para um arquivo CSV, exportados ou clonados.
 
 Para obter uma descrição completa da diferença entre as duas edições, confira [Este artigo](turning-on-and-using-call-quality-dashboard.md).
+
+Novidades em janeiro de 2020: [Baixe os modelos de consulta do Power bi para CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD Power BI query templates.zip?raw=true). Modelos personalizáveis do Power BI que você pode usar para analisar e relatar seus dados do CQD.
 
 _Figura 4-categorias de relatórios do CQD_
 

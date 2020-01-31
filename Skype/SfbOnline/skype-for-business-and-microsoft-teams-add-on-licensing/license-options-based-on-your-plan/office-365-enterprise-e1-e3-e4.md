@@ -20,16 +20,16 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba como comprar licenças de complemento, recursos e como comprar os planos E1, E3 e E4 do Office 365 Enterprise. '
-ms.openlocfilehash: a6cdfdac5aaa56d9e1bc87df8f33b1143517f1ac
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
-ms.translationtype: HT
+ms.openlocfilehash: afc20061171962a8887e37aae0b85783d617cc85
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35792878"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573627"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Enterprise E1, E3 e E4
 
-Se você já adquiriu o [Office 365 Enterprise E1](https://products.office.com/pt-BR/business/office-365-enterprise-e1-business-software), [E3](https://products.office.com/pt-BR/business/office-365-enterprise-e3-business-software) ou E4, estas são as licenças de complementos que você precisa comprar para obter mais recursos do Skype for Business.
+Se você já adquiriu o [Office 365 Enterprise E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software), [E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software) ou E4, estas são as licenças de complementos que você precisa comprar para obter mais recursos do Skype for Business.
 
 |||
 |:-----|:-----|
@@ -40,6 +40,8 @@ Se você já adquiriu o [Office 365 Enterprise E1](https://products.office.com/p
 |**Caixa Postal da Nuvem** <br/> |Para os planos E1 e E4, compre o Exchange Online Plan 2. <br/>Ou mude para um Pacote do Office que venha com o Exchange Online Plan 2, como o Office 365 E3. |
 |**Planos de Chamadas** <br/> |1. Complemento do **Sistema de Telefonia** <br/> 2. [Plano de Chamadas](/MicrosoftTeams/calling-plans-for-office-365): você pode comprá-lo somente depois de ter comprado o complemento do **Sistema de Telefonia**. <br/> |
    
+ > [!IMPORTANT]
+ > As licenças do Office 365 E4 foram oficialmente desativadas. Para obter mais detalhes, consulte [informações importantes para os clientes do Office 365 Enterprise E4](https://support.office.com/article/important-information-for-office-365-enterprise-e4-customers-f9572348-43a2-43fa-a3d8-3b6c9c042147) .
   
 ## <a name="e1-and-e3-customers-how-to-see-prices-and-buy"></a>Clientes dos planos E1 e E3: como ver preços e comprar
 <a name="bkmk_buypremium"> </a>

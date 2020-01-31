@@ -16,12 +16,12 @@ f1keywords:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c49cf08d7d753e3a05bdcac89105f24621ccf29f
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: ad278fe758c07c734d71f9179386db167ad8f4fc
+ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992798"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "41634874"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>O que são os eventos ao vivo do Microsoft Teams ?
 
@@ -73,7 +73,7 @@ A plataforma de transmissão de eventos ao vivo é composta pelos seguintes iten
 ### <a name="enterprise-content-delivery-network-ecdn"></a>Rede de distribuição de conteúdo corporativo (eCDN)
 O objetivo do eCDN é pegar o conteúdo de vídeo da Internet e distribuir o conteúdo em toda a sua empresa sem afetar o desempenho da rede. Você pode usar um dos seguintes parceiros certificados eCDN para otimizar sua rede para eventos dinâmicos mantidos em sua organização:
 - [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/)
-- [Kollective](https://kollective.com/microsoft-pilot/)
+- [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [Gama](http://www.ramp.com)
 
 ### <a name="attendee-experience"></a>Experiência do participante 

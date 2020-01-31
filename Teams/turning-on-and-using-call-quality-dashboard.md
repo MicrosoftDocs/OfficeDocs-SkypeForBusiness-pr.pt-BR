@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Veja como ativar e usar o painel de qualidade da chamada e obter relatórios resumidos de qualidade das chamadas. '
-ms.openlocfilehash: 429904020a63b93fefd1adee7ee89d02a47f1d61
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 4aea268e2c25e655b7f2dee914497ae3154f0008
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41005153"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41620023"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Ativar e usar o painel de qualidade de chamada do Microsoft Teams e do Skype for Business Online
 
@@ -188,13 +188,15 @@ CQD relatórios de resumo fornecem um subconjunto de recursos planejados para re
 |Personalização do conjunto de relatórios (adicionar, excluir, modificar relatórios)   | Não   | Sim   |
 |Métricas de compartilhamento de tela com base em vídeo   | Não   | Sim   |
 |Métricas de vídeo   | Não   | Sim   |
-|Quantidade de dados disponíveis   | Últimos seis meses   | Últimos seis meses   |
+|Quantidade de dados disponíveis   | Últimos 12 meses   | Últimos 12 meses   |
 |Dados do Microsoft Teams   | Sim   | Sim   |
 | | | |
 
 ### <a name="out-of-the-box-reports"></a>Relatórios prontos da caixa
 
 Todas as edições do CQD fornecem uma experiência que oferece métricas de qualidade de chamada sem a necessidade de criar novos relatórios. Depois que os dados forem processados no back-end, você verá dados de qualidade da chamada nos relatórios.
+
+Novidades em janeiro de 2020: [Baixe os modelos de consulta do Power bi para CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD Power BI query templates.zip?raw=true). Modelos personalizáveis do Power BI que você pode usar para analisar e relatar seus dados do CQD.
   
 ### <a name="overview-reports"></a>Relatórios de visão geral
 
@@ -395,6 +397,17 @@ EndpointName, EndpointMake, EndpointModel, EndpointType, EndpointLabel1, Endpoin
 
 "1409W3534, fabricante do 123, modelo da Fabrikam 123, laptop, designado para laptop 2018, etiqueta de ativo 5678, comprar 2018
 
+## <a name="migrate-reports-from-previous-version-of-cqd"></a>Migrar relatórios de uma versão anterior do CQD
+
+Se você criou relatórios ou carregou arquivos de dados locatários (mapeamento) para o CQD para ohttps://cqd.lync.com) Skype for Business (e deseja migrá-los parahttps://cqd.teams.microsoft.com)o CQD for Teams (, veja como:
+
+1.  Vá para [https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/) e navegue até o conjunto de relatórios que você deseja exportar. 
+2.  Passe o mouse sobre o relatório e, na guia "..." , escolha **Exportar árvore de relatório**. Salve o arquivo de exportação.
+3.  Acesse [https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/) e navegue até o local onde deseja importar os relatórios.
+4.  Nos links à esquerda, clique em **importar** e selecione o arquivo exportado. 
+5.  Após a importação dos relatórios, você verá esta mensagem: "a importação do relatório foi bem-sucedida. O novo relatório foi adicionado ao final do conjunto de relatórios. " 
+
+
 ## <a name="create-custom-detailed-reports"></a>Criar relatórios detalhados personalizados
 
 Se você acha que deseja criar um relatório específico que se concentre em uma dimensão dos dados de uma maneira que os relatórios detalhados fornecidos não o fazem, crie um relatório personalizado.
@@ -445,7 +458,17 @@ Ao comparar dados para estes dois serviços:
   - Com fio: WiFi
   - Rede corporativa: rede doméstica
   
+### <a name="why-cant-i-see-euii-in-cqd"></a>Por que não consigo ver o EUII no CQD?
 
+Essas funções de administrador podem acessar o CQD, mas não podem ver EUII (informações identificáveis pelo usuário final):
+- Leitor de relatórios do Office 365
+- Especialista em suporte do teams Communications
+
+Para saber mais sobre as funções que podem acessar o CQD-, incluindo EUII, [atribua funções para acessar o CQD](quality-of-experience-review-guide.md#assign-roles-for-accessing-cqd).
+
+### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>Por que estou vendo as informações do Skype for Business no CQD quando já filtro para o Microsoft Teams?
+
+Ao filtrar para equipes somente nos relatórios do CQD (isteams = 1), você está filtrando todas as chamadas em que o *primeiro ponto de extremidade* é Teams. Se o *segundo ponto de extremidade* for o Skype for Business, essas informações serão exibidas no seu relatório do CQD.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

@@ -1,5 +1,5 @@
 ---
-title: Instalar o Microsoft Teams usando MSI via SCCM
+title: Instalar o Microsoft Teams usando MSI por meio do Gerenciador de configuração do Microsoft Endpoint
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -14,19 +14,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd934c601b45258dd7a2e2c15ef49f19ffee9201
-ms.sourcegitcommit: 416a2d404a2ea15b484cd7579035e7f2282ac2cf
+ms.openlocfilehash: 2f6902ae52c04d0087bb6718b119ae66dd920ced
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/18/2020
-ms.locfileid: "41233270"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628127"
 ---
-# <a name="install-microsoft-teams-using-msi"></a>Instalar o Microsoft Teams usando MSI
+# <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Instalar o Microsoft Teams usando o Gerenciador de configuração do Microsoft Endpoint
 
 > [!Tip]
 > Assista à sessão a seguir para conhecer os benefícios do Windows Desktop Client e como planejar e executar sua implantação: [Cliente de Desktop do Microsoft Teams](https://aka.ms/teams-clients)
 
-Para usar o System Center Configuration Manager, a Política de Grupo ou qualquer mecanismo de distribuição de terceiros para ampla implantação, a Microsoft oferece arquivos MSI (de 32 bits e 64 bits) que os administradores podem usar para a implantação em massa do Teams para usuários ou computadores selecionados. Os administradores podem usar esses arquivos para implantar o Teams remotamente, de modo que os usuários não precisem baixar manualmente o aplicativo Teams. Quando implantado, o Teams iniciará automaticamente para todos os usuários que fizerem logon naquele computador. (Você pode desabilitar o início automático depois de instalar o aplicativo. [Confira abaixo](#disable-auto-launch-for-the-msi-installer).) É recomendável implantar o pacote no computador para que todos os novos usuários dele também se beneficiem com a implantação.
+Para usar o Gerenciador de configuração do Microsoft Endpoint ou a política de grupo ou qualquer mecanismo de distribuição de terceiros para implantação ampla, a Microsoft forneceu arquivos MSI (32 bits e 64 bits) que os administradores podem usar para a implantação em massa do teams para selecionar usuários ou computadores. Os administradores podem usar esses arquivos para implantar o Teams remotamente, de modo que os usuários não precisem baixar manualmente o aplicativo Teams. Quando implantado, o Teams iniciará automaticamente para todos os usuários que fizerem logon naquele computador. (Você pode desabilitar o início automático depois de instalar o aplicativo. [Confira abaixo](#disable-auto-launch-for-the-msi-installer).) É recomendável implantar o pacote no computador para que todos os novos usuários dele também se beneficiem com a implantação.
 
 Estes são os links para os arquivos MSI:
 
@@ -41,7 +41,7 @@ Estes são os links para os arquivos MSI:
 O Teams também pode ser incluído em uma implantação do Office 365 ProPlus. Para obter mais informações, confira [Implantar o Microsoft Teams com Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install).
 
 > [!Note]
-> Para saber mais sobre o SCCM, confira [Introdução ao System Center Configuration Manager](https://docs.microsoft.com/sccm/core/understand/introduction).
+> Para saber mais sobre o Gerenciador de configuração do Microsoft EndPoint, consulte [o que é o Configuration Manager?](https://docs.microsoft.com/configmgr/core/understand/introduction).
 
 ## <a name="deployment-procedure-recommended"></a>Procedimento de implantação (recomendado)
 
@@ -80,7 +80,7 @@ Se um usuário desinstalar o Teams do seu perfil de usuário, o instalador do MS
 3. Reimplante o pacote MSI no computador específico.
 
 > [!TIP]
-> Você pode usar nosso script de [Limpeza de implantação do Microsoft Teams](scripts/powershell-script-teams-deployment-clean-up.md) para concluir as etapas 1 e 2 via SCCM.
+> Você pode usar o script de [limpeza de implantação do Microsoft Teams](scripts/Powershell-script-teams-deployment-clean-up.md) para executar as etapas 1 e 2 via Configuration Manager.
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>Impedir que o Microsoft Teams inicie automaticamente após a instalação
 

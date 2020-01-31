@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar o sistema telefônico para filas de chamadas em nuvem com o Microsoft Teams.
-ms.openlocfilehash: be307c79330e324c7a5673cc4e636bf311f96289
-ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
+ms.openlocfilehash: c33baabdce8366ed9a4027c0b1e030f54eef543b
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2020
-ms.locfileid: "41557862"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41620004"
 ---
 # <a name="create-a-cloud-call-queue"></a>Criar uma fila de chamada do Cloud
 
@@ -202,9 +202,9 @@ Os agentes de chamada selecionados devem ser:
 **Método de roteamento** Você pode escolher o **atendedor**, a **série**ou o **rodízio** como o método de distribuição. Todas as filas de chamadas novas e existentes têm roteamento de atendedor selecionado por padrão. Quando o roteamento do atendente é usado, a primeira chamada na fila toca em todos os agentes de chamada ao mesmo tempo. O primeiro agente de chamadas para atender a chamada recebe a chamada.
 
 - O **Roteamento de atendedor** faz com que a primeira chamada na fila toque em todos os agentes de chamada ao mesmo tempo. O primeiro agente de chamadas para atender a chamada recebe a chamada.
-- **Roteamento serial** as chamadas de entrada do Ring para os agentes de chamadas, um por um, do início da lista de agentes de chamadas. Os agentes não podem ser solicitados na lista agente de chamadas. Se um agente ignorar ou não atender a chamada, a chamada tocará no próximo agente e experimentará todos os agentes até que ele seja retirado ou expirado.
+- **Roteamento serial** as chamadas recebidas entram em contato com todos os agentes de chamada, um por um, do início da lista de agentes de chamadas. Os agentes não podem ser solicitados na lista agente de chamadas. Se um agente ignorar ou não atender a chamada, a chamada tocará no próximo agente e experimentará todos os agentes até que ele seja retirado ou expirado.
   > [!NOTE]
-  > O roteamento serial vai ignorar os agentes que estiverem **offline**, definir sua presença como **não incomodar** **ou optar por** não receber chamadas desta fila.
+  > Com o roteamento serial, para agentes que estiverem **offline** ou que definiram sua presença como **não incomodar**, a chamada será roteada para esses usuários e não poderá conectar o usuário indisponível, o roteamento para o próximo agente na lista de agentes. Isso não acontecerá se o agente **optar** por não receber chamadas da fila de chamadas. Para reduzir o intervalo de tempo que os roteiros de chamadas para o próximo agente na linha, o tempo de alerta do agente pode ser reduzido.
 - O direcionamento de **rodízio** equilibra a circulação de chamadas de entrada para que cada agente de chamadas obtenha o mesmo número de chamadas da fila. Isso pode ser desejável em um ambiente de vendas de entrada para garantir uma oportunidade igual entre todos os agentes de chamadas.
 
 ### <a name="select-an-agent-opt-out-option"></a>Selecionar uma opção de cancelamento de agente

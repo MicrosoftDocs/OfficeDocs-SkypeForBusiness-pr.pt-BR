@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: 'Resumo: saiba como implantar o monitoramento no Skype for Business Server.'
-ms.openlocfilehash: 7f3bd96b814b45b625612aae9b56a706dfff470f
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: c6ccf371d07dfa7d4fbee582a47c7d1306d6c509
+ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001141"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "41634844"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>Implantar o monitoramento no Skype for Business Server
 
@@ -29,7 +29,7 @@ Geralmente, você implementará serviços de monitoramento em sua topologia conc
 
 2. Associando um repositório de monitoramento (ou seja, um banco de dados de monitoramento) ao novo pool. Observe que um único repositório pode ser associado a vários pools. Dependendo do número de usuários hospedados em seus pools de registradores, isso significa que não é necessário configurar um banco de dados de monitoramento separado para cada um dos seus pools. Em vez disso, um único repositório de monitoramento pode ser usado por vários pools.
 
-Embora normalmente seja mais fácil habilitar o monitoramento ao mesmo tempo em que o novo pool é criado, também é possível criar um novo pool com o monitoramento desabilitado. Se o fizer, você pode usar o Construtor de Topologias mais tarde para habilitar o serviço: o Construtor de Topologias fornece uma maneira de habilitar ou desabilitar o monitoramento para um pool ou de associar um pool a um repositório de monitoramento diferente. Tenha em mente que embora não exista mais uma função Monitoring Server, ainda será necessário criar um ou mais repositórios de monitoramento: bancos de dados de back-end usados para armazenar os dados reunidos pelo serviço de monitoramento. Esses bancos de dados de back-end podem ser criados usando o Microsoft SQL Server 2008 R2, o Microsoft SQL Server 2012 ou o Microsoft SQL Server 2014.
+Embora normalmente seja mais fácil habilitar o monitoramento ao mesmo tempo em que o novo pool é criado, também é possível criar um novo pool com o monitoramento desabilitado. Se o fizer, você pode usar o Construtor de Topologias mais tarde para habilitar o serviço: o Construtor de Topologias fornece uma maneira de habilitar ou desabilitar o monitoramento para um pool ou de associar um pool a um repositório de monitoramento diferente. Tenha em mente que embora não exista mais uma função Monitoring Server, ainda será necessário criar um ou mais repositórios de monitoramento: bancos de dados de back-end usados para armazenar os dados reunidos pelo serviço de monitoramento. Esses bancos de dados back-end podem ser criados usando o Microsoft SQL Server 2008 R2, Microsoft SQL Server 2012, Microsoft SQL Server 2014 ou Microsoft SQL Server 2019.
 
 > [!NOTE]
 > Se o monitoramento tiver sido habilitado para um pool, você poderá desabilitar o processo de coleta de dados de monitoramento sem precisar alterar a topologia: o Skype for Business Server oferece uma maneira de desabilitar (e depois habilitar novamente) a CDR (gravação de detalhes de chamadas) ou a qualidade de Experience (QoE) coleta de dados. Para obter mais informações, consulte a seção Como Configurar o Registro de Detalhes das Chamadas e Configurações de Qualidade da Experiência deste documento.

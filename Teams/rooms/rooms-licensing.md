@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba mais sobre os recursos disponíveis em salas do Microsoft Teams. '
-ms.openlocfilehash: 81a1ec8142ba43d17552c220495aae212ba2de04
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 9358eafd4b4e4c9f556a6cca350afa2a5fa4b6fc
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268717"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628247"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Atualização do licenciamento da sala de reunião do teams
 
@@ -66,7 +66,7 @@ A tabela a seguir lista os recursos que estão disponíveis nos quartos do Micro
 |Iniciar uma reunião ad hoc | SKU da sala de reunião  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Enterprise CAL|
 |Iniciar uma reunião ad hoc e discar de uma reunião para números de telefone |  SKU da sala de reunião |Skype for Business Standard CAL  <br/> Skype for Business Server Enterprise CAL|
 |Dê à sala um número de telefone e faça ou receba uma chamada da sala ou ingresse em uma conferência de áudio usando um número de telefone  | SKU da sala de reunião  |Skype for Business Server Standard CAL  <br/> Skype for Business Server Plus CAL  |
-|Gerenciar o dispositivo da sala com o Microsoft Intune |SKU da sala de reunião  |Assinatura do Microsoft Intune com [MDM no local](https://docs.microsoft.com/sccm/mdm/plan-design/plan-on-premises-mdm) |
+|Gerenciar o dispositivo da sala com o Microsoft Intune |SKU da sala de reunião  |Assinatura do Microsoft Intune com [MDM local](https://docs.microsoft.com/configmgr/mdm/plan-design/plan-on-premises-mdm) |
 | |||
 
 > [!NOTE]

@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 TOCTitle: Configuration management
 ms:assetid: 00ea1196-cb40-427f-99a4-5e8037cbf367
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720316(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn720316(v=OCS.15)
 ms:contentKeyID: 63969570
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa4bacdea1090351e9937e039fec184a1f59ab0f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cb652485b03bcaee5e63bc4fc23d25fd5df958bd
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836473"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628347"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuration-management-in-lync-server-2013"></a>Gerenciamento de configuração no Lync Server 2013
 
@@ -73,7 +73,7 @@ Há muitas ferramentas para detectar, auditar e relatar ativos. Algumas dessas f
 
   - **Scripts automatizados**   você pode escrever scripts simples para relatar itens como o sistema operacional, o nível do Service Pack e se existe um software em um conjunto específico de computadores. Você pode escrever esses scripts para os requisitos exatos de uma organização. No entanto, o número necessário de scripts e sua complexidade pode fazer com que os scripts criem e mantenham seus custos caros.
 
-  - **Ferramentas automatizadas**   dependendo do tamanho da sua empresa e de suas necessidades organizacionais, você pode querer considerar o uso de ferramentas automatizadas. Ferramentas como o System Center Configuration Manager incorporam modelos de relatório padrão (como o nível de Service Pack) e também permitem que você crie relatórios personalizados, por exemplo, para um aplicativo personalizado. O System Center Configuration Manager também pode ser usado para relatar configurações de hardware e software.
+  - **Ferramentas automatizadas**   dependendo do tamanho da sua empresa e de suas necessidades organizacionais, você pode querer considerar o uso de ferramentas automatizadas. Ferramentas como o Microsoft Endpoint Configuration Manager incorporam modelos de relatório padrão (como o nível de Service Pack) e também permitem que você crie relatórios personalizados, por exemplo, para um aplicativo personalizado. O Microsoft Endpoint Configuration Manager também pode ser usado para relatar configurações de hardware e software.
 
 </div>
 

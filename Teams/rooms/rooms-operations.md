@@ -11,12 +11,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: Leia este tópico para saber mais sobre o gerenciamento de salas do Microsoft Teams, a próxima geração de sistemas de sala do Skype.
-ms.openlocfilehash: 626190406cf90cdbf09f2ab27d2b31f648f073c9
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 0eb68e74368a9ae4463ab5f6a9721a844b151152
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268746"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628657"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Manutenção e operações de salas do Microsoft Teams 
  
@@ -61,9 +61,9 @@ A tabela a seguir resume as operações remotas possíveis e os métodos que voc
 
 |Grupo de trabalho |Não ingresso em domínio|Ingresso em domínio|
 |:-----|:-----|:-----|
-|Reiniciar  <br/> |Área de trabalho remota  <br/> PowerShell Remoto  <br/> |Área de trabalho remota (requer configuração adicional)  <br/> PowerShell remoto (requer configuração adicional)  <br/> SCCM  <br/> |
+|Reiniciar  <br/> |Área de trabalho remota  <br/> PowerShell Remoto  <br/> |Área de trabalho remota (requer configuração adicional)  <br/> PowerShell remoto (requer configuração adicional)  <br/> Configuration Manager  <br/> |
 |Atualização do sistema operacional  <br/> |Se forem necessárias regras mais restritivas, veja as seguintes URLs de lista de permissões:  <br/> |Windows Update  <br/> WSUS  <br/> |
-|Atualização de aplicativos  <br/> |Windows Store  <br/> |Windows Store  <br/> SCCM  <br/> |
+|Atualização de aplicativos  <br/> |Windows Store  <br/> |Windows Store  <br/> Configuration Manager  <br/> |
 |Configuração de contas do Skype  <br/> |Sem suporte no momento  <br/> |Sem suporte no momento  <br/> |
 |Acesso aos logs  <br/> |Sem suporte no momento  <br/> |Sem suporte no momento  <br/> |
    
@@ -166,7 +166,7 @@ Por padrão, as salas do Microsoft Teams tentam se conectar à Windows Store par
   
 Por padrão, as salas do Microsoft Teams se conectam ao Windows Update para recuperar atualizações do sistema operacional e do firmware do dispositivo periférico USB e as instalam fora do horário comercial configurado. Para configurar o horário comercial, entre na conta de administrador e execute o aplicativo Configurações.
   
-Se você quiser gerenciar as atualizações manualmente e não conseguir seguir o procedimento normal para a [Microsoft Store para empresas](https://businessstore.microsoft.com/store) [distribuir aplicativos offline](https://docs.microsoft.com/microsoft-store/distribute-offline-apps), você pode adquirir o arquivo Appx e as dependências apropriados do [Kit de implantação](https://go.microsoft.com/fwlink/?linkid=851168) (nas instruções para [configurar um console de salas do Microsoft Teams](console.md)) que podem ser usados com o SCCM. A versão do kit de implantação está atrasada atrás do lançamento da loja, portanto, talvez nem sempre corresponda à versão mais recente disponível.
+Se você quiser gerenciar as atualizações manualmente e não conseguir seguir o procedimento normal para a [Microsoft Store para empresas](https://businessstore.microsoft.com/store) [distribuir aplicativos offline](https://docs.microsoft.com/microsoft-store/distribute-offline-apps), você pode adquirir o arquivo Appx e as dependências apropriados do [Kit de implantação](https://go.microsoft.com/fwlink/?linkid=851168) (nas instruções para [configurar um console de salas do Microsoft Teams](console.md)) que podem ser usados com o Configuration Manager. A versão do kit de implantação está atrasada atrás do lançamento da loja, portanto, talvez nem sempre corresponda à versão mais recente disponível.
   
 ### <a name="to-update-using-powershell"></a>Para atualizar usando o PowerShell
 
