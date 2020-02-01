@@ -20,68 +20,70 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Saiba como gerenciar as configurações de política de reunião no Teams.
-ms.openlocfilehash: 41d1bf8c68ef96f3a657113864c21a993dfc3826
-ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
+ms.openlocfilehash: 9199be5eced7faee3e72f7b94c1f9e3be3c9573c
+ms.sourcegitcommit: a47bd5194672820380d30722b60779ce2d8a8f78
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2020
-ms.locfileid: "41554338"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41649092"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Gerenciar políticas de reunião no Teams
 
 ::: zone target="docs"
-As políticas de reunião são usadas para controlar os recursos que estão disponíveis para os participantes da reunião em reuniões agendadas pelos usuários da sua organização. Depois de criar uma política e fazer suas alterações, você pode atribuir usuários à política. Você gerencia políticas de reunião no centro de administração do Microsoft Teams ou [usando o PowerShell](teams-powershell-overview.md).
+As políticas de reunião são usadas para controlar os recursos que estão disponíveis para os participantes da reunião em reuniões agendadas pelos usuários da sua organização. Depois de criar uma política e fazer suas alterações, você pode atribuir usuários à política. Você gerencia políticas de reunião no centro de administração do Microsoft Teams ou usando o [PowerShell](teams-powershell-overview.md).
 
 Você pode implementar políticas das seguintes maneiras, que afetam a experiência de reunião para os usuários antes de iniciar uma reunião, durante uma reunião ou após uma reunião.
 
 |Tipo de implementação  |Descrição  |
 |---------|---------|
 |Por organizador    |Quando você implementa uma política por organizador, todos os participantes da reunião herdam a política do organizador. Por exemplo, **admitir pessoas automaticamente** é uma política por organizador e controla se os usuários ingressam na reunião diretamente ou esperam no lobby para reuniões agendadas pelo usuário ao qual a política é atribuída.          |
-|Por usuário    |Quando você implementa uma política por usuário, somente a política por usuário se aplica para restringir determinados recursos para o organizador e/ou participantes da reunião. Por exemplo, **permitir reunião agora** é uma política por usuário.     |
-|Por organização e por usuário     |Quando você implementa uma combinação de uma política por organização e por usuário, certos recursos são restritos para participantes da reunião com base em sua política e na política do organizador. Por exemplo, **permitir gravação na nuvem** é uma política por organização e por usuário. Ative essa configuração para permitir que o organizador da reunião e os participantes iniciem e parem de gravar. 
+|Por usuário    |Quando você implementa uma política por usuário, somente a política por usuário se aplica para restringir determinados recursos para o organizador e/ou participantes da reunião. Por exemplo, **permitir reunir agora em canais** é uma política por usuário.     |
+|Por organização e por usuário     |Quando você implementa uma combinação de uma política por organização e por usuário, certos recursos são restritos para participantes da reunião com base em sua política e na política do organizador. Por exemplo, **permitir gravação na nuvem** é uma política por organização e por usuário. Ative essa configuração para permitir que o organizador da reunião e os participantes iniciem e parem de gravar.
 
-Por padrão, uma política denominada Global (padrão toda a organização) é criada. Por padrão, todos os usuários de sua organização serão atribuídos a essa política de reunião. Você pode fazer alterações nessa política ou criar uma ou mais políticas personalizadas e atribuir usuários a elas. Quando você cria uma política personalizada, pode permitir ou impedir que determinados recursos sejam disponibilizados para seus usuários e, em seguida, atribuí-los a um ou mais usuários que terão as configurações aplicadas a eles. 
+Por padrão, uma política chamada global (padrão para toda a organização) é criada. Por padrão, todos os usuários de sua organização recebem a política de reunião global. Você pode fazer alterações nele ou criar uma ou mais políticas personalizadas e atribuir usuários a elas. Os usuários receberão a política global, a menos que você crie e atribua uma política personalizada. Quando você cria uma política personalizada, pode permitir ou impedir que determinados recursos sejam disponibilizados para seus usuários e, em seguida, atribuí-los a um ou mais usuários que terão as configurações aplicadas a eles.
 
 ## <a name="change-or-create-a-meeting-policy"></a>Alterar ou criar uma política de reunião
 
-Para alterar ou criar uma política de reunião, vá para o centro de administração do Microsoft Teams >**políticas de reunião**de **reuniões** > . Selecione uma política na lista ou selecione **nova política**. Se você estiver criando uma nova política, adicione um nome e uma descrição. O nome não pode conter caracteres especiais ou ter mais de 64 caracteres. Escolha as configurações e, em seguida, selecione **salvar**.
+Para alterar ou criar uma política de reunião, vá para o centro de administração do Microsoft Teams >**políticas de reunião**de **reuniões** > . Selecione uma política na lista ou selecione **Adicionar**. Se você estiver criando uma nova política, adicione um nome e uma descrição. O nome não pode conter caracteres especiais ou ter mais de 64 caracteres. Escolha as configurações e, em seguida, selecione **salvar**.
 
 Por exemplo, digamos que você tenha um grupo de usuários e deseja limitar a quantidade de largura de banda que a reunião exigiria. Crie uma nova política personalizada chamada "largura de banda limitada" e desabilite as seguintes configurações:
 
 Em **áudio & vídeo**:
-- Desativar a gravação na nuvem
-- Desativar permitir vídeo de IP
+- Desative permitir gravação na nuvem.
+- Desative permitir vídeo de IP.
 
 Em **compartilhamento de conteúdo**:
-- Desabilitar o modo de compartilhamento de tela
-- Desabilitar o quadro de comunicações
-- Desativar anotações compartilhadas
+- Desabilitar o modo de compartilhamento de tela.
+- Desative o recurso permitir quadro de comunicações.
+- Desativar a opção permitir anotações compartilhadas.
 
 Em seguida, atribua a política aos usuários.
 
-> [!NOTE] 
-> Somente uma política de reunião pode ser atribuída a um usuário de cada vez. 
+> [!NOTE]
+> Somente uma política de reunião pode ser atribuída a um usuário de cada vez.
 
 ## <a name="assign-a-meeting-policy-to-users"></a>Atribuir uma política de reunião aos usuários
 
-Se você estiver aplicando a política a um usuário, selecione **usuários** no painel de navegação à esquerda e clique no nome de exibição do usuário. Na página do usuário, ao lado de **políticas atribuídas**, selecione **Editar**. Em seguida, no painel **Editar políticas de usuário** , em **política de reunião**, selecione a política de reunião na lista suspensa e, em seguida, selecione **salvar**. Você também pode atribuir políticas da lista de usuários. Para fazer isso, escolha o usuário clicando à esquerda do nome de exibição do usuário. Escolha **Editar configurações**. Em seguida, no painel **Editar configurações** , em **política de reunião**, selecione a política na lista suspensa e, em seguida, selecione **salvar**. 
- 
-Se você estiver aplicando uma política a mais de um usuário, selecione **usuários** no painel de navegação à esquerda e, em seguida, selecione cada usuário clicando à esquerda do nome do usuário e, em seguida, clique em **Editar configurações**. No painel **Editar configurações** , em **política de reunião**, selecione a política na lista suspensa e, em seguida, selecione **salvar**.
- 
-Você também pode atribuir uma política de reunião a um ou mais usuários da seguinte maneira:
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para **usuários**e, em seguida, clique no usuário.
+2. Selecione o usuário clicando à esquerda do nome do usuário e, em seguida, clique em **Editar configurações**.
+3. Em **política de reunião**, selecione a política que você deseja atribuir e clique em **aplicar**.
 
-1. Acesse >  **o centro de administração do Microsoft Teams**,**políticas de reunião**de**reuniões** > .
+Para atribuir uma política a vários usuários de uma vez, consulte [Editar configurações de usuários do teams em massa](edit-user-settings-in-bulk.md).
+
+Ou, você também pode fazer o seguinte:
+
+1. Na navegação à esquerda do centro de administração do Microsoft Teams, vá para**políticas de reunião**de **reuniões** > .
 2. Escolha a política clicando à esquerda do nome da política.
 3. Escolha **Gerenciar usuários**.
 4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
-5. Quando tiver terminado de adicionar usuários, selecione **salvar**.
- 
-> [!NOTE] 
+5. Após terminar de adicionar usuários, selecione **salvar**.
+
+> [!NOTE]
 > Você não pode excluir uma política se usuários estiverem atribuídos a ela. Primeiro, você deve atribuir uma política diferente a todos os usuários afetados. em seguida, é possível excluir a política original.
- 
+
 ## <a name="meeting-policy-settings"></a>Configurações da política de reunião
 
-Ao selecionar uma política existente na página **políticas de reunião** ou selecionar **nova política** para adicionar uma nova política, você pode definir as configurações para o seguinte.
+Ao selecionar uma política existente na página **políticas de reunião** ou selecionar **Adicionar** para adicionar uma nova política, você pode definir as configurações para o seguinte.
 
 - [Geral](#meeting-policy-settings---general)
 - [Áudio & vídeo](#meeting-policy-settings---audio--video)
@@ -95,20 +97,15 @@ Ao selecionar uma política existente na página **políticas de reunião** ou s
 ## <a name="meeting-policy-settings---general"></a>Configurações da política de reunião-geral
 
 - [Permitir reunir agora em canais](#allow-meet-now-in-channels)
-- [Permitir reunião particular agora](#allow-private-meet-now)
 - [Permitir o suplemento do Outlook](#allow-the-outlook-add-in)
 - [Permitir agendamento de reunião de canal](#allow-channel-meeting-scheduling)
 - [Permitir agendamento de reuniões particulares](#allow-scheduling-private-meetings)
 
 ### <a name="allow-meet-now-in-channels"></a>Permitir reunir agora em canais
 
-Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Esta configuração controla se um usuário pode iniciar uma reunião ad hoc em um canal do teams. Se você ativar esta opção, quando um usuário postar uma mensagem em um canal do Teams, o usuário pode clicar em **reunir agora** abaixo da caixa de texto para iniciar uma reunião ad hoc no canal.
+Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Esta configuração controla se um usuário pode iniciar uma reunião ad hoc em um canal do teams. Se você ativar esta opção, quando um usuário postar uma mensagem em um canal do Teams, o usuário pode clicar em **reunir agora** na caixa de texto para iniciar uma reunião ad hoc no canal.
 
 ![Captura de tela mostrando o ícone reunir agora abaixo de uma mensagem](media/meeting-policies-meet-now.png)
-### <a name="allow-private-meet-now"></a>Permitir reunião particular agora
-
-Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Esta configuração controla se um usuário pode iniciar uma reunião privada ad hoc.  
-
 
 ### <a name="allow-the-outlook-add-in"></a>Permitir o suplemento do Outlook
 
@@ -120,7 +117,7 @@ Se você desativar essa opção, os usuários não poderão agendar reuniões do
 
 ### <a name="allow-channel-meeting-scheduling"></a>Permitir agendamento de reunião de canal
 
-Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Esta configuração controla se os usuários podem agendar uma reunião em um canal do teams.  Se você desativar essa opção, a opção **agendar uma reunião** não estará disponível para o usuário quando ele iniciar uma reunião em um canal do Teams e a opção **Adicionar um canal** estiver desabilitada para os usuários do teams.
+Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Esta configuração controla se os usuários podem agendar uma reunião em um canal do teams.  Se você desativar essa opção, a opção **agendar uma reunião** não estará disponível para o usuário quando ele iniciar uma reunião em um canal do Teams e a opção **Adicionar canal** estiver desabilitada para os usuários do teams.
 
 ![Captura de tela mostrando a opção agendar uma reunião no Teams](media/meeting-policies-schedule-a-meeting.png)
 
@@ -256,10 +253,10 @@ Para usar o PowerShell para controlar quem pode conceder controle ou aceitar sol
 
 Esta é uma política por usuário. Esta configuração controla se os participantes externos em uma reunião podem dar o controle da sua área de trabalho compartilhada ou janela para outros participantes da reunião. Os participantes externos em reuniões de equipes podem ser categorizados da seguinte maneira:  
 
-   - Usuário anônimo
-   - Usuários convidados  
-   - Usuário B2B
-   - Usuário federado  
+- Usuário anônimo
+- Usuários convidados  
+- Usuário B2B
+- Usuário federado  
 
 Se os usuários federados podem dar controle aos usuários externos enquanto o compartilhamento é controlado pela configuração **permitir que um participante externo conceda ou solicite o controle** em sua organização.
 
@@ -293,7 +290,7 @@ O Amanda não pode compartilhar o quadro de comunicações em uma reunião, mesm
 
 ### <a name="allow-shared-notes"></a>Permitir anotações compartilhadas
 
-Esta é uma política por usuário. Esta configuração controla se um usuário pode criar e compartilhar anotações em uma reunião. Usuários externos, incluindo usuários anônimos, B2B e federados, herdam a política do organizador da reunião. No momento, a guia **anotações da reunião** só tem suporte em reuniões com menos de 20 participantes. 
+Esta é uma política por usuário. Esta configuração controla se um usuário pode criar e compartilhar anotações em uma reunião. Usuários externos, incluindo usuários anônimos, B2B e federados, herdam a política do organizador da reunião. No momento, a guia **anotações da reunião** só tem suporte em reuniões com menos de 20 participantes.
 
 Vamos dar uma olhada no exemplo a seguir.
 
@@ -308,15 +305,43 @@ Daniela pode fazer anotações nas reuniões do Amanda, e o Amanda não pode faz
 
 Essas configurações controlam quais participantes da reunião aguardam no lobby antes de serem admitidos para a reunião e o nível de participação que eles são permitidos em uma reunião.
 
+- [Permitir que as pessoas anônimas iniciem uma reunião](#let-anonymous-people-start-a-meeting)
 - [Admitir pessoas automaticamente](#automatically-admit-people)
-- [Permitir que pessoas anônimas iniciem uma reunião](#allow-anonymous-people-to-start-a-meeting)
 - [Permitir que os usuários de discagem ignorem o lobby](#allow-dial-in-users-to-bypass-the-lobby)
-- [Permitir reunião particular agora](#allow-private-meet-now)
+- [Permitir reunião agora em reuniões privadas](#allow-meet-now-in-private-meetings)
 - [Habilitar legendas dinâmicas](#enable-live-captions)
 - [Permitir chat em reuniões](#allow-chat-in-meetings)
 
 > [!NOTE]
 >As opções para ingressar em uma reunião irão variar, dependendo das configurações de cada grupo de equipe e do método de conexão. Se o seu grupo tiver videoconferência e o usar para se conectar, consulte [videoconferência no Office 365](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). Se o grupo Teams não tiver videoconferências, consulte [ingressar em uma reunião no Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
+
+### <a name="let-anonymous-people-start-a-meeting"></a>Permitir que as pessoas anônimas iniciem uma reunião
+
+Esta é uma política por organizador. Essa configuração controla se as pessoas anônimas, incluindo B2B e usuários federados, podem ingressar na reunião do usuário sem um usuário autenticado da organização em participação. 
+
+![Captura de tela mostrando uma mensagem para um usuário em espera](media/meeting-policies-anonymous-user-lobby.png)
+
+Aqui está o comportamento da junção de pessoas anônimas quando os usuários autenticados estão presentes na reunião.
+
+|Permitir que as pessoas anônimas iniciem uma reunião  |Admitir pessoas automaticamente |Ingressar no comportamento de pessoas anônimas |
+|---------|---------|---------|
+|Verdadeiro    | Todos      | Ingressar diretamente         |
+|   | Todos em sua organização       | Aguardar no lobby        |
+|   | Todos em sua organização e organizações federadas       | Aguardar no lobby         |
+|Falso    | Todos        | Ingressar diretamente        |
+|   | Todos em sua organização     | Aguardar no lobby        |
+|   | Todos em sua organização e organizações federadas      | Aguardar no lobby         |
+
+Aqui está o comportamento da junção de pessoas anônimas quando nenhum usuário autenticado está presente na reunião.
+
+|Permitir que as pessoas anônimas iniciem uma reunião |Admitir pessoas automaticamente  |Ingressar no comportamento de pessoas anônimas |
+|---------|---------|---------|
+|Verdadeiro    | Todos      | Ingressar diretamente         |
+|   | Todos em sua organização       | Aguardar no lobby        |
+|   | Todos em sua organização e organizações federadas       | Aguardar no lobby         |
+|Falso    | Todos        | Aguardar no lobby. Os usuários são automaticamente admitidos quando o primeiro usuário autenticado entra na reunião.        |
+|   | Todos em sua organização     |Aguardar no lobby         |
+|   | Todos em sua organização e organizações federadas      | Aguardar no lobby         |
 
 ### <a name="automatically-admit-people"></a>Admitir pessoas automaticamente
 
@@ -332,41 +357,13 @@ Esta é uma política por organizador. Esta configuração controla se as pessoa
 |**Todos em sua organização e organizações federadas**     |Usuários autenticados dentro da organização, incluindo usuários convidados e os usuários de organizações federadas, ingressam na reunião diretamente sem esperar no lobby.  Usuários anônimos e usuários que discam por telefone aguarde no lobby.   |
 |**Todos em sua organização**    |Os usuários autenticados de dentro da organização, incluindo os usuários convidados, ingressam na reunião diretamente sem esperar no lobby.  Usuários federados, usuários anônimos e usuários que discam por telefone aguarde no lobby.           |
 
-### <a name="allow-anonymous-people-to-start-a-meeting"></a>Permitir que pessoas anônimas iniciem uma reunião
-
-Esta é uma política por organizador. Essa configuração controla se as pessoas anônimas, incluindo B2B e usuários federados, podem ingressar na reunião do usuário sem um usuário autenticado da organização em participação. 
-
-![Captura de tela mostrando uma mensagem para um usuário em espera](media/meeting-policies-anonymous-user-lobby.png)
-
-Aqui está o comportamento da junção de pessoas anônimas quando os usuários autenticados estão presentes na reunião.
-
-|Permitir que pessoas anônimas iniciem uma reunião  |Admitir pessoas automaticamente |Ingressar no comportamento de pessoas anônimas |
-|---------|---------|---------|
-|Verdadeiro    | Todos      | Ingressar diretamente         |
-|   | Todos em sua organização       | Aguardar no lobby        |
-|   | Todos em sua organização e organizações federadas       | Aguardar no lobby         |
-|Falso    | Todos        | Ingressar diretamente        |
-|   | Todos em sua organização     | Aguardar no lobby        |
-|   | Todos em sua organização e organizações federadas      | Aguardar no lobby         |
-
-Aqui está o comportamento da junção de pessoas anônimas quando nenhum usuário autenticado está presente na reunião.
-
-|Permitir que pessoas anônimas iniciem uma reunião |Admitir pessoas automaticamente  |Ingressar no comportamento de pessoas anônimas |
-|---------|---------|---------|
-|Verdadeiro    | Todos      | Ingressar diretamente         |
-|   | Todos em sua organização       | Aguardar no lobby        |
-|   | Todos em sua organização e organizações federadas       | Aguardar no lobby         |
-|Falso    | Todos        | Aguardar no lobby. Os usuários são automaticamente admitidos quando o primeiro usuário autenticado entra na reunião.        |
-|   | Todos em sua organização     |Aguardar no lobby         |
-|   | Todos em sua organização e organizações federadas      | Aguardar no lobby         |
-
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Permitir que os usuários de discagem ignorem o lobby
 
 Esta é uma política por organizador. Esta configuração controla se as pessoas que discam por telefone entram diretamente na reunião ou esperam no lobby, independentemente da configuração de usuário **admitir pessoas automaticamente** .
 
 Aqui está o comportamento da junção de pessoas que discam por telefone.
 
-|Permitir que os usuários de discagem ignorem o lobby  |Admitir usuários automaticamente  |Comportamento de junção de pessoas que discam |
+|Permitir que os usuários de discagem ignorem o lobby  |Admitir pessoas automaticamente  |Comportamento de junção de pessoas que discam |
 |---------|---------|---------|
 |Verdadeiro    | Todos      | Ingressar diretamente         |
 |   | Todos em sua organização       | Ingressar diretamente        |
@@ -375,7 +372,7 @@ Aqui está o comportamento da junção de pessoas que discam por telefone.
 |   | Todos em sua organização     |Aguardar no lobby         |
 |   | Todos em sua organização e organizações federadas      | Aguardar no lobby         |
 
-### <a name="allow-private-meet-now"></a>Permitir reunião particular agora
+### <a name="allow-meet-now-in-private-meetings"></a>Permitir reunião agora em reuniões privadas
 
 Esta é uma política por usuário e se aplica antes de iniciar uma reunião. Esta configuração controla se um usuário pode iniciar uma reunião privada ad hoc. 
 
@@ -387,17 +384,17 @@ Esta é uma política por usuário e aplica-se durante uma reunião. Esta config
 
 |Valor de configuração |Comportamento  |
 |---------|---------|
-|**Desativado e o usuário pode substituir**     | As legendas dinâmicas não são ativadas automaticamente para o usuário durante uma reunião. O usuário vê a opção **Ativar legendas ao vivo** no menu de estouro (**...**) para ativá-las. Esta é a configuração padrão. |
+|**Desabilitado, mas o organizador pode substituir**     | As legendas dinâmicas não são ativadas automaticamente para o usuário durante uma reunião. O usuário vê a opção **Ativar legendas ao vivo** no menu de estouro (**...**) para ativá-las. Esta é a configuração padrão. |
 |**Desabilitado**     | As legendas ao vivo são desabilitadas para o usuário durante uma reunião. O usuário não tem a opção de ativá-los.          |
-
 
 <a name="bkcontentsharing"> </a>
 
 ### <a name="allow-chat-in-meetings"></a>Permitir chat em reuniões
 
-Esta é uma política por organizador. Esta configuração controla se o chat da reunião é permitido na reunião do usuário. 
+Esta é uma política por organizador. Esta configuração controla se o chat da reunião é permitido na reunião do usuário.
 
 <a name="bkparticipantsandguests"> </a>
 
 ## <a name="related-topics"></a>Tópicos relacionados
+
 [Políticas de mensagens no Teams](messaging-policies-in-teams.md)

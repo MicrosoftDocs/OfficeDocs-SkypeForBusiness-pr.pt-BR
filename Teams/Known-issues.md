@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Lista atual dos problemas conhecidos do aplicativo do cliente Microsoft Teams e experiência do administrador.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50501c3d5e077deacaf183dd36efce72d295f556
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 9c613f2116b5ad9f97426f60466d71d4ffaddba1
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40990646"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628527"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conhecidos do Microsoft Teams
 
@@ -313,6 +313,14 @@ Este artigo lista os problemas conhecidos do Microsoft Teams, por área de recur
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|
 |Integração entre o Planner e o Microsoft Teams com o Planner online <br/> |Os buckets de tarefas no Planner não são mostrados na experiência online do Planner.  <br/> |Não há solução alternativa. <br/> |28/02/2017  <br/>|
+
+
+|**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
+|:-----|:-----|:-----|:-----|
+|Integração entre o Planner e o Microsoft Teams com o Planner online <br/> |Os proprietários não conseguem criar um plano de um grupo criado a partir de um grupo existente do Office 365.  <br/> |Forneça permissões de membro ao proprietário do grupo. <br/> |14/01/2020  <br/>|
+
+
+
 
 |**Título do problema**|**Comportamento / Sintoma**|**Solução alternativa conhecida**|**Data da descoberta**|
 |:-----|:-----|:-----|:-----|

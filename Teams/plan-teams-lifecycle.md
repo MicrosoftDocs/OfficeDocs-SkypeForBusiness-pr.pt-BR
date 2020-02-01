@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad0344d07fe9ea77e0970ca6ea11fdf62886098b
-ms.sourcegitcommit: 800a5c3881d0ebceb505a538fcf7e48f7b6df17e
+ms.openlocfilehash: 3a0e055305cc994730b22507b5ce0cf1823e43f0
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37913035"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628367"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planejar o gerenciamento de ciclo de vida no Teams
 
@@ -55,7 +55,7 @@ Determinam quem pode ingressar na equipe:
 Os tipos de usuários da equipe determinam o grau de controle que cada membro da equipe tem:
 
 -   O _criador da equipe_ tem permissões para criar um grupo ou uma equipe no diretório. O administrador pode restringir esse tipo de usuário a um subconjunto de administradores ou usuários. Para obter mais informações, confira [Gerenciar quem pode criar Grupos do Office 365](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). 
--   O _proprietário da equipe_ gerencia a associação e as configurações da equipe. Pode haver até 10 proprietários por equipe.
+-   O _proprietário da equipe_ gerencia a associação e as configurações da equipe. Pode haver até 100 proprietários de equipe por equipe.
 -   Um _membro da equipe_ é um membro de sua organização que participa de uma equipe.
 -   Um _convidado da equipe_ é um usuário que é externo à sua organização. Qualquer pessoa com um endereço de email poderá ser convidada se a organização tiver habilitado o [acesso de convidado](guest-access.md).
 
@@ -192,7 +192,7 @@ Se uma equipe começar a cair na rotina, considere estas opções:
 
 ### <a name="stage-3-end"></a>Etapa 3: fim
 
-Quando o trabalho de uma equipe chega ao fim, é importante reconhecer formalmente que ela terminou. Assim, os membros da equipe são informados do encerramento. Além disso, é impedido o acesso a informações desatualizadas e obsoletas. Você pode usar a própria equipe para realizar tarefas de encerramento, como post-mortems e resumos executivos.
+Quando o trabalho de uma equipe chega ao fim, é importante reconhecer formalmente que ela terminou. Assim, os membros da equipe são informados do encerramento. Além disso, é impedido o acesso a informações desatualizadas e obsoletas. Você pode usar a própria equipe para realizar tarefas de encerramento, como post-mortem e resumos executivos.
 
 Você pode excluir equipes que sabe que não são necessárias (por exemplo, uma equipe criada exclusivamente para testes ou que contém dados confidenciais). Na verdade, as equipes são excluídas com uma “exclusão reversível” que a TI pode reverter por até 21 dias (30 dias para Grupos do Office 365). A exclusão de equipes não afeta os chats nem o conteúdo retidos de acordo com políticas de conformidade. Os canais também têm uma "exclusão reversível" e podem ser revertidos por até 21 dias após a exclusão.
 
