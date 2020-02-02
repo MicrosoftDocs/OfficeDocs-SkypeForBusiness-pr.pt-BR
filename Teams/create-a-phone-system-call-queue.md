@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Saiba como configurar o sistema telefônico para filas de chamadas em nuvem com o Microsoft Teams.
-ms.openlocfilehash: c33baabdce8366ed9a4027c0b1e030f54eef543b
-ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
+ms.openlocfilehash: 2744a989225098b47814c53cb089de7a0ee6cfe4
+ms.sourcegitcommit: a47bd5194672820380d30722b60779ce2d8a8f78
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41620004"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41664359"
 ---
 # <a name="create-a-cloud-call-queue"></a>Criar uma fila de chamada do Cloud
 
@@ -130,16 +130,15 @@ No **centro de administração do Microsoft Teams**,**filas de chamadas**de **vo
 
 * * *
 
-![O ícone do número 1 faz referência a um texto explicativo no](media/sfbcallout1.png)
+![O ícone do número 1 faz referência a um texto explicativo no](media/teamscallout1.png)
 **nome** anterior da captura de tela digite um nome de exibição descritivo para a fila de chamadas. Esse nome é necessário e pode conter até 64 caracteres, incluindo espaços.
 
  Esse nome será exibido na notificação para a chamada recebida.
 
 * * *
 
-![O ícone do número 2 faz referência a um texto explicativo na captura de tela anterior](media/sfbcallout2.png)
-
-**Adicionar contas** Selecione uma conta de recurso. Todas as filas de chamadas são necessárias para ter uma conta de recurso. Não é necessário ter contas de recursos para ter um número de telefone de chamada tarifada ou gratuita do serviço.
+![O ícone do número 2 faz referência a um balão na captura de](media/teamscallout2.png)
+tela anterior**Adicionar contas** selecione uma conta de recurso. Todas as filas de chamadas são necessárias para ter uma conta de recurso. Não é necessário ter contas de recursos para ter um número de telefone de chamada tarifada ou gratuita do serviço.
 
 Se não houver lista, obtenha números de serviço e atribua-os a uma conta de recurso antes de criar a fila de chamadas, conforme descrito anteriormente. Para obter seus números de serviço, consulte [obtendo números de telefone de serviço](getting-service-phone-numbers.md). Consulte [gerenciar contas de recursos no Teams](manage-resource-accounts.md) para obter informações específicas sobre como atribuir um número de telefone.
 
@@ -152,15 +151,13 @@ Se não houver lista, obtenha números de serviço e atribua-os a uma conta de r
 
 * * *
 
-![O ícone do número 1 faz referência a um texto explicativo na captura de tela anterior](media/sfbcallout1.png)
-
-**Mensagem** de saudação opcional reproduzida para as pessoas que chamam o número da fila de chamadas.
+![O ícone do número 1 faz referência a um texto explicativo na](media/teamscallout1.png)
+captura de tela anterior**saudação** da saudação opcional para as pessoas que chamam o número da fila de chamadas.
 
 Você pode carregar um arquivo de áudio (formatos. wav,. mp3 ou. WMA).
 
-![O ícone do número 2 faz referência a um texto explicativo na captura de tela anterior](media/sfbcallout2.png)
-
-**Música em espera** Você pode usar a música padrão em espera fornecida com a fila de chamadas. Você também pode carregar um arquivo de áudio nos formatos. wav, MP3 ou. WMA para usar como sua música personalizada em espera.
+![O ícone do número 2 faz referência a um texto explicativo nas](media/teamscallout2.png)
+músicas de captura de tela anteriores**em espera** , você pode usar a música padrão em espera fornecida com a fila de chamadas. Você também pode carregar um arquivo de áudio nos formatos. wav, MP3 ou. WMA para usar como sua música personalizada em espera.
 
 * * *
 
@@ -168,9 +165,8 @@ Você pode carregar um arquivo de áudio (formatos. wav,. mp3 ou. WMA).
 
 ![Captura de tela das opções de atendimento de chamadas](media/5d249515-d532-4af2-90da-011404028b89.png) 
 
-![O ícone do número 1 faz referência a um texto explicativo na captura de tela anterior](media/sfbcallout1.png)
-
-Para adicionar agentes individuais diretamente, sem adicioná-los a um grupo, clique em **Adicionar usuários**. Coloque agentes individuais na ordem em que você deseja que eles recebam a chamada. Você pode adicionar até 20 agentes individuais (para adicionar mais de 20, colocá-los em um grupo).
+![O ícone do número 1 faz referência a um texto explicativo na](media/teamscallout1.png)
+captura de tela anterior**agentes e grupos** para adicionar agentes individuais diretamente, sem adicioná-los a um grupo, clique em **Adicionar usuários**. Coloque agentes individuais na ordem em que você deseja que eles recebam a chamada. Você pode adicionar até 20 agentes individuais (para adicionar mais de 20, colocá-los em um grupo).
 
 As chamadas são roteadas primeiro para agentes individuais e depois para os agentes em grupos. 
 
@@ -195,11 +191,8 @@ Os agentes de chamada selecionados devem ser:
 
 - Se seus agentes estiverem usando o aplicativo Microsoft Teams para chamadas da fila de chamadas, eles precisarão estar no modo TeamsOnly.
 
-![Captura de tela do painel Adicionar agentes de chamada](media/skype-for-business-add-agents-to-call-queue.png)
-
-![O ícone do número 2 faz referência a um texto explicativo na captura de tela anterior](media/sfbcallout2.png)
-
-**Método de roteamento** Você pode escolher o **atendedor**, a **série**ou o **rodízio** como o método de distribuição. Todas as filas de chamadas novas e existentes têm roteamento de atendedor selecionado por padrão. Quando o roteamento do atendente é usado, a primeira chamada na fila toca em todos os agentes de chamada ao mesmo tempo. O primeiro agente de chamadas para atender a chamada recebe a chamada.
+![O ícone do número 2 faz referência a um texto explicativo no](media/teamscallout2.png)
+**método de roteamento** de captura de tela anterior, você pode escolher o **atendedor**, a **série**ou o **rodízio** como o método de distribuição. Todas as filas de chamadas novas e existentes têm roteamento de atendedor selecionado por padrão. Quando o roteamento do atendente é usado, a primeira chamada na fila toca em todos os agentes de chamada ao mesmo tempo. O primeiro agente de chamadas para atender a chamada recebe a chamada.
 
 - O **Roteamento de atendedor** faz com que a primeira chamada na fila toque em todos os agentes de chamada ao mesmo tempo. O primeiro agente de chamadas para atender a chamada recebe a chamada.
 - **Roteamento serial** as chamadas recebidas entram em contato com todos os agentes de chamada, um por um, do início da lista de agentes de chamadas. Os agentes não podem ser solicitados na lista agente de chamadas. Se um agente ignorar ou não atender a chamada, a chamada tocará no próximo agente e experimentará todos os agentes até que ele seja retirado ou expirado.
@@ -213,9 +206,8 @@ Os agentes de chamada selecionados devem ser:
 
 * * *
 
-![O ícone do número 1 faz referência a um texto explicativo na captura de tela anterior](media/sfbcallout1.png)
-
-O **agente pode optar por não receber chamadas** Você pode optar por permitir que os agentes da fila de chamadas optem por fazer chamadas de uma determinada fila habilitando esta opção.
+![O ícone do número 1 faz referência a um texto explicativo no](media/teamscallout1.png)
+agente de captura de tela anterior**pode cancelar a entrada de chamadas** que você pode optar por permitir que os agentes da fila de chamada optem por fazer chamadas de uma fila específica habilitando essa opção.
 
 Habilitar essa opção permite que todos os agentes nesta fila sejam iniciados ou parem de receber chamadas desta fila de chamadas. Você pode revogar o privilégio de cancelamento de agente a qualquer momento desmarcando a caixa de seleção, fazendo com que os agentes se tornem automaticamente para esta fila de novo (a configuração padrão para todos os agentes).
 
@@ -230,9 +222,8 @@ Para acessar a opção de recusa, os agentes podem:
     >
     > Se os agentes estiverem em clientes da área de trabalho do Microsoft Teams, eles poderão se recusar usando as configurações de chamada. 
 
-![O ícone do número 2 faz referência a um texto explicativo na captura de tela anterior](media/sfbcallout2.png)
-
-**Configuração de alerta do agente**
+![O ícone do número 2 faz referência a um balão na configuração de](media/teamscallout2.png)
+**alerta** anterior do agente de captura de tela
 
 Isso define a duração de um agente sendo notificado sobre uma chamada antes que os métodos de roteamento serial ou Round Robin se movam para o próximo agente.
 
@@ -246,15 +237,13 @@ A configuração padrão é 30 segundos, mas pode ser definida por até 3 minuto
 
 * * *
 
-![O ícone do número 1 faz referência a um texto explicativo na captura de tela anterior](media/sfbcallout1.png)
-
-**Máximo de chamadas na fila** Use esta configuração para definir o número máximo de chamadas que podem esperar na fila ao mesmo tempo. O padrão é 50, mas pode variar de 0 a 200. Quando esse limite for atingido, a chamada será manipulada da maneira que você definiu **quando a configuração número máximo de chamadas for atingida** abaixo.
+![O ícone do número 1 faz referência a um texto explicativo na](media/teamscallout1.png)
+captura de tela anterior as**chamadas máximas na fila** usam essa configuração para definir o máximo de chamadas que podem esperar na fila ao mesmo tempo. O padrão é 50, mas pode variar de 0 a 200. Quando esse limite for atingido, a chamada será manipulada da maneira que você definiu **quando a configuração número máximo de chamadas for atingida** abaixo.
 
 * * *
 
-![O ícone do número 2 faz referência a um texto explicativo na captura de tela anterior](media/sfbcallout2.png)
-
-**Quando o número máximo de chamadas for atingido** Quando a fila de chamadas atinge seu tamanho máximo (definido usando o **máximo de chamadas na** configuração de fila), você pode escolher o que acontece com as novas chamadas recebidas.
+![O ícone do número 2 faz referência a um texto explicativo na](media/teamscallout2.png)
+captura de tela anterior**quando o número máximo de chamadas é atingido** quando a fila de chamadas atinge seu tamanho máximo (definido usando o **máximo de chamadas na configuração de fila** ), você pode escolher o que acontece com as novas chamadas de entrada.
 
 - **Desconectar** A chamada está desconectada.
 - **Redirecionar para** Ao escolher essa opção, selecione uma das seguintes opções:
@@ -267,15 +256,13 @@ A configuração padrão é 30 segundos, mas pode ser definida por até 3 minuto
 
 * * *
 
-![O ícone do número 3 faz referência a um texto explicativo na captura de tela anterior](media/sfbcallout3.png)
-
-**Tempo limite de chamada: tempo máximo de espera** Você também pode decidir quanto tempo uma chamada pode ficar em espera na fila antes de expirar e precisar ser redirecionada ou desconectada. O local em que é redirecionado é baseado em como você define a configuração **quando uma chamada atinge o tempo limite** . Você pode definir uma hora de 0 a 45 minutos.
+![O ícone do número 3 faz referência a um balão no tempo limite](media/teamscallout3.png)
+de chamada de captura de tela anterior **: tempo de espera máximo** você também pode decidir quanto tempo uma chamada pode ficar em espera na fila antes de expirar e precisar ser redirecionada ou desconectada. O local em que é redirecionado é baseado em como você define a configuração **quando uma chamada atinge o tempo limite** . Você pode definir uma hora de 0 a 45 minutos.
 
 O valor de tempo limite pode ser definido em segundos, em intervalos de 15 segundos. Isso permite que você manipule o fluxo de chamadas com granularidade mais fina. Por exemplo, você pode especificar que as chamadas não atendidas por um agente dentro de 30 segundos vão para um atendedor automático de pesquisa de diretório.
 
-![O ícone do número 4 faz referência a um texto explicativo na captura de tela anterior](media/sfbcallout4.png)
-
-**Quando a chamada** expira Quando a chamada atingir o limite que você definiu no tempo em que **uma chamada pode esperar na configuração de fila** , você pode escolher o que acontecerá com a chamada:
+![O ícone do número 4 faz referência a um balão na captura de](media/teamscallout4.png)
+tela anterior quando a chamada atinge o**tempo limite** quando a chamada atinge o limite que você definiu no **tempo em que uma chamada pode esperar na configuração da fila** , você pode escolher o que acontecerá com a chamada:
 
 - **Desconectar** A chamada está desconectada.
 - **Redirecionar esta chamada para** Ao escolher esta opção, você tem estas opções:
