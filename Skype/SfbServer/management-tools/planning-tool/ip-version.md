@@ -7,24 +7,24 @@ manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.IPVersion
 - ms.lync.plan.IPVersion
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df92d228-de60-4025-b249-ad957130ef7b
 description: Você tem três opções ao configurar endereços IP no Skype for Business Server 2015. Você pode configurar o Skype for Business Server 2015 para dar suporte somente para IP versão 4 (IPv4), somente para IP versão 6 (IPv6) ou uma combinação de ambas (conhecida como pilha dupla).
-ms.openlocfilehash: a454881368e86cdd47fe23ce2ea60ec8cfc7b207
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 759f26f5b8ec282e033fafd6687bc838b2a9517c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279162"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684204"
 ---
-# <a name="ip-version-planning-tool"></a><span data-ttu-id="36722-104">IP Version (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="36722-104">IP Version (Planning Tool)</span></span>
+# <a name="ip-version-planning-tool"></a><span data-ttu-id="0759c-104">IP Version (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="0759c-104">IP Version (Planning Tool)</span></span>
  
-<span data-ttu-id="36722-105">Você tem três opções ao configurar endereços IP no Skype for Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="36722-105">You have three options when configuring IP addresses in Skype for Business Server 2015.</span></span> <span data-ttu-id="36722-106">Você pode configurar o Skype for Business Server 2015 para dar suporte somente para IP versão 4 (IPv4), somente para IP versão 6 (IPv6) ou uma combinação de ambas (conhecida como pilha dupla).</span><span class="sxs-lookup"><span data-stu-id="36722-106">You can configure Skype for Business Server 2015 to support only IP version 4 (IPv4), only IP version 6 (IPv6), or a combination of both (known as a dual stack).</span></span>
+<span data-ttu-id="0759c-105">Você tem três opções ao configurar endereços IP no Skype for Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="0759c-105">You have three options when configuring IP addresses in Skype for Business Server 2015.</span></span> <span data-ttu-id="0759c-106">Você pode configurar o Skype for Business Server 2015 para dar suporte somente para IP versão 4 (IPv4), somente para IP versão 6 (IPv6) ou uma combinação de ambas (conhecida como pilha dupla).</span><span class="sxs-lookup"><span data-stu-id="0759c-106">You can configure Skype for Business Server 2015 to support only IP version 4 (IPv4), only IP version 6 (IPv6), or a combination of both (known as a dual stack).</span></span>
   
-<span data-ttu-id="36722-107">Para obter mais detalhes sobre como escolher sua infraestrutura de IP, consulte [planejar o IPv6 no Skype for Business](../../plan-your-deployment/network-requirements/ipv6.md).</span><span class="sxs-lookup"><span data-stu-id="36722-107">For more details about choosing your IP infrastructure, see [Plan for IPv6 in Skype for Business](../../plan-your-deployment/network-requirements/ipv6.md).</span></span>
+<span data-ttu-id="0759c-107">Para obter mais detalhes sobre como escolher sua infraestrutura de IP, consulte [planejar o IPv6 no Skype for Business](../../plan-your-deployment/network-requirements/ipv6.md).</span><span class="sxs-lookup"><span data-stu-id="0759c-107">For more details about choosing your IP infrastructure, see [Plan for IPv6 in Skype for Business](../../plan-your-deployment/network-requirements/ipv6.md).</span></span>
   
 

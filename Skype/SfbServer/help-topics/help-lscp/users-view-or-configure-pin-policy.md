@@ -7,24 +7,24 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.UserViewUserPin
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a68227c-f559-442f-955b-5c4ccc06b7f4
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: 4f14103fda09205b9e18cd2b3e23f4dc7672a7c2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3e8d7724236130425bc1e4525225b1dba68f59ce
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275854"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685584"
 ---
-# <a name="users-view-or-configure-pin-policy"></a><span data-ttu-id="c475c-104">Usuários: Exibir ou Configurar Política PIN</span><span class="sxs-lookup"><span data-stu-id="c475c-104">Users: View or Configure PIN Policy</span></span>
+# <a name="users-view-or-configure-pin-policy"></a><span data-ttu-id="bf605-104">Usuários: Exibir ou Configurar Política PIN</span><span class="sxs-lookup"><span data-stu-id="bf605-104">Users: View or Configure PIN Policy</span></span>
  
-<span data-ttu-id="c475c-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="c475c-105">What do you want to do?</span></span> <span data-ttu-id="c475c-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="c475c-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="bf605-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="bf605-105">What do you want to do?</span></span> <span data-ttu-id="bf605-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="bf605-106">Click the link to the task that you want to perform.</span></span>
   
-- [<span data-ttu-id="c475c-107">Configurar PIN de conferência discada de um usuário no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="c475c-107">Set a user's dial-in conferencing PIN in Skype for Business Server 2015</span></span>](../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
+- [<span data-ttu-id="bf605-107">Configurar PIN de conferência discada de um usuário no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="bf605-107">Set a user's dial-in conferencing PIN in Skype for Business Server 2015</span></span>](../../manage/authentication/set-a-user-s-dial-in-conferencing-pin.md)
     
-<span data-ttu-id="c475c-108">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o painel de controle do Skype for Business Server, consulte [gerenciar o Skype for Business server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="c475c-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="bf605-108">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o painel de controle do Skype for Business Server, consulte [gerenciar o Skype for Business server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="bf605-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 
