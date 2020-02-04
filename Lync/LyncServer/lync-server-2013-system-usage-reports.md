@@ -3,6 +3,8 @@ title: 'Lync Server 2013: relatórios de uso do sistema'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: System usage reports
 ms:assetid: 187d316d-2456-417e-b636-05527a18ef06
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558618(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183529
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a94118832be0acab9e354016a76102b0a83d253d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a349a9816f11b73d942598f0141df497fb0294c0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844801"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764247"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34844801"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="system-usage-reports-in-lync-server-2013"></a><span data-ttu-id="8038a-102">Relatórios de uso do sistema no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8038a-102">System usage reports in Lync Server 2013</span></span>
+# <a name="system-usage-reports-in-lync-server-2013"></a><span data-ttu-id="acb8b-102">Relatórios de uso do sistema no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="acb8b-102">System usage reports in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,41 +35,41 @@ ms.locfileid: "34844801"
 
 <span> </span>
 
-<span data-ttu-id="8038a-103">_**Tópico da última modificação:** 2012-10-21_</span><span class="sxs-lookup"><span data-stu-id="8038a-103">_**Topic Last Modified:** 2012-10-21_</span></span>
+<span data-ttu-id="acb8b-103">_**Tópico da última modificação:** 2012-10-21_</span><span class="sxs-lookup"><span data-stu-id="acb8b-103">_**Topic Last Modified:** 2012-10-21_</span></span>
 
-<span data-ttu-id="8038a-104">Os relatórios de uso do sistema fornecem informações de uso do sistema com base nos dados de registro de detalhes de chamadas (CDR) coletados pelo Lync Server.</span><span class="sxs-lookup"><span data-stu-id="8038a-104">The System Usage Reports provide system usage information based on call detail recording (CDR) data collected by the Lync Server.</span></span>
+<span data-ttu-id="acb8b-104">Os relatórios de uso do sistema fornecem informações de uso do sistema com base nos dados de registro de detalhes de chamadas (CDR) coletados pelo Lync Server.</span><span class="sxs-lookup"><span data-stu-id="acb8b-104">The System Usage Reports provide system usage information based on call detail recording (CDR) data collected by the Lync Server.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="8038a-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="8038a-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="acb8b-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="acb8b-105">In This Section</span></span>
 
-  - [<span data-ttu-id="8038a-106">Relatório de registro de usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8038a-106">User Registration Report in Lync Server 2013</span></span>](lync-server-2013-user-registration-report.md)
+  - [<span data-ttu-id="acb8b-106">Relatório de registro de usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="acb8b-106">User Registration Report in Lync Server 2013</span></span>](lync-server-2013-user-registration-report.md)
     
-    <span data-ttu-id="8038a-107">Fornece um resumo da conectividade do usuário para a implantação do Lync Server 2013 com base em eventos de registro, como logons de usuário.</span><span class="sxs-lookup"><span data-stu-id="8038a-107">Provides a summary of user connectivity to the Lync Server 2013 deployment based on registration events such as user logons.</span></span> <span data-ttu-id="8038a-108">O relatório fornece uma maneira de exibir os logons internos e externos e comparar o número de usuários que entraram no Lync Server 2013 com o número de usuários que realmente usaram o serviço enquanto eles estavam conectados.</span><span class="sxs-lookup"><span data-stu-id="8038a-108">The report provides a way to view both internal and external logons, and to compare the number of users who logged on to Lync Server 2013 with the number of users who actually used the service while they were logged on.</span></span>
+    <span data-ttu-id="acb8b-107">Fornece um resumo da conectividade do usuário para a implantação do Lync Server 2013 com base em eventos de registro, como logons de usuário.</span><span class="sxs-lookup"><span data-stu-id="acb8b-107">Provides a summary of user connectivity to the Lync Server 2013 deployment based on registration events such as user logons.</span></span> <span data-ttu-id="acb8b-108">O relatório fornece uma maneira de exibir os logons internos e externos e comparar o número de usuários que entraram no Lync Server 2013 com o número de usuários que realmente usaram o serviço enquanto eles estavam conectados.</span><span class="sxs-lookup"><span data-stu-id="acb8b-108">The report provides a way to view both internal and external logons, and to compare the number of users who logged on to Lync Server 2013 with the number of users who actually used the service while they were logged on.</span></span>
 
-  - [<span data-ttu-id="8038a-109">Relatório de Resumo de atividade ponto a ponto no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8038a-109">Peer-to-Peer Activity Summary Report in Lync Server 2013</span></span>](lync-server-2013-peer-to-peer-activity-summary-report.md)
+  - [<span data-ttu-id="acb8b-109">Relatório de Resumo de atividade ponto a ponto no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="acb8b-109">Peer-to-Peer Activity Summary Report in Lync Server 2013</span></span>](lync-server-2013-peer-to-peer-activity-summary-report.md)
     
-    <span data-ttu-id="8038a-p102">Oferece um resumo de IM (mensagens instantâneas), áudio, vídeo, transferência de arquivos e sessões de compartilhamento de aplicativos ponto a ponto. Sessões ponto a ponto são sessões que envolvem apenas dois usuários.</span><span class="sxs-lookup"><span data-stu-id="8038a-p102">Provides a summary of peer-to-peer instant messaging (IM), audio, video, file transfer, and application sharing sessions. Peer-to-peer sessions are sessions involving just two users.</span></span>
+    <span data-ttu-id="acb8b-p102">Oferece um resumo de IM (mensagens instantâneas), áudio, vídeo, transferência de arquivos e sessões de compartilhamento de aplicativos ponto a ponto. Sessões ponto a ponto são sessões que envolvem apenas dois usuários.</span><span class="sxs-lookup"><span data-stu-id="acb8b-p102">Provides a summary of peer-to-peer instant messaging (IM), audio, video, file transfer, and application sharing sessions. Peer-to-peer sessions are sessions involving just two users.</span></span>
 
-  - [<span data-ttu-id="8038a-112">Relatório de Resumo de conferências no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8038a-112">Conference Summary Report in Lync Server 2013</span></span>](lync-server-2013-conference-summary-report.md)
+  - [<span data-ttu-id="acb8b-112">Relatório de Resumo de conferências no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="acb8b-112">Conference Summary Report in Lync Server 2013</span></span>](lync-server-2013-conference-summary-report.md)
     
-    <span data-ttu-id="8038a-113">Fornece um resumo de todas as atividades da conferência.</span><span class="sxs-lookup"><span data-stu-id="8038a-113">Provides a summary of all conference activities.</span></span> <span data-ttu-id="8038a-114">Conferências são sessões que envolvem três ou mais pessoas.</span><span class="sxs-lookup"><span data-stu-id="8038a-114">Conferences are sessions involving three or more people.</span></span>
+    <span data-ttu-id="acb8b-113">Fornece um resumo de todas as atividades da conferência.</span><span class="sxs-lookup"><span data-stu-id="acb8b-113">Provides a summary of all conference activities.</span></span> <span data-ttu-id="acb8b-114">Conferências são sessões que envolvem três ou mais pessoas.</span><span class="sxs-lookup"><span data-stu-id="acb8b-114">Conferences are sessions involving three or more people.</span></span>
 
-  - [<span data-ttu-id="8038a-115">Relatório de Resumo de conferência PSTN no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8038a-115">PSTN Conference Summary Report in Lync Server 2013</span></span>](lync-server-2013-pstn-conference-summary-report.md)
+  - [<span data-ttu-id="acb8b-115">Relatório de Resumo de conferência PSTN no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="acb8b-115">PSTN Conference Summary Report in Lync Server 2013</span></span>](lync-server-2013-pstn-conference-summary-report.md)
     
-    <span data-ttu-id="8038a-p104">Fornece um resumo de todas as conferências PSTN. Neste tipo de conferência, também chamada de *Conferência Discada*, pelo menos um usuário disca usando a PSTN (rede telefônica pública comutada).</span><span class="sxs-lookup"><span data-stu-id="8038a-p104">Provides a summary of all PSTN conferences. These are conferences where at least one user dials in using the public switched telephone network (PSTN), which is also referred to as *dial-in conferencing*.</span></span>
+    <span data-ttu-id="acb8b-p104">Fornece um resumo de todas as conferências PSTN. Neste tipo de conferência, também chamada de *Conferência Discada*, pelo menos um usuário disca usando a PSTN (rede telefônica pública comutada).</span><span class="sxs-lookup"><span data-stu-id="acb8b-p104">Provides a summary of all PSTN conferences. These are conferences where at least one user dials in using the public switched telephone network (PSTN), which is also referred to as *dial-in conferencing*.</span></span>
 
-  - [<span data-ttu-id="8038a-118">Relatório de uso do grupo de resposta no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8038a-118">Response Group Usage Report in Lync Server 2013</span></span>](lync-server-2013-response-group-usage-report.md)
+  - [<span data-ttu-id="acb8b-118">Relatório de uso do grupo de resposta no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="acb8b-118">Response Group Usage Report in Lync Server 2013</span></span>](lync-server-2013-response-group-usage-report.md)
     
-    <span data-ttu-id="8038a-119">Fornece um resumo do uso do grupo de resposta.</span><span class="sxs-lookup"><span data-stu-id="8038a-119">Provides a summary of Response Group usage.</span></span> <span data-ttu-id="8038a-120">O aplicativo grupo de resposta fornece uma maneira de você direcionar automaticamente chamadas telefônicas para entidades como suporte técnico ou linha de suporte ao cliente.</span><span class="sxs-lookup"><span data-stu-id="8038a-120">The Response Group application provides a way for you to automatically route phone calls to entities such as a help desk or customer support line.</span></span>
+    <span data-ttu-id="acb8b-119">Fornece um resumo do uso do grupo de resposta.</span><span class="sxs-lookup"><span data-stu-id="acb8b-119">Provides a summary of Response Group usage.</span></span> <span data-ttu-id="acb8b-120">O aplicativo grupo de resposta fornece uma maneira de você direcionar automaticamente chamadas telefônicas para entidades como suporte técnico ou linha de suporte ao cliente.</span><span class="sxs-lookup"><span data-stu-id="acb8b-120">The Response Group application provides a way for you to automatically route phone calls to entities such as a help desk or customer support line.</span></span>
 
-  - [<span data-ttu-id="8038a-121">Relatório de inventário de telefone IP no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8038a-121">IP Phone Inventory Report in Lync Server 2013</span></span>](lync-server-2013-ip-phone-inventory-report.md)
+  - [<span data-ttu-id="acb8b-121">Relatório de inventário de telefone IP no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="acb8b-121">IP Phone Inventory Report in Lync Server 2013</span></span>](lync-server-2013-ip-phone-inventory-report.md)
     
-    <span data-ttu-id="8038a-122">Fornece informações sobre os telefones IP atualmente em uso na organização.</span><span class="sxs-lookup"><span data-stu-id="8038a-122">Provides information about the IP phones currently in use in the organization.</span></span> <span data-ttu-id="8038a-123">O relatório baseia-se em registros telefônicos e em logons.</span><span class="sxs-lookup"><span data-stu-id="8038a-123">The report is based on phone registrations and logons.</span></span> <span data-ttu-id="8038a-124">Ele não deve ser considerado um inventário completo.</span><span class="sxs-lookup"><span data-stu-id="8038a-124">It should not be considered a complete inventory.</span></span> <span data-ttu-id="8038a-125">Por exemplo, você pode já ter removido telefones que ainda estão listados no relatório (porque eles fizeram logon pelo menos uma vez).</span><span class="sxs-lookup"><span data-stu-id="8038a-125">For example, you might have removed phones that are still listed in the report because they logged on at least once.</span></span> <span data-ttu-id="8038a-126">Da mesma forma, você também pode ter novos telefones que não aparecem no relatório simplesmente porque os usuários ainda não se conectaram ao Lync Server com seus novos telefones.</span><span class="sxs-lookup"><span data-stu-id="8038a-126">Likewise, you might also have new phones that do not show up in the report simply because users have not logged on to Lync Server with their new phones yet.</span></span>
+    <span data-ttu-id="acb8b-122">Fornece informações sobre os telefones IP atualmente em uso na organização.</span><span class="sxs-lookup"><span data-stu-id="acb8b-122">Provides information about the IP phones currently in use in the organization.</span></span> <span data-ttu-id="acb8b-123">O relatório baseia-se em registros telefônicos e em logons.</span><span class="sxs-lookup"><span data-stu-id="acb8b-123">The report is based on phone registrations and logons.</span></span> <span data-ttu-id="acb8b-124">Ele não deve ser considerado um inventário completo.</span><span class="sxs-lookup"><span data-stu-id="acb8b-124">It should not be considered a complete inventory.</span></span> <span data-ttu-id="acb8b-125">Por exemplo, você pode já ter removido telefones que ainda estão listados no relatório (porque eles fizeram logon pelo menos uma vez).</span><span class="sxs-lookup"><span data-stu-id="acb8b-125">For example, you might have removed phones that are still listed in the report because they logged on at least once.</span></span> <span data-ttu-id="acb8b-126">Da mesma forma, você também pode ter novos telefones que não aparecem no relatório simplesmente porque os usuários ainda não se conectaram ao Lync Server com seus novos telefones.</span><span class="sxs-lookup"><span data-stu-id="acb8b-126">Likewise, you might also have new phones that do not show up in the report simply because users have not logged on to Lync Server with their new phones yet.</span></span>
 
-  - [<span data-ttu-id="8038a-127">Relatório de controle de admissão de chamadas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8038a-127">Call Admission Control Report in Lync Server 2013</span></span>](lync-server-2013-call-admission-control-report.md)
+  - [<span data-ttu-id="acb8b-127">Relatório de controle de admissão de chamadas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="acb8b-127">Call Admission Control Report in Lync Server 2013</span></span>](lync-server-2013-call-admission-control-report.md)
     
-    <span data-ttu-id="8038a-p107">Fornece uma lista de atividades ponto a ponto e conferências que usam o controle de admissão de chamadas. Usando o CAC (controle de admissão de chamadas), você pode determinar se permitirá sessões de comunicação em tempo real, como chamadas de voz ou vídeo, com base nas restrições de largura de banda.</span><span class="sxs-lookup"><span data-stu-id="8038a-p107">Provides a list of peer-to-peer and conference activities that use call admission control. Call admission control (CAC) is a way of determining whether you should allow real-time communications sessions, such as voice or video calls, based on bandwidth constraints.</span></span>
+    <span data-ttu-id="acb8b-p107">Fornece uma lista de atividades ponto a ponto e conferências que usam o controle de admissão de chamadas. Usando o CAC (controle de admissão de chamadas), você pode determinar se permitirá sessões de comunicação em tempo real, como chamadas de voz ou vídeo, com base nas restrições de largura de banda.</span><span class="sxs-lookup"><span data-stu-id="acb8b-p107">Provides a list of peer-to-peer and conference activities that use call admission control. Call admission control (CAC) is a way of determining whether you should allow real-time communications sessions, such as voice or video calls, based on bandwidth constraints.</span></span>
 
 </div>
 

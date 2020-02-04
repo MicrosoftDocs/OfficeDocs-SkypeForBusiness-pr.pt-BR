@@ -3,6 +3,8 @@ title: Direitos e permissões de administrador necessários para configuração 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Administrator rights and permissions required for setup and administration
 ms:assetid: c386e8b9-c7ce-49b5-9911-c0cf2a4ce181
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412962(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185329
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73f6274b62fe597b6403324fc2bdfa07d3446ee0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ca9fb6982a84ff70791fd4896ab92daf683b9864
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836885"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737831"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34836885"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="administrator-rights-and-permissions-required-for-setup-and-administration-of-lync-server-2013"></a><span data-ttu-id="bb7bb-102">Direitos e permissões de administrador necessários para configuração e administração do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bb7bb-102">Administrator rights and permissions required for setup and administration of Lync Server 2013</span></span>
+# <a name="administrator-rights-and-permissions-required-for-setup-and-administration-of-lync-server-2013"></a><span data-ttu-id="7953a-102">Direitos e permissões de administrador necessários para configuração e administração do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7953a-102">Administrator rights and permissions required for setup and administration of Lync Server 2013</span></span>
 
 </div>
 
@@ -33,17 +35,17 @@ ms.locfileid: "34836885"
 
 <span> </span>
 
-<span data-ttu-id="bb7bb-103">_**Tópico da última modificação:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="bb7bb-103">_**Topic Last Modified:** 2012-06-29_</span></span>
+<span data-ttu-id="7953a-103">_**Tópico da última modificação:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="7953a-103">_**Topic Last Modified:** 2012-06-29_</span></span>
 
-<span data-ttu-id="bb7bb-104">A instalação e a implantação do Lync Server 2013 exigem que a pessoa que está instalando e implantando o software seja membro de grupos locais ou no nível do domínio.</span><span class="sxs-lookup"><span data-stu-id="bb7bb-104">Setup and deployment of Lync Server 2013 requires that the person installing and deploying the software be a member of local or domain-level groups.</span></span> <span data-ttu-id="bb7bb-105">As ferramentas administrativas do Lync Server 2013 podem exigir permissões adicionais.</span><span class="sxs-lookup"><span data-stu-id="bb7bb-105">Administrative tools for Lync Server 2013 can require additional permissions.</span></span>
+<span data-ttu-id="7953a-104">A instalação e a implantação do Lync Server 2013 exigem que a pessoa que está instalando e implantando o software seja membro de grupos locais ou no nível do domínio.</span><span class="sxs-lookup"><span data-stu-id="7953a-104">Setup and deployment of Lync Server 2013 requires that the person installing and deploying the software be a member of local or domain-level groups.</span></span> <span data-ttu-id="7953a-105">As ferramentas administrativas do Lync Server 2013 podem exigir permissões adicionais.</span><span class="sxs-lookup"><span data-stu-id="7953a-105">Administrative tools for Lync Server 2013 can require additional permissions.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="bb7bb-106">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="bb7bb-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="7953a-106">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="7953a-106">In This Section</span></span>
 
-  - [<span data-ttu-id="bb7bb-107">Requisitos de associação ao grupo para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bb7bb-107">Group membership requirements for Lync Server 2013</span></span>](lync-server-2013-group-membership-requirements.md)
+  - [<span data-ttu-id="7953a-107">Requisitos de associação ao grupo para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7953a-107">Group membership requirements for Lync Server 2013</span></span>](lync-server-2013-group-membership-requirements.md)
 
-  - [<span data-ttu-id="bb7bb-108">Delegar permissões de configuração no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bb7bb-108">Delegate setup permissions in Lync Server 2013</span></span>](lync-server-2013-delegate-setup-permissions.md)
+  - [<span data-ttu-id="7953a-108">Delegar permissões de configuração no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7953a-108">Delegate setup permissions in Lync Server 2013</span></span>](lync-server-2013-delegate-setup-permissions.md)
 
 </div>
 
