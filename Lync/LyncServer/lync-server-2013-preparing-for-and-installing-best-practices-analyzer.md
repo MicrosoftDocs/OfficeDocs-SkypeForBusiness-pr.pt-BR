@@ -3,6 +3,8 @@ title: 'Lync Server 2013: preparando e instalando o analisador de práticas reco
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Preparing for and installing Best Practices Analyzer
 ms:assetid: 550613dd-dc08-482e-9980-a3fe187cd162
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591347(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184149
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58d1d2f86b579bfb0259c8ad3e4b26b051b47a8b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8f5992b45d8930bac880f66422d10ddbd4b94f18
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823921"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747411"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,7 +75,7 @@ O computador também deve estar executando o seguinte:
 
   - Pacote de compatibilidade com versões anteriores do WMI. Para obter detalhes, consulte [instalar o pacote de compatibilidade com versões anteriores do WMI](install-wmi-backward-compatibility-package.md) na documentação de migração.
 
-  - Windows PowerShell 3,0. Para obter detalhes, consulte Instalando o [Windows PowerShell 3,0 para Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md) na documentação de implantação.
+  - Windows PowerShell 3,0. Para obter detalhes, consulte [instalando o Windows PowerShell 3,0 para Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md) na documentação de implantação.
 
 Você pode instalar o analisador de práticas recomendadas em computadores com um sistema operacional com suporte que não esteja executando o Lync Server 2013, componentes principais ou pacote de compatibilidade com versões anteriores do WMI, mas você pode usar o analisador de práticas recomendadas apenas nesses computadores para ver relatórios e não para executar verificações.
 
