@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Pré-requisitos de software para Enterprise Voice'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Software prerequisites for Enterprise Voice
 ms:assetid: 41172119-9631-46c7-9d9f-386d951c650b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425916(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ac981d7a30a85d25d2dfb376cfa34f812e898bb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cb85a8da9fe0d009f46ef23b919aeb9fd006fab4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844892"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731891"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,9 +59,9 @@ Depois de verificar os pré-requisitos de software para o Enterprise Voice, voc�
 
 1.  Verifique a segurança, a configuração do usuário e as perquisites de hardware, conforme descrito em [pré-requisitos de configuração e segurança para o Enterprise Voice no Lync Server 2013](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md).
 
-2.  Instale o servidor de mediação, conforme descrito em [instalar os arquivos para o servidor de mediação no Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md), mas *somente* se você quiser implantar um servidor ou pool autônomo de mediação porque os servidores de mediação são instalados como parte do pool de front-ends ou Processo de implantação do servidor Standard Edition quando posicionado.
+2.  Instale o servidor de mediação, conforme descrito em [instalar os arquivos para o servidor de mediação no Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md), mas *somente* se você quiser implantar um servidor ou pool autônomo de mediação, pois os servidores de mediação são instalados como parte do processo de implantação do servidor do front-end ou da edição padrão quando posicionado.
 
-3.  Configure conexões de tronco para fornecer conectividade PSTN para usuários, conforme descrito em Configurando [troncos no Lync Server 2013](lync-server-2013-configuring-trunks.md).
+3.  Configure conexões de tronco para fornecer conectividade PSTN para usuários, conforme descrito em [Configurando troncos no Lync Server 2013](lync-server-2013-configuring-trunks.md).
 
 </div>
 

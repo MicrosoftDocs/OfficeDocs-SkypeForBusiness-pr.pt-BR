@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Definindo seus requisitos para Arquivamento'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining your organization's requirements for Archiving
 ms:assetid: ce0fc0f6-7704-4b80-bf19-a1fa9818fc7a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205276(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185462
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75ed62d577cc6b382509f83e53088973e16b6827
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a3cee7269620a9525456e40604ae3f1d1c2cf33d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829714"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762729"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ Se a sua organização deve seguir as normas de conformidade, você pode implant
 
 Para implementar o arquivamento, primeiro você precisa decidir como atender os requisitos da sua organização para arquivamento. Isso exige que você determine o seguinte:
 
-  - **Quando implantar**o arquivamento. Você pode implantar o arquivamento como parte da implantação inicial do Lync Server 2013 ou pode adicioná-lo a uma implantação existente. Implante o arquivamento usando o construtor de topologias para adicioná-lo à sua topologia e, em seguida, publicar a topologia.
+  - **Quando implantar o arquivamento**. Você pode implantar o arquivamento como parte da implantação inicial do Lync Server 2013 ou pode adicioná-lo a uma implantação existente. Implante o arquivamento usando o construtor de topologias para adicioná-lo à sua topologia e, em seguida, publicar a topologia.
 
   - **Arquivar comunicações internas ou externas ou não**. É possível habilitar o arquivamento de comunicações internas (comunicações entre usuários internos), comunicações externas (comunicações que incluem pelo menos um usuário fora da sua rede interna) ou ambos. É possível especificar essas opções para toda a sua organização ou para sites ou pools específicos. Por padrão, nenhuma dessas opções está habilitada.
     
@@ -52,7 +54,7 @@ Para implementar o arquivamento, primeiro você precisa decidir como atender os 
     
     </div>
 
-  - **Por que habilitar**o arquivamento. Você pode habilitar e desabilitar o arquivamento para toda a implantação em um nível global, e pode habilitar e desabilitar o arquivamento para sites e usuários específicos. Em cada um desses níveis, especifique se deseja habilitar o arquivamento de sessões de mensagens instantâneas (ponto a ponto), conferências (reuniões, que são sessões com vários participantes) ou ambas. Por padrão, o arquivamento está desabilitado.
+  - **Por que habilitar o arquivamento**. Você pode habilitar e desabilitar o arquivamento para toda a implantação em um nível global, e pode habilitar e desabilitar o arquivamento para sites e usuários específicos. Em cada um desses níveis, especifique se deseja habilitar o arquivamento de sessões de mensagens instantâneas (ponto a ponto), conferências (reuniões, que são sessões com vários participantes) ou ambas. Por padrão, o arquivamento está desabilitado.
 
   - **Qual é o arquivamento crítico para os usuários da sua organização**. Se o arquivamento for de missão crítica em sua organização, você poderá especificar que o Lync Server 2013 seja executado no modo crítico, que bloqueia as sessões de mensagens instantâneas e de conferência se o arquivamento falhar. Por exemplo:
     
@@ -74,7 +76,7 @@ Para implementar o arquivamento, primeiro você precisa decidir como atender os 
 
 Você controla o arquivamento usando os seguintes métodos:
 
-  - **Políticas**de arquivamento. Você usa uma ou mais políticas de arquivamento para habilitar e desabilitar o arquivamento de comunicações internas e externas. Por padrão, nenhum arquivamento está habilitado. Você habilita ou desabilita o arquivamento para comunicações internas, comunicações externas ou ambas em sua implantação usando a política global padrão. Não é possível excluir a política global. Você pode especificar uma ou mais políticas de site opcionais para habilitar ou desabilitar o arquivamento de comunicações internas e externas para sites específicos. Você também pode especificar uma ou mais políticas de usuário para habilitar ou desabilitar o arquivamento para usuários e grupos de usuários específicos. Políticas em nível de usuário substituem políticas de site. Políticas no nível do site substituem as políticas de nível global. As políticas em nível de usuário são implementadas somente para os usuários específicos que estão configurados para usar a política. As conferências e mensagens instantâneas em grupo são arquivadas apenas se uma política de pelo menos um dos participantes estiver configurada para habilitar o arquivamento.
+  - **Políticas de arquivamento**. Você usa uma ou mais políticas de arquivamento para habilitar e desabilitar o arquivamento de comunicações internas e externas. Por padrão, nenhum arquivamento está habilitado. Você habilita ou desabilita o arquivamento para comunicações internas, comunicações externas ou ambas em sua implantação usando a política global padrão. Não é possível excluir a política global. Você pode especificar uma ou mais políticas de site opcionais para habilitar ou desabilitar o arquivamento de comunicações internas e externas para sites específicos. Você também pode especificar uma ou mais políticas de usuário para habilitar ou desabilitar o arquivamento para usuários e grupos de usuários específicos. Políticas em nível de usuário substituem políticas de site. Políticas no nível do site substituem as políticas de nível global. As políticas em nível de usuário são implementadas somente para os usuários específicos que estão configurados para usar a política. As conferências e mensagens instantâneas em grupo são arquivadas apenas se uma política de pelo menos um dos participantes estiver configurada para habilitar o arquivamento.
     
     <div>
     
@@ -85,7 +87,7 @@ Você controla o arquivamento usando os seguintes métodos:
     
     </div>
 
-  - **Configurações**de arquivamento. Você usa uma ou mais configurações de arquivamento para especificar a maioria das opções de arquivamento descritas anteriormente neste tópico, exceto para habilitar o arquivamento de comunicações internas e externas (configuradas usando políticas de arquivamento, conforme descrito no marcador anterior). As configurações de arquivamento incluem a configuração global padrão e as configurações de site e de pool opcionais. Não é possível excluir a configuração global. Configurações em nível de pool substituem configurações no nível do site. As configurações no nível do site substituem a configuração global de nível global.
+  - **Configurações de arquivamento**. Você usa uma ou mais configurações de arquivamento para especificar a maioria das opções de arquivamento descritas anteriormente neste tópico, exceto para habilitar o arquivamento de comunicações internas e externas (configuradas usando políticas de arquivamento, conforme descrito no marcador anterior). As configurações de arquivamento incluem a configuração global padrão e as configurações de site e de pool opcionais. Não é possível excluir a configuração global. Configurações em nível de pool substituem configurações no nível do site. As configurações no nível do site substituem a configuração global de nível global.
 
 Como parte da sua análise de requisitos, você precisa determinar como configurar a configuração de arquivamento global e a política de arquivamento global. Você também precisa determinar suas necessidades para qualquer configuração de arquivamento no nível do site, configurações de arquivamento em nível de pool, políticas de arquivamento em nível de site e políticas de arquivamento em nível de usuário.
 

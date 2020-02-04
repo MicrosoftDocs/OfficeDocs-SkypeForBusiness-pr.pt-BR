@@ -3,6 +3,8 @@ title: 'Lync Server 2013: compatibilidade com o Lync 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync 2013 compatibility
 ms:assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412817(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541502
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e177003efb73cd1e16ae8fd772d579eb222af8bd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 19099440c37da5550fb39643fad328ded08851f4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828934"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765532"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -109,14 +111,14 @@ A tabela a seguir descreve os recursos do Lync 2013 com suporte em várias vers�
 <td><p>Conteúdo de apresentação do PowerPoint</p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
-<td><p>Sim </p></td>
+<td><p>Sim</p></td>
 <td><p>Sim</p></td>
 </tr>
 <tr class="even">
 <td><p>Status de presença nos campos Para e Cc do Microsoft Outlook</p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
-<td><p>Sim </p></td>
+<td><p>Sim</p></td>
 <td><p>Sim</p></td>
 </tr>
 <tr class="odd">
@@ -130,21 +132,21 @@ A tabela a seguir descreve os recursos do Lync 2013 com suporte em várias vers�
 <td><p>Status de presença em uma solicitação de reunião na guia Assistente de Agendamento</p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
-<td><p>Sim </p></td>
+<td><p>Sim</p></td>
 <td><p>Sim</p></td>
 </tr>
 <tr class="odd">
 <td><p>Responder com mensagem instantânea ou chamada na barra de ferramentas ou na faixa de opções em um email recebido</p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
-<td><p>Sim </p></td>
+<td><p>Sim</p></td>
 <td><p>Sim</p></td>
 </tr>
 <tr class="even">
 <td><p>Status de presença no campo De do Outlook</p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
-<td><p>Sim </p></td>
+<td><p>Sim</p></td>
 <td><p>Sim</p></td>
 </tr>
 <tr class="odd">
@@ -165,14 +167,14 @@ A tabela a seguir descreve os recursos do Lync 2013 com suporte em várias vers�
 <td><p>Mensagem instantânea e presença em sites do Microsoft SharePoint (o Outlook deve estar instalado)</p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
-<td><p>Sim </p></td>
+<td><p>Sim</p></td>
 <td><p>Sim</p></td>
 </tr>
 </tbody>
 </table>
 
 
-1 para obter mais informações, consulte integrando o [Microsoft Lync server 2013 e o Microsoft Exchange server 2013](lync-server-2013-integrating-with-microsoft-exchange-server-2013.md) na documentação de planejamento.
+1 para obter mais informações, consulte [integrando o Microsoft Lync server 2013 e o Microsoft Exchange server 2013](lync-server-2013-integrating-with-microsoft-exchange-server-2013.md) na documentação de planejamento.
 
 Os recursos a seguir estão disponíveis apenas com o Office 2010 ou o Office 2013:
 

@@ -3,6 +3,8 @@ title: Processo de implantação para a integração de mensagens unificadas loc
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment process for integrating on-premises Unified Messaging and Lync Server
 ms:assetid: 269a4436-f09f-415b-96ab-49a64370a385
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425737(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183664
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7147a83bad1ed8b5cacc369d8d64e71fcaac32b1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 76a45210fa90e5d2493885e54f07bb922f6d0495
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829479"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762609"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34829479"
 
 _**Tópico da última modificação:** 2012-12-17_
 
-Se você quiser integrar o Exchange Unified Messaging (UM) com o Lync Server 2013, será necessário executar as tarefas descritas neste tópico. Além disso, certifique-se de rever as práticas recomendadas de planejamento e implantação descritas em [diretrizes para integrar a Unificação de mensagens e o Lync Server 2013](lync-server-2013-guidelines-for-integrating-on-premises-unified-messaging.md). Este tópico pressupõe que você tenha implantado o Lync Server 2013 com um servidor de mediação posicionado e que você tenha habilitado usuários para o Lync Server 2013, mas não necessariamente que você tenha executado todas as etapas de implantação e configuração para habilitar o Enterprise Voice, como descrito em Implantando o [Enterprise Voice no Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md) na documentação de implantação.
+Se você quiser integrar o Exchange Unified Messaging (UM) com o Lync Server 2013, será necessário executar as tarefas descritas neste tópico. Além disso, certifique-se de rever as práticas recomendadas de planejamento e implantação descritas em [diretrizes para integrar a Unificação de mensagens e o Lync Server 2013](lync-server-2013-guidelines-for-integrating-on-premises-unified-messaging.md). Este tópico pressupõe que você implantou o Lync Server 2013 com um servidor de mediação posicionado e que você tenha habilitado usuários para o Lync Server 2013, mas não necessariamente que você tenha executado todas as etapas de implantação e configuração para habilitar o Enterprise Voice, conforme descrito em [implantando o Enterprise Voice no Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md) na documentação de implantação.
 
 <div>
 

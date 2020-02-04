@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Clientes'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Clients for Lync Server
 ms:assetid: e143ce9b-3624-4066-942d-6c86ad99be91
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398996(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185530
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0012719827a79b92a699a642c3518db6b4c7c222
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b74341cca1d66309cecf405fda92ce944995ec53
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836564"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756425"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -87,7 +89,7 @@ O Lync 2013 Basic é um cliente que pode ser baixado para clientes que têm uma 
 
 ## <a name="lync-windows-store-app"></a>Aplicativo Lync da Windows Store
 
-O aplicativo Lync da Windows Store é um aplicativo Lync otimizado para toque projetado especificamente para o Windows 8,1, o Windows 8 e o Windows RT. Os usuários podem baixar o aplicativo por meio da Windows Store ao procurar por "Lync". Para obter mais informações, consulte [tabelas de comparação de clientes do Lync server 2013](lync-server-2013-desktop-client-comparison-tables.md), [Lync Windows Store app requirements para o Lync Server 2013](lync-server-2013-lync-windows-store-app-requirements.md)e implantando o [aplicativo Lync da windows Store no Lync Server 2013](lync-server-2013-deploying-lync-windows-store-app.md).
+O aplicativo Lync da Windows Store é um aplicativo Lync otimizado para toque projetado especificamente para o Windows 8,1, o Windows 8 e o Windows RT. Os usuários podem baixar o aplicativo por meio da Windows Store ao procurar por "Lync". Para obter mais informações, consulte [tabelas de comparação de clientes do Lync server 2013](lync-server-2013-desktop-client-comparison-tables.md), [Lync Windows Store app requirements para o Lync Server 2013](lync-server-2013-lync-windows-store-app-requirements.md)e [implantando o aplicativo Lync da windows Store no Lync Server 2013](lync-server-2013-deploying-lync-windows-store-app.md).
 
 </div>
 
@@ -103,7 +105,7 @@ Os aplicativos móveis do Lync 2013 agora incluem voz sobre IP (VoIP) e recursos
 
 ## <a name="supported-clients-from-previous-releases"></a>Clientes compatíveis de versões anteriores
 
-O Lync Server 2013 dá suporte a clientes a seguir de versões anteriores do servidor. Você pode disponibilizar alguns clientes anteriores para os usuários quando eles ingressam em reuniões. Para obter detalhes, consulte Configurando [a página ingressar na reunião no Lync Server 2013](lync-server-2013-configuring-the-meeting-join-page.md) na documentação de implantação.
+O Lync Server 2013 dá suporte a clientes a seguir de versões anteriores do servidor. Você pode disponibilizar alguns clientes anteriores para os usuários quando eles ingressam em reuniões. Para obter detalhes, consulte [Configurando a página ingressar na reunião no Lync Server 2013](lync-server-2013-configuring-the-meeting-join-page.md) na documentação de implantação.
 
   - **O Lync 2010**   Lync 2010 oferece uma experiência completa na área de trabalho, incluindo mensagens instantâneas, presença aprimorada, voz, vídeo, compartilhamento e telefonia. No entanto, nenhum dos novos recursos introduzidos no Lync Server 2013 estará disponível até que o cliente do usuário seja atualizado para o Lync 2013.
 

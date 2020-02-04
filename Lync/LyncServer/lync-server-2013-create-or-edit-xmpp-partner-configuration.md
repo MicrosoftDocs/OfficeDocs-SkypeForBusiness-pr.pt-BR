@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Criar ou editar configuração do parceiro XMPP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or edit XMPP partner configuration
 ms:assetid: 362dbe5e-8ee9-4aba-8c26-5907312b4a60
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552447(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48679558
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 488fa84a3f24133c6ebcde4467cacdbdcffe7ff8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 488665bca5cd2ad1b4d2d91a3c85a6a1ddaa3916
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829836"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763385"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ O Microsoft Lync Server 2013 integra um proxy Extensible Messaging and Presence 
 
 6.  Para criar ou editar configurações para **parceiros federados do XMPP**, defina as seguintes configurações:
 
-7.  **Domínio primário** (Obrigatório). O domínio primário é o domínio base do parceiro XMPP. Por exemplo, você digitaria **fabrikam.com** para o nome de domínio do parceiro XMPP. Esta é uma entrada obrigatória.
+7.  **Domínio primário** (obrigatório). O domínio primário é o domínio base do parceiro XMPP. Por exemplo, você digitaria **fabrikam.com** para o nome de domínio do parceiro XMPP. Esta é uma entrada obrigatória.
 
 8.  **Descrição**. A descrição é para anotações ou outras informações de identificação para essa configuração específica. Esta entrada é opcional.
 
@@ -65,7 +67,7 @@ O Microsoft Lync Server 2013 integra um proxy Extensible Messaging and Presence 
     
       - **Público verificado**. Um parceiro **verificado público** ocorre quando os contatos que fazem parte de uma implantação verificada pelo provedor podem ser adicionados à lista de contatos do seu usuário. Os convites podem ser enviados pelo usuário do Lync ou o usuário do Lync pode aceitar convites do contato do parceiro.
     
-      - **Pública**não verificada. Uma relação não **verificada pública** implica que não há status estabelecido e verificável entre as duas implantações. Um usuário do Lync deve convidar o contato não verificado para esse contato para poder adicionar o usuário do Lync à sua lista de contatos. Por exemplo, o Google GTalk não é um serviço de XMPP verificado público como se relaciona ao Lync Server. Um usuário do GTalk não poderá adicionar o usuário do Lync como um contato, a menos que haja um convite explícito enviado pelo usuário do Lync.
+      - **Pública não verificada**. Uma relação não **verificada pública** implica que não há status estabelecido e verificável entre as duas implantações. Um usuário do Lync deve convidar o contato não verificado para esse contato para poder adicionar o usuário do Lync à sua lista de contatos. Por exemplo, o Google GTalk não é um serviço de XMPP verificado público como se relaciona ao Lync Server. Um usuário do GTalk não poderá adicionar o usuário do Lync como um contato, a menos que haja um convite explícito enviado pelo usuário do Lync.
 
 11. Observações sobre negociação de fluxo e os métodos de segurança Transport Layer Security (TLS) e Authentication and Security Layer (SASL):
     

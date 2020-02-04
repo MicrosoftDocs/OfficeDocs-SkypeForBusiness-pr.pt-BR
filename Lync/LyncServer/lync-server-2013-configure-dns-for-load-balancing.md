@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar DNS para balanceamento de carga'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure DNS for load balancing
 ms:assetid: 1b2e8414-8676-4872-8ecf-ea07196f74de
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398251(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e370d3b66e82b02bd5668fc1c9cab4ee41da759
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f5b68bf226c71d65835791577ab9a45f18b2a10e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836390"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758349"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -162,7 +164,7 @@ Antes de poder usar o balanceamento de carga de DNS, você deve fazer o seguinte
 
 3.  Clique na guia **avançado** , selecione **habilitar rodízio** e **Habilitar classificação de máscara de rede**e, em seguida, clique em **OK**.
     
-    ![Caixa de diálogo rodízio de DNS] (images/Gg398251.e7bf6125-8d78-4460-8401-0a8e7e21d305(OCS.15).jpg "Caixa de diálogo rodízio de DNS")
+    ![Caixa de diálogo rodízio de DNS](images/Gg398251.e7bf6125-8d78-4460-8401-0a8e7e21d305(OCS.15).jpg "Caixa de diálogo rodízio de DNS")
 
 <div>
 

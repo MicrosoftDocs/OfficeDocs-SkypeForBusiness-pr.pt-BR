@@ -3,6 +3,8 @@ title: 'Lync Server 2013: exibir informações de configuração de tronco'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View trunk configuration information
 ms:assetid: ebe10e14-08c2-4797-9254-9ed89516d5cd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721927(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733862
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: abf496382ed33b95e8de9f387a8623fb0984ed28
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 77f53a4263fd0e0b64ccd6894d27e30c0c5be95c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844379"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757395"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +53,7 @@ Ao instalar o Microsoft Lync Server 2013, uma coleção global de configuraçõe
 
 1.  No painel de controle do Lync Server, clique em **Roteamento de voz** e, em seguida, clique em **configuração de tronco**.
 
-2.  Na guia **configuração de tronco** , você verá uma lista de todas as suas definições de configuração de tronco; para cada coleção, você verá os valores para as propriedades **nome**, **escopo**, **estado**e **ignorar mídia** , juntamente com o número de **usos de PSTN**, **as regras de número de chamada**e **as regras de número chamadas** associadas com a coleção. Para ver detalhes adicionais sobre uma coleção de definições de configuração de tronco, clique na coleção de interesse, clique em **Editar**e, em seguida, clique em **Mostrar detalhes**. Observe que você pode exibir informações detalhadas apenas para um conjunto de configurações de tronco de configuração de tronco de cada vez.
+2.  Na guia **configuração de tronco** , você verá uma lista de todas as suas definições de configuração de tronco; para cada coleção, você verá os valores para as propriedades **nome**, **escopo**, **estado**e **ignorar mídia** , juntamente com o número de **usos de PSTN**, **as regras de número de chamada**e **as regras de número chamadas** associadas à coleção. Para ver detalhes adicionais sobre uma coleção de definições de configuração de tronco, clique na coleção de interesse, clique em **Editar**e, em seguida, clique em **Mostrar detalhes**. Observe que você pode exibir informações detalhadas apenas para um conjunto de configurações de tronco de configuração de tronco de cada vez.
 
 </div>
 

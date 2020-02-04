@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Tabela FocusJoinsAndLeaves'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: FocusJoinsAndLeaves table
 ms:assetid: e6f0212c-67e9-4061-8720-d0296e855991
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399026(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ead6fc2ce79f7ab1206476ee420bd2ba5a7711f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4365e5bbfe92168047165adf6504333e1c34fab6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829146"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765259"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -64,7 +66,7 @@ Cada registro desta tabela contém as informações de CDR sobre o ingresso de u
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primário, estrangeiro</p></td>
-<td><p>Número de identificação para identificar a instância de conferência. Usado em conjunto com <strong></strong> a identificação_da_sessãotime para identificar exclusivamente uma instância de conferência. Consulte a <a href="lync-server-2013-conferences-table.md">tabela conferências no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>Número de identificação para identificar a instância de conferência. Usado em conjunto com a <strong>identificação_da_sessãotime</strong> para identificar exclusivamente uma instância de conferência. Consulte a <a href="lync-server-2013-conferences-table.md">tabela conferências no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DialogSessionIdTime</strong></p></td>
@@ -76,7 +78,7 @@ Cada registro desta tabela contém as informações de CDR sobre o ingresso de u
 <td><p><strong>DialogSessionIdSeq</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primário, estrangeiro</p></td>
-<td><p>Número de identificação para identificar a sessão. Usado em conjunto com <strong></strong> a identificação_da_sessãotime para identificar exclusivamente uma sessão. consulte a <a href="lync-server-2013-dialogs-table.md">tabela de diálogos no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>Número de identificação para identificar a sessão. Usado em conjunto com a <strong>identificação_da_sessãotime</strong> para identificar exclusivamente uma sessão. consulte a <a href="lync-server-2013-dialogs-table.md">tabela de diálogos no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ID</strong></p></td>

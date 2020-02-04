@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Criando registros de DNS para o Serviço de Autodiscov
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Creating DNS records for the Autodiscover Service
 ms:assetid: 3756ffe4-c6b1-492d-850e-42a832e06567
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690010(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183823
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5307251e9c3dea202b08b48bf45e109ef19449ec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d91c67620a87fdd91a1755592175e8cf2964d259
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829771"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741141"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -89,7 +91,7 @@ Os registros DNS que você cria podem ser registros (host) ou registros CNAME. P
 
 7.  Deve haver alguma forma de caixa de texto **nome do alias** , como com o DNS interno, você deve digitar lyncdiscover como o nome do host para a URL do serviço de descoberta automática externa.
 
-8.  Também deve haver uma forma de um **FQDN (nome de domínio totalmente qualificado) para a caixa de texto de host de destino** , aqui você irá inserir o FQDN de serviços Web externos para o seu pool de diretor (por exemplo, lyncwebexdir01.contoso.com) e clicar em OK ou levar o que for ação no DNS externo para aceitar a criação dessa entrada. Conforme observado na etapa 4, acima, se você não tiver um pool de directors, será necessário usar o FQDN do pool de front-end ou o FQDN do servidor único que você configurou, conforme apropriado.
+8.  Também deve haver alguma forma de um **FQDN (nome de domínio totalmente qualificado) para a caixa de texto de host de destino** , aqui está onde você vai inserir o FQDN de serviços Web externos para o seu pool de Director (por exemplo, lyncwebexdir01.contoso.com) e, em seguida, clicar em OK ou executar qualquer ação no DNS externo para aceitar a criação dessa entrada. Conforme observado na etapa 4, acima, se você não tiver um pool de directors, será necessário usar o FQDN do pool de front-end ou o FQDN do servidor único que você configurou, conforme apropriado.
 
 9.  Você precisará criar um novo registro CNAME de descoberta automática na zona de pesquisa direta de cada domínio SIP com suporte no seu ambiente do Lync 2013.
 
@@ -143,7 +145,7 @@ Os registros DNS que você cria podem ser registros (host) ou registros CNAME. P
 
 7.  Deve haver um local para inserir um **nome**, digite lyncdiscover como o nome do host para a URL do serviço de descoberta automática externa.
 
-8.  Também deve haver uma caixa de texto de **endereço IP** , aqui está onde você digitará o IP para o seu pool de diretor (por exemplo, lyncwebexdir01.contoso.com) ou o IP do balanceador de carga do pool (ou um IP de proxy reverso que leva ao mesmo) e, em seguida, clique em OK ou execute qualquer ação no DNS externo para aceitar a criação dessa entrada. Conforme observado na etapa 4, acima, se você não tiver um pool de directors, será necessário usar o endereço IP do pool de front-end ou o endereço IP do servidor único que você configurou, conforme apropriado.
+8.  Também deve haver uma caixa de texto de **endereço IP** , aqui está onde você digitará o IP para o seu pool de diretor (por exemplo, lyncwebexdir01.contoso.com) ou o IP do balanceador de carga do pool (ou um IP de proxy reverso que leva ao mesmo) e, em seguida, clique em OK ou executará qualquer ação no DNS externo para aceitar a criação dessa entrada. Conforme observado na etapa 4, acima, se você não tiver um pool de directors, será necessário usar o endereço IP do pool de front-end ou o endereço IP do servidor único que você configurou, conforme apropriado.
 
 9.  Você precisará criar um novo registro de descoberta automática A ou AAAA na zona de pesquisa direta de cada domínio SIP com suporte no seu ambiente do Lync 2013.
 
