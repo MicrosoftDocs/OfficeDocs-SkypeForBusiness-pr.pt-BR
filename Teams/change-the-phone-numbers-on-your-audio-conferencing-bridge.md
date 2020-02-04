@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: Quando você compra licenças de audioconferência, a Microsoft está hospedando sua ponte de conferência de áudio para sua organização. A ponte de audioconferência oferece números de telefone de discagem de locais diferentes, para que os organizadores da reunião e os participantes possam usá-los para ingressar em reuniões do Skype for Business ou do Microsoft Teams usando um telefone.
-ms.openlocfilehash: a37f1d90fc0c960d1e3c1f7ddf4424b3aaec6f98
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 7476f7831ce830c8719940ae555dcd461e19ab2c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992868"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684104"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Alterar os números de telefone em sua ponte de Audioconferência
 

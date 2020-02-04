@@ -7,25 +7,25 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.PersistentChatConfig
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f2891e6-bad3-4a23-a345-b7de4cae3bd9
 description: Sua implantação do servidor de chat persistente pode hospedar muitas salas de chat persistentes persistentes. Essas salas podem ser organizadas em um conjunto de categorias no servidor. Cada sala de chat pertence a uma categoria e herda algumas configurações dessa categoria. Essa organização cria uma estrutura útil para identificar conversas, com base no objetivo comercial, bem como facilita a administração delegada e o gerenciamento simplificado.
-ms.openlocfilehash: 75665a9a3dfb25f6c70abb0c5a425d6ce69e5d62
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 07c1043a67d5f1a64dbb53540fbd902341067b32
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302668"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41686224"
 ---
 # <a name="persistent-chat-configuration"></a>Configuração de Chat Persistente
  
 Sua implantação do servidor de chat persistente pode hospedar muitas salas de chat persistentes persistentes. Essas salas podem ser organizadas em um conjunto de categorias no servidor. Cada sala de chat pertence a uma categoria e herda algumas configurações dessa categoria. Essa organização cria uma estrutura útil para identificar conversas, com base no objetivo comercial, bem como facilita a administração delegada e o gerenciamento simplificado.
   
 > [!NOTE]
-> Embora muitos dos recursos de gerenciamento de salas de chat estejam disponíveis em computadores que executam chats persistentes do usuário, os administradores de chat persistente (na função **cspersistentchatadministrator** ) devem usar o painel de controle ou o Shell de gerenciamento cmdlets para criar ou gerenciar categorias.
+> Embora muitos dos recursos de gerenciamento das salas de chat estejam disponíveis em computadores que executam o chat persistente do usuário, os administradores de chat persistente (na função **cspersistentchatadministrator** ) devem usar os cmdlets do painel de controle ou do Shell de gerenciamento para criar ou gerenciar categorias.
   
 Administradores de chat persistentes usam o painel de controle do Skype for Business Server ou cmdlets do Windows PowerShell para criar e gerenciar categorias e para criar acesso a salas de chat para os usuários de sua organização.
   

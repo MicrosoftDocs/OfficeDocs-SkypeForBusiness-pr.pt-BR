@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployMainForestPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 description: Para preparar a floresta dos serviços de domínio Active Directory, você deve prorrogar o esquema com êxito, conforme descrito no tópico executando a preparação do esquema e certifique-se de que o esquema tenha sido replicado.
-ms.openlocfilehash: 3d22b2a2cbe69132d7c84cbcced3090fd4ade266
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4286ff0bd9b3291f631e3466b0e790174807a8bf
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283830"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687394"
 ---
 # <a name="prepare-current-forest"></a>Preparar Floresta Atual
 
@@ -35,7 +35,7 @@ Depois de atender a esses pré-requisitos, você pode começar a **Etapa 3: prep
 
 3. Na página **Executando Comandos**, procure por **Status da tarefa: Concluída** e clique em **Exibir Log**. Certifique-se de que não haja erros. Revise os avisos a fim de determinar se são esperados e normais para sua infraestrutura.
 
-4. Na coluna **Action** do log, expanda **Forest prep**, procure um ** \<\> ** resultado de execução de sucesso no final de cada tarefa para verificar se a preparação da floresta foi concluída com êxito, feche o log e clique em **concluir. **.
+4. Na coluna **Action** do log, expanda **Forest prep**, procure um ** \<\> ** resultado de execução de sucesso no final de cada tarefa para verificar se a preparação da floresta foi concluída com êxito, feche o log e clique em **concluir**.
 
 5. Aguarde a conclusão da replicação dos serviços de domínio Active Directory ou force a replicação para todos os controladores de domínio listados no snap-in **sites e serviços do Active Directory** para o controlador de domínio raiz da floresta, antes de executar a preparação do domínio. Force a replicação entre os controladores de domínio em todos os sites do Active Directory para fazer com que a replicação dentro dos sites ocorra em minutos.
 

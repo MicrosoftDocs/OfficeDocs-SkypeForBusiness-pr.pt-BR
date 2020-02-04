@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceFeaVacantNumEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 description: Números não atribuídos são números de telefone válidos para sua organização, mas que não são atribuídos a um usuário ou telefone. A tabela de números não atribuídos identifica como você deseja lidar com chamadas para números não atribuídos.
-ms.openlocfilehash: 9af8cb8405bfb80e3d09eceb6f2cffa28a37c300
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e8a294273591969430abbbc450a37a5292fbe0c1
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293029"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685664"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>Número de Telefone Não Atribuído: Criar Novo ou Editar Existente
 
@@ -39,7 +39,7 @@ A lista a seguir descreve os campos na página.
 
   - Se o número inicial ou o número final do intervalo incluir um número de ramal, ambos os números devem incluir um ramal, que deve ser o mesmo para ambos.
 
-  - O número deve corresponder à expressão regular (Tel:) ? (\+) ? [1-9] \d{0,17}(; Ext = [1-9] \d{0,9}) ?. Isso significa que o número pode começar com a cadeia de caracteres Tel: (se você não especificar essa cadeia de caracteres, ela será adicionada automaticamente para você), um sinal de adição (+) e um dígito de 1 a 9. O número de telefone pode ter até 17 dígitos e pode ser seguido de um ramal no formato ;ext= seguido do número do ramal.
+  - O número deve corresponder à expressão regular (Tel:)? ( \+)? [1-9] \d{0,17}(; Ext = [1-9] \d{0,9})?. Isso significa que o número pode começar com a cadeia de caracteres Tel: (se você não especificar essa cadeia de caracteres, ela será adicionada automaticamente para você), um sinal de adição (+) e um dígito de 1 a 9. O número de telefone pode ter até 17 dígitos e pode ser seguido de um ramal no formato ;ext= seguido do número do ramal.
 
 - **Serviço de anúncio** Selecione **anúncio** para que o aplicativo de anúncio manipule a chamada de entrada ou o **Exchange um** para que um atendedor automático de um Exchange trate a chamada de entrada.
 
@@ -53,6 +53,6 @@ A lista a seguir descreve os campos na página.
 
   - **Número de telefone do atendedor automático** Selecione o número de telefone para o atendedor automático de UM do Exchange.
 
-Para obter detalhes sobre recursos e recursos do lançamento, consulte [planejar o aplicativo de anúncio no Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md) na documentação de planejamento. Para obter detalhes sobre como trabalhar com intervalos de números não atribuídos, consulte  [Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) na documentação Operações.
+Para obter detalhes sobre os recursos e funções do Comunicado, confira [Planejar o aplicativo Comunicado no Skype for Business 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md) na documentação de Planejamento. Para obter detalhes sobre como trabalhar com intervalos de números não atribuídos, consulte  [Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) na documentação Operações.
 
 

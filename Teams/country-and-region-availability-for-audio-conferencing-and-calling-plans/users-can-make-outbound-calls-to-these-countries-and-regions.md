@@ -17,18 +17,19 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Este tópico contém todos os países/regiões nos quais os usuários podem fazer chamadas de saída se tiverem um plano de chamada.
-ms.openlocfilehash: fd876a66484101c58eaf65d3d78ca57576f2193f
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d882078c32b5820dc060778dca4c3f30b4b2a044
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572505"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41682508"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Os usuários podem fazer chamadas de saída para esses países e regiões
 
@@ -47,18 +48,18 @@ ms.locfileid: "37572505"
 |Argentina|Ilhas |Jamaica |Ilhas |Portugal |Ilhas Turks e Caicos   |
 |Armênia |Finlândia |Japão |Mayotte | Porto Rico |Xelim  |
 |Aruba |França |Jordânia |México |Catar | Ucrânia   |
-|Austrália |Guiana francesa |Cazaquistão  |Micronésia |Reuniões |Emirados Árabes Unidos (U. A. E)  |
+|Austrália |Guiana francesa |Cazaquistão |Micronésia |Reuniões |Emirados Árabes Unidos (U. A. E)  |
 |Áustria |Polinésia francesa |Quênia |Moldova, República da |Romênia |Reino Unido (U.K.) |
 |Azerbaijão |Geórgia |Coréia, República da |Mônaco | Federação Russa |Estados Unidos  |
 |Bahamas |Alemanha |Kuwait |Mongólia |Ruanda | Uruguai |
-|Bahrein |Gana |Quirguistão |Montenegro | São Cristóvão e Névis |Uzbequistão  |
+|Bahrein |Gana |Quirguistão |Montenegro | São Cristóvão e Nevis |Uzbequistão  |
 |Bangladesh |Gialtar |Laosiana |Montserrat | Santa Lúcia |Estado da cidade do Vaticano  |
 |Barbados |Grécia |Letônia |Marrocos |São Vicente e Granadinas |Venezuela   |
 |Belarus |Groenlândia |Líbano |Moçambique | San Marino |Vietnã  |
 |Bélgica |Granada |Lesoto |Sinal | Saudi Arabia (المملكة العربية السعودية) | Ilhas Virgens (britânicas) |
 |Belize |Guadalupe |Líbia |Namíbia |Senegal | Ilhas Virgens (EUA)  |
 |Benin |Guam |Liechtenstein |Nepal | Sérvia | Ilhas Wallis e Futuna  |
-|Bermuda |Guatemala |Lituânia |Países Baixos |Cingapura |Iêmen |
+|Bermudas |Guatemala |Lituânia |Países Baixos |Cingapura |Iêmen |
 |Butão |Guiné |Luxemburgo |Antilhas Holandesas |Eslováquia |Zâmbia  |
 |Bolívia |Guiana| |Nova Caledônia |Eslovênia |Zimbábue |
 |Bosnia and Herzegovina (Bosna i Hercegovina) |Haiti ||Nova Zelândia |África do Sul | 

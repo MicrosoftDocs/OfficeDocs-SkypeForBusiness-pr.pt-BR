@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Resumo: Configure seus requisitos de não-servidor para o Skype for Business Server 2015. Há várias coisas que você deve configurar antes de realizar a implantação, incluindo Active Directory, DNS, certificados e compartilhamento de fileshares.'
-ms.openlocfilehash: 59f7bed17c217eda46314d2a133c0d5671682824
-ms.sourcegitcommit: ab259764dc50bdd52efed3abb1d065ee19486946
+ms.openlocfilehash: 60244391a04b1bab31464bd0ef0b804510e40955
+ms.sourcegitcommit: 2cb46af39a0d116e8fd020aa04bd2ecbd6998a5f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "36393370"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41678955"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Requisitos de ambiente para o Skype for Business Server 2015
  
@@ -250,6 +250,9 @@ Portanto, o planejamento de certificado deve. Agora, vamos examinar uma lista de
   
 > [!NOTE]
 > O uso do algoritmo de assinatura RSASSA-PSS não é permitido e pode levar a erros no login e a problemas de encaminhamento de chamadas, entre outros.  
+
+> [!NOTE]
+> O Skype for Business Server 2015 não oferece suporte a certificados CNG.
   
 - Os comprimentos de chave de criptografia de 1024, 2048 e 4096 são suportados. Comprimentos de pelo menos 2048 são recomendados.
     
@@ -259,7 +262,7 @@ Portanto, é muito preciso pensar e, definitivamente, há uma variedade de níve
   
 ### <a name="certificates-for-your-internal-servers"></a>Certificados para seus servidores internos
 
-Você precisará de certificados para a maioria dos seus servidores internos e, provavelmente, receberá uma CA interna (que é uma localizada no seu domínio). Se quiser, você pode solicitar esses certificados de uma AC externa (localizada na internet). Se você estiver se perguntando qual é a autoridade de certificação pública, pode dar uma olhada na lista de [parceiros do certificado de Comunicação](/SkypeForBusiness/certification/services-ssl) unificada.
+Você precisará de certificados para a maioria dos seus servidores internos e, provavelmente, receberá uma CA interna (que é uma localizada no seu domínio). Se quiser, você pode solicitar esses certificados de uma AC externa (localizada na internet). Se você estiver se perguntando qual é a autoridade de certificação pública, pode dar uma olhada na lista de [parceiros do certificado de comunicação unificada](/SkypeForBusiness/certification/services-ssl) .
   
 Você também precisará de certificados quando o Skype for Business Server 2015 se comunicar com outros aplicativos e servidores, como o Microsoft Exchange Server. Esse, obviamente, deve ser um certificado que possa ser usado por outros aplicativos e servidores de maneira suportada. O Skype for Business Server 2015 e outros produtos da Microsoft dão suporte ao protocolo de autorização aberta (OAuth) para autenticação e autorização de servidor para servidor. Se você estiver interessado nisso, temos um artigo de planejamento adicional para o OAuth e o Skype for Business Server 2015.
   
@@ -362,7 +365,7 @@ Este SAN precisa ser atribuído ao certificado que, por sua vez, é atribuído a
 
 O Skype for Business Server 2015 é capaz de usar o mesmo compartilhamento de arquivo para todo o armazenamento de arquivos. Deve-se ter em mente:
   
-- Um compartilhamento de arquivo precisa estar em um armazenamento anexado direto (DAS) ou em uma rede de área de armazenamento (SAN), e isso inclui o sistema de arquivos distribuído (DFS), bem como uma matriz redundante de RAID para repositórios de arquivos. Para ler mais sobre o DFS para Windows Server 2012, confira [esta página DFS](https://technet.microsoft.com/en-us/library/jj127250.aspx).
+- Um compartilhamento de arquivo precisa estar em um armazenamento anexado direto (DAS) ou em uma rede de área de armazenamento (SAN), e isso inclui o sistema de arquivos distribuído (DFS), bem como uma matriz redundante de RAID para repositórios de arquivos. Para ler mais sobre o DFS para Windows Server 2012, confira [esta página DFS](https://technet.microsoft.com/library/jj127250.aspx).
     
 - Recomendamos um cluster compartilhado para o compartilhamento de arquivo. Se você estiver usando um deles, deve clusterizar o Windows Server 2012 ou o Windows Server 2012 R2. O Windows Server 2008 R2 também é aceitável. Por que as janelas mais recentes? Versões antigas podem não ter as permissões adequadas para habilitar todos os recursos. Você pode usar o administrador de clusters para criar os compartilhamentos de arquivos, e este procedimento [como criar compartilhamentos de arquivos em um](https://support.microsoft.com/en-us/help/224967/how-to-create-file-shares-on-a-cluster) artigo de cluster ajudará você com esses detalhes.
     

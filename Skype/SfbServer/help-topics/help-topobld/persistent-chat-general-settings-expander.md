@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.PersistentChatGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 description: 'Edite as configurações gerais do servidor de chat persistente ou do pool do servidor de chat persistente Configurando ou definindo essas propriedades:'
-ms.openlocfilehash: c79ef61e2b7609aa344766c37cf38adaa195f23d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 184ee58f5b79547434281e073cf99a30d72b7bbc
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289970"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684484"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>Expansor de Configurações Gerais de Chat Persistente
  
@@ -40,31 +40,31 @@ Edite as configurações de **associações** para o servidor de chat persistent
     
     Clique em **Novo** para definir um novo repositório do SQL Server e instância opcional.
     
-- Marque a caixa de seleção Habilitar o espelhamento da **loja do SQL Server** se você quiser habilitar o espelhamento para a loja principal do SQL Server.
+- Marque a caixa de seleção **habilitar o espelhamento da loja do SQL Server** se você quiser habilitar o espelhamento para a loja principal do SQL Server.
     
-    Se você optou por habilitar o espelhamento da loja do SQL Server, selecione a loja e a instância na lista espelhando o **SQL Server Store**.
+    Se você optou por habilitar o espelhamento da loja do SQL Server, selecione a loja e a instância na lista **espelhando o SQL Server Store**.
     
     Clique em **Novo** para definir um novo repositório do SQL Server e instância opcional.
     
-- Marque a caixa de seleção usar a testemunha de espelhamento do **SQL Server para habilitar o failover automático** se desejar failover automático da loja principal do SQL Server.
+- Marque a caixa de seleção **usar a testemunha de espelhamento do SQL Server para habilitar o failover automático** se desejar failover automático da loja principal do SQL Server.
     
     Se você optou por habilitar a testemunha de espelhamento da loja do SQL Server para habilitar o failover automático, selecione a loja e a instância na lista.
     
     Clique em **Novo** para definir um novo repositório do SQL Server e instância opcional para o repositório de testemunha.
     
-- Marque a caixa de seleção **usar o backup de repositórios do SQL Server para habilitar a recuperação** de desastres se você quiser habilitar o uso da recuperação de desastre do SQL Server
+- Marque a caixa de seleção **usar o backup de repositórios do SQL Server para habilitar a recuperação de desastres** se você quiser habilitar o uso da recuperação de desastre do SQL Server
     
     Se você escolher habilitar a recuperação de desastre, selecione um repositório e uma instância na lista **Repositório do SQL Server de backup**.
     
     Clique em **Novo** para definir um novo repositório do SQL Server e instância opcional.
     
-- Marque a caixa de seleção Habilitar o espelhamento da **loja do SQL Server** se você quiser habilitar o espelhamento do armazenamento de espelhamento do SQL Server de backup.
+- Marque a caixa de seleção **habilitar o espelhamento da loja do SQL Server** se você quiser habilitar o espelhamento do armazenamento de espelhamento do SQL Server de backup.
     
     Se você optou por habilitar o espelhamento de backup do SQL Server Store, selecione a loja e a instância no espelho da lista **backup do SQL Server Store**.
     
     Clique em **Novo** para definir um novo repositório do SQL Server e instância opcional.
     
-- Marque a caixa de seleção usar a testemunha de espelhamento do **SQL Server para habilitar o failover automático** se desejar failover automático do repositório do SQL Server de backup.
+- Marque a caixa de seleção **usar a testemunha de espelhamento do SQL Server para habilitar o failover automático** se desejar failover automático do repositório do SQL Server de backup.
     
     Se você optou por habilitar a testemunha de espelhamento da loja do SQL Server para habilitar o failover automático, selecione a loja e a instância na lista.
     
@@ -76,7 +76,7 @@ Edite as configurações de **associações** para o servidor de chat persistent
     
     Clique em **Novo** para definir um novo repositório do SQL Server e instância opcional.
     
-- Marque a caixa de seleção Habilitar o espelhamento da **loja do SQL Server** se você quiser habilitar o espelhamento para a loja do SQL Server de conformidade.
+- Marque a caixa de seleção **habilitar o espelhamento da loja do SQL Server** se você quiser habilitar o espelhamento para a loja do SQL Server de conformidade.
     
     Se você optou por habilitar o espelhamento de compatibilidade do SQL Server Store, selecione a loja e a instância no espelho da lista **conformidade do SQL Server Store**.
     
@@ -92,7 +92,7 @@ Edite as configurações de **associações** para o servidor de chat persistent
     
     Clique em **Novo** para definir um novo repositório do SQL Server e instância opcional.
     
-- Marque a caixa de seleção Habilitar o espelhamento da **loja do SQL Server** se você quiser habilitar o espelhamento para a loja do SQL Server de conformidade.
+- Marque a caixa de seleção **habilitar o espelhamento da loja do SQL Server** se você quiser habilitar o espelhamento para a loja do SQL Server de conformidade.
     
     Se você optou por habilitar o espelhamento de compatibilidade do SQL Server Store, selecione a loja e a instância no espelho da lista de **conformidade de backup do SQL Server Store**.
     

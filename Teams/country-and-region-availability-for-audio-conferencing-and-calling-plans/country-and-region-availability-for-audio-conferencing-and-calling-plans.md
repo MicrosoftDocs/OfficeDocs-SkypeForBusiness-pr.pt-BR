@@ -17,19 +17,20 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 - LIL_Placement
 description: Você pode selecionar um país/região para ver se a conferência de áudio, o sistema de telefonia, os planos de chamada, os créditos de comunicações e os números de telefone de chamada tarifada estão disponíveis ou não.
-ms.openlocfilehash: 4d7e1f2f4481baf51c6c3f619f47dc9440d957da
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: cc1acc2e112477c441b9bfb492dff49183e5dc3d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952434"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41682518"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Disponibilidade de Audioconferência e Planos de Chamadas por país e região
 

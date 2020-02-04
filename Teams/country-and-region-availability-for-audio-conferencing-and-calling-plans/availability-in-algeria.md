@@ -17,18 +17,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Argélia.
-ms.openlocfilehash: 0164fae84025f3bdb9949b0da0d7be6db03bdd81
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: a3b7661f3aa2dd79144e8e5080799aea8d0c9de9
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570926"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684084"
 ---
 # <a name="availability-in-algeria"></a>Disponibilidade em Argélia
 

@@ -17,18 +17,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para Santa Lúcia.
-ms.openlocfilehash: b7d95c443178593c0400c92a1d2d9df86046e6ed
-ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
+ms.openlocfilehash: b62b4a9b6fbc97eb6357eb6ff3f768110bdac6ef
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741496"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683584"
 ---
 # <a name="availability-in-saint-lucia"></a>Disponibilidade em Santa Lúcia
 

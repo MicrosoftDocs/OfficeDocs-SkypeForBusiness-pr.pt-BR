@@ -17,18 +17,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Nicarágua.
-ms.openlocfilehash: 5098ef117fec524b6119fe1a06307aec80bbc876
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 5dfe54b05f7de955bbf1ebd39ceffe7374ffdef8
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571019"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683674"
 ---
 # <a name="availability-in-nicaragua"></a>Disponibilidade na Nicarágua
 

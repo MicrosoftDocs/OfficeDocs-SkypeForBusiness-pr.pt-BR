@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.EdgeFqdnsSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
 description: 'Para definir as propriedades em configurações externas, configure o seguinte:'
-ms.openlocfilehash: 6b833e89a8e1288af9a203dd5f44201c253ff2f9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2936c910f2cfc1d7e9106e2dca7477f5e1d2860e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282591"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684754"
 ---
 # <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Expansor de Configurações FQDN de Servidor de Borda para Lync Server 2010
  
@@ -35,7 +35,7 @@ Para os serviços de borda habilitados, digite um **FQDN do pool** e uma porta e
   
 - Defina o FQDN do pool de **serviços de borda de acesso** e uma porta que identifique exclusivamente o serviço.
     
-- Defina o FQDN do pool de **serviços de borda** de Webconferência (se habilitar o FQDN e o endereço IP separados para Webconferência e a/V não estiver selecionado) e uma porta que identifique exclusivamente o serviço.
+- Defina o FQDN do pool de **serviços de borda de Webconferência** (se habilitar o FQDN e o endereço IP separados para Webconferência e a/V não estiver selecionado) e uma porta que identifique exclusivamente o serviço.
     
 - Defina o FQDN do pool de **serviços de borda a/V** (se habilitar FQDN e o endereço IP separados para Webconferência e a/V não estiver selecionado) e uma porta que identifique exclusivamente o serviço.
     

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddFrontEndWebServicesPage2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 97420584-3c2e-4d6d-9a2b-f7e361f1e2d1
 description: A URL base é a identidade dos serviços Web para a URL, menos "https://". Por exemplo, se a URL completa para os serviços Web do pool for https://pool01.contoso.net, a URL base será pool01.contoso.net.
-ms.openlocfilehash: ec167b333948384a66f6ff66c64c4f53fcbe1076
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 48d2cc4c8ce9bc1074ae42e385265b34f24c662e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275322"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685124"
 ---
 # <a name="add-front-end-web-services-2010"></a>Adicionar Serviços Web de Front End 2010
  

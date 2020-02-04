@@ -16,17 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.lync.lac.CpcGettingStarted
 ms.custom:
 - Audio Conferencing
 description: 'Veja como experimentar ou adquirir licenças de Audioconferência (Conferência PSTN) para o Office 365 para configurar chamadas de conferência em que as pessoas podem discar. '
-ms.openlocfilehash: 1a96e8866671c6a6a268113b4b8ca89c67bed8fa
-ms.sourcegitcommit: ba5ee891e5b16c8bece475133a0b6cd1d1f9c145
+ms.openlocfilehash: 5a2c797b1e31dd98d09ee8773396f599f070c3c2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "34813045"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680328"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>Experimente ou adquira Audio Conferência no Office 365 para Skype for Business Online
 
@@ -52,7 +52,7 @@ Você deve ser [sobre as funções de administrador do Office 365](https://suppo
 
    - **Try it** before you buy it, you can sign up for an Office 365 Enterprise E5 free trial that includes Audio Conferencing. See [Office 365 Enterprise E5 Trial](https://portal.office.com/Signup?OfferId=101bde18-5ffb-4d79-a47b-f5b2c62525b3).
 
-   - **Compre**, consulte licenciamento de [Complementos do Skype for Business e do Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+   - **Compre**, consulte [Licenciamento de Complementos do Skype for Business e do Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
 3. [Atribuir ou remover licenças de assinatura no Office 365](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) que você comprou às pessoas na organização que vão agendar ou realizar reuniões.
 

@@ -16,17 +16,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: A Microsoft coleta dados do censo, do uso e do erro para compreender como o Skype for Business está sendo usado e onde os usuários encontram problemas. Os dados são usados para planejar melhorias de produtos.
-ms.openlocfilehash: d5e4e72ac06eb0638ed25dbf48321afd22b503ed
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e84946fd8c61daad7e16f8f7e248f4a0e06c2ae4
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571841"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680458"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Práticas de coleta de dados do Skype for Business e do Microsoft Teams
 

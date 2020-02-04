@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddPersistentChatBackupComplianceStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 358b74bd-a97d-4f28-9bed-af633ea0099e
 description: Você configura as lojas de conformidade de backup do SQL Server que fornecerão bancos de dados de backup para o servidor de chat persistente ou para as lojas do SQL Server persistentes da conformidade do servidor de chat persistente.
-ms.openlocfilehash: 457874f87266453939c75cdef50d30231d8610bf
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b40f749b59e6b389513a16277bfdc75624628d36
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277703"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685074"
 ---
 # <a name="add-persistent-chat-compliance-backup-sql-server-store"></a>Adicionar Repositório de Servidor SQL de Backup de Conformidade de Chat Persistente
  
@@ -28,7 +28,7 @@ Você configura as lojas de conformidade de backup do SQL Server que fornecerão
   
 Clique em **novo** para definir um novo SQL Server e, opcionalmente, uma nova instância para os dados de conformidade de backup de chat persistente.
   
-Marque a caixa de seleção Habilitar o espelhamento da **loja do SQL Server** para configurar um banco de dados do SQL Server e uma instância opcional que fornecerá um banco de dados espelhado para os dados de conformidade de backup de chat persistente.
+Marque a caixa de seleção **habilitar o espelhamento da loja do SQL Server** para configurar um banco de dados do SQL Server e uma instância opcional que fornecerá um banco de dados espelhado para os dados de conformidade de backup de chat persistente.
   
 Selecione na lista **espelhar SQL Server Store** uma instância do SQL Server e opcional para atuar como o espelho do SQL Server do SQL Server de conformidade de backup de chat persistente.
   

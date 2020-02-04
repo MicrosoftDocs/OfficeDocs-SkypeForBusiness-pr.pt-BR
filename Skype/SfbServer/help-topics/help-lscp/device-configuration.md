@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientPhoneCfgMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 description: Uma configuração de dispositivo é um conjunto de configurações usadas para gerenciar os dispositivos do Skype for Business Phone Edition, seja globalmente ou dentro de um site. Essas configurações permitem que você configure aspectos como o modo de segurança necessário, o nível de log do dispositivo, as configurações de QoS (Qualidade de voz do serviço) e se os telefones devem ser bloqueados automaticamente após um período especificado de inatividade.
-ms.openlocfilehash: d84d3749e46636f1ff5b1a141fd96808462851a0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e46b5b2ee68d6a32ed17509ce4d80325133ff428
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285950"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41686854"
 ---
 # <a name="device-configuration"></a>Configuração de Dispositivos
  

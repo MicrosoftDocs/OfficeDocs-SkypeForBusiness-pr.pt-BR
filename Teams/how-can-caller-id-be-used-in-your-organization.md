@@ -16,16 +16,16 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.voice.callerid.overview
+f1.keywords: ms.teamsadmincenter.voice.callerid.overview
 ms.custom:
 - Calling Plans
 description: A identificação de chamadas pode ser controlada para chamadas de entrada e de saída para usuários do sistema telefônico usando uma política chamada CallingLineIdentity.
-ms.openlocfilehash: 671ee484cbb5cccd78f6512d714a4dd0954524b0
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 32dbb3d5b164f2e40e0b8399e2047762ecf882ea
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570744"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680538"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Como a identificação de chamadas pode ser usada em sua organização
 
@@ -64,7 +64,7 @@ Para definir a identificação de chamada de saída, consulte [Definir a identif
 
 The EnableUserOverride attribute enables single or multiple users to change their Caller ID setting to **Anonymous**. This only applies when a CallingLineIdentity policy is configured with a CallingIDSubstitute parameter of either LineURI or Substitute. The default value of EnableUserOverride is False.
   
-Seus usuários finais podem definir a identificação de chamadas como **anônimas** usando a guia **configurações** no cliente da área de trabalho do Skype for Business, selecionar **chamadas para um usuário final** (se habilitado pelo administrador), selecionar **ocultar meu número de telefone e informações de perfil para todas as chamadas **.
+Seus usuários finais podem definir a identificação de chamadas como **anônimas** usando a guia **configurações** no cliente da área de trabalho do Skype for Business, selecionar **chamadas para um usuário final** (se habilitado pelo administrador), selecionar **ocultar meu número de telefone e informações de perfil para todas as chamadas**.
   
 ||||
 |:-----|:-----|:-----|

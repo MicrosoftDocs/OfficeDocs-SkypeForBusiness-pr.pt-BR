@@ -16,18 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
-- O365P_DialInConfDesc
+f1.keywords:
+- CSH
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
+- O365P_DialInConfDesc
 description: 'Saiba como configurar a conferência discada ou de áudio para as pessoas em sua empresa que precisam usar um telefone para participar de chamadas em conferência. '
-ms.openlocfilehash: 499a8a8ef05d23c74b030536d33b7a02cd6d9a1a
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: ea254da1f742db602d396868aad36a0c20951128
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37924972"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680358"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>Configurar a conferência de áudio para o Skype for Business
 
@@ -77,7 +78,7 @@ Para atribuir um novo número de telefone para sua ponte de audioconferência:
 ![Um ícone mostrando o logotipo](../images/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business:**
 
  1. Vá para o**** > **** > **portal herdado**do **Centro** > de administração do Microsoft 365.
- 2. Selecione **** > **números de telefone**de voz.
+ 2. Selecione **Voz** > **Números de telefone**.
  3. Selecione o número de telefone e clique em **atribuir**.
 
 Para obter mais detalhes, consulte [alterar os números de telefone na ponte de videoconferência](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge).

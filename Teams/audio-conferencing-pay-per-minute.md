@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: Além da licença de videoconferência padrão por usuário, as organizações que usam o licenciamento por volume da Microsoft também podem escolher uma oferta de pagamento por minuto para habilitar os recursos de audioconferência para suas organizações.
-ms.openlocfilehash: 0f31d5b79c8b298dbd13c516856446ee2ead977a
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 7f0f0775ea6d3beef7dcd590f04c40845448a71b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515887"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684134"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audioconferência Pagar por Minuto
 
@@ -41,7 +42,7 @@ Você pode descobrir se o seu [país/região tem suporte](country-and-region-ava
   
 ## <a name="need-some-details"></a>Precisa de alguns detalhes?
 
-Enquanto a oferta de licença por usuário por conferência de áudio inclui o uso de discagem e algum uso de discagem, a conferência de áudio paga por minuto **permite que você pague por todo o seu uso de audioconferência por minuto sem pagar por um usuário mensal licença**. Com isso, todas as chamadas discadas e discada serão cobradas por minuto, incluindo:
+Enquanto a oferta de licença por usuário por conferência de áudio inclui o uso de discagem e algum uso de discagem, a conferência de áudio paga por minuto **permite que você pague por todo o seu uso de audioconferência por minuto sem pagar por uma licença mensal por usuário**. Com isso, todas as chamadas discadas e discada serão cobradas por minuto, incluindo:
   
 - Chamadas recebidas para números de conferência de áudio tarifada da sua organização.
     

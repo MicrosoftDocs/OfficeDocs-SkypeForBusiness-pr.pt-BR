@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ConfMeetingSettingEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
 description: As definições de configuração de reunião definem a experiência de ingresso do usuário em conferências agendadas por usuários. Essas configurações se aplicam apenas às reuniões agendadas. Elas não se aplicam à reuniões ad-hoc criadas clicando na opção Reunir Agora no cliente.
-ms.openlocfilehash: baf8912e90d68dc175e6cd278cc7a13eff82ae33
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e98ee52ccab9dbb541d8f09e448f9ac098501ca5
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293456"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41686364"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>Configuração da Reunião: Criar Nova ou Editar Existente
 

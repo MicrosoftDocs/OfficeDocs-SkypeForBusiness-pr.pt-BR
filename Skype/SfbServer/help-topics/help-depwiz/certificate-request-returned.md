@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 4/1/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployCertRequestReturned
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 description: 'A página status da solicitação de certificado online apresenta informações importantes resultantes da criação bem-sucedida e da emissão da solicitação de certificado online. Esta página fornece a impressão digital do certificado que identifica exclusivamente o certificado. Por padrão, a caixa de seleção atribuir este certificado a usos de certificado do Skype for Business Server está selecionada. Se você clicar em concluir, o certificado será atribuído automaticamente ao Lync Server 2013 para fins que você definiu durante as etapas de criação da solicitação de certificado. Por padrão, os fins para os quais o certificado será atribuído são:'
-ms.openlocfilehash: 61e6ea918fea931251470603e2db0b699234267d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 885de54ec8deeef1d326e39b5a35e7b08c633973
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301957"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687744"
 ---
 # <a name="certificate-request-returned"></a>Solicitação de Certificado (Retornado)
  

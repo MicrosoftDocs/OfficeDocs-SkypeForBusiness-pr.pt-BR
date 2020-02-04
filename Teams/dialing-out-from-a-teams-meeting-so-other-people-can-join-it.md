@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: Saiba o que você precisa e como os organizadores da reunião podem fazer chamadas para outras pessoas que usam o Microsoft Teams.
-ms.openlocfilehash: aab3db4057d82237b1e5bf7de8e0157b5833951a
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 5a4a3c0d90bbf07e336dd9ec32c61f99192389a5
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37571775"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680468"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Discar de uma reunião do Microsoft Teams para que outras pessoas possam ingressar
 

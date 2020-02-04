@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.EdgeMachineSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb72a5b5-70f4-44af-8dfd-c5d32e563882
 description: 'Para editar as propriedades dos computadores do servidor de borda como um único servidor de borda ou como computadores membro em um pool de bordas, você deve definir o nome do servidor e as configurações de endereço IP:'
-ms.openlocfilehash: c9201cfde9f19391e1cee351de6d4efac00be9dd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 411e870a874366754d17d0601ed1f216ce18899a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302333"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684774"
 ---
 # <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Expansor de Configurações de Máquina de Borda para Lync Server 2010
  
@@ -33,7 +33,7 @@ Para editar as propriedades dos computadores do servidor de borda como um único
     > [!IMPORTANT]
     > Se você optou por usar um único endereço IP para a configuração do servidor de borda, só poderá editar o endereço IPv4 externo para o serviço de borda de acesso. Os outros serviços de borda compartilharão o mesmo endereço IPv4 que o serviço de borda de acesso. 
   
-- Se estiver disponível para edição, configure o **serviço** de Webconferência do **endereço IPv4 externo** associado a este computador
+- Se estiver disponível para edição, configure o **serviço de Webconferência** do **endereço IPv4 externo** associado a este computador
     
 - Se estiver disponível para edição, você deve configurar o **endereço IPv4 externo** do **serviço de borda a/V** associado a este computador
     
