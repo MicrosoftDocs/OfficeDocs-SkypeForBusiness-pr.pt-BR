@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requisitos técnicos para mobilidade'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Technical requirements for mobility
 ms:assetid: 831be681-4de0-4e42-b04f-8879ca4dcd23
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690030(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184679
 ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac74f7e9e85829e500900e03d4b7cfedf89d1e0b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a4eef2cb185653446627fe6ccec2d49538e1162b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844741"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746481"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,7 +57,7 @@ A necessidade de afinidade de cookie em balanceadores de carga de hardware é re
 
 
 > [!IMPORTANT]  
-> Todo o tráfego do serviço de mobilidade passa pelo proxy reverso, independentemente de onde o ponto de origem for — interno ou externo. No caso de um único proxy reverso ou de um farm de proxies invertidos ou um dispositivo que está fornecendo a função de proxy reverso, um problema pode ocorrer quando o tráfego interno está fazendo a saída por uma interface e tentando se fazer a ingresso imediatamente na mesma interface. Isso geralmente leva a uma violação de regra de segurança conhecida como falsificação de pacotes TCP ou apenas spoofing. <EM>Fixação de cabelo</EM> (o egresso e os ingressos imediatos de um pacote ou uma série de pacotes) devem ser permitidos para que a mobilidade funcione. Uma maneira de resolver esse problema é usar um proxy inverso que é separado do firewall (a regra de prevenção de spoofing sempre deve ser imposta no firewall para fins de segurança). O conecte pode ocorrer na interface externa do proxy reverso, em vez da interface externa do firewall. Você detecta a falsificação no firewall e relaxar a regra no proxy reverso, permitindo assim que o conecte que a mobilidade exija.<BR>Use o host DNS (sistema de nomes de domínio) ou os registros CNAME para definir o proxy inverso para o comportamento conecte (não o firewall), se possível.
+> Todo o tráfego do serviço de mobilidade passa pelo proxy reverso, independentemente de onde o ponto de origem for — interno ou externo. No caso de um único proxy reverso ou de um farm de proxies invertidos ou um dispositivo que está fornecendo a função de proxy reverso, um problema pode ocorrer quando o tráfego interno está fazendo a saída por uma interface e tentando se fazer a ingresso imediatamente na mesma interface. Isso geralmente leva a uma violação de regra de segurança conhecida como falsificação de pacotes TCP ou apenas spoofing. <EM>Fixar o cabelo</EM> (o egresso e os ingress imediatos de um pacote ou uma série de pacotes) devem ser permitidos para que a mobilidade funcione. Uma maneira de resolver esse problema é usar um proxy inverso que é separado do firewall (a regra de prevenção de spoofing sempre deve ser imposta no firewall para fins de segurança). O conecte pode ocorrer na interface externa do proxy reverso, em vez da interface externa do firewall. Você detecta a falsificação no firewall e relaxar a regra no proxy reverso, permitindo assim que o conecte que a mobilidade exija.<BR>Use o host DNS (sistema de nomes de domínio) ou os registros CNAME para definir o proxy inverso para o comportamento conecte (não o firewall), se possível.
 
 
 
@@ -85,7 +87,7 @@ O diagrama a seguir ilustra o fluxo de solicitações da Web de aplicativo móve
 
 **Fluxo de serviço de mobilidade usando a descoberta automática**
 
-![cdb96424-96f2-4ABF-88d7-1d32d1010ffd] (images/Hh690030.cdb96424-96f2-4abf-88d7-1d32d1010ffd(OCS.15).jpg "cdb96424-96f2-4ABF-88d7-1d32d1010ffd")
+![cdb96424-96f2-4abf-88d7-1d32d1010ffd](images/Hh690030.cdb96424-96f2-4abf-88d7-1d32d1010ffd(OCS.15).jpg "cdb96424-96f2-4abf-88d7-1d32d1010ffd")
 
 <div>
 
@@ -133,7 +135,7 @@ Os registros DNS podem ser registros CNAME ou registros (host, se IPv6, AAAA).
 
 
 > [!NOTE]  
-> Os clientes de dispositivos móveis não dão suporte a vários certificados SSL (Secure Sockets Layer) de domínios diferentes. Portanto, não há suporte para o redirecionamento CNAME para domínios diferentes em HTTPS. Por exemplo, um registro CNAME de DNS para lyncdiscover.contoso.com que redireciona para um endereço de director.contoso.net não é compatível com HTTPS. Em uma topologia como essa, um cliente de dispositivo móvel precisa usar HTTP para a primeira solicitação, para que o redirecionamento CNAME seja resolvido por HTTP. Solicitações subsequentes e, em seguida, use HTTPS. Para dar suporte a esse cenário, você precisa configurar seu proxy reverso com uma regra de publicação na Web para a porta 80 (HTTP). Para obter detalhes, consulte "criar uma regra de publicação na Web para a porta 80" em Configurando <A href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">o proxy reverso para a mobilidade no Lync Server 2013</A>.<BR>O redirecionamento CNAME para o mesmo domínio é compatível com HTTPS. Nesse caso, o certificado do domínio de destino abrange o domínio de origem.
+> Os clientes de dispositivos móveis não dão suporte a vários certificados SSL (Secure Sockets Layer) de domínios diferentes. Portanto, não há suporte para o redirecionamento CNAME para domínios diferentes em HTTPS. Por exemplo, um registro CNAME de DNS para lyncdiscover.contoso.com que redireciona para um endereço de director.contoso.net não é compatível com HTTPS. Em uma topologia como essa, um cliente de dispositivo móvel precisa usar HTTP para a primeira solicitação, para que o redirecionamento CNAME seja resolvido por HTTP. Solicitações subsequentes e, em seguida, use HTTPS. Para dar suporte a esse cenário, você precisa configurar seu proxy reverso com uma regra de publicação na Web para a porta 80 (HTTP). Para obter detalhes, consulte "criar uma regra de publicação na Web para a porta 80" em <A href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Configurando o proxy reverso para a mobilidade no Lync Server 2013</A>.<BR>O redirecionamento CNAME para o mesmo domínio é compatível com HTTPS. Nesse caso, o certificado do domínio de destino abrange o domínio de origem.
 
 
 

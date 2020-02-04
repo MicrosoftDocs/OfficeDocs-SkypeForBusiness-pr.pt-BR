@@ -3,6 +3,8 @@ title: Mover usuários restantes para Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Move remaining users to Lync Server 2013
 ms:assetid: 0eb990f0-f720-47a7-aaee-437fbd4c4c33
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687968(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733554
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a728afae37c2e8d317cd6c75872c75d358226475
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bcb5a709e896b66a1c8cd33a930bfeed5e05644f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844228"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743731"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -87,7 +89,7 @@ Quando você move um usuário para um pool do Lync Server 2013, os dados do usu�
 
 2.  Para garantir que as reuniões organizadas por usuários hospedados no Lync Server 2013 funcionem perfeitamente com usuários federados que são hospedados no Office Communications Server 2007 R2, a política de conferência atribuída aos usuários migrados deve permitir participantes anônimos.
 
-3.  As políticas de conferência que permitem aos participantes anônimos **permitir que os participantes convidem usuários anônimos** selecionados no painel de controle do Lync Server 2013 e ter o **AllowAnonymousParticipantsInMeetings** definido como **true** na saída do o cmdlet **Get-CsConferencingPolicy** no Shell de gerenciamento do Lync Server.
+3.  As políticas de conferência que permitem aos participantes anônimos **permitem que os participantes convidem usuários anônimos** selecionados no painel de controle do lync Server 2013 e têm o **AllowAnonymousParticipantsInMeetings** definido como **true** na saída do cmdlet **Get-CsConferencingPolicy** no Shell de gerenciamento do Lync Server.
 
 4.  Para obter detalhes sobre como configurar a política de conferência usando o Shell de gerenciamento do Lync Server, consulte [set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingPolicy) na documentação do Shell de gerenciamento do Lync Server.
 

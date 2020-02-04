@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Definindo seus requisitos para conferência'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining your requirements for conferencing
 ms:assetid: 5c83e268-22bf-42b2-bac3-3237b5e02e03
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204935(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184255
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 60193673efff29ec877626a9c5c18be23507e6fa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c19269ef06fc2aa7ec19e2ede53f406b345536b3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829702"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739951"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ Ao determinar quais funcionalidades de conferência serão implantadas, você pr
     
     Se você não quiser habilitar o compartilhamento de aplicativos, mas quiser a colaboração de documentos, poderá habilitar a conferência e usar políticas de reunião para desabilitar o compartilhamento de aplicativos. Para obter detalhes sobre como configurar políticas de reunião, consulte [políticas de conferência no Lync Server 2013](lync-server-2013-conferencing-policies.md).
     
-    Para habilitar os usuários a compartilharem apresentações do PowerPoint, é preciso configurar o Servidor do Office Web Apps. Para obter detalhes sobre como configurar o servidor do Office Web Apps, consulte Configurando [a integração com o servidor do Office Web Apps e o Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
+    Para habilitar os usuários a compartilharem apresentações do PowerPoint, é preciso configurar o Servidor do Office Web Apps. Para obter detalhes sobre como configurar o servidor do Office Web Apps, consulte [Configurando a integração com o servidor do Office Web Apps e o Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
 
   - **Você deseja habilitar A conferência A/V?**
     
@@ -74,11 +76,11 @@ Ao determinar quais funcionalidades de conferência serão implantadas, você pr
     
     Além disso, com os servidores de Borda implantados, você pode criar relações federadas com outras organizações, como clientes ou fornecedores, e os usuários dessas organizações podem colaborar com mais facilidade com seus usuários.
     
-    Para obter detalhes sobre a implantação de servidores de borda, consulte [planejando o acesso de usuários externos no Lync server 2013](lync-server-2013-planning-for-external-user-access.md) e implantando o [acesso de usuários externos no Lync Server 2013](lync-server-2013-deploying-external-user-access.md). Para obter detalhes sobre como habilitar o acesso externo para o Office Web Apps Server, consulte [publicando o servidor do Office Web Apps no Lync Server 2013 usando um servidor proxy reverso](lync-server-2013-publishing-office-web-apps-server-using-a-reverse-proxy-server.md).
+    Para obter detalhes sobre a implantação de servidores de borda, consulte [planejando o acesso de usuários externos no Lync server 2013](lync-server-2013-planning-for-external-user-access.md) e [implantando o acesso de usuários externos no Lync Server 2013](lync-server-2013-deploying-external-user-access.md). Para obter detalhes sobre como habilitar o acesso externo para o Office Web Apps Server, consulte [publicando o servidor do Office Web Apps no Lync Server 2013 usando um servidor proxy reverso](lync-server-2013-publishing-office-web-apps-server-using-a-reverse-proxy-server.md).
 
   - **Você deseja controlar os clientes que podem ingressar em reuniões do Lync Server 2013?**
     
-    Em caso afirmativo, você deve configurar a página de ingresso na reunião para que apenas as opções do cliente que você deseja oferecer fiquem disponíveis. Sempre que um usuário clica em um link para ingressar em uma reunião agendada, o Lync Server 2013 detecta se um cliente já está instalado no computador. Em seguida, ele iniciará o cliente padrão e abrirá a página de ingresso na reunião, que contém links para clientes alternativos. A página Associação de reunião sempre contém a opção para usar o Microsoft Lync Web App. Além dessa opção, você pode decidir se deseja incluir links para o Atendedor e versões anteriores do Communicator. Para obter detalhes, consulte Configurando [a página ingressar na reunião no Lync Server 2013](lync-server-2013-configuring-the-meeting-join-page.md).
+    Em caso afirmativo, você deve configurar a página de ingresso na reunião para que apenas as opções do cliente que você deseja oferecer fiquem disponíveis. Sempre que um usuário clica em um link para ingressar em uma reunião agendada, o Lync Server 2013 detecta se um cliente já está instalado no computador. Em seguida, ele iniciará o cliente padrão e abrirá a página de ingresso na reunião, que contém links para clientes alternativos. A página Associação de reunião sempre contém a opção para usar o Microsoft Lync Web App. Além dessa opção, você pode decidir se deseja incluir links para o Atendedor e versões anteriores do Communicator. Para obter detalhes, consulte [Configurando a página ingressar na reunião no Lync Server 2013](lync-server-2013-configuring-the-meeting-join-page.md).
 
 <div>
 

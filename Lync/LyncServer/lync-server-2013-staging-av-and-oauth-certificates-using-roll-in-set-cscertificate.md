@@ -3,6 +3,8 @@ title: Como preparar certificados AV e OAuth usando o-roll in Set-CsCertificate
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Staging AV and OAuth certificates using -Roll in Set-CsCertificate
 ms:assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ660292(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49354387
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4acdf759181dee3df872c7803ec595c63fb07016
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 583ab13e50cac7c7a8b345a2ea2cf4c4e1e38d7f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844889"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764427"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ As comunicações de áudio/vídeo (A/V) são um componente chave do Microsoft L
 > <LI>
 > <P>Este novo recurso foi projetado para funcionar para o serviço de borda a/V e para o certificado <EM>OAuthTokenIssuer</EM> . Outros tipos de certificados podem ser provisionados juntamente com o serviço de borda A/V e o tipo de certificado OAuth, mas não se beneficiarão do comportamento de coexistência que o certificado de serviço de borda A/V usará.</P>
 > <LI>
-> <P>Os cmdlets do PowerShell do Shell de gerenciamento do Lync Server usadas para gerenciar certificados do Microsoft Lync Server 2013 referem-se ao certificado de serviço de borda A/V como o tipo de certificado <EM>AudioVideoAuthentication</EM> e o certificado OAuthServer como tipo <EM> OAuthTokenIssuer</EM>. Para o restante deste tópico e para identificar exclusivamente os certificados, eles serão referidos pelo mesmo tipo de identificador, <EM>AudioVideoAuthentication</EM> e <EM>OAuthTokenIssuer</EM>.</P></LI></OL>
+> <P>Os cmdlets do PowerShell do Shell de gerenciamento do Lync Server usadas para gerenciar certificados do Microsoft Lync Server 2013 referem-se ao certificado de serviço de borda A/V como o tipo de certificado <EM>AudioVideoAuthentication</EM> e o certificado OAuthServer como tipo <EM>OAuthTokenIssuer</EM>. Para o restante deste tópico e para identificar exclusivamente os certificados, eles serão referidos pelo mesmo tipo de identificador, <EM>AudioVideoAuthentication</EM> e <EM>OAuthTokenIssuer</EM>.</P></LI></OL>
 
 
 
@@ -91,7 +93,7 @@ Ao separar certificados OAuthTokenIssuer, há requisitos diferentes para o tempo
     
 
     > [!IMPORTANT]
-    > Para um pool de bordas, você deve ter todos os certificados do AudioVideoAuthentication implantados e provisionados pela data e hora definidas pelo parâmetro – EffectiveDate do primeiro certificado implantado para evitar possíveis interrupções nas comunicações A/V devido ao mais antigo o certificado expira antes que todos os tokens do cliente e do consumidor tenham sido renovados usando o novo certificado.
+    > Para um pool de bordas, você deve ter todos os certificados do AudioVideoAuthentication implantados e provisionados pela data e hora definidas pelo parâmetro – EffectiveDate do primeiro certificado implantado para evitar possíveis interrupções nas comunicações a/V devido ao vencimento do certificado mais antigo antes que todos os tokens do cliente e do consumidor sejam renovados usando o novo certificado.
 
     
     </div>
@@ -117,7 +119,7 @@ Para compreender ainda mais o processo que o Set-CsCertificate, -Roll e –Effec
 
 No exemplo a seguir, o administrador determina que o certificado de serviço de borda a/V deve expirar em 2:00:00 PM no 07/22/2012. Ele solicita e recebe um novo certificado e importa-o para cada servidor de borda em seu pool. Em 2, no 07/22/2012, ele começa a executar Get-CsCertificate com-roll,-Thumbprint, que é igual à cadeia de caracteres de impressão digital do novo certificado e – Efetivotime definido como 07/22/2012 6:00:00 AM. Ele executa esse comando em cada servidor de borda.
 
-![Usar os parâmetros roll e EffectiveDate.] (images/JJ660292.21d51a76-0d03-4ed7-a37e-a7c14940265f(OCS.15).jpg "Usar os parâmetros roll e EffectiveDate.")
+![Usar os parâmetros roll e EffectiveDate.](images/JJ660292.21d51a76-0d03-4ed7-a37e-a7c14940265f(OCS.15).jpg "Usar os parâmetros roll e EffectiveDate.")
 
 Quando o tempo efetivo é atingido (7/22/2012 6:00:00 AM), todos os novos tokens são emitidos pelo novo certificado. Ao validar tokens, os tokens serão validados primeiro no novo certificado. Se a validação falhar, o certificado antigo é testado. O processo de teste do novo certificado e retorno ao certificado antigo continuará até o tempo de expiração do certificado antigo. Depois que o certificado antigo tiver expirado (7/22/2012 2:00:00 PM), os tokens só serão validados pelo novo certificado. O certificado antigo pode ser removido com segurança usando o cmdlet Remove-CsCertificate com o parâmetro –Previous.
 

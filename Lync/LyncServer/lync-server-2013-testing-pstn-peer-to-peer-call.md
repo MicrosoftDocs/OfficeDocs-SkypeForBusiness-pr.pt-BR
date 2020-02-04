@@ -3,6 +3,8 @@ title: 'Lync Server 2013: testando chamada ponto a ponto PSTN'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing PSTN peer to peer call
 ms:assetid: 7e128eef-9ada-49b4-940f-97d7d13f1e4a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690131(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969622
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 51b74697c7d6d5a037537bb036494d89264c4e75
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9f120747eb50e8c1c52bb14d0a8883db8133022c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844628"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745611"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -126,7 +128,7 @@ Se Test-CsPstnPeerToPeerCall falhar, talvez você queira executar novamente o te
 
 Quando o parâmetro Verbose estiver incluído, Test-CsPstnPeerToPeerCall retornará uma conta passo a passo de cada ação que tentou verificar quando verificou a capacidade do usuário especificado para fazer logon no Lync Server. Por exemplo, essa saída indica que problemas de rede estão impedindo uma conexão com o PSTN:
 
-Como estabelecer uma chamada com vídeo de áudio para ' SIP: +12065551219@litwareinc.com; user = Phone '.
+Como estabelecer uma chamada com vídeo de áudio para ' SIP: + 12065551219@litwareinc. com; user = Phone '.
 
 Uma resposta de exceção ' A 404 (não encontrada) foi recebida da rede e a operação falhou.
 

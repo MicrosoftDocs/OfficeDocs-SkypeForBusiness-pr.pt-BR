@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar certificados para a interface de borda inte
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Set up certificates for the internal edge interface
 ms:assetid: a1963cc9-87c5-4935-86c0-6bedc6afd0ac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412750(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184949
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53ba11db5d2c9fc727b7720a1a10d5da547075c6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ea6e462bdc629308493799c857ecb6b2434dc268
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822101"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732261"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -159,7 +161,7 @@ Se você tiver mais de um site com servidores de borda (ou seja, uma topologia d
 
 7.  Na árvore de console, expanda **certificados (computador local)**, clique com o botão direito do mouse em **autoridades de certificação raiz confiáveis**, aponte para **todas as tarefas**e, em seguida, clique em **importar**.
 
-8.  No assistente, em **arquivo a ser**importado, especifique o nome do arquivo do certificado (ou seja, o nome que você especificou quando baixou a cadeia de certificação CA para a interface interna no procedimento anterior).
+8.  No assistente, em **arquivo a ser importado**, especifique o nome do arquivo do certificado (ou seja, o nome que você especificou quando baixou a cadeia de certificação CA para a interface interna no procedimento anterior).
 
 9.  Repita esse procedimento em cada servidor de borda.
 
@@ -205,11 +207,11 @@ Se você tiver mais de um site com servidores de borda (ou seja, uma topologia d
         
         </div>
     
-      - Se o certificado precisar ser exportável, marque a caixa de seleção **Marcar chave privada de certificado como** exportável.
+      - Se o certificado precisar ser exportável, marque a caixa de seleção **Marcar chave privada de certificado como exportável** .
 
 8.  Na página **informações da organização** , digite o nome da organização e a unidade organizacional (ou) (por exemplo, uma divisão ou um departamento).
 
-9.  Na página **informações** geográficas, especifique as informações de localização.
+9.  Na página **informações geográficas** , especifique as informações de localização.
 
 10. Na página **nome do assunto/nomes alternativos de assunto** , as informações a serem automaticamente preenchidas pelo assistente serão exibidas.
 
@@ -334,7 +336,7 @@ Se você tiver mais de um site com servidores de borda (ou seja, uma topologia d
 
 6.  Na página de conclusão do assistente, clique em  **Concluir**.
 
-7.  Depois de usar esse procedimento para atribuir o certificado de borda interno, abra o snap-in de certificado em cada servidor, expanda **certificados (computador local)**, expanda **pessoal**, clique em **certificados**e verifique o painel de detalhes que o certificado de borda interna é listado.
+7.  Depois de usar esse procedimento para atribuir o certificado de borda interno, abra o snap-in de certificado em cada servidor, expanda **certificados (computador local)**, expanda **pessoal**, clique em **certificados**e verifique no painel de detalhes se o certificado de borda interna está listado.
 
 8.  Se a sua implantação incluir vários servidores de borda, repita esse procedimento para cada servidor de borda.
 

@@ -3,6 +3,8 @@ title: Migrar números de acesso de discagem
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migrate dial-in access numbers
 ms:assetid: 568a94b7-a697-4ab2-9008-dc9ecc1c87c8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204898(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184171
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b86db6e669fd5f52827591c25e5bb237bd9ee012
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a13fdf36dcd36dc71df8ffa06c273c2b2b0f0292
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844265"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762929"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34844265"
 
 _**Tópico da última modificação:** 2012-09-26_
 
-A migração de números de acesso discado requer duas etapas: executando o cmdlet **Import-CsLegacyConfiguration** (concluído anteriormente nas [políticas e configurações de importação](import-policies-and-settings.md)) para migrar planos de discagem e outras configurações de número de acesso à discagem e executar o ** Cmdlet Move-CsApplicationEndpoint** para migrar os objetos de contato.
+A migração de números de acesso discado requer duas etapas: executando o cmdlet **Import-CsLegacyConfiguration** (concluído anteriormente nas [políticas e configurações de importação](import-policies-and-settings.md)) para migrar planos de discagem e outras configurações de número de acesso à discagem e executar o cmdlet **move-CsApplicationEndpoint** para migrar os objetos de contato.
 
 <div>
 
@@ -47,7 +49,7 @@ A migração de números de acesso discado requer duas etapas: executando o cmdl
 
 3.  Na guia **números de telefone do Access** , clique em **atendido por pool** para classificar os números de telefone de acesso pelo pool associado e identificar todos os números de acesso do pool do qual você está migrando.
 
-4.  Para identificar o URI SIP para cada número de acesso, clique duas vezes no número de acesso para abrir a caixa de diálogo **Editar número** de atendedor de conferência e procure por **URI de SIP**.
+4.  Para identificar o URI SIP para cada número de acesso, clique duas vezes no número de acesso para abrir a caixa de diálogo **Editar número de atendedor de conferência** e procure por **URI de SIP**.
 
 5.  Abra o Shell de gerenciamento do Lync Server.
 

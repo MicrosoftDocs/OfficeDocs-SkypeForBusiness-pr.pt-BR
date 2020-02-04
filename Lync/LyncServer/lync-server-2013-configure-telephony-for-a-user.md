@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configurar a telefonia de um usuário'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure telephony for a user
 ms:assetid: 4546432e-c839-4517-a2c5-bc0d4d8c6a03
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520988(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183987
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 97f4fc79b871a962fe498d6dbd908b75f6b2fecd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d57c4799c0fe9bb9dc698c3e0e74a9d73cbde524
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836325"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740001"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,7 +61,7 @@ Para obter detalhes sobre como configurar a telefonia de uma organização, cons
 
 3.  Na barra de navegação esquerda, clique em **Usuários**.
 
-4.  Na caixa **Pesquisar usuários** , digite toda ou a primeira parte do nome para exibição, nome, sobrenome, nome da conta do Gerenciador de contas de segurança (Sam), endereço SIP ou URI (Uniform Resource Identifier) da conta de usuário que você deseja e clique em **Localizar **.
+4.  Na caixa **Pesquisar usuários** , digite toda ou a primeira parte do nome para exibição, nome, sobrenome, nome da conta do Gerenciador de contas de segurança (Sam), endereço SIP ou URI (Uniform Resource Identifier) da conta de usuário que você deseja e, em seguida, clique em **Localizar**.
 
 5.  Na tabela, clique na conta de usuário que você deseja modificar.
 
@@ -71,7 +73,7 @@ Para obter detalhes sobre como configurar a telefonia de uma organização, cons
     
       - Para habilitar as comunicações de áudio PC para PC para o usuário, mas não o controle de chamada remota ou o Enterprise Voice, clique em **PC para PC somente**. Especifique um valor para o **URI da linha** para o telefone que o usuário usa para comunicações de áudio PC para PC.
     
-      - Para encaminhar as chamadas telefônicas do usuário usando a infraestrutura do Lync Server 2010 de acordo com a classe de política de serviço, incluindo comunicação de áudio PC para PC, clique em **Enterprise Voice**. Em **URI da linha**, especifique o número de telefone do Enterprise Voice. Em **política de plano** de discagem e **política de voz**, especifique as políticas adequadas para o usuário. Para especificar as regras de normalização para a tradução de números de telefone discados pelo usuário para o formato E. 164, selecione o perfil de localização apropriado na **política de localização**.
+      - Para encaminhar as chamadas telefônicas do usuário usando a infraestrutura do Lync Server 2010 de acordo com a classe de política de serviço, incluindo comunicação de áudio PC para PC, clique em **Enterprise Voice**. Em **URI da linha**, especifique o número de telefone do Enterprise Voice. Em **política de plano de discagem** e **política de voz**, especifique as políticas adequadas para o usuário. Para especificar as regras de normalização para a tradução de números de telefone discados pelo usuário para o formato E. 164, selecione o perfil de localização apropriado na **política de localização**.
     
       - Para habilitar o controle de chamada remota, que permite que os usuários controlem a linha de telefone da área de trabalho do Lync Server 2013 para fazer chamadas de PC para PC e chamadas de PC para telefone, clique em **controle de chamada remota**. Em **URI de linha**, especifique o número de telefone para o controle de chamada remota. O usuário deve ter uma conexão de telefone de mesa e PBX (Private Branch Exchange) para roteamento de chamadas.
 

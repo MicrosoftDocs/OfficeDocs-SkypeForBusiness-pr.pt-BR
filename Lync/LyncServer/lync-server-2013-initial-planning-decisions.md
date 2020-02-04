@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Decisões de planejamento inicial'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Initial planning decisions
 ms:assetid: cbaa5cb3-2b00-4b9f-952d-986a0c9f160b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398855(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185651
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7dd1359e27f6869dab1ead38da3716135a2468ee
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9c15cfad5da4bab441a56d6f13a79121b6e8d87b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829016"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763765"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,9 +45,9 @@ A primeira parte do processo de planejamento é decidir quais cargas de trabalho
 
 3.  **O recurso de mensagens instantâneas *(IM)* e a *presença* sempre estão habilitados.**    Em qualquer implantação do Lync Server, o sistema de mensagens instantâneas (IM) e a carga de trabalho de presença são instalados e habilitados por padrão. A mensagem instantânea permite que os usuários se comuniquem com mensagens de texto em tempo real, e a presença permite que eles vejam o status de outros usuários na rede. O status de presença de um usuário fornece informações para ajudar outras pessoas a decidirem se devem tentar contatar o usuário e, por isso, o que significa. Para obter detalhes, consulte [planejando servidores front-end, mensagens instantâneas e presença no Lync Server 2013](lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md) na documentação de planejamento.
 
-4.  **Você deseja implantar qualquer modo de conferência?**    A conferência é outro recurso básico do Lync Server. Há suporte para vários modos de conferência. Você pode optar por implantar todos os tipos de conferência com suporte ou apenas alguns deles. ** A Webconferência permite que os usuários vejam um arquivo, como um conjunto de slides criado com o programa de elementos gráficos de apresentação do Microsoft PowerPoint, que está sendo apresentado. O *compartilhamento de aplicativos* permite que os usuários compartilhem toda ou parte da área de trabalho entre si em tempo real. Com *a conferência a/V*, os usuários podem adicionar áudio (e possivelmente vídeo) às suas conferências e comunicações ponto a ponto. A *conferência discada* permite que os usuários usem telefones PSTN padrão para ingressar na parte de áudio de conferências hospedadas em sua organização. Para obter detalhes, consulte [planejando a conferência no Lync Server 2013](lync-server-2013-planning-for-conferencing.md) na documentação de planejamento.
+4.  **Você deseja implantar qualquer modo de conferência?**    A conferência é outro recurso básico do Lync Server. Há suporte para vários modos de conferência. Você pode optar por implantar todos os tipos de conferência com suporte ou apenas alguns deles. A *Webconferência* permite que os usuários vejam um arquivo, como um conjunto de slides criado com o programa de elementos gráficos de apresentação do Microsoft PowerPoint, que está sendo apresentado. O *compartilhamento de aplicativos* permite que os usuários compartilhem toda ou parte da área de trabalho entre si em tempo real. Com *a conferência a/V*, os usuários podem adicionar áudio (e possivelmente vídeo) às suas conferências e comunicações ponto a ponto. A *conferência discada* permite que os usuários usem telefones PSTN padrão para ingressar na parte de áudio de conferências hospedadas em sua organização. Para obter detalhes, consulte [planejando a conferência no Lync Server 2013](lync-server-2013-planning-for-conferencing.md) na documentação de planejamento.
     
-    No Lync Server 2013, se você implantar a Webconferência, também deverá planejar a integração com o servidor do Office Web Apps para habilitar o compartilhamento e a exibição do PowerPoint em reuniões. Para obter mais informações, consulte Configurando [a integração com o servidor do Office Web Apps e o Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
+    No Lync Server 2013, se você implantar a Webconferência, também deverá planejar a integração com o servidor do Office Web Apps para habilitar o compartilhamento e a exibição do PowerPoint em reuniões. Para obter mais informações, consulte [Configurando a integração com o servidor do Office Web Apps e o Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
 
 5.  **Se você implantar uma conferência A/V, também deverá monitorar a qualidade de áudio dessas conferências.**    Muitos fatores afetam a qualidade de áudio e vídeo das conferências do Lync Server A/V. Ao usar o monitoramento, você pode monitorar a qualidade a/V de suas chamadas e conferências. Você pode detectar problemas que afetam a qualidade da mídia e garantir que os usuários tenham a melhor experiência de mídia possível. Para obter mais informações, consulte [planejando o monitoramento do Lync Server 2013](lync-server-2013-planning-for-monitoring.md).
 

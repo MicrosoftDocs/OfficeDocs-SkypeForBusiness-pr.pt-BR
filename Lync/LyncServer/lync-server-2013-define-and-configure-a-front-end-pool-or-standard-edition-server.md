@@ -3,6 +3,8 @@ title: Definir e configurar um pool Front-End ou um servidor Standard Edition
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define and configure a Front End pool or Standard Edition server
 ms:assetid: 713fc263-23dd-414a-b001-82932e4fe966
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398538(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184457
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ac840cb40da71f81a24501f3d9caa53fb316e86
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ddc430370c59e279e0e36aa662da0f33973e0d80
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829738"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762759"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -115,7 +117,7 @@ Depois de definir sua topologia, use o procedimento a seguir para definir um poo
 
 3.  Na página **definir os computadores neste pool** , insira um FQDN do computador para o primeiro servidor front-end do pool e clique em **Adicionar**. Repita essa etapa para qualquer computador adicional (até doze) que você deseja adicionar ao pool e clique em **Avançar**.
 
-4.  Na página **selecionar recursos** , marque as caixas de seleção dos recursos que você deseja neste pool de front-ends. Por exemplo, se você estiver implantando apenas mensagens instantâneas e recursos de presença, marque a caixa de seleção **conferência** para permitir mensagens instantâneas com vários participantes, mas não selecione a **conferência discada (PSTN)**, **Enterprise Voice**ou ** **Caixas de seleção de controle de admissão de chamadas, pois representam recursos de voz, vídeo e conferência colaborativa.
+4.  Na página **selecionar recursos** , marque as caixas de seleção dos recursos que você deseja neste pool de front-ends. Por exemplo, se você estiver implantando apenas mensagens instantâneas e recursos de presença, marque a caixa de seleção **conferência** para permitir mensagens instantâneas com vários participantes, mas não marque as caixas de seleção **conferência de discagem (PSTN)**, **Enterprise Voice**ou **controle de admissão de chamadas** , pois representam recursos de voz, vídeo e conferência colaborativa.
     
       - **Conferência**   essa seleção permite um conjunto avançado de recursos, incluindo:
         
@@ -131,9 +133,9 @@ Depois de definir sua topologia, use o procedimento a seguir para definir um poo
     
       - **O controle de admissão de chamadas (CAC)**   o CAC determina, com base na largura de banda de rede disponível, se permite que sessões de comunicação em tempo real, como chamadas de voz ou com vídeo, sejam estabelecidas. Se você implantou apenas mensagens instantâneas e presença, o CAC não é necessário porque nenhum desses dois recursos usa o CAC.
     
-      - **** O arquivamento de arquivamento fornece uma maneira de arquivar conteúdo de mensagens de chat, conteúdo de conferência (reunião) ou ambos enviados pelo Lync Server 2013.   
+      - **O arquivamento**de arquivamento fornece uma maneira de arquivar conteúdo de mensagens de chat, conteúdo de conferência (reunião) ou ambos enviados pelo Lync Server 2013.   
     
-      - **Monitoring**   Monitoring Server permite que você colete dados numéricos que descrevem a qualidade da mídia em sua rede e pontos de extremidade, informações de uso relacionadas a chamadas de VoIP, mensagens de chat, conversas A/V, reuniões, compartilhamento de aplicativos e arquivos transferências e chamadas de erro e informações de solução de problemas para chamadas com falhas.
+      - **Monitorando**   o monitoramento do servidor permite que você colete dados numéricos que descrevem a qualidade da mídia em sua rede e pontos de extremidade, informações de uso relacionadas a chamadas de VoIP, mensagens de chat, conversas de A/V, reuniões, compartilhamento de aplicativos e transferências de arquivos, além de informações de erro e de solução de problemas para chamadas com falha.
     
     <div>
     
@@ -240,7 +242,7 @@ Depois de definir sua topologia, use o procedimento a seguir para definir um poo
     
       - Para usar a instância padrão, clique em **Instância padrão**.
     
-      - Para usar o espelhamento do SQL, selecione Habilitar o espelhamento do **SQL** e selecione uma instância existente ou crie uma nova instância.
+      - Para usar o espelhamento do SQL, selecione **habilitar o espelhamento do SQL** e selecione uma instância existente ou crie uma nova instância.
 
 8.  Na página **definir o compartilhamento de arquivos** , siga um destes procedimentos:
     
@@ -277,7 +279,7 @@ Depois de definir sua topologia, use o procedimento a seguir para definir um poo
     
     </div>
     
-    1.  Se você estiver configurando o balanceamento de carga de DNS, marque a caixa de seleção **substituir FQDN do pool de serviços Web internos** , insira a URL base interna (que deve ser diferente da FQDN do pool e\<, por exemplo\>, interna – sua URL base) em ** URL base interna**.
+    1.  Se você estiver configurando o balanceamento de carga de DNS, marque a caixa de seleção **substituir FQDN do pool de serviços Web internos** , insira a URL base interna (que deve ser diferente da FQDN do pool e\<, por exemplo\>, interna-sua URL base) em **URL base interna**.
         
         <div>
         
@@ -299,7 +301,7 @@ Depois de definir sua topologia, use o procedimento a seguir para definir um poo
     
     </div>
 
-10. Se você selecionou **conferência** na página **selecionar recursos** , na página **selecionar um servidor do Office Web Apps** , selecione **associar pool com um servidor do Office Web Apps** e clique em **novo** (ou selecione um Office Web Apps existente) Servidor na lista suspensa).
+10. Se você selecionou **conferência** na página **selecionar recursos** , na página **selecionar um servidor do Office Web Apps** , selecione **associar pool com um servidor do Office Web Apps** e clique em **novo** (ou selecione um servidor existente do Office Web Apps na lista suspensa).
 
 11. Na caixa de diálogo **Definir Novo Servidor do Office Web Apps**, digite o FQDN (nome de domínio totalmente qualificado) do computador do Servidor do Office Web Apps na caixa **FQDN do Servidor do Office Web Apps**. Quando você fizer isso, a URL de descoberta de seu Servidor do Office Web Apps deverá ser inserida automaticamente na caixa **Office Web URL de descoberta de Servidor do Office Web Apps**.
     
@@ -311,7 +313,7 @@ Depois de definir sua topologia, use o procedimento a seguir para definir um poo
     
 
     > [!NOTE]
-    > Para obter detalhes, consulte Configurando <A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">a integração com o servidor do Office Web Apps e o Lync Server 2013</A>.
+    > Para obter detalhes, consulte <A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Configurando a integração com o servidor do Office Web Apps e o Lync Server 2013</A>.
 
     
     </div>

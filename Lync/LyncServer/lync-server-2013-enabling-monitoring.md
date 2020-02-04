@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Habilitando o monitoramento'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enabling monitoring
 ms:assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687994(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733584
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a2b13028390328e93a9e90636962dedea8ea8ec9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0f11aab3c58a43ac0746cb1f297bf4f3f85d28c0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829257"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735820"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +65,7 @@ Se preferir, você também pode habilitar o monitoramento de QoE no painel de co
 
 3.  No painel **Editar configuração da Qualidade da Experiência (QoE)**, selecione **Habilitar monitoramento de dados QoE** e clique em **Confirmar**.
 
-Como observado, os exemplos precedentes habilitam o monitoramento no escopo global; isto é, eles habilitam o monitoramento CDR e QoE em toda a sua organização. Como alternativa, é possível criar definições de configurações CDR e QoE separadas no escopo local e habilitar ou desabilitar seletivamente o monitoramento de cada local. Por exemplo, é possível habilitar o monitoramento CDR para seu local Redmond e desabilitar o monitoramento CDR para Dublin. Para obter mais informações sobre como gerenciar suas configurações de monitoramento de configuração, consulte o tópico do guia de implantação Configurando a [gravação de detalhes da chamada e as configurações de qualidade de experiência no Lync Server 2013](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md).
+Como observado, os exemplos precedentes habilitam o monitoramento no escopo global; isto é, eles habilitam o monitoramento CDR e QoE em toda a sua organização. Como alternativa, é possível criar definições de configurações CDR e QoE separadas no escopo local e habilitar ou desabilitar seletivamente o monitoramento de cada local. Por exemplo, é possível habilitar o monitoramento CDR para seu local Redmond e desabilitar o monitoramento CDR para Dublin. Para obter mais informações sobre como gerenciar suas configurações de monitoramento de configuração, consulte o tópico do guia de implantação [Configurando a gravação de detalhes da chamada e as configurações de qualidade de experiência no Lync Server 2013](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md).
 
 </div>
 

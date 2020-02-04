@@ -3,6 +3,8 @@ title: Verificar as definições da configuração
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Verify configuration settings
 ms:assetid: 41dbf91c-f2e1-4b9a-88cf-959575558cf2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204848(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183997
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a20b78ac9275657461beb74a7325c0c46e4e40fd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fc4d13f3bdd5af1a2c9b90e190775522ea6f11b8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844123"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738561"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -121,12 +123,12 @@ Depois de mesclar a topologia e executar o cmdlet **Import-CsLegacyConfiguration
     
 
     > [!NOTE]  
-    > Se <STRONG>os participantes anônimos</STRONG> estiverem definidos para <STRONG>impor por usuário</STRONG> em sua política de conferência do Office Communications Server 2007 R2, duas políticas de conferência serão criadas durante a migração: uma com <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> definido como <STRONG>True</STRONG> e um com <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> definido como <STRONG>false</STRONG>.
+    > Se <STRONG>os participantes anônimos</STRONG> estiverem definidos para <STRONG>impor por usuário</STRONG> em sua política de conferência do Office Communications Server 2007 R2, duas políticas de conferência serão criadas durante a migração: uma com <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> definido como <STRONG>true</STRONG> e outra com <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> definido como <STRONG>false</STRONG>.
 
     
     </div>
 
-4.  Para verificar os planos de discagem importados, clique em **Roteamento de voz**, clique em **plano**de discagem e verifique se todos os planos de discagem no ambiente do Office Communicator 2007 R2 estão incluídos na lista.
+4.  Para verificar os planos de discagem importados, clique em **Roteamento de voz**, clique em **plano de discagem**e verifique se todos os planos de discagem no ambiente do Office Communicator 2007 R2 estão incluídos na lista.
     
     <div>
     
@@ -154,7 +156,7 @@ Depois de mesclar a topologia e executar o cmdlet **Import-CsLegacyConfiguration
 
 8.  Para verificar as políticas de acesso externo importadas, clique em **Federação e acesso externo**, clique em **política de acesso externo**e verifique se todas as políticas de acesso externo em seu ambiente do Office Communicator 2007 R2 estão incluídas na lista.
 
-9.  Para verificar as políticas de arquivamento, clique em **monitoramento e arquivamento**, clique em **política**de arquivamento e verifique se todas as políticas de arquivamento no ambiente do Office Communications Server 2007 R2 estão incluídas na lista.
+9.  Para verificar as políticas de arquivamento, clique em **monitoramento e arquivamento**, clique em **política de arquivamento**e verifique se todas as políticas de arquivamento no ambiente do Office Communications Server 2007 R2 estão incluídas na lista.
 
 10. Abra o Shell de gerenciamento do Lync Server.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Soluções de resiliência do site de filial'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Branch-site resiliency solutions
 ms:assetid: 1700f99b-709c-4e47-88eb-c0a5490e26e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398234(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183517
 ms.date: 12/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce14328aed7ae4769d2f2aff18edb9c6135fe025
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 16261d4add87462991c877e85cc6a0ff1e7fdfd4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836745"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741831"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34836745"
 
 _**Tópico da última modificação:** 2014-12-10_
 
-A resiliência de sites de filial proporciona vantagens evidentes à sua organização. Especificamente, se você perder a conexão com o site central, os usuários do site de filial continuarão a ter o serviço Enterprise Voice e o correio de voz (se você definir as configurações de redirecionamento de caixa postal para obter detalhes, consulte [requisitos de resiliência de site para o Lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md)). Entretanto, em sites com menos de 25 usuários, a solução de resiliência poderá não gerar um retorno adequado sobre o investimento.
+A resiliência de sites de filial proporciona vantagens evidentes à sua organização. Especificamente, se você perder a conexão com o site central, os usuários do site de filial continuarão a ter o serviço Enterprise Voice e o correio de voz (se você definir as configurações de redirecionamento de caixa postal, para obter detalhes, consulte [requisitos de resiliência de site de filial para o Lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md)). Entretanto, em sites com menos de 25 usuários, a solução de resiliência poderá não gerar um retorno adequado sobre o investimento.
 
 Há três opções para fornecer a resiliência do site de filial. A tabela a seguir o ajudará a determinar qual opção é a melhor para sua organização.
 
@@ -72,7 +74,7 @@ Há três opções para fornecer a resiliência do site de filial. A tabela a se
 <td><p>Se você precisar de recursos de presença e conferência além dos recursos de voz para até 5000 usuários, e tiver administradores do Lync Server treinados disponíveis</p></td>
 <td><p>Implante como um site central com um servidor Standard Edition e não como um site de filial.</p>
 <p>Uma implantação completa do Lync Server fornece uma conexão PSTN contínua e uma presença de presença resiliente e uma conferência em caso de falha de WAN.</p>
-<p>Para obter detalhes sobre como se preparar para esta solução, consulte <a href="lync-server-2013-planning-for-your-organization.md">planejamento da organização para o Lync Server 2013</a>, determinando os <a href="lync-server-2013-determining-your-system-requirements.md">requisitos do sistema para o Lync Server 2013</a>, determinando os <a href="lync-server-2013-determining-your-infrastructure-requirements.md">requisitos de infraestrutura do Lync Server 2013</a>e outras seções relevantes da documentação de planejamento.</p></td>
+<p>Para obter detalhes sobre como se preparar para esta solução, consulte <a href="lync-server-2013-planning-for-your-organization.md">planejamento da organização para o Lync server 2013</a>, <a href="lync-server-2013-determining-your-system-requirements.md">determinando os requisitos do sistema para o Lync Server 2013</a>, <a href="lync-server-2013-determining-your-infrastructure-requirements.md">determinando os requisitos de infraestrutura do Lync Server 2013</a>e outras seções relevantes da documentação de planejamento.</p></td>
 </tr>
 </tbody>
 </table>
@@ -86,7 +88,7 @@ A figura a seguir mostra as topologias recomendadas para a resiliência do site 
 
 **Opções de resiliência do site de filial**
 
-![Opções de resiliência] de ramificação de voz (images/Gg398234.47eecd19-08ae-4d82-acbe-61f0de760306(OCS.15).jpg "Opções de resiliência") de ramificação de voz
+![Opções de resiliência de ramificação de voz](images/Gg398234.47eecd19-08ae-4d82-acbe-61f0de760306(OCS.15).jpg "Opções de resiliência de ramificação de voz")
 
 </div>
 
@@ -126,7 +128,7 @@ O Lync Server tem suporte para até dois appliances de ramificação sobrevivent
 
 O aparelho para filiais sobreviventes é fabricado por fabricantes de equipamento original em parceria com a Microsoft e implantado em nome de revendedores de valor agregado. Essa implantação só deve ocorrer após a implantação do Lync Server no site central, uma conexão de WAN com o site de filial e os usuários do site de filiais estiverem habilitados para o Enterprise Voice.
 
-Para obter detalhes sobre essas fases, consulte Implantando [um aplicativo ou aplicativo de ramificação sobreviventes com o Lync Server 2013](lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md) na documentação de implantação.
+Para obter detalhes sobre essas fases, consulte [implantando um aplicativo ou aplicativo de ramificação sobreviventes com o Lync Server 2013](lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md) na documentação de implantação.
 
 
 <table>

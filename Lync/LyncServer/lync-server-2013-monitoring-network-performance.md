@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Monitorando o desempenho da rede'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monitoring network performance
 ms:assetid: bc3a01da-91eb-4c0c-9598-35e5e46b00f6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720923(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969647
 ms.date: 04/27/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a2fa3c2685b4da32d5f2e3f123a938920b5ce9f7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 504b0c28e42b6975cd411c6628cd9f91a30783ef
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826714"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756795"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ O desempenho da rede pode ser medido em dois níveis:
 
   - **Desempenho geral da rede**   esse nível de medição de desempenho permitirá que uma organização crie uma exibição "grande" da rede e, em geral, é implementada por sistemas de monitoramento de rede de terceiros. Esses sistemas receberão dados de desempenho e capacidade de dispositivos de rede remoto, como roteadores e comutados em toda a rede, para permitir que os administradores determinem a integridade de qualquer componente de rede fornecido a qualquer hora do dia.
 
-  - **Desempenho individual do servidor**   esse nível de medição de desempenho é limitado a um servidor específico e ajuda os administradores com o gauging o desempenho de rede de um servidor específico para ajudar a solucionar um desempenho específico problema ou para medir o desempenho do respectivo servidor em um determinado período como parte de um processo de planejamento de capacidade.
+  - **Desempenho individual do servidor**   esse nível de medição de desempenho é limitado a um servidor específico e ajuda os administradores com o gauging o desempenho de rede de um servidor específico para ajudar a solucionar um problema de desempenho específico ou para medir o desempenho do respectivo servidor em um determinado período como parte de um processo de planejamento de capacidade.
 
 Você pode monitorar a rede usando as ferramentas descritas nas seções a seguir.
 
@@ -81,9 +83,9 @@ Mais informações podem ser encontradas aqui:
 
 ## <a name="third-party-solutions"></a>Soluções de terceiros
 
-**Centro de gerenciamento de redes HP (anteriormente conhecido como HP OpenView)** O    [centro de gerenciamento de redes HP](http://www8.hp.com/us/en/software-solutions/network-management/index.html?%26zn=bto%26cp=1-11-15-119_4000_100__) oferece gerenciamento integrado de falhas e desempenho para melhorar a disponibilidade e o desempenho da rede. O centro de gerenciamento de rede é parte da solução de gerenciamento automatizado de rede da HP que unifica o gerenciamento de falhas, desempenho, configuração e alterações.
+**Centro de gerenciamento de redes HP (anteriormente conhecido como HP OpenView) o centro de**   [Gerenciamento de redes HP](http://www8.hp.com/us/en/software-solutions/network-management/index.html?%26zn=bto%26cp=1-11-15-119_4000_100__) oferece gerenciamento integrado de falhas e desempenho para melhorar a disponibilidade e o desempenho da rede. O centro de gerenciamento de rede é parte da solução de gerenciamento automatizado de rede da HP que unifica o gerenciamento de falhas, desempenho, configuração e alterações.
 
-**Gerenciamento de rede e produtos**   de automação da Cisco para empresas, a Cisco tem vários produtos de gerenciamento disponíveis, incluindo a solução de gerenciamento de LAN da CiscoWorks e o módulo de análise de rede da Cisco, para ajudar a melhorar a eficiência operacional e reduzir o tempo de inatividade da rede. Para obter dados adicionais sobre esses produtos, consulte o website da Cisco [http://www.cisco.com/en/US/products/sw/netmgtsw/index.html](http://www.cisco.com/en/us/products/sw/netmgtsw/index.html)em.
+**Gerenciamento de rede e produtos**   de automação da Cisco para a empresa, a Cisco tem vários produtos de gerenciamento disponíveis, incluindo solução de gerenciamento de LAN da CiscoWorks e módulo de análise de rede da Cisco, para ajudar a melhorar a eficiência operacional e reduzir o tempo de inatividade Para obter dados adicionais sobre esses produtos, consulte o website da Cisco [http://www.cisco.com/en/US/products/sw/netmgtsw/index.html](http://www.cisco.com/en/us/products/sw/netmgtsw/index.html)em.
 
 O protocolo de gerenciamento de rede simples (SNMP) é um padrão de gerenciamento de rede (SNMP) que define uma estratégia para gerenciar redes TCP/IP. O SNMP permite que você capture informações de configuração e status sobre a rede e envie as informações para um computador designado para monitoramento de eventos. Esse protocolo baseado em padrões de gerenciamento de rede usa uma arquitetura distribuída que inclui o seguinte:
 

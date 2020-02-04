@@ -3,6 +3,8 @@ title: Implantando um servidor ou aparelho de filial persistente - Tarefas do si
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying a Survivable Branch Appliance or Server - central site tasks
 ms:assetid: 0f631a36-fc2e-41cd-8a0d-f27e84f4a89e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398189(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183422
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c2b31e191dc2726c7e7962b0daa4ee5655245117
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a9aa6d38ec873652feae6ef6a374ee5b771520b1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829570"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729621"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +53,7 @@ Conclua as tarefas nesta seção no site central. Se você estiver implantando u
 > <LI>
 > <P>Implante um servidor DHCP em cada site de ramificação para permitir que os clientes obtenham endereços IP.</P>
 > <LI>
-> <P>Como uma alternativa para implantar um servidor DHCP em cada site de ramificação, habilite o DHCP do Lync Server no aparelho de ramificação ou servidor de ramificação sobreviventes usando o cmdlet do Shell de gerenciamento do Lync Server <STRONG>set-CsRegistrarConfiguration-EnableDHCPServer $true </STRONG>. Para obter detalhes, consulte a seção "requisitos de hardware e software" dos <A href="lync-server-2013-branch-site-resiliency-requirements.md">requisitos de resiliência de site para o Lync Server 2013</A> na documentação de planejamento.</P></LI></UL>
+> <P>Como uma alternativa para implantar um servidor DHCP em cada site de ramificação, habilite o DHCP do Lync Server no aparelho de ramificação ou servidor de ramificação sobreviventes usando o cmdlet Set-CsRegistrarConfiguration-do Shell de gerenciamento do Lync Server <STRONG>-EnableDHCPServer $true</STRONG>. Para obter detalhes, consulte a seção "requisitos de hardware e software" dos <A href="lync-server-2013-branch-site-resiliency-requirements.md">requisitos de resiliência de site para o Lync Server 2013</A> na documentação de planejamento.</P></LI></UL>
 
 
 

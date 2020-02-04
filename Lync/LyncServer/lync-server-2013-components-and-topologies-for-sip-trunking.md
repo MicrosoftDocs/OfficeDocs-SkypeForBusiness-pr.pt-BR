@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Componentes e topologias para tronco SIP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for SIP trunking
 ms:assetid: 8ed9a9d0-517e-4f36-a131-22cdafa257fa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398720(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184775
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc1b80078f942f3f70957a7af6b27b7dd9210046
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d30c589ff02717ad49ce89d0d4e3324f6fe993e9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836509"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742561"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ A figura a seguir ilustra a topologia de entroncamento SIP no Lync Server.
 
 **Topologia de troncos SIP**
 
-![Topologia de entroncamento SIP] (images/Gg398720.669fb55d-7c81-4e21-9421-fabc43d6e064(OCS.15).jpg "Topologia de entroncamento SIP")
+![Topologia de entroncamento SIP](images/Gg398720.669fb55d-7c81-4e21-9421-fabc43d6e064(OCS.15).jpg "Topologia de entroncamento SIP")
 
 Conforme mostra o diagrama, uma VPN (rede virtual privada) IP é usada para a conectividade entre a rede corporativa e o provedor de serviços da rede de telefonia pública comutada (PSTN). O objetivo desta rede privada é fornecer conectividade IP, aprimorar a segurança e (opcionalmente) obter garantias de qualidade de serviços (QoS). Devido à natureza de uma VPN, não é necessário usar protocolo TLS para o tráfego de sinalização SIP ou SRTP para tráfego de mídia.  As conexões entre a empresa e o provedor de serviços consistem, portanto, em conexões TCP básicas para SIP e RTP básico (via protocolo UDP) em mídia encapsulada através de uma VPN IP. Certifique-se de que todos os firewalls entre os roteadores VPN possuem portas abertas para permitir a comunicação e que os endereços IP nas bordas externas dos roteadores VPN sejam roteáveis publicamente.
 

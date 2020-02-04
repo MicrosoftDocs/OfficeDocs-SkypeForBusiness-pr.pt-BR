@@ -3,6 +3,8 @@ title: Resumo de DNS - Única borda consolidada com endereços IP públicos
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Single consolidated edge with public IP addresses
 ms:assetid: 7b83eae4-aa1a-4cc6-8077-42176d56cab5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205025(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184601
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50aae14309e55919eb3f65560cd7cd0e7f1b1283
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: db3578bc7b1668bf8cb2268ed079e558e1cf1761
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829351"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733541"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ A tabela a seguir contém um resumo dos registros DNS necessários para dar supo
 
 ## <a name="important-edge-server-network-adapter-requirements"></a>IMPORTANTE: requisitos do adaptador de rede do Edge Server
 
-Para evitar problemas de roteamento, verifique se há pelo menos dois adaptadores de rede em seus servidores de borda e se o gateway padrão está definido somente no adaptador de rede associado à interface externa. Por exemplo, conforme mostrado na topologia de borda consolidada única com endereços IP públicos configurados em [uma única aresta consolidada com endereços IP públicos no Lync Server 2013](lync-server-2013-single-consolidated-edge-with-public-ip-addresses.md), o gateway padrão apontaria para o roteador externo no perímetro da Internet ou firewall que pode fornecer um endereço IP público. A relação de rede para interfaces do servidor de borda é uma relação de rota em vez de uma relação NAT.
+Para evitar problemas de roteamento, verifique se há pelo menos dois adaptadores de rede em seus servidores de borda e se o gateway padrão está definido somente no adaptador de rede associado à interface externa. Por exemplo, conforme mostrado na topologia de borda única consolidada com endereços IP públicos configurados em [uma única aresta consolidada com endereços IP públicos no Lync Server 2013](lync-server-2013-single-consolidated-edge-with-public-ip-addresses.md), o gateway padrão apontaria para o roteador externo no seu perímetro da Internet ou firewall que pode fornecer um endereço IP público. A relação de rede para interfaces do servidor de borda é uma relação de rota em vez de uma relação NAT.
 
 Você pode configurar dois adaptadores de rede em seu servidor de borda da seguinte maneira:
 
@@ -74,7 +76,7 @@ Você pode configurar dois adaptadores de rede em seu servidor de borda da segui
     
     O endereço IP público da borda do Access é primário com o gateway padrão definido para o roteador público (131.107.155.1).
     
-    Os endereços de IP de borda da Web e de borda A/V são endereços IP adicionais na seção **avançado** das propriedades de **protocolo TCP/IPv4 (TCP/IPv4)** e **protocolo IP versão 6 (TCP/IPv6)** da **área local Propriedades de conexão** no Windows Server.
+    Os endereços IP de borda da Web e de borda A/V são endereços IP adicionais na seção **avançado** das propriedades de **protocolo de Internet versão 4 (TCP/IPv4)** e **protocolo IP versão 6 (TCP/IPv6)** das **Propriedades de conexão de área local** no Windows Server.
 
 <div>
 
