@@ -3,6 +3,8 @@ title: Cmdlets no Skype for Business online que não usam um escopo ou uma ident
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Cmdlets that do not use a scope or an identity
 ms:assetid: 9c50c732-3c64-4b6a-96fd-8f528eb739ce
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362824(v=OCS.15)
@@ -10,33 +12,33 @@ ms:contentKeyID: 56558839
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4c7f6632640277a6a99626c18f458100f6a8cea0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a3dfc2ee8cd812b597f363934475d1996f2e42a0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836092"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727591"
 ---
-# <a name="cmdlets-in-skype-for-business-online-that-do-not-use-a-scope-or-an-identity"></a><span data-ttu-id="d1704-102">Cmdlets no Skype for Business online que não usam um escopo ou uma identidade</span><span class="sxs-lookup"><span data-stu-id="d1704-102">Cmdlets in Skype for Business Online that do not use a scope or an identity</span></span>
+# <a name="cmdlets-in-skype-for-business-online-that-do-not-use-a-scope-or-an-identity"></a><span data-ttu-id="d76fc-102">Cmdlets no Skype for Business online que não usam um escopo ou uma identidade</span><span class="sxs-lookup"><span data-stu-id="d76fc-102">Cmdlets in Skype for Business Online that do not use a scope or an identity</span></span>
 
  
 
 
-<span data-ttu-id="d1704-103">Os cmdlets usados ao modificar as listas permitidas e listas bloqueadas (listas que determinam a quais organizações externas os usuários podem se comunicar) não usam um escopo ou uma identidade.</span><span class="sxs-lookup"><span data-stu-id="d1704-103">The cmdlets used when modifying the allowed lists and blocked lists (lists that determine which outside organizations your users are allowed to communicate with) do not use either a scope or an Identity.</span></span> <span data-ttu-id="d1704-104">Na verdade, o cmdlet **New-CsEdgeAllowAllKnownDomains** não tem nenhum parâmetro de qualquer maneira.</span><span class="sxs-lookup"><span data-stu-id="d1704-104">In fact, the **New-CsEdgeAllowAllKnownDomains** cmdlet does not have any parameters whatsoever.</span></span> <span data-ttu-id="d1704-105">Os cmdlets que não usam um escopo ou uma identidade são:</span><span class="sxs-lookup"><span data-stu-id="d1704-105">The cmdlets that do not use either a scope or an Identity are:</span></span>
+<span data-ttu-id="d76fc-103">Os cmdlets usados ao modificar as listas permitidas e listas bloqueadas (listas que determinam a quais organizações externas os usuários podem se comunicar) não usam um escopo ou uma identidade.</span><span class="sxs-lookup"><span data-stu-id="d76fc-103">The cmdlets used when modifying the allowed lists and blocked lists (lists that determine which outside organizations your users are allowed to communicate with) do not use either a scope or an Identity.</span></span> <span data-ttu-id="d76fc-104">Na verdade, o cmdlet **New-CsEdgeAllowAllKnownDomains** não tem nenhum parâmetro de qualquer maneira.</span><span class="sxs-lookup"><span data-stu-id="d76fc-104">In fact, the **New-CsEdgeAllowAllKnownDomains** cmdlet does not have any parameters whatsoever.</span></span> <span data-ttu-id="d76fc-105">Os cmdlets que não usam um escopo ou uma identidade são:</span><span class="sxs-lookup"><span data-stu-id="d76fc-105">The cmdlets that do not use either a scope or an Identity are:</span></span>
 
-  - <span data-ttu-id="d1704-106">[New-CsEdgeAllowAllKnownDomains](https://technet.microsoft.com/en-us/library/jj994088\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="d1704-106">[New-CsEdgeAllowAllKnownDomains](https://technet.microsoft.com/en-us/library/jj994088\(v=ocs.15\))</span></span>
+  - <span data-ttu-id="d76fc-106">[New-CsEdgeAllowAllKnownDomains](https://technet.microsoft.com/en-us/library/jj994088\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="d76fc-106">[New-CsEdgeAllowAllKnownDomains](https://technet.microsoft.com/en-us/library/jj994088\(v=ocs.15\))</span></span>
 
-  - <span data-ttu-id="d1704-107">[New-CsEdgeAllowList](https://technet.microsoft.com/en-us/library/jj994023\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="d1704-107">[New-CsEdgeAllowList](https://technet.microsoft.com/en-us/library/jj994023\(v=ocs.15\))</span></span>
+  - <span data-ttu-id="d76fc-107">[New-CsEdgeAllowList](https://technet.microsoft.com/en-us/library/jj994023\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="d76fc-107">[New-CsEdgeAllowList](https://technet.microsoft.com/en-us/library/jj994023\(v=ocs.15\))</span></span>
 
-  - <span data-ttu-id="d1704-108">[New-CsEdgeDomainPattern](https://technet.microsoft.com/en-us/library/jj994040\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="d1704-108">[New-CsEdgeDomainPattern](https://technet.microsoft.com/en-us/library/jj994040\(v=ocs.15\))</span></span>
+  - <span data-ttu-id="d76fc-108">[New-CsEdgeDomainPattern](https://technet.microsoft.com/en-us/library/jj994040\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="d76fc-108">[New-CsEdgeDomainPattern](https://technet.microsoft.com/en-us/library/jj994040\(v=ocs.15\))</span></span>
 
-<span data-ttu-id="d1704-109">Observe que, com o cmdlet **New-CsEdgeAllowList** e o cmdlet **New-CsEdgeDomainPattern** , você deve incluir o parâmetro Domain.</span><span class="sxs-lookup"><span data-stu-id="d1704-109">Note that, with both the **New-CsEdgeAllowList** cmdlet and the **New-CsEdgeDomainPattern** cmdlet, you must include the Domain parameter.</span></span> <span data-ttu-id="d1704-110">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="d1704-110">For example:</span></span>
+<span data-ttu-id="d76fc-109">Observe que, com o cmdlet **New-CsEdgeAllowList** e o cmdlet **New-CsEdgeDomainPattern** , você deve incluir o parâmetro Domain.</span><span class="sxs-lookup"><span data-stu-id="d76fc-109">Note that, with both the **New-CsEdgeAllowList** cmdlet and the **New-CsEdgeDomainPattern** cmdlet, you must include the Domain parameter.</span></span> <span data-ttu-id="d76fc-110">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="d76fc-110">For example:</span></span>
 
     $x = New-CsEdgeDomainPattern -Domain "fabrikam.com"
 
-## <a name="see-also"></a><span data-ttu-id="d1704-111">Confira também</span><span class="sxs-lookup"><span data-stu-id="d1704-111">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d76fc-111">Confira também</span><span class="sxs-lookup"><span data-stu-id="d76fc-111">See Also</span></span>
 
 
-[<span data-ttu-id="d1704-112">Identidades, escopos e locatários no Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="d1704-112">Identities, scopes, and tenants in Skype for Business Online</span></span>](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-<span data-ttu-id="d1704-113">[Os cmdlets do Lync Online](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="d1704-113">[The Skype for Business Online cmdlets](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))</span></span>
+[<span data-ttu-id="d76fc-112">Identidades, escopos e locatários no Skype for Business Online</span><span class="sxs-lookup"><span data-stu-id="d76fc-112">Identities, scopes, and tenants in Skype for Business Online</span></span>](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+<span data-ttu-id="d76fc-113">[Os cmdlets do Lync Online](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="d76fc-113">[The Skype for Business Online cmdlets](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))</span></span>
 

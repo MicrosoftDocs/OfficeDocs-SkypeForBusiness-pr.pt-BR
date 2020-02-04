@@ -3,6 +3,8 @@ title: 'Lync Server 2013: planejando para clientes móveis'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for mobile clients
 ms:assetid: a7b263a4-eeb8-4a04-acc2-0d29d72742cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690989(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185020
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8693c35d43ec70cbff8badd16b51d0b0c68b52fd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ff36e17e0add5cdf45347921292dadbdd4d635ef
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824635"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725362"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34824635"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-mobile-clients-in-lync-server-2013"></a><span data-ttu-id="d9342-102">Planejamento para clientes móveis no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d9342-102">Planning for mobile clients in Lync Server 2013</span></span>
+# <a name="planning-for-mobile-clients-in-lync-server-2013"></a><span data-ttu-id="3ac37-102">Planejamento para clientes móveis no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ac37-102">Planning for mobile clients in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,15 +35,15 @@ ms.locfileid: "34824635"
 
 <span> </span>
 
-<span data-ttu-id="d9342-103">_**Tópico da última modificação:** 2013-04-02_</span><span class="sxs-lookup"><span data-stu-id="d9342-103">_**Topic Last Modified:** 2013-04-02_</span></span>
+<span data-ttu-id="3ac37-103">_**Tópico da última modificação:** 2013-04-02_</span><span class="sxs-lookup"><span data-stu-id="3ac37-103">_**Topic Last Modified:** 2013-04-02_</span></span>
 
-<span data-ttu-id="d9342-104">Os clientes móveis do Lync 2013 fornecem presença avançada, mensagens instantâneas, reuniões do Lync e chamadas de voz e vídeo pela Internet ou pela conexão da rede celular.</span><span class="sxs-lookup"><span data-stu-id="d9342-104">Lync 2013 mobile clients provide enhanced presence, IM, Lync meetings, and voice and video calls over the Internet or the cellular connection.</span></span> <span data-ttu-id="d9342-105">Para obter uma matriz que lista os recursos e as funcionalidades de clientes móveis e os compara ao cliente da área de trabalho, consulte [tabelas de comparação de cliente móvel para o Lync Server 2013](lync-server-2013-mobile-client-comparison-tables.md).</span><span class="sxs-lookup"><span data-stu-id="d9342-105">For a matrix that lists the features and capabilities of mobile clients and compares them to the desktop client, see [Mobile client comparison tables for Lync Server 2013](lync-server-2013-mobile-client-comparison-tables.md).</span></span>
+<span data-ttu-id="3ac37-104">Os clientes móveis do Lync 2013 fornecem presença avançada, mensagens instantâneas, reuniões do Lync e chamadas de voz e vídeo pela Internet ou pela conexão da rede celular.</span><span class="sxs-lookup"><span data-stu-id="3ac37-104">Lync 2013 mobile clients provide enhanced presence, IM, Lync meetings, and voice and video calls over the Internet or the cellular connection.</span></span> <span data-ttu-id="3ac37-105">Para obter uma matriz que lista os recursos e as funcionalidades de clientes móveis e os compara ao cliente da área de trabalho, consulte [tabelas de comparação de cliente móvel para o Lync Server 2013](lync-server-2013-mobile-client-comparison-tables.md).</span><span class="sxs-lookup"><span data-stu-id="3ac37-105">For a matrix that lists the features and capabilities of mobile clients and compares them to the desktop client, see [Mobile client comparison tables for Lync Server 2013](lync-server-2013-mobile-client-comparison-tables.md).</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="d9342-106">O Lync Server 2013 também é compatível com clientes móveis do Lync 2010.</span><span class="sxs-lookup"><span data-stu-id="d9342-106">Lync Server 2013 also supports Lync 2010 mobile clients.</span></span> <span data-ttu-id="d9342-107">Para obter mais informações, consulte "planejando clientes móveis" na biblioteca do Lync Server 2010 TechNet em <A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>.</span><span class="sxs-lookup"><span data-stu-id="d9342-107">For more information, see “Planning for Mobile Clients” in the Lync Server 2010 TechNet Library at <A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>.</span></span>
+> <span data-ttu-id="3ac37-106">O Lync Server 2013 também é compatível com clientes móveis do Lync 2010.</span><span class="sxs-lookup"><span data-stu-id="3ac37-106">Lync Server 2013 also supports Lync 2010 mobile clients.</span></span> <span data-ttu-id="3ac37-107">Para obter mais informações, consulte "planejando clientes móveis" na biblioteca do Lync Server 2010 TechNet em <A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>.</span><span class="sxs-lookup"><span data-stu-id="3ac37-107">For more information, see “Planning for Mobile Clients” in the Lync Server 2010 TechNet Library at <A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>.</span></span>
 
 
 
@@ -49,17 +51,17 @@ ms.locfileid: "34824635"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="d9342-108">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="d9342-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3ac37-108">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="3ac37-108">In This Section</span></span>
 
-  - [<span data-ttu-id="d9342-109">Tabela de comparação de clientes móveis para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d9342-109">Mobile client comparison tables for Lync Server 2013</span></span>](lync-server-2013-mobile-client-comparison-tables.md)
+  - [<span data-ttu-id="3ac37-109">Tabela de comparação de clientes móveis para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ac37-109">Mobile client comparison tables for Lync Server 2013</span></span>](lync-server-2013-mobile-client-comparison-tables.md)
 
-  - [<span data-ttu-id="d9342-110">Requisitos do Lync para Windows Phone no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d9342-110">Lync for Windows Phone requirements in Lync Server 2013</span></span>](lync-server-2013-lync-for-windows-phone-requirements.md)
+  - [<span data-ttu-id="3ac37-110">Requisitos do Lync para Windows Phone no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ac37-110">Lync for Windows Phone requirements in Lync Server 2013</span></span>](lync-server-2013-lync-for-windows-phone-requirements.md)
 
-  - [<span data-ttu-id="d9342-111">Requisitos do Lync para iPhone e iPad no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d9342-111">Lync for iPhone and iPad requirements in Lync Server 2013</span></span>](lync-server-2013-lync-for-iphone-and-ipad-requirements.md)
+  - [<span data-ttu-id="3ac37-111">Requisitos do Lync para iPhone e iPad no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ac37-111">Lync for iPhone and iPad requirements in Lync Server 2013</span></span>](lync-server-2013-lync-for-iphone-and-ipad-requirements.md)
 
-  - [<span data-ttu-id="d9342-112">Requisitos do Lync para Android no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d9342-112">Lync for Android requirements in Lync Server 2013</span></span>](lync-server-2013-lync-for-android-requirements.md)
+  - [<span data-ttu-id="3ac37-112">Requisitos do Lync para Android no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ac37-112">Lync for Android requirements in Lync Server 2013</span></span>](lync-server-2013-lync-for-android-requirements.md)
 
-  - [<span data-ttu-id="d9342-113">Processo de implantação de cliente móvel no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d9342-113">Mobile client deployment process in Lync Server 2013</span></span>](lync-server-2013-mobile-client-deployment-process.md)
+  - [<span data-ttu-id="3ac37-113">Processo de implantação de cliente móvel no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3ac37-113">Mobile client deployment process in Lync Server 2013</span></span>](lync-server-2013-mobile-client-deployment-process.md)
 
 </div>
 

@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Apply Lync Server 2010 updates
 ms:assetid: 1e452282-a2ad-4081-9f2e-d3f61219364e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204730(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 48183571
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9c09b43e8c6b7cd64e95080417606ab6ae7ce8d6
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 89acd5632290b39c70cdd0427fc7402027296f23
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232895"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725641"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -24,7 +26,7 @@ ms.locfileid: "36232895"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="apply-lync-server-2010-updates"></a><span data-ttu-id="af630-102">Aplicar atualizações do Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="af630-102">Apply Lync Server 2010 updates</span></span>
+# <a name="apply-lync-server-2010-updates"></a><span data-ttu-id="7e135-102">Aplicar atualizações do Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="7e135-102">Apply Lync Server 2010 updates</span></span>
 
 </div>
 
@@ -34,11 +36,11 @@ ms.locfileid: "36232895"
 
 <span> </span>
 
-<span data-ttu-id="af630-103">_**Tópico da última modificação:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="af630-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="7e135-103">_**Tópico da última modificação:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="7e135-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="af630-104">Antes de migrar para o Lync Server 2013, as atualizações devem ser aplicadas ao seu ambiente do Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="af630-104">Before you migrate to Lync Server 2013, updates must be applied to your Lync Server 2010 environment.</span></span> <span data-ttu-id="af630-105">Para obter as informações mais atualizadas sobre o Lync Server 2010, consulte **atualizar o centro de recursos do Lync** em <http://go.microsoft.com/fwlink/p/?linkid=232630>.</span><span class="sxs-lookup"><span data-stu-id="af630-105">For the most up-to-date information about Lync Server 2010, see **Updates Resource Center for Lync** at <http://go.microsoft.com/fwlink/p/?linkid=232630>.</span></span>
+<span data-ttu-id="7e135-104">Antes de migrar para o Lync Server 2013, as atualizações devem ser aplicadas ao seu ambiente do Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="7e135-104">Before you migrate to Lync Server 2013, updates must be applied to your Lync Server 2010 environment.</span></span> <span data-ttu-id="7e135-105">Para obter as informações mais atualizadas sobre o Lync Server 2010, consulte **atualizar o centro de recursos do Lync** em <http://go.microsoft.com/fwlink/p/?linkid=232630>.</span><span class="sxs-lookup"><span data-stu-id="7e135-105">For the most up-to-date information about Lync Server 2010, see **Updates Resource Center for Lync** at <http://go.microsoft.com/fwlink/p/?linkid=232630>.</span></span>
 
-<span data-ttu-id="af630-106">Para instalar atualizações para o Lync Server 2010, recomendamos que você siga o procedimento 1 descrito pelo **instalador de atualização do servidor cumulativo** descrito no artigo da base de dados de conhecimento Microsoft, " [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2493736](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2493736)atualizações para o Lync Server 2010", em.</span><span class="sxs-lookup"><span data-stu-id="af630-106">To install updates for Lync Server 2010, we recommend you follow the **Method 1 Cumulative Server Update Installer** procedure described in the Microsoft Knowledge Base article, "Updates for Lync Server 2010," at [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2493736](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2493736).</span></span>
+<span data-ttu-id="7e135-106">Para instalar atualizações para o Lync Server 2010, recomendamos que você siga o procedimento 1 descrito pelo **instalador de atualização do servidor cumulativo** descrito no artigo da base de dados de conhecimento Microsoft, " [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2493736](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2493736)atualizações para o Lync Server 2010", em.</span><span class="sxs-lookup"><span data-stu-id="7e135-106">To install updates for Lync Server 2010, we recommend you follow the **Method 1 Cumulative Server Update Installer** procedure described in the Microsoft Knowledge Base article, "Updates for Lync Server 2010," at [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2493736](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2493736).</span></span>
 
 </div>
 
