@@ -10,18 +10,18 @@ audience: admin
 search.appverid: MET150
 description: O acesso de convidados no Microsoft Teams permite que as equipes da sua organização colaborem com pessoas de fora da sua organização, lhes concedendo acesso a equipes e a canais.
 localization_priority: Priority
-f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
+f1.keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ccaf4cae1b82b206ebfd27b185dddaf2ab0eece
-ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
+ms.openlocfilehash: e3490d208f95138d9aad57d69f55957dafb8734e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38746284"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707546"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Acesso para convidado no Microsoft Teams
 ======================================
@@ -74,7 +74,6 @@ A experiência de convidado tem limitações por padrão. Compreenda a experiên
 - Criar ou revisar uma equipe
 - Procurar uma esquipe
 - Carregar arquivos para um chat de pessoa para pessoa
-- Os convidados ainda poderão pesquisar e localizar usuários (fora da equipe) se souberem o ID de email completo do usuário. Para evitar isso, os administradores de TI podem usar padrões como a [pesquisa de diretório com escopo](teams-scoped-directory-search.md) que têm a capacidade de restringir convidados à sua GAL virtual.
 - Atualmente, o Teams é compatível apenas aos usuários convidados do Estado 1 e Estado 2, [conforme definido pelo Azure B2B](https://docs.microsoft.com/azure/active-directory/b2b/user-properties)
 
 Para obter uma lista completa do que um convidado pode ou não fazer no Teams, confira a tabela [comparação de recursos de membros e de convidados da equipe](guest-experience.md#comparison-of-team-member-and-guest-capabilities). Para saber mais sobre o acesso de convidados no nível do Office 365, leia [Adicionando convidados a Grupos do Office 365](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
