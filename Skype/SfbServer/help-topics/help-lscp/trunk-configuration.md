@@ -7,30 +7,30 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceTrunkMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 499b6966-25f4-4b90-a225-d6be48ddab19
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: dec2679ffa557d39bd8800f854935ef20f4dfdd9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0266024e655433b254de55f8baa7ae8693bf9f2a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293055"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699306"
 ---
-# <a name="trunk-configuration"></a><span data-ttu-id="a9667-104">Configuração de Tronco</span><span class="sxs-lookup"><span data-stu-id="a9667-104">Trunk Configuration</span></span>
+# <a name="trunk-configuration"></a><span data-ttu-id="65594-104">Configuração de Tronco</span><span class="sxs-lookup"><span data-stu-id="65594-104">Trunk Configuration</span></span>
 
-<span data-ttu-id="a9667-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="a9667-105">What do you want to do?</span></span> <span data-ttu-id="a9667-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="a9667-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="65594-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="65594-105">What do you want to do?</span></span> <span data-ttu-id="65594-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="65594-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="a9667-107">Configurar um tronco com bypass de mídia no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="a9667-107">Configure a trunk with media bypass in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+- [<span data-ttu-id="65594-107">Configurar um tronco com bypass de mídia no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="65594-107">Configure a trunk with media bypass in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 
-- [<span data-ttu-id="a9667-108">Configurar um tronco sem bypass de mídia no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="a9667-108">Configure a trunk without media bypass in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+- [<span data-ttu-id="65594-108">Configurar um tronco sem bypass de mídia no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="65594-108">Configure a trunk without media bypass in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
-- [<span data-ttu-id="a9667-109">Create or modify a translation rule for called ID presentation in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="a9667-109">Create or modify a translation rule for called ID presentation in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [<span data-ttu-id="65594-109">Create or modify a translation rule for called ID presentation in Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="65594-109">Create or modify a translation rule for called ID presentation in Skype for Business Server 2015</span></span>](../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-- [<span data-ttu-id="a9667-110">Criar ou modificar manualmente uma regra de tradução</span><span class="sxs-lookup"><span data-stu-id="a9667-110">Create or Modify a Translation Rule Manually</span></span>](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+- [<span data-ttu-id="65594-110">Criar ou modificar manualmente uma regra de tradução</span><span class="sxs-lookup"><span data-stu-id="65594-110">Create or Modify a Translation Rule Manually</span></span>](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
 
-<span data-ttu-id="a9667-111">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o painel de controle do Skype for Business Server, consulte [gerenciar o Skype for Business server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="a9667-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="65594-111">Para obter detalhes sobre os diferentes procedimentos que você pode executar usando o painel de controle do Skype for Business Server, consulte [gerenciar o Skype for Business server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="65594-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

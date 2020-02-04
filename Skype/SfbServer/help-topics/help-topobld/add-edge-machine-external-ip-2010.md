@@ -7,31 +7,31 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddEdgeMachineExternalIpPage2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17906fc5-1b5c-4819-849d-bebf0496a763
 description: Você pode configurar as propriedades desta página para apontar o servidor de borda para locais externos do serviço de borda de acesso, serviço de borda de Webconferência e serviço de borda A/V.
-ms.openlocfilehash: 3dc8e19fedc402579773f7c5c32be7d6e43d7acf
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e15d2f0a514cd7e854ebd76290ff8bc53bd2146d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304727"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698558"
 ---
-# <a name="add-edge-machine-external-ip-2010"></a><span data-ttu-id="86993-103">Adicionar IP Externo de Máquina de Borda 2010</span><span class="sxs-lookup"><span data-stu-id="86993-103">Add Edge Machine External IP 2010</span></span>
+# <a name="add-edge-machine-external-ip-2010"></a><span data-ttu-id="bd6c5-103">Adicionar IP Externo de Máquina de Borda 2010</span><span class="sxs-lookup"><span data-stu-id="bd6c5-103">Add Edge Machine External IP 2010</span></span>
 
-<span data-ttu-id="86993-104">Você pode configurar as propriedades desta página para apontar o servidor de borda para locais externos do serviço de borda de acesso, serviço de borda de Webconferência e serviço de borda A/V.</span><span class="sxs-lookup"><span data-stu-id="86993-104">You can configure the properties on this page to point the Edge Server to the external locations of the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
+<span data-ttu-id="bd6c5-104">Você pode configurar as propriedades desta página para apontar o servidor de borda para locais externos do serviço de borda de acesso, serviço de borda de Webconferência e serviço de borda A/V.</span><span class="sxs-lookup"><span data-stu-id="bd6c5-104">You can configure the properties on this page to point the Edge Server to the external locations of the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
 
-- <span data-ttu-id="86993-105">Em **endereços IPv4 externos**, digite os endereços IPv4 externos do servidor de borda no **serviço de borda de acesso**, **serviço de borda**de Webconferência e **serviço de borda A/V**.</span><span class="sxs-lookup"><span data-stu-id="86993-105">Under **External IPv4 addresses**, type the external IPv4 addresses of the Edge Server in **Access Edge service**, **Web Conferencing Edge service**, and **A/V Edge service**.</span></span>
+- <span data-ttu-id="bd6c5-105">Em **endereços IPv4 externos**, digite os endereços IPv4 externos do servidor de borda no **serviço de borda de acesso**, **serviço de borda de Webconferência**e **serviço de borda A/V**.</span><span class="sxs-lookup"><span data-stu-id="bd6c5-105">Under **External IPv4 addresses**, type the external IPv4 addresses of the Edge Server in **Access Edge service**, **Web Conferencing Edge service**, and **A/V Edge service**.</span></span>
 
-- <span data-ttu-id="86993-106">Clique em **OK** para salvar e confirmar as alterações no documento de topologia.</span><span class="sxs-lookup"><span data-stu-id="86993-106">Click **OK** to save and commit your changes to the topology document.</span></span>
+- <span data-ttu-id="bd6c5-106">Clique em **OK** para salvar e confirmar as alterações no documento de topologia.</span><span class="sxs-lookup"><span data-stu-id="bd6c5-106">Click **OK** to save and commit your changes to the topology document.</span></span>
 
-- <span data-ttu-id="86993-107">Clique em **Cancelar** para descartar suas alterações e fechar o assistente **para adicionar servidor ao pool de borda** .</span><span class="sxs-lookup"><span data-stu-id="86993-107">Click **Cancel** to discard your changes and close the **Add server to the Edge Pool** wizard.</span></span>
+- <span data-ttu-id="bd6c5-107">Clique em **Cancelar** para descartar suas alterações e fechar o assistente **para adicionar servidor ao pool de borda** .</span><span class="sxs-lookup"><span data-stu-id="bd6c5-107">Click **Cancel** to discard your changes and close the **Add server to the Edge Pool** wizard.</span></span>
 
-- <span data-ttu-id="86993-108">Clique em **ajuda** para ler este tópico da ajuda.</span><span class="sxs-lookup"><span data-stu-id="86993-108">Click **Help** to read this Help topic.</span></span>
+- <span data-ttu-id="bd6c5-108">Clique em **ajuda** para ler este tópico da ajuda.</span><span class="sxs-lookup"><span data-stu-id="bd6c5-108">Click **Help** to read this Help topic.</span></span>
 
-<span data-ttu-id="86993-109">Para obter detalhes sobre como adicionar servidores de borda a uma topologia existente, consulte [definir sua topologia de borda](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).</span><span class="sxs-lookup"><span data-stu-id="86993-109">For details about adding Edge Servers to an existing topology, see [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).</span></span> <span data-ttu-id="86993-110">Para obter informações sobre a migração de servidores de borda, consulte [fase 5: Adicionar o Lync server 2013 Preview Edge Server ao pool piloto](https://technet.microsoft.com/library/d2fd0a2f-8fec-4f86-a5b0-7f7d03172016.aspx).</span><span class="sxs-lookup"><span data-stu-id="86993-110">For information about migrating Edge Servers, see [Phase 5: Add Lync Server 2013 Preview Edge Server to Pilot Pool](https://technet.microsoft.com/library/d2fd0a2f-8fec-4f86-a5b0-7f7d03172016.aspx).</span></span>
+<span data-ttu-id="bd6c5-109">Para obter detalhes sobre como adicionar servidores de borda a uma topologia existente, consulte [definir sua topologia de borda](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).</span><span class="sxs-lookup"><span data-stu-id="bd6c5-109">For details about adding Edge Servers to an existing topology, see [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).</span></span> <span data-ttu-id="bd6c5-110">Para obter informações sobre a migração de servidores de borda, consulte [fase 5: Adicionar o Lync server 2013 Preview Edge Server ao pool piloto](https://technet.microsoft.com/library/d2fd0a2f-8fec-4f86-a5b0-7f7d03172016.aspx).</span><span class="sxs-lookup"><span data-stu-id="bd6c5-110">For information about migrating Edge Servers, see [Phase 5: Add Lync Server 2013 Preview Edge Server to Pilot Pool](https://technet.microsoft.com/library/d2fd0a2f-8fec-4f86-a5b0-7f7d03172016.aspx).</span></span>
 
 
