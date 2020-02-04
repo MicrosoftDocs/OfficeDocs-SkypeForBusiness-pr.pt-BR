@@ -3,6 +3,8 @@ title: 'Lync Server 2013: executar testes de roteamento de voz informais'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Run informal voice routing tests
 ms:assetid: ea0e6059-bf04-4b03-b6d3-8f5534b731e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399049(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185904
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b47394f595926fe37df9a0809380ed96fa1dec66
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2f916de228545a560c94bc45ea0a774ccc538c60
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822297"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765069"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,9 +53,9 @@ Você pode usar a caixa de diálogo **criar informações do caso de teste de ro
 
 5.  No campo **número discado** , digite o número de telefone que você deseja usar para este teste. Esse número será normalizado e exibido no campo **número normalizado** do painel de **resultados** .
 
-6.  Na lista **plano** de discagem, selecione o plano de discagem a ser usado para testar o número discado. Padrão é o plano de discagem global.
+6.  Na lista **plano de discagem** , selecione o plano de discagem a ser usado para testar o número discado. Padrão é o plano de discagem global.
     
-    Quando você executar o teste, a primeira regra de normalização neste plano de discagem que corresponda ao número discado será exibida no campo **regra** de normalização do painel **resultados** .
+    Quando você executar o teste, a primeira regra de normalização neste plano de discagem que corresponda ao número discado será exibida no campo **regra de normalização** do painel **resultados** .
 
 7.  Na lista **política de voz** , selecione a política de voz a ser usada para testar o número discado. Padrão é a política de voz global.
     

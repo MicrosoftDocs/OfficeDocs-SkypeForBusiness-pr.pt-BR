@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurando o Microsoft SharePoint Server 2013 para p
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring SharePoint Server 2013 to search for archived Lync Server 2013 data
 ms:assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687978(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733566
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 381db352aae635358dfd62cc1965ea238960bf8a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1e000f6116b112b3de9840c22c29510745303035
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836206"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755915"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34836206"
 
 _**Tópico da última modificação:** 2014-02-04_
 
-Uma das principais vantagens de armazenar mensagens instantâneas e transcrições de webconferências no Microsoft Exchange Server 2013 em vez do Microsoft Lync Server 2013 é o fato de que armazenar dados no mesmo local permite que os administradores usem uma única ferramenta para Pesquisar para dados arquivados do Exchange e/ou dados do Lync Server arquivados. Como todos os dados são armazenados no mesmo lugar (Exchange), qualquer ferramenta que possa pesquisar dados do Exchange arquivado também pode procurar por dados arquivados do Lync Server.
+Uma das principais vantagens de armazenar mensagens instantâneas e transcrições de webconferências no Microsoft Exchange Server 2013 em vez do Microsoft Lync Server 2013 é o fato de que armazenar dados no mesmo local permite que os administradores usem uma única ferramenta para pesquisar dados do Exchange arquivados e/ou dados do Lync Server arquivados. Como todos os dados são armazenados no mesmo lugar (Exchange), qualquer ferramenta que possa pesquisar dados do Exchange arquivado também pode procurar por dados arquivados do Lync Server.
 
 Uma ferramenta que torna mais fácil pesquisar dados arquivados é o Microsoft SharePoint Server 2013. Se quiser usar o SharePoint para pesquisar dados do Lync Server, primeiro você deve concluir todas as etapas envolvidas na configuração do arquivamento do Exchange no Lync Server. Após o Exchange 2013 e o Lync Server 2013 terem sido integrados com sucesso, você deve instalar a versão 2,0 da API gerenciada dos serviços Web do Exchange no seu servidor do SharePoint; o programa de instalação dessa API pode ser baixado a partir do centro de download[http://go.microsoft.com/fwlink/p/?LinkId=258305](http://go.microsoft.com/fwlink/p/?linkid=258305)da Microsoft (). O arquivo baixado (EWSManagedAPI.msi) pode ser salvo em qualquer pasta do SharePoint Server.
 

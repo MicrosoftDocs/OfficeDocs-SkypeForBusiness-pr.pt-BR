@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planejando implantações híbridas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for hybrid deployments
 ms:assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205403(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185910
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b528e22e24635d47755096cd4bf81d4066feb3c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e0902150170d51aa590afc8b3d02c887968a2031
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825146"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41751971"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ Você deve ter os seguintes itens configurados no seu ambiente para implementar 
 
   - Uma única implantação local (infraestrutura) do Skype for Business Server ou do Lync Server que é implantada em uma topologia com suporte. Consulte requisitos de topologia.
     
-    Para obter informações sobre como configurar sua implantação do Lync Server 2013 ou do Lync Server 2010 para híbrido, confira Configurando implantações híbridas do [Lync server 2013](lync-server-2013-configuring-hybrid-deployments.md).
+    Para obter informações sobre como configurar sua implantação do Lync Server 2013 ou do Lync Server 2010 para híbrido, confira [Configurando implantações híbridas do Lync server 2013](lync-server-2013-configuring-hybrid-deployments.md).
 
   - Ferramentas administrativas do Skype for Business Server 2015. Se você estiver usando o Lync Server 2013 ou o Lync Server 2010, poderá usar as ferramentas administrativas do Lync Server 2013.
 
@@ -137,7 +139,7 @@ Para configurar sua implantação do Hybrid com o Skype for Business Online, voc
 
 
 > [!IMPORTANT]  
-> Todo o gerenciamento de usuários, incluindo as movimentações de usuários entre o skypeforbusiness (local e o UNRESOLVED_TOKEN_VAL) online, precisa ser feito usando a versão mais recente instalada das ferramentas administrativas. As ferramentas administrativas devem ser instaladas em um servidor separado que conecta o acesso à implantação local existente e à Internet. O cmdlet <A href="https://docs.microsoft.com/powershell/module/skype/Move-CsUser">move-CsUser</A> para mover os usuários da sua implantação local para o UNRESOLVED_TOKEN_VAL (skype16_online) deve ser executado nas ferramentas administrativas conectadas à sua implantação local.
+> Todo o gerenciamento de usuários, incluindo as movimentações de usuários entre o local e o UNRESOLVED_TOKEN_VAL (skypeforbusiness) online, precisa ser feito usando a versão instalada mais recente das ferramentas administrativas. As ferramentas administrativas devem ser instaladas em um servidor separado que conecta o acesso à implantação local existente e à Internet. O cmdlet <A href="https://docs.microsoft.com/powershell/module/skype/Move-CsUser">move-CsUser</A> para mover os usuários da sua implantação local para o UNRESOLVED_TOKEN_VAL (skype16_online) devem ser executados a partir das ferramentas administrativas conectadas à sua implantação local.
 
 
 
@@ -189,7 +191,7 @@ Além disso será necessário garantir que a resolução DNS descrita na tabela 
 <td><p>Requisitos de DNS</p></td>
 </tr>
 <tr class="even">
-<td><p>Registro SRV DNS para sipfederationtls. _ TCP. &lt;sipdomain.com&gt; para todos os domínios SIP suportados para acessar IP externo da borda</p></td>
+<td><p>Registro SRV DNS para _sipfederationtls. _tcp. &lt;sipdomain.com&gt; para todos os domínios SIP suportados para acessar IP externo da borda</p></td>
 <td><p>Servidor(es) de borda</p></td>
 <td><p>Habilitar a comunicação federada em uma configuração híbrida. O servidor de borda precisa saber para onde encaminhar o tráfego federado para o domínio SIP que está dividido entre as instalações local e online.</p></td>
 </tr>

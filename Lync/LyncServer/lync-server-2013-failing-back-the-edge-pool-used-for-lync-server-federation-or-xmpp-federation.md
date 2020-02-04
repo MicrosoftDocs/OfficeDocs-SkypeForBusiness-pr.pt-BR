@@ -3,6 +3,8 @@ title: Failback do pool de Borda usado para federação do Lync Server ou federa
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Failing back the Edge pool used for Lync Server federation or XMPP federation
 ms:assetid: d40097a1-1bed-44dc-aeb6-0871927ab2b9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721897(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733831
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d75e4dbe8265050d30620b0ecbdd1992b480106e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 98fec3082c172cc9e31d931d1c64ef3eaeccd04b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829186"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756155"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,11 +47,11 @@ Depois que um pool de borda com falha que foi usado para hospedar a Federação 
 
 2.  Se você quiser fazer failback da rota de Federação do Lync Server para usar o servidor de borda restaurado, faça o seguinte:
     
-      - Em um servidor front-end, abra o construtor de topologias. Expanda Pools de **bordas**, clique com o botão direito do mouse no servidor de borda ou no pool do servidor de borda que está atualmente configurado para Federação. Selecione **Editar propriedades**.
+      - Em um servidor front-end, abra o construtor de topologias. Expanda **pools de bordas**, clique com o botão direito do mouse no servidor de borda ou no pool do servidor de borda que está atualmente configurado para Federação. Selecione **Editar propriedades**.
     
       - Em **Editar propriedades** em **geral**, desmarque **habilitar Federação para este pool de bordas (porta 5061)**. Clique em **OK**.
     
-      - Expanda Pools de **bordas**e clique com o botão direito do mouse no servidor de borda original ou no pool do servidor de borda que você deseja usar novamente para a Federação. Selecione **Editar propriedades**.
+      - Expanda **pools de bordas**e clique com o botão direito do mouse no servidor de borda original ou no pool do servidor de borda que você deseja usar novamente para a Federação. Selecione **Editar propriedades**.
     
       - Em **Editar propriedades** em **geral**, selecione **habilitar Federação para este pool de bordas (porta 5061)**. Clique em **OK**.
     

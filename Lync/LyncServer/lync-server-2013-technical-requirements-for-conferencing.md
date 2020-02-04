@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requisitos técnicos para conferência'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Technical requirements for conferencing
 ms:assetid: 3c0d89e1-53e6-46d7-bf8c-491260b292ea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425889(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183923
 ms.date: 06/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 719bd7f8de6fd7356a6b2e454cc86e9aa85abd6e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3a275836b940cfe2c56b184d238bc12c432132e6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844743"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746591"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ Para o Lync Server 2013, conferência discada, conferência A/V, conferências d
 
 Esta seção detalha os requisitos de hardware e software para esses servidores, além da colocação de suporte.
 
-A conferência discada é um recurso que inclui diversos componentes. Alguns dos componentes são específicos para conferência discada e alguns são componentes do Enterprise Voice. Esta seção descreve os requisitos para os componentes específicos da conferência discada. Para obter detalhes sobre o servidor de mediação e requisitos de gateway PSTN (rede telefônica pública comutada), consulte [componente servidor de mediação no Lync server 2013](lync-server-2013-mediation-server-component.md) e [componentes e topologias do servidor de mediação no Lync Server 2013](lync-server-2013-components-and-topologies-for-mediation-server.md) no planejamento documentação.
+A conferência discada é um recurso que inclui diversos componentes. Alguns dos componentes são específicos para conferência discada e alguns são componentes do Enterprise Voice. Esta seção descreve os requisitos para os componentes específicos da conferência discada. Para obter detalhes sobre o servidor de mediação e requisitos de gateway PSTN (rede telefônica pública comutada), consulte [componente servidor de mediação no Lync server 2013](lync-server-2013-mediation-server-component.md) e [componentes e topologias do servidor de mediação no Lync Server 2013](lync-server-2013-components-and-topologies-for-mediation-server.md) na documentação de planejamento.
 
 <div>
 
@@ -63,7 +65,7 @@ Os requisitos de hardware para front-end Server são os mesmos para muitas outra
 
 Como a conferência da Web e conferência A/V estão posicionadas com o servidor front-end, os requisitos de software do servidor são os mesmos para os servidores front-end. Para obter detalhes sobre os requisitos de software, consulte [suporte ao sistema operacional do servidor e ferramentas no Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) na documentação de suporte.
 
-Para webconferência, o Lync Server 2013 também requer o Office Web Apps e o Office Web Apps Server (anteriormente conhecido como WAC Server) para manipular apresentações do PowerPoint. Para obter detalhes, consulte Configurando [a integração com o servidor do Office Web Apps e o Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
+Para webconferência, o Lync Server 2013 também requer o Office Web Apps e o Office Web Apps Server (anteriormente conhecido como WAC Server) para manipular apresentações do PowerPoint. Para obter detalhes, consulte [Configurando a integração com o servidor do Office Web Apps e o Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
 
 Para conferência discada, serviço de aplicativo, aplicativo atendedor de conferência e aplicativo de anúncio de conferência têm os mesmos requisitos de sistema operacional que os servidores front-end. Para obter detalhes sobre os requisitos de software, consulte [suporte ao sistema operacional do servidor e ferramentas no Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) na documentação de suporte.
 
@@ -192,9 +194,9 @@ A página Configurações de conferência discada aceita as combinações de sis
 
 ## <a name="audio-file-requirements-for-dial-in-conferencing"></a>Requisitos de arquivo de áudio para conferência discada
 
-O Lync Server 2013 não é compatível com a personalização de prompts de voz e música para conferência discada. No entanto, se você tiver uma forte necessidade empresarial que exija a alteração dos arquivos de áudio padrão, consulte o artigo 961177 da base de dados de conhecimento Microsoft, [como personalizar prompts de voz ou arquivos de música para conferências de áudio discada no Microsoft Office Communications Server 2007 R2](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177).
+O Lync Server 2013 não é compatível com a personalização de prompts de voz e música para conferência discada. No entanto, se você tiver uma forte necessidade empresarial que exija a alteração dos arquivos de áudio padrão, consulte o artigo 961177 da base de dados de conhecimento Microsoft, [como personalizar prompts de voz ou arquivos de música para conferências de áudio discadas no Microsoft Office Communications Server 2007 R2](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177).
 
-Você também pode usar o utilitário de gerenciamento de [solicitações de voz personalizado do atendedor do Microsoft Lync Server](http://go.microsoft.com/fwlink/p/?linkid=396880) , que permite aos administradores substituir as solicitações de voz padrão usadas quando um chamador de telefone ingressar em uma reunião do Lync com avisos personalizados para fornecer um outra experiência de entrada na reunião. Os prompts de voz personalizados podem ser instalados em um servidor que esteja executando o Lync Server 2010 ou o Lync Server 2013, Enterprise ou Standard Edition.
+Você também pode usar o utilitário de gerenciamento de [solicitações de voz personalizado do atendedor do Microsoft Lync Server](http://go.microsoft.com/fwlink/p/?linkid=396880) , que permite aos administradores substituir as solicitações de voz padrão usadas quando um chamador de telefone ingressar em uma reunião do Lync com avisos personalizados para fornecer uma experiência de entrada de reunião diferente. Os prompts de voz personalizados podem ser instalados em um servidor que esteja executando o Lync Server 2010 ou o Lync Server 2013, Enterprise ou Standard Edition.
 
 Aplicativo de atendedor de conferência o aplicativo de anúncio de conferência tem os seguintes requisitos para músicas em espera, nomes gravados e arquivos de prompt de áudio:
 

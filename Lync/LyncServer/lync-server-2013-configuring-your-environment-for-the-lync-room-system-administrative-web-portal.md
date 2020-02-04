@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurando seu ambiente do Lync Server 2013 para Por
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring your environment for the Lync Room System Administrative Web Portal
 ms:assetid: 1bf3cc55-cfa8-46ee-a8bc-6dab3bff76b2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn436325(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56737623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ef7596e65c44f871da8c26a0526a389dde72a45
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4f0f415cfeca5b798a1e29ac6ebe09105fbf08b4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836143"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740581"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,19 +67,19 @@ Para usar o portal da Web administrativo do sistema de salas do Lync (LRS), voc�
     
      
     
-    ![Lista de grupos de administradores com função de grupo de segurança] (images/Dn436325.5d432819-a2e2-452c-bc2a-5d4ee79d8c33(OCS.15).png "Lista de grupos de administradores com função de grupo de segurança")  
+    ![Lista de grupos de administradores com função de grupo de segurança](images/Dn436325.5d432819-a2e2-452c-bc2a-5d4ee79d8c33(OCS.15).png "Lista de grupos de administradores com função de grupo de segurança")  
     
      
 
 5.  Adicione LRSFullAccessAdminGroup como um membro de LRSSupportAdminGroup.
     
-    ![Página de membros de propriedades LRSSupportAdminGroup] (images/Dn436325.91a4a28a-cacf-4ef6-aac1-915ec41c9648(OCS.15).png "Página de membros de propriedades LRSSupportAdminGroup")  
+    ![Página de membros de propriedades LRSSupportAdminGroup](images/Dn436325.91a4a28a-cacf-4ef6-aac1-915ec41c9648(OCS.15).png "Página de membros de propriedades LRSSupportAdminGroup")  
     
      
 
 6.  Crie um usuário do Active Directory compatível com SIP com o nome LRSSupport. Adicione este usuário ao LRSSupportAdminGroup.
     
-    ![Página de membros de propriedades LRSSupportAdminGroup] (images/Dn436325.7638055d-22ac-4909-914d-1966f5623909(OCS.15).png "Página de membros de propriedades LRSSupportAdminGroup")  
+    ![Página de membros de propriedades LRSSupportAdminGroup](images/Dn436325.7638055d-22ac-4909-914d-1966f5623909(OCS.15).png "Página de membros de propriedades LRSSupportAdminGroup")  
     
      
 
