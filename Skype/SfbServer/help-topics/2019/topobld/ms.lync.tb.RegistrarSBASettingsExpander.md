@@ -6,25 +6,25 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.RegistrarSBASettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Edite as configurações para resiliência e configure as seguintes propriedades:'
-ms.openlocfilehash: 03a8027caa63c8c4eb357048aae7c0e47b0f85c7
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4297f70acfbf695d8dcfdcdb58a09d8f608add71
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277857"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41701636"
 ---
 # <a name="registrar-sba-settings-expander"></a>Expansor de configurações SBA do Registrador Avançado
 
 Edite as configurações para **resiliência** e configure as seguintes propriedades:
 
-- Selecione o **serviço de usuário associado e o pool** de registradores de backup na lista.
+- Selecione o **serviço de usuário associado e o pool de registradores de backup** na lista.
 
     Opcionalmente, marque a caixa de seleção **failover automático e failback para voz** .
 

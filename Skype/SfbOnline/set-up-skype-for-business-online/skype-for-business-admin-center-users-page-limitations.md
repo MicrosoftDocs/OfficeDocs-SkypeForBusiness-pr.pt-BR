@@ -15,21 +15,21 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.UsersCountLimitationWarning
 ms.custom:
 - Setup
 description: 'Saiba como trabalhar nas limitações da exibição de usuários do administrador do Skype for Business online. '
-ms.openlocfilehash: 17865b9f369b73d4133f95d0d61fe0010052f50a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ffe0a9d5c67028e12889f21744f88a8bfc2424ae
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285220"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706466"
 ---
 # <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Limitações da página de usuários do centro de administração do Skype for Business Online
 
-Por motivos de desempenho, o **centro de administração do Skype for Business**exibe os primeiros usuários do 1.000 na sua lista de usuários. ****![Se você tiver mais de 1.000 usuários, use](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png) filtro](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png) de **filtro**![e pesquisa Pesquisar para localizar as pessoas específicas que você está procurando.
+Por motivos de desempenho, o **centro de administração do Skype for Business**exibe os primeiros usuários do 1.000 na sua lista de usuários. Se você tiver mais de 1.000 usuários, use ****![filtro](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png) de filtro **e**![pesquisa](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png) Pesquisar para localizar as pessoas específicas que você está procurando.
   
 ## <a name="bulk-editing"></a>Edição em massa
 <a name="__top"> </a>

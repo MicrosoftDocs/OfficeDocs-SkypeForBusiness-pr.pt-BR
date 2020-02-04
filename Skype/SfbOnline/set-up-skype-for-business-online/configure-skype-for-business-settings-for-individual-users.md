@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1_keywords:
+f1.keywords:
 - ms.lync.lac.UsersExternalAccess
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
@@ -22,12 +22,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. '
-ms.openlocfilehash: 8fa6af4099238f9ab908de2ea8c37340f93c3dff
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: a384acdadb6ca4df621d45abdde4157df2029619
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494165"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706506"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Administradores: Definir as configurações do Skype for Business para usuários individuais
 
@@ -44,7 +44,7 @@ Para permitir (ou impedir) que todos na empresa se comuniquem com pessoas extern
 
 Você deve ter [permissões de administrador](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) para executar essas etapas.
 
-![Um ícone mostrando o logotipo](../images/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo do Skype for Business](../images/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
   
 1. Entre no Office 365 com sua conta corporativa ou de estudante.
     
@@ -99,7 +99,7 @@ Para definir essas configurações em massa, use o PowerShell. Consulte [configu
 |**Nome do provedor** <br/> |Escolha seu provedor na lista.  <br/> |
 |**Número de chamada tarifada** (obrigatório) <br/> |Para um ACP terceirizado, esses números de telefone são aqueles que você recebeu do provedor de serviços de audioconferência. Se o usuário estiver usando o Microsoft como um provedor de audioconferência, estes serão os números definidos na ponte de audioconferência. Formate os números como deseja que eles apareçam nas solicitações de reunião do Skype for Business e do Microsoft Teams.  <br/> |
 |**Número de chamada gratuita** <br/> |Para um ACP terceirizado, esses números de telefone são aqueles que você recebeu do provedor de serviços de audioconferência. Se o usuário estiver usando o Microsoft como um provedor de audioconferência, estes serão os números definidos na ponte de audioconferência. Formate os números como deseja que eles apareçam nas solicitações de reunião do Skype for Business e do Microsoft Teams.  <br/> |
-|**ID de conferência e PIN** Querido <br/> |O PIN do participante ou o código de conferência usado para ingressar em reuniões agendadas por esse usuário e são fornecidas por um provedor de serviços de audioconferência de terceiros. Se o usuário estiver usando a Microsoft como provedor de serviços de audioconferência, isso não será necessário.  <br/> |
+|**ID de conferência e PIN** (obrigatório) <br/> |O PIN do participante ou o código de conferência usado para ingressar em reuniões agendadas por esse usuário e são fornecidas por um provedor de serviços de audioconferência de terceiros. Se o usuário estiver usando a Microsoft como provedor de serviços de audioconferência, isso não será necessário.  <br/> |
    
 Para definir essas configurações em massa, use o PowerShell. Consulte [definir os números de telefone incluídos nos convites](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md) [configurar seu computador para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
 

@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientCVPolicyMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
 ROBOTS: NOINDEX, NOFOLLOW
 description: É possível especificar a versão de clientes compatíveis com seu ambiente. Quando dois clientes executando versões diferentes interagem, os recursos disponíveis para cada cliente podem ser limitados pelos recursos do outro cliente.
-ms.openlocfilehash: 42390f18bef702b5e7546d170aaa1a83e8394e0e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 62ec8d2e242ccb0202a700a2a0427c4ed898a29d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300528"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705266"
 ---
 # <a name="client-version-policy"></a>Política de Versão do Cliente
 
@@ -59,5 +59,5 @@ As listas a seguir descrevem os menus, comandos, campos e propriedades na págin
 
 - **Atualização** Você pode atualizar a lista de política de versão do cliente para verificar o status das opções de todas as políticas de versão do cliente.
 
-Para obter detalhes sobre a interoperabilidade entre clientes e versões do cliente, consulte interoperabilidade do [cliente](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) na documentação de planejamento. Para obter detalhes sobre como trabalhar com políticas de versão do cliente, consulte [Specify the Client Versions Supported in Your Organization](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx) na documentação Operações.
+Para obter detalhes sobre a interoperabilidade entre clientes e versões do cliente, consulte [interoperabilidade do cliente](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) na documentação de planejamento. Para obter detalhes sobre como trabalhar com políticas de versão do cliente, consulte [Specify the Client Versions Supported in Your Organization](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx) na documentação Operações.
 

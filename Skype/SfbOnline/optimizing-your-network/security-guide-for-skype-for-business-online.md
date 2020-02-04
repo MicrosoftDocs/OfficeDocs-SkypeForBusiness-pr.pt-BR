@@ -16,20 +16,21 @@ appliesto:
 - Skype for Business Online
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Security
 description: Guia de segurança para o Skype for Business Online <add description>
-ms.openlocfilehash: 8fb0ef5322af99e3868a64be4101cf898918c449
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 268a9859439ca91b5ad7cd8d5e32edf707860cde
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298024"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706806"
 ---
 # <a name="security-and-skype-for-business-online"></a>Segurança e Skype for Business Online
 
-O Skype for Business Online (SfBO), como parte do serviço do Office 365, segue todas as práticas recomendadas e os procedimentos de segurança, como segurança de nível de serviço, defesa profunda, controles do cliente dentro do serviço, aumento da segurança e melhores práticas operacionais. Para obter detalhes completos, confira a central de confiabilidadehttps://microsoft.com/trustcenter)da Microsoft (.
+O Skype for Business online (SfBO), como parte do serviço do Office 365, segue todas as práticas recomendadas de segurança e procedimentos como a segurança de nível de serviço por meio da proteção em camadas, controles do cliente dentro do serviço, proteção de segurança e práticas recomendadas operacionais. Para obter detalhes completos, confira a central de confiabilidadehttps://microsoft.com/trustcenter)da Microsoft (.
 
 ## <a name="trustworthy-by-design"></a>Seguro por Padrão
 Skype for Business Online is designed and developed in compliance with the Microsoft Trustworthy Computing Security Development Lifecycle (SDL), which is described at https://www.microsoft.com/en-us/sdl/default.aspx. The first step in creating a more secure unified communications system was to design threat models and test each feature as it was designed. Multiple security-related improvements were built into the coding process and practices. Build-time tools detect buffer overruns and other potential security threats before the code is checked in to the final product. Of course, it is impossible to design against all unknown security threats. No system can guarantee complete security. However, because product development embraced secure design principles from the start, Skype for Business Online incorporates industry standard security technologies as a fundamental part of its architecture. 
@@ -41,7 +42,7 @@ Network communications in Skype for Business Online are encrypted by default. By
 Esta seção identifica as ameaças mais comuns à segurança do serviço SfBO e como a Microsoft atenua cada ameaça.
 
 ### <a name="compromised-key-attack"></a>Chave de Ataque Comprometida
-Uma chave é um código secreto ou um número que é usado para criptografar, descriptografar ou validar uma informação secreta. Existem duas chaves sensíveis usadas na PKI (Infraestrutura de chave pública) que devem ser levadas em consideração: a chave particular, que cada proprietário de certificado possui, e a chave da sessão, usada após uma identificação bem-sucedida e após a troca da chave da sessão pelos parceiros de comunicação. Um ataque à chave comprometida acontece quando o atacante determina a chave de privacidade ou a chave da sessão. Quando o atacante é bem sucedido nesta determinação da chave, ele pode usá-la para descriptografar dados criptografados sem que o remetente.
+Uma chave é um número ou código secreto usado para criptografar, descriptografar ou validar informações secretas. Há duas chaves confidenciais em uso na infraestrutura de chave pública (PKI) que devem ser consideradas: a chave privada que cada titular de certificado tem e a chave de sessão que é usada após uma identificação bem-sucedida e a troca de chaves de sessão pelos parceiros de comunicação. Um ataque de chave comprometida ocorre quando o invasor determina a chave privada ou a chave de sessão. Quando o invasor for bem-sucedido ao determinar a chave, o invasor poderá usar a chave para descriptografar os dados criptografados sem o conhecimento do remetente.
 
 Skype for Business Online uses the PKI features in the Windows Server operating system to protect the key data used for encryption for the Transport Layer Security (TLS) connections. The keys used for media encryptions are exchanged over TLS connections. 
 
@@ -59,7 +60,7 @@ A Espionagem pode ocorrer quando um atacante ganha acesso ao caminho dos dados n
 
 SfBO uses mutual TLS (MTLS) for server communications within O365 and TLS from clients to the service, rendering this attack very difficult to impossible to achieve within the time period in which a given conversation could be attacked. TLS authenticates all parties and encrypts all traffic. This does not prevent eavesdropping, but the attacker cannot read the traffic unless the encryption is broken.
 
-O protocolo TURN é usado para fins de mídia em tempo real. O protocolo de ativação não obriga o tráfego a ser criptografado e as informações que ele está enviando são protegidas pela integridade da mensagem. Embora ele esteja aberto para espionagem, as informações que ele está enviando (ou seja, endereços IP e porta) podem ser extraídas diretamente simplesmente examinando os endereços de origem e de destino dos pacotes. O serviço SfBO garante que os dados sejam válidos verificando a integridade da mensagem usando a chave derivada de alguns itens, incluindo uma senha de ativação, que nunca é enviada em texto não criptografado. O SRTP é usado para o tráfego de mídia e também é criptografado.
+O protocolo de ativação é usado para fins de mídia em tempo real. O protocolo de ativação não obriga o tráfego a ser criptografado e as informações que ele está enviando são protegidas pela integridade da mensagem. Embora ele esteja aberto para espionagem, as informações que ele está enviando (ou seja, endereços IP e porta) podem ser extraídas diretamente simplesmente examinando os endereços de origem e de destino dos pacotes. O serviço SfBO garante que os dados sejam válidos verificando a integridade da mensagem usando a chave derivada de alguns itens, incluindo uma senha de ativação, que nunca é enviada em texto não criptografado. O SRTP é usado para tráfego de mídia e também é criptografado.
 
 ### <a name="identity-spoofing-ip-address-spoofing"></a>Falsificação de ID (endereço de IP de Falsificação)
 Spoofing occurs when the attacker determines and uses an IP address of a network, computer, or network component without being authorized to do so. A successful attack allows the attacker to operate as if the attacker is the entity normally identified by the IP address. Within the context of Microsoft Lync Server 2010, this situation comes into play only if an administrator has done both of the following:
@@ -80,7 +81,7 @@ A replay attack occurs when a valid media transmission between two parties is in
 Spim é uma mensagem instantânea comercial não solicitada ou pedidos de inscrição de presença. Embora não seja por si só um comprometimento da rede, é, no mínimo, irritante, pois pode reduzir a disponibilidade e a produção de recursos e levar a um comprometimento da rede. Um exemplo disso é quando os usuários fazem "spimming" uns para os outros, por meio de envios de solicitações. Os usuários podem bloquear uns aos outros para evitar isso, mas com a federação, se um ataque spim coordenado for estabelecido, isso poderá ser difícil de superar, a não ser que você desabilite a federação do parceiro.
 
 ### <a name="viruses-and-worms"></a>Vírus e Worms
-Um vírus é uma unidade de código cujo propósito é reproduzir unidades de códigos adicionais e similares. Para funcionar, um vírus precisa de um host, como um arquivo, email ou programa. Como um vírus, um worm é uma unidade de código que é codificada para reproduzir unidades de código adicionais semelhantes, mas que, ao contrário de um vírus, não precisa de um host. Os vírus e os worms aparecem principalmente durante transferências de arquivos entre clientes ou quando as URLs são enviadas por outros usuários. Um vírus no seu computador pode, por exemplo, usar sua identidade e enviar mensagens instantâneas em seu nome. Práticas recomendadas de segurança padrão para o cliente, como a verificação periódica de vírus, podem atenuar esse problema. 
+Um vírus é uma unidade de código cuja finalidade é reproduzir unidades de código semelhantes e adicionais. Para funcionar, um vírus precisa de um host, como um arquivo, um email ou um programa. Como um vírus, um worm é uma unidade de código codificada para reproduzir unidades de código semelhantes adicionais, mas que, ao contrário, um vírus não precisa de um host. Vírus e vermes aparecem principalmente durante transferências de arquivos entre clientes ou quando as URLs são enviadas de outros usuários. Se um vírus estiver em seu computador, ele poderá, por exemplo, usar sua identidade e enviar mensagens de chat em seu nome. As práticas recomendadas de segurança do cliente padrão, como a verificação periódica de vírus, podem atenuar esse problema. 
 
 ## <a name="personally-identifiable-information"></a>Informações de Identificação Pessoal
 SfBO has the potential to disclose information over a public network that might be able to be linked to an individual. The information types can be broken down to two specific categories:
@@ -136,7 +137,7 @@ SfBO service relies on certificates for server authentication and to establish a
 Even if the information on the certificate is valid, there must be some way to verify that the server presenting the certificate is actually the one represented by the certificate. This is where the Windows PKI comes in. Each certificate is linked to a public key. The server named on the certificate holds a corresponding private key that only it knows. A connecting client or server uses the public key to encrypt a random piece of information and sends it to the server. If the server decrypts the information and returns it as plain text, the connecting entity can be sure that the server holds the private key to the certificate and therefore is the server named on the certificate.
 
 #### <a name="crl-distribution-points"></a>Pontos de distribuição das listas de certificados revogados (CRLs)
-O SfBO exige que todos os certificados do servidor contenham um ou mais pontos de distribuição da lista de certificados revogados (CRL). Os pontos de distribuição (CDP) de CRL são locais dos quais as CRLs podem ser baixadas para verificar se o certificado não foi revogado desde sua emissão e se o certificado continua dentro do período de validade. Um ponto de distribuição da CRL é observado nas propriedades do certificado como uma URL e é HTTP seguro. O serviço do SfBO verifica a CRL com cada autenticação de certificado.
+O SfBO exige que todos os certificados do servidor contenham um ou mais pontos de distribuição da lista de certificados revogados (CRL). Os CDPs (pontos de distribuição de CRL) são locais dos quais as CRLs podem ser baixadas para fins de verificação de que o certificado não foi revogado desde o momento em que foi emitido e o certificado ainda está dentro do período de validade. Um ponto de distribuição da CRL é observado nas propriedades do certificado como uma URL e é HTTP seguro. O serviço SfBO verifica a CRL com cada autenticação de certificado.
 
 #### <a name="enhanced-key-usage"></a>Uso avançado da chave
 All components of the SfBO service require all server certificates to support Enhanced Key Usage (EKU) for the purpose of server authentication. Configuring the EKU field for server authentication means that the certificate is valid for the purpose of authenticating servers. This EKU is essential for MTLS. 
@@ -186,7 +187,7 @@ O SfBO usa algoritmos compatíveis com FIPS (Federal Information Processing Stan
 Um usuário confiável é aquele cujas credenciais foram autenticadas pelo AAD no O365. 
 
 Authentication is the provision of user credentials to a trusted server or service. SfBO uses the following authentication protocols, depending on the status and location of the user.
-- **Autenticação moderna** é a implementação da Microsoft do OAUTH 2.0 para comunicação de cliente para servidor. Ela ativa recursos de segurança como a Autenticação baseada em certificado do O365, Autenticação multifator do O365 e Acesso condicional do O365. Para usar a MA, o locatário online e os clientes precisam estar habilitados para isso. Os locatários do SfBO criados após maio de 2017 têm o MA ativado por padrão. Para locatários criados antes disso, siga as instruções apresentadas aqui para ativá-la. Todos os clientes a seguir oferecem suporte à MA: cliente Skype for Business 2015 ou 2016, Skype for Business no Mac, cliente Lync 2013, 3PIP IP Phones, iOS e Android. 
+- A **autenticação moderna** é a implementação da Microsoft do OAuth 2,0 para comunicação entre o cliente e o servidor. Ele permite recursos de segurança, como autenticação baseada em certificado do O365, autenticação multifator do O365 e acesso condicional do O365. Para usar MA, o locatário online e os clientes precisam estar habilitados para MA. Locatários do SfBO criados após 2017 de maio têm o MA habilitado por padrão. Para locatários criados antes desse período, siga as instruções aqui para ativá-lo. Todos os seguintes clientes dão suporte a MA: Skype for Business 2015 ou 2016 Client, Skype for Business no Mac, Lync 2013 Client, 3PIP IP Phones, iOS e Android. 
 - O **ID da organização** é usado quando a autenticação moderna não está habilitada (ou não está disponível).
 - **Protocolo Digest** para os chamados usuários anônimos. Usuários anônimos são usuários externos que não possuem credenciais reconhecidas do Active Directory, mas que foram convidados para uma conferência no local e possuem uma chave de conferência válida. A autenticação Digest não é usada para nenhuma outra interação do cliente.
 
@@ -203,7 +204,7 @@ For media authentication, the ICE and TURN protocols also use the Digest challen
 Os certificados de cliente fornecem uma maneira alternativa para os usuários serem autenticados pelo SfBO. Em vez de fornecer um nome de usuário e uma senha, os usuários têm um certificado e a chave particular correspondente ao certificado necessário para solucionar um desafio criptográfico. 
 
 ### <a name="windows-powershell-and-sfbo-management-tools"></a>Ferramentas de gerenciamento do Windows PowerShell e SfBO
-No SfBO, os administradores de TI podem gerenciar seus serviços por meio do Portal de administração do O365 ou usando o TRPS (Tenant Remote PowerShell). Administradores de locatários usam autenticação moderna para autenticação no TRPS.
+No SfBO, os administradores de ti podem gerenciar o serviço por meio do portal de administração do O365 ou usando o PowerShell Remote locatário (TRPS). Administradores de locatários usam autenticação moderna para autenticação no TRPS.
 
 ### <a name="configuring-access-to-sfbo-at-your-internet-boundary"></a>Configuração do acesso ao SfBO no seu limite de Internet
 Para que o SfBO funcione corretamente (os usuários podem ingressar em reuniões etc.), os clientes precisam configurar o acesso à Internet para que o tráfego UDP e TCP de saída para serviços na nuvem do SfBO seja permitido. Para obter mais detalhes, veja aqui:https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_lyo 
@@ -223,8 +224,8 @@ Enabling external users and internal users to exchange media requires an Access 
 
 ![Sequência de chamadas em Ingresso na Reunião](media/sfbo-call-sequence-security.png) 
 
-1. A user receives an email containing an invitation to join an SfBO meeting. The email contains a conference key and a HTTP-based URL linking to the conference. Both the key and the URL are unique for a particular meeting.<p>O usuário inicia o procedimento de ingresso clicando no URL da reunião presente no email, que inicia um processo de detecção do cliente no computador do usuário. Se o cliente é detectado, ele é inicializado. Se não é detectado, ele é redirecionado para o cliente Web.<p/>
-2. O cliente do SfBO envia uma SIP INVITE contendo as credenciais do usuário. Um usuário federado ou remoto ingressa em uma conferência usando as credenciais da empresa. Para um usuário federado, a SIP INVITE é enviada primeiramente para o servidor doméstico, que autentica o usuário e encaminha a INVITE para o SfBO. Um usuário anônimo é obrigado a passar pela autenticação Digest.<p>SfBO authenticates the remote or anonymous user and notifies the client. As mentioned in step 2, federated users joining a conference are authenticated by their enterprise.<p/>
+1. A user receives an email containing an invitation to join an SfBO meeting. The email contains a conference key and a HTTP-based URL linking to the conference. Both the key and the URL are unique for a particular meeting.<p>O usuário inicia o procedimento de junção clicando na URL da reunião no email que inicia um processo de detecção do cliente na máquina do usuário. Se o cliente for detectado, esse cliente será iniciado. Se não for detectada, o usuário será redirecionado para o cliente Web.<p/>
+2. O cliente SfBO envia um convite SIP contendo as credenciais do usuário. Um usuário federado ou remoto ingressa em uma conferência usando as credenciais da empresa. Para um usuário federado, o convite SIP é enviado ao seu servidor de casa, que autentica o usuário e encaminha o convite para o SfBO. Um usuário anônimo é necessário para passar autenticação Digest.<p>SfBO authenticates the remote or anonymous user and notifies the client. As mentioned in step 2, federated users joining a conference are authenticated by their enterprise.<p/>
 
 3. O cliente envia uma solicitação INFO para adicionar o usuário à conferência A/V.
 
@@ -238,7 +239,7 @@ Enabling external users and internal users to exchange media requires an Access 
 5. A user receives an email containing an invitation to join an SfBO meeting. The email contains a conference key and a HTTP-based URL linking to the conference. Both the key and the URL are unique for a particular meeting.
 
 ### <a name="federation-safeguards-for-sfbo"></a>Proteções de Federação para SfBO
-A federação fornece à sua organização a capacidade de se comunicar com outras organizações para compartilhar chat e presença. No SfBO, a federação está ativada por padrão. No entanto, os administradores do locatário têm a capacidade de controlar isso por meio do portal do Administrador do O365. Veja mais.
+A Federação fornece à sua organização a capacidade de se comunicar com outras organizações para compartilhar mensagens instantâneas e presença. Na Federação do SfBO está ativada por padrão. No entanto, os administradores de locatários têm a capacidade de controlá-lo por meio do portal de administração do O365. Veja mais.
 
 ## <a name="addressing-threats-to-sfbo-conferences"></a>Como enfrentar ameaças às conferências do SfBO
 
@@ -253,16 +254,16 @@ Enabling external users to participate in SfBO meetings greatly increases the va
 
 ### <a name="participant-roles"></a>Funções do participante
 Os participantes da reunião dividem-se em três grupos, cada um com seus próprios privilégios e restrições:
-- **Organizador** &nbsp;O usuário que cria uma reunião, seja improvisada ou por &nbsp;agendamento. Um organizador deve ser um usuário da empresa autenticado e ter controle sobre todos os aspectos do usuário final de uma reunião.
-- **Apresentador** &nbsp;Um usuário que está autorizado a apresentar informações em uma reunião usando qualquer mídia &nbsp;compatível. O organizador da reunião, por definição, também é um apresentador e determina quem mais pode ser um apresentador. O organizador pode determinar isso ao agendar uma reunião ou com a reunião já em andamento.
-- **Participantes** &nbsp;Um usuário que foi convidado a participar de uma reunião, mas que não está autorizado a atuar como apresentador &nbsp;.
+- &nbsp; &nbsp; **Organizador** o usuário que cria uma reunião, seja improvisada ou por agendamento. Um organizador deve ser um usuário da empresa autenticado e ter controle sobre todos os aspectos do usuário final de uma reunião.
+- **Apresentador** &nbsp; &nbsp;um usuário que está autorizado a apresentar informações em uma reunião, usando qualquer mídia compatível. Um organizador da reunião é por definição também um apresentador e determina quem mais pode ser um apresentador. Um organizador pode fazer essa determinação quando uma reunião está agendada ou quando a reunião está em caminho.
+- **** &nbsp;Participante &nbsp;um usuário que tenha sido convidado a participar de uma reunião, mas que não está autorizado a atuar como apresentador.
 
 Um apresentador também pode promover um participante ao papel de apresentador durante a reunião.
 
 ### <a name="participant-types"></a>Tipos de participantes
 
 Meeting participants are also categorized by location and credentials. You can use both of these characteristics to specify which users can have access to specific meetings. Users can be divided broadly into the following categories:
-1.  **Usuários que pertencem ao locatário** &nbsp;Esses usuários têm uma credencial no Azure Active Directory para o &nbsp;locatário.<br/> a. *Inside corpnet* – These users are joining from inside the corporate network.<br/>b. *Remote users* – These users are joining from outside the corporate network. They can include employees who are working at home or on the road, and others, such as employees of trusted vendors, who have been granted enterprise credentials for their terms of service. Remote users can create and join conferences and act as presenters.
+1.  **Os usuários que pertencem ao locatário** &nbsp; &nbsp;podem ter uma credencial no Azure Active Directory para o locatário.<br/> a. *Inside corpnet* – These users are joining from inside the corporate network.<br/>b. *Remote users* – These users are joining from outside the corporate network. They can include employees who are working at home or on the road, and others, such as employees of trusted vendors, who have been granted enterprise credentials for their terms of service. Remote users can create and join conferences and act as presenters.
 2.  **Usuários que não pertencem ao locatário**&nbsp;&nbsp;Esses usuários não têm credenciais no Active Directory do Azure para o locatário.<br/>a. *usuários federados* -os usuários federados possuem credenciais válidas com parceiros federados e, portanto, são tratados como autenticados pelo SfBO. Os usuários federados podem participar de conferências e ser promovidos para os apresentadores depois de participarem da reunião, mas não podem criar conferências em empresas com as quais elas são federadas.<br/>b. *Anonymous Users* - Anonymous users do not have an Active Directory identity and are not federated with the tenant. 
 
 Customer data shows that many conferences involve external users. Those same customers also want reassurance about the identity of external users before allowing those users to join a conference. As the following section describes, SfBO limits meeting access to those user types that have been explicitly allowed and requires all user types to present appropriate credentials when entering a meeting.
@@ -275,8 +276,7 @@ Meeting organizers control whether participants can join a meeting without waiti
 - **Apenas eu, o organizador da reunião**&nbsp;&nbsp;Todos, exceto o organizador, devem esperar no lobby até serem admitidos.
 - **Pessoas que eu convido da minha empresa**&nbsp;&nbsp;Qualquer pessoa da sua empresa pode entrar diretamente na reunião, mesmo que não seja convidada.
 - **Anyone from my organization**&nbsp;&nbsp;All SfBO users in the O365 tenant can join the meeting without waiting in the lobby, even if those who are not on the distribution list. All others, including all external and anonymous users, must wait in the lobby until admitted.
-- ****&nbsp;Qualquer&nbsp;pessoa (não há restrições) que tenham acesso ao link da reunião entrará diretamente na reunião.
-Quando qualquer método, exceto Apenas o organizador (bloqueado), for especificado, o organizador da reunião também poderá especificar que Pessoas chamando por telefone não precisam ficar no lobby. 
+- ****&nbsp;Qualquer&nbsp;pessoa (não há restrições) que tenham acesso ao link da reunião entrará diretamente na reunião. Quando qualquer método, exceto o organizador somente (bloqueado) é especificado, o organizador da reunião também pode especificar as pessoas que discam por telefone ignorando o lobby. 
 
 ### <a name="presenter-capabilities"></a>Recursos do apresentador
 Meeting organizers control whether participants can present during a meeting. Each meeting can be set up to limit presenters to any one of the following:

@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.PersistentChatsScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Você clica com o botão direito do mouse no pool de chat persistente no construtor de topologias para executar o seguinte:'
-ms.openlocfilehash: 9ea284b4afd0dc87060bef65e32a9178aed5cf32
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: efe996036b6b51b205b7d0f15c213fa940684874
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418730"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41701706"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>Criar Nó de Escopo de Servidores de Chat Persistente
 

@@ -16,17 +16,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Saiba quais países e regiões têm números de teleconferência discada e como eles são atribuídos automaticamente.
-ms.openlocfilehash: 1e988db094b6d49f8fb8da548f6d71b3607975e2
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: 32eeebf54fbb9e6ab75ca0e43734f64b1d811c10
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35792304"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707156"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Números de telefone para Audioconferência no Skype for Business Online
 
@@ -66,7 +67,7 @@ Shared audio conferencing phone numbers are automatically assigned to organizati
 > O local do país ou região da sua organização pode ser encontrado conectando-se ao centro de administração do Microsoft 365 e olhando em **perfil da organização**. 
   
 > [!CAUTION]
-> Devido à disponibilidade limitada de números de telefone de chamada na Venezuela, na Indonésia, no Vietnã e nos Emirados Árabes Unidos (EAU), as organizações desses países/regiões não terão um número de telefone de conferência de áudio atribuído automaticamente. Os números de chamada gratuita destes locais são disponibilizados conforme o estoque disponível. 
+> Devido à disponibilidade limitada de números de telefone de chamada na Venezuela, na Indonésia, no Vietnã e nos Emirados Árabes Unidos (EAU), as organizações desses países/regiões não terão um número de telefone de conferência de áudio atribuído automaticamente. Números de chamada gratuita desses locais estão disponíveis dependendo do estoque disponível. 
   
 Dedicated audio conferencing phone numbers are service numbers that you can get and then assign to your organization. Service numbers can be found by using the **Skype for Business admin center**. For details, see [Getting service phone numbers](/microsoftteams/getting-service-phone-numbers).
   

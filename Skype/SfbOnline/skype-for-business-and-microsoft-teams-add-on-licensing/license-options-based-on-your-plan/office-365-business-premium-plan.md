@@ -15,17 +15,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba mais sobre licenças de complemento, recursos e como comprar para os planos do Office 365 Business Premium. '
-ms.openlocfilehash: 0e1c5ebe64c105e15485c0722920ec1437d05b27
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 9ffc251fafb9c1304f78d215a2b5c26d17ae9aae
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792888"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706106"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Business Premium
 
@@ -65,7 +66,7 @@ Se você tem o plano [Office 365 Business Premium](https://products.office.com/e
 
 2. Vá para **Cobrança** > **Assinaturas** > **Complementos** > **Comprar complementos**.
 
-   ![Para comprar uma licença complementar, escolha comprar Complementos.](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
+   ![Para comprar uma licença complementar, escolha Comprar complementos.](../../images/fc4d7506-4ee9-4e39-be54-0622edffb77a.png)
 
 3. Você verá os preços e a opção para comprar Audioconferência e configurar Créditos de comunicação.
 
@@ -77,4 +78,4 @@ Se você tem o plano [Office 365 Business Premium](https://products.office.com/e
 
 3. Choose **Add-ons**. You'll now see the prices for Phone System, and the option to buy it.
 
-4. Depois de comprar uma licença do **sistema de telefonia** , você verá o preço e a opção para comprar um plano de chamadas.
+4. Após comprar uma licença do **Sistema de Telefonia**, você verá o preço e a opção de comprar um Plano de Chamadas.

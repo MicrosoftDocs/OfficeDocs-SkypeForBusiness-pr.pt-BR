@@ -14,7 +14,7 @@ ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.helparticle.journeyskypeforbusinessteams
 - ms.teamsadmincenter.dashboard.trainingvideos.journeytoteams
 - ms.teamsadmincenter.dashboard.widget.upgrade.planning
@@ -26,12 +26,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.upgradetoteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80f35070b520d53db87b21c9c382a116db83ed4b
-ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
-ms.translationtype: HT
+ms.openlocfilehash: cdaed37210283152d35d2b4d73b9cc03b884ec07
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37305745"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707697"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Introdução à atualização para o Microsoft Teams
 
@@ -41,7 +41,7 @@ Se você estiver atualizando do Skype for Business Online para o Teams ou de um 
 
 ## <a name="why-upgrade-to-microsoft-teams"></a>Por que atualizar para o Microsoft Teams?
 
-O Microsoft Teams amplia os recursos do Skype for Business, reunindo chat, reuniões, chamadas, colaboração, integração de aplicativos e armazenamento de arquivos em uma única interface. Essa nova central para o trabalho em equipe pode ajudar a simplificar a forma como os usuários realizam suas tarefas, melhorando a satisfação do usuário e acelerando os resultados dos negócios. Estamos expandindo continuamente os recursos do Teams para que possa comunicar e colaborar de novas maneiras, dividir barreiras geográficas e organizacionais e aumentar a eficiência dos processos e tomada de decisões. Saiba mais sobre os benefícios da atualização para as equipes do relatório da Forrester: [Impacto econômico total do Microsoft Teams](https://www.microsoft.com/pt-BR/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams-Infographic.pdf).  
+O Microsoft Teams amplia os recursos do Skype for Business, reunindo chat, reuniões, chamadas, colaboração, integração de aplicativos e armazenamento de arquivos em uma única interface. Essa nova central para o trabalho em equipe pode ajudar a simplificar a forma como os usuários realizam suas tarefas, melhorando a satisfação do usuário e acelerando os resultados dos negócios. Estamos expandindo continuamente os recursos do Teams para que possa comunicar e colaborar de novas maneiras, dividir barreiras geográficas e organizacionais e aumentar a eficiência dos processos e tomada de decisões. Saiba mais sobre os benefícios da atualização para as equipes do relatório da Forrester: [Impacto econômico total do Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams-Infographic.pdf).  
 
 ## <a name="when-should-my-organization-upgrade-to-teams"></a>Quando a minha organização deve atualizar para o Teams?
 

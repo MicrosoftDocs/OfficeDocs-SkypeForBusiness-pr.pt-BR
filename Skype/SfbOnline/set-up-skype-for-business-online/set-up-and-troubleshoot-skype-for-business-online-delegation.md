@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: Este artigo explica como configurar e solucionar problemas de delegação do Skype for Business online. Este artigo fornece orientações sobre recomendações de configuração, práticas recomendadas e etapas de solução de problemas.
-ms.openlocfilehash: 0528bbb3dc25e085d38f86c040eb5129c9d039c1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fac2b68deec94825d57fd06b436d00feaa924a5c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285240"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706476"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Configurar e solucionar problemas de delegação do Skype for Business Online
 
@@ -55,7 +56,7 @@ Configurar e obter a delegação para funcionar corretamente depende das seguint
 
 ||**Outlook 2013**|**Outlook 2016**|
 |:-----|:-----|:-----|
-|**Cliente Lync/Skype for Business Basic**| Sem suporte |Sem suporte
+|**Cliente Lync/Skype for Business Basic**| Incompatível |Incompatível
 |**Skype for Business 2015**|Compatível | Compatível|
 |**Skype for Business 2016**|Compatível | Compatível|
 
@@ -84,7 +85,7 @@ Para configurar a delegação do Skype for Business Online, siga estas etapas:
 
  **Guia encaminhamento de chamadas**
   
-1. Selecione **ferramentas** > **Opções** > **configurações**de encaminhamento de chamadas.
+1. Selecione **ferramentas** > **Opções** > **configurações de encaminhamento de chamadas**.
     
 2. Selecione **Editar membros de meus representantes**.
     
@@ -102,11 +103,11 @@ Para configurar a delegação do Skype for Business Online, siga estas etapas:
 
  **Guia encaminhamento de chamadas**
   
-- Se o cliente não tiver uma guia de encaminhamento de **chamadas** com o link **Editar meus membros do representante** e a delegar estiver localizada em um computador Mac, a delegação precisará se conectar a um computador baseado no Windows para configurar a delegação. Isso ocorre porque os clientes Mac não podem fazer conexões MAPI, e isso é um requisito para estabelecer a delegação do Skype for Business a partir do Outlook.
+- Se o cliente não tiver uma guia de **encaminhamento de chamadas** com o link **Editar meus membros do representante** e a delegar estiver localizada em um computador Mac, a delegação precisará se conectar a um computador baseado no Windows para configurar a delegação. Isso ocorre porque os clientes Mac não podem fazer conexões MAPI, e isso é um requisito para estabelecer a delegação do Skype for Business a partir do Outlook.
     
 ### <a name="verify-success"></a>Verificar o sucesso
 
-Se a configuração for bem-sucedida, o representante deve ver a mensagem **você foi adicionado como um representante para** a mensagem Name> do < e também que as **pessoas para as quais eu gerencio as chamadas para** o grupo são criadas. A delegação deve ver que o grupo de **representantes** é criado.
+Se a configuração for bem-sucedida, o representante deve ver a mensagem **você foi adicionado como um representante para < nome>** mensagem e também que as **pessoas para as quais eu gerencio as chamadas para** o grupo são criadas. A delegação deve ver que o grupo de **representantes** é criado.
   
 > [!NOTE]
 > As permissões de delegação geralmente aparecem dentro de 30 minutos do processo de instalação. No entanto, esse processo pode levar até 24 horas para ser concluído. 

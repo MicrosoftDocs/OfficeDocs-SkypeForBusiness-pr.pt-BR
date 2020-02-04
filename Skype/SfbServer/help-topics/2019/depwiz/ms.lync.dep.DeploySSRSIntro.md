@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeploySSRSIntro
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f3cda686-6301-419c-af68-b49cc785e5fc
 ROBOTS: NOINDEX, NOFOLLOW
 description: Cada pool de front-ends e um aparelho de ramificação sobreviventes podem ter apenas um servidor de monitoração associado a ele. Quando o monitoramento estiver habilitado para o site, o Monitoring Server fornece a coleta de detalhes de chamadas (CDR) e a coleta de dados de qualidade da experiência (QoE) e a geração de relatórios.
-ms.openlocfilehash: a12f5fd970552cb319f3f67a6e8d2ad7587c496c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e9815ce9ea47e1050cc3e26d9add10d11caab030
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277969"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705286"
 ---
 # <a name="sql-server-reporting-services-intro"></a>SQL Server Reporting Services (Grupos)
  

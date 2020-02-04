@@ -17,18 +17,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.directrouting.callanalytics
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 ms.custom:
 - Reporting
 description: Use os detalhes da análise de chamadas sobre dispositivos, redes e conectividade para solucionar problemas do usuário com o Microsoft Teams e chamadas e reuniões do Skype for Business.
-ms.openlocfilehash: 4b2d6a5a18bf0a13f3fd32aecb8ad98192f3851a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e8b1fe4bbad2b744310d0b609fdc6c6d5a23fea2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568629"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707717"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Usar a Análise de Chamada para solucionar problemas de baixa qualidade da chamada
 

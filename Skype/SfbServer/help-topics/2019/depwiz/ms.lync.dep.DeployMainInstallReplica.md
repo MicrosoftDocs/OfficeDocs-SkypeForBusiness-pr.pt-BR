@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployMainInstallReplica
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para começar a instalação de um novo servidor de função do Skype for Business Server, primeiro você deve instalar o SQL Server local que irá hospedar o repositório de configuração local. O repositório de configuração local atuará como uma réplica somente leitura do CMS (repositório de gerenciamento central) do Skype for Business Server.
-ms.openlocfilehash: 699294889008f0d353e1ba727cbc078f9616f4ec
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 51343bc68415d5c3a9b99b0697285f2e5c30d557
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303401"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705446"
 ---
 # <a name="install-local-configuration-store"></a>Instalar Repositório de Configuração Local
 

@@ -14,20 +14,21 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
-description: Você pode anexar arquivos a uma reunião do Skype for Business, que os participantes podem abrir e baixar. Os arquivos anexados a reuniões do Skype for Business são mantidos nas caixas de correio de qualquer participante cuja caixa de correio é colocada em retenção de litígio, tem uma política de retenção do Office 365 aplicada ou é colocada em um Hold associado a um caso de descoberta eletrônica no Office 365 Security &amp; Centro de conformidade. Este conteúdo é salvo nas pastas de itens recuperáveis dos participantes nas suas caixas de correio.
-ms.openlocfilehash: 4a8022b522f933ff8897586f632764eda77c6a67
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: Você pode anexar arquivos a uma reunião do Skype for Business, que os participantes podem abrir e baixar. Os arquivos anexados a reuniões do Skype for Business são mantidos nas caixas de correio de qualquer participante cuja caixa de correio é colocada em retenção de litígio, tem uma política de retenção do Office 365 aplicada ou é colocada em um Hold associado a um caso de &amp; descoberta eletrônica no centro de conformidade de segurança do Office 365. Este conteúdo é salvo nas pastas de itens recuperáveis dos participantes nas suas caixas de correio.
+ms.openlocfilehash: fdd6786cb9b7e5535abee47eb1f0b538b6a22b45
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297755"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706646"
 ---
 # <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>Retendo arquivos grandes anexados a uma reunião do Skype for Business
 
-Você pode anexar arquivos a uma reunião do Skype for Business, que os participantes podem abrir e baixar. Os arquivos anexados a reuniões do Skype for Business são mantidos nas caixas de correio de qualquer participante cuja caixa de correio é colocada em retenção de litígio, tem uma política de retenção do Office 365 aplicada ou é colocada em um Hold associado a um caso de descoberta eletrônica no Office 365 Security &amp; Centro de conformidade. Este conteúdo é salvo nas pastas de **itens recuperáveis** dos participantes nas suas caixas de correio.
+Você pode anexar arquivos a uma reunião do Skype for Business, que os participantes podem abrir e baixar. Os arquivos anexados a reuniões do Skype for Business são mantidos nas caixas de correio de qualquer participante cuja caixa de correio é colocada em retenção de litígio, tem uma política de retenção do Office 365 aplicada ou é colocada em um Hold associado a um caso de &amp; descoberta eletrônica no centro de conformidade de segurança do Office 365. Este conteúdo é salvo nas pastas de **itens recuperáveis** dos participantes nas suas caixas de correio.
   
 Os arquivos que são mantidos nas caixas de correio em espera são indexados e, portanto, podem ser pesquisados ao executar uma &amp; pesquisa de conteúdo no centro de conformidade de segurança ao pesquisar a caixa de correio de um participante. No entanto, os arquivos anexados com mais de 30 MB são divididos em dois ou mais arquivos menores e salvos como arquivos compactados (. zip). O *conteúdo* desses arquivos menores não é indexado para pesquisa e não pode ser retornado em uma pesquisa de conteúdo. No entanto, os *metadados* desses arquivos (como o nome do arquivo e o autor) são indexados para pesquisa e podem ser retornados em uma pesquisa de conteúdo.
   

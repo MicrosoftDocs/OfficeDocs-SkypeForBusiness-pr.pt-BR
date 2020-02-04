@@ -16,16 +16,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: ms.lync.lac.CivicAddressValidationOpenSupportTicket
+f1.keywords: ms.lync.lac.CivicAddressValidationOpenSupportTicket
 ms.custom:
 - Calling Plans
 description: A validação de endereços é uma etapa importante da configuração de Planos de Chamadas no Office 365. Ela fornece ao usuário da organização um endereço de chamada de emergência que pode ser usado pelos serviços de resposta a emergências.
-ms.openlocfilehash: 4cd11e97978ea0439fd918f4e6c2e854a822e908
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 010191a3e70e9f4d9be6ec34d57118d9b79dfec4
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793330"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705896"
 ---
 # <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>Como faço para criar um tíquete de suporte para validação de endereços?
 

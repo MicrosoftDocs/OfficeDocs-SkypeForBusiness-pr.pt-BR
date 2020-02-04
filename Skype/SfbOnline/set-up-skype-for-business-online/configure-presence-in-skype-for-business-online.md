@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - O365P_OnlinePresenceDesc
 ms.custom:
 - Setup
 description: 'Learn how to set up Skype for Business so you can see the availability of your co-workers. '
-ms.openlocfilehash: ba6ff112eee78e6e70b435b19caa62187a98afcf
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 7e0389d232d1b05a39827ed89e82acb6aa35a82a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793340"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706516"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>Configuração de presença do Skype for Business Online
 
@@ -34,7 +34,7 @@ Por padrão, qualquer pessoa que possa se comunicar com uma das pessoas em sua o
 
 Como **[administrador](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** de todas as pessoas em sua empresa, você pode escolher quem vê sua presença online no Skype for Business.
 
-![Um ícone mostrando o logotipo](../images/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo do Skype for Business](../images/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
 
 1. Vá para o centro de administração > centro de **Administração** > **do Skype for Business**.
 

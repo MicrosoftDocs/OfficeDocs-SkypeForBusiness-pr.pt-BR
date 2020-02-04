@@ -14,18 +14,18 @@ ms.collection:
 description: Saiba como carregar um arquivo de texto que contém uma lista de locais físicos e sub-redes associadas para usar como rótulos de relatório para relatórios de análise de chamada e de painel de qualidade de chamada.
 ms.custom:
 - NewAdminCenter_Update
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.locations.reportinglabels.overview
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.location
 - ms.teamsadmincenter.locations.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0519af0f9c26260f23e2a0dd9b0c60a676aa5766
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 19d3197d91b7139089a940c19ff23c1dcc99a290
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572031"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707850"
 ---
 <a name="add-and-update-reporting-labels"></a>Adicionar e atualizar rótulos de relatórios
 ============================

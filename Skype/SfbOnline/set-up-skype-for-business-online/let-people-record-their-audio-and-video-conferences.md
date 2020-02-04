@@ -14,23 +14,23 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - O365P_RecordingDesc
 ms.custom:
 - Setup
 description: "How to turn on recording for audio and video conferences, and learn what is and isn't included in recordings. "
-ms.openlocfilehash: a7bb57fa4fe0124a4e2d6afb262fd298cb29e419
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 551e7d748a849ae945226b4aa1ef1640e3163da0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792596"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706486"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>Permitir que as pessoas gravem suas conferências de áudio e vídeo
 
 ## <a name="choose-the-default-recording-setting-for-a-single-user-or-everyone-in-your-organization"></a>Escolher o padrão de gravação de configuração para um único usuário ou para todos em sua organização
 
-![Um ícone mostrando o logotipo](../images/sfb-logo-30x30.png) do Skype for Business **usando o centro de administração do Skype for Business**
+![Um ícone mostrando o logotipo do Skype for Business](../images/sfb-logo-30x30.png) **Usando o centro de administração do Skype for Business**
 
 1. Vá para o centro de administração > **Skype for Business**e clique em **usuários**.
     

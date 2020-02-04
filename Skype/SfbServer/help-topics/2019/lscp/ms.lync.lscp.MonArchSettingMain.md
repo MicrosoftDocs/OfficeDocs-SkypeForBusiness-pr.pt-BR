@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.MonArchSettingMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Use as configurações de arquivamento para controlar as opções de arquivamento para a implantação do Skype for Business Server, incluindo a ativação e a desativação das seguintes opções:'
-ms.openlocfilehash: 8c585d2a5816f2d29b3f468fd48fa82c36254d5f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1222e5e4c848f7ce0f3ca05943aa5b5acf4d365a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291933"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41704696"
 ---
 # <a name="archiving-configuration"></a>Configuração de Arquivamento
  
@@ -64,7 +64,7 @@ A página **Configuração de Arquivamento** lista cada política de Arquivament
     
   - **Desativar arquivamento**
     
-- **Atualização** Você pode atualizar a página de **configuração** de arquivamento para verificar o status das opções de todas as configurações de arquivamento.
+- **Atualização** Você pode atualizar a página de **configuração de arquivamento** para verificar o status das opções de todas as configurações de arquivamento.
     
-Para obter detalhes sobre o recurso de arquivamento e os recursos, incluindo a integração com o Exchange, consulte [planejar o arquivamento no Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md), [implantar o arquivamento para o Skype for Business Server](../../../deploy/deploy-archiving/deploy-archiving.md)e [gerenciar o arquivamento no Skype for Business Servidor](../../../manage/archiving/archiving.md).
+Para obter detalhes sobre o recurso de arquivamento e os recursos, incluindo a integração com o Exchange, consulte [planejar o arquivamento no Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md), [implantar o arquivamento para o Skype for Business Server](../../../deploy/deploy-archiving/deploy-archiving.md)e [gerenciar o arquivamento no Skype for Business Server](../../../manage/archiving/archiving.md).
 

@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: Aprenda as etapas para configurar o Live para eventos no Teams, incluindo a preparação da rede, a atribuição de licenças, o uso de políticas para habilitar recursos de eventos dinâmicos e agendamento para usuários e a configuração de um provedor de distribuição de terceiros.
-f1keywords: ms.teamsadmincenter.liveevents.policies
+f1.keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ce126b6e0e7a1bc9efec28f3b7fec5020c2da1e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ebc72d8238e5551c7a09cae3d617e8f6a187befb
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570152"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708327"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Configurar eventos ao vivo no Microsoft Teams
 
@@ -80,10 +80,10 @@ Você também pode atribuir uma política de eventos ao vivo a um ou mais usuár
 ![Um ícone mostrando o logotipo do Microsoft Teams](../media/teams-logo-30x30.png) Usar o centro de administração do Microsoft Teams
 
 1. Vá para **** > **políticas de eventos ao vivo**de reuniões.
-2. Selecione a política clicando à esquerda do nome da política.
-3. Selecione **gerenciar usuários**.
-4. No painel **gerenciar usuários** , procure pelo usuário por nome para exibição ou por nome de usuário, selecione o nome e, em seguida, selecione **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
-5. Quando terminar de adicionar usuários, selecione **salvar**.
+2. Escolha a política clicando à esquerda do nome da política.
+3. Escolha **Gerenciar usuários**.
+4. No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**. Repita esta etapa para cada usuário que você deseja adicionar.
+5. Quando terminar de adicionar os usuários, escolha **Salvar**.
  
 
 ### <a name="enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device"></a>Permitir que os usuários agendem eventos que foram produzidos com um aplicativo ou dispositivo externo
@@ -107,9 +107,9 @@ As seguintes soluções do SDN/eCDN são pré-testadas e podem ser configuradas 
 
 - O **streaming de Hive** oferece uma solução simples e potente para distribuição de vídeo empresarial ao vivo e sob demanda. Hive é uma solução baseada em software que não requer hardware ou largura de banda adicional e fornece uma maneira segura de permitir milhares de visualizadores de vídeo simultâneos, sem afetar a sua rede. Para os clientes que desejam entender o vídeo de impacto está em sua rede antes de comprar uma solução SDN/eCDN, o streaming de Hive também oferece uma solução de análise baseada em navegador para clientes da Microsoft. [Saiba mais](https://www.hivestreaming.com/partners/integration-partners/microsoft/).
  
-- O **Kollective** é uma plataforma de distribuição de emparelhamento inteligente baseada em nuvem que aproveita sua infraestrutura de rede existente para fornecer conteúdo, em muitos formatos (vídeo ao vivo, vídeo sob demanda, atualizações de software, patches de segurança, etc.) mais rápido e mais confiabilidade e com menos largura de banda. Nossa plataforma segura é confiável para as maiores instituições financeiras do mundo, sem necessidade de hardware, configuração e manutenção adicionais. [Saiba mais](https://kollective.com/microsoft-pilot/).
+- O **Kollective** é uma plataforma de distribuição de emparelhamento inteligente baseada em nuvem que aproveita sua infraestrutura de rede existente para fornecer conteúdo, em muitos formatos (vídeo ao vivo, vídeo sob demanda, atualizações de software, correções de segurança etc.) com mais rapidez, confiança e menos largura de banda. Nossa plataforma segura é confiável para as maiores instituições financeiras do mundo, sem necessidade de hardware, configuração e manutenção adicionais. [Saiba mais](https://kollective.com/microsoft-pilot/).
  
-- A **rampa OmniCache** oferece distribuição de rede de última geração e garante a entrega transparente do conteúdo de vídeo em WANs globais, ajudando os produtores de eventos a otimizar a largura de banda da rede e dar suporte a difusões de eventos dinâmicos e sob demanda bem-sucedidas Stream. O suporte para a Ramp OmniCache para eventos dinâmicos produzidos em Teams será disponibilizado em breve. [Saiba mais](http://www.ramp.com). 
+- A **rampa OmniCache** oferece distribuição de rede de próxima geração e garante a entrega perfeita do conteúdo de vídeo em WANs globais, ajudando os produtores de eventos a otimizar a largura de banda da rede e dar suporte a difusões de eventos ao vivo e a transmissão por demanda bem-sucedidas. O suporte para a Ramp OmniCache para eventos dinâmicos produzidos em Teams será disponibilizado em breve. [Saiba mais](http://www.ramp.com). 
  
 > [!NOTE] 
 > Sua solução SDN ou eCDN está sujeita aos **termos de serviço e à política de privacidade do provedor de terceiros**selecionado, que governam o uso da solução do provedor. Seu uso da solução do provedor não estará sujeito aos termos de licenciamento por volume da Microsoft ou a termos de serviços online. Se você não concordar com os **termos do provedor de terceiros**, não habilite a solução no Microsoft Teams. 

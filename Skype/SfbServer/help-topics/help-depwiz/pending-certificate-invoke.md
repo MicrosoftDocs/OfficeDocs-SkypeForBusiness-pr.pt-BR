@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployCertPendingInvoke
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
 description: A página comandos em execução exibe o status dos comandos que estão recuperando o certificado pendente. Quando a tarefa é concluída, o arquivo de registro de recuperação de certificados pendentes está disponível. Clique em Exibir registro para analisar o status de conclusão e processamento de tarefas. Clique em Avançar para continuar.
-ms.openlocfilehash: 79f4b88c1f81ff8fc12e9ad1da5552bf0138cb72
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 14ed8f9402d4cb99769d143e2f71ec3b820d07ea
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302448"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41701036"
 ---
 # <a name="pending-certificate-invoke"></a>Certificado Pendente (Invocar)
  

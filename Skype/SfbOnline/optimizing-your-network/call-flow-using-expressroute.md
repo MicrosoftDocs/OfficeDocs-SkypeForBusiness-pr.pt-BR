@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Optimization
 description: Este artigo ajuda a explicar os princípios centrais do fluxo de chamadas do Skype for Business Online e da Rota Expressa, além de fornecer alguns exemplos detalhados de fluxos de chamadas para que você possa entender e planejar corretamente.
-ms.openlocfilehash: 59198cf24445ba486b193436b4374fea6698f146
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 3c728dab868177aab07c6fe618fba3a8c357eaa2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792626"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706666"
 ---
 # <a name="call-flow-using-expressroute"></a>Fluxo de chamadas usando Rota Expressa
 
@@ -46,7 +47,7 @@ Os fluxos de chamadas descritos aqui podem ser afetados por uma série de fatore
 
 - [Rota Expressa do Azure](https://azure.microsoft.com/services/expressroute/)
 
-A configuração e as configurações que não seguiram as etapas de configuração encontradas na documentação acima podem ter fluxos de chamadas diferentes daqueles que documentamos aqui. Além disso, você pode se encontrar com problemas de configuração, como rotas de rede assimétricas e não otimizadas, ou protocolos de transporte não otimizados. O roteamento assimétrico é uma consideração importante sempre que o ExpressRoute estiver envolvido, porque o ExpressRoute apresenta um segundo caminho para o Office 365, que cria a possibilidade de uma rota que usa a Internet em uma direção e outra rota que usa Rota expressa na outra direção. Isso pode resultar no bloqueio do tráfego na direção de retorno, se ele passar por um firewall com estado.
+A configuração e as configurações que não seguiram as etapas de configuração encontradas na documentação acima podem ter fluxos de chamadas diferentes daqueles que documentamos aqui. Além disso, você pode se encontrar com problemas de configuração, como rotas de rede assimétricas e não otimizadas, ou protocolos de transporte não otimizados. O roteamento assimétrico é uma consideração importante sempre que o ExpressRoute estiver envolvido, porque o ExpressRoute apresenta um segundo caminho para o Office 365, que cria a possibilidade de uma rota que usa a Internet em uma direção e outra rota que usa Rota expressa na outra direção. Isso pode fazer com que o tráfego seja bloqueado na direção de retorno se ele atravessar um firewall stateful.
 
 ## <a name="network-segments-and-traffic-types"></a>Segmentos de rede e tipos de tráfego
 
@@ -54,7 +55,7 @@ A configuração e as configurações que não seguiram as etapas de configuraç
 
 Antes de explicar o fluxo de chamadas, precisamos definir alguns termos que ajudarão você a entender os segmentos de rede e os tipos de mídia usados no Skype for Business Online.
 
-Os diagramas de fluxo de chamadas abaixo mostram quatro segmentos de rede diferentes, cada um deles gerenciados por organizações diferentes (sua rede interna, seu provedor de serviços de rede e seus parceiros de rede de par da Internet e Microsoft) que têm diferentes características de desempenho. Para obter diretrizes sobre destinos de desempenho de rede, confira [qualidade de mídia e desempenho de conectividade de rede no Skype for Business online](media-quality-and-network-connectivity-performance.md).
+Os diagramas de fluxo de chamadas abaixo mostram quatro segmentos de rede diferentes, cada um deles gerenciados por organizações diferentes (sua rede interna, seu provedor de serviços de rede e seus parceiros de redes pares na Internet e Microsoft) que têm características de desempenho diferentes. Para obter diretrizes sobre destinos de desempenho de rede, confira [qualidade de mídia e desempenho de conectividade de rede no Skype for Business online](media-quality-and-network-connectivity-performance.md).
 
 A seguir, apresentamos todos os segmentos de rede sobre os quais falaremos.
 
@@ -62,13 +63,13 @@ A seguir, apresentamos todos os segmentos de rede sobre os quais falaremos.
 
  **Sua rede** Esse é o segmento de rede que faz parte da sua rede geral que você controla e gerencia. Isso inclui todas as suas conexões em seus escritórios, seja com fio ou sem fio, entre prédios do escritório, em datacenters locais e suas conexões com provedores de Internet ou com parceiros do ExpressRoute.
 
-Geralmente, a borda da sua rede tem uma ou mais DMZ com firewalls e/ou servidores proxy, que impõem as políticas de segurança da sua organização e que só permitem certos tráfegos de rede que você configurou e configurou. Como você gerencia essa rede, você tem controle direto sobre o desempenho da sua rede e é altamente recomendável que você conclua as avaliações de rede para validar o desempenho tanto dentro dos sites da sua rede quanto da sua rede para o Skype for Business Internet. Para ver os requisitos de desempenho, consulte [qualidade de mídia e desempenho de conectividade de rede no Skype for Business online](media-quality-and-network-connectivity-performance.md).
+Geralmente, a borda da sua rede tem uma ou mais DMZ com firewalls e/ou servidores proxy, que impõem as políticas de segurança da sua organização e que só permitem certos tráfegos de rede que você configurou e configurou. Como você gerencia essa rede, você tem controle direto sobre o desempenho da sua rede, e é altamente recomendável que você conclua as avaliações de rede para validar o desempenho tanto dentro dos sites da sua rede quanto da rede para o Skype for Business online. Para ver os requisitos de desempenho, consulte [qualidade de mídia e desempenho de conectividade de rede no Skype for Business online](media-quality-and-network-connectivity-performance.md).
 
  **Acesso à Internet** Este é o segmento de rede que faz parte de sua rede geral que será usado por usuários que estão se conectando ao Skype for Business online de fora da sua rede e que é usado para todas as conexões quando o ExpressRoute não está configurado. A Internet e todas as suas conexões não são gerenciadas por você ou pela Microsoft, portanto, os caminhos de desempenho e roteamento não podem ser determinados, e isso terá o maior impacto no fluxo de chamadas geral e na qualidade.
 
- **Rota Expressa** Este é o segmento de rede que faz parte de sua rede geral e que fornecerá uma conexão dedicada e privada à rede da Microsoft. Esta é a opção recomendada para conectar sua rede à rede Microsoft (Office 365 datacenters) para todas as cargas de trabalho que dependem da velocidade da rede e do desempenho, como a comunicação em tempo real do Skype for Business online. As conexões do ExpressRoute são feitas entre a rede e a rede da Microsoft usam [provedores de conectividade do expressroute](https://azure.microsoft.com/documentation/articles/expressroute-locations/) para fornecer uma rede privada e gerenciada, com tempo de funcionamento de 99,9% e suporte para a QoS (qualidade do serviço) que pode melhorar o desempenho para mídia em tempo real durante períodos de congestionamento da rede.
+ **ExpressRoute** Este é o segmento de rede que faz parte de sua rede geral que lhe dará uma conexão privada dedicada para a rede da Microsoft. Esta é a opção recomendada para conectar sua rede à rede Microsoft (Office 365 datacenters) para todas as cargas de trabalho que dependem da velocidade da rede e do desempenho, como a comunicação em tempo real do Skype for Business online. As conexões do ExpressRoute são feitas entre a rede e a rede da Microsoft usam [provedores de conectividade do expressroute](https://azure.microsoft.com/documentation/articles/expressroute-locations/) para fornecer uma rede privada e gerenciada, com tempo limite de 99,9% e suporte para a QoS (qualidade de serviço) que pode melhorar o desempenho de mídia em tempo real durante períodos de congestionamento de rede.
 
- **Rede da Microsoft** Este é o segmento de rede que faz parte de sua rede geral e que dá suporte aos serviços do Office 365. Isso inclui toda a comunicação entre os servidores Online para o Office 365. Isso pode incluir tráfego que atravessa o backbone da rede Microsoft e é transmitido entre regiões geográficas.
+ **Rede da Microsoft** Esse é o segmento de rede que faz parte de sua rede geral compatível com os serviços do Office 365. Isso inclui toda a comunicação entre os servidores online do Office 365. Isso pode incluir tráfego que atravessa o backbone da rede Microsoft e é transmitido entre regiões geográficas.
 
 ### <a name="types-of-traffic"></a>Tipos de tráfego
 
@@ -76,17 +77,17 @@ O tráfego de rede do Skype for Business online se encaixa em duas categorias am
 
  **Mídia em tempo real** são dados encapsulados dentro do RTP (protocolo de transporte em tempo real) e compatível com áudio, vídeo, compartilhamento de aplicativos e cargas de trabalho de transferência de arquivos. Em geral, o tráfego de mídia é altamente sensível à latência, portanto, você quer que esse tráfego leve o caminho mais direto possível e use UDP como o protocolo de camada de transporte porque o uso de TCP apresenta maior latência.
 
- **Sinalização** é o link de comunicação entre o cliente e o servidor ou outros clientes que são usados para controlar atividades (por exemplo, quando uma chamada é iniciada) e enviar mensagens de chat. A maior parte do tráfego de sinalização usa o protocolo SIP, embora alguns clientes usem as interfaces REST baseadas em HTTP. Para simplificar, estamos considerando um sinal de variedade que pode viajar por meio de conexões HTTP e HTTPS ou TLS nesse tipo de tráfego. É importante entender que esse tráfego é bem menos sensível à latência, mas pode ocasionar interrupções de serviço ou finalizações de chamadas, caso a latência entre os pontos de extremidade excedam vários segundos.
+ **Sinalização** é o link de comunicação entre o cliente e o servidor ou outros clientes que são usados para controlar atividades (por exemplo, quando uma chamada é iniciada) e enviar mensagens de chat. A maior parte do tráfego de sinalização usa o protocolo SIP, embora alguns clientes usem interfaces REST baseadas em HTTP. Para simplificar, estamos considerando um sinal de variedade que pode viajar por meio de conexões HTTP e HTTPS ou TLS nesse tipo de tráfego. É importante entender que esse tráfego é muito menos sensível à latência, mas pode causar paralisações de serviço ou tempos limite de chamadas se a latência entre os pontos de extremidade ultrapassar vários segundos.
 
-Os destinos desse tráfego são encontrados em [URLs e intervalos de endereços IP do Office 365](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) para todos os serviços do Office 365. Para cada URL, ele indica se essa parte do tráfego pode usar a Rota Expressa do Office 365. Para os diagramas que mostram que a Internet ainda está sendo usada para algum tráfego quando o ExpressRoute está habilitado, consulte o [Azure ExpressRoute para Office 365](https://support.office.com/article/6d2534a2-c19c-4a99-be5e-33a0cee5d3bd). É importante compreender que mesmo URLs que são listadas como roteáveis pelo ExpressRoute também são roteáveis pela Internet. Isso significa que, em alguns cenários, a determinação sobre se a Internet ou rota expressa será usada depende da localização do cliente e da configuração dos servidores proxy e firewalls. Também é importante compreender que, como nem todas as URLs associadas ao Office 365 podem usar o ExpressRoute, uma conexão à Internet é necessária, mesmo se você comprar o ExpressRoute de um parceiro do ExpressRoute.
+Os destinos para esse tráfego são encontrados nas [URLs do office 365 e nos intervalos de endereços IP](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) de todos os serviços do Office 365. Para cada URL, ele indica se essa parte do tráfego pode atravessar o ExpressRoute para o Office 365. Para os diagramas que mostram que a Internet ainda está sendo usada para algum tráfego quando o ExpressRoute está habilitado, consulte o [Azure ExpressRoute para Office 365](https://support.office.com/article/6d2534a2-c19c-4a99-be5e-33a0cee5d3bd). É importante compreender que mesmo URLs que são listadas como roteáveis pelo ExpressRoute também são roteáveis pela Internet. Isso significa que, em alguns cenários, a determinação sobre se a Internet ou rota expressa será usada depende da localização do cliente e da configuração dos servidores proxy e firewalls. Também é importante compreender que, como nem todas as URLs associadas ao Office 365 podem usar o ExpressRoute, uma conexão à Internet é necessária, mesmo se você comprar o ExpressRoute de um parceiro do ExpressRoute.
 
-O tráfego que só pode ser enviado pela Internet inclui dependências comuns pela Internet, como listas de certificados revogados (CRLs), pesquisas DNS e resolução de nomes, URLs para serviços compartilhados do Office 365, como para o centro de administração do Microsoft 365 e alguns recursos de comunicação não em tempo real do Skype for Business Online, como telemetria e Federação para interoperabilidade com o Skype Consumer, e também mídia que é transmitida para transmissão de reunião do Skype. Para ajudar você a tomar decisões, veja [Roteamento com o ExpressRoute para Office 365](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408) para obter mais considerações durante o planejamento de seu roteamento de rede.
+O tráfego que só pode ser enviado pela Internet inclui dependências comuns à Internet, como listas de certificados revogados (CRLs), pesquisas de DNS e resolução de nome, URLs para serviços compartilhados do Office 365, como para o centro de administração do Microsoft 365 e alguns recursos de comunicação não em tempo real do Skype for Business Online, como telemetria e Federação para interoperabilidade com o Skype Consumer, como mídias de transmissão de reunião do Skype. Para ajudá-lo a tomar decisões, consulte o [roteiro com o ExpressRoute para o Office 365](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408) para obter mais considerações quando você estiver planejando o roteamento de rede.
 
 ## <a name="principles-for-call-flows-with-skype-for-business"></a>Princípios para fluxos de chamadas com o Skype for Business
 
 Antes de nos aprofundarmos em cenários específicos de fluxos de chamadas, existem seis princípios gerais que ajudam a entender os fluxos de chamadas do Skype for Business.
 
-1. Uma conferência do Skype for Business é hospedada na mesma região em que o organizador de conferências é hospedado. A conferência estará na nuvem do Office 365, se o organizador for um usuário Online, ou em um datacenter local, se o organizador da reunião for um usuário local.
+1. Uma conferência do Skype for Business é hospedada na mesma região em que o organizador de conferências é hospedado. Isso se encontra na nuvem do Office 365 se o organizador for um usuário online ou em um datacenter local se o organizador da reunião for um usuário local.
 
 2. O tráfego de mídia enviado de um cliente para uma conferência hospedada sempre vai para o servidor em que a conferência está hospedada. Pode ser um servidor local dentro de um datacenter que você gerencia ou um servidor online dentro da nuvem do Office 365. No entanto, um servidor de borda sempre é usado para o fluxo de mídia para conferências online.
 
@@ -98,7 +99,7 @@ Antes de nos aprofundarmos em cenários específicos de fluxos de chamadas, exis
 
 6. Os usuários que ingressam em uma conferência hospedada no local normalmente não usarão um servidor de borda se estiverem se conectando pela mesma rede que contém a implantação local, mas usarão um ou dois servidores de borda quando estiverem se conectando de fora da sua rede.
 
-Para saber mais sobre os detalhes do caminho de mídia que foi escolhido, veja [ICE - Conectividade de mídia de borda](https://aka.ms/AVEdge). Embora este vídeo seja sobre o Lync Server 2013, os princípios e protocolos ainda se aplicam ao Skype for Business.
+Para saber mais sobre os detalhes no caminho de mídia que é escolhido, consulte [conectividade de mídia de borda Ice](https://aka.ms/AVEdge). Embora este vídeo seja sobre o Lync Server 2013, os princípios e protocolos ainda se aplicam ao Skype for Business.
 
 ## <a name="skype-for-business-call-flows-with-expressroute"></a>Fluxos de chamadas do Skype for Business com Rota Expressa
 
@@ -106,7 +107,7 @@ Agora que você tem uma compreensão dos quatro segmentos de rede diferentes e a
 
 Em geral, o tráfego de rede usará a conexão da Rota Expressa, caso um ponto de extremidade seja sua rede e o outro ponto de extremidade seja o datacenter do Office 365. Isso incluirá o tráfego de sinalização entre o cliente e o servidor, o tráfego de mídia usado durante as chamadas em conferência ou chamadas ponto a ponto que usam o servidor de borda online.
 
-O tráfego não usará a conexão da Rota Expressa se os dois pontos de extremidade conseguirem se comunicar diretamente pela Internet ou se estiverem localizados em sua rede. Isso inclui mídia para chamadas ponto a ponto, tráfego da Internet destinado a uma implantação local ou qualquer tráfego entre a Internet e servidores de Edge do Office 365. Um exemplo disso seria a participação em uma conferência online de um usuário hospedado em um hotel.
+O tráfego não percorrerá a conexão do ExpressRoute se os dois pontos de extremidade puderem se comunicar diretamente pela Internet ou se estiverem localizados em sua rede. Isso inclui mídia para chamadas ponto a ponto, tráfego da Internet destinado a uma implantação local ou qualquer tráfego entre a Internet e servidores de Edge do Office 365. Um exemplo disso seria um usuário ingressando em uma conferência online de um hotel.
 
 ## <a name="basic-skype-for-business-call-flow"></a>Como usar o fluxo de chamadas do Skype for Business
 
@@ -164,7 +165,7 @@ Quando um usuário híbrido entra em uma conferência hospedada online, sabemos 
 ### <a name="pstn-call-using-skype-for-business-cloud-connector-edition"></a>Chamada PSTN usando o Skype for Business Cloud Connector Edition
 <a name="bk_Figure6"> </a>
 
-O [Skype for Business Online Cloud Connector Edition](https://aka.ms/CloudConnectorInstaller) fornece conectividade PSTN por meio de recursos locais, como um tronco SIP ou um gateway PSTN ou por meio de um dispositivo de hardware mínimo, para integrar-se ao Skype for Business. Com o Cloud Connector Edition, os usuários são hospedados online e atuam como usuários normais online quando não envolvem planos de chamada. A sinalização para cenários PSTN viaja entre o cliente e a nuvem por meio da conexão da Rota Expressa, se ela estiver disponível, e o tráfego de mídias permanece em sua WAN. Nesse caso, a sinalização gira em torno da nuvem do Office 365 e termina no Cloud Connector.
+Usar o [Skype for Business online Cloud Connector Edition](https://aka.ms/CloudConnectorInstaller) fornece conectividade PSTN usando recursos locais, como um tronco SIP ou um gateway PSTN, ou usando um dispositivo de hardware mínimo para integração com o Skype for Business. Com o Cloud Connector Edition, os usuários são hospedados online e atuam como usuários normais online quando não envolvem planos de chamada. A sinalização para cenários PSTN se transportará entre o cliente e a nuvem em uma conexão do ExpressRoute, se disponível, e o tráfego de mídia permanecerá dentro da sua WAN. Nesse caso, a sinalização se transforma na nuvem do Office 365 e termina no conector da nuvem.
 
  **Chamada PSTN via sistema telefônico no Office 365 e no conector de nuvem**
 
@@ -173,7 +174,7 @@ O [Skype for Business Online Cloud Connector Edition](https://aka.ms/CloudConnec
 ### <a name="skype-meeting-broadcast-with-users-joining-from-customer-network"></a>Transmissão de Reunião do Skype com usuários ingressando pela rede do cliente
 <a name="bk_Figure6"> </a>
 
-A Transmissão de Reunião do Skype é um caso de uso especial, que consiste em uma reunião de duas partes, cada qual com diferentes perfis de transporte de rede. A primeira parte e aquela que é mais importante de um ponto de vista de desempenho de rede é a reunião interna. Esta é a porção em tempo real da reunião que inclui um ou mais pontos de extremidade do cliente se conectando ao servidor de conferência na nuvem do Office 365. Os dados transmitidos usando esta parte da reunião são exatamente iguais aos do exemplo acima, com um usuário do Office 365 ingressando em uma conferência online.
+A transmissão de reunião do Skype é um caso de uso especial, que consiste em uma reunião de duas partes com cada parte com diferentes perfis de transporte de rede. A primeira parte e aquela que é mais importante de um ponto de vista de desempenho de rede é a reunião interna. Esta é a porção em tempo real da reunião que inclui um ou mais pontos de extremidade do cliente se conectando ao servidor de conferência na nuvem do Office 365. Os dados transmitidos usando esta parte da reunião são exatamente iguais aos do exemplo acima, com um usuário do Office 365 ingressando em uma conferência online.
 
 O que torna a transmissão de reunião do Skype exclusiva é que a reunião é distribuída para um grande número de participantes da conferência usando um serviço de transmissão de transmissão. Esse serviço de transmissão de transmissão não está roteável pelo ExpressRoute, mas em vez disso usa a Internet com o suporte opcional de serviços de rede de distribuição de conteúdo (CDN). É útil reconhecer que o fluxo de transmissão é um fluxo de mídia unidirecional, pois os participantes escutam, mas não falam e dão suporte ao buffer, portanto, é bem menos sensível a problemas de desempenho de rede, como latência, perda de pacote e Tremulação. Em vez de otimizar o tráfego de transmissão para esses problemas, ele é otimizado para uso de largura de banda porque é potencialmente um número muito grande de participantes recebendo a mídia transmitida.
 
@@ -210,7 +211,7 @@ Os cenários de uso do Skype for Business online envolvem usuários que estão h
 
 ### <a name="call-flows-for-skype-for-business-hybrid"></a>Fluxos de chamadas do Skype for Business Híbrido
 
-Os fluxos de chamadas híbridos são aplicáveis quando há uma implantação do Skype for Business que inclui pelo menos alguns usuários hospedados localmente. Os fluxos de chamadas nesta seção incluem conferências locais e chamadas ponto a ponto ou PSTN com pelo menos um usuário local no local.
+Os fluxos de chamadas híbridas se aplicam quando você tem uma implantação do Skype for Business que inclui pelo menos alguns usuários que são hospedados no local. Os fluxos de chamadas nesta seção incluem conferências locais e chamadas ponto a ponto ou PSTN com pelo menos um usuário local no local.
 
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|

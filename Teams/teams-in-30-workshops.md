@@ -14,16 +14,16 @@ ms.collection:
 ms.reviewer: dearbeen, nsuter
 search.appverid: MET150
 description: Workshops interativos e ativos projetados para que você comece a trabalhar com o Microsoft Teams em apenas 30 dias.
-f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
+f1.keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92b57b34eea5459e3d800df49876b133510dbde4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fb8d5b133bcc8ee905df51b9c006f173eb4947b6
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570207"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708447"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -70,7 +70,7 @@ ms.locfileid: "37570207"
                     </div>
                     <div class="cardText">
                     <h3>Preparar seu ambiente-parte I</h3>
-                    <p>Defina a base para a distribuição de suas equipes. Identificar pré-requisitos de equipes, redes e práticas recomendadas de segurança, políticas de coexistência, análises e relatórios e recomendações de distribuição de clientes.</p><p>Público-alvo: administradores de ti</p>
+                    <p>Defina a base para a distribuição de suas equipes. Identificar pré-requisitos de equipes, redes e práticas recomendadas de segurança, políticas de coexistência, análises e relatórios e recomendações de distribuição de clientes.</p><p>Audiência: Administradores de TI</p>
 </div>
                 </div>
             </div>
@@ -88,7 +88,7 @@ ms.locfileid: "37570207"
                     </div>
                     <div class="cardText">
                         <h3>Preparar seu ambiente-parte II</h3>
-                    <p>Agora que você tem a base em vigor, entenda as práticas recomendadas para implementar a conformidade, retenção, governança e videoconferências para o Microsoft Teams.</p><p>Público-alvo: administradores de ti</p>
+                    <p>Agora que você tem a base em vigor, entenda as práticas recomendadas para implementar a conformidade, retenção, governança e videoconferências para o Microsoft Teams.</p><p>Audiência: Administradores de TI</p>
                     </div>
                 </div>
             </div>
@@ -106,7 +106,7 @@ ms.locfileid: "37570207"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Pronto para seus usuários finais</h3>
+                        <h3>Preparar seus usuários finais</h3>
                     <p>Descubra estratégias e recursos para preparar seus usuários, criar um contingente de campeões e garantir a aceitação do usuário como componente principal da sua distribuição de equipes.</p><p>Audiência: adoção e alterações de proprietários</p>
                     </div>
                 </div>

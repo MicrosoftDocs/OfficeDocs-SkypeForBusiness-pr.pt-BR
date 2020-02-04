@@ -16,17 +16,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.NumberActivationStatePending
 ms.custom:
 - Calling Plans
 description: A validação de endereços é uma etapa importante da configuração de Planos de Chamadas no Office 365. Ela fornece ao usuário da organização um endereço de chamada de emergência que pode ser usado pelos serviços de resposta a emergências.
-ms.openlocfilehash: e849960fb09ecfe5739d05c9e0a3ba1040352a09
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 7e4d9faa9a58469c2be751a0cb724650f544d077
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793407"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705826"
 ---
 # <a name="why-is-number-activation-just-pending"></a>Por que a ativação do número está somente pendente?
 

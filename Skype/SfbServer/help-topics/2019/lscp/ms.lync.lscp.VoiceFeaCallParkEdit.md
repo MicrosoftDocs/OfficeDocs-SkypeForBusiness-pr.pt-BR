@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceFeaCallParkEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e834d485-d25a-4eec-9090-2b8534ecf65d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Os intervalos numéricos do parque da chamada definem os números temporários nos quais as chamadas estacionadas são mantidas até que alguém as recupere ou perca o tempo limite.
-ms.openlocfilehash: 7257327081be46f343ef8aeb6076ad9a788f46bb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5f32cccf70593ffe480cbcba028974cc1dc91046
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290167"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41703926"
 ---
 # <a name="call-park-create-new-or-edit-existing"></a>Estacionamento de Chamada: Criar Novo ou Editar Existente
 
@@ -40,7 +40,7 @@ A lista a seguir descreve os campos na página.
 
   - Se o intervalo de números começar com o \* caractere ou #, o intervalo deve ser maior que 100.
 
-  - Valores válidos: devem corresponder à cadeia de caracteres de expressão\\regular ([* | #] ? [1-{0,7}9] \d) | ([1-9] \d{0,8}). Isso significa que o valor deve ser uma cadeia de caracteres que comece \* com o caractere ou # ou um número de 1 a 9 (o primeiro caractere não pode ser zero). Se o primeiro caractere for \* ou #, o seguinte caractere deve ser um número de 1 a 9 (não pode ser zero). Os caracteres subsequentes podem ser qualquer número de 0 a 9 até sete caracteres adicionais (por exemplo, "#6000"\*, "92000"\*, "95551212" e "915551212"). Se o primeiro caractere não \* for ou #, o primeiro caractere deve ser um número de 1 a 9 (ele não pode ser zero), seguido de até oito caracteres, cada um dos números de 0 a 9 (por exemplo: 915551212; 41212; 300).
+  - Valores válidos: devem corresponder à cadeia de caracteres de expressão\\regular ([* | #]? [ 1-9] \d{0,7}) | ([1-9] \d{0,8}). Isso significa que o valor deve ser uma cadeia de caracteres que comece \* com o caractere ou # ou um número de 1 a 9 (o primeiro caractere não pode ser zero). Se o primeiro caractere for \* ou #, o seguinte caractere deve ser um número de 1 a 9 (não pode ser zero). Os caracteres subsequentes podem ser qualquer número de 0 a 9 até sete caracteres adicionais (por exemplo, "#6000"\*, "92000"\*, "95551212" e "915551212"). Se o primeiro caractere não \* for ou #, o primeiro caractere deve ser um número de 1 a 9 (ele não pode ser zero), seguido de até oito caracteres, cada um dos números de 0 a 9 (por exemplo: 915551212; 41212; 300).
 
   - No total, você não deve ter mais do que 50.000 números por pool. Cada intervalo de números envolve normalmente 100 ou menos números, mas pode ser muito maior, contanto que inclua menos de 10.000 números. Por exemplo, em vez de especificar um número inicial de "7000000" e um número final de "8000000", considere especificar um número inicial de"7000000" e um número final de"7000100".
 

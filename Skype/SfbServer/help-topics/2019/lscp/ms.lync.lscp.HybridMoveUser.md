@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.HybridMoveUser
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: be38b89c-3e8e-4d40-af49-fb650785d9a3
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use o assistente para mover usuários para mover as contas de usuário hospedadas em um pool local para que ela seja hospedada no Skype for Business online. Para mais informações, consulte Use the Hybrid Manageability wizard.
-ms.openlocfilehash: 0438809cc4f20dcdf6462e6a110685abfc7c8120
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 73dbf588106abecbfffea7c198759e0c2e20380f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279022"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41704886"
 ---
 # <a name="hybrid-wizard-move-user"></a>Assistente de implantação híbrida: Mover Usuário
 

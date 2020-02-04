@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.PersistentChatScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 35dfc16f-7190-4993-9d4a-e0262bf35166
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para começar a criação de um novo servidor de chat persistente ou pool de servidor de chat persistente, no construtor de topologia, clique com o botão direito do mouse em pools de chat persistente e selecione novo pool de chat persistente
-ms.openlocfilehash: 791e63e483d02cde436879a3f804a07333e5b6eb
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: a8ae9d26951fa60d3fd4d8ea83a803c059ec4d81
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418744"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41701736"
 ---
 # <a name="persistent-chat-scope-node"></a>Nó de Escopo de Chat Persistente
 

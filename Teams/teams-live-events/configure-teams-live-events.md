@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: Saiba como gerenciar as configurações de eventos dinâmicos do teams que são mantidas em sua organização.
-f1keywords: ms.teamsadmincenter.liveevents.settings
+f1.keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ad9d97c6d4dd6b7eb370bda026dbee3e33f2a32
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: f12432bb7932d7ab974f229344b5b5be51a1cb74
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952834"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708347"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurar eventos ao vivo no Microsoft Teams
 

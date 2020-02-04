@@ -11,7 +11,7 @@ description: Plano de ação de dez etapas acelerada para a atualização do Sky
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.widget.upgrade.opt-in
 - ms.teamsadmincenter.dashboard.widget.upgrade.opt-out
 - ms.teamsadmincenter.dashboard.widget.upgrade.scheduled
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 425ee7d6821a6765e03e2b9f0d9beaab61858bd4
-ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
+ms.openlocfilehash: b992c9870ef49847af3a82f3844f691584f97768
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37749279"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707707"
 ---
 # <a name="upgrade-basic"></a>Atualização básica
 
@@ -36,7 +36,7 @@ Projetado para pequenas organizações ou pessoas que usam o Skype for Business 
 Essas dez etapas fáceis fornecem tudo o que você precisa para uma atualização bem-sucedida. Elas foram projetadas para serem concluídas em cerca de 30 a 45 dias, mas você deve ajustar as datas de conclusão de tarefas com base no cronograma de atualização da sua organização.
 
 > [!IMPORTANT]
-> O Skype for Business online será desativado em 31 de julho de 2021. Depois disso, o serviço Skype for Business online não poderá mais ser acessado ou suportado. Para maximizar a concretização de benefícios e garantir que sua organização tenha tempo adequado para implementar a sua atualização, recomendamos que você comece sua jornada ao Microsoft Teams hoje mesmo.
+> O Skype for Business online será desativado em 31 de julho de 2021. Depois disso, o serviço Skype for Business online não poderá mais ser acessado ou suportado. Para maximizar a realização dos benefícios e garantir que sua organização tenha tempo adequado para implementar a atualização, recomendamos que você comece hoje sua jornada para o Microsoft Teams.
 
 O que acontece com o Skype for Business após a atualização? Depois que os usuários forem atualizados para o Microsoft Teams (modo**somente para equipes** ):
 

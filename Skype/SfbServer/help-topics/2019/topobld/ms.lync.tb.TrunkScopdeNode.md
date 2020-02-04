@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.TrunkScopdeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6561236d-fe30-451d-ac74-7545eb98267a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Você clica com o botão direito do mouse em um tronco SIP existente no construtor de topologias para executar o seguinte:'
-ms.openlocfilehash: d3af7b2fccb8e5d7cbf8ecd05406921c45b2cd61
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 83c09d6bdf12589b4c8f7a64c73523419e57b23a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303043"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41701426"
 ---
 # <a name="trunk-scope-node"></a>Nó de Escopo de Tronco
  

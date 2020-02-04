@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: 'Conferência é uma parte importante do Skype for Business Online: a conferência permite que grupos de usuários reúnam-se online para ver slides e vídeo, compartilhar aplicativos, trocar arquivos ou para comunicarem-se e colaborar.'
-ms.openlocfilehash: a30af18ea18251ff4cc099459083e7df23ba6378
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: ef7b764d674590ed07e461029110505446b09900
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962479"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706636"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>Configurar políticas de conferência para sua organização
 
