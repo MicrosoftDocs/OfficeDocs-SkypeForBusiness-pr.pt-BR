@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planejamento de URLs simples'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for simple URLs
 ms:assetid: 20e4f4b6-b7ff-4297-b00d-d1211ee800ac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398287(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183610
 ms.date: 12/12/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 17dbfce9f699f31e09bb66d6d596e0a3cbf0ba96
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 224ca0315aff2618500182398cfe792c9626b883
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824222"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41750461"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ O Lync Server oferece suporte a três URLs simples:
     
     Com a URL simples de reunião, os links para ingressar em reuniões são fáceis de compreender e fáceis de se comunicar e distribuir.
 
-  - **** A discagem permite o acesso à página da Web configurações de conferência discada. Esta página mostra os números de discagem de conferência com seus idiomas disponíveis, as informações de conferência atribuídas (para reuniões que não necessitam de agendamento), controles DTMF durante a conferência, suporte de gerenciamento do PIN (número de identificação pessoal) e informações atribuídas da conferência. A URL simples Dial-in é incluída em todos os convites de reunião para que os usuários que desejam discar para a reunião possam acessar o número de telefone e as informações de PIN necessárias. Um exemplo da URL simples de discagem é https://dialin.contoso.com.
+  - A **discagem** permite o acesso à página da Web configurações de conferência discada. Esta página mostra os números de discagem de conferência com seus idiomas disponíveis, as informações de conferência atribuídas (para reuniões que não necessitam de agendamento), controles DTMF durante a conferência, suporte de gerenciamento do PIN (número de identificação pessoal) e informações atribuídas da conferência. A URL simples Dial-in é incluída em todos os convites de reunião para que os usuários que desejam discar para a reunião possam acessar o número de telefone e as informações de PIN necessárias. Um exemplo da URL simples de discagem é https://dialin.contoso.com.
 
   - O **administrador** habilita o acesso rápido ao painel de controle do Lync Server. Em qualquer computador dentro dos firewalls da sua organização, um administrador pode abrir o painel de controle do Lync Server digitando a URL simples do administrador em um navegador. A URL simples de Admin é parte interna da sua organização. Um exemplo da URL simples de administrador éhttps://admin.contoso.com
 

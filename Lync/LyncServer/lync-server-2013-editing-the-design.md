@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Editando o design'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Editing the design
 ms:assetid: 08f639ba-0e5f-4ae7-9191-c3d96c25b169
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558608(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541445
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 601c313231a26341c3c4cf8a4897d11872dec9a2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dfce3bc4242140364005a9a981282ecb90a42d3b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829318"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739451"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ Após concluir as perguntas iniciais da entrevista, você poderá editar o nome 
 
 A ferramenta de planejamento exibe a topologia de site para o site selecionado. Na parte inferior da página do site, existem quatro guias:
 
-![Topologia do site da ferramenta de planejamento] (images/Gg558608.e6189c20-360a-42bd-ba90-11bdb5b7551b(OCS.15).jpg "Topologia do site da ferramenta de planejamento")
+![Topologia do site da ferramenta de planejamento](images/Gg558608.e6189c20-360a-42bd-ba90-11bdb5b7551b(OCS.15).jpg "Topologia do site da ferramenta de planejamento")
 
   - Topologia do site - A página exibida atualmente com uma visão geral visual da topologia, conforme recomendado.
 
@@ -47,7 +49,7 @@ A ferramenta de planejamento exibe a topologia de site para o site selecionado. 
 
   - Relatório de administração de borda - O Relatório de administração de borda contém um total de quatro relatórios:
     
-    ![Página de relatório de administração de borda] (images/Gg558608.0019cc5e-af39-4cb9-82ce-58f6388242ff(OCS.15).jpg "Página de relatório de administração de borda")  
+    ![Página de relatório de administração de borda](images/Gg558608.0019cc5e-af39-4cb9-82ce-58f6388242ff(OCS.15).jpg "Página de relatório de administração de borda")  
     
       - Relatório resumido - Um relatório geral de configurações para a configuração da Rede de borda. Se você editar os valores na página **Diagrama da rede de borda ** para a topologia TCP/IP e os valores do FQDN que irão ser usados na implantação atual, tais endereços e nomes serão representados aqui. De outro modo, o texto padrão aparecerá.
     

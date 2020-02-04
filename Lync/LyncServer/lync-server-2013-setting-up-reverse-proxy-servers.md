@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurando servidores de proxy reverso'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up reverse proxy servers
 ms:assetid: 00bc138a-243f-4389-bfa5-9c62fcc95132
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398069(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183225
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef13f2351ab74c0e3b2ba558a9dbf0aef43d71b5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fbc6e0aee918d08f47c6df88f91493cd62ae6a3b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844928"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764577"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34844928"
 
 _**Tópico da última modificação:** 2014-05-08_
 
-Para implantações do servidor de borda do Microsoft Lync Server 2013, é necessário um proxy reverso HTTPS na rede do perímetro para clientes externos acessarem os serviços da Web do Lync Server 2013 (chamados de *componentes da Web* no Office Communications Server) no diretor e o pool inicial do usuário. Alguns dos recursos que exigem acesso externo por meio de um proxy reverso incluem o seguinte:
+Para implantações do Microsoft Lync Server 2013 Edge Server, um proxy reverso HTTPS na rede de perímetro é necessário para clientes externos acessarem os serviços da Web do Lync Server 2013 (chamados de *componentes da Web* no Office Communications Server) no diretor e no pool de casa do usuário. Alguns dos recursos que exigem acesso externo por meio de um proxy reverso incluem o seguinte:
 
   - Permitir que usuários externos Baixem o conteúdo da reunião para suas reuniões.
 
@@ -100,13 +102,13 @@ Para implantar com êxito o 2010 do Forefront Threat Management Gateway como seu
 Para implantar com êxito o ARR do IIS como seu proxy reverso, examine os tópicos a seguir para configurar o hardware e o software de pré-requisito.
 
   - <span></span>  
-    Para instalar o IIS no Windows Server 2008 ou no Windows Server 2008 R2, confira instalando o [IIS 7 no Windows server 2008 ou Windows server 2008 R2](http://go.microsoft.com/fwlink/?linkid=291296)
+    Para instalar o IIS no Windows Server 2008 ou no Windows Server 2008 R2, confira [instalando o IIS 7 no Windows server 2008 ou Windows server 2008 R2](http://go.microsoft.com/fwlink/?linkid=291296)
 
   - <span></span>  
-    Para instalar o IIS no Windows Server 2012, confira instalando o [IIS 8 no Windows server 2012](http://go.microsoft.com/fwlink/?linkid=291297)
+    Para instalar o IIS no Windows Server 2012, confira [instalando o IIS 8 no Windows server 2012](http://go.microsoft.com/fwlink/?linkid=291297)
 
   - <span></span>  
-    Para instalar o IIS no Windows Server 2012 R2, confira instalando o [iis 8,5 no Windows server 2012 R2](http://go.microsoft.com/fwlink/?linkid=330687)
+    Para instalar o IIS no Windows Server 2012 R2, confira [instalando o iis 8,5 no Windows server 2012 R2](http://go.microsoft.com/fwlink/?linkid=330687)
 
   - <span></span>  
     Para baixar a extensão de roteamento de solicitação do aplicativo para o IIS, siga as instruções em [solicitação do aplicativo roteamento v 2.5 Download](http://go.microsoft.com/fwlink/?linkid=291298)

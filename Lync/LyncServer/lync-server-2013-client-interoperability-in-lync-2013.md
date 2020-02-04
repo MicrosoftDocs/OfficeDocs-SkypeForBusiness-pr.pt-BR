@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Interoperabilidade do Cliente no Lync 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Client interoperability in Lync 2013
 ms:assetid: 0f126571-91a2-45d5-855c-1e4ddb45fc04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204672(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183417
 ms.date: 03/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8ccc6239ffa0216e36839a7e58b510d8c8c3240
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b28d0de09a46a2be8b968e55c8f551e397da6ae8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836580"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756755"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -211,31 +213,31 @@ A tabela a seguir compara a disponibilidade de recursos em sessões ponto a pont
 <td><p>Sim</p></td>
 <td><p>Sim</p></td>
 <td><p>Sim</p></td>
-<td><p>Sim </p></td>
+<td><p>Sim</p></td>
 <td><p>Sim</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2013 Basic</p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
+<td><p>Sim</p></td>
+<td><p>Sim</p></td>
+<td><p>Sim</p></td>
+<td><p>Sim</p></td>
+<td><p>Sim</p></td>
 <td><p>Sim</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync 2010</p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
+<td><p>Sim</p></td>
+<td><p>Sim</p></td>
+<td><p>Sim</p></td>
+<td><p>Sim</p></td>
+<td><p>Sim</p></td>
 <td><p>Sim</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2010 Attendant</p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
+<td><p>Sim</p></td>
+<td><p>Sim</p></td>
 <td><p>Sim</p></td>
 <td></td>
 <td></td>
@@ -243,7 +245,7 @@ A tabela a seguir compara a disponibilidade de recursos em sessões ponto a pont
 </tr>
 <tr class="odd">
 <td><p>Lync 2010 Mobile</p></td>
-<td><p>Sim </p></td>
+<td><p>Sim</p></td>
 <td><p>Sim</p></td>
 <td></td>
 <td></td>
@@ -252,8 +254,8 @@ A tabela a seguir compara a disponibilidade de recursos em sessões ponto a pont
 </tr>
 <tr class="even">
 <td><p>Lync Phone Edition</p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
+<td><p>Sim</p></td>
+<td><p>Sim</p></td>
 <td><p>Sim</p></td>
 <td></td>
 <td></td>
@@ -261,16 +263,16 @@ A tabela a seguir compara a disponibilidade de recursos em sessões ponto a pont
 </tr>
 <tr class="odd">
 <td><p>Office Communicator 2007 R2</p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
 <td><p>Sim</p></td>
-<td><p>Yes1</p></td>
+<td><p>Sim</p></td>
+<td><p>Sim</p></td>
+<td><p>Sim</p></td>
+<td><p>Sim1</p></td>
 <td><p>Sim</p></td>
 </tr>
 <tr class="even">
 <td><p>MENSAGEM de chat pública (AOL, Yahoo!)</p></td>
-<td><p>Sim </p></td>
+<td><p>Sim</p></td>
 <td><p>Sim</p></td>
 <td></td>
 <td></td>
@@ -279,9 +281,9 @@ A tabela a seguir compara a disponibilidade de recursos em sessões ponto a pont
 </tr>
 <tr class="odd">
 <td><p>MENSAGEM de chat pública (MSN, Windows Live Messenger)</p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
+<td><p>Sim</p></td>
+<td><p>Sim</p></td>
+<td><p>Sim</p></td>
 <td><p>Sim</p></td>
 <td></td>
 <td></td>
@@ -373,33 +375,33 @@ Em reuniões do Lync Server 2013, determinados recursos de conferência têm sup
 <tbody>
 <tr class="odd">
 <td><p>Lync 2013</p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
+<td><p>Sim</p></td>
+<td><p>Sim</p></td>
+<td><p>Sim</p></td>
+<td><p>Sim</p></td>
+<td><p>Sim</p></td>
+<td><p>Sim</p></td>
+<td><p>Sim</p></td>
 <td><p>Sim</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2013 Basic</p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
+<td><p>Sim</p></td>
+<td><p>Sim</p></td>
+<td><p>Sim</p></td>
+<td><p>Sim</p></td>
+<td><p>Sim</p></td>
+<td><p>Sim</p></td>
+<td><p>Sim</p></td>
 <td><p>Sim</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync Web App</p></td>
-<td><p>Sim </p></td>
-<td><p>Sim </p></td>
 <td><p>Sim</p></td>
 <td><p>Sim</p></td>
-<td><p>Yes2</p></td>
+<td><p>Sim</p></td>
+<td><p>Sim</p></td>
+<td><p>Sim2</p></td>
 <td><p>Sim</p></td>
 <td><p>Sim</p></td>
 <td><p>Sim</p></td>
@@ -434,7 +436,7 @@ Em reuniões do Lync Server 2013, determinados recursos de conferência têm sup
 
 2 o Lync Server 2013 usa um mecanismo atualizado para carregar arquivos do PowerPoint. Os usuários do Lync Web App que ingressarem em uma reunião originalmente agendada no Lync Server 2010 podem exibir e navegar em apresentações do PowerPoint, mas não podem carregar arquivos do PowerPoint.
 
-3 se a reunião tiver sido agendada nos slides do Lync Server 2013 e do PowerPoint foram carregadas por um cliente do Lync 2013, os usuários do Lync 2010 terão acesso somente para exibição aos slides. Por outro lado, se os slides do PowerPoint foram carregados por um usuário do Lync 2010, os usuários do Lync Server 2013 poderão exibir e os slides e, se o Office Web Apps estiver configurado, acessar novos recursos, como exibição de resolução mais alta, animações, transições de slides e vídeo inserido. Para obter mais informações, consulte Configurando [a integração com o servidor do Office Web Apps e o Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
+3 se a reunião tiver sido agendada nos slides do Lync Server 2013 e do PowerPoint foram carregadas por um cliente do Lync 2013, os usuários do Lync 2010 terão acesso somente para exibição aos slides. Por outro lado, se os slides do PowerPoint foram carregados por um usuário do Lync 2010, os usuários do Lync Server 2013 poderão exibir e os slides e, se o Office Web Apps estiver configurado, acessar novos recursos, como exibição de resolução mais alta, animações, transições de slides e vídeo inserido. Para obter mais informações, consulte [Configurando a integração com o servidor do Office Web Apps e o Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
 
 os recursos de presença e de mensagem instantânea do 4The no Office Communicator 2007 R2 são compatíveis com o Lync Server 2013, mas os recursos de conferência não são. Durante a migração do Office Communications Server 2007 R2, o Office Communicator 2007 R2 é adequado para presença e interoperabilidade de mensagens instantâneas, mas os usuários devem usar o Lync Web App 2013 para ingressar em reuniões do Lync Server 2013.
 
@@ -448,7 +450,7 @@ os recursos de presença e de mensagem instantânea do 4The no Office Communicat
 
 O suporte do servidor para os vários suplementos de agendamento é consistente com a compatibilidade de versão do servidor e do cliente. Em geral, os seguintes suplementos de agendamento são suportados no Lync Server 2013. No entanto, as versões anteriores dos suplementos não fornecem novos recursos de suplemento do Lync 2013, como a opção de ativar o áudio e o vídeo dos participantes após a entrada da reunião.
 
-  - **O suplemento de reunião online para o Lync 2013**   oferece os mesmos recursos que o suplemento de reunião online do Lync 2010, com a adição de controles de desativação de participantes, que permitem que os organizadores da reunião agendem conferências com áudio e vídeo de participantes com mudo ativado assume. Os administradores também podem personalizar os convites para reunião da organização adicionando um logotipo personalizado, uma URL de suporte, uma URL de isenção de responsabilidade legal ou texto de rodapé personalizado.
+  - **O suplemento de reunião online para o Lync 2013**   oferece os mesmos recursos que o suplemento de reunião online para o Lync 2010, com a adição de controles de desativação de participantes, que permitem que os organizadores de reunião agendem conferências com áudio e vídeo de participantes com mudo ativado por padrão. Os administradores também podem personalizar os convites para reunião da organização adicionando um logotipo personalizado, uma URL de suporte, uma URL de isenção de responsabilidade legal ou texto de rodapé personalizado.
 
   - **O suplemento de reunião online para o Lync 2010**   fornece agendamento para reuniões do Lync e remove a funcionalidade de agendar conferências do Office Live Meeting.
 

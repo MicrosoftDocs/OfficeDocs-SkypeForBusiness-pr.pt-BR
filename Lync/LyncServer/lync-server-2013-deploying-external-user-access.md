@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Implantação de acesso do usuário externo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying external user access
 ms:assetid: d40c9574-c16b-4fe6-b848-21ae0b7e4f0e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398918(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e8522eac5ace72f615cc3cb7b9271981d1b84c1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ba083650b9a068d48e28bf8af0c51b4b25b5c227
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829552"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758035"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ A implantação de componentes de borda do Microsoft Lync Server 2013 possibilit
 
 
 > [!IMPORTANT]  
-> A instalação e a&nbsp;configuração do servidor de borda do Microsoft Lync Server 2013 podem ser um processo complexo que exija uma quantia potencialmente significativa de planejamento e coordenação com suas equipes internas, incluindo, mas não se limitando a – segurança, rede, considerações de firewall, sistema de nome de domínio (DNS), balanceador de carga e infraestrutura de chave pública (PKI). É altamente recomendável que você examine e use o processo de planejamento e a documentação fornecida antes de implantar seus componentes de acesso externo. Isso ajudará a limitar o número e a frequência de alterações não desejadas e problemas à medida que você passar pelo processo de implantação. Para obter informações sobre como planejar o acesso de usuários externos, consulte <A href="lync-server-2013-planning-for-external-user-access.md">planejar o acesso de usuários externos no Lync Server 2013</A>.
+> A instalação e a&nbsp;configuração do servidor de borda do Microsoft Lync Server 2013 podem ser um processo complexo que exija uma quantia potencialmente significativa de planejamento e coordenação com suas equipes internas, incluindo, entre outros, segurança, rede, firewall, sistema de nome de domínio (DNS), balanceamento de carga e considerações sobre a PKI (infraestrutura de chave pública). É altamente recomendável que você examine e use o processo de planejamento e a documentação fornecida antes de implantar seus componentes de acesso externo. Isso ajudará a limitar o número e a frequência de alterações não desejadas e problemas à medida que você passar pelo processo de implantação. Para obter informações sobre como planejar o acesso de usuários externos, consulte <A href="lync-server-2013-planning-for-external-user-access.md">planejar o acesso de usuários externos no Lync Server 2013</A>.
 
 
 
@@ -59,7 +61,7 @@ A implantação de componentes de borda do Microsoft Lync Server 2013 possibilit
 
   - [Criando uma topologia de borda e de diretor no Lync Server 2013](lync-server-2013-building-an-edge-and-director-topology.md)
 
-  - [Configurando o diretor no Lync Server 2013](lync-server-2013-setting-up-the-director.md) adicionais
+  - [Configurando o diretor no Lync Server 2013](lync-server-2013-setting-up-the-director.md) (opcional)
 
   - [Configurando os servidores de borda no Lync Server 2013](lync-server-2013-setting-up-edge-servers.md)
 

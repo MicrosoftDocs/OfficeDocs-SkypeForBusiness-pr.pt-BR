@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lista de verificação de implantação para monitoram
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment checklist for monitoring
 ms:assetid: 4e798370-277c-4391-84b4-13a972b45ca6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204874(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184080
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cbf14920ef0103f2d6e8aa6088a2c0b35e17654
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 71b7d69054df266139f3f13ca0ca53e1803f44b4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829497"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762709"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -70,7 +72,7 @@ Embora o monitoramento já esteja instalado e ativado em cada servidor front-end
 <td><p><strong>Habilitar a configuração de monitoramento apropriada</strong></p></td>
 <td><p>Habilite o monitoramento de registro de detalhes de chamadas (CDR) e/ou Quality of Experience (QoE) nos escopos global e/ou do site.</p></td>
 <td><p>Um usuário que seja membro do grupo RTCUniversalServerAdmins ou que tenha sido atribuído a uma função RBAC que fornece acesso aos cmdlets CsCdrConfiguration e CsQoEConfiguration.</p></td>
-<td><p>Configurando a <a href="lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md">gravação de detalhes da chamada e as configurações de qualidade de experiência no Lync Server 2013</a> no guia de operações</p></td>
+<td><p><a href="lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md">Configurando a gravação de detalhes da chamada e as configurações de qualidade de experiência no Lync Server 2013</a> no guia de operações</p></td>
 </tr>
 </tbody>
 </table>

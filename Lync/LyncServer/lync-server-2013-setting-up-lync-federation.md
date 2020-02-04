@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuração de federação do Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up Lync federation
 ms:assetid: 374ddc43-26f9-499d-be68-a5158adfa49c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204800(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe6dc0a2aeb39c86db54d21a2c4be5ff6c5be599
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7df0dd85bac0aa3053fb6a3496d6a13fa1f4a85e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844941"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764597"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34844941"
 
 _**Tópico da última modificação:** 2014-03-27_
 
-Se você já tiver implantado o servidor de borda ou servidores de borda, adicionar os recursos de cenários agrupados será encaminhado diretamente. Se você não configurou os servidores de borda, deve primeiro fazer isso. Para obter detalhes, consulte: [planejando o acesso de usuários externos no Lync server 2013](lync-server-2013-planning-for-external-user-access.md) na documentação de planejamento e implantando o [acesso de usuários externos no Lync Server 2013](lync-server-2013-deploying-external-user-access.md) na documentação de implantação.
+Se você já tiver implantado o servidor de borda ou servidores de borda, adicionar os recursos de cenários agrupados será encaminhado diretamente. Se você não configurou os servidores de borda, deve primeiro fazer isso. Para obter detalhes, consulte: [planejando o acesso de usuários externos no Lync server 2013](lync-server-2013-planning-for-external-user-access.md) na documentação de planejamento e [implantando o acesso de usuários externos no Lync Server 2013](lync-server-2013-deploying-external-user-access.md) na documentação de implantação.
 
 <div>
 
@@ -97,7 +99,7 @@ Se você já tiver implantado o servidor de borda ou servidores de borda, adicio
     <tbody>
     <tr class="odd">
     <td><p>Domínio de parceiro descoberto</p></td>
-    <td><p>Configure o registro SRV do formato sipfederationtls. _ TCP. &lt;nome&gt;de domínio externo em que o valor de porta do registro SRV é TCP 5061 e o <strong>host que oferece esse serviço</strong> é definido como SIP. &lt;nome&gt; do domínio externo – o FQDN do serviço de borda de acesso. Consulte <a href="lync-server-2013-configure-dns-for-edge-support.md">Configurar o DNS para suporte de borda no Lync Server 2013</a> para obter detalhes sobre como criar o registro SRV</p></td>
+    <td><p>Configure o registro SRV do formato _sipfederationtls. _tcp. &lt;nome&gt;de domínio externo em que o valor de porta do registro SRV é TCP 5061 e o <strong>host que oferece esse serviço</strong> é definido como SIP. &lt;nome&gt; do domínio externo – o FQDN do serviço de borda de acesso. Consulte <a href="lync-server-2013-configure-dns-for-edge-support.md">Configurar o DNS para suporte de borda no Lync Server 2013</a> para obter detalhes sobre como criar o registro SRV</p></td>
     <td><ul>
     <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Habilitar ou desabilitar federação e conectividade de IM pública no Lync Server 2013</a></p></li>
     <li><p><a href="lync-server-2013-enable-or-disable-discovery-of-federation-partners.md">Habilitar ou desabilitar descoberta de parceiros de federação no Lync Server 2013</a></p></li>
@@ -106,7 +108,7 @@ Se você já tiver implantado o servidor de borda ou servidores de borda, adicio
     </tr>
     <tr class="even">
     <td><p>Domínio de parceiro permitido</p></td>
-    <td><p>Configure o registro SRV do formato sipfederationtls. _ TCP. &lt;nome&gt;de domínio externo em que o valor de porta do registro SRV é TCP 5061 e o <strong>host que oferece esse serviço</strong> é definido como SIP. &lt;nome&gt; do domínio externo – o FQDN do serviço de borda de acesso. Consulte <a href="lync-server-2013-configure-dns-for-edge-support.md">Configurar o DNS para suporte de borda no Lync Server 2013</a> para obter detalhes sobre como criar o registro SRV</p></td>
+    <td><p>Configure o registro SRV do formato _sipfederationtls. _tcp. &lt;nome&gt;de domínio externo em que o valor de porta do registro SRV é TCP 5061 e o <strong>host que oferece esse serviço</strong> é definido como SIP. &lt;nome&gt; do domínio externo – o FQDN do serviço de borda de acesso. Consulte <a href="lync-server-2013-configure-dns-for-edge-support.md">Configurar o DNS para suporte de borda no Lync Server 2013</a> para obter detalhes sobre como criar o registro SRV</p></td>
     <td><ul>
     <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Habilitar ou desabilitar federação e conectividade de IM pública no Lync Server 2013</a></p></li>
     </ul></td>
@@ -151,7 +153,7 @@ Se você já tiver implantado o servidor de borda ou servidores de borda, adicio
 
 2.  Definir e configurar qualquer host DNS obrigatório (A ou AAAA para IPv6) e Registros SRV DNS
 
-3.  Defina e configure qualquer política usando o painel de controle do Lync Server ou usando o Shell de gerenciamento do Lync Server e os cmdlets apropriados. Para obter detalhes sobre os cmdlets do Shell de gerenciamento do Lync Server, consulte cmdlets de [acesso externo e Federação no Lync Server 2013](https://docs.microsoft.com/powershell/module/skype/)
+3.  Defina e configure qualquer política usando o painel de controle do Lync Server ou usando o Shell de gerenciamento do Lync Server e os cmdlets apropriados. Para obter detalhes sobre os cmdlets do Shell de gerenciamento do Lync Server, consulte [cmdlets de acesso externo e Federação no Lync Server 2013](https://docs.microsoft.com/powershell/module/skype/)
     
     <div>
     

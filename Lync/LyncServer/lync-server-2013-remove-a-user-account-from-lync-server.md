@@ -3,6 +3,8 @@ title: 'Lync Server 2013: remover uma conta de usuário do Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Remove a user account from Lync Server
 ms:assetid: 2f512aba-e358-45ae-af58-74312ee9c514
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688008(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733596
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9780e19fb608855d9c820285cc87582787ff896d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 97ee26fd15eb9df9174fd33cf9a45a6fe49411af
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823151"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746821"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +59,7 @@ Você pode usar o procedimento a seguir para remover uma conta de usuário adici
 
 3.  Na barra de navegação esquerda, clique em **Usuários**.
 
-4.  Na caixa **Pesquisar usuários** , digite toda ou a primeira parte do nome para exibição, nome, sobrenome, nome da conta do Gerenciador de contas de segurança (Sam), endereço SIP ou URI (Uniform Resource Identifier) da conta de usuário que você deseja desabilitar ou reabilitar, e, em seguida, clique em **Localizar**.
+4.  Na caixa **Pesquisar usuários** , digite toda ou a primeira parte do nome para exibição, nome, sobrenome, nome da conta do Gerenciador de contas de segurança (Sam), endereço SIP ou URI (Uniform Resource Identifier) da conta de usuário que você deseja desabilitar ou reabilitar e clique em **Localizar**.
 
 5.  Na tabela, clique na conta de usuário que você deseja remover.
 

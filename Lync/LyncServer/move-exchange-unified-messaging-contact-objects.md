@@ -3,6 +3,8 @@ title: Mover objetos de contato da Unificação de mensagens do Exchange
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Move Exchange Unified Messaging Contact objects
 ms:assetid: 35c7e987-41b5-4798-b617-3303f20e52e3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688022(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 946bf7221ab9f4c5a7111839bca25dabaad31d82
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d79354522675daaf221052579b0863899d1176ee
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844229"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756035"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34844229"
 
 _**Tópico da última modificação:** 2012-10-19_
 
-Para migrar os objetos de contato do atendedor automático (AA) e do usuário (SA) para a nova implantação do Lync Server 2013, primeiro mova os objetos da implantação herdada do Office Communications Server 2007 R2 para a nova implantação do Lync Server 2013 usando o ** Cmdlets Get-CsExUmContact** e **move-CsExUmContact** . No servidor Exchange, você executa o script **ExchUCUtil** do Windows PowerShell para fazer o seguinte para o pool do Lync recém implantado:
+Para migrar os objetos de contato do atendedor automático (AA) e do nome do assinante (SA) para a nova implantação do Lync Server 2013, primeiro mova os objetos da implantação herdada do Office Communications Server 2007 R2 para a nova implantação do Lync Server 2013 usando os cmdlets **Get-CsExUmContact** e **move-CsExUmContact** . No servidor Exchange, você executa o script **ExchUCUtil** do Windows PowerShell para fazer o seguinte para o pool do Lync recém implantado:
 
   - Adicione-o aos gateways IP de Unificação de mensagens.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: testar a configuração do nó do Inspetor'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing watcher node configuration
 ms:assetid: f9ecd85c-0ae9-4906-b786-6b002b5a77c6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn751537(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969667
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65d2c79de4f86e490244ef63948c263d8f387fc5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 920fc39d3800f83a2d40a613c391b2f0c93e4dac
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844597"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745261"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -104,9 +106,9 @@ A verificação de chaves do registro do nó do Inspetor criadas pela instalaç�
 
 A verificação das chaves do registro do nó do Inspetor criadas pela instalação do nó do inspetor está concluída. O tipo de autenticação detectado é Negotiate.
 
-Existência validada com êxito da credencial do usuário de teste SIP: Usuário1 @ atl-cs-001.litwareinc.com no repositório de gerenciamento de credenciais.
+Existência validada com êxito da Credential SIP do usuário de teste: user1@ atl-cs-001.litwareinc.com no repositório de gerenciamento de credenciais.
 
-Existência validada com êxito da credencial do usuário de teste SIP: user2 @ atl-cs-001.litwareinc.com no repositório de gerenciamento de credenciais.
+Existência validada com êxito da Credential SIP do usuário de teste: user2@ atl-cs-001.litwareinc.com no repositório de gerenciamento de credenciais.
 
 A verificação de pools ausentes na configuração do nó do Inspetor é iniciada. Se for detectado algum erro, ele será impresso.
 

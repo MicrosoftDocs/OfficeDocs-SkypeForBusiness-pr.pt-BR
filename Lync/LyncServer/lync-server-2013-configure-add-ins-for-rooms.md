@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar suplementos para salas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure add-ins for rooms
 ms:assetid: 4eeaf19e-8369-4f6f-af65-a283cf7daa1c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204878(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184090
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0eb6525f67f22e09c4bf7ea40f575b3981e9a55c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8389f72394be26057eb12560c054bd5292b528f1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836441"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757855"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +53,7 @@ Os suplementos são usados para estender a experiência na sala. Um suplemento t
     
 
     > [!IMPORTANT]  
-    > Você também pode usar cmdlets do Windows PowerShell. Para obter detalhes, consulte Configurando o <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">servidor de chat persistente usando cmdlets do Windows PowerShell</A> na documentação de implantação.
+    > Você também pode usar cmdlets do Windows PowerShell. Para obter detalhes, consulte <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configurando o servidor de chat persistente usando cmdlets do Windows PowerShell</A> na documentação de implantação.
 
     
     </div>
