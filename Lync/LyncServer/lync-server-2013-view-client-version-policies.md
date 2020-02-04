@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Exibir políticas de versão do cliente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View client version policies
 ms:assetid: 6cd9a897-c694-4d6a-8259-2d3c01fce275
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ898479(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 50873759
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d90b3a40b03ce44201963b1276ee18a2fd9ac3d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 13f9fa62b16390c490a0ab555559a7895cdce93e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844406"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757475"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34844406"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-client-version-policies-in-lync-server-2013"></a><span data-ttu-id="935c6-102">Exibir as políticas de versão do cliente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="935c6-102">View client version policies in Lync Server 2013</span></span>
+# <a name="view-client-version-policies-in-lync-server-2013"></a><span data-ttu-id="092c9-102">Exibir as políticas de versão do cliente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="092c9-102">View client version policies in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,39 +35,39 @@ ms.locfileid: "34844406"
 
 <span> </span>
 
-<span data-ttu-id="935c6-103">_**Tópico da última modificação:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="935c6-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="092c9-103">_**Tópico da última modificação:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="092c9-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="935c6-104">As políticas de versão do cliente são usadas para aplicar um conjunto de regras de controle de versão do cliente globalmente ou para um determinado site, pool ou grupo de usuários.</span><span class="sxs-lookup"><span data-stu-id="935c6-104">Client version policies are used to apply a set of client versioning rules globally or to a particular site, pool, or group of users.</span></span> <span data-ttu-id="935c6-105">Você pode exibir as políticas de versão do cliente que foram configuradas no seu ambiente do Lync Server 2013 no painel de controle do Lync Server 2013 ou no Shell de gerenciamento do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="935c6-105">You can view the client version policies that have been configured in your Lync Server 2013 environment from Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
+<span data-ttu-id="092c9-104">As políticas de versão do cliente são usadas para aplicar um conjunto de regras de controle de versão do cliente globalmente ou para um determinado site, pool ou grupo de usuários.</span><span class="sxs-lookup"><span data-stu-id="092c9-104">Client version policies are used to apply a set of client versioning rules globally or to a particular site, pool, or group of users.</span></span> <span data-ttu-id="092c9-105">Você pode exibir as políticas de versão do cliente que foram configuradas no seu ambiente do Lync Server 2013 no painel de controle do Lync Server 2013 ou no Shell de gerenciamento do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="092c9-105">You can view the client version policies that have been configured in your Lync Server 2013 environment from Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
 
 <div>
 
-## <a name="to-view-client-version-policies-by-using-lync-server-control-panel"></a><span data-ttu-id="935c6-106">Para exibir as políticas de versão do cliente usando o painel de controle do Lync Server</span><span class="sxs-lookup"><span data-stu-id="935c6-106">To view client version policies by using Lync Server Control Panel</span></span>
+## <a name="to-view-client-version-policies-by-using-lync-server-control-panel"></a><span data-ttu-id="092c9-106">Para exibir as políticas de versão do cliente usando o painel de controle do Lync Server</span><span class="sxs-lookup"><span data-stu-id="092c9-106">To view client version policies by using Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="935c6-107">Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.</span><span class="sxs-lookup"><span data-stu-id="935c6-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="092c9-107">Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.</span><span class="sxs-lookup"><span data-stu-id="092c9-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="935c6-108">Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="935c6-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="935c6-109">Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="935c6-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="092c9-108">Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="092c9-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="092c9-109">Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="092c9-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="935c6-110">Na barra de navegação à esquerda, clique em **clientes**e, em seguida, clique no botão navegação na **política de versão do cliente** .</span><span class="sxs-lookup"><span data-stu-id="935c6-110">In the left navigation bar, click **Clients**, and then click the **Client Version Policy** navigation button.</span></span>
+3.  <span data-ttu-id="092c9-110">Na barra de navegação à esquerda, clique em **clientes**e, em seguida, clique no botão navegação na **política de versão do cliente** .</span><span class="sxs-lookup"><span data-stu-id="092c9-110">In the left navigation bar, click **Clients**, and then click the **Client Version Policy** navigation button.</span></span>
 
-4.  <span data-ttu-id="935c6-111">Se você quiser exibir as regras para uma política de versão do cliente, na página **política de versão do cliente** , clique duas vezes na política que deseja exibir.</span><span class="sxs-lookup"><span data-stu-id="935c6-111">If you want to view the rules for a client version policy, on the **Client Version Policy** page, double-click the policy you want to view.</span></span>
+4.  <span data-ttu-id="092c9-111">Se você quiser exibir as regras para uma política de versão do cliente, na página **política de versão do cliente** , clique duas vezes na política que deseja exibir.</span><span class="sxs-lookup"><span data-stu-id="092c9-111">If you want to view the rules for a client version policy, on the **Client Version Policy** page, double-click the policy you want to view.</span></span>
 
 </div>
 
 <div>
 
-## <a name="viewing-client-version-policies-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="935c6-112">Exibindo as políticas de versão do cliente usando cmdlets do Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="935c6-112">Viewing Client Version Policies by Using Windows PowerShell Cmdlets</span></span>
+## <a name="viewing-client-version-policies-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="092c9-112">Exibindo as políticas de versão do cliente usando cmdlets do Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="092c9-112">Viewing Client Version Policies by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="935c6-113">Você pode exibir as políticas de versão do cliente usando o cmdlet **Get-CsClientVersionPolicy** .</span><span class="sxs-lookup"><span data-stu-id="935c6-113">You can view client version policies by using the **Get-CsClientVersionPolicy** cmdlet.</span></span> <span data-ttu-id="935c6-114">Esse cmdlet pode ser executado no Shell de gerenciamento do Lync Server 2013 ou em uma sessão remota do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="935c6-114">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="935c6-115">Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.</span><span class="sxs-lookup"><span data-stu-id="935c6-115">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="092c9-113">Você pode exibir as políticas de versão do cliente usando o cmdlet **Get-CsClientVersionPolicy** .</span><span class="sxs-lookup"><span data-stu-id="092c9-113">You can view client version policies by using the **Get-CsClientVersionPolicy** cmdlet.</span></span> <span data-ttu-id="092c9-114">Esse cmdlet pode ser executado no Shell de gerenciamento do Lync Server 2013 ou em uma sessão remota do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="092c9-114">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="092c9-115">Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.</span><span class="sxs-lookup"><span data-stu-id="092c9-115">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-view-client-version-policies"></a><span data-ttu-id="935c6-116">Para exibir as políticas de versão do cliente</span><span class="sxs-lookup"><span data-stu-id="935c6-116">To view client version policies</span></span>
+## <a name="to-view-client-version-policies"></a><span data-ttu-id="092c9-116">Para exibir as políticas de versão do cliente</span><span class="sxs-lookup"><span data-stu-id="092c9-116">To view client version policies</span></span>
 
-  - <span data-ttu-id="935c6-117">Para ver as informações sobre todas as políticas de versão do cliente, digite o seguinte comando no Shell de gerenciamento do Lync Server e pressione ENTER:</span><span class="sxs-lookup"><span data-stu-id="935c6-117">To view information about all your client version policies, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
+  - <span data-ttu-id="092c9-117">Para ver as informações sobre todas as políticas de versão do cliente, digite o seguinte comando no Shell de gerenciamento do Lync Server e pressione ENTER:</span><span class="sxs-lookup"><span data-stu-id="092c9-117">To view information about all your client version policies, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
     
         Get-CsClientVersionPolicy
     
-    <span data-ttu-id="935c6-118">Isso retornará informações parecidas com:</span><span class="sxs-lookup"><span data-stu-id="935c6-118">That will return information similar to this:</span></span>
+    <span data-ttu-id="092c9-118">Isso retornará informações parecidas com:</span><span class="sxs-lookup"><span data-stu-id="092c9-118">That will return information similar to this:</span></span>
     
         Identity    : Global
         Rules       : {RuleId=2336c611-a243-4c5d-994b-eea8a524d0e4;
@@ -89,7 +91,7 @@ ms.locfileid: "34844406"
 
 </div>
 
-<span data-ttu-id="935c6-119">Para obter detalhes, consulte o tópico da ajuda para o cmdlet [Get-CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionPolicy) .</span><span class="sxs-lookup"><span data-stu-id="935c6-119">For details, see the Help topic for the [Get-CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionPolicy) cmdlet.</span></span>
+<span data-ttu-id="092c9-119">Para obter detalhes, consulte o tópico da ajuda para o cmdlet [Get-CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionPolicy) .</span><span class="sxs-lookup"><span data-stu-id="092c9-119">For details, see the Help topic for the [Get-CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionPolicy) cmdlet.</span></span>
 
 </div>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: cmdlets de regras de normalização de voz'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Voice normalization rules cmdlets
 ms:assetid: 8d500ccb-318b-4bb3-87fe-63bff4d8d436
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415662(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72574e59c51ae623629596bfef46da371072bbc2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d0ea2374d334a617d7824a073e62f557e6ca9916
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844336"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757185"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34844336"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="voice-normalization-rules-cmdlets-in-lync-server-2013"></a><span data-ttu-id="51358-102">Cmdlets de regras de normalização de voz no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="51358-102">Voice normalization rules cmdlets in Lync Server 2013</span></span>
+# <a name="voice-normalization-rules-cmdlets-in-lync-server-2013"></a><span data-ttu-id="71469-102">Cmdlets de regras de normalização de voz no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="71469-102">Voice normalization rules cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,49 +35,49 @@ ms.locfileid: "34844336"
 
 <span> </span>
 
-<span data-ttu-id="51358-103">_**Tópico da última modificação:** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="51358-103">_**Topic Last Modified:** 2012-06-20_</span></span>
+<span data-ttu-id="71469-103">_**Tópico da última modificação:** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="71469-103">_**Topic Last Modified:** 2012-06-20_</span></span>
 
-<span data-ttu-id="51358-104">As regras de normalização de voz são usadas para converter um requisito de discagem telefônica (por exemplo, discar 9 para acessar uma linha externa) para o formato de número de telefone E. 164 usado pelo Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="51358-104">Voice normalization rules are used to convert a telephone dialing requirement (for example, dialing 9 to access an outside line) to the E.164 phone number format used by Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="71469-104">As regras de normalização de voz são usadas para converter um requisito de discagem telefônica (por exemplo, discar 9 para acessar uma linha externa) para o formato de número de telefone E. 164 usado pelo Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="71469-104">Voice normalization rules are used to convert a telephone dialing requirement (for example, dialing 9 to access an outside line) to the E.164 phone number format used by Microsoft Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="voice-normalization-rules-cmdlets"></a><span data-ttu-id="51358-105">Cmdlets de regras de normalização de voz</span><span class="sxs-lookup"><span data-stu-id="51358-105">Voice Normalization Rules Cmdlets</span></span>
+## <a name="voice-normalization-rules-cmdlets"></a><span data-ttu-id="71469-105">Cmdlets de regras de normalização de voz</span><span class="sxs-lookup"><span data-stu-id="71469-105">Voice Normalization Rules Cmdlets</span></span>
 
-<span data-ttu-id="51358-106">Os cmdlets a seguir podem ser usados para gerenciar regras de normalização de voz.</span><span class="sxs-lookup"><span data-stu-id="51358-106">The following cmdlets can be used to manage voice normalization rules.</span></span>
+<span data-ttu-id="71469-106">Os cmdlets a seguir podem ser usados para gerenciar regras de normalização de voz.</span><span class="sxs-lookup"><span data-stu-id="71469-106">The following cmdlets can be used to manage voice normalization rules.</span></span>
 
-<span data-ttu-id="51358-107">**Regras de normalização de voz**</span><span class="sxs-lookup"><span data-stu-id="51358-107">**Voice Normalization Rules**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="51358-108">[Get-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398393(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="51358-108">[Get-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398393(v=OCS.15))</span></span>
+<span data-ttu-id="71469-107">**Regras de normalização de voz**</span><span class="sxs-lookup"><span data-stu-id="71469-107">**Voice Normalization Rules**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="51358-109">[New-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398240(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="51358-109">[New-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398240(v=OCS.15))</span></span>
+    <span data-ttu-id="71469-108">[Get-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398393(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="71469-108">[Get-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398393(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="51358-110">[Remove-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398501(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="51358-110">[Remove-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398501(v=OCS.15))</span></span>
+    <span data-ttu-id="71469-109">[New-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398240(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="71469-109">[New-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398240(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="51358-111">[Set-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398491(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="51358-111">[Set-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398491(v=OCS.15))</span></span>
+    <span data-ttu-id="71469-110">[Remove-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398501(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="71469-110">[Remove-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398501(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="51358-112">[Test-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg399003(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="51358-112">[Test-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg399003(v=OCS.15))</span></span>
+    <span data-ttu-id="71469-111">[Set-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398491(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="71469-111">[Set-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg398491(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="71469-112">[Test-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg399003(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="71469-112">[Test-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg399003(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="51358-113">[New-CsVoiceRegex](https://technet.microsoft.com/en-us/library/Gg412751(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="51358-113">[New-CsVoiceRegex](https://technet.microsoft.com/en-us/library/Gg412751(v=OCS.15))</span></span>
+    <span data-ttu-id="71469-113">[New-CsVoiceRegex](https://technet.microsoft.com/en-us/library/Gg412751(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="71469-113">[New-CsVoiceRegex](https://technet.microsoft.com/en-us/library/Gg412751(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="51358-114">Confira também</span><span class="sxs-lookup"><span data-stu-id="51358-114">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="71469-114">Confira também</span><span class="sxs-lookup"><span data-stu-id="71469-114">See Also</span></span>
 
 
-[<span data-ttu-id="51358-115">Cmdlets do Enterprise Voice no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="51358-115">Enterprise Voice cmdlets in Lync Server 2013</span></span>](lync-server-2013-enterprise-voice-cmdlets.md)  
+[<span data-ttu-id="71469-115">Cmdlets do Enterprise Voice no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="71469-115">Enterprise Voice cmdlets in Lync Server 2013</span></span>](lync-server-2013-enterprise-voice-cmdlets.md)  
 
 
-[<span data-ttu-id="51358-116">Blog do PowerShell do Lync Server</span><span class="sxs-lookup"><span data-stu-id="51358-116">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="71469-116">Blog do PowerShell do Lync Server</span><span class="sxs-lookup"><span data-stu-id="71469-116">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>
