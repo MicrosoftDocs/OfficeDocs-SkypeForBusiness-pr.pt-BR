@@ -16,21 +16,21 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.NumberActivationStateIncomplete
 ms.custom:
 - Calling Plans
 description: A validação de endereços é uma etapa importante da configuração de Planos de Chamadas no Office 365. Ela fornece ao usuário da organização um endereço de chamada de emergência que pode ser usado pelos serviços de resposta a emergências.
-ms.openlocfilehash: 48a0d06241af18b1d36d9bc23293f2a2cd3de004
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 0fd510ecd3d465407668f47dbc233d51b35a5735
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793380"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692266"
 ---
 # <a name="why-is-number-activation-listed-as-incomplete"></a>Por que a ativação do número está listada como incompleta?
 
-A validação de endereços é uma etapa importante da configuração de Planos de Chamadas no Office 365. Se, por algum motivo, um número de telefone não estiver ativado **** e estiver listado como incompleto, devido à validação do endereço, você precisará criar e enviar uma solicitação de serviço. A maneira de fazer isso depende do tamanho da sua organização.
+A validação de endereços é uma etapa importante da configuração de Planos de Chamadas no Office 365. Se, por algum motivo, um número de telefone não estiver ativado e estiver listado como **incompleto** , devido à validação do endereço, você precisará criar e enviar uma solicitação de serviço. A maneira de fazer isso depende do tamanho da sua organização.
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Para organizações com 150 usuários ou menos, siga estas etapas
 1. No centro de administração, escolha **precisa de ajuda**?

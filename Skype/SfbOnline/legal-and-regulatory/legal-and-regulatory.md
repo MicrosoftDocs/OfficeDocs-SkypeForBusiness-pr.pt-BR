@@ -15,15 +15,16 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 description: 'Esse conteúdo deve ser publicado para atender aos requisitos de acessibilidade, conformidade e regulamentação do Skype for Business Online na França. '
-ms.openlocfilehash: 1ee076a9890dd7aa66b3e1ff1d89c3f5c9d6e10c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b2b8654783c1a3484fad80dd14b57d911b1691dc
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301220"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693096"
 ---
 # <a name="legal-and-regulatory"></a>Jurídico e regulatório

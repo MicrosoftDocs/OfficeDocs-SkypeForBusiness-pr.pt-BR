@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.MonArchPolicyMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
 description: 'Você usa políticas de arquivamento para habilitar e desabilitar o arquivamento para usuários hospedados no Skype for Business Server. Em cada política de Arquivamento, é possível habilitar ou desabilitar o arquivamento para uma das seguintes opções, ou para ambas:'
-ms.openlocfilehash: b397f0519acc9f16659018eb974fe4d61e42d40c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c0bd80dcbe2c140d861829ff5bd1476d070423ba
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299824"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687014"
 ---
 # <a name="archiving-policy"></a>Política de Arquivamento
  
@@ -64,7 +64,7 @@ A página  **Política de Arquivamento** lista cada política de Arquivamento co
     
   - **Desabilitar arquivamento de comunicações externas**
     
-- **Atualização** Você pode atualizar a página de **política** de arquivamento para verificar o status das opções de todas as políticas de arquivamento.
+- **Atualização** Você pode atualizar a página de **política de arquivamento** para verificar o status das opções de todas as políticas de arquivamento.
     
-Para obter detalhes sobre o recurso de arquivamento e os recursos, incluindo a integração com o Exchange, consulte [planejar o arquivamento no Skype for Business server 2015](../../plan-your-deployment/archiving/archiving.md), [implantar o arquivamento para o Skype for Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)e [gerenciar o arquivamento no Skype para Business Server 2015](../../manage/archiving/archiving.md).
+Para obter detalhes sobre o recurso de arquivamento e os recursos, incluindo a integração com o Exchange, consulte [planejar o arquivamento no Skype for Business server 2015](../../plan-your-deployment/archiving/archiving.md), [implantar o arquivamento para o Skype for Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)e [gerenciar o arquivamento no Skype for Business Server 2015](../../manage/archiving/archiving.md).
 

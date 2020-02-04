@@ -16,17 +16,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.PortOrderQuickViewPanelTransferAccepted
 ms.custom:
 - Calling Plans
 description: 'What it means when your port order has been accepted, and what you need to do next to finish your Skype for Business set up. '
-ms.openlocfilehash: 073c84781e2345f3a4fb2c00515153679678c84f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 18e568e226f62b4704ee3a392eacf54a31950c71
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290524"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692256"
 ---
 # <a name="your-port-order-was-accepted"></a>Seu pedido de portabilidade foi aceito
 
@@ -36,7 +36,7 @@ Seu pedido de portabilidade está aprovado! Procure os números de telefone nos*
   
 Agora que ele está aprovado e seus números de telefone estão prontos, você precisará fazer algumas coisas para configurar tudo.
   
-- Certifique-se de [Licenciamento do complemento Skype for Business e do Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md). Você precisará de um **sistema telefônico** e um **plano** de chamadas domésticas ou chamadas **internacionais**.
+- Certifique-se de [Licenciamento do complemento Skype for Business e do Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md). Você precisará de um **sistema telefônico** e um plano de chamadas **domésticas** ou chamadas **internacionais**.
     
 - Criar [ou remover um endereço de emergência de sua organização](add-or-remove-an-emergency-address-for-your-organization.md) e, se quiser,[Adicionar, alterar ou remover um local de emergência para sua organização](add-change-or-remove-an-emergency-location-for-your-organization.md) (em alguns países/regiões, você recebe um endereço de emergência com o número de telefone).
     

@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ConfMeetingPolicyEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 ROBOTS: NOINDEX, NOFOLLOW
 description: A política de conferência define os recursos e capacidades disponíveis aos usuários durante uma conferência (também conhecida como reunião).
-ms.openlocfilehash: 137802662241c4348f65ddb33e96d59a6c42a286
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0a82ba29db52affab2371d6ce880c120487396c6
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300249"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691386"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>Política de Conferência: Criar Nova ou Editar Existente
 
@@ -37,7 +37,7 @@ A lista a seguir descreve os campos na página.
 
 - **Descrição** Este campo é opcional. Use-o para fornecer detalhes adicionais sobre a política de conferência.
 
-- **Política** do organizador As configurações nesta seção se aplicam ao usuário que organiza uma conferência. Se uma configuração for selecionada, o usuário poderá organizar uma conferência que tenha a característica especificada. Se uma configuração não for selecionada, o usuário não poderá organizar uma conferência com essa característica. Essa configurações não determinam a que o usuário tem acesso como participante de outras conferências.
+- **Política do organizador** As configurações nesta seção se aplicam ao usuário que organiza uma conferência. Se uma configuração for selecionada, o usuário poderá organizar uma conferência que tenha a característica especificada. Se uma configuração não for selecionada, o usuário não poderá organizar uma conferência com essa característica. Essa configurações não determinam a que o usuário tem acesso como participante de outras conferências.
 
     Clique na seta para cima ou para baixo ao lado do rótulo para fechar ou abrir a seção.
 

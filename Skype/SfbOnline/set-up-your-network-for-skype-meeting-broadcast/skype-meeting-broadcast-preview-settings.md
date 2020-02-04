@@ -15,17 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.BroadcastMeetingsPreview
 ms.custom:
 - SMB
 description: O programa de visualização do cliente do Skype for Business oferece acesso antecipado a novos produtos e recursos. Ele permite que sua organização tenha uma espiação do que está chegando, testar os novos recursos em seu próprio ambiente e enviar comentários antes de lançarmos compilações de produtos para o público em geral. Para saber mais, confira visualização do Skype for Business.
-ms.openlocfilehash: d26d6a6e24f803342bed9d1d1c2acb31884e19f0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 16cfbfd05c5d1e54ba9613e088c99f7eece4f67a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301274"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692556"
 ---
 # <a name="skype-meeting-broadcast-preview-settings"></a>Configurações de visualização da transmissão de reunião do Skype
 

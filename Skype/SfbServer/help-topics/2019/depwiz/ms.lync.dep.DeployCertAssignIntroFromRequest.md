@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployCertAssignIntroFromRequest
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5cd7cab0-1826-4d7f-aca6-d30054d2a9ae
 ROBOTS: NOINDEX, NOFOLLOW
 description: A página Atribuição de Certificado inicie o processo de atribuição de um certificado para os usos solicitados no servidor de função. Clique em Exibir Detalhes do Certificado para exibir o certificado. Você pode selecionar a guia geral, a guia detalhes ou a guia caminho de certificação. A guia Geral exibirá informações básicas sobre o certificado, como a autoridade de certificação emitente e o status de uma chave privada. A guia Detalhes exibirá informações de certificado como o nome da entidade, nomes alternativos de entidade e outros detalhes. A guia caminho de certificação exibirá a CertificateChain de trustfrom o certificado por meio de qualquer autoridade de certificação de emissão ou intermediária (se estiverem presentes) para a autoridade de certificação raiz.
-ms.openlocfilehash: 5b9163a078c5666a986ee80004d77113881df8b9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6f906172e832336edc2f09e3269a04ff6c7f1ce2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275556"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692186"
 ---
 # <a name="certificate-assignment-from-request"></a>Atribuição de Certificado (da solicitação)
  

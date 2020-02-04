@@ -13,17 +13,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: None
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: Como gasto para uma conta de retransmissão de IP para o Canadá.
-ms.openlocfilehash: a0d87822874f9a26f9778adbe9b9a9d6ca7edf5b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9dda43f5489b63918142aff4c2c111f4471b958b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304118"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693106"
 ---
 # <a name="ip-relay-in-canada---sign-up"></a>IP Relay no Canadá - Criar conta
 
@@ -31,12 +32,12 @@ Para obter uma configuração de conta de retransmissão de IP para o Canadá, p
 
 |||
 |:-----|:-----|
-|Primeiro sobrenome de &:||
+|Primeiro & sobrenome:||
 |Nome de domínio do locatário do Office 365: <br/>(Exemplo: Contoso.com)||
 |Número de telefone do usuário do Office 365: <br/>Exemplo: + 1 XXX XXX XXXX) ||
 |Senha (de 8 a 16 caracteres): ||
 |Endereço físico mais provável <br/>no momento de uma emergência:||
-|Nome da & do número da rua:||
+|Nome do número da rua &:||
 |Apartamento/pacote:||
 |York||
 |Província/estado:||

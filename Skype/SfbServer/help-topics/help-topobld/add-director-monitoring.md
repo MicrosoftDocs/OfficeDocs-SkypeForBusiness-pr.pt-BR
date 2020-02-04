@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddDirectorMonitoringPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
 description: 'Você pode definir o monitoramento do SQL Server Store configurando as seguintes propriedades:'
-ms.openlocfilehash: b5b6ace37923cb5fcba48975e572f1c6717510a9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0895e5b2e9410d3632c767672f8b54f2732771f5
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304790"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685324"
 ---
 # <a name="add-director-monitoring"></a>Adicionar Monitoramento de Diretor
  
@@ -28,13 +28,13 @@ Você pode **definir o monitoramento do SQL Server Store** configurando as segui
     
     Clique em **novo** para criar uma nova definição de FQDN do SQL Server e, opcionalmente, um nome de instância para a loja do servidor de monitoramento.
     
-- Marque a caixa de seleção Habilitar o espelhamento da **loja do SQL Server** se desejar adicionar o espelhamento de banco de dados para o servidor de monitoramento.
+- Marque a caixa de seleção **habilitar o espelhamento da loja do SQL Server** se desejar adicionar o espelhamento de banco de dados para o servidor de monitoramento.
     
     Selecione um espelho existente do **SQL Server Store de monitoramento** na lista.
     
     Clique em **novo** para criar uma nova definição de FQDN do SQL Server e, opcionalmente, um nome de instância para o armazenamento de espelho.
     
-- Se você selecionou habilitar o espelhamento da **loja do SQL Server**, selecione usar a testemunha de espelhamento do **SQL Server para habilitar o failover automático** para selecionar um repositório de testemunha de espelhamento do SQL Server na lista.
+- Se você selecionou **habilitar o espelhamento da loja do SQL Server**, selecione **usar a testemunha de espelhamento do SQL Server para habilitar o failover automático** para selecionar um repositório de testemunha de espelhamento do SQL Server na lista.
     
     Clique em **novo** para criar uma nova definição de FQDN do SQL Server e, opcionalmente, um nome de instância para o armazenamento de testemunha de espelhamento.
     

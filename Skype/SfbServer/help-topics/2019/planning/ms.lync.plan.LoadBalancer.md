@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.LoadBalancer
 - ms.lync.plan.LoadBalancer
 ms.prod: skype-for-business-itpro
@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Se você tiver pools de front-end, pools de diretor ou pools de servidores de borda, será necessário implantar o balanceamento de carga para esses pools. O balanceamento de carga distribui o tráfego entre os servidores em um pool. Para detalhes, consulte:'
-ms.openlocfilehash: 62958efcb528995e9c7349f6b40baa82ab184707
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 94b6082205deea4d2c64c2aa167e3c3131eec3fd
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281570"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41689796"
 ---
 # <a name="load-balancer-planning-tool"></a>Load Balancer (Planning Tool)
  

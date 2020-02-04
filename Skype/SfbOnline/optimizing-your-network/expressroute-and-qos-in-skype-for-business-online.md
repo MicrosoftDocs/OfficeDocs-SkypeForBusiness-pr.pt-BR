@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Optimization
 description: 'Learn about using Azure ExpressRoute to have a network with bandwidth requirements and Quality of Service capability for a business class user experience. '
-ms.openlocfilehash: e42cf42caafbb5ecd43b3660608a23d20cf8814e
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: f638a154e379d065d355010160bf8dff0ecc1b78
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221243"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693076"
 ---
 # <a name="expressroute-and-qos-in-skype-for-business-online"></a>ExpressRoute e QoS no Skype for Business Online
 
@@ -168,7 +169,7 @@ Depois de especificar as configurações de cada persona, será preciso inserir 
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Sede  <br/> |1070  <br/> |1  <br/> |Executivos/Parceiros  <br/> |170  <br/> |Associados/Assistentes jurídicos  <br/> |700  <br/> |Administradores de TI  <br/> |200  <br/> |
 |Escritórios regionais  <br/> |345  <br/> |3  <br/> |Executivos/Parceiros  <br/> |60  <br/> |Associados/Assistentes jurídicos  <br/> |225  <br/> |Administradores de TI  <br/> |60  <br/> |
-|Filiais grandes  <br/> |70  <br/> |24  <br/> |Executivos/Parceiros  <br/> |11:00  <br/> |Associados/Assistentes jurídicos  <br/> |50  <br/> |Administradores de TI  <br/> |222  <br/> |
+|Filiais grandes  <br/> |70  <br/> |24  <br/> |Executivos/Parceiros  <br/> |11:00  <br/> |Associados/Assistentes jurídicos  <br/> |50  <br/> |Administradores de TI  <br/> |9  <br/> |
 |Filiais pequenas  <br/> |36  <br/> |50  <br/> |Executivos/Parceiros  <br/> |6  <br/> |Associados/Assistentes jurídicos  <br/> |25  <br/> |Administradores de TI  <br/> |1  <br/> |
    
  **Largura de banda necessária por aplicativo por local, em Kbps (Planilha "Locais": Colunas A e BQ até LF)**

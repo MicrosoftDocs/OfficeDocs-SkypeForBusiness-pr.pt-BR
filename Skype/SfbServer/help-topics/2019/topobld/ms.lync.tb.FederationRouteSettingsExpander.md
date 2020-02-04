@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.FederationRouteSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para definir uma atribuição de rota de Federação do site, primeiro você deve ter a Federação habilitada no servidor de borda ou no pool do servidor de borda. Se a Federação não estiver habilitada no servidor de borda ou pool, as configurações de atribuição de rota de Federação do site não estarão disponíveis para modificação.
-ms.openlocfilehash: 6e68bc7cb2f5a9f04e208dc2f27ce7724aa7e793
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a9679d5ddfe4652a79f58596940af7f450e4b470
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292721"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41688557"
 ---
 # <a name="federation-route-settings-expander"></a>Expansor de Configurações de Rota de Federação
  

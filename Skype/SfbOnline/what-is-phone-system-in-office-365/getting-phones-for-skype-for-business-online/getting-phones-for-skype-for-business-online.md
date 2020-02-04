@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Phone System
 description: 'Saiba quais telefones da Polycom, HP, and Mitel funcionam com o Skype for Business e as licenças necessárias. '
-ms.openlocfilehash: ac3b262a9888acb95eef4e2e8822abc3441617c4
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: e852d54a1189ed8de7561e64809b1fc782fa644a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35587930"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692246"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Obter telefones para o Skype for Business Online
 
@@ -80,7 +81,7 @@ Para obter mais detalhes sobre as versões atuais de firmware certificado, consu
   
 ## <a name="required-licenses"></a>Licenças necessárias
 
-O Skype for Business online não requer mais nenhuma licença da Microsoft além das licenças de usuário. Para saber mais sobre as licenças de usuário necessárias, consulte licenciamento de [Complementos do Skype for Business e do Microsoft Teams](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+O Skype for Business online não requer mais nenhuma licença da Microsoft além das licenças de usuário. Para saber mais sobre as licenças de usuário necessárias, consulte [Licenciamento de Complementos do Skype for Business e do Microsoft Teams](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
 Os modelos de licenciamento do fabricante podem variar entre o firmware do Open SIP e o Skype for Business certificado. Se você estiver reorientando um modelo de certificado com um firmware de SIP aberto, deverá verificar os requisitos de licenciamento do firmware com o fabricante.
   
@@ -91,23 +92,23 @@ Para obter recursos e recursos completos do dispositivo, verifique os guias de u
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**Recurso** <br/> |**Polycom 3PIP** <br/> |**Yealink 3PIP** <br/> |**AudioCodes 3PIP** <br/> |**LPE** <br/> |
-|Entre com as credenciais dos usuários  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Não  <br/> |
-|Entrar via PC (Emparelhamento), somente Windows  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
-|Entrar usando (Entrada na Web)  <br/>  <br/> **Observação:** Verifique a matriz de suporte no guia de implantação.           |Sim   <br/> |Sim   <br/> |Sim   <br/> |Não  <br/> |
-|Clique único para ingressar na reunião  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
-|Clique para discar (Emparelhamento)  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
-|Controles de reunião  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
-|Caixa postal visual  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
-|Trava de telefone  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim  <br/> |
-|Atualização de dispositivo  <br/> |Sim  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
-|Provisionamento em banda  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
-|QoE  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Não  <br/> |
-|Upload de log  <br/> <br/> **Observação:** Atualmente, todos os logs são carregados somente para a equipe de suporte da Microsoft; o acesso do cliente a logs telefônicos ainda não está disponível.           |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
-|Autenticação moderna  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Não  <br/> |
+|Entre com as credenciais dos usuários  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
+|Entrar via PC (Emparelhamento), somente Windows  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
+|Entrar usando (Entrada na Web)  <br/>  <br/> **Observação:** Verifique a matriz de suporte no guia de implantação.           |Sim  <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
+|Clique único para ingressar na reunião  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
+|Clique para discar (Emparelhamento)  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
+|Controles de reunião  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
+|Caixa postal visual  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
+|Trava de telefone  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |
+|Atualização de dispositivo  <br/> |Sim  <br/> |Sim  <br/> |Sim   <br/> |Sim   <br/> |
+|Provisionamento em banda  <br/> |Sim  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
+|QoE  <br/> |Sim  <br/> |Sim   <br/> |Sim   <br/> |Não  <br/> |
+|Upload de log  <br/> <br/> **Observação:** Atualmente, todos os logs são carregados somente para a equipe de suporte da Microsoft; o acesso do cliente a logs telefônicos ainda não está disponível.           |Sim  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
+|Autenticação moderna  <br/> |Sim  <br/> |Sim   <br/> |Sim   <br/> |Não  <br/> |
 |Vários Números de Emergência  <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |Sim  <br/> |
-|Integração com o calendário do Exchange*  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> <br/> **Observação:** Requer compartilhamento de Internet para PC           |
-|Integração de presença  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
-|Diretório Corporativo  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim  <br/> |
+|Integração com o calendário do Exchange*  <br/> |Sim  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> <br/> **Observação:** Requer compartilhamento de Internet para PC           |
+|Integração de presença  <br/> |Sim  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |
+|Diretório Corporativo  <br/> |Sim  <br/> |Sim   <br/> |Sim   <br/> |Sim  <br/> |
 |Delegação  <br/> |Sim  <br/> |Sim   <br/> |Sim   <br/> |Não  <br/> |
 |Integração da imagem do contato  <br/> |Não  <br/> |Sim  <br/> |Não  <br/> |Sim  <br/> |
 ||||||

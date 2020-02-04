@@ -14,7 +14,10 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1_keywords:
+f1.keywords:
+- CSH
+ms.custom:
+- Setup
 - For O365M_ShareLync
 - ms.lync.lac.OrgExternalAccess
 - ms.lync.lac.skypefederation
@@ -23,16 +26,14 @@ f1_keywords:
 - O365M_ShareLync
 - O365P_ExternalCommDesc
 - O365P_ShareLync
-ms.custom:
-- Setup
 - LIL_Placement
 description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
-ms.openlocfilehash: 570861f532371dc8eca253956ffdd200e60f5990
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: bc0a59487d3cfd3e5721d60213d367c750349604
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792680"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692936"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>Permitir que os usuários entrem em contato com usuários externos do Skype for Business
 
@@ -60,11 +61,11 @@ Você deve ter [permissões de administrador](https://support.office.com/en-us/a
     
     ![Escolha o administrador do teams.](../images/MS-Teams-Admin.png)
   
-3. Na **central**do Teams, escolha **portal** 
+3. Na **central do teams**, escolha **portal** 
  ![herdado **do Skype** > escolha o portal herdado do SfB.](../images/SFBlegacy-size65.png)
  
 4. No **centro de administração do Skype for Business** , escolha**comunicações externas**da **organização** > .
-5. Para configurar a comunicação com uma empresa específica ou com usuários em outro domínio, na caixa suspensa, escolha **ativado somente para os domínios permitidos**.
+5. Para configurar a comunicação com uma empresa específica ou com usuários em outro domínio, na caixa suspensa, escolha **Ativado somente para os domínios permitidos**.
     
     OU, se quiser habilitar a comunicação com todos que tiverem as políticas do Skype for Business, escolha **Ativado exceto para domínios bloqueados**. Esta é a configuração padrão.
     
@@ -113,7 +114,7 @@ Depois de habilitar a comunicação externa com outros usuários do Skype for Bu
 
 - Para configurar a Federação entre o Skype for Business 2015 e o Skype for Business Online, confira este artigo: [Configurar a Federação com o Skype for Business online](https://technet.microsoft.com/en-us/library/jj205126.aspx).
     
-- Para configurar a Federação entre o Lync e o Skype for Business Online, confira este artigo: Configurando o [suporte de Federação para um cliente do Lync Online](https://technet.microsoft.com/en-us/library/hh202193.aspx).
+- Para configurar a Federação entre o Lync e o Skype for Business Online, confira este artigo: [Configurando o suporte de Federação para um cliente do Lync Online](https://technet.microsoft.com/en-us/library/hh202193.aspx).
     
 - Quando dois usuários do Skype for Business no Office 365 estão se comunicando entre si em domínios separados, eles só podem usar os recursos do Skype for Business (por exemplo, conversas por vídeo ou compartilhamento de área de trabalho) que estejam ativados em ambas as organizações.
     

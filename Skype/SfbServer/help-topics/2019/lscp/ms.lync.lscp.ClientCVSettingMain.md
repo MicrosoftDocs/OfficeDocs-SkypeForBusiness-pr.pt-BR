@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientCVSettingMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Além de especificar a versão dos clientes para a qual você deseja dar suporte em seu ambiente, você também pode especificar uma ação padrão para clientes que ainda não têm uma política de versão definida. Isso permite que você restrinja quais versões do cliente são usadas em seu ambiente, o que pode ajudá-lo a controlar os custos associados ao suporte a várias versões de cliente.
-ms.openlocfilehash: 8234d1463c207361f3336a695fea1110a598e2c2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d19eb77fd86020f01785ef77bd6651a83c748b55
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300487"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691566"
 ---
 # <a name="client-version-configuration"></a>Configuração de Versão de Cliente
 
@@ -53,5 +53,5 @@ As listas a seguir descrevem os menus, comando, campos e propriedades na página
 
 - **Atualização** Você pode atualizar a lista de configuração de versão do cliente para verificar o status das opções de todas as configurações de versão do cliente.
 
-Para obter detalhes sobre a interoperabilidade entre clientes e versões do cliente, consulte interoperabilidade do [cliente](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) na documentação de planejamento. Para obter detalhes sobre como trabalhar com configurações de versão de cliente, consulte [Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) na documentação Operações.
+Para obter detalhes sobre a interoperabilidade entre clientes e versões do cliente, consulte [interoperabilidade do cliente](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) na documentação de planejamento. Para obter detalhes sobre como trabalhar com configurações de versão de cliente, consulte [Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) na documentação Operações.
 

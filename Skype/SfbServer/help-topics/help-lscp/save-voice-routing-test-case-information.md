@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceAdhocTestSave
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 description: Você pode usar a caixa de diálogo Salvar informações do caso de teste de roteamento de voz para salvar um caso de teste de roteamento de voz temporário. Em salvar informações do caso de teste de roteamento de voz, digite o nome que você deseja dar a este caso de teste no nome e clique em OK.
-ms.openlocfilehash: f219ce04ba09e2dc6814433cdf4bf9687885e4ff
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 77df1b1cb0ef496f588bb86edb5478e075dc532b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297673"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41686004"
 ---
 # <a name="save-voice-routing-test-case-information"></a>Salvar Informações de Caso de Teste de Roteamento de Voz
  

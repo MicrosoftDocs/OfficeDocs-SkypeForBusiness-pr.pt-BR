@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceFeaVacantNumMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 ROBOTS: NOINDEX, NOFOLLOW
 description: Números não atribuídos são números de telefone válidos para sua organização, mas que não são atribuídos a um usuário ou telefone. A tabela de números não atribuídos identifica como você deseja lidar com chamadas para números não atribuídos.
-ms.openlocfilehash: 684519d29177b9daf4be57c650e811f00945adfb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 910b83f18350bc2a26da281f2e0660e8aa8913b9
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290028"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41690386"
 ---
 # <a name="unassigned-phone-number"></a>Número de Telefone Não Atribuído
 
@@ -50,37 +50,37 @@ A página **Número Não Atribuído** exibe uma lista de números não atribuíd
 
 A lista a seguir descreve os comandos na página.
 
-- **Novo** Inicia um novo intervalo de números não atribuídos.
+- **Novo** Inicia um novo intervalo de número não atribuído.
 
-- **Editar** Abre o intervalo de números não atribuídos selecionado para edição, seleciona todos os intervalos de números não atribuídos na lista ou exclui o intervalo de números não atribuídos selecionado.
+- **Editar** Abre o intervalo de número não atribuído selecionado para edição, seleciona todos os intervalos de números não atribuídos na lista ou exclui o intervalo de números não atribuídos.
 
-- **Mover para cima** Move o intervalo de números não atribuídos selecionado para cima na lista para que o Skype for Business Server o encontre mais cedo e aplique a ação especificada antes de aplicar as ações especificadas para outros intervalos na lista.
+- **Mover para cima** Move o intervalo de números não atribuídos selecionado para cima na lista de modo que o Skype for Business Server encontre-o antes e aplique a ação especificada antes de aplicar ações especificadas para outros intervalos na lista.
 
     > [!NOTE]
-    > O Skype for Business Server procura a tabela número não atribuído de cima para baixo e usa o primeiro intervalo que corresponde ao número não atribuído. Por exemplo, se você tiver um intervalo que especifica uma ação de última instância, certifique-se de que o intervalo esteja no final da lista.
+    > O Skype for Business Server pesquisa na tabela de números não atribuídos do início ao fim e usa o primeiro intervalo que corresponde ao número não atribuído. Por exemplo, se você tiver um intervalo que especifica uma ação de última instância, certifique-se de que o intervalo esteja no final da lista.
 
-- **Mover para baixo** Move o intervalo de números não atribuídos selecionado para baixo na lista.
+- **Mover para baixo** Move o intervalo de números não atribuídos selecionado para baixo na lista.
 
-- **Confirmar tudo** Salva todas as alterações feitas em intervalos de números não atribuídos.
+- **Confirmar tudo** Salva todas as alterações feitas a intervalos de números não atribuídos.
 
     > [!IMPORTANT]
-    > Esse comando salva todas as alterações feitas na página  **Novo Número Não Atribuído** e na página **Editar Número Não Atribuído**.
+    > Esse comando salva todas as alterações feitas na página**Novo Número Não Atribuído** e a página **Editar Número Não Atribuído**.
 
-- **Atualização** Atualiza a lista de intervalos de números não atribuídos.
+- **Atualizar** Atualiza a lista de intervalos de números não atribuídos.
 
 A lista a seguir descreve os campos na página.
 
-- **Nome** O nome exclusivo que identifica o intervalo numérico não atribuído.
+- **Nome** O nome exclusivo que identifica o intervalo de números não atribuídos.
 
-- **Estado** Mostra quais intervalos de números foram salvos no banco de dados e quais não foram.
+- **Estado** Mostra quais intervalos de números foram salvos no banco de dados e quais não foram.
 
-- **Iniciar intervalo** O número inicial do intervalo numérico não atribuído.
+- **Intervalo Inicial** O número inicial do intervalo de números não atribuídos.
 
-- **Intervalo final** O número final do intervalo numérico não atribuído.
+- **Intervalo final** O número final do intervalo de números não atribuídos.
 
-- **Destino** A ID de serviço do serviço de aplicativo que hospeda o aplicativo de anúncio que manipulará as chamadas de entrada para essa faixa de números não atribuídos.
+- **Destino** O ID do serviço Aplicativo que hospeda o aplicativo Comunicado que lidará com as chamadas recebidas para esse intervalo de números não atribuídos.
 
-- **Aviso** O anúncio que será reproduzido para esse intervalo de números não atribuídos.
+- **Comunicado** O comunicado que será reproduzido para esse intervalo de números não atribuídos.
 
 Para obter detalhes sobre recursos e recursos do lançamento, consulte [planejar o aplicativo de anúncio no Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) na documentação de planejamento. Para obter detalhes sobre como trabalhar com intervalos de números não atribuídos, consulte  [Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) na documentação Operações.
 

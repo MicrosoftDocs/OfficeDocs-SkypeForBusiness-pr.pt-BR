@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployCertPendingReturned
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
 description: A página status da solicitação de certificado online retorna o status atual do certificado. Se o certificado ainda estiver em um estado de aprovação pendente com o administrador da autoridade de certificação, ou seja, se ele ainda não tiver sido aprovado, o status indicará que o certificado ainda está sendo processado.
-ms.openlocfilehash: 752fc9b83a0ba8a046a9471d821b46ad8811100a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7355115229969824ec88de628fbc86a4d29bee87
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283959"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687664"
 ---
 # <a name="pending-certificate-returned"></a>Certificado Pendente (Retornado)
  

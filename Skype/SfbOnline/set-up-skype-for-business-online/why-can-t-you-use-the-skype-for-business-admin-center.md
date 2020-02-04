@@ -15,17 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.TenantInMigration
 ms.custom:
 - Setup
 description: 'Saiba o que você pode e não pode usar no centro de administração do Skype for Business e em outros recursos quando o seu serviço estiver sendo migrado para outro Data Center da Microsoft. '
-ms.openlocfilehash: 9582b2c5209a0ad5231e4646f930cf1fcf65a55b
-ms.sourcegitcommit: 3c11153ffdc3296a9cf2a7078fff5049c091e55a
+ms.openlocfilehash: 3987675a5c054671be7a1d52227cf1f3161f2300
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "35411565"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692724"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>Por que não posso usar o centro de administração do Skype for Business online agora?
 
@@ -43,7 +43,7 @@ Primeiro, vamos examinar alguns termos.
   
 - **Data Center** Esse é o local físico onde as informações da sua organização do Office 365 são armazenadas, como seus arquivos e mensagens de email. Se realmente quiser se aprofundar em quais são os datacenters do Office 365, confira[Este artigo](https://www.microsoft.com/online/legal/v2/?docid=25).
     
-- **** Como migrar Isso é quase igual a "mover". Nesse caso, significa que estamos movendo os usuários e as configurações do Skype for Business online de um datacenter para outro, o que está mais perto de você melhorar o serviço.
+- Como **migrar** Isso é quase igual a "mover". Nesse caso, significa que estamos movendo os usuários e as configurações do Skype for Business online de um datacenter para outro, o que está mais perto de você melhorar o serviço.
     
 - **Latência** Esta é a quantidade de tempo que leva você para acessar o centro de administração do Microsoft 365, fazer uma alteração nas configurações e, em seguida, salvar essas alterações.
     

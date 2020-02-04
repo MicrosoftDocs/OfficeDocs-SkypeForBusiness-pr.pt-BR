@@ -6,23 +6,23 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.RgsSelOverflowQueue
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50a235b6-5f30-4c49-93d9-6c6f43edce64
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use a caixa de diálogo Selecionar uma fila de excedentes para selecionar uma fila onde as chamadas são encaminhadas quando uma fila do grupo de resposta está cheia.
-ms.openlocfilehash: 47e8ebffa11e19b33ab6fe9be8b879c7cad34591
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f74aed9163a6ca8dfabbec50b77137985134f98d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292515"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41690756"
 ---
 # <a name="select-overflow-queue"></a>Selecionar Fila de Estouro
  
-Use a caixa de diálogo **selecionar uma fila** de excedentes para selecionar uma fila onde as chamadas são encaminhadas quando uma fila do grupo de resposta está cheia.
+Use a caixa de diálogo **selecionar uma fila de excedentes** para selecionar uma fila onde as chamadas são encaminhadas quando uma fila do grupo de resposta está cheia.
   
 Na caixa de pesquisa, digite todo ou parte do nome da fila que você deseja usar. Para retornar todas as filas disponíveis, deixe a caixa de pesquisa vazia e clique no ícone de pesquisa.
   
