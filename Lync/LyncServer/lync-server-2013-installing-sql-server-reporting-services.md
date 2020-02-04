@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Instalando o SQL Server Reporting Services'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Installing SQL Server Reporting Services
 ms:assetid: 638a1d0c-1ac7-4735-83f2-4df3d03c7cf9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204957(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184345
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6707cafc3a08123bd2189639704741681eb9cdd6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6342743486e3a3261e297d602ceb994d421dc13c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828986"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726001"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,13 +43,13 @@ Se você já instalou o SQL Server, mas não instalou o SQL Server Reporting Ser
 
 Para verificar se os serviços de relatório foram instalados com êxito, conclua as seguintes etapas:
 
-1.  Se você estiver executando o Microsoft SQL Server 2008 R2, clique em **Iniciar**, clique em **todos os programas**, clique em **Microsoft SQL Server 2008 R2**, em **ferramentas de configuração**e em Gerenciador de configuração do Reporting **Services**.
+1.  Se você estiver executando o Microsoft SQL Server 2008 R2, clique em **Iniciar**, clique em **todos os programas**, clique em **Microsoft SQL Server 2008 R2**, em **ferramentas de configuração**e em Gerenciador de configuração do **Reporting Services**.
     
-    Se você estiver executando o Microsoft SQL Server 2012, clique em **Iniciar**, clique em **todos os programas**, clique em **Microsoft SQL Server 2012**, em **ferramentas de configuração**e em Gerenciador de configuração do Reporting **Services**.
+    Se você estiver executando o Microsoft SQL Server 2012, clique em **Iniciar**, clique em **todos os programas**, clique em **Microsoft SQL Server 2012**, em **ferramentas de configuração**e em Gerenciador de configuração do **Reporting Services**.
 
-2.  Na caixa de diálogo **conexão de configuração** do Reporting Services, verifique se o nome do seu servidor é exibido na caixa **nome do servidor** e se o nome da instância do SQL Server que armazena os dados de monitoramento aparece no servidor de **relatório **Caixa de instância. Clique em **conectar**.
+2.  Na caixa de diálogo **conexão de configuração do Reporting Services** , verifique se o nome do seu servidor é exibido na caixa **nome do servidor** e se o nome da instância do SQL Server que armazena os dados de monitoramento aparece na caixa de instância do **servidor de relatório** . Clique em **conectar**.
 
-No Gerenciador de configuração do Reporting Services, o painel de status do servidor de relatório deve mostrar que o SQL Server Reporting Services foi instalado e que os serviços de relatório estão sendo executados: o status do servidor de relatório deve ser mostrado como **iniciado** e o botão **Iniciar** deve estar acinzentado e indisponível. Se o serviço de relatório não estiver em execução, clique em **Iniciar** para iniciar o serviço.
+No Gerenciador de configuração do Reporting Services, o painel de status do servidor de relatório deve mostrar que o SQL Server Reporting Services foi instalado e que o Reporting Services está em execução: o status do servidor de relatório deve ser mostrado como **iniciado** e o botão **Iniciar** deve estar esmaecido e indisponível. Se o serviço de relatório não estiver em execução, clique em **Iniciar** para iniciar o serviço.
 
 Se nenhum banco de dados estiver listado ao lado do rótulo de nome do banco de dados do servidor de relatório, faça o seguinte:
 

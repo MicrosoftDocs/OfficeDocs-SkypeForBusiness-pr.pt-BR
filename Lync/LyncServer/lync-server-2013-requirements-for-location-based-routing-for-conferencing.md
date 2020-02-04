@@ -3,6 +3,8 @@ title: 'Lync Server 2013: requisitos para roteamento baseado em local para confe
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Requirements for Location-Based Routing for conferencing
 ms:assetid: 766d9286-2c34-4faf-bb3e-f0ca478a70cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362806(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56335085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 925b71497012d7e6ed9c19042a079a7b30630c47
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ac57a32476d80ab1aca5d2ad0928e2862a4c8558
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823319"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723811"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ Veja a seguir os requisitos necessários para a instalação e a configuração 
 
 </div>
 
-  - O roteamento baseado em localização do Lync Server 2013 é um pré-requisito para o aplicativo de conferência de roteamento baseado em localização. Para obter mais informações sobre como configurar o roteamento baseado em localização do Lync Server 2013, consulte Configurando o [roteamento baseado em local](lync-server-2013-configuring-location-based-routing.md).
+  - O roteamento baseado em localização do Lync Server 2013 é um pré-requisito para o aplicativo de conferência de roteamento baseado em localização. Para obter mais informações sobre como configurar o roteamento baseado em localização do Lync Server 2013, consulte [Configurando o roteamento baseado em local](lync-server-2013-configuring-location-based-routing.md).
 
   - Os requisitos do aplicativo de conferência de roteamento baseado em local são os mesmos que os requisitos para roteamento baseado em localização do Lync Server 2013. Para obter mais informações, consulte [planejando o roteamento baseado em local](lync-server-2013-planning-for-location-based-routing.md).
 

@@ -3,6 +3,8 @@ title: Planejando o SIP, a Federação do XMPP e o sistema de mensagens instant�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for SIP, XMPP federation, and public instant messaging
 ms:assetid: 3b234d92-b9ff-4b1d-910e-084c6f17e751
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204825(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183918
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88aa8c6f3f2f11b303a7e25eed96d5f0d7243cb4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 994a1395363c28976c8bbfe325edae99e97cdc48
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824145"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725181"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -75,12 +77,12 @@ O Microsoft Lync Server 2010 introduziu uma definição mais estreita do provedo
 
 Habilitar a Federação entre o Microsoft Lync Server 2013, o Lync Server 2010 e o Office Communications Server usa os servidores de borda e proxies reverso para impor as regras e os domínios de parceiros permitidos que você definir. De uma perspectiva de planejamento, a Federação com outro Lync Server, o Office Communications Server exige o seguinte:
 
-  - Habilite a Federação no construtor de topologias. Para obter detalhes, consulte o tópico de implantação Configurando a [Federação do SIP, a Federação do XMPP e o sistema de mensagens instantâneas públicas no Lync Server 2013](lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md).
+  - Habilite a Federação no construtor de topologias. Para obter detalhes, consulte o tópico de implantação [Configurando a Federação do SIP, a Federação do XMPP e o sistema de mensagens instantâneas públicas no Lync Server 2013](lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md).
 
   - Determine suas necessidades para descoberta de domínio federado:
     
       - <span></span>  
-        Para a configuração manual da Federação, você deve ter o nome de domínio totalmente qualificado (FQDN) do servidor de borda do parceiro e do nome do domínio, ou nome do domínio online, que é inserido no painel de controle do Lync Server, **agrupamento e acesso externo**, **SIP Domínios federados**. Crie uma **nova** política ou **edite** uma política existente para permitir ou bloquear domínios por FQDN.
+        Para a configuração manual da Federação, você deve ter o nome de domínio totalmente qualificado (FQDN) do servidor de borda do parceiro e do nome do domínio, ou nome do domínio online, que é inserido no painel de controle do Lync Server, **agrupamento e acesso externo**, **domínios federados do SIP**. Crie uma **nova** política ou **edite** uma política existente para permitir ou bloquear domínios por FQDN.
         
         <div>
         
@@ -107,7 +109,7 @@ Habilitar a Federação entre o Microsoft Lync Server 2013, o Lync Server 2010 e
         
 
         > [!IMPORTANT]
-        > Se você estiver oferecendo suporte para clientes móveis do Microsoft Lync no Windows Phone ou no iPhone do Apple, no iPad ou em outros dispositivos Apple e estiver usando o serviço de notificação por Push ou o serviço de notificação por push, você deve planejar o sipfederationtls. _ TCP. &lt;Registros SRV&gt; do domínio SIP para cada domínio SIP para os quais você tem clientes móveis do Lync. Android e Nokia Symbian Lync Mobile não use a notificação por push e não está sujeito a esse requisito.
+        > Se você estiver oferecendo suporte para clientes móveis do Microsoft Lync no Windows Phone ou no iPhone do Apple, no iPad ou em outros dispositivos Apple e estiver usando o serviço de notificação por Push ou o serviço de notificação por push, você deve planejar _sipfederationtls. _tcp. &lt;Registros SRV&gt; do domínio SIP para cada domínio SIP para os quais você tem clientes móveis do Lync. Android e Nokia Symbian Lync Mobile não use a notificação por push e não está sujeito a esse requisito.
 
         
         </div>
@@ -178,7 +180,7 @@ Essa classe de Federação requer as seguintes considerações de planejamento:
 
 As versões anteriores do Lync Server e do Office Communications Server forneciam um gateway de protocolo de presença e mensagens (XMPP) extensível que poderia ser implantado como uma função de servidor separada para permitir a Federação com implantações do XMPP. No Microsoft Lync Server 2013, a funcionalidade XMPP pode ser implantada como um recurso. A funcionalidade XMPP é instalada em duas partes: um proxy do XMPP que é executado no servidor de borda e o gateway de XMPP que é executado nos servidores front-end.
 
-A implantação e a configuração do XMPP são abordadas na [implantação de acesso ao usuário externo no Lync Server 2013](lync-server-2013-deploying-external-user-access.md) você planeja oferecer suporte a XMPP em sua organização definindo regras de porta e protocolo em seu firewall, configuração de certificados e adicionar DNS registos. Os tópicos a seguir nesta seção resumem as informações que você precisará para planejar com êxito a Federação do XMPP para sua implantação.
+A implantação e a configuração do XMPP são abordadas na [implantação de acesso ao usuário externo no Lync Server 2013](lync-server-2013-deploying-external-user-access.md) você planeja oferecer suporte a XMPP em sua organização definindo regras de porta e protocolo em seu firewall, configuração de certificados e adição de registros DNS. Os tópicos a seguir nesta seção resumem as informações que você precisará para planejar com êxito a Federação do XMPP para sua implantação.
 
 <div>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurando um proxy inverso para descoberta automát
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring a reverse proxy for Autodiscover
 ms:assetid: 1e3c3cc2-fe55-408b-99c4-c6e0a9252689
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945619(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541456
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5445a9ce81835863b610ef32ecc51ccac5331c3f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a02bf765941c7240f08fecc91d5912f31a0f2f87
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836301"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726561"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ Se você decidir usar HTTPS para solicitações iniciais de serviço de descober
 
 
 > [!NOTE]  
-> A regra de publicação de proxy reverso e a escuta podem atender tanto os serviços Web externos quanto o serviço de descoberta automática, desde que o certificado atribuído ao ouvinte contenha o nome da entidade e os nomes alternativos de assunto necessários para ambos. Para obter detalhes sobre a configuração padrão do ouvinte da Web e da regra de publicação, consulte Configurando <A href="lync-server-2013-setting-up-reverse-proxy-servers.md">servidores proxy reverso para o Lync Server 2013</A> para obter mais detalhes.
+> A regra de publicação de proxy reverso e a escuta podem atender tanto os serviços Web externos quanto o serviço de descoberta automática, desde que o certificado atribuído ao ouvinte contenha o nome da entidade e os nomes alternativos de assunto necessários para ambos. Para obter detalhes sobre a configuração padrão do ouvinte da Web e da regra de publicação, consulte <A href="lync-server-2013-setting-up-reverse-proxy-servers.md">Configurando servidores proxy reverso para o Lync Server 2013</A> para obter mais detalhes.
 
 
 
@@ -81,7 +83,7 @@ Os procedimentos desta seção descrevem como criar ou modificar as regras de pu
 
 7.  Na página **detalhes da publicação interna** , em **nome do site interno**, digite o nome de domínio totalmente qualificado (FQDN) do seu pool de diretor (por exemplo, lyncdir01. contoso. local). Se você estiver criando uma regra para a URL de serviços Web externos no pool de front-ends, digite o FQDN do pool de front-ends (por exemplo, lyncpool01. contoso. local).
 
-8.  Na página **detalhes da publicação interna** , em **caminho (opcional)**, digite ** / ** como o caminho da pasta a ser publicada e, em seguida, selecione encaminhar **o cabeçalho original do host**.
+8.  Na página **detalhes da publicação interna** , em **caminho (opcional)**, digite ** / ** como o caminho da pasta a ser publicada e, em seguida, selecione **encaminhar o cabeçalho original do host**.
 
 9.  Na página de **detalhes do nome público** , faça o seguinte:
     
@@ -170,7 +172,7 @@ Os procedimentos desta seção descrevem como criar ou modificar as regras de pu
 
 7.  Na página **detalhes da publicação interna** , em **nome do site interno**, digite o FQDN de serviços Web internos para o seu pool de front-end (por exemplo, lyncpool01. contoso. local).
 
-8.  Na página **detalhes da publicação interna** , em **caminho (opcional)**, digite ** / ** como o caminho da pasta a ser publicada e, em seguida, selecione encaminhar **o cabeçalho do host original em vez do especificado no campo nome do site interno **.
+8.  Na página **detalhes da publicação interna** , em **caminho (opcional)**, digite ** / ** como o caminho da pasta a ser publicada e, em seguida, selecione **encaminhar o cabeçalho do host original em vez do especificado no campo nome do site interno**.
 
 9.  Na página de **detalhes do nome público** , faça o seguinte:
     

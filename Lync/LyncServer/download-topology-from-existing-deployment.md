@@ -3,6 +3,8 @@ title: Baixar topologia da implantação existente
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Download topology from existing deployment
 ms:assetid: e39065a2-d4b0-4f27-8c49-f56be78fa55b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721913(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733847
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 26c47e6d78d3bd9522b8f0369924f05f8f939037
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 29a8bd95af99b6b79b91f84231120c6981eeedb7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836875"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723021"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,13 +49,13 @@ Ao criar um pool do Lync Server 2013, você usará o repositório de gerenciamen
 
 4.  Selecione **baixar a topologia na implantação existente**.
     
-    ![Configurações do construtor de topologia do assistente de implantação] (images/JJ721913.d5b39fd9-3c13-422e-a06c-25d2568fe781(OCS.15).jpg "Configurações do construtor de topologia do assistente de implantação")
+    ![Configurações do construtor de topologia do assistente de implantação](images/JJ721913.d5b39fd9-3c13-422e-a06c-25d2568fe781(OCS.15).jpg "Configurações do construtor de topologia do assistente de implantação")
 
 5.  Escolha um nome de arquivo e salve a topologia com o tipo de arquivo default. tbxml.
 
 6.  Expanda o nó do Lync Server, como mostrado, para revelar as várias funções de servidor na implantação.
     
-    ![Propriedades gerais da função de servidor do construtor de topologia] (images/JJ721913.af99ead3-676b-47fd-8369-5a5f9717383f(OCS.15).jpg "Propriedades gerais da função de servidor do construtor de topologia")
+    ![Propriedades gerais da função de servidor do construtor de topologia](images/JJ721913.af99ead3-676b-47fd-8369-5a5f9717383f(OCS.15).jpg "Propriedades gerais da função de servidor do construtor de topologia")
 
 </div>
 

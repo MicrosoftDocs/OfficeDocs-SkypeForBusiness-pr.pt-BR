@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Decidindo como implantar o Microsoft Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deciding how to deploy Microsoft Lync
 ms:assetid: 6ca677d3-745d-4935-8f05-19274a8bccf2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204979(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d641f4da1884c1fb6e84eefb2127490f2ed3c4a9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: aef6ac76b6c0e8a6fb3c0444ab219acf78119ecd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829730"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728551"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +59,7 @@ Uma implantação do Lync Server local é melhor para os seguintes cenários:
 
   - **aplicativos de servidor de terceiros**   somente implantações locais podem funcionar com aplicativos de terceiros confiáveis que usam a API gerenciada de comunicação unificada da Microsoft (UCMA).
 
-  - **Empresas multinacionais/multinacionais que precisam de suporte**   regional se você tiver datacenters em vários países ou regiões e precisar que os servidores sejam implantados e gerenciados de forma regional, uma implantação local é melhor, pois fornece esse tipo de recursos de gerenciamento regional.
+  - **Empresas multinacionais/multinacionais que precisam de suporte**   regional se você tiver datacenters em vários países ou regiões e precisar que os servidores sejam implantados e gerenciados de forma regional, uma implantação local é melhor, pois oferece esse tipo de recursos de gerenciamento regional.
 
   - **Controle completo sobre políticas, relatórios e atualizações**   com uma implantação local do Lync Server, você tem acesso ao conjunto completo de políticas de servidor e de cliente, monitoramento e outros relatórios e tempo de atualizações. O Lync Online fornece um subconjunto de relatórios e configurações de política e fornece uma janela limitada, embora significativa, para aceitar atualizações.
 

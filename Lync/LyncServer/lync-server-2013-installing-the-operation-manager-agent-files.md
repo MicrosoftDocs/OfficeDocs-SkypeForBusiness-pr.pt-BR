@@ -3,6 +3,8 @@ title: 'Lync Server 2013: instalando os arquivos do agente do Operation Manager'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Installing the Operation Manager agent files
 ms:assetid: e2246c44-0c75-43fc-8b04-26e53c5dd572
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205345(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb8675e6c75c288e6594e45ecdcc2f65497a047a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0f75e9b6f8c3f7eb7151cf0d67a62f5e2a03a65f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828971"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725951"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ Para instalar os arquivos de agente do Operations Manager no computador, conclua
 
 5.  Na página **configuração do grupo de gerenciamento** , selecione **especificar informações do grupo de gerenciamento**e clique em **Avançar**.
 
-6.  Na página **configuração do grupo de gerenciamento** , digite o nome do grupo de gerenciamento do Operations Manager na caixa **nome do grupo de gerenciamento** e digite o nome do host do servidor do Operations Manager (por exemplo, ATL-SCOM-001) na ** Caixa servidor de gerenciamento** . Se você tiver alterado o número da porta usado pelo Operations Manager, digite o novo número de porta na caixa porta do servidor de gerenciamento. Caso contrário, deixe a porta com o valor padrão de 5723 e clique em **Avançar**.
+6.  Na página **configuração do grupo de gerenciamento** , digite o nome do grupo de gerenciamento do Operations Manager na caixa **nome do grupo de gerenciamento** e digite o nome do host do servidor do Operations Manager (por exemplo, ATL-SCOM-001) na caixa servidor de **Gerenciamento** . Se você tiver alterado o número da porta usado pelo Operations Manager, digite o novo número de porta na caixa porta do servidor de gerenciamento. Caso contrário, deixe a porta com o valor padrão de 5723 e clique em **Avançar**.
 
 7.  Na página da **conta de ação do agente** , selecione **sistema local**e, em seguida, clique em **Avançar**.
 

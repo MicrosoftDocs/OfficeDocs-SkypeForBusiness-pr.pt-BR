@@ -3,6 +3,8 @@ title: Configurar perfil de usuário
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Configure User Profile
 ms:assetid: 52713245-e502-4539-a238-66ff1aca26b1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945594(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541419
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e982156928cf36b4e20eaf86175d7acbdf048b6c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a2441fe97bb57ffdf0f6200f1201e192bfc6bf14
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837053"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727701"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -61,7 +63,7 @@ Preencha os campos em cada guia da ferramenta de configuração de carregamento 
 
 A guia **configuração comum** da ferramenta de configuração de carregamento do Lync Server 2013 é mostrada na figura a seguir. Preencha os campos da guia **configuração comum** , conforme descrito nas etapas a seguir.
 
-![Guia configuração comum.] (images/JJ945594.c68dcc8f-10f2-499e-95a2-fccbcc206c2f(OCS.15).jpg "Guia configuração comum.")
+![Guia configuração comum.](images/JJ945594.c68dcc8f-10f2-499e-95a2-fccbcc206c2f(OCS.15).jpg "Guia configuração comum.")
 
 1.  Em **número de máquinas disponíveis**, digite ou clique no número de computadores que você deseja usar para executar o LyncPerfTool. exe. Recomendamos que você tenha um computador para cada usuário do 4.500 que você vai simulando. Esse número pode variar se você reduzir o nível de carga ou se usar apenas um subconjunto de recursos disponíveis. (Os níveis de carga são definidos na guia **cenários gerais** .)
 
@@ -95,7 +97,7 @@ A guia **cenários gerais** da ferramenta de configuração de carregamento do L
 
 Configure os níveis de carga e os parâmetros para cada um dos cenários gerais que você deseja executar ou deixe desabilitado.
 
-![Guia cenários gerais.] (images/JJ945594.4f046d39-b532-4baf-99a6-c89d1d6d1fcc(OCS.15).jpg "Guia cenários gerais.")
+![Guia cenários gerais.](images/JJ945594.4f046d39-b532-4baf-99a6-c89d1d6d1fcc(OCS.15).jpg "Guia cenários gerais.")
 
 1.  Em **mensagens instantâneas**, que incluem ponto a ponto e conferência, especifique o valor apropriado para o nível de carga.
     
@@ -103,7 +105,7 @@ Configure os níveis de carga e os parâmetros para cada um dos cenários gerais
     
 
     > [!NOTE]  
-    > Os valores de nível de carga para todos os campos (exceto serviços <STRONG></STRONG>de informações de localização) são desabilitados, <STRONG>baixados</STRONG>, <STRONG>médios</STRONG>, <STRONG>altos</STRONG>e <STRONG>personalizados</STRONG>. Quando baixo, médio, alto ou personalizado estiver selecionado, as configurações serão geradas para cada cliente e modalidade. Alto fará com que a carga máxima compatível seja gerada para o servidor, média corresponderá a 60% da carga, e que seja menor corresponda a 30% da carga.
+    > Os valores de nível de carga para todos os campos (exceto serviços de informações de localização) são <STRONG>desabilitados</STRONG>, <STRONG>baixados</STRONG>, <STRONG>médios</STRONG>, <STRONG>altos</STRONG>e <STRONG>personalizados</STRONG>. Quando baixo, médio, alto ou personalizado estiver selecionado, as configurações serão geradas para cada cliente e modalidade. Alto fará com que a carga máxima compatível seja gerada para o servidor, média corresponderá a 60% da carga, e que seja menor corresponda a 30% da carga.
 
     
     </div>
@@ -142,7 +144,7 @@ A guia **cenários de voz** da ferramenta de configuração de carregamento do L
 
 Use a guia **cenários de voz** para configurar todos os cenários relacionados a voz.
 
-![Guia cenários de voz.] (images/JJ945594.28edf664-da59-40b0-9a0e-196f01e9ca86(OCS.15).jpg "Guia cenários de voz.")
+![Guia cenários de voz.](images/JJ945594.28edf664-da59-40b0-9a0e-196f01e9ca86(OCS.15).jpg "Guia cenários de voz.")
 
 1.  Em **VoIP**, clique no botão **avançado** e, em seguida, forneça valores para os campos **PhoneAreaCode** e **LocationProfile** (plano de discagem). Você também deve especificar um valor para o **nível de carga**. Se o nível de carga do gateway de **VoIP** e de **UC/PSTN** estiver habilitado, uma rede telefônica pública comutada (PSTN) para o arquivo de configuração de comunicação unificada (UC) será sempre gerada e simulará chamadas externas.
 
@@ -157,7 +159,7 @@ Use a guia **cenários de voz** para configurar todos os cenários relacionados 
     
     </div>
 
-3.  Em **atendedor de conferência**, especifique um valor para o nível de carga. Selecionar um nível de carga (diferente **** de desabilitado) habilitará o campo de **número de telefone** . Digite o número de telefone do atendedor automático que você deseja usar. Além disso, clique no botão **avançado** e, em seguida, especifique um valor para o campo **LocationProfile** .
+3.  Em **atendedor de conferência**, especifique um valor para o nível de carga. Selecionar um nível de carga (diferente de **desabilitado**) habilitará o campo de **número de telefone** . Digite o número de telefone do atendedor automático que você deseja usar. Além disso, clique no botão **avançado** e, em seguida, especifique um valor para o campo **LocationProfile** .
 
 4.  Em **serviço de estacionamento de chamadas**, especifique o valor apropriado para o **nível de carga**.
 
@@ -183,11 +185,11 @@ Reach é uma nova experiência no Lync Server 2013 que dá suporte a cenários d
 
 Use a guia **alcançar** para configurar todos os cenários relacionados ao alcance.
 
-![Guia de acesso.] (images/JJ945594.65ccf6de-0e8d-47ba-93f3-9dcb39d3fd62(OCS.15).jpg "Guia de acesso.")
+![Guia de acesso.](images/JJ945594.65ccf6de-0e8d-47ba-93f3-9dcb39d3fd62(OCS.15).jpg "Guia de acesso.")
 
 1.  Clique no botão **avançado** ao lado de **configurações de alcance geral**. Defina o campo **UcwaTargetServerUrl** para o VIP (IP virtual) do pool diretor ou o VIP do pool de front-end.
 
-2.  Em **compartilhamento de aplicativos**, **colaboração de dados**e **mensagens instantâneas**, selecione o valor apropriado para nível de **carga**.
+2.  Em **compartilhamento de aplicativos**, **colaboração de dados**e **mensagens instantâneas**, selecione o valor apropriado para **nível de carga**.
 
 <div>
 
@@ -201,7 +203,7 @@ Use a guia **alcançar** para configurar todos os cenários relacionados ao alca
 
 Use a guia **Mobility** para configurar todos os cenários relacionados à mobilidade.
 
-![Guia mobilidade.] (images/JJ945594.4dd8f3e0-921c-48a5-8b23-2a0330d3c334(OCS.15).jpg "Guia mobilidade.")
+![Guia mobilidade.](images/JJ945594.4dd8f3e0-921c-48a5-8b23-2a0330d3c334(OCS.15).jpg "Guia mobilidade.")
 
 1.  Clique no botão **avançado** ao lado de **Mobility (UCWA)**. Defina o campo **UcwaTargetServerUrl** para o VIP (IP virtual) do pool diretor ou o VIP do pool de front-end.
 
@@ -225,11 +227,11 @@ Use a guia **Mobility** para configurar todos os cenários relacionados à mobil
 
 A guia **Resumo** da ferramenta de configuração de carregamento do Lync Server 2013 é mostrada na figura a seguir.
 
-![Guia Resumo.] (images/JJ945594.c675e869-8ded-4195-8c2a-68d844fc96ad(OCS.15).jpg "Guia Resumo.")
+![Guia Resumo.](images/JJ945594.c675e869-8ded-4195-8c2a-68d844fc96ad(OCS.15).jpg "Guia Resumo.")
 
 A guia **Resumo** indica quais usuários usar para cada um dos cenários. É possível configurar manualmente intervalos de números de usuário, marcando a caixa de seleção **habilitar geração de intervalo de usuários personalizados** e clicando duas vezes no cenário na tabela que tem o **intervalo de usuários** que você deseja personalizar. Verifique (RunClient. bat) adicionar atraso de entrada ao iniciar, para incluir atrasos nos arquivos em lote gerados para que correspondam à taxa de conexão. Isso é útil para evitar a sobrecarga do servidor ao entrar em um grande número de usuários. Clique em **gerar arquivos**e selecione a pasta onde deseja gerar a configuração. Será exibida uma caixa de diálogo semelhante à seguinte figura quando seus arquivos forem criados com êxito.
 
-![Confirmação de que os arquivos foram criados.] (images/JJ945594.00dc1e92-bfba-48e7-9568-b97ad864491e(OCS.15).jpg "Confirmação de que os arquivos foram criados.")
+![Confirmação de que os arquivos foram criados.](images/JJ945594.00dc1e92-bfba-48e7-9568-b97ad864491e(OCS.15).jpg "Confirmação de que os arquivos foram criados.")
 
 </div>
 

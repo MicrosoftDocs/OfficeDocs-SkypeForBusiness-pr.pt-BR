@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Topologia de referência em organizações de médio p
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reference topology for medium-size organizations
 ms:assetid: 446b0914-2198-445e-ab6e-94802acebd5c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425939(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184026
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 41a003bd87e4dc8b85e78946a5ce870f3f6dd045
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: da4c29107a6ca3d33e76708be9eec07297eeaf93
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824040"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724401"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ A topologia de referência com alta disponibilidade e um único data center é p
 
 **Topologia de referência para organizações de médio porte**
 
-![Topologia de referência para um único diagrama de data center] (images/Gg425939.12b574fd-0b14-4563-a88c-3c8b0809bb90(OCS.15).jpg "Topologia de referência para um único diagrama de data center")
+![Topologia de referência para um único diagrama de data center](images/Gg425939.12b574fd-0b14-4563-a88c-3c8b0809bb90(OCS.15).jpg "Topologia de referência para um único diagrama de data center")
 
   - **Acomode mais usuários adicionando mais servidores de front-end.**    A topologia exata nesse diagrama tem três servidores front-end para fornecer suporte a usuários do 20.000. Se tiver um único site central e mais usuários, você poderá simplesmente adicionar mais servidores front-end ao pool. O máximo de usuários por pool é 80.000, com doze servidores front-end.
     
@@ -53,7 +55,7 @@ A topologia de referência com alta disponibilidade e um único data center é p
 
   - **Opções de banco de dados do Monitoring Server.**    Esta organização implantou o monitoramento para garantir a qualidade das chamadas Enterprise Voice e das conferências A/V. O monitoramento é implantado em todos os servidores de front-ends, e o banco de dados de monitoramento é colocado com os servidores back-end. Também damos suporte a topologias nas quais o banco de dados de monitoramento está localizado em outro servidor.
 
-  - **Alta disponibilidade do servidor de borda**    Neste exemplo, a organização com usuários do 20.000, apenas um servidor de borda seria suficiente para o desempenho. No entanto, há um pool de dois servidores de Borda implantados para fornecer alta disponibilidade.
+  - **Servidor de borda alta disponibilidade**    neste exemplo de organização com usuários do 20.000, apenas um servidor de borda seria suficiente para o desempenho. No entanto, há um pool de dois servidores de Borda implantados para fornecer alta disponibilidade.
 
   - **Opções de implantação de site de ramificação.**    A organização nessa topologia tem o Enterprise Voice implantado como sua solução de voz. O site de ramificação 1 não tem um link de rede de longa distância resistente para o site central, portanto, ele tem um aplicativo de ramificação sobreviventes implantado para manter muitos recursos do Lync Server, caso o link de WAN para o site central fique inativo. Já o Site de filial 2 tem um link de WAN resiliente e, portanto, requer apenas um gateway PSTN (rede telefônica pública comutada). Como o gateway PSTN implantado dá suporte para bypass de mídia, o Site de filial 2 não requer nenhum Servidor de Mediação. Para obter detalhes sobre como decidir o que implantar em um site de filial, consulte [planejando a resiliência de voz no site de filial no Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md) na documentação de planejamento.
 
@@ -61,9 +63,9 @@ A topologia de referência com alta disponibilidade e um único data center é p
 
   - **Implantação de UM do Exchange.** Esta topologia de referência inclui um servidor de UM (Unificação de mensagens) do Exchange, que executa o Microsoft Exchange Server, não o Lync Server.
     
-    Para obter detalhes sobre o Exchange UM, consulte [planejando a integração de Unificação de mensagens do Exchange no Lync server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) e integração de Unificação de [mensagens do Exchange no Lync Server 2013](lync-server-2013-hosted-exchange-unified-messaging-integration.md) na documentação de planejamento.
+    Para obter detalhes sobre o Exchange UM, consulte [planejando a integração de Unificação de mensagens do Exchange no Lync server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) e [integração de Unificação de mensagens do Exchange no Lync Server 2013](lync-server-2013-hosted-exchange-unified-messaging-integration.md) na documentação de planejamento.
 
-  - **Servidor do Office Web Apps.** Recomendamos implantar um servidor ou farm de servidores do Office Web Apps em todas as organizações que usem webconferência. O servidor do Office Web Apps possibilita a apresentação de slides do PowerPoint em webconferências. Para obter mais informações, consulte Configurando [a integração com o servidor do Office Web Apps e o Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
+  - **Servidor do Office Web Apps.** Recomendamos implantar um servidor ou farm de servidores do Office Web Apps em todas as organizações que usem webconferência. O servidor do Office Web Apps possibilita a apresentação de slides do PowerPoint em webconferências. Para obter mais informações, consulte [Configurando a integração com o servidor do Office Web Apps e o Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
 
   - **Os servidores de borda são recomendados.**    Embora a implantação de um servidor de borda não seja necessária, recomendamos que ele para qualquer tamanho de implantação. Você pode maximizar o investimento do Lync Server implantando um servidor de borda para fornecer serviço para os usuários que estão fora de firewalls da sua organização. Veja alguns dos benefícios:
     

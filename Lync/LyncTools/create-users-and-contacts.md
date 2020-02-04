@@ -3,6 +3,8 @@ title: Criar usuários e contatos
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Create Users and Contacts
 ms:assetid: 04b24d07-2864-463d-b508-544c2674c4ab
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945587(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6f09ac6fd667b77b47e27ec9fb9caac44b9a13e1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b1463a7caaad2bcf36996eaac4bd47e2bab25e6f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837047"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727571"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -77,7 +79,7 @@ Você deve usar a ferramenta de provisionamento de usuário do Lync Server para 
 
 Quando a ferramenta de provisionamento de usuário do Lync Server abrir, clique em **configuração** e selecione **carregar configuração**. Para começar a configurar usuários e contatos, carregue o arquivo padrão que está incluído no pacote, SampleData. xml. Isso preencherá os campos com dados de exemplo que você precisará revisar para o seu sistema. Se você tiver um arquivo XML pré-configurado que já contém configurações personalizadas, carregue esse arquivo em vez disso. Preencha os campos da ferramenta de provisionamento de usuário do Lync Server, conforme descrito nas seções a seguir.
 
-![Guia criação de usuários.] (images/JJ945587.80d3c17b-7482-4818-8381-1eff8717d2fe(OCS.15).jpg "Guia criação de usuários.")
+![Guia criação de usuários.](images/JJ945587.80d3c17b-7482-4818-8381-1eff8717d2fe(OCS.15).jpg "Guia criação de usuários.")
 
 Para configurar as opções do servidor, siga estas etapas.
 
@@ -95,7 +97,7 @@ Para configurar as opções do servidor, siga estas etapas.
 
 7.  Em **código de área do telefone**, digite o código de área de três dígitos que será usado para testar contas de usuário. Certifique-se de que o código de área do telefone não entre em conflito com os códigos de área dos outros usuários nos serviços de domínio Active Directory.
 
-8.  Marque a caixa de seleção habilitada para **voz** se quiser habilitar os usuários de teste para Enterprise Voice.
+8.  Marque a caixa de seleção **habilitada para voz** se quiser habilitar os usuários de teste para Enterprise Voice.
 
 9.  Em **número de usuários**, especifique o número total de usuários de teste que você deseja criar.
 
@@ -149,7 +151,7 @@ Quando você clica no botão excluir usuários, ele valida todos os parâmetros 
 
 A guia criação de contatos permite que você especifique detalhes dos contatos dos usuários.
 
-![Guia criação de contatos.] (images/JJ945587.7508726e-83e6-4878-8edd-114543d9af24(OCS.15).jpg "Guia criação de contatos.")
+![Guia criação de contatos.](images/JJ945587.7508726e-83e6-4878-8edd-114543d9af24(OCS.15).jpg "Guia criação de contatos.")
 
 Para configurar os contatos dos usuários, siga estas etapas.
 
@@ -195,7 +197,7 @@ Para configurar os contatos dos usuários, siga estas etapas.
 
 Um dos recursos da ferramenta de sobrecarga e desempenho do Lync Server 2013 é simular o recurso de expansão da lista de distribuição (DL) no Lync 2013. Se você não for habilitar a expansão de DL no UserProvisioningTool, ignore esta etapa.
 
-![Guia criação da lista de distribuição.] (images/JJ945587.0a1d681b-2aea-4724-90d8-efa8a526f600(OCS.15).jpg "Guia criação da lista de distribuição.")
+![Guia criação da lista de distribuição.](images/JJ945587.0a1d681b-2aea-4724-90d8-efa8a526f600(OCS.15).jpg "Guia criação da lista de distribuição.")
 
 A guia lista de distribuição permite que você crie DLs que a ferramenta de stress e desempenho usará para o recurso de expansão da lista de distribuição. Antes de criar DLs, o Lync Server 2013 já deve estar instalado. Você deve ter executado o Lync Server 2013 ForestPrep. Caso contrário, os atributos DL não existem no esquema dos serviços de domínio Active Directory e a ferramenta não será capaz de criar DLs.
 
@@ -225,7 +227,7 @@ Quando você clica no botão criar listas de distribuição, a ferramenta consul
 
 Um dos recursos da ferramenta de stress e desempenho do Lync Server 2013 é gerar arquivos de configuração fictícios para o serviço de informações de localização. O serviço de informações de localização geralmente não tem impacto significativo no desempenho dos servidores.
 
-![Guia Configuração do serviço de informações de localização.] (images/JJ945587.52ea4e9e-d50a-4dc9-982b-31ee5ace4578(OCS.15).jpg "Guia Configuração do serviço de informações de localização.")
+![Guia Configuração do serviço de informações de localização.](images/JJ945587.52ea4e9e-d50a-4dc9-982b-31ee5ace4578(OCS.15).jpg "Guia Configuração do serviço de informações de localização.")
 
 Se optar por testar esse recurso, você poderá preencher os valores mencionados no formulário e clicar no botão gerar arquivos de configuração de LIS. Ele irá gerar arquivos CSV chamados LIS\_subnet. csv, Lis\_switches. csv,\_LIS Ports. csv e\_Lis. csv. Em seguida, você pode importar esses arquivos CSV para o banco de dados LIS usando o cmdlet **set-CsLisSubnet** , o cmdlet **set-CsLisSwitch** , o cmdlet **set-CsLisPort** e o cmdlet **set-CsWirelessAccessPoint** , respectivamente.
 

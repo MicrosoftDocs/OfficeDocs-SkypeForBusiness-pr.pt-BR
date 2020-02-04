@@ -3,6 +3,8 @@ title: Criar ou modificar uma regra de normalização usando criar uma regra de 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a normalization rule by using Build a Normalization Rule
 ms:assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399036(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185889
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 527510ac9b683df191414f5dffe456353d9cf277
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 519d4d8ee00e0922d40155c541b0f869df095ab1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829788"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722341"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -71,7 +73,7 @@ Conclua as etapas a seguir se desejar criar ou modificar uma regra de normaliza�
     
       - (Opcional) Digite um valor no campo **Dígitos a adicionar** para especificar os dígitos a serem anexados ao número convertido, (por exemplo **+1425**).
     
-    Por exemplo, se **a correspondência de padrão** contiver **\\^{7}(d) $** como o padrão de números discados e a **regra de tradução** contém **+ 1425 $1** como o padrão para os números de telefone e. 164, a regra normaliza 5550100 para + 14255550100.
+    Por exemplo, se **a correspondência de padrão** contiver **\\^{7}(d) $** como o padrão para números discados e **regra de tradução** contém **+ 1425 $1** como o padrão para os números de telefone e. 164, a regra normaliza 5550100 para + 14255550100.
 
 8.  (Opcional) Se a regra de normalização resulta em um número de telefone interno à sua organização, selecione **Extensão interna**.
 

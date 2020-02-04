@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Sobre regiões de rede, sites e subredes'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: About network regions, sites, and subnets
 ms:assetid: 6662123a-d011-408c-a290-92b2a8589943
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398467(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184335
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef6601a0baafd1226f4e283d62a8cbdb410064ff
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1f85d392f7d5f987bf14197fd5027c6568965ae8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836979"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723421"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Os recursos avançados de voz empresarial descritos nesta seção compartilham d
 
 
 > [!IMPORTANT]  
-> Antes de iniciar a configuração de rede para o controle de admissão de chamadas, E9-1-1 ou ignorar mídia, verifique se você analisou informações adicionais sobre as configurações de rede nas <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">configurações de voz do Advanced Enterprise Voice no Lync Server 2013</A> tópico na documentação de planejamento. Para obter detalhes sobre a configuração de rede principalmente sobre o controle de admissão de chamadas, consulte <A href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">definir seus requisitos de controle de admissão de chamadas no Lync Server 2013</A> na documentação de planejamento.
+> Antes de iniciar a configuração de rede para o controle de admissão de chamadas, o E9-1-1 ou o bypass de mídia, verifique se você revisou informações adicionais sobre as configurações de rede nas <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">configurações de voz do recurso Advanced Enterprise Voice do Lync Server 2013</A> na documentação de planejamento. Para obter detalhes sobre a configuração de rede principalmente sobre o controle de admissão de chamadas, consulte <A href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">definir seus requisitos de controle de admissão de chamadas no Lync Server 2013</A> na documentação de planejamento.
 
 
 

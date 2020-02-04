@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Instalando o portal da Web administrativo do sistema d
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Installing the Lync Room System Administrative Web Portal
 ms:assetid: dd19e368-c338-4e21-a40d-6439d46a9748
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn436326(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56737622
 ms.date: 04/09/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d1c69231c6f07d2e57c0fe8be31d18ed6da109fc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dcfc78429ef021afcb0ed286ad86a39e63bfbf62
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828979"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725981"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -74,7 +76,7 @@ Para verificar a instalação do portal da Web administrativo do sistema de sala
     
     Você não verá nenhum erro, conforme mostrado na imagem a seguir:
     
-    ![Tela de entrada do portal de administração do sistema de salas do Lync] (images/Dn436326.050bcf70-2f3b-46b2-9b96-ebd12679b713(OCS.15).png "Tela de entrada do portal de administração do sistema de salas do Lync")
+    ![Tela de entrada do portal de administração do sistema de salas do Lync](images/Dn436326.050bcf70-2f3b-46b2-9b96-ebd12679b713(OCS.15).png "Tela de entrada do portal de administração do sistema de salas do Lync")
 
 2.  Se você não vir nenhum erro, tente acessar a seguinte URL a partir de qualquer outro computador na topologia:
     

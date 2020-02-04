@@ -3,6 +3,8 @@ title: Configurar rotas de federação e tráfego de mídia
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Configure federation routes and media traffic
 ms:assetid: ed6cb922-7863-453a-adce-2ce0ba761d74
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721925(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733860
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4542ae02cc72dfbac05dfa982e2fbda7f2924919
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7af8228a7537f1bbef4e92af852834459281a817
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836784"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728171"
 ---
 # <a name="configure-federation-routes-and-media-traffic"></a>Configurar rotas de federação e tráfego de mídia
 
@@ -34,7 +36,7 @@ Use os procedimentos a seguir para fazer a transição da rota de Federação e 
 
 
 > [!IMPORTANT]  
-> Se seu servidor herdado do Office Communications Server 2007 R2 estiver configurado para usar o mesmo FQDN para o serviço de borda de acesso, o serviço de borda de Webconferência e o serviço de borda a/V, os procedimentos desta seção serão usados para fazer a transição da configuração de Federação para um Lync Server Não há suporte para o servidor de borda do 2013. Se os serviços de borda herdados estiverem configurados para usar o mesmo FQDN, primeiro você deve migrar todos os seus usuários do Office Communications Server 2007 R2 para o Lync Server 2013 e, em seguida, encerrar o servidor do Office Communications Server 2007 R2 Edge Server antes de habilitar a Federação em o servidor de borda do Lync Server 2013. Para detalhes, consulte os seguintes tópicos: 
+> Se seu servidor herdado do Office Communications Server 2007 R2 estiver configurado para usar o mesmo FQDN para o serviço de borda de acesso, o serviço de borda de Webconferência e o serviço de borda A/V, os procedimentos desta seção para fazer a transição da configuração de Federação para um servidor de borda 2013 do Lync Server não são suportados. Se os serviços de borda herdados estiverem configurados para usar o mesmo FQDN, primeiro você deve migrar todos os seus usuários do Office Communications Server 2007 R2 para o Lync Server 2013 e, em seguida, encerrar o servidor do Office Communications Server 2007 R2 Edge Server antes de habilitar a Federação em o servidor de borda do Lync Server 2013. Para detalhes, consulte os seguintes tópicos: 
 > <UL>
 > <LI>
 > <P><A href="move-remaining-users-to-lync-server-2013_1.md">Mover usuários restantes para Lync Server 2013</A></P>
@@ -63,11 +65,11 @@ Para publicar, habilitar ou desabilitar uma topologia com êxito ao adicionar ou
 
 5.  Em atribuição de rota de Federação do site, desmarque a caixa de seleção ao lado de **habilitar Federação SIP** para desabilitar a rota de Federação por meio do **BackCompatSite**.
     
-    ![Caixa de diálogo Editar propriedades, roteiro de Federação] (images/JJ721925.2a80c103-c0cc-43ed-ba00-420f9add006a(OCS.15).jpg "Caixa de diálogo Editar propriedades, roteiro de Federação")
+    ![Caixa de diálogo Editar propriedades, roteiro de Federação](images/JJ721925.2a80c103-c0cc-43ed-ba00-420f9add006a(OCS.15).jpg "Caixa de diálogo Editar propriedades, roteiro de Federação")
 
 6.  Clique em **OK** para fechar a página Editar propriedades.
 
-7.  No **Construtor**de topologias, selecione o nó superior do **Lync Server**.
+7.  No **Construtor de topologias**, selecione o nó superior do **Lync Server**.
 
 8.  No menu **ação** , clique em **publicar topologia** e conclua o assistente.
 
@@ -79,11 +81,11 @@ Para publicar, habilitar ou desabilitar uma topologia com êxito ao adicionar ou
 
 3.  Na **configuração especificar borda**, selecione o **FQDN interno do servidor de borda** que está configurado atualmente para Federação e clique em **alterar**.
     
-    ![Mescle a topologia do OCS 2007 R2, especifique a configuração de borda] (images/JJ721925.42c15aaf-c1ac-4fb1-a086-665835c57b23(OCS.15).jpg "Mescle a topologia do OCS 2007 R2, especifique a configuração de borda")
+    ![Mescle a topologia do OCS 2007 R2, especifique a configuração de borda](images/JJ721925.42c15aaf-c1ac-4fb1-a086-665835c57b23(OCS.15).jpg "Mescle a topologia do OCS 2007 R2, especifique a configuração de borda")
 
 4.  Clique em **Avançar** e aceite as configurações padrão até chegar à página **especificar borda externa** :
     
-    ![Construtor de topologias especificar página de borda externa] (images/JJ721925.e36f3a1f-3655-456e-9e6d-4814c37da0bf(OCS.15).jpg "Construtor de topologias especificar página de borda externa")
+    ![Construtor de topologias especificar página de borda externa](images/JJ721925.e36f3a1f-3655-456e-9e6d-4814c37da0bf(OCS.15).jpg "Construtor de topologias especificar página de borda externa")
 
 5.  Em **especificar borda externa**, desmarque a caixa de seleção **este pool de bordas é usado para a Federação e conectividade de im pública** . Isso irá remover a associação de Federação com o BackCompatSite.
     
@@ -103,7 +105,7 @@ Para publicar, habilitar ou desabilitar uma topologia com êxito ao adicionar ou
 
 10. Quando o **Assistente de publicação** for concluído, clique em **concluir** para fechar o assistente.
     
-    ![Construtor de topologias com o site exibido após] a mesclagem (images/JJ721925.92b679ad-332f-49aa-b4e2-19f939b711ca(OCS.15).jpg "Construtor de topologias com o site exibido após") a mesclagem
+    ![Construtor de topologias com o site exibido após a mesclagem](images/JJ721925.92b679ad-332f-49aa-b4e2-19f939b711ca(OCS.15).jpg "Construtor de topologias com o site exibido após a mesclagem")
     
     Como mostrado na figura anterior, a **Federação SIP** localizada em **atribuição de rota de Federação do site** está definida como **desabilitada**.
 
@@ -129,7 +131,7 @@ Para publicar, habilitar ou desabilitar uma topologia com êxito ao adicionar ou
 
 5.  Digite o FQDN do servidor de borda do Lync Server 2013 e, em seguida, clique em **OK**.
     
-    ![Propriedades globais do OCS, guia Federação] (images/JJ721925.da633f72-43c6-4dac-8d37-ccd0dcde79c9(OCS.15).jpg "Propriedades globais do OCS, guia Federação")
+    ![Propriedades globais do OCS, guia Federação](images/JJ721925.da633f72-43c6-4dac-8d37-ccd0dcde79c9(OCS.15).jpg "Propriedades globais do OCS, guia Federação")
 
 ## <a name="to-turn-on-lync-server-2013-edge-server-federation"></a>Para ativar a Federação do servidor de borda do Lync Server 2013
 
@@ -145,7 +147,7 @@ Para publicar, habilitar ou desabilitar uma topologia com êxito ao adicionar ou
 
 3.  Na página **geral** , marque a caixa de seleção **habilitar Federação para este pool de bordas (porta 5061)** .
     
-    ![Editar propriedades, geral, habilitar Federação de borda] (images/JJ721925.2aeb5958-da55-4910-b3d7-2124e144a2f0(OCS.15).jpg "Editar propriedades, geral, habilitar Federação de borda")
+    ![Editar propriedades, geral, habilitar Federação de borda](images/JJ721925.2aeb5958-da55-4910-b3d7-2124e144a2f0(OCS.15).jpg "Editar propriedades, geral, habilitar Federação de borda")
 
 4.  Clique em **OK** para fechar a página Editar propriedades.
 
@@ -159,13 +161,13 @@ Para publicar, habilitar ou desabilitar uma topologia com êxito ao adicionar ou
 
 9.  Clique em **OK** para fechar a página **Editar propriedades** .
     
-    ![Editar propriedades, geral, associar pool de bordas] (images/JJ721925.33d43297-10cd-412e-bf4a-a1d9a84b9009(OCS.15).jpg "Editar propriedades, geral, associar pool de bordas")
+    ![Editar propriedades, geral, associar pool de bordas](images/JJ721925.33d43297-10cd-412e-bf4a-a1d9a84b9009(OCS.15).jpg "Editar propriedades, geral, associar pool de bordas")
     
     Para implantações em vários locais, conclua este procedimento em cada site.
 
 ## <a name="to-configure-lync-server-2013-edge-server-outbound-media-path"></a>Para configurar o caminho da mídia de saída do servidor de borda do Lync Server 2013
 
-1.  No **Construtor**de topologias, navegue até o pool do Lync Server 2013 abaixo de **servidores front-end da edição padrão** ou **pools front-ends do Enterprise Edition**.
+1.  No **Construtor de topologias**, navegue até o pool do Lync Server 2013 abaixo de **servidores front-end da edição padrão** ou **pools front-ends do Enterprise Edition**.
 
 2.  Clique com o botão direito do mouse no pool e, em seguida, clique em **Editar propriedades**.
 
@@ -173,13 +175,13 @@ Para publicar, habilitar ou desabilitar uma topologia com êxito ao adicionar ou
 
 4.  Na caixa suspensa, selecione o servidor de borda do Lync Server 2013.
     
-    ![Caixa de diálogo Editar propriedades, associar pool de bordas] (images/JJ721925.0cb76b08-5923-4972-8d7a-a829cb77136b(OCS.15).jpg "Caixa de diálogo Editar propriedades, associar pool de bordas")
+    ![Caixa de diálogo Editar propriedades, associar pool de bordas](images/JJ721925.0cb76b08-5923-4972-8d7a-a829cb77136b(OCS.15).jpg "Caixa de diálogo Editar propriedades, associar pool de bordas")
 
 5.  Clique em **OK** para fechar a página **Editar propriedades** .
 
 ## <a name="to-publish-edge-server-configuration-changes"></a>Para publicar as alterações de configuração do servidor de borda
 
-1.  No **Construtor**de topologias, selecione o nó superior do **Lync Server**.
+1.  No **Construtor de topologias**, selecione o nó superior do **Lync Server**.
 
 2.  No menu **ação** , selecione **publicar topologia** e conclua o assistente.
 
@@ -227,7 +229,7 @@ Para publicar, habilitar ou desabilitar uma topologia com êxito ao adicionar ou
 
 6.  Clique com o botão direito do mouse no nome dos serviços e, em seguida, selecione **parar** para interromper o serviço.
 
-7.  Defina o tipo de inicialização **** como desabilitado.
+7.  Defina o tipo de inicialização como **desabilitado**.
 
 8.  Clique em **OK** para fechar a janela **Propriedades** .
 

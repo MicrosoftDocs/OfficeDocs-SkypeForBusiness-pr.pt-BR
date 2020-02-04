@@ -3,6 +3,8 @@ title: Publicando o servidor do Office Web Apps usando um servidor de proxy reve
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Publishing Office Web Apps Server using a reverse proxy server
 ms:assetid: 0babe39f-c4b9-46f0-995a-33dc99c2be03
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204665(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183384
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f68ae51dba366282d7d3a5668b1358042a29917
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 43a81fff75adbeadb6cfcead3316dab2c89b4269
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823704"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724581"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,11 +69,11 @@ Para configurar uma regra de publicação de site no Forefront Threat Management
 
 14. Na página **endereços IP do ouvinte da Web** , selecione **externo**, selecione **interno**e clique em **Avançar**.
 
-15. Na página **certificados SSL** de ouvinte, selecione **usar um único certificado para este ouvinte da Web** e clique em **Selecionar certificado**.
+15. Na página **certificados SSL de ouvinte** , selecione **usar um único certificado para este ouvinte da Web** e clique em **Selecionar certificado**.
 
 16. Na caixa de diálogo **Selecionar certificado** , selecione o certificado a ser usado para este ouvinte da Web e clique em **selecionar**.
 
-17. Na página **certificados SSL** de ouvinte, clique em **Avançar**.
+17. Na página **certificados SSL de ouvinte** , clique em **Avançar**.
 
 18. Na página **configurações de autenticação** , selecione **sem autenticação** na lista suspensa **selecionar como os clientes fornecerão credenciais para a** lista suspensa do Forefront TMG e clique em **Avançar**.
 
@@ -81,7 +83,7 @@ Para configurar uma regra de publicação de site no Forefront Threat Management
 
 21. Na página **selecionar ouvinte da Web** , clique em **Avançar**.
 
-22. Na página **delegação de autenticação** , selecione **sem delegação, mas o cliente pode autenticar diretamente** da **seleção do método usado pelo Forefront TMG para autenticação na lista suspensa do servidor Web publicado** e clique em **Avançar. **.
+22. Na página **delegação de autenticação** , selecione **sem delegação, mas o cliente pode autenticar diretamente** da **seleção do método usado pelo Forefront TMG para autenticação na lista suspensa do servidor Web publicado** e, em seguida, clique em **Avançar**.
 
 23. Na página **conjuntos de usuários** , confirme se os conjuntos de usuários apropriados estão listados. Por padrão, esse é o conjunto de **usuários todos os usuários** . Clique em **Adicionar** para adicionar outros conjuntos de usuários que você tenha definido. Quando concluir, clique em **Avançar**.
 
@@ -97,7 +99,7 @@ Após a aplicação da nova regra, você precisará fazer algumas pequenas modif
 
 3.  Na guia **tráfego** , clique em **filtragem** e, em seguida, clique em **Configurar http**.
 
-4.  Na caixa de diálogo Configurando a **política http para a regra** , desmarque a caixa de seleção **verificar normalização** e clique em **OK**.
+4.  Na caixa de diálogo **Configurando a política http para a regra** , desmarque a caixa de seleção **verificar normalização** e clique em **OK**.
 
 5.  Na caixa de diálogo **Propriedades** , clique em **OK**.
 

@@ -3,6 +3,8 @@ title: Remover o banco de dados do Servidor SQL para um pool Front-End
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Remove the SQL Server database for a Front End pool
 ms:assetid: 6bb932df-3ed7-49b6-ae17-61e4c6a5fe82
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688084(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733681
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a6dcbe9bcab20438d02fe489666f9b4c0c0f6d0b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 853b52c6f6a06d05f106114ab6b59ebc52129fc3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844145"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727141"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ Depois de remover um pool de front-end do Microsoft Lync Server 2010 ou reconfig
 
 1.  No servidor front-end do Lync Server 2013, abra o construtor de topologias e baixe a topologia existente.
 
-2.  No construtor de topologias, navegue até **componentes compartilhados** e, em seguida, repositórios do **SQL Server**, clique com o botão direito do mouse na instância do SQL Server associada ao pool de front-end removido ou reconfigurado e clique em **excluir**.
+2.  No construtor de topologias, navegue até **componentes compartilhados** e, em seguida, **repositórios do SQL Server**, clique com o botão direito do mouse na instância do SQL Server associada ao pool de front-end removido ou reconfigurado e clique em **excluir**.
 
 3.  Publique a topologia e verifique o status de replicação.
 

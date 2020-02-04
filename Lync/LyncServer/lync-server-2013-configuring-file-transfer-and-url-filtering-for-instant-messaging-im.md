@@ -3,6 +3,8 @@ title: Configurando a transferência de arquivos e a filtragem de URL para mensa
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring file transfer and URL filtering for instant messaging (IM)
 ms:assetid: 115a1a2c-599f-474c-a063-52f7144b5246
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520952(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183440
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 97a9e39799815a86bc255b9aa58627df94eb3f81
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e6c5a6053118b14b68c49a7fdaa6f444aca7ad23
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836255"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729021"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,7 +71,7 @@ Usando a página **filtro de URL** no grupo **mensagens instantâneas e presenç
 
 Quando uma mensagem instantânea transita de um servidor para outro, as seguintes diretrizes gerais se aplicam:
 
-  - Se um servidor bloquear uma mensagem instantânea (porque você marcou a caixa de seleção **Bloquear URLs com extensão de arquivo** na página **filtro de URL** ou porque você escolheu a opção de prefixo de **hiperlink** **Bloquear**hiperlinks), uma mensagem de erro será retornada para o cliente. Os servidores subsequentes não recebem esta mensagem instantânea.
+  - Se um servidor bloquear uma mensagem instantânea (porque você marcou a caixa de seleção **Bloquear URLs com extensão de arquivo** na página **filtro de URL** ou porque você escolheu a opção de **prefixo de hiperlink** **Bloquear hiperlinks**), uma mensagem de erro será retornada ao cliente. Os servidores subsequentes não recebem esta mensagem instantânea.
 
   - Se um servidor (Server1) adicionar um aviso a uma mensagem de chat que contém um hiperlink ativo, um servidor subsequente (Server2) que receber essa mensagem instantânea ainda poderá executar uma ação diferente com base nesse hiperlink ativo presente na mensagem instantânea e bloquear o Envie uma mensagem instantânea ou adicione um aviso. Se Server2 estiver configurado somente para adicionar um aviso para esta URL, o aviso anterior adicionado pelo Server1 será removido, e o aviso configurado no Server2 será adicionado ao início da mensagem instantânea.
 
@@ -114,15 +116,15 @@ Para configurar como os hiperlinks são manipulados nas conversas de mensagens i
 
   - **Não filtre**   URLs nas mensagens são enviadas pelo servidor. Quando você escolhe essa opção, a caixa de **mensagem permitir** é exibida. Na caixa de **mensagem permitir** , especifique o aviso que você deseja inserir no início de cada mensagem instantânea contendo hiperlinks. Este aviso pode consistir em no máximo 65535 caracteres.
 
-  - **Bloquear**   hiperlinks a entrega de mensagens instantâneas com hiperlinks ativos é bloqueada pelo Lync Server, e uma mensagem de erro é exibida para o remetente.
+  - **Bloquear hiperlinks**   a entrega de mensagens instantâneas com hiperlinks ativos é bloqueada pelo Lync Server, e uma mensagem de erro é exibida para o remetente.
 
   - **Enviar mensagem**   de aviso o Lync Server permite hiperlinks ativos em mensagens instantâneas, mas inclui um aviso. Quando você escolhe essa opção, a caixa de **mensagem de aviso** é exibida. Na caixa de **mensagem de aviso** , você deve digitar o aviso que deseja incluir com mensagens instantâneas que contenham hiperlinks válidos. Por exemplo, este aviso pode declarar os possíveis perigos de clicar em um link desconhecido, ou pode se referir às políticas e requisitos relevantes da sua organização. O aviso não pode ter mais de 65535 caracteres.
 
-Se você selecionar **Bloquear** hiperlinks ou **Enviar uma mensagem de aviso**, as seguintes opções estarão disponíveis:
+Se você selecionar **Bloquear hiperlinks** ou **Enviar uma mensagem de aviso**, as seguintes opções estarão disponíveis:
 
   - **Excluir hiperlinks da intranet local**   o filtro de mensagem instantânea bloqueia somente URLs da Internet. As URLs para locais na sua intranet são passadas de forma não modificada pelo servidor. No entanto, as URLs de intranet que os servidores individuais que executam o Lync Server passam dependem de quais tipos de sites locais são considerados parte da zona da intranet deles. Para verificar as configurações de zona da intranet de um servidor, consulte o procedimento "para configurar suas configurações de intranet no Internet Explorer" em [Modificar o filtro de URL padrão no Lync server 2013](lync-server-2013-modify-the-default-url-filter.md).
 
-  - **Filtre esses**   prefixos de hiperlink para escolher quais prefixos deseja bloquear, clique em **selecionar**e, em seguida, no **prefixo selecionar Hiperlink**, adicione os prefixos à lista prefixos de **hiperlink** .
+  - **Filtre esses prefixos**   de hiperlink para escolher quais prefixos deseja bloquear, clique em **selecionar**e, em seguida, no **prefixo selecionar Hiperlink**, adicione os prefixos à lista **prefixos de hiperlink** .
     
     Todos os prefixos exceto **href** devem terminar com um ponto ou dois-pontos, ou um asterisco seguido por um ponto. Prefixos válidos podem conter qualquer caractere no conjunto de caracteres de URL válidos, exceto o\*asterisco (). O conjunto de caracteres válidos para URL é \# \*: +/0123456789 = @ABCDEFGHIJKLMNOPQRSTUVWXYZ\_ \` ^ abcdefghijklmnopqrstuvwxyz | ~
 

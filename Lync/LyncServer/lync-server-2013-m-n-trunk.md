@@ -3,6 +3,8 @@ title: 'Lync Server 2013: M:N trunk'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: M:N trunk
 ms:assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398971(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a99a76c2291b8ffcfcb1c68367ab6a999211c24f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4485380d6de5d247511b863761fcf7c75d38a29b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828916"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725631"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Tópico da última modificação:** 2012-10-01_
 
 O Lync Server 2013 dá suporte a maior flexibilidade na definição de um tronco para fins de roteamento de chamadas de versões anteriores. Um tronco é uma associação lógica entre um servidor de mediação e um número de porta de escuta com um gateway e um número de porta de escuta. Isso implica várias coisas: um servidor de mediação pode ter vários troncos para o mesmo gateway; um servidor de mediação pode ter vários troncos para gateways diferentes; por outro lado, um gateway pode ter vários troncos para diferentes servidores de mediação.
 
-Um tronco raiz ainda precisa ser criado quando um gateway é adicionado à topologia do Lync usando o construtor de topologias. O número de gateways que um determinado servidor de mediação pode manipular depende da capacidade de processamento do servidor durante o pico de horas de ocupação. Se você implantar um servidor de mediação em hardware que exceda os requisitos mínimos de hardware do Lync Server 2013, conforme descrito em [hardware com suporte para o Lync server 2013](lync-server-2013-supported-hardware.md) na documentação de suporte, a estimativa de quantos não-bypass ativos chama um servidor de mediação autônomo pode tratar de aproximadamente 1000 chamadas. Quando implantado em um hardware que atenda a essas especificações, espera-se que o servidor de mediação execute transcodificação, mas ainda roteia chamadas para vários gateways, mesmo que os gateways não tenham suporte para bypass de mídia.
+Um tronco raiz ainda precisa ser criado quando um gateway é adicionado à topologia do Lync usando o construtor de topologias. O número de gateways que um determinado servidor de mediação pode manipular depende da capacidade de processamento do servidor durante o pico de horas de ocupação. Se você implantar um servidor de mediação em hardware que exceda os requisitos mínimos de hardware para o Lync Server 2013, conforme descrito em [hardware com suporte para o Lync server 2013](lync-server-2013-supported-hardware.md) na documentação de suporte, então a estimativa de quantas chamadas sem bypass ativas um servidor de mediação autônomo pode manipular é aproximadamente 1000 chamadas. Quando implantado em um hardware que atenda a essas especificações, espera-se que o servidor de mediação execute transcodificação, mas ainda roteia chamadas para vários gateways, mesmo que os gateways não tenham suporte para bypass de mídia.
 
 Ao definir um roteiro de chamada, especifique os troncos associados a essa rota, mas você não especifica quais servidores de mediação estão associados a essa rota. Em vez disso, use o construtor de topologias para associar troncos a servidores de mediação. Em outras palavras, o roteamento determina qual tronco usar para uma chamada e, subsequentemente, o servidor de mediação associado a esse tronco é enviado à sinalização para essa chamada.
 

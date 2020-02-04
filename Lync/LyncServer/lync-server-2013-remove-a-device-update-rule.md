@@ -3,6 +3,8 @@ title: 'Lync Server 2013: remover uma regra de atualização de dispositivo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Remove a Device Update rule
 ms:assetid: ad6e0c6a-cda4-4147-92d5-48bc393ac456
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994066(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803977
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3776fe2b80e301e02c099f3c6154afc1c382d0d7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8d367c507ea2e8871231248b1f29d7d033dedbe9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823242"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724351"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Tópico da última modificação:** 2013-02-23_
 
 Remover uma regra de atualização de dispositivo a retira permanentemente da fila de atualização de dispositivo.
 
-Remover uma regra é diferente de desinstalar uma atualização dos dispositivos na sua implantação ou dos seus dispositivos de teste. Para desinstalar uma atualização aprovada da sua implantação, *restaure* a regra de atualização de dispositivo. Para obter detalhes, consulte [restaurar uma regra de atualização de dispositivo no Lync Server 2013](lync-server-2013-restore-a-device-update-rule.md). Para desinstalar uma atualização que você não aprovou dos seus dispositivos de teste ** , você a redefiniu. Para obter detalhes, consulte [redefinir uma regra de atualização de dispositivo no Lync Server 2013](lync-server-2013-reset-a-device-update-rule.md).
+Remover uma regra é diferente de desinstalar uma atualização dos dispositivos na sua implantação ou dos seus dispositivos de teste. Para desinstalar uma atualização aprovada da sua implantação, *restaure* a regra de atualização de dispositivo. Para obter detalhes, consulte [restaurar uma regra de atualização de dispositivo no Lync Server 2013](lync-server-2013-restore-a-device-update-rule.md). Para desinstalar uma atualização que você não aprovou dos seus dispositivos de teste, você a *redefiniu* . Para obter detalhes, consulte [redefinir uma regra de atualização de dispositivo no Lync Server 2013](lync-server-2013-reset-a-device-update-rule.md).
 
 Você pode remover uma regra de atualização de dispositivo usando o painel de controle do Lync Server ou o Windows PowerShell.
 

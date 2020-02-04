@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Criar registros de DNS para servidores de proxy revers
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create DNS records for reverse proxy servers
 ms:assetid: b3513339-e49b-4665-80f1-b5a1c81a0e2e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429719(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185181
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5608e3dd851c943e890fe3f718a38c2df02c1c08
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0f85b222688dcefd45030f2c05f7b59ce45ec0ae
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829843"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726321"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34829843"
 
 _**Tópico da última modificação:** 2013-03-29_
 
-Criar registros DNS externos A que apontam para a interface pública pública do Microsoft Internet Security and Acceleration (ISA) Server 2006 SP1, Forefront Threat Management Gateway 2010 servidor ou serviço de solicitação de aplicativo do servidor de informações da Internet, como descrito em [Configurar o DNS para suporte de borda no Lync Server 2013](lync-server-2013-configure-dns-for-edge-support.md). Você precisa de registros de DNS para os FQDNs do serviço Web externo para cada pool, o diretor (ou o pool de directors) e cada URL simples.
+Criar registros DNS externos A que apontam para a interface pública pública do seu Microsoft Internet Security and Acceleration (ISA) Server 2006 SP1, Forefront Threat Management Gateway 2010 Server ou serviço de solicitação de aplicativo do servidor de informações da Internet, conforme descrito em [Configurar o suporte a DNS para Edge no Lync Server 2013](lync-server-2013-configure-dns-for-edge-support.md). Você precisa de registros de DNS para os FQDNs do serviço Web externo para cada pool, o diretor (ou o pool de directors) e cada URL simples.
 
 Os registros DNS mínimos para a resolução do cliente para o proxy reverso, os seguintes registros devem ser criados:
 

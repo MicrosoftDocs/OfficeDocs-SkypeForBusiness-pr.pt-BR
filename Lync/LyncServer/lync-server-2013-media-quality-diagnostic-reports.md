@@ -3,6 +3,8 @@ title: 'Lync Server 2013: relatórios de diagnóstico de qualidade de mídia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Media Quality Diagnostic Reports
 ms:assetid: ea61428e-a1d5-4189-aae6-3db19ddc5cf2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615044(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185935
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 05836ea853c89b132d39eaaba1b66056fa958072
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1f7db75e8f4e6e7d8b8a36d0e5ba614ac89c22e5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827330"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723961"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Os Relatórios de Diagnóstico de Qualidade de Mídia oferecem informações sob
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Relatório de Resumo de qualidade de mídia no Lync Server 2013](lync-server-2013-media-quality-summary-report.md)   fornece dados gerais de qualidade para diferentes tipos de ponto de extremidade, incluindo chamadas ponto a ponto do Enterprise Voice, chamadas de conferência do Enterprise Voice e chamadas que dependem, pelo menos em parte, no público rede telefônica comutada (PSTN).
+  - [O relatório de Resumo de qualidade de mídia no Lync Server 2013](lync-server-2013-media-quality-summary-report.md)   fornece dados gerais de qualidade para diferentes tipos de ponto de extremidade, incluindo chamadas ponto a ponto de voz corporativa, chamadas de conferência do Enterprise Voice e chamadas que dependem, pelo menos em parte, na rede telefônica pública comutada (PSTN).
 
   - [O relatório de comparação de qualidade de mídia no Lync Server 2013](lync-server-2013-media-quality-comparison-report.md)   fornece uma comparação de valores de qualidade de chamada para diferentes tipos de chamadas de áudio (por exemplo, chamadas feitas por uma rede sem fio versus chamadas feitas em uma conexão com fio).
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Instalando e configurando nós do Inspetor'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Installing and configuring watcher nodes
 ms:assetid: 61f6deea-e3ef-4468-9be8-a65705815ebb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204943(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184284
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36d466cbffff1cf1e68eefe120215895e52e7c81
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 89465227e351da3c69116201efe5ee4eab89eca4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829005"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726161"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -162,7 +164,7 @@ Você não precisa instalar nós de inspetor para usar o System Center Operation
 
 
 > [!NOTE]  
-> Os administradores também podem executar transações sintéticas manualmente, sem precisar usar ou instalar o Operations Manager. Para obter detalhes sobre os vários cmdlets Test-cs, consulte o índice de cmdlets do <A href="https://docs.microsoft.com/powershell/module/skype/?view=skype-ps">Lync Server 2013</A>.
+> Os administradores também podem executar transações sintéticas manualmente, sem precisar usar ou instalar o Operations Manager. Para obter detalhes sobre os vários cmdlets Test-cs, consulte o <A href="https://docs.microsoft.com/powershell/module/skype/?view=skype-ps">índice de cmdlets do Lync Server 2013</A>.
 
 
 
@@ -194,7 +196,7 @@ Os nós do Inspetor do Lync Server 2013 podem ser implantados dentro ou fora de 
   - <span></span>  
     Conectividade com o Lync Server 2010 dentro da empresa e através de redes de perímetro.
 
-Opções de autenticação diferentes estão disponíveis para dentro e para fora da empresa para ajudar a simplificar a administração. Para obter detalhes, consulte Configurando [um nó de inspetor para executar transações sintéticas no Lync Server 2013](lync-server-2013-configuring-a-watcher-node-to-run-synthetic-transactions.md).
+Opções de autenticação diferentes estão disponíveis para dentro e para fora da empresa para ajudar a simplificar a administração. Para obter detalhes, consulte [Configurando um nó de inspetor para executar transações sintéticas no Lync Server 2013](lync-server-2013-configuring-a-watcher-node-to-run-synthetic-transactions.md).
 
 Para configurar um computador para atuar como um nó de Inspetor, você deve concluir as seguintes etapas após ter instalado o System Center Operations Manager e importado os pacotes de gerenciamento do Lync Server 2013.
 

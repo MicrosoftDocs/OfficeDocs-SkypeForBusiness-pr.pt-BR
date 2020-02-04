@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Definir topologias opcionais de Diretor em sua topolog
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define optional Director topologies in your topology
 ms:assetid: 8e9a659d-23b0-401d-b296-59c7df414d49
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398717(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184808
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 524259226b44d68367b631c2b7cef5513e0770e1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 86f3c78730e8c866e3838f22a1267a57bb3d237b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829716"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728381"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,9 +57,9 @@ Este tópico descreve as etapas para definir e publicar a topologia para as duas
 
 3.  Na caixa de diálogo **salvar topologia como** , digite o nome e o local da cópia local da topologia existente e, em seguida, clique em **salvar**.
 
-4.  Expanda o site no qual você planeja adicionar o diretor, clique com o botão direito do mouse em pools do **diretor**e clique em **novo pool**de directors.
+4.  Expanda o site no qual você planeja adicionar o diretor, clique com o botão direito do mouse em **pools do diretor**e clique em **novo pool de directors**.
 
-5.  Na caixa de diálogo **definir o FQDN do pool** de directors, faça o seguinte:
+5.  Na caixa de diálogo **definir o FQDN do pool de directors** , faça o seguinte:
     
       - Em **pool FQDN**, digite o FQDN do pool do diretor.
     
@@ -112,9 +114,9 @@ Este tópico descreve as etapas para definir e publicar a topologia para as duas
 
 3.  Na caixa de diálogo **salvar topologia como** , digite o nome e o local da cópia local da topologia existente e, em seguida, clique em **salvar**.
 
-4.  Expanda o site no qual você planeja adicionar o diretor, clique com o botão direito do mouse em pools do **diretor**e clique em **novo pool**de directors.
+4.  Expanda o site no qual você planeja adicionar o diretor, clique com o botão direito do mouse em **pools do diretor**e clique em **novo pool de directors**.
 
-5.  Na caixa de diálogo **definir o FQDN do pool** de directors, faça o seguinte:
+5.  Na caixa de diálogo **definir o FQDN do pool de directors** , faça o seguinte:
     
       - Em **pool FQDN**, digite o FQDN do pool do diretor.
     
