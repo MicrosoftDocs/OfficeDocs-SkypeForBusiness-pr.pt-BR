@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Topologia de referência em grandes organizações com
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reference topology for large organizations with multiple data centers
 ms:assetid: 9a6aeae6-629b-49e6-9804-7ef369d7c3dc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398797(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184887
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2460378d19f8edb4e845778cacaf01c7141204c3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 56d9edde5ab097f3244919d6dd2c572b4a1dc112
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823830"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746881"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,19 +45,19 @@ Essa topologia é mostrada em vários diagramas, com uma visão geral seguida po
 
 **Visão geral da topologia de referência para grandes organizações com vários data centers**
 
-![Topologia de referência para vários data centers] (images/Gg398797.471e1ce9-be11-44b9-9f4a-59e0551b7b30(OCS.15).jpg "Topologia de referência para vários data centers")
+![Topologia de referência para vários data centers](images/Gg398797.471e1ce9-be11-44b9-9f4a-59e0551b7b30(OCS.15).jpg "Topologia de referência para vários data centers")
 
 **Topologia de referência para grandes organizações: Visão detalhada do Local Central A**
 
-![dab33f19-e77b-42da-9047-858fb9851264] (images/Gg398797.dab33f19-e77b-42da-9047-858fb9851264(OCS.15).jpg "dab33f19-e77b-42da-9047-858fb9851264")
+![dab33f19-e77b-42da-9047-858fb9851264](images/Gg398797.dab33f19-e77b-42da-9047-858fb9851264(OCS.15).jpg "dab33f19-e77b-42da-9047-858fb9851264")
 
 **Topologia de referência para grandes organizações: Visão detalhada do Local Central B**
 
-![5ccaf1d4-bd53-4cb7-96fe-723147334e7f] (images/Gg398797.5ccaf1d4-bd53-4cb7-96fe-723147334e7f(OCS.15).jpg "5ccaf1d4-bd53-4cb7-96fe-723147334e7f")
+![5ccaf1d4-bd53-4cb7-96fe-723147334e7f](images/Gg398797.5ccaf1d4-bd53-4cb7-96fe-723147334e7f(OCS.15).jpg "5ccaf1d4-bd53-4cb7-96fe-723147334e7f")
 
 **Topologia de referência para grandes organizações: Visão detalhada do Local Central C**
 
-![7238ca40-340c-491f-b497-ddc2665dadb6] (images/Gg398797.7238ca40-340c-491f-b497-ddc2665dadb6(OCS.15).jpg "7238ca40-340c-491f-b497-ddc2665dadb6")
+![7238ca40-340c-491f-b497-ddc2665dadb6](images/Gg398797.7238ca40-340c-491f-b497-ddc2665dadb6(OCS.15).jpg "7238ca40-340c-491f-b497-ddc2665dadb6")
 
   - **Os pools front-ends são emparelhados para permitir a recuperação de desastres.**    Os pools de front-end no site A e no site B são emparelhados uns com os outros, para fornecer suporte à recuperação de desastres. Se o pool em um site falhar, o administrador poderá fazer failover dos usuários desse site para o pool de front-end emparelhado no outro site, com uma interrupção mínima de serviço para os usuários. Each of these two Front End pools has six servers, which is enough for all 40,000 users in both pools in case of failover. Para obter mais informações, consulte [planejando a alta disponibilidade e a recuperação de desastres no Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
 
@@ -81,9 +83,9 @@ Essa topologia é mostrada em vários diagramas, com uma visão geral seguida po
     
     O Site central B usa o Exchange hospedado. Portanto, a funcionalidade do servidor de UM do Exchange também é hospedada.
     
-    Para obter detalhes sobre o Exchange UM, consulte [planejando a integração de Unificação de mensagens do Exchange no Lync server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) e integração de Unificação de [mensagens do Exchange no Lync Server 2013](lync-server-2013-hosted-exchange-unified-messaging-integration.md) na documentação de planejamento.
+    Para obter detalhes sobre o Exchange UM, consulte [planejando a integração de Unificação de mensagens do Exchange no Lync server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) e [integração de Unificação de mensagens do Exchange no Lync Server 2013](lync-server-2013-hosted-exchange-unified-messaging-integration.md) na documentação de planejamento.
 
-  - **Servidor do Office Web Apps.**   Recomendamos implantar um servidor ou farm de servidores do Office Web Apps em todas as organizações que usem webconferência. Você pode implantar um único farm de servidores do Office Web Apps em um site que sirva tráfego de todos os sites ou implantá-lo em cada site. O servidor do Office Web Apps possibilita a apresentação de slides do PowerPoint em webconferências. Para obter mais informações, consulte Configurando [a integração com o servidor do Office Web Apps e o Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
+  - **Servidor do Office Web Apps.**   Recomendamos implantar um servidor ou farm de servidores do Office Web Apps em todas as organizações que usem webconferência. Você pode implantar um único farm de servidores do Office Web Apps em um site que sirva tráfego de todos os sites ou implantá-lo em cada site. O servidor do Office Web Apps possibilita a apresentação de slides do PowerPoint em webconferências. Para obter mais informações, consulte [Configurando a integração com o servidor do Office Web Apps e o Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
 
   - **Os directors podem ser adicionados.**   Se essa organização quisesse aumentar a segurança contra ataques de negação de serviço, ele também pode implantar um pool de diretores. Um diretor é uma função de servidor opcional separada no Lync Server que não hospeda contas de usuário nem fornece serviços de presença ou conferência. Ele funciona como um servidor de um próximo salto interno ao qual um servidor de Borda roteia o tráfego SIP de entrada destinado para servidores internos. O diretor autentica as solicitações de entrada e as redireciona para o pool ou o servidor primário do usuário. A pré-autenticação no diretor permite descartar solicitações de contas de usuário desconhecidas para implantação. Um diretor ajuda a proteger servidores de front-end contra tráfego mal-intencionado, como ataques de negação de serviço (DoS). Se a rede estiver inundada com tráfego externo inválido nesse tipo de ataque, o tráfego terminará no diretor.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: definir sua topologia de borda'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define your edge topology
 ms:assetid: 787b23f1-8fa0-4c37-abf2-c516c5dd66f0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398591(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184562
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d8364d2167b719e020ecebc3808c2ca850d14bc0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4a04dca4b935caf8f07546babd2c53f65fff4e89
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829749"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763935"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34829749"
 
 _**Tópico da última modificação:** 2012-09-28_
 
-Você deve usar o construtor de topologias para criar sua topologia e deve configurar pelo menos um pool de front-end interno ou um servidor Standard Edition para poder implantar o servidor de borda. Use o procedimento a seguir para definir a topologia de borda para um único servidor de borda e, em seguida, use os procedimentos em [publicar sua topologia no Lync server 2013](lync-server-2013-publish-your-topology.md) e [exportar sua topologia do Lync Server 2013 e copiá-la para a mídia externa para instalação do Edge](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md) para publicar a topologia e disponibilizá-la para o servidor de borda.
+Você deve usar o construtor de topologias para criar sua topologia e deve configurar pelo menos um pool de front-end interno ou um servidor Standard Edition para poder implantar o servidor de borda. Use o procedimento a seguir para definir a topologia de borda para um único servidor de borda e, em seguida, use os procedimentos em [publicar sua topologia no Lync server 2013](lync-server-2013-publish-your-topology.md) e [exportar sua topologia do Lync Server 2013 e copiá-la para a mídia externa para a instalação do Edge](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md) para publicar a topologia e disponibilizá-la para o servidor de borda.
 
 <div>
 
@@ -152,7 +154,7 @@ O processo para definir a topologia do servidor de borda é feito no construtor 
     
       - Se você não optou por usar um único FQDN e um único endereço IP para o acesso SIP, serviço de Webconferência e a/V Edge, digite os endereços IPv4 externos do servidor de borda no **acesso SIP**, **conferência via Web**e **conferência a/v**e, em seguida, clique em **Avançar**.
     
-      - Se você optou por usar endereços IPv6 e não optou por usar um único FQDN e um único endereço IP para o acesso SIP, serviço de Webconferência e a/V Edge, digite os endereços IPv6 externos do servidor de borda em **acesso SIP**, **conferência via Web**e **a/ V Conferência**e clique em **Avançar**.
+      - Se você optou por usar endereços IPv6 e não optou por usar um único FQDN e um único endereço IP para o acesso SIP, serviço de Webconferência e a/V Edge, digite os endereços IPv6 externos do servidor de borda em **acesso SIP**, **conferência via Web**e **conferência a/v**e clique em **Avançar**.
         
         <div>
         
@@ -187,7 +189,7 @@ O processo para definir a topologia do servidor de borda é feito no construtor 
 
 14. Em **definir o próximo salto**, no **próximo pool de saltos**, selecione o nome do pool interno, que pode ser um pool de front-ends ou um pool padrão de edição. Ou, se a sua implantação incluir um director, selecione o diretor. Em seguida, clique em **Avançar**.
 
-15. Em **pools de front-end**, especifique um ou mais pools internos, que podem incluir pools front-ends e servidores Standard Edition, a serem associados a esse servidor de borda, selecionando os nomes dos pools internos que devem usar este servidor de borda para comunicação com usuários externos com suporte.
+15. Em **pools de front-end**, especifique um ou mais pools internos, que podem incluir pools front-ends e servidores Standard Edition, a serem associados a esse servidor de borda, selecionando os nomes dos pools internos que devem usar esse servidor de borda para comunicação com usuários externos com suporte.
     
     <div>
     

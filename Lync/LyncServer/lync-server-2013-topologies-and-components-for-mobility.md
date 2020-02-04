@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Topologia e componentes para mobilidade'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Topologies and components for mobility
 ms:assetid: be3cae7a-095d-4785-91ba-6fac99eba92a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690037(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185282
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 537eda14f2587e06bd8a1112f2a6a44299b0b78e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 739deecf47e25e57ca0175c29a2721e509f8dbe2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844593"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745221"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ Para dar suporte a aplicativos móveis do Lync em dispositivos móveis, o Lync S
 
 
 > [!IMPORTANT]  
-> Se você estiver planejando qualquer conectividade de usuário externa (por exemplo, Federação, acesso de usuário externo ou recursos de mobilidade), você deve usar servidores de borda com o servidor Standard Edition e o servidor front-end ou o pool de front-end. O servidor Standard Edition e o servidor front-end ou o pool de front-end não têm os componentes necessários para permitir que os usuários externos acessem sua implantação interna ou para que a implantação interna se comunique com os usuários externos. Para todos os cenários que incluem usuários externos que colaboram ou se comunicam com usuários internos, incluindo mobilidade, você deve implantar pelo menos um servidor de borda e um proxy reverso.<BR>A <EM>notificação por push</EM> usa um tipo de Federação para os serviços do Lync Online, que hospeda a casa de compensação de notificação por push (PNCH). A notificação por Push se refere a alertas sonoros, alertas na tela (texto) e selos que são enviados por aplicativos para o iPhone, iPad e Windows Phone da Apple, quando o dispositivo móvel está inativo. O PNCH recebe notificações por push do Lync Server. Quando o PNCH recebe uma notificação de uma mensagem, o PNCH encaminha uma notificação para clientes móveis por meio do serviço de notificação por push do Apple ou do Lync Server 2013, com base no cliente móvel para o qual a mensagem se destina. O PNCH é um serviço obrigatório para esses clientes móveis. Para federar o Lync Online, o PNCH usa servidores de borda e certificados para garantir confidencialidade e autenticação, políticas e registros DNS (Domain Name System) configurados corretamente. Os clientes móveis do Lync Symbian e Android baseados em Android não usam o PNCH. Para obter detalhes sobre o planejamento e a implantação de servidores de borda, consulte <A href="lync-server-2013-planning-for-external-user-access.md">planejando o acesso de usuários externos no Lync server 2013</A> e implantando o <A href="lync-server-2013-deploying-external-user-access.md">acesso de usuários externos no Lync Server 2013</A>.<BR>Os clientes móveis do Lync 2013 para dispositivos Apple introduzidos com as atualizações cumulativas do Lync Server 2013: fevereiro de 2013 não usam mais a notificação por Push ou a casa de compensação de notificação por push (PNCH). Os clientes móveis do Lync 2013 no Windows Phone ainda usam a notificação por push e o (PNCH).
+> Se você estiver planejando qualquer conectividade de usuário externa (por exemplo, Federação, acesso de usuário externo ou recursos de mobilidade), você deve usar servidores de borda com o servidor Standard Edition e o servidor front-end ou o pool de front-end. O servidor Standard Edition e o servidor front-end ou o pool de front-end não têm os componentes necessários para permitir que os usuários externos acessem sua implantação interna ou para que a implantação interna se comunique com os usuários externos. Para todos os cenários que incluem usuários externos que colaboram ou se comunicam com usuários internos, incluindo mobilidade, você deve implantar pelo menos um servidor de borda e um proxy reverso.<BR>A <EM>notificação por push</EM> usa um tipo de Federação para os serviços do Lync Online, que hospeda a casa de compensação de notificação por push (PNCH). A notificação por Push se refere a alertas sonoros, alertas na tela (texto) e selos que são enviados por aplicativos para o iPhone, iPad e Windows Phone da Apple, quando o dispositivo móvel está inativo. O PNCH recebe notificações por push do Lync Server. Quando o PNCH recebe uma notificação de uma mensagem, o PNCH encaminha uma notificação para clientes móveis por meio do serviço de notificação por push do Apple ou do Lync Server 2013, com base no cliente móvel para o qual a mensagem se destina. O PNCH é um serviço obrigatório para esses clientes móveis. Para federar o Lync Online, o PNCH usa servidores de borda e certificados para garantir confidencialidade e autenticação, políticas e registros DNS (Domain Name System) configurados corretamente. Os clientes móveis do Lync Symbian e Android baseados em Android não usam o PNCH. Para obter detalhes sobre o planejamento e a implantação de servidores de borda, consulte <A href="lync-server-2013-planning-for-external-user-access.md">planejando o acesso de usuários externos no Lync server 2013</A> e <A href="lync-server-2013-deploying-external-user-access.md">implantando o acesso de usuários externos no Lync Server 2013</A>.<BR>Os clientes móveis do Lync 2013 para dispositivos Apple introduzidos com as atualizações cumulativas do Lync Server 2013: fevereiro de 2013 não usam mais a notificação por Push ou a casa de compensação de notificação por push (PNCH). Os clientes móveis do Lync 2013 no Windows Phone ainda usam a notificação por push e o (PNCH).
 
 
 
@@ -87,7 +89,7 @@ Os serviços que dão suporte à mobilidade são os seguintes:
     
     </div>
 
-  - **Serviço de descoberta automática do Lync Server 2013**   esse serviço identifica a localização do usuário e permite que dispositivos móveis e outros clientes do Lync localizem recursos, como URLs internas e externas dos serviços da Web do Lync Server 2013 e a URL do MCX ou UCWA, independentemente do local de rede. A descoberta automática usa nomes de host codificados (lyncdiscoverinternal para usuários dentro da rede; lyncdiscover para usuários fora da rede) e o domínio SIP do usuário. Ela dá suporte a conexões de clientes que usam HTTP ou HTTPS.
+  - **Serviço de descoberta automática do Lync Server 2013**   esse serviço identifica a localização do usuário e permite que dispositivos móveis e outros clientes do Lync localizem recursos, como as URLs internas e externas dos serviços da Web do Lync Server 2013 e a URL do MCX ou do UCWA, independentemente da localização da rede. A descoberta automática usa nomes de host codificados (lyncdiscoverinternal para usuários dentro da rede; lyncdiscover para usuários fora da rede) e o domínio SIP do usuário. Ela dá suporte a conexões de clientes que usam HTTP ou HTTPS.
     
     O serviço de descoberta automática está instalado em cada servidor front-end e em cada director em cada pool compatível com a funcionalidade do Lync em dispositivos móveis. Quando você instala o serviço de descoberta automática, um novo diretório virtual (descoberta automática) é criado no site interno e no site externo, em servidores e directors de front-end.
     
@@ -106,11 +108,11 @@ Os serviços que dão suporte à mobilidade são os seguintes:
 
 O diagrama a seguir ilustra como o serviço de notificação por Push se encaixa em uma topologia do Lync Server 2013 que usa UCWA e clientes móveis do Lync 2013.
 
-![166d60fd-ff71-4FFE-9f66-3c8bbde0b5ae] (images/Hh690037.166d60fd-ff71-4ffe-9f66-3c8bbde0b5ae(OCS.15).jpg "166d60fd-ff71-4FFE-9f66-3c8bbde0b5ae")
+![166d60fd-ff71-4ffe-9f66-3c8bbde0b5ae](images/Hh690037.166d60fd-ff71-4ffe-9f66-3c8bbde0b5ae(OCS.15).jpg "166d60fd-ff71-4ffe-9f66-3c8bbde0b5ae")
 
 Apresentado na atualização cumulativa do Lync Server 2010:2011 de novembro, o serviço MCX fornece serviços para clientes móveis do Lync 2010. O diagrama a seguir ilustra o serviço de notificação por push como ele se aplica a uma topologia usando clientes móveis MCX e Lync 2010.
 
-![3081634e-60e7-4348-b24e-bbbf05a90f5f] (images/Hh690037.3081634e-60e7-4348-b24e-bbbf05a90f5f(OCS.15).jpg "3081634e-60e7-4348-b24e-bbbf05a90f5f")
+![3081634e-60e7-4348-b24e-bbbf05a90f5f](images/Hh690037.3081634e-60e7-4348-b24e-bbbf05a90f5f(OCS.15).jpg "3081634e-60e7-4348-b24e-bbbf05a90f5f")
 
 </div>
 
@@ -132,7 +134,7 @@ Uma implantação do Lync Server 2013 sem as atualizações cumulativas do Lync 
 
 
 > [!IMPORTANT]  
-> O serviço de mobilidade tem suporte em servidores front-end posicionados com a função de servidor de mediação com duas interfaces de rede, mas você deve tomar as medidas adequadas para configurar as interfaces. Você deve atribuir os endereços IP para a interface específica que se comunicará como servidor de mediação e o IP da interface de rede que se comunicará como servidor front-end. Você pode fazer isso no construtor de topologias selecionando o endereço IP correto para cada serviço, em vez de usar o padrão <STRONG>usar todos os endereços IP</STRONG>configurados.
+> O serviço de mobilidade tem suporte em servidores front-end posicionados com a função de servidor de mediação com duas interfaces de rede, mas você deve tomar as medidas adequadas para configurar as interfaces. Você deve atribuir os endereços IP para a interface específica que se comunicará como servidor de mediação e o IP da interface de rede que se comunicará como servidor front-end. Você pode fazer isso no construtor de topologias selecionando o endereço IP correto para cada serviço, em vez de usar o padrão <STRONG>usar todos os endereços IP configurados</STRONG>.
 
 
 

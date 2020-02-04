@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Habilitar ou desabilitar uma sala de chat'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Disabling or enabling a chat room
 ms:assetid: db0908fc-aae3-46e8-bc0b-245e9adfa1e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215883(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48706011
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f89862b4f7e38a637fa183641f8cdc75e0491379
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a3ed23319631dd8ab51131fe9a8d7a9099e35d18
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829376"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757595"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,9 +41,9 @@ Se o tópico de uma sala de chat persistente não for mais relevante, você pode
 
 Uma sala de chat desativada pode ser habilitada posteriormente por um administrador de chat persistente. Se uma sala de chat for desabilitada, sua lista de associação e outras configurações serão preservadas. Se você habilitar a sala novamente, não será necessário recriá-las manualmente.
 
-Se o histórico da sala de chat persistir (a persistência do histórico de salas de chat é uma configuração opcional em uma categoria que se aplica a todas as salas dentro da categoria; o padrão é mantido, mas pode ser desativado Configurando o **histórico de habilitar chats** da categoria como false), o conteúdo será preservado quando a sala de chat estiver desabilitada. Entretanto, o conteúdo não será exibido nas pesquisas durante o tempo em que a sala de chat permanecer no estado desabilitado. Se você habilitá-la mais tarde, os usuários poderão pesquisar mensagens que foram publicadas antes da sala de chat ser desabilitada.
+Se o histórico da sala de chat persistir (a persistência do histórico de salas de chat é uma configuração opcional em uma categoria que se aplica a todas as salas dentro da categoria; o padrão é mantido, mas pode ser desativado Configurando o **histórico de habilitar o chat** como falso), o conteúdo é preservado quando a sala de chat está desabilitada. Entretanto, o conteúdo não será exibido nas pesquisas durante o tempo em que a sala de chat permanecer no estado desabilitado. Se você habilitá-la mais tarde, os usuários poderão pesquisar mensagens que foram publicadas antes da sala de chat ser desabilitada.
 
-Para obter detalhes sobre como desabilitar e habilitar as salas de chat usando a interface de linha de comando do Windows PowerShell, consulte o "gerenciamento de sala" em Configurando o [servidor de chat persistente usando cmdlets do Windows PowerShell](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md). Para desabilitar uma sala de chat, use um comando semelhante a este:
+Para obter detalhes sobre como desabilitar e habilitar as salas de chat usando a interface de linha de comando do Windows PowerShell, consulte o "gerenciamento de sala" em [Configurando o servidor de chat persistente usando cmdlets do Windows PowerShell](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md). Para desabilitar uma sala de chat, use um comando semelhante a este:
 
     Set-CsPersistentChatRoom -Identity "atl-cs-001.litwareinc.com\ITChatRoom" -Disabled $True
 

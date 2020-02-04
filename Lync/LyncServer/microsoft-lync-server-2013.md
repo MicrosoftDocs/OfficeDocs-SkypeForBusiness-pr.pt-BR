@@ -3,6 +3,8 @@ title: Microsoft Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: '@NoTitle'
 ms:assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398616(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4006715d24ac4e1d7c98788ad8007b92d1881c43
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 88de2c999b82621ddb0b176b49fc74dfac4a6371
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844276"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763625"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -188,22 +190,22 @@ As tabelas a seguir listam os tópicos na biblioteca de documentação do Lync S
 <td><p>Exibir Online: <a href="lync-server-2013-deployment.md">implantação do Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Exibir Online: Implantando o <a href="lync-server-2013-deploying-lync-server.md">Lync Server 2013</a></p></td>
+<td><p>Exibir Online: <a href="lync-server-2013-deploying-lync-server.md">implantando o Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Exibir Online: Implantando o <a href="lync-server-2013-deploying-external-user-access.md">acesso de usuários externos no Lync Server 2013</a></p></td>
+<td><p>Exibir Online: <a href="lync-server-2013-deploying-external-user-access.md">implantando o acesso de usuários externos no Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Exibir Online: Implantando o <a href="lync-server-2013-deploying-enterprise-voice.md">Enterprise Voice no Lync Server 2013</a></p></td>
+<td><p>Exibir Online: <a href="lync-server-2013-deploying-enterprise-voice.md">implantando o Enterprise Voice no Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Exibir Online: <a href="lync-server-2013-deploying-conferencing.md">implantando conferências no Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Exibir Online: Implantando o <a href="lync-server-2013-deploying-monitoring.md">monitoramento no Lync Server 2013</a></p></td>
+<td><p>Exibir Online: <a href="lync-server-2013-deploying-monitoring.md">implantando o monitoramento no Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Exibir Online: Implantando o <a href="lync-server-2013-deploying-archiving.md">arquivamento no Lync Server 2013</a></p></td>
+<td><p>Exibir Online: <a href="lync-server-2013-deploying-archiving.md">implantando o arquivamento no Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Modo de exibição online: <a href="lync-server-2013-planning-and-deploying-video.md">planejamento e implantação de vídeo no Lync Server 2013</a></p></td>
@@ -212,7 +214,7 @@ As tabelas a seguir listam os tópicos na biblioteca de documentação do Lync S
 <td><p>Exibir Online: <a href="lync-server-2013-deploying-branch-sites.md">implantando sites de ramificação no Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Exibir Online: Implantando um <a href="lync-server-2013-deploying-persistent-chat-server.md">servidor de chat persistente no Lync Server 2013</a></p></td>
+<td><p>Exibir Online: <a href="lync-server-2013-deploying-persistent-chat-server.md">implantando um servidor de chat persistente no Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Exibir Online: <a href="lync-server-2013-deploying-clients-and-devices.md">implantando clientes e dispositivos no Lync Server 2013</a></p></td>
@@ -227,10 +229,10 @@ As tabelas a seguir listam os tópicos na biblioteca de documentação do Lync S
 <td><p>Exibir Online: <a href="lync-server-2013-updating-from-the-evaluation-version.md">atualizando a versão de avaliação do Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Exibir Online: Implantando o <a href="lync-server-2013-deploying-remote-call-control.md">controle de chamada remota no Lync Server 2013</a></p></td>
+<td><p>Exibir Online: <a href="lync-server-2013-deploying-remote-call-control.md">implantando o controle de chamada remota no Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Exibir Online: implantando a <a href="lync-server-2013-deploying-mobility.md">mobilidade no Lync Server 2013</a></p></td>
+<td><p>Exibir Online: <a href="lync-server-2013-deploying-mobility.md">implantando a mobilidade no Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Exibir Online: <a href="lync-server-2013-health-configuration-in-lync-server.md">configuração de integridade no Lync Server 2013</a></p></td>
@@ -368,7 +370,7 @@ As tabelas a seguir listam os tópicos na biblioteca de documentação do Lync S
 <td><p>Modo de exibição online: <a href="lync-server-2013-lync-server-management-shell.md">Shell de gerenciamento do Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Modo de exibição online: analisador de <a href="lync-server-2013-lync-server-best-practices-analyzer.md">práticas recomendadas do Lync Server 2013</a></p></td>
+<td><p>Modo de exibição online: <a href="lync-server-2013-lync-server-best-practices-analyzer.md">analisador de práticas recomendadas do Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td></td>

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: criptografia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Encryption for Lync Server 2013
 ms:assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481135(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 59893874
 ms.date: 09/14/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 01c989213b050bdb536e95a8a42e8f7b35292eaf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5f4b655ff632a50d2c28451a577f5be03bfabc82
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829233"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735611"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -125,7 +127,7 @@ O tráfego de mídia é criptografado usando SRTP (Secure RTP), um perfil do pro
 
 
 > [!NOTE]  
-> Áudio/vídeo (A/V) é compatível com a nova versão do Windows Live Messenger. Se você estiver implementando a Federação de A/V com o Windows Live Messenger, também deverá modificar o nível de criptografia do Lync Server. Por padrão, o nível de criptografia é Exigido. Você deve alterar essa configuração para com suporte usando o Shell de gerenciamento do Lync Server. Para obter mais informações, consulte Implantando o <A href="lync-server-2013-deploying-external-user-access.md">acesso de usuários externos no Lync Server 2013</A> na documentação de implantação.
+> Áudio/vídeo (A/V) é compatível com a nova versão do Windows Live Messenger. Se você estiver implementando a Federação de A/V com o Windows Live Messenger, também deverá modificar o nível de criptografia do Lync Server. Por padrão, o nível de criptografia é Exigido. Você deve alterar essa configuração para com suporte usando o Shell de gerenciamento do Lync Server. Para obter mais informações, consulte <A href="lync-server-2013-deploying-external-user-access.md">implantando o acesso de usuários externos no Lync Server 2013</A> na documentação de implantação.
 
 
 
@@ -139,7 +141,7 @@ O tráfego de mídia de áudio e vídeo não é criptografado entre clientes do 
 
 ## <a name="fips"></a>FIPS
 
-O Lync Server 2013 e o Microsoft Exchange Server 2013 operam com suporte para algoritmos de 140-2 padrão FIPS (Federal Information Processing Standard) se os sistemas operacionais Windows Server estiverem configurados para usar os algoritmos FIPS 140-2 para criptografia do sistema. Para implementar o suporte a FIPS, você deve configurar cada servidor que está executando o Lync Server 2013 para dar suporte a ele. Para obter detalhes sobre o uso de algoritmos compatíveis com FIPS e sobre como implementar o suporte a FIPS, consulte o artigo 811833 da base de dados de conhecimento Microsoft, os efeitos de habilitar a segurança "criptografia do sistema: usar algoritmos compatíveis com FIPS para criptografia, hash e assinatura" configuração no Windows XP e em versões posteriores do Windows [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833)em. Para obter detalhes sobre o suporte e as limitações do FIPS 140-2 no Exchange 2010, consulte Exchange 2010 SP1 e suporte para [https://go.microsoft.com/fwlink/p/?LinkId=205335](https://go.microsoft.com/fwlink/p/?linkid=205335)algoritmos compatíveis com FIPS em.
+O Lync Server 2013 e o Microsoft Exchange Server 2013 operam com suporte para algoritmos de 140-2 padrão FIPS (Federal Information Processing Standard) se os sistemas operacionais Windows Server estiverem configurados para usar os algoritmos FIPS 140-2 para criptografia do sistema. Para implementar o suporte a FIPS, você deve configurar cada servidor que está executando o Lync Server 2013 para dar suporte a ele. Para obter detalhes sobre o uso de algoritmos compatíveis com FIPS e sobre como implementar o suporte a FIPS, consulte o artigo 811833 da base de dados de conhecimento Microsoft, os efeitos de habilitar a configuração de segurança "criptografia do sistema: usar algoritmos compatíveis com FIPS para criptografia, hash e assinatura [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833)" no Windows XP e em versões posteriores do Windows em. Para obter detalhes sobre o suporte e as limitações do FIPS 140-2 no Exchange 2010, consulte Exchange 2010 SP1 e suporte para [https://go.microsoft.com/fwlink/p/?LinkId=205335](https://go.microsoft.com/fwlink/p/?linkid=205335)algoritmos compatíveis com FIPS em.
 
 </div>
 

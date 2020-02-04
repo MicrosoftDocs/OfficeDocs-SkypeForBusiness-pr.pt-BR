@@ -3,6 +3,8 @@ title: 'Lync Server 2013: verificando logs de eventos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Checking event logs
 ms:assetid: 5500720d-c628-4dbd-84bc-a5becc39b99c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720914(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969602
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1506f94f0a049a6bb4fdd90875dae50548b5f516
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 862d419d9db5d8465b3507c40fde32acd01bb659
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836574"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755985"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -89,7 +91,7 @@ O pacote de gerenciamento fornece os seguintes recursos:
 
   - Conhecimento do produto: causa e resolução de problemas identificados
 
-Para obter mais informações sobre o pacote de gerenciamento do Lync Server 2013, consulte Monitorando o [Lync server 2013 com o System Center Operations Manager](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md).
+Para obter mais informações sobre o pacote de gerenciamento do Lync Server 2013, consulte [monitorando o Lync server 2013 com o System Center Operations Manager](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md).
 
 **Event Comb**   a ferramenta Event Comb coleta eventos específicos dos logs de eventos de vários computadores em um local central. Ele permite que você relate apenas as identificações de evento ou fontes de evento que ele especifica. Para obter mais informações sobre o Event Comb, consulte o site de [ferramentas de gerenciamento e bloqueio de conta](http://go.microsoft.com/fwlink/?linkid=35607) .
 

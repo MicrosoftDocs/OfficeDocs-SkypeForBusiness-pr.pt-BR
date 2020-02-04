@@ -3,6 +3,8 @@ title: Ferramentas do kit de recursos de chat persistente do Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server 2013 Persistent Chat Resource Kit Tools
 ms:assetid: 7a34d2ba-eb25-4e22-92d1-b9baf81b102c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945599(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c851be7bb7046021cc2d37c88ef03bdea60c95a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a827892dac61ff88d0527eafb7d94948afa21885
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837043"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739411"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ Para instalar o Lync Server 2013, ferramentas do Resource Kit, baixe **Persisten
 
 
 > [!IMPORTANT]  
-> Após instalar as ferramentas do Lync Server 2013, Resource Kit, você deve instalar o <STRONG>PsExec. exe</STRONG> e copiar o <STRONG>PsExec. exe</STRONG> para o \\seguinte caminho: <STRONG>arquivos de programa \ Microsoft Lync Server 2013 \ persistent chat Server Resource Kit\ChatStressTool </STRONG>. Se você não copiar o <STRONG>PsExec. exe</STRONG>, a ferramenta de stress de chat persistente gerará uma exceção de erro e não será executada corretamente. Certifique-se de que você atende a este requisito de pré-requisito antes de executar a ferramenta. Para obter detalhes sobre como instalar o <STRONG>PsExec. exe</STRONG>, consulte <A href="http://go.microsoft.com/fwlink/p/?linkid=282246">http://go.microsoft.com/fwlink/p/?LinkId=282246</A>.
+> Após a instalação do Lync Server 2013, ferramentas do Resource Kit, você deve instalar o <STRONG>PsExec. exe</STRONG> e copiar o <STRONG>PsExec. exe</STRONG> para \\o seguinte caminho: <STRONG>arquivos de programas \ Microsoft Lync Server 2013 \ persistent chat Resource Server Kit\ChatStressTool</STRONG>. Se você não copiar o <STRONG>PsExec. exe</STRONG>, a ferramenta de stress de chat persistente gerará uma exceção de erro e não será executada corretamente. Certifique-se de que você atende a este requisito de pré-requisito antes de executar a ferramenta. Para obter detalhes sobre como instalar o <STRONG>PsExec. exe</STRONG>, consulte <A href="http://go.microsoft.com/fwlink/p/?linkid=282246">http://go.microsoft.com/fwlink/p/?LinkId=282246</A>.
 
 
 
@@ -331,7 +333,7 @@ Execute **ChatUpgradeVerifier** sem parâmetros.
 
 ## <a name="example"></a>Exemplo
 
-![Executando ChatUpgradeVerifier. exe.] (images/JJ945599.4c273bc3-7926-47c7-ade7-34522721ebf9(OCS.15).jpg "Executando ChatUpgradeVerifier. exe.")
+![Executando ChatUpgradeVerifier. exe.](images/JJ945599.4c273bc3-7926-47c7-ade7-34522721ebf9(OCS.15).jpg "Executando ChatUpgradeVerifier. exe.")
 
 </div>
 

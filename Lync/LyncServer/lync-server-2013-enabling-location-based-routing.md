@@ -3,6 +3,8 @@ title: 'Lync Server 2013: habilitando roteamento baseado em local'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enabling Location-Based Routing
 ms:assetid: 029ede7e-0c4e-4ad2-af99-909ae674d6fe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994014(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803920
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 170ca1af77a84b655e90d5587fcd101cccf83c8a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e21e1a285fa5b2129d4d0ed0b5d75e8dcee42f2f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829272"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735801"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -121,8 +123,8 @@ Neste exemplo, a tabela a seguir ilustra o roteamento baseado em localização p
 </tr>
 <tr class="even">
 <td><p>EnableLocationBasedRouting</p></td>
-<td><p>True</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro</p></td>
+<td><p>Verdadeiro</p></td>
 </tr>
 <tr class="odd">
 <td><p>Política de roteamento de voz</p></td>
@@ -202,22 +204,22 @@ A tabela a seguir ilustra a configuração de troncos de quatro troncos em dois 
 <tbody>
 <tr class="odd">
 <td><p>PstnGateway: tronco 1 DEL-GW</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro</p></td>
 <td><p>Site 1 (Déli)</p></td>
 </tr>
 <tr class="even">
 <td><p>PstnGateway: tronco 2 HYD-GW</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro</p></td>
 <td><p>Site 2 (Hyderabad)</p></td>
 </tr>
 <tr class="odd">
 <td><p>PstnGateway: tronco 3 DEL-PBX</p></td>
-<td><p>False</p></td>
+<td><p>Falso</p></td>
 <td><p>Site 1 (Déli)</p></td>
 </tr>
 <tr class="even">
 <td><p>PstnGateway: trunk 4 HYD-PBX</p></td>
-<td><p>False</p></td>
+<td><p>Falso</p></td>
 <td><p>Site 2 (Hyderabad)</p></td>
 </tr>
 </tbody>
@@ -273,8 +275,8 @@ Para este exemplo, a tabela a seguir e os comandos do Windows PowerShell ilustra
 </tr>
 <tr class="odd">
 <td><p>PreventPSTNTollBypass</p></td>
-<td><p>True</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro</p></td>
+<td><p>Verdadeiro</p></td>
 </tr>
 </tbody>
 </table>

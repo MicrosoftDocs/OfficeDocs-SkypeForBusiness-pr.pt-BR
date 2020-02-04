@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Componentes e topologias para o Servidor de Mediação
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for Mediation Server
 ms:assetid: 71397168-36c3-4d21-b8ef-db6a751634ee
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398537(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184487
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f9c353dc65f5e943e082df9321a934ea8f14be1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 62516645266f67b7be61154b45afd00107ec3814
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836525"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742611"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -75,13 +77,13 @@ A figura a seguir mostra uma topologia simples que consiste em dois locais conec
 
 **Exemplo de sites conectados por um link WAN com um Servidor de Mediação no Site 1 e um gateway PSTN no Site 2**
 
-![Topologia de voz com gateway de WAN servidor de mediação] (images/Gg398537.67872e61-1444-447b-918c-abe89abc3004(OCS.15).jpg "Topologia de voz com gateway de WAN servidor de mediação")
+![Topologia de voz com gateway de WAN servidor de mediação](images/Gg398537.67872e61-1444-447b-918c-abe89abc3004(OCS.15).jpg "Topologia de voz com gateway de WAN servidor de mediação")
 
 A próxima figura mostra uma topologia simples em que o servidor de mediação está posicionado com o registrador no pool de front-end no site 1 e tem uma conexão SIP direta com o IP-PBX no site 1. Nesta figura, o servidor de mediação também controla um gateway PSTN no site 2. Suponha que os usuários do Lync existam nos dois locais: 1 e 2. Além disso, presumir que o IP-PBX tem um processador de mídia associado que deve ser percorrido por toda a mídia originada dos pontos de extremidade do Lync antes de ser enviada a pontos de extremidade de mídia controlados pelo IP-PBX. Nessa topologia, o bypass de mídia está habilitado globalmente para usar as informações do local e da região, e os troncos até o PBX e o gateway PSTN têm o bypass de mídia habilitado.
 
 **Exemplo de sites conectados por um link WAN com um Servidor de Mediação no Site 1 e um PBX no Site 2**
 
-![Wan Topology Mediation Server PBX PBX] (images/Gg398537.df6c8a5b-8431-4187-907d-ff5ca26eeeec(OCS.15).jpg "Wan Topology Mediation Server PBX PBX")
+![WAN Topology Mediation Server PBX PBX](images/Gg398537.df6c8a5b-8431-4187-907d-ff5ca26eeeec(OCS.15).jpg "WAN Topology Mediation Server PBX PBX")
 
 Para obter detalhes sobre o planejamento de topologias PBX, consulte [diretrizes de implantação para o servidor de mediação no Lync server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md) e [Opções de implantação do SIP direto no Lync Server 2013](lync-server-2013-direct-sip-deployment-options.md).
 

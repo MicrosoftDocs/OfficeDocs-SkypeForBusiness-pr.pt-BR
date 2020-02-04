@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Única borda consolidada com endereços IP públicos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Single consolidated edge with public IP addresses
 ms:assetid: a92d1179-6a1f-4efe-908a-f8dfc5024f30
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205148(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185035
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bf6655c596be657d1779a404c6f1f5b108f3251
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8189d360a43887e2992b8b8abf063ef96230e06e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844918"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764497"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34844918"
 
 _**Tópico da última modificação:** 2012-09-08_
 
-Se a sua organização precisa de suporte para menos de 15.000 conexões de cliente de serviço de borda de acesso, 1.000 conexões de cliente de serviço de Webconferência do Lync Server Web 500 e as sessões de borda de A/V simultâneas, a alta disponibilidade do servidor de borda não é importante, essa topologia oferece as vantagens de reduzir o custo de hardware e a implantação mais simples. Se você precisa de maior capacidade ou requer alta disponibilidade, implante uma topologia de servidor de borda consolidada dimensionada.
+Se a sua organização precisar de suporte para menos de 15.000 conexões de cliente de serviço de borda de acesso, 1.000 conexões de cliente de serviço de Webconferência do Lync Server Web 500 e as sessões de borda de A/V simultâneas e alta disponibilidade do servidor de borda não for importante, essa topologia oferece as vantagens de reduzir o custo de hardware e a implantação mais simples. Se você precisa de maior capacidade ou requer alta disponibilidade, implante uma topologia de servidor de borda consolidada dimensionada.
 
   - <span></span>  
     [Borda consolidada em escala, balanceamento de carga de DNS com endereços IP privados usando NAT no Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
@@ -86,7 +88,7 @@ Há tecnologias de conversão de endereços de rede (NAT) para IPv6 que permitir
 
 **Uma única aresta consolidada com topologia de endereços IP públicos**
 
-![2db9f9e1-75aa-4de0-ab3f-c6effddb4f4d] (images/JJ205148.2db9f9e1-75aa-4de0-ab3f-c6effddb4f4d(OCS.15).jpg "2db9f9e1-75aa-4de0-ab3f-c6effddb4f4d")
+![2db9f9e1-75aa-4de0-ab3f-c6effddb4f4d](images/JJ205148.2db9f9e1-75aa-4de0-ab3f-c6effddb4f4d(OCS.15).jpg "2db9f9e1-75aa-4de0-ab3f-c6effddb4f4d")
 
 <div>
 

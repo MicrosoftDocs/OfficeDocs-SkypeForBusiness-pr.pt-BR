@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Cenários de acesso de usuário externo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scenarios for external user access
 ms:assetid: 25697446-b045-4d12-9b1c-47f694b4f224
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425727(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183640
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27e4f7410d7038971c6ddefe1af1c7b3ecd97ab9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: eab8323744615dc3f5d0b68f4325fbfb85bf911e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822325"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764969"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,9 +45,9 @@ Esta seção define os cenários para implantações do servidor de borda e mape
 
 **Processo de seleção do cenário de implantação do servidor de borda**
 
-![Exemplo de fluxograma de implantação] (images/Gg425727.007100b5-6923-4909-bfd7-897d8867205f(OCS.15).jpg "Exemplo de fluxograma de implantação")
+![Exemplo de fluxograma de implantação](images/Gg425727.007100b5-6923-4909-bfd7-897d8867205f(OCS.15).jpg "Exemplo de fluxograma de implantação")
 
-Ao usar esse processo, você pode planejar e documentar a configuração de todos os recursos possíveis que pretende implantar para seus usuários. No entanto, é possível adicionar serviços de Federação e mobilidade após a implantação do servidor de borda e confirmar a operação correta antes de adicionar outros recursos. O processo de adicionar recursos a uma implantação de servidor de borda existente é abordado na seção implantação. Para obter detalhes sobre a implantação, consulte Implantando o [acesso de usuários externos no Lync Server 2013](lync-server-2013-deploying-external-user-access.md) , incluindo o planejamento desses recursos durante o processo de planejamento inicial, você pode se preparar para os requisitos de DNS, firewall e certificado para os recursos adicionais que permite adquirir os certificados e configurar o DNS e requisitos de protocolo/porta com antecedência.
+Ao usar esse processo, você pode planejar e documentar a configuração de todos os recursos possíveis que pretende implantar para seus usuários. No entanto, é possível adicionar serviços de Federação e mobilidade após a implantação do servidor de borda e confirmar a operação correta antes de adicionar outros recursos. O processo de adicionar recursos a uma implantação de servidor de borda existente é abordado na seção implantação. Para obter detalhes sobre a implantação, consulte [implantando o acesso de usuários externos no Lync Server 2013](lync-server-2013-deploying-external-user-access.md) , incluindo o planejamento desses recursos durante o processo de planejamento inicial, você pode se preparar para os requisitos de DNS, firewall e certificado para os recursos adicionais, que permitem que você adquira os certificados e configure os requisitos de DNS e de porta/protocolo com antecedência.
 
 <div>
 
@@ -61,7 +63,7 @@ Ao usar esse processo, você pode planejar e documentar a configuração de todo
 
 
 > [!NOTE]  
-> Todos os serviços de borda são executados em cada servidor de borda. Os serviços não podem ser divididos entre dois servidores de borda diferentes. Se você implantar um pool de bordas para escalabilidade, todos os serviços de borda serão implantados em cada servidor de borda no pool. A Federação do XMPP, o Office Communications Server e a Federação do Lync Server, a conectividade de mensagens de chat públicas e a mobilidade do cliente são serviços adicionais que podem ser implantados após a implantação do seu primeiro servidor de borda ou do pool de borda. Serviços de mobilidade é um recurso que usa o proxy reverso. A instalação dos serviços de mobilidade não adicionará recursos aos seus servidores de borda, mas exigirá a reconfiguração do seu proxy reverso. A coluna de <STRONG>meta de instalação</STRONG> que lista esses recursos fornece orientação de planejamento na coluna associada em seções de planejamento do <STRONG>servidor de borda ou seções</STRONG> para planejar simultaneamente esses recursos a serem implantados quando os servidores de borda estiverem instalado e configurado.
+> Todos os serviços de borda são executados em cada servidor de borda. Os serviços não podem ser divididos entre dois servidores de borda diferentes. Se você implantar um pool de bordas para escalabilidade, todos os serviços de borda serão implantados em cada servidor de borda no pool. A Federação do XMPP, o Office Communications Server e a Federação do Lync Server, a conectividade de mensagens de chat públicas e a mobilidade do cliente são serviços adicionais que podem ser implantados após a implantação do seu primeiro servidor de borda ou do pool de borda. Serviços de mobilidade é um recurso que usa o proxy reverso. A instalação dos serviços de mobilidade não adicionará recursos aos seus servidores de borda, mas exigirá a reconfiguração do seu proxy reverso. A coluna de <STRONG>metas de instalação</STRONG> que lista esses recursos fornece orientação de planejamento na coluna associada em seções de planejamento do <STRONG>servidor de borda ou seções</STRONG> para planejar simultaneamente esses recursos a serem implantados quando os servidores de borda estiverem instalados e configurados.
 
 
 

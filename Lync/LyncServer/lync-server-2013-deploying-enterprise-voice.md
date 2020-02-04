@@ -3,6 +3,8 @@ title: 'Lync Server 2013: implantação do Enterprise Voice'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying Enterprise Voice
 ms:assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412876(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185207
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae445d954bd1be7c956d76aa48da2ad7854c6a54
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bf57d55899d556ddfde633c975ae9f0516e48e14
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829561"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733621"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -68,7 +70,7 @@ Além disso, você já deve ter implantado o Lync Server, Enterprise Edition em 
 
 Para ver as topologias de referência com exemplos de como as funções de servidor Enterprise Voice podem ser implantadas (e sua relação com outras funções de servidor do Lync Server 2013), consulte [topologias de referência no Lync server 2013](lync-server-2013-reference-topologies.md) na documentação de planejamento.
 
-Para exibir uma topologia de referência que ilustra e explica um exemplo de implantação de controle de admissão de chamadas, incluindo regiões de rede, sites de rede e sub-redes, consulte [exemplo: reunir seus requisitos para o controle de admissão de chamadas no Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) na Documentação de planejamento.
+Para exibir uma topologia de referência que ilustra e explica um exemplo de implantação de controle de admissão de chamadas, incluindo regiões de rede, sites de rede e sub-redes, consulte [exemplo: reunir seus requisitos para o controle de admissão de chamadas no Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) na documentação de planejamento.
 
 </div>
 

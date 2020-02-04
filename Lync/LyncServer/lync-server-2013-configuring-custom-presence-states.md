@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurando Estados de presença personalizados'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring custom presence states
 ms:assetid: e17364a8-8b93-45fc-a614-c80e45435d42
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398997(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 12083d1895f8e5191f15b43efaf2835faecdb5ca
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c69f7a5b32b4ad0dd31f8be118aa2f2173ff3e22
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836274"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758191"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -56,11 +58,11 @@ Os arquivos de configuração têm as seguintes propriedades:
 > Embora não seja recomendado em um ambiente de produção, você pode testar um arquivo de configuração localizado em um compartilhamento de arquivos não HTTPS usando a configuração do registro EnableSIPHighSecurityMode para desabilitar o modo de alta segurança SIP no cliente. Em seguida, você pode usar a configuração do registro CustomStateURL para especificar um local não HTTPS para o arquivo de configuração. Observe que o Lync 2013 homenageia as configurações do registro do Lync 2010, mas o hive do registro foi atualizado. Você criaria as configurações do registro da seguinte maneira: 
 > <UL>
 > <LI>
-> <P>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\EnableSIPHighSecurityMode</P>
+> <P>HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync\EnableSIPHighSecurityMode</P>
 > <P>Tipo: DWORD</P>
 > <P>Dados do valor: 0</P>
 > <LI>
-> <P>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\CustomStateURL</P>
+> <P>HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync\CustomStateURL</P>
 > <P>Tipo: String (REG_SZ)</P>
 > <P>Dados de valor (exemplos):\\file://lspool. Corp. contoso. com\LSFileShare\ClientConfigFolder\Presence.xml ou file:///c:/LSFileShare/ClientConfigFolder/Group_1_Pres.xml</P></LI></UL>
 
@@ -118,7 +120,7 @@ Para obter detalhes, consulte [New-CsClientPolicy](https://docs.microsoft.com/po
 > <LI>
 > <P>Por padrão, o Lync Server&nbsp;2013 atualiza as políticas e as configurações do cliente a cada três horas.</P>
 > <LI>
-> <P>Se você quiser continuar a usar as configurações de política de grupo de versões anteriores, como o CustomStateURL, o Lync 2013 reconhecerá as configurações se elas estiverem localizadas no novo hive do registro de política (HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync). No entanto, as políticas de cliente baseadas em servidor têm precedência.</P></LI></UL>
+> <P>Se você quiser continuar a usar as configurações de política de grupo de versões anteriores, como o CustomStateURL, o Lync 2013 reconhecerá as configurações se elas estiverem localizadas no novo hive do registro de política (HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync). No entanto, as políticas de cliente baseadas em servidor têm precedência.</P></LI></UL>
 
 
 

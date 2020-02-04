@@ -3,6 +3,8 @@ title: Entendendo associações do Chat Persistente
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Understanding Persistent Chat membership
 ms:assetid: 900392d6-6e9f-4dae-93d6-39d7474409ef
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398730(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184781
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e525d93e58e73304b9d3a26248418c88b5e9ea79
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c2b4eb5fbe4342c1bd6bcb3bbb842e076e5863ad
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844130"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741941"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34844130"
 
 _**Tópico da última modificação:** 2013-02-22_
 
-O acesso do usuário a salas de chat persistente é gerenciado por associação; os usuários devem ser membros de uma sala de chat para poder postar e ler mensagens. Somente **** os apresentadores que têm uma afiliação designada com salas de chat podem usar o **lançamento para salas Auditorium**. Um Auditorium é um tipo de sala de chat (a outra é **normal**), onde somente os apresentadores podem postar e todos podem ler.
+O acesso do usuário a salas de chat persistente é gerenciado por associação; os usuários devem ser membros de uma sala de chat para poder postar e ler mensagens. Somente os **apresentadores** que têm uma afiliação designada com salas de chat podem usar o **lançamento para salas Auditorium**. Um Auditorium é um tipo de sala de chat (a outra é **normal**), onde somente os apresentadores podem postar e todos podem ler.
 
 Além disso, as salas de chat persistente funcionam nas regras de uma categoria. Para obter detalhes sobre categorias, consulte [Gerenciando categorias, salas e suplementos no Lync Server 2013](lync-server-2013-managing-categories-rooms-and-add-ins.md)e também as seções "como o escopo da categoria funciona" e "estratégias de categoria da sala", mais adiante neste tópico.
 
@@ -63,7 +65,7 @@ O servidor de chat persistente depende do Active Directory para o pool de usuár
 
 ## <a name="how-category-scoping-works"></a>Como o escopo da categoria funciona
 
-Uma categoria especifica todos os usuários e grupos que podem ser membros de uma lista de membros de uma sala de chat persistente na categoria, com base em sua propriedade **AllowedMembers** . Por exemplo, se você definir o **AllowedMembers** da categoria como contoso.com, poderá adicionar qualquer grupo ou usuário na *contoso* como membro para salas de chat nessa categoria. Se você definir o **AllowedMembers** em uma categoria para *vendas*, somente grupos e usuários nesta lista de distribuição poderão ser adicionados como membros a salas de chat nessa categoria. Da mesma forma **** , a propriedade Creators permite que você controle quem pode criar salas de chat nessa categoria. Após a criação da sala de chat, qualquer pessoa do grupo **AllowedMembers** pode ser designada como **gerente** para operações de gerenciamento contínuo nas salas (por exemplo, alterações de associação e aprovações).
+Uma categoria especifica todos os usuários e grupos que podem ser membros de uma lista de membros de uma sala de chat persistente na categoria, com base em sua propriedade **AllowedMembers** . Por exemplo, se você definir o **AllowedMembers** da categoria como contoso.com, poderá adicionar qualquer grupo ou usuário na *contoso* como membro para salas de chat nessa categoria. Se você definir o **AllowedMembers** em uma categoria para *vendas*, somente grupos e usuários nesta lista de distribuição poderão ser adicionados como membros a salas de chat nessa categoria. Da mesma forma, a propriedade **Creators** permite que você controle quem pode criar salas de chat nessa categoria. Após a criação da sala de chat, qualquer pessoa do grupo **AllowedMembers** pode ser designada como **gerente** para operações de gerenciamento contínuo nas salas (por exemplo, alterações de associação e aprovações).
 
 A definição de **AllowedMembers** e **criadores** para uma categoria tem os seguintes benefícios:
 

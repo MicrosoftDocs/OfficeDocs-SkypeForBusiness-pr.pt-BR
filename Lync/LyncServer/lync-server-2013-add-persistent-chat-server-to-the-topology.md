@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Adicionar Servidor de Chat Persistente à topologia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Add Persistent Chat Server to the topology
 ms:assetid: 8389b307-8c17-4e45-b3b5-5dc9fcfc2ffb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205049(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8985ee2fd28a81f3630e4f80c0ac4dd5a23d4475
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 53f8c65f561a0f2c7b1937d60344c0177d221ba8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836941"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738227"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Você deve incorporar o Lync Server 2013, o suporte persistente do servidor de c
 
 ## <a name="to-add-persistent-chat-server-to-a-topology"></a>Para adicionar um servidor de chat persistente a uma topologia
 
-Execute as etapas a seguir para instalar um único pool de servidores de chat persistente sem uma configuração de recuperação de desastres. Para configurar um pool de servidor de chat persistente ampliado para alta disponibilidade e recuperação de desastres, consulte Configurando o [servidor de chat persistente para alta disponibilidade e recuperação de desastres no Lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md) na documentação de implantação.
+Execute as etapas a seguir para instalar um único pool de servidores de chat persistente sem uma configuração de recuperação de desastres. Para configurar um pool de servidor de chat persistente ampliado para alta disponibilidade e recuperação de desastres, consulte [Configurando o servidor de chat persistente para alta disponibilidade e recuperação de desastres no Lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md) na documentação de implantação.
 
 Para implantar vários pools de servidores de chat persistentes, repita o mesmo processo para cada pool.
 
@@ -51,14 +53,14 @@ Para implantar vários pools de servidores de chat persistentes, repita o mesmo 
     
 
     > [!NOTE]  
-    > Você pode definir uma topologia usando uma conta que seja membro do grupo usuários local, mas para publicar uma topologia, que é necessária para instalar um servidor do Lync Server 2013, você deve usar uma conta que seja membro do grupo <STRONG>Administradores de domínio</STRONG> e o <STRONG>RTCUniversalS erverAdmins</STRONG> grupo, e que tem permissões de controle total (ou seja, ler, gravar e modificar) no repositório de arquivos que você vai usar para o repositório de arquivos persistente do servidor de chat (ou seja, o construtor de topologia pode configurar as DACLs obrigatórias) ou uma conta com direitos equivalentes.
+    > Você pode definir uma topologia usando uma conta que seja membro do grupo usuários local, mas para publicar uma topologia, que é necessária para instalar um servidor do Lync Server 2013, você deve usar uma conta que seja membro do grupo <STRONG>Domain admins</STRONG> e do grupo <STRONG>RTCUniversalServerAdmins</STRONG> , e que tenha permissões de controle total (ou seja, ler, gravar e modificar) no repositório de arquivos que você usará para o repositório de arquivos do servidor de chat persistente (ou seja, para que o construtor de topologias possa configurar as DACLs obrigatórias) ou uma conta com direitos equivalentes.
 
     
     </div>
 
 2.  Iniciar o construtor de topologias.
 
-3.  Na árvore de console, navegue até o nó de pools de **chat persistente** e expanda-o para selecionar um pool de servidores de chat persistente, ou clique com o botão direito do mouse no nó e selecione **novo pool de chat persistente**. You must define the pool’s fully qualified domain name (FQDN), and indicate whether the pool will be a single-server pool or multiple-server pool deployment.
+3.  Na árvore de console, navegue até o nó de **pools de chat persistente** e expanda-o para selecionar um pool de servidores de chat persistente, ou clique com o botão direito do mouse no nó e selecione **novo pool de chat persistente**. You must define the pool’s fully qualified domain name (FQDN), and indicate whether the pool will be a single-server pool or multiple-server pool deployment.
     
     Você pode escolher entre um **Pool de múltiplos computadores** ou um **Pool de computador único**. Escolha o primeiro se estiver planejando ter mais de um servidor front-end persistente do servidor de chat em seu pool de servidores de chat persistente. É possível escolher agora ou depois, já que após a criação do pool de computador único não é possível adicionar outros servidores. Se você escolher um pool de vários computadores, insira os nomes dos servidores de front-end persistentes do servidor de chat que compõem o pool.
     
@@ -83,7 +85,7 @@ Para implantar vários pools de servidores de chat persistentes, repita o mesmo 
     
 
     > [!IMPORTANT]  
-    > Você pode personalizar os recursos de criação e gerenciamento de sala usando o SDK (Kit de desenvolvimento de software) do servidor de chat persistente.<BR>Para obter detalhes sobre como configurar bancos de dados de backup do SQL Server para recuperação de desastres, consulte Configurando o <A href="lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md">servidor de chat persistente para alta disponibilidade e recuperação de desastres no Lync Server 2013</A> na documentação de implantação.
+    > Você pode personalizar os recursos de criação e gerenciamento de sala usando o SDK (Kit de desenvolvimento de software) do servidor de chat persistente.<BR>Para obter detalhes sobre como configurar bancos de dados de backup do SQL Server para recuperação de desastres, consulte <A href="lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md">Configurando o servidor de chat persistente para alta disponibilidade e recuperação de desastres no Lync Server 2013</A> na documentação de implantação.
 
     
     </div>
@@ -106,7 +108,7 @@ Para implantar vários pools de servidores de chat persistentes, repita o mesmo 
     
 
     > [!IMPORTANT]  
-    > Para obter detalhes sobre como configurar os espelhos do SQL Server para alta disponibilidade para o banco de dados persistente do servidor de chat e o banco de dados de conformidade do servidor de chat persistente, consulte Configurando o <A href="lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md">servidor de chat persistente para alta disponibilidade e recuperação de desastre no Lync Server 2013</A> na documentação de implantação.
+    > Para obter detalhes sobre como configurar os espelhos do SQL Server para alta disponibilidade para o banco de dados persistente do servidor de chat e o banco de dados de conformidade do servidor de chat persistente, consulte <A href="lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md">Configurando o servidor de chat persistente para alta disponibilidade e recuperação de desastres no Lync Server 2013</A> na documentação de implantação.
 
     
     </div>

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: pré-requisitos para federação com um cliente do Lyn
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Prerequisites for federating with a Lync Online customer
 ms:assetid: f57d8f8a-2b1e-4186-a74f-1d7c6872bfdc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202196(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185838
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af3db1918e2d347084f1bbdcdf5ea4eb92ae8d91
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 337189476cf7c2767b359086014944715afbd623
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823669"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747261"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Tópico da última modificação:** 2012-10-19_
 
 Para federar-se com um cliente do Lync Online 2010, você já deve ter concluído a implantação e a configuração iniciais do Lync Server 2013 em sua organização. Isso inclui o seguinte:
 
-  - Implantar pelo menos um servidor Standard Edition ou um pool de front-end do Enterprise Edition em sua organização. Para obter detalhes sobre a implantação de servidores internos, consulte Implantando o [Lync Server 2013](lync-server-2013-deploying-lync-server.md) na documentação de implantação.
+  - Implantar pelo menos um servidor Standard Edition ou um pool de front-end do Enterprise Edition em sua organização. Para obter detalhes sobre a implantação de servidores internos, consulte [implantando o Lync Server 2013](lync-server-2013-deploying-lync-server.md) na documentação de implantação.
 
   - Habilitando contas de usuário internas do Lync Server 2013. Para obter detalhes, consulte [desabilitar ou habilitar novamente a conta de usuário do Lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md) na documentação de implantação ou a documentação de operações.
 

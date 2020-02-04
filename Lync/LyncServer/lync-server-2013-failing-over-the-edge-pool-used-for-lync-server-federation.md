@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Failover do pool de Borda usado para federação do Se
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Failing over the Edge pool used for Lync Server federation
 ms:assetid: 5c9da0f2-7429-40bb-bb3c-5cc4ecb5a13d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688071(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733665
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 68969c0e7be81eca835661e3fb6a19f1565e623f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f144def3d3a8df9cc63221342a85666eb3c28913
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829166"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765189"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,11 +43,11 @@ Se o pool de bordas em que você tem a Federação do Lync Server configurada fi
 
 ## <a name="failing-over-the-edge-pool-used-for-lync-server-federation"></a>Falha sobre o pool de bordas usado para a Federação do Lync Server
 
-1.  Em um servidor front-end, abra o construtor de topologias. Expanda Pools de **bordas**, clique com o botão direito do mouse no servidor de borda ou no pool do servidor de borda que está atualmente configurado para Federação. Selecione **Editar propriedades**.
+1.  Em um servidor front-end, abra o construtor de topologias. Expanda **pools de bordas**, clique com o botão direito do mouse no servidor de borda ou no pool do servidor de borda que está atualmente configurado para Federação. Selecione **Editar propriedades**.
 
 2.  Em **Editar propriedades** em **geral**, desmarque **habilitar Federação para este pool de bordas (porta 5061)**. Clique em **OK**.
 
-3.  Expanda Pools de **bordas**e clique com o botão direito do mouse no servidor de borda ou no pool do servidor de borda que você agora deseja usar para a Federação. Selecione **Editar propriedades**.
+3.  Expanda **pools de bordas**e clique com o botão direito do mouse no servidor de borda ou no pool do servidor de borda que você agora deseja usar para a Federação. Selecione **Editar propriedades**.
 
 4.  Em **Editar propriedades** em **geral**, selecione **habilitar Federação para este pool de bordas (porta 5061)**. Clique em **OK**.
 

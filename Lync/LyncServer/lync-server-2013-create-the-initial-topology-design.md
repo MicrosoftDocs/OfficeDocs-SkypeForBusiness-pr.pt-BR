@@ -3,6 +3,8 @@ title: 'Lync Server 2013: criar o design inicial da topologia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create the initial design
 ms:assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615047(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541530
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 656e9605695fe7dab160469ffa9e9c5075ac807b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7fc8d3e731c2772b275dd861c41b8c10f2127a2a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829768"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756955"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,13 +57,13 @@ Após concluir a instalação do Lync Server 2013, ferramenta de planejamento, v
 
 2.  Após o início da ferramenta de planejamento, a página **Bem-vindo à ferramenta de planejamento para o Microsoft Lync Server 2013** é exibida. Escolha uma das seguintes opções para começar seu design:
     
-      - **Opção 1:**   comece a clicar **** em introdução fornece uma série específica de perguntas de entrevista com seleções relevantes para definir os critérios. Após ter finalizado a seção de entrevista  **Iniciando** inicial, você continua com  **Design de sites** para definir sua arquitetura de site. Para concluir esta opção, continue na etapa 3.
+      - **Opção 1:**   comece **a clicar em introdução fornece** uma série específica de perguntas de entrevista com seleções relevantes para definir os critérios. Após ter finalizado a seção de entrevista  **Iniciando** inicial, você continua com  **Design de sites** para definir sua arquitetura de site. Para concluir esta opção, continue na etapa 3.
     
-      - **Opção 2: sites**   de design clicar em **sites de design** na página de boas-vindas ignora as **** perguntas da entrevista apresentadas na seção Introdução. Com esta opção, as informações que teriam sido recolhidas com as respostas às perguntas da entrevistas na seção **Introdução** são definidas como os valores padrão. Ao clicar em **Projetar sites**, o designer experiente pode ignorar a entrevista inicial e alterar os valores padrões conforme necessário na página inicial  **Sites centrais**. Para concluir esta opção, pule as etapas de 3 a 5 e comece na etapa 6.
+      - **Opção 2: sites**   de design clicar em **sites de design** na página de boas-vindas ignora as perguntas da entrevista apresentadas **na seção Introdução** . Com esta opção, as informações que teriam sido recolhidas com as respostas às perguntas da entrevistas na seção **Introdução** são definidas como os valores padrão. Ao clicar em **Projetar sites**, o designer experiente pode ignorar a entrevista inicial e alterar os valores padrões conforme necessário na página inicial  **Sites centrais**. Para concluir esta opção, pule as etapas de 3 a 5 e comece na etapa 6.
     
       - **Opção 3: exibir sua topologia**   salva se você já tiver concluído e salvo uma topologia por meio do uso anterior da ferramenta de planejamento, poderá ignorar a maioria dessas etapas e começar abrindo e exibindo a topologia. Você também pode fazer alterações e atualizações na topologia, salvá-la novamente e exportá-la para o Microsoft Excel ou Microsoft Visio. Para concluir esta opção, pule as etapas de 3 a 12 e comece na etapa 13.
 
-3.  Clique **** em introdução para começar a criar sua topologia do Lync Server 2013.
+3.  Clique **em introdução para** começar a criar sua topologia do Lync Server 2013.
 
 4.  Responda cada seção selecionando os critérios apropriados para seu design e clique em **Avançar ** para prosseguir à próxima página do assistente. Clique em **Voltar** para fazer alterações nas páginas anteriores.
     
@@ -89,7 +91,7 @@ Após concluir a instalação do Lync Server 2013, ferramenta de planejamento, v
 
 7.  Em **nome do site**, digite o nome que identificará esse site central.
 
-8.  Em **usuários**de residências do site, digite o número esperado de usuários simultâneos locais que serão hospedados neste site central.
+8.  Em **usuários de residências do site**, digite o número esperado de usuários simultâneos locais que serão hospedados neste site central.
 
 9.  Em **usuários de casa na nuvem**, digite o número esperado de usuários simultâneos online que serão hospedados neste site central.
 

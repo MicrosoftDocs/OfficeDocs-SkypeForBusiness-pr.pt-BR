@@ -3,6 +3,8 @@ title: Resumo de DNS-SIP, Federação de XMPP e mensagens instantâneas pública
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - SIP, XMPP federation, and public instant messaging
 ms:assetid: 1ed24fb8-a849-44c0-a52e-7aef7527e644
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618369(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49105656
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c22b38fdb9e936df8b3fd148022acdbd857cdcfb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c927836377a0c7c14054073a9cf17ce638662450
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829343"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757565"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34829343"
 
 _**Tópico da última modificação:** 2017-03-09_
 
-Os registros DNS (sistema de nomes de domínio) que serão necessários para definir uma federação com o Office Communications Server ou com os parceiros do Lync Server são determinados pela sua decisão de permitir a descoberta automática de DNS do seu domínio por outros parceiros de perspectiva. Se você publicar o \_sipfederationtls. \_TCP. * \<Nome\> de domínio SIP* Registro SRV, qualquer outro domínio federado SIP poderá "descobrir" sua Federação. Você pode controlar quais domínios federados podem se comunicar com você usando as configurações permitir domínios e domínios bloqueados no painel de controle do Lync Server, ou definindo a configuração de domínios permitidos ou bloqueados usando o Shell de gerenciamento do Lync Server e o ** **Cmdlets Get, **set**, **New**, **Remove-CsAllowedDomain** e **-CsBlockedDomain** do PowerShell. Para obter informações adicionais sobre como definir as configurações de contratação e o uso dos cmdlets do PowerShell, consulte **Tópicos relacionados** no final deste tópico.
+Os registros DNS (sistema de nomes de domínio) que serão necessários para definir uma federação com o Office Communications Server ou com os parceiros do Lync Server são determinados pela sua decisão de permitir a descoberta automática de DNS do seu domínio por outros parceiros de perspectiva. Se você publicar o \_sipfederationtls. \_TCP. * \<Nome\> de domínio SIP* Registro SRV, qualquer outro domínio federado SIP poderá "descobrir" sua Federação. Você pode controlar quais domínios federados podem se comunicar com você usando as configurações permitir domínios e domínios bloqueados no painel de controle do Lync Server, ou definindo a configuração de domínios permitidos ou bloqueados usando o Shell de gerenciamento do Lync e os cmdlets **Get**, **set**, **New**, **Remove-CsAllowedDomain** e **-CsBlockedDomain** do PowerShell. Para obter informações adicionais sobre como definir as configurações de contratação e o uso dos cmdlets do PowerShell, consulte **Tópicos relacionados** no final deste tópico.
 
 A tabela de Resumo de registros DNS mostra as entradas necessárias para uma federação aberta ou detectável. Se você não quiser implementar a descoberta de Federação, poderá decidir não configurar o \_sipfederationtls. \_TCP. Registro de *nome\> de domínio SIP. \<*
 
@@ -43,7 +45,7 @@ A tabela de Resumo de registros DNS mostra as entradas necessárias para uma fed
 
 
 > [!IMPORTANT]
-> Há cenários específicos nos quais você deve ter o sipfederationtls. _ TCP. <EM> &lt;Nome&gt; de domínio SIP</EM> SRV Record, mas você não quer ter uma federação detectável. Uma dessas instâncias é onde você implantou a mobilidade para seus usuários. A PNCH (Mobility Push Notification Clearinghouse) é um tipo especial de Federação usado para clientes móveis do Microsoft Lync no iPhone ou iPad com o Lync 2010 usando o cliente móvel do Lync ou o Windows Phone usando os clientes móveis do Lync 2010 ou Lync 2013. O sipfederationtls. _ TCP. <EM> &lt;Nome&gt; de domínio SIP</EM> O registro SRV é usado no caso de mobilidade e notificação por push. Para reduzir esse problema e controlar sua descoberta, desmarque a configuração <STRONG>habilitar descoberta de domínio parceiro</STRONG> para desativar a descoberta.
+> Há cenários específicos nos quais você deve ter o _sipfederationtls. _tcp. <EM> &lt;Nome&gt; de domínio SIP</EM> SRV Record, mas você não quer ter uma federação detectável. Uma dessas instâncias é onde você implantou a mobilidade para seus usuários. A PNCH (Mobility Push Notification Clearinghouse) é um tipo especial de Federação usado para clientes móveis do Microsoft Lync no iPhone ou iPad com o Lync 2010 usando o cliente móvel do Lync ou o Windows Phone usando os clientes móveis do Lync 2010 ou Lync 2013. O _sipfederationtls. _tcp. <EM> &lt;Nome&gt; de domínio SIP</EM> O registro SRV é usado no caso de mobilidade e notificação por push. Para reduzir esse problema e controlar sua descoberta, desmarque a configuração <STRONG>habilitar descoberta de domínio parceiro</STRONG> para desativar a descoberta.
 
 
 

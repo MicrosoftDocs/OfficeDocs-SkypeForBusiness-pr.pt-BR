@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requisitos de DNS para servidor Standard Edition'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS requirements for a Standard Edition server
 ms:assetid: 5d1daf54-6e60-4ce0-9254-7d57a0835fa4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204936(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184259
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7508fea0fa6640546bda4f1ecb559821d468803d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3ab4280ca3ed329d0dc926756f6bfd933595ca08
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829371"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739171"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ A tabela a seguir especifica requisitos de DNS para a implantação do servidor 
 </tr>
 <tr class="even">
 <td><p>Entrada automática do cliente</p></td>
-<td><p>Para cada domínio SIP compatível, um registro SRV para _sipinternaltls. _ TCP. &lt;domínio&gt; na porta 5061 que mapeia para o FQDN do servidor Standard Edition que autentica e redireciona solicitações do cliente para entrar. Para obter detalhes, consulte <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">requisitos de DNS para entrada automática do cliente no Lync Server 2013</a>.</p></td>
+<td><p>Para cada domínio SIP compatível, um registro SRV para _sipinternaltls. _tcp. &lt;domínio&gt; na porta 5061 que mapeia para o FQDN do servidor Standard Edition que autentica e redireciona solicitações do cliente para entrar. Para obter detalhes, consulte <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">requisitos de DNS para entrada automática do cliente no Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Descoberta de serviços Web de atualização de dispositivo por dispositivos de comunicação unificada (UC)</p></td>

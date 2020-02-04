@@ -3,6 +3,8 @@ title: Adicionar Aparelho de Filial Persistente do Lync Server 2013 a sua topolo
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Add Lync Server 2013 Survivable Branch Appliance branch site to your topology
 ms:assetid: d3142a37-4606-456d-8ea9-6cc0e51e55f3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721896(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733830
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 83ae19b3683b725db64b2f598eb6fc3d182bac17
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b4fc2dd7426006d0c8f19b38b85ba778744fff2e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836946"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735011"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ Microsoft Lync Server 2013 não é possível associar aparelhos de ramificação
 
 1.  Iniciar o construtor de topologias: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Construtor de topologias do Lync Server**.
 
-2.  Na árvore de console, expanda o site central, expanda **sites**de ramificação e clique em **novo site de filial**.
+2.  Na árvore de console, expanda o site central, expanda **sites de ramificação**e clique em **novo site de filial**.
 
 3.  Na caixa de diálogo **definir novo site de filial** , clique em **nome**e digite um nome para o novo site de filial.
 
@@ -51,7 +53,7 @@ Microsoft Lync Server 2013 não é possível associar aparelhos de ramificação
 
 5.  Click **Next**.
 
-6.  Adicionais Na caixa de diálogo próximo **definir novo site** de filiais, siga um destes procedimentos:
+6.  Adicionais Na caixa de diálogo próximo **definir novo site de filiais** , siga um destes procedimentos:
     
       - Clique em **cidade**e digite o nome da cidade na qual o site da filial está localizado.
     

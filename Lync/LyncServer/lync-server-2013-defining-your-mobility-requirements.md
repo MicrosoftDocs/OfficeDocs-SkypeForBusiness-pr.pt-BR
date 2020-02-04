@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Definindo seus requisitos de mobilidade'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining your mobility requirements
 ms:assetid: b7608335-cdeb-4aae-8e4b-d80c55f0d62b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690039(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185226
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 604812d96f58a53ee008bfe42603243571138d1e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2721f88ce703fe4c26fbc7a9a6cd02cdde6b14a8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829713"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762748"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -173,11 +175,11 @@ Estas são as decisões que você deve considerar:
     </tbody>
     </table>
     
-    Para obter uma descrição das configurações de política que você pode configurar e como gerenciar as políticas, consulte [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy), [set-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsMobilityPolicy), [Get-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsMobilityPolicy), [Grant-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsMobilityPolicy) e [ Remove-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsMobilityPolicy).
+    Para obter uma descrição das configurações de política que você pode configurar e como gerenciar as políticas, consulte [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy), [set-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsMobilityPolicy), [Get-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsMobilityPolicy), [Grant-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsMobilityPolicy) e [Remove-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsMobilityPolicy).
 
   - **Você deseja que os usuários que não estão habilitados para o Enterprise Voice possam usar o clique para ingressar em conferências?**
     
-    Para que os usuários tenham acesso aos recursos da mobilidade e liguem pelo trabalho, eles devem ser habilitados para o Enterprise Voice. No entanto, os usuários que não estão habilitados para o Enterprise Voice podem participar de conferências clicando no link em seu dispositivo móvel, caso tenham uma política de voz apropriada atribuída a eles. Você pode atribuir uma política de voz específica a esses usuários ou verificar se existe uma política global ou política de nível de site que se aplica a ele. A política de voz que você atribui deve ter registros de uso de rede telefônica pública comutada (PSTN) e rotas que definem as áreas às quais os usuários podem discar para ingressar em uma conferência. Para obter detalhes sobre a configuração de política de voz, registros de uso de PSTN e rotas, consulte Configurando [políticas de voz, registros de uso PSTN e rotas de voz no Lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md).
+    Para que os usuários tenham acesso aos recursos da mobilidade e liguem pelo trabalho, eles devem ser habilitados para o Enterprise Voice. No entanto, os usuários que não estão habilitados para o Enterprise Voice podem participar de conferências clicando no link em seu dispositivo móvel, caso tenham uma política de voz apropriada atribuída a eles. Você pode atribuir uma política de voz específica a esses usuários ou verificar se existe uma política global ou política de nível de site que se aplica a ele. A política de voz que você atribui deve ter registros de uso de rede telefônica pública comutada (PSTN) e rotas que definem as áreas às quais os usuários podem discar para ingressar em uma conferência. Para obter detalhes sobre a configuração de política de voz, registros de uso de PSTN e rotas, consulte [Configurando políticas de voz, registros de uso PSTN e rotas de voz no Lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md).
     
     <div>
     

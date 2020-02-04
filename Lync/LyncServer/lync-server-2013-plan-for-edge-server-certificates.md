@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planejar certificados do Servidor de Borda'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Plan for Edge Server certificates
 ms:assetid: f1dfe220-2398-4ac8-ba4c-206c8c0cbc50
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413010(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185798
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 737e0845b4b9966accd8c450b8a300b4f1bb128e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: faad6dba610df8033b75b0c87c52fbb065dc5dcb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825153"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755171"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ A criação de certificados para o Edge é simplificada no Lync Server 2013.
 
 **Fluxograma de certificados do servidor de borda**
 
-![a5fc20db-7ced-4364-b577-6a709a8367cd] (images/Gg413010.a5fc20db-7ced-4364-b577-6a709a8367cd(OCS.15).jpg "a5fc20db-7ced-4364-b577-6a709a8367cd")
+![a5fc20db-7ced-4364-b577-6a709a8367cd](images/Gg413010.a5fc20db-7ced-4364-b577-6a709a8367cd(OCS.15).jpg "a5fc20db-7ced-4364-b577-6a709a8367cd")
 
 Crie um único certificado público, verifique se você tem uma chave privada exportável definida para o certificado e atribui-la às seguintes interfaces externas do servidor de borda usando o assistente de certificado:
 
@@ -89,7 +91,7 @@ Crie um único certificado interno com a chave privada exportável, copie e atri
 
 
 > [!IMPORTANT]  
-> É possível usar certificados separados e distintos para cada serviço do servidor de borda. Um bom motivo para escolher certificados separados é se você quiser usar o novo recurso de certificado de reversão para o certificado de serviço de borda A/V. No caso desse recurso, é recomendável a dissociação do certificado de serviço de borda a/V do serviço de borda de acesso e do serviço de borda de conferência via Web. Se você optar por solicitar, adquirir e atribuir certificados separados para cada serviço, será necessário solicitar que a chave privada seja exportável para o serviço de borda A/V (novamente, isso está em realidade, o serviço de autenticação A/V) e atribui o mesmo certificado à/V Interface externa Edge em cada servidor de borda.
+> É possível usar certificados separados e distintos para cada serviço do servidor de borda. Um bom motivo para escolher certificados separados é se você quiser usar o novo recurso de certificado de reversão para o certificado de serviço de borda A/V. No caso desse recurso, é recomendável a dissociação do certificado de serviço de borda a/V do serviço de borda de acesso e do serviço de borda de conferência via Web. Se você optar por solicitar, adquirir e atribuir certificados separados para cada serviço, será necessário solicitar que a chave privada seja exportável para o serviço de borda A/V (novamente, isso está em realidade, o serviço de autenticação A/V) e atribui o mesmo certificado à interface externa de Edge a/V em cada servidor de borda.
 
 
 

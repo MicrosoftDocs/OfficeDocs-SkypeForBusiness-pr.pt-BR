@@ -3,6 +3,8 @@ title: 'Lync Server 2013: cmdlets de conferência'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Conferencing cmdlets
 ms:assetid: 7ff94637-6319-4c45-9230-be34e8d81ede
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398641(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184640
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9bd951904e14d864c165ff98c50088b96e42f04f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9a95cf0c07726670b15891b2a067346e3452f333
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836475"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741551"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ O Microsoft Lync Server 2013 permite que os usuários ingressem em conferências
 
 ## <a name="conferencing-cmdlets"></a>Cmdlets de conferência
 
-Os cmdlets do **CsDialInConferencing** são usados para configurar propriedades de conferência discada, incluindo tudo, de especificar os números de telefone que os usuários podem chamar para ingressar em uma conferência para os comandos do teclado de discagem disponíveis depois de ingressar em um Conferência (por exemplo, pressionar 6 para ativar ou desativar o mudo do telefone). A maioria dos outros recursos de uma conferência (por exemplo, os usuários podem gravar a conferência, os usuários podem compartilhar aplicativos durante a conferência e assim por diante) são gerenciados usando cmdlets **CsConferencingPolicy** .
+Os cmdlets do **CsDialInConferencing** são usados para configurar propriedades de conferência discada, incluindo tudo, de especificar os números de telefone que os usuários podem chamar para ingressar em uma conferência para os comandos do teclado de entrada disponíveis para eles depois de ingressar em uma conferência (por exemplo, pressionar 6 para ativar ou desativar o mudo do telefone). A maioria dos outros recursos de uma conferência (por exemplo, os usuários podem gravar a conferência, os usuários podem compartilhar aplicativos durante a conferência e assim por diante) são gerenciados usando cmdlets **CsConferencingPolicy** .
 
 **[Cmdlets de conferência discada no Lync Server 2013](lync-server-2013-dial-in-conferencing-cmdlets.md)**
 

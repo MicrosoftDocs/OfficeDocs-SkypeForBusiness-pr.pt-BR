@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Roteamento do Exchange UM hospedado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Hosted Exchange UM routing
 ms:assetid: 6c90dc8b-6aef-4ce8-b483-37c7b5a553c2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398512(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184422
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 90cc1112effd0eac0a25614ee50d7008ee1c5e37
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e04198813f7bb0647671dbb23e12889b108ee846
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829054"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739001"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ O aplicativo de roteamento do Exchange UM do Lync Server 2013 usa as informaçõ
 
 **Exemplo de implantação mista de roteamento UM do Exchange**
 
-![Implantação do Exchange um do Lync Server local] (images/Gg398512.75258286-1f23-487b-bf46-d8538e7d540e(OCS.15).jpg "Implantação do Exchange um do Lync Server local")
+![Implantação do Exchange UM do Lync Server local](images/Gg398512.75258286-1f23-487b-bf46-d8538e7d540e(OCS.15).jpg "Implantação do Exchange UM do Lync Server local")
 
 O roteamento do Exchange UM pode ser configurado para direcionar chamadas para usuários que estão habilitados para o Exchange um local, para usuários que estão habilitados para um Exchange UM hospedado ou para uma combinação dos dois.
 

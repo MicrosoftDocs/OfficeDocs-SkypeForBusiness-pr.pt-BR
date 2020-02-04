@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Clientes com suporte de implantações anteriores'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supported clients from previous deployments
 ms:assetid: 69d427f8-57a5-4244-b2ed-f2eb7600285e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398499(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184390
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b5cbecf45a9ea5203b3e459a895b2bddb0cfe55
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 38d4fe00b834778f1ad87f021656ed08488c1ba2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844824"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731721"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -140,7 +142,7 @@ os recursos de presença e de mensagem instantânea do 3The no Office Communicat
 
 
 > [!NOTE]  
-> Para obter detalhes sobre a capacidade dos clientes do Lync Server 2013 coexistirem e interagir com clientes de versões anteriores do Lync Server e do Office Communications Server, consulte interoperabilidade <A href="lync-server-2013-client-interoperability-in-lync-2013.md">do cliente no Lync 2013</A> na documentação de planejamento.
+> Para obter detalhes sobre a capacidade dos clientes do Lync Server 2013 coexistirem e interagir com clientes de versões anteriores do Lync Server e do Office Communications Server, consulte <A href="lync-server-2013-client-interoperability-in-lync-2013.md">interoperabilidade do cliente no Lync 2013</A> na documentação de planejamento.
 
 
 

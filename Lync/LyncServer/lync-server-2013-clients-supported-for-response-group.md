@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Clientes suportados para o Grupo de Resposta'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Clients supported for Response Group
 ms:assetid: 84911025-e754-41a8-ba48-e31c058fc557
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398674(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184705
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f3da4701a2520f38bd6b4718f51f60342bd6685e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e1fa7728e0ebee1d12d4cf57fdc7aaaf0abfe410
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836547"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756435"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -61,9 +63,9 @@ Para obter detalhes sobre novos recursos, consulte [novos recursos de aplicativo
 
 O cliente específico que você pode usar depende do tipo de usuário do grupo de resposta que você está:
 
-  - **** Os chamadores podem chamar um grupo de resposta usando qualquer um dos clientes listados anteriormente e usando um telefone padrão na rede telefônica pública comutada (PSTN).
+  - Os **chamadores** podem chamar um grupo de resposta usando qualquer um dos clientes listados anteriormente e usando um telefone padrão na rede telefônica pública comutada (PSTN).
 
-  - **Agentes** informais (os agentes que não entram e saem dos seus grupos para aceitar chamadas) podem aceitar chamadas usando o atendente, o Lync ou o Lync Phone Edition. Agentes informais são automaticamente conectados aos seus grupos quando entram no Lync Server 2013 usando um desses clientes.
+  - **Agentes** informais (agentes que não entram e saem dos seus grupos para aceitar chamadas) podem aceitar chamadas usando o atendente, o Lync ou o Lync Phone Edition. Agentes informais são automaticamente conectados aos seus grupos quando entram no Lync Server 2013 usando um desses clientes.
 
   - **Agentes formais** (agentes que devem entrar e sair de seus grupos para aceitar chamadas) podem aceitar chamadas usando o Lync 2013 e acessando o console do agente a partir do item de menu ou usando o atendente e acessando o console do agente diretamente do Internet Explorer.
 

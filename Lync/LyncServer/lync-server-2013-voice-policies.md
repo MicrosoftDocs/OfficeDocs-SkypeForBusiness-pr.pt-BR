@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Políticas de voz'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Voice policies
 ms:assetid: b7433c62-9d8c-48af-89a0-19f0d34806ec
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412891(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185223
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca1e72a1b62a224898d98aec7fcef9bc62ddf8bc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3998bd6f879b20b1a22f46818a22f26bbb2cc29a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844322"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758603"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -106,7 +108,7 @@ O *escopo da política de voz* determina o nível hierárquico no qual a políti
 
   - O **wscape do correio de voz** impede que as chamadas sejam encaminhadas imediatamente para o sistema de correio de voz do celular do usuário quando a chamada simultânea está configurada e o telefone está desligado, sem bateria ou fora de área, tendo por base um valor de temporizador. Essa configuração habilita e desabilita o temporizador e define o valor dele. Ele pode ser configurado somente usando o Shell de gerenciamento do Lync Server. Desabilitado por padrão.
 
-  - O **encaminhamento de chamadas e o uso simultâneo do toque da PSTN** permitem que os administradores especifiquem o mesmo uso de PSTN da política de voz para encaminhamento de chamadas e toque simultâneo, restrinja o encaminhamento de chamadas e o toque simultâneo somente para usuários do Lync internos, ou especifique um uso de PSTN personalizado diferente do uso PSTN da política de voz. O padrão é usar a PSTN da mesma forma que a política de voz para encaminhamento de chamadas e toque simultâneo.
+  - O **encaminhamento de chamadas e o uso simultâneo do toque da PSTN** permitem que os administradores especifiquem o mesmo uso de PSTN da política de voz para encaminhamento de chamadas e toque simultâneo, restrinja o encaminhamento de chamadas e o toque simultâneo somente para usuários do Lync internos ou especifique um uso de PSTN personalizado diferente do uso PSTN da política de voz. O padrão é usar a PSTN da mesma forma que a política de voz para encaminhamento de chamadas e toque simultâneo.
 
 </div>
 

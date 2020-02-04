@@ -3,6 +3,8 @@ title: 'Lync Server 2013: excluindo uma configuração de arquivamento'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deleting an Archiving configuration
 ms:assetid: a8744d39-5cf2-474c-9a99-a0f3a37f846f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205167(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185093
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a67d944de9b2c35c9ea2428603b39ddabbbcb26
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9e4a0c1acf9f605fc927d7006ff50b1f4470c68d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829587"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763115"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34829587"
 
 _**Tópico da última modificação:** 2013-02-23_
 
-Você pode excluir uma configuração de site ou configuração de pool. A configuração global não pode ser removida. Se você excluir a configuração global, ela automaticamente retorna para os valores padrão. Para obter detalhes sobre como as configurações de arquivamento são implementadas, incluindo quais opções você pode especificar e a hierarquia de configurações de arquivamento, consulte [como o arquivamento funciona no Lync Server 2013](lync-server-2013-how-archiving-works.md) na documentação de planejamento, implantação documentação ou documentação de operações.
+Você pode excluir uma configuração de site ou configuração de pool. A configuração global não pode ser removida. Se você excluir a configuração global, ela automaticamente retorna para os valores padrão. Para obter detalhes sobre como as configurações de arquivamento são implementadas, incluindo quais opções você pode especificar e a hierarquia de configurações de arquivamento, consulte [como o arquivamento funciona no Lync Server 2013](lync-server-2013-how-archiving-works.md) na documentação de planejamento, documentação de implantação ou documentação de operações.
 
 <div>
 

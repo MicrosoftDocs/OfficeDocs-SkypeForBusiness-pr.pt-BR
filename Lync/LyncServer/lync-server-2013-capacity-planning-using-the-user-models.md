@@ -3,6 +3,8 @@ title: Planejamento da capacidade do Lync Server 2013 usando os modelos de usuá
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Capacity planning using the user models
 ms:assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615015(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733733
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b7db58e8c6f3e84f95a51ddd393ddca5ec18091
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cd9b3861e4c84b8df7585ad5cfbdfd5a82359282
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836690"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736981"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -163,7 +165,7 @@ A tabela a seguir resume essas recomendações.
 
 </div>
 
-Em um pool de front-ends, você deve ter um servidor front-end para cada usuário do 6.660 hospedado no pool, pressupondo que o hyperthreading esteja habilitado em todos os servidores do pool e que o hardware do servidor atenda às recomendações nas [plataformas de hardware do servidor para o Lync Server 2013](lync-server-2013-server-hardware-platforms.md). O número máximo de usuários em um pool de front-ends é 80.000, pressupondo que o hyperthreading esteja habilitado em todos os servidores do pool. Se você tiver mais de 80.000 usuários em um site, poderá implantar mais de um pool de front-end.
+Em um pool de front-ends, você deve ter um servidor front-end para cada usuário do 6.660 hospedado no pool, pressupondo que a hipersegmentação esteja habilitada em todos os servidores do pool e que o hardware do servidor atenda às recomendações nas [plataformas de hardware do servidor do Lync server 2013](lync-server-2013-server-hardware-platforms.md). O número máximo de usuários em um pool de front-ends é 80.000, pressupondo que o hyperthreading esteja habilitado em todos os servidores do pool. Se você tiver mais de 80.000 usuários em um site, poderá implantar mais de um pool de front-end.
 
 Quando você conta com o número de usuários em um pool Front-end, inclua os usuários hospedados em aparelhos de ramificação sobreviventes e servidores de ramificação sobreviventes em filiais que estão associados a este pool de front-ends.
 
@@ -185,7 +187,7 @@ O número de usuários com suporte com bom desempenho por parte de um pool de fr
 
 
 > [!IMPORTANT]  
-> No Lync Server 2013, os bancos de dados de presença agora são hospedados em servidores front-end, ao contrário do Lync Server 2010 onde eles estavam hospedados no servidor back-end. Isso significa que o desempenho do disco e a capacidade dos seus servidores front-end não devem ser comprometidos das recomendações listadas anteriormente nesta seção e nas <A href="lync-server-2013-server-hardware-platforms.md">plataformas de hardware do servidor do Lync server 2013</A>, independentemente do número de usuários hospedados por seus servidores front-end.
+> No Lync Server 2013, os bancos de dados de presença agora são hospedados em servidores front-end, ao contrário do Lync Server 2010 onde eles estavam hospedados no servidor back-end. Isso significa que o desempenho do disco e a capacidade dos seus servidores front-ends não devem ser comprometidos das recomendações listadas anteriormente nesta seção e nas <A href="lync-server-2013-server-hardware-platforms.md">plataformas de hardware do servidor do Lync server 2013</A>, independentemente do número de usuários hospedados pelos seus servidores front-end.
 
 
 
@@ -310,7 +312,7 @@ Se você colocar o servidor de mediação com servidor front-end, o servidor de 
 
 Se você implantar um pool autônomo do servidor de mediação, o número de servidores de mediação a serem implantados depende de muitos fatores, incluindo o hardware usado para o servidor de mediação, o número de usuários de VoIP que você tem, o número de pares de gateways que cada pool de servidores de mediação controles, o tráfego de horas ocupados por meio desses gateways e a porcentagem de chamadas com mídia que ignora o servidor de mediação.
 
-As tabelas a seguir fornecem uma diretriz para quantas chamadas simultâneas um servidor de mediação pode manipular, pressupondo que o hardware dos servidores de mediação atenda aos requisitos nas [plataformas de hardware do servidor para o Lync Server 2013 e para](lync-server-2013-server-hardware-platforms.md) o Hyper-Threading está habilitado. Para obter detalhes sobre a escalabilidade do servidor de mediação, consulte Estimando o [uso de voz e o tráfego do Lync server 2013](lync-server-2013-estimating-voice-usage-and-traffic.md) e [diretrizes de implantação do servidor de mediação no Lync Server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md).
+As tabelas a seguir fornecem uma diretriz para quantas chamadas simultâneas um servidor de mediação pode manipular, pressupondo que o hardware dos servidores de mediação atenda aos requisitos nas [plataformas de hardware do servidor do Lync server 2013](lync-server-2013-server-hardware-platforms.md) e que o Hyper-Threading esteja habilitado. Para obter detalhes sobre a escalabilidade do servidor de mediação, consulte [estimando o uso de voz e o tráfego do Lync server 2013](lync-server-2013-estimating-voice-usage-and-traffic.md) e [diretrizes de implantação do servidor de mediação no Lync Server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md).
 
 Todas as tabelas a seguir consideram o uso resumido nos [modelos de usuário no Lync Server 2013](lync-server-2013-user-models.md).
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Preparando Serviços de Domínio do Active Directory'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Preparing Active Directory Domain Services
 ms:assetid: 7b0d9aa4-f1ab-4578-b22f-b802b6ed1530
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398607(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184583
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7deb5594c0d3c009ee4b10565bc4dbe12f56d2c4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8abab29930e8b09d0642c84f1e02026d4c554637
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823998"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747431"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -105,7 +107,7 @@ Os seguintes componentes são necessários para executar tarefas de preparação
 
   - Windows PowerShell 3,0 (64 bits)
     
-    Para o Windows Server 2012 e o Windows Server 2012 R2, o Windows PowerShell 3,0 deve estar incluído na instalação do Lync Server 2013. Para o Windows Server 2008 R2, você precisa instalar ou atualizar para o Windows PowerShell 3,0. Para obter detalhes, consulte Instalando o [Windows PowerShell 3,0 para Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md)
+    Para o Windows Server 2012 e o Windows Server 2012 R2, o Windows PowerShell 3,0 deve estar incluído na instalação do Lync Server 2013. Para o Windows Server 2008 R2, você precisa instalar ou atualizar para o Windows PowerShell 3,0. Para obter detalhes, consulte [instalando o Windows PowerShell 3,0 para Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md)
 
 </div>
 

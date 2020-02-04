@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Tabela ConferenceMessageCount'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ConferenceMessageCount table
 ms:assetid: 78569dbf-5217-42fa-ba1a-4380f56e2a3d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398590(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184570
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0d2994f02bf087ef55edff6b2153e7504f881b03
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 426ae4abca9f91fcabaedfb5a363703523d6aa94
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836483"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740021"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -64,7 +66,7 @@ Cada registro nessa tabela representa um usuário em uma conferência de mensage
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primário, estrangeiro</p></td>
-<td><p>Número de identificação para identificar a instância de conferência. Usado em conjunto com <strong></strong> a identificação_da_sessãotime para identificar exclusivamente uma instância de conferência. Consulte a <a href="lync-server-2013-conferences-table.md">tabela conferências no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>Número de identificação para identificar a instância de conferência. Usado em conjunto com a <strong>identificação_da_sessãotime</strong> para identificar exclusivamente uma instância de conferência. Consulte a <a href="lync-server-2013-conferences-table.md">tabela conferências no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ID</strong></p></td>

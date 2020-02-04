@@ -3,6 +3,8 @@ title: Lista de verificação da implantação do Lync Server 2013 para Webconfe
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment checklist for web conferencing
 ms:assetid: 9908ebe0-e5d3-4920-b9b1-85021f7e69e9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205104(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184878
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5f845fd57846d7f9b58351d1cb77f3f1c0142ed
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 426f6419b2127a09dd3c758cdb7d6e418e6c4fc6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829501"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762689"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -74,7 +76,7 @@ A tabela a seguir fornece uma visão geral das etapas necessárias para implanta
 <div>
 
 > [!NOTE]  
-> O Lync Server 2013 usa o Office Web Apps e o Office Web Apps Server para lidar com o compartilhamento e a renderização de apresentações do PowerPoint. Para obter informações sobre como instalar e configurar o Office Web Apps Server, consulte Configurando a <A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">integração com o Office Web Apps Server e o Lync Server 2013</A>.
+> O Lync Server 2013 usa o Office Web Apps e o Office Web Apps Server para lidar com o compartilhamento e a renderização de apresentações do PowerPoint. Para obter informações sobre como instalar e configurar o Office Web Apps Server, consulte <A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Configurando a integração com o Office Web Apps Server e o Lync Server 2013</A>.
 
 
 </div></td>
@@ -88,7 +90,7 @@ A tabela a seguir fornece uma visão geral das etapas necessárias para implanta
 <td><p><strong>Crie a topologia interna apropriada para dar suporte à conferência</strong></p></td>
 <td><p>Execute o construtor de topologias para adicionar conferências à topologia e, em seguida, publique a topologia.</p></td>
 <td><p>Para definir a topologia, uma conta que é membro do grupo local de Usuários</p>
-<p>Para publicar a topologia, uma conta que é membro do grupo Domain admins e do grupo RTCUniversalServerAdmins, e que tem permissões de controle total (leitura/gravação/modificação) no compartilhamento de arquivos a ser usado para o repositório de arquivos do Lync Server 2013 (para que o construtor de topologias possa configurar as DACLs necessárias</p></td>
+<p>Para publicar a topologia, uma conta que é membro do grupo Domain admins e do grupo RTCUniversalServerAdmins e que tem permissões de controle total (ler/gravar/modificar) no compartilhamento de arquivos a ser usado para o repositório de arquivos do Lync Server 2013 (para que o construtor de topologias possa configurar as DACLs necessárias)</p></td>
 <td><p><a href="lync-server-2013-define-and-configure-a-topology-in-topology-builder.md">Defina e configure uma topologia no construtor de topologias para o Lync Server 2013</a> na documentação de implantação.</p></td>
 </tr>
 <tr class="odd">

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Tarefas de implantação de controle de chamada remota
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment tasks for remote call control
 ms:assetid: 20218871-4f27-4611-9b7e-c0ca55908284
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558624(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183599
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f63c9cba56ccedf3559b1e9f1da1ee58cc03e195
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: df80ebcdc879598677a037d60c9eeeee46ba5209
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829456"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762549"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,7 +71,7 @@ Você pode consultar fornecedores no site do programa de interoperabilidade aber
 
 ## <a name="step-2-configure-lync-server-to-route-csta-requests-to-the-sipcsta-gateway"></a>Etapa 2: configurar o Lync Server para direcionar solicitações de CSTA para o gateway SIP/CSTA
 
-Você deve criar rotas estáticas nos pools do Lync Server para o endereço de destino (URI de servidor) de todos os gateways SIP/CSTA em sua implantação para os quais você pretende rotear solicitações de controle de chamada remota. Você também deve criar uma entrada de aplicativo confiável que corresponda a cada endereço de destino. Quando você designa o gateway como um aplicativo confiável, ele recebe um status de confiança para ser executado como parte do ambiente do Lync Server, apesar de ser desenvolvido por terceiros (e executa o que é conhecido como um *serviço externo* porque é um serviço que não é um parte interna do produto). Por fim, se o Lync Server se conectar ao gateway SIP/CSTA usando uma conexão TCP (Transmission Control Protocol) em vez de uma conexão TLS (Transport Layer Security), você também deve definir o endereço IP do gateway usando o construtor de topologias.
+Você deve criar rotas estáticas nos pools do Lync Server para o endereço de destino (URI de servidor) de todos os gateways SIP/CSTA em sua implantação para os quais você pretende rotear solicitações de controle de chamada remota. Você também deve criar uma entrada de aplicativo confiável que corresponda a cada endereço de destino. Quando você designa o gateway como um aplicativo confiável, ele recebe um status de confiança para ser executado como parte do ambiente do Lync Server, apesar de ser desenvolvido por terceiros (e executa o que é conhecido como um *serviço externo* porque é um serviço que não é uma parte interna do produto). Por fim, se o Lync Server se conectar ao gateway SIP/CSTA usando uma conexão TCP (Transmission Control Protocol) em vez de uma conexão TLS (Transport Layer Security), você também deve definir o endereço IP do gateway usando o construtor de topologias.
 
 Para obter detalhes sobre como configurar rotas estáticas, consulte [Configurar uma rota estática para o controle de chamada remota no Lync Server 2013](lync-server-2013-configure-a-static-route-for-remote-call-control.md).
 

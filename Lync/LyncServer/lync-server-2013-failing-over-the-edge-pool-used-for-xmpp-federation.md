@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Failover do pool de Borda usado para federação de XM
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Failing over the Edge pool used for XMPP federation
 ms:assetid: 587e7829-a26b-46f8-8aad-b78a7b325b55
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688065(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733659
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 551774c070ebafd25376d220b20acccc8c573af2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9d1c76dc37ce1abb2d34c474d4144b0894d93a0f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829161"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765179"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Tópico da última modificação:** 2012-10-19_
 
 Em sua organização, há um pool de bordas designado como o pool a ser usado para a Federação do XMPP. Se esse pool ficar inativo, você deve fazer failover da Federação do XMPP para usar um pool de bordas diferente antes que o XMPP federado possa funcionar novamente.
 
-Ao instalar primeiro os pools de borda e habilitar a Federação do XMPP, você pode simplificar o processo de recuperação de desastres Configurando os registros SRV DNS externos para todos os seus pools de bordas para a Federação do XMPP, em vez de apenas um. Cada um desses registros SRV deve ter um conjunto de prioridades diferente. Todo o tráfego de Federação do XMPP passa pelo pool com o registro SRV com a prioridade mais alta. Para obter mais informações sobre como habilitar e configurar a Federação do XMPP, consulte Configurando a [Federação do XMPP no Lync Server 2013](lync-server-2013-setting-up-xmpp-federation.md).
+Ao instalar primeiro os pools de borda e habilitar a Federação do XMPP, você pode simplificar o processo de recuperação de desastres Configurando os registros SRV DNS externos para todos os seus pools de bordas para a Federação do XMPP, em vez de apenas um. Cada um desses registros SRV deve ter um conjunto de prioridades diferente. Todo o tráfego de Federação do XMPP passa pelo pool com o registro SRV com a prioridade mais alta. Para obter mais informações sobre como habilitar e configurar a Federação do XMPP, consulte [Configurando a Federação do XMPP no Lync Server 2013](lync-server-2013-setting-up-xmpp-federation.md).
 
 No procedimento a seguir, EdgePool1 é o pool que hospeda originalmente a Federação do XMPP, e EdgePool2 é o pool que agora hospeda XMPP Federação.
 
@@ -45,7 +47,7 @@ No procedimento a seguir, EdgePool1 é o pool que hospeda originalmente a Federa
 
 ## <a name="failing-over-the-edge-pool-used-for-xmpp-federation"></a>Falha sobre o pool de bordas usado para a Federação do XMPP
 
-1.  Se você ainda não tiver outro pool de bordas implantado (além do que está indisponível no momento), implante esse pool. Para obter detalhes, consulte Implantando o [acesso de usuários externos no Lync Server 2013](lync-server-2013-deploying-external-user-access.md).
+1.  Se você ainda não tiver outro pool de bordas implantado (além do que está indisponível no momento), implante esse pool. Para obter detalhes, consulte [implantando o acesso de usuários externos no Lync Server 2013](lync-server-2013-deploying-external-user-access.md).
 
 2.  Em cada servidor de borda no novo pool de bordas que agora hospeda a Federação do XMPP (EdgePool2), execute o seguinte cmdlet:
     

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configurações híbridas com suporte'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supported hybrid configurations
 ms:assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945633(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541482
 ms.date: 05/10/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 142b86720e64fdfd071bc5cacb21e4891e3e7758
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0dea28ecfcd5e6a881c1d3d1ee63f16cd4821410
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844825"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764337"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -66,14 +68,14 @@ A tabela a seguir lista os recursos com suporte em uma implantação híbrida qu
 <li><p>Agende e participe de reuniões online via Outlook</p>
 <p>Para obter mais informações, consulte <a href="lync-server-2013-integrating-with-microsoft-exchange-server-2013.md">Integrating Microsoft Lync Server 2013 and Microsoft Exchange Server 2013</a></p></li>
 <li><p>Mensagem instantânea/presença no Outlook Web App</p>
-<p>Para obter mais informações, consulte Configurando <a href="lync-server-2013-configuring-lync-server-in-a-cross-premises-environment.md">o Microsoft Lync Server 2013 em um ambiente de várias instalações</a></p></li>
+<p>Para obter mais informações, consulte <a href="lync-server-2013-configuring-lync-server-in-a-cross-premises-environment.md">Configurando o Microsoft Lync Server 2013 em um ambiente de várias instalações</a></p></li>
 <li><p>Agende e participe de reuniões online via Outlook Web App</p></li>
 <li><p>IM/Presença em clientes de dispositivos móveis</p></li>
 <li><p>Participe de reuniões online em clientes de dispositivos móveis</p>
-<p>Para obter mais informações, consulte Implantando o <a href="lync-server-2013-deploying-mobility.md">Mobility no Lync Server 2013</a></p></li>
+<p>Para obter mais informações, consulte <a href="lync-server-2013-deploying-mobility.md">implantando o Mobility no Lync Server 2013</a></p></li>
 <li><p>Publique o status com base nas informações de ocupado/livre do calendário do Outlook</p></li>
 <li><p>Lista de contatos (via repositório de contato unificado)</p>
-<p>Para obter mais informações, consulte Configurando <a href="lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md">o Microsoft Lync Server 2013 para usar o repositório de contatos</a> unificado</p>
+<p>Para obter mais informações, consulte <a href="lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md">Configurando o Microsoft Lync Server 2013 para usar o repositório de contatos unificado</a></p>
 <div>
 
 > [!NOTE]  
@@ -82,7 +84,7 @@ A tabela a seguir lista os recursos com suporte em uma implantação híbrida qu
 
 </div></li>
 <li><p>Foto de contato de alta resolução no Lync 2013 cliente e no Lync Web App.</p>
-<p>Para obter mais informações, consulte Configurando <a href="lync-server-2013-configuring-the-use-of-high-resolution-photos.md">o uso de fotos de alta resolução no Microsoft Lync Server 2013</a></p>
+<p>Para obter mais informações, consulte <a href="lync-server-2013-configuring-the-use-of-high-resolution-photos.md">Configurando o uso de fotos de alta resolução no Microsoft Lync Server 2013</a></p>
 <div>
 
 > [!NOTE]  
@@ -111,20 +113,20 @@ A tabela a seguir lista os recursos com suporte em uma implantação híbrida qu
 
 </div></li>
 <li><p>Caixa postal</p>
-<p>Para obter mais informações, consulte Implantando o <a href="lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md">Exchange um local para fornecer correio de voz do Lync Server 2013</a></p></li>
+<p>Para obter mais informações, consulte <a href="lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail.md">implantando o Exchange um local para fornecer correio de voz do Lync Server 2013</a></p></li>
 </ul></td>
 <td><ul>
 <li><p>IM/presença no Outlook</p>
-<p>Para obter mais informações, consulte Configurando <a href="lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md">a integração do Lync Server 2013 local com o Exchange Online</a></p></li>
+<p>Para obter mais informações, consulte <a href="lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md">Configurando a integração do Lync Server 2013 local com o Exchange Online</a></p></li>
 <li><p>Agende e participe de reuniões online via Outlook</p></li>
 <li><p>IM/Presença em OWA</p>
-<p>Para obter mais informações, consulte Configurando <a href="lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md">a integração do Lync Server 2013 local com o Exchange Online</a></p></li>
+<p>Para obter mais informações, consulte <a href="lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md">Configurando a integração do Lync Server 2013 local com o Exchange Online</a></p></li>
 <li><p>Agendar e ingressar em reunião online a partir do Outlook Web App</p>
-<p>Para obter mais informações, consulte Configurando <a href="lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md">a integração do Lync Server 2013 local com o Exchange Online</a></p></li>
+<p>Para obter mais informações, consulte <a href="lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md">Configurando a integração do Lync Server 2013 local com o Exchange Online</a></p></li>
 <li><p>IM/Presença em clientes de dispositivos móveis</p></li>
 <li><p>Participe de uma reunião online em clientes de dispositivos móveis</p></li>
 <li><p>Publique o status com base nas informações de ocupado/livre do calendário do Outlook</p></li>
-<li><p>Lista de contatos (via repositório de contato unificado). Para obter mais informações, consulte Configurando <a href="lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md">o Microsoft Lync Server 2013 para usar o repositório de contatos</a> unificado</p>
+<li><p>Lista de contatos (via repositório de contato unificado). Para obter mais informações, consulte <a href="lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md">Configurando o Microsoft Lync Server 2013 para usar o repositório de contatos unificado</a></p>
 <div>
 
 > [!NOTE]  
@@ -133,7 +135,7 @@ A tabela a seguir lista os recursos com suporte em uma implantação híbrida qu
 
 </div></li>
 <li><p>Foto de contato de alta resolução no Lync 2013 cliente e no Lync Web App.</p>
-<p>Para obter mais informações, consulte Configurando <a href="lync-server-2013-configuring-the-use-of-high-resolution-photos.md">o uso de fotos de alta resolução no Microsoft Lync Server 2013</a>.</p></li>
+<p>Para obter mais informações, consulte <a href="lync-server-2013-configuring-the-use-of-high-resolution-photos.md">Configurando o uso de fotos de alta resolução no Microsoft Lync Server 2013</a>.</p></li>
 <li><p>Delegação da reunião</p>
 <p>Com suporte apenas quando ambos os usuários estão hospedados online na mesma floresta ou quando ambos estão hospedados no local.</p></li>
 <li><p>O histórico de Conversas Perdidas e Registros de Chamadas são escritos para a caixa de correio do Exchange do usuário</p></li>

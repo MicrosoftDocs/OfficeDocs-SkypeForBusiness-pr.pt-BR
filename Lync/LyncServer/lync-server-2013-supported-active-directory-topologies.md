@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Topologias do Active Directory suportadas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supported Active Directory topologies
 ms:assetid: 0c76b778-7652-4eb0-b161-86f2d4a94ccf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398173(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183391
 ms.date: 10/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3dc15cea3d07dc4e00f1d2a5527c862d90a078c6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3e4aca368f6ea7d5b31a1cfe74273dfbd42a6594
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844832"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764357"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ A figura a seguir identifica os ícones usados nas ilustrações desta seção.
 
 **Chave para ilustrações de topologia**
 
-![Chave para ilustrações de topologia] (images/Gg398173.0c3cc89f-6c43-4bc8-b2ec-61d89e391ee9(OCS.15).jpg "Chave para ilustrações de topologia")
+![Chave para ilustrações de topologia](images/Gg398173.0c3cc89f-6c43-4bc8-b2ec-61d89e391ee9(OCS.15).jpg "Chave para ilustrações de topologia")
 
 <div>
 
@@ -65,7 +67,7 @@ A figura a seguir ilustra uma implantação do Lync Server em uma única topolog
 
 **Topologia de domínio único**
 
-![Topologia de domínio único] (images/Gg398173.258b3b3f-0558-4a36-a4c2-031be7299668(OCS.15).jpg "Topologia de domínio único")
+![Topologia de domínio único](images/Gg398173.258b3b3f-0558-4a36-a4c2-031be7299668(OCS.15).jpg "Topologia de domínio único")
 
 </div>
 
@@ -85,7 +87,7 @@ A figura a seguir ilustra uma implantação em uma única floresta com vários d
 
 **Floresta única com vários domínios**
 
-![Floresta única com vários domínios] (images/Gg398173.2b809c72-c3cd-4fad-afe6-8c2dae779750(OCS.15).jpg "Floresta única com vários domínios")
+![Floresta única com vários domínios](images/Gg398173.2b809c72-c3cd-4fad-afe6-8c2dae779750(OCS.15).jpg "Floresta única com vários domínios")
 
 </div>
 
@@ -105,7 +107,7 @@ A figura a seguir ilustra uma única floresta com várias árvores. Nesta figura
 
 **Floresta única com várias árvores**
 
-![Floresta única com várias árvores] (images/Gg398173.db30fa49-174a-4974-8695-41dd78e39432(OCS.15).jpg "Floresta única com várias árvores")
+![Floresta única com várias árvores](images/Gg398173.db30fa49-174a-4974-8695-41dd78e39432(OCS.15).jpg "Floresta única com várias árvores")
 
 </div>
 
@@ -129,7 +131,7 @@ A figura a seguir ilustra uma topologia de floresta central. Nesta figura, há r
 
 **Topologia da floresta central**
 
-![Topologia da floresta central] (images/Gg398173.7feb049a-453b-4134-9128-873b83ee1755(OCS.15).jpg "Topologia da floresta central")
+![Topologia da floresta central](images/Gg398173.7feb049a-453b-4134-9128-873b83ee1755(OCS.15).jpg "Topologia da floresta central")
 
 </div>
 
@@ -147,7 +149,7 @@ O diagrama a seguir ilustra uma topologia de floresta de recursos.
 
 **Topologia da floresta de recursos**
 
-![Topologia da floresta de recursos do Active Directory] (images/Gg398173.54ab82f1-e9e5-40f0-a54e-86e340b65c2a(OCS.15).jpg "Topologia da floresta de recursos do Active Directory")
+![Topologia da floresta de recursos do Active Directory](images/Gg398173.54ab82f1-e9e5-40f0-a54e-86e340b65c2a(OCS.15).jpg "Topologia da floresta de recursos do Active Directory")
 
 </div>
 
@@ -157,7 +159,7 @@ O diagrama a seguir ilustra uma topologia de floresta de recursos.
 
 Nessa topologia, uma ou mais florestas estão localizadas no local e são dedicadas à Hospedagem de contas de usuário do Active Directory. A floresta de recursos está localizada fora do local e é mantida por um provedor de Hospedagem de terceiros. A floresta de recursos contém somente a implantação do Lync Server e uma replicação sincronizada das contas de usuário da (s) floresta (s) contas de usuário local. Ele não contém contas de usuário habilitadas para logon. O Exchange é implantado na (s) floresta (s) da conta de usuário local integrada ao Exchange Online (híbrido) ou os serviços de email das contas de usuário locais são fornecidos exclusivamente pelo Exchange Online.
 
-A floresta de recursos age como um ambiente de serviços compartilhados para a (s) floresta (s) do Active Directory local onde os objetos do usuário residem. A (s) floresta (s) da conta do usuário tem uma relação de confiança unidirecional de nível de floresta com a floresta de recursos. Ao implantar o Lync Server nesse tipo de topologia, você cria um objeto de usuário desabilitado na floresta de recursos para cada conta de usuário nas florestas do usuário. Um produto de sincronização de diretório, como o MIIS, o Microsoft Forefront Identity Manager (FIM) 2010 ou o Microsoft Identity Lifecycle Manager (ILM) 2007 Feature Pack 1 (FP1), gerencia o ciclo de vida das contas de usuário. Quando uma nova conta de usuário é criada em uma das florestas do usuário ou uma conta de usuário é excluída de uma floresta, o produto de sincronização de diretório sincroniza a representação de usuário correspondente na floresta de recursos. Para obter mais informações sobre como configurar uma implantação de várias florestas, consulte Implantando o [Lync em uma arquitetura de várias florestas (Lync hospedado pelo parceiro com Exchange Hybrid)](http://go.microsoft.com/fwlink/p/?linkid=513216).
+A floresta de recursos age como um ambiente de serviços compartilhados para a (s) floresta (s) do Active Directory local onde os objetos do usuário residem. A (s) floresta (s) da conta do usuário tem uma relação de confiança unidirecional de nível de floresta com a floresta de recursos. Ao implantar o Lync Server nesse tipo de topologia, você cria um objeto de usuário desabilitado na floresta de recursos para cada conta de usuário nas florestas do usuário. Um produto de sincronização de diretório, como o MIIS, o Microsoft Forefront Identity Manager (FIM) 2010 ou o Microsoft Identity Lifecycle Manager (ILM) 2007 Feature Pack 1 (FP1), gerencia o ciclo de vida das contas de usuário. Quando uma nova conta de usuário é criada em uma das florestas do usuário ou uma conta de usuário é excluída de uma floresta, o produto de sincronização de diretório sincroniza a representação de usuário correspondente na floresta de recursos. Para obter mais informações sobre como configurar uma implantação de várias florestas, consulte [implantando o Lync em uma arquitetura de várias florestas (Lync hospedado pelo parceiro com Exchange Hybrid)](http://go.microsoft.com/fwlink/p/?linkid=513216).
 
 </div>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: administrando o serviço de catálogo de endereços'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Administering the Address Book Service
 ms:assetid: 801e4243-9670-4477-aa2f-88b61ecf5351
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429711(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184649
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8acf59a898f8da14b9c5c4151728206cc501ceaf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5d12b904cbb679b66579c7c669ba46e0d732034b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836996"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737971"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -118,12 +120,12 @@ A ativação do servidor do catálogo de endereços preenche a tabela AbAttribut
 <td><p>0x07000000</p></td>
 </tr>
 <tr class="even">
-<td><p>08</p></td>
+<td><p>8</p></td>
 <td><p>msRTCSIP-PrimaryUserAddress</p></td>
 <td><p>0x08520C00</p></td>
 </tr>
 <tr class="odd">
-<td><p>222</p></td>
+<td><p>9</p></td>
 <td><p>telephoneNumber</p></td>
 <td><p>0x09022800</p></td>
 </tr>
@@ -260,7 +262,7 @@ Os números na coluna **ID** devem ser exclusivos e nunca devem ser reutilizados
 </tr>
 <tr class="even">
 <td><p>0x10000</p></td>
-<td><p>Se definido, representa um objeto de grupo. O duplicador de usuários usa esse bit de sinalizador para incluir <strong></strong> contatos com o atributo groupType cuja presença indica um grupo (por exemplo, uma lista de distribuição ou um grupo de segurança).</p></td>
+<td><p>Se definido, representa um objeto de grupo. O duplicador de usuários usa esse bit de sinalizador para incluir contatos com o atributo <strong>GroupType</strong> cuja presença indica um grupo (por exemplo, uma lista de distribuição ou um grupo de segurança).</p></td>
 </tr>
 <tr class="odd">
 <td><p>0x20000</p></td>
@@ -270,7 +272,7 @@ Os números na coluna **ID** devem ser exclusivos e nunca devem ser reutilizados
 </table>
 
 
-Em versões anteriores do Lync Server, ao aplicar uma alteração ao Active Directory, o administrador seria obrigado a executar **Update-CSUserDatabase** e **Update-CSAddressBook** cmdlets do Windows PowerShell para manter a alteração no Lync Server banco de dados de usuários e banco de dados RTCab imediatamente. No Lync Server 2013, o duplicador de usuários do Lync Server atenderá as alterações do Active Directory e atualizará o banco de dados de usuários do Lync Server com base em um intervalo configurado. O duplicador de usuários do Lync Server também propagará as alterações para o banco de dados do RTCab rapidamente, sem que o administrador tenha que executar Update-CSAddressBook. Se a consulta da Web do catálogo de endereços estiver habilitada, as alterações serão refletidas nos resultados da pesquisa pelos clientes do Lync. Os administradores só precisarão executar Update-CSAddressBook se o download do arquivo do catálogo de endereços estiver habilitado.
+Em versões anteriores do Lync Server, ao aplicar uma alteração ao Active Directory, o administrador seria obrigado a executar **Update-CSUserDatabase** e **Update-CSAddressBook** cmdlets do Windows PowerShell para persistir a alteração para o banco de dados de usuários do Lync Server e para RTCab o banco de dados imediatamente. No Lync Server 2013, o duplicador de usuários do Lync Server atenderá as alterações do Active Directory e atualizará o banco de dados de usuários do Lync Server com base em um intervalo configurado. O duplicador de usuários do Lync Server também propagará as alterações para o banco de dados do RTCab rapidamente, sem que o administrador tenha que executar Update-CSAddressBook. Se a consulta da Web do catálogo de endereços estiver habilitada, as alterações serão refletidas nos resultados da pesquisa pelos clientes do Lync. Os administradores só precisarão executar Update-CSAddressBook se o download do arquivo do catálogo de endereços estiver habilitado.
 
 <div>
 
@@ -296,7 +298,7 @@ Você pode usar alguns bits de sinalizador para definir um filtro a ser usado no
 
 
 > [!WARNING]  
-> Para obter mais informações sobre como filtrar o catálogo de endereços, consulte cmdlets do <A href="https://technet.microsoft.com/en-us/library/gg415643(v=ocs.15)">servidor do catálogo de endereços no Lync Server 2013</A>e <A href="http://go.microsoft.com/fwlink/?linkid=330430">Filtrar catálogo de endereços do Lync 2013</A>
+> Para obter mais informações sobre como filtrar o catálogo de endereços, consulte <A href="https://technet.microsoft.com/en-us/library/gg415643(v=ocs.15)">cmdlets do servidor do catálogo de endereços no Lync Server 2013</A>e <A href="http://go.microsoft.com/fwlink/?linkid=330430">Filtrar catálogo de endereços do Lync 2013</A>
 
 
 
@@ -363,7 +365,7 @@ Depois de modificar a tabela AbAttribute, você pode atualizar os dados na tabel
 
 
 > [!IMPORTANT]  
-> Se você consolidou ou modificou sua infraestrutura de uma implantação de várias florestas ou de uma implantação pai/filho (como consolidar sua infraestrutura antes de migrar para o Lync Server), talvez descubra que o download do serviço de catálogo de endereços e a A consulta à Web do catálogo de endereços falha para alguns usuários. Quando em uma implantação que tinha vários domínios ou florestas, o atributo <STRONG>MsRTCSIP-OriginatorSid</STRONG> é preenchido nos objetos de usuário que estão apresentando o problema. O atributo <STRONG>MsRTCSIP-OriginatorSid</STRONG> deve ser definido como NULL nesses objetos para resolver o problema.
+> Se você consolidou ou modificou sua infraestrutura de uma implantação de várias florestas ou de uma implantação pai/filho (como consolidar sua infraestrutura antes de migrar para o Lync Server), talvez descubra que o download do serviço de catálogo de endereços e a consulta à Web do catálogo de endereços falham para alguns usuários. Quando em uma implantação que tinha vários domínios ou florestas, o atributo <STRONG>MsRTCSIP-OriginatorSid</STRONG> é preenchido nos objetos de usuário que estão apresentando o problema. O atributo <STRONG>MsRTCSIP-OriginatorSid</STRONG> deve ser definido como NULL nesses objetos para resolver o problema.
 
 
 

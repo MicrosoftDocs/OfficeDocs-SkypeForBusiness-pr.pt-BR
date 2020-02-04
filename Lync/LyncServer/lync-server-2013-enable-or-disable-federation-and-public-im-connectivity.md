@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Habilitar ou desabilitar federação e conectividade d
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable or disable federation and public IM connectivity
 ms:assetid: 8ec58f4b-9f6d-47b4-a187-d18a83fe4577
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182549(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184813
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4123a17c01ad6358038b1937b57bab29eeec85c3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: edbf03ee2e2772e6df1425ffd666176c1947f0e4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829305"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736061"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ O suporte para Federação é necessário para permitir que os usuários que tê
 
 Para dar suporte ao acesso por usuários de domínios federados, você deve habilitar a Federação. Se você habilitar a Federação para sua organização, também deverá especificar se deseja implementar as seguintes opções:
 
-  - **Habilitar a descoberta**   de domínio de parceiro se você habilitar essa opção, o Lync Server usará os registros de sistema de nome de domínio (DNS) para tentar descobrir domínios não listados na lista de domínios permitidos, avaliando automaticamente o tráfego de entrada de Federação descoberta parceiros e limitar ou bloquear o tráfego de acordo com o nível de confiança, a quantidade de tráfego e as configurações de administrador. Se você não selecionar essa opção, o acesso do usuário federado será habilitado somente para os usuários nos domínios que você incluir na lista de domínios permitidos. Independentemente de você selecionar essa opção, você pode especificar que domínios individuais sejam bloqueados ou permitidos, incluindo a restrição de acesso a servidores específicos que executam o serviço de borda de acesso no domínio federado. Para obter detalhes sobre o controle do acesso a domínios federados, consulte [Configurar o suporte para domínios externos permitidos no Lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md).
+  - **Habilitar a descoberta**   de domínio de parceiro se você habilitar essa opção, o Lync Server usará os registros de sistema de nome de domínio (DNS) para tentar descobrir domínios não listados na lista de domínios permitidos, avaliando automaticamente o tráfego de entrada de parceiros federados descobertos e limitando ou bloqueando esse tráfego com base no nível de confiança, na quantidade de tráfego e nas configurações do administrador. Se você não selecionar essa opção, o acesso do usuário federado será habilitado somente para os usuários nos domínios que você incluir na lista de domínios permitidos. Independentemente de você selecionar essa opção, você pode especificar que domínios individuais sejam bloqueados ou permitidos, incluindo a restrição de acesso a servidores específicos que executam o serviço de borda de acesso no domínio federado. Para obter detalhes sobre o controle do acesso a domínios federados, consulte [Configurar o suporte para domínios externos permitidos no Lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md).
 
   - **Enviar uma isenção de responsabilidade de arquivamento a**     um aviso de isenção de responsabilidade de parcerias federadas é enviada para parceiros federados que o arquivamento em sua implantação está em vigor. Se você oferecer suporte ao arquivamento de comunicações externas com domínios de parceiros federados, habilite a notificação de exclusão de isenção de arquivo para avisar os parceiros de que suas mensagens estão sendo arquivadas.
 
@@ -77,7 +79,7 @@ Se, mais tarde, você quiser impedir o acesso temporário ou permanente por usu�
     
     1.  Se você quiser dar suporte à descoberta automática de domínios de parceiros, marque a caixa de seleção **habilitar descoberta de domínio de parceiro** .
     
-    2.  Se a sua organização oferecer suporte para o arquivamento de comunicações externas, marque a caixa de seleção Enviar isenção de arquivo **para parceiros federados** .
+    2.  Se a sua organização oferecer suporte para o arquivamento de comunicações externas, marque a caixa de seleção **Enviar isenção de arquivo para parceiros federados** .
 
 7.  Clique em **Confirmar**.
 

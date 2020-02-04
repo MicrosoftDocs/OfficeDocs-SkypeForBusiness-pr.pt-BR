@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar políticas para controlar o acesso de usuá
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure policies to control public user access
 ms:assetid: 090aea0f-ef0b-49da-9c80-02d9279f2fa6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520946(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183343
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e259082aa73d4354e8e4aa93eb7a0cc8d7ed7a6e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b348abcce00eb57988c7aa5184c0cfb5ea302adb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836356"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763273"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,7 +57,7 @@ A conectividade de mensagens instantâneas públicas permite que os usuários em
 
 Para acessar o site de configuração de conectividade de mensagens instantâneas públicas do Microsoft Lync Server, use o seguinte link:[http://go.microsoft.com/fwlink/p/?linkId=212638](http://go.microsoft.com/fwlink/p/?linkid=212638)
 
-Para controlar o acesso do usuário público, você pode configurar políticas nos níveis global, de site e de usuário. Para obter detalhes sobre os tipos de políticas que você pode configurar, consulte Configurando o [suporte para acesso de usuários externos no Lync Server 2013](lync-server-2013-configuring-support-for-external-user-access.md) na documentação de implantação ou documentação de planejamento. As configurações de política do Lync Server aplicadas em um nível de política podem substituir as configurações aplicadas em outro nível de política. A precedência da política do Lync Server é: a política do usuário (maior influência) substitui uma política do site e uma política de site substitui uma política global (influência mínima). Isso significa que, quanto mais perto a definição de política estiver do objeto que ela está afetando, maior será sua influência sobre o objeto.
+Para controlar o acesso do usuário público, você pode configurar políticas nos níveis global, de site e de usuário. Para obter detalhes sobre os tipos de políticas que você pode configurar, consulte [Configurando o suporte para acesso de usuários externos no Lync Server 2013](lync-server-2013-configuring-support-for-external-user-access.md) na documentação de implantação ou documentação de planejamento. As configurações de política do Lync Server aplicadas em um nível de política podem substituir as configurações aplicadas em outro nível de política. A precedência da política do Lync Server é: a política do usuário (maior influência) substitui uma política do site e uma política de site substitui uma política global (influência mínima). Isso significa que, quanto mais perto a definição de política estiver do objeto que ela está afetando, maior será sua influência sobre o objeto.
 
 No caso de convites por mensagem instantânea, a resposta depende do software cliente. A solicitação é aceita, a menos que remetentes externos sejam explicitamente bloqueados por uma regra configurada pelo usuário (ou seja, as configurações nas listas **permitir** e **Bloquear** do cliente do usuário). Além disso, os convites de mensagem instantânea podem ser bloqueados se um usuário optar por bloquear todas as mensagens instantâneas de usuários que não estão na sua lista de **permissões** .
 

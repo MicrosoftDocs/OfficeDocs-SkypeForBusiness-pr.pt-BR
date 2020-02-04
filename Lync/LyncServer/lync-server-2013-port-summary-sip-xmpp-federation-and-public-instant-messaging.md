@@ -3,6 +3,8 @@ title: Resumo da porta-SIP, Federação do XMPP e mensagens instantâneas públi
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port summary - SIP, XMPP federation, and public instant messaging
 ms:assetid: ab05bdd6-e9b0-4b1b-9dd9-29ab88e8befe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618373(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49105660
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b2edcad9806c5e6c8714f3face301211633a53fc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3ae19fb2477f61c0e408ebad3a8abf97fb75b9c4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824313"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747461"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Tópico da última modificação:** 2013-03-15_
 
 Os requisitos de portabilidade, protocolo e firewall para federação com o Microsoft Lync Server 2013, o Lync Server 2010 e o Office Communications Server são semelhantes aos do servidor de borda implantado. Os clientes iniciam a comunicação com o serviço de borda de acesso por TLS/SIP/TCP 443. No entanto, os parceiros federados iniciarão as comunicações com o serviço de borda de acesso sobre MTLS/SIP/TCP 5061.
 
-Para configurar o firewall para portas e protocolos necessários para dar suporte à conectividade de mensagens instantâneas públicas, primeiro Observe que o SIP/MTLS/TCP 5061 é bidirecional para a conta da capacidade dos contatos no provedor de IM públicos entrarem em contato com os clientes do Lync ou do Lync para entre em contato com contatos públicos de mensagens instantâneas.
+Para configurar o seu firewall para portas e protocolos necessários para dar suporte à conectividade de mensagens instantâneas públicas, primeiro Observe que SIP/MTLS/TCP 5061 é bidirecional para a conta da capacidade dos contatos no provedor de IM públicos entrarem em contato com os clientes do Lync ou para que o Lync entre em contato com contatos públicos de mensagens instantâneas.
 
 O Windows Live Messenger pode participar de comunicações de áudio/vídeo com clientes do Lync. Isso conta com uma configuração de protocolo e porta de firewall muito parecidas que você normalmente teria no firewall para dar suporte a clientes Lync como usuários externos.
 

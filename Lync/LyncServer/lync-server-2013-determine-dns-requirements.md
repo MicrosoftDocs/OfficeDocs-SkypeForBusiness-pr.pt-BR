@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Determinar requisitios de DNS'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Determine DNS requirements
 ms:assetid: 95777017-6282-44c0-a685-f246af0501b4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398758(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184839
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e299f138a28ba4863250d2e0be1f31f705f4a173
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fd8c1c95c3b8ba3671735447f098eca9173111ba
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829483"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762479"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ Use o fluxograma a seguir para determinar os requisitos do sistema de nomes de d
 
 **Determinando o fluxograma de requisitos de DNS**
 
-![175782ac-363e-408a-912f-8991bf152970] (images/Gg398758.175782ac-363e-408a-912f-8991bf152970(OCS.15).jpg "175782ac-363e-408a-912f-8991bf152970")
+![175782ac-363e-408a-912f-8991bf152970](images/Gg398758.175782ac-363e-408a-912f-8991bf152970(OCS.15).jpg "175782ac-363e-408a-912f-8991bf152970")
 
 <div>
 
@@ -228,9 +230,9 @@ Se a configuração automática for necessária para os clientes que executam o 
     
     </div>
 
-  - **Zona interna correspondente**   crie uma zona no DNS interno que corresponda à zona DNS externa (por exemplo, contoso.com) e crie registros DNS a e AAAA (se você estiver usando endereçamento IPv6) correspondentes ao Lync Server 2013 pool usado para automático configuração. Por exemplo, se um usuário estiver hospedado no pool01.contoso.net, mas entrar no Lync como bob@contoso.com, crie uma zona DNS interna chamada contoso.com e dentro dela, crie um registro DNS A e AAAA (se o endereçamento IPv6 for usado) para pool01.contoso.com.
+  - **Zona interna correspondente**   crie uma zona no DNS interno que corresponda à zona DNS externa (por exemplo, contoso.com) e crie registros DNS a e AAAA (se você estiver usando endereçamento IPv6) correspondentes ao pool do Lync Server 2013 usado para configuração automática. Por exemplo, se um usuário estiver hospedado no pool01.contoso.net, mas entrar no Lync como bob@contoso.com, crie uma zona DNS interna chamada contoso.com e dentro dela, crie um registro DNS A e AAAA (se o endereçamento IPv6 for usado) para pool01.contoso.com.
 
-  - **Zona interna de ponto de fixação**   se você estiver criando uma zona inteira no DNS interno não for uma opção, você poderá criar zonas de ponto PIN (ou seja, dedicada) que correspondam aos Registros SRV necessários para a configuração automática e preencher essas zonas usando dnscmd. exe. O DNSCmd. exe é necessário porque a interface do usuário DNS não dá suporte à criação de zonas de ponto PIN. Por exemplo, se o domínio SIP for contoso.com e você tiver um pool de front-end chamado pool01 que contém dois servidores front-end, você precisará das seguintes zonas de ponto de fixação e registros no seu DNS interno:
+  - **Zona interna de ponto de fixação**   se você estiver criando uma zona inteira no DNS interno não for uma opção, você pode criar zonas de ponto PIN (ou seja, dedicada) que correspondam aos Registros SRV necessários para a configuração automática e preencher essas zonas usando o DNSCmd. exe. O DNSCmd. exe é necessário porque a interface do usuário DNS não dá suporte à criação de zonas de ponto PIN. Por exemplo, se o domínio SIP for contoso.com e você tiver um pool de front-end chamado pool01 que contém dois servidores front-end, você precisará das seguintes zonas de ponto de fixação e registros no seu DNS interno:
     
         dnscmd . /zoneadd _sipinternaltls._tcp.contoso.com. /dsprimary
         dnscmd . /recordadd _sipinternaltls._tcp.contoso.com. @ SRV 0 0 5061 pool01.contoso.com.

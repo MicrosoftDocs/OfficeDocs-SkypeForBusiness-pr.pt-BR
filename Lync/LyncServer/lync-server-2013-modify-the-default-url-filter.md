@@ -3,6 +3,8 @@ title: 'Lync Server 2013: modificar o filtro de URL padrão'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Modify the default URL filter
 ms:assetid: 80a472b3-054e-45a6-80fc-9ee2bda28ee6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182544(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184653
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c95916729afc7d37dc195aeaa1a7ff214e28ca03
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 975824faa6a567992001ae10cafec61ef2ea1370
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826812"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41766012"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ Usando o filtro de mensagens instantâneas (IM), o Lync Server 2013 fornece um f
 
   - Permitir URLs específicas e incluir um aviso em cada mensagem instantânea que contém uma URL.
 
-Além disso, você pode optar por bloquear URLs que contenham tipos de arquivo específicos ou bloquear somente URLs da Internet, permitindo que URLs dentro da zona da intranet local do servidor, URLs da intranet, passem pelo servidor. Para obter detalhes sobre a filtragem de URL, consulte Configurando [a transferência de arquivos e a filtragem de URL para mensagens instantâneas (IM) no Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).
+Além disso, você pode optar por bloquear URLs que contenham tipos de arquivo específicos ou bloquear somente URLs da Internet, permitindo que URLs dentro da zona da intranet local do servidor, URLs da intranet, passem pelo servidor. Para obter detalhes sobre a filtragem de URL, consulte [Configurando a transferência de arquivos e a filtragem de URL para mensagens instantâneas (IM) no Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).
 
 <div>
 

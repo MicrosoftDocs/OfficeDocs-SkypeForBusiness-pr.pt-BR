@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Excluindo sala de chat ou categoria'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deleting a chat room or category
 ms:assetid: adccb869-0015-4eba-ac73-718bac7843b5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215881(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48706009
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f64b89abd0b3266d2be52e300458ceabf3f9b915
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 74cf41679a21612e67c4a793c09ae3484377ef6e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829593"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763253"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Um administrador de chat persistente pode consultar salas de chat desabilitadas 
 
 As categorias podem ser excluídas. No entanto, para excluir uma categoria, você deve primeiro excluir todas as salas de chat dentro dela ou mover as salas de chat para uma nova categoria, deixando uma categoria vazia para exclusão. O servidor de chat persistente não permite que você exclua uma categoria que contém salas de chat. Para obter detalhes, consulte como [mover uma sala de chat de uma categoria para outra no Lync Server 2013](lync-server-2013-moving-a-chat-room-from-one-category-to-another.md).
 
-Para obter detalhes sobre como excluir categorias vazias usando a interface de linha de comando do Windows PowerShell, consulte o "gerenciamento de sala" em Configurando o [servidor de chat persistente usando cmdlets do Windows PowerShell](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).
+Para obter detalhes sobre como excluir categorias vazias usando a interface de linha de comando do Windows PowerShell, consulte o "gerenciamento de sala" em [Configurando o servidor de chat persistente usando cmdlets do Windows PowerShell](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).
 
 Para obter detalhes sobre salas de chat e categorias, consulte [Configurar salas no Lync Server 2013](lync-server-2013-configure-rooms.md) e [Configurar categorias no Lync Server 2013](lync-server-2013-configure-categories.md) na documentação de implantação.
 

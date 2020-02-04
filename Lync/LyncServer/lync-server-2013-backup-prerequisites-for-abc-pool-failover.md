@@ -3,6 +3,8 @@ title: 'Lync Server 2013: pré-requisitos de backup para failover do pool ABC'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Backup prerequisites for ABC pool failover
 ms:assetid: 652046f5-6086-4592-902d-d5789581977d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945634(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541485
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7cdb228b0a748c830aa488e7b058bf8664360d0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 37a6b5694d8eaa9467fafa8923bb97423fd6e33f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836744"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730351"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ Para obter o máximo de benefícios de usar o procedimento de failover do pool A
     
     Em geral, recomendamos que você realize backups diários, mas se você tiver um grande volume de alterações, talvez queira agendar backups mais frequentes. A quantidade de informações que você pode perder no caso de um desastre depende da frequência dos seus backups, bem como da frequência e do volume das alterações.
     
-    O aplicativo grupo de resposta pode armazenar apenas um conjunto de configurações no nível do aplicativo por pool. Essas configurações podem ser acessadas por meio dos cmdlets **Get-CsRgsConfiguration** . As configurações incluem a configuração de música em espera padrão, o arquivo de áudio de música em espera padrão, o período de cortesia de toque do agente e a configuração do contexto de chamada. Essas configurações podem ser transferidas de um pool para outro por meio do cmdlet **Import-CsRgsConfiguration** usando o parâmetro **ReplaceExistingSettings** , mas essa operação substituirá qualquer configuração no nível do aplicativo no destino Grupo.
+    O aplicativo grupo de resposta pode armazenar apenas um conjunto de configurações no nível do aplicativo por pool. Essas configurações podem ser acessadas por meio dos cmdlets **Get-CsRgsConfiguration** . As configurações incluem a configuração de música em espera padrão, o arquivo de áudio de música em espera padrão, o período de cortesia de toque do agente e a configuração do contexto de chamada. Essas configurações podem ser transferidas de um pool para outro por meio do cmdlet **Import-CsRgsConfiguration** usando o parâmetro **ReplaceExistingSettings** , mas essa operação substituirá qualquer configuração de nível de aplicativo no pool de destino.
     
     <div>
     

@@ -3,6 +3,8 @@ title: Planejando a Federação do Lync Server e do Office Communications Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for Lync Server and Office Communications Server federation
 ms:assetid: c9eaf06b-054f-41a4-ad0c-499400d6c4c7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205335(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185640
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c683092b61d278d380ad68cef86795d496498fbf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 015f824ff2b8510559a7bd4910be76321d44d242
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824782"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41751861"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -61,12 +63,12 @@ O Microsoft Lync Server 2010 introduziu uma definição mais estreita do provedo
 
 Habilitar a Federação entre o Microsoft Lync Server 2013, o Lync Server 2010 e o Office Communications Server usa os servidores de borda e proxies reverso para impor as regras e os domínios de parceiros permitidos que você definir. De uma perspectiva de planejamento, a Federação com outro Lync Server, o Office Communications Server exige o seguinte:
 
-  - Habilite a Federação no construtor de topologias. Para obter detalhes, consulte o tópico de implantação Configurando a [Federação do SIP, a Federação do XMPP e o sistema de mensagens instantâneas públicas no Lync Server 2013](lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md).
+  - Habilite a Federação no construtor de topologias. Para obter detalhes, consulte o tópico de implantação [Configurando a Federação do SIP, a Federação do XMPP e o sistema de mensagens instantâneas públicas no Lync Server 2013](lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md).
 
   - Determine suas necessidades para descoberta de domínio federado:
     
       - <span></span>  
-        Para a configuração manual da Federação, você deve ter o nome de domínio totalmente qualificado (FQDN) do servidor de borda do parceiro e do nome do domínio, ou nome do domínio online, que é inserido no painel de controle do Lync Server, **agrupamento e acesso externo**, **SIP Domínios federados**. Crie uma **nova** política ou **edite** uma política existente para permitir ou bloquear domínios por FQDN.
+        Para a configuração manual da Federação, você deve ter o nome de domínio totalmente qualificado (FQDN) do servidor de borda do parceiro e do nome do domínio, ou nome do domínio online, que é inserido no painel de controle do Lync Server, **agrupamento e acesso externo**, **domínios federados do SIP**. Crie uma **nova** política ou **edite** uma política existente para permitir ou bloquear domínios por FQDN.
         
         <div>
         
@@ -93,7 +95,7 @@ Habilitar a Federação entre o Microsoft Lync Server 2013, o Lync Server 2010 e
         
 
         > [!IMPORTANT]
-        > Se você estiver oferecendo suporte para clientes móveis do Microsoft Lync no Windows Phone ou no iPhone do Apple, no iPad ou em outros dispositivos Apple e estiver usando o serviço de notificação por Push ou o serviço de notificação por push, você deve planejar o sipfederationtls. _ TCP. &lt;Registros SRV&gt; do domínio SIP para cada domínio SIP para os quais você tem clientes móveis do Lync. Android e Nokia Symbian Lync Mobile não use a notificação por push e não está sujeito a esse requisito.
+        > Se você estiver oferecendo suporte para clientes móveis do Microsoft Lync no Windows Phone ou no iPhone do Apple, no iPad ou em outros dispositivos Apple e estiver usando o serviço de notificação por Push ou o serviço de notificação por push, você deve planejar _sipfederationtls. _tcp. &lt;Registros SRV&gt; do domínio SIP para cada domínio SIP para os quais você tem clientes móveis do Lync. Android e Nokia Symbian Lync Mobile não use a notificação por push e não está sujeito a esse requisito.
 
         
         </div>

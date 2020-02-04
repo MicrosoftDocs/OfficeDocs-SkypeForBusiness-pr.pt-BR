@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Orientações de implantação para Enterprise Voice'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment guidelines for Enterprise Voice
 ms:assetid: 8985bd93-7613-4cef-9c89-51df6049ed9b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398694(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184733
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b0f4f6198f8fb82720834d112bcf363554aaf84d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 221c09fc5dadda267baad35f4784c22cc4f3c9c6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829494"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762679"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -112,7 +114,7 @@ Para os locais em que você instala um cliente de voz (por exemplo, um computado
 
 ## <a name="emergency-calls-and-multi-line-telephone-systems"></a>Chamadas de emergência e sistemas telefônicos de várias linhas
 
-O uso de um sistema telefônico de várias linhas (MLTS) pode estar sujeito às leis federais ou estaduais do U. S ou das leis de outros países/regiões que exigem o MLTS fornecer o número de telefone, a extensão e/ou a localização física dos serviços de emergência aplicáveis quando um o chamador é colocado em serviços de emergência (por exemplo, ao discar um número de acesso de emergência, como 911 ou 999). Nesta versão, o Lync Server pode ser configurado para fornecer um local físico do chamador para um provedor de serviços de emergência, conforme descrito em [planejamento para serviços de emergência (E9-1-1) no Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md). A conformidade com as leis do MLTS é a única responsabilidade do comprador do Lync Server, do cliente do Lync e dos dispositivos Lync Phone Edition.
+O uso de um sistema telefônico de várias linhas (MLTS) pode estar sujeito às leis federais ou estaduais do U. S ou das leis de outros países/regiões que exigem o MLTS fornecer o número de telefone, a extensão e/ou a localização física dos serviços de emergência aplicáveis quando um chamador é colocado nos serviços de emergência (por exemplo, ao discar um número de acesso de emergência, 999 911 como Nesta versão, o Lync Server pode ser configurado para fornecer um local físico do chamador para um provedor de serviços de emergência, conforme descrito em [planejamento para serviços de emergência (E9-1-1) no Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md). A conformidade com as leis do MLTS é a única responsabilidade do comprador do Lync Server, do cliente do Lync e dos dispositivos Lync Phone Edition.
 
 </div>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar certificados para a interface de borda exte
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Set up certificates for the external edge interface
 ms:assetid: 5d78182c-88d8-4483-95ad-74b17f2d5fac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398409(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b2cb33a91d6609f9109e6416f5688d1b2ddfb9ed
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c1c836191c19eeadd915d0263c89b52289f60fe9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822115"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764667"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ Cada servidor de borda requer um certificado público na interface entre a rede 
 
 Para obter detalhes sobre esse e outros requisitos de certificado, consulte [requisitos de certificado para acesso de usuários externos no Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).
 
-Para obter uma lista de autoridades de certificação (CAs) públicas que fornecem certificados compatíveis com requisitos específicos para certificados de comunicação unificada e associados à Microsoft para garantir que elas funcionem com o assistente de certificado do Lync Server 2013, consulte Artigo da base de dados de conhecimento Microsoft 929395, "parceiros de certificado de comunicação unificada para Exchange [http://go.microsoft.com/fwlink/p/?linkId=202834](http://go.microsoft.com/fwlink/p/?linkid=202834)Server e Communications Server" em.
+Para obter uma lista de autoridades de certificação (CAs) públicas que fornecem certificados compatíveis com requisitos específicos para certificados de comunicação unificada e que têm parceria com a Microsoft para garantir que elas funcionem com o assistente de certificado do Lync Server 2013, consulte o artigo 929395, "parceiros de certificado de comunicação unificada [http://go.microsoft.com/fwlink/p/?linkId=202834](http://go.microsoft.com/fwlink/p/?linkid=202834)para Exchange Server e para comunicações Server" em.
 
 <div>
 
@@ -104,11 +106,11 @@ Se você decidir usar o console de gerenciamento da Microsoft (MMC) de certifica
     
       - Em **comprimento de bit**, especifique o comprimento do bit (geralmente, o padrão de **2048**).
     
-      - Verifique se a caixa de seleção **Marcar chave privada de certificado como** exportável está marcada.
+      - Verifique se a caixa de seleção **Marcar chave privada de certificado como exportável** está marcada.
 
 8.  Na página **informações da organização** , digite o nome da organização e da unidade organizacional (por exemplo, uma divisão ou um departamento).
 
-9.  Na página **informações** geográficas, especifique as informações de localização.
+9.  Na página **informações geográficas** , especifique as informações de localização.
 
 10. Na página **nome do assunto/nomes alternativos de assunto** , as informações a serem automaticamente preenchidas pelo assistente serão exibidas. Se forem necessários nomes alternativos de entidades adicionais, especifique-os nas próximas duas etapas.
 
@@ -211,7 +213,7 @@ Se você decidir usar o console de gerenciamento da Microsoft (MMC) de certifica
 
 4.  Em **Adicionar ou remover snap-ins**, clique em **certificados**e, em seguida, clique em **Adicionar**.
 
-5.  Na caixa de diálogo **certificados** , selecione **conta de computador**, clique em **Avançar**, selecione **computador local: (o computador em que este console está sendo executado)** em **Selecionar computador**, clique em **concluir** e em **OK** para configuração completa do console MMC.
+5.  Na caixa de diálogo **certificados** , selecione **conta de computador**, clique em **Avançar**, selecione **computador local: (o computador em que este console está sendo executado)** em **Selecionar computador**, clique em **concluir** e, em seguida, clique em **OK** para concluir a configuração do console do MMC.
 
 6.  Clique duas vezes em **certificados (computador local)** para expandir os repositórios de certificados, clique duas vezes em **pessoal**e, em seguida, clique duas vezes em **certificados**.
     
@@ -293,7 +295,7 @@ Se você decidir usar o console de gerenciamento da Microsoft (MMC) de certifica
 
 7.  Na página de conclusão do assistente, clique em  **Concluir**.
 
-8.  Depois de usar esse procedimento para atribuir o certificado de borda, abra o snap-in de certificado em cada servidor, expanda **certificados (computador local)**, expanda **pessoal**, clique em **certificados**e verifique o painel de detalhes que o certificado está listado.
+8.  Depois de usar esse procedimento para atribuir o certificado de borda, abra o snap-in de certificado em cada servidor, expanda **certificados (computador local)**, expanda **pessoal**, clique em **certificados**e verifique no painel de detalhes se o certificado está listado.
 
 9.  Se a sua implantação incluir vários servidores de borda, repita esse procedimento para cada servidor de borda.
 

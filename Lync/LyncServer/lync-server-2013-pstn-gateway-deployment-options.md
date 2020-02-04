@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Opções de implantação do gateway PSTN'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: PSTN gateway deployment options
 ms:assetid: d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398899(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185445
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 137c9996429e953db22bea0c0dbd382f5a7af9a2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5b2f3cd153a6dc8d101f44a3f087f0ccedfa9bf7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823816"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747181"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -83,7 +85,7 @@ A topologia de gateway distribuído resultante é mostrada na figura a seguir.
 
 **Topologia de gateway distribuído**
 
-![Diagrama de topologia de gateway distribuído] (images/Gg398899.f0f65a0b-a462-491a-878b-4d4bf0a96f6d(OCS.15).jpg "Diagrama de topologia de gateway distribuído")
+![Diagrama de topologia de gateway distribuído](images/Gg398899.f0f65a0b-a462-491a-878b-4d4bf0a96f6d(OCS.15).jpg "Diagrama de topologia de gateway distribuído")
 
 Com essa topologia, chamadas entre trabalhadores em cada site e entre sites são roteadas pela intranet. As chamadas para a PSTN são roteadas na rede de IP da empresa para os gateways mais próximos ao local dos números de destino. Mas e se a sua organização oferecer suporte a dezenas ou centenas de sites ou até a milhares de sites distribuídos em um ou mais continentes, pois muitas instituições financeiras e outras grandes empresas fazem? Nesses casos, a implantação de um gateway separado em cada site não é prática.
 
@@ -91,7 +93,7 @@ Para solucionar esse problema, muitas grandes empresas preferem implantar um ou 
 
 **Topologia de site central de telefonia**
 
-![Topologia de gateway do Data Center] (images/Gg398899.927f4808-bf74-405a-be20-2cd9cd87af6d(OCS.15).jpg "Topologia de gateway do Data Center")
+![Topologia de gateway do Data Center](images/Gg398899.927f4808-bf74-405a-be20-2cd9cd87af6d(OCS.15).jpg "Topologia de gateway do Data Center")
 
 Nessa topologia, vários gateways grandes suficientes para acomodar a carga de usuário prevista são implantados em cada site central. Todas as chamadas para os usuários na empresa são encaminhadas pelo provedor de serviços telefônicos da empresa para um site central. A lógica de roteamento no site central determina se a chamada deve ser roteada pela intranet ou pela PSTN.
 

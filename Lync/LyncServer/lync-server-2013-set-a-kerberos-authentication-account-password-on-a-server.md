@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar uma senha da conta de autenticação Kerber
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Set a Kerberos authentication account password on a server
 ms:assetid: 902d3292-678d-4512-9248-586053cb638b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398734(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184787
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc4eefe4c1ef804b1deb06d056bfbd61ade35eb0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 97130b93052c0e14e1e4b4863be8ceea6118db05
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34821940"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764697"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -61,7 +63,7 @@ Quando você usa o cmdlet **set-CsKerberosAccountPassword** para definir uma sen
     
 
     > [!NOTE]  
-    > Você deve especificar o parâmetro USERACCOUNT usando o formato domínio \ usuário. Não há suporte para o formato de usuário @ domínio. extensão para fazer referência aos objetos de computador criados para fins de autenticação Kerberos.
+    > Você deve especificar o parâmetro USERACCOUNT usando o formato domínio \ usuário. Não há suporte para o formato de extensão User@Domain. para fazer referência aos objetos de computador criados para fins de autenticação Kerberos.
 
     
     </div>

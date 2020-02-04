@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Herança de permissões está desabilitado em computad
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Permissions inheritance Is disabled on computers, users, or InetOrgPerson containers
 ms:assetid: c472ad21-a93d-4fcb-a3d9-60a2134a87fa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412970(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185348
 ms.date: 12/19/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73692539fb5dda38446ffddccbe35c8d366e2d67
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: da84454a6e02e02520206b5eb667edfcf4fce849
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825300"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755241"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ Em um ambiente do Active Directory bloqueado onde a herança de permissões est�
 
 Esse cmdlet adiciona as ACEs necessárias diretamente nos contêineres ou UOs especificados e nos objetos User ou InetOrgPerson dentro do contêiner. Se a UO na qual esse comando for executado tiver UOs filho com objetos User ou InetOrgPerson, as permissões não serão aplicadas. Será necessário executar o comando em cada UO filho individualmente. Esse é um cenário comum com implantações de hospedagem do Lync, por exemplo, Parent OU = locatários do OCS, DC = CONTOSO, DC = LOCAL e filho OU = Tenant1, OU = locatários do OCS, DC = CONTOSO, DC = LOCAL.
 
-Você precisa de direitos de usuário equivalentes ao grupo de administradores de domínio para executar esse cmdlet. Se as ACEs do usuário autenticado também tiverem sido removidas no ambiente bloqueado, você deverá conceder a essa conta ACEs de leitura de acesso nos recipientes ou UOs relevantes do domínio raiz da floresta, conforme descrito em [permissões de usuário autenticado são removidas no Lync Server 2013](lync-server-2013-authenticated-user-permissions-are-removed.md) ou use uma conta que seja membro do grupo Administradores da empresa.
+Você precisa de direitos de usuário equivalentes ao grupo de administradores de domínio para executar esse cmdlet. Se as ACEs do usuário autenticado também tiverem sido removidas no ambiente bloqueado, você deverá conceder a essa conta ACEs de leitura de acesso nos contêineres ou UOs relevantes do domínio raiz da floresta, conforme descrito em [permissões de usuário autenticado, removido no Lync Server 2013](lync-server-2013-authenticated-user-permissions-are-removed.md) ou usar uma conta que seja membro do grupo Administradores da empresa.
 
 **Para definir ACEs necessárias para objetos de usuário, InetOrgPerson e contato**
 
@@ -92,7 +94,7 @@ Em um ambiente do Active Directory bloqueado onde a herança de permissões est�
 
 Esse procedimento adiciona as ACEs necessárias diretamente nos contêineres especificados.
 
-Você precisa de direitos de usuário equivalentes ao grupo de administradores de domínio para executar esse cmdlet. Se as ACEs do usuário autenticado também tiverem sido removidas, você deverá conceder a essa conta as ACEs de leitura de acesso aos recipientes relevantes no domínio raiz da floresta, conforme descrito em [permissões de usuário autenticado são removidas no Lync Server 2013](lync-server-2013-authenticated-user-permissions-are-removed.md) ou usar uma conta que seja um membro do grupo Administradores da empresa.
+Você precisa de direitos de usuário equivalentes ao grupo de administradores de domínio para executar esse cmdlet. Se as ACEs do usuário autenticado também tiverem sido removidas, você deverá conceder a essa conta as ACEs de leitura de acesso aos recipientes relevantes no domínio raiz da floresta conforme descrito em [permissões de usuário autenticado são removidas no Lync Server 2013](lync-server-2013-authenticated-user-permissions-are-removed.md) ou usar uma conta que seja membro do grupo Administradores da empresa.
 
 **Para definir ACEs necessárias para objetos de computador**
 
@@ -125,7 +127,7 @@ Você precisa de direitos de usuário equivalentes ao grupo de administradores d
     
 
     > [!NOTE]  
-    > Se você executar a preparação do domínio no domínio raiz da floresta em um ambiente do Active Directory bloqueado, lembre-se de que o Lync Server exige acesso ao esquema e aos contêineres de configuração do Active Directory.<BR>Se a permissão de usuário autenticado padrão for removida do esquema ou dos contêineres de&nbsp;configuração no AD DS, somente os membros do grupo Schema Admins (para contêiner de esquema) ou administradores de empresas (para contêiner de configuração) serão permitidos acessar o contêiner fornecido. Como setup. exe, cmdlets do Shell de gerenciamento do Lync Server e o painel de controle do Lync Server exigem acesso a esses contêineres, a configuração e a instalação das ferramentas administrativas falham, a menos que o usuário executando a instalação tenha direitos de usuário equivalentes ao esquema Associação de grupo Administradores e administradores corporativos.<BR>Para corrigir essa situação, você deve conceder ao grupo RTCUniversalGlobalWriteGroup o acesso de gravação, leitura para o esquema e os contêineres de configuração.
+    > Se você executar a preparação do domínio no domínio raiz da floresta em um ambiente do Active Directory bloqueado, lembre-se de que o Lync Server exige acesso ao esquema e aos contêineres de configuração do Active Directory.<BR>Se a permissão de usuário autenticado padrão for removida do esquema ou dos contêineres de&nbsp;configuração no AD DS, somente os membros do grupo Schema Admins (para contêiner de esquema) ou administradores de empresas (para contêiner de configuração) terão permissão para acessar o contêiner fornecido. Como setup. exe, cmdlets do Shell de gerenciamento do Lync Server e o painel de controle do Lync Server exigem acesso a esses contêineres, a configuração e a instalação das ferramentas administrativas falham, a menos que o usuário executando a instalação tenha direitos de usuário equivalentes ao esquema Associação de grupo Administradores e administradores corporativos.<BR>Para corrigir essa situação, você deve conceder ao grupo RTCUniversalGlobalWriteGroup o acesso de gravação, leitura para o esquema e os contêineres de configuração.
 
     
     </div>

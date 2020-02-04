@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Instalar Servidores de Borda'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Install Edge Servers
 ms:assetid: 1655ab69-3899-4ee4-a1cc-8243bc1bfa0f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398230(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183503
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 211baa13f80e89fa081b6bf65d4bd7e90d50d000
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 22d1961a158ead735ae63d20bb2bd233d6ed5958
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829006"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763755"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Tópico da última modificação:** 2012-09-08_
 
 Você instala o Lync Server 2013 em servidores de borda usando o assistente de implantação do Lync Server. Ao executar o assistente de implantação em cada servidor de borda, você pode concluir a maioria das tarefas necessárias para configurar o servidor de borda. Para implantar o Lync Server 2013 em um servidor de borda, você já deve ter executado o construtor de topologias para definir e publicar a topologia do servidor de borda e exportá-la para a mídia que está disponível no servidor de borda. Para obter detalhes, consulte [cenários para acesso de usuários externos no Lync server 2013](lync-server-2013-scenarios-for-external-user-access.md) e [exporte sua topologia do Lync Server 2013 e copie-o para mídia externa para instalação do Edge](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md).
 
-Depois de usar o assistente de implantação para instalar cada servidor de borda, instalar e atribuir os certificados obrigatórios e iniciar os serviços necessários, você pode concluir a configuração usando as informações em Configurando o [suporte para acesso de usuários externos no Lync Server 2013 ](lync-server-2013-configuring-support-for-external-user-access.md)para habilitar e configurar o acesso de usuários externos e as informações para [verificar a implantação de borda no Lync Server 2013](lync-server-2013-verifying-your-edge-deployment.md) para validar a configuração, incluindo a conectividade do servidor e do cliente.
+Depois de usar o assistente de implantação para instalar cada servidor de borda, instalar e atribuir os certificados necessários e iniciar os serviços necessários, você pode concluir a configuração usando as informações em [Configurando o suporte para acesso de usuários externos no Lync server 2013](lync-server-2013-configuring-support-for-external-user-access.md) para habilitar e configurar o acesso do usuário externo e as informações para [verificar sua implantação de borda no Lync 2013 Server](lync-server-2013-verifying-your-edge-deployment.md)
 
 <div>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Preparando o esquema do Active Directory'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Preparing the Active Directory schema
 ms:assetid: 067726ae-fd3f-4133-a32f-26d2603ac674
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398119(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5479bfbb0774ddd68015de470de082f0cc185b98
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 572f531b57c504bda210f8f21298076428342b62
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823956"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747391"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34823956"
 
 _**Tópico da última modificação:** 2012-08-27_
 
-Antes de começar a preparar os serviços de domínio do Active Directory, você pode abrir os arquivos de esquema usando um editor de texto, como o bloco de notas do Windows, ou ver [extensões de esquema, classes e atributos do Active Directory usados pelo Lync Server 2013](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md) para analisar todas as tarefas ativas Extensões de esquema de serviços de domínio do diretório que serão modificadas para o Lync Server 2013. O Lync Server usa quatro arquivos de esquema:
+Antes de começar a preparar os serviços de domínio do Active Directory, você pode abrir os arquivos de esquema usando um editor de texto, como o bloco de notas do Windows, ou consulte [extensões de esquema, classes e atributos do Active Directory usados pelo Lync server 2013](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md) para examinar todas as extensões de esquema de serviços de domínio do Active Directory que serão modificadas para o Lync Server 2013. O Lync Server usa quatro arquivos de esquema:
 
   - ExternalSchema. ldf, que é usado para interoperabilidade com o Microsoft Exchange Server
 

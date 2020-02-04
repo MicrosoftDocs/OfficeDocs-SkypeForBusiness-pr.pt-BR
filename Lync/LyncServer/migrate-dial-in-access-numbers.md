@@ -3,6 +3,8 @@ title: Migrar números de acesso de discagem
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migrate dial-in access numbers
 ms:assetid: e0dfaed2-64c7-45cb-aaa9-d6117a26625d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721909(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733843
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f4f0f286450aeaaf747d4642bf8791695d16b603
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0638ae76a9aa1108b11c1d1ff98fdd3eef08c938
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844266"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762939"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -87,7 +89,7 @@ Você deve concluir a migração dos números de acesso à discagem que apontam 
 
 4.  Na barra de navegação esquerda, clique em **Conferência**.
 
-5.  Clique na guia **número de acesso** à discagem.
+5.  Clique na guia **número de acesso à discagem** .
 
 6.  Verifique se os números de acesso de discagem permanecem para o pool do Lync Server 2010 do qual você está migrando.
     
@@ -108,7 +110,7 @@ Você deve concluir a migração dos números de acesso à discagem que apontam 
 
 3.  Na barra de navegação esquerda, clique em **Conferência**.
 
-4.  Clique na guia **número de acesso** à discagem.
+4.  Clique na guia **número de acesso à discagem** .
 
 5.  Verifique se todos os números de acesso de discagem foram migrados para o pool hospedado no Lync Server 2013.
 

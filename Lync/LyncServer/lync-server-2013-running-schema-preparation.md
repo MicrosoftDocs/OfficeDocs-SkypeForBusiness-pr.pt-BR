@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Executando preparação de esquema'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Running schema preparation
 ms:assetid: 9d02bdb1-ff29-417a-bcce-b068b31207d8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412729(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184911
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4b743e5ef93b14279f5f2f16cb70241617a0c8f0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 06b02981e9baa589801839c8fd8c871ae35b0dde
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822535"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765039"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ Você pode usar os cmdlets do Shell de gerenciamento do Lync Server e do setup p
 
 </div>
 
-Depois de concluir a preparação do esquema, verifique manualmente se a partição do esquema foi replicada antes de prosseguir com a preparação da floresta. Para obter detalhes, consulte verificando a [replicação de esquema do Active Directory no Lync Server 2013](lync-server-2013-verifying-schema-replication.md).
+Depois de concluir a preparação do esquema, verifique manualmente se a partição do esquema foi replicada antes de prosseguir com a preparação da floresta. Para obter detalhes, consulte [verificando a replicação de esquema do Active Directory no Lync Server 2013](lync-server-2013-verifying-schema-replication.md).
 
 <div>
 
@@ -77,7 +79,7 @@ Depois de concluir a preparação do esquema, verifique manualmente se a partiç
 
 12. Aguarde a conclusão da replicação do Active Directory ou force a replicação.
 
-13. Verifique manualmente se as alterações de esquema foram duplicadas para todos os outros controladores de domínio. Para obter detalhes, consulte verificando a [replicação de esquema do Active Directory no Lync Server 2013](lync-server-2013-verifying-schema-replication.md).
+13. Verifique manualmente se as alterações de esquema foram duplicadas para todos os outros controladores de domínio. Para obter detalhes, consulte [verificando a replicação de esquema do Active Directory no Lync Server 2013](lync-server-2013-verifying-schema-replication.md).
 
 </div>
 
@@ -117,7 +119,7 @@ Depois de concluir a preparação do esquema, verifique manualmente se a partiç
 
 6.  Aguarde a conclusão da replicação do Active Directory ou force a replicação.
 
-7.  Verifique manualmente se as alterações de esquema foram duplicadas para todos os outros controladores de domínio. Para obter detalhes, consulte verificando a [replicação de esquema do Active Directory no Lync Server 2013](lync-server-2013-verifying-schema-replication.md).
+7.  Verifique manualmente se as alterações de esquema foram duplicadas para todos os outros controladores de domínio. Para obter detalhes, consulte [verificando a replicação de esquema do Active Directory no Lync Server 2013](lync-server-2013-verifying-schema-replication.md).
 
 </div>
 

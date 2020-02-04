@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Failover do Servidor de Chat Persistente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Failing over Persistent Chat Server
 ms:assetid: 2cd79ffd-fee6-44ce-96cf-b98bf25e2690
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204772(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183726
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 021b34cafd91397cc36da1dbc22f91b8665aea96
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dd62d4037ae1795a553d207cb698f88f9b3b8ab8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829169"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765199"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -85,7 +87,7 @@ O banco de dados de conformidade de chat persistente (mgccomp) não apresentou f
     
     O banco de dados de backup mgc agora serve como o banco de dados primário.
 
-6.  No Shell de gerenciamento do Lync Server, use o cmdlet **install-CsMirrorDatabase** para estabelecer um espelho de alta disponibilidade para o banco de dados de backup que agora funciona como o banco de dados principal. Use a instância do banco de dados de backup como o banco de dados primário e a instância do banco de dados de espelho de backup como a instância do espelho. Este não é o mesmo espelho do que aquele inicialmente configurado para o banco de dados primário durante a configuração. Para obter detalhes, consulte a seção "usando cmdlets do Shell de gerenciamento do Lync Server" em Implantando o [espelhamento do SQL para servidor back-end alta disponibilidade no Lync server 2013](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md).
+6.  No Shell de gerenciamento do Lync Server, use o cmdlet **install-CsMirrorDatabase** para estabelecer um espelho de alta disponibilidade para o banco de dados de backup que agora funciona como o banco de dados principal. Use a instância do banco de dados de backup como o banco de dados primário e a instância do banco de dados de espelho de backup como a instância do espelho. Este não é o mesmo espelho do que aquele inicialmente configurado para o banco de dados primário durante a configuração. Para obter detalhes, consulte a seção "usando cmdlets do Shell de gerenciamento do Lync Server" em [implantando o espelhamento do SQL para servidor back-end alta disponibilidade no Lync server 2013](lync-server-2013-deploying-sql-mirroring-for-back-end-server-high-availability.md).
 
 7.  Defina os servidores ativos do servidor de chat persistente. No Shell de comando do Lync Server, use o cmdlet **set-CsPersistentChatActiveServer** para definir a lista de servidores ativos.
     

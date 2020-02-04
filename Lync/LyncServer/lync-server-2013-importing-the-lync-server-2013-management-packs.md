@@ -3,6 +3,8 @@ title: 'Lync Server 2013: importando os pacotes de gerenciamento do Lync Server 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Importing the Lync Server 2013 management packs
 ms:assetid: 846287e1-660f-453f-bdba-b2137b5f0ea1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205052(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 70c753334ea9a046c6081a73ce70e4de00de9188
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1cc97cad4069c286f66707c34a9a1af7e87e97da
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829022"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763825"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -84,7 +86,7 @@ Você pode usar uma destas ferramentas para importar pacotes de gerenciamento:
 
 5.  Na caixa de diálogo **conexão de catálogo online** , clique em **Cancelar** para impedir que o Operations Manager fique online para ver se há dependências para os pacotes de gerenciamento do Lync Server. Se você estiver usando o System Center Operations Manager 2012, clique em **não**.
 
-6.  Na caixa de diálogo **selecionar pacotes de gerenciamento a serem** importados, localize e selecione os arquivos **Microsoft.ls.2013.Monitoring.ActiveMonitoring.MP** e **Microsoft.ls.2013.Monitoring.ComponentAndUser.MP** e, em seguida, clique em **abrir**. Para selecionar vários arquivos na caixa de diálogo, clique no primeiro arquivo, mantenha pressionada a tecla CTRL e clique no segundo arquivo.
+6.  Na caixa de diálogo **selecionar pacotes de gerenciamento a serem importados** , localize e selecione os arquivos **Microsoft.ls.2013.Monitoring.ActiveMonitoring.MP** e **Microsoft.ls.2013.Monitoring.ComponentAndUser.MP** e, em seguida, clique em **abrir**. Para selecionar vários arquivos na caixa de diálogo, clique no primeiro arquivo, mantenha pressionada a tecla CTRL e clique no segundo arquivo.
 
 7.  Na caixa de seleção **Selecionar pacotes de gerenciamento**, clique em **Instalar**. Se receber uma mensagem de erro e a instalação falhar, geralmente isso significa que os arquivos dos pacotes de gerenciamento estão em uma pasta protegida pelo Controle de conta de usuário do Windows. Se isso ocorrer, copie os arquivos para uma pasta diferente e reinicie o processo de importação e instalação.
 

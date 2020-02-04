@@ -3,6 +3,8 @@ title: 'Lync Server 2013: alterar a URL dos serviços Web'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Change the Web Services URL
 ms:assetid: 4cee37c0-3b99-4207-997f-bf4229d760c0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520992(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184063
 ms.date: 11/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 335c73a56da1d8b9a28e7089a7cc2238724a322b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 934e448f48413df2938deab8a0d08389cfad37bd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836620"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730151"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ Ao configurar os seus pools front-end e os servidores padrão da edição, você
 
 </div>
 
-![Editar configurações do pool de serviços Web] (images/Gg520992.fbdf5cc9-479a-463f-bb1d-53575ecdfc9d(OCS.15).jpg "Editar configurações do pool de serviços Web")
+![Editar configurações do pool de serviços Web](images/Gg520992.fbdf5cc9-479a-463f-bb1d-53575ecdfc9d(OCS.15).jpg "Editar configurações do pool de serviços Web")
 
 <div>
 
@@ -57,7 +59,7 @@ Ao configurar os seus pools front-end e os servidores padrão da edição, você
 
 2.  Iniciar o construtor de topologias: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Construtor de topologias do Lync Server**.
 
-3.  No construtor de topologia, na árvore de console, em **servidores front-end da edição padrão**, **pools front-end do Enterprise Edition**e pools de **diretórios**, selecione o nome do pool. Clique com o botão direito do mouse no nome, clique em **Editar propriedades**e, em seguida, clique em **Serviços Web**.
+3.  No construtor de topologia, na árvore de console, em **servidores front-end da edição padrão**, **pools front-end do Enterprise Edition**e **pools de diretórios**, selecione o nome do pool. Clique com o botão direito do mouse no nome, clique em **Editar propriedades**e, em seguida, clique em **Serviços Web**.
 
 4.  Adicione ou edite o **FQDN dos serviços Web externos**e clique em **OK**.
     
