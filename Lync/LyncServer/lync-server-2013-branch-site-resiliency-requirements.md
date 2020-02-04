@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requisitos de resiliência do site da filial'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Branch-site resiliency requirements
 ms:assetid: a570922c-52bd-42d7-bd64-226578b3d110
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412772(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184984
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ff969638f8c46abdd0ebcc8d11821a6a31b3c76
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4f146f2c358e6eb6718aa60f8a51106430e6a4a3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836761"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741631"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -61,7 +63,7 @@ Se um site de filial não tiver um servidor DNS, existem duas maneiras alternati
 
 ## <a name="voice-routing-for-branch-users"></a>Roteamento de voz para usuários de filial
 
-É recomendável criar uma política VoIP separada em nível de usuário para os usuários de um site de filial. Essa política deve incluir uma rota primária que usa o aplicativo de ramificação ou o gateway de servidor de ramificação sobreviventes e uma ou mais rotas de backup que usam um tronco com um gateway PSTN (rede telefônica pública comutada) no site central. Se a rota principal não estiver disponível, a rota de backup que usa um ou mais gateways do site central será utilizada. Dessa forma, independentemente de onde o usuário estiver registrado — seja no Registrador Avançado do site de filial ou no pool de Registradores Avançados de backup no site central — a política VoIP do usuário estará sempre em vigor. Essa é uma consideração importante para cenários de failover. Por exemplo, se precisar renomear o aparelho de ramificação sobreviventes ou reconfigurar o aparelho de ramificação sobreviventes para se conectar a um pool de registradores de backup no site central, você deverá mover os usuários do site para o site central durante a duração. (Para obter detalhes sobre como renomear ou reconfigurar um aparelho de ramificação sobreviventes, consulte o [Apêndice B: gerenciando um aparelho de ramificação sobreviventes no Lync Server 2013](lync-server-2013-appendix-b-managing-a-survivable-branch-appliance.md) na documentação de implantação.) Se esses usuários não tiverem políticas de VoIP em nível de usuário ou planos de discagem em nível de usuário, quando os usuários forem movidos para outro site, as políticas de VoIP no nível do site e os planos de discagem em nível de site do site central se aplicam aos usuários por padrão, em vez de usar o VoIP no nível do site da filial políticas e planos de discagem. Nesse cenário, a menos que as políticas VoIP e os planos de discagem em nível de site usados pelo pool de Registradores Avançados de backup também possam ser aplicados aos usuários do site de filial, suas chamadas falharão. Por exemplo, se os usuários de um site de filial localizado no Japão forem movidos para um site central em Redmond, um plano de discagem com regras de normalização que acrescentem o prefixo +1425 a todas as chamadas de 7 dígitos provavelmente não converterá as chamadas de forma apropriada para esses usuários.
+É recomendável criar uma política VoIP separada em nível de usuário para os usuários de um site de filial. Essa política deve incluir uma rota primária que usa o aplicativo de ramificação ou o gateway de servidor de ramificação sobreviventes e uma ou mais rotas de backup que usam um tronco com um gateway PSTN (rede telefônica pública comutada) no site central. Se a rota principal não estiver disponível, a rota de backup que usa um ou mais gateways do site central será utilizada. Dessa forma, independentemente de onde o usuário estiver registrado — seja no Registrador Avançado do site de filial ou no pool de Registradores Avançados de backup no site central — a política VoIP do usuário estará sempre em vigor. Essa é uma consideração importante para cenários de failover. Por exemplo, se precisar renomear o aparelho de ramificação sobreviventes ou reconfigurar o aparelho de ramificação sobreviventes para se conectar a um pool de registradores de backup no site central, você deverá mover os usuários do site para o site central durante a duração. (Para obter detalhes sobre como renomear ou reconfigurar um aparelho de ramificação sobreviventes, consulte o [Apêndice B: gerenciando um aparelho de ramificação sobreviventes no Lync Server 2013](lync-server-2013-appendix-b-managing-a-survivable-branch-appliance.md) na documentação de implantação.) Se esses usuários não tiverem políticas de VoIP em nível de usuário ou planos de discagem em nível de usuário, quando os usuários forem movidos para outro site, as políticas de VoIP no nível do site e os planos de discagem no nível do site central se aplicam aos usuários por padrão, em vez de políticas de VoIP no nível de site e de planos de discagem Nesse cenário, a menos que as políticas VoIP e os planos de discagem em nível de site usados pelo pool de Registradores Avançados de backup também possam ser aplicados aos usuários do site de filial, suas chamadas falharão. Por exemplo, se os usuários de um site de filial localizado no Japão forem movidos para um site central em Redmond, um plano de discagem com regras de normalização que acrescentem o prefixo +1425 a todas as chamadas de 7 dígitos provavelmente não converterá as chamadas de forma apropriada para esses usuários.
 
 <div>
 
@@ -73,7 +75,7 @@ Se um site de filial não tiver um servidor DNS, existem duas maneiras alternati
 
 </div>
 
-Para ajudar a garantir que as chamadas recebidas para os usuários do site de ramificação cheguem a esses usuários quando o gateway da ramificação ou o componente do Windows do site do aparelho de ramificação sobreviventes estiver indisponível (o que aconteceria, por exemplo, se a ramificação ou ramificação sobreviventes pode ser retentada o gateway foi desativado para manutenção), crie uma rota de failover no gateway (ou trabalhe com o seu provedor de discagem direta) para redirecionar as chamadas de entrada para o pool de registradores de backup no site central. A partir desse local, as chamadas serão encaminhadas através do link WAN para os usuários da filial. A rota deverá converter os números para que fiquem em conformidade com o gateway PSTN ou outros formatos de número de telefone aceitos pelo par de tronco. Para obter detalhes sobre como criar uma rota de failover, consulte Configurando [uma rota de failover no Lync Server 2013](lync-server-2013-configuring-a-failover-route.md). Além disso, crie planos de discagem de nível de serviço para o tronco associado ao gateway no site de filial a fim de normalizar as chamadas de entrada. Se você tiver dois aparelhos de ramificação sobreviventes em um site de filial, poderá criar um plano de discagem em nível de site para ambos, a menos que seja necessário um plano de nível de serviço separado para cada um.
+Para ajudar a garantir que as chamadas recebidas para os usuários do site de ramificação cheguem a esses usuários quando o gateway da ramificação ou o componente do Windows do site do aparelho de ramificação sobreviventes estiver indisponível (o que aconteceria, por exemplo, se a ramificação ou ramificação sobreviventes pode ser retentada o gateway foi desativado para manutenção), crie uma rota de failover no gateway (ou trabalhe com o seu provedor de discagem direta) para redirecionar as chamadas de entrada para o pool de registradores de backup no site central. A partir desse local, as chamadas serão encaminhadas através do link WAN para os usuários da filial. A rota deverá converter os números para que fiquem em conformidade com o gateway PSTN ou outros formatos de número de telefone aceitos pelo par de tronco. Para obter detalhes sobre como criar uma rota de failover, consulte [Configurando uma rota de failover no Lync Server 2013](lync-server-2013-configuring-a-failover-route.md). Além disso, crie planos de discagem de nível de serviço para o tronco associado ao gateway no site de filial a fim de normalizar as chamadas de entrada. Se você tiver dois aparelhos de ramificação sobreviventes em um site de filial, poderá criar um plano de discagem em nível de site para ambos, a menos que seja necessário um plano de nível de serviço separado para cada um.
 
 <div>
 
@@ -195,7 +197,7 @@ Neste cenário, se o par do tronco que trata do reencaminhamento para a PSTN nã
 
 Independentemente de um link WAN estar ou não disponível, se a sua organização não tiver números DDI configurados para os usuários individuais, e a URI da Linha de um usuário contiver o número de telefone da organização e o número do ramal exclusivo do usuário, você deverá configurar a URI da Linha do número de telefone da organização com um número que possa ser acessado pelo par do tronco ou pelo gateway PSTN no site de filial. Você também deve configurar a URI da Linha do número de telefone da organização para incluir seu próprio ramal exclusivo de modo que as chamadas sejam encaminhadas para esse número.
 
-Para obter detalhes sobre chamadas de um usuário do site central para um usuário do site da filial quando o link de WAN entre os sites não estiver disponível, consulte "preparando para a imsustentabilidade da caixa postal" mais adiante neste tópico. Para obter detalhes sobre planos de discagem e regras de normalização, incluindo outras regras de amostra, consulte [planos de discagem e regras de normalização no Lync server 2013](lync-server-2013-dial-plans-and-normalization-rules.md) na documentação de planejamento e configurando [planos de discagem no Lync Server 2013](lync-server-2013-configuring-dial-plans.md) na implantação documentação. Para obter detalhes sobre as regras de conversão de saída, consulte [regras de tradução no Lync server 2013](lync-server-2013-translation-rules.md) na documentação de planejamento e [definindo regras de tradução no Lync Server 2013](lync-server-2013-defining-translation-rules.md) na documentação de implantação.
+Para obter detalhes sobre chamadas de um usuário do site central para um usuário do site da filial quando o link de WAN entre os sites não estiver disponível, consulte "preparando para a imsustentabilidade da caixa postal" mais adiante neste tópico. Para obter detalhes sobre planos de discagem e regras de normalização, incluindo outras regras de amostra, consulte [planos de discagem e regras de normalização no Lync server 2013](lync-server-2013-dial-plans-and-normalization-rules.md) na documentação de planejamento e [Configurando planos de discagem no Lync Server 2013](lync-server-2013-configuring-dial-plans.md) na documentação de implantação. Para obter detalhes sobre as regras de conversão de saída, consulte [regras de tradução no Lync server 2013](lync-server-2013-translation-rules.md) na documentação de planejamento e [definindo regras de tradução no Lync Server 2013](lync-server-2013-defining-translation-rules.md) na documentação de implantação.
 
 </div>
 
@@ -217,7 +219,7 @@ Recomendamos definir as configurações a seguir para a persistência da caixa p
 
   - O administrador do Lync Server deve levar o número de telefone AA e usar esse número de telefone como o número de **atendedor automático de um do Exchange** nas configurações de redirecionamento de caixa postal para o aparelho de ramificação ou servidor de ramificação sobreviventes.
 
-  - O administrador do Lync Server deve obter o número de telefone de acesso do assinante do Exchange UM e usar esse número como o número de **acesso** do assinante nas configurações de redirecionamento de caixa postal para o aparelho de ramificação sobreviventes ou o servidor de ramificação sobreviventes.
+  - O administrador do Lync Server deve obter o número de telefone de acesso do assinante do Exchange UM e usar esse número como o número de **acesso do assinante** nas configurações de redirecionamento de caixa postal para o aparelho de ramificação sobreviventes ou o servidor de ramificação sobreviventes.
 
   - O administrador do Lync Server deve configurar o UM do Exchange para que apenas um plano de discagem esteja associado a todos os usuários da ramificação que precisam acessar a caixa postal durante uma falha de WAN.
 
@@ -273,7 +275,7 @@ Os requisitos para servidores de filiais sobreviventes são os mesmos dos requis
 
 ## <a name="requirements-for-full-scale-lync-server-branch-site-deployments"></a>Requisitos para implantações em filiais do servidor do Lync Server em toda a escala
 
-Para obter detalhes, consulte determinando os [requisitos de infraestrutura do Lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md) na documentação de planejamento.
+Para obter detalhes, consulte [determinando os requisitos de infraestrutura do Lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md) na documentação de planejamento.
 
 </div>
 

@@ -3,6 +3,8 @@ title: Mover um único usuário para o pool piloto
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Move a single user to the pilot pool
 ms:assetid: 80d5b365-f153-4c61-a148-f9e18ce6e027
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688109(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733708
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 086af622644f8d8285ef5f7be8e17f75ff436000
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e8cb89fde2a62858c3bd9a402207f4b23fd51643
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844234"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756045"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Tópico da última modificação:** 2012-09-28_
 
 Você pode mover um usuário do pool do Office Communications Server 2007 R2 para o pool piloto do Lync Server 2013 usando o painel de controle do Lync Server 2013 ou o Shell de gerenciamento do Lync Server 2013. No exemplo a seguir, na coluna pool de registradores, ** \<o Office\> Communications Server** é o pool do Office Communications Server 2007 R2 e todos os seis usuários estão conectados a esse pool. Use os procedimentos a seguir para mover um usuário para o pool do Lync Server 2013 usando o painel de controle do Lync Server 2013 e o Shell de gerenciamento do Lync Server.
 
-![Pesquisar usuários do OCS no painel de controle do Lync Server] (images/JJ688109.d2008fd6-868b-4f26-84cf-57bb69e073d3(OCS.15).jpg "Pesquisar usuários do OCS no painel de controle do Lync Server")
+![Pesquisar usuários do OCS no painel de controle do Lync Server](images/JJ688109.d2008fd6-868b-4f26-84cf-57bb69e073d3(OCS.15).jpg "Pesquisar usuários do OCS no painel de controle do Lync Server")
 
 <div>
 
@@ -57,7 +59,7 @@ Você pode mover um usuário do pool do Office Communications Server 2007 R2 par
 
 7.  Clique em **Localizar** para pesquisar usuários herdados do Office Communications Server 2007 R2.
     
-    ![Pesquisar usuários do OCS no painel de controle do Lync Server] (images/JJ688109.09528349-7915-41e1-91b4-6ab5c12b1b38(OCS.15).jpg "Pesquisar usuários do OCS no painel de controle do Lync Server")  
+    ![Pesquisar usuários do OCS no painel de controle do Lync Server](images/JJ688109.09528349-7915-41e1-91b4-6ab5c12b1b38(OCS.15).jpg "Pesquisar usuários do OCS no painel de controle do Lync Server")  
 
 8.  Selecione o usuário que você deseja mover para o pool do Lync Server 2013. Neste exemplo, moveremos a usuária Sara Davis.
 
@@ -67,9 +69,9 @@ Você pode mover um usuário do pool do Office Communications Server 2007 R2 par
 
 11. Clique em **Ação** e em **Mover usuários selecionados para o pool**. Clique em **OK**.
     
-    ![Configurando o pool de destino na caixa de diálogo mover usuários] (images/JJ688109.d7dc0759-87c5-4c23-938f-361576621504(OCS.15).jpg "Configurando o pool de destino na caixa de diálogo mover usuários")  
+    ![Configurando o pool de destino na caixa de diálogo mover usuários](images/JJ688109.d7dc0759-87c5-4c23-938f-361576621504(OCS.15).jpg "Configurando o pool de destino na caixa de diálogo mover usuários")  
 
-12. Verifique se a coluna do **pool** de registradores do usuário agora contém o pool do Lync Server 2013, que indica que o usuário foi movido com êxito
+12. Verifique se a coluna do **pool de registradores** do usuário agora contém o pool do Lync Server 2013, que indica que o usuário foi movido com êxito
 
 </div>
 
@@ -89,7 +91,7 @@ Você pode mover um usuário do pool do Office Communications Server 2007 R2 par
 
 4.  A identidade **RegistrarPool** agora aponta para o pool do Lync Server 2013. A presença dessa identidade confirma que o usuário foi movido com êxito.
     
-    ![Saída do cmdlet Get-CsUser com filtro de identidade] (images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Saída do cmdlet Get-CsUser com filtro de identidade")  
+    ![Saída do cmdlet Get-CsUser com filtro de identidade](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Saída do cmdlet Get-CsUser com filtro de identidade")  
     
     <div>
     

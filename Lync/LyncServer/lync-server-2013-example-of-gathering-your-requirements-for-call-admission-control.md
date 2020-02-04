@@ -3,6 +3,8 @@ title: Exemplo de como reunir seus requisitos para o controle de admissão de ch
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Example of gathering your requirements for call admission control
 ms:assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425827(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183820
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e17d9abb0387f0d77c696487558dec0c915b1651
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 345f5d7e41dd9da3e6d68c59ce9656d3052c57b5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829218"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756265"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,7 +69,7 @@ Para se preparar para o controle de admissão de chamada, colete as informaçõe
     
     **Um exemplo de rede de empresa dividida em três regiões de rede**
     
-    ![Exemplo de topologia de rede com 3 regiões de rede] (images/Gg425827.08937347-250f-488f-ba5f-c256e6afcd8b(OCS.15).jpg "Exemplo de topologia de rede com 3 regiões de rede")  
+    ![Exemplo de topologia de rede com 3 regiões de rede](images/Gg425827.08937347-250f-488f-ba5f-c256e6afcd8b(OCS.15).jpg "Exemplo de topologia de rede com 3 regiões de rede")  
     
     <div>
     
@@ -193,7 +195,7 @@ Para se preparar para o controle de admissão de chamada, colete as informaçõe
     
     **Região de rede de CAC América do Norte com três sites de rede sem restrição de largura de banda (Chicago, Nova York e Detroit) e três sites de rede com restrição de largura de banda de WAN (Portland, Reno e Albuquerque)**
     
-    ![Exemplo de sites de rede restritos pela largura de banda WAN] (images/Gg425827.d9d1f231-db4d-4dd7-8fbc-eb0b6d1e705d(OCS.15).jpg "Exemplo de sites de rede restritos pela largura de banda WAN")  
+    ![Exemplo de sites de rede restritos pela largura de banda WAN](images/Gg425827.d9d1f231-db4d-4dd7-8fbc-eb0b6d1e705d(OCS.15).jpg "Exemplo de sites de rede restritos pela largura de banda WAN")  
 
 5.  Para cada link de WAN com restrição de largura de banda, determine o seguinte:
     
@@ -414,7 +416,7 @@ Para se preparar para o controle de admissão de chamada, colete as informaçõe
     
     **Links de região de rede com limites de largura de banda associados**
     
-    ![Exemplo de limitações entre 3 regiões] (images/Gg425827.25259afa-ee7c-4d26-bc41-92ba9cb56dec(OCS.15).jpg "Exemplo de limitações entre 3 regiões")  
+    ![Exemplo de limitações entre 3 regiões](images/Gg425827.25259afa-ee7c-4d26-bc41-92ba9cb56dec(OCS.15).jpg "Exemplo de limitações entre 3 regiões")  
     
     ### <a name="region-link-bandwidth-information-bandwidth-in-kbps"></a>Informações de largura de banda de link de região (largura de banda em kbps)
     
@@ -529,7 +531,7 @@ Para se preparar para o controle de admissão de chamada, colete as informaçõe
     
     **Região da rede CAC América do Norte mostrando as capacidades de largura de banda e limites de largura de banda para o link entre sites entre Reno e Albuquerque**
     
-    ![Sites de rede restritos pelo exemplo de largura de banda de WAN] (images/Gg425827.063e5e1d-b6c8-4e8c-98db-c227c78f671d(OCS.15).jpg "Sites de rede restritos pelo exemplo de largura de banda de WAN")  
+    ![Sites de rede restritos pelo exemplo de largura de banda de WAN](images/Gg425827.063e5e1d-b6c8-4e8c-98db-c227c78f671d(OCS.15).jpg "Sites de rede restritos pelo exemplo de largura de banda de WAN")  
     
     ### <a name="bandwidth-information-for-an-inter-site-link-between-two-network-sites-bandwidth-in-kbps"></a>Informações de largura de banda para link entre locais entre dois locais de rede (largura de banda em kbps)
     
