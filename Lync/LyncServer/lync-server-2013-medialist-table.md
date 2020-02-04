@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Tabela MediaList'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: MediaList table
 ms:assetid: 1f440590-c1bc-483e-b7bc-6cc763847768
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398279(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183579
 ms.date: 07/12/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f4fa53ff1ce4ce419a4e7a29124593c7b01006a3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b92c8a0a6957eed00cf4e25f60ce2e0ff24d1fd2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827267"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762989"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34827267"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="medialist-table-in-lync-server-2013"></a><span data-ttu-id="34908-102">Tabela MediaList no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="34908-102">MediaList table in Lync Server 2013</span></span>
+# <a name="medialist-table-in-lync-server-2013"></a><span data-ttu-id="26f5b-102">Tabela MediaList no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="26f5b-102">MediaList table in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,9 +35,9 @@ ms.locfileid: "34827267"
 
 <span> </span>
 
-<span data-ttu-id="34908-103">_**Tópico da última modificação:** 2016-07-12_</span><span class="sxs-lookup"><span data-stu-id="34908-103">_**Topic Last Modified:** 2016-07-12_</span></span>
+<span data-ttu-id="26f5b-103">_**Tópico da última modificação:** 2016-07-12_</span><span class="sxs-lookup"><span data-stu-id="26f5b-103">_**Topic Last Modified:** 2016-07-12_</span></span>
 
-<span data-ttu-id="34908-104">MediaList é uma tabela estática que armazena a lista de vários tipos de mídia.</span><span class="sxs-lookup"><span data-stu-id="34908-104">The MediaList table is a static table that stores the list of various media types.</span></span>
+<span data-ttu-id="26f5b-104">MediaList é uma tabela estática que armazena a lista de vários tipos de mídia.</span><span class="sxs-lookup"><span data-stu-id="26f5b-104">The MediaList table is a static table that stores the list of various media types.</span></span>
 
 
 <table>
@@ -47,39 +49,39 @@ ms.locfileid: "34827267"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="34908-105">Coluna</span><span class="sxs-lookup"><span data-stu-id="34908-105">Column</span></span></th>
-<th><span data-ttu-id="34908-106">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="34908-106">Data Type</span></span></th>
-<th><span data-ttu-id="34908-107">Chave/índice</span><span class="sxs-lookup"><span data-stu-id="34908-107">Key/Index</span></span></th>
-<th><span data-ttu-id="34908-108">Detalhes</span><span class="sxs-lookup"><span data-stu-id="34908-108">Details</span></span></th>
+<th><span data-ttu-id="26f5b-105">Coluna</span><span class="sxs-lookup"><span data-stu-id="26f5b-105">Column</span></span></th>
+<th><span data-ttu-id="26f5b-106">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="26f5b-106">Data Type</span></span></th>
+<th><span data-ttu-id="26f5b-107">Chave/índice</span><span class="sxs-lookup"><span data-stu-id="26f5b-107">Key/Index</span></span></th>
+<th><span data-ttu-id="26f5b-108">Detalhes</span><span class="sxs-lookup"><span data-stu-id="26f5b-108">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="34908-109"><strong>MediaId</strong></span><span class="sxs-lookup"><span data-stu-id="34908-109"><strong>MediaId</strong></span></span></p></td>
-<td><p><span data-ttu-id="34908-110">tinyint</span><span class="sxs-lookup"><span data-stu-id="34908-110">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="34908-111">Primária</span><span class="sxs-lookup"><span data-stu-id="34908-111">Primary</span></span></p></td>
-<td><p><span data-ttu-id="34908-112">Valores: 1-7</span><span class="sxs-lookup"><span data-stu-id="34908-112">Values: 1-7</span></span></p></td>
+<td><p><span data-ttu-id="26f5b-109"><strong>MediaId</strong></span><span class="sxs-lookup"><span data-stu-id="26f5b-109"><strong>MediaId</strong></span></span></p></td>
+<td><p><span data-ttu-id="26f5b-110">tinyint</span><span class="sxs-lookup"><span data-stu-id="26f5b-110">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="26f5b-111">Primária</span><span class="sxs-lookup"><span data-stu-id="26f5b-111">Primary</span></span></p></td>
+<td><p><span data-ttu-id="26f5b-112">Valores: 1-7</span><span class="sxs-lookup"><span data-stu-id="26f5b-112">Values: 1-7</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="34908-113"><strong>Media</strong></span><span class="sxs-lookup"><span data-stu-id="34908-113"><strong>Media</strong></span></span></p></td>
-<td><p><span data-ttu-id="34908-114">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="34908-114">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="26f5b-113"><strong>Media</strong></span><span class="sxs-lookup"><span data-stu-id="26f5b-113"><strong>Media</strong></span></span></p></td>
+<td><p><span data-ttu-id="26f5b-114">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="26f5b-114">nvarchar(256)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="34908-115">Mapeamento estático dos valores de MediaID e Media:</span><span class="sxs-lookup"><span data-stu-id="34908-115">Static mapping of MediaID and Media values:</span></span></p>
+<td><p><span data-ttu-id="26f5b-115">Mapeamento estático dos valores de MediaID e Media:</span><span class="sxs-lookup"><span data-stu-id="26f5b-115">Static mapping of MediaID and Media values:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="34908-116">1 – MENSAGEM INSTANTÂNEA</span><span class="sxs-lookup"><span data-stu-id="34908-116">1 – IM</span></span></p></li>
-<li><p><span data-ttu-id="34908-117">2 – Transferência de arquivo</span><span class="sxs-lookup"><span data-stu-id="34908-117">2 – File Transfer</span></span></p></li>
-<li><p><span data-ttu-id="34908-118">3 – Assistência remota</span><span class="sxs-lookup"><span data-stu-id="34908-118">3 – Remote Assistance</span></span></p></li>
-<li><p><span data-ttu-id="34908-119">4 – Compartilhamento de aplicativos</span><span class="sxs-lookup"><span data-stu-id="34908-119">4 – Application Sharing</span></span></p></li>
-<li><p><span data-ttu-id="34908-120">5 – áudio</span><span class="sxs-lookup"><span data-stu-id="34908-120">5 – Audio</span></span></p></li>
-<li><p><span data-ttu-id="34908-121">6 – vídeo</span><span class="sxs-lookup"><span data-stu-id="34908-121">6 – Video</span></span></p></li>
-<li><p><span data-ttu-id="34908-122">7 – Convite do aplicativo</span><span class="sxs-lookup"><span data-stu-id="34908-122">7 – App Invite</span></span></p></li>
+<li><p><span data-ttu-id="26f5b-116">1 – MENSAGEM INSTANTÂNEA</span><span class="sxs-lookup"><span data-stu-id="26f5b-116">1 – IM</span></span></p></li>
+<li><p><span data-ttu-id="26f5b-117">2 – Transferência de arquivo</span><span class="sxs-lookup"><span data-stu-id="26f5b-117">2 – File Transfer</span></span></p></li>
+<li><p><span data-ttu-id="26f5b-118">3 – Assistência remota</span><span class="sxs-lookup"><span data-stu-id="26f5b-118">3 – Remote Assistance</span></span></p></li>
+<li><p><span data-ttu-id="26f5b-119">4 – Compartilhamento de aplicativos</span><span class="sxs-lookup"><span data-stu-id="26f5b-119">4 – Application Sharing</span></span></p></li>
+<li><p><span data-ttu-id="26f5b-120">5 – áudio</span><span class="sxs-lookup"><span data-stu-id="26f5b-120">5 – Audio</span></span></p></li>
+<li><p><span data-ttu-id="26f5b-121">6 – vídeo</span><span class="sxs-lookup"><span data-stu-id="26f5b-121">6 – Video</span></span></p></li>
+<li><p><span data-ttu-id="26f5b-122">7 – Convite do aplicativo</span><span class="sxs-lookup"><span data-stu-id="26f5b-122">7 – App Invite</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="34908-123">Se você está tentando determinar o tipo de modalidade dos valores em LcsCDR.SessionDetailsView.MediaTypes, use o seguinte snippet Join: </span><span class="sxs-lookup"><span data-stu-id="34908-123">If you are trying to determine the modality type for the values in LcsCDR.SessionDetailsView.MediaTypes, then you need to use the following Join snippet:</span></span>
+<span data-ttu-id="26f5b-123">Se você está tentando determinar o tipo de modalidade dos valores em LcsCDR.SessionDetailsView.MediaTypes, use o seguinte snippet Join: </span><span class="sxs-lookup"><span data-stu-id="26f5b-123">If you are trying to determine the modality type for the values in LcsCDR.SessionDetailsView.MediaTypes, then you need to use the following Join snippet:</span></span>
 
     LEFT JOIN on Media.MediaId = MediaList.MediaId
 

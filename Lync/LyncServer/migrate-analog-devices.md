@@ -3,6 +3,8 @@ title: Migrar dispositivos analógicos
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migrate analog devices
 ms:assetid: ad072916-87ed-4d44-8289-aab87da86250
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721846(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733779
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 66866ee7cb6dafecb2c30b53d04a50f849f09c94
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e809db03cf098bea07f57673ddcbfc019e15f299
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844272"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762969"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34844272"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migrate-analog-devices"></a><span data-ttu-id="dec59-102">Migrar dispositivos analógicos</span><span class="sxs-lookup"><span data-stu-id="dec59-102">Migrate analog devices</span></span>
+# <a name="migrate-analog-devices"></a><span data-ttu-id="dc81e-102">Migrar dispositivos analógicos</span><span class="sxs-lookup"><span data-stu-id="dc81e-102">Migrate analog devices</span></span>
 
 </div>
 
@@ -33,25 +35,25 @@ ms.locfileid: "34844272"
 
 <span> </span>
 
-<span data-ttu-id="dec59-103">_**Tópico da última modificação:** 2012-10-16_</span><span class="sxs-lookup"><span data-stu-id="dec59-103">_**Topic Last Modified:** 2012-10-16_</span></span>
+<span data-ttu-id="dc81e-103">_**Tópico da última modificação:** 2012-10-16_</span><span class="sxs-lookup"><span data-stu-id="dc81e-103">_**Topic Last Modified:** 2012-10-16_</span></span>
 
-<span data-ttu-id="dec59-104">O Lync Server oferece suporte a dispositivos analógicos.</span><span class="sxs-lookup"><span data-stu-id="dec59-104">Lync Server provides support for analog devices.</span></span> <span data-ttu-id="dec59-105">Especificamente, os dispositivos analógicos suportados são telefones de áudio analógicos e máquinas de fax analógicas.</span><span class="sxs-lookup"><span data-stu-id="dec59-105">Specifically, the supported analog devices are analog audio phones and analog fax machines.</span></span> <span data-ttu-id="dec59-106">Você pode configurar os gateways qualificados para dar suporte ao uso de dispositivos analógicos em seu ambiente do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="dec59-106">You can configure the qualified gateways to support the use of analog devices in your Lync Server environment.</span></span> <span data-ttu-id="dec59-107">Depois de migrar do Lync Server 2010 para o Lync Server 2013, você também deve migrar os objetos de contato associados aos dispositivos analógicos.</span><span class="sxs-lookup"><span data-stu-id="dec59-107">After you migrate from Lync Server 2010 to Lync Server 2013, you must also migrate the contact objects associated with the analog devices.</span></span> <span data-ttu-id="dec59-108">Use o Shell de gerenciamento do Lync Server para recuperar primeiro todos os objetos de contato associados aos dispositivos analógicos do Lync Server 2010 e mova esses objetos para o pool do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="dec59-108">Use Lync Server Management Shell to first retrieve all contact objects associated with the Lync Server 2010 analog devices, and then move those objects to the Lync Server 2013 pool.</span></span>
+<span data-ttu-id="dc81e-104">O Lync Server oferece suporte a dispositivos analógicos.</span><span class="sxs-lookup"><span data-stu-id="dc81e-104">Lync Server provides support for analog devices.</span></span> <span data-ttu-id="dc81e-105">Especificamente, os dispositivos analógicos suportados são telefones de áudio analógicos e máquinas de fax analógicas.</span><span class="sxs-lookup"><span data-stu-id="dc81e-105">Specifically, the supported analog devices are analog audio phones and analog fax machines.</span></span> <span data-ttu-id="dc81e-106">Você pode configurar os gateways qualificados para dar suporte ao uso de dispositivos analógicos em seu ambiente do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="dc81e-106">You can configure the qualified gateways to support the use of analog devices in your Lync Server environment.</span></span> <span data-ttu-id="dc81e-107">Depois de migrar do Lync Server 2010 para o Lync Server 2013, você também deve migrar os objetos de contato associados aos dispositivos analógicos.</span><span class="sxs-lookup"><span data-stu-id="dc81e-107">After you migrate from Lync Server 2010 to Lync Server 2013, you must also migrate the contact objects associated with the analog devices.</span></span> <span data-ttu-id="dc81e-108">Use o Shell de gerenciamento do Lync Server para recuperar primeiro todos os objetos de contato associados aos dispositivos analógicos do Lync Server 2010 e mova esses objetos para o pool do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="dc81e-108">Use Lync Server Management Shell to first retrieve all contact objects associated with the Lync Server 2010 analog devices, and then move those objects to the Lync Server 2013 pool.</span></span>
 
 <div>
 
-## <a name="to-migrate-analog-devices"></a><span data-ttu-id="dec59-109">Para migrar dispositivos analógicos</span><span class="sxs-lookup"><span data-stu-id="dec59-109">To migrate analog devices</span></span>
+## <a name="to-migrate-analog-devices"></a><span data-ttu-id="dc81e-109">Para migrar dispositivos analógicos</span><span class="sxs-lookup"><span data-stu-id="dc81e-109">To migrate analog devices</span></span>
 
-1.  <span data-ttu-id="dec59-110">Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="dec59-110">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="dc81e-110">Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="dc81e-110">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="dec59-111">Na linha de comando, digite:</span><span class="sxs-lookup"><span data-stu-id="dec59-111">At the command line, type:</span></span>
+2.  <span data-ttu-id="dc81e-111">Na linha de comando, digite:</span><span class="sxs-lookup"><span data-stu-id="dc81e-111">At the command line, type:</span></span>
     
         Get-CsAnalogDevice -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsAnalogDevice -Target pool02.contoso.net
 
-3.  <span data-ttu-id="dec59-112">Verifique se todos os objetos de contato foram movidos para o pool do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="dec59-112">Verify that all contact objects have been moved to the Lync Server 2013 pool.</span></span> <span data-ttu-id="dec59-113">Na linha de comando, digite:</span><span class="sxs-lookup"><span data-stu-id="dec59-113">At the command line, type:</span></span>
+3.  <span data-ttu-id="dc81e-112">Verifique se todos os objetos de contato foram movidos para o pool do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="dc81e-112">Verify that all contact objects have been moved to the Lync Server 2013 pool.</span></span> <span data-ttu-id="dc81e-113">Na linha de comando, digite:</span><span class="sxs-lookup"><span data-stu-id="dc81e-113">At the command line, type:</span></span>
     
         Get-CsAnalogDevice -Filter {RegistrarPool -eq "pool02.contoso.net"}
 
-4.  <span data-ttu-id="dec59-114">Verifique se todos os objetos de contato agora estão associados ao pool do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="dec59-114">Verify that all the contact objects are now associated with the Lync Server 2013 pool.</span></span>
+4.  <span data-ttu-id="dc81e-114">Verifique se todos os objetos de contato agora estão associados ao pool do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="dc81e-114">Verify that all the contact objects are now associated with the Lync Server 2013 pool.</span></span>
 
 </div>
 

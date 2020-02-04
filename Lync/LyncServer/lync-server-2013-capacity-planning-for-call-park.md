@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planejamento de capacidade para Estacionamento de Cham
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Capacity planning for Call Park
 ms:assetid: 75520310-760a-4b1b-bcc1-4d724d13f87a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg416493(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184529
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5fe55e09c67e62676202def9e3def3454d7cbd33
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dd4cc9d10a3a3562c035c7bc2f64f551b70cc5da
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836677"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743421"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34836677"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-call-park-in-lync-server-2013"></a><span data-ttu-id="0cbc7-102">Planejamento de capacidade para Estacionamento de Chamada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0cbc7-102">Capacity planning for Call Park in Lync Server 2013</span></span>
+# <a name="capacity-planning-for-call-park-in-lync-server-2013"></a><span data-ttu-id="64c3f-102">Planejamento de capacidade para Estacionamento de Chamada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="64c3f-102">Capacity planning for Call Park in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,23 +35,23 @@ ms.locfileid: "34836677"
 
 <span> </span>
 
-<span data-ttu-id="0cbc7-103">_**Tópico da última modificação:** 2012-09-13_</span><span class="sxs-lookup"><span data-stu-id="0cbc7-103">_**Topic Last Modified:** 2012-09-13_</span></span>
+<span data-ttu-id="64c3f-103">_**Tópico da última modificação:** 2012-09-13_</span><span class="sxs-lookup"><span data-stu-id="64c3f-103">_**Topic Last Modified:** 2012-09-13_</span></span>
 
 <div id="sectionSection0" class="section">
 
-<span data-ttu-id="0cbc7-104">A tabela a seguir descreve o modelo de usuário do parque de chamadas que você pode usar como base para requisitos de planejamento de capacidade.</span><span class="sxs-lookup"><span data-stu-id="0cbc7-104">The following table describes the Call Park user model that you can use as the basis for capacity planning requirements.</span></span>
+<span data-ttu-id="64c3f-104">A tabela a seguir descreve o modelo de usuário do parque de chamadas que você pode usar como base para requisitos de planejamento de capacidade.</span><span class="sxs-lookup"><span data-stu-id="64c3f-104">The following table describes the Call Park user model that you can use as the basis for capacity planning requirements.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="0cbc7-105">Lembre-se de que, para o planejamento da capacidade de recuperação de desastres, cada pool de um pool emparelhado deve ser capaz de manipular as cargas de trabalho para serviços de estacionamento de chamadas em ambos os pools.</span><span class="sxs-lookup"><span data-stu-id="0cbc7-105">Keep in mind that, for disaster recovery capacity planning, each pool of a paired pool should be able to handle the workloads for Call Park services in both pools.</span></span>
+> <span data-ttu-id="64c3f-105">Lembre-se de que, para o planejamento da capacidade de recuperação de desastres, cada pool de um pool emparelhado deve ser capaz de manipular as cargas de trabalho para serviços de estacionamento de chamadas em ambos os pools.</span><span class="sxs-lookup"><span data-stu-id="64c3f-105">Keep in mind that, for disaster recovery capacity planning, each pool of a paired pool should be able to handle the workloads for Call Park services in both pools.</span></span>
 
 
 
 </div>
 
-### <a name="call-park-user-model"></a><span data-ttu-id="0cbc7-106">Modelo de usuário do estacionamento de chamada</span><span class="sxs-lookup"><span data-stu-id="0cbc7-106">Call Park User Model</span></span>
+### <a name="call-park-user-model"></a><span data-ttu-id="64c3f-106">Modelo de usuário do estacionamento de chamada</span><span class="sxs-lookup"><span data-stu-id="64c3f-106">Call Park User Model</span></span>
 
 <table>
 <colgroup>
@@ -59,26 +61,26 @@ ms.locfileid: "34836677"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="0cbc7-107">Indicador</span><span class="sxs-lookup"><span data-stu-id="0cbc7-107">Metric</span></span></th>
-<th><span data-ttu-id="0cbc7-108">Por pool de front-end (com 8 servidores front end)</span><span class="sxs-lookup"><span data-stu-id="0cbc7-108">Per Front End pool (with 8 Front End Servers)</span></span></th>
-<th><span data-ttu-id="0cbc7-109">Por servidor padrão da edição</span><span class="sxs-lookup"><span data-stu-id="0cbc7-109">Per Standard Edition server</span></span></th>
+<th><span data-ttu-id="64c3f-107">Indicador</span><span class="sxs-lookup"><span data-stu-id="64c3f-107">Metric</span></span></th>
+<th><span data-ttu-id="64c3f-108">Por pool de front-end (com 8 servidores front end)</span><span class="sxs-lookup"><span data-stu-id="64c3f-108">Per Front End pool (with 8 Front End Servers)</span></span></th>
+<th><span data-ttu-id="64c3f-109">Por servidor padrão da edição</span><span class="sxs-lookup"><span data-stu-id="64c3f-109">Per Standard Edition server</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0cbc7-110">Taxa de estacionamento</span><span class="sxs-lookup"><span data-stu-id="0cbc7-110">Park rate</span></span></p></td>
-<td><p><span data-ttu-id="0cbc7-111">8 por minuto</span><span class="sxs-lookup"><span data-stu-id="0cbc7-111">8 per minute</span></span></p></td>
-<td><p><span data-ttu-id="0cbc7-112">1 por minuto</span><span class="sxs-lookup"><span data-stu-id="0cbc7-112">1 per minute</span></span></p></td>
+<td><p><span data-ttu-id="64c3f-110">Taxa de estacionamento</span><span class="sxs-lookup"><span data-stu-id="64c3f-110">Park rate</span></span></p></td>
+<td><p><span data-ttu-id="64c3f-111">8 por minuto</span><span class="sxs-lookup"><span data-stu-id="64c3f-111">8 per minute</span></span></p></td>
+<td><p><span data-ttu-id="64c3f-112">1 por minuto</span><span class="sxs-lookup"><span data-stu-id="64c3f-112">1 per minute</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0cbc7-113">Recuperar a taxa de chamada estacionada</span><span class="sxs-lookup"><span data-stu-id="0cbc7-113">Retrieve parked call rate</span></span></p></td>
-<td><p><span data-ttu-id="0cbc7-114">8 por minuto</span><span class="sxs-lookup"><span data-stu-id="0cbc7-114">8 per minute</span></span></p></td>
-<td><p><span data-ttu-id="0cbc7-115">1 por minuto</span><span class="sxs-lookup"><span data-stu-id="0cbc7-115">1 per minute</span></span></p></td>
+<td><p><span data-ttu-id="64c3f-113">Recuperar a taxa de chamada estacionada</span><span class="sxs-lookup"><span data-stu-id="64c3f-113">Retrieve parked call rate</span></span></p></td>
+<td><p><span data-ttu-id="64c3f-114">8 por minuto</span><span class="sxs-lookup"><span data-stu-id="64c3f-114">8 per minute</span></span></p></td>
+<td><p><span data-ttu-id="64c3f-115">1 por minuto</span><span class="sxs-lookup"><span data-stu-id="64c3f-115">1 per minute</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="0cbc7-116">Duração média do estacionamento</span><span class="sxs-lookup"><span data-stu-id="0cbc7-116">Average park duration</span></span></p></td>
-<td><p><span data-ttu-id="0cbc7-117">60 segundos</span><span class="sxs-lookup"><span data-stu-id="0cbc7-117">60 seconds</span></span></p></td>
-<td><p><span data-ttu-id="0cbc7-118">60 segundos</span><span class="sxs-lookup"><span data-stu-id="0cbc7-118">60 seconds</span></span></p></td>
+<td><p><span data-ttu-id="64c3f-116">Duração média do estacionamento</span><span class="sxs-lookup"><span data-stu-id="64c3f-116">Average park duration</span></span></p></td>
+<td><p><span data-ttu-id="64c3f-117">60 segundos</span><span class="sxs-lookup"><span data-stu-id="64c3f-117">60 seconds</span></span></p></td>
+<td><p><span data-ttu-id="64c3f-118">60 segundos</span><span class="sxs-lookup"><span data-stu-id="64c3f-118">60 seconds</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: incluindo a central de segurança'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Including the security desk
 ms:assetid: 4b1d9125-7488-419b-85dd-a8dd3ab5add3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398299(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184084
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 41c60b7f67f22393bf4a6972e68b2d0bdc2ca8a9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d792626a973a790313b2cdc1bd9df9092175f28a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829019"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763805"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34829019"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="including-the-security-desk-in-lync-server-2013"></a><span data-ttu-id="82b50-102">Incluindo a central de segurança no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="82b50-102">Including the security desk in Lync Server 2013</span></span>
+# <a name="including-the-security-desk-in-lync-server-2013"></a><span data-ttu-id="ca047-102">Incluindo a central de segurança no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ca047-102">Including the security desk in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,23 +35,23 @@ ms.locfileid: "34829019"
 
 <span> </span>
 
-<span data-ttu-id="82b50-103">_**Tópico da última modificação:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="82b50-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="ca047-103">_**Tópico da última modificação:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="ca047-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="82b50-p101">Sua empresa pode exigir que a central de segurança se envolva em uma chamada de emergência. Para ajudar a decidir como integrar a Central de Segurança à sua implantação do E9-1-1, você deve responder às perguntas a seguir.</span><span class="sxs-lookup"><span data-stu-id="82b50-p101">Your company may require the security desk to become involved in an emergency call. To help decide how to integrate the Security Desk into you E9-1-1 deployment, you should answer the following questions.</span></span>
+<span data-ttu-id="ca047-p101">Sua empresa pode exigir que a central de segurança se envolva em uma chamada de emergência. Para ajudar a decidir como integrar a Central de Segurança à sua implantação do E9-1-1, você deve responder às perguntas a seguir.</span><span class="sxs-lookup"><span data-stu-id="ca047-p101">Your company may require the security desk to become involved in an emergency call. To help decide how to integrate the Security Desk into you E9-1-1 deployment, you should answer the following questions.</span></span>
 
-  - <span data-ttu-id="82b50-106">**Você deseja que o suporte de segurança seja notificado quando houver uma chamada de emergência?**</span><span class="sxs-lookup"><span data-stu-id="82b50-106">**Do you want the security desk to be notified when there is an emergency call?**</span></span>  
-    <span data-ttu-id="82b50-107">Você pode configurar a política de localização para que o Lync Server envie alertas de mensagens instantâneas aos endereços do Lync SIP de um ou mais funcionários de segurança.</span><span class="sxs-lookup"><span data-stu-id="82b50-107">You can configure the location policy so that Lync Server sends instant messaging (IM) alerts to the Lync SIP addresses of one or more security personnel.</span></span> <span data-ttu-id="82b50-108">Esses alertas contêm o nome, o número e o local da pessoa que está fazendo a chamada de emergência e facilitam a segurança na assistência com a situação de emergência.</span><span class="sxs-lookup"><span data-stu-id="82b50-108">These alerts contain the name, number, and location of the person placing the emergency call, and facilitate security personnel in assisting with the emergency situation.</span></span>
+  - <span data-ttu-id="ca047-106">**Você deseja que o suporte de segurança seja notificado quando houver uma chamada de emergência?**</span><span class="sxs-lookup"><span data-stu-id="ca047-106">**Do you want the security desk to be notified when there is an emergency call?**</span></span>  
+    <span data-ttu-id="ca047-107">Você pode configurar a política de localização para que o Lync Server envie alertas de mensagens instantâneas aos endereços do Lync SIP de um ou mais funcionários de segurança.</span><span class="sxs-lookup"><span data-stu-id="ca047-107">You can configure the location policy so that Lync Server sends instant messaging (IM) alerts to the Lync SIP addresses of one or more security personnel.</span></span> <span data-ttu-id="ca047-108">Esses alertas contêm o nome, o número e o local da pessoa que está fazendo a chamada de emergência e facilitam a segurança na assistência com a situação de emergência.</span><span class="sxs-lookup"><span data-stu-id="ca047-108">These alerts contain the name, number, and location of the person placing the emergency call, and facilitate security personnel in assisting with the emergency situation.</span></span>
 
 <!-- end list -->
 
-  - <span data-ttu-id="82b50-109">**Deseja estabelecer conferência com o suporte de segurança em cada chamada de emergência?**</span><span class="sxs-lookup"><span data-stu-id="82b50-109">**Do you want to conference the security desk in on each emergency call?**</span></span>  
-    <span data-ttu-id="82b50-p103">Se tiver suporte do provedor de serviços de emergência, você poderá configurar a política de local para incluir um número de retorno de chamada com cada chamada de emergência. Esse número é usado pelo provedor para estabelecer conferência com a equipe de segurança da sua organização em chamadas de emergência. Essa conferência pode ser configurada na política de local para ser unidirecional (somente escuta) ou bidirecional.</span><span class="sxs-lookup"><span data-stu-id="82b50-p103">If supported by the emergency services service provider, you can configure the location policy to include a callback number with each emergency call. This number is then used by the provider to conference your organization's security personnel into emergency calls. This conferencing can be configured in the location policy to be one-way (listen-only) or two-way (bidirectional).</span></span>
+  - <span data-ttu-id="ca047-109">**Deseja estabelecer conferência com o suporte de segurança em cada chamada de emergência?**</span><span class="sxs-lookup"><span data-stu-id="ca047-109">**Do you want to conference the security desk in on each emergency call?**</span></span>  
+    <span data-ttu-id="ca047-p103">Se tiver suporte do provedor de serviços de emergência, você poderá configurar a política de local para incluir um número de retorno de chamada com cada chamada de emergência. Esse número é usado pelo provedor para estabelecer conferência com a equipe de segurança da sua organização em chamadas de emergência. Essa conferência pode ser configurada na política de local para ser unidirecional (somente escuta) ou bidirecional.</span><span class="sxs-lookup"><span data-stu-id="ca047-p103">If supported by the emergency services service provider, you can configure the location policy to include a callback number with each emergency call. This number is then used by the provider to conference your organization's security personnel into emergency calls. This conferencing can be configured in the location policy to be one-way (listen-only) or two-way (bidirectional).</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="82b50-p104">Se desejar, você pode configurar uma equipe de segurança diferente para cada política de local. Isso permite personalizar a resposta para áreas diferentes da empresa ou criar um comportamento diferente para chamadas de emergência que originam da parte interna em oposição à parte externa da rede. Você pode usar grupos de distribuição para especificar o pessoal que deseja notificar.</span><span class="sxs-lookup"><span data-stu-id="82b50-p104">If desired, you can configure different emergency personnel for each location policy. This allows you to customize the response for different areas within your company, or create different behavior for emergency calls that originate from inside as opposed to outside the network. You can use distribution groups to specify the personnel you want to notify.</span></span>
+> <span data-ttu-id="ca047-p104">Se desejar, você pode configurar uma equipe de segurança diferente para cada política de local. Isso permite personalizar a resposta para áreas diferentes da empresa ou criar um comportamento diferente para chamadas de emergência que originam da parte interna em oposição à parte externa da rede. Você pode usar grupos de distribuição para especificar o pessoal que deseja notificar.</span><span class="sxs-lookup"><span data-stu-id="ca047-p104">If desired, you can configure different emergency personnel for each location policy. This allows you to customize the response for different areas within your company, or create different behavior for emergency calls that originate from inside as opposed to outside the network. You can use distribution groups to specify the personnel you want to notify.</span></span>
 
 
 

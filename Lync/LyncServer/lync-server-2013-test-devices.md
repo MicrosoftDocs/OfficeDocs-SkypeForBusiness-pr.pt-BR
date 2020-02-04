@@ -3,6 +3,8 @@ title: 'Lync Server 2013: testar dispositivos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test devices
 ms:assetid: 878b7dfc-8cfe-4404-a601-a2c57a441ea9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688119(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733717
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a4692c750091743e60b1cd08f968ea61c2bdbd4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 443310b9037baa306827a98323c66939e695e0ee
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844705"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746241"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34844705"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="test-devices-in-lync-server-2013"></a><span data-ttu-id="8b1fb-102">Testar dispositivos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8b1fb-102">Test devices in Lync Server 2013</span></span>
+# <a name="test-devices-in-lync-server-2013"></a><span data-ttu-id="d58d1-102">Testar dispositivos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d58d1-102">Test devices in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,15 +35,15 @@ ms.locfileid: "34844705"
 
 <span> </span>
 
-<span data-ttu-id="8b1fb-103">_**Tópico da última modificação:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="8b1fb-103">_**Topic Last Modified:** 2012-10-15_</span></span>
+<span data-ttu-id="d58d1-103">_**Tópico da última modificação:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="d58d1-103">_**Topic Last Modified:** 2012-10-15_</span></span>
 
-<span data-ttu-id="8b1fb-104">Você pode testar dispositivos na página **testar dispositivo** da seção **clientes** no painel de controle do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="8b1fb-104">You can test devices from the **Test Device** page of the **Clients** section in Lync Server 2013 Control Panel.</span></span>
+<span data-ttu-id="d58d1-104">Você pode testar dispositivos na página **testar dispositivo** da seção **clientes** no painel de controle do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d58d1-104">You can test devices from the **Test Device** page of the **Clients** section in Lync Server 2013 Control Panel.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="8b1fb-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="8b1fb-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="d58d1-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="d58d1-105">In This Section</span></span>
 
-  - [<span data-ttu-id="8b1fb-106">Criar um dispositivo para testar a funcionalidade de atualização no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8b1fb-106">Create a device to test update functionality in Lync Server 2013</span></span>](lync-server-2013-create-a-device-to-test-update-functionality.md)
+  - [<span data-ttu-id="d58d1-106">Criar um dispositivo para testar a funcionalidade de atualização no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d58d1-106">Create a device to test update functionality in Lync Server 2013</span></span>](lync-server-2013-create-a-device-to-test-update-functionality.md)
 
 </div>
 

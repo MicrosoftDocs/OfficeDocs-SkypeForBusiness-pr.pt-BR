@@ -3,6 +3,8 @@ title: Resumo da porta – Federação do protocolo de presença e de mensagens 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port summary -  Extensible messaging and presence protocol (XMPP) federation
 ms:assetid: 62e98fab-7add-4983-a3fa-dbe74e1c3849
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618371(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49105658
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b36a74393a8c61d5281bb009d212ee0bb12cf0a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0a18129fce98b3bb9bc613f4fc752daadfb6c5ce
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824187"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747611"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34824187"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a><span data-ttu-id="66b63-102">Resumo de portas – Federação de protocolo de presença e mensagens extensíveis (XMPP) no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="66b63-102">Port summary - Extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>
+# <a name="port-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a><span data-ttu-id="4ec2f-102">Resumo de portas – Federação de protocolo de presença e mensagens extensíveis (XMPP) no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4ec2f-102">Port summary - Extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,13 +35,13 @@ ms.locfileid: "34824187"
 
 <span> </span>
 
-<span data-ttu-id="66b63-103">_**Tópico da última modificação:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="66b63-103">_**Topic Last Modified:** 2012-10-20_</span></span>
+<span data-ttu-id="4ec2f-103">_**Tópico da última modificação:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="4ec2f-103">_**Topic Last Modified:** 2012-10-20_</span></span>
 
-<span data-ttu-id="66b63-104">As portas e protocolos definidos para o proxy de protocolo de presença e mensagens extensível (XMPP) implantadas no servidor de borda permitem comunicações do parceiro federado do XMPP com o servidor de borda e também permite a comunicação do servidor de borda com o XMPP parceiro federado.</span><span class="sxs-lookup"><span data-stu-id="66b63-104">The ports and protocols defined for the extensible messaging and presence protocol (XMPP) proxy deployed on the Edge Server allow communications from the XMPP federated partner to the Edge Server, and also allows communication from your Edge Server to the XMPP federated partner.</span></span> <span data-ttu-id="66b63-105">Uma regra também é definida no firewall de face interna do servidor front-end ou do pool de front-ends para o servidor de borda ou o pool de bordas.</span><span class="sxs-lookup"><span data-stu-id="66b63-105">A rule is also defined on the internal-facing firewall from the Front End Server or Front End pool to the Edge Server or Edge pool.</span></span>
+<span data-ttu-id="4ec2f-104">As portas e protocolos definidos para o proxy de protocolo de presença e mensagens extensível (XMPP) implantadas no servidor de borda permitem comunicações do parceiro federado do XMPP com o servidor de borda e também permite a comunicação do servidor de borda com o XMPP parceiro federado.</span><span class="sxs-lookup"><span data-stu-id="4ec2f-104">The ports and protocols defined for the extensible messaging and presence protocol (XMPP) proxy deployed on the Edge Server allow communications from the XMPP federated partner to the Edge Server, and also allows communication from your Edge Server to the XMPP federated partner.</span></span> <span data-ttu-id="4ec2f-105">Uma regra também é definida no firewall de face interna do servidor front-end ou do pool de front-ends para o servidor de borda ou o pool de bordas.</span><span class="sxs-lookup"><span data-stu-id="4ec2f-105">A rule is also defined on the internal-facing firewall from the Front End Server or Front End pool to the Edge Server or Edge pool.</span></span>
 
 <div>
 
-## <a name="firewall-summary-for-extensible-messaging-and-presence-protocol"></a><span data-ttu-id="66b63-106">Resumo de firewall para mensagens extensíveis e protocolo de presença</span><span class="sxs-lookup"><span data-stu-id="66b63-106">Firewall Summary for Extensible Messaging and Presence Protocol</span></span>
+## <a name="firewall-summary-for-extensible-messaging-and-presence-protocol"></a><span data-ttu-id="4ec2f-106">Resumo de firewall para mensagens extensíveis e protocolo de presença</span><span class="sxs-lookup"><span data-stu-id="4ec2f-106">Firewall Summary for Extensible Messaging and Presence Protocol</span></span>
 
 
 <table>
@@ -51,30 +53,30 @@ ms.locfileid: "34824187"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="66b63-107">Protocolo/TCP ou UDP/porta</span><span class="sxs-lookup"><span data-stu-id="66b63-107">Protocol/TCP or UDP/Port</span></span></th>
-<th><span data-ttu-id="66b63-108">Fonte (endereço IP)</span><span class="sxs-lookup"><span data-stu-id="66b63-108">Source (IP address)</span></span></th>
-<th><span data-ttu-id="66b63-109">Destino (endereço IP)</span><span class="sxs-lookup"><span data-stu-id="66b63-109">Destination (IP address)</span></span></th>
-<th><span data-ttu-id="66b63-110">Comentários</span><span class="sxs-lookup"><span data-stu-id="66b63-110">Comments</span></span></th>
+<th><span data-ttu-id="4ec2f-107">Protocolo/TCP ou UDP/porta</span><span class="sxs-lookup"><span data-stu-id="4ec2f-107">Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="4ec2f-108">Fonte (endereço IP)</span><span class="sxs-lookup"><span data-stu-id="4ec2f-108">Source (IP address)</span></span></th>
+<th><span data-ttu-id="4ec2f-109">Destino (endereço IP)</span><span class="sxs-lookup"><span data-stu-id="4ec2f-109">Destination (IP address)</span></span></th>
+<th><span data-ttu-id="4ec2f-110">Comentários</span><span class="sxs-lookup"><span data-stu-id="4ec2f-110">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="66b63-111">XMPP/TCP/5269</span><span class="sxs-lookup"><span data-stu-id="66b63-111">XMPP/TCP/5269</span></span></p></td>
-<td><p><span data-ttu-id="66b63-112">Qualquer um</span><span class="sxs-lookup"><span data-stu-id="66b63-112">Any</span></span></p></td>
-<td><p><span data-ttu-id="66b63-113">Endereço IP da interface do serviço de borda do Access</span><span class="sxs-lookup"><span data-stu-id="66b63-113">Access Edge service interface IP address</span></span></p></td>
-<td><p><span data-ttu-id="66b63-114">Porta de comunicação de servidor para servidor padrão para XMPP.</span><span class="sxs-lookup"><span data-stu-id="66b63-114">Standard server-to-server communication port for XMPP.</span></span> <span data-ttu-id="66b63-115">Permite a comunicação com o servidor de borda XMPP o proxy de parceiros de XMPP federado</span><span class="sxs-lookup"><span data-stu-id="66b63-115">Allows communication to the Edge Server XMPP proxy from federated XMPP partners</span></span></p></td>
+<td><p><span data-ttu-id="4ec2f-111">XMPP/TCP/5269</span><span class="sxs-lookup"><span data-stu-id="4ec2f-111">XMPP/TCP/5269</span></span></p></td>
+<td><p><span data-ttu-id="4ec2f-112">Qualquer um</span><span class="sxs-lookup"><span data-stu-id="4ec2f-112">Any</span></span></p></td>
+<td><p><span data-ttu-id="4ec2f-113">Endereço IP da interface do serviço de borda do Access</span><span class="sxs-lookup"><span data-stu-id="4ec2f-113">Access Edge service interface IP address</span></span></p></td>
+<td><p><span data-ttu-id="4ec2f-114">Porta de comunicação de servidor para servidor padrão para XMPP.</span><span class="sxs-lookup"><span data-stu-id="4ec2f-114">Standard server-to-server communication port for XMPP.</span></span> <span data-ttu-id="4ec2f-115">Permite a comunicação com o servidor de borda XMPP o proxy de parceiros de XMPP federado</span><span class="sxs-lookup"><span data-stu-id="4ec2f-115">Allows communication to the Edge Server XMPP proxy from federated XMPP partners</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="66b63-116">XMPP/TCP/5269</span><span class="sxs-lookup"><span data-stu-id="66b63-116">XMPP/TCP/5269</span></span></p></td>
-<td><p><span data-ttu-id="66b63-117">Endereço IP da interface do serviço de borda do Access</span><span class="sxs-lookup"><span data-stu-id="66b63-117">Access Edge service interface IP address</span></span></p></td>
-<td><p><span data-ttu-id="66b63-118">Qualquer um</span><span class="sxs-lookup"><span data-stu-id="66b63-118">Any</span></span></p></td>
-<td><p><span data-ttu-id="66b63-119">Porta de comunicação de servidor para servidor padrão para XMPP.</span><span class="sxs-lookup"><span data-stu-id="66b63-119">Standard server-to-server communication port for XMPP.</span></span> <span data-ttu-id="66b63-120">Permite a comunicação do proxy do servidor de borda XMPP com parceiros do XMPP federado</span><span class="sxs-lookup"><span data-stu-id="66b63-120">Allows communication from the Edge Server XMPP proxy to federated XMPP partners</span></span></p></td>
+<td><p><span data-ttu-id="4ec2f-116">XMPP/TCP/5269</span><span class="sxs-lookup"><span data-stu-id="4ec2f-116">XMPP/TCP/5269</span></span></p></td>
+<td><p><span data-ttu-id="4ec2f-117">Endereço IP da interface do serviço de borda do Access</span><span class="sxs-lookup"><span data-stu-id="4ec2f-117">Access Edge service interface IP address</span></span></p></td>
+<td><p><span data-ttu-id="4ec2f-118">Qualquer um</span><span class="sxs-lookup"><span data-stu-id="4ec2f-118">Any</span></span></p></td>
+<td><p><span data-ttu-id="4ec2f-119">Porta de comunicação de servidor para servidor padrão para XMPP.</span><span class="sxs-lookup"><span data-stu-id="4ec2f-119">Standard server-to-server communication port for XMPP.</span></span> <span data-ttu-id="4ec2f-120">Permite a comunicação do proxy do servidor de borda XMPP com parceiros do XMPP federado</span><span class="sxs-lookup"><span data-stu-id="4ec2f-120">Allows communication from the Edge Server XMPP proxy to federated XMPP partners</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="66b63-121">XMPP/MTLS/23456</span><span class="sxs-lookup"><span data-stu-id="66b63-121">XMPP/MTLS/23456</span></span></p></td>
-<td><p><span data-ttu-id="66b63-122">Qualquer um</span><span class="sxs-lookup"><span data-stu-id="66b63-122">Any</span></span></p></td>
-<td><p><span data-ttu-id="66b63-123">IP de interface do servidor de borda interna</span><span class="sxs-lookup"><span data-stu-id="66b63-123">Internal Edge Server Interface IP</span></span></p></td>
-<td><p><span data-ttu-id="66b63-124">Tráfego de XMPP interno do Gateway XMPP no servidor front-end ou do pool de front-end para o servidor de borda</span><span class="sxs-lookup"><span data-stu-id="66b63-124">Internal XMPP traffic from the XMPP Gateway on the Front End Server or Front End pool to the Edge Server</span></span></p></td>
+<td><p><span data-ttu-id="4ec2f-121">XMPP/MTLS/23456</span><span class="sxs-lookup"><span data-stu-id="4ec2f-121">XMPP/MTLS/23456</span></span></p></td>
+<td><p><span data-ttu-id="4ec2f-122">Qualquer um</span><span class="sxs-lookup"><span data-stu-id="4ec2f-122">Any</span></span></p></td>
+<td><p><span data-ttu-id="4ec2f-123">IP de interface do servidor de borda interna</span><span class="sxs-lookup"><span data-stu-id="4ec2f-123">Internal Edge Server Interface IP</span></span></p></td>
+<td><p><span data-ttu-id="4ec2f-124">Tráfego de XMPP interno do Gateway XMPP no servidor front-end ou do pool de front-end para o servidor de borda</span><span class="sxs-lookup"><span data-stu-id="4ec2f-124">Internal XMPP traffic from the XMPP Gateway on the Front End Server or Front End pool to the Edge Server</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -84,13 +86,13 @@ ms.locfileid: "34824187"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="66b63-125">Confira também</span><span class="sxs-lookup"><span data-stu-id="66b63-125">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4ec2f-125">Confira também</span><span class="sxs-lookup"><span data-stu-id="4ec2f-125">See Also</span></span>
 
 
-[<span data-ttu-id="66b63-126">Exemplo de configuração de XMPP no Lync Server 2013 – federação XMPP com Google Talk</span><span class="sxs-lookup"><span data-stu-id="66b63-126">Example XMPP configuration in Lync Server 2013 – XMPP federation with Google Talk</span></span>](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)  
+[<span data-ttu-id="4ec2f-126">Exemplo de configuração de XMPP no Lync Server 2013 – federação XMPP com Google Talk</span><span class="sxs-lookup"><span data-stu-id="4ec2f-126">Example XMPP configuration in Lync Server 2013 – XMPP federation with Google Talk</span></span>](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)  
 
 
-[<span data-ttu-id="66b63-127">Gerenciar parceiros XMPP federados no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="66b63-127">Manage XMPP federated partners in Lync Server 2013</span></span>](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
+[<span data-ttu-id="4ec2f-127">Gerenciar parceiros XMPP federados no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4ec2f-127">Manage XMPP federated partners in Lync Server 2013</span></span>](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
   
 
 </div>

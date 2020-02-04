@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Instalar software de pré-requisito do Lync Server 201
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Install Lync Server 2013 prerequisite software
 ms:assetid: 4a3a6a5c-1dc5-4dab-9201-a0df04ba9bfb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204856(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184028
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f6c5a88edef1d218c26b0ed46a0352f832b83f7e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8e37e18fc18a0c57a2905302529ec0cb41d7c11f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829003"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763745"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34829003"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="install-lync-server-2013-prerequisite-software"></a><span data-ttu-id="3da3a-102">Instalar software de pré-requisito do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3da3a-102">Install Lync Server 2013 prerequisite software</span></span>
+# <a name="install-lync-server-2013-prerequisite-software"></a><span data-ttu-id="d5e99-102">Instalar software de pré-requisito do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d5e99-102">Install Lync Server 2013 prerequisite software</span></span>
 
 </div>
 
@@ -33,22 +35,22 @@ ms.locfileid: "34829003"
 
 <span> </span>
 
-<span data-ttu-id="3da3a-103">_**Tópico da última modificação:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="3da3a-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="d5e99-103">_**Tópico da última modificação:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="d5e99-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="3da3a-104">O software obrigatório para o servidor de chat persistente é o mesmo que o software de pré-requisito para os servidores de front-end do Lync Server 2013 e o servidor do Lync Server 2013 Standard Edition no qual os recursos de servidor de chat persistente estão instalados.</span><span class="sxs-lookup"><span data-stu-id="3da3a-104">The prerequisite software for Persistent Chat Server is the same as the prerequisite software for the Lync Server 2013 Front End Servers and the Lync Server 2013 Standard Edition server on which Persistent Chat Server features are installed.</span></span>
+<span data-ttu-id="d5e99-104">O software obrigatório para o servidor de chat persistente é o mesmo que o software de pré-requisito para os servidores de front-end do Lync Server 2013 e o servidor do Lync Server 2013 Standard Edition no qual os recursos de servidor de chat persistente estão instalados.</span><span class="sxs-lookup"><span data-stu-id="d5e99-104">The prerequisite software for Persistent Chat Server is the same as the prerequisite software for the Lync Server 2013 Front End Servers and the Lync Server 2013 Standard Edition server on which Persistent Chat Server features are installed.</span></span>
 
-<span data-ttu-id="3da3a-105">O software obrigatório necessário para o repositório de arquivos do servidor de chat persistente é o mesmo que para o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="3da3a-105">The prerequisite software required for the Persistent Chat Server file store is the same as that for Lync Server 2013.</span></span>
+<span data-ttu-id="d5e99-105">O software obrigatório necessário para o repositório de arquivos do servidor de chat persistente é o mesmo que para o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d5e99-105">The prerequisite software required for the Persistent Chat Server file store is the same as that for Lync Server 2013.</span></span>
 
-<span data-ttu-id="3da3a-106">O software de pré-requisito para os bancos de dados do SQL Server para o conteúdo e a conformidade do servidor de chat persistente também é o mesmo que para o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="3da3a-106">The prerequisite software for the SQL Server databases for Persistent Chat Server content and compliance is also the same as that for Lync Server 2013.</span></span>
+<span data-ttu-id="d5e99-106">O software de pré-requisito para os bancos de dados do SQL Server para o conteúdo e a conformidade do servidor de chat persistente também é o mesmo que para o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d5e99-106">The prerequisite software for the SQL Server databases for Persistent Chat Server content and compliance is also the same as that for Lync Server 2013.</span></span>
 
-<span data-ttu-id="3da3a-107">Para obter detalhes sobre todos os requisitos de software para servidores do Lync Server 2013, consulte [suporte adicional do servidor e requisitos no Lync server 2013](lync-server-2013-additional-server-support-and-requirements.md) na documentação de suporte.</span><span class="sxs-lookup"><span data-stu-id="3da3a-107">For details about all the software requirements for Lync Server 2013 servers, see [Additional server support and requirements in Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md) in the Supportability documentation.</span></span>
+<span data-ttu-id="d5e99-107">Para obter detalhes sobre todos os requisitos de software para servidores do Lync Server 2013, consulte [suporte adicional do servidor e requisitos no Lync server 2013](lync-server-2013-additional-server-support-and-requirements.md) na documentação de suporte.</span><span class="sxs-lookup"><span data-stu-id="d5e99-107">For details about all the software requirements for Lync Server 2013 servers, see [Additional server support and requirements in Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md) in the Supportability documentation.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="3da3a-108">Confira também</span><span class="sxs-lookup"><span data-stu-id="3da3a-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d5e99-108">Confira também</span><span class="sxs-lookup"><span data-stu-id="d5e99-108">See Also</span></span>
 
 
-[<span data-ttu-id="3da3a-109">Suporte adicional e requisitos de servidor no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3da3a-109">Additional server support and requirements in Lync Server 2013</span></span>](lync-server-2013-additional-server-support-and-requirements.md)  
+[<span data-ttu-id="d5e99-109">Suporte adicional e requisitos de servidor no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d5e99-109">Additional server support and requirements in Lync Server 2013</span></span>](lync-server-2013-additional-server-support-and-requirements.md)  
   
 
 </div>

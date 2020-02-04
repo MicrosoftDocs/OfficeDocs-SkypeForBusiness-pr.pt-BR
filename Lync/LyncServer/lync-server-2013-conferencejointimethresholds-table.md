@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tabela ConferenceJoinTimeThresholds'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ConferenceJoinTimeThresholds table
 ms:assetid: 3944d724-bdd8-4d1c-a2af-933ee8141529
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204809(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183855
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 66793cc3bd545d343198d00f7fb477c1f9b88fac
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: baf29af4b9d1f2b026271b84cb54436e8f4b233f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836489"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740051"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34836489"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="conferencejointimethresholds-table-in-lync-server-2013"></a><span data-ttu-id="37249-102">Tabela ConferenceJoinTimeThresholds no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="37249-102">ConferenceJoinTimeThresholds table in Lync Server 2013</span></span>
+# <a name="conferencejointimethresholds-table-in-lync-server-2013"></a><span data-ttu-id="b5174-102">Tabela ConferenceJoinTimeThresholds no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b5174-102">ConferenceJoinTimeThresholds table in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,21 +35,21 @@ ms.locfileid: "34836489"
 
 <span> </span>
 
-<span data-ttu-id="37249-103">_**Tópico da última modificação:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="37249-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="b5174-103">_**Tópico da última modificação:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="b5174-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="37249-104">A tabela ConferenceJoinTimeThresholds contém os limites de classificação usados pelo relatório de Resumo de tempo de ingresso em conferência.</span><span class="sxs-lookup"><span data-stu-id="37249-104">The ConferenceJoinTimeThresholds table contains the classification boundaries used by the Conference Join Time Summary Report.</span></span> <span data-ttu-id="37249-105">O relatório de Resumo de tempo de ingresso em conferência resume o tempo necessário para que os usuários ingressem com êxito em uma conferência; esses valores de tempo são relatados como uma média e em uma das seguintes categorias:</span><span class="sxs-lookup"><span data-stu-id="37249-105">The Conference Join Time Summary Report summarizes the amount time required for users to successfully join a conference; these time values are reported both as an average and in one of the following categories:</span></span>
+<span data-ttu-id="b5174-104">A tabela ConferenceJoinTimeThresholds contém os limites de classificação usados pelo relatório de Resumo de tempo de ingresso em conferência.</span><span class="sxs-lookup"><span data-stu-id="b5174-104">The ConferenceJoinTimeThresholds table contains the classification boundaries used by the Conference Join Time Summary Report.</span></span> <span data-ttu-id="b5174-105">O relatório de Resumo de tempo de ingresso em conferência resume o tempo necessário para que os usuários ingressem com êxito em uma conferência; esses valores de tempo são relatados como uma média e em uma das seguintes categorias:</span><span class="sxs-lookup"><span data-stu-id="b5174-105">The Conference Join Time Summary Report summarizes the amount time required for users to successfully join a conference; these time values are reported both as an average and in one of the following categories:</span></span>
 
-  - <span data-ttu-id="37249-106">Menos de 2 segundos.</span><span class="sxs-lookup"><span data-stu-id="37249-106">Less than 2 seconds.</span></span>
+  - <span data-ttu-id="b5174-106">Menos de 2 segundos.</span><span class="sxs-lookup"><span data-stu-id="b5174-106">Less than 2 seconds.</span></span>
 
-  - <span data-ttu-id="37249-107">Entre 2 e 5 segundos.</span><span class="sxs-lookup"><span data-stu-id="37249-107">Between 2 second and 5 seconds.</span></span>
+  - <span data-ttu-id="b5174-107">Entre 2 e 5 segundos.</span><span class="sxs-lookup"><span data-stu-id="b5174-107">Between 2 second and 5 seconds.</span></span>
 
-  - <span data-ttu-id="37249-108">Entre 5 segundos e 10 segundos.</span><span class="sxs-lookup"><span data-stu-id="37249-108">Between 5 seconds and 10 seconds.</span></span>
+  - <span data-ttu-id="b5174-108">Entre 5 segundos e 10 segundos.</span><span class="sxs-lookup"><span data-stu-id="b5174-108">Between 5 seconds and 10 seconds.</span></span>
 
-  - <span data-ttu-id="37249-109">Mais de 10 segundos.</span><span class="sxs-lookup"><span data-stu-id="37249-109">More than 10 seconds.</span></span>
+  - <span data-ttu-id="b5174-109">Mais de 10 segundos.</span><span class="sxs-lookup"><span data-stu-id="b5174-109">More than 10 seconds.</span></span>
 
-<span data-ttu-id="37249-110">A tabela ConferenceJoinTimeThresholds contém os valores de classificação 2 segundos, 5 segundos e 10 segundos.</span><span class="sxs-lookup"><span data-stu-id="37249-110">The ConferenceJoinTimeThresholds table contains the classification values 2 seconds, 5 seconds, and 10 seconds.</span></span>
+<span data-ttu-id="b5174-110">A tabela ConferenceJoinTimeThresholds contém os valores de classificação 2 segundos, 5 segundos e 10 segundos.</span><span class="sxs-lookup"><span data-stu-id="b5174-110">The ConferenceJoinTimeThresholds table contains the classification values 2 seconds, 5 seconds, and 10 seconds.</span></span>
 
-<span data-ttu-id="37249-111">Esta tabela foi introduzida no Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="37249-111">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="b5174-111">Esta tabela foi introduzida no Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="b5174-111">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -59,28 +61,28 @@ ms.locfileid: "34836489"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="37249-112">Coluna</span><span class="sxs-lookup"><span data-stu-id="37249-112">Column</span></span></th>
-<th><span data-ttu-id="37249-113">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="37249-113">Data Type</span></span></th>
-<th><span data-ttu-id="37249-114">Chave/índice</span><span class="sxs-lookup"><span data-stu-id="37249-114">Key/Index</span></span></th>
-<th><span data-ttu-id="37249-115">Detalhes</span><span class="sxs-lookup"><span data-stu-id="37249-115">Details</span></span></th>
+<th><span data-ttu-id="b5174-112">Coluna</span><span class="sxs-lookup"><span data-stu-id="b5174-112">Column</span></span></th>
+<th><span data-ttu-id="b5174-113">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="b5174-113">Data Type</span></span></th>
+<th><span data-ttu-id="b5174-114">Chave/índice</span><span class="sxs-lookup"><span data-stu-id="b5174-114">Key/Index</span></span></th>
+<th><span data-ttu-id="b5174-115">Detalhes</span><span class="sxs-lookup"><span data-stu-id="b5174-115">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="37249-116"><strong>Thresholdid</strong></span><span class="sxs-lookup"><span data-stu-id="37249-116"><strong>ThresholdId</strong></span></span></p></td>
-<td><p><span data-ttu-id="37249-117">int</span><span class="sxs-lookup"><span data-stu-id="37249-117">int</span></span></p></td>
-<td><p><span data-ttu-id="37249-118">Primária</span><span class="sxs-lookup"><span data-stu-id="37249-118">Primary</span></span></p></td>
-<td><p><span data-ttu-id="37249-119">Identificador exclusivo da classificação.</span><span class="sxs-lookup"><span data-stu-id="37249-119">Unique identifier for the classification.</span></span></p></td>
+<td><p><span data-ttu-id="b5174-116"><strong>Thresholdid</strong></span><span class="sxs-lookup"><span data-stu-id="b5174-116"><strong>ThresholdId</strong></span></span></p></td>
+<td><p><span data-ttu-id="b5174-117">int</span><span class="sxs-lookup"><span data-stu-id="b5174-117">int</span></span></p></td>
+<td><p><span data-ttu-id="b5174-118">Primária</span><span class="sxs-lookup"><span data-stu-id="b5174-118">Primary</span></span></p></td>
+<td><p><span data-ttu-id="b5174-119">Identificador exclusivo da classificação.</span><span class="sxs-lookup"><span data-stu-id="b5174-119">Unique identifier for the classification.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="37249-120"><strong>ThresholdValue</strong></span><span class="sxs-lookup"><span data-stu-id="37249-120"><strong>ThresholdValue</strong></span></span></p></td>
-<td><p><span data-ttu-id="37249-121">int</span><span class="sxs-lookup"><span data-stu-id="37249-121">int</span></span></p></td>
+<td><p><span data-ttu-id="b5174-120"><strong>ThresholdValue</strong></span><span class="sxs-lookup"><span data-stu-id="b5174-120"><strong>ThresholdValue</strong></span></span></p></td>
+<td><p><span data-ttu-id="b5174-121">int</span><span class="sxs-lookup"><span data-stu-id="b5174-121">int</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="37249-122">Limite superior da classificação.</span><span class="sxs-lookup"><span data-stu-id="37249-122">Upper limit for the classification.</span></span> <span data-ttu-id="37249-123">Os valores permitidos são:</span><span class="sxs-lookup"><span data-stu-id="37249-123">Allowed values are:</span></span></p>
+<td><p><span data-ttu-id="b5174-122">Limite superior da classificação.</span><span class="sxs-lookup"><span data-stu-id="b5174-122">Upper limit for the classification.</span></span> <span data-ttu-id="b5174-123">Os valores permitidos são:</span><span class="sxs-lookup"><span data-stu-id="b5174-123">Allowed values are:</span></span></p>
 <ol>
-<li><p><span data-ttu-id="37249-124">2</span><span class="sxs-lookup"><span data-stu-id="37249-124">2</span></span></p></li>
-<li><p><span data-ttu-id="37249-125">5</span><span class="sxs-lookup"><span data-stu-id="37249-125">5</span></span></p></li>
-<li><p><span data-ttu-id="37249-126">254</span><span class="sxs-lookup"><span data-stu-id="37249-126">10</span></span></p></li>
+<li><p><span data-ttu-id="b5174-124">2</span><span class="sxs-lookup"><span data-stu-id="b5174-124">2</span></span></p></li>
+<li><p><span data-ttu-id="b5174-125">5</span><span class="sxs-lookup"><span data-stu-id="b5174-125">5</span></span></p></li>
+<li><p><span data-ttu-id="b5174-126">254</span><span class="sxs-lookup"><span data-stu-id="b5174-126">10</span></span></p></li>
 </ol></td>
 </tr>
 </tbody>
