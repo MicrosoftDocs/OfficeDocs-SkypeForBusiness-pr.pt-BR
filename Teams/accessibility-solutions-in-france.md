@@ -16,17 +16,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: None
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: Fournir des expériences acessível à Tous est au cœur de la missão de Microsoft, qui consistir em à permettre à Chaque de la et à personne organização de la Chaque Planète d'accomplir. Microsoft offre un Nombre de fonctionnalités d'accessibilité derramar o Skype Entreprise et Microsoft Teams qui s'inscrivent dans filho Engagement Fort en faveur de l'accessibilité et de l'inclusion.
-ms.openlocfilehash: c68afb52c2e3abfde9a5e6e06cc79aa87b918dc2
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 2f2218c9439a0fa0e6ea20889ee905d2fbadef77
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516837"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695876"
 ---
 # <a name="accessibility-solutions-for-skype-for-business-online-and-microsoft-teams-in-france"></a>Soluções de acessibilidade para o Skype for Business Online e o Microsoft Teams na França
 
@@ -68,13 +69,13 @@ Microsoft Teams fournit des páginas d'aide avec des raccourcis Clavier et des i
 
 - Comentário Utiliser Lecteur d'écran derramar rechercher alertas des et-répondre Microsoft Teams ([https://support.office.com/fr-fr/article/utiliser-un-lecteur-d-%C3%A9cran-pour-rechercher-des-alertes-et-y-r%C3%A9pondre-dans-microsoft-teams-8290757e-789d-4e5a-a2ac-9ae4a07d55c2?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/utiliser-un-lecteur-d-%C3%A9cran-pour-rechercher-des-alertes-et-y-r%C3%A9pondre-dans-microsoft-teams-8290757e-789d-4e5a-a2ac-9ae4a07d55c2?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)) 
 
-Microsoft Teams permet maintenant aux utilisateurs de brouiller Leur arrière-Plan pingente Réunions qui, CE peut être Personnes utiling malentendantes qui da Difficultés lire sur des Lèvres à qui peuvent être facilement et Cells infiguras nominal un Environnement Actif: [ https://support.office.com/fr-fr/article/rendre-votre-arrière-Plan-flou-dans-une-reunião-en-Équipe-f77a2381-443A-499d-825E-509a140f4780? omkt = fr-fr&UI = fr-fr&RS = fr-fr&ad = fr](https://support.office.com/fr-fr/article/rendre-votre-arrière-plan-flou-dans-une-réunion-en-équipe-f77a2381-443a-499d-825e-509a140f4780?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR).
+Microsoft Teams permet maintenant aux utilisateurs de brouiller Leur arrière-Plan pingente Réunions qui, CE peut être Personnes utiling malentendantes qui da Difficultés lire sur Lèvres à qui peuvent être: [ https://support.office.com/fr-fr/article/rendre-votre-arrifacilement-Plan-Environnement-Actif-ère-flou-en-dans-une-reunião-Équipe-f77a2381-443A-499d-825E-509a140f4780--en--? omkt = fr-fr&UI = fr-fr&RS = fr-fr&ad = fr](https://support.office.com/fr-fr/article/rendre-votre-arrière-plan-flou-dans-une-réunion-en-équipe-f77a2381-443a-499d-825e-509a140f4780?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR).
 
-De mais, la Fonction de chat de Microsoft Teams inclut désormais "leitura avançada", CE qui permet aux utilisateurs Ayant des Difficultés de palestra et visuelles de modificadora Taille du texto, d'augmenter l'espacement, de modificador regras et les thèmes, et de réduire Le Champ of l'expérience de la: [https://support.office.com/fr-fr/article/utiliser-le-lecteur-immersif-dans-microsoft-teams-a700c0d0-bc53-4696-a94d-4fbc86ac7a9a?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/utiliser-le-lecteur-immersif-dans-microsoft-teams-a700c0d0-bc53-4696-a94d-4fbc86ac7a9a?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR). 
+De mais, la Fonction de chat de Microsoft Teams inclut désormais "leitura avançada", CE qui permet aux utilisateurs Ayant des Difficultés de palestra et visuelles de modificadora Taille du texto, d'augmenter l'espacement, de modificador polices et les thèmes, et de réduire Le Champ de l'expérience de la, palestra [https://support.office.com/fr-fr/article/utiliser-le-lecteur-immersif-dans-microsoft-teams-a700c0d0-bc53-4696-a94d-4fbc86ac7a9a?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/utiliser-le-lecteur-immersif-dans-microsoft-teams-a700c0d0-bc53-4696-a94d-4fbc86ac7a9a?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR):. 
 
 Skype Entreprise permet Le Réglage de la Taille o SMS para de messagerie instantanée sólido une palestra Plus facile, et Microsoft Teams permet Le zoom. Skype Entreprise et les équipes Microsoft fournissent une ajuda derramar TTY. Lorsque vous utilisez Skype Entreprise, os menus de réponse de vozes interativas peuvent être ralentis, accélérés et redémarrés, et les utilisateurs peuvent Choisir de Ne pas afficher as instruções de Les. Microsoft Teams permet Le Réglage de la Vitesse de la messagerie vozes.
 
-Les utilisateurs de Skype Entreprise peuvent également Choisir de recevoir leurs mensagens vocaux sous formulário de texto, CE Qui est particulièrement bénéfique derramar Personnes malentendantes sourdes ou qu'ils, à condição utilisent Outlook 2010 ou des versões mais récentes: [https://support.office.com/fr-fr/article/Activer-ou-d%c3%a9sactiver-l-aper%c3%a7u-de-messagerie-vocale-de-la-messagerie-unifi%c3%a9e-43691569-3C6E-4583-AB89-889E511FA583?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/Activer-ou-d%c3%a9sactiver-l-aper%c3%a7u-de-messagerie-vocale-de-la-messagerie-unifi%c3%a9e-43691569-3C6E-4583-AB89-889E511FA583?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR). Les administrateurs Informatiques of Microsoft Teams peuvent gérer la transcrição derrama leurs clientes. 
+Les utilisateurs de Skype Entreprise peuvent également Choisir de recevoir leurs mensagens vocaux sous formulário de texto, CE Qui est particulièrement bénéfique derramação Personnes malentendantes ou sourdes, à condição qu'ils utilisent Outlook 2010 ou des versões mais récentes: [https://support.office.com/fr-fr/article/Activer-ou-d%c3%a9sactiver-l-aper%c3%a7u-de-messagerie-vocale-de-la-messagerie-unifi%c3%a9e-43691569-3C6E-4583-AB89-889E511FA583?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/Activer-ou-d%c3%a9sactiver-l-aper%c3%a7u-de-messagerie-vocale-de-la-messagerie-unifi%c3%a9e-43691569-3C6E-4583-AB89-889E511FA583?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR). Les administrateurs Informatiques of Microsoft Teams peuvent gérer la transcrição derrama leurs clientes. 
 
 La que está configurando o peut do également do auxílior de voz Personnes à Mobilité réduite en Leur faisant bénéficier de l'utilisation os comandos vozes, que é du plutôt ou de la Clavier. Instruções des derramar savoir comentário ativo em la reconhecimento de vozes sur ordinateur fonctionnant sous Windows 10 sont disponibles: [https://support.microsoft.com/fr-fr/help/17208/windows-10-use-speech-recognition](https://support.microsoft.com/fr-fr/help/17208/windows-10-use-speech-recognition). 
   

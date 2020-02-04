@@ -11,19 +11,19 @@ audience: admin
 description: Prepare a rede da sua organização para a Qualidade de Serviço (QoS) no Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.meetingsettings.qos
 - ms.teamsadmincenter.meetingsettings.network.qosmarkers
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: efa2dfadc760d99f87d8d69137992712c90b32ef
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 83275f7fbcec60727ed75c0a56ffda113b36fd26
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37567143"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695636"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementar a QoS (qualidade de serviço) no Microsoft Teams
 
@@ -65,7 +65,7 @@ Para fornecer QoS, os dispositivos de rede devem ter uma maneira de classificar 
 
 Quando o tráfego de rede entra em um roteador, o tráfego é colocado em uma fila. Se uma política de QoS não está configurada, há apenas uma fila, e todos os dados são tratados como first-in, First-out com a mesma prioridade. Isso significa que o tráfego de voz (que é muito sensível a atrasos) pode ficar preso atrás do tráfego em que um atraso de alguns milésimos de segundo extras não seria um problema.
 
-Ao implementar o QoS, você define várias filas usando um dos vários recursos de gerenciamento de congestionamento (como a enfileiramento de prioridade da Cisco e os recursos de impedimento com base em classe ponderado baseados em [classe) e](https://www.cisco.com/en/US/docs/ios/12_0t/12_0t5/feature/guide/cbwfq.html#wp17641)os recursos de impedimento de congestionamento (como ponderada aleatória no início [WRED](https://en.wikipedia.org/wiki/Weighted_random_early_detection)de detecção).
+Ao implementar QoS, você define várias filas usando um dos vários recursos de gerenciamento de congestionamento (como a enfileiramento de prioridade da Cisco e o [CBWFQ](https://www.cisco.com/en/US/docs/ios/12_0t/12_0t5/feature/guide/cbwfq.html#wp17641)de enfileiramento com base em classe ponderada) e recursos de impedimento de congestionamento (como [WRED](https://en.wikipedia.org/wiki/Weighted_random_early_detection)aleatório aleatória de detecção antecipada).
 
 _Figura 2. Exemplos de filas de QoS_
 
@@ -77,7 +77,7 @@ Uma simples analogia é que a QoS cria "pistas carona" virtuais na sua rede de d
 
 Você pode implementar o QoS via marcação baseada em portas, usando as listas de controle de acesso (ACLs) nos roteadores da sua rede. A marcação baseada em porta é o método mais confiável porque funciona em ambientes mistos Windows e Mac e é a mais fácil de implementar. Os clientes móveis não fornecem um mecanismo para marcar o tráfego usando valores DSCP, portanto, eles precisarão desse método.  
 
-Usando esse método, o roteador da sua rede examina um pacote de entrada e, se o pacote chegou usando uma determinada porta ou intervalo de portas, ele o identifica como um determinado tipo de mídia e coloca-o na fila desse tipo, adicionando uma marca [DSCP](https://tools.ietf.org/html/rfc2474) predeterminada ao IP Cabeçalho do pacote para que outros dispositivos possam reconhecer seu tipo de tráfego e dar prioridade na fila.
+Usando esse método, o roteador da sua rede examina um pacote de entrada e, se o pacote chegou usando uma determinada porta ou intervalo de portas, ele a identifica como um determinado tipo de mídia e coloca-o na fila desse tipo, adicionando uma marca [DSCP](https://tools.ietf.org/html/rfc2474) predeterminada ao cabeçalho do pacote IP para que outros dispositivos possam reconhecer seu tipo de tráfego e dar prioridade à sua fila.
 
 Embora isso funcione entre plataformas, ele só marca o tráfego na borda da rede de longa distância (não toda a maneira da máquina cliente) e cria uma sobrecarga de gerenciamento. Você deve consultar a documentação fornecida pelo fabricante do roteador para obter instruções sobre a implementação desse método.
 
@@ -162,7 +162,7 @@ Para obter informações sobre como configurar portas de firewall, vá para [URL
 No Teams, as portas de origem de QoS usadas pelas diferentes cargas de trabalho devem ser gerenciadas ativamente e ajustadas conforme necessário. Fazendo referência à tabela em [escolher intervalos de portas iniciais para cada tipo de mídia](#choose-initial-port-ranges-for-each-media-type), os intervalos de porta são ajustáveis, mas as marcações de DSCP não são configuráveis. Depois de implementar essas configurações, você pode descobrir que mais ou menos portas são necessárias para um determinado tipo de mídia. O [painel de análise de chamadas e de qualidade de chamada](difference-between-call-analytics-and-call-quality-dashboard.md) deve ser usado para tomar uma decisão de ajustar os intervalos de porta após a implementação do Teams, e periodicamente quando as necessidades são alteradas.
 
 > [!NOTE]
-> Se você já configurou o QoS com base em intervalos de porta de origem e marcações DSCP para o Skype for Business Online, a mesma configuração será aplicada às equipes e não será necessária nenhuma outra alteração de cliente ou de rede para o mapeamento, mas talvez seja necessário [definir os intervalos usado no centro de administração do teams](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings) para coincidir com o que foi configurado para o Skype for Business online.
+> Se você já configurou o QoS com base em intervalos de porta de origem e marcações DSCP para o Skype for Business Online, a mesma configuração será aplicada às equipes e não será necessária nenhuma outra alteração de cliente ou de rede para o mapeamento, mas talvez seja necessário [definir os intervalos usados no centro de administração do teams](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings) para corresponder ao que foi configurado para o Skype for Business online.
 
 Se você já implantou o Skype for Business Server no local, talvez seja necessário examinar novamente suas políticas de QoS e ajustá-las conforme necessário para corresponder às configurações de intervalo de porta que você verificou fornecer uma experiência de usuário de qualidade para equipes.
 

@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: Veja a seguir algumas das principais perguntas que obtemos de nossos clientes que desejam usar a conferência de áudio.
-ms.openlocfilehash: 7779a732a10f8a55f8bbdbb977ac9850cd2307bd
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 2dd772a9a6488b09092ac0687ca125409accf85b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516983"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695716"
 ---
 # <a name="audio-conferencing-common-questions"></a>Perguntas comuns sobre a Audioconferência
 
@@ -90,7 +91,7 @@ Para saber mais sobre os limites de reunião, confira [os limites do Skype for B
   
 ## <a name="why-did-users-start-receiving-emails-with-their-audio-conferencing-information"></a>Por que os usuários começaram a receber emails com as informações de audioconferência?
 
-Adicionamos um novo recurso que permite que você, o [administrador](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504), envie e atualize as informações de conferência de áudio e o PIN em um email. Para saber mais sobre ele, incluindo como desabilitá-lo, consulte [habilitar ou desabilitar o envio de emails quando as configurações de audioconferência são alteradas no Microsoft Teams](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md) ou [habilitar ou desabilitar o envio de emails quando as configurações de audioconferência são alteradas no Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change).
+Adicionamos um novo recurso que permite que você, o [administrador](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504), envie e atualize as informações de conferência de áudio e o PIN em um email. Para saber mais sobre ele, incluindo como desabilitá-lo, consulte [habilitar ou desabilitar o envio de emails quando as configurações de audioconferência são alteradas no Microsoft Teams](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md) ou [habilitar ou desabilitar o envio de emails quando as configurações de audioconferência são alteradas no Skype for Business online](/SkypeForBusiness/audio-conferencing-in-office-365/enable-or-disable-sending-emails-when-their-settings-change).
   
 ## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server"></a>A conferência de áudio pode ser usada pelos usuários que fazem parte de uma implantação local do Skype for Business Server?
 
@@ -146,7 +147,7 @@ Agendar uma reunião que será unida a todos os participantes usando um telefone
 
 - **Opção #1**: por padrão, se o organizador da reunião e todos os participantes estiverem participando de uma reunião usando um telefone, o organizador da reunião precisará inserir o PIN de conferência de áudio para iniciá-lo. Os chamadores recebem uma pergunta se desejam autenticar como organizador de uma determinada reunião quando discarem o número de telefone de uma reunião online. Todos os participantes que ingressarem na reunião por meio de discagem antes de iniciar o organizador serão colocados no lobby e escutarão música em espera. Para reuniões do Skype for Business, quando o organizador a iniciar, informando seu PIN de audioconferência, todos os participantes do lobby ingressarão automaticamente na reunião. Para reuniões do Microsoft Teams, os participantes ingressarão na reunião de acordo com o valor da configuração admitir pessoas automaticamente na política de reunião do organizador.
 
-- **Opção #2**: se a configuração "permitir que os chamadores não autenticados sejam a primeira pessoa em uma reunião" (desabilitado por padrão) estiver habilitada para um organizador específico, todas as reuniões agendadas por esse usuário poderão ser iniciadas sem que o organizador Insira sua própria pessoa ou PIN de audioconferência. Quando essa configuração estiver habilitada, a reunião será iniciada assim que o primeiro participante ingressar nele por meio de um número de telefone de discagem e ele não será colocado no lobby. Para obter informações adicionais, consulte [gerenciar as configurações de audioconferência para um usuário no Microsoft Teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) ou [gerenciar as configurações de audioconferência de áudio para um usuário no Skype for Business online](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user).
+- **Opção #2**: se a configuração "permitir que os chamadores não autenticados sejam a primeira pessoa em uma reunião" (desabilitado por padrão) estiver habilitada para um organizador específico, todas as reuniões agendadas por esse usuário poderão ser iniciadas sem que o organizador insira seu PIN de audioconferência. Quando essa configuração estiver habilitada, a reunião será iniciada assim que o primeiro participante ingressar nele por meio de um número de telefone de discagem e ele não será colocado no lobby. Para obter informações adicionais, consulte [gerenciar as configurações de audioconferência para um usuário no Microsoft Teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) ou [gerenciar as configurações de audioconferência de áudio para um usuário no Skype for Business online](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user).
    
 ## <a name="related-topics"></a>Tópicos relacionados
 

@@ -11,18 +11,18 @@ ms.collection:
 - M365-collaboration
 - M365-voice
 ms.reviewer: crowe
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.helparticle.cloudvoice
 search.appverid: MET150
 description: Página de aterrissagem para implantar a voz na nuvem no Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 969d55f41226d1c6effaf4c183992f15bf48e385
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: b1c172de4e29b5246e17bd6cd280679b7f3ef8a2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925572"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695476"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Voz na nuvem no Microsoft Teams
 
@@ -44,7 +44,7 @@ Os artigos a seguir fornecem mais informações sobre a implantação e o uso de
 - [Sistema de Telefonia com Planos de Chamadas](calling-plan-landing-page.md)
 - [Roteamento Direto do Sistema Telefônico](direct-routing-landing-page.md)
 - [Implantação do Cloud Voice](cloud-voice-deployment.md)
-- [Soluções de telefonia da Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Soluções de Telefonia da Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
 - Assista à sessão a seguir para saber mais sobre o sistema telefônico: [introdução ao sistema telefônico no Microsoft Teams](https://aka.ms/teams-phone-system)
 
 
@@ -106,7 +106,7 @@ Por padrão, todas as chamadas de saída usam o número de telefone atribuído c
 
 ### <a name="phone-numbers-from-microsoft"></a>Números de telefone da Microsoft
 
-A Microsoft tem dois tipos de números de telefone disponíveis: números de *assinante* (usuário), que podem ser atribuídos a usuários em sua organização e números de *serviço* , disponíveis como chamada de serviço de chamada tarifada e gratuita, que têm uma chamada simultânea maior capacidade do que os números de assinantes e podem ser atribuídos a serviços como conferência de áudio, atendedor automático ou filas de chamadas.
+A Microsoft tem dois tipos de números de telefone disponíveis: números de *assinante* (usuário), que podem ser atribuídos a usuários em sua organização e números de *serviço* , disponíveis como chamada de serviço de chamada tarifada e gratuita, que têm uma capacidade de chamada simultânea maior do que os números de assinantes e podem ser atribuídos a serviços como videoconferências, atendedores automáticos ou filas de chamadas.
 
 |Pergunte-se|Ação |
 | :------------|:-------|

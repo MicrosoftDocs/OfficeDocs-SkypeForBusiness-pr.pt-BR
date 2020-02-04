@@ -10,18 +10,18 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-voice
-f1keywords: ms.teamsadmincenter.voice.callinglineid.overview
+f1.keywords: ms.teamsadmincenter.voice.callinglineid.overview
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar e gerenciar políticas de identificação de chamadas no Microsoft Teams para alterar ou bloquear a identificação de chamadas de usuários do teams em sua organização.
-ms.openlocfilehash: aed6e3cbe2053ddc16b049608247f56705626249
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: f5a1d52f10bb60ced33b05339f81ecd0a6a363f5
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992881"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695586"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Gerenciar políticas de identificação de chamadas no Microsoft Teams
 

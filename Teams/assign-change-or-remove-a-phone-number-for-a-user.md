@@ -15,16 +15,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: Saiba como atribuir, alterar ou remover um número de telefone comercial para seus usuários de equipe para que empresas e clientes externos possam fazer chamadas.
-ms.openlocfilehash: d9fdb0a2c5ea36acd0a231b49450efda8aab2979
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: a52e8892150e94f73b76bd68aae874b50bd19a71
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516870"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695726"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Atribuir, alterar ou remover o número de telefone de um usuário
 

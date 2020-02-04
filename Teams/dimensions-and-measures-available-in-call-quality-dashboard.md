@@ -16,15 +16,16 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom: Reporting
 description: Obtenha informações detalhadas sobre as dimensões e medidas usadas pelo painel de qualidade de chamada do Microsoft Teams e do Skype for Business online.
-ms.openlocfilehash: 82602565d0589e55cb76bffa6bece218bc02a295
-ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
+ms.openlocfilehash: 9e2dc32802b2a13d9d0a24824a083702c2f2d27c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41580888"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696036"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Dimensões e medidas disponíveis no painel de qualidade da chamada
 
@@ -167,10 +168,10 @@ As informações de dimensões são baseadas em parte em dados carregados no por
 | Primeiro agente do usuário  | Cadeia de caracteres  | Cadeia de caracteres de agente do usuário do primeiro ponto de extremidade. <br/> **Valor de exemplo:** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (Skype for Business) | &bull;Nenhum agente de usuário relatado pelo primeiro ponto de extremidade   |
 | Segundo agente do usuário  | Cadeia de caracteres  | Cadeia de caracteres de agente do usuário do segundo ponto de extremidade. <br/> **Valor de exemplo:** UCCAPI/16.0.7766.5281 OC/16.0.7766.2047 (Skype for Business) | &bull;Nenhum agente de usuário foi reportado pelo segundo ponto de extremidade   |
 | Tipo de conferência  | Enumeração <br/>**Valores possíveis:** <br/>&bull;conf: applicationsharing <br/>&bull;conf: áudio-vídeo <br/>&bull;conf: foco | Tipo de URI de conferência.  <br/> **Valor de exemplo:** conf: áudio-vídeo | &bull;Cenário de não conferência.   |
-| ID de conferência (em lync.cqd.com)<br/>ID da chamada (em cqd.teams.microsoft.com)  | Cadeia de caracteres  | ID de conferência (ou ID de chamada) associada aos fluxos. No cqd.teams.microsoft.com, todas as chamadas têm IDs de chamadas, independentemente de serem uma chamada ponto a ponto (P2P) ou uma chamada em conferência.  Essa dimensão pode ter muitas linhas a serem usadas como dimensão em um relatório. Em vez disso, ele pode ser usado em um filtro.  <br/> **Valor de exemplo:** 0001P6GK  | &bull;Cenário de não conferência. |
+| ID de conferência  | Cadeia de caracteres | ID de conferência (ou ID de chamada) associada aos fluxos. No cqd.teams.microsoft.com, todas as chamadas têm uma ID de chamada independentemente de serem uma chamada ponto a ponto (P2P) ou uma chamada em conferência. No cqd.lync.com, esse valor é apenas avialble para chamadas em conferência do Skype for Business.  Essa dimensão pode ter muitas linhas a serem usadas como dimensão em um relatório. Em vez disso, ele pode ser usado em um filtro.  <br/> **Valor de exemplo (CQD.Lync.com):** 0001P6GK <br/> **Valor de exemplo (CQD.Teams.Microsoft.com):** 5a962ccf-B9CB-436A-A433-f28bf5404ad8  | |
 | Primeira versão do aplicativo cliente  | Cadeia de caracteres  | Versão do aplicativo usada para o primeiro ponto de extremidade. Os dados são analisados a partir da cadeia de caracteres do agente do usuário. <br/> **Valor de exemplo:** 16.0.7766.2047 | &bull;Não foi possível analisar a cadeia de caracteres de versão <br/>&bull;O valor não foi reportado.   |
 | Versão do segundo aplicativo cliente  | Cadeia de caracteres  | Versão do aplicativo usada para o segundo ponto de extremidade. Os dados são analisados a partir da cadeia de caracteres do agente do usuário. <br/> **Valor de exemplo:** 16.0.7766.2047 | &bull;Não foi possível analisar a cadeia de caracteres de versão <br/>&bull;O valor não foi reportado. |
-|ID da reunião|Cadeia de caracteres |O identificador da reunião, gerado quando a reunião foi criada. | |
+|ID da reunião (em cqd.teams.microsoft.com) <br/> ID de conferência (em cqd.lync.com) |Cadeia de caracteres |O identificador da reunião, gerado quando a reunião foi criada. <br/> **Valor do exemplo (Skype for Business):** 0001P6GK  <br/> **Valor de exemplo (Teams):** 19: meeting_MzB... zIw@thread. v2| |
 |**Rede**||| 
 | SMTP  | Enumeração <br/>**Valores possíveis:** <br/>&bull;GRAMA <br/>&bull;Protocol <br/>&bull;Desconhecido  | Tipo de transporte de rede usado pelo Stream.  Não reconhecido indica que o sistema não pôde determinar se o tipo de transporte era TCP ou UDP.  | &bull;O tipo de transporte não foi reportado <br/>&bull;O caminho de mídia não foi estabelecido  |
 | Primeiro Ice de conectividade  | Enumeração <br/>**Valores possíveis:** <br/>&bull;DIRECT = caminho de rede direta <br/>&bull;RELAY = a retransmissão <br/>&bull;HTTP = via proxy HTTP <br/>&bull;FALHA = falha na conectividade | Tipo de conectividade ICE usado pelo primeiro ponto de extremidade.  |&bull;O tipo de transporte não foi reportado <br/>&bull;O caminho de mídia não foi estabelecido   |

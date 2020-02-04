@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5698058cbfecd62f92cfe9f198657f7c280deff
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: d266799bf2bc2cab9cd107836f9017bd7dc369bf
+ms.sourcegitcommit: 2cb46af39a0d116e8fd020aa04bd2ecbd6998a5f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37563118"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41678965"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Entrar no Microsoft Teams usando a autenticação moderna
 ==========================
@@ -38,6 +38,11 @@ A autenticação moderna é um processo que permite que as equipes saibam que os
 - Se os usuários não estiverem conectados à sua conta empresarial do Office 365 em qualquer outro lugar, quando iniciarem o Teams, eles serão solicitados a fornecer autenticação de fator único ou multifator (SFA ou MFA), dependendo do que a sua organização decidiu que gostaria da processo para implicar.
 
 - Se os usuários estiverem conectados a um computador associado a um domínio, quando iniciarem o Teams, eles poderão ser solicitados a passar por mais uma etapa de autenticação, dependendo se a sua organização optou por exigir MFA ou se o computador já precisa de uma solicitação de conexão. Se o computador já precisa de uma MFA para entrar, quando ele abre equipes, o aplicativo é iniciado automaticamente.
+
+- Se os usuários estiverem conectados a um computador associado a um domínio e você não quiser que seus nomes de usuário tenham sido previamente preenchidos na tela de entrada do Teams, os administradores poderão definir o seguinte registro do Windows para desativar o pre-população do nome de usuário: computador \ HKEY_CURRENT_USER \Software\ Microsoft\Office\Teams DisableUpnSuffixCheck (REG_DWORD) 0x00000001 (1)
+
+  Observação: ignorar o nome de usuário predefinido para nomes de usuário que terminam em ". local" ou ". Corp" está ativado por padrão, portanto, você não precisa definir uma chave do registro para desativá-la. 
+
 
 ### <a name="mac-users"></a>Usuários do Mac 
 

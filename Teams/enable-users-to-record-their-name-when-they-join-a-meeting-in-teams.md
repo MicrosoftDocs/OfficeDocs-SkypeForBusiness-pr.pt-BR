@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: Saiba como ativar ou desativar se seus usuários podem ou não gravar o nome ao entrarem em uma reunião no Microsoft Teams.
-ms.openlocfilehash: 20888f206e3ffbca72227ff1b9cd5d5f624101f3
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: e81a4ad209a07eee2ab72d428aa7bd32a6e2c4c3
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37573047"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696146"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>Permitir que usuários gravem o nome ao entrar em uma reunião no Microsoft Teams
 
