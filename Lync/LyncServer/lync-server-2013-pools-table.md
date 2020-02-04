@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Tabela Pools'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Pools table
 ms:assetid: e0632b8d-e23a-4365-8a7a-6ca0957a46a9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398991(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185680
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1dab7679f663d20b5c81998c6252132a6051244b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8df31be5f0ede7217c8b6ed1539bfddea50a7280
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824138"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747671"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34824138"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="pools-table-in-lync-server-2013"></a><span data-ttu-id="d9b7f-102">Tabela Pools no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d9b7f-102">Pools table in Lync Server 2013</span></span>
+# <a name="pools-table-in-lync-server-2013"></a><span data-ttu-id="35ca4-102">Tabela Pools no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="35ca4-102">Pools table in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,9 +35,9 @@ ms.locfileid: "34824138"
 
 <span> </span>
 
-<span data-ttu-id="d9b7f-103">_**Tópico da última modificação:** 2010-11-09_</span><span class="sxs-lookup"><span data-stu-id="d9b7f-103">_**Topic Last Modified:** 2010-11-09_</span></span>
+<span data-ttu-id="35ca4-103">_**Tópico da última modificação:** 2010-11-09_</span><span class="sxs-lookup"><span data-stu-id="35ca4-103">_**Topic Last Modified:** 2010-11-09_</span></span>
 
-<span data-ttu-id="d9b7f-104">A tabela de grupos é uma tabela de suporte que armazena informações sobre o vários pool.</span><span class="sxs-lookup"><span data-stu-id="d9b7f-104">The Pools table is a supporting table that stores information about the various pool.</span></span> <span data-ttu-id="d9b7f-105">Cada registro na tabela representa um pool.</span><span class="sxs-lookup"><span data-stu-id="d9b7f-105">Each record in the table represents one pool.</span></span>
+<span data-ttu-id="35ca4-104">A tabela de grupos é uma tabela de suporte que armazena informações sobre o vários pool.</span><span class="sxs-lookup"><span data-stu-id="35ca4-104">The Pools table is a supporting table that stores information about the various pool.</span></span> <span data-ttu-id="35ca4-105">Cada registro na tabela representa um pool.</span><span class="sxs-lookup"><span data-stu-id="35ca4-105">Each record in the table represents one pool.</span></span>
 
 
 <table>
@@ -47,24 +49,24 @@ ms.locfileid: "34824138"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="d9b7f-106">Coluna</span><span class="sxs-lookup"><span data-stu-id="d9b7f-106">Column</span></span></th>
-<th><span data-ttu-id="d9b7f-107">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="d9b7f-107">Data Type</span></span></th>
-<th><span data-ttu-id="d9b7f-108">Chave/índice</span><span class="sxs-lookup"><span data-stu-id="d9b7f-108">Key/Index</span></span></th>
-<th><span data-ttu-id="d9b7f-109">Detalhes</span><span class="sxs-lookup"><span data-stu-id="d9b7f-109">Details</span></span></th>
+<th><span data-ttu-id="35ca4-106">Coluna</span><span class="sxs-lookup"><span data-stu-id="35ca4-106">Column</span></span></th>
+<th><span data-ttu-id="35ca4-107">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="35ca4-107">Data Type</span></span></th>
+<th><span data-ttu-id="35ca4-108">Chave/índice</span><span class="sxs-lookup"><span data-stu-id="35ca4-108">Key/Index</span></span></th>
+<th><span data-ttu-id="35ca4-109">Detalhes</span><span class="sxs-lookup"><span data-stu-id="35ca4-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d9b7f-110"><strong>Poolid</strong></span><span class="sxs-lookup"><span data-stu-id="d9b7f-110"><strong>PoolId</strong></span></span></p></td>
-<td><p><span data-ttu-id="d9b7f-111">int</span><span class="sxs-lookup"><span data-stu-id="d9b7f-111">int</span></span></p></td>
-<td><p><span data-ttu-id="d9b7f-112">Primária</span><span class="sxs-lookup"><span data-stu-id="d9b7f-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="d9b7f-113">Número exclusivo que identifica este pool.</span><span class="sxs-lookup"><span data-stu-id="d9b7f-113">Unique number identifying this pool.</span></span></p></td>
+<td><p><span data-ttu-id="35ca4-110"><strong>Poolid</strong></span><span class="sxs-lookup"><span data-stu-id="35ca4-110"><strong>PoolId</strong></span></span></p></td>
+<td><p><span data-ttu-id="35ca4-111">int</span><span class="sxs-lookup"><span data-stu-id="35ca4-111">int</span></span></p></td>
+<td><p><span data-ttu-id="35ca4-112">Primária</span><span class="sxs-lookup"><span data-stu-id="35ca4-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="35ca4-113">Número exclusivo que identifica este pool.</span><span class="sxs-lookup"><span data-stu-id="35ca4-113">Unique number identifying this pool.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d9b7f-114"><strong>PoolFQDN</strong></span><span class="sxs-lookup"><span data-stu-id="d9b7f-114"><strong>PoolFQDN</strong></span></span></p></td>
-<td><p><span data-ttu-id="d9b7f-115">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="d9b7f-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="35ca4-114"><strong>PoolFQDN</strong></span><span class="sxs-lookup"><span data-stu-id="35ca4-114"><strong>PoolFQDN</strong></span></span></p></td>
+<td><p><span data-ttu-id="35ca4-115">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="35ca4-115">nvarchar(256)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="d9b7f-116">FQDN do pool.</span><span class="sxs-lookup"><span data-stu-id="d9b7f-116">Pool FQDN.</span></span></p></td>
+<td><p><span data-ttu-id="35ca4-116">FQDN do pool.</span><span class="sxs-lookup"><span data-stu-id="35ca4-116">Pool FQDN.</span></span></p></td>
 </tr>
 </tbody>
 </table>
