@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployStartServicesInvoke
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7992440b-8545-4af9-b3ac-ea200b9de084
 description: O painel Resumo no painel comandos em execução exibe o status das tarefas emitidas para iniciar os serviços para o servidor de funções do Skype for Business Server 2015 que você está implantando. O resumo no painel de tarefas não representa uma indicação em tempo real da inicialização do serviço. Alguns dos serviços do Skype for Business Server podem levar um tempo prolonga para começar o processo de inicialização inicial. As tarefas são emitir o comando para iniciar, mas não aguardar para determinar se o serviço foi iniciado com êxito. Se for necessário monitorar a inicialização do serviço e o status do serviço, use o Console de Gerenciamento da Microsoft dos Serviços do Windows (MMC).
-ms.openlocfilehash: 249ced56bd7abdc5b5142503fcffc5cb2107dde2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 92fbafc05f195a2cc0cc0c9d335f2d4b1939fbb2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289553"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700716"
 ---
 # <a name="start-services-invoke"></a>Iniciar Serviços (Invocar)
  

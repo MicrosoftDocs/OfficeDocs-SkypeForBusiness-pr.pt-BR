@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.FrontEndServersScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
 description: 'O nó de Pools de Front-Ends Enterprise Edition lista os pools de Front-Ends neste site, e o nó de Servidores Front-End Standard Edition lista os servidores Standard Edition neste site. Você pode executar as seguintes ações:'
-ms.openlocfilehash: 612c46f828ce3f2396d501b8b3ab81b02adf5b46
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 160a61c0824d989a81988368e7f6f9fa6dbc5e7d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284379"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697256"
 ---
 # <a name="front-end-servers-scope-node"></a>Nó de Escopo de Servidores Front-End
  

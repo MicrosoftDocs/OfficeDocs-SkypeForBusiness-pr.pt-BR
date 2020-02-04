@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AssociateFrontEndWithAvMcuPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 314e3b0b-9ca7-423b-9c8e-80eb6013d36f
-description: A conferência A/V permite comunicações de áudio e vídeo em tempo real entre seus usuários (ou seja, se eles tiverem dispositivos de cliente apropriados, como fones de ouvido para conferências de áudio e webcams para videoconferências). Se a sua implantação oferecer suporte à conferência e você habilitar a conferência via Web e conferência A/V, poderá colocar o servidor de conferência a/V com o servidor front-end) ou poderá implantar um ou mais servidores de conferência A/V autônomos (pool de conferência A/V) . Se você escolher a opção para implantar um servidor autônomo de conferência A/V, deverá defini-lo no construtor de topologias.
-ms.openlocfilehash: 41d24d56f15c1db5a39bfabf889a7caf3deca989
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: A conferência A/V permite comunicações de áudio e vídeo em tempo real entre seus usuários (ou seja, se eles tiverem dispositivos de cliente apropriados, como fones de ouvido para conferências de áudio e webcams para videoconferências). Se a sua implantação oferecer suporte à conferência e você habilitar a conferência via Web e conferência A/V, poderá colocar o servidor de conferência A/V com o servidor front-end) ou poderá implantar um ou mais servidores de conferência A/V autônomos (pool de conferência A/V). Se você escolher a opção para implantar um servidor autônomo de conferência A/V, deverá defini-lo no construtor de topologias.
+ms.openlocfilehash: 49d76b6b14bc2a61b771341f24832b3b10e59919
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301684"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697766"
 ---
 # <a name="associate-front-end-with-av-mcu"></a>Associar Front End com AV MCU
  
-A conferência A/V permite comunicações de áudio e vídeo em tempo real entre seus usuários (ou seja, se eles tiverem dispositivos de cliente apropriados, como fones de ouvido para conferências de áudio e webcams para videoconferências). Se a sua implantação oferecer suporte à conferência e você habilitar a conferência via Web e conferência A/V, poderá colocar o servidor de conferência a/V com o servidor front-end) ou poderá implantar um ou mais servidores de conferência A/V autônomos (pool de conferência A/V) . Se você escolher a opção para implantar um servidor autônomo de conferência A/V, deverá defini-lo no construtor de topologias.
+A conferência A/V permite comunicações de áudio e vídeo em tempo real entre seus usuários (ou seja, se eles tiverem dispositivos de cliente apropriados, como fones de ouvido para conferências de áudio e webcams para videoconferências). Se a sua implantação oferecer suporte à conferência e você habilitar a conferência via Web e conferência A/V, poderá colocar o servidor de conferência A/V com o servidor front-end) ou poderá implantar um ou mais servidores de conferência A/V autônomos (pool de conferência A/V). Se você escolher a opção para implantar um servidor autônomo de conferência A/V, deverá defini-lo no construtor de topologias.
   
 Todos os pools em um site e os pools de vários sites centrais podem usar o mesmo servidor de conferência A/V, se o uso não exceder a capacidade do servidor de conferência A/V. 
   

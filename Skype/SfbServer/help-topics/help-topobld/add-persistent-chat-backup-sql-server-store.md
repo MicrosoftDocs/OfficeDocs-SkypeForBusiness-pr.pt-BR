@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddPersistentChatBackupSqlStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 106698e4-ce73-4a34-8fc7-e9d3208a17dc
 description: Você configura as lojas de backup do SQL Server que fornecerão bancos de dados de backup para o servidor de chat persistente ou o pool de servidor de chat persistente.
-ms.openlocfilehash: 39e5e1ead6ed3cb089545406852de16170d782dc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 05baf1760b1f7a4f8c30d964b55811d56a2830a8
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304650"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698076"
 ---
 # <a name="add-persistent-chat-backup-sql-server-store"></a>Adicionar Repositório de SQL Server de Backup de Chat Persistente
  
@@ -28,7 +28,7 @@ Você configura as lojas de backup do SQL Server que fornecerão bancos de dados
   
 Clique em **novo** para definir um novo SQL Server e, opcionalmente, uma nova instância para os dados de backup de chat persistente.
   
-Marque a caixa de seleção Habilitar o espelhamento da **loja do SQL Server** para configurar um banco de dados do SQL Server e uma instância opcional que fornecerá um banco de dados espelhado para os dados de backup de chat persistente.
+Marque a caixa de seleção **habilitar o espelhamento da loja do SQL Server** para configurar um banco de dados do SQL Server e uma instância opcional que fornecerá um banco de dados espelhado para os dados de backup de chat persistente.
   
 Selecione na lista **espelhar SQL Server Store** uma instância do SQL Server e opcional para atuar como o espelho do SQL Server do SQL Server de backup de chat persistente.
   

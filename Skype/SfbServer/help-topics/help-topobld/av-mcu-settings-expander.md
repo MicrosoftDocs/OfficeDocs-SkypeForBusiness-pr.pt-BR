@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AvMcuSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 description: 'Para editar as propriedades de um pool de servidores de conferência A/V que você já definiu, faça o seguinte:'
-ms.openlocfilehash: 8de6d8215297f0f399358406565f542948e87770
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 056046eb8351d3b9b4c6e9422b6312c0be6eed78
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301593"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697696"
 ---
 # <a name="av-mcu-settings-expander"></a>Expansor de Configurações AV MCU
  
@@ -33,7 +33,7 @@ Para atualizar o nome de domínio totalmente qualificado (FQDN) do pool do servi
 Para associar um pool de servidores de conferência A/V, selecione o pool de front-end ou pools que você precisa associar ao pool do servidor de conferência A/V.
   
 > [!NOTE]
-> Se nenhum pool de front-end for exibido no painel **selecionar os pools de front-end a serem associados a este/v conferência** , você deve colocar o servidor de conferência a/v em um pool de front-end ou não selecionar para adicionar conferências nos **recursos e** na seção funcionalidade das propriedades do pool de front-end.
+> Se nenhum pool de front-end for exibido no painel **selecionar o pool de front-ends a ser associado a este/v conferência** , você deve colocar o servidor de conferência a/v no pool de front-end ou não selecionar para adicionar conferências na seção **recursos e funcionalidade** das propriedades do pool de front-end.
   
 
 

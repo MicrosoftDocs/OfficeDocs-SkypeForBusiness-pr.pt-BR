@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 8/10/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.RootScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d190f1f0-7741-432a-84ac-9530bb00abef
 description: 'O nó do Lync Server lista os sites centrais na sua topologia. Você pode executar as seguintes ações:'
-ms.openlocfilehash: b8b42ac2997d734e7c87584ce94090e0341911f9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c61bfae684de1f883fc63dc8e6a5a0adf4af4e8a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291260"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696616"
 ---
 # <a name="skype-for-business-server-root-scope-node"></a>Nó de Escopo Raiz do Skype for Business Server
  

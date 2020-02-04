@@ -7,24 +7,24 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.PersistentChatCategoryMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b71c6e6f-681c-4230-954d-3e95ab64ca00
 description: É possível usar a seção Categoria da página Chat Persistente para configurar as categorias. Uma categoria de sala de chat persistente é uma estrutura lógica para organizar salas de chat. Uma categoria define um conjunto padrão de listas de controle de acesso (ACLs) para controle dos usuários e dos grupos de usuários que podem criar ou ingressar em salas de chat. É possível usar as categorias para aplicar paredes éticas entre diferentes subdivisões dentro de suas organizações.
-ms.openlocfilehash: f080a71c7949d32fa3e72e902113be0d5dc88455
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 039286382e83d07bfa0c3aa2f88908748fb31ff2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302703"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699946"
 ---
 # <a name="persistent-chat-category-main-page"></a>Página Principal da Categoria de Chat Persistente
  
 É possível usar a seção **Categoria** da página **Chat Persistente** para configurar as categorias. Uma categoria de sala de chat persistente é uma estrutura lógica para organizar salas de chat. Uma categoria define um conjunto padrão de listas de controle de acesso (ACLs) para controle dos usuários e dos grupos de usuários que podem criar ou ingressar em salas de chat. É possível usar as categorias para aplicar paredes éticas entre diferentes subdivisões dentro de suas organizações.
   
-As categorias de sala de chat podem conter salas de chat, mas nenhuma outra categoria. Cada categoria descreve seu conteúdo com metadados, como _nome_ e _Descrição_. Além disso, a categoria tem propriedades que podem ser definidas para controlar o comportamento das salas de chat pertencentes a ele, como se as salas de chat permitirem _convites_ ou carregamentos de _arquivos_ou contenham o _histórico de chats_.
+As categorias de sala de chat podem conter salas de chat, mas nenhuma outra categoria. Cada categoria descreve seu conteúdo com metadados, como _nome_ e _Descrição_. Além disso, a categoria tem propriedades que podem ser definidas para controlar o comportamento das salas de chat pertencentes a ele, como se as salas de chat permitirem _convites_ ou _carregamentos de arquivos_ou contenham o _histórico de chats_.
   
 Para criar uma nova categoria, consulte [gerenciar categorias no servidor de chat persistente no Skype for Business server 2015](../../manage/persistent-chat/categories.md). Se você for um administrador de chat persistente, poderá criar categorias usando o painel de controle ou cmdlets do Windows PowerShell.
   
@@ -66,7 +66,7 @@ Para criar uma nova categoria, consulte [gerenciar categorias no servidor de cha
     
 12. Em  **Editar categoria**, faça o seguinte:
     
-    - Em **Associação**, na seção **Membros permitidos** , adicione ou remova usuários e outros princípios de serviços de domínio do Active Directory (usuários, grupos de distribuição, unidades organizacionais e assim por diante) que podem ser adicionados como membros de salas de chat pertencente à categoria. As entidades permitidas por uma categoria podem pesquisar por salas na categoria (a menos que uma sala esteja oculta, caso o qual apenas membros da sala podem pesquisar por ela no diretório).
+    - Em **Associação**, na seção **Membros permitidos** , adicione ou remova usuários e outras entidades de segurança dos serviços de domínio Active Directory (usuários, grupos de distribuição, unidades organizacionais e assim por diante) que podem ser adicionados como membros de salas de chat pertencentes à categoria. As entidades permitidas por uma categoria podem pesquisar por salas na categoria (a menos que uma sala esteja oculta, caso o qual apenas membros da sala podem pesquisar por ela no diretório).
     
     - Em **Associação**, na seção **Membros negados** , adicione ou remova usuários e outras entidades de segurança do Active Directory associadas a membros sendo negados da sala.
     

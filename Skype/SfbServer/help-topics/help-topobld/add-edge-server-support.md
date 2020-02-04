@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddEdgeServerStartPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f7f90070-fcdc-4ec5-9551-cc7da2ed271c
 description: Você pode adicionar suporte ao acesso de usuários externos quando implantar sua topologia inicial ou posteriormente. Para obter detalhes sobre como incluir Servidores de Borda na topologia existente, consulte Define Your Edge Topology na documentação de Implantação do Servidor de Borda.
-ms.openlocfilehash: 652befdc9f08bd49bd52bd6deccdb4bcf2515c95
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0bc498b4249b0ac7e580190a18a500253e9e19c0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281063"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698346"
 ---
 # <a name="add-edge-server-support"></a>Adicionar Suporte de Servidor de Borda
 

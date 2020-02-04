@@ -7,24 +7,24 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddEdgeServerExternalIPPage2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: adb2778d-fd46-4ab9-899d-f97f71493659
 description: Você pode configurar as propriedades desta página para apontar o servidor de borda para locais externos do serviço de borda de acesso, serviço de borda de Webconferência e serviço de borda A/V.
-ms.openlocfilehash: 8383333aadeea3aa5d94a56a362b3cf27b7be6c6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 10e0723c34b1eeef090791f292bc70e5cfdfff43
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302507"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41698456"
 ---
 # <a name="add-edge-server-external-ip-2010"></a>Adicionar IP Externo de Servidor de Borda 2010
 
 Você pode configurar as propriedades desta página para apontar o servidor de borda para locais externos do serviço de borda de acesso, serviço de borda de Webconferência e serviço de borda A/V.
 
-- Em **endereços IPv4 externos**, digite os endereços IPv4 externos do servidor de borda no **serviço de borda de acesso**, **serviço de borda**de Webconferência e **serviço de borda A/V**.
+- Em **endereços IPv4 externos**, digite os endereços IPv4 externos do servidor de borda no **serviço de borda de acesso**, **serviço de borda de Webconferência**e **serviço de borda A/V**.
 
 - Clique em **OK** para salvar e confirmar as alterações no documento de topologia.
 

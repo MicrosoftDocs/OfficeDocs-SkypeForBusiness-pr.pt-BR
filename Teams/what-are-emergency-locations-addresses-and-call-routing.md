@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.locations.emergencyaddresses.overview
 - ms.lync.lac.AddressAndLocation
 ms.custom:
 - Calling Plans
 - Direct Routing
 description: Saiba mais sobre chamadas de emergência, incluindo informações sobre endereços de emergência, roteamento de chamadas de emergência e chamadas de emergência dinâmicas.
-ms.openlocfilehash: b97a14310014ea2e8271ee54f3bd6e777afa4d57
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 1e8eb5ee3f95afb08dc5f33862287fc3b3379806
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615831"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694306"
 ---
 # <a name="manage-emergency-calling"></a>Gerenciar chamadas de emergência
 
@@ -128,7 +128,7 @@ Quando um plano de chamada de equipe faz a discagem de um número de emergência
 
 Para obter mais informações, consulte:
 
-- [Planos de chamadas](calling-plan-landing-page.md)
+- [Planos de Chamadas](calling-plan-landing-page.md)
 
 - [Diferentes tipos de números de telefone utilizados para Planos de Chamadas](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 

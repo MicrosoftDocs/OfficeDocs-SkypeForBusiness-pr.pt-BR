@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 202a8555b43902e553b8eadfaaa30b5577a8e4fa
-ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
+ms.openlocfilehash: fc2dd9fcbd120b5471228d0b2728f90b48622f73
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38714237"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693896"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de Comunicação para sua organização
 
@@ -103,7 +104,7 @@ Ao configurar créditos de comunicações, você precisará investigar o uso da 
 
 Você pode ver os planos e preços visitando um dos seguintes links:
   
-- [Planos de chamadas](https://go.microsoft.com/fwlink/?LinkId=799761 )
+- [Planos de Chamadas](https://go.microsoft.com/fwlink/?LinkId=799761 )
     
 - [Planos de audioconferência](https://go.microsoft.com/fwlink/?LinkId=799762 )
     

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.EdgeSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 74a66817-7092-4b2f-a2af-bc1a2c9e5fed
 description: 'Edite as configurações do servidor de borda ou do pool de bordas configurando as seguintes propriedades:'
-ms.openlocfilehash: 1b349d5640ea2debb4730ce262795616258b3475
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 78edbc8093b54474ac9f0429b5232851a5a16663
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282521"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697376"
 ---
 # <a name="edit-edge-settings-expander-for-lync-server-2010"></a>Editar Expansor de Configurações de Borda para Lync Server 2010
  
@@ -31,7 +31,7 @@ Edite as configurações do servidor de borda ou do pool de bordas configurando 
 - Selecione **habilitar Federação para este pool de bordas (porta 5061)** se você quiser habilitar o servidor de borda ou o pool de bordas para federação com outros parceiros de protocolo de início de sessão.
     
     > [!IMPORTANT]
-    > Você só pode definir um servidor de borda ou um pool de bordas ativamente para Federação. A configuração mostrada na captura de tela associada indica que outro servidor de borda ou um pool de bordas já está configurado para Federação. O registro SRV DNS externo para Federação (sipfederationtls. _ TCP\< . nome\>do domínio externo) apontará para o servidor de borda ou o pool de bordas para Federação. 
+    > Você só pode definir um servidor de borda ou um pool de bordas ativamente para Federação. A configuração mostrada na captura de tela associada indica que outro servidor de borda ou um pool de bordas já está configurado para Federação. O registro SRV DNS externo para Federação (_sipfederationtls. _tcp.\< nome\>do domínio externo) apontará para o servidor de borda ou o pool de bordas para Federação. 
   
 - A **porta de replicação de configuração interna (https)**, por padrão, na porta TCP 4443, é a porta que a cópia local (ou seja, local para os servidores de extremidade) do repositório de gerenciamento central é replicada. A cópia local do repositório de gerenciamento central está no banco de dados do **RTCLOCAL** no SQL Server em cada computador. A replicação é unidirecional, iniciada a partir do servidor de gerenciamento central (ou, o servidor front-end ou o pool de front-ends que mantém a função de servidor central de gerenciamento) para os servidores de borda e é uma porta de interface interna.
     
@@ -55,7 +55,7 @@ Esta seção das propriedades permite que você edite as propriedades das config
     
 - Para editar o **serviço de borda de acesso**, defina o **FQDN do pool** para o serviço de borda de acesso conforme definido no DNS pelos registros host (A e AAAA se IPv6 são usados) e um valor de porta
     
-- Para editar o **serviço de borda**de webconferência, defina um **FQDN de pool** para o serviço de borda de webconferência, conforme definido no DNS, os registros host (a e AAAA se IPv6 são usados) e um valor de porta
+- Para editar o **serviço de borda de Webconferência**, defina um **FQDN de pool** para o serviço de borda de webconferência, conforme definido no DNS, os registros host (a e AAAA se IPv6 são usados) e um valor de porta
     
 - Para editar o **serviço de borda a/v**, você define um **FQDN de pool** para o serviço de borda a/v, conforme definido no DNS por registros host (A e AAAA se IPv6 são usados) e um valor de porta
     

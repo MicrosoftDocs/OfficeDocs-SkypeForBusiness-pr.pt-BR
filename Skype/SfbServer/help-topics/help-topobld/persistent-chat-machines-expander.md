@@ -7,24 +7,24 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.PersistentChatMachinesExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 description: Você ativa ou desativa um servidor de chat persistente implantado ou um pool de servidores de chat persistentes usando os servidores ou pools listados nas configurações de estado da máquina. Selecione um servidor ou pool na lista e clique no botão Tornar Ativo para definir um servidor ou pool como ativo.
-ms.openlocfilehash: c8faf7bc05973e4453b4432b2aed27afdd79787e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 709c2bd179cfdde824a2e94b25b277d201c5046c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289928"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696876"
 ---
 # <a name="persistent-chat-machines-expander"></a>Expansor de Máquinas de Chat Persistente
  
 Você ativa ou desativa um servidor de chat persistente implantado ou um pool de servidores de chat persistentes usando os servidores ou pools listados nas **configurações de estado da máquina**. Selecione um servidor ou pool na lista e clique no botão **Tornar Ativo** para definir um servidor ou pool como ativo.
   
-Você define um servidor de chat persistente implantado ou um pool de servidores de chat persistente para inativo, selecionando o servidor **** ou o pool na lista e clicando em disponibilizar inativo. Pelo menos um servidor precisa ser definido como ativo.
+Você define um servidor de chat persistente implantado ou um pool de servidores de chat persistente para inativo, selecionando o servidor ou o pool na lista e clicando em **disponibilizar inativo**. Pelo menos um servidor precisa ser definido como ativo.
   
  **OK** Aceita e confirma as alterações na caixa de diálogo.
   

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.NcsLocMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
 description: As políticas de local determinam se o 9-1-1 Avançado (E9-1-1) está habilitado e como ele é usado, além de como as informações de local são usadas para usuários e contatos.
-ms.openlocfilehash: cb28dd60793da6681f2a8db71cf40ce8a5eda6fc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e780256ba025328c6a84d709aaa4c6f522b219df
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293470"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700096"
 ---
 # <a name="location-policy"></a>Política de Local
 
@@ -33,7 +33,7 @@ As políticas de local incluem a política global e, como opção, uma ou mais p
 - **Políticas de usuário (opcional):** Você pode criar uma ou mais políticas de localização do usuário, cada uma se aplica a um usuário ou grupo de usuários específico. As políticas de usuário substituem a política global e as políticas de site.
 
 > [!NOTE]
-> Também é possível atribuir políticas de local a sites de rede, que são grupos de sub-redes. As políticas de local atribuídas a sites de rede têm precedência sobre todas as outras políticas de usuário. Para obter detalhes sobre como atribuir políticas de localização a sites de rede usando cmdlets, consulte [Adicionar uma política de localização a um site de rede no Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md). Para obter detalhes sobre como usar o painel de controle do Skype for Business Server para atribuir uma política de localização a um site de rede, consulte Configurando [sites de rede](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx).
+> Também é possível atribuir políticas de local a sites de rede, que são grupos de sub-redes. As políticas de local atribuídas a sites de rede têm precedência sobre todas as outras políticas de usuário. Para obter detalhes sobre como atribuir políticas de localização a sites de rede usando cmdlets, consulte [Adicionar uma política de localização a um site de rede no Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md). Para obter detalhes sobre como usar o painel de controle do Skype for Business Server para atribuir uma política de localização a um site de rede, consulte [Configurando sites de rede](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx).
 
 A página  **Política de Local** exibe uma lista de todas as políticas de local definidas para sua organização.
 

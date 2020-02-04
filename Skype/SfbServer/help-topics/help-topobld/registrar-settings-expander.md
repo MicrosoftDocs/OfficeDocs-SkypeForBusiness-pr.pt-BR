@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.RegistrarSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
 description: Resiliência fornece alta disponibilidade e recuperação de desastres para o pool do registrador. Ao fornecer um registrador de backup em caso de falha do registrador principal, o registrador de backup pode assumir o registro com falha, permitindo que os usuários façam logon e se comuniquem. Os usuários podem experimentar recursos reduzidos, dependendo de quais sistemas falharam com o registrador principal.
-ms.openlocfilehash: d23258e0573136843b4efab19f92ff0a3190c405
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bac382486b45acbb2e25d3be26d23ea67f1aa15b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297649"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696726"
 ---
 # <a name="registrar-settings-expander"></a>Expansor de configurações do Registrador Avançado
  

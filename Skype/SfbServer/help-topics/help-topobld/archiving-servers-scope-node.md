@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.ArchivingServersScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
 description: No Construtor de Topologias é possível executar tarefas relacionadas a um Servidor de Arquivamento individual clicando com o botão direito do mouse em Servidor de Arquivamento na árvore do console, clicando em Ação na barra de ferramentas ou clicando em uma tarefa no painel Ações e depois na opção a seguir do Servidor de Arquivamento.
-ms.openlocfilehash: a46eb7c52579a53e4843e759f3cd61d39e70df35
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2895b70a528c624ef241aad18f5f1df51a9f78fe
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288779"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697846"
 ---
 # <a name="archiving-servers-scope-node"></a>Nó do Escopo dos Servidores de Arquivamento
  

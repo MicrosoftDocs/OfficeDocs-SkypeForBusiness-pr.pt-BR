@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.FrontEndGeneralSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 'Edite as propriedades do servidor front-end ou do pool de front-end editando ou configurando os atributos a seguir. A página de configuração é separada nas seguintes seções:'
-ms.openlocfilehash: b0ee8a2d0081d937bf93d4a638e4f56b1cc79134
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1e7fa730745c3eab20288b5b4bfbb9c0d781be83
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284400"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697286"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Expansor de Configurações Gerais de Front End para Lync Server 2010
 
@@ -28,7 +28,7 @@ Edite as propriedades do servidor front-end ou do pool de front-end editando ou 
 
 - **FQDN**: o nome de domínio totalmente qualificado do servidor front-end ou pool de front-end.
 
-- Selecione **usar todos os endereços IP** configurados para usar todos os endereços configurados no servidor front-end ou no pool de front-end.
+- Selecione **usar todos os endereços IP configurados** para usar todos os endereços configurados no servidor front-end ou no pool de front-end.
 
     > [!IMPORTANT]
     > Você não deve selecionar essa opção se colocar o servidor de mediação no servidor front-end ou no pool de front-ends. Os servidores de mediação e servidores front-end precisam de endereços IP dedicados para se comunicar.
@@ -41,7 +41,7 @@ Edite as propriedades do servidor front-end ou do pool de front-end editando ou 
 
 - Se você selecionou conferência, a **conferência discada (PSTN)** pode ser selecionada. Marque a caixa de seleção para habilitar os recursos de conferência discada.
 
-- Marque a caixa de seleção **Enterprise Voice** se você pretende implantar recursos para habilitar o Lync Server 2013 para atuar como seu sistema de voz usando as tecnologias de voz sobre IP (VoIP), incluindo a opção de implantação de telefones fixos, troncos SIP ou públicos de telefones. conexão de rede telefônica comutada usando o servidor de mediação, gateways PSTN e IP-PBX, em combinação ou sozinha, com base no design e nos requisitos. Para obter detalhes sobre o Enterprise Voice, consulte [Enterprise Voice](https://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx) e [plano para Enterprise Voice no Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+- Marque a caixa de seleção **Enterprise Voice** se você pretende implantar recursos para habilitar o Lync Server 2013 para atuar como seu sistema de voz de telefone usando tecnologias de voz sobre IP (VoIP), incluindo a opção de implantação de telefones fixos de telefones, troncos SIP ou conectividade de rede telefônica pública comutada usando o servidor de mediação, gateways PSTN e IP-PBX, em combinação ou sozinhas, com base no design e nos requisitos. Para obter detalhes sobre o Enterprise Voice, consulte [Enterprise Voice](https://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx) e [plano para Enterprise Voice no Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
 
     **Associações**
 
@@ -49,7 +49,7 @@ Edite as propriedades do servidor front-end ou do pool de front-end editando ou 
 
 - **Repositório de arquivos**: você seleciona o FQDN do servidor e o compartilhamento (no formato `\\<FQDN of server>\<share name>`) que atuará como o local do repositório de arquivos para os arquivos compartilhados que o Lync Server 2013 cria e usa para replicação, diretórios de conferência e outras finalidades. Você seleciona o repositório de arquivos da lista ou cria um novo repositório de arquivos clicando em **novo**.
 
-- Marque a caixa de seleção **associar servidor** de arquivamento para habilitar um servidor de arquivamento para este servidor front-end ou pool de front-ends. Depois de marcar a caixa de seleção, selecione um servidor de arquivamento existente na lista ou clique em **novo** para criar as definições para um novo servidor de arquivamento.
+- Marque a caixa de seleção **associar servidor de arquivamento** para habilitar um servidor de arquivamento para este servidor front-end ou pool de front-ends. Depois de marcar a caixa de seleção, selecione um servidor de arquivamento existente na lista ou clique em **novo** para criar as definições para um novo servidor de arquivamento.
 
 - Marque a caixa de seleção **associar servidor de monitoramento** para habilitar um servidor de monitoramento para este servidor front-end ou pool de front-ends. Depois de marcar a caixa de seleção, selecione um servidor de monitoramento existente na lista ou clique em **novo** para criar as definições para um novo servidor de monitoramento.
 
@@ -57,7 +57,7 @@ Edite as propriedades do servidor front-end ou do pool de front-end editando ou 
 
   **Resiliência**
 
-- Marque a caixa de seleção pool de registradores de **backup associados** para selecionar na lista um servidor front-end ou um pool de front-end que será o registrador de backup (ou seja, o servidor front-end ou o pool de front-ends designado como registrador secundário caso o principal houver
+- Marque a caixa de seleção **pool de registradores de backup associados** para selecionar na lista um servidor front-end ou um pool de front-end que será o registrador de backup (ou seja, o servidor front-end ou o pool de front-ends designado como registrador secundário caso o principal falhe)
 
 - Se você tiver selecionado o pool de registradores de backup associado e tiver escolhido um registrador de backup, poderá marcar a caixa de seleção para **failover e failback automáticos de voz**. Agora você pode definir propriedades numéricas para **detecção interna de failover de voz** e **intervalo de failback de voz (s)**. Para obter detalhes, consulte [planejando a resiliência do Enterprise Voice](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
 
@@ -75,7 +75,7 @@ Edite as propriedades do servidor front-end ou do pool de front-end editando ou 
 
   **Servidor de mediação**
 
-- Para configurar as propriedades do **servidor** de mediação para um servidor de mediação posicionado (ou seja, um servidor de mediação implantado no servidor front-end ou no pool Front-end), selecione o **servidor de mediação posicionado habilitado**.
+- Para configurar as propriedades do **servidor de mediação** para um servidor de mediação posicionado (ou seja, um servidor de mediação implantado no servidor front-end ou no pool Front-end), selecione o **servidor de mediação posicionado habilitado**.
 
 - Para definir as **portas de escuta** para um servidor de mediação posicionado, digite o valor de porta **TLS** e **TCP** no qual o servidor de mediação posicionado está ouvindo. Por padrão, o TLS é definido como a porta TCP 5067.
 
@@ -86,7 +86,7 @@ Edite as propriedades do servidor front-end ou do pool de front-end editando ou 
 
 - Você define troncos associados ao servidor de mediação posicionado. Se você já tiver definido os troncos, eles estarão disponíveis para associação com o Servidor de Mediação.
 
-    Se você tiver mais de um gateway associado a um servidor de mediação, poderá especificar o gateway padrão selecionando o gateway que deseja tornar o padrão e clicando em **tornar padrão**. Se você optar por remover o gateway padrão atual, selecione o gateway e clique em desmarcar **padrão**.
+    Se você tiver mais de um gateway associado a um servidor de mediação, poderá especificar o gateway padrão selecionando o gateway que deseja tornar o padrão e clicando em **tornar padrão**. Se você optar por remover o gateway padrão atual, selecione o gateway e clique em **desmarcar padrão**.
 
 > [!IMPORTANT]
 > Se você fizer alterações nas propriedades nesta caixa de diálogo, deverá publicar a topologia e executar o assistente de implantação do Skype for Business Server em todos os servidores afetados. Após a publicação da nova topologia, uma lista de servidores afetados em que o assistente de implantação do Skype for Business Server deve ser executado é fornecido para você como um link na tela de Resumo de publicação de topologia bem-sucedida. Para obter detalhes sobre como publicar a topologia atualizada, consulte [publicar a topologia](https://technet.microsoft.com/library/3b5a744b-b3a8-4538-a55e-e2e4f72dff47.aspx). Para obter detalhes sobre o assistente de implantação do Skype for Business Server, consulte [Ferramentas administrativas do Lync Server](https://technet.microsoft.com/library/9b006f93-4f3d-461d-89b8-e80a34fdb3c5.aspx).

@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 284c4b04ad1652b7a9ab3cb5d6d9bcb2f0902550
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 5da6f5807f5fd2868097525f1abe6ecd5def6d5f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568570"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694276"
 ---
 # <a name="what-are-communications-credits"></a>O que são Créditos de Comunicação?
 
@@ -55,7 +56,7 @@ Se você estiver se perguntando qual o custo das chamadas para os planos de cham
   
 ## <a name="what-is-it"></a>O que é isso?
 
-Para usar números de chamada gratuita no Skype for Business, é necessário fazer créditos de comunicação, pois essas chamadas são cobradas por minuto. Além disso, recomendamos que você configure créditos de comunicações para o seu plano de chamadas e usuários de audioconferência que precisam da capacidade de discar para **qualquer destino PSTN**. Muitos países/regiões estão incluídos, mas alguns destinos podem não ser incluídos no seu plano de chamadas ou assinaturas de audioconferência. Se você não configurar créditos de comunicações ou atribuir uma licença para seus usuários e tiver tempo em minutos para a sua organização (dependendo do seu plano de chamadas, do plano de audioconferência ou do seu país/região), esses usuários não poderão fazer chamadas ou discar de online Reuniões de audioconferência.
+Para usar números de chamada gratuita no Skype for Business, é necessário fazer créditos de comunicação, pois essas chamadas são cobradas por minuto. Além disso, recomendamos que você configure créditos de comunicações para o seu plano de chamadas e usuários de audioconferência que precisam da capacidade de discar para **qualquer destino PSTN**. Muitos países/regiões estão incluídos, mas alguns destinos podem não ser incluídos no seu plano de chamadas ou assinaturas de audioconferência. Se você não configurar créditos de comunicações ou atribuir uma licença a seus usuários e tiver minutos para a sua organização (dependendo do seu plano de chamadas, do plano de audioconferência ou do seu país/região), esses usuários não poderão fazer chamadas nem discar de reuniões online de videoconferência.
   
 > [!NOTE]
 > Você deve configurar créditos de comunicações e atribuir uma licença de créditos de comunicações para cada usuário no **Centro** > **** > de administração do Microsoft 365 usuários**ativos**. 
@@ -71,7 +72,7 @@ Nas**assinaturas**de > **cobrança** > do **centro de administração do Microso
   
 ## <a name="communications-credits"></a>Créditos de Comunicação
 
-Cada organização terá um uso diferente de taxas e volumes de planos de chamadas a serem considerados. You will need to get this type of usage data from your current service provider. Para organizações que usam o Skype for Business já como provedor de serviços, você pode obter dados de uso revisando-os nos**relatórios** do **Centro** > de administração do Microsoft 365 ou nos > relatórios **do centro de administração do Skype for Business**** **Detalhes do **uso de PSTN.**  > 
+Cada organização terá um uso diferente de taxas e volumes de planos de chamadas a serem considerados. You will need to get this type of usage data from your current service provider. Para organizações que usam o Skype for Business já como provedor de serviços, você pode obter dados de uso revisando-os nos**relatórios** do **Centro** > de administração do Microsoft 365 ou no **Centro** > de administração do Skype for Business**relata** > **detalhes de uso de PSTN**.
   
 Ao configurar créditos de comunicações, você precisará investigar o uso da chamada para a sua organização para determinar os valores que precisará colocar. Você pode obter informações de uso de chamadas examinando o relatório **Detalhes de uso de PSTN**. Este relatório permite exportar os registros de dados de chamadas para o Excel e criar relatórios personalizados.
 
@@ -88,11 +89,11 @@ Se você estiver pronto para configurar tudo isso, confira [Configurar créditos
 
 Você pode ver os planos e preços visitando um dos seguintes links:
   
-- [Planos de chamadas](https://go.microsoft.com/fwlink/?linkid=799761)
+- [Planos de Chamadas](https://go.microsoft.com/fwlink/?linkid=799761)
     
-- [Conferência de áudio](https://go.microsoft.com/fwlink/?linkid=799762)
+- [Audioconferência](https://go.microsoft.com/fwlink/?linkid=799762)
     
-- [Sistema Telefônico](https://go.microsoft.com/fwlink/?linkid=799763 )
+- [Sistema de Telefonia](https://go.microsoft.com/fwlink/?linkid=799763 )
     
 Você também pode ver informações sobre preços [entrando no centro de administração do Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) e **indo a** > **assinaturas** > **Adicionar**assinaturas.
   

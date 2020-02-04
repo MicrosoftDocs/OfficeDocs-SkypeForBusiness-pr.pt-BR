@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AssociateMediationServerWithEdgePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 description: 'Para definir um servidor de mediação, especifique as configurações que associam o servidor de mediação a um servidor front-end e a um servidor de borda ou pool. Para associar o servidor de mediação ou o pool a um servidor de borda ou um pool do servidor de borda, faça o seguinte:'
-ms.openlocfilehash: 36ea1d851ca167062ed42872e2a46f9f161c04bd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 77a1ea9143084afecb67689e44f11cdf168521a9
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301642"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697746"
 ---
 # <a name="associate-mediation-server-with-edge"></a>Associar Servidor de Mediação com Borda
  

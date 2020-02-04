@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.MonArchSettingEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 description: 'Use as configurações de Arquivamento para controlar as opções de arquivamento para sua implantação. As configurações de arquivamento incluem a configuração global, e, como opção, uma ou mais configurações de site e de pool:'
-ms.openlocfilehash: d40750069d34cb274342c1f5aab5d8191f90a334
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8b860e2a2604f013dbb4b3dcccedc39602ae29f1
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299873"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700596"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>Configuração de Arquivamento: Criar Novo ou Editar Existente
  
@@ -44,7 +44,7 @@ Para definir as configurações de uma configuração de Arquivamento nova ou ex
     
 - **Descrição** Isso é opcional. Use para fornecer detalhes adicionais, como o escopo ou uso da configuração. Por exemplo, Coordenação com os departamentos jurídicos de outros sites.
     
-- **Configuração** de arquivamento As opções incluem o seguinte:
+- **Configuração de arquivamento** As opções incluem o seguinte:
     
   - **Arquivar sessões de IM**
     
@@ -71,5 +71,5 @@ Para definir as configurações de uma configuração de Arquivamento nova ou ex
     > [!NOTE]
     > Se você habilitar a integração do Microsoft Exchange, a limpeza para os usuários hospedados no Exchange 2013 e nas caixas de correio contidas no bloqueio in-loco será controlada pelo Exchange. A única exceção é para arquivos de conferência, que são armazenados no compartilhamento de arquivos do Lync Server. Esses arquivos são excluídos do compartilhamento de arquivo somente após serem exportados (carregados no Exchange), se você selecionar a opção para limpar os dados após a exportação dos dados de arquivamento ou após o número máximo de dias especificado, se você especificar um número máximo de dias para retenção. 
   
-Para obter detalhes sobre o recurso de arquivamento e os recursos, incluindo a integração com o Exchange, consulte [planejar o arquivamento no Skype for Business server 2015](../../plan-your-deployment/archiving/archiving.md), [implantar o arquivamento para o Skype for Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)e [gerenciar o arquivamento no Skype para Business Server 2015](../../manage/archiving/archiving.md).
+Para obter detalhes sobre o recurso de arquivamento e os recursos, incluindo a integração com o Exchange, consulte [planejar o arquivamento no Skype for Business server 2015](../../plan-your-deployment/archiving/archiving.md), [implantar o arquivamento para o Skype for Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)e [gerenciar o arquivamento no Skype for Business Server 2015](../../manage/archiving/archiving.md).
 

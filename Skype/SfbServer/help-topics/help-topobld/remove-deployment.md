@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.RemoveDeploymentFinalPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 068b518d-a982-4668-862b-b36fb74f04ec
 description: Clique em Concluir para criar uma topologia vazia como a primeira etapa para desprogramar toda sua implantação.
-ms.openlocfilehash: 14cff2920d1c08f05738c44f816487935ae30400
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 99834c2d72b2416b8a7a8aae691d5676191151f8
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297614"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696706"
 ---
 # <a name="remove-deployment"></a>Remover Implantação
  

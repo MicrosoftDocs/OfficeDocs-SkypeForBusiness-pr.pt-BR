@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceAdhocTestSelUser
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
 description: Use a caixa de diálogo Selecionar usuários do Enterprise Voice para localizar usuários habilitados para o Enterprise Voice. Na caixa de pesquisa, digite o endereço SIP ou o nome de exibição do usuário que você deseja localizar e clique em localizar. Para selecionar um usuário, clique no usuário na lista resultados da pesquisa e, em seguida, clique em OK. Se não for possível localizar o usuário que você está procurando, ele pode não estar habilitado para o Enterprise Voice.
-ms.openlocfilehash: 04b940d99f4f32f2618589c840436618de55bf54
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e32b80403f318ec02068471a9dd455dd45269262
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294080"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699626"
 ---
 # <a name="select-enterprise-voice-users"></a>Selecionar Usuários de Enterprise Voice
  

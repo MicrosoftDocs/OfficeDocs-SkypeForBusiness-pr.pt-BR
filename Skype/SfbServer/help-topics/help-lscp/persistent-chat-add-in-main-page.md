@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.PersistentChatAddinMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c0ecf64-258d-4b43-8fac-fa5ffa4e7646
 description: Você pode usar a seção do suplemento da página de chat persistente para associar URLs a salas de chat persistentes. Essas URLs aparecem no cliente na sala de chat no painel de extensão da conversa. Um administrador precisa adicionar Suplementos à lista de suplementos registrados, e os gerentes/Criadores de sala de chat precisam associar salas a um dos suplementos registrados antes de os usuários poderem ver essa atualização em seu cliente.
-ms.openlocfilehash: 73f4fe7a398291f3a65a29114dce06bd56d96ee8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0fe522b440a3f99973ecafa04a9ef7a7cbc3962a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277738"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699966"
 ---
 # <a name="persistent-chat-add-in-main-page"></a>Página Principal do Suplemento de Chat Persistente
 

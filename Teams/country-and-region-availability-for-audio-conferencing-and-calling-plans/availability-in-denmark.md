@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Dinamarca.
-ms.openlocfilehash: 8e6b57ad40ba66be93d93391149c15448103df48
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e3c37c969cfca750637e7ad5aa4539f6ec140083
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570455"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695226"
 ---
 # <a name="availability-in-denmark"></a>Disponibilidade na Dinamarca
 
