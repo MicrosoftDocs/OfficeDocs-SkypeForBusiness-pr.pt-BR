@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Visão geral dos tipos de endereços IP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of IP address types for Lync Server
 ms:assetid: ee9a695f-5cf5-441e-94fb-6adeca50e8d8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205363(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185759
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 90d31045879c4e6f488c232687346ed0413ef62b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9d1172fc7da9600de036312adb05548b51dea6b0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825510"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755525"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Você tem três opções ao configurar endereços IP no Lync Server 2013. Você 
 
   - **** Por outro lado, uma implementação IPv6 completa, no momento, excluirá a comunicação com muitos dispositivos existentes.   
 
-  - ****   Pilha dupla dupla empilhada é uma rede onde ambos os endereços IPv4 e IPv6 são habilitados. Essa configuração tem suporte no Lync Server 2013 porque, na maioria dos casos, a transição de Full-IPv4 para Full-IPv6 levará vários anos.
+  - **Pilha dupla dupla empilhada**   é uma rede onde ambos os endereços IPv4 e IPv6 são habilitados. Essa configuração tem suporte no Lync Server 2013 porque, na maioria dos casos, a transição de Full-IPv4 para Full-IPv6 levará vários anos.
 
 As seções a seguir descrevem a compatibilidade entre essas três configurações para vários recursos do Lync Server.
 
@@ -323,7 +325,7 @@ A tabela a seguir mostra a matriz de suporte entre o pool do servidor front-end 
 </tr>
 <tr class="odd">
 <td><p><strong>Pool de Front-Ends: Pilha dual</strong></p></td>
-<td><p>Sim </p></td>
+<td><p>Sim</p></td>
 <td><p>Sim</p></td>
 <td><p>Não</p></td>
 </tr>

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: testar direitos de topologia de administração'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test admin topology rights
 ms:assetid: 0c03b7fd-449a-47ad-8263-ce811164cbce
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767943(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969575
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 365c879678ff3fd51dcaaf89d4b2593eccf645f3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3681a3328f0e1e659377947919bbfc782f1fea7c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844714"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746461"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -98,7 +100,7 @@ Para obter mais informações, consulte o tópico da ajuda para o cmdlet [Test-C
 
 Se Test-CsSetupPermission determinar que as permissões necessárias já foram definidas em um contêiner do Active Directory, o cmdlet retornará o valor true:
 
-True
+Verdadeiro
 
 Se as permissões não estiverem definidas, Test-CsSetupPermission retornará o valor false. Observe que esse valor normalmente será incluído em muitas mensagens de aviso. Por exemplo:
 
@@ -106,7 +108,7 @@ Aviso: entrada de controle de acesso (ACE) ATL-cs\\-001 RTCUniversalServerAdmins
 
 Aviso: as entradas de controle de acesso (ACEs) no objeto "CN = Computers, DC = litwareinc, DC = com" não estão prontas.
 
-False
+Falso
 
 Aviso: o processamento de "Test-CsSetupPermission" foi concluído com avisos. "2" avisos foram registrados durante a execução.
 

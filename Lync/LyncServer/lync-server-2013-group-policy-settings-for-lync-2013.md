@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configurações de política de grupo para o Lync 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Group Policy settings for Lync 2013
 ms:assetid: 5917a52b-dae0-4ec0-8548-a68dc20ab71c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204924(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184235
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e075af74fd081e49daad0768a33c9769e8a633bf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3023741b1b9e71d7789857c9b55fb195453ee5b3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829108"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757545"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Em versões anteriores do Lync e do Office Communicator, um modelo administrativ
 
 ## <a name="client-bootstrapping-policies"></a>Políticas de inicialização do cliente
 
-Há várias políticas de inicialização do cliente que você deve configurar antes que os usuários entrem no servidor pela primeira vez. Como essas diretivas entram em vigor antes de o cliente entrar e começar a receber configurações de provisionamento em banda do servidor, você pode usar a política de grupo para configurá-la. Para obter mais informações, consulte Configurando [as políticas de inicialização do cliente no Lync Server 2013](lync-server-2013-configuring-client-bootstrapping-policies.md) na documentação de implantação.
+Há várias políticas de inicialização do cliente que você deve configurar antes que os usuários entrem no servidor pela primeira vez. Como essas diretivas entram em vigor antes de o cliente entrar e começar a receber configurações de provisionamento em banda do servidor, você pode usar a política de grupo para configurá-la. Para obter mais informações, consulte [configurando as políticas de inicialização do cliente no Lync Server 2013](lync-server-2013-configuring-client-bootstrapping-policies.md) na documentação de implantação.
 
 </div>
 

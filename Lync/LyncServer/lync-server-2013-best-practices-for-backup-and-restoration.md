@@ -3,6 +3,8 @@ title: 'Lync Server 2013: práticas recomendadas para backup e restauração'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Best practices for backup and restoration
 ms:assetid: abbce0e4-973a-4624-a0c1-e0f22e1d348b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202184(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541500
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4fc7a926bd8fd5c61f87d5e8252c30f40e5a6a69
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e51f846d92f5d8cfecbbface31df6543c5c9ac23
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836725"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741881"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ Para facilitar o processo de backup e restauração, aplique as seguintes práti
 
   - Faça backups regulares em intervalos apropriados. O tipo de backup mais simples e mais comumente usado e o cronograma de rotação é um backup noturno completo de todo o banco de dados SQL Server. Em seguida, se a restauração for necessária, o processo de restauração exigirá apenas um backup, e não mais do que os dados do dia deverão ser perdidos.
 
-  - Se você usar cmdlets ou o painel de controle do Lync Server para fazer alterações de configuração, use o cmdlet **Export-CsConfiguration** para fazer um backup de instantâneo do arquivo de configuração de topologia (XDS. MDF) depois de fazer as alterações, para que você não perca as alterações se Você precisa restaurar seus bancos de dados. Observe que a configuração é feita com o backup em formato XML e compactada como um arquivo ZIP.
+  - Se você usar cmdlets ou o painel de controle do Lync Server para fazer alterações de configuração, use o cmdlet **Export-CsConfiguration** para fazer um backup de instantâneo do arquivo de configuração de topologia (XDS. MDF) depois de fazer as alterações, para que você não perca as alterações se precisar restaurar seus bancos de dados. Observe que a configuração é feita com o backup em formato XML e compactada como um arquivo ZIP.
 
   - Verifique se a pasta compartilhada que você planeja usar para fazer backup do Lync Server tem espaço em disco suficiente para armazenar todos os dados de backup.
 
@@ -71,7 +73,7 @@ Para facilitar o processo de backup e restauração, aplique as seguintes práti
 
 A melhor estratégia para lidar com interrupções de serviço desastrosas (causados por eventos não gerenciáveis, como quedas de energia ou falhas súbitas de hardware) é pressupor que elas ocorram e planejar de acordo com isso.
 
-Se os serviços do Lync, com o mínimo de interrupções e paralisações, forem críticos para a sua organização, você deve considerar a implementação de pools de front-ends em pares, conforme descrito em [planejamento para alta disponibilidade e recuperação de desastres no Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md). Em seguida, se um desses pools tiver um desastre, um administrador poderá trocar os usuários desse pool a serem servidos pelo outro pool, com um mínimo de tempo de inatividade.
+Se os serviços do Lync, com um mínimo de interrupções e paralisações, forem críticos para a sua organização, você deve considerar a implementação de pools de front-ends em pares, conforme descrito em [planejamento para alta disponibilidade e recuperação de desastres no Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md). Em seguida, se um desses pools tiver um desastre, um administrador poderá trocar os usuários desse pool a serem servidos pelo outro pool, com um mínimo de tempo de inatividade.
 
 Os planos de gerenciamento de desastres desenvolvidos como parte da estratégia de backup e restauração devem incluir o seguinte:
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: monitorando o desempenho do Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monitoring Lync Server 2013 performance
 ms:assetid: 2acfd720-6120-4816-a2d4-30476bd5cd0e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720910(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969592
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9610dddfa9748b7d28dfe040a36214f3f969826
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f7859ea116e4ae63a5777e816c37893f11cf1c39
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826742"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756835"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ No núcleo de uma implantação do Lync Server 2013, o desempenho é o software 
 
 Portanto, o desempenho do monitoramento do servidor é extremamente importante para avaliar se a infraestrutura de servidor implementada tem recursos de hardware adequados para os requisitos do dia-a-dia da carga de pico. O monitoramento do desempenho do servidor ajuda a identificar gargalos do sistema, permitindo que os administradores apliquem uma ação corretiva antes que a experiência do usuário final seja afetada. Os dados de desempenho devem ser usados para o planejamento de capacidade a longo prazo.
 
-Embora informações detalhadas sobre todos os objetos de desempenho e contadores a serem observados estejam vinculadas ao [monitoramento do Lync Server 2013 com o System Center Operations Manager](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md), alguns contadores de desempenho que você deve seguir podem fornecer aos administradores uma visualização rápida do desempenho do sistema:
+Embora informações detalhadas sobre todos os objetos de desempenho e contadores a serem observados estejam vinculadas ao [monitoramento do Lync Server 2013 com o System Center Operations Manager](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md), alguns contadores de desempenho que você deve seguir podem fornecer aos administradores uma visão rápida do desempenho do sistema:
 
   - Para acompanhar a integridade geral do sistema do servidor front-end, um bom ponto de partida é verificar\\o tempo do processador%. O valor deve estar sempre abaixo de 80%.
 
@@ -101,7 +103,7 @@ Você pode determinar se o SQL Server exige RAM adicional examinando o contador 
 
 Há um mecanismo de limitação adicional em um servidor de front-end do Lync Server 2013 que é iniciado quando o tempo de processamento do servidor é alto. A limitação de latência DBStore só será habilitada se a latência do SQL Server for alta. Um exemplo no qual essa limitação está habilitada é se o servidor front-end estiver associado à CPU.
 
-Se o tempo médio de processamento **(LC: SIP-07-gerenciamento\\de carga SIP-000-média de manutenção do tempo para mensagens de entrada)** no servidor ultrapassar seis segundos, o servidor entrará no modo de limitação e somente fornecerá uma transação pendente aos usuários por conexão do cliente. Depois que o tempo de processamento cai para três segundos, o servidor fica fora do modo de limitação e oferece aos usuários até 20 transações pendentes por conexão do cliente. Sempre que o número de transações em uma conexão específica exceder o limite acima, a conexão será marcada como fluxo controlado. O resultado é que o servidor não publica os recebimentos nele, e o contador de **conexões controladas de fluxo\\SIP-01-Peers** é incrementado. Se uma conexão permanecer em um Estado controlado por fluxo por mais de um minuto, o servidor a fechará. Ele faz isso de forma ociosa. Quando ele tem uma oportunidade para verificar a conexão, ele determina se ele foi limitado por muito tempo e o fecha se tiver mais de um minuto.
+Se o tempo médio de processamento **(LC: SIP-07-gerenciamento\\de carga SIP-000-média de manutenção do tempo para mensagens de entrada)** no servidor ultrapassar seis segundos, o servidor entrará no modo de limitação e somente fornecerá uma transação pendente por cliente aos usuários. Depois que o tempo de processamento cai para três segundos, o servidor fica fora do modo de limitação e oferece aos usuários até 20 transações pendentes por conexão do cliente. Sempre que o número de transações em uma conexão específica exceder o limite acima, a conexão será marcada como fluxo controlado. O resultado é que o servidor não publica os recebimentos nele, e o contador de **conexões controladas de fluxo\\SIP-01-Peers** é incrementado. Se uma conexão permanecer em um Estado controlado por fluxo por mais de um minuto, o servidor a fechará. Ele faz isso de forma ociosa. Quando ele tem uma oportunidade para verificar a conexão, ele determina se ele foi limitado por muito tempo e o fecha se tiver mais de um minuto.
 
 Estes são os dois mecanismos de limitação e há um contador de desempenho que resume o que, se houver, está realizando a limitação do servidor.
 

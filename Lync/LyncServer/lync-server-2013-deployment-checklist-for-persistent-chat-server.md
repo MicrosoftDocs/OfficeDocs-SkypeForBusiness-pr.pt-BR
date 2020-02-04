@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lista de verificação de implantação para o Servido
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment checklist for Persistent Chat Server
 ms:assetid: b1108f8f-88a2-4660-8086-d25ba76f7239
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412851(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185155
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e539a1aa6883863228aaab19ddaa38300ae45591
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d80122534739d443dedaeeb203ab09da94cb0067
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829506"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762699"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -107,7 +109,7 @@ A tabela a seguir lista as etapas básicas para implantar o servidor de chat per
 </ul>
 <p>Se você instalar o servidor de chat persistente na edição Standard, o nome de domínio totalmente qualificado (FQDN) do pool do servidor de chat persistente deve coincidir com o servidor Standard Edition e os bancos de dados do SQL Server são posicionados na instância do SQL Server Express no padrão Servidor de edição</p></td>
 <td><p>Para definir uma topologia, uma canta membro do grupo de usuários local.</p>
-<p>Para publicar a topologia, uma conta que seja membro do grupo Domain admins e do grupo RTCUniversalServerAdmins e o usuário também deve ter permissões de controle total (ler/gravar/modificar) na repositório de arquivos do Lync para arquivos de servidor de chat persistente (para que a topologia O construtor pode configurar as DACLs obrigatórias).</p></td>
+<p>Para publicar a topologia, uma conta que seja membro do grupo Domain admins e do grupo RTCUniversalServerAdmins e o usuário também deve ter permissões de controle total (ler/gravar/modificar) no repositório de arquivos do Lync para arquivos de servidor de chat persistente (para que o construtor de topologias possa configurar as DACLs necessárias).</p></td>
 <td><p><a href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Adicionar um servidor de chat persistente à sua implantação no Lync Server 2013</a> na documentação de implantação</p></td>
 </tr>
 <tr class="odd">
@@ -120,7 +122,7 @@ A tabela a seguir lista as etapas básicas para implantar o servidor de chat per
 <li><p>Executar e iniciar os serviços</p></li>
 </ul></td>
 <td><p>Qualquer usuário que seja membro do grupo Administradores locais.</p></td>
-<td><p>Implantando o <a href="lync-server-2013-deploying-persistent-chat-server.md">servidor de chat persistente no Lync Server 2013</a> na documentação de implantação</p></td>
+<td><p><a href="lync-server-2013-deploying-persistent-chat-server.md">Implantando o servidor de chat persistente no Lync Server 2013</a> na documentação de implantação</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Criar um administrador de Chat Persistente</strong></p></td>
@@ -136,7 +138,7 @@ A tabela a seguir lista as etapas básicas para implantar o servidor de chat per
 <li><p>Definir configurações</p></li>
 </ul></td>
 <td><p>O usuário deve ser membro do CsPersistentChatAdministrator. Para alterar a política, o usuário deve estar no CsUserAdministrator, no mínimo.</p></td>
-<td><p>Configurando o <a href="lync-server-2013-configuring-persistent-chat-server.md">servidor de chat persistente no Lync Server 2013</a> na documentação de implantação</p></td>
+<td><p><a href="lync-server-2013-configuring-persistent-chat-server.md">Configurando o servidor de chat persistente no Lync Server 2013</a> na documentação de implantação</p></td>
 </tr>
 </tbody>
 </table>

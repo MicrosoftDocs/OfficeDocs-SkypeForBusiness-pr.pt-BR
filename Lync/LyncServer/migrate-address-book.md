@@ -3,6 +3,8 @@ title: Migrar o Catálogo de endereços
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migrate Address Book
 ms:assetid: ac7f0f39-4c6d-4702-8e25-93a73e3d800f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205160(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185064
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2293b7ad3e5ac14071bae4d5ecb935c24cfbb335
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b678dea3e8ad7f05f82d28dfdd23ad9e45b38e92
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844273"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765279"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +65,7 @@ Se você personalizou as regras de normalização de catálogo de endereços no 
 
 **UseNormalizationRules definido como false**
 
-Se você definir o valor de **UseNormalizationRules** como false para que os usuários possam usar números de telefone conforme são definidos nos serviços de domínio Active Directory sem ter o Lync Server 2013 aplicar as regras de normalização, você precisa definir o **UseNormalizationRules **e os parâmetros **IgnoreGenericRules** para true. Siga o procedimento mais adiante nesta seção para definir esses parâmetros como true.
+Se você definir o valor de **UseNormalizationRules** como false para que os usuários possam usar números de telefone como são definidos nos serviços de domínio Active Directory sem ter o Lync Server 2013 aplicar as regras de normalização, você precisará definir os parâmetros **UseNormalizationRules** e **IgnoreGenericRules** para true. Siga o procedimento mais adiante nesta seção para definir esses parâmetros como true.
 
 <div>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar categorias'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure categories
 ms:assetid: 4547f514-f0c0-404d-890f-092ddeeac852
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204859(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184033
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 310d0b2e32c8a21f00e20593a408df260eb80e32
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bf7b7b3ceb24e3b5bffb307cdde048e7a0cabb8c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836417"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757755"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +53,7 @@ As categorias de sala de chat podem conter salas de chat, mas nenhuma outra cate
     
 
     > [!IMPORTANT]  
-    > Você também pode usar cmdlets do Windows PowerShell. Para obter detalhes, consulte Configurando o <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">servidor de chat persistente usando cmdlets do Windows PowerShell</A> na documentação de implantação.
+    > Você também pode usar cmdlets do Windows PowerShell. Para obter detalhes, consulte <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configurando o servidor de chat persistente usando cmdlets do Windows PowerShell</A> na documentação de implantação.
 
     
     </div>
@@ -87,7 +89,7 @@ As categorias de sala de chat podem conter salas de chat, mas nenhuma outra cate
 
 7.  Em  **Editar categoria**, faça o seguinte:
     
-      - Em **Associação**, na seção **Membros permitidos** , adicione ou remova usuários e outros princípios de serviços de domínio do Active Directory (usuários, grupos de distribuição, unidades organizacionais e assim por diante) que podem ser adicionados como membros de salas de chat pertencente à categoria. As entidades permitidas por uma categoria podem pesquisar por salas na categoria (a menos que uma sala esteja oculta, caso o qual apenas membros da sala podem pesquisar por ela no diretório).
+      - Em **Associação**, na seção **Membros permitidos** , adicione ou remova usuários e outras entidades de segurança dos serviços de domínio Active Directory (usuários, grupos de distribuição, unidades organizacionais e assim por diante) que podem ser adicionados como membros de salas de chat pertencentes à categoria. As entidades permitidas por uma categoria podem pesquisar por salas na categoria (a menos que uma sala esteja oculta, caso o qual apenas membros da sala podem pesquisar por ela no diretório).
     
       - Em **Associação**, na seção **Membros negados** , adicione ou remova usuários e outras entidades de segurança do Active Directory associadas a membros sendo negados da sala.
     

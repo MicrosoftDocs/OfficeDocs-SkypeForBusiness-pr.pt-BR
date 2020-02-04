@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurando cenários para o serviço de log centrali
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring scenarios for the Centralized Logging Service
 ms:assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688085(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: abc0be2ac6459c34546de41ee7e2c709e0d0c0f8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cd3933ff81fad6947fcc4ab1ff7a7dc9ad136c39
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836183"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739221"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34836183"
 
 _**Tópico da última modificação:** 2014-02-05_
 
-Cenários definem o escopo (ou seja, global, site, pool ou computador) e quais provedores usar no serviço de log centralizado. Ao utilizar cenários, você habilita ou desabilita o rastreamento em provedores (por exemplo, S4, SIPStack, mensagens instantâneas e Presença). Ao configurar um cenário, você pode agrupar todos os provedores de uma determinada coleção lógica que aborda uma condição de problema específica. Se você descobrir que um cenário precisa ser modificado para atender às suas necessidades de solução de problemas e log, as ferramentas de depuração do Lync Server 2013 fornecem um módulo do Windows PowerShell chamado *ClsController. psm1* que contém uma função nomeada *Edit-CsClsScenario *. O objetivo do módulo é editar as propriedades do cenário nomeado. Exemplos do funcionamento desse módulo são fornecidos neste tópico. As ferramentas de depuração do Lync Server 2013 são baixadas do link a seguir:[http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257)
+Cenários definem o escopo (ou seja, global, site, pool ou computador) e quais provedores usar no serviço de log centralizado. Ao utilizar cenários, você habilita ou desabilita o rastreamento em provedores (por exemplo, S4, SIPStack, mensagens instantâneas e Presença). Ao configurar um cenário, você pode agrupar todos os provedores de uma determinada coleção lógica que aborda uma condição de problema específica. Se você descobrir que um cenário precisa ser modificado para atender às suas necessidades de solução de problemas e log, as ferramentas de depuração do Lync Server 2013 fornecem um módulo do Windows PowerShell chamado *ClsController. psm1* que contém uma função nomeada *Edit-CsClsScenario*. O objetivo do módulo é editar as propriedades do cenário nomeado. Exemplos do funcionamento desse módulo são fornecidos neste tópico. As ferramentas de depuração do Lync Server 2013 são baixadas do link a seguir:[http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257)
 
 <div>
 
@@ -59,7 +61,7 @@ O restante deste tópico concentra-se em como definir um cenário, modificar um 
 
 Como apresentado na [visão geral do serviço de log centralizado no Lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md), os elementos de um cenário são:
 
-  - **Provedores**   se você estiver familiarizado com o OCSLogger, os provedores são os componentes que você escolhe para OCSLogger o que o mecanismo de rastreamento deve coletar logs. Os provedores são os mesmos componentes e, em muitos casos, têm o mesmo nome que os componentes do OCSLogger. Se você não estiver familiarizado com o OCSLogger, os provedores são componentes específicos de função de servidor que o serviço de log centralizado pode coletar logs. Para obter detalhes sobre a configuração de provedores, consulte Configurando [provedores para o serviço de log centralizado no Lync Server 2013](lync-server-2013-configuring-providers-for-centralized-logging-service.md).
+  - **Provedores**   se você estiver familiarizado com o OCSLogger, os provedores são os componentes que você escolhe para OCSLogger o que o mecanismo de rastreamento deve coletar logs. Os provedores são os mesmos componentes e, em muitos casos, têm o mesmo nome que os componentes do OCSLogger. Se você não estiver familiarizado com o OCSLogger, os provedores são componentes específicos de função de servidor que o serviço de log centralizado pode coletar logs. Para obter detalhes sobre a configuração de provedores, consulte [Configurando provedores para o serviço de log centralizado no Lync Server 2013](lync-server-2013-configuring-providers-for-centralized-logging-service.md).
 
   - **Identity**   o parâmetro – Identity define o escopo e o nome do cenário. Por exemplo, você pode definir um escopo "global" e identificar o cenário como “LyssServiceScenario”. Ao combinar os dois, você define a identidade (por exemplo, “global/LyssServiceScenario”).
     

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Tabela VoipDetails'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: VoipDetails table
 ms:assetid: 74ffbb71-569b-4018-be1f-4db2bbafcf36
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398566(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184522
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7879f5dc7d5b884dfc2d3777ed4fa800978a3cff
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f13087202b15cf9b25f0c32741c396c48f628908
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844313"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758553"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -64,7 +66,7 @@ Cada registro representa uma chamada de 1 2 a terceiros na qual pelo menos um us
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primária</p></td>
-<td><p>Número de identificação para identificar a sessão. Usado em conjunto com <strong></strong> a identificação_da_sessãotime para identificar exclusivamente uma sessão. Consulte a <a href="lync-server-2013-dialogs-table.md">tabela de diálogos no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>Número de identificação para identificar a sessão. Usado em conjunto com a <strong>identificação_da_sessãotime</strong> para identificar exclusivamente uma sessão. Consulte a <a href="lync-server-2013-dialogs-table.md">tabela de diálogos no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FromNumberId</strong></p></td>
@@ -76,7 +78,7 @@ Cada registro representa uma chamada de 1 2 a terceiros na qual pelo menos um us
 <td><p><strong>ConnectedNumberId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Exterior</p></td>
-<td><p><strong>Número</strong> de telefoneid do receptor da chamada. Consulte a <a href="lync-server-2013-phones-table.md">tabela de telefones no Lync Server 2013</a> para obter mais informações. Se não for nulo <strong></strong> e togatewayid não for nulo, o receptor da chamada será um usuário PSTN.</p></td>
+<td><p><strong>Número de telefoneid</strong> do receptor da chamada. Consulte a <a href="lync-server-2013-phones-table.md">tabela de telefones no Lync Server 2013</a> para obter mais informações. Se não for nulo e <strong>Togatewayid</strong> não for nulo, o receptor da chamada será um usuário PSTN.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FromMediationServerId</strong></p></td>

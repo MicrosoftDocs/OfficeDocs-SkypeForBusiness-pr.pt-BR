@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requisitos de associação ao grupo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Group membership requirements
 ms:assetid: 01876843-8717-4e72-baf5-866ac8cceee6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204623(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183239
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6aed308674cc334cfb8f3d4f214ce7388ae89fea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 44ad8c7f6eab93f3bdcd7b73d4ae05bd3b2e25ad
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829123"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743341"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -78,7 +80,7 @@ A tabela a seguir resume o grupo ou grupos aos quais uma pessoa deve pertencer p
 </tr>
 <tr class="even">
 <td><p><strong>TopologyBuilder</strong> – interface do usuário orientada por assistente para criar, exibir, ajustar e validar topologias do Lync Server 2013.</p></td>
-<td><p>Membro do grupo Administradores local no computador do qual o executável é executado para exibir a topologia. Membro do grupo RTCUniversalServerAdmins para alterar as definições de configuração. Membro do grupo RTCUniversalServerAdmins e do grupo Administradores do domínio ou membro do grupo RTCUniversalServerAdmins (apenas se o grupo tiver recebido permissões de configuração do representante), para publicar a topologia. Para obter detalhes sobre como delegar permissões de configuração para permitir que os membros do grupo RTCUniversalServerAdmins publiquem a topologia sem serem membros do grupo Domain admins, consulte <a href="lync-server-2013-granting-setup-permissions.md">concedendo permissões de instalação no Lync Server 2013</a> na implantação documentação.</p></td>
+<td><p>Membro do grupo Administradores local no computador do qual o executável é executado para exibir a topologia. Membro do grupo RTCUniversalServerAdmins para alterar as definições de configuração. Membro do grupo RTCUniversalServerAdmins e do grupo Administradores do domínio ou membro do grupo RTCUniversalServerAdmins (apenas se o grupo tiver recebido permissões de configuração do representante), para publicar a topologia. Para obter detalhes sobre como delegar permissões de configuração para permitir que os membros do grupo RTCUniversalServerAdmins publiquem a topologia sem serem membros do grupo Domain admins, consulte <a href="lync-server-2013-granting-setup-permissions.md">concedendo permissões de instalação no Lync Server 2013</a> na documentação de implantação.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>AdminUIHost</strong> – interface de usuário gráfica baseada na Web para o gerenciamento do Lync Server 2013.</p></td>

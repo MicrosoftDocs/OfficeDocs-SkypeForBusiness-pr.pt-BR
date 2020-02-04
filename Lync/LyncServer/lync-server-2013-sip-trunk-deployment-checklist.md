@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lista de verificação de tronco SIP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: SIP trunk deployment checklist
 ms:assetid: 94f4f03e-19d5-4198-92be-e4076dbb959a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398755(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184891
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7854693702f1583ccaeb2ae6d54a1c7cb9bbcbcd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ef670fc4ae9e8a9acba3277a00fc0daf6ff766b3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844914"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764487"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -89,7 +91,7 @@ Para implementar o lado do Lync Server da conexão do tronco SIP, siga estas eta
 
 1.  Usando o construtor de topologias do Lync Server, crie e configure a topologia de domínio SIP. Para obter detalhes, consulte [definir e configurar uma topologia no construtor de topologias para o Lync Server 2013](lync-server-2013-define-and-configure-a-topology-in-topology-builder.md) na documentação de implantação.
 
-2.  Usando o painel de controle do Lync Server, configure o roteamento de voz para o novo domínio SIP. Para obter detalhes, consulte Configurando [troncos no Lync Server 2013](lync-server-2013-configuring-trunks.md) na documentação de implantação.
+2.  Usando o painel de controle do Lync Server, configure o roteamento de voz para o novo domínio SIP. Para obter detalhes, consulte [Configurando troncos no Lync Server 2013](lync-server-2013-configuring-trunks.md) na documentação de implantação.
 
 3.  Testar a conectividade usando o cmdlet **Test-CsPstnOutboundCall** . Para obter detalhes, consulte a documentação do Shell de gerenciamento do Lync Server ou a ajuda do Shell de gerenciamento do Lync Server.
 

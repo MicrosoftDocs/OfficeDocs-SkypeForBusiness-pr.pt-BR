@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Novos recursos do Servidor de Chat Persistente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New Persistent Chat Server features
 ms:assetid: c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412965(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185341
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6d5cd0b8197b64abfc0761dfb333f338b507ff7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fe207d2469a36d880e9ed519ff1d47d942ed79aa
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826203"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755905"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,7 +69,7 @@ Para obter mais detalhes sobre a versão mais recente do servidor de chat persis
 
   - A ajuda de chat persistente <http://go.microsoft.com/fwlink/p/?linkid=270945> em que fornece uma lista detalhada de recursos de chat persistente, como eles funcionam e como usá-los durante a execução do servidor de chat persistente.
 
-  - O [servidor de chat de planejamento para persistente no Lync server 2013](lync-server-2013-planning-for-persistent-chat-server.md) na documentação de planejamento, implantando o [servidor de chat persistente no Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) na documentação de implantação, [migração do Lync Server 2010, chat em grupo ou Office Communications Server 2007 R2 Group chat ao Lync Server 2013, servidor de chat persistente](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) na documentação de migração e [Gerenciamento do lync Server 2013, servidor de chat persistente](managing-lync-server-2013-persistent-chat-server.md) na documentação de operações, todas as instruções fornecidas para Configurando o servidor de chat persistente.
+  - O [servidor de chat planejando para persistência no Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) na documentação de planejamento [implantando o servidor de chat persistente no Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) na documentação de implantação, [migração do Lync Server 2010, chat em grupo ou Office Communications Server 2007 R2 Grupo chat para o Lync Server 2013, servidor de chat persistente](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) na documentação de migração e [Gerenciamento do Lync Server 2013, servidor de chat persistente](managing-lync-server-2013-persistent-chat-server.md) na documentação de operações e todos fornecem instruções para configurar Servidor de chat persistente.
 
   - O arquivo. msi da documentação do servidor de chat persistente (arquivo do Windows Installer) permite que os usuários acessem documentação offline abrangente sobre o servidor de chat persistente.
 
@@ -139,7 +141,7 @@ No Lync Server 2013, existem melhorias na alta disponibilidade e recuperação d
 
   - Melhorias na recuperação de desastres: o servidor de chat persistente dá suporte a uma arquitetura de pool ampliada que permite que um único pool de servidor de chat persistente seja ampliado entre dois sites (ou seja, um único pool lógico na topologia, com servidores no pool fisicamente localizado em dois sites). O envio de log do SQL Server é usado para recuperação de desastres entre sites.
 
-Para obter mais informações sobre alta disponibilidade e recuperação de desastres, consulte Configurando o [servidor de chat persistente para alta disponibilidade e recuperação de desastres no Lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md) na documentação de implantação.
+Para obter mais informações sobre alta disponibilidade e recuperação de desastres, consulte [Configurando o servidor de chat persistente para alta disponibilidade e recuperação de desastres no Lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md) na documentação de implantação.
 
 </div>
 

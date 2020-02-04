@@ -3,6 +3,8 @@ title: 'Lync Server 2013: restaurando um servidor back-end do Enterprise Edition
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Restoring an Enterprise Edition Back End Server
 ms:assetid: 1450eb4e-3315-4d02-8f02-6e1791fb1550
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202163(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e0121ee654846bcb60acc6da6847995b967a880
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2bd57054505b3200f63bed8a60c47b400f7e7642
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823046"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733221"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Use o procedimento descrito neste tópico nos dois casos a seguir:
 
   - Um servidor back-end da edição Enterprise que não está espelhado falha.
 
-Se você tiver um back-end da edição Enterprise espelhada e somente o espelho ou banco de dados primário falhar, consulte [restaurando um servidor back-end do espelhado Enterprise Edition no Lync Server 2013-principal](lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md) para restaurar o banco de dados primário e [restaurar um espelho Servidor back-end do Enterprise Edition no Lync Server 2013-Mirror](lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md) para restaurar o espelho.
+Se você tiver um back-end da edição Enterprise espelhada e somente o espelho ou banco de dados primário falhar, consulte [restaurando um servidor back-end de edição do Enterprise Edition no Lync server 2013-principal](lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md) para restaurar o banco de dados principal e [restaurar um servidor back-end do Enterprise Edition para o Lync Server 2013-Mirror](lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md) para restaurar o espelho.
 
 Se o repositório de gerenciamento central falhar, consulte [restaurando o servidor que hospeda o repositório de gerenciamento central no Lync server 2013](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md). Se um servidor membro da edição Enterprise que não for o servidor back-end falhar, consulte [restaurando um servidor membro da Enterprise Edition no Lync server 2013](lync-server-2013-restoring-an-enterprise-edition-member-server.md).
 
@@ -141,7 +143,7 @@ Se o repositório de gerenciamento central falhar, consulte [restaurando o servi
 
 6.  Se você implantou o grupo de resposta nesse pool, restaure os dados de configuração do grupo de resposta. Para obter detalhes, consulte [restaurando as configurações do grupo de resposta no Lync Server 2013](lync-server-2013-restoring-response-group-settings.md).
 
-7.  Se você estiver restaurando um servidor back-end que incluiu o arquivamento ou o monitoramento de bancos de dados, restaure os dados de arquivamento ou monitoramento usando uma ferramenta do SQL Server, como o SQL Server Management Studio. Para obter detalhes, consulte Restaurando o [monitoramento ou arquivando dados no Lync Server 2013](lync-server-2013-restoring-monitoring-or-archiving-data.md).
+7.  Se você estiver restaurando um servidor back-end que incluiu o arquivamento ou o monitoramento de bancos de dados, restaure os dados de arquivamento ou monitoramento usando uma ferramenta do SQL Server, como o SQL Server Management Studio. Para obter detalhes, consulte [restaurando o monitoramento ou arquivando dados no Lync Server 2013](lync-server-2013-restoring-monitoring-or-archiving-data.md).
 
 </div>
 

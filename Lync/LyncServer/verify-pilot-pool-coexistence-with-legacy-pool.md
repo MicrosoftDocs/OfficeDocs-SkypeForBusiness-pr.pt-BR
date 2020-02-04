@@ -3,6 +3,8 @@ title: Verificar coexistência de pool piloto com pool herdado
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Verify pilot pool coexistence with legacy pool
 ms:assetid: fe7e14bb-c7eb-4719-b154-009e99360520
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205420(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185964
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7de258bff926e2e100fa7c9a4952a4d70ca64373
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fe3b3e04940c90cba4e46fc165c2494f77105667
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844119"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730891"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ Depois de implantar o pool piloto, você precisa verificar a coexistência dos d
 
 **Serviços do Lync Server 2013**
 
-![Lista de serviços do Lync Server iniciada] (images/JJ205420.cfff9385-6bf6-461c-982c-e727c9f20b70(OCS.15).png "Lista de serviços do Lync Server iniciada")
+![Lista de serviços do Lync Server iniciada](images/JJ205420.cfff9385-6bf6-461c-982c-e727c9f20b70(OCS.15).png "Lista de serviços do Lync Server iniciada")
 
 </div>
 
@@ -59,7 +61,7 @@ No servidor front-end na implantação do Lync Server 2013, abra o painel de con
 
 **Abrir o painel de controle do Lync Server 2013**
 
-![Caixa de diálogo Selecionar URL] (images/JJ205420.b1f8e650-9c3c-4563-a403-5069f198342f(OCS.15).png "Caixa de diálogo Selecionar URL")
+![Caixa de diálogo Selecionar URL](images/JJ205420.b1f8e650-9c3c-4563-a403-5069f198342f(OCS.15).png "Caixa de diálogo Selecionar URL")
 
 <div>
 
@@ -75,7 +77,7 @@ Essa topologia agora inclui funções do Lync Server 2010 e do Lync Server 2013 
 
 **Página de topologia do painel de controle do Lync Server 2013**
 
-![Painel de controle do Lync Server-página de topologia] (images/JJ205420.4ed1cc7a-cb3e-42f6-82e2-6d4d71d19352(OCS.15).jpg "Painel de controle do Lync Server-página de topologia")
+![Painel de controle do Lync Server-página de topologia](images/JJ205420.4ed1cc7a-cb3e-42f6-82e2-6d4d71d19352(OCS.15).jpg "Painel de controle do Lync Server-página de topologia")
 
 </div>
 
@@ -87,7 +89,7 @@ Se você tentar abrir a topologia usando o construtor de topologias do Lync Serv
 
 **Mensagem de erro do construtor de topologia do Lync Server 2010**
 
-![Erro de snap do MMC do construtor de topologia do Lync Server] (images/JJ205420.f6666343-c348-4d81-ae0e-6ba5a44e16c4(OCS.15).png "Erro de snap do MMC do construtor de topologia do Lync Server")
+![Erro de snap do MMC do construtor de topologia do Lync Server](images/JJ205420.f6666343-c348-4d81-ae0e-6ba5a44e16c4(OCS.15).png "Erro de snap do MMC do construtor de topologia do Lync Server")
 
 </div>
 

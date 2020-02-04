@@ -3,6 +3,8 @@ title: 'Lync Server 2013: índice de cmdlets'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server 2013 cmdlets index
 ms:assetid: cd37aba7-3d27-4db9-b69f-3a6da1fb4b4a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398867(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185661
 ms.date: 04/12/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d18b599792d2599d96b4775aa37a4178f99d1e47
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 64dd8edcb3f21cbdbdaf2b5a29c7e813675c9136
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836616"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742801"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34836616"
 
 _**Tópico da última modificação:** 2016-04-12_
 
-O Microsoft Lync Server 2013 vem com mais de 700 cmdlets que permitem aos administradores gerenciar o Lync Server 2013 a partir da linha de comando. Os cmdlets do Lync Server geralmente são usados com o Shell de gerenciamento do Lync Server. Uma maneira de usar o Shell de gerenciamento do Lync Server é fazer logon em um computador que executa um serviço ou função de servidor do Lync Server, clicar em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clicar em **Shell de gerenciamento do Lync Server **. Depois que o Shell de gerenciamento estiver aberto, você poderá recuperar a ajuda para um cmdlet diretamente da linha de comando, digitando um comando semelhante ao seguinte:
+O Microsoft Lync Server 2013 vem com mais de 700 cmdlets que permitem aos administradores gerenciar o Lync Server 2013 a partir da linha de comando. Os cmdlets do Lync Server geralmente são usados com o Shell de gerenciamento do Lync Server. Uma maneira de usar o Shell de gerenciamento do Lync Server é fazer logon em um computador que executa um serviço ou função de servidor do Lync Server, clicar em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**. Depois que o Shell de gerenciamento estiver aberto, você poderá recuperar a ajuda para um cmdlet diretamente da linha de comando, digitando um comando semelhante ao seguinte:
 
     Get-Help New-CsVoicePolicy -Full
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: testar o acesso anônimo ao aplicativo Web'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test anonymous Web App access
 ms:assetid: 92f691cd-e05e-4bab-beb5-251d4b837a19
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767949(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969630
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 701954a872645e80d6aac82cab1fbf5745ad6984
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8aabac9e106c325b7b1b964e6e594bb2b05ef85c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844717"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746261"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -138,7 +140,7 @@ Problemas de configuração com o Office Web Apps Server também podem causar fa
 
 A solicitação HTTP está não autorizada com o esquema de autenticação de cliente ' NTLM '. O cabeçalho de autenticação recebido do servidor era ' Negotiate, NTLM '.
 
-Para obter mais informações sobre como diagnosticar e resolver problemas do servidor do Office Web Apps, consulte a postagem no blog [Office Web Apps server 2013-as máquinas são sempre reportadas como](http://www.wictorwilen.se/office-web-apps-server-2013---machines-are-always-reported-as-unhealthy)não íntegras.
+Para obter mais informações sobre como diagnosticar e resolver problemas do servidor do Office Web Apps, consulte a postagem no blog [Office Web Apps server 2013-as máquinas são sempre reportadas como não íntegras](http://www.wictorwilen.se/office-web-apps-server-2013---machines-are-always-reported-as-unhealthy).
 
 </div>
 

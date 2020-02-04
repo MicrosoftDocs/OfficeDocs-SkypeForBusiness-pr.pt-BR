@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Borda consolidada em escala com balanceadores de carga
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scaled consolidated edge with hardware load balancers
 ms:assetid: 6783e225-9677-415a-8731-0bf2e2c4cf8b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398478(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3aa5a395c8509961937af23c12763a5bf55cc326
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5fe027019953175c0ac6ede51a86ad3a300c2681
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822570"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732661"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Tópico da última modificação:** 2012-10-21_
 
 Na topologia do pool de bordas, dois ou mais servidores Edge são implantados como um pool de balanceamento de carga na rede de perímetro do Data Center. O balanceamento de carga de hardware é usado para tráfego nas interfaces do servidor de borda externa e interna.
 
-Se sua organização requer suporte para mais de 15.000 conexões de cliente de serviço de borda de acesso, o 1.000 conexões de cliente de serviço de borda de Webconferência ativas 500 ou as sessões de serviço de borda A/V simultâneas, a alta disponibilidade do servidor de borda é importante, essa topologia oferece as vantagens de escalabilidade e suporte de failover.
+Se a sua organização requer suporte para mais de 15.000 conexões de cliente de serviço de borda de acesso, as conexões de cliente de serviço de borda do serviço de borda de Webconferência do 1.000 500 ou as sessões de serviço de borda a/V simultâneas e alta disponibilidade do servidor de borda é importante, essa topologia oferece as vantagens de escalabilidade e suporte de failover.
 
 A figura não mostra diretores, uma função de servidor opcional implantada na rede interna entre os servidores de borda e seus pools ou servidores de front-end. . Para obter detalhes sobre a topologia para diretores, consulte [os componentes necessários para o diretor no Lync Server 2013](lync-server-2013-components-required-for-the-director.md).
 
@@ -73,7 +75,7 @@ Para obter detalhes, consulte a seção "requisitos do balanceador de carga de h
 
 **Topologia de borda consolidada redimensionada (hardware com balanceamento de carga)**
 
-![3a57cd0d-8de4-4ecc-A783-4dff5b3456a2] (images/Gg398478.3a57cd0d-8de4-4ecc-a783-4dff5b3456a2(OCS.15).jpg "3a57cd0d-8de4-4ecc-A783-4dff5b3456a2")
+![3a57cd0d-8de4-4ecc-a783-4dff5b3456a2](images/Gg398478.3a57cd0d-8de4-4ecc-a783-4dff5b3456a2(OCS.15).jpg "3a57cd0d-8de4-4ecc-a783-4dff5b3456a2")
 
 <div>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: roteamento baseado em localização e transferências 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Location-Based Routing and consultative call transfers
 ms:assetid: b12460c2-36c8-481f-b867-fe10dc1c0bdf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362836(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56335089
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7c7b73efb670c5569b8c4600c1759e981cda211
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4e433baf180b8e4abf50ec374848204bf6628eb0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828938"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765329"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ Além de aplicar o roteamento baseado em localização a reuniões do Lync, o ap
 
 **Fluxo da Transferência de Chamada Consultiva**
 
-![Roteamento baseado em local para o diagrama de conferência] (images/Dn362836.e4d43d6f-23d2-49c9-b12b-15248a743f92(OCS.15).jpg "Roteamento baseado em local para o diagrama de conferência")
+![Roteamento baseado em local para o diagrama de conferência](images/Dn362836.e4d43d6f-23d2-49c9-b12b-15248a743f92(OCS.15).jpg "Roteamento baseado em local para o diagrama de conferência")
 
 Quando um usuário habilitado para roteamento baseado em local inicia uma transferência de chamadas consultivas de um ponto de extremidade PSTN (conforme mostrado na figura anterior), isso cria duas chamadas ativas, uma chamada entre o usuário PSTN e o usuário do Lync A e a outra entre o usuário do Lync A e o usuário do Lync B. o comportamento a seguir é imposto pelo aplicativo de conferência de roteamento baseado em localização:
 

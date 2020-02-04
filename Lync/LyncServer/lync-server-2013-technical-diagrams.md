@@ -3,6 +3,8 @@ title: Diagramas técnicos do Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Technical diagrams
 ms:assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn594589(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 61180439
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7d74f846f45b31fdff8921cfb628189726d4f2b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d9a27f534c68a509e1febacd7937724c02c72061
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844748"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746616"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -93,8 +95,8 @@ Esses pôsteres detalham uma área técnica específica e devem ser usados com o
 <tr class="odd">
 <td><p><strong>Arquiteturas locais do Lync Server 2013</strong></p>
 <img src="images/Dn594589.36530bb8-732f-4be0-9502-082c01df9fba(OCS.15).jpg" title="miniatura do pôster de arquiteturas do Lync" alt="thumbnail of Lync architectures poster" />
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392974">Amplie o pôster com detalhes completos com o zoom.it da Microsoft</a> (melhor em computadores de mesa ou laptops)</p>
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392578">Versão em PDF</a> (melhor para os dispositivos móveis ou tablets)</p>
+<p><a href="http://go.microsoft.com/fwlink/?linkid=392974">Amplie o pôster em detalhes com o zoom.it da Microsoft</a>(melhor em computadores de mesa ou laptops)</p>
+<p><a href="http://go.microsoft.com/fwlink/?linkid=392578">Versão em PDF</a> (melhor para dispositivos móveis ou tablets)</p>
 <p><a href="http://go.microsoft.com/fwlink/?linkid=392579">Versão do Visio</a> (melhor para usuários com o Visio)</p></td>
 <td><p>O pôster fornece diretrizes arquitetônicas para planejamento e implantação. O pôster contém informações sobre componentes comuns do Lync Server, terminologia usada ao planejar uma implantação, novos recursos, funções de servidor e uma visão geral de instalação. Além disso, o pôster contém arquiteturas de exemplo para aumentar a alta disponibilidade e recuperação de desastres, além de grandes, médias e grandes topologias de exemplo.</p>
 <p>Tamanho: 34 por 44 polegadas</p>
@@ -103,7 +105,7 @@ Esses pôsteres detalham uma área técnica específica e devem ser usados com o
 <tr class="even">
 <td><p><strong>Metodologia de qualidade de chamada do Lync</strong></p>
 <img src="images/Dn594589.d239e04a-1c3b-4f0e-93af-88b85198615a(OCS.15).jpg" title="Cartaz descrevendo o processo de CQM" alt="Poster describing the CQM process" />
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392972">Amplie o pôster com detalhes completos com o zoom.it da Microsoft</a> (melhor em computadores de mesa ou laptops)</p>
+<p><a href="http://go.microsoft.com/fwlink/?linkid=392972">Amplie o pôster em detalhes com o zoom.it da Microsoft</a>(melhor em computadores de mesa ou laptops)</p>
 <p><a href="http://go.microsoft.com/fwlink/?linkid=391841">Versões do Visio e do PDF juntas em um arquivo. zip</a></p></td>
 <td><p>Cartaz descrevendo a solução de problemas do sistema do Lync, especialmente para problemas que afetam a qualidade do Enterprise Voice. Use este cartaz com:</p>
 <ul>
@@ -117,7 +119,7 @@ Esses pôsteres detalham uma área técnica específica e devem ser usados com o
 <tr class="odd">
 <td><p><strong>Principais indicadores de integridade</strong></p>
 <img src="images/Dn594589.b6fe82bd-d70f-4c1f-a812-b615ac5fa7d7(OCS.15).jpg" title="Cartaz descrevendo a solução de problemas com dados do KHI" alt="Poster describing troubleshooting using KHI data" />
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392971">Amplie o pôster com detalhes completos com o zoom.it da Microsoft</a> (melhor em computadores de mesa ou laptops)</p>
+<p><a href="http://go.microsoft.com/fwlink/?linkid=392971">Amplie o pôster em detalhes com o zoom.it da Microsoft</a>(melhor em computadores de mesa ou laptops)</p>
 <p><a href="http://go.microsoft.com/fwlink/?linkid=391838">Versões do Visio e do PDF juntas em um arquivo. zip</a></p></td>
 <td><p>Pôster descrevendo as métricas de solução de problemas do servidor para a integridade básica do servidor e para a função de um determinado servidor na implementação do Lync. Use este cartaz com:</p>
 <ul>
@@ -132,7 +134,7 @@ Esses pôsteres detalham uma área técnica específica e devem ser usados com o
 <td><p><strong>Opções da plataforma do Lync 2013</strong></p>
 <img src="images/Dn594589.c5b66828-c3cf-4654-bb75-b93f97d085b3(OCS.15).jpg" title="exibição em miniatura do pôster das opções de plataforma" alt="thumbnail view of platform options poster" />
 <p><a href="http://go.microsoft.com/fwlink/p/?linkid=391840">Amplie o pôster com detalhes completos com o Zoom.it da Microsoft</a></p>
-<p><a href="http://go.microsoft.com/fwlink/p/?linkid=391837">Versão em PDF</a> (melhor para os dispositivos móveis ou tablets)</p>
+<p><a href="http://go.microsoft.com/fwlink/p/?linkid=391837">Versão em PDF</a> (melhor para dispositivos móveis ou tablets)</p>
 <p><a href="http://go.microsoft.com/fwlink/p/?linkid=391839">Versão do Visio</a> (melhor para usuários com o Visio)</p></td>
 <td><p>Este cartaz descreve as opções de plataforma disponíveis para o Lync 2013 para BDMs e arquitetos os clientes podem optar pelo Lync Online com o Office 365, o Hybrid Lync, o Lync Server local e o Lync hospedado. O pôster inclui detalhes de cada opção arquitetônica, incluindo os cenários mais ideais para cada um, os requisitos de licença e as responsabilidades do profissional de ti.</p>
 <p>Tamanho: 34 por 44 polegadas</p>
@@ -142,7 +144,7 @@ Esses pôsteres detalham uma área técnica específica e devem ser usados com o
 <td><p><strong>Cargas de trabalho do protocolo Microsoft Lync Server 2013</strong></p>
 <img src="images/Dn594589.e00f8445-4e00-48f6-a3e2-f97334dde719(OCS.15).jpg" title="exibição em miniatura do pôster das cargas de trabalho do protocolo" alt="thumbnail view of protocol Workloads poster" />
 <p><a href="http://go.microsoft.com/fwlink/?linkid=392970">Amplie o pôster com detalhes completos com o Zoom.it da Microsoft</a></p>
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392512">Versão em PDF</a> (melhor para os dispositivos móveis ou tablets)</p>
+<p><a href="http://go.microsoft.com/fwlink/?linkid=392512">Versão em PDF</a> (melhor para dispositivos móveis ou tablets)</p>
 <p><a href="http://go.microsoft.com/fwlink/?linkid=392513">Versão do Visio</a> (melhor para usuários com o Visio)</p></td>
 <td><p>Baixe este cartaz para compreender os recursos e os requisitos do Lync 2013, do Lync Phone, do Lync Web App, do Lync para Mac e do Lync Mobile w. Veja como as cargas de trabalho do Lync Server facilitam a comunicação em toda a organização.</p>
 <p>Tamanho: 24 por 36 polegadas</p>

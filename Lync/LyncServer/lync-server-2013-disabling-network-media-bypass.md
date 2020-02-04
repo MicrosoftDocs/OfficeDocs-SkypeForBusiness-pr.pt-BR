@@ -3,6 +3,8 @@ title: 'Lync Server 2013: desativando o bypass de mídia de rede'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Disabling network media bypass
 ms:assetid: 936d2678-d712-4589-b172-b5793013652f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688141(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733741
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9bfab9fbf8174a1124a45681098196c84ac5444
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0457281a743d317e17a5fd0728e1a747b4d88271
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829377"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757605"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34829377"
 
 _**Tópico da última modificação:** 2012-10-15_
 
-As configurações de bypass de mídia se aplicam globalmente em uma implantação do Microsoft Lync Server 2013. O bypass de mídia permite que as chamadas ignorem o servidor de mediação. Para obter detalhes sobre quando usar o bypass de mídia, consulte [planejando a bypass de mídia no Lync Server 2013](lync-server-2013-planning-for-media-bypass.md) na seção planejamento. Você pode desativar o bypass de mídia no painel de controle do Lync Server. Para obter detalhes sobre como habilitar e configurar o bypass de mídias média, consulte Habilitando o [bypass de mídia de rede no Lync Server 2013](lync-server-2013-enabling-network-media-bypass.md)
+As configurações de bypass de mídia se aplicam globalmente em uma implantação do Microsoft Lync Server 2013. O bypass de mídia permite que as chamadas ignorem o servidor de mediação. Para obter detalhes sobre quando usar o bypass de mídia, consulte [planejando a bypass de mídia no Lync Server 2013](lync-server-2013-planning-for-media-bypass.md) na seção planejamento. Você pode desativar o bypass de mídia no painel de controle do Lync Server. Para obter detalhes sobre como habilitar e configurar o bypass de mídias média, consulte [habilitando o bypass de mídia de rede no Lync Server 2013](lync-server-2013-enabling-network-media-bypass.md)
 
 <div>
 

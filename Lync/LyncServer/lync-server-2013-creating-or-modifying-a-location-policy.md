@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Criando ou modificando uma política de localização'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Creating or modifying a location policy
 ms:assetid: 10338418-4da4-42df-b231-f52098c08dae
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687971(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733557
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 173cfd6ce158a089e03a9eded12c3c6920183463
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1648e845fc3759e7083c2443013f89fb49c1b00f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829772"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740171"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -82,9 +84,9 @@ No Lync Server 2013, você pode substituir a quantidade de tempo padrão entre s
     
       - **Uso da PSTN**   o uso de rede telefônica pública comutada (PSTN) que será usado para determinar qual rota de voz será usada para direcionar as chamadas de emergência dos clientes que usam esse perfil. A rota associada a esse uso deve apontar para um tronco SIP dedicado a chamadas de emergência ou a um gateway de Emergency Location Identification Number (ELIN) que encaminha as chamadas de emergência ao Public Safety Answering Point (PSAP) mais próximo.
     
-      - **Número**   de discagem de emergência o número discado para acessar serviços de emergência. Nos Estados Unidos, esse valor é 911. A cadeia de caracteres deve ser feita dos dígitos de 0 a 9 e pode ter de 1 a 10 dígitos.
+      - **Número de discagem de emergência**   o número discado para acessar serviços de emergência. Nos Estados Unidos, esse valor é 911. A cadeia de caracteres deve ser feita dos dígitos de 0 a 9 e pode ter de 1 a 10 dígitos.
     
-      - **Máscara**   de discagem de emergência um número que você deseja traduzir para o valor do valor do número de discagem de emergência quando ele for discado. Por exemplo, se você inserir um valor de 212 nesse campo e o campo de número de discagem de emergência tiver um valor de 911, se um usuário discar 212, a chamada será feita a 911. Isso permite a discagem de números de emergência alternativos e ainda assim acessar os serviços de emergência (por exemplo, se alguém de um país ou região com um número de emergência diferente tenta discar o número desse país ou região em vez do número para o país ou região atual). É possível definir várias máscaras de discagem de emergência separando os valores com ponto e vírgulas. Por exemplo, 212;414. O comprimento máximo da cadeia é de 100 caracteres. Cada caractere precisa ser um dígito de 0 a 9.
+      - **Máscara de discagem de emergência**   um número que você deseja traduzir para o valor do valor do número de discagem de emergência quando ele for discado. Por exemplo, se você inserir um valor de 212 nesse campo e o campo de número de discagem de emergência tiver um valor de 911, se um usuário discar 212, a chamada será feita a 911. Isso permite a discagem de números de emergência alternativos e ainda assim acessar os serviços de emergência (por exemplo, se alguém de um país ou região com um número de emergência diferente tenta discar o número desse país ou região em vez do número para o país ou região atual). É possível definir várias máscaras de discagem de emergência separando os valores com ponto e vírgulas. Por exemplo, 212;414. O comprimento máximo da cadeia é de 100 caracteres. Cada caractere precisa ser um dígito de 0 a 9.
         
         <div>
         
@@ -101,7 +103,7 @@ No Lync Server 2013, você pode substituir a quantidade de tempo padrão entre s
     
       - **Modo**   de conferência se você especificar um valor no campo **URI de conferência** , o modo de **conferência** determinará se uma terceira parte pode participar da chamada ou somente pode ouvi-la. Especifique uma das seguintes opções:
         
-          - ****   Unidirecional um terceiro só pode ouvir a conversa entre o chamador e o operador de PSAP.
+          - **Unidirecional**   um terceiro só pode ouvir a conversa entre o chamador e o operador de PSAP.
         
           - **Bidirecional**   um terceiro pode ouvir e participar da chamada entre o chamador e o operador PSAP.
 

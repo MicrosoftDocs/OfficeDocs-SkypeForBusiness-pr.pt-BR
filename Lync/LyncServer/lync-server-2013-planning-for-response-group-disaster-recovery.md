@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planejamento para recuperação de desastre de grupos 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for response group disaster recovery
 ms:assetid: 14e0f5dc-77cd-42cd-a9c9-4d0da38fb1cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204699(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183482
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 70622364349eb83ecbc171cb3d5bf894ba03d3f9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: db3a196a258198fe0bc65b533841544decd96aa2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824558"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41750481"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,7 +61,7 @@ Lembre-se do seguinte ao preparar-se para e realizar procedimentos de recuperaç
 
   - Mantenha uma cópia de backup separada de todos os arquivos de áudio originais que você usou para o aplicativo do grupo de resposta, incluindo qualquer gravação e arquivos de música em espera. Mantenha os arquivos de backup em um local seguro.
 
-  - Para a recuperação de desastre do Lync Server 2013, todas as configurações de grupo de resposta devem ter nomes exclusivos em toda a sua implantação. Esse requisito se aplica a fluxos de trabalho, filas, grupos de agente, conjuntos de feriados e horas de negócios. Você deve verificar se esse requisito é atendido quando os pools primário e de backup ainda estão ativos e antes de você precisar iniciar qualquer procedimento de failover. Se você encontrar conflitos de nome ao importar dados do grupo de resposta para o pool de backup, a importação falhará. Para concluir o procedimento de importação e failover, você precisa resolver os conflitos de nome renomeando o objeto de grupo de resposta no pool de backup ou usando o cmdlet **Import-CsRgsConfiguration** com o parâmetro – ResolveNameConflicts para automaticamente Resolva o conflito acrescentando um número exclusivo de identificação ao objeto do grupo de resposta.
+  - Para a recuperação de desastre do Lync Server 2013, todas as configurações de grupo de resposta devem ter nomes exclusivos em toda a sua implantação. Esse requisito se aplica a fluxos de trabalho, filas, grupos de agente, conjuntos de feriados e horas de negócios. Você deve verificar se esse requisito é atendido quando os pools primário e de backup ainda estão ativos e antes de você precisar iniciar qualquer procedimento de failover. Se você encontrar conflitos de nome ao importar dados do grupo de resposta para o pool de backup, a importação falhará. Para concluir o procedimento de importação e failover, você precisa resolver os conflitos de nome renomeando o objeto do grupo de resposta no pool de backup ou usando o cmdlet **Import-CsRgsConfiguration** com o parâmetro – ResolveNameConflicts para resolver automaticamente o conflito, acrescentando um número exclusivo de identificação ao objeto do grupo de resposta.
 
   - Em geral, recomendamos que você realize backups diários, mas se você tiver um grande volume de alterações, talvez queira agendar backups mais frequentes. A quantidade de informações que você pode perder no caso de um desastre depende da frequência dos backups, bem como da frequência e do volume das alterações.
 
@@ -116,7 +118,7 @@ Você pode transferir essas configurações no nível do aplicativo de um pool p
 
 Se você não quiser substituir as configurações no nível do aplicativo no pool de backup durante um desastre e se o pool primário não puder ser recuperado, as configurações do nível do aplicativo do pool primário serão perdidas. Se você precisar criar um novo pool para substituir o pool primário durante a recuperação, seja com o mesmo FQDN ou com um FQDN diferente, não será possível recuperar as configurações originais do nível do aplicativo. Nesse caso, você precisará configurar o novo pool com essas configurações e incluir o arquivo de áudio de música em espera.
 
-Se você decidir usar o cmdlet **Import-CsRgsConfiguration** para transferir configurações no nível do aplicativo do pool primário para o pool de backup durante um desastre, será possível transferir as configurações do pool de backup para o novo pool durante a recuperação na mesma forma que você os transferiu do pool primário para o pool de backup.
+Se você decidir usar o cmdlet **Import-CsRgsConfiguration** para transferir configurações em nível de aplicativo do pool primário para o pool de backup durante um desastre, poderá transferir as configurações do pool de backup para o novo pool durante a recuperação da mesma forma que as transferiu do pool primário para o pool de backup.
 
 A tabela a seguir mostra uma visão geral das etapas envolvidas na recuperação de grupos de resposta.
 
@@ -193,7 +195,7 @@ Para obter detalhes sobre como executar essas etapas, consulte [procedimentos de
 
 </div></li>
 </ul></td>
-<td><p>N/D</p></td>
+<td><p>Não disponível</p></td>
 </tr>
 <tr class="odd">
 <td><p>Após a recuperação, antes do failback</p></td>

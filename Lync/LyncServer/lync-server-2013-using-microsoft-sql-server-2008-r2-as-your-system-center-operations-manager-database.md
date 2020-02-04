@@ -3,6 +3,8 @@ title: 'Lync Server 2013: usando o Microsoft SQL Server 2008 R2 como seu banco d
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using Microsoft SQL Server 2008 R2 as your System Center Operations Manager database
 ms:assetid: 0efe76da-8854-499e-bdc7-3623244a8e85
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687969(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733555
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 858134b4d7f2a2fbc4e15c14e121ac12679c9ddc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 27516e7ca6c3fb70a01b7c1d245054d515ae351b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844474"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744051"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,9 +59,9 @@ Antes de começar a instalar o System Center Operations Manager, você deve faze
 
 Após atualizar o arquivo de configuração do Report Server, você deve atribuir o certificado correto ao SQL Server Reporting Services. Para fazer isso:
 
-1.  Clique em **Iniciar**, **em todos os programas**, em **Microsoft SQL Server 2008 R2**, em **ferramentas de configuração**e em Gerenciador de configuração do Reporting **Services**.
+1.  Clique em **Iniciar**, **em todos os programas**, em **Microsoft SQL Server 2008 R2**, em **ferramentas de configuração**e em Gerenciador de configuração do **Reporting Services**.
 
-2.  Na caixa de diálogo **conexão de configuração** do Reporting Services, verifique se o nome do seu servidor é exibido na caixa **nome do servidor** . Selecione a instância do SQL Server que hospedará seu banco de dados do Operations Manager (por exemplo, **ARCHINST**) na lista suspensa de **instâncias do servidor de relatório** e clique em **conectar**.
+2.  Na caixa de diálogo **conexão de configuração do Reporting Services** , verifique se o nome do seu servidor é exibido na caixa **nome do servidor** . Selecione a instância do SQL Server que hospedará seu banco de dados do Operations Manager (por exemplo, **ARCHINST**) na lista suspensa de **instâncias do servidor de relatório** e clique em **conectar**.
 
 3.  No Gerenciador de configuração do Reporting Services, clique em **URL do serviço Web**.
 
@@ -85,7 +87,7 @@ Para criar manualmente um banco de dados do Operations Manager, faça o seguinte
 
 3.  Na página **informações do banco de dados** saia de todas as configurações e clique em **Avançar** .
 
-4.  Na página **configuração do grupo de gerenciamento** digite um nome para o seu grupo de gerenciamento (por exemplo, monitoração do **Lync Server**) na caixa **nome do grupo de gerenciamento** e clique em **Avançar**.
+4.  Na página **configuração do grupo de gerenciamento** digite um nome para o seu grupo de gerenciamento (por exemplo, **monitoração do Lync Server**) na caixa **nome do grupo de gerenciamento** e clique em **Avançar**.
 
 5.  Na página **relatórios de erros do Operations Manager** , clique em **Avançar**.
 
@@ -111,7 +113,7 @@ Para usar esses novos relatórios, você deve instalar um data warehouse do Syst
 
 2.  No assistente de configuração de banco de dados, na página **Bem-vindo ao assistente de configuração de banco de dados** , clique em **Avançar**.
 
-3.  Na página **informações do banco** de dados, selecione o **banco de dados de data warehouse do Operations Manager** na lista suspensa tipo de **banco** de dados e clique em **Avançar**.
+3.  Na página **informações do banco** de dados, selecione o **banco de dados de data warehouse do Operations Manager** na lista suspensa **tipo de banco** de dados e clique em **Avançar**.
 
 4.  Na página **Resumo** , clique em **concluir**.
 
@@ -171,11 +173,11 @@ Depois de instalar e configurar o console System Center Operations Manager, voc�
 
 3.  Localize o seguinte grupo, em que ATL-SC-001 representa o nome do seu computador e ARCHINST representa a instância do SQL Server para o banco de dados do System Center: **SQLServerReportServerUser $ ATL-\_SC-001 $ MSRS10 50. ARCHINST**.
 
-4.  Clique com o botão direito do mouse no **** grupo e clique em Renomear. Renomeie o grupo excluindo ** \_50** do nome do grupo. Por exemplo: **SQLServerReportServerUser $ ATL-SC-001 $ MSRS10. ARCHINST**.
+4.  Clique com o botão direito do mouse no grupo e clique em **renomear**. Renomeie o grupo excluindo ** \_50** do nome do grupo. Por exemplo: **SQLServerReportServerUser $ ATL-SC-001 $ MSRS10. ARCHINST**.
 
 5.  Feche o Gerenciador de servidores.
 
-Nesse ponto, você está pronto para instalar o System Center Reporting Services. Para fazer isto:
+Nesse ponto, você está pronto para instalar o System Center Reporting Services. Para fazer isso:
 
 1.  Na mídia de instalação do System Center Operations Manager 2007 R2, clique duas vezes em **SetupOM. exe**.
 
@@ -217,7 +219,7 @@ Após a instalação do relatório do System Center, use o procedimento a seguir
 
 3.  Localize o seguinte grupo, em que ATL-SC-001 representa o nome do seu computador e ARCHINST representa a instância do SQL Server para os bancos de dados de arquivamento e monitoramento: **SQLServerReportServerUser $ ATL-SC-001 $ MSRS10. ARCHINST**.
 
-4.  Clique com o botão direito do mouse no **** grupo e clique em Renomear. Renomeie o grupo adicionando ** \_50** ao final do nome do grupo, logo antes do nome da instância do SQL Server. Por exemplo: **SQLServerReportServerUser $ ATL-SC-001 $ MSRS10\_50. ARCHINST**.
+4.  Clique com o botão direito do mouse no grupo e clique em **renomear**. Renomeie o grupo adicionando ** \_50** ao final do nome do grupo, logo antes do nome da instância do SQL Server. Por exemplo: **SQLServerReportServerUser $ ATL-SC-001 $ MSRS10\_50. ARCHINST**.
 
 5.  Feche o Gerenciador de servidores.
 

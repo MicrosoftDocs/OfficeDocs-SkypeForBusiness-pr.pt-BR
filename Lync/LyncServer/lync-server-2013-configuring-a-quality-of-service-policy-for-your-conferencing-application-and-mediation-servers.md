@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurando uma política de Qualidade de Serviço pa
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring a Quality of Service policy for your Conferencing, Application, and Mediation servers
 ms:assetid: 8adcbbc5-c9f5-476d-ab7f-72e61859cacf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205076(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184769
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47a79835fb19f5a30a11eac4859f133aeec5c8cb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 385530e45c208ced2cce4815d1f60e596c2a08b8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836308"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763425"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ Para criar uma política de qualidade de serviço para o gerenciamento de áudio
 
 5.  No editor de gerenciamento de política de grupo, expanda **configuração do computador**, expanda **políticas**, expanda **configurações do Windows**, clique com o botão direito do mouse em **QoS baseada em política**e clique em **criar nova política**.
 
-6.  Na caixa de diálogo **QoS baseada em política** , na página de abertura, digite um nome para a nova política (por exemplo, **Lync Server QoS**) na caixa **nome** . Selecione **especificar valor DSCP** e defina o valor como **46**. Deixe **especificar a taxa** de aceleração de saída desmarcada e clique em **Avançar**.
+6.  Na caixa de diálogo **QoS baseada em política** , na página de abertura, digite um nome para a nova política (por exemplo, **Lync Server QoS**) na caixa **nome** . Selecione **especificar valor DSCP** e defina o valor como **46**. Deixe **especificar a taxa de aceleração de saída** desmarcada e clique em **Avançar**.
 
 7.  Na página seguinte, verifique se a opção **todos os aplicativos** está selecionada e clique em **Avançar**. Isso simplesmente garante que todos os aplicativos corresponderão aos pacotes do intervalo de porta especificado com o código DSCP especificado.
 

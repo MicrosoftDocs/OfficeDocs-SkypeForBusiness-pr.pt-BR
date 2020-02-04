@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Ferramentas administrativas do Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server administrative tools
 ms:assetid: 9b006f93-4f3d-461d-89b8-e80a34fdb3c5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195756(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6756aee8d7c65b179fb5c1c15ca008b3bd205778
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a34561e9880870b53cd8f7aaad2fe13cfe33c8d4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828929"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742221"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ Este tópico descreve as ferramentas administrativas do Lync Server 2013.
 
 As ferramentas administrativas são instaladas por padrão em cada servidor do Lync Server. Além disso, você pode instalar as ferramentas administrativas em outros computadores, como consoles administrativos dedicados. Para obter os procedimentos para instalar as ferramentas administrativas, consulte [instalar ferramentas administrativas do Lync Server 2013](lync-server-2013-install-lync-server-administrative-tools.md). Para obter os procedimentos para abrir as ferramentas para realizar tarefas de gerenciamento, consulte [abrir ferramentas administrativas do Lync Server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
 
-Verifique se revisar os requisitos de infraestrutura, sistema operacional, software e administrador antes de instalar ou usar as ferramentas administrativas do Lync Server. Para obter detalhes sobre requisitos de infraestrutura, consulte [requisitos de infraestrutura de ferramentas administrativas no Lync Server 2013](lync-server-2013-administrative-tools-infrastructure-requirements.md). Para obter detalhes sobre os requisitos do sistema operacional e do software para instalar as ferramentas administrativas do Lync Server, consulte [suporte ao sistema operacional do servidor e ferramentas no Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md), [requisitos de software adicionais para o Lync Server 2013](lync-server-2013-additional-software-requirements.md)e [ Suporte e requisitos adicionais do servidor no Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md). As permissões e os direitos de usuário necessários para instalar e usar as ferramentas estão descritos em [permissões e permissões de administrador necessários para a configuração e a administração do Lync Server 2013](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md).
+Verifique se revisar os requisitos de infraestrutura, sistema operacional, software e administrador antes de instalar ou usar as ferramentas administrativas do Lync Server. Para obter detalhes sobre requisitos de infraestrutura, consulte [requisitos de infraestrutura de ferramentas administrativas no Lync Server 2013](lync-server-2013-administrative-tools-infrastructure-requirements.md). Para obter detalhes sobre os requisitos do sistema operacional e do software para instalar as ferramentas administrativas do Lync Server, consulte [suporte ao sistema operacional do servidor e ferramentas no Lync server 2013](lync-server-2013-server-and-tools-operating-system-support.md), [requisitos de software adicionais para o Lync Server 2013](lync-server-2013-additional-software-requirements.md), e [suporte e requisitos adicionais do servidor do Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md). As permissões e os direitos de usuário necessários para instalar e usar as ferramentas estão descritos em [permissões e permissões de administrador necessários para a configuração e a administração do Lync Server 2013](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md).
 
 As ferramentas administrativas consistem nos seguintes itens:
 

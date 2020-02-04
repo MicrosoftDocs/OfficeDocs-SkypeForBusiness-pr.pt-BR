@@ -3,6 +3,8 @@ title: 'Lync Server 2013: usando a ferramenta de personalização do Office (OCT
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using the Office Customization Tool (OCT)
 ms:assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204748(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183654
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cbdd9c101b9098f9a5a6ac6088740c067039921b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b82db655a0b55858de9cdc32efd1a3f110247b54
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844448"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743841"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ O OCT faz parte da instalação e está incluído em versões de licença de vol
 
 Os administradores usam o OCT para criar um arquivo .msp de personalização da instalação. Como no Microsoft Office 2010 OCT, os administradores podem personalizar as seguintes áreas:
 
-  - **Configurar** Usado para especificar o local de instalação padrão no cliente e o nome da organização padrão, origens adicionais de instalação de rede, chave do produto, contrato de licença de usuário final, nível de exibição, versões anteriores do Office para remover, programas personalizados a serem executados durante instalação, configurações de segurança e propriedades de configuração.
+  - **Configurar** Usado para especificar o local de instalação padrão no cliente e o nome da organização padrão, origens adicionais de instalação de rede, chave do produto, contrato de licença de usuário final, nível de exibição, versões anteriores do Office para remover, programas personalizados para executar durante a instalação, configurações de segurança e propriedades de configuração.
 
   - **Recursos** do Usado para definir as configurações do usuário e para personalizar como os recursos do Office são instalados. Os administradores podem usar o OCT para especificar os valores padrões iniciais das configurações do aplicativo do Office para usuários. Os usuários podem modificar a maioria das configurações após a instalação.
 

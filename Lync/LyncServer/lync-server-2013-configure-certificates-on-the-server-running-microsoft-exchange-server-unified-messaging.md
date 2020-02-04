@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configurar certificados no servidor que executa o Micr
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure certificates on the server running Microsoft Exchange Server Unified Messaging
 ms:assetid: 74c883b4-cef6-41a9-b2eb-7212be32fea4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398564(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184521
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfc9ed0f51b3f534d5967c7195cc39736a4ecae9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6d31ed8b750d0162a2c09d49ca8a350731896086
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836412"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739351"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34836412"
 
 _**Tópico da última modificação:** 2012-09-26_
 
-Se você implantou UM (a) da Exchange Unified Messaging (UM), conforme descrito em [planejando a integração de Unificação de mensagens do Exchange no Lync Server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) na documentação de planejamento e deseja fornecer recursos de um do Exchange para usuários do Enterprise Voice em seu organização, você pode usar os procedimentos a seguir para configurar o certificado no servidor que executa o Exchange UM.
+Se você tiver implantado UM (a) da Exchange Unified Messaging (UM), conforme descrito em [planejamento para a integração de Unificação de mensagens do Exchange no Lync Server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) na documentação de planejamento e desejar fornecer recursos de um do Exchange para usuários de Enterprise Voice em sua organização, você pode usar os procedimentos a seguir para configurar o certificado no servidor que executa o Exchange um.
 
 <div>
 
@@ -187,7 +189,7 @@ O servidor Exchange deve ser configurado com um certificado de servidor para se 
     
 
     > [!NOTE]  
-    > Para o <STRONG>nome</STRONG>do requerente do certificado, você deve digitar o FQDN do servidor Exchange para que as comunicações funcionem.
+    > Para o <STRONG>nome do requerente</STRONG>do certificado, você deve digitar o FQDN do servidor Exchange para que as comunicações funcionem.
 
     
     </div>

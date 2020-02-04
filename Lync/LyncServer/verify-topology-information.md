@@ -3,6 +3,8 @@ title: Verificar informações de topologia
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Verify topology information
 ms:assetid: aa4c424e-f87c-4be6-8df6-a0cd193b11fc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205151(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185046
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7657bb80d7acb6d48a4027c665fae70e469bb236
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ec6c73f274cb67b527aaf1147f20e83959487255
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844116"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730831"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -56,7 +58,7 @@ A primeira etapa na verificação da mesclagem concluída com êxito é exibir a
     
     </div>
 
-![Caixa de diálogo BackCompatSite do construtor de topologia] (images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "Caixa de diálogo BackCompatSite do construtor de topologia")
+![Caixa de diálogo BackCompatSite do construtor de topologia](images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "Caixa de diálogo BackCompatSite do construtor de topologia")
 
 Você também pode usar o painel de controle do Lync Server 2013 para exibir a topologia mesclada. No painel de controle do Lync Server 2013, você pode ver cada FQDN do servidor, FQDN do pool e nome do site para a sua topologia mesclada. Os servidores mesclados têm um nome de **site** de **BackCompatSite**.
 
@@ -72,7 +74,7 @@ Você também pode usar o painel de controle do Lync Server 2013 para exibir a t
 
 3.  Na guia **status** , verifique se servidores e pools que você mesclou são exibidos procurando **BackCompatSite** na coluna do **site** .
 
-![Painel de controle do Lync Server mostrando topologia mesclada] (images/JJ205151.f986ddd4-2040-454d-9389-7f6154b59cc9(OCS.15).jpg "Painel de controle do Lync Server mostrando topologia mesclada")
+![Painel de controle do Lync Server mostrando topologia mesclada](images/JJ205151.f986ddd4-2040-454d-9389-7f6154b59cc9(OCS.15).jpg "Painel de controle do Lync Server mostrando topologia mesclada")
 
 Para ver mais detalhes sobre um pool mesclado, use o cmdlet **Get-CsPool** . Além das informações que estão disponíveis no painel de controle Topology Builder e Lync Server 2013, esse cmdlet exibe os serviços executados no pool do Lync Server 2013.
 
