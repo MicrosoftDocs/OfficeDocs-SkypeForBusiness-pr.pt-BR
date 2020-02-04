@@ -3,6 +3,8 @@ title: Importar políticas e configurações
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Import policies and settings
 ms:assetid: b25decee-2ee5-4836-b370-454411d39252
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205178(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185147
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5f4a4d86d687236934c319e3fb7bd5e6c8027a73
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6f8023f917e3da6757ce27ede44a63cf0ab1a08d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836987"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734081"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34836987"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="import-policies-and-settings"></a><span data-ttu-id="fae32-102">Importar políticas e configurações</span><span class="sxs-lookup"><span data-stu-id="fae32-102">Import policies and settings</span></span>
+# <a name="import-policies-and-settings"></a><span data-ttu-id="7f8c1-102">Importar políticas e configurações</span><span class="sxs-lookup"><span data-stu-id="7f8c1-102">Import policies and settings</span></span>
 
 </div>
 
@@ -33,39 +35,39 @@ ms.locfileid: "34836987"
 
 <span> </span>
 
-<span data-ttu-id="fae32-103">_**Tópico da última modificação:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="fae32-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="7f8c1-103">_**Tópico da última modificação:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="7f8c1-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="fae32-104">Depois de mesclar as informações de topologia do Office Communications Server 2007 R2 com o pool piloto do Lync Server 2013, você precisa executar um cmdlet do Shell de gerenciamento do Lync Server 2013 para migrar suas configurações e políticas do Office Communications Server 2007 R2 para o pool piloto do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="fae32-104">After you merge your Office Communications Server 2007 R2 topology information with your Lync Server 2013 pilot pool, you need to run a Lync Server 2013 Management Shell cmdlet to migrate your Office Communications Server 2007 R2 policies and configuration settings to your Lync Server 2013 pilot pool.</span></span>
+<span data-ttu-id="7f8c1-104">Depois de mesclar as informações de topologia do Office Communications Server 2007 R2 com o pool piloto do Lync Server 2013, você precisa executar um cmdlet do Shell de gerenciamento do Lync Server 2013 para migrar suas configurações e políticas do Office Communications Server 2007 R2 para o pool piloto do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7f8c1-104">After you merge your Office Communications Server 2007 R2 topology information with your Lync Server 2013 pilot pool, you need to run a Lync Server 2013 Management Shell cmdlet to migrate your Office Communications Server 2007 R2 policies and configuration settings to your Lync Server 2013 pilot pool.</span></span>
 
-<span data-ttu-id="fae32-105">O cmdlet **Import-CsLegacyConfiguration** importa políticas, rotas de voz, planos de discagem, URLs do Communicator Web Access e números de acesso discada para o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="fae32-105">The **Import-CsLegacyConfiguration** cmdlet imports policies, voice routes, dial plans, Communicator Web Access URLs, and dial-in access numbers to Lync Server 2013.</span></span>
+<span data-ttu-id="7f8c1-105">O cmdlet **Import-CsLegacyConfiguration** importa políticas, rotas de voz, planos de discagem, URLs do Communicator Web Access e números de acesso discada para o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7f8c1-105">The **Import-CsLegacyConfiguration** cmdlet imports policies, voice routes, dial plans, Communicator Web Access URLs, and dial-in access numbers to Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="to-migrate-policies-and-settings"></a><span data-ttu-id="fae32-106">Para migrar políticas e configurações</span><span class="sxs-lookup"><span data-stu-id="fae32-106">To migrate policies and settings</span></span>
+## <a name="to-migrate-policies-and-settings"></a><span data-ttu-id="7f8c1-106">Para migrar políticas e configurações</span><span class="sxs-lookup"><span data-stu-id="7f8c1-106">To migrate policies and settings</span></span>
 
-1.  <span data-ttu-id="fae32-107">No servidor de front-end do Lync Server 2013, inicie o Shell de gerenciamento do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="fae32-107">On the Lync Server 2013 Front End server, start the Lync Server Management Shell.</span></span>
+1.  <span data-ttu-id="7f8c1-107">No servidor de front-end do Lync Server 2013, inicie o Shell de gerenciamento do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="7f8c1-107">On the Lync Server 2013 Front End server, start the Lync Server Management Shell.</span></span>
 
-2.  <span data-ttu-id="fae32-108">Na linha de comando, digite o seguinte:</span><span class="sxs-lookup"><span data-stu-id="fae32-108">At the command line, type the following:</span></span>
+2.  <span data-ttu-id="7f8c1-108">Na linha de comando, digite o seguinte:</span><span class="sxs-lookup"><span data-stu-id="7f8c1-108">At the command line, type the following:</span></span>
     
         Import-CsLegacyConfiguration
     
-    <span data-ttu-id="fae32-109">Depois que as políticas forem importadas, use o procedimento a seguir para ver as políticas importadas no painel de controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="fae32-109">After the policies are imported, use the procedure that follows to see the imported policies in the Lync Server Control Panel .</span></span>
+    <span data-ttu-id="7f8c1-109">Depois que as políticas forem importadas, use o procedimento a seguir para ver as políticas importadas no painel de controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="7f8c1-109">After the policies are imported, use the procedure that follows to see the imported policies in the Lync Server Control Panel .</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-view-imported-policies"></a><span data-ttu-id="fae32-110">Para exibir as políticas importadas</span><span class="sxs-lookup"><span data-stu-id="fae32-110">To view imported policies</span></span>
+## <a name="to-view-imported-policies"></a><span data-ttu-id="7f8c1-110">Para exibir as políticas importadas</span><span class="sxs-lookup"><span data-stu-id="7f8c1-110">To view imported policies</span></span>
 
-1.  <span data-ttu-id="fae32-111">Abra o painel de controle do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="fae32-111">Open Lync Server 2013 Control Panel.</span></span>
+1.  <span data-ttu-id="7f8c1-111">Abra o painel de controle do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7f8c1-111">Open Lync Server 2013 Control Panel.</span></span>
 
-2.  <span data-ttu-id="fae32-112">Clique em **Roteamento de voz** e veja as políticas importadas.</span><span class="sxs-lookup"><span data-stu-id="fae32-112">Click **Voice Routing** and view the imported policies.</span></span>
+2.  <span data-ttu-id="7f8c1-112">Clique em **Roteamento de voz** e veja as políticas importadas.</span><span class="sxs-lookup"><span data-stu-id="7f8c1-112">Click **Voice Routing** and view the imported policies.</span></span>
 
-3.  <span data-ttu-id="fae32-113">Clique em **conferência** e veja as políticas importadas.</span><span class="sxs-lookup"><span data-stu-id="fae32-113">Click **Conferencing** and view the imported policies.</span></span>
+3.  <span data-ttu-id="7f8c1-113">Clique em **conferência** e veja as políticas importadas.</span><span class="sxs-lookup"><span data-stu-id="7f8c1-113">Click **Conferencing** and view the imported policies.</span></span>
 
-4.  <span data-ttu-id="fae32-114">Clique em **Federação e acesso externo** e veja as políticas importadas.</span><span class="sxs-lookup"><span data-stu-id="fae32-114">Click **Federation and External Access** and view the imported policies.</span></span>
+4.  <span data-ttu-id="7f8c1-114">Clique em **Federação e acesso externo** e veja as políticas importadas.</span><span class="sxs-lookup"><span data-stu-id="7f8c1-114">Click **Federation and External Access** and view the imported policies.</span></span>
 
-5.  <span data-ttu-id="fae32-115">Clique em **monitoramento e arquivamento** e veja as políticas importadas.</span><span class="sxs-lookup"><span data-stu-id="fae32-115">Click **Monitoring and Archiving** and view the imported policies.</span></span>
+5.  <span data-ttu-id="7f8c1-115">Clique em **monitoramento e arquivamento** e veja as políticas importadas.</span><span class="sxs-lookup"><span data-stu-id="7f8c1-115">Click **Monitoring and Archiving** and view the imported policies.</span></span>
 
 </div>
 
