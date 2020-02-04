@@ -3,6 +3,8 @@ title: 'Lync Server 2013: estabelecendo um plano de backup e restauração'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Establishing a backup and restoration plan
 ms:assetid: 9f562ef1-3804-41e2-b3e4-d45b2e8c63c9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202183(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541499
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b3516e63a7cbada4a89fad3540406e38b299fef
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cee1c4571dafa4e513f42613de13205ecec9de42
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829193"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735251"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ A criação de um plano de backup e restauração envolve as seguintes etapas:
 
 ## <a name="developing-a-backup-and-restoration-plan"></a>Desenvolvendo um plano de backup e restauração
 
-Depois de desenvolver sua estratégia de backup e restauração para o Lync Server, use-a para documentar um plano detalhado de backup e restauração. Seu plano deve transmitir claramente as prioridades e os requisitos para fazer backup de dados e configurações. Você pode usar as informações em [estabelecer uma estratégia de backup e restauração para o Lync server 2013](lync-server-2013-establishing-a-backup-and-restoration-strategy.md) e as planilhas nas planilhas de [backup e restauração do Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md) para facilitar a documentação da sua estratégia. Seu plano também deve conter critérios para decidir quando e como restaurar o serviço.
+Depois de desenvolver sua estratégia de backup e restauração para o Lync Server, use-a para documentar um plano detalhado de backup e restauração. Seu plano deve transmitir claramente as prioridades e os requisitos para fazer backup de dados e configurações. Você pode usar as informações em [estabelecer uma estratégia de backup e restauração para o Lync server 2013](lync-server-2013-establishing-a-backup-and-restoration-strategy.md) e as planilhas nas [planilhas de backup e restauração do Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md) para facilitar a documentação da sua estratégia. Seu plano também deve conter critérios para decidir quando e como restaurar o serviço.
 
 Ao desenvolver seu plano, você precisa considerar e fazer uma conta do seguinte:
 

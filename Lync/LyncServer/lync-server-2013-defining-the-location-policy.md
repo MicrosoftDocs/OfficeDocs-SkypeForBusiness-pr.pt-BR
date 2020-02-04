@@ -3,6 +3,8 @@ title: 'Lync Server 2013: definindo a política de localização'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining the location policy
 ms:assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398962(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185553
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 26b0e9aca4b3e66202d6b3c4a47b90db4f207fda
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: feb7550412fa6cdcda3a8fc4dd9b7913912c34e1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829710"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728351"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -79,7 +81,7 @@ Cada política de local contém as seguintes informações:
     
 
     > [!NOTE]  
-    > Se a sua organização não usar um prefixo de acesso de linha externa, você não precisará criar uma regra de normalização de plano de discagem correspondente que adiciona "+" à cadeia de caracteres 911 antes de enviar a chamada para o roteamento de saída em um servidor de pool do Lync; o "+" será automaticamente retomado pelo cliente do Lync como resultado da política de localização. No entanto, se seu site usar um prefixo de acesso externo, será necessário adicionar uma regra de normalização à política de Plano de Discagem aplicável que remove o prefixo de acesso externo e adiciona “+”. Por exemplo, se a sua localização usa um prefixo de acesso externo de 9 e um usuário discar 9&nbsp;911 para fazer uma chamada de emergência, o cliente usará sua política de plano de discagem para normalizar isso para + 911 antes que o número discado seja avaliado por rotas na localização do chamador Profile.
+    > Se a sua organização não usar um prefixo de acesso de linha externa, você não precisará criar uma regra de normalização de plano de discagem correspondente que adiciona "+" à cadeia de caracteres 911 antes de enviar a chamada para o roteamento de saída em um servidor de pool do Lync; o "+" será automaticamente retomado pelo cliente do Lync como resultado da política de localização. No entanto, se seu site usar um prefixo de acesso externo, será necessário adicionar uma regra de normalização à política de Plano de Discagem aplicável que remove o prefixo de acesso externo e adiciona “+”. Por exemplo, se a sua localização usa um prefixo de acesso externo de 9 e um usuário discar 9&nbsp;911 para fazer uma chamada de emergência, o cliente usará sua política de plano de discagem para normalizar isso para + 911 antes que o número discado seja avaliado por rotas no perfil de localização do chamador.
 
     
     </div>
@@ -87,7 +89,7 @@ Cada política de local contém as seguintes informações:
 <!-- end list -->
 
   - **Máscaras de cadeias de discagem de emergência**  
-    Uma lista separada por ponto-e-vírgula de cadeias de discagem que é traduzida para a cadeia de discagem de **emergência**especificada Por exemplo, talvez você queira adicionar 112, que é o número do serviço de emergência para a maioria da Europa. Um usuário visitante do Lync da Europa talvez não saiba que 911 é o número de emergência dos EUA, mas pode discar o 112 e obter o mesmo resultado. Assim como na cadeia de caracteres de discagem de emergência, não inclua um "+" antes de cada número e, se você usar códigos de acesso de linha externos, certifique-se de que haja regras de normalização na política de plano de discagem do usuário para retirar o dígito de código de acesso.
+    Uma lista separada por ponto-e-vírgula de cadeias de discagem que é traduzida para a **cadeia de discagem de emergência**especificada Por exemplo, talvez você queira adicionar 112, que é o número do serviço de emergência para a maioria da Europa. Um usuário visitante do Lync da Europa talvez não saiba que 911 é o número de emergência dos EUA, mas pode discar o 112 e obter o mesmo resultado. Assim como na cadeia de caracteres de discagem de emergência, não inclua um "+" antes de cada número e, se você usar códigos de acesso de linha externos, certifique-se de que haja regras de normalização na política de plano de discagem do usuário para retirar o dígito de código de acesso.
 
 <!-- end list -->
 

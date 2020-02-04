@@ -3,6 +3,8 @@ title: 'Lync Server 2013: pôster: metodologia de qualidade de chamada do Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Poster: Lync Call Quality Methodology'
 ms:assetid: a069f4e5-4f80-4f0f-8657-2e07276b6b41
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn593600(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 61084874
 ms.date: 06/24/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e18dc59e0b8669bb48962874291e63523f37eb48
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 95105501d0403600e88d01ad5fa84363c1e81785
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824012"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724971"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Tópico da última modificação:** 2016-06-24_
 
 Este artigo é um complemento ao pôster da [metodologia de qualidade de chamada do Lync](http://go.microsoft.com/fwlink/?linkid=391841) , que você pode baixar no centro de download.
 
-![Cartaz descrevendo o processo de CQM] (images/Dn594589.d239e04a-1c3b-4f0e-93af-88b85198615a(OCS.15).jpg "Cartaz descrevendo o processo de CQM")
+![Cartaz descrevendo o processo de CQM](images/Dn594589.d239e04a-1c3b-4f0e-93af-88b85198615a(OCS.15).jpg "Cartaz descrevendo o processo de CQM")
 
 Você pode usar este pôster para saber mais sobre o CQM, a metodologia de qualidade da chamada do Lync 2013 e do 2010 que ajuda você a encontrar e eliminar problemas que afetam a qualidade da chamada e a experiência do usuário para implementações do Lync que incluem recursos Enterprise Voice. A metodologia de qualidade da chamada é uma nova estrutura de solução de problemas e gerenciamento de serviços que pode focalizar melhor os esforços para melhorar os serviços Enterprise Voice no Lync. Neste artigo, você pode saber mais sobre o CQM, os tipos de servidores e soluções que são monitorados e o que fazer com os dados de telemetria coletados.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Definir configurações de reroteamento de caixa posta
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure voice mail rerouting settings
 ms:assetid: 7ab6be28-eabb-4a79-a796-648887d71b83
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398606(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73aa16f7c18665c0b74c1e31e2ce888abdbe1c5a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b4ea243e87490bcabd48c866cce525d6bbd17077
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836307"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733841"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ Para obter detalhes, consulte a seção "preparando a imsustentabilidade da caix
 
 1.  Peça ao administrador do Exchange para configurar o AA para aceitar somente mensagens (no Shell do Exchange Use o seguinte cmdlet: **set- \<UMAutoAttendant AA\> nome-CallSomeoneEnabled $false**. O parâmetro que especifica a permissão para deixar mensagens (*SendVoiceMsgEnabled*) é verdadeiro por padrão.
 
-2.  No Shell de gerenciamento do Lync Server, use o cmdlet **New-CSVoiceMailReroutingConfiguration** para definir o número de telefone AA como o número de telefone do atendedor automático do Exchange na caixa de entrada de redirecionamento de correio de voz na ramificação da ramificação sobreviventes ou Servidor de ramificação sobreviventes.
+2.  No Shell de gerenciamento do Lync Server, use o cmdlet **New-CSVoiceMailReroutingConfiguration** para definir o número de telefone AA como o número de telefone do atendedor automático do Exchange na caixa de entrada configuração de redirecionamento de caixa postal para o aparelho de ramificação sobreviventes ou o servidor de ramificação sobreviventes.
     
     <div>
     

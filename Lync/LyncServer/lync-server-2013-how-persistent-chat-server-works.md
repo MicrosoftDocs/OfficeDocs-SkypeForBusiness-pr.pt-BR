@@ -3,6 +3,8 @@ title: 'Lync Server 2013: como funciona o servidor de chat persistente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: How Persistent Chat Server works
 ms:assetid: 3d04e9a1-3f0c-458e-bcbe-d27c8c464276
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ683096(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49684643
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0bf6179e1ce24264c2079b3096fa9bb8c539ca1c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 692f9a40bc2c0fd885fc251a4a792d480a69c57d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829071"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722391"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,11 +61,11 @@ Os diagramas a seguir fornecem perspectivas de alto nível da arquitetura e dos 
 
 **Arquitetura de alto nível do servidor de chat persistente**
 
-![Arquitetura de servidor de chat persistente.] (images/JJ683096.5db6f36f-4461-4d87-ba77-463b7ffe609b(OCS.15).jpg "Arquitetura de servidor de chat persistente.")
+![Arquitetura de servidor de chat persistente.](images/JJ683096.5db6f36f-4461-4d87-ba77-463b7ffe609b(OCS.15).jpg "Arquitetura de servidor de chat persistente.")
 
 **Serviços de alto nível do servidor de chat persistente**
 
-![Componentes persistentes do servidor de chat.] (images/JJ683096.b6d743aa-3a86-4081-aaef-4fe3257db4e7(OCS.15).jpg "Componentes persistentes do servidor de chat.")
+![Componentes persistentes do servidor de chat.](images/JJ683096.b6d743aa-3a86-4081-aaef-4fe3257db4e7(OCS.15).jpg "Componentes persistentes do servidor de chat.")
 
 Dois serviços são executados nos servidores de front-end do servidor de chat persistente:
 
@@ -117,13 +119,13 @@ Nos servidores de front-end do Lync Server, dois serviços executados dependem d
 
 O servidor de chat persistente é uma função de servidor opcional na infraestrutura do Lync Server 2013. Se você instalar a função de servidor de chat persistente, todos os usuários que foram habilitados por meio da política por um administrador poderão usar o chat persistente com o cliente Lync 2013.
 
-Para obter detalhes sobre como implantar o servidor de chat persistente e habilitar os usuários a aproveitar os recursos por política, consulte Implantando o [servidor de chat persistente no Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md).
+Para obter detalhes sobre como implantar o servidor de chat persistente e habilitar os usuários a aproveitar os recursos por política, consulte [implantando o servidor de chat persistente no Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md).
 
-Para obter detalhes sobre como definir as configurações na sua implantação do servidor de chat persistente, consulte Implantando o [servidor de chat persistente no Lync server 2013](lync-server-2013-deploying-persistent-chat-server.md) e gerenciando o [Lync Server 2013, servidor de chat persistente](managing-lync-server-2013-persistent-chat-server.md).
+Para obter detalhes sobre como definir as configurações na sua implantação do servidor de chat persistente, consulte [implantando o servidor de chat persistente no Lync server 2013](lync-server-2013-deploying-persistent-chat-server.md) e [Gerenciando o Lync Server 2013, servidor de chat persistente](managing-lync-server-2013-persistent-chat-server.md).
 
 Para obter detalhes sobre como habilitar os usuários por política, para que eles possam aproveitar a funcionalidade de chat persistente no cliente do Lync 2013, consulte [implantação do servidor de chat persistente no Lync server 2013](lync-server-2013-deploying-persistent-chat-server.md) e [Gerenciamento do Lync Server 2013, servidor de chat persistente](managing-lync-server-2013-persistent-chat-server.md).
 
-Se você implantou a conformidade persistente com o chat, consulte Gerenciando o [Lync server 2013, servidor de chat persistente](managing-lync-server-2013-persistent-chat-server.md) para obter detalhes sobre como definir as configurações de conformidade.
+Se você implantou a conformidade persistente com o chat, consulte [Gerenciando o Lync server 2013, servidor de chat persistente](managing-lync-server-2013-persistent-chat-server.md) para obter detalhes sobre como definir as configurações de conformidade.
 
 </div>
 
@@ -141,7 +143,7 @@ As etapas e o diagrama de fluxo de chamadas a seguir descrevem o processo de ent
 
 **Fluxo de chamadas de entrada do cliente de chat persistente**
 
-![Diagrama de fluxo de chamadas de servidor de chat persistente.] (images/JJ683096.9b3b3c61-caca-42b6-853c-6a09e6ff5c44(OCS.15).jpg "Diagrama de fluxo de chamadas de servidor de chat persistente.")
+![Diagrama de fluxo de chamadas de servidor de chat persistente.](images/JJ683096.9b3b3c61-caca-42b6-853c-6a09e6ff5c44(OCS.15).jpg "Diagrama de fluxo de chamadas de servidor de chat persistente.")
 
 1.  O cliente de chat persistente primeiro envia uma assinatura SIP para recuperar o documento de provisionamento em banda do servidor. Este documento indica se o chat persistente está habilitado ou desabilitado para o usuário e a lista de URIs SIP do pool do servidor de chat persistente.
 
@@ -149,9 +151,9 @@ As etapas e o diagrama de fluxo de chamadas a seguir descrevem o processo de ent
 
 3.  O cliente de chat persistente envia uma mensagem SIP INFO que contém o comando XCCOS **GetServerInfo** . O servidor de chat persistente responde com uma nova mensagem de informações SIP que contém informações sobre a configuração do serviço de chat persistente.
 
-4.  O cliente de chat persistente envia uma mensagem SIP INFO que contém o **** comando XCCOS getassociations. O servidor de chat persistente responde com uma nova mensagem de informações SIP que contém a lista de salas dos quais o usuário é membro. O cliente de chat persistente repete o comando para recuperar a lista de salas das quais o usuário é um gerente.
+4.  O cliente de chat persistente envia uma mensagem SIP INFO que contém o comando XCCOS **getassociations** . O servidor de chat persistente responde com uma nova mensagem de informações SIP que contém a lista de salas dos quais o usuário é membro. O cliente de chat persistente repete o comando para recuperar a lista de salas das quais o usuário é um gerente.
 
-5.  O cliente de chat persistente Obtém a lista de salas seguidas do documento "presença", em que cada sala acompanhada é representada por uma categoria "roomSetting". Todas as salas seguidas são unidas por uma única mensagem SIP que contém o comando XCCOS **bPara participar** que contém a lista de URIs de sala. Como a lista de salas seguidas é mantida no servidor, qualquer cliente em qualquer computador tem a mesma lista de salas seguidas para o URI de usuário especificado. O cliente de chat persistente também mantém a lista de salas abertas (se esta opção estiver habilitada pelo usuário) no registro do computador local e ingressar em cada uma dessas salas na entrada, enviando uma mensagem SIP INFO que contém o comando XCCOS **Join** para cada sala aberta . Como essa lista é mantida no registro, ela pode ser diferente em dois clientes de chat persistentes em execução em computadores diferentes.
+5.  O cliente de chat persistente Obtém a lista de salas seguidas do documento "presença", em que cada sala acompanhada é representada por uma categoria "roomSetting". Todas as salas seguidas são unidas por uma única mensagem SIP que contém o comando XCCOS **bPara participar** que contém a lista de URIs de sala. Como a lista de salas seguidas é mantida no servidor, qualquer cliente em qualquer computador tem a mesma lista de salas seguidas para o URI de usuário especificado. O cliente de chat persistente também mantém a lista de salas abertas (se essa opção estiver habilitada pelo usuário) no registro do computador local e ingressar em cada uma dessas salas na entrada, enviando uma mensagem SIP INFO que contém o comando XCCOS **Join** para cada sala aberta. Como essa lista é mantida no registro, ela pode ser diferente em dois clientes de chat persistentes em execução em computadores diferentes.
 
 6.  Para cada sala unida, o cliente de chat persistente envia uma mensagem de informações SIP que contém o comando XCCOS **bccontext** . O servidor de chat persistente responde com uma nova mensagem de informações SIP que contém a mensagem de chat mais recente na sala.
 
@@ -167,9 +169,9 @@ As etapas e o diagrama de fluxo de chamadas a seguir descrevem um cenário típi
 
 **Assinatura da sala de chat persistente do cliente de chat e fluxo de chamadas de lançamento de mensagens**
 
-![Licença da sala e cenário de postagem de mensagem.] (images/JJ683096.2d3c417e-c91b-42bd-964e-285b72bb2e44(OCS.15).jpg "Licença da sala e cenário de postagem de mensagem.")
+![Licença da sala e cenário de postagem de mensagem.](images/JJ683096.2d3c417e-c91b-42bd-964e-285b72bb2e44(OCS.15).jpg "Licença da sala e cenário de postagem de mensagem.")
 
-1.  No cliente de chat persistente, o Usuário1 clica em ingressar em **uma sala de chat**, clica em **Pesquisar**e, em seguida, insere critérios de pesquisa. O cliente de chat persistente envia uma mensagem SIP INFO que contém o comando XCCOS **chansrch** (localização da sala), juntamente com os critérios de pesquisa. O servidor de chat persistente consulta o banco de dados back-end e responde em uma nova mensagem de informações SIP que contém uma lista de salas disponíveis que atendem aos critérios de pesquisa.
+1.  No cliente de chat persistente, o Usuário1 clica em **ingressar em uma sala de chat**, clica em **Pesquisar**e, em seguida, insere critérios de pesquisa. O cliente de chat persistente envia uma mensagem SIP INFO que contém o comando XCCOS **chansrch** (localização da sala), juntamente com os critérios de pesquisa. O servidor de chat persistente consulta o banco de dados back-end e responde em uma nova mensagem de informações SIP que contém uma lista de salas disponíveis que atendem aos critérios de pesquisa.
 
 2.  Usuário1 seleciona a sala de chat que deseja participar e, em seguida, clica em **acompanhar esta sala**. O cliente de chat persistente envia uma mensagem de informações SIP do servidor de chat persistente que contém o comando XCCOS **Join** e a ID da sala da sala de chat que o usuário selecionou. O servidor de chat persistente responde com uma mensagem de informações SIP que contém os dados de provisionamento.
 

@@ -3,6 +3,8 @@ title: Verificar a conclusão da replicação de usuário
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Verify user replication has completed
 ms:assetid: 119e9896-45e5-4f8b-af43-7b09360ada0b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204680(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183441
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e96d3231fbbfe9ce9062e948e6b60de6521720e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bed93912b62e323186a902fb717548c16b405299
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844115"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730761"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,9 +53,9 @@ Ao executar o cmdlet **move-CsUser** , você pode enfrentar uma falha porque as 
 
 5.  No painel **ações** , clique em **Filtrar log atual**.
 
-6.  Na lista **fontes de eventos** , clique em duplicador de **usuários ls**.
+6.  Na lista **fontes de eventos** , clique em **Duplicador de usuários ls**.
 
-7.  Em ** \<todas as\> identificações de evento** , insira **30024** e clique em **OK**.
+7.  Em ** \<todas as identificações\> de evento** , insira **30024** e clique em **OK**.
 
 8.  Na lista eventos filtrados, na guia **geral** , procure por uma entrada que declara que a duplicação do usuário foi concluída com êxito.
 

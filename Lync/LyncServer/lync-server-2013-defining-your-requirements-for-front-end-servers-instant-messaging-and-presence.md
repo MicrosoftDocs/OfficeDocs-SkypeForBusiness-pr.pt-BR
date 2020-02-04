@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Definindo seus requisitos para Servidores Front-End Se
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining your requirements for Front End Servers, instant messaging, and presence
 ms:assetid: c21198bc-520c-4d17-8b84-7ff1475b9b0a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412956(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185319
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 176b73f6d82c03e3bcdb0f2b0066752cd68f307c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: af371d116948d348b49c552dfe53290c1dae1900
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829688"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743411"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ Você pode aumentar bastante as vantagens do seu investimento no Lync Server ao 
 
   - **Usuários federados usuários**   de empresas que você trabalha com quem também executa o Lync Server. Para habilitar que seus usuários entrem em contato facilmente com esses usuários, crie relacionamentos federados com essas empresas.
 
-  - **Usuários públicos usuários**   de serviços públicos de mensagens de chat, como serviços de im fornecidos pela rede do Windows Live dos serviços\!de Internet, Yahoo e AOL, e usuários de provedores e servidores que usam o protocolo de mensagens extensíveis e presença (XMPP), como Google Talk.
+  - **Usuários públicos usuários**   de serviços públicos de mensagens de chat, como serviços de mensagens instantâneas fornecidos pela rede do Windows Live\!dos serviços de Internet, Yahoo e AOL, e usuários de provedores e servidores que usam o XMPP (mensagens extensíveis e o protocolo de presença), como o Google Talk.
     
     <div>
     
@@ -83,7 +85,7 @@ Para habilitar qualquer um desses cenários, você precisa implantar um servidor
 
 O Lync Server fornece recursos que você pode usar se a sua organização deve seguir as normas de conformidade. É possível usar a função Arquivamento para arquivar o conteúdo de mensagens instantâneas de todos os usuários de sua organização ou apenas de usuários específicos. Para obter detalhes, consulte [planejando o arquivamento no Lync Server 2013](lync-server-2013-planning-for-archiving.md) na documentação de planejamento.
 
-Se você também tiver o Microsoft Exchange Server 2013 implantado, poderá integrar o arquivamento dos dados do Exchange com o arquivamento dos dados do Lync Server e usar uma única ferramenta para pesquisar os dois tipos de dados arquivados. Para obter mais informações, consulte Configurando [o Microsoft Lync server 2013 para usar o Microsoft Exchange server 2013 Archiving](configuring-lync-server-2013-to-use-microsoft-exchange-server-2013-archiving.md).
+Se você também tiver o Microsoft Exchange Server 2013 implantado, poderá integrar o arquivamento dos dados do Exchange com o arquivamento dos dados do Lync Server e usar uma única ferramenta para pesquisar os dois tipos de dados arquivados. Para obter mais informações, consulte [Configurando o Microsoft Lync server 2013 para usar o Microsoft Exchange server 2013 Archiving](configuring-lync-server-2013-to-use-microsoft-exchange-server-2013-archiving.md).
 
 </div>
 

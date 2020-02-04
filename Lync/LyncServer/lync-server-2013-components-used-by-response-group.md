@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Componentes usados pelo Grupo de Respostas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components used by Response Group
 ms:assetid: 2b058785-47ca-43b7-b3de-6928a60dc685
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425768(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183693
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f52ceb18c355f6d867b5b3b4485434df83683d26
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 81275ca027971d661d3323fbfc175c51d4f4d7d4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836508"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757055"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +65,7 @@ Os seguintes componentes do Microsoft Lync Server 2013 suportam o aplicativo do 
 
   - ****   Os serviços Web de serviços Web são necessários para a ferramenta de configuração de grupo de resposta, o console de entrada e de saída dos agentes, o painel de controle do Lync Server e o serviço Web de cliente do grupo de resposta.
 
-  - ****   Aplicativo de grupo de resposta de serviço Web de cliente de grupo de resposta fornece um serviço Web de cliente, que pode ser usado por aplicativos de terceiros para recuperar informações sobre agentes, associação de grupo de agente, status de entrada do agente, status da chamada para grupos, e os grupos que dão suporte a chamadas anônimas. Lync 2013 e Lync 2010 Attendant use o serviço Web de cliente de grupo de resposta para recuperar a lista de grupos de resposta que os agentes podem usar para fazer chamadas anônimas. O serviço Web cliente é incluído durante a instalação de serviços Web.
+  - ****   Aplicativo de grupo de resposta do serviço Web de cliente de grupo de resposta fornece um serviço Web de cliente, que pode ser usado por aplicativos de terceiros para recuperar informações sobre agentes, associação de grupo de agente, status de entrada do agente, status da chamada para grupos e os grupos que dão suporte a chamadas anônimas. Lync 2013 e Lync 2010 Attendant use o serviço Web de cliente de grupo de resposta para recuperar a lista de grupos de resposta que os agentes podem usar para fazer chamadas anônimas. O serviço Web cliente é incluído durante a instalação de serviços Web.
 
 </div>
 

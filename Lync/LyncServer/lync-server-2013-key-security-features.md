@@ -3,6 +3,8 @@ title: 'Lync Server 2013: principais recursos de segurança'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Key security features in Lync Server 2013
 ms:assetid: bf2a3b8f-73c6-47e1-8c9e-ca1dc1a502bf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn342829(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56107266
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53a6d9e23442cb127f0f08849e18f1d63bae76d6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 55d59a6978b90db82ccf899df90b05c739e71a57
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828960"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738311"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -99,7 +101,7 @@ O Microsoft Lync Server 2013 fornece controle de acesso baseado em função (RBA
 
 ## <a name="network-address-translation-nat"></a>Conversão de Endereço de Rede (NAT)
 
-O Lync Server 2013 não é compatível com o uso de NAT (conversão de endereços de rede) na interface interna do servidor de borda, mas suporta colocar a interface externa do serviço de borda de acesso, o serviço de borda de Webconferência e o serviço de borda A/V atrás de um roteador ou firewall que executa a NAT (conversão de endereços de rede) para topologias de servidor de borda consolidadas simples e em escala. Múltiplos Servidores de Borda ocultos sob um balanceador de carga de hardware não podem usar o NAT. O balanceador de carga do DNS (Domain Name System) é obrigatório se múltiplos Servidores de Borda usarem o NAT em suas interfaces externas. Por sua vez, o uso do balanceador de carga do DNS permite reduzir o número de endereços de IP públicos por Servidor de Borda em um pool de Servidores de Borda. Para obter detalhes, consulte[planejando o acesso de usuários externos no Lync Server 2013](lync-server-2013-planning-for-external-user-access.md).
+O Lync Server 2013 não oferece suporte ao uso de NAT (conversão de endereços de rede) na interface interna do servidor de borda, mas oferece suporte à colocação da interface externa do serviço de borda de acesso, serviço de borda de Webconferência e serviço de borda A/V por trás de um roteador ou firewall que executa a conversão de endereços de rede Múltiplos Servidores de Borda ocultos sob um balanceador de carga de hardware não podem usar o NAT. O balanceador de carga do DNS (Domain Name System) é obrigatório se múltiplos Servidores de Borda usarem o NAT em suas interfaces externas. Por sua vez, o uso do balanceador de carga do DNS permite reduzir o número de endereços de IP públicos por Servidor de Borda em um pool de Servidores de Borda. Para obter detalhes, consulte[planejando o acesso de usuários externos no Lync Server 2013](lync-server-2013-planning-for-external-user-access.md).
 
 <div>
 
@@ -131,7 +133,7 @@ O Lync Server 2013 foi projetado e desenvolvido em conformidade com o SDL (Micro
 
   - **Confiável por**   padrão, por padrão, as comunicações de rede no Lync Server 2013 são criptografadas. Como todos os servidores usam certificados e autenticação Kerberos, TLS, SSTP (Secure real-time Transport Protocol) e outras técnicas de criptografia padrão do setor, incluindo criptografia AES (padrão de criptografia avançada) de 128 bits, praticamente todos os lynces Os dados do servidor são protegidos na rede. Além disso, o controle de acesso baseado em função torna possível implantar servidores que executam o Lync Server 2013 para que cada função de servidor execute somente os serviços e tenha apenas as permissões relacionadas a esses serviços, que sejam apropriados para a função de servidor.
 
-  - **Confiável**   para a implantação toda a documentação do Lync Server 2013 inclui práticas recomendadas e recomendações para ajudá-lo a determinar e configurar os níveis de segurança ideais para a sua implantação e avaliar os riscos de segurança da ativação não padrão Opções.
+  - **Confiável**   para a implantação toda a documentação do Lync Server 2013 inclui práticas recomendadas e recomendações para ajudá-lo a determinar e configurar os níveis de segurança ideais para a sua implantação e avaliar os riscos de segurança da ativação de opções não padrão.
 
 </div>
 

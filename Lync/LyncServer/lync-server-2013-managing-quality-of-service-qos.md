@@ -1,6 +1,8 @@
 ---
 title: 'Lync Server 2013: Gerenciando a qualidade do serviço (QoS)'
 ms.reviewer: ''
+f1.keywords:
+- NOCSH
 TOCTitle: Managing Quality of Service (QoS)
 author: lanachin
 ms.author: v-lanac
@@ -11,12 +13,12 @@ ms:contentKeyID: 48185049
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96f25d35f0d96c9e1681c6b4d2c2c3b3079aad34
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ce88471361c63fde3ebf8a3ea716a140567e722e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827862"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725581"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -66,7 +68,7 @@ O Lync Server 2013 oferece suporte completo para a qualidade do serviço: isso s
 
   - [Configuração de políticas de qualidade de serviço no Lync Server 2013 para clientes em execução no Windows 7 ou no Windows 8](lync-server-2013-configuring-quality-of-service-policies-for-clients-running-on-windows-7-or-windows-8.md). Observe que o Microsoft Lync Server 2013 não é compatível com QoS para outros sistemas operacionais Windows, como Windows Vista ou Windows XP.
 
-  - Configurando a [qualidade do serviço em dispositivos Microsoft Lync Phone Edition no Lync Server 2013](lync-server-2013-configuring-quality-of-service-on-microsoft-lync-phone-edition-devices.md). Por padrão, a QoS está habilitada para dispositivos do Lync Phone Edition. No entanto, talvez você queira alterar o valor padrão de DSCP para garantir que todos os pacotes de áudio em sua organização usem o mesmo código DSCP.
+  - [Configurando a qualidade do serviço em dispositivos Microsoft Lync Phone Edition no Lync Server 2013](lync-server-2013-configuring-quality-of-service-on-microsoft-lync-phone-edition-devices.md). Por padrão, a QoS está habilitada para dispositivos do Lync Phone Edition. No entanto, talvez você queira alterar o valor padrão de DSCP para garantir que todos os pacotes de áudio em sua organização usem o mesmo código DSCP.
 
 <div>
 

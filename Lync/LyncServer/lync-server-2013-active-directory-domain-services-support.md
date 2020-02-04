@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Suporte a Serviços de Domínio Active Directory'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Active Directory Domain Services support
 ms:assetid: aeb62d5e-e424-473a-b795-9452150c98dd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412831(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185136
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b264abefb1234892df355fee123dd6ce68b4dfb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 32e1bce2546512900efb0b5ecd1256a97adde41e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836960"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737011"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ O Lync Server 2013 usa o repositório de gerenciamento central para armazenar da
     
       - Extensões para as classes do Lync Server 2010 e do Office Communications Server 2007 R2 para manter a compatibilidade com versões anteriores do suporte
 
-  - **Dados** do (armazenado no esquema estendido do Lync Server 2013 e em classes existentes)
+  - **Dados** (armazenados no esquema estendido do Lync Server 2013 e em classes existentes)
     
       - URI do SIP do usuário e outras configurações de usuário
     

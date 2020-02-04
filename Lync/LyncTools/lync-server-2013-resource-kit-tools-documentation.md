@@ -3,6 +3,8 @@ title: Documentação de ferramentas do kit de recursos do Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server 2013 Resource Kit Tools Documentation
 ms:assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945604(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541429
 ms.date: 02/02/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1589285948bd9d3f82fae0ed7c7916029716514f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 511a4ee9920237e1671a44a2f7481b40fbeb8e1a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845045"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743591"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -201,7 +203,7 @@ Administradores que têm as permissões necessárias para atualizar a implantaç
 
 A ABSConfig pode ser iniciada digitando **ABSConfig.exe** em um prompt de comando. Abaixo é mostrada a interface do usuário da ferramenta ABSConfig.
 
-![A ferramenta ABSConfig. exe.] (images/JJ945604.6fb63a70-7b63-4b8b-b7d1-82fe9aa2028f(OCS.15).jpg "A ferramenta ABSConfig. exe.")
+![A ferramenta ABSConfig. exe.](images/JJ945604.6fb63a70-7b63-4b8b-b7d1-82fe9aa2028f(OCS.15).jpg "A ferramenta ABSConfig. exe.")
 
 </div>
 
@@ -407,7 +409,7 @@ O registro da linha do tempo permite que o usuário da ferramenta especifique o 
 
 2.  **Data de término** Trata-se da data de término da linha do tempo para a qual o relatório deve ser gerado; por exemplo, 30 de setembro de 2010.
     
-    ![Datas de início e término na utilização da largura de banda a] (images/JJ945604.2c597cfc-3372-4d41-816b-26202f607ad8(OCS.15).jpg "Datas de início e término na utilização da largura de banda a")  
+    ![Datas de início e término na utilização da largura de banda A](images/JJ945604.2c597cfc-3372-4d41-816b-26202f607ad8(OCS.15).jpg "Datas de início e término na utilização da largura de banda A")  
 
 </div>
 
@@ -421,7 +423,7 @@ Os seguintes diretórios de arquivo devem ser especificados pelo usuário, como 
 
   - **Local de armazenamento de arquivo temporário** O local do arquivo temporário onde os arquivos intermediários são armazenados enquanto o relatório está sendo gerado.
 
-![Diretórios de arquivos no anal de utilização da largura de banda] (images/JJ945604.d66daeac-1669-45e3-932d-3f6782840c2a(OCS.15).jpg "Diretórios de arquivos no anal de utilização da largura de banda")
+![Diretórios de arquivos no anal de utilização da largura de banda](images/JJ945604.d66daeac-1669-45e3-932d-3f6782840c2a(OCS.15).jpg "Diretórios de arquivos no anal de utilização da largura de banda")
 
 <div>
 
@@ -441,11 +443,11 @@ Os seguintes diretórios de arquivo devem ser especificados pelo usuário, como 
 
 Para coletar os logs e iniciar o visualizador de relatórios, clique em **Executar**, como mostrado abaixo. Esta etapa coleta os dados necessários.
 
-![Coletando dados na Analy de utilização da largura de banda] (images/JJ945604.0019cb2c-7c01-4dc9-ac90-ac47c47d1bfd(OCS.15).jpg "Coletando dados na Analy de utilização da largura de banda")
+![Coletando dados na Analy de utilização da largura de banda](images/JJ945604.0019cb2c-7c01-4dc9-ac90-ac47c47d1bfd(OCS.15).jpg "Coletando dados na Analy de utilização da largura de banda")
 
 Se a validação da entrada for bem-sucedida, a mensagem abaixo será exibida.
 
-![Registra a notificação coletada no utilitário de largura de banda] (images/JJ945604.eda91da8-3285-4eab-8ccb-c6d89c8cc221(OCS.15).jpg "Registra a notificação coletada no utilitário de largura de banda")
+![Registra a notificação coletada no utilitário de largura de banda](images/JJ945604.eda91da8-3285-4eab-8ccb-c6d89c8cc221(OCS.15).jpg "Registra a notificação coletada no utilitário de largura de banda")
 
 Clique em **OK**. BandwidthUtilizationAnalyzer.xlsm será iniciado automaticamente. Siga as instrução na caixa de mensagens. Para obter mais detalhes, consulte **Uso do BandwidthUtilizationAnalyzer.xlsm ** na próxima seção.
 
@@ -458,17 +460,17 @@ Clique em **OK**. BandwidthUtilizationAnalyzer.xlsm será iniciado automaticamen
 
 1.  Se o BandwidthUtilizationAnalyzer.xlsm tiver sido iniciado automaticamente, clique em **Atualizar**, como a seguir.
     
-    ![BandwidthUtilizationAnalyzer. xlsm] (images/JJ945604.c4e675b9-1671-400e-a712-6db82d731b39(OCS.15).jpg "BandwidthUtilizationAnalyzer. xlsm")
+    ![BandwidthUtilizationAnalyzer. xlsm](images/JJ945604.c4e675b9-1671-400e-a712-6db82d731b39(OCS.15).jpg "BandwidthUtilizationAnalyzer.xlsm")
 
 2.  Quando uma pasta de arquivos for aberta, selecione consolidated.csv na localização especificada na caixa de mensagens, como a seguir. Ele também mostra o local como **C:\\Temp**.
     
-    ![Abrir uma pasta no BandwidthUtilizationAnalyzer.] (images/JJ945604.601cc572-cee9-45fb-9ed1-c4b96a2fa21e(OCS.15).jpg "Abrir uma pasta no BandwidthUtilizationAnalyzer.")
+    ![Abrir uma pasta no BandwidthUtilizationAnalyzer.](images/JJ945604.601cc572-cee9-45fb-9ed1-c4b96a2fa21e(OCS.15).jpg "Abrir uma pasta no BandwidthUtilizationAnalyzer.")
 
 3.  Clique em **Importar**.
 
 4.  A plotagem gráfica é gerada automaticamente. Ela será disponibilizada assim que o ponteiro de trabalho em segundo plano desaparecer.
     
-    ![Aplicação de filtros no modo de exibição relatório.] (images/JJ945604.1416468e-e3ab-478e-b569-e42ba9c27a17(OCS.15).jpg "Aplicação de filtros no modo de exibição relatório.")
+    ![Aplicação de filtros no modo de exibição relatório.](images/JJ945604.1416468e-e3ab-478e-b569-e42ba9c27a17(OCS.15).jpg "Aplicação de filtros no modo de exibição relatório.")
 
 </div>
 
@@ -478,7 +480,7 @@ Clique em **OK**. BandwidthUtilizationAnalyzer.xlsm será iniciado automaticamen
 
 Os filtros que podem ser aplicados ao visualizador de relatórios, conforme mostrado abaixo, são descritos da seguinte forma:
 
-![Aplicação de filtros no modo de exibição relatório.] (images/JJ945604.1416468e-e3ab-478e-b569-e42ba9c27a17(OCS.15).jpg "Aplicação de filtros no modo de exibição relatório.")
+![Aplicação de filtros no modo de exibição relatório.](images/JJ945604.1416468e-e3ab-478e-b569-e42ba9c27a17(OCS.15).jpg "Aplicação de filtros no modo de exibição relatório.")
 
 1.  **Nome** Filtrar por links WAN (o filtro se situa no lado direito do gráfico). O prefixo denota os tipos de links a seguir; consulte a caixa (azul) vertical:
     
@@ -511,27 +513,27 @@ As imagens abaixo mostram os filtros descritos anteriormente.
 
 Filtrar por **Nome**. Selecione a lista de links que precisam ser exibidos no gráfico.
 
-![Filtragem por nome no BandwidthUtilizationAnalyzer.] (images/JJ945604.002b7c8e-f0da-48ce-9e1a-5c34d2cab063(OCS.15).jpg "Filtragem por nome no BandwidthUtilizationAnalyzer.")
+![Filtragem por nome no BandwidthUtilizationAnalyzer.](images/JJ945604.002b7c8e-f0da-48ce-9e1a-5c34d2cab063(OCS.15).jpg "Filtragem por nome no BandwidthUtilizationAnalyzer.")
 
 Filtrar por **Limite excedido**. Selecione **True** para impor o filtro.
 
-![A filtragem excedeu o limite.] (images/JJ945604.5946c95e-76ce-46ca-8f3e-a79be1e5c527(OCS.15).jpg "A filtragem excedeu o limite.")
+![A filtragem excedeu o limite.](images/JJ945604.5946c95e-76ce-46ca-8f3e-a79be1e5c527(OCS.15).jpg "A filtragem excedeu o limite.")
 
 Filtrar por **Níveis críticos**. Selecione **True** para impor o filtro.
 
-![Filtragem por níveis críticos.] (images/JJ945604.60771a52-d8ba-4cb9-a02d-d6c888cb5505(OCS.15).jpg "Filtragem por níveis críticos.")
+![Filtragem por níveis críticos.](images/JJ945604.60771a52-d8ba-4cb9-a02d-d6c888cb5505(OCS.15).jpg "Filtragem por níveis críticos.")
 
 Filtrar por **Subutilizado**. Selecione **True** para impor o filtro.
 
-![Filtragem por subutilizado.] (images/JJ945604.95a2bf01-5aba-4927-af47-1ad3c459d791(OCS.15).jpg "Filtragem por subutilizado.")
+![Filtragem por subutilizado.](images/JJ945604.95a2bf01-5aba-4927-af47-1ad3c459d791(OCS.15).jpg "Filtragem por subutilizado.")
 
 Filtrar por **Tipo de Link**. Selecione um ou mais tipos que precisam ser exibidos.
 
-![Filtragem por tipo de link.] (images/JJ945604.08757949-06bd-4cf3-809f-d81fd23a6639(OCS.15).jpg "Filtragem por tipo de link.")
+![Filtragem por tipo de link.](images/JJ945604.08757949-06bd-4cf3-809f-d81fd23a6639(OCS.15).jpg "Filtragem por tipo de link.")
 
 Filtrar por **Região**. Selecione uma lista de regiões cujos links precisam ser exibidos.
 
-![Filtragem por região.] (images/JJ945604.5de4cec4-6c09-48bb-98c7-b56f7bdb3d5a(OCS.15).jpg "Filtragem por região.")
+![Filtragem por região.](images/JJ945604.5de4cec4-6c09-48bb-98c7-b56f7bdb3d5a(OCS.15).jpg "Filtragem por região.")
 
 </div>
 
@@ -655,23 +657,23 @@ Não haverá nenhum requisito se esta ferramenta for executada no mesmo computad
 
 Intervalos de órbitas implantados: o parâmetro –o lista todos os intervalos de órbita configurados para este pool, como a seguir:
 
-As ![faixas órbitas no Call Parkometer.] As (images/JJ945604.9ede64cb-29d9-4782-a34b-b76c42fbdcad(OCS.15).jpg "faixas órbitas no Call Parkometer.")
+![As faixas órbitas no Call Parkometer.](images/JJ945604.9ede64cb-29d9-4782-a34b-b76c42fbdcad(OCS.15).jpg "As faixas órbitas no Call Parkometer.")
 
 Chamadas estacionadas atualmente: o parâmetro –n lista todas as órbitas usadas atualmente neste pool, como a seguir:
 
-![Chamadas estacionadas no momento no Call Parkometer.] (images/JJ945604.07a7eec4-7999-4c92-93f0-95525b244b4c(OCS.15).jpg "Chamadas estacionadas no momento no Call Parkometer.")
+![Chamadas estacionadas no momento no Call Parkometer.](images/JJ945604.07a7eec4-7999-4c92-93f0-95525b244b4c(OCS.15).jpg "Chamadas estacionadas no momento no Call Parkometer.")
 
 Número de órbitas livres: o parâmetro –f lista o número de órbitas livres atualmente neste pool, como a seguir:
 
-![Órbitas grátis no Call Parkometer.] (images/JJ945604.ecc1d621-0ca0-4ecf-a579-08b41c6f08ed(OCS.15).jpg "Órbitas grátis no Call Parkometer.")
+![Órbitas grátis no Call Parkometer.](images/JJ945604.ecc1d621-0ca0-4ecf-a579-08b41c6f08ed(OCS.15).jpg "Órbitas grátis no Call Parkometer.")
 
 Chamadas estacionadas recentemente: o parâmetro \<–\> r n lista \<as\> n últimas chamadas estacionadas conforme mostrado
 
-![Chamadas estacionadas recentemente no Call Parkometer.] (images/JJ945604.1c5eb27d-faa1-491b-b4aa-b484255c3353(OCS.15).jpg "Chamadas estacionadas recentemente no Call Parkometer.")
+![Chamadas estacionadas recentemente no Call Parkometer.](images/JJ945604.1c5eb27d-faa1-491b-b4aa-b484255c3353(OCS.15).jpg "Chamadas estacionadas recentemente no Call Parkometer.")
 
 Testar reserva de órbita: os testes \<de\> parâmetro – t n reservando uma órbita no banco de dados conforme mostrado
 
-![Teste as reservas em órbita na Call Parkometer.] (images/JJ945604.84c9b69e-7af0-4224-8711-a43a28f08691(OCS.15).jpg "Teste as reservas em órbita na Call Parkometer.")
+![Teste as reservas em órbita na Call Parkometer.](images/JJ945604.84c9b69e-7af0-4224-8711-a43a28f08691(OCS.15).jpg "Teste as reservas em órbita na Call Parkometer.")
 
 </div>
 
@@ -703,7 +705,7 @@ Para dar suporte à alta disponibilidade, o LYSS aceita e salva cópias dos dado
 
 ## <a name="requirements"></a>Requisitos
 
-Instale as ferramentas do Lync Server 2013, Resource Kit. A ferramenta é executada em máquinas Unidas a domínios nas quais o Shell de gerenciamento do Lync Server e do Lync Server 2013 está instalado. A ferramenta usa um cmdlet do Shell de gerenciamento para identificar todos os servidores de front-end do pool. Em segundo lugar, a ferramenta deve ser executada em um computador no pool em que o banco de dados do **RtcLocal** está instalado. Este banco de dados é usado pela ferramenta CleanupStorageServiceData para obter os detalhes de conexão necessários para se comunicar com o serviço de roteamento do Lync Server. por fim, a conta ou a credencial que invocar a ferramenta deve ter permissão de leitura/gravação para o compartilhamento de arquivos ao qual Elas querem gravar o log de saída. Além disso, essa ferramenta depende do pool estar em um estado estável. Em essência, isso significa que cada servidor front-end deve estar em funcionamento, a instância LYNCLOCAL do SQL Server e o banco de dados do LYSS devem estar conectados, e cada grupo de roteamento deve ter um conjunto completo de 1 servidor front-end primário e dois front-ends secundários ervers.
+Instale as ferramentas do Lync Server 2013, Resource Kit. A ferramenta é executada em máquinas Unidas a domínios nas quais o Shell de gerenciamento do Lync Server e do Lync Server 2013 está instalado. A ferramenta usa um cmdlet do Shell de gerenciamento para identificar todos os servidores de front-end do pool. Em segundo lugar, a ferramenta deve ser executada em um computador no pool em que o banco de dados do **RtcLocal** está instalado. Este banco de dados é usado pela ferramenta CleanupStorageServiceData para obter os detalhes de conexão necessários para se comunicar com o serviço de roteamento do Lync Server. por fim, a conta ou a credencial que invocar a ferramenta deve ter permissão de leitura/gravação para o compartilhamento de arquivos no qual deseja gravar o log de saída. Além disso, essa ferramenta depende do pool estar em um estado estável. Em essência, isso significa que cada servidor front-end deve estar em funcionamento, a instância LYNCLOCAL do SQL Server e o banco de dados do LYSS devem estar conectados, e cada grupo de roteamento deve ter um conjunto completo de 1 servidor front-end primário e dois front-ends secundários ervers.
 
 </div>
 
@@ -783,7 +785,7 @@ C:\\arquivos\\de programas Microsoft Lync Server\\2013\\reskit\> StorageService 
 
 DBAnalyze é uma ferramenta de linha de comando que ajuda os administradores a reunir relatórios de análise sobre os bancos de dados do Lync Server 2013. O DBAnalyze tem os seguintes modos: diagnóstico, dados do usuário, conferência, MCUs e fragmentação de disco:
 
-  - **O modo**   de diagnóstico cria um relatório que inclui informações sobre tabelas (número de registros, fragmentação, tamanho de dados e tamanho de índice), dados e tamanhos de arquivo de log, o último tempo de backup, distribuição de contatos entre servidores que executam o Microsoft O Office Communications Server, o número médio de permissões, contatos, contêineres, assinaturas, publicações, pontos de extremidade por usuário, qualquer usuário incorretamente hospedado, usuários que não podem ser roteados, o número médio de conferências organizadas por usuário, agendadas conferências, conferências ativas e a versão do banco de dados.
+  - **O modo**   de diagnóstico cria um relatório que inclui informações sobre tabelas (número de registros, fragmentação, tamanho dos dados e tamanho de índice), dados e tamanhos de arquivo de log, o último tempo de backup, a distribuição de contatos entre servidores que executam o Microsoft Office Communications Server, o número médio de permissões, contatos, contêineres, assinaturas, publicações, pontos de extremidade por usuário, todos os usuários incorretos, programados para o conferências, conferências ativas e a versão do banco de dados.
     
     <div>
     
@@ -794,9 +796,9 @@ DBAnalyze é uma ferramenta de linha de comando que ajuda os administradores a r
     
     </div>
 
-  - **Modo de dados do usuário**  Relata os dados de contato, contêiner, assinatura, publicação, permissão e grupo de contatos para um usuário especificado ou para usuários que tenham esse usuário em suas listas de contatos e permissões. Este modo também relata dados resumidos de conferências que um usuário organizou ou para as quais foi convidado.
+  - O **modo**  de dados do usuário relata o contato, o contêiner, a assinatura, a publicação, a permissão e os dados do grupo de contatos para um usuário específico ou para usuários que tenham esse usuário em suas listas de contatos e permissões. Este modo também relata dados resumidos de conferências que um usuário organizou ou para as quais foi convidado.
 
-  - **O modo**   de conferência relata dados detalhados para uma conferência específica, incluindo todos os detalhes do tempo de agendamento da conferência, a lista de convidados, a lista de tipos de mídia permitidos para a conferência, active MCUs (unidades de controle multiponto), o active lista de participantes e o estado de sinalização de cada participante.
+  - **O modo**   de conferência relata dados detalhados para uma conferência específica, incluindo todos os detalhes do tempo de agendamento da conferência, a lista de convidados, a lista de tipos de mídia permitidos para a conferência, active MCUs (unidades de controle multiponto), a lista de participantes ativa e o estado de sinalização de cada participante.
 
   - **Decodificar a ID**  de reunião decodifica uma ID de reunião PSTN (rede telefônica pública comutada) especificada pela opção **/pstnid** , mas não se conecta ao back-end para obter informações detalhadas.
 
@@ -824,7 +826,7 @@ Esta ferramenta emite relatórios predefinidos sobre o banco de dados do Lync Se
 
 Para instalar o Dbanalyze. exe, copie-o para uma pasta local e execute a ferramenta. Para usar a ferramenta, execute o seguinte comando a partir da linha de comando.`dbanalyze.exe [/v] [/report:value] [/sqlserver:value] [/user:user@domain.com] [/conf:value][/pstnid:Value] [/maxcontacts:value]` As descrições das opções de linha de comando são mostradas abaixo.
 
-![Opções da linha de comando para Dbanalyze. exe.] (images/JJ945604.22bf3432-af6d-495b-8f48-d94c5d259523(OCS.15).jpg "Opções da linha de comando para Dbanalyze. exe.")
+![Opções da linha de comando para Dbanalyze. exe.](images/JJ945604.22bf3432-af6d-495b-8f48-d94c5d259523(OCS.15).jpg "Opções da linha de comando para Dbanalyze. exe.")
 
 </div>
 
@@ -840,7 +842,7 @@ Para instalar o Dbanalyze. exe, copie-o para uma pasta local e execute a ferrame
 
 **Usuários** do A tabela a seguir mostra os administradores que têm as permissões necessárias para acessar bancos de dados do Lync Server 2013.
 
-![Tabela de permissões para Dbanalyze. exe.] (images/JJ945604.b8931e9e-834e-4dec-8a84-2fc47d1613e9(OCS.15).jpg "Tabela de permissões para Dbanalyze. exe.")
+![Tabela de permissões para Dbanalyze. exe.](images/JJ945604.b8931e9e-834e-4dec-8a84-2fc47d1613e9(OCS.15).jpg "Tabela de permissões para Dbanalyze. exe.")
 
 <div>
 
@@ -899,7 +901,7 @@ Para o lançamento do serviço online, se o pacote do SCOM Pack para Lync Server
 
 Essa ferramenta aumentará a carga de CPU e de E/S no front-end em que estiver sendo executada e também em outros front-ends se os dados não pertencerem ao front-end no qual a ferramenta estiver sendo executada. Recomendamos executar essa ferramenta quando os front-ends não estiverem sob uma carga de E/S e CPU pesada, por exemplo, fora dos horários de pico. Em segundo lugar, essa ferramenta leva de 2 a 3 minutos para importar um arquivo de dados. Lembre-se disso ao estimar por quanto tempo a ferramenta estará em execução. O arquivo de log detalhado gerado pela ferramenta, por padrão, será exibido no repositório de arquivos. Exclua-o se não houver nenhum erro relatado, pois o arquivo de log pode ter muitos megabytes.
 
-![Exemplos de eventos do log de eventos do servidor de armazenamento.] (images/JJ945604.3a903ef7-ea8a-4606-8229-a3e32f13af3a(OCS.15).jpg "Exemplos de eventos do log de eventos do servidor de armazenamento.")
+![Exemplos de eventos do log de eventos do servidor de armazenamento.](images/JJ945604.3a903ef7-ea8a-4606-8229-a3e32f13af3a(OCS.15).jpg "Exemplos de eventos do log de eventos do servidor de armazenamento.")
 
 </div>
 
@@ -1182,13 +1184,13 @@ C:\\arquivos\\de programas Microsoft Lync Server\\2013 reskit\>LookupUserConsole
 
 ## <a name="msturnping"></a>MsTurnPing
 
-A ferramenta MSTurnPing permite que um administrador do software de comunicação do Microsoft Lync Server 2013 Verifique o status dos servidores que estão executando a borda de áudio/vídeo e os serviços de autenticação de áudio/vídeo, bem como os servidores que estão executando a política de largura de banda Serviços na topologia.
+A ferramenta MSTurnPing permite que um administrador do software de comunicação do Microsoft Lync Server 2013 Verifique o status dos servidores que estão executando a borda de áudio/vídeo e os serviços de autenticação de áudio/vídeo, bem como os servidores que estão executando os serviços de política de largura de banda na topologia.
 
 <div>
 
 ## <a name="description"></a>Descrição
 
-A ferramenta MSTurnPing permite que um administrador do software de comunicação do Lync Server 2013 Verifique o status dos servidores que executam a borda de áudio/vídeo e os serviços de autenticação de áudio/vídeo, bem como os servidores que estão executando os serviços de política de largura de banda no topologia.
+A ferramenta MSTurnPing permite que um administrador do software de comunicação do Lync Server 2013 Verifique o status dos servidores que executam a borda de áudio/vídeo e os serviços de autenticação de áudio/vídeo, bem como os servidores que estão executando os serviços de política de largura de banda na topologia.
 
 A ferramenta permite ao administrador realizar os seguintes testes:
 
@@ -1304,35 +1306,35 @@ Exibir os links de topologia de rede do CAC da empresa em uma interface gráfica
 
 **Carregar e exibir a topologia de rede do CAC a partir de uma implantação do Lync Server 2013 em um formato gráfico:** Os administradores do Lync Server 2013 podem carregar e exibir a configuração de topologia de rede do CAC em qualquer computador com o Lync Server 2013 usando a opção **baixar a configuração de rede** , conforme mostrado na figura abaixo. A ferramenta não fará o download ou exibirá essa configuração quando implantada em um computador que não tenha conectividade com o repositório de configuração do Lync.
 
-![Baixando a configuração de rede.] (images/JJ945604.8d126d3f-2545-4f13-a244-974f09614982(OCS.15).jpg "Baixando a configuração de rede.")
+![Baixando a configuração de rede.](images/JJ945604.8d126d3f-2545-4f13-a244-974f09614982(OCS.15).jpg "Baixando a configuração de rede.")
 
 **Carregar e exibir a topologia de rede do CAC de um arquivo de log do servidor de políticas de largura de banda em um formato gráfico:** Servidores de política de largura de banda do Lync Server 2013 salve a topologia de rede do CAC como parte do mecanismo de log no local de compartilhamento de arquivos do Lync Server 2013. Os administradores do Lync Server podem exibir esse arquivo em um formato gráfico usando a opção **abrir a configuração de rede** , como mostrado a seguir.
 
-![Abrir um arquivo de log do servidor de políticas de largura de banda.] (images/JJ945604.3e503e92-aacb-4921-a8d2-23f860fe2df6(OCS.15).jpg "Abrir um arquivo de log do servidor de políticas de largura de banda.")
+![Abrir um arquivo de log do servidor de políticas de largura de banda.](images/JJ945604.3e503e92-aacb-4921-a8d2-23f860fe2df6(OCS.15).jpg "Abrir um arquivo de log do servidor de políticas de largura de banda.")
 
 Salvar e armazenar a topologia de rede do CAC em um formato XML no disco: os administradores do Lync Server 2013 podem salvar o arquivo de configuração de topologia de rede do CAC em um formato XML usando a opção **salvar uma cópia da configuração de rede** , conforme mostrado a seguir. O arquivo de configuração salvo pode ser usado offline para fins de exibição gráfica.
 
-![Salvando a configuração de rede como um arquivo XML.] (images/JJ945604.6eeef3b0-78b5-4ee6-8d94-1a4ddf3d8676(OCS.15).jpg "Salvando a configuração de rede como um arquivo XML.")
+![Salvando a configuração de rede como um arquivo XML.](images/JJ945604.6eeef3b0-78b5-4ee6-8d94-1a4ddf3d8676(OCS.15).jpg "Salvando a configuração de rede como um arquivo XML.")
 
-Salvar e armazenar o diagrama de topologia de rede do CAC no formato JPG ou BMP: os administradores do Lync Server 2013 podem salvar a configuração de topologia de rede do CAC em um formato gráfico (formatos de arquivo JPG e BMP) usando o **diagrama salvar configuração de rede como imagem** opção conforme mostrado abaixo.
+Salvar e armazenar o diagrama de topologia de rede do CAC no formato JPG ou BMP: os administradores do Lync Server 2013 podem salvar a configuração de topologia de rede do CAC em um formato gráfico (formatos de arquivo JPG e BMP) usando a opção **salvar diagrama de configuração de rede como imagem** , conforme mostrado a seguir.
 
-![Salvando a configuração de rede como uma imagem.] (images/JJ945604.145a6fb9-58b1-46b1-bbd5-a661ceba07b4(OCS.15).jpg "Salvando a configuração de rede como uma imagem.")
+![Salvando a configuração de rede como uma imagem.](images/JJ945604.145a6fb9-58b1-46b1-bbd5-a661ceba07b4(OCS.15).jpg "Salvando a configuração de rede como uma imagem.")
 
 **Exibir dados de configuração de topologia de rede do CAC:** Os administradores do Lync Server 2013 podem exibir dados de configuração de rede relacionados, como regiões de rede, sites de rede, perfis de largura de banda e endereços IP de sub-rede de sites em um formato de texto usando a opção Exibir dados de configuração de rede, conforme mostrado a seguir.
 
-![Exibir dados de configuração de rede.] (images/JJ945604.b72a4c21-a042-4d91-bf96-fcb396af0679(OCS.15).jpg "Exibir dados de configuração de rede.")
+![Exibir dados de configuração de rede.](images/JJ945604.b72a4c21-a042-4d91-bf96-fcb396af0679(OCS.15).jpg "Exibir dados de configuração de rede.")
 
 **Exiba a topologia de rede do CAC em um estilo de exibição de árvore:** Os administradores do Lync Server 2013 podem exibir dados de configuração de rede relacionados em um estilo de exibição de árvore gráfica usando o painel de controle no lado esquerdo da janela da ferramenta, como mostrado abaixo.
 
-Exibir ![dados de configuração de rede em um modo de exibição de árvore.] Exibir (images/JJ945604.4d924ac9-fd96-430f-b211-ee35b7ef9a23(OCS.15).jpg "dados de configuração de rede em um modo de exibição de árvore.")
+![Exibir dados de configuração de rede em um modo de exibição de árvore.](images/JJ945604.4d924ac9-fd96-430f-b211-ee35b7ef9a23(OCS.15).jpg "Exibir dados de configuração de rede em um modo de exibição de árvore.")
 
 **Definir conectores personalizados para links de topologia de rede do CAC (como links de site para região, região para região e links entre sites):** Os administradores do Lync Server 2013 podem definir conectores gráficos personalizados para o WAN links de configuração de rede do CAC usando a opção configurações, conforme mostrado a seguir. Isso ajuda a diferenciar entre os vários tipos de links de rede provisionados na configuração da rede.
 
-![Definir conectores personalizados para a topologia de rede do CAC] (images/JJ945604.b20bea67-c8e1-453e-b1dd-e2aa17b62566(OCS.15).jpg "Definir conectores personalizados para a topologia de rede do CAC")
+![Definir conectores personalizados para a topologia de rede do CAC](images/JJ945604.b20bea67-c8e1-453e-b1dd-e2aa17b62566(OCS.15).jpg "Definir conectores personalizados para a topologia de rede do CAC")
 
 **Exibir informações do site de topologia de rede do CAC, informações de região e políticas de largura de banda provisionadas:** Os administradores do Lync Server 2013 podem exibir informações de região de rede do CAC, informações do site e informações de provisionamento de largura de banda do CAC relacionadas usando as opções mostradas abaixo. Por exemplo, clique em **Informações** em uma região da rede ou objeto do site da rede.
 
-![Definir conectores personalizados para a sua rede.] (images/JJ945604.26262c75-4342-41c3-bc98-1793aa6a7713(OCS.15).jpg "Definir conectores personalizados para a sua rede.")
+![Definir conectores personalizados para a sua rede.](images/JJ945604.26262c75-4342-41c3-bc98-1793aa6a7713(OCS.15).jpg "Definir conectores personalizados para a sua rede.")
 
 </div>
 
@@ -1374,7 +1376,7 @@ A ferramenta de tempo de agente de grupo de resposta é criada no serviço de gr
 
 A figura abaixo ilustra a interface principal do Agente do Grupo de Resposta em Tempo Real.
 
-![A ferramenta de tempo de agente do grupo de resposta.] (images/JJ945604.63cb0374-a6ef-4a59-b60e-bec86a880d09(OCS.15).jpg "A ferramenta de tempo de agente do grupo de resposta.")
+![A ferramenta de tempo de agente do grupo de resposta.](images/JJ945604.63cb0374-a6ef-4a59-b60e-bec86a880d09(OCS.15).jpg "A ferramenta de tempo de agente do grupo de resposta.")
 
 Os seguintes três recursos principais estão disponíveis para os agentes do Agente do Grupo de Resposta em Tempo Real:
 
@@ -1408,7 +1410,7 @@ O Agente do Grupo de Resposta em Tempo Real pode ser personalizado de acordo com
 
 A figura abaixo ilustra a caixa de diálogo Opções que os agentes podem usar para configurar as teclas de atalho e o endereço de host. Essa caixa de diálogo é acessada clicando no botão Opções no canto superior direito da interface principal.
 
-![A caixa de diálogo opções de agente do grupo de resposta em tempo real.] (images/JJ945604.3cc15e29-8699-45ab-90c3-e1565fa6ebf6(OCS.15).jpg "A caixa de diálogo opções de agente do grupo de resposta em tempo real.")
+![A caixa de diálogo opções de agente do grupo de resposta em tempo real.](images/JJ945604.3cc15e29-8699-45ab-90c3-e1565fa6ebf6(OCS.15).jpg "A caixa de diálogo opções de agente do grupo de resposta em tempo real.")
 
 As três configurações diferentes a seguir podem ser personalizadas na configuração do Agente do Grupo de Resposta em Tempo Real:
 
@@ -1428,11 +1430,11 @@ As três configurações diferentes a seguir podem ser personalizadas na configu
 
 A figura abaixo ilustra como chamar ou enviar uma mensagem instantânea para outro agente clicando com o botão direito do mouse no contato no painel à direita.
 
-![Fazer uma chamada ou enviar uma mensagem instantânea.] (images/JJ945604.009cebe0-5a93-4745-89c3-8a16c7c13009(OCS.15).jpg "Fazer uma chamada ou enviar uma mensagem instantânea.")
+![Fazer uma chamada ou enviar uma mensagem instantânea.](images/JJ945604.009cebe0-5a93-4745-89c3-8a16c7c13009(OCS.15).jpg "Fazer uma chamada ou enviar uma mensagem instantânea.")
 
 A figura abaixo ilustra como o Agente do Grupo de Resposta em Tempo Real exibe o número atual de chamadas na fila e o tempo de espera mais longo entre todas as chamadas de entrada.
 
-![Exibir informações da fila.] (images/JJ945604.131d7f79-b7ed-41f5-a9da-ffc556e31037(OCS.15).jpg "Exibir informações da fila.")
+![Exibir informações da fila.](images/JJ945604.131d7f79-b7ed-41f5-a9da-ffc556e31037(OCS.15).jpg "Exibir informações da fila.")
 
 </div>
 
@@ -2113,7 +2115,7 @@ Se a execução da operação for interrompida por qualquer erro, os intervalos 
 
 O script de Migração de Comunicados de Número Não Atribuído pode ser usado nos três cenários a seguir:
 
-  - **Migrando definições de configuração para uma nova versão do Lync Server:** A Contoso está em processo de migração para o Lync Server 2013 e, como parte do processo de migração, o administrador do Lync Server deseja mover a configuração de números não atribuídos atendida pelo aplicativo de anúncio da implantação do Lync Server 2010 para o nova implantação do Lync Server 2013. Para mover as definições de configuração, o administrador do Lync Server usa a ferramenta de migração de anúncios de número não atribuído.
+  - **Migrando definições de configuração para uma nova versão do Lync Server:** A Contoso está em processo de migração para o Lync Server 2013 e, como parte do processo de migração, o administrador do Lync Server gostaria de mover a configuração de números não atribuídas atendida pelo aplicativo de anúncio da implantação do Lync Server 2010 para a nova implantação do Lync Server 2013. Para mover as definições de configuração, o administrador do Lync Server usa a ferramenta de migração de anúncios de número não atribuído.
 
   - Reverter **uma implantação do Lync server 2013 para o Lync server 2010:** Devido a fatores inesperados, a contoso tem que reverter a migração para a nova implantação do Lync Server 2013. Para minimizar as interrupções do serviço, o administrador do Lync Server usa a ferramenta de migração de anúncios de número não atribuído para reverter a configuração da implantação do Lync Server 2013 para a implantação do Lync Server 2010.
 
@@ -2135,7 +2137,7 @@ Os principais requisitos necessários para executar a ferramenta com êxito são
 
 O script Move-CsAnnouncementConfiguration exige os dois parâmetros descritos na tabela abaixo. 
 
-![Parâmetros move-CsAnnouncementConfiguration.] (images/JJ945604.7ab66ad3-d0db-4d77-8b93-ebccf0cb0663(OCS.15).jpg "Parâmetros move-CsAnnouncementConfiguration.")
+![Parâmetros move-CsAnnouncementConfiguration.](images/JJ945604.7ab66ad3-d0db-4d77-8b93-ebccf0cb0663(OCS.15).jpg "Parâmetros move-CsAnnouncementConfiguration.")
 
 </div>
 
@@ -2235,7 +2237,7 @@ A ferramenta deve ser executada com privilégios de administrador com acesso ao 
 
 A tabela a seguir descreve os parâmetros, alguns dos quais são usados nos exemplos.
 
-![Parâmetros da ferramenta de dados Web conf.] (images/JJ945604.a733c1c6-5dfc-4874-a74f-bfdee81c1401(OCS.15).jpg "Parâmetros da ferramenta de dados Web conf.")
+![Parâmetros da ferramenta de dados Web conf.](images/JJ945604.a733c1c6-5dfc-4874-a74f-bfdee81c1401(OCS.15).jpg "Parâmetros da ferramenta de dados Web conf.")
 
     WebConfDataTool.exe /User:user0@contoso.com /Action:query ""/ExpirationDate:08/09/2010 12:00:00""
 

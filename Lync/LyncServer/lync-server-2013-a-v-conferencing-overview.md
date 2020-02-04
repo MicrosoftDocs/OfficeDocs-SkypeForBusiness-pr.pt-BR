@@ -3,6 +3,8 @@ title: Visão geral da Conferência A/V do Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: A/V conferencing overview
 ms:assetid: 9583de87-4618-4a99-a47a-45e8cc4cc221
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619186(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733747
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d477a8423e7e5ee57e54d0bde584edeb02db4608
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 405d44f9128ef4c8120a6a8389f8d566b6880b2a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836981"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735201"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,7 +67,7 @@ O Lync Server 2013 fornece vários recursos que você pode usar para configurar 
 
 O Lync Server 2013 fornece vários recursos que você pode usar para configurar a experiência de videoconferência para o usuário, incluindo o seguinte:
 
-  - **Modo de exibição**   de galeria em videoconferências com mais de duas pessoas, os usuários visualizam automaticamente todas as pessoas na conferência. Se a conferência tiver mais de cinco participantes, o vídeo dos participantes mais ativos serão exibidos na linha superior e apenas a foto dos outros participantes será exibida. O vídeo de vários participantes está ativado como padrão. Para obter detalhes sobre como configurar ou desativar o vídeo de vários participantes, consulte Configurando a [largura de banda do vídeo no Lync Server 2013](lync-server-2013-configuring-video-bandwidth.md).
+  - **Modo de exibição**   de galeria em videoconferências com mais de duas pessoas, os usuários visualizam automaticamente todas as pessoas na conferência. Se a conferência tiver mais de cinco participantes, o vídeo dos participantes mais ativos serão exibidos na linha superior e apenas a foto dos outros participantes será exibida. O vídeo de vários participantes está ativado como padrão. Para obter detalhes sobre como configurar ou desativar o vídeo de vários participantes, consulte [Configurando a largura de banda do vídeo no Lync Server 2013](lync-server-2013-configuring-video-bandwidth.md).
 
   - **Vídeo panorâmico se**   um dispositivo de videoconferência da mesa redonda estiver instalado na sala de conferência, esse recurso fornecerá uma exibição de nível 360 completa da sala de conferência. A faixa de vídeo panorâmico está disponível apenas com dispositivos RoundTable.
 

@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure the client experience
 ms:assetid: 61e783f1-24f4-430b-ae52-c76a4d206dc7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn954919(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 65227958
 ms.date: 09/18/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 632eed40992bfcff53072d618313afe3501431be
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1e1aa407fbb1d7d8a006698d30545165352386b1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233229"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729031"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -78,7 +80,7 @@ O próximo comando seleciona a experiência do cliente Skype for Business para t
 
     Set-CsClientPolicy -Identity site:Redmond -EnableSkypeUI $true
 
-Se você quiser configurar a experiência do cliente para usuários específicos em sua organização, poderá criar uma nova política de usuário usando o cmdlet **New-CsClientPolicy** e atribuir a política a usuários específicos usando o **Grant-CsClientPolicy** cmdlet.
+Se você quiser configurar a experiência do cliente para usuários específicos em sua organização, poderá criar uma nova política de usuário usando o cmdlet **New-CsClientPolicy** e, em seguida, atribuir a política a usuários específicos usando o cmdlet **Grant-CsClientPolicy** .
 
 Por exemplo, o comando a seguir cria uma nova política de cliente, SalesClientUI, que seleciona a experiência do cliente do Skype for Business:
 
@@ -174,12 +176,12 @@ Se a sua organização tiver o Skype for Business Server 2015 e o Lync Server im
 </tr>
 <tr class="even">
 <td><p>Skype for Business Server 2015</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro</p></td>
 <td><p>Skype for Business</p></td>
 </tr>
 <tr class="odd">
 <td><p>Skype for Business Server 2015</p></td>
-<td><p>False</p></td>
+<td><p>Falso</p></td>
 <td><p>O usuário pediu alternar para o modo Lync (o usuário pode alternar para o Skype for Business mais tarde, se você alterar a configuração da interface do usuário para $true)</p></td>
 </tr>
 <tr class="even">
@@ -189,12 +191,12 @@ Se a sua organização tiver o Skype for Business Server 2015 e o Lync Server im
 </tr>
 <tr class="odd">
 <td><p>Lync Server 2010 ou Lync Server 2013 (com patches corretos)</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro</p></td>
 <td><p>Skype for Business</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync Server 2010 ou Lync Server 2013 (com patches corretos)</p></td>
-<td><p>False</p></td>
+<td><p>Falso</p></td>
 <td><p>O usuário pediu alternar para o modo Lync (o usuário pode alternar para o Skype for Business mais tarde, se você alterar a configuração da interface do usuário para $true)</p></td>
 </tr>
 <tr class="odd">
@@ -227,25 +229,25 @@ A tabela a seguir mostra a experiência do cliente quando o administrador muda a
 <tbody>
 <tr class="odd">
 <td><p>Skype for Business Server 2015</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro</p></td>
 <td><p>O usuário pediu que mudar para o Skype for Business</p></td>
 <td><p>Skype for Business</p></td>
 </tr>
 <tr class="even">
 <td><p>Skype for Business Server 2015</p></td>
-<td><p>False</p></td>
+<td><p>Falso</p></td>
 <td><p>Interface do usuário do Lync</p></td>
 <td><p>Usuário solicitado a alternar para a interface do usuário do Lync</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync Server 2010 ou Lync Server 2013 (com patches corretos)</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro</p></td>
 <td><p>O usuário pediu que mudar para o Skype for Business</p></td>
 <td><p>Skype for Business</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync Server 2010 ou Lync Server 2013 (com patches corretos)</p></td>
-<td><p>False</p></td>
+<td><p>Falso</p></td>
 <td><p>Interface do usuário do Lync</p></td>
 <td><p>Usuário solicitado a alternar para a interface do usuário do Lync</p></td>
 </tr>

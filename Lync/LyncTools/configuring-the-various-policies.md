@@ -3,6 +3,8 @@ title: Configurando as várias políticas
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring the Various Policies
 ms:assetid: e3b3cbda-7c17-470b-acb0-82fdcc473184
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945610(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541436
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a105ea62b82d904007a2faa0493fd17092b84462
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6316a1027de963cefea6c0c76051f09cb5d33538
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34837051"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727681"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ Consulte o script de exemplo ArchivingPolicy. ps1. Você só precisará usar ess
 
 ## <a name="configuring-the-conferencing-policy"></a>Configurar a política de conferência
 
-Consulte o script de exemplo MeetingPolicy. ps1. Para obter detalhes, consulte a documentação do Lync Server 2013 e a ajuda do cmdlet para cmdlets de [Webconferência no Lync server 2013](https://technet.microsoft.com/en-us/library/gg415675\(v=ocs.15\)).
+Consulte o script de exemplo MeetingPolicy. ps1. Para obter detalhes, consulte a documentação do Lync Server 2013 e a ajuda do cmdlet para [cmdlets de Webconferência no Lync server 2013](https://technet.microsoft.com/en-us/library/gg415675\(v=ocs.15\)).
 
 </div>
 
@@ -61,7 +63,7 @@ Consulte o script de exemplo MeetingPolicy. ps1. Para obter detalhes, consulte a
 
 ## <a name="configuring-the-contacts-policy"></a>Configurando a política de contatos
 
-Consulte o exemplo ContactsPolicy. ps1. Para obter detalhes, consulte a documentação do Lync Server 2013 e a ajuda do cmdlet para os cmdlets de [presença e mensagens instantâneas no Lync server 2013](https://technet.microsoft.com/en-us/library/gg398611\(v=ocs.15\)).
+Consulte o exemplo ContactsPolicy. ps1. Para obter detalhes, consulte a documentação do Lync Server 2013 e a ajuda do cmdlet para os [cmdlets de presença e mensagens instantâneas no Lync server 2013](https://technet.microsoft.com/en-us/library/gg398611\(v=ocs.15\)).
 
 </div>
 
@@ -69,7 +71,7 @@ Consulte o exemplo ContactsPolicy. ps1. Para obter detalhes, consulte a document
 
 ## <a name="configuring-the-federation-policy"></a>Configurando a política de Federação
 
-Consulte o exemplo FederationPolicy. ps1. Para obter detalhes, consulte a documentação do Lync Server 2013 e a ajuda do cmdlet para cmdlets do [servidor de borda no Lync server 2013](https://technet.microsoft.com/en-us/library/gg415635\(v=ocs.15\)) e cmdlets de [acesso externo e Federação no Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415651\(v=ocs.15\)).
+Consulte o exemplo FederationPolicy. ps1. Para obter detalhes, consulte a documentação do Lync Server 2013 e a ajuda do cmdlet para [cmdlets do servidor de borda no Lync server 2013](https://technet.microsoft.com/en-us/library/gg415635\(v=ocs.15\)) e [cmdlets de acesso externo e Federação no Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415651\(v=ocs.15\)).
 
 </div>
 
@@ -77,7 +79,7 @@ Consulte o exemplo FederationPolicy. ps1. Para obter detalhes, consulte a docume
 
 ## <a name="configuring-the-call-admission-control-policy"></a>Configurando a política de controle de admissão de chamadas
 
-Consulte o exemplo BandwidthPolicy. ps1. Para obter detalhes, consulte a [visão geral da documentação do Lync Server 2013 do controle de admissão de chamadas no Lync server 2013](https://technet.microsoft.com/en-us/library/gg398529\(v=ocs.15\)) e a ajuda do cmdlet para cmdlets de [controle de admissão de chamadas no Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415676\(v=ocs.15\)).
+Consulte o exemplo BandwidthPolicy. ps1. Para obter detalhes, consulte a [visão geral da documentação do Lync Server 2013 do controle de admissão de chamadas no Lync server 2013](https://technet.microsoft.com/en-us/library/gg398529\(v=ocs.15\)) e a ajuda do cmdlet para [cmdlets de controle de admissão de chamadas no Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415676\(v=ocs.15\)).
 
 </div>
 
@@ -87,9 +89,9 @@ Consulte o exemplo BandwidthPolicy. ps1. Para obter detalhes, consulte a [visão
 
 Consulte o exemplo RoutingRules. ps1. Ao configurar as regras de roteamento de voz, anote o contexto do telefone (ou seja, o perfil do/Location ou/SimpleName) e os códigos de área interna/externa para que você possa especificá-los ao criar usuários e durante a configuração do LyncPerfTool (especificamente para PSTN-UC e UC-PSTN). Por exemplo, o parâmetro SimpleName na chamada para o cmdlet **New-CsDialPlan** no exemplo RoutingRules. ps1 deve ser usado para o valor LocationProfile na seguinte imagem do UserProfileGenerator. exe.
 
-![Regra de roteamento de voz de exemplo.] (images/JJ945610.9f34d971-4ed0-4a4c-b101-086a91c4578c(OCS.15).jpg "Regra de roteamento de voz de exemplo.")
+![Regra de roteamento de voz de exemplo.](images/JJ945610.9f34d971-4ed0-4a4c-b101-086a91c4578c(OCS.15).jpg "Regra de roteamento de voz de exemplo.")
 
-Para obter detalhes, consulte a documentação do Lync Server 2013 e a ajuda do cmdlet para cmdlets do [Enterprise Voice no Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415658\(v=ocs.15\)).
+Para obter detalhes, consulte a documentação do Lync Server 2013 e a ajuda do cmdlet para [cmdlets do Enterprise Voice no Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415658\(v=ocs.15\)).
 
 </div>
 
@@ -99,9 +101,9 @@ Para obter detalhes, consulte a documentação do Lync Server 2013 e a ajuda do 
 
 Consulte o exemplo ConferenceAutoAttendantConfiguration. ps1. Anote o número de telefone ConferencingAutoAttendant (1121111111, por padrão), para que você possa digitá-lo na ferramenta de configuração da ferramenta LyncPerf para geração de configuração.
 
-![Configurando o aplicativo assistente de conferência] (images/JJ945610.0618a22f-27a9-423a-9085-d2bf71e82db6(OCS.15).jpg "Configurando o aplicativo assistente de conferência")
+![Configurando o aplicativo assistente de conferência](images/JJ945610.0618a22f-27a9-423a-9085-d2bf71e82db6(OCS.15).jpg "Configurando o aplicativo assistente de conferência")
 
-Para obter detalhes, consulte a documentação do Lync Server 2013 e a ajuda do cmdlet para cmdlets de [Webconferência no Lync server 2013](https://technet.microsoft.com/en-us/library/gg415675\(v=ocs.15\)) e cmdlets de [conferência discada no Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415630\(v=ocs.15\)).
+Para obter detalhes, consulte a documentação do Lync Server 2013 e a ajuda do cmdlet para [cmdlets de Webconferência no Lync server 2013](https://technet.microsoft.com/en-us/library/gg415675\(v=ocs.15\)) e [cmdlets de conferência discada no Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415630\(v=ocs.15\)).
 
 </div>
 
@@ -109,7 +111,7 @@ Para obter detalhes, consulte a documentação do Lync Server 2013 e a ajuda do 
 
 ## <a name="configuring-lync-server-call-park-service"></a>Configurando o serviço de estacionamento de chamadas do Lync Server
 
-O parque de chamadas está desabilitado por padrão. Consulte o exemplo CallParkConfiguration. ps1. Para obter detalhes, consulte a documentação do Lync Server 2013 e a ajuda do cmdlet para os cmdlets do [aplicativo de estacionamento de chamada no Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415639\(v=ocs.15\)).
+O parque de chamadas está desabilitado por padrão. Consulte o exemplo CallParkConfiguration. ps1. Para obter detalhes, consulte a documentação do Lync Server 2013 e a ajuda do cmdlet para os [cmdlets do aplicativo de estacionamento de chamada no Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415639\(v=ocs.15\)).
 
 </div>
 
@@ -132,7 +134,7 @@ Execute as etapas a seguir para configurar o teste de stress e desempenho para c
 
 2.  Para configurar endereços, preencha os valores na guia **Lis** no UserProvisioningTool, conforme mostrado na figura a seguir.
     
-    ![Configurar o serviço de informações de localização.] (images/JJ945610.8ac1faa1-e9f9-40d0-b8b7-b159f4f459f7(OCS.15).jpg "Configurar o serviço de informações de localização.")  
+    ![Configurar o serviço de informações de localização.](images/JJ945610.8ac1faa1-e9f9-40d0-b8b7-b159f4f459f7(OCS.15).jpg "Configurar o serviço de informações de localização.")  
 
 3.  Clique em **gerar arquivos Lis config**.
 
@@ -152,9 +154,9 @@ Você deve criar todos os usuários antes de executar os scripts a seguir. Siga 
 
 ## <a name="configuring-response-group-application"></a>Configurando o aplicativo grupo de resposta
 
-Consulte o exemplo ResponseGroupConfiguration. ps1. Para obter detalhes, consulte a documentação do Lync Server 2013 e a ajuda do cmdlet para os cmdlets do [aplicativo grupo de resposta no Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415654\(v=ocs.15\)). Para revisar a configuração do aplicativo grupo `https://<poolfqdn>/RgsConfig/`de resposta, consulte, conforme mostrado na figura a seguir.
+Consulte o exemplo ResponseGroupConfiguration. ps1. Para obter detalhes, consulte a documentação do Lync Server 2013 e a ajuda do cmdlet para os [cmdlets do aplicativo grupo de resposta no Lync Server 2013](https://technet.microsoft.com/en-us/library/gg415654\(v=ocs.15\)). Para revisar a configuração do aplicativo grupo `https://<poolfqdn>/RgsConfig/`de resposta, consulte, conforme mostrado na figura a seguir.
 
-![A ferramenta de configuração de grupo de resposta.] (images/JJ945610.480a9440-2283-4533-98f8-86daaab4781c(OCS.15).jpg "A ferramenta de configuração de grupo de resposta.")
+![A ferramenta de configuração de grupo de resposta.](images/JJ945610.480a9440-2283-4533-98f8-86daaab4781c(OCS.15).jpg "A ferramenta de configuração de grupo de resposta.")
 
 </div>
 

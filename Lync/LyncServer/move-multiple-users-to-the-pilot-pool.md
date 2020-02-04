@@ -3,6 +3,8 @@ title: Mover vários usuários para o pool piloto
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Move multiple users to the pilot pool
 ms:assetid: 90d0590c-922c-4933-b778-9dd850b59310
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205096(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184838
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc3104566841cc70eeee489a4b8812a6b8039a31
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a8e347658d73405d7125eb439daff7eeb84e6ea7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844226"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730921"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ Você pode mover vários usuários do pool do Lync Server 2010 para o pool pilot
 
 3.  Selecione dois usuários que você deseja mover para o pool do Lync Server 2013. Neste exemplo, vamos mover os usuários Yang Yang e Claus Hansen.
     
-    ![Mover usuários para um pool de registros específico] (images/JJ205096.70d510e1-8e6b-40a5-a80b-27cbc63fc337(OCS.15).jpg "Mover usuários para um pool de registros específico")  
+    ![Mover usuários para um pool de registros específico](images/JJ205096.70d510e1-8e6b-40a5-a80b-27cbc63fc337(OCS.15).jpg "Mover usuários para um pool de registros específico")  
 
 4.  No menu **ação** , selecione **mover os usuários selecionados para o pool**.
 
@@ -55,9 +57,9 @@ Você pode mover vários usuários do pool do Lync Server 2010 para o pool pilot
 
 6.  Clique em **Ação** e em **Mover usuários selecionados para o pool**. Clique em OK.
     
-    ![Caixa de diálogo mover usuários, pool de registradores de destino] (images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "Caixa de diálogo mover usuários, pool de registradores de destino")  
+    ![Caixa de diálogo mover usuários, pool de registradores de destino](images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "Caixa de diálogo mover usuários, pool de registradores de destino")  
 
-7.  Verifique se a coluna do **pool** de registradores dos usuários agora contém o pool do Lync Server 2013, que indica que os usuários foram movidos com êxito.
+7.  Verifique se a coluna do **pool de registradores** dos usuários agora contém o pool do Lync Server 2013, que indica que os usuários foram movidos com êxito.
 
 </div>
 
@@ -71,15 +73,15 @@ Você pode mover vários usuários do pool do Lync Server 2010 para o pool pilot
     
         Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
     
-    ![Exemplo do cmdlet Get-CsUser do PowerShell] (images/JJ205096.767ff9fc-755d-4a80-a710-5b1367aecbe0(OCS.15).jpg "Exemplo do cmdlet Get-CsUser do PowerShell")  
+    ![Exemplo do cmdlet Get-CsUser do PowerShell](images/JJ205096.767ff9fc-755d-4a80-a710-5b1367aecbe0(OCS.15).jpg "Exemplo do cmdlet Get-CsUser do PowerShell")  
 
 3.  Na linha de comando, digite o seguinte
     
         Get-CsUser -Identity "User1"
 
-4.  A identidade do **pool** do registrador agora deve apontar para o pool especificado como **FQDN do pool\_** na etapa anterior. A presença dessa identidade confirma que o usuário foi movido com êxito. A etapa repetir para verificar o **user2** foi movida.
+4.  A identidade do **pool do registrador** agora deve apontar para o pool especificado como **FQDN do pool\_** na etapa anterior. A presença dessa identidade confirma que o usuário foi movido com êxito. A etapa repetir para verificar o **user2** foi movida.
     
-    ![Saída do cmdlet Get-UsUser-Identity do PowerShell] (images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "Saída do cmdlet Get-UsUser-Identity do PowerShell")  
+    ![Saída do cmdlet Get-UsUser-Identity do PowerShell](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "Saída do cmdlet Get-UsUser-Identity do PowerShell")  
 
 </div>
 
@@ -95,17 +97,17 @@ Neste exemplo, todos os usuários foram retornados ao pool do Lync Server 2010 (
     
         Get-CsUser -OnLyncServer | Move-CsUser -Target "pool_FQDN"
     
-    ![Cmdlet do PowerShell e resulta no Shell de gerenciamento] (images/JJ205096.1e57ccb1-9378-4dc7-82b7-dcaa63a285c6(OCS.15).png "Cmdlet do PowerShell e resulta no Shell de gerenciamento")  
+    ![Cmdlet do PowerShell e resulta no Shell de gerenciamento](images/JJ205096.1e57ccb1-9378-4dc7-82b7-dcaa63a285c6(OCS.15).png "Cmdlet do PowerShell e resulta no Shell de gerenciamento")  
 
 3.  Em seguida, execute **Get-CsUser** para um dos usuários piloto.
     
         Get-CsUser -Identity "Hao Chen"
 
-4.  A identidade do **pool** de registradores para cada usuário agora aponta para o pool especificado como\_"FQDN do pool" na etapa anterior. A presença dessa identidade confirma que o usuário foi movido com êxito.
+4.  A identidade do **pool de registradores** para cada usuário agora aponta para o pool especificado como\_"FQDN do pool" na etapa anterior. A presença dessa identidade confirma que o usuário foi movido com êxito.
 
 5.  Além disso, podemos exibir a lista de usuários no painel de controle do Lync Server 2013 e verificar se o valor do pool do registrador agora aponta para o pool do Lync Server 2013.
     
-    ![Lista de usuários do painel de controle do Lync Server 2013] (images/JJ205096.3f2e87a7-ec59-43c5-82cb-e770108bfb04(OCS.15).jpg "Lista de usuários do painel de controle do Lync Server 2013")  
+    ![Lista de usuários do painel de controle do Lync Server 2013](images/JJ205096.3f2e87a7-ec59-43c5-82cb-e770108bfb04(OCS.15).jpg "Lista de usuários do painel de controle do Lync Server 2013")  
 
 </div>
 

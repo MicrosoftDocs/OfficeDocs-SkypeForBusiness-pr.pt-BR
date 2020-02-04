@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Implantar tipos de endereço IP no Servidor de Mediaç
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploy IP address types on a Mediation Server
 ms:assetid: 689ebed5-96ee-4cd4-b7ae-ee2a86a1d9b3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204964(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184376
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e629b1074f41f1e32795de391b31e8b610f88b2e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ab30a2153dc7dbf5a15557f6eeaf3b6cb65f68f7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829574"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729701"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,13 +43,13 @@ Usando o construtor de topologias, execute as etapas do procedimento a seguir pa
 
 ## <a name="to-deploy-ip-address-types-on-a-mediation-server"></a>Para implantar os tipos de endereço IP em um Servidor de Mediação
 
-  - No construtor de topologias ****, em pools de mediação, clique com o botão direito do mouse no servidor dentro de um pool e selecione **Editar propriedades**. (Como alternativa, selecione o servidor e clique em **Editar Propriedades** no menu **Ação**.)
+  - No construtor de topologias, em **pools de mediação**, clique com o botão direito do mouse no servidor dentro de um pool e selecione **Editar propriedades**. (Como alternativa, selecione o servidor e clique em **Editar Propriedades** no menu **Ação**.)
 
   - Na caixa de diálogo **Editar propriedades**, selecione o tipo de endereço IP que você deseja configurar. Para uma configuração de pilha dual, selecione **Habilitar IPv4** e **Habilitar IPv6**, como mostrado na seguinte imagem.
     
     **Caixa de diálogo Editar Propriedades para o pool de Servidores de Mediação**
     
-    ![Página Propriedades gerais do Lync Server com FQDN] (images/JJ204964.4e650aca-dbff-4a86-b10d-f0162c032539(OCS.15).png "Página Propriedades gerais do Lync Server com FQDN")
+    ![Página Propriedades gerais do Lync Server com FQDN](images/JJ204964.4e650aca-dbff-4a86-b10d-f0162c032539(OCS.15).png "Página Propriedades gerais do Lync Server com FQDN")
     
       - **Usar todos os endereços IP configurados**. Selecione esta opção se você deseja permitir qualquer endereço IP definido no computador que será usado.
         

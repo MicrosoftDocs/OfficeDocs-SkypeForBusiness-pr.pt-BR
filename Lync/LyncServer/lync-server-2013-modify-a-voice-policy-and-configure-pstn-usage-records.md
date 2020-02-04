@@ -3,6 +3,8 @@ title: 'Lync Server 2013: modificar uma política de voz e configurar registros 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Modify a voice policy and configure PSTN usage records
 ms:assetid: 6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398511(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184419
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb7c4cdc47c0624b3d94d0dc52c527310f803d83
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dda549bbb8b1f29a3aef8690a8e666e7a182bd29
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827183"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737161"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -95,7 +97,7 @@ Siga estas etapas se quiser modificar uma política de voz. Se você quiser cria
     
       - A **chamada de equipe** permite que os usuários de uma equipe definida atendam às chamadas de outros membros da equipe. Habilitado por padrão.
     
-      - O redirecionamento **PSTN** permite chamadas feitas por usuários que recebem essa política para que outros usuários da empresa sejam redirecionados na rede telefônica pública comutada (PSTN) se a WAN estiver congestionada ou indisponível. Habilitado por padrão.
+      - O **redirecionamento PSTN** permite chamadas feitas por usuários que recebem essa política para que outros usuários da empresa sejam redirecionados na rede telefônica pública comutada (PSTN) se a WAN estiver congestionada ou indisponível. Habilitado por padrão.
     
       - A **substituição da política de largura de banda** permite que os administradores substituam as decisões da política do controle de admissão de chamadas (CAC) por um usuário específico Desabilitada por padrão.
         
@@ -249,7 +251,7 @@ Siga estas etapas se quiser modificar uma política de voz. Se você quiser cria
     
     </div>
 
-13. (Opcional) O escape de caixa postal detecta que uma chamada foi imediatamente atendida pelo correio de voz do celular do usuário e desconecta a chamada à caixa postal do celular. Isso permite que a chamada continue a tocar nos outros pontos de extremidade do usuário, permitindo que ele atenda à chamada. Para obter detalhes sobre como configurar uma política de caixa postal, consulte Configurando o [recurso de mensagem de voz no Lync Server 2013](lync-server-2013-configuring-voice-mail-escape.md).
+13. (Opcional) O escape de caixa postal detecta que uma chamada foi imediatamente atendida pelo correio de voz do celular do usuário e desconecta a chamada à caixa postal do celular. Isso permite que a chamada continue a tocar nos outros pontos de extremidade do usuário, permitindo que ele atenda à chamada. Para obter detalhes sobre como configurar uma política de caixa postal, consulte [Configurando o recurso de mensagem de voz no Lync Server 2013](lync-server-2013-configuring-voice-mail-escape.md).
 
 </div>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Fallback do Servidor de Chat Persistente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Failing back Persistent Chat Server
 ms:assetid: 67b91de4-6ddc-43e6-9812-5e1aa84a7980
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204970(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184396
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d79c25d153de81906fcaf9355a543d31cb8fe0a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ca00a71c88b917b9e59f2e9039e7960b51f64157
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829182"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756165"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -89,7 +91,7 @@ Estas etapas foram criadas para recuperar a configuração como ela se encontrav
     
     5.  Aceite o nome de conjunto de backup padrão sugerido em **Nome** ou insira outro nome para o conjunto de backup.
     
-    6.  * \<\> Opcionais* Em **Descrição**, digite uma descrição do conjunto de backup.
+    6.  * \<Opcionais\> * Em **Descrição**, digite uma descrição do conjunto de backup.
     
     7.  Remova o local de backup padrão da lista de destino.
     
@@ -117,7 +119,7 @@ Estas etapas foram criadas para recuperar a configuração como ela se encontrav
     
     9.  Clique em **OK** para iniciar o processo de restauração.
 
-5.  Configurar o envio de log do SQL Server para o banco de dados principal. Siga os procedimentos em Configurando o [servidor de chat persistente para alta disponibilidade e recuperação de desastres no Lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md) para estabelecer o envio de log para o banco de dados principal do MGC.
+5.  Configurar o envio de log do SQL Server para o banco de dados principal. Siga os procedimentos em [Configurando o servidor de chat persistente para alta disponibilidade e recuperação de desastres no Lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md) para estabelecer o envio de log para o banco de dados principal do MGC.
 
 6.  Defina os servidores ativos do servidor de chat persistente. No Shell de gerenciamento do Lync Server, use o cmdlet **set-CsPersistentChatActiveServer** para definir a lista de servidores ativos.
     

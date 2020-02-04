@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Adicionar sites de filial a sua topologia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Add branch sites to your topology
 ms:assetid: b9c35fb0-0081-4aeb-8f95-ac2fcc6c3335
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412905(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185216
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 029627060ff03b804d0d2f76f40fdd4052f0d1c6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2df1871956b33b3781128e2b62af13bdd875d10b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836949"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735041"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ Os sites de filiais representam filiais físicas conectadas a seus escritórios 
 
 1.  Clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server**e, em seguida, clique em **Construtor de topologia do Lync Server**.
 
-2.  Na árvore de console, expanda o site central, clique com o botão direito do mouse em **sites**de ramificação e clique em **novo site de filial**.
+2.  Na árvore de console, expanda o site central, clique com o botão direito do mouse em **sites de ramificação**e clique em **novo site de filial**.
 
 3.  Na caixa de diálogo **definir novo site de filial** , clique em **nome**e digite o nome do site de filial.
 
@@ -51,7 +53,7 @@ Os sites de filiais representam filiais físicas conectadas a seus escritórios 
 
 5.  Click **Next**.
 
-6.  Adicionais Na caixa de diálogo próximo **definir novo site** de filiais, siga um destes procedimentos:
+6.  Adicionais Na caixa de diálogo próximo **definir novo site de filiais** , siga um destes procedimentos:
     
       - Clique em **cidade**e digite o nome da cidade na qual o site da filial está localizado.
     

@@ -3,6 +3,8 @@ title: Conectar um aparelho de filial persistente
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Connect a Survivable Branch Appliance
 ms:assetid: fe3167e2-d1b1-4cd4-bf30-262e0e7d14e8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721948(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733886
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c76e70278d709b52388c22714db85f9bae4610d9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5ef6294deba25998c5ad16254e464b6f682fa660
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836764"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723161"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,9 +49,9 @@ Cada aplicativo de ramificação sobreviventes (SBA) está associado a um pool d
 
 **Adicionar site de ramificação do Lync Server 2010 SBA à sua topologia**
 
-1.  Abrir o **Construtor**de topologias.
+1.  Abrir o **Construtor de topologias**.
 
-2.  No painel esquerdo, clique com o botão direito do mouse em **sites**de ramificação e clique em **novo site de filial**.
+2.  No painel esquerdo, clique com o botão direito do mouse em **sites de ramificação**e clique em **novo site de filial**.
 
 3.  Na caixa de diálogo **definir novo site de filial** , clique em **nome**e digite o nome do site de filial.
 
@@ -57,7 +59,7 @@ Cada aplicativo de ramificação sobreviventes (SBA) está associado a um pool d
 
 5.  Click **Next**.
 
-6.  Adicionais Na caixa de diálogo próximo **definir novo site** de filiais, siga um destes procedimentos:
+6.  Adicionais Na caixa de diálogo próximo **definir novo site de filiais** , siga um destes procedimentos:
     
     1.  Clique em **cidade**e digite o nome da cidade na qual o site da filial está localizado.
     

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: gerenciamento de alterações'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Change management
 ms:assetid: 73c774f5-c12f-4c72-be73-e07dc745b994
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720336(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969618
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13eb521ea6b4be5f8d701885df65a3e1672b2eaa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dd6e60749e35c9680300925f07e84d98d675884c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836621"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730201"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ O processo de gerenciamento de alterações define as responsabilidades de cada 
 
   - **Alterações significativas alterações**   significativas exigem recursos significativos para planejar, criar e implementar. Os controles de alteração apropriados devem ser introduzidos para ajudar a garantir que o efeito da alteração seja entendido, que os procedimentos de implantação sejam testados e que os planos de reversão e contingência estejam prontos. Um exemplo de uma alteração significativa é implantar uma nova atualização cumulativa.
 
-  - ****   Alterações secundárias pequenas alterações não afetam significativamente o ambiente de ti, por exemplo, alterar determinadas políticas do Lync por meio do painel de controle do Microsoft Lync Server 2013.
+  - **Alterações secundárias**   pequenas alterações não afetam significativamente o ambiente de ti, por exemplo, alterar determinadas políticas do Lync por meio do painel de controle do Microsoft Lync Server 2013.
 
   - **Alterações padrão as**   alterações padrão são executadas regularmente e são bem compreendidas e documentadas. O processo de gerenciamento de alterações deve revisar todas as alterações nos procedimentos. Ele não deve ser necessário para mudanças de rotina, como criar um banco de dados de conteúdo ou adicionar um usuário.
 
@@ -61,15 +63,15 @@ O exemplo a seguir de gerenciamento de alterações examina como as diferentes e
 
   - **Gerar uma solicitação**   de alteração a equipe de segurança avaliou o Service Pack mais recente e confirmou que ele resolve uma possível vulnerabilidade no sistema de produção. A equipe eleva uma solicitação de alteração para ter a nova atualização cumulativa aplicada a todos os servidores que executam o Lync Server.
 
-  - **Notas de versão do Service Pack**   revisar a equipe do administrador do Lync revisa as notas de versão do Service Pack para identificar o efeito no sistema.
+  - **Notas de versão do Service Pack revisar**   a equipe do administrador do Lync revisa as notas de versão do Service Pack para identificar o efeito no sistema.
 
-  - **Uma série de testes de laboratório é realizada**   a equipe do administrador do Lync deve executar atualizações de teste em um servidor em um ambiente de teste para decidir se o Service Pack pode ser aplicado com êxito sem afetar qualquer um dos aplicativos e servidor instalados os. Se houver aplicativos de terceiros ou criados internamente que fazem interface com o Lync Server em um ambiente de produção, eles também deverão ser testados. Esses testes também podem ser usados para estimar o tempo necessário para executar as atualizações.
+  - **Uma série de testes de laboratório é realizada**   a equipe do administrador do Lync deve executar atualizações de teste em um servidor em um ambiente de teste para decidir se o Service Pack pode ser aplicado com êxito sem afetar qualquer um dos aplicativos instalados e sistemas de servidor. Se houver aplicativos de terceiros ou criados internamente que fazem interface com o Lync Server em um ambiente de produção, eles também deverão ser testados. Esses testes também podem ser usados para estimar o tempo necessário para executar as atualizações.
 
   - **Os usuários são informados sobre a interrupção**   que a equipe do administrador do Lync, a equipe de comunicações ou o suporte técnico do usuário informa todos os usuários afetados sobre o ciclo de manutenção planejado e por quanto tempo o serviço estará indisponível.
 
   - **Um backup completo do Lync é executado antes da atualização**   que a equipe do administrador do Lync deve verificar se há um backup válido que pode ser usado para reverter para o estado do sistema original, caso a instalação do Service Pack falhe. Recomendamos que o backup seja restaurado para um servidor em standby para que esse sistema seja imediatamente disponibilizado se houver problemas.
 
-  - **A atualização cumulativa é**   implantada a equipe do administrador do Lync faz a instalação durante o ciclo de manutenção planejado.
+  - **A atualização cumulativa é implantada**   a equipe do administrador do Lync faz a instalação durante o ciclo de manutenção planejado.
 
 <div>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: considerações de migração para reuniões'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Migration considerations for meetings
 ms:assetid: a9807d58-99a3-4cff-b4c6-74950d106a2b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412800(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 61097556
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 67816dd8f2b9d8be3862994c735040c703bd2231
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6af94514360509d4f608a21228b2fecf9a522007
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827127"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727731"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -126,7 +128,7 @@ As reuniões do Office Communications Server 2007 R2 são chamadas em conferênc
 
 ## <a name="user-experience-during-lync-server-2010-migration"></a>Experiência do usuário durante a migração do Lync Server 2010
 
-Esta seção fornece um resumo da experiência de Conferência dos usuários durante a migração do Lync 2010. Para obter mais detalhes sobre como os clientes do Lync Server 2013 podem coexistir e interagir com versões anteriores do cliente e do servidor, consulte interoperabilidade [do cliente no Lync 2013](lync-server-2013-client-interoperability-in-lync-2013.md).
+Esta seção fornece um resumo da experiência de Conferência dos usuários durante a migração do Lync 2010. Para obter mais detalhes sobre como os clientes do Lync Server 2013 podem coexistir e interagir com versões anteriores do cliente e do servidor, consulte [interoperabilidade do cliente no Lync 2013](lync-server-2013-client-interoperability-in-lync-2013.md).
 
 <div>
 
@@ -150,7 +152,7 @@ Durante a migração do Lync Server 2010, pode haver um período de coexistênci
 
 ## <a name="user-experience-during-office-communications-server-2007-r2-migration"></a>Experiência do usuário durante a migração do Office Communications Server 2007 R2
 
-Esta seção fornece um resumo da experiência de Conferência dos usuários ao migrar do Office Communications Server 2007 R2, antes e depois que o Lync 2013 está instalado. Para obter mais detalhes sobre como os clientes do Lync Server 2013 podem coexistir e interagir com versões anteriores do cliente e do servidor, consulte interoperabilidade [do cliente no Lync 2013](lync-server-2013-client-interoperability-in-lync-2013.md).
+Esta seção fornece um resumo da experiência de Conferência dos usuários ao migrar do Office Communications Server 2007 R2, antes e depois que o Lync 2013 está instalado. Para obter mais detalhes sobre como os clientes do Lync Server 2013 podem coexistir e interagir com versões anteriores do cliente e do servidor, consulte [interoperabilidade do cliente no Lync 2013](lync-server-2013-client-interoperability-in-lync-2013.md).
 
 <div>
 

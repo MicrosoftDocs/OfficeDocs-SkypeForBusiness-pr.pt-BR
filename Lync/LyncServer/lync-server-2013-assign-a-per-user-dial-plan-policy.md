@@ -3,6 +3,8 @@ title: 'Lync Server 2013: atribuir uma política de plano de discagem por usuár
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign a per-user dial plan policy
 ms:assetid: 9fea861f-7770-4cae-9b1f-2a960595bfc9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688156(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7f9bca09515daba6db7e072625d5b4a217d37cd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f2bc62981a69b1260ba5f2fbaeabc112553b85f5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845034"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722961"
 ---
 # <a name="assign-a-per-user-dial-plan-policy-in-lync-server-2013"></a>Atribuir uma política de plano de discagem por usuário no Lync Server 2013
 
@@ -40,11 +42,11 @@ Para concluir a configuração da conta de usuário para usuários do Enterprise
 
 7.  Na página **Editar usuário do Lync Server** , em **telefonia**, clique em **Enterprise Voice**.
 
-8.  Clique em **política de plano**de discagem e escolha o plano de discagem desejado.
+8.  Clique em **política de plano de discagem**e escolha o plano de discagem desejado.
 
 9.  Clique em **Confirmar**.
 
-Para obter detalhes sobre como configurar planos de discagem, consulte o tópico Configurando [planos de discagem no Lync Server 2013](lync-server-2013-configuring-dial-plans.md) .
+Para obter detalhes sobre como configurar planos de discagem, consulte o tópico [Configurando planos de discagem no Lync Server 2013](lync-server-2013-configuring-dial-plans.md) .
 
 ## <a name="assign-a-per-user-dial-plan-by-using-windows-powershell-cmdlets"></a>Atribuir um plano de discagem por usuário usando cmdlets do Windows PowerShell
 

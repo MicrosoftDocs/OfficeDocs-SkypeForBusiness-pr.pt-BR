@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Novos recursos para acesso de usuário externo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New features for external user access
 ms:assetid: 99da6bd5-ec14-4ad9-8f7d-37fbddf567dd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398794(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184884
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d365c4e32c5eaebbd0368cd85b41be7886a59df
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d8c27df6befdba620407b3b1fd4fe537b8da831d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826441"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723971"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,7 +61,7 @@ O Lync Server 2013 introduz novos recursos que ampliam os recursos e métodos de
     
     </div>
 
-  - **Serviços de mobilidade para clientes móveis**   introduzidos em uma atualização do cliente para o Lync Server 2010, os serviços de mobilidade no Lync Server 2013 permitem que os clientes móveis do Microsoft Lync em celulares e dispositivos tablets com suporte para Apple Ios, Android, Windows Telefone ou dispositivos móveis Nokia para executar tais atividades como enviar e receber mensagens instantâneas, ver contatos e ver a presença. Além disso, os dispositivos móveis dão suporte a alguns recursos de voz empresarial, como o clique para ingressar em uma conferência, fazer chamadas por meio de trabalho, de alcance de número único, caixa postal e notificação de chamada perdida.
+  - **Serviços de mobilidade para clientes móveis**   introduzidos em uma atualização de cliente para o Lync Server 2010, os serviços de mobilidade no Lync Server 2013 permitem que os clientes móveis do Microsoft Lync em celulares e dispositivos tablets com dispositivos móveis Apple Ios, Android, Windows Phone ou Nokia sejam executados para executar tais atividades, como enviar e receber mensagens de chat, ver contatos e ver a presença. Além disso, os dispositivos móveis dão suporte a alguns recursos de voz empresarial, como o clique para ingressar em uma conferência, fazer chamadas por meio de trabalho, de alcance de número único, caixa postal e notificação de chamada perdida.
     
     <div>
     

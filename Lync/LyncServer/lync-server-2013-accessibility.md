@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Acessibilidade'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Accessibility for people with disabilities
 ms:assetid: 29c35a47-2513-425c-8b6b-250786573171
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204754(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183681
 ms.date: 01/15/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 428270d63184ab991bbaeb5538240bdb50a5d0d0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0b3830196baea942bcbdf2109b9a3a761083cd02
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836974"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730473"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -154,7 +156,7 @@ As seções a seguir fornecem informações sobre os recursos, produtos e servi�
 
 
 > [!NOTE]  
-> As informações contidas nesta seção se aplicam apenas aos usuários que licenciam os produtos da Microsoft nos Estados Unidos. Se você adquiriu este produto fora dos Estados Unidos, poderá usar o cartão de informações da subsidiária que veio com seu pacote de software ou visitar o website Microsoft <A href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</A> Accessibility em para obter uma lista de números de telefone e endereços para o suporte da Microsoft aos. Você pode entrar em contato com a subsidiária para descobrir se o tipo de produto e serviços descritos nesta seção está disponível na sua região. Você pode saber mais sobre os recursos de acessibilidade incluídos nos produtos da Microsoft no site de acessibilidade do Microsoft Products.
+> As informações contidas nesta seção se aplicam apenas aos usuários que licenciam os produtos da Microsoft nos Estados Unidos. Se você adquiriu este produto fora dos Estados Unidos, pode usar o cartão de informações da subsidiária que veio com seu pacote de software ou visitar o website Microsoft <A href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</A> Accessibility em para obter uma lista de números de telefone e endereços para serviços de suporte da Microsoft. Você pode entrar em contato com a subsidiária para descobrir se o tipo de produto e serviços descritos nesta seção está disponível na sua região. Você pode saber mais sobre os recursos de acessibilidade incluídos nos produtos da Microsoft no site de acessibilidade do Microsoft Products.
 
 
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: lendo logs de captura do serviço de log centralizado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reading capture logs from the Centralized Logging Service
 ms:assetid: c86ccf61-d86f-4ebd-b8d1-984a1b73005d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721879(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733813
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55bfeaa5bc9a2e89d8c52529c5d05ae7e3ee8feb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2713c9a1209aad4a96fcb3a76afaf7c2bc61c0dc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823725"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724551"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,23 +51,23 @@ Você percebe o verdadeiro benefício do serviço de registro centralizado depoi
 
 O Lync Server 2013 apresenta uma versão atualizada do Espionador que inclui alguns recursos novos. A captura de tela a seguir mostra a versão do Espionador do Office Communications Server 2007.
 
-![Versão do Office communications 2007 do espionador.] (images/JJ721879.129503a8-8edd-4bb0-a68f-c43f9a548b93(OCS.15).jpg "Versão do Office communications 2007 do espionador.")
+![Versão do Office Communications 2007 do Espionador.](images/JJ721879.129503a8-8edd-4bb0-a68f-c43f9a548b93(OCS.15).jpg "Versão do Office Communications 2007 do Espionador.")
 
 A captura de tela a seguir mostra a nova versão do Espionador incluída nas ferramentas de depuração do Lync Server 2013.
 
-![Versão do espionador do Lync Server 2013.] (images/JJ721879.131495dd-8220-4ae4-af37-0ac5c318fd45(OCS.15).jpg "Versão do espionador do Lync Server 2013.")
+![Versão do Espionador do Lync Server 2013.](images/JJ721879.131495dd-8220-4ae4-af37-0ac5c318fd45(OCS.15).jpg "Versão do Espionador do Lync Server 2013.")
 
 A captura de tela a seguir mostra a barra de ferramentas com funções usadas com frequência.
 
-![Barra de ferramentas do espionador 2013.] (images/JJ721879.989249c5-a33e-4251-b8b4-411019cc12b2(OCS.15).jpg "Barra de ferramentas do espionador 2013.")
+![Barra de ferramentas do espionador 2013.](images/JJ721879.989249c5-a33e-4251-b8b4-411019cc12b2(OCS.15).jpg "Barra de ferramentas do espionador 2013.")
 
 Além disso, o recurso mais recente que adiciona valor é o modo de exibição de diagrama de fluxograma (fluxo de chamadas). Selecione um fluxo de mensagens na guia **mensagem** e clique no botão **fluxo de chamadas** . Ao passar pelas mensagens, o diagrama de fluxo de chamadas é atualizado com novos dados.
 
-![Diagrama de fluxo de chamadas do espionador 2013.] (images/JJ721879.bb8be45d-a842-48fe-86f8-380207d70bab(OCS.15).jpg "Diagrama de fluxo de chamadas do espionador 2013.")
+![Diagrama de fluxo de chamadas do espionador 2013.](images/JJ721879.bb8be45d-a842-48fe-86f8-380207d70bab(OCS.15).jpg "Diagrama de fluxo de chamadas do espionador 2013.")
 
 Você pode passar o mouse sobre o modo de exibição de diagrama e obter detalhes sobre as mensagens e o conteúdo dos fluxos e mensagens, bem como os elementos do servidor. Clique em qualquer seta de fluxo de chamadas para ir até a mensagem no modo de exibição mensagens.
 
-![Detalhes da mensagem do diagrama de fluxo de chamadas.] (images/JJ721879.1147d720-38a9-4bda-8361-78f27ecde3d1(OCS.15).jpg "Detalhes da mensagem do diagrama de fluxo de chamadas.")
+![Detalhes da mensagem do diagrama de fluxo de chamadas.](images/JJ721879.1147d720-38a9-4bda-8361-78f27ecde3d1(OCS.15).jpg "Detalhes da mensagem do diagrama de fluxo de chamadas.")
 
 <div>
 

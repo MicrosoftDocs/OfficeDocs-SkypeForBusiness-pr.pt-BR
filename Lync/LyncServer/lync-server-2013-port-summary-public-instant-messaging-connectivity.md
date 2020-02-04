@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Resumo de porta-conectividade de mensagens instantâne
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port summary - Public instant messaging connectivity
 ms:assetid: f46756ec-1401-4ca2-a4a4-5cd28bcfdc7f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618376(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49105663
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5bb6b8d0d9277b7d77440519596da76585b9d91b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 16430849221631d9b540f5ee51b0a07758a38b05
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824243"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725051"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34824243"
 
 _**Tópico da última modificação:** 2013-02-16_
 
-Para configurar o firewall para portas e protocolos necessários para dar suporte à conectividade de mensagens instantâneas públicas, primeiro Observe que o SIP/MTLS/TCP 5061 é bidirecional para a conta da capacidade dos contatos no provedor de IM públicos entrarem em contato com os clientes do Lync ou do Lync para entre em contato com contatos públicos de mensagens instantâneas.
+Para configurar o seu firewall para portas e protocolos necessários para dar suporte à conectividade de mensagens instantâneas públicas, primeiro Observe que SIP/MTLS/TCP 5061 é bidirecional para a conta da capacidade dos contatos no provedor de IM públicos entrarem em contato com os clientes do Lync ou para que o Lync entre em contato com contatos públicos de mensagens instantâneas.
 
 O Windows Live Messenger pode participar de comunicações de áudio/vídeo com clientes do Lync. Isso conta com uma configuração de protocolo e porta de firewall muito parecidas que você normalmente teria no firewall para dar suporte a clientes Lync como usuários externos.
 

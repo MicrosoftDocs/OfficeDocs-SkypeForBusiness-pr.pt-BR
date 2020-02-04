@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requisitos de certificado para servidores internos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate requirements for internal servers
 ms:assetid: 0444cdbd-538c-43b1-b9a1-9d7d6cf818d6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398094(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183270
 ms.date: 02/17/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a4a3f1eb54321c6cac7548d282bd3cea31c3f24a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0351ab4f54273e1eccc09992ab933525cc2527ae
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836667"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736781"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,9 +49,9 @@ Os servidores internos que executam o Lync Server e que exigem certificados incl
 
 </div>
 
-Embora uma CA (autoridade de certificação) corporativa interna seja recomendada para servidores internos, você também pode usar uma CA pública. Para obter uma lista de CAs públicas que fornecem certificados compatíveis com requisitos específicos para certificados de comunicação unificada (UC) e que se associaram à Microsoft para garantir que elas funcionem com o assistente de certificado do Lync Server, consulte artigo conhecimento da Microsoft Base 929395, "parceiros do certificado de comunicação unificada para Exchange Server e para Communications Server" em [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834).
+Embora uma CA (autoridade de certificação) corporativa interna seja recomendada para servidores internos, você também pode usar uma CA pública. Para obter uma lista de CAs públicas que fornecem certificados compatíveis com requisitos específicos para certificados de comunicação unificada (UC) e que se associaram à Microsoft para garantir que elas funcionem com o assistente de certificado do Lync Server, consulte o artigo Microsoft Knowledge Base 929395, "parceiros de certificado de comunicação unificada para Exchange Server e para comunicações Server" em [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834).
 
-A comunicação com outros aplicativos e servidores, como o Exchange 2013, requer um certificado que seja compatível com outros aplicativos e produtos. Para o lançamento do 2013, Lync Server 2013 e outros produtos do Microsoft Server, incluindo Exchange 2013 e SharePoint Server, suporte ao protocolo de autorização aberta (OAuth) para autenticação e autorização do servidor para servidor. Para obter detalhes, consulte Gerenciando a [autenticação de servidor para servidor (OAuth) e aplicativos de parceiros no Lync server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) na documentação de implantação ou na documentação de operações.
+A comunicação com outros aplicativos e servidores, como o Exchange 2013, requer um certificado que seja compatível com outros aplicativos e produtos. Para o lançamento do 2013, Lync Server 2013 e outros produtos do Microsoft Server, incluindo Exchange 2013 e SharePoint Server, suporte ao protocolo de autorização aberta (OAuth) para autenticação e autorização do servidor para servidor. Para obter detalhes, consulte [Gerenciando a autenticação de servidor para servidor (OAuth) e aplicativos de parceiros no Lync server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) na documentação de implantação ou na documentação de operações.
 
 Para conexões de clientes que executam o sistema operacional Windows 7, sistema operacional Windows Server 2008, sistema operacional Windows Server 2008 R2, sistema operacional Windows Vista e Microsoft Lync Phone Edition, Lync Server 2013 inclui suporte para (mas não Requires) certificados assinados usando a função hash criptográfico SHA-256. Para dar suporte ao acesso externo usando SHA-256, o certificado externo é emitido por uma autoridade de certificação pública que usa SHA-256.
 

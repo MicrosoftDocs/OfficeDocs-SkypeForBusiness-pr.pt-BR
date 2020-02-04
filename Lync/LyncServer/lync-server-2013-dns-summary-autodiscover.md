@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Resumo de DNS-descoberta automática'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Autodiscover
 ms:assetid: b336a2ae-0e58-4b74-b606-aedbbd411587
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945644(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541504
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64e303ebecc42f03197f6502296c8a2708e97ebf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6ed7d6edb44ebca8656a50aec432fe3c0ac669d8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829360"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737341"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -123,7 +125,7 @@ Você precisa criar um dos seguintes registros de DNS externo:
 
 
 > [!NOTE]  
-> Os clientes de dispositivos móveis não dão suporte a vários certificados SSL (Secure Sockets Layer) de domínios diferentes. Portanto, não há suporte para o redirecionamento CNAME para domínios diferentes em HTTPS. Por exemplo, um registro CNAME de DNS para lyncdiscover.contoso.com que redireciona para um endereço de director.contoso.net não é compatível com HTTPS. Em uma topologia como essa, um cliente de dispositivo móvel precisa usar HTTP para a primeira solicitação, para que o redirecionamento CNAME seja resolvido por HTTP. Solicitações subsequentes e, em seguida, use HTTPS. Para dar suporte a esse cenário, você precisa configurar seu proxy reverso com uma regra de publicação na Web para a porta 80 (HTTP). Para obter detalhes, consulte "criar uma regra de publicação na Web para a porta 80" em Configurando <A href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">o proxy reverso para a mobilidade no Lync Server 2013</A>. O redirecionamento CNAME para o mesmo domínio é compatível com HTTPS. Nesse caso, o certificado do domínio de destino abrange o domínio de origem.
+> Os clientes de dispositivos móveis não dão suporte a vários certificados SSL (Secure Sockets Layer) de domínios diferentes. Portanto, não há suporte para o redirecionamento CNAME para domínios diferentes em HTTPS. Por exemplo, um registro CNAME de DNS para lyncdiscover.contoso.com que redireciona para um endereço de director.contoso.net não é compatível com HTTPS. Em uma topologia como essa, um cliente de dispositivo móvel precisa usar HTTP para a primeira solicitação, para que o redirecionamento CNAME seja resolvido por HTTP. Solicitações subsequentes e, em seguida, use HTTPS. Para dar suporte a esse cenário, você precisa configurar seu proxy reverso com uma regra de publicação na Web para a porta 80 (HTTP). Para obter detalhes, consulte "criar uma regra de publicação na Web para a porta 80" em <A href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Configurando o proxy reverso para a mobilidade no Lync Server 2013</A>. O redirecionamento CNAME para o mesmo domínio é compatível com HTTPS. Nesse caso, o certificado do domínio de destino abrange o domínio de origem.
 
 
 

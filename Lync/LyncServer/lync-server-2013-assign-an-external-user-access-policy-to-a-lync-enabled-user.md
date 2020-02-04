@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Atribuir uma política de usuário externo a um usuár
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign an external user access policy to a Lync enabled user
 ms:assetid: 736fcaad-9f95-4896-b767-e199d86a00a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398551(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184483
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec487f8aacdc26f910f30a0864ecead1fdb1a745
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 523907fbf4bc4cca93be8e529b6b607b43f0ea87
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836989"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723391"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Se um usuário foi habilitado para o Lync Server, você pode configurar a Federa
 
 
 > [!NOTE]  
-> Para dar suporte ao acesso de usuário externo, você deve habilitar o suporte para cada tipo de acesso de usuário externo ao qual você deseja dar suporte e configurar as políticas adequadas e outras opções para controlar seu uso. Para obter detalhes, consulte Configurando o <A href="lync-server-2013-configuring-support-for-external-user-access.md">suporte para acesso de usuários externos no Lync server 2013</A> na documentação de implantação ou gerenciando a <A href="lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md">Federação e acesso externo ao Lync Server 2013</A> na documentação de operações.
+> Para dar suporte ao acesso de usuário externo, você deve habilitar o suporte para cada tipo de acesso de usuário externo ao qual você deseja dar suporte e configurar as políticas adequadas e outras opções para controlar seu uso. Para obter detalhes, consulte <A href="lync-server-2013-configuring-support-for-external-user-access.md">Configurando o suporte para acesso de usuários externos no Lync server 2013</A> na documentação de implantação ou <A href="lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md">Gerenciando a Federação e acesso externo ao Lync Server 2013</A> na documentação de operações.
 
 
 

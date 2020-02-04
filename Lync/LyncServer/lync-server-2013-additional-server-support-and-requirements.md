@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Suporte adicional e requisitos de servidor'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Additional server support and requirements
 ms:assetid: 7622986b-abd6-4f45-8b5b-d5e2368521e8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398577(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184535
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29f2d1a1b728fcec84f0aed70f00f1143c70c490
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3f111b80bc88b632ff1020f45e899f220edeb7d5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836925"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738001"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ Além do suporte de software descrito nas outras seções desta documentação d
 
   - Se você usa IPsec, recomendamos desabilitar o IPsec sobre os intervalos de porta usados para tráfego de áudio e vídeo. Para obter detalhes, consulte [exceções de IPsec no Lync Server 2013](lync-server-2013-ipsec-exceptions.md) na documentação de planejamento.
 
-  - Se a sua organização usa uma infraestrutura de QoS (Qualidade de Serviço), o subsistema de mídia é projetado para funcionar com essa infraestrutura existente. Para obter detalhes sobre a implementação de QoS, consulte Gerenciando a [qualidade do serviço (QoS) no Lync Server 2013](lync-server-2013-managing-quality-of-service-qos.md) na documentação de operações.
+  - Se a sua organização usa uma infraestrutura de QoS (Qualidade de Serviço), o subsistema de mídia é projetado para funcionar com essa infraestrutura existente. Para obter detalhes sobre a implementação de QoS, consulte [Gerenciando a qualidade do serviço (QoS) no Lync Server 2013](lync-server-2013-managing-quality-of-service-qos.md) na documentação de operações.
 
   - Há suporte para o uso do firewall do sistema operacional. O Lync Server 2013 gerencia as exceções de firewall para o Firewall do sistema operacional, exceto para o software de banco de dados do Microsoft SQL Server. Para obter detalhes sobre os requisitos de firewall do SQL Server, consulte a documentação do SQL Server.
 
@@ -59,7 +61,7 @@ Além do suporte de software descrito nas outras seções desta documentação d
 
   - A maioria dos servidores internos exige um tipo de certificado definido como **autenticação aberta** (OAuth). Você precisa solicitar e atribuir um certificado OAuth durante a fase **solicitar, instalar e atribuir certificados** do assistente de implantação do Lync Server. O tamanho mínimo de uma chave de certificado OAuth é de 1024 bits. Um aviso pode ser exibido se você solicitar um certificado com um comprimento de chave inferior a 2048 bits de comprimento. Para evitar possíveis problemas no caso de um comprimento de chave do 2048 ser aplicado em vez de advertido, é altamente recomendável usar sempre um comprimento de chave de 2048 para certificados OAuth.
 
-  - O Lync Server 2013 e o Microsoft Exchange Server 2010 Service Pack 1 (SP1) operam com suporte para algoritmos de 140-2 padrão FIPS (Federal Information Processing Standard) se os sistemas operacionais Windows Server 2008 R2 estiverem configurados para usar os algoritmos FIPS 140-2 para criptografia do sistema. Para implementar o suporte a FIPS, você deve configurar cada servidor que está executando o Lync Server 2013 para dar suporte a ele. Para obter detalhes sobre algoritmos compatíveis com FIPS e como implementar o suporte a FIPS, consulte o artigo 811833 da base de dados de conhecimento Microsoft, "criptografia do sistema: usar algoritmos compatíveis com FIPS para criptografia, hash e autenticação de segurança no Windows XP e em versões posteriores versões do Windows em [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833). Para obter detalhes sobre o suporte e as limitações do FIPS 140-2 no Exchange 2010, consulte "Exchange 2010 SP1 e suporte para algoritmos compatíveis com FIPS" em [http://go.microsoft.com/fwlink/p/?linkId=205335](http://go.microsoft.com/fwlink/p/?linkid=205335).
+  - O Lync Server 2013 e o Microsoft Exchange Server 2010 Service Pack 1 (SP1) operam com suporte para algoritmos de 140-2 padrão FIPS (Federal Information Processing Standard) se os sistemas operacionais Windows Server 2008 R2 estiverem configurados para usar os algoritmos FIPS 140-2 para criptografia do sistema. Para implementar o suporte a FIPS, você deve configurar cada servidor que está executando o Lync Server 2013 para dar suporte a ele. Para obter detalhes sobre algoritmos compatíveis com FIPS e sobre como implementar o suporte a FIPS, consulte o artigo 811833 da base de dados de conhecimento Microsoft, "criptografia do sistema: usar algoritmos compatíveis com FIPS para criptografia, hash e autenticação de segurança [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833)no Windows XP e em versões posteriores do Windows em. Para obter detalhes sobre o suporte e as limitações do FIPS 140-2 no Exchange 2010, consulte "Exchange 2010 SP1 e suporte para algoritmos compatíveis com FIPS" em [http://go.microsoft.com/fwlink/p/?linkId=205335](http://go.microsoft.com/fwlink/p/?linkid=205335).
 
 O Lync Server 2013 requer a instalação de outro software em componentes específicos antes ou durante a implantação. Isso inclui software que está disponível com o sistema operacional, software para download e software que é instalado automaticamente durante a instalação do Lync Server 2013. Veja a seguir uma lista de softwares adicionais que podem ser necessários:
 

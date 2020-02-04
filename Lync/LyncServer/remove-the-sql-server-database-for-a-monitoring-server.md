@@ -3,6 +3,8 @@ title: Remover banco de dados do SQL Server de um servidor de Monitoramento
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Remove the SQL Server database for a Monitoring server
 ms:assetid: aed5e394-d63e-4ad4-af40-f12d3a044344
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721848(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733781
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fdb2888a6c3dc7cc5dd4e3b77b70310a405f607d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0f877f7d8d1ade4d260ed137f52046c21f29cf11
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844144"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726981"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ Depois de remover um Microsoft Lync Server 2010 Monitoring Server, você pode re
 
 1.  No servidor front-end do Lync Server 2013, abra o construtor de topologias.
 
-2.  No construtor de topologias, navegue até **componentes compartilhados** e, em seguida, repositórios do **SQL Server**, clique com o botão direito do mouse na instância do SQL Server associada ao servidor de monitoramento removido ou reconfigurado e clique em **excluir**.
+2.  No construtor de topologias, navegue até **componentes compartilhados** e, em seguida, **repositórios do SQL Server**, clique com o botão direito do mouse na instância do SQL Server associada ao servidor de monitoramento removido ou reconfigurado e clique em **excluir**.
 
 3.  Publique a topologia e, em seguida, verifique o status de replicação.
 

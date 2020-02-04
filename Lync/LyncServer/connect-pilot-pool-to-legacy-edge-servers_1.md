@@ -3,6 +3,8 @@ title: Conectar pool piloto aos Servidores de Borda herdados
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Connect pilot pool to legacy Edge Servers
 ms:assetid: 9ed13c41-f3ab-4e1d-beb6-a00152c541e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205136(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185003
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40d54a7432451901a32cb8e31d201ef732a731bd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 09858b03c787af034790c94bcbf12ca6ea7ceecf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836838"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723141"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +53,7 @@ Para habilitar o site do Lync Server 2013 a usar o diretor e o servidor de borda
 
 4.  Em **atribuição de rota de Federação do site**, selecione **habilitar Federação SIP**e, em seguida, selecione o diretor do office Communications Server 2007 R2 ou o servidor de borda do office Communications Server 2007 R2 se nenhum diretor estiver listado.
     
-    ![Caixa de diálogo Editar propriedades, página rota de Federação] (images/JJ205136.bc13014b-3578-4d9e-9ff7-bdd09130b676(OCS.15).jpg "Caixa de diálogo Editar propriedades, página rota de Federação")  
+    ![Caixa de diálogo Editar propriedades, página rota de Federação](images/JJ205136.bc13014b-3578-4d9e-9ff7-bdd09130b676(OCS.15).jpg "Caixa de diálogo Editar propriedades, página rota de Federação")  
 
 5.  Clique em **OK** para fechar a página **Editar propriedades** .
 
@@ -61,11 +63,11 @@ Para habilitar o site do Lync Server 2013 a usar o diretor e o servidor de borda
 
 8.  Na lista, selecione a interface do servidor de borda para o BackCompatSite.
     
-    ![Caixa de diálogo Editar propriedades, página Geral] (images/JJ205136.75045212-03ca-4b82-8337-5dacb487094f(OCS.15).jpg "Caixa de diálogo Editar propriedades, página Geral")  
+    ![Caixa de diálogo Editar propriedades, página Geral](images/JJ205136.75045212-03ca-4b82-8337-5dacb487094f(OCS.15).jpg "Caixa de diálogo Editar propriedades, página Geral")  
 
 9.  Clique em **OK** para fechar a página **Editar propriedades** .
 
-10. No **Construtor**de topologias, selecione o nó mais alto, **Lync Server**.
+10. No **Construtor de topologias**, selecione o nó mais alto, **Lync Server**.
 
 11. No menu **ação** , clique em **publicar topologia**e, em seguida, clique em **Avançar**.
 

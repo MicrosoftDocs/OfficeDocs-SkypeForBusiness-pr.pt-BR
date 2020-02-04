@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar a tabela de número não atribuído'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure the unassigned number table
 ms:assetid: eaa01986-e92f-4328-acf6-4e46c4306a04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399053(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185908
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c59b44b31eececd002434b74085be85eaec9cbec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b99679d439257b54b6bb40d8e724bb63da4a1ea5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836311"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736471"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +65,7 @@ O modo como você configura a tabela de números não atribuída depende de como
 
 ## <a name="in-this-section"></a>Nesta seção
 
-[Criar ou modificar um intervalo de números não atribuídos no Lync Server 2013](lync-server-2013-create-or-modify-an-unassigned-number-range.md) [Criar um anúncio no Lync Server 2013](lync-server-2013-create-an-announcement.md)
+[Criar ou modificar um intervalo de números não atribuídos no Lync server 2013](lync-server-2013-create-or-modify-an-unassigned-number-range.md) [criar um anúncio no Lync Server 2013](lync-server-2013-create-an-announcement.md)
 
 </div>
 

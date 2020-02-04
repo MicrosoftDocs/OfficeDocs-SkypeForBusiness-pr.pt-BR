@@ -3,6 +3,8 @@ title: 'Lync Server 2013: estabelecendo uma estratégia de backup e restauraçã
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Establishing a backup and restoration strategy
 ms:assetid: f545a75f-bbc4-4968-b510-8f6f3920112b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202195(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541532
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d378c66ae820ef0be7b7b3b0492b023863e977ea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5ee1a13667e28ad374f538d61f6cfd941d31fade
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829194"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735252"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,7 +75,7 @@ Suas prioridades de negócios e contratos de nível de serviço atuam para deter
 
   - **Local de backup**   identifique se os backups são mantidos localmente ou remotamente, levando a segurança e acessibilidade em consideração. Especifique a mídia a ser usada para os backups.
 
-  - **Os requisitos**   de hardware e software identificam e documentam seus requisitos específicos de hardware e software, incluindo o hardware para armazenamento de backup e restauração de componentes específicos e qualquer conectividade de software e rede necessária para suporte para backup e restauração. Ao desenvolver seus requisitos de hardware e software, tenha em mente os vários cenários de restauração que se seguem.
+  - **Os requisitos**   de hardware e software identificam e documentam os requisitos específicos de hardware e software, incluindo o hardware para armazenamento de backup e restauração de componentes específicos e qualquer software e conectividade de rede necessária para dar suporte a backup e restauração. Ao desenvolver seus requisitos de hardware e software, tenha em mente os vários cenários de restauração que se seguem.
 
   - **Cenários de restauração**   aqui estão os processos de restauração dos seguintes cenários:
     

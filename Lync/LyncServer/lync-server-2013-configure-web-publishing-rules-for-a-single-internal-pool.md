@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar regras de publicação na Web para um únic
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure web publishing rules for a single internal pool
 ms:assetid: 86ff4b2a-1ba9-46a2-a175-8b19e00a49dd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429712(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184725
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ffe61072df14e28c20c45eb72302905986c6357
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6ea798f3d5cefa3b65194eb8afcb6e9b35aaa9c1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836335"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741311"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ Microsoft Forefront Threat Management Gateway 2010 e roteamento de solicitação
 
 Além das URLs de serviços Web para os diretórios virtuais, você também deve criar regras de publicação para URLs simples, a URL LyncDiscover e o Office Web Apps Server. Para cada URL simples, você deve criar uma regra individual no proxy inverso que aponta para essa URL simples.
 
-Se você estiver implantando a mobilidade e usando a descoberta automática, será necessário criar uma regra de publicação para a URL do serviço de descoberta automática externa. A descoberta automática também requer regras de publicação para a URL de serviços Web externos do Lync Server para o pool de directors e para o pool de front-ends. Para obter detalhes sobre como criar as regras de publicação na Web para descoberta automática, consulte Configurando [o proxy reverso para a mobilidade no Lync Server 2013](lync-server-2013-configuring-the-reverse-proxy-for-mobility.md).
+Se você estiver implantando a mobilidade e usando a descoberta automática, será necessário criar uma regra de publicação para a URL do serviço de descoberta automática externa. A descoberta automática também requer regras de publicação para a URL de serviços Web externos do Lync Server para o pool de directors e para o pool de front-ends. Para obter detalhes sobre como criar as regras de publicação na Web para descoberta automática, consulte [Configurando o proxy reverso para a mobilidade no Lync Server 2013](lync-server-2013-configuring-the-reverse-proxy-for-mobility.md).
 
 Use os procedimentos a seguir para criar regras de publicação na Web.
 
@@ -75,7 +77,7 @@ Use os procedimentos a seguir para criar regras de publicação na Web.
     
 
     > [!NOTE]  
-    > Se o seu servidor interno for um servidor de edição padrão, esse FQDN será o FQDN do servidor Standard Edition. Se o seu servidor interno for um pool de front-ends, esse FQDN será um VIP (IP virtual) do balanceador de carga de hardware que carrega o balanceamento de servidores internos de Web farm. O servidor TMG deve ser capaz de resolver o FQDN para o endereço IP do servidor Web interno. Se o servidor TMG não conseguir resolver o FQDN para o endereço IP correto, você pode selecionar <STRONG>usar um nome de computador ou endereço IP para se conectar ao servidor publicado</STRONG>e, em seguida, na caixa <STRONG>nome do computador ou</STRONG> <STRONG>endereço IP</STRONG> , digitar o endereço IP do w "interno" servidor da EB. Se fizer isso, você deve garantir que a porta 53 esteja aberta no servidor TMG e que ela possa alcançar um servidor DNS que reside na rede de perímetro. Você também pode usar entradas no arquivo hosts locais para fornecer resolução de nomes.
+    > Se o seu servidor interno for um servidor de edição padrão, esse FQDN será o FQDN do servidor Standard Edition. Se o seu servidor interno for um pool de front-ends, esse FQDN será um VIP (IP virtual) do balanceador de carga de hardware que carrega o balanceamento de servidores internos de Web farm. O servidor TMG deve ser capaz de resolver o FQDN para o endereço IP do servidor Web interno. Se o servidor TMG não conseguir resolver o FQDN para o endereço IP correto, você pode selecionar <STRONG>usar um nome de computador ou endereço IP para se conectar ao servidor publicado</STRONG>e, em seguida, na caixa <STRONG>nome do computador ou</STRONG> <STRONG>endereço IP</STRONG> , digitar o endereço IP do servidor Web interno. Se fizer isso, você deve garantir que a porta 53 esteja aberta no servidor TMG e que ela possa alcançar um servidor DNS que reside na rede de perímetro. Você também pode usar entradas no arquivo hosts locais para fornecer resolução de nomes.
 
     
     </div>
@@ -103,7 +105,7 @@ Use os procedimentos a seguir para criar regras de publicação na Web.
 
 14. Na página **seleção de IP de ouvinte externo** , selecione o **endereço IP especificado no computador Forefront TMG na rede selecionada**, selecione o endereço IP apropriado e clique em **Adicionar**.
 
-15. Na página **certificados SSL** de ouvinte, selecione **atribuir um certificado para cada endereço IP**, selecione o endereço IP associado ao FQDN da Web externa e clique em **Selecionar certificado**.
+15. Na página **certificados SSL de ouvinte** , selecione **atribuir um certificado para cada endereço IP**, selecione o endereço IP associado ao FQDN da Web externa e clique em **Selecionar certificado**.
 
 16. Na página **Selecionar certificado** , selecione o certificado que corresponde aos nomes públicos especificados na etapa 9, clique em **selecionar**.
 
@@ -159,7 +161,7 @@ Use os procedimentos a seguir para criar regras de publicação na Web.
     
 
     > [!NOTE]  
-    > Se você não vir o nó <STRONG>farms de servidores</STRONG> , será necessário instalar o roteamento de solicitação de aplicativo. Para obter detalhes, consulte Configurando <A href="lync-server-2013-setting-up-reverse-proxy-servers.md">servidores proxy reverso para o Lync Server 2013</A>.
+    > Se você não vir o nó <STRONG>farms de servidores</STRONG> , será necessário instalar o roteamento de solicitação de aplicativo. Para obter detalhes, consulte <A href="lync-server-2013-setting-up-reverse-proxy-servers.md">Configurando servidores proxy reverso para o Lync Server 2013</A>.
 
     
     </div>
@@ -232,7 +234,7 @@ Use os procedimentos a seguir para criar regras de publicação na Web.
 
 13. No lado esquerdo do console, clique no nome do servidor IIS. No meio do console, localize a **URL reescrita** no **IIS**. Clique duas vezes em URL reescrever para abrir a configuração de regras de recriação de URL. Você deve ver regras para cada Server farm que você criou nas etapas anteriores. Se você não tiver, confirme se clicou no nome do **servidor IIS** imediatamente abaixo do nó da **página inicial** no console do Gerenciador de servidor de informações da Internet.
 
-14. Na caixa de diálogo de reconfiguração de **URL** , usando webext.contoso.com como exemplo, o nome completo da regra conforme exibido **é\_arr\_webext.contoso.com LoadBalance\_SSL**.
+14. Na caixa de diálogo de **reconfiguração de URL** , usando webext.contoso.com como exemplo, o nome completo da regra conforme exibido **é\_arr\_\_webext.contoso.com LoadBalance SSL**.
     
       - Clique duas vezes na regra para abrir a caixa de diálogo **Editar regra de entrada** .
     
@@ -250,7 +252,7 @@ Use os procedimentos a seguir para criar regras de publicação na Web.
     
 
     > [!WARNING]  
-    > Por padrão, as regras HTTP também são criadas e são indicadas pelo nome semelhante às regras de SSL. Para o nosso exemplo atual, a regra HTTP seria nomeada <STRONG>ARR_webext. contoso. com _loadbalance</STRONG>. Nenhuma modificação é necessária para essas regras e eles podem ser ignorados com segurança.
+    > Por padrão, as regras HTTP também são criadas e são indicadas pelo nome semelhante às regras de SSL. Para o nosso exemplo atual, a regra HTTP seria nomeada <STRONG>ARR_webext. contoso. com_loadbalance</STRONG>. Nenhuma modificação é necessária para essas regras e eles podem ser ignorados com segurança.
 
     
     </div>
@@ -277,7 +279,7 @@ Use os procedimentos a seguir para criar regras de publicação na Web.
 
 5.  Na guia **para** , certifique-se de que a caixa de seleção **encaminhar o cabeçalho original do host, em vez da opção atual** está marcada.
 
-6.  Na guia **ponte** , marque a caixa de seleção redirecionar **solicitação para porta SSL** e especifique a porta **4443**.
+6.  Na guia **ponte** , marque a caixa de seleção **redirecionar solicitação para porta SSL** e especifique a porta **4443**.
 
 7.  Na guia **nome público** , adicione as URLs simples (por exemplo, meet.contoso.com e Dialin.contoso.com).
 

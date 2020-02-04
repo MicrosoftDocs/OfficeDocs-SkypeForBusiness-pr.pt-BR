@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Gerenciando nós do Inspetor'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing watcher nodes
 ms:assetid: 66deaf49-a71f-4a6e-ada0-ea8b688ee921
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688078(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733674
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7edddd1a1bb67dc4bf3df5b7809aa76b2397e56
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 27d2afd025897df4f9b98e235d408a264d2cceb2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827638"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724001"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34827638"
 
 _**Tópico da última modificação:** 2012-10-20_
 
-Além de modificar as transações sintéticas que são executadas em um nó de Inspetor, os administradores também podem usar o cmdlet **set-CsWatcherNodeConfiguration** para executar duas outras tarefas importantes: habilitar e desabilitar o nó do Inspetor e configurar o nó de inspetor para usar URLs internas ou URLs externas ao executar seus testes.
+Além de modificar as transações sintéticas que são executadas em um nó de Inspetor, os administradores também podem usar o cmdlet **set-CsWatcherNodeConfiguration** para executar duas outras tarefas importantes: habilitar e desabilitar o nó do Inspetor e configurar o nó do inspetor para usar URLs internas ou URLs externas ao executar seus testes.
 
 Por padrão, os nós do inspetor são projetados para executar periodicamente todas as transações sintéticas habilitadas. Às vezes, no entanto, talvez seja necessário suspender essas transações. Por exemplo, se o nó do inspetor estiver temporariamente desconectado da rede, não há motivo para executar as transações sintéticas. Sem conectividade de rede, a garantia dessas transações falha. Se você quiser desativar temporariamente um nó do Inspetor, execute um comando semelhante a este do Shell de gerenciamento do Lync Server:
 

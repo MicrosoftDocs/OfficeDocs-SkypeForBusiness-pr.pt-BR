@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurando o modo de privacidade de presença avanç
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring enhanced presence privacy mode
 ms:assetid: e7a6b873-486d-4dfb-a967-c48f61f237f3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399028(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185664
 ms.date: 12/09/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 878691cd7b39d893b416a128f937d2aad1e561b1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3cc68ad4e3200a268a2a6ea901167f211942c015
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836263"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736441"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ Com o modo de privacidade de presença avançada, os usuários podem restringir 
     
         Get-CsPrivacyConfiguration | Set-CsPrivacyConfiguration -EnablePrivacyMode $True
     
-    Esse comando habilita o modo de privacidade para todas as configurações de privacidade em uso no momento na organização. Para obter mais informações sobre como as configurações de política do modo de privacidade de presença avançada do Lync Server gerencia a presença de contatos para o cliente do Lync 2013, consulte o artigo Microsoft Knowledge Base habilitando o [modo de privacidade de presença avançada do Lync Server atualiza a presença status de alguns contatos do Lync para "não disponível"](http://support.microsoft.com/kb/3020057).
+    Esse comando habilita o modo de privacidade para todas as configurações de privacidade em uso no momento na organização. Para obter mais informações sobre como as configurações de política do modo de privacidade de presença avançada do Lync Server gerencia a presença de contatos para o cliente do Lync 2013, consulte o artigo Microsoft Knowledge base [habilitar o modo de privacidade de presença avançada do Lync Server atualiza o status de presença de alguns contatos do Lync para "não disponível"](http://support.microsoft.com/kb/3020057).
 
 </div>
 

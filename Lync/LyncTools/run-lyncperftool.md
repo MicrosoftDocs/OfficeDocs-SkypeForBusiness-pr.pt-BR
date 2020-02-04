@@ -3,6 +3,8 @@ title: Executar LyncPerfTool
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Run LyncPerfTool
 ms:assetid: f2fd1940-d744-47b5-b299-04a914039182
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945612(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541437
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: daf46c5e34558a719cdf4fafa15a57f273c4030d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 29a36be8c6703dad52e6c36d363ae23013643bd7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34845049"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743551"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -50,7 +52,7 @@ A ferramenta UserProfileGenerator. exe cria um arquivo em lotes que permite que 
     ```Batch
         RunClient0.bat "C:\Program Files\Microsoft Lync Server 2013\LyncStressAndPerfTool\LyncStress" 
     ```
-Para executar o LyncPerfTool. exe diretamente, abra um prompt de comando e digite o seguinte comando na linha de comando (ao fazer isso pela primeira vez, certifique-se de registrar os contadores de desempenho regsvr32/i/n/s LyncPerfToolPerf. dll, como mostrar na anotação mais adiante neste tópico): LyncPerfTool. exe/file:\<configXML\>
+Para executar o LyncPerfTool. exe diretamente, abra um prompt de comando e digite o seguinte comando na linha de comando (ao fazer isso pela primeira vez, certifique-se de registrar os contadores de desempenho regsvr32/i/n/s LyncPerfToolPerf. dll, como mostrar na observação mais adiante neste tópico): LyncPerfTool. exe/file:\<configXML\>
 ```Powershell
     LyncPerfTool.exe /file:IM_client0.xml
 ```

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: integrando com o Microsoft Exchange Server 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Integrating Lync Server 2013 and Exchange Server 2013
 ms:assetid: 795dc1c6-524f-4012-8b66-103b55198044
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688098(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733697
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ba140e4f7e33684a280a9d9c4b71f1d7e141a65
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f1467f6a570f83908eb5809f9493303bdc91c169
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828972"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725851"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,9 +41,9 @@ O Exchange e o Lync Server têm uma longa história de integração e compatibil
 
 Isso é especialmente verdadeiro com o lançamento do Microsoft Lync Server 2013 e do Microsoft Exchange Server 2013. Além dos recursos, como mensagens unificadas e mensagens INSTANTÂNEAs e presença, que estão disponíveis no Microsoft Exchange Server 2010 e no Microsoft Lync Server 2010, as versões do 2013 dos produtos do servidor incluem uma série de novos recursos. Esses recursos incluem itens como:
 
-  - **Integração**de arquivamento do Lync. No Lync Server 2013, os administradores ainda têm a opção de ter mensagens instantâneas e transcrições de Webconferência arquivadas no SQL Server (da mesma forma como essas transcrições foram arquivadas no Lync Server 2010). Como alternativa, no entanto, os administradores podem optar por fazer transcrições arquivadas no Exchange 2013, armazenando essas transcrições nas caixas de correio de usuário individuais da mesma forma que o Exchange arquiva comunicações. Isso significa um único repositório para todas as suas comunicações eletrônicas (do Exchange e do Lync Server), o que torna muito mais fácil pesquisar e recuperar essas comunicações arquivadas caso a necessidade seja necessária.
+  - **Integração de arquivamento do Lync**. No Lync Server 2013, os administradores ainda têm a opção de ter mensagens instantâneas e transcrições de Webconferência arquivadas no SQL Server (da mesma forma como essas transcrições foram arquivadas no Lync Server 2010). Como alternativa, no entanto, os administradores podem optar por fazer transcrições arquivadas no Exchange 2013, armazenando essas transcrições nas caixas de correio de usuário individuais da mesma forma que o Exchange arquiva comunicações. Isso significa um único repositório para todas as suas comunicações eletrônicas (do Exchange e do Lync Server), o que torna muito mais fácil pesquisar e recuperar essas comunicações arquivadas caso a necessidade seja necessária.
 
-  - **Repositório de contatos**unificado. No Lync Server 2010, os usuários tinham que manter listas de contatos separadas no Outlook e no Lync; na verdade, para garantir que você tinha os mesmos contatos disponíveis nos dois produtos que você tinha para manter as listas de contatos duplicadas, uma para o Outlook e outra para o Lync. No Lync Server 2013, no entanto, os contatos do usuário podem ser armazenados no Exchange 2013 e no repositório de contatos unificado. Usar um único repositório de contatos permite que os usuários mantenham apenas um conjunto de contatos, com o mesmo conjunto de contatos disponível no Lync 2013, no Outlook 2013 e no Outlook Web Access 2013.
+  - **Repositório de contatos unificado**. No Lync Server 2010, os usuários tinham que manter listas de contatos separadas no Outlook e no Lync; na verdade, para garantir que você tinha os mesmos contatos disponíveis nos dois produtos que você tinha para manter as listas de contatos duplicadas, uma para o Outlook e outra para o Lync. No Lync Server 2013, no entanto, os contatos do usuário podem ser armazenados no Exchange 2013 e no repositório de contatos unificado. Usar um único repositório de contatos permite que os usuários mantenham apenas um conjunto de contatos, com o mesmo conjunto de contatos disponível no Lync 2013, no Outlook 2013 e no Outlook Web Access 2013.
 
   - **Agendamento de reunião do Lync do OWA**. Com a integração do Lync Server 2013 e do Exchange 2013, os usuários podem agendar reuniões do Lync a partir do Outlook Web Access 2013.
 

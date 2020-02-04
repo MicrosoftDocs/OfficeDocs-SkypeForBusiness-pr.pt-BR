@@ -3,6 +3,8 @@ title: Restaurando um servidor back-end do Enterprise Edition espelhado-primári
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Restoring a mirrored Enterprise Edition Back End Server - primary
 ms:assetid: bc555b46-70c5-4eee-ae91-e195df238293
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945648(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dbf0c8562ed4180fb14bf0bda74a03dd4ee8f746
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 07546b59839631cbd558e91e3e617fefd1c6e362
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823060"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723461"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -70,11 +72,11 @@ Neste tópico, o banco de dados primário de exemplo terá um FQDN (nome de dom�
     
       - Iniciar o construtor de topologias: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Construtor de topologias do Lync Server**.
     
-      - Desabilitar o espelhamento no servidor back-end: clique com o botão direito do mouse no pool em pools de **front-end do Enterprise Edition** e selecione **Editar propriedades**. Na guia **geral** , em **associações**, desmarque a caixa de seleção Habilitar o espelhamento da **loja do SQL Server** . Faça isso para arquivamento e monitoramento conforme necessário. Em seguida, clique em **OK**.
+      - Desabilitar o espelhamento no servidor back-end: clique com o botão direito do mouse no pool em **pools de front-end do Enterprise Edition** e selecione **Editar propriedades**. Na guia **geral** , em **associações**, desmarque a caixa de seleção **habilitar o espelhamento da loja do SQL Server** . Faça isso para arquivamento e monitoramento conforme necessário. Em seguida, clique em **OK**.
     
       - Clique com o botão direito do mouse no nó do Lync Server 2013, clique em **topologia**e, em seguida, clique em **publicar**.
     
-      - Selecione o back-end que ainda funciona (BE2.contoso.com) para ser o novo repositório do SQL. Para fazer isso, clique com o botão direito do mouse no pool em pools de **front-end do Enterprise Edition** e selecione **Editar propriedades**. Na guia **geral** , em **associações**, digite o FQDN do back-end que funciona no campo da **loja do SQL Server** (em nosso exemplo, BE2.contoso.com).
+      - Selecione o back-end que ainda funciona (BE2.contoso.com) para ser o novo repositório do SQL. Para fazer isso, clique com o botão direito do mouse no pool em **pools de front-end do Enterprise Edition** e selecione **Editar propriedades**. Na guia **geral** , em **associações**, digite o FQDN do back-end que funciona no campo da **loja do SQL Server** (em nosso exemplo, BE2.contoso.com).
     
       - Clique com o botão direito do mouse no nó do Lync Server 2013, clique em **topologia**e, em seguida, clique em **publicar**.
     
@@ -105,9 +107,9 @@ Neste tópico, o banco de dados primário de exemplo terá um FQDN (nome de dom�
     
       - Iniciar o construtor de topologias: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Construtor de topologias do Lync Server**.
     
-      - Habilite o espelhamento no servidor back-end. Para fazer isso, clique com o botão direito do mouse no pool em pools de **front-end do Enterprise Edition** e selecione **Editar propriedades**. Na guia **geral** , em **associações**, marque a caixa de seleção Habilitar o espelhamento da **loja do SQL Server** . Além disso, faça isso para arquivamento e monitoramento, se necessário.
+      - Habilite o espelhamento no servidor back-end. Para fazer isso, clique com o botão direito do mouse no pool em **pools de front-end do Enterprise Edition** e selecione **Editar propriedades**. Na guia **geral** , em **associações**, marque a caixa de seleção **habilitar o espelhamento da loja do SQL Server** . Além disso, faça isso para arquivamento e monitoramento, se necessário.
         
-        Em seguida, no campo espelhar o **repositório do SQL Server** , digite o FQDN do novo servidor (n este exemplo, BE1.contoso.com). Em seguida, clique em **OK**.
+        Em seguida, no campo **espelhar o repositório do SQL Server** , digite o FQDN do novo servidor (n este exemplo, BE1.contoso.com). Em seguida, clique em **OK**.
     
       - Clique com o botão direito do mouse no nó do Lync Server 2013, clique em **topologia**e clique em **instalar banco de dados**.
     

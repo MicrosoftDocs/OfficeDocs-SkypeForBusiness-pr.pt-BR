@@ -3,6 +3,8 @@ title: 'Lync Server 2013: verificando se há atualizações para o analisador de
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Checking for updates to Best Practices Analyzer
 ms:assetid: 06f1da8b-99a7-4871-911e-bfb7542baced
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204645(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183307
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a52aec0748bb5e96de0b3e6dafae4e05ddf9c15
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ffd05761a1c107ac72c7b9c3242fb18a5a3c7a27
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836570"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733851"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ Para atualizar as regras do analisador de práticas recomendadas, você deve exe
 
 ## <a name="to-open-best-practices-analyzer-as-administrator-to-check-for-updates"></a>Para abrir o analisador de práticas recomendadas como administrador para verificar se há atualizações
 
-1.  Em um computador no qual o Best Practices Analyzer está instalado, clique em **Iniciar**, aponte para **Microsoft Lync Server 2013**, clique com o botão direito do mouse em analisador de **práticas recomendadas**e clique em **Executar como administrador**.
+1.  Em um computador no qual o Best Practices Analyzer está instalado, clique em **Iniciar**, aponte para **Microsoft Lync Server 2013**, clique com o botão direito do mouse em **analisador de práticas recomendadas**e clique em **Executar como administrador**.
 
 2.  Especifique as credenciais de uma conta que seja membro do grupo Administradores.
 

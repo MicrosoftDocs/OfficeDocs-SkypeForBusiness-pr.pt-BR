@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure clients for migration
 ms:assetid: 8f17862b-d9d1-47f6-b248-51f4710f5030
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688130(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 49733729
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 710a5cf6cb23b91431b340c44ebe6ff2738b0822
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 84205c75da4c52aa6c90f3a501c74dd849933d9f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233065"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727951"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -52,7 +54,7 @@ Este tópico contém as etapas de implantação de cliente recomendadas que voc�
 
 2.  No Office Communications Server 2007 R2, use a filtragem de versão do cliente para permitir somente clientes do Office Communications Server 2007 R2 com as atualizações mais recentes instaladas para entrar.
 
-3.  No Office Communications Server 2007 R2, use a filtragem de versão do cliente para impedir que os clientes do Lync Server 2013 entrem em entrar. Siga as etapas descritas em Configurando a [http://go.microsoft.com/fwlink/p/?linkId=202488](http://go.microsoft.com/fwlink/p/?linkid=202488) filtragem de versão do **cliente** em para adicionar os filtros de versão listados na tabela a seguir. Para cada filtro de versão, atribua o **bloco**de ação.
+3.  No Office Communications Server 2007 R2, use a filtragem de versão do cliente para impedir que os clientes do Lync Server 2013 entrem em entrar. Siga as etapas descritas em **Configurando a filtragem de versão do cliente** em [http://go.microsoft.com/fwlink/p/?linkId=202488](http://go.microsoft.com/fwlink/p/?linkid=202488) para adicionar os filtros de versão listados na tabela a seguir. Para cada filtro de versão, atribua o **bloco**de ação.
     
     
     <table>

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: definir um servidor de mediação no construtor de top
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define a Mediation Server in Topology Builder
 ms:assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398391(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184217
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f1356217b9effe3f2282f6931b601e84aa46770
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bdff7da86bd7298511ea0ef384b2736a47882a03
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829726"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742551"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +59,7 @@ Siga as etapas neste tópico para usar o construtor de topologias para definir u
 
 4.  Navegue pelo assistente **Definir Novo Pool de Front-Ends** até chegar à página **Selecionar funções de servidor colocadas**.
 
-5.  Em **selecionar funções de servidor posicionadas**, marque a opção **posicionar servidor**de mediação.
+5.  Em **selecionar funções de servidor posicionadas**, marque a opção **posicionar servidor de mediação**.
     
     <div>
     
@@ -105,7 +107,7 @@ Se você já implantou servidores de mediação posicionados em pools front-ends
 
 
 > [!NOTE]  
-> Esta seção pressupõe que você já tenha configurado pelo menos um pool de front-end, conforme descrito em <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">definir e configurar um pool de front-end ou um servidor Standard Edition no Lync server 2013</A> e <A href="lync-server-2013-publish-the-topology.md">publicar a topologia no Lync Server 2013</A> no guia de implantação documentação.
+> Esta seção pressupõe que você já tenha configurado pelo menos um pool de front-end, conforme descrito em <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">definir e configurar um pool de front-end ou um servidor Standard Edition no Lync server 2013</A> e <A href="lync-server-2013-publish-the-topology.md">publicar a topologia no Lync Server 2013</A> na documentação do guia de implantação.
 
 
 
@@ -119,9 +121,9 @@ Se você já implantou servidores de mediação posicionados em pools front-ends
 
 2.  No construtor de topologias, na árvore de console, expanda o nome do site para o qual você deseja definir um servidor de mediação.
 
-3.  Na árvore de console, clique com o botão **** direito do mouse no nó de pools de mediação e clique em **pool do servidor**de mediação.
+3.  Na árvore de console, clique com o botão direito do mouse no nó de **pools de mediação** e clique em **pool do servidor de mediação**.
 
-4.  Em **definir novo pool**de mediação, digite o nome de domínio totalmente qualificado (FQDN) do pool do servidor de mediação.
+4.  Em **definir novo pool de mediação**, digite o nome de domínio totalmente qualificado (FQDN) do pool do servidor de mediação.
 
 5.  Em seguida, siga um destes procedimentos:
     
@@ -144,7 +146,7 @@ Se você já implantou servidores de mediação posicionados em pools front-ends
 
 8.  Na página **Selecionar um Servidor de Borda**, execute um destes procedimentos:
     
-      - Se você quiser fornecer conectividade PSTN a usuários externos habilitados para o Enterprise Voice, em **Selecione o pool de bordas usado por este servidor**de mediação, clique no FQDN do pool do servidor de borda que usará esse pool de servidores de mediação para fornecer conectividade PSTN a esses usuários externos e clique em **Avançar**.
+      - Se você quiser fornecer conectividade PSTN a usuários externos habilitados para o Enterprise Voice, em **Selecione o pool de bordas usado por esse servidor de mediação**, clique no FQDN do pool do servidor de borda que usará esse pool de servidores de mediação para fornecer conectividade PSTN a esses usuários externos e clique em **Avançar**.
     
       - Se você não planeja habilitar usuários externos para o Enterprise Voice ou se não quiser fornecer conectividade PSTN aos usuários quando eles estiverem fora da rede interna, clique em **Avançar**.
 
@@ -166,7 +168,7 @@ Siga as etapas deste tópico para usar o construtor de topologias a fim de defin
 
 1.  Iniciar o construtor de topologias: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Construtor de topologias do Lync Server**.
 
-2.  No construtor de topologias, na árvore de console, **** expanda o nó de pools de mediação e clique com o botão direito do mouse no servidor de mediação anteriormente criado.
+2.  No construtor de topologias, na árvore de console, expanda o nó de **pools de mediação** e clique com o botão direito do mouse no servidor de mediação anteriormente criado.
 
 3.  Por padrão, as portas ouvidas SIP no servidor de mediação são 5070 para tráfego TLS do Lync Server, 5067 para tráfego TLS de pares (gateways, PBXes ou SBCs). A porta TCP é desabilitada por padrão. Você deve habilitar a porta TCP se tiver gateways que não oferecem suporte a TLS.
 

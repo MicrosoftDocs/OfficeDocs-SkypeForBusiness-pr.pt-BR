@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Gerenciando de federação e acesso externo ao Lync Se
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing federation and external access to Lync Server 2013
 ms:assetid: 26f806c1-f284-4637-b06b-06270336c540
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520966(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183665
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e8eb4dcf6a690e2bab7b834624fb0f695e3e770e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9dadc455389d95c91996b75928def8f03b06c64e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828121"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729311"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,11 +37,11 @@ ms.locfileid: "34828121"
 
 _**Tópico da última modificação:** 2013-10-07_
 
-Implantar um servidor de borda ou um pool de bordas é o primeiro passo para dar suporte a usuários externos. Para obter detalhes sobre a implantação de servidores de borda, consulte Implantando o [acesso de usuários externos no Lync Server 2013](lync-server-2013-deploying-external-user-access.md) na documentação de implantação.
+Implantar um servidor de borda ou um pool de bordas é o primeiro passo para dar suporte a usuários externos. Para obter detalhes sobre a implantação de servidores de borda, consulte [implantando o acesso de usuários externos no Lync Server 2013](lync-server-2013-deploying-external-user-access.md) na documentação de implantação.
 
 Após a instalação e a configuração da implantação interna do Lync Server 2013, os usuários internos em sua organização podem colaborar com outros usuários internos que tenham contas SIP nos serviços de domínio Active Directory (AD DS). A colaboração pode incluir o envio e o recebimento de mensagens instantâneas e a atualização do status de presença e a participação em conferências (também conhecidas como "reuniões"). Você habilita e configura o acesso de usuários externos para controlar se os usuários externos com suporte podem colaborar com usuários internos do Lync Server. Os usuários externos podem incluir usuários remotos da implantação, usuários federados (incluindo usuários com suporte de provedores de serviços de mensagens instantâneas públicas), Federação do XMPP e participantes anônimos em conferências.
 
-Se a sua implantação incluía a instalação de um servidor de borda do Lync Server 2013 ou um pool de bordas, o escopo dos possíveis tipos de comunicação será amplamente expandido com várias opções para acesso de usuário externo, comunicação com membros de outros domínios federados SIP Provedores federados SIP e usuários federados XMPP. Depois de configurar o servidor de borda ou o pool de bordas, habilite os tipos de acesso de usuário externo que você deseja fornecer e configure as políticas para controlar o acesso externo. No Lync Server 2013, habilite e configure o acesso de usuários externos e políticas usando o painel de controle do Lync Server, o Shell de gerenciamento do Lync Server ou ambos, de acordo com os requisitos da tarefa. Para obter detalhes sobre essas ferramentas de gerenciamento, consulte [Ferramentas administrativas do Lync server 2013](lync-server-2013-lync-server-administrative-tools.md) na documentação de operações, [Shell de gerenciamento do Lync Server 2013](lync-server-2013-lync-server-management-shell.md) na documentação de operações e [instalar o Lync Server 2013 ferramentas administrativas ](lync-server-2013-install-lync-server-administrative-tools.md)na documentação de operações.
+Se a sua implantação incluía a instalação de um servidor de borda do Lync Server 2013 ou um pool de bordas, o escopo dos possíveis tipos de comunicação será amplamente expandido com várias opções para acesso de usuário externo, comunicação com membros de outros domínios federados SIP Provedores federados SIP e usuários federados XMPP. Depois de configurar o servidor de borda ou o pool de bordas, habilite os tipos de acesso de usuário externo que você deseja fornecer e configure as políticas para controlar o acesso externo. No Lync Server 2013, habilite e configure o acesso de usuários externos e políticas usando o painel de controle do Lync Server, o Shell de gerenciamento do Lync Server ou ambos, de acordo com os requisitos da tarefa. Para obter detalhes sobre essas ferramentas de gerenciamento, consulte [Ferramentas administrativas do Lync server 2013](lync-server-2013-lync-server-administrative-tools.md) na documentação de operações, no [Shell de gerenciamento do Lync Server 2013](lync-server-2013-lync-server-management-shell.md) na documentação de operações e [Instale as ferramentas administrativas do Lync Server 2013](lync-server-2013-install-lync-server-administrative-tools.md) na documentação de operações.
 
 <div>
 
@@ -67,11 +69,11 @@ Defina as configurações conforme detalhado nos tópicos [Configurar políticas
 
 **Deseja permitir que usuários anônimos participem e sejam convidados para conferências hospedadas pelos usuários na sua implantação?**
 
-Defina as configurações como detalhados no tópico [atribuir políticas de conferência para dar suporte a usuários anônimos no Lync server 2013](lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md), [criar ou modificar uma política de conferência no Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md) e [configurações de política de conferência referência para o Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md)
+Defina as configurações como detalhados no tópico [atribuir políticas de conferência para dar suporte a usuários anônimos no Lync server 2013](lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md), [criar ou modificar uma política de conferência no Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md) e [configurações de política de conferência para o Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md)
 
 **Deseja permitir que os usuários se comuniquem com os contatos do domínio federado do SIP?**
 
-Defina as configurações conforme detalhado nos tópicos [Configurar políticas para controlar o acesso de usuários federados no Lync server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md), [habilitar ou desabilitar a conectividade de mensagens de chat públicas e Federação no Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)e [gerenciar domínios federados SIP para seu organização no Lync Server 2013](lync-server-2013-manage-sip-federated-domains-for-your-organization.md)
+Defina as configurações conforme detalhado nos tópicos [Configurar políticas para controlar o acesso de usuários federados no Lync server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md), [habilitar ou desabilitar a conectividade de mensagens de chat públicas e Federação no Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)e [gerenciar domínios federados SIP para sua organização no Lync Server 2013](lync-server-2013-manage-sip-federated-domains-for-your-organization.md)
 
 **Se você habilitou a comunicação com domínios de Federação SIP, deseja habilitar comunicações com contatos de parceiro federado do XMPP?**
 
@@ -87,7 +89,7 @@ Defina as configurações conforme detalhado no tópico [habilitar ou desabilita
 
 **Você deseja permitir que os usuários se comuniquem com provedores federados SIP que permitem a comunicação com provedores públicos, como Windows Live Messenger, AOL e\!Yahoo?**
 
-Defina as configurações conforme detalhado nos tópicos Configurando [políticas para controlar o acesso de usuários públicos no Lync server 2013](lync-server-2013-configure-policies-to-control-public-user-access.md)[habilitar ou desabilitar a conectividade de mensagens de chat públicas e a Federação no Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)e [criar ou editar Public SIP Federated provedores no Lync Server 2013](lync-server-2013-create-or-edit-public-sip-federated-providers.md).
+Defina as configurações conforme detalhado nos tópicos [Configurar políticas para controlar o acesso de usuários públicos no Lync server 2013](lync-server-2013-configure-policies-to-control-public-user-access.md)[habilite ou desabilite a conectividade e a conectividade de mensagens de chat públicas no Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)e [crie ou edite provedores federados SIP públicos no Lync Server 2013](lync-server-2013-create-or-edit-public-sip-federated-providers.md).
 
 <div>
 
@@ -107,11 +109,11 @@ Defina as configurações conforme detalhado nos tópicos Configurando [polític
 
 **Você deseja permitir que os usuários se comuniquem com provedores federados SIP que sejam provedores que executam o Microsoft Office 365, o Microsoft Lync Online e o Microsoft Lync Online 2010?**
 
-Defina as configurações conforme detalhado nos tópicos [criar ou editar provedores federados SIP públicos no Lync server 2013](lync-server-2013-create-or-edit-public-sip-federated-providers.md), [habilitar ou desabilitar a conectividade de mensagens de chat públicas e a Federação no Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md) e [criar ou editar provedores federados SIP hospedados Lync Server 2013](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
+Defina as configurações conforme detalhado nos tópicos [criar ou editar provedores federados SIP públicos no Lync server 2013](lync-server-2013-create-or-edit-public-sip-federated-providers.md), [habilitar ou desabilitar a conectividade de mensagens de chat públicas e a Federação no Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md) e [criar ou editar provedores federados do SIP Federated Lync Server 2013](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
 
 **A implantação está configurada em um domínio dividido (também conhecido como híbrido), no qual alguns usuários têm o servidor primário em uma implantação local e outros usuários estão configurados com um servidor primário em um ambiente online?**
 
-Defina as configurações conforme detalhado nos tópicos [Configurar políticas para controlar o acesso de usuários federados no Lync server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md), [habilitar ou desabilitar a conectividade de mensagens de chat públicas e Federação no Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md) e [criar ou editar o SIP federado federado provedores Lync Server 2013](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
+Defina as configurações conforme detalhado nos tópicos [Configurar políticas para controlar o acesso de usuários federados no Lync server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md), [habilitar ou desabilitar a conectividade de mensagens de chat públicas e a Federação no Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md) e [criar ou editar provedores federados do SIP Federated Lync Server 2013](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
 
 Se preferir uma tabela que liste os requisitos:
 

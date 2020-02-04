@@ -3,6 +3,8 @@ title: 'Lync Server 2013: eventos do UCWA'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: UCWA events
 ms:assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945621(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541461
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0671b51e5fbd4b5f072676855d9e8f5201b3e04
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b5063aca74fe3454569a2b2309be584a4ca11d13
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844573"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744851"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -90,7 +92,7 @@ A UCWA gravará registros de comportamento operacional como tipos de evento Info
 <td><p>20005</p></td>
 <td><p>Informativo</p></td>
 <td><p>Recuperação de uma falha ao acessar o Exchange para foto HD</p></td>
-<td><p>N/D</p></td>
+<td><p>Não disponível</p></td>
 </tr>
 <tr class="even">
 <td><p>20006</p></td>
@@ -103,7 +105,7 @@ A UCWA gravará registros de comportamento operacional como tipos de evento Info
 <td><p>20007</p></td>
 <td><p>Informativo</p></td>
 <td><p>Recuperação de uma falha em pesquisar contato no Exchange</p></td>
-<td><p>N/D</p></td>
+<td><p>Não disponível</p></td>
 </tr>
 <tr class="even">
 <td><p>20008</p></td>
@@ -151,7 +153,7 @@ A UCWA gravará registros de comportamento operacional como tipos de evento Info
 <td><p>20014</p></td>
 <td><p>Informativo</p></td>
 <td><p>Recuperação de uma falha ao conectar ao MCU de IM</p></td>
-<td><p>N/D</p></td>
+<td><p>Não disponível</p></td>
 </tr>
 <tr class="odd">
 <td><p>20015</p></td>
@@ -164,7 +166,7 @@ A UCWA gravará registros de comportamento operacional como tipos de evento Info
 <td><p>20016</p></td>
 <td><p>Informativo</p></td>
 <td><p>Recuperação de uma falha ao conectar ao MCU de AV</p></td>
-<td><p>N/D</p></td>
+<td><p>Não disponível</p></td>
 </tr>
 <tr class="odd">
 <td><p>20017</p></td>
@@ -190,7 +192,7 @@ A UCWA gravará registros de comportamento operacional como tipos de evento Info
 <td><p>20020</p></td>
 <td><p>Informativo</p></td>
 <td><p>Recuperação de uma falha ao conectar ao MCU de dados</p></td>
-<td><p>N/D</p></td>
+<td><p>Não disponível</p></td>
 </tr>
 <tr class="odd">
 <td><p>20021</p></td>

@@ -3,6 +3,8 @@ title: Remover um pool Front-End ou um servidor Standard Edition
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Remove Front End pool or Standard Edition server
 ms:assetid: 83c39a36-49a1-4ac6-9cc5-b0e441b1fdec
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688115(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733713
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a5a3b08d6e8b4f0b792063b19a47889de11283c6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f8628f883285eec61a179c27d5dfda16b8c9b51d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844154"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727171"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ Este tópico fornece orientações sobre o processo de remoção de um pool de f
 
 2.  Navegue até o nó do Lync Server 2010.
 
-3.  Expanda Pools de **front-end do Enterprise Edition**, expanda o pool de front-ends, clique com o botão direito do mouse no pool de front-ends que você deseja remover e clique em **excluir**.
+3.  Expanda **pools de front-end do Enterprise Edition**, expanda o pool de front-ends, clique com o botão direito do mouse no pool de front-ends que você deseja remover e clique em **excluir**.
 
 4.  Publique a topologia, verifique o status da replicação e execute o assistente de implantação do Lync Server conforme necessário.
 

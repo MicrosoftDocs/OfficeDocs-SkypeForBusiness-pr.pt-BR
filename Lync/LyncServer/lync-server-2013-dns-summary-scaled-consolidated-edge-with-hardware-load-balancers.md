@@ -3,6 +3,8 @@ title: Resumo de DNS - borda consolidada em escala com balanceadores de carga de
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Scaled consolidated edge with hardware load balancers
 ms:assetid: 8453297c-da1d-4b9e-a37e-6721458c6feb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398670(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184700
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d411b004edde96314e3c06d7f28a9f9d294688ad
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c6be703e13ec50eb66ba52c981196df06adc6e5b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829353"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737191"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,7 +69,7 @@ Você pode configurar dois adaptadores de rede em cada um dos seus servidores de
     
 
     > [!NOTE]
-    > Os endereços IP atribuídos às interfaces de rede externa reais do servidor de borda podem depender do balanceamento de carga de hardware que você escolher. Consulte a documentação do balanceador de carga de hardware para compreender os requisitos de endereço IP real.<BR>É possível, mas não recomendado, usar um único endereço IP para todas as três interfaces de serviço de borda. Embora isso salve endereços IP, ele exige números de porta diferentes para cada serviço. O número da porta padrão é 443/TCP, o que garante que os firewalls remotos permitam que o tráfego seja permitido. Alterar os valores de porta para (por exemplo) 5061/TCP para o serviço de borda de acesso, 444/TCP para o serviço de borda de Webconferências e 443/TCP para o serviço de borda A/V pode causar problemas para usuários remotos nos quais um firewall para os quais estejam atrás não permite o tráfego 5061/TCP e 444/TCP. Além disso, três endereços IP distintos facilitam a solução de problemas devido à capacidade de filtrar por endereço IP.
+    > Os endereços IP atribuídos às interfaces de rede externa reais do servidor de borda podem depender do balanceamento de carga de hardware que você escolher. Consulte a documentação do balanceador de carga de hardware para compreender os requisitos de endereço IP real.<BR>É possível, mas não recomendado, usar um único endereço IP para todas as três interfaces de serviço de borda. Embora isso salve endereços IP, ele exige números de porta diferentes para cada serviço. O número da porta padrão é 443/TCP, o que garante que os firewalls remotos permitam que o tráfego seja permitido. Alterar os valores de porta para (por exemplo) 5061/TCP para o serviço de borda de acesso, 444/TCP para o serviço de borda de Webconferência e 443/TCP para o serviço de borda A/V pode causar problemas para usuários remotos nos quais um firewall para os quais estão sendo atrasados não permite o tráfego sobre 5061/TCP e 444/TCP. Além disso, três endereços IP distintos facilitam a solução de problemas devido à capacidade de filtrar por endereço IP.
 
     
     </div>

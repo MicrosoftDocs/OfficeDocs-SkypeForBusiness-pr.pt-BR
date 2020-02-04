@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requisitos de DNS para URLs simples'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS requirements for simple URLs
 ms:assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425874(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183912
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: adcf537db908fcc0b69e95bec99b73a0e57e9ab4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bfc827a1cd48bdc6a7a15b8ba54f7ac451d1b352
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829378"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737371"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -198,7 +200,7 @@ Em seguida, crie registros CNAME que resolvem sua URL simples de reunião (como 
 
 
 > [!NOTE]  
-> Se a sua rede usa <EM>hairpinning</EM> (direcionar todo o seu tráfego de URL simples por meio do link externo, incluindo o tráfego que vem de dentro da sua organização), você pode apenas configurar o endereço de GeoDNS externo e resolver o seu encontro URL simples para apenas esse endereço externo.
+> Se a sua rede usa <EM>hairpinning</EM> (direcionar todo o tráfego de URL simples por meio do link externo, incluindo o tráfego que vem de dentro da sua organização), você pode apenas configurar o endereço de GeoDNS externo e resolver seu encontro URL simples para apenas esse endereço externo.
 
 
 

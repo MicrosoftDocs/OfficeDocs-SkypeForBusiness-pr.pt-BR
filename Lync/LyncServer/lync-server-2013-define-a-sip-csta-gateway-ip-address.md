@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Definir um endereço SIP de gateway SIP/CSTA'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define a SIP/CSTA gateway IP address
 ms:assetid: ae944057-3ad6-4474-a09b-81a3d27bd50f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg602125(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185073
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6143b4b92c8927375dcaa772360e0b3f870dae25
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c50958f2c7c44045e25ff4ac9619f3ad73a5f302
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829721"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728511"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ Se o Lync Server se conectar ao gateway SIP/CSTA implantado para controle de cha
 
 6.  Desmarque a caixa de seleção **habilitar a replicação de dados de configuração para este pool** .
 
-7.  Clique em **limitar o uso do serviço a endereços IP selecionados**. A configuração padrão é **usar todos os endereços IP**configurados.
+7.  Clique em **limitar o uso do serviço a endereços IP selecionados**. A configuração padrão é **usar todos os endereços IP configurados**.
 
 8.  Na caixa de texto **endereço IP primário** , digite o endereço IP do gateway de SIP/CSTA.
 

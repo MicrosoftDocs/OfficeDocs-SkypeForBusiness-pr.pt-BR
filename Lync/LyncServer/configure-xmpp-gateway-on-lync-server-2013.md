@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure XMPP gateway on Lync Server 2013
 ms:assetid: c70282e0-b502-47e2-a0be-a32eb1faf99d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721881(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 49733816
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87564835404928a79f9c61974d9581bba68069cd
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 2910766dbb2147fa5d1c51235f10ab2e80826bda
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233131"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723210"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -79,11 +81,11 @@ As etapas finais para migrar seu XMPP gateway são configurar certificados para 
     
     2.  Em **comprimento de bit**, especifique o comprimento do bit (geralmente, o padrão de 2048).
     
-    3.  Verifique se a caixa de seleção **Marcar chave privada de certificado como** exportável está marcada.
+    3.  Verifique se a caixa de seleção **Marcar chave privada de certificado como exportável** está marcada.
 
 8.  Na página **informações da organização** , digite o nome da organização e da unidade organizacional (por exemplo, uma divisão ou um departamento).
 
-9.  Na página **informações** geográficas, especifique as informações de localização.
+9.  Na página **informações geográficas** , especifique as informações de localização.
 
 10. Na página **nome do assunto/nomes alternativos de assunto** , as informações a serem automaticamente preenchidas pelo assistente serão exibidas. Se forem necessários nomes alternativos de entidades adicionais, especifique-os nas próximas duas etapas.
 

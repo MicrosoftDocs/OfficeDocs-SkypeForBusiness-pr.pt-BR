@@ -3,6 +3,8 @@ title: Conectar pool piloto aos Servidores de Borda herdados
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Connect pilot pool to legacy Edge Servers
 ms:assetid: c3b67220-5705-47f6-852e-415204f3626c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721875(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733808
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7fc42c645548ea9bad072da5f18643271a9eceeb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 447a0ead887b8283aa2701963a0107ef318bb312
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836840"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723221"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ Para habilitar o site do Lync Server 2013 para usar o diretor e o servidor de bo
 
 ## <a name="to-associate-the-legacy-edge-pool-by-using-topology-builder"></a>Para associar o pool de bordas herdado usando o construtor de topologias
 
-1.  Abrir o **Construtor**de topologias.
+1.  Abrir o **Construtor de topologias**.
 
 2.  Selecione seu site, que está diretamente abaixo do nó do **Lync Server** .
 
@@ -53,7 +55,7 @@ Para habilitar o site do Lync Server 2013 para usar o diretor e o servidor de bo
 
 5.  Em **atribuição de rota de Federação do site**, selecione **habilitar Federação SIP**e, em seguida, selecione o diretor do Lync Server 2010 ou o servidor de borda do Lync Server 2010, se nenhum diretor estiver listado.
     
-    ![Editar propriedades, página de roteiro de Federação] (images/JJ721875.5f1d04c3-c724-426d-b27d-3fe89c6c5cfb(OCS.15).jpg "Editar propriedades, página de roteiro de Federação")  
+    ![Editar propriedades, página de roteiro de Federação](images/JJ721875.5f1d04c3-c724-426d-b27d-3fe89c6c5cfb(OCS.15).jpg "Editar propriedades, página de roteiro de Federação")  
 
 6.  Clique em **OK** para fechar a página **Editar propriedades** .
 
@@ -63,11 +65,11 @@ Para habilitar o site do Lync Server 2013 para usar o diretor e o servidor de bo
 
 9.  Na lista, selecione o servidor de borda herdado.
     
-    ![Caixa de diálogo Editar propriedades, selecionando a borda herdada] (images/JJ721875.feae8156-540e-4804-bb0a-2b5736ec2900(OCS.15).jpg "Caixa de diálogo Editar propriedades, selecionando a borda herdada")  
+    ![Caixa de diálogo Editar propriedades, selecionando a borda herdada](images/JJ721875.feae8156-540e-4804-bb0a-2b5736ec2900(OCS.15).jpg "Caixa de diálogo Editar propriedades, selecionando a borda herdada")  
 
 10. Clique em **OK** para fechar a página **Editar propriedades** .
 
-11. No **Construtor**de topologias, selecione o nó mais alto, **Lync Server**.
+11. No **Construtor de topologias**, selecione o nó mais alto, **Lync Server**.
 
 12. No menu **ação** , clique em **publicar topologia**e, em seguida, clique em **Avançar**.
 

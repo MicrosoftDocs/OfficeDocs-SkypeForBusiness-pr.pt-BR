@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Adicionar e habilitar a conta de usuário para o Lync 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Add and enable user account for Lync Server
 ms:assetid: 1edd1c1c-307d-450b-abea-33aaf56bdf13
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520961(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183578
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0fc52e76d480e323669b88c1ee461eeccf9aef38
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a04a798a69279ebef6c4917938ead2fd88a49805
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836951"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735051"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +53,7 @@ Depois de habilitar uma conta de usuário em usuários e computadores do Active 
 
 5.  Na caixa de diálogo **novo usuário do Lync Server** , clique em **Adicionar**.
 
-6.  Na caixa **Pesquisar usuários** , digite toda ou a primeira parte do nome, o nome para exibição, o nome, o sobrenome, o nome da conta do Gerenciador de contas de segurança (Sam), o endereço de email, o nome UPN ou o número de telefone da conta de usuário do Active Directory que você deseja e, em seguida, clique em **Localizar**.
+6.  Na caixa **Pesquisar usuários** , digite toda ou a primeira parte do nome, nome para exibição, nome, sobrenome, nome da conta do Gerenciador de contas de segurança (Sam) nome da conta, endereço de email, nome UPN ou número de telefone da conta de usuário do Active Directory que você deseja e clique em **Localizar**.
 
 7.  Na tabela, selecione a conta que você deseja adicionar ao Lync Server e clique em **OK**.
 

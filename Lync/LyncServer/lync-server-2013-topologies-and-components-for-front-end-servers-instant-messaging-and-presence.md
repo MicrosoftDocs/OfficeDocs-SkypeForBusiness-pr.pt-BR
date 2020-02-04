@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Topologias e componentes para Servidores Front-End, se
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Topologies and components for Front End Servers, instant messaging, and presence
 ms:assetid: f08ce7a1-d14e-4a54-9771-a82c870658bf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412996(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185763
 ms.date: 10/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4bc44790fc9584676cdd10305085b23bd5e99299
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 181ae682ec5ee1352c5d4f4280b4164fbbcd91f2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844600"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745241"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -113,20 +115,20 @@ A primeira vez que você iniciar um novo Pool de Front-Ends, é essencial que 85
 <td><p>5</p></td>
 </tr>
 <tr class="odd">
-<td><p>08</p></td>
+<td><p>8</p></td>
 <td><p>6</p></td>
 </tr>
 <tr class="even">
-<td><p>222</p></td>
+<td><p>9</p></td>
 <td><p>7</p></td>
 </tr>
 <tr class="odd">
 <td><p>254</p></td>
-<td><p>08</p></td>
+<td><p>8</p></td>
 </tr>
 <tr class="even">
 <td><p>11:00</p></td>
-<td><p>222</p></td>
+<td><p>9</p></td>
 </tr>
 <tr class="odd">
 <td><p>12</p></td>
@@ -142,7 +144,7 @@ Cada vez subsequente que o pool for iniciado, 85% dos servidores devem ser inici
 
 
 > [!NOTE]  
-> Como o Lync Server usa o banco de dados SQL principal como testemunha, se você desligar o banco de dados principal e alternar para a cópia espelhada e desligar servidores de front-end suficientes para que não sejam executados de acordo com a tabela anterior, todo o pool será desativado. Para obter mais informações, consulte testemunha de espelhamento de <A href="http://go.microsoft.com/fwlink/?linkid=393672">banco de dados</A>.
+> Como o Lync Server usa o banco de dados SQL principal como testemunha, se você desligar o banco de dados principal e alternar para a cópia espelhada e desligar servidores de front-end suficientes para que não sejam executados de acordo com a tabela anterior, todo o pool será desativado. Para obter mais informações, consulte <A href="http://go.microsoft.com/fwlink/?linkid=393672">testemunha de espelhamento de banco de dados</A>.
 
 
 

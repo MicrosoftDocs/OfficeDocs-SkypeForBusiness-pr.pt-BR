@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Exibindo e analisando relatórios do Monitoring Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Viewing and analyzing monitoring server reports
 ms:assetid: 4dd448f1-01d2-49b2-b109-0728f36566b7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720332(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969599
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0cc942c887175bacb0047c5d82d1ad9a89c18ef5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9e4fce6cf17601d2a68a07a3b832e6b50c10b759
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844383"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757355"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -131,7 +133,7 @@ Uma parte principal de manter os relatórios do servidor de monitoramento intere
 
 4.  Na tabela que lista os resultados da pesquisa, clique na conta do usuário, em **Editar** e em **Exibir detalhes**.
 
-5.  Em **Editar o usuário do Lync Server** na **política**de arquivamento, selecione a política de usuário de arquivamento que você deseja aplicar.
+5.  Em **Editar o usuário do Lync Server** na **política de arquivamento**, selecione a política de usuário de arquivamento que você deseja aplicar.
 
 6.  Clique em **Confirmar**.
 

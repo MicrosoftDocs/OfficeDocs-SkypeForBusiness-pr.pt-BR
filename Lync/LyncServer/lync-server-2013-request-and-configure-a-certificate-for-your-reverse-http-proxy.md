@@ -3,6 +3,8 @@ title: Solicitar e configurar um certificado para seu proxy HTTP reverso
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Request and configure a certificate for your reverse HTTP proxy
 ms:assetid: 4b70991e-5f10-40a3-b069-0b227c3a3a0a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429704(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ffe1ce6a4b206b927b2fcdec4c02b905e01d5bd1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2597bf31c9f0cc9f4316f505811426f2c9948a6f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823305"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723842"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -144,7 +146,7 @@ Crie uma solicitação de certificado no proxy reverso. Você cria uma solicita�
 
 
 > [!TIP]
-> Se você planejar os certificados do servidor de borda e os certificados de proxy inversos ao mesmo tempo, observe que há uma excelente semelhança entre os dois requisitos de certificado. Ao configurar e solicitar o certificado do servidor de borda, combine o servidor de borda e os nomes alternativos de entidades de proxy reverso. Você pode usar o mesmo certificado para seu proxy reverso se exportar o certificado e a chave privada e copiar o arquivo exportado para o proxy reverso e, em seguida, importar o par de certificados/chaves e atribuí-lo conforme necessário nos procedimentos futuros. Consulte os requisitos de certificado para o plano do&nbsp;servidor de borda<A href="lync-server-2013-plan-for-edge-server-certificates.md">para certificados do servidor de borda no Lync Server 2013</A> e o resumo de certificado de proxy reverso <A href="lync-server-2013-certificate-summary-reverse-proxy.md">-proxy reverso no Lync Server 2013</A>. Certifique-se de criar o certificado com uma chave privada exportável. A criação do certificado e da solicitação de certificado com uma chave privada exportável é necessária para servidores de borda em pool, portanto, isso é uma prática normal e o assistente de certificado no assistente de implantação do Lync Server para o servidor de borda permite que você defina a <STRONG>marca </STRONG>sinalizador exportável de chave privada. Depois de receber a solicitação de certificado de volta da autoridade de certificação pública, você exportará o certificado e a chave privada. Consulte a seção "para exportar o certificado com a chave privada para servidores de borda em um pool" no tópico <A href="lync-server-2013-set-up-certificates-for-the-external-edge-interface.md">configurar certificados para a interface de borda externa do Lync Server 2013</A> para obter detalhes sobre como criar e exportar seu certificado com uma chave privada. A extensão do certificado deve ser do tipo <STRONG>. pfx</STRONG>.
+> Se você planejar os certificados do servidor de borda e os certificados de proxy inversos ao mesmo tempo, observe que há uma excelente semelhança entre os dois requisitos de certificado. Ao configurar e solicitar o certificado do servidor de borda, combine o servidor de borda e os nomes alternativos de entidades de proxy reverso. Você pode usar o mesmo certificado para seu proxy reverso se exportar o certificado e a chave privada e copiar o arquivo exportado para o proxy reverso e, em seguida, importar o par de certificados/chaves e atribuí-lo conforme necessário nos procedimentos futuros. Consulte os requisitos de certificado para o plano do&nbsp;servidor de borda<A href="lync-server-2013-plan-for-edge-server-certificates.md">para certificados do servidor de borda no Lync Server 2013</A> e o resumo de certificado de proxy reverso <A href="lync-server-2013-certificate-summary-reverse-proxy.md">-proxy reverso no Lync Server 2013</A>. Certifique-se de criar o certificado com uma chave privada exportável. A criação do certificado e da solicitação de certificado com uma chave privada exportável é necessária para servidores de borda em pool, portanto, isso é uma prática normal e o assistente de certificado no assistente de implantação do Lync Server para o servidor de borda permite que você defina o sinalizador <STRONG>criar chave privada exportável</STRONG> . Depois de receber a solicitação de certificado de volta da autoridade de certificação pública, você exportará o certificado e a chave privada. Consulte a seção "para exportar o certificado com a chave privada para servidores de borda em um pool" no tópico <A href="lync-server-2013-set-up-certificates-for-the-external-edge-interface.md">configurar certificados para a interface de borda externa do Lync Server 2013</A> para obter detalhes sobre como criar e exportar seu certificado com uma chave privada. A extensão do certificado deve ser do tipo <STRONG>. pfx</STRONG>.
 
 
 
@@ -162,7 +164,7 @@ Para gerar uma solicitação de assinatura de certificado no computador em que o
 
 4.  Na página **selecionar política de registro de certificado** em **solicitação personalizada**, selecione **continuar sem política de registro**. Click **Next**.
 
-5.  Na página **solicitação personalizada** , em **modelo** , selecione **(nenhum modelo) chave herdada**. A menos que seja direcionado de outra forma pelo seu provedor de certificado, deixe a opção **suprimir extensões padrão** desmarcada e a seleção de **formato de solicitação** em **PKCS \#10**. Click **Next**.
+5.  Na página **solicitação personalizada** , em **modelo** , selecione **(nenhum modelo) chave herdada**. A menos que seja direcionado de outra forma pelo seu provedor de certificado, deixe a opção **suprimir extensões padrão** desmarcada e a seleção de **formato de solicitação** em ** \#PKCS 10**. Click **Next**.
 
 6.  Na página **informações do certificado** , clique em **detalhes**e, em seguida, clique em **Propriedades**.
 
@@ -178,7 +180,7 @@ Para gerar uma solicitação de assinatura de certificado no computador em que o
 
 12. Clique na seta **uso estendido da chave (políticas do aplicativo)** para mostrar as **opções disponíveis**. Em opções disponíveis, clique em **autenticação do servidor**e, em seguida, clique em **Adicionar**. Clique em **autenticação do cliente**e, em seguida, clique em **Adicionar**. Se a caixa de seleção para fazer com que **os usos da chave estendida** forem marcada, desmarque a caixa de seleção. Ao contrário da caixa de seleção uso da chave (que deve ser marcada), você deve ter certeza de que a caixa de seleção uso estendido da chave não está marcada.
 
-13. Na página **Propriedades do certificado** , clique na guia **chave privada** . Clique na seta **Opções de tecla** . Em **tamanho da chave**, selecione **2048** na lista suspensa. Se você estiver gerando este par de chaves e o CSR em um computador diferente do proxy inverso ao qual esse certificado se destina, selecione **tornar a chave privada**exportável.
+13. Na página **Propriedades do certificado** , clique na guia **chave privada** . Clique na seta **Opções de tecla** . Em **tamanho da chave**, selecione **2048** na lista suspensa. Se você estiver gerando este par de chaves e o CSR em um computador diferente do proxy inverso ao qual esse certificado se destina, selecione **tornar a chave privada exportável**.
     
     <div>
     
@@ -190,7 +192,7 @@ Para gerar uma solicitação de assinatura de certificado no computador em que o
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Selecionar <strong>tornar uma chave privada</strong> exportável geralmente é avisado quando você tem mais de um proxy reverso em um farm, pois você copiará o certificado e a chave privada para cada máquina no farm. Se você permitir uma chave privada exportável, deve tomar cuidado com o certificado e o computador em que ele é gerado. A chave privada, se comprometida, tornará o certificado inútil, bem como exporá potencialmente o computador ou computadores a acesso externo e outras vulnerabilidades de segurança.</td>
+    <td>Selecionar <strong>tornar uma chave privada exportável</strong> geralmente é avisado quando você tem mais de um proxy reverso em um farm, pois você copiará o certificado e a chave privada para cada máquina no farm. Se você permitir uma chave privada exportável, deve tomar cuidado com o certificado e o computador em que ele é gerado. A chave privada, se comprometida, tornará o certificado inútil, bem como exporá potencialmente o computador ou computadores a acesso externo e outras vulnerabilidades de segurança.</td>
     </tr>
     </tbody>
     </table>

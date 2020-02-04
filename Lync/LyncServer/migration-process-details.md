@@ -3,6 +3,8 @@ title: Processo de migração - detalhes
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migration process - details
 ms:assetid: ca7e352c-9bde-47d9-8273-5cf2fdfdfe7e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205264(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 39560d69842c104c7db956418dabac9aa6d29d7c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1d3b46e2b80d9ad5a4b08108d1dc2bad03cf5f0f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844240"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757135"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -90,7 +92,7 @@ Execute as etapas a seguir para preparar adequadamente os dados de origem para a
     
     1.  O servidor de chat persistente dá suporte a um único nível de categorias, ao contrário de um conjunto hierárquico profundo de categorias. Após a migração, as subcategorias são prefixadas com nomes de categoria pai completo. Convém simplificar e achatar a estrutura de categorias existente para que a estrutura resultante atenda às suas necessidades.
     
-    2.  Verifique os **gerentes** na categoria raiz. Se houver gerentes nesse nível, esses usuários serão adicionados como gerentes **a todas as salas** após a migração. Se isso não for um requisito para sua organização, você precisará remover esses gerentes da categoria raiz.
+    2.  Verifique os **gerentes** na categoria raiz. Se houver gerentes nesse nível, esses usuários serão adicionados como **gerentes a todas as salas** após a migração. Se isso não for um requisito para sua organização, você precisará remover esses gerentes da categoria raiz.
     
     3.  Verifique a duração dos nomes de sala. Após a migração, devido a estruturas de categoria simplificadas, se as salas existirem em uma categoria filho, elas serão prefixadas com nomes de categoria pai completo. O limite de nomenclatura é de 256 caracteres, incluindo nomes de categoria pai. Você deve verificar a extensão dos nomes da sala e possivelmente diminuir o comprimento, se eles forem muito longos.
     
@@ -139,7 +141,7 @@ Execute as seguintes etapas para migrar seu servidor de chat de grupo herdado.
 
 8.  Porta do Lync Server 2010, chat em grupo ou URI do servidor de pesquisa de chat de grupo do Office Server 2007 R2 para o Lync Server 2013, objeto de contato persistente do servidor de chat. As etapas a seguir são necessárias se os clientes de chat de grupo do Lync 2010 ou do Office Communicator 2007 R2 precisarem se conectar ao Lync 2013, o chat persistente (cliente) mais recente após a migração sem nenhuma alteração de configuração do lado do cliente:
     
-      - Exclua a conta\<de usuário do\>servidor de pesquisa OCSChat @ DomainName. com. Isso foi usado para apontar para o serviço de pesquisa no Lync Server 2010, chat em grupo. Você pode desinstalar o pool e remover as entradas confiáveis mais tarde.
+      - Exclua o\<OCSChat@ conta de\>usuário do servidor de pesquisa DomainName. com. Isso foi usado para apontar para o serviço de pesquisa no Lync Server 2010, chat em grupo. Você pode desinstalar o pool e remover as entradas confiáveis mais tarde.
     
       - Crie um ponto de extremidade herdado (objeto de contato do servidor de chat persistente) executando o cmdlet do Windows PowerShell, **New-CsPersistentChatEndpoint**, com o URI SIP idêntico para que o cliente herdado funcione efetivamente quando o serviço for reiniciado.
     
@@ -155,7 +157,7 @@ Execute as seguintes etapas para migrar seu servidor de chat de grupo herdado.
 
 12. Exclua o aplicativo confiável e o pool de aplicativos confiável usando cmdlets do Windows PowerShell. Isso exclui esses itens do repositório de gerenciamento central e as entradas de serviço confiáveis associadas (TSEs) do Active Directory. Como alternativa, essa etapa funciona usando o construtor de topologias (os aplicativos/pools confiáveis têm um nó dedicado, também).
 
-13. Agora você pode começar a habilitar a funcionalidade do servidor de chat persistente por meio dos novos clientes. Para obter detalhes sobre como habilitar o servidor de chat persistente, consulte Implantando o [servidor de chat persistente no Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md).
+13. Agora você pode começar a habilitar a funcionalidade do servidor de chat persistente por meio dos novos clientes. Para obter detalhes sobre como habilitar o servidor de chat persistente, consulte [implantando o servidor de chat persistente no Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md).
     
     <div>
     

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Alterações no Lync Server que afetam o planejamento 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Changes in Lync Server 2013 that affect Edge Server planning
 ms:assetid: 66305160-c9b8-4bc4-9f24-8ee8d9a294f7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204965(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184378
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71d13b40430455c87a60c0fadc20980df5a8aa1b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 73eda15acbce7eb4b47a0a52602776e8fc830b0e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836612"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730141"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -83,7 +85,7 @@ Um certificado é usado para gerar tokens que são emitidos para clientes e outr
 
 Para autenticação de áudio/vídeo, os tokens são usados para autenticar solicitações de alocação de porta e os tokens são armazenados em cache por até 8 horas – o tempo de vida padrão do token. Em operação normal, esse é um método muito confiável para criar e distribuir material de autenticação para os consumidores a/V. No entanto, os certificados têm uma vida útil finita e expiram em uma data e hora predefinidas (com base na data de criação e nas políticas impostas na autoridade de certificação que criou o certificado, geralmente há 2 anos para esse tipo de certificado). Quando o certificado expira, todos os tokens criados pelo certificado expirado e armazenados em cache por consumidores se tornam inválidos. Qualquer tentativa de usar um token criado com um certificado expirado resultará em falha nas atribuições de retransmissão de mídia e nas sessões de áudio/vídeo atuais. O cliente precisaria adquirir um novo token criado por um certificado válido para retomar a funcionalidade normal de áudio e vídeo.
 
-A autenticação do servidor para o servidor é gerenciada por um certificado global que é solicitado e aplicado a todos os servidores na implantação. O certificado é responsável pela autenticação de servidores no Lync Server 2013, bem como pela autenticação do Exchange 2013 e do Microsoft SharePoint Server 2013. Para obter mais informações sobre como funciona a autenticação do servidor com o servidor, consulte Gerenciando a autenticação de servidor [para servidor (OAuth) e aplicativos de parceiros no Lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md). Uma diferença muito importante entre o processo de autenticação de áudio/vídeo e o processo de autenticação do servidor no servidor é o tempo de vida da autenticação ou dos tokens. Para a autenticação de áudio/vídeo, a autenticação expira após oito horas. A autenticação de servidor para servidor tem uma vida útil de 24 horas. Você deve planejar adequadamente para cada um dos tipos de certificado.
+A autenticação do servidor para o servidor é gerenciada por um certificado global que é solicitado e aplicado a todos os servidores na implantação. O certificado é responsável pela autenticação de servidores no Lync Server 2013, bem como pela autenticação do Exchange 2013 e do Microsoft SharePoint Server 2013. Para obter mais informações sobre como funciona a autenticação do servidor com o servidor, consulte [Gerenciando a autenticação de servidor para servidor (OAuth) e aplicativos de parceiros no Lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md). Uma diferença muito importante entre o processo de autenticação de áudio/vídeo e o processo de autenticação do servidor no servidor é o tempo de vida da autenticação ou dos tokens. Para a autenticação de áudio/vídeo, a autenticação expira após oito horas. A autenticação de servidor para servidor tem uma vida útil de 24 horas. Você deve planejar adequadamente para cada um dos tipos de certificado.
 
 Novo para o Lync Server 2013 é a capacidade de transferir um certificado de autenticação de áudio/vídeo e um certificado de autenticação de servidor para servidor com antecedência da expiração do certificado atual. O novo certificado é usado para gerar novos tokens ou novas solicitações de autenticação. mas retém o certificado antigo para verificar as sessões e autenticações atuais.. O que isso faz é evitar efetivamente praticamente todas as falhas devido a expirações de token e certificado. Para obter detalhes sobre esse recurso e como configurá-lo, consulte [preparando certificados do AV e do OAuth no Lync Server 2013 using-roll Set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)
 

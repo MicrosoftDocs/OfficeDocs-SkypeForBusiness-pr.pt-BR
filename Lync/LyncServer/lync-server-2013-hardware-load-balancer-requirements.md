@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requisitos do balanceador de carga do hardware'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Hardware load balancer requirements
 ms:assetid: 32891268-2059-43d0-adf4-af4ff1e9ce66
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ656815(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49287208
 ms.date: 05/11/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0d5b10a91f469bf4688de06e836e0bdeffae1112
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 85ed4195d80ecc755faea74ddedb790c9f41ebfb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829091"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727901"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -159,7 +161,7 @@ A seguir, são apresentados os requisitos do balanceador de carga de hardware pa
 
 
 > [!IMPORTANT]  
-> Para leituras adicionais sobre a configuração do balanceador de carga de hardware, consulte a guia consolidada resumido <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">-Resumo consolidado com balanceadores de carga de hardware no Lync Server 2013</A>.
+> Para leituras adicionais sobre a configuração do balanceador de carga de hardware, consulte a guia <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">consolidada resumido-Resumo consolidado com balanceadores de carga de hardware no Lync Server 2013</A>.
 
 
 
@@ -237,7 +239,7 @@ Defina o monitoramento de portas nos balanceadores de carga de hardware para det
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;Web&gt;de pool-int_mco_443_vs</p>
+<td><p>&lt;int_mco_443_vs&gt;da Web de pool</p>
 <p>443</p></td>
 <td><p>443</p></td>
 <td><p>Front-End</p>
@@ -246,7 +248,7 @@ Defina o monitoramento de portas nos balanceadores de carga de hardware para det
 <td><p>HTTPS</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;Web&gt;de pool-int_mco_80_vs</p>
+<td><p>&lt;int_mco_80_vs&gt;da Web de pool</p>
 <p>80</p></td>
 <td><p>80</p></td>
 <td><p>Front-End</p>
@@ -279,7 +281,7 @@ Defina o monitoramento de portas nos balanceadores de carga de hardware para det
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;web_mco_443_vs&gt;de pool</p>
+<td><p>&lt;web_mco_443_vs&gt;de grupo</p>
 <p>443</p></td>
 <td><p>4443</p></td>
 <td><p>Front-End</p>
@@ -288,7 +290,7 @@ Defina o monitoramento de portas nos balanceadores de carga de hardware para det
 <td><p>HTTPS</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;web_mco_80_vs&gt;de pool</p>
+<td><p>&lt;web_mco_80_vs&gt;de grupo</p>
 <p>80</p></td>
 <td><p>8080</p></td>
 <td><p>Front-End</p>

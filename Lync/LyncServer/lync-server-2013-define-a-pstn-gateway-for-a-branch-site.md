@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Definir um gateway de PSTN para um site de filial'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define a PSTN gateway for a branch site
 ms:assetid: 87be2fe2-1d56-4062-b430-439d4536414c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398689(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184724
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c253f82001fef4dd52e19dccb11e7ac77bb12417
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e4445647e6ffcbfc2cfc137bd120d0aced6a9908
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829717"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728521"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -58,7 +60,7 @@ Execute este procedimento no site central, que contém pelo menos um pool de fro
 
 1.  Clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server**e, em seguida, clique em **Construtor de topologia do Lync Server**.
 
-2.  Na árvore de console, expanda o site central, expanda **sites**de filiais, expanda o nome do site de filial para o qual você deseja definir um gateway PSTN (rede telefônica pública comutada) para e, em seguida, expanda **componentes compartilhados**.
+2.  Na árvore de console, expanda o site central, expanda **sites de filiais**, expanda o nome do site de filial para o qual você deseja definir um gateway PSTN (rede telefônica pública comutada) para e, em seguida, expanda **componentes compartilhados**.
 
 3.  Clique com o botão direito do mouse em **gateways PSTN**e clique em **novo gateway IP/PSTN**.
 

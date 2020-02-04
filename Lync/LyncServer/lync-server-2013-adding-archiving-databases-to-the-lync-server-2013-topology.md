@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Adicionar bancos de dados de arquivamento à topologia
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Adding Archiving databases to the Lync Server 2013 topology
 ms:assetid: 089ab32f-1167-4bb8-a283-fdc6c9613072
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204654(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183338
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe77c57050d6d6c70d5818405fd657d5a8fd3f0e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7476107b064b45dbef74b03ff9d54e02fc9eee52
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836937"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738161"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ _**Tópico da última modificação:** 2012-10-10_
 
 
 > [!NOTE]  
-> Se você quiser usar a integração do Microsoft Exchange para armazenar arquivos e dados de arquivamento em servidores Exchange 2013 para todos os usuários em sua implantação, não especifique a <STRONG>loja do SQL Server</STRONG> do SQL Server ou use as informações de espelhamento da <STRONG>loja do SQL Server</STRONG> .
+> Se você quiser usar a integração do Microsoft Exchange para armazenar arquivos e dados de arquivamento em servidores Exchange 2013 para todos os usuários em sua implantação, não especifique a <STRONG>loja do SQL Server</STRONG> do SQL Server ou use as informações de <STRONG>espelhamento da loja do SQL Server</STRONG> .
 
 
 
@@ -57,7 +59,7 @@ _**Tópico da última modificação:** 2012-10-10_
     
 
     > [!NOTE]  
-    > Você pode definir uma topologia usando uma conta que seja membro do grupo usuários local, mas para publicar uma topologia, que é necessária para adicionar um servidor à topologia, você deve usar uma conta que seja membro do grupo <STRONG>Domain admins</STRONG> e o <STRONG>RTCUniversalServer Grupo Administradores</STRONG> e com permissões de controle total (ou seja, ler, gravar e modificar) no compartilhamento de arquivos que você está usando para o repositório de arquivos do Lync Server 2013 (ou seja, o construtor de topologia pode configurar a lista de controle de acesso discricional necessária (DACLs) ou uma conta com direitos equivalentes.
+    > Você pode definir uma topologia usando uma conta que seja membro do grupo usuários local, mas para publicar uma topologia, que é necessária para adicionar um servidor à topologia, você deve usar uma conta que seja membro do grupo <STRONG>Domain admins</STRONG> e do grupo <STRONG>RTCUniversalServerAdmins</STRONG> e que tenha permissões de controle total (ou seja, ler, gravar e modificar) no compartilhamento de arquivos que você está usando para o repositório de arquivos do Lync Server 2013 (ou seja, o construtor de topologias pode configurar a lista de controle de acesso discricional (DACLs) necessária ou uma conta com direitos equivalentes.
 
     
     </div>
@@ -84,11 +86,11 @@ _**Tópico da última modificação:** 2012-10-10_
         
           - Clique em **Instância padrão** para usar a instância padrão ou, para especificar uma instância diferente, clique em **Instância nomeada** e especifique a instância que deseja usar.
         
-          - Se a instância do SQL Server especificada estiver em uma relação de espelhamento, marque a caixa de seleção **esta instância SQL está em relação** ao espelhamento e, em seguida, em **número de porta espelhada**, especifique o número da porta.
+          - Se a instância do SQL Server especificada estiver em uma relação de espelhamento, marque a caixa de seleção **esta instância SQL está em relação ao espelhamento** e, em seguida, em **número de porta espelhada**, especifique o número da porta.
 
-9.  Se você quiser usar o espelhamento da loja do SQL Server, selecione Habilitar o espelhamento da **loja do SQL Server**e, em seguida, faça o seguinte:
+9.  Se você quiser usar o espelhamento da loja do SQL Server, selecione **habilitar o espelhamento da loja do SQL Server**e, em seguida, faça o seguinte:
     
-      - Para usar uma loja existente do SQL Server para espelhamento, na caixa de listagem suspensa de espelhamento do **repositório do SQL Server** , clique no nome da loja do SQL Server que você deseja usar para espelhamento.
+      - Para usar uma loja existente do SQL Server para espelhamento, na caixa de listagem suspensa de **espelhamento do repositório do SQL Server** , clique no nome da loja do SQL Server que você deseja usar para espelhamento.
     
       - Para especificar uma nova loja do SQL Server para espelhamento, clique em **novo**e, na caixa de diálogo **definir novo repositório do SQL Server** , siga um destes procedimentos:
         
@@ -96,15 +98,15 @@ _**Tópico da última modificação:** 2012-10-10_
         
         2.  Clique em **Instância padrão** para usar a instância padrão ou, para especificar uma instância diferente, clique em **Instância nomeada** e especifique a instância que deseja usar.
         
-        3.  Se a instância do SQL Server especificada estiver em uma relação de espelhamento, marque a caixa de seleção **esta instância SQL está em relação** ao espelhamento e, em seguida, em **número de porta espelhada**, especifique o número da porta.
+        3.  Se a instância do SQL Server especificada estiver em uma relação de espelhamento, marque a caixa de seleção **esta instância SQL está em relação ao espelhamento** e, em seguida, em **número de porta espelhada**, especifique o número da porta.
     
-      - Se você habilitar o espelhamento do SQL Server e quiser incluir uma testemunha de espelhamento do SQL Server (uma terceira instância separada do SQL Server que pode detectar a integridade do servidor do SQL Server e das instâncias de espelhamento principais), selecione a **testemunha usar o espelhamento do SQL Server para habilitar failover automático** e siga um destes procedimentos:
+      - Se você habilitar o espelhamento do SQL Server e quiser incluir uma testemunha de espelhamento do SQL Server (uma terceira instância do SQL Server separada que pode detectar a integridade do servidor do SQL Server e das instâncias de espelhamento principais), marque a caixa de seleção **usar a testemunha de espelhamento do SQL Server para habilitar o failover automático** e siga um destes procedimentos:
         
         1.  Em **FQDN do SQL Server**, ESPECIFIQUE o FQDN do servidor no qual você deseja criar a nova testemunha de espelhamento do SQL Server.
         
         2.  Clique em **Instância padrão** para usar a instância padrão ou, para especificar uma instância diferente, clique em **Instância nomeada** e especifique a instância que deseja usar para a testemunha de espelhamento.
         
-        3.  Se a instância do SQL Server especificada estiver em uma relação de espelhamento, marque a caixa de seleção **esta instância SQL está em relação** ao espelhamento e, em seguida, em **número de porta espelhada**, especifique o número da porta.
+        3.  Se a instância do SQL Server especificada estiver em uma relação de espelhamento, marque a caixa de seleção **esta instância SQL está em relação ao espelhamento** e, em seguida, em **número de porta espelhada**, especifique o número da porta.
 
 10. Para salvar a configuração, clique em **OK**.
 

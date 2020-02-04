@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ferramenta de diagnóstico de chamadas do Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync PreCall Diagnostics Tool
 ms:assetid: 0ff291ec-cfb4-43eb-b5d6-a7a325681e3f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn451255(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56708404
 ms.date: 11/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e22b542a5840714455d4abdb0a7163e6a8ba748
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 004d3b30dc2c2886eb7a2d8977f1da062277cc92
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828926"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742331"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -121,17 +123,17 @@ O Lync PCD inclui os seguintes recursos:
 
   - Diagnosticar falhas de entrada (somente Lync PCD para Windows 8)
 
-![Captura de tela de progresso do recurso de entrada do LYNC PCD] (images/Dn451255.7e0eb891-1481-47ae-8d63-164468f69c96(OCS.15).png "Captura de tela de progresso do recurso de entrada do LYNC PCD")
+![Captura de tela de progresso do recurso de entrada do Lync PCD](images/Dn451255.7e0eb891-1481-47ae-8d63-164468f69c96(OCS.15).png "Captura de tela de progresso do recurso de entrada do Lync PCD")
 
   - Modo de exibição gráfico de métricas de rede – MOS de rede, perda de pacotes e Tremulação de interentrada em tela cheia e exibição ajustada.
 
 **Modo de exibição de tela inteira**
 
-![Gráficos de resultado de teste da ferramenta de diagnóstico de chamada] (images/Dn451255.5d01fd94-9e59-4823-96c7-7a1c83dd7d31(OCS.15).png "Gráficos de resultado de teste da ferramenta de diagnóstico de chamada")
+![Gráficos de resultado de teste da ferramenta de diagnóstico de chamada](images/Dn451255.5d01fd94-9e59-4823-96c7-7a1c83dd7d31(OCS.15).png "Gráficos de resultado de teste da ferramenta de diagnóstico de chamada")
 
 **Modo de exibição ajustado**
 
-![Resultados do teste de utilização da ferramenta de diagnóstico de chamada] (images/Dn451255.30501ba7-22d1-4db1-9297-56cf7dc6721c(OCS.15).png "Resultados do teste de utilização da ferramenta de diagnóstico de chamada")
+![Resultados do teste de utilização da ferramenta de diagnóstico de chamada](images/Dn451255.30501ba7-22d1-4db1-9297-56cf7dc6721c(OCS.15).png "Resultados do teste de utilização da ferramenta de diagnóstico de chamada")
 
 </div>
 
@@ -149,7 +151,7 @@ O Lync PCD inclui os seguintes recursos:
     
     Para iniciar o PCD em um sistema do Windows 8, selecione o ícone na tela inicial ou procure por "getcall Diagnostics".
     
-    ![Ícone da ferramenta de diagnóstico de chamada] (images/Dn451255.c9800fde-54f6-4efe-bb35-1a38064ec380(OCS.15).png "Ícone da ferramenta de diagnóstico de chamada")
+    ![Ícone da ferramenta de diagnóstico de chamada](images/Dn451255.c9800fde-54f6-4efe-bb35-1a38064ec380(OCS.15).png "Ícone da ferramenta de diagnóstico de chamada")
 
 2.  Quando a ferramenta for iniciada, selecione seu método preferido de fornecimento de credenciais e selecione o modo operacional de rede na caixa de diálogo **Opções da ferramenta de diagnóstico de chamadas** e, em seguida, selecione **OK**:
 

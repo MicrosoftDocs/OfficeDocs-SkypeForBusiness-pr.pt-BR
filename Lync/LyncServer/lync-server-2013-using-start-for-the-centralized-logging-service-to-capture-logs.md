@@ -3,6 +3,8 @@ title: Usar Start para o serviço de log centralizado para capturar logs
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using Start for the Centralized Logging Service to capture logs
 ms:assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687958(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733543
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5033b4a8dfd8121e2f0b5926623a55358188935e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 75090036b7120c8af7cda132c26d5b4fb02d3dab
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844465"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743991"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -87,7 +89,7 @@ O serviço de log centralizado oferece duas maneiras de emitir comandos. Vários
     
     </div>
     
-    ![Executando Start-CsClsLogging.] (images/JJ687958.c5be7413-8cef-4de7-9712-944d20cc2fa4(OCS.15).jpg "Executando Start-CsClsLogging.")
+    ![Executando Start-CsClsLogging.](images/JJ687958.c5be7413-8cef-4de7-9712-944d20cc2fa4(OCS.15).jpg "Executando Start-CsClsLogging.")
 
 4.  Para iniciar outro cenários, use o cmdlet **Start-CsClsLogging** com o nome do cenário adicional para executar o seguinte (por exemplo, o cenário **Autenticação**):
     
@@ -118,7 +120,7 @@ O serviço de log centralizado oferece duas maneiras de emitir comandos. Vários
     
     O execução com sucesso deste cenário devolve um resultado como o seguinte:
     
-    ![Executando Start-CsClsLogging.] (images/JJ687958.399f0c2e-c08c-40ab-b6c6-381dddc12fe9(OCS.15).jpg "Executando Start-CsClsLogging.")
+    ![Executando Start-CsClsLogging.](images/JJ687958.399f0c2e-c08c-40ab-b6c6-381dddc12fe9(OCS.15).jpg "Executando Start-CsClsLogging.")
     
     Observe que, neste exemplo, o cenário AlwaysOn é executado e o cenário UserReplicator também está sendo executado.
 

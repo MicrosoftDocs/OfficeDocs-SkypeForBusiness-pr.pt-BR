@@ -3,6 +3,8 @@ title: Controle de admissão de chamada com um gateway de PSTN de terceiros ou P
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call admission control with a third-party PSTN gateway or PBX
 ms:assetid: 95dc4ceb-bcad-48ee-86ec-af911727f853
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398762(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184850
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c1996b56a50dbe616c8dc6e9b9b1c779c564b185
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 09aae207844fed12c840918a533fb181ca36634e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836711"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743171"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ O CAC pode ser implantado no link WAN da interface do gateway do Servidor de Med
 
 **Caso 1: CAC entre o Servidor de Mediação e um gateway PSTN**
 
-![Caso 1: CAC entre o gateway PSTN do servidor] de mediação (images/Gg398762.4bebf9ee-2732-4ea6-bbe5-0269b2903d8c(OCS.15).jpg "Caso 1: CAC entre o gateway PSTN do servidor") de mediação
+![Caso 1: CAC entre o gateway PSTN do servidor de mediação](images/Gg398762.4bebf9ee-2732-4ea6-bbe5-0269b2903d8c(OCS.15).jpg "Caso 1: CAC entre o gateway PSTN do servidor de mediação")
 
 Neste exemplo, o CAC é aplicado entre o servidor de mediação e um gateway PSTN. Se um usuário do cliente do Lync no site da rede 1 colocar uma chamada PSTN por meio do gateway PSTN no site de rede 2, a mídia fluirá pelo link de WAN. Portanto, duas verificações CAC são executadas para cada sessão PSTN:
 
@@ -75,7 +77,7 @@ Esta configuração é similar ao Caso 1. Nos dois casos, o servidor de mediaç�
 
 **Caso 2: CAC entre o Servidor de Mediação e um PBX de terceiros com MTP**
 
-![Caso 2: CAC entre o PBX do servidor de mediação com MTP] (images/Gg398762.1c0b5263-c053-4cca-842f-85dd670760c8(OCS.15).jpg "Caso 2: CAC entre o PBX do servidor de mediação com MTP")
+![Caso 2: CAC entre o PBX do servidor de mediação com MTP](images/Gg398762.1c0b5263-c053-4cca-842f-85dd670760c8(OCS.15).jpg "Caso 2: CAC entre o PBX do servidor de mediação com MTP")
 
 Neste exemplo, o CAC é aplicado entre o servidor de mediação e o PBX/MTP. Se um usuário cliente do Lync no site de rede 1 colocar uma chamada PSTN por meio do PBX/MTP localizado no site de rede 2, a mídia fluirá pelo link de WAN. Portanto, para cada sessão PSTN duas verificações CAC são executadas:
 
@@ -105,7 +107,7 @@ O Caso 3 é um ligeiramente diferente dos dois primeiros. Se não houver MTP no 
 
 **Caso 3: CAC entre o Servidor de Mediação e um PBX de terceiros sem MTP**
 
-![Caso 3: CAC entre o PBX do servidor de mediação sem MTP] (images/Gg398762.f4bcf800-3a68-4037-bb3f-adb2fdf50d32(OCS.15).jpg "Caso 3: CAC entre o PBX do servidor de mediação sem MTP")
+![Caso 3: CAC entre o PBX do servidor de mediação sem MTP](images/Gg398762.f4bcf800-3a68-4037-bb3f-adb2fdf50d32(OCS.15).jpg "Caso 3: CAC entre o PBX do servidor de mediação sem MTP")
 
 Neste exemplo, se um usuário cliente do Lync no site da rede 1 colocar uma chamada para um usuário por meio do PBX, o servidor de mediação poderá executar o CAC verifica somente no trecho do proxy (entre o aplicativo cliente do Lync e o servidor de mediação). Como o servidor de mediação não tem informações sobre o dispositivo de ponto de extremidade enquanto a sessão está sendo solicitada, as verificações de CAC não podem ser executadas no link de WAN (entre o servidor de mediação e o ponto de extremidade de terceiros) antes do estabelecimento da chamada. No entanto, depois que a sessão for estabelecida, o servidor de mediação facilitará a contabilidade para a largura de banda usada no tronco.
 

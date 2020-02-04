@@ -3,6 +3,8 @@ title: Configurar rotas de federação e tráfego de mídia
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Configure federation routes and media traffic
 ms:assetid: 8b2f5f81-a955-4ad1-ad74-397322ff9521
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688121(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733720
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed16ac6b8aceea6828b600ce18da8b9a72827846
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9cd9cf1c7c61261e4e1a6974498f9f9dff980169
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836097"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723241"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -83,11 +85,11 @@ Use os procedimentos a seguir para fazer a transição da rota de Federação e 
 
 5.  Em **atribuição de rota de Federação do site**, desmarque a caixa de seleção **habilitar Federação SIP** para desabilitar a rota de Federação por meio do ambiente herdado do Lync Server 2010.
     
-    ![Caixa de diálogo Editar propriedades, página rota de Federação] (images/JJ688121.8d755ae0-fc7d-4253-b0db-0cf31b863c55(OCS.15).jpg "Caixa de diálogo Editar propriedades, página rota de Federação")
+    ![Caixa de diálogo Editar propriedades, página rota de Federação](images/JJ688121.8d755ae0-fc7d-4253-b0db-0cf31b863c55(OCS.15).jpg "Caixa de diálogo Editar propriedades, página rota de Federação")
 
 6.  Clique em **OK** para fechar a página Editar propriedades.
 
-7.  No **Construtor**de topologias, selecione o nó superior do **Lync Server**.
+7.  No **Construtor de topologias**, selecione o nó superior do **Lync Server**.
 
 8.  No menu **ação** , clique em **publicar topologia**.
 
@@ -99,7 +101,7 @@ Use os procedimentos a seguir para fazer a transição da rota de Federação e 
 
 ## <a name="to-configure-the-legacy-edge-server-as-a-non-federating-edge-server"></a>Para configurar o servidor de borda herdado como um servidor de borda não federativo
 
-1.  No painel esquerdo, navegue até o nó do **Lync Server 2010** e, em seguida, para o nó de pools de **borda** .
+1.  No painel esquerdo, navegue até o nó do **Lync Server 2010** e, em seguida, para o nó de **pools de borda** .
 
 2.  Clique com o botão direito do mouse no servidor de borda e, em seguida, clique em **Editar propriedades**.
 
@@ -107,7 +109,7 @@ Use os procedimentos a seguir para fazer a transição da rota de Federação e 
 
 4.  Desmarque a caixa de seleção **habilitar Federação para este pool de bordas (porta 5061)** e selecione **OK** para fechar a página.
     
-    ![Editar propriedades, geral, limpar habilitar Federação] (images/JJ688121.3be2c8c0-9ed9-4544-bafd-b7694271fafc(OCS.15).jpg "Editar propriedades, geral, limpar habilitar Federação")
+    ![Editar propriedades, geral, limpar habilitar Federação](images/JJ688121.3be2c8c0-9ed9-4544-bafd-b7694271fafc(OCS.15).jpg "Editar propriedades, geral, limpar habilitar Federação")
 
 5.  No menu **ação** , selecione **publicar topologia**e clique em **Avançar**.
 
@@ -115,7 +117,7 @@ Use os procedimentos a seguir para fazer a transição da rota de Federação e 
 
 7.  Verifique se a Federação para o servidor de borda herdada está desabilitada.
     
-    ![Construtor de topologia, pool de bordas, agrupamento desabilitado] (images/JJ688121.a2948438-d51a-4aeb-9eaa-d899ca950758(OCS.15).jpg "Construtor de topologia, pool de bordas, agrupamento desabilitado")
+    ![Construtor de topologia, pool de bordas, agrupamento desabilitado](images/JJ688121.a2948438-d51a-4aeb-9eaa-d899ca950758(OCS.15).jpg "Construtor de topologia, pool de bordas, agrupamento desabilitado")
 
 </div>
 
@@ -137,7 +139,7 @@ Use os procedimentos a seguir para fazer a transição da rota de Federação e 
 
 ## <a name="to-change-lync-server-2010-federation-route-to-use-lync-server-2013-edge-server"></a>Para alterar a rota de Federação do Lync Server 2010 para usar o Lync Server 2013 Edge Server
 
-1.  No construtor de topologia, no painel esquerdo, navegue até o nó do **Lync Server 2013** e, em seguida, para o nó de pools de **borda** .
+1.  No construtor de topologia, no painel esquerdo, navegue até o nó do **Lync Server 2013** e, em seguida, para o nó de **pools de borda** .
 
 2.  Clique com o botão direito do mouse no servidor de borda e, em seguida, clique em **Editar propriedades**.
 
@@ -145,7 +147,7 @@ Use os procedimentos a seguir para fazer a transição da rota de Federação e 
 
 4.  Marque a entrada da caixa de seleção para **habilitar a Federação para este pool de bordas (porta 5061)** e clique em **OK** para fechar a página.
     
-    ![Caixa de diálogo Editar propriedades, página Geral] (images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Caixa de diálogo Editar propriedades, página Geral")
+    ![Caixa de diálogo Editar propriedades, página Geral](images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Caixa de diálogo Editar propriedades, página Geral")
 
 5.  No menu **ação** , selecione **publicar topologia**e clique em **Avançar**.
 
@@ -153,7 +155,7 @@ Use os procedimentos a seguir para fazer a transição da rota de Federação e 
 
 7.  Verifique se a **Federação (porta 5061)** está definida como **Enabled**.
     
-    ![Construtor de topologia, pool de bordas, agrupamento habilitado] (images/JJ688121.e8ccdada-23f4-47e5-a99d-5bf795fefc48(OCS.15).jpg "Construtor de topologia, pool de bordas, agrupamento habilitado")
+    ![Construtor de topologia, pool de bordas, agrupamento habilitado](images/JJ688121.e8ccdada-23f4-47e5-a99d-5bf795fefc48(OCS.15).jpg "Construtor de topologia, pool de bordas, agrupamento habilitado")
 
 </div>
 
@@ -161,17 +163,17 @@ Use os procedimentos a seguir para fazer a transição da rota de Federação e 
 
 ## <a name="to-update-lync-server-2013-edge-server-federation-next-hop"></a>Para atualizar o Lync Server 2013 o próximo nó de Federação do servidor de borda
 
-1.  No construtor de topologia, no painel esquerdo, navegue até o nó do **Lync Server 2013** e, em seguida, para o nó de pools de **borda** .
+1.  No construtor de topologia, no painel esquerdo, navegue até o nó do **Lync Server 2013** e, em seguida, para o nó de **pools de borda** .
 
 2.  Expanda o nó, clique com o botão direito do mouse no servidor de borda listado e, em seguida, clique em **Editar propriedades**.
 
 3.  Na página **geral** , em **seleção do próximo salto**, selecione na lista suspensa o pool do Lync Server 2013.
     
-    ![Caixa de diálogo Editar propriedades, página de próximo salto] (images/JJ688121.5741b9a8-e729-4457-9f62-38f08a2c5b02(OCS.15).jpg "Caixa de diálogo Editar propriedades, página de próximo salto")
+    ![Caixa de diálogo Editar propriedades, página de próximo salto](images/JJ688121.5741b9a8-e729-4457-9f62-38f08a2c5b02(OCS.15).jpg "Caixa de diálogo Editar propriedades, página de próximo salto")
 
 4.  Clique em **OK** para fechar a página Editar propriedades.
 
-5.  No **Construtor**de topologias, selecione o nó superior do **Lync Server** .
+5.  No **Construtor de topologias**, selecione o nó superior do **Lync Server** .
 
 6.  No menu **ação** , clique em **publicar topologia** e conclua o assistente.
 
@@ -187,7 +189,7 @@ Use os procedimentos a seguir para fazer a transição da rota de Federação e 
 
 3.  Na seção **associações** , marque a caixa de seleção **associar o pool de bordas (para componentes de mídia)** .
     
-    ![Editar propriedades, geral, associar pool de bordas] (images/JJ688121.fd9b18ca-fda2-4764-9bf0-726bf39f6a12(OCS.15).jpg "Editar propriedades, geral, associar pool de bordas")
+    ![Editar propriedades, geral, associar pool de bordas](images/JJ688121.fd9b18ca-fda2-4764-9bf0-726bf39f6a12(OCS.15).jpg "Editar propriedades, geral, associar pool de bordas")
 
 4.  Na caixa suspensa, selecione o servidor de borda do Lync Server 2013.
 
@@ -199,7 +201,7 @@ Use os procedimentos a seguir para fazer a transição da rota de Federação e 
 
 ## <a name="to-turn-on-lync-server-2013-edge-server-federation"></a>Para ativar a Federação do servidor de borda do Lync Server 2013
 
-1.  No construtor de topologia, no painel esquerdo, navegue até o nó do **Lync Server 2013** e, em seguida, para o nó de pools de **borda** .
+1.  No construtor de topologia, no painel esquerdo, navegue até o nó do **Lync Server 2013** e, em seguida, para o nó de **pools de borda** .
 
 2.  Expanda o nó, clique com o botão direito do mouse no servidor de borda listado e, em seguida, clique em **Editar propriedades**.
     
@@ -214,7 +216,7 @@ Use os procedimentos a seguir para fazer a transição da rota de Federação e 
 
 3.  Na página **geral** , verifique se a configuração **habilitar Federação para este pool de bordas (porta 5061)** está marcada.
     
-    ![Caixa de diálogo Editar propriedades, página Geral] (images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Caixa de diálogo Editar propriedades, página Geral")
+    ![Caixa de diálogo Editar propriedades, página Geral](images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Caixa de diálogo Editar propriedades, página Geral")
 
 4.  Clique em **OK** para fechar a página Editar propriedades.
 
@@ -226,7 +228,7 @@ Use os procedimentos a seguir para fazer a transição da rota de Federação e 
 
 8.  Em **atribuição de rota de Federação do site**, selecione **habilitar Federação SIP**e, em seguida, na lista Selecione o servidor de borda do Lync Server 2013 listado.
     
-    ![Editar propriedades, página de roteiro de Federação] (images/JJ688121.c50c13b8-0859-4e3e-8793-45c431a5b4b5(OCS.15).jpg "Editar propriedades, página de roteiro de Federação")
+    ![Editar propriedades, página de roteiro de Federação](images/JJ688121.c50c13b8-0859-4e3e-8793-45c431a5b4b5(OCS.15).jpg "Editar propriedades, página de roteiro de Federação")
 
 9.  Clique em **OK** para fechar a página **Editar propriedades** .
     
@@ -238,7 +240,7 @@ Use os procedimentos a seguir para fazer a transição da rota de Federação e 
 
 ## <a name="to-publish-edge-server-configuration-changes"></a>Para publicar as alterações de configuração do servidor de borda
 
-1.  No **Construtor**de topologias, selecione o nó superior do **Lync Server** .
+1.  No **Construtor de topologias**, selecione o nó superior do **Lync Server** .
 
 2.  No menu **ação** , selecione **publicar topologia** e conclua o assistente.
 
@@ -280,7 +282,7 @@ Use os procedimentos a seguir para fazer a transição da rota de Federação e 
 
 6.  Clique com o botão direito do mouse no nome dos serviços e, em seguida, selecione **parar** para interromper o serviço.
 
-7.  Defina o tipo de inicialização **** como desabilitado.
+7.  Defina o tipo de inicialização como **desabilitado**.
 
 8.  Clique em **OK** para fechar a janela **Propriedades** .
 

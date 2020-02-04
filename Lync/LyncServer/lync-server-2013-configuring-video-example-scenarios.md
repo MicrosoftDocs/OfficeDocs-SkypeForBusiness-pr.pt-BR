@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurando cenários de exemplo de vídeo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring video example scenarios
 ms:assetid: da0d61a2-7ac4-4562-bf6a-18473a29acb2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205297(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185536
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9800f97c8ccd49780098c29c9c6c1325b072dab5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cbdd47056b97da1ba3ac1bf884cc3e8bd9aaf43f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836161"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734421"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34836161"
 
 _**Tópico da última modificação:** 2012-10-02_
 
-O Lync 2013 adiciona novos recursos de vídeo para dar suporte a 1920 x 1080 de vídeo e galeria de visão geral de alta definição (HD) e vídeo. As medições com base nos dados do cliente mostram que a largura de banda de vídeo típica aumentou apenas um pouco em comparação com o Lync 2010, mas a largura de banda máxima do fluxo de vídeo aumentou devido ao suporte total a HD (para obter detalhes, consulte a seção "uso da rede de tráfego de mídia" em [ Requisitos de largura de banda de rede para tráfego de mídia no Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)). Portanto, os administradores podem querer restringir a largura de banda do vídeo para certos usuários (como os usuários de uma filial que têm menos capacidade de rede) e ajudam a garantir a melhor qualidade de vídeo possível para outros usuários (como executivos).
+O Lync 2013 adiciona novos recursos de vídeo para dar suporte a 1920 x 1080 de vídeo e galeria de visão geral de alta definição (HD) e vídeo. As medições com base nos dados do cliente mostram que a largura de banda de vídeo típica aumentou apenas um pouco em comparação com o Lync 2010, mas a largura de banda máxima do fluxo de vídeo aumentou devido ao suporte total a HD (para obter detalhes, consulte a seção "uso da rede de tráfego de mídia" em [requisitos de largura de banda para tráfego de mídia no Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)). Portanto, os administradores podem querer restringir a largura de banda do vídeo para certos usuários (como os usuários de uma filial que têm menos capacidade de rede) e ajudam a garantir a melhor qualidade de vídeo possível para outros usuários (como executivos).
 
 A tabela a seguir fornece uma lista de configurações recomendadas para configurar o vídeo para diferentes capacidades de rede. Essas configurações impedirão que alguns cenários do usuário enviem e recebam vídeos com resolução mais alta (veja a coluna mais à direita). A configuração mínima fará com que o vídeo da Galeria fique indisponível, devido ao máximo de recebimento máximo de largura de banda de rede.
 
@@ -63,8 +65,8 @@ A tabela a seguir fornece uma lista de configurações recomendadas para configu
 <tbody>
 <tr class="odd">
 <td><p>Melhor</p></td>
-<td><p>True</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro</p></td>
+<td><p>Verdadeiro</p></td>
 <td><p>8000</p></td>
 <td><p>8000</p></td>
 <td><p>Ponto a ponto: até 1920 x 1080 resolução de vídeo</p>
@@ -72,8 +74,8 @@ A tabela a seguir fornece uma lista de configurações recomendadas para configu
 </tr>
 <tr class="even">
 <td><p>Corretamente</p></td>
-<td><p>True</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro</p></td>
+<td><p>Verdadeiro</p></td>
 <td><p>2500</p></td>
 <td><p>2500</p></td>
 <td><p>Ponto a ponto: até 1280 x 720 resolução de vídeo</p>
@@ -81,8 +83,8 @@ A tabela a seguir fornece uma lista de configurações recomendadas para configu
 </tr>
 <tr class="odd">
 <td><p>Média</p></td>
-<td><p>True</p></td>
-<td><p>True</p></td>
+<td><p>Verdadeiro</p></td>
+<td><p>Verdadeiro</p></td>
 <td><p>1000</p></td>
 <td><p>1000</p></td>
 <td><p>Ponto a ponto: até 960 x 540 resolução de vídeo</p>
@@ -90,8 +92,8 @@ A tabela a seguir fornece uma lista de configurações recomendadas para configu
 </tr>
 <tr class="even">
 <td><p>Nível</p></td>
-<td><p>True</p></td>
-<td><p>False</p></td>
+<td><p>Verdadeiro</p></td>
+<td><p>Falso</p></td>
 <td><p>350</p></td>
 <td><p>350</p></td>
 <td><p>Ponto a ponto: até 424 x 240 resolução de vídeo</p>

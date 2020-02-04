@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Definir um Servidor ou Aparelho de Filial Persistente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define a Survivable Branch Appliance or Server
 ms:assetid: 1f49cfbe-30b3-4600-af15-47cb2f58d18a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398280(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183583
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dadaa26f6a951995906ed29ffd0615da16066928
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: df5577ff0211afd005feb8fea4788598a03d536e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829719"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728501"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ Execute este procedimento no site central se você não definiu o aplicativo ou 
 
 1.  Clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Construtor de topologias do Lync Server**.
 
-2.  Na árvore de console, expanda o site central, expanda **sites**de ramificação e, em seguida, expanda o nome do site de ramificação no qual você planeja implantar o aparelho de ramificação sobreviventes ou o servidor de ramificação sobreviventes.
+2.  Na árvore de console, expanda o site central, expanda **sites de ramificação**e, em seguida, expanda o nome do site de ramificação no qual você planeja implantar o aparelho de ramificação sobreviventes ou o servidor de ramificação sobreviventes.
 
 3.  Clique com o botão direito do mouse em **aparelhos de ramificação sobreviventes**e clique em **novo aplicativo de ramificação sobreviventes**.
     

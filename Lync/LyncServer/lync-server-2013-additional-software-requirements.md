@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requisitos adicionais de software'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Additional software requirements
 ms:assetid: 87b318e3-03ae-41f7-af5e-29bb294f6af0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398686(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184731
 ms.date: 12/09/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e21a375fecbd109e108806dc816a9fa3fce81a2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fc650b4c427640398af1748e86c7bca9d76c703d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836921"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738002"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,7 +61,7 @@ Esta seção lista o software necessário em todas as funções de servidor inte
 
 ## <a name="windows-powershell-30"></a>Windows PowerShell 3.0
 
-Cada servidor executando o Lync Server 2013 deve ter a versão correta do Windows PowerShell 3,0 instalada. Para obter detalhes, consulte Instalando o [Windows PowerShell 3,0 para Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md).
+Cada servidor executando o Lync Server 2013 deve ter a versão correta do Windows PowerShell 3,0 instalada. Para obter detalhes, consulte [instalando o Windows PowerShell 3,0 para Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md).
 
 </div>
 
@@ -235,7 +237,7 @@ Para obter informações sobre como habilitar o MSMQ, [clique aqui.](https://tec
 
 Os servidores de borda exigem o seguinte software:
 
-  - Cada servidor executando o Lync Server 2013 deve ter a versão correta do Windows PowerShell 3,0 instalada. Para obter detalhes, consulte Instalando o [Windows PowerShell 3,0 para Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md).
+  - Cada servidor executando o Lync Server 2013 deve ter a versão correta do Windows PowerShell 3,0 instalada. Para obter detalhes, consulte [instalando o Windows PowerShell 3,0 para Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md).
 
   - O Lync Server requer o Microsoft .NET Framework 4,5. Para o Lync Server 2013 instalado no Windows Server 2008 R2, você deve instalar manualmente a edição de 64 bits do Microsoft .NET Framework 4,5 no servidor antes de instalar o Lync Server 2013. Para instalá-lo manualmente, baixe a estrutura do Microsoft .NET 4,5 a partir do centro de download da Microsoft em[https://go.microsoft.com/fwlink/p/?LinkId=268529](https://go.microsoft.com/fwlink/p/?linkid=268529)
 
