@@ -3,6 +3,8 @@ title: Fazer a transição de um servidor de mediação posicionado para um serv
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Transition a collocated Mediation Server to a stand-alone Mediation Server (optional)
 ms:assetid: 7c3c2fb4-4ff2-47b1-aab3-0aa91472eadb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205026(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c49b75845bb9a673872c5f08225dd6e1c96b69a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2c6a76bceb935900521859911ce5398ae2213e22
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844134"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738661"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,11 +45,11 @@ Use o procedimento a seguir para fazer a transição do servidor de mediação, 
 
 1.  Abra uma topologia existente do construtor de topologias.
 
-2.  No painel esquerdo, navegue até pools de **mediação**.
+2.  No painel esquerdo, navegue até **pools de mediação**.
 
-3.  Clique com o **** botão direito em pools de mediação e selecione **novo servidor**de mediação.
+3.  Clique com o botão direito em **pools de mediação** e selecione **novo servidor de mediação**.
 
-4.  Na página **definir novo pool** de mediação, forneça o FQDN do novo pool do servidor de mediação. Além disso, selecione se este pool será um pool de servidor único ou de vários servidores e clique em **Avançar**.
+4.  Na página **definir novo pool de mediação** , forneça o FQDN do novo pool do servidor de mediação. Além disso, selecione se este pool será um pool de servidor único ou de vários servidores e clique em **Avançar**.
 
 5.  Selecione o pool do servidor front-end de salto seguinte para o qual o novo servidor de mediação roteará chamadas de entrada e clique em **Avançar**.
 
@@ -55,9 +57,9 @@ Use o procedimento a seguir para fazer a transição do servidor de mediação, 
 
 7.  Na página **especificar gateways PSTN** , associe o gateway PSTN anterior ao servidor de mediação. Selecione o gateway e clique em **Adicionar**.
 
-8.  Clique em **concluir** para fechar o assistente para **definir novo pool** de mediação.
+8.  Clique em **concluir** para fechar o assistente para **definir novo pool de mediação** .
 
-9.  No **Construtor**de topologias, selecione o nó superior do **Lync Server 2013**.
+9.  No **Construtor de topologias**, selecione o nó superior do **Lync Server 2013**.
 
 10. No painel **ações** , selecione **publicar topologia** e conclua o assistente.
 
@@ -67,9 +69,9 @@ Use o procedimento a seguir para fazer a transição do servidor de mediação, 
 
 13. Clique com o botão direito do mouse no pool e selecione **Editar propriedades**.
 
-14. Em **servidor**de mediação, desmarque a caixa de seleção posicionada no **servidor** de mediação posicionado e clique em **OK**.
+14. Em **servidor de mediação**, desmarque a caixa de seleção **posicionada no servidor de mediação posicionado** e clique em **OK**.
 
-15. No **Construtor**de topologias, selecione o nó superior do **Lync Server 2013**.
+15. No **Construtor de topologias**, selecione o nó superior do **Lync Server 2013**.
 
 16. No menu **ação** , selecione **publicar topologia** e conclua o assistente.
 

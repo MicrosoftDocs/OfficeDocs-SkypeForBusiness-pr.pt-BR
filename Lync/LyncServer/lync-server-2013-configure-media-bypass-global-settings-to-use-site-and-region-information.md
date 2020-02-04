@@ -3,6 +3,8 @@ title: Definir as configurações globais de bypass de mídia para usar informa�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure media bypass global settings to use site and region information
 ms:assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398150(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183360
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd070e6380a896548b851ac7d3472cd86eeba75b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ac820c444f894aabf060c06d6f034f7d92b696c2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836359"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757745"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ _**Tópico da última modificação:** 2012-09-21_
 
 
 > [!NOTE]
-> Este tópico pressupõe que você já configurou a bypass de mídia para todas as conexões de tronco do servidor de mediação para um par (um gateway PSTN (rede telefônica pública comutada), um PBX IP ou um controlador de borda de sessão (SBC) em um serviço de telefonia pela Internet Provedor (ITSP) para um site ou serviço específico para o qual você deseja que a mídia ignore o servidor de mediação.<BR>Este tópico também pressupõe que você definiu todos os sites centrais e sites de ramificação no construtor de topologias de uma maneira que corresponde à região de rede, ao site de rede e à configuração de sub-rede que você executou de acordo com as etapas em <A href="lync-server-2013-create-or-modify-a-network-region.md">criar ou modificar uma região de rede no Lync Server 2013</A>, <A href="lync-server-2013-create-or-modify-a-network-site.md">criar ou modificar um site de rede no lync Server 2013</A>e <A href="lync-server-2013-associate-a-subnet-with-a-network-site.md">associar uma sub-rede a um site de rede no Lync Server 2013</A>. Se eles não corresponderem, o bypass do Media não será bem-sucedido.
+> Este tópico pressupõe que você já configurou a bypass de mídia para todas as conexões de tronco do servidor de mediação para um par (um gateway PSTN (rede telefônica pública comutada), um PBX IP ou um controlador de borda de sessão (SBC) em um serviço de telefonia pela Internet Provedor (ITSP) para um site ou serviço específico para o qual você deseja que a mídia ignore o servidor de mediação.<BR>Este tópico também pressupõe que você definiu todos os sites centrais e sites de ramificação no construtor de topologias de uma maneira que corresponda à região de rede, ao site de rede e à configuração de sub-rede que você executou de acordo com as etapas em <A href="lync-server-2013-create-or-modify-a-network-region.md">criar ou modificar uma rede no Lync server 2013</A>, <A href="lync-server-2013-create-or-modify-a-network-site.md">criar ou modificar um site de rede no Lync 2013 2013 Server</A> <A href="lync-server-2013-associate-a-subnet-with-a-network-site.md"></A> Se eles não corresponderem, o bypass do Media não será bem-sucedido.
 
 
 

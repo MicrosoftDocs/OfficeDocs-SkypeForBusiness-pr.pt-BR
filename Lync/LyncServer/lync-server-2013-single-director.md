@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Diretor único'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Single Director
 ms:assetid: 2a4821aa-f15f-49b8-beec-0b08676497e7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204763(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183705
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8cccf404e451a740966e3d469659c0cb09005f2b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e6060048101bba9d4095adf08c176e8c2a944a19
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844958"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731991"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Tópico da última modificação:** 2012-10-22_
 
 O diretor pode ser implantado em uma única configuração de diretor ou como um pool de directors. Esta seção define uma topologia e uma configuração para um único diretor. Se você estiver planejando a implantação de um pool de diretores para fins de manipulação de maior capacidade e para alta disponibilidade, consulte o tópico [pool de diretor de dimensionamento no Lync Server 2013](lync-server-2013-scaled-director-pool.md) para obter considerações de planejamento para essa topologia.
 
-![092967f2-3ad8-419B-9a7f-9714f4ebf8a3] (images/JJ204763.092967f2-3ad8-419b-9a7f-9714f4ebf8a3(OCS.15).jpg "092967f2-3ad8-419B-9a7f-9714f4ebf8a3")
+![092967f2-3ad8-419b-9a7f-9714f4ebf8a3](images/JJ204763.092967f2-3ad8-419b-9a7f-9714f4ebf8a3(OCS.15).jpg "092967f2-3ad8-419b-9a7f-9714f4ebf8a3")
 
 <div>
 

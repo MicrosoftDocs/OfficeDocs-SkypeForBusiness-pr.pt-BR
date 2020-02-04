@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planejamento de resiliência de voz do site central'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for central site voice resiliency
 ms:assetid: 52dd0c3e-cd3c-44cf-bef5-8c49ff5e4c7a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398347(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184164
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13195c50e88c035b0775d2958cf62cf71f7924c1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fbeda869c078e6adfce18088545428170b356980
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825139"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41754351"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -84,7 +86,7 @@ A figura a seguir mostra a topologia recomendada para garantir a resiliência do
 
 **Topologia recomendada para resiliência de voz do site central**
 
-![Topologia para resliency de voz do site central] (images/Gg398347.19ea3e74-8a5c-488c-a34e-fc180ab9a50a(OCS.15).jpg "Topologia para resliency de voz do site central")
+![Topologia para resliency de voz do site central](images/Gg398347.19ea3e74-8a5c-488c-a34e-fc180ab9a50a(OCS.15).jpg "Topologia para resliency de voz do site central")
 
 </div>
 
@@ -106,7 +108,7 @@ Os seguintes requisitos e recomendações para a implementação da resiliência
 
   - O pool de Registradores Avançados primário deve ser configurado de modo que seja feito o seu failover para o pool de Registradores Avançados de backup. Por padrão, o Registrador primário é definido para que esse failover ocorra após um intervalo de 300 segundos. Você pode alterar esse intervalo usando o construtor de topologias do Lync Server 2013.
 
-  - Configure uma rota de failover, conforme descrito no tópico "Configurando[uma rota de failover no Lync Server 2013](lync-server-2013-configuring-a-failover-route.md)" na documentação de planejamento. Ao configurar a rota, especifique um gateway que está localizado em um site diferente do gateway especificado na rota primária.
+  - Configure uma rota de failover, conforme descrito no tópico "[Configurando uma rota de failover no Lync Server 2013](lync-server-2013-configuring-a-failover-route.md)" na documentação de planejamento. Ao configurar a rota, especifique um gateway que está localizado em um site diferente do gateway especificado na rota primária.
 
   - Se o site central contiver o servidor de gerenciamento principal, e seja provável que esse site fique inoperante por um longo período, você precisará reinstalar suas ferramentas de gerenciamento no site de backup; caso contrário, você não poderá alterar nenhuma das configurações de gerenciamento.
 

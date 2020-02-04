@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar certificados do Diretor'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure certificates for the Director
 ms:assetid: 22988186-15ae-43b1-92f4-0adb3b75a7fd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398296(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0d2da30923231087e706e2a969fdba2884361f6e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fccab201ee9ab16b0195bc2780c37ab85f0519e9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836415"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739381"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -71,7 +73,7 @@ Use o procedimento a seguir para configurar certificados de director. Repita o p
 
 9.  Na página **informações da organização** , especifique opcionalmente as informações da organização e clique em **Avançar**.
 
-10. Na página **informações** geográficas, opcionalmente, especifique informações geográficas e clique em **Avançar**.
+10. Na página **informações geográficas** , opcionalmente, especifique informações geográficas e clique em **Avançar**.
 
 11. Na página **nome do assunto/nomes alternativos de assunto** , clique em **Avançar**.
     
@@ -84,7 +86,7 @@ Use o procedimento a seguir para configurar certificados de director. Repita o p
     
     </div>
 
-12. Na **configuração de domínio SIP na página de nomes alternativos de entidades (SANs)** , selecione os **domínios SIP** configurados para todos os domínios que você deseja que o diretor manipule e clique em **Avançar**.
+12. Na **configuração de domínio SIP na página de nomes alternativos de entidades (SANs)** , selecione os **domínios SIP configurados** para todos os domínios que você deseja que o diretor manipule e clique em **Avançar**.
 
 13. Na página **configurar nomes alternativos de entidades adicionais** , adicione os nomes alternativos de entidades adicionais necessários e clique em **Avançar**.
 

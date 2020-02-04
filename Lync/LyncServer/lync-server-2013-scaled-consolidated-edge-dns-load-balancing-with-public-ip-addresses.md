@@ -3,6 +3,8 @@ title: Borda consolidada em escala, balanceamento de carga de DNS com endereços
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scaled consolidated edge, DNS load balancing with public IP addresses
 ms:assetid: 2b854f6d-3d3f-4961-a5f8-a03f47740df0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204761(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183698
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7145ae98a57523293d9d7d0d872c81a5e33e847
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 11da1e2b514c200ec82f1c6cb07c5c5b6cc79857
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822255"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764999"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Tópico da última modificação:** 2012-09-08_
 
 Na topologia de pool do servidor de borda, dois ou mais servidores Edge são implantados como um pool de balanceamento de carga na rede de perímetro do Data Center. O balanceamento de carga de DNS (sistema de nomes de domínio) é usado para tráfego para as interfaces de borda externa e externa.
 
-Se a sua organização requer suporte para mais de 15.000 conexões de cliente de serviço de borda de acesso, 1.000 conexões de cliente de serviço de Webconferência ativas do Lync Server, 500 ou as sessões de borda A/V simultâneas, e/ou alta disponibilidade do servidor de borda é importante , essa topologia oferece as vantagens de escalabilidade e suporte de failover.
+Se a sua organização requer suporte para mais de 15.000 conexões de cliente de serviço de borda de acesso, 1.000 conexões de cliente de serviço de Webconferência ativas do Lync Server, 500 ou as sessões de borda A/V simultâneas, e/ou alta disponibilidade do servidor de borda é importante, essa topologia oferece as vantagens de escalabilidade e suporte de failover.
 
 A figura não mostra diretores, uma função de servidor opcional implantada na rede interna entre os servidores de borda e seus pools ou servidores de front-end. Para obter detalhes sobre a topologia para diretores, consulte [os componentes necessários para o diretor no Lync Server 2013](lync-server-2013-components-required-for-the-director.md). A figura representa um único proxy reverso.
 
@@ -67,7 +69,7 @@ Há tecnologias de conversão de endereços de rede (NAT) para IPv6 que permitir
 
 </div>
 
-![7c1e3e6b-9b1b-4ac6-B0E7-9c256dbc2537] (images/JJ204761.7c1e3e6b-9b1b-4ac6-b0e7-9c256dbc2537(OCS.15).jpg "7c1e3e6b-9b1b-4ac6-B0E7-9c256dbc2537")
+![7c1e3e6b-9b1b-4ac6-b0e7-9c256dbc2537](images/JJ204761.7c1e3e6b-9b1b-4ac6-b0e7-9c256dbc2537(OCS.15).jpg "7c1e3e6b-9b1b-4ac6-b0e7-9c256dbc2537")
 
 <div>
 

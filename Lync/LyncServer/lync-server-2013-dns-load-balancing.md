@@ -3,6 +3,8 @@ title: 'Lync Server 2013: balanceamento de carga de DNS'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS load balancing
 ms:assetid: 7ed0ed20-33ad-4253-926d-21d392590ae7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398634(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184625
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4248815c2e896c6c4ce36d22fd6544c298527766
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 30d3b88ac66ad7dc6dd3216d941f4a99fc2feedd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829386"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739181"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -75,7 +77,7 @@ Implantar o balanceamento de carga de DNS nos pools front-end e nos pools de dir
 
   - Um pool que usa o balanceamento de carga de DNS deve ter dois FQDNs: o FQDN do pool regular que é usado pelo balanceamento de carga de DNS (como pool01.contoso.com) e é resolvido para o IPs físicos dos servidores no pool e outro FQDN para os serviços Web do pool (como web01.contoso.com), que é resolvido para o endereço IP virtual do pool.
     
-    Em Construtor de topologia, se você quiser implantar o balanceamento de carga de DNS para um pool, para criar esse FQDN adicional para os serviços Web do pool, você deve selecionar a caixa de seleção **substituir o FQDN do pool de serviços Web internos** e digitar o FQDN em **especificar as URLs de serviços Web para Esta** página de pool.
+    Em Construtor de topologia, se você quiser implantar o balanceamento de carga de DNS para um pool, para criar esse FQDN adicional para os serviços Web do pool, você deve selecionar a caixa de seleção **substituir FQDN do pool de serviços Web internos** e digitar o FQDN na página **especificar as URLs de serviços Web para este pool** .
 
   - Para dar suporte ao FQDN usado pelo balanceamento de carga de DNS, você deve provisionar o DNS para resolver o FQDN do pool (como pool01.contoso.com) para os endereços IP de todos os servidores do pool (por exemplo, 192.168.1.1, 192.168.1.2 e assim por diante). Você deve incluir somente os endereços IP dos servidores que estão implantados no momento.
     

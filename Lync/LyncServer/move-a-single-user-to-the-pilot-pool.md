@@ -3,6 +3,8 @@ title: Mover um único usuário para o pool piloto
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Move a single user to the pilot pool
 ms:assetid: e9de81a8-40dd-4446-81e7-a2b810eaea50
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205401(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185905
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e9ee58a49afaa9c1e57689b6a3a87fac1a6a4502
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c14c4a772ced3939d979bd8d4cd053207b0c5613
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844233"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765299"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ Você pode mover um usuário do pool do Lync Server 2010 para o pool piloto do L
 
 **Lista de usuários no painel de controle do Lync Server 2013**
 
-![Painel de controle do Lync Server, caixa de diálogo mover usuário] (images/JJ721870.a2bce284-0392-4db3-9bb2-9f12699738e7(OCS.15).jpg "Painel de controle do Lync Server, caixa de diálogo mover usuário")
+![Painel de controle do Lync Server, caixa de diálogo mover usuário](images/JJ721870.a2bce284-0392-4db3-9bb2-9f12699738e7(OCS.15).jpg "Painel de controle do Lync Server, caixa de diálogo mover usuário")
 
 1.  Faça logon no Servidor Front-end com uma conta que seja membro do grupo de RTCUniversalServerAdmins ou membro da função administrativa do CsAdministrator ou CsUserAdministrator.
 
@@ -59,9 +61,9 @@ Você pode mover um usuário do pool do Lync Server 2010 para o pool piloto do L
 
 7.  Clique em **Ação** e em **Mover usuários selecionados para o pool**. Clique em **OK**.
     
-    ![Caixa de diálogo mover usuários, pool de registradores de destino] (images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "Caixa de diálogo mover usuários, pool de registradores de destino")  
+    ![Caixa de diálogo mover usuários, pool de registradores de destino](images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "Caixa de diálogo mover usuários, pool de registradores de destino")  
 
-8.  Verifique se a coluna do **pool** de registradores do usuário agora contém o pool do Lync Server 2013, que indica que o usuário foi movido com êxito.
+8.  Verifique se a coluna do **pool de registradores** do usuário agora contém o pool do Lync Server 2013, que indica que o usuário foi movido com êxito.
 
 </div>
 
@@ -81,7 +83,7 @@ Você pode mover um usuário do pool do Lync Server 2010 para o pool piloto do L
 
 4.  A identidade **RegistrarPool** agora aponta para o pool do Lync Server 2013. A presença dessa identidade confirma que o usuário foi movido com êxito.
     
-    ![Saída do cmdlet Get-CsUser com filtro de identidade] (images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Saída do cmdlet Get-CsUser com filtro de identidade")  
+    ![Saída do cmdlet Get-CsUser com filtro de identidade](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Saída do cmdlet Get-CsUser com filtro de identidade")  
     
     <div>
     

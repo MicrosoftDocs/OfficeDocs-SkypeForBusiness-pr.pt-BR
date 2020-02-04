@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar certificados para servidores'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure certificates for servers
 ms:assetid: e12e59b5-a146-4859-86ec-cabfc198c7b5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398995(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185531
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21a0e239074b4f6d4638214fad41ff8ba18078fc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 303724fa705fa94e9bbacacb4764bba7b918c460
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836427"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739371"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,7 +67,7 @@ Use o procedimento a seguir para solicitar, atribuir e instalar os certificados 
 
 
 > [!IMPORTANT]  
-> O procedimento a seguir descreve como configurar certificados de uma PKI corporativa interna implantada pela sua organização e com o processamento de solicitações offline. Para obter informações sobre como obter certificados de uma autoridade de certificação pública, consulte <A href="lync-server-2013-certificate-requirements-for-internal-servers.md">requisitos de certificado para servidores internos no Lync Server 2013</A> na documentação de planejamento. Além disso, esse procedimento descreve como solicitar, atribuir e instalar certificados durante a configuração do servidor front-end. Se você solicitou certificados antecipadamente, conforme descrito na seção <A href="lync-server-2013-request-certificates-in-advance-optional.md">solicitar certificados na seção Avançado (opcional) do Lync Server 2013</A> desta documentação de implantação ou não usar uma PKI corporativa interna implantada em sua organização para obter certificados, você deve modificar esse procedimento conforme apropriado.
+> O procedimento a seguir descreve como configurar certificados de uma PKI corporativa interna implantada pela sua organização e com o processamento de solicitações offline. Para obter informações sobre como obter certificados de uma autoridade de certificação pública, consulte <A href="lync-server-2013-certificate-requirements-for-internal-servers.md">requisitos de certificado para servidores internos no Lync Server 2013</A> na documentação de planejamento. Além disso, esse procedimento descreve como solicitar, atribuir e instalar certificados durante a configuração do servidor front-end. Se você solicitou certificados antecipadamente, conforme descrito na seção <A href="lync-server-2013-request-certificates-in-advance-optional.md">solicitar certificados na seção Avançado (opcional) do Lync Server 2013</A> desta documentação de implantação, ou se não usar uma PKI corporativa interna implantada em sua organização para obter certificados, você deve modificar esse procedimento conforme apropriado.
 
 
 
@@ -98,7 +100,7 @@ Use o procedimento a seguir para solicitar, atribuir e instalar os certificados 
     
     </div>
 
-8.  Na página **configurações de nome e segurança** , especifique um **nome amigável** que deve permitir a identificação do certificado e da finalidade. Se você deixá-lo em branco, um nome será gerado automaticamente. Defina o **comprimento do bit** da chave ou aceite o padrão de 2048 bits. Selecione a **chave privada do certificado como** exportável se você determinar que o certificado e a chave privada precisam ser movidos ou copiados para outros sistemas e clique em **Avançar**.
+8.  Na página **configurações de nome e segurança** , especifique um **nome amigável** que deve permitir a identificação do certificado e da finalidade. Se você deixá-lo em branco, um nome será gerado automaticamente. Defina o **comprimento do bit** da chave ou aceite o padrão de 2048 bits. Selecione a **chave privada do certificado como exportável** se você determinar que o certificado e a chave privada precisam ser movidos ou copiados para outros sistemas e clique em **Avançar**.
     
     <div>
     

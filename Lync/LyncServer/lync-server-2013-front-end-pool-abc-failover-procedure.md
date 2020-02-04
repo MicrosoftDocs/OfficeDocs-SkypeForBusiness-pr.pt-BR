@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Procedimento de failover ABC do pool Front-End'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Front End pool ABC failover procedure
 ms:assetid: 67763ad3-6796-45eb-a486-901f21ac1a95
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945635(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541486
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87b6cb610d153374f6f4c9ba8a3c2798c50b88ad
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: edf3d12aa519ab7746ccec92998995ed463aa9be
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829149"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739771"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -308,7 +310,7 @@ Para executar os cmdlets, abra um shell de gerenciamento do Lync Server usando e
 
 28. No construtor de topologia, para cada SBA X associado ao pool A, faça o seguinte:
     
-      - Altere a associação para o pool C. Para fazer isso, clique no site da ramificação, expanda o nó utensílios ou servidores da ramificação sobreviventes e clique em ramificação da **ramificação sobreviventes**. Em seguida, selecione o **pool de front-end, o pool de serviços do usuário** para o qual este aparelho de ramificação sobreviventes será conectado como pool C e clique em **Avançar**.
+      - Altere a associação para o pool C. Para fazer isso, clique no site da ramificação, expanda o nó utensílios ou servidores da ramificação sobreviventes e clique em **ramificação da ramificação sobreviventes**. Em seguida, selecione o **pool de front-end, o pool de serviços do usuário** para o qual este aparelho de ramificação sobreviventes será conectado como pool C e clique em **Avançar**.
     
       - Publique a topologia. Para fazer isso, na árvore de console, clique com o botão direito do mouse no novo **aplicativo de ramificação sobreviventes**, clique em **topologia**e, em seguida, clique em **publicar**.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: planejamento de capacidade para servidor de chat persi
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Capacity planning for Persistent Chat Server
 ms:assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615006(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184580
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7af60947a1132d26d5e8ba015d54cdbea80b8b54
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dde4bcb499e38e729850f06bb08590bf537696e5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836704"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737021"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ O planejamento de capacidade é uma parte importante da preparação para a impl
 
 Para baixar o servidor de chat persistente, consulte "servidor de chat persistente do Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=209539](http://go.microsoft.com/fwlink/p/?linkid=209539)Server 13" em.
 
-Para obter detalhes sobre como instalar o servidor de chat persistente, consulte Instalando o [servidor de chat persistente no Lync Server 2013](lync-server-2013-installing-persistent-chat-server.md) e Configurando o [servidor de chat persistente no Lync Server 2013](lync-server-2013-configuring-persistent-chat-server.md) na documentação de implantação.
+Para obter detalhes sobre como instalar o servidor de chat persistente, consulte [instalando o servidor de chat persistente no Lync Server 2013](lync-server-2013-installing-persistent-chat-server.md) e [Configurando o servidor de chat persistente no Lync Server 2013](lync-server-2013-configuring-persistent-chat-server.md) na documentação de implantação.
 
 Ferramentas de suporte, como o Lync Server Planning Tool, podem ajudá-lo ainda mais no planejamento da capacidade. Para obter detalhes sobre a ferramenta de planejamento, consulte [iniciando o processo de planejamento do Lync Server 2013](lync-server-2013-beginning-the-planning-process.md) na documentação de planejamento.
 
@@ -57,7 +59,7 @@ Agora também é compatível com o servidor de chat persistente no servidor Stan
 
 
 > [!NOTE]  
-> Para obter detalhes adicionais sobre ambas as topologias, consulte <A href="lync-server-2013-planning-for-persistent-chat-server.md">planejando o servidor de chat persistente no Lync server 2013</A> neste conjunto de documentação e implantando o <A href="lync-server-2013-deploying-persistent-chat-server.md">servidor de chat persistente no Lync Server 2013</A> na documentação de implantação.
+> Para obter detalhes adicionais sobre ambas as topologias, consulte <A href="lync-server-2013-planning-for-persistent-chat-server.md">planejando o servidor de chat persistente no Lync server 2013</A> neste conjunto de documentação e <A href="lync-server-2013-deploying-persistent-chat-server.md">implantando o servidor de chat persistente no Lync Server 2013</A> na documentação de implantação.
 
 
 
@@ -82,7 +84,7 @@ A figura a seguir mostra todos os componentes obrigatórios e opcionais de uma t
 
 **Único servidor de chat persistente**
 
-![Topologia de servidor único com serviço de conformidade] (images/Gg398500.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "Topologia de servidor único com serviço de conformidade")
+![Topologia de servidor único com serviço de conformidade](images/Gg398500.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "Topologia de servidor único com serviço de conformidade")
 
 </div>
 
@@ -96,7 +98,7 @@ A figura a seguir mostra todos os componentes de uma topologia de vários servid
 
 **Vários servidores de chat persistentes**
 
-![Topologia de vários servidores] (images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "Topologia de vários servidores")
+![Topologia de vários servidores](images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "Topologia de vários servidores")
 
 Em uma implantação de servidor de chat persistente de quatro servidores, em que os usuários do 80.000 podem ser conectados simultaneamente e usar chats persistentes, a carga é distribuída uniformemente em 20.000 usuários por servidor. Se um servidor ficar indisponível, os usuários que estiverem conectados a esse servidor perderão o acesso ao servidor de chat persistente. Os usuários desconectados serão automaticamente transferidos para os servidores remanescentes até que o servidor indisponível seja restaurado. Dependendo da quantidade de tráfego de chat persistente na rede, esta transferência pode demorar alguns minutos ou mais. Como cada um dos servidores restantes pode estar hospedando tantos quanto os usuários do 30.000, recomendamos que você restaure o servidor indisponível o mais rápido possível para evitar problemas de desempenho. Caso contrário, você pode disponibilizar outro servidor de chat persistente usando o construtor de topologias ou o cmdlet do Windows PowerShell, **set-CsPersistentChatActiveServer**.
 
@@ -148,7 +150,7 @@ Use a seguinte tabela de exemplo para determinar o número de usuários que voc�
 </table>
 
 
-No exemplo anterior, o plano é compatível com o número máximo de usuários que o chat do servidor de chat persistente permite: quatro servidores/instâncias do serviço de chat persistente (pode ter quatro servidores passivos executando o chat persistente para alta disponibilidade e recuperação de desastres) e usuários do 20.000 por servidor, para um total de 80.000 usuários ativos.
+No exemplo anterior, o plano é compatível com o número máximo de usuários que o chat do servidor de chat persistente permite: quatro servidores/instâncias do serviço de chat persistente (pode ter quatro servidores passivos executando o servidor de chat persistente para alta disponibilidade e recuperação de desastres) e os usuários do 20.000 por servidor, para um total de 80.000 usuários ativos.
 
 </div>
 
