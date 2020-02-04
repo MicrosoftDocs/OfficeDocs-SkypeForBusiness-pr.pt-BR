@@ -13,16 +13,16 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ''
+f1.keywords: ''
 ms.custom:
 - Calling Plans
 description: Saiba como enviar manualmente uma solicitação de pedido de portabilidade.
-ms.openlocfilehash: 90864afc9923f6977dfcfc9376d1191b740f242a
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 6844865159da4df084bb8ecfb5d324b19fbfebb5
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925615"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708730"
 ---
 # <a name="manually-submit-a-port-order"></a>Enviar manualmente um pedido de portabilidade
 

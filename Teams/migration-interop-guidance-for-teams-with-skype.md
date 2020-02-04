@@ -10,19 +10,19 @@ ms.reviewer: bjwhalen
 description: Diretrizes para gerenciar a transição do Teams para o Skype for Business
 localization_priority: Normal
 search.appverid: MET150
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.helparticle.coexistence
 - ms.teamsadmincenter.teamsupgrade.overview
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87fc1401087292e8acd624e0917ead2b7998a2fd
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
-ms.translationtype: HT
+ms.openlocfilehash: 46094afb028f27da8889276aa42850837957f59a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573396"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708777"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Orientações de migração e interoperabilidade para organizações que usam o Teams em conjunto com o Skype for Business
 
@@ -43,7 +43,7 @@ Quando uma organização com o Skype for Business começa a adotar o Teams, os a
     - Os usuários que já usam o Skype for Business local usam a sua conta local já existente.
     - Os usuários para os quais não é possível detectar uma conta existente do Skype for Business terão uma conta do Skype for Business online provisionada automaticamente quando o usuário for criado no Teams.
 
-4.  Se você tiver uma implantação local do Skype for Business ou do Lync, e desejar que esses usuários sejam usuários do Teams, você deve, no mínimo, garantir que o Azure AD Connect esteja sincronizando o atributo msRTCSIP-DeploymentLocator no AAD, para que o Teams/Skype for Business online detectem corretamente seu ambiente local. Além disso, para migrar todos os usuários para o modo TeamsOnly (por exemplo, atualizar um usuário) *primeiro é necessário configurar o modo híbrido do Skype for Business*. Para obter mais detalhes, confira [Configurar o Azure AD Connect para Skype for Business e Teams](https://docs.microsoft.com/pt-BR/SkypeForBusiness/hybrid/configure-azure-ad-connect).
+4.  Se você tiver uma implantação local do Skype for Business ou do Lync, e desejar que esses usuários sejam usuários do Teams, você deve, no mínimo, garantir que o Azure AD Connect esteja sincronizando o atributo msRTCSIP-DeploymentLocator no AAD, para que o Teams/Skype for Business online detectem corretamente seu ambiente local. Além disso, para migrar todos os usuários para o modo TeamsOnly (por exemplo, atualizar um usuário) *primeiro é necessário configurar o modo híbrido do Skype for Business*. Para obter mais detalhes, confira [Configurar o Azure AD Connect para Skype for Business e Teams](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect).
 
 5.  A interoperabilidade entre o Teams e os usuários do Skype for Business só é possível *se o usuário do Teams estiver hospedado online no Skype for Business*. O usuário do Skype for Business pode ser hospedado ou no local (e requer a configuração de recursos híbridos do Skype for Business) ou online. Os usuários que estiverem hospedados no Skype for Business localmente poderão usar o Teams no modo Ilhas (definido mais adiante neste documento), mas não poderão usar o Teams para interoperabilidade ou federação com outros usuários que usam o Skype for Business.  
 
@@ -70,7 +70,7 @@ De uma perspectiva técnica, o modo do usuário determina vários aspectos da ex
 - *Agendamento de reunião*: qual serviço é usado para agendar novas reuniões e garantir que o suplemento correto estará presente no Outlook? Observe que TeamsUpgradePolicy não rege participação em reuniões. Os usuários sempre poderão *participar de* qualquer reunião, seja ela uma reunião do Skype for Business ou uma reunião do Teams.
 - *Experiência do cliente*: qual funcionalidade está disponível no Temas e/ou no cliente do Skype for Business? Os usuários podem iniciar chamadas e chats no Teams, Skype for Business ou ambos? A experiência de Equipes e Canais está disponível?  
 
-Para saber mais sobre o comportamento de roteamento e presença com base no modo, confira [Coexistência com o Skype for Business](https://docs.microsoft.com/pt-BR/MicrosoftTeams/coexistence-chat-calls-presence).
+Para saber mais sobre o comportamento de roteamento e presença com base no modo, confira [Coexistência com o Skype for Business](https://docs.microsoft.com/MicrosoftTeams/coexistence-chat-calls-presence).
 
 No entanto, da perspectiva da experiência, o modo pode ser simplesmente descrito como o modo de determinar a experiência para:
 - *Chat e Chamadas*: qual o cliente usado pelo usuário ?
@@ -149,10 +149,10 @@ TeamsUpgradePolicy determina o roteamento para chamadas e conversas federadas e 
 - Chats e chamadas iniciados a partir do Teams são recebidos no Teams se o destinatário estiver no *mesmo locatário*.
 - Chats e chamadas iniciados a partir do SfB sempre chegam no Skype for Business.
 
-Para obter mais detalhes, consulte [Coexistência com o Skype for Business](https://docs.microsoft.com/pt-BR/MicrosoftTeams/coexistence-chat-calls-presence).
+Para obter mais detalhes, consulte [Coexistência com o Skype for Business](https://docs.microsoft.com/MicrosoftTeams/coexistence-chat-calls-presence).
 
 ## <a name="the-teams-client-user-experience-when-using-sfb-modes"></a>A experiência do usuário do cliente do Teams ao usar os modos do SfB
-Quando um usuário encontra-se em qualquer um dos modos do Skype for Business (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings), todas as conversas e chamadas de entrada serão roteadas para o cliente do Skype for Business do usuário. Para evitar a confusão do usuário final e garantir o roteamento apropriado, a funcionalidade de chamada e de chat no cliente do Teams será desabilitada automaticamente quando um usuário estiver em qualquer modo do Skype for Business. Da mesma forma, o agendamento de reunião no Teams será desabilitado automaticamente quando os usuários estiverem nos modos SfBOnly ou SfBWithTeamsCollab e habilitados automaticamente quando um usuário estiver no modo de SfBWithTeamsCollabAndMeetings. Para mais detalhes, confira[Experiência e conformidade do cliente do Teams a modos de coexistência](https://docs.microsoft.com/pt-BR/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes).
+Quando um usuário encontra-se em qualquer um dos modos do Skype for Business (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings), todas as conversas e chamadas de entrada serão roteadas para o cliente do Skype for Business do usuário. Para evitar a confusão do usuário final e garantir o roteamento apropriado, a funcionalidade de chamada e de chat no cliente do Teams será desabilitada automaticamente quando um usuário estiver em qualquer modo do Skype for Business. Da mesma forma, o agendamento de reunião no Teams será desabilitado automaticamente quando os usuários estiverem nos modos SfBOnly ou SfBWithTeamsCollab e habilitados automaticamente quando um usuário estiver no modo de SfBWithTeamsCollabAndMeetings. Para mais detalhes, confira[Experiência e conformidade do cliente do Teams a modos de coexistência](https://docs.microsoft.com/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes).
 
 > [!Note] 
 > - Antes da receber a implementação automática do Equipes e Canais do Teams, os modos SfbOnly e SfBWithTeamsCollab se comportam da mesma maneira.
@@ -164,7 +164,7 @@ Quando um usuário encontra-se em qualquer um dos modos do Skype for Business (S
 
 |Modo|Explicação|
 |---|---|
-|**Ilhas**</br>(padrão)|Um usuário executa lado a lado tanto o Skype for Business quanto o Teams. Este usuário:</br><ul><li>Pode iniciar chats e chamadas VoIP no cliente do Skype for Business ou no do Teams. Observação: os usuários com o Skype for Business hospedado no local não podem iniciar do Teams para alcançar outro usuário do Skype for Business, independentemente do modo do destinatário.<li>Recebe chats & chamadas VoIP iniciadas no Skype for Business por outro usuário no cliente do seu Skype for Business.<li>Recebe chats & chamadas VoIP iniciadas no Teams por outro usuário no cliente do seu Teams se eles estiverem no *mesmo locatário*.<li>Recebe chats & chamadas VoIP iniciadas no Teams por outro usuário no cliente do seu Skype for Business se eles estiverem em um *locatário federado*. <li>Possui a funcionalidade PSTN, como indicado abaixo:<ul><li>Quando o usuário está hospedado no Skype for Business no local e o tem o Enterprise Voice, as chamadas de PSTN são sempre iniciadas e recebidas no Skype for Business.<li>Quando o usuário é hospedado no Skype for Business Online e tem o Sistema de Telefonia Microsoft, o usuário sempre inicia e recebe chamadas PSTN no Skype for Business:<ul><li>Isso acontece mesmo que o usuário tenha um Plano de Chamadas da Microsoft ou se conecte à rede PSTN por meio do Skype for Business Cloud Connector Edition ou de uma implantação local do Skype for Business Server (voz híbrida).<li>**Observação: o Roteamento Direto do Sistema de Telefonia da Microsoft não é compatível com o modo Ilhas.**</ul></ul><li>Recebe Filas de Chamadas da Microsoft e chamadas de Atendedor Automático no Skype for Business.<li>Pode agendar reuniões no Teams ou no Skype for Business (e verá os dois plug-ins por padrão).<li>Pode entrar em qualquer reunião do Skype for Business ou do Teams; a reunião será aberta no respectivo cliente.</ul>|
+|**Ilhas**</br>(padrão)|Um usuário executa lado a lado tanto o Skype for Business quanto o Teams. Este usuário:</br><ul><li>Pode iniciar chats e chamadas VoIP no cliente do Skype for Business ou no do Teams. Observação: os usuários com o Skype for Business hospedado no local não podem iniciar do Teams para alcançar outro usuário do Skype for Business, independentemente do modo do destinatário.<li>Recebe chats & chamadas VoIP iniciadas no Skype for Business por outro usuário no cliente do seu Skype for Business.<li>Recebe chats & chamadas VoIP iniciadas no Teams por outro usuário no cliente do seu Teams se eles estiverem no *mesmo locatário*.<li>Recebe chats & chamadas VoIP iniciadas no Teams por outro usuário no cliente do seu Skype for Business se eles estiverem em um *locatário federado*. <li>Possui a funcionalidade PSTN, como indicado abaixo:<ul><li>Quando o usuário está hospedado no Skype for Business no local e o tem o Enterprise Voice, as chamadas de PSTN são sempre iniciadas e recebidas no Skype for Business.<li>Quando o usuário é hospedado no Skype for Business Online e tem o Sistema de Telefonia Microsoft, o usuário sempre inicia e recebe chamadas PSTN no Skype for Business:<ul><li>Isso acontece mesmo que o usuário tenha um Plano de Chamadas da Microsoft ou se conecte à rede PSTN por meio do Skype for Business Cloud Connector Edition ou de uma implantação local do Skype for Business Server (voz híbrida).<li>**Observação: o Roteamento Direto do Sistema de Telefonia da Microsoft não é compatível com o modo Ilhas.**</ul></ul><li>Recebe as filas de chamadas da Microsoft e as chamadas de atendedor automático no Skype for Business:<ul><li>Os números de telefone atribuídos a filas de chamadas e atendedores automáticos **não podem** ser números de roteamento direto do Microsoft Teams Phone System no modo ilhas.</ul></ul><li>Pode agendar reuniões no Teams ou no Skype for Business (e verá os dois plug-ins por padrão).<li>Pode entrar em qualquer reunião do Skype for Business ou do Teams; a reunião será aberta no respectivo cliente.</ul>|
 |**SfBOnly**|Um usuário que executa apenas o Skype for Business. Este usuário:</br><ul><li>Pode iniciar chats e chamadas somente no Skype for Business.<li>Recebe todos os chat por chat ou chamadas no cliente do Skype for Business, independentemente de onde foi iniciado, a menos que o iniciador seja um usuário do Teams com Skype for Business hospedado no local.*<li>Só pode agendar reuniões do Skype for Business, mas pode entrar em reuniões do Skype for Business ou do Teams.</br>\** Usar o modo de Ilhas com usuários locais não é recomendável em combinação com outros usuários no modo SfBOnly. Se um usuário do Teams com o Skype for Business hospedado no local iniciar uma chamada ou um chat para um usuário SfBOnly, o usuário do SfBOnly não será alcançável e receberá um email de chat/chamada perdido. *|
 |**SfBWithTeamsCollab**|Um usuário executa lado a lado tanto o Skype for Business quanto o Teams. Este usuário:</br><ul><li>Tem a funcionalidade de um usuário no modo SfBOnly.<li>Possui o Teams ativado somente para colaboração em grupo (Canais); chat/chamadas/agendamento de reunião estão desabilitados.</ul>|
 |**SfBWithTeamsCollab</br>AndMeetings**|Um usuário executa lado a lado tanto o Skype for Business quanto o Teams. Este usuário:<ul><li>Tem a funcionalidade de chat e de chamada do usuário no modo SfBOnly.<li>Tem o Teams habilitado para colaboração em grupo (Canais, incluindo conversas de canal); o chat e as chamadas estão desabilitados.<li>Pode agendar reuniões apenas no Teams, mas pode participar de reuniões do Skype for Business ou do Teams.</ul>|
@@ -176,9 +176,9 @@ Quando um usuário encontra-se em qualquer um dos modos do Skype for Business (S
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Coexistência com o Skype for Business](https://docs.microsoft.com/pt-BR/MicrosoftTeams/coexistence-chat-calls-presence)
+[Coexistência com o Skype for Business](https://docs.microsoft.com/microsoftteams/coexistence-chat-calls-presence)
 
-[Experiência e conformidade do cliente do Teams a modos de coexistência](https://docs.microsoft.com/pt-BR/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes)
+[Experiência e conformidade do cliente do Teams a modos de coexistência](https://docs.microsoft.com/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes)
 
 [Get-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsupgradepolicy?view=skype-ps)
 
