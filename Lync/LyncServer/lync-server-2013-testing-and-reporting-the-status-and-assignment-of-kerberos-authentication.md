@@ -3,6 +3,8 @@ title: Testando e relatando status e atribuição de autenticação Kerberos
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing and reporting the status and assignment of Kerberos authentication
 ms:assetid: 86fc3407-1604-4230-ad04-99aaadcf4e07
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398683(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184716
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2c1a0506a31984b1c44ef3afcc481f522520619
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e4aeeff884decf5d94ba15eecd5f49c87baece99
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34844645"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745861"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34844645"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-and-reporting-the-status-and-assignment-of-kerberos-authentication-in-lync-server-2013"></a><span data-ttu-id="fa3ce-102">Testando e relatando status e atribuição de autenticação Kerberos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fa3ce-102">Testing and reporting the status and assignment of Kerberos authentication in Lync Server 2013</span></span>
+# <a name="testing-and-reporting-the-status-and-assignment-of-kerberos-authentication-in-lync-server-2013"></a><span data-ttu-id="f45db-102">Testando e relatando status e atribuição de autenticação Kerberos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f45db-102">Testing and reporting the status and assignment of Kerberos authentication in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,17 +35,17 @@ ms.locfileid: "34844645"
 
 <span> </span>
 
-<span data-ttu-id="fa3ce-103">_**Tópico da última modificação:** 2010-11-03_</span><span class="sxs-lookup"><span data-stu-id="fa3ce-103">_**Topic Last Modified:** 2010-11-03_</span></span>
+<span data-ttu-id="f45db-103">_**Tópico da última modificação:** 2010-11-03_</span><span class="sxs-lookup"><span data-stu-id="f45db-103">_**Topic Last Modified:** 2010-11-03_</span></span>
 
-<span data-ttu-id="fa3ce-104">Se você precisar testar as atribuições de Kerberos ou determinar o status da autenticação Kerberos, poderá usar cmdlets do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="fa3ce-104">If you need to test the Kerberos assignments or determine the status of Kerberos authentication, you can use Windows PowerShell cmdlets.</span></span>
+<span data-ttu-id="f45db-104">Se você precisar testar as atribuições de Kerberos ou determinar o status da autenticação Kerberos, poderá usar cmdlets do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="f45db-104">If you need to test the Kerberos assignments or determine the status of Kerberos authentication, you can use Windows PowerShell cmdlets.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="fa3ce-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="fa3ce-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="f45db-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="f45db-105">In This Section</span></span>
 
-  - [<span data-ttu-id="fa3ce-106">Testar e relatar prontidão funcional para autenticação Kerberos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fa3ce-106">Test and report functional readiness for Kerberos authentication in Lync Server 2013</span></span>](lync-server-2013-test-and-report-functional-readiness-for-kerberos-authentication.md)
+  - [<span data-ttu-id="f45db-106">Testar e relatar prontidão funcional para autenticação Kerberos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f45db-106">Test and report functional readiness for Kerberos authentication in Lync Server 2013</span></span>](lync-server-2013-test-and-report-functional-readiness-for-kerberos-authentication.md)
 
-  - [<span data-ttu-id="fa3ce-107">Relatar atribuições da conta Kerberos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fa3ce-107">Report Kerberos account assignments in Lync Server 2013</span></span>](lync-server-2013-report-kerberos-account-assignments.md)
+  - [<span data-ttu-id="f45db-107">Relatar atribuições da conta Kerberos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f45db-107">Report Kerberos account assignments in Lync Server 2013</span></span>](lync-server-2013-report-kerberos-account-assignments.md)
 
 </div>
 

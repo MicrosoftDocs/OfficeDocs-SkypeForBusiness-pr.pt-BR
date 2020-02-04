@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Esquema de banco de dados de gravação de detalhes de
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call detail recording (CDR) database schema
 ms:assetid: 754642cd-051a-47da-bb08-27800dae39d1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398570(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184527
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f434de445599104acad2ab80b64c1579e5172b12
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ccda99476c1d74c68aacda358a6759b02bc65a78
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34836705"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743161"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34836705"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-detail-recording-cdr-database-schema-in-lync-server-2013"></a><span data-ttu-id="592de-102">Esquema de banco de dados de gravação de detalhes de chamada (CDR) no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="592de-102">Call detail recording (CDR) database schema in Lync Server 2013</span></span>
+# <a name="call-detail-recording-cdr-database-schema-in-lync-server-2013"></a><span data-ttu-id="2d6b2-102">Esquema de banco de dados de gravação de detalhes de chamada (CDR) no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2d6b2-102">Call detail recording (CDR) database schema in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,19 +35,19 @@ ms.locfileid: "34836705"
 
 <span> </span>
 
-<span data-ttu-id="592de-103">_**Tópico da última modificação:** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="592de-103">_**Topic Last Modified:** 2012-10-17_</span></span>
+<span data-ttu-id="2d6b2-103">_**Tópico da última modificação:** 2012-10-17_</span><span class="sxs-lookup"><span data-stu-id="2d6b2-103">_**Topic Last Modified:** 2012-10-17_</span></span>
 
-<span data-ttu-id="592de-104">Isso documenta o esquema do banco de dados de registros de detalhes de chamadas (CDR) no Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="592de-104">This documents the schema of the call detail recording (CDR) database in Microsoft Lync Server 2013 .</span></span>
+<span data-ttu-id="2d6b2-104">Isso documenta o esquema do banco de dados de registros de detalhes de chamadas (CDR) no Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2d6b2-104">This documents the schema of the call detail recording (CDR) database in Microsoft Lync Server 2013 .</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="592de-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="592de-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="2d6b2-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="2d6b2-105">In This Section</span></span>
 
-  - [<span data-ttu-id="592de-106">Lista de tabelas do CDR no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="592de-106">List of CDR tables in Lync Server 2013</span></span>](lync-server-2013-list-of-cdr-tables.md)
+  - [<span data-ttu-id="2d6b2-106">Lista de tabelas do CDR no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2d6b2-106">List of CDR tables in Lync Server 2013</span></span>](lync-server-2013-list-of-cdr-tables.md)
 
-  - [<span data-ttu-id="592de-107">Detalhes da tabela CDR no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="592de-107">CDR table details in Lync Server 2013</span></span>](lync-server-2013-cdr-table-details.md)
+  - [<span data-ttu-id="2d6b2-107">Detalhes da tabela CDR no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2d6b2-107">CDR table details in Lync Server 2013</span></span>](lync-server-2013-cdr-table-details.md)
 
-  - [<span data-ttu-id="592de-108">Lista de modos de exibição CDR no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="592de-108">List of CDR views in Lync Server 2013</span></span>](lync-server-2013-list-of-cdr-views.md)
+  - [<span data-ttu-id="2d6b2-108">Lista de modos de exibição CDR no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2d6b2-108">List of CDR views in Lync Server 2013</span></span>](lync-server-2013-list-of-cdr-views.md)
 
 </div>
 
