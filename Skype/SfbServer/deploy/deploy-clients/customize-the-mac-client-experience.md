@@ -7,15 +7,17 @@ ms.reviewer: PhillipGarding
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: Este artigo descreve as preferências e os padrões do cliente disponíveis para o cliente do Skype for Business no Mac e como editá-los de fora do aplicativo.
-ms.openlocfilehash: 582c9a1b12cf6dd687eff5fe0cb829e1aca98df7
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 796ccdc7d876547e38482a853dc9f89c38bcf53d
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41002651"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768824"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Personalizar a experiência do cliente Mac no Skype for Business
  

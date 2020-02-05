@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Saiba como configurar um SBC (controlador de borda de sessão) para atender a vários locatários.
-ms.openlocfilehash: 5009f600af0d9632ed94b544e75f791d9ecead85
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: c58a6f264910e0d916d5d338598b58e132f2c413
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572130"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769824"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar um controlador de borda da sessão para vários locatários
 
@@ -57,7 +57,7 @@ Para ver as etapas detalhadas sobre como implantar e configurar o SBCs para um c
 
 - **AudioCodes:** [observações sobre a configuração de roteamento direto](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), a configuração do cenário de Hospedagem de SBC descrito em "conectando AudioCodes SBC para o Microsoft Teams Direct Routing Routing Model Configuration observação". 
 - **Oracle:** [notas de configuração de roteamento direto](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html), a configuração do cenário de Hospedagem de SBC é descrita na seção "Microsoft". 
-- **Comunicações da faixa** de opções:  Consulte o guia de [configuração do Microsoft Teams SBC da faixa de opções do Microsoft Teams](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) para obter a documentação sobre como configurar a faixa de opções da faixa de opções SBCS e para esta página de [práticas recomendadas-configurando as operadoras do Microsoft Teams Direct Margem](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
+- **Comunicações da faixa** de opções:  Consulte o guia de [configuração do Microsoft Teams SBC da faixa de opções do Microsoft Teams](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) para obter a documentação sobre como configurar a faixa de opções da faixa de opções SBCS e para esta página de [práticas recomendadas de roteamento direto do Microsoft Teams](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 - **SMS (anynode):**  Registre-se na [página da comunidade de SMS](https://community.te-systems.de/) para obter documentação e exemplos sobre como configurar o SBC anynode para vários locatários.
 
 > [!NOTE]
@@ -217,7 +217,7 @@ No entanto, isso não provou ideal por dois motivos:
 Com base nesses comentários, a Microsoft está trazendo uma nova lógica para provisionar os troncos para os locatários do cliente.
 
 Duas novas entidades foram introduzidas:
--   Um tronco de portadora registrado no locatário da operadora usando o comando New-CSOnlinePSTNGateway, por exemplo, New-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignallingport 5068-ForwardPAI $true.
+-   Um tronco de portadora registrado no locatário da operadora usando o comando New-CSOnlinePSTNGateway, por exemplo, New-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignalingport 5068-ForwardPAI $true.
 
 -   Um tronco derivado, que não exige registro. É simplesmente um nome de host desejado adicionado do tronco da transportadora. Ele deriva todos os parâmetros de configuração do tronco da transportadora. O tronco derivado não precisa ser criado no PowerShell, e a associação com o tronco da transportadora é baseada no nome FQDN (veja os detalhes abaixo).
 

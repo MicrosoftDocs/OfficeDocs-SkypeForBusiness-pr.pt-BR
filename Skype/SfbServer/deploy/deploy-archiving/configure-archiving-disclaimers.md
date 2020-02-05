@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
 description: 'Resumo: Leia este tópico para saber como configurar uma isenção de responsabilidade de arquivamento para o Skype for Business Server.'
-ms.openlocfilehash: d6c08b6fe2eaa6c74231b96346661488c3f8e2b0
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: a9ffece1cefbf58b5731ce37f209733454ed1eee
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001051"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769034"
 ---
 # <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>Configurar o arquivamento de avisos de isenção de responsabilidade para usuários externos no Skype for Business Server
  

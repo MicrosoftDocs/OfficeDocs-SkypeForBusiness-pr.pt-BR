@@ -12,16 +12,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-f1keywords: ms.teamsadmincenter.policypackages.overview
+f1.keywords: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar e gerenciar pacotes de política no Microsoft Teams.
-ms.openlocfilehash: 87fda86d1dbe09858c3850dc92ee5085666d8ba7
-ms.sourcegitcommit: 52d924e654909a2017ce42ba9d1b4bbc3efa9262
+ms.openlocfilehash: d73cd22cc0a98cd772ba3823fffa3649602010bc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "41205288"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41772750"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Gerenciar pacotes de política no Microsoft Teams
 
@@ -43,6 +43,9 @@ Atualmente, o Microsoft Teams inclui os seguintes pacotes de política.
 |Educação (professor)    |Cria um conjunto de políticas e configurações de política que se aplicam a professores.      |
 |Business Voice |Cria uma política de configuração de aplicativo que inclui os aplicativos para uma experiência de voz empresarial.|
 |Diretor de segurança pública   |Cria um conjunto de políticas e configurações de política que se aplicam a órgãos públicos de segurança em sua organização.|
+|Assistência médica (funcionário clínico)  |Cria um conjunto de políticas e configurações de política que dão a funcionários clínicos, como as mensagens de mão registradas, recarga de mão, médicos e funcionários sociais acesso total a chats, chamadas, gerenciamento de turnos e reuniões. |
+|Assistência médica (operador de informações)  |Cria um conjunto de políticas e configurações de política que fornecem aos operadores de informações, como pessoal de ti, pessoal de informática, pessoal de finanças e órgãos de conformidade, acesso total a chats, chamadas e reuniões.|
+
 
 > [!NOTE]
 > Vamos adicionar mais pacotes de política em lançamentos futuros do Teams, portanto verifique as informações mais atualizadas.  

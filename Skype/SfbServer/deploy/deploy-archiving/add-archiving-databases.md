@@ -5,17 +5,19 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: 'Resumo: Leia este tópico para aprender a adicionar bancos de dados de arquivamento à sua implantação do Skype for Business Server.'
-ms.openlocfilehash: b7d429206e003042922b9b9cae6de420fdf517bb
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 26cdd1befb695fbaf0656611ed65c7afa778af6c
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234372"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769044"
 ---
 # <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>Adicionar bancos de dados de arquivamento a uma implantação existente no Skype for Business Server
  
@@ -28,7 +30,7 @@ ms.locfileid: "36234372"
 - Publique a topologia atualizada para adicionar o banco de dados de arquivamento à implantação do Skype for Business Server.
     
 > [!NOTE]
-> Se você quiser usar a integração do Microsoft Exchange para armazenar arquivos e dados do arquivamento em servidores Exchange para todos os usuários em sua implantação, não especifique a **loja do SQL Server** do SQL Server ou use as informações de espelhamento da **loja do SQL Server** .
+> Se você quiser usar a integração do Microsoft Exchange para armazenar arquivos e dados do arquivamento em servidores Exchange para todos os usuários em sua implantação, não especifique a **loja do SQL Server** do SQL Server ou use as informações de **espelhamento da loja do SQL Server** .
   
 ### <a name="add-an-archiving-database-to-your-topology"></a>Adicionar um banco de dados de arquivamento à sua topologia
 
@@ -56,11 +58,11 @@ ms.locfileid: "36234372"
     
    - Clique em **Instância padrão** para usar a instância padrão ou, para especificar uma instância diferente, clique em **Instância nomeada** e especifique a instância que deseja usar.
     
-   - Se a instância do SQL Server especificada estiver em uma relação de espelhamento, marque a caixa de seleção **esta instância SQL está em relação** ao espelhamento e, em seguida, em **número de porta espelhada**, especifique o número da porta.
+   - Se a instância do SQL Server especificada estiver em uma relação de espelhamento, marque a caixa de seleção **esta instância SQL está em relação ao espelhamento** e, em seguida, em **número de porta espelhada**, especifique o número da porta.
     
-9. Se você quiser usar o espelhamento da loja do SQL Server, selecione Habilitar o espelhamento da **loja do SQL Server**e, em seguida, faça o seguinte:
+9. Se você quiser usar o espelhamento da loja do SQL Server, selecione **habilitar o espelhamento da loja do SQL Server**e, em seguida, faça o seguinte:
     
-   - Para usar uma loja existente do SQL Server para espelhamento, na caixa de listagem suspensa de espelhamento do **repositório do SQL Server** , clique no nome da loja do SQL Server que você deseja usar para espelhamento.
+   - Para usar uma loja existente do SQL Server para espelhamento, na caixa de listagem suspensa de **espelhamento do repositório do SQL Server** , clique no nome da loja do SQL Server que você deseja usar para espelhamento.
     
    - Para especificar uma nova loja do SQL Server para espelhamento, clique em **novo**e, na caixa de diálogo **definir novo repositório do SQL Server** , siga um destes procedimentos:
     
@@ -68,15 +70,15 @@ ms.locfileid: "36234372"
     
      b. Clique em **Instância padrão** para usar a instância padrão ou, para especificar uma instância diferente, clique em **Instância nomeada** e especifique a instância que deseja usar.
     
-     c. Se a instância do SQL Server especificada estiver em uma relação de espelhamento, marque a caixa de seleção **esta instância SQL está em relação** ao espelhamento e, em seguida, em **número de porta espelhada**, especifique o número da porta.
+     c. Se a instância do SQL Server especificada estiver em uma relação de espelhamento, marque a caixa de seleção **esta instância SQL está em relação ao espelhamento** e, em seguida, em **número de porta espelhada**, especifique o número da porta.
     
-   - Se você habilitar o espelhamento do SQL Server e quiser incluir uma testemunha de espelhamento do SQL Server (uma terceira instância separada do SQL Server que pode detectar a integridade das instâncias primárias do SQL Server e do espelho), selecione o **recurso usar a testemunha de espelhamento do SQL Server para habilitar a configuração automática falha** na caixa de seleção e siga um destes procedimentos:
+   - Se você habilitar o espelhamento do SQL Server e quiser incluir uma testemunha de espelhamento do SQL Server (uma terceira instância do SQL Server separada que pode detectar a integridade das instâncias primárias do SQL Server e do espelho), marque a caixa de seleção **usar a testemunha de espelhamento do SQL Server para habilitar o failover automático** e siga um destes procedimentos:
     
      a. Em **FQDN do SQL Server**, ESPECIFIQUE o FQDN do servidor no qual você deseja criar a nova testemunha de espelhamento do SQL Server.
     
      b. Clique em **Instância padrão** para usar a instância padrão ou, para especificar uma instância diferente, clique em **Instância nomeada** e especifique a instância que deseja usar para a testemunha de espelhamento.
     
-     c. Se a instância do SQL Server especificada estiver em uma relação de espelhamento, marque a caixa de seleção **esta instância SQL está em relação** ao espelhamento e, em seguida, em **número de porta espelhada**, especifique o número da porta.
+     c. Se a instância do SQL Server especificada estiver em uma relação de espelhamento, marque a caixa de seleção **esta instância SQL está em relação ao espelhamento** e, em seguida, em **número de porta espelhada**, especifique o número da porta.
     
 10. Para salvar a configuração, clique em **OK**.
     
@@ -85,7 +87,7 @@ ms.locfileid: "36234372"
 1. Em um computador que esteja executando o Skype for Business Server, ou no qual as ferramentas administrativas do Skype for Business Server estão instaladas, faça logon usando uma conta que seja membro do grupo usuários local (ou uma conta com direitos de usuário equivalentes).
     
     > [!NOTE]
-    > Você pode definir uma topologia usando uma conta que seja membro do grupo usuários local, mas para publicar uma topologia, que é necessária para adicionar um servidor à topologia, você deve usar uma conta que seja membro do grupo **Domain admins** e o **RTCUniversalServer Grupo Administradores** , e que tem permissões de controle total (ler, gravar e modificar) no compartilhamento de arquivos que você está usando para o repositório de arquivos do Skype for Business Server (para que o construtor de topologias possa configurar a lista de controle de acesso discricional necessária) ou um conta com direitos equivalentes.
+    > Você pode definir uma topologia usando uma conta que seja membro do grupo usuários local, mas para publicar uma topologia, que é necessária para adicionar um servidor à topologia, você deve usar uma conta que seja membro do grupo **Domain admins** e do grupo **RTCUniversalServerAdmins** e que tenha permissões de controle total (ler, gravar e modificar) no compartilhamento de arquivos que você está usando para o repositório de arquivos do Skype for Business Server (para que o construtor de topologias possa configurar a lista de controle de acesso discricional (DACLs) necessária ou um conta com direitos equivalentes.
   
 2. Abra a topologia que você criou na seção anterior usando o construtor de topologias.
     
