@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
 description: 'Resumo: saiba como definir um tronco adicional entre um servidor de mediação e um peer de gateway no construtor de topologias no Skype for Business Server.'
-ms.openlocfilehash: eeaddf6b5b150298e7a77b819464b3c0ef653b70
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: afd8a37272d7450115f688bafe3627fb2689903c
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245607"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767714"
 ---
 # <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>Definir troncos adicionais no construtor de topologias no Skype for Business Server
  
@@ -36,7 +38,7 @@ Um tronco é uma conexão lógica entre um servidor de mediação e um gateway.
 
 1. Inicie o construtor de topologias: clique em **Iniciar**, em **todos os programas**, clique em **Skype for Business Server 2015**e, em seguida, clique em **Skype for Business Server 2015Topology Builder**.
     
-2. Em Skype for Business Server, o nome do seu site, **componentes compartilhados**, clique com **** o botão direito do mouse no nó troncos e, em seguida, clique em **novo tronco**.
+2. Em Skype for Business Server, o nome do seu site, **componentes compartilhados**, clique com o botão direito do mouse no nó **troncos** e, em seguida, clique em **novo tronco**.
    1. Em **Definir Novo Tronco**, especifique um nome amigável para identificar exclusivamente o tronco. Você não pode ter dois troncos com o mesmo nome.
     
       > [!NOTE]

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: 'Resumo: configurar um tronco sem a bypass de mídia habilitada para o Skype for Business Server.'
-ms.openlocfilehash: c60217b6dc127616dfbaf9590c43adec25c20eff
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ccdcc6612d13770eaffc663a95fdfca3c349e4e9
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233661"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768074"
 ---
 # <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>Configurar um tronco sem bypass de mídia no Skype for Business Server
 
@@ -115,9 +117,9 @@ Uma configuração de tronco, como descrito abaixo, agrupa um conjunto de parâm
 
 10. **Habilitar engatador RTP** deve ser selecionado para habilitar bypass de mídia para clientes sob um NAT ou firewall e um SBC que dê suporte ao engatador.
 
-11. **Habilitar o histórico de chamadas** de encaminhamento deve ser selecionado para permitir o envio de informações de histórico de chamadas para o par de gateways do servidor de mediação.
+11. **Habilitar o histórico de chamadas de encaminhamento** deve ser selecionado para permitir o envio de informações de histórico de chamadas para o par de gateways do servidor de mediação.
 
-12. **Habilitar encaminhar os dados de identidades P-** declarados devem ser selecionados para permitir que as informações do originador da chamada do pai sejam encaminhadas entre o servidor de mediação e o lado do gateway (e vice-versa), quando estiverem presentes.
+12. **Habilitar encaminhar os dados de identidades P-declarados** devem ser selecionados para permitir que as informações do originador da chamada do pai sejam encaminhadas entre o servidor de mediação e o lado do gateway (e vice-versa), quando estiverem presentes.
 
 13. **Enable outbound routing failover timer** deve ser selecionado para permitir failover rápido. O gateway associado a esse tronco pode fornecer notificações em 10 segundos de que está processando uma chamada de saída. O redirecionamento para outro tronco ocorrerá se essa notificação não for recebida pelo servidor de mediação. Em redes onde a latência pode atrasar o tempo de resposta ou o gateway levar mais de 10 segundos para responder, o failover rápido deverá ser desativado.
 
@@ -154,7 +156,7 @@ Uma configuração de tronco, como descrito abaixo, agrupa um conjunto de parâm
 16. Verifique se as regras de tradução do tronco estão organizadas na ordem correta. Para alterar a posição de uma regra na lista, realce o nome da regra e clique na seta para cima ou para baixo.
 
     > [!IMPORTANT]
-    > O Skype for Business Server percorre a lista de regras de tradução da parte superior para baixo e usa a primeira regra que corresponde ao número discado. Se você configurar um tronco de forma que um número discado possa corresponder a mais de uma regra de conversão, certifique-se de que as regras mais restritivas estejam classificadas acima das regras menos restritivas. Por exemplo, se você tiver incluído uma regra de tradução que corresponda a qualquer número de 11 dígitos e uma regra de tradução que corresponda apenas a números de 11 dígitos que comecem com + 1425, certifique-se de que a regra que corresponde a qualquer número de 11 dígitos esteja classificada *abaixo* do mais restritivo das.
+    > O Skype for Business Server percorre a lista de regras de tradução da parte superior para baixo e usa a primeira regra que corresponde ao número discado. Se você configurar um tronco de forma que um número discado possa corresponder a mais de uma regra de conversão, certifique-se de que as regras mais restritivas estejam classificadas acima das regras menos restritivas. Por exemplo, se você tiver incluído uma regra de tradução que corresponda a qualquer número de 11 dígitos e uma regra de tradução que corresponda apenas a números de 11 dígitos que comecem com + 1425, certifique-se de que a regra que corresponda a qualquer número de 11 dígitos esteja classificada *abaixo* da regra mais restritiva.
 
 17. Ao terminar de configurar o tronco, clique em **OK**.
 

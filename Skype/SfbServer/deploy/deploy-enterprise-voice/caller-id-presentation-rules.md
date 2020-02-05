@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
 description: 'Resumo: saiba como configurar o recurso de identificação de chamadas usando o painel de controle do Skype for Business Server.'
-ms.openlocfilehash: ca35b3398732296f435196ffeb38d915472b303d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d6b2e594d0f16e9b3278145087af854650a957da
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233764"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768154"
 ---
 # <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>Criar ou modificar uma regra de tradução para a apresentação de identificação de chamadas no Skype for Business Server
 
 **Resumo:** Saiba como configurar o recurso de identificação de chamadas usando o painel de controle do Skype for Business Server.
 
-Com o Skype for Business Server, o número de telefone da pessoa chamada (ou seja, o número de telefone chamado) pode ser traduzido do formato E. 164 para o formato de discagem local necessário para o _par_ de troncos (ou seja, o gateway associado, a troca de ramificação privada ( PBX) ou tronco SIP). Para fazer isso, você deve definir uma ou mais regras de conversão para converter a URI de Solicitação antes de roteá-la para o ponto de tronco.
+Com o Skype for Business Server, o número de telefone da pessoa chamada (ou seja, o número de telefone chamado) pode ser traduzido do formato E. 164 para o formato de discagem local necessário para o _par de troncos_ (ou seja, o gateway associado, a troca de ramificação privada (PBX) ou o tronco SIP). Para fazer isso, você deve definir uma ou mais regras de conversão para converter a URI de Solicitação antes de roteá-la para o ponto de tronco.
 
 O Skype for Business Server também oferece a opção de converter o número de telefone da pessoa que está chamando (ou seja, o número de telefone que o chamador está chamando) do formato E. 164 para o formato de discagem local necessário para o par de tronco. Por exemplo, é possível criar uma regra de conversão para remover o prefixo +44 do início de uma cadeia de caracteres de discagem e substituí-lo por 0144.
 

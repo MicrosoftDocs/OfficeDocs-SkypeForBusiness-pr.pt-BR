@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
 description: 'Resumo: saiba como implantar o Enterprise Voice para Skype for Business Server em um site central.'
-ms.openlocfilehash: 3e85ac96415788e8e15ba1ed11786864b6fc3124
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1b1b1d0f79d1730bd491314f4f4e97b43b0acb62
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245424"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767544"
 ---
 # <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>Implantar o Enterprise Voice no Skype for Business Server
 
 **Resumo:** Saiba como implantar o Enterprise Voice para Skype for Business Server em um site central.
 
-Use este tópico para implantar o Enterprise Voice em um site central. Para implantar o Enterprise Voice em um site de filial, pule para a [implantação de sites](https://technet.microsoft.com/library/1475dee0-66ae-4ee5-b6f1-7409b4bbff45.aspx)de filiais.
+Use este tópico para implantar o Enterprise Voice em um site central. Para implantar o Enterprise Voice em um site de filial, pule para a [implantação de sites de filiais](https://technet.microsoft.com/library/1475dee0-66ae-4ee5-b6f1-7409b4bbff45.aspx).
 
 Esta seção inclui procedimentos para implantações em que um servidor de mediação está posicionado em cada servidor front-end ou servidor Standard Edition, conforme recomendado, e também para implantações com um pool autônomo do servidor de mediação. Você pode ignorar o conteúdo a seguir se tiver usado o construtor de topologias para definir e publicar uma topologia que posiciona um servidor de mediação em cada servidor front-end ou um servidor Standard Edition, pois o assistente de implantação já instalou automaticamente os arquivos para Servidor de mediação quando você instalou arquivos para o pool de servidores front-end ou o servidor Standard Edition:
 ## <a name="in-this-section"></a>Nesta seção

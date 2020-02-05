@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: 'Resumo: saiba como definir uma regra de tradução usando a ferramenta criar regra de tradução no Skype for Business Server.'
-ms.openlocfilehash: 3c72e53044abe44660423bbd9bc1adbbeed2a3ed
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1a1f363ad157775395f77ef3e3c2915e9226bfd5
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233781"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768194"
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>Criar ou modificar uma regra de tradução para a apresentação de ID chamada no Skype for Business Server
 
