@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,70 +16,70 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: Implantando a ferramenta SEFAUtil no Skype for Business Server.
-ms.openlocfilehash: e36448652f245d1c81a00cc206b6e8047a8f9d28
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: ab0d41990e0c4bf9d4d2abb635ce447180899de8
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001881"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767494"
 ---
-# <a name="deploy-the-sefautil-tool-in-skype-for-business"></a><span data-ttu-id="39138-103">Implantar a ferramenta SEFAUtil no Skype for Business</span><span class="sxs-lookup"><span data-stu-id="39138-103">Deploy the SEFAUtil tool in Skype for Business</span></span>
+# <a name="deploy-the-sefautil-tool-in-skype-for-business"></a><span data-ttu-id="8a4e1-103">Implantar a ferramenta SEFAUtil no Skype for Business</span><span class="sxs-lookup"><span data-stu-id="8a4e1-103">Deploy the SEFAUtil tool in Skype for Business</span></span>
  
-<span data-ttu-id="39138-104">Implantando a ferramenta SEFAUtil no Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="39138-104">Deploying the SEFAUtil tool in Skype for Business Server.</span></span>
+<span data-ttu-id="8a4e1-104">Implantando a ferramenta SEFAUtil no Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="8a4e1-104">Deploying the SEFAUtil tool in Skype for Business Server.</span></span>
   
-<span data-ttu-id="39138-105">Para implantar e gerenciar o recebimento de chamadas em grupo, você precisa usar a versão do Skype for Business Server da ferramenta SEFAUtil.</span><span class="sxs-lookup"><span data-stu-id="39138-105">To deploy and manage Group Call Pickup, you need to use the Skype for Business Server version of the SEFAUtil tool.</span></span> 
+<span data-ttu-id="8a4e1-105">Para implantar e gerenciar o recebimento de chamadas em grupo, você precisa usar a versão do Skype for Business Server da ferramenta SEFAUtil.</span><span class="sxs-lookup"><span data-stu-id="8a4e1-105">To deploy and manage Group Call Pickup, you need to use the Skype for Business Server version of the SEFAUtil tool.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="39138-106">A API gerenciada de comunicação unificada da Microsoft (UCMA) 5 Runtime deve ser instalada em qualquer computador em que você planeja executar a ferramenta SEFAUtil.</span><span class="sxs-lookup"><span data-stu-id="39138-106">Microsoft Unified Communications Managed API (UCMA) 5 Runtime must be installed on any computer where you plan to run the SEFAUtil tool.</span></span> <span data-ttu-id="39138-107">Baixe aqui: [comunicação unificada API gerenciada do tempo de execução 5,0](https://www.microsoft.com/en-us/download/details.aspx?id=47344).</span><span class="sxs-lookup"><span data-stu-id="39138-107">Download it here: [Unified Communications Managed API 5.0 Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=47344).</span></span> <span data-ttu-id="39138-108">Você também pode baixar o SDK do UCMA 5, que inclui o tempo de execução, aqui: [UCMA 5,0 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=47345).</span><span class="sxs-lookup"><span data-stu-id="39138-108">You can also download the UCMA 5 SDK, which includes the runtime, here: [UCMA 5.0 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=47345).</span></span>
+> <span data-ttu-id="8a4e1-106">A API gerenciada de comunicação unificada da Microsoft (UCMA) 5 Runtime deve ser instalada em qualquer computador em que você planeja executar a ferramenta SEFAUtil.</span><span class="sxs-lookup"><span data-stu-id="8a4e1-106">Microsoft Unified Communications Managed API (UCMA) 5 Runtime must be installed on any computer where you plan to run the SEFAUtil tool.</span></span> <span data-ttu-id="8a4e1-107">Baixe aqui: [comunicação unificada API gerenciada do tempo de execução 5,0](https://www.microsoft.com/en-us/download/details.aspx?id=47344).</span><span class="sxs-lookup"><span data-stu-id="8a4e1-107">Download it here: [Unified Communications Managed API 5.0 Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=47344).</span></span> <span data-ttu-id="8a4e1-108">Você também pode baixar o SDK do UCMA 5, que inclui o tempo de execução, aqui: [UCMA 5,0 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=47345).</span><span class="sxs-lookup"><span data-stu-id="8a4e1-108">You can also download the UCMA 5 SDK, which includes the runtime, here: [UCMA 5.0 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=47345).</span></span>
   
-<span data-ttu-id="39138-109">Você pode executar a ferramenta SEFAUtil em qualquer pool de front-ends na sua implantação.</span><span class="sxs-lookup"><span data-stu-id="39138-109">You can run the SEFAUtil tool in any Front End pool in your deployment.</span></span> <span data-ttu-id="39138-110">Para executar a ferramenta SEFAUtil, você deve executar as etapas 1, 2 e 3 do assistente de implantação do Skype for Business no computador do aplicativo confiável.</span><span class="sxs-lookup"><span data-stu-id="39138-110">To run the SEFAUtil tool you must run Steps 1, 2, and 3 from the Skype for Business Deployment Wizard on the Trusted Application Computer.</span></span> <span data-ttu-id="39138-111">O SEFAUtil exige que o repositório de configuração local esteja presente, bem como um certificado.</span><span class="sxs-lookup"><span data-stu-id="39138-111">SEFAUtil requires the local configuration store to be present, as well as a certificate.</span></span>
+<span data-ttu-id="8a4e1-109">Você pode executar a ferramenta SEFAUtil em qualquer pool de front-ends na sua implantação.</span><span class="sxs-lookup"><span data-stu-id="8a4e1-109">You can run the SEFAUtil tool in any Front End pool in your deployment.</span></span> <span data-ttu-id="8a4e1-110">Para executar a ferramenta SEFAUtil, você deve executar as etapas 1, 2 e 3 do assistente de implantação do Skype for Business no computador do aplicativo confiável.</span><span class="sxs-lookup"><span data-stu-id="8a4e1-110">To run the SEFAUtil tool you must run Steps 1, 2, and 3 from the Skype for Business Deployment Wizard on the Trusted Application Computer.</span></span> <span data-ttu-id="8a4e1-111">O SEFAUtil exige que o repositório de configuração local esteja presente, bem como um certificado.</span><span class="sxs-lookup"><span data-stu-id="8a4e1-111">SEFAUtil requires the local configuration store to be present, as well as a certificate.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="39138-112">Para obter mais detalhes sobre como executar o SEFAUtil, confira o artigo "como fazer com[que SEFAUtil seja executado?](https://go.microsoft.com/fwlink/?LinkId=278940)".</span><span class="sxs-lookup"><span data-stu-id="39138-112">For more details about running SEFAUtil, see the  blog article, "[How to get SEFAutil running?](https://go.microsoft.com/fwlink/?LinkId=278940)".</span></span> 
+> <span data-ttu-id="8a4e1-112">Para obter mais detalhes sobre como executar o SEFAUtil, confira o artigo "como fazer com[que SEFAUtil seja executado?](https://go.microsoft.com/fwlink/?LinkId=278940)".</span><span class="sxs-lookup"><span data-stu-id="8a4e1-112">For more details about running SEFAUtil, see the  blog article, "[How to get SEFAutil running?](https://go.microsoft.com/fwlink/?LinkId=278940)".</span></span> 
   
-### <a name="to-deploy-sefautil"></a><span data-ttu-id="39138-113">Para implantar a SEFAUtil</span><span class="sxs-lookup"><span data-stu-id="39138-113">To deploy SEFAUtil</span></span>
+### <a name="to-deploy-sefautil"></a><span data-ttu-id="8a4e1-113">Para implantar a SEFAUtil</span><span class="sxs-lookup"><span data-stu-id="8a4e1-113">To deploy SEFAUtil</span></span>
 
-1. <span data-ttu-id="39138-114">Faça logon no computador em que o Shell de gerenciamento do Skype for Business Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários, conforme descrito em **permissões de configuração do representante**.</span><span class="sxs-lookup"><span data-stu-id="39138-114">Log on to the computer where Skype for Business Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in **Delegate Setup Permissions**.</span></span>
+1. <span data-ttu-id="8a4e1-114">Faça logon no computador em que o Shell de gerenciamento do Skype for Business Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários, conforme descrito em **permissões de configuração do representante**.</span><span class="sxs-lookup"><span data-stu-id="8a4e1-114">Log on to the computer where Skype for Business Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in **Delegate Setup Permissions**.</span></span>
     
-2. <span data-ttu-id="39138-115">Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.</span><span class="sxs-lookup"><span data-stu-id="39138-115">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+2. <span data-ttu-id="8a4e1-115">Inicie o Shell de Gerenciamento do Skype for Business Server: clique em **Iniciar**, em **Todos os Programas**, em **Skype for Business 2015** e em **Shell de Gerenciamento do Skype for Business Server**.</span><span class="sxs-lookup"><span data-stu-id="8a4e1-115">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-3. <span data-ttu-id="39138-116">A ferramenta SEFAUtil só pode ser executada em um computador que integra um pool de aplicativos confiáveis.</span><span class="sxs-lookup"><span data-stu-id="39138-116">The SEFAUtil tool can be run only on a computer that is part of a trusted application pool.</span></span> <span data-ttu-id="39138-117">Se necessário, defina um pool de aplicativos confiável para o pool de front-ends em que você planeja executar o SEFAUtil.</span><span class="sxs-lookup"><span data-stu-id="39138-117">If needed, define a trusted application pool for the Front End pool where you plan to run SEFAUtil.</span></span> <span data-ttu-id="39138-118">Na linha de comando, execute:</span><span class="sxs-lookup"><span data-stu-id="39138-118">At the command line, run:</span></span>
+3. <span data-ttu-id="8a4e1-116">A ferramenta SEFAUtil só pode ser executada em um computador que integra um pool de aplicativos confiáveis.</span><span class="sxs-lookup"><span data-stu-id="8a4e1-116">The SEFAUtil tool can be run only on a computer that is part of a trusted application pool.</span></span> <span data-ttu-id="8a4e1-117">Se necessário, defina um pool de aplicativos confiável para o pool de front-ends em que você planeja executar o SEFAUtil.</span><span class="sxs-lookup"><span data-stu-id="8a4e1-117">If needed, define a trusted application pool for the Front End pool where you plan to run SEFAUtil.</span></span> <span data-ttu-id="8a4e1-118">Na linha de comando, execute:</span><span class="sxs-lookup"><span data-stu-id="8a4e1-118">At the command line, run:</span></span>
     
    ```powershell
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
    ```
     > [!NOTE]
-    > <span data-ttu-id="39138-119">FQDN do pool: o FQDN do servidor ou pool que hospedará o aplicativo SEFAUtil (geralmente um servidor front-end do Skype for Business ou pool).</span><span class="sxs-lookup"><span data-stu-id="39138-119">Pool FQDN: The FQDN of the server or pool that will host the SEFAUtil application (usually a Skype for Business Front End server or pool).</span></span>
-    > <span data-ttu-id="39138-120">FQDN do registrador de pool: o FQDN do servidor de front-end do Skype for Business ou pool associado a este pool de aplicativos.</span><span class="sxs-lookup"><span data-stu-id="39138-120">Pool Registrar FQDN: The FQDN of the Skype for Business Front End server or pool associated with this application pool.</span></span>
-    > <span data-ttu-id="39138-121">Site de pool: a ID do site na qual esse pool é hospedado.</span><span class="sxs-lookup"><span data-stu-id="39138-121">Pool Site: The Site ID of the site on which this pool is homed.</span></span>
+    > <span data-ttu-id="8a4e1-119">FQDN do pool: o FQDN do servidor ou pool que hospedará o aplicativo SEFAUtil (geralmente um servidor front-end do Skype for Business ou pool).</span><span class="sxs-lookup"><span data-stu-id="8a4e1-119">Pool FQDN: The FQDN of the server or pool that will host the SEFAUtil application (usually a Skype for Business Front End server or pool).</span></span>
+    > <span data-ttu-id="8a4e1-120">FQDN do registrador de pool: o FQDN do servidor de front-end do Skype for Business ou pool associado a este pool de aplicativos.</span><span class="sxs-lookup"><span data-stu-id="8a4e1-120">Pool Registrar FQDN: The FQDN of the Skype for Business Front End server or pool associated with this application pool.</span></span>
+    > <span data-ttu-id="8a4e1-121">Site de pool: a ID do site na qual esse pool é hospedado.</span><span class="sxs-lookup"><span data-stu-id="8a4e1-121">Pool Site: The Site ID of the site on which this pool is homed.</span></span>
 
-4. <span data-ttu-id="39138-p105">Defina a ferramenta SEFAUtil como um aplicativo confiável. Na linha de comando, execute:</span><span class="sxs-lookup"><span data-stu-id="39138-p105">Define the SEFAUtil tool as a trusted application. At the command line, run:</span></span>
+4. <span data-ttu-id="8a4e1-p105">Defina a ferramenta SEFAUtil como um aplicativo confiável. Na linha de comando, execute:</span><span class="sxs-lookup"><span data-stu-id="8a4e1-p105">Define the SEFAUtil tool as a trusted application. At the command line, run:</span></span>
     
    ```powershell
    New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
    ```
 
     > [!NOTE]
-    > <span data-ttu-id="39138-124">Se necessário, você pode usar uma porta diferente.</span><span class="sxs-lookup"><span data-stu-id="39138-124">You can use a different port if needed.</span></span> 
+    > <span data-ttu-id="8a4e1-124">Se necessário, você pode usar uma porta diferente.</span><span class="sxs-lookup"><span data-stu-id="8a4e1-124">You can use a different port if needed.</span></span> 
   
-5. <span data-ttu-id="39138-p106">Habilite a topologia com suas alterações. Na linha de comando, digite:</span><span class="sxs-lookup"><span data-stu-id="39138-p106">Enable the topology with your changes. At the command line, run:</span></span>
+5. <span data-ttu-id="8a4e1-p106">Habilite a topologia com suas alterações. Na linha de comando, digite:</span><span class="sxs-lookup"><span data-stu-id="8a4e1-p106">Enable the topology with your changes. At the command line, run:</span></span>
     
    ```powershell
    Enable-CsTopology
    ```
 
-6. <span data-ttu-id="39138-127">Se ainda não fez isso, baixe a versão do Skype for Business Server da ferramenta SEFAUtil deste [local](https://www.microsoft.com/en-us/download/details.aspx?id=52631)e instale-a no pool de aplicativos confiável que você criou na etapa 3.</span><span class="sxs-lookup"><span data-stu-id="39138-127">If you haven't already, download the Skype for Business Server version of the SEFAUtil tool from [this location](https://www.microsoft.com/en-us/download/details.aspx?id=52631), and install it on the trusted application pool you created in step 3.</span></span>
+6. <span data-ttu-id="8a4e1-127">Se ainda não fez isso, baixe a versão do Skype for Business Server da ferramenta SEFAUtil deste [local](https://www.microsoft.com/en-us/download/details.aspx?id=52631)e instale-a no pool de aplicativos confiável que você criou na etapa 3.</span><span class="sxs-lookup"><span data-stu-id="8a4e1-127">If you haven't already, download the Skype for Business Server version of the SEFAUtil tool from [this location](https://www.microsoft.com/en-us/download/details.aspx?id=52631), and install it on the trusted application pool you created in step 3.</span></span>
     
-7. <span data-ttu-id="39138-128">Verifique se a ferramenta SEFAUtil está sendo executada corretamente conforme segue:</span><span class="sxs-lookup"><span data-stu-id="39138-128">Verify that the SEFAUtil tool is running correctly, as follows:</span></span> 
+7. <span data-ttu-id="8a4e1-128">Verifique se a ferramenta SEFAUtil está sendo executada corretamente conforme segue:</span><span class="sxs-lookup"><span data-stu-id="8a4e1-128">Verify that the SEFAUtil tool is running correctly, as follows:</span></span> 
     
-    <span data-ttu-id="39138-129">a.</span><span class="sxs-lookup"><span data-stu-id="39138-129">a.</span></span> <span data-ttu-id="39138-130">Execute a ferramenta no prompt de comando do Windows com privilégios de administrador para exibir as configurações de encaminhamento de chamada de um usuário de sua implantação.</span><span class="sxs-lookup"><span data-stu-id="39138-130">Run the tool from the Windows command prompt with administrator privileges to display the call forwarding settings of a user in your deployment.</span></span>
+    <span data-ttu-id="8a4e1-129">a.</span><span class="sxs-lookup"><span data-stu-id="8a4e1-129">a.</span></span> <span data-ttu-id="8a4e1-130">Execute a ferramenta no prompt de comando do Windows com privilégios de administrador para exibir as configurações de encaminhamento de chamada de um usuário de sua implantação.</span><span class="sxs-lookup"><span data-stu-id="8a4e1-130">Run the tool from the Windows command prompt with administrator privileges to display the call forwarding settings of a user in your deployment.</span></span>
     
-    <span data-ttu-id="39138-131">b.</span><span class="sxs-lookup"><span data-stu-id="39138-131">b.</span></span> <span data-ttu-id="39138-132">Exibir as configurações de encaminhamento de chamadas de um usuário.</span><span class="sxs-lookup"><span data-stu-id="39138-132">Display the call forwarding settings of a user.</span></span> <span data-ttu-id="39138-133">Na linha de comando, execute:</span><span class="sxs-lookup"><span data-stu-id="39138-133">At the command line, run:</span></span>
+    <span data-ttu-id="8a4e1-131">b.</span><span class="sxs-lookup"><span data-stu-id="8a4e1-131">b.</span></span> <span data-ttu-id="8a4e1-132">Exibir as configurações de encaminhamento de chamadas de um usuário.</span><span class="sxs-lookup"><span data-stu-id="8a4e1-132">Display the call forwarding settings of a user.</span></span> <span data-ttu-id="8a4e1-133">Na linha de comando, execute:</span><span class="sxs-lookup"><span data-stu-id="8a4e1-133">At the command line, run:</span></span>
     
    ```console
    SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
    ```
 
-<span data-ttu-id="39138-134">As configurações de encaminhamento de chamada do usuário serão exibidas.</span><span class="sxs-lookup"><span data-stu-id="39138-134">The call forwarding settings for the user will be displayed.</span></span>
+<span data-ttu-id="8a4e1-134">As configurações de encaminhamento de chamada do usuário serão exibidas.</span><span class="sxs-lookup"><span data-stu-id="8a4e1-134">The call forwarding settings for the user will be displayed.</span></span>
     
 
