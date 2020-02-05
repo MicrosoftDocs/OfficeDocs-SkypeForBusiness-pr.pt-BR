@@ -3,6 +3,8 @@ title: Instalar sistemas operacionais e software de pré-requisito nos servidore
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Install operating systems and prerequisite software on servers
 ms:assetid: 055991e0-5aeb-43fc-a7ba-d4b02316d73b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398103(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183288
 ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 26a4eed86f12386b10b49d4290a4596b40c1fcc9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8c41147d33dce792f88b30f72b36201ddb6c7d62
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829010"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763705"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -61,7 +63,7 @@ Em cada servidor que você está implantando, instale o sistema operacional do W
 
 
 > [!NOTE]
-> Se você estiver instalando o Lync Server 2013 no&nbsp;Windows&nbsp;Server 2008 R2 com SP1, deve primeiro instalar a atualização descrita no artigo da base de dados de conhecimento Microsoft 2646886, "correcção: o corrompimento de pilha ocorre quando um módulo chama o método InsertEntityBody no IIS 7,5 ", em <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2646886"> http://go.microsoft.com/fwlink/p/?linkid=3052&amp; kbid = 2646886</A>.<BR>Você também deve modificar o registro conforme descrito no artigo da base de conhecimento, os <A href="http://go.microsoft.com/fwlink/p/?linkid=506893">IDs de evento 32402, 61045 são registrados nos servidores front-end do Lync server 2013 instalados no Windows Server 2012 R2</A>.
+> Se você estiver instalando o Lync Server 2013 no&nbsp;Windows&nbsp;Server 2008 R2 com SP1, deve primeiro instalar a atualização descrita no artigo da base de dados de conhecimento Microsoft 2646886, "correção: a corrupção de pilha ocorre quando um módulo chama o método InsertEntityBody no IIS 7,5", em <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2646886"> http://go.microsoft.com/fwlink/p/?linkid=3052&amp; kbid = 2646886</A>.<BR>Você também deve modificar o registro conforme descrito no artigo da base de conhecimento, os <A href="http://go.microsoft.com/fwlink/p/?linkid=506893">IDs de evento 32402, 61045 são registrados nos servidores front-end do Lync server 2013 instalados no Windows Server 2012 R2</A>.
 
 
 
@@ -75,7 +77,7 @@ Em cada servidor que você está implantando, instale o sistema operacional do W
 
 Instale as seguintes atualizações do Windows Update em cada servidor:
 
-  - **Windows Update para servidores que executam o Lync Server 2013**   para obter detalhes sobre as atualizações do Windows Update necessárias para servidores que executam o Lync Server 2013, consulte [requisitos de software adicionais para o Lync Server 2013](lync-server-2013-additional-software-requirements.md) no planejamento documentação.
+  - **Windows Update para servidores que executam o Lync Server 2013**   para obter detalhes sobre as atualizações do Windows Update necessárias para servidores que executam o Lync Server 2013, consulte [requisitos de software adicionais para o Lync Server 2013](lync-server-2013-additional-software-requirements.md) na documentação de planejamento.
 
   - **Servidores de banco de dados**   para obter detalhes sobre as atualizações do Windows Update necessárias para servidores de banco de dados, incluindo o banco de dados back-end, o banco de dados de arquivamento e o banco de dados de monitoramento, consulte a documentação do SQL Server 2012. Para o SQL Server 2012, consulte os manuais online do SQL Server [http://go.microsoft.com/fwlink/p/?linkId=218015](http://go.microsoft.com/fwlink/p/?linkid=218015)2012 em.
 

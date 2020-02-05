@@ -5,21 +5,23 @@ ms.author: dstrome
 author: dstrome
 manager: serdars
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Este artigo descreve os benefícios, as considerações de planejamento e os requisitos para implementar o serviço de caixa postal do Microsoft Cloud. Para obter informações sobre como configurar a caixa postal em nuvem, consulte Configuring Cloud postal.
-ms.openlocfilehash: 0071154ab1b9c1211725dd9b6addc2dfd5449e15
-ms.sourcegitcommit: 46fb558814cb6bd7d70729eac590afd51fc6606e
+ms.openlocfilehash: 11b6704a532a3e522792c2234d199e891799c2ac
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2019
-ms.locfileid: "36160397"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765692"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planejar o serviço de caixa postal na nuvem para usuários locais
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 Este artigo descreve os benefícios, as considerações de planejamento e os requisitos para implementar o serviço de caixa postal do Microsoft Cloud para seus usuários locais. Para obter informações sobre como configurar a caixa postal em nuvem, consulte [Configurar o serviço de caixa postal Cloud](configure-cloud-voicemail.md).
 
@@ -57,7 +59,7 @@ As chamadas não atendidas são tratadas da seguinte maneira:
 3. O serviço então deposita a caixa postal na caixa de correio do Exchange do usuário, independentemente de a caixa de correio estar no local ou online.  
 4. Os usuários podem acessar a caixa postal do Skype for Business ou do cliente Outlook.
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Os requisitos a seguir pressupõem que você já tenha o Skype for Business Server implantado em uma topologia com suporte.  Seus requisitos dependem do cenário:
 
@@ -94,10 +96,10 @@ A interoperabilidade de versão e as topologias com suporte para a caixa postal 
 | Skype for Business Server 2015 | UM do Exchange Server | UM do Exchange Server | Caixa postal de nuvem<sup>1</sup> | Caixa postal em nuvem <br> UM do Exchange Online<sup>2</sup> |
 | Lync Server 2013 <br>  | UM do Exchange Server | UM do Exchange Server | Não suportado | Caixa postal em nuvem <br> UM do Exchange Online<sup>2</sup> |
 
-<sup>1</sup> ainda não vê essa opção? Ele está sendo implantado e talvez ainda não esteja disponível em sua organização. Confira a etapa 6, considere a possibilidade de participar, no [suporte à migração online](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support
-) da Unificação de mensagens do Exchange para aceitar a conectividade planejada para a caixa postal na nuvem.
+<sup>1</sup> ainda não vê essa opção? Ele está sendo implantado e talvez ainda não esteja disponível em sua organização. Confira a etapa 6, considere a possibilidade de participar, no [suporte à migração online da Unificação de mensagens do Exchange](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support
+) para aceitar a conectividade planejada para a caixa postal na nuvem.
 
-<sup>2</sup> até ser preterido. Confira [suporte à migração online](../../sfbserver2019/plan/exchange-unified-messaging-online-migration-support.md) da Unificação de mensagens do Exchange para obter mais informações. 
+<sup>2</sup> até ser preterido. Confira [suporte à migração online da Unificação de mensagens do Exchange](../../sfbserver2019/plan/exchange-unified-messaging-online-migration-support.md) para obter mais informações. 
 
 A Microsoft recomenda os seguintes caminhos de migração:
 

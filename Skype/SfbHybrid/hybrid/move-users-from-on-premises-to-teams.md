@@ -5,6 +5,8 @@ author: CarolynRowe
 manager: serdars
 ms.reviewer: bjwhalen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -16,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Resumo: saiba como migrar configurações de usuário e mover usuários para o Microsoft Teams.'
-ms.openlocfilehash: 0d37fc1a875763552b2b0cebbd29a0f9c7a62e8d
-ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
+ms.openlocfilehash: c719741323c0e1bc8435adf10364356d069e8774
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38010614"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726741"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Mover usuários do local para o Microsoft Teams
 
@@ -59,7 +61,7 @@ As ferramentas administrativas locais no Skype for Business Server 2015 com o CU
 
 O move-CsUser está disponível em uma janela do PowerShell do Shell de gerenciamento do Skype for Business local. As etapas abaixo e as permissões necessárias são as mesmas que mover um usuário para o Skype for Business Online, exceto que você também deve especificar a opção MoveToTeams e deve garantir que o usuário também tenha recebido uma licença para o Microsoft Teams (além do Skype for Business Online).
 
-Você deve ter privilégios suficientes no ambiente local e no locatário do Office 365, conforme descrito em [credenciais administrativas necessárias](move-users-between-on-premises-and-cloud.md#required-administrative-credentials). Você pode usar uma única conta que tenha privilégios em ambos os ambientes ou pode iniciar uma janela local do Shell de gerenciamento do Skype for Business Server com credenciais locais e usar o `-Credential` parâmetro para especificar credenciais para um Office 365 conta com a função administrativa necessária do Office 365.
+Você deve ter privilégios suficientes no ambiente local e no locatário do Office 365, conforme descrito em [credenciais administrativas necessárias](move-users-between-on-premises-and-cloud.md#required-administrative-credentials). Você pode usar uma única conta que tenha privilégios em ambos os ambientes ou pode iniciar uma janela local do Shell de gerenciamento do Skype for Business Server com credenciais locais e usar o `-Credential` parâmetro para especificar credenciais para uma conta do Office 365 com a função administrativa necessária do Office 365.
 
 Para mover um usuário para o modo somente do Microsoft Teams usando o move-CsUser:
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configurações de rede para os recursos avançados de
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Network settings for the advanced Enterprise Voice features
 ms:assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398637(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184632
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d633d111e9df09cde57b91f32f4592b7f80c9f26
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b1ce4983f7744158c9c9ff56cdfdde818fdc8e14
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826504"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765872"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ O Lync Server tem três recursos avançados do Enterprise Voice: controle de adm
 
   - [Planejamento de bypass de mídia no Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)
 
-Para obter detalhes sobre como implantar cada um desses recursos, consulte Implantando [recursos avançados do Enterprise Voice no Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md) na documentação de implantação.
+Para obter detalhes sobre como implantar cada um desses recursos, consulte [implantando recursos avançados do Enterprise Voice no Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md) na documentação de implantação.
 
 Este tópico fornece uma visão geral dos requisitos de configuração que são comuns a todos os três recursos avançados do Enterprise Voice.
 
@@ -65,11 +67,11 @@ Uma região de rede é um hub de rede ou backbone de rede usada somente na confi
 
 O CAC requer que todas as regiões de rede tenham um site central do Lync Server associado, que gerencia o tráfego de mídia dentro da região (isto é, toma decisões com base em políticas que você configurou, em relação a se ou não uma sessão de áudio ou de vídeo em tempo real pode ser estabelecida). Os sites centrais do Lync Server não representam locais geográficos, mas em vez de grupos lógicos de servidores que são configurados como um pool ou um conjunto de pools. Para obter detalhes sobre sites centrais, consulte [topologias de referência no Lync Server 2013](lync-server-2013-reference-topologies.md) na documentação de planejamento. Consulte também [topologias compatíveis no Lync Server 2013](lync-server-2013-supported-topologies.md) na documentação de suporte.
 
-Para configurar uma região de rede, você pode usar a guia **regiões** na seção **configuração de rede** do painel de controle do Lync Server ou executar o Shell de gerenciamento do Lync Server **New-CsNetworkRegion** ou **set-CsNetworkRegion** . cmdlets. Para obter instruções, consulte [criar ou modificar uma região de rede no Lync Server 2013](lync-server-2013-create-or-modify-a-network-region.md) na documentação de implantação ou consulte a documentação do Shell de gerenciamento do Lync Server.
+Para configurar uma região de rede, você pode usar a guia **regiões** na seção **configuração de rede** do painel de controle do Lync Server ou executar os cmdlets do Shell de gerenciamento do Lync Server **New-CsNetworkRegion** ou **set-CsNetworkRegion** . Para obter instruções, consulte [criar ou modificar uma região de rede no Lync Server 2013](lync-server-2013-create-or-modify-a-network-region.md) na documentação de implantação ou consulte a documentação do Shell de gerenciamento do Lync Server.
 
 As mesmas definições de região de rede são compartilhadas por todos os três recursos avançados do Enterprise Voice. Se você já criou áreas de rede para um recurso, não será necessário criar novas regiões de rede para outros recursos. No entanto, pode ser necessário modificar uma definição de região de rede existente para aplicar as configurações específicas do recurso. Por exemplo, se você criou áreas de rede para E9-1-1 (que não requer um site central associado) e posteriormente implantou o serviço de controle de admissão de chamadas, é necessário modificar cada uma das definições de região de rede para especificar um site central.
 
-Para associar um site central do Lync Server a uma região de rede, você especifica o nome do site central, seja usando a seção **configuração de rede** do painel de controle do Lync Server ou executando o **novo-CsNetworkRegion** ou **set-CsNetworkRegion **Cmdlets do Shell de gerenciamento do Lync Server. Para obter instruções, consulte [criar ou modificar uma região de rede no Lync Server 2013](lync-server-2013-create-or-modify-a-network-region.md) na documentação de implantação ou consulte a documentação do Shell de gerenciamento do Lync Server.
+Para associar um site central do Lync Server a uma região de rede, especifique o nome do site central, seja usando a seção **configuração de rede** do painel de controle do Lync Server ou executando os cmdlets shell do Shell de gerenciamento do Lync Server **New-CsNetworkRegion** ou **set-CsNetworkRegion** . Para obter instruções, consulte [criar ou modificar uma região de rede no Lync Server 2013](lync-server-2013-create-or-modify-a-network-region.md) na documentação de implantação ou consulte a documentação do Shell de gerenciamento do Lync Server.
 
 </div>
 
@@ -89,7 +91,7 @@ Um site de rede representa uma localização geográfica, como um escritório pr
 
 </div>
 
-Para configurar um site de rede e associá-lo a uma região de rede, você pode usar a seção **configuração de rede** do painel de controle do Lync Server ou executar o Shell de gerenciamento do Lync Server **New-CsNetworkSite** ou **set-CsNetworkSite** cmdlets. Para obter detalhes, consulte [criar ou modificar um site de rede no Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md) na documentação de implantação ou consulte a documentação do Shell de gerenciamento do Lync Server.
+Para configurar um site de rede e associá-lo a uma região de rede, você pode usar a seção **configuração de rede** do painel de controle do Lync Server ou executar cmdlets **New-CsNetworkSite** ou **set-CsNetworkSite** do Shell de gerenciamento do Lync Server. Para obter detalhes, consulte [criar ou modificar um site de rede no Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md) na documentação de implantação ou consulte a documentação do Shell de gerenciamento do Lync Server.
 
 </div>
 

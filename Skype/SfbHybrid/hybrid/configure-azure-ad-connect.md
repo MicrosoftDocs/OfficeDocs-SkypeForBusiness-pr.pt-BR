@@ -5,6 +5,8 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -15,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Instruções para configurar o Azure AD Connect em um ambiente híbrido.
-ms.openlocfilehash: 9df0e42224d3186c3d7b5b1748412e9ec9121897
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3060ef443fd2ee57157c2590441c5fe04b1d8739
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160381"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726931"
 ---
 # <a name="configure-azure-ad-connect-for-teams-and-skype-for-business"></a>Configurar o Azure AD Connect para o Teams e o Skype for Business
  
@@ -32,7 +34,7 @@ As organizações que têm o Skype for Business Server (ou o Lync Server) no loc
 
 ## <a name="background-information"></a>Informações gerais
 
-O Azure Active Directory Connect mantém seu Active Directory local sincronizado continuamente com o Office 365.  Seu diretório local permanece com a fonte autoritativa de identidade, e as alterações de seu ambiente local são sincronizadas no Azure AD. Para obter mais informações, consulte [Azure ad Connect Sync](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-whatis).  Mesmo que você não esteja migrando todos os usuários do local para a nuvem, todos os usuários que usam o Microsoft Teams, o Skype for Business no local ou o Skype for Business online devem ser sincronizados do local para o Azure AD para garantir a comunicação entre os usuários locais e online . *Os usuários da sua organização serão representados em seus diretórios locais e online.*
+O Azure Active Directory Connect mantém seu Active Directory local sincronizado continuamente com o Office 365.  Seu diretório local permanece com a fonte autoritativa de identidade, e as alterações de seu ambiente local são sincronizadas no Azure AD. Para obter mais informações, consulte [Azure ad Connect Sync](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-whatis).  Mesmo que você não esteja movendo todos os usuários do local para a nuvem, todos os usuários que usam o Microsoft Teams, o Skype for Business no local ou o Skype for Business online devem ser sincronizados no local no Azure AD para garantir a comunicação entre usuários locais e online. *Os usuários da sua organização serão representados em seus diretórios locais e online.*
 
 
 ## <a name="configuring-azure-ad-when-you-have-skype-for-business-server"></a>Configurando o Azure AD quando você tiver o Skype for Business Server 
@@ -59,7 +61,7 @@ Este cenário geralmente é conhecido como uma topologia de floresta de recursos
 
 - Todos os objetos e atributos de usuário relevantes para a identidade (de florestas de contas) e o Skype for Business (da floresta de recursos) são sincronizados no Azure AD com os valores corretos por meio do Azure AD Connect.  
 
- Para obter uma sincronização adequada de objeto e de atributo para o Azure AD em um [cenário de várias florestas no local](configure-a-multi-forest-environment-for-hybrid.md), a Microsoft recomenda usar o Azure ad Connect para sincronizar de todas as florestas que possuem contas de usuário e a floresta que contém o Skype for Business.  Supondo que você sincronize de todas as florestas, você deve configurar o Azure AD Connect para mesclar essas identidades e sincronizar com o Azure AD. O Azure AD Connect foi projetado para lidar com esse cenário e fornece uma opção interna no assistente de instalação para configurar isso, incluindo a configuração de âncoras para ingressar em identidades.  Escolha o seguinte: as identidades de usuário existem em vários diretórios. Match usando--> ObjectID e atributos msExchangeMasterAccountSID.
+ Para obter uma sincronização adequada de objeto e de atributo para o Azure AD em um [cenário de várias florestas no local](configure-a-multi-forest-environment-for-hybrid.md), a Microsoft recomenda usar o Azure ad Connect para sincronizar de todas as florestas que possuem contas de usuário e floresta que contenham o Skype for Business.  Supondo que você sincronize de todas as florestas, você deve configurar o Azure AD Connect para mesclar essas identidades e sincronizar com o Azure AD. O Azure AD Connect foi projetado para lidar com esse cenário e fornece uma opção interna no assistente de instalação para configurar isso, incluindo a configuração de âncoras para ingressar em identidades.  Escolha o seguinte: as identidades de usuário existem em vários diretórios. Match usando--> ObjectID e atributos msExchangeMasterAccountSID.
 
 
 ### <a name="multiple-skype-for-business-server-deployments-in-multiple-forests"></a>Várias implantações do Skype for Business Server em várias florestas 

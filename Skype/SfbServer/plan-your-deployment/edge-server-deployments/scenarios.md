@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: 'Resumo: revise esses cenários para ajudá-lo a planejar a topologia do servidor de borda no Skype for Business Server.'
-ms.openlocfilehash: f978d3ac5da0611808b09c7556302f52478d95ee
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 64d38b5c9b4a32991bf87bd6ba8af87c92db115f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277150"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41754161"
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>Cenários do servidor de borda no Skype for Business Server
  
@@ -93,11 +93,4 @@ Também temos um diagrama para pools de bordas consolidadas em escala com balanc
 Com este cenário, você poderá ter alta disponibilidade em sua implantação de Borda, o que oferece vantagens de escalabilidade e suporte a failover.
   
 ![Cenário de borda para borda consolidada dimensionada com HLB](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeHLB.jpg)
-  
-### <a name="port-diagram"></a>Diagrama de porta
-
-Também temos um diagrama para pools de bordas consolidadas dimensionadas com balanceamento de carga de hardware
-  
-![Portas e protocolos de rede do perímetro do servidor de borda](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeHLB.jpg)
-  
-
+ 

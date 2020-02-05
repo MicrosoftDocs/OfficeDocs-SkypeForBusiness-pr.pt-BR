@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
 description: 'Resumo: saiba como modificar as configurações de configuração de tronco SIP usando o painel de controle do Skype for Business Server.'
-ms.openlocfilehash: 6db2ddcf0155a599d8604bce2e3d5b5d34d6df20
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 137407525319f729eae28d91cfac8cd3aa1b456d
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240277"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767094"
 ---
 # <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Modificar as configurações de tronco SIP no Skype for Business Server
  
@@ -51,11 +53,11 @@ Ao modificar as configurações de tronco SIP usando o painel de controle do Sky
 |Habilitar dados de encaminhamento P-Asserted-Identity  <br/> |ForwardPAI  <br/> |Indica se o header de P-Asserted-Identity (PAI) será encaminhado junto com a chamada. O header PAI oferece uma forma de verificar a identidade do chamador.  <br/> |
 |Habilitar timer de failover do roteamento de saída  <br/> |EnableFastFailoverTimer  <br/> |Indica se chamadas de saída não atendidas pelo gateway em 10 segundos serão roteadas ao próximo tronco disponível; se não houver troncos adicionais, a chamada cairá automaticamente. Em uma empresa com redes e respostas de gateway lentas, que poderia resultar em chamadas desligadas desnecessariamente.  <br/> |
 |Uso associado de PSTNsages  <br/> |PSTNUsages  <br/> |Conjunto de usos PSTN atribuídos ao tronco.  <br/> |
-|Número convertido para testar  <br/> |N/D  <br/> |Número de telefone que pode ser usado para um teste ad hoc de configurações do tronco.  <br/> |
+|Número convertido para testar  <br/> |Não disponível  <br/> |Número de telefone que pode ser usado para um teste ad hoc de configurações do tronco.  <br/> |
 |Regras de conversão associadas  <br/> |OutboundTranslationRulesList  <br/> |Coleção de regras de conversão de números de telefone que se aplicam a chamadas tratadas pelo Roteamento de saída (chamadas roteadas para destinos de PBX ou PSTN).  <br/> |
 |Regras de conversão do número chamado  <br/> |OutboundCallingNumberTranslationRulesList  <br/> |Conjunto de regras de conversão de número de chamada de saída atribuídas ao tronco.  <br/> |
-|Número de telefone a ser de testado.  <br/> |N/D  <br/> |Número de telefone que pode ser usado para um teste ad hoc das regras de conversão.  <br/> |
-|Número de chamada  <br/> |N/D  <br/> |Indica que o número de telefone a ser testado é o número do chamador.  <br/> |
+|Número de telefone a ser de testado.  <br/> |Não disponível  <br/> |Número de telefone que pode ser usado para um teste ad hoc das regras de conversão.  <br/> |
+|Número de chamada  <br/> |Não disponível  <br/> |Indica que o número de telefone a ser testado é o número do chamador.  <br/> |
 |Número chamado  <br/> |N/D  <br/> |Indica que o número de telefone a ser testado é o número da pessoa sendo chamada.  <br/> |
    
 > [!NOTE]

@@ -5,6 +5,8 @@ author: CarolynRowe
 manager: serdars
 ms.reviewer: bjwhalen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -16,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Resumo: em uma implantação local do Skype for Business Server que está habilitada para o híbrido, você pode mover os usuários entre o ambiente local e a nuvem (seja no Microsoft Teams ou no Skype for Business online)..'
-ms.openlocfilehash: b7e3ecc46af5a3043848d9291394c0bff7835883
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0f0a29ab88f17c80227e6dc6968be85457dc799e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160372"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726761"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>Mover usuários entre o local e a nuvem
 
@@ -55,7 +57,7 @@ Quando um usuário é movido do local para a nuvem:
 Para mover os usuários entre o local e a nuvem (seja o Microsoft Teams ou o Skype for Business online), use o cmdlet Move-CsUser ou o painel de controle de administração do Skype for Business, ambos são ferramentas locais. Essas ferramentas dão suporte a três caminhos de movimentação diferentes:
 
 - [Do Skype for Business Server (local) para o Skype for Business online](move-users-from-on-premises-to-skype-for-business-online.md).
-- [Do Skype for Business Server (local) diretamente para](move-users-from-on-premises-to-teams.md) o Microsoft Teams (que também as move para o Skype for Business online).  A opção de mover diretamente do local para o Microsoft Teams está disponível no Skype for Business Server 2019, bem como na atualização cumulativa 8 para o Skype for Business Server 2015. As organizações que usam versões anteriores do Skype for Business Server podem mover os usuários para o Microsoft Teams apenas movendo-os para o Skype for Business Online e, em seguida, aplicando o modo TeamsOnly a esses usuários quando estiverem online.
+- [Do Skype for Business Server (local) diretamente para o Microsoft Teams](move-users-from-on-premises-to-teams.md) (que também os move para o Skype for Business online).  A opção de mover diretamente do local para o Microsoft Teams está disponível no Skype for Business Server 2019, bem como na atualização cumulativa 8 para o Skype for Business Server 2015. As organizações que usam versões anteriores do Skype for Business Server podem mover os usuários para o Microsoft Teams apenas movendo-os para o Skype for Business Online e, em seguida, aplicando o modo TeamsOnly a esses usuários quando estiverem online.
 - [De online (seja apenas para equipes ou não), para o local](move-users-from-the-cloud-to-on-premises.md).
 
 ## <a name="required-administrative-credentials"></a>Credenciais administrativas necessárias

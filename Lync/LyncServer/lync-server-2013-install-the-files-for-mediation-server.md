@@ -3,6 +3,8 @@ title: 'Lync Server 2013: instalar os arquivos do servidor de mediação'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Install the files for Mediation Server
 ms:assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412998(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185772
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 60274ced1bf72a17b4c05b4908f60bde32323f12
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c84d5fc2c863e0e56af275a4bee084652742eeac
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34829004"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763675"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ Neste site, se você já implantou servidores de mediação posicionados nos poo
 
 
 > [!NOTE]  
-> Este tópico pressupõe que você já definiu e publicou um pool autônomo do servidor de mediação, conforme descrito em <A href="lync-server-2013-define-a-mediation-server-in-topology-builder.md">definir um servidor de mediação no construtor de topologias no Lync server 2013</A> e <A href="lync-server-2013-publish-the-topology.md">publicar a topologia no Lync Server 2013</A> na implantação documentação e se você verificou que os computadores no pool do servidor de mediação atendem aos pré-requisitos descritos em <A href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">pré-requisitos de software para o Enterprise Voice no Lync Server 2013</A> e <A href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">pré-requisitos de segurança e configuração para Enterprise Voice no Lync Server 2013</A>.
+> Este tópico pressupõe que você já definiu e publicou um pool autônomo do servidor de mediação, conforme descrito em <A href="lync-server-2013-define-a-mediation-server-in-topology-builder.md">definir um servidor de mediação no construtor de topologias no Lync server 2013</A> e <A href="lync-server-2013-publish-the-topology.md">publicar a topologia no Lync Server 2013</A> na documentação de implantação e que você verificou que os computadores no pool do servidor de mediação atendem aos pré-requisitos descritos em <A href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">pré-requisitos de software para o enterprise Voice no Lync Server 2013</A> e <A href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">pré-requisitos de segurança e configuração para empresas Voz no Lync Server 2013</A>.
 
 
 
@@ -81,7 +83,7 @@ Neste site, se você já implantou servidores de mediação posicionados nos poo
 
 13. No computador em que você está executando o painel de controle do Lync Server, verifique na página **Topology** do painel de controle do Lync Server que o status do serviço do servidor de mediação é mostrado como uma marca de seleção verde. Se um X vermelho é exibido, selecione o Servidor de Mediação. No menu **Ações**, clique em **Iniciar todos os serviços**.
 
-Se você adicionou mais de um computador ao pool do servidor de mediação, execute as etapas neste procedimento em todos os outros computadores no pool do servidor de mediação. Se você não precisar instalar arquivos para o servidor de mediação para qualquer outro computador, siga os procedimentos em [Configurando troncos no Lync server 2013](lync-server-2013-configuring-trunks.md) para definir configurações para a conexão de tronco entre este pool de servidores de mediação (ou toda a mediação Servidores em um site) e seu par.
+Se você adicionou mais de um computador ao pool do servidor de mediação, execute as etapas neste procedimento em todos os outros computadores no pool do servidor de mediação. Se você não precisar instalar arquivos para o servidor de mediação para qualquer outro computador, siga os procedimentos em [Configurando troncos no Lync server 2013](lync-server-2013-configuring-trunks.md) para definir configurações para a conexão de tronco entre este pool de servidores de mediação (ou todos os servidores de mediação em um site) e seu par.
 
 </div>
 

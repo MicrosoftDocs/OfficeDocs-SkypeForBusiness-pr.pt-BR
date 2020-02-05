@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
 description: 'Resumo: saiba como definir, criar e modificar uma regra de normalização no Skype for Business Server.'
-ms.openlocfilehash: af0f09710d427dc97a919468b5decfa9ef3d93fa
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c206bd20c02053f4e3775f32b1ba61000bb59a63
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240257"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767084"
 ---
 # <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>Criar ou modificar uma regra de normalização no Skype for Business
 
@@ -33,19 +35,19 @@ Definir, criar e modificar regras de normalização no Skype for Business Server
 
 2. Adicionais Siga as etapas em [criar ou modificar um plano de discagem no Skype for Business Server](dial-plans.md) por meio da etapa 11 ou [modificar um plano de discagem](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx) por meio da etapa 10.
 
-3. Em **nova regra** de normalização ou **Editar regra**de normalização, digite um nome que descreva o padrão de número que está normalizado em **nome** (por exemplo, 5DigitExtension).
+3. Em **nova regra de normalização** ou **Editar regra de normalização**, digite um nome que descreva o padrão de número que está normalizado em **nome** (por exemplo, 5DigitExtension).
 
 4. (Opcional) Em **Descrição**, digite uma descrição da regra de normalização (por exemplo, "Converte extensões de cinco dígitos").
 
 5. Em **Compilar uma Regra de Normalização**, digite valores nos campos a seguir:
 
-   - **Dígitos iniciais** Adicionais Especifique os dígitos à esquerda dos números discados para os quais você deseja que o padrão corresponda. Por exemplo, type425 se quiser que o padrão corresponda a números discados começando com 425.
+   - **Dígitos iniciais** (opcional) especifique os dígitos à esquerda dos números discados para os quais você deseja que o padrão corresponda. Por exemplo, type425 se quiser que o padrão corresponda a números discados começando com 425.
 
    - **Comprimento** Especifique o número de dígitos no padrão de correspondência e selecione se deseja que o padrão corresponda exatamente a esse comprimento, corresponda aos números discados que tenham pelo menos esse comprimento ou coincidam com os números discados de qualquer comprimento.
 
-   - **Dígitos a serem removidos** Adicionais Especifique o número de dígitos iniciais a serem removidos dos números discados para os quais você deseja que o padrão corresponda.
+   - **Dígitos a serem** removidos (opcional) especifique o número de dígitos iniciais a serem removidos dos números discados que você deseja que o padrão corresponda.
 
-   - **Dígitos a serem adicionados** Adicionais Especifique os dígitos a serem adicionados aos números discados para os quais você deseja que o padrão corresponda.
+   - **Dígitos para adicionar** (opcional) especifique os dígitos a serem adicionados aos números discados para os quais você deseja que o padrão corresponda.
 
      Os valores inseridos nesses campos são refletidos em **Padrão a ser correspondido** e **Regra de conversão**. Por exemplo, se você deixar os **dígitos iniciais** vazios, type7 no campo **comprimento** e selecionar **exatamente**e especificar 0 em **dígitos a remover**, a expressão regular resultante no **padrão a ser CORRESP** será:
 
@@ -81,7 +83,7 @@ Definir, criar e modificar regras de normalização no Skype for Business Server
 
 2. Adicionais Siga as etapas em [criar ou modificar um plano de discagem no Skype for Business Server](dial-plans.md).
 
-3. Em **nova regra** de normalização ou **Editar regra**de normalização, digite um nome que descreva o padrão de número que está normalizado em **nome** (por exemplo, nomeie a normalização rule5DigitExtension).
+3. Em **nova regra de normalização** ou **Editar regra de normalização**, digite um nome que descreva o padrão de número que está normalizado em **nome** (por exemplo, nomeie a normalização rule5DigitExtension).
 
 4. (Opcional) No campo **Descrição**, digite uma descrição da regra de normalização (por exemplo, "Traduzir extensões de 5 dígitos").
 

@@ -5,16 +5,18 @@ author: dstrome
 ms.author: dstrome
 manager: serdars
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 localization_priority: Normal
 ms.prod: skype-for-business-itpro
 description: Este tópico aborda o que você precisa considerar ao decidir migrar suas implantações existentes do Skype for Business Server ou do Exchange Server para a versão mais recente ou para o Skype for Business online ou o Exchange Online.
-ms.openlocfilehash: 864a777c1fcb483df7f3779e9b105c1af551748e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 072720499ac91942d5f1fdbdbe05fffe2de4db05
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237466"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755995"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Planejar a migração do Skype for Business Server e do Exchange Server
 
@@ -37,7 +39,7 @@ Se você implantou a função de UM no Exchange 2013 ou o serviço de UM no Exch
 
 ### <a name="pbx-support-in-exchange-2019-and-skype-for-business-server-2019"></a>Suporte de PBX no Exchange 2019 e no Skype for Business Server 2019
 
-A caixa postal na nuvem não fornece funcionalidade de mensagens de voz para trocas de filiais (PBXs) privadas. Se você estiver usando a Unificação de mensagens do Exchange Server para PBXs e quiser atualizar para o Exchange Server 2019, será necessário adotar uma das três opções listadas na nova data de postagem do blog [para descontinuação do suporte para controladores de borda de sessão no Exchange Unificação de mensagens online](https://blogs.technet.microsoft.com/exchange/2018/04/24/new-date-for-discontinuation-of-support-for-session-border-controllers-in-exchange-online-unified-messaging/) no [blog da equipe do Exchange](https://blogs.technet.microsoft.com/exchange/).
+A caixa postal na nuvem não fornece funcionalidade de mensagens de voz para trocas de filiais (PBXs) privadas. Se você estiver usando a Unificação de mensagens do Exchange Server para PBXs e quiser atualizar para o Exchange Server 2019, você precisará adotar uma das três opções listadas na [nova data de postagem do blog para descontinuação do suporte para controladores de borda de sessão na Unificação de mensagens do Exchange Online](https://blogs.technet.microsoft.com/exchange/2018/04/24/new-date-for-discontinuation-of-support-for-session-border-controllers-in-exchange-online-unified-messaging/) no [blog da equipe do Exchange](https://blogs.technet.microsoft.com/exchange/).
 
 ### <a name="exchange-online-um-support-in-skype-for-business-server-2019"></a>Suporte a UM do Exchange Online no Skype for Business Server 2019
 

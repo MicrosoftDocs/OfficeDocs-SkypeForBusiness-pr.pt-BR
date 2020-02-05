@@ -5,17 +5,19 @@ author: jambirk
 manager: serdars
 ms.reviewer: wasseemh
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Visão geral do uso de um atendedor automático na nuvem com o Skype for Business Server 2019.
-ms.openlocfilehash: bcb1f14ed9dfc3471b146a318a97700c362f115c
-ms.sourcegitcommit: 868db85f0126e8f56d711ea590ad44acce8f96f6
+ms.openlocfilehash: 24a0bba82ef38288f5c96cc7c51ce1bfb88c8f05
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "36160401"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735221"
 ---
 # <a name="plan-cloud-call-queues"></a>Planejar filas de chamada em nuvem
 
@@ -26,16 +28,16 @@ Além disso, as filas de chamadas em nuvem podem fornecer:
 - Música enquanto os chamadores estão aguardando em espera
 - Configurações personalizadas para o tamanho máximo, tempo limite e opções de tratamento de chamadas da fila de chamadas
 
-Cada fila de chamada é atribuída a uma **conta de recurso** (consulte [Configure Resource](configure-onprem-ra.md)accounts) no seu sistema Skype for Business Server 2019 que será vinculada diretamente a uma fila de chamada no centro de administração do Microsoft Teams. Consulte [criar uma fila de chamada em nuvem](/MicrosoftTeams/create-a-phone-system-call-queue) para obter mais detalhes sobre quais filas de chamadas são e quais opções e recursos existem para filas de chamadas.
+Cada fila de chamada é atribuída a uma **conta de recurso** (consulte [Configure Resource accounts](configure-onprem-ra.md)) no seu sistema Skype for Business Server 2019 que será vinculada diretamente a uma fila de chamada no centro de administração do Microsoft Teams. Consulte [criar uma fila de chamada em nuvem](/MicrosoftTeams/create-a-phone-system-call-queue) para obter mais detalhes sobre quais filas de chamadas são e quais opções e recursos existem para filas de chamadas.
 
 > [!NOTE]
 > Você pode atribuir vários números de telefone a uma fila de chamadas, mas eles devem ser números de serviço da Microsoft ou números híbridos.
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Os requisitos a seguir pressupõem que você já tenha o Skype for Business Server 2019 implantado em uma topologia com suporte.  Seus requisitos dependem do cenário:
 
-- Para uma nova configuração de filas de chamada em nuvem, siga as etapas descritas em [Configure Resource](configure-onprem-ra.md)accounts. Você precisará criar contas de recurso online ou no Skype for Business Server 2019, e talvez também precise associar um número de telefone à fila de chamadas.
+- Para uma nova configuração de filas de chamada em nuvem, siga as etapas descritas em [Configure Resource accounts](configure-onprem-ra.md). Você precisará criar contas de recurso online ou no Skype for Business Server 2019, e talvez também precise associar um número de telefone à fila de chamadas.
 
 Além dos requisitos acima, os requisitos a seguir devem ser configurados para se conectar ao serviço de fila de chamadas da nuvem da Microsoft:
 
@@ -49,7 +51,7 @@ Além dos requisitos acima, os requisitos a seguir devem ser configurados para s
 
 ## <a name="additional-planning-resources"></a>Recursos adicionais de planejamento
 
-O tutorial intitulado [Small Business exemplo-configurar um atendedor automático](/microsoftteams/tutorial-org-aa) passa pelo processo de coleta de informações sobre as necessidades do usuário, planejando uma estrutura de atendedores automáticos e usuários (e possivelmente filas de chamadas), gravando os prompts de menu e implementar o plano no centro de administração online. revisar o tutorial e usar os exercícios não crie seu plano.
+O tutorial intitulado [Small Business exemplo-configurar um atendedor automático](/microsoftteams/tutorial-org-aa) passa pelo processo de reunir informações sobre as necessidades do usuário, planejar uma estrutura de atendedores automáticos e usuários (e possivelmente filas de chamadas), escrever os prompts de menu e implementar o plano no centro de administração online. revisar o tutorial e usar os exercícios não crie seu plano.
 
 Quando você tem uma estrutura sólida que atende às suas necessidades e um script que orienta os clientes com eficiência, prossiga para [Configurar contas de recursos](configure-onprem-ra.md).
 

@@ -5,21 +5,23 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Visão geral do uso das ferramentas de telemetria do Skype for Business online para monitorar uma implementação local em um cenário híbrido.
-ms.openlocfilehash: 3300ad17b109ac069c4f7382f610dd0214b30197
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 910bfe2a1af1f39976d0098aeb1fd23a7ef31490
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328423"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765229"
 ---
 # <a name="plan-call-data-connector"></a>Planejar o Call data Connector
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 Este tópico descreve os benefícios, as considerações de planejamento e os requisitos para implementar o conector de dados de chamadas do Skype for Business Server. Para obter mais informações sobre a configuração do conector de dados de chamadas, consulte [Configure Call data Connector](configure-call-data-connector.md).
 
@@ -52,7 +54,7 @@ Obviamente, você pode querer manter alguns dados de qualidade de chamada no loc
 
 ![Caixa postal em nuvem do SfB](../../sfbserver2019/media/call-data-connector-plan-2.png)
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Os requisitos a seguir pressupõem que você já tenha o Skype for Business Server implantado em uma topologia com suporte.  Para obter mais informações sobre a implantação do Skype for Business Server e topologias com suporte, consulte [Basics Topology](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/topology-basics/topology-basics). Para configurar o Call data Connector, você deve:
 
@@ -63,7 +65,7 @@ Os requisitos a seguir pressupõem que você já tenha o Skype for Business Serv
 - Autentique o seu locatário do Office 365 e assegure-se de ter as seguintes funções habilitadas:
 
   - Administrador do Skype for Business Server
-  - Administrador global do Office 365
+  - Administrador Global do Office 365
 
 - Se você ainda não tiver feito isso, ative o painel de qualidade de chamada conforme descrito em [ativando e usando o painel de qualidade de chamada para o Microsoft Teams e o Skype for Business online](/microsoftteams/turning-on-and-using-call-quality-dashboard).
 

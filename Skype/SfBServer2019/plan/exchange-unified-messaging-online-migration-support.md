@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: A Microsoft está desativando o serviço online de Unificação de mensagens do Exchange (ExchUMO) em fevereiro de 2020. Este artigo resume o que os clientes afetados devem saber e fazer para planejar sua continuidade de negócios.
-ms.openlocfilehash: 55382780fe6ef1c67cbecc1f6c997809f9173b8a
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: 1518bf9d5c45b4d53ee2934bb996978b82159617
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628667"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737121"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Suporte à migração da Unificação de Mensagens do Exchange Online
 
-Em referência ao [anúncio](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) em 8 de fevereiro de 2019, a Microsoft está desativando o serviço do Exchange Unified Messaging online (ExchUMO) até 2020 de fevereiro. Este artigo oferece um resumo do que os clientes afetados devem saber e fazer para planejar sua continuidade de negócios.
+Em referência ao [anúncio](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) em 8 de fevereiro de 2019, a Microsoft está desativando o serviço Exchange Unified Messaging online (ExchUMO) até 28 de fevereiro de 2020. Este artigo oferece um resumo do que os clientes afetados devem saber e fazer para planejar sua continuidade de negócios.
  
 O ExchUMO é implantado por clientes para correio de voz, atendedor automático, fila de chamadas e serviços de integração de fax. A Microsoft planeja ajudar os clientes a migrar para serviços de sistema telefônico que já dão suporte a milhares de clientes no Skype for Business Online e no Microsoft Teams.
 
@@ -77,7 +77,7 @@ A Microsoft identificou várias implantações de clientes que estão consumindo
     Procure um aviso no centro de notificações de administração com detalhes adicionais e linha do tempo sobre a migração dos seus usuários. As notificações são enviadas pelo menos 30 dias antes do período de migração. 
 
     > [!Note]
-    > Se você recebeu uma notificação com a linha do tempo de migração dos seus usuários e gostaria de adiar a migração para um motivo crítico para os negócios, você pode fazer isso entrando em contato com o suporte da Microsoft. Observe que não é possível adiar a migração para além da data de aposentadoria, de fevereiro de 2020. Para clientes que podem ter mais dúvidas, entre em contato com a equipe da sua conta ou com o suporte da Microsoft. Os clientes que já usam o Office 365 podem enviar um caso de suporte por meio do portal de administração do Office 365. 
+    > Se você recebeu uma notificação com a linha do tempo de migração dos seus usuários e gostaria de adiar a migração para um motivo crítico para os negócios, você pode fazer isso entrando em contato com o suporte da Microsoft. Observe que não é possível adiar a migração para além da data de aposentadoria, 28 de fevereiro de 2020. Para clientes que podem ter mais dúvidas, entre em contato com a equipe da sua conta ou com o suporte da Microsoft. Os clientes que já usam o Office 365 podem enviar um caso de suporte por meio do portal de administração do Office 365. 
 
 6. **Considere optar por uma migração planejada**
 

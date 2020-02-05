@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Tabela SessionDetails'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: SessionDetails table
 ms:assetid: 783d2508-e31f-4b54-be0c-63aa5ec21c04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398589(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184559
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: faebef9ad03370c2fa969d3b119f13b88d1d3173
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b68c50fc17199c68a69c5a7c6dd6abc8a5bd1dac
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822108"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764789"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -66,7 +68,7 @@ Observe que os campos IsUser1IntegratedWithDeskPhone e IsUser2IntegratedWithDesk
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primário, estrangeiro</p></td>
-<td><p>Número de identificação para identificar a sessão. Usado em conjunto com <strong></strong> a identificação_da_sessãotime para identificar exclusivamente uma sessão. * consulte a <a href="lync-server-2013-dialogs-table.md">tabela de caixas de diálogo no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>Número de identificação para identificar a sessão. Usado em conjunto com a <strong>identificação_da_sessãotime</strong> para identificar exclusivamente uma sessão. * consulte a <a href="lync-server-2013-dialogs-table.md">tabela de caixas de diálogo no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CorrelationId</strong></p></td>
@@ -265,7 +267,7 @@ Observe que os campos IsUser1IntegratedWithDeskPhone e IsUser2IntegratedWithDesk
 </tr>
 <tr class="even">
 <td><p>APP_SHARING</p></td>
-<td><p>08</p></td>
+<td><p>8</p></td>
 </tr>
 <tr class="odd">
 <td><p>ÁUDIO</p></td>

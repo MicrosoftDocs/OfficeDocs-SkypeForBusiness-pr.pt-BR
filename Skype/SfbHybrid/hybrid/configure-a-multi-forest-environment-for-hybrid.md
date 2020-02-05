@@ -6,6 +6,8 @@ author: CarolynRowe
 manager: serdars
 audience: ITPro
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -16,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: As seções a seguir fornecem orientação sobre como configurar um ambiente com várias florestas em um modelo de floresta de recursos/usuários para fornecer a funcionalidade do Skype for Business em um cenário híbrido.
-ms.openlocfilehash: 7ef895648c044dc5d1f3f907ad4f75d950a4253a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f018699040fc202cbe827a2b8b05bd1f4371e190
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160380"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726941"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>Implantar uma topologia de floresta de recursos
  
@@ -59,7 +61,7 @@ Para obter a sincronização de identidade adequada, os seguintes atributos prec
 |**Florestas de usuários**|**Florestas de recursos**|
 |:-----|:-----|
 |atributo de link da conta escolhida  <br/> |atributo de link da conta escolhida  <br/> |
-|Email  <br/> |Email  <br/> |
+|email  <br/> |email  <br/> |
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    
@@ -97,7 +99,7 @@ Depois de implantado, você terá que editar a regra de declarações para corre
   
 ## <a name="configure-aad-connect"></a>Configurar o AAD Connect
 
-Nas topologias de floresta de recursos, é necessário que os atributos de usuário da floresta de recursos e de quaisquer florestas de conta estejam sincronizados com o Azure AD. A maneira mais simples e recomendada de fazer isso é fazer com que o Azure AD Connect Sincronize e mescle as identidades de usuário de *todas as* florestas que têm as contas de usuário e a floresta que contêm o Skype for Business. Para obter detalhes, confira [Configurar o Azure ad Connect para o Skype for Business e](configure-azure-ad-connect.md)o Microsoft Teams.
+Nas topologias de floresta de recursos, é necessário que os atributos de usuário da floresta de recursos e de quaisquer florestas de conta estejam sincronizados com o Azure AD. A maneira mais simples e recomendada de fazer isso é fazer com que o Azure AD Connect Sincronize e mescle as identidades de usuário de *todas as* florestas que têm as contas de usuário e a floresta que contêm o Skype for Business. Para obter detalhes, confira [Configurar o Azure ad Connect para o Skype for Business e o Microsoft Teams](configure-azure-ad-connect.md).
 
 Observe que o AAD Connect não fornece sincronização local entre as florestas de conta e de recurso. Isso deve ser configurado separadamente usando o Microsoft Identity Manager ou produto semelhante, conforme descrito anteriormente.
   
@@ -117,7 +119,7 @@ O AAD Connect deve ser instalado usando os padrões, exceto o seguinte:
     
 2. Conecte seus diretórios: Adicione todos os domínios.
     
-3. Identificar usuários nos diretórios locais: selecione as identidades do **usuário em vários diretórios**e selecione os atributos **** **msExchangeMasterAccountSID** e.
+3. Identificar usuários nos diretórios locais: **selecione as** **identidades do usuário em vários diretórios**e selecione os atributos **msExchangeMasterAccountSID** e.
     
 4. Identificar usuários no Azure AD: âncora de origem: selecione o atributo que você escolheu após a leitura [selecionando um bom atributo atributo](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/), nome principal do usuário- **userPrincipalName**.
     
@@ -138,6 +140,6 @@ Siga as práticas recomendadas para configurar o Skype for Business híbrido. Pa
   
 ## <a name="configure-hybrid-connectivity-for-exchange-server"></a>Configurar a conectividade híbrida para o Exchange Server
 
-Se necessário, siga as práticas recomendadas para configurar o Exchange híbrido. Para obter mais informações, consulte implantações híbridas do [Exchange Server](https://docs.microsoft.com/en-us/exchange/exchange-hybrid). 
+Se necessário, siga as práticas recomendadas para configurar o Exchange híbrido. Para obter mais informações, consulte [implantações híbridas do Exchange Server](https://docs.microsoft.com/en-us/exchange/exchange-hybrid). 
   
 

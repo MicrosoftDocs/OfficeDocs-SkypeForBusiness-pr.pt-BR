@@ -5,6 +5,8 @@ author: CarolynRowe
 manager: serdars
 ms.reviewer: bjwhalen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -15,16 +17,16 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Considerações de planejamento para implementar a conectividade híbrida entre o Skype for Business Server e o Skype for Business online ou o Teams.
-ms.openlocfilehash: 65e0f19e536cb2ec9b92fc73a1abb938be3b3c7c
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 55986df708c1ce190605ecef77b3789ae7e55db5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715824"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756005"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Planejar a conectividade híbrida entre o Skype for Business Server e o Office 365
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 Leia este tópico para saber como planejar a conectividade híbrida entre o Skype for Business Server e o Teams ou o Skype for Business online. A configuração da conectividade híbrida é a primeira etapa para mover o ambiente local para a nuvem.
 
@@ -144,7 +146,7 @@ Além disso, você precisa garantir que a resolução DNS descrita na tabela a s
 
 |Registro DNS  <br/> |Resolvível por  <br/> |Requisito de DNS  <br/> |
 |:-----|:-----|:-----|
-|Registro SRV de DNS para _sipfederationtls. _ TCP. \<sipdomain.com\> para todos os domínios SIP com suporte que resolvem os IP externos de borda de acesso  <br/> |Servidor (es) de borda  <br/> |Habilitar a comunicação federada em uma configuração híbrida. O servidor de borda precisa saber onde rotear o tráfego federado para o domínio SIP dividido entre o local e o online.  <br/> Deve usar o nome de DNS estrito correspondente entre o domínio no nome de usuário e o registro SRV.  <br/> |
+|Registro SRV de DNS para _sipfederationtls. _tcp. \<sipdomain.com\> para todos os domínios SIP com suporte que resolvem os IP externos de borda de acesso  <br/> |Servidor (es) de borda  <br/> |Habilitar a comunicação federada em uma configuração híbrida. O servidor de borda precisa saber onde rotear o tráfego federado para o domínio SIP dividido entre o local e o online.  <br/> Deve usar o nome de DNS estrito correspondente entre o domínio no nome de usuário e o registro SRV.  <br/> |
 |Registro (s) de DNS para o FQDN do serviço de webconferência de borda, por exemplo, webcon.contoso.com resolvendo IP (s) externo de borda de Webconferência  <br/> |Computadores de usuários conectados à rede corporativa interna  <br/> |Permitir que os usuários online apresentem ou exibam conteúdo em reuniões hospedadas no local. O conteúdo inclui arquivos do PowerPoint, quadros de comunicações, pesquisas e anotações compartilhadas.  <br/> |
 
 Dependendo de como o DNS é configurado em sua organização, talvez seja necessário adicionar esses registros à zona de DNS hospedada internamente para o (s) domínio (s) SIP correspondente para fornecer resolução DNS interna a esses registros.

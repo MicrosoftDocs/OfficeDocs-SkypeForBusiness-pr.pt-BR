@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 description: 'Resumo: Saiba mais sobre os pré-requisitos de segurança e configuração para o Enterprise Voice no Skype for Business Server.'
-ms.openlocfilehash: 70acac97bd2a3554c0613f64bdbf93f64811a0b0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 314c25429dbf346a5f62705afa4f19a5b518452a
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240321"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767234"
 ---
 # <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>Pré-requisitos de configuração e segurança do Enterprise Voice no Skype for Business Server
  
@@ -59,7 +61,7 @@ Se você estiver implantando a carga de trabalho de Enterprise Voice no momento,
 
 Depois de verificar o software e os pré-requisitos ambientais do Enterprise Voice, você pode:
   
-- Instale o servidor de mediação, conforme descrito em [implantar um servidor de mediação no construtor de topologias no servidor do Skype for Business](deploy-a-mediation-server.md), mas somente se você quiser implantar um servidor de mediação autônomo ou um pool porque os servidores de mediação são instalados como parte do front-end grupo ou o processo de implantação do servidor Standard Edition quando posicionado.
+- Instale o servidor de mediação, conforme descrito em [implantar um servidor de mediação no construtor de topologias no servidor do Skype for Business](deploy-a-mediation-server.md), mas somente se você quiser implantar um servidor ou pool autônomo de mediação, pois os servidores de mediação são instalados como parte do processo de implantação do servidor do front-end ou da edição padrão quando posicionado.
     
 - Ou comece a definir as configurações para direcionar as chamadas para usuários do Enterprise Voice, conforme descrito em [Configurar troncos no Skype for Business Server](configure-trunks.md).
     

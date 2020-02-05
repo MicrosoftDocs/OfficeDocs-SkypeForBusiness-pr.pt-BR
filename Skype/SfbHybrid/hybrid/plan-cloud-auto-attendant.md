@@ -5,17 +5,19 @@ author: jambirk
 manager: serdars
 ms.reviewer: wasseemh
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Visão geral do uso de um atendedor automático na nuvem com o Skype for Business Server 2019
-ms.openlocfilehash: 635d9c6548ba807153876d63ad228f69646e93c8
-ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
+ms.openlocfilehash: d34e298db9cdd8f1bbd0378e37c6d9aae2b02726
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36207022"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724221"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Planejar atendedores automáticos de nuvem
 
@@ -23,7 +25,7 @@ O atendedor automático usado com a Unificação de mensagens do Exchange (Excha
 
 Isso significa inerentemente que você terá uma implementação híbrida do Skype for Business Server 2019 se quiser usar recursos de Unificação de mensagens, como atendedores automáticos. Confira [Configurar a conectividade híbrida entre o Skype for Business Server e o Office 365](configure-hybrid-connectivity.md) para obter detalhes.
 
-Um atendedor automático é um serviço de nuvem que aceita chamadas de clientes e toca Saudações, fornece a eles opções de menu e interage com os chamadores usando fala ou o dialpad para encaminhar as chamadas para o destino certo. Cada atendedor automático é atribuído a uma **conta de recurso** (consulte[Configure Resource](configure-onprem-ra.md)accounts) no seu sistema Skype for Business Server 2019 que será vinculado diretamente a um atendedor automático no centro de administração do Microsoft Teams. Veja [o que são atendedores automáticos de nuvem?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) para obter mais detalhes sobre os atendedores automáticos e quais opções e recursos existem para atendedores automáticos.
+Um atendedor automático é um serviço de nuvem que aceita chamadas de clientes e toca Saudações, fornece a eles opções de menu e interage com os chamadores usando fala ou o dialpad para encaminhar as chamadas para o destino certo. Cada atendedor automático é atribuído a uma **conta de recurso** (consulte[Configure Resource accounts](configure-onprem-ra.md)) no seu sistema Skype for Business Server 2019 que será vinculado diretamente a um atendedor automático no centro de administração do Microsoft Teams. Veja [o que são atendedores automáticos de nuvem?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) para obter mais detalhes sobre os atendedores automáticos e quais opções e recursos existem para atendedores automáticos.
 
 > [!NOTE]
 > Você pode atribuir vários números de serviço Microsoft ou híbridos a um atendedor automático.
@@ -41,13 +43,13 @@ Confira também:
 - [Configurar um atendedor automático na nuvem](/microsoftteams/create-a-phone-system-auto-attendant)
 - [Responder e rotear automaticamente chamadas de entrada](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
-## <a name="requirements"></a>Requisitos
+## <a name="requirements"></a>Requirements
 
 Os requisitos a seguir pressupõem que você já tenha o Skype for Business Server 2019 implantado em uma topologia com suporte.  Seus requisitos dependem do cenário:
 
 - Se você já estiver usando UM do Exchange Online ou local e atualizar para o Skype for Business 2019, será necessário capturar a estrutura dos atendedores automáticos e recriá-los na nuvem usando atendedores automáticos da nuvem. Para obter mais informações, consulte [movendo um atendedor automático do um do Exchange ou fila de chamada para o sistema de telefonia](configure-onprem-ra.md#moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system).
 
-- Para uma nova configuração de atendedores automáticos na nuvem, siga as etapas descritas em [Configure Resource](configure-onprem-ra.md)accounts.
+- Para uma nova configuração de atendedores automáticos na nuvem, siga as etapas descritas em [Configure Resource accounts](configure-onprem-ra.md).
 
 Além dos requisitos acima, os requisitos a seguir devem ser configurados para se conectar ao serviço de atendedor automático do Microsoft Cloud:
 
@@ -91,7 +93,7 @@ Consulte [movendo um atendedor automático do um do Exchange ou fila de chamada 
 
 ## <a name="additional-planning-resources"></a>Recursos adicionais de planejamento
 
-O tutorial intitulado [Small Business exemplo-configurar um atendedor automático](/microsoftteams/tutorial-org-aa) passa pelo processo de coleta de informações sobre as necessidades do usuário, planejando uma estrutura de atendedores automáticos e usuários (e possivelmente filas de chamadas), gravando os prompts de menu e implementar o plano no centro de administração do teams. Revise o tutorial e use os exercícios para criar seu plano.
+O tutorial intitulado [Small Business exemplo-configurar um atendedor automático](/microsoftteams/tutorial-org-aa) passa pelo processo de reunir informações sobre as necessidades do usuário, planejar uma estrutura de atendedores automáticos e usuários (e possivelmente filas de chamadas), escrever os prompts de menu e implementar o plano no centro de administração do teams. Revise o tutorial e use os exercícios para criar seu plano.
 
 Quando você tem uma estrutura sólida que atende às suas necessidades e um script que orienta os clientes com eficiência, prossiga para [Configurar contas de recursos](configure-onprem-ra.md).
 

@@ -14,17 +14,19 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 audience: ITPro
+f1.keywords:
+- NOCSH
 appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 description: Este artigo descreve como alcançar essa consolidação para organizações com a implantação local do Skype for Business (ou Lync), que pretende migrar para mover a carga de trabalho de UC para o Microsoft Teams e/ou para o Skype for Business online.
-ms.openlocfilehash: 33cbc823fd7aeece1591810d63d2ebf4a348237a
-ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
+ms.openlocfilehash: 7f3ad27404ec80e0592baa7174b01363f1aa0ed1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "37018840"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726951"
 ---
 # <a name="cloud-consolidation-for-teams-and-skype-for-business"></a>Consolidação de nuvem para Teams e Skype for Business
 
@@ -130,7 +132,7 @@ As etapas no exemplo canônica acima supõem que a organização começa com dua
         - Se quiser sincronizar qualquer outra floresta do Skype for Business no AAD antes de concluir a migração da organização híbrida, a organização deve executar a etapa 7 (desabilitar todos os domínios SIP online em qualquer outra implantação local do Skype for Business que será Sincronize no AAD) e habilite o AAD Connect e, em seguida, continue com a etapa 10 (encerre a implantação híbrida original).       
                 **Figura E**<br>
                 ![Figura E diagrama](../media/cloudconsolidationfige.png)
-- Uma organização pura do Skype for Business online (que pode ou não estar usando o Microsoft Teams) que agrupa com uma organização local do Skype for Business separada. Depois que essa organização desabilitar o domínio SIP online para a organização local e habilitar o AAD Connect para a organização do Skype for Business local, ele se parece com a organização hipotética mostrada na **[Figura C](#figure-c)** que concluiu as etapas 1-11.
+- Uma organização pura do Skype for Business online (que pode ou não estar usando o Microsoft Teams) que agrupa com uma organização local do Skype for Business separada. Depois que essa organização desabilitar o domínio SIP online para a organização local e habilitar o AAD Connect para a organização do Skype for Business local, ele se parece com a organização hipotética mostrada na **[Figura C](#figure-c)** que concluiu as etapas de 1-11.
 
 ## <a name="limitations"></a>Limitações
 
