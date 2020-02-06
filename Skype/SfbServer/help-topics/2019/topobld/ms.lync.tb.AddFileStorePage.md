@@ -7,25 +7,27 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddFileStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e144ad2-6d28-4fad-8f01-2758f23e79db
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para definir um novo armazenamento de arquivos, especifique o seguinte:'
-ms.openlocfilehash: 868316abfa951e18bfdbb3c817204cef6ffdcba5
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5dbd01dd767e9815811c13487c233f5bae38d839
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689370"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798568"
 ---
-# <a name="add-file-store"></a><span data-ttu-id="f298d-103">Adicionar Repositóriod e Arquivos</span><span class="sxs-lookup"><span data-stu-id="f298d-103">Add File Store</span></span>
+# <a name="add-file-store"></a><span data-ttu-id="2f1e3-103">Adicionar Repositóriod e Arquivos</span><span class="sxs-lookup"><span data-stu-id="2f1e3-103">Add File Store</span></span>
  
-<span data-ttu-id="f298d-104">Para definir um novo armazenamento de arquivos, especifique o seguinte:</span><span class="sxs-lookup"><span data-stu-id="f298d-104">To define a new file store, specify the following:</span></span>
+<span data-ttu-id="2f1e3-104">Para definir um novo armazenamento de arquivos, especifique o seguinte:</span><span class="sxs-lookup"><span data-stu-id="2f1e3-104">To define a new file store, specify the following:</span></span>
   
-- <span data-ttu-id="f298d-105">O nome de domínio totalmente qualificado (FQDN) do servidor que hospedará o novo repositório de arquivos.</span><span class="sxs-lookup"><span data-stu-id="f298d-105">The fully qualified domain name (FQDN) of the server that will host the new file store.</span></span> <span data-ttu-id="f298d-106">O FQDN do servidor deve existir no sistema de nomes de domínio (DNS) antes de você publicar a topologia.</span><span class="sxs-lookup"><span data-stu-id="f298d-106">The server's FQDN must exist in the Domain Name System (DNS) before you publish the topology.</span></span>
+- <span data-ttu-id="2f1e3-105">O nome de domínio totalmente qualificado (FQDN) do servidor que hospedará o novo repositório de arquivos.</span><span class="sxs-lookup"><span data-stu-id="2f1e3-105">The fully qualified domain name (FQDN) of the server that will host the new file store.</span></span> <span data-ttu-id="2f1e3-106">O FQDN do servidor deve existir no sistema de nomes de domínio (DNS) antes de você publicar a topologia.</span><span class="sxs-lookup"><span data-stu-id="2f1e3-106">The server's FQDN must exist in the Domain Name System (DNS) before you publish the topology.</span></span>
     
-- <span data-ttu-id="f298d-107">O nome do compartilhamento de arquivos no servidor host.</span><span class="sxs-lookup"><span data-stu-id="f298d-107">The name of the file share on the host server.</span></span> <span data-ttu-id="f298d-108">O compartilhamento de arquivos deve existir antes da publicação da topologia.</span><span class="sxs-lookup"><span data-stu-id="f298d-108">The file share must exist before you publish the topology.</span></span> 
+- <span data-ttu-id="2f1e3-107">O nome do compartilhamento de arquivos no servidor host.</span><span class="sxs-lookup"><span data-stu-id="2f1e3-107">The name of the file share on the host server.</span></span> <span data-ttu-id="2f1e3-108">O compartilhamento de arquivos deve existir antes da publicação da topologia.</span><span class="sxs-lookup"><span data-stu-id="2f1e3-108">The file share must exist before you publish the topology.</span></span> 
     
 
