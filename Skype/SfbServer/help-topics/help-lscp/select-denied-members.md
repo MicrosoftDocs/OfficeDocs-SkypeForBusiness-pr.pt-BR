@@ -8,17 +8,19 @@ ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.SelectDeniedMembers
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 description: Um administrador de chat persistente pode criar e gerenciar categorias de sala de chat. Como parte da criação e do gerenciamento de categorias de salas de chat, um administrador de chat persistente pode configurar entidades de segurança (grupos/contêineres/usuários dos serviços de domínio Active Directory) que têm acesso a membros/criadores de salas de chat de uma categoria específica. Um administrador de chat persistente também pode adicionar DeniedMembers a uma categoria e essas são exclusões explícitas da lista de permissões. DeniedMembers substitui o que está no AllowedMembers.
-ms.openlocfilehash: c8b357abe49d794283b7165d9c5decdffaece275
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9b1ed2201849b2953dc65430b7821dab32ef293f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685874"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822244"
 ---
 # <a name="select-denied-members"></a>Selecionar Membros Negados
 

@@ -8,17 +8,19 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.PersistentChatPolicy
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb9e95b9-f69d-4545-970f-9dfdd93b0eff
 description: Você pode usar a página Política de Chat Persistente do grupo Chat Persistente para gerenciar políticas no nível global, de pool, de site ou de usuário, inclusive para configurar a política global padrão e criar uma ou mais políticas de usuário e de site para sua implantação. Se o servidor de chat persistente estiver habilitado para um usuário por política, o ambiente do servidor de chat persistente aparecerá no cliente.
-ms.openlocfilehash: 957956ce8537dd9f3ce08dd0919c7392a0c20810
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6692ef8314c3eb1ef38ade8cdbee26d3d76410ef
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41686184"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822504"
 ---
 # <a name="persistent-chat-policy"></a>Política de Chat Persistente
  

@@ -8,17 +8,19 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployStartServicesIntro
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 524c6ff0-d695-45e1-9c47-c68698f5f3ce
 description: Para iniciar serviços no servidor de funções do Skype for Business Server 2015 que você está implantando, examine a tela de introdução. Observe que os comandos emitidos para iniciar o Skype for Business Server não esperam que o serviço seja iniciado. Essa é uma iniciativa para iniciar os serviços, e você deve monitorar o status real dos serviços usando o Console de Gerenciamento Microsoft (MMC) dos Serviços do Windows. Clique em Avançar para começar a tarefa Iniciar Serviços.
-ms.openlocfilehash: 964ccd172595b1b7bcce365ce79a40e7b92dbca0
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fec6fd5ed6212e6c0cb71ca606ff8ddc4e561036
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41700696"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823295"
 ---
 # <a name="startservices-intro"></a>Iniciar Serviços (Introdução)
  
