@@ -7,27 +7,29 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: O servidor front-end não pode existir como um computador autônomo. Ele deve ser definido como um pool de front-end, mesmo se houver apenas um único computador no pool.
-ms.openlocfilehash: 64f0c4134f690005815591bce88b8d058c1bd007
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 93df9e293f7a1876d4a8b1f172472f708556f67f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244292"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813029"
 ---
-# <a name="remove-a-front-end-server-from-a-pool"></a><span data-ttu-id="6bcd2-104">Remover um Servidor Front-End de um pool</span><span class="sxs-lookup"><span data-stu-id="6bcd2-104">Remove a Front End Server from a pool</span></span>
+# <a name="remove-a-front-end-server-from-a-pool"></a><span data-ttu-id="227ea-104">Remover um Servidor Front-End de um pool</span><span class="sxs-lookup"><span data-stu-id="227ea-104">Remove a Front End Server from a pool</span></span>
 
-<span data-ttu-id="6bcd2-105">O servidor front-end não pode existir como um computador autônomo.</span><span class="sxs-lookup"><span data-stu-id="6bcd2-105">The Front End Server cannot exist as a stand-alone computer.</span></span> <span data-ttu-id="6bcd2-106">Ele deve ser definido como um pool de front-end, mesmo se houver apenas um único computador no pool.</span><span class="sxs-lookup"><span data-stu-id="6bcd2-106">It must be defined as a Front End pool, even if there is only a single computer in the pool.</span></span>
+<span data-ttu-id="227ea-105">O servidor front-end não pode existir como um computador autônomo.</span><span class="sxs-lookup"><span data-stu-id="227ea-105">The Front End Server cannot exist as a stand-alone computer.</span></span> <span data-ttu-id="227ea-106">Ele deve ser definido como um pool de front-end, mesmo se houver apenas um único computador no pool.</span><span class="sxs-lookup"><span data-stu-id="227ea-106">It must be defined as a Front End pool, even if there is only a single computer in the pool.</span></span>
   
-<span data-ttu-id="6bcd2-107">Este tópico orienta você pelo processo de remoção de um servidor front-end individual de um pool de front-end existente.</span><span class="sxs-lookup"><span data-stu-id="6bcd2-107">This topic guides you through the process of removing an individual Front End Server from an existing Front End pool.</span></span> <span data-ttu-id="6bcd2-108">Se o servidor front-end for o último servidor do pool ou se você estiver removendo o pool completamente, consulte [remover o pool de front-end ou o servidor Standard Edition](remove-front-end-pool-or-standard-edition-server.md).</span><span class="sxs-lookup"><span data-stu-id="6bcd2-108">If the Front End Server is the last server in the pool or if you are removing the pool completely, see [Remove Front End pool or Standard Edition server](remove-front-end-pool-or-standard-edition-server.md).</span></span> <span data-ttu-id="6bcd2-109">Não é necessário remover os servidores front-end individuais antes de remover o pool de front-ends.</span><span class="sxs-lookup"><span data-stu-id="6bcd2-109">There is no need to remove the individual Front End Servers before you remove the Front End pool.</span></span> <span data-ttu-id="6bcd2-110">Ao remover o pool, você remove cada servidor front-end.</span><span class="sxs-lookup"><span data-stu-id="6bcd2-110">When you remove the pool, you remove each Front End Server.</span></span>
+<span data-ttu-id="227ea-107">Este tópico orienta você pelo processo de remoção de um servidor front-end individual de um pool de front-end existente.</span><span class="sxs-lookup"><span data-stu-id="227ea-107">This topic guides you through the process of removing an individual Front End Server from an existing Front End pool.</span></span> <span data-ttu-id="227ea-108">Se o servidor front-end for o último servidor do pool ou se você estiver removendo o pool completamente, consulte [remover o pool de front-end ou o servidor Standard Edition](remove-front-end-pool-or-standard-edition-server.md).</span><span class="sxs-lookup"><span data-stu-id="227ea-108">If the Front End Server is the last server in the pool or if you are removing the pool completely, see [Remove Front End pool or Standard Edition server](remove-front-end-pool-or-standard-edition-server.md).</span></span> <span data-ttu-id="227ea-109">Não é necessário remover os servidores front-end individuais antes de remover o pool de front-ends.</span><span class="sxs-lookup"><span data-stu-id="227ea-109">There is no need to remove the individual Front End Servers before you remove the Front End pool.</span></span> <span data-ttu-id="227ea-110">Ao remover o pool, você remove cada servidor front-end.</span><span class="sxs-lookup"><span data-stu-id="227ea-110">When you remove the pool, you remove each Front End Server.</span></span>
   
-### <a name="to-remove-a-front-end-server-from-a-pool"></a><span data-ttu-id="6bcd2-111">Para remover um servidor front-end de um pool</span><span class="sxs-lookup"><span data-stu-id="6bcd2-111">To remove a Front End Server from a pool</span></span>
+### <a name="to-remove-a-front-end-server-from-a-pool"></a><span data-ttu-id="227ea-111">Para remover um servidor front-end de um pool</span><span class="sxs-lookup"><span data-stu-id="227ea-111">To remove a Front End Server from a pool</span></span>
 
-1. <span data-ttu-id="6bcd2-112">No servidor front-end do Skype for Business Server 2019, abra o construtor de topologias.</span><span class="sxs-lookup"><span data-stu-id="6bcd2-112">On the Skype for Business Server 2019 Front End Server, open Topology Builder.</span></span>
+1. <span data-ttu-id="227ea-112">No servidor front-end do Skype for Business Server 2019, abra o construtor de topologias.</span><span class="sxs-lookup"><span data-stu-id="227ea-112">On the Skype for Business Server 2019 Front End Server, open Topology Builder.</span></span>
     
-2. <span data-ttu-id="6bcd2-113">Navegue até o nó instalação herdada.</span><span class="sxs-lookup"><span data-stu-id="6bcd2-113">Navigate to the legacy install node.</span></span>
+2. <span data-ttu-id="227ea-113">Navegue até o nó instalação herdada.</span><span class="sxs-lookup"><span data-stu-id="227ea-113">Navigate to the legacy install node.</span></span>
     
-3. <span data-ttu-id="6bcd2-114">Expanda Pools de **front-end do Enterprise Edition**, expanda o pool de front-ends com o servidor front-end que você deseja remover, clique com o botão direito do mouse no servidor front-end que você deseja remover e clique em **excluir**.</span><span class="sxs-lookup"><span data-stu-id="6bcd2-114">Expand **Enterprise Edition Front End pools**, expand the Front End pool with the Front End Server that you want to remove, right-click the Front End Server that you want to remove, and then click **Delete**.</span></span>
+3. <span data-ttu-id="227ea-114">Expanda **pools de front-end do Enterprise Edition**, expanda o pool de front-ends com o servidor front-end que você deseja remover, clique com o botão direito do mouse no servidor front-end que você deseja remover e clique em **excluir**.</span><span class="sxs-lookup"><span data-stu-id="227ea-114">Expand **Enterprise Edition Front End pools**, expand the Front End pool with the Front End Server that you want to remove, right-click the Front End Server that you want to remove, and then click **Delete**.</span></span>
     
 
