@@ -7,59 +7,61 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: Você pode usar pools de front-ends para fornecer proteção à recuperação de desastre, mas isso não é obrigatório.
-ms.openlocfilehash: 73f7d7619efbfc82124507234ebea8ebbcf4a7e8
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 63b9c55aad2b31e01eec506ce28e54d2145ee636
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41002901"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41790079"
 ---
-# <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a><span data-ttu-id="14f3f-103">Implantar pools de front-end emparelhados para recuperação de desastres no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="14f3f-103">Deploy paired Front End pools for disaster recovery in Skype for Business Server</span></span>
+# <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a><span data-ttu-id="5eba1-103">Implantar pools de front-end emparelhados para recuperação de desastres no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="5eba1-103">Deploy paired Front End pools for disaster recovery in Skype for Business Server</span></span>
  
-<span data-ttu-id="14f3f-104">Você pode usar pools de front-ends para fornecer proteção à recuperação de desastre, mas isso não é obrigatório.</span><span class="sxs-lookup"><span data-stu-id="14f3f-104">You may decide to use paired Front End pools to provide disaster recovery protection, but doing so is not a requirement.</span></span>
+<span data-ttu-id="5eba1-104">Você pode usar pools de front-ends para fornecer proteção à recuperação de desastre, mas isso não é obrigatório.</span><span class="sxs-lookup"><span data-stu-id="5eba1-104">You may decide to use paired Front End pools to provide disaster recovery protection, but doing so is not a requirement.</span></span>
   
-<span data-ttu-id="14f3f-105">Você pode implantar facilmente a topologia de recuperação de desastres de pools front-end em par usando o construtor de topologias.</span><span class="sxs-lookup"><span data-stu-id="14f3f-105">You can easily deploy the disaster recovery topology of paired Front End pools using Topology Builder.</span></span> 
+<span data-ttu-id="5eba1-105">Você pode implantar facilmente a topologia de recuperação de desastres de pools front-end em par usando o construtor de topologias.</span><span class="sxs-lookup"><span data-stu-id="5eba1-105">You can easily deploy the disaster recovery topology of paired Front End pools using Topology Builder.</span></span> 
   
-## <a name="to-deploy-a-pair-of-front-end-pools"></a><span data-ttu-id="14f3f-106">Para implantar um par de pools de front-ends</span><span class="sxs-lookup"><span data-stu-id="14f3f-106">To deploy a pair of Front End pools</span></span>
+## <a name="to-deploy-a-pair-of-front-end-pools"></a><span data-ttu-id="5eba1-106">Para implantar um par de pools de front-ends</span><span class="sxs-lookup"><span data-stu-id="5eba1-106">To deploy a pair of Front End pools</span></span>
 
-1. <span data-ttu-id="14f3f-107">Se os pools forem novos e ainda não estiverem definidos, use o construtor de topologias para criar os grupos.</span><span class="sxs-lookup"><span data-stu-id="14f3f-107">If the pools are new and not yet defined, use Topology Builder to create the pools.</span></span>
+1. <span data-ttu-id="5eba1-107">Se os pools forem novos e ainda não estiverem definidos, use o construtor de topologias para criar os grupos.</span><span class="sxs-lookup"><span data-stu-id="5eba1-107">If the pools are new and not yet defined, use Topology Builder to create the pools.</span></span>
     
-2. <span data-ttu-id="14f3f-108">No construtor de topologias, clique com o botão direito do mouse em um dos dois grupos e clique em **Editar propriedades**.</span><span class="sxs-lookup"><span data-stu-id="14f3f-108">In Topology Builder, right-click one of the two pools, and then click **Edit Properties**.</span></span>
+2. <span data-ttu-id="5eba1-108">No construtor de topologias, clique com o botão direito do mouse em um dos dois grupos e clique em **Editar propriedades**.</span><span class="sxs-lookup"><span data-stu-id="5eba1-108">In Topology Builder, right-click one of the two pools, and then click **Edit Properties**.</span></span>
     
-3. <span data-ttu-id="14f3f-109">Clique em **Resiliência** no painel esquerdo e selecione **Pool de Backup Associado** no painel direito.</span><span class="sxs-lookup"><span data-stu-id="14f3f-109">Click **Resiliency** in the left pane, and then select **Associated Backup Pool** in the right pane.</span></span>
+3. <span data-ttu-id="5eba1-109">Clique em **Resiliência** no painel esquerdo e selecione **Pool de Backup Associado** no painel direito.</span><span class="sxs-lookup"><span data-stu-id="5eba1-109">Click **Resiliency** in the left pane, and then select **Associated Backup Pool** in the right pane.</span></span>
     
-4. <span data-ttu-id="14f3f-p101">Na caixa abaixo de **Pool de Backup Associado**, selecione o pool que você deseja emparelhar com este pool. Apenas pools existentes que não estejam emparelhados com outro pool estarão disponíveis para seleção.</span><span class="sxs-lookup"><span data-stu-id="14f3f-p101">In the box below **Associated Backup Pool**, select the pool that you want to pair with this pool. Only existing pools that are not already paired with another pool will be available to select from.</span></span>
+4. <span data-ttu-id="5eba1-p101">Na caixa abaixo de **Pool de Backup Associado**, selecione o pool que você deseja emparelhar com este pool. Apenas pools existentes que não estejam emparelhados com outro pool estarão disponíveis para seleção.</span><span class="sxs-lookup"><span data-stu-id="5eba1-p101">In the box below **Associated Backup Pool**, select the pool that you want to pair with this pool. Only existing pools that are not already paired with another pool will be available to select from.</span></span>
     
-5. <span data-ttu-id="14f3f-112">Selecione **Failback e failover automático para Voz** e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="14f3f-112">Select **Automatic failover and failback for Voice**, and then click **OK**.</span></span>
+5. <span data-ttu-id="5eba1-112">Selecione **Failback e failover automático para Voz** e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="5eba1-112">Select **Automatic failover and failback for Voice**, and then click **OK**.</span></span>
     
-    <span data-ttu-id="14f3f-113">Quando você exibir os detalhes sobre este pool, o pool associado agora aparecerá no painel direito em **Resiliência**. </span><span class="sxs-lookup"><span data-stu-id="14f3f-113">When you view the details about this pool, the associated pool now appears in the right pane under **Resiliency**.</span></span> 
+    <span data-ttu-id="5eba1-113">Quando você exibir os detalhes sobre este pool, o pool associado agora aparecerá no painel direito em **Resiliência**. </span><span class="sxs-lookup"><span data-stu-id="5eba1-113">When you view the details about this pool, the associated pool now appears in the right pane under **Resiliency**.</span></span> 
     
-6. <span data-ttu-id="14f3f-114">Use o construtor de topologias para publicar a topologia.</span><span class="sxs-lookup"><span data-stu-id="14f3f-114">Use Topology Builder to publish the topology.</span></span>
+6. <span data-ttu-id="5eba1-114">Use o construtor de topologias para publicar a topologia.</span><span class="sxs-lookup"><span data-stu-id="5eba1-114">Use Topology Builder to publish the topology.</span></span>
     
-7. <span data-ttu-id="14f3f-115">Se os dois pools ainda não foram implantados, implante-os e a configuração estará concluída.</span><span class="sxs-lookup"><span data-stu-id="14f3f-115">If the two pools were not yet deployed, deploy them now and the configuration will be complete.</span></span> <span data-ttu-id="14f3f-116">Você pode ignorar as etapas finais deste procedimento.</span><span class="sxs-lookup"><span data-stu-id="14f3f-116">You can skip the final steps in this procedure.</span></span>
+7. <span data-ttu-id="5eba1-115">Se os dois pools ainda não foram implantados, implante-os e a configuração estará concluída.</span><span class="sxs-lookup"><span data-stu-id="5eba1-115">If the two pools were not yet deployed, deploy them now and the configuration will be complete.</span></span> <span data-ttu-id="5eba1-116">Você pode ignorar as etapas finais deste procedimento.</span><span class="sxs-lookup"><span data-stu-id="5eba1-116">You can skip the final steps in this procedure.</span></span>
     
-    <span data-ttu-id="14f3f-117">No entanto, se os grupos já tiverem sido implantados antes da definição da relação emparelhada, você deverá completar as etapas finais a seguir.</span><span class="sxs-lookup"><span data-stu-id="14f3f-117">However, if the pools were already deployed before you defined the paired relationship, you must complete the following final steps.</span></span>
+    <span data-ttu-id="5eba1-117">No entanto, se os grupos já tiverem sido implantados antes da definição da relação emparelhada, você deverá completar as etapas finais a seguir.</span><span class="sxs-lookup"><span data-stu-id="5eba1-117">However, if the pools were already deployed before you defined the paired relationship, you must complete the following final steps.</span></span>
     
-8. <span data-ttu-id="14f3f-118">Em cada Servidor Front-End nos pools, execute o seguinte:</span><span class="sxs-lookup"><span data-stu-id="14f3f-118">On every Front End Server in both pools, run the following:</span></span>
+8. <span data-ttu-id="5eba1-118">Em cada Servidor Front-End nos pools, execute o seguinte:</span><span class="sxs-lookup"><span data-stu-id="5eba1-118">On every Front End Server in both pools, run the following:</span></span>
     
    ```powershell
    <system drive>\Program Files\Skype for Business Server 2019\Deployment\Bootstrapper.exe 
    ```
 
-    <span data-ttu-id="14f3f-119">Isso configura outros serviços necessários para que o emparelhamento de backup funcione corretamente.</span><span class="sxs-lookup"><span data-stu-id="14f3f-119">This configures other services required for backup pairing to work correctly.</span></span>
+    <span data-ttu-id="5eba1-119">Isso configura outros serviços necessários para que o emparelhamento de backup funcione corretamente.</span><span class="sxs-lookup"><span data-stu-id="5eba1-119">This configures other services required for backup pairing to work correctly.</span></span>
     
-9. <span data-ttu-id="14f3f-120">Quando o bootstrapper terminar a instalação dos componentes obrigatórios para emparelhamento de backup em cada servidor front-end em ambos os pools, certifique-se de reaplicar todas as atualizações cumulativas existentes que foram aplicadas anteriormente a esses servidores front-end nos dois pools e continue com a próxima etapa.</span><span class="sxs-lookup"><span data-stu-id="14f3f-120">Once Bootstrapper finishes installing the required components for backup pairing on every Front end Server in both pools, please be sure to re-apply any existing Cumulative Update that was previously applied on these Front End Servers in both pools and then continue with the next step.</span></span>
+9. <span data-ttu-id="5eba1-120">Quando o bootstrapper terminar a instalação dos componentes obrigatórios para emparelhamento de backup em cada servidor front-end em ambos os pools, certifique-se de reaplicar todas as atualizações cumulativas existentes que foram aplicadas anteriormente a esses servidores front-end nos dois pools e continue com a próxima etapa.</span><span class="sxs-lookup"><span data-stu-id="5eba1-120">Once Bootstrapper finishes installing the required components for backup pairing on every Front end Server in both pools, please be sure to re-apply any existing Cumulative Update that was previously applied on these Front End Servers in both pools and then continue with the next step.</span></span>
 
-10. <span data-ttu-id="14f3f-121">Em um prompt de comando do Shell de gerenciamento do Skype for Business Server, execute o seguinte:</span><span class="sxs-lookup"><span data-stu-id="14f3f-121">From a Skype for Business Server Management Shell command prompt, run the following:</span></span> 
+10. <span data-ttu-id="5eba1-121">Em um prompt de comando do Shell de gerenciamento do Skype for Business Server, execute o seguinte:</span><span class="sxs-lookup"><span data-stu-id="5eba1-121">From a Skype for Business Server Management Shell command prompt, run the following:</span></span> 
     
    ```powershell
    Start-CsWindowsService -Name LYNCBACKUP
    ```
 
-11. <span data-ttu-id="14f3f-122">Forçar o usuário e os dados de conferência de ambos os pools a serem sincronizados uns com os seguintes cmdlets:</span><span class="sxs-lookup"><span data-stu-id="14f3f-122">Force the user and conference data of both pools to be synchronized with each other with the following cmdlets:</span></span>
+11. <span data-ttu-id="5eba1-122">Forçar o usuário e os dados de conferência de ambos os pools a serem sincronizados uns com os seguintes cmdlets:</span><span class="sxs-lookup"><span data-stu-id="5eba1-122">Force the user and conference data of both pools to be synchronized with each other with the following cmdlets:</span></span>
     
     ```powershell
     Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
@@ -69,7 +71,7 @@ ms.locfileid: "41002901"
     Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
     ```
 
-    <span data-ttu-id="14f3f-p103">A sincronização dos dados pode levar algum tempo. É possível usar os cmdlets a seguir para verificar o status. O status em ambas as direções deve estar em um estado estável.</span><span class="sxs-lookup"><span data-stu-id="14f3f-p103">Synchronizing the data may take some time. You can use the following cmdlets to check the status. Make sure that the status in both directions is in steady state.</span></span>
+    <span data-ttu-id="5eba1-p103">A sincronização dos dados pode levar algum tempo. É possível usar os cmdlets a seguir para verificar o status. O status em ambas as direções deve estar em um estado estável.</span><span class="sxs-lookup"><span data-stu-id="5eba1-p103">Synchronizing the data may take some time. You can use the following cmdlets to check the status. Make sure that the status in both directions is in steady state.</span></span>
     
     ```powershell
     Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
@@ -80,8 +82,8 @@ ms.locfileid: "41002901"
     ```
 
 > [!NOTE]
-> <span data-ttu-id="14f3f-126">A opção **failover automático e failback para voz** e os intervalos de tempo associados no construtor de topologia só se aplicam aos recursos de resiliência de voz que foram introduzidos no Lync Server.</span><span class="sxs-lookup"><span data-stu-id="14f3f-126">The **Automatic failover and failback for Voice** option and the associated time intervals in Topology Builder apply only to the voice resiliency features that were introduced in Lync Server.</span></span> <span data-ttu-id="14f3f-127">Selecionar essa opção não implica que o failover de pool discutido neste documento seja automático.</span><span class="sxs-lookup"><span data-stu-id="14f3f-127">Selecting this option does not imply that the pool failover discussed in this document is automatic.</span></span> <span data-ttu-id="14f3f-128">O failback e o failover de pool sempre exigem que um administrador invoque manualmente os cmdlets de failback e failover, respectivamente.</span><span class="sxs-lookup"><span data-stu-id="14f3f-128">Pool failover and failback always require an administrator to manually invoke the failover and failback cmdlets, respectively.</span></span>
+> <span data-ttu-id="5eba1-126">A opção **failover automático e failback para voz** e os intervalos de tempo associados no construtor de topologia só se aplicam aos recursos de resiliência de voz que foram introduzidos no Lync Server.</span><span class="sxs-lookup"><span data-stu-id="5eba1-126">The **Automatic failover and failback for Voice** option and the associated time intervals in Topology Builder apply only to the voice resiliency features that were introduced in Lync Server.</span></span> <span data-ttu-id="5eba1-127">Selecionar essa opção não implica que o failover de pool discutido neste documento seja automático.</span><span class="sxs-lookup"><span data-stu-id="5eba1-127">Selecting this option does not imply that the pool failover discussed in this document is automatic.</span></span> <span data-ttu-id="5eba1-128">O failback e o failover de pool sempre exigem que um administrador invoque manualmente os cmdlets de failback e failover, respectivamente.</span><span class="sxs-lookup"><span data-stu-id="5eba1-128">Pool failover and failback always require an administrator to manually invoke the failover and failback cmdlets, respectively.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="14f3f-129">Confira também</span><span class="sxs-lookup"><span data-stu-id="14f3f-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5eba1-129">Confira também</span><span class="sxs-lookup"><span data-stu-id="5eba1-129">See also</span></span>
 
-[<span data-ttu-id="14f3f-130">Recuperação de desastre do pool de front-end no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="14f3f-130">Front End pool disaster recovery in Skype for Business Server</span></span>](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)
+[<span data-ttu-id="5eba1-130">Recuperação de desastre do pool de front-end no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="5eba1-130">Front End pool disaster recovery in Skype for Business Server</span></span>](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)
