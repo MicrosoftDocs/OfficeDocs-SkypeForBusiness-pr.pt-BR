@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddEdgeServerExternalIPPage2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: adb2778d-fd46-4ab9-899d-f97f71493659
 description: Você pode configurar as propriedades desta página para apontar o servidor de borda para locais externos do serviço de borda de acesso, serviço de borda de Webconferência e serviço de borda A/V.
-ms.openlocfilehash: 10e0723c34b1eeef090791f292bc70e5cfdfff43
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: bae7633d21cff373730eac835b8772ed676a8366
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698456"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821083"
 ---
 # <a name="add-edge-server-external-ip-2010"></a>Adicionar IP Externo de Servidor de Borda 2010
 

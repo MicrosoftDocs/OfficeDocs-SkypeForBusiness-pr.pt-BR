@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddEdgeServerNextHopPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ef7235d-626c-4cc9-b6ec-9dfeab495cc0
 description: O próximo nó do pool de bordas é um pool de front-end (que pode ser um pool corporativo ou um servidor Standard Edition) ou, se a sua implantação incluir um diretor, o próximo nó será o diretor.
-ms.openlocfilehash: 21dcee7314d7e6cfd17d7c7c4d8e577bcb1edf2d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 3714e2f4ae3f9731254a8f7d028f0c3b7cc0d3a7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685224"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820993"
 ---
 # <a name="add-edge-server-next-hop"></a>Adicionar Próximo Salto de Servidor de Borda
 

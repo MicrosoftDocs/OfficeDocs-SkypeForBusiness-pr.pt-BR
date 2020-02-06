@@ -8,17 +8,19 @@ ms.date: 4/14/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AssociateBranchOfficeApplianceWithEdgePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
 description: Se você tiver servidores de Borda implantados e deve fornecer serviços de mídia para uso externo, escolha o servidor de borda ou o pool que será associado ao aparelho de ramificação sobreviventes ou ao servidor de ramificação sobreviventes selecionando-o na lista suspensa. Clique em Avançar para continuar.
-ms.openlocfilehash: f1623071d5a35812a069e10a43452ba5ebb440f9
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ae187a7a501d2d5e658a4aa0ab95a3d2ce48d79d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41697836"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820443"
 ---
 # <a name="associate-branch-office-appliance-with-edge"></a>Associar Appliance de Escritório com Borda
  

@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Uma das primeiras etapas necessárias para a migração para o Skype for Business Server 2019 é implantar um pool piloto. O pool piloto é onde você testa a coexistência do Skype for Business Server 2019 com sua implantação herdada. A coexistência é um estado temporário que dura até que você tenha movido todos os usuários e pools para o Skype for Business Server 2019.
-ms.openlocfilehash: dc0e5b984aaa9ed931f3937b253fbe40aef9b051
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 55f7383300ba8fbe1623e63bc42aa40102dd8b41
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238378"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813639"
 ---
 # <a name="deploy-skype-for-business-server-2019-pilot-pool"></a>Implantar o pool piloto do Skype for Business Server 2019
 
@@ -30,9 +32,9 @@ Ao implantar um pool piloto, use o assistente para definir novo pool de front-en
 
 1. Faça logon no computador no qual o Construtor de Topologias está instalado como um membro do grupo Admins. do Domínio ou do grupo RTCUniversalServerAdmins.
     
-2. Expanda a árvore até acessar os pools de**front-end**do **Skype for Business Server 2019** > Enterprise Edition.
+2. Expanda a árvore até acessar os**pools de front-end**do **Skype for Business Server 2019** > Enterprise Edition.
     
-3. Clique com o botão direito em pools do **front end do Enterprise Edition** e selecione **novo pool de front-end**.
+3. Clique com o botão direito em **pools do front end do Enterprise Edition** e selecione **novo pool de front-end**.
   
 4. Digite o nome de domínio totalmente qualificado (FQDN) do pool. Ao definir o pool piloto, você pode optar por implantar um pool de front-end do Enterprise Edition ou um servidor Standard Edition. O Skype for Business Server 2019 não requer que seus recursos de pool piloto correspondam ao que foi implantado em seu pool herdado.
     
@@ -54,7 +56,7 @@ Ao implantar um pool piloto, use o assistente para definir novo pool de front-en
   
 11. Quando o processo de publicação for concluído, clique em **concluir**.
 
-12. Antes de passar para a próxima seção chamada "verificar a coexistência do pool piloto com o pool herdado", você precisa instalar o novo pool piloto do Skype for Business Server que acabamos de definir na topologia publicada, siga os procedimentos descritos aqui [instalar o Skype para Business Server em servidores na topologia](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
+12. Antes de passar para a próxima seção chamada "verificar a coexistência do pool piloto com o pool herdado", você precisa instalar o novo pool de front-end do Skype for Business Server que acabamos de definir na topologia publicada, siga os procedimentos descritos aqui [instalar o Skype for Business Server em servidores na topologia](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
 
 13. Uma vez concluída a etapa anterior, vá para a próxima seção para verificar a coexistência do pool piloto com o pool herdado.
     

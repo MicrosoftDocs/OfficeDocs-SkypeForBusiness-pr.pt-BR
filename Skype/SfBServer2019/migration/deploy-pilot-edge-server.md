@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Este tópico destaca as configurações de configuração das quais você deve estar ciente antes de implantar seu servidor de borda do Skype for Business Server 2019. Os processos de implantação e configuração do Skype for Business Server 2019 são muito semelhantes ao Skype for Business Server 2015. Esta seção destaca apenas os pontos-chave que você deve considerar como parte da sua implantação de pool piloto. Para obter etapas detalhadas, consulte Implantando o acesso de usuários externos no Skype for Business Server 2019 na documentação de implantação, que descreve o processo de implantação e também fornece informações de configuração para o acesso de usuários externos.
-ms.openlocfilehash: b416ba38646d05f3d10a7d2643c01924fe57020a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c2beb22e2cce608b692884ad9b49fef40cb87058
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238385"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813649"
 ---
 # <a name="deploy-pilot-edge-server"></a>Implantar um Servidor de Borda piloto
 
@@ -44,7 +46,7 @@ Ao navegar pelo assistente **definir novo pool de borda** , examine as configura
     
      ![Definir a caixa de diálogo salto seguinte](../media/migration_ocs_topo_edgepool_page7.JPG)
   
-7. Na página **associar front-end ou pool** de mediação, não associe um pool a este pool de bordas no momento. No momento, o tráfego de mídia externo é roteado pelo servidor de borda herdado. Essa configuração será configurada em uma fase posterior da migração. 
+7. Na página **associar front-end ou pool de mediação** , não associe um pool a este pool de bordas no momento. No momento, o tráfego de mídia externo é roteado pelo servidor de borda herdado. Essa configuração será configurada em uma fase posterior da migração. 
     
      ![Caixa de diálogo associar grupos de front-end](../media/migration_ocs_topo_edgepool_page8.JPG)
   

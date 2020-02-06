@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: O Skype for Business Server oferece suporte a URLs simples.
-ms.openlocfilehash: 806003a2639d3861c066248657521ceb58a4e986
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ab820c1b24eb9b2e8befc85a34e82d068c9083ea
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239490"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813879"
 ---
 # <a name="change-simple-urls-after-migration"></a>Alterar URLs simples após a migração
 
@@ -22,7 +24,7 @@ O Skype for Business Server oferece suporte a três URLs simples:
   
 - A **reunião** é usada como a URL base para todas as conferências no site ou na organização. Com a URL simples de reunião, os links para ingressar em reuniões são fáceis de compreender e fáceis de se comunicar e distribuir. 
     
-- **** A discagem permite o acesso à página da Web configurações de conferência discada. A URL simples Dial-in é incluída em todos os convites de reunião para que os usuários que desejam discar para a reunião possam acessar o número de telefone e as informações de PIN necessárias. 
+- A **discagem** permite o acesso à página da Web configurações de conferência discada. A URL simples Dial-in é incluída em todos os convites de reunião para que os usuários que desejam discar para a reunião possam acessar o número de telefone e as informações de PIN necessárias. 
     
 - O **administrador** permite acesso rápido ao painel de controle do Skype for Business Server. A URL simples de Admin é parte interna da sua organização. 
     

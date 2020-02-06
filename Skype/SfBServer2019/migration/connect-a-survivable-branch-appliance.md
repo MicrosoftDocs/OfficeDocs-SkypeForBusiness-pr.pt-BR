@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 'Cada aplicativo de ramificação sobreviventes (SBA) está associado a um pool de front-end que serve como registrador de backup para o SBA. Quando o pool de front-ends é migrado para o Skype for Business Server 2019, o SBA deve ser desassociado do pool de front-ends enquanto o pool é atualizado, assim que o pool é migrado para o Skype for Business Server 2019, o SBA pode ser reassociado ao E frontal atualizado nd pool. Isso envolve excluir o SBA da topologia herdada no construtor de topologias e, em seguida, adicionar o SBA à topologia do Skype for Business Server 2019. Os usuários hospedados no SBA herdado devem primeiro ser movidos para outro pool de front-end antes de remover SBA da topologia. Depois que o SBA é adicionado à topologia do Skype for Business Server 2019, esses usuários podem ser movidos de volta para o SBA. Estas etapas estão resumidas abaixo:'
-ms.openlocfilehash: e5545a2de4eddd65790f425ab888b8fd07faf970
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: daeb061936ece02767e3299d2358d8e16ba09218
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239281"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813729"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>Conectar um aparelho de filial persistente
 
@@ -30,9 +32,9 @@ Cada aplicativo de ramificação sobreviventes (SBA) está associado a um pool d
     
 ### <a name="add-legacy-sba-branch-site-to-your-topology"></a>Adicionar site de ramificação SBA herdada à sua topologia
 
-1. Abrir o **Construtor**de topologias.
+1. Abrir o **Construtor de topologias**.
     
-2. No painel esquerdo, clique com o botão direito do mouse em **sites**de ramificação e clique em **novo site de filial**.
+2. No painel esquerdo, clique com o botão direito do mouse em **sites de ramificação**e clique em **novo site de filial**.
     
 3. Na caixa de diálogo **definir novo site de filial** , clique em **nome**e digite o nome do site de filial.
     
@@ -40,7 +42,7 @@ Cada aplicativo de ramificação sobreviventes (SBA) está associado a um pool d
     
 5. Click **Next**.
     
-6. Adicionais Na caixa de diálogo próximo **definir novo site** de filiais, siga um destes procedimentos: 
+6. Adicionais Na caixa de diálogo próximo **definir novo site de filiais** , siga um destes procedimentos: 
     
     1. Clique em **cidade**e digite o nome da cidade na qual o site da filial está localizado.
     

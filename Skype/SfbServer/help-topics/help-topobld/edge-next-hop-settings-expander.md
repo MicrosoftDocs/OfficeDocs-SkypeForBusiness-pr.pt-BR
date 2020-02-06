@@ -8,17 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.EdgeNextHopSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7bb385b7-18c2-42a3-b8a9-cea7bf0c8fc9
 description: Para configurar ou modificar o Pool de próximo salto que os Servidores de Borda utilizarão para se comunicar à infraestrutura interna, selecione na lista um Diretor, pool de Diretores, Servidores Front-End ou um pool de Servidores Front-End. Somente os directors ou servidores front-end configurados no construtor de topologias aparecem na lista.
-ms.openlocfilehash: 34525c8338fa14bdfef7ea744ac29d1c0503ca5a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ead63dc63d9d3ac1b4ee244e013c6bd6e8ea7028
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684764"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820073"
 ---
 # <a name="edge-next-hop-settings-expander"></a>Expansor de Configurações de Próximo Salto de Borda
 

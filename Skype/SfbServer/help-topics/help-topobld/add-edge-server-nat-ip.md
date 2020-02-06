@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddEdgeServerNatIpPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa97fd0e-48b9-4a66-b55a-12291641c967
 description: O endereço IP público é o endereço IP usado pela NAT (conversão de endereços de rede). O endereço IP deve ser roteável publicamente. Isso é necessário porque você selecionou o endereço IP externo desse pool de bordas é convertido pela opção NAT na página Selecionar recursos deste assistente.
-ms.openlocfilehash: f2e5a00b4e7c91f2343b9c917f6249d2ecee8930
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 11eb5bc16b4fd162dac15eede978cbbf940d9d42
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698396"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821003"
 ---
 # <a name="add-edge-server-nat-ip"></a>Adicionar IP NAT de Servidor de Borda
 

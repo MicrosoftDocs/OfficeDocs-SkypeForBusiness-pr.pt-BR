@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Em um ambiente misto, se você criar um novo servidor de aplicativos confiável, deverá definir o próximo pool de saltos como um pool do Skype for Business Server 2019. Em um ambiente misto, o pool herdado e o pool do Skype for Business Server 2019 aparecem na lista suspensa. Não há suporte para a seleção do pool herdado.
-ms.openlocfilehash: b715cd7f3f067c5e54dbc085350fcc7f96b5c4be
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a853065c8888ce9e160b34d182ec8bde6f4569f3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239295"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813769"
 ---
 # <a name="configure-trusted-application-servers"></a>Configurar servidores de aplicativo confiáveis
 

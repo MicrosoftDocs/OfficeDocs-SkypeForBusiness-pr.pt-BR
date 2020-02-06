@@ -7,14 +7,16 @@ manager: serdars
 ms.topic: quickstart
 audience: admin
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Antes de migrar as atualizações devem ser aplicadas ao seu ambiente. Para obter as informações mais atualizadas, consulte atualizar o centro de recursos em https://go.microsoft.com/fwlink/p/?linkid=232630.
-ms.openlocfilehash: ae964eda0dae2cb3a0d0d3c8c5156ee546f46c91
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6dc833e8f03fae424d7ffaa64f8ed4a2f3020e81
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239518"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813949"
 ---
 # <a name="apply-updates"></a>Aplicar atualizações
 

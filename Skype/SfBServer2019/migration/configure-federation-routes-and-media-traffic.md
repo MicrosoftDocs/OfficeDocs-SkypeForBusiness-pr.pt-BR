@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: A Federação é uma relação de confiança entre dois ou mais domínios SIP que permite que os usuários de organizações separadas se comuniquem entre os limites da rede. Depois de migrar para o pool piloto, você precisa fazer a transição da rota de Federação de seus servidores de borda de versões anteriores para a rota de Federação dos seus servidores de borda do Skype for Business Server 2019.
-ms.openlocfilehash: 50c10a4dced237e59c8dad12b5bdee1ef7d970fe
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 71417307fd46c2c29535cea3a52f0286ad6dc951
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239359"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813809"
 ---
 # <a name="configure-federation-routes-and-media-traffic"></a>Configurar rotas de federação e tráfego de mídia
 
@@ -45,7 +47,7 @@ Use os procedimentos a seguir para fazer a transição da rota de Federação e 
   
 6. Clique em **OK** para fechar a página Editar propriedades. 
     
-7. No **Construtor**de topologias, selecione o nó superior **Skype for Business Server**.
+7. No **Construtor de topologias**, selecione o nó superior **Skype for Business Server**.
     
 8. No menu **ação** , clique em **publicar topologia**.
     
@@ -53,7 +55,7 @@ Use os procedimentos a seguir para fazer a transição da rota de Federação e 
     
 ## <a name="to-configure-the-legacy-edge-server-as-a-non-federating-edge-server"></a>Para configurar o servidor de borda herdado como um servidor de borda não federativo
 
-1. No painel esquerdo, navegue até o nó instalação herdada e, em seguida, para o nó pools de **borda** . 
+1. No painel esquerdo, navegue até o nó instalação herdada e, em seguida, para o nó **pools de borda** . 
     
 2. Clique com o botão direito do mouse no servidor de borda e, em seguida, clique em **Editar propriedades**.
     
@@ -79,7 +81,7 @@ Use os procedimentos a seguir para fazer a transição da rota de Federação e 
     
 ## <a name="to-change-the-previous-versions-federation-route-to-use-skype-for-business-server-2019-edge-server"></a>Para alterar a rota de Federação da versão anterior para usar o servidor de borda do Skype for Business Server 2019
 
-1. No construtor de topologia, no painel esquerdo, navegue até o nó do **Skype for Business Server 2019** e, em seguida, para o nó de pools de **borda** . 
+1. No construtor de topologia, no painel esquerdo, navegue até o nó do **Skype for Business Server 2019** e, em seguida, para o nó de **pools de borda** . 
     
 2. Clique com o botão direito do mouse no servidor de borda e, em seguida, clique em **Editar propriedades**.
     
@@ -96,7 +98,7 @@ Use os procedimentos a seguir para fazer a transição da rota de Federação e 
   
 ## <a name="to-update-skype-for-business-server-2019-edge-server-federation-next-hop"></a>Para atualizar o Skype for Business Server 2019 o próximo nó de Federação do servidor de borda
 
-1. No construtor de topologia, no painel esquerdo, navegue até o nó do **Skype for Business Server 2019** e, em seguida, para o nó de pools de **borda** . 
+1. No construtor de topologia, no painel esquerdo, navegue até o nó do **Skype for Business Server 2019** e, em seguida, para o nó de **pools de borda** . 
     
 2. Expanda o nó, clique com o botão direito do mouse no servidor de borda listado e, em seguida, clique em **Editar propriedades**. 
     
@@ -104,7 +106,7 @@ Use os procedimentos a seguir para fazer a transição da rota de Federação e 
   
 4. Clique em **OK** para fechar a página Editar propriedades. 
     
-5. No **Construtor**de topologias, selecione o nó superior **Skype for Business Server**. 
+5. No **Construtor de topologias**, selecione o nó superior **Skype for Business Server**. 
     
 6. No menu **ação** , clique em **publicar topologia** e conclua o assistente. 
     
@@ -122,7 +124,7 @@ Use os procedimentos a seguir para fazer a transição da rota de Federação e 
     
 ## <a name="to-turn-on-skype-for-business-server-2019-edge-server-federation"></a>Para ativar a Federação do servidor de borda do Skype for Business Server 2019
 
-1. No construtor de topologia, no painel esquerdo, navegue até o nó do **Skype for Business Server 2019** e, em seguida, para o nó de pools de **borda** . 
+1. No construtor de topologia, no painel esquerdo, navegue até o nó do **Skype for Business Server 2019** e, em seguida, para o nó de **pools de borda** . 
     
 2. Expanda o nó, clique com o botão direito do mouse no servidor de borda listado e, em seguida, clique em **Editar propriedades**. 
     
@@ -147,7 +149,7 @@ Use os procedimentos a seguir para fazer a transição da rota de Federação e 
     
 ## <a name="to-publish-edge-server-configuration-changes"></a>Para publicar as alterações de configuração do servidor de borda
 
-1. No **Construtor**de topologias, selecione o nó superior **Skype for Business Server**. 
+1. No **Construtor de topologias**, selecione o nó superior **Skype for Business Server**. 
     
 2. No menu **ação** , selecione **publicar topologia** e conclua o assistente. 
     
@@ -173,7 +175,7 @@ Use os procedimentos a seguir para fazer a transição da rota de Federação e 
     
 6. Clique com o botão direito do mouse no nome dos serviços e, em seguida, selecione **parar** para interromper o serviço. 
     
-7. Defina o tipo de inicialização **** como desabilitado. 
+7. Defina o tipo de inicialização como **desabilitado**. 
     
 8. Clique em **OK** para fechar a janela **Propriedades** . 
     

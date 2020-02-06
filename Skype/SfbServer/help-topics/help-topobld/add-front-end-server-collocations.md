@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddFrontEndCollocationsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
 description: Para uma implantação Enterprise Edition, o serviço de conferência A/V está posicionado no pool de front-ends. Você também pode colocar o servidor de mediação no pool de front-end ou pode implantá-lo como um servidor autônomo. O serviço de conferência A/V sempre será posicionado se a conferência estiver habilitada.
-ms.openlocfilehash: 0d246e91549f5ff27a2e3681aae4d73c064eb67c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 0f6b3307d73f87af10140ecf594f8e662cfdd369
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698206"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820823"
 ---
 # <a name="add-front-end-server-collocations"></a>Adicionar Colocações de Servidor Front End
 

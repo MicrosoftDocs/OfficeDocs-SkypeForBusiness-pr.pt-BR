@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddEdgeServerFqdnsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 description: Você deve especificar um FQDN (nome de domínio totalmente qualificado) para o serviço de borda de acesso. Se você não tiver selecionado a opção usar um único &amp; endereço IP de FQDN na página Selecionar recursos, também deverá especificar um FQDN para o serviço de borda de Webconferência e para o serviço de borda a/V.
-ms.openlocfilehash: 9169958646476b18f822f8c178e640c810bd28c1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c3ccc2f42f090fd3d6f28d22064de98879561a01
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685254"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821053"
 ---
 # <a name="add-edge-server-fqdn"></a>Adicionar FQDN do Servidor de Borda
  

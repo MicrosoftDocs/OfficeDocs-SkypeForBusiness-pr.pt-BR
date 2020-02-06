@@ -8,17 +8,19 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddPersistentChatComplianceStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b9771b53-e19a-4a12-bf01-24bae6f7e482
 description: Você configura as lojas de conformidade do SQL Server que fornecerão bancos de dados para o servidor de chat persistente ou o recurso de conformidade do servidor de chat persistente.
-ms.openlocfilehash: 64697fbe9783bbdf356a28882f7cf53e7e96ef94
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fd51b3d582c915d02799f2f633869e84f3659c4f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698066"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820683"
 ---
 # <a name="add-persistent-chat-compliance-sql-server-store"></a>Adicionar Repositório do SQL Server de Conformidade de Chat Persistente
  
