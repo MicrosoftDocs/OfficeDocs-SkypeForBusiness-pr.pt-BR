@@ -8,23 +8,25 @@ ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.ConfCAASelRegion
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1b79b214-cc7b-4686-b7e2-f451910335fd
 description: Use a caixa de diálogo Selecionar Regiões para localizar as regiões disponíveis no seu ambiente. Para usar uma região existente, clique nela na lista e depois em OK.
-ms.openlocfilehash: e9e137519083a49d4fedbe73116666d502423251
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 461209812d626494f2de3bfa1cf48ba0c7a5d956
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41699536"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822134"
 ---
-# <a name="select-regions"></a><span data-ttu-id="3b1a9-104">Selecionar Regiões</span><span class="sxs-lookup"><span data-stu-id="3b1a9-104">Select Regions</span></span>
+# <a name="select-regions"></a><span data-ttu-id="be1a1-104">Selecionar Regiões</span><span class="sxs-lookup"><span data-stu-id="be1a1-104">Select Regions</span></span>
  
-<span data-ttu-id="3b1a9-p102">Use a caixa de diálogo **Selecionar Regiões** para localizar as regiões disponíveis no seu ambiente. Para usar uma região existente, clique nela na lista e depois em **OK**.</span><span class="sxs-lookup"><span data-stu-id="3b1a9-p102">Use the **Select Regions** dialog box to find regions available in your environment. To use an existing region, click a region in the list and then click **OK**.</span></span>
+<span data-ttu-id="be1a1-p102">Use a caixa de diálogo **Selecionar Regiões** para localizar as regiões disponíveis no seu ambiente. Para usar uma região existente, clique nela na lista e depois em **OK**.</span><span class="sxs-lookup"><span data-stu-id="be1a1-p102">Use the **Select Regions** dialog box to find regions available in your environment. To use an existing region, click a region in the list and then click **OK**.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="3b1a9-107">Clique no ícone de busca na caixa de busca sem ter inserido nada para obter todas as regiões disponíveis.</span><span class="sxs-lookup"><span data-stu-id="3b1a9-107">To retrieve all available regions, do not type anything in the search box and then click the search icon.</span></span> 
+> <span data-ttu-id="be1a1-107">Clique no ícone de busca na caixa de busca sem ter inserido nada para obter todas as regiões disponíveis.</span><span class="sxs-lookup"><span data-stu-id="be1a1-107">To retrieve all available regions, do not type anything in the search box and then click the search icon.</span></span> 
   
 

@@ -8,38 +8,40 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployMainVerifySchemaPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0357f230-6d0c-41f1-942c-e14f76e55d31
 description: 'Para verificar se a extensão do esquema foi replicada com êxito na floresta dos serviços de domínio Active Directory, faça o seguinte:'
-ms.openlocfilehash: 0b90f61849e66e78c49d7d00783133198bab6b54
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f2e8c181f01e841ebc6b251d8215a8d448db0b04
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687314"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823265"
 ---
-# <a name="verify-replication-of-schema-partition"></a><span data-ttu-id="6e129-103">Verificar Replicação de Partição do Esquema</span><span class="sxs-lookup"><span data-stu-id="6e129-103">Verify Replication of Schema Partition</span></span>
+# <a name="verify-replication-of-schema-partition"></a><span data-ttu-id="8a97e-103">Verificar Replicação de Partição do Esquema</span><span class="sxs-lookup"><span data-stu-id="8a97e-103">Verify Replication of Schema Partition</span></span>
  
-<span data-ttu-id="6e129-104">Para verificar se a extensão do esquema foi replicada com êxito na floresta dos serviços de domínio Active Directory, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="6e129-104">To verify that the schema extension have been successfully replicated in your Active Directory Domain Services forest, do the following:</span></span>
+<span data-ttu-id="8a97e-104">Para verificar se a extensão do esquema foi replicada com êxito na floresta dos serviços de domínio Active Directory, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="8a97e-104">To verify that the schema extension have been successfully replicated in your Active Directory Domain Services forest, do the following:</span></span>
   
-1. <span data-ttu-id="6e129-105">Faça logon em um controlador de domínio (diferente do controlador de domínio que mantém a função de mestre de esquema) na floresta dos serviços de domínio Active Directory, onde as extensões de esquema foram aplicadas como membro do grupo Administradores da empresa.</span><span class="sxs-lookup"><span data-stu-id="6e129-105">Log on to a domain controller (other than the domain controller that holds the schema master role) in your Active Directory Domain Services forest, where the schema extensions were applied as a member of the Enterprise Admins group.</span></span>
+1. <span data-ttu-id="8a97e-105">Faça logon em um controlador de domínio (diferente do controlador de domínio que mantém a função de mestre de esquema) na floresta dos serviços de domínio Active Directory, onde as extensões de esquema foram aplicadas como membro do grupo Administradores da empresa.</span><span class="sxs-lookup"><span data-stu-id="8a97e-105">Log on to a domain controller (other than the domain controller that holds the schema master role) in your Active Directory Domain Services forest, where the schema extensions were applied as a member of the Enterprise Admins group.</span></span>
     
-2. <span data-ttu-id="6e129-106">Abrir ADSI Edit: clique em **Iniciar**, em **Ferramentas administrativas**e em **ADSI Editar**.</span><span class="sxs-lookup"><span data-stu-id="6e129-106">Open ADSI Edit: Click **Start**, click **Administrative Tools**, and then click **ADSI Edit**.</span></span>
+2. <span data-ttu-id="8a97e-106">Abrir ADSI Edit: clique em **Iniciar**, em **Ferramentas administrativas**e em **ADSI Editar**.</span><span class="sxs-lookup"><span data-stu-id="8a97e-106">Open ADSI Edit: Click **Start**, click **Administrative Tools**, and then click **ADSI Edit**.</span></span>
     
     > [!TIP]
-    > <span data-ttu-id="6e129-107">Como alternativa, clique em **Iniciar**e em **executar**, digite **ADSIEdit. msc** para iniciar a edição ADSI.</span><span class="sxs-lookup"><span data-stu-id="6e129-107">Alternatively, click **Start**, then click **Run**, type **adsiedit.msc** to start ADSI Edit.</span></span>
+    > <span data-ttu-id="8a97e-107">Como alternativa, clique em **Iniciar**e em **executar**, digite **ADSIEdit. msc** para iniciar a edição ADSI.</span><span class="sxs-lookup"><span data-stu-id="8a97e-107">Alternatively, click **Start**, then click **Run**, type **adsiedit.msc** to start ADSI Edit.</span></span>
   
-3. <span data-ttu-id="6e129-108">Na árvore do console de gerenciamento Microsoft (MMC), se ainda não estiver selecionado, clique em ADSI Editar.</span><span class="sxs-lookup"><span data-stu-id="6e129-108">In the Microsoft Management Console (MMC) tree, if it is not already selected, click ADSI Edit.</span></span>
+3. <span data-ttu-id="8a97e-108">Na árvore do console de gerenciamento Microsoft (MMC), se ainda não estiver selecionado, clique em ADSI Editar.</span><span class="sxs-lookup"><span data-stu-id="8a97e-108">In the Microsoft Management Console (MMC) tree, if it is not already selected, click ADSI Edit.</span></span>
     
-4. <span data-ttu-id="6e129-109">No menu **Ação**, clique em **Conectar-se a**.</span><span class="sxs-lookup"><span data-stu-id="6e129-109">On the **Action** menu, click **Connect to**.</span></span>
+4. <span data-ttu-id="8a97e-109">No menu **Ação**, clique em **Conectar-se a**.</span><span class="sxs-lookup"><span data-stu-id="8a97e-109">On the **Action** menu, click **Connect to**.</span></span>
     
-5. <span data-ttu-id="6e129-110">Na caixa de diálogo **Configurações de conexão** em **Selecione um Contexto de nomenclatura bem conhecido**, selecione **Esquema** e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="6e129-110">In the **Connection Settings** dialog box under **Select a well known Naming Context**, select **Schema**, and then click **OK**.</span></span>
+5. <span data-ttu-id="8a97e-110">Na caixa de diálogo **Configurações de conexão** em **Selecione um Contexto de nomenclatura bem conhecido**, selecione **Esquema** e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="8a97e-110">In the **Connection Settings** dialog box under **Select a well known Naming Context**, select **Schema**, and then click **OK**.</span></span>
     
-6. <span data-ttu-id="6e129-111">No contêiner de esquema, procure por CN=ms-RTC-SIP-SchemaVersion.</span><span class="sxs-lookup"><span data-stu-id="6e129-111">Under the schema container, search for CN=ms-RTC-SIP-SchemaVersion.</span></span> <span data-ttu-id="6e129-112">Se esse objeto existir, e o valor do atributo **rangeUpper** for 1150 e o valor do atributo **RangeLower** for 3, o esquema foi atualizado e replicado com sucesso.</span><span class="sxs-lookup"><span data-stu-id="6e129-112">If this object exists, and the value of the **rangeUpper** attribute is 1150 and the value of the **rangeLower** attribute is 3, then the schema was successfully updated and replicated.</span></span> <span data-ttu-id="6e129-113">Se esse objeto não existir ou se os valores dos atributos **rangeUpper** e **RangeLower** não forem especificados, o esquema não foi modificado ou não foi replicado.</span><span class="sxs-lookup"><span data-stu-id="6e129-113">If this object does not exist or if the values of the **rangeUpper** and **rangeLower** attributes are not as specified, then the schema was not modified or has not replicated.</span></span>
+6. <span data-ttu-id="8a97e-111">No contêiner de esquema, procure por CN=ms-RTC-SIP-SchemaVersion.</span><span class="sxs-lookup"><span data-stu-id="8a97e-111">Under the schema container, search for CN=ms-RTC-SIP-SchemaVersion.</span></span> <span data-ttu-id="8a97e-112">Se esse objeto existir, e o valor do atributo **rangeUpper** for 1150 e o valor do atributo **RangeLower** for 3, o esquema foi atualizado e replicado com sucesso.</span><span class="sxs-lookup"><span data-stu-id="8a97e-112">If this object exists, and the value of the **rangeUpper** attribute is 1150 and the value of the **rangeLower** attribute is 3, then the schema was successfully updated and replicated.</span></span> <span data-ttu-id="8a97e-113">Se esse objeto não existir ou se os valores dos atributos **rangeUpper** e **RangeLower** não forem especificados, o esquema não foi modificado ou não foi replicado.</span><span class="sxs-lookup"><span data-stu-id="8a97e-113">If this object does not exist or if the values of the **rangeUpper** and **rangeLower** attributes are not as specified, then the schema was not modified or has not replicated.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="6e129-114">Se a sua verificação da replicação do esquema ainda não mostrar uma replicação bem-sucedida, aguarde cerca de 15 minutos e, em seguida, verifique novamente.</span><span class="sxs-lookup"><span data-stu-id="6e129-114">If your check of the replication of the schema does not yet show a successful replication, wait approximately 15 minutes and then check again.</span></span> <span data-ttu-id="6e129-115">A replicação do Active Directory se baseia em um modelo de consistência flexível, e pode ocorrer uma certa latência de replicação, com base em diversos fatores do servidor e da infraestrutura.</span><span class="sxs-lookup"><span data-stu-id="6e129-115">Active Directory replication is based on a loose consistency model and some replication latency can occur, based on a number of factors in the server and infrastructure.</span></span> 
+> <span data-ttu-id="8a97e-114">Se a sua verificação da replicação do esquema ainda não mostrar uma replicação bem-sucedida, aguarde cerca de 15 minutos e, em seguida, verifique novamente.</span><span class="sxs-lookup"><span data-stu-id="8a97e-114">If your check of the replication of the schema does not yet show a successful replication, wait approximately 15 minutes and then check again.</span></span> <span data-ttu-id="8a97e-115">A replicação do Active Directory se baseia em um modelo de consistência flexível, e pode ocorrer uma certa latência de replicação, com base em diversos fatores do servidor e da infraestrutura.</span><span class="sxs-lookup"><span data-stu-id="8a97e-115">Active Directory replication is based on a loose consistency model and some replication latency can occur, based on a number of factors in the server and infrastructure.</span></span> 
   
 

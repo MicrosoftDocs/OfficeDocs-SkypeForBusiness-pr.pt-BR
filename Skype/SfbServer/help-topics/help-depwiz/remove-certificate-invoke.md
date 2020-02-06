@@ -8,20 +8,22 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployCertRemoveInvoke
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c62bc3e5-3f34-46cf-91a5-85f84d8f455e
 description: A página comandos em execução fornece detalhes para a remoção do certificado. Revise as informações resumidas da remoção do certificado. Certifique-se de que o arquivo de log remover certificado está visível na lista suspensa e clique em Exibir log para examinar os detalhes da remoção de certificado. Quando terminar de revisar o resumo e o arquivo de log, clique em concluir.
-ms.openlocfilehash: c3aaae65565370b887de37f32acbd22619675dd4
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5c5b66aa0453f52c3942c2986fbee84869aeeabf
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41700776"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823415"
 ---
-# <a name="remove-certificate-invoke"></a><span data-ttu-id="5f756-106">Remover Certificado (Invocar)</span><span class="sxs-lookup"><span data-stu-id="5f756-106">Remove Certificate (Invoke)</span></span>
+# <a name="remove-certificate-invoke"></a><span data-ttu-id="49932-106">Remover Certificado (Invocar)</span><span class="sxs-lookup"><span data-stu-id="49932-106">Remove Certificate (Invoke)</span></span>
  
-<span data-ttu-id="5f756-107">A página **comandos em execução** fornece detalhes para a remoção do certificado.</span><span class="sxs-lookup"><span data-stu-id="5f756-107">The **Executing Commands** page provides details for removing the certificate.</span></span> <span data-ttu-id="5f756-108">Revise as informações resumidas da remoção do certificado.</span><span class="sxs-lookup"><span data-stu-id="5f756-108">Review the summary information from the certificate removal.</span></span> <span data-ttu-id="5f756-109">Certifique-se de que o arquivo de log remover certificado está visível na lista suspensa e clique em **Exibir log** para examinar os detalhes da remoção de certificado.</span><span class="sxs-lookup"><span data-stu-id="5f756-109">Be sure that the Remove Certificate log file is visible in the drop-down list, and then click **View Log** to review the details of the certificate removal.</span></span> <span data-ttu-id="5f756-110">Quando terminar de revisar o resumo e o arquivo de log, clique em **concluir**.</span><span class="sxs-lookup"><span data-stu-id="5f756-110">When you have finished reviewing the summary and the log file, click **Finish**.</span></span>
+<span data-ttu-id="49932-107">A página **comandos em execução** fornece detalhes para a remoção do certificado.</span><span class="sxs-lookup"><span data-stu-id="49932-107">The **Executing Commands** page provides details for removing the certificate.</span></span> <span data-ttu-id="49932-108">Revise as informações resumidas da remoção do certificado.</span><span class="sxs-lookup"><span data-stu-id="49932-108">Review the summary information from the certificate removal.</span></span> <span data-ttu-id="49932-109">Certifique-se de que o arquivo de log remover certificado está visível na lista suspensa e clique em **Exibir log** para examinar os detalhes da remoção de certificado.</span><span class="sxs-lookup"><span data-stu-id="49932-109">Be sure that the Remove Certificate log file is visible in the drop-down list, and then click **View Log** to review the details of the certificate removal.</span></span> <span data-ttu-id="49932-110">Quando terminar de revisar o resumo e o arquivo de log, clique em **concluir**.</span><span class="sxs-lookup"><span data-stu-id="49932-110">When you have finished reviewing the summary and the log file, click **Finish**.</span></span>
   
 
