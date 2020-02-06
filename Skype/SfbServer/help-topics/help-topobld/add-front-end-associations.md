@@ -8,25 +8,27 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddFrontEndAssociationsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 95620425-defd-47fd-a5c0-e4a283d812a5
 description: 'Agora você pode habilitar o suporte para recursos específicos que exigem a implantação de outros servidores, associando as funções de servidor ao pool de Front-Ends. Também é possível associar funções de servidor ao pool de Front-Ends posteriormente. As funções de servidor que podem ser associadas ao pool de Front-Ends incluem:'
-ms.openlocfilehash: ab0fc9c62373b6eb2f7a0a6cc97fa7f9386bafd9
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b34ea46b708727056f3e8f3779555df63f4d7e06
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698276"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820903"
 ---
-# <a name="add-front-end-associations"></a><span data-ttu-id="9ddce-105">Adicionar Associações de Front-End</span><span class="sxs-lookup"><span data-stu-id="9ddce-105">Add Front End Associations</span></span>
+# <a name="add-front-end-associations"></a><span data-ttu-id="ed241-105">Adicionar Associações de Front-End</span><span class="sxs-lookup"><span data-stu-id="ed241-105">Add Front End Associations</span></span>
 
-<span data-ttu-id="9ddce-p102">Agora você pode habilitar o suporte para recursos específicos que exigem a implantação de outros servidores, associando as funções de servidor ao pool de Front-Ends. Também é possível associar funções de servidor ao pool de Front-Ends posteriormente. As funções de servidor que podem ser associadas ao pool de Front-Ends incluem:</span><span class="sxs-lookup"><span data-stu-id="9ddce-p102">You can enable support for specific features that require the deployment of other servers by associating the server roles with the Front End pool now. You can also associate server roles with the Front End pool at a later time. The server roles that can be associated with a Front End pool include the following:</span></span>
+<span data-ttu-id="ed241-p102">Agora você pode habilitar o suporte para recursos específicos que exigem a implantação de outros servidores, associando as funções de servidor ao pool de Front-Ends. Também é possível associar funções de servidor ao pool de Front-Ends posteriormente. As funções de servidor que podem ser associadas ao pool de Front-Ends incluem:</span><span class="sxs-lookup"><span data-stu-id="ed241-p102">You can enable support for specific features that require the deployment of other servers by associating the server roles with the Front End pool now. You can also associate server roles with the Front End pool at a later time. The server roles that can be associated with a Front End pool include the following:</span></span>
 
-- <span data-ttu-id="9ddce-p103">Servidor de Borda A/V. Para obter detalhes sobre a implantação de um Servidor de Borda A/V, consulte  [Planning for Conferencing](https://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) na documentação Planejamento.</span><span class="sxs-lookup"><span data-stu-id="9ddce-p103">A/V Edge Server. For details about the implementation of an A/V Edge Server, see [Planning for Conferencing](https://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) in the Planning documentation.</span></span>
+- <span data-ttu-id="ed241-p103">Servidor de Borda A/V. Para obter detalhes sobre a implantação de um Servidor de Borda A/V, consulte  [Planning for Conferencing](https://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) na documentação Planejamento.</span><span class="sxs-lookup"><span data-stu-id="ed241-p103">A/V Edge Server. For details about the implementation of an A/V Edge Server, see [Planning for Conferencing](https://technet.microsoft.com/library/983a272a-e1b3-4d70-8f84-836b092fe526.aspx) in the Planning documentation.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="9ddce-p104">Caso você habilite o suporte para qualquer um destes recursos agora, o projeto de topologia que você publicar incluirá os componentes de servidor necessários para implementar cada recurso escolhido. Para que a publicação da topologia seja bem-sucedida, os computadores físicos devem estar ingressados ao domínio. Por exemplo, caso você habilite o suporte para arquivamento agora, implante um Servidor de Arquivamento e configure as opções de arquivamento adequadas antes de começar a arquivar as comunicações de sua organização.</span><span class="sxs-lookup"><span data-stu-id="9ddce-p104">If you enable support for any of these features now, the topology design that you publish will include the server components that are required to implement each selected feature. For the publishing of a topology to succeed without error, you must have the physical computers joined to the domain. For example, if you enable support for archiving now, you must then deploy an Archiving Server and configure the appropriate archiving options before you start archiving communications for your organization.</span></span>
+> <span data-ttu-id="ed241-p104">Caso você habilite o suporte para qualquer um destes recursos agora, o projeto de topologia que você publicar incluirá os componentes de servidor necessários para implementar cada recurso escolhido. Para que a publicação da topologia seja bem-sucedida, os computadores físicos devem estar ingressados ao domínio. Por exemplo, caso você habilite o suporte para arquivamento agora, implante um Servidor de Arquivamento e configure as opções de arquivamento adequadas antes de começar a arquivar as comunicações de sua organização.</span><span class="sxs-lookup"><span data-stu-id="ed241-p104">If you enable support for any of these features now, the topology design that you publish will include the server components that are required to implement each selected feature. For the publishing of a topology to succeed without error, you must have the physical computers joined to the domain. For example, if you enable support for archiving now, you must then deploy an Archiving Server and configure the appropriate archiving options before you start archiving communications for your organization.</span></span>
 
 
