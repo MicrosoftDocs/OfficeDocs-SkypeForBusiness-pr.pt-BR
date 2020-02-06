@@ -7,21 +7,23 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddEdgeServerStartPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f7f90070-fcdc-4ec5-9551-cc7da2ed271c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Você pode adicionar suporte ao acesso de usuários externos quando implantar sua topologia inicial ou posteriormente. Para obter detalhes sobre como incluir Servidores de Borda na topologia existente, consulte Define Your Edge Topology na documentação de Implantação do Servidor de Borda.
-ms.openlocfilehash: b4efe8b2e93e9787dfbc44cfc2790f2e4bb91e2b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e3c379c5669f4681b46a9545a6639472d256f3e5
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689400"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798128"
 ---
-# <a name="add-edge-server-support"></a><span data-ttu-id="b92de-104">Adicionar Suporte de Servidor de Borda</span><span class="sxs-lookup"><span data-stu-id="b92de-104">Add Edge Server Support</span></span>
+# <a name="add-edge-server-support"></a><span data-ttu-id="3d9ea-104">Adicionar Suporte de Servidor de Borda</span><span class="sxs-lookup"><span data-stu-id="3d9ea-104">Add Edge Server Support</span></span>
 
-<span data-ttu-id="b92de-105">Você pode adicionar suporte ao acesso de usuários externos quando implantar sua topologia inicial ou posteriormente.</span><span class="sxs-lookup"><span data-stu-id="b92de-105">You can add support for external user access when you deploy your initial topology, or at a later time.</span></span> <span data-ttu-id="b92de-106">Para obter detalhes sobre como incluir Servidores de Borda na topologia existente, consulte [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) na documentação de Implantação do Servidor de Borda.</span><span class="sxs-lookup"><span data-stu-id="b92de-106">For details about adding Edge Servers to an existing topology, see [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) in the Edge Server Deployment documentation.</span></span>
+<span data-ttu-id="3d9ea-105">Você pode adicionar suporte ao acesso de usuários externos quando implantar sua topologia inicial ou posteriormente.</span><span class="sxs-lookup"><span data-stu-id="3d9ea-105">You can add support for external user access when you deploy your initial topology, or at a later time.</span></span> <span data-ttu-id="3d9ea-106">Para obter detalhes sobre como incluir Servidores de Borda na topologia existente, consulte [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) na documentação de Implantação do Servidor de Borda.</span><span class="sxs-lookup"><span data-stu-id="3d9ea-106">For details about adding Edge Servers to an existing topology, see [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) in the Edge Server Deployment documentation.</span></span>
 
 

@@ -6,29 +6,31 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployReplicaConfig
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 92dccbca-7a5b-4064-9f2e-964b8e62433c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para começar a instalação do banco de dados que manterá a cópia somente leitura local do repositório de gerenciamento central, selecione entre recuperar a configuração definida publicada usando o construtor de topologias a partir do centro já instalado e configurado Repositório de gerenciamento ou leitura da configuração definida de outras mídias. Para um computador que esteja na rede interna da sua organização, selecione recuperar configuração automaticamente no repositório de gerenciamento central.
-ms.openlocfilehash: a689d8cd7926cca109b808f8a186396dd48caaf8
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b4cc16b26e40b0215a72917c5cab47de8bce5e1b
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705296"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794720"
 ---
-# <a name="install-local-configuration-store-invoke-configure"></a><span data-ttu-id="6340b-104">Instalar Invocação do Repositório de Configuração Local (Configuração)</span><span class="sxs-lookup"><span data-stu-id="6340b-104">Install Local Configuration Store Invoke (Configure)</span></span>
+# <a name="install-local-configuration-store-invoke-configure"></a><span data-ttu-id="02ee4-104">Instalar Invocação do Repositório de Configuração Local (Configuração)</span><span class="sxs-lookup"><span data-stu-id="02ee4-104">Install Local Configuration Store Invoke (Configure)</span></span>
  
-<span data-ttu-id="6340b-105">Para começar a instalação do banco de dados que manterá a cópia somente leitura local do repositório de gerenciamento central, selecione entre recuperar a configuração definida publicada usando o construtor de topologias a partir do centro já instalado e configurado Repositório de gerenciamento ou leitura da configuração definida de outras mídias.</span><span class="sxs-lookup"><span data-stu-id="6340b-105">To begin the installation of the database that will hold the local read-only copy of the Central Management store, you select between retrieving the defined configuration published by using Topology Builder from the already installed and configured Central Management store, or reading the defined configuration from other media.</span></span> <span data-ttu-id="6340b-106">Para um computador que esteja na rede interna da sua organização, selecione **recuperar configuração automaticamente no repositório de gerenciamento central**.</span><span class="sxs-lookup"><span data-stu-id="6340b-106">For a machine that is on your organization's internal network, select **Retrieve configuration automatically from the Central Management Store**.</span></span>
+<span data-ttu-id="02ee4-105">Para começar a instalação do banco de dados que manterá a cópia somente leitura local do repositório de gerenciamento central, selecione entre recuperar a configuração definida publicada usando o construtor de topologias a partir do centro já instalado e configurado Repositório de gerenciamento ou leitura da configuração definida de outras mídias.</span><span class="sxs-lookup"><span data-stu-id="02ee4-105">To begin the installation of the database that will hold the local read-only copy of the Central Management store, you select between retrieving the defined configuration published by using Topology Builder from the already installed and configured Central Management store, or reading the defined configuration from other media.</span></span> <span data-ttu-id="02ee4-106">Para um computador que esteja na rede interna da sua organização, selecione **recuperar configuração automaticamente no repositório de gerenciamento central**.</span><span class="sxs-lookup"><span data-stu-id="02ee4-106">For a machine that is on your organization's internal network, select **Retrieve configuration automatically from the Central Management Store**.</span></span>
   
-<span data-ttu-id="6340b-107">Se você estiver instalando uma réplica do repositório de gerenciamento central em um servidor de borda, selecione para ler a cópia exportada do documento de configuração de mídias portáteis, como uma unidade flash USB, unidade de disco rígido USB, CD-ROM ou outra mídia.</span><span class="sxs-lookup"><span data-stu-id="6340b-107">If you are installing a replica of the Central Management store on an Edge Server, you select to read the exported copy of the configuration document from portable media, such as a USB flash drive, USB hard disk drive, CD-ROM, or other media.</span></span> 
+<span data-ttu-id="02ee4-107">Se você estiver instalando uma réplica do repositório de gerenciamento central em um servidor de borda, selecione para ler a cópia exportada do documento de configuração de mídias portáteis, como uma unidade flash USB, unidade de disco rígido USB, CD-ROM ou outra mídia.</span><span class="sxs-lookup"><span data-stu-id="02ee4-107">If you are installing a replica of the Central Management store on an Edge Server, you select to read the exported copy of the configuration document from portable media, such as a USB flash drive, USB hard disk drive, CD-ROM, or other media.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="6340b-108">Se você estiver instalando o repositório de configuração local em um servidor de borda, as informações de configuração deverão estar em um formato que foi exportado do repositório de gerenciamento central executando o cmdlet do Windows PowerShell:`Export-CsConfiguration -FileName <ConfigurationFilePath.zip>`</span><span class="sxs-lookup"><span data-stu-id="6340b-108">If you are installing the Local Configuration store on an Edge Server, the configuration information must be in a format that was exported from the Central Management store by running the Windows PowerShell cmdlet:  `Export-CsConfiguration -FileName <ConfigurationFilePath.zip>`</span></span>
+> <span data-ttu-id="02ee4-108">Se você estiver instalando o repositório de configuração local em um servidor de borda, as informações de configuração deverão estar em um formato que foi exportado do repositório de gerenciamento central executando o cmdlet do Windows PowerShell:`Export-CsConfiguration -FileName <ConfigurationFilePath.zip>`</span><span class="sxs-lookup"><span data-stu-id="02ee4-108">If you are installing the Local Configuration store on an Edge Server, the configuration information must be in a format that was exported from the Central Management store by running the Windows PowerShell cmdlet:  `Export-CsConfiguration -FileName <ConfigurationFilePath.zip>`</span></span>
   
-<span data-ttu-id="6340b-109">Depois de selecionar a opção apropriada, clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="6340b-109">After you have selected the appropriate option, click **Next**.</span></span>
+<span data-ttu-id="02ee4-109">Depois de selecionar a opção apropriada, clique em **Avançar**.</span><span class="sxs-lookup"><span data-stu-id="02ee4-109">After you have selected the appropriate option, click **Next**.</span></span>
   
 

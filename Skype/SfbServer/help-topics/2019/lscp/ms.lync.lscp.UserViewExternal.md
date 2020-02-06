@@ -6,25 +6,27 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.UserViewExternal
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 7065ebf2-15cc-44cf-9282-d64a86e3185a
 ROBOTS: NOINDEX, NOFOLLOW
 description: O que você deseja fazer? Clique no link da tarefa que você deseja executar.
-ms.openlocfilehash: b1b83f302b5ba99630c2309a8a7eb984b49ab3c6
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 271b2cd39747489f55b710b71d8b373d23b1a6a2
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41690349"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797948"
 ---
-# <a name="users-view-or-configure-external-access-policy"></a><span data-ttu-id="96dba-104">Usuários: Exibir ou Configurar Política de Acesso Externo</span><span class="sxs-lookup"><span data-stu-id="96dba-104">Users: View or Configure External Access Policy</span></span>
+# <a name="users-view-or-configure-external-access-policy"></a><span data-ttu-id="f6969-104">Usuários: Exibir ou Configurar Política de Acesso Externo</span><span class="sxs-lookup"><span data-stu-id="f6969-104">Users: View or Configure External Access Policy</span></span>
 
-<span data-ttu-id="96dba-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="96dba-105">What do you want to do?</span></span> <span data-ttu-id="96dba-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="96dba-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="f6969-105">O que você deseja fazer?</span><span class="sxs-lookup"><span data-stu-id="f6969-105">What do you want to do?</span></span> <span data-ttu-id="f6969-106">Clique no link da tarefa que você deseja executar.</span><span class="sxs-lookup"><span data-stu-id="f6969-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="96dba-107">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span><span class="sxs-lookup"><span data-stu-id="96dba-107">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [<span data-ttu-id="f6969-107">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span><span class="sxs-lookup"><span data-stu-id="f6969-107">Configure Federation, Remote User Access, and Public IM Connectivity for Users</span></span>](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
 
 

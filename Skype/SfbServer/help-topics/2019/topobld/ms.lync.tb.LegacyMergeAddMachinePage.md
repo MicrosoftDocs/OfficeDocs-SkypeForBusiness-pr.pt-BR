@@ -7,21 +7,23 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.LegacyMergeAddMachinePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3dbf1649-3a4f-488b-85b3-70533939fe1c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para definir os computadores que compõem o pool de Servidor de Borda, insira o nome de domínio totalmente qualificado (FQDN) de pelo menos um computador que faz parte do pool de Borda consolidado e herdado, com carga balanceada.
-ms.openlocfilehash: 12f7d3ad219a125e58dfd1ca269894f6f44b5a65
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 58178bfac23bb7ed03058cbc2cc78827a36c1571
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41702006"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796300"
 ---
-# <a name="legacy-merge-add-machine"></a><span data-ttu-id="eac6f-103">Máquina de Adição de Mesclagem de Legado</span><span class="sxs-lookup"><span data-stu-id="eac6f-103">Legacy Merge Add Machine</span></span>
+# <a name="legacy-merge-add-machine"></a><span data-ttu-id="151a6-103">Máquina de Adição de Mesclagem de Legado</span><span class="sxs-lookup"><span data-stu-id="151a6-103">Legacy Merge Add Machine</span></span>
  
-<span data-ttu-id="eac6f-104">Para definir os computadores que compõem o pool de Servidor de Borda, insira o nome de domínio totalmente qualificado (FQDN) de pelo menos um computador que faz parte do pool de Borda consolidado e herdado, com carga balanceada.</span><span class="sxs-lookup"><span data-stu-id="eac6f-104">To define the computers that make up the Edge Server pool, enter the fully qualified domain name (FQDN) of at least one computer that is part of the legacy load-balanced, consolidated Edge pool.</span></span> 
+<span data-ttu-id="151a6-104">Para definir os computadores que compõem o pool de Servidor de Borda, insira o nome de domínio totalmente qualificado (FQDN) de pelo menos um computador que faz parte do pool de Borda consolidado e herdado, com carga balanceada.</span><span class="sxs-lookup"><span data-stu-id="151a6-104">To define the computers that make up the Edge Server pool, enter the fully qualified domain name (FQDN) of at least one computer that is part of the legacy load-balanced, consolidated Edge pool.</span></span> 
   
 
