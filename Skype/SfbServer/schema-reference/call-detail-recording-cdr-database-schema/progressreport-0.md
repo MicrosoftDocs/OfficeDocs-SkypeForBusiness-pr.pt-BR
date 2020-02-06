@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b49f3fc7-0e2f-498f-8505-aaaf54e435f9
 description: A exibição ProgressReport armazena informações sobre sessões concluídas. Os relatórios de progresso serão escritos apenas para chamadas e sessões que o Lync Server 2013 determina que podem ser úteis para fins de diagnóstico. Este modo de exibição foi apresentado no Microsoft Lync Server 2013.
-ms.openlocfilehash: e5ad388c2845be63926f2172f944abc08f58481e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c07b9db8ebd9f898ab9d8feb5b07c4723209522c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295955"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814979"
 ---
 # <a name="progressreport-view"></a>Exibição ProgressReport
  

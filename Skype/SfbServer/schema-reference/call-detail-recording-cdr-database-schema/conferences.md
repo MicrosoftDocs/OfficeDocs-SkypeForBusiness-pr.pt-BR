@@ -8,15 +8,17 @@ ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c3da6271-b3c6-4898-894f-10456ec794d0
 description: Cada registro desta tabela contém detalhes da chamada sobre uma conferência.
-ms.openlocfilehash: 41a2a25e80b073b568152422defeee1ca3e2ac19
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 97d7fcb4dc2217b1b7c52c1aa3424f1cf9f57808
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296445"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815349"
 ---
 # <a name="conferences-table-in-skype-for-business-server-2015"></a>Tabela de conferências no Skype for Business Server 2015
  
@@ -25,7 +27,7 @@ Cada registro desta tabela contém detalhes da chamada sobre uma conferência.
 |**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**Id_da_sessãotime** <br/> |datetime  <br/> |Primária  <br/> |Hora em que a solicitação de conferência foi capturada pelo agente de CDR. Usado apenas como uma chave primária para identificar uma instância de conferência de forma exclusiva.  <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Primária  <br/> |Número de identificação para identificar a sessão. Usado em conjunto com **** a identificação_da_sessãotime para identificar exclusivamente uma instância de conferência. * <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Primária  <br/> |Número de identificação para identificar a sessão. Usado em conjunto com a **identificação_da_sessãotime** para identificar exclusivamente uma instância de conferência. * <br/> |
 |**ConferenceUriId** <br/> |int  <br/> |Exterior  <br/> |URL da conferência. Consulte a [tabela ConferenceUris no Skype for Business Server 2015](conferenceuris.md) para obter mais informações. <br/> |
 |**ConfInstance** <br/> |identificador  <br/> | <br/> |Útil para conferências recorrentes; cada instância de uma conferência recorrente tem o mesmo **ConferenceUri**, mas terá um **ConfInstance**diferente. <br/> |
 |**ConferenceStartTime** <br/> |datetime  <br/> | <br/> |Hora de início da conferência.  <br/> |

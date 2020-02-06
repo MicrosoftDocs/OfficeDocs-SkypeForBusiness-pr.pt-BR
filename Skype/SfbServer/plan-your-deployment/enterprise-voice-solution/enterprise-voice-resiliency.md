@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Saiba como dar suporte à resiliência de voz no Skype for Business Server Enterprise Voice, em sites centrais e em sites de filiais. As opções de site de filiais incluem a implantação de aparelhos de ramificação sobreviventes ou servidores de ramificação sobreviventes.
-ms.openlocfilehash: 2ede1677e59753e5f8f39b3e9a35221041b56263
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e64ac79ef49339401c5b2d0bbb7d27140eca4296
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276884"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802941"
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Plan for Enterprise Voice resiliency in Skype for Business Server
 
@@ -275,7 +277,7 @@ Se um site de filial não tiver um servidor DNS, existem duas maneiras alternati
 
 #### <a name="voice-routing-for-branch-users"></a>Roteamento de voz para usuários de filial
 
-É recomendável criar uma política VoIP separada em nível de usuário para os usuários de um site de filial. Essa política deve incluir uma rota primária que usa o aplicativo de ramificação ou o gateway de servidor de ramificação sobreviventes e uma ou mais rotas de backup que usam um tronco com um gateway PSTN (rede telefônica pública comutada) no site central. Se a rota principal não estiver disponível, a rota de backup que usa um ou mais gateways do site central será utilizada. Dessa forma, independentemente de onde um usuário estiver registrado, no registrador de site de filial ou no pool de registradores de backup no site central, a política de VoIP do usuário estará sempre em vigor. Essa é uma consideração importante para cenários de failover. Por exemplo, se precisar renomear o aparelho de ramificação sobreviventes ou reconfigurar o aparelho de ramificação sobreviventes para se conectar a um pool de registradores de backup no site central, você deverá mover os usuários do site para o site central durante a duração. (Para obter detalhes sobre como renomear ou reconfigurar um aparelho de ramificação sobreviventes, consulte [Apêndice B: gerenciar um aparelho de ramificação sobreviventes](https://technet.microsoft.com/library/2ec9d505-6d39-491c-9524-8cf36866b855.aspx) na documentação de implantação.) Se esses usuários não tiverem políticas de VoIP em nível de usuário ou planos de discagem em nível de usuário, quando os usuários forem movidos para outro site, as políticas de VoIP no nível do site e os planos de discagem em nível de site do site central se aplicam aos usuários por padrão, em vez de usar o VoIP no nível do site da filial políticas e planos de discagem. Nesse cenário, a menos que as políticas VoIP e os planos de discagem em nível de site usados pelo pool de Registradores Avançados de backup também possam ser aplicados aos usuários do site de filial, suas chamadas falharão. Por exemplo, se os usuários de um site de filial localizado no Japão forem movidos para um site central em Redmond, um plano de discagem com regras de normalização que acrescentem o prefixo +1425 a todas as chamadas de 7 dígitos provavelmente não converterá as chamadas de forma apropriada para esses usuários.
+É recomendável criar uma política VoIP separada em nível de usuário para os usuários de um site de filial. Essa política deve incluir uma rota primária que usa o aplicativo de ramificação ou o gateway de servidor de ramificação sobreviventes e uma ou mais rotas de backup que usam um tronco com um gateway PSTN (rede telefônica pública comutada) no site central. Se a rota principal não estiver disponível, a rota de backup que usa um ou mais gateways do site central será utilizada. Dessa forma, independentemente de onde um usuário estiver registrado, no registrador de site de filial ou no pool de registradores de backup no site central, a política de VoIP do usuário estará sempre em vigor. Essa é uma consideração importante para cenários de failover. Por exemplo, se precisar renomear o aparelho de ramificação sobreviventes ou reconfigurar o aparelho de ramificação sobreviventes para se conectar a um pool de registradores de backup no site central, você deverá mover os usuários do site para o site central durante a duração. (Para obter detalhes sobre como renomear ou reconfigurar um aparelho de ramificação sobreviventes, consulte [Apêndice B: gerenciar um aparelho de ramificação sobreviventes](https://technet.microsoft.com/library/2ec9d505-6d39-491c-9524-8cf36866b855.aspx) na documentação de implantação.) Se esses usuários não tiverem políticas de VoIP em nível de usuário ou planos de discagem em nível de usuário, quando os usuários forem movidos para outro site, as políticas de VoIP no nível do site e os planos de discagem no nível do site central se aplicam aos usuários por padrão, em vez de políticas de VoIP no nível de site e de planos de discagem Nesse cenário, a menos que as políticas VoIP e os planos de discagem em nível de site usados pelo pool de Registradores Avançados de backup também possam ser aplicados aos usuários do site de filial, suas chamadas falharão. Por exemplo, se os usuários de um site de filial localizado no Japão forem movidos para um site central em Redmond, um plano de discagem com regras de normalização que acrescentem o prefixo +1425 a todas as chamadas de 7 dígitos provavelmente não converterá as chamadas de forma apropriada para esses usuários.
 
 > [!IMPORTANT]
 > Ao criar uma rota de backup do escritório da filial, é recomendável adicionar dois registros de uso do telefone PSTN à política do usuário do escritório da filial e atribuir rotas separadas a cada um deles. A rota inicial ou primária faria chamadas para o gateway associado à ferramenta de ramificação (SBA) ou ao servidor de ramificação sobreviventes. a rota de segundo, ou backup, direcionaria chamadas para o gateway no site central. Ao direcionar as chamadas, o SBA ou o servidor da filial tentará todas as rotas atribuídas ao primeiro registro de uso PSTN, antes de tentar o segundo registro.
@@ -285,7 +287,7 @@ Para ajudar a garantir que as chamadas recebidas para os usuários do site de ra
 > [!NOTE]
 > Para contabilizar o consumo de recursos do site central pelos usuários de um site de filial que dependam do site central para fins de presença, conferência ou failover, é recomendável considerar cada usuário do site de filial como se estivesse registrado no site central. No momento, não há limites quanto ao número de usuários de sites de filiais, incluindo usuários registrados em um aparelho de ramificação sobreviventes.
 
-Também é recomendável criar um plano de discagem e uma política de voz em nível de usuário, e atribuí-los aos usuários do site de filial. Para obter detalhes, consulte [criar ou modificar um plano de discagem no Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md) e [criar a política de roteamento de VoIP para usuários](https://technet.microsoft.com/library/10deca9f-f870-4a42-b25d-e4fc53108658.aspx) da ramificação na documentação de implantação.
+Também é recomendável criar um plano de discagem e uma política de voz em nível de usuário, e atribuí-los aos usuários do site de filial. Para obter detalhes, consulte [criar ou modificar um plano de discagem no Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md) e [criar a política de roteamento de VoIP para usuários da ramificação](https://technet.microsoft.com/library/10deca9f-f870-4a42-b25d-e4fc53108658.aspx) na documentação de implantação.
 
 #### <a name="routing-extension-numbers"></a>Roteamento de números de ramal
 
@@ -328,7 +330,7 @@ Recomendamos definir as configurações a seguir para a persistência da caixa p
 
 - O administrador do Skype for Business Server deve levar o número de telefone AA e usar esse número de telefone como o número de **atendedor automático de um do Exchange** nas configurações de redirecionamento de caixa postal para o aparelho de ramificação ou servidor de ramificação sobreviventes.
 
-- O administrador do Skype for Business Server deve obter o número de telefone de acesso do assinante do Exchange UM e usar esse número como o número de **acesso** do assinante nas configurações de redirecionamento de caixa postal para o aparelho de ramificação sobreviventes ou o servidor de ramificação sobreviventes .
+- O administrador do Skype for Business Server deve obter o número de telefone de acesso do assinante do Exchange UM e usar esse número como o número de **acesso do assinante** nas configurações de redirecionamento de caixa postal para o aparelho de ramificação sobreviventes ou o servidor de ramificação sobreviventes.
 
 - O administrador do Skype for Business Server deve configurar o UM do Exchange para que apenas um plano de discagem esteja associado a todos os usuários da ramificação que precisam acessar a caixa postal durante uma falha de WAN.
 

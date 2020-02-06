@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 'As configurações de tronco SIP definem a relação e os recursos entre um servidor de mediação e o gateway PSTN (rede telefônica pública comutada), um PBX (PBX IP-Public Branch Exchange) ou um SBC (controlador de borda de sessão) no provedor de serviços. '
-ms.openlocfilehash: fec64de813a9e4b0686e257ccfed7cb9c034467c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 76196df2cf0bd74ef804a082862891c326048408
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274923"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816951"
 ---
 # <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Modificar as configurações de tronco SIP no Skype for Business Server
 
@@ -42,11 +44,11 @@ Ao modificar as configurações de tronco SIP usando o painel de controle do ser
 |Habilitar dados de encaminhamento P-Asserted-Identity|ForwardPAI|Indica se o header de P-Asserted-Identity (PAI) será encaminhado junto com a chamada. O header PAI oferece uma forma de verificar a identidade do chamador.|
 |Habilitar timer de failover do roteamento de saída|EnableFastFailoverTimer|Indica se chamadas de saída não atendidas pelo gateway em 10 segundos serão roteadas ao próximo tronco disponível; se não houver troncos adicionais, a chamada cairá automaticamente. Em uma empresa com redes e respostas de gateway lentas, que poderia resultar em chamadas desligadas desnecessariamente.|
 |Uso associado de PSTNsages|PSTNUsages|Conjunto de usos PSTN atribuídos ao tronco.|
-|Número convertido para testar|N/D|Número de telefone que pode ser usado para um teste ad hoc de configurações do tronco.|
+|Número convertido para testar|Não disponível|Número de telefone que pode ser usado para um teste ad hoc de configurações do tronco.|
 |Regras de conversão associadas|OutboundTranslationRulesList|Coleção de regras de conversão de números de telefone que se aplicam a chamadas tratadas pelo Roteamento de saída (chamadas roteadas para destinos de PBX ou PSTN).|
 |Regras de conversão do número chamado|OutboundCallingNumberTranslationRulesList|Conjunto de regras de conversão de número de chamada de saída atribuídas ao tronco.|
-|Número de telefone a ser de testado.|N/D|Número de telefone que pode ser usado para um teste ad hoc das regras de conversão.|
-|Número de chamada|N/D|Indica que o número de telefone a ser testado é o número do chamador.|
+|Número de telefone a ser de testado.|Não disponível|Número de telefone que pode ser usado para um teste ad hoc das regras de conversão.|
+|Número de chamada|Não disponível|Indica que o número de telefone a ser testado é o número do chamador.|
 |Número chamado|N/D|Indica que o número de telefone a ser testado é o número da pessoa sendo chamada.|
 |||
 
@@ -59,5 +61,5 @@ Ao modificar as configurações de tronco SIP usando o painel de controle do ser
 2. Na guia **Configuração de Tronco**, clique duas vezes nas configurações do tronco a ser modificado. Observe que é possível editar somente uma coleção de configurações por vez. Se quiser fazer as mesmas alterações em múltiplas coleções, use Windows PowerShell.
 3. Na caixa de diálogo **Editar configuração de tronco** , faça as seleções adequadas e clique em **OK**.
 4. A propriedade Estado da coleção será atualizada para Não vinculado. Para confirmar as alterações e excluir a coleção, clique em **confirmar**e, em seguida, clique em **confirmar tudo**.
-5. Na caixa de diálogo **configurações de voz**não confirmadas, clique em **OK**.
+5. Na caixa de diálogo **configurações de voz não confirmadas**, clique em **OK**.
 6. Na caixa de diálogo **painel de controle do Skype for Business Server** , clique em **OK**.

@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8ec018b9-158e-4bbe-ad46-869e60315555
 description: A tabela IPAddress mapeia endereços IP para os identificadores de endereço IP exclusivos usados em outro lugar no banco de dados de qualidade da experiência. Esta tabela foi introduzida no Microsoft Lync Server 2013.
-ms.openlocfilehash: 74d74636b7183d1369db85c363997460a434d8f3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2789d436b007a5208d98a4b32dca14517fbaaa57
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294919"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41809539"
 ---
 # <a name="ipaddress-table"></a>Tabela IPAddress
  

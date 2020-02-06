@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bf2a3b8f-73c6-47e1-8c9e-ca1dc1a502bf
 description: O Skype for Business Server inclui vários recursos de segurança, incluindo autenticação de servidor para servidor, controle de acesso baseado em função e armazenamento centralizado de dados de configuração.
-ms.openlocfilehash: cd86d1ac404cd2fe487f6f9369cc73df0d72c52f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ac1891194d231c4d494ba4014e4abd8bd7f1185b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296886"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815649"
 ---
 # <a name="key-security-features-in-skype-for-business-server"></a>Principais recursos de segurança no Skype for Business Server
  
@@ -58,7 +60,7 @@ O Skype for Business Server fornece controle de acesso baseado em função (RBAC
   
 ## <a name="network-address-translation-nat"></a>Conversão de Endereço de Rede (NAT)
 
-O Skype for Business Server não oferece suporte ao uso de NAT (conversão de endereços de rede) na interface interna do servidor de borda, mas suporta colocar a interface externa do serviço de borda de acesso, serviço de borda de Webconferência e serviço de borda A/V atrás de um roteador ou firewall que executa a NAT (conversão de endereços de rede) para topologias de servidor de borda consolidadas simples e em escala. Múltiplos Servidores de Borda ocultos sob um balanceador de carga de hardware não podem usar o NAT. O balanceador de carga do DNS (Domain Name System) é obrigatório se múltiplos Servidores de Borda usarem o NAT em suas interfaces externas. Por sua vez, o uso do balanceador de carga do DNS permite reduzir o número de endereços de IP públicos por Servidor de Borda em um pool de Servidores de Borda. Para obter detalhes, consulte [cenários do servidor de borda no Skype for Business Server](../../plan-your-deployment/edge-server-deployments/scenarios.md).
+O Skype for Business Server não oferece suporte ao uso de NAT (conversão de endereços de rede) na interface interna do servidor de borda, mas permite colocar a interface externa do serviço de borda de acesso, o serviço de borda de Webconferência e o serviço de borda A/V por trás de um roteador ou firewall que executa a conversão de endereços de rede Múltiplos Servidores de Borda ocultos sob um balanceador de carga de hardware não podem usar o NAT. O balanceador de carga do DNS (Domain Name System) é obrigatório se múltiplos Servidores de Borda usarem o NAT em suas interfaces externas. Por sua vez, o uso do balanceador de carga do DNS permite reduzir o número de endereços de IP públicos por Servidor de Borda em um pool de Servidores de Borda. Para obter detalhes, consulte [cenários do servidor de borda no Skype for Business Server](../../plan-your-deployment/edge-server-deployments/scenarios.md).
   
 > [!NOTE]
 > Se você federa com empresas em uma implantação da Microsoft Office Communications Server 2007 e precisa usar áudio/vídeo entre a sua empresa e a empresa federada, os requisitos de porta serão os da versão antiga do Servidor de Borda implantado. Por exemplo, os intervalos de porta necessários para essas versões mais antigas devem ser abertos para ambas as empresas até que o parceiro federado atualize seus servidores de borda para o Skype for Business Server. Neste momento, os requisitos de porta poderão ser revistos e reduzidos de acordo com a nova configuração. 

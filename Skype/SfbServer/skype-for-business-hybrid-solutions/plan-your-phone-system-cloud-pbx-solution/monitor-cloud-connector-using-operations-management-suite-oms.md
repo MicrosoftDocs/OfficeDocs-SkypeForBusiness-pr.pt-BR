@@ -8,15 +8,17 @@ ms.date: 1/31/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: Leia este tópico para aprender a monitorar a versão 2,1 do conector de nuvem e posterior usando o Microsoft Operations Management Suite (OMS).
-ms.openlocfilehash: 6258ad9386b895f97a6f6dc0a1b40ce1076568aa
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1dcac3519624cef898622f915b08b24363453b84
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287262"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41799621"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Monitor Cloud Connector using Operations Management Suite (OMS).
 
@@ -114,15 +116,15 @@ No portal do OMS, você deve especificar informações sobre os logs de eventos 
 
      Total de chamadas ativas:
 
-   - LS: MediationServer-chamadas de entrada (_ total\- ) atuais 
+   - LS: MediationServer-chamadas de entrada (_Total)\- atuais 
 
-   - LS: MediationServer-chamadas de saída (_\- total) atual 
+   - LS: MediationServer-chamadas de saída (_Total\- ) atuais 
 
      Total de chamadas bypass de mídia ativas:
 
-   - LS: MediationServer-chamadas de entrada (_ total\- ) chamadas de anulação de mídia ativas 
+   - LS: MediationServer-chamadas de chamadas de entrada do\- active media (_Total) 
 
-   - LS: MediationServer-chamadas de saída (_\- total) chamadas de bypass de mídia ativas 
+   - LS: MediationServer (_Total)\- chamadas de bypass de mídia ativas 
 
      > [!NOTE]
      > Você deve inserir manualmente os contadores de desempenho na caixa de texto. Elas não aparecem como opções na lista suspensa. 
@@ -233,13 +235,13 @@ A tabela a seguir lista os problemas de rede que a Microsoft recomenda monitorar
 
 O seguinte lista os contadores de capacidade de chamada que devem ser monitorados. Esses números devem ser inferiores ao 500 para a edição padrão do conector de nuvem; menor que 50 para a edição mínima do conector de nuvem.
 
-- LS: MediationServer-chamadas de entrada (_ total\- ) atuais 
+- LS: MediationServer-chamadas de entrada (_Total)\- atuais 
 
-- LS: MediationServer-chamadas de saída (_\- total) atual 
+- LS: MediationServer-chamadas de saída (_Total\- ) atuais 
 
-- LS: MediationServer-chamadas de entrada (_ total\- ) chamadas de anulação de mídia ativas
+- LS: MediationServer-chamadas de chamadas de entrada do\- active media (_Total)
 
-- LS: MediationServer-chamadas de saída (_\- total) chamadas de bypass de mídia ativas
+- LS: MediationServer (_Total)\- chamadas de bypass de mídia ativas
 
 ## <a name="see-also"></a>Confira também
 

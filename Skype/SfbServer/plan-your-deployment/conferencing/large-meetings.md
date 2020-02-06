@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 'Resumo: Leia este tópico para saber mais sobre as práticas recomendadas para implementar e gerenciar reuniões grandes no Skype for Business Server.'
-ms.openlocfilehash: 136896a45be36508af419d84bc5bd684c9d8a429
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 615b34158ebbd8985610d704fd4d6605c762ab3e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "34696040"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815969"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>Planejar reuniões grandes no Skype for Business Server
  
@@ -57,7 +59,7 @@ Para ter recursos de CPU e memória suficientes para as reuniões com até 1.000
   
 Um pool do servidor do Skype for Business dedicado à Hospedagem de reuniões grandes deve hospedar uma e apenas uma reunião de até 1000 usuários ao mesmo tempo, para que os tempos da reunião precisem ser reservados antecipadamente por meio de um processo de agendamento fora da banda para garantir o suporte dedicado da Servidores de front-end. Para dar suporte a mais de uma grande reunião ao mesmo tempo, recomendamos a configuração de vários pools dedicados a grandes reuniões.
   
-Para obter mais informações sobre os requisitos de hardware e software e sobre como planejar uma topologia que ofereça suporte a reuniões grandes, consulte [requisitos de hardware e software para conferências no Skype for Business Server](hardware-and-software-requirements.md) e [planeje sua topologia de conferência para Skype for Business Server](conferencing-topology.md).
+Para obter mais informações sobre os requisitos de hardware e software e sobre como planejar uma topologia que ofereça suporte a reuniões grandes, consulte [requisitos de hardware e software para conferências no Skype for Business Server](hardware-and-software-requirements.md) e [planeje sua topologia de conferência para o Skype for Business Server](conferencing-topology.md).
   
 ## <a name="implement-best-practices-for-large-meetings"></a>Implante práticas recomendadas para grandes reuniões
 

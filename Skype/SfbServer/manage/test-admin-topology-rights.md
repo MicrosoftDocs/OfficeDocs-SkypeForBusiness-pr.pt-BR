@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Como testar os direitos de topologia no Skype for Business Server
-ms.openlocfilehash: d70809ba929c4f1934adce2bd3c60b261bd30d71
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1664a7e7d2b202b596a882e4b393cc15220806c9
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279239"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817307"
 ---
 # <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>Testando direitos de topologia de administração no Skype for Business Server
 
@@ -43,7 +45,7 @@ Para obter mais informações, consulte o tópico da ajuda para o cmdlet [Test-C
 
 Se Test-CsSetupPermission determinar que as permissões necessárias já foram definidas em um contêiner do Active Directory, o cmdlet retornará o valor true:
 
-True 
+Verdadeiro 
 
 Se as permissões não estiverem definidas, Test-CsSetupPermission retornará o valor false. Observe que esse valor normalmente será incluído em muitas mensagens de aviso. Por exemplo:
 
@@ -51,7 +53,7 @@ Aviso: entrada de controle de acesso (ACE) atl-cs-001\RTCUniversalServerAdmins; 
 
 Aviso: as entradas de controle de acesso (ACEs) no objeto "CN = Computers, DC = litwareinc, DC = com" não estão prontas. 
 
-False 
+Falso 
 
 Aviso: o processamento de "Test-CsSetupPermission" foi concluído com avisos. "2" avisos foram registrados durante a execução. 
 

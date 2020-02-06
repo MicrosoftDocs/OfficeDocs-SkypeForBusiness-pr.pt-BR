@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: Há suporte para conexões SIP diretas entre o Skype for Business Server e os gateways PSTN e IP-PBX no Enterprise Voice.
-ms.openlocfilehash: d70fa72032b86251870ebaf623679dedc782fe24
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1948e08d63aed9d49c70443a386adce6dc65f78e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276961"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803050"
 ---
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>Conexões SIP diretas no Skype for Business Server
 
@@ -57,7 +59,7 @@ A figura a seguir mostra a topologia genérica para a implantação do Enterpris
 ![Diagrama de opções de migração departamental](../../media/Fig28_Departmental_migration_option.jpg)
 
 > [!NOTE]
-> Se você estiver conectando a implantação do Skype for Business Server a um parceiro SIP certificado, um gateway PSTN (rede telefônica pública comutada) entre o servidor de mediação e o PBX não será necessário. Para obter uma lista de parceiros SIP diretos certificados, consulte o programa de interoperabilidade [aberto da Microsoft Unified Communications](https://go.microsoft.com/fwlink/p/?linkId=203309).
+> Se você estiver conectando a implantação do Skype for Business Server a um parceiro SIP certificado, um gateway PSTN (rede telefônica pública comutada) entre o servidor de mediação e o PBX não será necessário. Para obter uma lista de parceiros SIP diretos certificados, consulte o [programa de interoperabilidade aberto da Microsoft Unified Communications](https://go.microsoft.com/fwlink/p/?linkId=203309).
 
 > [!NOTE]
 > O caminho de mídia mostrado nesta figura tem o bypass de mídia habilitado (a configuração recomendada). Se você optar por desabilitar o bypass de mídia, o caminho de mídia será roteado pelo servidor de mediação.

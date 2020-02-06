@@ -8,16 +8,18 @@ ms.date: 12/20/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 description: Orientação sobre como usar a ferramenta de planejamento do Skype for Business Server 2015.
-ms.openlocfilehash: b130ca05200ea30bed8008399050affa96438644
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a1125224405cf739e4afab045dab8360a18756d5
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288947"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816300"
 ---
 # <a name="skype-for-business-server-2015-planning-tool"></a>Skype for Business Server 2015 Planning Tool
  
@@ -29,7 +31,7 @@ Por fim, o objetivo da ferramenta de planejamento é facilitar a complexidade po
   
 Após personalizar a topologia com os endereços TCP/IP da infraestrutura e FQDNs (nomes de domínio totalmente qualificados), a ferramenta de planejamento disponibiliza uma série de relatórios que abrangem o nome DNS, as regras de firewall, os certificados e muito mais. 
   
-A utilização desta ferramenta é a primeira etapa no planejamento de sua implementação. A próxima etapa seria inserir as informações específicas do seu site na calculadora de [capacidade do Skype for Business server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=51196), ajustar conforme necessário e, em seguida, usar a [ferramenta de stress e desempenho do Skype for Business Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=50367) para simular e verificar a a implementação vai atender às suas necessidades.
+A utilização desta ferramenta é a primeira etapa no planejamento de sua implementação. A próxima etapa seria inserir as informações específicas do seu site na calculadora de [capacidade do Skype for Business server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=51196), ajustar conforme necessário e, em seguida, usar a [ferramenta de stress e desempenho do Skype for Business Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=50367) para simular e verificar se a implementação atende às suas necessidades.
   
 A ferramenta de planejamento também fornece a capacidade de exportar informações em dois formatos:
   

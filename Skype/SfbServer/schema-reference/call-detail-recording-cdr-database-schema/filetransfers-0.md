@@ -8,15 +8,17 @@ ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 5368e67c-d8a9-43a1-9472-a839950dedb3
 description: Cada registro representa uma sessão de transferência de arquivo.
-ms.openlocfilehash: ada437eacfa9a532a4875c3ce1837ccd9d8aed17
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8b287d2fc2c40fe7e20cb3abc4ed6e403da701b7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296249"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815209"
 ---
 # <a name="filetransfers-table-in-skype-for-business-server-2015"></a>Tabela de transferências de fileno Skype for Business Server 2015
  
@@ -25,7 +27,7 @@ Cada registro representa uma sessão de transferência de arquivo.
 |**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**Id_da_sessãotime** <br/> |datetime  <br/> |Primário, estrangeiro  <br/> |Tempo de solicitação de sessão. Usado em conjunto com o **SessionIdSeq** para identificar exclusivamente uma sessão. Consulte a [tabela de diálogos no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Primário, estrangeiro  <br/> |Número de identificação para identificar a sessão. Usado em conjunto com **** a identificação_da_sessãotime para identificar exclusivamente uma sessão. Consulte a [tabela de diálogos no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Primário, estrangeiro  <br/> |Número de identificação para identificar a sessão. Usado em conjunto com a **identificação_da_sessãotime** para identificar exclusivamente uma sessão. Consulte a [tabela de diálogos no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
 |**Nome do arquivo** <br/> |nvarchar(256)  <br/> ||Nome do arquivo.  <br/> |
 |**Fileidentity** <br/> |identificador  <br/> ||Identificador exclusivo para distinguir entre as transferências de arquivo que envolvem o mesmo nome de arquivo.  <br/> |
 |**Cookie** <br/> |nvarchar(128  <br/> |Primária  <br/> |Usado para identificar todas as mensagens de acompanhamento como associadas a esta.  <br/> |

@@ -8,15 +8,17 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
 description: Esta seção contém exemplos de consultas para o banco de dados de chat persistente.
-ms.openlocfilehash: fef40c2f36547fb0772d2e938bf8259246ec2055
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f967e62ade8186bb2f0dae79c06af71e872808af
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295605"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814719"
 ---
 # <a name="sample-persistent-chat-database-queries"></a>Amostragem de consultas de banco de dados de Chat Persistente
  

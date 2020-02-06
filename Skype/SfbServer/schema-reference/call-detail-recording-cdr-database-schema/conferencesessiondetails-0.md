@@ -8,15 +8,17 @@ ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 9eae6a54-69fd-4966-aa17-7ecee1297ad8
 description: Cada registro representa uma sessão de conferência, que pode ser a sessão com foco ou a sessão com um servidor de conferência específico.
-ms.openlocfilehash: 40216d159c9d52dcf8c22f7fe7b915255ed0f741
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 95cf64589cdcd0fd38b4e29cd4e863c870f2a7a6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296438"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815339"
 ---
 # <a name="conferencesessiondetails-table-in-skype-for-business-server-2015"></a>Tabela ConferenceSessionDetails no Skype for Business Server 2015
  
@@ -25,7 +27,7 @@ Cada registro representa uma sessão de conferência, que pode ser a sessão com
 |**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**Id_da_sessãotime** <br/> |DateTime  <br/> |Primário, estrangeiro  <br/> |Tempo de solicitação de sessão; usado em conjunto com **SessionIdSeq** para identificar uma sessão de conferência com exclusividade. Consulte a [tabela de diálogos no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Primário, estrangeiro  <br/> |Número de identificação para identificar a sessão. Usado em conjunto com **** a identificação_da_sessãotime para identificar exclusivamente uma sessão de conferência. Consulte a [tabela de diálogos no Skype for Business Server 2015](dialogs.md) para obter mais informações. * <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Primário, estrangeiro  <br/> |Número de identificação para identificar a sessão. Usado em conjunto com a **identificação_da_sessãotime** para identificar exclusivamente uma sessão de conferência. Consulte a [tabela de diálogos no Skype for Business Server 2015](dialogs.md) para obter mais informações. * <br/> |
 |**ConferenceUriId** <br/> |int  <br/> |Exterior  <br/> |URI da conferência em foco relacionado a esta sessão. Consulte a [tabela ConferenceUris no Skype for Business Server 2015](conferenceuris.md) para obter mais informações. Esse URI é um URI de conferência baseado em foco. <br/> |
 |**ConfInstance** <br/> |Identificador  <br/> ||Identificador que diferencia as instâncias de conferências recorrentes. Cada instância de conferência recorrente tem o mesmo ConferenceURI, mas um valor ConfInstance diferente.  <br/> Este campo foi apresentado no Microsoft Lync Server 2013.  <br/> |
 |**McuConferenceUriId** <br/> |int  <br/> |Exterior  <br/> |URL de conferência do servidor de conferência relacionada a esta sessão. Consulte a [tabela ConferenceUris no Skype for Business Server 2015](conferenceuris.md) para obter mais informações. Esse URI é o URI da conferência baseada no servidor de conferência. Para sessões de conferência de foco, esta coluna será nula. <br/> |

@@ -8,15 +8,17 @@ ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 2f72aead-d1da-4185-b75c-f6c31d76a6b3
 description: Os modos de exibição fornecem uma maneira fácil de acessar informações sobre os cenários mais comuns usados para retornar dados do banco de dados CDR. É recomendável que você use modos de exibição para criar relatórios personalizados em vez de usar as tabelas de banco de dados CDR reais; Isso porque os modos de exibição de banco de dados são mais prováveis de manter a compatibilidade com versões anteriores.
-ms.openlocfilehash: e1a7926108c2e27ecc69c5717867b9c18f8b47ad
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 78bf18fe51cea8937de44c72b39f7c1b81c75544
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296137"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815119"
 ---
 # <a name="list-of-cdr-views"></a>Lista de Exibições de CDR
  

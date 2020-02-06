@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 9ff2c8fc-4ae8-4f22-96a8-1f4d5eecbf2d
 description: 'A tabela PurgeSettings contém informações que especificam se (e quando) registros de detalhes de chamadas desatualizados serão automaticamente excluídos do banco de dados CDR. Observe que as informações relacionadas à eliminação também podem ser obtidas no Skype for Business Server 2015 executando o seguinte comando:'
-ms.openlocfilehash: fbbd7908446fdb042c8fdfa2f0c8bec2d83b24d9
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 81e702a4d62b4c85fb849a768c97428719ddc391
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992911"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814959"
 ---
 # <a name="purgesettings-table"></a>Tabela PurgeSettings
  

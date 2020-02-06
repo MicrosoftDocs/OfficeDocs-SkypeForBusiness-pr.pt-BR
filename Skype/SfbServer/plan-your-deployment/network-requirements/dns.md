@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: 'Resumo: revise as considerações de DNS neste tópico antes de implementar o Skype for Business Server.'
-ms.openlocfilehash: 5e6bb5866cfc52dc02a1fc48c19b1f43af6077f7
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 52984c0813fb96c78ff5a1581c0722a691501ccb
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221221"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802121"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>Requisitos de DNS para o Skype for Business Server
 
@@ -31,7 +33,7 @@ Um servidor DNS (Domain Name Service) mapeia nomes de host (como www<span> </spa
 
 Embora isso possa parecer um pouco assustador à primeira vez, o trabalho pesado para planejar isso pode ser feito usando a [ferramenta de planejamento do Skype for Business Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=50357). Depois que você tiver usado as perguntas do assistente sobre quais recursos você planeja usar, para cada site que você definir, poderá exibir o relatório DNS no relatório de administração de borda e usar as informações listadas ali para criar seus registros DNS. Você também pode fazer ajustes para muitos dos nomes e endereços IP usados, para obter detalhes, consulte [rever o relatório DNS](../../management-tools/planning-tool/review-the-administrator-reports.md#DNS_Report). Lembre-se de que você pode exportar o relatório de administração de borda para uma planilha do Excel, e o relatório DNS será uma das planilhas no arquivo. Embora essa ferramenta inclua recursos [preteridos do Skype for Business Server 2019](../../../SfBServer2019/deprecated.md), ele ainda pode ser usado para criar um plano inicial se esses recursos não estiverem selecionados
 
-Ao instalar uma nova implementação, conforme descrito em [criar registros DNS para o Skype for Business Server](../../deploy/install/create-dns-records.md) e criar sua topologia para o Skype for Business Server, reconhecemos que você pode optar por usar os recursos DNS integrados ao Windows Server 2016 ou um pacote DNS de terceiros, portanto, manteremos as discussões neste artigo em geral, em vez de específicas. Vamos detalhar o que é necessário, e você decide como vai suprir essas necessidades.
+Ao instalar uma nova implementação, conforme descrito em [criar registros DNS para o Skype for Business Server](../../deploy/install/create-dns-records.md) e criar sua topologia para o Skype for Business Server, reconhecemos que você pode optar por usar os recursos DNS integrados ao Windows Server 2016 ou um pacote DNS de terceiros, portanto, vamos manter as discussões neste artigo em geral, em vez de específicas. Vamos detalhar o que é necessário, e você decide como vai suprir essas necessidades.
 
 Os administradores do Skype for Business, do Lync e do Office Communications Suite experientes provavelmente encontrarão as seguintes tabelas úteis. Se a tabela parecer confusa, as seções ou os artigos posteriores poderão esclarecer os seguintes conceitos:
 
@@ -50,8 +52,8 @@ As tabelas a seguir mostram os registros de DNS que o Skype for Business Server 
 |A/AAAA   |FQDN de substituição de serviços Web externos do pool Enterprise  <br/> *Web-ext.<span></span>Contoso<span></span>. com*   |HLB VIP para serviços Web externos do servidor front-end  <br/>*68.123.56.90*   |Obrigatório para habilitar o tráfego do cliente na Web do servidor, como baixar o Skype for Business Web App. Necessário caso os clientes móveis resolvam o DNS internamente. Pode resolver para IP da Internet ou IP de proxy reverso DMZ.   ||
 |A/AAAA   | FQDN do servidor do SQL Server back-end <br/> *SQL1. <span> </span>Contoso<span></span>. com*   |endereço IP do servidor  <br/> *192.168.11.90*   |Mapeia o nome do servidor para um SQL Server de back-end que trabalha com o pool de front-end em seu endereço IP   ||
 |A/AAAA   |FQDN do servidor back-end do SQL Server  <br/> *SQL2. <span> </span>Contoso<span></span>. com*   |endereço IP do servidor  <br/> *192.168.11.91*   |Mapeia o nome do servidor para um servidor de espelho SQL do back-end que trabalha com o pool de front-end para o endereço IP   ||
-|A/AAAA   |FQDN do pool do diretor  <br/>**Observação:** Não aplicável ao usar um servidor de diretor autônomo <br/> *DirPool. <span> </span>Contoso<span></span>. com*   |Endereços IP do pool de directors  <br/> DNS LB para *192.168.21.132, 192.168.21.133, 192.168.21.134*   |Balanceamento de carga de DNS dos servidores do pool do diretor. Mapeia o nome do pool para o pool diretor para um endereço IP, consulte Implantando o [balanceamento de carga de DNS em pools de front-end e pools de diretor](load-balancing.md#BK_FE_Dir) <br/> Um Diretor pode autenticar um usuário e é opcional.   ||
-|A/AAAA   |FQDN do diretor   |Endereço IP do servidor de cada servidor diretor   |Mapeia o nome do pool para o diretor para um endereço IP, confira implantando o [balanceamento de carga de DNS em pools de front-end e em pools de diretor](load-balancing.md#BK_FE_Dir)  ||
+|A/AAAA   |FQDN do pool do diretor  <br/>**Observação:** Não aplicável ao usar um servidor de diretor autônomo <br/> *DirPool. <span> </span>Contoso<span></span>. com*   |Endereços IP do pool de directors  <br/> DNS LB para *192.168.21.132, 192.168.21.133, 192.168.21.134*   |Balanceamento de carga de DNS dos servidores do pool do diretor. Mapeia o nome do pool para o pool diretor para um endereço IP, consulte [implantando o balanceamento de carga de DNS em pools de front-end e pools de diretor](load-balancing.md#BK_FE_Dir) <br/> Um Diretor pode autenticar um usuário e é opcional.   ||
+|A/AAAA   |FQDN do diretor   |Endereço IP do servidor de cada servidor diretor   |Mapeia o nome do pool para o diretor para um endereço IP, confira [implantando o balanceamento de carga de DNS em pools de front-end e em pools de diretor](load-balancing.md#BK_FE_Dir)  ||
 |A/AAAA   |FQDN do pool do servidor de mediação   |Endereços IP do pool   |A função de Servidor de Mediação é opcional. Você pode colocalizar os serviços fornecidos por um servidor de mediação para o pool ou servidor front-end. Consulte [usando o balanceamento de carga de DNS nos pools do servidor de mediação](load-balancing.md#BK_Mediation)  ||
 |A/AAAA   |FQDN do servidor de mediação   |Endereço IP do servidor   |Você pode colocalizar os serviços fornecidos por um servidor de mediação para o pool ou servidor front-end. Consulte [usando o balanceamento de carga de DNS nos pools do servidor de mediação](load-balancing.md#BK_Mediation)  ||
 |A/AAAA   |FQDN do servidor de chat persistente   |Endereço IP do servidor de chat persistente   |Um servidor de Chat Persistente é necessário para o recurso de Chat Persistente; em outros contextos, é opcional.   ||

@@ -8,16 +8,18 @@ ms.date: 4/5/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: Após concluir as perguntas iniciais da entrevista, você poderá editar o nome de domínio totalmente qualificado (FQDN) e o endereço IP do site. Para isso, na página Topologia Global, clique duas vezes no site que deseja editar.
-ms.openlocfilehash: 91a7ad51c66d810255fcc3239d25298bd370501f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: dae99620f34b832dd4abe0baf83d6df11b388750
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274286"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816440"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>Editar a topologia no Skype for Business Server 2015
 

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
 description: 'Resumo: Saiba mais sobre o relatório de resumo do diagnóstico de chamadas usado no Skype for Business Server.'
-ms.openlocfilehash: baa34340214b1eb905777c977c0e9fa8ebaea788
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 00925ca15ca053fc85ee5719c8154a92cfb35fb4
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279736"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817660"
 ---
 # <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>Relatório de resumo do diagnóstico de chamadas no Skype for Business Server
  
@@ -45,7 +47,7 @@ O Relatório de resumo de diagnóstico de chamadas é acessado na página inicia
     
 ## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a>Como usar melhor o Relatório de resumo de diagnóstico de chamadas
 
-O relatório de resumo do diagnóstico de chamadas inclui gráficos que comparam as tarifas de falha para as diversas modalidades usadas no Skype for Business Server. As colunas nestes gráficos são na verdade hotlinks; por exemplo, se você clicar na coluna mensagens instantâneas para sessões ponto a ponto, fará Drill down até uma instância do [relatório de diagnóstico de atividade ponto a ponto no Skype for Business Server](peer-to-peer-activity-diagnostic-report.md), um relatório que fornece mais detalhes sobre todos os sessões de mensagens instantâneas incluídas no relatório de resumo do diagnóstico de chamadas.
+O relatório de resumo do diagnóstico de chamadas inclui gráficos que comparam as tarifas de falha para as diversas modalidades usadas no Skype for Business Server. As colunas nestes gráficos são na verdade hotlinks; por exemplo, se você clicar na coluna mensagens instantâneas para sessões ponto a ponto, fará Drill down até uma instância do [relatório de diagnóstico de atividade ponto a ponto no Skype for Business Server](peer-to-peer-activity-diagnostic-report.md), um relatório que fornece mais detalhes sobre todas as sessões de mensagens instantâneas incluídas no relatório de resumo do diagnóstico de chamadas.
   
 ## <a name="filters"></a>Filtros
 

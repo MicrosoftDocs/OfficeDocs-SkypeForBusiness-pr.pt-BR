@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: O Skype for Business Server Enterprise Voice roteia chamadas com base em números de telefone normalizados para o formato E. 164. Isso significa que todas as cadeias de caracteres discadas devem ser normalizadas para o formato E. 164 para realizar a pesquisa de número reverso (RNL) para que elas possam ser traduzidas para o URI SIP correspondente. O Skype for Business Server oferece a capacidade de manipular a identificação chamada e a apresentação de identificação de chamadas.
-ms.openlocfilehash: 633b0c16fefb66d1ea44f96b5f32c2ca91f357f2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cdcfe3a847e148461b97abed33df070057dcd00b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274972"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816981"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>Definindo regras de tradução no Skype for Business Server
 
@@ -65,7 +67,7 @@ Siga estas etapas se quiser definir uma regra de tradução inserindo um conjunt
 2. Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Skype for Business, confira [instalar e abrir ferramentas administrativas](../../management-tools/install-and-open-administrative-tools.md).
 3. Para começar a definir uma regra de tradução, siga as etapas em [configurar um tronco com bypass de mídia](GET LINK AFTER MIGRATION)até a etapa 10 ou [configurar um tronco sem bypass de mídia](GET LINK AFTER MIGRATION) até a etapa 9.
 4. Em  **Nome** na página  **Nova Regra de Conversão** ou **Editar Regra de Conversão**, digite um nome que descreve o padrão numérico que está convertido.
-5. Adicionais Em **Descrição**, digite uma descrição da regra de tradução, por exemplo, a discagem de **longa distância internacional dos EUA**.
+5. Adicionais Em **Descrição**, digite uma descrição da regra de tradução, por exemplo, a **discagem de longa distância internacional dos EUA**.
 6. Na seção  **Compilar uma Regra de Conversão** da caixa de diálogo, insira valores nos seguintes campos:
     - **Dígitos iniciais**: (Opcional) especifique os dígitos iniciais dos números com os quais você deseja que o padrão corresponda. Por exemplo, digite  + nesse campo para corresponder os números no formato E.164 (que começa com +).
     - **Comprimento**: especifique o número de dígitos no padrão de correspondência e selecione se deseja que o padrão corresponda a números exatamente com esse comprimento, com um comprimento menor ou qualquer comprimento. Por exemplo, digite  **11** e selecione  **At least** na lista suspensa para fazer a correspondência de números com no mínimo 11 dígitos de comprimento.
@@ -100,7 +102,7 @@ Siga estas etapas se quiser definir uma regra de tradução escrevendo uma expre
 2. Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Skype for Business, confira [instalar e abrir ferramentas administrativas](../../management-tools/install-and-open-administrative-tools.md).
 3. Para começar a definir uma regra de tradução, siga as etapas em [configurar um tronco com bypass de mídia](GET LINK AFTER MIGRATION)até a etapa 10 ou [configurar um tronco sem bypass de mídia](GET LINK AFTER MIGRATION) até a etapa 9.
 4. No campo **nome** da página **nova regra de tradução** ou **Editar regra de tradução** , digite um nome que descreva o padrão de número que está sendo traduzido.
-5. Adicionais Em **Descrição**, digite uma descrição da regra de tradução; por exemplo, a discagem de **longa distância internacional dos EUA**.
+5. Adicionais Em **Descrição**, digite uma descrição da regra de tradução; por exemplo, a **discagem de longa distância internacional dos EUA**.
 6. Clique em **Editar** na parte inferior da seção **construir uma regra de tradução** .
 7. Digite o seguinte em digite uma **expressão regular**:
     - Em **coincidir com esse padrão**, especifique o padrão que será usado para corresponder os números a serem traduzidos.

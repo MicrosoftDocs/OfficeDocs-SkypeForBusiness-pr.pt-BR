@@ -8,6 +8,8 @@ ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Resumo: Prepare seus servidores do Skype for Business Server 2015 com este tópico. Hardware, sistema operacional, bancos de dados, software, todos os requisitos de sistema e recomendações estão aqui para ajudar a garantir uma instalação e uma implantação bem-sucedidas do seu farm de servidores.'
-ms.openlocfilehash: 8a3771f66a2fe83f8772a8a5a07f643d372d7c1d
-ms.sourcegitcommit: 208179a3dd166f53b5a3058242cb84207909f4ee
+ms.openlocfilehash: f806137b5972968332723a370092724bd9680697
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2020
-ms.locfileid: "41104420"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41801881"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Requisitos de servidor no Skype for Business Server 2015
  

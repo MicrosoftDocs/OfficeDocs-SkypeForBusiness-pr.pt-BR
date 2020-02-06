@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: Saiba mais sobre os servidores de mediação no Skype for Business Server, incluindo topologias compatíveis e suas relações com troncos M:N, bypass de mídia e controle de admissão de chamadas.
-ms.openlocfilehash: 8c58e0b866d62e7dd1ea60888ba611d78328489f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5a8e9d7728f8c78643869a6f816ade9431229751
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276695"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802691"
 ---
 # <a name="mediation-server-component-in-skype-for-business-server"></a>Componente do servidor de mediação no Skype for Business Server
  
@@ -64,7 +66,7 @@ A figura a seguir mostra os protocolos de sinalização e mídia usados pelo ser
 
 O Skype for Business Server dá suporte à flexibilidade na definição de um tronco para fins de roteamento de chamadas. Um tronco é uma associação lógica entre um servidor de mediação e um número de porta de escuta, com um gateway e um número de porta de escuta. Isso implica várias coisas: um servidor de mediação pode ter vários troncos para o mesmo gateway; um servidor de mediação pode ter vários troncos para gateways diferentes; por outro lado, um gateway pode ter vários troncos para diferentes servidores de mediação.
   
-Você ainda deve criar um tronco raiz quando adicionar um gateway à sua topologia do Skype for Business usando o construtor de topologias. O número de gateways que um determinado servidor de mediação pode manipular depende da capacidade de processamento do servidor durante o pico de horas de ocupação. Se você implantar um servidor de mediação em hardware que atenda aos requisitos mínimos de hardware do Skype for Business Server, conforme descrito em [requisitos do servidor para o Skype for Business server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md), um servidor de mediação autônomo pode manipular aproximadamente chamadas do 1000. O servidor de mediação é executado em transcodificação, mas ainda roteia chamadas para vários gateways, mesmo que os gateways não tenham suporte para bypass de mídia.
+Você ainda deve criar um tronco raiz quando adicionar um gateway à sua topologia do Skype for Business usando o construtor de topologias. O número de gateways que um determinado servidor de mediação pode manipular depende da capacidade de processamento do servidor durante o pico de horas de ocupação. Se você implantar um servidor de mediação em hardware que atenda aos requisitos mínimos de hardware do Skype for Business Server, conforme descrito em [requisitos do servidor para o Skype for Business server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md), um servidor de mediação autônomo poderá lidar com aproximadamente 1000 chamadas. O servidor de mediação é executado em transcodificação, mas ainda roteia chamadas para vários gateways, mesmo que os gateways não tenham suporte para bypass de mídia.
   
 Ao definir um roteiro de chamada, especifique os troncos associados a essa rota, mas você não especifica quais servidores de mediação estão associados a essa rota. Em vez disso, use o construtor de topologias para associar troncos a servidores de mediação. Em outras palavras, o roteamento determina qual tronco usar para uma chamada e, subsequentemente, o servidor de mediação associado a esse tronco é enviado à sinalização para essa chamada.
   
@@ -159,7 +161,7 @@ Você pode usar o Microsoft Lync Server 2013, ferramenta de planejamento para av
  Os servidores de mediação no site central podem ser usados para direcionar chamadas para IP-PBXs ou gateways PSTN em sites de filiais. No entanto, se você implantar troncos SIP, deve implantar um servidor de mediação no site em que cada tronco termina. Ter um servidor de mediação no site central chamadas de rota para um IP-PBX ou um gateway PSTN em um site de filial não requer o uso do bypass de mídia. Porém, se você puder habilitar o bypass de mídia, isso reduzirá a latência do caminho de mídia e melhorará a qualidade da mídia, pois o caminho de mídia não será mais necessário para seguir o caminho de sinalização. O bypass de mídia também diminui a carga de processamento no pool.
   
 > [!NOTE]
-> O bypass de mídia não interoperará com cada gateway PSTN, IP-PBX e SBC. A Microsoft testou um conjunto de gateways PSTN e SBCs com os parceiros certificados e realizou alguns testes com IP-PBXs da Cisco. O bypass de mídia só tem suporte com produtos e versões listados no programa de interoperabilidade [aberta da comunicação unificada-Lync Server](https://go.microsoft.com/fwlink/p/?LinkId=268730). 
+> O bypass de mídia não interoperará com cada gateway PSTN, IP-PBX e SBC. A Microsoft testou um conjunto de gateways PSTN e SBCs com os parceiros certificados e realizou alguns testes com IP-PBXs da Cisco. O bypass de mídia só tem suporte com produtos e versões listados no [programa de interoperabilidade aberta da comunicação unificada-Lync Server](https://go.microsoft.com/fwlink/p/?LinkId=268730). 
   
 Se a resiliência do site de ramificação for necessária, um aparelho de ramificação sobreviventes ou uma combinação de um servidor front-end, um servidor de mediação e um gateway devem ser implantados no site da filial. (A pressuposição da resiliência do site da ramificação é que a presença e a conferência não são resistentes no site.) Para obter orientação sobre o planejamento de sites de filiais, consulte [planejar a resiliência do Enterprise Voice no Skype for Business Server](enterprise-voice-resiliency.md).
   

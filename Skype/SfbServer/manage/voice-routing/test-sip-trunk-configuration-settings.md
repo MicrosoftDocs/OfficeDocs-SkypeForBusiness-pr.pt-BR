@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 'As configurações de tronco SIP definem a relação e os recursos entre um servidor de mediação e o gateway PSTN (rede telefônica pública comutada), um PBX (PBX IP-Public Branch Exchange) ou um SBC (controlador de borda de sessão) no provedor de serviços. '
-ms.openlocfilehash: bfb09511c8d074555c0b84d2da141a029f63a01a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 911947b33f0e609b4dd532ec5cc2c3d56a08618c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992558"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816931"
 ---
 # <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Testar as configurações de tronco SIP no Skype for Business Server
 

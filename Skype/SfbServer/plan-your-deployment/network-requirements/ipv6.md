@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 description: 'Resumo: implemente o IPv6 antes de instalar o Skype for Business Server.'
-ms.openlocfilehash: e4af5403ce416332ec7c75ca26522038fd9c42df
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5fe8cd186d152d368ac89c1d6bc9c07cebb7bfe7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297040"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802071"
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>Planejamento para IPv6 no Skype for Business
  
@@ -133,8 +135,8 @@ A tabela a seguir mostra a matriz de suporte entre o pool do servidor front-end 
 
 ||**Pool de borda: IPv4** <br/> |**Pool de borda: Pilha dual** <br/> |**Pool de borda: IPv6** <br/> |
 |:-----|:-----|:-----|:-----|
-|**Pool de Front-Ends: IPv4** <br/> |Sim   <br/> |Sim  <br/> |Não  <br/> |
-|**Pool de Front-Ends: Pilha dual** <br/> |Sim   <br/> |Sim  <br/> |Não  <br/> |
+|**Pool de Front-Ends: IPv4** <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
+|**Pool de Front-Ends: Pilha dual** <br/> |Sim  <br/> |Sim  <br/> |Não  <br/> |
 |**Pool de Front-Ends: IPv6** <br/> |Não  <br/> |Não  <br/> |Sim\*  <br/> |
    
 \*Use essa combinação apenas em um ambiente de laboratório.

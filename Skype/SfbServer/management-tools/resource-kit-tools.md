@@ -8,15 +8,17 @@ ms.date: 1/20/2017
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: Este tópico descreve as ferramentas no kit de recursos do Skype for Business Server 2015, incluindo a finalidade de cada ferramenta e exemplos de seu uso. O kit de recursos do Skype for Business Server 2015 ajuda a facilitar tarefas de rotina para administradores de ti que implantam e gerenciam o Skype for Business Server 2015. Por exemplo, a ferramenta Web Conf Data pode ser usada para controlar facilmente os dados carregados pelos usuários durante uma reunião online. A ferramenta SEFAUtil pode ser usada para configurar o encaminhamento e as respostas de chamadas de representantes para os usuários. Incentivamos os administradores de ti a usar essas ferramentas para gerenciar o Skype for Business Server 2015 com mais eficiência.
-ms.openlocfilehash: 0087f4286246833f0266ad0c78636bad00167756
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: c4fb43d7996133f5608b13a3fea693665ebd3e4b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992528"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816250"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>Documentação das Ferramentas do Kit de Recursos do Skype for Business Server 2015
 

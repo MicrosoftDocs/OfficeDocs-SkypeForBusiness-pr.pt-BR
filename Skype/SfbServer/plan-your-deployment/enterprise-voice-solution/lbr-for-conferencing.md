@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Planejando o roteamento baseado em local para conferências no Skype for Business Server Enterprise Voice, incluindo transferências de chamadas consultivas.
-ms.openlocfilehash: d9ca03920fe361cf4d7692fd80031bef01b03b17
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d03bab835556bf0cea4dffb33bcfbcc48ba7fa42
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276779"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802841"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Roteamento baseado em local para conferências no Skype for Business Server
 
@@ -143,7 +145,7 @@ Por exemplo, se o aplicativo "UdcAgent" tem um valor de prioridade "2", o aplica
 
 Depois de encontrar o valor de prioridade correto para o aplicativo de roteamento de conferência baseado em local, digite o cmdlet a seguir para cada pool Front-end ou servidor Standard Edition que os usuários habilitarem para roteamento baseado em localização:
 
-Novo-CsServerApplication-serviço de identidade: registrador:`<Pool FQDN`_GT_/LBRouting \<-prioridade\> de aplicação habilitada $true-URI $true-URI<http://www.microsoft.com/LCS/LBRouting> 
+Novo-CsServerApplication-serviço de identidade: registrador:`<Pool FQDN`> $true \<habilitada\> para prioridade de aplicativo-críticos $true-URI<http://www.microsoft.com/LCS/LBRouting> 
 
 Por exemplo:
 

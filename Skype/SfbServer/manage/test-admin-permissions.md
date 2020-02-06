@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Como testar permissões de administrador no Skype for Business Server
-ms.openlocfilehash: 1bae61dd4e8d5a8636a64687d279536b4989d104
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 97db574803b575d484240e7339d56603ae5432da
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279240"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817182"
 ---
 # <a name="testing-admin-permissions-in-skype-for-business-server"></a>Testar permissões de administrador no Skype for Business Server
 
@@ -50,7 +52,7 @@ Para obter mais informações, consulte o [tópico da ajuda para o cmdlet Test-C
 
 Se as permissões necessárias já foram definidas, Test-CsOUPermission retornará uma resposta de uma palavra:
 
-True
+Verdadeiro
 
 Se as permissões necessárias não estiverem definidas, Test-CsOUPermission retornará o valor false. Talvez seja necessário procurar por um momento para encontrar esse valor. Geralmente, ele será inserido dentro de vários avisos que acompanham. Por exemplo:
 
@@ -58,7 +60,7 @@ Aviso: entrada de controle de acesso (ACE) atl-cs-001\RTCUniversalUserReadOnlyGr
 
 Aviso: as entradas de controle de acesso (ACEs) no objeto "UO = América do Access = atl-cs-001\DC = litwareinc, DC = com" não estão prontas. 
 
-False 
+Falso 
 
 Aviso: o processamento de "Test-CsOUPermission" foi concluído com avisos. "2" avisos foram registrados durante a execução. 
 

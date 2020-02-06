@@ -8,15 +8,17 @@ ms.date: 3/31/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c2fda202-db2f-4122-b630-7df11a697c5f
 description: 'O cmdlet Get-CcApplianceDirectory recupera o diretório de trabalho no servidor host do Skype for Business Cloud Connector Edition. Todos os arquivos de implantação são armazenados neste diretório. '
-ms.openlocfilehash: 77064676062411c3417e554e422b0ffaae461191
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 04764f312138132fb34c0979423da5dc4696ee63
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003401"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41800841"
 ---
 # <a name="get-ccappliancedirectory"></a>Get-CcApplianceDirectory
  

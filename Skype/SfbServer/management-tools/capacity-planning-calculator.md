@@ -8,16 +8,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: 'Resumo: como usar a Ferramenta Calculadora de Capacidade.'
-ms.openlocfilehash: 24e268c6ecc3cc48fbfb4405f1e5e6b008639944
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f83cde759c6e7b755af3766c342cdea19892425f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274454"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816630"
 ---
 # <a name="skype-for-business-server-capacity-planning-calculator"></a>Calculadora de planejamento de capacidade do Skype for Business Server
  
@@ -28,7 +30,7 @@ ms.locfileid: "34274454"
 > - Skype for Business Server 2019.
 > - Skype for Business Server 2015.
   
-A calculadora de capacidade do Skype for Business Server 2015 e a calculadora de capacidade do Skype for Business 2019 Server ampliam a ferramenta de planejamento do Skype for Business e a documentação de implantação (plano para o Skype for Business Server 2015 implantação e [plano do seu Skype for Business Server 2019 implantação](../../SfBServer2019/plan/plan-your-deployment-2019.md) , respectivamente). Use a calculadora após ter revisado o guia e criado uma topologia recomendada usando a Ferramenta de Planejamento.
+A [calculadora de capacidade do Skype for Business server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=51196) e a [calculadora de capacidade do skype for Business 2019 Server](https://www.microsoft.com/en-us/download/details.aspx?id=57509) ampliam a [ferramenta de planejamento do Skype for Business](https://www.microsoft.com/en-us/download/details.aspx?id=50357) e sua documentação de implantação ([plano para a implantação do Skype for Business Server 2015](../plan-your-deployment/plan-your-deployment.md) e o [plano para a implantação do Skype for Business Server 2019](../../SfBServer2019/plan/plan-your-deployment-2019.md) , respectivamente). Use a calculadora após ter revisado o guia e criado uma topologia recomendada usando a Ferramenta de Planejamento.
   
 A calculadora de capacidade do Skype for Business Server ajuda você a determinar os requisitos do servidor com base no número de usuários e nas ferramentas de comunicação usadas por sua organização. Após ter determinado o perfil do usuário e as funções que você deseja habilitar para seus usuários, use a calculadora para determinar o número de servidores, a memória e a largura de banda necessários. Esta versão da calculadora não fornece orientação quanto às exigências de E/S do disco.
   
@@ -92,7 +94,7 @@ Quando você tiver digitado todas as informações necessárias, a calculadora d
     
 As células verdes mostram as recomendações para o modelo de uso inserido. 
   
-- **Total de servidores front end**: o número de servidores físicos necessários é baseado em servidores dedicados que executam o Skype for business Server 2015 com processador duplo, Core-Core, com 2.260 Megacycles ou Skype for business Server 2019 com o Intel Xeon E5-2673 v3, duplo processador, hexa-Core.
+- **Total de servidores front end**: o número de servidores físicos necessários é baseado em servidores dedicados que executam o Skype for business Server 2015 com processador duplo, Core-Core, com o 2.260 megacycles ou o Skype for business Server 2019 com o Intel Xeon E5-2673 v3, processador duplo, Hex-núcleo.
     
     Note que é recomendado ativar o hyperthreading e foi comprovado que melhora o desempenho para os servidores que suportam áudio/vídeo.
     

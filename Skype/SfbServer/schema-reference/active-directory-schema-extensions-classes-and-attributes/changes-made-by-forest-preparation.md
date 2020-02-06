@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: Esta seção descreve as configurações globais e os objetos, e o serviço universal e os grupos de administração criados pela etapa de preparação da floresta.
-ms.openlocfilehash: ece4a9bd1db5f43b52a96265dee41ee3a0a30b22
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 26917915d89aff721e74f094eb8ad5bb72db3cf6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296697"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815529"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Alterações feitas pela preparação da floresta no Skype for Business Server
 
@@ -24,7 +26,7 @@ Esta seção descreve as configurações globais e os objetos, e o serviço univ
 
 ## <a name="active-directory-global-settings-and-objects"></a>Objetos e configurações globais do Active Directory
 
-Se você armazenar configurações globais no contêiner de configuração (como é o caso de todas as novas implantações do Skype for Business Server), a preparação da floresta usará o contêiner de serviços existentes e adicionará um objeto de **serviço RTC** no Configuration\Services objeto. No objeto de serviço RTC, a preparação da floresta adiciona um objeto de **configurações globais** do tipo MsRTCSIP-GlobalContainer. O objeto de configurações globais armazena todas as configurações que se aplicam à implantação do Skype for Business Server. Se você armazenar configurações globais no contêiner do sistema, a preparação da floresta usará um contêiner da Microsoft no contêiner do sistema do domínio raiz e um objeto de serviço RTC sob o objeto System\Microsoft.
+Se você armazenar configurações globais no contêiner de configuração (como é o caso de todas as novas implantações do Skype for Business Server), a preparação da floresta usará o contêiner de serviços existentes e adicionará um objeto de **serviço RTC** no objeto Configuration\Services. No objeto de serviço RTC, a preparação da floresta adiciona um objeto de **configurações globais** do tipo MsRTCSIP-GlobalContainer. O objeto de configurações globais armazena todas as configurações que se aplicam à implantação do Skype for Business Server. Se você armazenar configurações globais no contêiner do sistema, a preparação da floresta usará um contêiner da Microsoft no contêiner do sistema do domínio raiz e um objeto de serviço RTC sob o objeto System\Microsoft.
 
 A preparação da floresta também adiciona um novo objeto **msRTCSIP-Domain** para o domínio raiz no qual o procedimento é executado.
 
@@ -129,8 +131,8 @@ No contêiner de configuração, no contexto de nomenclatura de configuração, 
 
 - Adiciona um objeto **RTCUserSearchPropertySet** do tipo **ControlAccessRight** em **direitos estendidos** que se aplicam às classes usuário, contato, UO e DomainDNS.
 
-- Adiciona **msRTCSIP-PrimaryUserAddress** sob o atributo **extraColumns** de cada especificador de exibição de unidade organizacional ou de idioma (por exemplo, CN = ORGANIZATIONALUNIT-display, CN = 409, CN = DisplaySpecifiers) e copia os valores do **extraColumns** atributo da exibição padrão (por exemplo, CN = padrão-display, CN = 409, CN = DisplaySpecifiers).
+- Adiciona **msRTCSIP-PrimaryUserAddress** sob o atributo **extraColumns** de cada especificador de exibição de unidade organizacional (ou) de idioma (por exemplo, CN = ORGANIZATIONALUNIT-display, CN = 409, CN = DisplaySpecifiers) e copia os valores do atributo **extraColumns** da exibição padrão (por exemplo, CN = Default-display, CN = 409, CN = DisplaySpecifiers).
 
-- Adiciona atributos de filtragem **msRTCSIP-PrimaryUserAddress**, **msRTCSIP-PrimaryHomeServer**e **msRTCSIP-** UserEnabled sob o atributo **attributeDisplayNames** de cada especificador de exibição de idioma para usuários, contatos e os objetos InetOrgPerson (por exemplo, em inglês: CN = user-Display, CN = 409, CN = DisplaySpecifiers).
+- Adiciona atributos de filtragem **msRTCSIP-PrimaryUserAddress**, **msRTCSIP-PrimaryHomeServer**e **msRTCSIP-UserEnabled** sob o atributo **attributeDisplayNames** de cada especificador de exibição de idioma para os objetos usuários, contatos e INETORGPERSON (por exemplo, em inglês: CN = usuário-exibição, CN = 409, CN = DisplaySpecifiers).
 
 

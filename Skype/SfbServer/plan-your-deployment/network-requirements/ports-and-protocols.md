@@ -8,6 +8,8 @@ ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Resumo: revise as considerações de uso da porta antes de implementar o Skype for Business Server.'
-ms.openlocfilehash: 613067d90da4fb06811ca1497c83237019b3c021
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ca790f2ca4ff1504ab4851fedfbba086e251d91a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297019"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802011"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Requisitos de protocolo e porta para servidores
  
@@ -89,7 +91,7 @@ A tabela a seguir lista as portas que precisam ser abertas em cada função de s
 |Servidores Front-End  |Serviço de política de largura de banda do Skype for Business Server  |448  |TCP  |Usado para o controle de admissão de chamadas pelo serviço de política de largura de banda do Skype for Business Server.  |
 |Servidores front-end nos quais o repositório de gerenciamento central reside  | Serviço do agente do mestre Replicator do Skype for Business Server |445  |TCP  |Usado para enviar por push dados de configuração do repositório de gerenciamento central para servidores que executam o Skype for Business Server.  |
 |Todos os servidores  |Navegador do SQL  |1434  |UDP  |Navegador do SQL para cópia replicada local de dados do repositório de gerenciamento central na instância do SQL Server local  |
-|Todos os servidores internos  |Vários  |49152-57500  |TCP/UDP  |Intervalo de porta de mídia usada para audioconferência em todos os servidores internos. Usado por todos os servidores que terminam o áudio: servidores front-end (para serviço de atendedor de conferência do Skype for Business Server, serviço de anúncio de conferência do Skype for Business Server e serviço de conferência de áudio/vídeo do Skype for Business Server) e Servidor de mediação.  |
+|Todos os servidores internos  |Vários  |49152-57500  |TCP/UDP  |Intervalo de porta de mídia usada para audioconferência em todos os servidores internos. Usado por todos os servidores que terminam áudio: servidores front-end (para serviço de atendedor de conferência do Skype for Business Server, serviço de anúncio de conferência do Skype for Business Server e servidor de serviços de videoconferência do Skype for Business Server) e servidor de mediação.  |
 |Servidor Office Web Apps  ||443  ||Usado pelo Skype for Business Server para se conectar ao servidor do Office Web Apps.  |
 |Diretores  |Serviço de front-end do Skype for Business Server  |5060  |TCP  |Usada como opção para rotas estáticas até os serviços confiáveis, como servidores de controle de chamada remota.  |
 |Diretores  |Serviço de front-end do Skype for Business Server  |444  |HTTPS  <br/> TCP  |Comunicação entre servidores entre Front-End e Diretor. Além disso, a publicação de certificado do cliente (para servidores front-end) ou a validar se o certificado do cliente já foi publicado.  |

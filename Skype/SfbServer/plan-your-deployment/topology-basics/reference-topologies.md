@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: Topologias de referência para o Skype for Business Server, incluindo diagramas e decisões para organizações grandes, médias e pequenas.
-ms.openlocfilehash: 7f284b141da25175e3a41545349a0e61f6036019
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: f207e69dceea4c2959e5cf81ddcf359266ed1604
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37028278"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41801701"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>Topologias de referência para o Skype for Business Server
 
@@ -134,7 +136,7 @@ Essa topologia é mostrada em vários diagramas, com uma visão geral seguida po
     > [!NOTE]
     > O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. A mesma funcionalidade está disponível no Microsoft Teams. Para obter mais informações, consulte [introdução à atualização do Microsoft Teams](/microsoftteams/upgrade-start-here). Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015.
 
-- **Balanceamento de carga do DNS.** O pool de front-ends e o pool de servidores de borda usam balanceamento de carga do DNS. Isso elimina a necessidade de balanceadores de carga de hardware para a interface interna dos servidores de borda e reduz significativamente o tempo necessário para configuração e manutenção dos balanceadores de carga de hardware para os outros pools, pois os balanceadores de carga de hardware são necessários somente para tráfego HTTP. Para obter mais informações, consulte (.. /.. /plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing).
+- **Balanceamento de carga do DNS.** O pool de front-ends e o pool de servidores de borda usam balanceamento de carga do DNS. Isso elimina a necessidade de balanceadores de carga de hardware para a interface interna dos servidores de borda e reduz significativamente o tempo necessário para configuração e manutenção dos balanceadores de carga de hardware para os outros pools, pois os balanceadores de carga de hardware são necessários somente para tráfego HTTP. Para obter mais informações, consulte (.. /.. /Plan-Your-Deployment/Network-requirements/Load-Balancing.MD # BKMK_DNSLoadBalancing).
 
 - **Implantação de UM do Exchange.** O Skype for Business Server funciona com implantações locais da Unificação de mensagens (UM) do Exchange e hospedadas do Exchange UM. Site central A inclui um servidor de um (Unificação de mensagens) do Exchange, que executa o Microsoft Exchange Server, não o Skype for Business Server. A funcionalidade de UM do Exchange para o Skype for Business Server é executada no pool de front-ends.
 

@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8ee3ee95-fb78-4d4e-bcdd-6ce5a0a23b44
 description: A exibição ConferenceMessageCount armazena informações sobre quantas mensagens foram enviadas por um usuário para uma conferência. Este modo de exibição foi apresentado no Microsoft Lync Server 2013.
-ms.openlocfilehash: 890a5912c6f828f614fbff89627c94c4e12ba7e1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a766e63fbca5c30cec3c3891c9ccfc2355f16d2d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296487"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815379"
 ---
 # <a name="conferencemessagecount-view"></a>Exibição ConferenceMessageCount
  

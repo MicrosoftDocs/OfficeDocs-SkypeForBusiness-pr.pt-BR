@@ -8,18 +8,20 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 description: Compreenda como você pode acessar os recursos do Skype for Business a partir do Outlook e de outros aplicativos do Microsoft Office.
-ms.openlocfilehash: c24c6b08e21db357d52b1cc130e53f23b6123ff6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e91174850cb82d325eb9a3f75577d3aaeb3b90f6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277430"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803681"
 ---
 # <a name="skype-for-business-compatibility-with-office-apps"></a>Compatibilidade do Skype for Business com aplicativos do Office
  
@@ -36,14 +38,14 @@ A tabela a seguir descreve os recursos do Skype for Business com suporte em vár
 |**Recurso**|**Microsoft Office 2010**|**Microsoft Office 2013, 2015 e 2016**|&#x2776; **do Office 2016 para Mac** |
 |:-----|:-----|:-----|:-----|
 |**Recursos do Outlook** ||||
-|Personalizar convites para reunião do Outlook (adicionar logotipo, URL de ajuda, aviso de isenção de responsabilidade, texto do rodapé)  |Não  |Sim    |Sim |
+|Personalizar convites para reunião do Outlook (adicionar logotipo, URL de ajuda, aviso de isenção de responsabilidade, texto do rodapé)  |Não  |Sim   |Sim |
 |Configurar a opção de reunião para ativar o mudo do áudio e vídeo do participante por padrão    |Não    |Sim    |Não    |
 |Repositório de contatos unificado para gerenciamento de listas de contatos no Office e no Skype for Business    |Não    |Sim (requer o Exchange 2013 ou posterior)    |Sim    |
 |Imagens de perfil de alta resolução    |Não    |Sim (requer o Exchange 2013 ou posterior)    |Sim    |
-|Status de presença nos campos de, para e CC do Microsoft Outlook    |Sim     |Sim     |Sim     |
+|Status de presença nos campos de, para e CC do Microsoft Outlook    |Sim    |Sim     |Sim     |
 |Responder com mensagem instantânea ou ligar no menu de disponibilidade    |Sim (do cartão de visita)    |Sim (do cartão de visita)    |Sim (do cartão de visita)    |
-|Status de presença em uma solicitação de reunião na guia Assistente de Agendamento    |Sim     |Sim    |Não    |
-|Responder com mensagem instantânea ou ligar da barra de ferramentas ou da faixa de opções em uma mensagem de email recebida    |Sim     |Sim     |Sim     |
+|Status de presença em uma solicitação de reunião na guia Assistente de Agendamento    |Sim    |Sim    |Não    |
+|Responder com mensagem instantânea ou ligar da barra de ferramentas ou da faixa de opções em uma mensagem de email recebida    |Sim    |Sim     |Sim     |
 |**Outros aplicativos do Office**   ||||
 |Anotações compartilhadas do OneNote    |Não    |Sim    |Não    |
 |Instalação integrada ao programa de instalação do Office    |Não    |Sim    |Não    |

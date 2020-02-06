@@ -8,6 +8,8 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumo: os administradores do Skype for Business Server 2015 ou do Skype for Business Online podem usar essas tabelas para entender quais recursos são compatíveis com os clientes.'
-ms.openlocfilehash: a1df39ed3a426c7e01e753222526b0f18f260f19
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b2a5bd1f0544713501bfce2fc0dffc9776ec64e2
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277374"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803671"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Comparação de recursos do cliente de desktop do Skype for Business Server 2015
 
@@ -32,7 +34,7 @@ Alguns recursos disponíveis com o Skype for Business Server 2015 não estão di
 
 Confira [a comparação de recursos do cliente de desktop do Skype for business 2019](../../../SfBServer2019/plan/feature-comparison.md) para suporte ao cliente no Skype for business Server 2019.
   
-As tabelas a seguir mostram os recursos que estão disponíveis em cada cliente que funciona com o Skype for Business Server 2015 ou o Skype for Business online. Você também pode consultar a comparação de [recursos de cliente móvel para o Skype for Business](mobile-feature-comparison.md) para comparações de recursos de telefone inteligente e de cliente de Tablet. A Licença de Acesso para Cliente ou a Licença de Assinatura do Usuário que sua organização comprar também afetará os recursos que estarão disponíveis para os usuários. A implantação do cliente completo ou básico para os usuários dependerá da licença ou do plano que sua organização escolher comprar. Consulte o [guia](https://products.office.com/en-us/skype-for-business/it-pros) de licenciamento para obter mais detalhes.
+As tabelas a seguir mostram os recursos que estão disponíveis em cada cliente que funciona com o Skype for Business Server 2015 ou o Skype for Business online. Você também pode consultar a comparação de [recursos de cliente móvel para o Skype for Business](mobile-feature-comparison.md) para comparações de recursos de telefone inteligente e de cliente de Tablet. A Licença de Acesso para Cliente ou a Licença de Assinatura do Usuário que sua organização comprar também afetará os recursos que estarão disponíveis para os usuários. A implantação do cliente completo ou básico para os usuários dependerá da licença ou do plano que sua organização escolher comprar. Consulte o [Guia de licenciamento](https://products.office.com/en-us/skype-for-business/it-pros) para obter mais detalhes.
   
 > [!IMPORTANT]
 > O Skype for Business Server 2015 e o Skype for Business online são compatíveis com os seguintes clientes lançados anteriormente: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition e Lync 2010 Attendant. Para obter informações sobre esses clientes quando usados com outros servidores, consulte as tabelas de [comparação de clientes do Lync server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) e as [tabelas de comparação de clientes do Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx).

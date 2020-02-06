@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: Saiba mais sobre o roteamento de voz de saída no Skype for Business Server Enterprise Voice, incluindo configurações de roteamento de chamadas, planos de discagem, regras de normalização, políticas de voz, registros de uso de PSTN e rotas de voz.
-ms.openlocfilehash: bb57d824d9d44886973f60b3061b2e86e949f071
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 26bea8452db00657ae87b5acbdd3f986c637d6fe
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276579"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802571"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Plano para roteamento de voz de saída no Skype for Business Server
  
@@ -233,7 +235,7 @@ O escopo da política de voz determina o nível hierárquico no qual a política
     
 - O recurso de **correio de voz** impede que chamadas sejam roteadas imediatamente para o sistema de caixa postal do telefone celular do usuário quando o toque simultâneo estiver configurado, e o telefone estiver desligado, fora da bateria ou fora do intervalo, e for baseado em um valor de temporizador. Essa configuração habilita e desabilita o temporizador e define o valor dele. Ele pode ser configurado somente usando o Shell de gerenciamento do Skype for Business Server. Desabilitado por padrão.
     
-- O **encaminhamento de chamadas e o uso simultâneo do toque da PSTN** permitem que os administradores especifiquem o mesmo uso de PSTN da política de voz para o encaminhamento de chamadas e o toque simultâneo, restrinja o encaminhamento de chamadas e o toque simultâneo para o Skype interno do Somente usuários empresariais ou especifica um uso de PSTN personalizado diferente do uso PSTN da política de voz. O padrão é usar a PSTN da mesma forma que a política de voz para encaminhamento de chamadas e toque simultâneo.
+- O **encaminhamento de chamadas e o uso simultâneo do toque da PSTN** permitem que os administradores especifiquem o mesmo uso de PSTN da política de voz para encaminhamento de chamadas e toque simultâneo, restrinja o encaminhamento de chamadas e o toque simultâneo somente para usuários internos do Skype for Business, ou especifique um uso de PSTN personalizado diferente do uso PSTN da política de voz. O padrão é usar a PSTN da mesma forma que a política de voz para encaminhamento de chamadas e toque simultâneo.
     
 ### <a name="pstn-usage-records"></a>Registros de uso de PSTN
 

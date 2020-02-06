@@ -8,16 +8,18 @@ ms.date: 4/5/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: Os Relatórios de Administrador são informações detalhadas para implantações e operações. Os relatórios são gerados com base nas seleções marcadas em Criar Locais. O designer pode adicionar mais valor aos Relatórios de Administrador editando os diagramas de rede e definindo os endereços IP completos e os FQDNs (nome de domínio totalmente qualificado) para servidores, pools e balanceadores de carga.
-ms.openlocfilehash: 22b3628c5c2a499d57a6bfdd1d90fe3b79b90e85
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ae6dba3f5967fcd10618a8ab53c754a4f38da748
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288982"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816290"
 ---
 # <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>Review the Administrator Reports in Skype for Business Server 2015
 

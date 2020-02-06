@@ -8,6 +8,8 @@ ms.date: 1/27/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
@@ -17,12 +19,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3cc3db88-0210-4804-b54e-ba4af1234884
 description: Este tópico descreve como habilitar usuários para o sistema telefônico no Office 365 com conectividade PSTN local. Antes de seguir as etapas deste tópico, você deve ler o seguinte:.
-ms.openlocfilehash: c8870cce90963e3a8d4e42de008df3eee779e52a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c0c9f840c15e40aa3a78b69a5cbbf2f721251bbb
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287458"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802181"
 ---
 # <a name="enable-users-for-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Habilitar usuários para o sistema telefônico no Office 365 com conectividade PSTN local no Skype for Business Server
  
@@ -42,14 +44,14 @@ Todos os usuários devem ser criados no Active Directory local e sincronizados c
   
 Habilitar um usuário para o sistema telefônico no Office 365 com conectividade PSTN local e, em seguida, movê-los para o Skype for Business online requer as seguintes etapas:
   
-- [Habilitar os usuários do Enterprise Voice no local](enable-the-users-for-enterprise-voice-on-premises.md) (executado enquanto os usuários são hospedados no local).
+- [Habilite os usuários para Enterprise Voice no local](enable-the-users-for-enterprise-voice-on-premises.md) (executado enquanto os usuários estiverem hospedados no local).
     
 - [Assign a Voice Routing Policy](assign-a-voice-routing-policy.md) (executado enquanto os usuários estão hospedados no local).
     
-- [Sincronizar usuários com a nuvem e atribuir licenças](synchronize-users-to-the-cloud-and-assign-licenses.md) (executado usando o Office 365).
+- [Sincronizar os usuários com a nuvem e atribuir licenças](synchronize-users-to-the-cloud-and-assign-licenses.md) (executadas usando o Office 365).
     
 - [Mover usuários locais para o Skype for Business online](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online) (executado usando o Windows PowerShell local, mas usando suas credenciais de administrador do Office 365).
     
-- [Habilitar usuários para o Enterprise Voice online e o sistema telefônico no Office 365 correio de voz](enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md) (executado usando o PowerShell remoto.
+- [Habilite os usuários para o Enterprise Voice online e o sistema telefônico no correio de voz do Office 365](enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md) (executado usando o PowerShell remoto.
     
 

@@ -8,15 +8,17 @@ ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
 description: A exibição SessionDetails armazena informações sobre sessões ponto a ponto, que podem ser chamadas telefônicas VoIP, VoIP, uma sessão de IM de duas partes ou outro tipo de sessão. Este modo de exibição foi apresentado no Microsoft Lync Server 2013.
-ms.openlocfilehash: 627d038389098583b5e42f73e8dd0a1cc339d014
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f1d0d68fe152f277c02c53fd87afdb0ea4e4ab0c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295843"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814909"
 ---
 # <a name="sessiondetails-view"></a>Exibição SessionDetails
  

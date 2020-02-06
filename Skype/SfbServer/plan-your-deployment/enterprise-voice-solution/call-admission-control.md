@@ -8,6 +8,8 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: Saiba mais sobre o controle de admissão de chamadas, que pode impedir que chamadas sejam feitas se tivessem uma qualidade de mídia ruim no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 3942c3d50267593f393655e19d0cc80b5f5028f8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 33aad955d0d1c592900683213a13e50433265a10
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277066"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803231"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>Planejar o controle de admissão de chamadas no Skype for Business Server
 
@@ -84,7 +86,7 @@ Se a sua empresa for compatível com mídia via VPN, certifique-se de que tanto 
 
 ### <a name="call-admission-control-of-outside-users"></a>Controle de admissão de chamadas de usuários externos
 
-O controle de admissão de chamadas não é aplicado além dos limites da organização do Skype for Business Server. Não é possível aplicar o CAC ao tráfego de mídia que atravessa a Internet, o que não é gerenciado pelo Skype for Business Server. Cheques do CAC serão executados na parte da chamada que flui pela rede da empresa se o ponto de extremidade chamado pertence à organização, e o servidor de borda foi adicionado à configuração de rede, conforme descrito no [controle de admissão de chamadas implantação: lista de verificação final do Skype for Business Server](../../deploy/deploy-enterprise-voice/final-checklist.md). Se o ponto de extremidade chamado não pertence à organização, como um usuário federado ou PIC, nenhuma verificação de política de largura de banda será executada e a chamada de saída ignorará as restrições do CAC.
+O controle de admissão de chamadas não é aplicado além dos limites da organização do Skype for Business Server. Não é possível aplicar o CAC ao tráfego de mídia que atravessa a Internet, o que não é gerenciado pelo Skype for Business Server. Cheques do CAC serão executados na parte da chamada que flui pela rede da empresa se o ponto de extremidade chamado pertence à organização, e o servidor de borda foi adicionado à configuração de rede, conforme descrito em [implantação de controle de admissão de chamadas: lista de verificação final do Skype for Business Server](../../deploy/deploy-enterprise-voice/final-checklist.md). Se o ponto de extremidade chamado não pertence à organização, como um usuário federado ou PIC, nenhuma verificação de política de largura de banda será executada e a chamada de saída ignorará as restrições do CAC.
 
 ### <a name="call-admission-control-of-pstn-connections"></a>Controle de admissão de chamadas de conexões PSTN
 
@@ -180,7 +182,7 @@ As políticas de largura de banda do CAC podem definir qualquer um dos seguintes
 - Largura de banda máxima alocada para uma única chamada de vídeo (sessão).
 
 > [!NOTE]
-> Todos os valores de largura de banda ** do CAC representam os limites de largura de banda unidirecionais
+> Todos os valores de largura de banda do CAC representam os limites de largura de banda *unidirecionais*
 
 > [!NOTE]
 > Os recursos da política de voz do Skype for Business Server fornecem a capacidade de substituir verificações de política de largura de banda para chamadas recebidas para o usuário (não para chamadas feitas pelo usuário). Depois que a sessão for estabelecida, o consumo de largura de banda será considerado com precisão. Esta configuração deve ser usada com moderação. Para obter detalhes, consulte [criar ou modificar uma política de voz e configurar registros de uso de PSTN no Skype for Business](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) ou [modificar uma política de voz e configurar registros de uso PSTN](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx) na documentação de implantação.

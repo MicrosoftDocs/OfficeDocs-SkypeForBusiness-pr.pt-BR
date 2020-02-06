@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 description: Leia este tópico para saber como planejar as políticas de localização de uma implantação de serviços de emergência (E9-1-1) aprimorada no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: 8f21a5a0f54fbeaca4c46ed51bf4dafe4c2a3dcb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5064197dd8d23113d7bfeca30fd3596d5ee89c5c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276751"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802801"
 ---
 # <a name="plan-location-policies-for-skype-for-business-server"></a>Planejar políticas de localização para o Skype for Business Server
  
@@ -64,7 +66,7 @@ Esta cadeia de caracteres de discagem (menos a "+" à esquerda, mas incluindo qu
   
  **Máscaras de Cadeia de Discagem de Emergência (máscara de discagem para E9-1-1)**
   
-Uma lista separada por ponto-e-vírgula de cadeias de discagem que é traduzida para a cadeia de discagem de **emergência**especificada Por exemplo, talvez você queira adicionar 112, que é o número do serviço de emergência para a maioria da Europa. Um usuário visitante do Skype for Business da Europa talvez não saiba que 911 é o número de emergência dos EUA, mas pode discar o 112 e obter o mesmo resultado. Assim como na cadeia de caracteres de discagem de emergência, não inclua um "+" antes de cada número e, se você usar códigos de acesso de linha externos, certifique-se de que haja regras de normalização na política de plano de discagem do usuário para retirar o dígito de código de acesso.
+Uma lista separada por ponto-e-vírgula de cadeias de discagem que é traduzida para a **cadeia de discagem de emergência**especificada Por exemplo, talvez você queira adicionar 112, que é o número do serviço de emergência para a maioria da Europa. Um usuário visitante do Skype for Business da Europa talvez não saiba que 911 é o número de emergência dos EUA, mas pode discar o 112 e obter o mesmo resultado. Assim como na cadeia de caracteres de discagem de emergência, não inclua um "+" antes de cada número e, se você usar códigos de acesso de linha externos, certifique-se de que haja regras de normalização na política de plano de discagem do usuário para retirar o dígito de código de acesso.
   
  **Uso de PSTN**
   

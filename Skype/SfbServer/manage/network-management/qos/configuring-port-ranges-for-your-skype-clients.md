@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Este artigo descreve como configurar intervalos de porta para seus clientes e configurar políticas de qualidade de serviço no Skype for Business Server para clientes em execução no Windows 10.
-ms.openlocfilehash: 4d7999634864e222dd627ea3b46a3a3da5c67fe5
-ms.sourcegitcommit: 67282b5f2f1aac3e675c4a485f4846deba15deb4
+ms.openlocfilehash: 9a82a254ab5a01982e9f1d4bd3a994fd67c03615
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "35841466"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817420"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>Configurando intervalos de porta e uma política de qualidade de serviço para seus clientes no Skype for Business Server
 
@@ -185,7 +187,7 @@ Para criar uma política de qualidade de áudio de serviço para computadores co
 
 5.  No editor de gerenciamento de política de grupo, expanda **configuração do computador**, expanda **configurações do Windows**, clique com o botão direito do mouse em **QoS baseado em política**e clique em **criar nova política**.
 
-6.  Na caixa de diálogo **QoS baseada em política** , na página de abertura, digite um nome para a nova política na caixa **nome** . Selecione **especificar valor DSCP** e defina o valor como **46**. Deixe **especificar a taxa** de aceleração de saída desmarcada e clique em **Avançar**.
+6.  Na caixa de diálogo **QoS baseada em política** , na página de abertura, digite um nome para a nova política na caixa **nome** . Selecione **especificar valor DSCP** e defina o valor como **46**. Deixe **especificar a taxa de aceleração de saída** desmarcada e clique em **Avançar**.
 
 7.  Na próxima página, selecione **apenas aplicativos com esse nome executável**, digite **Lync. exe** como o nome e clique em **Avançar**. Essa configuração instrui a política a priorizar somente o tráfego coincidente do cliente Skype for Business.
 

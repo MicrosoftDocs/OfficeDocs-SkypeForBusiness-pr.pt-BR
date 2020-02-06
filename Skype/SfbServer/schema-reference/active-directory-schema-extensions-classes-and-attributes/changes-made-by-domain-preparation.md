@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 9191221e-6166-4c2b-837e-fa73d90fdf80
 description: A tabela a seguir lista as entradas de controle de acesso (ACEs) que a preparação do domínio cria na raiz do domínio. Todas as ACEs são herdadas, a menos que indicado de outra forma.
-ms.openlocfilehash: afd6747590e09b0b86b42119ad34eb26eaf9d8db
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8a087dfbbd8b670467727803f996694a816cc065
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296711"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815539"
 ---
 # <a name="changes-made-by-domain-preparation-in-skype-for-business-server"></a>Alterações feitas pela preparação do domínio no Skype for Business Server
  

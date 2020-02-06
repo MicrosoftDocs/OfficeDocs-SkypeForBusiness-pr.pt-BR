@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.ConfMeetingSettingMain
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: As configurações de reunião definem o tipo de conferências (também calledmeetings) que os usuários podem criar e controlam como (ou se) os usuários anônimos e os usuários de conferência discada podem participar dessas conferências. Essas configurações se aplicam apenas às reuniões agendadas. Elas não se aplicam à reuniões ad-hoc criadas clicando na opção Reunir Agora no cliente.
-ms.openlocfilehash: 15dfed475928fe56b42e7a47522c911256b0f033
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 66a1ff8134eec701cd3bd11b305c4e04e18ef99a
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705006"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798578"
 ---
 # <a name="meeting-configuration"></a>Configuração de Reunião
 

@@ -8,6 +8,8 @@ ms.date: 12/20/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: 'Resumo: Saiba mais sobre as coisas que você deve considerar ao planejar uma atualização para o Skype for Business Server 2015. Baixe um teste grátis do Skype for Business Server 2015 a partir do centro de avaliação da https://www.microsoft.com/evalcenter/evaluate-skype-for-business-serverMicrosoft em:.'
-ms.openlocfilehash: 0f7473bac98ede76763a3f5bda8aee3484c3c03f
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: a812d0fac6d6d9e181f9216c73070c0bf085f368
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35222128"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815569"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>Planejamento de atualização para o Skype for Business Server 2015
  
@@ -156,7 +158,7 @@ Atualize a topologia de dentro para fora. Atualize primeiro todos os seus pools,
   
 ### <a name="kerberos-authentication-considerations"></a>Considerações sobre a autenticação Kerberos
 
-Se você usar a autenticação Kerberos para serviços Web, deve atribuir novamente as contas Kerberos e redefinir a senha depois que a atualização in-loco tiver sido concluída. Para saber como fazer isso, confira Configurando a [autenticação Kerberos](https://go.microsoft.com/fwlink/p/?LinkId=530342).
+Se você usar a autenticação Kerberos para serviços Web, deve atribuir novamente as contas Kerberos e redefinir a senha depois que a atualização in-loco tiver sido concluída. Para saber como fazer isso, confira [Configurando a autenticação Kerberos](https://go.microsoft.com/fwlink/p/?LinkId=530342).
   
 ## <a name="support-for-coexistence-with-lync-server-2013-and-lync-server-2010"></a>Suporte para coexistência com o Lync Server 2013 e o Lync Server 2010
 <a name="BKMK_PlanUpgradeFromLync2013"> </a>

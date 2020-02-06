@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: 'Resumo: Leia este tópico para saber mais sobre como planejar a topologia de conferência no Skype for Business Server.'
-ms.openlocfilehash: 39067403513173e3fe26c5767042c62f549e0a7c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1b9d9024d90b4bd847c763747dad7a5f96616aa3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277395"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816010"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>Planejar a topologia de conferência para o Skype for Business Server
  
@@ -82,7 +84,7 @@ O Skype for Business Server fornece as seguintes maneiras de configurar o Office
     
     Os clientes externos do Skype for Business podem se conectar ao Skype for Business Server e ao Office Web Apps Server/Office Online Server usando um servidor proxy reverso, que é um servidor que recebe solicitações da Internet e as encaminha para a rede interna. (Os clientes internos não precisam usar o servidor proxy reverso porque podem se conectar ao servidor do Office Web Apps para o Office Online Server diretamente.) Essa topologia funciona melhor se você quiser usar um farm de servidor do Office Web Apps dedicado/Office Online usado somente pelo Skype for Business Server.
     
-- **Use um servidor Office Web Apps implantado externamente/Office Online Server.** Nessa topologia, o Skype for Business Server é implantado no local e usa um servidor do Office Web Apps/Office Online que é implantado fora da zona de rede do Skype for Business Server. Isso pode acontecer quando o Office Web Apps Server/Office Online Server é compartilhado entre vários aplicativos na empresa e é implantado em uma rede que requer o Skype for Business Server para usar a interface externa do Office Web Apps Server/Office Online Server e vice-versa.
+- **Use um servidor Office Web Apps implantado externamente/Office Online Server.** Nessa topologia, o Skype for Business Server é implantado no local e usa um servidor do Office Web Apps/Office Online que é implantado fora da zona de rede do Skype for Business Server. Isso pode acontecer quando o Office Web Apps Server/Office Online Server é compartilhado entre vários aplicativos na empresa e é implantado em uma rede que requer o Skype for Business Server para usar a interface externa do servidor do Office Web Apps Server/Office Online e vice-versa.
     
     Você não precisa instalar um servidor proxy reverso; em vez disso, todas as solicitações do servidor do Office Web Apps/do Office Online Server para o Skype for Business Server são roteadas pelo servidor de borda. Seus clientes internos e externos do Skype for Business se conectam ao servidor do Office Web Apps/do Office online usando a URL externa.
     

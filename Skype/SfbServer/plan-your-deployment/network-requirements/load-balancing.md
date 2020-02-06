@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 'Resumo: revise as considerações de balanceamento de carga antes de implementar o Skype for Business Server.'
-ms.openlocfilehash: 2db9b7aa37f71d445feb3cfd9a09e49f44ca48f0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 199c93528d89786573bdac16077f1e32feb1fe6f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297054"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802041"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Requisitos de balanceamento de carga para o Skype for Business
  
@@ -136,15 +138,15 @@ Defina o monitoramento de portas nos balanceadores de carga de hardware para det
 
 |**IP/porta virtual**|**Porta do nó**|**Máquina/monitor do nó**|**Perfil de persistência**|**Observações**|
 |:-----|:-----|:-----|:-----|:-----|
-|\<Web\>de pool-int_mco_443_vs  <br/> 443  <br/> |443  <br/> |Front-End  <br/> 5061  <br/> |Origem  <br/> |HTTPS  <br/> |
-|\<Web\>de pool-int_mco_80_vs  <br/> 80  <br/> |80  <br/> |Front-End  <br/> 5061  <br/> |Origem  <br/> |HTTP  <br/> |
+|\<int_mco_443_vs\>da Web de pool  <br/> 443  <br/> |443  <br/> |Front-End  <br/> 5061  <br/> |Origem  <br/> |HTTPS  <br/> |
+|\<int_mco_80_vs\>da Web de pool  <br/> 80  <br/> |80  <br/> |Front-End  <br/> 5061  <br/> |Origem  <br/> |HTTP  <br/> |
    
 **Pool de usuários do servidor front-end-interface externa HLB**
 
 |**IP/porta virtual**|**Porta do nó**|**Máquina/monitor do nó**|**Perfil de persistência**|**Observações**|
 |:-----|:-----|:-----|:-----|:-----|
-|\<web_mco_443_vs\>de pool  <br/> 443  <br/> |4443  <br/> |Front-End  <br/> 5061  <br/> |Nenhum  <br/> |HTTPS  <br/> |
-|\<web_mco_80_vs\>de pool  <br/> 80  <br/> |8080  <br/> |Front-End  <br/> 5061  <br/> |Nenhum  <br/> |HTTP  <br/> |
+|\<web_mco_443_vs\>de grupo  <br/> 443  <br/> |4443  <br/> |Front-End  <br/> 5061  <br/> |Nenhum  <br/> |HTTPS  <br/> |
+|\<web_mco_80_vs\>de grupo  <br/> 80  <br/> |8080  <br/> |Front-End  <br/> 5061  <br/> |Nenhum  <br/> |HTTP  <br/> |
    
 ## <a name="dns-load-balancing"></a>DNS Load Balancing
 <a name="BKMK_DNSLoadBalancing"> </a>
@@ -233,7 +235,7 @@ Implantar o balanceamento de carga de DNS nos pools front-end e nos pools de dir
   
 - Um pool que usa o balanceamento de carga de DNS deve ter dois FQDNs: o FQDN do pool regular que é usado pelo balanceamento de carga de DNS (como pool01.contoso.com) e é resolvido para o IPs físicos dos servidores no pool e outro FQDN para os serviços Web do pool (como web01.contoso.com), que é resolvido para o endereço IP virtual do pool. 
     
-    Em Construtor de topologia, se você quiser implantar o balanceamento de carga de DNS para um pool, para criar esse FQDN adicional para os serviços Web do pool, você deve selecionar a caixa de seleção **substituir o FQDN do pool de serviços Web internos** e digitar o FQDN em **especificar as URLs de serviços Web para Esta** página de pool.
+    Em Construtor de topologia, se você quiser implantar o balanceamento de carga de DNS para um pool, para criar esse FQDN adicional para os serviços Web do pool, você deve selecionar a caixa de seleção **substituir FQDN do pool de serviços Web internos** e digitar o FQDN na página **especificar as URLs de serviços Web para este pool** .
     
 - Para dar suporte ao FQDN usado pelo balanceamento de carga de DNS, você deve provisionar o DNS para resolver o FQDN do pool (como pool01.contoso.com) para os endereços IP de todos os servidores do pool (por exemplo, 192.168.1.1, 192.168.1.2 e assim por diante). Você deve incluir somente os endereços IP dos servidores que estão implantados no momento.
     

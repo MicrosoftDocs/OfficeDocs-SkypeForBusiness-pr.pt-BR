@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
 description: 'Resumo: Saiba mais sobre a API de dados para o painel de qualidade da chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.'
-ms.openlocfilehash: 016cc1be9f5cd5506f8ee7d8ddbe2765e0015ffd
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: e302c04dee298f9e5d2f33c908b5421ecff4de9a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "36571915"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816860"
 ---
 # <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>API de dados para o painel de qualidade de chamada (CQD) no Skype for Business Server
  

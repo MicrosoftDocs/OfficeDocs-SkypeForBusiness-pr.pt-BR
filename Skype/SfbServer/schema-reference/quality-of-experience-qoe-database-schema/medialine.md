@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 132eca13-8913-4218-9eff-4960ced8c3dc
 description: O modo de exibição de mídia armazena informações sobre cada linha de mídia no banco de dados. Uma sessão de áudio geralmente contém uma linha de mídia de áudio. Uma sessão de áudio e vídeo (A/V) geralmente contém uma linha de mídia de áudio e uma linha de mídia de vídeo; no entanto, a sessão pode conter duas linhas de mídia de vídeo se um dispositivo de conferência for usado ou se o modo de exibição de galeria for usado. Este modo de exibição foi apresentado no Microsoft Lync Server 2013.
-ms.openlocfilehash: 03b86aa6e954c61a40a28e1d2c2a0194b581849e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b22408ddc40f1df6452895327e8a67800ef24eb9
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294863"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41808189"
 ---
 # <a name="medialine-view"></a>Modo de exibição de mídia
  

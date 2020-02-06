@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: As regras de normalização do Skype for Business Server usam expressões regulares do .NET Framework para traduzir números de telefone discados para o formato E. 164; em outras palavras, as regras de normalização recebem o número de telefone discado por um usuário e convertem esse número no formato usado internamente pelo Skype for Business Server. Cada plano de discagem deve ter uma ou mais regras de normalização atribuídas.
-ms.openlocfilehash: e5156816de13a8d59e3e6eea4890046d5b4f586a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ed9db264dc637251c535f111e419aac9aa0f5e5e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274974"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816991"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>Definindo regras de normalização no Skype for Business Server
 
@@ -25,7 +27,7 @@ Para obter detalhes sobre as regras de normalização, consulte [planos de disca
 Para obter detalhes sobre como escrever expressões regulares, consulte [expressões regulares do .NET Framework](http://go.microsoft.com/fwlink/p/?linkId=140927).
 
 Você pode usar qualquer um dos seguintes métodos para definir ou editar uma regra de normalização:
-- [Use a ferramenta **criar uma regra** ](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule) de normalização para especificar valores para os dígitos iniciais, comprimento, dígitos a serem removidos e dígitos a serem adicionados e deixe o painel de controle do Skype for Business Server gerar o padrão correspondente e a regra de tradução Para você.
+- [Use a ferramenta **criar uma regra de normalização** ](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule) para especificar valores para os dígitos iniciais, comprimento, dígitos a serem removidos e dígitos a serem adicionados e deixe o painel de controle do Skype for Business Server gerar o padrão correspondente e a regra de tradução para você.
 - [Grave expressões regulares manualmente](#create-or-modify-a-normalization-rule-manually) para definir o padrão correspondente e a regra de tradução. 
 
 ## <a name="create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule"></a>Criar ou modificar uma regra de normalização usando criar uma regra de normalização
@@ -36,7 +38,7 @@ Conclua as etapas a seguir se desejar criar ou modificar uma regra de normaliza�
 
 1. Faça logon no computador como um membro do grupo RTCUniversalServerAdmins ou como um membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte [delegar permissões de configuração](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
 2. Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Skype for Business, confira [instalar e abrir ferramentas administrativas](../../management-tools/install-and-open-administrative-tools.md).
-3. Adicionais Siga as etapas em [criar um plano](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-create-a-dial-plan) de discagem por meio da etapa 11 ou [modifique um plano de discagem](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-modify-a-dial-plan) pela etapa 10. 
+3. Adicionais Siga as etapas em [criar um plano de discagem](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-create-a-dial-plan) por meio da etapa 11 ou [modifique um plano de discagem](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-modify-a-dial-plan) pela etapa 10. 
 4. Em  **Nova Regra de Normalização** ou **Editar Regra de Normalização**, digite um nome que descreva o padrão numérico que está sendo normalizado em **Nome** (por exemplo, **5DigitExtension**).
 5. (Opcional) Em **Descrição**, digite uma descrição da regra de normalização (por exemplo, "Converte extensões de cinco dígitos").
 6. Em **Compilar uma Regra de Normalização**, digite valores nos campos a seguir:
@@ -74,7 +76,7 @@ Conclua as etapas a seguir se desejar criar ou modificar uma regra de normaliza�
 
 1. Faça logon no computador como um membro do grupo RTCUniversalServerAdmins ou como um membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte [delegar permissões de configuração](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
 2. Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Skype for Business, confira [instalar e abrir ferramentas administrativas](../../management-tools/install-and-open-administrative-tools.md).
-3. Adicionais Siga as etapas em [criar um plano](GET LINK AFTER MIGRATION) de discagem por meio da etapa 11 ou [modifique um plano de discagem](GET LINK AFTER MIGRATION) pela etapa 10.  
+3. Adicionais Siga as etapas em [criar um plano de discagem](GET LINK AFTER MIGRATION) por meio da etapa 11 ou [modifique um plano de discagem](GET LINK AFTER MIGRATION) pela etapa 10.  
 4. Em **Nova regra de normalização** ou **Editar regra de normalização**, digite um nome que descreve o padrão de número que está sendo normalizado em **Nome** (por exemplo, o nome da regra de normalização **5DigitExtension**).
 5. (Opcional) Em **Descrição**, digite uma descrição da regra de normalização (por exemplo, "Converte extensões de cinco dígitos").
 6. Em **Compilar uma regra de normalização**, clique em **Editar**.
@@ -92,4 +94,4 @@ Conclua as etapas a seguir se desejar criar ou modificar uma regra de normaliza�
 
 10. Clique em **OK** para salvar a regra de normalização.
 11. Clique em **OK** para salvar o plano de discagem.
-12. Na página **plano** de discagem, **** clique em commi t e, em seguida, clique em **confirmar tudo**. 
+12. Na página **plano de discagem** , clique em **commi**t e, em seguida, clique em **confirmar tudo**. 

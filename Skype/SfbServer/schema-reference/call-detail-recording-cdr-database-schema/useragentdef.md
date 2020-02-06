@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 96c49239-d999-4045-8b64-9d1940cce8ff
 description: A tabela UserAgentDef mapeia os identificadores de agente de usuário para os nomes descritivos do agente. Os agentes de usuário são clientes de software usados para se conectar ao Skype for Business Server 2015. Esta tabela foi introduzida no Microsoft Lync Server 2013.
-ms.openlocfilehash: ba2679338d3ec2403a66e0624e93e194faf2e472
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6594cbe46439f0558c962dd2a31cb9837ee39118
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295682"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814809"
 ---
 # <a name="useragentdef-table"></a>Tabela UserAgentDef
  
@@ -27,17 +29,17 @@ A tabela UserAgentDef mapeia os identificadores de agente de usuário para os no
 |1  <br/> |MediationServer  <br/> |MediationServer  <br/> |
 |2  <br/> |AV-MCU  <br/> |AV-MCU  <br/> |
 |4  <br/> |OC  <br/> |OC  <br/> |
-|08  <br/> |OCPhone  <br/> |OCPhone  <br/> |
+|8  <br/> |OCPhone  <br/> |OCPhone  <br/> |
 |16  <br/> |LMC  <br/> |LMC  <br/> |
 |32  <br/> |DVT  <br/> |DVT  <br/> |
 |64  <br/> |CM  <br/> |CM  <br/> |
 |64  <br/> |MC  <br/> |CM  <br/> |
 |128  <br/> |Atendedor  <br/> |Atendedor  <br/> |
-|256  <br/> |Conferencing_Announcement_Service_ 1.0  <br/> |CERTIFICAÇÃO  <br/> |
-|512  <br/> |Conferencing_Attendant_ 1.0  <br/> |CAA  <br/> |
-|512  <br/> |Conference_Auto_Attendant_ 1.0  <br/> |CAA  <br/> |
+|256  <br/> |Conferencing_Announcement_Service_1.0  <br/> |CERTIFICAÇÃO  <br/> |
+|512  <br/> |Conferencing_Attendant_1.0  <br/> |CAA  <br/> |
+|512  <br/> |Conference_Auto_Attendant_1.0  <br/> |CAA  <br/> |
 |1024  <br/> |Response_Group_Service  <br/> |RGS  <br/> |
-|1032  <br/> |Call_Park_Service_ 1.0  <br/> |CPS  <br/> |
+|1032  <br/> |Call_Park_Service_1.0  <br/> |CPS  <br/> |
 |1040  <br/> |Response_Group_Service Announcement_Service  <br/> |COMO  <br/> |
 |2048  <br/> |Microsoft. RTC. Applications. CCS  <br/> |CCS  <br/> |
 |16386  <br/> |CoMo  <br/> |CoMo  <br/> |

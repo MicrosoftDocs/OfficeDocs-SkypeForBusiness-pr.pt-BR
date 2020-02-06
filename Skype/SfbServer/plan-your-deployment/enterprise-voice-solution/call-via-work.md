@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: Planejando a chamada por meio do trabalho no Skype for Business Server, que permite a integração entre o Skype for Business e o sistema de telefonia PBX, para que os usuários possam usar o Skype for Business para controlar os telefones PBX.
-ms.openlocfilehash: b2f0e57a33f6e194dc981b623a641850ed3c8de5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 38c61145dcad609c75e7b2e3433efee307f8dc28
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277024"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803151"
 ---
 # <a name="plan-for-call-via-work-in-skype-for-business-server"></a>Planejar a chamada por meio do trabalho no Skype for Business Server
  
@@ -91,7 +93,7 @@ A chamada via trabalho é uma solução de voz que requer pouca configuração d
     
 - Se um usuário fizer ou responder uma chamada usando o telefone PBX (e não estiver usando a janela do Skype for Business), não haverá o registro da chamada.
     
-- Se o seu sistema PBX não oferecer suporte a **referir-** se a substituições, o seguinte comportamento ocorrerá. Durante uma chamada via chamada de trabalho, se o usuário transferir a chamada em andamento do telefone PBX, a janela de chamada não desaparecerá da janela do Skype for Business. Se o usuário fechar a janela de chamada, a chamada entre o destino de transferência e o transferido será encerrada. 
+- Se o seu sistema PBX não oferecer suporte a **referir-se a substituições**, o seguinte comportamento ocorrerá. Durante uma chamada via chamada de trabalho, se o usuário transferir a chamada em andamento do telefone PBX, a janela de chamada não desaparecerá da janela do Skype for Business. Se o usuário fechar a janela de chamada, a chamada entre o destino de transferência e o transferido será encerrada. 
     
 ## <a name="prerequisites-for-call-via-work"></a>Pré-requisitos para ligar pelo trabalho
 

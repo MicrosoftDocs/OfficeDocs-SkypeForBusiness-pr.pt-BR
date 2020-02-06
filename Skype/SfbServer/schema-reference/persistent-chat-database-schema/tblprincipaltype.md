@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 description: tblPrincipalType contém tipos principais para categorizar o que está na tabela tblPrincipal.
-ms.openlocfilehash: 473b718a8a863432a71ff04d709bef4c0ac1327f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1aacfdf34689bebc2c7e012c926731ae1f4a8349
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295241"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812929"
 ---
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
@@ -46,8 +48,8 @@ tblPrincipalType contém tipos principais para categorizar o que está na tabela
 |3  <br/> |AnyGroup  <br/> |Entidade de segurança genérica com semântica de grupo. Não usado na tabela tblPrincipal.  <br/> ||
 |4  <br/> |SystemUser  <br/> |Principal usado internamente pelo servidor de chat persistente.  <br/> ||
 |5  <br/> |Usuário  <br/> |Usuário regular.  <br/> |Sim  <br/> |
-|08  <br/> |CLONA  <br/> |Controlador de domínio dos serviços de domínio Active Directory.  <br/> ||
-|222  <br/> |Grupos  <br/> |Grupo de segurança do Active Directory.  <br/> ||
+|8  <br/> |CLONA  <br/> |Controlador de domínio dos serviços de domínio Active Directory.  <br/> ||
+|9  <br/> |Grupos  <br/> |Grupo de segurança do Active Directory.  <br/> ||
 |254  <br/> |La  <br/> |Contêiner ou unidade organizacional do Active Directory.  <br/> ||
    
 ## <a name="see-also"></a>Confira também

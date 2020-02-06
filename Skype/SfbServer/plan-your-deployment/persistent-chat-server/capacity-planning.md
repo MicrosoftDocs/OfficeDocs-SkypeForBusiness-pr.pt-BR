@@ -8,15 +8,17 @@ ms.date: 2/23/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 description: 'Resumo: Leia este tópico para saber mais sobre o planejamento de capacidade para o servidor de chat persistente no Skype for Business Server 2015.'
-ms.openlocfilehash: 7aa76aecf183fc0872adf6f6040132310d54a989
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 9f5571be81fbda47150bbde7edf5757ebdea8a4c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418488"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815769"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planejamento de capacidade para o Servidor de Chat Persistente no Skype for Business Server 2015
  
@@ -57,7 +59,7 @@ Use a seguinte tabela de exemplo para determinar o número de usuários que voc�
 |Total de usuários provisionados  <br/> |150,000  <br/> |
 |Número de pontos de extremidade  <br/> |120,000  <br/> |
    
-No exemplo anterior, o plano é compatível com o número máximo de usuários que o chat do servidor de chat persistente permite: quatro servidores/instâncias do serviço de chat persistente (pode ter quatro servidores passivos executando o chat persistente para alta disponibilidade e recuperação de desastres) e usuários do 20.000 por servidor, para um total de 80.000 usuários ativos.
+No exemplo anterior, o plano é compatível com o número máximo de usuários que o chat do servidor de chat persistente permite: quatro servidores/instâncias do serviço de chat persistente (pode ter quatro servidores passivos executando o servidor de chat persistente para alta disponibilidade e recuperação de desastres) e os usuários do 20.000 por servidor, para um total de 80.000 usuários ativos.
   
 ### <a name="plan-capacity-for-chat-room-access"></a>Planejar capacidade para acesso à sala de chat
 

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
 description: 'Resumo: saiba como planejar mensagens instantâneas e presença no Skype for Business Server.'
-ms.openlocfilehash: 29026a0b4ef7cce55f155f024efc9ccc84457906
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d62559afe0c7767ee7863f41b41f2d1b64127643
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297376"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815899"
 ---
 # <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planejar mensagens instantâneas e presença no Skype for Business Server
  
@@ -33,7 +35,7 @@ A Presença fornece informações a usuários sobre o status de outros na rede. 
   
 ### <a name="technical-requirements"></a>Requisitos técnicos
 
-O sistema de mensagens instantâneas e a presença são sempre executados nos pools de Front-Ends Enterprise Edition e servidores Standard Edition. Para obter informações sobre hardware, sistemas operacionais e software de banco de dados com suporte, consulte [gateways certificados](../../SfbPartnerCertification/certification/infra-gateways.md), [requisitos para o ambiente do skype for Business 2015](requirements-for-your-environment/requirements-for-your-environment.md)e [requisitos de infraestrutura para o Skype for Business Server 2019 ](../../SfBServer2019/plan/system-requirements.md).
+O sistema de mensagens instantâneas e a presença são sempre executados nos pools de Front-Ends Enterprise Edition e servidores Standard Edition. Para obter informações sobre hardware, sistemas operacionais e software de banco de dados com suporte, consulte [gateways certificados](../../SfbPartnerCertification/certification/infra-gateways.md), [requisitos para o ambiente do skype for Business 2015](requirements-for-your-environment/requirements-for-your-environment.md)e [requisitos de infraestrutura para o Skype for Business Server 2019](../../SfBServer2019/plan/system-requirements.md).
   
 ### <a name="enabling-communication-with-external-users"></a>Habilitando a comunicação com usuários externos
 

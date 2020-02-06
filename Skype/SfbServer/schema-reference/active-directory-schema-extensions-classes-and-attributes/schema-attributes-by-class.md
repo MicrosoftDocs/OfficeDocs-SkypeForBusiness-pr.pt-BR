@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
 description: Esta seção lista os atributos de esquema que podem ser contidos em cada classe de servidor do Skype for Business e nas classes que podem estar contidas em outras classes. Para obter uma lista de todas as classes e suas descrições, consulte classes e descrições de esquema no Skype for Business Server. Para obter uma lista de todos os atributos e suas descrições, consulte atributos e descrições do esquema no Skype for Business Server.
-ms.openlocfilehash: 457b66b5b4b09bd610686bfdfb42af30b420930f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 93598f1cc54ec76ccc59649ec97fd7ac57cd39f6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296641"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815489"
 ---
 # <a name="schema-attributes-by-class-in-skype-for-business-server"></a>Atributos de esquema por classe no Skype for Business Server
  

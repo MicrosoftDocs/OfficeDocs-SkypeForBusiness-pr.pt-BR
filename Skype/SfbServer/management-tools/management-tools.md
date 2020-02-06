@@ -8,16 +8,18 @@ ms.date: 12/20/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4e956558-8cba-47d9-b96a-537d7f6ed938
 description: 'Resumo: Saiba mais sobre as ferramentas de gerenciamento de serviço do Skype for Business Server 2015.'
-ms.openlocfilehash: 49bde0d30cc7e64e847ebd725ae688164c43f26f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7e1be214fcd1ad73f471188dd019f12c2b23607c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274405"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816540"
 ---
 # <a name="skype-for-business-server-2015-management-tools"></a>Ferramentas de gerenciamento do Skype for Business Server 2015
  
@@ -29,7 +31,7 @@ O software de comunicações do Skype for Business Server 2015 (antigo Lync Serv
 
 ||**Conteúdo**|**Descrição**|
 |:-----|:-----|:-----|
-||[Scorecard de metodologia de qualidade de chamada da Microsoft, v 1.5](https://go.microsoft.com/fwlink/p/?LinkId=615208) (download. zip) <br/> [Pôster CQM para o Skype for Business](https://go.microsoft.com/fwlink/p/?LinkID=617898) <br/> [Pôster CQM para o Lync 2013](https://go.microsoft.com/fwlink/p/?LinkId=391841) <br/> |Uma versão atualizada do Microsoft Call Quality Quality (CQM) scorecard para o Lync Server e o Skype for Business Server 2015. Você pode usar o scorecard CQM para implementar a Metodologia de Qualidade de Chamada, uma forma holística de definir e declarar sistematicamente a qualidade da chamada com base nos métodos descritos no Guia de Rede. O CQM divide uma implementação do Lync/Skype for Business em dez áreas discretas que afetam a qualidade, definindo alvos e um plano de correção para cada um deles. O CQM é uma estrutura para resolver problemas de qualidade de chamada-você pode modificá-lo ou estendê-lo para atender às condições específicas da sua rede  <br/> O pôster CQM pode ajudá-lo a saber mais sobre o CQM, a metodologia de qualidade da chamada do Lync e do Skype for Business que ajuda você a encontrar e eliminar problemas que afetam a qualidade da chamada e a experiência do usuário para as implementações do Lync/Skype for Business que incluem o Enterprise Voice funções.  <br/>**Observação:** Essas ferramentas não serão atualizadas para o Skype for Business Server 2019. |
+||[Scorecard de metodologia de qualidade de chamada da Microsoft, v 1.5](https://go.microsoft.com/fwlink/p/?LinkId=615208) (download. zip) <br/> [Pôster CQM para o Skype for Business](https://go.microsoft.com/fwlink/p/?LinkID=617898) <br/> [Pôster CQM para o Lync 2013](https://go.microsoft.com/fwlink/p/?LinkId=391841) <br/> |Uma versão atualizada do Microsoft Call Quality Quality (CQM) scorecard para o Lync Server e o Skype for Business Server 2015. Você pode usar o scorecard CQM para implementar a Metodologia de Qualidade de Chamada, uma forma holística de definir e declarar sistematicamente a qualidade da chamada com base nos métodos descritos no Guia de Rede. O CQM divide uma implementação do Lync/Skype for Business em dez áreas discretas que afetam a qualidade, definindo alvos e um plano de correção para cada um deles. O CQM é uma estrutura para resolver problemas de qualidade de chamada-você pode modificá-lo ou estendê-lo para atender às condições específicas da sua rede  <br/> O pôster do CQM pode ajudá-lo a saber mais sobre o CQM, a metodologia de qualidade da chamada do Lync e do Skype for Business que ajuda você a encontrar e eliminar problemas que afetam a qualidade da chamada e a experiência do usuário para as implementações do Lync/Skype for Business, que incluem recursos do Enterprise Voice.  <br/>**Observação:** Essas ferramentas não serão atualizadas para o Skype for Business Server 2019. |
 |![ícone do painel](../media/144fef0b-3ff0-4298-8b03-978bda9e923b.png)|[Painel de Qualidade da Chamada](https://go.microsoft.com/fwlink/p/?LinkId=534842) <br/> |O Painel de Qualidade da Chamada (CQD) é um portal da Web para criar e organizar rapidamente os relatórios dependendo dos dados de qualidade da experiência (QoE) do seu ambiente Skype for Business ou Lync. O CQD implanta um cubo de SSAS para agregar os dados no banco de dados QoEMetrics, que permite aos usuários criarem e modificarem relatórios e vê-los atualizados em tempo real. Além disso, o CQD expõe APIs da web que dão aos usuários acesso programático aos dados do cubo para uso em painéis personalizados.  <br/> |
 |![ícone para KHI](../media/8759b767-b689-4a95-94a5-5b27c5688688.png)|[Recursos do KHI](https://go.microsoft.com/fwlink/p/?LinkId=534843) <br/> |Key Health Indicators (KHI) são contadores de desempenho com limites recomendados destinados a revelar problemas que podem afetar a experiência do usuário. O Guia de KHI descreve o processo operacional e as etapas de remediação para manter uma implantação íntegra e inclui uma amostra de script PowerShell usada para configurar Coletores de Dados de KHI e uma Apostila de Análise e Definições, que pode analisar dados de desempenho e KHI.  <br/> |
 |![ícone do painel](../media/144fef0b-3ff0-4298-8b03-978bda9e923b.png)|[Statistics Manager for Skype for Business Server 2015](statistics-manager/statistics-manager.md) <br/> |O StatsMan é uma solução de painel para a visualização de cálculos de KHI em tempo real, assim como contadores de desempenho gráficos agregados em toda a sua infraestrutura. O painel pode ser usado para identificar problemas de desempenho contínuos, visualizar os resultados de uma mudança prevista em seu ambiente, rastrear a solução de interrupções e muito mais. O recurso está configurado com limites KHI dos recursos do KHI e pode ser personalizado para atender às necessidades exclusivas da sua implantação.  <br/> |

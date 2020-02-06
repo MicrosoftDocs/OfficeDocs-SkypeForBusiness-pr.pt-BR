@@ -8,15 +8,17 @@ ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ae0287b4-e8ca-4f8c-84ef-502897dcaa2a
 description: A tabela ErrorReport armazena informações sobre erros ocorridos. Cada registro é uma ocorrência de um erro. Os erros são capturados pelo agente CDR executado no servidor front-end ou enviados do cliente.
-ms.openlocfilehash: 80a6106bd7c6b87a7519bca6ce5cc72f45147ad6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: de103c61f74b50297f9c012ae7f4c6e1586e87d7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296263"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815219"
 ---
 # <a name="errorreport-table-in-skype-for-business-server-2015"></a>Tabela ErrorReport no Skype for Business Server 2015
  
@@ -31,7 +33,7 @@ A tabela ErrorReport armazena informações sobre erros ocorridos. Cada registro
 |**Parauserid** <br/> |int  <br/> |Exterior  <br/> |Usuário de destino para a solicitação que causou o erro. Para obter mais informações, consulte a [tabela usuários](users.md) . <br/> |
 |**ConferenceUriId** <br/> |int  <br/> |Exterior  <br/> |URL de conferência relacionada ao erro. Consulte a [tabela ConferenceUris no Skype for Business Server 2015](conferenceuris.md) para obter mais informações. Geralmente, se ConferenceUriId não for nulo, o FromUserId ou o parauserid será nulo. <br/> |
 |**Id_da_sessãotime** <br/> |datetime  <br/> |Exterior  <br/> |Usado em conjunto com o **SessionIdSeq** para identificar exclusivamente uma sessão. Consulte a [tabela de diálogos no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Exterior  <br/> |Número de identificação para identificar a sessão. Usado em conjunto com **** a identificação_da_sessãotime para identificar exclusivamente uma sessão. Consulte a [tabela de diálogos no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Exterior  <br/> |Número de identificação para identificar a sessão. Usado em conjunto com a **identificação_da_sessãotime** para identificar exclusivamente uma sessão. Consulte a [tabela de diálogos no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
 |**SourceID** <br/> |int  <br/> |Exterior  <br/> |Servidor que enviou o relatório de erro (se o relatório estiver sendo enviado de um componente de servidor). Consulte a [tabela servidores](servers.md) para obter mais informações. <br/> Este campo foi apresentado no Microsoft Lync Server 2013.  <br/> |
 |**ApplicationId** <br/> |int  <br/> |Exterior  <br/> |Servidor que enviou o relatório de erro (se o relatório estiver sendo enviado de um componente de servidor). Consulte a [tabela de aplicativos no Skype for Business Server 2015](application.md) para obter mais informações. <br/> Este campo foi apresentado no Microsoft Lync Server 2013.  <br/> |
 |**MsDiagHeader** <br/> |imagem  <br/> | <br/> |Mais informações sobre o erro.  <br/> Esses dados podem ser convertidos em um formato de texto usando esta sintaxe:  <br/>  `cast(cast(Detail as varbinary(max)) as varchar(max))` <br/> |

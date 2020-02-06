@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
 description: 'Resumo: Saiba mais sobre a API da Web de comunicação unificada (UCWA) no Skype for Business Server.'
-ms.openlocfilehash: bbded70318190fb4fa68ab524a696183c97ff07d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: db6aee15564fe9fca05c33ec5a6dd37988195956
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279694"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817620"
 ---
 # <a name="ucwa-events-in-skype-for-business-server"></a>Eventos do UCWA no Skype for Business Server
  
@@ -31,22 +33,22 @@ A UCWA gravará registros de comportamento operacional como tipos de evento Info
 |20002  <br/> |Erro  <br/> |A UCWA encontrou uma exceção inesperada durante a inicialização  <br/> |Ocorreu um erro inesperado durante a inicialização  <br/> Examine os detalhes da exceção na entrada de log do evento associado para determinar a possível causa  <br/> |
 |20003  <br/> |Erro  <br/> |A UCWA encontrou uma exceção não manipulada  <br/> |Ocorreu uma exceção não manipulada  <br/> Reinicie o servidor. Se o problema persistir, entre em contato com o suporte do produto  <br/> |
 |20004  <br/> |Erro  <br/> |Não é possível acessar o Exchange para foto HD  <br/> |A conexão com o Exchange não está disponível  <br/> Certifique-se de que a conexão com o Exchange está disponível  <br/> |
-|20005  <br/> |Informativo  <br/> |Recuperação de uma falha ao acessar o Exchange para foto HD  <br/> |N/D  <br/> |
+|20005  <br/> |Informativo  <br/> |Recuperação de uma falha ao acessar o Exchange para foto HD  <br/> |Não disponível  <br/> |
 |20006  <br/> |Erro  <br/> |Não é possível acessar o Exchange para pesquisa de contato  <br/> |A conexão com o Exchange não está disponível  <br/> Certifique-se de que a conexão com o Exchange está disponível  <br/> |
-|20007  <br/> |Informativo  <br/> |Recuperação de uma falha em pesquisar contato no Exchange  <br/> |N/D  <br/> |
+|20007  <br/> |Informativo  <br/> |Recuperação de uma falha em pesquisar contato no Exchange  <br/> |Não disponível  <br/> |
 |20008  <br/> |Aviso  <br/> |Tente assinar mais de uma assinatura de presença permitida por aplicativo  <br/> |Tente assinar mais de uma assinatura de presença permitida por aplicativo  <br/> Verifique se os clientes possuem assinaturas desnecessárias  <br/> |
 |20009  <br/> |Aviso  <br/> |Tente assinar mais de uma assinatura de presença permitida por lote  <br/> |Tente assinar mais de uma assinatura de presença permitida por lote  <br/> Verifique se os clientes possuem assinaturas desnecessárias  <br/> |
 |20010  <br/> |Erro  <br/> |Não é possível recuperar os dados inband  <br/> |Não é possível recuperar os dados inband  <br/> Se o problema persistir entre em contato com o suporte do produto  <br/> |
 |20011  <br/> |Erro  <br/> |Não é possível assinar a presença  <br/> |Não é possível assinar a presença  <br/> Se o problema persistir entre em contato com o suporte do produto  <br/> |
 |20012  <br/> |Erro  <br/> |Falha ao registrar o ponto de extremidade  <br/> |Falha ao registrar o ponto de extremidade  <br/> Se o problema persistir entre em contato com o suporte do produto  <br/> |
 |20013  <br/> |Erro  <br/> |A MCU de IM não está disponível  <br/> |A MCU de IM não está disponível  <br/> Consulte se a MCU de IM está sendo executada  <br/> |
-|20014  <br/> |Informativo  <br/> |Recuperação de uma falha ao conectar ao MCU de IM  <br/> |N/D  <br/> |
+|20014  <br/> |Informativo  <br/> |Recuperação de uma falha ao conectar ao MCU de IM  <br/> |Não disponível  <br/> |
 |20015  <br/> |Erro  <br/> |A MCU de AV não está disponível  <br/> |A MCU de AV não está disponível  <br/> Consulte se a MCU de AV está sendo executada  <br/> |
-|20016  <br/> |Informativo  <br/> |Recuperação de uma falha ao conectar ao MCU de AV  <br/> |N/D  <br/> |
+|20016  <br/> |Informativo  <br/> |Recuperação de uma falha ao conectar ao MCU de AV  <br/> |Não disponível  <br/> |
 |20017  <br/> |Erro  <br/> |A MCU de AS não está disponível  <br/> |A MCU de AS não está disponível  <br/> Consulte se a MCU de AS está sendo executada  <br/> |
 |20018  <br/> |Informativo  <br/> |Recuperação de uma falha ao conectar ao MCU de AS  <br/> |N/D  <br/> |
 |20019  <br/> |Erro  <br/> |A MCU de Dados não está disponível  <br/> |A MCU de Dados não está disponível  <br/> Consulte se a MCU de Dados está sendo executada  <br/> |
-|20020  <br/> |Informativo  <br/> |Recuperação de uma falha ao conectar ao MCU de dados  <br/> |N/D  <br/> |
+|20020  <br/> |Informativo  <br/> |Recuperação de uma falha ao conectar ao MCU de dados  <br/> |Não disponível  <br/> |
 |20021  <br/> |Erro  <br/> |Não é possível participar da MCU de IM  <br/> |Não é possível participar da MCU de IM  <br/> Consulte se a MCU de IM está sendo executada  <br/> |
 |20022  <br/> |Erro  <br/> |Não é possível participar da MCU de AV  <br/> |Não é possível participar da MCU de AV  <br/> Consulte se a MCU de AV está sendo executada  <br/> |
 |20023  <br/> |Erro  <br/> |Não é possível participar da MCU de AS  <br/> |Não é possível participar da MCU de AS  <br/> Consulte se a MCU de AS está sendo executada  <br/> |

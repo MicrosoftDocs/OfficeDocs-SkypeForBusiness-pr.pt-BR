@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: conceptual
 manager: serdars
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 'Resumo: Saiba mais sobre os requisitos do sistema para o servidor de borda no Skype for Business Server.'
-ms.openlocfilehash: 01a5cce8dd1ccb85d322b6c66615d022c8d6c2df
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 4ef2feeb2b486bc9be9f4eb59136d74ef542dd31
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "34277143"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803311"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Requisitos do sistema do servidor de borda no Skype for Business Server
  
@@ -193,7 +195,7 @@ Se estiver implantando dispositivos móveis, o HLB deverá ser capaz de balancea
   
 Estes são os requisitos de HLB para o diretor (opcional) e (obrigatório) serviços Web de pool de front-end:
   
-- Para seus VIPs internos de serviços Web, defina persistência Source_addr (porta interna 80, 443) em seu HLB. Para o Skype for Business Server, Source_addr persistência significa que várias conexões provenientes de um único endereço IP são sempre enviadas para um servidor, para manter o estado da sessão.
+- Para seus VIPs internos de serviços Web, defina Source_addr persistência (porta interna 80, 443) em seu HLB. Para o Skype for Business Server, Source_addr persistência significa que várias conexões provenientes de um único endereço IP são sempre enviadas para um servidor, para manter o estado da sessão.
     
 - Use um tempo de ociosidade de TCP de 1.800 segundos.
     
@@ -213,8 +215,8 @@ Você define o monitoramento de porta em seus balanceadores de carga de hardware
   
 |**IP/porta virtual**|**Porta do nó**|**Máquina/monitor do nó**|**Perfil de persistência**|**Observações**|
 |:-----|:-----|:-----|:-----|:-----|
-|\<web_mco_443_vs\>de pool  <br/> 443  <br/> |4443  <br/> |Front-End  <br/> 5061  <br/> |Nenhum  <br/> |HTTPS  <br/> |
-|\<web_mco_80_vs\>de pool  <br/> 80  <br/> |8080  <br/> |Front-End  <br/> 5061  <br/> |Nenhum  <br/> |HTTP  <br/> |
+|\<web_mco_443_vs\>de grupo  <br/> 443  <br/> |4443  <br/> |Front-End  <br/> 5061  <br/> |Nenhum  <br/> |HTTPS  <br/> |
+|\<web_mco_80_vs\>de grupo  <br/> 80  <br/> |8080  <br/> |Front-End  <br/> 5061  <br/> |Nenhum  <br/> |HTTP  <br/> |
    
 ## <a name="hardware-and-software-requirements"></a>Requisitos de hardware e software
 

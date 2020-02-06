@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: 'Resumo: Leia este tópico para saber mais sobre os requisitos de hardware e software para conferências no Skype for Business Server.'
-ms.openlocfilehash: c4efb85c7ae1674cab7ee123833df779a835e14c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0d09e0e85e7059e0a761b2822f963765751623e0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277339"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815979"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>Requisitos de hardware e software para conferências no Skype for Business Server
 
@@ -105,7 +107,7 @@ Aplicativo de atendedor de conferência o aplicativo de anúncio de conferência
 
 ### <a name="audio-file-requirements-for-dial-in-conferencing"></a>Requisitos de arquivo de áudio para conferência discada
 
-O Skype for Business Server não é compatível com a personalização de prompts de voz e música para conferência discada. No entanto, se você tiver uma forte necessidade empresarial que exija a alteração dos arquivos de áudio padrão, consulte o artigo 961177 da base de dados de conhecimento Microsoft, [como personalizar prompts de voz ou arquivos de música para conferências de áudio](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=961177)discadas.
+O Skype for Business Server não é compatível com a personalização de prompts de voz e música para conferência discada. No entanto, se você tiver uma forte necessidade empresarial que exija a alteração dos arquivos de áudio padrão, consulte o artigo 961177 da base de dados de conhecimento Microsoft, [como personalizar prompts de voz ou arquivos de música para conferências de áudio discadas](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=961177).
 
 Você também pode usar o utilitário de gerenciamento de [solicitações de voz personalizado do Microsoft Lync Server Attendant](https://go.microsoft.com/fwlink/p/?LinkId=396880) , que permite aos administradores substituir as solicitações de voz padrão usadas quando um chamador de telefone ingressar em uma reunião do Skype for Business com avisos personalizados para fornecer uma experiência de entrada de reunião diferente. Os prompts de voz personalizados podem ser instalados em um servidor Enterprise ou Standard Edition.
 
@@ -142,7 +144,7 @@ Para poder usar os recursos de conferência, o Skype for Business Server exige q
 |Servidores Front-End  <br/> |Serviço de compartilhamento de aplicativos do Skype for Business Server  <br/> |5065  <br/> |TCP  <br/> |Usada para solicitações de escuta do SIP de entrada para compartilhamento de aplicativos.  <br/> |
 |Servidores Front-End  <br/> |Serviço de compartilhamento de aplicativos do Skype for Business Server  <br/> |49152-65535  <br/> |TCP  <br/> |Intervalo de porta de mídia usado para compartilhamento de aplicativo.  <br/> |
 |Servidores Front-End  <br/> |Serviço de anúncio de conferências do Skype for Business Server  <br/> |5073  <br/> |TCP  <br/> |Usado para solicitações SIP recebidas para o serviço de anúncio de conferência do Skype for Business Server (ou seja, para conferência discada).  <br/> |
-|Todos os servidores internos  <br/> |Vários  <br/> |49152-57500  <br/> |TCP/UDP  <br/> |Intervalo de porta de mídia usada para audioconferência em todos os servidores internos. Usado por todos os servidores que terminam o áudio: servidores front-end (para serviço de atendedor de conferência do Skype for Business Server, serviço de anúncio de conferência do Skype for Business Server e serviço de conferência de áudio/vídeo do Skype for Business Server) e Servidor de mediação.  <br/> |
+|Todos os servidores internos  <br/> |Vários  <br/> |49152-57500  <br/> |TCP/UDP  <br/> |Intervalo de porta de mídia usada para audioconferência em todos os servidores internos. Usado por todos os servidores que terminam áudio: servidores front-end (para serviço de atendedor de conferência do Skype for Business Server, serviço de anúncio de conferência do Skype for Business Server e servidor de serviços de videoconferência do Skype for Business Server) e servidor de mediação.  <br/> |
 |Servidor Office Web Apps  <br/> ||443  <br/> ||Usado pelo Skype for Business Server para se conectar ao servidor do Office Web Apps.  <br/> |
 
 **Portas de cliente necessárias**

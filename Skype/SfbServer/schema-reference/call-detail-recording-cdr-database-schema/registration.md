@@ -8,15 +8,17 @@ ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 05ff9dd3-1aaa-4af0-bd69-8789fb8eaeb3
 description: Cada registro representa um evento de registro de usuário.
-ms.openlocfilehash: 7dcf96c5cb5b140711590943eb7ae5d2be8704b4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bca31b85a0b88854760c2a79528792ee82bd272e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295857"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814939"
 ---
 # <a name="registration-table"></a>Tabela de registro
  
@@ -25,7 +27,7 @@ Cada registro representa um evento de registro de usuário.
 |**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**Id_da_sessãotime** <br/> |datetime  <br/> |Primário, estrangeiro  <br/> |Tempo de solicitação de sessão. Usado em conjunto com o **SessionIdSeq** para identificar exclusivamente uma sessão. Consulte a [tabela de diálogos no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Primário, estrangeiro  <br/> |Número de identificação para identificar a sessão. Usado em conjunto com **** a identificação_da_sessãotime para identificar exclusivamente uma sessão. Consulte a [tabela de diálogos no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Primário, estrangeiro  <br/> |Número de identificação para identificar a sessão. Usado em conjunto com a **identificação_da_sessãotime** para identificar exclusivamente uma sessão. Consulte a [tabela de diálogos no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
 |**ID** <br/> |int  <br/> |Exterior  <br/> |A ID de usuário. Para obter mais informações, consulte a [tabela usuários](users.md) . <br/> |
 |**Endpointid** <br/> |identificador  <br/> ||Um GUID para identificar um ponto de extremidade de registro. Geralmente, o evento Register do mesmo computador do mesmo usuário terá a mesma ID de ponto de extremidade. Máquinas diferentes têm uma ID de ponto de extremidade diferente.  <br/> |
 |**Ponteiro de fim** <br/> |Identificador  <br/> ||ID usada para diferenciar os registros que envolvem o mesmo usuário e o mesmo ponto de extremidade.  <br/> Este campo foi apresentado no Microsoft Lync Server 2013.  <br/> |

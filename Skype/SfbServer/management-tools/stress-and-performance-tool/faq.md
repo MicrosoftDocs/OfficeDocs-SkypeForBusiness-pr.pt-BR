@@ -8,16 +8,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ce18db60-5f6b-423d-bc41-91e7c80fb7e3
 description: Perguntas frequentes (FAQ) do Skype for Business 2015-perguntas frequentes (FAQ), útil para descobrir quais configurações da ferramenta são suportadas, problemas da ferramenta de solução de problemas e esclarecimento de comportamentos que podem ser exibidos ao executar as ferramentas de stress e desempenho .
-ms.openlocfilehash: 36bb3e05751bd69b747d84fa563347b29362ddd9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2847ecd54389f64d6961cc72ecb94d87e847b0b0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299706"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816180"
 ---
 # <a name="faq-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Perguntas frequentes sobre a ferramenta de stress e desempenho do Skype for Business Server 2015
  

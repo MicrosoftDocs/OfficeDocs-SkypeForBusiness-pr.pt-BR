@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ca873f7e-b18b-4eaf-8db0-5f9d5a9b60a1
 description: A exibição ErrorReport armazena informações sobre erros relatados. Cada registro é uma ocorrência de um erro. Os erros são capturados pelo agente CDR executado no servidor front-end ou enviados do cliente. Este modo de exibição foi apresentado no Microsoft Lync Server 2013.
-ms.openlocfilehash: a95d3d1e99fc41727c10ecef7beaafddc213dd17
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d51b085d5dabb8a6ae0dc367b23dd23a1702174e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296270"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815239"
 ---
 # <a name="errorreport-view"></a>Exibição ErrorReport
  

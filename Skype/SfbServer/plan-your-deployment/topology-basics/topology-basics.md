@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 'Resumo: escolha sua topologia para o Skype for Business Server. Saiba mais sobre a colocação do servidor no Skype for Business Server.'
-ms.openlocfilehash: 00154c754292fd960942f0f0da7f95bb6b5b1c19
-ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
+ms.openlocfilehash: b3f45a37bde409dcda38f3047e60776ebc8560e6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "35820989"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41801691"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>Noções básicas de topologia para o Skype for Business Server
 

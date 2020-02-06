@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: Planejamento de grupos de resposta no Skype for Business Server Enterprise Voice, que permite configurar o roteamento de chamadas para grupos de usuários. Inclui requisitos de arquivo de áudio.
-ms.openlocfilehash: b1c8a2ab1a7dc42fd290df4bdc1ccf69b52db43a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ec0bbe0e02fd7b4f027f8c2e57784c402aa0f039
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276465"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802481"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>Plano do aplicativo grupo de resposta no Skype for Business Server
 
@@ -187,11 +189,11 @@ O aplicativo de grupo de resposta é compatível com os seguintes clientes:
 
 O cliente específico que você pode usar depende do tipo de usuário do grupo de resposta que você está:
 
-- **** Os chamadores podem chamar um grupo de resposta usando qualquer um dos clientes listados anteriormente e usando um telefone padrão na rede telefônica pública comutada (PSTN).
+- Os **chamadores** podem chamar um grupo de resposta usando qualquer um dos clientes listados anteriormente e usando um telefone padrão na rede telefônica pública comutada (PSTN).
 
-- **Agentes** informais (os agentes que não entram e saem dos seus grupos para aceitar chamadas) podem aceitar chamadas usando o atendente, o Lync ou o Lync Phone Edition. Agentes informais são automaticamente conectados aos seus grupos quando entram no Skype for Business Server usando um desses clientes.
+- **Agentes** informais (agentes que não entram e saem dos seus grupos para aceitar chamadas) podem aceitar chamadas usando o atendente, o Lync ou o Lync Phone Edition. Agentes informais são automaticamente conectados aos seus grupos quando entram no Skype for Business Server usando um desses clientes.
 
-- **Agentes formais** (os agentes que devem entrar e sair de seus grupos para aceitar chamadas) podem aceitar chamadas usando o Skype for Business e acessando o console do agente a partir do item de menu ou usando o atendente e acessando o console do agente diretamente do Internet Explorer.
+- **Agentes formais** (agentes que devem entrar e sair de seus grupos para aceitar chamadas) podem aceitar chamadas usando o Skype for Business e acessando o console do agente a partir do item de menu ou usando o atendente e acessando o console do agente diretamente do Internet Explorer.
 
 ## <a name="capacity-planning"></a>Planejamento de capacidade
 
@@ -210,7 +212,7 @@ A tabela a seguir descreve o modelo de usuário do grupo de resposta que você p
 |Chamadas recebidas por segundo  <br/> |16  <br/> |2  <br/> |
 |Chamadas simultâneas conectadas ao IVR ou MoH  <br/> |480  <br/> |60  <br/> |
 |Sessões anônimas simultâneas (sem mensagens instantâneas)  <br/> |224  <br/> |28  <br/> |
-|Sessões anônimas simultâneas (com mensagens instantâneas)  <br/> |64  <br/> |08  <br/> |
+|Sessões anônimas simultâneas (com mensagens instantâneas)  <br/> |64  <br/> |8  <br/> |
 |Agentes ativos (formais e informais)  <br/> |2400  <br/> |2400  <br/> |
 |Número de grupos de busca  <br/> |800  <br/> |800  <br/> |
 |Número de grupos IVR (usar reconhecimento de fala)  <br/> |400  <br/> |400  <br/> |

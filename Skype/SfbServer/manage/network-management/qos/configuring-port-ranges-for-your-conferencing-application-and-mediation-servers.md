@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Este artigo descreve como configurar intervalos de porta e uma política de qualidade de serviço para seus servidores de conferência, aplicativo e mediação.
-ms.openlocfilehash: e0bd6092792a9ed813aadecc004f58830bc5b133
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 76373407a8087e3646668d7ce9952c83c500af97
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279456"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817440"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers"></a>Configurando intervalos de porta e uma política de qualidade de serviço para seus servidores de conferência, aplicativo e mediação
 
@@ -134,7 +136,7 @@ Para criar uma política de qualidade de serviço para o gerenciamento de áudio
 
 5.  No editor de gerenciamento de política de grupo, expanda **configuração do computador**, expanda **políticas**, expanda **configurações do Windows**, clique com o botão direito do mouse em **QoS baseada em política**e clique em **criar nova política**.
 
-6.  Na caixa de diálogo **QoS baseada em política** , na página de abertura, digite um nome para a nova política (por exemplo, **Skype for Business Server QoS**) na caixa **nome** . Selecione **especificar valor DSCP** e defina o valor como **46**. Deixe **especificar a taxa** de aceleração de saída desmarcada e clique em **Avançar**.
+6.  Na caixa de diálogo **QoS baseada em política** , na página de abertura, digite um nome para a nova política (por exemplo, **Skype for Business Server QoS**) na caixa **nome** . Selecione **especificar valor DSCP** e defina o valor como **46**. Deixe **especificar a taxa de aceleração de saída** desmarcada e clique em **Avançar**.
 
 7.  Na página seguinte, verifique se a opção **todos os aplicativos** está selecionada e clique em **Avançar**. Isso simplesmente garante que todos os aplicativos corresponderão aos pacotes do intervalo de porta especificado com o código DSCP especificado.
 

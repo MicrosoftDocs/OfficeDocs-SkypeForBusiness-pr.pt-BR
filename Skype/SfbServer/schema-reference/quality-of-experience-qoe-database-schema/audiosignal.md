@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 0013c8c6-cdf9-4d70-bc2a-cddd1560f66b
 description: Cada registro representa as métricas do sinal de áudio para um ponto de extremidade. Geralmente, cada chamada tem dois registros, um é para o chamador e um é para o receptor.
-ms.openlocfilehash: f8d617e96fe3427493bcb9e4cc70008fedae72e7
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d1b35aa4111feb77ae905e833d7bb1f4d4acd01e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295073"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41810669"
 ---
 # <a name="audiosignal-table"></a>Tabela AudioSignal
  
@@ -39,7 +41,7 @@ Cada registro representa as métricas do sinal de áudio para um ponto de extrem
 |**AudioTimestampDriftRateSpk** <br/> |decimal (9; 2)  <br/> | <br/> |Taxa de descompasso do relógio do dispositivo de alto-falante, relativa ao relógio da CPU.  <br/> |
 |**AudioTimestampErrorMicMs** <br/> |decimal (9; 2)  <br/> | <br/> |Taxa de descompasso do relógio do dispositivo de alto-falante, relativa ao relógio da CPU.  <br/> Erro de carimbo de data/hora médio do fluxo de captura de microfone, em milissegundos, nos últimos 20 segundos da chamada.  <br/> |
 |**AudioTimestampErrorSpkMs** <br/> |decimal (9; 2)  <br/> | <br/> |Média de um erro de carimbo de data/hora do fluxo de alto-falante, em milissegundos, nos últimos 20 segundos da chamada.  <br/> |
-|**VsEntryCauses** <br/> |smallint  <br/> | <br/> |A opção de voz é um modo Half-duplex com capacidade de interrupção reduzida. Causas da entrada da opção de voz:  <br/> ENTER_VS_BADTS 0x01  <br/> ENTER_VS_ECHO 0x02  <br/> ENTER_VS_FORCEORCONVERGENCE 0x04  <br/> ENTER_VS_DNLP 0x08  <br/> A causa pode ser uma combinação dessas causas individuais. ENTER_VS_FORCEORCONVERGENCE só pode ser habilitado por RegKey para fins de teste.  <br/> O tipo de dados para esta coluna foi alterado no Microsoft Lync Server 2013.  <br/> |
+|**VsEntryCauses** <br/> |smallint  <br/> | <br/> |A opção de voz é um modo Half-duplex com capacidade de interrupção reduzida. Causas da entrada da opção de voz:  <br/> ENTER_VS_BADTS 0x01  <br/> ENTER_VS_ECHO 0x02  <br/> ENTER_VS_FORCEORCONVERGENCE 0x04  <br/> ENTER_VS_DNLP 0x08  <br/> A causa pode ser uma combinação dessas causas individuais. ENTER_VS_FORCEORCONVERGENCE só pode ser habilitado pela RegKey para fins de teste.  <br/> O tipo de dados para esta coluna foi alterado no Microsoft Lync Server 2013.  <br/> |
 |**EchoEventCauses** <br/> |tinyint  <br/> | <br/> |Causas de um evento de eco:  <br/> ECHO_EVENT_BAD_TIMESTAMP 0x01  <br/> ECHO_EVENT_POSTAEC_ECHO 0x02  <br/> ECHO_EVENT_ANLP 0x04  <br/> ECHO_EVENT_DNLP 0x08  <br/> ECHO_EVENT_MIC_CLIPPING 0x10  <br/> ECHO_EVENT_BAD_STATE 0x20  <br/> A causa pode ser uma combinação dessas causas individuais.  <br/> |
 |**EchoPercentMicIn** <br/> |decimal (5; 2)  <br/> | <br/> |Porcentagem de tempo em que o eco foi detectado no fluxo de captura do microfone. Normalmente, os valores são baixos para fones de ouvido ou celulares e mais altos para viva voz e auto falante. Para dispositivos que suportam cancelamento de eco acústico na placa, os altos níveis indicam vazamento de eco. Para outros dispositivos, essa métrica não deve ser utilizada para avaliar a qualidade do dispositivo.  <br/> |
 |**EchoPercentSend** <br/> |decimal (5; 2)  <br/> ||Porcentagem de tempo em que o eco é detectado no fluxo de envio. Alta porcentagem de eco em enviar transmite uma indicação de vazamento de eco.  <br/> |

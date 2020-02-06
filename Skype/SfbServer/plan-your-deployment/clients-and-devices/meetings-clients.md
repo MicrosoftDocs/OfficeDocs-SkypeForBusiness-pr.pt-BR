@@ -8,6 +8,8 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Resumo: os profissionais de ti devem analisar os requisitos de suporte para o aplicativo Skype for Business Web App e reuniões do Skype durante o planejamento para o Skype for Business Server. Este artigo não se destina aos usuários desses aplicativos.'
-ms.openlocfilehash: a2bc418b9179a63452c5d4fdd1990676f9db4b14
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 126d8ffc71a2ff1a0bcbf26c744301736d2b47b2
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277311"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803551"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Plano para clientes de reuniões (aplicativo Web e aplicativo reuniões)
  
@@ -38,7 +40,7 @@ Mais tarde, esses usuários podem criar reuniões e convidar usuários de fora d
   
 Por padrão, o servidor que hospeda a reunião direcionará o usuário para baixar e instalar o Skype for Business Web App para ingressar na reunião. O Skype for Business Web App está armazenado no servidor front-end e é enviado ao participante da reunião. 
   
-Para o Skype for Business Server, o aplicativo reuniões do Skype (no Windows) e o Skype for Business para Mac (no Mac) estão disponíveis como substituições para o Skype for Business Web App, começando com o CU5, mas o fornecimento dos aplicativos de substituição requer a configuração adicional descrito em [habilitar o aplicativo reuniões do Skype para substituir o Skype for Business Web App (opcional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable).  Se o aplicativo reuniões do Skype e o Skype for Business para Mac estiverem habilitados, os usuários baixarão a versão mais recente dos aplicativos da CDN (rede de distribuição de conteúdo) do Office 365 em vez de usar o Skype for Business Server. Para o Skype for Business Server 2019, usar o aplicativo reuniões do Skype e o Skype for Business para Mac é a única opção.
+Para o Skype for Business Server, o aplicativo reuniões do Skype (no Windows) e o Skype for Business para Mac (no Mac) estão disponíveis como substituições para o Skype for Business Web App, começando com o CU5, mas o fornecimento dos aplicativos de substituição requer a configuração adicional descrita em [habilitar o aplicativo reuniões do Skype para substituir o Skype for Business Web App (opcional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable).  Se o aplicativo reuniões do Skype e o Skype for Business para Mac estiverem habilitados, os usuários baixarão a versão mais recente dos aplicativos da CDN (rede de distribuição de conteúdo) do Office 365 em vez de usar o Skype for Business Server. Para o Skype for Business Server 2019, usar o aplicativo reuniões do Skype e o Skype for Business para Mac é a única opção.
   
 O aplicativo reuniões do Skype oferece uma experiência de navegador simplificada para baixar e instalar o aplicativo e ingressar em reuniões, incluindo ingressar em um clique para usuários do Internet Explorer. O aplicativo reuniões do Skype também tem vários aprimoramentos com o Skype for Business Web App para confiabilidade e a experiência da reunião. 
   
@@ -54,12 +56,12 @@ Para usar o Skype for Business Web App, um usuário deve ter uma das seguintes c
 
 | Sistema operacional | Borda | Internet Explorer 11 de 32 e 64 bits ou posterior | Internet Explorer 10 de 32 e 64 bits ou posterior | 32-e o Internet Explorer 9 de 64 bits ou posterior | Versão de 32 a 64 bits do Safari 6.2.8-11. X | Versão de 32 a 64 bits do Chrome 18. X ou posterior |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Windows 10  <br/> |Sim   <br/> |Sim  <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |Sim &#x2778; <br/> |
+|Windows 10  <br/> |Sim  <br/> |Sim  <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |Sim &#x2778; <br/> |
 |&#x2776; do Windows 8,1 <br/> |N/D  <br/> |Sim  <br/> |N/D  <br/> |N/D  <br/> |N/D <br/> |Sim &#x2778; <br/> |
 |&#x2776; Windows 8 (baseado na Intel) <br/> |N/D  <br/> |N/D  <br/> |Sim  <br/> |N/D <br/> |N/D  <br/> |Sim &#x2778; <br/> |
-|Windows 7 com SP1 &#x2777; <br/> |N/D  <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |N/D <br/>|Sim &#x2778; <br/> |
-|Windows Server 2008 R2 com SP1 &#x2777; <br/> |N/D  <br/> |Sim  <br/> |Sim   <br/> |Sim  <br/> |N/D <br/>|Sim &#x2778; <br/> |
-|&#x2777; macOS 10,8 e posteriores (baseados em Intel) <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |Sim  <br/> |Sim  <br/> |
+|Windows 7 com SP1 &#x2777; <br/> |N/D  <br/> |Sim  <br/> |Não  <br/> |Não  <br/> |Não disponível <br/>|Sim &#x2778; <br/> |
+|Windows Server 2008 R2 com SP1 &#x2777; <br/> |N/D  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |N/D <br/>|Sim &#x2778; <br/> |
+|&#x2777; macOS 10,8 e posteriores (baseados em Intel) <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |Sim  <br/> |Sim <br/> |
    
 &#x2776; plug-in do navegador do Skype for Business Web App exige um plug-in de compartilhamento específico para usar voz, vídeo, compartilhamento e exibição de compartilhamento contínuo de tela e outros recursos baseados em computador. Um participante da reunião recebe a opção para instalar o plug-in de compartilhamento quando ele ingressa na reunião ou quando ele inicia um desses recursos. No Windows 8 e no Windows 8,1, o plug-in de compartilhamento pode ser instalado apenas se você estiver executando o Internet Explorer 10 ou o Internet Explorer 11 para a área de trabalho. Esses recursos não estão disponíveis para versões não relacionadas à área de trabalho do Internet Explorer 10 e 11. Observe que o Firefox e o Safari versão 12,0 e posterior não são mais suportados.
   

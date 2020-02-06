@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: Decisões necessárias para planejar um banco de dados de informações de localização ou um banco de dados externo semelhante para uma implantação do E9-1-1 usando gateways do ELIN, no Skype for Business Server Enterprise Voice.
-ms.openlocfilehash: e1645be8ed1c6188d1976d794727d0668b79c12e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 39e6c4170adc18687b284ec6f69a252c6efefab4
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276926"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803031"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Gerenciar locais para gateways do ELIN no Skype for Business Server
 

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8389b37a-ca3e-4047-8b51-85bc07da87e8
 description: 'Resumo: gerenciar o serviço de mobilidade (MCX) e a API da Web de comunicação unificada (UCWA) no Skype for Business Server.'
-ms.openlocfilehash: 5447eb0ac8ffe468fd52c7011824cc1f2f2f7b55
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7c41e92b144e1bd4d198c5e9d9f90913ce41400e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279792"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817680"
 ---
 # <a name="monitor-mobility-service-and-ucwa-usage-in-skype-for-business-server"></a>Monitorar o uso do serviço de mobilidade e do UCWA no Skype for Business Server
  

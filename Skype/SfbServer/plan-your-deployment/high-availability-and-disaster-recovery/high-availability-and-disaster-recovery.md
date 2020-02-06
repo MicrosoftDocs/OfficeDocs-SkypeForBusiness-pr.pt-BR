@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
-f1.keywords:
+ms.custom:
 - ms.lync.plan.HighAvailabilityType
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3543eb40-54f4-49ef-a058-03aceed4773a
 description: O Skype for Business Server oferece alta disponibilidade com pool de servidores, recuperação de desastres com emparelhamento de pool e vários modos de alta disponibilidade de servidor back-end, incluindo grupos de disponibilidade AlwaysOn, espelhamento de banco de dados e cluster de failover de SQL.
-ms.openlocfilehash: 31059936249aa4e691f3e6b4b467841fd66a04ea
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 521ddaa9878ba660e509f248d2f2ffb944608d87
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695966"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815919"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-in-skype-for-business-server"></a>Planeje a alta disponibilidade e a recuperação de desastres no Skype for Business Server
  

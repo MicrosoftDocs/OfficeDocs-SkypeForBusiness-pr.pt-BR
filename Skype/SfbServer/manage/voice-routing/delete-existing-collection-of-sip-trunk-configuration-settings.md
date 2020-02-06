@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 'As configurações de tronco SIP definem a relação e os recursos entre um servidor de mediação e o gateway PSTN (rede telefônica pública comutada), um PBX (PBX IP-Public Branch Exchange) ou um SBC (controlador de borda de sessão) no provedor de serviços. '
-ms.openlocfilehash: 55636cc34df4b05ccdd4b9035ef3aa4bb169e9a0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5be81bccdb5df94cff4e8a2a13aaabb20dfdce29
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274930"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816971"
 ---
 # <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Excluir uma coleção existente de definições de configuração de tronco SIP no Skype for Business Server
 
@@ -38,7 +40,7 @@ Os administradores também podem criar definições personalizadas de configura�
 3. A propriedade **Estado** da coleção será atualizada para **Não vinculado**. Para vincular as alterações e excluir a coleção, clique em **Vincular** e em **Vincular tudo**.
 4. Na caixa de diálogo **Configurações de Voz Não Vinculadas**, clique em **OK**.
 5. Na caixa de diálogo **painel de controle do Skype for Business Server** , clique em **OK**.
-6. Se você mudar de ideia e decidir não excluir a coleção, clique em **confirmar**e, em seguida, clique em **cancelar todas as alterações**não confirmadas. Quando a caixa de diálogo **painel de controle do Skype for Business Server** for exibida, clique em **OK**.
+6. Se você mudar de ideia e decidir não excluir a coleção, clique em **confirmar**e, em seguida, clique em **cancelar todas as alterações não confirmadas**. Quando a caixa de diálogo **painel de controle do Skype for Business Server** for exibida, clique em **OK**.
 
 ## <a name="removing-trunk-configuration-settings-by-using-windows-powershell-cmdlets"></a>Como remover as configurações de tronco usando cmdlets do Windows PowerShell
 

@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 271b7963-8fd8-4d92-a701-1a62aaf895ee
 description: A tabela MCUs é uma tabela de suporte. Cada registro armazena informações sobre um serviço de conferência. Eles podem incluir o serviço de conferência de mensagem instantânea e o serviço de conferência de telefonia (que são executados como processos em servidores front-end) e o serviço de conferência via Web e o serviço de conferência A/V.
-ms.openlocfilehash: fcd12bcc8da7aa6513d78e1a9c4a6f11930065aa
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1e5141ee2a103e540d3ac50e99de0036f31262d7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296039"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815059"
 ---
 # <a name="mcus-table-in-skype-for-business-server-2015"></a>Tabela MCUs no Skype for Business Server 2015
  

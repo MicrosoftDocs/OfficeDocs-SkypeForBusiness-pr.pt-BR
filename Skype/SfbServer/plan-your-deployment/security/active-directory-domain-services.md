@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
 description: O serviços de domínio Active Directory funciona como o serviço de diretório para redes Windows Server 2003, Windows Server 2008, Windows Server 2012 e Windows Server 2012 R2. Os serviços de domínio Active Directory também servem como a base na qual a infraestrutura de segurança do Skype for Business Server é criada. A finalidade desta seção é descrever como o Skype for Business Server usa os serviços de domínio do Active Directory para criar um ambiente confiável para mensagens instantâneas, conferências na Web, mídia e voz. Para obter detalhes sobre como preparar seu ambiente para os serviços de domínio Active Directory, consulte instalar o Skype for Business Server na documentação de implantação. Para obter detalhes sobre a função dos serviços de domínio do Active Directory nas redes do Windows Server, consulte a documentação da versão do sistema operacional que você está usando.
-ms.openlocfilehash: 4458d49bf2f57284ac29c68bb40f3979761d5c50
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ec3a09e2203b6f862d87403818b43ab6daae33ed
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297005"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815709"
 ---
 # <a name="active-directory-domain-services-for-skype-for-business-server"></a>Serviços de domínio do Active Directory para o Skype for Business Server
  
@@ -52,7 +54,7 @@ Durante a preparação da floresta, o Skype for Business Server cria vários gru
     
 - **Grupos de infraestrutura**. Esses grupos fornecem permissão para acessar áreas específicas da infraestrutura do Skype for Business Server. Eles funcionam como componentes dos grupos administrativos e você não deve modificá-los nem adicionar usuários diretamente a eles. Durante a preparação da floresta, grupos de serviços e de administração específicos são adicionados aos grupos de infraestrutura adequados.
     
-Para obter detalhes sobre os grupos universais específicos criados ao preparar o anúncio para o Skype for Business Server, bem como os grupos de serviços e administração que são adicionados aos grupos de infraestrutura, consulte [as alterações feitas pela preparação da floresta no Skype for Business Servidor](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) na documentação de implantação.
+Para obter detalhes sobre os grupos universais específicos criados ao preparar o anúncio para o Skype for Business Server, bem como os grupos de serviços e administração que são adicionados aos grupos de infraestrutura, consulte [as alterações feitas pela preparação da floresta no Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) na documentação de implantação.
   
 > [!NOTE]
 > O Skype for Business Server oferece suporte aos grupos universais do Windows Server 2012, bem como aos sistemas operacionais Windows Server 2003 para controladores de domínio. Os membros dos grupos universais podem incluir outros grupos e contas de qualquer domínio na árvore ou floresta de domínio e podem receber permissões em qualquer domínio na árvore ou floresta de domínio. O suporte a grupos universais, combinado com delegação de administrador, simplifica o gerenciamento de uma implantação do Skype for Business Server. Por exemplo, não é necessário adicionar um domínio a outro para permitir que um administrador os gerencie. 
@@ -67,7 +69,7 @@ A preparação da floresta cria ACEs privadas e públicas, adicionando ACEs nos 
   
 A etapa de preparação do domínio adiciona entradas de controle de acesso (ACEs) necessárias aos grupos universais que concedem permissões para hospedar e gerenciar usuários no domínio. A preparação do domínio cria ACEs no domínio raiz e três contêiners integrados: Usuário, Computadores e Controladores de Domínio.
   
-Para obter detalhes sobre os ases públicos criados e adicionados pela preparação da floresta e pela preparação do domínio, confira [as alterações feitas pela preparação da floresta no Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) e [alterações feitas pela preparação do domínio no Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-domain-preparation.md) no Documentação de implantação.
+Para obter detalhes sobre os ases públicos criados e adicionados pela preparação da floresta e pela preparação do domínio, confira [as alterações feitas pela preparação da floresta no Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) e [alterações feitas por preparação do domínio no Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-domain-preparation.md) na documentação de implantação.
   
 Geralmente, as organizações bloqueiam os serviços de domínio Active Directory (AD DS) para ajudar a reduzir os riscos de segurança. No entanto, um ambiente do Active Directory bloqueado pode limitar as permissões exigidas pelo Skype for Business Server. Isso inclui remover ACEs dos contêineres e OUs e desabilitar a herança de permissões nos objetos de Usuário, Contato, InetOrgPerson ou Computador. Em um ambiente bloqueado do Active Directory, as permissões devem ser definidas manualmente em contêineres e UOs que exigem.
   
@@ -83,7 +85,7 @@ Durante a ativação, o Skype for Business Server publica as informações do se
     
 ## <a name="service-connection-points"></a>Pontos de conexão de serviço
 
-Cada objeto do Skype for Business Server nos serviços de domínio Active Directory tem um SCP chamado RTC Services, que, por sua vez, contém vários atributos que identificam cada computador e especificam os serviços que ele fornece. Entre os atributos SCP mais importantes são *serviceDNSName* , *ServiceDNSNameType* , ** inclassname e *ServiceBindingInformation* . Os aplicativos de gerenciamento de ativos de terceiros podem recuperar informações do servidor em uma implantação consultando esses e outros atributos SCP.
+Cada objeto do Skype for Business Server nos serviços de domínio Active Directory tem um SCP chamado RTC Services, que, por sua vez, contém vários atributos que identificam cada computador e especificam os serviços que ele fornece. Entre os atributos SCP mais importantes são *serviceDNSName* , *ServiceDNSNameType* , *inclassname* e *ServiceBindingInformation* . Os aplicativos de gerenciamento de ativos de terceiros podem recuperar informações do servidor em uma implantação consultando esses e outros atributos SCP.
   
 ## <a name="active-directory-server-objects"></a>Objetos de servidor do Active Directory
 

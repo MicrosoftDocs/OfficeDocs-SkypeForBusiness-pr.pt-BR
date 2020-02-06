@@ -8,16 +8,18 @@ ms.date: 4/5/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: Antes de começar a projetar e planejar sua infraestrutura do Skype for Business Server 2015 usando a ferramenta de planejamento do Skype for Business Server 2015, você deve primeiro instalar a ferramenta de planejamento. A ferramenta de planejamento não precisa ser implantada em uma estação de trabalho ou em um servidor que faça parte do domínio ou da infraestrutura em que você planeja instalar o Skype for Business Server 2015. O arquivo Leiame que acompanha a ferramenta de planejamento detalha informações importantes sobre a instalação e a utilização da ferramenta. Algumas das informações no arquivo Leiame estão reproduzidas aqui para esclarecimento.
-ms.openlocfilehash: 192eae34bf6cf3fa53be82d8cb4450f960c90314
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 29cadae219faadb68a8a027de11309efc8e3f10b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279124"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816380"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>Instalar a Ferramenta de Planejamento no Skype for Business Server 2015
 

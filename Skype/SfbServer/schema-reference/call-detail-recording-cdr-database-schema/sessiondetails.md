@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 783d2508-e31f-4b54-be0c-63aa5ec21c04
 description: Cada registro representa uma sessão ponto a ponto, que pode ser uma chamada telefônica VoIP-VoIP, uma sessão de IM de duas partes ou outro tipo de sessão. Você pode executar uma junção de tabela com a tabela de mídia para encontrar os detalhes de cada mídia envolvida nesta sessão.
-ms.openlocfilehash: d6c0d68cf5b8efd83cc764e74a56621cdd591ac1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1a211598e7771c5637af191f19ad2926e3cc803e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295801"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814899"
 ---
 # <a name="sessiondetails-table"></a>Tabela SessionDetails
  
@@ -27,7 +29,7 @@ Observe que os campos IsUser1IntegratedWithDeskPhone e IsUser2IntegratedWithDesk
 |**Coluna**|**Tipo de dados**|**Chave/índice**|**Detalhes**|
 |:-----|:-----|:-----|:-----|
 |**Id_da_sessãotime** <br/> |datetime  <br/> |Primário, estrangeiro  <br/> |Tempo de solicitação de sessão. Usado em conjunto com o **SessionIdSeq** para identificar exclusivamente uma sessão. Consulte a [tabela de diálogos no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Primário, estrangeiro  <br/> |Número de identificação para identificar a sessão. Usado em conjunto com **** a identificação_da_sessãotime para identificar exclusivamente uma sessão. * consulte a [tabela de caixas de diálogo no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Primário, estrangeiro  <br/> |Número de identificação para identificar a sessão. Usado em conjunto com a **identificação_da_sessãotime** para identificar exclusivamente uma sessão. * consulte a [tabela de caixas de diálogo no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
 |**CorrelationId** <br/> |identificador  <br/> ||Um GUID para correlacionar várias sessões.  <br/> |
 |**ReplaceDialogIdTime** <br/> |datetime  <br/> |Exterior  <br/> |Número de identificação para identificar a caixa de diálogo que foi substituída pela sessão atual. Consulte a [tabela de diálogos no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
 |**ReplaceDialogIdSeq** <br/> |int  <br/> |Exterior  <br/> |Número de identificação para identificar a sessão. Usado em conjunto com **ReplacesDialogIdTime** para identificar exclusivamente uma sessão substituída por esta sessão. Consulte a [tabela de diálogos no Skype for Business Server 2015](dialogs.md) para obter mais informações. <br/> |
@@ -56,7 +58,7 @@ Observe que os campos IsUser1IntegratedWithDeskPhone e IsUser2IntegratedWithDesk
 |**User1MessageCount** <br/> |int  <br/> ||Número de mensagens enviadas pelo Usuário1 durante a sessão.  <br/> |
 |**User2MessageCount** <br/> |int  <br/> ||Número de mensagens enviadas pelo user2 durante a sessão.  <br/> |
 |**SessionEndTime** <br/> |datetime  <br/> ||Hora no final da sessão.  <br/> |
-|**MediaTypes** <br/> |int  <br/> ||Um conjunto de bits que indica o tipo de mídia desta sessão. Listadas são as definições dos tipos:  <br/> 1-MENSAGENS INSTANTÂNEAS  <br/> 2-FILE_TRANSFER  <br/> 4-REMOTE_ASSISTANCE  <br/> 8-APP_SHARING  <br/> 16-ÁUDIO  <br/> 32-VÍDEO  <br/> 64-APP_INVITE  <br/> |
+|**MediaTypes** <br/> |int  <br/> ||Um conjunto de bits que indica o tipo de mídia desta sessão. Listadas são as definições dos tipos:  <br/> 1-MENSAGENS INSTANTÂNEAS  <br/> 2-FILE_TRANSFER  <br/> 4-REMOTE_ASSISTANCE  <br/> 8 A APP_SHARING  <br/> 16-ÁUDIO  <br/> 32-VÍDEO  <br/> 64-APP_INVITE  <br/> |
 |**User1Flag** <br/> |smallint  <br/> ||Um conjunto de bits que indica os atributos Usuário1. As definições de atributo a seguir estão listadas:  <br/> 0x01-integrado ao telefone desktop  <br/> |
 |**User2Flag** <br/> |smallint  <br/> ||Um conjunto de bits que indica os atributos do user2. As definições de atributo a seguir estão listadas:  <br/> 0x01-integrado ao telefone desktop  <br/> |
 |**CallFlag** <br/> |smallint  <br/> ||Um conjunto de bits que indica os atributos da chamada. As definições de atributo a seguir estão listadas:  <br/> 0x01-sessão repetida  <br/> 0x02-uma chamada feita pelo agente em nome de um grupo de resposta  <br/> |

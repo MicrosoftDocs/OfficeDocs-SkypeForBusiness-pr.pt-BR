@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: conceptual
 manager: serdars
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Resumo: Saiba mais sobre os requisitos ambientais do servidor de borda no Skype for Business Server.'
-ms.openlocfilehash: 25584c10c8359cb4a3e695cee4838b80bc9643f5
-ms.sourcegitcommit: bd50c6239cee414ea9933e9d569fa5a24bc05544
+ms.openlocfilehash: 15cc6c54d420cd95962afb1faa219a3a370056a6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "35414986"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803371"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Requisitos ambientais do servidor de borda no Skype for Business Server
  
@@ -81,9 +83,9 @@ Para ajudá-lo a escolher uma, temos a tabela a seguir que apresenta um resumo d
 |:-----|:-----|:-----|:-----|:-----|
 |Borda única consolidada com endereços IP privados e NAT  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |
 |Borda única consolidada com endereços IP públicos  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |Não  <br/> |
-|Borda dimensionada consolidada com endereços IP privados e NAT (balanceamento de carga DNS)  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim&SUP1;  <br/> |
-|Borda dimensionada consolidada com endereços IP públicos (balanceamento de carga DNS)  <br/> |Sim   <br/> |Sim   <br/> |Sim   <br/> |Sim&SUP1;  <br/> |
-|Borda dimensionada consolidada com balanceadores de carga de hardware  <br/> |Sim  <br/> |Não (um registro DNS A por VIP)  <br/> |Sim  <br/> |Sim   <br/> |
+|Borda dimensionada consolidada com endereços IP privados e NAT (balanceamento de carga DNS)  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim&SUP1;  <br/> |
+|Borda dimensionada consolidada com endereços IP públicos (balanceamento de carga DNS)  <br/> |Sim  <br/> |Sim  <br/> |Sim  <br/> |Sim&SUP1;  <br/> |
+|Borda dimensionada consolidada com balanceadores de carga de hardware  <br/> |Sim  <br/> |Não (um registro DNS A por VIP)  <br/> |Sim  <br/> |Sim  <br/> |
    
 &SUP1; O failover de usuário remoto do Exchange Unified Messaging (UM) que usa o balanceamento de carga de DNS exige o Exchange 2013 ou versão mais recente.
   
@@ -101,7 +103,7 @@ Pode ser um pouco mais complicado com topologias escalonáveis consolidadas, por
 |**Número de servidores de borda por pool**|**Número de endereços IP necessários para balanceamento de carga de DNS**|**Número de endereços IP necessários para o balanceamento de carga de hardware**|
 |:-----|:-----|:-----|
 |2  <br/> |6  <br/> |3 (1 por VIP) + 6  <br/> |
-|3  <br/> |222  <br/> |3 (1 por VIP) + 9  <br/> |
+|3  <br/> |9  <br/> |3 (1 por VIP) + 9  <br/> |
 |4  <br/> |12  <br/> |3 (1 por VIP) + 12  <br/> |
 |5  <br/> |15  <br/> |3 (1 por VIP) +15  <br/> |
    
@@ -285,7 +287,7 @@ Abordaremos as necessidades de certificados internos e externos separadamente, e
   
 ### <a name="external-certificates"></a>Certificados Externos
 
-No mínimo, o certificado atribuído às interfaces do servidor de borda externa precisará ser fornecido por uma CA (autoridade de certificação) pública. Não é possível recomendar uma CA específica para você, mas temos uma lista de CAs, [parceiros de comunicações](/SkypeForBusiness/certification/services-ssl) unificadas que você pode examinar para ver se a sua CA preferida está listada.
+No mínimo, o certificado atribuído às interfaces do servidor de borda externa precisará ser fornecido por uma CA (autoridade de certificação) pública. Não é possível recomendar uma CA específica para você, mas temos uma lista de CAs, [parceiros de comunicações unificadas](/SkypeForBusiness/certification/services-ssl) que você pode examinar para ver se a sua CA preferida está listada.
   
 Quando você precisará enviar uma solicitação para um AC para ter este certificado público, e como você fazê-lo? Há várias formas de fazer isso:
   

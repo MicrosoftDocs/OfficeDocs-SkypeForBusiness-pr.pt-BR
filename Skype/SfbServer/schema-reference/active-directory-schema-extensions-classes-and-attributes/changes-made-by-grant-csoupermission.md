@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: d744d352-1ad9-4447-8e2b-28e768d2ed1b
 description: Para delegar a administração do Skype for Business Server, você pode adicionar permissões a unidades organizacionais (UOs) especificadas para que os membros dos grupos universais do RTC criados pela preparação da floresta possam acessar as UOs sem serem membros do grupo Domain admins.
-ms.openlocfilehash: 48c5921cabf2b1bc8100f796d3e3b7f6a247ff0c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8342d1801d2df91f940f02e8bfc05c3c5b91c4ff
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296690"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815519"
 ---
 # <a name="changes-made-by-grant-csoupermission-in-skype-for-business-server"></a>Alterações feitas pelo Grant-CsOUPermission no Skype for Business Server
  

@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Este artigo descreve como configurar intervalos de porta para servidores de borda e como configurar uma política de qualidade de serviço para seus servidores de borda A/V.
-ms.openlocfilehash: e918dfd371b007741b73312c20033ab911422529
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5762cb6861552696f160dfe69459c357f6b63452
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279457"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817430"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>Configurando intervalos de porta e uma política de qualidade de serviço para seus servidores de borda no Skype for Business Server
 
@@ -107,7 +109,7 @@ Aqui, o processo é idêntico independentemente de você estar criando uma polí
 
 1.  No editor de gerenciamento de política de grupo ou no editor de política de grupo local, expanda **configuração do computador**, expanda **políticas**, expanda **configurações do Windows**, clique com o botão direito do mouse em **QoS baseada em política**e clique em **criar nova política**.
 
-2.  Na caixa de diálogo **QoS baseada em política** , na página de abertura, digite um nome para a nova política (por exemplo, o **áudio do Skype for Business Server**) na caixa **nome** . Selecione **especificar valor DSCP** e defina o valor como **46**. Deixe **especificar a taxa** de aceleração de saída desmarcada e clique em **Avançar**.
+2.  Na caixa de diálogo **QoS baseada em política** , na página de abertura, digite um nome para a nova política (por exemplo, o **áudio do Skype for Business Server**) na caixa **nome** . Selecione **especificar valor DSCP** e defina o valor como **46**. Deixe **especificar a taxa de aceleração de saída** desmarcada e clique em **Avançar**.
 
 3.  Na página seguinte, verifique se a opção **todos os aplicativos** está selecionada e clique em **Avançar**. Essa configuração instrui a rede a procurar todos os pacotes com uma marcação DSCP de 46, não apenas pacotes criados por um aplicativo específico.
 

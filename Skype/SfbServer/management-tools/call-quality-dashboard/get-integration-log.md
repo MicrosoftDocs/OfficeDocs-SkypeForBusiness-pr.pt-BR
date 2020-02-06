@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8856f6bc-5460-4f35-acf2-f7662f01579b
 description: 'Resumo: Saiba mais sobre a operação obter log de integração, que faz parte da API de dados para o painel de qualidade de chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.'
-ms.openlocfilehash: 58be983ff3b282c94a4b42619a6c37c6270afcb5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9caa909e80a0bab5257af16fe77e9d154947a56e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274755"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816810"
 ---
 # <a name="get-integration-log"></a>Obter o Log de integração
  

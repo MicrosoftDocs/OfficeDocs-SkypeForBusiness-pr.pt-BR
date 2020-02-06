@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Use os procedimentos deste artigo para habilitar ou desabilitar o bypass de mídia usando o painel de controle do Skype for Business Server.
-ms.openlocfilehash: acfa963e71f3c3b89d0e79648d00871b1ab44616
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d1c0a5eb409c6bb5c07c530b4799ab8a53a9fddb
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279582"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817540"
 ---
 # <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>Habilitar e desabilitar bypass de mídia no Skype for Business Server
 
@@ -51,7 +53,7 @@ Você pode habilitar e configurar o bypass de mídia no painel de controle do Sk
         
           - Há conectividade total entre gateways e clientes.
     
-      - **Usar a configuração**   de sites e regiões se o CAC estiver habilitado, essa opção será selecionada por padrão e não poderá ser alterada. Quando essa opção estiver selecionada, os sites de configuração de rede e regiões serão usados para determinar quando o bypass de mídia é possível. Se você selecionar essa opção, poderá optar por habilitar o bypass para sites que não estão mapeados. Marque a caixa de seleção **Permitir bypass para sites não mapeados** somente se você tiver um ou mais sites grandes associados à mesma região que não têm restrições de largura de banda (por exemplo, um site central grande) e também tem alguns sites de filiais associados ao mesma região que tem restrições de largura de banda. Quando você habilita o bypass para sites não mapeados, a configuração é simplificada porque você especifica somente as sub-redes associadas a sites de ramificação, em vez de precisar especificar todas as sub-redes associadas a todos os sites. Recomendamos que você não marque a caixa de seleção **Permitir bypass para sites não mapeados** se o CAC estiver habilitado.
+      - **Usar a configuração**   de sites e regiões se o CAC estiver habilitado, essa opção será selecionada por padrão e não poderá ser alterada. Quando essa opção estiver selecionada, os sites de configuração de rede e regiões serão usados para determinar quando o bypass de mídia é possível. Se você selecionar essa opção, poderá optar por habilitar o bypass para sites que não estão mapeados. Marque a caixa de seleção **Permitir bypass para sites não mapeados** somente se você tiver um ou mais sites grandes associados à mesma região que não têm restrições de largura de banda (por exemplo, um site central grande) e também tem alguns sites de filiais associados à mesma região que têm restrições de largura de banda. Quando você habilita o bypass para sites não mapeados, a configuração é simplificada porque você especifica somente as sub-redes associadas a sites de ramificação, em vez de precisar especificar todas as sub-redes associadas a todos os sites. Recomendamos que você não marque a caixa de seleção **Permitir bypass para sites não mapeados** se o CAC estiver habilitado.
 
 8.  Clique em **confirmar** para salvar as alterações.
 

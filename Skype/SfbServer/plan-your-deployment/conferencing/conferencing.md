@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: 'Resumo: Leia este tópico para saber mais sobre recursos de conferência e recursos no Skype for Business Server.'
-ms.openlocfilehash: 9b46271e4381e2d2e11f00e3d936660626fbe5cf
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f91c815cf0b5d0b69ad5815157cba7a56bb28307
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277353"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815999"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>Planejar a conferência no Skype for Business Server
  

@@ -8,15 +8,17 @@ ms.date: 1/31/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: 'Resumo: saiba como gerenciar salas de chat do servidor de chat persistente no Skype for Business Server 2015.'
-ms.openlocfilehash: cbced7f62a4684e5541e35b5985b7e93cc7d3e66
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: b19b230aa4b83e9bd1b84b6be50a27cf665de788
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992116"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817277"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Gerenciar salas de chat no Servidor de Chat Persistente no Skype for Business Server 2015
  

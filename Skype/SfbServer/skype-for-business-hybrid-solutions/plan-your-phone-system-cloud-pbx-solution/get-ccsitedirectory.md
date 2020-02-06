@@ -8,15 +8,17 @@ ms.date: 3/31/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: a243758e-6774-4437-ad2e-d5cea5f04eb6
 description: O cmdlet Get-CcSiteDirectory mostra o diretório atual em que os arquivos de configuração no nível do site estão armazenados. A pasta contém o VHD de base e os arquivos de instalação do Skype for Business Cloud Connector Edition. Essa pasta deve ser compartilhada com todos os outros dispositivos de um site do conector de nuvem.
-ms.openlocfilehash: 095776a680fbbcc8c43a8f99700b357175010b5a
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 6722b66f6c71feec158adaf442f9e57ef9943c84
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003361"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41799861"
 ---
 # <a name="get-ccsitedirectory"></a>Get-CcSiteDirectory
  

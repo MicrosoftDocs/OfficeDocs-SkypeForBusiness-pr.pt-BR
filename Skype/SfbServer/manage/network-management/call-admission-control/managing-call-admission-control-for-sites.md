@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Sites de rede são os escritórios ou locais em cada região de rede do controle de admissão de chamadas (CAC), E9-1-1 e implantações de bypass de mídia.
-ms.openlocfilehash: a90781eae38d92d560dd1bf34db3b6918e8aeaf5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ec2a3dda70bdd4b952169ca663ca271b76f98481
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279540"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817510"
 ---
 # <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>Gerenciar o controle de admissão de chamadas para sites no Skype for Business Server
 
@@ -166,7 +168,7 @@ Não é possível modificar a tabela de **sub-redes associadas** nesta página. 
 
 ## <a name="delete-an-existing-network-site"></a>Excluir um site de rede existente
 
-Sites de rede são os escritórios ou locais configurados em cada região de um controle de admissão de chamadas (CAC) ou implantação 9-1-1 aprimorada. Você pode usar o painel de controle do Skype for Business Server para configurar sites e associá-los a regiões. Por exemplo, uma região de rede para a América do Norte pode estar associada a sites de redes como Chicago, Redmond e Vancouver. Um site de rede do CAC deve ser criado para cada site dentro de uma organização, mesmo que esse site não tenha limitações de largura de banda. No painel de controle do Skype for Business Server, você pode criar, modificar e excluir sites de rede. Use o procedimento a seguir para excluir um site de rede existente. Para obter detalhes sobre como criar ou modificar sites de rede, consulte Gerenciando o [controle de admissão de chamadas para sites](managing-call-admission-control-for-sites.md).
+Sites de rede são os escritórios ou locais configurados em cada região de um controle de admissão de chamadas (CAC) ou implantação 9-1-1 aprimorada. Você pode usar o painel de controle do Skype for Business Server para configurar sites e associá-los a regiões. Por exemplo, uma região de rede para a América do Norte pode estar associada a sites de redes como Chicago, Redmond e Vancouver. Um site de rede do CAC deve ser criado para cada site dentro de uma organização, mesmo que esse site não tenha limitações de largura de banda. No painel de controle do Skype for Business Server, você pode criar, modificar e excluir sites de rede. Use o procedimento a seguir para excluir um site de rede existente. Para obter detalhes sobre como criar ou modificar sites de rede, consulte [Gerenciando o controle de admissão de chamadas para sites](managing-call-admission-control-for-sites.md).
 
 
 ### <a name="to-delete-a-network-site"></a>Para excluir um site de rede

@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: Este artigo fornece orientação sobre quantos servidores você precisa em um site para o número de usuários nesse site, de acordo com o uso descrito em modelos de usuário no Skype for Business Server.
-ms.openlocfilehash: f81989f463bb53f8eccc4d39b254560a7bc5bdf3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 401dcb06940f9ae0735107f533d609481e3b3182
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277577"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816040"
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>Uso do modelo de usuário de planejamento de capacidade para o Skype for Business Server
 
@@ -57,7 +59,7 @@ A tabela a seguir resume nossas recomendações.
 > [!NOTE]
 > Pools alongados não são suportados pela função desse servidor.
 
-Em um pool de front-ends, você deve ter um servidor front-end para cada usuário do 6.660 hospedado em seu pool, pressupondo que o hyperthreading esteja habilitado em todos os servidores do pool e que o hardware do servidor atenda às recomendações dos [requisitos do servidor para o Skype for Business Server 2015](../requirements-for-your-environment/server-requirements.md) ou [requisitos do sistema para o Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md). O número máximo de usuários em um pool de front-ends é o 80.000, supondo que o hyperthreading esteja habilitado em todos os servidores do pool. Se você tiver mais de 80.000 usuários em um site, poderá implantar mais de um pool de front-end.
+Em um pool de front-ends, você deve ter um servidor front-end para todos os usuários do 6.660 hospedados em seu pool, pressupondo que a hipersegmentação esteja habilitada em todos os servidores do pool e que o hardware do servidor atenda às recomendações [dos requisitos do servidor do Skype for Business server 2015](../requirements-for-your-environment/server-requirements.md) ou [requisitos do sistema para o Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md). O número máximo de usuários em um pool de front-ends é o 80.000, supondo que o hyperthreading esteja habilitado em todos os servidores do pool. Se você tiver mais de 80.000 usuários em um site, poderá implantar mais de um pool de front-end.
 
 Quando você conta com o número de usuários em um pool Front-end, inclua qualquer usuário hospedado em aparelhos de ramificação sobreviventes e servidores de ramificação sobreviventes em filiais que estão associados a este pool de front-ends.
 
@@ -126,7 +128,7 @@ Se você colocar o servidor de mediação com servidor front-end, o servidor de 
 
 Se você implantar um pool autônomo do servidor de mediação, o número de servidores de mediação a serem implantados depende de muitos fatores, incluindo o hardware usado para o servidor de mediação, o número de usuários de VoIP que você tem, o número de pares de gateways que cada pool de servidores de mediação controles, o tráfego de horas ocupados por meio desses gateways e a porcentagem de chamadas com mídia que ignora o servidor de mediação.
 
-As tabelas a seguir fornecem uma diretriz para quantas chamadas simultâneas um servidor de mediação pode manipular, pressupondo que o hardware dos servidores de mediação atenda aos requisitos nas [plataformas de hardware do servidor](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx) e que o hyperthreading esteja habilitado. Para obter detalhes sobre a escalabilidade do servidor de mediação, consulte Estimando o [uso e o tráfego de voz do Skype for Business Server](estimating-voice-traffic.md) e [diretrizes de implantação do servidor de mediação do Skype for Business Server](mediation-server-deployment-guidelines.md).
+As tabelas a seguir fornecem uma diretriz para quantas chamadas simultâneas um servidor de mediação pode manipular, pressupondo que o hardware dos servidores de mediação atenda aos requisitos nas [plataformas de hardware do servidor](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx) e que o hyperthreading esteja habilitado. Para obter detalhes sobre a escalabilidade do servidor de mediação, consulte [estimando o uso e o tráfego de voz do Skype for Business Server](estimating-voice-traffic.md) e [diretrizes de implantação do servidor de mediação do Skype for Business Server](mediation-server-deployment-guidelines.md).
 
 Todas as tabelas a seguir consideram o uso resumido nos [modelos de usuário do Skype for Business Server](user-models.md).
 

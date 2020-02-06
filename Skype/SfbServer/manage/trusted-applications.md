@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Um aplicativo confiável é um aplicativo baseado em SDK do Microsoft Unified Communications Managed (UCMA) 3,0 Core API que é confiável para o Skype for Business Server.
-ms.openlocfilehash: 272785cd1dcfe0bf21f7ac2b5ab64f36646237eb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b2a257ad197d573beccb187ef49e41b3864c1a58
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275063"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817072"
 ---
 # <a name="manage-trusted-applications-in-skype-for-business-server"></a>Gerenciar aplicativos confiáveis no Skype for Business Server
 

@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: Saiba mais sobre o gerenciamento de pool de front-end no Skype for Business Server, incluindo o gerenciamento de pools, a perda de quorum e etapas especiais para pools com apenas dois servidores front-end.
-ms.openlocfilehash: d54474b6e3013b2d092f55b80000f5578e266f81
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 731284d6df761b7fb023c92c656cae5cd6d0ed77
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435174"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815909"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>Alta disponibilidade e gerenciamento de Pool de Front-Ends
  
@@ -46,10 +48,10 @@ A primeira vez que você iniciar um novo Pool de Front-Ends, é essencial que 85
 |5  <br/> |4  <br/> |
 |6  <br/> |5  <br/> |
 |7  <br/> |5  <br/> |
-|08  <br/> |6  <br/> |
-|222  <br/> |7  <br/> |
-|254  <br/> |08  <br/> |
-|11:00  <br/> |222  <br/> |
+|8  <br/> |6  <br/> |
+|9  <br/> |7  <br/> |
+|254  <br/> |8  <br/> |
+|11:00  <br/> |9  <br/> |
 |12  <br/> |254  <br/> |
 |16 **para o Skype for Business Server 2019** <br/> |12  <br/> |
 

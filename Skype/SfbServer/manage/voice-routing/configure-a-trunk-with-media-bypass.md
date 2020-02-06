@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 'Siga estas etapas se desejar configurar um tronco com o bypass de mídia habilitado. '
-ms.openlocfilehash: c807aeab3c9300428aabcf57c0ab2886451b5e4b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3628c0ea38c0692b313ee37ca7b836c159a5a2dd
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275042"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817031"
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>Configurar um tronco com bypass de mídia no Skype for Business Server
 
@@ -93,8 +95,8 @@ Uma configuração de tronco, como descrita abaixo, agrupa um conjunto de parâm
     > A ordem na qual PSTN registros de uso são listados na configuração de tronco é significativa. O Skype for Business Server percorre a lista de cima para baixo. 
 
 12. **Enable RTP Latching** deve ser selecionado para permitir desvio de mídia para clientes atrás de uma NAT (conversão de endereço de rede) ou firewall, e um SBC que suporte travamento.
-13. **Habilitar o histórico de chamadas** de encaminhamento deve ser selecionado para permitir o envio de informações de histórico de chamadas para o par de gateways do servidor de mediação.
-14. **Habilitar encaminhar os dados de identidades p-** declarados devem ser selecionados para permitir que as informações do originador da chamada p-Asserted-Identity (pai) sejam encaminhadas entre o lado do servidor de mediação e o lado do gateway (e vice-versa), quando estiverem presentes.
+13. **Habilitar o histórico de chamadas de encaminhamento** deve ser selecionado para permitir o envio de informações de histórico de chamadas para o par de gateways do servidor de mediação.
+14. **Habilitar encaminhar os dados de identidades p-declarados** devem ser selecionados para permitir que as informações do originador da chamada p-Asserted-Identity (pai) sejam encaminhadas entre o lado do servidor de mediação e o lado do gateway (e vice-versa), quando estiverem presentes.
 15. **Enable outbound routing failover timer** deve ser selecionado para permitir failover rápido. O gateway associado a esse tronco pode fornecer notificações em 10 segundos de que está processando uma chamada de saída. O redirecionamento para outro tronco ocorrerá se essa notificação não for recebida pelo servidor de mediação. Em redes onde a latência pode atrasar o tempo de resposta ou o gateway levar mais de 10 segundos para responder, o failover rápido deverá ser desativado.
 16. (Opcional) Associe e configure as **regras de conversão do número de chamada** do tronco. Essas regras de tradução se aplicam ao número de chamada para chamadas de saída.
     - Para escolher uma ou mais regras de uma lista de todas as regras de tradução que estão disponíveis na sua implantação do Enterprise Voice, clique em **selecionar**. Em **Selecionar Regras de Conversão**, clique nas regras que você deseja associar com o tronco, e depois em **OK**.

@@ -8,16 +8,18 @@ ms.date: 4/5/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
 description: Depois de concluir a instalação da ferramenta de planejamento do Skype for Business Server, você estará pronto para iniciar a ferramenta de planejamento e começar a projetar a infraestrutura proposta do Skype for Business Server 2015.
-ms.openlocfilehash: 47a3725c1307bd6efe57fa07a955004bd6e5ff29
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8c19551d2273b992b5148646e28d726f5aea5900
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274265"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816490"
 ---
 # <a name="create-the-initial-topology-design-for-skype-for-business-server-2015"></a>Create the initial topology design for Skype for Business Server 2015
 
@@ -32,13 +34,13 @@ Depois de concluir a instalação da ferramenta de planejamento do Skype for Bus
 
 2. Após o início da ferramenta de planejamento, a página **Bem-vindo à ferramenta de planejamento para o Skype for Business Server 2015** é exibida. Escolha uma das seguintes opções para começar seu design:
 
-   - **Opção 1:** introdução Clicar **** em introdução fornece uma série específica de perguntas de entrevista com seleções relevantes para definir os critérios. Após ter finalizado a seção de entrevista  **Iniciando** inicial, você continua com  **Design de sites** para definir sua arquitetura de site. Para concluir esta opção, continue na etapa 3.
+   - **Opção 1:** introdução Clicar **em introdução fornece** uma série específica de perguntas de entrevista com seleções relevantes para definir os critérios. Após ter finalizado a seção de entrevista  **Iniciando** inicial, você continua com  **Design de sites** para definir sua arquitetura de site. Para concluir esta opção, continue na etapa 3.
 
-   - **Opção 2: sites de design** Clicar em **sites de design** na página de boas-vindas ignora as perguntas **** da entrevista apresentadas na seção Introdução. Com esta opção, as informações que teriam sido recolhidas com as respostas às perguntas da entrevistas na seção **Introdução** são definidas como os valores padrão. Ao clicar em **Projetar sites**, o designer experiente pode ignorar a entrevista inicial e alterar os valores padrões conforme necessário na página inicial  **Sites centrais**. Para concluir esta opção, pule as etapas de 3 a 5 e comece na etapa 6.
+   - **Opção 2: sites de design** Clicar em **sites de design** na página de boas-vindas ignora as perguntas da entrevista apresentadas na seção Introdução. **** Com esta opção, as informações que teriam sido recolhidas com as respostas às perguntas da entrevistas na seção **Introdução** são definidas como os valores padrão. Ao clicar em **Projetar sites**, o designer experiente pode ignorar a entrevista inicial e alterar os valores padrões conforme necessário na página inicial  **Sites centrais**. Para concluir esta opção, pule as etapas de 3 a 5 e comece na etapa 6.
 
    - **Opção 3: exibir sua topologia salva** Se já tiver concluído e salvo uma topologia por meio do uso anterior da ferramenta de planejamento, você poderá ignorar a maioria dessas etapas e começar abrindo e exibindo a topologia. Você também pode fazer alterações e atualizações na topologia, salvá-la novamente e exportá-la para o Microsoft Excel ou Microsoft Visio. Para concluir esta opção, pule as etapas de 3 a 12 e comece na etapa 13.
 
-3. Clique **** em introdução para começar a criar sua topologia do Skype for Business Server 2015.
+3. Clique **em introdução para** começar a criar sua topologia do Skype for Business Server 2015.
 
 4. Responda cada seção selecionando os critérios apropriados para seu design e clique em **Avançar ** para prosseguir à próxima página do assistente. Clique em **Voltar** para fazer alterações nas páginas anteriores.
 
@@ -54,7 +56,7 @@ Depois de concluir a instalação da ferramenta de planejamento do Skype for Bus
 
 7. Em **nome do site**, digite o nome que identificará esse site central.
 
-8. Em **usuários**de residências do site, digite o número esperado de usuários simultâneos locais que serão hospedados neste site central.
+8. Em **usuários de residências do site**, digite o número esperado de usuários simultâneos locais que serão hospedados neste site central.
 
 9. Em **usuários de casa na nuvem**, digite o número esperado de usuários simultâneos online que serão hospedados neste site central.
 

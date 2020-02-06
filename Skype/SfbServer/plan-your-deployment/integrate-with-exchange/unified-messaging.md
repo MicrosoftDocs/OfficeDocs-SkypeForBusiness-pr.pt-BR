@@ -8,16 +8,18 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 'Resumo: revise este tópico ao planejar a integração do Skype for Business Server com o Exchange 2013 ou 2016.'
-ms.openlocfilehash: bed73151b1010dd287c21ea55372e4eb18117665
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 1ae6ad10f1e817b9ace0240c79d09251a23dd61c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772614"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815859"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Planejar para integração de Unificação de Mensagens do Exchange no Skype for Business
 
@@ -61,7 +63,7 @@ Skype for Business Server, o Enterprise Voice usa a infraestrutura de Unificaç�
 
 ### <a name="exchange-server-components"></a>Componentes de Exchange Server
 
-Para fornecer os recursos e os serviços do Exchange UM descritos em [recursos de Unificação de mensagens integrada e do Skype for Business Server](#features-of-integrated-unified-messaging-and-skype-for-business-server) para usuários do Enterprise Voice em sua organização, você deve implantar um servidor de caixa de correio do Microsoft Exchange e acesso do cliente Server, que hospeda caixas de correio de usuários e fornece um único local de armazenamento para email e caixa postal. O Exchange UM é executado como um serviço na caixa de correio do Exchange e nos servidores de acesso para cliente.
+Para fornecer os recursos e os serviços do Exchange UM descritos em [recursos de Unificação de mensagens integrada e do Skype for Business Server](#features-of-integrated-unified-messaging-and-skype-for-business-server) para usuários do Enterprise Voice em sua organização, você deve implantar um servidor de caixa de correio do Microsoft Exchange e um servidor de acesso para cliente, que hospeda caixas de correio de usuários e fornece um único local de armazenamento para email e caixa postal. O Exchange UM é executado como um serviço na caixa de correio do Exchange e nos servidores de acesso para cliente.
 
 Para obter detalhes sobre os componentes de UM do Exchange no Microsoft Exchange Server 2010, consulte [implantando o Exchange um local para fornecer o Lync Server 2013 Preview voice mail](https://technet.microsoft.com/library/9673bd73-a3a3-425d-870f-04d801c6d0d5.aspx) .
 

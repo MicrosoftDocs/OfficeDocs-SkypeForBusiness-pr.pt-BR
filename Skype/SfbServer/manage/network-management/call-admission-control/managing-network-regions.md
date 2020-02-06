@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Região de rede * são os hubs de rede ou backbones usados na configuração de controle de admissão de chamadas, E9-1-1 e bypass de mídia.
-ms.openlocfilehash: 8d1d60389fe910e2b5c2b8b1c357520aad30db96
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c08232e455edb4388a052c2859b35e6c137b890a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279526"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817480"
 ---
 # <a name="managing-network-regions-in-skype-for-business-server"></a>Gerenciar regiões de rede no Skype for Business Server
 
@@ -92,7 +94,7 @@ Uma região de rede interconecta várias partes de uma rede em várias áreas ge
 
 10. Clique em **Confirmar**.
 
-A tabela de **sites associados** não é usada para criar uma região de rede. Você associa um site com uma região quando cria ou modifica o site. Para obter detalhes, consulte Gerenciando o [controle de admissão de chamadas para sites](managing-call-admission-control-for-sites.md).
+A tabela de **sites associados** não é usada para criar uma região de rede. Você associa um site com uma região quando cria ou modifica o site. Para obter detalhes, consulte [Gerenciando o controle de admissão de chamadas para sites](managing-call-admission-control-for-sites.md).
 
 ### <a name="to-modify-a-network-region"></a>Para modificar uma região de rede
 

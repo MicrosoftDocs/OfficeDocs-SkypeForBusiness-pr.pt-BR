@@ -8,18 +8,20 @@ ms.date: 1/9/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: Este tópico aborda as considerações de planejamento para usar o Skype for Business enquanto se conecta a uma área de trabalho virtual remota.
-ms.openlocfilehash: c6bf1cea2a18920231ea4d347b8b0471cfebbba3
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: d2d65167eb574d17e31c19759364841147af6c05
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221236"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803501"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>Plan for Skype for Business in VDI environments
  
@@ -33,7 +35,7 @@ Há três soluções disponíveis para o componente plug-in VDI, oferecido pela 
     
 - O **pacote de otimização em tempo real do Citrix** é criado no plug-in VDI do Lync e funciona com clientes do Lync 2013 ou do Skype for Business 2016 em uma área de trabalho virtual. Ele foi desenvolvido em parceria entre a Citrix e a Microsoft para aperfeiçoar o plug-in VDI original. Esse pacote pode ser instalado em clientes com sistemas operacionais Windows e não Windows (inclusive Windows 10, Mac e Linux). Ele consiste em dois componentes: o conector em tempo real (que é instalado na área de trabalho virtual) e o mecanismo de mídia em tempo real (que é instalado no computador local do usuário final). Esses dois componentes permitem que o computador local do usuário use o cliente Skype for Business executado na área de trabalho virtual com o processamento a/V movido para o computador local. Para ambientes de área de trabalho virtual baseados em Citrix, recomenda-se a utilização do Citrix RealTime Optimization Pack, para o qual há mais suporte planejado.
     
-- O **pacote** de virtualização de horizonte do VMware para o Skype for Business, desenvolvido em colaboração com o VMware, permite que você forneça o Skype for Business em uma área de trabalho virtual enquanto oferece uma excelente experiência do usuário. A solução funciona aproveitando um mecanismo de mídia no cliente para criar uma solução otimizada, com o ponto de extremidade do cliente fornecendo recursos de offload de mídia para chamadas de áudio e vídeo. Esta solução que pode oferecer áudio e vídeo diretamente entre pontos de extremidade para colaboração única ou o transfere para uma unidade de controle multiponto (MCU) central para chamadas em conferência ou reuniões de vários participantes.
+- O **pacote de virtualização de horizonte do VMware** para o Skype for Business, desenvolvido em colaboração com o VMware, permite que você forneça o Skype for Business em uma área de trabalho virtual enquanto oferece uma excelente experiência do usuário. A solução funciona aproveitando um mecanismo de mídia no cliente para criar uma solução otimizada, com o ponto de extremidade do cliente fornecendo recursos de offload de mídia para chamadas de áudio e vídeo. Esta solução que pode oferecer áudio e vídeo diretamente entre pontos de extremidade para colaboração única ou o transfere para uma unidade de controle multiponto (MCU) central para chamadas em conferência ou reuniões de vários participantes.
     
 > [!NOTE]
 > Os clientes do Skype for Business Basic não são compatíveis com o pacote de otimização do Citrix HDX RealTime ou o pacote de virtualização do VMWare Horizon. 
