@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Para concluir esse procedimento com êxito, você deve estar conectado ao servidor ou ao domínio como membro do grupo Domain admins ou de um membro do grupo DnsAdmins.
-ms.openlocfilehash: 5d506c3b2ff70ae776396e8d3a51e71360cdcc83
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ef77f491efd090949ff5dd6b653dd3cd6ea1cde7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241155"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812769"
 ---
 # <a name="update-dns-srv-records"></a>Atualizar registros de DNS SRV
 
@@ -26,7 +28,7 @@ Este tópico descreve como atualizar os registros DNS (sistema de nomes de domí
 
 1. No servidor DNS, clique em **Iniciar**, clique em **Ferramentas administrativas**e, em seguida, clique em **DNS**.
     
-2. Na árvore de console do seu domínio SIP, expanda **zonas de pesquisa direta**, expanda o domínio SIP no qual o Skype for Business Server 2019 está instalado e navegue até a configuração **_ TCP** . 
+2. Na árvore de console do seu domínio SIP, expanda **zonas de pesquisa direta**, expanda o domínio SIP no qual o Skype for Business Server 2019 está instalado e navegue até a configuração **_tcp** . 
     
 3. No painel direito, clique com o botão direito do mouse em **_sipinternaltls** e selecione **Propriedades**.
     

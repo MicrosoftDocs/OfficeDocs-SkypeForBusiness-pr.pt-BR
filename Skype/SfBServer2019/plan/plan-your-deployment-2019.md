@@ -8,6 +8,8 @@ ms.date: 2/8/2019
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 'Resumo: explore esses links para saber como desenvolver designs conceituais, lógicos e físicos para configurar o Skype for Business Server 2019 recursos, servidores e topologias.'
-ms.openlocfilehash: ecb785bf4f89034cfe14f9e71891c4772359ba4c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 75dab04deea31d06f4ed2a81e54fc129ab5e2c08
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280553"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812579"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>Plano para a implantação do Skype for Business Server 2019
  

@@ -8,17 +8,19 @@ ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.VoiceFeaCallParkMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 description: Quando uma chamada está estacionada, ela é transferida para um número temporário em que a chamada é mantida até alguém recuperá-la ou expirar. Você precisa configurar uma tabela com os intervalos de números de extensão que você está reservando para chamadas estacionadas. Essas extensões precisam ser extensões virtuais (ou seja, extensões sem usuário ou telefone atribuídas a ela). Cada pool que executa o aplicativo de estacionamento de chamada pode ter um ou mais intervalos de extensões. Esses intervalos precisam ser globalmente exclusivos em sua implantação.
-ms.openlocfilehash: 1a7417ab525f8471b730dc177a993c3458750a3f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 69eca5a36ef0640f64fedb67d654cc6a835de72c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41700296"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41811569"
 ---
 # <a name="call-park"></a>Estacionamento de Chamada
 

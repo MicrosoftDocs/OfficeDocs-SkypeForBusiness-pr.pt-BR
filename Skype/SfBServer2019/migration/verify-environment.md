@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Antes de implantar o Skype for Business Server 2019 em um estado de coexistência, você precisa verificar se os serviços herdados foram configurados e iniciados. É importante identificar os principais serviços e recursos que existem em seu ambiente herdado antes de implantar um pool piloto do Skype for Business Server 2019. Antes de implantar o Microsoft Skype for Business Server 2019 XMPP em um estado de coexistência com uma implantação herdada do XMPP, você precisa verificar se os serviços herdados do XMPP foram configurados e iniciados e identifica qual parceiro federado a configuração de XMPP herdada é support.
-ms.openlocfilehash: 4c648dbbadeca50c12eb6047958ef63066ed7a3a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 34c9ecbc4fe9863c09b2648145ff46c1628ef655
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243772"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812689"
 ---
 # <a name="verify-the-legacy-environment"></a>Verificar o ambiente herdado
 
@@ -52,7 +54,7 @@ Antes de implantar o Skype for Business Server 2019 em um estado de coexistênci
     
 2. Selecione **usuários**e, em seguida, clique em **Localizar**.
     
-3. Verifique se a coluna **pool** de registradores aponta para o pool herdado para cada usuário listado. 
+3. Verifique se a coluna **pool de registradores** aponta para o pool herdado para cada usuário listado. 
     
      ![Listar usuários do painel de controle](../media/migration_lyncserver_2010_allusers.JPG)
   
