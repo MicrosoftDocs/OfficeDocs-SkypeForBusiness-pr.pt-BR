@@ -8,15 +8,17 @@ ms.date: 3/28/2016
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
 description: 'Resumo: Leia este tópico para saber como criar políticas iniciais de usuário para o servidor de chat persistente no Skype for Business Server 2015. Políticas de usuário de chat persistente determinam se os usuários podem ou não acesso a salas de chat.'
-ms.openlocfilehash: 83d6b49372f695be1a4db516eda6c7be357beed3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a51304c9e85951e9858d56c511aa8c7519babe51
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239752"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795692"
 ---
 # <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>Configurar políticas de usuário de Chat Persistente no Skype for Business Server 2015
  

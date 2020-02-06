@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployMainUCMAIntro
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 0eb47fc9-17fe-4ccf-b7c9-1a2cf95f943c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para obter detalhes sobre como usar o assistente para implantação para instalar o Skype for Business Server, confira instalar o Skype for Business Server.
-ms.openlocfilehash: 93fd6bf493868b3c6ae0dd5ed95829ae00ee3906
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 62e3d352a4a4f825f0ac497e81149ad96444ba42
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691756"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794770"
 ---
 # <a name="deployment-wizard-unified-communications-api"></a>Assistente de Implantação: API de Comunicações Unificadas
  

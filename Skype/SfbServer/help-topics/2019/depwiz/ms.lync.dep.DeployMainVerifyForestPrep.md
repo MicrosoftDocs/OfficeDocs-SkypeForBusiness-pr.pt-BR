@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployMainVerifyForestPrep
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para confirmar se a replicação do catálogo global e a criação de objetos durante a preparação da floresta foram bem-sucedidas, faça o seguinte:'
-ms.openlocfilehash: a89e5b1d8dff3f37def101b1cf2cccfad9d1bd5c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 371846c77c2a41278edaddd753906b46668e7699
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691746"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794750"
 ---
 # <a name="verify-replication-of-forest-preparation"></a>Verificar a Replicação da Preparação da Floresta
  

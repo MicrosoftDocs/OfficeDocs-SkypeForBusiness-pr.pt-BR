@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployAssignedCertList
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: bfc6db2d-141e-4395-819a-65ba4629ccca
 ROBOTS: NOINDEX, NOFOLLOW
 description: Na página Exibir certificado, há um painel que permite que você selecione qualquer certificado válido no repositório de certificados local. Você pode selecionar um certificado e, em seguida, clicar em Exibir detalhes do certificado. O certificado será exibido em um novo painel. No painel certificado, você pode ver as informações gerais do certificado. Clique na guia detalhes para exibir informações detalhadas sobre o certificado, como nome do assunto e nome alternativo do assunto. O caminho de certificação exibirá o caminho da cadeia de trustfor do certificado. Quando terminar de revisar as informações do certificado, clique em OK.
-ms.openlocfilehash: 9a2d86e60dfe29ad905184a84e15b27846041ec8
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4820252bb979ffe8daf94d4e2985b8c1c0d4862a
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692206"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796932"
 ---
 # <a name="view-certificate"></a>Exibir Certificado
  

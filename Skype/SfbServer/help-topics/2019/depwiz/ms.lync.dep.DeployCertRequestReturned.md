@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployCertRequestReturned
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'A página status da solicitação de certificado online apresenta informações importantes resultantes da criação bem-sucedida e da emissão da solicitação de certificado online. Esta página fornece a impressão digital do certificado que identifica exclusivamente o certificado. Por padrão, a caixa de seleção atribuir este certificado a usos de certificado do Skype for Business Server está selecionada. Se você clicar em concluir, o certificado será atribuído automaticamente ao Skype for Business Server para fins que você definiu durante as etapas de criação da solicitação de certificado. Por padrão, os fins para os quais o certificado será atribuído são:'
-ms.openlocfilehash: 0afc23baacc3430edaf1868e9fbe22e2e04455d7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1fce25992e6509fe10715f80f4121e08c6734be2
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705606"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794290"
 ---
 # <a name="certificate-request-returned"></a>Solicitação de Certificado (Retornado)
  

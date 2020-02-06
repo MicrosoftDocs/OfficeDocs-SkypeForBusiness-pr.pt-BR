@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.RgsSelGroup
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 ROBOTS: NOINDEX, NOFOLLOW
 description: As filas do grupo de resposta mantêm chamadas para grupos de resposta até que um agente atenda a chamada. As filas têm grupos de agente atribuídos. Quando você cria ou edita uma fila, use a caixa de diálogo Selecionar grupos para selecionar um ou mais grupos de agente a serem atribuídos à fila.
-ms.openlocfilehash: fd27a776b17985fa9fee85ec536ff9f0ae56f8a7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6439a501f48a67df56d37a4435c15a3c284c347f
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41704356"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793459"
 ---
 # <a name="select-groups"></a>Selecionar Grupos
 

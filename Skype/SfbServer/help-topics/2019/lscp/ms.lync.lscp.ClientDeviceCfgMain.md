@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.ClientDeviceCfgMain
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: c9b81f20-ce8c-40f1-8bed-50775cc35e58
 ROBOTS: NOINDEX, NOFOLLOW
 description: O Serviço Web de Atualização de Dispositivo cria automaticamente os arquivos de log que registram a atividade de atualização do dispositivo. Como parte da estratégia de gerenciamento de dados da sua organização, talvez você queira definir limites no tamanho do cache de dados do log, no tamanho do arquivo de log ou na duração de tempo que um arquivo de log é mantido antes de ser limpo. Você pode alterar essas configurações de acordo com os requisitos da sua organização. Se você não quiser que o Serviço Web de Atualização de Dispositivo exclua os arquivos de log automaticamente, será possível excluí-los manualmente, conforme o necessário. As configurações de log podem ser alteradas globalmente ou de acordo com o site.
-ms.openlocfilehash: d726b1daa8dece14d645501130c988690b30cd17
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 43fc784113a81038469099807770945ee2fbcc3b
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705176"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794550"
 ---
 # <a name="device-log-configuration"></a>Configuração do Log de Dispositivos
 

@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployCertRequestSans
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 99ef9628-72a5-463d-8dd6-4b783dcc8360
 ROBOTS: NOINDEX, NOFOLLOW
 description: A opção Configurar Nomes Alternativos da Entidade Adicionais fornece a oportunidade de adicionar outros nomes alternativos da entidade (SANs) ao certificado antes de finalizar e solicitar o certificado. Para adicionar o SAN, digite o nome de domínio totalmente qualificado (FQDN) do SAN e clique em Adicionar. Se você tiver adicionado um SAN que precise ser excluído, destaque a entrada do SAN e clique em Remover. Para remover todas as entradas de SAN adicionadas, clique em Desmarcar Tudo.
-ms.openlocfilehash: d493bc96d9056600cb3fcac5e12ade5186a10f82
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fc643d20acd97441c2d363236024ee37923cf317
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705596"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794269"
 ---
 # <a name="certificate-request-additional-subject-alternate-names"></a>Solicitação de Certificado (Nomes de Entidade Alternativos Adicionais)
  

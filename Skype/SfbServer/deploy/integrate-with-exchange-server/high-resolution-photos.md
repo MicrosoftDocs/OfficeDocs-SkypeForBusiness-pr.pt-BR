@@ -8,16 +8,18 @@ ms.date: 12/20/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
 description: 'Resumo: configurar o uso de fotos de alta resolução no Exchange Server 2019, no Exchange Server 2016, no Exchange Server 2013 ou no Exchange Online e no Skype for Business Server.'
-ms.openlocfilehash: 598490cfc80b8885a570317a7559bfc4cdd3caf5
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 7f21a409191056983b5c75f858a0f35d2f3fedcd
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001171"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797052"
 ---
 # <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>Configurar o uso de fotos de alta resolução no Skype for Business Server
  

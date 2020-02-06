@@ -8,16 +8,18 @@ ms.date: 2/7/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 description: 'Resumo: configurar o repositório de contatos unificado do Exchange Server e do Skype for Business Server.'
-ms.openlocfilehash: 7a52a6bf648632daac416dcf6ffd4fd4149804c0
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 1719b8e8e5d99b8ef24da32111b69b1f9f847538
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003551"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796992"
 ---
 # <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>Configurar o Skype for Business Server para usar o repositório unificado de contatos
  

@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.FileStoreScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d723fd8-9c83-4b96-abb6-15b3dc7ce30a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nó mostra o nome de domínio totalmente qualificado (FQDN) e os pools dependentes para esse repositório de arquivos. É possível executar as seguintes ações:'
-ms.openlocfilehash: ea7aa8a318415ce48358a7a278556769f53c3eec
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4b4631786d7639da6077b25eb98b2db70e7b2967
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41702146"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793679"
 ---
 # <a name="file-store-scope-node"></a>Nó de Escopo de Repositório de Arquivos
  

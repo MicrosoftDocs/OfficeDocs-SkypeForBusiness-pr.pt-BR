@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.EdgeServersScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0d49587e-5079-4fe0-a9b9-fb0853811fca
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'O nó de Pools de Borda lista os pools de Borda de sua topologia. Você pode executar as seguintes ações:'
-ms.openlocfilehash: 77e7ddcec767550d7e2b88279ac53d9ad87841be
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6c16abadc47f5655b55c6e8766f987f27fe12a3e
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41702226"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793759"
 ---
 # <a name="edge-servers-scope-node"></a>Nó de Escopo de Servidores de Borda
  

@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployCertAssignInvoke
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 3b7cf7d2-90e1-4c73-bda8-33bdcf19725c
 ROBOTS: NOINDEX, NOFOLLOW
 description: A página comandos em execução exibe as ações executadas pelas tarefas para atribuir o certificado ao servidor. Quando as tarefas estiverem concluídas, você poderá exibir o log que detalha o processo de atribuição de certificado. Para exibir o arquivo de log, clique em Exibir Log.
-ms.openlocfilehash: bb3616fdd597b93b35fd50c93925ffea8f164033
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b4e31eefc09039b0250c68595b401edd3ad604e4
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705786"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796882"
 ---
 # <a name="certificate-assignment-invoke"></a>Atribuição de Certificado (Invocar)
  
