@@ -13,13 +13,14 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
+hideEdit: true
 description: A Microsoft faz parceria com fornecedores selecionados de SBC (controlador de borda da sessão) para garantir que seus SBCs sejam compatíveis com o Roteamento Direto.
-ms.openlocfilehash: a63a9d11e21d477bbb1e6c9e9872fff526046475
-ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
+ms.openlocfilehash: dfd5474ac0e70353823be48b44e0d5e2e2f39f1d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "41634864"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823985"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borda da sessão certificados para Roteamento Direto
 

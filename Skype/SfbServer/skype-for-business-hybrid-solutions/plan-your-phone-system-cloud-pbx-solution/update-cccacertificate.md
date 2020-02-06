@@ -8,15 +8,17 @@ ms.date: 7/11/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 5b474789-75de-443c-89bd-de89be55a1dd
 description: 'O cmdlet Update-CcCACertificate renova o certificado da autoridade de certificação raiz do Skype for Business Cloud Connector Edition que está próximo de expirar ou que já tenha expirado. '
-ms.openlocfilehash: 15be5d4518d7e375b4804ed2d9f22bd35a45ca7e
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 9a99e80e166b7c8624867594fa02243d9d70537e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003121"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824115"
 ---
 # <a name="update-cccacertificate"></a>Update-CcCACertificate
  
