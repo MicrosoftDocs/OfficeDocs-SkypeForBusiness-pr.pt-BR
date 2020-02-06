@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d266799bf2bc2cab9cd107836f9017bd7dc369bf
-ms.sourcegitcommit: 2cb46af39a0d116e8fd020aa04bd2ecbd6998a5f
+ms.openlocfilehash: 9911a014fe3bd3e3ede151e2a85e8181c399e463
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41678965"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41790609"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Entrar no Microsoft Teams usando a autenticação moderna
 ==========================
@@ -54,6 +54,9 @@ Se os usuários estiverem trabalhando em um computador associado a um domínio (
 
 ## <a name="signing-out-of-microsoft-teams-after-completing-modern-authentication"></a>Saindo do Microsoft Teams depois de concluir a autenticação moderna
 Para sair do Teams, os usuários podem clicar na imagem do perfil na parte superior do aplicativo e, em seguida **, selecione sair**. Eles também podem clicar com o botão direito do mouse no ícone do aplicativo na barra de tarefas e, em seguida, selecionar **logout**. Depois de desconectarem-se do Teams, será necessário inserir suas credenciais novamente para iniciar o aplicativo.
+
+## <a name="urls-and-ip-address-ranges"></a>URLs e intervalos de endereços IP
+O Microsoft Teams requer conectividade com a Internet. Para entender os pontos de extremidade que devem ser acessíveis para clientes que usam o Teams nos planos do Office 365, no governo e em outras nuvens, leia as [diretrizes disponíveis aqui](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). Além disso, você precisaria também permitir o acesso https://ssl.gstatic.com.
 
 ## <a name="troubleshooting-modern-authentication"></a>Solução de problemas de autenticação moderna
 

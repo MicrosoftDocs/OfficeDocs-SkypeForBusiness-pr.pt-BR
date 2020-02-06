@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
 description: 'Resumo: saiba como associar pools de front-end a um repositório de monitoramento usado pelo Skype for Business Server.'
-ms.openlocfilehash: 17f7cbf7d8725fc3d1c23f161060d9bb386cea19
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 26d846ad533c5ea49fa371cfa4fedab24bf56307
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001221"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41790039"
 ---
 # <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server"></a>Associar um repositório de monitoramento a um pool de front-end no Skype for Business Server 
 **Resumo:** Saiba como associar pools de front-end a um repositório de monitoramento usado pelo Skype for Business Server.

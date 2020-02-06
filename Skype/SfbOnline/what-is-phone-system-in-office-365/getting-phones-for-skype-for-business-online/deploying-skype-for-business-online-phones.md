@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Saiba quais são as etapas de implantação para obter o firmware correto, atualize-o, se necessário, atribua licenças e defina as configurações para telefones do Skype for Business Online
-ms.openlocfilehash: 5eda8c9e21ed93b09b9033c5b70bb359894330f7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: efcea04a454d846c0140e9d1dba561da228df1de
+ms.sourcegitcommit: a61d33fe15982bd8a34f1759b6b89be5aa699fe3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705806"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41784748"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Implantando telefones do Skype for Business Online
 
@@ -40,7 +40,7 @@ Em todos os tipos de empresas, ter um número de telefone permite que os usuári
 
 Antes de começar, é uma boa ideia baixar os guias de administração do fabricante do telefone e os manuais do usuário do telefone.
   
-- Para telefones Polycom, consulte o [Guia de implantação do Polycom](http://www.polycom.com/voice-conferencing-solutions/desktop-ip-phones.html).
+- Para telefones Polycom, consulte a [biblioteca de documentação](https://documents.polycom.com/category/voice)da.
     
 - Para telefones Yealink, consulte a [solução Yealink Skype for Business HD SIP phones](http://www.yealink.com/products_top_2.html).
     

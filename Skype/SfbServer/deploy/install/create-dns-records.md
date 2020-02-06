@@ -8,6 +8,8 @@ ms.date: 2/15/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
 description: 'Resumo: saiba como configurar o DNS e criar registros DNS para uma instalação do Skype for Business Server. Baixe um teste grátis do Skype for Business Server no centro de avaliação da Microsoft em https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server:.'
-ms.openlocfilehash: f5f5c40805388d6a1c861a53bae0a85c27537056
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 573d39c44bb4b4067d1030a957b1447ad62266c7
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244650"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41791789"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>Criar registros DNS para o Skype for Business Server
  
@@ -121,7 +123,7 @@ Este exemplo está usando uma carga balanceada FQDN do DNS chamada pool.contoso.
     
 5. Se você estiver suportando clientes herdados e tiver criado o registro SRV, verifique-o digitando **set type=srv** no prompt **nslookup** e depois aperte Enter.
     
-6. Digite **_sipinternaltls. _ TCP. *domínio* ** (por exemplo, _sipinternaltls. _ TCP. contoso. local) e pressione Enter.
+6. Digite **_sipinternaltls. _tcp. *domínio* ** (por exemplo, _sipinternaltls. _tcp. contoso. local) e pressione Enter.
     
 7. O resultado esperado deve ser similar ao mostrado na figura. Observe que nem todos os registros DNS são mostrados na amostra do resultado, mas todos os registros devem ser verificados. 
     

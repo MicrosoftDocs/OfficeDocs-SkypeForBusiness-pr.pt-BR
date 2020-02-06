@@ -8,6 +8,8 @@ ms.date: 2/15/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
 description: 'Resumo: saiba como instalar os componentes do sistema do Skype for Business Server em cada servidor da topologia. Baixe um teste grátis do Skype for Business Server no centro de avaliação da Microsoft em https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server:.'
-ms.openlocfilehash: 35ad1914dced8d8937de0f56a19c2709551a2893
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8ecf298809a6c4c37b5c075e7ac16623f1669ff9
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245301"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41791749"
 ---
 # <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>Instalar o Skype for Business Server em servidores na topologia
  
@@ -140,7 +142,7 @@ Depois de publicar uma topologia, você pode instalar os componentes do servidor
     > [!NOTE]
     > Se sua organização tiver criado um modelo para ser usado como uma alternativa para o modelo de AC padrão do Servidor da web, marque a caixa de seleção, e digite o nome do modelo alternativo. Você precisará do nome do modelo, conforme definido pelo administrador de AC. 
   
-8. Na página **configurações de nome e segurança** , especifique um **nome amigável**. Usando um nome amigável, você pode identificar rapidamente o certificado e a finalidade. Se você deixá-lo em branco, um nome será gerado automaticamente. Defina o **comprimento do bit** da chave ou aceite o padrão de 2048 bits. Selecione a **chave privada do certificado como** exportável se você determinar que o certificado e a chave privada precisam ser movidos ou copiados para outros sistemas e clique em **Avançar**.
+8. Na página **configurações de nome e segurança** , especifique um **nome amigável**. Usando um nome amigável, você pode identificar rapidamente o certificado e a finalidade. Se você deixá-lo em branco, um nome será gerado automaticamente. Defina o **comprimento do bit** da chave ou aceite o padrão de 2048 bits. Selecione a **chave privada do certificado como exportável** se você determinar que o certificado e a chave privada precisam ser movidos ou copiados para outros sistemas e clique em **Avançar**.
     
     > [!NOTE]
     > O Skype for Business Server tem requisitos mínimos para uma chave privada exportável. Um exemplo disso são os Servidores de Borda em um pool, onde o Serviço de Autenticação de Media Relay usa cópias do certificado, em vez de certificados individuais para cada instância no pool. 
