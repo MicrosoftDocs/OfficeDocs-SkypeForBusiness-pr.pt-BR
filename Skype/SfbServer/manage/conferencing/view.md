@@ -7,47 +7,49 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
 description: 'Resumo: saiba como exibir as políticas de conferência no Skype for Business Server.'
-ms.openlocfilehash: 7ea7b5cb9ba54fcf26e5f37b79320466c19d1050
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 2273e694ce2f34c8d395f87f207de85b409e18af
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992186"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818442"
 ---
-# <a name="view-conferencing-policies-in-skype-for-business-server"></a><span data-ttu-id="91a84-103">Exibir políticas de conferência no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="91a84-103">View conferencing policies in Skype for Business Server</span></span>
+# <a name="view-conferencing-policies-in-skype-for-business-server"></a><span data-ttu-id="93c7b-103">Exibir políticas de conferência no Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="93c7b-103">View conferencing policies in Skype for Business Server</span></span>
  
-<span data-ttu-id="91a84-104">**Resumo:** Saiba como exibir as políticas de conferência no Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="91a84-104">**Summary:** Learn how to view conferencing policies in Skype for Business Server.</span></span>
+<span data-ttu-id="93c7b-104">**Resumo:** Saiba como exibir as políticas de conferência no Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="93c7b-104">**Summary:** Learn how to view conferencing policies in Skype for Business Server.</span></span>
   
-<span data-ttu-id="91a84-105">Você pode exibir as políticas de conferência usando o painel de controle do Skype for Business Server ou usando o Shell de gerenciamento do Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="91a84-105">You can view conferencing policies by using Skype for Business Server Control Panel or by using Skype for Business Server Management Shell.</span></span>
+<span data-ttu-id="93c7b-105">Você pode exibir as políticas de conferência usando o painel de controle do Skype for Business Server ou usando o Shell de gerenciamento do Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="93c7b-105">You can view conferencing policies by using Skype for Business Server Control Panel or by using Skype for Business Server Management Shell.</span></span>
   
-## <a name="view-conferencing-policies-by-using-skype-for-business-server-control-panel"></a><span data-ttu-id="91a84-106">Exibir políticas de conferência usando o painel de controle do Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="91a84-106">View conferencing policies by using Skype for Business Server Control Panel</span></span>
+## <a name="view-conferencing-policies-by-using-skype-for-business-server-control-panel"></a><span data-ttu-id="93c7b-106">Exibir políticas de conferência usando o painel de controle do Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="93c7b-106">View conferencing policies by using Skype for Business Server Control Panel</span></span>
 
-1. <span data-ttu-id="91a84-107">Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.</span><span class="sxs-lookup"><span data-stu-id="91a84-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1. <span data-ttu-id="93c7b-107">Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.</span><span class="sxs-lookup"><span data-stu-id="93c7b-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
     
-2.  <span data-ttu-id="91a84-108">Abra o painel de controle do Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="91a84-108">Open Skype for Business Server Control Panel.</span></span>
+2.  <span data-ttu-id="93c7b-108">Abra o painel de controle do Skype for Business Server.</span><span class="sxs-lookup"><span data-stu-id="93c7b-108">Open Skype for Business Server Control Panel.</span></span>
     
-3. <span data-ttu-id="91a84-109">Na barra de navegação esquerda, clique em **Conferência** e, em seguida, clique em **Política de Conferência**.</span><span class="sxs-lookup"><span data-stu-id="91a84-109">In the left navigation bar, click **Conferencing**, and then click **Conferencing Policy**.</span></span>
+3. <span data-ttu-id="93c7b-109">Na barra de navegação esquerda, clique em **Conferência** e, em seguida, clique em **Política de Conferência**.</span><span class="sxs-lookup"><span data-stu-id="93c7b-109">In the left navigation bar, click **Conferencing**, and then click **Conferencing Policy**.</span></span>
     
-4. <span data-ttu-id="91a84-110">Na página de **Política de Conferência**, dê um clique duplo na política de conferência que você deseja visualizar.</span><span class="sxs-lookup"><span data-stu-id="91a84-110">On the **Conferencing Policy** page, double-click the conferencing policy that you would like to view.</span></span>
+4. <span data-ttu-id="93c7b-110">Na página de **Política de Conferência**, dê um clique duplo na política de conferência que você deseja visualizar.</span><span class="sxs-lookup"><span data-stu-id="93c7b-110">On the **Conferencing Policy** page, double-click the conferencing policy that you would like to view.</span></span>
     
-5. <span data-ttu-id="91a84-111">Em **Editar Filtro de Arquivo**, marque a caixa de seleção **Mostrar Detalhes**.</span><span class="sxs-lookup"><span data-stu-id="91a84-111">In **Edit File Filter**, select the **Show Details** check box.</span></span>
+5. <span data-ttu-id="93c7b-111">Em **Editar Filtro de Arquivo**, marque a caixa de seleção **Mostrar Detalhes**.</span><span class="sxs-lookup"><span data-stu-id="93c7b-111">In **Edit File Filter**, select the **Show Details** check box.</span></span>
     
-    <span data-ttu-id="91a84-112">**Editar política de conferência \<–\> a política** é aberta exibindo as configurações da política selecionada.</span><span class="sxs-lookup"><span data-stu-id="91a84-112">**Edit Conferencing Policy - \<policy\>** opens displaying the settings for the selected policy.</span></span>
+    <span data-ttu-id="93c7b-112">**Editar política de conferência \<–\> a política** é aberta exibindo as configurações da política selecionada.</span><span class="sxs-lookup"><span data-stu-id="93c7b-112">**Edit Conferencing Policy - \<policy\>** opens displaying the settings for the selected policy.</span></span>
     
-    <span data-ttu-id="91a84-113">Para obter detalhes sobre como definir as configurações, consulte [criar políticas de conferência no Skype for Business Server](create-policies.md).</span><span class="sxs-lookup"><span data-stu-id="91a84-113">For details about configuring the settings, see [Create conferencing policies in Skype for Business Server](create-policies.md).</span></span>
+    <span data-ttu-id="93c7b-113">Para obter detalhes sobre como definir as configurações, consulte [criar políticas de conferência no Skype for Business Server](create-policies.md).</span><span class="sxs-lookup"><span data-stu-id="93c7b-113">For details about configuring the settings, see [Create conferencing policies in Skype for Business Server](create-policies.md).</span></span>
     
-## <a name="view-conferencing-policies-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="91a84-114">Exibir políticas de conferência usando o Shell de gerenciamento do Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="91a84-114">View conferencing policies by using Skype for Business Server Management Shell</span></span>
+## <a name="view-conferencing-policies-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="93c7b-114">Exibir políticas de conferência usando o Shell de gerenciamento do Skype for Business Server</span><span class="sxs-lookup"><span data-stu-id="93c7b-114">View conferencing policies by using Skype for Business Server Management Shell</span></span>
 
-<span data-ttu-id="91a84-115">Para visualizar as políticas de conferência, use o cmdlet **Get-CsConferencingPolicy**:</span><span class="sxs-lookup"><span data-stu-id="91a84-115">To view conferencing policies, use the **Get-CsConferencingPolicy** cmdlet:</span></span>
+<span data-ttu-id="93c7b-115">Para visualizar as políticas de conferência, use o cmdlet **Get-CsConferencingPolicy**:</span><span class="sxs-lookup"><span data-stu-id="93c7b-115">To view conferencing policies, use the **Get-CsConferencingPolicy** cmdlet:</span></span>
   
 ```PowerShell
 Get-CsConferencingPolicy
 ```
 
-<span data-ttu-id="91a84-116">O cmdlet retorna informações como as seguintes:</span><span class="sxs-lookup"><span data-stu-id="91a84-116">The cmdlet returns information such as the following:</span></span>
+<span data-ttu-id="93c7b-116">O cmdlet retorna informações como as seguintes:</span><span class="sxs-lookup"><span data-stu-id="93c7b-116">The cmdlet returns information such as the following:</span></span>
   
 <pre>
 Identity                                  : Global
@@ -86,6 +88,6 @@ TotalReceiveVideoBitRateKb                : 6000
 EnableMultiViewJoin                       : True
 </pre>
 
-<span data-ttu-id="91a84-117">Para obter mais informações, incluindo uma descrição completa da sintaxe e lista de parâmetros, consulte [Get-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/get-csconferencingpolicy?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="91a84-117">For more information, including a complete syntax description and list of parameters, see [Get-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/get-csconferencingpolicy?view=skype-ps).</span></span>
+<span data-ttu-id="93c7b-117">Para obter mais informações, incluindo uma descrição completa da sintaxe e lista de parâmetros, consulte [Get-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/get-csconferencingpolicy?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="93c7b-117">For more information, including a complete syntax description and list of parameters, see [Get-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/get-csconferencingpolicy?view=skype-ps).</span></span>
   
 
