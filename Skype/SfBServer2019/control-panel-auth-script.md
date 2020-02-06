@@ -8,19 +8,21 @@ ms.date: 07/23/2019
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Script de ajuda para configurar a autenticação do painel de controle do SFB 2019 com o Office 365 via protocolo OAuth..
-ms.openlocfilehash: d53848aa0724f381d5f7320c13be14087777bfab
-ms.sourcegitcommit: 11c5c046371b4203c585ef8f1e4ab5d3659144a0
+ms.openlocfilehash: d434ad1530e05af396982a6c6278a80b9a416aa6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "35842647"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824055"
 ---
-# <a name="skype-for-business-server-2019-control-panel-authentication-script"></a><span data-ttu-id="bdd6b-103">Script de autenticação do painel de controle do Skype for Business Server 2019</span><span class="sxs-lookup"><span data-stu-id="bdd6b-103">Skype for Business Server 2019 control panel authentication script</span></span>
+# <a name="skype-for-business-server-2019-control-panel-authentication-script"></a><span data-ttu-id="16127-103">Script de autenticação do painel de controle do Skype for Business Server 2019</span><span class="sxs-lookup"><span data-stu-id="16127-103">Skype for Business Server 2019 control panel authentication script</span></span>
 
-<span data-ttu-id="bdd6b-104">Esse script deve ser executado após a instalação da atualização cumulativa 1 do Skype for Business Server 2019, como parte da configuração do novo painel de controle.</span><span class="sxs-lookup"><span data-stu-id="bdd6b-104">This script should be run after installing Skype for Business Server 2019 Cumulative Update 1, as part of the set-up for the new Control Panel.</span></span> <span data-ttu-id="bdd6b-105">Esse script criará um aplicativo Azure AD no Azure.</span><span class="sxs-lookup"><span data-stu-id="bdd6b-105">This script will create an Azure AD Application on Azure.</span></span> <span data-ttu-id="bdd6b-106">Isso ajudará a conectar-se ao Office 365 usando o OAuth no novo painel de controle.</span><span class="sxs-lookup"><span data-stu-id="bdd6b-106">This will help in signing into Office 365 using OAuth in the new Control Panel.</span></span>
+<span data-ttu-id="16127-104">Esse script deve ser executado após a instalação da atualização cumulativa 1 do Skype for Business Server 2019, como parte da configuração do novo painel de controle.</span><span class="sxs-lookup"><span data-stu-id="16127-104">This script should be run after installing Skype for Business Server 2019 Cumulative Update 1, as part of the set-up for the new Control Panel.</span></span> <span data-ttu-id="16127-105">Esse script criará um aplicativo Azure AD no Azure.</span><span class="sxs-lookup"><span data-stu-id="16127-105">This script will create an Azure AD Application on Azure.</span></span> <span data-ttu-id="16127-106">Isso ajudará a conectar-se ao Office 365 usando o OAuth no novo painel de controle.</span><span class="sxs-lookup"><span data-stu-id="16127-106">This will help in signing into Office 365 using OAuth in the new Control Panel.</span></span>
 
 ```
 <#
