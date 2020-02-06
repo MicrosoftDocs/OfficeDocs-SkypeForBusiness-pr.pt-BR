@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
 description: 'Resumo: saiba como excluir uma configuração de arquivamento no Skype for Business Server.'
-ms.openlocfilehash: 22da9464a4bb6b17c6d4b9aa63ad8990a9152c38
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 82415e2cac7293d991280c3fcee6e64d684f5c26
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992368"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818933"
 ---
 # <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>Excluir uma configuração de arquivamento no Skype for Business Server
 

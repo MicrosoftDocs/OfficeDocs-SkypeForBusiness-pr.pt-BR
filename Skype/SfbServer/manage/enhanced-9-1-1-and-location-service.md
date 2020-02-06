@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: O Skype for Business Server é compatível com a chamada 9-1-1 (E9-1-1) reforçada dos clientes do Skype for Business. Quando você configura o Skype for Business Server para E9-1-1, as chamadas de emergência feitas pelo Skype for Business incluem informações de local de resposta de emergência (ERL) do banco de dados do serviço de informações de localização.
-ms.openlocfilehash: a0cf7254e12f00a01082b7aad71ce350cb382b9c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: de02c4a9a3210220e368d87d4ae8e21a80f3dbac
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280296"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818422"
 ---
 # <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Gerenciar o 9-1-1 aprimorado e o serviço de localização no Skype para visita Server
 
@@ -82,9 +84,9 @@ No Skype for Business Server, você pode substituir a quantidade de tempo padrã
     
       - **Uso da PSTN**   o uso de rede telefônica pública comutada (PSTN) que será usado para determinar qual rota de voz será usada para direcionar as chamadas de emergência dos clientes que usam esse perfil. A rota associada a esse uso deve apontar para um tronco SIP dedicado a chamadas de emergência ou a um gateway de Emergency Location Identification Number (ELIN) que encaminha as chamadas de emergência ao Public Safety Answering Point (PSAP) mais próximo.
     
-      - **Número**   de discagem de emergência o número discado para acessar serviços de emergência. Nos Estados Unidos, esse valor é 911. A cadeia de caracteres deve ser feita dos dígitos de 0 a 9 e pode ter de 1 a 10 dígitos.
+      - **Número de discagem de emergência**   o número discado para acessar serviços de emergência. Nos Estados Unidos, esse valor é 911. A cadeia de caracteres deve ser feita dos dígitos de 0 a 9 e pode ter de 1 a 10 dígitos.
     
-      - **Máscara**   de discagem de emergência um número que você deseja traduzir para o valor do valor do número de discagem de emergência quando ele for discado. Por exemplo, se você inserir um valor de 212 nesse campo e o campo de número de discagem de emergência tiver um valor de 911, se um usuário discar 212, a chamada será feita a 911. Isso permite a discagem de números de emergência alternativos e ainda assim acessar os serviços de emergência (por exemplo, se alguém de um país ou região com um número de emergência diferente tenta discar o número desse país ou região em vez do número para o país ou região atual). É possível definir várias máscaras de discagem de emergência separando os valores com ponto e vírgulas. Por exemplo, 212;414. O comprimento máximo da cadeia é de 100 caracteres. Cada caractere precisa ser um dígito de 0 a 9.
+      - **Máscara de discagem de emergência**   um número que você deseja traduzir para o valor do valor do número de discagem de emergência quando ele for discado. Por exemplo, se você inserir um valor de 212 nesse campo e o campo de número de discagem de emergência tiver um valor de 911, se um usuário discar 212, a chamada será feita a 911. Isso permite a discagem de números de emergência alternativos e ainda assim acessar os serviços de emergência (por exemplo, se alguém de um país ou região com um número de emergência diferente tenta discar o número desse país ou região em vez do número para o país ou região atual). É possível definir várias máscaras de discagem de emergência separando os valores com ponto e vírgulas. Por exemplo, 212;414. O comprimento máximo da cadeia é de 100 caracteres. Cada caractere precisa ser um dígito de 0 a 9.
       
 
         > [!IMPORTANT]  
@@ -97,7 +99,7 @@ No Skype for Business Server, você pode substituir a quantidade de tempo padrã
     
       - **Modo**   de conferência se você especificar um valor no campo **URI de conferência** , o modo de **conferência** determinará se uma terceira parte pode participar da chamada ou somente pode ouvi-la. Especifique uma das seguintes opções:
         
-          - ****   Unidirecional um terceiro só pode ouvir a conversa entre o chamador e o operador de PSAP.
+          - **Unidirecional**   um terceiro só pode ouvir a conversa entre o chamador e o operador de PSAP.
         
           - **Bidirecional**   um terceiro pode ouvir e participar da chamada entre o chamador e o operador PSAP.
 

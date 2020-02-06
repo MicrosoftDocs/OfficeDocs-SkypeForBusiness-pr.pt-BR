@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
 description: 'Resumo: Saiba mais sobre os relatórios de controle de admissão de chamadas usados no Skype for Business Server.'
-ms.openlocfilehash: efa632aa4a7fb5793694363d958a31e8a066a9b5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5a8df542e666975e207bd5a105cb4c1d7261b51f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289431"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818162"
 ---
 # <a name="call-admission-control-report-in-skype-for-business-server"></a>Relatório de controle de admissão de chamadas no Skype for Business Server
  

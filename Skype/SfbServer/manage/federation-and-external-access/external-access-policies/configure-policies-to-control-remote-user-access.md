@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Você pode configurar uma ou mais políticas de acesso de usuários externos para controlar se os usuários remotos podem colaborar com usuários internos do Skype for Business Server. Para controlar o acesso do usuário remoto, você pode configurar políticas nos níveis global, de site e de usuário.
-ms.openlocfilehash: 96d91179e7b99910182ff360920f3d46b80aa6f4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7735f15e61654f55a70f18ca032cd6b1613fec58
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280135"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818292"
 ---
 # <a name="configure-policies-to-control-remote-user-access-in-skype-for-business-server"></a>Configurar políticas para controlar o acesso de usuários remotos no Skype for Business Server
 

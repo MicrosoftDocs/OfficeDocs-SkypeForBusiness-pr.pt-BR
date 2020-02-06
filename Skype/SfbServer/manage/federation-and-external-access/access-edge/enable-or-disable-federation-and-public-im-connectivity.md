@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: O suporte para Federação é necessário para permitir que os usuários que têm uma conta com um cliente ou uma organização de parceiro confiável, incluindo domínios de parceiros e usuários de provedores de serviços de mensagens instantâneas (IM) que você dá suporte a colaborar com os usuários em seu porte.
-ms.openlocfilehash: 86cc3e66b2e3252b6b25ff4bef09d3abeb4badf0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2e24d670295a751c4cd3f41048fe1807b0fe1723
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280240"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818382"
 ---
 # <a name="enable-or-disable-federation-and-public-im-connectivity-in-skype-for-business-server"></a>Habilitar ou desabilitar a conectividade de mensagens de chat públicas e de Federação no Skype for Business Server
 
@@ -26,7 +28,7 @@ O suporte para Federação é necessário para permitir que os usuários que tê
 
 Para dar suporte ao acesso por usuários de domínios federados, você deve habilitar a Federação. Se você habilitar a Federação para sua organização, também deverá especificar se deseja implementar as seguintes opções:
 
-  - **Habilitar a descoberta**   de domínio de parceiro se você habilitar essa opção, o Skype for Business Server usará os registros de sistema de nome de domínio (DNS) para tentar descobrir domínios não listados na lista de domínios permitidos, avaliando automaticamente o tráfego de entrada de descoberto parceiros federados e limitando ou bloqueando o tráfego de acordo com o nível de confiança, a quantidade de tráfego e as configurações de administrador. Se você não selecionar essa opção, o acesso do usuário federado será habilitado somente para os usuários nos domínios que você incluir na lista de domínios permitidos. Independentemente de você selecionar essa opção, você pode especificar que domínios individuais sejam bloqueados ou permitidos, incluindo a restrição de acesso a servidores específicos que executam o serviço de borda de acesso no domínio federado. Para obter detalhes sobre o controle do acesso a domínios federados, consulte [Configurar o suporte para domínios externos permitidos](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server).
+  - **Habilitar a descoberta**   de domínio de parceiro se você habilitar essa opção, o Skype for Business Server usará registros de sistema de nome de domínio (DNS) para tentar descobrir domínios não listados na lista de domínios permitidos, avaliando automaticamente o tráfego de entrada de parceiros federados descobertos e limitando ou bloqueando o tráfego com base no nível de confiança, na quantidade de tráfego e nas configurações do administrador Se você não selecionar essa opção, o acesso do usuário federado será habilitado somente para os usuários nos domínios que você incluir na lista de domínios permitidos. Independentemente de você selecionar essa opção, você pode especificar que domínios individuais sejam bloqueados ou permitidos, incluindo a restrição de acesso a servidores específicos que executam o serviço de borda de acesso no domínio federado. Para obter detalhes sobre o controle do acesso a domínios federados, consulte [Configurar o suporte para domínios externos permitidos](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server).
 
   - **Enviar uma isenção de responsabilidade de arquivamento a**     um aviso de isenção de responsabilidade de parcerias federadas é enviada para parceiros federados que o arquivamento em sua implantação está em vigor. Se você oferecer suporte ao arquivamento de comunicações externas com domínios de parceiros federados, habilite a notificação de exclusão de isenção de arquivo para avisar os parceiros de que suas mensagens estão sendo arquivadas.
 
@@ -56,7 +58,7 @@ Se, mais tarde, você quiser impedir o acesso temporário ou permanente por usu�
     
     1.  Se você quiser dar suporte à descoberta automática de domínios de parceiros, marque a caixa de seleção **habilitar descoberta de domínio de parceiro** .
     
-    2.  Se a sua organização oferecer suporte para o arquivamento de comunicações externas, marque a caixa de seleção Enviar isenção de arquivo **para parceiros federados** .
+    2.  Se a sua organização oferecer suporte para o arquivamento de comunicações externas, marque a caixa de seleção **Enviar isenção de arquivo para parceiros federados** .
 
 7.  Clique em **Confirmar**.
 

@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: 'Resumo: gerenciar a autenticação de dois fatores no Skype for Business Server.'
-ms.openlocfilehash: ccda6795fa5033c792c293701d951e3111666e82
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 90dc286e247c0c6eeb75bb884071b85e57663278
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297558"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818713"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Gerenciar a autenticação de dois fatores no Skype for Business Server
  
@@ -69,7 +71,7 @@ Há várias considerações de implantação envolvendo as credenciais do Skype 
   
 ### <a name="deleting-saved-credentials"></a>Exclusão de Credenciais Salvas
 
-Os usuários devem usar a opção **excluir minhas informações de entrada** no cliente Skype for Business e excluir a pasta de perfil SIP do%LocalAppData%\Microsoft\Office\15.0\Skype for Business antes de tentar se conectar pela primeira vez usando dois fatores autenticação.
+Os usuários devem usar a opção **excluir minhas informações de entrada** no cliente Skype for Business e excluir a pasta de perfil SIP do%LocalAppData%\Microsoft\Office\15.0\Skype for Business antes de tentarem se conectar pela primeira vez usando a autenticação de dois fatores.
   
 ### <a name="disablentcredentials"></a>DisableNTCredentials
 

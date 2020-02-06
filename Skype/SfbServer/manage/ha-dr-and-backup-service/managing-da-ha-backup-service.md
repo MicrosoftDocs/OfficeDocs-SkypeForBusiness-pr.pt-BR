@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Saiba mais sobre os procedimentos para operações de recuperação de desastres, bem como para manter o serviço de backup, que sincroniza os dados em pools front-ends emparelhados.
-ms.openlocfilehash: 9664a7d9d48ca084232e2a0473a15d29d970cea6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bb8178b98d355159a92d7187884e5502912f4436
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303895"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818332"
 ---
 # <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>Gerenciamento de recuperação de desastres do Skype for Business Server, alta disponibilidade e serviço de backup
 

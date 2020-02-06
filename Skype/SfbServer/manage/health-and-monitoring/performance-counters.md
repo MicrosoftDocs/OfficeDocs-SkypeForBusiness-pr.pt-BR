@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
 description: 'Resumo: Saiba mais sobre os contadores de desempenho que você pode usar para monitorar servidores que executam a API da Web de comunicação unificada (UCWA) e o serviço de mobilidade do Skype for Business Server MCX.'
-ms.openlocfilehash: 91ca77b9719dc6b76ea9bb054856abf82bb3ebd4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e9a3ade40694ef18e1022388d48838822d409625
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279904"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817760"
 ---
 # <a name="mobility-performance-counters-in-skype-for-business-server"></a>Contadores de desempenho de mobilidade no Skype for Business Server
  

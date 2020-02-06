@@ -8,17 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.MediationServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3bad9844-2d3c-4ac7-adde-5b382f02d18d
 description: 'Esse nó mostra as portas de escuta e os gateways PSTN (rede telefônica pública comutada) desse pool de Mediação. É possível executar as seguintes ações:'
-ms.openlocfilehash: 5fc97d8f8c8681ad66f52cdec8e7b6373b49aae2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e3af86c4784f3726f6961e1a085ad69960a570ed
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684534"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819593"
 ---
 # <a name="mediation-server-scope-node"></a>Nó de Escopo do Servidor de Mediação
  

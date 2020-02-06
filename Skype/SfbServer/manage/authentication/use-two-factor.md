@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
 description: 'Resumo: Use a autenticação de dois fatores com o Skype for Business Server e o Skype for Business.'
-ms.openlocfilehash: 532e7567444b78dd30d053cf91aef1c10f0970bb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 378b76b61acd004dfe16f04dba922cc2b6fedc83
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286106"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818703"
 ---
 # <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server"></a>Usar a autenticação de dois fatores com o cliente Skype for Business e o Skype for Business Server
  

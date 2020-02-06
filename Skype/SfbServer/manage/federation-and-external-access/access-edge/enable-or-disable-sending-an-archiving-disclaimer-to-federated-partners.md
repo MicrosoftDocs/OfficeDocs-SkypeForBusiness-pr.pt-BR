@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: ''
-ms.openlocfilehash: c2f64a617cae938ffe64ec8db313402785413c49
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 889716377f89e2657adcd6e32c9077b8124e20c1
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280212"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818352"
 ---
 # <a name="enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners-in-skype-for-business-server"></a>Habilitar ou desabilitar o envio de uma isenção de responsabilidade de arquivamento para parceiros federados no Skype for Business Server
 
@@ -38,7 +40,7 @@ No momento em que você implantou seus servidores de borda e habilitou a Federa�
 
 4.  Na guia **Configuração de Borda de Acesso**, clique em **Global**, em **Editar** e clique em **Mostrar detalhes**.
 
-5.  Em **Editar configuração de borda de acesso**, em **habilitar comunicações com usuários federados**, marque ou desmarque a caixa de seleção **Enviar isenção de arquivamento para parceiros federados** para habilitar ou desabilitar o envio automático do arquivamento isenção.
+5.  Em **Editar configuração de borda de acesso**, em **habilitar comunicações com usuários federados**, marque ou desmarque a caixa de seleção **Enviar isenção de arquivo para parceiros federados** para habilitar ou desabilitar o envio automático da isenção de responsabilidade do arquivamento.
 
 6.  Clique em **Confirmar**.
 

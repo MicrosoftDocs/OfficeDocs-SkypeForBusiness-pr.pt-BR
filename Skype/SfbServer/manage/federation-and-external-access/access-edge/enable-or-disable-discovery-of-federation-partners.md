@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: No momento em que você implantou seus servidores de borda e habilitou a Federação para a sua organização, você deve especificar se deseja dar suporte à descoberta automática de domínios de parceiro federado.
-ms.openlocfilehash: a5569639cf870d2a5da16ef81aa733724a6701b3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a64e2056feacbee076fcaf9b0012a36f72c91523
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280254"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818392"
 ---
 # <a name="enable-or-disable-discovery-of-federation-partners-in-skype-for-business-server"></a>Habilitar ou desabilitar a descoberta de parceiros de Federação no Skype for Business Server
 

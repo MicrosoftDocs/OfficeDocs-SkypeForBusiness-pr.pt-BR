@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ea61428e-a1d5-4189-aae6-3db19ddc5cf2
 description: 'Resumo: Saiba mais sobre os relatórios de diagnóstico de qualidade de mídia no Skype for Business Server.'
-ms.openlocfilehash: d4ea9c56406799a6a053092e7b8ca16f44505ce7
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e02ea51681b31b524bf87005e7c4b4fcf48bef62
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280030"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817860"
 ---
 # <a name="media-quality-diagnostic-reports-in-skype-for-business-server"></a>Relatórios de diagnóstico de qualidade de mídia no Skype for Business Server
  

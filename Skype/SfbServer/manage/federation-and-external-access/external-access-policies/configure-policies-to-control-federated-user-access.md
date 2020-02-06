@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 'Quando você configura políticas para dar suporte a comunicações com parceiros federados, as políticas se aplicam a usuários de domínios federados. '
-ms.openlocfilehash: d9192589191590cd96f72323681ef4df6513e36d
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 2e9385436427fd73f90e308d7747cf304bf37501
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991756"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818312"
 ---
 # <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>Configurar políticas para controlar o acesso de usuários federados no Skype for Business Server
 

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
 description: 'Resumo: Saiba mais sobre o relatório de distribuição de métricas de qualidade de mídia no Skype for Business Server.'
-ms.openlocfilehash: 0376f75ff94b1b189c15e53aa7259880da96554a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f656a44ac1437a9c57cb5efe757757e7d695c2a5
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280037"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817850"
 ---
 # <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>O relatório de distribuição de métricas de qualidade de mídia no Skype for Business Server 
  
@@ -32,8 +34,8 @@ O Relatório de Distribuição da Métrica de Qualidade de Mídia permite ver um
 |5  <br/> |50  <br/> |
 |6  <br/> |50  <br/> |
 |7  <br/> |50  <br/> |
-|08  <br/> |4550  <br/> |
-|222  <br/> |50  <br/> |
+|8  <br/> |4550  <br/> |
+|9  <br/> |50  <br/> |
 |254  <br/> |50  <br/> |
    
 A média para esses tempos de ida e volta é de 500 milissegundos (5000 dividido por 10). Quinhentos milissegundos é um tempo de ida e volta extremamente grande; como resultado, você pode achar que tem um grave problema com congestionamento de rede. (Tempo de ida e volta longo geralmente é resultado de redes sobrecarregadas.)

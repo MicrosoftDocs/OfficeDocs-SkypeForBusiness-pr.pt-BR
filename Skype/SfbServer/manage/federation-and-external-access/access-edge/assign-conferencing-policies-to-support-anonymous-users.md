@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Você controla quem pode convidar usuários anônimos Configurando uma política de conferência para dar suporte a usuários anônimos e aplicar essa política de conferência a usuários específicos.
-ms.openlocfilehash: d7956e68db3330f0804e6161e0eeaf52958bc588
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b5427ec96d3593cf87656f562acf0afc183b92d6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280282"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818412"
 ---
 # <a name="assign-conferencing-policies-to-support-anonymous-users-in-skype-for-business-server"></a>Atribuir políticas de conferência para dar suporte a usuários anônimos no Skype for Business Server 
 

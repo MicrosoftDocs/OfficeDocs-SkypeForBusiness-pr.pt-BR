@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: a conectividade de mensagens de chat (IM) do ublic permite que os usuários em sua organização usem mensagens instantâneas para se comunicar com os usuários de serviços de mensagens instantâneas fornecidos pelos provedores de serviço de IM públicos.
-ms.openlocfilehash: 230c3405a9d0a551758bee63fae8f927fdc5af19
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d661ca9a4ef7840cbc955d0c999ae5a1490a63cb
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280156"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818302"
 ---
 # <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>Configurar políticas para controlar o acesso de usuários públicos no Skype for Business Server
 

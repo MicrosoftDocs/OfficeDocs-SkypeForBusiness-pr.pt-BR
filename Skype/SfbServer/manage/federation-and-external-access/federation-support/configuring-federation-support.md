@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 'Se você implantar o Skype for Business em sua organização, poderá federar-se com os domínios de um ou mais clientes do Skype for Business online. '
-ms.openlocfilehash: c6cf36abbbf8876a8aa349d4576b45220517b89e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f6b0cbb439910b97d6fcbb0fee78825b0aff9dce
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280107"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818252"
 ---
 # <a name="configuring-federation-support-for-a-skype-for-business-online-customer-in-skype-for-business-server"></a>Configurando o suporte de Federação para um cliente do Skype for Business online no Skype for Business Server 
 
