@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 1697ea71-6fcf-480d-b4e9-cd79f94d247e
 description: 'Resumo: saiba como monitorar os limites de capacidade de memória do servidor no Skype for Business Server.'
-ms.openlocfilehash: f089ab9b5be693872754691050133ad27e992896
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4f56fec8f3ed6900f4c4f1a97286dc14b66bb7c8
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279820"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817700"
 ---
 # <a name="monitor-for-server-memory-capacity-limits-in-skype-for-business-server"></a>Monitorar os limites de capacidade de memória do servidor no Skype for Business Server
  
@@ -35,11 +37,11 @@ Dois contadores de desempenho de mobilidade podem ajudar você a determinar o se
     
 Se a diferença entre **Contagem atual de sessão ativa com assinaturas de presença ativa** e **Contagem atual de sessão ativa** for pequena com o passar do tempo, isso significa que a maioria dos usuários de dispositivos móveis tem um dispositivo sempre conectado, como um dispositivo Android ou Nokia (somente para Mcx). Os dispositivos UCWA sempre conectados incluem dispositivos Apple e Android que executam clientes móveis do Lync 2013). Se **Contagem atual de sessão ativa** for muito maior que **Contagem atual de sessão ativa com assinaturas de presença ativa**, isso mostra que mais usuários estão usando um dispositivo de ponto de extremidade de plano de fundo, como um dispositivo Apple iOS ou um Windows Phone com Mcx. (O Windows Phone é o único cliente móvel do Lync 2013 que será registrado como este).
   
-Você deve definir um limite na **contagem de sessões ativas atualmente com assinaturas de presença ativas** e contadores de desempenho de **contagem de sessões ativas no momento** com base no uso esperado, nos resultados de planejamento de capacidade e na monitoração contínua de Serviço de mobilidade e outros contadores de servidor front-end. Os limites que você definir devem permitir a avaliação da capacidade do servidor e emitir alertas quando a capacidade for excedida.
+Você deve definir um limite na **contagem de sessões ativas atualmente com assinaturas de presença ativas** e contadores de desempenho de **contagem de sessões ativas no momento** com base no uso esperado, nos resultados de planejamento de capacidade e na monitoração contínua do serviço de mobilidade e em outros contadores de servidor front-end. Os limites que você definir devem permitir a avaliação da capacidade do servidor e emitir alertas quando a capacidade for excedida.
   
 Para determinar os limites apropriados, você precisa primeiro determinar a quantidade de memória disponível no servidor front-end para o serviço de mobilidade. Monitore os contadores determinar quando você precisa planejar uma capacidade extra, de acordo com a fórmula a seguir:
   
-Total de memória usada pelo serviço de mobilidade do MCX (MB) = 164 + (400 + 134)/1024 * **contagem de sessões ativas atualmente com assinaturas de presença ativas** + 400 **** - /1024 * (contagem de sessões ativas atualmente**ativas atualmente com Assinaturas de presença ativas**)
+Total de memória usada pelo serviço de mobilidade do MCX (MB) = 164 + (400 + 134)/1024 * **contagem de sessões ativas atualmente com assinaturas de presença ativas** + 400/1024 *** (** - contagem de sessões ativas atualmente ativas**atualmente com assinaturas de presença ativas**)
   
 > [!IMPORTANT]
 > A calculadora de capacidade do Microsoft Lync Server 2010 é uma planilha preenchida previamente com todas as fórmulas que permitem que um planejador determine quais são os requisitos para os servidores do Skype for Business, incluindo CPU, memória e disco rígido. Você pode [baixar a planilha e um documento associado](https://go.microsoft.com/fwlink/p/?LinkID=212657). 

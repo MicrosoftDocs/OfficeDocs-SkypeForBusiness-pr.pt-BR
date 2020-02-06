@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 3248b320-a552-400a-8485-6891af4eb0f3
 description: 'Resumo: Saiba mais sobre o aplicativo de grupo de resposta no Skype for Business Server.'
-ms.openlocfilehash: 8d178357646fb8f3bfad82ecdedd81ce19a8107a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: a8b70b2cafae7a8710d87e9a1cd2c28ae6e57ef1
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991726"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817720"
 ---
 # <a name="response-group-usage-report-in-skype-for-business-server"></a>Relatório de uso do grupo de resposta no Skype for Business Server
 

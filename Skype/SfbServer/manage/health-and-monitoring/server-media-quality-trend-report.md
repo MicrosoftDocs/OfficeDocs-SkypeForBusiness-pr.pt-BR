@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
 description: 'Resumo: Saiba mais sobre o relatório de tendências de qualidade de mídia do servidor no Skype for Business Server.'
-ms.openlocfilehash: 0ed819c40088c03ca1882ed035b416bf1427e840
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: eca6aa75d7b831356da15a86692658019b3c0d54
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279827"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817710"
 ---
 # <a name="server-media-quality-trend-report-in-skype-for-business-server"></a>Relatório de tendências de qualidade de mídia do servidor no Skype for Business Server
  
@@ -29,7 +31,7 @@ O Relatório de Tendências de Qualidade de Mídia do Servidor pode ser acessado
   
 - [Relatório de desempenho do servidor no Skype for Business Server](server-performance.md) (clicando na métrica de tendência)
     
-- [Relatório de detalhes da chamada no Skype for Business Server](call-detail-report.md) (clicando na métrica de servidor de borda A/V. Se o chamador ou o receptor for um servidor, você também poderá acessar o relatório de tendências de mídia de qualidade do servidor clicando no nome do ponto de extremidade.)
+- [Relatório de detalhes de chamadas no Skype for Business Server](call-detail-report.md) (clicando na métrica de servidor de borda a/V. Se o chamador ou o receptor for um servidor, você também poderá acessar o relatório de tendências de mídia de qualidade do servidor clicando no nome do ponto de extremidade.)
     
 ## <a name="making-the-best-use-of-server-media-quality-trend-report"></a>Aproveitando ao máximo o Relatório de Tendências de Qualidade de Mídia do Servidor
 
