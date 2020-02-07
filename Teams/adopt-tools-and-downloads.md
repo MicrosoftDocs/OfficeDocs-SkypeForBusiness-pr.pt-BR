@@ -10,6 +10,8 @@ layout: LandingPage
 ms.date: 11/20/2018
 audience: admin
 ms.service: msteams
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
@@ -17,12 +19,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 211ea38343c2bb62a8dec479c62a2c8c4d1ace9d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a4de926de9fe56bb4ca5c5068a3b5dcb335e09f2
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236649"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827129"
 ---
 # <a name="tools-for-driving-adoption"></a>Ferramentas para conduzir a adoção 
 
@@ -153,4 +155,4 @@ O programa campeões do Office 365 é um programa gratuito que ajuda as pessoas 
 Confira a [adoção do teams quadro a quadro](https://aka.ms/teamstoolkit), um guia online que ajudará você a implantar equipes em sua empresa. Ele inclui muitas ferramentas, modelos e outros recursos disponíveis para download, além de outros recursos para ajudá-lo na jornada de adoção do seu Teams.
 
 ### <a name="teams-customer-success-kit"></a>Kit de sucesso do cliente do teams
-O [Kit de sucesso do cliente](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) do teams fornece ferramentas para ajudá-lo a implantar equipes em sua organização. Inclui modelos de email para anúncios, cartazes, contagem regressiva e dicas & truques. Ele também inclui guias de introdução para líderes da equipe e administradores de ti.
+O [Kit de sucesso do cliente do teams](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) fornece ferramentas para ajudá-lo a implantar equipes em sua organização. Inclui modelos de email para anúncios, cartazes, contagem regressiva e dicas & truques. Ele também inclui guias de introdução para líderes da equipe e administradores de ti.

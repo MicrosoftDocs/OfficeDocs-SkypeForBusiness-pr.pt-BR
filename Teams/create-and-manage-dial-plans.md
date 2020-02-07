@@ -16,81 +16,81 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Calling Plans
 description: Saiba como criar e gerenciar planos de discagem de chamada PSTN (planos de discagem de chamada PSTN) e como gerenciá-los.
-ms.openlocfilehash: e61fb8c2ffd5c13816ff0093fc117dfadb251594
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 774b0a78f39b91b634ed0833be3497935cb25c4f
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707256"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826919"
 ---
-# <a name="create-and-manage-dial-plans"></a><span data-ttu-id="1c8dd-103">Criar e gerenciar planos de discagem</span><span class="sxs-lookup"><span data-stu-id="1c8dd-103">Create and manage dial plans</span></span>
+# <a name="create-and-manage-dial-plans"></a><span data-ttu-id="b7435-103">Criar e gerenciar planos de discagem</span><span class="sxs-lookup"><span data-stu-id="b7435-103">Create and manage dial plans</span></span>
 
-<span data-ttu-id="1c8dd-104">Depois de planejar os planos de discagem para a sua organização e descobrir todas as regras de normalização que precisam ser criadas para o encaminhamento de chamadas, você estará pronto para criar os planos de discagem.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-104">After you plan the dial plans for your organization and figured out all the normalization rules that need to be created for call routing, you're ready to create the dial plans.</span></span> <span data-ttu-id="1c8dd-105">Você pode usar o centro de administração do Microsoft Teams ou o Windows PowerShell para criar e gerenciar planos de discagem.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-105">You can use the Microsoft Teams admin center or Windows PowerShell to create and manage dial plans.</span></span>  
+<span data-ttu-id="b7435-104">Depois de planejar os planos de discagem para a sua organização e descobrir todas as regras de normalização que precisam ser criadas para o encaminhamento de chamadas, você estará pronto para criar os planos de discagem.</span><span class="sxs-lookup"><span data-stu-id="b7435-104">After you plan the dial plans for your organization and figured out all the normalization rules that need to be created for call routing, you're ready to create the dial plans.</span></span> <span data-ttu-id="b7435-105">Você pode usar o centro de administração do Microsoft Teams ou o Windows PowerShell para criar e gerenciar planos de discagem.</span><span class="sxs-lookup"><span data-stu-id="b7435-105">You can use the Microsoft Teams admin center or Windows PowerShell to create and manage dial plans.</span></span>  
 
-## <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="1c8dd-106">Usar o centro de administração do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="1c8dd-106">Using the Microsoft Teams admin center</span></span>
+## <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="b7435-106">Usar o centro de administração do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="b7435-106">Using the Microsoft Teams admin center</span></span>
 
-### <a name="create-a-dial-plan"></a><span data-ttu-id="1c8dd-107">Criar um plano de discagem</span><span class="sxs-lookup"><span data-stu-id="1c8dd-107">Create a dial plan</span></span>
+### <a name="create-a-dial-plan"></a><span data-ttu-id="b7435-107">Criar um plano de discagem</span><span class="sxs-lookup"><span data-stu-id="b7435-107">Create a dial plan</span></span>
 
-1. <span data-ttu-id="1c8dd-108">Na navegação à esquerda do centro de administração do Microsoft Teams, vá para**plano de discagem**por **voz** > .</span><span class="sxs-lookup"><span data-stu-id="1c8dd-108">In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Dial plan**.</span></span>
-2. <span data-ttu-id="1c8dd-109">Clique em **Adicionar**e, em seguida, insira um nome e uma descrição para o plano de discagem.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-109">Click **Add**, and then enter a name and description for the dial plan.</span></span>
-    <span data-ttu-id="1c8dd-110">![Captura de tela mostrando a página Adicionar para criar um plano de discagem](media/create-dial-plan.png)</span><span class="sxs-lookup"><span data-stu-id="1c8dd-110">![Screenshot showing the Add page for creating a dial plan](media/create-dial-plan.png)</span></span>
-3. <span data-ttu-id="1c8dd-111">Em **detalhes do plano de discagem**, especifique um prefixo de discagem externo se os usuários precisarem discar um ou mais dígitos iniciais adicionais (por exemplo, 9) para obter uma linha externa.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-111">Under **Dial plan details**, specify an external dialing prefix if users need to dial one or more additional leading digits (for example, 9) to get an external line.</span></span> <span data-ttu-id="1c8dd-112">Para fazer isso:</span><span class="sxs-lookup"><span data-stu-id="1c8dd-112">To do this:</span></span>
-    1. <span data-ttu-id="1c8dd-113">Na caixa **prefixo de discagem externo** , insira um prefixo de discagem externo.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-113">In the **External dialing prefix** box, enter an external dialing prefix.</span></span> <span data-ttu-id="1c8dd-114">O prefixo pode ter até quatro caracteres (#, \* e 0-9).</span><span class="sxs-lookup"><span data-stu-id="1c8dd-114">The prefix can be up to four characters (#,\*, and 0-9).</span></span>
-    2. <span data-ttu-id="1c8dd-115">Ative a **discagem otimizada de dispositivo**.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-115">Turn on **Optimized device dialing**.</span></span> <span data-ttu-id="1c8dd-116">Se você especificar um prefixo de discagem externo, também deverá ativar essa configuração para aplicar o prefixo para que as chamadas possam ser feitas fora de sua organização.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-116">If you specify an external dialing prefix, you must also turn on this setting to apply the prefix so calls can be made outside your organization.</span></span>
-4. <span data-ttu-id="1c8dd-117">Em **regras de normalização**, configure e associe uma ou mais [regras de normalização](what-are-dial-plans.md#normalization-rules) para o plano de discagem.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-117">Under **Normalization rules**, configure and associate one or more [normalization rules](what-are-dial-plans.md#normalization-rules) for the dial plan.</span></span> <span data-ttu-id="1c8dd-118">Cada plano de discagem deve ter pelo menos uma regra de normalidade associada a ele.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-118">Each dial plan must have at least one normalization rule associated with it.</span></span>  <span data-ttu-id="1c8dd-119">Para fazer isso, siga um ou mais destes procedimentos:</span><span class="sxs-lookup"><span data-stu-id="1c8dd-119">To do this, do one or more of the following:</span></span>
-    - <span data-ttu-id="1c8dd-120">Para criar uma nova regra de normalização e associá-la ao plano de discagem, clique em **Adicionar**e, em seguida, defina a regra.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-120">To create a new normalization rule and associate it with the dial plan, click **Add**, and then define the rule.</span></span>
-    - <span data-ttu-id="1c8dd-121">Para editar uma regra de normalização que já esteja associada ao plano de discagem, selecione a regra clicando à esquerda do nome da regra e, em seguida, clique em **Editar**.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-121">To edit a normalization rule that's already associated with the dial plan, select the rule by clicking to the left of the rule name, and then click **Edit**.</span></span> <span data-ttu-id="1c8dd-122">Faça as alterações desejadas e clique em **salvar**.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-122">Make the changes you want, and then click **Save**.</span></span>
-    - <span data-ttu-id="1c8dd-123">Para remover uma regra de normalização do plano de discagem, selecione a regra clicando à esquerda do nome da regra e, em seguida, clique em **remover**.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-123">To remove a normalization rule from the dial plan, select the rule by clicking to the left of the rule name, and then click **Remove**.</span></span>
-5. <span data-ttu-id="1c8dd-124">Organize as regras de normalização na ordem desejada.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-124">Arrange the normalization rules in the order that you want.</span></span> <span data-ttu-id="1c8dd-125">Clique em **mover para cima** ou mover para **baixo** para alterar a posição das regras na lista.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-125">Click **Move up** or **Move down** to change the position of rules in the list.</span></span>
+1. <span data-ttu-id="b7435-108">Na navegação à esquerda do centro de administração do Microsoft Teams, vá para**plano de discagem**por **voz** > .</span><span class="sxs-lookup"><span data-stu-id="b7435-108">In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Dial plan**.</span></span>
+2. <span data-ttu-id="b7435-109">Clique em **Adicionar**e, em seguida, insira um nome e uma descrição para o plano de discagem.</span><span class="sxs-lookup"><span data-stu-id="b7435-109">Click **Add**, and then enter a name and description for the dial plan.</span></span>
+    <span data-ttu-id="b7435-110">![Captura de tela mostrando a página Adicionar para criar um plano de discagem](media/create-dial-plan.png)</span><span class="sxs-lookup"><span data-stu-id="b7435-110">![Screenshot showing the Add page for creating a dial plan](media/create-dial-plan.png)</span></span>
+3. <span data-ttu-id="b7435-111">Em **detalhes do plano de discagem**, especifique um prefixo de discagem externo se os usuários precisarem discar um ou mais dígitos iniciais adicionais (por exemplo, 9) para obter uma linha externa.</span><span class="sxs-lookup"><span data-stu-id="b7435-111">Under **Dial plan details**, specify an external dialing prefix if users need to dial one or more additional leading digits (for example, 9) to get an external line.</span></span> <span data-ttu-id="b7435-112">Para fazer isso:</span><span class="sxs-lookup"><span data-stu-id="b7435-112">To do this:</span></span>
+    1. <span data-ttu-id="b7435-113">Na caixa **prefixo de discagem externo** , insira um prefixo de discagem externo.</span><span class="sxs-lookup"><span data-stu-id="b7435-113">In the **External dialing prefix** box, enter an external dialing prefix.</span></span> <span data-ttu-id="b7435-114">O prefixo pode ter até quatro caracteres (#, \* e 0-9).</span><span class="sxs-lookup"><span data-stu-id="b7435-114">The prefix can be up to four characters (#,\*, and 0-9).</span></span>
+    2. <span data-ttu-id="b7435-115">Ative a **discagem otimizada de dispositivo**.</span><span class="sxs-lookup"><span data-stu-id="b7435-115">Turn on **Optimized device dialing**.</span></span> <span data-ttu-id="b7435-116">Se você especificar um prefixo de discagem externo, também deverá ativar essa configuração para aplicar o prefixo para que as chamadas possam ser feitas fora de sua organização.</span><span class="sxs-lookup"><span data-stu-id="b7435-116">If you specify an external dialing prefix, you must also turn on this setting to apply the prefix so calls can be made outside your organization.</span></span>
+4. <span data-ttu-id="b7435-117">Em **regras de normalização**, configure e associe uma ou mais [regras de normalização](what-are-dial-plans.md#normalization-rules) para o plano de discagem.</span><span class="sxs-lookup"><span data-stu-id="b7435-117">Under **Normalization rules**, configure and associate one or more [normalization rules](what-are-dial-plans.md#normalization-rules) for the dial plan.</span></span> <span data-ttu-id="b7435-118">Cada plano de discagem deve ter pelo menos uma regra de normalidade associada a ele.</span><span class="sxs-lookup"><span data-stu-id="b7435-118">Each dial plan must have at least one normalization rule associated with it.</span></span>  <span data-ttu-id="b7435-119">Para fazer isso, siga um ou mais destes procedimentos:</span><span class="sxs-lookup"><span data-stu-id="b7435-119">To do this, do one or more of the following:</span></span>
+    - <span data-ttu-id="b7435-120">Para criar uma nova regra de normalização e associá-la ao plano de discagem, clique em **Adicionar**e, em seguida, defina a regra.</span><span class="sxs-lookup"><span data-stu-id="b7435-120">To create a new normalization rule and associate it with the dial plan, click **Add**, and then define the rule.</span></span>
+    - <span data-ttu-id="b7435-121">Para editar uma regra de normalização que já esteja associada ao plano de discagem, selecione a regra clicando à esquerda do nome da regra e, em seguida, clique em **Editar**.</span><span class="sxs-lookup"><span data-stu-id="b7435-121">To edit a normalization rule that's already associated with the dial plan, select the rule by clicking to the left of the rule name, and then click **Edit**.</span></span> <span data-ttu-id="b7435-122">Faça as alterações desejadas e clique em **salvar**.</span><span class="sxs-lookup"><span data-stu-id="b7435-122">Make the changes you want, and then click **Save**.</span></span>
+    - <span data-ttu-id="b7435-123">Para remover uma regra de normalização do plano de discagem, selecione a regra clicando à esquerda do nome da regra e, em seguida, clique em **remover**.</span><span class="sxs-lookup"><span data-stu-id="b7435-123">To remove a normalization rule from the dial plan, select the rule by clicking to the left of the rule name, and then click **Remove**.</span></span>
+5. <span data-ttu-id="b7435-124">Organize as regras de normalização na ordem desejada.</span><span class="sxs-lookup"><span data-stu-id="b7435-124">Arrange the normalization rules in the order that you want.</span></span> <span data-ttu-id="b7435-125">Clique em **mover para cima** ou mover para **baixo** para alterar a posição das regras na lista.</span><span class="sxs-lookup"><span data-stu-id="b7435-125">Click **Move up** or **Move down** to change the position of rules in the list.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="1c8dd-126">O Microsoft Teams percorre a lista de regras de normalização do início e usa a primeira regra que corresponde ao número discado.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-126">Teams traverses the list of normalization rules from the top down and uses the first rule that matches the dialed number.</span></span> <span data-ttu-id="1c8dd-127">Se você configurar um plano de discagem para que um número discado possa corresponder a mais de uma regra de normalização, certifique-se de que as regras mais restritivas sejam classificadas acima das menos restritivas.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-127">If you set up a dial plan so that a dialed number can match more than one normalization rule, make sure the more restrictive rules are sorted above the less restrictive ones.</span></span>
+    > <span data-ttu-id="b7435-126">O Microsoft Teams percorre a lista de regras de normalização do início e usa a primeira regra que corresponde ao número discado.</span><span class="sxs-lookup"><span data-stu-id="b7435-126">Teams traverses the list of normalization rules from the top down and uses the first rule that matches the dialed number.</span></span> <span data-ttu-id="b7435-127">Se você configurar um plano de discagem para que um número discado possa corresponder a mais de uma regra de normalização, certifique-se de que as regras mais restritivas sejam classificadas acima das menos restritivas.</span><span class="sxs-lookup"><span data-stu-id="b7435-127">If you set up a dial plan so that a dialed number can match more than one normalization rule, make sure the more restrictive rules are sorted above the less restrictive ones.</span></span>
 
-6. <span data-ttu-id="1c8dd-128">Clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-128">Click **Save**.</span></span>
-7. <span data-ttu-id="1c8dd-129">Se você quiser testar o plano de discagem, em **testar plano de discagem**, insira um número de telefone e clique em **testar**.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-129">If you want to test the dial plan, under **Test dial plan**, enter a phone number, and then click **Test**.</span></span>
+6. <span data-ttu-id="b7435-128">Clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="b7435-128">Click **Save**.</span></span>
+7. <span data-ttu-id="b7435-129">Se você quiser testar o plano de discagem, em **testar plano de discagem**, insira um número de telefone e clique em **testar**.</span><span class="sxs-lookup"><span data-stu-id="b7435-129">If you want to test the dial plan, under **Test dial plan**, enter a phone number, and then click **Test**.</span></span>
 
-### <a name="edit-a-dial-plan"></a><span data-ttu-id="1c8dd-130">Editar um plano de discagem</span><span class="sxs-lookup"><span data-stu-id="1c8dd-130">Edit a dial plan</span></span>
+### <a name="edit-a-dial-plan"></a><span data-ttu-id="b7435-130">Editar um plano de discagem</span><span class="sxs-lookup"><span data-stu-id="b7435-130">Edit a dial plan</span></span>
 
-1. <span data-ttu-id="1c8dd-131">Na navegação à esquerda do centro de administração do Microsoft Teams, vá para**plano de discagem**por **voz** > .</span><span class="sxs-lookup"><span data-stu-id="1c8dd-131">In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Dial plan**.</span></span>
-2. <span data-ttu-id="1c8dd-132">Selecione o plano de discagem clicando à esquerda do nome do plano de discagem e, em seguida, clique em **Editar**.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-132">Select the dial plan by clicking to the left of the dial plan name, and then click **Edit**.</span></span>
-3. <span data-ttu-id="1c8dd-133">Faça as alterações desejadas e clique em **salvar**.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-133">Make the changes that you want, and then click **Save**.</span></span>
+1. <span data-ttu-id="b7435-131">Na navegação à esquerda do centro de administração do Microsoft Teams, vá para**plano de discagem**por **voz** > .</span><span class="sxs-lookup"><span data-stu-id="b7435-131">In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Dial plan**.</span></span>
+2. <span data-ttu-id="b7435-132">Selecione o plano de discagem clicando à esquerda do nome do plano de discagem e, em seguida, clique em **Editar**.</span><span class="sxs-lookup"><span data-stu-id="b7435-132">Select the dial plan by clicking to the left of the dial plan name, and then click **Edit**.</span></span>
+3. <span data-ttu-id="b7435-133">Faça as alterações desejadas e clique em **salvar**.</span><span class="sxs-lookup"><span data-stu-id="b7435-133">Make the changes that you want, and then click **Save**.</span></span>
 
-### <a name="add-users-to-a-dial-plan"></a><span data-ttu-id="1c8dd-134">Adicionar usuários a um plano de discagem</span><span class="sxs-lookup"><span data-stu-id="1c8dd-134">Add users to a dial plan</span></span>
+### <a name="add-users-to-a-dial-plan"></a><span data-ttu-id="b7435-134">Adicionar usuários a um plano de discagem</span><span class="sxs-lookup"><span data-stu-id="b7435-134">Add users to a dial plan</span></span>
 
-1. <span data-ttu-id="1c8dd-135">Na navegação à esquerda do centro de administração do Microsoft Teams, vá para**plano de discagem**por **voz** > .</span><span class="sxs-lookup"><span data-stu-id="1c8dd-135">In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Dial plan**.</span></span>
-2. <span data-ttu-id="1c8dd-136">Selecione o plano de discagem clicando à esquerda do nome do plano de discagem.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-136">Select the dial plan by clicking to the left of the dial plan name.</span></span>
-3. <span data-ttu-id="1c8dd-137">Escolha **Gerenciar usuários**.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-137">Select **Manage users**.</span></span>
-4. <span data-ttu-id="1c8dd-138">No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-138">In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**.</span></span> <span data-ttu-id="1c8dd-139">Repita esta etapa para cada usuário que você deseja adicionar.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-139">Repeat this step for each user that you want to add.</span></span>
-5. <span data-ttu-id="1c8dd-140">Quando tiver terminado de adicionar usuários, selecione **aplicar**.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-140">When you're finished adding users, select **Apply**.</span></span>
+1. <span data-ttu-id="b7435-135">Na navegação à esquerda do centro de administração do Microsoft Teams, vá para**plano de discagem**por **voz** > .</span><span class="sxs-lookup"><span data-stu-id="b7435-135">In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Dial plan**.</span></span>
+2. <span data-ttu-id="b7435-136">Selecione o plano de discagem clicando à esquerda do nome do plano de discagem.</span><span class="sxs-lookup"><span data-stu-id="b7435-136">Select the dial plan by clicking to the left of the dial plan name.</span></span>
+3. <span data-ttu-id="b7435-137">Escolha **Gerenciar usuários**.</span><span class="sxs-lookup"><span data-stu-id="b7435-137">Select **Manage users**.</span></span>
+4. <span data-ttu-id="b7435-138">No painel **Gerenciar usuários**, procure o usuário pelo nome de exibição ou pelo nome de usuário, escolha o nome e marque **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="b7435-138">In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**.</span></span> <span data-ttu-id="b7435-139">Repita esta etapa para cada usuário que você deseja adicionar.</span><span class="sxs-lookup"><span data-stu-id="b7435-139">Repeat this step for each user that you want to add.</span></span>
+5. <span data-ttu-id="b7435-140">Quando tiver terminado de adicionar usuários, selecione **aplicar**.</span><span class="sxs-lookup"><span data-stu-id="b7435-140">When you're finished adding users, select **Apply**.</span></span>
 
-## <a name="using-powershell"></a><span data-ttu-id="1c8dd-141">Usando o PowerShell</span><span class="sxs-lookup"><span data-stu-id="1c8dd-141">Using PowerShell</span></span>
+## <a name="using-powershell"></a><span data-ttu-id="b7435-141">Usando o PowerShell</span><span class="sxs-lookup"><span data-stu-id="b7435-141">Using PowerShell</span></span>
   
-### <a name="verify-and-start-remote-powershell"></a><span data-ttu-id="1c8dd-142">Verificar e iniciar o PowerShell remoto</span><span class="sxs-lookup"><span data-stu-id="1c8dd-142">Verify and start Remote PowerShell</span></span>
+### <a name="verify-and-start-remote-powershell"></a><span data-ttu-id="b7435-142">Verificar e iniciar o PowerShell remoto</span><span class="sxs-lookup"><span data-stu-id="b7435-142">Verify and start Remote PowerShell</span></span>
 
- <span data-ttu-id="1c8dd-143">**Verifique se você está executando o Windows PowerShell versão 3,0 ou posterior**</span><span class="sxs-lookup"><span data-stu-id="1c8dd-143">**Check that you are running Windows PowerShell version 3.0 or later**</span></span>
+ <span data-ttu-id="b7435-143">**Verifique se você está executando o Windows PowerShell versão 3,0 ou posterior**</span><span class="sxs-lookup"><span data-stu-id="b7435-143">**Check that you are running Windows PowerShell version 3.0 or later**</span></span>
   
-1. <span data-ttu-id="1c8dd-144">Para verificar se você está executando a versão 3,0 ou superior: **menu** > iniciar**Windows PowerShell**.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-144">To verify that you're running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.</span></span>
+1. <span data-ttu-id="b7435-144">Para verificar se você está executando a versão 3,0 ou superior: **menu** > iniciar**Windows PowerShell**.</span><span class="sxs-lookup"><span data-stu-id="b7435-144">To verify that you're running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.</span></span>
     
-2. <span data-ttu-id="1c8dd-145">Verifique a versão digitando  _Get-Host_ na janela do **Windows PowerShell**.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-145">Check the version by typing  _Get-Host_ in the **Windows PowerShell** window.</span></span>
+2. <span data-ttu-id="b7435-145">Verifique a versão digitando  _Get-Host_ na janela do **Windows PowerShell**.</span><span class="sxs-lookup"><span data-stu-id="b7435-145">Check the version by typing  _Get-Host_ in the **Windows PowerShell** window.</span></span>
     
-3. <span data-ttu-id="1c8dd-146">Se você não tiver a versão 3,0 ou posterior, baixe e instale atualizações para o Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-146">If you don't have version 3.0 or later, download and install updates to Windows PowerShell.</span></span> <span data-ttu-id="1c8dd-147">Consulte [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) para baixar e atualizar o Windows PowerShell para a versão 4,0.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-147">See [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) to download and update Windows PowerShell to version 4.0.</span></span> <span data-ttu-id="1c8dd-148">Reinicie o computador quando for solicitado.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-148">Restart your computer when you're prompted.</span></span>
+3. <span data-ttu-id="b7435-146">Se você não tiver a versão 3,0 ou posterior, baixe e instale atualizações para o Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="b7435-146">If you don't have version 3.0 or later, download and install updates to Windows PowerShell.</span></span> <span data-ttu-id="b7435-147">Consulte [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) para baixar e atualizar o Windows PowerShell para a versão 4,0.</span><span class="sxs-lookup"><span data-stu-id="b7435-147">See [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) to download and update Windows PowerShell to version 4.0.</span></span> <span data-ttu-id="b7435-148">Reinicie o computador quando for solicitado.</span><span class="sxs-lookup"><span data-stu-id="b7435-148">Restart your computer when you're prompted.</span></span>
     
-4. <span data-ttu-id="1c8dd-149">Você também precisará instalar o módulo do Windows PowerShell para o Skype for Business online que permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype for Business online.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-149">You'll also need to install the Windows PowerShell module for Skype for Business Online that enables you to create a remote Windows PowerShell session that connects to Skype for Business Online.</span></span> <span data-ttu-id="1c8dd-150">Você pode baixar esse módulo, que tem suporte apenas em computadores de 64 bits, no [módulo do Windows PowerShell para Skype for Business online](https://go.microsoft.com/fwlink/?LinkId=294688).</span><span class="sxs-lookup"><span data-stu-id="1c8dd-150">You can download this module, which is supported only on 64-bit computers, at [Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688).</span></span> <span data-ttu-id="1c8dd-151">Reinicie o computador se for solicitado.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-151">Restart your computer if you're prompted.</span></span>
+4. <span data-ttu-id="b7435-149">Você também precisará instalar o módulo do Windows PowerShell para o Skype for Business online que permite que você crie uma sessão remota do Windows PowerShell que se conecta ao Skype for Business online.</span><span class="sxs-lookup"><span data-stu-id="b7435-149">You'll also need to install the Windows PowerShell module for Skype for Business Online that enables you to create a remote Windows PowerShell session that connects to Skype for Business Online.</span></span> <span data-ttu-id="b7435-150">Você pode baixar esse módulo, que tem suporte apenas em computadores de 64 bits, no [módulo do Windows PowerShell para Skype for Business online](https://go.microsoft.com/fwlink/?LinkId=294688).</span><span class="sxs-lookup"><span data-stu-id="b7435-150">You can download this module, which is supported only on 64-bit computers, at [Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688).</span></span> <span data-ttu-id="b7435-151">Reinicie o computador se for solicitado.</span><span class="sxs-lookup"><span data-stu-id="b7435-151">Restart your computer if you're prompted.</span></span>
     
-<span data-ttu-id="1c8dd-152">Para saber mais, confira [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).</span><span class="sxs-lookup"><span data-stu-id="1c8dd-152">To learn more, see [Connect to all Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).</span></span>
+<span data-ttu-id="b7435-152">Para saber mais, confira [conectar-se a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).</span><span class="sxs-lookup"><span data-stu-id="b7435-152">To learn more, see [Connect to all Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).</span></span>
   
- <span data-ttu-id="1c8dd-153">**Iniciar uma sessão do Windows PowerShell**</span><span class="sxs-lookup"><span data-stu-id="1c8dd-153">**Start a Windows PowerShell session**</span></span>
+ <span data-ttu-id="b7435-153">**Iniciar uma sessão do Windows PowerShell**</span><span class="sxs-lookup"><span data-stu-id="b7435-153">**Start a Windows PowerShell session**</span></span>
   
-1. <span data-ttu-id="1c8dd-154">Clique em **Iniciar** > o**Windows PowerShell**.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-154">Click **Start** > **Windows PowerShell**.</span></span>
+1. <span data-ttu-id="b7435-154">Clique em **Iniciar** > o**Windows PowerShell**.</span><span class="sxs-lookup"><span data-stu-id="b7435-154">Click **Start** > **Windows PowerShell**.</span></span>
     
-2. <span data-ttu-id="1c8dd-155">Na janela do **Windows PowerShell**, conecte-se à organização do Office 365 executando:</span><span class="sxs-lookup"><span data-stu-id="1c8dd-155">In the **Windows PowerShell** window, connect to your Office 365 organization by running:</span></span>
+2. <span data-ttu-id="b7435-155">Na janela do **Windows PowerShell**, conecte-se à organização do Office 365 executando:</span><span class="sxs-lookup"><span data-stu-id="b7435-155">In the **Windows PowerShell** window, connect to your Office 365 organization by running:</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="1c8dd-156">[!OBSERVAçãO] Execute o comando **Import-Module** apenas quando usar o módulo do Windows PowerShell do Skype for Business Online pela primeira vez.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-156">You only have to run the **Import-Module** command the first time you use the Skype for Business Online Windows PowerShell module.</span></span>
+    > <span data-ttu-id="b7435-156">[!OBSERVAçãO] Execute o comando **Import-Module** apenas quando usar o módulo do Windows PowerShell do Skype for Business Online pela primeira vez.</span><span class="sxs-lookup"><span data-stu-id="b7435-156">You only have to run the **Import-Module** command the first time you use the Skype for Business Online Windows PowerShell module.</span></span>
   
 
     ```PowerShell
@@ -100,72 +100,72 @@ ms.locfileid: "41707256"
     Import-PSSession $session
     ```
   
-### <a name="create-and-manage-your-dial-plans"></a><span data-ttu-id="1c8dd-157">Criar e gerenciar seus planos de discagem</span><span class="sxs-lookup"><span data-stu-id="1c8dd-157">Create and manage your dial plans</span></span>
+### <a name="create-and-manage-your-dial-plans"></a><span data-ttu-id="b7435-157">Criar e gerenciar seus planos de discagem</span><span class="sxs-lookup"><span data-stu-id="b7435-157">Create and manage your dial plans</span></span>
 
-<span data-ttu-id="1c8dd-158">Você pode usar um único cmdlet ou um script do PowerShell para criar e gerenciar planos de discagem de locatário.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-158">You can either use a single cmdlet or a PowerShell script to create and manage tenant dial plans.</span></span>
+<span data-ttu-id="b7435-158">Você pode usar um único cmdlet ou um script do PowerShell para criar e gerenciar planos de discagem de locatário.</span><span class="sxs-lookup"><span data-stu-id="b7435-158">You can either use a single cmdlet or a PowerShell script to create and manage tenant dial plans.</span></span>
   
-#### <a name="using-single-cmdlets"></a><span data-ttu-id="1c8dd-159">Usando cmdlets únicos</span><span class="sxs-lookup"><span data-stu-id="1c8dd-159">Using single cmdlets</span></span>
+#### <a name="using-single-cmdlets"></a><span data-ttu-id="b7435-159">Usando cmdlets únicos</span><span class="sxs-lookup"><span data-stu-id="b7435-159">Using single cmdlets</span></span>
 
-- <span data-ttu-id="1c8dd-160">Para criar um novo plano de discagem, execute:</span><span class="sxs-lookup"><span data-stu-id="1c8dd-160">To create a new dial plan, run:</span></span>
+- <span data-ttu-id="b7435-160">Para criar um novo plano de discagem, execute:</span><span class="sxs-lookup"><span data-stu-id="b7435-160">To create a new dial plan, run:</span></span>
     
   ```PowerShell
   New-CsTenantDialPlan -Identity RedmondDialPlan -Description "Dial Plan for Redmond" -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9 -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    <span data-ttu-id="1c8dd-161">Para obter outros exemplos e parâmetros, veja [New-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/new-cstenantdialplan).</span><span class="sxs-lookup"><span data-stu-id="1c8dd-161">For other examples and parameters, see [New-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/new-cstenantdialplan).</span></span>
+    <span data-ttu-id="b7435-161">Para obter outros exemplos e parâmetros, veja [New-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/new-cstenantdialplan).</span><span class="sxs-lookup"><span data-stu-id="b7435-161">For other examples and parameters, see [New-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/new-cstenantdialplan).</span></span>
     
-- <span data-ttu-id="1c8dd-162">Para editar as configurações de um plano de discagem existente, execute:</span><span class="sxs-lookup"><span data-stu-id="1c8dd-162">To edit the settings of an existing dial plan, run:</span></span>
+- <span data-ttu-id="b7435-162">Para editar as configurações de um plano de discagem existente, execute:</span><span class="sxs-lookup"><span data-stu-id="b7435-162">To edit the settings of an existing dial plan, run:</span></span>
     
   ```PowerShell
   Set-CsTenantDialPlan -Identity RedmondDialPlan  -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9
     -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    <span data-ttu-id="1c8dd-163">Para obter outros exemplos e parâmetros, consulte [set-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/set-cstenantdialplan).</span><span class="sxs-lookup"><span data-stu-id="1c8dd-163">For other examples and parameters, see [Set-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/set-cstenantdialplan).</span></span>
+    <span data-ttu-id="b7435-163">Para obter outros exemplos e parâmetros, consulte [set-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/set-cstenantdialplan).</span><span class="sxs-lookup"><span data-stu-id="b7435-163">For other examples and parameters, see [Set-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/set-cstenantdialplan).</span></span>
     
-- <span data-ttu-id="1c8dd-164">Para adicionar usuários a um plano de discagem, execute:</span><span class="sxs-lookup"><span data-stu-id="1c8dd-164">To add users to a dial plan, run:</span></span>
+- <span data-ttu-id="b7435-164">Para adicionar usuários a um plano de discagem, execute:</span><span class="sxs-lookup"><span data-stu-id="b7435-164">To add users to a dial plan, run:</span></span>
     
   ```PowerShell
   Grant-CsTenantDialPlan -Identity amos.marble@contoso.com -PolicyName RedmondDialPlan
   ```
 
-    <span data-ttu-id="1c8dd-165">Para obter outros exemplos e parâmetros, veja [Grant-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-cstenantdialplan).</span><span class="sxs-lookup"><span data-stu-id="1c8dd-165">For other examples and parameters, see [Grant-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-cstenantdialplan).</span></span>
+    <span data-ttu-id="b7435-165">Para obter outros exemplos e parâmetros, veja [Grant-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-cstenantdialplan).</span><span class="sxs-lookup"><span data-stu-id="b7435-165">For other examples and parameters, see [Grant-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-cstenantdialplan).</span></span>
     
-- <span data-ttu-id="1c8dd-166">Para exibir as configurações em um plano de discagem, execute:</span><span class="sxs-lookup"><span data-stu-id="1c8dd-166">To view the settings on a dial plan, run:</span></span>
+- <span data-ttu-id="b7435-166">Para exibir as configurações em um plano de discagem, execute:</span><span class="sxs-lookup"><span data-stu-id="b7435-166">To view the settings on a dial plan, run:</span></span>
     
   ```PowerShell
   Get-CsTenantDialPlan -Identity RedmondDialPlan
   ```
 
-    <span data-ttu-id="1c8dd-167">Para obter outros exemplos e parâmetros, veja [Get-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cstenantdialplan?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="1c8dd-167">For other examples and parameters, see [Get-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cstenantdialplan?view=skype-ps).</span></span>
+    <span data-ttu-id="b7435-167">Para obter outros exemplos e parâmetros, veja [Get-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cstenantdialplan?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="b7435-167">For other examples and parameters, see [Get-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cstenantdialplan?view=skype-ps).</span></span>
     
-- <span data-ttu-id="1c8dd-168">Para excluir um plano de discagem, execute:</span><span class="sxs-lookup"><span data-stu-id="1c8dd-168">To delete a dial plan, run:</span></span>
+- <span data-ttu-id="b7435-168">Para excluir um plano de discagem, execute:</span><span class="sxs-lookup"><span data-stu-id="b7435-168">To delete a dial plan, run:</span></span>
     
   ```PowerShell
   Remove-CsTenantDialPlan -Identity RedmondDialPlan -force
   ```
 
-    <span data-ttu-id="1c8dd-169">Para obter outros exemplos e parâmetros, veja [Remove-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/remove-cstenantdialplan?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="1c8dd-169">For other examples and parameters, see [Remove-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/remove-cstenantdialplan?view=skype-ps).</span></span>
+    <span data-ttu-id="b7435-169">Para obter outros exemplos e parâmetros, veja [Remove-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/remove-cstenantdialplan?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="b7435-169">For other examples and parameters, see [Remove-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/remove-cstenantdialplan?view=skype-ps).</span></span>
     
-- <span data-ttu-id="1c8dd-170">Para ver as configurações do plano de discagem efetivo, execute:</span><span class="sxs-lookup"><span data-stu-id="1c8dd-170">To see the settings of the effective dial plan, run:</span></span>
+- <span data-ttu-id="b7435-170">Para ver as configurações do plano de discagem efetivo, execute:</span><span class="sxs-lookup"><span data-stu-id="b7435-170">To see the settings of the effective dial plan, run:</span></span>
     
   ```PowerShell
   Get-CsEffectiveTenantDialPlan -Identity amos.marble@contoso.com
   ```
 
-    <span data-ttu-id="1c8dd-171">Para obter outros exemplos e parâmetros, veja [Get-CsEffectiveTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cseffectivetenantdialplan).</span><span class="sxs-lookup"><span data-stu-id="1c8dd-171">For other examples and parameters, see [Get-CsEffectiveTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cseffectivetenantdialplan).</span></span>
+    <span data-ttu-id="b7435-171">Para obter outros exemplos e parâmetros, veja [Get-CsEffectiveTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cseffectivetenantdialplan).</span><span class="sxs-lookup"><span data-stu-id="b7435-171">For other examples and parameters, see [Get-CsEffectiveTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cseffectivetenantdialplan).</span></span>
     
-- <span data-ttu-id="1c8dd-172">Para testar as configurações efetivas de um plano de discagem, execute:</span><span class="sxs-lookup"><span data-stu-id="1c8dd-172">To test the effective settings of a dial plan, run:</span></span>
+- <span data-ttu-id="b7435-172">Para testar as configurações efetivas de um plano de discagem, execute:</span><span class="sxs-lookup"><span data-stu-id="b7435-172">To test the effective settings of a dial plan, run:</span></span>
     
   ```PowerShell
   Test-CsEffectiveTenantDialPlan -DialedNumber 14255550199 -Identity amos.marble@contoso.com
   ```
 
-    <span data-ttu-id="1c8dd-173">Para obter outros exemplos e parâmetros, veja [Test-CsEffectiveTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/test-cseffectivetenantdialplan?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="1c8dd-173">For other examples and parameters, see [Test-CsEffectiveTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/test-cseffectivetenantdialplan?view=skype-ps).</span></span>
+    <span data-ttu-id="b7435-173">Para obter outros exemplos e parâmetros, veja [Test-CsEffectiveTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/test-cseffectivetenantdialplan?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="b7435-173">For other examples and parameters, see [Test-CsEffectiveTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/test-cseffectivetenantdialplan?view=skype-ps).</span></span>
     
-#### <a name="using-a-powershell-script"></a><span data-ttu-id="1c8dd-174">Usando um script do PowerShell</span><span class="sxs-lookup"><span data-stu-id="1c8dd-174">Using a PowerShell script</span></span>
+#### <a name="using-a-powershell-script"></a><span data-ttu-id="b7435-174">Usando um script do PowerShell</span><span class="sxs-lookup"><span data-stu-id="b7435-174">Using a PowerShell script</span></span>
 
-<span data-ttu-id="1c8dd-175">Execute isso para excluir uma regra de normalização associada a um plano de discagem de locatário sem precisar excluir o plano de discagem de locatário primeiro:</span><span class="sxs-lookup"><span data-stu-id="1c8dd-175">Run this to delete a normalization rule that is associated with a tenant dial plan without needing to delete the tenant dial plan first:</span></span>
+<span data-ttu-id="b7435-175">Execute isso para excluir uma regra de normalização associada a um plano de discagem de locatário sem precisar excluir o plano de discagem de locatário primeiro:</span><span class="sxs-lookup"><span data-stu-id="b7435-175">Run this to delete a normalization rule that is associated with a tenant dial plan without needing to delete the tenant dial plan first:</span></span>
 ```PowerShell
 $b1=New-CsVoiceNormalizationRule -Identity Global/NR4 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$b1}
@@ -173,18 +173,18 @@ Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$b1}
 $b2=New-CsVoiceNormalizationRule -Identity Global/NR4 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$b2}
 ```
-<span data-ttu-id="1c8dd-176">Execute isso para adicionar a seguinte regra de normalização ao plano de discagem de locatário existente chamado RedmondDialPlan.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-176">Run this to add the following normalization rule to the existing tenant dial plan named RedmondDialPlan.</span></span>
+<span data-ttu-id="b7435-176">Execute isso para adicionar a seguinte regra de normalização ao plano de discagem de locatário existente chamado RedmondDialPlan.</span><span class="sxs-lookup"><span data-stu-id="b7435-176">Run this to add the following normalization rule to the existing tenant dial plan named RedmondDialPlan.</span></span>
 ```PowerShell
 $nr1=New-CsVoiceNormalizationRule -Parent Global -Description 'Organization extension dialing' -Pattern '^(\\d{3})$' -Translation '+14255551$1' -Name NR1 -IsInternalExtension $false -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$nr1}
 ```
-<span data-ttu-id="1c8dd-177">Execute esta regra para remover a seguinte regra de normalização do plano de discagem de locatário existente chamado RedmondDialPlan.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-177">Run this to remove the following normalization rule from the existing tenant dial plan named RedmondDialPlan.</span></span>
+<span data-ttu-id="b7435-177">Execute esta regra para remover a seguinte regra de normalização do plano de discagem de locatário existente chamado RedmondDialPlan.</span><span class="sxs-lookup"><span data-stu-id="b7435-177">Run this to remove the following normalization rule from the existing tenant dial plan named RedmondDialPlan.</span></span>
 ```PowerShell
 $nr1=New-CsVoiceNormalizationRule -Parent Global/NR1 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1}
 ```
 
-<span data-ttu-id="1c8dd-178">Execute o seguinte quando você deseja examinar também as regras de normalização existentes, determinar qual delas deseja excluir e, em seguida, use o índice para removê-la.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-178">Run the following when you want to also examine the existing normalization rules, determine which one you want to delete, and then use its index to remove it.</span></span> <span data-ttu-id="1c8dd-179">A matriz de regras de normalização começa com o índice 0.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-179">The array of normalization rules starts with index 0.</span></span> <span data-ttu-id="1c8dd-180">Gostaríamos de remover a regra de normalização de 3 dígitos, para que seja o índice 1.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-180">We would like to remove the 3-digit normalization rule, so that is index 1.</span></span>
+<span data-ttu-id="b7435-178">Execute o seguinte quando você deseja examinar também as regras de normalização existentes, determinar qual delas deseja excluir e, em seguida, use o índice para removê-la.</span><span class="sxs-lookup"><span data-stu-id="b7435-178">Run the following when you want to also examine the existing normalization rules, determine which one you want to delete, and then use its index to remove it.</span></span> <span data-ttu-id="b7435-179">A matriz de regras de normalização começa com o índice 0.</span><span class="sxs-lookup"><span data-stu-id="b7435-179">The array of normalization rules starts with index 0.</span></span> <span data-ttu-id="b7435-180">Gostaríamos de remover a regra de normalização de 3 dígitos, para que seja o índice 1.</span><span class="sxs-lookup"><span data-stu-id="b7435-180">We would like to remove the 3-digit normalization rule, so that is index 1.</span></span>
   
 ```PowerShell
 Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules
@@ -204,20 +204,20 @@ $nr1=(Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules[1]
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1}
 ```
 
-<span data-ttu-id="1c8dd-181">Execute este procedimento para localizar todos os usuários que receberam o plano de discagem de locatários do RedmondDialPlan.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-181">Run this to find all users who have been granted the RedmondDialPlan tenant dial plan.</span></span>
+<span data-ttu-id="b7435-181">Execute este procedimento para localizar todos os usuários que receberam o plano de discagem de locatários do RedmondDialPlan.</span><span class="sxs-lookup"><span data-stu-id="b7435-181">Run this to find all users who have been granted the RedmondDialPlan tenant dial plan.</span></span>
   
 ```PowerShell
 Get-CsOnlineUser | Where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
-<span data-ttu-id="1c8dd-182">Execute isso para remover qualquer TenantDialPlan atribuído de todos os usuários que tenham um hostprovider do sipfed.online.lync.com.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-182">Run this to remove any assigned TenantDialPlan from all users who have a HostingProvider of sipfed.online.lync.com.</span></span>
+<span data-ttu-id="b7435-182">Execute isso para remover qualquer TenantDialPlan atribuído de todos os usuários que tenham um hostprovider do sipfed.online.lync.com.</span><span class="sxs-lookup"><span data-stu-id="b7435-182">Run this to remove any assigned TenantDialPlan from all users who have a HostingProvider of sipfed.online.lync.com.</span></span>
 ```PowerShell
 Get-CsOnlineUser -Filter {HostingProvider -eq “sipfed.online.lync.com”} | Grant-CsTenantDialPlan -policyname $null
 ```
 
-<span data-ttu-id="1c8dd-183">Execute-os para adicionar o plano de discagem local existente chamado OPDP1 como um plano de discagem de locatário para a sua organização.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-183">Run these to add the existing on-premises dial plan named OPDP1 as a tenant dial plan for your organization.</span></span> <span data-ttu-id="1c8dd-184">Primeiro, você precisa salvar o plano de discagem local em um arquivo. xml e usá-lo para criar o novo plano de discagem de locatário.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-184">You need to first save the on-premises dial plan to an .xml file, and then use it to create the new tenant dial plan.</span></span>
+<span data-ttu-id="b7435-183">Execute-os para adicionar o plano de discagem local existente chamado OPDP1 como um plano de discagem de locatário para a sua organização.</span><span class="sxs-lookup"><span data-stu-id="b7435-183">Run these to add the existing on-premises dial plan named OPDP1 as a tenant dial plan for your organization.</span></span> <span data-ttu-id="b7435-184">Primeiro, você precisa salvar o plano de discagem local em um arquivo. xml e usá-lo para criar o novo plano de discagem de locatário.</span><span class="sxs-lookup"><span data-stu-id="b7435-184">You need to first save the on-premises dial plan to an .xml file, and then use it to create the new tenant dial plan.</span></span>
   
-<span data-ttu-id="1c8dd-185">Execute isso para salvar o plano de discagem local para o arquivo. xml.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-185">Run this to save the on-premises dial plan to the .xml file.</span></span>
+<span data-ttu-id="b7435-185">Execute isso para salvar o plano de discagem local para o arquivo. xml.</span><span class="sxs-lookup"><span data-stu-id="b7435-185">Run this to save the on-premises dial plan to the .xml file.</span></span>
   
 ```PowerShell
 $DPName = "OPDP1"
@@ -225,7 +225,7 @@ $DPFileName = "dialplan.xml"
 Get-CsDialplan $DPName | Export-Clixml $DPFileName
 ```
 
-<span data-ttu-id="1c8dd-186">Execute este procedimento para criar o novo plano de discagem de locatário.</span><span class="sxs-lookup"><span data-stu-id="1c8dd-186">Run this to create the new tenant dial plan.</span></span>
+<span data-ttu-id="b7435-186">Execute este procedimento para criar o novo plano de discagem de locatário.</span><span class="sxs-lookup"><span data-stu-id="b7435-186">Run this to create the new tenant dial plan.</span></span>
   
 ```PowerShell
 $DPFileName = "dialplan.xml"
@@ -240,12 +240,12 @@ ForEach($nr in $dp.NormalizationRules)
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
     
-## <a name="related-topics"></a><span data-ttu-id="1c8dd-187">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="1c8dd-187">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="b7435-187">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="b7435-187">Related topics</span></span>
 
-- [<span data-ttu-id="1c8dd-188">O que são planos de discagem?</span><span class="sxs-lookup"><span data-stu-id="1c8dd-188">What are dial plans?</span></span>](what-are-dial-plans.md)
-- [<span data-ttu-id="1c8dd-189">Perguntas comuns sobre a transferência de números de telefone</span><span class="sxs-lookup"><span data-stu-id="1c8dd-189">Transferring phone numbers common questions</span></span>](transferring-phone-numbers-common-questions.md)
-- [<span data-ttu-id="1c8dd-190">Diferentes tipos de números de telefone usados para Planos de Chamadas</span><span class="sxs-lookup"><span data-stu-id="1c8dd-190">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
-- [<span data-ttu-id="1c8dd-191">Gerenciar os números de telefone de sua organização</span><span class="sxs-lookup"><span data-stu-id="1c8dd-191">Manage phone numbers for your organization</span></span>](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
-- [<span data-ttu-id="1c8dd-192">Termos e condições das Chamadas de Emergência</span><span class="sxs-lookup"><span data-stu-id="1c8dd-192">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
-- <span data-ttu-id="1c8dd-193">[Rótulo de isenção de isenção de emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="1c8dd-193">[Emergency calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
-- [<span data-ttu-id="1c8dd-194">Visão Geral do PowerShell do Teams</span><span class="sxs-lookup"><span data-stu-id="1c8dd-194">Teams PowerShell overview</span></span>](teams-powershell-overview.md)
+- [<span data-ttu-id="b7435-188">O que são planos de discagem?</span><span class="sxs-lookup"><span data-stu-id="b7435-188">What are dial plans?</span></span>](what-are-dial-plans.md)
+- [<span data-ttu-id="b7435-189">Perguntas comuns sobre a transferência de números de telefone</span><span class="sxs-lookup"><span data-stu-id="b7435-189">Transferring phone numbers common questions</span></span>](transferring-phone-numbers-common-questions.md)
+- [<span data-ttu-id="b7435-190">Diferentes tipos de números de telefone usados para Planos de Chamadas</span><span class="sxs-lookup"><span data-stu-id="b7435-190">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+- [<span data-ttu-id="b7435-191">Gerenciar os números de telefone de sua organização</span><span class="sxs-lookup"><span data-stu-id="b7435-191">Manage phone numbers for your organization</span></span>](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+- [<span data-ttu-id="b7435-192">Termos e condições das Chamadas de Emergência</span><span class="sxs-lookup"><span data-stu-id="b7435-192">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
+- <span data-ttu-id="b7435-193">[Rótulo de isenção de isenção de emergência](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="b7435-193">[Emergency calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+- [<span data-ttu-id="b7435-194">Visão Geral do PowerShell do Teams</span><span class="sxs-lookup"><span data-stu-id="b7435-194">Teams PowerShell overview</span></span>](teams-powershell-overview.md)
