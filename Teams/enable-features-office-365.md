@@ -11,20 +11,20 @@ search.appverid: MET150
 description: Saiba como ativar ou desativar as configurações de toda a organização do Microsoft Teams para sua organização, incluindo os aplicativos, o acesso externo, o acesso de convidado, as configurações do Teams e as preferências da Atualização do Teams.
 localization_priority: Priority
 ms.custom:
-- NewAdminCenter_Update
+- ms.teamsadmincenter.orgwidesettings.teamssettings.targetingintro
+- ms.teamsadmincenter.teamssettings.overview
 ms.collection:
 - M365-collaboration
 f1.keywords:
-- ms.teamsadmincenter.orgwidesettings.teamssettings.targetingintro
-- ms.teamsadmincenter.teamssettings.overview
+- CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c4ab04083ead446d84af1631a39c5ee19405a94
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5eb6fa4a4b8aabcc84f70d6ce33c89fe0d84df98
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696116"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834951"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Gerencie as configurações do Microsoft Teams para sua organização 
 

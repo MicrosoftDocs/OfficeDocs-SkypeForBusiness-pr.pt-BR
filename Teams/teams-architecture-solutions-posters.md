@@ -13,13 +13,15 @@ appliesto:
 - Microsoft Teams
 search.appverid:
 - MET150
+f1.keywords:
+- NOCSH
 description: 'Resumo: Conheça a arquitetura lógica de serviços de produtividade do Microsoft 365, liderada pelo Microsoft Teams. Saiba mais também sobre soluções de telefonia do Teams. '
-ms.openlocfilehash: 88fcb0e06fe642541421f0ba03c65b50bf9938ba
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 3b55f24d720174d2b50dddea64b0adea5fd07596
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570276"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837381"
 ---
 # <a name="microsoft-teams-it-architecture-and-telephony-solutions-posters"></a>Cartazes de soluções de telefonia e arquitetura de TI do Microsoft Teams
 
