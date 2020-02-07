@@ -14,13 +14,15 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 hideEdit: true
+f1.keywords:
+- NOCSH
 description: A Microsoft faz parceria com fornecedores selecionados de SBC (controlador de borda da sessão) para garantir que seus SBCs sejam compatíveis com o Roteamento Direto.
-ms.openlocfilehash: dfd5474ac0e70353823be48b44e0d5e2e2f39f1d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: b574911c2d819e665f088ec8be12f24e1830daf2
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823985"
+ms.locfileid: "41837581"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borda da sessão certificados para Roteamento Direto
 
@@ -60,12 +62,12 @@ A tabela a seguir lista os dispositivos certificados para Roteamento Direto.
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v 8.0.3 (Build 537)     |  Inentrada ERS <br>Inentrada EGW  |  Pendente  |    
 |                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      v 8.0.3 (Build 216)    |  Inentrada ERS <br>Inentrada EGW   |  Pendente  |    
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   Pendente    |       V1.4       |     |    |    
-|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |    |    |    
-|                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |    |    |    
-|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   |    |    
-|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   |    |    
-|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |        |    |                                            
-|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |    |    |    
+|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   Inentrada ERS <br>Inentrada EGW  |    |    
+|                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |   Inentrada ERS <br>Inentrada EGW  |    |    
+|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   Inentrada ERS <br>Inentrada EGW |    |    
+|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  Inentrada ERS <br>Inentrada EGW  |    |    
+|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   Inentrada ERS <br>Inentrada EGW |    |                                            
+|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   Inentrada ERS <br>Inentrada EGW  |    |    
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v3.16.2      |     |    |    
 
 Para dar a seus comentários sobre o produto sobre equipes, como ideias para novos recursos, confira nota do [UserVoice](https://microsoftteams.uservoice.com) a certificação concedida a uma versão principal. Isso significa que o firmware com qualquer número no firmware SBC após a versão principal tem suporte.

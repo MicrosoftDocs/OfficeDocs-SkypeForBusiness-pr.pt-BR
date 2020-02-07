@@ -10,17 +10,19 @@ audience: admin
 description: Orientação para profissionais de ti para conduzir as implantações do Office 365 em entidades que lidam com os dados sujeitos a normas do governo dos EUA
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4228210fa7b6d9518fa060b2bdd555f434ed6f2
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: 3f03c4cdd13ea63dfee6470843fea5e2dafeab7c
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069302"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837441"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plano para implantações do governo Microsoft 365-GCC
 

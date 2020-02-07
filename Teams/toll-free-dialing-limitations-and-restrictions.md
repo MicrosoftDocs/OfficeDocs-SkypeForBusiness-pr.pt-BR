@@ -17,17 +17,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Isso vai ajudá-lo a descobrir como discar números de chamada gratuita em cada país/região. Depois de selecionar o país/região, você será direcionado a uma página específica do país que contém detalhes específicos, restrições e limites para a disponibilidade de serviço de chamada gratuita em que o serviço de chamada gratuita está disponível. O formato ou formatos de discagem mostrará os códigos de acesso necessários em cada país/região para discar o número de chamada gratuita.
-ms.openlocfilehash: 41bc08f37d96674a88ad4d180198cba189780846
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 270d169be6992b97dfba94bedd4802560af78ef8
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708198"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836901"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>Limitações e restrições de discagem gratuita
 

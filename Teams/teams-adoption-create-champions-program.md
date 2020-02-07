@@ -14,15 +14,17 @@ ms.collection:
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Saiba como treinar uma equipe de especialistas para promover a adoção da equipe.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac587cc8b7a1dd23911301f10edd76b60f456686
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 208156a272b8ef023b769b1443c7607b07cc44d5
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242474"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837861"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Criar seu programa de defensores do Microsoft Teams
 
@@ -39,7 +41,7 @@ Os campeões devem:
 - Tenha Reinforcement consistente e positivo que afirme o impacto dos esforços
 - Ter um plano claro para executar
 
-Use o [Guia do programa](https://go.microsoft.com/fwlink/?linkid=854665) de campeões para criar este programa em sua organização. Nossas práticas recomendadas para esta comunidade são:
+Use o [Guia do programa de campeões](https://go.microsoft.com/fwlink/?linkid=854665) para criar este programa em sua organização. Nossas práticas recomendadas para esta comunidade são:
 
 - Participe do programa de campeões do Office 365: Certifique-se de que, no mínimo, os líderes do programa Champion (e todos os campeões da empresa) sejam membros do [programa Microsoft Office 365 Champion](https://aka.ms/O365Champions). Esta chamada de comunidade mensal gratuita fornecerá informações valiosas para a execução do seu próprio programa e obter o máximo de equipes e outros serviços do Office 365. Os materiais do programa podem ser reutilizados em seu próprio programa interno.
 

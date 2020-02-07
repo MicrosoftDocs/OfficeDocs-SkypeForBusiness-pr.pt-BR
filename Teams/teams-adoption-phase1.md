@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba mais sobre a fase de inicialização da adoção do teams.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 294b623a9487094607330382c1d2ec63056207f5
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8c2f179c6b51c6e016377ff7008b9e81c9b08660
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237936"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837771"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Fase 1 de adoção do Microsoft Teams - Início
 

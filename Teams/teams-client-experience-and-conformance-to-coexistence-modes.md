@@ -10,18 +10,20 @@ audience: admin
 description: Experiência e conformidade do cliente do Teams a modos de coexistência
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e05a95871dbe36f969c048f32d9bca99fec5d45
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: eea9d83a582bfe463233cfafe9564a238e00e198
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435234"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837371"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -76,7 +78,7 @@ Os administradores *não* precisam definir explicitamente essas configurações 
 |SfBWithTeamsCollab ou SfBOnly|Desabilitado|Desabilitado|Desabilitado|Desabilitado|
 ||||||
 
-Ao usar o PowerShell, `Grant-CsTeamsUpgradePolicy` o cmdlet verifica a configuração das configurações correspondentes em TeamsMessagingPolicy, TeamsCallingPolicy e TeamsMeetingPolicy para determinar se essas configurações seriam substituídas por TeamsUpgradePolicy e, em caso afirmativo, um a mensagem informativa é fornecida no PowerShell.  Conforme observado acima, não é mais necessário definir essas outras configurações de política. Veja a seguir um exemplo de como é a aparência do aviso do PowerShell:
+Ao usar o PowerShell, `Grant-CsTeamsUpgradePolicy` o cmdlet verifica a configuração das configurações correspondentes em TeamsMessagingPolicy, TeamsCallingPolicy e TeamsMeetingPolicy para determinar se essas configurações seriam substituídas por TeamsUpgradePolicy e, nesse caso, uma mensagem informativa é fornecida no PowerShell.  Conforme observado acima, não é mais necessário definir essas outras configurações de política. Veja a seguir um exemplo de como é a aparência do aviso do PowerShell:
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
 

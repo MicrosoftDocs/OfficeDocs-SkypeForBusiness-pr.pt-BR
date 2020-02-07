@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: 'Saiba como visualizar uma lista de usuários da sua organização habilitados para conferência discada a partir do Microsoft Teams. '
-ms.openlocfilehash: f769953a2cbce7ee91a5a75c00cbcb0e2a2b3814
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9330aef9e143764949c4589535126eb2dd72e883
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694126"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838141"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Ver uma lista de usuários habilitados para audioconferência no Microsoft Teams
 

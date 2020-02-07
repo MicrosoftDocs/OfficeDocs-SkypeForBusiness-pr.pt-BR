@@ -13,13 +13,15 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: Saiba como usar o painel de integridade para monitorar a conexão entre o controlador de borda de sessão e o roteamento direto.
-ms.openlocfilehash: 0424f24e323928f487e8b43ce72e51602f9eab52
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: a1644eb94cc18bf149a5e866aae0faf4b41d1d67
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572196"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836071"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>Painel de integridade para roteamento direto
 

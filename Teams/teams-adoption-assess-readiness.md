@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Determine se a sua organização está pronta para a transição para o Microsoft Teams.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da70e1207165a9034749382dbbf0ff4444bd9311
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8e7f1261857905cea3c849654fdbcf926c36026d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242445"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837871"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>Sua organização está preparada para o Microsoft Teams?
 
@@ -74,8 +76,8 @@ Cada organização aborda uma alteração diferente, dependendo da região, do e
 
 1. Qual a porcentagem de usuários que estão em cada bucket? (*Resistência a mudança*)
     - **Pioneiros**: solicite a solução antes que ela esteja disponível.
-    - **Usuários**informados: Use a solução quando seu valor for comprovado.
-    - **** Dissenters: empurre-se novamente para qualquer alteração.
+    - **Usuários informados**: Use a solução quando seu valor for comprovado.
+    - **Dissenters**: empurre-se novamente para qualquer alteração.
     
    > [!TIP]
    > Os pioneiros a criar ótimos testadores de piloto e especialistas de par. Os usuários que têm lentidão para adotar novas ferramentas exigem mais incentivos e mais tempo para ajustar. 

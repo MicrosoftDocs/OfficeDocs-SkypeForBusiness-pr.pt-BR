@@ -14,15 +14,17 @@ ms.collection:
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Saiba como medir os resultados e o sucesso de sua habilitação em escala ampla de equipes.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24b04571a647838ee4890c813e7f3b83f387c12d
-ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
+ms.openlocfilehash: 51f1af667e7cf4e387b9e05eec40d17bb48a550d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37749269"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837851"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Definir os resultados e o sucesso da adoção do Microsoft Teams
 
@@ -85,7 +87,7 @@ Veja a seguir nossas recomendações para a maioria das organizações de client
 
     O Teams go Big também é a estratégia de capacitação preferida para organizações em 1.000 funcionários que desejam simplificar a comunicação e o envolvimento dos funcionários. Usar a equipe em toda a organização pode reunir as pessoas para revisar as tarefas e iniciativas comuns em qualquer dispositivo. 
 
-- **Escolha lado a lado**: para organizações que usam o Skype for Business para videoconferência, suporte para dispositivos de sala de conferência ou recursos de voz na nuvem, recomendamos executar o Teams e o Skype lado a lado para familiarizar seus funcionários com o recursos básicos de colaboração, ao planejar a migração do Skype for Business em um horário que seja conveniente para sua empresa. Observe que a execução de ambos os clientes lado a lado pode introduzir confusão do usuário sobre qual ferramenta usar, portanto, recomendamos manter essa fase em sua viagem de adoção curta. 
+- **Escolha lado a lado**: para as organizações que usam o Skype for Business para videoconferência, o suporte para dispositivos de sala de conferência ou recursos de voz na nuvem, recomendamos executar o Teams e o Skype lado a lado para familiarizar seus funcionários com os principais recursos de colaboração, ao mesmo tempo que planeja a migração do Skype for Business em um horário que seja conveniente para sua empresa. Observe que a execução de ambos os clientes lado a lado pode introduzir confusão do usuário sobre qual ferramenta usar, portanto, recomendamos manter essa fase em sua viagem de adoção curta. 
 
 - **Escolha a migração**: migrando do Skype for Business para o Teams tem componentes adicionais de um ponto de vista técnico, mas a jornada de adoção do usuário tem os mesmos componentes que uma equipe se aprofundando na implementação grande. Além disso, você ensinará as pessoas sobre a experiência e a interface da reunião do Teams, o novo comportamento de chat persistente e outros elementos da experiência que são diferentes do Skype for Business.
 

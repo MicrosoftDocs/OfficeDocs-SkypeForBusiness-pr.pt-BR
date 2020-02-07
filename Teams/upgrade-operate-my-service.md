@@ -10,20 +10,22 @@ ms.reviewer: dearbeen
 description: Tarefas e atividades necessárias para o gerenciamento de serviços do Teams, incluindo monitorar a integridade do serviço e avaliar e garantir a qualidade e o uso da rede
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7be47504bab7c12803dee3728fcc872ce3a73ca
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: eab5673c1b4dcbc1810c96588577e6ee53938609
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236489"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837141"
 ---
-![Atualize o diagrama de jornada, enfatizando o estágio operacional de excelência] (media/upgrade-banner-op-excellence.png "Estágios da jornada da atualização, com ênfase no estágio Operational de excelência")
+![Atualize o diagrama de jornada, enfatizando o estágio operacional de excelência](media/upgrade-banner-op-excellence.png "Estágios da jornada da atualização, com ênfase no estágio Operational de excelência")
 
 Este artigo faz parte do estágio operacional de excelência da sua jornada de atualização, que começa assim que você concluiu a atualização do Skype for Business para o Teams.
 
@@ -43,7 +45,7 @@ O gerenciamento de serviços abrange todas as atividades e os processos envolvid
 
 As tarefas e atividades neste guia são agrupadas em oito categorias, conforme mostrado no diagrama a seguir. Cada uma dessas categorias será expandida nas seções a seguir.
 
-![Um diagrama que mostra uma lista de categorias de tarefas e atividades] (media/operate-my-service-image1.png "Um diagrama que mostra uma lista de categorias de tarefas e atividades que o gerenciamento de serviços para equipes compreende. O diagrama também descreve que o gerenciamento de serviços é basicamente uma tarefa de cliente.")
+![Um diagrama que mostra uma lista de categorias de tarefas e atividades](media/operate-my-service-image1.png "Um diagrama que mostra uma lista de categorias de tarefas e atividades que o gerenciamento de serviços para equipes compreende. O diagrama também descreve que o gerenciamento de serviços é basicamente uma tarefa de cliente.")
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Decida como as operações serão implementadas para equipes.</li></ul></td></tr>
@@ -253,7 +255,7 @@ Os outros dois relatórios são específicos do Teams e fornecem mais detalhes s
 
 #### <a name="required-permissions"></a>Permissões necessárias
 
-Os relatórios de uso no centro de Administração podem ser acessados por pessoas que receberam uma função de **administrador global** ou por uma função de administrador específica do produto (**administrador do Exchange**, **administrador do Skype for Business**, **SharePoint administrador**).
+Os relatórios de uso no centro de Administração podem ser acessados por pessoas que receberam uma função de **administrador global** ou por uma função de administrador específica do produto (**administrador do Exchange**, **administrador do Skype for Business**, **administrador do SharePoint**).
 
 Além disso, a função de **leitor de relatórios** está disponível para os usuários que precisam acessar os relatórios, mas não executam nenhuma tarefa que exija permissões no nível de administrador. Você atribui esta função para fornecer relatórios de uso para qualquer pessoa que seja um participante, para monitorar e impulsionar a adoção. Para obter mais informações sobre as diferentes funções disponíveis, consulte [sobre as funções de administrador do Office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
@@ -318,7 +320,7 @@ NPS é um índice que varia de – 100 a 100 que mede a vontade do cliente de re
 
 - Entre 1 e 6 são desviadores: clientes insatisfeitos que podem danificar seu serviço e impedir o crescimento.
 
-![Um diagrama que demonstra a escala do NPS] (media/operate-my-service-image2.png "Este diagrama demonstra a escala do NPS. Ele mostra que as classificações de 0 a 6 são detratores, 7 a 8 são passivos e 9 a 10 são promodores.")
+![Um diagrama que demonstra a escala do NPS](media/operate-my-service-image2.png "Este diagrama demonstra a escala do NPS. Ele mostra que as classificações de 0 a 6 são detratores, 7 a 8 são passivos e 9 a 10 são promodores.")
 
 Embora o número de base do NPS seja útil, você obterá o valor máximo de análise de comentários do usuário. Elas o ajudarão a entender por que o usuário faria (ou não) recomendaria equipes para outras pessoas. Esses comentários podem fornecer feedback importante para ajudar as equipes de gerenciamento de projeto ou serviço a entender os ajustes necessários para fornecer um serviço de qualidade.
 

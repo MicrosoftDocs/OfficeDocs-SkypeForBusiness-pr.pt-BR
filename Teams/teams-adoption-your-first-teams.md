@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como orientar a adoção do teams usando o produto.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce2cec58d96e5c812cf63a9af1ebf6dfeffa7c13
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c8cf33a5ac4c498e6d6996f6096fbf9599b5ad2e
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244808"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837711"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Criar suas primeiras equipes no Microsoft Teams
 
@@ -43,7 +45,7 @@ Em suas equipes iniciais, sugerimos fixar os seguintes itens para facilitar a re
 |Nome do canal/equipe | Guia fixada |
 |----------------- | ---------- |
 | **Implantação do Microsoft Teams** ||
-| Geral | Guia da Web: [documentação](https://aka.ms/SuccessWithTeams) do teams |
+| Geral | Guia da Web: [documentação do teams](https://aka.ms/SuccessWithTeams) |
 | Conscientização e adoção | [Hub de adoção de equipes](https://aka.ms/DriveTeamsAdoption)<br/>[Kit de sucesso do cliente Microsoft Teams](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)|
 | Envolvimento empresarial | Wiki – orientação sobre o compromisso<br/>Formulário – solicitação de consultoria de equipes<br/>Lista – solicitações de compromisso |
 |Pioneiros | Comunidade de comentários afixado <br/> OneNote para perguntas frequentes e temas comuns |

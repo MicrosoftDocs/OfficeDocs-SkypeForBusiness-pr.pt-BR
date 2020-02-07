@@ -13,13 +13,15 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: Leia este tópico para saber como manipular failovers de tronco em chamadas de saída do teams para o controlador de borda de sessão (SBC).
-ms.openlocfilehash: a5462de971fed32a0618800b257b9c6e37b462af
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: c88394cba0a98316ac272901a6ab2972e9eaf3c8
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572119"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836173"
 ---
 # <a name="trunk-failover-on-outbound-calls"></a>Failover de tronco em chamadas de saída
 

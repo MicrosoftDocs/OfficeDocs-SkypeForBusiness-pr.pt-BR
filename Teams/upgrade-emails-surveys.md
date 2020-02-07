@@ -10,18 +10,20 @@ audience: admin
 description: Exemplos de emails e pesquisas a serem usados no conjunciton com o plano de ação de 10 etapas acelerado para fazer a atualização do Skype for Business para o Teams
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27dc5a5daf92ce0dad214dcc5cf8c26bbc78ea6d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7b90c8f5d7094c036f29a6b64ecfca4e26f51640
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236382"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837221"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Exemplos de emails e pesquisas para atualizar comunicações básicas
 
@@ -201,7 +203,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 Indique o nível de habilidade para executar as atividades a seguir no Teams e se houver uma ou mais atividades sobre as quais você gostaria de saber mais.
 
-| &nbsp; | Muito qualificados | Um pouco experiente | Não habilitado | Deseja saber mais | N/D | Não tem certeza/não está familiarizado | | | | |
+| &nbsp; | Muito qualificados | Um pouco experiente | Não habilitado | Deseja saber mais | Não disponível | Não tem certeza/não está familiarizado | | | | |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Usar o Teams para IM/Chat com outras pessoas | | | | | | | | | | |
 | Usar o Microsoft Teams para reuniões online | | | | | | | | | | |
@@ -223,7 +225,7 @@ Indique o nível de habilidade para executar as atividades a seguir no Teams e s
 
 **Qual é a probabilidade de você recomendar o Microsoft Teams a um amigo/colega? (0 = nada provável... 10 = extremamente provável)**
 
-| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 08 | 222 | 254 |
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 254 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|
 |&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
 

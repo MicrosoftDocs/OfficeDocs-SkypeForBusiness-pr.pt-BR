@@ -10,18 +10,20 @@ ms.reviewer: dearbeen
 description: Use esta orientação para saber mais sobre os requisitos para a avaliação adequada do ambiente atual para a atualização do teams.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4716eac44880ca149fb757d2f16ebfe80ccab65
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 5000ecb5195654e902c06f329c910c0a5edb7d55
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772315"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837121"
 ---
 ![Atualize o diagrama de jornada, enfatizando o estágio de preparação técnica](media/upgrade-banner-tech-readiness.png "Estágios da jornada da atualização, com ênfase no estágio de preparação técnica")
 

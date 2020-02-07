@@ -12,18 +12,20 @@ description: Prepare a rede da sua organização para a Qualidade de Serviço (Q
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.meetingsettings.qos
 - ms.teamsadmincenter.meetingsettings.network.qosmarkers
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83275f7fbcec60727ed75c0a56ffda113b36fd26
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 31e8b01f5a48d74d516121c5a59ea79d94c317a3
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695636"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834731"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementar a QoS (qualidade de serviço) no Microsoft Teams
 

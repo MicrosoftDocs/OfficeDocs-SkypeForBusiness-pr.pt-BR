@@ -10,22 +10,24 @@ ms.reviewer: dearbeen
 description: Considerações para a atualização do teams a partir de uma implantação híbrida do Skype for Business.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7729cd65ff5d58d348229c4ec5ec6182f06aa5de
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 54a9f75e6f9e1d0465af56b49df86010697edbd3
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "36235896"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837071"
 ---
 ![Estágios da jornada da atualização, com ênfase no estágio de implantação e implementação](media/upgrade-banner-deployment.png "Estágios da jornada da atualização, com ênfase no estágio de implantação e implementação")
 
-Este artigo faz parte do estágio de implantação e implementação da sua jornada de atualização. Antes de prosseguir, confirme que você concluiu as seguintes atividades:
+Este artigo faz parte do estágio de implantação e implementação da sua jornada de atualização. Antes de prosseguir, confirme se você concluiu as seguintes atividades:
 
 - [Alistou as partes envolvidas no seu projeto](upgrade-enlist-stakeholders.md)
 - [Definiu o escopo do seu projeto](https://aka.ms/SkypetoTeams-Scope)

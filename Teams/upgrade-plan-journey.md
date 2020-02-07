@@ -9,6 +9,8 @@ ms.reviewer: dearbeen
 audience: admin
 description: Planeje a atualização ao listar os stakeholders primeiro e, em seguida, fazer o escopo do projeto.
 localization_priority: Normal
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
 ms.collection:
@@ -16,14 +18,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a72e32fc363d00c2da85be70a567551440ba942
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a3226dd3887a4d289b810bb866d96dba704dd448
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236054"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837111"
 ---
-![Diagrama da jornada de atualização do teams] (media/upgrade-banner-main.png "Verifique se o seu projeto está configurado para o sucesso com a equipe de projeto certa. Defina o escopo, as metas e o cronograma do projeto. Confirme a prontidão técnica e do usuário. Executar o plano de distribuição. Mantenha a momentum para maximizar os resultados.")
+![Diagrama da jornada de atualização do teams](media/upgrade-banner-main.png "Verifique se o seu projeto está configurado para o sucesso com a equipe de projeto certa. Defina o escopo, as metas e o cronograma do projeto. Confirme a prontidão técnica e do usuário. Executar o plano de distribuição. Mantenha a momentum para maximizar os resultados.")
 
 # <a name="plan-for-your-upgrade"></a>Planejar a atualização
 
@@ -34,6 +36,6 @@ Um ambiente técnico saudável, adoção contínua do usuário e realização de
 - [Noções básicas sobre a coexistência e interoperabilidade do Skype for Business e do teams](https://aka.ms/SkypeToTeams-Coexist).
 
 > [!TIP]
-> Junte-se aos workshops interativos e ativos nos quais compartilharemos orientação, práticas recomendadas e recursos projetados para iniciar o planejamento e a implementação da atualização.
+> Junte-se a nós nos workshops interativos e ao vivo, onde compartilharemos o guia, as práticas recomendadas e os recursos projetados para dar início ao planejamento e à implementação de atualizações.
 >
-> Ingresse no [plano da sessão de atualização](https://aka.ms/SkypeToTeamsPlanning) primeiro para começar.
+> Para começar, participe primeiro da sessão de [Planejamento da atualização](https://aka.ms/SkypeToTeamsPlanning).

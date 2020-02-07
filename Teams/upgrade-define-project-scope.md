@@ -10,22 +10,24 @@ ms.reviewer: dearbeen
 description: Escopo seu projeto de atualização refinando sua visão e metas.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8f1fb718ae254f3239153acd5664c4e1709de40
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 13da1a583d5aa0abaad4e981e5fc68d3aa913ce9
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236467"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837241"
 ---
-![Atualizar o diagrama de jornada, realçando o estágio de definição do projeto] (media/upgrade-banner-project-definition.png "Estágios da jornada da atualização, com ênfase no estágio de definição do projeto")
+![Atualizar o diagrama de jornada, realçando o estágio de definição do projeto](media/upgrade-banner-project-definition.png "Etapas da jornada de atualização, com ênfase no estágio de Definição do Projeto")
 
-Este artigo faz parte do estágio de definição do projeto da sua jornada de atualização, uma atividade que você concluiu após criar um patrocínio aliança e equipe de projeto dos participantes que você identificou é essencial para o sucesso do seu projeto. Antes de prosseguir, confirme que você concluiu as seguintes atividades:
+Este artigo faz parte do estágio de definição do projeto da sua jornada de atualização, uma atividade que você concluiu após criar um patrocínio aliança e equipe de projeto dos participantes que você identificou é essencial para o sucesso do seu projeto. Antes de prosseguir, confirme se você concluiu as seguintes atividades:
 
 - [Participantes do projeto listados](upgrade-enlist-stakeholders.md)
 
@@ -35,8 +37,8 @@ Levar tempo para definir a visão, o escopo, as metas e a governança do projeto
 
 | | |
 |---|---|
-| ![Um ícone que representa os pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>O que você deseja fazer com este projeto (em outras palavras, por que você está fazendo isso)?</li><li>Qual é a aparência do sucesso?</li><li>Quais são os riscos e qual o seu plano para atenuar esses riscos?</li></ul> |
-| ![Um ícone que representa as próximas etapas](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Discuta as seções a seguir com sua equipe de projeto e seus patrocinadores.</li><li>Documente sua visão, escopo, metas e riscos para este projeto.</li><li>Revisite sua equipe de projeto para confirmar que você contratou a equipe certa.</li></ul>|
+| ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>O que você deseja fazer com este projeto (em outras palavras, por que você está fazendo isso)?</li><li>Qual é a aparência do sucesso?</li><li>Quais são os riscos e qual o seu plano para atenuar esses riscos?</li></ul> |
+| ![Um ícone representando os próximos passos](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Discuta as seções a seguir com sua equipe de projeto e seus patrocinadores.</li><li>Documente sua visão, escopo, metas e riscos para este projeto.</li><li>Revisite sua equipe de projeto para confirmar que você contratou a equipe certa.</li></ul>|
 
 ## <a name="project-vision"></a>Visão do projeto
 

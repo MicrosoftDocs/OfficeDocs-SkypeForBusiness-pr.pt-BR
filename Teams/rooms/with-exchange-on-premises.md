@@ -7,18 +7,20 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Leia este tópico para obter informações sobre como implantar salas do Microsoft Teams em um ambiente híbrido com o Exchange no local.
-ms.openlocfilehash: c8309f4d7007bcd249334c554d284e5be00bfa16
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: eb399eea64707e07d796ee36e85036e662ce8de1
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268760"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838181"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Implantar as Salas do Microsoft Teams com o Exchange no local
 
@@ -69,7 +71,7 @@ Se você estiver implantando salas do Microsoft Teams com o Exchange no local, u
 
 1. [Abra o Shell de gerenciamento do Exchange](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell) ou [Conecte-se ao seu servidor Exchange usando o PowerShell remoto](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell).
 
-2. No PowerShell do Exchange, encaixar uma caixa de correio para a conta (habilitar a caixa de correio na conta) executando o seguinte comando:
+2. No PowerShell do Exchange, crie uma caixa de correio para a conta (habilite a caixa de correio da conta) executando o seguinte comando:
 
    ```PowerShell
    Enable-Mailbox PROJECTRIGEL01@contoso.com -Room

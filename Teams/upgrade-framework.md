@@ -10,18 +10,20 @@ audience: admin
 description: Use uma estrutura de sucesso comprovada para ajudar a jornada de atualização de sua organização do Skype for Business para Teams
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52564961f3737b3b5ed9c48686adab1fe040b44d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d403a97b5c9a7320834d6c78f78cafa28d54116a
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236404"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837181"
 ---
 # <a name="about-the-upgrade-framework"></a>Sobre a estrutura de atualização
 
@@ -29,7 +31,7 @@ Para ajudar a tirar o máximo de adivinhação da viagem de atualização, empre
 
 Comece reunindo os stakeholders certos e definindo seu plano de atualização (por exemplo, escopo, metas e linha do tempo). Com um plano estabelecido, confirme se o seu ambiente técnico e seus usuários finais estão prontos para o Microsoft Teams. Em seguida, implemente a atualização em estágios, movendo de um piloto para uma atualização em toda a organização quando estiver pronto. Depois que sua organização estiver no Teams, estabeleça um plano operacional que monitore a qualidade e acelere a adoção pelo usuário.
 
-![Ilustração da estrutura de viagem de atualização] (media/upgrade-banner-main.png "Verifique se o seu projeto está configurado para o sucesso com a equipe de projeto certa. Defina o escopo, as metas e o cronograma do projeto. Confirme a prontidão técnica e do usuário. Executar o plano de distribuição. Mantenha a momentum para maximizar os resultados.")
+![Ilustração da estrutura de viagem de atualização](media/upgrade-banner-main.png "Verifique se o seu projeto está configurado para o sucesso com a equipe de projeto certa. Defina o escopo, as metas e o cronograma do projeto. Confirme a prontidão técnica e do usuário. Executar o plano de distribuição. Mantenha a momentum para maximizar os resultados.")
 
 Procure este elemento gráfico de estrutura em páginas relacionadas para identificar onde você está no processo de atualização.
 
@@ -65,8 +67,8 @@ Para ajudar a demonstrar a forma como a sua viagem de atualização pode ficar d
 
 | Etapa |  | Resumo | Recurso |
 |------|--|---------|----------|
-| **1** | **Avalie seu ambiente e conclua a integração técnica do teams** | Assegure-se de que seu ambiente esteja pronto para que as equipes ajudem a otimizar a experiência do usuário e facilitar a atualização ao longo do tempo. | [Avalie seu ambiente antes de atualizar para](upgrade-plan-journey-evaluate-environment.md)o Microsoft Teams.<br><br> [Preparar seu serviço para a atualização para o Microsoft Teams](upgrade-prepare-environment-prepare-service.md) |
-| **2** | **Otimizar a rede para o Teams, especialmente para cenários de mídia em tempo real** | Se você estiver implantando áudio, vídeo ou reuniões, siga estas etapas adicionais para otimizar sua rede para essa funcionalidade. | [Preparar sua rede para a atualização para o Microsoft Teams](upgrade-prepare-environment-prepare-network.md) |
+| **1** | **Avalie seu ambiente e conclua a integração técnica do teams** | Assegure-se de que seu ambiente esteja pronto para que as equipes ajudem a otimizar a experiência do usuário e facilitar a atualização ao longo do tempo. | [Avalie seu ambiente antes de atualizar para o Microsoft Teams](upgrade-plan-journey-evaluate-environment.md).<br><br> [Preparar seu serviço para a atualização para o Microsoft Teams](upgrade-prepare-environment-prepare-service.md) |
+| **2** | **Otimizar a rede para o Teams, especialmente para cenários de mídia em tempo real** | Se você estiver implantando áudio, vídeo ou reuniões, siga estas etapas adicionais para otimizar sua rede para essa funcionalidade. | [Preparar sua rede para atualizar para o Teams](upgrade-prepare-environment-prepare-network.md) |
 | **3** | **Avaliar a preparação das alterações organizacionais e definir cenários de trabalho em equipe** | Compreenda a base de usuários para preparar o valor certo e o nível de educação para facilitar e acelerar a adoção do usuário. | [Preparação das alterações organizacionais](upgrade-org-change-readiness.md#organizational-change-readiness) |
 | **4** | **Preparar um plano de preparação do usuário para definir como você irá se comunicar, treinar e dar suporte a usuários** | Personalize seu plano de comunicação, treinamento e suporte para garantir a melhor adminhabilidade para a nova tecnologia. | [Preparar um plano de preparação para usuários](upgrade-user-readiness.md)<br><br>[Atualização do kit de sucesso](https://aka.ms/UpgradeSuccessKit) |
 | **5** | **Anunciar o lançamento pendente do Microsoft Teams** | Comunique-se antecipadamente para ajudar os usuários a se sentirem incluídos, reduzir a confusão e gerar entusiasmo. | [Atualização do kit de sucesso](https://aka.ms/UpgradeSuccessKit) |
@@ -108,7 +110,7 @@ Para ajudar a demonstrar a forma como a sua viagem de atualização pode ficar d
 
 ## <a name="post-upgrade"></a>Pós-atualização
 
-**Maximize o valor de negócios com**o Teams. Após a atualização total da sua organização para o Teams, Reserve um tempo para avaliar seu sucesso em relação às metas e implementar um plano para continuar a impulso. 
+**Maximize o valor de negócios com o Teams**. Após a atualização total da sua organização para o Teams, Reserve um tempo para avaliar seu sucesso em relação às metas e implementar um plano para continuar a impulso. 
 
 ### <a name="operate-measure-the-success-of-your-upgrade"></a>Operar: avalie o sucesso da atualização
 
@@ -122,7 +124,7 @@ Para ajudar a demonstrar a forma como a sua viagem de atualização pode ficar d
 
 
 > [!Note]
-> Nosso conteúdo de atualização está sempre em evolução. Verifique as informações mais recentes sobre a orientação mais recente e leia o [blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)do teams. 
+> Nosso conteúdo de atualização está sempre em evolução. Verifique as informações mais recentes sobre a orientação mais recente e leia o [blog do teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog). 
 
 > [!Important]
-> O Skype for Business online será desativado em 31 de julho de 2021, após o qual ele não estará mais acessível ou compatível. Para maximizar a concretização de benefícios e garantir que sua organização tenha tempo adequado para implementar a sua atualização, recomendamos que você comece sua jornada ao Microsoft Teams hoje mesmo. Lembre-se de que uma atualização bem-sucedida alinha a prontidão técnica e do usuário, portanto, não deixe de aproveitar as diretrizes contidas ao navegar na jornada para o Microsoft Teams.
+> O Skype for Business Online será desativado em 31 de julho de 2021, e depois disso não estará mais acessível nem terá suporte. Para maximizar a realização dos benefícios e garantir que sua organização tenha tempo adequado para implementar a atualização, recomendamos que você comece hoje sua jornada para o Microsoft Teams. Lembre-se de que uma atualização bem-sucedida alinha a prontidão técnica e do usuário, portanto, não deixe de aproveitar as diretrizes contidas ao navegar na jornada para o Microsoft Teams.

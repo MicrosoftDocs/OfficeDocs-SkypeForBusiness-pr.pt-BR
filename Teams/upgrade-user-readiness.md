@@ -10,39 +10,41 @@ audience: admin
 description: Planeje se comunicar com, treinar e dar suporte aos seus usuários durante o piloto, a integração e a atualização para o Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71ee20ae80fa9fc7f8916efbc5a4736f50bd56f8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ad51dd4b269652ec1899b2af6ace6a9b7b9f713a
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235914"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836791"
 ---
-![Estágios da viagem de atualização, realçando o estágio de preparação do usuário] (media/upgrade-banner-user-readiness.png "Estágios da jornada da atualização, com ênfase no estágio de preparação do usuário")
+![Estágios da viagem de atualização, realçando o estágio de preparação do usuário](media/upgrade-banner-user-readiness.png "Estágios da jornada da atualização, com ênfase no estágio de preparação do usuário")
 
-Este artigo faz parte do estágio de preparação do usuário da jornada da atualização, uma atividade que você conclui em paralelo com o estágio de preparação técnica. Antes de prosseguir, confirme que você concluiu essas atividades dos estágios anteriores:
+Este artigo faz parte do estágio de preparação do usuário da jornada da atualização, uma atividade que você conclui em paralelo com o estágio de preparação técnica. Antes de prosseguir, confirme se você concluiu essas atividades dos estágios anteriores:
 
-- [Listamos os participantes do projeto](upgrade-enlist-stakeholders.md)
-- [Definiu o escopo do projeto](https://aka.ms/SkypetoTeams-Scope)
-- [Compreendemos a coexistência e interoperabilidade do Skype for Business e do teams](https://aka.ms/SkypeToTeams-Coexist)
-- [Escolhido a jornada da atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Alistou as partes envolvidas no seu projeto](upgrade-enlist-stakeholders.md)
+- [Definiu o escopo do seu projeto](https://aka.ms/SkypetoTeams-Scope)
+- [Compreendeu a coexistência e interoperabilidade do Skype for Business e do Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Escolheu sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="prepare-a-user-readiness-plan"></a>Preparar um plano de preparação para usuários
 
-Um plano de preparação do usuário ideal incorpora como você se comunicará, treinará e apoiará seus usuários enquanto você faz o piloto, a integração e a atualização para o Microsoft Teams. Como você descobriu em [avaliar](https://aka.ms/OrgReadiness)a preparação das alterações organizacionais, a prontidão não é única para se ajustar a um tamanho. Para garantir a melhor adacessibilidade para a nova tecnologia, use uma combinação de mensagens amplas (incorporação de mensagens de visão/valor e casos de uso universal) e mensagens, treinamento e suporte adaptados para as pessoas e cohorts que você definiu e também para seu Laggards, conforme apropriado. Este plano personalizado ajudará a facilitar a adoção pelo usuário, permitindo que os usuários se relacionem mais rapidamente com o Microsoft Teams e, ao mesmo tempo, demonstram que você compreende suas necessidades.
+Um plano de preparação do usuário ideal incorpora como você se comunicará, treinará e apoiará seus usuários enquanto você faz o piloto, a integração e a atualização para o Microsoft Teams. Como você descobriu em avaliar a preparação das [alterações organizacionais](https://aka.ms/OrgReadiness), a prontidão não é única para se ajustar a um tamanho. Para garantir a melhor adequação para a nova tecnologia, use uma combinação de mensagens amplas (incorporando as mensagens de visão/valor e casos de uso universal) e mensagens, treinamento e suporte adaptados para as pessoas e cohorts que você definiu e também para seu Laggards, conforme apropriado. Este plano personalizado ajudará a facilitar a adoção pelo usuário, permitindo que os usuários se relacionem mais rapidamente com o Microsoft Teams e, ao mesmo tempo, demonstram que você compreende suas necessidades.
 
 > [!Tip]
 > Baixe o [Kit de sucesso da atualização](https://aka.ms/UpgradeSuccessKit) para materiais de preparação do usuário do modelo, como comunicações e pesquisas de usuários, além de um plano de projeto de atualização de exemplo e um plano de teste piloto.
 
 | | |
 |---|---|
-| ![Um ícone que representa os pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Como você pode criar um plano de preparação para facilitar e acelerar a adoção do usuário da nova solução?</li><li>Você tem os recursos de conscientização, treinamento e suporte corretos que se alinham com a capacidade dos usuários de lidar com alterações e com as pessoas que você definiu?</li></ul> |
-| ![Um ícone que representa a próxima etapa](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>Use a lista abaixo para gerar ideias para seu plano de preparação. Selecione as atividades mais relevantes, ou adicione a sua própria, para criar um plano de preparação otimizado para sua organização. Lembre-se de usar uma combinação de campanhas amplas (para toda a sua organização) e segmentadas (para Laggards ou pessoas específicas) para obter o máximo de resultados.</li></ul>|
+| ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Como você pode criar um plano de preparação para facilitar e acelerar a adoção do usuário da nova solução?</li><li>Você tem os recursos de conscientização, treinamento e suporte corretos que se alinham com a capacidade dos usuários de lidar com alterações e com as pessoas que você definiu?</li></ul> |
+| ![Um ícone representando o passo seguinte](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>Use a lista abaixo para gerar ideias para seu plano de preparação. Selecione as atividades mais relevantes, ou adicione a sua própria, para criar um plano de preparação otimizado para sua organização. Lembre-se de usar uma combinação de campanhas amplas (para toda a sua organização) e segmentadas (para Laggards ou pessoas específicas) para obter o máximo de resultados.</li></ul>|
 
 <div class="mx-tableFixed">
 <table>

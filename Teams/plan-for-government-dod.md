@@ -10,17 +10,19 @@ audience: admin
 description: Orientação para profissionais de ti para conduzir implantações do Office 365 em entidades que lidam com os dados sujeitos a normas do governo dos EUA.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33495b8a4122df6c0c5d380b835dbfb3a9271eb2
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: be952d838135a03a873d7193118febf5639bd415
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573290"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836851"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Plano para implantações do governo Microsoft 365-DoD
 

@@ -13,15 +13,17 @@ ms.collection:
 search.appverid: MET150
 ms.reviewer: rowille
 description: Saiba que aplicativos de dados e permissões estão solicitando da sua organização.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a5efc1ec447d1aeda3c42841752b6fd6e1f1938
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 5d7548d4d162310bc239c752e2bce38e725008f9
+ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516779"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41845222"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Permissões e considerações dos aplicativos Microsoft Teams
 
@@ -74,11 +76,11 @@ Um aplicativo deve divulgar quais dados ele usa e o que os dados são usados nos
 
 - As seguintes permissões não são explícitas, mas são implícitas por RECEIVE_MESSAGE e REPLYTO_MESSAGE e os escopos nos quais os bots podem ser usados, declarados no manifesto:
  
-    - RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
-    - RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
-    - RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
+    - RECEIVE_MESSAGE_PERSONAL REPLYTO_MESSAGE_PERSONAL
+    - RECEIVE_MESSAGE_GROUPCHAT REPLYTO_MESSAGE_GROUPCHAT
+    - RECEIVE_MESSAGE_TEAM REPLYTO_MESSAGE_TEAM
 
-- SEND_FILES, RECEIVE_FILES. <sup>2</sup> controla se um bot pode enviar e receber arquivos em um chat pessoal (ainda não compatível com o chat em grupo ou canais).
+- SEND_FILES RECEIVE_FILES. <sup>2</sup> controla se um bot pode enviar e receber arquivos em um chat pessoal (ainda não compatível com o chat em grupo ou canais).
 
 ### <a name="considerations"></a>Considerações
 
@@ -106,7 +108,7 @@ Um aplicativo deve divulgar quais dados ele usa e o que os dados são usados nos
 
 - As extensões de mensagens, por outro lado, podem ver os endereços IP e as informações referenciais dos usuários.
 
-- As diretrizes do aplicativo (e o processo de revisão do AppSource) exigem critério para o lançamento de mensagens de chat pessoais para usuários (por meio da permissão POST_MESSAGE_TEAM) para fins válidos. Em caso de abuso, os usuários podem bloquear o bot, os administradores de locatários podem bloquear o aplicativo e a Microsoft pode bloquear os bots de forma centralizada, se necessário.
+- As diretrizes do aplicativo (e o processo de revisão do AppSource) exigem critério de postagem de mensagens de chat pessoais para usuários (por meio da permissão POST_MESSAGE_TEAM) para fins válidos. Em caso de abuso, os usuários podem bloquear o bot, os administradores de locatários podem bloquear o aplicativo e a Microsoft pode bloquear os bots de forma centralizada, se necessário.
 
 <sup>1</sup> alguns bots apenas enviam mensagens (POST_MESSAGE_USER). Eles são chamados de bots de "somente notificação", mas o termo não se refere ao que um bot é permitido ou não pode fazer, isso significa que o bot não quer expor uma experiência de conversa. O Microsoft Teams usa esse campo para desativar a funcionalidade na interface do usuário que normalmente seria habilitada; o bot não está restrito sobre o que pode ser feito em comparação com os bots que expõem uma experiência de conversa.
 
@@ -164,15 +166,15 @@ REPLYTO_CONNECTOR_MESSAGE. Certos conectores oferecem suporte a mensagens acion�
 - Se o serviço que envia mensagens de conector fosse comprometido e começar a enviar spam/phishing/malware links, um administrador de locatário pode impedir que novas instâncias de conector sejam criadas e a Microsoft possa bloqueá-las de forma centralizada.
 
 > [!NOTE]
-> No momento, não é possível saber quais conectores suportam mensagens acionáveis (permissão REPLYTO_CONNECTOR_MESSAGE).
+> No momento, não é possível saber quais conectores suportam mensagens acionáveis (REPLYTO_CONNECTOR_MESSAGE permissão).
 
 ## <a name="outgoing-webhooks"></a>WebHooks de saída
 
-Os *WebHooks de saída* são criados instantaneamente por proprietários da equipe ou pelos membros da equipe se o Sideload estiver habilitado para um locatário. Eles não são recursos de aplicativos Teams; essas informações estão incluídas para fins de integridade.
+Os *WebHooks de saída* são criados instantaneamente por parte dos proprietários da equipe ou dos membros da equipe. Eles não são recursos de aplicativos Teams; essas informações estão incluídas para fins de integridade.
 
 ### <a name="required-permissions"></a>Permissões necessárias
 
-RECEIVE_MESSAGE, REPLYTO_MESSAGE. Pode receber mensagens de usuários e respondê-las.
+RECEIVE_MESSAGE REPLYTO_MESSAGE. Pode receber mensagens de usuários e respondê-las.
 
 ### <a name="optional-permissions"></a>Permissões opcionais
 

@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como obter comentários do usuário e usar relatórios de integridade do serviço na adoção do seu Teams.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83ae406e68a69c14c044ed8198dea1db31d3a7d9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9b1367ce5f3814c7ca6a9743e5ec0ccc159312cc
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237915"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837781"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Otimizar os comentários e relatórios de adoção do Microsoft Teams
 

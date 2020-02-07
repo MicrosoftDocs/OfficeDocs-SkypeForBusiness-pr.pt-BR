@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Preencha a lista de verificação para começar sua adoção do Microsoft Teams.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9050959ba070bfae99ee077dedfd1b503bea1c2c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d7cef7033a79d7282d73534ded41805b11b2a46e
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237811"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837741"
 ---
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Lista de verificação de início rápido da adoção do Microsoft Teams
 
@@ -32,7 +34,7 @@ ms.locfileid: "36237811"
 
 - [Pré-requisitos de adoção](teams-adoption-get-started.md)
 
-## <a name="phase-1---start"></a>Fase 1 - Iniciar
+## <a name="phase-1---start"></a>Fase 1 - Início
 
 - [Entender as equipes e canais](teams-adoption-understand-teams-and-channels.md)
 - [Criar sua primeira equipe](teams-adoption-your-first-teams.md)
@@ -40,7 +42,7 @@ ms.locfileid: "36237811"
 - [Reunir-se com os interessados](teams-adoption-assess-readiness.md#assess-your-stakeholders)
 - [Identificar os primeiros adeptos](teams-adoption-assess-readiness.md#identify-early-adopters)
 
-## <a name="phase-2---experiment"></a>Fase 2 - Experimentar
+## <a name="phase-2---experiment"></a>Fase 2 - Experimento
 
 - [Criar seu programa de defensores](teams-adoption-create-champions-program.md)
 - [Concluir o início rápido de governança](teams-adoption-governance-quick-start.md)
@@ -50,7 +52,7 @@ ms.locfileid: "36237811"
 - [Integração de usuários pioneiros e coleta de comentários](teams-adoption-onboard-early-adopters.md)
 - [Suporte à integração](teams-adoption-onboard-support.md)
 
-## <a name="phase-3---scale"></a>Fase 3 - Dimensionar
+## <a name="phase-3---scale"></a>Fase 3 - Escala
 
 - [Definir resultados e medidas de sucesso](teams-adoption-define-outcomes.md)
 - [Selecionar uma estratégia de capacitação de serviço](teams-adoption-define-outcomes.md#select-a-service-enablement-strategy)

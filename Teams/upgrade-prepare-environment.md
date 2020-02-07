@@ -10,27 +10,29 @@ audience: admin
 description: Valide seu ambiente e a prontidão da rede antes de começar sua atualização do Skype for Business para o Teams.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 481c32dd7b41f377d1d16c7e8d3fc068f86d8391
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6c5287db10067ad26feac8b3074de97a977646cf
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236069"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837091"
 ---
-![Atualize o diagrama de jornada, enfatizando o estágio de preparação técnica] (media/upgrade-banner-tech-readiness.png "Estágios da jornada da atualização, com ênfase no estágio de preparação técnica")
+![Atualize o diagrama de jornada, enfatizando o estágio de preparação técnica](media/upgrade-banner-tech-readiness.png "Estágios da jornada da atualização, com ênfase no estágio de preparação técnica")
 
-Este artigo faz parte do estágio de preparação técnica da sua jornada de atualização, uma atividade que você conclui em paralelo com o estágio de preparação do usuário. Antes de prosseguir, confirme que você concluiu essas atividades dos estágios anteriores:
+Este artigo faz parte do estágio de Preparação Técnica da sua jornada de atualização, uma atividade que você realiza em paralelo com o estágio de Preparação do Usuário. Antes de prosseguir, confirme se você concluiu essas atividades dos estágios anteriores:
 
-- [Listamos os participantes do projeto](upgrade-enlist-stakeholders.md)
-- [Definiu o escopo do projeto](https://aka.ms/SkypetoTeams-Scope)
-- [Compreendemos a coexistência e interoperabilidade do Skype for Business e do teams](https://aka.ms/SkypeToTeams-Coexist)
-- [Escolhido a jornada da atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Alistou as partes envolvidas no seu projeto](upgrade-enlist-stakeholders.md)
+- [Definiu o escopo do seu projeto](https://aka.ms/SkypetoTeams-Scope)
+- [Compreendeu a coexistência e interoperabilidade do Skype for Business e do Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Escolheu sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="prepare-your-environment-for-upgrading-to-teams"></a>Preparar seu ambiente para a atualização para o Microsoft Teams
 

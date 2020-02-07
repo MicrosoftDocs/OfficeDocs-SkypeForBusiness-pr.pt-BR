@@ -10,20 +10,22 @@ ms.reviewer: dearbeen
 description: Tarefas e atividades necessárias para monitorar a qualidade e o uso do Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecc3781f3190b7c7e5f52aec7ecf9dbae0894886
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 69f36da55daf95da66fa87b90487dde447953f53
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236423"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837171"
 ---
-![Diagrama realçando a excelência operacional estágio da viagem de atualização] (media/upgrade-banner-op-excellence.png "Estágios da jornada da atualização, com ênfase no estágio Operational de excelência")
+![Diagrama realçando a excelência operacional estágio da viagem de atualização](media/upgrade-banner-op-excellence.png "Estágios da jornada da atualização, com ênfase no estágio Operational de excelência")
 
 Este artigo faz parte do estágio operacional de excelência da sua jornada de atualização, que começa assim que você concluiu a atualização do Skype for Business para o Teams.
 
@@ -31,7 +33,7 @@ Este artigo faz parte do estágio operacional de excelência da sua jornada de a
 
 O [Guia de revisão da qualidade da experiência](https://aka.ms/qerguide) inclui um conjunto de atividades que avaliam e fornecem orientação de correção em áreas importantes que têm o maior impacto na melhoria da experiência do usuário, conforme ilustrado a seguir.
 
-![Ilustração das principais áreas a serem examinadas durante uma crítica.] (media/plan-my-service-management-image2.png "As principais áreas a serem examinadas durante uma revisão de qualidade da experiência: áudio, confiabilidade e resultados da pesquisa de usuários.")
+![Ilustração das principais áreas a serem examinadas durante uma crítica.](media/plan-my-service-management-image2.png "As principais áreas a serem examinadas durante uma revisão de qualidade da experiência: áudio, confiabilidade e resultados da pesquisa de usuários.")
 
 Ao avaliar continuamente e corrigir as áreas descritas no guia, você pode reduzir o potencial de afetar negativamente a experiência do usuário. A maioria dos problemas de experiência do usuário encontrada em uma implantação pode ser agrupada nas seguintes categorias:
 

@@ -1,5 +1,5 @@
 ---
-title: Descontinuação do Skype for Business Online
+title: Desativação do Skype for Business Online
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -13,16 +13,18 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae0d278955f6935b55fda9b0e2dc3b13503b1f77
-ms.sourcegitcommit: 8cfb6bd11706ac3f0da93382359d5231e16e9234
+ms.openlocfilehash: c9986355905cb40e26182368dec8f53d796432fe
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "36849836"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837941"
 ---
-# <a name="skype-for-business-online-retirement"></a>Descontinuação do Skype for Business Online
+# <a name="skype-for-business-online-retirement"></a>Desativação do Skype for Business Online
 
 O Skype for Business online será desativado em 31 de julho de 2021. Este artigo fornece detalhes sobre o plano de aposentadoria, uma breve explicação do motivo pelo qual estamos fazendo este lançamento agora e um resumo do que estamos fazendo para ajudar os clientes a migrar para o Microsoft Teams.
  
@@ -45,6 +47,6 @@ Primeiro, estamos fazendo investimentos em produtos para atender a solicitaçõe
 - **Teams e interoperabilidade de consumidor do Skype**. A interoperabilidade entre equipes e o Skype Consumer permitirá que os usuários nos dois serviços se comuniquem usando chat e chamadas.  O Teams e a interoperabilidade do consumidor do Skype estarão disponíveis no Microsoft Teams no primeiro trimestre do ano civil de 2020.
 - **Integração da central de contatos e gravação de conformidade**. Na inspiração anterior deste mês, anunciamos parcerias com o Five9, o Genesys e o interessante para habilitar as soluções do centro de contato, e com ASC, agradável e Verint para fornecer gravação de conformidade.   Também estamos trabalhando com outros parceiros certificados do Skype for Business online para dar outras soluções de gravação de conformidade e central de contatos para o mercado para equipes.
  
-E quando você estiver pronto para começar, oferecemos [um conjunto abrangente de recursos de planejamento e orientação técnica](https://aka.ms/SkypeToTeams), incluindo uma estrutura de sucesso comprovada, práticas recomendadas, planejamento de documentos, [treinamento gratuito do instrutor](instructor-led-training-teams-landing-page.md)e [FastTrack ](https://www.microsoft.com/FastTrack)assistência para integração com assinaturas elegíveis.
+E quando você estiver pronto para começar, oferecemos [um conjunto abrangente de recursos de planejamento e orientação técnica](https://aka.ms/SkypeToTeams), incluindo uma estrutura de sucesso comprovada, práticas recomendadas, planejamento de documentos, [treinamento gratuito do instrutor](instructor-led-training-teams-landing-page.md)e assistência de integração do [FastTrack](https://www.microsoft.com/FastTrack) para assinaturas elegíveis.
  
 Desde sua introdução no 2014, o Skype for Business é uma ferramenta valiosa para milhões de pessoas em todo o mundo.  Combinando mensagens instantâneas, chamadas e vídeos em um único aplicativo, o produto estabeleceu uma visão empolgante e nova para comunicações de negócios. O Microsoft Teams é o próximo capítulo da visão, e com as novidades de hoje, não estamos apenas lançando o afastamento do serviço Skype for Business Online, estamos também comunicando nossa confiança no Teams.  Depois de mais de dois anos no mercado, o Teams está pronto para nossos clientes mais exigentes – e estamos convencidos de que você vai adorar!  Se você for um cliente atual do Skype for Business Online, comece a planejar a migração hoje mesmo.  Estamos comprometidos a ajudá-lo em cada etapa da maneira, e não podemos esperar que você experimentasse a nova maneira de trabalhar. 

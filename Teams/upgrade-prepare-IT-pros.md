@@ -10,27 +10,29 @@ ms.reviewer: dearbeen
 description: Prepare a equipe de ti em sua organização para a implantação e o suporte ao Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b561af2fd5b29dd66f00f75634a660cfb08cf7e6
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c11b7fa80940ad45d4462510e8fa46531f10f1e9
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236120"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836121"
 ---
-![Atualize o diagrama de jornada, enfatizando o estágio de preparação técnica] (media/upgrade-banner-tech-readiness.png "Estágios da jornada da atualização, com ênfase no estágio de preparação técnica")
+![Atualize o diagrama de jornada, enfatizando o estágio de preparação técnica](media/upgrade-banner-tech-readiness.png "Estágios da jornada da atualização, com ênfase no estágio de preparação técnica")
 
-Este artigo faz parte do estágio de preparação técnica da sua jornada de atualização, uma atividade que você conclui em paralelo com o estágio de preparação do usuário. Antes de prosseguir, confirme que você concluiu essas atividades dos estágios anteriores:
+Este artigo faz parte do estágio de Preparação Técnica da sua jornada de atualização, uma atividade que você realiza em paralelo com o estágio de Preparação do Usuário. Antes de prosseguir, confirme se você concluiu essas atividades dos estágios anteriores:
 
-- [Listamos os participantes do projeto](upgrade-enlist-stakeholders.md)
-- [Definiu o escopo do projeto](https://aka.ms/SkypetoTeams-Scope)
-- [Compreendemos a coexistência e interoperabilidade do Skype for Business e do teams](https://aka.ms/SkypeToTeams-Coexist)
-- [Escolhido a jornada da atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Alistou as partes envolvidas no seu projeto](upgrade-enlist-stakeholders.md)
+- [Definiu o escopo do seu projeto](https://aka.ms/SkypetoTeams-Scope)
+- [Compreendeu a coexistência e interoperabilidade do Skype for Business e do Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Escolheu sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Preparar sua equipe de ti para o Microsoft Teams
 
@@ -47,7 +49,7 @@ Compartilhe os recursos a seguir com os membros da equipe de ti e confirme se es
 
 | | |
 |---|---|
-| ![Um ícone que representa os pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Você já participou de toda a equipe de suporte que provavelmente participará da implantação e da equipe de suporte?</li><li>Você já desenvolveu um plano de treinamento para integrar outros funcionários à medida que a atualização progride?</li></ul> |
-| ![Um ícone que representa as próximas etapas](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Verifique se a equipe de ti tem as informações de que precisam.</li><li>Revisite seu treinamento e seus planos de preparação à medida que novos recursos são lançados.</li></ul>|
+| ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Você já participou de toda a equipe de suporte que provavelmente participará da implantação e da equipe de suporte?</li><li>Você já desenvolveu um plano de treinamento para integrar outros funcionários à medida que a atualização progride?</li></ul> |
+| ![Um ícone representando os próximos passos](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Verifique se a equipe de ti tem as informações de que precisam.</li><li>Revisite seu treinamento e seus planos de preparação à medida que novos recursos são lançados.</li></ul>|
 
 Depois de ter preparado sua equipe de ti para o Teams, verifique se o seu ambiente atende a todos os [pré-requisitos](upgrade-plan-journey-prerequisites.md).

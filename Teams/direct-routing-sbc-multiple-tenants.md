@@ -13,13 +13,15 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: Saiba como configurar um SBC (controlador de borda de sessão) para atender a vários locatários.
-ms.openlocfilehash: c58a6f264910e0d916d5d338598b58e132f2c413
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 7bd313c1b0c6d8078ee3ce80b2a08697dc6040e7
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769824"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837271"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar um controlador de borda da sessão para vários locatários
 

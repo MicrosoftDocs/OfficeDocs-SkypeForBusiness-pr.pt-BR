@@ -10,27 +10,29 @@ ms.reviewer: dearbeen
 description: Verifique se a sua organização e os usuários estão prontos para o Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 716e5342d29bca21ea2963a28244ae6d766c0392
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e3f569cfc225c1933b978e9a0a7d9e9bf95be783
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236434"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837123"
 ---
-![Atualize o diagrama de jornada, enfatizando o estágio de preparação do usuário] (media/upgrade-banner-user-readiness.png "Estágios da jornada da atualização, com ênfase no estágio de preparação do usuário")
+![Atualize o diagrama de jornada, enfatizando o estágio de preparação do usuário](media/upgrade-banner-user-readiness.png "Estágios da jornada da atualização, com ênfase no estágio de preparação do usuário")
 
-Este artigo faz parte do estágio de preparação do usuário da jornada da atualização, uma atividade que você conclui em paralelo com o estágio de preparação técnica. Antes de prosseguir, confirme que você concluiu essas atividades dos estágios anteriores:
+Este artigo faz parte do estágio de preparação do usuário da jornada da atualização, uma atividade que você conclui em paralelo com o estágio de preparação técnica. Antes de prosseguir, confirme se você concluiu essas atividades dos estágios anteriores:
 
-- [Listamos os participantes do projeto](upgrade-enlist-stakeholders.md)
-- [Definiu o escopo do projeto](https://aka.ms/SkypetoTeams-Scope)
-- [Compreendemos a coexistência e interoperabilidade do Skype for Business e do teams](https://aka.ms/SkypeToTeams-Coexist)
-- [Escolhido a jornada da atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Alistou as partes envolvidas no seu projeto](upgrade-enlist-stakeholders.md)
+- [Definiu o escopo do seu projeto](https://aka.ms/SkypetoTeams-Scope)
+- [Compreendeu a coexistência e interoperabilidade do Skype for Business e do Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Escolheu sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="assess-organizational-change-readiness"></a>Avaliar preparação da mudança organizacional
 
@@ -44,8 +46,8 @@ Depois de proteger a sua equipe de projeto e definir sua visão, o escopo e os o
 
 | | |
 |---|---|
-| ![Um ícone que representa os pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Qual é a cultura da sua organização quando ela é alterada?</li><li>Como a nova tecnologia pode otimizar a maneira como os usuários trabalham?</li><li>Quais usuários provavelmente exigirão atenção especial para que eles possam mudar a maneira como funcionam?</li></ul> |
-| ![Um ícone que representa as próximas etapas](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Use as seguintes diretrizes e atividades associadas para capturar o perfil de preparação do usuário da sua organização.</li></ul>|
+| ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Pontos de decisão|<ul><li>Qual é a cultura da sua organização quando ela é alterada?</li><li>Como a nova tecnologia pode otimizar a maneira como os usuários trabalham?</li><li>Quais usuários provavelmente exigirão atenção especial para que eles possam mudar a maneira como funcionam?</li></ul> |
+| ![Um ícone representando os próximos passos](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Use as seguintes diretrizes e atividades associadas para capturar o perfil de preparação do usuário da sua organização.</li></ul>|
 
 ## <a name="organizational-change-readiness"></a>Preparação das alterações organizacionais
 
@@ -104,12 +106,12 @@ Para aproveitar ao máximo o Teams, crie uma estratégia de trabalho em equipe q
 
 | | |
 |---|---|
-| ![Um ícone que representa os pontos de decisão](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Quais cenários do relatable em equipe de trabalho você empregará para ajudar a acelerar a adoção do usuário do Teams e facilitar a atualização do Skype for Business?</li></ul> |
-| ![Um ícone que representa as próximas etapas](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Use os exemplos a seguir para ajudar a criar seus próprios cenários de trabalho em equipe. Documente-os na [pasta de trabalho de atualização](https://aka.ms/upgradesuccesskit).</li><li>Para ver cenários e exemplos adicionais, acesse a [biblioteca de produtividade](https://www.microsoft.com/en-us/microsoft-365/success/)</li></ul>|
+| ![Um ícone representando pontos de decisão](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Quais cenários do relatable em equipe de trabalho você empregará para ajudar a acelerar a adoção do usuário do Teams e facilitar a atualização do Skype for Business?</li></ul> |
+| ![Um ícone representando os próximos passos](media/audio_conferencing_image9.png)<br/>Próximas etapas|<ul><li>Use os exemplos a seguir para ajudar a criar seus próprios cenários de trabalho em equipe. Documente-os na [pasta de trabalho de atualização](https://aka.ms/upgradesuccesskit).</li><li>Para ver cenários e exemplos adicionais, acesse a [biblioteca de produtividade](https://www.microsoft.com/en-us/microsoft-365/success/)</li></ul>|
 
 ### <a name="examples"></a>Exemplos
 
-**Equipe de trabalho centrada no projeto: evento de lançamento do produto** (por exemplo: sua organização está preparando-se para iniciar um novo produto no mercado e está planejando um amplo evento promocional para impulsionar a conscientização, gerar clientes potenciais e incentivar as vendas).
+**Trabalho em equipe centrado no projeto: evento de lançamento do produto** (por exemplo: sua organização está se preparando para iniciar um novo produto no mercado e está planejando um amplo evento promocional para direcionar a conscientização, gerar clientes e incentivar as vendas).
 
 | Consideração | Observações |
 |----|---|
@@ -120,7 +122,7 @@ Para aproveitar ao máximo o Teams, crie uma estratégia de trabalho em equipe q
 
 <sup>1</sup> suporte à integração ou alinhamento de aplicativos no Microsoft Teams.
 
-**Equipe de trabalho centrada em pessoas: equipe de vendas** (por exemplo: sua equipe de vendas dispersa e regional precisa permanecer conectada de qualquer lugar, permanece alinhada na tubulação e compreender as principais ofertas e iniciativas que podem ajudar a impulsionar os objetivos de cotas anuais)
+Equipe **de trabalho centrada em pessoas: equipe de vendas** (por exemplo: sua equipe de vendas dispersa e regional precisa ficar conectada da estrada, permanecer alinhada ao pipeline e compreender as principais ofertas e iniciativas que podem ajudar a impulsionar os alvos anuais das cotas)
 
 | Consideração | Observações |
 |----|---|

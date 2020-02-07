@@ -10,17 +10,19 @@ ms.reviewer: francoid
 description: Saiba mais sobre reuniões primeiro, onde os usuários podem criar uma reunião no Microsoft Teams, enquanto continuam a usar o Skype for Business para chat, chamadas e presença.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3207a7e7f460cb2941dd4c46df2a215df7997ed4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 10321d02398c6c2b0ffc2143a9bafa406fbec637
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37564901"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836451"
 ---
 # <a name="meetings-first"></a>Meetings First
 
@@ -103,7 +105,7 @@ Você pode considerar a execução de um piloto de preparação da produção de
 
 Depois de licenciar seus usuários e preparar sua organização para reuniões do Teams, é hora de habilitar seus usuários para reuniões primeiro. Ficou mais fácil: uma única configuração fará tudo isso!
 
-Todos os recursos e experiências do usuário em reuniões primeiro, incluindo a configuração do cliente do Teams e a [conformidade automática](teams-client-experience-and-conformance-to-coexistence-modes.md) da experiência do usuário, o serviço de migração de reuniões e recursos aprimorados juntos, são configurados por meio da concessão do usuário (ou grupo de usuários ou padrão locatário) o [modo de coexistência de SfBWithTeamsCollabAndMeetings](setting-your-coexistence-and-upgrade-settings.md) no centro de administração do [Microsoft Teams](manage-teams-in-modern-portal.md) ou usando o [PowerShell](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps).
+Todas as funcionalidades e experiências do usuário em reuniões em primeiro lugar, incluindo a configuração do cliente do Teams e a [conformidade automática](teams-client-experience-and-conformance-to-coexistence-modes.md) da experiência do usuário, o serviço de migração de reuniões e recursos aprimorados juntos, são configurados pela concessão do usuário (ou grupo de usuários ou padrão do locatário) ao [modo de coexistência do SfBWithTeamsCollabAndMeetings](setting-your-coexistence-and-upgrade-settings.md) no [centro de administração do Microsoft Teams](manage-teams-in-modern-portal.md) ou pelo [PowerShell](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps).
 
 ![Captura de tela das configurações do administrador para habilitar as reuniões primeiro](media/teams-meeting-admin-settings.png)
 
