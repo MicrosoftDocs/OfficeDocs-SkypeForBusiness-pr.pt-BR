@@ -12,15 +12,17 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Obtenha um breve panorama de como um convidado é chamado para entrar em uma equipe do Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 037cb96d31ad88480c240fdf632fde0c4a09145c
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 491770bcd3c2f435bbd2ea18c366effea2c8124f
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753406"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833171"
 ---
 <a name="how-a-guest-joins-a-team"></a>Como um convidado ingressa em uma equipe
 ========================

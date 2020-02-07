@@ -11,26 +11,28 @@ description: Orientação para iniciar um piloto do Microsoft Teams para explora
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa6f433c3888a9d3b3e20b098562592ea90b5e6f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ec60beb606224a5b202a03187027b8e3e002dfd1
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237437"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833891"
 ---
-![Atualizar o diagrama de jornada, realçando implantação e implementação] (media/upgrade-banner-deployment.png "Estágios da jornada da atualização, com ênfase no estágio de implantação e implementação")
+![Atualizar o diagrama de jornada, realçando implantação e implementação](media/upgrade-banner-deployment.png "Estágios da jornada da atualização, com ênfase no estágio de implantação e implementação")
 
-Este artigo faz parte do estágio de implantação e implementação da sua jornada de atualização e compartilha ideias para executar um piloto efetivo. Antes de prosseguir, confirme que você concluiu as seguintes atividades:
+Este artigo faz parte do estágio de implantação e implementação da sua jornada de atualização e compartilha ideias para executar um piloto efetivo. Antes de prosseguir, confirme se você concluiu as seguintes atividades:
 
-- [Listamos os participantes do projeto](upgrade-enlist-stakeholders.md)
-- [Definiu o escopo do projeto](https://aka.ms/SkypetoTeams-Scope)
-- [Compreendemos a coexistência e interoperabilidade do Skype for Business e do teams](https://aka.ms/SkypeToTeams-Coexist)
-- [Escolhido a jornada da atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Alistou as partes envolvidas no seu projeto](upgrade-enlist-stakeholders.md)
+- [Definiu o escopo do seu projeto](https://aka.ms/SkypetoTeams-Scope)
+- [Compreendeu a coexistência e interoperabilidade do Skype for Business e do Teams](https://aka.ms/SkypeToTeams-Coexist)
+- [Escolheu sua jornada de atualização](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [Seu ambiente foi preparado](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [Preparou sua organização](https://aka.ms/SkypeToTeams-UserReadiness)
 
@@ -43,7 +45,7 @@ Para obter os resultados mais realísticos, o piloto deve envolver usuários rea
 | | |
 |---|---|
 | ![Um ícone que representa um ponto de decisão](media/audio_conferencing_image7.png) <br/>Ponto de decisão|<ul><li>Como você vai usar um piloto para informar a direção do projeto?</li></ul> |
-| ![Um ícone que representa a próxima etapa](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>Use as diretrizes abaixo para criar e executar seu piloto formal.</li></ul>|
+| ![Um ícone representando o passo seguinte](media/audio_conferencing_image9.png)<br/>Próxima etapa|<ul><li>Use as diretrizes abaixo para criar e executar seu piloto formal.</li></ul>|
 
 > [!Tip]
 > Use os recursos de exemplo [piloto](https://aka.ms/UpgradeSuccessKit) para ajudar a criar suas comunicações, planejar e Pesquisar planos de comentários.
@@ -72,7 +74,7 @@ Sua organização pode optar por fazer o piloto de toda a funcionalidade de uma 
 É crucial para o sucesso do seu piloto ensinar os participantes do coordenador sobre o que está acontecendo, quando e por que e o que é esperado. Para impulsionar a empolgação e a máxima participação, lembre-se de incluir as mensagens de valor do usuário, além de links para treinamento e suporte em que os usuários podem obter informações adicionais enquanto avançam pelo piloto. Aqui estão alguns recursos de exemplo para você começar a usar seu plano de comunicações piloto:
 
 - [Recursos do piloto](https://aka.ms/UpgradeSuccessKit), incluindo modelos de email e perguntas sobre pesquisa de comentários de exemplo
-- [Mudar do Skype for Business para](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)o Teams, um guia de início rápido projetado para ajudar os usuários do Skype for Business a começar a usar o Microsoft Teams
+- [Mudar do Skype for Business para o Teams](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964), um guia de início rápido projetado para ajudar os usuários do Skype for Business a começar a usar o Microsoft Teams
 
 ## <a name="5-conduct-your-pilot"></a>5. conduzir seu piloto
 
@@ -104,11 +106,11 @@ Após a conclusão do piloto, é hora de reunir todas as pesquisas de comentári
 
 Se seus resultados indicarem:
 
-- **As metas do piloto (por exemplo, a satisfação do usuário e a qualidade da rede)** foram atingidas, você deve estar pronto para continuar com a próxima fase da sua distribuição. Dependendo das metas do seu projeto, isso pode ser um dos seguintes:
+- **As metas do piloto (por exemplo, a satisfação do usuário e a qualidade da rede) foram atingidas**, você deve estar pronto para continuar com a próxima fase da sua distribuição. Dependendo das metas do seu projeto, isso pode ser um dos seguintes:
   - Estendendo o piloto para participantes adicionais
   - [Habilitando equipes junto com o Skype for Business (modo de**ilhas** ) para algumas ou todas as suas organizações](https://aka.ms/SkypeToTeams-SetCoexistence)
   - [Atualizar usuários do Skype for Business para o Microsoft Teams (modo**somente para equipes** ) para algumas ou todas as suas organizações](https://aka.ms/SkypeToTeams-SetCoexistence)
 - **Seu piloto não obteve os resultados desejados (por exemplo, satisfação do usuário e qualidade da rede)**, Reserve tempo para fazer os ajustes adequados ao seu plano e revisitar o piloto.
 
 > [!Tip]
-> Solicite aos seus participantes piloto como especialistas do peer para ajudar a evangelizar e a integração de novos usuários ao Teams. Os campeões de par podem se relacionar facilmente a outros usuários, compartilhar suas experiências e aprendizados e oferecer suporte e orientação aos colegas. Saiba mais sobre [](https://go.microsoft.com/fwlink/?linkid=859068) os campeões e como você pode usá-los em sua própria distribuição.
+> Solicite aos seus participantes piloto como especialistas do peer para ajudar a evangelizar e a integração de novos usuários ao Teams. Os campeões de par podem se relacionar facilmente a outros usuários, compartilhar suas experiências e aprendizados e oferecer suporte e orientação aos colegas. Saiba mais sobre os [campeões](https://go.microsoft.com/fwlink/?linkid=859068) e como você pode usá-los em sua própria distribuição.

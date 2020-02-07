@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Licensing
 description: 'Os clientes receberam um recurso de discagem gratuita que terminará em 30 de novembro de 2019.  A partir de 1 ° de dezembro de 2019, cada assinatura de audioconferência fornece 60 minutos por mês para qualquer região de um país, conforme descrito neste documento. '
-ms.openlocfilehash: 6309bc48d07c767aa9babb9139f6ad885689cb38
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5e10f50a5b11ce6c490a4bd4e195709425ca8e33
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695646"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826239"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>Benefícios da assinatura "discagem"/"ligar para mim por" minutos da assinatura de áudio audioconferência
 

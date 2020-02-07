@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Introdução ao Teams para Organizações de Saúde
-ms.openlocfilehash: e8c41249da52ce9a5e19471954de6d71db3df1b3
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f246e0ab5abd412947ceeb871b16f464001b89bb
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569227"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827619"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Introdução ao Teams para Organizações de Saúde
 
@@ -38,7 +40,7 @@ O conteúdo desta seção baseia-se nos recursos básicos do Teams, como reuniõ
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-Agora o Microsoft Teams tem uma solução de coordenação de cuidado específica para organizações de assistência médica para ajudar a oferecer o melhor atendimento ao paciente. O crux da solução de coordenação de cuidados, o aplicativo Microsoft Teams pacientes, é um aplicativo de guia de primeira parte que se integra aos sistemas EHR (Electronic Health Record) usando uma interface[FHIR](https://www.hl7.org/fhir/)(recursos de interoperabilidade rápida) para trazer o valor informações médicas para o Microsoft Teams em contexto para habilitar a colaboração clínica e a comunicação.  
+Agora o Microsoft Teams tem uma solução de coordenação de cuidado específica para organizações de assistência médica para ajudar a oferecer o melhor atendimento ao paciente. O crux da solução de coordenação de cuidados, o aplicativo Microsoft Teams pacientes, é um aplicativo de guia de primeira parte que se integra aos sistemas EHR (Electronic Health Record) que usam uma interface de recursos de interoperabilidade do Fast Healthcare ([FHIR](https://www.hl7.org/fhir/)) para trazer informações médicas importantes para o Microsoft Teams em contexto para habilitar a colaboração clínica e a comunicação.  
 
 A solução de coordenação de cuidados pode ser uma interface com fornecedores de software independentes (ISVs) que podem conectar o aplicativo pacientes a seus sistemas EHR usando padrões de dados de integridade existentes, como HL7v2 e FHIR. A Microsoft faz parcerias com os seguintes líderes do setor para estabelecer a integração de registros eletrônicos de integridade com o Microsoft Teams:
 

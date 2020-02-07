@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Introdução aos modelos do Teams para Organizações de Saúde
-ms.openlocfilehash: 756f9a50dac14575250a521750f80dbe8d1242b8
-ms.sourcegitcommit: 9ae5dadaab999acd061cc9418dbd55d98b82980e
+ms.openlocfilehash: d2e22b47fbb0e6387a183fc12da70f7729af9172
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38702312"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827759"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Introdução aos modelos do Teams para Organizações de Saúde
 
@@ -36,7 +38,7 @@ O modelo para a era destinado à comunicação e à colaboração em um departam
 
 |Tipo de modelo base |baseTemplateId |Canais de modelo de linha de base|
 |:--- |:---|:---|
-|Saúde para a frente | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | Comunicados\* <br> Huddles\* <br> Arredonda\* <br> Especificam\* <br> Curso\* |
+|Saúde para a frente | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | Comunicados\* <br> Huddles\* <br> Arredonda\* <br> Especificam\* <br> Treinamento\* |
 |     | |         |
 
 \*Favoritos automaticamente

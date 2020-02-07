@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Integração do EHR do aplicativo Microsoft Teams pacientes
-ms.openlocfilehash: 179cd031b6e32ee3ed32a6d3be1fa4afaae68cc2
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d7acea1002d80a397469d242cfbbb1adfba07a24
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570364"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827799"
 ---
 # <a name="dstu2-interface-specification"></a>Especificação de interface DSTU2
 
@@ -80,7 +82,7 @@ Além dos campos Argonaut, para uma excelente experiência do usuário, o aplica
     Resposta: {"resourceType": "paciente", "ID": "<paciente-ID>",.
       .
       .
-      "nome": [{"Use": "Official", "prefix": ["Sr"], "família": ["Chau"], "atribuído": ["Hugh"]}], "identificador": [{"usar": "oficial", "tipo": {"codificação": "," valor ":"http://hl7.org/fhir/v2/0203"," código ":" Sr "}]}," valor ":" 1234567 "}]," sexo ":" macho "," DataDeNascimento ":" 1957-06-05 "," cuidado ": [{" exibir ":" Janete "}],}
+      "nome": [{"Use": "Official", "prefix": ["Sr"], "família": ["Chau"], "atribuído": ["Hugh"]}], "identificador": [{"usar": "oficial", "digite": {"codificação": [{"System": "http://hl7.org/fhir/v2/0203", "código": "Mr"}]}, "valor": "1234567", "cuidadosprovider": "macho", "datadenascimentoe": "1957-06-05", "cuidadosprovider": [{"display": "Jane Doe"}],}
 
 * * *
 
@@ -105,7 +107,7 @@ Consulte o exemplo a seguir desta chamada.
 
 * * *
 
-    Solicitação: POST <fhir-Server> corpo da solicitação: especificado = Hugh&Family = Chau
+    Solicitação: POST <fhir-Server>/patient/_search corpo da solicitação: especificado = Hugh&Family = Chau
     
     Resposta: {"resourceType": "pacote", "ID": "<pacote-ID>",.
       .
@@ -142,7 +144,7 @@ O objetivo é poder recuperar os mais recentes sinais essenciais para um pacient
 
     Solicitação: Obtenha o <fhir-Server>/Observation? paciente =<o ID do paciente>&_sort:d ESC = data&Category = sinais essenciais
     
-    Resposta: {"resourceType": "pacote", "ID": "<pacote-ID>", "digite": "searchset", "total": 20, "entry": [{"Resource": {"resourceType": "reobservação", "ID": "<Resource-ID>", "categoria": {"codificação": "código": "código vital": "sinais de", "categoria": {"codificação": ": [{" sistema ":"http://loinc.org"," código ":" 39156-5 "," vídeo "," valueQuantity ":" "2009-12-01," código "," 34,4 kg/m2 "," sistema ":"http://unitsofmeasure.org"," código ":" kg/m2 "}}," "," código ":" kg/m2 "}},},.
+    Resposta: {"resourceType": "pacote", "ID": "<pacote-ID>", "digite": "searchset", "total": 20, "entry": [{"Resource": {"resourceType": "reobservação", "ID": "<Resource-ID>", "categoria": {"codificação": "código": "informativo-sinais"}],}, "código": {"codificação": [{"System"http://loinc.org: "", "código": "39156-5", "display": "BMI"}],}, "effectiveDateTime": "2009-12-01", "valueQuantity": {"valor": 34,4, "unidade": "kg/m2", "sistema"http://unitsofmeasure.org: "", "código": "kg/m2"}},},.
         .
         .
       ] }
@@ -173,7 +175,7 @@ Consulte o seguinte exemplo desta chamada:
 
     Solicitação: Obtenha o <fhir-Server>/Condition? paciente =<paciente-ID>&_count = 10
     
-    Resposta: {"resourceType": "Bundle", "ID": "<Bundle-ID>", "tipo": "searchset", "total": 1, "entry": [{"Resource": {"resourceType": "Condition", "ID": "<Resource-ID>", "código": {"codificação": {"codificação": [{               "System": "http://snomed.info/sct", "código": "386033004", "display": "neuropathy (Nerve danificado)"}]}, "dateRecorded": "2018-09-17", "severidade": {"codificação": [{"syst em ":"http://snomed.info/sct"," código ":" 24484000 "," vídeo ":" severado "}]}},}]}
+    Resposta: {"resourceType": "Bundle", "ID": "<pacote-ID>", "tipo": "searchset", "total": 1, "entry": [{"Resource": {"resourceType": "Condition", "ID": "<Resource-ID>", "Code": "386033004", "display": "neuropathy (Nervehttp://snomed.info/sctdanificado)" "," "," display ":" (dano) "}]}," dateRecorded ":" 2018-09-17 "," severidade ": {" codificação ": [{" syst em ":"http://snomed.info/sct"," código ":" 24484000 "," vídeo ":" severado "}]}},}]}
 
 * * *
 
@@ -194,7 +196,7 @@ Além disso, os seguintes campos dos EUA enfrentam os campos "deve dar suporte" 
 Uma pesquisa de recursos usa o método GET e os seguintes parâmetros:
 
 1. paciente =\<identificação do paciente>
-2. _sort: desc =\<campo ex. Data>
+2. _sort: desc =\<Field ex. Data>
 3. _count =\<máximo de resultados>
 
 O objetivo é poder recuperar o último local conhecido do paciente. Cada encontro faz referência a um recurso de localização. A referência também incluirá o campo de exibição do local. Consulte o exemplo a seguir desta chamada.
@@ -202,7 +204,7 @@ O objetivo é poder recuperar o último local conhecido do paciente. Cada encont
 
     Solicitação: Obtenha o <fhir-Server>/Encounter? paciente =<o ID do paciente>&_sort:d ESC = data&_count = 1
     
-    Resposta: {"ResourceType": "pacote", "tipo": "searchset", "total": 1, "entry": [{"Resource": {"ResourceType": "encontrar", "ID": "<Resource-ID>", "identificador", "status", ":" oficial "," valor ":"<id>"}]," status " : "chegado", "tipo": [{"codificação": [{"exibir": "compromisso"}],}], "atendimento": "referência": "paciente/<paciente-ID>"}, "ponto": {"Iniciar": "09/17/2018 1:00:00 PM"}, "local": [{              "local": {"display": "Clinic-ENT"},}]}}]}
+    Resposta: {"ResourceType": "lote", "tipo": "searchset", "total": 1, "entry": [{"Resource": {"ResourceType": "encontrar", "ID": "<Resource-ID>", "identificador": [{"usar": "oficial", "valor": "<id>"}], "status": "recebido", "tipo": [{"codificação": [{"exibir": "compromisso"}],}], "paciente": {"referência": "paciente/<paciente-ID>"}, "ponto": {"Iniciar": "09/17/2018 1:00:00 PM", "local": [{              "local": {"display": "Clinic-ENT"},}]}}]}
 
 * * *
 
@@ -234,7 +236,7 @@ Consulte o seguinte exemplo desta chamada:
 
     Solicitação: Obtenha o <fhir-Server>/AllergyIntolerance? paciente =<o ID do paciente>
     
-    Resposta: {"resourceType": "Bundle", "ID": "<Bundle-ID>", "tipo": "searchset", "total": 1, "entry": [{"Resource": {"resourceType": "AllergyIntolerance", "ID": "<Resource-ID>", "recordedDate": "", "ID" 0Z "," substância ": {" texto ":" Cashew nozes "}," status ":" confirmado "," reação ": [{" substância ": {" texto ":" Cashew porca allergenic extrair produto injetado "}" manifestati em ": [{" texto ":" anaphylactic reação "}]}]}}]}
+    Resposta: {"resourceType": "Bundle", "ID": "<pacote-ID>", "tipo": "searchset", "total": 1, "entry": [{"Resource": {"resourceType": "AllergyIntolerance", "ID": "<> de ID de recurso", "recordedDate": "2018-09-17T07:00:00.000 Z", "substância": {"texto": "Cashew porcas"}, "status": "confirmado", "reação a um produto injetado"}, {"texto": "Cashew porca allergenic extrair produto que está incluído"}, "manifestati em ": [{" texto ":" anaphylactic reação "}]}]}}]}
 
 * * *
 
@@ -266,7 +268,7 @@ Consulte o seguinte exemplo desta chamada:
 
     Solicitação: Obtenha o <fhir-Server>/MedicationOrder? paciente =<paciente-ID>&_count = 10
     
-    Resposta: {"resourceType": "Bundle", "ID": "<pacote-ID>", "tipo": "searchset", "total": 1, "entry": [{"Resource": {"resourceType": "MedicationOrder", "ID": "<Resource-ID>", "dateWritten": "2018-09-17", "medi cationCodeableConcept ": {" texto ":" Lisinopril o Tablet oral de 20 MG "}," prescrevar ": {" display ":" Janete "}," dosageInstruction ": [{" texto ":" 1 diário "}]}]]}
+    Resposta: {"resourceType": "Bundle", "ID": "<pacote-ID>", "tipo": "searchset", "total": 1, "entry": [{"Resource": {"resourceType": "MedicationOrder", "ID": "<Resource-ID>", "dateWritten": "2018-09-17", "medicationCodeableConcept": {"texto": "Janete-Tablet MG"}, "preparador": {"exibir": "Janete"}, "dosageInstruction": [{"texto": "1 diário"}]}}]}
 
 * * *  
 
@@ -288,7 +290,7 @@ Consulte o seguinte exemplo desta chamada:
 
     Solicitação: Obtenha o <fhir-Server>/Coverage? paciente =<o ID do paciente>
     
-    Resposta: {"resourceType": "lote", "tipo": "searchset", "total": 1, "tipo de entrada": [{"recurso": {"resourceType": "cobertura", "ID": "<recurso-ID>", "plano/de atendimento ao ano", "assinante": {"referência": "paciente/ <ID do paciente> "}}}]}
+    Resposta: {"resourceType": "pacote", "tipo": "searchset", "total": 1, "entry": [{"Resource": {"resourceType": "Coverage", "ID": "<Resource-ID>", "plano": "não há seguro principal", "assinante": {"referência": "paciente/<paciente-identificação>"}}}]}
 
 * * *
 

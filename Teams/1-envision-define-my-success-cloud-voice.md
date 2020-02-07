@@ -13,15 +13,17 @@ description: Meça os resultados da sua conferência de áudio, sistema telefôn
 ms.collection:
 - M365-voice
 - M365-collaboration
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 918869697b5cd63580a654b9d0051fdac35c44f4
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 3c3669e904db7dbea805daa5737b0bfb81e931d7
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517070"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825419"
 ---
 # <a name="define-my-success"></a>Definir meu sucesso
 
@@ -29,7 +31,7 @@ Este artigo fornece uma visão geral dos requisitos para a definição do sucess
 
 <!--ENDOFSECTION-->
 
-A **videoconferência** fornece às organizações mais pontos de entrada adicionais para qualquer reunião (ad hoc ou agendada), permitindo que os participantes da reunião ingressem via PSTN (rede telefônica pública comutada) por meio da discagem usando telefones fixos e celulares convencionais Agência telefônica (PBX) ou telefones celulares. Isso é útil quando o organizador ou os participantes não estão na frente de um computador ou quando as conexões de dados estão indisponíveis ou não são muito confiáveis para dar suporte à comunicação por voz, como em uma área remota com cobertura de dados móvel, ou conectadas a uma rede Wi-Fi pública e gratuita serviço com largura de banda limitada ou quando os participantes da reunião preferem discar para a reunião usando um ponto de extremidade de telefonia acessível para eles.
+A **videoconferência** fornece às organizações mais pontos de entrada adicionais para qualquer reunião (ad hoc ou agendada), permitindo que os participantes da reunião ingressem via PSTN (rede telefônica pública comutada) por meio do uso de telefones fixos e celulares (PBX) e celulares (PBX) tradicionais. Isso é útil quando o organizador ou os participantes não estão na frente de um computador ou quando as conexões de dados estão indisponíveis ou não são muito confiáveis para dar suporte à comunicação por voz, como em uma área remota com cobertura de dados móvel, ou conectadas a uma rede Wi-Fi pública e gratuita serviço com largura de banda limitada ou quando os participantes da reunião preferem discar para a reunião usando um ponto de extremidade de telefonia acessível para eles.
 
 O **sistema telefônico com planos de chamada ("planos de chamada")** oferece às organizações uma maneira de modernizar seu local de trabalho, permitindo que os usuários façam chamadas telefônicas relacionadas a negócios em seus computadores e dispositivos móveis. A modernização do local de trabalho pode fazer parte de qualquer número de cenários, uma implementação de trabalho baseada em atividades, uma grande mudança do Office, uma atualização para o Office em destaque, a desativação de uma solução PBX herdada, a conclusão de um contrato de provedor de serviço PSTN e assim por diante. Com os planos de chamada, a Microsoft facilita a conectividade com a PSTN.
 

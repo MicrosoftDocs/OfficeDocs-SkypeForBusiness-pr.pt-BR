@@ -9,18 +9,20 @@ ms.reviewer: francoid
 audience: admin
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 description: Este documento descreve o comportamento do chat, o roteamento de chamadas e a presença entre os usuários do Teams e o Skype for Business, tanto no locatário quanto em federado, com base nos modos de TeamsUpgrade atribuídos. Ele inclui otimizações de roteamento, comportamento de presença, bem como a alteração do modo de TeamsUpgrade padrão do *herdado* para as *ilhas* e o afastamento iminente do *herdado*.
-ms.openlocfilehash: 3af54bdfecc7843fbbc095ca0d0cebb91732e648
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 449340affb00b1f05ba199c3376941a843da329c
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515857"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824929"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistência com o Skype for Business
 
@@ -75,9 +77,9 @@ Nas tabelas a seguir:
 
 **Tabela 1a: novo chat no locatário ou encaminhamento de chamadas para um destinatário do modo de ilhas**
 
-| <br/><br/> Modo | Criador <br/><br/> Cliente | <br/><br/> SfB&nbsp;homed | | Correspondente <br/><br/> McDonald  |
+| <br/><br/> Modo | Criador <br/><br/> Cliente | <br/><br/> SfB&nbsp;homed | | Correspondente <br/><br/> Ilhas  |
 |--- |--- |--- |--- |--- |
-| McDonald | Microsoft Teams <br/> Skype for Business<br/> Microsoft Teams<br/> Skype for Business| Online<br/> Online<br/> Local<br/>Local| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Microsoft Teams <br/> Skype for Business<br/> Microsoft Teams<br/> Skype for Business|
+| Ilhas | Microsoft Teams <br/> Skype for Business<br/> Microsoft Teams<br/> Skype for Business| Online<br/> Online<br/> Local<br/>Local| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Microsoft Teams <br/> Skype for Business<br/> Microsoft Teams<br/> Skype for Business|
 |SfB\* <br/> | Skype for Business<br/>Skype for Business<br/> | Online<br/> Local<br/> |&boxv;<br/>&boxv;|Skype for Business<br/>Skype for Business<br/>|
 |TeamsOnly |Teams| Online<br/>|&boxv;<br/>|Teams|
 | | | | | |
@@ -86,7 +88,7 @@ Nas tabelas a seguir:
 
 | <br/><br/> Modo   | Criador <br/><br/> Cliente | <br/><br/> SfB&nbsp;homed | |   Correspondente <br/><br/> SfB\*   |
 |--- |--- |--- |---   |--- |
-| McDonald |Microsoft Teams<br/>Skype for Business<br/>Microsoft Teams <br/>Skype for Business  |Online<br/> Online<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business<br/> **Não é possível** <br/>Skype for Business<br/> |
+| Ilhas |Microsoft Teams<br/>Skype for Business<br/>Microsoft Teams <br/>Skype for Business  |Online<br/> Online<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business<br/> **Não é possível** <br/>Skype for Business<br/> |
 |SfB\* <br/> | Skype for Business<br/>Skype for Business<br/> | Online<br/> Local<br/> |&boxv;<br/>&boxv; |  Skype for Business<br/>Skype for Business<br/> |
 |TeamsOnly |Teams| Online<br/>|&boxv;<br/> |  *Skype for Business* <br/>| 
 | | | | | |
@@ -95,7 +97,7 @@ Nas tabelas a seguir:
 
 | <br/><br/> Modo   | Criador <br/><br/> Cliente | <br/><br/> SfB&nbsp;homed | |   Correspondente <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
-| McDonald   |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business<br/>|Online<br/> Online<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Microsoft Teams* <br/>Teams <br/>*Microsoft Teams*  |
+| Ilhas   |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business<br/>|Online<br/> Online<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Microsoft Teams* <br/>Teams <br/>*Microsoft Teams*  |
 |SfB\*  | Skype for Business<br/>Skype for Business<br/> | Online<br/> Local<br/> | &boxv;<br/>&boxv; | *Microsoft Teams*  <br/>*Microsoft Teams*   |
 |TeamsOnly  | Teams | Online |  &boxv; |Teams   |
 |  |  |  | | |
@@ -115,9 +117,9 @@ As tabelas a seguir descrevem qual cliente receberá uma chamada do originador (
 
 **Tabela 2a: novo chat federado ou encaminhamento de chamadas para um destinatário de ilhas**
 
-| <br/><br/>Modo   | Criador<br/><br/> Cliente| <br/><br/>SfB homed| | Correspondente<br/><br/> McDonald |
+| <br/><br/>Modo   | Criador<br/><br/> Cliente| <br/><br/>SfB homed| | Correspondente<br/><br/> Ilhas |
 |--- |--- |--- |--- |--- |
-| McDonald |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business  |Online<br/> Online<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **Não é possível**   <br/> Skype for Business |
+| Ilhas |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business  |Online<br/> Online<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **Não é possível**   <br/> Skype for Business |
 | SfB\* |Skype for Business <br/>Skype for Business |Online<br/> Local<br/> | &boxv;<br/>&boxv;|Skype for Business <br/>Skype for Business |
 | TeamsOnly |Teams |Online| &boxv;|*Skype for Business* |
 |  | | | | 
@@ -126,7 +128,7 @@ As tabelas a seguir descrevem qual cliente receberá uma chamada do originador (
 
 | <br/><br/>Modo   | Criador<br/><br/> Cliente| <br/><br/>SfB homed| |  Correspondente<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
-| McDonald |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> Local<br/> Local<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **Não é possível** <br/>Skype for Business <br/> |  
+| Ilhas |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> Local<br/> Local<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **Não é possível** <br/>Skype for Business <br/> |  
 | SfB\* |Skype for Business <br/>Skype for Business  |Online<br/> Local<br/>  |&boxv;<br/>&boxv; | Skype for Business <br/>Skype for Business  |
 | TeamsOnly | Teams|Online |&boxv; |*Skype for Business*  |
 |  | | | | |
@@ -135,7 +137,7 @@ As tabelas a seguir descrevem qual cliente receberá uma chamada do originador (
 
 | <br/><br/>Modo | Criador<br/><br/> Cliente| <br/><br/>SfB homed| |  Correspondente<br/>  <br/> TeamsOnly  |
 |--- |--- |--- |--- |--- |
-| McDonald  |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Microsoft Teams* <br/>**Não é possível** <br/>*Microsoft Teams* |
+| Ilhas  |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Microsoft Teams* <br/>**Não é possível** <br/>*Microsoft Teams* |
 | SfB\* |Skype for Business <br/>Skype for Business  | Online<br/> Local| &boxv;<br/>&boxv;|*Microsoft Teams* <br/>*Microsoft Teams*   |
 | TeamsOnly |Teams |Online |&boxv; |Teams |
 |  | | | | |
@@ -186,10 +188,10 @@ A tabela descreve a presença do fornecedor que será vista por um observador, d
 
 **Tabela 3: presença no locatário (novo thread)**
 
-|Inspetor <br/><br/>Cliente| |<br/><br/>McDonald |Publisher <br/><br/>SfB\* |<br/>Somente equipes|
+|Inspetor <br/><br/>Cliente| |<br/><br/>Ilhas |Publisher <br/><br/>SfB\* |<br/>Somente equipes|
 |--- |--- |--- |--- |---|
 |Skype for Business |&boxv;|Skype for Business | Skype for Business | Teams|
-|Microsoft Teams |&boxv; |Microsoft Teams |Skype for Business |Teams |
+|Teams |&boxv; |Teams |Skype for Business |Teams |
 | | | | |
 
 ## <a name="federated-presence"></a>Presença federada
@@ -200,10 +202,10 @@ A tabela a seguir descreve a presença do fornecedor que será vista por um obse
 
 **Tabela 4: presença federada (novo thread)**
 
-|Inspetor <br/><br/> Cliente | |<br/><br/> McDonald  |Publisher <br/><br/> SfB\* |<br/><br/> Somente equipes |
+|Inspetor <br/><br/> Cliente | |<br/><br/> Ilhas  |Publisher <br/><br/> SfB\* |<br/><br/> Somente equipes |
 |--- |--- |--- |--- |---|
 |Skype for Business |&boxv; |Skype for Business  | Skype for Business  | Teams  |
-|Microsoft Teams | &boxv;|Skype for Business |Skype for Business |Teams|
+|Teams | &boxv;|Skype for Business |Skype for Business |Teams|
 | | | | ||
 
 ## <a name="presence-in-pre-existing-threads"></a>Presença em threads preexistentes

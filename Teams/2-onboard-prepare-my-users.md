@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Crie um plano para impulsionar a adoção do usuário definindo seus objetivos, entendendo a aparência da sua aceitação e fornecendo treinamento e suporte.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 026edba5c85fa010ee583b501d1ecc1f18308518
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 7e4404d27b1e3b7e32d6c4b53558fd17e30ef4ae
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516269"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825079"
 ---
 # <a name="prepare-my-users"></a>Preparar meus usuários
 
@@ -46,7 +48,7 @@ Configurar sua visão do projeto permite que seus principais participantes vejam
 
 A imagem a seguir é um exemplo de uma instrução de visão de valor para um cliente que está fazendo a atualização do Skype for Business para o Teams.
 
-![Tabela de duas colunas mostrando a visão e o valor]da(media/prepare-my-users-new-image1.png "tabela de duas colunas com visão-por que estamos fazendo isso? (nível da organização) à esquerda e valor-o que está aqui para mim? (nível do usuário) à direita")
+![Tabela de duas colunas mostrando visão e valor](media/prepare-my-users-new-image1.png "Tabela de duas colunas com visão-por que estamos fazendo isso? (nível da organização) à esquerda e valor-o que está aqui para mim? (nível do usuário) à direita")
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Pontos de decisão</td><td><ul><li>Você já articulau o benefício e o valor para os seus usuários de uma maneira que obtém a sua compra para esta nova solução?</li></ul></td></tr>
@@ -126,7 +128,7 @@ Para cada grupo persona, discuta o seguinte com sua equipe de projeto:
 
 A imagem a seguir é um exemplo de uma tabela persona.
 
-![Tabela de valores listando detalhes]da lista de valores(media/prepare-my-users-image2.png "pessoais listando as pessoas com funções comuns e as dependências da solução de comunicação e colaboração. O executivo persona é realçado com detalhes sobre o perfil (dia na vida), além dos recursos, dispositivos e treinamentos de que você precisa de um executivo.")
+![Tabela de valores listando detalhes de persona](media/prepare-my-users-image2.png "Tabela listando pessoalmente as pessoas com suas funções comuns e as dependências da solução de comunicação e colaboração. O executivo persona é realçado com detalhes sobre o perfil (dia na vida), além dos recursos, dispositivos e treinamentos de que você precisa de um executivo.")
 
 Para cada caso de uso, discuta o seguinte com sua equipe de projeto:
 

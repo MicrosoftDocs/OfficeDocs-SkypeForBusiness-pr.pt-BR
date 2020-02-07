@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Introdução às Mensagens Seguras para Organizações de Saúde
-ms.openlocfilehash: 1b4048dc168de0c36c3c322cc9bb7d4e2d9c3958
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ff4f9089d7fba87678345d37f8c9d85949fb478e
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570331"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827729"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Introdução às Mensagens Seguras para Organizações de Saúde
 
@@ -28,11 +30,11 @@ As políticas de mensagens são usadas para controlar quais recursos de mensagen
 
 Você pode usar a política padrão ou criar uma ou mais políticas de mensagens personalizadas para as pessoas em sua organização. Depois de criar uma política, você atribuirá a ela um usuário ou grupos de usuários em sua organização. Por exemplo, você pode optar por permitir que apenas determinadas funções de trabalho usem esses recursos (talvez apenas os médicos e os recursos humanos) e outros trabalhadores (como o janitorial ou a cozinha cozinha) para obter um conjunto mais limitado de recursos. Decida por si mesmo o que precisa da sua organização, as orientações aqui são no máximo uma sugestão.
 
-As políticas podem ser facilmente gerenciadas no [centro de administração do Microsoft Teams](http://admin.teams.microsoft.com) , fazendo logon com credenciais de administrador e escolhendo **políticas de mensagens** no painel de navegação à esquerda.
+As políticas podem ser facilmente gerenciadas no [centro de administração do Microsoft Teams](https://admin.teams.microsoft.com) , fazendo logon com credenciais de administrador e escolhendo **políticas de mensagens** no painel de navegação à esquerda.
 
  ![Captura de tela da página de políticas de mensagens](../../media/messaging-policies-image1.png)
 
-Para editar a política de mensagens padrão existente para sua organização, clique na linha **global (padrão para toda** a organização) e faça as alterações. Para criar uma nova política de mensagens personalizada, clique em **nova política** e selecione as configurações. Escolha **salvar** quando terminar.
+Para editar a política de mensagens padrão existente para sua organização, clique na linha **global (padrão para toda** a organização) e faça as alterações. Para criar uma nova política de mensagens personalizada, clique em **nova política** e selecione as configurações. Escolha **Salvar** quando terminar.
 
 ![Captura de tela das configurações de política de mensagens](../../media/hc-message-policy.png)
 
@@ -42,7 +44,7 @@ As configurações a seguir são de interesse especial para aplicativos de saúd
 
 - ![Ícone do número 1, fazendo referência a um texto explicativo nas](../../media/sfbcallout1.png) **confirmações** de leitura prévias da captura de tela, as confirmações de leitura permitem que o remetente de uma mensagem de chat saiba quando a mensagem foi lida pelo destinatário no 1:1 e chats em grupo 20 pessoas ou menos. Use esta configuração para especificar se as confirmações de leitura são controladas pelo usuário, ativadas para todos ou desativadas para todos. As confirmações de leitura de mensagens são importantes em organizações de assistência médica porque elas se removem de forma indeterminada sobre se uma mensagem foi lida.
 
-  Para aplicativos de saúde, escolha o **usuário controlado** ou **ativado para todos**. Lembre-se de que, ao usar a configuração **ativado para todos** , a única maneira de definir confirmações para o locatário inteiro é ter apenas uma política de mensagens para todo o locatário (a política padrão nomeada "global (padrão para toda a organização)") ou para ter todas as políticas de mensagens o locatário usa as mesmas configurações para recibos. O recurso confirmações de leitura é mais eficaz quando o recurso está habilitado para **ativado para todos**.
+  Para aplicativos de saúde, escolha o **usuário controlado** ou **ativado para todos**. Lembre-se de que, ao usar a configuração **ativado para todos** , a única maneira de definir confirmações para o locatário inteiro é ter apenas uma política de mensagens para todo o locatário (a política padrão denominada "global (padrão para toda a organização)") ou para que todas as políticas de mensagens no locatário usem as mesmas configurações para recibos. O recurso de confirmações de leitura é mais eficaz quando o recurso está habilitado como **Ativado para todos**.
 
     *Exemplo de uso sem confirmações de leitura:* Jakob Roth, um paciente de alto risco, é admitido para o hospital.Sófia Krause é um enfermeira que trabalha como parte da equipe inter-disciplinara (IDT) de funcionários médicos, incluindo especialistas diferentes, é atribuído como o principal coordenador responsável por este paciente.  Sófia envia emails e outras mensagens de chat para um grupo de perenção e médicos que usam uma variedade de clientes e aplicativos de mensagens e, muitas vezes, não recebem resposta nem indica se uma mensagem foi lida pelos membros da equipe. Devido a processos de comunicação tangled, o medicação de Jakob é aplicado indevido e seu hospital permanecerá estendido.
 

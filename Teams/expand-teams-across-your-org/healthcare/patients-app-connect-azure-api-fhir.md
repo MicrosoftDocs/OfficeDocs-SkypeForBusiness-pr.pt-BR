@@ -1,5 +1,5 @@
 ---
-title: Conectar o aplicativo pacientes à API do Azure para FHIR
+title: Conecte o aplicativo de pacientes à API do Azure para FHIR
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 MS.collection:
 - M365-collaboration
@@ -15,14 +17,14 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Saiba como conectar o aplicativo pacientes no Microsoft Teams ao Azure API para FHIR (recursos de interoperabilidade rápida da assistência médica).
-ms.openlocfilehash: e532aa9f9fbecb472db63a1ddad4cd71518a8041
-ms.sourcegitcommit: d7fab927e96954f294f28dfb33c0889f736b3ab5
+ms.openlocfilehash: 92c5b033215b0e5520b0321042d52579dfb019bf
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41259070"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827719"
 ---
-# <a name="connect-the-patients-app-to-azure-api-for-fhir"></a>Conectar o aplicativo pacientes à API do Azure para FHIR
+# <a name="connect-the-patients-app-to-azure-api-for-fhir"></a>Conecte o aplicativo de pacientes à API do Azure para FHIR
 
 Siga estas etapas para permitir que o aplicativo pacientes no Microsoft Teams acesse uma API do Azure para a instância FHIR. Este artigo pressupõe que você tenha uma [API do Azure para a instância FHIR](https://azure.microsoft.com/services/azure-api-for-fhir/) configurada e configurada em seu locatário.  Se você ainda não criou uma API do Azure para a instância do FHIR em seu locatário, consulte [início rápido: implantar a API do Azure para FHIR usando o portal do Azure](https://docs.microsoft.com/azure/healthcare-apis/fhir-paas-portal-quickstart).
 

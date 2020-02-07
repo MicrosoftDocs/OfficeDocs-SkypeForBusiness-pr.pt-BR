@@ -17,15 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1.keywords: ms.teamsadmincenter.audioconferencing.overview
+f1.keywords:
+- CSH
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: dcfa7b1aeafea515720d778ac6a6c6b3fd9f5aec
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- ms.teamsadmincenter.audioconferencing.overview
+ms.openlocfilehash: 1a9863f1566b06c46b2788bb484d8a4672b6cdbf
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684154"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826289"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Audioconferência no Office 365
 A videoconferência no Office 365 permite que os usuários liguem para reuniões a partir de seus telefones. A videoconferência de áudio permite até 250 participantes telefônicos.

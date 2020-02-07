@@ -8,6 +8,8 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 ms.reviewer: srividhc
+f1.keywords:
+- NOCSH
 description: A interoperabilidade de vídeo em nuvem permite que dispositivos de sala de reunião de terceiros ingressem em reuniões do Microsoft Teams.
 localization_priority: Normal
 ms.collection:
@@ -15,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c44f945304bd6e21e0c572ad17afe165fe6eedcd
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: e3a8d3d41d974e78a708fdf91ee6aac13beb6b7b
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516678"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825059"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interoperabilidade de vídeo na nuvem para o Microsoft Teams
 
@@ -92,10 +94,10 @@ Depois que um usuário estiver habilitado para interoperabilidade de vídeo em n
 Dependendo da solução de parceiros, há várias maneiras de ingressar em uma reunião habilitada para interoperabilidade com o vídeo em nuvem. Os cenários de junção de reunião exata serão fornecidos pelo seu parceiro de interoperabilidade de vídeo em nuvem. Listamos alguns exemplos abaixo:
 
 - IVR (resposta de voz interativa) 
-  - Você pode discar para o IVR do parceiro usando o tenantkey @ domínio.
+  - Você pode discar para o IVR do parceiro usando o tenantkey@domain.
   - Quando estiver no IVR do parceiro, você será solicitado a inserir o VTC conferenceid, que o conectará à reunião do teams.
 - Discagem direta 
-  - Você pode discar diretamente para a reunião do teams sem interagir com o IVR do parceiro usando o recurso de discagem direta, usando a cadeia de caracteres completa do tenantkey. VTC Conferenceid @ domínio.
+  - Você pode discar diretamente para a reunião do teams sem interagir com o IVR do parceiro usando o recurso de discagem direta, usando a cadeia de caracteres completa do tenantkey. VTC ConferenceId@domain.
 - Discagem com um toque 
   - Se você tiver uma sala de equipes integrada, poderá usar os recursos de discagem com um toque oferecidos pelo seu parceiro (sem precisar digitar qualquer cadeia de caracteres de discagem).
 

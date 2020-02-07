@@ -9,15 +9,17 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Saiba como criar uma estratégia de gerenciamento de mudanças para o Microsoft Teams através da identificação das principais partes envolvidas, resultados comerciais, medições de sucesso e gerenciamento da sua campanha.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c2a01203246f56984f001acbfb4cb889e969c8f
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 8e6c07271caecd2c84301930f0b71aa6eda0011a
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516318"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824968"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Criar uma estratégia de gerenciamento de mudanças para o Microsoft Teams
 =======================================================

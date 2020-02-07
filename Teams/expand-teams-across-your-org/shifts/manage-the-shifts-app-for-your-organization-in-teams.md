@@ -9,18 +9,20 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Saiba como configurar e gerenciar o aplicativo turnos no Microsoft Teams para trabalhadores de primeira mão em sua organização.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4ed7f4bc282686c31f2f9c2239fbe6326e5151f
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 7514ef06248eb4685558c3a327a8de1cea12bb62
+ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992538"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41831163"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Gerencie o aplicativo Turnos para sua organização no Microsoft Teams
 
@@ -77,11 +79,11 @@ Para exibir a política FirstlineWorker, no painel de navegação esquerdo do ce
 2. Ao lado de **políticas atribuídas**, escolha **Editar**.
 3. Em **política de configuração do aplicativo Teams**, selecione **FirstlineWorker**e, em seguida, escolha **salvar**.
 
-#### <a name="assign-the-firstlineworker-app-setup-policy-to-users-in-a-group"></a>Atribuir a política de configuração do aplicativo FirstlineWorker a usuários em um grupo
+#### <a name="assign-the-firstlineworker-app-setup-policy-to-user-members-of-a-group"></a>Atribuir a política de configuração do aplicativo FirstlineWorker a membros do grupo de usuários
 
-Você pode atribuir a política de configuração do aplicativo FirstlineWorker a usuários em um grupo, como um grupo de segurança, conectando-se ao módulo do PowerShell do Azure Active Directory e ao módulo do PowerShell do Skype for Business. Para obter mais informações sobre como usar o PowerShell para gerenciar o Microsoft Teams, consulte [visão geral do teams PowerShell](../../teams-powershell-overview.md).
+Você pode atribuir a política de configuração do aplicativo FirstlineWorker a membros do grupo, como um grupo de segurança, conectando-se ao módulo do PowerShell do Azure Active Directory e ao módulo do PowerShell do Skype for Business. Para obter mais informações sobre como usar o PowerShell para gerenciar o Microsoft Teams, consulte [visão geral do teams PowerShell](../../teams-powershell-overview.md).
 
-Neste exemplo, atribuímos a política de configuração do aplicativo FirstlineWorker a todos os usuários no grupo de equipe do primeiro grupo da contoso.
+Neste exemplo, atribuímos a política de configuração do aplicativo FirstlineWorker a todos os membros do grupo de equipe do contoso First.
 
 > [!NOTE]
 > Verifique se você se conectou primeiro ao módulo do PowerShell do Azure Active Directory e do módulo do PowerShell do Skype for Business seguindo as etapas em [conectar a todos os serviços do Office 365 em uma única janela do Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
@@ -94,9 +96,9 @@ Obter os membros do grupo especificado.
 ```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
-Atribua todos os usuários do grupo à política de configuração do aplicativo FirstlineWorker.
+Atribua a política de configuração do aplicativo FirstlineWorker a todos os membros de usuário do grupo.
 ```PowerShell
-$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
+$members | ForEach-Object {Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
 ``` 
 Dependendo do número de membros do grupo, esse comando pode levar alguns minutos para ser executado.
 

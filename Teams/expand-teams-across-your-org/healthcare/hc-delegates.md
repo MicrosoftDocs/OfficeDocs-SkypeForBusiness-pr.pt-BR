@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
 description: Um usuário pode definir explicitamente outro usuário como um representante na mensagem de status.
-ms.openlocfilehash: 56c0e9bd5394e738170130bab15803e5cb4d741c
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ec1f590cad4ada605b4a487d982b3a2459ecb5f2
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570353"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827779"
 ---
 # <a name="message-delegation"></a>Delegação de mensagem
 
@@ -45,7 +47,7 @@ Os administradores devem estar cientes de que as anotações de status e os comp
 |Modo de co-existência | Comportamento esperado|
 |---|---|
 |TeamsOnly |Os usuários podem definir uma anotação apenas do teams. <br> A nota de equipes do usuário é visível no Teams & SfB. |
-|McDonald | Anotação do usuário definida em equipes visíveis somente no Teams. <br> Nota do usuário definida no SfB visível apenas em SfB |
+|Ilhas | Anotação do usuário definida em equipes visíveis somente no Teams. <br> Nota do usuário definida no SfB visível apenas em SfB |
 |SfB * Modes | Os usuários podem definir uma anotação apenas a partir do SfB. <br> A anotação SfB do usuário fica visível no SfB & Teams.  |
 |||
 

@@ -18,16 +18,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: None
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Legal
 description: Os clientes podem usar o plano de chamadas do Office 365 e a conferência de áudio do Office 365, conforme permitido no Skype for Business Online e os serviços PSTN do Microsoft Teams, usar termos e contrato de licenciamento por volume do cliente.
-ms.openlocfilehash: 65d1426fd74a219206a725a33a52646ab6058337
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 59a885f53d23f5297d6730e718ac1a95801d6a30
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695436"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825499"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Período complementar de discagem de audioconferência
 

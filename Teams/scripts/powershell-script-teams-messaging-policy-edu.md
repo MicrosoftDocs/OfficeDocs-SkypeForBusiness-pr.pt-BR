@@ -8,17 +8,19 @@ ms.reviewer: ritikag
 ms.service: msteams
 audience: admin
 description: Use este script do PowerShell para criar uma política de mensagens no Teams e atribuí-la a usuários em sua organização.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c8f58e4fbfa7629f9e5c59c41e0100263c29d4e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 06f2dee7e7dbc4e15d544433057a8bb12b75b7c4
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573443"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827409"
 ---
 <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>Exemplo de script do PowerShell, criar e atribuir uma política de mensagens
 -------------------------------------------------------------------------

@@ -7,20 +7,22 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: Aplicativo pacientes para administradores do teams
-ms.openlocfilehash: 7afa6004191c460428200e7804dfb10a748fc65b
-ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
+ms.openlocfilehash: fd2aa97e9eb8fefdcaa4e9a4ccc432f42dbee5ce
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37749543"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827609"
 ---
-# <a name="audit-logs-for-patients-app"></a>Logs de auditoria para o aplicativo pacientes
+# <a name="audit-logs-for-patients-app"></a>Logs de auditoria para o aplicativo de pacientes
 
 Um log de auditoria para atividade de aplicativo pacientes permite que as equipes de resposta a incidentes revisem alterações para os registros médicos de um paciente (EMR) ou informações de assistência médica (PHI) e determine se as alterações ou melhorias na política ou nos procedimentos para acesso Fi em ferramentas de produtividade são necessárias. Os eventos de log de auditoria abordam as ações realizadas por meio da interface de usuário do aplicativo pacientes.
 

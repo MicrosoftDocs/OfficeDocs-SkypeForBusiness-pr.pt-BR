@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Tarefas e atividades necessárias para o gerenciamento de serviços do Teams, incluindo monitorar a integridade do serviço e avaliar e garantir a qualidade e o uso da rede.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61d0bc220de81b67c27d21d3ea22c7974a4c84d1
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: a63ce726a3a09fb820a6008aa0edf50a0e88ea95
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516615"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826979"
 ---
 # <a name="operate-my-service"></a>Operar meu serviço
 
@@ -39,7 +41,7 @@ O gerenciamento de serviços abrange todas as atividades e os processos envolvid
 
 As tarefas e atividades neste guia são agrupadas em oito categorias, conforme mostrado no diagrama a seguir. Cada uma dessas categorias será expandida nas seções a seguir.
 
-![Um diagrama que mostra uma lista de categorias de tarefas e atividades](media/operate-my-service-image1.png "um diagrama que ilustra uma lista de categorias de tarefas e atividades que o gerenciamento de serviços para equipes compreende. O diagrama também descreve que o gerenciamento de serviços é basicamente uma tarefa de cliente.")
+![Um diagrama que mostra uma lista de categorias de tarefas e atividades](media/operate-my-service-image1.png "Um diagrama que mostra uma lista de categorias de tarefas e atividades que o gerenciamento de serviços para equipes compreende. O diagrama também descreve que o gerenciamento de serviços é basicamente uma tarefa de cliente.")
 
 
 <table>
@@ -251,7 +253,7 @@ Os outros dois relatórios são específicos do Teams e fornecem mais detalhes s
 
 #### <a name="required-permissions"></a>Permissões necessárias
 
-Os relatórios de uso no centro de Administração podem ser acessados por pessoas que receberam uma função de **administrador global** ou por uma função de administrador específica do produto (**administrador do Exchange**, **administrador do Skype for Business**, **SharePoint administrador**).
+Os relatórios de uso no centro de Administração podem ser acessados por pessoas que receberam uma função de **administrador global** ou por uma função de administrador específica do produto (**administrador do Exchange**, **administrador do Skype for Business**, **administrador do SharePoint**).
 
 Além disso, a função de **leitor de relatórios** está disponível para os usuários que precisam acessar os relatórios, mas não executam nenhuma tarefa que exija permissões no nível de administrador. Você atribui esta função para fornecer relatórios de uso para qualquer pessoa que seja um participante, para monitorar e impulsionar a adoção. Para obter mais informações sobre as diferentes funções disponíveis, consulte [sobre as funções de administrador do Office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
@@ -316,7 +318,7 @@ NPS é um índice, que varia de – 100 a 100, que mede a disposição do client
 
 -   Entre 1 e 6 são desviadores: clientes insatisfeitos que podem danificar seu serviço e impedir o crescimento.
 
-![Um diagrama que demonstra a escala do NPS](media/operate-my-service-image2.png "este diagrama demonstra a escala do NPS. Ele mostra que as classificações de 0 a 6 são detratores, 7 a 8 são passivos e 9 a 10 são promodores.")
+![Um diagrama que demonstra a escala do NPS](media/operate-my-service-image2.png "Este diagrama demonstra a escala do NPS. Ele mostra que as classificações de 0 a 6 são detratores, 7 a 8 são passivos e 9 a 10 são promodores.")
 
 Embora o número de base do NPS seja útil, você obterá o valor máximo de análise de comentários do usuário. Elas o ajudarão a entender por que o usuário faria (ou não) recomendaria equipes para outras pessoas. Esses comentários podem fornecer feedback importante para ajudar as equipes de gerenciamento de projeto ou serviço a entender os ajustes necessários para fornecer um serviço de qualidade.
 
@@ -548,7 +550,7 @@ Por padrão, todos os usuários com uma caixa de correio no Exchange Online têm
 
 O [Guia de revisão da qualidade da experiência](https://aka.ms/qerguide) inclui um conjunto de atividades que avaliam e fornecem orientação de correção em áreas importantes que têm o maior impacto na melhoria da experiência do usuário, conforme ilustrado a seguir.
 
-![Diagrama de áreas a serem examinadas durante uma qualidade de experiência analise](media/plan-my-service-management-image2.png "as principais áreas a serem examinadas durante uma revisão de qualidade da experiência: áudio, confiabilidade e resultados da pesquisa de usuários.")
+![Diagrama de áreas a serem examinadas durante uma revisão de qualidade da experiência](media/plan-my-service-management-image2.png "As principais áreas a serem examinadas durante uma revisão de qualidade da experiência: áudio, confiabilidade e resultados da pesquisa de usuários.")
 
 Ao avaliar continuamente e corrigir as áreas descritas no guia, você pode reduzir o potencial de afetar negativamente a experiência do usuário. A maioria dos problemas de experiência do usuário encontrada em uma implantação pode ser agrupada nas seguintes categorias:
 

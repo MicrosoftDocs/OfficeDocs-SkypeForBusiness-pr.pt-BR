@@ -8,6 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-voice
 appliesto:
@@ -15,18 +17,18 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: ''
-ms.openlocfilehash: 9794a1690fb0cbbe529816c9d8a5f855d393c6f2
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 53c17cdd3a1b6726e0219147e4dadd1cba7b25ff
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925609"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827929"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Transferir números de telefone para o Microsoft Teams
 
 Use o assistente de portabilidade no centro de administração do Microsoft Teams para transferir seus números de telefone do provedor de serviços atual para o Microsoft Teams. Depois de portar seus números de telefone para o Microsoft Teams, a Microsoft se tornará seu provedor de serviços e cobrará você por esses números de telefone.
 
-Antes de começar, recomendamos que você revise as informações em [um pedido de portabilidade?](port-order-overview.md). Se você tiver números de serviço para pontes de conferência discada, atendedores automáticos ou outros números de serviço, números de telefone de chamada gratuita ou tiver mais de 999 números de telefone do usuário (assinante) que você precisa transferir para o Teams, consulte [gerenciar números de telefone para o seu organização](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para baixar os formulários corretos e enviá-los para nós.
+Antes de começar, recomendamos que você revise as informações em [um pedido de portabilidade?](port-order-overview.md). Se você tiver números de serviço para pontes de conferência discada, atendedores automáticos ou outros números de serviço, números de telefone de chamada tarifada ou tiver mais de 999 números de telefone do usuário (assinante) que precisa transferir para o Teams, consulte [gerenciar números de telefone para sua organização](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para baixar os formulários corretos e enviá-los para nós.
 
   > [!NOTE]
   > Processamos pedidos de portais para transferir números de telefone apenas nos dias úteis dos Estados Unidos e não em feriados públicos ou em fins de semana.

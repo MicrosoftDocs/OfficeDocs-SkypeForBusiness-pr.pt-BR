@@ -9,17 +9,19 @@ ms.service: msteams
 ms.reviewer: dansteve
 search.appverid: MET150
 description: Saiba como atribuir funções e permissões de proprietários membros de equipe no Microsoft Teams, inclusive permissões para criar equipes.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56aa75a85544373047b9ef8a888478103cdf1fd1
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: cd9ca2fc26c58087992cdee18dee1b1d869a6fa1
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968062"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826099"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Atribuir proprietários de equipe e membros no Microsoft Teams
 =================================================
@@ -45,7 +47,7 @@ A tabela a seguir mostra a diferença nas permissões entre um proprietário e u
 | ***Editar nome/descrição do canal privado** |    Não     |    N/D|
 |        ***Excluir canal privado**         |    Sim     |    Não|
 |          **Adicionar membros**          |  Sim<sup>3</sup>   |     Sem<sup>4</sup>    |
-|          **Solicitação para adicionar membros**          |  N/D   |     Sim<sup>5</sup>     |
+|          **Solicitação para adicionar membros**          |  Não disponível   |     Sim<sup>5</sup>     |
 |           **Adicionar guias**            |    Sim     |    Sim<sup>2</sup>|
 |        **Adicionar conectores**         |    Sim     |    Sim<sup>2</sup>|
 |           **Adicionar bots**            |    Sim     |    Sim<sup>2</sup>|

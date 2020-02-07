@@ -13,17 +13,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Saiba mais sobre licenças de complemento, recursos e como comprar para os planos Office 365 Enterprise E1 e E3. '
-ms.openlocfilehash: 7c8851da745009439cd473c9bbd1e90cc7498363
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2e547c23115f43dcc54a7f4bb99190116200f319
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571175"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826539"
 ---
 # <a name="office-365-enterprise-e1-and-e3"></a>Office 365 Enterprise E1 e E3
 
@@ -32,13 +34,13 @@ Se você já comprou o [Office 365 Enterprise E1](https://products.office.com/en
 |Para adicionar este recurso|Veja o que você precisa fazer|
 |:------------------|:--------------------------|
 |Audioconferência <br/> <br/> |Compre o **complemento de audioconferência**. <br/>Compre uma licença de conferência de áudio para cada pessoa que pretende agendar ou hospedar uma reunião discada. Os participantes não precisam de licenças.<br/> Após adquirir a licença, a Microsoft será seu provedor de serviços de audioconferência. |
-|Números de chamada gratuita para acesso discada às suas reuniões e a capacidade de discar de uma reunião para adicionar alguém ao ligar para qualquer número de telefone do mundo<br/> | Comprar [créditos de comunicações](../add-funds-and-manage-communications-credits.md).|
-|Sistema Telefônico <br/> |<ol><li>Compre o complemento do sistema telefônico do Office 365. </li><li>Compre um [plano de chamadas](../calling-plans-for-office-365.md) para o Office 365.</li></ul>Ou, use o [serviço de telefonia do seu provedor existente](microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
+|Números de chamada gratuita para acesso discado às reuniões e a capacidade de discar de uma reunião para adicionar alguém usando qualquer número de telefone do mundo<br/> | Comprar [créditos de comunicações](../add-funds-and-manage-communications-credits.md).|
+|Sistema Telefônico <br/> |<ol><li>Compre o complemento do sistema telefônico do Office 365. </li><li>Compre um [plano de chamadas](../calling-plans-for-office-365.md) para o Office 365.</li></ul>Ou use o [serviço de telefonia do provedor existente](microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
 |Caixa Postal na Nuvem<br/> |Para planos E1, compre o Exchange Online plano 2. <br/>Ou mude para um Pacote do Office que venha com o Exchange Online Plan 2, como o Office 365 E3. |
 |Planos de Chamadas<br/> |<ol><li>Compre o complemento Sistema de Telefonia.</li><li>Comprar um [plano de chamadas](../calling-plans-for-office-365.md): você só poderá comprá-lo depois de comprar o complemento do **sistema telefônico** .</li></ol> <br/> |
    
   
-## <a name="e1-and-e3-customers-how-to-see-prices-and-buy"></a>Clientes E1 e E3: Como ver preços e comprar
+## <a name="e1-and-e3-customers-how-to-see-prices-and-buy"></a>Clientes dos planos E1 e E3: como ver preços e comprar
 <a name="bkmk_buypremium"> </a>
 
 1. Entre no centro de administração do Microsoft 365.
@@ -47,9 +49,9 @@ Se você já comprou o [Office 365 Enterprise E1](https://products.office.com/en
 
 3. Você verá o complemento do sistema telefônico. Selecione **comprar agora**. 
 
-Depois de comprar uma licença do sistema de telefonia, você verá o preço e a opção para comprar um plano de chamadas.
+Após comprar uma licença do Sistema de Telefonia, você verá o preço e a opção de comprar um Plano de Chamadas.
 
-### <a name="partners-how-to-see-prices-and-buy"></a>Parceiros: Como ver preços e comprar
+### <a name="partners-how-to-see-prices-and-buy"></a>Parceiros: como ver preços e comprar
 <a name="bkmk_partners"> </a>
 
 O plano E3 faz parte de seu Action Pack. Comprar os complementos doSistema de Telefonia e Audioconferência:
@@ -58,14 +60,14 @@ O plano E3 faz parte de seu Action Pack. Comprar os complementos doSistema de Te
 
 2. Entre no centro de administração do Microsoft 365 e vá para**assinaturas complementares do****serviço** > de compra de **cobrança** > .
 
-    Agora, você verá os preços e a opção para comprar o sistema de telefonia e Complementos de audioconferência.
+    Agora você verá os preços e a opção para comprar complementos do Sistema de Telefonia e Áudioconferência.
 
-## <a name="why-dont-i-see-the-option-to-buy-add-ons"></a>Por que não vejo a opção para comprar complementos?
+## <a name="why-dont-i-see-the-option-to-buy-add-ons"></a>Por que não consigo ver a opção de comprar complementos?
 <a name="bkmk_how"> </a>
 
 Em algumas situações, você não verá a opção de comprar Complementos do Microsoft Teams no centro de administração do Microsoft 365:
 
 - **Você comprou o Office 365 Business Premium por meio do GoDaddy**. Nesse caso, você não pode comprar Complementos do Microsoft Teams. Você precisa mudar para o plano E3 e, em seguida, pode comprá-lo. [Contatar o suporte do Office 365 para empresas - Ajuda para Administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
-- **Você tem um compromisso mensal, em vez de um compromisso anual**. Em alguns casos, os clientes que têm um compromisso mensal não podem comprar os complementos (isso é diferente do método de pagamento, o que pode ser mensal). Esse é um problema conhecido que estamos corrigindo. [Contatar o suporte do Office 365 para empresas - Ajuda para Administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- **You have a monthly commitment instead of an annual commitment**. In some cases, customers who have a monthly commitment can't buy the add-ons (this is different from the payment method, which can be monthly). This is a known issue that we are fixing. [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 

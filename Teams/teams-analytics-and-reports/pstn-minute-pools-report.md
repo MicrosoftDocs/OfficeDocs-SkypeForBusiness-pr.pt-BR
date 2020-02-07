@@ -7,6 +7,8 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: v-rifer
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -14,12 +16,12 @@ MS.collection:
 description: Saiba como usar o relatório de grupos de minutos PSTN do teams no centro de administração do Microsoft Teams para ver o número de minutos consumidos durante o mês atual em sua organização.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f67bc5e20d9e1f23e63b0b4c78b3e198d4b30a40
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 0fa9b8f4a676c1e937fed02eabc0e7cd4acd5325
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568384"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827319"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Relatório de grupos de minutos PSTN do Microsoft Teams
 

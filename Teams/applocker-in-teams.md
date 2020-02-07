@@ -10,15 +10,17 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: rafarhi
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Saiba como habilitar o aplicativo cliente da equipe de trabalho com políticas de controle de aplicativo do AppLocker.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6035341aa649e966f15be7d33894f450ec8be251
-ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
+ms.openlocfilehash: 2d3e9df38164c5253aab3a331b47b26892a910b7
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38311246"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826379"
 ---
 # <a name="applocker-application-control-policies-in-microsoft-teams"></a>Políticas de controle de aplicativo do AppLocker no Microsoft Teams
 

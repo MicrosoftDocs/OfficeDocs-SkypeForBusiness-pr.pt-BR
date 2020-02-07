@@ -8,6 +8,8 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 ms.reviewer: srividhc
+f1.keywords:
+- NOCSH
 description: Este artigo explica como você pode planejar e configurar a interoperabilidade de vídeo em nuvem para os usuários da sua organização.
 localization_priority: Normal
 ms.collection:
@@ -15,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a94292719f8f93b818cbc52dd312859611940e3b
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 1e937e7825000d02156c1f5ede2671711006cbdd
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516656"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825099"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Configurar a interoperabilidade de vídeo na nuvem para o Microsoft Teams
 
@@ -100,10 +102,10 @@ Em seguida, Agende a reunião do teams com coordenadas de interoperabilidade de 
 Você pode ingressar em reuniões de equipe com os dispositivos VTC da seguinte maneira:
  
 - IVR (resposta de voz interativa)
-    - Você pode discar para o IVR do parceiro usando o tenantkey @ domínio. 
+    - Você pode discar para o IVR do parceiro usando o tenantkey@domain. 
     - Quando estiver no IVR do parceiro, você será solicitado a inserir o VTC conferenceid, que o conectará à reunião do teams.
 - Discagem direta
-    - Você pode discar diretamente para a reunião do teams sem interagir com o IVR do parceiro usando o recurso de discagem direta usando a cadeia de caracteres completa do tenantkey. VTC Conferenceid @ domínio.
+    - Você pode discar diretamente para a reunião do teams sem interagir com o IVR do parceiro usando o recurso de discagem direta usando a cadeia de caracteres completa do tenantkey. VTC ConferenceId@domain.
 - Discagem com um toque
     - Se você tiver uma sala de equipes integrada, poderá usar os recursos de discagem com um toque oferecidos pelo seu parceiro (sem precisar digitar qualquer cadeia de caracteres de discagem).
 

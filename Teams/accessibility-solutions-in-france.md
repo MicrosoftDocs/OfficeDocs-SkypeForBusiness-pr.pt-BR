@@ -17,17 +17,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: None
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Legal
 hideEdit: true
 description: Fournir des expériences acessível à Tous est au cœur de la missão de Microsoft, qui consistir em à permettre à Chaque de la et à personne organização de la Chaque Planète d'accomplir. Microsoft offre un Nombre de fonctionnalités d'accessibilité derramar o Skype Entreprise et Microsoft Teams qui s'inscrivent dans filho Engagement Fort en faveur de l'accessibilité et de l'inclusion.
-ms.openlocfilehash: 2f2218c9439a0fa0e6ea20889ee905d2fbadef77
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9d7e7ff471bdd2c88ff1527f224f43e6f7e30b16
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695876"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825629"
 ---
 # <a name="accessibility-solutions-for-skype-for-business-online-and-microsoft-teams-in-france"></a>Soluções de acessibilidade para o Skype for Business Online e o Microsoft Teams na França
 
