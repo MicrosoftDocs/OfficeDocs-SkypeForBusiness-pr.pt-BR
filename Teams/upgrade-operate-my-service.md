@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eab5673c1b4dcbc1810c96588577e6ee53938609
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2e3ef345df2696cd0d450f8b16d93508d0eed545
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837141"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863512"
 ---
 ![Atualize o diagrama de jornada, enfatizando o estágio operacional de excelência](media/upgrade-banner-op-excellence.png "Estágios da jornada da atualização, com ênfase no estágio Operational de excelência")
 
@@ -345,7 +345,7 @@ Para fornecer pesquisas de NPS à sua organização, você pode aproveitar sua f
 
 ## <a name="manage-network-quality"></a>Gerenciar a qualidade da rede
 
-Muitos elementos básicos de planejamento vão até a otimização, o dimensionamento correto e a correção da infraestrutura de rede para garantir um caminho eficiente e de alta qualidade para o serviço do Microsoft Teams. As tarefas e os requisitos de planejamento são abordados na nossa orientação de [preparação de rede](upgrade-prepare-environment-prepare-network.md) . Muitas vezes, as redes evoluem ao longo do tempo devido a atualizações, expansão ou outras necessidades de negócios. É importante que você atenda às suas necessidades do teams em suas atividades de planejamento de rede.
+Muitos elementos básicos de planejamento vão até a otimização, o dimensionamento correto e a correção da infraestrutura de rede para garantir um caminho eficiente e de alta qualidade para o serviço do Microsoft Teams. As tarefas e os requisitos de planejamento são abordados na nossa orientação de [preparação de rede](prepare-network.md) . Muitas vezes, as redes evoluem ao longo do tempo devido a atualizações, expansão ou outras necessidades de negócios. É importante que você atenda às suas necessidades do teams em suas atividades de planejamento de rede.
 
 Embora o planejamento de rede seja um aspecto crítico de uma implantação de equipe, é igualmente importante garantir que a rede permaneça íntegra e permaneça atualizada, com base em mudanças nos negócios ou nos requisitos técnicos.
 
@@ -431,7 +431,7 @@ Mesmo que você tenha seguido a orientação anterior, os usuários da sua organ
 
 1. **Validar a integridade do serviço:** O problema que um usuário pode estar enfrentando pode estar relacionado a um evento que afeta negativamente o serviço do teams ou os serviços do itsdependent. Como primeiro passo, recomendamos que você confirme que não há problemas de serviço ativos. Consulte [como verificar a integridade do serviço do Office 365](https://support.office.com/article/How-to-check-Office-365-service-health-932AD3AD-533C-418A-B938-6E44E8BC33B0). Lembre-se de verificar o status dos serviços dependentes (por exemplo, Exchange, SharePoint, OneDrive for Business). O monitoramento da integridade do serviço é discutido mais detalhadamente na seção anterior, [monitorar a integridade do serviço](#monitor-service-health).
 
-2. **Validar a conectividade do cliente:** Problemas de conectividade causam funcionalidades ou problemas de entrada no Teams. Recomendamos (especialmente para novos sites ou locais) que você valida a conectividade com o serviço. Verifique se as seguintes [URLs do Office 365 e diretrizes de intervalos de endereços IP](https://aka.ms/o365ips) são seguidas para cada site. Você pode aproveitar a [ferramenta de avaliação de rede da Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) para executar um teste de conectividade para validar que as portas de mídia foram abertas corretamente para recursos do teams. As etapas detalhadas sobre como executar os testes de conectividade são fornecidas na orientação de [preparação de rede](upgrade-prepare-environment-prepare-network.md) .
+2. **Validar a conectividade do cliente:** Problemas de conectividade causam funcionalidades ou problemas de entrada no Teams. Recomendamos (especialmente para novos sites ou locais) que você valida a conectividade com o serviço. Verifique se as seguintes [URLs do Office 365 e diretrizes de intervalos de endereços IP](https://aka.ms/o365ips) são seguidas para cada site. Você pode aproveitar a [ferramenta de avaliação de rede da Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) para executar um teste de conectividade para validar que as portas de mídia foram abertas corretamente para recursos do teams. As etapas detalhadas sobre como executar os testes de conectividade são fornecidas na orientação de [preparação de rede](prepare-network.md) .
 
 3. **Verifique a lista de problemas conhecidos:** Consulte a [lista de problemas conhecidos do teams](known-issues.md) para determinar se o usuário foi afetado negativamente por um desses problemas. Siga a solução alternativa fornecida (se houver uma) para resolver o problema.
 

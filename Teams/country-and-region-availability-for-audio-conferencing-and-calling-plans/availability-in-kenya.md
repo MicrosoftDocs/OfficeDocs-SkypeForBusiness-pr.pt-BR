@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para o Quênia.
-ms.openlocfilehash: 208146c89d0c9499049199b1257ca5f7dcb320c2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 20a71aad93f88d8eb0204e290f7c74f52a29ba43
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694976"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41853186"
 ---
 # <a name="availability-in-kenya"></a>Disponibilidade no Quênia
 
@@ -60,8 +60,10 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Não  <br/> |
-|Minutos disponíveis para Planos de Chamadas  <br/> |Não aplicável  <br/> |
+|Minutos disponíveis para Planos de Chamadas  <br/> |Não se aplica  <br/> |
 |É possível fazer chamadas de saída?  <br/> |Não se aplica  <br/> |
+
+Se os planos de chamada não estiverem disponíveis para compra, considere o uso do [Roteamento direto do sistema telefônico](../direct-routing-landing-page.md). Com o roteamento direto, você pode usar o sistema telefônico com praticamente qualquer operadora de telefonia.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços
 

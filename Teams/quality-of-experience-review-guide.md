@@ -1,11 +1,11 @@
 ---
 title: Qualidade da experiência do guia de avaliação do Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: lolajacobsen
+ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rowille
+ms.reviewer: siunies
 audience: admin
 description: Guia para analisar o desempenho de mídia em tempo real do Microsoft Teams usando o painel de qualidade de chamada (CQD).
 localization_priority: Normal
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff4fe3a0a8a43c23978345461b0d32fe5182a6dd
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6e11c7d479aeac6eef39fb38588a61c0c7be25a6
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838251"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863392"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guia de revisão da experiência de qualidade
 
@@ -1141,8 +1141,6 @@ _Figura 29 – uso do proxy HTTP por meio da construção e da sub-rede_
 A causa mais comum de uso de HTTP são as regras de exceção ausentes nos proxies. Ao usar o edifício ou a sub-rede fornecida, você pode determinar rapidamente qual proxy precisa ser configurado para o bypass de mídia.
 
 Verifique se os [FQDNs do Office 365](https://aka.ms/o365ips) necessários estão na lista negra em seu proxy.
-
-Para obter mais informações sobre como usar proxies com o Skype for Business Online e o Teams, consulte [Este artigo](proxy-servers-for-skype-for-business-online.md).
 
 ## <a name="endpoint-investigations"></a>Investigações de ponto de extremidade
 

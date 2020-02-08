@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para Camboja.
-ms.openlocfilehash: 9425f1638614ff970e3d7a961e0b9451ea0e4c77
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 441d3fe9973b6c16bd5fddadd2509659c6629b1a
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41683994"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41853736"
 ---
 # <a name="availability-in-cambodia"></a>Disponibilidade em Camboja
 
@@ -61,6 +61,8 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Não  <br/> |
 |Minutos disponíveis para Planos de Chamadas  <br/> |Não se aplica  <br/> |
 |É possível fazer chamadas de saída?  <br/> |Não se aplica  <br/> |
+
+Se os planos de chamada não estiverem disponíveis para compra, considere o uso do [Roteamento direto do sistema telefônico](../direct-routing-landing-page.md). Com o roteamento direto, você pode usar o sistema telefônico com praticamente qualquer operadora de telefonia.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamada tarifada e gratuita para serviços
 

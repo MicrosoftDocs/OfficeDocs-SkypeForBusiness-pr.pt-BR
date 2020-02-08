@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd2c2918b2b65e33f1fa4afc7bfb61a28abb08e6
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e07ec04ba567963662d7f83bdba3fe9f788abd9e
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837031"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862831"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Introdução ao Microsoft Teams
 
@@ -48,7 +48,6 @@ Se você tiver uma pequena empresa, poderá usar essa orientação para começar
 
 Antes de começar, você deve planejar a distribuição do Teams analisando o seguinte:
 
-- [Verificar a preparação do seu ambiente para o Teams](environment-readiness.md)
 - [Preparo da rede da sua organização para o Teams](prepare-network.md)
 - [Aprenda sobre os benefícios da instalação dos clientes de área de trabalho, clientes da Web e clientes móveis](get-clients.md)
 

@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a granada.
-ms.openlocfilehash: be8219847bbd3c37681d814b3012fd6a8583bf6f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a828293e7a469a6cecc56847499881486f50a8cb
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695086"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41853436"
 ---
 # <a name="availability-in-grenada"></a>Disponibilidade em Granada
 
@@ -61,6 +61,8 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Não  <br/> |
 |Minutos disponíveis para Planos de Chamadas  <br/> |Não se aplica  <br/> |
 |É possível fazer chamadas de saída?  <br/> |Não se aplica  <br/> |
+
+Se os planos de chamada não estiverem disponíveis para compra, considere o uso do [Roteamento direto do sistema telefônico](../direct-routing-landing-page.md). Com o roteamento direto, você pode usar o sistema telefônico com praticamente qualquer operadora de telefonia.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamada tarifada e gratuita para serviços
 

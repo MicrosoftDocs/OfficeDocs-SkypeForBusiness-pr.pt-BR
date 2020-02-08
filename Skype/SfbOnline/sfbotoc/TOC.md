@@ -268,7 +268,7 @@
 ### [Fluxo de chamadas usando o ExpressRoute](../optimizing-your-network/call-flow-using-expressroute.md)
 ### [ExpressRoute e QoS no Skype for Business Online](../optimizing-your-network/expressroute-and-qos-in-skype-for-business-online.md)
 ### [Qualidade de mídia e desempenho de conectividade de rede](../optimizing-your-network/media-quality-and-network-connectivity-performance.md)
-### [Servidores proxy para o Skype for Business Online](/microsoftteams/proxy-servers-for-skype-for-business-online?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [Servidores proxy para o Skype for Business Online](../optimizing-your-network/proxy-servers-for-skype-for-business-online.md)
 ### [Usar o complemento de teste de rede](/microsoftteams/use-network-testing-companion?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 
 ## [Análise de Chamada e Painel de Qualidade de Chamadas](/microsoftteams/difference-between-call-analytics-and-call-quality-dashboard?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)

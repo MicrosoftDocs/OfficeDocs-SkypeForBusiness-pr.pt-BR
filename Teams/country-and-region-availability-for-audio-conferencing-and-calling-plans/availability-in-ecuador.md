@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para o Equador.
-ms.openlocfilehash: fb4c034d03d8627e30095e40368a2fa4505f49b8
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 424a62e1cf28d8bcafba7a7b917ddd9d76724339
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695216"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41853556"
 ---
 # <a name="availability-in-ecuador"></a>Disponibilidade no Equador
 
@@ -60,8 +60,10 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Não  <br/> |
-|Minutos disponíveis para Planos de Chamadas  <br/> |Não aplicável  <br/> |
+|Minutos disponíveis para Planos de Chamadas  <br/> |Não se aplica  <br/> |
 |É possível fazer chamadas de saída?  <br/> |Não se aplica  <br/> |
+
+Se os planos de chamada não estiverem disponíveis para compra, considere o uso do [Roteamento direto do sistema telefônico](../direct-routing-landing-page.md). Com o roteamento direto, você pode usar o sistema telefônico com praticamente qualquer operadora de telefonia.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços
 

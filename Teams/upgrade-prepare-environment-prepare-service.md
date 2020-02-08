@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d723cae9bf26896f40fe14ad8f04038da6ed04dc
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5e70d9bed1dfc2f04d7c5fa5a6823f93a02ec759
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836111"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863442"
 ---
 ![Atualize o diagrama de jornada, enfatizando o estágio de preparação técnica](media/upgrade-banner-tech-readiness.png "Estágios da jornada da atualização, com ênfase no estágio de preparação técnica")
 
@@ -46,7 +46,7 @@ As listas de verificação a seguir orientam você pelas etapas para implantar o
 
 - [Configurar recursos essenciais do teams](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 
-- [Configurar a rede](onboarding-checklist-configure-networking.md)
+- [Preparar sua rede](prepare-network.md)
 
 - [Configurar cargas de trabalho de voz na nuvem no Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
 

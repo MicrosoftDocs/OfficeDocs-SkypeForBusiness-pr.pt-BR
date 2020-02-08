@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c44d1b35c19abb224f40bf71c81c61b91967c182
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 1268a87e5e5ae48547e1f2489641ac13cd3bae64
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825149"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862711"
 ---
 # <a name="plan-my-service-management"></a>Planejar meu gerenciamento de serviços
 
@@ -36,7 +36,7 @@ O gerenciamento do serviço é um tema amplo, que abrange as operações do serv
 É provável que a noção de gerenciamento do serviço não seja um conceito novo para a maioria das organizações. Você provavelmente já implementou processos e tarefas que estão associados a serviços existentes. Considerando isso, é possível que você possa expandir o que já está funcionando ao planejar o gerenciamento do serviço atual para dar suporte ao Microsoft Teams no futuro.
 
 O gerenciamento do serviço compreende todas as atividades e processos envolvidos no gerenciamento do Microsoft Teams de ponta a ponta. Alguns componentes do gerenciamento de serviços (os componentes de infraestrutura que o próprio serviço do Office 365 abrange) são de responsabilidade da Microsoft, ao passo que o cliente é responsável por gerenciar os diversos aspectos do Teams, a rede e os pontos de extremidade que fornecem.
-Para ver uma discussão completa sobre a responsabilidade do cliente pelo gerenciamento de serviços do Teams e como ele se relaciona com os principais componentes que sustentam a qualidade da experiência do usuário, consulte [Planejar gerenciamento de serviços e qualidade](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide).
+Para ver uma discussão completa sobre a responsabilidade do cliente pelo gerenciamento de serviços do Teams e como ele se relaciona com os principais componentes que sustentam a qualidade da experiência do usuário, consulte [Planejar gerenciamento de serviços e qualidade](https://docs.microsoft.com/MicrosoftTeams/prepare-network).
 
 ![Diagrama dos três componentes de qualidade](media/plan-my-service-management-image1.png "Diagrama dos três componentes de qualidade--serviço do Office 365, rede e pontos de extremidade--e como o gerenciamento de serviços se sobrepõe a todos os três.")
 

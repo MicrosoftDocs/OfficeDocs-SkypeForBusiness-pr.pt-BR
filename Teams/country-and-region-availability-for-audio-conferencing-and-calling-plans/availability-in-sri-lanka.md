@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para o Sri Lanka.
-ms.openlocfilehash: a1a8659b1d53f85ad0515cb711a510f67bb8e4ce
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 57055a4e379f7ecc77718da38514edc4ca241472
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694596"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41852378"
 ---
 # <a name="availability-in-sri-lanka"></a>Disponibilidade no Sri Lanka
 
@@ -60,8 +60,10 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Não  <br/> |
-|Minutos disponíveis para Planos de Chamadas  <br/> |Não aplicável  <br/> |
+|Minutos disponíveis para Planos de Chamadas  <br/> |Não se aplica  <br/> |
 |É possível fazer chamadas de saída?  <br/> |Não se aplica  <br/> |
+
+Se os planos de chamada não estiverem disponíveis para compra, considere o uso do [Roteamento direto do sistema telefônico](../direct-routing-landing-page.md). Com o roteamento direto, você pode usar o sistema telefônico com praticamente qualquer operadora de telefonia.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65a9c79dd29656b7bdc8563f0444d90133399f2b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 86e9fd1b26bebd120136c3c33abf0a44ffa03e0d
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825169"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862811"
 ---
 # <a name="deploy-my-service"></a>Implantar meu serviço
 
@@ -44,7 +44,7 @@ Ao completar as atividades neste guia estratégico, sua organização pode:
 -   Reduza as necessidades de suporte e aumente a satisfação do usuário.
 
 > [!NOTE]
-> Este artigo e o guia estratégico associado não têm a finalidade de descrever todas as etapas de configuração técnica necessárias para a habilitação de serviços ou o fornecimento de Tom de discagem para um site específico. Em vez disso, eles se concentram em atividades e tarefas recomendadas para os usuários integrados facilmente e têm a necessidade de começar a consumir cargas de trabalho de voz do teams por meio de uma transição rápida e tranqüila com uma alta taxa de adoção e minimizar os requisitos de suporte. Para obter orientação técnica sobre como configurar melhor seu ambiente para a voz do Teams, consulte as listas de verificação de integração para [configurar as cargas de trabalho de voz](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md), [Configurando o roteamento direto nas equipes](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), [recursos essenciais do teams](onboarding-checklist-configure-microsoft-teams-core-capabilities.md), [redes para equipes](onboarding-checklist-configure-networking.md)e [habilitando o Office 365](onboarding-checklist-enable-office-365.md).
+> Este artigo e o guia estratégico associado não têm a finalidade de descrever todas as etapas de configuração técnica necessárias para a habilitação de serviços ou o fornecimento de Tom de discagem para um site específico. Em vez disso, eles se concentram em atividades e tarefas recomendadas para os usuários integrados facilmente e têm a necessidade de começar a consumir cargas de trabalho de voz do teams por meio de uma transição rápida e tranqüila com uma alta taxa de adoção e minimizar os requisitos de suporte. Para obter orientação técnica sobre como configurar melhor seu ambiente para a voz do Teams, consulte as listas de verificação de integração para [configurar as cargas de trabalho de voz](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md), [Configurando o roteamento direto nas equipes](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), [recursos essenciais do teams](onboarding-checklist-configure-microsoft-teams-core-capabilities.md), [redes para equipes](prepare-network.md)e [habilitando o Office 365](onboarding-checklist-enable-office-365.md).
 
 <!--ENDOFSECTION-->
 

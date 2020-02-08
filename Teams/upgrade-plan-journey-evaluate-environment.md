@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5000ecb5195654e902c06f329c910c0a5edb7d55
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2b97adde4f5016262ac3de1a5b79c9d69975580b
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837121"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863482"
 ---
 ![Atualize o diagrama de jornada, enfatizando o estágio de preparação técnica](media/upgrade-banner-tech-readiness.png "Estágios da jornada da atualização, com ênfase no estágio de preparação técnica")
 
@@ -196,4 +196,4 @@ Use a tabela a seguir e registre o estado atual de adoção e preparação de su
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next step"/><br/>Próxima etapa</td><td><ul><li>Documentar os resultados da avaliação do ambiente.</li></ul></td></tr>
 </table>
 
-Depois de avaliar seu ambiente, prossiga para a próxima etapa: [preparar sua rede](upgrade-prepare-environment-prepare-network.md).
+Depois de avaliar seu ambiente, prossiga para a próxima etapa: [preparar sua rede](prepare-network.md).

@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Argélia.
-ms.openlocfilehash: a3b7661f3aa2dd79144e8e5080799aea8d0c9de9
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 22b099fcc5ca17328c3102b8491fa61ca1124bb7
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684084"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41853946"
 ---
 # <a name="availability-in-algeria"></a>Disponibilidade em Argélia
 
@@ -61,6 +61,8 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Não  <br/> |
 |Minutos disponíveis para Planos de Chamadas  <br/> |Não se aplica  <br/> |
 |É possível fazer chamadas de saída?  <br/> |Não se aplica  <br/> |
+
+Se os planos de chamada não estiverem disponíveis para compra, considere o uso do [Roteamento direto do sistema telefônico](../direct-routing-landing-page.md). Com o roteamento direto, você pode usar o sistema telefônico com praticamente qualquer operadora de telefonia.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamada tarifada e gratuita para serviços
 

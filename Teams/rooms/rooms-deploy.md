@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Leia este artigo para saber mais sobre como implantar salas do Microsoft Teams.
-ms.openlocfilehash: 3cc8df810989163b622a96dc5f16c8aa883447cd
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 650302d6d952a59c1cc460e2cdf8758cfb0fcd41
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825959"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863342"
 ---
 # <a name="deployment-overview"></a>Visão geral de implantação
 
@@ -45,7 +45,7 @@ Você pode saber mais sobre essas dependências nos links de diretrizes de plane
 -   [Certificados](rooms-prep.md#certificates)
 -   [Proxy](rooms-prep.md#proxy)
 
-**Dica de pro** -se você pretende usar servidores proxy para fornecer acesso ao Microsoft Teams ou ao Skype for Business Online, primeiro [Leia este artigo](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online). Observe que, quando se trata do tráfego do Skype for Business em servidores proxy, recomendamos ignorar os servidores proxy totalmente. O tráfego do Skype for Business já está criptografado, portanto, os servidores proxy não o tornam mais seguros. Como parte de sua implantação mais ampla, recomendamos que você siga as orientações em [avaliar meu ambiente](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) para planejar a largura de banda e avaliar a adequação da sua rede para o tráfego em tempo real.
+**Dica de pro** -se você pretende usar servidores proxy para fornecer acesso ao Teams ou ao Skype for Business Online, primeiro [Leia este artigo](../proxy-servers-for-skype-for-business-online.md). Observe que, quando se trata do tráfego do Skype for Business em servidores proxy, recomendamos ignorar os servidores proxy totalmente. O tráfego do Skype for Business já está criptografado, portanto, os servidores proxy não o tornam mais seguros. Como parte de sua implantação mais ampla, recomendamos que você siga as orientações em [preparar sua rede para o](../prepare-network.md) planejamento de largura de banda para o planejamento de largura de banda e a avaliação da adequação da sua rede para tráfego em tempo real.
 
 |    |     |
 |-----------|------------|

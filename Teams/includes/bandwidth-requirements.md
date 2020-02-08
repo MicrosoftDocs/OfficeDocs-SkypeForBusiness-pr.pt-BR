@@ -1,4 +1,4 @@
-Este artigo descreve uma versão concisa de como a largura de banda é utilizada pela equipe de áudio, vídeo e modalidades de compartilhamento de área de trabalho em vários casos de uso. O Teams é sempre conservador na utilização da largura de banda e pode oferecer qualidade de vídeo HD em 1,2 Mbps. O consumo de largura de banda real em cada chamada de áudio/vídeo ou reunião varia de acordo com vários fatores, como o layout do vídeo, a resolução de vídeo e os quadros de vídeo por segundo. Quando houver mais largura de banda disponível, a qualidade e o uso aumentarão para proporcionar a melhor experiência.
+Esta tabela descreve como as equipes usam a largura de banda. O Teams é sempre conservador na utilização da largura de banda e pode oferecer qualidade de vídeo HD em 1,2 Mbps. O consumo de largura de banda real em cada chamada de áudio/vídeo ou reunião varia de acordo com vários fatores, como o layout do vídeo, a resolução de vídeo e os quadros de vídeo por segundo. Quando houver mais largura de banda disponível, a qualidade e o uso aumentarão para proporcionar a melhor experiência.
 
 
 |Largura de banda (para cima/para baixo) |Cenários |

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Sérvia.
-ms.openlocfilehash: 49756b51fe721af8deaadab58471bf6a61647b1b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2d7289e1fc1e42bde943352a61f3208efc49dc1f
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41683574"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41852488"
 ---
 # <a name="availability-in-serbia"></a>Disponibilidade na Sérvia
 
@@ -60,8 +60,10 @@ Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Te
 |**Recurso**|**Detalhes**|
 |:-----|:-----|
 |Os Planos de Chamadas estão disponíveis para compra?  <br/> |Não  <br/> |
-|Minutos disponíveis para Planos de Chamadas  <br/> |Não aplicável  <br/> |
+|Minutos disponíveis para Planos de Chamadas  <br/> |Não se aplica  <br/> |
 |É possível fazer chamadas de saída?  <br/> |Não se aplica  <br/> |
+
+Se os planos de chamada não estiverem disponíveis para compra, considere o uso do [Roteamento direto do sistema telefônico](../direct-routing-landing-page.md). Com o roteamento direto, você pode usar o sistema telefônico com praticamente qualquer operadora de telefonia.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de chamadas gratuitas e tarifadas para serviços
 

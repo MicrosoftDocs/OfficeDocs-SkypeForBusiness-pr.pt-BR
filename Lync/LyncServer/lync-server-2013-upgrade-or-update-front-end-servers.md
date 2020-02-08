@@ -7,23 +7,23 @@ f1.keywords:
 - NOCSH
 TOCTitle: Upgrade or update Front End Servers
 ms:assetid: 20fa39ae-ecfb-4c72-9cc4-8e183d3c752f
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204736(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/JJ204736(v=OCS.15)
 ms:contentKeyID: 48183597
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af1680da68299881fe94244969d44fce1900532b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 14a4c5f81b88db33ba86c4410109a0943b81cb87
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744631"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41851999"
 ---
-<div data-xmlns="http://www.w3.org/1999/xhtml">
+<div data-xmlns="https://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="https://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="upgrade-or-update-front-end-servers-in-lync-server-2013"></a>Upgrade or update Front End Servers in Lync Server 2013
 
@@ -41,7 +41,7 @@ Os servidores de front-end em um pool da edição Enterprise são organizados em
 
 Ao atualizar os servidores, você deve fazer um domínio de atualização de cada vez. Coloque cada servidor em um domínio de atualização abaixo, atualize-o e reinicie-o antes de passar para outro domínio de atualização. Certifique-se de acompanhar quais domínios e servidores de atualização você atualizou até agora. Use o diagrama de fluxograma a seguir ao atualizar cada servidor.
 
-:::image type="content" source="images/UpgradeUpdateFrontEndServerslync2013.png" alt-text="Atualizar ou atualizar servidores front-end":::
+![Atualizar ou atualizar servidores front-end](images/upgradeupdatefrontendserverslync2013.png)
 
 <div>
 
