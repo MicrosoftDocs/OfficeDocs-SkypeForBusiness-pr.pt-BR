@@ -24,67 +24,69 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plansfor Business and Microsoft Teams available for Moldova."
-ms.openlocfilehash: 3ce67a13a2da66ebf582eb0aa9b928983910b173
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4d5dff24821b23c690a27109bd1471f1a4817111
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41683694"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41852911"
 ---
-# <a name="availability-in-moldova"></a><span data-ttu-id="7d69d-102">Disponibilidade em Moldova</span><span class="sxs-lookup"><span data-stu-id="7d69d-102">Availability in Moldova</span></span>
+# <a name="availability-in-moldova"></a><span data-ttu-id="c73c1-102">Disponibilidade em Moldova</span><span class="sxs-lookup"><span data-stu-id="c73c1-102">Availability in Moldova</span></span>
 
-<span data-ttu-id="7d69d-103">[Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.</span><span class="sxs-lookup"><span data-stu-id="7d69d-103">[Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.</span></span>
+<span data-ttu-id="c73c1-103">[Procure outro país ou região](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), ou saiba mais sobre a disponibilidade da Audioconferência e dos Planos de Chamadas por país e região.</span><span class="sxs-lookup"><span data-stu-id="c73c1-103">[Find another country or region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), or learn more about country and region availability for Audio Conferencing and calling plans.</span></span>
 
-<span data-ttu-id="7d69d-104">Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Moldova.</span><span class="sxs-lookup"><span data-stu-id="7d69d-104">Here are the Office 365 services for Skype for Business and Microsoft Teams available for Moldova.</span></span>
+<span data-ttu-id="c73c1-104">Estes são os serviços do Office 365 para o Skype for Business e o Microsoft Teams disponíveis para a Moldova.</span><span class="sxs-lookup"><span data-stu-id="c73c1-104">Here are the Office 365 services for Skype for Business and Microsoft Teams available for Moldova.</span></span>
   
-## <a name="audio-conferencing"></a><span data-ttu-id="7d69d-105">Audioconferência</span><span class="sxs-lookup"><span data-stu-id="7d69d-105">Audio Conferencing</span></span>
+## <a name="audio-conferencing"></a><span data-ttu-id="c73c1-105">Audioconferência</span><span class="sxs-lookup"><span data-stu-id="c73c1-105">Audio Conferencing</span></span>
 
-|<span data-ttu-id="7d69d-106">**Recurso**</span><span class="sxs-lookup"><span data-stu-id="7d69d-106">**Feature**</span></span>|<span data-ttu-id="7d69d-107">**Detalhes**</span><span class="sxs-lookup"><span data-stu-id="7d69d-107">**Details**</span></span>|
+|<span data-ttu-id="c73c1-106">**Recurso**</span><span class="sxs-lookup"><span data-stu-id="c73c1-106">**Feature**</span></span>|<span data-ttu-id="c73c1-107">**Detalhes**</span><span class="sxs-lookup"><span data-stu-id="c73c1-107">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="7d69d-108">A Audioconferência está disponível para compra?</span><span class="sxs-lookup"><span data-stu-id="7d69d-108">Is Audio Conferencing available for purchase?</span></span>  <br/> |<span data-ttu-id="7d69d-109">Sim, somente [pagamento por minuto](../audio-conferencing-pay-per-minute.md)</span><span class="sxs-lookup"><span data-stu-id="7d69d-109">Yes, [pay-per-minute](../audio-conferencing-pay-per-minute.md) only</span></span>  <br/> |
-|<span data-ttu-id="7d69d-110">Os números de telefone são atribuídos automaticamente para a Audioconferência?</span><span class="sxs-lookup"><span data-stu-id="7d69d-110">Are phone numbers automatically assigned for Audio Conferencing?</span></span>  <br/> |<span data-ttu-id="7d69d-111">Não</span><span class="sxs-lookup"><span data-stu-id="7d69d-111">No</span></span>  <br/> |
-|<span data-ttu-id="7d69d-112">Funcionalidade de discagem usando o recurso Telefonar para Mim</span><span class="sxs-lookup"><span data-stu-id="7d69d-112">Dial-out capability using the Call Me feature</span></span>  <br/> |<span data-ttu-id="7d69d-113">Requer créditos de comunicação</span><span class="sxs-lookup"><span data-stu-id="7d69d-113">Requires communication credits</span></span>  <br/> |
+|<span data-ttu-id="c73c1-108">A Audioconferência está disponível para compra?</span><span class="sxs-lookup"><span data-stu-id="c73c1-108">Is Audio Conferencing available for purchase?</span></span>  <br/> |<span data-ttu-id="c73c1-109">Sim, somente [pagamento por minuto](../audio-conferencing-pay-per-minute.md)</span><span class="sxs-lookup"><span data-stu-id="c73c1-109">Yes, [pay-per-minute](../audio-conferencing-pay-per-minute.md) only</span></span>  <br/> |
+|<span data-ttu-id="c73c1-110">Os números de telefone são atribuídos automaticamente para a Audioconferência?</span><span class="sxs-lookup"><span data-stu-id="c73c1-110">Are phone numbers automatically assigned for Audio Conferencing?</span></span>  <br/> |<span data-ttu-id="c73c1-111">Não</span><span class="sxs-lookup"><span data-stu-id="c73c1-111">No</span></span>  <br/> |
+|<span data-ttu-id="c73c1-112">Funcionalidade de discagem usando o recurso Telefonar para Mim</span><span class="sxs-lookup"><span data-stu-id="c73c1-112">Dial-out capability using the Call Me feature</span></span>  <br/> |<span data-ttu-id="c73c1-113">Requer créditos de comunicação</span><span class="sxs-lookup"><span data-stu-id="c73c1-113">Requires communication credits</span></span>  <br/> |
    
-## <a name="phone-system"></a><span data-ttu-id="7d69d-114">Sistema de Telefonia</span><span class="sxs-lookup"><span data-stu-id="7d69d-114">Phone System</span></span>
+## <a name="phone-system"></a><span data-ttu-id="c73c1-114">Sistema de Telefonia</span><span class="sxs-lookup"><span data-stu-id="c73c1-114">Phone System</span></span>
 
-|<span data-ttu-id="7d69d-115">**Recurso**</span><span class="sxs-lookup"><span data-stu-id="7d69d-115">**Feature**</span></span>|<span data-ttu-id="7d69d-116">**Detalhes**</span><span class="sxs-lookup"><span data-stu-id="7d69d-116">**Details**</span></span>|
+|<span data-ttu-id="c73c1-115">**Recurso**</span><span class="sxs-lookup"><span data-stu-id="c73c1-115">**Feature**</span></span>|<span data-ttu-id="c73c1-116">**Detalhes**</span><span class="sxs-lookup"><span data-stu-id="c73c1-116">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="7d69d-117">O Sistema de Telefonia está disponível para compra?</span><span class="sxs-lookup"><span data-stu-id="7d69d-117">Is Phone System available for purchase?</span></span>  <br/> |<span data-ttu-id="7d69d-118">Sim</span><span class="sxs-lookup"><span data-stu-id="7d69d-118">Yes</span></span>  <br/> |
-| <span data-ttu-id="7d69d-119">Atendedores automáticos</span><span class="sxs-lookup"><span data-stu-id="7d69d-119">Auto attendants</span></span> <br/> |<span data-ttu-id="7d69d-120">Disponível</span><span class="sxs-lookup"><span data-stu-id="7d69d-120">Available</span></span>  <br/> |
-|<span data-ttu-id="7d69d-121">Filas de chamadas</span><span class="sxs-lookup"><span data-stu-id="7d69d-121">Call queues</span></span>  <br/> |<span data-ttu-id="7d69d-122">Disponível</span><span class="sxs-lookup"><span data-stu-id="7d69d-122">Available</span></span>  <br/> |
-|<span data-ttu-id="7d69d-123">Caixa postal</span><span class="sxs-lookup"><span data-stu-id="7d69d-123">Voicemail</span></span>  <br/> |<span data-ttu-id="7d69d-124">Disponível</span><span class="sxs-lookup"><span data-stu-id="7d69d-124">Available</span></span>  <br/> |
+|<span data-ttu-id="c73c1-117">O Sistema de Telefonia está disponível para compra?</span><span class="sxs-lookup"><span data-stu-id="c73c1-117">Is Phone System available for purchase?</span></span>  <br/> |<span data-ttu-id="c73c1-118">Sim</span><span class="sxs-lookup"><span data-stu-id="c73c1-118">Yes</span></span>  <br/> |
+| <span data-ttu-id="c73c1-119">Atendedores automáticos</span><span class="sxs-lookup"><span data-stu-id="c73c1-119">Auto attendants</span></span> <br/> |<span data-ttu-id="c73c1-120">Disponível</span><span class="sxs-lookup"><span data-stu-id="c73c1-120">Available</span></span>  <br/> |
+|<span data-ttu-id="c73c1-121">Filas de chamadas</span><span class="sxs-lookup"><span data-stu-id="c73c1-121">Call queues</span></span>  <br/> |<span data-ttu-id="c73c1-122">Disponível</span><span class="sxs-lookup"><span data-stu-id="c73c1-122">Available</span></span>  <br/> |
+|<span data-ttu-id="c73c1-123">Caixa postal</span><span class="sxs-lookup"><span data-stu-id="c73c1-123">Voicemail</span></span>  <br/> |<span data-ttu-id="c73c1-124">Disponível</span><span class="sxs-lookup"><span data-stu-id="c73c1-124">Available</span></span>  <br/> |
    
-## <a name="calling-plans"></a><span data-ttu-id="7d69d-125">Planos de Chamadas</span><span class="sxs-lookup"><span data-stu-id="7d69d-125">Calling Plans</span></span>
+## <a name="calling-plans"></a><span data-ttu-id="c73c1-125">Planos de Chamadas</span><span class="sxs-lookup"><span data-stu-id="c73c1-125">Calling Plans</span></span>
 
-|<span data-ttu-id="7d69d-126">**Recurso**</span><span class="sxs-lookup"><span data-stu-id="7d69d-126">**Feature**</span></span>|<span data-ttu-id="7d69d-127">**Detalhes**</span><span class="sxs-lookup"><span data-stu-id="7d69d-127">**Details**</span></span>|
+|<span data-ttu-id="c73c1-126">**Recurso**</span><span class="sxs-lookup"><span data-stu-id="c73c1-126">**Feature**</span></span>|<span data-ttu-id="c73c1-127">**Detalhes**</span><span class="sxs-lookup"><span data-stu-id="c73c1-127">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="7d69d-128">Os Planos de Chamadas estão disponíveis para compra?</span><span class="sxs-lookup"><span data-stu-id="7d69d-128">Calling Plans are available to purchase?</span></span>  <br/> |<span data-ttu-id="7d69d-129">Não</span><span class="sxs-lookup"><span data-stu-id="7d69d-129">No</span></span>  <br/> |
-|<span data-ttu-id="7d69d-130">Minutos disponíveis para Planos de Chamadas</span><span class="sxs-lookup"><span data-stu-id="7d69d-130">Minutes available for Calling Plans</span></span>  <br/> |<span data-ttu-id="7d69d-131">Não aplicável</span><span class="sxs-lookup"><span data-stu-id="7d69d-131">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="7d69d-132">É possível fazer chamadas de saída?</span><span class="sxs-lookup"><span data-stu-id="7d69d-132">Can make outbound calls to?</span></span>  <br/> |<span data-ttu-id="7d69d-133">Não se aplica</span><span class="sxs-lookup"><span data-stu-id="7d69d-133">Not applicable</span></span>  <br/> |
-   
-## <a name="toll-and-toll-free-numbers-for-services"></a><span data-ttu-id="7d69d-134">Números de chamadas gratuitas e tarifadas para serviços</span><span class="sxs-lookup"><span data-stu-id="7d69d-134">Toll and toll-free numbers for services</span></span>
+|<span data-ttu-id="c73c1-128">Os Planos de Chamadas estão disponíveis para compra?</span><span class="sxs-lookup"><span data-stu-id="c73c1-128">Calling Plans are available to purchase?</span></span>  <br/> |<span data-ttu-id="c73c1-129">Não</span><span class="sxs-lookup"><span data-stu-id="c73c1-129">No</span></span>  <br/> |
+|<span data-ttu-id="c73c1-130">Minutos disponíveis para Planos de Chamadas</span><span class="sxs-lookup"><span data-stu-id="c73c1-130">Minutes available for Calling Plans</span></span>  <br/> |<span data-ttu-id="c73c1-131">Não se aplica</span><span class="sxs-lookup"><span data-stu-id="c73c1-131">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="c73c1-132">É possível fazer chamadas de saída?</span><span class="sxs-lookup"><span data-stu-id="c73c1-132">Can make outbound calls to?</span></span>  <br/> |<span data-ttu-id="c73c1-133">Não se aplica</span><span class="sxs-lookup"><span data-stu-id="c73c1-133">Not applicable</span></span>  <br/> |
 
-|<span data-ttu-id="7d69d-135">**Recurso**</span><span class="sxs-lookup"><span data-stu-id="7d69d-135">**Feature**</span></span>|<span data-ttu-id="7d69d-136">**Detalhes**</span><span class="sxs-lookup"><span data-stu-id="7d69d-136">**Details**</span></span>|
-|:-----|:-----|
-|<span data-ttu-id="7d69d-137">Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?</span><span class="sxs-lookup"><span data-stu-id="7d69d-137">What capitals or major cities can you get toll numbers for?</span></span>  <br/> |<span data-ttu-id="7d69d-138">Não aplicável</span><span class="sxs-lookup"><span data-stu-id="7d69d-138">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="7d69d-139">Há números de chamada tarifada disponíveis?</span><span class="sxs-lookup"><span data-stu-id="7d69d-139">Are toll numbers available?</span></span>  <br/> |<span data-ttu-id="7d69d-140">Não</span><span class="sxs-lookup"><span data-stu-id="7d69d-140">No</span></span>  <br/> |
-|<span data-ttu-id="7d69d-141">Há números de chamada gratuita disponíveis?</span><span class="sxs-lookup"><span data-stu-id="7d69d-141">Are toll-free numbers available?</span></span>  <br/> |<span data-ttu-id="7d69d-142">Sim</span><span class="sxs-lookup"><span data-stu-id="7d69d-142">Yes</span></span>  <br/> |
+<span data-ttu-id="c73c1-134">Se os planos de chamada não estiverem disponíveis para compra, considere o uso do [Roteamento direto do sistema telefônico](../direct-routing-landing-page.md).</span><span class="sxs-lookup"><span data-stu-id="c73c1-134">If Calling Plans are not available to purchase, consider using [Phone System Direct Routing](../direct-routing-landing-page.md).</span></span> <span data-ttu-id="c73c1-135">Com o roteamento direto, você pode usar o sistema telefônico com praticamente qualquer operadora de telefonia.</span><span class="sxs-lookup"><span data-stu-id="c73c1-135">With Direct Routing, you can use Phone System with virtually any telephony carrier.</span></span>
    
- <span data-ttu-id="7d69d-143">Para obter números de telefone de chamadas gratuitas e tarifadas para audioconferência, atendedores automáticos e filas de chamadas, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers).</span><span class="sxs-lookup"><span data-stu-id="7d69d-143">If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).</span></span>
+## <a name="toll-and-toll-free-numbers-for-services"></a><span data-ttu-id="c73c1-136">Números de chamadas gratuitas e tarifadas para serviços</span><span class="sxs-lookup"><span data-stu-id="c73c1-136">Toll and toll-free numbers for services</span></span>
+
+|<span data-ttu-id="c73c1-137">**Recurso**</span><span class="sxs-lookup"><span data-stu-id="c73c1-137">**Feature**</span></span>|<span data-ttu-id="c73c1-138">**Detalhes**</span><span class="sxs-lookup"><span data-stu-id="c73c1-138">**Details**</span></span>|
+|:-----|:-----|
+|<span data-ttu-id="c73c1-139">Para quais capitais ou cidades importantes é possível obter números de chamadas tarifadas?</span><span class="sxs-lookup"><span data-stu-id="c73c1-139">What capitals or major cities can you get toll numbers for?</span></span>  <br/> |<span data-ttu-id="c73c1-140">Não aplicável</span><span class="sxs-lookup"><span data-stu-id="c73c1-140">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="c73c1-141">Há números de chamada tarifada disponíveis?</span><span class="sxs-lookup"><span data-stu-id="c73c1-141">Are toll numbers available?</span></span>  <br/> |<span data-ttu-id="c73c1-142">Não</span><span class="sxs-lookup"><span data-stu-id="c73c1-142">No</span></span>  <br/> |
+|<span data-ttu-id="c73c1-143">Há números de chamada gratuita disponíveis?</span><span class="sxs-lookup"><span data-stu-id="c73c1-143">Are toll-free numbers available?</span></span>  <br/> |<span data-ttu-id="c73c1-144">Sim</span><span class="sxs-lookup"><span data-stu-id="c73c1-144">Yes</span></span>  <br/> |
+   
+ <span data-ttu-id="c73c1-145">Para obter números de telefone de chamadas gratuitas e tarifadas para audioconferência, atendedores automáticos e filas de chamadas, consulte [Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams](/microsoftteams/getting-service-phone-numbers).</span><span class="sxs-lookup"><span data-stu-id="c73c1-145">If you want to get toll and toll-free phone numbers for Audio Conferencing, Auto attendants, and Call queues, see [Getting service phone numbers for Skype for Business and Microsoft Teams](/microsoftteams/getting-service-phone-numbers).</span></span>
   
-## <a name="communications-credits"></a><span data-ttu-id="7d69d-144">Créditos de Comunicação</span><span class="sxs-lookup"><span data-stu-id="7d69d-144">Communications Credits</span></span>
+## <a name="communications-credits"></a><span data-ttu-id="c73c1-146">Créditos de Comunicação</span><span class="sxs-lookup"><span data-stu-id="c73c1-146">Communications Credits</span></span>
 
-|<span data-ttu-id="7d69d-145">**Recurso**</span><span class="sxs-lookup"><span data-stu-id="7d69d-145">**Feature**</span></span>|<span data-ttu-id="7d69d-146">**Detalhes**</span><span class="sxs-lookup"><span data-stu-id="7d69d-146">**Details**</span></span>|
+|<span data-ttu-id="c73c1-147">**Recurso**</span><span class="sxs-lookup"><span data-stu-id="c73c1-147">**Feature**</span></span>|<span data-ttu-id="c73c1-148">**Detalhes**</span><span class="sxs-lookup"><span data-stu-id="c73c1-148">**Details**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="7d69d-147">Há Créditos de Comunicação disponíveis?</span><span class="sxs-lookup"><span data-stu-id="7d69d-147">Are Communications Credits available?</span></span>  <br/> |<span data-ttu-id="7d69d-148">Sim</span><span class="sxs-lookup"><span data-stu-id="7d69d-148">Yes</span></span>  <br/> |
+|<span data-ttu-id="c73c1-149">Há Créditos de Comunicação disponíveis?</span><span class="sxs-lookup"><span data-stu-id="c73c1-149">Are Communications Credits available?</span></span>  <br/> |<span data-ttu-id="c73c1-150">Sim</span><span class="sxs-lookup"><span data-stu-id="c73c1-150">Yes</span></span>  <br/> |
    
-<span data-ttu-id="7d69d-149">Para configurá-los, consulte [Configurar Créditos de Comunicação para a sua organização](../set-up-communications-credits-for-your-organization.md).</span><span class="sxs-lookup"><span data-stu-id="7d69d-149">If you want to set them up, see [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).</span></span>
+<span data-ttu-id="c73c1-151">Para configurá-los, consulte [Configurar Créditos de Comunicação para a sua organização](../set-up-communications-credits-for-your-organization.md).</span><span class="sxs-lookup"><span data-stu-id="c73c1-151">If you want to set them up, see [Set up Communications Credits for your organization](../set-up-communications-credits-for-your-organization.md).</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="7d69d-150">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="7d69d-150">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="c73c1-152">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="c73c1-152">Related topics</span></span>
 
-[<span data-ttu-id="7d69d-151">Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="7d69d-151">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
+[<span data-ttu-id="c73c1-153">Obtendo números de telefone de serviço do Skype for Business e do Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="c73c1-153">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/microsoftteams/getting-service-phone-numbers)
 
-[<span data-ttu-id="7d69d-152">Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região</span><span class="sxs-lookup"><span data-stu-id="7d69d-152">Country and region availability for Audio Conferencing and Calling Plans</span></span>](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+[<span data-ttu-id="c73c1-154">Disponibilidade da Audioconferência e dos Planos de Chamadas por país e região</span><span class="sxs-lookup"><span data-stu-id="c73c1-154">Country and region availability for Audio Conferencing and Calling Plans</span></span>](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
   
  
