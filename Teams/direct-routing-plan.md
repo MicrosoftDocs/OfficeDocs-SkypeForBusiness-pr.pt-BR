@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Leia este tópico para saber como o roteamento direto do sistema de telefone da Microsoft permite que você conecte um controlador de borda de sessão (SBC) compatível com o cliente ao Microsoft Phone System.
-ms.openlocfilehash: f1d6c914a2ed95a073fdf900628ad96fa10b7428
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4e6e26f0beaa74806ebc52ca31c007f5ec085fdc
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835141"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863172"
 ---
 # <a name="plan-direct-routing"></a>Planejar o Roteamento Direto
 
@@ -249,17 +249,15 @@ Você precisa abrir portas para todos esses endereços IP no seu firewall para p
 
 ## <a name="sip-signaling-ports"></a>Sinalização SIP: portas
 
-Os requisitos de porta são iguais para todos os ambientes do Office 365 em que o roteamento direto é oferecido:
+Você deve usar as seguintes portas para ambientes do Office 365 em que o roteamento direto é oferecido:
 - Office 365
 - Office 365 GCC
 - Office 365 GCC High
 - Office 365 DoD
 
-Você deve usar as seguintes portas:
-
 |**Traffic**|**De**|**Até**|**Porta de origem**|**Porta de destino**|
 |:--- |:--- |:--- |:--- |:--- |
-|SIP/TLS|Proxy SIP|SBC|1024 – 65535|Definido no SBC|
+|SIP/TLS|Proxy SIP|SBC|1024 – 65535 (para o Office 365 GCC High/DoD somente as portas 5061 e 5062 devem ser usadas)|Definido no SBC|
 SIP/TLS|SBC|Proxy SIP|Definido no SBC|5061|
 ||||||
 
