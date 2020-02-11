@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Saiba como configurar o roteamento direto do sistema de telefonia da Microsoft.
-ms.openlocfilehash: 22cb8e289cd78d1736bb594280c6ebfc248c02a0
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 86406af88648d367f02fd420c9ba278bdfd47185
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836081"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888590"
 ---
 # <a name="configure-direct-routing"></a>Configurar o Roteamento Direto
 
@@ -49,9 +49,9 @@ Você pode configurar seu sistema telefônico da Microsoft e permitir que os usu
 
 Veja a seguir as três etapas de alto nível para permitir que você conecte ou Emparelhe o SBC à interface de roteamento direto: 
 
-- Conectar-se ao centro **de administração do Skype for Business online** usando o PowerShell 
-- Emparelhar o SBC 
-- Validar o emparelhamento 
+1. Conectar-se ao centro **de administração do Skype for Business online** usando o PowerShell 
+2. Emparelhar o SBC 
+3. Validar o emparelhamento 
 
 ### <a name="connect-to-skype-for-business-online-by-using-powershell"></a>Conectar-se ao Skype for Business online usando o PowerShell 
 
@@ -204,16 +204,16 @@ Para adicionar o número de telefone e habilitar o correio de voz:
     Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
     ```
 
-Por exemplo, para adicionar um número de telefone para o usuário "Spencer baixo", você deve digitar o seguinte: 
+    Por exemplo, para adicionar um número de telefone para o usuário "Spencer baixo", você deve digitar o seguinte: 
 
-```PowerShell
-Set-CsUser -Identity "Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
-```
+    ```PowerShell
+    Set-CsUser -Identity "Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    ```
 
-O número de telefone usado deve ser configurado como um número de telefone completo E. 164 com código de país. 
+    O número de telefone usado deve ser configurado como um número de telefone completo E. 164 com código de país. 
 
-  > [!NOTE]
-  > Se o número de telefone do usuário for gerenciado localmente, use o Shell de gerenciamento do Skype for Business local ou o painel de controle para configurar o número de telefone do usuário. 
+      > [!NOTE]
+      > Se o número de telefone do usuário for gerenciado localmente, use o Shell de gerenciamento do Skype for Business local ou o painel de controle para configurar o número de telefone do usuário. 
 
 ### <a name="configure-voice-routing"></a>Configurar roteamento de voz 
 
@@ -286,7 +286,7 @@ Valide se o uso foi criado inserindo:
 Get-CSOnlinePSTNUsage
 ``` 
 Que retorna uma lista de nomes que podem estar truncados:
-```output
+```console
 Identity    : Global
 Usage       : {testusage, US and Canada, International, karlUsage. . .}
 ```
@@ -487,28 +487,28 @@ Name                      : International
 
 O uso de PSTN "Redmond 1" e "Redmond" é reutilizado nesta política de roteamento de voz para preservar a manipulação especial de chamadas para número "+ 1 425 XXX XX XX XX" e "+ 1 206 XXX XX XX" como chamadas locais ou locais.
 
-   ```PowerShell
-   New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
-   ```
+  ```PowerShell
+  New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
+  ```
 
 Tome nota da ordem dos usos de PSTN:
 
-a. Se uma chamada feita ao número "+ 1 425 XXX XX XX" com os usos configurados como no exemplo a seguir, a chamada seguirá a rota definida no uso "EUA e Canadá" e a lógica de roteamento especial for aplicada. Ou seja, a chamada é roteada usando sbc1.contoso.biz e sbc2.contoso.biz primeiro e, em seguida, sbc3.contoso.biz e sbc4.contoso.biz como as rotas de backup.
+  a. Se uma chamada feita ao número "+ 1 425 XXX XX XX" com os usos configurados como no exemplo a seguir, a chamada seguirá a rota definida no uso "EUA e Canadá" e a lógica de roteamento especial for aplicada. Ou seja, a chamada é roteada usando sbc1.contoso.biz e sbc2.contoso.biz primeiro e, em seguida, sbc3.contoso.biz e sbc4.contoso.biz como as rotas de backup.
 
-b. Se o uso de PSTN "internacional" for anterior aos "EUA e Canadá", as chamadas para + 1 425 XXX XX XX são roteadas para sbc2.contoso.biz e sbc5.contoso.biz como parte da lógica de roteamento. Digite o comando:
+  b. Se o uso de PSTN "internacional" for anterior aos "EUA e Canadá", as chamadas para + 1 425 XXX XX XX são roteadas para sbc2.contoso.biz e sbc5.contoso.biz como parte da lógica de roteamento. Digite o comando:
 
-```PowerShell
-New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
-```
+  ```PowerShell
+  New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
+  ```
 
-Que retorna
+Que retorna:
 
-<pre>
-Identity              : International 
-OnlinePstnUsages : {US and Canada, International}    
-Description      :  
-RouteType             : BYOT
-</pre>
+    <pre>
+    Identity              : International 
+    OnlinePstnUsages : {US and Canada, International}    
+    Description      :  
+    RouteType             : BYOT
+    </pre>
 
 **Etapa 4**: atribua a política de roteamento de voz ao usuário "John Woods" usando o comando a seguir.
 

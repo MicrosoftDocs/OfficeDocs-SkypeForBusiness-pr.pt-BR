@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 426ca88cb25aad988960add812595f89eed17595
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e1672c2d3c66690393e34b90fbeb1b2be4d54042
+ms.sourcegitcommit: 5e2dc3430e63bc0a17b87a63fa36ac93d96d8134
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838021"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41889410"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de Comunicação para sua organização
 
@@ -58,9 +58,9 @@ Para obter mais informações, consulte [Licenciamento de Complementos do Micros
 
 1. Entre no novo portal do Office 365 com sua conta corporativa ou de estudante.
     
-2. Na navegação à esquerda do centro de administração do Microsoft 365, vá para**assinaturas** > de **cobrança** > **adicionar assinaturas**.
+2. Na navegação à esquerda do centro de administração do Microsoft 365, vá para**serviços de compra**de **cobrança** > . Role para baixo e **selecione Complementos**.
 
-3. Expanda **assinaturas complementares**e, em seguida, escolha **créditos** > de comunicações**agora comprar**.
+3. Selecione **créditos de comunicações**.
     
 4. Na página de assinatura **créditos de comunicação** , preencha as informações e clique em **Avançar**:
     
@@ -93,9 +93,9 @@ Ao configurar créditos de comunicações, você precisará investigar o uso da 
     
 2. Na navegação à esquerda do centro de administração do Microsoft 365, vá **para** > usuários**ativos**do usuário e selecione um ou mais usuários na lista.
     
-3. No painel Ação em **Licenças de**, clique em **Editar**.
+3. Escolha **licenças e aplicativos**.
     
-4. Na página **licenças de produto** , alterne **os créditos de comunicações** para **ativado** para atribuir a licença e clique em **salvar**.
+4. Alterne os **créditos de comunicações** para **ativado** para atribuir a licença e, em seguida, selecione **salvar**.
     
     > [!NOTE]
     > Mesmo que você tenha usuários atribuídos a uma licença **Enterprise E5** , ainda é recomendável que você faça isso.

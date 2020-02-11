@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Saiba como usar e gerenciar políticas de chamadas de emergência no Microsoft Teams.
-ms.openlocfilehash: 73404749b350f19abe248743dec7d3e740d50fc6
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 90f278487b1b8d2e0e0b9b165e7d15023d6c0aaa
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836491"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888690"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Gerenciar políticas de chamadas de emergência no Microsoft Teams
 
@@ -108,7 +108,7 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 Atribua todos os usuários do grupo a uma política específica do teams. Neste exemplo, a política de roteamento de chamadas de emergência de emergência.
 ```
-$members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Operations Emergency Calling Policy" -Identity $_.UserPrincipalName}
+$members | ForEach-Object {Grant-CsTeamsEmergencyCallingPolicy -PolicyName "Operations Emergency Calling Policy" -Identity $_.UserPrincipalName}
 ``` 
 Dependendo do número de membros do grupo, esse comando pode levar alguns minutos para ser executado.
 

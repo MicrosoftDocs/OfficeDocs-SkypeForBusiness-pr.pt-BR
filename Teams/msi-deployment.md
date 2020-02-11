@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31a8731d5d9a1717b3e8574aae3de4a8402dfb78
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6f57eeb44fd728d1b656ce13f56cf2c5997805b9
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832481"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888360"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Instalar o Microsoft Teams usando o Gerenciador de configuração do Microsoft Endpoint
 
@@ -104,11 +104,14 @@ Para saber mais, consulte [usar a política de grupo para impedir que o Microsof
 Você pode desabilitar o início automático para o instalador MSI usando o parâmetro **Options = "noAutoStart = true"** da seguinte maneira.  
 
 Para a versão de 32 bits
-```PowerShell
+
+```console
 msiexec /i Teams_windows.msi OPTIONS="noAutoStart=true"
 ```
+
 Para a versão de 64 bits
-```PowerShell
+
+```console
 msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
 ```
 
