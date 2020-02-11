@@ -12,18 +12,18 @@ ms:contentKeyID: 48183912
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bfc827a1cd48bdc6a7a15b8ba54f7ac451d1b352
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2a05b5e5afc645c9219d02c8a551e4c0af9d93b0
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737371"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888710"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="https://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="dns-requirements-for-simple-urls-in-lync-server-2013"></a>Requisitos de DNS para URLs simples no Lync Server 2013
 
@@ -182,13 +182,13 @@ Se você tiver vários sites que contenham pools de front-end e o seu provedor d
 
 Para configurar isso, crie dois endereços do GeoDNS. Cada endereço tem dois registros DNS A ou CNAME que são resolvidos para dois pools que são emparelhados para fins de recuperação de desastres. Um endereço GeoDNS é usado para acesso interno e é resolvido para o FQDN da Web interna ou o endereço IP do balanceador de carga para os dois pools. O outro endereço GeoDNS é usado para acesso externo e resolve para o FQDN da Web externo ou o endereço IP do balanceador de carga para os dois pools. Veja a seguir um exemplo de URL simples de reunião, usando os FQDNs dos grupos.
 
-   ```
+   ```console
     Meet-int.geolb.contoso.com
          Pool1InternalWebFQDN.contoso.com
          Pool2InternalWebFQDN.contoso.com
    ```
 
-   ```
+   ```console
    Meet-ext.geolb.contoso.com
          Pool1ExternalWebFQDN.contoso.com
          Pool2ExternalWebFQDN.contoso.com
@@ -212,8 +212,10 @@ Você pode configurar a mesma configuração para a URL simples de discagem. Par
 
 Depois que essa configuração é configurada, você deve usar um aplicativo de monitoramento para configurar o monitoramento HTTP para observar falhas. Para acesso externo, monitor para ter certeza de que o HTTPS Obtém solicitações de descoberta automática para o FQDN da Web externa ou o endereço IP do balanceador de carga para os dois pools são bem-sucedidos. Por exemplo, as seguintes solicitações não devem conter cabeçalho **Accept** e devem retornar **200 OK**.
 
+```console
     HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
     HTTPS GET Pool2ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
+```
 
 Para acesso interno, você deve monitorar a porta 5061 no FQDN da Web interno ou o endereço IP do balanceador de carga para os dois pools. Se alguma falha de conectividade for detectada, o VIP para esses pools deverá fechar as portas 80, 443 e 444.
 

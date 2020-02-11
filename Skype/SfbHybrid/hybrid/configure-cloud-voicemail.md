@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instruções para implementar a caixa postal baseada em nuvem para usuários hospedados no Skype for Business Server.
-ms.openlocfilehash: df76051081baaae412c36acf4e73171f2ebce220
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f99286d4a3495d0214c46d28b105ad9076d238b2
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726911"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888530"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>Configurar o serviço de caixa postal na nuvem para usuários locais
 
@@ -102,7 +102,7 @@ Por exemplo, o seguinte comando atribui uma política de caixa postal hospedada 
 
 
 ```PowerShell
-Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -PolicyName "Tag:CloudVoiceMailUsers" 
+Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -Identity "Tag:CloudVoiceMailUsers" 
 ```
 
 ## <a name="enable-a-user-for-cloud-voicemail"></a>Habilitar um usuário para caixa postal em nuvem
@@ -111,13 +111,17 @@ Para permitir que as chamadas de caixa postal de um usuário sejam encaminhadas 
 
 Por exemplo, o seguinte comando habilita uma conta de usuário para caixa postal em nuvem: 
 
-```Set-CsUser -Identity "User1" -HostedVoiceMail $True```
+```powershell
+Set-CsUser -Identity "User1" -HostedVoiceMail $True
+```
 
 O cmdlet verifica se a política de caixa postal da nuvem, no nível global, de site ou de usuário, se aplica a este usuário. Se nenhuma política for aplicada, o cmdlet falhará.  
 
 O próximo exemplo desabilita uma conta de usuário para a caixa postal na nuvem:
 
-```Set-CsUser -Identity "User1" -HostedVoiceMail $False```
+```powershell
+Set-CsUser -Identity "User1" -HostedVoiceMail $False
+```
 
 O cmdlet verifica se nenhuma política de caixa postal hospedada, no nível global, de site ou de usuário, se aplica a este usuário. Se uma política for aplicada, o cmdlet falhará.
 
