@@ -13,91 +13,91 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 'Resumo: saiba como configurar o serviço de conformidade do servidor de chat persistente no Skype for Business Server 2015.'
-ms.openlocfilehash: 54131eeddc95afd71978ada3a84fba3d4ab52716
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: f25df3e85112f91c1286c0be49c428c364acf018
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817232"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887840"
 ---
-# <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a><span data-ttu-id="91c1c-103">Configurar o serviço de Conformidade para o Servidor de Chat Persistente no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="91c1c-103">Configure the Compliance service for Persistent Chat Server in Skype for Business Server 2015</span></span>
+# <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a><span data-ttu-id="5dd20-103">Configurar o serviço de Conformidade para o Servidor de Chat Persistente no Skype for Business Server 2015</span><span class="sxs-lookup"><span data-stu-id="5dd20-103">Configure the Compliance service for Persistent Chat Server in Skype for Business Server 2015</span></span>
 
-<span data-ttu-id="91c1c-104">**Resumo:** Saiba como configurar o serviço de conformidade do servidor de chat persistente no Skype for Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="91c1c-104">**Summary:** Learn how to configure the Persistent Chat Server Compliance service in Skype for Business Server 2015.</span></span>
+<span data-ttu-id="5dd20-104">**Resumo:** Saiba como configurar o serviço de conformidade do servidor de chat persistente no Skype for Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="5dd20-104">**Summary:** Learn how to configure the Persistent Chat Server Compliance service in Skype for Business Server 2015.</span></span>
 
-<span data-ttu-id="91c1c-105">A conformidade de Chat Persistente permite que os administradores mantenham um um arquivo de mensagens de Chat Persistente, bem como de atividades.</span><span class="sxs-lookup"><span data-stu-id="91c1c-105">Persistent Chat compliance lets administrators maintain an archive of Persistent Chat messages as well as activities.</span></span> <span data-ttu-id="91c1c-106">O serviço de conformidade registra e arquiva dados relacionados a cada conversa persistente do servidor de chat, incluindo quando um participante:</span><span class="sxs-lookup"><span data-stu-id="91c1c-106">The Compliance service records and archives data related to each Persistent Chat Server conversation, including when a participant:</span></span>
+<span data-ttu-id="5dd20-105">A conformidade de Chat Persistente permite que os administradores mantenham um um arquivo de mensagens de Chat Persistente, bem como de atividades.</span><span class="sxs-lookup"><span data-stu-id="5dd20-105">Persistent Chat compliance lets administrators maintain an archive of Persistent Chat messages as well as activities.</span></span> <span data-ttu-id="5dd20-106">O serviço de conformidade registra e arquiva dados relacionados a cada conversa persistente do servidor de chat, incluindo quando um participante:</span><span class="sxs-lookup"><span data-stu-id="5dd20-106">The Compliance service records and archives data related to each Persistent Chat Server conversation, including when a participant:</span></span>
 
-- <span data-ttu-id="91c1c-107">Ingressa em uma sala de chat persistente</span><span class="sxs-lookup"><span data-stu-id="91c1c-107">Joins a Persistent Chat room</span></span>
+- <span data-ttu-id="5dd20-107">Ingressa em uma sala de chat persistente</span><span class="sxs-lookup"><span data-stu-id="5dd20-107">Joins a Persistent Chat room</span></span>
 
-- <span data-ttu-id="91c1c-108">Sai de uma sala de chat</span><span class="sxs-lookup"><span data-stu-id="91c1c-108">Leaves a chat room</span></span>
+- <span data-ttu-id="5dd20-108">Sai de uma sala de chat</span><span class="sxs-lookup"><span data-stu-id="5dd20-108">Leaves a chat room</span></span>
 
-- <span data-ttu-id="91c1c-109">Posta uma mensagem</span><span class="sxs-lookup"><span data-stu-id="91c1c-109">Posts a message</span></span>
+- <span data-ttu-id="5dd20-109">Posta uma mensagem</span><span class="sxs-lookup"><span data-stu-id="5dd20-109">Posts a message</span></span>
 
-- <span data-ttu-id="91c1c-110">Exibe o histórico do chat</span><span class="sxs-lookup"><span data-stu-id="91c1c-110">Views chat history</span></span>
+- <span data-ttu-id="5dd20-110">Exibe o histórico do chat</span><span class="sxs-lookup"><span data-stu-id="5dd20-110">Views chat history</span></span>
 
-- <span data-ttu-id="91c1c-111">Carrega um arquivo</span><span class="sxs-lookup"><span data-stu-id="91c1c-111">Uploads a file</span></span>
+- <span data-ttu-id="5dd20-111">Carrega um arquivo</span><span class="sxs-lookup"><span data-stu-id="5dd20-111">Uploads a file</span></span>
 
-- <span data-ttu-id="91c1c-112">Baixa um arquivo</span><span class="sxs-lookup"><span data-stu-id="91c1c-112">Downloads a file</span></span>
+- <span data-ttu-id="5dd20-112">Baixa um arquivo</span><span class="sxs-lookup"><span data-stu-id="5dd20-112">Downloads a file</span></span>
 
-<span data-ttu-id="91c1c-113">Essas informações podem ser recuperadas do banco de dados SQL de Conformidade, se necessário.</span><span class="sxs-lookup"><span data-stu-id="91c1c-113">This information can be retrieved from the Compliance SQL database as needed.</span></span> 
+<span data-ttu-id="5dd20-113">Essas informações podem ser recuperadas do banco de dados SQL de Conformidade, se necessário.</span><span class="sxs-lookup"><span data-stu-id="5dd20-113">This information can be retrieved from the Compliance SQL database as needed.</span></span> 
 
 > [!NOTE]
-> <span data-ttu-id="91c1c-114">O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="91c1c-114">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="91c1c-115">A mesma funcionalidade está disponível no Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="91c1c-115">The same functionality is available in Teams.</span></span> <span data-ttu-id="91c1c-116">Para obter mais informações, consulte [introdução à atualização do Microsoft Teams](/microsoftteams/upgrade-start-here).</span><span class="sxs-lookup"><span data-stu-id="91c1c-116">For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here).</span></span> <span data-ttu-id="91c1c-117">Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="91c1c-117">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015.</span></span> 
+> <span data-ttu-id="5dd20-114">O chat persistente está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="5dd20-114">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="5dd20-115">A mesma funcionalidade está disponível no Microsoft Teams.</span><span class="sxs-lookup"><span data-stu-id="5dd20-115">The same functionality is available in Teams.</span></span> <span data-ttu-id="5dd20-116">Para obter mais informações, consulte [introdução à atualização do Microsoft Teams](/microsoftteams/upgrade-start-here).</span><span class="sxs-lookup"><span data-stu-id="5dd20-116">For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here).</span></span> <span data-ttu-id="5dd20-117">Se você precisar usar chats persistentes, suas opções serão migrar os usuários que exigem essa funcionalidade para o Microsoft Teams ou para continuar usando o Skype for Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="5dd20-117">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015.</span></span> 
 
-## <a name="configure-the-compliance-service-by-using-windows-powershell"></a><span data-ttu-id="91c1c-118">Configure o serviço de Conformidade usando o Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="91c1c-118">Configure the Compliance service by using Windows PowerShell</span></span>
+## <a name="configure-the-compliance-service-by-using-windows-powershell"></a><span data-ttu-id="5dd20-118">Configure o serviço de Conformidade usando o Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="5dd20-118">Configure the Compliance service by using Windows PowerShell</span></span>
 
-<span data-ttu-id="91c1c-119">Depois que o serviço de Conformidade tiver sido habilitado usando o Construtor de Topologias, você pode configurar o serviço usando o cmdlet **Set-CsPersistenChatComplianceConfiguration**:</span><span class="sxs-lookup"><span data-stu-id="91c1c-119">After the Compliance service has been enabled by using the Topology Builder, you can configure the service by using the **Set-CsPersistenChatComplianceConfiguration** cmdlet:</span></span>
+<span data-ttu-id="5dd20-119">Depois que o serviço de Conformidade tiver sido habilitado usando o Construtor de Topologias, você pode configurar o serviço usando o cmdlet **Set-CsPersistenChatComplianceConfiguration**:</span><span class="sxs-lookup"><span data-stu-id="5dd20-119">After the Compliance service has been enabled by using the Topology Builder, you can configure the service by using the **Set-CsPersistenChatComplianceConfiguration** cmdlet:</span></span>
 
 ```PowerShell
 Set-CsPersistentChatComplianceConfiguration [-Identity <XdsIdentity>] <COMMON PARAMETERS>
 ```
 
-<span data-ttu-id="91c1c-120">ou</span><span class="sxs-lookup"><span data-stu-id="91c1c-120">or</span></span>
+<span data-ttu-id="5dd20-120">ou</span><span class="sxs-lookup"><span data-stu-id="5dd20-120">or</span></span>
 
 ```PowerShell
 Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAMETERS>
 ```
 
-<span data-ttu-id="91c1c-121">Você pode definir os seguintes parâmetros:</span><span class="sxs-lookup"><span data-stu-id="91c1c-121">You can set the following parameters:</span></span>
+<span data-ttu-id="5dd20-121">Você pode definir os seguintes parâmetros:</span><span class="sxs-lookup"><span data-stu-id="5dd20-121">You can set the following parameters:</span></span>
 
-- <span data-ttu-id="91c1c-122">AdapterType - Permite que você especifique o tipo de adaptador.</span><span class="sxs-lookup"><span data-stu-id="91c1c-122">AdapterType - Lets you specify the adapter type.</span></span> <span data-ttu-id="91c1c-123">Um adaptador é um produto de terceiros que converte os dados no banco de dados de conformidade para um formato específico.</span><span class="sxs-lookup"><span data-stu-id="91c1c-123">An adapter is a third-party product that converts the data in the compliance database to a specific format.</span></span> <span data-ttu-id="91c1c-124">XML é o padrão.</span><span class="sxs-lookup"><span data-stu-id="91c1c-124">XML is the default.</span></span>
+- <span data-ttu-id="5dd20-122">AdapterType - Permite que você especifique o tipo de adaptador.</span><span class="sxs-lookup"><span data-stu-id="5dd20-122">AdapterType - Lets you specify the adapter type.</span></span> <span data-ttu-id="5dd20-123">Um adaptador é um produto de terceiros que converte os dados no banco de dados de conformidade para um formato específico.</span><span class="sxs-lookup"><span data-stu-id="5dd20-123">An adapter is a third-party product that converts the data in the compliance database to a specific format.</span></span> <span data-ttu-id="5dd20-124">XML é o padrão.</span><span class="sxs-lookup"><span data-stu-id="5dd20-124">XML is the default.</span></span>
 
-- <span data-ttu-id="91c1c-125">OneChatRoomPerOutputFile-esse parâmetro permite especificar a criação de relatórios separados para cada sala de chat.</span><span class="sxs-lookup"><span data-stu-id="91c1c-125">OneChatRoomPerOutputFile - This parameter lets you specify that separate reports to be created for each chat room.</span></span>
+- <span data-ttu-id="5dd20-125">OneChatRoomPerOutputFile-esse parâmetro permite especificar a criação de relatórios separados para cada sala de chat.</span><span class="sxs-lookup"><span data-stu-id="5dd20-125">OneChatRoomPerOutputFile - This parameter lets you specify that separate reports to be created for each chat room.</span></span>
 
-- <span data-ttu-id="91c1c-126">AddChatRoomDetails - Quanto habilitado, este parâmetro registra detalhes adicionais sobre cada sala de chat no banco de dados.</span><span class="sxs-lookup"><span data-stu-id="91c1c-126">AddChatRoomDetails - When enabled, this parameter records additional details about each chat room in the database.</span></span> <span data-ttu-id="91c1c-127">Como esta configuração pode aumentar consideravelmente o tamanho do banco de dados, ela é desabilitada por padrão.</span><span class="sxs-lookup"><span data-stu-id="91c1c-127">Because this setting can greatly increase the size of the database, it is disabled by default.</span></span>
+- <span data-ttu-id="5dd20-126">AddChatRoomDetails - Quanto habilitado, este parâmetro registra detalhes adicionais sobre cada sala de chat no banco de dados.</span><span class="sxs-lookup"><span data-stu-id="5dd20-126">AddChatRoomDetails - When enabled, this parameter records additional details about each chat room in the database.</span></span> <span data-ttu-id="5dd20-127">Como esta configuração pode aumentar consideravelmente o tamanho do banco de dados, ela é desabilitada por padrão.</span><span class="sxs-lookup"><span data-stu-id="5dd20-127">Because this setting can greatly increase the size of the database, it is disabled by default.</span></span>
 
-- <span data-ttu-id="91c1c-128">AddUserDetails - Quanto habilitado, este parâmetro registra detalhes adicionais sobre cada usuário na sala de chat no banco de dados.</span><span class="sxs-lookup"><span data-stu-id="91c1c-128">AddUserDetails - When enabled, this parameter records additional details about each chat room user in the database.</span></span> <span data-ttu-id="91c1c-129">Como esta configuração pode aumentar consideravelmente o tamanho do banco de dados, ela é desabilitada por padrão.</span><span class="sxs-lookup"><span data-stu-id="91c1c-129">Because this setting can greatly increase the size of the database, it is disabled by default.</span></span>
+- <span data-ttu-id="5dd20-128">AddUserDetails - Quanto habilitado, este parâmetro registra detalhes adicionais sobre cada usuário na sala de chat no banco de dados.</span><span class="sxs-lookup"><span data-stu-id="5dd20-128">AddUserDetails - When enabled, this parameter records additional details about each chat room user in the database.</span></span> <span data-ttu-id="5dd20-129">Como esta configuração pode aumentar consideravelmente o tamanho do banco de dados, ela é desabilitada por padrão.</span><span class="sxs-lookup"><span data-stu-id="5dd20-129">Because this setting can greatly increase the size of the database, it is disabled by default.</span></span>
 
-- <span data-ttu-id="91c1c-130">Identity - Este parâmetro permite que configurações de conformidade estejam dentro do escopo de uma coleção específica, incluindo níveis de serviço, de site e global.</span><span class="sxs-lookup"><span data-stu-id="91c1c-130">Identity - This parameter allows compliance settings to be scoped for a particular collection, including the global, site, and service levels.</span></span> <span data-ttu-id="91c1c-131">O padrão é o nível global.</span><span class="sxs-lookup"><span data-stu-id="91c1c-131">The default is the global level.</span></span> 
+- <span data-ttu-id="5dd20-130">Identity - Este parâmetro permite que configurações de conformidade estejam dentro do escopo de uma coleção específica, incluindo níveis de serviço, de site e global.</span><span class="sxs-lookup"><span data-stu-id="5dd20-130">Identity - This parameter allows compliance settings to be scoped for a particular collection, including the global, site, and service levels.</span></span> <span data-ttu-id="5dd20-131">O padrão é o nível global.</span><span class="sxs-lookup"><span data-stu-id="5dd20-131">The default is the global level.</span></span> 
 
-- <span data-ttu-id="91c1c-132">RunInterval - Este parâmetro dita o intervalo de tempo antes de o servidor criar o próximo arquivo de saída de conformidade (o padrão é 15 minutos).</span><span class="sxs-lookup"><span data-stu-id="91c1c-132">RunInterval - This parameter dictates the amount of time before the server creates the next compliance output file (the default is 15 minutes).</span></span>
+- <span data-ttu-id="5dd20-132">RunInterval - Este parâmetro dita o intervalo de tempo antes de o servidor criar o próximo arquivo de saída de conformidade (o padrão é 15 minutos).</span><span class="sxs-lookup"><span data-stu-id="5dd20-132">RunInterval - This parameter dictates the amount of time before the server creates the next compliance output file (the default is 15 minutes).</span></span>
 
-## <a name="use-a-customized-compliance-adapter"></a><span data-ttu-id="91c1c-133">Use um adaptador de conformidade personalizado</span><span class="sxs-lookup"><span data-stu-id="91c1c-133">Use a customized compliance adapter</span></span>
+## <a name="use-a-customized-compliance-adapter"></a><span data-ttu-id="5dd20-133">Use um adaptador de conformidade personalizado</span><span class="sxs-lookup"><span data-stu-id="5dd20-133">Use a customized compliance adapter</span></span>
 
-<span data-ttu-id="91c1c-134">Você pode escrever um adaptador personalizado em vez de usar o xmladapter que está instalado com o servidor de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="91c1c-134">You can write a custom adapter instead of using the XmlAdapter that is installed with Persistent Chat Server.</span></span> <span data-ttu-id="91c1c-135">Para fazer isso, você deve fornecer um assembly do .NET Framework que contenha uma classe pública que implemente a interface do **IComplianceAdapter**.</span><span class="sxs-lookup"><span data-stu-id="91c1c-135">To accomplish this, you must provide a .NET Framework assembly that contains a public class that implements the **IComplianceAdapter** interface.</span></span> <span data-ttu-id="91c1c-136">Você deve colocar esse assembly na pasta de instalação do servidor de chat persistente de cada servidor em seu pool de servidores de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="91c1c-136">You must place this assembly in the Persistent Chat Server installation folder of each server in your Persistent Chat Server pool.</span></span> <span data-ttu-id="91c1c-137">Qualquer um dos servidores de Conformidade podem fornecer dados de conformidade para seu adaptador, mas os servidores de conformidade não fornecerão dados de conformidade duplicados para várias instâncias do seu adaptador.</span><span class="sxs-lookup"><span data-stu-id="91c1c-137">Any one of the Compliance servers can provide compliance data to your adapter, but the compliance servers will not provide duplicate compliance data to multiple instances of your adapter.</span></span>
+<span data-ttu-id="5dd20-134">Você pode escrever um adaptador personalizado em vez de usar o xmladapter que está instalado com o servidor de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="5dd20-134">You can write a custom adapter instead of using the XmlAdapter that is installed with Persistent Chat Server.</span></span> <span data-ttu-id="5dd20-135">Para fazer isso, você deve fornecer um assembly do .NET Framework que contenha uma classe pública que implemente a interface do **IComplianceAdapter**.</span><span class="sxs-lookup"><span data-stu-id="5dd20-135">To accomplish this, you must provide a .NET Framework assembly that contains a public class that implements the **IComplianceAdapter** interface.</span></span> <span data-ttu-id="5dd20-136">Você deve colocar esse assembly na pasta de instalação do servidor de chat persistente de cada servidor em seu pool de servidores de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="5dd20-136">You must place this assembly in the Persistent Chat Server installation folder of each server in your Persistent Chat Server pool.</span></span> <span data-ttu-id="5dd20-137">Qualquer um dos servidores de Conformidade podem fornecer dados de conformidade para seu adaptador, mas os servidores de conformidade não fornecerão dados de conformidade duplicados para várias instâncias do seu adaptador.</span><span class="sxs-lookup"><span data-stu-id="5dd20-137">Any one of the Compliance servers can provide compliance data to your adapter, but the compliance servers will not provide duplicate compliance data to multiple instances of your adapter.</span></span>
 
-<span data-ttu-id="91c1c-138">A interface é definida no assembly Compliance. dll no namespace `Microsoft.Rtc.Internal.Chat.Server.Compliance`.</span><span class="sxs-lookup"><span data-stu-id="91c1c-138">The interface is defined in the Compliance.dll assembly in the namespace  `Microsoft.Rtc.Internal.Chat.Server.Compliance`.</span></span> <span data-ttu-id="91c1c-139">A interface define dois métodos que seu adaptador personalizado deve implementar.</span><span class="sxs-lookup"><span data-stu-id="91c1c-139">The interface defines two methods that your custom adapter must implement.</span></span>
+<span data-ttu-id="5dd20-138">A interface é definida no assembly Compliance. dll no namespace `Microsoft.Rtc.Internal.Chat.Server.Compliance`.</span><span class="sxs-lookup"><span data-stu-id="5dd20-138">The interface is defined in the Compliance.dll assembly in the namespace  `Microsoft.Rtc.Internal.Chat.Server.Compliance`.</span></span> <span data-ttu-id="5dd20-139">A interface define dois métodos que seu adaptador personalizado deve implementar.</span><span class="sxs-lookup"><span data-stu-id="5dd20-139">The interface defines two methods that your custom adapter must implement.</span></span>
 
-<span data-ttu-id="91c1c-140">O servidor de conformidade de chat persistente chamará o método a seguir quando o adaptador for carregado pela primeira vez.</span><span class="sxs-lookup"><span data-stu-id="91c1c-140">The Persistent Chat Compliance server will call the following method when the adapter first loads.</span></span> <span data-ttu-id="91c1c-141">O `AdapterConfig` contém a configuração de conformidade de chat persistente que é relevante para o adaptador de conformidade:</span><span class="sxs-lookup"><span data-stu-id="91c1c-141">The  `AdapterConfig` contains the Persistent Chat compliance configuration that is relevant to the compliance adapter:</span></span>
+<span data-ttu-id="5dd20-140">O servidor de conformidade de chat persistente chamará o método a seguir quando o adaptador for carregado pela primeira vez.</span><span class="sxs-lookup"><span data-stu-id="5dd20-140">The Persistent Chat Compliance server will call the following method when the adapter first loads.</span></span> <span data-ttu-id="5dd20-141">O `AdapterConfig` contém a configuração de conformidade de chat persistente que é relevante para o adaptador de conformidade:</span><span class="sxs-lookup"><span data-stu-id="5dd20-141">The  `AdapterConfig` contains the Persistent Chat compliance configuration that is relevant to the compliance adapter:</span></span>
 
 ```cpp
 void SetConfig(AdapterConfig config)
 ```
 
-<span data-ttu-id="91c1c-142">O servidor de conformidade de chat persistente chama o método a seguir em intervalos periódicos desde que haja novos dados a serem traduzidos.</span><span class="sxs-lookup"><span data-stu-id="91c1c-142">The Persistent Chat Compliance server calls the following method at periodic intervals as long as there is new data to translate.</span></span> <span data-ttu-id="91c1c-143">Esse intervalo de tempo é igual ao `RunInterval` definido na configuração de conformidade de chat persistente:</span><span class="sxs-lookup"><span data-stu-id="91c1c-143">This time interval is equal to the  `RunInterval` as set in the Persistent Chat Compliance configuration:</span></span>
+<span data-ttu-id="5dd20-142">O servidor de conformidade de chat persistente chama o método a seguir em intervalos periódicos desde que haja novos dados a serem traduzidos.</span><span class="sxs-lookup"><span data-stu-id="5dd20-142">The Persistent Chat Compliance server calls the following method at periodic intervals as long as there is new data to translate.</span></span> <span data-ttu-id="5dd20-143">Esse intervalo de tempo é igual ao `RunInterval` definido na configuração de conformidade de chat persistente:</span><span class="sxs-lookup"><span data-stu-id="5dd20-143">This time interval is equal to the  `RunInterval` as set in the Persistent Chat Compliance configuration:</span></span>
 
 ```cpp
 void Translate(ConversationCollection conversations)
 ```
 
-<span data-ttu-id="91c1c-144">`ConversationCollection` Contém as informações de conversa que foram coletadas da última vez em que esse método foi chamado.</span><span class="sxs-lookup"><span data-stu-id="91c1c-144">The  `ConversationCollection` contains the conversation information that was collected from the last time this method was called.</span></span>
+<span data-ttu-id="5dd20-144">`ConversationCollection` Contém as informações de conversa que foram coletadas da última vez em que esse método foi chamado.</span><span class="sxs-lookup"><span data-stu-id="5dd20-144">The  `ConversationCollection` contains the conversation information that was collected from the last time this method was called.</span></span>
 
-## <a name="customize-the-xslt-definition-file"></a><span data-ttu-id="91c1c-145">Personalize o arquivo de definição do XSLT</span><span class="sxs-lookup"><span data-stu-id="91c1c-145">Customize the XSLT definition file</span></span>
+## <a name="customize-the-xslt-definition-file"></a><span data-ttu-id="5dd20-145">Personalize o arquivo de definição do XSLT</span><span class="sxs-lookup"><span data-stu-id="5dd20-145">Customize the XSLT definition file</span></span>
 
-<span data-ttu-id="91c1c-p111">Os dados de conformidade são entregues como XML, que você pode transformar no formato mais adequado para a sua organização usando um arquivo de definição XSLT. Este tópico descreve o arquivo XML que o serviço de Conformidade cria. Ele também fornece exemplos de arquivos de saída e definição XSLT.</span><span class="sxs-lookup"><span data-stu-id="91c1c-p111">The compliance data is delivered as XML, which you can transform into the format that best fits your organization, by using an XSLT definition file. This topic describes the XML file that the Compliance service creates. It also provides samples of XSLT definition and output files.</span></span>
+<span data-ttu-id="5dd20-p111">Os dados de conformidade são entregues como XML, que você pode transformar no formato mais adequado para a sua organização usando um arquivo de definição XSLT. Este tópico descreve o arquivo XML que o serviço de Conformidade cria. Ele também fornece exemplos de arquivos de saída e definição XSLT.</span><span class="sxs-lookup"><span data-stu-id="5dd20-p111">The compliance data is delivered as XML, which you can transform into the format that best fits your organization, by using an XSLT definition file. This topic describes the XML file that the Compliance service creates. It also provides samples of XSLT definition and output files.</span></span>
 
-### <a name="output-format"></a><span data-ttu-id="91c1c-149">Formato de saída</span><span class="sxs-lookup"><span data-stu-id="91c1c-149">Output format</span></span>
+### <a name="output-format"></a><span data-ttu-id="5dd20-149">Formato de saída</span><span class="sxs-lookup"><span data-stu-id="5dd20-149">Output format</span></span>
 
-<span data-ttu-id="91c1c-150">A saída do serviço de Conformidade é categorizada por conversa (o elemento Conversation) e depois por mensagem (o elemento Messages), conforme mostrado no exemplo de código a seguir:</span><span class="sxs-lookup"><span data-stu-id="91c1c-150">The Compliance service output is categorized by conversation (the Conversation element) and then by message (the Messages element), as shown in the following code sample:</span></span>
+<span data-ttu-id="5dd20-150">A saída do serviço de Conformidade é categorizada por conversa (o elemento Conversation) e depois por mensagem (o elemento Messages), conforme mostrado no exemplo de código a seguir:</span><span class="sxs-lookup"><span data-stu-id="5dd20-150">The Compliance service output is categorized by conversation (the Conversation element) and then by message (the Messages element), as shown in the following code sample:</span></span>
 
 ```XML
 <?xml version="1.0" encoding="utf-8" ?> 
@@ -114,107 +114,107 @@ void Translate(ConversationCollection conversations)
 </Conversations>
 ```
 
-<span data-ttu-id="91c1c-p112">Um elemento Conversation contém quatro elementos (Channel, FirstMessage, StartTimeUTC e EndTimeUTC). O elemento Channel contém o Uniform Resource Identifier (URI) da sala de chat, e o elemento FirstMessage descreve a primeira mensagem no elemento Messages. Os elementos StartTimeUTC e EndTimeUTC fornecem os horários de início e término da conversa, conforme mostrado no exemplo de código a seguir:</span><span class="sxs-lookup"><span data-stu-id="91c1c-p112">A Conversation element contains four elements (Channel, FirstMessage, StartTimeUTC, and EndTimeUTC). The Channel element contains the Uniform Resource Identifier (URI) of the chat room, and the FirstMessage element describes the first message in the Messages element. The StartTimeUTC and EndTimeUTC elements provide the start and end times for the conversation, as shown in the following code sample:</span></span>
+<span data-ttu-id="5dd20-p112">Um elemento Conversation contém quatro elementos (Channel, FirstMessage, StartTimeUTC e EndTimeUTC). O elemento Channel contém o Uniform Resource Identifier (URI) da sala de chat, e o elemento FirstMessage descreve a primeira mensagem no elemento Messages. Os elementos StartTimeUTC e EndTimeUTC fornecem os horários de início e término da conversa, conforme mostrado no exemplo de código a seguir:</span><span class="sxs-lookup"><span data-stu-id="5dd20-p112">A Conversation element contains four elements (Channel, FirstMessage, StartTimeUTC, and EndTimeUTC). The Channel element contains the Uniform Resource Identifier (URI) of the chat room, and the FirstMessage element describes the first message in the Messages element. The StartTimeUTC and EndTimeUTC elements provide the start and end times for the conversation, as shown in the following code sample:</span></span>
 
-```XML
-<<FirstMessage type="JOIN" content="" id="0">
+```xml
+<FirstMessage type="JOIN" content="" id="0">
       <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
       <DateTimeUTC since1970="1212610540953" string="2008-06-04T20:15:40.9535482Z" long="633482073409535482" /> 
 </FirstMessage>
 ```
 
-<span data-ttu-id="91c1c-p113">Um elemento Message contém dois elementos (Sender e DateTimeUTC) e três atributos (Type, Content e ID). O elemento Sender representa o usuário que envia a mensagem e o elemento DateTimeUTC representa quando ocorre um evento, conforme mostrado no exemplo de código a seguir:</span><span class="sxs-lookup"><span data-stu-id="91c1c-p113">A Message element contains two elements (Sender and DateTimeUTC) and three attributes (Type, Content, and ID). The Sender element represents the user who sends the message, and the DateTimeUTC element represents when an event occurs, as shown in the following code sample:</span></span>
+<span data-ttu-id="5dd20-p113">Um elemento Message contém dois elementos (Sender e DateTimeUTC) e três atributos (Type, Content e ID). O elemento Sender representa o usuário que envia a mensagem e o elemento DateTimeUTC representa quando ocorre um evento, conforme mostrado no exemplo de código a seguir:</span><span class="sxs-lookup"><span data-stu-id="5dd20-p113">A Message element contains two elements (Sender and DateTimeUTC) and three attributes (Type, Content, and ID). The Sender element represents the user who sends the message, and the DateTimeUTC element represents when an event occurs, as shown in the following code sample:</span></span>
 
-```XML
+```xml
 <Message type="JOIN" content="" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1206211842612" string="2008-03-22T18:50:42.6127374Z" long="633418086426127374" /> 
 </Message>
 ```
 
-<span data-ttu-id="91c1c-156">Os atributos de mensagem Type, Content e ID são descritos na tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="91c1c-156">The following table describes the message attributes Type, Content, and ID.</span></span>
+<span data-ttu-id="5dd20-156">Os atributos de mensagem Type, Content e ID são descritos na tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="5dd20-156">The following table describes the message attributes Type, Content, and ID.</span></span>
 
-<span data-ttu-id="91c1c-157">**Atributos do elemento Messages**</span><span class="sxs-lookup"><span data-stu-id="91c1c-157">**Messages Element Attributes**</span></span>
+<span data-ttu-id="5dd20-157">**Atributos do elemento Messages**</span><span class="sxs-lookup"><span data-stu-id="5dd20-157">**Messages Element Attributes**</span></span>
 
-|<span data-ttu-id="91c1c-158">**Atributo**</span><span class="sxs-lookup"><span data-stu-id="91c1c-158">**Attribute**</span></span>|<span data-ttu-id="91c1c-159">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="91c1c-159">**Description**</span></span>|<span data-ttu-id="91c1c-160">**Opcional/Obrigatório**</span><span class="sxs-lookup"><span data-stu-id="91c1c-160">**Optional/Required**</span></span>|
+|<span data-ttu-id="5dd20-158">**Atributo**</span><span class="sxs-lookup"><span data-stu-id="5dd20-158">**Attribute**</span></span>|<span data-ttu-id="5dd20-159">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="5dd20-159">**Description**</span></span>|<span data-ttu-id="5dd20-160">**Opcional/Obrigatório**</span><span class="sxs-lookup"><span data-stu-id="5dd20-160">**Optional/Required**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="91c1c-161">Tipo</span><span class="sxs-lookup"><span data-stu-id="91c1c-161">Type</span></span>  <br/> |<span data-ttu-id="91c1c-p114">Especifica o tipo de mensagem. Os tipos de mensagens são descritos na tabela Tipos de mensagem dos elementos Messages.</span><span class="sxs-lookup"><span data-stu-id="91c1c-p114">Specifies the message type. The message types are described in the Message Elements Message Types table.</span></span>  <br/> |<span data-ttu-id="91c1c-164">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="91c1c-164">Required</span></span>  <br/> |
-|<span data-ttu-id="91c1c-165">Conteúdo</span><span class="sxs-lookup"><span data-stu-id="91c1c-165">Content</span></span>  <br/> |<span data-ttu-id="91c1c-p115">Contém o conteúdo da mensagem. As mensagens com um tipo Ingressar ou Participar não usam esse atributo.</span><span class="sxs-lookup"><span data-stu-id="91c1c-p115">Contains the content of the message. Messages with a Type of Join or Part do not use this attribute.</span></span>  <br/> |<span data-ttu-id="91c1c-168">Opcional</span><span class="sxs-lookup"><span data-stu-id="91c1c-168">Optional</span></span>  <br/> |
-|<span data-ttu-id="91c1c-169">ID</span><span class="sxs-lookup"><span data-stu-id="91c1c-169">ID</span></span>  <br/> |<span data-ttu-id="91c1c-p116">Especifica a identificação exclusiva do conteúdo. Esse atributo é usado somente com mensagens com um tipo Chat.</span><span class="sxs-lookup"><span data-stu-id="91c1c-p116">Specifies the unique ID of the content. This attribute is used only with messages with a Type of Chat.</span></span>  <br/> |<span data-ttu-id="91c1c-172">Opcional</span><span class="sxs-lookup"><span data-stu-id="91c1c-172">Optional</span></span>  <br/> |
+|<span data-ttu-id="5dd20-161">Tipo</span><span class="sxs-lookup"><span data-stu-id="5dd20-161">Type</span></span>  <br/> |<span data-ttu-id="5dd20-p114">Especifica o tipo de mensagem. Os tipos de mensagens são descritos na tabela Tipos de mensagem dos elementos Messages.</span><span class="sxs-lookup"><span data-stu-id="5dd20-p114">Specifies the message type. The message types are described in the Message Elements Message Types table.</span></span>  <br/> |<span data-ttu-id="5dd20-164">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="5dd20-164">Required</span></span>  <br/> |
+|<span data-ttu-id="5dd20-165">Conteúdo</span><span class="sxs-lookup"><span data-stu-id="5dd20-165">Content</span></span>  <br/> |<span data-ttu-id="5dd20-p115">Contém o conteúdo da mensagem. As mensagens com um tipo Ingressar ou Participar não usam esse atributo.</span><span class="sxs-lookup"><span data-stu-id="5dd20-p115">Contains the content of the message. Messages with a Type of Join or Part do not use this attribute.</span></span>  <br/> |<span data-ttu-id="5dd20-168">Opcional</span><span class="sxs-lookup"><span data-stu-id="5dd20-168">Optional</span></span>  <br/> |
+|<span data-ttu-id="5dd20-169">ID</span><span class="sxs-lookup"><span data-stu-id="5dd20-169">ID</span></span>  <br/> |<span data-ttu-id="5dd20-p116">Especifica a identificação exclusiva do conteúdo. Esse atributo é usado somente com mensagens com um tipo Chat.</span><span class="sxs-lookup"><span data-stu-id="5dd20-p116">Specifies the unique ID of the content. This attribute is used only with messages with a Type of Chat.</span></span>  <br/> |<span data-ttu-id="5dd20-172">Opcional</span><span class="sxs-lookup"><span data-stu-id="5dd20-172">Optional</span></span>  <br/> |
 
-<span data-ttu-id="91c1c-p117">Cada elemento Sender contém cinco atributos: nome de usuário, identificação, email, interno e URI. Esses atributos são descritos na tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="91c1c-p117">Each Sender element contains five attributes: the user name, ID, email, internal, and URI. These attributes are described in the following table.</span></span>
+<span data-ttu-id="5dd20-p117">Cada elemento Sender contém cinco atributos: nome de usuário, identificação, email, interno e URI. Esses atributos são descritos na tabela a seguir.</span><span class="sxs-lookup"><span data-stu-id="5dd20-p117">Each Sender element contains five attributes: the user name, ID, email, internal, and URI. These attributes are described in the following table.</span></span>
 
-<span data-ttu-id="91c1c-175">**Atributos do elemento Sender**</span><span class="sxs-lookup"><span data-stu-id="91c1c-175">**Sender Element Attributes**</span></span>
+<span data-ttu-id="5dd20-175">**Atributos do elemento Sender**</span><span class="sxs-lookup"><span data-stu-id="5dd20-175">**Sender Element Attributes**</span></span>
 
-|<span data-ttu-id="91c1c-176">**Atributo**</span><span class="sxs-lookup"><span data-stu-id="91c1c-176">**Attribute**</span></span>|<span data-ttu-id="91c1c-177">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="91c1c-177">**Description**</span></span>|<span data-ttu-id="91c1c-178">**Opcional/Obrigatório**</span><span class="sxs-lookup"><span data-stu-id="91c1c-178">**Optional/Required**</span></span>|
+|<span data-ttu-id="5dd20-176">**Atributo**</span><span class="sxs-lookup"><span data-stu-id="5dd20-176">**Attribute**</span></span>|<span data-ttu-id="5dd20-177">**Descrição**</span><span class="sxs-lookup"><span data-stu-id="5dd20-177">**Description**</span></span>|<span data-ttu-id="5dd20-178">**Opcional/Obrigatório**</span><span class="sxs-lookup"><span data-stu-id="5dd20-178">**Optional/Required**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="91c1c-179">Username</span><span class="sxs-lookup"><span data-stu-id="91c1c-179">Username</span></span>  <br/> |<span data-ttu-id="91c1c-180">O nome do remetente.</span><span class="sxs-lookup"><span data-stu-id="91c1c-180">The name of the sender.</span></span>  <br/> |<span data-ttu-id="91c1c-181">Opcional</span><span class="sxs-lookup"><span data-stu-id="91c1c-181">Optional</span></span>  <br/> |
-|<span data-ttu-id="91c1c-182">ID</span><span class="sxs-lookup"><span data-stu-id="91c1c-182">ID</span></span>  <br/> |<span data-ttu-id="91c1c-183">A ID exclusiva do remetente.</span><span class="sxs-lookup"><span data-stu-id="91c1c-183">The sender's unique ID.</span></span>  <br/> |<span data-ttu-id="91c1c-184">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="91c1c-184">Required</span></span>  <br/> |
-|<span data-ttu-id="91c1c-185">Email</span><span class="sxs-lookup"><span data-stu-id="91c1c-185">Email</span></span>  <br/> |<span data-ttu-id="91c1c-186">O endereço de email do remetente.</span><span class="sxs-lookup"><span data-stu-id="91c1c-186">The sender's email address.</span></span>  <br/> |<span data-ttu-id="91c1c-187">Opcional</span><span class="sxs-lookup"><span data-stu-id="91c1c-187">Optional</span></span>  <br/> |
-|<span data-ttu-id="91c1c-188">Interno</span><span class="sxs-lookup"><span data-stu-id="91c1c-188">Internal</span></span>  <br/> |<span data-ttu-id="91c1c-p118">Determina se o usuário é um usuário interno ou um usuário federado. Se o valor for definido como true, o usuário será interno.</span><span class="sxs-lookup"><span data-stu-id="91c1c-p118">Determines whether the user is an internal user or a federated user. If the value is set to true, the user is internal.</span></span>  <br/> |<span data-ttu-id="91c1c-191">Opcional</span><span class="sxs-lookup"><span data-stu-id="91c1c-191">Optional</span></span>  <br/> |
-|<span data-ttu-id="91c1c-192">Uri</span><span class="sxs-lookup"><span data-stu-id="91c1c-192">Uri</span></span>  <br/> |<span data-ttu-id="91c1c-193">O URI SIP do usuário.</span><span class="sxs-lookup"><span data-stu-id="91c1c-193">The user's SIP URI.</span></span>  <br/> |<span data-ttu-id="91c1c-194">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="91c1c-194">Required</span></span>  <br/> |
+|<span data-ttu-id="5dd20-179">Username</span><span class="sxs-lookup"><span data-stu-id="5dd20-179">Username</span></span>  <br/> |<span data-ttu-id="5dd20-180">O nome do remetente.</span><span class="sxs-lookup"><span data-stu-id="5dd20-180">The name of the sender.</span></span>  <br/> |<span data-ttu-id="5dd20-181">Opcional</span><span class="sxs-lookup"><span data-stu-id="5dd20-181">Optional</span></span>  <br/> |
+|<span data-ttu-id="5dd20-182">ID</span><span class="sxs-lookup"><span data-stu-id="5dd20-182">ID</span></span>  <br/> |<span data-ttu-id="5dd20-183">A ID exclusiva do remetente.</span><span class="sxs-lookup"><span data-stu-id="5dd20-183">The sender's unique ID.</span></span>  <br/> |<span data-ttu-id="5dd20-184">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="5dd20-184">Required</span></span>  <br/> |
+|<span data-ttu-id="5dd20-185">Email</span><span class="sxs-lookup"><span data-stu-id="5dd20-185">Email</span></span>  <br/> |<span data-ttu-id="5dd20-186">O endereço de email do remetente.</span><span class="sxs-lookup"><span data-stu-id="5dd20-186">The sender's email address.</span></span>  <br/> |<span data-ttu-id="5dd20-187">Opcional</span><span class="sxs-lookup"><span data-stu-id="5dd20-187">Optional</span></span>  <br/> |
+|<span data-ttu-id="5dd20-188">Interno</span><span class="sxs-lookup"><span data-stu-id="5dd20-188">Internal</span></span>  <br/> |<span data-ttu-id="5dd20-p118">Determina se o usuário é um usuário interno ou um usuário federado. Se o valor for definido como true, o usuário será interno.</span><span class="sxs-lookup"><span data-stu-id="5dd20-p118">Determines whether the user is an internal user or a federated user. If the value is set to true, the user is internal.</span></span>  <br/> |<span data-ttu-id="5dd20-191">Opcional</span><span class="sxs-lookup"><span data-stu-id="5dd20-191">Optional</span></span>  <br/> |
+|<span data-ttu-id="5dd20-192">Uri</span><span class="sxs-lookup"><span data-stu-id="5dd20-192">Uri</span></span>  <br/> |<span data-ttu-id="5dd20-193">O URI SIP do usuário.</span><span class="sxs-lookup"><span data-stu-id="5dd20-193">The user's SIP URI.</span></span>  <br/> |<span data-ttu-id="5dd20-194">Obrigatório</span><span class="sxs-lookup"><span data-stu-id="5dd20-194">Required</span></span>  <br/> |
 
-<span data-ttu-id="91c1c-195">Os exemplos a seguir mostram os tipos de mensagem que o elemento messages pode conter.</span><span class="sxs-lookup"><span data-stu-id="91c1c-195">The following examples show the message types that the Messages element can contain.</span></span> <span data-ttu-id="91c1c-196">Ela também fornece exemplos de como cada elemento é usado.</span><span class="sxs-lookup"><span data-stu-id="91c1c-196">It also provides examples of how each element is used.</span></span>
+<span data-ttu-id="5dd20-195">Os exemplos a seguir mostram os tipos de mensagem que o elemento messages pode conter.</span><span class="sxs-lookup"><span data-stu-id="5dd20-195">The following examples show the message types that the Messages element can contain.</span></span> <span data-ttu-id="5dd20-196">Ela também fornece exemplos de como cada elemento é usado.</span><span class="sxs-lookup"><span data-stu-id="5dd20-196">It also provides examples of how each element is used.</span></span>
 
-<span data-ttu-id="91c1c-197">Ingressar-um usuário ingressa em uma sala de chat.</span><span class="sxs-lookup"><span data-stu-id="91c1c-197">Join - A user joins a chat room.</span></span>
+<span data-ttu-id="5dd20-197">Ingressar-um usuário ingressa em uma sala de chat.</span><span class="sxs-lookup"><span data-stu-id="5dd20-197">Join - A user joins a chat room.</span></span>
 
-```XML
+```xml
 <Message type="JOIN" content="" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1206211842612" string="2008-03-22T18:50:42.6127374Z" long="633418086426127374" /> 
 </Message
 ```
 
-<span data-ttu-id="91c1c-198">Parte-um usuário deixa uma sala de chat.</span><span class="sxs-lookup"><span data-stu-id="91c1c-198">Part - A user leaves a chat room.</span></span>
+<span data-ttu-id="5dd20-198">Parte-um usuário deixa uma sala de chat.</span><span class="sxs-lookup"><span data-stu-id="5dd20-198">Part - A user leaves a chat room.</span></span>
 
-```XML
+```xml
 <Message type="PART" content="" id="0">
   < Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1212610602532" string="2008-06-04T20:16:42.5324614Z" long="633482074025324614" /> 
 </Message>
 ```
 
-<span data-ttu-id="91c1c-199">Chat-o endereço de e-mail do remetente.</span><span class="sxs-lookup"><span data-stu-id="91c1c-199">Chat - The sender's email address.</span></span>
+<span data-ttu-id="5dd20-199">Chat-o endereço de e-mail do remetente.</span><span class="sxs-lookup"><span data-stu-id="5dd20-199">Chat - The sender's email address.</span></span>
 
-```XML
+```xml
 <Message type="CHAT" content="hello" id="1">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1205351800522" string="2008-03-12T19:56:40.522264Z" long="633409486005222640" /> 
 </Message>
 ```
 
-<span data-ttu-id="91c1c-200">Backchat-um usuário solicita o conteúdo do histórico de chats.</span><span class="sxs-lookup"><span data-stu-id="91c1c-200">Backchat - A user requests content from chat history.</span></span>
+<span data-ttu-id="5dd20-200">Backchat-um usuário solicita o conteúdo do histórico de chats.</span><span class="sxs-lookup"><span data-stu-id="5dd20-200">Backchat - A user requests content from chat history.</span></span>
 
-```XML
+```xml
 <Message type="BACKCHAT" content="backchatcontent" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1206034385284" string="2008-03-20T17:33:05.2841594Z" long="633416311852841594" /> 
 </Message>
 ```
 
-<span data-ttu-id="91c1c-201">Carregamento de arquivo – um usuário carrega um arquivo.</span><span class="sxs-lookup"><span data-stu-id="91c1c-201">File upload - A user uploads a file.</span></span>
+<span data-ttu-id="5dd20-201">Carregamento de arquivo – um usuário carrega um arquivo.</span><span class="sxs-lookup"><span data-stu-id="5dd20-201">File upload - A user uploads a file.</span></span>
 
-```XML
+```xml
 <Message type="FILEUPLOAD" content="0988239a-bb66-4616-90a4-b07771a2097c.txt" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1205351828975" string="2008-03-12T19:57:08.9755711Z" long="633409486289755711" /> 
 </Message>
 ```
 
-<span data-ttu-id="91c1c-202">Download de arquivo – um usuário baixa um arquivo.</span><span class="sxs-lookup"><span data-stu-id="91c1c-202">File download - A user downloads a file.</span></span>
+<span data-ttu-id="5dd20-202">Download de arquivo – um usuário baixa um arquivo.</span><span class="sxs-lookup"><span data-stu-id="5dd20-202">File download - A user downloads a file.</span></span>
 
-```XML
+```xml
 <Message type="FILEDOWNLOAD" content="006074ca-24f0-4b35-8bd8-98006a2d1aa8.txt" id="0">
   <Sender UserName="kazuto@litwareinc.com" id="10" email="" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1212611141851" string="2008-06-04T20:25:41.8518646Z" long="633482079418518646" /> 
 </Message>
 ```
 
-### <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a><span data-ttu-id="91c1c-203">Saída do chat persistente padrão XSD e exemplo de transformação XSL</span><span class="sxs-lookup"><span data-stu-id="91c1c-203">Default Persistent Chat Output XSD and Example XSL Transform</span></span>
+### <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a><span data-ttu-id="5dd20-203">Saída do chat persistente padrão XSD e exemplo de transformação XSL</span><span class="sxs-lookup"><span data-stu-id="5dd20-203">Default Persistent Chat Output XSD and Example XSL Transform</span></span>
 
-<span data-ttu-id="91c1c-204">O exemplo de código a seguir contém a saída padrão do Servidor de Conformidade:</span><span class="sxs-lookup"><span data-stu-id="91c1c-204">The following code sample contains the default output from the Compliance Server:</span></span>
+<span data-ttu-id="5dd20-204">O exemplo de código a seguir contém a saída padrão do Servidor de Conformidade:</span><span class="sxs-lookup"><span data-stu-id="5dd20-204">The following code sample contains the default output from the Compliance Server:</span></span>
 
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema id="Conversations" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
    <xs:simpleType name="ComplianceMessageType">
@@ -311,9 +311,9 @@ void Translate(ConversationCollection conversations)
 </xs:schema>
 ```
 
-<span data-ttu-id="91c1c-205">O exemplo de código a seguir contém um exemplo de transformação em XSL:</span><span class="sxs-lookup"><span data-stu-id="91c1c-205">The following code sample contains a sample XSL transform:</span></span>
+<span data-ttu-id="5dd20-205">O exemplo de código a seguir contém um exemplo de transformação em XSL:</span><span class="sxs-lookup"><span data-stu-id="5dd20-205">The following code sample contains a sample XSL transform:</span></span>
 
-```XML
+```xml
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs">
    <xsl:output method="xml" encoding="UTF-8" indent="yes" />
 
