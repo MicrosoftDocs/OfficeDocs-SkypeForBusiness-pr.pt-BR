@@ -3,71 +3,73 @@ title: Entrar no Microsoft Teams usando a autenticação moderna
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 11/15/2018
 audience: Admin
-ms.topic: conceptual
+ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
 description: Como entrar no Microsoft Teams usando a autenticação moderna.
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 79f04161c070ff4818fdb2dfc212e5c3fc98b2b0
-ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
-ms.translationtype: MT
+ms.openlocfilehash: 7bb74338a3e46bb4e3a65fcbf2a69d56558dad61
+ms.sourcegitcommit: f859843003b34feab18a3d2df34fdbb9858e7148
+ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41845132"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41889434"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Entrar no Microsoft Teams usando a autenticação moderna
 ==========================
 
-O Microsoft Teams usa autenticação moderna para manter a experiência de entrada simples e segura. Para ver como os usuários entram no Microsoft Teams, leia entrar no Microsoft [Teams](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055).
+O Microsoft Teams usa autenticação moderna para manter a experiência de inscrição simples e segura. Para ver como os usuários entram no Teams, leia [Entrar no Teams](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055).
 
 ## <a name="how-modern-authentication-works"></a>Como funciona a autenticação moderna
 
-A autenticação moderna é um processo que permite que as equipes saibam que os usuários já inseriram suas credenciais (como o email e a senha de trabalho) em outro lugar, e não devem ser necessárias para inseri-las novamente para iniciar o aplicativo. A experiência irá variar dependendo de alguns fatores, como se os usuários estiverem trabalhando no Windows ou em um Mac. Isso também varia de acordo com a existência da autenticação de fator único ou da autenticação multifator da sua organização (autenticação multifator geralmente envolve a verificação de credenciais por meio de um telefone, o fornecimento de um código exclusivo, a inserção de um pino ou Apresentando uma impressão digital). Aqui está um resumo de cada cenário de autenticação moderna.
+A autenticação moderna é um processo que permite que o Teams saiba que os usuários já inseriram suas credenciais (como e-mail e senha de trabalho) em outro local e não devem ser obrigados a digitá-las novamente para iniciar o aplicativo. A experiência variará dependendo de alguns fatores, como se os usuários estiverem trabalhando no Windows ou em um Mac. Também variará dependendo de sua organização ter ativado a autenticação de fator único ou a autenticação de multifator (a autenticação multifator geralmente envolve a verificação de credenciais por telefone, fornecendo um código exclusivo, a inserção de um PIN ou a impressão digital). Este é um resumo de cada cenário de autenticação moderna.
 
-### <a name="windows-users"></a>Usuários do Windows: 
+### <a name="windows-users"></a>Usuários do Windows 
 
-- Se os usuários já entrarem em outros aplicativos do Office por meio da sua conta empresarial do Office 365, quando eles iniciarem as equipes, eles serão colocados diretamente no aplicativo. Não é necessário inserir suas credenciais.
+- Se os usuários já tiverem entrado em outros aplicativos do Office por meio da conta do Office 365 Enterprise, quando iniciarem o Teams, serão direcionados diretamente para o aplicativo. Não é necessário que eles insiram suas credenciais.
 
-- Se os usuários não estiverem conectados à sua conta empresarial do Office 365 em qualquer outro lugar, quando iniciarem o Teams, eles serão solicitados a fornecer autenticação de fator único ou multifator (SFA ou MFA), dependendo do que a sua organização decidiu que gostaria da processo para implicar.
+- Se os usuários não estiverem conectados à conta do Office 365 Enterprise em nenhum outro lugar, ao iniciarem o Teams, será solicitado que forneçam autenticação de fator único ou multifator (SFA ou MFA), dependendo do que sua organização decidiu que eles gostariam que o processo envolvesse.
 
-- Se os usuários estiverem conectados a um computador associado a um domínio, quando iniciarem o Teams, eles poderão ser solicitados a passar por mais uma etapa de autenticação, dependendo se a sua organização optou por exigir MFA ou se o computador já precisa de uma solicitação de conexão. Se o computador já precisa de uma MFA para entrar, quando ele abre equipes, o aplicativo é iniciado automaticamente.
+- Se os usuários estiverem conectados a um computador ingressado no domínio, quando iniciarem o Teams, poderão ser solicitados a executar mais uma etapa de autenticação, dependendo se sua organização optou por exigir MFA ou se o computador já exige que o MFA faça logon. Se o computador deles já exigir MFA para entrar, quando eles abrirem o Teams, o aplicativo será iniciado automaticamente.
 
-- Se os usuários estiverem conectados a um computador associado a um domínio e você não quiser que seus nomes de usuário tenham sido previamente preenchidos na tela de entrada do Teams, os administradores poderão definir o seguinte registro do Windows para desativar o pre-população do nome de usuário (UPN):
+- Se os usuários estiverem conectados a um computador ingressado no domínio e você não desejar que o nome de usuário seja preenchido previamente na tela de entrada do Teams, os administradores poderão definir o seguinte registro do Windows para desativar o pré-preenchimento do nome do usuário (UPN ):
 
-  Computador \ HKEY_CURRENT_USER \Software\Microsoft\Office\Teams<br/>
-  SkipUpnPrefill (REG_DWORD)<br/>
+  Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams<br/>
+  SkipUpnPrefill(REG_DWORD)<br/>
   0x00000001 (1)
 
     > [!NOTE]
-    > Ignorar o preenchimento de nome de usuário para nomes de usuário que terminam em ". local" ou ". Corp" está ativado por padrão, portanto, você não precisa definir uma chave do registro para desativá-la. 
+    > Ignorar o preenchimento prévio do nome de usuário para nomes de usuário que terminam em ".local" ou ".corp" está ativado por padrão, portanto, você não precisa definir uma chave do registro para desativá-los. 
 
 
 ### <a name="mac-users"></a>Usuários do Mac 
 
-Quando os usuários iniciarem o Microsoft Teams, o computador não poderá receber credenciais da conta empresarial do Office 365 ou de qualquer um dos outros aplicativos do Office. Em vez disso, eles verão um prompt solicitando o SFA ou o MFA (dependendo das configurações da sua organização). Uma vez que os usuários inserem suas credenciais, não será preciso fornecê-las novamente. Desse ponto em diante, o Teams é iniciado automaticamente sempre que estiverem trabalhando no mesmo computador.
+Quando os usuários iniciam o Teams, o computador não consegue extrair credenciais da conta do Office 365 Enterprise ou de qualquer outro aplicativo do Office. Em vez disso, eles verão um aviso solicitando o SFA ou MFA (dependendo das configurações da sua organização). Quando os usuários inserem suas credenciais, eles não precisarão fornecê-las novamente. A partir desse ponto em diante, o Teams será iniciado automaticamente sempre que estiverem trabalhando no mesmo computador.
 
-## <a name="switching-accounts-after-completing-modern-authentication"></a>Alternar entre contas após concluir a autenticação moderna
+## <a name="switching-accounts-after-completing-modern-authentication"></a>Alternar contas após concluir a autenticação moderna
 
-Se os usuários estiverem trabalhando em um computador associado a um domínio (por exemplo, se o locatário tiver habilitado o Kerberos), eles não poderão alternar entre contas de usuário depois que concluírem a autenticação moderna. Se os usuários não estiverem trabalhando em um computador associado a um domínio, eles poderão mudar de conta.
+Se os usuários estiverem trabalhando em um computador ingressado no domínio (por exemplo, se o locatário tiver ativado o Kerberos), eles não poderão trocar de conta de usuário depois de concluir a autenticação moderna. Se os usuários não estiverem trabalhando em um computador ingressado no domínio, eles poderão alternar contas.
 
-## <a name="signing-out-of-microsoft-teams-after-completing-modern-authentication"></a>Saindo do Microsoft Teams depois de concluir a autenticação moderna
-Para sair do Teams, os usuários podem clicar na imagem do perfil na parte superior do aplicativo e, em seguida **, selecione sair**. Eles também podem clicar com o botão direito do mouse no ícone do aplicativo na barra de tarefas e, em seguida, selecionar **logout**. Depois de desconectarem-se do Teams, será necessário inserir suas credenciais novamente para iniciar o aplicativo.
+## <a name="signing-out-of-teams-after-completing-modern-authentication"></a>Sair do Teams após concluir a autenticação moderna
+Para sair do Teams, os usuários podem clicar na imagem do perfil na parte superior do aplicativo e, em seguida, selecionar **Sair**. Eles também podem clicar com o botão direito do mouse no ícone do aplicativo na barra de tarefas e, em seguida, selecionar **Fazer logoff**. Depois de sair do Teams, eles precisam inserir suas credenciais novamente para iniciar o aplicativo.
 
 ## <a name="urls-and-ip-address-ranges"></a>URLs e intervalos de endereços IP
-O Microsoft Teams requer conectividade com a Internet. Para entender os pontos de extremidade que devem ser acessíveis para clientes que usam o Teams nos planos do Office 365, no governo e em outras nuvens, leia as [diretrizes disponíveis aqui](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). Além disso, você precisaria também permitir o acesso https://ssl.gstatic.com.
+O Teams exige conectividade com a Internet. Para entender os pontos de extremidade que devem ser acessados pelos clientes que usam o Teams nos planos do Office 365, no Governo e em outras nuvens, leia [URLs e intervalos de endereços IP do Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). 
+
+> [!IMPORTANT]
+> O Teams atualmente exige o acesso (porta TCP 443) para o serviço Google ssl.gstatic.com (https://ssl.gstatic.com) para todos os usuários; tal exigência é obrigatória mesmo que você não esteja usando o Gstatic. O Teams removerá esse requisito em breve (início de 2020), e atualizaremos este artigo de forma adequada neste momento.
 
 ## <a name="troubleshooting-modern-authentication"></a>Solução de problemas de autenticação moderna
 
-A autenticação moderna está disponível para cada organização que usa o Teams, portanto, se os usuários não conseguem completar o processo, pode haver algo errado com o seu domínio ou com a conta corporativa do Office 365 da sua organização. 
+A autenticação moderna está disponível para todas as organizações que usam o Teams; portanto, se os usuários não puderem concluir o processo, pode haver algo errado com o seu domínio ou a conta do Office 365 Enterprise da sua organização. 
 
-Para obter mais informações, consulte [por que estou tendo problemas para entrar no Microsoft Teams?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
+Para saber mais, confira [Por que estou com problemas para entrar no Microsoft Teams?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
 
