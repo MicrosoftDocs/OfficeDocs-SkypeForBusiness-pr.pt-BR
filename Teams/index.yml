@@ -1,53 +1,77 @@
 ### YamlMime:Hub
-title: Documentação técnica do Microsoft Teams
-summary: Documentação técnica do Microsoft Teams
+title: Documentação de administração do Microsoft Teams
+summary: Saiba como implantar e gerenciar equipes e preparar usuários para equipes
 brand: teams
 metadata:
-  title: Documentação técnica do Microsoft Teams
-  description: Documentação técnica do Microsoft Teams
+  title: Documentação de administração do Microsoft Teams
+  description: Saiba como implantar e gerenciar equipes e preparar usuários para equipes
   ms.service: msteams
   ms.topic: hub-page
   audience: ITPro
   author: samanro
   ms.author: samanro
-  ms.date: 07/03/2019
+  ms.date: 02/12/2020
   localization_priority: Priority
-  ms.openlocfilehash: 6c588d03d27d0f4c6641546a75e9e371b2b8c04b
-  ms.sourcegitcommit: 5e2dc3430e63bc0a17b87a63fa36ac93d96d8134
+  ms.openlocfilehash: aaa60d789f5048c11647460dccb636da8c519e62
+  ms.sourcegitcommit: eab284e2add7af1b3f3c5f1f77c0a3bbf77857a7
   ms.translationtype: MT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 02/11/2020
-  ms.locfileid: "41889420"
+  ms.lasthandoff: 02/12/2020
+  ms.locfileid: "41953792"
+highlightedContent:
+  items:
+  - title: Como implantar o Teams
+    itemType: deploy
+    url: /MicrosoftTeams/how-to-roll-out-teams
+  - title: Encontre treinamento para você e seus usuários
+    itemType: learn
+    url: /MicrosoftTeams/training-microsoft-teams-landing-page
+  - title: Atualização do Skype for Business para o Teams
+    itemType: overview
+    url: /MicrosoftTeams/upgrade-start-here
+  - title: Hub de adoção
+    itemType: get-started
+    url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
+  - title: Cartazes e soluções da arquitetura de ti
+    itemType: architecture
+    url: /MicrosoftTeams/teams-architecture-solutions-posters
+  - title: Comece aqui se você não tiver experiência com o Microsoft Teams
+    itemType: quickstart
+    url: /MicrosoftTeams/teams-overview
 additionalContent:
   sections:
-  - title: Para profissionais de ti
-    items:
-    - title: Bem-vindo ao Teams
-      summary: Obtenha uma visão geral do Teams e encontre as diretrizes técnicas necessárias para administradores de equipe ou profissionais de ti.
-      url: /MicrosoftTeams/teams-overview
-    - title: Atualização do Skype for Business para o Teams
-      summary: Encontre diretrizes e ferramentas para explorar o caminho ideal para o Microsoft Teams.
-      url: /MicrosoftTeams/upgrade-start-here
-    - title: Hub de adoção
-      summary: Obtenha ferramentas para dar suporte à distribuição de suas equipes.
-      url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
-    - title: Encontre treinamentos e vídeos
-      summary: Obter treinamento do teams-para você e seus usuários.
-      url: /MicrosoftTeams/training-microsoft-teams-landing-page
-    - title: 'Pôsters: Arquitetura do Teams, soluções de telefonia'
-      summary: Obter ilustrações de impressão da arquitetura de ti e das soluções de telefonia do teams.
-      url: /microsoftteams/teams-architecture-solutions-posters
-    - title: Expandir o Teams em sua organização
-      summary: Encontre soluções personalizadas para seu setor, incluindo assistência médica, funcionários de primeira mão, varejo, governo e educação.
-      url: /MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page
-  - title: Para outros públicos
-    items:
-    - title: Comunidade tecnológica do Teams
-      summary: Junte-se à comunidade técnica do teams para fazer perguntas e obter respostas e ler o blog do teams.
-      url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
-    - title: Ajuda do Teams do usuário final
-      summary: Vá para ajuda, treinamento e novidades sobre o que há de novo para os usuários finais.
-      url: https://support.office.com/Teams
-    - title: Plataforma de desenvolvedores do Teams
-      summary: Saiba mais sobre a plataforma de desenvolvedor do Teams e como ele permite que você crie aplicativos úteis e avançados.
-      url: /microsoftteams/platform/overview
+  - items:
+    - title: Principais artigos
+      links:
+      - text: Preparar sua rede para o Microsoft Teams
+        url: /MicrosoftTeams/prepare-network
+      - text: Use o Advisor para Teams para ajudá-lo a implantar equipes
+        url: /MicrosoftTeams/use-advisor-teams-roll-out
+      - text: Como as equipes usam a memória
+        url: /MicrosoftTeams/teams-memory-usage-perf
+      - text: Comunicar-se com usuários de outras organizações (convidados/acesso externo)
+        url: /MicrosoftTeams/communicate-with-users-from-other-organizations
+      - text: Segurança e conformidade no Teams
+        url: /MicrosoftTeams/security-compliance-overview
+    - title: Chamadas de voz com o Teams
+      links:
+      - text: Voz na nuvem no Microsoft Teams
+        url: /MicrosoftTeams/cloud-voice-landing-page
+      - text: Microsoft 365 Business Voice
+        url: /MicrosoftTeams/business-voice/whats-business-voice
+      - text: Roteamento Direto do Sistema de Telefonia
+        url: /MicrosoftTeams/direct-routing-landing-page
+      - text: Configurar telefones de área comum
+        url: /MicrosoftTeams/set-up-common-area-phones
+    - title: Mais conteúdo de equipes
+      links:
+      - text: Conteúdo da ajuda para usuários finais
+        url: https://support.office.com/Teams
+      - text: Comunidade tecnológica do Teams
+        url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
+      - text: Fórum de comentários de usuários do teams
+        url: https://microsoftteams.uservoice.com/
+      - text: Informações do produto Teams
+        url: https://products.office.com/microsoft-teams/group-chat-software
+      - text: Plataforma de desenvolvedores do Teams
+        url: https://docs.microsoft.com/microsoftteams/platform/overview
