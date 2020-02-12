@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Resumo: Saiba mais sobre o processo de implantação do painel de qualidade de chamada. O painel de qualidade de chamada é uma ferramenta para o Skype for Business Server.'
-ms.openlocfilehash: ccfb19bf8069bf72d52d7399b012d81af72e4110
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 3ab7ea5130b33578169505969ee8f43a73a2ac32
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816850"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888830"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Implantar painel de qualidade de chamada no Skype for Business Server
  
@@ -88,7 +88,7 @@ A implantação do painel de qualidade da chamada envolve a configuração da in
    - **Nome &amp; de usuário do trabalho do agente SQL: senha:** Nome e senha da conta de serviço de domínio (mascarado) que serão usados para executar a etapa "QoE Archive Data" do trabalho do SQL Server Agent (que executará o procedimento armazenado para buscar dados do BD de métricas de QoE em banco de dados de arquivo, portanto, essa conta deve ter acesso de leitura ao banco de métricas de QoE, conforme indicado na seção contas. Essa conta também precisa ter um login na instância de arquivo QoE do SQL Server.
     
      > [!NOTE]
-     > A conta em que a instância do SQL Server está sendo executada, como NT SERVICE\MSSQLSERVER, deve ter acesso/permissão aos diretórios acima para que a instalação seja bem-sucedida. Para obter detalhes, consulte [configurar permissões do sistema de arquivos para acesso ao mecanismo de banco de dados](https://msdn.microsoft.com/en-us/library/jj219062%28v=sql.110%29.aspx)
+     > A conta em que a instância do SQL Server está sendo executada, como NT SERVICE\MSSQLSERVER, deve ter acesso/permissão aos diretórios acima para que a instalação seja bem-sucedida. Para obter detalhes, consulte [configurar permissões do sistema de arquivos para acesso ao mecanismo de banco de dados](https://msdn.microsoft.com/library/jj219062%28v=sql.110%29.aspx)
   
 7. Ao clicar em avançar, o instalador executará verificações pré-requisitos e reportará se algum problema for encontrado. Quando as verificações de pré-requisito passarem, o instalador vai para a página de configuração de cubo. 
     
@@ -104,7 +104,7 @@ A implantação do painel de qualidade da chamada envolve a configuração da in
    - **Servidor de análise de cubo:** Nome da instância do serviço de análise do SQL Server para o qual o cubo será criado. Isso pode ser um computador diferente, mas o usuário de instalação precisa ser um membro dos administradores do servidor da instância do serviço de análise de SQL Server de destino.
     
      > [!NOTE]
-     >  Para obter mais informações sobre como configurar permissões de administrador de servidor do Analysis Services, consulte [conceder permissões de administrador de servidor (Analysis Services)](https://msdn.microsoft.com/en-us/library/ms174561.aspx)
+     >  Para obter mais informações sobre como configurar permissões de administrador de servidor do Analysis Services, consulte [conceder permissões de administrador de servidor (Analysis Services)](https://msdn.microsoft.com/library/ms174561.aspx)
   
    - **Use várias partições:** O padrão é definido como "Multiple Partition", que exige Business Intelligence Edition ou Enterprise Edition do SQL Server. Para a edição Standard, selecione a opção "partição simples". Observe que o desempenho do processamento de cubo pode ser afetado se uma única partição for usada.
     
@@ -135,7 +135,7 @@ Quando o instalador é concluído, provavelmente o trabalho do agente do SQL Ser
   
 Mensagens de log detalhadas serão mostradas se o modo de depuração estiver habilitado. Para habilitar o modo de depuração, vá para **%systemdrive%\Arquivos de Files\Skype para negócios 2015 CQD\QoEDataService\web.config**e atualize a seguinte linha para que o valor seja definido como **true**:
 
-```
+```xml
 <add key="QoEDataLib.DebugMode" value="True" /> 
 ```
 
@@ -161,7 +161,7 @@ Em seguida, os administradores devem adicionar novas regras de permissão e dar 
   
 Os detalhes de configuração são armazenados no Web. config localizado no diretório físico do Portal.
   
-```XML
+```xml
 <?xml version="1.0" encoding="UTF-8"?> <configuration> <system.webServer> <security> <authorization> <remove users="*" roles="" verbs="" /> <add accessType="Allow" roles="CQDPortalUsers" /> </authorization> </security> </system.webServer> </configuration> 
 ```
 
@@ -233,7 +233,7 @@ Para associações de porta HTTP e HTTPS, o instalador criará associações de 
   
 Para habilitar o SSL/TLS no IIS e forçar os usuários a se conectarem via HTTPS seguro em vez de HTTP:
   
-1. Configurar o Secure Sockets Layer no IIS, consulte [configuração do Secure Sockets Layer no IIS 7](https://technet.microsoft.com/en-us/library/cc771438%28v=ws.10%29.aspx). Uma vez feito isso `http` , `https`substitua por.
+1. Configurar o Secure Sockets Layer no IIS, consulte [configuração do Secure Sockets Layer no IIS 7](https://technet.microsoft.com/library/cc771438%28v=ws.10%29.aspx). Uma vez feito isso `http` , `https`substitua por.
     
 2. Para obter instruções sobre como habilitar o TLS nas conexões do SQL Server, consulte [como habilitar a criptografia SSL para uma instância do SQL Server usando o console de gerenciamento Microsoft](https://support.microsoft.com/en-us/kb/316898/).
     

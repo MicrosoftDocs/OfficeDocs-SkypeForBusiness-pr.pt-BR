@@ -20,18 +20,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Encontre informações sobre o Skype for Business Cloud Connector Edition, um conjunto de máquinas virtuais (VMs) compactadas que implementam conectividade PSTN local com o Sistema de Telefonia do Office 365 (Cloud PBX).
-ms.openlocfilehash: 20ea88b230fe0fd9a590c489cb6f0017a2c27209
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 966c295692dcc176a9003d134a161c45e90d47e6
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814459"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887730"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Plano do Skype for Business Edição Cloud Connector
 
 Encontre informações sobre o Skype for Business Cloud Connector Edition, um conjunto de máquinas virtuais (VMs) compactadas que implementam conectividade PSTN local com o Sistema de Telefonia do Office 365 (Cloud PBX).
 
-O Cloud Connector Edition pode ser a solução certa para a sua organização se você ainda não tiver uma implantação existente do Lync Server ou do Skype for Business Server. Se você ainda estiver investigando qual sistema telefônico da solução do Office 365 é ideal para a sua empresa, consulte [soluções de telefonia da Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions).
+O Cloud Connector Edition pode ser a solução certa para a sua organização se você ainda não tiver uma implantação existente do Lync Server ou do Skype for Business Server. Se você ainda estiver investigando qual sistema telefônico da solução do Office 365 é ideal para a sua empresa, consulte [soluções de telefonia da Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
 
 Este documento descreve os requisitos da edição do Cloud Connector e as topologias compatíveis e ajuda você a planejar sua implantação do Cloud Connector Edition. Não deixe de ler este tópico antes de configurar o ambiente do conector de nuvem. Quando estiver pronto para implantar e configurar a edição do conector de nuvem, consulte [configurar e gerenciar o Skype for Business Cloud Connector Edition](configure-skype-for-business-cloud-connector-edition.md).
 
@@ -429,7 +429,7 @@ Se forem necessárias regras mais restritivas, veja as seguintes URLs de lista d
 
 - [URLs da lista de certificados revogados](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) nas [URLs e nos intervalos de endereços IP do Office 365](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
 
-- Windows Update: [como configurar um firewall para atualizações de software](https://technet.microsoft.com/en-us/library/bb693717.aspx)
+- Windows Update: [como configurar um firewall para atualizações de software](https://technet.microsoft.com/library/bb693717.aspx)
 
 - PowerShell de administração do Skype for Business \*online:. online.Lync.com
 
@@ -545,14 +545,14 @@ Cada componente de Borda requer um certificado de uma autoridade de certificaç�
 
 - **Opção 1.** O Nome da Entidade deve conter o nome do pool que você atribuiu aos componentes de borda. Observe que o nome do requerente não pode ser sip.sipdomain.com porque esse nome é reservado para o componente do Skype for Business Edge online. A SAN deve conter sip.sipdomain.com e o nome do pool deborda de acesso:
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain.com,
   acessedgepoolnameforsite1.sipdomain.com
   ```
 
 - **Opção 2. ** Se quiser usar um único certificado curinga em todos os servidores do pool de borda que você implantar, você poderá usar uma entrada de SAN de \*sipdomain.com em vez do nome do pool de bordas no certificado. O nome da entidade pode ser o nome do pool de Borda de acesso de quaisquer pools de Borda que você tenha implantado:
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain.com, SAN = *.sipdomain.com
   ```
 
@@ -568,14 +568,14 @@ Será preciso adicionar sip.sipdomain.com a cada domínio SIP e o nome dos pools
 
 - **Opção 1.** O nome do requerente deve conter o nome do pool que você atribuiu para componentes do Edge. Observe que o nome do requerente não pode ser sip.sipdomain.com porque esse nome é reservado para o componente do Skype for Business Edge online. A SAN deve conter sip.sipdomain.com e o nome do pool deborda de acesso:
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain1.com, SAN = sip.sipdomain1.com, sip.sipdomain2.com,
   acessedgepoolnameforsite1.sipdomain1.com
   ```
 
 - <strong>Opção 2.</strong> Se quiser usar um único certificado curinga em todos os servidores do pool de borda que você implantar, você poderá usar uma entrada de SAN de \*sipdomain.com em vez do nome do pool de bordas no certificado. O nome da entidade pode ser o nome do pool de Borda de acesso de quaisquer pools de Borda que você tenha implantado:
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain1.com, sip.sipdomain2.com,
   SAN = *.sipdomain1.com
   ```
@@ -708,7 +708,7 @@ O Cloud Connector 2.1 e versões posteriores dão suporte ao monitoramento do Cl
 
 Para obter mais informações, consulte o seguinte:
 
-- [Soluções de Telefonia da Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Soluções de Telefonia da Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
 
 - [Configurar e gerenciar o Skype for Business Cloud Connector Edition](configure-skype-for-business-cloud-connector-edition.md)
 

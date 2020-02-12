@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
 description: Esta seção contém exemplos de consultas para o banco de dados de chat persistente.
-ms.openlocfilehash: f967e62ade8186bb2f0dae79c06af71e872808af
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: f161deb55cb9ecb0e42eb23e71cd842aa8f3d99a
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814719"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887710"
 ---
 # <a name="sample-persistent-chat-database-queries"></a>Amostragem de consultas de banco de dados de Chat Persistente
  
@@ -26,7 +26,7 @@ Esta seção contém exemplos de consultas para o banco de dados de chat persist
   
 Use o exemplo a seguir para obter uma lista de suas salas de chat persistente mais ativas após uma determinada data.
   
-```
+```SQL
 SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages
   FROM tblChat, tblNode
   WHERE channelId = nodeID AND dbo.fnTicksToDate(chatDate) > '1/1/2011'
@@ -36,7 +36,7 @@ SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages
 
 Use o exemplo a seguir para obter uma lista dos seus usuários ativos após uma determinada data.
   
-```
+```SQL
 SELECT prinName as Name, count(*) as ChatMessages
   FROM tblChat, tblPrincipal
   WHERE prinID = userId AND dbo.fnTicksToDate(chatDate) > '1/1/2011'
@@ -46,7 +46,7 @@ SELECT prinName as Name, count(*) as ChatMessages
 
 Use o exemplo a seguir para obter uma lista de todos os participantes que já enviaram uma mensagem com "Olá mundo".
   
-```
+```SQL
 SELECT nodeName as ChatRoom, prinName as Name, content as Message
   FROM tblChat, tblNode, tblPrincipal
   WHERE channelId = nodeID AND userId = prinID AND content like '%Hello World%'
@@ -54,7 +54,7 @@ SELECT nodeName as ChatRoom, prinName as Name, content as Message
 
 Use o exemplo a seguir para obter uma lista de associações de grupo para uma determinada entidade de segurança.
   
-```
+```SQL
 SELECT prinName as Name    
   FROM tblPrincipalAffiliations as pa, tblPrincipal
   where principalID = 7 and affiliationID = prinID
@@ -62,7 +62,7 @@ SELECT prinName as Name
 
 Use o exemplo a seguir para obter uma lista de cada sala de chat que um usuário, Jane Dow, é membro direto de.
   
-```
+```SQL
 SELECT DISTINCT nodeName as ChatRoom, prinName as Name          
   FROM tblPrincipalRole, tblPrincipal, tblNode
   WHERE  prinRoleNodeID = nodeID AND prinRolePrinID = prinID AND prinName = 'Jane Dow'
@@ -70,7 +70,7 @@ SELECT DISTINCT nodeName as ChatRoom, prinName as Name
 
 Use o exemplo a seguir para obter uma lista de convites que um usuário recebeu.
   
-```
+```SQL
 SELECT prinName
       ,nodeName
       ,invID   

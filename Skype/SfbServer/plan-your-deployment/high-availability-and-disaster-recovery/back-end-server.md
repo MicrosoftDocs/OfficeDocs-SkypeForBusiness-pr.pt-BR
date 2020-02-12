@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: Saiba mais sobre as opções de alta disponibilidade do servidor back-end com suporte no Skype for Business Server, incluindo grupos de disponibilidade AlwaysOn, instâncias de cluster de failover AlwaysOn, espelhamento de banco de dados e cluster de failover de SQL.
-ms.openlocfilehash: a0aeb53aea0ee2eab25875de0fddbfd0fc26d90a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 4c814e525b3a1d0900e7162255ec4d7e86d79605
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815949"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888610"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Back-end Server alta disponibilidade no Skype for Business Server
  
@@ -56,7 +56,7 @@ O Skype for Business Server é compatível com o espelhamento com o seguinte sof
     
 
 > [!NOTE]
-> O espelhamento do SQL está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. Os grupos de disponibilidade AlwaysOn, as instâncias de cluster de failover AlwaysOn (FCI) e os métodos de cluster de failover do SQL são preferidos com o Skype for Business Server 2019.
+> O espelhamento do SQL está disponível no Skype for Business Server 2015, mas não é mais compatível com o Skype for Business Server 2019. Os grupos de disponibilidade AlwaysOn, instâncias de cluster de failover AlwaysOn (FCI) e métodos de cluster de failover do SQL são as únicas opções com suporte do Skype for Business Server 2019.
     
 O espelhamento de banco de dados assíncrono não é compatível com o back-end de alta disponibilidade do servidor do Skype for Business. No restante deste documento, o termo espelhamento de banco de dados significa espelhamento sincronizado de banco de dados, salvo quando especificado o contrário. 
   

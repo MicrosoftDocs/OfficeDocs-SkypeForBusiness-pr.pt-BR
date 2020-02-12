@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: 'Se você precisar remover o servidor de arquivos que está atuando como o repositório de arquivos para a implantação do Skype for Business Server, ou se precisar fazer outras alterações para tornar o repositório de arquivos atual indisponível, primeiro você precisará criar um novo compartilhamento. Em seguida deverá executar as seguintes etapas:'
-ms.openlocfilehash: e1c4338e33e736c04dbb1a2a2e81a7233df65763
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 91ba8393a958188e368ff3f8f5d2a85bcfcc1396
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817102"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888450"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Mover dados do repositório de arquivos para um novo repositório de arquivos no Skype for Business Server
 
@@ -37,7 +37,7 @@ Se você precisar remover o servidor de arquivos que está atuando como o reposi
 
 1. Faça logon em um computador como membro do grupo RTCUniversersalServerAdmins ou CsServerAdministrator em que o Skype for Business Server, ferramentas administrativas, estejam instaladas.
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Skype for Business Server.
+2. Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Skype for Business Server.
 
 3. Na barra de navegação esquerda, clique em **Topologia** e em **Status**. 
 
@@ -55,8 +55,8 @@ Se você precisar remover o servidor de arquivos que está atuando como o reposi
 
    c. Em **Definir Novo Repositório de Arquivos**, em **FQDN do servidor de arquivo**, digite o FQDN (nome de domínio totalmente qualificado) do servidor de arquivos. Em **Compartilhamento de arquivos**, digite o nome da pasta para o novo compartilhamento de arquivos e clique em **OK**.
 
-    > [!IMPORTANT]
-    > Esta etapa define um novo repositório de arquivos para uso no construtor de topologias. Você o define apenas uma vez, não para cada servidor. Antes de você publicar a topologia, deverá criar o compartilhamento de arquivos definido no servidor de arquivos definido. Para obter detalhes, consulte [Define the File Store for the Front End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx).
+     > [!IMPORTANT]
+     > Esta etapa define um novo repositório de arquivos para uso no construtor de topologias. Você o define apenas uma vez, não para cada servidor. Antes de você publicar a topologia, deverá criar o compartilhamento de arquivos definido no servidor de arquivos definido. Para obter detalhes, consulte [Define the File Store for the Front End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx).
 
 8. Para cada servidor ou pool que usa o repositório de arquivos, faça o seguinte:
 
@@ -70,10 +70,9 @@ Se você precisar remover o servidor de arquivos que está atuando como o reposi
 
 11. Na linha de comando, digite o seguinte:
 
-     ```console
-     Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
-
-     ```
+    ```console
+    Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
+    ```
 
     > [!TIP]
     > A opção /S copia sobre os arquivos, diretórios e subdiretórios. A opção /XF ignora os arquivos nomeados como Meeting.Active. As versões atuais de robocopy.exe com a opção /MT aumentam significativamente a velocidade da cópia usando vários threads. Para a opção/LOG, use um caminho de diretório e um nome de arquivo de log na forma de C:\Logfiles\log.txt. Essa opção cria um arquivo de log das operações no local nomeado.
@@ -88,8 +87,6 @@ Se você precisar remover o servidor de arquivos que está atuando como o reposi
 
 ## <a name="see-also"></a>Confira também
 
-
 [Reatribuir um servidor a um repositório de arquivos diferente](https://technet.microsoft.com/library/18509cce-a4d2-4537-a822-f99de6d7598e.aspx)
 
 [Remover um repositório de arquivos](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx)
-

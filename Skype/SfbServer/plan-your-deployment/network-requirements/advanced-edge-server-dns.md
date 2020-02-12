@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 'Resumo: examine os cenários das opções de implantação do Skype for Business Server. Se você deseja um único servidor ou prefere um pool de servidores com DNS ou HLB, este tópico deve ajudar.'
-ms.openlocfilehash: e0fef305a29f753b9293593e7e1eb70b936f1a19
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: b3893c11e1ce0cfdf9ab0b0452ef0a30a6442ee7
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802161"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887758"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Planejamento DNS de servidor de borda avançado para o Skype for Business Server
  
@@ -128,7 +128,7 @@ Listaremos os registros de DNS das zonas internas e externas aqui, mas você pod
     
   - DNS A e AAAA (se você estiver usando endereçamento IPv6) e Registros SRV para a interface externa do servidor proxy reverso ou (VIP para um pool de servidores proxy reverso), na rede de perímetro.
     
-  - DNS A e AAAA (se você estiver usando endereçamento IPv6) e Registros SRV para a configuração automática do cliente do Skype for Business Server (**opcional**).
+  - DNS A e AAAA (se você estiver usando endereçamento IPv6) e Registros SRV para a configuração automática do cliente do Skype for Business Server ( **opcional** ).
     
 ## <a name="automatic-configuration-without-split-brain-dns"></a>Configuração automática sem DNS de dupla personalidade
 <a name="NoSplitBrainDNS"> </a>
@@ -172,7 +172,7 @@ Agora que sabemos tudo isso, se você precisar de requisito automático para seu
     
     Por exemplo, se o seu domínio SIP for contoso.com e você tiver um pool de front-end chamado pool01 que contém dois servidores front-end, você precisará das seguintes zonas de ponto de fixação e registros no seu DNS interno:
     
-  ```
+  ```console
   dnscmd . /zoneadd _sipinternaltls._tcp.contoso.com. /dsprimary
   dnscmd . /recordadd _sipinternaltls._tcp.contoso.com. @ SRV 0 0 5061 pool01.contoso.com.
   dnscmd . /zoneadd pool01.contoso.com. /dsprimary
@@ -184,7 +184,7 @@ Agora que sabemos tudo isso, se você precisar de requisito automático para seu
 
     Você pode ter um segundo domínio SIP em seu ambiente. Nesse caso, você precisará das seguintes zonas exatas e registros A em seu DNS interno:
     
-  ```
+  ```console
   dnscmd . /zoneadd _sipinternaltls._tcp.fabrikam.com. /dsprimary
   dnscmd . /recordadd _sipinternaltls._tcp.fabrikam.com. @ SRV 0 0 5061 pool01.fabrikam.com.
   dnscmd . /zoneadd pool01.fabrikam.com. /dsprimary

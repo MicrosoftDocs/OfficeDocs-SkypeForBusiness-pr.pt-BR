@@ -13,18 +13,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: Leia este tópico para aprender a monitorar a versão 2,1 do conector de nuvem e posterior usando o Microsoft Operations Management Suite (OMS).
-ms.openlocfilehash: 1dcac3519624cef898622f915b08b24363453b84
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 6c63baf078dc865a4e3aef574cff30bedabf3819
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41799621"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888630"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Monitor Cloud Connector using Operations Management Suite (OMS).
 
 Leia este tópico para aprender a monitorar a versão 2,1 do conector de nuvem e posterior usando o Microsoft Operations Management Suite (OMS).
 
-Agora você pode monitorar a implantação do conector de nuvem versão 2,1 e posterior usando o Operations Management Suite (OMS), uma solução de gerenciamento de ti da nuvem da Microsoft. A análise de logs do OMS permite que você monitore e analise a disponibilidade e o desempenho de recursos, incluindo máquinas físicas e virtuais. Para obter mais informações sobre o OMS e a análise de logs, consulte [o que é o OMS (Operations Management Suite)?](https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview).
+Agora você pode monitorar a implantação do conector de nuvem versão 2,1 e posterior usando o Operations Management Suite (OMS), uma solução de gerenciamento de ti da nuvem da Microsoft. A análise de logs do OMS permite que você monitore e analise a disponibilidade e o desempenho de recursos, incluindo máquinas físicas e virtuais. Para obter mais informações sobre OMS e análise de logs, consulte [o que é o OMS (Operations Management Suite)?](https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview)
 
 Este tópico inclui as seguintes seções:
 
@@ -58,28 +58,28 @@ A maneira como você configura o conector de nuvem para usar o OMS depende do se
 
 - **Se você estiver instalando um novo dispositivo de conector de nuvem ou se quiser reimplantar um dispositivo**, siga estas etapas antes de executar o Install-CcAppliance:
 
-1. Na seção arquivo CloudConnector. ini [Common], defina o parâmetro OMSEnabled como true.
+    1. Na seção arquivo CloudConnector. ini [Common], defina o parâmetro OMSEnabled como true.
 
-    Toda vez que o conector da nuvem é implantado ou atualizado, ele tenta instalar o agente do OMS automaticamente nas VMs. Habilite esse recurso para que o agente do OMS possa sobreviver à atualização automática do conector de nuvem.
+        Toda vez que o conector da nuvem é implantado ou atualizado, ele tenta instalar o agente do OMS automaticamente nas VMs. Habilite esse recurso para que o agente do OMS possa sobreviver à atualização automática do conector de nuvem.
 
-2. Para configurar a chave e a ID do OMS, execute Set-CcCredential-AccountType OMSWorkspace. 
+    2. Para configurar a chave e a ID do OMS, execute Set-CcCredential-AccountType OMSWorkspace. 
 
 - **Se você estiver instalando um agente do OMS em um dispositivo de conexão de nuvem existente**, siga estas etapas:
 
-1. Na seção arquivo CloudConnector. ini [Common], defina OMSEnabled = true. 
+    1. Na seção arquivo CloudConnector. ini [Common], defina OMSEnabled = true. 
 
-2. Execute Import-CcConfiguration. 
+    2. Execute Import-CcConfiguration. 
 
-3. Execute install-CcOMSAgent. 
+    3. Execute install-CcOMSAgent. 
 
-    > [!NOTE]
-    > Se a credencial OMSWorkspace nunca tiver sido definida, você será solicitado a fornecer uma credencial quando executar instalar-CcOMSAgent. 
+        > [!NOTE]
+        > Se a credencial OMSWorkspace nunca tiver sido definida, você será solicitado a fornecer uma credencial quando executar instalar-CcOMSAgent. 
 
 - **Se você deseja atualizar a chave ou ID do espaço de trabalho do OMS em um aparelho de conector de nuvem que já instalou um agente do OMS:**
 
-1. Para configurar a chave e a ID do OMS, execute Set-CcCredential-AccountType OMSWorkspace. 
+    1. Para configurar a chave e a ID do OMS, execute Set-CcCredential-AccountType OMSWorkspace. 
 
-2. Para aplicar as atualizações, execute install-CcOMSAgent. 
+    2. Para aplicar as atualizações, execute install-CcOMSAgent. 
 
 - **Para todos os cenários, verifique se os agentes estão conectados da seguinte maneira:**
 
@@ -116,15 +116,15 @@ No portal do OMS, você deve especificar informações sobre os logs de eventos 
 
      Total de chamadas ativas:
 
-   - LS: MediationServer-chamadas de entrada (_Total)\- atuais 
+       - LS: MediationServer-chamadas de entrada (_Total)\- atuais 
 
-   - LS: MediationServer-chamadas de saída (_Total\- ) atuais 
+       - LS: MediationServer-chamadas de saída (_Total\- ) atuais 
 
      Total de chamadas bypass de mídia ativas:
 
-   - LS: MediationServer-chamadas de chamadas de entrada do\- active media (_Total) 
+       - LS: MediationServer-chamadas de chamadas de entrada do\- active media (_Total) 
 
-   - LS: MediationServer (_Total)\- chamadas de bypass de mídia ativas 
+       - LS: MediationServer (_Total)\- chamadas de bypass de mídia ativas 
 
      > [!NOTE]
      > Você deve inserir manualmente os contadores de desempenho na caixa de texto. Elas não aparecem como opções na lista suspensa. 
@@ -155,7 +155,7 @@ Para criar este par de alertas:
 
 - A consulta do alerta de erro é:
 
-  ```
+  ```Kusto
   Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003)  | summarize arg_max(TimeGenerated, EventID) by Computer | where EventID == 25003
   ```
 
@@ -167,19 +167,19 @@ Para criar este par de alertas:
 
 - A consulta para o alerta de redefinição é:
 
-  ```
+  ```Kusto
   Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003) | summarize arg_max(TimeGenerated, EventID) by Computer  | where EventID == 2500
   ```
 
     A consulta redefinir faz exatamente a coisa oposta da consulta de erro. Para cada computador, ele retornará um se o último evento for o evento de início do serviço; Ele não retornará nada se o último evento for o evento Stop do serviço.
 
-  **Criar um par de alertas: "muitas chamadas simultâneas nos servidores de mediação" e "chamadas simultâneas retornam à carga normal"**
+**Criar um par de alertas: "muitas chamadas simultâneas nos servidores de mediação" e "chamadas simultâneas retornam à carga normal"**
 
 Para criar este alerta:
 
 - A consulta do alerta de erro é:
 
-  ```
+  ```Kusto
   Perf | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName == "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls >= 500
   ```
 
@@ -187,17 +187,17 @@ Para criar este alerta:
 
 - A consulta para o alerta de redefinição é:
 
-  ```
+  ```Kusto
   Perf  | where Computer contains "MediationServer" | where (ObjectName == "LS:MediationServer - Outbound Calls" or ObjectName ==  "LS:MediationServer - Inbound Calls") | summarize arg_max(TimeGenerated, CounterValue) by ObjectName, Computer | summarize  TotalCalls = sum(CounterValue) by Computer| where TotalCalls < 500
   ```
 
     A consulta redefinir faz exatamente a coisa oposta da consulta de erro. Para cada computador, a consulta obterá os últimos contadores de chamadas de entrada e de saída e somará esses dois valores. Ele retornará um log se o valor soma for menor que 500; Isso não retornará nada do contrário.
 
-  **Criar um alerta: alerta "uso \> da CPU 90 ou RTCMEDIARELAY interrompido nos servidores"**
+**Criar um alerta: alerta "uso \> da CPU 90 ou RTCMEDIARELAY interrompido nos servidores"**
 
 Para criar esse alerta, a consulta é:
 
-```
+```Kusto
 search *| where Computer contains "MediationServer" | where (Type == "Perf" or Type == "Event") | where ((ObjectName ==  "Processor" and CounterName == "% Processor Time") or EventLog == "Lync Server") | where (CounterValue > 90 or EventID == 22003)
 ```
 

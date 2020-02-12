@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 'Resumo: Leia este tópico para solucionar problemas de implantação do Gerenciador de estatísticas do Skype for Business Server.'
-ms.openlocfilehash: a787297b25b983303e65f398dfb7b275ae044944
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 12b6176e64d034d94e8a6ad86e748c1906f9c0c5
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816210"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888870"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Solução de problemas do Gerenciador de estatísticas do Skype for Business Server
  
@@ -47,7 +47,7 @@ Este tópico descreve como solucionar problemas de implantação do Gerenciador 
 
     Procure por "MaxProcessMemoryMB" e altere o valor para "0" conforme mostrado:
     
-  ```console
+  ```xml
   <setting name="MaxProcessMemoryMB" serializeAs="String"> <value>300</value> </setting>
   ```
 
@@ -60,13 +60,13 @@ Este tópico descreve como solucionar problemas de implantação do Gerenciador 
     
     Se o Agente não puder se conectar ao computador Ouvinte, verifique o seguinte:
     
-1. Certifique-se de que o serviço Ouvinte está em execução no computador Ouvinte. Se não estiver, certifique-se de que o Redis está sendo executado no servidor e reinicie o serviço Ouvinte.
-    
-    Verifique o log de eventos do Gerenciador de estatísticas no computador ouvinte para garantir que não haja problemas com o serviço de escuta do Gerenciador de estatísticas propriamente dito.
-    
-2. Use uma ferramenta de conectividade, como telnet, para verificar a conectividade do computador do Agente ao do Ouvinte na porta correta.
-    
-    Caso contrário, verifique se a regra de firewall de entrada está habilitada no computador Ouvinte para o tipo de rede ao qual esse computador está conectado (público/privado/domínio). Se o computador ouvinte não estiver associado a um domínio, a rede poderá estar listada como pública e, nesse caso, as regras de firewall instaladas com o Gerenciador de estatísticas não serão aplicadas por padrão.
+    1. Certifique-se de que o serviço Ouvinte está em execução no computador Ouvinte. Se não estiver, certifique-se de que o Redis está sendo executado no servidor e reinicie o serviço Ouvinte.
+        
+        Verifique o log de eventos do Gerenciador de estatísticas no computador ouvinte para garantir que não haja problemas com o serviço de escuta do Gerenciador de estatísticas propriamente dito.
+        
+    2. Use uma ferramenta de conectividade, como telnet, para verificar a conectividade do computador do Agente ao do Ouvinte na porta correta.
+        
+        Caso contrário, verifique se a regra de firewall de entrada está habilitada no computador Ouvinte para o tipo de rede ao qual esse computador está conectado (público/privado/domínio). Se o computador ouvinte não estiver associado a um domínio, a rede poderá estar listada como pública e, nesse caso, as regras de firewall instaladas com o Gerenciador de estatísticas não serão aplicadas por padrão.
     
 - **4000** - Falha para no download das Informações do servidor do Ouvinte (Motivo desconhecido)
     
