@@ -15,16 +15,16 @@ f1.keywords:
 description: Saiba mais sobre barreiras de informação e como elas afetam o Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f516c01bed0dfca0363602aa131a9da22bd916f6
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 0d5b5964f3fcf0f4d24fee44121f868d573eb6e9
+ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836641"
+ms.lasthandoff: 02/13/2020
+ms.locfileid: "41962130"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreiras de informação no Microsoft Teams
 
-Barreiras de informação são políticas que um administrador pode configurar para impedir que pessoas ou grupos se comuniquem uns com os outros. Isso é útil se, por exemplo, um departamento estiver manipulando informações que não devem ser compartilhadas com outros departamentos, ou se um grupo precisar ser impedido, ou isolado, de comunicar-se com qualquer pessoa fora do grupo.
+As barreiras de informação (IB) são políticas que um administrador pode configurar para impedir que pessoas ou grupos se comuniquem uns com os outros. Isso é útil se, por exemplo, um departamento estiver manipulando informações que não devem ser compartilhadas com outros departamentos, ou se um grupo precisar ser impedido, ou isolado, de comunicar-se com qualquer pessoa fora do grupo.
 
 > [!NOTE]
 > - Grupos de barreira de informações não podem ser criados entre locatários.
@@ -96,7 +96,7 @@ No momento, os usuários perceberão o seguinte se uma política de barreira de 
 
 ## <a name="will-files-and-sharepoint-site-experiences-connected-to-teams-honor-ib-policy"></a>Os arquivos e as experiências do site do SharePoint se conectam ao Teams honra política de IB?
  
-Quando uma equipe é criada, um site do SharePoint é provisionado e associado à equipe para a experiência dos arquivos. O acesso a este site e arquivos do SharePoint honra a política IB da organização, ou seja, somente os usuários cujo segmento IB corresponde à política IB têm permissão de acesso. Mesmo no momento do compartilhamento de arquivos, a política IB é respeitada.
+Quando uma equipe é criada, um site do SharePoint é provisionado e associado à equipe para a experiência dos arquivos. O acesso a este site e arquivos do SharePoint honra a IB da organização, ou seja, somente os usuários cuja segmento de IB corresponde a política de IB têm permissão de acesso. Mesmo no momento do compartilhamento de arquivos, a política IB é respeitada.
 
 Por exemplo: na contoso Bank Corporation, o usuário ' Sesha@contosobank.onmicrosoft.com ' pertence ao segmento bancário de investimentos e o usuário ' Nikita@contosobank.onmicrosoft.com ' pertence ao consultor do segmento. A política IB da organização bloqueia a comunicação e a colaboração entre esses dois segmentos. Quando o usuário Sesha cria um segmento de banco de investimentos, a equipe e o site do SharePoint que os reproduzir serão acessíveis somente para os usuários do segmento do banco de investimentos. O Nikita do usuário não pode acessar esse site, mesmo que ele tenha o link do site.
 
