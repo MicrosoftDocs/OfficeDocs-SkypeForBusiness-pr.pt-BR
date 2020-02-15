@@ -1,5 +1,5 @@
 ---
-title: Atualizar ou atualizar um servidor back-end do servidor ou Standard Edition
+title: Atualizar ou atualizar um servidor back end ou um servidor Standard Edition
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733879
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0526cc7ba6a6abefd066bf07d845ffed3a4107ca
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 213a945d27c2c5d0ee2135fd0d96bbe1c29c1971
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744661"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42015354"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="upgrade-or-update-a-back-end-server-or-standard-edition-server-in-lync-server-2013"></a>Atualizar ou atualizar um servidor back-end do servidor ou da edição Standard no Lync Server 2013
+# <a name="upgrade-or-update-a-back-end-server-or-standard-edition-server-in-lync-server-2013"></a>Atualizar ou atualizar um servidor back end ou um servidor Standard Edition no Lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41744661"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
-Este tópico explica como instalar uma atualização em um servidor back-end da edição Enterprise ou um servidor Standard Edition.
+Este tópico explica como instalar uma atualização em um servidor de back-end Enterprise Edition ou um servidor Standard Edition.
 
-Se um servidor back-end estiver inoperante durante pelo menos 30 minutos enquanto você estiver atualizando, os usuários poderão entrar no modo de resiliência. Quando a atualização estiver concluída e os servidores back-end novamente conectados com os servidores de front-end do pool, os usuários retornarão à funcionalidade completa. Se a atualização levar menos de 30 minutos, os usuários não serão afetados.
+Se o servidor Back End estiver inoperante por ao menos 30 minutos enquanto você o estiver atualizando, os usuários podem entrar em modo de resiliência. Quando a atualização for concluída e os servidores Back End tiver novamente se conectado aos servidores Front End no pool, os usuários são retornados à funcionalidade total. Se a atualização levar menos de 30 minutos, os usuários não serão afetados.
 
 <div>
 
-## <a name="to-update-a-back-end-server-or-standard-edition-server"></a>Para atualizar um servidor Back End ou um servidor Standard Edition
+## <a name="to-update-a-back-end-server-or-standard-edition-server"></a>Para atualizar um servidor back end ou um servidor Standard Edition
 
 1.  Faça logon no servidor que você estiver atualizando como um membro da função CsAdministrator.
 
 2.  Faça o download do pacote de atualizações e extraia os arquivos para um disco rígido local.
 
-3.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+3.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 4.  Pare os serviços do Lync Server. Na linha de comando, digite:
     
@@ -63,9 +63,9 @@ Se um servidor back-end estiver inoperante durante pelo menos 30 minutos enquant
 
 7.  Atualize a atualização.
 
-8.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+8.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
-9.  Pare os serviços do Lync Server novamente para capturar assemblies global assembly cache (GAC) – d. Na linha de comando, digite:
+9.  Pare os serviços do Lync Server novamente para capturar os conjuntos GAC (cache de assembly global) –d. Na linha de comando, digite:
     
         Stop-CsWindowsService
 
@@ -73,17 +73,17 @@ Se um servidor back-end estiver inoperante durante pelo menos 30 minutos enquant
     
         net start w3svc
 
-11. Aplique as alterações feitas por LyncServerUpdateInstaller. exe aos bancos de dados do SQL Server seguindo um destes procedimentos:
+11. Aplique as alterações feitas pelo LyncServerUpdateInstaller.exe para os bancos de dados SQL Server por meio de uma das seguintes ações:
     
-      - Se este for um servidor back-end da edição Enterprise e não houver bancos de dados posicionados neste servidor, como arquivar ou monitorar bancos de dados, digite o seguinte na linha de comando:
+      - Se este for um servidor back-end Enterprise Edition e não houver bancos de dados colocados neste servidor, como os bancos de dados de arquivamento ou monitoramento, digite o seguinte na linha de comando:
         
             Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>
     
-      - Se este for um servidor back-end do Enterprise Edition e houver bancos de dados posicionados neste servidor, digite o seguinte em uma linha de comando:
+      - Se este for um servidor back-end Enterprise Edition e houver bancos de dados colocados neste servidor, digite o seguinte em uma linha de comando:
         
             Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>  -ExcludeCollocatedStores
     
-      - Se esse for um servidor Standard Edition, digite o seguinte em uma linha de comando:
+      - Se este for um servidor Standard Edition, digite o seguinte em uma linha de comando:
         
             Install-CsDatabase -Update -LocalDatabases
 

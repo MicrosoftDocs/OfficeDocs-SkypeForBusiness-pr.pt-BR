@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: solução de problemas com o plug-in VDI do Lync'
+title: 'Lync Server 2013: solução de problemas do plug-in do Lync VDI'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183525
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1dfd8082ef0f0cdfc2a7931a675398507daaa51
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f1d75e0801ec16957083f2e9fef043080c771ea9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744981"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028862"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-the-lync-vdi-plug-in-in-lync-server-2013"></a>Solução de problemas do plug-in VDI do Lync no Lync Server 2013
+# <a name="troubleshooting-the-lync-vdi-plug-in-in-lync-server-2013"></a>Solucionando problemas do plug-in do Lync VDI no Lync Server 2013
 
 </div>
 
@@ -35,59 +35,59 @@ ms.locfileid: "41744981"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-10_
+_**Última modificação do tópico:** 2012-10-10_
 
 <div>
 
-## <a name="troubleshooting-issues-with-installing-the-lync-vdi-plug-in-on-a-thin-client"></a>Solucionando problemas com a instalação do plug-in VDI do Lync em um cliente Thin
+## <a name="troubleshooting-issues-with-installing-the-lync-vdi-plug-in-on-a-thin-client"></a>Solucionando problemas com a instalação do plug-in do Lync VDI em um cliente fino
 
-Se houver problemas para instalar o plug-in VDI em um cliente leve, verifique o seguinte:
+Caso existam problemas com a instalação de um plug-in VDI em um cliente fino, verifique o seguinte:
 
-  - Verifique se há espaço em disco suficiente na pasta que você especificou nas variáveis do sistema TEMP e TMP.
+  - Assegure-se de que há espaço em disco suficiente na pasta que você especificou nas variáveis do sistema TEMP e TMP.
 
-  - Verifique se a proteção contra gravação está desativada. Consulte a documentação do fabricante do seu dispositivo para obter instruções.
+  - Assegure-se de que a proteção contra gravação está desligada. Consulte a documentação do fabricante do seu dispositivo para instruções.
 
 </div>
 
 <div>
 
-## <a name="troubleshooting-issues-with-pairing"></a>Solução de problemas de emparelhamento
+## <a name="troubleshooting-issues-with-pairing"></a>Solucionando problemas com pareamento
 
-Quando o emparelhamento de plug-in do VDI falha, o ícone de emparelhamento no canto inferior direito é exibido como um "X" vermelho, conforme mostrado:
+Quando o pareamento do plug-in VDI falha, o ícone de pareamento no canto inferior direito é exibido como um "X" vermelho, como mostrado a seguir:
 
-![Ícone de VDI do Lync mostrando o emparelhamento com êxito](images/JJ204948.303d618c-4bc8-41c4-8553-2475de0d395e(OCS.15).png "Ícone de VDI do Lync mostrando o emparelhamento com êxito")
+![Ícone do Lync VDI mostrando emparelhamento bem-sucedido](images/JJ204948.303d618c-4bc8-41c4-8553-2475de0d395e(OCS.15).png "Ícone do Lync VDI mostrando emparelhamento bem-sucedido")
 
-Estes são os possíveis motivos para falhas e as ações corretivas que você pode executar.
+A seguir estão possíveis razões para falhas e as ações corretivas que você pode tomar.
 
   - **O usuário inseriu credenciais incorretas durante a entrada.**
     
-    O usuário deve desconectar-se do Lync e entrar novamente com as credenciais corretas. A caixa de diálogo de emparelhamento será exibida novamente e mostrará se o emparelhamento foi bem-sucedido.
+    O usuário deve sair do Lync e entrar novamente com as credenciais corretas. A caixa de diálogo de pareamento reaparecerá e mostrará se o pareamento teve êxito.
 
   - **Outra instância do cliente de área de trabalho remota está sendo executada.**
     
     Se eles estiverem usando a conexão de área de trabalho remota no Windows, os usuários devem fazer o seguinte:
     
-    1.  Iniciar o Gerenciador de Tarefas: pressionar **Alt+Ctrl+Delete** e depois clicar em **Iniciar Gerenciador de Tarefas**.
+    1.  Iniciar o Gerenciador de Tarefas: pressionar **Alt+Ctrl+Delete**, e então clicar em **Iniciar Gerenciador de Tarefas**.
     
-    2.  Clicar na guia **Processos** e procurar todos os processos chamados **mstsc.exe** na lista.
+    2.  Clique na guia **Processos** e procure por todos os processos chamados **mstsc.exe** na lista.
     
-    3.  Realçar cada processo **mstsc.exe** e clicar em **Finalizar Processo**. 
+    3.  Selecione cada processo **mstsc.exe** e então clique em **Finalizar Processo**.
     
-    4.  Iniciar uma nova sessão de área de trabalho remota e tentar conectar-se novamente. 
+    4.  Inicie uma nova sessão de área de trabalho remota e tente conectar novamente.
 
   - **Os arquivos necessários não foram instalados corretamente.**
     
-    Após a instalação do plug-in no computador local, os seguintes arquivos devem estar presentes em C:\\arquivos\\de programas Microsoft Office\\Office15 (ou na letra de unidade apropriada):
+    Depois que o plug-in é instalado no computador local, os seguintes arquivos devem estar presentes em C:\\arquivos\\de programa Microsoft\\Office Office15 (ou a letra de unidade apropriada):
     
-      - LyncVdiPlugin.dll
+      - LyncVdiPlugin. dll
     
-      - UcVdi.dll
+      - UcVdi. dll
     
-    Se houver algum problema com o emparelhamento com VDI, verifique se esses arquivos estão presentes no computador local.
+    Caso existam quaisquer problemas com o pareamento VDI, verifique para se assegurar que estes arquivos estão presentes no computador local.
 
-  - **O cliente do Lync está em execução no computador local.**
+  - **O cliente Lync está em execução no computador local.**
     
-    Para usar o plug-in VDI do Lync, um cliente do Lync não deve estar em execução no computador local, caso contrário, haverá falha na junção. Como prática recomendada, o usuário não deve instalar um cliente do Lync no computador local.
+    Para usar o plug-in do Lync VDI, um cliente do Lync não deve estar em execução no computador local, caso contrário, o emparelhamento falhará. Como prática recomendada, o usuário não deve instalar um cliente Lync no computador local.
 
 </div>
 

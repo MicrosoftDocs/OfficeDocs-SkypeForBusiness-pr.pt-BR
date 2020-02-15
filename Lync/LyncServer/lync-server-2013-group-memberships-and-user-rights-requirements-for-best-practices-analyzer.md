@@ -1,5 +1,5 @@
 ---
-title: Associações de grupo e requisitos de direitos de usuário para o analisador de práticas recomendadas
+title: Associações de grupo e requisitos de direitos do usuário para o analisador de práticas recomendadas
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185869
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b9561736fc6dce1649d0a3dd29e15a7d88500a38
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b552f9aadfe9ed4c99c12b7e3f9524e4de143e23
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757555"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030374"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="group-memberships-and-user-rights-requirements-for-best-practices-analyzer-in-lync-server-2013"></a>Associações de grupo e requisitos de direitos de usuário para o analisador de práticas recomendadas no Lync Server 2013
+# <a name="group-memberships-and-user-rights-requirements-for-best-practices-analyzer-in-lync-server-2013"></a>Associações de grupo e requisitos de direitos do usuário para o analisador de práticas recomendadas no Lync Server 2013
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41757555"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-21_
+_**Última modificação do tópico:** 2012-10-21_
 
-Para executar com êxito o analisador de práticas recomendadas, a conta de usuário que você usa para fazer logon deve ser um membro do grupo Administradores no computador local. Além disso, para verificar seu ambiente, a conta de usuário deve ser um membro dos seguintes grupos:
+Para executar com êxito o Analisador de Práticas Recomendadas, a conta de usuário utilizada para fazer login deve ser membro do grupo Administradores no computador local. Além disso, para verificar o seu ambiente, a conta de usuário deve ser membro dos seguintes grupos:
 
-  - **Administradores de domínio**   para enumerar as informações dos serviços de domínio Active Directory e para chamar os provedores de instrumentação de gerenciamento do Windows (WMI) nos controladores de domínio e nos servidores de catálogo global.
+  - **Administradores de domínio**   para enumerar informações de serviços de domínio do Active Directory e chamar os provedores de instrumentação de gerenciamento do Windows (WMI) em controladores de domínio e servidores de catálogo global.
 
-  - **Os administradores**   são necessários em cada computador interno do Lync Server 2013 e em cada servidor de borda para chamar os provedores de instrumentação de gerenciamento do Windows (WMI) e acessar o registro.
+  - **Administradores**   necessários em cada computador interno do Lync Server 2013 e cada servidor de borda para chamar os provedores de instrumentação de gerenciamento do Windows (WMI) e para acessar o registro.
 
-  - **RTCUniversalReadOnlyAdmins**   direitos administrativos do Lync Server 2013, completos ou delegados, somente leitura.
+  - **RTCUniversalReadOnlyAdmins**   direitos administrativos de somente leitura do Lync Server 2013, completo ou delegado.
 
-  - **Modo de exibição do Exchange somente administrador**   completo ou delegado modo de exibição do Exchange somente administrador na organização do Microsoft Exchange.
+  - **Somente modo de exibição do Exchange administrador**   completo ou delegado somente para exibição do Exchange na organização do Microsoft Exchange.
 
-Se a sua conta de usuário não tiver direitos de usuário suficientes, você terá duas opções:
+Se a sua conta de usuário não tem os direitos de usuário suficientes, você tem duas opções:
 
-  - Em um prompt de comando, use o comando **runas** para executar a ferramenta em uma conta que tem direitos de usuário suficientes. A sintaxe é a seguinte:
+  - No prompt de comandos, use o comando **runas** para executar a ferramenta na conta com direitos de usuários suficientes. A sintaxe é a seguinte:
     
         runas /netonly /user:<domain>\<userName> rtcbpa.exe
 
-  - Na página **conectar-se ao Active Directory** , defina as credenciais das contas que você planeja usar para executar o analisador de práticas recomendadas. Clique em **Mostrar opções avançadas de login**. Você pode inserir três contas: uma para conectar-se aos serviços de domínio do Active Directory, uma para conexão com servidores de borda do Lync Server 2013 e outra para conexão com os servidores Exchange. Se você não especificar nenhuma dessas contas, a conta de usuário que você usou para fazer logon e executar o analisador de práticas recomendadas será usada.
+  - Na página **Conectar-se ao Active Directory**, defina as credenciais das contas que planeja usar para executar o Analisador de Práticas Recomendadas. Clique em **Mostrar opções de login avançadas**. Você pode inserir três contas: uma para conectar-se aos serviços de domínio do Active Directory, uma para conexão com os servidores de borda do Lync Server 2013 e outra para conexão com os servidores do Exchange. Se você não especificar nenhuma destas contas, a conta do usuário utilizada para fazer login e executar o Analisador de Práticas Recomendadas é usada.
 
 </div>
 

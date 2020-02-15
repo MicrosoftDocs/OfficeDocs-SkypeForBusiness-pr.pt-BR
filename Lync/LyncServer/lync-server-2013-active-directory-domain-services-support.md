@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Suporte a Serviços de Domínio Active Directory'
+title: 'Lync Server 2013: suporte aos serviços de domínio do Active Directory'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185136
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 32e1bce2546512900efb0b5ecd1256a97adde41e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7aada74d1cc96d0dfd7396231ccd96e6ed0d13a6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737011"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008553"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-domain-services-support-in-lync-server-2013"></a>Suporte a Serviços de Domínio Active Directory no Lync Server 2013
+# <a name="active-directory-domain-services-support-in-lync-server-2013"></a>Suporte aos serviços de domínio do Active Directory no Lync Server 2013
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41737011"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-11-07_
+_**Última modificação do tópico:** 2013-11-07_
 
-O Lync Server 2013 usa o repositório de gerenciamento central para armazenar dados de configuração para servidores e serviços, em vez de confiar nos serviços de domínio Active Directory para essas informações, como no passado. O Lync Server 2013 ainda armazena o seguinte no AD DS:
+O Lync Server 2013 usa o repositório de gerenciamento central para armazenar dados de configuração para servidores e serviços, em vez de confiar nos serviços de domínio do Active Directory para essas informações, como no passado. O Lync Server 2013 ainda armazena o seguinte no AD DS:
 
   - **Extensões de esquema**
     
-      - Extensões de objetos de usuário
+      - Extensões do objeto do usuário
     
-      - Extensões para as classes do Lync Server 2010 e do Office Communications Server 2007 R2 para manter a compatibilidade com versões anteriores do suporte
+      - Extensões para o Lync Server 2010 e o Office Communications Server 2007 R2 classes para manter a compatibilidade com versões anteriores com suporte
 
   - **Dados** (armazenados no esquema estendido do Lync Server 2013 e em classes existentes)
     
-      - URI do SIP do usuário e outras configurações de usuário
+      - URI do SIP do usuário e outras configurações do usuário
     
-      - Objetos de contato para aplicativos (por exemplo, o aplicativo do grupo de resposta e o aplicativo do atendente de conferência)
+      - Objetos de contato para aplicativos (por exemplo, o aplicativo de grupo de resposta e o aplicativo de atendedor de conferência)
     
       - Dados publicados para compatibilidade com versões anteriores
     
-      - Um SCP (ponto de controle de serviço) para o repositório de gerenciamento central
+      - Um ponto de controle de serviço (SCP) para o repositório de gerenciamento central
     
       - Conta de autenticação Kerberos (um objeto de computador opcional)
 
@@ -63,17 +63,17 @@ Esta seção descreve os requisitos de suporte do AD DS para o Lync Server 2013.
 
 ## <a name="supported-domain-controller-operating-systems"></a>Sistemas operacionais do controlador de domínio com suporte
 
-O Lync Server 2013 oferece suporte a controladores de domínio que executam os seguintes sistemas operacionais:
+O Lync Server 2013 suporta controladores de domínio executando os seguintes sistemas operacionais:
 
   - Sistema operacional Windows Server 2012 R2
 
   - Sistema operacional Windows Server 2012
 
-  - Sistema operacional Windows Server 2008 R2
+  - Windows Server 2008 R2 operating system
 
-  - Sistema operacional Windows Server 2008
+  - Sistema operacional Windows Server 2008
 
-  - Windows Server 2008 Enterprise 32-bit
+  - Windows Server 2008 Enterprise de 32 bits
 
   - As versões de 32 bits ou 64 bits do sistema operacional Windows Server 2003 R2
 
@@ -83,9 +83,9 @@ O Lync Server 2013 oferece suporte a controladores de domínio que executam os s
 
 <div>
 
-## <a name="forest-and-domain-functional-level"></a>Nível funcional da floresta e do domínio
+## <a name="forest-and-domain-functional-level"></a>Nível funcional de floresta e domínio
 
-Você deve disparar todos os domínios nos quais implanta o Lync Server 2013 em um nível funcional de domínio do Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 ou pelo menos Windows Server 2003.
+Você deve aumentar todos os domínios nos quais o Lync Server 2013 é implantado em um nível funcional de domínio do Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 ou pelo menos Windows Server 2003.
 
 Todas as florestas nas quais você implanta o Lync Server 2013 devem ser elevadas para um nível funcional de floresta do Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2, Windows Server 2008 ou pelo menos Windows Server 2003.
 
@@ -95,7 +95,7 @@ Todas as florestas nas quais você implanta o Lync Server 2013 devem ser elevada
 
 ## <a name="support-for-read-only-domain-controllers"></a>Suporte para controladores de domínio somente leitura
 
-O Lync Server 2013 dá suporte a implantações de serviços de domínio Active Directory que incluem controladores de domínio somente leitura ou servidores de catálogo global somente leitura, desde que existam controladores de domínio graváveis disponíveis.
+O Lync Server 2013 oferece suporte a implantações de serviços de domínio do Active Directory que incluem controladores de domínio somente leitura ou servidores de catálogo global somente leitura, desde que haja controladores de domínio graváveis disponíveis.
 
 </div>
 
@@ -103,13 +103,13 @@ O Lync Server 2013 dá suporte a implantações de serviços de domínio Active 
 
 ## <a name="domain-names"></a>Nomes de domínio
 
-O Lync Server não dá suporte a domínios com rótulo único. Por exemplo, uma floresta com um domínio raiz chamado **contoso. local** tem suporte, mas não há suporte para um domínio raiz chamado **local** . Para obter detalhes, consulte o artigo 300684 da base de dados de conhecimento Microsoft, "informações sobre como configurar o Windows para domínios com [http://go.microsoft.com/fwlink/p/?linkId=143752](http://go.microsoft.com/fwlink/p/?linkid=143752)nomes DNS de rótulo único" em.
+O Lync Server não dá suporte a domínios com rótulo único. Por exemplo, uma floresta com um domínio raiz chamado **contoso.local** é suportado, mas um domínio raiz chamado **local** não é suportado. Para obter detalhes, consulte o artigo 300684 da base de dados de conhecimento da Microsoft, "informações sobre como configurar o Windows para domínios [http://go.microsoft.com/fwlink/p/?linkId=143752](http://go.microsoft.com/fwlink/p/?linkid=143752)com nomes DNS de rótulo único" em.
 
 <div>
 
 
 > [!NOTE]  
-> O Lync Server não permite a renomeação de domínios. Se você precisar renomear um domínio onde o Lync Server está implantado, primeiro você precisa desinstalar o Lync Server, depois renomear o domínio e depois reinstalar o Lync Server.
+> O Lync Server não dá suporte à renomeação de domínios. Se for necessário renomear um domínio em que o Lync Server está implantado, primeiro você precisa desinstalar o Lync Server, renomear o domínio e, em seguida, reinstalar o Lync Server.
 
 
 
@@ -121,7 +121,7 @@ O Lync Server não dá suporte a domínios com rótulo único. Por exemplo, uma 
 
 ## <a name="locked-down-adds-environments"></a>Ambientes AD DS bloqueados
 
-Em um ambiente do AD DS bloqueado, usuários e objetos de computador geralmente são colocados em unidades organizacionais específicas (UOs) com herança de permissões desabilitada para ajudar a proteger a delegação administrativa e habilitar o uso de objetos de política de grupo (GPOs) para aplicar políticas de segurança. O Lync Server 2013 pode ser implantado em um ambiente do Active Directory bloqueado. Para obter detalhes sobre o que é necessário para implantar o Lync Server em um ambiente bloqueado, consulte [preparando os serviços de domínio do Active Directory bloqueados no Lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md) na documentação de implantação.
+Em um ambiente do AD DS bloqueado, os usuários e os objetos de computador costumam ser colocados em unidades organizacionais (OUs) específicas com herança de permissões desabilitada para ajudar a proteger a delegação administrativa e habilitar o uso de GPOs (objetos de política de grupo) para impor políticas de segurança. O Lync Server 2013 pode ser implantado em um ambiente do Active Directory bloqueado. Para obter detalhes sobre o que é necessário para implantar o Lync Server em um ambiente bloqueado, consulte [preparação de serviços de domínio do Active Directory bloqueados no Lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md) na documentação de implantação.
 
 </div>
 

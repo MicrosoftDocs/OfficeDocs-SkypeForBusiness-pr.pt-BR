@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: configurar a Federação com o Lync Online'
+title: 'Lync Server 2013: configurar Federação com o Lync Online'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184946
 ms.date: 08/15/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba9179f05918504df15a18b35b9c411f23919330
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fb679f8bf0fae046bea0177daab22203bbf9aef1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726571"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028532"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41726571"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2016-08-15_
+_**Última modificação do tópico:** 2016-08-15_
 
-Siga as etapas desta seção para configurar a interoperabilidade entre a implantação local e o Skype for Business online.
+Siga as etapas desta seção para configurar a interoperabilidade entre a sua implantação local e o Skype for Business online.
 
 <span id="a"></span>
 
@@ -61,19 +61,19 @@ A Federação permite que os usuários em sua implantação local se comuniquem 
 
 <div>
 
-## <a name="configure-your-skype-for-business-online-tenant-for-a-shared-sip-address-space"></a>Configurar seu locatário do Skype for Business online para um espaço de endereço SIP compartilhado
+## <a name="configure-your-skype-for-business-online-tenant-for-a-shared-sip-address-space"></a>Configurar seu locatário do Skype for Business online para um espaço de endereçamento SIP compartilhado
 
-Um endereço de protocolo SIP (Session Initiation Protocol) é um identificador único para cada usuário em uma rede, semelhante a um número de telefone ou endereço de email. Antes de tentar mover os usuários do Lync do local para o Skype for Business Online, você precisará configurar seu locatário do Office 365 para compartilhar o espaço de endereço SIP (protocolo de iniciação de sessão compartilhada) com a implantação local. Se ele não estiver configurado, talvez você veja a seguinte mensagem de erro:
+Um endereço SIP (Session Initiation Protocol) é um identificador exclusivo para cada usuário em uma rede, semelhante a um número de telefone ou endereço de email. Antes de tentar mover os usuários do Lync do local para o Skype for Business Online, você precisará configurar seu locatário do Office 365 para compartilhar o espaço de endereço SIP (protocolo de iniciação de sessão compartilhada) com sua implantação local. Se isso não estiver configurado, você poderá ver a seguinte mensagem de erro:
 
-Move-CsUser : HostedMigration fault: Error=(510), Description=(O locatário deste usuário não está habilitado para o espaço de endereço sip compartilhado.)
+Move-CsUser: falha de HostedMigration: erro = (510), descrição = (o locatário deste usuário não está habilitado para o espaço de endereçamento SIP compartilhado.)
 
-Para configurar um espaço de endereço SIP compartilhado, estabeleça uma sessão remota do PowerShell com o Skype for Business Online e, em seguida, execute o seguinte cmdlet:
+Para configurar um espaço de endereçamento SIP compartilhado, estabeleça uma sessão remota do PowerShell com o Skype for Business Online e, em seguida, execute o seguinte cmdlet:
 ```powershell
 Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 ```
 Para estabelecer uma sessão remota do PowerShell com o Skype for Business Online, primeiro você precisa instalar o módulo do Skype for Business online para Windows PowerShell, que pode ser obtido [http://go.microsoft.com/fwlink/p/?LinkId=391911](http://go.microsoft.com/fwlink/p/?linkid=391911)aqui:.
 
-Depois de instalar o módulo, você pode estabelecer uma sessão remota com os seguintes cmdlets:
+Após instalar o módulo, você pode estabelecer uma sessão remota com os seguintes cmdlets:
 
    ```powershell
     Import-Module LyncOnlineConnector
@@ -91,9 +91,9 @@ Depois de instalar o módulo, você pode estabelecer uma sessão remota com os s
     Import-PSSession $CSSession -AllowClobber
    ```
 
-Para obter mais informações sobre como estabelecer uma sessão remota do PowerShell com o Skype for Business Online, consulte [conectando-se ao Skype for Business online usando o Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+Para obter mais informações sobre como estabelecer uma sessão remota do PowerShell com o Skype for Business Online, consulte [conectar-se ao Skype for Business online usando o Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
-Para obter mais informações sobre como usar o módulo do PowerShell do Skype for Business Online, consulte [usando o Windows PowerShell para gerenciar o Skype for Business online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+Para obter mais informações sobre como usar o módulo PowerShell do Skype for Business Online, consulte [usando o Windows PowerShell para gerenciar o Skype for Business online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
 </div>
 

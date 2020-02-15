@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: testando o serviço de réplica'
+title: 'Lync Server 2013: testar o serviço de réplica'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 63969600
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c955da727a4213098a5b6af4f6fbb348bb60dd21
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8ad585ab12d874b7689aab6442ac913a06c8792f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745431"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030164"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745431"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-11-03_
+_**Última modificação do tópico:** 2014-11-03_
 
 
 <table>
@@ -45,17 +45,17 @@ _**Tópico da última modificação:** 2014-11-03_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Cronograma de verificação</p></td>
-<td><p>Diário</p></td>
+<td><p>Agenda de verificação</p></td>
+<td><p>Diariamente</p></td>
 </tr>
 <tr class="even">
 <td><p>Ferramenta de teste</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissões necessárias</p></td>
-<td><p>Quando executado localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.</p>
-<p>Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet <strong>Test-CsReplica</strong> . Para ver uma lista de todas as funções RBAC que podem usar esse cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</p>
+<td><p>Permissões obrigatórias</p></td>
+<td><p>Ao executar localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.</p>
+<p>Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet <strong>Test-CsReplica</strong> . Para ver uma lista de todas as funções RBAC que podem usar este cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsReplica&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -68,13 +68,13 @@ _**Tópico da última modificação:** 2014-11-03_
 
 O cmdlet **Test-CsReplica** verifica se o serviço de réplica do Lync Server 2013 está em execução no computador local. O cmdlet **Test-CsReplica** executa tarefas como:
 
-  - Verificando o status do agente do Replicator e dos serviços de agente de log centralizado
+  - Verificando o status do agente do Replicator e dos serviços de agente de registro em log centralizado
 
-  - verificar se as portas necessárias foram abertas no firewall do Windows
+  - verificando se as portas necessárias foram abertas no firewall do Windows
 
-  - Certifique-se de que os grupos de segurança do Active Directory e do computador local necessários estão presentes.
+  - garantir que exista o Active Directory e os grupos de segurança do computador local necessários.
 
-Observe que esse cmdlet deve ser executado localmente. Ou seja, ele deve ser executado no mesmo computador em que o serviço de réplica está em execução. Não há nenhuma opção para executar o cmdlet **Test-CsReplica** em um servidor remoto.
+Observe que esse cmdlet deve ser executado localmente. Ou seja, ele deve ser executado no mesmo computador em que o serviço de réplica está em execução. Não há opções para executar o cmdlet **Test-CsReplica** em um servidor remoto.
 
 </div>
 
@@ -82,13 +82,13 @@ Observe que esse cmdlet deve ser executado localmente. Ou seja, ele deve ser exe
 
 ## <a name="running-the-test"></a>Executar o teste
 
-O comando mostrado no exemplo 1 testa o serviço de réplica do Lync Server 2013 no computador local. Neste exemplo, o parâmetro Verbose é usado para garantir que as informações sobre o teste, incluindo a falha eventual ou o sucesso do teste e a localização do relatório gerado pelo teste – sejam exibidas na tela.
+O comando mostrado no exemplo 1 testa o serviço de réplica do Lync Server 2013 no computador local. Neste exemplo, o parâmetro Verbose é usado para garantir que as informações sobre o teste – incluindo a falha eventual ou o sucesso do teste e o local do relatório gerado pelo teste – sejam exibidos na tela.
 
     Test-CsReplica -Verbose
 
-O exemplo 2 é uma variação do comando mostrado no exemplo 1. Nesse caso, o parâmetro do relatório é incluído para especificar o nome e o caminho da pasta para o relatório gerado pelo teste. Se você não especificar um caminho de relatório, o relatório receberá um nome gerado automaticamente semelhante a este:
+O Exemplo 2 é uma variação do comando exibido no Exemplo 1. Nesse caso, o parâmetro Report é incluído para especificar um caminho de pasta e nome para o relatório gerado pelo teste. Se você não especificar um caminho de relatório, o relatório receberá um nome gerado automaticamente parecido com o seguinte:
 
-C:\\Users\\Administrator\\.\\litwareinc\\AppData\\local\\Temp 1 Test-CS-CS-3db40ee0-4b5d-4f58-8d3d-b1e61253129e. html
+C:\\Users\\Administrator\\.\\litwareinc\\AppData\\local\\Temp 1 Test-cs--3db40ee0-4b5d-4f58-8d3d-b1e61253129e. html
 
     Test-CsReplica -Verbose -Report C:\Logs\ReplicaTest.html
 
@@ -96,41 +96,41 @@ C:\\Users\\Administrator\\.\\litwareinc\\AppData\\local\\Temp 1 Test-CS-CS-3db40
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Determinação do sucesso ou falha
+## <a name="determining-success-or-failure"></a>Determinando o sucesso ou a falha
 
-Inserir o corpo da seção aqui.
+Insira o corpo da seção aqui.
 
-VERBOse: Criando novo arquivo de log "\\C\\:\\usuários\\testando\\os arquivos de log temporários locais\\-CsReplica-3cb066b3-dd23-411A-8932-99f01c0f940c. xml".
+VERBOse: Criando novo arquivo de log "\\C\\:\\Users\\Testing\\local temp do AppData\\-CsReplica-3cb066b3-dd23-411A-8932-99f01c0f940c. xml".
 
-VERBOse: Criando novo arquivo de log "\\C\\:\\usuários\\testando\\os arquivos de log temporários locais\\-CsReplica-3cb066b3-dd23-411A-8932-99f01c0f940c. xml".
+VERBOse: Criando novo arquivo de log "\\C\\:\\Users\\Testing\\local temp do AppData\\-CsReplica-3cb066b3-dd23-411A-8932-99f01c0f940c. xml".
 
-MODO detalhado: o processamento de "Test-CsReplica" foi concluído com êxito.
+VERBOse: o processamento de "Test-CsReplica" foi concluído com êxito.
 
-VERBOse: resultados detalhados podem ser encontrados em "\\C\\:\\usuários\\testando os usuários locais\\de\\teste de CsReplica-3cb066b3-dd23-411A-8932-99f01c0f940c. xml".
+VERBOse: resultados detalhados podem ser encontrados em "\\C\\:\\Users\\Testing\\\\local temp-CsReplica-3cb066b3-dd23-411A-8932-99f01c0f940c. xml".
 
-VERBOse: Criando um novo arquivo de log
+VERBOse: Criando novo arquivo de log
 
-"C:\\os\\usuários\\testando\\AppData\\\\local\\Temp 2-CsReplica-29fddb35-f56e-4e3c-8f4c-e
+"C:\\os\\usuários\\que\\estão\\testando o local temp\\2\\Test-CsReplica-29fddb35-f56e-4e3c-8f4c-e
 
 d3bd0e4a083. xml ".
 
-VERBOse: Criando um novo arquivo de log
+VERBOse: Criando novo arquivo de log
 
-"C:\\os\\usuários\\testando\\AppData\\\\local\\Temp 2-CsReplica-29fddb35-f56e-4e3c-8f4c-e
-
-d3bd0e4a083. html ".
-
-Aviso: falha de Test-CsReplica.
-
-Aviso: os resultados detalhados podem ser encontrados em
-
-"C:\\os\\usuários\\testando\\AppData\\\\local\\Temp 2-CsReplica-29fddb35-f56e-4e3c-8f4c-e
+"C:\\os\\usuários\\que\\estão\\testando o local temp\\2\\Test-CsReplica-29fddb35-f56e-4e3c-8f4c-e
 
 d3bd0e4a083. html ".
 
-Test-CsReplica: falha na execução do comando: o acesso do registro solicitado não está
+Aviso: Test-CsReplica falhou.
 
-autorizados.
+Aviso: resultados detalhados podem ser encontrados em
+
+"C:\\os\\usuários\\que\\estão\\testando o local temp\\2\\Test-CsReplica-29fddb35-f56e-4e3c-8f4c-e
+
+d3bd0e4a083. html ".
+
+Test-CsReplica: falha na execução do comando: o acesso ao registro solicitado não é
+
+autorizado.
 
 Na linha: 1 caractere: 1
 
@@ -140,7 +140,7 @@ Na linha: 1 caractere: 1
 
 \+CategoryInfo: InvalidOperation: (:) \[Test-CsReplica\], segurança
 
-Extremamente
+Exception
 
 \+FullyQualifiedErrorId: ProcessingFailed, Microsoft. RTC. Management. Deploy
 
@@ -148,17 +148,17 @@ atribui. TestReplicaCmdlet
 
 PS C:\\testes\\de usuários\>
 
-PS C:\\usuários\\testando\> Test-CsUcwaConference-TargetFqdn "LyncTest. SelfHost. Corp. M
+PS C:\\usuários\\que\> testam Test-CsUcwaConference-TargetFqdn "LyncTest. SelfHost. Corp. M
 
 icrosoft.com "
 
-Aviso: falha ao ler o número da porta do registrador para o número da porta de dados totalmente qualificado
+Aviso: falha ao ler o número da porta do registrador para o fornecido totalmente qualificado
 
-FQDN (nome de domínio). Usando o número da porta do registrador padrão. Extremamente
+FQDN (nome de domínio). Usando o número da porta do registrador padrão. Exceções
 
-System. InvalidOperationException: nenhum cluster correspondente localizado na topologia.
+System. InvalidOperationException: nenhum cluster correspondente encontrado na topologia.
 
-como
+por
 
 Microsoft. RTC. Management. SyntheticTransactions. SipSyntheticTransaction. TryRetri
 
@@ -166,7 +166,7 @@ eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
 Test-CsUcwaConference: não há um usuário de teste atribuído para
 
-\[LyncTest.SelfHost.Corp.Microsoft.com\]. Verifique a configuração do usuário do teste.
+\[LyncTest.SelfHost.Corp.Microsoft.com\]. Verifique a configuração do usuário de teste.
 
 Na linha: 1 caractere: 1
 

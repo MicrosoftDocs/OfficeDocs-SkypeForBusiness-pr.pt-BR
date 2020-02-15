@@ -12,16 +12,16 @@ ms:contentKeyID: 48184021
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a62dce5d074b19c2bc8958715ced61bb54a4c8e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7c24c8879f967553d5bb6449f9245781f2b56e46
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745231"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029452"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41745231"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-01_
+_**Última modificação do tópico:** 2012-10-01_
 
-O Relatório de Falhas Principais apresenta uma noção das falhas mais frequentemente relatadas e suas tendências ao longo do tempo. As falhas são baseadas em uma combinação das seguintes métricas:
+O Relatório de Falhas Principais apresenta uma noção das falhas mais frequentemente relatadas e suas tendências ao longo do tempo. As falhas são baseadas em uma combinação das duas seguintes métricas:
 
   - **ID de Diagnóstico**. Identificador único (na forma de um cabeçalho ms-diagnostics) que é anexado a uma mensagem SIP. As IDs de Diagnóstico fornecem informações úteis na solução de problemas relacionados a chamadas.
 
-  - **Código de resposta**. Os códigos de resposta são utilizados nas sessões de comunicação SIP para responder solicitações SIP. Por exemplo, suponha que Ken envie a solicitação INVITE a Pilar Ackerman (isto é, suponha que Ken Myer ligue para Pilar Ackerman). Se Pilar responder, o telefone enviará o código de resposta 200 (OK), permitindo que o telefone de Ken saiba que Pilar atendeu. O relatório de falhas principais inclui apenas códigos de resposta que foram enviados em resposta a uma falha de chamada; O Lync Server não mantém o controle de todos os códigos de resposta emitidos durante o curso de uma chamada.
+  - **Código de resposta**. Os códigos de resposta são utilizados nas sessões de comunicação SIP para responder solicitações SIP. Por exemplo, suponha que Ken envie a solicitação INVITE a Pilar Ackerman (isto é, suponha que Ken Myer ligue para Pilar Ackerman). Se Pilar responder, o telefone enviará o código de resposta 200 (OK), permitindo que o telefone de Ken saiba que Pilar atendeu. O relatório de falhas principais inclui apenas os códigos de resposta que foram enviados em resposta a uma falha de chamada; O Lync Server não mantém o controle de todos os códigos de resposta emitidos durante o curso de uma chamada.
 
 A informação é relatada não apenas para o número total de sessões quando uma falha ocorre, mas também para o número total de usuários que foram impactados pela falha.
 
@@ -49,7 +49,7 @@ A informação é relatada não apenas para o número total de sessões quando u
 
 ## <a name="accessing-the-top-failures-report"></a>Acessando o Relatório de Falhas Principais
 
-O Relatório de Falhas Principais é acessado a partir da home page Relatórios de Monitoramento. Clicar na métrica de sessões informadas levará você ao [relatório de distribuição de falha no Lync Server 2013](lync-server-2013-failure-distribution-report.md).
+O Relatório de Falhas Principais é acessado a partir da página Relatórios de Monitoramento. Clicar na métrica sessões relatadas levará você para o [relatório de distribuição de falhas no Lync Server 2013](lync-server-2013-failure-distribution-report.md).
 
 </div>
 
@@ -57,13 +57,13 @@ O Relatório de Falhas Principais é acessado a partir da home page Relatórios 
 
 ## <a name="making-the-best-use-of-the-top-failures-report"></a>Fazendo o melhor uso do Relatório de Falhas Principais
 
-O Relatório de Falhas Principais é incomum quanto a uma coisa: ele permite a filtragem de até 5 IDs de diagnóstico de uma vez. (Normalmente, você só pode filtrar um item, como o endereço SIP de usuário, por vez.) Para filtrar várias IDs de diagnóstico, basta inserir cada ID na caixa de ID de Diagnóstico, separando as IDs com vírgula. (Se você quiser, pode deixar um espaço em branco após cada vírgula.) Por exemplo:
+O Relatório de Falhas Principais é incomum quanto a uma coisa: ele permite a filtragem de até 5 IDs de diagnóstico de uma vez. (Normalmente, você só pode filtrar um item, como o endereço SIP de usuário, por vez.) Para filtrar várias IDs de diagnóstico, apenas insira cada ID na caixa de ID de Diagnóstico, separando as IDs com vírgula. (Se você quiser, pode deixar um espaço em branco após cada vírgula.) Por exemplo:
 
 1011, 2412, 1033, 52116, 1008
 
 Faça isso e apenas chamadas que falharam e foram reportadas pelo menos em uma dessas cinco IDs de diagnóstico serão exibidas.
 
-Ao passar o mouse sobre um Código de Resposta, você verá uma dica que diz o que um Código de Resposta em questão significa. Por exemplo, se você passar o mouse sobre o Código de Resposta 486, verá esta mensagem:
+Se você manter o mouse sob Código de Resposta, você verá uma dica que diz o que um Código de Resposta em questão significa. Por exemplo, se você manter o mouse sobre o Código de Resposta 486, você verá esta mensagem:
 
 Ocupado.
 
@@ -73,7 +73,7 @@ Ocupado.
 
 ## <a name="filters"></a>Filtros
 
-Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionado ou exibir os dados retornados de diferentes maneiras. Por exemplo, o Relatório de Falhas Principais permite filtrar os dados retornados com base, por exemplo, no tipo de atividade (sessão ponto a ponto ou sessão de conferência), ou com base no código de resposta SIP que acompanhava a sessão com falha. Você também pode escolher como os dados devem ser agrupados. Nesse caso, os usos são agrupados por hora, dia, semana ou mês.
+Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionado ou para exibir os dados retornados de diferentes maneiras. Por exemplo, o Relatório de Falhas Principais permite filtrar os dados retornados com base, por exemplo, no tipo de atividade (sessão ponto a ponto ou sessão de conferência), ou no código de resposta SIP que acompanhava a sessão com falha. Você também pode escolher como os dados devem ser agrupados. Nesse caso, os usos são agrupados por hora, dia, semana ou mês.
 
 A tabela a seguir lista os filtros que você pode usar com o Relatório de Falhas Principais.
 
@@ -93,29 +93,29 @@ A tabela a seguir lista os filtros que você pode usar com o Relatório de Falha
 <tbody>
 <tr class="odd">
 <td><p><strong>De</strong></p></td>
-<td><p>Data/hora de início para o intervalo de tempo. Para ver os dados por horas, insira a data e hora de início conforme segue:</p>
-<p>7/7/2012 1:00 PM</p>
-<p>Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:</p>
+<td><p>Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:</p>
+<p>7/7/2012 13:00 horas</p>
+<p>Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</p>
 <p>7/7/2012</p>
-<p>Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
+<p>Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/3/2012</p>
-<p>As semanas sempre vão de domingo a sábado.</p></td>
+<p>As semanas são sempre de domingo a sábado.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Até</strong></p></td>
-<td><p>Data/hora final de intervalo de tempo. Para ver os dados por horas, insira a data e hora final conforme segue:</p>
-<p>7/7/2012 1:00 PM</p>
-<p>Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:</p>
+<td><p><strong>To</strong></p></td>
+<td><p>Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:</p>
+<p>7/7/2012 13:00 horas</p>
+<p>Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</p>
 <p>7/7/2012</p>
-<p>Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
+<p>Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/3/2012</p>
-<p>As semanas sempre vão de domingo a sábado.</p></td>
+<p>As semanas são contadas de domingo até sábado.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Tipo de atividade</strong></p></td>
-<td><p>Tipo de atividade. Selecione uma das seguintes opções:</p>
+<td><p>Tipo de atividade. Selecione um dos seguintes:</p>
 <ul>
-<li><p>[Todos]</p></li>
+<li><p>Todos os</p></li>
 <li><p>Ponto a ponto</p></li>
 <li><p>Conferência</p></li>
 </ul></td>
@@ -126,7 +126,7 @@ A tabela a seguir lista os filtros que você pode usar com o Relatório de Falha
 </tr>
 <tr class="odd">
 <td><p><strong>Pool</strong></p></td>
-<td><p>O FQDN (nome de domínio totalmente qualificado) do pool Registrador Avançado ou Servidor de Borda. Você pode selecionar um pool individual ou clicar em <strong>[Todos]</strong> para ver os dados de todos os pools. Essa lista suspensa é preenchida automaticamente com base nos registros no banco de dados.</p></td>
+<td><p>FQDN (nome de domínio totalmente qualificado do pool de Registrador ou Servidor de Borda. Você pode selecionar um pool individual ou clicar em <strong>[Todos]</strong> para exibir dados de todos os pools. Esta lista suspensa é preenchida automaticamente com base nos registros contidos no banco de dados.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Categoria</strong></p></td>
@@ -135,7 +135,7 @@ A tabela a seguir lista os filtros que você pode usar com o Relatório de Falha
 <li><p>Falha inesperada e esperada</p></li>
 <li><p>Falha inesperada</p></li>
 </ul>
-<p>Uma &quot;falha&quot; esperada é uma falha que espera acontecer. Por exemplo, se um usuário tiver definido seu status como Não perturbe, é esperado que qualquer chamada para esse usuário falhe. Uma &quot;falha&quot; inesperada é uma falha que ocorre em que parece ser um sistema de outra forma saudável. Por exemplo, uma chamada não deve ser encerrada se o chamador for colocado em espera. Se isso ocorrer, a situação será sinalizada como falha inesperada.</p></td>
+<p>Uma &quot;falha&quot; esperada é uma falha que deve ocorrer. Por exemplo, se um usuário configurou seu status para Não Perturbe, é previsto que qualquer chamada para ele irá falhar. Uma &quot;falha&quot; inesperada é uma falha que ocorre no que parece ser um sistema saudável de outra forma. Por exemplo, uma chamada não deveria ser terminada se o chamador for colocado em espera. Se isso ocorrer, será sinalizado como uma falha inesperada.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Código de resposta</strong></p></td>
@@ -144,7 +144,7 @@ A tabela a seguir lista os filtros que você pode usar com o Relatório de Falha
 </tr>
 <tr class="even">
 <td><p><strong>ID do Diagnóstico</strong></p></td>
-<td><p>Identificador exclusivo (na forma de um cabeçalho ms-diagnostics) anexado a uma mensagem SIP que fornece informações úteis para resolução de erros. Os cabeçalhos de diagnóstico são opcionais (é possível ter sessões SIP que não os incluem), e as IDs de diagnóstico são relatadas somente em sessões com algum tipo de problema.</p></td>
+<td><p>Identificador exclusivo (na forma de um cabeçalho ms-diagnostics) anexado a uma mensagem SIP que geralmente fornece informações úteis para solucionar problemas de erros. Cabeçalhos de diagnóstico são opcionais (é possível ter sessões SIP que não incluem esses cabeçalhos) e IDs de diagnóstico serão relatadas somente para as sessões que apresentaram problemas de algum tipo.</p></td>
 </tr>
 </tbody>
 </table>
@@ -158,7 +158,7 @@ A tabela a seguir lista os filtros que você pode usar com o Relatório de Falha
 
 A tabela a seguir lista as informações fornecidas no Relatório de Falhas Principais.
 
-### <a name="top-failures-report-metrics"></a>Métricas do Relatório de Falhas Principais
+### <a name="top-failures-report-metrics"></a>Medição do Relatório de Falhas Principais
 
 <table>
 <colgroup>
@@ -169,20 +169,20 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falhas Prin
 <thead>
 <tr class="header">
 <th>Nome</th>
-<th>Você pode classificar este item?</th>
+<th>É possível classificar este item?</th>
 <th>Descrição</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Classificação</strong></p></td>
+<td><p><strong>Rank</strong></p></td>
 <td><p>Sim</p></td>
 <td><p>Classificação relativa com base no número de sessões relatadas.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Sessões relatadas</strong></p></td>
 <td><p>Sim</p></td>
-<td><p>Número total de sessões com falha com base na ID de diagnóstico e no código de resposta SIP.</p></td>
+<td><p>Número total de sessões com falha baseadas na ID de diagnóstico e no código de resposta SIP.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Usuários afetados</strong></p></td>
@@ -190,9 +190,9 @@ A tabela a seguir lista as informações fornecidas no Relatório de Falhas Prin
 <td><p>Número total de usuários afetados pela sessão com falha.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Informações da falha</strong></p></td>
+<td><p><strong>Informações de falha</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Informações detalhadas sobre a falha, incluindo a ID de diagnóstico, o código de resposta SIP e a descrição do motivo da falha na sessão.</p></td>
+<td><p>Informações detalhadas sobre a falha, incluindo a ID de diagnóstico, o código de resposta SIP e a descrição do motivo da sessão com falha.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Tendência no passado</strong></p></td>

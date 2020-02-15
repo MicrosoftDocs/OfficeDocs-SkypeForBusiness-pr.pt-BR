@@ -1,5 +1,5 @@
 ---
-title: Remover servidores de Arquivamento e de Monitoramento herdados
+title: Remover servidores de arquivamento e monitoramento herdados
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185261
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 816855b2661b8834264a2ff4b573ecbfe403d9b4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 331a6f24cd2cc176679f628bc54460a6c3c7a718
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727161"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008897"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-legacy-archiving-and-monitoring-servers"></a>Remover servidores de Arquivamento e de Monitoramento herdados
+# <a name="remove-legacy-archiving-and-monitoring-servers"></a>Remover servidores de arquivamento e monitoramento herdados
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41727161"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-26_
+_**Última modificação do tópico:** 2012-09-26_
 
-Se a sua implantação do Office Communications Server 2007 R2 continha um servidor de arquivamento ou um servidor de monitoramento, após a migração para o Lync Server 2013, esses servidores podem ser removidos do ambiente herdado desde que todos os usuários tenham sido removidos de todos os outros Pools do Office Communications Server 2007 R2. Você pode remover o servidor de arquivamento ou o servidor de monitoramento em qualquer sequência. O requisito chave é que todos os usuários foram removidos de todos os pools remanescentes do Office Communications Server 2007 R2.
+Se sua implantação do Office Communications Server 2007 R2 contiver um servidor de arquivamento ou um servidor de monitoramento, após a migração para o Lync Server 2013, esses servidores poderão ser removidos do ambiente herdado, desde que todos os usuários tenham sido removidos de qualquer outro Pools do Office Communications Server 2007 R2. É possível remover o Servidor de Arquivamento ou o Monitoring Server em qualquer sequência. O requisito chave é que todos os usuários tenham sido removidos de todos os pools restantes do Office Communications Server 2007 R2.
 
 Você pode mover os usuários do Office Communications Server 2007 R2 para o Lync Server 2013 seguindo os procedimentos descritos na [fase 6: mover usuários para o pool piloto](phase-6-move-users-to-the-pilot-pool.md).
 
-Depois de confirmar que todos os usuários foram removidos de todos os grupos restantes, siga o procedimento em "removendo servidores e funções de servidor [http://go.microsoft.com/fwlink/p/?linkId=205887](http://go.microsoft.com/fwlink/p/?linkid=205887)" em.
+Após confirmar que todos os usuários foram removidos de todos os pools restantes, siga o procedimento em "removendo servidores e funções de servidor [http://go.microsoft.com/fwlink/p/?linkId=205887](http://go.microsoft.com/fwlink/p/?linkid=205887)" em.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Visão geral da redimensionamento de conferência do Lync Server 2013
+title: Lync Server 2013 visão geral da escalabilidade de conferência
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183461
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a65fe1ddd19046c1d6b424031d27127965f3849f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 631a8ecbe6304b39824f2f65dab908dc63d0067c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741411"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028822"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41741411"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-01_
+_**Última modificação do tópico:** 2012-10-01_
 
-O tamanho máximo de uma conferência hospedada no Lync Server 2013 em um pool compartilhado (ou seja, um pool que hospeda todas as cargas de trabalho do Lync Server 2013, incluindo mensagens instantâneas (IM) e presença, conferência e Enterprise Voice, é a 250 usuários.
+O tamanho máximo de uma conferência hospedada no Lync Server 2013 em um pool compartilhado (ou seja, um pool que hospeda todas as cargas de trabalho do Lync Server 2013, incluindo mensagens instantâneas (IM) e presença, conferência e Enterprise Voice) é de 250 usuários.
 
-Antes de discutirmos a utilização do Lync Server para dar suporte a reuniões maiores, vamos examinar a metodologia de teste de escalabilidade que usamos e como determinamos o modelo de usuário 250 para o teste de pool compartilhado.
+Antes de discutirmos o uso do Lync Server para dar suporte a reuniões maiores, vamos dar uma olhada na metodologia de teste de escalabilidade que usamos e como determinamos o modelo de usuário 250 para teste de pool compartilhado.
 
 <div>
 

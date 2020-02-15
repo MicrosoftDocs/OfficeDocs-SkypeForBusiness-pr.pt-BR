@@ -12,16 +12,16 @@ ms:contentKeyID: 48183530
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f883e8d730e63788b4cbe0ccd3315f21e6fea97
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 83d14f66c03ccc7def2773f7c5c8ae841b71d103
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726591"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028542"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,59 +35,59 @@ ms.locfileid: "41726591"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
-A Federação com um cliente do Microsoft Lync Online 2010 exige que você conclua as seguintes etapas:
+A Federação com um cliente do Microsoft Lync Online 2010 requer que você conclua as seguintes etapas:
 
-  - Configurar o suporte para o domínio do cliente Lync Online 2010 (por exemplo, contoso.onmicrosoft.com). Conforme especificado na seção [pré-requisitos para federação com um cliente do Lync Online no Lync Server 2013](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md) desta documentação, você já deve ter habilitado a Federação para a sua organização. Habilitar a Federação requer a especificação do método a ser usado para controlar o acesso por domínios federados. Se você configurou sua organização para usar a descoberta, adicionar o domínio à lista de permissões de sua organização é opcional. Se você não habilitou a descoberta de domínio, deverá adicionar o nome de domínio do cliente do Lync Online à sua lista de domínios permitidos. Você pode adicionar um nome de domínio usando o painel de controle do Lync Server ou executando o cmdlet **New-CSAllowedDomain** . Para obter detalhes sobre como usar o painel de controle do Lync Server, incluindo a habilitação da descoberta de domínios, consulte [gerenciar provedores federados SIP para sua organização no Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md) na documentação de operações. Para obter detalhes sobre como usar o cmdlet **New-CSAllowedDomain** para adicionar um domínio, consulte [New-CSAllowedDomain](https://docs.microsoft.com/powershell/module/skype/New-CsAllowedDomain) na documentação de operações.
+  - Configure o suporte para o domínio do cliente do Lync Online 2010 (por exemplo, contoso.onmicrosoft.com). Conforme especificado na seção [pré-requisitos para federação com um cliente do Lync Online no Lync Server 2013](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md) desta documentação, você já deve ter habilitado a Federação para sua organização. A habilitação da federação exige a especificação do método a ser usado para controlar o acesso dos domínios federados. Caso tenha configurado sua organização para usar a descoberta, a inclusão do domínio na sua lista de organizações permitidas é opcional. Se você não habilitou a descoberta de domínios, deverá adicionar o nome de domínio do cliente do Lync Online à sua lista de domínios permitidos. Você pode adicionar um nome de domínio usando o painel de controle do Lync Server ou executando o cmdlet **New-CSAllowedDomain** . Para obter detalhes sobre como usar o painel de controle do Lync Server, incluindo a habilitação da descoberta de domínios, consulte [Manage SIP Federated Providers for Your Organization in Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md) na documentação operações. Para obter detalhes sobre como usar o cmdlet **New-CSAllowedDomain** para adicionar um domínio, consulte [New-CSAllowedDomain](https://docs.microsoft.com/powershell/module/skype/New-CsAllowedDomain) na documentação operações.
     
     <div>
     
 
     > [!NOTE]  
-    > Um cliente do Lync Online pode ter vários domínios. Se quiser federar-se com mais de um dos domínios, você deve configurar o suporte para cada domínio individual com o qual você deseja dar suporte à Federação, e o administrador do cliente do Lync Online deve habilitar a Federação para cada um dos domínios serem federados.
+    > Um cliente do Lync Online pode ter vários domínios. Se quiser federar-se com mais de um dos domínios, você deve configurar o suporte para cada domínio individual com o qual você deseja dar suporte à Federação e o administrador do cliente do Lync Online deve habilitar a Federação para cada um dos domínios a serem federados.
 
     
     </div>
 
-  - Configurar o suporte para o provedor de hospedagem do domínio do cliente do Lync Online 2010 com o qual você deseja federar. Use o procedimento desta seção para configurar o suporte para o provedor de hospedagem.
+  - Configure o suporte para o provedor de hospedagem do domínio do cliente do Lync Online 2010 com o qual você deseja federar. Use os procedimentos desta seção para configurar o suporte ao provedor de hospedagem.
     
     <div>
     
 
     > [!NOTE]  
-    > Esta etapa é necessária apenas para federação com um domínio de um cliente do Lync Online, e não para federação com qualquer domínio implantado no local de um parceiro federado.
+    > Esta etapa é necessária somente para federação com um domínio de um cliente do Lync Online, não para federação com qualquer domínio implantado no local em um local de parceiro federado.
 
     
     </div>
 
 <div>
 
-## <a name="to-configure-support-for-a-hosting-provider"></a>Para configurar o suporte para um provedor de hospedagem
+## <a name="to-configure-support-for-a-hosting-provider"></a>Configurar o suporte para um provedor de hospedagem
 
-1.  Em um servidor front-end, inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Em um servidor front-end, inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e em **Shell de gerenciamento do Lync Server**.
 
-2.  Execute o cmdlet **New-CsHostingProvider** para criar e configurar o provedor de hospedagem. Por exemplo, execute:
+2.  Execute o cmdlet **New-CsHostingProvider** para criar e configurar um provedor de hospedagem. Por exemplo, execute:
     
         New-CsHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -VerificationLevel UseSourceVerification -Enabled $True -EnabledSharedAddressSpace $False -HostsOCSUsers $False -IsLocal $False
     
     O exemplo anterior define os seguintes parâmetros:
     
-      - **Identity** especifica um identificador de valor de cadeia de caracteres exclusivo para o provedor de hospedagem que você está criando. Observe que o comando falhará se um provedor existente já tiver sido configurado com essa identidade.
+      - **Identidade** especifica um identificador de valor exclusivo de cadeia de caracteres para o provedor de hospedagem que você está criando. Observe que o comando não funcionará casa haja um provedor existente já configurado com aquela Identity.
     
-      - **ProxyFQDN** especifica o nome de domínio totalmente qualificado (FQDN) para o servidor de proxy usado pelo provedor de hospedagem. Esse valor não pode ser modificado. Se o provedor de hospedagem alterar o seu servidor proxy, será necessário excluir e recriar a entrada desse provedor.
+      - **ProxyFQDN** especifica o FQDN (nome de domínio totalmente qualificado) para o servidor proxy usado pelo provedor de hospedagem. Este valor não pode ser modificado. Se o provedor de hospedagem alterar seu servidor proxy, será necessário que você exclua e recrie a entrada para aquele provedor.
     
-      - **VerificationLevel** especifica como as mensagens enviadas de um provedor de hospedagem são verificadas para garantir que elas foram enviadas desse provedor.
+      - **VerificationLevel** especifica como (ou se) as mensagens enviadas de um provedor de hospedagem são verificados para garantir que sejam enviados a partir daquele provedor.
     
-      - **Habilitado ** indica se a conexão de rede entre seu domínio e o provedor de hospedagem está habilitado. As mensagens não podem ser trocadas entre as duas organizações até que esse valor seja definido como **Verdadeiro **.
+      - **Enabled** indica se a conexão de rede entre o seu domínio e o provedor de hospedagem está ativada. As mensagens não podem ser trocadas entre as duas organizações até que este valor seja definido como **True**.
     
-      - **EnabledSharedAddressSpace ** indica se o provedor de hospedagem está sendo usado em um cenário de espaço de endereço SIP compartilhado (domínio dividido).
+      - **EnabledSharedAddressSpace** indica se o provedor de hospedagem está sendo usado em um cenário de espaço de endereço SIP compartilhado (domínio dividido).
     
-      - **HostsOCSUsers** indica se o provedor de hospedagem é usado para hospedar contas do Lync Server. Se estiver definido como **Falso **, o provedor hospedará outros tipos de conta, como contas do Microsoft Exchange.
+      - **HostsOCSUsers** indica se o provedor de hospedagem é usado para hospedar as contas do Lync Server. Se estiver definido como **Falso**, o provedor hospedará outros tipos de conta, como contas do Microsoft Exchange.
     
-      - **IsLocal** indica se o servidor proxy usado pelo provedor de hospedagem está contido na sua topologia do Lync Server.
+      - **IsLocal** indica se o servidor proxy usado pelo provedor de hospedagem está contido em sua topologia do Lync Server.
     
-    Para obter detalhes sobre como usar esse cmdlet, consulte [New-CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/New-CsHostingProvider) na documentação de operações.
+    Para obter detalhes sobre como usar esse cmdlet, consulte [New-CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/New-CsHostingProvider) na documentação operações.
 
 </div>
 

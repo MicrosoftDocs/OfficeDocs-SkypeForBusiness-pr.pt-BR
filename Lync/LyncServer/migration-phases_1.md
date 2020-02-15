@@ -1,5 +1,5 @@
 ---
-title: Fases de migração
+title: Fases da migração
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184494
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec2e90dfa2133817236001406704dfbb78d22bf0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b0aa69ce085c3d60e71f2bf465c91143dd812010
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730931"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030685"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migration-phases"></a>Fases de migração
+# <a name="migration-phases"></a>Fases da migração
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41730931"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-08-29_
+_**Última modificação do tópico:** 2012-08-29_
 
-As fases a seguir descrevem o processo de uma migração de pool do Office Communications Server 2007 R2 para o Lync Server 2013.
+As fases a seguir descrevem o processo de migração de pool do Office Communications Server 2007 R2 para o Lync Server 2013.
 
   - [Fase 1: planejar a migração do Office Communications Server 2007 R2](phase-1-plan-your-migration-from-office-communications-server-2007-r2.md)
 
-  - [Fase 2: Preparar para migração](phase-2-prepare-for-migration_1.md)
+  - [Fase 2: preparar-se para a migração](phase-2-prepare-for-migration_1.md)
 
   - [Fase 3: implantar o pool piloto do Lync Server 2013](phase-3-deploy-lync-server-2013-pilot-pool_1.md)
 
-  - [Fase 4: topologias de mesclagem](phase-4-merge-topologies.md)
+  - [Fase 4: mesclar topologias](phase-4-merge-topologies.md)
 
   - [Fase 5: configurar o pool piloto](phase-5-configure-the-pilot-pool.md)
 
@@ -53,11 +53,11 @@ As fases a seguir descrevem o processo de uma migração de pool do Office Commu
 
   - [Fase 7: Adicionar o servidor de borda do Lync Server 2013 ao pool piloto](phase-7-add-lync-server-2013-edge-server-to-pilot-pool.md)
 
-  - [Fase 8: mover da implantação piloto para produção](phase-8-move-from-pilot-deployment-into-production.md)
+  - [Fase 8: mover da implantação piloto para a produção](phase-8-move-from-pilot-deployment-into-production.md)
 
-  - [Fase 9: concluir tarefas posteriores à migração](phase-9-complete-post-migration-tasks.md)
+  - [Fase 9: concluir tarefas de migração](phase-9-complete-post-migration-tasks.md)
 
-  - [Fase 10: descomissionar site herdado](phase-10-decommission-legacy-site.md)
+  - [Fase 10: encerrar o site herdado](phase-10-decommission-legacy-site.md)
 
 </div>
 

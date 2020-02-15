@@ -1,5 +1,5 @@
 ---
-title: Configurar uma implantação no local para ambiente híbrido com o Lync Online
+title: Configurando uma implantação local para híbrida com o Lync Online
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185321
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eda277d2be970e2495c8bb4cb1a8bd2bcb288bc9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 58fc02c6416f1a0d1b60a5c1cdcf3c91c940c82c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741171"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029692"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-an-on-premises-deployment-for-hybrid-with-lync-online"></a>Configurar uma implantação no local para ambiente híbrido com o Lync Online
+# <a name="configuring-an-on-premises-deployment-for-hybrid-with-lync-online"></a>Configurando uma implantação local para híbrida com o Lync Online
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41741171"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-05-28_
+_**Última modificação do tópico:** 2014-05-28_
 
-Uma implantação híbrida é uma implantação na qual alguns usuários são hospedados localmente e alguns usuários são hospedados online, mas todos os usuários compartilham o mesmo domínio, como user@contoso.com. Esta seção orienta você na implantação dos aplicativos necessários para uma implantação híbrida e, em seguida, a configuração da implantação para habilitá-la.
+Uma implantação híbrida é uma implantação na qual alguns usuários estão hospedados no local e alguns usuários estão hospedados online, mas todos os usuários compartilham o mesmo domínio, como user@contoso.com. Esta seção orienta você durante a implantação dos aplicativos necessários para uma implantação híbrida e, em seguida, a configuração da implantação para habilitá-la.
 
 <div>
 
@@ -49,11 +49,11 @@ Uma implantação híbrida é uma implantação na qual alguns usuários são ho
 
   - [Configurar a Federação do Lync Server 2013 com o Lync Online](lync-server-2013-configure-federation-with-lync-online.md)
 
-  - [Configurar a Federação para um provedor de audioconferência no Lync Server 2013](lync-server-2013-configure-federation-for-an-audio-conferencing-provider.md)
+  - [Configurar Federação para um provedor de conferência de áudio no Lync Server 2013](lync-server-2013-configure-federation-for-an-audio-conferencing-provider.md)
 
   - [Mover usuários para o Lync Online no Lync Server 2013](lync-server-2013-move-users-to-lync-online.md)
 
-  - [Administrando usuários em uma implantação híbrida do Lync Server 2013](lync-server-2013-administering-users-in-a-hybrid-deployment.md)
+  - [Administrar usuários em uma implantação híbrida do Lync Server 2013](lync-server-2013-administering-users-in-a-hybrid-deployment.md)
 
 </div>
 

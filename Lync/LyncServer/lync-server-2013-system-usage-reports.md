@@ -12,16 +12,16 @@ ms:contentKeyID: 48183529
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a349a9816f11b73d942598f0141df497fb0294c0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bacfc69c0b587ad613382f48359123ed9e0d0443
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764247"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028412"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764247"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-21_
+_**Última modificação do tópico:** 2012-10-21_
 
-Os relatórios de uso do sistema fornecem informações de uso do sistema com base nos dados de registro de detalhes de chamadas (CDR) coletados pelo Lync Server.
+Os relatórios de uso do sistema fornecem informações de uso do sistema com base nos dados de registro de detalhes das chamadas (CDR) coletados pelo Lync Server.
 
 <div>
 
@@ -45,9 +45,9 @@ Os relatórios de uso do sistema fornecem informações de uso do sistema com ba
 
   - [Relatório de registro de usuário no Lync Server 2013](lync-server-2013-user-registration-report.md)
     
-    Fornece um resumo da conectividade do usuário para a implantação do Lync Server 2013 com base em eventos de registro, como logons de usuário. O relatório fornece uma maneira de exibir os logons internos e externos e comparar o número de usuários que entraram no Lync Server 2013 com o número de usuários que realmente usaram o serviço enquanto eles estavam conectados.
+    Fornece um resumo da conectividade do usuário para a implantação do Lync Server 2013 com base em eventos de registro, como logons de usuário. O relatório oferece uma maneira de exibir os logons internos e externos e para comparar o número de usuários que fizeram logon no Lync Server 2013 com o número de usuários que realmente usavam o serviço enquanto estavam conectados.
 
-  - [Relatório de Resumo de atividade ponto a ponto no Lync Server 2013](lync-server-2013-peer-to-peer-activity-summary-report.md)
+  - [Relatório de Resumo de atividades ponto a ponto no Lync Server 2013](lync-server-2013-peer-to-peer-activity-summary-report.md)
     
     Oferece um resumo de IM (mensagens instantâneas), áudio, vídeo, transferência de arquivos e sessões de compartilhamento de aplicativos ponto a ponto. Sessões ponto a ponto são sessões que envolvem apenas dois usuários.
 
@@ -57,15 +57,15 @@ Os relatórios de uso do sistema fornecem informações de uso do sistema com ba
 
   - [Relatório de Resumo de conferência PSTN no Lync Server 2013](lync-server-2013-pstn-conference-summary-report.md)
     
-    Fornece um resumo de todas as conferências PSTN. Neste tipo de conferência, também chamada de *Conferência Discada*, pelo menos um usuário disca usando a PSTN (rede telefônica pública comutada).
+    Fornece um resumo de todas as conferências PSTN. Estas são conferências nas quais pelo menos um usuário disca usando a PSTN (rede telefônica pública comutada), o que também é conhecido como.*conferência discada*.
 
   - [Relatório de uso do grupo de resposta no Lync Server 2013](lync-server-2013-response-group-usage-report.md)
     
-    Fornece um resumo do uso do grupo de resposta. O aplicativo grupo de resposta fornece uma maneira de você direcionar automaticamente chamadas telefônicas para entidades como suporte técnico ou linha de suporte ao cliente.
+    Fornece um resumo do uso do grupo de resposta. O aplicativo grupo de resposta oferece uma maneira de rotear automaticamente chamadas telefônicas para entidades como uma linha de suporte técnico ou de atendimento ao cliente.
 
   - [Relatório de inventário de telefone IP no Lync Server 2013](lync-server-2013-ip-phone-inventory-report.md)
     
-    Fornece informações sobre os telefones IP atualmente em uso na organização. O relatório baseia-se em registros telefônicos e em logons. Ele não deve ser considerado um inventário completo. Por exemplo, você pode já ter removido telefones que ainda estão listados no relatório (porque eles fizeram logon pelo menos uma vez). Da mesma forma, você também pode ter novos telefones que não aparecem no relatório simplesmente porque os usuários ainda não se conectaram ao Lync Server com seus novos telefones.
+    Fornece informações sobre os telefones IP atualmente em uso na organização. O relatório baseia-se em registros telefônicos e em logons. Ele não deve ser considerado como um inventário completo. Por exemplo, você pode já ter removido telefones que ainda estão listados no relatório (porque eles fizeram logon pelo menos uma vez). Da mesma forma, você também pode ter novos telefones que não aparecem no relatório simplesmente porque os usuários não fizeram logon no Lync Server com seus novos telefones ainda.
 
   - [Relatório de controle de admissão de chamadas no Lync Server 2013](lync-server-2013-call-admission-control-report.md)
     

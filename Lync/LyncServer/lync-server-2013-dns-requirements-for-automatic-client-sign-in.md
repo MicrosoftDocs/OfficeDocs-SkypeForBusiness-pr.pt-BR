@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: requisitos de DNS para entrada automática do cliente'
+title: 'Lync Server 2013: requisitos de DNS para entrada automática de cliente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d033621382587367630d9119c2176e976cb2c2d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b022d9780d1498f70fd5918894a1412996731004
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739151"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031235"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-automatic-client-sign-in-in-lync-server-2013"></a>Requisitos de DNS para entrada automática do cliente no Lync Server 2013
+# <a name="dns-requirements-for-automatic-client-sign-in-in-lync-server-2013"></a>Requisitos de DNS para entrada de cliente automática no Lync Server 2013
 
 </div>
 
@@ -35,34 +35,34 @@ ms.locfileid: "41739151"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-19_
+_**Última modificação do tópico:** 2012-06-19_
 
-Esta seção explica os registros de sistema de nome de domínio (DNS) necessários para a entrada automática do cliente. Ao implantar seus servidores Standard Edition ou pools front-end, você pode configurar seus clientes para usar a descoberta automática para entrar no servidor padrão da edição ou no pool de front-end apropriado. Se você planeja exigir que seus clientes se conectem manualmente ao Lync Server 2013, poderá ignorar este tópico.
+Esta seção explica os registros do DNS (Sistema de Nomes de Domínio) que são necessários para entrada automática de clientes. Quando você implanta servidores Standard Edition ou pools de Front-Ends, é possível configurar os clientes para que eles usem a descoberta automática para entrar no servidor Standard Edition ou no pool Front-End. Se você planeja exigir que seus clientes se conectem manualmente ao Lync Server 2013, você pode ignorar este tópico.
 
-Para dar suporte à entrada automática do cliente, você deve:
+Para dar suporte à entrada automática de clientes, você deve:
 
-  - Designe um único servidor ou pool para distribuir e autenticar solicitações de entrada do cliente. Pode ser um servidor ou pool existente em sua organização que hospeda usuários ou você pode designar um servidor ou pool dedicado para essa finalidade que não hospede usuários. Para alta disponibilidade, recomendamos que você designe um pool de front-ends para essa função.
+  - Designar um único servidor ou pool para distribuir e autenticar as solicitações de entrada dos clientes. Ele pode ser um servidor ou pool existente em sua organização que hospede usuários, ou você pode designar para essa finalidade um servidor ou pool dedicado que não hospede usuários. Para que haja alta disponibilidade, recomendamos que você designe um pool Front-End para essa função.
 
-  - Crie um registro SRV DNS interno para dar suporte à entrada automática do cliente para este servidor ou pool.
+  - Criar um registro SRV de DNS interno para dar suporte à entrada automática de clientes nesse servidor ou pool.
     
     <div>
     
 
     > [!NOTE]  
-    > Nos seguintes requisitos de registro, o domínio SIP refere-se à porção host dos URIs SIP atribuídos aos usuários. Por exemplo, se URIs SIP forem do formato * @contoso. com, contoso.com será o domínio SIP. O domínio SIP muitas vezes é diferente do domínio interno do Active Directory. Uma organização também pode dar suporte a vários domínios SIP.
+    > Nos requisitos de registro a seguir, o domínio SIP se refere à parte de host dos URIs do SIP atribuídos aos usuários. Por exemplo, se os URIs do SIP estiverem no formato *@contoso.com, contoso.com será o domínio SIP. O domínio SIP é geralmente diferente do domínio interno do Active Directory. Uma organização também poderá oferecer suporte a vários domínios SIP.
 
     
     </div>
 
-Para habilitar a configuração automática para seus clientes, você deve criar um registro SRV DNS interno que mapeie um dos seguintes registros para o nome de domínio totalmente qualificado (FQDN) do pool de front-ends ou do servidor Standard Edition que distribui solicitações de entrada do Lync clientes
+Para habilitar a configuração automática para seus clientes, você deve criar um registro SRV de DNS interno que mapeia um dos seguintes registros para o nome de domínio totalmente qualificado (FQDN) do pool de front-ends ou servidor Standard Edition que distribui solicitações de entrada do Lync nos
 
-  - \_sipinternaltls. \_TCP. \<domínio\> – para conexões de TLS internas
+  - \_sipinternaltls. \_TCP. \<domínio\> -para conexões TLS internas
 
-Você só precisa criar um único registro SRV para o pool de front-end ou o servidor Standard Edition, ou isso distribuirá solicitações de entrada.
+Você só precisa criar um único registro SRV para o pool Front-End ou servidor Standard Edition que distribuirá as solicitações de entrada.
 
-A tabela a seguir mostra alguns exemplos de registros necessários para a contoso da empresa fictícia, que oferece suporte a domínios SIP do contoso.com e do retail.contoso.com.
+A tabela a seguir mostra alguns exemplos de registros necessários para a empresa fictícia Contoso, que oferece suporte aos domínios SIP contoso.com e retail.contoso.com.
 
-### <a name="example-of-dns-records-required-for-automatic-client-sign-in-with-multiple-sip-domains"></a>Exemplo de registros DNS necessários para a entrada automática do cliente com vários domínios SIP
+### <a name="example-of-dns-records-required-for-automatic-client-sign-in-with-multiple-sip-domains"></a>Exemplo de registros DNS necessários para entrada automática de clientes com vários domínios SIP
 
 <table>
 <colgroup>
@@ -72,7 +72,7 @@ A tabela a seguir mostra alguns exemplos de registros necessários para a contos
 </colgroup>
 <thead>
 <tr class="header">
-<th>FQDN do pool de front-end usado para distribuir solicitações de entrada</th>
+<th>FQDN do pool Front-End usado para distribuir solicitações de entrada</th>
 <th>Domínio SIP</th>
 <th>Registro SRV de DNS</th>
 </tr>
@@ -81,12 +81,12 @@ A tabela a seguir mostra alguns exemplos de registros necessários para a contos
 <tr class="odd">
 <td><p>pool01.contoso.com</p></td>
 <td><p>contoso.com</p></td>
-<td><p>Um registro SRV para o domínio _sipinternaltls. _tcp. contoso. com na porta 5061 que mapeia para pool01.contoso.com</p></td>
+<td><p>Um registro SRV para o domínio _sipinternaltls._tcp.contoso.com através da porta 5061 que mapeie para pool01.contoso.com</p></td>
 </tr>
 <tr class="even">
 <td><p>pool01.contoso.com</p></td>
 <td><p>retail.contoso.com</p></td>
-<td><p>Um registro SRV para o domínio _sipinternaltls. _tcp. Retail. contoso. com na porta 5061 que mapeia para pool01.contoso.com</p></td>
+<td><p>Um registro SRV para o domínio _sipinternaltls._tcp.retail.contoso.com através da porta 5061 que mapeie para pool01.contoso.com</p></td>
 </tr>
 </tbody>
 </table>
@@ -96,7 +96,7 @@ A tabela a seguir mostra alguns exemplos de registros necessários para a contos
 
 
 > [!NOTE]  
-> Por padrão, as consultas de registros DNS aderem à correspondência de nome de domínio estrito entre o domínio no nome de usuário e o registro SRV. Se você preferir que as consultas DNS do cliente usem a correspondência de sufixo em vez disso, você pode configurar a política de grupo DisableStrictDNSNaming. Para obter detalhes, consulte <A href="lync-server-2013-planning-for-clients-and-devices.md">planejando para clientes e dispositivos no Lync Server 2013</A> na documentação de planejamento.
+> Por padrão, as consultas de registros DNS seguem uma correspondência estrita de nomes de domínio entre o domínio no nome do usuário e o registro SRV. Se, em vez disso, você preferir que as consultas de DNS dos clientes usem a correspondência de sufixo, poderá configurar a política de grupo DisableStrictDNSNaming. Para obter detalhes, consulte <A href="lync-server-2013-planning-for-clients-and-devices.md">Planning for clients and Devices in Lync Server 2013</A> na documentação de planejamento.
 
 
 
@@ -104,11 +104,11 @@ A tabela a seguir mostra alguns exemplos de registros necessários para a contos
 
 <div>
 
-## <a name="example-of-the-certificates-and-dns-records-required-for-automatic-client-sign-in"></a>Exemplo dos certificados e dos registros DNS necessários para a entrada automática do cliente
+## <a name="example-of-the-certificates-and-dns-records-required-for-automatic-client-sign-in"></a>Exemplo dos certificados e dos registros DNS necessários para a entrada automática de clientes
 
-Este exemplo usa os mesmos nomes de exemplo na tabela anterior. A organização Contoso suporta os domínios SIP do contoso.com e do retail.contoso.com, e todos os seus usuários têm um URI SIP em um dos seguintes formatos:
+Esse exemplo usa os mesmos nomes de exemplo da tabela anterior. A organização Contoso oferece suporte aos domínios SIP contoso.com e retail.contoso.com, e todos os seus usuários têm um URI do SIP em um dos seguintes formatos:
 
-  - \<usuário\>@retail. contoso.com
+  - \<@retail\>de usuário. contoso.com
 
   - \<usuário\>@contoso. com
 

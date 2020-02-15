@@ -12,16 +12,16 @@ ms:contentKeyID: 51803952
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d6bf9f79725f1f4812ac1e1c1c3c0e3217b939b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 76105b9bee5ce35801196b5a4cd20b2a1feed3e7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728931"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030625"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41728931"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-03-12_
+_**Última modificação do tópico:** 2013-03-12_
 
 Para implantar o Enterprise Voice, você precisará configurar o seguinte:
 
@@ -45,13 +45,13 @@ Para implantar o Enterprise Voice, você precisará configurar o seguinte:
 
   - Definir uma rota de voz
 
-  - Enable Users for Enterprise Voice
+  - Habilitar usuários para o Enterprise Voice
 
 <div>
 
 ## <a name="create-a-trunk"></a>Criar um tronco
 
-Você deve definir troncos na sua implantação do Enterprise Voice. Para roteamento baseado em local, você deve criar uma configuração de tronco por tronco. Use o construtor de topologia do Lync Server para definir seus troncos e use o comando do Windows PowerShell do Lync Server, o New-CsTrunkConfiguration ou o painel de controle do Lync Server para definir as configurações de tronco correspondentes. Mais informações sobre como habilitar o roteamento baseado em localização nas configurações de tronco podem ser encontradas na seção habilitar o roteamento baseado em local para troncos, no tópico [habilitando o roteamento baseado em local no Lync Server 2013](lync-server-2013-enabling-location-based-routing.md). Para este exemplo, a tabela a seguir ilustra os troncos usados nesse cenário.
+Você deve definir troncos em sua implantação do Enterprise Voice. Para o roteamento baseado em local, você deve criar uma configuração de tronco por tronco. Use o construtor de topologias do Lync Server para definir seus troncos e use o comando do Lync Server Windows PowerShell, New-CsTrunkConfiguration ou o painel de controle do Lync Server para definir as configurações de tronco correspondentes. É possível encontrar mais informações sobre como habilitar o roteamento baseado em local nas configurações de tronco na seção, habilitar o roteamento baseado em local para troncos, no tópico, [habilitando o roteamento baseado em local no Lync Server 2013](lync-server-2013-enabling-location-based-routing.md). Neste exemplo, a tabela a seguir ilustra os troncos usados neste cenário.
 
 Para obter mais informações, consulte [definir troncos adicionais no construtor de topologias no Lync Server 2013](lync-server-2013-define-additional-trunks-in-topology-builder.md).
 
@@ -69,7 +69,7 @@ Para obter mais informações, consulte [definir troncos adicionais no construto
 <th>Nome do tronco</th>
 <th>Tipo de sistema</th>
 <th>Nome</th>
-<th>Local</th>
+<th>Locais</th>
 <th>Servidor de Mediação</th>
 </tr>
 </thead>
@@ -78,7 +78,7 @@ Para obter mais informações, consulte [definir troncos adicionais no construto
 <td><p>Tronco 1 DEL-GW</p></td>
 <td><p>Gateway PSTN</p></td>
 <td><p>DEL-GW</p></td>
-<td><p>Delhi</p></td>
+<td><p>Déli</p></td>
 <td><p>MS1</p></td>
 </tr>
 <tr class="even">
@@ -92,7 +92,7 @@ Para obter mais informações, consulte [definir troncos adicionais no construto
 <td><p>Tronco 3 DEL-PBX</p></td>
 <td><p>RESPECTIVA</p></td>
 <td><p>DEL-PBX</p></td>
-<td><p>Delhi</p></td>
+<td><p>Déli</p></td>
 <td><p>MS1</p></td>
 </tr>
 <tr class="even">
@@ -115,11 +115,11 @@ Para obter mais informações, consulte [definir troncos adicionais no construto
 
 <div>
 
-## <a name="defines-voice-policies"></a>Define as políticas de voz
+## <a name="defines-voice-policies"></a>Define políticas de voz
 
-Você deve definir políticas de voz para a implantação do Enterprise Voice. Defina uma política de voz para impor restrições de roteamento baseado em localização a um subconjunto de usuários se apenas um subconjunto deles for necessário para usar o roteamento baseado em localização. Para este exemplo, a tabela a seguir ilustra as políticas de voz usadas neste cenário. Somente as configurações específicas do roteamento baseado em localização são incluídas na tabela para fins de ilustração.
+Você deve definir políticas de voz para a implantação do Enterprise Voice. Defina uma política de voz para impor restrições de roteamento com base no local a um subconjunto de usuários, se apenas um subconjunto deles for necessário para usar o roteamento baseado em local. Neste exemplo, a tabela a seguir ilustra as políticas de voz usadas neste cenário. Somente as configurações específicas do roteamento baseado em local são incluídas na tabela para fins de ilustração.
 
-Para obter mais informações, consulte [Configurando políticas de voz e registros de uso PSTN para autorizar os recursos e privilégios de chamada no Lync Server 2013](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md).
+Para saber mais, confira [Configurando políticas de voz e registros de uso de PSTN para autorizar recursos e privilégios de chamada no Lync Server 2013](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md).
 
 
 <table>
@@ -138,13 +138,13 @@ Para obter mais informações, consulte [Configurando políticas de voz e regist
 <tbody>
 <tr class="odd">
 <td><p>ID da política de voz</p></td>
-<td><p>Política de voz de Délhi</p></td>
+<td><p>Política de voz de Delhi</p></td>
 <td><p>Política de voz Hyderabad</p></td>
 </tr>
 <tr class="even">
 <td><p>Usos de PSTN</p></td>
-<td><p>Uso de Delhi, uso do PBX, uso do PBX Hyd</p></td>
-<td><p>Uso do Hyderabad, Hyd do PBX, uso do PBX</p></td>
+<td><p>Uso de Delhi, uso de PBX, uso do PBX Hyd</p></td>
+<td><p>Uso do Hyderabad, uso do PBX Hyd, uso do PBX</p></td>
 </tr>
 <tr class="odd">
 <td><p>PreventPSTNTollBypass</p></td>
@@ -164,9 +164,9 @@ Para obter mais informações, consulte [Configurando políticas de voz e regist
 
 <div>
 
-## <a name="define-voice-routes"></a>Definir roteiros de voz
+## <a name="define-voice-routes"></a>Definir rotas de voz
 
-Você deve definir rotas de voz para a implantação do Enterprise Voice. Para este exemplo, a tabela a seguir ilustra as rotas de voz usadas nesse cenário. Somente as configurações específicas do roteamento baseado em localização são incluídas na tabela para fins de ilustração.
+Você deve definir rotas de voz para sua implantação do Enterprise Voice. Neste exemplo, a tabela a seguir ilustra as rotas de voz usadas neste cenário. Somente as configurações específicas do roteamento baseado em local são incluídas na tabela para fins de ilustração.
 
 Para obter mais informações, consulte [Configurando rotas de voz para chamadas de saída no Lync Server 2013](lync-server-2013-configuring-voice-routes-for-outbound-calls.md).
 
@@ -191,20 +191,20 @@ Para obter mais informações, consulte [Configurando rotas de voz para chamadas
 <tbody>
 <tr class="odd">
 <td><p>Nome</p></td>
-<td><p>Rota de Délhi</p></td>
+<td><p>Rota de Déli</p></td>
 <td><p>Rota Hyderabad</p></td>
 <td><p>Rota de del do PBX</p></td>
-<td><p>Rota Hyd do PBX</p></td>
+<td><p>Rota de Hyd PBX</p></td>
 </tr>
 <tr class="even">
 <td><p>Usos de PSTN</p></td>
 <td><p>Uso de Delhi</p></td>
 <td><p>Uso do Hyderabad</p></td>
 <td><p>Uso do PBX del</p></td>
-<td><p>Uso do Hyd do PBX</p></td>
+<td><p>Uso do Hyd PBX</p></td>
 </tr>
 <tr class="odd">
-<td><p>Tronco</p></td>
+<td><p>Trunk</p></td>
 <td><p>Tronco 1 DEL-GW</p></td>
 <td><p>Tronco 2 HYD-GW</p></td>
 <td><p>Tronco 3 DEL-PBX</p></td>
@@ -223,11 +223,11 @@ Para obter mais informações, consulte [Configurando rotas de voz para chamadas
 
 <div>
 
-## <a name="enable-users-for-enterprise-voice"></a>Enable Users for Enterprise Voice
+## <a name="enable-users-for-enterprise-voice"></a>Habilitar usuários para o Enterprise Voice
 
-Habilite os usuários para o Enterprise Voice e atribua a eles uma política de voz que você definiu anteriormente. Para este exemplo, a tabela a seguir ilustra a atribuição usada neste cenário. Somente as configurações específicas do roteamento baseado em localização são incluídas na tabela para fins de ilustração.
+Habilite usuários para o Enterprise Voice e atribua a eles uma política de voz que você tenha definido anteriormente. Neste exemplo, a tabela a seguir ilustra a atribuição usada neste cenário. Somente as configurações específicas do roteamento baseado em local são incluídas na tabela para fins de ilustração.
 
-Para obter mais informações, consulte [habilitar usuários para Enterprise Voice no Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md).
+Para obter mais informações, consulte [Enable users for Enterprise Voice in Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md).
 
 
 <table>
@@ -246,7 +246,7 @@ Para obter mais informações, consulte [habilitar usuários para Enterprise Voi
 <tbody>
 <tr class="odd">
 <td><p>Política de voz associada</p></td>
-<td><p>Política de voz de Délhi</p></td>
+<td><p>Política de voz de Delhi</p></td>
 <td><p>Política de voz Hyderabad</p></td>
 </tr>
 <tr class="even">
@@ -270,7 +270,7 @@ Para obter mais informações, consulte [habilitar usuários para Enterprise Voi
 ## <a name="see-also"></a>Confira também
 
 
-[Configurando o Roteamento Baseado em Local no Lync Server 2013](lync-server-2013-configuring-location-based-routing.md)  
+[Configurando o roteamento baseado em local no Lync Server 2013](lync-server-2013-configuring-location-based-routing.md)  
   
 
 </div>

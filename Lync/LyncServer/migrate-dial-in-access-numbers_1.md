@@ -1,5 +1,5 @@
 ---
-title: Migrar números de acesso de discagem
+title: Migrar os números de acesso discado
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184171
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a13fdf36dcd36dc71df8ffa06c273c2b2b0f0292
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 15ee86d78b75fe1928cb92459f8689aea2f6b1b8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762929"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029112"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migrate-dial-in-access-numbers"></a>Migrar números de acesso de discagem
+# <a name="migrate-dial-in-access-numbers"></a>Migrar os números de acesso discado
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41762929"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-26_
+_**Última modificação do tópico:** 2012-09-26_
 
-A migração de números de acesso discado requer duas etapas: executando o cmdlet **Import-CsLegacyConfiguration** (concluído anteriormente nas [políticas e configurações de importação](import-policies-and-settings.md)) para migrar planos de discagem e outras configurações de número de acesso à discagem e executar o cmdlet **move-CsApplicationEndpoint** para migrar os objetos de contato.
+Migrar números de acesso de discagem requer duas etapas: executar o cmdlet **Import-CsLegacyConfiguration** (concluído anteriormente em [importar políticas e configurações](import-policies-and-settings.md)) para migrar planos de discagem e outras configurações de número de acesso de discagem, e executar o cmdlet **move-CsApplicationEndpoint** para migrar os objetos de contato.
 
 <div>
 
-## <a name="to-migrate-dial-in-access-numbers"></a>Para migrar números de acesso de discagem
+## <a name="to-migrate-dial-in-access-numbers"></a>Para migrar os números de acesso de discagem
 
 1.  Abra a ferramenta administrativa do Office Communications Server 2007 R2.
 
-2.  Na árvore do console, clique com o botão direito do mouse no nó da floresta, clique em **Propriedades**e, em seguida, clique em **Propriedades do atendedor de conferência**.
+2.  Na árvore do console, clique com o botão direito do mouse no nó de floresta, clique em **Propriedades** e, em seguida, clique em **Propriedades do Atendedor de Conferência**.
 
-3.  Na guia **números de telefone do Access** , clique em **atendido por pool** para classificar os números de telefone de acesso pelo pool associado e identificar todos os números de acesso do pool do qual você está migrando.
+3.  Na guia **Números de Telefone de Acesso**, clique em **Atendido pelo Pool** para classificar os números de telefone de acesso pelo pool associado e identificar todos os números de acesso para o pool a partir do qual você está migrando.
 
-4.  Para identificar o URI SIP para cada número de acesso, clique duas vezes no número de acesso para abrir a caixa de diálogo **Editar número de atendedor de conferência** e procure por **URI de SIP**.
+4.  Para identificar URI do SIP para cada número de acesso de discagem, clique duas vezes no número de acesso para abrir a caixa de seleção **Editar Número do Atendedor de Conferência** e verifique **URI do SIP**.
 
-5.  Abra o Shell de gerenciamento do Lync Server.
+5.  Abra o Shell de Gerenciamento do Lync Server.
 
-6.  Para mover cada número de acesso à discagem para um pool hospedado no Lync Server 2013, execute:
+6.  Para mover cada número de acesso de discagem para um pool hospedado no Lync Server 2013, execute:
     
         Move-CsApplicationEndpoint -Identity <SIP URI of the access number to be moved> -Target <FQDN of the pool to which the access number is moving>
 
-7.  Na ferramenta administrativa do Office Communications Server 2007 R2, na guia **números de telefone do Access** , verifique se nenhum número de acesso de discagem permanece para o pool do Office Communications Server 2007 R2 do qual você está migrando.
+7.  Na ferramenta administrativa do Office Communications Server 2007 R2, na guia **números de telefone de acesso** , verifique se os números de acesso de discagem permanecem para o pool do Office Communications Server 2007 R2 a partir do qual você está migrando.
 
 </div>
 

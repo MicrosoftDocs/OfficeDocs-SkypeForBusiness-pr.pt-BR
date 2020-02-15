@@ -12,16 +12,16 @@ ms:contentKeyID: 48183265
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ccfcd48c575e300b12fe08611d6f898749041478
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e7f613f6e96261d256c4c1f15fd2161648eed4fe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727191"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008927"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,39 +35,39 @@ ms.locfileid: "41727191"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-28_
+_**Última modificação do tópico:** 2012-09-28_
 
-Após a desativação de todos os pools e a desinstalação de todos os servidores de borda, execute o assistente de mesclagem do construtor de topologias para remover o **BackCompatSite**.
+Depois que todos os pools estão desativados e todos os Servidores de Borda desinstalados, execute o assistente de Mesclagem do Construtor de Topologia para remover o **BackCompatSite**.
 
 <div>
 
-## <a name="to-remove-backcompat-site-from-topology-builder"></a>Para remover o site de adcompatibilidade do construtor de topologias
+## <a name="to-remove-backcompat-site-from-topology-builder"></a>Para remover o site BackCompat do Construtor de Topologia
 
-1.  Abrir uma implantação existente do construtor de topologias.
+1.  Abra uma implantação existente  do Construtor de Topologia.
 
-2.  No menu **ação** , clique em **Merge 2007 R2 Topology**.
+2.  No menu **Ação**, clique em **Mesclar Topologia R2 2007**.
 
 3.  Clique em **Avançar** para continuar.
 
-4.  Na página **especificar borda herdada** , certifique-se de que a lista de servidores de borda está vazia. Se a lista não estiver vazia, use o botão **remover** para remover todos os servidores de borda herdados e clique em **Avançar**.
+4.  Na página **Especificar borda herdada**, certifique-se de que a lista de Servidores de Borda está vazia. Se a lista não está vazia, use o botão **Remover** para remover todos os Servidores de Borda herdados e clique em **Avançar**.
     
-    ![Assistente de topologia de mesclagem, especificar a página de configuração de borda](images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "Assistente de topologia de mesclagem, especificar a página de configuração de borda")  
+    ![Assistente de topologia de mesclagem, especificar página de configuração de borda](images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "Assistente de topologia de mesclagem, especificar página de configuração de borda")  
 
-5.  Na página **especificar a configuração da porta SIP interna** , clique em **Avançar**.
+5.  Na página **Especificar configuração da porta SIP interna**, clique em **Avançar**.
 
-6.  Na página **Resumo** , clique em **Avançar** para começar a mesclar as topologias e remover o site herdado.
+6.  Na página **Resumo** , clique em **Avançar** para começar a mesclar as topologias para remover o site herdado.
 
-7.  Na coluna **status** , verifique se o valor é **êxito** e clique em **concluir** para fechar o assistente.
+7.  Na coluna **Status**, verifique se o valor está como **Sucesso** e, então, clique em **Concluir** para fechar o assistente.
 
-8.  No painel esquerdo do construtor de topologias, expanda o BackCompatSite e assegure-se de que nenhum servidor esteja listado.
+8.  No painel à esquerda do Construtor de Topologia, expanda o BackCompatSite e certifique-se que não há servidores listados.
 
-9.  Clique com o botão direito do mouse no **BackCompatSite**e, em seguida, clique em **excluir**.
+9.  Clique com o botão direito do mouse em **BackCompatSite** e cliquem, então, em **Excluir**.
 
-10. Em **Construtor de topologia**, selecione o nó mais superior do **Lync Server**.
+10. No **Construtor de Topologia**, selecione o nó superior **Servidor Lync**.
 
-11. No menu **ação** , selecione **publicar topologia** e clique em **Avançar**.
+11. No menu **Ação**, selecione **Publicar Topologia** e clique em **Avançar**.
 
-12. Quando o **Assistente de publicação** for concluído, clique em **concluir** para fechar o assistente.
+12. Quando o **Assistente para Publicação** for concluído, clique em **Concluir ** para fechar o assistente.
 
 </div>
 

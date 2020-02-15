@@ -12,16 +12,16 @@ ms:contentKeyID: 51803973
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4912497f1c8481d44b02a0213e01a0e8908ebfa2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b52fa2f2aefae05f713972df5c3b15e6db7c0b57
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762379"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031245"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41762379"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-20_
+_**Última modificação do tópico:** 2013-02-20_
 
 Periodicamente, a Microsoft lança um novo conjunto de atualizações de firmware de dispositivo para o Lync Phone Edition. *As regras de atualização de dispositivo* associam atualizações de firmware com dispositivos de hardware — telefones e outros dispositivos que executam o Lync Phone Edition.
 
-Para obter o conjunto mais recente de regras de atualização de dispositivos, acesse a página de ajuda e suporte no website da Microsoft e procure por "Phone Edition". Baixe o pacote de atualização e extraia os arquivos para uma pasta no computador onde as atualizações serão carregadas. Depois que os arquivos forem extraídos, importe as regras de atualização de dispositivo encontradas no arquivo extraído. Arquivo CAB (que tem o nome UCUpdates. cab). Em seguida, use o painel de controle do Lync Server ou cmdlets do Windows PowerShell para exibir e gerenciar essas regras para os dispositivos da sua organização.
+Para obter o conjunto mais recente de regras de atualização de dispositivo, vá para a página ajuda e suporte no site da Microsoft e procure por "Phone Edition". Baixe o pacote de atualização e extraia os arquivos para uma pasta no computador onde as atualizações devem ser carregadas. Após a extração dos arquivos, importe as regras de atualização de dispositivo encontradas no arquivo extraído. Arquivo CAB (que tem o nome UCUpdates. cab). Em seguida, use o painel de controle do Lync Server ou cmdlets do Windows PowerShell para exibir e gerenciar essas regras para os dispositivos de sua organização.
 
-Os tópicos a seguir explicam como importar, exibir e gerenciar as regras de atualização de dispositivos.
+Os tópicos a seguir explicam como importar, exibir e gerenciar regras de atualização de dispositivos.
 
 <div>
 

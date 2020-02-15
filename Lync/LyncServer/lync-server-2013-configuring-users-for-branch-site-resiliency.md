@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurando usuários para resiliência de site da filial'
+title: 'Lync Server 2013: Configurando usuários para resiliência de site de filial'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183814
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46b0909b7bbcd8f1b80f0c3e2f5718fc6df4d730
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 487120d76e64229779e7f73725545eaad3da7e4a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734451"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029974"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-users-for-branch-site-resiliency-in-lync-server-2013"></a>Configurando usuários para resiliência de site da filial no Lync Server 2013
+# <a name="configuring-users-for-branch-site-resiliency-in-lync-server-2013"></a>Configurando usuários para resiliência de site de filial no Lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41734451"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-11_
+_**Última modificação do tópico:** 2012-10-11_
 
-Depois de concluir com êxito as tarefas em [implantar um aplicativo ou aplicativo de ramificação sobreviventes com o Lync Server 2013-tarefa de site de ramificação](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md), execute os procedimentos a seguir para habilitar os usuários do Enterprise Voice, atribuir uma política de voz e configurações de caixa postal. Em seguida, em [usuários domésticos em um aplicativo ou aplicativo de ramificação sobreviventes no Lync Server 2013](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md), você poderá casar esses usuários no aplicativo ou aplicativo de ramificação sobreviventes.
+Após concluir com êxito as tarefas em [implantar um aparelho de filial persistente ou servidor com o Lync Server 2013-tarefa do site de filial](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md), execute os seguintes procedimentos para habilitar usuários para o Enterprise Voice, atribua uma política de voz e configurações de caixa postal. Em seguida, em [usuários domésticos em um aparelho de filial persistente ou servidor no Lync Server 2013](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md), você irá casar esses usuários no servidor ou aparelho de filial persistente.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Habilitar usuários para Enterprise Voice no Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)
+  - [Habilitar usuários para o Enterprise Voice no Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)
 
-  - [Criar a política de roteamento VoIP para usuários de filiais no Lync Server 2013](lync-server-2013-create-the-voip-routing-policy-for-branch-users.md)
+  - [Criar a política de roteamento VoIP para usuários de filial no Lync Server 2013](lync-server-2013-create-the-voip-routing-policy-for-branch-users.md)
 
-  - [Definir configurações de reroteamento de caixa postal no Lync Server 2013](lync-server-2013-configure-voice-mail-rerouting-settings.md)
+  - [Definir configurações de reencaminhamento de caixa postal no Lync Server 2013](lync-server-2013-configure-voice-mail-rerouting-settings.md)
 
 </div>
 

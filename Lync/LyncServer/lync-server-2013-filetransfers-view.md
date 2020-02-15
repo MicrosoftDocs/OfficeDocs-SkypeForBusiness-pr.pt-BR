@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: modo de exibição de transferência de fileviews'
+title: 'Lync Server 2013: modo de exibição de transferência'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733848
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc4469140f7f92c563a594c883d02f3add1e65c5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 95cc6790766d68ee478cf1b80326c974f7c15f1f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743371"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028472"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="filetransfers-view-in-lync-server-2013"></a>Modo de exibição de transferência de fileviews no Lync Server 2013
+# <a name="filetransfers-view-in-lync-server-2013"></a>Modo de transferência de filetransfers no Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41743371"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-01_
+_**Última modificação do tópico:** 2012-10-01_
 
-O modo de transferência de arquivo armazena informações sobre sessões de transferência de arquivos ponto a ponto. Este modo de exibição foi apresentado no Microsoft Lync Server 2013.
+O modo de exibição FileTransfer armazena informações sobre sessões de transferência de arquivos ponto a ponto. Este modo de exibição foi introduzido no Microsoft Lync Server 2013.
 
 <div>
 
 
 > [!NOTE]  
-> O modo de exibição filetransfers contém todas as colunas na <A href="lync-server-2013-sessiondetails-view.md">exibição SessionDetails no Lync Server 2013</A> , além das colunas listadas abaixo.
+> O modo de exibição filetransfers contém todas as colunas no <A href="lync-server-2013-sessiondetails-view.md">modo de exibição SessionDetails no Lync Server 2013</A> , além das colunas listadas abaixo.
 
 
 
@@ -66,33 +66,33 @@ O modo de transferência de arquivo armazena informações sobre sessões de tra
 <tbody>
 <tr class="odd">
 <td><p><strong>FileName</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>Nome do arquivo transferido.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Cookie</strong></p></td>
 <td><p>nvarchar(128</p></td>
-<td><p>Usado para identificar todas as mensagens de acompanhamento como associadas a esta.</p></td>
+<td><p>Usado para identificar cada mensagem de acompanhamento como sendo associado a este.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Fileidentity</strong></p></td>
 <td><p>identificador</p></td>
-<td><p>Identificador exclusivo para distinguir entre as transferências de arquivo que envolvem o mesmo nome de arquivo.</p></td>
+<td><p>Identificador exclusivo para distinguir entre as transferências de arquivo envolvendo o mesmo nome do arquivo.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Aceite</strong></p></td>
-<td><p>bit</p></td>
-<td><p>Pode ser TRUE ou NULL. Se verdadeiro, rejeitar e cancelar será nulo.</p></td>
+<td><p><strong>Accept</strong></p></td>
+<td><p>bits</p></td>
+<td><p>Pode ser TRUE ou NULL. Se for TRUE, Rejeitar e Cancelar serão NULL.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Rejeitar</strong></p></td>
-<td><p>bit</p></td>
-<td><p>Pode ser TRUE ou NULL. Se verdadeiro, aceitar e cancelar será nulo.</p></td>
+<td><p><strong>Reject</strong></p></td>
+<td><p>bits</p></td>
+<td><p>Pode ser TRUE ou NULL. Se for TRUE, Aceitar e Cancelar serão NULL.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Cancelar</strong></p></td>
-<td><p>bit</p></td>
-<td><p>Pode ser TRUE ou NULL. Se verdadeiro, aceitar e rejeitar será nulo.</p></td>
+<td><p><strong>Cancel</strong></p></td>
+<td><p>bits</p></td>
+<td><p>Pode ser TRUE ou NULL. Se for TRUE, Aceitar e Rejeitar serão NULL.</p></td>
 </tr>
 </tbody>
 </table>

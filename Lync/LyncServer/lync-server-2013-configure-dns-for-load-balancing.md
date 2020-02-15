@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurar DNS para balanceamento de carga'
+title: 'Lync Server 2013: configurar DNS para balanceamento de carga'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5b68bf226c71d65835791577ab9a45f18b2a10e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 797a788649edab99852cfec9f83423075b14f742
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758349"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028592"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,63 +35,63 @@ ms.locfileid: "41758349"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-01_
+_**Última modificação do tópico:** 2012-10-01_
 
-Para concluir esse procedimento com êxito, você deve estar conectado ao servidor ou domínio minimamente como membro do grupo Domain admins ou um membro do grupo DnsAdmins.
+To successfully complete this procedure, you should be logged on to the server or domain minimally as a member of the Domain Admins group or a member of the DnsAdmins group.
 
-O balanceamento de carga de DNS (sistema de nomes de domínio) equilibra o tráfego de rede exclusivo para o Lync Server 2013, como tráfego SIP e tráfego de mídia. O balanceamento de carga de DNS tem suporte para pools de front-end, pools de borda, pools de diretor e pools de mediação autônomos. Um pool configurado para usar o balanceamento de carga de DNS deve ter dois nomes de domínio totalmente qualificados (FQDNs) definidos: o FQDN do pool regular que é usado pelo balanceamento de carga de DNS (por exemplo, pool1.contoso.com) e que é resolvido para o IPs físicos dos servidores no pool e outro FQDN para os serviços Web do pool (por exemplo, web1.contoso.net), que é resolvido para o endereço IP virtual do pool. Para obter detalhes sobre o balanceamento de carga de DNS, consulte [balanceamento de carga de DNS no Lync Server 2013](lync-server-2013-dns-load-balancing.md) na documentação de planejamento.
+O balanceamento de carga do DNS (sistema de nomes de domínio) balanceia o tráfego de rede exclusivo do Lync Server 2013, como tráfego SIP e tráfego de mídia. O balanceamento de carga DNS é suportado para pools de Front-Ends, pools de Borda, pools de Diretores e pools de Mediação autônomos. Um pool configurado para usar o balanceamento de carga DNS deve ter dois nomes de domínio totalmente qualificados (FQDNs) definidos: o FQDN do pool regular que é usado pelo balanceamento de carga DNS (por exemplo, pool1.contoso.com) e que resolve para o IPs físico dos servidores no pool e outro FQDN para os serviços Web do pool (por exemplo, web1.contoso.net), que resolve para o endereço IP virtual do pool. Para obter detalhes sobre o balanceamento de carga DNS, consulte [DNS Load Balancing in Lync Server 2013](lync-server-2013-dns-load-balancing.md) na documentação de planejamento.
 
 <div>
 
 
 > [!NOTE]  
-> O balanceamento de carga de hardware ainda é necessário para o cliente para o tráfego HTTPS do cliente.
+> O balanceamento de carga de hardware ainda é exigido para tráfego HTTPS de cliente para servidor.
 
 
 
 </div>
 
-Antes de poder usar o balanceamento de carga de DNS, você deve fazer o seguinte:
+Antes que possa usar o balanceamento de carga DNS, você deve fazer o seguuinte:
 
-1.  Substituir o FQDN do pool de serviços Web internos.
+1.  Substitua o FQDN do pool de serviços Web interno.
     
     <div>
     
 
     > [!WARNING]  
-    > Se decidir substituir os serviços internos da Web por um FQDN autodefinido, cada FQDN deve ser exclusivo de qualquer outro pool de front-end, diretor ou um pool de diretor.
+    > Se decidir substituir os serviços Web internos por um FQDN autodefinido, cada FQDN deverá ser exclusivo de qualquer outro pool de front-ends, diretor ou um pool de diretores.
 
     
     </div>
 
-2.  Crie registros de host DNS a para resolver o FQDN do pool para os endereços IP de todos os servidores do pool.
+2.  Create DNS A host records to resolve the pool FQDN to the IP addresses of all the servers in the pool.
 
-3.  Habilite a randomização de endereços IP ou, para o DNS do Windows Server, ative o rodízio.
+3.  Enable IP Address randomization or, for Windows Server DNS, enable round robin.
     
     <div>
     
 
     > [!NOTE]  
-    > O Round Robin deve ser habilitado por padrão.
+    > Round robin deve ser habilitado por padrão.
 
     
     </div>
 
 <div>
 
-## <a name="to-override-internal-web-services-fqdn"></a>Para substituir FQDN de serviços Web internos
+## <a name="to-override-internal-web-services-fqdn"></a>To override internal Web services FQDN
 
-1.  Iniciar o construtor de topologias: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Construtor de topologias do Lync Server**.
+1.  Inicie o construtor de topologias: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e em **Construtor de topologias do Lync Server**.
 
-2.  Na árvore de console, expanda o nó do pool de front-end do Enterprise Edition.
+2.  From the console tree, expand the Enterprise Edition Front End pools node.
 
-3.  Clique com o botão direito do mouse no pool, clique em **Editar propriedades**e, em seguida, clique em **Serviços Web**.
+3.  Right-click the pool, click **Edit Properties**, and then click **Web Services**.
 
-4.  Abaixo de **Serviços Web internos**, marque a caixa de seleção **substituir FQDN** .
+4.  Below **Internal web services**, select the **Override FQDN** check box.
 
-5.  Digite o FQDN do pool que é resolvido para os endereços IP físicos dos servidores do pool.
+5.  Type the pool FQDN that resolves to the physical IP addresses of the servers in the pool.
 
-6.  Abaixo de **Serviços Web externos**, digite o FQDN do pool externo que é resolvido para os endereços IP virtuais do pool e clique em **OK**.
+6.  Below **External web services**, type the external pool FQDN that resolves to the virtual IP addresses of the pool, and then click **OK**.
 
 7.  Na árvore de console, clique em **Lync Server 2013**e, em seguida, no painel **ações** , clique em **publicar topologia**.
 
@@ -99,23 +99,23 @@ Antes de poder usar o balanceamento de carga de DNS, você deve fazer o seguinte
 
 <div>
 
-## <a name="to-create-dns-host-a-records-for-all-internal-pool-servers"></a>Para criar registros de host DNS (A) para todos os servidores de pool interno
+## <a name="to-create-dns-host-a-records-for-all-internal-pool-servers"></a>To create DNS Host (A) Records for all internal pool servers
 
-1.  Clique em **Iniciar**, em **todos os programas**, em **Ferramentas administrativas**e, em seguida, clique em **DNS**.
+1.  Click **Start**, click **All Programs**, click **Administrative Tools**, and then click **DNS**.
 
-2.  No **Gerenciador DNS**, clique no servidor DNS que gerencia seus registros para expandi-lo.
+2.  In **DNS Manager**, click the DNS Server that manages your records to expand it.
 
-3.  Clique em **zonas de pesquisa direta** para expandi-la.
+3.  Click **Forward Lookup Zones** to expand it.
 
-4.  Clique com o botão direito do mouse no domínio DNS ao qual você precisa adicionar registros e, em seguida, clique em **novo host (A ou aaaa)**.
+4.  Right-click the DNS domain that you need to add records to, and then click **New Host (A or AAAA)**.
 
-5.  Na caixa **Nome**, digite o nome do registro host (o nome do domínio será automaticamente acrescentado).
+5.  Na caixa **nome** , digite o nome do registro do host (o nome do domínio será anexado automaticamente).
 
-6.  Na caixa endereço IP, digite o endereço IP do servidor front-end individual e, em seguida, selecione **criar registro de ponteiro associado (PTR)** ou **permitir que qualquer usuário autenticado atualize registros de DNS com o mesmo nome de proprietário**, se aplicável.
+6.  In the IP Address box, type the IP address of the individual Front End Server and then select **Create associated pointer (PTR) record** or **Allow any authenticated user to update DNS records with the same owner name**, if applicable.
 
-7.  Continuar criando registros para todos os servidores de front-end do membro que participarão do balanceamento de carga de DNS.
+7.  Continue creating records for all member Front End Servers that will participate in DNS Load Balancing.
     
-    Por exemplo, se você tivesse um pool chamado pool1.contoso.com e três servidores front-end, você criaria as seguintes entradas DNS:
+    For example, if you had a pool named pool1.contoso.com and three Front End Servers, you would create the following DNS entries:
     
     
     <table>
@@ -150,27 +150,27 @@ Antes de poder usar o balanceamento de carga de DNS, você deve fazer o seguinte
     </tbody>
     </table>
     
-    Para obter detalhes sobre a criação de registros de host DNS (A), consulte [Configurar registros de host DNS para o Lync Server 2013](lync-server-2013-configure-dns-host-records.md).
+    Para obter detalhes sobre como criar registros de host DNS (A), consulte [Configure DNS host Records for Lync Server 2013](lync-server-2013-configure-dns-host-records.md).
 
 </div>
 
 <div>
 
-## <a name="to-enable-round-robin-for-windows-server"></a>Para habilitar o rodízio para Windows Server
+## <a name="to-enable-round-robin-for-windows-server"></a>To enable round robin for Windows Server
 
-1.  Clique em **Iniciar**, em **todos os programas**, em **Ferramentas administrativas**e, em seguida, clique em **DNS**.
+1.  Click **Start**, click **All Programs**, click **Administrative Tools**, and then click **DNS**.
 
-2.  Expanda **DNS**, clique com o botão direito do mouse no servidor DNS que você deseja configurar e, em seguida, clique em **Propriedades**.
+2.  Expand **DNS**, right-click the DNS server you want to configure, and then click **Properties**.
 
-3.  Clique na guia **avançado** , selecione **habilitar rodízio** e **Habilitar classificação de máscara de rede**e, em seguida, clique em **OK**.
+3.  Click the **Advanced** tab, select **Enable round robin** and **Enable netmask ordering**, and then click **OK**.
     
-    ![Caixa de diálogo rodízio de DNS](images/Gg398251.e7bf6125-8d78-4460-8401-0a8e7e21d305(OCS.15).jpg "Caixa de diálogo rodízio de DNS")
+    ![Caixa de diálogo Round Robin DNS](images/Gg398251.e7bf6125-8d78-4460-8401-0a8e7e21d305(OCS.15).jpg "Caixa de diálogo Round Robin DNS")
 
 <div>
 
 
 > [!NOTE]  
-> Esse recurso deve ser habilitado por padrão.
+> Este recurso deve ser habilitado por padrão.
 
 
 

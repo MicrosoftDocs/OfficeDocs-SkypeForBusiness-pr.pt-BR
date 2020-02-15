@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurar 9-1-1 Avançado'
+title: 'Lync Server 2013: configurar o 9-1-1 avançado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184205
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e171d2d3d72675d194a8272dfca1e2f24b8fa150
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9851bdb85f0bbd91d0b58897656186c739ecbf8f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755955"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028562"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-enhanced-9-1-1-in-lync-server-2013"></a>Configurar 9-1-1 Avançado no Lync Server 2013
+# <a name="configure-enhanced-9-1-1-in-lync-server-2013"></a>Configurar o 9-1-1 avançado no Lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41755955"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-24_
+_**Última modificação do tópico:** 2013-02-24_
 
 O 9-1-1 Avançado (E9-1-1) é um recurso de notificação de emergência que associa o número de telefone de quem está ligando a um endereço cívico ou de uma rua. Usando essas informações, o PSAP (Ponto de Atendimento de Segurança Pública) consegue expedir imediatamente os serviços de emergência para o chamador com problemas.
 
-Para dar suporte ao E9-1-1, o Lync Server 2013 deve poder associar corretamente um local a um cliente e verificar se essas informações são usadas para direcionar a chamada de emergência para o PSAP mais próximo.
+Para oferecer suporte ao E9-1-1, o Lync Server 2013 deve ser capaz de associar corretamente um local a um cliente e garantir que essas informações sejam usadas para rotear a chamada de emergência para o PSAP mais próximo.
 
-Para obter detalhes sobre como planejar uma implantação do E9-1-1, consulte [planejamento de serviços de emergência (E9-1-1) no Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md).
+Para obter detalhes sobre o planejamento de uma implantação do E9-1-1, consulte [Planning for Emergency Services (E9-1-1) no Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md).
 
 <div>
 
 
 > [!IMPORTANT]  
-> O Lync Server 2013 só é compatível com o E9-1-1 nos Estados Unidos. Para implantar o E9-1-1, você precisa configurar uma conexão SIP para um provedor de serviço qualificado do E9-1, ou implantar um gateway de número de identificação de local de emergência (ELIN) para um provedor de serviços E9-1 (PSTN) baseado em PSTN (rede pública comutada). Para obter detalhes, consulte <A href="lync-server-2013-enhanced-9-1-1-e9-1-1-and-mediation-server.md">enhanced 9-1-1 (E9-1-1) and Media Server no Lync server 2013</A>. Para obter detalhes sobre a configuração de conexões de tronco, consulte <A href="lync-server-2013-configure-a-trunk-with-media-bypass.md">configurar um tronco com bypass de mídia no Lync Server 2013</A>.
+> O Lync Server 2013 suporta apenas E9-1-1 nos Estados Unidos. Para implantar o E9-1-1, você precisará configurar uma conexão de SIP com um provedor de serviços de E9-1-1 qualificado ou implantar um gateway de ELIN (número de identificação de local de emergência) em um provedor de serviços de E9-1-1 com uma PSTN (Rede Telefônica Pública Comutada). Para obter detalhes, consulte <A href="lync-server-2013-enhanced-9-1-1-e9-1-1-and-mediation-server.md">enhanced 9-1-1 (E9-1-1) e servidor de mediação no Lync server 2013</A>. Para obter detalhes sobre a configuração de conexões de tronco, consulte <A href="lync-server-2013-configure-a-trunk-with-media-bypass.md">configurar um tronco com bypass de mídia no Lync Server 2013</A>.
 
 
 
@@ -57,15 +57,15 @@ Para obter detalhes sobre como planejar uma implantação do E9-1-1, consulte [p
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Configurar uma rota de voz E9-1-1 no Lync Server 2013](lync-server-2013-configure-an-e9-1-1-voice-route.md)
+  - [Configurar uma rota de voz do E9-1-1 no Lync Server 2013](lync-server-2013-configure-an-e9-1-1-voice-route.md)
 
-  - [Criar políticas de localização no Lync Server 2013](lync-server-2013-create-location-policies.md)
+  - [Criar políticas de local no Lync Server 2013](lync-server-2013-create-location-policies.md)
 
   - [Configurar as informações do site para o E9-1-1 no Lync Server 2013](lync-server-2013-configure-site-information-for-e9-1-1.md)
 
-  - [Configure the location database in Lync Server 2013](lync-server-2013-configure-the-location-database.md)
+  - [Configurar o banco de dados de localização no Lync Server 2013](lync-server-2013-configure-the-location-database.md)
 
-  - [Configurar recursos do E9-1-1 avançado no Lync Server 2013](lync-server-2013-configure-advanced-e9-1-1-features.md)
+  - [Configurar recursos avançados do E9-1-1 no Lync Server 2013](lync-server-2013-configure-advanced-e9-1-1-features.md)
 
 </div>
 

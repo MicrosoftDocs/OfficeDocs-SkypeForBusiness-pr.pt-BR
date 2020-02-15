@@ -12,20 +12,20 @@ ms:contentKeyID: 48183884
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86d5032defc7322e96662dcfe6357bd30c598e45
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a5ba14f24694bf3b9485e60102007a0bfee788c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735601"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031085"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enabling-users-for-e9-1-1-in-lync-server-2013"></a>Permitindo que os usuários do E9-1-1 no Lync Server 2013
+# <a name="enabling-users-for-e9-1-1-in-lync-server-2013"></a>Habilitando usuários para E9-1-1 no Lync Server 2013
 
 </div>
 
@@ -35,14 +35,14 @@ ms.locfileid: "41735601"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-06_
+_**Última modificação do tópico:** 2012-06-06_
 
-Durante o registro do cliente, o Lync Server usa uma política de localização para configurar as propriedades E9-1-1 para usuários habilitados para Enterprise Voice. Esta política contém as configurações que definem como o E9-1-1 é implementado. Por exemplo, a política de localização contém informações como a cadeia de caracteres de discagem de emergência e se um usuário precisa ou não inserir um local manualmente se o serviço de informações de localização não fornecer uma conta automaticamente. Para obter uma definição completa de uma política de localização, consulte [definindo a política de localização do Lync Server 2013](lync-server-2013-defining-the-location-policy.md).
+Durante o registro do cliente, o Lync Server usa uma política de local para configurar as propriedades E9-1-1 para usuários habilitados para Enterprise Voice. Esta política contém as configurações que definem como o E9-1-1 é implementado. Por exemplo, a política de local contém informações como a cadeia de caracteres de discagem de emergência, e se um usuário é ou não solicitado a inserir manualmente um local se o serviço de informações de local não fornecer um. Para obter uma definição completa de uma política de local, consulte [definindo a política de local para o Lync Server 2013](lync-server-2013-defining-the-location-policy.md).
 
-O Lync Server pode atribuir uma política de localização a clientes com base na sub-rede ou aos usuários com base em uma política global, por site ou por usuário. Para ajudar a decidir como você habilitará usuários, primeiro responda as perguntas a seguir.
+O Lync Server pode atribuir uma política de local a clientes com base na sub-rede ou nos usuários com base em uma política global, por site ou por usuário. Para ajudar a decidir como você habilitará usuários, primeiro responda as perguntas a seguir.
 
   - **Você planeja habilitar todos os usuários ou limitar o suporte a áreas geográficas específicas da empresa?**  
-    Você pode atribuir um local para todos os usuários em sua empresa usando uma política de local global. No entanto, ao atribuir uma política de localização a um site de rede do Lync Server e, em seguida, adicionar sub-redes ao site, você pode limitar o suporte a E9-1 a locais selecionados dentro da empresa e especificar o comportamento de roteamento E9-1-1 para cada site.
+    Você pode atribuir um local para todos os usuários em sua empresa usando uma política de local global. No entanto, atribuindo uma política de local a um site de rede do Lync Server e, em seguida, adicionando sub-redes ao site, você pode limitar o suporte a E9-1-1 para locais selecionados dentro da empresa e especificar o comportamento de roteamento E9-1-1 por site.
 
 <!-- end list -->
 
@@ -52,7 +52,7 @@ O Lync Server pode atribuir uma política de localização a clientes com base n
 <!-- end list -->
 
   - **Quando clientes usam perfil móvel fora da rede ou conectam a partir de uma sub-rede indefinida, os clientes ainda devem ser habilitados para E9-1-1?**  
-    Se os usuários forem atribuídos a uma política de local global, de site ou por usuário, eles poderão ser solicitados a inserir um local manualmente no cliente se o cliente não estiver localizado dentro de uma sub-rede definida ou se nenhum local tiver sido encontrado pelo serviço informações de localização. Para obter detalhes, consulte [definindo a experiência do usuário para adquirir manualmente um local no Lync Server 2013](lync-server-2013-defining-the-user-experience-for-manually-acquiring-a-location.md).
+    Se os usuários recebem uma política de local global, de site ou por usuário, eles podem ser necessários para inserir manualmente um local no cliente se o cliente não estiver localizado dentro de uma sub-rede definida ou se nenhum local for encontrado pelo serviço de informações de local. Para obter detalhes, consulte [definir a experiência do usuário para adquirir manualmente um local no Lync Server 2013](lync-server-2013-defining-the-user-experience-for-manually-acquiring-a-location.md).
 
 </div>
 

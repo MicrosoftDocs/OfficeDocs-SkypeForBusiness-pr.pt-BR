@@ -12,16 +12,16 @@ ms:contentKeyID: 59893873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06938cfb6c37a84de5256feb6e4b370eb36f3702
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7681b3394a640a64966e3b9c739ea085e6c0f2f9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745251"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008633"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41745251"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-11-07_
+_**Última modificação do tópico:** 2013-11-07_
 
-Os protocolos Transport Layer Security (TLS) e Mutual Transport Layer Security (MTLS) fornecem comunicações criptografadas e autenticação de ponto de extremidade na Internet. O Microsoft Lync Server 2013 usa esses dois protocolos para criar a rede de servidores confiáveis e garantir que todas as comunicações na rede sejam criptografadas. Todas as comunicações SIP entre servidores ocorrem no MTLS. As comunicações SIP entre o cliente e o servidor ocorrem no TLS.
+Os protocolos de segurança de camada de transporte (TLS) e de protocolo MTLS fornecem comunicações criptografadas e autenticação de ponto de extremidade na Internet. O Microsoft Lync Server 2013 usa esses dois protocolos para criar a rede de servidores confiáveis e para garantir que todas as comunicações nessa rede sejam criptografadas. Todas as comunicações SIP entre servidores ocorrem através de MTLS. Comunicações SIP de cliente para servidor ocorrem em TLS.
 
-O TLS permite que os usuários, por meio do software cliente, autentiquem os servidores do Lync Server 2013 aos quais se conectam. Em uma conexão TLS, o cliente solicita um certificado válido do servidor. Para ser válido, o certificado deve ser emitido por uma AC considerada confiável pelo cliente, e o nome DNS do servidor deve corresponder ao nome DNS no certificado. Se o certificado for válido, o cliente usa a chave pública no certificado para criptografar as chaves de criptografia simétricas a serem utilizadas na comunicação, assim, apenas o proprietário original do certificado pode utilizar sua chave privada para descriptografar os conteúdos de comunicação. A conexão resultante é confiável e, a partir desse momento, não será desafiada por nenhum outro servidor ou cliente confiável. Nesse contexto, a Secure Sockets Layer (SSL), conforme utilizada com serviços os Web, pode ser associada ao protocolo baseado em TLS.
+O TLS habilita usuários, através do software cliente, para autenticar os servidores do Lync Server 2013 aos quais eles se conectam. Em uma conexão TLS, o cliente solicita um certificado válido do servidor. Para ser válido, o certificado deve ter sido emitido por uma autoridade de certificação que também é confiável pelo cliente e o nome DNS do servidor deve corresponder ao nome DNS no certificado. Se o certificado for válido, o cliente usará a chave pública no certificado para criptografar as chaves de criptografia simétrica a serem usadas para a comunicação, de modo que somente o proprietário original do certificado possa usar sua chave privada para descriptografar o conteúdo da comunicação. A conexão resultante é confiável e, a partir desse ponto, não é desafiada por outros clientes ou servidores confiáveis. Dentro desse contexto, o SSL (Secure Sockets Layer) conforme usado com os serviços Web pode ser associado como baseado em TLS.
 
-Conexões de servidor para servidor baseiam-se em MTLS para autenticação mútua. Em uma conexão MTLS, o servidor que cria a mensagem e o servidor que a recebe trocam certificados mutuamente a partir de uma AC confiável. Os certificados comprovam a identidade de cada servidor ao outro. Nas implantações do Lync Server 2013, os certificados emitidos pela CA corporativa que estão durante o período de validade e não revogados pela CA de emissão são automaticamente considerados válidos por todos os clientes e servidores internos, pois todos os membros de um domínio do Active Directory confiar na CA corporativa nesse domínio. Em cenários federados, a AC emissora deve ser confiável por ambos os parceiros federados. Cada parceiro pode usar uma AC diferente, se desejado, contanto que a AC também seja considerada confiável pelo outro parceiro. Essa confiabilidade é mais facilmente assegurada pelos Servidores de Borda que possuem o certificado da AC raiz dos parceiros em suas ACs raiz confiáveis ou pelo uso de uma AC de terceiro que seja considerada confiável pelas duas partes.
+Conexões de servidor para servidor dependem de MTLS para autenticação mútua. Em uma conexão MTLS, o servidor que originou uma mensagem e o servidor que a recebe certificados de uma AC mutuamente confiável. Os certificados comprovam a identidade de cada servidor para o outro. Nas implantações do Lync Server 2013, os certificados emitidos pela autoridade de certificação corporativa que estão durante seu período de validade e não são revogados pela autoridade de certificação emissora são automaticamente considerados válidos por todos os clientes e servidores internos, pois todos os membros de um domínio do Active Directory Confie na autoridade de certificação corporativa nesse domínio. Em cenários federados, a CA de emissão deve ser confiável para os parceiros federados. Cada parceiro pode usar uma autoridade de certificação diferente, se desejado, desde que a autoridade de certificação também seja confiável para o outro parceiro. Essa relação de confiança é realizada com facilidade pelos servidores de borda com o certificado de autoridade de certificação raiz do parceiro em suas autoridades de certificação raiz confiáveis ou por meio de uma CA de terceiros que é confiável para ambas as partes.
 
-O TLS e MTLS ajudam a evitar a espionagem e ataques a intermediários. Em um ataque a intermediários, o invasor redireciona as comunicações entre duas entidades de rede por meio do computador do invasor, sem o conhecimento das partes. A especificação do TLS e do Lync Server 2013 de servidores confiáveis (somente aqueles especificados no construtor de topologia) reduzem o risco de um ataque man-in-the Middle parcialmente na camada do aplicativo usando a criptografia ponto a ponto coordenada usando a criptografia de chave pública entre os dois pontos de extremidade, e um invasor precisa ter um certificado válido e confiável com a chave privada correspondente e emitido para o nome do serviço ao qual o cliente está se comunicando para descriptografar a comunicação. Em última análise, entretanto, você deve cumprir as práticas recomendadas de segurança em sua infraestrutura de rede (no caso de um DNS corporativo). O Lync Server 2013 pressupõe que o servidor DNS é confiável da mesma forma que os controladores de domínio e os catálogos globais são confiáveis, mas o DNS fornece um nível de segurança contra ataques de seqüestro de DNS impedindo que o servidor de um invasor responda com êxito a um solicitação ao nome falso.
+O TLS e a MTLS ajudam a evitar ataques de espionagem e de interceptação. Em um ataque man-in-the-Middle, o invasor redireciona as comunicações entre duas entidades de rede através do computador do invasor sem o conhecimento de ambas as partes. A especificação TLS e Lync Server 2013 de servidores confiáveis (somente aqueles especificados no construtor de topologias) reduzem o risco de um ataque de interceptação de um homem parcialmente na camada de aplicativo usando a criptografia de ponta a ponta coordenada usando a criptografia de chave pública entre os dois pontos de extremidade, e um invasor precisa ter um certificado válido e confiável com a chave privada correspondente e emitido para o nome do serviço ao qual o cliente está se comunicando para descriptografar a comunicação. No entanto, você deve seguir as práticas recomendadas de segurança com sua infraestrutura de rede (neste caso, o DNS corporativo). O Lync Server 2013 pressupõe que o servidor DNS é confiável da mesma forma que os controladores de domínio e os catálogos globais são confiáveis, mas o DNS fornece um nível de proteção contra ataques de seqüestro de DNS, impedindo que o servidor de um invasor responda com êxito a um solicitação para o nome falsificado.
 
-A figura a seguir mostra em alto nível como o Lync Server 2013 usa a MTLS para criar uma rede de servidores confiáveis.
+A figura a seguir mostra em um nível alto como o Lync Server 2013 usa MTLS para criar uma rede de servidores confiáveis.
 
 **Conexões confiáveis em uma rede do Lync Server**
 

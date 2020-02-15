@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurar um Servidor de Gerenciamento Central existente'
+title: 'Lync Server 2013: configurar um servidor de gerenciamento central existente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185584
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b5df4fedc49e85d7fe26a918ea36de3a64b440a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 50835858c9c78851ec5fc7359f988790bb0d1c2f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757825"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028752"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-an-existing-central-management-server-in-lync-server-2013"></a>Configurar um Servidor de Gerenciamento Central existente no Lync Server 2013
+# <a name="configure-an-existing-central-management-server-in-lync-server-2013"></a>Configurar um servidor de gerenciamento central existente no Lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41757825"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-21_
+_**Última modificação do tópico:** 2013-02-21_
 
-Se você reutilizar um servidor central de gerenciamento de uma implantação existente do Lync Server 2013, será necessário executar o procedimento descrito abaixo para garantir que o painel de controle do Lync Server e o Windows PowerShell funcionem corretamente.
+Se você reutilizar um servidor de gerenciamento central de uma implantação existente do Lync Server 2013, deverá executar o procedimento descrito abaixo para garantir que o painel de controle do Lync Server e o Windows PowerShell funcionem corretamente.
 
 <div>
 
 ## <a name="to-configure-an-existing-central-management-server"></a>Para configurar um servidor de gerenciamento central existente
 
-1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
-2.  Use o cmdlet **Update-CsAdminRole** para atualizar as funções de controle de acesso baseado em função (RBAC) armazenadas no servidor de gerenciamento central.
+2.  Use o cmdlet **Update-CsAdminRole** para atualizar as funções RBAC (controle de acesso baseado em função) armazenadas no servidor de gerenciamento central.
     
     <div>
     
 
     > [!NOTE]  
-    > Nenhuma saída é esperada, a menos que haja um erro.
+    > Nenhum resultado é esperado a não ser que haja um erro.
 
     
     </div>

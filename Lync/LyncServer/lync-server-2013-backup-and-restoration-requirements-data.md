@@ -12,20 +12,20 @@ ms:contentKeyID: 51541526
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9b9f077e0f9d7c4137844b2cba352b096fdb564
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4688c143a16ffd7113a03172274436f7c1371694
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730421"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029222"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="backup-and-restoration-requirements-in-lync-server-2013-data"></a>Requisitos de backup e restauração no Lync Server 2013: dados
+# <a name="backup-and-restoration-requirements-in-lync-server-2013-data"></a>Requisitos de backup e restauração no Lync Server 2013: data
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41730421"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-03-26_
+_**Última modificação do tópico:** 2013-03-26_
 
-O Lync Server usa configurações e informações de configuração que são armazenadas em bancos de dados e dados armazenados em bancos de dados e repositórios de arquivos. Este tópico descreve os dados dos quais você precisa fazer backup para restaurar o serviço se a sua organização tiver uma falha ou uma interrupção, além de identificar os dados e os componentes usados pelo Lync Server dos quais você precisa fazer backup separadamente.
+O Lync Server usa configurações e informações de configuração que são armazenadas em bancos de dados e dados armazenados em bancos de dados e repositórios de arquivos. Este tópico descreve os dados dos quais você precisa fazer backup para poder restaurar o serviço se sua organização tiver uma falha ou uma interrupção, e também identificar os dados e os componentes usados pelo Lync Server para os quais você precisa fazer backup separadamente.
 
 <div>
 
 ## <a name="settings-and-configuration-requirements"></a>Configurações e requisitos de configuração
 
-Este tópico inclui procedimentos para fazer o backup e a restauração das configurações e informações de configuração necessárias para a recuperação do serviço do Lync Server. As informações de configuração estão localizadas no repositório de gerenciamento central ou em outro banco de dados back-end ou no servidor Standard Edition.
+Este tópico inclui procedimentos para fazer backup e restaurar as configurações e as informações de configuração necessárias para a recuperação do serviço do Lync Server. As informações de configuração estão localizadas no repositório de gerenciamento central ou em outro banco de dados de back-end ou no servidor Standard Edition.
 
-A tabela a seguir identifica as configurações e informações de configuração das quais você precisa fazer backup e restaurar.
+A tabela a seguir identifica as configurações e as informações de configuração necessárias para fazer backup e restauração.
 
-### <a name="settings-and-configuration-data"></a>Configurações e dados de configuração
+### <a name="settings-and-configuration-data"></a>Definições e dados de configuração
 
 <table>
 <colgroup>
@@ -57,7 +57,7 @@ A tabela a seguir identifica as configurações e informações de configuraçã
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo de dados</th>
+<th>Tipos de dados</th>
 <th>Onde armazenado</th>
 <th>Descrição/quando fazer backup</th>
 </tr>
@@ -67,19 +67,19 @@ A tabela a seguir identifica as configurações e informações de configuraçã
 <td><p>Informações de configuração de topologia</p></td>
 <td><p>Repositório de gerenciamento central (banco de dados: XDS. MDF)</p></td>
 <td><p>Configurações de topologia, política e configuração.</p>
-<p>Faça backup com seus backups regulares e depois de usar os cmdlets ou o painel de controle do Lync Server para modificar sua configuração ou políticas.</p></td>
+<p>Faça o backup com seus backups regulares e depois de usar o painel de controle ou cmdlets do Lync Server para modificar sua configuração ou políticas.</p></td>
 </tr>
 <tr class="even">
-<td><p>Informações de localização</p></td>
+<td><p>Informações de local</p></td>
 <td><p>Repositório de gerenciamento central (banco de dados: Lis. MDF)</p></td>
-<td><p>Informações de configuração do 9-1-1 (E9-1-1) avançada do Enterprise Voice. Geralmente, essas informações são estáticas.</p>
-<p>Faça backup com seus backups regulares.</p></td>
+<td><p>Informações de configuração do Enterprise Voice Enhanced 9-1-1 (E9-1-1). Geralmente, essas informações são estáticas.</p>
+<p>Faça o backup com seus backups regulares.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Informações de configuração do grupo de resposta</p></td>
 <td><p>Servidor back-end ou servidor Standard Edition (banco de dados: RgsConfig. MDF)</p></td>
-<td><p>Grupo de resposta grupos, filas e fluxos de trabalho.</p>
-<p>Faça backup com seus backups regulares e depois de adicionar ou alterar grupos de agente, filas ou fluxos de trabalho.</p></td>
+<td><p>Grupos de agente de grupo de resposta, filas e fluxos de trabalho.</p>
+<p>Faça o backup com seus backups regulares e depois de adicionar ou alterar grupos de agentes, filas ou fluxos de trabalho.</p></td>
 </tr>
 </tbody>
 </table>
@@ -91,23 +91,23 @@ A tabela a seguir identifica as configurações e informações de configuraçã
 
 ## <a name="data-requirements"></a>Requisitos de dados
 
-Aqui está uma lista dos dados do Lync Server dos quais você precisa fazer backup para que você possa restaurar o serviço do Lync Server em caso de falha.
+Veja a seguir uma lista dos dados do Lync Server que você precisa fazer o backup para que possa restaurar o serviço do Lync Server em caso de falha.
 
 Observe que alguns tipos de dados não são necessários para a recuperação. Este tópico não contém procedimentos para fazer backup desses tipos de dados, que incluem o seguinte:
 
-  - Dados de usuários transitórios, como pontos de extremidade e assinaturas, servidores de conferência ativos e Estados de conferência transitória (banco de dados: RtcDyn. MDF)
+  - Dados de usuários transitórios, como pontos de extremidade e assinaturas, servidores de conferência ativos e Estados de conferência transitórias (banco de dados: RtcDyn. MDF)
 
-  - Dados de catálogo de endereços (bancos de dados: RTCAb. MDF e Rtcab1. MDF). O banco de dados do catálogo de endereços é regenerado automaticamente dos serviços de domínio Active Directory.
+  - Dados do catálogo de endereços (bancos de dados: RTCAb. MDF e Rtcab1. MDF). O banco de dados do catálogo de endereços é regenerado automaticamente de serviços de domínio do Active Directory.
 
-  - Informações dinâmicas para o aplicativo parque de chamadas (banco de dados: CpsDyn. MDF)
+  - Informações dinâmicas para o aplicativo de estacionamento de chamada (banco de dados: CpsDyn. MDF)
 
-  - Dados de grupo de resposta transitório, como estado de entrada do agente e informações de chamada em espera (banco de dados: RgsDyn. MDF)
+  - Dados de grupo de resposta transitório, como o estado de entrada de agentes e informações de chamada em espera (banco de dados: RgsDyn. MDF)
 
-  - O banco de dados de conformidade para chats persistentes (banco de dados: MgcComp. MDF). Se a conformidade de chat persistente estiver habilitada, as informações no banco de dados de conformidade de chat persistente serão transitórias desde que você tenha um adaptador configurado para ler as informações do banco de dados e convertê-las em um formato alternativo. Portanto, o banco de dados de conformidade para chats persistentes é considerado transitório.
+  - O banco de dados de conformidade para chat persistente (banco de dados: MgcComp. MDF). Se você tiver a conformidade de chat persistente habilitada, as informações no banco de dados de conformidade de chat persistente serão temporárias, contanto que você tenha um adaptador configurado para ler informações do banco de dados e convertê-lo em um formato alternativo. Portanto, o banco de dados de conformidade para chat persistente é considerado temporário.
     
-    O servidor de chat persistente do Lync Server 2013 vem com um adaptador XML. Você também pode instalar adaptadores personalizados que tomam esses dados e movê-los para outras fontes, como arquivos Exchange hospedados.
+    Lync Server 2013 persistent chat Server é fornecido com um adaptador XML. Você também pode instalar adaptadores personalizados que usam esses dados e movê-los para outras fontes, como arquivos mortos hospedados do Exchange.
 
-A tabela a seguir identifica os dados dos quais você precisa fazer backup e restaurar.
+A tabela a seguir identifica os dados necessários para backup e restauração.
 
 ### <a name="data-stored-in-databases"></a>Dados armazenados em bancos de dados
 
@@ -119,39 +119,39 @@ A tabela a seguir identifica os dados dos quais você precisa fazer backup e res
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo de dados</th>
+<th>Tipos de dados</th>
 <th>Onde armazenado</th>
 <th>Descrição/quando fazer backup</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Dados persistentes do usuário</p></td>
+<td><p>Dados de usuário persistente</p></td>
 <td><p>Servidor back-end ou servidor Standard Edition (banco de dados: RTCXDS. MDF)</p></td>
-<td><p>Direitos de usuário, listas de contatos do usuário, dados de servidor ou pool, conferências programadas e assim por diante. Estes dados do usuário não incluem o conteúdo carregado em uma conferência.</p>
-<p>Faça backup com seus backups regulares. Essas informações são dinâmicas, mas a perda de atualizações não é catastrófica no Lync Server, caso seja necessário restaurar o último backup regular. Se as listas de contatos forem essenciais para a sua organização, você poderá fazer backup desses dados com mais frequência.</p></td>
+<td><p>Direitos de usuário, listas de contatos do usuário, dados de servidor ou pool, conferências agendadas e assim por diante. Estes dados de usuário não incluem conteúdo carregado em uma conferência.</p>
+<p>Faça o backup com seus backups regulares. Essas informações são dinâmicas, mas a perda de atualizações não é catastrófica no Lync Server se você precisar restaurar para o último backup regular. Se as listas de contatos forem fundamentais para sua organização, você pode fazer o backup desses dados com mais frequência.</p></td>
 </tr>
 <tr class="even">
-<td><p>Arquivar dados</p></td>
+<td><p>Arquivamento de dados</p></td>
 <td><p>Banco de dados de arquivamento (banco de dados: LcsLog. MDF)</p>
-<p>Esses dados podem ser armazenados no Exchange 2013, se você tiver habilitado a opção de integração do Microsoft Exchange. Caso contrário, esses dados são mantidos em um banco de dados de arquivamento do Lync Server, que pode ser posicionado com outro banco de dados do Lync Server ou autônomo em um servidor de banco de dados separado.</p></td>
+<p>Esses dados podem ser armazenados no Exchange 2013, se você tiver habilitado a opção de integração do Microsoft Exchange. Caso contrário, esses dados são mantidos em um banco de dados de arquivamento do Lync Server, que pode ser colocado com outro banco de dados do Lync Server ou autônomo em um servidor de banco de dados separado.</p></td>
 <td><p>Mensagens instantâneas (IM) e conteúdo da reunião.</p>
-<p>Esses dados não são críticos para o Lync Server, mas podem ser críticos para a sua organização para fins reguladores. Determine o seu cronograma de backup de acordo.</p></td>
+<p>Esses dados não são críticos para o Lync Server, mas podem ser fundamentais para sua organização para fins normativos. Determine o backup agendado de acordo.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Monitorando dados</p></td>
+<td><p>Dados de monitoramento</p></td>
 <td><p>Bancos de dados de monitoramento (LcsCDR. MDF e QoeMetrics. MDF)</p>
-<p>Esses bancos de dados podem estar posicionados com outro banco de dados do Lync Server ou autônomo em um servidor de banco de dados separado.</p></td>
-<td><p>Registros de detalhes da chamada (LcsCDR. MDF) e métricas de qualidade da experiência (QoE) (QoeMetrics. MDF).</p>
-<p>Os registros de detalhes da chamada são dinâmicos e podem ser críticos para a sua empresa. Determine o seu cronograma de backup, considerando se você precisa desses registros por motivos reguladores.</p>
-<p>As informações de qualidade da experiência são dinâmicas. A perda de dados de QoE não é essencial para a operação do Lync Server, mas pode ser fundamental para a sua empresa. Determine sua agenda de backup com base em quão críticas essas informações são para sua organização.</p></td>
+<p>Esses bancos de dados podem ser colocados com outro banco de dados do Lync Server ou autônomos em um servidor de banco de dados separado.</p></td>
+<td><p>Registros de detalhes da chamada (LcsCDR. MDF) e métricas de QoE (qualidade da experiência) (QoeMetrics. MDF).</p>
+<p>Os registros de detalhes das chamadas são dinâmicos e podem ser fundamentais para a sua empresa. Determine sua agenda de backup, considerando se você precisa desses registros por razões regulamentares.</p>
+<p>As informações de qualidade da experiência são dinâmicas. A perda de dados de QoE não é essencial para a operação do Lync Server, mas pode ser crucial para a sua empresa. Determine sua agenda de backup com base em quão crítica essas informações estão à sua organização.</p></td>
 </tr>
 <tr class="even">
 <td><p>Dados de chat persistente</p></td>
-<td><p>Banco de dados de chat persistente (MGD. MDF).</p>
-<p>Esse banco de dados pode estar posicionado com outro banco de dados do Lync Server ou autônomo em um servidor de banco de dados separado.</p></td>
-<td><p>Dados de chat persistentes são postados pelo conteúdo real do chat em salas de chat. Geralmente, esses dados são críticos para os negócios.</p>
-<p>Você pode optar por usar o backup do SQL Server ou exportar o banco de dados usando o cmdlet <strong>Export-CsPersistentChatData</strong> fornecido no Lync Server. Para a recuperação dos dados, você pode importar e restaurar o banco de dados para o ponto do último backup completo, o que significa que você não pode restaurar o banco de dados ao ponto de falha.</p></td>
+<td><p>Banco de dados de chat persistente (gerenciadas. MDF).</p>
+<p>Este banco de dados pode ser colocado com outro banco de dados do Lync Server ou autônomo em um servidor de banco de dados separado.</p></td>
+<td><p>Dados de chat persistente são o conteúdo de chat real que está sendo lançado em salas de chat. Esses dados costumam ser críticos para os negócios.</p>
+<p>Você pode optar por usar o backup do SQL Server ou exportar o banco de dados usando o cmdlet <strong>Export-CsPersistentChatData</strong> fornecido no Lync Server. Para recuperação dos dados, você pode importar e restaurar o banco de dados para o ponto do último backup completo, o que significa que não é possível restaurar o banco de dados para o ponto de falha.</p></td>
 </tr>
 </tbody>
 </table>
@@ -163,13 +163,13 @@ A tabela a seguir identifica os dados dos quais você precisa fazer backup e res
 
 ## <a name="file-store-data-requirements"></a>Requisitos de dados do repositório de arquivos
 
-Em uma implantação do Enterprise Edition, o armazenamento de arquivos do Lync Server geralmente está localizado em um servidor de arquivos. Em uma implantação de edição padrão, o repositório de arquivos do Lync Server está localizado por padrão no servidor Standard Edition. Geralmente, há um repositório de arquivos do Lync Server que é compartilhado para um site. O repositório de arquivos de chat persistente usa o mesmo compartilhamento de arquivo que o repositório de arquivos do Lync Server.
+Em uma implantação Enterprise Edition, o repositório de arquivos do Lync Server normalmente está localizado em um servidor de arquivos. Em uma implantação do Standard Edition, o repositório de arquivos do Lync Server está localizado por padrão no servidor Standard Edition. Normalmente, há um repositório de arquivos do Lync Server que é compartilhado para um site. O repositório de arquivos de chat persistente usa o mesmo compartilhamento de arquivo que o repositório de arquivos do Lync Server.
 
-Locais do repositório de arquivos são \\ \\identificados\\como nome do compartilhamento do servidor. Para localizar os locais específicos de seus armazenamentos de arquivos, abra o construtor de topologias e procure no nó **armazenamentos de arquivos** .
+Os locais do repositório de arquivos \\ \\são\\identificados como o nome do compartilhamento do servidor. Para localizar os locais específicos dos repositórios de arquivos, abra o construtor de topologias e examine o nó **repositórios de arquivos** .
 
-A tabela a seguir identifica os armazenamentos de arquivos que você precisa fazer backup e restaurar.
+A tabela a seguir identifica os repositórios de arquivos necessários para backup e restauração.
 
-### <a name="file-stores"></a>Repositórios de arquivos
+### <a name="file-stores"></a>Repositórios de Arquivo
 
 <table>
 <colgroup>
@@ -179,7 +179,7 @@ A tabela a seguir identifica os armazenamentos de arquivos que você precisa faz
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo de dados</th>
+<th>Tipos de dados</th>
 <th>Onde armazenado</th>
 <th>Descrição/quando fazer backup</th>
 </tr>
@@ -187,9 +187,9 @@ A tabela a seguir identifica os armazenamentos de arquivos que você precisa faz
 <tbody>
 <tr class="odd">
 <td><p>Repositório de arquivos do Lync Server</p></td>
-<td><p>Geralmente em um servidor de arquivos, um cluster de arquivos ou um servidor Standard Edition</p></td>
-<td><p>Conteúdo da reunião, metadados de conteúdo da reunião, logs de conformidade da reunião, arquivos de dados do aplicativo, arquivos de atualização para atualizações de dispositivo, arquivos de áudio para o grupo de resposta, estacionamento de chamadas e aplicativos de anúncio e arquivos postados em salas de chat persistente.</p>
-<p>Faça backup com seus backups regulares.</p></td>
+<td><p>Normalmente em um servidor de arquivos, um cluster de arquivos ou um servidor Standard Edition</p></td>
+<td><p>Conteúdo de reunião, metadados de conteúdo de reunião, logs de conformidade, arquivos de dados de aplicativo, arquivos de atualização para atualizações de dispositivo, arquivos de áudio para grupo de resposta, estacionamento de chamada e aplicativos de anúncio e arquivos publicados em salas de chat persistente.</p>
+<p>Faça o backup com seus backups regulares.</p></td>
 </tr>
 </tbody>
 </table>
@@ -201,13 +201,13 @@ A tabela a seguir identifica os armazenamentos de arquivos que você precisa faz
 
 ## <a name="additional-backup-requirements"></a>Requisitos adicionais de backup
 
-Para ajudar a garantir a capacidade de restaurar os serviços do Lync Server em caso de falha, você deve fazer backup de alguns componentes necessários que não fazem parte do Lync Server propriamente dito. Não é possível fazer backup ou restauração dos seguintes componentes, como parte do processo de backup e restauração do Lync Server descrito neste documento:
+Para ajudar a garantir a capacidade de restaurar os serviços do Lync Server em caso de falha, você deve fazer o backup de alguns componentes necessários que não fazem parte do Lync Server propriamente dito. Os seguintes componentes não são armazenados ou restaurados como parte do processo de backup e restauração do Lync Server descrito neste documento:
 
-  - **Serviços de domínio do Active Directory**   você precisa fazer backup do AD DS usando as ferramentas do Active Directory ao mesmo tempo em que fizer backup do Lync Server. É importante manter o AD DS sincronizado com o Lync Server para evitar problemas que podem ocorrer quando o Lync Server espera objetos de contato que não correspondem àqueles no AD DS. O AD DS armazena as seguintes configurações que são usadas pelo Lync Server:
+  - **Serviços de domínio do Active Directory**   você precisa fazer backup do AD DS usando as ferramentas do Active Directory ao mesmo tempo em que faz backup do Lync Server. É importante manter o AD DS sincronizado com o Lync Server para evitar problemas que podem ocorrer quando o Lync Server espera objetos de contato que não correspondem àqueles no AD DS. O AD DS armazena as seguintes configurações que são usadas pelo Lync Server:
     
-      - URI de SIP do usuário e outras configurações do usuário.
+      - URI do SIP do usuário e outras configurações do usuário.
     
-      - Objetos de contato para aplicativos como o assistente de grupo de resposta e conferência.
+      - Objetos de contato para aplicativos como o grupo de resposta e o atendedor de conferência.
     
       - Um ponteiro para o repositório de gerenciamento central.
     
@@ -215,31 +215,31 @@ Para ajudar a garantir a capacidade de restaurar os serviços do Lync Server em 
     
     Para obter detalhes sobre como fazer backup e restaurar o AD DS no Windows Server 2008, consulte "guia passo a passo de backup e recuperação do AD DS [http://go.microsoft.com/fwlink/p/?linkId=209105](http://go.microsoft.com/fwlink/p/?linkid=209105)" em.
 
-  - **A autoridade de certificação e os certificados**   usam a política da sua organização para fazer backup da autoridade de certificação e dos certificados. Se você usar chaves privadas exportáveis, poderá fazer backup do certificado e da chave privada e exportá-los se usar os procedimentos deste documento para restaurar o Lync Server. Se você usar uma autoridade de certificação interna, poderá recadastrar se precisar restaurar o Lync Server. É importante manter a chave privada em um local seguro, onde estará disponível se um computador falhar.
+  - **A autoridade de certificação e os certificados**   usam a política da sua organização para fazer o backup da autoridade de certificação (CA) e dos certificados. Se você usar chaves privadas exportáveis, será possível fazer backup do certificado e da chave privada e exportá-los se usar os procedimentos neste documento para restaurar o Lync Server. Se você usar uma autoridade de certificação interna, poderá reinscrever se precisar restaurar o Lync Server. É importante que você mantenha a chave privada em um local seguro, onde estará disponível se um computador falhar.
 
-  - **System Center Operations Manager**   se você usar o Microsoft System Center Operations Manager (antigo Microsoft Operations Manager) para monitorar a implantação do Lync Server, você pode, opcionalmente, fazer o backup dos dados que ele cria enquanto está monitorando o Lync Server. Use o processo de backup padrão do SQL Server para fazer backup dos arquivos do System Center Operations Manager. Esses arquivos não são restaurados durante a recuperação.
+  - **System Center Operations Manager**   se você usar o Microsoft System Center Operations Manager (anteriormente Microsoft Operations Manager) para monitorar sua implantação do Lync Server, é possível fazer o backup dos dados que ele cria enquanto está monitorando o Lync Server. Use o processo de backup padrão do SQL Server para fazer backup dos arquivos do System Center Operations Manager. Esses arquivos não são restaurados durante a recuperação.
 
-  - **Configuração de gateway da rede de telefonia pública comutada (PSTN)**   se você usar aparelhos de filial e filiais sobreviventes, será necessário fazer backup da configuração do gateway PSTN. Consulte o fornecedor para obter detalhes sobre como fazer backup e restaurar configurações de gateway PSTN.
+  - **Configuração de gateway de rede telefônica pública comutada (PSTN)**   se você usar aparelhos de filial persistente ou Enterprise Voice, precisará fazer o backup da configuração de gateway PSTN. Consulte seu fornecedor para obter detalhes sobre o backup e a restauração de configurações de gateway PSTN.
 
-  - **Versões coexistentes do Lync Server ou do Office Communications Server**   se sua implantação do Lync Server 2013 existir no Lync Server 2010 ou em uma versão anterior do Office Communications Server, você não poderá usar os procedimentos deste documento para fazer backup ou restaurar a versão anterior. Em vez disso, você deve usar os procedimentos de backup e restauração documentados especificamente para a versão anterior. Para obter detalhes sobre como fazer backup e restaurar o Lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=265417](http://go.microsoft.com/fwlink/p/?linkid=265417) , consulte. Para obter detalhes sobre como fazer backup e restaurar o Microsoft Office Communications Server 2007 [http://go.microsoft.com/fwlink/p/?linkId=168162](http://go.microsoft.com/fwlink/p/?linkid=168162)R2, consulte.
+  - **Versões coexistentes do Lync Server ou do Office Communications Server**   se sua implantação do Lync Server 2013 coexistir com o Lync Server 2010 ou uma versão anterior do Office Communications Server, você não pode usar os procedimentos neste documento para fazer o backup ou a restauração da versão anterior. Em vez disso, você deve usar os procedimentos de backup e restauração documentados especificamente para sua versão anterior. Para obter detalhes sobre como fazer backup e restaurar o Lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=265417](http://go.microsoft.com/fwlink/p/?linkid=265417) , consulte. Para obter detalhes sobre como fazer backup e restaurar o Microsoft Office Communications Server 2007 [http://go.microsoft.com/fwlink/p/?linkId=168162](http://go.microsoft.com/fwlink/p/?linkid=168162)R2, consulte.
 
-  - **Informações de infraestrutura**   você precisa fazer backup de informações sobre sua infraestrutura, como a configuração do seu firewall, a configuração de balanceamento de carga, a configuração dos serviços de informações da Internet (IIS), os registros DNS e os endereços IP e a configuração de DHCP (Dynamic Host Configuration Protocol). Para obter detalhes sobre como fazer backup desses componentes, consulte seus respectivos fornecedores.
+  - **Informações de infraestrutura**   você precisa fazer o backup de informações sobre sua infraestrutura, como a configuração de seu firewall, configuração de balanceamento de carga, configuração de serviços de informações da Internet (IIS), registros DNS (sistema de nomes de domínio) e endereços IP e configuração de protocolo de configuração dinâmica de hosts (DHCP). Para obter detalhes sobre como fazer backup desses componentes, verifique com seus respectivos fornecedores.
 
-  - **Microsoft Exchange e Exchange Unified Messaging (um)**   backup e restauração do Microsoft Exchange e do Exchange um, conforme descrito na documentação do Microsoft Exchange. Para obter detalhes sobre como fazer backup e restaurar o Exchange Server 2013 [http://go.microsoft.com/fwlink/?LinkId=285384](http://go.microsoft.com/fwlink/?linkid=285384), consulte. Para obter detalhes sobre como fazer backup e restaurar o Exchange Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=209179](http://go.microsoft.com/fwlink/p/?linkid=209179), consulte.
+  - **Microsoft Exchange e Exchange Unified Messaging (um)**   fazer backup e restaurar o Microsoft Exchange e o um do Exchange conforme descrito na documentação do Microsoft Exchange. Para obter detalhes sobre como fazer backup e restaurar o Exchange Server 2013 [http://go.microsoft.com/fwlink/?LinkId=285384](http://go.microsoft.com/fwlink/?linkid=285384), consulte. Para obter detalhes sobre como fazer backup e restaurar o Exchange Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=209179](http://go.microsoft.com/fwlink/p/?linkid=209179), consulte.
     
-    Observe que o Lync Server 2013 introduz a capacidade de ter listas de contatos do usuário, fotos de usuários de alta definição e arquivar dados armazenados no Exchange 2013. Veja a lista a seguir para ver como fazer backup desses tipos de dados:
+    Observe que o Lync Server 2013 introduz a capacidade de ter listas de contatos de usuário, fotos de usuário de alta definição e dados de arquivamento armazenados no Exchange 2013. Consulte a lista a seguir para ver como fazer backup desses tipos de dados:
     
-      - **Fotos de alta definição** são cofeitas como parte do backup do Exchange Server.
+      - Há backup de **fotos de alta definição** como parte do backup do Exchange Server.
     
-      - O **repositório de contatos unificado** é apresentado no Lync Server 2013. O repositório de contatos unificado permite que os usuários mantenham todas as informações de contato no Exchange 2013.
+      - O **repositório unificado de contatos** é apresentado no Lync Server 2013. O repositório unificado de contatos permite que os usuários mantenham todas as informações de contato no Exchange 2013.
         
-        Você deve garantir que os backups sejam atualizados para os usuários em termos de se seus contatos do usuário estão armazenados no repositório de contatos unificado ou no servidor do Lync back-end. Os cenários a seguir ilustram onde a migração de contatos do usuário para o repositório de contatos unificado pode causar problemas para o processo de backup e restauração.
+        Você deve verificar se os backups estão atualizados para os usuários em termos de que seus contatos de usuário estejam armazenados no repositório unificado de contatos ou no servidor back-end do Lync. Os cenários a seguir ilustram onde a migração de contatos do usuário para o repositório unificado de contatos pode causar problemas para o processo de backup e restauração.
         
-        **Cenário 1:** Os contatos do usuário são migrados para o repositório de contatos unificado, e uma restauração é realizada de um backup do Lync Server feito antes da migração dos contatos do usuário. Nesse cenário, o usuário terá um estado de contatos desatualizados para até um dia até que a tarefa de migração do Lync Server comece a migrar contatos do usuário para o Exchange. (Observe que, como os contatos do usuário foram anteriormente migrados para o repositório de contatos unificado, as informações de contato do Exchange serão usadas). Nesse cenário, nenhuma intervenção do administrador é necessária.
+        **Cenário 1:** Os contatos do usuário são migrados para o repositório unificado de contatos e uma restauração é realizada de um backup do Lync Server realizado antes da migração dos contatos do usuário. Neste cenário, o usuário terá um estado de contatos desatualizados para até um dia até a tarefa de migração do Lync Server começar a migrar contatos de usuário para o Exchange. (Observe que, como os contatos do usuário foram anteriormente migrados para o repositório unificado de contatos, as informações de contato do Exchange serão usadas). Nenhuma intervenção do administrador é necessária neste cenário.
         
-        **Cenário 2:** Os contatos do usuário foram armazenados anteriormente no repositório de contatos unificado, mas depois revertidos. Uma restauração é realizada de um backup do Lync Server realizada quando os contatos do usuário eram armazenados no repositório de contatos unificado. Nesse cenário, uma mensagem de erro nos `Error: Incorrect Exchange Version` logs do servidor cliente ou Lyss pode indicar isso como um problema. O usuário poderá acessar a lista de contatos no Lync 2013 diretamente do Exchange, mas o estado do cliente não será compatível com o estado do Lync Server. Para corrigir isso, um administrador precisará executar os cmdlets **Invoke-CsUCSRollback** para os usuários afetados.
+        **Cenário 2:** Os contatos do usuário foram armazenados anteriormente no repositório unificado de contatos, mas revertidos. Uma restauração é realizada de um backup do Lync Server feito quando os contatos do usuário foram armazenados no repositório unificado de contatos. Neste cenário, uma mensagem de `Error: Incorrect Exchange Version` erro nos logs do servidor cliente ou do Lyss pode indicar isso como um problema. O usuário poderá acessar a lista de contatos no Lync 2013 diretamente do Exchange, mas o estado do cliente não corresponderá ao estado do Lync Server. Para corrigir isso, um administrador precisará executar os cmdlets **Invoke-CsUCSRollback** para os usuários afetados.
     
-      - O **arquivamento de dados** pode ser armazenado no Exchange 2013. Esses dados não são críticos para o Lync Server, mas podem ser críticos para a sua organização para fins reguladores. Se o arquivamento de dados estiver armazenado no Exchange e for essencial para sua organização, siga os procedimentos de backup e restauração do Exchange. Observe que o arquivamento de dados armazenados no Exchange não pode ser retornado ao Lync Server. Além disso, não há nenhuma maneira de mover os dados já armazenados no banco de dados de arquivamento do Lync para o Exchange.
+      - **Os dados de arquivamento** podem ser armazenados no Exchange 2013. Esses dados não são críticos para o Lync Server, mas podem ser fundamentais para sua organização para fins normativos. Se os dados de arquivamento estiverem armazenados no Exchange e forem fundamentais para sua organização, siga os procedimentos de backup e restauração do Exchange. Observe que os dados de arquivamento armazenados no Exchange não podem ser movidos de volta para o Lync Server. Além disso, não há como mover dados já armazenados no banco de dados de arquivamento do Lync para o Exchange.
 
 </div>
 

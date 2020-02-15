@@ -12,16 +12,16 @@ ms:contentKeyID: 48183608
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c92a51ed9b775990d048bf45bfa54a893ba15856
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b58f43c696a6218d0dd9b670615cc0f73b0b7ae3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764167"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42024722"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764167"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-12_
+_**Última modificação do tópico:** 2012-09-12_
 
-tblLastInviteId contém a ID do último convite que foi gerada (e usada na tabela tblPrincipalInvites) para cada usuário.
+tblLastInviteId contém a última ID de convite gerada (e usada na tabela tblPrincipalInvites) para cada usuário.
 
 ### <a name="columns"></a>Colunas
 
@@ -56,20 +56,20 @@ tblLastInviteId contém a ID do último convite que foi gerada (e usada na tabel
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>multiimprimir</p></td>
-<td><p>int, não nulo</p></td>
-<td><p>ID da entidade de segurança.</p></td>
+<td><p>prinID</p></td>
+<td><p>int, not null</p></td>
+<td><p>ID principal.</p></td>
 </tr>
 <tr class="even">
 <td><p>lastInviteID</p></td>
 <td><p>int, não nulo</p></td>
-<td><p>ID do convite usado pela última vez.</p></td>
+<td><p>ID do último convite usado.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>As
+### <a name="keys"></a>Chaves
 
 <table>
 <colgroup>
@@ -84,12 +84,12 @@ tblLastInviteId contém a ID do último convite que foi gerada (e usada na tabel
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>multiimprimir</p></td>
+<td><p>prinID</p></td>
 <td><p>Chave primária.</p></td>
 </tr>
 <tr class="even">
-<td><p>multiimprimir</p></td>
-<td><p>Chave estrangeira com Lookup na tabela tblPrincipal. retoid.</p></td>
+<td><p>prinID</p></td>
+<td><p>Chave estrangeira com pesquisa na tabela tblPrincipal.prinID.</p></td>
 </tr>
 </tbody>
 </table>

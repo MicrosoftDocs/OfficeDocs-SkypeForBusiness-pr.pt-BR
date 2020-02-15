@@ -12,16 +12,16 @@ ms:contentKeyID: 48185176
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29d7c5c806e7540cc742781ce364748c47c10b39
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ebde759bceaf682384284cffb6a2ec710050126c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764237"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031195"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764237"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-29_
+_**Última modificação do tópico:** 2012-06-29_
 
-o tblActivePeers contém as conexões ponto-a-ponto atuais entre os serviços de chat.
+A tblActivePeers contém as conexões ponto a ponto atuais entre Servidores de Canal.
 
 ### <a name="columns"></a>Colunas
 
@@ -57,19 +57,19 @@ o tblActivePeers contém as conexões ponto-a-ponto atuais entre os serviços de
 <tbody>
 <tr class="odd">
 <td><p>aplServerID</p></td>
-<td><p>int, não nulo</p></td>
+<td><p>int, not null</p></td>
 <td><p>ID do servidor que postou a entrada.</p></td>
 </tr>
 <tr class="even">
 <td><p>aplPeerID</p></td>
 <td><p>int, não nulo</p></td>
-<td><p>ID do par ao qual o servidor de postagem está conectado.</p></td>
+<td><p>ID do ponto ao qual o servidor de postagem está conectado.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>As
+### <a name="keys"></a>Chaves
 
 <table>
 <colgroup>
@@ -89,11 +89,11 @@ o tblActivePeers contém as conexões ponto-a-ponto atuais entre os serviços de
 </tr>
 <tr class="even">
 <td><p>aplServerID</p></td>
-<td><p>Chave estrangeira com Lookup na tabela tblServerIdentity. serverID.</p></td>
+<td><p>Chave estrangeira com pesquisa na tabela tblServerIdentity.serverID.</p></td>
 </tr>
 <tr class="odd">
 <td><p>aplPeerID</p></td>
-<td><p>Chave estrangeira com Lookup na tabela tblServerIdentity. serverID.</p></td>
+<td><p>Chave estrangeira com pesquisa na tabela tblServerIdentity.serverID.</p></td>
 </tr>
 </tbody>
 </table>

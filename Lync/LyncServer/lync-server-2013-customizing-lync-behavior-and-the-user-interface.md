@@ -12,16 +12,16 @@ ms:contentKeyID: 48183443
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: df800b1670226d90deee6921d0c0514cbfdcee14
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5d5b006c14932e011fc0921c2f0a92933515e5bb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728711"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028522"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41728711"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-03-22_
+_**Última modificação do tópico:** 2013-03-22_
 
 Esta seção descreve como adicionar recursos personalizados ao Lync 2013.
 
@@ -43,19 +43,19 @@ Esta seção descreve como adicionar recursos personalizados ao Lync 2013.
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Configurando as configurações de intervalo de porta de mídia no Lync Server 2013](lync-server-2013-configuring-media-port-range-settings.md)
+  - [Definindo as configurações de intervalo de porta de mídia no Lync Server 2013](lync-server-2013-configuring-media-port-range-settings.md)
 
-  - [Adicionar comandos aos menus do Lync no Lync Server 2013](lync-server-2013-adding-commands-to-lync-menus.md)
+  - [Adicionando comandos aos menus do Lync no Lync Server 2013](lync-server-2013-adding-commands-to-lync-menus.md)
 
   - [Integrando um aplicativo de colaboração de terceiros com o Lync Server 2013](lync-server-2013-integrating-a-third-party-collaboration-application-with-lync.md)
 
-  - [Configuração de Estados de presença personalizada no Lync Server 2013](lync-server-2013-configuring-custom-presence-states.md)
+  - [Configurando Estados de presença personalizada no Lync Server 2013](lync-server-2013-configuring-custom-presence-states.md)
 
   - [Adicionando um link personalizado às mensagens de erro do Lync no Lync Server 2013](lync-server-2013-adding-a-custom-link-to-lync-error-messages.md)
 
   - [Adicionando texto personalizado a mensagens instantâneas no Lync Server 2013](lync-server-2013-adding-custom-text-to-instant-messages.md)
 
-  - [Iniciando o Lync a partir de outro aplicativo](lync-server-2013-starting-lync-from-another-application.md)
+  - [Iniciando o Lync de outro aplicativo](lync-server-2013-starting-lync-from-another-application.md)
 
   - [Configurando opções de imagem padrão no Lync Server 2013](lync-server-2013-configuring-default-picture-options.md)
 
