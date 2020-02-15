@@ -12,20 +12,20 @@ ms:contentKeyID: 48185771
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f68f6cfa2fde4d1e5a2bc58a36478a60060dd5e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f84ef03f782263ed9f82b1667418c907087f5d5c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765752"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051389"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-csclientpolicy-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="d41e1-102">New-CsClientPolicy para o gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d41e1-102">New-CsClientPolicy for Address Book management in Lync Server 2013</span></span>
+# <a name="new-csclientpolicy-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="d6afa-102">New-CsClientPolicy para gerenciamento de catálogo de endereços no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d6afa-102">New-CsClientPolicy for Address Book management in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,32 +35,32 @@ ms.locfileid: "41765752"
 
 <span> </span>
 
-<span data-ttu-id="d41e1-103">_**Tópico da última modificação:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="d41e1-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="d6afa-103">_**Última modificação do tópico:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="d6afa-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="d41e1-104">Quem pode executar este cmdlet: por padrão, os membros dos grupos a seguir estão autorizados a executar o cmdlet New-CsClientPolicy: RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="d41e1-104">Who can run this cmdlet: By default, members of the following groups are authorized to run the New-CsClientPolicy cmdlet: RTCUniversalServerAdmins.</span></span> <span data-ttu-id="d41e1-105">Para retornar uma lista de todas as funções de controle de acesso baseado em função (RBAC) às quais esse cmdlet foi atribuído (incluindo qualquer função RBAC personalizada que você criou), execute o seguinte comando no prompt do Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="d41e1-105">To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
+<span data-ttu-id="d6afa-104">Quem pode executar este cmdlet: Por padrão, membros dos seguintes grupos estão autorizados a executar o cmdlet New-CsClientPolicy: RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="d6afa-104">Who can run this cmdlet: By default, members of the following groups are authorized to run the New-CsClientPolicy cmdlet: RTCUniversalServerAdmins.</span></span> <span data-ttu-id="d6afa-105">Para retornar uma lista de todas as funções RBAC que este cmdlet foi atribuído (incluindo qualquer função RBAC que você criou sozinho), execute o seguinte comando no prompt do Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="d6afa-105">To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "New-CsClientPolicy"}
 
-<span data-ttu-id="d41e1-106">O cmdlet New-CsClientPolicy define um grande número de configurações para configurar clientes para os recursos que estão disponíveis no Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d41e1-106">The cmdlet New-CsClientPolicy defines a large number of settings for provisioning clients for features that are available in Lync Server 2013.</span></span> <span data-ttu-id="d41e1-107">Para o serviço de catálogo de endereços, o parâmetro AddressBookAvailability é de interesse.</span><span class="sxs-lookup"><span data-stu-id="d41e1-107">For the Address Book Service, the parameter AddressBookAvailability is of interest.</span></span> <span data-ttu-id="d41e1-108">Esse parâmetro, que afeta diretamente as opções disponíveis para os clientes, tem três opções possíveis:</span><span class="sxs-lookup"><span data-stu-id="d41e1-108">This parameter, which directly impacts the options available to clients, has three possible options:</span></span>
+<span data-ttu-id="d6afa-106">O cmdlet New-CsClientPolicy define um grande número de configurações para o provisionamento de clientes para recursos disponíveis no Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="d6afa-106">The cmdlet New-CsClientPolicy defines a large number of settings for provisioning clients for features that are available in Lync Server 2013.</span></span> <span data-ttu-id="d6afa-107">Para o serviço de catálogo de endereços, o parâmetro AddressBookAvailability é de interesse.</span><span class="sxs-lookup"><span data-stu-id="d6afa-107">For the Address Book Service, the parameter AddressBookAvailability is of interest.</span></span> <span data-ttu-id="d6afa-108">Esse parâmetro, que afeta diretamente as opções disponíveis para os clientes, tem três opções possíveis:</span><span class="sxs-lookup"><span data-stu-id="d6afa-108">This parameter, which directly impacts the options available to clients, has three possible options:</span></span>
 
-  - <span data-ttu-id="d41e1-109">WebSearchAndFileDownload</span><span class="sxs-lookup"><span data-stu-id="d41e1-109">WebSearchAndFileDownload</span></span>
+  - <span data-ttu-id="d6afa-109">WebSearchAndFileDownload</span><span class="sxs-lookup"><span data-stu-id="d6afa-109">WebSearchAndFileDownload</span></span>
 
-  - <span data-ttu-id="d41e1-110">WebSearchOnly</span><span class="sxs-lookup"><span data-stu-id="d41e1-110">WebSearchOnly</span></span>
+  - <span data-ttu-id="d6afa-110">WebSearchOnly</span><span class="sxs-lookup"><span data-stu-id="d6afa-110">WebSearchOnly</span></span>
 
-  - <span data-ttu-id="d41e1-111">FileDownloadOnly</span><span class="sxs-lookup"><span data-stu-id="d41e1-111">FileDownloadOnly</span></span>
+  - <span data-ttu-id="d6afa-111">FileDownloadOnly</span><span class="sxs-lookup"><span data-stu-id="d6afa-111">FileDownloadOnly</span></span>
 
-<span data-ttu-id="d41e1-112">Quando definido, ele determina como o catálogo de endereços é acessado por clientes.</span><span class="sxs-lookup"><span data-stu-id="d41e1-112">When defined, it determines how the Address Book is accessed by clients.</span></span> <span data-ttu-id="d41e1-113">Se você definir esse parâmetro, deverá definir uma das opções.</span><span class="sxs-lookup"><span data-stu-id="d41e1-113">If you define this parameter, you must define one of the options.</span></span> <span data-ttu-id="d41e1-114">Se você não modificar essa configuração, o WebSearchAndFileDownload padrão permanecerá em vigor.</span><span class="sxs-lookup"><span data-stu-id="d41e1-114">If you do not modify this setting, the default WebSearchAndFileDownload remains in effect.</span></span>
+<span data-ttu-id="d6afa-112">Quando definido, ele determina como o catálogo de endereços é acessado por clientes.</span><span class="sxs-lookup"><span data-stu-id="d6afa-112">When defined, it determines how the Address Book is accessed by clients.</span></span> <span data-ttu-id="d6afa-113">Se você definir esse parâmetro, deverá definir uma das opções.</span><span class="sxs-lookup"><span data-stu-id="d6afa-113">If you define this parameter, you must define one of the options.</span></span> <span data-ttu-id="d6afa-114">Se você não modificar essa configuração, o WebSearchAndFileDownload padrão permanecerá em vigor.</span><span class="sxs-lookup"><span data-stu-id="d6afa-114">If you do not modify this setting, the default WebSearchAndFileDownload remains in effect.</span></span>
 
-<span data-ttu-id="d41e1-115">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="d41e1-115">For example:</span></span>
+<span data-ttu-id="d6afa-115">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="d6afa-115">For example:</span></span>
 
     New-CsClientPolicy -Identity RedmondClientPolicy -DisableCalendarPresence $True -DisablePhonePresence $True -DisplayPhoto "PhotosFromADOnly" -AddressBookAvailability "WebSearchOnly"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="d41e1-116">Confira também</span><span class="sxs-lookup"><span data-stu-id="d41e1-116">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d6afa-116">Consulte também</span><span class="sxs-lookup"><span data-stu-id="d6afa-116">See Also</span></span>
 
 
-[<span data-ttu-id="d41e1-117">New-CsClientPolicy</span><span class="sxs-lookup"><span data-stu-id="d41e1-117">New-CsClientPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy)  
+[<span data-ttu-id="d6afa-117">New-CsClientPolicy</span><span class="sxs-lookup"><span data-stu-id="d6afa-117">New-CsClientPolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy)  
   
 
 </div>

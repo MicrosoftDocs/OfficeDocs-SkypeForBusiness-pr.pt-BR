@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: examinando o relatório do firewall'
+title: 'Lync Server 2013: examinando o relatório de firewall'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56539fd8afcfe934aa6a3850ae6869cf08d64802
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a7b3e2592c088c03b0a597bf285ae04891d8a07
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765079"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051525"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="reviewing-the-firewall-report-in-lync-server-2013"></a><span data-ttu-id="ad29d-102">Revisando o relatório do firewall no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ad29d-102">Reviewing the Firewall Report in Lync Server 2013</span></span>
+# <a name="reviewing-the-firewall-report-in-lync-server-2013"></a><span data-ttu-id="b966b-102">Examinando o relatório de firewall no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b966b-102">Reviewing the Firewall Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,20 +35,20 @@ ms.locfileid: "41765079"
 
 <span> </span>
 
-<span data-ttu-id="ad29d-103">_**Tópico da última modificação:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="ad29d-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="b966b-103">_**Última modificação do tópico:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="b966b-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="ad29d-104">O Lync Server 2013 tem um conjunto de regras de firewall potencialmente complexo.</span><span class="sxs-lookup"><span data-stu-id="ad29d-104">Lync Server 2013 has a potentially complex set of firewall rules.</span></span> <span data-ttu-id="ad29d-105">A ferramenta de planejamento reduz essa complexidade ao gerar um relatório que define em detalhes todos os requisitos de firewall, com base nos critérios de entrada do designer.</span><span class="sxs-lookup"><span data-stu-id="ad29d-105">The Planning Tool reduces this complexity by generating a report that defines in detail all firewall requirements, based on the designer’s input criteria.</span></span> <span data-ttu-id="ad29d-106">O administrador de firewall de TI pode usar esse relatório para configurar e definir as regras necessárias.</span><span class="sxs-lookup"><span data-stu-id="ad29d-106">The IT firewall administrator will be able to use this report to configure and define the necessary rules.</span></span>
+<span data-ttu-id="b966b-104">O Lync Server 2013 tem um conjunto de regras de firewall potencialmente complexo.</span><span class="sxs-lookup"><span data-stu-id="b966b-104">Lync Server 2013 has a potentially complex set of firewall rules.</span></span> <span data-ttu-id="b966b-105">A ferramenta de planejamento reduz essa complexidade gerando um relatório que define, em detalhes, todos os requisitos de firewall, com base nos critérios de entrada do designer.</span><span class="sxs-lookup"><span data-stu-id="b966b-105">The Planning Tool reduces this complexity by generating a report that defines in detail all firewall requirements, based on the designer’s input criteria.</span></span> <span data-ttu-id="b966b-106">O administrador de firewall de TI pode usar esse relatório para configurar e definir as regras necessárias.</span><span class="sxs-lookup"><span data-stu-id="b966b-106">The IT firewall administrator will be able to use this report to configure and define the necessary rules.</span></span>
 
-<span data-ttu-id="ad29d-107">Do ponto de vista do gerenciamento de firewall, o relatório deve ser revisado cuidadosamente para garantir que não haja nenhum conflito com as regras de firewall existentes e que não hajam políticas ou procedimentos que possam ser violados.</span><span class="sxs-lookup"><span data-stu-id="ad29d-107">From the standpoint of firewall management, the report should be carefully reviewed to make sure that there are no conflicts with exiting firewall rules and that there are no policies or procedures that might be violated.</span></span>
+<span data-ttu-id="b966b-107">Do ponto de vista do gerenciamento de firewall, o relatório deve ser cuidadosamente revisado para garantir que não haja conflitos com a saída de regras de firewall e que não haja diretivas ou procedimentos que possam ser violados.</span><span class="sxs-lookup"><span data-stu-id="b966b-107">From the standpoint of firewall management, the report should be carefully reviewed to make sure that there are no conflicts with exiting firewall rules and that there are no policies or procedures that might be violated.</span></span>
 
-<span data-ttu-id="ad29d-108">![Relatório de administração de firewall](images/Gg558654.575c1081-5849-45a2-b73c-ab96f55518c3(OCS.15).jpg "Relatório de administração de firewall")</span><span class="sxs-lookup"><span data-stu-id="ad29d-108">![Firewall Admin Report](images/Gg558654.575c1081-5849-45a2-b73c-ab96f55518c3(OCS.15).jpg "Firewall Admin Report")</span></span>
+<span data-ttu-id="b966b-108">![Relatório de administração de firewall](images/Gg558654.575c1081-5849-45a2-b73c-ab96f55518c3(OCS.15).jpg "Relatório de administração de firewall")</span><span class="sxs-lookup"><span data-stu-id="b966b-108">![Firewall Admin Report](images/Gg558654.575c1081-5849-45a2-b73c-ab96f55518c3(OCS.15).jpg "Firewall Admin Report")</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="ad29d-109">Confira também</span><span class="sxs-lookup"><span data-stu-id="ad29d-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b966b-109">Confira também</span><span class="sxs-lookup"><span data-stu-id="b966b-109">See Also</span></span>
 
 
-[<span data-ttu-id="ad29d-110">Revisando os Relatórios do Administrador no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ad29d-110">Reviewing the Administrator Reports in Lync Server 2013</span></span>](lync-server-2013-reviewing-the-administrator-reports.md)  
+[<span data-ttu-id="b966b-110">Revisando os relatórios do administrador no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b966b-110">Reviewing the Administrator Reports in Lync Server 2013</span></span>](lync-server-2013-reviewing-the-administrator-reports.md)  
   
 
 </div>
