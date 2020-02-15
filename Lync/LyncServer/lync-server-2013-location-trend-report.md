@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: relatório de tendências de localização'
+title: 'Lync Server 2013: relatório de tendências de local'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184280
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 26f825a33eeb90817685c1694a5c6579110ffcd6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e74cf4e763272f2309e358120abb12b0424aa40b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762139"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030935"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="location-trend-report-in-lync-server-2013"></a><span data-ttu-id="1e9f4-102">Relatório de tendências de localização no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1e9f4-102">Location Trend Report in Lync Server 2013</span></span>
+# <a name="location-trend-report-in-lync-server-2013"></a><span data-ttu-id="141e3-102">Relatório de tendências de local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="141e3-102">Location Trend Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41762139"
 
 <span> </span>
 
-<span data-ttu-id="1e9f4-103">_**Tópico da última modificação:** 2012-06-06_</span><span class="sxs-lookup"><span data-stu-id="1e9f4-103">_**Topic Last Modified:** 2012-06-06_</span></span>
+<span data-ttu-id="141e3-103">_**Última modificação do tópico:** 2012-06-06_</span><span class="sxs-lookup"><span data-stu-id="141e3-103">_**Topic Last Modified:** 2012-06-06_</span></span>
 
-<span data-ttu-id="1e9f4-104">O Relatório de Tendências de Local fornece informações sobre as tendências de qualidade de chamada para locais de rede.</span><span class="sxs-lookup"><span data-stu-id="1e9f4-104">The Location Trend Report provides call quality trend information for network locations.</span></span>
+<span data-ttu-id="141e3-104">O Relatório de Tendências de Local fornece informações sobre as tendências de qualidade de chamada para locais de rede.</span><span class="sxs-lookup"><span data-stu-id="141e3-104">The Location Trend Report provides call quality trend information for network locations.</span></span>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="1e9f4-105">Filtros</span><span class="sxs-lookup"><span data-stu-id="1e9f4-105">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="141e3-105">Filtros</span><span class="sxs-lookup"><span data-stu-id="141e3-105">Filters</span></span>
 
-<span data-ttu-id="1e9f4-p101">Filtros fornecem uma forma de retornar um conjunto de dados mais focado ou exibir os dados retornados de diferentes formas. Por exemplo, o Relatório de Tendências de Local permite filtrar os dados retornados por informações como tipo de acesso (ou seja, acesso interno x acesso externo) ou por conexão de rede com fio/sem fio. Você também pode escolher como os dados serão agrupados. Neste caso, as chamadas são agrupadas por hora, dia, semana ou mês.</span><span class="sxs-lookup"><span data-stu-id="1e9f4-p101">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Location Trend Report enables you to filter the returned data by such things as access type (that is, interval access vs. external access) or by wired/wireless network connection. You can also choose how data should be grouped. In this case, calls are grouped by hour, day, or week.</span></span>
+<span data-ttu-id="141e3-p101">Filtros fornecem uma forma de retornar um conjunto de dados mais focado ou exibir os dados retornados de diferentes formas. Por exemplo, o Relatório de Tendências de Local permite filtrar os dados retornados por informações como tipo de acesso (ou seja, acesso interno x acesso externo) ou por conexão de rede com fio/sem fio. Você também pode escolher como os dados serão agrupados. Neste caso, as chamadas são agrupadas por hora, dia, semana ou mês.</span><span class="sxs-lookup"><span data-stu-id="141e3-p101">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Location Trend Report enables you to filter the returned data by such things as access type (that is, interval access vs. external access) or by wired/wireless network connection. You can also choose how data should be grouped. In this case, calls are grouped by hour, day, or week.</span></span>
 
-<span data-ttu-id="1e9f4-110">A tabela a seguir lista os filtros que podem ser usados com o Relatório de Tendências de Local.</span><span class="sxs-lookup"><span data-stu-id="1e9f4-110">The following table lists the filters that you can use with the Location Trend Report.</span></span>
+<span data-ttu-id="141e3-110">A tabela a seguir lista os filtros que podem ser usados com o Relatório de Tendências de Local.</span><span class="sxs-lookup"><span data-stu-id="141e3-110">The following table lists the filters that you can use with the Location Trend Report.</span></span>
 
-### <a name="location-trend-report-filters"></a><span data-ttu-id="1e9f4-111">Filtros do Relatório de Tendências de Local</span><span class="sxs-lookup"><span data-stu-id="1e9f4-111">Location Trend Report Filters</span></span>
+### <a name="location-trend-report-filters"></a><span data-ttu-id="141e3-111">Filtros do Relatório de Tendências de Local</span><span class="sxs-lookup"><span data-stu-id="141e3-111">Location Trend Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -56,66 +56,66 @@ ms.locfileid: "41762139"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="1e9f4-112">Nome</span><span class="sxs-lookup"><span data-stu-id="1e9f4-112">Name</span></span></th>
-<th><span data-ttu-id="1e9f4-113">Descrição</span><span class="sxs-lookup"><span data-stu-id="1e9f4-113">Description</span></span></th>
+<th><span data-ttu-id="141e3-112">Nome</span><span class="sxs-lookup"><span data-stu-id="141e3-112">Name</span></span></th>
+<th><span data-ttu-id="141e3-113">Descrição</span><span class="sxs-lookup"><span data-stu-id="141e3-113">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1e9f4-114"><strong>De</strong></span><span class="sxs-lookup"><span data-stu-id="1e9f4-114"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="1e9f4-p102">Data/hora de início para o intervalo de tempo. Para ver os dados por horas, insira a data e hora de início conforme segue:</span><span class="sxs-lookup"><span data-stu-id="1e9f4-p102">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="1e9f4-117">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="1e9f4-117">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="1e9f4-p103">Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:</span><span class="sxs-lookup"><span data-stu-id="1e9f4-p103">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="1e9f4-120">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="1e9f4-120">7/7/2012</span></span></p>
-<p><span data-ttu-id="1e9f4-121">Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</span><span class="sxs-lookup"><span data-stu-id="1e9f4-121">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="1e9f4-122">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="1e9f4-122">7/3/2012</span></span></p>
-<p><span data-ttu-id="1e9f4-123">As semanas sempre vão de domingo a sábado.</span><span class="sxs-lookup"><span data-stu-id="1e9f4-123">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="141e3-114"><strong>De</strong></span><span class="sxs-lookup"><span data-stu-id="141e3-114"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="141e3-p102">Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:</span><span class="sxs-lookup"><span data-stu-id="141e3-p102">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="141e3-117">7/7/2012 13:00 horas</span><span class="sxs-lookup"><span data-stu-id="141e3-117">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="141e3-p103">Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</span><span class="sxs-lookup"><span data-stu-id="141e3-p103">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="141e3-120">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="141e3-120">7/7/2012</span></span></p>
+<p><span data-ttu-id="141e3-121">Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</span><span class="sxs-lookup"><span data-stu-id="141e3-121">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="141e3-122">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="141e3-122">7/3/2012</span></span></p>
+<p><span data-ttu-id="141e3-123">As semanas sempre são de Domingo a Sábado.</span><span class="sxs-lookup"><span data-stu-id="141e3-123">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1e9f4-124"><strong>Até</strong></span><span class="sxs-lookup"><span data-stu-id="1e9f4-124"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="1e9f4-p104">Data/hora final de intervalo de tempo. Para ver os dados por horas, insira a data e hora final conforme segue:</span><span class="sxs-lookup"><span data-stu-id="1e9f4-p104">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="1e9f4-127">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="1e9f4-127">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="1e9f4-p105">Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:</span><span class="sxs-lookup"><span data-stu-id="1e9f4-p105">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="1e9f4-130">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="1e9f4-130">7/7/2012</span></span></p>
-<p><span data-ttu-id="1e9f4-131">Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</span><span class="sxs-lookup"><span data-stu-id="1e9f4-131">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="1e9f4-132">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="1e9f4-132">7/3/2012</span></span></p>
-<p><span data-ttu-id="1e9f4-133">As semanas sempre vão de domingo a sábado.</span><span class="sxs-lookup"><span data-stu-id="1e9f4-133">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="141e3-124"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="141e3-124"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="141e3-p104">Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:</span><span class="sxs-lookup"><span data-stu-id="141e3-p104">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="141e3-127">7/7/2012 13:00 horas</span><span class="sxs-lookup"><span data-stu-id="141e3-127">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="141e3-p105">Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</span><span class="sxs-lookup"><span data-stu-id="141e3-p105">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="141e3-130">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="141e3-130">7/7/2012</span></span></p>
+<p><span data-ttu-id="141e3-131">Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</span><span class="sxs-lookup"><span data-stu-id="141e3-131">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="141e3-132">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="141e3-132">7/3/2012</span></span></p>
+<p><span data-ttu-id="141e3-133">As semanas são sempre de domingo a sábado.</span><span class="sxs-lookup"><span data-stu-id="141e3-133">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1e9f4-134"><strong>Intervalo</strong></span><span class="sxs-lookup"><span data-stu-id="1e9f4-134"><strong>Interval</strong></span></span></p></td>
-<td><p><span data-ttu-id="1e9f4-p106">Intervalo de tempo. Selecione uma das seguintes opções:</span><span class="sxs-lookup"><span data-stu-id="1e9f4-p106">Time interval. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="141e3-134"><strong>Intervalo</strong></span><span class="sxs-lookup"><span data-stu-id="141e3-134"><strong>Interval</strong></span></span></p></td>
+<td><p><span data-ttu-id="141e3-p106">Intervalo de tempo. Selecione uma das seguintes opções:</span><span class="sxs-lookup"><span data-stu-id="141e3-p106">Time interval. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="1e9f4-137">Por hora (é possível exibir no máximo 25 horas)</span><span class="sxs-lookup"><span data-stu-id="1e9f4-137">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="1e9f4-138">Diariamente (é possível exibir no máximo 31 dias)</span><span class="sxs-lookup"><span data-stu-id="1e9f4-138">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="1e9f4-139">Semanalmente (é possível exibir no máximo 12 semanas)</span><span class="sxs-lookup"><span data-stu-id="1e9f4-139">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="141e3-137">Por hora (é possível exibir no máximo 25 horas)</span><span class="sxs-lookup"><span data-stu-id="141e3-137">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="141e3-138">Diariamente (é possível exibir no máximo 31 dias)</span><span class="sxs-lookup"><span data-stu-id="141e3-138">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="141e3-139">Semanal (é possível exibir no máximo 12 semanas)</span><span class="sxs-lookup"><span data-stu-id="141e3-139">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
 </ul>
-<p><span data-ttu-id="1e9f4-p107">Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, somente o número máximo de valores (a partir da data de início) será exibido. Por exemplo, se você selecionar o intervalo Diário com a data de início 1/1/2012 e a data de término 28/2/2011, os dados serão exibidos para os dias de 1/8/2012 00:00 a 1/9/2012 00:00 (ou seja, um total de 31 dias de dados).</span><span class="sxs-lookup"><span data-stu-id="1e9f4-p107">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed. For example, if you select the Daily interval with a start date of 1/1/2011 and an end date of 2/28/2011, data is displayed for the days 8/1/2011 12:00 AM to 9/1/2011 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
+<p><span data-ttu-id="141e3-p107">Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, somente o número máximo de valores (a partir da data de início) será exibido. Por exemplo, se você selecionar o intervalo Diário com a data de início 7/8/2012 e a data de término 28/9/2011, os dados serão exibidos para os dias de 7/8/2012 12:00 AM a 7/9/2012 12:00 AM (ou seja, um total de 31 dias de dados).</span><span class="sxs-lookup"><span data-stu-id="141e3-p107">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed. For example, if you select the Daily interval with a start date of 1/1/2011 and an end date of 2/28/2011, data is displayed for the days 8/1/2011 12:00 AM to 9/1/2011 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1e9f4-142"><strong>Tipo de acesso</strong></span><span class="sxs-lookup"><span data-stu-id="1e9f4-142"><strong>Access type</strong></span></span></p></td>
-<td><p><span data-ttu-id="1e9f4-p108">Indica se um cliente estava conectado na rede interna ou na rede externa quando a chamada foi realizada. Selecione um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="1e9f4-p108">Indicates whether the client was logged on to the internal network or the external network when the call was placed. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="141e3-142"><strong>Tipo de acesso</strong></span><span class="sxs-lookup"><span data-stu-id="141e3-142"><strong>Access type</strong></span></span></p></td>
+<td><p><span data-ttu-id="141e3-p108">Indica se um cliente estava conectado na rede interna ou na rede externa quando a chamada foi realizada. Selecione um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="141e3-p108">Indicates whether the client was logged on to the internal network or the external network when the call was placed. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="1e9f4-145">[Todos]</span><span class="sxs-lookup"><span data-stu-id="1e9f4-145">[All]</span></span></p></li>
-<li><p><span data-ttu-id="1e9f4-146">Interno</span><span class="sxs-lookup"><span data-stu-id="1e9f4-146">Internal</span></span></p></li>
-<li><p><span data-ttu-id="1e9f4-147">Externo</span><span class="sxs-lookup"><span data-stu-id="1e9f4-147">External</span></span></p></li>
+<li><p><span data-ttu-id="141e3-145">Todos os</span><span class="sxs-lookup"><span data-stu-id="141e3-145">[All]</span></span></p></li>
+<li><p><span data-ttu-id="141e3-146">Interna</span><span class="sxs-lookup"><span data-stu-id="141e3-146">Internal</span></span></p></li>
+<li><p><span data-ttu-id="141e3-147">Externa</span><span class="sxs-lookup"><span data-stu-id="141e3-147">External</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1e9f4-148"><strong>Tipo de rede</strong></span><span class="sxs-lookup"><span data-stu-id="1e9f4-148"><strong>Network type</strong></span></span></p></td>
-<td><p><span data-ttu-id="1e9f4-p109">Indica o tipo de rede que o cliente estava conectado quando a chamada foi realizada. Selecione um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="1e9f4-p109">Indicates the type of network the client was connected to when the call was placed. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="141e3-148"><strong>Tipo de rede</strong></span><span class="sxs-lookup"><span data-stu-id="141e3-148"><strong>Network type</strong></span></span></p></td>
+<td><p><span data-ttu-id="141e3-p109">Indica o tipo de rede que o cliente estava conectado quando a chamada foi realizada. Selecione um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="141e3-p109">Indicates the type of network the client was connected to when the call was placed. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="1e9f4-151">[Todos]</span><span class="sxs-lookup"><span data-stu-id="1e9f4-151">[All]</span></span></p></li>
-<li><p><span data-ttu-id="1e9f4-152">Com fio</span><span class="sxs-lookup"><span data-stu-id="1e9f4-152">Wired</span></span></p></li>
-<li><p><span data-ttu-id="1e9f4-153">Sem fio</span><span class="sxs-lookup"><span data-stu-id="1e9f4-153">Wireless</span></span></p></li>
+<li><p><span data-ttu-id="141e3-151">Todos os</span><span class="sxs-lookup"><span data-stu-id="141e3-151">[All]</span></span></p></li>
+<li><p><span data-ttu-id="141e3-152">Com fio</span><span class="sxs-lookup"><span data-stu-id="141e3-152">Wired</span></span></p></li>
+<li><p><span data-ttu-id="141e3-153">Conexão</span><span class="sxs-lookup"><span data-stu-id="141e3-153">Wireless</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1e9f4-154"><strong>VPN</strong></span><span class="sxs-lookup"><span data-stu-id="1e9f4-154"><strong>VPN</strong></span></span></p></td>
-<td><p><span data-ttu-id="1e9f4-p110">Indica se um cliente externo estava usando uma conexão de rede privada virtual (VPN) quando a chamada foi realizada. Selecione um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="1e9f4-p110">Indicates whether an external client was using a virtual private network (VPN) connection when the call was placed. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="141e3-154"><strong>VPN</strong></span><span class="sxs-lookup"><span data-stu-id="141e3-154"><strong>VPN</strong></span></span></p></td>
+<td><p><span data-ttu-id="141e3-p110">Indica se um cliente externo estava usando uma conexão de rede privada virtual (VPN) quando a chamada foi realizada. Selecione um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="141e3-p110">Indicates whether an external client was using a virtual private network (VPN) connection when the call was placed. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="1e9f4-157">[Todos]</span><span class="sxs-lookup"><span data-stu-id="1e9f4-157">[All]</span></span></p></li>
-<li><p><span data-ttu-id="1e9f4-158">VPN</span><span class="sxs-lookup"><span data-stu-id="1e9f4-158">VPN</span></span></p></li>
-<li><p><span data-ttu-id="1e9f4-159">Não-VPN</span><span class="sxs-lookup"><span data-stu-id="1e9f4-159">Non-VPN</span></span></p></li>
+<li><p><span data-ttu-id="141e3-157">Todos os</span><span class="sxs-lookup"><span data-stu-id="141e3-157">[All]</span></span></p></li>
+<li><p><span data-ttu-id="141e3-158">VPN</span><span class="sxs-lookup"><span data-stu-id="141e3-158">VPN</span></span></p></li>
+<li><p><span data-ttu-id="141e3-159">Não VPN</span><span class="sxs-lookup"><span data-stu-id="141e3-159">Non-VPN</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>

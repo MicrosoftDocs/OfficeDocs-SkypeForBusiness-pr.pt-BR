@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurando o recurso de mensagem de voz'
+title: 'Lync Server 2013: Configurando o escape de caixa postal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733761
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c32d3bbc39d8f18e30153193c1e722db1ec9d50e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 131b36b87a3d930662cdd863dd4ebc1d0d69163e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734431"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029944"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-voice-mail-escape-in-lync-server-2013"></a><span data-ttu-id="8609d-102">Configurando o recurso de mensagem de voz no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8609d-102">Configuring voice mail escape in Lync Server 2013</span></span>
+# <a name="configuring-voice-mail-escape-in-lync-server-2013"></a><span data-ttu-id="39bce-102">Configurando o escape de caixa postal no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="39bce-102">Configuring voice mail escape in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41734431"
 
 <span> </span>
 
-<span data-ttu-id="8609d-103">_**Tópico da última modificação:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="8609d-103">_**Topic Last Modified:** 2013-02-22_</span></span>
+<span data-ttu-id="39bce-103">_**Última modificação do tópico:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="39bce-103">_**Topic Last Modified:** 2013-02-22_</span></span>
 
-<span data-ttu-id="8609d-104">Quando um usuário configura ligação simultânea para um celular, um chamador geralmente é roteado para a caixa postal pessoal do usuário, caso o celular esteja desligado, sem bateria ou fora de área.</span><span class="sxs-lookup"><span data-stu-id="8609d-104">When a user configures simultaneous ringing to a mobile phone, a caller will typically be routed to the user’s personal voice mail if the mobile phone is turned off, out of battery power, or out of range.</span></span> <span data-ttu-id="8609d-105">Com o Lync Server 2013, os usuários podem optar por fazer chamadas relacionadas a negócios roteadas para o sistema de caixa postal da empresa.</span><span class="sxs-lookup"><span data-stu-id="8609d-105">With Lync Server 2013, users can opt to have business-related calls routed to their corporate voice mail system.</span></span> <span data-ttu-id="8609d-106">Especificamente, um temporizador pode ser configurado e, se a chamada for atendida pela caixa postal da operadora dentro do intervalo de tempo definido, o Lync Server será desconectado do sistema de caixa postal da operadora (e da caixa postal pessoal do usuário), enquanto o restante do usuário os pontos de extremidade no sistema corporativo continuam a tocar.</span><span class="sxs-lookup"><span data-stu-id="8609d-106">Specifically, a timer can be configured, and if the call is answered by the carrier’s voice mail within the range of time defined, Lync Server will disconnect from the carrier’s voice mail system (and the user’s personal voice mail), while the user’s remaining endpoints in the corporate system continue to ring.</span></span> <span data-ttu-id="8609d-107">Desta maneira, o chamador será roteado automaticamente para a caixa postal corporativa do usuário.</span><span class="sxs-lookup"><span data-stu-id="8609d-107">This way, the caller is automatically routed to the user’s corporate voice mail.</span></span>
+<span data-ttu-id="39bce-104">Quando um usuário configura ligação simultânea para um celular, um chamador geralmente é roteado para a caixa postal pessoal do usuário, caso o celular esteja desligado, sem bateria ou fora de área.</span><span class="sxs-lookup"><span data-stu-id="39bce-104">When a user configures simultaneous ringing to a mobile phone, a caller will typically be routed to the user’s personal voice mail if the mobile phone is turned off, out of battery power, or out of range.</span></span> <span data-ttu-id="39bce-105">Com o Lync Server 2013, os usuários podem optar por ter chamadas relacionadas à empresa roteadas para seu sistema de caixa postal corporativo.</span><span class="sxs-lookup"><span data-stu-id="39bce-105">With Lync Server 2013, users can opt to have business-related calls routed to their corporate voice mail system.</span></span> <span data-ttu-id="39bce-106">Especificamente, um timer pode ser configurado e, se a chamada for atendida pela caixa postal da operadora dentro do intervalo de tempo definido, o Lync Server será desconectado do sistema de caixa postal da operadora (e da caixa postal pessoal do usuário), enquanto o restante do usuário os pontos de extremidade no sistema corporativo continuam a tocar.</span><span class="sxs-lookup"><span data-stu-id="39bce-106">Specifically, a timer can be configured, and if the call is answered by the carrier’s voice mail within the range of time defined, Lync Server will disconnect from the carrier’s voice mail system (and the user’s personal voice mail), while the user’s remaining endpoints in the corporate system continue to ring.</span></span> <span data-ttu-id="39bce-107">Desta maneira, o chamador será roteado automaticamente para a caixa postal corporativa do usuário.</span><span class="sxs-lookup"><span data-stu-id="39bce-107">This way, the caller is automatically routed to the user’s corporate voice mail.</span></span>
 
-<span data-ttu-id="8609d-108">Essa configuração é realizada usando o cmdlet do Shell de gerenciamento do Lync Server, **set-CsVoicePolicy**, no nível da política de voz, com os parâmetros a seguir.</span><span class="sxs-lookup"><span data-stu-id="8609d-108">This configuration is performed using the Lync Server Management Shell cmdlet, **Set-CsVoicePolicy**, at the voice policy level, with the following parameters.</span></span>
+<span data-ttu-id="39bce-108">Essa configuração é realizada usando o cmdlet do Shell de gerenciamento do Lync Server, **set-CsVoicePolicy**, no nível de política de voz, com os parâmetros a seguir.</span><span class="sxs-lookup"><span data-stu-id="39bce-108">This configuration is performed using the Lync Server Management Shell cmdlet, **Set-CsVoicePolicy**, at the voice policy level, with the following parameters.</span></span>
 
 <div>
 
-## <a name="to-configure-voice-mail-escape"></a><span data-ttu-id="8609d-109">Para configurar o escape da caixa postal</span><span class="sxs-lookup"><span data-stu-id="8609d-109">To configure voice mail escape</span></span>
+## <a name="to-configure-voice-mail-escape"></a><span data-ttu-id="39bce-109">Para configurar o escape de caixa postal</span><span class="sxs-lookup"><span data-stu-id="39bce-109">To configure voice mail escape</span></span>
 
-1.  <span data-ttu-id="8609d-110">Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="8609d-110">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="39bce-110">Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="39bce-110">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="8609d-111">Especifique os parâmetros a seguir para **Set-CsVoicePolicy**:</span><span class="sxs-lookup"><span data-stu-id="8609d-111">Specify the following parameters to **Set-CsVoicePolicy**:</span></span>
+2.  <span data-ttu-id="39bce-111">Especifique os parâmetros a seguir para **Set-CsVoicePolicy**:</span><span class="sxs-lookup"><span data-stu-id="39bce-111">Specify the following parameters to **Set-CsVoicePolicy**:</span></span>
     
-      - <span data-ttu-id="8609d-112">**EnableVoicemailEscapeTimer** - Ativa ou desativa o timer de escape.</span><span class="sxs-lookup"><span data-stu-id="8609d-112">**EnableVoicemailEscapeTimer** - Enables or disables the escape timer.</span></span>
+      - <span data-ttu-id="39bce-112">**EnableVoicemailEscapeTimer** - Ativa ou desativa o timer de escape</span><span class="sxs-lookup"><span data-stu-id="39bce-112">**EnableVoicemailEscapeTimer** - Enables or disables the escape timer.</span></span>
     
-      - <span data-ttu-id="8609d-p102">**PSTNVoicemailEscapeTimer** - Especifica o valor do tempo limite em milissegundos. O valor padrão é 1500 milissegundos e o valor pode ir de 0 a 8000 milissegundos.</span><span class="sxs-lookup"><span data-stu-id="8609d-p102">**PSTNVoicemailEscapeTimer** - Specifies the timeout value in milliseconds. The default value is 1500 milliseconds, and the value can range from 0 milliseconds to 8000 milliseconds.</span></span>
+      - <span data-ttu-id="39bce-p102">**PSTNVoicemailEscapeTimer** - Especifica o valor do tempo limite em milissegundos. O valor padrão é 1500 milissegundos e o valor pode ir de 0 a 8000 milissegundos.</span><span class="sxs-lookup"><span data-stu-id="39bce-p102">**PSTNVoicemailEscapeTimer** - Specifies the timeout value in milliseconds. The default value is 1500 milliseconds, and the value can range from 0 milliseconds to 8000 milliseconds.</span></span>
 
 </div>
 
 <div>
 
-## <a name="example"></a><span data-ttu-id="8609d-115">Exemplo</span><span class="sxs-lookup"><span data-stu-id="8609d-115">Example</span></span>
+## <a name="example"></a><span data-ttu-id="39bce-115">Exemplo</span><span class="sxs-lookup"><span data-stu-id="39bce-115">Example</span></span>
 
     Set-CsVoicePolicy UserVoicePolicy -EnableVoiceMailEscapeTimer $true - PSTNVoicemailEscapeTimer 2000
     
@@ -67,10 +67,10 @@ ms.locfileid: "41734431"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="8609d-116">Confira também</span><span class="sxs-lookup"><span data-stu-id="8609d-116">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="39bce-116">Consulte também</span><span class="sxs-lookup"><span data-stu-id="39bce-116">See Also</span></span>
 
 
-[<span data-ttu-id="8609d-117">Configurando políticas de voz e registros de uso de PSTN para autorizar recursos e privilégios de chamada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8609d-117">Configuring voice policies and PSTN usage records to authorize calling features and privileges in Lync Server 2013</span></span>](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md)  
+[<span data-ttu-id="39bce-117">Configurando políticas de voz e registros de uso de PSTN para autorizar recursos e privilégios de chamada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="39bce-117">Configuring voice policies and PSTN usage records to authorize calling features and privileges in Lync Server 2013</span></span>](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md)  
   
 
 </div>

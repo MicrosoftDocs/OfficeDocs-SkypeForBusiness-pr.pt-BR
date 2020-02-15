@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Orientação para Roteamento Baseado em Local'
+title: 'Lync Server 2013: orientação para roteamento baseado em local'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803985
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a61478fcfffd182517a1045b041c51abb5efe7e0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5e419b448145927dd712ba41fca562a021c49174
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757535"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030344"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="guidance-for-location-based-routing-in-lync-server-2013"></a><span data-ttu-id="cc50c-102">Orientação para Roteamento Baseado em Local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cc50c-102">Guidance for Location-Based Routing in Lync Server 2013</span></span>
+# <a name="guidance-for-location-based-routing-in-lync-server-2013"></a><span data-ttu-id="ddb23-102">Orientação para roteamento baseado em local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ddb23-102">Guidance for Location-Based Routing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,26 +35,26 @@ ms.locfileid: "41757535"
 
 <span> </span>
 
-<span data-ttu-id="cc50c-103">_**Tópico da última modificação:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="cc50c-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="ddb23-103">_**Última modificação do tópico:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="ddb23-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="cc50c-104">O roteamento baseado em local, dependendo da situação, pode ser aplicado ao local do site da rede de ponto de extremidade do usuário ou no local do site de rede do gateway PSTN.</span><span class="sxs-lookup"><span data-stu-id="cc50c-104">Location-Based Routing depending on the situation can be applied at the user’s endpoint network site location or at the PSTN gateway’s network site location.</span></span> <span data-ttu-id="cc50c-105">Este tópico fornece orientação sobre como o roteamento baseado em localização é aplicado.</span><span class="sxs-lookup"><span data-stu-id="cc50c-105">This topic provides guidance on how Location-Based Routing is applied.</span></span>
+<span data-ttu-id="ddb23-104">O roteamento baseado em local, dependendo da situação, pode ser aplicado no local do site da rede do ponto de extremidade do usuário ou no local do site da rede do gateway PSTN.</span><span class="sxs-lookup"><span data-stu-id="ddb23-104">Location-Based Routing depending on the situation can be applied at the user’s endpoint network site location or at the PSTN gateway’s network site location.</span></span> <span data-ttu-id="ddb23-105">Este tópico fornece orientação sobre como o roteamento baseado em local é aplicado.</span><span class="sxs-lookup"><span data-stu-id="ddb23-105">This topic provides guidance on how Location-Based Routing is applied.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="cc50c-106">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="cc50c-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="ddb23-106">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="ddb23-106">In This Section</span></span>
 
-  - [<span data-ttu-id="cc50c-107">Local do usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cc50c-107">User's location in Lync Server 2013</span></span>](lync-server-2013-user-s-location.md)
+  - [<span data-ttu-id="ddb23-107">Local do usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ddb23-107">User's location in Lync Server 2013</span></span>](lync-server-2013-user-s-location.md)
 
-  - [<span data-ttu-id="cc50c-108">Local do gateway PSTN no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cc50c-108">PSTN gateway's location in Lync Server 2013</span></span>](lync-server-2013-pstn-gateway-s-location.md)
+  - [<span data-ttu-id="ddb23-108">Local do gateway PSTN no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ddb23-108">PSTN gateway's location in Lync Server 2013</span></span>](lync-server-2013-pstn-gateway-s-location.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="cc50c-109">Confira também</span><span class="sxs-lookup"><span data-stu-id="cc50c-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ddb23-109">Confira também</span><span class="sxs-lookup"><span data-stu-id="ddb23-109">See Also</span></span>
 
 
-[<span data-ttu-id="cc50c-110">Planejamento de Roteamento Baseado em Local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cc50c-110">Planning for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-planning-for-location-based-routing.md)  
+[<span data-ttu-id="ddb23-110">Planejamento de roteamento baseado em local no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ddb23-110">Planning for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-planning-for-location-based-routing.md)  
   
 
 </div>
