@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: testando a capacidade de se conectar a um domínio federado'
+title: 'Lync Server 2013: capacidade de teste para se conectar a um domínio federado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969653
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f18a8c703b085fe559b3a979ac72d9c0b0dfe38f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 82c44cf7cff78fc93054679ae1bc4c66bc6b4c40
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746011"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42016232"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-ability-to-connect-to-a-federated-domain-from-lync-server-2013"></a><span data-ttu-id="441d8-102">Testar a capacidade de se conectar a um domínio federado pelo Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="441d8-102">Testing ability to connect to a federated domain from Lync Server 2013</span></span>
+# <a name="testing-ability-to-connect-to-a-federated-domain-from-lync-server-2013"></a><span data-ttu-id="6b66b-102">Testando a capacidade de se conectar a um domínio federado do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6b66b-102">Testing ability to connect to a federated domain from Lync Server 2013</span></span>
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41746011"
 
 <span> </span>
 
-<span data-ttu-id="441d8-103">_**Tópico da última modificação:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="441d8-103">_**Topic Last Modified:** 2014-06-05_</span></span>
+<span data-ttu-id="6b66b-103">_**Última modificação do tópico:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="6b66b-103">_**Topic Last Modified:** 2014-06-05_</span></span>
 
 
 <table>
@@ -45,17 +45,17 @@ ms.locfileid: "41746011"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="441d8-104">Cronograma de verificação</span><span class="sxs-lookup"><span data-stu-id="441d8-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="441d8-105">Diário</span><span class="sxs-lookup"><span data-stu-id="441d8-105">Daily</span></span></p></td>
+<td><p><span data-ttu-id="6b66b-104">Agenda de verificação</span><span class="sxs-lookup"><span data-stu-id="6b66b-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="6b66b-105">Diariamente</span><span class="sxs-lookup"><span data-stu-id="6b66b-105">Daily</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="441d8-106">Ferramenta de teste</span><span class="sxs-lookup"><span data-stu-id="441d8-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="441d8-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="441d8-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="6b66b-106">Ferramenta de teste</span><span class="sxs-lookup"><span data-stu-id="6b66b-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="6b66b-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="6b66b-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="441d8-108">Permissões necessárias</span><span class="sxs-lookup"><span data-stu-id="441d8-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="441d8-109">Quando executado localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="441d8-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="441d8-110">Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet Test-CsFederatedPartner.</span><span class="sxs-lookup"><span data-stu-id="441d8-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsFederatedPartner cmdlet.</span></span> <span data-ttu-id="441d8-111">Para ver uma lista de todas as funções RBAC que podem usar esse cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="441d8-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="6b66b-108">Permissões obrigatórias</span><span class="sxs-lookup"><span data-stu-id="6b66b-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="6b66b-109">Ao executar localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="6b66b-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="6b66b-110">Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet Test-CsFederatedPartner.</span><span class="sxs-lookup"><span data-stu-id="6b66b-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsFederatedPartner cmdlet.</span></span> <span data-ttu-id="6b66b-111">Para ver uma lista de todas as funções RBAC que podem usar este cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="6b66b-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsFederatedPartner&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,67 +64,67 @@ ms.locfileid: "41746011"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="441d8-112">Descrição</span><span class="sxs-lookup"><span data-stu-id="441d8-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="6b66b-112">Descrição</span><span class="sxs-lookup"><span data-stu-id="6b66b-112">Description</span></span>
 
-<span data-ttu-id="441d8-113">Test-CsFederatedPartner verifica sua capacidade de conexão com o domínio de um parceiro federado.</span><span class="sxs-lookup"><span data-stu-id="441d8-113">Test-CsFederatedPartner verifies your ability to connect to the domain of a federated partner.</span></span> <span data-ttu-id="441d8-114">Para verificar a conectividade de um domínio, esse domínio deve estar listado na coleção de domínios permitidos (federados).</span><span class="sxs-lookup"><span data-stu-id="441d8-114">To verify the connectivity to a domain, that domain must be listed in the collection of allowed (federated) domains.</span></span> <span data-ttu-id="441d8-115">Você pode recuperar uma lista dos domínios na lista de domínios permitidos usando este comando:</span><span class="sxs-lookup"><span data-stu-id="441d8-115">You can retrieve a list of the domains on your allowed domains list by using this command:</span></span>
+<span data-ttu-id="6b66b-113">Test-CsFederatedPartner verifica sua capacidade de se conectar ao domínio de um parceiro federado.</span><span class="sxs-lookup"><span data-stu-id="6b66b-113">Test-CsFederatedPartner verifies your ability to connect to the domain of a federated partner.</span></span> <span data-ttu-id="6b66b-114">Para verificar a conectividade para um domínio, esse domínio deve ser listado na coleção de domínios permitidos (federados).</span><span class="sxs-lookup"><span data-stu-id="6b66b-114">To verify the connectivity to a domain, that domain must be listed in the collection of allowed (federated) domains.</span></span> <span data-ttu-id="6b66b-115">Você pode recuperar uma lista dos domínios na lista de domínios permitidos usando este comando:</span><span class="sxs-lookup"><span data-stu-id="6b66b-115">You can retrieve a list of the domains on your allowed domains list by using this command:</span></span>
 
     Get-CsAllowedDomain
 
-<span data-ttu-id="441d8-116">Para obter mais informações, consulte a documentação da ajuda para o cmdlet [Test-CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner) .</span><span class="sxs-lookup"><span data-stu-id="441d8-116">For more information, see the Help documentation for the [Test-CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner) cmdlet.</span></span>
+<span data-ttu-id="6b66b-116">Para obter mais informações, consulte a documentação de ajuda para o cmdlet [Test-CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner) .</span><span class="sxs-lookup"><span data-stu-id="6b66b-116">For more information, see the Help documentation for the [Test-CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="441d8-117">Executar o teste</span><span class="sxs-lookup"><span data-stu-id="441d8-117">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="6b66b-117">Executar o teste</span><span class="sxs-lookup"><span data-stu-id="6b66b-117">Running the test</span></span>
 
-<span data-ttu-id="441d8-118">O cmdlet Test-FederatedPartner requer duas informações: o FQDN do servidor de borda e o FQDN do parceiro federado.</span><span class="sxs-lookup"><span data-stu-id="441d8-118">The Test-FederatedPartner cmdlet requires two pieces of information: the FQDN of your Edge Server and the FQDN of the federated partner.</span></span> <span data-ttu-id="441d8-119">Por exemplo, este comando testa a capacidade de conexão com o domínio contoso.com:</span><span class="sxs-lookup"><span data-stu-id="441d8-119">For example, this command tests the ability to connect to the domain contoso.com:</span></span>
+<span data-ttu-id="6b66b-118">O cmdlet Test-FederatedPartner requer duas informações: o FQDN do servidor de borda e o FQDN do parceiro federado.</span><span class="sxs-lookup"><span data-stu-id="6b66b-118">The Test-FederatedPartner cmdlet requires two pieces of information: the FQDN of your Edge Server and the FQDN of the federated partner.</span></span> <span data-ttu-id="6b66b-119">Por exemplo, este comando testa a capacidade de se conectar ao domínio contoso.com:</span><span class="sxs-lookup"><span data-stu-id="6b66b-119">For example, this command tests the ability to connect to the domain contoso.com:</span></span>
 
     Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com"
 
-<span data-ttu-id="441d8-120">Este comando permite testar as conexões com todos os domínios atualmente na lista de domínios permitidos:</span><span class="sxs-lookup"><span data-stu-id="441d8-120">This command enables you to test the connections to all the domains currently on your allowed domains list:</span></span>
+<span data-ttu-id="6b66b-120">Este comando permite testar as conexões de todos os domínios que estão atualmente na sua lista de domínios permitidos:</span><span class="sxs-lookup"><span data-stu-id="6b66b-120">This command enables you to test the connections to all the domains currently on your allowed domains list:</span></span>
 
     Get-CsAllowedDomain | ForEach-Object {Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain $_.Identity}
 
-<span data-ttu-id="441d8-121">Para obter mais informações, consulte a documentação da ajuda para o cmdlet [Test-CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner) .</span><span class="sxs-lookup"><span data-stu-id="441d8-121">For more information, see the Help documentation for the [Test-CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner) cmdlet.</span></span>
+<span data-ttu-id="6b66b-121">Para obter mais informações, consulte a documentação de ajuda para o cmdlet [Test-CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner) .</span><span class="sxs-lookup"><span data-stu-id="6b66b-121">For more information, see the Help documentation for the [Test-CsFederatedPartner](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a><span data-ttu-id="441d8-122">Determinação do sucesso ou falha</span><span class="sxs-lookup"><span data-stu-id="441d8-122">Determining success or failure</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="6b66b-122">Determinando o sucesso ou a falha</span><span class="sxs-lookup"><span data-stu-id="6b66b-122">Determining success or failure</span></span>
 
-<span data-ttu-id="441d8-123">Se o domínio especificado puder ser contatado, você receberá uma saída semelhante a isso com a propriedade Result marcada como **Success:**</span><span class="sxs-lookup"><span data-stu-id="441d8-123">If the specified domain can be contacted, you'll receive output similar to this with the Result property marked as **Success:**</span></span>
+<span data-ttu-id="6b66b-123">Se o domínio especificado puder ser contatado, você receberá uma saída semelhante a esta com a propriedade Result marcada como **Success:**</span><span class="sxs-lookup"><span data-stu-id="6b66b-123">If the specified domain can be contacted, you'll receive output similar to this with the Result property marked as **Success:**</span></span>
 
-<span data-ttu-id="441d8-124">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="441d8-124">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="6b66b-124">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="6b66b-124">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="441d8-125">Resultado: êxito</span><span class="sxs-lookup"><span data-stu-id="441d8-125">Result : Success</span></span>
+<span data-ttu-id="6b66b-125">Resultado: êxito</span><span class="sxs-lookup"><span data-stu-id="6b66b-125">Result : Success</span></span>
 
-<span data-ttu-id="441d8-126">Latência: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="441d8-126">Latency : 00:00:00</span></span>
+<span data-ttu-id="6b66b-126">Latência: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="6b66b-126">Latency : 00:00:00</span></span>
 
-<span data-ttu-id="441d8-127">Erros</span><span class="sxs-lookup"><span data-stu-id="441d8-127">Error :</span></span>
+<span data-ttu-id="6b66b-127">Erros</span><span class="sxs-lookup"><span data-stu-id="6b66b-127">Error :</span></span>
 
-<span data-ttu-id="441d8-128">Correto</span><span class="sxs-lookup"><span data-stu-id="441d8-128">Diagnosis :</span></span>
+<span data-ttu-id="6b66b-128">Diagnóstico</span><span class="sxs-lookup"><span data-stu-id="6b66b-128">Diagnosis :</span></span>
 
-<span data-ttu-id="441d8-129">Se o domínio especificado não puder ser contatado, o resultado será mostrado como uma falha, e informações adicionais serão gravadas nas propriedades de erro e diagnóstico:</span><span class="sxs-lookup"><span data-stu-id="441d8-129">If the specified domain cannot be contacted, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
+<span data-ttu-id="6b66b-129">Se o domínio especificado não puder ser contatado, o resultado será mostrado como falha, e as informações adicionais serão registradas nas propriedades de erro e diagnóstico:</span><span class="sxs-lookup"><span data-stu-id="6b66b-129">If the specified domain cannot be contacted, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
 
-<span data-ttu-id="441d8-130">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="441d8-130">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="6b66b-130">TargetFqdn: atl-cs-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="6b66b-130">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="441d8-131">Resultado: falha</span><span class="sxs-lookup"><span data-stu-id="441d8-131">Result : Failure</span></span>
+<span data-ttu-id="6b66b-131">Resultado: falha</span><span class="sxs-lookup"><span data-stu-id="6b66b-131">Result : Failure</span></span>
 
-<span data-ttu-id="441d8-132">Latência: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="441d8-132">Latency : 00:00:00</span></span>
+<span data-ttu-id="6b66b-132">Latência: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="6b66b-132">Latency : 00:00:00</span></span>
 
-<span data-ttu-id="441d8-133">Erro: 504, tempo limite do servidor</span><span class="sxs-lookup"><span data-stu-id="441d8-133">Error : 504, Server time-out</span></span>
+<span data-ttu-id="6b66b-133">Erro: 504, tempo limite do servidor</span><span class="sxs-lookup"><span data-stu-id="6b66b-133">Error : 504, Server time-out</span></span>
 
-<span data-ttu-id="441d8-134">Diagnóstico: ErrorCode = 2, origem = ATL-cs-001. litwareinc. com, motivo = Veja</span><span class="sxs-lookup"><span data-stu-id="441d8-134">Diagnosis : ErrorCode=2, Source=atl-cs-001.litwareinc.com,Reason=See</span></span>
+<span data-ttu-id="6b66b-134">Diagnóstico: ErrorCode = 2, Source = ATL-cs-001. litwareinc. com, razão = Confira</span><span class="sxs-lookup"><span data-stu-id="6b66b-134">Diagnosis : ErrorCode=2, Source=atl-cs-001.litwareinc.com,Reason=See</span></span>
 
-<span data-ttu-id="441d8-135">código de resposta e frase de motivo.</span><span class="sxs-lookup"><span data-stu-id="441d8-135">response code and reason phrase.</span></span>
+<span data-ttu-id="6b66b-135">código de resposta e frase de motivo.</span><span class="sxs-lookup"><span data-stu-id="6b66b-135">response code and reason phrase.</span></span>
 
-<span data-ttu-id="441d8-136">Microsoft. RTC. Signaling. DiagnosticHeader</span><span class="sxs-lookup"><span data-stu-id="441d8-136">Microsoft.Rtc.Signaling.DiagnosticHeader</span></span>
+<span data-ttu-id="6b66b-136">Microsoft. RTC. Signaling. DiagnosticHeader</span><span class="sxs-lookup"><span data-stu-id="6b66b-136">Microsoft.Rtc.Signaling.DiagnosticHeader</span></span>
 
-<span data-ttu-id="441d8-137">Por exemplo, a saída anterior informa que o teste falhou devido a um erro de tempo limite do servidor.</span><span class="sxs-lookup"><span data-stu-id="441d8-137">For example, the previous output states that the test failed because of a server time-out error.</span></span> <span data-ttu-id="441d8-138">Isso geralmente indica problemas de conectividade de rede ou problemas para entrar em contato com o servidor de borda.</span><span class="sxs-lookup"><span data-stu-id="441d8-138">This typically indicates either network connectivity problems or problems contacting the Edge Server.</span></span>
+<span data-ttu-id="6b66b-137">Por exemplo, a saída anterior diz que o teste falhou devido a um erro de tempo limite do servidor.</span><span class="sxs-lookup"><span data-stu-id="6b66b-137">For example, the previous output states that the test failed because of a server time-out error.</span></span> <span data-ttu-id="6b66b-138">Isso geralmente indica problemas de conectividade de rede ou problemas para entrar em contato com o servidor de borda.</span><span class="sxs-lookup"><span data-stu-id="6b66b-138">This typically indicates either network connectivity problems or problems contacting the Edge Server.</span></span>
 
-<span data-ttu-id="441d8-139">Se Test-CsFederatedPartner falhar, talvez você queira executar novamente o teste, desta vez, incluindo o parâmetro Verbose:</span><span class="sxs-lookup"><span data-stu-id="441d8-139">If Test-CsFederatedPartner fails, then you might want to rerun the test, this time including the Verbose parameter:</span></span>
+<span data-ttu-id="6b66b-139">Se Test-CsFederatedPartner falhar, talvez você queira executar novamente o teste, desta vez, incluindo o parâmetro Verbose:</span><span class="sxs-lookup"><span data-stu-id="6b66b-139">If Test-CsFederatedPartner fails, then you might want to rerun the test, this time including the Verbose parameter:</span></span>
 
     Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com" -Verbose
 
@@ -132,23 +132,23 @@ ms.locfileid: "41746011"
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="441d8-140">Motivos pelos quais o teste pode ter falhado</span><span class="sxs-lookup"><span data-stu-id="441d8-140">Reasons why the test might have failed</span></span>
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="6b66b-140">Motivos pelos quais o teste pode ter falhado</span><span class="sxs-lookup"><span data-stu-id="6b66b-140">Reasons why the test might have failed</span></span>
 
-<span data-ttu-id="441d8-141">Aqui estão alguns motivos comuns pelos quais Test-CsFederatedPartner pode falhar:</span><span class="sxs-lookup"><span data-stu-id="441d8-141">Here are some common reasons why Test-CsFederatedPartner might fail:</span></span>
+<span data-ttu-id="6b66b-141">Aqui estão alguns motivos comuns pelos quais Test-CsFederatedPartner pode falhar:</span><span class="sxs-lookup"><span data-stu-id="6b66b-141">Here are some common reasons why Test-CsFederatedPartner might fail:</span></span>
 
-  - <span data-ttu-id="441d8-142">O servidor de borda pode não estar disponível.</span><span class="sxs-lookup"><span data-stu-id="441d8-142">The Edge Server might not be available.</span></span> <span data-ttu-id="441d8-143">Você pode usar este comando para os FQDNs dos seus servidores de borda:</span><span class="sxs-lookup"><span data-stu-id="441d8-143">You can the FQDNs of your Edge Servers by using this command:</span></span>
+  - <span data-ttu-id="6b66b-142">O servidor de borda pode não estar disponível.</span><span class="sxs-lookup"><span data-stu-id="6b66b-142">The Edge Server might not be available.</span></span> <span data-ttu-id="6b66b-143">Você pode usar os FQDNs dos seus servidores de borda usando este comando:</span><span class="sxs-lookup"><span data-stu-id="6b66b-143">You can the FQDNs of your Edge Servers by using this command:</span></span>
     
         Get-CsService -EdgeServer | Select-Object PoolFqdn
     
-    <span data-ttu-id="441d8-144">Em seguida, você pode efetuar ping em cada servidor de borda para verificar se ele pode ser acessado pela rede.</span><span class="sxs-lookup"><span data-stu-id="441d8-144">You can then ping each Edge Server to verify that it can be accessed over the network.</span></span> <span data-ttu-id="441d8-145">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="441d8-145">For example:</span></span>
+    <span data-ttu-id="6b66b-144">Você pode então efetuar ping em cada servidor de borda para verificar se ele pode ser acessado pela rede.</span><span class="sxs-lookup"><span data-stu-id="6b66b-144">You can then ping each Edge Server to verify that it can be accessed over the network.</span></span> <span data-ttu-id="6b66b-145">Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="6b66b-145">For example:</span></span>
     
         ping atl-edge-001.litwareinc.com
 
-  - <span data-ttu-id="441d8-146">O domínio especificado pode não estar listado na lista de domínios permitidos.</span><span class="sxs-lookup"><span data-stu-id="441d8-146">The specified domain might not be listed on the allowed domains list.</span></span> <span data-ttu-id="441d8-147">Para verificar os domínios que foram adicionados à lista de domínios permitidos, use este comando:</span><span class="sxs-lookup"><span data-stu-id="441d8-147">To verify the domains that were added to the allowed domains list, use this command:</span></span>
+  - <span data-ttu-id="6b66b-146">O domínio especificado pode não estar listado na lista de domínios permitidos.</span><span class="sxs-lookup"><span data-stu-id="6b66b-146">The specified domain might not be listed on the allowed domains list.</span></span> <span data-ttu-id="6b66b-147">Para verificar os domínios que foram adicionados à lista de domínios permitidos, use este comando:</span><span class="sxs-lookup"><span data-stu-id="6b66b-147">To verify the domains that were added to the allowed domains list, use this command:</span></span>
     
         Get-CsAllowedDomain
     
-    <span data-ttu-id="441d8-148">Se você quiser ver uma lista de domínios com os quais os usuários estavam bloqueados e, em seguida, use este comando:</span><span class="sxs-lookup"><span data-stu-id="441d8-148">If you’d like to see a list of domains that users were blocked from communicating with, then use this command:</span></span>
+    <span data-ttu-id="6b66b-148">Se quiser ver uma lista de domínios com os quais os usuários foram bloqueados e use este comando:</span><span class="sxs-lookup"><span data-stu-id="6b66b-148">If you’d like to see a list of domains that users were blocked from communicating with, then use this command:</span></span>
     
         Get-CsBlockedDomain
 

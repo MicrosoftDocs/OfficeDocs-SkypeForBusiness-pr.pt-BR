@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configuração de software'
+title: 'Lync Server 2013: configuração de software'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183469
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 659ae8b1184e22b8e681f6c8166d079655b12c4f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8a1fc4f23779c7f75dc7e11a9eed7050e6bd737c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764457"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41985096"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="software-setup-for-lync-server-2013"></a><span data-ttu-id="ff01f-102">Configuração de software no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ff01f-102">Software setup for Lync Server 2013</span></span>
+# <a name="software-setup-for-lync-server-2013"></a><span data-ttu-id="f0849-102">Configuração de software para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f0849-102">Software setup for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41764457"
 
 <span> </span>
 
-<span data-ttu-id="ff01f-103">_**Tópico da última modificação:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="ff01f-103">_**Topic Last Modified:** 2012-06-29_</span></span>
+<span data-ttu-id="f0849-103">_**Última modificação do tópico:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="f0849-103">_**Topic Last Modified:** 2012-06-29_</span></span>
 
-<span data-ttu-id="ff01f-104">Esta seção detalha a configuração de software necessária após a configuração do hardware no ambiente.</span><span class="sxs-lookup"><span data-stu-id="ff01f-104">This section details the software setup that is required after you have setup the hardware in your environment.</span></span>
+<span data-ttu-id="f0849-104">Esta seção descreve a instalação de software requerida depois da configuração do hardware no seu ambiente.</span><span class="sxs-lookup"><span data-stu-id="f0849-104">This section details the software setup that is required after you have setup the hardware in your environment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="ff01f-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="ff01f-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="f0849-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="f0849-105">In This Section</span></span>
 
-  - [<span data-ttu-id="ff01f-106">Instalar sistemas operacionais e software de pré-requisito nos servidores para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ff01f-106">Install operating systems and prerequisite software on servers for Lync Server 2013</span></span>](lync-server-2013-install-operating-systems-and-prerequisite-software-on-servers.md)
+  - [<span data-ttu-id="f0849-106">Instalar sistemas operacionais e software de pré-requisito nos servidores do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f0849-106">Install operating systems and prerequisite software on servers for Lync Server 2013</span></span>](lync-server-2013-install-operating-systems-and-prerequisite-software-on-servers.md)
 
-  - [<span data-ttu-id="ff01f-107">Configurar o armazenamento de arquivos para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ff01f-107">Configure file storage for Lync Server 2013</span></span>](lync-server-2013-configure-dfs-file-storage.md)
+  - [<span data-ttu-id="f0849-107">Configurar o armazenamento de arquivos para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f0849-107">Configure file storage for Lync Server 2013</span></span>](lync-server-2013-configure-dfs-file-storage.md)
 
-  - [<span data-ttu-id="ff01f-108">Solicitar certificados com antecedência (opcional) para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ff01f-108">Request certificates in advance (optional) for Lync Server 2013</span></span>](lync-server-2013-request-certificates-in-advance-optional.md)
+  - [<span data-ttu-id="f0849-108">Solicitar certificados com antecedência (opcional) para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f0849-108">Request certificates in advance (optional) for Lync Server 2013</span></span>](lync-server-2013-request-certificates-in-advance-optional.md)
 
-  - [<span data-ttu-id="ff01f-109">Configurar o IIS para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ff01f-109">Configure IIS for Lync Server 2013</span></span>](lync-server-2013-configure-iis.md)
+  - [<span data-ttu-id="f0849-109">Configurar o IIS para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f0849-109">Configure IIS for Lync Server 2013</span></span>](lync-server-2013-configure-iis.md)
 
-  - [<span data-ttu-id="ff01f-110">Instalando Windows PowerShell 3.0 para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ff01f-110">Installing Windows PowerShell 3.0 for Lync Server 2013</span></span>](lync-server-2013-installing-windows-powershell-3-0.md)
+  - [<span data-ttu-id="f0849-110">Instalando o Windows PowerShell 3,0 para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f0849-110">Installing Windows PowerShell 3.0 for Lync Server 2013</span></span>](lync-server-2013-installing-windows-powershell-3-0.md)
 
 </div>
 

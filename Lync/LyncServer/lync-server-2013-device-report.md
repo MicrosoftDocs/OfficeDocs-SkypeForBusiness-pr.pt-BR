@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: relatório de dispositivo'
+title: 'Lync Server 2013: relatório de dispositivos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185807
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc453ca1e83d8077e67ef130ef7a83e03c138be2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: da9ec08af933f90eaf1e941259628b38ec055d9a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762419"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031285"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="device-report-in-lync-server-2013"></a><span data-ttu-id="32e5c-102">Relatório de dispositivo no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="32e5c-102">Device Report in Lync Server 2013</span></span>
+# <a name="device-report-in-lync-server-2013"></a><span data-ttu-id="c1958-102">Relatório de dispositivos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c1958-102">Device Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41762419"
 
 <span> </span>
 
-<span data-ttu-id="32e5c-103">_**Tópico da última modificação:** 2013-11-12_</span><span class="sxs-lookup"><span data-stu-id="32e5c-103">_**Topic Last Modified:** 2013-11-12_</span></span>
+<span data-ttu-id="c1958-103">_**Última modificação do tópico:** 2013-11-12_</span><span class="sxs-lookup"><span data-stu-id="c1958-103">_**Topic Last Modified:** 2013-11-12_</span></span>
 
-<span data-ttu-id="32e5c-104">O Relatório de Dispositivos poderia trocar de nome para Relatório de Microfones e Alto-Falantes; isso porque o Relatório de Dispositivos recupera métricas relacionadas às chamadas (como o percentual de chamadas ruins, eco e tempo de troca de voz) agrupadas por microfone e alto-falante usados na chamada.</span><span class="sxs-lookup"><span data-stu-id="32e5c-104">The Device Report might be better titled the Microphone and Speakers Report; that's because the Device Report retrieves call-related metrics (such as poor call percentage, echo, and voice switch time) grouped by the microphones and speakers used in the call.</span></span> <span data-ttu-id="32e5c-105">Se você estiver interessado em telefones IP (também chamados de "dispositivos"), use o relatório de [inventário de telefone IP no Lync Server 2013](lync-server-2013-ip-phone-inventory-report.md) em vez disso.</span><span class="sxs-lookup"><span data-stu-id="32e5c-105">If you are interested in IP phones (also commonly referred to as "devices"), use the [IP Phone Inventory Report in Lync Server 2013](lync-server-2013-ip-phone-inventory-report.md) instead.</span></span>
+<span data-ttu-id="c1958-104">O Relatório de Dispositivos pode ser melhor chamado de Relatório de Microfones e Alto-Falantes; isso porque o Relatório de Dispositivos recupera métricas relacionadas às chamadas (tais como o percentual de chamadas ruins, eco e tempo de troca de voz) agrupadas por microfone e alto-falante usados na chamada.</span><span class="sxs-lookup"><span data-stu-id="c1958-104">The Device Report might be better titled the Microphone and Speakers Report; that's because the Device Report retrieves call-related metrics (such as poor call percentage, echo, and voice switch time) grouped by the microphones and speakers used in the call.</span></span> <span data-ttu-id="c1958-105">Se você estiver interessado em telefones IP (também conhecidos como "dispositivos"), use o relatório de [inventário de telefones IP no Lync Server 2013](lync-server-2013-ip-phone-inventory-report.md) em vez disso.</span><span class="sxs-lookup"><span data-stu-id="c1958-105">If you are interested in IP phones (also commonly referred to as "devices"), use the [IP Phone Inventory Report in Lync Server 2013](lync-server-2013-ip-phone-inventory-report.md) instead.</span></span>
 
-<span data-ttu-id="32e5c-p102">O Relatório de Dispositivos é extremamente útil para os administradores ao determinar se um tipo específico de dispositivo está apresentando mais chamadas de baixa qualidade que outros. Por outro lado, pode influenciar decisões relacionadas à compra de novos dispositivos ou à substituição de dispositivos existentes.</span><span class="sxs-lookup"><span data-stu-id="32e5c-p102">The Device Report is extremely useful for administrators in determining if a specific type of device is experiencing high volumes of poor quality calls than others. In turn, this could influence any decisions you must make when it comes time to buy new devices or to replace existing devices.</span></span>
+<span data-ttu-id="c1958-p102">O Relatório de Dispositivos é extremamente útil para os administradores ao determinar se um tipo específico de dispositivo está experienciando mais chamadas de baixa qualidade do que outros. Por outro lado, pode influenciar decisões relacionadas à compra de novos dispositivos ou à substituição de dispositivos existentes.</span><span class="sxs-lookup"><span data-stu-id="c1958-p102">The Device Report is extremely useful for administrators in determining if a specific type of device is experiencing high volumes of poor quality calls than others. In turn, this could influence any decisions you must make when it comes time to buy new devices or to replace existing devices.</span></span>
 
-<span data-ttu-id="32e5c-p103">Por padrão, as informações exibidas no Relatório de Dispositivos também se baseiam no microfone (o dispositivo de captura) e alto-falantes/headset (o dispositivo de renderização) usados na chamada. Por exemplo, vamos supor que você tenha vários usuários que utilizam os seguintes dispositivos de captura e renderização: por padrão, as informações exibidas no Relatório de Dispositivos também se baseiam no microfone (o dispositivo de captura) e alto-falantes/headset (o dispositivo de renderização) usados na chamada. Por exemplo, vamos supor que você tenha vários usuários que utilizam os seguintes dispositivos de captura e renderização:</span><span class="sxs-lookup"><span data-stu-id="32e5c-p103">By default, the information displayed in the Device Report is also based on the microphone (the capture device) and speakers/headset (the render device) used in the call. For example, suppose you have several users who use the following capture device and the following render device: By default, the information displayed in the Device Report is also based on the microphone (the capture device) and speakers/headset (the render device) used in the call. For example, suppose you have several users who use the following capture device and the following render device:</span></span>
+<span data-ttu-id="c1958-p103">Por padrão, as informações exibidas no Relatório de Dispositivos também se baseiam no microfone (o dispositivo de captura) e alto-falantes/headset (o dispositivo de renderização) usados na chamada. Por exemplo, suponha que você tem vários usuários que utilizam os seguintes dispositivos de captura e renderização: por padrão, as informações exibidas no Relatório de Dispositivos também se baseiam no microfone (o dispositivo de captura) e alto-falantes/headset (o dispositivo de renderização) usados na chamada. Por exemplo, suponha que você tem vários usuários que utilizam os seguintes dispositivos de captura e renderização:</span><span class="sxs-lookup"><span data-stu-id="c1958-p103">By default, the information displayed in the Device Report is also based on the microphone (the capture device) and speakers/headset (the render device) used in the call. For example, suppose you have several users who use the following capture device and the following render device: By default, the information displayed in the Device Report is also based on the microphone (the capture device) and speakers/headset (the render device) used in the call. For example, suppose you have several users who use the following capture device and the following render device:</span></span>
 
-  - <span data-ttu-id="32e5c-111">Dispositivo de captura -- Microfone (SoundMAX Integrated Digital HD Audio)</span><span class="sxs-lookup"><span data-stu-id="32e5c-111">Capture device -- Microphone (SoundMAX Integrated Digital HD Audio)</span></span>
+  - <span data-ttu-id="c1958-111">Dispositivo de captura -- Microfone (SoundMAX Integrated Digital HD Audio)</span><span class="sxs-lookup"><span data-stu-id="c1958-111">Capture device -- Microphone (SoundMAX Integrated Digital HD Audio)</span></span>
 
-  - <span data-ttu-id="32e5c-112">Dispositivo de renderização -- Fone de ouvido com headset (Microsoft LifeChat LX-3000)</span><span class="sxs-lookup"><span data-stu-id="32e5c-112">Render device -- Headset Earphone (Microsoft LifeChat LX-3000)</span></span>
+  - <span data-ttu-id="c1958-112">Dispositivo de renderização -- Fone de ouvido com headset (Microsoft LifeChat LX-3000)</span><span class="sxs-lookup"><span data-stu-id="c1958-112">Render device -- Headset Earphone (Microsoft LifeChat LX-3000)</span></span>
 
-<span data-ttu-id="32e5c-113">Se esses usuários fizerem um total de 254 chamadas, você verá uma entrada como esta no relatório:</span><span class="sxs-lookup"><span data-stu-id="32e5c-113">If those users made a total of 254 calls you'll see an entry like this in the report:</span></span>
+<span data-ttu-id="c1958-113">Se esses usuários fizerem um total de 254 chamadas, você verá uma entrada como esta no relatório:</span><span class="sxs-lookup"><span data-stu-id="c1958-113">If those users made a total of 254 calls you'll see an entry like this in the report:</span></span>
 
 
 <table>
@@ -58,22 +58,22 @@ ms.locfileid: "41762419"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="32e5c-114">Dispositivo de captura</span><span class="sxs-lookup"><span data-stu-id="32e5c-114">Capture device</span></span></th>
-<th><span data-ttu-id="32e5c-115">Dispositivo de renderização</span><span class="sxs-lookup"><span data-stu-id="32e5c-115">Render device</span></span></th>
-<th><span data-ttu-id="32e5c-116">Volume da chamada</span><span class="sxs-lookup"><span data-stu-id="32e5c-116">Call volume</span></span></th>
+<th><span data-ttu-id="c1958-114">Dispositivo de captura</span><span class="sxs-lookup"><span data-stu-id="c1958-114">Capture device</span></span></th>
+<th><span data-ttu-id="c1958-115">Dispositivo de renderização</span><span class="sxs-lookup"><span data-stu-id="c1958-115">Render device</span></span></th>
+<th><span data-ttu-id="c1958-116">Volume da chamada</span><span class="sxs-lookup"><span data-stu-id="c1958-116">Call volume</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="32e5c-117">Microfone (SoundMAX Integrated Digital HD Audio)</span><span class="sxs-lookup"><span data-stu-id="32e5c-117">Microphone (SoundMAX Integrated Digital HD Audio)</span></span></p></td>
-<td><p><span data-ttu-id="32e5c-118">Fone de ouvido com headset (Microsoft LifeChat LX-3000)</span><span class="sxs-lookup"><span data-stu-id="32e5c-118">Headset Earphone (Microsoft LifeChat LX-3000)</span></span></p></td>
-<td><p><span data-ttu-id="32e5c-119">254</span><span class="sxs-lookup"><span data-stu-id="32e5c-119">254</span></span></p></td>
+<td><p><span data-ttu-id="c1958-117">Microfone (SoundMAX Integrated Digital HD Audio)</span><span class="sxs-lookup"><span data-stu-id="c1958-117">Microphone (SoundMAX Integrated Digital HD Audio)</span></span></p></td>
+<td><p><span data-ttu-id="c1958-118">Fone de ouvido com headset (Microsoft LifeChat LX-3000)</span><span class="sxs-lookup"><span data-stu-id="c1958-118">Headset Earphone (Microsoft LifeChat LX-3000)</span></span></p></td>
+<td><p><span data-ttu-id="c1958-119">254</span><span class="sxs-lookup"><span data-stu-id="c1958-119">254</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="32e5c-p104">Agora, suponha que você tem um número de usuários que usam esse mesmo dispositivo de captura, mas que usam um dispositivo de renderização diferente. Neste caso, você terá uma segunda linha no relatório, uma para essa combinação exclusiva de dispositivo de captura e dispositivo de renderização:</span><span class="sxs-lookup"><span data-stu-id="32e5c-p104">Now, suppose you have a number of users who use that same capture device but a different render device. In that case, you'll have a second line entry in the report, one for that unique combination of capture device and render device:</span></span>
+<span data-ttu-id="c1958-p104">Agora, suponha que você tem um número de usuários que usam esse mesmo dispositivo de captura, mas usam um dispositivo de renderização diferente. Neste caso, você terá uma segunda linha no relatório, uma para uma para essa combinação única de dispositivo de captura e dispositivo de renderização:</span><span class="sxs-lookup"><span data-stu-id="c1958-p104">Now, suppose you have a number of users who use that same capture device but a different render device. In that case, you'll have a second line entry in the report, one for that unique combination of capture device and render device:</span></span>
 
 
 <table>
@@ -84,27 +84,27 @@ ms.locfileid: "41762419"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="32e5c-122">Dispositivo de captura</span><span class="sxs-lookup"><span data-stu-id="32e5c-122">Capture device</span></span></th>
-<th><span data-ttu-id="32e5c-123">Dispositivo de renderização</span><span class="sxs-lookup"><span data-stu-id="32e5c-123">Render device</span></span></th>
-<th><span data-ttu-id="32e5c-124">Volume da chamada</span><span class="sxs-lookup"><span data-stu-id="32e5c-124">Call volume</span></span></th>
+<th><span data-ttu-id="c1958-122">Dispositivo de captura</span><span class="sxs-lookup"><span data-stu-id="c1958-122">Capture device</span></span></th>
+<th><span data-ttu-id="c1958-123">Dispositivo de renderização</span><span class="sxs-lookup"><span data-stu-id="c1958-123">Render device</span></span></th>
+<th><span data-ttu-id="c1958-124">Volume da chamada</span><span class="sxs-lookup"><span data-stu-id="c1958-124">Call volume</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="32e5c-125">Microfone (SoundMAX Integrated Digital HD Audio)</span><span class="sxs-lookup"><span data-stu-id="32e5c-125">Microphone (SoundMAX Integrated Digital HD Audio)</span></span></p></td>
-<td><p><span data-ttu-id="32e5c-126">Fone de ouvido com headset (Microsoft LifeChat LX-3000)</span><span class="sxs-lookup"><span data-stu-id="32e5c-126">Headset Earphone (Microsoft LifeChat LX-3000)</span></span></p></td>
-<td><p><span data-ttu-id="32e5c-127">254</span><span class="sxs-lookup"><span data-stu-id="32e5c-127">254</span></span></p></td>
+<td><p><span data-ttu-id="c1958-125">Microfone (SoundMAX Integrated Digital HD Audio)</span><span class="sxs-lookup"><span data-stu-id="c1958-125">Microphone (SoundMAX Integrated Digital HD Audio)</span></span></p></td>
+<td><p><span data-ttu-id="c1958-126">Fone de ouvido com headset (Microsoft LifeChat LX-3000)</span><span class="sxs-lookup"><span data-stu-id="c1958-126">Headset Earphone (Microsoft LifeChat LX-3000)</span></span></p></td>
+<td><p><span data-ttu-id="c1958-127">254</span><span class="sxs-lookup"><span data-stu-id="c1958-127">254</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="32e5c-128">Microfone (SoundMAX Integrated Digital HD Audio)</span><span class="sxs-lookup"><span data-stu-id="32e5c-128">Microphone (SoundMAX Integrated Digital HD Audio)</span></span></p></td>
-<td><p><span data-ttu-id="32e5c-129">Alto-falantes (SoundMAX Integrated Digital HD Audio)</span><span class="sxs-lookup"><span data-stu-id="32e5c-129">Speakers (SoundMAX Integrated Digital HD Audio)</span></span></p></td>
-<td><p><span data-ttu-id="32e5c-130">319</span><span class="sxs-lookup"><span data-stu-id="32e5c-130">319</span></span></p></td>
+<td><p><span data-ttu-id="c1958-128">Microfone (SoundMAX Integrated Digital HD Audio)</span><span class="sxs-lookup"><span data-stu-id="c1958-128">Microphone (SoundMAX Integrated Digital HD Audio)</span></span></p></td>
+<td><p><span data-ttu-id="c1958-129">Alto-falantes (SoundMAX Integrated Digital HD Audio)</span><span class="sxs-lookup"><span data-stu-id="c1958-129">Speakers (SoundMAX Integrated Digital HD Audio)</span></span></p></td>
+<td><p><span data-ttu-id="c1958-130">319</span><span class="sxs-lookup"><span data-stu-id="c1958-130">319</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="32e5c-p105">Se você preferir ver os totais combinados para um determinado dispositivo (por exemplo, para o dispositivo de captura SoundMAX, independente do dispositivo de renderização usado), selecione a opção apropriada na lista suspensa de tipo de dispositivo (dispositivo de captura ou dispositivo de renderização). Se você selecionar dispositivo de captura neste exemplo, terá algo parecido com isso:</span><span class="sxs-lookup"><span data-stu-id="32e5c-p105">If you would rather see combined totals for a given device (for example, for the SoundMAX capture device, regardless of the render device used), select the appropriate option from the Device type dropdown list (either Capture device or Render device). If you select Capture device in this example, that will give you output similar to this:</span></span>
+<span data-ttu-id="c1958-p105">Se você preferir ver os totais combinados para um determinado dispositivo (por exemplo, para o dispositivo de captura SoundMAX, independente do dispositivo de renderização usado), selecione a opção apropriada na lista suspensa de tipo de dispositivo (dispositivo de captura ou dispositivo de renderização). Se você selecionar dispositivo de captura neste exemplo, terá algo parecido com isso:</span><span class="sxs-lookup"><span data-stu-id="c1958-p105">If you would rather see combined totals for a given device (for example, for the SoundMAX capture device, regardless of the render device used), select the appropriate option from the Device type dropdown list (either Capture device or Render device). If you select Capture device in this example, that will give you output similar to this:</span></span>
 
 
 <table>
@@ -114,14 +114,14 @@ ms.locfileid: "41762419"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="32e5c-133">Dispositivo de captura</span><span class="sxs-lookup"><span data-stu-id="32e5c-133">Capture device</span></span></th>
-<th><span data-ttu-id="32e5c-134">Volume da chamada</span><span class="sxs-lookup"><span data-stu-id="32e5c-134">Call volume</span></span></th>
+<th><span data-ttu-id="c1958-133">Dispositivo de captura</span><span class="sxs-lookup"><span data-stu-id="c1958-133">Capture device</span></span></th>
+<th><span data-ttu-id="c1958-134">Volume da chamada</span><span class="sxs-lookup"><span data-stu-id="c1958-134">Call volume</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="32e5c-135">Microfone (SoundMAX Integrated Digital HD Audio)</span><span class="sxs-lookup"><span data-stu-id="32e5c-135">Microphone (SoundMAX Integrated Digital HD Audio)</span></span></p></td>
-<td><p><span data-ttu-id="32e5c-136">573</span><span class="sxs-lookup"><span data-stu-id="32e5c-136">573</span></span></p></td>
+<td><p><span data-ttu-id="c1958-135">Microfone (SoundMAX Integrated Digital HD Audio)</span><span class="sxs-lookup"><span data-stu-id="c1958-135">Microphone (SoundMAX Integrated Digital HD Audio)</span></span></p></td>
+<td><p><span data-ttu-id="c1958-136">573</span><span class="sxs-lookup"><span data-stu-id="c1958-136">573</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -129,82 +129,82 @@ ms.locfileid: "41762419"
 
 <div>
 
-## <a name="accessing-the-device-report"></a><span data-ttu-id="32e5c-137">Acessando o relatório de dispositivos</span><span class="sxs-lookup"><span data-stu-id="32e5c-137">Accessing the Device Report</span></span>
+## <a name="accessing-the-device-report"></a><span data-ttu-id="c1958-137">Acessando o relatório de dispositivos</span><span class="sxs-lookup"><span data-stu-id="c1958-137">Accessing the Device Report</span></span>
 
-<span data-ttu-id="32e5c-138">O Relatório de Dispositivos é geralmente acessado na página inicial dos Relatórios de Monitoramento.</span><span class="sxs-lookup"><span data-stu-id="32e5c-138">The Device Report is typically accessed from the Monitoring Reports home page.</span></span> <span data-ttu-id="32e5c-139">No entanto, se você estiver exibindo o [relatório de detalhes de chamadas no Lync Server 2013](lync-server-2013-call-detail-report.md) , poderá fazer uma busca detalhada no relatório de dispositivo para um dispositivo específico clicando em uma das seguintes métricas:</span><span class="sxs-lookup"><span data-stu-id="32e5c-139">However, if you are viewing the [Call Detail Report in Lync Server 2013](lync-server-2013-call-detail-report.md) you can drill down to the Device Report for a specific device by clicking either of the following metrics:</span></span>
+<span data-ttu-id="c1958-138">O Relatório de Dispositivos é geralmente acessado na página inicial dos Relatórios de Monitoramento.</span><span class="sxs-lookup"><span data-stu-id="c1958-138">The Device Report is typically accessed from the Monitoring Reports home page.</span></span> <span data-ttu-id="c1958-139">No entanto, se você estiver exibindo o [relatório de detalhes de chamada no Lync Server 2013](lync-server-2013-call-detail-report.md) , poderá aprofundar até o relatório de dispositivo para um dispositivo específico clicando em uma das seguintes métricas:</span><span class="sxs-lookup"><span data-stu-id="c1958-139">However, if you are viewing the [Call Detail Report in Lync Server 2013](lync-server-2013-call-detail-report.md) you can drill down to the Device Report for a specific device by clicking either of the following metrics:</span></span>
 
-  - <span data-ttu-id="32e5c-140">Dispositivo de captura</span><span class="sxs-lookup"><span data-stu-id="32e5c-140">Capture Device</span></span>
+  - <span data-ttu-id="c1958-140">Dispositivo de captura</span><span class="sxs-lookup"><span data-stu-id="c1958-140">Capture Device</span></span>
 
-  - <span data-ttu-id="32e5c-141">Dispositivo de renderização</span><span class="sxs-lookup"><span data-stu-id="32e5c-141">Render Device</span></span>
+  - <span data-ttu-id="c1958-141">Dispositivo de renderização</span><span class="sxs-lookup"><span data-stu-id="c1958-141">Render Device</span></span>
 
-<span data-ttu-id="32e5c-142">No relatório do dispositivo, você pode fazer uma busca detalhada [no relatório de lista de chamadas no Lync Server 2013](lync-server-2013-call-list-report.md) clicando em uma das seguintes métricas:</span><span class="sxs-lookup"><span data-stu-id="32e5c-142">From the Device Report you can drill down to the [Call List Report in Lync Server 2013](lync-server-2013-call-list-report.md) by clicking either of the following metrics:</span></span>
+<span data-ttu-id="c1958-142">No relatório de dispositivos, você pode fazer uma busca detalhada [no relatório de lista de chamadas no Lync Server 2013](lync-server-2013-call-list-report.md) clicando em uma das seguintes métricas:</span><span class="sxs-lookup"><span data-stu-id="c1958-142">From the Device Report you can drill down to the [Call List Report in Lync Server 2013](lync-server-2013-call-list-report.md) by clicking either of the following metrics:</span></span>
 
-  - <span data-ttu-id="32e5c-143">Volume da chamada</span><span class="sxs-lookup"><span data-stu-id="32e5c-143">Call volume</span></span>
+  - <span data-ttu-id="c1958-143">Volume da chamada</span><span class="sxs-lookup"><span data-stu-id="c1958-143">Call volume</span></span>
 
-  - <span data-ttu-id="32e5c-144">Porcentagem de chamadas ruins</span><span class="sxs-lookup"><span data-stu-id="32e5c-144">Poor call percentage</span></span>
+  - <span data-ttu-id="c1958-144">Percentual de chamadas ruins</span><span class="sxs-lookup"><span data-stu-id="c1958-144">Poor call percentage</span></span>
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-device-report"></a><span data-ttu-id="32e5c-145">Como usar melhor o Relatório de Dispositivos</span><span class="sxs-lookup"><span data-stu-id="32e5c-145">Making the Best Use of the Device Report</span></span>
+## <a name="making-the-best-use-of-the-device-report"></a><span data-ttu-id="c1958-145">Como usar melhor o Relatório de Dispositivos</span><span class="sxs-lookup"><span data-stu-id="c1958-145">Making the Best Use of the Device Report</span></span>
 
-<span data-ttu-id="32e5c-146">Tratando-se de nomes de dispositivos, o Relatório de Dispositivos é extremamente detalhado. Por exemplo, suponha que você tem os seguintes dispositivos de captura:</span><span class="sxs-lookup"><span data-stu-id="32e5c-146">When it comes to device names, the Device Report is extremely detailed; for example, suppose you have the following capture devices:</span></span>
+<span data-ttu-id="c1958-146">Tratando-se de nomes de dispositivos, o Relatório de Dispositivos é extremamente detalhado. Por exemplo, suponha que você tem os seguintes dispositivos de captura:</span><span class="sxs-lookup"><span data-stu-id="c1958-146">When it comes to device names, the Device Report is extremely detailed; for example, suppose you have the following capture devices:</span></span>
 
-  - <span data-ttu-id="32e5c-147">Microfone Aastra 3002 (2- Aastra 3002)</span><span class="sxs-lookup"><span data-stu-id="32e5c-147">Aastra 3002 Microphone (2- Aastra 3002)</span></span>
+  - <span data-ttu-id="c1958-147">Microfone Aastra 3002 (2- Aastra 3002)</span><span class="sxs-lookup"><span data-stu-id="c1958-147">Aastra 3002 Microphone (2- Aastra 3002)</span></span>
 
-  - <span data-ttu-id="32e5c-148">Microfone Aastra 3002 (3- Aastra 3002)</span><span class="sxs-lookup"><span data-stu-id="32e5c-148">Aastra 3002 Microphone (3- Aastra 3002)</span></span>
+  - <span data-ttu-id="c1958-148">Microfone Aastra 3002 (3- Aastra 3002)</span><span class="sxs-lookup"><span data-stu-id="c1958-148">Aastra 3002 Microphone (3- Aastra 3002)</span></span>
 
-  - <span data-ttu-id="32e5c-149">Microfone Aastra 3002 (Aastra 3002)</span><span class="sxs-lookup"><span data-stu-id="32e5c-149">Aastra 3002 Microphone (Aastra 3002)</span></span>
+  - <span data-ttu-id="c1958-149">Microfone Aastra 3002 (Aastra 3002)</span><span class="sxs-lookup"><span data-stu-id="c1958-149">Aastra 3002 Microphone (Aastra 3002)</span></span>
 
-  - <span data-ttu-id="32e5c-150">Aastra 6725ip</span><span class="sxs-lookup"><span data-stu-id="32e5c-150">Aastra 6725ip</span></span>
+  - <span data-ttu-id="c1958-150">Aastra 6725ip</span><span class="sxs-lookup"><span data-stu-id="c1958-150">Aastra 6725ip</span></span>
 
-  - <span data-ttu-id="32e5c-151">Microfone Aastra 6725ip (10- Aastra 6725ip)</span><span class="sxs-lookup"><span data-stu-id="32e5c-151">Aastra 6725ip Microphone (10- Aastra 6725ip)</span></span>
+  - <span data-ttu-id="c1958-151">Microfone Aastra 6725ip (10- Aastra 6725ip)</span><span class="sxs-lookup"><span data-stu-id="c1958-151">Aastra 6725ip Microphone (10- Aastra 6725ip)</span></span>
 
-  - <span data-ttu-id="32e5c-152">Microfone Aastra 6725ip (10- Aastra 6725ip)-V0</span><span class="sxs-lookup"><span data-stu-id="32e5c-152">Aastra 6725ip Microphone (10- Aastra 6725ip)-V0</span></span>
+  - <span data-ttu-id="c1958-152">Microfone Aastra 6725ip (10- Aastra 6725ip)-V0</span><span class="sxs-lookup"><span data-stu-id="c1958-152">Aastra 6725ip Microphone (10- Aastra 6725ip)-V0</span></span>
 
-  - <span data-ttu-id="32e5c-153">Microfone Aastra 6725ip (2- Aastra 6725ip)</span><span class="sxs-lookup"><span data-stu-id="32e5c-153">Aastra 6725ip Microphone (2- Aastra 6725ip)</span></span>
+  - <span data-ttu-id="c1958-153">Microfone Aastra 6725ip (2- Aastra 6725ip)</span><span class="sxs-lookup"><span data-stu-id="c1958-153">Aastra 6725ip Microphone (2- Aastra 6725ip)</span></span>
 
-  - <span data-ttu-id="32e5c-154">Microfone Aastra 6725ip (3- Aastra 6725ip)</span><span class="sxs-lookup"><span data-stu-id="32e5c-154">Aastra 6725ip Microphone (3- Aastra 6725ip)</span></span>
+  - <span data-ttu-id="c1958-154">Microfone Aastra 6725ip (3- Aastra 6725ip)</span><span class="sxs-lookup"><span data-stu-id="c1958-154">Aastra 6725ip Microphone (3- Aastra 6725ip)</span></span>
 
-  - <span data-ttu-id="32e5c-155">Microfone Aastra 6725ip (4- Aastra 6725ip)</span><span class="sxs-lookup"><span data-stu-id="32e5c-155">Aastra 6725ip Microphone (4- Aastra 6725ip)</span></span>
+  - <span data-ttu-id="c1958-155">Microfone Aastra 6725ip (4- Aastra 6725ip)</span><span class="sxs-lookup"><span data-stu-id="c1958-155">Aastra 6725ip Microphone (4- Aastra 6725ip)</span></span>
 
-  - <span data-ttu-id="32e5c-156">Microfone Aastra 6725ip (5- Aastra 6725ip)</span><span class="sxs-lookup"><span data-stu-id="32e5c-156">Aastra 6725ip Microphone (5- Aastra 6725ip)</span></span>
+  - <span data-ttu-id="c1958-156">Microfone Aastra 6725ip (5- Aastra 6725ip)</span><span class="sxs-lookup"><span data-stu-id="c1958-156">Aastra 6725ip Microphone (5- Aastra 6725ip)</span></span>
 
-  - <span data-ttu-id="32e5c-157">Microfone Aastra 6725ip (6- Aastra 6725ip)</span><span class="sxs-lookup"><span data-stu-id="32e5c-157">Aastra 6725ip Microphone (6- Aastra 6725ip)</span></span>
+  - <span data-ttu-id="c1958-157">Microfone Aastra 6725ip (6- Aastra 6725ip)</span><span class="sxs-lookup"><span data-stu-id="c1958-157">Aastra 6725ip Microphone (6- Aastra 6725ip)</span></span>
 
-  - <span data-ttu-id="32e5c-158">Microfone Aastra 6725ip (7- Aastra 6725ip)</span><span class="sxs-lookup"><span data-stu-id="32e5c-158">Aastra 6725ip Microphone (7- Aastra 6725ip)</span></span>
+  - <span data-ttu-id="c1958-158">Microfone Aastra 6725ip (7- Aastra 6725ip)</span><span class="sxs-lookup"><span data-stu-id="c1958-158">Aastra 6725ip Microphone (7- Aastra 6725ip)</span></span>
 
-  - <span data-ttu-id="32e5c-159">Microfone Aastra 6725ip (9- Aastra 6725ip)</span><span class="sxs-lookup"><span data-stu-id="32e5c-159">Aastra 6725ip Microphone (9- Aastra 6725ip)</span></span>
+  - <span data-ttu-id="c1958-159">Microfone Aastra 6725ip (9- Aastra 6725ip)</span><span class="sxs-lookup"><span data-stu-id="c1958-159">Aastra 6725ip Microphone (9- Aastra 6725ip)</span></span>
 
-  - <span data-ttu-id="32e5c-160">Microfone Aastra 6725ip (9- Aastra 6725ip)-V0</span><span class="sxs-lookup"><span data-stu-id="32e5c-160">Aastra 6725ip Microphone (9- Aastra 6725ip)-V0</span></span>
+  - <span data-ttu-id="c1958-160">Microfone Aastra 6725ip (9- Aastra 6725ip)-V0</span><span class="sxs-lookup"><span data-stu-id="c1958-160">Aastra 6725ip Microphone (9- Aastra 6725ip)-V0</span></span>
 
-  - <span data-ttu-id="32e5c-161">Microfone Aastra 6725ip (Aastra 6725ip)</span><span class="sxs-lookup"><span data-stu-id="32e5c-161">Aastra 6725ip Microphone (Aastra 6725ip)</span></span>
+  - <span data-ttu-id="c1958-161">Microfone Aastra 6725ip (Aastra 6725ip)</span><span class="sxs-lookup"><span data-stu-id="c1958-161">Aastra 6725ip Microphone (Aastra 6725ip)</span></span>
 
-  - <span data-ttu-id="32e5c-162">Microfone Aastra 6725ip (Aastra 6725ip)-V0</span><span class="sxs-lookup"><span data-stu-id="32e5c-162">Aastra 6725ip Microphone (Aastra 6725ip)-V0</span></span>
+  - <span data-ttu-id="c1958-162">Microfone Aastra 6725ip (Aastra 6725ip)-V0</span><span class="sxs-lookup"><span data-stu-id="c1958-162">Aastra 6725ip Microphone (Aastra 6725ip)-V0</span></span>
 
-  - <span data-ttu-id="32e5c-163">Microfone Aastra 6725ip (Dispositivo de áudio USB)</span><span class="sxs-lookup"><span data-stu-id="32e5c-163">Aastra 6725ip Microphone (USB Audio Device)</span></span>
+  - <span data-ttu-id="c1958-163">Microfone Aastra 6725ip (Dispositivo de áudio USB)</span><span class="sxs-lookup"><span data-stu-id="c1958-163">Aastra 6725ip Microphone (USB Audio Device)</span></span>
 
-  - <span data-ttu-id="32e5c-164">Microfone Aastra 6725ip (Dispositivo de áudio USB)-V0</span><span class="sxs-lookup"><span data-stu-id="32e5c-164">Aastra 6725ip Microphone (USB Audio Device)-V0</span></span>
+  - <span data-ttu-id="c1958-164">Microfone Aastra 6725ip (Dispositivo de áudio USB)-V0</span><span class="sxs-lookup"><span data-stu-id="c1958-164">Aastra 6725ip Microphone (USB Audio Device)-V0</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="32e5c-165">Lembre-se de que capturar nomes de dispositivos podem não ser iguais se você estiver executando versões localizadas do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="32e5c-165">Keep in mind that capture device names might not be the same if you are running localized versions of Lync Server 2013.</span></span> <span data-ttu-id="32e5c-166">Um dispositivo denominado Microfone Aastra 6725ip (Aastra 6725ip)-V0 em português pode ter um nome diferente em francês ou espanhol.</span><span class="sxs-lookup"><span data-stu-id="32e5c-166">A device named Aastra 6725ip Microphone (Aastra 6725ip)-V0 in US English could have a different name in French or Spanish.</span></span>
+> <span data-ttu-id="c1958-165">Tenha em mente que os nomes de dispositivos de captura podem não ser os mesmos se você estiver executando versões localizadas do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c1958-165">Keep in mind that capture device names might not be the same if you are running localized versions of Lync Server 2013.</span></span> <span data-ttu-id="c1958-166">Um dispositivo denominado Microfone Aastra 6725ip (Aastra 6725ip)-V0 em português pode ter um nome diferente em francês ou espanhol.</span><span class="sxs-lookup"><span data-stu-id="c1958-166">A device named Aastra 6725ip Microphone (Aastra 6725ip)-V0 in US English could have a different name in French or Spanish.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="32e5c-167">Muitas vezes você precisará desse nível de detalhe; mas, em outros momentos, você só estará interessado na quantidade de chamadas que usam um microfone Aastra, independente do número do modelo.</span><span class="sxs-lookup"><span data-stu-id="32e5c-167">Often times you'll want that level of detail; at other times, however, you might only be interested in how many calls use any Aastra microphone, regardless of model number.</span></span> <span data-ttu-id="32e5c-168">Uma maneira de obter informações como essa é exportar os dados do relatório do dispositivo para o Microsoft Excel e, em seguida, salvar esses dados em um arquivo de valores separados por vírgula\\(\\por\_exemplo, C: dispositivos de dados Report. csv).</span><span class="sxs-lookup"><span data-stu-id="32e5c-168">One way to get information like that is to export the Device Report data to Microsoft Excel and then save that data to a comma-separated values file (for example, C:\\Data\\Devices\_Report.csv).</span></span> <span data-ttu-id="32e5c-169">É possível usar um conjunto de comandos parecidos com esses para importar o arquivo .CSV no Windows PowerShell e relatar o número total de chamadas feitas usando um dispositivo de captura Aastra:</span><span class="sxs-lookup"><span data-stu-id="32e5c-169">You can then use a set of commands similar to these to import the .CSV file into Windows PowerShell and report back the total number of calls made using an Aastra capture device:</span></span>
+<span data-ttu-id="c1958-167">Muitas vezes você desejará este nível de detalhe; mas em outros momentos, você só estará interessado na quantidade de chamadas que usam um microfone Aastra, independente do número do modelo.</span><span class="sxs-lookup"><span data-stu-id="c1958-167">Often times you'll want that level of detail; at other times, however, you might only be interested in how many calls use any Aastra microphone, regardless of model number.</span></span> <span data-ttu-id="c1958-168">Uma maneira de obter informações como essa é para exportar os dados de relatório do dispositivo para o Microsoft Excel e, em seguida, salvar os dados em um arquivo de valores separados por\\vírgula\\(\_por exemplo, C: data Reports. csv).</span><span class="sxs-lookup"><span data-stu-id="c1958-168">One way to get information like that is to export the Device Report data to Microsoft Excel and then save that data to a comma-separated values file (for example, C:\\Data\\Devices\_Report.csv).</span></span> <span data-ttu-id="c1958-169">É possível usar um conjunto de comandos parecidos com esses para importar o arquivo .CSV no Windows PowerShell e relatar o número total de chamadas feitas usando um dispositivo de captura Aastra:</span><span class="sxs-lookup"><span data-stu-id="c1958-169">You can then use a set of commands similar to these to import the .CSV file into Windows PowerShell and report back the total number of calls made using an Aastra capture device:</span></span>
 
     $devices = Import-Csv "C:\Data\Device_Report.csv
     $sum = $devices | Where-Object {$_."Capture device" -match "Aastra"}
     $sum | foreach-object {[Int]$x = [Int]$x + [Int]$_."call volume"}
     $x
 
-<span data-ttu-id="32e5c-p109">Esse procedimento retornará um único valor que representa o número total de chamadas usando um dispositivo de captura Aastra. Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="32e5c-p109">That will return a single value representing the total number of calls made using an Aastra capture device. For example:</span></span>
+<span data-ttu-id="c1958-p109">Esse procedimento retornará um único valor que representa o número total de chamadas usando um dispositivo de captura Aastra. Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="c1958-p109">That will return a single value representing the total number of calls made using an Aastra capture device. For example:</span></span>
 
     384
 
@@ -212,13 +212,13 @@ ms.locfileid: "41762419"
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="32e5c-172">Filtros</span><span class="sxs-lookup"><span data-stu-id="32e5c-172">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="c1958-172">Filtros</span><span class="sxs-lookup"><span data-stu-id="c1958-172">Filters</span></span>
 
-<span data-ttu-id="32e5c-p110">Os filtros oferecem uma forma de retornar um conjunto de dados mais direcionado ou exibir os dados devolvidos em formas diferentes. Por exemplo, o Relatório de Dispositivos permite filtrar coisas como o tipo de chamada (isto é, a chamada foi realizada pelo cliente), uma chamada de conferência ou chamada PSTN. É possível também escolher como os dados devem ser agrupados. Neste caso, os dispositivos são agrupados por hora, dia, semana ou mês.</span><span class="sxs-lookup"><span data-stu-id="32e5c-p110">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Device Report enables you to filter on such things as call type (that is, was the call a client call), a conference call, or a public switched telephone network (PSTN) call. You can also choose how data should be grouped. In this case, devices are grouped by hour, day, week, or month.</span></span>
+<span data-ttu-id="c1958-p110">Os filtros oferecem uma forma de retornar um conjunto de dados mais direcionado ou exibir os dados devolvidos em formas diferentes. Por exemplo, o Relatório de Dispositivo permite filtrar coisas como o tipo de chamada (isto é, a chamada foi realizada pelo cliente), uma chamada de conferência ou chamada PSTN. Também é possível escolher como os dados devem ser agrupados. Neste caso, os dispositivos são agrupados por hora, dia, semana ou mês.</span><span class="sxs-lookup"><span data-stu-id="c1958-p110">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Device Report enables you to filter on such things as call type (that is, was the call a client call), a conference call, or a public switched telephone network (PSTN) call. You can also choose how data should be grouped. In this case, devices are grouped by hour, day, week, or month.</span></span>
 
-<span data-ttu-id="32e5c-177">A tabela a seguir lista os filtros que podem ser usados com o Relatório de Dispositivos.</span><span class="sxs-lookup"><span data-stu-id="32e5c-177">The following table lists the filters that you can use with the Device Report.</span></span>
+<span data-ttu-id="c1958-177">A tabela a seguir lista os filtros que podem ser usados com o Relatório de Dispositivo.</span><span class="sxs-lookup"><span data-stu-id="c1958-177">The following table lists the filters that you can use with the Device Report.</span></span>
 
-### <a name="device-report-filters"></a><span data-ttu-id="32e5c-178">Filtros do Relatório de Dispositivos</span><span class="sxs-lookup"><span data-stu-id="32e5c-178">Device Report Filters</span></span>
+### <a name="device-report-filters"></a><span data-ttu-id="c1958-178">Filtros do Relatório de Dispositivo</span><span class="sxs-lookup"><span data-stu-id="c1958-178">Device Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -227,173 +227,173 @@ ms.locfileid: "41762419"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="32e5c-179">Nome</span><span class="sxs-lookup"><span data-stu-id="32e5c-179">Name</span></span></th>
-<th><span data-ttu-id="32e5c-180">Descrição</span><span class="sxs-lookup"><span data-stu-id="32e5c-180">Description</span></span></th>
+<th><span data-ttu-id="c1958-179">Nome</span><span class="sxs-lookup"><span data-stu-id="c1958-179">Name</span></span></th>
+<th><span data-ttu-id="c1958-180">Descrição</span><span class="sxs-lookup"><span data-stu-id="c1958-180">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="32e5c-181"><strong>De</strong></span><span class="sxs-lookup"><span data-stu-id="32e5c-181"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="32e5c-p111">Data/hora de início para o intervalo de tempo. Para ver os dados por horas, insira a data e hora de início conforme segue:</span><span class="sxs-lookup"><span data-stu-id="32e5c-p111">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="32e5c-184">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="32e5c-184">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="32e5c-p112">Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:</span><span class="sxs-lookup"><span data-stu-id="32e5c-p112">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="32e5c-187">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="32e5c-187">7/7/2012</span></span></p>
-<p><span data-ttu-id="32e5c-188">Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</span><span class="sxs-lookup"><span data-stu-id="32e5c-188">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="32e5c-189">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="32e5c-189">7/3/2012</span></span></p>
-<p><span data-ttu-id="32e5c-190">As semanas sempre vão de domingo a sábado.</span><span class="sxs-lookup"><span data-stu-id="32e5c-190">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="c1958-181"><strong>De</strong></span><span class="sxs-lookup"><span data-stu-id="c1958-181"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="c1958-p111">Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:</span><span class="sxs-lookup"><span data-stu-id="c1958-p111">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="c1958-184">7/7/2012 13:00 horas</span><span class="sxs-lookup"><span data-stu-id="c1958-184">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="c1958-p112">Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</span><span class="sxs-lookup"><span data-stu-id="c1958-p112">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="c1958-187">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="c1958-187">7/7/2012</span></span></p>
+<p><span data-ttu-id="c1958-188">Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</span><span class="sxs-lookup"><span data-stu-id="c1958-188">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="c1958-189">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="c1958-189">7/3/2012</span></span></p>
+<p><span data-ttu-id="c1958-190">As semanas sempre correm do domingo até sábado.</span><span class="sxs-lookup"><span data-stu-id="c1958-190">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="32e5c-191"><strong>Até</strong></span><span class="sxs-lookup"><span data-stu-id="32e5c-191"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="32e5c-p113">Data/hora final de intervalo de tempo. Para ver os dados por horas, insira a data e hora final conforme segue:</span><span class="sxs-lookup"><span data-stu-id="32e5c-p113">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="32e5c-194">7/7/2012 1:00 PM</span><span class="sxs-lookup"><span data-stu-id="32e5c-194">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="32e5c-p114">Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:</span><span class="sxs-lookup"><span data-stu-id="32e5c-p114">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="32e5c-197">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="32e5c-197">7/7/2012</span></span></p>
-<p><span data-ttu-id="32e5c-198">Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</span><span class="sxs-lookup"><span data-stu-id="32e5c-198">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="32e5c-199">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="32e5c-199">7/3/2012</span></span></p>
-<p><span data-ttu-id="32e5c-200">As semanas sempre vão de domingo a sábado.</span><span class="sxs-lookup"><span data-stu-id="32e5c-200">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="c1958-191"><strong>To</strong></span><span class="sxs-lookup"><span data-stu-id="c1958-191"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="c1958-p113">Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:</span><span class="sxs-lookup"><span data-stu-id="c1958-p113">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="c1958-194">7/7/2012 13:00 horas</span><span class="sxs-lookup"><span data-stu-id="c1958-194">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="c1958-p114">Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</span><span class="sxs-lookup"><span data-stu-id="c1958-p114">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="c1958-197">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="c1958-197">7/7/2012</span></span></p>
+<p><span data-ttu-id="c1958-198">Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</span><span class="sxs-lookup"><span data-stu-id="c1958-198">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="c1958-199">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="c1958-199">7/3/2012</span></span></p>
+<p><span data-ttu-id="c1958-200">As semanas são sempre de domingo a sábado.</span><span class="sxs-lookup"><span data-stu-id="c1958-200">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="32e5c-201"><strong>Causa de troca de voz</strong></span><span class="sxs-lookup"><span data-stu-id="32e5c-201"><strong>Voice switch cause</strong></span></span></p></td>
-<td><p><span data-ttu-id="32e5c-p115">Motivo pelo qual uma chamada precisou ser colocada no modo half duplex para evitar o eco. No modo half duplex, a comunicação pode passar apenas em uma direção por vez, semelhante a forma que os usuários revezam ao se comunicar com um walkie-talkie. Selecione um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="32e5c-p115">Reason why a call had to be placed into half duplex mode in order to prevent echo. In half duplex mode, communication can travel in only one direction at a time, similar to the way users take turns when communicating with a walkie-talkie. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="c1958-201"><strong>Causa de troca de voz</strong></span><span class="sxs-lookup"><span data-stu-id="c1958-201"><strong>Voice switch cause</strong></span></span></p></td>
+<td><p><span data-ttu-id="c1958-p115">Motivo pelo qual uma chamada precisou ser colocada no modo half duplex para evitar o eco. No modo half duplex, a comunicação pode passar apenas em uma direção por vez, semelhante a forma que os usuários revezam ao se comunicar com um walkie-talkie. Selecione um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="c1958-p115">Reason why a call had to be placed into half duplex mode in order to prevent echo. In half duplex mode, communication can travel in only one direction at a time, similar to the way users take turns when communicating with a walkie-talkie. Select one of the following:</span></span></p>
 <dl>
 <dt><span></span></dt>
-<dd><p><span data-ttu-id="32e5c-205">[Todos]</span><span class="sxs-lookup"><span data-stu-id="32e5c-205">[All]</span></span></p>
+<dd><p><span data-ttu-id="c1958-205">Todos os</span><span class="sxs-lookup"><span data-stu-id="c1958-205">[All]</span></span></p>
 </dd>
 <dt><span></span></dt>
-<dd><p><span data-ttu-id="32e5c-206">Nenhum</span><span class="sxs-lookup"><span data-stu-id="32e5c-206">None</span></span></p>
+<dd><p><span data-ttu-id="c1958-206">Nenhum</span><span class="sxs-lookup"><span data-stu-id="c1958-206">None</span></span></p>
 </dd>
 <dt><span></span></dt>
-<dd><p><span data-ttu-id="32e5c-207">Carimbo de data/hora inválido</span><span class="sxs-lookup"><span data-stu-id="32e5c-207">Bad timestamp</span></span></p>
+<dd><p><span data-ttu-id="c1958-207">Carimbo de data/hora inválido</span><span class="sxs-lookup"><span data-stu-id="c1958-207">Bad timestamp</span></span></p>
 </dd>
 <dt><span></span></dt>
-<dd><p><span data-ttu-id="32e5c-208">Eco</span><span class="sxs-lookup"><span data-stu-id="32e5c-208">Echo</span></span></p>
+<dd><p><span data-ttu-id="c1958-208">Eco</span><span class="sxs-lookup"><span data-stu-id="c1958-208">Echo</span></span></p>
 </dd>
 <dt><span></span></dt>
-<dd><p><span data-ttu-id="32e5c-209">DNLP (processador não linear dinâmico)</span><span class="sxs-lookup"><span data-stu-id="32e5c-209">DNLP (dynamic nonlinear processor)</span></span></p>
+<dd><p><span data-ttu-id="c1958-209">DNLP (processador não linear dinâmico)</span><span class="sxs-lookup"><span data-stu-id="c1958-209">DNLP (dynamic nonlinear processor)</span></span></p>
 </dd>
 <dt><span></span></dt>
-<dd><p><span data-ttu-id="32e5c-210">Baixa complexidade</span><span class="sxs-lookup"><span data-stu-id="32e5c-210">Low complexity</span></span></p>
+<dd><p><span data-ttu-id="c1958-210">Baixa complexidade</span><span class="sxs-lookup"><span data-stu-id="c1958-210">Low complexity</span></span></p>
 </dd>
 <dt><span></span></dt>
-<dd><p><span data-ttu-id="32e5c-211">Estado do dispositivo inválido</span><span class="sxs-lookup"><span data-stu-id="32e5c-211">Bad device state</span></span></p>
+<dd><p><span data-ttu-id="c1958-211">Estado do dispositivo inválido</span><span class="sxs-lookup"><span data-stu-id="c1958-211">Bad device state</span></span></p>
 </dd>
 <dt><span></span></dt>
-<dd><p><span data-ttu-id="32e5c-212">Eco pós-AEC (cancelamento do eco acústico)</span><span class="sxs-lookup"><span data-stu-id="32e5c-212">Post-AEC echo (acoustic echo cancellation)</span></span></p>
+<dd><p><span data-ttu-id="c1958-212">Eco pós-AEC (cancelamento do eco acústico)</span><span class="sxs-lookup"><span data-stu-id="c1958-212">Post-AEC echo (acoustic echo cancellation)</span></span></p>
 </dd>
 </dl></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="32e5c-213"><strong>Causa do eco</strong></span><span class="sxs-lookup"><span data-stu-id="32e5c-213"><strong>Echo cause</strong></span></span></p></td>
-<td><p><span data-ttu-id="32e5c-p116">Motivo pelo qual o eco acima do aceitável foi detectado em uma chamada. (Em telecomunicações, o eco é um reflexo do som, o mesmo fenômeno que você ouvirá se gritar em um poço). Selecione um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="32e5c-p116">Reason why echo above the accepted level was detected in a call. (In telecommunications, echo is a reflection of sound, the same phenomenon you will hear if you yell down to the bottom of a well.) Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="c1958-213"><strong>Causa do eco</strong></span><span class="sxs-lookup"><span data-stu-id="c1958-213"><strong>Echo cause</strong></span></span></p></td>
+<td><p><span data-ttu-id="c1958-p116">Motivo pelo qual o eco acima do aceitável foi detectado em uma chamada. (Em telecomunicações, o eco é um reflexo do som, o mesmo fenômeno que você ouvirá se gritar em um poço). Selecione um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="c1958-p116">Reason why echo above the accepted level was detected in a call. (In telecommunications, echo is a reflection of sound, the same phenomenon you will hear if you yell down to the bottom of a well.) Select one of the following:</span></span></p>
 <dl>
 <dt><span></span></dt>
-<dd><p><span data-ttu-id="32e5c-216">[Todos]</span><span class="sxs-lookup"><span data-stu-id="32e5c-216">[All]</span></span></p>
+<dd><p><span data-ttu-id="c1958-216">Todos os</span><span class="sxs-lookup"><span data-stu-id="c1958-216">[All]</span></span></p>
 </dd>
 <dt><span></span></dt>
-<dd><p><span data-ttu-id="32e5c-217">Nenhum</span><span class="sxs-lookup"><span data-stu-id="32e5c-217">None</span></span></p>
+<dd><p><span data-ttu-id="c1958-217">Nenhum</span><span class="sxs-lookup"><span data-stu-id="c1958-217">None</span></span></p>
 </dd>
 <dt><span></span></dt>
-<dd><p><span data-ttu-id="32e5c-218">Carimbo de data/hora inválido</span><span class="sxs-lookup"><span data-stu-id="32e5c-218">Bad timestamp</span></span></p>
+<dd><p><span data-ttu-id="c1958-218">Carimbo de data/hora inválido</span><span class="sxs-lookup"><span data-stu-id="c1958-218">Bad timestamp</span></span></p>
 </dd>
 <dt><span></span></dt>
-<dd><p><span data-ttu-id="32e5c-219">Eco pós-AEC (cancelamento do eco acústico)</span><span class="sxs-lookup"><span data-stu-id="32e5c-219">Post-AEC echo (acoustic echo cancellation)</span></span></p>
+<dd><p><span data-ttu-id="c1958-219">Eco pós-AEC (cancelamento do eco acústico)</span><span class="sxs-lookup"><span data-stu-id="c1958-219">Post-AEC echo (acoustic echo cancellation)</span></span></p>
 </dd>
 <dt><span></span></dt>
-<dd><p><span data-ttu-id="32e5c-220">ANLP (processador não linear adaptado)</span><span class="sxs-lookup"><span data-stu-id="32e5c-220">ANLP (adaptive nonlinear processor)</span></span></p>
+<dd><p><span data-ttu-id="c1958-220">ANLP (processador não linear adaptado)</span><span class="sxs-lookup"><span data-stu-id="c1958-220">ANLP (adaptive nonlinear processor)</span></span></p>
 </dd>
 <dt><span></span></dt>
-<dd><p><span data-ttu-id="32e5c-221">DNLP (processador não linear dinâmico)</span><span class="sxs-lookup"><span data-stu-id="32e5c-221">DNLP (dynamic nonlinear processor)</span></span></p>
+<dd><p><span data-ttu-id="c1958-221">DNLP (processador não linear dinâmico)</span><span class="sxs-lookup"><span data-stu-id="c1958-221">DNLP (dynamic nonlinear processor)</span></span></p>
 </dd>
 <dt><span></span></dt>
-<dd><p><span data-ttu-id="32e5c-222">Distorção do microfone</span><span class="sxs-lookup"><span data-stu-id="32e5c-222">Microphone clipping</span></span></p>
-</dd>
-</dl></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="32e5c-223"><strong>Tipo de chamada</strong></span><span class="sxs-lookup"><span data-stu-id="32e5c-223"><strong>Call type</strong></span></span></p></td>
-<td><p><span data-ttu-id="32e5c-p117">Indica o tipo de chamada realizada. Selecione um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="32e5c-p117">Indicates the type of call that was made. Select one of the following:</span></span></p>
-<dl>
-<dt><span></span></dt>
-<dd><p><span data-ttu-id="32e5c-226">[Todos]</span><span class="sxs-lookup"><span data-stu-id="32e5c-226">[All]</span></span></p>
-</dd>
-<dt><span></span></dt>
-<dd><p><span data-ttu-id="32e5c-227">Chamada do cliente</span><span class="sxs-lookup"><span data-stu-id="32e5c-227">Client call</span></span></p>
-</dd>
-<dt><span></span></dt>
-<dd><p><span data-ttu-id="32e5c-228">Chamada PSTN</span><span class="sxs-lookup"><span data-stu-id="32e5c-228">PSTN call</span></span></p>
-</dd>
-<dt><span></span></dt>
-<dd><p><span data-ttu-id="32e5c-229">Chamada de conferência</span><span class="sxs-lookup"><span data-stu-id="32e5c-229">Conference call</span></span></p>
-</dd>
-</dl></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="32e5c-230"><strong>Tipo de acesso</strong></span><span class="sxs-lookup"><span data-stu-id="32e5c-230"><strong>Access type</strong></span></span></p></td>
-<td><p><span data-ttu-id="32e5c-p118">Indica se um cliente estava conectado na rede interna ou na rede externa quando a chamada foi realizada. Selecione um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="32e5c-p118">Indicates whether the client was logged on to the internal network or the external network when the call was placed. Select one of the following:</span></span></p>
-<dl>
-<dt><span></span></dt>
-<dd><p><span data-ttu-id="32e5c-233">[Todos]</span><span class="sxs-lookup"><span data-stu-id="32e5c-233">[All]</span></span></p>
-</dd>
-<dt><span></span></dt>
-<dd><p><span data-ttu-id="32e5c-234">Interno</span><span class="sxs-lookup"><span data-stu-id="32e5c-234">Internal</span></span></p>
-</dd>
-<dt><span></span></dt>
-<dd><p><span data-ttu-id="32e5c-235">Externo</span><span class="sxs-lookup"><span data-stu-id="32e5c-235">External</span></span></p>
+<dd><p><span data-ttu-id="c1958-222">Distorção do microfone</span><span class="sxs-lookup"><span data-stu-id="c1958-222">Microphone clipping</span></span></p>
 </dd>
 </dl></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="32e5c-236"><strong>Tipo de rede</strong></span><span class="sxs-lookup"><span data-stu-id="32e5c-236"><strong>Network type</strong></span></span></p></td>
-<td><p><span data-ttu-id="32e5c-p119">Indica o tipo de rede que o cliente estava conectado quando a chamada foi realizada. Selecione um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="32e5c-p119">Indicates the type of network the client was connected to when the call was placed. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="c1958-223"><strong>Tipo de chamada</strong></span><span class="sxs-lookup"><span data-stu-id="c1958-223"><strong>Call type</strong></span></span></p></td>
+<td><p><span data-ttu-id="c1958-p117">Indica o tipo de chamada realizada. Selecione um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="c1958-p117">Indicates the type of call that was made. Select one of the following:</span></span></p>
 <dl>
 <dt><span></span></dt>
-<dd><p><span data-ttu-id="32e5c-239">[Todos]</span><span class="sxs-lookup"><span data-stu-id="32e5c-239">[All]</span></span></p>
+<dd><p><span data-ttu-id="c1958-226">Todos os</span><span class="sxs-lookup"><span data-stu-id="c1958-226">[All]</span></span></p>
 </dd>
 <dt><span></span></dt>
-<dd><p><span data-ttu-id="32e5c-240">Com fio</span><span class="sxs-lookup"><span data-stu-id="32e5c-240">Wired</span></span></p>
+<dd><p><span data-ttu-id="c1958-227">Chamada do cliente</span><span class="sxs-lookup"><span data-stu-id="c1958-227">Client call</span></span></p>
 </dd>
 <dt><span></span></dt>
-<dd><p><span data-ttu-id="32e5c-241">Sem fio</span><span class="sxs-lookup"><span data-stu-id="32e5c-241">Wireless</span></span></p>
+<dd><p><span data-ttu-id="c1958-228">Chamada PSTN</span><span class="sxs-lookup"><span data-stu-id="c1958-228">PSTN call</span></span></p>
+</dd>
+<dt><span></span></dt>
+<dd><p><span data-ttu-id="c1958-229">Chamada de conferência</span><span class="sxs-lookup"><span data-stu-id="c1958-229">Conference call</span></span></p>
 </dd>
 </dl></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="32e5c-242"><strong>VPN</strong></span><span class="sxs-lookup"><span data-stu-id="32e5c-242"><strong>VPN</strong></span></span></p></td>
-<td><p><span data-ttu-id="32e5c-p120">Indica se um cliente externo estava usando uma conexão de rede privada virtual (VPN) quando a chamada foi realizada. Selecione um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="32e5c-p120">Indicates whether an external client was using a virtual private network (VPN) connection when the call was placed. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="c1958-230"><strong>Tipo de acesso</strong></span><span class="sxs-lookup"><span data-stu-id="c1958-230"><strong>Access type</strong></span></span></p></td>
+<td><p><span data-ttu-id="c1958-p118">Indica se um cliente estava conectado na rede interna ou na rede externa quando a chamada foi realizada. Selecione um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="c1958-p118">Indicates whether the client was logged on to the internal network or the external network when the call was placed. Select one of the following:</span></span></p>
 <dl>
 <dt><span></span></dt>
-<dd><p><span data-ttu-id="32e5c-245">[Todos]</span><span class="sxs-lookup"><span data-stu-id="32e5c-245">[All]</span></span></p>
+<dd><p><span data-ttu-id="c1958-233">Todos os</span><span class="sxs-lookup"><span data-stu-id="c1958-233">[All]</span></span></p>
 </dd>
 <dt><span></span></dt>
-<dd><p><span data-ttu-id="32e5c-246">VPN</span><span class="sxs-lookup"><span data-stu-id="32e5c-246">VPN</span></span></p>
+<dd><p><span data-ttu-id="c1958-234">Interna</span><span class="sxs-lookup"><span data-stu-id="c1958-234">Internal</span></span></p>
 </dd>
 <dt><span></span></dt>
-<dd><p><span data-ttu-id="32e5c-247">Não VPN</span><span class="sxs-lookup"><span data-stu-id="32e5c-247">Non-VPN</span></span></p>
+<dd><p><span data-ttu-id="c1958-235">Externa</span><span class="sxs-lookup"><span data-stu-id="c1958-235">External</span></span></p>
 </dd>
 </dl></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="32e5c-248"><strong>Tipo de dispositivo</strong></span><span class="sxs-lookup"><span data-stu-id="32e5c-248"><strong>Device type</strong></span></span></p></td>
-<td><p><span data-ttu-id="32e5c-p121">Indica o tipo de dispositivo. Selecione um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="32e5c-p121">Indicates the type of device. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="c1958-236"><strong>Tipo de rede</strong></span><span class="sxs-lookup"><span data-stu-id="c1958-236"><strong>Network type</strong></span></span></p></td>
+<td><p><span data-ttu-id="c1958-p119">Indica o tipo de rede que o cliente estava conectado quando a chamada foi realizada. Selecione um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="c1958-p119">Indicates the type of network the client was connected to when the call was placed. Select one of the following:</span></span></p>
 <dl>
 <dt><span></span></dt>
-<dd><p><span data-ttu-id="32e5c-251">Dispositivo de captura</span><span class="sxs-lookup"><span data-stu-id="32e5c-251">Capture device</span></span></p>
+<dd><p><span data-ttu-id="c1958-239">Todos os</span><span class="sxs-lookup"><span data-stu-id="c1958-239">[All]</span></span></p>
 </dd>
 <dt><span></span></dt>
-<dd><p><span data-ttu-id="32e5c-252">Dispositivos de renderização</span><span class="sxs-lookup"><span data-stu-id="32e5c-252">Render device</span></span></p>
+<dd><p><span data-ttu-id="c1958-240">Com fio</span><span class="sxs-lookup"><span data-stu-id="c1958-240">Wired</span></span></p>
 </dd>
 <dt><span></span></dt>
-<dd><p><span data-ttu-id="32e5c-253">Par de dispositivos de captura/renderização</span><span class="sxs-lookup"><span data-stu-id="32e5c-253">Capture/Render device pair</span></span></p>
+<dd><p><span data-ttu-id="c1958-241">Conexão</span><span class="sxs-lookup"><span data-stu-id="c1958-241">Wireless</span></span></p>
 </dd>
 </dl></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="32e5c-254"><strong>Nome do dispositivo</strong></span><span class="sxs-lookup"><span data-stu-id="32e5c-254"><strong>Device name</strong></span></span></p></td>
-<td><p><span data-ttu-id="32e5c-p122">Nome do dispositivo de captura ou renderização. É possível inserir o nome completo do dispositivo ou qualquer parte do nome. Por exemplo para encontrar o dispositivo Microfone (Microsoft LifeCam VX-1000.), é possível inserir o nome completo do dispositivo, como a seguir:</span><span class="sxs-lookup"><span data-stu-id="32e5c-p122">Name of the capture or render device. You can enter the complete device name or any portion of the device name. For example, to find the device Microphone (Microsoft LifeCam VX-1000.), you can enter the complete device name as follows:</span></span></p>
-<p><span data-ttu-id="32e5c-258">Microfone (Microsoft LifeCam VX-1000.)</span><span class="sxs-lookup"><span data-stu-id="32e5c-258">Microphone (Microsoft LifeCam VX-1000.)</span></span></p>
-<p><span data-ttu-id="32e5c-p123">Como alternativa, é possível inserir apenas uma parte do nome. Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="32e5c-p123">Or, you can enter just a portion of the name. For example:</span></span></p>
-<p><span data-ttu-id="32e5c-261">LifeCam</span><span class="sxs-lookup"><span data-stu-id="32e5c-261">LifeCam</span></span></p>
-<p><span data-ttu-id="32e5c-262">Observe que o filtro anterior retorna qualquer dispositivo que contém a cadeia &quot;de&quot; caracteres LifeCam em qualquer lugar em seu nome.</span><span class="sxs-lookup"><span data-stu-id="32e5c-262">Note that the preceding filter returns any device that contains the string &quot;LifeCam&quot; anywhere in its name.</span></span></p></td>
+<td><p><span data-ttu-id="c1958-242"><strong>VPN</strong></span><span class="sxs-lookup"><span data-stu-id="c1958-242"><strong>VPN</strong></span></span></p></td>
+<td><p><span data-ttu-id="c1958-p120">Indica se um cliente externo estava usando uma conexão de rede privada virtual (VPN) quando a chamada foi realizada. Selecione um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="c1958-p120">Indicates whether an external client was using a virtual private network (VPN) connection when the call was placed. Select one of the following:</span></span></p>
+<dl>
+<dt><span></span></dt>
+<dd><p><span data-ttu-id="c1958-245">Todos os</span><span class="sxs-lookup"><span data-stu-id="c1958-245">[All]</span></span></p>
+</dd>
+<dt><span></span></dt>
+<dd><p><span data-ttu-id="c1958-246">VPN</span><span class="sxs-lookup"><span data-stu-id="c1958-246">VPN</span></span></p>
+</dd>
+<dt><span></span></dt>
+<dd><p><span data-ttu-id="c1958-247">Não VPN</span><span class="sxs-lookup"><span data-stu-id="c1958-247">Non-VPN</span></span></p>
+</dd>
+</dl></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="c1958-248"><strong>Tipo de dispositivo</strong></span><span class="sxs-lookup"><span data-stu-id="c1958-248"><strong>Device type</strong></span></span></p></td>
+<td><p><span data-ttu-id="c1958-p121">Indica o tipo de dispositivo. Selecione um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="c1958-p121">Indicates the type of device. Select one of the following:</span></span></p>
+<dl>
+<dt><span></span></dt>
+<dd><p><span data-ttu-id="c1958-251">Dispositivo de captura</span><span class="sxs-lookup"><span data-stu-id="c1958-251">Capture device</span></span></p>
+</dd>
+<dt><span></span></dt>
+<dd><p><span data-ttu-id="c1958-252">Dispositivo de renderização</span><span class="sxs-lookup"><span data-stu-id="c1958-252">Render device</span></span></p>
+</dd>
+<dt><span></span></dt>
+<dd><p><span data-ttu-id="c1958-253">Par de dispositivos de captura/renderização</span><span class="sxs-lookup"><span data-stu-id="c1958-253">Capture/Render device pair</span></span></p>
+</dd>
+</dl></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="c1958-254"><strong>Nome do dispositivo</strong></span><span class="sxs-lookup"><span data-stu-id="c1958-254"><strong>Device name</strong></span></span></p></td>
+<td><p><span data-ttu-id="c1958-p122">Nome do dispositivo de captura ou renderização. É possível inserir o nome completo do dispositivo ou qualquer parte do nome. Por exemplo para encontrar o dispositivo Microfone (Microsoft LifeCam VX-1000.), é possível inserir o nome completo do dispositivo, como a seguir:</span><span class="sxs-lookup"><span data-stu-id="c1958-p122">Name of the capture or render device. You can enter the complete device name or any portion of the device name. For example, to find the device Microphone (Microsoft LifeCam VX-1000.), you can enter the complete device name as follows:</span></span></p>
+<p><span data-ttu-id="c1958-258">Microfone (Microsoft LifeCam VX-1000.)</span><span class="sxs-lookup"><span data-stu-id="c1958-258">Microphone (Microsoft LifeCam VX-1000.)</span></span></p>
+<p><span data-ttu-id="c1958-p123">Em alternativa, é possível inserir apenas uma parte do nome. Por exemplo:</span><span class="sxs-lookup"><span data-stu-id="c1958-p123">Or, you can enter just a portion of the name. For example:</span></span></p>
+<p><span data-ttu-id="c1958-261">LifeCam</span><span class="sxs-lookup"><span data-stu-id="c1958-261">LifeCam</span></span></p>
+<p><span data-ttu-id="c1958-262">Observe que o filtro anterior retorna qualquer dispositivo que contenha a &quot;cadeia&quot; de caracteres LifeCam em qualquer lugar em seu nome.</span><span class="sxs-lookup"><span data-stu-id="c1958-262">Note that the preceding filter returns any device that contains the string &quot;LifeCam&quot; anywhere in its name.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -403,11 +403,11 @@ ms.locfileid: "41762419"
 
 <div>
 
-## <a name="metrics"></a><span data-ttu-id="32e5c-263">Métricas</span><span class="sxs-lookup"><span data-stu-id="32e5c-263">Metrics</span></span>
+## <a name="metrics"></a><span data-ttu-id="c1958-263">Métricas</span><span class="sxs-lookup"><span data-stu-id="c1958-263">Metrics</span></span>
 
-<span data-ttu-id="32e5c-264">A tabela a seguir lista a informação apresentada no Relatório de Dispositivos.</span><span class="sxs-lookup"><span data-stu-id="32e5c-264">The following table lists the information provided in the Device Report.</span></span>
+<span data-ttu-id="c1958-264">A tabela a seguir lista a informação oferecida no Relatório do Dispositivo.</span><span class="sxs-lookup"><span data-stu-id="c1958-264">The following table lists the information provided in the Device Report.</span></span>
 
-### <a name="device-report-metrics"></a><span data-ttu-id="32e5c-265">Métricas do Relatório de Dispositivos</span><span class="sxs-lookup"><span data-stu-id="32e5c-265">Device Report Metrics</span></span>
+### <a name="device-report-metrics"></a><span data-ttu-id="c1958-265">Métricas do Relatório do Dispositivo</span><span class="sxs-lookup"><span data-stu-id="c1958-265">Device Report Metrics</span></span>
 
 <table>
 <colgroup>
@@ -417,71 +417,71 @@ ms.locfileid: "41762419"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="32e5c-266">Nome</span><span class="sxs-lookup"><span data-stu-id="32e5c-266">Name</span></span></th>
-<th><span data-ttu-id="32e5c-267">Você pode classificar este item?</span><span class="sxs-lookup"><span data-stu-id="32e5c-267">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="32e5c-268">Descrição</span><span class="sxs-lookup"><span data-stu-id="32e5c-268">Description</span></span></th>
+<th><span data-ttu-id="c1958-266">Nome</span><span class="sxs-lookup"><span data-stu-id="c1958-266">Name</span></span></th>
+<th><span data-ttu-id="c1958-267">É possível classificar este item?</span><span class="sxs-lookup"><span data-stu-id="c1958-267">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="c1958-268">Descrição</span><span class="sxs-lookup"><span data-stu-id="c1958-268">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="32e5c-269"><strong>Dispositivo de captura</strong></span><span class="sxs-lookup"><span data-stu-id="32e5c-269"><strong>Capture device</strong></span></span></p></td>
-<td><p><span data-ttu-id="32e5c-270">Sim</span><span class="sxs-lookup"><span data-stu-id="32e5c-270">Yes</span></span></p></td>
-<td><p><span data-ttu-id="32e5c-271">Dispositivo (por exemplo, um microfone ou webcam) usado para transmitir áudio.</span><span class="sxs-lookup"><span data-stu-id="32e5c-271">Device (for example, a microphone or webcam) used for transmitting audio.</span></span></p></td>
+<td><p><span data-ttu-id="c1958-269"><strong>Dispositivo de captura</strong></span><span class="sxs-lookup"><span data-stu-id="c1958-269"><strong>Capture device</strong></span></span></p></td>
+<td><p><span data-ttu-id="c1958-270">Sim</span><span class="sxs-lookup"><span data-stu-id="c1958-270">Yes</span></span></p></td>
+<td><p><span data-ttu-id="c1958-271">Dispositivo (por exemplo, um microfone ou webcam) usado para transmitir áudio.</span><span class="sxs-lookup"><span data-stu-id="c1958-271">Device (for example, a microphone or webcam) used for transmitting audio.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="32e5c-272"><strong>Dispositivo de renderização</strong></span><span class="sxs-lookup"><span data-stu-id="32e5c-272"><strong>Render device</strong></span></span></p></td>
-<td><p><span data-ttu-id="32e5c-273">Sim</span><span class="sxs-lookup"><span data-stu-id="32e5c-273">Yes</span></span></p></td>
-<td><p><span data-ttu-id="32e5c-274">Dispositivo (por exemplo, um fone de ouvido ou alto falantes) usados para receber áudio.</span><span class="sxs-lookup"><span data-stu-id="32e5c-274">Device (for example, a headset or speakers) used for receiving audio.</span></span></p></td>
+<td><p><span data-ttu-id="c1958-272"><strong>Dispositivos de renderização</strong></span><span class="sxs-lookup"><span data-stu-id="c1958-272"><strong>Render device</strong></span></span></p></td>
+<td><p><span data-ttu-id="c1958-273">Sim</span><span class="sxs-lookup"><span data-stu-id="c1958-273">Yes</span></span></p></td>
+<td><p><span data-ttu-id="c1958-274">Dispositivo (por exemplo, um fone de ouvido ou alto falantes) usados para receber áudio.</span><span class="sxs-lookup"><span data-stu-id="c1958-274">Device (for example, a headset or speakers) used for receiving audio.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="32e5c-275"><strong>Volume da chamada</strong></span><span class="sxs-lookup"><span data-stu-id="32e5c-275"><strong>Call volume</strong></span></span></p></td>
-<td><p><span data-ttu-id="32e5c-276">Sim</span><span class="sxs-lookup"><span data-stu-id="32e5c-276">Yes</span></span></p></td>
-<td><p><span data-ttu-id="32e5c-277">Número total de chamadas realizadas.</span><span class="sxs-lookup"><span data-stu-id="32e5c-277">Total number of calls placed.</span></span></p></td>
+<td><p><span data-ttu-id="c1958-275"><strong>Volume da chamada</strong></span><span class="sxs-lookup"><span data-stu-id="c1958-275"><strong>Call volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="c1958-276">Sim</span><span class="sxs-lookup"><span data-stu-id="c1958-276">Yes</span></span></p></td>
+<td><p><span data-ttu-id="c1958-277">Número total de chamadas realizadas.</span><span class="sxs-lookup"><span data-stu-id="c1958-277">Total number of calls placed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="32e5c-278"><strong>Porcentagem de chamadas ruins</strong></span><span class="sxs-lookup"><span data-stu-id="32e5c-278"><strong>Poor call percentage</strong></span></span></p></td>
-<td><p><span data-ttu-id="32e5c-279">Sim</span><span class="sxs-lookup"><span data-stu-id="32e5c-279">Yes</span></span></p></td>
-<td><p><span data-ttu-id="32e5c-280">Porcentagem de chamadas classificadas como &quot;ruins. &quot; Uma chamada ruim é qualquer chamada que pelo menos uma das métricas medidas excedeu o valor permitido (por exemplo, uma chamada que sofreu tremulação excessiva).</span><span class="sxs-lookup"><span data-stu-id="32e5c-280">Percentage of calls that were classified as &quot;poor.&quot; A poor call is any call which at least one of the measured metrics exceeded the allowed value (for example, a call that experienced excessive jitter).</span></span></p></td>
+<td><p><span data-ttu-id="c1958-278"><strong>Percentual de chamadas ruins</strong></span><span class="sxs-lookup"><span data-stu-id="c1958-278"><strong>Poor call percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="c1958-279">Sim</span><span class="sxs-lookup"><span data-stu-id="c1958-279">Yes</span></span></p></td>
+<td><p><span data-ttu-id="c1958-280">Porcentagem de chamadas classificadas como &quot;ruins. &quot; Uma chamada ruim é qualquer chamada que pelo menos uma das métricas medidas excedeu o valor permitido (por exemplo, uma chamada com tremulação excessiva).</span><span class="sxs-lookup"><span data-stu-id="c1958-280">Percentage of calls that were classified as &quot;poor.&quot; A poor call is any call which at least one of the measured metrics exceeded the allowed value (for example, a call that experienced excessive jitter).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="32e5c-281"><strong>Usuários únicos</strong></span><span class="sxs-lookup"><span data-stu-id="32e5c-281"><strong>Unique users</strong></span></span></p></td>
-<td><p><span data-ttu-id="32e5c-282">Sim</span><span class="sxs-lookup"><span data-stu-id="32e5c-282">Yes</span></span></p></td>
-<td><p><span data-ttu-id="32e5c-p124">Usuários exclusivos que utilizaram o dispositivo. Se um usuário utilizou o dispositivo 13 vezes, ele ou ela deve contar como um usuário exclusivo, o mesmo que um usuário que utilizou o dispositivo uma única vez.</span><span class="sxs-lookup"><span data-stu-id="32e5c-p124">Unique users who used the device. If a user used the device 13 times he or she would count as one unique user, the same as a user who only used the device a single time.</span></span></p></td>
+<td><p><span data-ttu-id="c1958-281"><strong>Usuários exclusivos</strong></span><span class="sxs-lookup"><span data-stu-id="c1958-281"><strong>Unique users</strong></span></span></p></td>
+<td><p><span data-ttu-id="c1958-282">Sim</span><span class="sxs-lookup"><span data-stu-id="c1958-282">Yes</span></span></p></td>
+<td><p><span data-ttu-id="c1958-p124">Usuários exclusivos que utilizaram o dispositivo. Se um usuário utilizou o dispositivo 13 vezes, ele ou ela deve contar como um usuário exclusivo, o mesmo que um usuário que utilizou o dispositivo uma única vez.</span><span class="sxs-lookup"><span data-stu-id="c1958-p124">Unique users who used the device. If a user used the device 13 times he or she would count as one unique user, the same as a user who only used the device a single time.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="32e5c-285"><strong>Tempo de troca da taxa de voz</strong></span><span class="sxs-lookup"><span data-stu-id="32e5c-285"><strong>Ratio of voice switch time</strong></span></span></p></td>
-<td><p><span data-ttu-id="32e5c-286">Sim</span><span class="sxs-lookup"><span data-stu-id="32e5c-286">Yes</span></span></p></td>
-<td><p><span data-ttu-id="32e5c-p125">Porcentagem da chamada que precisou ser conduzida no modo half duplex para evitar o eco. No modo half duplex, a comunicação pode passar apenas em uma direção por vez, semelhante a forma que os usuários revezam ao se comunicar com um walkie-talkie.</span><span class="sxs-lookup"><span data-stu-id="32e5c-p125">Percentage of the call that had to be conducted in half duplex mode in order to prevent echo. In half duplex mode, communication can travel in only one direction at a time, similar to the way users take turns when communicating with a walkie-talkie.</span></span></p></td>
+<td><p><span data-ttu-id="c1958-285"><strong>Tempo de troca da taxa de voz</strong></span><span class="sxs-lookup"><span data-stu-id="c1958-285"><strong>Ratio of voice switch time</strong></span></span></p></td>
+<td><p><span data-ttu-id="c1958-286">Sim</span><span class="sxs-lookup"><span data-stu-id="c1958-286">Yes</span></span></p></td>
+<td><p><span data-ttu-id="c1958-p125">Porcentagem da chamada que precisou ser conduzida no modo half duplex para evitar o eco. No modo half duplex, a comunicação pode passar apenas em uma direção por vez, semelhante a forma que os usuários revezam ao se comunicar com um walkie-talkie.</span><span class="sxs-lookup"><span data-stu-id="c1958-p125">Percentage of the call that had to be conducted in half duplex mode in order to prevent echo. In half duplex mode, communication can travel in only one direction at a time, similar to the way users take turns when communicating with a walkie-talkie.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="32e5c-289"><strong>Taxa de microfones não funcionando</strong></span><span class="sxs-lookup"><span data-stu-id="32e5c-289"><strong>Ratio of microphone not functioning</strong></span></span></p></td>
-<td><p><span data-ttu-id="32e5c-290">Sim</span><span class="sxs-lookup"><span data-stu-id="32e5c-290">Yes</span></span></p></td>
-<td><p><span data-ttu-id="32e5c-p126">Porcentagem da chamada na qual o dispositivo de captura não estava funcionando em um nível aceitável. Um valor alto sugere que os problemas de qualidade da chamada ocorreram devido principalmente ao dispositivo de captura não estar funcionando conforme esperado.</span><span class="sxs-lookup"><span data-stu-id="32e5c-p126">Percentage of the call in which the capture device was not functioning at an acceptable level. A high values suggests that quality issues with the call were primarily due to the capture device not working as expected.</span></span></p></td>
+<td><p><span data-ttu-id="c1958-289"><strong>Taxa de microfone não funcionando</strong></span><span class="sxs-lookup"><span data-stu-id="c1958-289"><strong>Ratio of microphone not functioning</strong></span></span></p></td>
+<td><p><span data-ttu-id="c1958-290">Sim</span><span class="sxs-lookup"><span data-stu-id="c1958-290">Yes</span></span></p></td>
+<td><p><span data-ttu-id="c1958-p126">Porcentagem da chamada na qual o dispositivo de captura não estava funcionando em um nível aceitável. Um valor alto sugere que os problemas de qualidade da chamada ocorreram devido principalmente ao dispositivo de captura não estar funcionando conforme esperado.</span><span class="sxs-lookup"><span data-stu-id="c1958-p126">Percentage of the call in which the capture device was not functioning at an acceptable level. A high values suggests that quality issues with the call were primarily due to the capture device not working as expected.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="32e5c-293"><strong>Taxa de alto falantes não funcionando</strong></span><span class="sxs-lookup"><span data-stu-id="32e5c-293"><strong>Ratio of speaker not functioning</strong></span></span></p></td>
-<td><p><span data-ttu-id="32e5c-294">Sim</span><span class="sxs-lookup"><span data-stu-id="32e5c-294">Yes</span></span></p></td>
-<td><p><span data-ttu-id="32e5c-p127">Porcentagem da chamada na qual o dispositivo de renderização não estava funcionando em um nível aceitável. Um valor alto sugere que os problemas de qualidade da chamada ocorreram devido principalmente ao dispositivo de renderização não estar funcionando conforme esperado.</span><span class="sxs-lookup"><span data-stu-id="32e5c-p127">Percentage of the call in which the render device was not functioning at an acceptable level. A high values suggests that quality issues with the call were primarily due to the render device not working as expected.</span></span></p></td>
+<td><p><span data-ttu-id="c1958-293"><strong>Taxa de alto falante não funcionando</strong></span><span class="sxs-lookup"><span data-stu-id="c1958-293"><strong>Ratio of speaker not functioning</strong></span></span></p></td>
+<td><p><span data-ttu-id="c1958-294">Sim</span><span class="sxs-lookup"><span data-stu-id="c1958-294">Yes</span></span></p></td>
+<td><p><span data-ttu-id="c1958-p127">Porcentagem da chamada na qual o dispositivo de renderização não estava funcionando em um nível aceitável. Um valor alto sugere que os problemas de qualidade da chamada ocorreram devido principalmente ao dispositivo de renderização não estar funcionando conforme esperado.</span><span class="sxs-lookup"><span data-stu-id="c1958-p127">Percentage of the call in which the render device was not functioning at an acceptable level. A high values suggests that quality issues with the call were primarily due to the render device not working as expected.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="32e5c-297"><strong>Chamadas com troca de voz (%)</strong></span><span class="sxs-lookup"><span data-stu-id="32e5c-297"><strong>Calls with voice switch (%)</strong></span></span></p></td>
-<td><p><span data-ttu-id="32e5c-298">Sim</span><span class="sxs-lookup"><span data-stu-id="32e5c-298">Yes</span></span></p></td>
-<td><p><span data-ttu-id="32e5c-p128">Porcentagem do total de chamadas que precisaram ser colocadas no modo half duplex. No modo half duplex, a comunicação pode passar apenas em uma direção por vez, semelhante a forma que os usuários revezam ao se comunicar com um walkie-talkie.</span><span class="sxs-lookup"><span data-stu-id="32e5c-p128">Percentage of the total calls which had to be placed into half duplex mode. In half duplex mode, communication can travel in only one direction at a time, similar to the way users take turns when communicating with a walkie-talkie.</span></span></p></td>
+<td><p><span data-ttu-id="c1958-297"><strong>Chamadas com opção de voz (%)</strong></span><span class="sxs-lookup"><span data-stu-id="c1958-297"><strong>Calls with voice switch (%)</strong></span></span></p></td>
+<td><p><span data-ttu-id="c1958-298">Sim</span><span class="sxs-lookup"><span data-stu-id="c1958-298">Yes</span></span></p></td>
+<td><p><span data-ttu-id="c1958-p128">Porcentagem do total de chamadas que precisaram ser colocadas no modo half duplex. No modo half duplex, a comunicação pode passar apenas em uma direção por vez, semelhante a forma que os usuários revezam ao se comunicar com um walkie-talkie.</span><span class="sxs-lookup"><span data-stu-id="c1958-p128">Percentage of the total calls which had to be placed into half duplex mode. In half duplex mode, communication can travel in only one direction at a time, similar to the way users take turns when communicating with a walkie-talkie.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="32e5c-301"><strong>Microfone com eco em (%)</strong></span><span class="sxs-lookup"><span data-stu-id="32e5c-301"><strong>Echo microphone in (%)</strong></span></span></p></td>
-<td><p><span data-ttu-id="32e5c-302">Sim</span><span class="sxs-lookup"><span data-stu-id="32e5c-302">Yes</span></span></p></td>
-<td><p><span data-ttu-id="32e5c-p129">Porcentagem de tempo em que o eco foi detectado no fluxo de captura do microfone. Normalmente, os valores são baixos para fones de ouvido ou celulares e mais altos para viva voz e auto falante. Para dispositivos que suportam cancelamento de eco acústico na placa, os altos níveis indicam vazamento de eco. Para outros dispositivos, essa métrica não deve ser utilizada para avaliar a qualidade do dispositivo.</span><span class="sxs-lookup"><span data-stu-id="32e5c-p129">Percentage of time when echo was detected in the microphone capture stream. Typically, values are low for headsets or handsets, and higher for speaker phones or stand-alone speakers. For devices that support on-board acoustic echo cancellation, high values indicate echo leak. For other devices, this metric should not be used to evaluate device quality.</span></span></p></td>
+<td><p><span data-ttu-id="c1958-301"><strong>Eco do microfone em (%)</strong></span><span class="sxs-lookup"><span data-stu-id="c1958-301"><strong>Echo microphone in (%)</strong></span></span></p></td>
+<td><p><span data-ttu-id="c1958-302">Sim</span><span class="sxs-lookup"><span data-stu-id="c1958-302">Yes</span></span></p></td>
+<td><p><span data-ttu-id="c1958-303">Porcentagem de tempo em que o eco foi detectado no fluxo de captura do microfone.</span><span class="sxs-lookup"><span data-stu-id="c1958-303">Percentage of time when echo was detected in the microphone capture stream.</span></span> <span data-ttu-id="c1958-304">Normalmente, os valores são baixos para fones de ouvido ou fones, e mais altos para telefones do alto-falante ou alto-falantes autônomos.</span><span class="sxs-lookup"><span data-stu-id="c1958-304">Typically, values are low for headsets or handsets, and higher for speaker phones or stand-alone speakers.</span></span> <span data-ttu-id="c1958-305">Para dispositivos que suportam cancelamento de eco acústico integrado, valores altos indicam vazamento de eco.</span><span class="sxs-lookup"><span data-stu-id="c1958-305">For devices that support on-board acoustic echo cancellation, high values indicate echo leak.</span></span> <span data-ttu-id="c1958-306">Para outros dispositivos, essa métrica não deve ser usada para avaliar a qualidade do dispositivo.</span><span class="sxs-lookup"><span data-stu-id="c1958-306">For other devices, this metric should not be used to evaluate device quality.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="32e5c-307"><strong>Envio de eco (%)</strong></span><span class="sxs-lookup"><span data-stu-id="32e5c-307"><strong>Echo send (%)</strong></span></span></p></td>
-<td><p><span data-ttu-id="32e5c-308">Sim</span><span class="sxs-lookup"><span data-stu-id="32e5c-308">Yes</span></span></p></td>
-<td><p><span data-ttu-id="32e5c-309">Porcentagem de eco transmitido para outros usuários.</span><span class="sxs-lookup"><span data-stu-id="32e5c-309">Percentage of echo transmitted to other users.</span></span></p></td>
+<td><p><span data-ttu-id="c1958-307"><strong>Envio de eco (%)</strong></span><span class="sxs-lookup"><span data-stu-id="c1958-307"><strong>Echo send (%)</strong></span></span></p></td>
+<td><p><span data-ttu-id="c1958-308">Sim</span><span class="sxs-lookup"><span data-stu-id="c1958-308">Yes</span></span></p></td>
+<td><p><span data-ttu-id="c1958-309">Porcentagem de eco transmitido para outros usuários.</span><span class="sxs-lookup"><span data-stu-id="c1958-309">Percentage of echo transmitted to other users.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="32e5c-310"><strong>Chamadas com eco (%)</strong></span><span class="sxs-lookup"><span data-stu-id="32e5c-310"><strong>Calls with echo (%)</strong></span></span></p></td>
-<td><p><span data-ttu-id="32e5c-311">Sim</span><span class="sxs-lookup"><span data-stu-id="32e5c-311">Yes</span></span></p></td>
-<td><p><span data-ttu-id="32e5c-312">Porcentagem do total de chamadas que tiveram eco excedendo o nível aceitável.</span><span class="sxs-lookup"><span data-stu-id="32e5c-312">Percentage of the total calls that had echo exceeding the acceptable level.</span></span></p></td>
+<td><p><span data-ttu-id="c1958-310"><strong>Chamadas com eco (%)</strong></span><span class="sxs-lookup"><span data-stu-id="c1958-310"><strong>Calls with echo (%)</strong></span></span></p></td>
+<td><p><span data-ttu-id="c1958-311">Sim</span><span class="sxs-lookup"><span data-stu-id="c1958-311">Yes</span></span></p></td>
+<td><p><span data-ttu-id="c1958-312">Porcentagem do total de chamadas que tiveram eco excedendo o nível aceitável.</span><span class="sxs-lookup"><span data-stu-id="c1958-312">Percentage of the total calls that had echo exceeding the acceptable level.</span></span></p></td>
 </tr>
 </tbody>
 </table>

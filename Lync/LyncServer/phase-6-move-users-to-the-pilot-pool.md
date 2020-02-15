@@ -12,20 +12,20 @@ ms:contentKeyID: 48184388
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 353f36d2ecb12823535e06fd137d7e9eaae06ae9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b70806985b6553049a2b632e633bbbac2f13fa69
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743611"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034171"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-6-move-users-to-the-pilot-pool"></a><span data-ttu-id="af1c5-102">Fase 6: mover usuários para o pool piloto</span><span class="sxs-lookup"><span data-stu-id="af1c5-102">Phase 6: Move users to the pilot pool</span></span>
+# <a name="phase-6-move-users-to-the-pilot-pool"></a><span data-ttu-id="b70e3-102">Fase 6: mover usuários para o pool piloto</span><span class="sxs-lookup"><span data-stu-id="b70e3-102">Phase 6: Move users to the pilot pool</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41743611"
 
 <span> </span>
 
-<span data-ttu-id="af1c5-103">_**Tópico da última modificação:** 2012-10-16_</span><span class="sxs-lookup"><span data-stu-id="af1c5-103">_**Topic Last Modified:** 2012-10-16_</span></span>
+<span data-ttu-id="b70e3-103">_**Última modificação do tópico:** 2012-10-16_</span><span class="sxs-lookup"><span data-stu-id="b70e3-103">_**Topic Last Modified:** 2012-10-16_</span></span>
 
-<span data-ttu-id="af1c5-104">Você pode mover um único usuário ou grupos de usuários para a nova implantação do Lync Server 2013 usando os dois métodos a seguir: painel de controle do Lync Server e Shell de gerenciamento do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="af1c5-104">You can move a single user or groups of users to the new Lync Server 2013 deployment using the following two methods: Lync Server Control Panel and Lync Server Management Shell.</span></span> <span data-ttu-id="af1c5-105">Os tópicos desta seção descrevem tarefas que você deve concluir durante a implantação piloto, bem como antes de mover a implantação do Lync Server 2013 de uma implantação piloto para uma implantação em nível de produção.</span><span class="sxs-lookup"><span data-stu-id="af1c5-105">The topics in this section describe tasks you must complete during pilot deployment, as well as prior to moving your deployment of Lync Server 2013 from a pilot deployment to a production-level deployment.</span></span>
+<span data-ttu-id="b70e3-104">Você pode mover um único usuário ou grupos de usuários para a nova implantação do Lync Server 2013 usando os dois métodos a seguir: painel de controle do Lync Server e Shell de gerenciamento do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="b70e3-104">You can move a single user or groups of users to the new Lync Server 2013 deployment using the following two methods: Lync Server Control Panel and Lync Server Management Shell.</span></span> <span data-ttu-id="b70e3-105">Os tópicos desta seção descrevem tarefas que você deve concluir durante a implantação piloto, bem como antes de mover sua implantação do Lync Server 2013 de uma implantação piloto para uma implantação no nível de produção.</span><span class="sxs-lookup"><span data-stu-id="b70e3-105">The topics in this section describe tasks you must complete during pilot deployment, as well as prior to moving your deployment of Lync Server 2013 from a pilot deployment to a production-level deployment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="af1c5-106">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="af1c5-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="b70e3-106">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="b70e3-106">In This Section</span></span>
 
-  - [<span data-ttu-id="af1c5-107">Verificar a conclusão da replicação de usuário</span><span class="sxs-lookup"><span data-stu-id="af1c5-107">Verify user replication has completed</span></span>](verify-user-replication-has-completed_1.md)
+  - [<span data-ttu-id="b70e3-107">Verificar se a replicação do usuário foi concluída</span><span class="sxs-lookup"><span data-stu-id="b70e3-107">Verify user replication has completed</span></span>](verify-user-replication-has-completed_1.md)
 
-  - [<span data-ttu-id="af1c5-108">Mover um único usuário para o pool piloto</span><span class="sxs-lookup"><span data-stu-id="af1c5-108">Move a single user to the pilot pool</span></span>](move-a-single-user-to-the-pilot-pool_1.md)
+  - [<span data-ttu-id="b70e3-108">Mover um único usuário para o pool piloto</span><span class="sxs-lookup"><span data-stu-id="b70e3-108">Move a single user to the pilot pool</span></span>](move-a-single-user-to-the-pilot-pool_1.md)
 
-  - [<span data-ttu-id="af1c5-109">Mover vários usuários para o pool piloto</span><span class="sxs-lookup"><span data-stu-id="af1c5-109">Move multiple users to the pilot pool</span></span>](move-multiple-users-to-the-pilot-pool_1.md)
+  - [<span data-ttu-id="b70e3-109">Mover vários usuários para o pool piloto</span><span class="sxs-lookup"><span data-stu-id="b70e3-109">Move multiple users to the pilot pool</span></span>](move-multiple-users-to-the-pilot-pool_1.md)
 
 </div>
 

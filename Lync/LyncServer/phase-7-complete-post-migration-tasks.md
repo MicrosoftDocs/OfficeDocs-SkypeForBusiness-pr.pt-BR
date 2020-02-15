@@ -1,5 +1,5 @@
 ---
-title: 'Fase 7: Concluir tarefas pós-migração'
+title: 'Fase 7: concluir tarefas de migração'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184485
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6eb1761688070e13e22057d1cbec339c87db0f4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c791bd363bce3a0bd553017bc16dd719fc7514ef
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757125"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034151"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-7-complete-post-migration-tasks"></a><span data-ttu-id="2caf9-102">Fase 7: Concluir tarefas pós-migração</span><span class="sxs-lookup"><span data-stu-id="2caf9-102">Phase 7: Complete post-migration tasks</span></span>
+# <a name="phase-7-complete-post-migration-tasks"></a><span data-ttu-id="a7ecd-102">Fase 7: concluir tarefas de migração</span><span class="sxs-lookup"><span data-stu-id="a7ecd-102">Phase 7: Complete post-migration tasks</span></span>
 
 </div>
 
@@ -35,39 +35,39 @@ ms.locfileid: "41757125"
 
 <span> </span>
 
-<span data-ttu-id="2caf9-103">_**Tópico da última modificação:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="2caf9-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="a7ecd-103">_**Última modificação do tópico:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="a7ecd-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="2caf9-104">Os tópicos desta seção descrevem as tarefas que você precisará executar após a conclusão da migração para o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2caf9-104">The topics in this section describe tasks that you will need to perform after you have completed your migration to Lync Server 2013.</span></span>
+<span data-ttu-id="a7ecd-104">Os tópicos desta seção descrevem as tarefas que você precisará realizar após a conclusão da migração para o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="a7ecd-104">The topics in this section describe tasks that you will need to perform after you have completed your migration to Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="2caf9-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="2caf9-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="a7ecd-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="a7ecd-105">In This Section</span></span>
 
-  - [<span data-ttu-id="2caf9-106">Migrar reuniões existentes e conteúdo de reunião</span><span class="sxs-lookup"><span data-stu-id="2caf9-106">Migrate existing meetings and meeting content</span></span>](migrate-existing-meetings-and-meeting-content.md)
+  - [<span data-ttu-id="a7ecd-106">Migrar reuniões existentes e conteúdo de reunião</span><span class="sxs-lookup"><span data-stu-id="a7ecd-106">Migrate existing meetings and meeting content</span></span>](migrate-existing-meetings-and-meeting-content.md)
 
-  - [<span data-ttu-id="2caf9-107">Migrar números de acesso de discagem</span><span class="sxs-lookup"><span data-stu-id="2caf9-107">Migrate dial-in access numbers</span></span>](migrate-dial-in-access-numbers.md)
+  - [<span data-ttu-id="a7ecd-107">Migrar números de acesso de discagem</span><span class="sxs-lookup"><span data-stu-id="a7ecd-107">Migrate dial-in access numbers</span></span>](migrate-dial-in-access-numbers.md)
 
-  - [<span data-ttu-id="2caf9-108">Migrar configurações do aplicativo do Estacionamento de Chamada</span><span class="sxs-lookup"><span data-stu-id="2caf9-108">Migrate Call Park application settings</span></span>](migrate-call-park-application-settings.md)
+  - [<span data-ttu-id="a7ecd-108">Migrar configurações de aplicativo de estacionamento de chamada</span><span class="sxs-lookup"><span data-stu-id="a7ecd-108">Migrate Call Park application settings</span></span>](migrate-call-park-application-settings.md)
 
-  - [<span data-ttu-id="2caf9-109">Migrar grupos de resposta</span><span class="sxs-lookup"><span data-stu-id="2caf9-109">Migrate response groups</span></span>](migrate-response-groups.md)
+  - [<span data-ttu-id="a7ecd-109">Migrar grupos de resposta</span><span class="sxs-lookup"><span data-stu-id="a7ecd-109">Migrate response groups</span></span>](migrate-response-groups.md)
 
-  - [<span data-ttu-id="2caf9-110">Migrar o Catálogo de endereços</span><span class="sxs-lookup"><span data-stu-id="2caf9-110">Migrate Address Book</span></span>](migrate-address-book.md)
+  - [<span data-ttu-id="a7ecd-110">Migrar o Catálogo de Endereços</span><span class="sxs-lookup"><span data-stu-id="a7ecd-110">Migrate Address Book</span></span>](migrate-address-book.md)
 
-  - [<span data-ttu-id="2caf9-111">Configurar a página de ingresso na reunião</span><span class="sxs-lookup"><span data-stu-id="2caf9-111">Configure the meeting join page</span></span>](configure-the-meeting-join-page.md)
+  - [<span data-ttu-id="a7ecd-111">Configurar a página de ingresso na reunião</span><span class="sxs-lookup"><span data-stu-id="a7ecd-111">Configure the meeting join page</span></span>](configure-the-meeting-join-page.md)
 
-  - [<span data-ttu-id="2caf9-112">Remover servidores de Arquivamento e de Monitoramento herdados</span><span class="sxs-lookup"><span data-stu-id="2caf9-112">Remove legacy Archiving and Monitoring servers</span></span>](remove-legacy-archiving-and-monitoring-servers.md)
+  - [<span data-ttu-id="a7ecd-112">Remover servidores de arquivamento e monitoramento herdados</span><span class="sxs-lookup"><span data-stu-id="a7ecd-112">Remove legacy Archiving and Monitoring servers</span></span>](remove-legacy-archiving-and-monitoring-servers.md)
 
-  - [<span data-ttu-id="2caf9-113">Configurar servidores de aplicativo confiáveis</span><span class="sxs-lookup"><span data-stu-id="2caf9-113">Configure trusted application servers</span></span>](configure-trusted-application-servers.md)
+  - [<span data-ttu-id="a7ecd-113">Configurar servidores de aplicativos confiáveis</span><span class="sxs-lookup"><span data-stu-id="a7ecd-113">Configure trusted application servers</span></span>](configure-trusted-application-servers.md)
 
-  - [<span data-ttu-id="2caf9-114">Implantar clientes do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2caf9-114">Deploy Lync Server 2013 clients</span></span>](deploy-lync-server-2013-clients.md)
+  - [<span data-ttu-id="a7ecd-114">Implantar clientes do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a7ecd-114">Deploy Lync Server 2013 clients</span></span>](deploy-lync-server-2013-clients.md)
 
-  - [<span data-ttu-id="2caf9-115">Conectar um aparelho de filial persistente</span><span class="sxs-lookup"><span data-stu-id="2caf9-115">Connect a Survivable Branch Appliance</span></span>](connect-a-survivable-branch-appliance.md)
+  - [<span data-ttu-id="a7ecd-115">Conectar um aparelho de filial persistente</span><span class="sxs-lookup"><span data-stu-id="a7ecd-115">Connect a Survivable Branch Appliance</span></span>](connect-a-survivable-branch-appliance.md)
 
-  - [<span data-ttu-id="2caf9-116">Configurar monitoramento SCOM</span><span class="sxs-lookup"><span data-stu-id="2caf9-116">Configure SCOM monitoring</span></span>](configure-scom-monitoring.md)
+  - [<span data-ttu-id="a7ecd-116">Configurar monitoramento do SCOM</span><span class="sxs-lookup"><span data-stu-id="a7ecd-116">Configure SCOM monitoring</span></span>](configure-scom-monitoring.md)
 
-  - [<span data-ttu-id="2caf9-117">Migrar telefones de área comum</span><span class="sxs-lookup"><span data-stu-id="2caf9-117">Migrate Common Area Phones</span></span>](migrate-common-area-phones.md)
+  - [<span data-ttu-id="a7ecd-117">Migrar telefones de área comum</span><span class="sxs-lookup"><span data-stu-id="a7ecd-117">Migrate Common Area Phones</span></span>](migrate-common-area-phones.md)
 
-  - [<span data-ttu-id="2caf9-118">Migrar dispositivos analógicos</span><span class="sxs-lookup"><span data-stu-id="2caf9-118">Migrate analog devices</span></span>](migrate-analog-devices.md)
+  - [<span data-ttu-id="a7ecd-118">Migrar dispositivos analógicos</span><span class="sxs-lookup"><span data-stu-id="a7ecd-118">Migrate analog devices</span></span>](migrate-analog-devices.md)
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184886
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 584d1c8391f0393711b2caf6de46a0df6c437c51
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cb1e0668ffc482b0c2987326aa2f09e1888e48bc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747651"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034733"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="port-requirements-for-lync-server-2013"></a><span data-ttu-id="baf07-102">Requisitos de porta para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="baf07-102">Port requirements for Lync Server 2013</span></span>
+# <a name="port-requirements-for-lync-server-2013"></a><span data-ttu-id="cea97-102">Requisitos de porta para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cea97-102">Port requirements for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "41747651"
 
 <span> </span>
 
-<span data-ttu-id="baf07-103">_**Tópico da última modificação:** 2013-03-27_</span><span class="sxs-lookup"><span data-stu-id="baf07-103">_**Topic Last Modified:** 2013-03-27_</span></span>
+<span data-ttu-id="cea97-103">_**Última modificação do tópico:** 2013-03-27_</span><span class="sxs-lookup"><span data-stu-id="cea97-103">_**Topic Last Modified:** 2013-03-27_</span></span>
 
-<span data-ttu-id="baf07-104">O Lync Server requer a abertura de portas específicas no firewall.</span><span class="sxs-lookup"><span data-stu-id="baf07-104">Lync Server requires that specific ports on the firewall be open.</span></span> <span data-ttu-id="baf07-105">Adicionalmente, se o protocolo IPsec (Internet Protocol security) tiver sido implantado em sua organização, ele deverá estar desabilitado no intervalo de portas usadas para a distribuição de áudio, vídeo e vídeo panorama.</span><span class="sxs-lookup"><span data-stu-id="baf07-105">Additionally, if Internet Protocol security (IPsec) is deployed in your organization, IPsec must be disabled over the range of ports used for the delivery of audio, video, and panorama video.</span></span>
+<span data-ttu-id="cea97-104">O Lync Server requer que determinadas portas no firewall estejam abertas.</span><span class="sxs-lookup"><span data-stu-id="cea97-104">Lync Server requires that specific ports on the firewall be open.</span></span> <span data-ttu-id="cea97-105">Além disso, se a segurança do protocolo Internet (IPsec) for implantada em sua organização, o IPsec deverá ser desabilitado no intervalo de portas usadas para a entrega de áudio, vídeo e vídeo panorâmico.</span><span class="sxs-lookup"><span data-stu-id="cea97-105">Additionally, if Internet Protocol security (IPsec) is deployed in your organization, IPsec must be disabled over the range of ports used for the delivery of audio, video, and panorama video.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="baf07-106">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="baf07-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="cea97-106">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="cea97-106">In This Section</span></span>
 
-<span data-ttu-id="baf07-107">Esta seção inclui os seguintes tópicos:</span><span class="sxs-lookup"><span data-stu-id="baf07-107">This section includes the following topics:</span></span>
+<span data-ttu-id="cea97-107">Esta seção inclui os seguintes tópicos:</span><span class="sxs-lookup"><span data-stu-id="cea97-107">This section includes the following topics:</span></span>
 
-  - [<span data-ttu-id="baf07-108">Portas e protocolos para servidores internos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="baf07-108">Ports and protocols for internal servers in Lync Server 2013</span></span>](lync-server-2013-ports-and-protocols-for-internal-servers.md)
+  - [<span data-ttu-id="cea97-108">Portas e protocolos para servidores internos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cea97-108">Ports and protocols for internal servers in Lync Server 2013</span></span>](lync-server-2013-ports-and-protocols-for-internal-servers.md)
 
-  - [<span data-ttu-id="baf07-109">Exceções de IPsec no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="baf07-109">IPsec exceptions in Lync Server 2013</span></span>](lync-server-2013-ipsec-exceptions.md)
+  - [<span data-ttu-id="cea97-109">Exceções de IPsec no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cea97-109">IPsec exceptions in Lync Server 2013</span></span>](lync-server-2013-ipsec-exceptions.md)
 
-  - [<span data-ttu-id="baf07-110">Resumo de porta - única borda consolidada com endereços IP privados usando NAT no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="baf07-110">Port summary - Single consolidated edge with private IP addresses using NAT in Lync Server 2013</span></span>](lync-server-2013-port-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)
+  - [<span data-ttu-id="cea97-110">Resumo de porta-borda consolidada única com endereços IP privados usando NAT no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cea97-110">Port summary - Single consolidated edge with private IP addresses using NAT in Lync Server 2013</span></span>](lync-server-2013-port-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)
 
-  - [<span data-ttu-id="baf07-111">Sumário de porta - única borda consolidada com endereços IP públicos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="baf07-111">Port summary - Single consolidated edge with public IP addresses in Lync Server 2013</span></span>](lync-server-2013-port-summary-single-consolidated-edge-with-public-ip-addresses.md)
+  - [<span data-ttu-id="cea97-111">Resumo de porta-borda consolidada única com endereços IP públicos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cea97-111">Port summary - Single consolidated edge with public IP addresses in Lync Server 2013</span></span>](lync-server-2013-port-summary-single-consolidated-edge-with-public-ip-addresses.md)
 
-  - [<span data-ttu-id="baf07-112">Resumo de porta - borda consolidada em escala, balanceamento de carga de DNS com endereços IP privados usando NAT no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="baf07-112">Port summary - Scaled consolidated edge, DNS load balancing with private IP addresses using NAT in Lync Server 2013</span></span>](lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+  - [<span data-ttu-id="cea97-112">Resumo de porta-borda consolidada em escala, balanceamento de carga de DNS com endereços IP privados usando NAT no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cea97-112">Port summary - Scaled consolidated edge, DNS load balancing with private IP addresses using NAT in Lync Server 2013</span></span>](lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
 
-  - [<span data-ttu-id="baf07-113">Resumo de porta - Borda consolidada em escala, balanceamento de carga de DNS com endereços IP públicos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="baf07-113">Port summary - Scaled consolidated edge, DNS load balancing with public IP addresses in Lync Server 2013</span></span>](lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+  - [<span data-ttu-id="cea97-113">Resumo de porta-borda consolidada em escala, balanceamento de carga de DNS com endereços IP públicos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cea97-113">Port summary - Scaled consolidated edge, DNS load balancing with public IP addresses in Lync Server 2013</span></span>](lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
 
-  - [<span data-ttu-id="baf07-114">Resumo de porta - borda consolidada em escala com balanceadores de carga de hardware no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="baf07-114">Port summary - Scaled consolidated edge with hardware load balancers in Lync Server 2013</span></span>](lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)
+  - [<span data-ttu-id="cea97-114">Resumo de porta-borda consolidada em escala com balanceadores de carga de hardware no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cea97-114">Port summary - Scaled consolidated edge with hardware load balancers in Lync Server 2013</span></span>](lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
-  - [<span data-ttu-id="baf07-115">Resumo de porta - Proxy reverso no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="baf07-115">Port summary - Reverse proxy in Lync Server 2013</span></span>](lync-server-2013-port-summary-reverse-proxy.md)
+  - [<span data-ttu-id="cea97-115">Resumo de porta-proxy reverso no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cea97-115">Port summary - Reverse proxy in Lync Server 2013</span></span>](lync-server-2013-port-summary-reverse-proxy.md)
 
-  - [<span data-ttu-id="baf07-116">Resumo da porta-SIP, Federação do XMPP e mensagens instantâneas públicas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="baf07-116">Port summary - SIP, XMPP federation, and public instant messaging in Lync Server 2013</span></span>](lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+  - [<span data-ttu-id="cea97-116">Resumo de porta-SIP, Federação XMPP e mensagens instantâneas públicas no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cea97-116">Port summary - SIP, XMPP federation, and public instant messaging in Lync Server 2013</span></span>](lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md)
 
 </div>
 

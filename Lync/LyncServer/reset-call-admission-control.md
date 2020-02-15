@@ -1,5 +1,5 @@
 ---
-title: Redefinir controle de admissão de chamada
+title: Redefinir controle de admissão de chamadas
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733658
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6956b1a871a4a0a5c7e758d2890a58989f5ac8a2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1c51eed6e5164316c2785ff5d560291afe58015c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726991"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035727"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="reset-call-admission-control"></a><span data-ttu-id="6a864-102">Redefinir controle de admissão de chamada</span><span class="sxs-lookup"><span data-stu-id="6a864-102">Reset call admission control</span></span>
+# <a name="reset-call-admission-control"></a><span data-ttu-id="dbc25-102">Redefinir controle de admissão de chamadas</span><span class="sxs-lookup"><span data-stu-id="dbc25-102">Reset call admission control</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41726991"
 
 <span> </span>
 
-<span data-ttu-id="6a864-103">_**Tópico da última modificação:** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="6a864-103">_**Topic Last Modified:** 2012-10-11_</span></span>
+<span data-ttu-id="dbc25-103">_**Última modificação do tópico:** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="dbc25-103">_**Topic Last Modified:** 2012-10-11_</span></span>
 
-<span data-ttu-id="6a864-104">Se um pool de front-end do Lync Server 2010 estiver hospedando o controle de admissão de chamadas (CAC), você deverá mover o hospedagem do CAC para um pool do Lync Server 2013 para poder remover o pool de front-ends do Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="6a864-104">If a Lync Server 2010 Front End pool is hosting call admission control (CAC), you must move CAC hosting to a Lync Server 2013 pool before you can remove the Lync Server 2010 Front End pool.</span></span>
+<span data-ttu-id="dbc25-104">Se um pool de front-ends do Lync Server 2010 estiver hospedando o CAC (controle de admissão de chamadas), você deve mover a hospedagem de CAC para um pool do Lync Server 2013 antes de poder remover o pool de front-ends do Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="dbc25-104">If a Lync Server 2010 Front End pool is hosting call admission control (CAC), you must move CAC hosting to a Lync Server 2013 pool before you can remove the Lync Server 2010 Front End pool.</span></span>
 
 <div>
 
-## <a name="to-reset-cac"></a><span data-ttu-id="6a864-105">Para redefinir o CAC</span><span class="sxs-lookup"><span data-stu-id="6a864-105">To reset CAC</span></span>
+## <a name="to-reset-cac"></a><span data-ttu-id="dbc25-105">Para redefinir o CAC</span><span class="sxs-lookup"><span data-stu-id="dbc25-105">To reset CAC</span></span>
 
-1.  <span data-ttu-id="6a864-106">Abrir o construtor de topologias.</span><span class="sxs-lookup"><span data-stu-id="6a864-106">Open Topology Builder.</span></span>
+1.  <span data-ttu-id="dbc25-106">Abra o Construtor de Topologia.</span><span class="sxs-lookup"><span data-stu-id="dbc25-106">Open Topology Builder.</span></span>
 
-2.  <span data-ttu-id="6a864-107">Clique com o botão direito do mouse no nó do site e, em seguida, clique em **Editar propriedades**.</span><span class="sxs-lookup"><span data-stu-id="6a864-107">Right-click the site node, and then click **Edit Properties**.</span></span>
+2.  <span data-ttu-id="dbc25-107">Clique com o botão direito no nó do site e, em seguida, clique em **Editar propriedades**.</span><span class="sxs-lookup"><span data-stu-id="dbc25-107">Right-click the site node, and then click **Edit Properties**.</span></span>
 
-3.  <span data-ttu-id="6a864-108">Em **configuração de controle de admissão de chamada**, verifique se a opção **habilitar controle de admissão de chamadas** está selecionada.</span><span class="sxs-lookup"><span data-stu-id="6a864-108">Under **Call Admission Control setting**, make sure **Enable Call Admission Control** is selected.</span></span>
+3.  <span data-ttu-id="dbc25-108">Em **Configuração de Controle de Admissão de Chamadas**, certifique-se de que a opção \*\* Habilitar controle de admissão de chamadas\*\* está selecionada.</span><span class="sxs-lookup"><span data-stu-id="dbc25-108">Under **Call Admission Control setting**, make sure **Enable Call Admission Control** is selected.</span></span>
 
-4.  <span data-ttu-id="6a864-109">Em **pool de front-ends para executar o controle de admissão de chamadas (CAC)**, selecione o pool do Lync Server 2013 para hospedar o CAC e, em seguida, clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="6a864-109">Under **Front End pool to run call admission control (CAC)**, select the Lync Server 2013 pool that is to host CAC, and then click **OK**.</span></span>
+4.  <span data-ttu-id="dbc25-109">Em **pool de front-ends para executar o CAC (controle de admissão de chamadas)**, selecione o pool do Lync Server 2013 que deve hospedar o CAC e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="dbc25-109">Under **Front End pool to run call admission control (CAC)**, select the Lync Server 2013 pool that is to host CAC, and then click **OK**.</span></span>
 
-5.  <span data-ttu-id="6a864-110">Publique a topologia.</span><span class="sxs-lookup"><span data-stu-id="6a864-110">Publish the topology.</span></span>
+5.  <span data-ttu-id="dbc25-110">Publique a topologia.</span><span class="sxs-lookup"><span data-stu-id="dbc25-110">Publish the topology.</span></span>
 
 </div>
 

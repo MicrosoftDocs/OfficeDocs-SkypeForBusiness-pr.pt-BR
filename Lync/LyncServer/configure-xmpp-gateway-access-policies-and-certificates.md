@@ -1,5 +1,5 @@
 ---
-title: Configurar políticas e certificados de acesso ao gateway de XMPP
+title: Configurar políticas e certificados de acesso ao Gateway XMPP
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -13,20 +13,20 @@ ms:contentKeyID: 49733882
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b1aab41b1a9af8c7b8df888dcb3a0c8621fa44e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e785b3f3df2e37bc7cdaaaccdb2e027652a0da36
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723231"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006577"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-xmpp-gateway-access-policies-and-certificates"></a><span data-ttu-id="31e86-102">Configurar políticas e certificados de acesso ao gateway de XMPP</span><span class="sxs-lookup"><span data-stu-id="31e86-102">Configure XMPP gateway access policies and certificates</span></span>
+# <a name="configure-xmpp-gateway-access-policies-and-certificates"></a><span data-ttu-id="40d4f-102">Configurar políticas e certificados de acesso ao Gateway XMPP</span><span class="sxs-lookup"><span data-stu-id="40d4f-102">Configure XMPP gateway access policies and certificates</span></span>
 
 </div>
 
@@ -36,21 +36,21 @@ ms.locfileid: "41723231"
 
 <span> </span>
 
-<span data-ttu-id="31e86-103">_**Tópico da última modificação:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="31e86-103">_**Topic Last Modified:** 2012-10-15_</span></span>
+<span data-ttu-id="40d4f-103">_**Última modificação do tópico:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="40d4f-103">_**Topic Last Modified:** 2012-10-15_</span></span>
 
-<span data-ttu-id="31e86-104">A Federação XMPP define uma implantação externa baseada no protocolo de mensagens extensíveis e presença (XMPP).</span><span class="sxs-lookup"><span data-stu-id="31e86-104">XMPP federation defines an external deployment based on the eXtensible Messaging and Presence Protocol (XMPP).</span></span> <span data-ttu-id="31e86-105">Uma configuração do XMPP permite que os usuários do Lync acessem usuários de domínio do XMPP:</span><span class="sxs-lookup"><span data-stu-id="31e86-105">An XMPP configuration allows Lync users access to XMPP domain users by:</span></span>
+<span data-ttu-id="40d4f-p101">A federação XMPP define uma implantação externa baseada no Protocolo de Presença e Mensagem eXtensible (XMPP). Uma configuração XMPP permite os usuários do Lync acessarem os usuários de domínio XMPP para:</span><span class="sxs-lookup"><span data-stu-id="40d4f-p101">XMPP federation defines an external deployment based on the eXtensible Messaging and Presence Protocol (XMPP). An XMPP configuration allows Lync users access to XMPP domain users by:</span></span>
 
-  - <span data-ttu-id="31e86-106">Mensagem instantânea e presença – pessoa para pessoa apenas</span><span class="sxs-lookup"><span data-stu-id="31e86-106">IM and Presence – person to person only</span></span>
+  - <span data-ttu-id="40d4f-106">IM e Presença – apenas pessoa para pessoa</span><span class="sxs-lookup"><span data-stu-id="40d4f-106">IM and Presence – person to person only</span></span>
 
-  - <span data-ttu-id="31e86-107">Criação de contatos federados do XMPP no cliente do Lync</span><span class="sxs-lookup"><span data-stu-id="31e86-107">Creation of XMPP federated contacts in the Lync client</span></span>
+  - <span data-ttu-id="40d4f-107">Criação de contatos federados XMPP no cliente Lync</span><span class="sxs-lookup"><span data-stu-id="40d4f-107">Creation of XMPP federated contacts in the Lync client</span></span>
 
-<span data-ttu-id="31e86-108">Quando você configura políticas para dar suporte a parceiros federados do protocolo de Unificação de mensagens e de protocolo de presença (XMPP), as políticas se aplicam a usuários de domínios federados XMPP, mas não aos usuários de provedores de serviços de mensagens instantâneas SIP (protocolo de iniciação de sessão) (por exemplo, Windows Live) ou domínios federados SIP.</span><span class="sxs-lookup"><span data-stu-id="31e86-108">When you configure policies for support of extensible messaging and presence protocol (XMPP) federated partners, the policies apply to users of XMPP federated domains, but not to users of session initiation protocol (SIP) instant messaging (IM) service providers (for example, Windows Live), or SIP federated domains.</span></span> <span data-ttu-id="31e86-109">Você configura um parceiro federado do XMPP para cada domínio federado XMPP que você deseja permitir que os usuários adicionem contatos e se comuniquem.</span><span class="sxs-lookup"><span data-stu-id="31e86-109">You configure an XMPP Federated Partner for each XMPP federated domain that you want to allow your users to add contacts and communicate with.</span></span> <span data-ttu-id="31e86-110">Depois que as políticas estiverem em vigor, você precisará configurar os certificados de gateway do XMPP.</span><span class="sxs-lookup"><span data-stu-id="31e86-110">Once the policies are in place, you need to configure the XMPP Gateway certificates.</span></span>
+<span data-ttu-id="40d4f-p102">Ao configurar políticas para suportar parceiros federados XMPP, as políticas para usuários dos domínios federados XMPP, mas não usuários de provedores de serviço de mensagem instantânea (IM) do SIP (por exemplo, Windows Live) ou domínios federados SIP. Você configura um Parceiro Federado XMPP para cada domínio federado XMPP que você deseja permitir seus usuários para adicionar contatos e comunicar-se com eles. Quando as políticas estiverem inseridas, você precisa configurar os certificados de Gateway XMPP.</span><span class="sxs-lookup"><span data-stu-id="40d4f-p102">When you configure policies for support of extensible messaging and presence protocol (XMPP) federated partners, the policies apply to users of XMPP federated domains, but not to users of session initiation protocol (SIP) instant messaging (IM) service providers (for example, Windows Live), or SIP federated domains. You configure an XMPP Federated Partner for each XMPP federated domain that you want to allow your users to add contacts and communicate with. Once the policies are in place, you need to configure the XMPP Gateway certificates.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="31e86-111">Para começar a migração do Gateway XMPP, você precisa implantar o Gateway XMPP do Lync Server 2013 e configurar políticas de acesso para permitir que os usuários do Lync Server 2013 XMPP gateway.</span><span class="sxs-lookup"><span data-stu-id="31e86-111">To begin the XMPP Gateway migration, you need to deploy the Lync Server 2013 XMPP Gateway, and configure access policies to enable users for Lync Server 2013 XMPP Gateway.</span></span> <span data-ttu-id="31e86-112">Todos os usuários devem ser movidos para a implantação do Lync Server 2013 antes de executar essas etapas.</span><span class="sxs-lookup"><span data-stu-id="31e86-112">All users must be moved to the Lync Server 2013 deployment before you perform these steps.</span></span> <span data-ttu-id="31e86-113">Para obter detalhes, consulte <A href="configure-xmpp-gateway-on-lync-server-2013.md">Configurar o Gateway XMPP no Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="31e86-113">For details, see <A href="configure-xmpp-gateway-on-lync-server-2013.md">Configure XMPP gateway on Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="40d4f-111">Para começar a migração de Gateway XMPP, você precisa implantar o Gateway XMPP do Lync Server 2013 e configurar as políticas de acesso para habilitar usuários para o gateway do Lync Server 2013 XMPP.</span><span class="sxs-lookup"><span data-stu-id="40d4f-111">To begin the XMPP Gateway migration, you need to deploy the Lync Server 2013 XMPP Gateway, and configure access policies to enable users for Lync Server 2013 XMPP Gateway.</span></span> <span data-ttu-id="40d4f-112">Todos os usuários devem ser movidos para a implantação do Lync Server 2013 antes de executar estas etapas.</span><span class="sxs-lookup"><span data-stu-id="40d4f-112">All users must be moved to the Lync Server 2013 deployment before you perform these steps.</span></span> <span data-ttu-id="40d4f-113">Para obter detalhes, consulte <A href="configure-xmpp-gateway-on-lync-server-2013.md">Configure XMPP gateway on Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="40d4f-113">For details, see <A href="configure-xmpp-gateway-on-lync-server-2013.md">Configure XMPP gateway on Lync Server 2013</A>.</span></span>
 
 
 
@@ -58,23 +58,23 @@ ms.locfileid: "41723231"
 
 <div>
 
-## <a name="configure-an-external-access-policy-to-enable-users-for-lync-server-2013-xmpp-gateway"></a><span data-ttu-id="31e86-114">Configurar uma política de acesso externo para permitir aos usuários do Lync Server 2013 XMPP gateway</span><span class="sxs-lookup"><span data-stu-id="31e86-114">Configure an External Access Policy to Enable Users for Lync Server 2013 XMPP Gateway</span></span>
+## <a name="configure-an-external-access-policy-to-enable-users-for-lync-server-2013-xmpp-gateway"></a><span data-ttu-id="40d4f-114">Configurar uma Política de acesso externo para habilitar usuários para o Gateway XMPP do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="40d4f-114">Configure an External Access Policy to Enable Users for Lync Server 2013 XMPP Gateway</span></span>
 
-1.  <span data-ttu-id="31e86-115">Abra o Painel de Controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="31e86-115">Open Lync Server Control Panel.</span></span>
+1.  <span data-ttu-id="40d4f-115">Abra o Painel de Controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="40d4f-115">Open Lync Server Control Panel.</span></span>
 
-2.  <span data-ttu-id="31e86-116">Na barra de navegação à esquerda, clique em **Federação e acesso externo**e, em seguida, clique em **política de acesso externo**.</span><span class="sxs-lookup"><span data-stu-id="31e86-116">In the left navigation bar, click **Federation and External Access**, and then click **External Access Policy**.</span></span>
+2.  <span data-ttu-id="40d4f-116">Na barra de navegação esquerda, clique em **Acesso externo e Federação** e em **Política de acesso externo**.</span><span class="sxs-lookup"><span data-stu-id="40d4f-116">In the left navigation bar, click **Federation and External Access**, and then click **External Access Policy**.</span></span>
 
-3.  <span data-ttu-id="31e86-117">Clique em **novo** e, em seguida, clique em **política de usuário**.</span><span class="sxs-lookup"><span data-stu-id="31e86-117">Click **New** and then click **User policy**.</span></span>
+3.  <span data-ttu-id="40d4f-117">Clique em **Novo** e em **Política do usuário**.</span><span class="sxs-lookup"><span data-stu-id="40d4f-117">Click **New** and then click **User policy**.</span></span>
 
-4.  <span data-ttu-id="31e86-118">Digite um nome para a política de usuário de acesso externo.</span><span class="sxs-lookup"><span data-stu-id="31e86-118">Enter a name for the external access user policy.</span></span>
+4.  <span data-ttu-id="40d4f-118">Insira um nome para a política de usuário de acesso externo.</span><span class="sxs-lookup"><span data-stu-id="40d4f-118">Enter a name for the external access user policy.</span></span>
 
-5.  <span data-ttu-id="31e86-119">Forneça uma descrição para a política de usuário de acesso externo.</span><span class="sxs-lookup"><span data-stu-id="31e86-119">Provide a description for external access user policy.</span></span>
+5.  <span data-ttu-id="40d4f-119">Ofereça uma descrição para a política do usuário de acesso externo.</span><span class="sxs-lookup"><span data-stu-id="40d4f-119">Provide a description for external access user policy.</span></span>
 
-6.  <span data-ttu-id="31e86-120">Selecione **habilitar comunicações com usuários federados**.</span><span class="sxs-lookup"><span data-stu-id="31e86-120">Select **Enable communications with federated users**.</span></span>
+6.  <span data-ttu-id="40d4f-120">Selecione **Habilitar comunicações com usuários federados**.</span><span class="sxs-lookup"><span data-stu-id="40d4f-120">Select **Enable communications with federated users**.</span></span>
 
-7.  <span data-ttu-id="31e86-121">Selecione **habilitar comunicações com usuários federados do XMPP**.</span><span class="sxs-lookup"><span data-stu-id="31e86-121">Select **Enable communications with XMPP federated users**.</span></span>
+7.  <span data-ttu-id="40d4f-121">Selecione **Habilitar comunicações com usuários federados XMPP**.</span><span class="sxs-lookup"><span data-stu-id="40d4f-121">Select **Enable communications with XMPP federated users**.</span></span>
 
-8.  <span data-ttu-id="31e86-122">Clique em **confirmar** para salvar as alterações no site ou na política de usuário.</span><span class="sxs-lookup"><span data-stu-id="31e86-122">Click **Commit** to save your changes to the site or user policy.</span></span>
+8.  <span data-ttu-id="40d4f-122">Clique em **Confirmar** para salvar suas alterações na política de usuário ou local.</span><span class="sxs-lookup"><span data-stu-id="40d4f-122">Click **Commit** to save your changes to the site or user policy.</span></span>
 
 </div>
 

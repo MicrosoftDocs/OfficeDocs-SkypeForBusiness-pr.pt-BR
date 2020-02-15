@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: exibir informações sobre as configurações de notificação por push'
+title: 'Lync Server 2013: exibindo informações sobre configurações de notificação de push'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733801
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 22d79d16980c29907aa4e254d4be7eaee2fcfaae
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c74bbc90b0b7ef27da6b38b626fc91bc04383685
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757335"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007140"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="viewing-information-about-push-notification-settings-in-lync-server-2013"></a><span data-ttu-id="21fce-102">Exibir informações sobre as configurações de notificação por push no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="21fce-102">Viewing information about push notification settings in Lync Server 2013</span></span>
+# <a name="viewing-information-about-push-notification-settings-in-lync-server-2013"></a><span data-ttu-id="cebc2-102">Exibindo informações sobre configurações de notificação por push no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cebc2-102">Viewing information about push notification settings in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,39 +35,39 @@ ms.locfileid: "41757335"
 
 <span> </span>
 
-<span data-ttu-id="21fce-103">_**Tópico da última modificação:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="21fce-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+<span data-ttu-id="cebc2-103">_**Última modificação do tópico:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="cebc2-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-<span data-ttu-id="21fce-104">As notificações por push, na forma de selos, ícones ou alertas, podem ser enviadas para um dispositivo móvel mesmo quando o aplicativo móvel estiver inativo.</span><span class="sxs-lookup"><span data-stu-id="21fce-104">Push notifications, in the form of badges, icons, or alerts, can be sent to a mobile device even when the mobile application is inactive.</span></span> <span data-ttu-id="21fce-105">As notificações por push notificam um usuário de eventos como um convite de mensagem instantânea novo ou perdido e caixa postal.</span><span class="sxs-lookup"><span data-stu-id="21fce-105">Push notifications notify a user of events such as a new or missed IM invitation and voice mail.</span></span> <span data-ttu-id="21fce-106">Você pode visualizar as configurações de notificações por push de informações para dispositivos móveis usando o painel de controle do Lync Server 2013 ou o Shell de gerenciamento do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="21fce-106">You can view information push notifications settings for mobile devices by using either Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
+<span data-ttu-id="cebc2-104">Notificações por push, na forma de selos, ícones ou alertas, podem ser enviadas a um dispositivo móvel mesmo quando o aplicativo móvel está inativo.</span><span class="sxs-lookup"><span data-stu-id="cebc2-104">Push notifications, in the form of badges, icons, or alerts, can be sent to a mobile device even when the mobile application is inactive.</span></span> <span data-ttu-id="cebc2-105">As notificações de push notificam um usuário de eventos como um convite de IM novo ou perdido e caixa postal.</span><span class="sxs-lookup"><span data-stu-id="cebc2-105">Push notifications notify a user of events such as a new or missed IM invitation and voice mail.</span></span> <span data-ttu-id="cebc2-106">Você pode exibir as configurações de notificações por push de informações para dispositivos móveis usando o painel de controle do Lync Server 2013 ou o Shell de gerenciamento do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="cebc2-106">You can view information push notifications settings for mobile devices by using either Lync Server 2013 Control Panel or Lync Server 2013 Management Shell.</span></span>
 
 <div>
 
-## <a name="to-view-push-notification-information-from-lync-server-control-panel"></a><span data-ttu-id="21fce-107">Para exibir as informações de notificação por push no painel de controle do Lync Server</span><span class="sxs-lookup"><span data-stu-id="21fce-107">To view push notification information from Lync Server Control Panel</span></span>
+## <a name="to-view-push-notification-information-from-lync-server-control-panel"></a><span data-ttu-id="cebc2-107">Para exibir informações de notificação por push no painel de controle do Lync Server</span><span class="sxs-lookup"><span data-stu-id="cebc2-107">To view push notification information from Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="21fce-108">Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.</span><span class="sxs-lookup"><span data-stu-id="21fce-108">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="cebc2-108">Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.</span><span class="sxs-lookup"><span data-stu-id="cebc2-108">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="21fce-109">Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="21fce-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="21fce-110">Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="21fce-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="cebc2-109">Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="cebc2-109">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="cebc2-110">Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="cebc2-110">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="21fce-111">Na barra de navegação à esquerda, clique em **clientes**e, em seguida, clique no botão de navegação **configuração por push de notificação** .</span><span class="sxs-lookup"><span data-stu-id="21fce-111">In the left navigation bar, click **Clients**, and then click the **Push Notification Configuration** navigation button.</span></span>
+3.  <span data-ttu-id="cebc2-111">Na barra de navegação esquerda, clique em **Clientes** e no botão de navegação **Configuração de notificação de push**.</span><span class="sxs-lookup"><span data-stu-id="cebc2-111">In the left navigation bar, click **Clients**, and then click the **Push Notification Configuration** navigation button.</span></span>
 
-4.  <span data-ttu-id="21fce-112">Na página **configuração de notificação por push** , clique no site que você deseja exibir, clique no menu **Editar** e, em seguida, clique em **Mostrar detalhes**.</span><span class="sxs-lookup"><span data-stu-id="21fce-112">On the **Push Notification Configuration** page, click the site you want to view, click the **Edit** menu, and then click **Show details**.</span></span>
+4.  <span data-ttu-id="cebc2-112">Na página **configuração de notificação por push** , clique no site que você deseja exibir, clique no menu **Editar** e, em seguida, clique em **Mostrar detalhes**.</span><span class="sxs-lookup"><span data-stu-id="cebc2-112">On the **Push Notification Configuration** page, click the site you want to view, click the **Edit** menu, and then click **Show details**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="viewing-push-notification-information-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="21fce-113">Exibir informações de notificação por push usando cmdlets do Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="21fce-113">Viewing Push Notification Information by Using Windows PowerShell Cmdlets</span></span>
+## <a name="viewing-push-notification-information-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="cebc2-113">Exibindo informações de notificação por push usando cmdlets do Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="cebc2-113">Viewing Push Notification Information by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="21fce-114">Você pode exibir as configurações de notificação por push usando o Windows PowerShell e o cmdlet **Get-CsPushNotificationConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="21fce-114">You can view push notification configuration settings by using Windows PowerShell and the **Get-CsPushNotificationConfiguration** cmdlet.</span></span> <span data-ttu-id="21fce-115">Você pode executar esse cmdlet a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="21fce-115">You can run this cmdlet either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="21fce-116">Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.</span><span class="sxs-lookup"><span data-stu-id="21fce-116">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="cebc2-114">Você pode exibir as definições de configuração de notificação por push usando o Windows PowerShell e o cmdlet **Get-CsPushNotificationConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="cebc2-114">You can view push notification configuration settings by using Windows PowerShell and the **Get-CsPushNotificationConfiguration** cmdlet.</span></span> <span data-ttu-id="cebc2-115">Você pode executar esse cmdlet do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="cebc2-115">You can run this cmdlet either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="cebc2-116">Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.</span><span class="sxs-lookup"><span data-stu-id="cebc2-116">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-view-push-notification-configuration-information"></a><span data-ttu-id="21fce-117">Para exibir informações de configuração de notificação por push</span><span class="sxs-lookup"><span data-stu-id="21fce-117">To view push notification configuration information</span></span>
+## <a name="to-view-push-notification-configuration-information"></a><span data-ttu-id="cebc2-117">Para exibir informações de configuração de notificação de push</span><span class="sxs-lookup"><span data-stu-id="cebc2-117">To view push notification configuration information</span></span>
 
-  - <span data-ttu-id="21fce-118">Para ver as informações sobre todas as suas configurações de notificação por push, digite o seguinte comando no Shell de gerenciamento do Lync Server e pressione ENTER:</span><span class="sxs-lookup"><span data-stu-id="21fce-118">To view information about all your push notification configuration settings, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
+  - <span data-ttu-id="cebc2-118">Para exibir informações sobre todas as suas definições de configuração de notificação por push, digite o seguinte comando no Shell de gerenciamento do Lync Server e pressione ENTER:</span><span class="sxs-lookup"><span data-stu-id="cebc2-118">To view information about all your push notification configuration settings, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
     
         Get-CsPushNotificationConfiguration
     
-    <span data-ttu-id="21fce-119">Isso retornará informações parecidas com:</span><span class="sxs-lookup"><span data-stu-id="21fce-119">That will return information similar to this:</span></span>
+    <span data-ttu-id="cebc2-119">Isto retorna informações semelhantes à seguinte:</span><span class="sxs-lookup"><span data-stu-id="cebc2-119">That will return information similar to this:</span></span>
     
         Identity                               : Global
         EnableApplePushNotificationService     : False
@@ -75,16 +75,16 @@ ms.locfileid: "41757335"
 
 </div>
 
-<span data-ttu-id="21fce-120">Para obter mais informações, consulte o tópico da ajuda para o cmdlet [Get-CsPushNotificationConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsPushNotificationConfiguration) .</span><span class="sxs-lookup"><span data-stu-id="21fce-120">For more information, see the help topic for the [Get-CsPushNotificationConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsPushNotificationConfiguration) cmdlet.</span></span>
+<span data-ttu-id="cebc2-120">Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Get-CsPushNotificationConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsPushNotificationConfiguration).</span><span class="sxs-lookup"><span data-stu-id="cebc2-120">For more information, see the help topic for the [Get-CsPushNotificationConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsPushNotificationConfiguration) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="21fce-121">Confira também</span><span class="sxs-lookup"><span data-stu-id="21fce-121">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cebc2-121">Confira também</span><span class="sxs-lookup"><span data-stu-id="cebc2-121">See Also</span></span>
 
 
-[<span data-ttu-id="21fce-122">Configurando notificações por push no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="21fce-122">Configuring for push notifications in Lync Server 2013</span></span>](lync-server-2013-configuring-for-push-notifications.md)  
+[<span data-ttu-id="cebc2-122">Configurando notificações por push no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cebc2-122">Configuring for push notifications in Lync Server 2013</span></span>](lync-server-2013-configuring-for-push-notifications.md)  
   
 
 </div>

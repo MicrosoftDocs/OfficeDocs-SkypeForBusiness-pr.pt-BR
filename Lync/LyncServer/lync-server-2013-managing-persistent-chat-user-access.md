@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Gerenciando acesso do usuário de Chat Persistente'
+title: 'Lync Server 2013: gerenciando acesso do usuário de chat persistente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184211
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9b8c775321cd8eca1be350a3894f0430ced0a74
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 71dde683fed5f1127efd0a966d0de61dcaef65cb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756115"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41992966"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-persistent-chat-user-access-in-lync-server-2013"></a><span data-ttu-id="cbd78-102">Gerenciando acesso do usuário de Chat Persistente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cbd78-102">Managing Persistent Chat user access in Lync Server 2013</span></span>
+# <a name="managing-persistent-chat-user-access-in-lync-server-2013"></a><span data-ttu-id="e0a7a-102">Gerenciando o acesso de usuário de chat persistente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e0a7a-102">Managing Persistent Chat user access in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41756115"
 
 <span> </span>
 
-<span data-ttu-id="cbd78-103">_**Tópico da última modificação:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="cbd78-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="e0a7a-103">_**Última modificação do tópico:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="e0a7a-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="cbd78-104">Os tópicos a seguir descrevem como usar o painel de controle do Lync Server 2013 e a página de **chat persistente** para gerenciar o acesso do usuário em chat persistente.</span><span class="sxs-lookup"><span data-stu-id="cbd78-104">The following topics describe how to use the Lync Server 2013 Control Panel and the **Persistent Chat** page to manage user access in Persistent Chat.</span></span> <span data-ttu-id="cbd78-105">Para gerenciar o servidor de chat persistente, você deve ter direitos e permissões de administrador de chat persistente no sistema.</span><span class="sxs-lookup"><span data-stu-id="cbd78-105">To manage Persistent Chat Server, you must have Persistent Chat administrator rights and permissions in the system.</span></span> <span data-ttu-id="cbd78-106">Ao instalar o servidor de chat persistente, você especifica um ou mais usuários que têm as permissões e direitos de administrador de chat persistente necessários.</span><span class="sxs-lookup"><span data-stu-id="cbd78-106">When you install Persistent Chat Server, you specify one or more users who have the necessary Persistent Chat administrator rights and permissions.</span></span> <span data-ttu-id="cbd78-107">Para conceder direitos e permissões de administrador a contas de usuário adicionais, use **gerenciar usuários e grupos de usuários**.</span><span class="sxs-lookup"><span data-stu-id="cbd78-107">To grant administrator rights and permissions to additional user accounts, use **Manage Users and User Groups**.</span></span> <span data-ttu-id="cbd78-108">Para obter detalhes, consulte [habilitando um usuário para gerenciar categorias, salas de chat e direitos e permissões de usuário no Lync Server 2013](lync-server-2013-enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="cbd78-108">For details, see [Enabling a user to manage categories, chat rooms, and user rights and permissions in Lync Server 2013](lync-server-2013-enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions.md).</span></span>
+<span data-ttu-id="e0a7a-104">Os tópicos a seguir descrevem como usar o painel de controle do Lync Server 2013 e a página de **chat persistente** para gerenciar o acesso do usuário em chat persistente.</span><span class="sxs-lookup"><span data-stu-id="e0a7a-104">The following topics describe how to use the Lync Server 2013 Control Panel and the **Persistent Chat** page to manage user access in Persistent Chat.</span></span> <span data-ttu-id="e0a7a-105">Para gerenciar o servidor de chat persistente, você deve ter permissões e direitos de administrador de chat persistente no sistema.</span><span class="sxs-lookup"><span data-stu-id="e0a7a-105">To manage Persistent Chat Server, you must have Persistent Chat administrator rights and permissions in the system.</span></span> <span data-ttu-id="e0a7a-106">Ao instalar o servidor de chat persistente, você especifica um ou mais usuários que têm as permissões e os direitos de administrador de chat persistente necessários.</span><span class="sxs-lookup"><span data-stu-id="e0a7a-106">When you install Persistent Chat Server, you specify one or more users who have the necessary Persistent Chat administrator rights and permissions.</span></span> <span data-ttu-id="e0a7a-107">Para conceder direitos e permissões de administrador a contas de usuário adicionais, use **Gerenciar Usuários e Grupos de Usuários**.</span><span class="sxs-lookup"><span data-stu-id="e0a7a-107">To grant administrator rights and permissions to additional user accounts, use **Manage Users and User Groups**.</span></span> <span data-ttu-id="e0a7a-108">Para obter detalhes, consulte [habilitar um usuário para gerenciar categorias, salas de chat e direitos e permissões de usuário no Lync Server 2013](lync-server-2013-enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="e0a7a-108">For details, see [Enabling a user to manage categories, chat rooms, and user rights and permissions in Lync Server 2013](lync-server-2013-enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions.md).</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="cbd78-109">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="cbd78-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="e0a7a-109">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="e0a7a-109">In This Section</span></span>
 
-  - [<span data-ttu-id="cbd78-110">Adicionando domínios de usuários e grupos de usuários à categoria da sala no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cbd78-110">Adding domains of users and user groups to the room category in Lync Server 2013</span></span>](lync-server-2013-adding-domains-of-users-and-user-groups-to-the-room-category.md)
+  - [<span data-ttu-id="e0a7a-110">Adicionando domínios de usuários e grupos de usuários à categoria de sala no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e0a7a-110">Adding domains of users and user groups to the room category in Lync Server 2013</span></span>](lync-server-2013-adding-domains-of-users-and-user-groups-to-the-room-category.md)
 
-  - [<span data-ttu-id="cbd78-111">Desabilitando o carregamento e o download de arquivos em salas de chat no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cbd78-111">Disabling uploading and downloading files in chat rooms in Lync Server 2013</span></span>](lync-server-2013-disabling-uploading-and-downloading-files-in-chat-rooms.md)
+  - [<span data-ttu-id="e0a7a-111">Desabilitando o carregamento e o download de arquivos em salas de chat no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e0a7a-111">Disabling uploading and downloading files in chat rooms in Lync Server 2013</span></span>](lync-server-2013-disabling-uploading-and-downloading-files-in-chat-rooms.md)
 
-  - [<span data-ttu-id="cbd78-112">Habilitando um usuário para gerenciar categorias, salas de chat e direitos e permissções do usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cbd78-112">Enabling a user to manage categories, chat rooms, and user rights and permissions in Lync Server 2013</span></span>](lync-server-2013-enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions.md)
+  - [<span data-ttu-id="e0a7a-112">Habilitando um usuário para gerenciar categorias, salas de chat e direitos e permissões de usuário no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e0a7a-112">Enabling a user to manage categories, chat rooms, and user rights and permissions in Lync Server 2013</span></span>](lync-server-2013-enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions.md)
 
 </div>
 
