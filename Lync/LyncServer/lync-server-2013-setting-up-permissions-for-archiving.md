@@ -12,20 +12,20 @@ ms:contentKeyID: 48184364
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b414b468763fea555608108d75f37fd794fabfa1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3e87201b328be1d279ce98898560fa9cf8c23d71
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732201"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040880"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-permissions-for-archiving-in-lync-server-2013"></a><span data-ttu-id="30abf-102">Configurar permissões para arquivamento no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="30abf-102">Setting up permissions for Archiving in Lync Server 2013</span></span>
+# <a name="setting-up-permissions-for-archiving-in-lync-server-2013"></a><span data-ttu-id="cce42-102">Configurando permissões para arquivamento no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cce42-102">Setting up permissions for Archiving in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41732201"
 
 <span> </span>
 
-<span data-ttu-id="30abf-103">_**Tópico da última modificação:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="30abf-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="cce42-103">_**Última modificação do tópico:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="cce42-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="30abf-104">No Lync Server 2013, as tarefas específicas ainda exigem que os usuários que executam essas tarefas sejam membros de um ou mais grupos específicos.</span><span class="sxs-lookup"><span data-stu-id="30abf-104">In Lync Server 2013, specific tasks still require that users who perform those tasks be members of one or more specific groups.</span></span> <span data-ttu-id="30abf-105">No entanto, você também pode usar o controle de acesso baseado em função (RBAC) para conceder privilégios atribuindo usuários a funções administrativas predefinidas do Lync Server. Antes de implantar o arquivamento, certifique-se de que os direitos de usuário e permissões adequados estejam em vigor e que todos os usuários que você deseja atribuir a uma função RBAC específica foram atribuídos a essa função.</span><span class="sxs-lookup"><span data-stu-id="30abf-105">However, you can also use role-based access control (RBAC) to grant privileges by assigning users to predefined Lync Server administrative roles.Before you deploy Archiving, be sure that the appropriate user rights and permissions are in place, and that any users who you want to assign to a specific RBAC role have been assigned to that role.</span></span> <span data-ttu-id="30abf-106">Para obter detalhes sobre os direitos do usuário, as permissões e as funções para a implantação do suporte para arquivamento, consulte [lista de verificação de implantação para o arquivamento no Lync Server 2013](lync-server-2013-deployment-checklist-for-archiving.md), que está disponível na documentação de planejamento e na documentação de implantação.</span><span class="sxs-lookup"><span data-stu-id="30abf-106">For details about the user rights, permissions, and roles for deploying support for Archiving, see [Deployment checklist for Archiving in Lync Server 2013](lync-server-2013-deployment-checklist-for-archiving.md), which is available in the Planning documentation and the Deployment documentation.</span></span> <span data-ttu-id="30abf-107">Para obter detalhes sobre o RBAC, consulte [planejar o controle de acesso baseado em função no Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md) na documentação de planejamento.</span><span class="sxs-lookup"><span data-stu-id="30abf-107">For details about RBAC, see [Planning for role-based access control in Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md) in the Planning documentation.</span></span>
+<span data-ttu-id="cce42-104">No Lync Server 2013, as tarefas específicas ainda exigem que os usuários que executam essas tarefas sejam membros de um ou mais grupos específicos.</span><span class="sxs-lookup"><span data-stu-id="cce42-104">In Lync Server 2013, specific tasks still require that users who perform those tasks be members of one or more specific groups.</span></span> <span data-ttu-id="cce42-105">No entanto, você também pode usar o controle de acesso baseado em função (RBAC) para conceder privilégios, atribuindo usuários a funções administrativas predefinidas do Lync Server. Antes de implantar o arquivamento, certifique-se de que os direitos e permissões do usuário adequados estejam no local e que qualquer usuário que você deseja atribuir a uma função RBAC específica tenha sido atribuído a essa função.</span><span class="sxs-lookup"><span data-stu-id="cce42-105">However, you can also use role-based access control (RBAC) to grant privileges by assigning users to predefined Lync Server administrative roles.Before you deploy Archiving, be sure that the appropriate user rights and permissions are in place, and that any users who you want to assign to a specific RBAC role have been assigned to that role.</span></span> <span data-ttu-id="cce42-106">Para obter detalhes sobre os direitos, as permissões e as funções do usuário para a implantação do suporte para arquivamento, consulte [Deployment Checklist for Archiving in Lync Server 2013](lync-server-2013-deployment-checklist-for-archiving.md), disponível na documentação de planejamento e na documentação de implantação.</span><span class="sxs-lookup"><span data-stu-id="cce42-106">For details about the user rights, permissions, and roles for deploying support for Archiving, see [Deployment checklist for Archiving in Lync Server 2013](lync-server-2013-deployment-checklist-for-archiving.md), which is available in the Planning documentation and the Deployment documentation.</span></span> <span data-ttu-id="cce42-107">Para obter detalhes sobre o RBAC, consulte [Planning for Role-Based Access Control in Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md) na documentação de planejamento.</span><span class="sxs-lookup"><span data-stu-id="cce42-107">For details about RBAC, see [Planning for role-based access control in Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md) in the Planning documentation.</span></span>
 
 </div>
 
