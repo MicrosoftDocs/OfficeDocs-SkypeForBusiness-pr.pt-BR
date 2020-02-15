@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabela Roles'
+title: 'Lync Server 2013: tabela de funções'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 251b266d18be3b472f4a22a635d134f6fe3dc77e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d3c241f685e9acc24b82acab1c7f50e1e15754b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732961"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050813"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="roles-table-in-lync-server-2013"></a><span data-ttu-id="0255d-102">Tabela Roles no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0255d-102">Roles table in Lync Server 2013</span></span>
+# <a name="roles-table-in-lync-server-2013"></a><span data-ttu-id="cd732-102">Tabela de funções no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cd732-102">Roles table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41732961"
 
 <span> </span>
 
-<span data-ttu-id="0255d-103">_**Tópico da última modificação:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="0255d-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="cd732-103">_**Última modificação do tópico:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="cd732-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="0255d-104">A tabela de funções é uma tabela estática que armazena a lista de possíveis funções de conferência, como participante e apresentador.</span><span class="sxs-lookup"><span data-stu-id="0255d-104">The Roles table is a static table that stores the list of possible conference roles, such as attendee and presenter.</span></span>
+<span data-ttu-id="cd732-104">A tabela Roles é uma tabela estática que armazena a lista de possíveis funções de conferência, como participante e apresentador.</span><span class="sxs-lookup"><span data-stu-id="cd732-104">The Roles table is a static table that stores the list of possible conference roles, such as attendee and presenter.</span></span>
 
 
 <table>
@@ -49,28 +49,28 @@ ms.locfileid: "41732961"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="0255d-105">Coluna</span><span class="sxs-lookup"><span data-stu-id="0255d-105">Column</span></span></th>
-<th><span data-ttu-id="0255d-106">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="0255d-106">Data Type</span></span></th>
-<th><span data-ttu-id="0255d-107">Chave/índice</span><span class="sxs-lookup"><span data-stu-id="0255d-107">Key/Index</span></span></th>
-<th><span data-ttu-id="0255d-108">Detalhes</span><span class="sxs-lookup"><span data-stu-id="0255d-108">Details</span></span></th>
+<th><span data-ttu-id="cd732-105">Coluna</span><span class="sxs-lookup"><span data-stu-id="cd732-105">Column</span></span></th>
+<th><span data-ttu-id="cd732-106">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="cd732-106">Data Type</span></span></th>
+<th><span data-ttu-id="cd732-107">Chave/índice</span><span class="sxs-lookup"><span data-stu-id="cd732-107">Key/Index</span></span></th>
+<th><span data-ttu-id="cd732-108">Detalhes</span><span class="sxs-lookup"><span data-stu-id="cd732-108">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="0255d-109"><strong>RoleID</strong></span><span class="sxs-lookup"><span data-stu-id="0255d-109"><strong>RoleId</strong></span></span></p></td>
-<td><p><span data-ttu-id="0255d-110">tinyint</span><span class="sxs-lookup"><span data-stu-id="0255d-110">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="0255d-111">Primária</span><span class="sxs-lookup"><span data-stu-id="0255d-111">Primary</span></span></p></td>
+<td><p><span data-ttu-id="cd732-109"><strong>RoleId</strong></span><span class="sxs-lookup"><span data-stu-id="cd732-109"><strong>RoleId</strong></span></span></p></td>
+<td><p><span data-ttu-id="cd732-110">tinyint</span><span class="sxs-lookup"><span data-stu-id="cd732-110">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="cd732-111">Primário</span><span class="sxs-lookup"><span data-stu-id="cd732-111">Primary</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="0255d-112"><strong>Função</strong></span><span class="sxs-lookup"><span data-stu-id="0255d-112"><strong>Role</strong></span></span></p></td>
-<td><p><span data-ttu-id="0255d-113">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="0255d-113">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="cd732-112"><strong>Função</strong></span><span class="sxs-lookup"><span data-stu-id="cd732-112"><strong>Role</strong></span></span></p></td>
+<td><p><span data-ttu-id="cd732-113">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="cd732-113">nvarchar(256)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="0255d-114">Valores permitidos:</span><span class="sxs-lookup"><span data-stu-id="0255d-114">Allowed values:</span></span></p>
+<td><p><span data-ttu-id="cd732-114">Valores permitidos:</span><span class="sxs-lookup"><span data-stu-id="cd732-114">Allowed values:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="0255d-115">0-desconhecido</span><span class="sxs-lookup"><span data-stu-id="0255d-115">0 - Unknown</span></span></p></li>
-<li><p><span data-ttu-id="0255d-116">1-apresentador</span><span class="sxs-lookup"><span data-stu-id="0255d-116">1 - Presenter</span></span></p></li>
-<li><p><span data-ttu-id="0255d-117">2 participantes</span><span class="sxs-lookup"><span data-stu-id="0255d-117">2 - Attendee</span></span></p></li>
+<li><p><span data-ttu-id="cd732-115">0 - Desconhecido</span><span class="sxs-lookup"><span data-stu-id="cd732-115">0 - Unknown</span></span></p></li>
+<li><p><span data-ttu-id="cd732-116">1 - Apresentador</span><span class="sxs-lookup"><span data-stu-id="cd732-116">1 - Presenter</span></span></p></li>
+<li><p><span data-ttu-id="cd732-117">2 - Participante</span><span class="sxs-lookup"><span data-stu-id="cd732-117">2 - Attendee</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Habilitando e desabilitando usuários do Lync Server'
+title: 'Lync Server 2013: Habilitando e desabilitando usuários para o Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733698
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da4624a682899befa4ff8d780c0d9a6d6646279c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 02a66ead4e88b6a8460ab728fecbd3f21be03141
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735851"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046324"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enabling-and-disabling-users-for-lync-server-2013"></a><span data-ttu-id="c432a-102">Habilitando e desabilitando usuários do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c432a-102">Enabling and disabling users for Lync Server 2013</span></span>
+# <a name="enabling-and-disabling-users-for-lync-server-2013"></a><span data-ttu-id="f340f-102">Habilitando e desabilitando usuários para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f340f-102">Enabling and disabling users for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,30 +35,30 @@ ms.locfileid: "41735851"
 
 <span> </span>
 
-<span data-ttu-id="c432a-103">_**Tópico da última modificação:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="c432a-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="f340f-103">_**Última modificação do tópico:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="f340f-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="c432a-104">Você pode habilitar, desabilitar ou remover temporariamente usuários do Active Directory do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c432a-104">You can enable, temporarily disable, or remove Active Directory users from Lync Server 2013.</span></span>
+<span data-ttu-id="f340f-104">Você pode habilitar, desabilitar temporariamente ou remover usuários do Active Directory do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f340f-104">You can enable, temporarily disable, or remove Active Directory users from Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="c432a-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="c432a-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="f340f-105">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="f340f-105">In This Section</span></span>
 
-  - [<span data-ttu-id="c432a-106">Adicionar e habilitar a conta de usuário para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c432a-106">Add and enable user account for Lync Server 2013</span></span>](lync-server-2013-add-and-enable-user-account-for-lync-server.md)
+  - [<span data-ttu-id="f340f-106">Adicionar e habilitar a conta de usuário para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f340f-106">Add and enable user account for Lync Server 2013</span></span>](lync-server-2013-add-and-enable-user-account-for-lync-server.md)
 
-  - [<span data-ttu-id="c432a-107">Desabilitar ou habilitar novamente a conta de usuário para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c432a-107">Disable or re-enable user account for Lync Server 2013</span></span>](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)
+  - [<span data-ttu-id="f340f-107">Desabilitar ou reabilitar a conta de usuário do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f340f-107">Disable or re-enable user account for Lync Server 2013</span></span>](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)
 
-  - [<span data-ttu-id="c432a-108">Remover uma conta de usuário do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c432a-108">Remove a user account from Lync Server 2013</span></span>](lync-server-2013-remove-a-user-account-from-lync-server.md)
+  - [<span data-ttu-id="f340f-108">Remover uma conta de usuário do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f340f-108">Remove a user account from Lync Server 2013</span></span>](lync-server-2013-remove-a-user-account-from-lync-server.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="c432a-109">Confira também</span><span class="sxs-lookup"><span data-stu-id="c432a-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f340f-109">Confira também</span><span class="sxs-lookup"><span data-stu-id="f340f-109">See Also</span></span>
 
 
-[<span data-ttu-id="c432a-110">Gerenciando usuários no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c432a-110">Managing users in Lync Server 2013</span></span>](lync-server-2013-managing-users-in-lync-server.md)  
-[<span data-ttu-id="c432a-111">Enable-CsUser</span><span class="sxs-lookup"><span data-stu-id="c432a-111">Enable-CsUser</span></span>](https://docs.microsoft.com/powershell/module/skype/Enable-CsUser)  
-[<span data-ttu-id="c432a-112">Disable-CsUser</span><span class="sxs-lookup"><span data-stu-id="c432a-112">Disable-CsUser</span></span>](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser)  
+[<span data-ttu-id="f340f-110">Gerenciando usuários no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f340f-110">Managing users in Lync Server 2013</span></span>](lync-server-2013-managing-users-in-lync-server.md)  
+[<span data-ttu-id="f340f-111">Enable-CsUser</span><span class="sxs-lookup"><span data-stu-id="f340f-111">Enable-CsUser</span></span>](https://docs.microsoft.com/powershell/module/skype/Enable-CsUser)  
+[<span data-ttu-id="f340f-112">Disable-CsUser</span><span class="sxs-lookup"><span data-stu-id="f340f-112">Disable-CsUser</span></span>](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser)  
   
 
 </div>

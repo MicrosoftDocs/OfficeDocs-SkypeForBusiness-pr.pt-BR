@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Novos recursos de gerenciamento e de administração'
+title: 'Lync Server 2013: novos recursos de gerenciamento e administração'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184476
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29efac93e5f041172b6d05c4fafec96a56834978
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7b2b45dd3d48298012bfea5b26345cd2230d72e3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765349"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048325"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-management-and-administration-features-in-lync-server-2013"></a><span data-ttu-id="2dc9c-102">Novos recursos de gerenciamento e de administração no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2dc9c-102">New management and administration features in Lync Server 2013</span></span>
+# <a name="new-management-and-administration-features-in-lync-server-2013"></a><span data-ttu-id="44069-102">Novos recursos de gerenciamento e administração no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="44069-102">New management and administration features in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41765349"
 
 <span> </span>
 
-<span data-ttu-id="2dc9c-103">_**Tópico da última modificação:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="2dc9c-103">_**Topic Last Modified:** 2012-09-26_</span></span>
+<span data-ttu-id="44069-103">_**Última modificação do tópico:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="44069-103">_**Topic Last Modified:** 2012-09-26_</span></span>
 
-<span data-ttu-id="2dc9c-104">O Lync Server 2013 inclui os seguintes novos recursos para simplificar a tarefa de gerenciamento da implantação.</span><span class="sxs-lookup"><span data-stu-id="2dc9c-104">Lync Server 2013 includes the following new features to simplify the task of managing your deployment.</span></span>
+<span data-ttu-id="44069-104">O Lync Server 2013 inclui os novos recursos a seguir para simplificar a tarefa de gerenciamento da implantação.</span><span class="sxs-lookup"><span data-stu-id="44069-104">Lync Server 2013 includes the following new features to simplify the task of managing your deployment.</span></span>
 
-  - [<span data-ttu-id="2dc9c-105">Construtor de Topologia suporta espelhamento do SQL Server no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2dc9c-105">Topology Builder supports SQL Server mirroring in Lync Server 2013</span></span>](lync-server-2013-topology-builder-supports-sql-server-mirroring.md)
+  - [<span data-ttu-id="44069-105">O construtor de topologias suporta o espelhamento do SQL Server no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="44069-105">Topology Builder supports SQL Server mirroring in Lync Server 2013</span></span>](lync-server-2013-topology-builder-supports-sql-server-mirroring.md)
 
-  - [<span data-ttu-id="2dc9c-106">Novos recursos de controle de acesso baseado em função no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2dc9c-106">New role based access control features in Lync Server 2013</span></span>](lync-server-2013-has-new-role-based-access-control-features.md)
+  - [<span data-ttu-id="44069-106">Novos recursos de controle de acesso baseado em função no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="44069-106">New role based access control features in Lync Server 2013</span></span>](lync-server-2013-has-new-role-based-access-control-features.md)
 
-  - [<span data-ttu-id="2dc9c-107">Integração de ferramentas de gerenciamento de Chat Persistente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2dc9c-107">Integration of Persistent Chat management tools in Lync Server 2013</span></span>](lync-server-2013-integration-of-persistent-chat-management-tools.md)
+  - [<span data-ttu-id="44069-107">Integração de ferramentas de gerenciamento de chat persistente no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="44069-107">Integration of Persistent Chat management tools in Lync Server 2013</span></span>](lync-server-2013-integration-of-persistent-chat-management-tools.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Reduzindo as IMs não solicitadas'
+title: 'Lync Server 2013: reduzindo mensagens instantâneas não solicitadas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 62625493
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0f8326d6fa9f85b202e0ea2dcbe3fed63a723aa
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5574930d6474a75ca4a35219df7cd2e3e2431b15
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724441"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050123"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="reducing-unsolicited-im-for-lync-server-2013"></a><span data-ttu-id="ff910-102">Reduzindo as IMs não solicitadas para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ff910-102">Reducing unsolicited IM for Lync Server 2013</span></span>
+# <a name="reducing-unsolicited-im-for-lync-server-2013"></a><span data-ttu-id="18717-102">Reduzindo mensagens instantâneas não solicitadas para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="18717-102">Reducing unsolicited IM for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41724441"
 
 <span> </span>
 
-<span data-ttu-id="ff910-103">_**Tópico da última modificação:** 2013-12-05_</span><span class="sxs-lookup"><span data-stu-id="ff910-103">_**Topic Last Modified:** 2013-12-05_</span></span>
+<span data-ttu-id="18717-103">_**Última modificação do tópico:** 2013-12-05_</span><span class="sxs-lookup"><span data-stu-id="18717-103">_**Topic Last Modified:** 2013-12-05_</span></span>
 
-<span data-ttu-id="ff910-104">O aplicativo filtro de mensagens instantâneas inteligente ajuda a proteger a implantação do Microsoft Lync Server 2013 contra os vírus mais comuns com o mínimo de degradação para a experiência do usuário.</span><span class="sxs-lookup"><span data-stu-id="ff910-104">The Intelligent IM Filter application helps protect your Microsoft Lync Server 2013 deployment against the most common viruses with minimal degradation to the user experience.</span></span> <span data-ttu-id="ff910-105">O filtro de IM inteligente fornece o seguinte:</span><span class="sxs-lookup"><span data-stu-id="ff910-105">The Intelligent IM Filter provides the following:</span></span>
+<span data-ttu-id="18717-104">O aplicativo de filtro de IM inteligente ajuda a proteger sua implantação do Microsoft Lync Server 2013 contra os vírus mais comuns com menor degradação para a experiência do usuário.</span><span class="sxs-lookup"><span data-stu-id="18717-104">The Intelligent IM Filter application helps protect your Microsoft Lync Server 2013 deployment against the most common viruses with minimal degradation to the user experience.</span></span> <span data-ttu-id="18717-105">O  Filtro de IM Inteligente oferece o seguinte:</span><span class="sxs-lookup"><span data-stu-id="18717-105">The Intelligent IM Filter provides the following:</span></span>
 
-  - <span data-ttu-id="ff910-106">Filtragem de URL aprimorada</span><span class="sxs-lookup"><span data-stu-id="ff910-106">Enhanced URL filtering</span></span>
+  - <span data-ttu-id="18717-106">Filtragem avançada de URL</span><span class="sxs-lookup"><span data-stu-id="18717-106">Enhanced URL filtering</span></span>
 
-  - <span data-ttu-id="ff910-107">Filtragem de transferência de arquivo aprimorada</span><span class="sxs-lookup"><span data-stu-id="ff910-107">Enhanced file transfer filtering</span></span>
+  - <span data-ttu-id="18717-107">Filtragem avançada de transferência de arquivo</span><span class="sxs-lookup"><span data-stu-id="18717-107">Enhanced file transfer filtering</span></span>
 
-<span data-ttu-id="ff910-108">Use o filtro de IM inteligente para configurar filtros para bloquear mensagens instantâneas não solicitadas ou perigosas de pontos de extremidade desconhecidos fora do firewall corporativo.</span><span class="sxs-lookup"><span data-stu-id="ff910-108">Use Intelligent IM Filter to configure filters to block unsolicited or potentially harmful instant messages from unknown endpoints outside the corporate firewall.</span></span> <span data-ttu-id="ff910-109">Você pode configurar filtros especificando os critérios a serem usados para determinar o que deve ser bloqueado, como mensagens instantâneas contendo hiperlinks e arquivos com extensões específicas.</span><span class="sxs-lookup"><span data-stu-id="ff910-109">You configure filters by specifying the criteria to be used to determine what should be blocked, such as instant messages containing hyperlinks and files with specific extensions.</span></span>
+<span data-ttu-id="18717-p102">Use o Filtro de IM Inteligente para configurar filtros para bloquear as mensagens instantâneas não solicitadas ou potencialmente prejudiciais de pontos de extremidade desconhecidos externos ao firewall corporativo. Os filtros são configurados especificando os critérios a ser usados para determinar o que deve ser bloqueado, como as mensagens instantâneas contendo hyperlinks e arquivos com extensões específicas.</span><span class="sxs-lookup"><span data-stu-id="18717-p102">Use Intelligent IM Filter to configure filters to block unsolicited or potentially harmful instant messages from unknown endpoints outside the corporate firewall. You configure filters by specifying the criteria to be used to determine what should be blocked, such as instant messages containing hyperlinks and files with specific extensions.</span></span>
 
-<span data-ttu-id="ff910-110">Antes de implantar o aplicativo inteligente de filtro de mensagem instantânea, você deve entender como as opções de filtragem são aplicadas quando as mensagens são roteadas de um servidor do Lync Server 2013 para outro.</span><span class="sxs-lookup"><span data-stu-id="ff910-110">Before you deploy the Intelligent IM Message Filter application, you should understand how filtering options are applied when messages are routed from one Lync Server 2013 server to another.</span></span> <span data-ttu-id="ff910-111">A maneira como essas opções de filtragem são consistentes é consistente, independentemente de os servidores estarem localizados em uma única organização ou entre fronteiras organizacionais.</span><span class="sxs-lookup"><span data-stu-id="ff910-111">The way these filtering options are applied is consistent, regardless of whether the servers are located in a single organization or across organizational boundaries.</span></span> <span data-ttu-id="ff910-112">Essa consistência se aplica à maneira como o aviso personalizado e o texto de aviso são inseridos em mensagens e enviados entre servidores.</span><span class="sxs-lookup"><span data-stu-id="ff910-112">This consistency applies to the way that the customized notice, and warning texts are inserted into messages and sent across servers.</span></span>
+<span data-ttu-id="18717-110">Antes de implantar o aplicativo inteligente de filtro de mensagens INSTANTÂNEAs, você deve entender como as opções de filtragem são aplicadas quando as mensagens são roteadas de um servidor do Lync Server 2013 para outro.</span><span class="sxs-lookup"><span data-stu-id="18717-110">Before you deploy the Intelligent IM Message Filter application, you should understand how filtering options are applied when messages are routed from one Lync Server 2013 server to another.</span></span> <span data-ttu-id="18717-111">A forma como estas opções de filtragem são aplicadas é consistente, independentemente de se os servidores estão localizados em uma única organização ou entre fronteiras organizacionais.</span><span class="sxs-lookup"><span data-stu-id="18717-111">The way these filtering options are applied is consistent, regardless of whether the servers are located in a single organization or across organizational boundaries.</span></span> <span data-ttu-id="18717-112">Essa consistência se aplica à forma como o aviso personalizado e os textos de aviso são inseridos em mensagens e enviados através de servidores.</span><span class="sxs-lookup"><span data-stu-id="18717-112">This consistency applies to the way that the customized notice, and warning texts are inserted into messages and sent across servers.</span></span>
 
-<span data-ttu-id="ff910-113">A opção de filtragem recomendada é permitir mensagens de chat com hiperlinks, mas exigir o filtro de mensagem instantânea inteligente para desabilitar o link, inserindo um sublinhado antes dele.</span><span class="sxs-lookup"><span data-stu-id="ff910-113">The recommended filtering option is to allow instant messages with hyperlinks but require the Intelligent IM Filter to disable the link by inserting an underscore before it.</span></span> <span data-ttu-id="ff910-114">Se você escolher essa opção, terá a opção adicional de compor um aviso para os usuários que aparecem no início de cada mensagem instantânea que contém um hiperlink.</span><span class="sxs-lookup"><span data-stu-id="ff910-114">If you choose this option, you have the additional option of composing a notice to users that appears at the beginning of each instant message that contains a hyperlink.</span></span>
+<span data-ttu-id="18717-p104">A opção de filtragem recomendada é de permitir as mensagens instantâneas com hiperlinks, mas exigir que o Filtro de IM Inteligente desabilite o vínculo, inserindo um sublinhado antes dele. Se você escolher esta opção, existe a opção adicional de redigir um aviso aos usuários que aparece no início de cada mensagem instantânea que contém um hiperlink.</span><span class="sxs-lookup"><span data-stu-id="18717-p104">The recommended filtering option is to allow instant messages with hyperlinks but require the Intelligent IM Filter to disable the link by inserting an underscore before it. If you choose this option, you have the additional option of composing a notice to users that appears at the beginning of each instant message that contains a hyperlink.</span></span>
 
-<span data-ttu-id="ff910-115">Uma segunda opção de filtragem é permitir mensagens instantâneas com hiperlinks não modificados.</span><span class="sxs-lookup"><span data-stu-id="ff910-115">A second filtering option is to allow instant messages with unmodified hyperlinks.</span></span> <span data-ttu-id="ff910-116">Se você escolher essa opção, terá a opção adicional (recomendado) de compor um aviso para os usuários que são inseridos em cada mensagem.</span><span class="sxs-lookup"><span data-stu-id="ff910-116">If you choose this option, you have the additional option (recommended) of composing a warning to users that is inserted in each message.</span></span>
+<span data-ttu-id="18717-p105">Uma segunda opção de filtragem é permitir as mensagens instantâneas com hiperlinks não modificados. Se você escolher esta opção, existe a opção adicional (recomendada) de redigir um aviso aos usuários que é inserido em cada mensagem.</span><span class="sxs-lookup"><span data-stu-id="18717-p105">A second filtering option is to allow instant messages with unmodified hyperlinks. If you choose this option, you have the additional option (recommended) of composing a warning to users that is inserted in each message.</span></span>
 
-<span data-ttu-id="ff910-117">Uma terceira opção é bloquear todas as mensagens instantâneas que contenham hiperlinks.</span><span class="sxs-lookup"><span data-stu-id="ff910-117">A third option is to block all instant messages that contain hyperlinks.</span></span> <span data-ttu-id="ff910-118">Se você escolher essa opção, o servidor enviará um aviso ao usuário.</span><span class="sxs-lookup"><span data-stu-id="ff910-118">If you choose this option, the server sends a warning to the user.</span></span> <span data-ttu-id="ff910-119">Você deve escrever este aviso.</span><span class="sxs-lookup"><span data-stu-id="ff910-119">You must write this warning.</span></span>
+<span data-ttu-id="18717-p106">Uma terceira opção é bloquear todas as mensagens instantâneas que contêm hiperlinks. Se você escolher essa opção, o servidor envia um aviso ao usuário. Você deve escrever este aviso.</span><span class="sxs-lookup"><span data-stu-id="18717-p106">A third option is to block all instant messages that contain hyperlinks. If you choose this option, the server sends a warning to the user. You must write this warning.</span></span>
 
 </div>
 

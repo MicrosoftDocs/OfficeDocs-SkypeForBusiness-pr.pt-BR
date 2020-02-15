@@ -1,5 +1,5 @@
 ---
-title: Migração de usuários
+title: Migração de usuário
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185056
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2fec27e51722eea889c7256e6cbb777481b9016
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 494ef02b232891eedf9b42a15a7db03b8cdc175b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738601"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048892"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="user-migration"></a><span data-ttu-id="ebcc7-102">Migração de usuários</span><span class="sxs-lookup"><span data-stu-id="ebcc7-102">User migration</span></span>
+# <a name="user-migration"></a><span data-ttu-id="42a6e-102">Migração de usuário</span><span class="sxs-lookup"><span data-stu-id="42a6e-102">User migration</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41738601"
 
 <span> </span>
 
-<span data-ttu-id="ebcc7-103">_**Tópico da última modificação:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="ebcc7-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+<span data-ttu-id="42a6e-103">_**Última modificação do tópico:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="42a6e-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-<span data-ttu-id="ebcc7-104">Uma prática recomendada geralmente aceita para migrações é criar vários usuários de teste e usá-los para conduzir testes de sistemas.</span><span class="sxs-lookup"><span data-stu-id="ebcc7-104">A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests.</span></span> <span data-ttu-id="ebcc7-105">Depois de mover e testar com êxito essas contas, você deve identificar um grupo de usuários de produção piloto e mover suas contas e conduzir testes de validação.</span><span class="sxs-lookup"><span data-stu-id="ebcc7-105">After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them.</span></span> <span data-ttu-id="ebcc7-106">Quando obtiver resultados satisfatórios, você poderá mover o restante dos usuários para a nova implantação.</span><span class="sxs-lookup"><span data-stu-id="ebcc7-106">When you get satisfactory results, you can move the rest of your users to the new deployment.</span></span>
+<span data-ttu-id="42a6e-p101">Uma prática recomendada normalmente aceita para migração é criar vários usuários de teste e utilizá-los para conduzir testes de sistema. Após mover e testar com êxito essas contas, identifique um grupo de usuários de produção piloto e mova suas contas e realize testes de validação nelas. Quando os resultados estiverem satisfatórios, você poderá mover o restante dos usuários para a nova implantação.</span><span class="sxs-lookup"><span data-stu-id="42a6e-p101">A generally accepted best practice for migrations is to create several test users and use them to conduct systems tests. After you have successfully moved and tested those accounts, you should identify a group of pilot production users and move their accounts and conduct validation tests on them. When you get satisfactory results, you can move the rest of your users to the new deployment.</span></span>
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: separar calendário de reunião'
+title: 'Lync Server 2013: calendário de reunião grande separado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184095
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6ed3e1e50ab140aea6481e92519660f91bf7e8e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 16fc5bab09e4485378657a299853d5323e3789ef
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764889"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048812"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="separate-large-meeting-calendar-in-lync-server-2013"></a><span data-ttu-id="0d49f-102">Calendário de reunião grande separado no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0d49f-102">Separate large-meeting calendar in Lync Server 2013</span></span>
+# <a name="separate-large-meeting-calendar-in-lync-server-2013"></a><span data-ttu-id="2d336-102">Calendário de reunião grande separado no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2d336-102">Separate large-meeting calendar in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764889"
 
 <span> </span>
 
-<span data-ttu-id="0d49f-103">_**Tópico da última modificação:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="0d49f-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="2d336-103">_**Última modificação do tópico:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="2d336-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="0d49f-104">Para cada pool de reunião maior, você deve manter um calendário separado de reuniões grandes agendadas nesse pool.</span><span class="sxs-lookup"><span data-stu-id="0d49f-104">For each large-meeting pool, you should maintain a separate a calendar of large meetings scheduled on that pool.</span></span> <span data-ttu-id="0d49f-105">Por exemplo, você pode usar uma única conta de usuário no pool de reunião grande e usar o Outlook com o Exchange e o suplemento de reunião online para o Lync 2013 para manter um calendário separado.</span><span class="sxs-lookup"><span data-stu-id="0d49f-105">For example, you can home a single user account on the large-meeting pool and use Outlook with Exchange and Online Meeting Add-in for Lync 2013 to maintain a separate calendar.</span></span> <span data-ttu-id="0d49f-106">Se você utilizar várias contas de usuário para habilitar uma equipe de suporte para criar reuniões grandes, será necessário configurar um calendário separado que agregue todas as reuniões grandes criadas pelos membros da equipe de suporte.</span><span class="sxs-lookup"><span data-stu-id="0d49f-106">If you use multiple user accounts to enable a support staff to create large meetings, you can set up a separate calendar that aggregates all large meetings created by the members of the support staff.</span></span>
+<span data-ttu-id="2d336-104">Para cada pool de reunião grande, você deve manter um calendário de reuniões grandes agendadas separado nesse pool.</span><span class="sxs-lookup"><span data-stu-id="2d336-104">For each large-meeting pool, you should maintain a separate a calendar of large meetings scheduled on that pool.</span></span> <span data-ttu-id="2d336-105">Por exemplo, você pode hospedar uma única conta de usuário no pool de grandes reuniões e usar o Outlook com o Exchange e o suplemento de reunião online para o Lync 2013 para manter um calendário separado.</span><span class="sxs-lookup"><span data-stu-id="2d336-105">For example, you can home a single user account on the large-meeting pool and use Outlook with Exchange and Online Meeting Add-in for Lync 2013 to maintain a separate calendar.</span></span> <span data-ttu-id="2d336-106">Se você utilizar várias contas de usuário para habilitar uma equipe de suporte para criar reuniões grandes, será necessário configurar um calendário separado que agregue todas as reuniões grandes criadas pelos membros da equipe de suporte.</span><span class="sxs-lookup"><span data-stu-id="2d336-106">If you use multiple user accounts to enable a support staff to create large meetings, you can set up a separate calendar that aggregates all large meetings created by the members of the support staff.</span></span>
 
-<span data-ttu-id="0d49f-107">Manter um calendário de reunião grande separado ajuda a prevenir conflitos e garante que somente uma reunião grande esteja ativa por vez.</span><span class="sxs-lookup"><span data-stu-id="0d49f-107">Maintaining a separate large meeting calendar helps to prevent conflicts and ensure that only one large meeting is active at any time.</span></span>
+<span data-ttu-id="2d336-107">Manter um calendário de reunião grande separado ajuda a prevenir conflitos e garante que somente uma reunião grande esteja ativa por vez.</span><span class="sxs-lookup"><span data-stu-id="2d336-107">Maintaining a separate large meeting calendar helps to prevent conflicts and ensure that only one large meeting is active at any time.</span></span>
 
 </div>
 

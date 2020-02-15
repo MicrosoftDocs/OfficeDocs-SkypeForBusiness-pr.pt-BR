@@ -12,20 +12,20 @@ ms:contentKeyID: 48185230
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f63f20dc0ae80584c1eac4489a07925e90fe3e29
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 388adb28a2b484afadb4a02b21d3ab0a57b3f567
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726501"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049783"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-archiving-options-for-a-pool-in-lync-server-2013"></a><span data-ttu-id="0c8b0-102">Configurando opções de arquivamento para um pool no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0c8b0-102">Configuring Archiving options for a pool in Lync Server 2013</span></span>
+# <a name="configuring-archiving-options-for-a-pool-in-lync-server-2013"></a><span data-ttu-id="313ed-102">Configurando opções de arquivamento para um pool no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="313ed-102">Configuring Archiving options for a pool in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41726501"
 
 <span> </span>
 
-<span data-ttu-id="0c8b0-103">_**Tópico da última modificação:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="0c8b0-103">_**Topic Last Modified:** 2012-10-10_</span></span>
+<span data-ttu-id="313ed-103">_**Última modificação do tópico:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="313ed-103">_**Topic Last Modified:** 2012-10-10_</span></span>
 
-<span data-ttu-id="0c8b0-104">Você pode especificar opções de arquivamento a serem aplicadas a pools específicos, criando e Configurando opções em uma configuração de arquivamento para cada um desses pools.</span><span class="sxs-lookup"><span data-stu-id="0c8b0-104">You can specify Archiving options to be applied to specific pools by creating and configuring options in an Archiving configuration for each of those pools.</span></span> <span data-ttu-id="0c8b0-105">Uma configuração de pool substitui a configuração global e de site, mas só se aplica ao pool específico definido na configuração de pool.</span><span class="sxs-lookup"><span data-stu-id="0c8b0-105">A pool configuration overrides the global configuration and site configuration, but only for the pool specified in the pool configuration.</span></span>
+<span data-ttu-id="313ed-p101">Você deve especificar as opções de Arquivamento que serão aplicadas a pools específicos criando e configurando opções em uma configuração de Arquivamento para cada um desses pools. Uma configuração de pool substitui a configuração global e de site, mas somente para o pool especificado na configuração de pool.</span><span class="sxs-lookup"><span data-stu-id="313ed-p101">You can specify Archiving options to be applied to specific pools by creating and configuring options in an Archiving configuration for each of those pools. A pool configuration overrides the global configuration and site configuration, but only for the pool specified in the pool configuration.</span></span>
 
-<span data-ttu-id="0c8b0-106">Para obter detalhes sobre como funcionam as configurações de arquivamento, incluindo a hierarquia para configurações globais, de site e de pool, consulte [como o arquivamento funciona no Lync Server 2013](lync-server-2013-how-archiving-works.md) na documentação de planejamento, documentação de implantação ou documentação de operações.</span><span class="sxs-lookup"><span data-stu-id="0c8b0-106">For details about how Archiving configurations work, including the hierarchy for global, site, and pool configurations, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation.</span></span>
+<span data-ttu-id="313ed-106">Para obter detalhes sobre como as configurações de arquivamento funcionam, incluindo a hierarquia de configurações globais, de site e de pool, consulte [How Archiving Works in Lync Server 2013](lync-server-2013-how-archiving-works.md) na documentação de planejamento, documentação de implantação ou operações.</span><span class="sxs-lookup"><span data-stu-id="313ed-106">For details about how Archiving configurations work, including the hierarchy for global, site, and pool configurations, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="0c8b0-107">Você deve especificar todas as opções adequadas nas configurações de arquivamento antes de habilitar o arquivamento.</span><span class="sxs-lookup"><span data-stu-id="0c8b0-107">You should specify all appropriate options in the Archiving configurations before enabling Archiving.</span></span> <span data-ttu-id="0c8b0-108">Para obter detalhes, consulte <A href="lync-server-2013-configuring-archiving-options.md">Configurando opções de arquivamento no Lync Server 2013</A> na documentação de implantação.</span><span class="sxs-lookup"><span data-stu-id="0c8b0-108">For details, see <A href="lync-server-2013-configuring-archiving-options.md">Configuring Archiving options in Lync Server 2013</A> in the Deployment documentation.</span></span>
+> <span data-ttu-id="313ed-107">Você deve especificar todas as opções apropriadas nas configurações de arquivamento antes de habilitar o arquivamento.</span><span class="sxs-lookup"><span data-stu-id="313ed-107">You should specify all appropriate options in the Archiving configurations before enabling Archiving.</span></span> <span data-ttu-id="313ed-108">Para obter detalhes, consulte <A href="lync-server-2013-configuring-archiving-options.md">Configuring Archiving Options in Lync Server 2013</A> na documentação de implantação.</span><span class="sxs-lookup"><span data-stu-id="313ed-108">For details, see <A href="lync-server-2013-configuring-archiving-options.md">Configuring Archiving options in Lync Server 2013</A> in the Deployment documentation.</span></span>
 
 
 
@@ -53,39 +53,39 @@ ms.locfileid: "41726501"
 
 <div>
 
-## <a name="to-configure-archiving-options-at-the-pool-level"></a><span data-ttu-id="0c8b0-109">Para configurar as opções de arquivamento no nível do pool</span><span class="sxs-lookup"><span data-stu-id="0c8b0-109">To configure archiving options at the pool level</span></span>
+## <a name="to-configure-archiving-options-at-the-pool-level"></a><span data-ttu-id="313ed-109">Configurar opções de arquivamento no nível do pool</span><span class="sxs-lookup"><span data-stu-id="313ed-109">To configure archiving options at the pool level</span></span>
 
-1.  <span data-ttu-id="0c8b0-110">Usando uma conta de usuário atribuída à função CsArchivingAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.</span><span class="sxs-lookup"><span data-stu-id="0c8b0-110">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="313ed-110">Usando uma conta de usuário atribuída à função CsArchivingAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.</span><span class="sxs-lookup"><span data-stu-id="313ed-110">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="0c8b0-111">Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="0c8b0-111">Open a browser window, and then enter the Admin URL to open the Lync Server 2013 Control Panel.</span></span> <span data-ttu-id="0c8b0-112">Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server 2013, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="0c8b0-112">For details about the different methods that you can use to start Lync Server 2013 Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="313ed-111">Abra uma janela do navegador e insira a URL do administrador para abrir o painel de controle do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="313ed-111">Open a browser window, and then enter the Admin URL to open the Lync Server 2013 Control Panel.</span></span> <span data-ttu-id="313ed-112">Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server 2013, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="313ed-112">For details about the different methods that you can use to start Lync Server 2013 Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="0c8b0-113">Na barra de navegação da esquerda, clique em **Monitoramento e Arquivamento**, e depois, clique em **Configuração de Arquivamento**.</span><span class="sxs-lookup"><span data-stu-id="0c8b0-113">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Configuration**.</span></span>
+3.  <span data-ttu-id="313ed-113">Na barra de navegação esquerda, clique em **Monitoramento e Arquivamento** e clique em **Configuração do Arquivamento**.</span><span class="sxs-lookup"><span data-stu-id="313ed-113">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Configuration**.</span></span>
 
-4.  <span data-ttu-id="0c8b0-114">Na página **Configuração de arquivamento**, clique em **Nova** e em **Configuração de pool**.</span><span class="sxs-lookup"><span data-stu-id="0c8b0-114">On the **Archiving Configuration** page, click **New**, and then click **Pool Configuration**.</span></span>
+4.  <span data-ttu-id="313ed-114">Na página **Configuração de arquivamento**, clique em **Nova** e em **Configuração de pool**.</span><span class="sxs-lookup"><span data-stu-id="313ed-114">On the **Archiving Configuration** page, click **New**, and then click **Pool Configuration**.</span></span>
 
-5.  <span data-ttu-id="0c8b0-115">Em **Selecionar um serviço**, selecione o pool que será configurado para arquivamento.</span><span class="sxs-lookup"><span data-stu-id="0c8b0-115">In **Select a Service**, select the pool to be configured for archiving.</span></span>
+5.  <span data-ttu-id="313ed-115">Em **Selecionar um serviço**, selecione o pool que será configurado para arquivamento.</span><span class="sxs-lookup"><span data-stu-id="313ed-115">In **Select a Service**, select the pool to be configured for archiving.</span></span>
 
-6.  <span data-ttu-id="0c8b0-116">Em **Nova configuração de arquivamento**, na lista suspensa **Configuração de arquivamento**, selecione uma das seguintes opções de arquivamento:</span><span class="sxs-lookup"><span data-stu-id="0c8b0-116">In **New Archiving Setting**, in the **Archiving setting** drop-down list, select one of the following archiving options:</span></span>
+6.  <span data-ttu-id="313ed-116">Em **Nova configuração de arquivamento**, na lista suspensa **Configuração de arquivamento**, selecione uma das seguintes opções de arquivamento:</span><span class="sxs-lookup"><span data-stu-id="313ed-116">In **New Archiving Setting**, in the **Archiving setting** drop-down list, select one of the following archiving options:</span></span>
     
-      - <span data-ttu-id="0c8b0-117">**Desativar arquivamento**</span><span class="sxs-lookup"><span data-stu-id="0c8b0-117">**Disable archiving**</span></span>
+      - <span data-ttu-id="313ed-117">**Desativar arquivamento**</span><span class="sxs-lookup"><span data-stu-id="313ed-117">**Disable archiving**</span></span>
     
-      - <span data-ttu-id="0c8b0-118">**Arquivar sessões de IM**</span><span class="sxs-lookup"><span data-stu-id="0c8b0-118">**Archive IM sessions**</span></span>
+      - <span data-ttu-id="313ed-118">**Arquivar sessões de IM**</span><span class="sxs-lookup"><span data-stu-id="313ed-118">**Archive IM sessions**</span></span>
     
-      - <span data-ttu-id="0c8b0-119">**Arquivar sessões de IM e conferência da Web**</span><span class="sxs-lookup"><span data-stu-id="0c8b0-119">**Archive IM and web conferencing sessions**</span></span>
+      - <span data-ttu-id="313ed-119">**Arquivar sessões de IM e conferência da Web**</span><span class="sxs-lookup"><span data-stu-id="313ed-119">**Archive IM and web conferencing sessions**</span></span>
 
-7.  <span data-ttu-id="0c8b0-120">Na página **Nova configuração de arquivamento**, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="0c8b0-120">Also in **New Archiving Setting** page, do the following:</span></span>
+7.  <span data-ttu-id="313ed-120">Na página **Nova configuração de arquivamento**, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="313ed-120">Also in **New Archiving Setting** page, do the following:</span></span>
     
-      - <span data-ttu-id="0c8b0-121">Para bloquear a atividade quando o arquivamento não estiver disponível, marque a caixa de seleção **Bloquear sessões de mensagem instantânea ou webconferência se o arquivamento falhar**.</span><span class="sxs-lookup"><span data-stu-id="0c8b0-121">To block activity when archiving is not available, select the **Block instant messaging (IM) or web conferencing sessions if archiving fails** check box.</span></span>
+      - <span data-ttu-id="313ed-121">Para bloquear a atividade quando o arquivamento não estiver disponível, marque a caixa de seleção **Bloquear sessões de IM (mensagens instantâneas) ou webconferência se ocorrer falha no arquivamento**.</span><span class="sxs-lookup"><span data-stu-id="313ed-121">To block activity when archiving is not available, select the **Block instant messaging (IM) or web conferencing sessions if archiving fails** check box.</span></span>
     
-      - <span data-ttu-id="0c8b0-122">Para usar o Microsoft Exchange Server para armazenar dados de arquivamento, clique na caixa de seleção **integração do Microsoft Exchange** .</span><span class="sxs-lookup"><span data-stu-id="0c8b0-122">To use Microsoft Exchange Server to store archiving data, click the **Microsoft Exchange integration** check box.</span></span>
+      - <span data-ttu-id="313ed-122">Para usar o Microsoft Exchange Server para armazenar dados de arquivamento, clique na caixa de seleção **integração com o Microsoft Exchange** .</span><span class="sxs-lookup"><span data-stu-id="313ed-122">To use Microsoft Exchange Server to store archiving data, click the **Microsoft Exchange integration** check box.</span></span>
     
-      - <span data-ttu-id="0c8b0-123">Para habilitar a exclusão de dados, marque a caixa de seleção **Habilitar exclusão dos dados de arquivamento** e execute uma das seguintes ações:</span><span class="sxs-lookup"><span data-stu-id="0c8b0-123">To enable data purging, select the **Enable purging of archiving data** check box, and then do one of the following:</span></span>
+      - <span data-ttu-id="313ed-123">Para habilitar a exclusão de dados, marque a caixa de seleção **Habilitar exclusão dos dados de arquivamento** e faça um dos seguintes:</span><span class="sxs-lookup"><span data-stu-id="313ed-123">To enable data purging, select the **Enable purging of archiving data** check box, and then do one of the following:</span></span>
         
-          - <span data-ttu-id="0c8b0-124">Para especificar a exclusão após um número específico de dias, clique em **Excluir dados de arquivamento exportados e dados de arquivamento armazenados após uma duração máxima (dias)** e especifique o número de dias.</span><span class="sxs-lookup"><span data-stu-id="0c8b0-124">To specify purging after a specific number of days, click **Purge exported archiving data and stored archiving data after maximum duration (days)**, and then specify the number of days.</span></span>
+          - <span data-ttu-id="313ed-124">Para especificar a exclusão após um número específico de dias, clique em **Excluir dados de arquivamento exportados e dados de arquivamento armazenados após uma duração máxima (dias)** e especifique o número de dias.</span><span class="sxs-lookup"><span data-stu-id="313ed-124">To specify purging after a specific number of days, click **Purge exported archiving data and stored archiving data after maximum duration (days)**, and then specify the number of days.</span></span>
         
-          - <span data-ttu-id="0c8b0-125">Para limitar a exclusão de dados de arquivamento que foram exportados, clique em **Excluir apenas dados de arquivamento exportados**.</span><span class="sxs-lookup"><span data-stu-id="0c8b0-125">To limit purging to archiving data that has been exported, click **Purge exported archiving data only**.</span></span>
+          - <span data-ttu-id="313ed-125">Para limitar a exclusão de dados de arquivamento que foram exportados, clique em **Excluir apenas dados de arquivamento exportados**.</span><span class="sxs-lookup"><span data-stu-id="313ed-125">To limit purging to archiving data that has been exported, click **Purge exported archiving data only**.</span></span>
 
-8.  <span data-ttu-id="0c8b0-126">Clique em **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="0c8b0-126">Click **Commit**.</span></span>
+8.  <span data-ttu-id="313ed-126">Clique em **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="313ed-126">Click **Commit**.</span></span>
 
 </div>
 

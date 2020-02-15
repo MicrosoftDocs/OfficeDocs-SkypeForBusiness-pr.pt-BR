@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Novos recursos de chamada'
+title: 'Lync Server 2013: novos recursos de chamada'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733854
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dad938bf47292b74b451cefb32b0c5345d03e284
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 47482eade227c55091fd5d3ca0f7b5d58123fa91
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765822"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049993"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-call-features-in-lync-server-2013"></a><span data-ttu-id="78968-102">Novos recursos de chamada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="78968-102">New call features in Lync Server 2013</span></span>
+# <a name="new-call-features-in-lync-server-2013"></a><span data-ttu-id="74a8d-102">Novos recursos de chamada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="74a8d-102">New call features in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,18 +35,18 @@ ms.locfileid: "41765822"
 
 <span> </span>
 
-<span data-ttu-id="78968-103">_**Tópico da última modificação:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="78968-103">_**Topic Last Modified:** 2012-10-10_</span></span>
+<span data-ttu-id="74a8d-103">_**Última modificação do tópico:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="74a8d-103">_**Topic Last Modified:** 2012-10-10_</span></span>
 
-<span data-ttu-id="78968-104">O Lync Server 2013 oferece uma gama significativamente mais ampla de opções de configuração para encaminhamento de chamadas e toque simultâneo.</span><span class="sxs-lookup"><span data-stu-id="78968-104">Lync Server 2013 provides a significantly wider range of configuration options for call forwarding and simultaneous ringing.</span></span> <span data-ttu-id="78968-105">Por exemplo, se uma organização não quiser que as chamadas de entrada sejam encaminhadas externamente para a PSTN (rede telefônica pública comutada), um administrador poderá aplicar uma política de voz especial para implantar essa restrição.</span><span class="sxs-lookup"><span data-stu-id="78968-105">For example, if an organization does not want incoming calls to be forwarded externally to the public switched telephone network (PSTN), an administrator can apply a special voice policy to deploy this restriction.</span></span>
+<span data-ttu-id="74a8d-104">O Lync Server 2013 oferece uma variedade significativamente maior de opções de configuração para encaminhamento de chamadas e toque simultâneo.</span><span class="sxs-lookup"><span data-stu-id="74a8d-104">Lync Server 2013 provides a significantly wider range of configuration options for call forwarding and simultaneous ringing.</span></span> <span data-ttu-id="74a8d-105">Por exemplo, se uma organização não deseja que as chamadas de entrada sejam encaminhadas externamente à PSTN (Rede Telefônica Pública Comutada).</span><span class="sxs-lookup"><span data-stu-id="74a8d-105">For example, if an organization does not want incoming calls to be forwarded externally to the public switched telephone network (PSTN), an administrator can apply a special voice policy to deploy this restriction.</span></span>
 
-<span data-ttu-id="78968-106">Além disso, os representantes podem agora configurar o toque simultâneo para seus dispositivos móveis para chamadas recebidas para seus gerentes.</span><span class="sxs-lookup"><span data-stu-id="78968-106">Additionally, delegates can now set up simultaneous ringing to their mobile devices for incoming calls to their managers.</span></span> <span data-ttu-id="78968-107">Isso fornece os representantes com mais flexibilidade, permitindo que eles atendam às chamadas em nome de seu gerente sem estar ligado a um telefone de mesa.</span><span class="sxs-lookup"><span data-stu-id="78968-107">This provides delegates with more flexibility, enabling them to answer calls on behalf of their manager without being tied to a desk phone.</span></span>
+<span data-ttu-id="74a8d-p102">Além disso, os delegados podem agora configurar toque simultâneo em seus dispositivos móveis para chamadas de entrada aos seus gerentes. Isso oferece uma flexibilidade maior aos delegados, permitindo que eles atendam chamadas em nome de seus gerentes sem estarem presos a um telefone de mesa.</span><span class="sxs-lookup"><span data-stu-id="74a8d-p102">Additionally, delegates can now set up simultaneous ringing to their mobile devices for incoming calls to their managers. This provides delegates with more flexibility, enabling them to answer calls on behalf of their manager without being tied to a desk phone.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="78968-108">Confira também</span><span class="sxs-lookup"><span data-stu-id="78968-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="74a8d-108">Confira também</span><span class="sxs-lookup"><span data-stu-id="74a8d-108">See Also</span></span>
 
 
-[<span data-ttu-id="78968-109">Novos recursos do Enterprise Voice no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="78968-109">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
+[<span data-ttu-id="74a8d-109">Novos recursos do Enterprise Voice no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="74a8d-109">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Novo recurso de caixa postal'
+title: 'Lync Server 2013: novo recurso de caixa postal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733715
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27dbea942488181eb69695f78713c9e126c32aab
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2b7951b0dd9a6841d66c1782322f6c44a4e16d99
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755845"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048412"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-voice-mail-feature-in-lync-server-2013"></a><span data-ttu-id="9157d-102">Novo recurso de caixa postal no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9157d-102">New voice mail feature in Lync Server 2013</span></span>
+# <a name="new-voice-mail-feature-in-lync-server-2013"></a><span data-ttu-id="1733a-102">Novo recurso de caixa postal no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1733a-102">New voice mail feature in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41755845"
 
 <span> </span>
 
-<span data-ttu-id="9157d-103">_**Tópico da última modificação:** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="9157d-103">_**Topic Last Modified:** 2012-10-05_</span></span>
+<span data-ttu-id="1733a-103">_**Última modificação do tópico:** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="1733a-103">_**Topic Last Modified:** 2012-10-05_</span></span>
 
-<span data-ttu-id="9157d-104">O Lync Server 2013 apresenta o recurso de mensagem de voz, um aperfeiçoamento para o gerenciamento da caixa postal.</span><span class="sxs-lookup"><span data-stu-id="9157d-104">Lync Server 2013 introduces Voice mail Escape, an enhancement for managing voice mail.</span></span> <span data-ttu-id="9157d-105">Este novo recurso pode detectar quando uma chamada foi encaminhada para a caixa postal e impedir que a chamada seja imediatamente roteada para a caixa postal do telefone celular do usuário, sem dar ao usuário a oportunidade de atender a chamada.</span><span class="sxs-lookup"><span data-stu-id="9157d-105">This new feature can detect when a call has been routed to voice mail, and prevent the call from being immediately routed to the user’s mobile phone voice mail without giving the user the opportunity to answer the call.</span></span> <span data-ttu-id="9157d-106">Esse cenário ocorre quando o usuário habilita o toque simultâneo do seu celular, e o telefone celular dele está desligado, fora da bateria ou fora do alcance.</span><span class="sxs-lookup"><span data-stu-id="9157d-106">This scenario occurs when the user enables simultaneous ringing to their mobile phone, and their mobile phone is turned off, out of battery, or out of range.</span></span> <span data-ttu-id="9157d-107">O escape de correio de voz detecta que a chamada foi imediatamente atendida pela caixa postal do celular do usuário e desconecta a chamada para a caixa postal do celular.</span><span class="sxs-lookup"><span data-stu-id="9157d-107">Voicemail Escape detects that the call was immediately answered by the user’s mobile phone voice mail, and disconnects the call to the mobile phone voice mail.</span></span> <span data-ttu-id="9157d-108">A chamada continua a tocar nos outros pontos de extremidade do usuário, dando ao usuário a oportunidade de atender a chamada.</span><span class="sxs-lookup"><span data-stu-id="9157d-108">The call continues to ring on the user’s other endpoints giving the user the opportunity to answer the call.</span></span> <span data-ttu-id="9157d-109">Se o usuário não atender a chamada, a chamada será roteada para a caixa postal da empresa.</span><span class="sxs-lookup"><span data-stu-id="9157d-109">If the user does not answer the call, then the call is routed to the corporate voice mail.</span></span>
+<span data-ttu-id="1733a-104">O Lync Server 2013 apresenta escape de caixa postal, um aprimoramento para gerenciar caixa postal.</span><span class="sxs-lookup"><span data-stu-id="1733a-104">Lync Server 2013 introduces Voice mail Escape, an enhancement for managing voice mail.</span></span> <span data-ttu-id="1733a-105">Esse novo recurso pode detectar quando uma chamada é encaminhada para a caixa posta e impede que as chamadas sejam encaminhadas diretamente para a caixa postal do celular do usuário sem que ele tenha a chance de atender à chamada.</span><span class="sxs-lookup"><span data-stu-id="1733a-105">This new feature can detect when a call has been routed to voice mail, and prevent the call from being immediately routed to the user’s mobile phone voice mail without giving the user the opportunity to answer the call.</span></span> <span data-ttu-id="1733a-106">Esse cenário acontece quando o usuário habilita o toque simltânio em seu celular e o celular está desligado, sem bateria ou fora da área de cobertura.</span><span class="sxs-lookup"><span data-stu-id="1733a-106">This scenario occurs when the user enables simultaneous ringing to their mobile phone, and their mobile phone is turned off, out of battery, or out of range.</span></span> <span data-ttu-id="1733a-107">O Voicemail Escape detecta que a chamada foi atendida pela caixa posta do celular do usuário e a desconecta da caixa posta do celular.</span><span class="sxs-lookup"><span data-stu-id="1733a-107">Voicemail Escape detects that the call was immediately answered by the user’s mobile phone voice mail, and disconnects the call to the mobile phone voice mail.</span></span> <span data-ttu-id="1733a-108">A chamada continua tocando nos outros pontos de conta do usuário, o que permite que ele atenda à chamada.</span><span class="sxs-lookup"><span data-stu-id="1733a-108">The call continues to ring on the user’s other endpoints giving the user the opportunity to answer the call.</span></span> <span data-ttu-id="1733a-109">Se o usuário não atender, a chamada é encaminhada para a caixa posta corporativa.</span><span class="sxs-lookup"><span data-stu-id="1733a-109">If the user does not answer the call, then the call is routed to the corporate voice mail.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="9157d-110">Confira também</span><span class="sxs-lookup"><span data-stu-id="9157d-110">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1733a-110">Confira também</span><span class="sxs-lookup"><span data-stu-id="1733a-110">See Also</span></span>
 
 
-[<span data-ttu-id="9157d-111">Configurando o recurso de mensagem de voz no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9157d-111">Configuring voice mail escape in Lync Server 2013</span></span>](lync-server-2013-configuring-voice-mail-escape.md)  
+[<span data-ttu-id="1733a-111">Configurando o escape de caixa postal no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1733a-111">Configuring voice mail escape in Lync Server 2013</span></span>](lync-server-2013-configuring-voice-mail-escape.md)  
 
 
-[<span data-ttu-id="9157d-112">Novos recursos do Enterprise Voice no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9157d-112">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
+[<span data-ttu-id="1733a-112">Novos recursos do Enterprise Voice no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1733a-112">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Concedendo permissões de unidade organizacional'
+title: 'Lync Server 2013: concedendo permissões de unidade organizacional'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184849
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 084fb8cdebeda06d4441879f08f830021b65d2e3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 945fdfcb6b1f8e8a977bec079b920e13e932e942
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763905"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048392"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="granting-organizational-unit-permissions-in-lync-server-2013"></a><span data-ttu-id="84a3b-102">Concedendo permissões de unidade organizacional no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="84a3b-102">Granting organizational unit permissions in Lync Server 2013</span></span>
+# <a name="granting-organizational-unit-permissions-in-lync-server-2013"></a><span data-ttu-id="be679-102">Concedendo permissões de unidade organizacional no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="be679-102">Granting organizational unit permissions in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,59 +35,59 @@ ms.locfileid: "41763905"
 
 <span> </span>
 
-<span data-ttu-id="84a3b-103">_**Tópico da última modificação:** 2012-05-14_</span><span class="sxs-lookup"><span data-stu-id="84a3b-103">_**Topic Last Modified:** 2012-05-14_</span></span>
+<span data-ttu-id="be679-103">_**Última modificação do tópico:** 2012-05-14_</span><span class="sxs-lookup"><span data-stu-id="be679-103">_**Topic Last Modified:** 2012-05-14_</span></span>
 
-<span data-ttu-id="84a3b-104">Você pode usar o cmdlet **Grant-CsOuPermission** para conceder permissões a objetos em unidades organizacionais (UOs) especificadas para que os membros dos grupos universais do RTC criados pela preparação da floresta possam acessá-los sem serem membros do grupo Domain admins.</span><span class="sxs-lookup"><span data-stu-id="84a3b-104">You can use the **Grant-CsOuPermission** cmdlet to grant permissions to objects in specified organizational units (OUs) so that members of the RTC universal groups created by forest preparation can access them without being members of the Domain Admins group.</span></span> <span data-ttu-id="84a3b-105">As permissões adicionadas à UO especificada são as mesmas permissões que o cmdlet **Enable-CsAdDomain** adiciona aos recipientes computadores e usuários durante a preparação do domínio.</span><span class="sxs-lookup"><span data-stu-id="84a3b-105">The permissions added to the specified OU are the same permissions that the **Enable-CsAdDomain** cmdlet adds to the computers and users containers during domain preparation.</span></span>
+<span data-ttu-id="be679-104">Você pode usar o cmdlet **Grant-CsOuPermission** para conceder permissões a objetos em unidades organizacionais especificadas para que os membros dos grupos universais RTC criados pela preparação da floresta possam acessá-los sem serem membros do grupo Administradores de Domínio.</span><span class="sxs-lookup"><span data-stu-id="be679-104">You can use the **Grant-CsOuPermission** cmdlet to grant permissions to objects in specified organizational units (OUs) so that members of the RTC universal groups created by forest preparation can access them without being members of the Domain Admins group.</span></span> <span data-ttu-id="be679-105">As permissões adicionadas à unidade organizacional especificada são as mesmas permissões que o cmdlet **Enable-CsAdDomain** adiciona aos contêineres de computadores e usuários durante a preparação do domínio.</span><span class="sxs-lookup"><span data-stu-id="be679-105">The permissions added to the specified OU are the same permissions that the **Enable-CsAdDomain** cmdlet adds to the computers and users containers during domain preparation.</span></span>
 
-<span data-ttu-id="84a3b-106">Use o cmdlet **Test-CsOuPermission** para verificar as permissões configuradas usando o cmdlet **Grant-CsOuPermission** .</span><span class="sxs-lookup"><span data-stu-id="84a3b-106">Use the **Test-CsOuPermission** cmdlet to verify the permissions you set up by using the **Grant-CsOuPermission** cmdlet.</span></span>
+<span data-ttu-id="be679-106">Use o cmdlet **Test-CsOuPermission** para verificar as permissões configuradas usando o cmdlet **Grant-CsOuPermission**.</span><span class="sxs-lookup"><span data-stu-id="be679-106">Use the **Test-CsOuPermission** cmdlet to verify the permissions you set up by using the **Grant-CsOuPermission** cmdlet.</span></span>
 
-<span data-ttu-id="84a3b-107">Você pode usar o cmdlet **REVOKE-CsOuPermission** para remover permissões concedidas usando o cmdlet **Grant-CsOuPermission** .</span><span class="sxs-lookup"><span data-stu-id="84a3b-107">You can use the **Revoke-CsOuPermission** cmdlet to remove permissions that you granted by using the **Grant-CsOuPermission** cmdlet.</span></span>
+<span data-ttu-id="be679-107">Você pode usar o cmdlet **Revoke-CsOuPermission** para remover permissões concedidas usando o cmdlet **Grant-CsOuPermission**.</span><span class="sxs-lookup"><span data-stu-id="be679-107">You can use the **Revoke-CsOuPermission** cmdlet to remove permissions that you granted by using the **Grant-CsOuPermission** cmdlet.</span></span>
 
 <div>
 
-## <a name="to-grant-ou-permissions"></a><span data-ttu-id="84a3b-108">Para conceder permissões de OU</span><span class="sxs-lookup"><span data-stu-id="84a3b-108">To grant OU permissions</span></span>
+## <a name="to-grant-ou-permissions"></a><span data-ttu-id="be679-108">Para conceder permissões de UO</span><span class="sxs-lookup"><span data-stu-id="be679-108">To grant OU permissions</span></span>
 
-1.  <span data-ttu-id="84a3b-109">Faça logon em um computador que esteja executando o Lync Server 2013 no domínio em que você deseja conceder permissões de OU.</span><span class="sxs-lookup"><span data-stu-id="84a3b-109">Log on to a computer running Lync Server 2013 in the domain where you want to grant OU permissions.</span></span> <span data-ttu-id="84a3b-110">Use uma conta que seja membro do grupo Domain admins ou do grupo Administradores de empresa se a UO estiver em um domínio filho diferente.</span><span class="sxs-lookup"><span data-stu-id="84a3b-110">Use an account that is a member of the Domain Admins group or the Enterprise Admins group if the OU is in a different child domain.</span></span>
+1.  <span data-ttu-id="be679-109">Faça logon em um computador que executa o Lync Server 2013 no domínio em que você deseja conceder permissões de OU.</span><span class="sxs-lookup"><span data-stu-id="be679-109">Log on to a computer running Lync Server 2013 in the domain where you want to grant OU permissions.</span></span> <span data-ttu-id="be679-110">Use uma conta que seja membro do grupo Administradores de Domínio ou do grupo Administradores de Empresa se a UO estiver em um domínio filho diferente.</span><span class="sxs-lookup"><span data-stu-id="be679-110">Use an account that is a member of the Domain Admins group or the Enterprise Admins group if the OU is in a different child domain.</span></span>
 
-2.  <span data-ttu-id="84a3b-111">Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="84a3b-111">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="be679-111">Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="be679-111">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="84a3b-112">Execute:</span><span class="sxs-lookup"><span data-stu-id="84a3b-112">Run:</span></span>
+3.  <span data-ttu-id="be679-112">Sejam</span><span class="sxs-lookup"><span data-stu-id="be679-112">Run:</span></span>
     
         Grant-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU> [-Domain <Domain FQDN>]
     
-    <span data-ttu-id="84a3b-113">Se você não especificar o parâmetro Domain, o valor padrão será o domínio local.</span><span class="sxs-lookup"><span data-stu-id="84a3b-113">If you do not specify the Domain parameter, the default value is the local domain.</span></span>
+    <span data-ttu-id="be679-113">Se você não especificar o parâmetro Domain, o valor padrão será o domínio local.</span><span class="sxs-lookup"><span data-stu-id="be679-113">If you do not specify the Domain parameter, the default value is the local domain.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-verify-ou-permissions"></a><span data-ttu-id="84a3b-114">Para verificar permissões de OU</span><span class="sxs-lookup"><span data-stu-id="84a3b-114">To verify OU permissions</span></span>
+## <a name="to-verify-ou-permissions"></a><span data-ttu-id="be679-114">Para verificar permissões de UO</span><span class="sxs-lookup"><span data-stu-id="be679-114">To verify OU permissions</span></span>
 
-1.  <span data-ttu-id="84a3b-115">Faça logon em um computador que esteja executando o Lync Server 2013 no domínio em que você deseja verificar as permissões de OU que você concedeu usando o cmdlet **Grant-CsOuPermission** .</span><span class="sxs-lookup"><span data-stu-id="84a3b-115">Log on to a computer running Lync Server 2013 in the domain where you want to verify OU permissions that you granted by using the **Grant-CsOuPermission** cmdlet.</span></span> <span data-ttu-id="84a3b-116">Use uma conta que seja membro do grupo Domain admins ou do grupo Administradores de empresa se a UO estiver em um domínio filho diferente.</span><span class="sxs-lookup"><span data-stu-id="84a3b-116">Use an account that is a member of the Domain Admins group or the Enterprise Admins group if the OU is in a different child domain.</span></span>
+1.  <span data-ttu-id="be679-115">Faça logon em um computador que executa o Lync Server 2013 no domínio em que você deseja verificar as permissões de OU concedidas usando o cmdlet **Grant-CsOuPermission** .</span><span class="sxs-lookup"><span data-stu-id="be679-115">Log on to a computer running Lync Server 2013 in the domain where you want to verify OU permissions that you granted by using the **Grant-CsOuPermission** cmdlet.</span></span> <span data-ttu-id="be679-116">Use uma conta que seja membro do grupo Administradores de Domínio ou do grupo Administradores de Empresa se a UO estiver em um domínio filho diferente.</span><span class="sxs-lookup"><span data-stu-id="be679-116">Use an account that is a member of the Domain Admins group or the Enterprise Admins group if the OU is in a different child domain.</span></span>
 
-2.  <span data-ttu-id="84a3b-117">Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="84a3b-117">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="be679-117">Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="be679-117">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="84a3b-118">Execute:</span><span class="sxs-lookup"><span data-stu-id="84a3b-118">Run:</span></span>
+3.  <span data-ttu-id="be679-118">Sejam</span><span class="sxs-lookup"><span data-stu-id="be679-118">Run:</span></span>
     
         Test-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU> [-Domain <Domain FQDN>]
     
-    <span data-ttu-id="84a3b-119">Se você não especificar o parâmetro Domain, o valor padrão será o domínio local.</span><span class="sxs-lookup"><span data-stu-id="84a3b-119">If you do not specify the Domain parameter, the default value is the local domain.</span></span>
+    <span data-ttu-id="be679-119">Se você não especificar o parâmetro Domain, o valor padrão será o domínio local.</span><span class="sxs-lookup"><span data-stu-id="be679-119">If you do not specify the Domain parameter, the default value is the local domain.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-revoke-ou-permissions"></a><span data-ttu-id="84a3b-120">Para revogar permissões de OU</span><span class="sxs-lookup"><span data-stu-id="84a3b-120">To revoke OU permissions</span></span>
+## <a name="to-revoke-ou-permissions"></a><span data-ttu-id="be679-120">Para revogar permissões de OU</span><span class="sxs-lookup"><span data-stu-id="be679-120">To revoke OU permissions</span></span>
 
-1.  <span data-ttu-id="84a3b-121">Faça logon em um computador que esteja executando o Lync Server 2013 no domínio em que você deseja revogar permissões de OU que foram concedidas pelo cmdlet **Grant-CsOuPermission** .</span><span class="sxs-lookup"><span data-stu-id="84a3b-121">Log on to a computer running Lync Server 2013 in the domain where you want to revoke OU permissions that were granted by the **Grant-CsOuPermission** cmdlet.</span></span> <span data-ttu-id="84a3b-122">Use uma conta que seja membro do grupo Domain admins ou do grupo Administradores de empresa se a UO estiver em um domínio filho diferente.</span><span class="sxs-lookup"><span data-stu-id="84a3b-122">Use an account that is a member of the Domain Admins group or the Enterprise Admins group if the OU is in a different child domain.</span></span>
+1.  <span data-ttu-id="be679-121">Faça logon em um computador que executa o Lync Server 2013 no domínio onde você deseja revogar as permissões de OU que foram concedidas pelo cmdlet **Grant-CsOuPermission** .</span><span class="sxs-lookup"><span data-stu-id="be679-121">Log on to a computer running Lync Server 2013 in the domain where you want to revoke OU permissions that were granted by the **Grant-CsOuPermission** cmdlet.</span></span> <span data-ttu-id="be679-122">Use uma conta que seja membro do grupo Administradores de Domínio ou do grupo Administradores de Empresa se a UO estiver em um domínio filho diferente.</span><span class="sxs-lookup"><span data-stu-id="be679-122">Use an account that is a member of the Domain Admins group or the Enterprise Admins group if the OU is in a different child domain.</span></span>
 
-2.  <span data-ttu-id="84a3b-123">Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="84a3b-123">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="be679-123">Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="be679-123">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="84a3b-124">Execute:</span><span class="sxs-lookup"><span data-stu-id="84a3b-124">Run:</span></span>
+3.  <span data-ttu-id="be679-124">Sejam</span><span class="sxs-lookup"><span data-stu-id="be679-124">Run:</span></span>
     
         Revoke-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU> [-Domain <Domain FQDN>]
     
-    <span data-ttu-id="84a3b-125">Se você não especificar o parâmetro Domain, o valor padrão será o domínio local.</span><span class="sxs-lookup"><span data-stu-id="84a3b-125">If you do not specify the Domain parameter, the default value is the local domain.</span></span>
+    <span data-ttu-id="be679-125">Se o parâmetro Domain não for especificado, o valor padrão será o domínio local.</span><span class="sxs-lookup"><span data-stu-id="be679-125">If you do not specify the Domain parameter, the default value is the local domain.</span></span>
 
 </div>
 

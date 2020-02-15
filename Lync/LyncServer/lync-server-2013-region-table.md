@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabela de regiões'
+title: 'Lync Server 2013: tabela Region'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183518
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 005722b28b6ea93d89873d45e7a9284f44643bde
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1099be5a6cc8d3fa0b40fa20cde23ebaa02d64c7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724421"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050793"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="region-table-in-lync-server-2013"></a><span data-ttu-id="fd504-102">Tabela de regiões no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fd504-102">Region table in Lync Server 2013</span></span>
+# <a name="region-table-in-lync-server-2013"></a><span data-ttu-id="a2ed7-102">Tabela Region no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a2ed7-102">Region table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41724421"
 
 <span> </span>
 
-<span data-ttu-id="fd504-103">_**Tópico da última modificação:** 2010-11-09_</span><span class="sxs-lookup"><span data-stu-id="fd504-103">_**Topic Last Modified:** 2010-11-09_</span></span>
+<span data-ttu-id="a2ed7-103">_**Última modificação do tópico:** 2010-11-09_</span><span class="sxs-lookup"><span data-stu-id="a2ed7-103">_**Topic Last Modified:** 2010-11-09_</span></span>
 
-<span data-ttu-id="fd504-104">A tabela Region é uma tabela de suporte.</span><span class="sxs-lookup"><span data-stu-id="fd504-104">The Region table is a supporting table.</span></span> <span data-ttu-id="fd504-105">Cada registro representa um país/região definido na configuração de rede.</span><span class="sxs-lookup"><span data-stu-id="fd504-105">Each record represents one country/region defined in network configuration setting.</span></span>
+<span data-ttu-id="a2ed7-p101">A tabela Regions é uma tabela de suporte. Cada registro representa um país ou uma região definida na configuração de rede.</span><span class="sxs-lookup"><span data-stu-id="a2ed7-p101">The Region table is a supporting table. Each record represents one country/region defined in network configuration setting.</span></span>
 
 
 <table>
@@ -49,24 +49,24 @@ ms.locfileid: "41724421"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="fd504-106"><strong>Coluna</strong></span><span class="sxs-lookup"><span data-stu-id="fd504-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="fd504-107"><strong>Tipo de dados</strong></span><span class="sxs-lookup"><span data-stu-id="fd504-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="fd504-108"><strong>Chave/índice</strong></span><span class="sxs-lookup"><span data-stu-id="fd504-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="fd504-109"><strong>Detalhes</strong></span><span class="sxs-lookup"><span data-stu-id="fd504-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="a2ed7-106"><strong>Coluna</strong></span><span class="sxs-lookup"><span data-stu-id="a2ed7-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="a2ed7-107"><strong>Tipo de dados</strong></span><span class="sxs-lookup"><span data-stu-id="a2ed7-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="a2ed7-108"><strong>Chave/índice</strong></span><span class="sxs-lookup"><span data-stu-id="a2ed7-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="a2ed7-109"><strong>Detalhes</strong></span><span class="sxs-lookup"><span data-stu-id="a2ed7-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="fd504-110"><strong>RegionKey</strong></span><span class="sxs-lookup"><span data-stu-id="fd504-110"><strong>RegionKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="fd504-111">int</span><span class="sxs-lookup"><span data-stu-id="fd504-111">int</span></span></p></td>
-<td><p><span data-ttu-id="fd504-112">Primária</span><span class="sxs-lookup"><span data-stu-id="fd504-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="fd504-113">Número exclusivo que identifica o país/região.</span><span class="sxs-lookup"><span data-stu-id="fd504-113">Unique number identifying the country/region.</span></span></p></td>
+<td><p><span data-ttu-id="a2ed7-110"><strong>RegionKey</strong></span><span class="sxs-lookup"><span data-stu-id="a2ed7-110"><strong>RegionKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="a2ed7-111">int</span><span class="sxs-lookup"><span data-stu-id="a2ed7-111">int</span></span></p></td>
+<td><p><span data-ttu-id="a2ed7-112">Primário</span><span class="sxs-lookup"><span data-stu-id="a2ed7-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="a2ed7-113">Número exclusivo de identificação de país/região.</span><span class="sxs-lookup"><span data-stu-id="a2ed7-113">Unique number identifying the country/region.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fd504-114"><strong>RegionName</strong></span><span class="sxs-lookup"><span data-stu-id="fd504-114"><strong>RegionName</strong></span></span></p></td>
-<td><p><span data-ttu-id="fd504-115">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="fd504-115">nvarchar(128)</span></span></p></td>
-<td><p><span data-ttu-id="fd504-116">Exclusividade</span><span class="sxs-lookup"><span data-stu-id="fd504-116">Unique</span></span></p></td>
-<td><p><span data-ttu-id="fd504-117">O nome do país/região.</span><span class="sxs-lookup"><span data-stu-id="fd504-117">The name of the country/region.</span></span></p></td>
+<td><p><span data-ttu-id="a2ed7-114"><strong>RegionName</strong></span><span class="sxs-lookup"><span data-stu-id="a2ed7-114"><strong>RegionName</strong></span></span></p></td>
+<td><p><span data-ttu-id="a2ed7-115">nvarchar(128</span><span class="sxs-lookup"><span data-stu-id="a2ed7-115">nvarchar(128)</span></span></p></td>
+<td><p><span data-ttu-id="a2ed7-116">Diferente</span><span class="sxs-lookup"><span data-stu-id="a2ed7-116">Unique</span></span></p></td>
+<td><p><span data-ttu-id="a2ed7-117">O nome do país/região.</span><span class="sxs-lookup"><span data-stu-id="a2ed7-117">The name of the country/region.</span></span></p></td>
 </tr>
 </tbody>
 </table>

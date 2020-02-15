@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Interoperabilidade do Cliente no Lync 2013'
+title: 'Lync Server 2013: interoperabilidade do cliente no Lync 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183417
 ms.date: 03/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b28d0de09a46a2be8b968e55c8f551e397da6ae8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dc807d65c76a1307ccd8532e644f9f9d23ffc69e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756755"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046734"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="client-interoperability-in-lync-2013"></a><span data-ttu-id="e2b64-102">Interoperabilidade do Cliente no Lync 2013</span><span class="sxs-lookup"><span data-stu-id="e2b64-102">Client interoperability in Lync 2013</span></span>
+# <a name="client-interoperability-in-lync-2013"></a><span data-ttu-id="705c8-102">Interoperabilidade do cliente no Lync 2013</span><span class="sxs-lookup"><span data-stu-id="705c8-102">Client interoperability in Lync 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41756755"
 
 <span> </span>
 
-<span data-ttu-id="e2b64-103">_**Tópico da última modificação:** 2016-03-04_</span><span class="sxs-lookup"><span data-stu-id="e2b64-103">_**Topic Last Modified:** 2016-03-04_</span></span>
+<span data-ttu-id="705c8-103">_**Última modificação do tópico:** 2016-03-04_</span><span class="sxs-lookup"><span data-stu-id="705c8-103">_**Topic Last Modified:** 2016-03-04_</span></span>
 
-<span data-ttu-id="e2b64-104">Este tópico discute a capacidade dos clientes do Microsoft Lync Server 2013 de coexistência e interação com clientes de versões anteriores do Lync Server e do Office Communications Server.</span><span class="sxs-lookup"><span data-stu-id="e2b64-104">This topic discusses the ability of Microsoft Lync Server 2013 clients to coexist and interact with clients from earlier versions of Lync Server and Office Communications Server.</span></span>
+<span data-ttu-id="705c8-104">Este tópico discute a capacidade dos clientes do Microsoft Lync Server 2013 de coexistir e interagir com clientes de versões anteriores do Lync Server e Office Communications Server.</span><span class="sxs-lookup"><span data-stu-id="705c8-104">This topic discusses the ability of Microsoft Lync Server 2013 clients to coexist and interact with clients from earlier versions of Lync Server and Office Communications Server.</span></span>
 
 <div>
 
-## <a name="server-and-client-compatibility"></a><span data-ttu-id="e2b64-105">Compatibilidade do servidor e do cliente</span><span class="sxs-lookup"><span data-stu-id="e2b64-105">Server and Client Compatibility</span></span>
+## <a name="server-and-client-compatibility"></a><span data-ttu-id="705c8-105">Compatibilidade de servidor e cliente</span><span class="sxs-lookup"><span data-stu-id="705c8-105">Server and Client Compatibility</span></span>
 
-<span data-ttu-id="e2b64-106">A tabela a seguir mostra as combinações de versões de servidor e versões de cliente com suporte.</span><span class="sxs-lookup"><span data-stu-id="e2b64-106">The following table shows the supported combinations of client versions and server versions.</span></span> <span data-ttu-id="e2b64-107">Esta tabela indica se há suporte para entrada quando o cliente tenta se conectar ao servidor indicado.</span><span class="sxs-lookup"><span data-stu-id="e2b64-107">This table indicates whether sign-in is supported when the client attempts to connect to the server indicated.</span></span> <span data-ttu-id="e2b64-108">O Lync Server 2013 dá suporte à versão anterior do cliente.</span><span class="sxs-lookup"><span data-stu-id="e2b64-108">Lync Server 2013 supports the previous client version.</span></span> <span data-ttu-id="e2b64-109">Além disso, ao contrário das versões anteriores, o Lync Server 2010 oferece suporte aos novos clientes do Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="e2b64-109">Also, unlike previous releases, Lync Server 2010 supports the new Lync 2013 clients.</span></span> <span data-ttu-id="e2b64-110">Isso permite que as organizações que estão fazendo a atualização do Lync Server 2010 para distribuir novos clientes independentemente das atualizações do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="e2b64-110">This allows organizations who are upgrading from Lync Server 2010 to roll out new clients independent of Lync Server upgrades.</span></span>
+<span data-ttu-id="705c8-106">A tabela a seguir exibe as combinações com suporte de versões de cliente e de servidor.</span><span class="sxs-lookup"><span data-stu-id="705c8-106">The following table shows the supported combinations of client versions and server versions.</span></span> <span data-ttu-id="705c8-107">Esta tabela indica se é permitido entrar quando o cliente tenta se conectar ao servidor indicado.</span><span class="sxs-lookup"><span data-stu-id="705c8-107">This table indicates whether sign-in is supported when the client attempts to connect to the server indicated.</span></span> <span data-ttu-id="705c8-108">O Lync Server 2013 oferece suporte à versão anterior do cliente.</span><span class="sxs-lookup"><span data-stu-id="705c8-108">Lync Server 2013 supports the previous client version.</span></span> <span data-ttu-id="705c8-109">Além disso, ao contrário de versões anteriores, o Lync Server 2010 oferece suporte aos novos clientes do Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="705c8-109">Also, unlike previous releases, Lync Server 2010 supports the new Lync 2013 clients.</span></span> <span data-ttu-id="705c8-110">Isso permite que as organizações que estão atualizando do Lync Server 2010 distribuem novos clientes independentemente das atualizações do Lync Server.</span><span class="sxs-lookup"><span data-stu-id="705c8-110">This allows organizations who are upgrading from Lync Server 2010 to roll out new clients independent of Lync Server upgrades.</span></span>
 
 
 <table>
@@ -55,130 +55,130 @@ ms.locfileid: "41756755"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e2b64-111">Cliente</span><span class="sxs-lookup"><span data-stu-id="e2b64-111">Client</span></span></th>
-<th><span data-ttu-id="e2b64-112">Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e2b64-112">Lync Server 2013</span></span></th>
-<th><span data-ttu-id="e2b64-113">Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="e2b64-113">Lync Server 2010</span></span></th>
-<th><span data-ttu-id="e2b64-114">Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="e2b64-114">Office Communications Server 2007 R2</span></span></th>
+<th><span data-ttu-id="705c8-111">Client</span><span class="sxs-lookup"><span data-stu-id="705c8-111">Client</span></span></th>
+<th><span data-ttu-id="705c8-112">Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="705c8-112">Lync Server 2013</span></span></th>
+<th><span data-ttu-id="705c8-113">Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="705c8-113">Lync Server 2010</span></span></th>
+<th><span data-ttu-id="705c8-114">Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="705c8-114">Office Communications Server 2007 R2</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e2b64-115">Lync 2013</span><span class="sxs-lookup"><span data-stu-id="e2b64-115">Lync 2013</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-116">Com suporte</span><span class="sxs-lookup"><span data-stu-id="e2b64-116">Supported</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-117">Supported5</span><span class="sxs-lookup"><span data-stu-id="e2b64-117">Supported5</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-118">Sem suporte</span><span class="sxs-lookup"><span data-stu-id="e2b64-118">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-115">Lync 2013</span><span class="sxs-lookup"><span data-stu-id="705c8-115">Lync 2013</span></span></p></td>
+<td><p><span data-ttu-id="705c8-116">Com suporte</span><span class="sxs-lookup"><span data-stu-id="705c8-116">Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-117">Supported5</span><span class="sxs-lookup"><span data-stu-id="705c8-117">Supported5</span></span></p></td>
+<td><p><span data-ttu-id="705c8-118">Não suportado</span><span class="sxs-lookup"><span data-stu-id="705c8-118">Not Supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e2b64-119">Lync 2013 Basic</span><span class="sxs-lookup"><span data-stu-id="e2b64-119">Lync 2013 Basic</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-120">Compatível </span><span class="sxs-lookup"><span data-stu-id="e2b64-120">Supported</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-121">Com suporte</span><span class="sxs-lookup"><span data-stu-id="e2b64-121">Supported</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-122">Sem suporte</span><span class="sxs-lookup"><span data-stu-id="e2b64-122">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-119">Lync 2013 Basic</span><span class="sxs-lookup"><span data-stu-id="705c8-119">Lync 2013 Basic</span></span></p></td>
+<td><p><span data-ttu-id="705c8-120">Com suporte</span><span class="sxs-lookup"><span data-stu-id="705c8-120">Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-121">Com suporte</span><span class="sxs-lookup"><span data-stu-id="705c8-121">Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-122">Não suportado</span><span class="sxs-lookup"><span data-stu-id="705c8-122">Not Supported</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e2b64-123">Lync Web App 2013</span><span class="sxs-lookup"><span data-stu-id="e2b64-123">Lync Web App 2013</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-124">Com suporte</span><span class="sxs-lookup"><span data-stu-id="e2b64-124">Supported</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-125">Sem suporte</span><span class="sxs-lookup"><span data-stu-id="e2b64-125">Not Supported</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-126">Sem suporte</span><span class="sxs-lookup"><span data-stu-id="e2b64-126">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-123">Lync Web App 2013</span><span class="sxs-lookup"><span data-stu-id="705c8-123">Lync Web App 2013</span></span></p></td>
+<td><p><span data-ttu-id="705c8-124">Com suporte</span><span class="sxs-lookup"><span data-stu-id="705c8-124">Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-125">Não suportado</span><span class="sxs-lookup"><span data-stu-id="705c8-125">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-126">Não Suportado</span><span class="sxs-lookup"><span data-stu-id="705c8-126">Not Supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e2b64-127">Lync 2010</span><span class="sxs-lookup"><span data-stu-id="e2b64-127">Lync 2010</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-128">Compatível </span><span class="sxs-lookup"><span data-stu-id="e2b64-128">Supported</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-129">Com suporte</span><span class="sxs-lookup"><span data-stu-id="e2b64-129">Supported</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-130">Sem suporte</span><span class="sxs-lookup"><span data-stu-id="e2b64-130">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-127">Lync 2010</span><span class="sxs-lookup"><span data-stu-id="705c8-127">Lync 2010</span></span></p></td>
+<td><p><span data-ttu-id="705c8-128">Com suporte</span><span class="sxs-lookup"><span data-stu-id="705c8-128">Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-129">Com suporte</span><span class="sxs-lookup"><span data-stu-id="705c8-129">Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-130">Não suportado</span><span class="sxs-lookup"><span data-stu-id="705c8-130">Not Supported</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e2b64-131">Lync 2010 Attendant</span><span class="sxs-lookup"><span data-stu-id="e2b64-131">Lync 2010 Attendant</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-132">Compatível </span><span class="sxs-lookup"><span data-stu-id="e2b64-132">Supported</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-133">Com suporte</span><span class="sxs-lookup"><span data-stu-id="e2b64-133">Supported</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-134">Sem suporte</span><span class="sxs-lookup"><span data-stu-id="e2b64-134">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-131">Lync 2010 Attendant</span><span class="sxs-lookup"><span data-stu-id="705c8-131">Lync 2010 Attendant</span></span></p></td>
+<td><p><span data-ttu-id="705c8-132">Com suporte</span><span class="sxs-lookup"><span data-stu-id="705c8-132">Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-133">Com suporte</span><span class="sxs-lookup"><span data-stu-id="705c8-133">Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-134">Não suportado</span><span class="sxs-lookup"><span data-stu-id="705c8-134">Not Supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e2b64-135">Chat de Grupo do Lync 2010</span><span class="sxs-lookup"><span data-stu-id="e2b64-135">Lync 2010 Group Chat</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-136">Supported1</span><span class="sxs-lookup"><span data-stu-id="e2b64-136">Supported1</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-137">Supported2</span><span class="sxs-lookup"><span data-stu-id="e2b64-137">Supported2</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-138">Não aplicável</span><span class="sxs-lookup"><span data-stu-id="e2b64-138">Not Applicable</span></span></p></td>
+<td><p><span data-ttu-id="705c8-135">Chat de grupo do Lync 2010</span><span class="sxs-lookup"><span data-stu-id="705c8-135">Lync 2010 Group Chat</span></span></p></td>
+<td><p><span data-ttu-id="705c8-136">Supported1</span><span class="sxs-lookup"><span data-stu-id="705c8-136">Supported1</span></span></p></td>
+<td><p><span data-ttu-id="705c8-137">Supported2</span><span class="sxs-lookup"><span data-stu-id="705c8-137">Supported2</span></span></p></td>
+<td><p><span data-ttu-id="705c8-138">Não aplicável</span><span class="sxs-lookup"><span data-stu-id="705c8-138">Not Applicable</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e2b64-139">Lync Web App 2010</span><span class="sxs-lookup"><span data-stu-id="e2b64-139">Lync Web App 2010</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-140">Sem suporte</span><span class="sxs-lookup"><span data-stu-id="e2b64-140">Not Supported</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-141">Com suporte</span><span class="sxs-lookup"><span data-stu-id="e2b64-141">Supported</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-142">Sem suporte</span><span class="sxs-lookup"><span data-stu-id="e2b64-142">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-139">Lync Web App 2010</span><span class="sxs-lookup"><span data-stu-id="705c8-139">Lync Web App 2010</span></span></p></td>
+<td><p><span data-ttu-id="705c8-140">Não Suportado</span><span class="sxs-lookup"><span data-stu-id="705c8-140">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-141">Com suporte</span><span class="sxs-lookup"><span data-stu-id="705c8-141">Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-142">Não suportado</span><span class="sxs-lookup"><span data-stu-id="705c8-142">Not Supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e2b64-143">Lync 2010 Attendee</span><span class="sxs-lookup"><span data-stu-id="e2b64-143">Lync 2010 Attendee</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-144">Não Supported3</span><span class="sxs-lookup"><span data-stu-id="e2b64-144">Not Supported3</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-145">Com suporte</span><span class="sxs-lookup"><span data-stu-id="e2b64-145">Supported</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-146">Sem suporte</span><span class="sxs-lookup"><span data-stu-id="e2b64-146">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-143">Lync 2010 Attendee</span><span class="sxs-lookup"><span data-stu-id="705c8-143">Lync 2010 Attendee</span></span></p></td>
+<td><p><span data-ttu-id="705c8-144">Não Supported3</span><span class="sxs-lookup"><span data-stu-id="705c8-144">Not Supported3</span></span></p></td>
+<td><p><span data-ttu-id="705c8-145">Com suporte</span><span class="sxs-lookup"><span data-stu-id="705c8-145">Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-146">Não suportado</span><span class="sxs-lookup"><span data-stu-id="705c8-146">Not Supported</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e2b64-147">Office Communicator 2007 R2</span><span class="sxs-lookup"><span data-stu-id="e2b64-147">Office Communicator 2007 R2</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-148">Interoperable4</span><span class="sxs-lookup"><span data-stu-id="e2b64-148">Interoperable4</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-149">Compatível </span><span class="sxs-lookup"><span data-stu-id="e2b64-149">Supported</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-150">Compatível</span><span class="sxs-lookup"><span data-stu-id="e2b64-150">Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-147">Office Communicator 2007 R2</span><span class="sxs-lookup"><span data-stu-id="705c8-147">Office Communicator 2007 R2</span></span></p></td>
+<td><p><span data-ttu-id="705c8-148">Interoperable4</span><span class="sxs-lookup"><span data-stu-id="705c8-148">Interoperable4</span></span></p></td>
+<td><p><span data-ttu-id="705c8-149">Com suporte</span><span class="sxs-lookup"><span data-stu-id="705c8-149">Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-150">Com suporte</span><span class="sxs-lookup"><span data-stu-id="705c8-150">Supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e2b64-151">Microsoft Office Communications Server 2007 R2 Attendant</span><span class="sxs-lookup"><span data-stu-id="e2b64-151">Microsoft Office Communications Server 2007 R2 Attendant</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-152">Sem suporte</span><span class="sxs-lookup"><span data-stu-id="e2b64-152">Not Supported</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-153">Compatível </span><span class="sxs-lookup"><span data-stu-id="e2b64-153">Supported</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-154">Compatível</span><span class="sxs-lookup"><span data-stu-id="e2b64-154">Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-151">Microsoft Office Communications Server 2007 R2 Attendant</span><span class="sxs-lookup"><span data-stu-id="705c8-151">Microsoft Office Communications Server 2007 R2 Attendant</span></span></p></td>
+<td><p><span data-ttu-id="705c8-152">Não Suportado</span><span class="sxs-lookup"><span data-stu-id="705c8-152">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-153">Com suporte</span><span class="sxs-lookup"><span data-stu-id="705c8-153">Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-154">Com suporte</span><span class="sxs-lookup"><span data-stu-id="705c8-154">Supported</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e2b64-155">Office Communicator 2007</span><span class="sxs-lookup"><span data-stu-id="e2b64-155">Office Communicator 2007</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-156">Sem suporte</span><span class="sxs-lookup"><span data-stu-id="e2b64-156">Not Supported</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-157">Compatível </span><span class="sxs-lookup"><span data-stu-id="e2b64-157">Supported</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-158">Compatível</span><span class="sxs-lookup"><span data-stu-id="e2b64-158">Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-155">Office Communicator 2007</span><span class="sxs-lookup"><span data-stu-id="705c8-155">Office Communicator 2007</span></span></p></td>
+<td><p><span data-ttu-id="705c8-156">Não Suportado</span><span class="sxs-lookup"><span data-stu-id="705c8-156">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-157">Com suporte</span><span class="sxs-lookup"><span data-stu-id="705c8-157">Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-158">Com suporte</span><span class="sxs-lookup"><span data-stu-id="705c8-158">Supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e2b64-159">Office Live Meeting 2007</span><span class="sxs-lookup"><span data-stu-id="e2b64-159">Office Live Meeting 2007</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-160">Sem suporte</span><span class="sxs-lookup"><span data-stu-id="e2b64-160">Not Supported</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-161">Compatível </span><span class="sxs-lookup"><span data-stu-id="e2b64-161">Supported</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-162">Compatível</span><span class="sxs-lookup"><span data-stu-id="e2b64-162">Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-159">Office Live Meeting 2007</span><span class="sxs-lookup"><span data-stu-id="705c8-159">Office Live Meeting 2007</span></span></p></td>
+<td><p><span data-ttu-id="705c8-160">Não Suportado</span><span class="sxs-lookup"><span data-stu-id="705c8-160">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-161">Com suporte</span><span class="sxs-lookup"><span data-stu-id="705c8-161">Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-162">Com suporte</span><span class="sxs-lookup"><span data-stu-id="705c8-162">Supported</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e2b64-163">Aplicativo Lync Windows Store</span><span class="sxs-lookup"><span data-stu-id="e2b64-163">Lync Windows Store app</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-164">Compatível </span><span class="sxs-lookup"><span data-stu-id="e2b64-164">Supported</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-165">Com suporte</span><span class="sxs-lookup"><span data-stu-id="e2b64-165">Supported</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-166">Sem suporte</span><span class="sxs-lookup"><span data-stu-id="e2b64-166">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-163">Aplicativo Lync da Windows Store</span><span class="sxs-lookup"><span data-stu-id="705c8-163">Lync Windows Store app</span></span></p></td>
+<td><p><span data-ttu-id="705c8-164">Com suporte</span><span class="sxs-lookup"><span data-stu-id="705c8-164">Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-165">Com suporte</span><span class="sxs-lookup"><span data-stu-id="705c8-165">Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-166">Não suportado</span><span class="sxs-lookup"><span data-stu-id="705c8-166">Not Supported</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="e2b64-167">1Para obter detalhes, confira [migrar do Lync Server 2010, chat em grupo ou Office Communications Server 2007 R2 Grupo chat para o Lync server 2013, servidor de chat persistente](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md).</span><span class="sxs-lookup"><span data-stu-id="e2b64-167">1For details, see [Migration from Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat to Lync Server 2013, Persistent Chat Server](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md).</span></span>
+<span data-ttu-id="705c8-167">1Para obter detalhes, consulte [migração do Lync Server 2010, chat de grupo ou Office Communications Server 2007 R2 Group Chat to Lync server 2013, servidor de chat persistente](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md).</span><span class="sxs-lookup"><span data-stu-id="705c8-167">1For details, see [Migration from Lync Server 2010, Group Chat or Office Communications Server 2007 R2 Group Chat to Lync Server 2013, Persistent Chat Server](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md).</span></span>
 
-<span data-ttu-id="e2b64-168">2In Microsoft Lync Server 2010, a funcionalidade do chat em grupo estava disponível com o servidor de chat em grupo, um aplicativo confiável de terceiros para o Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="e2b64-168">2In Microsoft Lync Server 2010, group chat functionality was available with Group Chat Server, a third-party trusted application for Lync Server 2010.</span></span> <span data-ttu-id="e2b64-169">Os clientes do Lync 2013 não são compatíveis com o Lync Server 2010, o chat em grupo.</span><span class="sxs-lookup"><span data-stu-id="e2b64-169">Lync 2013 clients are not compatible with Lync Server 2010, Group Chat.</span></span>
+<span data-ttu-id="705c8-168">2In Microsoft Lync Server 2010, a funcionalidade de chat de grupo estava disponível com o servidor de chat de grupo, um aplicativo confiável de terceiros para o Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="705c8-168">2In Microsoft Lync Server 2010, group chat functionality was available with Group Chat Server, a third-party trusted application for Lync Server 2010.</span></span> <span data-ttu-id="705c8-169">Os clientes do Lync 2013 não são compatíveis com o Lync Server 2010, o chat de grupo.</span><span class="sxs-lookup"><span data-stu-id="705c8-169">Lync 2013 clients are not compatible with Lync Server 2010, Group Chat.</span></span>
 
-<span data-ttu-id="e2b64-170">o 3Lync Web App 2013 agora oferece uma experiência completa na reunião, incluindo áudio e vídeo do computador, e é considerado como substituto para o participante do Lync 2010.</span><span class="sxs-lookup"><span data-stu-id="e2b64-170">3Lync Web App 2013 now provides a full in-meeting experience, including computer audio and video, and is considered the replacement for Lync 2010 Attendee.</span></span> <span data-ttu-id="e2b64-171">O Lync 2010 se conectará ao Lync Server 2013 somente quando você estiver usando um navegador sem suporte (Internet Explorer 6 ou Internet Explorer 7) e Windows XP.</span><span class="sxs-lookup"><span data-stu-id="e2b64-171">Lync 2010 Attendee will connect to Lync Server 2013 only when you are using an unsupported browser (Internet Explorer 6 or Internet Explorer 7) and Windows XP.</span></span>
+<span data-ttu-id="705c8-170">o 3Lync Web App 2013 agora fornece uma experiência de reunião completa, incluindo áudio e vídeo do computador e é considerado como substituto para o participante do Lync 2010.</span><span class="sxs-lookup"><span data-stu-id="705c8-170">3Lync Web App 2013 now provides a full in-meeting experience, including computer audio and video, and is considered the replacement for Lync 2010 Attendee.</span></span> <span data-ttu-id="705c8-171">Lync 2010 o participante se conectará ao Lync Server 2013 somente quando você estiver usando um navegador sem suporte (Internet Explorer 6 ou Internet Explorer 7) e Windows XP.</span><span class="sxs-lookup"><span data-stu-id="705c8-171">Lync 2010 Attendee will connect to Lync Server 2013 only when you are using an unsupported browser (Internet Explorer 6 or Internet Explorer 7) and Windows XP.</span></span>
 
-<span data-ttu-id="e2b64-172">os recursos de presença e de mensagem instantânea do 4The no Office Communicator 2007 R2 são compatíveis com o Lync Server 2013, mas os recursos de conferência não são.</span><span class="sxs-lookup"><span data-stu-id="e2b64-172">4The presence and IM features in Office Communicator 2007 R2 are compatible with Lync Server 2013, but conferencing features are not.</span></span> <span data-ttu-id="e2b64-173">Durante a migração do Office Communications Server 2007 R2, o Office Communicator 2007 R2 é adequado para presença e interoperabilidade de mensagens instantâneas, mas os usuários devem usar o Lync Web App 2013 para ingressar em reuniões do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e2b64-173">During migration from Office Communications Server 2007 R2, Office Communicator 2007 R2 is suitable for presence and IM interoperability, but users should use Lync Web App 2013 to join Lync Server 2013 meetings.</span></span>
+<span data-ttu-id="705c8-172">os recursos de presença e IM do 4The no Office Communicator 2007 R2 são compatíveis com o Lync Server 2013, mas os recursos de conferência não.</span><span class="sxs-lookup"><span data-stu-id="705c8-172">4The presence and IM features in Office Communicator 2007 R2 are compatible with Lync Server 2013, but conferencing features are not.</span></span> <span data-ttu-id="705c8-173">Durante a migração do Office Communications Server 2007 R2, o Office Communicator 2007 R2 é adequado para a interoperabilidade de presença e de mensagens instantâneas, mas os usuários devem usar o Lync Web App 2013 para ingressar em reuniões do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="705c8-173">During migration from Office Communications Server 2007 R2, Office Communicator 2007 R2 is suitable for presence and IM interoperability, but users should use Lync Web App 2013 to join Lync Server 2013 meetings.</span></span>
 
-<span data-ttu-id="e2b64-174">5 para obter limitações, consulte "recurso de conferência de suporte para clientes do Lync 2013 no Lync Server 2010 reuniões" mais adiante neste tópico.</span><span class="sxs-lookup"><span data-stu-id="e2b64-174">5 For limitations, see "Conferencing Feature Support for Lync 2013 Clients in Lync Server 2010 Meetings" later in this topic.</span></span>
+<span data-ttu-id="705c8-174">5 para obter limitações, consulte "suporte de recurso de conferência para clientes do Lync 2013 no Lync Server 2010 reuniões", mais adiante neste tópico.</span><span class="sxs-lookup"><span data-stu-id="705c8-174">5 For limitations, see "Conferencing Feature Support for Lync 2013 Clients in Lync Server 2010 Meetings" later in this topic.</span></span>
 
 </div>
 
 <div>
 
-## <a name="interoperability-among-clients"></a><span data-ttu-id="e2b64-175">Interoperabilidade entre clientes</span><span class="sxs-lookup"><span data-stu-id="e2b64-175">Interoperability among Clients</span></span>
+## <a name="interoperability-among-clients"></a><span data-ttu-id="705c8-175">Interoperabilidade entre clientes</span><span class="sxs-lookup"><span data-stu-id="705c8-175">Interoperability among Clients</span></span>
 
-<span data-ttu-id="e2b64-176">Com o lançamento do Lync Server 2013, várias versões de cliente podem interagir perfeitamente em cenários ponto a ponto e conferência.</span><span class="sxs-lookup"><span data-stu-id="e2b64-176">With the Lync Server 2013 release, various client versions can interact seamlessly in both peer-to-peer and conferencing scenarios.</span></span> <span data-ttu-id="e2b64-177">Esta seção discute a disponibilidade de recursos quando os usuários interagem com outros usuários que usam versões diferentes de clientes e servidores.</span><span class="sxs-lookup"><span data-stu-id="e2b64-177">This section discusses feature availability when users interact with other users who are using different versions of clients and servers.</span></span>
+<span data-ttu-id="705c8-176">Com a versão 2013 do Lync Server, várias versões do cliente podem interagir perfeitamente nos cenários de ponto a ponto e de conferência.</span><span class="sxs-lookup"><span data-stu-id="705c8-176">With the Lync Server 2013 release, various client versions can interact seamlessly in both peer-to-peer and conferencing scenarios.</span></span> <span data-ttu-id="705c8-177">Esta seção discute a disponibilidade de recursos quando os usuários interagem com outros usuários, que estejam usando versões diferentes de clientes e servidores.</span><span class="sxs-lookup"><span data-stu-id="705c8-177">This section discusses feature availability when users interact with other users who are using different versions of clients and servers.</span></span>
 
 <div>
 
-## <a name="peer-to-peer-feature-support"></a><span data-ttu-id="e2b64-178">Suporte a recursos ponto a ponto</span><span class="sxs-lookup"><span data-stu-id="e2b64-178">Peer-to-Peer Feature Support</span></span>
+## <a name="peer-to-peer-feature-support"></a><span data-ttu-id="705c8-178">Suporte ao recurso ponto a ponto</span><span class="sxs-lookup"><span data-stu-id="705c8-178">Peer-to-Peer Feature Support</span></span>
 
-<span data-ttu-id="e2b64-179">Os recursos ponto a ponto são suportados para os usuários que são hospedados em diferentes versões do servidor e quem está usando versões diferentes do cliente.</span><span class="sxs-lookup"><span data-stu-id="e2b64-179">Peer-to-peer features are supported for users who are homed on different versions of the server and who are using different client versions.</span></span> <span data-ttu-id="e2b64-180">A experiência do usuário final e os recursos disponíveis são consistentes com os recursos do cliente do usuário e a versão do servidor ao qual o usuário está conectado.</span><span class="sxs-lookup"><span data-stu-id="e2b64-180">The end-user experience and available features are consistent with the capabilities of the user’s client and the version of the server the user is signed in to.</span></span> <span data-ttu-id="e2b64-181">Em outras palavras:</span><span class="sxs-lookup"><span data-stu-id="e2b64-181">In other words:</span></span>
+<span data-ttu-id="705c8-p106">Recursos ponto a ponto são suportados para usuários que estão hospedados em versões diferentes do servidor e que estejam usando versões de cliente diferentes. A experiência do usuário final e os recursos disponíveis são consistentes com os recursos do cliente do usuário e a versão do servidor em que o usuário entrou. Em outras palavras:</span><span class="sxs-lookup"><span data-stu-id="705c8-p106">Peer-to-peer features are supported for users who are homed on different versions of the server and who are using different client versions. The end-user experience and available features are consistent with the capabilities of the user’s client and the version of the server the user is signed in to. In other words:</span></span>
 
-  - <span data-ttu-id="e2b64-182">Se um usuário estiver conectado ao Lync Server 2013 com um cliente mais antigo, o usuário terá a mesma experiência para a qual ele é usado.</span><span class="sxs-lookup"><span data-stu-id="e2b64-182">If a user is signed in to Lync Server 2013 with an older client, the user will have the same experience he or she is used to.</span></span> <span data-ttu-id="e2b64-183">Nenhum dos novos recursos introduzidos no Lync Server 2013 estará disponível até que o cliente do usuário seja atualizado.</span><span class="sxs-lookup"><span data-stu-id="e2b64-183">None of the new features introduced in Lync Server 2013 will be available until the user’s client is upgraded.</span></span> <span data-ttu-id="e2b64-184">Exemplos incluem modo de exibição de galeria de vídeos, vídeo em HD, compartilhamento do PowerPoint atualizado e a opção de ativar o áudio e o vídeo dos participantes após a entrada da reunião.</span><span class="sxs-lookup"><span data-stu-id="e2b64-184">Examples include video gallery view, HD video, updated PowerPoint sharing, and the option to mute all attendee audio and video upon meeting entry.</span></span> <span data-ttu-id="e2b64-185">Os novos recursos estão descritos nos [novos recursos de conferência do Lync server 2013](lync-server-2013-new-conferencing-features.md) e novidades [para clientes do Lync Server 2013](lync-server-2013-what-s-new-for-clients.md).</span><span class="sxs-lookup"><span data-stu-id="e2b64-185">The new features are outlined in [New conferencing features in Lync Server 2013](lync-server-2013-new-conferencing-features.md) and [What's new for clients in Lync Server 2013](lync-server-2013-what-s-new-for-clients.md).</span></span>
+  - <span data-ttu-id="705c8-182">Se um usuário estiver conectado ao Lync Server 2013 com um cliente mais antigo, o usuário terá a mesma experiência para a qual ele é usado.</span><span class="sxs-lookup"><span data-stu-id="705c8-182">If a user is signed in to Lync Server 2013 with an older client, the user will have the same experience he or she is used to.</span></span> <span data-ttu-id="705c8-183">Nenhum dos novos recursos introduzidos no Lync Server 2013 estará disponível até que o cliente do usuário seja atualizado.</span><span class="sxs-lookup"><span data-stu-id="705c8-183">None of the new features introduced in Lync Server 2013 will be available until the user’s client is upgraded.</span></span> <span data-ttu-id="705c8-184">Os exemplos incluem visualização de galeria de vídeo, vídeo HD, compartilhamento do PowerPoint atualizado e a opção de ativar o áudio e vídeo de todos os participantes na entrada da reunião.</span><span class="sxs-lookup"><span data-stu-id="705c8-184">Examples include video gallery view, HD video, updated PowerPoint sharing, and the option to mute all attendee audio and video upon meeting entry.</span></span> <span data-ttu-id="705c8-185">Os novos recursos são descritos em [novos recursos de conferência no Lync Server 2013](lync-server-2013-new-conferencing-features.md) e [o que há de novo para clientes no Lync Server 2013](lync-server-2013-what-s-new-for-clients.md).</span><span class="sxs-lookup"><span data-stu-id="705c8-185">The new features are outlined in [New conferencing features in Lync Server 2013](lync-server-2013-new-conferencing-features.md) and [What's new for clients in Lync Server 2013](lync-server-2013-what-s-new-for-clients.md).</span></span>
 
-  - <span data-ttu-id="e2b64-186">Se um usuário estiver conectado ao Lync Server 2010 com um cliente do Lync 2013, todos os novos recursos não suportados pelo Lync Server 2010 ficarão indisponíveis até que o usuário seja movido para o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e2b64-186">If a user is signed in to Lync Server 2010 with a Lync 2013 client, any new features not supported by Lync Server 2010 will be unavailable until the user is moved to Lync Server 2013.</span></span>
+  - <span data-ttu-id="705c8-186">Se um usuário estiver conectado ao Lync Server 2010 com um cliente do Lync 2013, todos os novos recursos não suportados pelo Lync Server 2010 não estarão disponíveis até que o usuário seja movido para o Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="705c8-186">If a user is signed in to Lync Server 2010 with a Lync 2013 client, any new features not supported by Lync Server 2010 will be unavailable until the user is moved to Lync Server 2013.</span></span>
 
-<span data-ttu-id="e2b64-187">A tabela a seguir compara a disponibilidade de recursos em sessões ponto a ponto nas quais o cliente está conectado ao Lync Server 2013 ou ao Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="e2b64-187">The following table compares feature availability in peer-to-peer sessions where the client is signed in to either Lync Server 2013 or Lync Server 2010.</span></span>
+<span data-ttu-id="705c8-187">A tabela a seguir compara a disponibilidade de recursos em sessões ponto a ponto nas quais o cliente está conectado ao Lync Server 2013 ou ao Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="705c8-187">The following table compares feature availability in peer-to-peer sessions where the client is signed in to either Lync Server 2013 or Lync Server 2010.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="e2b64-188">O Lync Web App e o Lync 2010 participantes são somente clientes de reunião e não estão incluídos nesta tabela.</span><span class="sxs-lookup"><span data-stu-id="e2b64-188">Lync Web App and Lync 2010 Attendee are meeting-only clients and aren’t included in this table.</span></span>
+> <span data-ttu-id="705c8-188">Lync Web App e Lync 2010 o participante são clientes somente da reunião e não estão incluídos nesta tabela.</span><span class="sxs-lookup"><span data-stu-id="705c8-188">Lync Web App and Lync 2010 Attendee are meeting-only clients and aren’t included in this table.</span></span>
 
 
 
@@ -197,94 +197,94 @@ ms.locfileid: "41756755"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e2b64-189">Cliente</span><span class="sxs-lookup"><span data-stu-id="e2b64-189">Client</span></span></th>
-<th><span data-ttu-id="e2b64-190">Mensagens instantâneas</span><span class="sxs-lookup"><span data-stu-id="e2b64-190">Instant Messaging</span></span></th>
-<th><span data-ttu-id="e2b64-191">Presença</span><span class="sxs-lookup"><span data-stu-id="e2b64-191">Presence</span></span></th>
-<th><span data-ttu-id="e2b64-192">Voz</span><span class="sxs-lookup"><span data-stu-id="e2b64-192">Voice</span></span></th>
-<th><span data-ttu-id="e2b64-193">Vídeo</span><span class="sxs-lookup"><span data-stu-id="e2b64-193">Video</span></span></th>
-<th><span data-ttu-id="e2b64-194">Compartilhamento de Aplicativos</span><span class="sxs-lookup"><span data-stu-id="e2b64-194">Application Sharing</span></span></th>
-<th><span data-ttu-id="e2b64-195">Transferência de arquivos</span><span class="sxs-lookup"><span data-stu-id="e2b64-195">File Transfer</span></span></th>
+<th><span data-ttu-id="705c8-189">Client</span><span class="sxs-lookup"><span data-stu-id="705c8-189">Client</span></span></th>
+<th><span data-ttu-id="705c8-190">Sistema de Mensagens Instantâneas</span><span class="sxs-lookup"><span data-stu-id="705c8-190">Instant Messaging</span></span></th>
+<th><span data-ttu-id="705c8-191">Presença</span><span class="sxs-lookup"><span data-stu-id="705c8-191">Presence</span></span></th>
+<th><span data-ttu-id="705c8-192">Voz</span><span class="sxs-lookup"><span data-stu-id="705c8-192">Voice</span></span></th>
+<th><span data-ttu-id="705c8-193">Vídeo</span><span class="sxs-lookup"><span data-stu-id="705c8-193">Video</span></span></th>
+<th><span data-ttu-id="705c8-194">Compartilhamento de Aplicativos</span><span class="sxs-lookup"><span data-stu-id="705c8-194">Application Sharing</span></span></th>
+<th><span data-ttu-id="705c8-195">Transferência de Arquivos</span><span class="sxs-lookup"><span data-stu-id="705c8-195">File Transfer</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e2b64-196">Lync 2013</span><span class="sxs-lookup"><span data-stu-id="e2b64-196">Lync 2013</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-197">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-197">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-198">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-198">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-199">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-199">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-200">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-200">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-201">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-201">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-202">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-202">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-196">Lync 2013</span><span class="sxs-lookup"><span data-stu-id="705c8-196">Lync 2013</span></span></p></td>
+<td><p><span data-ttu-id="705c8-197">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-197">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-198">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-198">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-199">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-199">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-200">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-200">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-201">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-201">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-202">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-202">Yes</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e2b64-203">Lync 2013 Basic</span><span class="sxs-lookup"><span data-stu-id="e2b64-203">Lync 2013 Basic</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-204">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-204">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-205">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-205">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-206">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-206">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-207">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-207">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-208">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-208">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-209">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-209">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-203">Lync 2013 Basic</span><span class="sxs-lookup"><span data-stu-id="705c8-203">Lync 2013 Basic</span></span></p></td>
+<td><p><span data-ttu-id="705c8-204">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-204">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-205">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-205">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-206">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-206">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-207">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-207">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-208">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-208">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-209">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-209">Yes</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e2b64-210">Lync 2010</span><span class="sxs-lookup"><span data-stu-id="e2b64-210">Lync 2010</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-211">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-211">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-212">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-212">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-213">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-213">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-214">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-214">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-215">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-215">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-216">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-216">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-210">Lync 2010</span><span class="sxs-lookup"><span data-stu-id="705c8-210">Lync 2010</span></span></p></td>
+<td><p><span data-ttu-id="705c8-211">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-211">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-212">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-212">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-213">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-213">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-214">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-214">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-215">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-215">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-216">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-216">Yes</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e2b64-217">Lync 2010 Attendant</span><span class="sxs-lookup"><span data-stu-id="e2b64-217">Lync 2010 Attendant</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-218">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-218">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-219">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-219">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-220">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-220">Yes</span></span></p></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="e2b64-221">Lync 2010 Mobile</span><span class="sxs-lookup"><span data-stu-id="e2b64-221">Lync 2010 Mobile</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-222">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-222">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-223">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-223">Yes</span></span></p></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="e2b64-224">Lync Phone Edition</span><span class="sxs-lookup"><span data-stu-id="e2b64-224">Lync Phone Edition</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-225">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-225">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-226">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-226">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-227">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-227">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-217">Lync 2010 Attendant</span><span class="sxs-lookup"><span data-stu-id="705c8-217">Lync 2010 Attendant</span></span></p></td>
+<td><p><span data-ttu-id="705c8-218">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-218">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-219">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-219">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-220">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-220">Yes</span></span></p></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e2b64-228">Office Communicator 2007 R2</span><span class="sxs-lookup"><span data-stu-id="e2b64-228">Office Communicator 2007 R2</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-229">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-229">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-230">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-230">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-231">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-231">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-232">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-232">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-233">Sim1</span><span class="sxs-lookup"><span data-stu-id="e2b64-233">Yes1</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-234">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-234">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-221">Lync 2010 Mobile</span><span class="sxs-lookup"><span data-stu-id="705c8-221">Lync 2010 Mobile</span></span></p></td>
+<td><p><span data-ttu-id="705c8-222">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-222">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-223">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-223">Yes</span></span></p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e2b64-235">MENSAGEM de chat pública (AOL, Yahoo!)</span><span class="sxs-lookup"><span data-stu-id="e2b64-235">Public IM (AOL, Yahoo!)</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-236">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-236">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-237">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-237">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-224">Lync Phone Edition</span><span class="sxs-lookup"><span data-stu-id="705c8-224">Lync Phone Edition</span></span></p></td>
+<td><p><span data-ttu-id="705c8-225">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-225">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-226">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-226">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-227">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-227">Yes</span></span></p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="705c8-228">Office Communicator 2007 R2</span><span class="sxs-lookup"><span data-stu-id="705c8-228">Office Communicator 2007 R2</span></span></p></td>
+<td><p><span data-ttu-id="705c8-229">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-229">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-230">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-230">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-231">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-231">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-232">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-232">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-233">Yes1</span><span class="sxs-lookup"><span data-stu-id="705c8-233">Yes1</span></span></p></td>
+<td><p><span data-ttu-id="705c8-234">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-234">Yes</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="705c8-235">Rede pública de IM (AOL, Yahoo!)</span><span class="sxs-lookup"><span data-stu-id="705c8-235">Public IM (AOL, Yahoo!)</span></span></p></td>
+<td><p><span data-ttu-id="705c8-236">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-236">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-237">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-237">Yes</span></span></p></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e2b64-238">MENSAGEM de chat pública (MSN, Windows Live Messenger)</span><span class="sxs-lookup"><span data-stu-id="e2b64-238">Public IM (MSN, Windows Live Messenger)</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-239">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-239">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-240">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-240">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-241">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-241">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-242">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-242">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-238">Mensagens instantâneas públicas (MSN, Windows Live Messenger)</span><span class="sxs-lookup"><span data-stu-id="705c8-238">Public IM (MSN, Windows Live Messenger)</span></span></p></td>
+<td><p><span data-ttu-id="705c8-239">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-239">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-240">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-240">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-241">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-241">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-242">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-242">Yes</span></span></p></td>
 <td></td>
 <td></td>
 </tr>
@@ -298,23 +298,23 @@ ms.locfileid: "41756755"
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P><span data-ttu-id="e2b64-243">A partir de 1º de setembro de 2012, a licença de assinatura de usuário da conectividade de mensagem de chat pública do Microsoft Lync (PIC USL) não está mais disponível para a compra de contratos novos ou de renovação.</span><span class="sxs-lookup"><span data-stu-id="e2b64-243">As of September 1st, 2012, the Microsoft Lync Public IM Connectivity User Subscription License (PIC USL) is no longer available for the purchase for new or renewing agreements.</span></span> <span data-ttu-id="e2b64-244">Os clientes com licenças ativas poderão continuar a federar-se com o Yahoo!</span><span class="sxs-lookup"><span data-stu-id="e2b64-244">Customers with active licenses will be able to continue to federate with Yahoo!</span></span> <span data-ttu-id="e2b64-245">Messenger até a data de desligamento do serviço.</span><span class="sxs-lookup"><span data-stu-id="e2b64-245">Messenger until the service shutdown date.</span></span> <span data-ttu-id="e2b64-246">Uma data de fim da vida útil de junho de 2014 para AOL e Yahoo!</span><span class="sxs-lookup"><span data-stu-id="e2b64-246">An end of life date of June 2014 for AOL and Yahoo!</span></span> <span data-ttu-id="e2b64-247">foi anunciado.</span><span class="sxs-lookup"><span data-stu-id="e2b64-247">has been announced.</span></span> <span data-ttu-id="e2b64-248">Para obter detalhes, consulte <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">suporte para conectividade de mensagens instantâneas públicas no Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="e2b64-248">For details, see <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for public instant messenger connectivity in Lync Server 2013</A>..</span></span></P>
+> <P><span data-ttu-id="705c8-243">A partir de 1º de setembro de 2012, a licença de assinatura de usuário da conectividade de IM pública do Microsoft Lync (PIC USL) não está mais disponível para a compra de contratos novos ou de renovação.</span><span class="sxs-lookup"><span data-stu-id="705c8-243">As of September 1st, 2012, the Microsoft Lync Public IM Connectivity User Subscription License (PIC USL) is no longer available for the purchase for new or renewing agreements.</span></span> <span data-ttu-id="705c8-244">Os clientes com licenças ativas poderão continuar a se federar com o Yahoo!</span><span class="sxs-lookup"><span data-stu-id="705c8-244">Customers with active licenses will be able to continue to federate with Yahoo!</span></span> <span data-ttu-id="705c8-245">Messenger até a data de desligamento do serviço.</span><span class="sxs-lookup"><span data-stu-id="705c8-245">Messenger until the service shutdown date.</span></span> <span data-ttu-id="705c8-246">Uma data de fim de vida de junho de 2014 para AOL e Yahoo!</span><span class="sxs-lookup"><span data-stu-id="705c8-246">An end of life date of June 2014 for AOL and Yahoo!</span></span> <span data-ttu-id="705c8-247">foi anunciado.</span><span class="sxs-lookup"><span data-stu-id="705c8-247">has been announced.</span></span> <span data-ttu-id="705c8-248">Para obter detalhes, consulte <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">support for Public Instant Messenger Connectivity in Lync Server 2013</A>..</span><span class="sxs-lookup"><span data-stu-id="705c8-248">For details, see <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for public instant messenger connectivity in Lync Server 2013</A>..</span></span></P>
 > <LI>
-> <P><span data-ttu-id="e2b64-249">O PIC USL é uma licença de assinatura por usuário e por mês necessária para o Lync Server ou o Office Communications Server se federar com o Yahoo!</span><span class="sxs-lookup"><span data-stu-id="e2b64-249">The PIC USL is a per-user, per-month subscription license that is required for Lync Server or Office Communications Server to federate with Yahoo!</span></span> <span data-ttu-id="e2b64-250">Spam.</span><span class="sxs-lookup"><span data-stu-id="e2b64-250">Messenger.</span></span> <span data-ttu-id="e2b64-251">O recurso da Microsoft para fornecer esse serviço tem o apoio acordado do Yahoo!, o contrato subjacente para o qual não será renovado.</span><span class="sxs-lookup"><span data-stu-id="e2b64-251">Microsoft’s ability to provide this service has been contingent upon support from Yahoo!, the underlying agreement for which will not be renewed.</span></span></P>
+> <P><span data-ttu-id="705c8-249">O PIC USL é uma licença de assinatura por usuário, por mês, necessária para o Lync Server ou o Office Communications Server federar-se com o Yahoo!</span><span class="sxs-lookup"><span data-stu-id="705c8-249">The PIC USL is a per-user, per-month subscription license that is required for Lync Server or Office Communications Server to federate with Yahoo!</span></span> <span data-ttu-id="705c8-250">Instantânea.</span><span class="sxs-lookup"><span data-stu-id="705c8-250">Messenger.</span></span> <span data-ttu-id="705c8-251">A capacidade da Microsoft de fornecer esse serviço tem sido contingente o suporte da Yahoo!, o contrato subjacente para o qual não será renovado.</span><span class="sxs-lookup"><span data-stu-id="705c8-251">Microsoft’s ability to provide this service has been contingent upon support from Yahoo!, the underlying agreement for which will not be renewed.</span></span></P>
 > <LI>
-> <P><span data-ttu-id="e2b64-252">Mais do que nunca, o Lync é uma ferramenta poderosa para a conexão entre organizações e pessoas ao redor do mundo.</span><span class="sxs-lookup"><span data-stu-id="e2b64-252">More than ever, Lync is a powerful tool for connecting across organizations and with individuals around the world.</span></span> <span data-ttu-id="e2b64-253">A Federação com o Windows Live Messenger não requer licenças de usuário/dispositivo adicionais além da CAL padrão do Lync.</span><span class="sxs-lookup"><span data-stu-id="e2b64-253">Federation with Windows Live Messenger requires no additional user/device licenses beyond the Lync Standard CAL.</span></span> <span data-ttu-id="e2b64-254">A Federação do Skype será adicionada a essa lista, permitindo que os usuários do Lync atinjam centenas de milhões de pessoas por meio de mensagens instantâneas e de voz.</span><span class="sxs-lookup"><span data-stu-id="e2b64-254">Skype federation will be added to this list, enabling Lync users to reach hundreds of millions of people through IM and voice.</span></span></P></LI></UL>
+> <P><span data-ttu-id="705c8-252">Mais do que nunca, o Lync é uma poderosa ferramenta para a conexão entre organizações e pessoas em todo o mundo.</span><span class="sxs-lookup"><span data-stu-id="705c8-252">More than ever, Lync is a powerful tool for connecting across organizations and with individuals around the world.</span></span> <span data-ttu-id="705c8-253">A Federação com o Windows Live Messenger não requer licenças de usuário/dispositivo adicionais além da CAL padrão do Lync.</span><span class="sxs-lookup"><span data-stu-id="705c8-253">Federation with Windows Live Messenger requires no additional user/device licenses beyond the Lync Standard CAL.</span></span> <span data-ttu-id="705c8-254">A Federação do Skype será adicionada à lista, permitindo que os usuários do Lync atinjam centenas de milhões de pessoas por meio de IM e voz.</span><span class="sxs-lookup"><span data-stu-id="705c8-254">Skype federation will be added to this list, enabling Lync users to reach hundreds of millions of people through IM and voice.</span></span></P></LI></UL>
 
 
 
 </div>
 
-<span data-ttu-id="e2b64-255">1 no Office Communicator 2007 R2, somente o compartilhamento de área de trabalho (e não o compartilhamento de programas) está disponível.</span><span class="sxs-lookup"><span data-stu-id="e2b64-255">1 In Office Communicator 2007 R2, only desktop sharing (and not program sharing) is available.</span></span>
+<span data-ttu-id="705c8-255">1 no Office Communicator 2007 R2, somente o compartilhamento de área de trabalho (e não o compartilhamento de programas) está disponível.</span><span class="sxs-lookup"><span data-stu-id="705c8-255">1 In Office Communicator 2007 R2, only desktop sharing (and not program sharing) is available.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="e2b64-256">O compartilhamento de área de trabalho entre o Office Communicator 2007 R2 e o Skype for Business 2015 não pode ser iniciado a partir do cliente mais recente quando a interface do usuário do cliente do Skype for Business 2015 é imposta.</span><span class="sxs-lookup"><span data-stu-id="e2b64-256">Desktop sharing between Office Communicator 2007 R2 and Skype for Business 2015 cannot be initiated from the newer client when the Skype for Business 2015 client user interface is enforced.</span></span>
+> <span data-ttu-id="705c8-256">O compartilhamento de área de trabalho entre o Office Communicator 2007 R2 e o Skype for Business 2015 não pode ser iniciado a partir do cliente mais recente quando a interface de usuário do cliente do Skype for Business 2015 é imposta.</span><span class="sxs-lookup"><span data-stu-id="705c8-256">Desktop sharing between Office Communicator 2007 R2 and Skype for Business 2015 cannot be initiated from the newer client when the Skype for Business 2015 client user interface is enforced.</span></span>
 
 
 
@@ -324,27 +324,27 @@ ms.locfileid: "41756755"
 
 <div>
 
-## <a name="conferencing-feature-support-for-lync-2013-clients-in-lync-server-2010-meetings"></a><span data-ttu-id="e2b64-257">Suporte do recurso de conferência para clientes do Lync 2013 no Lync Server 2010 reuniões</span><span class="sxs-lookup"><span data-stu-id="e2b64-257">Conferencing Feature Support for Lync 2013 Clients in Lync Server 2010 Meetings</span></span>
+## <a name="conferencing-feature-support-for-lync-2013-clients-in-lync-server-2010-meetings"></a><span data-ttu-id="705c8-257">Suporte de recurso de conferência para clientes do Lync 2013 nas reuniões do Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="705c8-257">Conferencing Feature Support for Lync 2013 Clients in Lync Server 2010 Meetings</span></span>
 
-<span data-ttu-id="e2b64-258">Quando os usuários ingressam em reuniões do Lync Server 2010 com um cliente Lync 2013, eles têm acesso aos recursos do cliente Lync 2013 com as seguintes exceções:</span><span class="sxs-lookup"><span data-stu-id="e2b64-258">When users join Lync Server 2010 meetings with a Lync 2013 client, they have access to Lync 2013 client features with the following exceptions:</span></span>
+<span data-ttu-id="705c8-258">Quando os usuários ingressam em reuniões do Lync Server 2010 com um cliente do Lync 2013, eles têm acesso aos recursos do cliente do Lync 2013 com as seguintes exceções:</span><span class="sxs-lookup"><span data-stu-id="705c8-258">When users join Lync Server 2010 meetings with a Lync 2013 client, they have access to Lync 2013 client features with the following exceptions:</span></span>
 
-  - <span data-ttu-id="e2b64-259">Nas opções de gerenciamento de **participantes** , que podem ser acessadas apontando para o ícone pessoas na janela da reunião, a opção **nenhuma mensagem instantânea de reunião** não funciona.</span><span class="sxs-lookup"><span data-stu-id="e2b64-259">In the **Participants** management options, which are accessible by pointing to the people icon in the meeting window, the **No Meeting IM** option does not function.</span></span>
+  - <span data-ttu-id="705c8-259">Nas opções de gerenciamento de **participantes** , que podem ser acessadas apontando para o ícone pessoas na janela da reunião, a opção **sem im de reunião** não funciona.</span><span class="sxs-lookup"><span data-stu-id="705c8-259">In the **Participants** management options, which are accessible by pointing to the people icon in the meeting window, the **No Meeting IM** option does not function.</span></span>
 
-  - <span data-ttu-id="e2b64-260">O modo de exibição de galeria não funciona em videoconferências.</span><span class="sxs-lookup"><span data-stu-id="e2b64-260">Gallery View does not function in video conferences.</span></span> <span data-ttu-id="e2b64-261">O usuário vê apenas o alto-falante ativo em vez de todos os alto-falantes.</span><span class="sxs-lookup"><span data-stu-id="e2b64-261">The user sees only the active speaker instead of all speakers.</span></span> <span data-ttu-id="e2b64-262">Na lista de opções **escolher um layout** , o **modo de exibição Galeria** não está disponível</span><span class="sxs-lookup"><span data-stu-id="e2b64-262">In the list of **Pick a Layout** options, **Gallery View** is unavailable</span></span>
+  - <span data-ttu-id="705c8-260">O modo de exibição de galeria não funciona em videoconferências.</span><span class="sxs-lookup"><span data-stu-id="705c8-260">Gallery View does not function in video conferences.</span></span> <span data-ttu-id="705c8-261">O usuário vê apenas o alto-falante ativo em vez de todos os alto-falantes.</span><span class="sxs-lookup"><span data-stu-id="705c8-261">The user sees only the active speaker instead of all speakers.</span></span> <span data-ttu-id="705c8-262">Na lista de opções de **escolha um layout, o modo de** exibição de **Galeria** não está disponível</span><span class="sxs-lookup"><span data-stu-id="705c8-262">In the list of **Pick a Layout** options, **Gallery View** is unavailable</span></span>
 
-  - <span data-ttu-id="e2b64-263">A lista de participantes é exibida por padrão em videoconferências.</span><span class="sxs-lookup"><span data-stu-id="e2b64-263">The participant list displays by default in video conferences.</span></span>
+  - <span data-ttu-id="705c8-263">A lista de participantes é exibida por padrão em videoconferências.</span><span class="sxs-lookup"><span data-stu-id="705c8-263">The participant list displays by default in video conferences.</span></span>
 
-  - <span data-ttu-id="e2b64-264">Ao clicar com o botão direito do mouse em um usuário na lista de participantes, o botão **bloquear as opções de gerenciamento de participantes do vídeo** e **fixar em Galeria** não estará disponível.</span><span class="sxs-lookup"><span data-stu-id="e2b64-264">When right-clicking a user in the participants list, the **Lock the Video Spotlight** and **Pin to Gallery** participant management options are unavailable.</span></span>
+  - <span data-ttu-id="705c8-264">Ao clicar com o botão direito do mouse em um usuário na lista de participantes, as opções **bloquear o gerenciamento do participante de vídeo** e **fixar na Galeria** não estarão disponíveis.</span><span class="sxs-lookup"><span data-stu-id="705c8-264">When right-clicking a user in the participants list, the **Lock the Video Spotlight** and **Pin to Gallery** participant management options are unavailable.</span></span>
 
 </div>
 
 <div>
 
-## <a name="conferencing-feature-support-in-lync-server-2013-meetings"></a><span data-ttu-id="e2b64-265">Suporte do recurso de conferência nas reuniões do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e2b64-265">Conferencing Feature Support in Lync Server 2013 Meetings</span></span>
+## <a name="conferencing-feature-support-in-lync-server-2013-meetings"></a><span data-ttu-id="705c8-265">Suporte de recurso de conferência nas reuniões do Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="705c8-265">Conferencing Feature Support in Lync Server 2013 Meetings</span></span>
 
-<span data-ttu-id="e2b64-266">O Lync Server 2013 oferece novos recursos de conferência que se tornam disponíveis para os usuários após suas contas serem movidos para o Lync Server 2013 e que entram com o cliente Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="e2b64-266">Lync Server 2013 provides new conferencing features that become available to users after their accounts are moved to Lync Server 2013 and they sign in with the Lync 2013 client.</span></span> <span data-ttu-id="e2b64-267">Os exemplos incluem modo de exibição de galeria de vídeo, vídeo em alta definição, compartilhamento de PowerPoint e opção para desativar o áudio e o vídeo dos participantes após a entrada da reunião.</span><span class="sxs-lookup"><span data-stu-id="e2b64-267">Examples include video gallery view, HD video, PowerPoint sharing, and the option to mute all attendee audio and video upon meeting entry.</span></span> <span data-ttu-id="e2b64-268">Os novos recursos estão descritos nos [novos recursos de conferência do Lync server 2013](lync-server-2013-new-conferencing-features.md) e novidades [para clientes do Lync Server 2013](lync-server-2013-what-s-new-for-clients.md).</span><span class="sxs-lookup"><span data-stu-id="e2b64-268">The new features are outlined in [New conferencing features in Lync Server 2013](lync-server-2013-new-conferencing-features.md) and [What's new for clients in Lync Server 2013](lync-server-2013-what-s-new-for-clients.md).</span></span>
+<span data-ttu-id="705c8-266">O Lync Server 2013 fornece novos recursos de conferência que ficam disponíveis para os usuários depois que suas contas são movidas para o Lync Server 2013 e entram no cliente Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="705c8-266">Lync Server 2013 provides new conferencing features that become available to users after their accounts are moved to Lync Server 2013 and they sign in with the Lync 2013 client.</span></span> <span data-ttu-id="705c8-267">Os exemplos incluem visualização de galeria de vídeo, vídeo HD, compartilhamento do PowerPoint e a opção para desativar o áudio e vídeo de todos os participantes na entrada da reunião.</span><span class="sxs-lookup"><span data-stu-id="705c8-267">Examples include video gallery view, HD video, PowerPoint sharing, and the option to mute all attendee audio and video upon meeting entry.</span></span> <span data-ttu-id="705c8-268">Os novos recursos são descritos em [novos recursos de conferência no Lync Server 2013](lync-server-2013-new-conferencing-features.md) e [o que há de novo para clientes no Lync Server 2013](lync-server-2013-what-s-new-for-clients.md).</span><span class="sxs-lookup"><span data-stu-id="705c8-268">The new features are outlined in [New conferencing features in Lync Server 2013](lync-server-2013-new-conferencing-features.md) and [What's new for clients in Lync Server 2013](lync-server-2013-what-s-new-for-clients.md).</span></span>
 
-<span data-ttu-id="e2b64-269">Em reuniões do Lync Server 2013, determinados recursos de conferência têm suporte para os usuários que são hospedados em diferentes versões do servidor e quem usa diferentes clientes e versões do cliente.</span><span class="sxs-lookup"><span data-stu-id="e2b64-269">In Lync Server 2013 meetings, certain conferencing features are supported for users who are homed on different versions of the server and who are using different clients and client versions.</span></span> <span data-ttu-id="e2b64-270">Quando os clientes ingressam em uma reunião do Lync Server 2013, os usuários têm acesso aos recursos e funcionalidades mostrados nessa tabela.</span><span class="sxs-lookup"><span data-stu-id="e2b64-270">When clients join a Lync Server 2013 meeting, users have access to the features and capabilities shown in this table.</span></span>
+<span data-ttu-id="705c8-269">Nas reuniões do Lync Server 2013, determinados recursos de conferência têm suporte para usuários hospedados em diferentes versões do servidor e que usam diferentes clientes e versões de cliente.</span><span class="sxs-lookup"><span data-stu-id="705c8-269">In Lync Server 2013 meetings, certain conferencing features are supported for users who are homed on different versions of the server and who are using different clients and client versions.</span></span> <span data-ttu-id="705c8-270">Quando os clientes ingressam em uma reunião do Lync Server 2013, os usuários têm acesso aos recursos e funcionalidades mostrados nesta tabela.</span><span class="sxs-lookup"><span data-stu-id="705c8-270">When clients join a Lync Server 2013 meeting, users have access to the features and capabilities shown in this table.</span></span>
 
 
 <table style="width:100%;">
@@ -361,65 +361,65 @@ ms.locfileid: "41756755"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e2b64-271">Cliente</span><span class="sxs-lookup"><span data-stu-id="e2b64-271">Client</span></span></th>
-<th><span data-ttu-id="e2b64-272">Mensagem instantânea ponto a ponto</span><span class="sxs-lookup"><span data-stu-id="e2b64-272">Peer-to-peer IM</span></span></th>
-<th><span data-ttu-id="e2b64-273">Voz</span><span class="sxs-lookup"><span data-stu-id="e2b64-273">Voice</span></span></th>
-<th><span data-ttu-id="e2b64-274">Vídeo</span><span class="sxs-lookup"><span data-stu-id="e2b64-274">Video</span></span></th>
-<th><span data-ttu-id="e2b64-275">Compartilhamento de Aplicativos</span><span class="sxs-lookup"><span data-stu-id="e2b64-275">Application Sharing</span></span></th>
-<th><span data-ttu-id="e2b64-276">PowerPoint</span><span class="sxs-lookup"><span data-stu-id="e2b64-276">PowerPoint</span></span></th>
-<th><span data-ttu-id="e2b64-277">Transferência de arquivos</span><span class="sxs-lookup"><span data-stu-id="e2b64-277">File Transfer</span></span></th>
-<th><span data-ttu-id="e2b64-278">Quadro de comunicações</span><span class="sxs-lookup"><span data-stu-id="e2b64-278">Whiteboard</span></span></th>
-<th><span data-ttu-id="e2b64-279">Poll</span><span class="sxs-lookup"><span data-stu-id="e2b64-279">Polling</span></span></th>
+<th><span data-ttu-id="705c8-271">Client</span><span class="sxs-lookup"><span data-stu-id="705c8-271">Client</span></span></th>
+<th><span data-ttu-id="705c8-272">Mensagens instantâneas ponto a ponto</span><span class="sxs-lookup"><span data-stu-id="705c8-272">Peer-to-peer IM</span></span></th>
+<th><span data-ttu-id="705c8-273">Voz</span><span class="sxs-lookup"><span data-stu-id="705c8-273">Voice</span></span></th>
+<th><span data-ttu-id="705c8-274">Vídeo</span><span class="sxs-lookup"><span data-stu-id="705c8-274">Video</span></span></th>
+<th><span data-ttu-id="705c8-275">Compartilhamento de Aplicativos</span><span class="sxs-lookup"><span data-stu-id="705c8-275">Application Sharing</span></span></th>
+<th><span data-ttu-id="705c8-276">PowerPoint</span><span class="sxs-lookup"><span data-stu-id="705c8-276">PowerPoint</span></span></th>
+<th><span data-ttu-id="705c8-277">Transferência de arquivos</span><span class="sxs-lookup"><span data-stu-id="705c8-277">File Transfer</span></span></th>
+<th><span data-ttu-id="705c8-278">Whiteboard</span><span class="sxs-lookup"><span data-stu-id="705c8-278">Whiteboard</span></span></th>
+<th><span data-ttu-id="705c8-279">Sondagem</span><span class="sxs-lookup"><span data-stu-id="705c8-279">Polling</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e2b64-280">Lync 2013</span><span class="sxs-lookup"><span data-stu-id="e2b64-280">Lync 2013</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-281">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-281">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-282">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-282">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-283">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-283">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-284">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-284">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-285">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-285">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-286">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-286">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-287">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-287">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-288">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-288">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-280">Lync 2013</span><span class="sxs-lookup"><span data-stu-id="705c8-280">Lync 2013</span></span></p></td>
+<td><p><span data-ttu-id="705c8-281">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-281">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-282">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-282">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-283">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-283">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-284">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-284">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-285">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-285">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-286">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-286">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-287">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-287">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-288">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-288">Yes</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e2b64-289">Lync 2013 Basic</span><span class="sxs-lookup"><span data-stu-id="e2b64-289">Lync 2013 Basic</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-290">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-290">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-291">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-291">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-292">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-292">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-293">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-293">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-294">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-294">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-295">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-295">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-296">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-296">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-297">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-297">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-289">Lync 2013 Basic</span><span class="sxs-lookup"><span data-stu-id="705c8-289">Lync 2013 Basic</span></span></p></td>
+<td><p><span data-ttu-id="705c8-290">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-290">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-291">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-291">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-292">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-292">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-293">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-293">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-294">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-294">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-295">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-295">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-296">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-296">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-297">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-297">Yes</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e2b64-298">Lync Web App</span><span class="sxs-lookup"><span data-stu-id="e2b64-298">Lync Web App</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-299">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-299">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-300">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-300">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-301">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-301">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-302">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-302">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-303">Sim2</span><span class="sxs-lookup"><span data-stu-id="e2b64-303">Yes2</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-304">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-304">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-305">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-305">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-306">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-306">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-298">Lync Web App</span><span class="sxs-lookup"><span data-stu-id="705c8-298">Lync Web App</span></span></p></td>
+<td><p><span data-ttu-id="705c8-299">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-299">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-300">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-300">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-301">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-301">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-302">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-302">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-303">Sim2</span><span class="sxs-lookup"><span data-stu-id="705c8-303">Yes2</span></span></p></td>
+<td><p><span data-ttu-id="705c8-304">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-304">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-305">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-305">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-306">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-306">Yes</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e2b64-307">Lync 2010</span><span class="sxs-lookup"><span data-stu-id="e2b64-307">Lync 2010</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-308">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-308">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-309">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-309">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-310">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-310">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-311">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-311">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-312">Yes3</span><span class="sxs-lookup"><span data-stu-id="e2b64-312">Yes3</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-313">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-313">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-314">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-314">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-315">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-315">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-307">Lync 2010</span><span class="sxs-lookup"><span data-stu-id="705c8-307">Lync 2010</span></span></p></td>
+<td><p><span data-ttu-id="705c8-308">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-308">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-309">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-309">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-310">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-310">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-311">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-311">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-312">Yes3</span><span class="sxs-lookup"><span data-stu-id="705c8-312">Yes3</span></span></p></td>
+<td><p><span data-ttu-id="705c8-313">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-313">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-314">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-314">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-315">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-315">Yes</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e2b64-316">Office Communicator 2007 R2 4</span><span class="sxs-lookup"><span data-stu-id="e2b64-316">Office Communicator 2007 R2 4</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-317">Sim</span><span class="sxs-lookup"><span data-stu-id="e2b64-317">Yes</span></span></p></td>
+<td><p><span data-ttu-id="705c8-316">Office Communicator 2007 R2 4</span><span class="sxs-lookup"><span data-stu-id="705c8-316">Office Communicator 2007 R2 4</span></span></p></td>
+<td><p><span data-ttu-id="705c8-317">Sim</span><span class="sxs-lookup"><span data-stu-id="705c8-317">Yes</span></span></p></td>
 <td></td>
 <td></td>
 <td></td>
@@ -432,13 +432,13 @@ ms.locfileid: "41756755"
 </table>
 
 
-<span data-ttu-id="e2b64-318">1 no Office Communicator 2007 R2, somente o compartilhamento de área de trabalho (e não o compartilhamento de programas) está disponível.</span><span class="sxs-lookup"><span data-stu-id="e2b64-318">1 In Office Communicator 2007 R2, only desktop sharing (and not program sharing) is available.</span></span>
+<span data-ttu-id="705c8-318">1 no Office Communicator 2007 R2, somente o compartilhamento de área de trabalho (e não o compartilhamento de programas) está disponível.</span><span class="sxs-lookup"><span data-stu-id="705c8-318">1 In Office Communicator 2007 R2, only desktop sharing (and not program sharing) is available.</span></span>
 
-<span data-ttu-id="e2b64-319">2 o Lync Server 2013 usa um mecanismo atualizado para carregar arquivos do PowerPoint.</span><span class="sxs-lookup"><span data-stu-id="e2b64-319">2 Lync Server 2013 uses an updated mechanism for uploading PowerPoint files.</span></span> <span data-ttu-id="e2b64-320">Os usuários do Lync Web App que ingressarem em uma reunião originalmente agendada no Lync Server 2010 podem exibir e navegar em apresentações do PowerPoint, mas não podem carregar arquivos do PowerPoint.</span><span class="sxs-lookup"><span data-stu-id="e2b64-320">Lync Web App users who join a meeting that was originally scheduled on Lync Server 2010 can view and navigate PowerPoint presentations, but cannot upload PowerPoint files.</span></span>
+<span data-ttu-id="705c8-319">2 o Lync Server 2013 usa um mecanismo atualizado para carregar arquivos do PowerPoint.</span><span class="sxs-lookup"><span data-stu-id="705c8-319">2 Lync Server 2013 uses an updated mechanism for uploading PowerPoint files.</span></span> <span data-ttu-id="705c8-320">Os usuários do Lync Web App que ingressarem em uma reunião originalmente agendada no Lync Server 2010 podem exibir e navegar em apresentações do PowerPoint, mas não podem carregar arquivos do PowerPoint.</span><span class="sxs-lookup"><span data-stu-id="705c8-320">Lync Web App users who join a meeting that was originally scheduled on Lync Server 2010 can view and navigate PowerPoint presentations, but cannot upload PowerPoint files.</span></span>
 
-<span data-ttu-id="e2b64-321">3 se a reunião tiver sido agendada nos slides do Lync Server 2013 e do PowerPoint foram carregadas por um cliente do Lync 2013, os usuários do Lync 2010 terão acesso somente para exibição aos slides.</span><span class="sxs-lookup"><span data-stu-id="e2b64-321">3 If the meeting was scheduled on Lync Server 2013 and PowerPoint slides were uploaded by a Lync 2013 client, Lync 2010 users have view-only access to the slides.</span></span> <span data-ttu-id="e2b64-322">Por outro lado, se os slides do PowerPoint foram carregados por um usuário do Lync 2010, os usuários do Lync Server 2013 poderão exibir e os slides e, se o Office Web Apps estiver configurado, acessar novos recursos, como exibição de resolução mais alta, animações, transições de slides e vídeo inserido.</span><span class="sxs-lookup"><span data-stu-id="e2b64-322">Conversely, if the PowerPoint slides were uploaded by a Lync 2010 user, Lync Server 2013 users will be able to view and slides and, if Office Web Apps Server is configured, access new capabilities such as higher resolution display, animations, slide transitions, and embedded video.</span></span> <span data-ttu-id="e2b64-323">Para obter mais informações, consulte [Configurando a integração com o servidor do Office Web Apps e o Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).</span><span class="sxs-lookup"><span data-stu-id="e2b64-323">For more information, see [Configuring integration with Office Web Apps Server and Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).</span></span>
+<span data-ttu-id="705c8-321">3 se a reunião foi agendada no Lync Server 2013 e slides do PowerPoint foram carregados por um cliente do Lync 2013, os usuários do Lync 2010 têm acesso somente para exibição aos slides.</span><span class="sxs-lookup"><span data-stu-id="705c8-321">3 If the meeting was scheduled on Lync Server 2013 and PowerPoint slides were uploaded by a Lync 2013 client, Lync 2010 users have view-only access to the slides.</span></span> <span data-ttu-id="705c8-322">Por outro lado, se os slides do PowerPoint foram carregados por um usuário do Lync 2010, os usuários do Lync Server 2013 poderão exibir e slides e, se o servidor do Office Web Apps estiver configurado, acessar novos recursos, como exibição de alta resolução, animações, transições de slides e vídeo incorporado.</span><span class="sxs-lookup"><span data-stu-id="705c8-322">Conversely, if the PowerPoint slides were uploaded by a Lync 2010 user, Lync Server 2013 users will be able to view and slides and, if Office Web Apps Server is configured, access new capabilities such as higher resolution display, animations, slide transitions, and embedded video.</span></span> <span data-ttu-id="705c8-323">Para obter mais informações, consulte [Configurando a integração com o servidor do Office Web Apps e o Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).</span><span class="sxs-lookup"><span data-stu-id="705c8-323">For more information, see [Configuring integration with Office Web Apps Server and Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).</span></span>
 
-<span data-ttu-id="e2b64-324">os recursos de presença e de mensagem instantânea do 4The no Office Communicator 2007 R2 são compatíveis com o Lync Server 2013, mas os recursos de conferência não são.</span><span class="sxs-lookup"><span data-stu-id="e2b64-324">4The presence and IM features in Office Communicator 2007 R2 are compatible with Lync Server 2013, but conferencing features are not.</span></span> <span data-ttu-id="e2b64-325">Durante a migração do Office Communications Server 2007 R2, o Office Communicator 2007 R2 é adequado para presença e interoperabilidade de mensagens instantâneas, mas os usuários devem usar o Lync Web App 2013 para ingressar em reuniões do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e2b64-325">During migration from Office Communications Server 2007 R2, Office Communicator 2007 R2 is suitable for presence and IM interoperability, but users should use Lync Web App 2013 to join Lync Server 2013 meetings.</span></span>
+<span data-ttu-id="705c8-324">os recursos de presença e IM do 4The no Office Communicator 2007 R2 são compatíveis com o Lync Server 2013, mas os recursos de conferência não.</span><span class="sxs-lookup"><span data-stu-id="705c8-324">4The presence and IM features in Office Communicator 2007 R2 are compatible with Lync Server 2013, but conferencing features are not.</span></span> <span data-ttu-id="705c8-325">Durante a migração do Office Communications Server 2007 R2, o Office Communicator 2007 R2 é adequado para a interoperabilidade de presença e de mensagens instantâneas, mas os usuários devem usar o Lync Web App 2013 para ingressar em reuniões do Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="705c8-325">During migration from Office Communications Server 2007 R2, Office Communicator 2007 R2 is suitable for presence and IM interoperability, but users should use Lync Web App 2013 to join Lync Server 2013 meetings.</span></span>
 
 </div>
 
@@ -446,21 +446,21 @@ ms.locfileid: "41756755"
 
 <div>
 
-## <a name="scheduling-add-in-support"></a><span data-ttu-id="e2b64-326">Agendando o suporte ao suplemento</span><span class="sxs-lookup"><span data-stu-id="e2b64-326">Scheduling Add-in Support</span></span>
+## <a name="scheduling-add-in-support"></a><span data-ttu-id="705c8-326">Suporte a suplemento de agendamento</span><span class="sxs-lookup"><span data-stu-id="705c8-326">Scheduling Add-in Support</span></span>
 
-<span data-ttu-id="e2b64-327">O suporte do servidor para os vários suplementos de agendamento é consistente com a compatibilidade de versão do servidor e do cliente.</span><span class="sxs-lookup"><span data-stu-id="e2b64-327">Server support for the various scheduling add-ins is consistent with server and client version compatibility.</span></span> <span data-ttu-id="e2b64-328">Em geral, os seguintes suplementos de agendamento são suportados no Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e2b64-328">In general, the following scheduling add-ins are supported on Lync Server 2013.</span></span> <span data-ttu-id="e2b64-329">No entanto, as versões anteriores dos suplementos não fornecem novos recursos de suplemento do Lync 2013, como a opção de ativar o áudio e o vídeo dos participantes após a entrada da reunião.</span><span class="sxs-lookup"><span data-stu-id="e2b64-329">However, previous versions of add-ins do not provide new Lync 2013 add-in features, such as the option to mute all attendee audio and video upon meeting entry.</span></span>
+<span data-ttu-id="705c8-327">O suporte do servidor a vários suplementos de agendamento é consistente com a compatibilidade de versão do servidor e cliente.</span><span class="sxs-lookup"><span data-stu-id="705c8-327">Server support for the various scheduling add-ins is consistent with server and client version compatibility.</span></span> <span data-ttu-id="705c8-328">Em geral, os seguintes suplementos de agendamento têm suporte no Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="705c8-328">In general, the following scheduling add-ins are supported on Lync Server 2013.</span></span> <span data-ttu-id="705c8-329">No entanto, versões anteriores de suplementos não fornecem novos recursos de suplemento do Lync 2013, como a opção para desativar o áudio e o vídeo de todos os participantes na entrada da reunião.</span><span class="sxs-lookup"><span data-stu-id="705c8-329">However, previous versions of add-ins do not provide new Lync 2013 add-in features, such as the option to mute all attendee audio and video upon meeting entry.</span></span>
 
-  - <span data-ttu-id="e2b64-330">**O suplemento de reunião online para o Lync 2013**   oferece os mesmos recursos que o suplemento de reunião online para o Lync 2010, com a adição de controles de desativação de participantes, que permitem que os organizadores de reunião agendem conferências com áudio e vídeo de participantes com mudo ativado por padrão.</span><span class="sxs-lookup"><span data-stu-id="e2b64-330">**Online Meeting Add-in for Lync 2013**   Provides the same features as the Online Meeting Add-in for Lync 2010, with the addition of attendee mute controls, which allow meeting organizers to schedule conferences that have attendee audio and video muted by default.</span></span> <span data-ttu-id="e2b64-331">Os administradores também podem personalizar os convites para reunião da organização adicionando um logotipo personalizado, uma URL de suporte, uma URL de isenção de responsabilidade legal ou texto de rodapé personalizado.</span><span class="sxs-lookup"><span data-stu-id="e2b64-331">Administrators can also customize the organization’s meeting invitations by adding a custom logo, a support URL, a legal disclaimer URL, or custom footer text.</span></span>
+  - <span data-ttu-id="705c8-330">**O suplemento de reunião online para Lync 2013**   oferece os mesmos recursos que o suplemento de reunião online para o Lync 2010, com a adição de controles sem som de participantes, o que permite que os organizadores de reunião agendem conferências com áudio e vídeo de participante sem som por padrão.</span><span class="sxs-lookup"><span data-stu-id="705c8-330">**Online Meeting Add-in for Lync 2013**   Provides the same features as the Online Meeting Add-in for Lync 2010, with the addition of attendee mute controls, which allow meeting organizers to schedule conferences that have attendee audio and video muted by default.</span></span> <span data-ttu-id="705c8-331">Administradores também podem personalizar convites de reunião da organização incluindo um logotipo personalizado, uma URL da equipe de suporte, uma URL de aviso de isenção legal ou um texto de rodapé personalizado.</span><span class="sxs-lookup"><span data-stu-id="705c8-331">Administrators can also customize the organization’s meeting invitations by adding a custom logo, a support URL, a legal disclaimer URL, or custom footer text.</span></span>
 
-  - <span data-ttu-id="e2b64-332">**O suplemento de reunião online para o Lync 2010**   fornece agendamento para reuniões do Lync e remove a funcionalidade de agendar conferências do Office Live Meeting.</span><span class="sxs-lookup"><span data-stu-id="e2b64-332">**Online Meeting Add-in for Lync 2010**   Provides scheduling for Lync meetings and removes the capability to schedule Office Live Meeting conferences.</span></span>
+  - <span data-ttu-id="705c8-332">**O suplemento de reunião online para Lync 2010**   fornece agendamento para reuniões do Lync e remove a capacidade de agendar conferências do Office Live Meeting.</span><span class="sxs-lookup"><span data-stu-id="705c8-332">**Online Meeting Add-in for Lync 2010**   Provides scheduling for Lync meetings and removes the capability to schedule Office Live Meeting conferences.</span></span>
 
-  - <span data-ttu-id="e2b64-333">**O suplemento de conferência do Office Communicator 2007 R2**   fornece agendamento para conferências do Office Live Meeting e do Office Communicator 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="e2b64-333">**Office Communicator 2007 R2 Conferencing Add-in**   Provides scheduling for both Office Live Meeting conferences and Office Communicator 2007 R2 conferences.</span></span> 
+  - <span data-ttu-id="705c8-333">**O suplemento de conferência do Office Communicator 2007 R2**   fornece agendamento para conferências do Office Live Meeting e conferências do Office Communicator 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="705c8-333">**Office Communicator 2007 R2 Conferencing Add-in**   Provides scheduling for both Office Live Meeting conferences and Office Communicator 2007 R2 conferences.</span></span> 
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="e2b64-334">Não é possível agendar conferências do Live Meeting no Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e2b64-334">Live Meeting conferences cannot be scheduled on Lync Server 2013.</span></span>
+> <span data-ttu-id="705c8-334">As conferências do Live Meeting não podem ser agendadas no Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="705c8-334">Live Meeting conferences cannot be scheduled on Lync Server 2013.</span></span>
 
 
 
@@ -476,36 +476,36 @@ ms.locfileid: "41756755"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e2b64-335">Cliente de agendamento</span><span class="sxs-lookup"><span data-stu-id="e2b64-335">Scheduling Client</span></span></th>
-<th><span data-ttu-id="e2b64-336">Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e2b64-336">Lync Server 2013</span></span></th>
-<th><span data-ttu-id="e2b64-337">Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="e2b64-337">Lync Server 2010</span></span></th>
-<th><span data-ttu-id="e2b64-338">Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="e2b64-338">Office Communications Server 2007 R2</span></span></th>
+<th><span data-ttu-id="705c8-335">Cliente de agendamento</span><span class="sxs-lookup"><span data-stu-id="705c8-335">Scheduling Client</span></span></th>
+<th><span data-ttu-id="705c8-336">Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="705c8-336">Lync Server 2013</span></span></th>
+<th><span data-ttu-id="705c8-337">Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="705c8-337">Lync Server 2010</span></span></th>
+<th><span data-ttu-id="705c8-338">Office Communications Server 2007 R2</span><span class="sxs-lookup"><span data-stu-id="705c8-338">Office Communications Server 2007 R2</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e2b64-339">Suplemento de reunião online do Lync 2013 (pode ser usado com o Office 2013, o Outlook 2010 e o Outlook 2007)</span><span class="sxs-lookup"><span data-stu-id="e2b64-339">Online Meeting Add-in for Lync 2013 (can be used with Office 2013, Outlook 2010, and Outlook 2007)</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-340">Com suporte</span><span class="sxs-lookup"><span data-stu-id="e2b64-340">Supported</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-341">Com suporte (novos recursos de suplemento não disponíveis)</span><span class="sxs-lookup"><span data-stu-id="e2b64-341">Supported (new add-in features not available)</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-342">Sem suporte</span><span class="sxs-lookup"><span data-stu-id="e2b64-342">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-339">Suplemento de reunião online para Lync 2013 (pode ser usado com o Office 2013, Outlook 2010 e Outlook 2007)</span><span class="sxs-lookup"><span data-stu-id="705c8-339">Online Meeting Add-in for Lync 2013 (can be used with Office 2013, Outlook 2010, and Outlook 2007)</span></span></p></td>
+<td><p><span data-ttu-id="705c8-340">Com suporte</span><span class="sxs-lookup"><span data-stu-id="705c8-340">Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-341">Suportado (novos recursos de suplemento não disponíveis)</span><span class="sxs-lookup"><span data-stu-id="705c8-341">Supported (new add-in features not available)</span></span></p></td>
+<td><p><span data-ttu-id="705c8-342">Não Suportado</span><span class="sxs-lookup"><span data-stu-id="705c8-342">Not Supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e2b64-343">Agendador da Web do Lync 2013</span><span class="sxs-lookup"><span data-stu-id="e2b64-343">Lync 2013 Web Scheduler</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-344">Com suporte</span><span class="sxs-lookup"><span data-stu-id="e2b64-344">Supported</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-345">Sem suporte</span><span class="sxs-lookup"><span data-stu-id="e2b64-345">Not Supported</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-346">Sem suporte</span><span class="sxs-lookup"><span data-stu-id="e2b64-346">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-343">Agendador da Web do Lync 2013</span><span class="sxs-lookup"><span data-stu-id="705c8-343">Lync 2013 Web Scheduler</span></span></p></td>
+<td><p><span data-ttu-id="705c8-344">Com suporte</span><span class="sxs-lookup"><span data-stu-id="705c8-344">Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-345">Não suportado</span><span class="sxs-lookup"><span data-stu-id="705c8-345">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-346">Não suportado</span><span class="sxs-lookup"><span data-stu-id="705c8-346">Not Supported</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e2b64-347">Suplemento de Reunião Online para Lync 2010</span><span class="sxs-lookup"><span data-stu-id="e2b64-347">Online Meeting Add-in for Lync 2010</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-348">Compatível </span><span class="sxs-lookup"><span data-stu-id="e2b64-348">Supported</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-349">Com suporte</span><span class="sxs-lookup"><span data-stu-id="e2b64-349">Supported</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-350">Sem suporte</span><span class="sxs-lookup"><span data-stu-id="e2b64-350">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-347">Suplemento de Reunião Online para Lync 2010</span><span class="sxs-lookup"><span data-stu-id="705c8-347">Online Meeting Add-in for Lync 2010</span></span></p></td>
+<td><p><span data-ttu-id="705c8-348">Com suporte</span><span class="sxs-lookup"><span data-stu-id="705c8-348">Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-349">Com suporte</span><span class="sxs-lookup"><span data-stu-id="705c8-349">Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-350">Não Suportado</span><span class="sxs-lookup"><span data-stu-id="705c8-350">Not Supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e2b64-351">Suplemento de conferência do Office Communicator 2007 R2</span><span class="sxs-lookup"><span data-stu-id="e2b64-351">Office Communicator 2007 R2 Conferencing Add-in</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-352">Sem suporte</span><span class="sxs-lookup"><span data-stu-id="e2b64-352">Not Supported</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-353">Compatível </span><span class="sxs-lookup"><span data-stu-id="e2b64-353">Supported</span></span></p></td>
-<td><p><span data-ttu-id="e2b64-354">Compatível</span><span class="sxs-lookup"><span data-stu-id="e2b64-354">Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-351">Suplemento de Conferência do Office Communicator 2007 R2</span><span class="sxs-lookup"><span data-stu-id="705c8-351">Office Communicator 2007 R2 Conferencing Add-in</span></span></p></td>
+<td><p><span data-ttu-id="705c8-352">Não suportado</span><span class="sxs-lookup"><span data-stu-id="705c8-352">Not Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-353">Com suporte</span><span class="sxs-lookup"><span data-stu-id="705c8-353">Supported</span></span></p></td>
+<td><p><span data-ttu-id="705c8-354">Com suporte</span><span class="sxs-lookup"><span data-stu-id="705c8-354">Supported</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -515,22 +515,22 @@ ms.locfileid: "41756755"
 
 <div>
 
-## <a name="support-for-joining-meetings"></a><span data-ttu-id="e2b64-355">Suporte para ingressar em reuniões</span><span class="sxs-lookup"><span data-stu-id="e2b64-355">Support for Joining Meetings</span></span>
+## <a name="support-for-joining-meetings"></a><span data-ttu-id="705c8-355">Suporte para entrar em reuniões</span><span class="sxs-lookup"><span data-stu-id="705c8-355">Support for Joining Meetings</span></span>
 
-<span data-ttu-id="e2b64-356">Todos os clientes aos quais o Lync Server 2013 dá suporte têm permissão para ingressar em reuniões do Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="e2b64-356">All of the clients that Lync Server 2013 supports are allowed to join Lync 2013 meetings.</span></span> <span data-ttu-id="e2b64-357">Como o Lync Web App é um componente da Web do servidor, em casos em que o Lync Web App é usado para ingressar em uma reunião do Lync Server 2013, a versão mais recente do Lync Web App é sempre usada.</span><span class="sxs-lookup"><span data-stu-id="e2b64-357">Because Lync Web App is a web component of the server, in cases where Lync Web App is used to join a Lync Server 2013 meeting, the newer version of Lync Web App is always used.</span></span>
+<span data-ttu-id="705c8-356">Todos os clientes com suporte do Lync Server 2013 têm permissão para ingressar em reuniões do Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="705c8-356">All of the clients that Lync Server 2013 supports are allowed to join Lync 2013 meetings.</span></span> <span data-ttu-id="705c8-357">Como o Lync Web App é um componente da Web do servidor, em casos em que o Lync Web App é usado para ingressar em uma reunião do Lync Server 2013, a versão mais recente do Lync Web App é sempre usada.</span><span class="sxs-lookup"><span data-stu-id="705c8-357">Because Lync Web App is a web component of the server, in cases where Lync Web App is used to join a Lync Server 2013 meeting, the newer version of Lync Web App is always used.</span></span>
 
-<span data-ttu-id="e2b64-358">Os clientes do Lync 2013 podem ingressar em reuniões hospedadas no Lync 2010 e no Office Communications Server 2007 R2 com funcionalidade reduzida.</span><span class="sxs-lookup"><span data-stu-id="e2b64-358">Lync 2013 clients can join meetings hosted on Lync 2010 and Office Communications Server 2007 R2 with scaled-down functionality.</span></span> <span data-ttu-id="e2b64-359">Os recursos na reunião são limitados pela versão do servidor na qual a reunião está hospedada.</span><span class="sxs-lookup"><span data-stu-id="e2b64-359">In-meeting features are limited by the version of the server on which the meeting is hosted.</span></span>
+<span data-ttu-id="705c8-358">Os clientes do Lync 2013 podem ingressar em reuniões hospedadas no Lync 2010 e no Office Communications Server 2007 R2 com funcionalidade escalada.</span><span class="sxs-lookup"><span data-stu-id="705c8-358">Lync 2013 clients can join meetings hosted on Lync 2010 and Office Communications Server 2007 R2 with scaled-down functionality.</span></span> <span data-ttu-id="705c8-359">Recursos em reuniões são limitados pela versão do servidor em que a reunião está hospedada.</span><span class="sxs-lookup"><span data-stu-id="705c8-359">In-meeting features are limited by the version of the server on which the meeting is hosted.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="e2b64-360">Confira também</span><span class="sxs-lookup"><span data-stu-id="e2b64-360">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="705c8-360">Confira também</span><span class="sxs-lookup"><span data-stu-id="705c8-360">See Also</span></span>
 
 
-[<span data-ttu-id="e2b64-361">Requisitos do aplicativo Lync da Windows Store para o Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e2b64-361">Lync Windows Store app requirements for Lync Server 2013</span></span>](lync-server-2013-lync-windows-store-app-requirements.md)  
-[<span data-ttu-id="e2b64-362">Novos recursos de conferência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e2b64-362">New conferencing features in Lync Server 2013</span></span>](lync-server-2013-new-conferencing-features.md)  
-[<span data-ttu-id="e2b64-363">Novidades para clientes no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e2b64-363">What's new for clients in Lync Server 2013</span></span>](lync-server-2013-what-s-new-for-clients.md)  
+[<span data-ttu-id="705c8-361">Requisitos de aplicativo do Lync Windows Store para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="705c8-361">Lync Windows Store app requirements for Lync Server 2013</span></span>](lync-server-2013-lync-windows-store-app-requirements.md)  
+[<span data-ttu-id="705c8-362">Novos recursos de conferência no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="705c8-362">New conferencing features in Lync Server 2013</span></span>](lync-server-2013-new-conferencing-features.md)  
+[<span data-ttu-id="705c8-363">O que há de novo para clientes no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="705c8-363">What's new for clients in Lync Server 2013</span></span>](lync-server-2013-what-s-new-for-clients.md)  
   
 
 </div>

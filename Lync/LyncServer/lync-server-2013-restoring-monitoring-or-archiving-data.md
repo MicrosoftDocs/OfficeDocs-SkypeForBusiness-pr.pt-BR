@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: restaurar dados de monitoramento ou arquivamento'
+title: 'Lync Server 2013: restaurando dados de monitoramento ou arquivamento'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541483
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9621fe3c1905dbd34fd3b4da39b2562c608d6355
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8840869e972f0c178360b0b50644d352b8db85df
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733161"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050413"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="restoring-monitoring-or-archiving-data-in-lync-server-2013"></a><span data-ttu-id="eb389-102">Restaurando o monitoramento ou arquivando dados no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="eb389-102">Restoring monitoring or archiving data in Lync Server 2013</span></span>
+# <a name="restoring-monitoring-or-archiving-data-in-lync-server-2013"></a><span data-ttu-id="c4838-102">Restauração de dados de monitoramento ou arquivamento no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c4838-102">Restoring monitoring or archiving data in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,61 +35,61 @@ ms.locfileid: "41733161"
 
 <span> </span>
 
-<span data-ttu-id="eb389-103">_**Tópico da última modificação:** 2013-02-18_</span><span class="sxs-lookup"><span data-stu-id="eb389-103">_**Topic Last Modified:** 2013-02-18_</span></span>
+<span data-ttu-id="c4838-103">_**Última modificação do tópico:** 2013-02-18_</span><span class="sxs-lookup"><span data-stu-id="c4838-103">_**Topic Last Modified:** 2013-02-18_</span></span>
 
-<span data-ttu-id="eb389-104">Não é necessário restaurar os dados de monitoramento e arquivamento para colocar o Lync Server em funcionamento após uma falha.</span><span class="sxs-lookup"><span data-stu-id="eb389-104">Restoring monitoring and archiving data is not required to get Lync Server up and running after a failure.</span></span> <span data-ttu-id="eb389-105">No entanto, se o monitoramento e o arquivamento de dados forem críticos para a sua organização, você desejará restaurar os dados após recriar os bancos de dados.</span><span class="sxs-lookup"><span data-stu-id="eb389-105">However, if monitoring and archiving data is critical to your organization, you will want to restore the data after you re-create the databases.</span></span>
+<span data-ttu-id="c4838-104">A restauração de dados de monitoramento e arquivamento não é necessária para que o Lync Server fique ativo e em execução após uma falha.</span><span class="sxs-lookup"><span data-stu-id="c4838-104">Restoring monitoring and archiving data is not required to get Lync Server up and running after a failure.</span></span> <span data-ttu-id="c4838-105">No entanto, se os dados de monitoramento e arquivamento forem críticos para sua organização, você desejará restaurar os dados após recriar os bancos de dados.</span><span class="sxs-lookup"><span data-stu-id="c4838-105">However, if monitoring and archiving data is critical to your organization, you will want to restore the data after you re-create the databases.</span></span>
 
-<span data-ttu-id="eb389-106">O procedimento a seguir descreve como usar o SQL Server Management Studio para restaurar o arquivamento ou o monitoramento de dados.</span><span class="sxs-lookup"><span data-stu-id="eb389-106">The following procedure describes how to use SQL Server Management Studio to restore archiving or monitoring data.</span></span>
+<span data-ttu-id="c4838-106">O procedimento a seguir descreve como usar o SQL Server Management Studio para restaurar os dados de arquivamento ou monitoramento.</span><span class="sxs-lookup"><span data-stu-id="c4838-106">The following procedure describes how to use SQL Server Management Studio to restore archiving or monitoring data.</span></span>
 
 <div>
 
-## <a name="to-restore-monitoring-or-archiving-data-from-a-backup-file"></a><span data-ttu-id="eb389-107">Para restaurar o monitoramento ou o arquivamento de dados de um arquivo de backup</span><span class="sxs-lookup"><span data-stu-id="eb389-107">To restore monitoring or archiving data from a backup file</span></span>
+## <a name="to-restore-monitoring-or-archiving-data-from-a-backup-file"></a><span data-ttu-id="c4838-107">Para restaurar os dados de monitoramento ou arquivamento de um arquivo de backup</span><span class="sxs-lookup"><span data-stu-id="c4838-107">To restore monitoring or archiving data from a backup file</span></span>
 
-1.  <span data-ttu-id="eb389-108">Faça logon no servidor que você está restaurando como membro do grupo Administradores no computador local ou em um grupo com direitos de usuário equivalentes.</span><span class="sxs-lookup"><span data-stu-id="eb389-108">Log on to the server that you are restoring as a member of the Administrators group on the local computer or a group with equivalent user rights.</span></span>
+1.  <span data-ttu-id="c4838-108">Faça logon no servidor que você está restaurando como um membro do grupo Administradores no computador local ou em um grupo com direitos de usuário equivalentes.</span><span class="sxs-lookup"><span data-stu-id="c4838-108">Log on to the server that you are restoring as a member of the Administrators group on the local computer or a group with equivalent user rights.</span></span>
 
-2.  <span data-ttu-id="eb389-109">Abra o SQL Server Management Studio: clique em **Iniciar**, em **todos os programas**, em **Microsoft SQL Server 2012** ou **Microsoft SQL Server 2008 R2**e, em seguida, clique em **SQL Server Management Studio**.</span><span class="sxs-lookup"><span data-stu-id="eb389-109">Open SQL Server Management Studio: click **Start**, click **All Programs**, click **Microsoft SQL Server 2012** or **Microsoft SQL Server 2008 R2**, and then click **SQL Server Management Studio**.</span></span>
+2.  <span data-ttu-id="c4838-109">Abra o SQL Server Management Studio: clique em **Iniciar**, em **todos os programas**, em **Microsoft SQL Server 2012** ou **Microsoft SQL Server 2008 R2**e, em seguida, clique em **SQL Server Management Studio**.</span><span class="sxs-lookup"><span data-stu-id="c4838-109">Open SQL Server Management Studio: click **Start**, click **All Programs**, click **Microsoft SQL Server 2012** or **Microsoft SQL Server 2008 R2**, and then click **SQL Server Management Studio**.</span></span>
 
-3.  <span data-ttu-id="eb389-110">Em **conectar-se ao servidor**, conecte-se à instância do SQL Server fornecendo pelo menos o nome do servidor e as informações de autenticação.</span><span class="sxs-lookup"><span data-stu-id="eb389-110">In **Connect to Server**, connect to the SQL Server instance by providing at least the name of the server and the authentication information.</span></span>
+3.  <span data-ttu-id="c4838-110">Em **Conectar ao Servidor**, conecte-se à instância de SQL Server fornecendo pelo menos o nome do servidor e as informações de autenticação.</span><span class="sxs-lookup"><span data-stu-id="c4838-110">In **Connect to Server**, connect to the SQL Server instance by providing at least the name of the server and the authentication information.</span></span>
 
-4.  <span data-ttu-id="eb389-111">No **Explorador de objetos**, clique com o botão direito do mouse em **bancos**de dados e clique em **restaurar banco de dados**.</span><span class="sxs-lookup"><span data-stu-id="eb389-111">In **Object Explorer**, right-click **Databases**, and then click **Restore Database**.</span></span>
+4.  <span data-ttu-id="c4838-111">Em **Pesquisador de Objetos**, clique com o botão direito do mouse em **Bancos de dados** e clique em **Restaurar Banco de Dados**.</span><span class="sxs-lookup"><span data-stu-id="c4838-111">In **Object Explorer**, right-click **Databases**, and then click **Restore Database**.</span></span>
 
-5.  <span data-ttu-id="eb389-112">Em **Selecione uma página**, clique em **geral**e, em seguida, no **banco de dados** , selecione o nome do banco de dados da seguinte maneira:</span><span class="sxs-lookup"><span data-stu-id="eb389-112">Under **Select a page**, click **General**, and then in **To database** select the database name as follows:</span></span>
+5.  <span data-ttu-id="c4838-112">Em **Selecionar uma página**, clique em **Geral** e selecione o nome do banco de dados em **Para o banco de dados** da seguinte maneira:</span><span class="sxs-lookup"><span data-stu-id="c4838-112">Under **Select a page**, click **General**, and then in **To database** select the database name as follows:</span></span>
     
-      - <span data-ttu-id="eb389-113">Para um banco de dados de arquivamento, selecione **LcsLog**.</span><span class="sxs-lookup"><span data-stu-id="eb389-113">For an Archiving database, select **LcsLog**.</span></span>
+      - <span data-ttu-id="c4838-113">Para um banco de dados de arquivamento, selecione **LcsLog**.</span><span class="sxs-lookup"><span data-stu-id="c4838-113">For an Archiving database, select **LcsLog**.</span></span>
     
-      - <span data-ttu-id="eb389-114">Para um banco de dados do recurso de gravação de detalhes de chamadas (CDR), selecione **LcsCDR**.</span><span class="sxs-lookup"><span data-stu-id="eb389-114">For a call detail recording (CDR) database, select **LcsCDR**.</span></span>
+      - <span data-ttu-id="c4838-114">Para um banco de dados CDR (gravação de detalhes de chamada), selecione **LcsCDR**.</span><span class="sxs-lookup"><span data-stu-id="c4838-114">For a call detail recording (CDR) database, select **LcsCDR**.</span></span>
     
-      - <span data-ttu-id="eb389-115">Para um banco de dados de qualidade da experiência (QoE), selecione **QoEMetrics**.</span><span class="sxs-lookup"><span data-stu-id="eb389-115">For a Quality of Experience (QoE) database, select **QoEMetrics**.</span></span>
+      - <span data-ttu-id="c4838-115">Para um banco de dados QoE (Qualidade da Experiência), selecione **QoEMetrics**.</span><span class="sxs-lookup"><span data-stu-id="c4838-115">For a Quality of Experience (QoE) database, select **QoEMetrics**.</span></span>
 
-6.  <span data-ttu-id="eb389-116">Clique em **do dispositivo**.</span><span class="sxs-lookup"><span data-stu-id="eb389-116">Click **From device**.</span></span>
+6.  <span data-ttu-id="c4838-116">Clique em **Do dispositivo**.</span><span class="sxs-lookup"><span data-stu-id="c4838-116">Click **From device**.</span></span>
 
-7.  <span data-ttu-id="eb389-117">Em **Selecione os conjuntos de backup a serem restaurados**, clique no arquivo de backup e, em seguida, clique em **restaurar**.</span><span class="sxs-lookup"><span data-stu-id="eb389-117">Under **Select the backup sets to restore**, click the backup file, and then click **Restore**.</span></span>
+7.  <span data-ttu-id="c4838-117">Em **Selecione os conjuntos de backup a serem restaurados**, clique no arquivo de backup e clique em **Restaurar**.</span><span class="sxs-lookup"><span data-stu-id="c4838-117">Under **Select the backup sets to restore**, click the backup file, and then click **Restore**.</span></span>
 
-8.  <span data-ttu-id="eb389-118">Em **Selecione uma página**, clique em **Opções**, verifique se o caminho do arquivo de dados e o caminho do log estão na pasta correta e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="eb389-118">Under **Select a page**, click **Options**, verify that the data file path and log path are in the correct folder, and then click **OK**.</span></span>
+8.  <span data-ttu-id="c4838-118">Em **Selecionar uma página**, clique em **Opções**, verifique se o caminho do arquivo de dados e o caminho de log estão na pasta correta e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="c4838-118">Under **Select a page**, click **Options**, verify that the data file path and log path are in the correct folder, and then click **OK**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-make-sure-that-access-control-lists-acls-are-correct"></a><span data-ttu-id="eb389-119">Para garantir que as listas de controle de acesso (ACLs) estejam corretas</span><span class="sxs-lookup"><span data-stu-id="eb389-119">To make sure that access control lists (ACLs) are correct</span></span>
+## <a name="to-make-sure-that-access-control-lists-acls-are-correct"></a><span data-ttu-id="c4838-119">Para garantir que as listas de controle de acesso (ACLs) estejam corretas</span><span class="sxs-lookup"><span data-stu-id="c4838-119">To make sure that access control lists (ACLs) are correct</span></span>
 
-1.  <span data-ttu-id="eb389-120">Expanda **bancos**de dados, expanda o arquivo de arquivamento ou monitoramento, expanda **segurança**e, em seguida, expanda **usuários**.</span><span class="sxs-lookup"><span data-stu-id="eb389-120">Expand **Databases**, expand the archiving or monitoring database, expand **Security**, and then expand **Users**.</span></span>
+1.  <span data-ttu-id="c4838-120">Expanda **Bancos de dados**, expanda o banco de dados de arquivamento ou monitoramento, expanda **Segurança** e expanda **Usuários**.</span><span class="sxs-lookup"><span data-stu-id="c4838-120">Expand **Databases**, expand the archiving or monitoring database, expand **Security**, and then expand **Users**.</span></span>
 
-2.  <span data-ttu-id="eb389-121">Verifique se o grupo de domínio RTCComponentUniversalServices existe como usuário.</span><span class="sxs-lookup"><span data-stu-id="eb389-121">Verify that the domain group RTCComponentUniversalServices exists as a user.</span></span>
+2.  <span data-ttu-id="c4838-121">Verifique se o grupo de domínio RTCComponentUniversalServices existe como um usuário.</span><span class="sxs-lookup"><span data-stu-id="c4838-121">Verify that the domain group RTCComponentUniversalServices exists as a user.</span></span>
 
-3.  <span data-ttu-id="eb389-122">Se RTCComponentUniversalServices não existir em **usuários**, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="eb389-122">If RTCComponentUniversalServices does not exist under **Users**, do the following:</span></span>
+3.  <span data-ttu-id="c4838-122">Se o RTCComponentUniversalServices não existir nos **usuários**, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="c4838-122">If RTCComponentUniversalServices does not exist under **Users**, do the following:</span></span>
     
-    1.  <span data-ttu-id="eb389-123">Clique com o botão direito do mouse em **usuários**e, em seguida, clique em **novo usuário**.</span><span class="sxs-lookup"><span data-stu-id="eb389-123">Right-click **Users**, and then click **New User**.</span></span>
+    1.  <span data-ttu-id="c4838-123">Clique com o botão direito do mouse em **Usuários** e clique em **Novo Usuário**.</span><span class="sxs-lookup"><span data-stu-id="c4838-123">Right-click **Users**, and then click **New User**.</span></span>
     
-    2.  <span data-ttu-id="eb389-124">Em **nome de logon**, digite o nome do grupo ausente, RTCComponentUniversalServices.</span><span class="sxs-lookup"><span data-stu-id="eb389-124">In **Login name**, type the missing group name, RTCComponentUniversalServices.</span></span>
+    2.  <span data-ttu-id="c4838-124">Em **nome de logon**, digite o nome do grupo ausente, RTCComponentUniversalServices.</span><span class="sxs-lookup"><span data-stu-id="c4838-124">In **Login name**, type the missing group name, RTCComponentUniversalServices.</span></span>
     
-    3.  <span data-ttu-id="eb389-125">Em **Associação de função de banco de dados**, selecione a permissão **ServerRole** e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="eb389-125">Under **Database role membership**, select the **ServerRole** permission, and then click **OK**.</span></span>
+    3.  <span data-ttu-id="c4838-125">Em **Associação à função de banco de dados**, selecione a permissão **ServerRole** e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="c4838-125">Under **Database role membership**, select the **ServerRole** permission, and then click **OK**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="eb389-126">Você não precisa reiniciar o serviço de arquivamento ou monitoramento.</span><span class="sxs-lookup"><span data-stu-id="eb389-126">You do not need to restart the archiving or monitoring service.</span></span>
+    > <span data-ttu-id="c4838-126">Não é necessário reiniciar o serviço de arquivamento ou monitoramento.</span><span class="sxs-lookup"><span data-stu-id="c4838-126">You do not need to restart the archiving or monitoring service.</span></span>
 
     
     </div>
