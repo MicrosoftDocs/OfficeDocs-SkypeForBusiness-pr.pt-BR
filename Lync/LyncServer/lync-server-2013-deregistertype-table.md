@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: tabela DeRegisterType'
+title: 'Lync Server 2013: tabela de cancelamento de registro'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183346
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65c94513a3578f8608da555cdd0b3e2273b8a7da
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 915a5d0a2c5c4a5f38063b56dc133d2558aa65ac
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762529"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042168"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deregistertype-table-in-lync-server-2013"></a>Tabela DeRegisterType no Lync Server 2013
+# <a name="deregistertype-table-in-lync-server-2013"></a>Tabela deregistertype no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762529"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-28_
+_**Última modificação do tópico:** 2012-09-28_
 
-A tabela canregistertype é uma tabela estática que armazena a lista de possíveis tipos de registros de usuário possíveis, como ' cliente iniciado ', ' registro expirado ' ou ' cliente parou de responder '.
+DeRegisterType é uma tabela estática que armazena a lista de possíveis tipos de cancelamento de registro de usuário, como "cliente iniciado", "registro vencido" ou "cliente não responde".
 
 
 <table>
@@ -59,22 +59,22 @@ A tabela canregistertype é uma tabela estática que armazena a lista de possív
 <tr class="odd">
 <td><p><strong>DeRegisterTypeId</strong></p></td>
 <td><p>tinyint</p></td>
-<td><p>Primária</p></td>
+<td><p>Primário</p></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p><strong>DeRegisterReason</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td></td>
 <td><p>Valores permitidos:</p>
 <ul>
-<li><p>0--desconhecido</p></li>
-<li><p>1--cliente iniciou o registro</p></li>
-<li><p>2--registro expirado</p></li>
-<li><p>3 – cliente travou</p></li>
-<li><p>4--atributos de usuário alterados</p></li>
-<li><p>5 – registrador preferencial alterado</p></li>
-<li><p>6 – cliente herdado no modo de sobrevivência</p></li>
+<li><p>0 -- Desconhecido</p></li>
+<li><p>Iniciado o cancelamento do registro pelo cliente</p></li>
+<li><p>2 -- Registro expirado</p></li>
+<li><p>3 – Client crashed</p></li>
+<li><p>Atributos do usuário mudaram</p></li>
+<li><p>5 - Registrador preferido mudou</p></li>
+<li><p>6 -- Cliente herdado em Modo de sobrevivência</p></li>
 </ul></td>
 </tr>
 </tbody>

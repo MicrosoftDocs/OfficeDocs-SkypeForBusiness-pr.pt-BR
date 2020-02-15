@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Alterando o Pool de borda associado ao pool Front-End'
+title: 'Lync Server 2013: alterar o pool de borda associado a um pool de front-ends'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733613
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 736ed552a51182102310f4e10eb28472b251eb22
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b7ad6ee6e40edb76d4ef5d7d53524f89e44a2aee
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729891"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043513"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="changing-the-edge-pool-associated-with-a-front-end-pool-in-lync-server-2013"></a>Alterando o Pool de borda associado ao pool Front-End no Lync Server 2013
+# <a name="changing-the-edge-pool-associated-with-a-front-end-pool-in-lync-server-2013"></a>Alterar o pool de borda associado a um pool de front-ends no Lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41729891"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-21_
+_**Última modificação do tópico:** 2012-09-21_
 
-Se um pool de bordas ficar inoperante, mas o pool de front-end no mesmo site ainda estiver em execução, será necessário definir o pool de front-ends para usar um pool de bordas em um site diferente até que o pool de bordas com falha seja restaurado.
+Se um pool de borda cair, mas o pool de front-ends do mesmo local ainda estiver em execução, será preciso configurar o pool de front-ends para que use o pool de borda de um local diferente até que o pool de borda com falha seja restaurado.
 
 <div>
 
-## <a name="changing-the-edge-pool-associated-with-a-front-end-pool"></a>Alterar o pool de bordas associado a um pool de front-end
+## <a name="changing-the-edge-pool-associated-with-a-front-end-pool"></a>Alterando o pool de borda associado a um pool de front-ends
 
-1.  No construtor de topologias, navegue até o nome do pool de front-ends que você precisa alterar.
+1.  NO Construtor de Topologias, navegue até o nome no pool de front-ends que precisa ser alterado.
 
-2.  Clique com o botão direito do mouse no pool e, em seguida, clique em **Editar propriedades**.
+2.  Clique com o botão direito do mouse no nome do pool e, então, em **Editar Propriedades**
 
-3.  Na seção **associações** , em associar a um **pool de bordas (para componentes de mídia)**, use a caixa suspensa para selecionar o pool de bordas ao qual você deseja associar esse pool de front-ends.
+3.  Na seção **Associações**, em **Associar Pool de Borda (para componentes de mídia)**, use a caixa suspensa para selecionar o pool de borda ao qual deseja associar o pool de front-ends.
 
 4.  Clique em **OK**.
 
@@ -58,7 +58,7 @@ Se um pool de bordas ficar inoperante, mas o pool de front-end no mesmo site ain
 ## <a name="see-also"></a>Confira também
 
 
-[Recuperação de desastres do servidor de borda no Lync Server 2013](lync-server-2013-edge-server-disaster-recovery.md)  
+[Recuperação de desastre do servidor de borda no Lync Server 2013](lync-server-2013-edge-server-disaster-recovery.md)  
   
 
 </div>

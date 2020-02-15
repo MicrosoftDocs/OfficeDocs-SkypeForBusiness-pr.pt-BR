@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Resumo do certificado - Diretor único'
+title: 'Lync Server 2013: Resumo de certificado-diretor único'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183546
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f18fcec270104be1620402ddee0c665c0f3f3a4f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: abb3b1e9963d88a7876232219a8d4f2290c2c9cc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743531"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038333"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---single-director-in-lync-server-2013"></a>Resumo do certificado - Diretor único no Lync Server 2013
+# <a name="certificate-summary---single-director-in-lync-server-2013"></a>Resumo de certificado-diretor único no Lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41743531"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-08_
+_**Última modificação do tópico:** 2012-09-08_
 
-Os requisitos de certificado para um único diretor consistem em um certificado padrão que tem um nome de assunto e nomes alternativos de assunto para serviços que o diretor pode receber. Além disso, há um certificado de token OAuth para fins de autenticação do servidor para servidor.
+Os requisitos de certificado para um único diretor consistem em um certificado padrão que tem um nome de entidade e nomes alternativos de entidade para serviços que o diretor pode receber. Além disso, há um certificado OAuth Token para fins de autenticação servidor para servidor.
 
-### <a name="certificates-for-director"></a>Certificados para o diretor
+### <a name="certificates-for-director"></a>Certificados para Diretor
 
 <table>
 <colgroup>
@@ -52,7 +52,7 @@ Os requisitos de certificado para um único diretor consistem em um certificado 
 <tr class="header">
 <th>Componente</th>
 <th>Nome da entidade (SN)</th>
-<th>Nomes alternativos de entidades (SAN)</th>
+<th>SAN (nomes alternativos da entidade)</th>
 <th>Comentários</th>
 </tr>
 </thead>
@@ -65,23 +65,23 @@ Os requisitos de certificado para um único diretor consistem em um certificado 
 <p>meet.contoso.com</p>
 <p>lyncdiscoverinternal.contoso.com</p>
 <p>lyncdiscover.contoso.com</p>
-<p>(Opcionalmente) *. contoso.com</p></td>
-<td><p>Os certificados do diretor podem ser solicitados de uma CA (autoridade de certificação) gerenciada internamente ou de uma CA pública.</p>
-<p>O diretor responde a solicitações do proxy reverso no perímetro ou do servidor de borda. Os clientes internos não usarão o diretor.</p>
-<p>Ou uma entrada curinga para as URLs simples</p></td>
+<p>(Opcional) *.contoso.com</p></td>
+<td><p>Os certificados do diretor podem ser solicitados de uma CA (autoridade de certificação) gerenciada internamente ou de uma AC pública.</p>
+<p>O diretor responde às solicitações do proxy reverso no perímetro ou do servidor de borda. Os clientes internos não usarão o diretor.</p>
+<p>Ou uma entrada curinga para os URLs simples</p></td>
 </tr>
 <tr class="even">
 <td><p>OAuthTokenIssuer</p></td>
 <td><p>dir01.contoso.net</p></td>
-<td><p>Sem entrada</p></td>
+<td><p>Nenhuma entrada</p></td>
 <td><div>
 
 > [!IMPORTANT]  
-> Observe que o tamanho mínimo da chave é 1024, mas você pode receber um aviso de que o tamanho mínimo recomendado da chave é 2048 bits.
+> Observe que o comprimento mínimo de chave é 1024, mas você pode receber um aviso de que o comprimento de chave mínimo recomendado é 2048 bits.
 
 
 </div>
-<p>O certificado OAuthTokenIssuer é um certificado de finalidade única para a finalidade de autenticar servidores em um ambiente em larga escala e pode ser solicitado de uma CA interna ou de uma CA pública. O certificado é necessário.</p></td>
+<p>O certificado OAuthTokenIssuer é um certificado para o fim único de autenticar servidores em um ambiente de grande escala e pode ser solicitado de um CA interno ou público. O certificado é exigido.</p></td>
 </tr>
 </tbody>
 </table>

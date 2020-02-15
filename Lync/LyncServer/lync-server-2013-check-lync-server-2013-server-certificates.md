@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: verificar certificados do servidor do Lync Server 2013'
+title: 'Lync Server 2013: verificar certificados de servidor do Lync Server 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 63969620
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af0a80df18a4fc6e27200d1ac04476fcea798b9b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ebdbfdc4ed0f88d78fc78037a3522c73bd220270
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733991"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043503"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41733991"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-11-01_
+_**Última modificação do tópico:** 2014-11-01_
 
 
 <table>
@@ -45,7 +45,7 @@ _**Tópico da última modificação:** 2014-11-01_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Cronograma de verificação</p></td>
+<td><p>Agenda de verificação</p></td>
 <td><p>Mensal</p></td>
 </tr>
 <tr class="even">
@@ -53,9 +53,9 @@ _**Tópico da última modificação:** 2014-11-01_
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissões necessárias</p></td>
-<td><p>Quando executado localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.</p>
-<p>Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet Get-CsCertificate. Para ver uma lista de todas as funções RBAC que podem usar esse cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</p>
+<td><p>Permissões obrigatórias</p></td>
+<td><p>Ao executar localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.</p>
+<p>Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet Get-CsCertificate. Para ver uma lista de todas as funções RBAC que podem usar este cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Get-CsCertificate&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ _**Tópico da última modificação:** 2014-11-01_
 
 ## <a name="description"></a>Descrição
 
-O cmdlet Get-CsCertificate permite que você recupere informações sobre cada um dos seus certificados do Lync Server. Isso é especialmente importante porque os certificados têm uma data de expiração interna. Por exemplo, os certificados emitidos em particular geralmente expiram após 12 meses. Se algum dos seus certificados do Lync Server expirar, você perderá a funcionalidade correspondente até que esse certificado seja renovado ou substituído.
+O cmdlet Get-CsCertificate permite recuperar informações sobre cada um dos seus certificados do Lync Server. Isso é especialmente importante porque os certificados têm uma data de vencimento interna. Por exemplo, os certificados emitidos de forma privada normalmente expiram após 12 meses. Se qualquer um dos seus certificados do Lync Server expirar, você perderá a funcionalidade de acompanhamento até que esse certificado seja renovado ou substituído.
 
 </div>
 
@@ -78,13 +78,13 @@ Para retornar informações sobre cada um dos seus certificados do Lync Server, 
 
 `Get-CsCertificate`
 
-Ou, você pode filtrar as informações do certificado de retorno com base na data de vencimento. Por exemplo, esse comando limita os dados retornados a certificados que expiram (não pode ser usado após) 1 de junho de 2014:
+Ou você pode filtrar as informações do certificado de retorno com base na data de expiração. Por exemplo, esse comando limita os dados retornados aos certificados que expiram (não podem ser usados após) 1 de junho de 2014:
 
 `Get-CsCertificate | Where-Object {$_.NotAfter -lt "6/1/2014"}`
 
-Para obter mais informações, consulte a documentação de ajuda do cmdlet Get-CsCertificate.
+Para obter mais informações, consulte a documentação de ajuda para o cmdlet Get-CsCertificate.
 
-Observe que, embora o cmdlet Test-CsCertificateConfiguration exista, ele não é muito útil para administradores. (Em vez disso, esse cmdlet é usado principalmente pelo assistente de certificado.) Embora o cmdlet funcione, as informações que ele retorna são do valor mínimo, conforme mostrado no exemplo de saída a seguir:
+Observe que, embora o cmdlet Test-CsCertificateConfiguration exista, ele não é muito útil para os administradores. (Em vez disso, o cmdlet é usado principalmente pelo assistente de certificado.) Embora o cmdlet funcione, as informações que ele retorna são de valor mínimo, conforme mostrado no seguinte exemplo de saída:
 
 Uso de impressão digital
 
@@ -96,7 +96,7 @@ A9D51A2911C74FABFF7F2A8A994B20857D399107 padrão
 
 <div>
 
-## <a name="reviewing-the-output"></a>Revisando a saída
+## <a name="reviewing-the-output"></a>Revisão da saída
 
 O cmdlet Get-CsCertificate retorna informações semelhantes às seguintes para cada um dos seus certificados do Lync Server:
 
@@ -108,9 +108,9 @@ Não antes: 1/2/2014 12:49:37 PM
 
 SerialNumber: 611BB01200000000000C
 
-Assunto: CN = LYNC-SE.fabrikam.com
+Subject: CN = LYNC-SE.fabrikam.com
 
-Alternativos: {sip.fabrikam.com, LYNC-SE.fabrikam.com,
+Alternativonames: {sip.fabrikam.com, LYNC-SE.fabrikam.com,
 
 meet.fabrikam.com, admin.fabrikam.com...}
 
@@ -118,7 +118,7 @@ Impressão digital: A9D51A2911C74FABFF7F2A8A994B20857D399107
 
 Usar: padrão
 
-Como regra, os principais problemas que envolvem os certificados do Lync Server envolvem datas e horas, como quando os certificados entram em vigor (não antes) ou quando expiram (não depois). Como essas datas e horas são tão importantes, talvez você queira limitar os dados retornados às informações como o uso do certificado, o número de série do certificado e a data de expiração do certificado; em seguida, você pode revisar rapidamente todos os certificados e quando eles vão expirar. Para retornar apenas essas informações, use o comando juntamente com as opções conforme mostrado:
+Como regra, os principais problemas que envolvem os certificados do Lync Server envolvem datas e horas, como quando os certificados entram em vigor (não antes) ou quando expiram (não depois). Como essas datas e horários são tão importantes, talvez você queira limitar os dados retornados às informações como o uso do certificado, o número de série do certificado e a data de vencimento do certificado; em seguida, você pode revisar rapidamente todos os certificados e quando eles vão expirar. Para retornar apenas essas informações, use o comando junto com as opções, conforme mostrado:
 
 `Get-CsCertificate | Select-Object Use, SerialNumber, NotAfter | Sort-Object NotAfter`
 
@@ -128,15 +128,15 @@ Usar SerialNumber não após
 
 \--- ------------ --------
 
-611BB01200000000000C padrão 12/28/2015 3:35:41 PM
+611BB01200000000000C 12/28/2015 3:35:41 PM padrão
 
 WebServicesInteral 32980AA20BBB20000191 02/15/2016 2:16:12 PM
 
 WebServicesExternal 0451B012003872651A0C 02/20/2016 7:11:58 AM
 
-Se você tiver problemas com o certificado, talvez queira revisar osnames como configurados para um certificado. À primeira vista, isso parece ser um problema. Por padrão, e dependendo do tamanho da janela do console, Get-CsCertificate pode não ser capaz de exibir todos os nomes:
+Se você tiver problemas com o certificado, convém revisar os outros osnames configurados para um certificado. À primeira vista, isso parece ser um problema. Por padrão, e dependendo do tamanho da janela do console, o Get-CsCertificate pode não ser capaz de exibir todos os nomes:
 
-Alternativos: {sip.fabrikam.com, LYNC.fabrikam.com,
+Alternativonames: {sip.fabrikam.com, LYNC.fabrikam.com,
 
 meet.fabrikam.com, admin. Fabrika...}
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48183797
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 980b64dacbe623241aedfb3312156f5599c43bab
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c3f5dde3c3fa54bd920bfd17055cdc759f50bc0a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764547"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040317"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764547"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-23_
+_**Última modificação do tópico:** 2012-06-23_
 
-Antes de implantar o arquivamento, você precisa implantar o hardware e o software apropriados para dar suporte ao arquivamento e verificar se sua infraestrutura oferece suporte à implantação de arquivamento.
+Antes de implantar o arquivamento, é preciso implantar o hardware e software apropriado para suportar o arquivamento e verificar se sua infraestrutura oferece suporte a sua implantação do arquivamento.
 
 <div>
 
@@ -49,7 +49,7 @@ Antes de implantar o arquivamento, você precisa implantar o hardware e o softwa
 
   - [Configurando o armazenamento para arquivamento no Lync Server 2013](lync-server-2013-setting-up-storage-for-archiving.md)
 
-  - [Configurar permissões para arquivamento no Lync Server 2013](lync-server-2013-setting-up-permissions-for-archiving.md)
+  - [Configurando permissões para arquivamento no Lync Server 2013](lync-server-2013-setting-up-permissions-for-archiving.md)
 
 </div>
 

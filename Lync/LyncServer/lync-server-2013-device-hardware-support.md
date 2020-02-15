@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Suporte a hardware de dispositivo'
+title: Suporte a hardware de dispositivo do Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185222
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ea720eda982ab20333e56de268085a706ab2cdc7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e0b4b0f24523044169ae3274ae4d0ff16ae9ff67
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762429"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044983"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,31 +35,31 @@ ms.locfileid: "41762429"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-12-14_
+_**Última modificação do tópico:** 2012-12-14_
 
-Configurações de hardware específicas devem estar no lugar antes de você implantar telefones IP e dispositivos analógicos.
+Configurações de hardware específicas devem ser feitas antes de você implantar telefones IP e dispositivos analógicos.
 
-Telefones IP executando o Lync Phone Edition dão suporte ao protocolo de descoberta de camada de link-descoberta de ponto de extremidade de mídia (LLDP-MED) e Power over Ethernet (PoE).Para tirar proveito do LLDP-MED, o switch deve dar suporte a IEEE 802.1 AB e ANSI/TIA-1057. Para tirar proveito da PoE, o switch deve oferecer suporte a PoE 802.3 AF ou 802.3 em.
+Telefones IP que executam o protocolo de descoberta de camada de link do Lync Phone Edition – descoberta de ponto de extremidade de mídia (LLDP-MED) e PoE (Power over Ethernet).Para aproveitar o LLDP-MED, o comutador deve suportar IEEE802.1AB e ANSI/TIA-1057. Para aproveitar o PoE, o comutador deve oferecer suporte a PoE802.3AF ou 802.3at.
 
-Para habilitar o LLDP-MED, o administrador deve habilitar o LLDP usando a janela de console do switch e definir a política de rede LLDP-MED com a ID de VLAN de voz correta.
+Para habilitar o LLDP-MED, o administrador precisa habilitar o LLDP usando a janela do console do comutador e definir a política de rede do LLDP-MED com a ID de VLAN de voz correta.
 
-Além disso, se a sua implantação inclui dispositivos analógicos, você deve configurar o gateway analógico para usar o Lync Server, e o gateway deve ser um dos seguintes:
+Além disso, se sua implantação incluir dispositivos analógicos, você deve configurar o gateway analógico para usar o Lync Server e o gateway deve ser um dos seguintes:
 
-  - Um adaptador de telefonia analógica (ATA)
+  - Um adaptador de telefone analógico (ATA)
 
   - Um gateway analógico PSTN
 
-  - Um aparelho de ramificação sobreviventes que inclui um gateway analógico PSTN
+  - Um Aparelho de Filial Persistente que inclua um gateway PSTN analógico
 
-  - Um aparelho de ramificação sobreviventes que inclui um gateway PSTN que se comunica com um ATA
+  - Um Aparelho de Filial Persistente que inclui um gateway PSTN que se comunica com um ATA
 
-Para saber como configurar um gateway analógico, consulte "planejando implantar dispositivos analógicos" [http://go.microsoft.com/fwlink/p/?LinkId=268537](http://go.microsoft.com/fwlink/p/?linkid=268537) na biblioteca do Lync Server 2010 TechNet. (Dispositivos analógicos funcionam da mesma maneira no Lync Server 2013 como no Lync Server 2010.)
+Para saber como configurar um gateway analógico, consulte "planejando a implantação de dispositivos analógicos" [http://go.microsoft.com/fwlink/p/?LinkId=268537](http://go.microsoft.com/fwlink/p/?linkid=268537) na biblioteca do TechNet do Lync Server 2010. (Os dispositivos analógicos funcionam da mesma maneira que no Lync Server 2013, como no Lync Server 2010.)
 
 <div>
 
 
 > [!IMPORTANT]  
-> Você pode configurar a opção para Enhanced 9-1-1 (E9-1-1), se o switch der suporte a isso.
+> É possível configurar o comutador para o Enhanced 9-1-1 (E9-1-1), se o comutador suportar isso.
 
 
 

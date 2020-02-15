@@ -12,16 +12,16 @@ ms:contentKeyID: 48183731
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8cec18903f1621d5a616debbbdd16f3c834ac21c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2b59622306fbde12eb570b72c95b37cec7885c7f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734671"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040920"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41734671"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-20_
+_**Última modificação do tópico:** 2012-10-20_
 
-Para garantir que seu novo agente do Lync Server participe do processo de descoberta do System Center Operations Manager, você deve concluir o procedimento a seguir em cada computador em que o console do System Center Operations Manager foi instalado:
+Para certificar-se de que seu novo agente do Lync Server participa do processo de descoberta para o System Center Operations Manager, você deve concluir o procedimento a seguir em cada computador em que o console do System Center Operations Manager tenha sido instalado:
 
-1.  Na guia **Administração** , clique em **agente gerenciado**.
+1.  Na guia **Administração**, clique em **Agente Gerenciado**.
 
-2.  Clique com o botão direito no nome do computador e clique em **Propriedades**. Na caixa de diálogo **Propriedades** , na guia **segurança** , selecione **permitir que esse agente atue como um proxy e descubra objetos gerenciados em outros computadores**e clique em **OK**.
+2.  Clique com o botão direito no nome do computador e clique em **Propriedades**. Na caixa de diálogo **Propriedades**, na guia **Segurança**, selecione **Permitir que este agente haja como um proxy e descubra objetos gerenciados em outros computadores** e clique em **OK**.
 
-Depois de concluir a etapa 2, reinicie o serviço de agente de integridade. (A reinicialização do serviço irá "forçar" a descoberta da nova máquina. Se você não reinicializar o serviço, pode levar até 4 horas para que o novo computador seja descoberto pelo System Center Operations Manager.). Após a reinicialização do serviço, verifique se nenhum evento de erro está sendo gravado no log de eventos do Operations Manager nesse computador.
+Após concluir a etapa 2, reinicie o serviço do Agente de Integridade. (Reiniciar o serviço "forçará" a descoberta da nova máquina. Se você não reiniciar o serviço, pode levar até 4 horas antes que uma nova máquina seja descoberta no Gerenciador de Operações do Centro do Sistema.) Após o serviço ter sido reiniciado, verifique se nenhum evento de erro foi registrado no log de eventos do Gerenciador de Operações neste computador.
 
 </div>
 

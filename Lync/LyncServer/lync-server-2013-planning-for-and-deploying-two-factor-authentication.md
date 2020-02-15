@@ -12,16 +12,16 @@ ms:contentKeyID: 54973686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a7aa10719a357100ce38da6616ef6c79d6a4a10
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 50238b10bf5667b51d4b3998ee995283ebdb4fc3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755141"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045453"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41755141"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-07-11_
+_**Última modificação do tópico:** 2013-07-11_
 
-A autenticação de dois fatores oferece segurança aprimorada exigindo que os usuários conheçam dois critérios de autenticação: uma combinação de nome de usuário/senha e token ou certificado. Isso também é conhecido como "algo que você tem, algo que você sabe". Um exemplo típico da autenticação de dois fatores com um certificado é o uso de cartões inteligentes. Um cartão inteligente contém um certificado associado à conta do usuário e pode ser validado com as informações e certificado e usuário que estão armazenadas em um servidor. Ao comparar as informações do usuário (nome do usuário e senha) ao certificado fornecido, o servidor valida as credenciais e autentica o usuário.
+A autenticação de dois fatores oferece segurança aprimorada exigindo que os usuários satisfaçam dois critérios de autenticação: uma combinação de nome de usuário/senha e um token ou certificado. Isso também é conhecido como "algo que você tem, algo que você sabe". Um exemplo típico de autenticação de dois fatores com um certificado é o uso de cartões inteligentes. Um cartão inteligente contém um certificado associado à conta de usuário e pode ser validado contra informações de usuário e certificado armazenadas em um servidor. Comparando as informações do usuário (nome de usuário e senha) para o certificado fornecido, o servidor valida as credenciais e autentica o usuário.
 
 <div>
 

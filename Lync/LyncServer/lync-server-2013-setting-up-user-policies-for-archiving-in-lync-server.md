@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurando as políticas de usuário para arquivamento no Lync Server'
+title: 'Lync Server 2013: Configurando políticas de usuário para arquivamento no Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183626
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa8f377c2a78275419c7d4906a51a9550864b8ba
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4e6a04f976022ea4f3026c7be5caa3ce186efa77
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764527"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039614"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41764527"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-10_
+_**Última modificação do tópico:** 2012-10-10_
 
-Habilitar ou desabilitar o arquivamento para usuários específicos hospedados no Lync Server 2013 requer a criação e a configuração de uma ou mais políticas de usuário e, em seguida, a aplicação da política apropriada a usuários específicos ou grupos de usuários. Políticas de usuário substituem políticas globais e do site, mas somente para usuários hospedados no Lync Server 2013.
+Habilitar ou desabilitar o arquivamento para usuários específicos hospedados no Lync Server 2013 requer a criação e configuração de uma ou mais políticas de usuário e, em seguida, a aplicação da política apropriada a usuários ou grupos de usuários específicos. As políticas de usuário substituem as políticas globais e do site, mas somente para os usuários hospedados no Lync Server 2013.
 
-Os usuários sempre são hospedados no Lync Server. Se a integração com o Microsoft Exchange estiver habilitada, os usuários cujas caixas de correio estiverem no Microsoft Exchange Server 2013 não precisarão ter suas políticas de arquivamento no Lync Server gerenciadas. Esses usuários com arquivamento serão gerenciados pelo bloqueio in-loco do Exchange.
+Os usuários sempre estão hospedados no Lync Server. Se a integração com o Microsoft Exchange estiver habilitada, os usuários cujas caixas de correio estão no Microsoft Exchange Server 2013 não precisam ter suas políticas de arquivamento no Lync Server gerenciadas. Esses usuários com arquivamento serão gerenciados pelo bloqueio in-loco do Exchange.
 
-Para obter detalhes sobre como as políticas de arquivamento funcionam, incluindo a hierarquia para políticas globais, de site e de usuário, consulte [como o arquivamento funciona no Lync Server 2013](lync-server-2013-how-archiving-works.md) na documentação de planejamento, documentação de implantação ou documentação de operações.
+Para obter detalhes sobre como as políticas de arquivamento funcionam, incluindo a hierarquia para políticas globais, de site e de usuário, consulte [How Archiving Works in Lync Server 2013](lync-server-2013-how-archiving-works.md) na documentação de planejamento, documentação de implantação ou operações.
 
 <div>
 
 
 > [!NOTE]  
-> Se você tiver habilitado a integração do Microsoft Exchange para a sua implantação, as políticas de bloqueio in-loco do Exchange controlarão se o arquivamento está habilitado para os usuários que são hospedados no Exchange 2013. O arquivamento para estes usuários requer que eles tenham suas caixas de correio colocadas no bloqueio in-loco. Para obter detalhes, consulte <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Configurando políticas para arquivamento no Lync server 2013 ao usar a integração com o Exchange Server</A> na documentação de implantação.<BR>Você deve especificar todas as opções adequadas nas configurações de arquivamento antes de habilitar o arquivamento. Para obter detalhes, consulte <A href="lync-server-2013-configuring-archiving-options.md">Configurando opções de arquivamento no Lync Server 2013</A> na documentação de implantação.
+> Se você habilitou a integração do Microsoft Exchange para sua implantação, as políticas de bloqueio in-loco do Exchange controlarão se o arquivamento está habilitado para os usuários hospedados no Exchange 2013. O arquivamento desses usuários exige que suas caixas de correio sejam colocadas no bloqueio in-loco. Para obter detalhes, consulte <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Configurando políticas para arquivamento no Lync server 2013 ao usar a integração com o Exchange Server</A> na documentação de implantação.<BR>Você deve especificar todas as opções apropriadas nas configurações de arquivamento antes de habilitar o arquivamento. Para obter detalhes, consulte <A href="lync-server-2013-configuring-archiving-options.md">Configuring Archiving Options in Lync Server 2013</A> na documentação de implantação.
 
 
 

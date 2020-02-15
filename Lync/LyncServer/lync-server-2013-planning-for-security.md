@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Planejando a segurança'
+title: 'Lync Server 2013: planejamento de segurança'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 56107267
 ms.date: 06/22/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02028b3ed63fe8f5cd40fd118bd36c73af9d15cd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3bcc5c5cb36717084f9ec5715feb30b11ced5a3e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725201"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045223"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-security-in-lync-server-2013"></a>Planejando a segurança no Lync Server 2013
+# <a name="planning-for-security-in-lync-server-2013"></a>Planejamento de segurança no Lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41725201"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2016-06-22_
+_**Última modificação do tópico:** 2016-06-22_
 
 Use esta seção de segurança para avaliar e gerenciar riscos de segurança na sua implantação do Lync Server 2013.
 
-Mesmo que a implantação do Lync Server 2013 seja modesto, é provável que você tenha componentes da sua rede com sua própria documentação de segurança. Portanto, é improvável que esta seção cubra todos os aspectos de segurança para todos os componentes e áreas pertinentes à sua implantação.
+Mesmo que sua implantação do Lync Server 2013 seja modesto, é provável que você tenha componentes em sua rede com sua própria documentação de segurança. Portanto, é improvável que esta seção cubra todos os aspectos de segurança para todos os componentes e áreas pertinentes à sua implantação.
 
-Use esta seção como ponto de partida para solucionar a segurança da sua implantação do Lync Server 2013. Ele fornece diretrizes gerais e práticas recomendadas para avaliar e gerenciar os riscos de segurança mais comuns. Recursos de segurança e produtos adicionais estão listados no final de cada tópico.
+Use esta seção como ponto de partida para lidar com a segurança da sua implantação do Lync Server 2013. Ele fornece diretrizes gerais e práticas recomendadas para avaliar e gerenciar os riscos de segurança mais comuns. Recursos de segurança e produtos adicionais são listados no final de cada tópico.
 
 <div>
 
 
 > [!IMPORTANT]  
-> A segurança é um tópico em constante evolução. Como surgem novas ameaças e soluções, documentos, soluções, métodos e procedimentos desatualizados devem ser substituídos por um material atualizado.
+> A segurança é um tópico em constante evolução. À medida que surgem novas ameaças e soluções, documentos, soluções, métodos e procedimentos desatualizados devem ser substituídos por materiais atualizados.
 
 
 
@@ -57,17 +57,17 @@ Use esta seção como ponto de partida para solucionar a segurança da sua impla
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Recursos de segurança-chave no Lync Server 2013](lync-server-2013-key-security-features.md)
+  - [Principais recursos de segurança no Lync Server 2013](lync-server-2013-key-security-features.md)
 
-  - [Ameaças de segurança comuns no Modern Day Computing](lync-server-2013-common-security-threats-in-modern-day-computing.md)
+  - [Ameaças comuns à segurança em computação de dia moderno](lync-server-2013-common-security-threats-in-modern-day-computing.md)
 
-  - [Exclusões de verificação de antivírus para Lync Server 2013](lync-server-2013-antivirus-scanning-exclusions.md)
+  - [Exclusões de verificação antivírus para o Lync Server 2013](lync-server-2013-antivirus-scanning-exclusions.md)
 
-  - [Estrutura de segurança do Lync Server 2013](lync-server-2013-security-framework-for-lync-server.md)
+  - [Estrutura de segurança para o Lync Server 2013](lync-server-2013-security-framework-for-lync-server.md)
 
   - [Lidando com ameaças à sua infraestrutura principal do Lync Server 2013](lync-server-2013-addressing-threats-to-your-core-infrastructure.md)
 
-  - [Implantando porta não padrão e alias do SQL Server no Lync Server 2013](deploying-a-sql-server-nonstandard-port-and-alias-in-lync-server-2013.md)
+  - [Implantando uma porta e um alias não padrão do SQL Server no Lync Server 2013](deploying-a-sql-server-nonstandard-port-and-alias-in-lync-server-2013.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: adicionar comandos aos menus do Lync'
+title: 'Lync Server 2013: adicionando comandos aos menus do Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185091
 ms.date: 04/11/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1cbce99116159d119eaa604b7000764913b3cbe
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 96a0df07a44392857f4384a1285245229874cdaa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738171"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038603"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="adding-commands-to-lync-menus-in-lync-server-2013"></a>Adicionar comandos aos menus do Lync no Lync Server 2013
+# <a name="adding-commands-to-lync-menus-in-lync-server-2013"></a>Adicionando comandos aos menus do Lync no Lync Server 2013
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "41738171"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2016-04-11_
+_**Última modificação do tópico:** 2016-04-11_
 
-Você pode adicionar comandos personalizados aos menus do Lync 2013 e passar o URI (Uniform Resource Identifier) do SIP do usuário atual e os contatos selecionados para o aplicativo que o comando personalizado inicia.
+Você pode adicionar comandos personalizados aos menus do Lync 2013 e passar o URI (Uniform Resource Identifier) do SIP do usuário atual e dos contatos selecionados para o aplicativo que o comando personalizado inicia.
 
-Os comandos personalizados que você adiciona podem aparecer em um ou mais dos seguintes menus:
+Os comandos adicionados podem aparecer em um ou mais dos seguintes menus:
 
-  - O menu ferramentas, na barra de menus da janela principal do Lync
+  - O menu Ferramentas, na barra de menus da janela principal do Lync
 
-  - O menu de atalho para contatos na lista de contatos
+  - O menu de atalho para contatos na lista de Contatos
 
   - O menu mais opções, na janela de conversa
 
-  - O menu de atalho para as pessoas listadas na lista de participantes da janela de conversa
+  - O menu de atalho para pessoas na lista de participantes na janela de Conversas
 
-  - O menu opções em um cartão de visita
+  - O menu de opções em um cartão de visitas
 
-Você pode definir comandos personalizados para dois tipos de aplicativos — aplicativos que executam um dos seguintes procedimentos:
+Você pode definir comandos personalizados para dois tipos de aplicativos — aqueles que:
 
-  - Aplicar somente ao usuário atual e são iniciados no computador local.
+  - Aplicam-se somente ao usuário atual e são iniciados no computador local.
 
-  - Envolver usuários adicionais, como um programa de colaboração online, e deve ser iniciado no computador de cada usuário.
+  - Envolvem usuários adicionais, como programas de colaboração online, e devem ser iniciados no computador de cada usuário.
 
-O comando personalizado pode ser invocado das seguintes maneiras:
+O comando personalizado pode ser chamado das seguintes formas:
 
-  - Selecione um ou mais usuários e, em seguida, escolha o comando personalizado.
+  - Selecione um ou mais usuários e escolha o comando personalizado.
 
-  - Inicie uma conversa entre duas pessoas ou vários participantes e, em seguida, escolha o comando personalizado.
+  - Inicie uma conversa com dois ou vários participantes e escolha o comando personalizado.
 
 <div>
 
@@ -69,11 +69,11 @@ O comando personalizado pode ser invocado das seguintes maneiras:
 
 Use as configurações do registro na tabela a seguir para adicionar um comando aos menus. Essas entradas são colocadas no registro em um dos seguintes locais:
 
-  - Para o sistema operacional de\_32\_bits\\:\\hKey\\local\\Machine\\software\\Microsoft Office\\15,0 Lync SessionManager apps
+  - Para sistema operacional de 32\_bits\_:\\HKEY\\local\\Machine\\software\\Microsoft\\Office 15,0\\Lync SessionManager apps
 
-  - Para OS sistemas operacionais de\_64\_bits\\:\\hKey\\local\\Machine\\software\\Wow6432Node\\Microsoft Office\\15,0 Lync SessionManager apps
+  - Para sistema operacional de 64\_bits\_:\\hKey\\local\\Machine\\software\\Wow6432Node\\Microsoft\\Office 15,0\\Lync SessionManager apps
 
-### <a name="custom-command-registry-entries"></a>Entradas de registro de comando personalizado
+### <a name="custom-command-registry-entries"></a>Entradas de Registro de Comandos Personalizados
 
 <table>
 <colgroup>
@@ -92,12 +92,12 @@ Use as configurações do registro na tabela a seguir para adicionar um comando 
 <tr class="odd">
 <td><p>Nome</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Nome do aplicativo exibido no menu.</p></td>
+<td><p>Nome do aplicativo conforme aparece no menu.</p></td>
 </tr>
 <tr class="even">
 <td><p>ApplicationType</p></td>
-<td><p>DUPLA</p></td>
-<td><p>0 = executável (padrão)</p>
+<td><p>DWORD</p></td>
+<td><p>0 = Executável (padrão)</p>
 <div>
 
 > [!NOTE]  
@@ -105,7 +105,7 @@ Use as configurações do registro na tabela a seguir para adicionar um comando 
 
 
 </div>
-<p>1 = protocolo</p></td>
+<p>1 = Protocolo</p></td>
 </tr>
 <tr class="odd">
 <td><p>ApplicationInstallPath</p></td>
@@ -114,7 +114,7 @@ Use as configurações do registro na tabela a seguir para adicionar um comando 
 <div>
 
 > [!NOTE]  
-> Deve ser especificado se ApplicationType for 0 (executável).
+> Deve ser especificado se o Tipo de Aplicativo for 0 (Executável).
 
 
 </div></td>
@@ -122,31 +122,31 @@ Use as configurações do registro na tabela a seguir para adicionar um comando 
 <tr class="even">
 <td><p>Path</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Caminho completo para ser iniciado juntamente com qualquer parâmetro, incluindo os parâmetros padrão <em>% User-ID%</em> e <em>% Contact-ID%</em>.</p></td>
+<td><p>Caminho completo a ser iniciado junto com quaisquer parâmetros, incluindo os parâmetros padrão <em>%user-id%</em> e <em>%contact-id%</em>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>SessionType</p></td>
-<td><p>DUPLA</p></td>
-<td><p>0 = sessão local. O aplicativo é iniciado no computador local.</p>
-<p>1 = sessão de dois participantes (padrão). O Lync 2013 inicia o aplicativo localmente e, em seguida, envia uma notificação da área de trabalho para o outro usuário. O outro usuário clica na notificação para iniciar o aplicativo em seu computador.</p>
-<p>2 = sessão com vários participantes. O Lync 2013 inicia o aplicativo localmente e, em seguida, envia notificações da área de trabalho para os outros usuários. O outro usuário clica na notificação para iniciar o aplicativo especificado em seu computador.</p></td>
+<td><p>DWORD</p></td>
+<td><p>0 = Sessão local. O aplicativo é iniciado no computador local.</p>
+<p>1 = Sessão de dois participantes (padrão). O Lync 2013 inicia o aplicativo localmente e, em seguida, envia uma notificação de área de trabalho para o outro usuário. O outro usuário clica na notificação para iniciar o aplicativo em seu computador.</p>
+<p>2 = Sessão de vários participantes. O Lync 2013 inicia o aplicativo localmente e, em seguida, envia notificações da área de trabalho para os outros usuários. O outro usuário clica na notificação para iniciar o aplicativo especificado em seu computador.</p></td>
 </tr>
 <tr class="even">
 <td><p>ExtensibleMenu</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Uma lista dos menus em que esse comando será exibido, separados por ponto-e-vírgula. Os valores possíveis são:</p>
+<td><p>Uma lista dos menus onde este comando será exibido, separados por ponto e vírgula. Os valores possíveis são:</p>
 <p>MainWindowActions</p>
 <p>MainWindowRightClick</p>
 <p>ConversationWindowActions</p>
 <p>ConversationWindowRightClick</p>
 <p>ContactCardMenu</p>
-<p>Se ExtensibleMenu não for definido, os valores padrão de MainWindowRightClick e ConversationWindowActions serão usados.</p></td>
+<p>Se ExtensibleMenu não estiver definido, os valores padrão de MainWindowRightClick e ConversationWindowActions são usados.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Por exemplo, o seguinte editor de registro (. REG) mostra os resultados da adição de um item de menu do Gerenciador de contatos de vendas da Contoso ao menu ações na janela de conversa:
+Por exemplo, o arquivo do Editor do Registro (.REG) a seguir mostra os resultados de adicionar o item Gerente de Contatos de Vendas da Contoso ao menu Ações na janela de Conversas:
 
     Windows Registry Editor Version 5.00
     [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\15.0\Lync\SessionManager\Apps\{1F9F07C6-7E0B-462B-AAD7-98C6DBEA8F69}]
@@ -164,15 +164,15 @@ Por exemplo, o seguinte editor de registro (. REG) mostra os resultados da adiç
 
 ## <a name="to-access-a-custom-command"></a>Para acessar um comando personalizado
 
-Para acessar um comando personalizado após ele ser adicionado, siga um destes procedimentos, dependendo dos valores de ExtensibleMenu que você definir:
+Para acessar um comando personalizado depois de adicionado, siga um destes procedimentos, dependendo dos valores de ExtensibleMenu que você definir:
 
-  - **MainWindowActions**   na janela principal do Lync, clique em **ferramentas**e, em seguida, clique em seu comando personalizado.
+  - **MainWindowActions**   na janela principal do Lync, clique em **ferramentas**e em seu comando personalizado.
 
-  - **MainWindowRightClick**   na janela principal do Lync, clique com o botão direito do mouse em um contato e clique no comando personalizado.
+  - **MainWindowRightClick**   na janela principal do Lync, clique com o botão direito em um contato e clique em seu comando personalizado.
 
   - **ConversationWindowActions**   na janela de conversa, clique no ícone **mais opções** e, em seguida, clique em seu comando personalizado.
 
-  - **ConversationWindowRightClick**   na janela de conversa, clique com o botão direito do mouse no nome de um contato e, em seguida, clique em seu comando personalizado.
+  - **ConversationWindowRightClick**   na janela de conversa, clique com o botão direito do mouse em um nome de contato e clique em seu comando personalizado.
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 49733772
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 571bddf8de62d7b22ac23a3b00de740030a2f7ca
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 154f32e22ccce5ae23a4e3dceb175072618cc289
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738781"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037511"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41738781"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
-O Lync Server permite que você configure a manipulação de chamadas telefônicas de entrada quando o número discado é válido para a sua organização, mas não é atribuído a um usuário ou telefone. Você pode usar o aplicativo de anúncio para transferir essas chamadas para um destino predeterminado (número de telefone, URI de SIP ou caixa postal) ou executar um anúncio de áudio ou ambos. Você também pode transferir essas chamadas para um número de telefone de atendedor automático do Exchange UM. A manipulação de chamadas para números não atribuídos de uma dessas maneiras ajuda você a evitar as situações em que um chamador disca sem erros e ouve um tom ocupado, ou o cliente SIP recebe uma mensagem de erro.
+O Lync Server permite que você configure o tratamento de chamadas telefônicas de entrada quando o número discado é válido para sua organização, mas não é atribuído a um usuário ou telefone. Você pode usar o aplicativo de comunicado para transferir essas chamadas para um destino predeterminado (número de telefone, URI de SIP ou caixa postal) ou reproduzir um anúncio de áudio ou ambos. Também é possível transferir essas chamadas para um número telefônico do Atendedor Automático do UM do Exchange. Tratar das chamadas a números não atribuídos é uma das maneiras de evitar a situação em que um chamador liga para o número incorreto e ouve um tom de ocupado, ou o cliente SIP recebe uma mensagem de erro.
 
-Esta seção descreve como gerenciar intervalos de números não atribuídos para manipular chamadas para números de telefone não atribuídos. A seção também descreve como gerenciar anúncios durante a recuperação de desastres se desejar essa funcionalidade durante uma interrupção.
+Esta seção descreve como gerenciar intervalos de números não atribuídos para tratar as chamadas a números não atribuídos. A seção também descreve como gerenciar Comunicados durante recuperação de desastres, se você desejar essa funcionalidade durante uma interrupção de energia.
 
 <div>
 
 
 > [!NOTE]  
-> Usar a manipulação de número não atribuído durante uma interrupção é opcional.
+> O uso do tratamento de chamadas a números não atribuídos durante uma interrupção de energia é opcional.
 
 
 
@@ -55,7 +55,7 @@ Esta seção descreve como gerenciar intervalos de números não atribuídos par
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Criar um anúncio no Lync Server 2013](lync-server-2013-create-an-announcement.md)
+  - [Criar um comunicado no Lync Server 2013](lync-server-2013-create-an-announcement.md)
 
   - [Configurar números de telefone não atribuídos no Lync Server 2013](lync-server-2013-configure-unassigned-phone-numbers.md)
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: (opcional) verificar a implantação do estacionamento de chamadas'
+title: 'Lync Server 2013: (opcional) verificar a implantação do estacionamento de chamada'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185952
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5cfc0d62bcfabe1a5bcddfb069d95b18aa0d30d4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 05b18de4af492fb45ef37e64cca45cc2d3d2b965
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755715"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044623"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-verify-call-park-deployment-in-lync-server-2013"></a>Adicionais Verificar a implantação do estacionamento de chamadas no Lync Server 2013
+# <a name="optional-verify-call-park-deployment-in-lync-server-2013"></a>Opcion Verificar a implantação do estacionamento de chamada no Lync Server 2013
 
 </div>
 
@@ -35,24 +35,24 @@ ms.locfileid: "41755715"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-11_
+_**Última modificação do tópico:** 2012-09-11_
 
-Depois de instalar e configurar o parque de chamadas, você precisa verificar a configuração para garantir que o estacionamento e a recuperação de chamadas funcionarão como esperado. No mínimo, verifique o seguinte:
+Após instalar e configurar o estacionamento de chamadas, você precisa verificar a configuração para garantir que o estacionamento e a recuperação de chamadas funcione conforme o esperado. No mínimo, verifique o seguinte:
 
-  - Ligue para um usuário que tenha o estacionamento de chamadas habilitado e tenha o usuário que estaciona a chamada.
+  - Ligue para um usuário que tem o estacionamento de chamadas habilitado e faça com que o usuário disquem a chamada.
     
     <div>
     
 
     > [!NOTE]  
-    > Se você ativou o estacionamento de chamadas na política de voz antes de realizar esse teste, o usuário que está estacionando a chamada precisa sair do Lync Server e, em seguida, entrar novamente para poder ver a opção parque de chamadas na lista de chamadas de transferência.
+    > Se você habilitou o estacionamento de chamada na política de voz antes de executar esse teste, o usuário que estiver estacionando a chamada precisa sair do Lync Server e entrar novamente para poder ver a opção de estacionamento de chamada na lista de chamadas de transferência.
 
     
     </div>
 
   - Disque o número de órbita para recuperar a chamada.
 
-  - Estacione outra chamada, permita que o tempo da chamada estacionada esgote e não pegue o retorno de chamada. Verifique se a chamada que atingiu o tempo limite será corretamente roteada para o destino de fallback especificado para **OnTimeoutURI**.
+  - Estacione outra chamada, permita que o tempo da chamada estacionada esgote e não pegue o retorno de chamada. Verifique se a chamada que atingiu o tempo limite será corretamente roteada para o destino de fallback especificado para **OnTimeoutURI **.
 
 </div>
 

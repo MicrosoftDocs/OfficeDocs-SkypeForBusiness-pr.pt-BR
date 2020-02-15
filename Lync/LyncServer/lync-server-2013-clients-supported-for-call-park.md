@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Clientes suportados para Estacionamento de Chamadas'
+title: 'Lync Server 2013: clientes com suporte para estacionamento de chamada'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185320
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52304a0241425a3b88c7f9419afa57f3d768fbb0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ee3916e74a68121b027061429bacb44e2dafacdb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756455"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044213"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="clients-supported-for-call-park-in-lync-server-2013"></a>Clientes suportados para Estacionamento de Chamadas no Lync Server 2013
+# <a name="clients-supported-for-call-park-in-lync-server-2013"></a>Clientes com suporte para estacionamento de chamadas no Lync Server 2013
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41756455"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-13_
+_**Última modificação do tópico:** 2012-09-13_
 
 Esta seção identifica os clientes que podem ser usados para estacionar chamadas e os clientes que podem ser usados para recuperar chamadas estacionadas.
 
 <div>
 
-## <a name="clients-supported-for-parking-calls"></a>Clientes com suporte para Estacionamento de Chamadas
+## <a name="clients-supported-for-parking-calls"></a>Clientes com suporte para estacionamento de chamadas
 
-Chamadas de qualquer telefone IP, PBX, PSTN ou celular podem ser estacionadas.
+As chamadas de qualquer IP, PBX (rede telefônica pública comutada), PSTN ou celular podem ser estacionadas.
 
 <div>
 
 
 > [!NOTE]  
-> Apenas chamadas de áudio podem ser estacionadas. Conferências e mensagens instantâneas não podem ser estacionadas.
+> Somente as chamadas de áudio podem ser estacionadas. Mensagens instantâneas e conferências não podem ser estacionadas.
 
 
 
 </div>
 
-Os seguintes clientes podem usar o estacionamento de chamadas para estacionar chamadas:
+Os clientes a seguir podem usar o estacionamento de chamadas para estacionar chamadas:
 
   - Lync 2013
 
@@ -69,7 +69,7 @@ Os seguintes clientes podem usar o estacionamento de chamadas para estacionar ch
 
 
 > [!NOTE]  
-> Telefones celulares não podem usar o estacionamento de chamadas para fazer chamadas para estacionar.
+> Telefones celulares não podem usar o estacionamento de chamadas para estacionamento de chamadas.
 
 
 
@@ -79,13 +79,13 @@ Os seguintes clientes podem usar o estacionamento de chamadas para estacionar ch
 
 <div>
 
-## <a name="clients-supported-for-retrieving-calls"></a>Clientes com suporte para Recuperação de Chamadas
+## <a name="clients-supported-for-retrieving-calls"></a>Clientes com suporte para recuperação de chamadas
 
-Os intervalos de órbita são configurados como blocos de extensões virtuais (extensões sem um usuário ou telefone atribuído). Quando você configura órbitas como extensões virtuais, os celulares e telefones PSTN não podem recuperar as chamadas estacionadas.
+Os intervalos de órbitas são configurados como blocos de extensões virtuais (extensões sem um usuário ou telefone atribuído). Quando você configura órbitas como extensões virtuais, telefones celulares e telefones PSTN não podem recuperar chamadas estacionadas.
 
 Os usuários federados não podem recuperar chamadas estacionadas.
 
-Os seguintes clientes podem recuperar chamadas estacionadas no parque da chamada:
+Os clientes a seguir podem recuperar chamadas estacionadas no estacionamento de chamada:
 
   - Lync 2013
 
@@ -95,9 +95,9 @@ Os seguintes clientes podem recuperar chamadas estacionadas no parque da chamada
 
   - Lync Phone Edition
 
-  - Telefones de área comuns IP
+  - Telefones de área comum IP
 
-  - Telefones não IP conectados à infraestrutura do Lync Server 2013, incluindo telefones de área comum e telefones PBX (Private Branch Exchange)
+  - Telefones não IP que estão conectados à infraestrutura do Lync Server 2013, incluindo telefones de área comum e telefones de PBX (Private Branch Exchange)
 
 </div>
 

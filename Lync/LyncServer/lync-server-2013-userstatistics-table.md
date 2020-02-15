@@ -12,16 +12,16 @@ ms:contentKeyID: 49733827
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7609747848e1943a08eff2fa77b87f0168710f81
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 98c24093f332f568daadfb0cd336f0d5fde3eb35
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744251"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044343"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744251"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-28_
+_**Última modificação do tópico:** 2012-09-28_
 
-A tabela userstatistics é uma tabela de suporte. Cada registro na tabela armazena informações sobre o uso de um usuário individual do sistema. Esta tabela foi introduzida no Microsoft Lync Server 2013.
+A tabela UserStatistics é uma tabela de suporte. Cada registro na tabela armazena informações sobre o uso individual do usuário no sistema. Esta tabela foi introduzida no Microsoft Lync Server 2013.
 
 
 <table>
@@ -57,34 +57,34 @@ A tabela userstatistics é uma tabela de suporte. Cada registro na tabela armaze
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>ID</strong></p></td>
+<td><p><strong>UserId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primária</p></td>
-<td><p>Número exclusivo que identifica esse usuário.</p></td>
+<td><p>Primário</p></td>
+<td><p>Número único que identifica este usuário.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LastLogInTime</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
-<td><p>Última vez em que o usuário se conectou.</p></td>
+<td><p>Última vez que o usuário fez o login.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LastConfOrganizedTime</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
-<td><p>Última vez em que o usuário organizou uma conferência.</p></td>
+<td><p>Última vez que o usuário organizou uma conferência.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LastCallOrganizerCallFailureTime</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
-<td><p>Última vez que o usuário experimentou uma falha na chamada.</p></td>
+<td><p>Última vez que o usuário enfrentou uma falha de ligação.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LastConfOrganizerCallFailureTime</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
-<td><p>Última vez que o usuário experimentou uma falha na chamada como um organizador de conferências.</p></td>
+<td><p>Última vez que o usuário enfrentou uma falha de ligação como um organização da conferência.</p></td>
 </tr>
 </tbody>
 </table>
