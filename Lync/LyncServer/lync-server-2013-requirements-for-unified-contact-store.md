@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Requisitos para repositório unificado de contato'
+title: 'Lync Server 2013: requisitos para repositório unificado de contatos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185590
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: df3eccd4c5e245fe4729df8b5680db294841f21e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: eb689d004f11dd5a3613dd44b78975b2826e7976
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723791"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033370"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="requirements-for-unified-contact-store-in-lync-server-2013"></a><span data-ttu-id="6da1e-102">Requisitos para repositório unificado de contato no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6da1e-102">Requirements for unified contact store in Lync Server 2013</span></span>
+# <a name="requirements-for-unified-contact-store-in-lync-server-2013"></a><span data-ttu-id="ff32f-102">Requisitos para repositório unificado de contatos no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ff32f-102">Requirements for unified contact store in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41723791"
 
 <span> </span>
 
-<span data-ttu-id="6da1e-103">_**Tópico da última modificação:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="6da1e-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="ff32f-103">_**Última modificação do tópico:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="ff32f-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="6da1e-104">A lista a seguir descreve os requisitos para implementar o repositório de contatos unificado no Lync Server 2013:</span><span class="sxs-lookup"><span data-stu-id="6da1e-104">The following list describes the requirements for implementing unified contact store in Lync Server 2013:</span></span>
+<span data-ttu-id="ff32f-104">A lista a seguir descreve os requisitos para implementar o repositório unificado de contatos no Lync Server 2013:</span><span class="sxs-lookup"><span data-stu-id="ff32f-104">The following list describes the requirements for implementing unified contact store in Lync Server 2013:</span></span>
 
-  - <span data-ttu-id="6da1e-105">Você deve estar executando o Microsoft Lync Server 2013 e o Exchange 2013.</span><span class="sxs-lookup"><span data-stu-id="6da1e-105">You must be running Microsoft Lync Server 2013 and Exchange 2013.</span></span>
+  - <span data-ttu-id="ff32f-105">Você deve estar executando o Microsoft Lync Server 2013 e o Exchange 2013.</span><span class="sxs-lookup"><span data-stu-id="ff32f-105">You must be running Microsoft Lync Server 2013 and Exchange 2013.</span></span>
 
-  - <span data-ttu-id="6da1e-106">Os usuários devem usar o Lync 2013 para iniciar a migração de contatos do Lync Server 2013 para o Exchange 2013.</span><span class="sxs-lookup"><span data-stu-id="6da1e-106">Users must use Lync 2013 to initiate the migration of contacts from Lync Server 2013 to Exchange 2013.</span></span>
+  - <span data-ttu-id="ff32f-106">Os usuários devem usar o Lync 2013 para iniciar a migração de contatos do Lync Server 2013 para o Exchange 2013.</span><span class="sxs-lookup"><span data-stu-id="ff32f-106">Users must use Lync 2013 to initiate the migration of contacts from Lync Server 2013 to Exchange 2013.</span></span>
 
-  - <span data-ttu-id="6da1e-107">As caixas de correio do usuário devem ser migradas para o Exchange 2013.</span><span class="sxs-lookup"><span data-stu-id="6da1e-107">User mailboxes must be migrated to Exchange 2013.</span></span>
+  - <span data-ttu-id="ff32f-107">As caixas de correio do usuário devem ser migradas para o Exchange 2013.</span><span class="sxs-lookup"><span data-stu-id="ff32f-107">User mailboxes must be migrated to Exchange 2013.</span></span>
 
-  - <span data-ttu-id="6da1e-108">Você deve ter autenticação de servidor para servidor configurada entre o Lync Server 2013 e o Exchange 2013.</span><span class="sxs-lookup"><span data-stu-id="6da1e-108">You must have server-to-server authentication configured between Lync Server 2013 and Exchange 2013.</span></span>
+  - <span data-ttu-id="ff32f-108">Você deve ter a autenticação de servidor para servidor configurada entre o Lync Server 2013 e o Exchange 2013.</span><span class="sxs-lookup"><span data-stu-id="ff32f-108">You must have server-to-server authentication configured between Lync Server 2013 and Exchange 2013.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="6da1e-109">Para obter requisitos detalhados sobre a configuração da autenticação entre o Lync Server 2013 e o Exchange 2013, consulte <A href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">Gerenciando a autenticação de servidor para servidor (OAuth) e aplicativos de parceiros no Lync Server 2013</A> na documentação de operações.</span><span class="sxs-lookup"><span data-stu-id="6da1e-109">For detailed requirements about setting up authentication between Lync Server 2013 and Exchange 2013, see <A href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">Managing server-to-server authentication (OAuth) and partner applications in Lync Server 2013</A> in the Operations documentation.</span></span>
+    > <span data-ttu-id="ff32f-109">Para obter requisitos detalhados sobre como configurar a autenticação entre o Lync Server 2013 e o Exchange 2013, consulte <A href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">Managing Server-to-Server Authentication (OAuth) and Partner Applications in Lync Server 2013</A> na documentação operações.</span><span class="sxs-lookup"><span data-stu-id="ff32f-109">For detailed requirements about setting up authentication between Lync Server 2013 and Exchange 2013, see <A href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">Managing server-to-server authentication (OAuth) and partner applications in Lync Server 2013</A> in the Operations documentation.</span></span>
 
     
     </div>

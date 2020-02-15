@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Resumo de certificado - única borda consolidada com endereços IP privados usando NAT'
+title: 'Lync Server 2013: Resumo de certificado-borda consolidada única com endereços IP privados usando NAT'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184433
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b76ba1e92c6c396b81e0a815a9b1368f90b8b85d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2f6a169d02842df75c06a6f32b4bb9509a7e6b74
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736551"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030825"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---single-consolidated-edge-with-private-ip-addresses-using-nat-in-lync-server-2013"></a><span data-ttu-id="459ec-102">Resumo de certificado - única borda consolidada com endereços IP privados usando NAT no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="459ec-102">Certificate summary - Single consolidated edge with private IP addresses using NAT in Lync Server 2013</span></span>
+# <a name="certificate-summary---single-consolidated-edge-with-private-ip-addresses-using-nat-in-lync-server-2013"></a><span data-ttu-id="b3eef-102">Resumo de certificado-borda consolidada única com endereços IP privados usando NAT no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b3eef-102">Certificate summary - Single consolidated edge with private IP addresses using NAT in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41736551"
 
 <span> </span>
 
-<span data-ttu-id="459ec-103">_**Tópico da última modificação:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="459ec-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="b3eef-103">_**Última modificação do tópico:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="b3eef-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="459ec-104">O Microsoft Lync Server 2013 usa certificados para autenticar mutuamente outros servidores e criptografar dados do servidor para o servidor e o servidor para o cliente.</span><span class="sxs-lookup"><span data-stu-id="459ec-104">Microsoft Lync Server 2013 uses certificates to mutually authenticate other servers and to encrypt data from server to server and server to client.</span></span> <span data-ttu-id="459ec-105">Os certificados exigem correspondência de nome dos registros de sistema de nomes de domínio (DNS) associados aos servidores e o nome da entidade (SN) e o nome alternativo do assunto (SAN) no certificado.</span><span class="sxs-lookup"><span data-stu-id="459ec-105">Certificates require name matching of the domain name system (DNS) records associated with the servers and the subject name (SN) and subject alternative name (SAN) on the certificate.</span></span> <span data-ttu-id="459ec-106">Para mapear com êxito os servidores, registros DNS e entradas de certificado, você deve planejar cuidadosamente os nomes de domínio totalmente qualificados do servidor conforme registrado no DNS e as entradas de SN e SAN no certificado.</span><span class="sxs-lookup"><span data-stu-id="459ec-106">To successfully map servers, DNS records and certificate entries, you must carefully plan your intended server fully qualified domain names as registered in DNS and the SN and SAN entries on the certificate.</span></span>
+<span data-ttu-id="b3eef-104">O Microsoft Lync Server 2013 usa certificados para autenticar mutuamente outros servidores e para criptografar dados de servidor para servidor e servidor para cliente.</span><span class="sxs-lookup"><span data-stu-id="b3eef-104">Microsoft Lync Server 2013 uses certificates to mutually authenticate other servers and to encrypt data from server to server and server to client.</span></span> <span data-ttu-id="b3eef-105">Os certificados exigem correspondência de nomes de registros DNS (sistema de nomes de domínio) associados a servidores e SN (nome da entidade) e SAN (nome alternativo da entidade) no certificado.</span><span class="sxs-lookup"><span data-stu-id="b3eef-105">Certificates require name matching of the domain name system (DNS) records associated with the servers and the subject name (SN) and subject alternative name (SAN) on the certificate.</span></span> <span data-ttu-id="b3eef-106">Para mapear servidores, registros DNS e entradas de certificados com sucesso, você deve planejar com cuidado os nomes de domínio totalmente qualificados registrados no DNS e as entradas de SN e SAN no certificado.</span><span class="sxs-lookup"><span data-stu-id="b3eef-106">To successfully map servers, DNS records and certificate entries, you must carefully plan your intended server fully qualified domain names as registered in DNS and the SN and SAN entries on the certificate.</span></span>
 
-<span data-ttu-id="459ec-107">O certificado atribuído às interfaces externas do servidor de borda é solicitado a partir de uma autoridade de certificação pública (CA).</span><span class="sxs-lookup"><span data-stu-id="459ec-107">The certificate assigned to the external interfaces of the Edge Server is requested from a public certification authority (CA).</span></span> <span data-ttu-id="459ec-108">As CAs públicas que demonstraram sucesso no fornecimento de certificados para a finalidade de comunicações unificadas são listadas no [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395)seguinte artigo:.</span><span class="sxs-lookup"><span data-stu-id="459ec-108">Public CAs that have demonstrated success in supplying certificates for the purposes of Unified Communications are listed in the following article: [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395).</span></span> <span data-ttu-id="459ec-109">Ao solicitar o certificado, você pode usar a solicitação de certificado gerada pelo assistente de implantação do Lync Server ou criar a solicitação manualmente usando cmdlets do Shell de gerenciamento do Lync Server ou um processo fornecido por uma autoridade de certificação pública.</span><span class="sxs-lookup"><span data-stu-id="459ec-109">When requesting the certificate, you can use the certificate request generated by the Lync Server Deployment Wizard or create the request manually using Lync Server Management Shell cmdlets or by a process provided by a public CA.</span></span> <span data-ttu-id="459ec-110">Para obter detalhes sobre cmdlets do Shell de gerenciamento do Lync Server para gerenciamento de certificados, consulte [cmdlets do certificado e de autenticação no Lync Server 2013](https://docs.microsoft.com/powershell/module/skype/) ao atribuir o certificado, o certificado é atribuído à interface do serviço de borda de acesso, à interface do serviço de borda de Webconferência e ao serviço de autenticação de áudio/vídeo.</span><span class="sxs-lookup"><span data-stu-id="459ec-110">For details on Lync Server Management Shell cmdlets for certificate management, see [Certificate and authentication cmdlets in Lync Server 2013](https://docs.microsoft.com/powershell/module/skype/) When assigning the certificate, the certificate is assigned to the Access Edge service interface, the Web Conferencing Edge service interface, and the Audio/Video Authentication service.</span></span> <span data-ttu-id="459ec-111">O serviço de autenticação de áudio/vídeo não deve ser confundido com o serviço de borda A/V que não usa um certificado para criptografar os fluxos de áudio e vídeo.</span><span class="sxs-lookup"><span data-stu-id="459ec-111">The Audio/Video Authentication service should not be confused with the A/V Edge service which does not use a certificate to encrypt the audio and video streams.</span></span> <span data-ttu-id="459ec-112">A interface do servidor de borda interna pode usar um certificado de uma autoridade de certificação interna (para a sua organização) ou de um certificado de uma autoridade de certificação pública.</span><span class="sxs-lookup"><span data-stu-id="459ec-112">The internal Edge Server interface can use a certificate from an internal (to your organization) CA or a certificate from a public CA.</span></span> <span data-ttu-id="459ec-113">O certificado de interface interna usa apenas o SN e não precisa ou usa entradas de SAN.</span><span class="sxs-lookup"><span data-stu-id="459ec-113">The internal interface certificate uses only the SN and does not need or use SAN entries.</span></span>
+<span data-ttu-id="b3eef-107">O certificado atribuído às interfaces externas do servidor de borda é solicitado de uma autoridade de certificação (CA) pública.</span><span class="sxs-lookup"><span data-stu-id="b3eef-107">The certificate assigned to the external interfaces of the Edge Server is requested from a public certification authority (CA).</span></span> <span data-ttu-id="b3eef-108">As CAs públicas que demonstraram o sucesso no fornecimento de certificados para os fins de comunicações unificadas estão listadas [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395)no seguinte artigo:.</span><span class="sxs-lookup"><span data-stu-id="b3eef-108">Public CAs that have demonstrated success in supplying certificates for the purposes of Unified Communications are listed in the following article: [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395).</span></span> <span data-ttu-id="b3eef-109">Ao solicitar o certificado, você pode usar a solicitação de certificado gerada pelo assistente de implantação do Lync Server ou criar a solicitação manualmente usando os cmdlets do Shell de gerenciamento do Lync Server ou por um processo fornecido por uma autoridade de certificação pública.</span><span class="sxs-lookup"><span data-stu-id="b3eef-109">When requesting the certificate, you can use the certificate request generated by the Lync Server Deployment Wizard or create the request manually using Lync Server Management Shell cmdlets or by a process provided by a public CA.</span></span> <span data-ttu-id="b3eef-110">Para obter detalhes sobre os cmdlets do Shell de gerenciamento do Lync Server para gerenciamento de certificados, consulte [cmdlets e certificados de autenticação no Lync server 2013](https://docs.microsoft.com/powershell/module/skype/) ao atribuir o certificado, o certificado é atribuído à interface de serviço de borda de acesso, interface de serviço de borda de Webconferência e serviço de autenticação de áudio/vídeo.</span><span class="sxs-lookup"><span data-stu-id="b3eef-110">For details on Lync Server Management Shell cmdlets for certificate management, see [Certificate and authentication cmdlets in Lync Server 2013](https://docs.microsoft.com/powershell/module/skype/) When assigning the certificate, the certificate is assigned to the Access Edge service interface, the Web Conferencing Edge service interface, and the Audio/Video Authentication service.</span></span> <span data-ttu-id="b3eef-111">O serviço de autenticação de áudio/vídeo não deve ser confundido com o serviço de borda A/V que não usa um certificado para criptografar os fluxos de áudio e vídeo.</span><span class="sxs-lookup"><span data-stu-id="b3eef-111">The Audio/Video Authentication service should not be confused with the A/V Edge service which does not use a certificate to encrypt the audio and video streams.</span></span> <span data-ttu-id="b3eef-112">A interface de servidor de borda interna pode usar um certificado de uma autoridade de certificação interna (para sua organização) ou um certificado de uma autoridade de certificação pública.</span><span class="sxs-lookup"><span data-stu-id="b3eef-112">The internal Edge Server interface can use a certificate from an internal (to your organization) CA or a certificate from a public CA.</span></span> <span data-ttu-id="b3eef-113">O certificado da interface interna usa somente o SN e não necessita ou usa entradas de SAN.</span><span class="sxs-lookup"><span data-stu-id="b3eef-113">The internal interface certificate uses only the SN and does not need or use SAN entries.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="459ec-114">A tabela a seguir mostra uma segunda entrada SIP (sip.fabrikam.com) na lista nome alternativo do assunto como referência.</span><span class="sxs-lookup"><span data-stu-id="459ec-114">The following table shows a second SIP entry (sip.fabrikam.com) in the subject alternative name list for reference.</span></span> <span data-ttu-id="459ec-115">Para cada domínio SIP em sua organização, você precisa adicionar um FQDN correspondente listado na lista nome alternativo do requerente do certificado.</span><span class="sxs-lookup"><span data-stu-id="459ec-115">For each SIP domain in your organization, you need to add a corresponding FQDN listed in the certificate subject alternative name list.</span></span>
+> <span data-ttu-id="b3eef-p103">A tabela a seguir mostra uma segunda entrada SIP (sip.fabrikam.com) em uma lista de nome alternativo do assunto para referência. Para cada domínio SIP da sua organização, você precisa adicionar um FQDN correspondente listado na lista de nome alternativo do assunto do certificado.</span><span class="sxs-lookup"><span data-stu-id="b3eef-p103">The following table shows a second SIP entry (sip.fabrikam.com) in the subject alternative name list for reference. For each SIP domain in your organization, you need to add a corresponding FQDN listed in the certificate subject alternative name list.</span></span>
 
 
 
@@ -53,7 +53,7 @@ ms.locfileid: "41736551"
 
 <div>
 
-## <a name="certificates-required-for-single-consolidated-edge-with-private-ip-addresses-using-nat"></a><span data-ttu-id="459ec-116">Certificados necessários para uma única aresta consolidada com endereços IP privados usando NAT</span><span class="sxs-lookup"><span data-stu-id="459ec-116">Certificates Required for Single Consolidated Edge with Private IP Addresses using NAT</span></span>
+## <a name="certificates-required-for-single-consolidated-edge-with-private-ip-addresses-using-nat"></a><span data-ttu-id="b3eef-116">Certificados necessários para borda consolidada única com endereços IP privados usando NAT</span><span class="sxs-lookup"><span data-stu-id="b3eef-116">Certificates Required for Single Consolidated Edge with Private IP Addresses using NAT</span></span>
 
 
 <table>
@@ -65,32 +65,32 @@ ms.locfileid: "41736551"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="459ec-117">Componente</span><span class="sxs-lookup"><span data-stu-id="459ec-117">Component</span></span></th>
-<th><span data-ttu-id="459ec-118">Nome da entidade (SN)</span><span class="sxs-lookup"><span data-stu-id="459ec-118">Subject name (SN)</span></span></th>
-<th><span data-ttu-id="459ec-119">Nomes alternativos de assunto (SAN)/Order</span><span class="sxs-lookup"><span data-stu-id="459ec-119">Subject alternative names (SAN)/Order</span></span></th>
-<th><span data-ttu-id="459ec-120">Comentários</span><span class="sxs-lookup"><span data-stu-id="459ec-120">Comments</span></span></th>
+<th><span data-ttu-id="b3eef-117">Componente</span><span class="sxs-lookup"><span data-stu-id="b3eef-117">Component</span></span></th>
+<th><span data-ttu-id="b3eef-118">Nome da entidade (SN)</span><span class="sxs-lookup"><span data-stu-id="b3eef-118">Subject name (SN)</span></span></th>
+<th><span data-ttu-id="b3eef-119">Ordem/nome alternativo de entidade (SAN)</span><span class="sxs-lookup"><span data-stu-id="b3eef-119">Subject alternative names (SAN)/Order</span></span></th>
+<th><span data-ttu-id="b3eef-120">Comentários</span><span class="sxs-lookup"><span data-stu-id="b3eef-120">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="459ec-121">Borda consolidada única (borda externa)</span><span class="sxs-lookup"><span data-stu-id="459ec-121">Single consolidated Edge (External Edge)</span></span></p></td>
-<td><p><span data-ttu-id="459ec-122">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="459ec-122">sip.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="459ec-123">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="459ec-123">webcon.contoso.com</span></span></p>
-<p><span data-ttu-id="459ec-124">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="459ec-124">sip.contoso.com</span></span></p>
-<p><span data-ttu-id="459ec-125">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="459ec-125">sip.fabrikam.com</span></span></p></td>
-<td><p><span data-ttu-id="459ec-126">O certificado deve ser de uma CA pública e deve ter o EKU do servidor e o cliente EKU se a conectividade de IM pública com AOL for implantada.</span><span class="sxs-lookup"><span data-stu-id="459ec-126">Certificate must be from a Public CA, and must have the server EKU and client EKU if public IM connectivity with AOL is to be deployed.</span></span> <span data-ttu-id="459ec-127">O certificado é atribuído às interfaces de borda externa para:</span><span class="sxs-lookup"><span data-stu-id="459ec-127">The certificate is assigned to the external Edge interfaces for:</span></span></p>
+<td><p><span data-ttu-id="b3eef-121">Borda consolidada única (borda externa)</span><span class="sxs-lookup"><span data-stu-id="b3eef-121">Single consolidated Edge (External Edge)</span></span></p></td>
+<td><p><span data-ttu-id="b3eef-122">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="b3eef-122">sip.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="b3eef-123">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="b3eef-123">webcon.contoso.com</span></span></p>
+<p><span data-ttu-id="b3eef-124">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="b3eef-124">sip.contoso.com</span></span></p>
+<p><span data-ttu-id="b3eef-125">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="b3eef-125">sip.fabrikam.com</span></span></p></td>
+<td><p><span data-ttu-id="b3eef-p104">O certificado deverá ser de uma CA pública e ter EKU de cliente e servidor se a conectividade IM pública com AOL for implantada. O certificado é atribuído a interfaces de Borda externas para:</span><span class="sxs-lookup"><span data-stu-id="b3eef-p104">Certificate must be from a Public CA, and must have the server EKU and client EKU if public IM connectivity with AOL is to be deployed. The certificate is assigned to the external Edge interfaces for:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="459ec-128">Borda de Acesso</span><span class="sxs-lookup"><span data-stu-id="459ec-128">Access Edge</span></span></p></li>
-<li><p><span data-ttu-id="459ec-129">Borda de conferência</span><span class="sxs-lookup"><span data-stu-id="459ec-129">Conferencing Edge</span></span></p></li>
-<li><p><span data-ttu-id="459ec-130">Borda A/V</span><span class="sxs-lookup"><span data-stu-id="459ec-130">A/V Edge</span></span></p></li>
+<li><p><span data-ttu-id="b3eef-128">Borda de acesso</span><span class="sxs-lookup"><span data-stu-id="b3eef-128">Access Edge</span></span></p></li>
+<li><p><span data-ttu-id="b3eef-129">Borda de conferência</span><span class="sxs-lookup"><span data-stu-id="b3eef-129">Conferencing Edge</span></span></p></li>
+<li><p><span data-ttu-id="b3eef-130">Borda A/V</span><span class="sxs-lookup"><span data-stu-id="b3eef-130">A/V Edge</span></span></p></li>
 </ul>
-<p><span data-ttu-id="459ec-131">Observe que as SANs são adicionadas automaticamente ao certificado com base em suas definições no construtor de topologias.</span><span class="sxs-lookup"><span data-stu-id="459ec-131">Note that SANs are automatically added to the certificate based on your definitions in Topology Builder.</span></span> <span data-ttu-id="459ec-132">Você adiciona entradas de SAN conforme necessário para domínios SIP adicionais e outras entradas de que você precisa para dar suporte.</span><span class="sxs-lookup"><span data-stu-id="459ec-132">You add SAN entries as needed for additional SIP domains and other entries that you need to support.</span></span> <span data-ttu-id="459ec-133">O nome do requerente é replicado na SAN e deve estar presente para a operação correta.</span><span class="sxs-lookup"><span data-stu-id="459ec-133">The subject name is replicated in the SAN and must be present for correct operation.</span></span></p></td>
+<p><span data-ttu-id="b3eef-p105">Observe que os SANs são adicionados automaticamente ao certificado com base nas definições do Construtor de Topologia. Você adiciona entradas SAN conforme necessário para domínios SIP adicionais e outras entradas que você precisa suportar. O nome do assunto é replicado no SAN e deve estar presente para a operação correta.</span><span class="sxs-lookup"><span data-stu-id="b3eef-p105">Note that SANs are automatically added to the certificate based on your definitions in Topology Builder. You add SAN entries as needed for additional SIP domains and other entries that you need to support. The subject name is replicated in the SAN and must be present for correct operation.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="459ec-134">Borda consolidada única (borda interna)</span><span class="sxs-lookup"><span data-stu-id="459ec-134">Single consolidated Edge (Internal Edge)</span></span></p></td>
-<td><p><span data-ttu-id="459ec-135">lsedge.contoso.net</span><span class="sxs-lookup"><span data-stu-id="459ec-135">lsedge.contoso.net</span></span></p></td>
-<td><p><span data-ttu-id="459ec-136">Sem necessidade de SAN</span><span class="sxs-lookup"><span data-stu-id="459ec-136">No SAN required</span></span></p></td>
-<td><p><span data-ttu-id="459ec-137">O certificado pode ser emitido por uma autoridade de certificação pública ou privada e deve conter o EKU do servidor.</span><span class="sxs-lookup"><span data-stu-id="459ec-137">Certificate can be issued by a public or private CA, and must contain the server EKU.</span></span> <span data-ttu-id="459ec-138">O certificado é atribuído à interface de borda interna.</span><span class="sxs-lookup"><span data-stu-id="459ec-138">The certificate is assigned to the internal Edge interface.</span></span></p></td>
+<td><p><span data-ttu-id="b3eef-134">Borda consolidada única (borda interna)</span><span class="sxs-lookup"><span data-stu-id="b3eef-134">Single consolidated Edge (Internal Edge)</span></span></p></td>
+<td><p><span data-ttu-id="b3eef-135">lsedge.contoso.net</span><span class="sxs-lookup"><span data-stu-id="b3eef-135">lsedge.contoso.net</span></span></p></td>
+<td><p><span data-ttu-id="b3eef-136">Nenhum SAN obrigatório</span><span class="sxs-lookup"><span data-stu-id="b3eef-136">No SAN required</span></span></p></td>
+<td><p><span data-ttu-id="b3eef-p106">O certificado pode ser emitido por uma CA pública ou privada e deve conter o EKU do servidor. O certificado é atribuído à interface de Borda interna.</span><span class="sxs-lookup"><span data-stu-id="b3eef-p106">Certificate can be issued by a public or private CA, and must contain the server EKU. The certificate is assigned to the internal Edge interface.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -100,7 +100,7 @@ ms.locfileid: "41736551"
 
 <div>
 
-## <a name="certificate-summary--public-instant-messaging-connectivity"></a><span data-ttu-id="459ec-139">Resumo do certificado – conectividade de mensagens instantâneas públicas</span><span class="sxs-lookup"><span data-stu-id="459ec-139">Certificate Summary – Public Instant Messaging Connectivity</span></span>
+## <a name="certificate-summary--public-instant-messaging-connectivity"></a><span data-ttu-id="b3eef-139">Resumo do certificado – Conectividade com mensagens instantâneas públicas</span><span class="sxs-lookup"><span data-stu-id="b3eef-139">Certificate Summary – Public Instant Messaging Connectivity</span></span>
 
 
 <table>
@@ -112,26 +112,26 @@ ms.locfileid: "41736551"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="459ec-140">Componente</span><span class="sxs-lookup"><span data-stu-id="459ec-140">Component</span></span></th>
-<th><span data-ttu-id="459ec-141">Nome do assunto</span><span class="sxs-lookup"><span data-stu-id="459ec-141">Subject name</span></span></th>
-<th><span data-ttu-id="459ec-142">Nomes alternativos de assunto (SAN)/Order</span><span class="sxs-lookup"><span data-stu-id="459ec-142">Subject alternative names (SAN)/Order</span></span></th>
-<th><span data-ttu-id="459ec-143">Comentários</span><span class="sxs-lookup"><span data-stu-id="459ec-143">Comments</span></span></th>
+<th><span data-ttu-id="b3eef-140">Componente</span><span class="sxs-lookup"><span data-stu-id="b3eef-140">Component</span></span></th>
+<th><span data-ttu-id="b3eef-141">Nome da entidade</span><span class="sxs-lookup"><span data-stu-id="b3eef-141">Subject name</span></span></th>
+<th><span data-ttu-id="b3eef-142">Nomes alternativos de entidade (SAN)/Ordem</span><span class="sxs-lookup"><span data-stu-id="b3eef-142">Subject alternative names (SAN)/Order</span></span></th>
+<th><span data-ttu-id="b3eef-143">Comentários</span><span class="sxs-lookup"><span data-stu-id="b3eef-143">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="459ec-144">Borda externa/de acesso</span><span class="sxs-lookup"><span data-stu-id="459ec-144">External/Access Edge</span></span></p></td>
-<td><p><span data-ttu-id="459ec-145">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="459ec-145">sip.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="459ec-146">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="459ec-146">sip.contoso.com</span></span></p>
-<p><span data-ttu-id="459ec-147">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="459ec-147">webcon.contoso.com</span></span></p>
-<p><span data-ttu-id="459ec-148">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="459ec-148">sip.fabrikam.com</span></span></p></td>
-<td><p><span data-ttu-id="459ec-149">O certificado deve ser de uma CA pública e deve ter o EKU do servidor e o cliente EKU se a conectividade de IM pública com AOL for implantada.</span><span class="sxs-lookup"><span data-stu-id="459ec-149">Certificate must be from a Public CA, and must have the server EKU and client EKU if public IM connectivity with AOL is to be deployed.</span></span> <span data-ttu-id="459ec-150">O certificado é atribuído às interfaces de borda externa para:</span><span class="sxs-lookup"><span data-stu-id="459ec-150">The certificate is assigned to the external Edge interfaces for:</span></span></p>
+<td><p><span data-ttu-id="b3eef-144">Borda de Acesso/Externo</span><span class="sxs-lookup"><span data-stu-id="b3eef-144">External/Access Edge</span></span></p></td>
+<td><p><span data-ttu-id="b3eef-145">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="b3eef-145">sip.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="b3eef-146">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="b3eef-146">sip.contoso.com</span></span></p>
+<p><span data-ttu-id="b3eef-147">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="b3eef-147">webcon.contoso.com</span></span></p>
+<p><span data-ttu-id="b3eef-148">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="b3eef-148">sip.fabrikam.com</span></span></p></td>
+<td><p><span data-ttu-id="b3eef-p107">O certificado deverá ser de uma CA pública e ter EKU de cliente e servidor se a conectividade IM pública com AOL for implantada. O certificado é atribuído a interfaces de Borda externas para:</span><span class="sxs-lookup"><span data-stu-id="b3eef-p107">Certificate must be from a Public CA, and must have the server EKU and client EKU if public IM connectivity with AOL is to be deployed. The certificate is assigned to the external Edge interfaces for:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="459ec-151">Borda de Acesso</span><span class="sxs-lookup"><span data-stu-id="459ec-151">Access Edge</span></span></p></li>
-<li><p><span data-ttu-id="459ec-152">Borda de conferência</span><span class="sxs-lookup"><span data-stu-id="459ec-152">Conferencing Edge</span></span></p></li>
-<li><p><span data-ttu-id="459ec-153">Borda A/V</span><span class="sxs-lookup"><span data-stu-id="459ec-153">A/V Edge</span></span></p></li>
+<li><p><span data-ttu-id="b3eef-151">Borda de acesso</span><span class="sxs-lookup"><span data-stu-id="b3eef-151">Access Edge</span></span></p></li>
+<li><p><span data-ttu-id="b3eef-152">Borda de conferência</span><span class="sxs-lookup"><span data-stu-id="b3eef-152">Conferencing Edge</span></span></p></li>
+<li><p><span data-ttu-id="b3eef-153">Borda A/V</span><span class="sxs-lookup"><span data-stu-id="b3eef-153">A/V Edge</span></span></p></li>
 </ul>
-<p><span data-ttu-id="459ec-154">Observe que as SANs são adicionadas automaticamente ao certificado com base em suas definições no construtor de topologias.</span><span class="sxs-lookup"><span data-stu-id="459ec-154">Note that SANs are automatically added to the certificate based on your definitions in Topology Builder.</span></span> <span data-ttu-id="459ec-155">Você adiciona entradas de SAN conforme necessário para domínios SIP adicionais e outras entradas de que você precisa para dar suporte.</span><span class="sxs-lookup"><span data-stu-id="459ec-155">You add SAN entries as needed for additional SIP domains and other entries that you need to support.</span></span> <span data-ttu-id="459ec-156">O nome do requerente é replicado na SAN e deve estar presente para a operação correta.</span><span class="sxs-lookup"><span data-stu-id="459ec-156">The subject name is replicated in the SAN and must be present for correct operation.</span></span></p></td>
+<p><span data-ttu-id="b3eef-p108">Observe que os SANs são adicionados automaticamente ao certificado com base nas definições no Construtor de Topologias. Adicione entradas de SAN conforme necessário para domínios SIP adicionais e outras entradas às quais precise oferecer suporte. O nome da entidade é replicado no SAN e deve estar presente para que a operação seja correta.</span><span class="sxs-lookup"><span data-stu-id="b3eef-p108">Note that SANs are automatically added to the certificate based on your definitions in Topology Builder. You add SAN entries as needed for additional SIP domains and other entries that you need to support. The subject name is replicated in the SAN and must be present for correct operation.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -141,7 +141,7 @@ ms.locfileid: "41736551"
 
 <div>
 
-## <a name="certificate-summary-for-extensible-messaging-and-presence-protocol"></a><span data-ttu-id="459ec-157">Resumo do certificado de mensagens extensíveis e protocolo de presença</span><span class="sxs-lookup"><span data-stu-id="459ec-157">Certificate Summary for Extensible Messaging and Presence Protocol</span></span>
+## <a name="certificate-summary-for-extensible-messaging-and-presence-protocol"></a><span data-ttu-id="b3eef-157">Resumo de certificado para protocolo XMPP</span><span class="sxs-lookup"><span data-stu-id="b3eef-157">Certificate Summary for Extensible Messaging and Presence Protocol</span></span>
 
 
 <table>
@@ -153,22 +153,22 @@ ms.locfileid: "41736551"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="459ec-158">Componente</span><span class="sxs-lookup"><span data-stu-id="459ec-158">Component</span></span></th>
-<th><span data-ttu-id="459ec-159">Nome do assunto</span><span class="sxs-lookup"><span data-stu-id="459ec-159">Subject name</span></span></th>
-<th><span data-ttu-id="459ec-160">Nomes alternativos de assunto (SAN)/Order</span><span class="sxs-lookup"><span data-stu-id="459ec-160">Subject alternative names (SAN)/Order</span></span></th>
-<th><span data-ttu-id="459ec-161">Comentários</span><span class="sxs-lookup"><span data-stu-id="459ec-161">Comments</span></span></th>
+<th><span data-ttu-id="b3eef-158">Componente</span><span class="sxs-lookup"><span data-stu-id="b3eef-158">Component</span></span></th>
+<th><span data-ttu-id="b3eef-159">Nome da entidade</span><span class="sxs-lookup"><span data-stu-id="b3eef-159">Subject name</span></span></th>
+<th><span data-ttu-id="b3eef-160">Nomes alternativos de entidade (SAN)/Ordem</span><span class="sxs-lookup"><span data-stu-id="b3eef-160">Subject alternative names (SAN)/Order</span></span></th>
+<th><span data-ttu-id="b3eef-161">Comentários</span><span class="sxs-lookup"><span data-stu-id="b3eef-161">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="459ec-162">Atribuir ao serviço Edge para acessar o servidor de borda ou o pool de bordas</span><span class="sxs-lookup"><span data-stu-id="459ec-162">Assign to Access Edge service of Edge Server or Edge pool</span></span></p></td>
-<td><p><span data-ttu-id="459ec-163">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="459ec-163">sip.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="459ec-164">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="459ec-164">webcon.contoso.com</span></span></p>
-<p><span data-ttu-id="459ec-165">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="459ec-165">sip.contoso.com</span></span></p>
-<p><span data-ttu-id="459ec-166">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="459ec-166">sip.fabrikam.com</span></span></p>
-<p><span data-ttu-id="459ec-167">xmpp.contoso.com</span><span class="sxs-lookup"><span data-stu-id="459ec-167">xmpp.contoso.com</span></span></p>
-<p><span data-ttu-id="459ec-168"><strong>\*.contoso.com</strong></span><span class="sxs-lookup"><span data-stu-id="459ec-168"><strong>\*.contoso.com</strong></span></span></p></td>
-<td><p><span data-ttu-id="459ec-169">As três primeiras entradas de SAN são as entradas de SAN normais para um servidor de perímetro completo.</span><span class="sxs-lookup"><span data-stu-id="459ec-169">The first three SAN entries are the normal SAN entries for a full Edge Server.</span></span> <span data-ttu-id="459ec-170">O contoso.com é a entrada necessária para federação com o parceiro XMPP no nível do domínio raiz.</span><span class="sxs-lookup"><span data-stu-id="459ec-170">The contoso.com is the entry required for federation with the XMPP partner at the root domain level.</span></span> <span data-ttu-id="459ec-171">Essa entrada permitirá XMPP para todos os domínios com o sufixo \*. contoso.com.</span><span class="sxs-lookup"><span data-stu-id="459ec-171">This entry will allow XMPP for all domains with the suffix \*.contoso.com.</span></span></p></td>
+<td><p><span data-ttu-id="b3eef-162">Atribuir ao serviço de borda de acesso do servidor de borda ou do pool de borda</span><span class="sxs-lookup"><span data-stu-id="b3eef-162">Assign to Access Edge service of Edge Server or Edge pool</span></span></p></td>
+<td><p><span data-ttu-id="b3eef-163">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="b3eef-163">sip.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="b3eef-164">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="b3eef-164">webcon.contoso.com</span></span></p>
+<p><span data-ttu-id="b3eef-165">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="b3eef-165">sip.contoso.com</span></span></p>
+<p><span data-ttu-id="b3eef-166">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="b3eef-166">sip.fabrikam.com</span></span></p>
+<p><span data-ttu-id="b3eef-167">xmpp.contoso.com</span><span class="sxs-lookup"><span data-stu-id="b3eef-167">xmpp.contoso.com</span></span></p>
+<p><span data-ttu-id="b3eef-168"><strong>\*. contoso.com</strong></span><span class="sxs-lookup"><span data-stu-id="b3eef-168"><strong>\*.contoso.com</strong></span></span></p></td>
+<td><p><span data-ttu-id="b3eef-169">As três primeiras entradas de SAN são as entradas de SAN normais para um servidor de borda completo.</span><span class="sxs-lookup"><span data-stu-id="b3eef-169">The first three SAN entries are the normal SAN entries for a full Edge Server.</span></span> <span data-ttu-id="b3eef-170">A contoso.com é a entrada exigida para federação com o parceiro XMPP no nível de domínio raiz.</span><span class="sxs-lookup"><span data-stu-id="b3eef-170">The contoso.com is the entry required for federation with the XMPP partner at the root domain level.</span></span> <span data-ttu-id="b3eef-171">Essa entrada autorizará XMPP para todos os domínios com sufixo \*.contoso.com.</span><span class="sxs-lookup"><span data-stu-id="b3eef-171">This entry will allow XMPP for all domains with the suffix \*.contoso.com.</span></span></p></td>
 </tr>
 </tbody>
 </table>
