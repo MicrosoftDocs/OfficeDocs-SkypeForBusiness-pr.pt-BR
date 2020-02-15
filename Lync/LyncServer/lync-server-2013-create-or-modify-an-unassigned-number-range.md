@@ -12,16 +12,16 @@ ms:contentKeyID: 48185013
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 90b6068de77a1a32f45afbc34604dc70a4daf58e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4b9f35157b4172376cdcb4724346dc7cd9ecbcf0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734271"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41994066"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41734271"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
-Use um dos procedimentos a seguir para configurar intervalos de números não atribuídos para o aplicativo de anúncio.
+Use um dos procedimentos a seguir para configurar intervalos de números não atribuídos para o aplicativo de comunicado.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Antes de configurar a tabela de números não atribuídas, você já deve ter definido um ou mais comunicados ou configurar um atendedor automático de UM (Unificação de mensagens) do Exchange.
+> Antes de configurar a tabela de números não atribuídos, você já deve ter definido um ou mais comunicados ou configurar um atendedor automático de um (Unificação de mensagens) do Exchange.
 
 
 
@@ -53,28 +53,28 @@ Use um dos procedimentos a seguir para configurar intervalos de números não at
 
 ## <a name="to-use-lync-server-control-panel-to-configure-unassigned-phone-numbers"></a>Para usar o painel de controle do Lync Server para configurar números de telefone não atribuídos
 
-1.  Faça logon no computador como um membro do grupo RTCUniversalServerAdmins ou como um membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte [delegar permissões de configuração no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Faça logon no computador como um membro do grupo RTCUniversalServerAdmins ou como membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte [delegar permissões de configuração no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação à esquerda, clique em **Recursos de Voz** e depois, em **Número Não Atribuído**.
+3.  Na barra de navegação esquerda, clique em **recursos de voz**e em **número não atribuído**.
 
-4.  Na página **Números não atribuídos**, siga um destes procedimentos:
+4.  Na página **número não atribuído** , siga um destes procedimentos:
     
-      - Para criar um novo intervalo de números, clique em **Novo**. Em **Nome**, digite o nome que identifica este intervalo de números.
+      - Para criar um novo intervalo de números, clique em **novo**. Em **Nome**, digite um nome de identificação para esse intervalo de números.
         
         <div>
         
 
         > [!NOTE]  
-        > Depois de confirmar o novo intervalo de números não atribuídos para o banco de dados, não é possível alterar este nome.
+        > Depois de confirmar o novo intervalo de números não atribuídos para o banco de dados, não será possível alterar esse nome.
 
         
         </div>
     
-      - Para modificar um intervalo de números existente, digite todo o nome do intervalo de órbita, ou parte dele, no campo de pesquisa. Na lista de resultados de intervalos de número, clique no nome desejado, clique em **Editar** e depois, clique em **Exibir Detalhes**.
+      - Para modificar um intervalo de números existente, digite todo ou parte do nome do intervalo de números no campo de pesquisa. Na lista de resultados de intervalos de números, clique no nome desejado, clique em **Editar**e, em seguida, clique em **Mostrar detalhes**.
 
-5.  No primeiro campo **Intervalo Numérico**, digite o número inicial do intervalo e no segundo campo **Intervalo Numérico** digite o número final do intervalo.
+5.  No primeiro campo **Intervalo de números** digite o número inicial do intervalo, e no segundo campo **Intervalo de números** digite o número final.
     
     <div>
     
@@ -84,41 +84,41 @@ Use um dos procedimentos a seguir para configurar intervalos de números não at
     > <LI>
     > <P>O número inicial do intervalo deve ser menor ou igual ao número final.</P>
     > <LI>
-    > <P>Se o número inicial ou o número final do intervalo incluir um número de ramal, ambos os números devem incluir um ramal, que deve ser o mesmo para ambos.</P>
+    > <P>Se o número inicial do intervalo ou o número final do intervalo incluir um número de extensão, os números inicial e final do intervalo precisarão incluir uma extensão e o número de extensão deverá ser o mesmo para os números inicial e final.</P>
     > <LI>
-    > <P>O número deve corresponder à expressão regular (Tel:)? ( \+)? [1-9] \d{0,17}(; Ext = [1-9] \d{0,9})?. Isso significa que o número pode começar com a cadeia de caracteres tel: (se você não especificar essa cadeia de caracteres, ela será adicionada automaticamente), um sinal de adição (+) e um dígito de 1 a 9. O número de telefone pode ter até 17 dígitos e pode ser seguido de um ramal no formato ;ext= seguido do número do ramal.</P></LI></UL>
+    > <P>O número deve corresponder à expressão regular (Tel:)? ( \+)? [1-9] \d{0,17}(; Ext = [1-9] \d{0,9})?. Isso significa que o número pode começar com a cadeia de caracteres Tel: (se você não especificar essa cadeia de caracteres, ela será automaticamente adicionada para você), um sinal de adição (+) e um dígito de 1 a 9. O número de telefone pode ter até 17 dígitos e pode ser seguido de um ramal no formato ;ext=, seguido do número do ramal.</P></LI></UL>
 
     
     </div>
 
-6.  Em **Serviço de Comunicado**, execute um dos seguintes procedimentos:
+6.  Em **Serviço de anúncio**, siga um destes procedimentos:
     
       - Clique em **Comunicado**.
     
-      - Clique em **UM do Exchange**.
+      - Click **UM do Exchange**.
 
-7.  Se, na etapa anterior, você clicou em **Comunicado**, execute:
+7.  Se, na etapa prévia, você clicou em **Comunicado**, faça o seguinte
     
-    1.  Em **FQDN do servidor de destino**, clique em **selecionar**, clique na ID de serviço do serviço de aplicativo que executa o aplicativo de anúncio que manipulará as chamadas de entrada para esse intervalo de números não atribuídos e clique em **OK**.
+    1.  Em **FQDN do servidor de destino**, clique em **Selecionar**, clique no ID de serviço do serviço do Aplicativo que executa o aplicativo de Comunicado que manipulará as chamadas de entrada para esse intervalo de números não atribuídos e clique em **OK**.
     
-    2.  Em **Comunicado**, clique no comunicado a ser reproduzido para este intervalo de números não atribuídos.
+    2.  **Comunicado**, clique no comunicado que será reproduzido para esse intervalo de números não atribuídos.
 
-8.  Se, na etapa anterior, você clicou em **UM do Exchange**, sob **Número de telefone do Atendedor Automático**, clique em **Selecionar**, clique no número de telefone a ser usado para este intervalo de números não atribuídos e clique em **OK**.
+8.  Se, na etapa prévia, você clicou em **UM do Exchange**, em **Número de telefone do Atendedor Automático**, clique em **Selecionar**, clique no número de telefone que será usado para esse intervalo de números não atribuídos e clique em **OK**.
 
 9.  Clique em **OK**.
 
-10. Na página **Número Não Atribuído**, certifique-se de que os intervalos numéricos não atribuídos estejam organizados da ordem que você deseja. Para alterar a posição do intervalo na tabela, clique em um ou mais nomes consecutivos na lista de intervalos e clique na seta para cima ou para baixo.
+10. Na página **número não atribuído** , verifique se os intervalos de números não atribuídos estão organizados na ordem desejada. Para alterar a posição de um intervalo na tabela, clique em um ou mais nomes consecutivos na lista de intervalos e, em seguida, clique na seta para cima ou para baixo.
     
     <div>
     
 
     > [!TIP]  
-    > O Lync Server procura a tabela número não atribuído da parte superior para a inferior e usa o primeiro intervalo que corresponde ao número não atribuído. Se você tem intervalos sobrepostos e um intervalo que especifica uma última ação de reclassificação, certifique-se de que o intervalo esteja no final da lista.
+    > O Lync Server pesquisa a tabela de números não atribuídos de cima para baixo e usa o primeiro intervalo que corresponde ao número não atribuído. Se você tiver intervalos sobrepostos e um intervalo especificar uma ação de último recurso, certifique-se de que o intervalo esteja na parte inferior da lista.
 
     
     </div>
 
-11. Quando os intervalos numéricos não atribuídos estiverem na ordem desejada, clique em **Confirmar tudo**.
+11. Quando você tiver os intervalos de números não atribuídos na ordem desejada, clique em **confirmar tudo**.
 
 </div>
 
@@ -126,28 +126,28 @@ Use um dos procedimentos a seguir para configurar intervalos de números não at
 
 ## <a name="to-use-windows-powershell-to-configure-unassigned-phone-numbers"></a>Para usar o Windows PowerShell para configurar números de telefone não atribuídos
 
-1.  Faça logon no computador em que o Shell de gerenciamento do Lync Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários, conforme descrito em [permissões de configuração de representante no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Faça logon no computador onde o Shell de gerenciamento do Lync Server está instalado como um membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários, conforme descrito em [delegar permissões de configuração no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+2.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
-3.  Use **New-CsUnassignedNumber** para criar um intervalo de números não atribuídos. Use **Set-CsUnassignedNumber** para modificar um intervalo de números não atribuídos existente.
+3.  Use **New-CsUnassignedNumber** para criar um novo intervalo de números não atribuídos. Use **set-CsUnassignedNumber** para modificar um intervalo de números não atribuídos existente.
     
     <div>
     
 
     > [!TIP]  
-    > Se você tiver intervalos sobrepostos e desejar que os intervalos sejam aplicados em uma ordem específica, inclua o parâmetro Prioridade. O intervalo com a maior prioridade será aplicado à chamada.
+    > Se você tiver intervalos sobrepostos e quiser que os intervalos sejam aplicados em uma ordem específica, inclua o parâmetro Priority. O intervalo com a prioridade mais alta será aplicado à chamada.
 
     
     </div>
     
-    No linha de comando, siga um destes procedimentos:
+    Na linha de comando, siga um destes procedimentos:
     
-      - Para criar um intervalo numérico para um serviço de Comunicado, execute:
+      - Para criar um intervalo numérico para um serviço de anúncio, execute:
         
             New-CsUnassignedNumber -Identity <unique identifier for unassigned number range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range> -AnnouncementName <announcement name> -AnnouncementService <FQDN or service ID of the Announcement service>
     
-      - Ou para criar um intervalo numérico para Atendedor Automático do UM do Exchange, execute:
+      - Ou, para criar um intervalo de números para atendedor automático de UM do Exchange, execute:
         
             New-CsUnassignedNumber -ExUmAutoAttendantPhoneNumber <phone number> -Identity <unique identifier for unassigned number range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range>
     
@@ -159,7 +159,7 @@ Use um dos procedimentos a seguir para configurar intervalos de números não at
     
         New-CsUnassignedNumber -ExUmAutoAttendantPhoneNumber "+12065551234" -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551100"
     
-    O exemplo a seguir mostra como modificar os números em um intervalo numérico não atribuído existente.
+    O exemplo a seguir mostra como modificar os números em um intervalo de números não atribuídos existente:
     
         Set-CsUnassignedNumber -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551900"
 
@@ -170,7 +170,7 @@ Use um dos procedimentos a seguir para configurar intervalos de números não at
 ## <a name="see-also"></a>Confira também
 
 
-[Excluir um intervalo de números não atribuído no Lync Server 2013](lync-server-2013-delete-an-unassigned-number-range.md)  
+[Excluir um intervalo de números não atribuídos no Lync Server 2013](lync-server-2013-delete-an-unassigned-number-range.md)  
 
 
 [New-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/New-CsUnassignedNumber)  

@@ -1,5 +1,5 @@
 ---
-title: Conectar pool piloto aos Servidores de Borda herdados
+title: Conectar o pool piloto aos servidores de borda herdados
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733808
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 447a0ead887b8283aa2701963a0107ef318bb312
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cc9213dbf5d75b80ccbfc67d03cfb3c02ef87145
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723221"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006507"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>Conectar pool piloto aos Servidores de Borda herdados
+# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>Conectar o pool piloto aos servidores de borda herdados
 
 </div>
 
@@ -35,45 +35,45 @@ ms.locfileid: "41723221"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-29_
+_**Última modificação do tópico:** 2012-09-29_
 
-Após implantar o Lync Server 2013, você precisa configurar uma rota de Federação para seu site. Para usar a rota federada que está sendo usada pelo Lync Server 2010, o Lync Server 2013 deve ser configurado para usar essa rota.
+Após implantar o Lync Server 2013, você precisará configurar uma rota de Federação para seu site. Para usar a rota federada que está sendo usada pelo Lync Server 2010, o Lync Server 2013 deve ser configurado para usar essa rota.
 
-Para habilitar o site do Lync Server 2013 para usar o diretor e o servidor de borda da implantação do Lync Server 2010, use o construtor de topologias para associar o pool de bordas herdado.
+Para habilitar o site do Lync Server 2013 para usar o diretor e o servidor de borda da implantação do Lync Server 2010, use o construtor de topologia para associar o pool de borda herdado.
 
 <div>
 
-## <a name="to-associate-the-legacy-edge-pool-by-using-topology-builder"></a>Para associar o pool de bordas herdado usando o construtor de topologias
+## <a name="to-associate-the-legacy-edge-pool-by-using-topology-builder"></a>Para associar o pool de Borda herdado usando o Construtor de Topologia
 
-1.  Abrir o **Construtor de topologias**.
+1.  Abra o **Construtor de Topologia**.
 
-2.  Selecione seu site, que está diretamente abaixo do nó do **Lync Server** .
+2.  Selecione seu local, que está diretamente abaixo do nó do **Lync Server**.
 
-3.  No menu **ações** , clique em **Editar propriedades**.
+3.  No menu **Ações**, clique em **Editar Propriedades**.
 
-4.  No painel esquerdo, selecione **roteiro de Federação**.
+4.  No painel esquerdo, selecione **Rota de federação**.
 
 5.  Em **atribuição de rota de Federação do site**, selecione **habilitar Federação SIP**e, em seguida, selecione o diretor do Lync Server 2010 ou o servidor de borda do Lync Server 2010, se nenhum diretor estiver listado.
     
-    ![Editar propriedades, página de roteiro de Federação](images/JJ721875.5f1d04c3-c724-426d-b27d-3fe89c6c5cfb(OCS.15).jpg "Editar propriedades, página de roteiro de Federação")  
+    ![Editar propriedades, página de rota de Federação](images/JJ721875.5f1d04c3-c724-426d-b27d-3fe89c6c5cfb(OCS.15).jpg "Editar propriedades, página de rota de Federação")  
 
-6.  Clique em **OK** para fechar a página **Editar propriedades** .
+6.  Clique em **OK** para fechar a página **Editar Propriedades**.
 
-7.  No construtor de topologias, no nó do Lync Server 2013, navegue até os pools do **servidor Standard Edition** ou do **front-end da edição Enterprise**, clique com o botão direito do mouse no pool e, em seguida, clique em **Editar propriedades**.
+7.  No construtor de topologias, no nó Lync Server 2013, navegue até o **servidor Standard Edition** ou **pools de front-ends Enterprise Edition**, clique com o botão direito do mouse no pool e clique em **Editar propriedades**.
 
-8.  Em **associações**, marque a caixa de seleção ao lado de **associar o pool de bordas (para componentes de mídia)**.
+8.  Em **Associações**, marque a caixa de seleção próxima ao **Associar pool de Borda (para componentes de mídia)**.
 
-9.  Na lista, selecione o servidor de borda herdado.
+9.  Na lista, selecione o Servidor de Borda herdado.
     
     ![Caixa de diálogo Editar propriedades, selecionando a borda herdada](images/JJ721875.feae8156-540e-4804-bb0a-2b5736ec2900(OCS.15).jpg "Caixa de diálogo Editar propriedades, selecionando a borda herdada")  
 
-10. Clique em **OK** para fechar a página **Editar propriedades** .
+10. Clique em **OK** para fechar a página **Editar Propriedades**.
 
-11. No **Construtor de topologias**, selecione o nó mais alto, **Lync Server**.
+11. No **Construtor de Topologias**, selecione o nó superior, **Lync Server**.
 
-12. No menu **ação** , clique em **publicar topologia**e, em seguida, clique em **Avançar**.
+12. No painel **Ações**, no menu **Publicar topologia** e em **Avançar**.
 
-13. Quando o **Assistente de publicação** for concluído, clique em **concluir**.
+13. Quando o **Assistente de publicação** for concluído, clique em **Finalizar**.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configuração de federação do Lync'
+title: 'Lync Server 2013: configuração de Federação do Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7df0dd85bac0aa3053fb6a3496d6a13fa1f4a85e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1972155fa48cd8bc96ee0ec4602bd4b08b2a7b17
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764597"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007720"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-lync-federation-in-lync-server-2013"></a>Configuração de federação do Lync no Lync Server 2013
+# <a name="setting-up-lync-federation-in-lync-server-2013"></a>Configurando a Federação do Lync no Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41764597"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-03-27_
+_**Última modificação do tópico:** 2014-03-27_
 
-Se você já tiver implantado o servidor de borda ou servidores de borda, adicionar os recursos de cenários agrupados será encaminhado diretamente. Se você não configurou os servidores de borda, deve primeiro fazer isso. Para obter detalhes, consulte: [planejando o acesso de usuários externos no Lync server 2013](lync-server-2013-planning-for-external-user-access.md) na documentação de planejamento e [implantando o acesso de usuários externos no Lync Server 2013](lync-server-2013-deploying-external-user-access.md) na documentação de implantação.
+Se o servidor de borda já foi implantado nos servidores, a adição dos recursos de cenários federados é o próximo passo. Se os servidores de borda ainda não foram definidos, faça isso primeiro. Para obter detalhes, consulte: [Planning for External User Access in Lync server 2013](lync-server-2013-planning-for-external-user-access.md) na documentação de planejamento e [implantação de acesso de usuário externo no Lync Server 2013](lync-server-2013-deploying-external-user-access.md) na documentação de implantação.
 
 <div>
 
 
 > [!NOTE]  
-> Se você pretende configurar qualquer combinação de agrupamento XMPP, Federação do Lync ou conectividade de mensagens instantâneas públicas, poderá implantá-los simultaneamente ou um de cada vez. Se você configurar as opções por meio do construtor de topologias e do Shell de gerenciamento do Lync Server, execute o assistente de implantação no servidor de borda após configurar as opções para um, dois ou todos os três tipos de Federação, você pode reduzir o número de etapas necessárias.
+> Se você pretende instalar uma combinação de federação XMPP, federação do Lync ou uma conectividade pública de mensagens instantâneas, é possível implantá-las simultaneamente ou uma de cada vez. Se configurar as opções com o Construtor de Topologias e o shell de gerenciamento do Lync Server e executar o Assistente de implantação no servidor de borda depois de configurar as opções para um, dois ou todos os três tipos de federação, será possível reduzir o número de etapas necessárias.
 
 
 
@@ -51,23 +51,23 @@ Se você já tiver implantado o servidor de borda ou servidores de borda, adicio
 
 <div>
 
-## <a name="setting-up-lync-federation-in-topology-builder-and-the-deployment-wizard"></a>Configurar a Federação do Lync no construtor de topologias e no assistente de implantação
+## <a name="setting-up-lync-federation-in-topology-builder-and-the-deployment-wizard"></a>Instalando a federação do Lync no Construtor de Topologias e o Assistente de implantação
 
-1.  Em um servidor front-end, abra o construtor de topologias. Expanda Pools de bordas e clique com o botão direito do mouse no seu servidor de borda ou no pool do servidor Selecione Editar propriedades.
+1.  Em um servidor front-end, abra o Construtor de Topologias. Expanda os pools de borda e clique com o botão direito do mouse no servidor de borda ou pool de servidores de borda. Selecione Editar propriedades.
 
-2.  Em Editar propriedades em geral, selecione Habilitar Federação para este pool de bordas (porta 5061). Clique em OK.
+2.  Em Editar Propriedades, sob Geral, selecione Habilitar Federação para este pool de borda (Porta 5061). Clique em OK.
 
-3.  Clique em ação, selecione topologia, selecione publicar. Quando solicitado em publicar a topologia, clique em Avançar. Quando a publicação estiver concluída, clique em concluir.
+3.  Clique em Ação, selecione Topologia, selecione Publicar. Quando a mensagem sobre Publicar a topologia surgir, clique em Próxima. Quando Publicar for concluído, clique em Concluir.
 
-4.  No servidor de borda, abra o assistente de implantação do Lync Server. Clique em instalar ou atualizar o Lync Server System e, em seguida, clique em configurar ou remover componentes do Lync Server. Clique em executar novamente.
+4.  No servidor de borda, abra o Assistente de Implantação do Lync Server. Clique em Instalar ou Atualizar Sistema do Lync Server; em seguida, clique em Instalação ou Remover Componentes do Lync Server. Clique em Executar Novamente.
 
-5.  Em configurar componentes do Lync Server, clique em Avançar. A tela Resumo mostrará as ações conforme elas são executadas. Depois que a implantação for concluída, clique em Exibir log para exibir os arquivos de log disponíveis. Clique em concluir para concluir a implantação.
+5.  Em Instalar Componentes do Lync Server, clique em Avançar. A tela de resumo mostrará as ações conforme forem executadas. Depois que a implantação estiver concluída, clique em Exibir Log para exibir os arquivos de log disponíveis. Clique em Concluir para concluir a implantação.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Você pode selecionar essa opção, mas somente um pool de bordas ou um servidor de borda em sua organização pode ser publicado externamente para Federação. Todo o acesso de usuários federados, incluindo usuários públicos de mensagens instantâneas (IM), passam pelo mesmo pool de bordas ou servidor de borda única. Por exemplo, se sua implantação inclui um pool de bordas ou um servidor de borda única implantado em Nova York e um implantado em Londres e você habilitar o suporte de Federação no pool de bordas de Nova York ou no servidor de borda único, o tráfego de sinal para usuários federados passará pela Nova York Pool de bordas ou servidor de borda único. Isso se aplica inclusive para comunicações com usuários de Londres, embora um usuário interno de Londres chamando um usuário federado de Londres use o pool de Londres ou Servidor de Borda para tráfego de A/V.
+    > É possível selecionar esta opção, mas apenas um pool de borda ou servidor de borda de sua organização pode ser publicado externamente para federação. Todo o acesso de usuários federados, inclusive usuários públicos de IM (mensagens instantâneas), atravessa o mesmo pool de borda ou servidor de borda único. Por exemplo, se sua implantação contém um pool de borda ou servidor de borda único implantado em Nova Iorque e outro implantado um Londres e você habilita o suporte à federação no pool de borda ou servidor de borda único de Nova Iorque, o tráfego do sinal para os usuários federados atravessará o pool de borda ou servidor de borda único de Nova Iorque. Isso é verdadeiro até mesmo para comunicações com os usuários de Londres, embora um usuário interno de Londres que liga para um usuário federado do Nova Iorque use um pool ou servidor de borda de Londres para o tráfego de áudio/vídeo.
 
     
     </div>
@@ -76,9 +76,9 @@ Se você já tiver implantado o servidor de borda ou servidores de borda, adicio
 
 <div>
 
-## <a name="configuring-federation-with-partners"></a>Configurando a Federação com parceiros
+## <a name="configuring-federation-with-partners"></a>Configurando a federação com parceiros
 
-1.  Para configurar uma reunião bem-sucedida com outro Microsoft Lync Server 2013, o Lync Server 2010, o Office Communications Server 2007 R2 ou o Office Communicator 2007, selecione o tipo de Federação na tabela a seguir e defina Registros SRV DNS, host DNS (A ou AAAA para IPv6) e configurar políticas aplicáveis ao tipo de Federação:
+1.  Para configurar uma federação bem-sucedida com outro Microsoft Lync Server 2013, Lync Server 2010, Office Communications Server 2007 R2 ou Office Communicator 2007, selecione o tipo de Federação da tabela a seguir e defina Registros SRV DNS, host DNS (A ou AAAA para IPv6) e configurar políticas aplicáveis ao tipo de Federação:
     
     
     <table>
@@ -90,59 +90,59 @@ Se você já tiver implantado o servidor de borda ou servidores de borda, adicio
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Tipo de Federação</th>
-    <th>Registros de DNS</th>
-    <th>Definição da política</th>
+    <th>Tipo de federação</th>
+    <th>Registros DNS</th>
+    <th>Definição de política</th>
     <th>Observações</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>Domínio de parceiro descoberto</p></td>
-    <td><p>Configure o registro SRV do formato _sipfederationtls. _tcp. &lt;nome&gt;de domínio externo em que o valor de porta do registro SRV é TCP 5061 e o <strong>host que oferece esse serviço</strong> é definido como SIP. &lt;nome&gt; do domínio externo – o FQDN do serviço de borda de acesso. Consulte <a href="lync-server-2013-configure-dns-for-edge-support.md">Configurar o DNS para suporte de borda no Lync Server 2013</a> para obter detalhes sobre como criar o registro SRV</p></td>
+    <td><p>Domínio do parceiro descoberto</p></td>
+    <td><p>Configure o registro SRV do formato _sipfederationtls. _tcp. &lt;nome&gt;de domínio externo onde o valor de porta para o registro SRV é TCP 5061 e o <strong>host que oferece esse serviço</strong> é definido como SIP. &lt;nome&gt; do domínio externo – o FQDN do serviço de borda de acesso. Consulte <a href="lync-server-2013-configure-dns-for-edge-support.md">Configurar o DNS para suporte à borda no Lync Server 2013</a> para obter detalhes sobre como criar o registro SRV</p></td>
     <td><ul>
-    <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Habilitar ou desabilitar federação e conectividade de IM pública no Lync Server 2013</a></p></li>
-    <li><p><a href="lync-server-2013-enable-or-disable-discovery-of-federation-partners.md">Habilitar ou desabilitar descoberta de parceiros de federação no Lync Server 2013</a></p></li>
+    <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Habilitar ou desabilitar Federação e conectividade de IM pública no Lync Server 2013</a></p></li>
+    <li><p><a href="lync-server-2013-enable-or-disable-discovery-of-federation-partners.md">Habilitar ou desabilitar a descoberta de parceiros de Federação no Lync Server 2013</a></p></li>
     </ul></td>
-    <td><p>Versões anteriores referenciadas a esse tipo de Federação como <strong>Federação aprimorada aberta</strong>. A criação do registro SRV é necessária para esse tipo de Federação e é permitir que outros parceiros descubram sua Federação.</p></td>
+    <td><p>As versões anteriores se referiam a esse tipo de federação como <strong>Federação avançada aberta</strong>. A criação do registro SRV é obrigatória para esse tipo de federação e serve para permitir que outros parceiros descubram sua federação.</p></td>
     </tr>
     <tr class="even">
     <td><p>Domínio de parceiro permitido</p></td>
-    <td><p>Configure o registro SRV do formato _sipfederationtls. _tcp. &lt;nome&gt;de domínio externo em que o valor de porta do registro SRV é TCP 5061 e o <strong>host que oferece esse serviço</strong> é definido como SIP. &lt;nome&gt; do domínio externo – o FQDN do serviço de borda de acesso. Consulte <a href="lync-server-2013-configure-dns-for-edge-support.md">Configurar o DNS para suporte de borda no Lync Server 2013</a> para obter detalhes sobre como criar o registro SRV</p></td>
+    <td><p>Configure o registro SRV do formato _sipfederationtls. _tcp. &lt;nome&gt;de domínio externo onde o valor de porta para o registro SRV é TCP 5061 e o <strong>host que oferece esse serviço</strong> é definido como SIP. &lt;nome&gt; do domínio externo – o FQDN do serviço de borda de acesso. Consulte <a href="lync-server-2013-configure-dns-for-edge-support.md">Configurar o DNS para suporte à borda no Lync Server 2013</a> para obter detalhes sobre como criar o registro SRV</p></td>
     <td><ul>
-    <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Habilitar ou desabilitar federação e conectividade de IM pública no Lync Server 2013</a></p></li>
+    <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Habilitar ou desabilitar Federação e conectividade de IM pública no Lync Server 2013</a></p></li>
     </ul></td>
-    <td><p>Versões anteriores referenciadas a esse tipo de Federação como <strong>Federação aprimorada</strong>. A criação do registro SRV é opcional para esse tipo de Federação e é permitir que outros parceiros descubram sua Federação. É claro que, em seguida, é uma <strong>Federação aprimorada aberta</strong>ou um <strong>domínio de parceiro descoberto</strong></p></td>
+    <td><p>Versões anteriores mencionadas nesse tipo de Federação como <strong>Federação aprimorada</strong>. A criação do registro SRV é opcional para esse tipo de federação e serve para permitir que outros parceiros descubram sua federação. Isso é obviamente uma <strong>Federação avançada aberta</strong> ou um <strong>Domínio de parceiro descoberto</strong></p></td>
     </tr>
     <tr class="odd">
-    <td><p>Servidor parceiro permitido</p></td>
+    <td><p>Servidor de parceiro permitido</p></td>
     <td><p>Configurar o nome de domínio SIP e o FQDN do servidor de borda de parceiro como um parceiro de Federação em políticas</p></td>
     <td><ul>
-    <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Habilitar ou desabilitar federação e conectividade de IM pública no Lync Server 2013</a></p></li>
-    <li><p><a href="lync-server-2013-configure-support-for-allowed-external-domains.md">Configurar suprote para domínios externos permitidos no Lync Server 2013</a></p></li>
+    <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Habilitar ou desabilitar Federação e conectividade de IM pública no Lync Server 2013</a></p></li>
+    <li><p><a href="lync-server-2013-configure-support-for-allowed-external-domains.md">Configurar suporte para domínios externos permitidos no Lync Server 2013</a></p></li>
     <li><p><a href="lync-server-2013-configure-support-for-blocked-external-domains.md">Configurar suporte para domínios externos bloqueados no Lync Server 2013</a></p></li>
     </ul></td>
-    <td><p>Esse tipo de Federação é a definição de uma relação de um para um e não permite a descoberta de outros parceiros de Federação. Cada parceiro de Federação é configurado explicitamente. Em versões anteriores, isso era conhecido como <strong>Federação direta</strong></p></td>
+    <td><p>Esse tipo de federação é a definição de uma relação um-para-um e não permite a descoberta de outros parceiros de federação. Cada parceiro de federação é configurado explicitamente. Nas versões anteriores, isso era conhecido como <strong>Federação direta</strong></p></td>
     </tr>
     <tr class="even">
-    <td><p>Provedor de hospedagem e provedor de mensagens de chat públicas</p></td>
-    <td><p>Nenhum requisito de DNS específico é definido para esse tipo de Federação</p></td>
+    <td><p>Hospedando provedor e provedor de IM público</p></td>
+    <td><p>Nenhum requisito específico de DNS é definido para esse tipo de federação</p></td>
     <td><ul>
-    <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Habilitar ou desabilitar federação e conectividade de IM pública no Lync Server 2013</a></p></li>
-    <li><p><a href="lync-server-2013-create-or-edit-public-sip-federated-providers.md">Criar ou editar fornecedores SIP públicos federados no Lync Server 2013</a></p></li>
-    <li><p><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">Criar ou editar provedores hospedados federados SIP no Lync Server 2013</a></p></li>
+    <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Habilitar ou desabilitar Federação e conectividade de IM pública no Lync Server 2013</a></p></li>
+    <li><p><a href="lync-server-2013-create-or-edit-public-sip-federated-providers.md">Criar ou editar provedores federados SIP públicos no Lync Server 2013</a></p></li>
+    <li><p><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">Criar ou editar provedores federados SIP hospedados Lync Server 2013</a></p></li>
     </ul></td>
-    <td><p>Esse tipo de Federação define serviços e provedores de hospedagem que você deseja configurar para seus usuários. Os usos típicos incluem a configuração de provedores de IM públicos, como o Windows Live Messenger, o Yahoo! e AOL, bem como provedores de hospedagem como o Lync Online e o Office 365</p>
+    <td><p>Esse tipo de federação define os provedores de serviços e hospedagem que você deseja configurar para seus usuários. Os usos mais comuns incluem a configuração de provedores de IM públicos como Windows Live Messenger, Yahoo! e AOL, bem como provedores de hospedagem como o Lync Online e o Office 365</p>
     <div>
 
     > [!IMPORTANT]  
     > <UL>
     > <LI>
-    > <P>A partir de 1º de setembro de 2012, a licença de assinatura de usuário da conectividade de mensagem de chat pública do Microsoft Lync ("PIC USL") não está mais disponível para compra de contratos novos ou de renovação. Os clientes com licenças ativas poderão continuar a federar-se com o Yahoo! Messenger até a data de encerramento do serviço. Uma data de fim da vida útil de junho de 2014 para AOL e Yahoo! foi anunciado. Para obter detalhes, consulte <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">suporte para conectividade de mensagens instantâneas públicas no Lync Server 2013</A>.</P>
+    > <P>A partir de 1º de setembro de 2012, a licença de assinatura de usuário da conectividade de IM pública do Microsoft Lync ("PIC USL") não está mais disponível para compra de contratos novos ou de renovação. Os clientes com licenças ativas poderão continuar a se federar com o Yahoo! Messenger até a data de encerramento do serviço. Uma data de fim de vida de junho de 2014 para AOL e Yahoo! foi anunciado. Para obter detalhes, consulte <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">support for Public Instant Messenger Connectivity in Lync Server 2013</A>.</P>
     > <LI>
-    > <P>O PIC USL é uma licença de assinatura por usuário por mês necessária para o Lync Server ou o Office Communications Server se federar com o Yahoo! Spam. A capacidade da Microsoft de oferecer esse serviço por meio do suporte do Yahoo!, o contrato subjacente para o qual está prestes a ser enrolado.</P>
+    > <P>O PIC USL é uma licença de assinatura por usuário por mês, necessária para o Lync Server ou o Office Communications Server federar-se com o Yahoo! Instantânea. A capacidade da Microsoft de fornecer esse serviço tem sido contingente o suporte da Yahoo!, o contrato subjacente para o qual está se enrolando para baixo.</P>
     > <LI>
-    > <P>Mais do que nunca, o Lync é uma ferramenta poderosa para a conexão entre organizações e pessoas ao redor do mundo. A Federação com o Windows Live Messenger não requer licenças de usuário/dispositivo adicionais além da CAL padrão do Lync. A Federação do Skype será adicionada a essa lista, permitindo que os usuários do Lync atinjam centenas de milhões de pessoas com mensagens instantâneas e voz.</P></LI></UL>
+    > <P>Mais do que nunca, o Lync é uma poderosa ferramenta para a conexão entre organizações e pessoas em todo o mundo. A Federação com o Windows Live Messenger não requer licenças de usuário/dispositivo adicionais além da CAL padrão do Lync. A Federação do Skype será adicionada à lista, permitindo que os usuários do Lync atinjam centenas de milhões de pessoas com IM e voz.</P></LI></UL>
 
 
     </div></td>
@@ -151,15 +151,15 @@ Se você já tiver implantado o servidor de borda ou servidores de borda, adicio
     </table>
 
 
-2.  Definir e configurar qualquer host DNS obrigatório (A ou AAAA para IPv6) e Registros SRV DNS
+2.  Defina e configure todos os hosts DNS exigidos (A ou AAAA para IPv6) e registros SRV de DNS
 
-3.  Defina e configure qualquer política usando o painel de controle do Lync Server ou usando o Shell de gerenciamento do Lync Server e os cmdlets apropriados. Para obter detalhes sobre os cmdlets do Shell de gerenciamento do Lync Server, consulte [cmdlets de acesso externo e Federação no Lync Server 2013](https://docs.microsoft.com/powershell/module/skype/)
+3.  Defina e configure qualquer política usando o painel de controle do Lync Server ou usando o Shell de gerenciamento do Lync Server e os cmdlets apropriados. Para obter detalhes sobre os cmdlets do Shell de gerenciamento do Lync Server, confira [cmdlets de Federação e acesso externo no Lync Server 2013](https://docs.microsoft.com/powershell/module/skype/)
     
     <div>
     
 
     > [!NOTE]  
-    > O LRS (Lync Room System) não mostra o botão ingressar para reuniões enviadas por organizadores em parceiros federados do Lync. Para que um link de ingresso na reunião apareça no LRS, a organização de envio deve habilitar o TNEF usando o seguinte cmdlet:<BR><BR><CODE>New-RemoteDomain -DomainName Contoso.com -Name Contoso</CODE><BR><CODE>Set-RemoteDomain -Identity Contoso -TNEFEnabled $true</CODE><BR>Observe que isso não é LRS específico. O Outlook e o Lync também não mostraram links de junção nesse caso, pois as propriedades MAPI não são transportadas, mas na caixa do Outlook, o usuário pode abrir o convite da reunião e clicar na URL da reunião. Quando TNEFEnabled está definido como true, o Exchange 2013 não distribui propriedades MAPI, incluindo OnlineMeetingExternalLink, e o botão de junção é mostrado no lembrete.
+    > O Lync Room System (LRS) não mostra o botão ingressar para reuniões enviadas por organizadores em parceiros federados do Lync. Para que um link de ingresso na reunião apareça no LRS, a organização de envio deve habilitar o TNEF usando o seguinte cmdlet:<BR><BR><CODE>New-RemoteDomain -DomainName Contoso.com -Name Contoso</CODE><BR><CODE>Set-RemoteDomain -Identity Contoso -TNEFEnabled $true</CODE><BR>Observe que isso não é LRS específico. O Outlook e o Lync também não mostraram links de ingresso nesse caso, pois as propriedades MAPI não são transportadas, mas no caso do Outlook, o usuário pode abrir o convite da reunião e clicar na URL da reunião. Quando TNEFEnabled é definido como true, o Exchange 2013 não distribui propriedades MAPI, incluindo OnlineMeetingExternalLink e o botão de associação será mostrado no lembrete.
 
     
     </div>
@@ -171,7 +171,7 @@ Se você já tiver implantado o servidor de borda ou servidores de borda, adicio
 ## <a name="see-also"></a>Confira também
 
 
-[Planejando o SIP, a Federação do XMPP e o sistema de mensagens instantâneas públicas no Lync Server 2013](lync-server-2013-planning-for-sip-xmpp-federation-and-public-instant-messaging.md)  
+[Planejamento para SIP, Federação XMPP e mensagens instantâneas públicas no Lync Server 2013](lync-server-2013-planning-for-sip-xmpp-federation-and-public-instant-messaging.md)  
 [Gerenciamento de Federação e acesso externo ao Lync Server 2013](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md)  
   
 

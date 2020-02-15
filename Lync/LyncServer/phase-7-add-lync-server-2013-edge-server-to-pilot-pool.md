@@ -12,16 +12,16 @@ ms:contentKeyID: 48184616
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 419da11696e5938d4c93cde565e6d0b1b6fc6e76
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9db240b042c40ffaf07d42ce4c60bb1777963fce
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743581"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034161"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41743581"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-26_
+_**Última modificação do tópico:** 2012-09-26_
 
-Os tópicos desta seção explicam como adicionar um servidor de borda do Lync Server 2013 à implantação do pool piloto. Os tópicos fornecem orientação de configuração e verificação durante a execução dos assistentes de **implantação de novo pool de borda** .
+Os tópicos desta seção explicam como adicionar um servidor de borda do Lync Server 2013 à implantação do pool piloto. Os tópicos oferecem orientação para configuração e verificação ao executar o assistente para **Implantar novo pool de borda**.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Implantar um Servidor de Borda piloto](deploy-pilot-edge-server_1.md)
+  - [Implantar servidor de borda piloto](deploy-pilot-edge-server_1.md)
 
   - [Validar a replicação de definições de configuração](validate-replication-of-configuration-settings.md)
 

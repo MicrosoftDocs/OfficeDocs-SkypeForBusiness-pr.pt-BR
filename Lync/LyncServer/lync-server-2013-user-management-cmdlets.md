@@ -12,20 +12,20 @@ ms:contentKeyID: 48184702
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2396cb1a157b88d8beb9458006c1c8a44874dba3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4a672eea92c820970b3cc4cc1c112c15fcffd641
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744571"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033790"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="user-management-cmdlets-in-lync-server-2013"></a>Cmdlets de gerenciamento de usuários no Lync Server 2013
+# <a name="user-management-cmdlets-in-lync-server-2013"></a>Cmdlets de gerenciamento de usuário no Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41744571"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-18_
+_**Última modificação do tópico:** 2013-02-18_
 
-Os cmdlets de gerenciamento de usuários incluídos no Microsoft Lync Server 2013 permitem que você habilite, desabilite e modifique contas de usuário do Lync Server.
+Os cmdlets de gerenciamento de usuário incluídos no Microsoft Lync Server 2013 permitem habilitar, desabilitar e modificar contas de usuário do Lync Server.
 
 <div>
 
 ## <a name="user-management-cmdlets"></a>Cmdlets de gerenciamento de usuários
 
-A maioria das tarefas de gerenciamento que se aplicam a usuários e contas de usuário podem ser executadas no painel de controle do Lync Server. As exceções primárias são os cmdlets que lidam com provedores de audioconferência. As tarefas de gerenciamento de usuários podem ser realizadas usando cmdlets do Shell de gerenciamento do Lync Server ou de dentro de um script. Usando um script, você pode automatizar determinadas tarefas. Veja a seguir uma lista de cmdlets relacionados diretamente ao gerenciamento de usuários e contas de usuário:
+A maioria das tarefas de gerenciamento que se aplicam a usuários e contas de usuário podem ser executadas no painel de controle do Lync Server. As principais exceções são os cmdlets que lidam com provedores de conferência de áudio. As tarefas de gerenciamento de usuários podem ser executadas usando cmdlets do Shell de gerenciamento do Lync Server ou de dentro de um script. Usando um script, você pode automatizar certas tarefas. A seguinte é uma lista de cmdlets relacionados diretamente ao gerenciamento de usuários e contas de usuário:
 
   - <span></span>  
     [Get-CsAdContact](https://docs.microsoft.com/powershell/module/skype/Get-CsAdContact)
@@ -83,7 +83,7 @@ A maioria das tarefas de gerenciamento que se aplicam a usuários e contas de us
     [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser)
 
   - <span></span>  
-    [Mover-CsUser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser)
+    [Move-CsUser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser)
 
   - <span></span>  
     [Set-CsUser](https://docs.microsoft.com/powershell/module/skype/Set-CsUser)

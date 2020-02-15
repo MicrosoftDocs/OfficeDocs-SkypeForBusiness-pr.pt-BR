@@ -12,20 +12,20 @@ ms:contentKeyID: 48183554
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a986f0bef8c41cf5113e99504369974562e294a2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4396a6110337cfb9d3abdbd8136c78246b12bced
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731811"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007710"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="start-or-stop-lync-server-2013-services"></a>Iniciar ou parar os serviços do Lync Server 2013
+# <a name="start-or-stop-lync-server-2013-services"></a>Iniciar ou interromper os serviços do Lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41731811"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-02-05_
+_**Última modificação do tópico:** 2014-02-05_
 
 Você pode usar o painel de controle do Lync Server para iniciar ou parar todos os serviços do Lync Server 2013 em execução em um computador específico ou para iniciar ou parar um serviço específico.
 
@@ -43,19 +43,19 @@ Você pode usar o painel de controle do Lync Server para iniciar ou parar todos 
 
 ## <a name="to-start-or-stop-all-lync-server-services-on-a-computer"></a>Para iniciar ou parar todos os serviços do Lync Server em um computador
 
-1.  Em uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes) ou atribuído à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que esteja na rede na qual você implantou o Lync Server 2013. Você pode determinar se você atribuiu o CsServerAdministrator ou a função RBAC CsAdministrator executando um comando semelhante ao seguinte:
+1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou tenha direitos de usuário equivalentes) ou atribuída à função CsServerAdministrator ou CsAdministrator, faça logon em qualquer computador que esteja na rede na qual você implantou o Lync Server 2013. Você pode determinar se foi atribuído o CsServerAdministrator ou a função RBAC do CsAdministrator executando um comando semelhante ao seguinte:
     
         Get-CsAdminRoleAssignment -Identity "kenmyer"
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação à esquerda, clique em **topologia** e, em seguida, clique em **status**.
+3.  Na barra de navegação esquerda, clique em **Topologia** e em **Status**.
 
-4.  Na página **status** , classifique ou pesquise a lista, conforme necessário, para localizar o computador que está executando os serviços que você deseja iniciar ou parar e, em seguida, clique nele.
+4.  Na página **Status**, classifique ou procure pela lista para encontrar o computador executando os serviços que você deseja iniciar ou parar e clique neles.
 
-5.  Clique em **ação**.
+5.  Clique em **Ação**.
 
-6.  Clique em **Iniciar todos os serviços** ou **parar todos os serviços**.
+6.  Clique em **Iniciar todos os serviços** ou **Parar todos os serviços**.
 
 </div>
 
@@ -63,21 +63,21 @@ Você pode usar o painel de controle do Lync Server para iniciar ou parar todos 
 
 ## <a name="to-start-or-stop-a-specific-service"></a>Para iniciar ou parar um serviço específico
 
-1.  Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+1.  Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação à esquerda, clique em **topologia** e, em seguida, clique em **status**.
+3.  Na barra de navegação esquerda, clique em **Topologia** e em **Status**.
 
-4.  Na página **status** , classifique ou pesquise a lista, conforme necessário, para localizar o computador que está executando o serviço que você deseja iniciar ou parar e, em seguida, clique nele.
+4.  Na página **Status**, classifique ou pesquise na lista conforme o necessário para encontrar o computador que está executando o serviço que você deseja iniciar ou interromper e clique nele.
 
 5.  Clique em **Propriedades**.
 
-6.  Classifique a lista de serviços, se necessário, e clique no serviço que você deseja iniciar ou parar.
+6.  Classifique a lista de serviços, se necessário e clique no serviço que você deseja iniciar ou parar.
 
-7.  Clique em **ação**.
+7.  Clique em **Ação**.
 
-8.  Clique em **Iniciar serviço** ou **parar serviço**.
+8.  Clique em **Iniciar serviço** ou **Parar serviço**.
 
 9.  Clique em **Fechar**.
 
@@ -88,7 +88,7 @@ Você pode usar o painel de controle do Lync Server para iniciar ou parar todos 
 ## <a name="see-also"></a>Confira também
 
 
-[Evitar sessões para serviços no Lync Server 2013](lync-server-2013-prevent-sessions-for-services.md)  
+[Impedir sessões para serviços no Lync Server 2013](lync-server-2013-prevent-sessions-for-services.md)  
 
 
 [Gerenciando a topologia do Lync Server 2013](lync-server-2013-managing-the-lync-server-topology.md)  

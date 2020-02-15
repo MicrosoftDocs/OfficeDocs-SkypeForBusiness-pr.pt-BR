@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Esquema do banco de dados de Chat Persistente'
+title: 'Lync Server 2013: esquema de banco de dados de chat persistente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184228
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73f3b21fe8ea7f9fc71aa5432a601e9fa3ad2425
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 51ee4506a22d866a5ba0f771db47546a8fa15e6e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755231"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006909"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="persistent-chat-database-schema-in-lync-server-2013"></a>Esquema do banco de dados de Chat Persistente no Lync Server 2013
+# <a name="persistent-chat-database-schema-in-lync-server-2013"></a>Esquema de banco de dados de chat persistente no Lync Server 2013
 
 </div>
 
@@ -35,43 +35,43 @@ ms.locfileid: "41755231"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-18_
+_**Última modificação do tópico:** 2012-09-18_
 
-Isso documenta o esquema do banco de dados de chat persistente no software de comunicação do Lync Server 2013.
+Isso documenta o esquema do banco de dados de chat persistente no software de comunicações do Lync Server 2013.
 
-O banco de dados de chat persistente refere-se ao banco de dados correspondente às funções de servidor back-end **PersistentChatStore** do Lync Server 2013 (correspondente ao banco de dados do MGC) e **PersistentChatComplianceStore** (correspondente ao banco de dados do mgccomp). O objetivo de publicar esse esquema é habilitá-lo para criar consultas e obter algumas ideias para criar relatórios úteis sobre uso de chat, salas ativas, principais pôsters e assim por diante.
+O banco de dados de chat persistente refere-se ao banco de dados correspondente às funções de servidor back-end do Lync Server 2013 **PersistentChatStore** (correspondente ao banco de dados MGC) e **PersistentChatComplianceStore** (correspondente ao banco de dados do mgccomp). O objetivo da publicação desse esquema é permitir que você crie consultas e obtenha algumas ideias sobre a criação de relatórios úteis sobre uso de chat, salas ativas, pôsteres principais e etc.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Reservamo-nos o direito de desenvolver este esquema. A Microsoft não faz nenhuma garantia para manter a compatibilidade com versões anteriores do esquema publicado.
+> Reservamo-nos o direito de desenvolver este esquema. A Microsoft não garante manter compatibilidade com versões anteriores completa para esse esquema publicado.
 
 
 
 </div>
 
-Siga estas práticas recomendadas:
+Sigas estas práticas recomendadas:
 
   - Não há\* suporte para Select//is porque a lista de colunas pode aumentar.
 
-  - Não há suporte para modificações de esquema geradas pelo usuário.
+  - Nenhuma modificação de esquema gerado pelo usuário é suportada.
 
-  - Não há suporte para operações de gravação.
+  - Nenhuma operações de gravação é suportada.
 
-  - Teste todas as consultas que você cria em bancos de dados de tamanho representativo para ter certeza de que as consultas podem ser executadas em um nível para atender às suas necessidades.
+  - Teste quaisquer consultas que você crie em bancos de dados de tamanho representativo para certificar-se de que as consultas podem ser executadas em um nível que atenda às suas necessidades.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Tabelas de lista de Servidores de Chat Persistente no Lync Server 2013](lync-server-2013-list-of-persistent-chat-server-tables.md)
+  - [Lista de tabelas do servidor de chat persistente no Lync Server 2013](lync-server-2013-list-of-persistent-chat-server-tables.md)
 
-  - [Lista de tabelas de conformidade do Servidor de Chat Persistente no Lync Server 2013](lync-server-2013-list-of-persistent-chat-server-compliance-tables.md)
+  - [Lista de tabelas de conformidade do servidor de chat persistente no Lync Server 2013](lync-server-2013-list-of-persistent-chat-server-compliance-tables.md)
 
-  - [Detalhes da tabela do Servidor de Chat Persistente no Lync Server 2013](lync-server-2013-persistent-chat-server-table-details.md)
+  - [Detalhes da tabela do servidor de chat persistente no Lync Server 2013](lync-server-2013-persistent-chat-server-table-details.md)
 
-  - [Amostragem de consultas de banco de dados de Chat Persistente para Lync Server 2013](lync-server-2013-sample-persistent-chat-database-queries.md)
+  - [Exemplo de consultas de banco de dados de chat persistente para Lync Server 2013](lync-server-2013-sample-persistent-chat-database-queries.md)
 
 </div>
 

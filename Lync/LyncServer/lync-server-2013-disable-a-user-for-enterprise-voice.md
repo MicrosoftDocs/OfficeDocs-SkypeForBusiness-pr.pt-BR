@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: desabilitar um usuário para Enterprise Voice'
+title: 'Lync Server 2013: desabilitar um usuário para o Enterprise Voice'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f89b40a7398f35efab418fac7be92536ec17270
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5a0d2e5cf6eaa6ed594e7f5fbbc5b1e6a4c9103a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762209"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036601"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41762209"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-21_
+_**Última modificação do tópico:** 2012-09-21_
 
 Use o procedimento a seguir para desabilitar o Enterprise Voice para uma conta de usuário habilitada para o Lync Server 2013.
 
@@ -43,11 +43,11 @@ Use o procedimento a seguir para desabilitar o Enterprise Voice para uma conta d
 
 ## <a name="to-disable-a-user-account-for-enterprise-voice"></a>Para desabilitar uma conta de usuário para o Enterprise Voice
 
-1.  Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+1.  Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação esquerda, clique em **Usuários**.
+3.  Na barra de navegação à esquerda, clique em **Usuários**.
 
 4.  Na caixa **Pesquisar usuários**, digite todo ou parte do nome de exibição, nome, sobrenome, nome da conta SAM, endereço SIP ou URI de linha da conta do usuário que deseja habilitar e clique em **Localizar**.
 
@@ -55,7 +55,7 @@ Use o procedimento a seguir para desabilitar o Enterprise Voice para uma conta d
 
 6.  No menu **Editar**, clique em **Exibir detalhes**.
 
-7.  Na página **Editar usuário do Lync Server** , em **telefonia**, clique em qualquer opção exceto **Enterprise Voice**.
+7.  Na página **Editar usuário do servidor Lync**, sob **Telefonia**, clique em qualquer opção exceto **Enterprise Voice**.
     
     <div>
     
@@ -77,11 +77,11 @@ O usuário agora não pode usar o recurso Enterprise Voice.
 ## <a name="see-also"></a>Confira também
 
 
-[Habilitar usuários para Enterprise Voice no Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)  
+[Habilitar usuários para o Enterprise Voice no Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md)  
 
 
 [Gerenciando o Enterprise Voice para usuários no Lync Server 2013](lync-server-2013-managing-enterprise-voice-for-users.md)  
-[Shell de Gerenciamento do Lync Server 2013](lync-server-2013-lync-server-management-shell.md)  
+[Shell de gerenciamento do Lync Server 2013](lync-server-2013-lync-server-management-shell.md)  
   
 
 </div>

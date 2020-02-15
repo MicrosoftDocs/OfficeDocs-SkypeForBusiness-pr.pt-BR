@@ -12,20 +12,20 @@ ms:contentKeyID: 48184356
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d78b1396d92b16be120484f5bf1b40ef2e47a81
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1ee159d95a21b351da21c76cd04209da1c4ee938
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740981"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006307"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-a-response-group-queue-in-lync-server-2013"></a>Excluir uma fila do grupo de resposta no Lync Server 2013
+# <a name="delete-a-response-group-queue-in-lync-server-2013"></a>Excluir uma fila de grupo de resposta no Lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41740981"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
 Use um dos procedimentos a seguir para excluir uma fila.
 
@@ -43,15 +43,15 @@ Use um dos procedimentos a seguir para excluir uma fila.
 
 ## <a name="to-use-lync-server-control-panel-to-delete-a-queue"></a>Para usar o painel de controle do Lync Server para excluir uma fila
 
-1.  Faça logon como um membro do grupo RTCUniversalServerAdmins ou como um membro de uma das funções administrativas predefinidas que oferecem suporte ao Grupo de Resposta.
+1.  Faça logon como membro do grupo RTCUniversalServerAdmins ou como membro de uma das funções administrativas predefinidas que dão suporte ao grupo de resposta.
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação esquerda, clique em **Grupos de Resposta** e clique em **Fila**.
+3.  Na barra de navegação esquerda, clique em **Grupos de Resposta** e em **Fila**.
 
 4.  No campo de pesquisa, digite parte ou todo o nome da fila que você deseja excluir.
 
-5.  Na lista de filas, clique na fila desejada, clique em **Editar**e, em seguida, clique em **excluir**.
+5.  Na lista de filas, clique na fila desejada, clique em **Editar** e em **Excluir**.
 
 6.  Clique em **OK**.
 
@@ -61,9 +61,9 @@ Use um dos procedimentos a seguir para excluir uma fila.
 
 ## <a name="to-use-windows-powershell-to-delete-a-queue"></a>Para usar o Windows PowerShell para excluir uma fila
 
-1.  Faça logon como um membro do grupo RTCUniversalServerAdmins ou como um membro de uma das funções administrativas predefinidas que oferecem suporte ao Grupo de Resposta.
+1.  Faça logon como membro do grupo RTCUniversalServerAdmins ou como membro de uma das funções administrativas predefinidas que dão suporte ao grupo de resposta.
 
-2.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+2.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 3.  Na linha de comando, execute:
     

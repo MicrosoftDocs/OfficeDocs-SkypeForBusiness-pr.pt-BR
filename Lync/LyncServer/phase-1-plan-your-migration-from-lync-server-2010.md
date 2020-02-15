@@ -12,16 +12,16 @@ ms:contentKeyID: 48183480
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e413bef2271a7b01487536ed44f475eac60dd0c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b8fbb2256f008106b868c8d570c9fec3f138e37d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743641"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034441"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41743641"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-29_
+_**Última modificação do tópico:** 2012-09-29_
 
-Esta seção aborda os tópicos de planejamento para migrar do Lync Server 2010 para o Lync Server 2013.
+Esta seção abrange os tópicos de planejamento para migrar do Lync Server 2010 para o Lync Server 2013.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Migração de usuários](user-migration.md)
+  - [Migração de usuário](user-migration.md)
 
-  - [Migrar servidores de Arquivamento e de Monitoramento](migrating-archiving-and-monitoring-servers.md)
+  - [Migrando servidores de arquivamento e monitoramento](migrating-archiving-and-monitoring-servers.md)
 
-  - [Migrando servidores de chat em grupo](migrating-group-chat-servers.md)
+  - [Migrando servidores de chat de grupo](migrating-group-chat-servers.md)
 
-  - [Administrar servidores após migração](administering-servers-after-migration.md)
+  - [Administrando servidores após a migração](administering-servers-after-migration.md)
 
-  - [Migrar vários sites e pools](migrating-multiple-sites-and-pools.md)
+  - [Migrando vários sites e pools](migrating-multiple-sites-and-pools.md)
 
-  - [Migrar a federação XMPP](migrating-xmpp-federation.md)
+  - [Migrando a Federação XMPP](migrating-xmpp-federation.md)
 
 </div>
 

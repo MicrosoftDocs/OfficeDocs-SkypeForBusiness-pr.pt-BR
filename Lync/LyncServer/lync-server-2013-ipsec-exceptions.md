@@ -12,16 +12,16 @@ ms:contentKeyID: 48183627
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37d5becaab996d6fe4889086d3a68a45ffc1f6d7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: db7291674485dec30211d88e2739b0da89fb334f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733451"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035053"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41733451"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-27_
+_**Última modificação do tópico:** 2012-06-27_
 
-Para redes corporativas onde a segurança do protocolo Internet (IPsec) (consulte IETF RFC 4301-4309) foi implantada, o IPsec deve ser desabilitado no intervalo de portas usado para a entrega de vídeo de áudio, vídeo e panorama. Essa recomendação existe porque é necessário evitar atrasos na alocação das portas de mídia por causa da negociação IPsec.
+Nas redes corporativas em que o protocolo IPsec (consulte a RFC 4301-4309 da IETF) foi implantado, o protocolo IPsec deverá ser desabilitado no intervalo de portas usado para a entrega de áudio, vídeo e vídeo panorama. A recomendação vem da necessidade de evitar qualquer atraso na alocação das portas de mídia por causa da negociação IPsec.
 
 A tabela a seguir explica as configurações de exceções recomendadas do IPsec.
 
@@ -67,139 +67,139 @@ A tabela a seguir explica as configurações de exceções recomendadas do IPsec
 <tbody>
 <tr class="odd">
 <td><p>Entrada interna do Servidor de Borda A/V</p></td>
-<td><p>Qualquer um</p></td>
+<td><p>Qualquer tamanho</p></td>
 <td><p>Interno do Servidor de Borda A/V</p></td>
 <td><p>UDP e TCP</p></td>
-<td><p>Qualquer um </p></td>
-<td><p>Qualquer um</p></td>
+<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer tamanho</p></td>
 <td><p>Não autenticar</p></td>
 </tr>
 <tr class="even">
 <td><p>Entrada externa do Servidor de Borda A/V</p></td>
-<td><p>Qualquer um</p></td>
+<td><p>Qualquer tamanho</p></td>
 <td><p>Externo do Servidor de Borda A/V</p></td>
 <td><p>UDP e TCP</p></td>
-<td><p>Qualquer um </p></td>
-<td><p>Qualquer um</p></td>
+<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer tamanho</p></td>
 <td><p>Não autenticar</p></td>
 </tr>
 <tr class="odd">
 <td><p>Saída interna do Servidor de Borda A/V</p></td>
 <td><p>Interno do Servidor de Borda A/V</p></td>
-<td><p>Qualquer um</p></td>
-<td><p>UDP &amp; TCP</p></td>
-<td><p>Qualquer um </p></td>
-<td><p>Qualquer um</p></td>
+<td><p>Qualquer tamanho</p></td>
+<td><p>TCP &amp; UDP</p></td>
+<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer tamanho</p></td>
 <td><p>Não autenticar</p></td>
 </tr>
 <tr class="even">
 <td><p>Saída externa do Servidor de Borda A/V</p></td>
 <td><p>Externo do Servidor de Borda A/V</p></td>
-<td><p>Qualquer um</p></td>
+<td><p>Qualquer tamanho</p></td>
 <td><p>UDP e TCP</p></td>
-<td><p>Qualquer um </p></td>
-<td><p>Qualquer um</p></td>
+<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer tamanho</p></td>
 <td><p>Não autenticar</p></td>
 </tr>
 <tr class="odd">
 <td><p>Entrada do Servidor de Mediação</p></td>
-<td><p>Qualquer um</p></td>
+<td><p>Qualquer tamanho</p></td>
 <td><p>Mediação</p>
-<p>Servidor(es)</p></td>
+<p>Servidor (es)</p></td>
 <td><p>UDP e TCP</p></td>
-<td><p>Qualquer um </p></td>
-<td><p>Qualquer um</p></td>
+<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer tamanho</p></td>
 <td><p>Não autenticar</p></td>
 </tr>
 <tr class="even">
 <td><p>Saída do Servidor de Mediação</p></td>
 <td><p>Mediação</p>
-<p>Servidor(es)</p></td>
-<td><p>Qualquer um</p></td>
+<p>Servidor (es)</p></td>
+<td><p>Qualquer tamanho</p></td>
 <td><p>UDP e TCP</p></td>
-<td><p>Qualquer um </p></td>
-<td><p>Qualquer um</p></td>
+<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer tamanho</p></td>
 <td><p>Não autenticar</p></td>
 </tr>
 <tr class="odd">
 <td><p>Entrada do Atendedor de Conferência</p></td>
-<td><p>Qualquer um</p></td>
-<td><p>Servidor Front-End executando o Atendedor de Conferência</p></td>
+<td><p>Qualquer tamanho</p></td>
+<td><p>Servidor Front End executando o Atendedor de Conferência</p></td>
 <td><p>UDP e TCP</p></td>
-<td><p>Qualquer um </p></td>
-<td><p>Qualquer um</p></td>
+<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer tamanho</p></td>
 <td><p>Não autenticar</p></td>
 </tr>
 <tr class="even">
 <td><p>Saída do Atendedor de Conferência</p></td>
-<td><p>Servidor Front-End executando o Atendedor de Conferência</p></td>
-<td><p>Qualquer um</p></td>
+<td><p>Servidor Front End executando o Atendedor de Conferência</p></td>
+<td><p>Qualquer tamanho</p></td>
 <td><p>UDP e TCP</p></td>
-<td><p>Qualquer um </p></td>
-<td><p>Qualquer um</p></td>
+<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer tamanho</p></td>
 <td><p>Não autenticar</p></td>
 </tr>
 <tr class="odd">
 <td><p>Entrada de Conferência A/V</p></td>
-<td><p>Qualquer um</p></td>
+<td><p>Qualquer tamanho</p></td>
 <td><p>Servidores Front-End</p></td>
 <td><p>UDP e TCP</p></td>
-<td><p>Qualquer um </p></td>
-<td><p>Qualquer um</p></td>
+<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer tamanho</p></td>
 <td><p>Não autenticar</p></td>
 </tr>
 <tr class="even">
 <td><p>Saída de Conferência A/V</p></td>
 <td><p>Servidores Front-End</p></td>
-<td><p>Qualquer um</p></td>
+<td><p>Qualquer tamanho</p></td>
 <td><p>UDP e TCP</p></td>
-<td><p>Qualquer um </p></td>
-<td><p>Qualquer um</p></td>
+<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer tamanho</p></td>
 <td><p>Não autenticar</p></td>
 </tr>
 <tr class="odd">
 <td><p>Entrada do Exchange</p></td>
-<td><p>Qualquer um</p></td>
+<td><p>Qualquer tamanho</p></td>
 <td><p>Unificação de Mensagens do Exchange</p></td>
 <td><p>UDP e TCP</p></td>
-<td><p>Qualquer um </p></td>
-<td><p>Qualquer um</p></td>
+<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer tamanho</p></td>
 <td><p>Não autenticar</p></td>
 </tr>
 <tr class="even">
 <td><p>Entrada dos Servidores de Compartilhamento de Aplicativo</p></td>
-<td><p>Qualquer um</p></td>
+<td><p>Qualquer tamanho</p></td>
 <td><p>Servidores de Compartilhamento de Aplicativos</p></td>
 <td><p>TCP</p></td>
-<td><p>Qualquer um</p></td>
-<td><p>Qualquer um</p></td>
+<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer tamanho</p></td>
 <td><p>Não autenticar</p></td>
 </tr>
 <tr class="odd">
-<td><p>Saída do Servidor de Compartilhamento de Aplicativos</p></td>
+<td><p>Saída do Servidor de Compartilhamento de Aplicativos.</p></td>
 <td><p>Servidores de Compartilhamento de Aplicativos</p></td>
-<td><p>Qualquer um</p></td>
+<td><p>Qualquer tamanho</p></td>
 <td><p>TCP</p></td>
-<td><p>Qualquer um </p></td>
-<td><p>Qualquer um</p></td>
+<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer tamanho</p></td>
 <td><p>Não autenticar</p></td>
 </tr>
 <tr class="even">
 <td><p>Saída do Exchange</p></td>
 <td><p>Unificação de Mensagens do Exchange</p></td>
-<td><p>Qualquer um</p></td>
+<td><p>Qualquer tamanho</p></td>
 <td><p>UDP e TCP</p></td>
-<td><p>Qualquer um </p></td>
-<td><p>Qualquer um</p></td>
+<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer tamanho</p></td>
 <td><p>Não autenticar</p></td>
 </tr>
 <tr class="odd">
 <td><p>Clientes</p></td>
-<td><p>Qualquer um </p></td>
-<td><p>Qualquer um</p></td>
-<td><p>UDP</p></td>
+<td><p>Qualquer tamanho</p></td>
+<td><p>Qualquer tamanho</p></td>
+<td><p>VIA</p></td>
 <td><p>Intervalo especificado de portas de mídia</p></td>
-<td><p>Qualquer um</p></td>
+<td><p>Qualquer tamanho</p></td>
 <td><p>Não autenticar</p></td>
 </tr>
 </tbody>

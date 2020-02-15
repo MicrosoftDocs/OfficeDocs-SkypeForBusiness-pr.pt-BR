@@ -12,16 +12,16 @@ ms:contentKeyID: 48185450
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 788a0638dee6b9d52a5d954eafb7b4e33bdfd294
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ea0083a28253f5b79e6124dc7733a3ea096f4509
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731871"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006116"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41731871"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-12-11_
+_**Última modificação do tópico:** 2012-12-11_
 
-O Lync Server 2013 permite que você especifique a versão dos clientes que têm suporte no seu ambiente. Usar políticas de versão do cliente pode ajudar a reduzir os custos associados ao suporte a várias versões de cliente. Ele também pode melhorar a experiência geral do usuário, porque quando versões anteriores e posteriores dos clientes interagem, os recursos disponíveis podem ser limitados pela versão anterior do cliente.
+O Lync Server 2013 permite que você especifique a versão de clientes que são compatíveis com o seu ambiente. O uso de políticas de versão do cliente pode ajudar a reduzir os custos associados ao suporte a várias versões de cliente. Também pode melhorar a experiência geral do usuário, porque quando as versões anteriores e posteriores dos clientes interagem, os recursos disponíveis podem ser limitados pela versão anterior do cliente.
 
 Há três componentes do controle de versão do cliente:
 
-  - As configurações de versão do cliente são usadas para ativar ou desativar o controle de versão do cliente, seja globalmente ou para sites específicos.
+  - As definições de configuração de versão do cliente são usadas para ativar ou desativar o controle de versão do cliente, globalmente ou para sites específicos.
 
   - As políticas de versão do cliente são usadas para atribuir um conjunto de regras globalmente ou para um determinado site, pool ou grupo de usuários.
 
-  - As regras de política de versão do cliente compõem uma política de versão do cliente e são usadas para definir as ações que devem ser executadas quando os usuários tentarem fazer logon com clientes e versões específicas do cliente.
+  - As regras de política de versão do cliente compõem uma política de versão do cliente e são usadas para definir as ações que devem ser executadas quando os usuários tentam fazer logon com clientes e versões de cliente específicos.
 
 <div>
 
@@ -74,7 +74,7 @@ Há três componentes do controle de versão do cliente:
 ## <a name="see-also"></a>Confira também
 
 
-[Gerenciando dispositivos, telefones e aplicativos do cliente no Lync Server 2013](lync-server-2013-managing-devices-phones-and-client-applications.md)  
+[Gerenciando dispositivos, telefones e aplicativos cliente no Lync Server 2013](lync-server-2013-managing-devices-phones-and-client-applications.md)  
   
 
 </div>

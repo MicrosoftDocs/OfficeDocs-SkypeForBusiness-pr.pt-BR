@@ -1,5 +1,5 @@
 ---
-title: Experiência do usuário do Lync Server 2013 durante falha de pool
+title: Lync Server 2013 experiência do usuário durante falha do pool
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185166
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e6506ac67415ca19b33ee968d698d0ed574df8d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 98429875ce56371248552eddae9cb7db5e511529
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744591"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033950"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="user-experience-during-pool-failure-in-lync-server-2013"></a>Experiência do usuário durante uma falha de pool no Lync Server 2013
+# <a name="user-experience-during-pool-failure-in-lync-server-2013"></a>Experiência do usuário durante falha do pool no Lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41744591"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-03_
+_**Última modificação do tópico:** 2012-10-03_
 
-Se um pool tiver failover, todos os usuários do pool afetado serão forçados a se desconectarem e entrarem no pool de backup. Por um curto período os usuários que entram no pool de backup podem estar no modo de resiliência. No modo de resiliência, os usuários não conseguem executar tarefas que poderiam causar uma alteração persistente no Lync Server, como adicionar um contato. Após a conclusão do failover, todos os usuários podem obter todos os serviços do pool de backup.
+Se um pool falhar, todos os usuários do pool afetado serão forçados a sair e entrar no pool de backup. Para um breve período, os usuários que entram no pool de backup podem estar no modo resiliência. No modo resiliência, os usuários não podem executar tarefas que poderiam causar uma alteração persistente no Lync Server, como adicionar um contato. Após a conclusão do failover, todos os usuários podem obter todos os serviços do pool de backup.
 
-Todas as sessões que um usuário tenha quando o pool falhar, e o usuário deve restabelecer essas sessões após o failover para continuar.
+Todas as sessões que um usuário tem quando o pool falha são interrompidas, e o usuário deve restabelecer essas sessões após o failover para continuar.
 
-Os usuários não são hospedados novamente durante o failover ou o failback. Os usuários que são hospedados em um pool que falha serão atendidos temporariamente pelo pool de backup. Quando o pool inicial é restaurado, o administrador pode fazer failback para que esses usuários sejam atendidos pelo pool inicial original.
+Os usuários não são hospedados durante o failover ou o failback. Os usuários hospedados em um pool que falharão serão temporariamente atendidos pelo pool de backup. Quando o pool inicial é restaurado, o administrador pode fazer o failback desses usuários para serem atendidos pelo pool inicial original.
 
-Observação no Lync 2013, o banco de dados do servidor de informações de localização não é replicado para o pool de backup. Como prática recomendada, o administrador deve efetuar regularmente o backup do banco de dados LIS e usar a cópia de backup mais recente para restaurar o banco de dados LIS no pool de backup depois do failover.
+Observação no Lync 2013, o banco de dados do local Information Server não é replicado para o pool de backup. Para obter uma prática recomendada, o administrador deve fazer o backup do banco de dados LIS regularmente e usar a cópia de backup mais recente para restaurar o banco de dados LIS no pool de backup após o failover.
 
 <div>
 
 ## <a name="user-experience-during-failover"></a>Experiência do usuário durante o failover
 
-Quando um usuário está em um pool que falha, o usuário é desconectado. Qualquer sessão ponto a ponto na qual o usuário estava participando foi encerrada, assim como as conferências organizadas por esse usuário. o usuário não pode se conectar até o temporizador de resiliência do registrador expirar ou o administrador iniciar procedimentos de failover, o que ocorrer primeiro. Quando o usuário entrar novamente, isso ocorrerá no pool de backup. Se entrarem antes da conclusão do failover, estarão no modo Resiliência até a conclusão do failover. Somente o usuário poderá estabelecer novas sessões ou restabelecer sessões anteriores.
+Quando um usuário está em um pool que falha, o usuário está desconectado. Qualquer sessão ponto a ponto na qual o usuário estava participando foi encerrada, assim como as conferências organizadas por esse usuário. O usuário não pode fazer logon novamente até que o timer de resiliência do registrador expire ou o administrador inicie procedimentos de failover, o que vier primeiro. Quando o usuário fizer logon novamente, ele fará logon no pool de backup. Se eles fizerem logon antes da conclusão do failover, eles estarão no modo de resiliência até que o failover seja concluído. Somente o usuário poderá estabelecer novas sessões ou restabelecer sessões anteriores.
 
 </div>
 
@@ -57,13 +57,13 @@ Quando um usuário está em um pool que falha, o usuário é desconectado. Qualq
 
 ## <a name="user-experience-during-failback"></a>Experiência do usuário durante o failback
 
-O failback de pool pode ocorrer enquanto um usuário afetado é conectado ao pool de backup e o usuário permanece conectado e trabalhando durante o failback. Observe que o processo de failback demora vários minutos para ser concluído.Para referência, a expectativa é de até 60 minutos para um pool de 20.000 usuários.
+O failback do pool pode acontecer enquanto um usuário afetado está conectado ao pool de backup e o usuário permanece conectado e funcionando durante o failback. O processo de failback leva vários minutos para ser concluído.Como referência, espera-se que leve até 60 minutos para um pool de 20 mil usuários.
 
-As tabelas a seguir mostram mais detalhes sobre como um usuário com um cliente do Lync 2013 ou um cliente do Microsoft Lync 2010 é afetado durante e após o failback, e também como os usuários em outros pools vêem e interagem com um usuário em um pool com falha de volta. Os usuários com os clientes do Microsoft Office Communicator 2007 R2 não podem entrar até que o pool de front-end tenha falhado completamente novamente.)
+As tabelas a seguir mostram mais detalhes sobre como um usuário com um cliente do Lync 2013 ou o Microsoft Lync 2010 é afetado durante e após o failback, e também como os usuários em outros pools vêem e interagem com um usuário em um pool que está sendo reprovado. Os usuários com o Microsoft Office Communicator 2007 R2 clients não podem entrar até que o pool de front-ends tenha falhado completamente novamente.
 
-O termo *usuários afetado* se refere a qualquer usuário que sofreu failover no pool de hospedagem e está sendo atendido pelo pool de backup. Por definição, qualquer usuário originalmente hospedado no pool de backup não é um usuário afetado.
+O termo *usuário afetado* refere-se a qualquer usuário que tenha falhado do pool local e está sendo atendido pelo pool de backup. Por definição, qualquer usuário hospedado originalmente no pool de backup não é um usuário afetado.
 
-### <a name="user-experience-for-an-affected-user-in-a-pool-in-failback"></a>Experiência do usuário para um usuário afetado em um pool em failback
+### <a name="user-experience-for-an-affected-user-in-a-pool-in-failback"></a>Experiência do usuário para um usuário afetado em um pool de failback
 
 <table>
 <colgroup>
@@ -73,49 +73,49 @@ O termo *usuários afetado* se refere a qualquer usuário que sofreu failover no
 </colgroup>
 <thead>
 <tr class="header">
-<th>Estado do usuário ou tarefa</th>
+<th>Estado ou tarefa do usuário</th>
 <th>Durante o failback</th>
 <th>Após a conclusão do failback</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Estado do usuário do usuário já conectado</p></td>
-<td><p>O usuário permanece conectado e conectado ao pool de backup. Em algum usuário, o usuário será desconectado e se conectará novamente ao pool inicial original, no modo de resiliência.</p></td>
+<td><p>Estado do usuário já conectado</p></td>
+<td><p>O usuário permanece conectado e conectado ao pool de backup. Em algum momento, o usuário será desconectado e entrará novamente no pool local original, no modo resiliência.</p></td>
 <td><p>O usuário permanece conectado e entra no modo normal.</p></td>
 </tr>
 <tr class="even">
 <td><p>Novo logon de usuário</p></td>
 <td><p>O usuário pode entrar no pool de Home no modo de resiliência.</p></td>
-<td><p>O usuário pode entrar no pool inicial original em modo normal.</p></td>
+<td><p>O usuário pode entrar no pool local original no modo normal.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Conferências em andamento organizadas por um usuário afetado</p></td>
-<td><p>Todas as modalidades de conferência são encerradas. Botão reingressar aparecerá, mas nenhum usuário poderá se reconectar enquanto o usuário afetado estiver no modo de resiliência.</p></td>
-<td><p>Todas as modalidades agora funcionam. Todos os participantes devem clicar para reingressar na conferência.</p></td>
+<td><p>Conferências em andamento organizadas pelo usuário afetado</p></td>
+<td><p>Todas as modalidades de conferência são encerradas. O botão reingressar será exibido, mas nenhum usuário poderá se reingressar enquanto o usuário afetado estiver no modo de resiliência.</p></td>
+<td><p>Todas as modalidades agora funcionam. Todo participante precisa clicar para reingressar na conferência.</p></td>
 </tr>
 <tr class="even">
-<td><p>Conferências em andamento organizadas por um usuário não afetado</p></td>
-<td><p>A conferência continua e o usuário afetado pode permanecer na conferência. O usuário afetado está restrito ao que ele/ela pode fazer no modo de resiliência.</p></td>
-<td><p>A conferência continua, e o usuário afetado pode permanecer na conferência e todas as modalidades funcionam após o usuário sair do modo de resiliência.</p></td>
+<td><p>Conferências em andamento organizadas pelo usuário não afetado</p></td>
+<td><p>A conferência continua e o usuário afetado pode permanecer na conferência. O usuário afetado está restrito ao que ele pode fazer no modo resiliência.</p></td>
+<td><p>A conferência continua e o usuário afetado pode permanecer na conferência e todas as modalidades funcionam depois que o usuário sai do modo de resiliência.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Agendando ou modificando reuniões agendadas, criando conferências ad hoc</p></td>
+<td><p>Agendando ou modificando reuniões agendadas, criando conferências ad-hoc</p></td>
 <td><p>Não é possível enquanto o usuário está no modo de resiliência.</p></td>
 <td><p>Disponível para todas as modalidades.</p></td>
 </tr>
 <tr class="even">
 <td><p>Presença como vista por outros usuários no mesmo pool</p></td>
 <td><p>Presença desconhecida enquanto o usuário está conectado ao pool de backup durante o modo de resiliência.</p></td>
-<td><p>Mostra o último estado de presença definido pelo usuário e as alterações de presença agora serão refletidas.</p></td>
+<td><p>Mostra o último estado de presença definido pelo usuário e as alterações de presença serão refletidas agora.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lista de contatos e disponibilidade do serviço de catálogo de endereços</p></td>
+<td><p>Disponibilidade de serviço de catálogo de endereços e lista de contatos</p></td>
 <td><p>Não disponível</p></td>
 <td><p>Disponível</p></td>
 </tr>
 <tr class="even">
-<td><p>Todas as sessões ponto a ponto e modalidades</p></td>
+<td><p>Todas as sessões e modalidades ponto a ponto</p></td>
 <td><p>Disponível</p></td>
 <td><p>Disponível</p></td>
 </tr>
@@ -140,22 +140,22 @@ O termo *usuários afetado* se refere a qualquer usuário que sofreu failover no
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Visualizando a presença de um usuário afetado</p></td>
+<td><p>Exibindo a presença do usuário afetado</p></td>
 <td><p>Mostra o último estado de presença definido pelo usuário afetado.</p></td>
-<td><p>Trabalhando. Usuários não afetados Veja as atualizações feitas por usuários afetados.</p></td>
+<td><p>Trabalhando. Usuários não afetados Confira as atualizações feitas por usuários afetados.</p></td>
 </tr>
 <tr class="even">
-<td><p>Conferências em andamento organizadas por um usuário afetado</p></td>
+<td><p>Conferências em andamento organizadas pelo usuário afetado</p></td>
 <td><p>Todas as modalidades de conferência são encerradas.</p></td>
-<td><p>Todas as modalidades agora funcionam. Todos os participantes devem clicar para reingressar na conferência.</p></td>
+<td><p>Todas as modalidades agora funcionam. Todo participante precisa clicar para reingressar na conferência.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Conferências em andamento organizadas por um usuário não afetado</p></td>
-<td><p>A conferência continua, e o usuário afetado pode permanecer na conferência e todas as modalidades funcionam.</p></td>
-<td><p>A conferência continua, e o usuário afetado pode permanecer na conferência e todas as modalidades funcionam.</p></td>
+<td><p>Conferências em andamento organizadas pelo usuário não afetado</p></td>
+<td><p>A conferência continua e o usuário afetado pode permanecer na conferência e todas as modalidades funcionam.</p></td>
+<td><p>A conferência continua e o usuário afetado pode permanecer na conferência e todas as modalidades funcionam.</p></td>
 </tr>
 <tr class="even">
-<td><p>Todas as sessões ponto a ponto e modalidades</p></td>
+<td><p>Todas as sessões e modalidades ponto a ponto</p></td>
 <td><p>Disponível</p></td>
 <td><p>Disponível</p></td>
 </tr>

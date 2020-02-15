@@ -12,16 +12,16 @@ ms:contentKeyID: 48185394
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 146c22b77ac6d2681c1844feade86242e1fcd72f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ebddb1e0313d0c47acb4171929d12d352f69c260
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744401"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007600"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744401"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-03-25_
+_**Última modificação do tópico:** 2014-03-25_
 
-A tabela UserAgentDef mapeia os identificadores de agente de usuário para os nomes descritivos do agente. Os agentes de usuário são clientes de software usados para se conectar ao Microsoft Lync Server 2013.
+A tabela UserAgentDef mapeia os identificadores do agente do usuário para os nomes de descrição do agente. Os agentes de usuário são clientes de software usados para se conectar ao Microsoft Lync Server 2013.
 
 
 <table>
@@ -48,34 +48,34 @@ A tabela UserAgentDef mapeia os identificadores de agente de usuário para os no
 </colgroup>
 <thead>
 <tr class="header">
-<th>UAType</th>
+<th>Uatype do</th>
 <th>UAName</th>
 <th>UACategory</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>MediationServer</p></td>
 <td><p>MediationServer</p></td>
 </tr>
 <tr class="even">
-<td><p>2</p></td>
+<td><p>2 </p></td>
 <td><p>AV-MCU</p></td>
 <td><p>AV-MCU</p></td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>OC</p></td>
 <td><p>OC</p></td>
 </tr>
 <tr class="even">
-<td><p>8</p></td>
+<td><p>8 </p></td>
 <td><p>OCPhone</p></td>
 <td><p>OCPhone</p></td>
 </tr>
 <tr class="odd">
-<td><p>16</p></td>
+<td><p>16 </p></td>
 <td><p>LMC</p></td>
 <td><p>LMC</p></td>
 </tr>
@@ -86,23 +86,23 @@ A tabela UserAgentDef mapeia os identificadores de agente de usuário para os no
 </tr>
 <tr class="odd">
 <td><p>64</p></td>
-<td><p>CM</p></td>
-<td><p>CM</p></td>
+<td><p>MM</p></td>
+<td><p>MM</p></td>
 </tr>
 <tr class="even">
 <td><p>64</p></td>
 <td><p>MC</p></td>
-<td><p>CM</p></td>
+<td><p>MM</p></td>
 </tr>
 <tr class="odd">
 <td><p>128</p></td>
-<td><p>Atendedor</p></td>
-<td><p>Atendedor</p></td>
+<td><p>Automático</p></td>
+<td><p>Automático</p></td>
 </tr>
 <tr class="even">
 <td><p>256</p></td>
 <td><p>Conferencing_Announcement_Service_1.0</p></td>
-<td><p>CERTIFICAÇÃO</p></td>
+<td><p>CA</p></td>
 </tr>
 <tr class="odd">
 <td><p>512</p></td>
@@ -127,7 +127,7 @@ A tabela UserAgentDef mapeia os identificadores de agente de usuário para os no
 <tr class="odd">
 <td><p>1040</p></td>
 <td><p>Response_Group_Service Announcement_Service</p></td>
-<td><p>COMO</p></td>
+<td><p>AS</p></td>
 </tr>
 <tr class="even">
 <td><p>2048</p></td>
@@ -136,8 +136,8 @@ A tabela UserAgentDef mapeia os identificadores de agente de usuário para os no
 </tr>
 <tr class="odd">
 <td><p>16386</p></td>
-<td><p>CoMo</p></td>
-<td><p>CoMo</p></td>
+<td><p>Informado</p></td>
+<td><p>Informado</p></td>
 </tr>
 <tr class="even">
 <td><p>16387</p></td>
@@ -156,7 +156,7 @@ A tabela UserAgentDef mapeia os identificadores de agente de usuário para os no
 </tr>
 <tr class="odd">
 <td><p>16393</p></td>
-<td><p>MSExchangese</p></td>
+<td><p>MSExchangeum</p></td>
 <td><p>ExUM</p></td>
 </tr>
 <tr class="even">
@@ -166,8 +166,8 @@ A tabela UserAgentDef mapeia os identificadores de agente de usuário para os no
 </tr>
 <tr class="odd">
 <td><p>16396</p></td>
-<td><p>PRAZO</p></td>
-<td><p>PRAZO</p></td>
+<td><p>CEP</p></td>
+<td><p>CEP</p></td>
 </tr>
 <tr class="even">
 <td><p>16397</p></td>
@@ -206,8 +206,8 @@ A tabela UserAgentDef mapeia os identificadores de agente de usuário para os no
 </tr>
 <tr class="odd">
 <td><p>16404</p></td>
-<td><p>Notebook</p></td>
-<td><p>Notebook</p></td>
+<td><p>COMPUTADORES</p></td>
+<td><p>COMPUTADORES</p></td>
 </tr>
 <tr class="even">
 <td><p>16405</p></td>

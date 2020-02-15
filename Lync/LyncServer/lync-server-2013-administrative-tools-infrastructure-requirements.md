@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: requisitos de infraestrutura para ferramentas administrativas'
+title: 'Lync Server 2013: requisitos de infraestrutura de ferramentas administrativas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185102
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bdef9998cf620f2718b8fa42a1f8337af93a9a5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 13c1ae59995a89f121b2073fdd0be374269268df
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737941"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41998676"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41737941"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-27_
+_**Última modificação do tópico:** 2012-09-27_
 
-Não há requisitos adicionais de infraestrutura para você instalar as ferramentas administrativas do Microsoft Lync Server 2013 ou executar a maioria das tarefas de gerenciamento usando essas ferramentas. Para saber quais são os requisitos de infraestrutura para cenários específicos, consulte os tópicos desta seção.
+Não há requisitos de infraestrutura adicionais para você instalar as ferramentas administrativas do Microsoft Lync Server 2013 ou executar a maioria das tarefas de gerenciamento usando essas ferramentas. Para requisitos de infraestrutura para cenários específicos, consulte os tópicos nesta seção.
 
 <div>
 
@@ -57,7 +57,7 @@ Não há requisitos adicionais de infraestrutura para você instalar as ferramen
 
 ## <a name="related-sections"></a>Seções Relacionadas
 
-  - [Shell de Gerenciamento do Lync Server 2013](lync-server-2013-lync-server-management-shell.md)
+  - [Shell de gerenciamento do Lync Server 2013](lync-server-2013-lync-server-management-shell.md)
 
 </div>
 
@@ -72,7 +72,7 @@ Não há requisitos adicionais de infraestrutura para você instalar as ferramen
 [Requisitos de software de ferramentas administrativas no Lync Server 2013](lync-server-2013-administrative-tools-software-requirements.md)  
 
 
-[Direitos e permissões de administrador necessários para configuração e administração do Lync Server 2013](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)  
+[Direitos e permissões de administrador necessários para a instalação e administração do Lync Server 2013](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)  
   
 
 </div>

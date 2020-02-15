@@ -12,16 +12,16 @@ ms:contentKeyID: 63969667
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 920fc39d3800f83a2d40a613c391b2f0c93e4dac
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a8d0fe8500bd676ef1a9a33c9197dfeac7783c10
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745261"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034637"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745261"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-11-03_
+_**Última modificação do tópico:** 2014-11-03_
 
 
 <table>
@@ -45,17 +45,17 @@ _**Tópico da última modificação:** 2014-11-03_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Cronograma de verificação</p></td>
-<td><p>Diário</p></td>
+<td><p>Agenda de verificação</p></td>
+<td><p>Diariamente</p></td>
 </tr>
 <tr class="even">
 <td><p>Ferramenta de teste</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissões necessárias</p></td>
-<td><p>Quando executado localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.</p>
-<p>Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet <strong>Test-CsWatcherNodeConfiguration</strong> . Para ver uma lista de todas as funções RBAC que podem usar esse cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</p>
+<td><p>Permissões obrigatórias</p></td>
+<td><p>Ao executar localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.</p>
+<p>Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet <strong>Test-CsWatcherNodeConfiguration</strong> . Para ver uma lista de todas as funções RBAC que podem usar este cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot; Test-CsWatcherNodeConfiguration&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,9 +66,9 @@ _**Tópico da última modificação:** 2014-11-03_
 
 ## <a name="description"></a>Descrição
 
-Se estiver usando o Microsoft System Center Operations Manager para monitorar o Lync Server 2013, você tem a opção de configurar "nós de Inspetor": computadores que periodicamente e automaticamente executam transações sintéticas para verificar se o Lync Server está funcionando como esperado. Os nós de Inspetor são atribuídos a pools e são gerenciados usando-se os cmdlets **CsWatcherNodeConfiguration** . Observe que você não precisa instalar nós do Inspetor se estiver usando o System Center Operations Manager. Você ainda pode monitorar o sistema sem usar nós de Inspetor. A única diferença é que as transações sintéticas que você deseja executar devem ser invocadas manualmente em vez de invocadas automaticamente pelo Operations Manager.
+Se você estiver usando o Microsoft System Center Operations Manager para monitorar o Lync Server 2013, então você tem a opção de configurar "nós do Inspetor": computadores que periodicamente, e automaticamente, executam transações sintéticas para verificar se o Lync Server está funcionando como esperá. Os nós do Inspetor são atribuídos a pools e são gerenciados usando os cmdlets **CsWatcherNodeConfiguration** . Observe que você não precisa instalar nós do observador se estiver usando o System Center Operations Manager. Você ainda pode monitorar o sistema sem usar nós do Inspetor. A única diferença é que todas as transações sintéticas que você deseja executar devem ser chamadas manualmente em vez de invocadas automaticamente pelo Operations Manager.
 
-O cmdlet **Test-CsWatcherNodeConfiguration** permite que você verifique se um nó do inspetor foi configurado corretamente e se foi atribuído a um pool válido do Lync Server 2013. Observe que o cmdlet **Test-CsWatcherNodeConfiguration** deve ser executado no próprio nó do Inspetor. O cmdlet não pode ser executado em computadores remotos.
+O cmdlet **Test-CsWatcherNodeConfiguration** permite verificar se um nó do inspetor foi configurado corretamente e é atribuído a um pool válido do Lync Server 2013. Observe que o cmdlet **Test-CsWatcherNodeConfiguration** deve ser executado no próprio nó do Inspetor. O cmdlet não pode ser executado em computadores remotos.
 
 </div>
 
@@ -84,47 +84,47 @@ O comando a seguir verifica as definições de configuração para cada nó do i
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Determinação do sucesso ou falha
+## <a name="determining-success-or-failure"></a>Determinando o sucesso ou a falha
 
-A seguinte saída de exemplo a seguir mostra um sistema com quatro servidores de borda.
+A saída de exemplo a seguir mostra um sistema com quatro servidores de borda.
 
-Validando o pool de destino atl-cs-001.litwareinc.com em relação à topologia.
+Validar o pool de destino atl-cs-001.litwareinc.com em relação à topologia.
 
 Êxito: o pool de destino atl-cs-001.litwareinc.com existe na topologia.
 
 Êxito: o pool de destino atl-cs-001.litwareinc.com tem a função de registrador instalada.
 
-Êxito: versão do pool de destino atl-cs-001.litwareinc.com com suporte.
+Êxito: versão do pool de destino atl-cs-001.litwareinc.com suportada.
 
-Êxito: o número da porta para o pool de destino do 5061 atl-cs-001.litwareinc.com está correto.
+Êxito: o número da porta para o pool de destino 5061 atl-cs-001.litwareinc.com está correto.
 
-A verificação de pools ausentes na configuração do nó do Inspetor é iniciada. Se for detectado algum erro, ele será impresso.
+A verificação de pools ausentes na configuração do nó do inspetor foi iniciada. Se algum erro for detectado, ele será impresso.
 
 A verificação de pools ausentes na configuração do nó do inspetor está concluída.
 
-A verificação de chaves do registro do nó do Inspetor criadas pela instalação do nó do Inspetor é iniciada. Se for detectado algum erro, ele será impresso.
+A verificação das chaves do registro do nó do observador criadas pela instalação do nó do observador, será iniciada. Se algum erro for detectado, ele será impresso.
 
-A verificação das chaves do registro do nó do Inspetor criadas pela instalação do nó do inspetor está concluída. O tipo de autenticação detectado é Negotiate.
+A verificação das chaves do registro do nó do observador criadas pela instalação do nó do observador foi concluída. O tipo de autenticação detectado é Negotiate.
 
-Existência validada com êxito da Credential SIP do usuário de teste: user1@ atl-cs-001.litwareinc.com no repositório de gerenciamento de credenciais.
+Existência validada com êxito da credencial do usuário de teste SIP: user1@ atl-cs-001.litwareinc.com no repositório de gerenciamento de credenciais.
 
-Existência validada com êxito da Credential SIP do usuário de teste: user2@ atl-cs-001.litwareinc.com no repositório de gerenciamento de credenciais.
+Existência validada com êxito da credencial do usuário de teste SIP: user2@ atl-cs-001.litwareinc.com no repositório de gerenciamento de credenciais.
 
-A verificação de pools ausentes na configuração do nó do Inspetor é iniciada. Se for detectado algum erro, ele será impresso.
+A verificação de pools ausentes na configuração do nó do inspetor foi iniciada. Se algum erro for detectado, ele será impresso.
 
-Aviso: o pool atl-cs-001.litwareinc.com tem registrador
+Aviso: o pool atl-cs-001.litwareinc.com tem o registrador
 
 função instalada, mas não há usuários de teste configurados para ele.
 
 A verificação de pools ausentes na configuração do nó do inspetor está concluída.
 
-Verificar as chaves do registro do nó do Inspetor criadas pela instalação do nó do Inspetor é
+Verificar as chaves do registro do nó do observador criadas pela instalação do nó do observador, é
 
-vindo. Se for detectado algum erro, ele será impresso.
+tiver. Se algum erro for detectado, ele será impresso.
 
-Test-CsWatcherNodeConfiguration: não é possível encontrar a chave do registro de integridade no
+Test-CsWatcherNodeConfiguration: não é possível localizar a chave de integridade do registro no
 
-Software\\de\\comunicação em tempo real da Microsoft. Verifique se o nó inspetor. msi está
+Comunicação\\do\\software da Microsoft em tempo real. Verifique se o nó do Inspetor. msi é
 
 instalado corretamente.
 

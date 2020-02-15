@@ -12,20 +12,20 @@ ms:contentKeyID: 48183804
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fcded907075b6587eb62ea8b6b76566c4f29ac87
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 93e68a7aecd8c1390993d25d23668813cad0abbf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765912"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008213"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="network-infrastructure-requirements-for-lync-server-2013"></a>Requisitos da infraestrutura de rede para o Lync Server 2013
+# <a name="network-infrastructure-requirements-for-lync-server-2013"></a>Requisitos de infraestrutura de rede para o Lync Server 2013
 
 </div>
 
@@ -35,58 +35,58 @@ ms.locfileid: "41765912"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-18_
+_**Última modificação do tópico:** 2012-10-18_
 
-A placa adaptadora de rede de cada servidor na topologia do Lync Server 2013 deve dar suporte a pelo menos 1 gigabit por segundo (Gbps). Em geral, você deve conectar todas as funções de servidor na topologia do Lync Server usando uma rede local de baixa latência e alta largura de banda (LAN). O tamanho da LAN depende do tamanho da topologia:
+A placa de adaptador de rede de cada servidor na topologia do Lync Server 2013 deve suportar pelo menos 1 gigabit por segundo (Gbps). Em geral, você deve conectar todas as funções de servidor dentro da topologia do Lync Server usando uma rede local de baixa latência e alta largura de banda (LAN). O tamanho da LAN depende do tamanho da topologia:
 
-  - Em topologias de edição padrão, os servidores devem estar em uma rede que suporte Ethernet de 1 Gbps ou equivalente.
+  - Nas topologias do Standard Edition, os servidores devem estar em uma rede que ofereça suporte a Ethernet de 1 Gbps ou equivalente.
 
-  - Em topologias de pool Front-end, a maioria dos servidores deve estar em uma rede com suporte para mais de 1 Gbps, especialmente quando oferecer suporte à conferência de áudio/vídeo (A/V) e compartilhamento de aplicativos.
+  - Nas topologias do pool de front-ends, a maioria dos servidores deve estar em uma rede que ofereça suporte a mais de 1 Gbps, especialmente quando houver suporte para conferência de áudio/vídeo (A/V) e compartilhamento de aplicativos.
 
-Para a integração com Rede Telefônica Pública Comutada (PSTN), você pode usar linhas T1/E1 ou tronco SIP.
+Para a integração com PSTN, você pode usar linhas T1/E1 ou troncos SIP.
 
 <div>
 
-## <a name="audiovideo-network-requirements"></a>Requisitos de rede de áudio/vídeo
+## <a name="audiovideo-network-requirements"></a>Requisitos de rede para áudio/vídeo
 
 Os requisitos de rede para áudio/vídeo (A/V) em uma implantação do Lync Server incluem o seguinte:
 
-  - Se você estiver implantando um servidor de borda único ou um pool de bordas usando o balanceamento de carga de DNS, poderá configurar o firewall externo como um NAT. Você não pode configurar o firewall interno como um NAT. Para obter detalhes sobre esses requisitos, consulte [determinar requisitos de firewall e porta externo A/V para o Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md) na documentação de planejamento.
+  - Se você estiver implantando um único servidor de borda ou um pool de borda usando o balanceamento de carga DNS, é possível configurar o firewall externo como NAT. Você não pode configurar o firewall interno como NAT. Para obter detalhes sobre esses requisitos, consulte [determine external A/V Firewall and Port Requirements for Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md) na documentação de planejamento.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Se você tiver um pool de bordas e estiver usando um balanceador de carga de hardware, será necessário usar endereços IP públicos em cada um dos servidores de borda e não poderá usar o NAT para os servidores ou o pool em seu dispositivo NAT (por exemplo, o firewall ou outro dispositivo de infraestrutura que faria o NAT inbou nd ou tráfego de saída). Para obter detalhes, consulte <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Resumo de portabilidade-dimensionamento consolidado com balanceadores de carga de hardware no Lync Server 2013</A> na documentação planejando para acesso de usuário externo.
+    > Se você tiver um pool de borda e estiver usando um balanceador de carga de hardware, deverá usar endereços IP públicos em cada um dos servidores de borda e não poderá usar o NAT para os servidores ou o pool no seu dispositivo NAT (por exemplo, o firewall ou outro dispositivo de infraestrutura que iria NAT inbou nd ou tráfego de saída). Para obter detalhes, consulte <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">port SUMMARY-escalada Consolidated Edge with hardware Load balancers in Lync Server 2013</A> na documentação Planning for External User Access.
 
     
     </div>
 
-  - Se a sua organização usa uma infraestrutura de QoS (Qualidade de Serviço), o subsistema de mídia é projetado para funcionar com essa infraestrutura existente.
+  - Caso sua organização use uma infraestrutura de QoS (Qualidade de Serviço), o subsistema de mídia estará projetado para operar dentro dessa infraestrutura existente.
 
   - Caso você utilize o protocolo IPsec, é recomendável desabilitá-lo nos intervalos de portas usados para o tráfego de A/V. Para obter detalhes, consulte [exceções de IPsec no Lync Server 2013](lync-server-2013-ipsec-exceptions.md) na documentação de planejamento.
 
-Para garantir a qualidade de mídia ideal, faça o seguinte:
+Para garantir a melhor qualidade da mídia, siga este procedimento:
 
-  - Provisione seus links de rede para dar suporte a throughput de 65 kilobits por segundo (Kbps) por fluxo de áudio e 500 kbps por fluxo de vídeo, se habilitados, durante períodos de pico de uso. Uma sessão de áudio ou de vídeo bidirecional consiste em dois fluxos.
+  - Provisione os vínculos da rede para dar suporte a uma taxa de transferência de 65 Kbps (quilobits por segundo) por fluxo de áudio e 500 Kbps por fluxo de vídeo, se estiver habilitado, durante os períodos de uso máximo. Uma sessão de áudio ou vídeo bidirecional consiste em dois fluxos.
 
-  - Para lidar com picos inesperados no tráfego acima desse nível e maior utilização ao longo do tempo, os pontos de extremidade de mídia do Lync Server podem se adaptar às diferentes condições de rede e às cargas de suporte de três vezes a taxa de transferência (consulte o parágrafo anterior) para áudio e vídeo enquanto ainda retenção de qualidade aceitável. No entanto, não presuma que essa capacidade de adaptação dará suporte a uma rede subvisionada. Em uma rede subprovisionada, a capacidade dos pontos de extremidade de mídia do Lync Server de lidar dinamicamente com condições de rede variáveis (por exemplo, perda de pacotes de alta capacidade temporária) é reduzida.
+  - Para lidar com picos inesperados no tráfego acima desse nível e maior uso com o passar do tempo, os pontos de extremidade de mídia do Lync Server podem se adaptar às diferentes condições de rede e às cargas de suporte de três vezes a taxa de transferência (consulte o parágrafo anterior) para áudio e vídeo enquanto ainda manter a qualidade aceitável. No entanto, não presuma que essa adaptabilidade suportará uma rede subprovisionada. Em uma rede subvisionada, a capacidade dos pontos de extremidade de mídia do Lync Server de lidar dinamicamente com condições de rede variáveis (por exemplo, perda de pacote de alta capacidade temporária) é reduzida.
 
-  - Para links de rede em que o provisionamento é extremamente dispendioso e difícil, talvez seja necessário considerar o provisionamento para um volume menor de tráfego. Nesse cenário, permita que a elasticidade dos pontos de extremidade de mídia do Lync Server absorvesse a diferença entre o volume de tráfego e o nível de tráfego de pico, ao custo de uma redução na qualidade de voz. Além disso, há uma redução no espaço de qualquer outra forma disponível para absorver picos repentinos de tráfego.
+  - Para vínculos de rede em que o provisionamento envolve altíssimo custo e dificuldade, considere a opção de provisionar para um volume menor de tráfego. Neste cenário, deixe a elasticidade dos pontos de extremidade de mídia do Lync Server absorver a diferença entre o volume de tráfego e o nível de tráfego de pico, ao custo de alguma redução na qualidade de voz. Além disso, há uma diminuição na reserva dinâmica que, de outra forma, estaria disponível para absorver picos súbitos de tráfego.
 
-  - Para links que não podem ser provisionados corretamente em curto prazo (por exemplo, um site com links WAN muito ruins), considere a possibilidade de desabilitar o vídeo para determinados usuários.
+  - Para os vínculos que não podem ser provisionados corretamente a curto prazo (por exemplo, um local com vínculos de WAN de péssima qualidade), considere a possibilidade de desabilitar o vídeo para determinados usuários.
 
-  - Provisione sua rede para garantir um atraso máximo de ponto a ponto (latência) de 150 milissegundos (MS) em carga máxima. A latência é a única deficiência da rede que os componentes de mídia do Lync Server não podem reduzir e é importante localizar e eliminar os pontos fracos.
+  - Provisione sua rede para assegurar um atraso máximo de ponta a ponta (latência) de 150 ms (milissegundos) sob carga máxima. Latência é a única deficiência da rede que os componentes de mídia do Lync Server não podem reduzir e é importante encontrar e eliminar os pontos fracos.
 
-  - Para servidores que executam o software antivírus, inclua todos os servidores que executam o Lync Server na lista de exceções para fornecer desempenho e qualidade de áudio ideais.
+  - Para servidores que executam software antivírus, inclua todos os servidores que executam o Lync Server na lista de exceções a fim de fornecer desempenho e qualidade de áudio ideais.
 
 </div>
 
 <div>
 
-## <a name="conferencing-network-requirements"></a>Requisitos de rede de conferência
+## <a name="conferencing-network-requirements"></a>Requisitos da Rede de Conferência
 
-A largura de banda usada para baixar o conteúdo da conferência do servidor dos serviços de informações da Internet (IIS) depende do tamanho do conteúdo que foi carregado.
+A largura de banda usada para baixar o conteúdo da conferência do servidor de serviços de informações da Internet (IIS) depende do tamanho do conteúdo carregado.
 
 </div>
 

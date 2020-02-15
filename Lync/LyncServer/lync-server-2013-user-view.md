@@ -12,20 +12,20 @@ ms:contentKeyID: 49733699
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c8e88d7a9fa66f309bbd64ab064ec95adafc40b8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3ddc05e2ee7e96ec10c6d3dbf691f7b094a10983
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744381"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007630"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="user-view-in-lync-server-2013"></a>Modo de exibição de usuário no Lync Server 2013
+# <a name="user-view-in-lync-server-2013"></a>Exibição de usuário no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744381"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-01_
+_**Última modificação do tópico:** 2012-10-01_
 
-A exibição do usuário armazena informações sobre os usuários que estiveram envolvidos em chamadas ou sessões que têm registros no banco de dados. Este modo de exibição foi apresentado no Microsoft Lync Server 2013.
+A exibição de Usuário armazena informações sobre usuários envolvidos em chamadas ou sessões com registros no banco de dados. Este modo de exibição foi introduzido no Microsoft Lync Server 2013.
 
 
 <table>
@@ -55,14 +55,14 @@ A exibição do usuário armazena informações sobre os usuários que estiveram
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>ID</p></td>
+<td><p>UserId</p></td>
 <td><p>int</p></td>
-<td><p>Número exclusivo que identifica esse usuário.</p></td>
+<td><p>Número exclusivo que identifica este usuário.</p></td>
 </tr>
 <tr class="even">
 <td><p>UserUri</p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>URL do usuário.</p></td>
+<td><p>Uri do usuário.</p></td>
 </tr>
 <tr class="odd">
 <td><p>TenantKey</p></td>
@@ -71,8 +71,8 @@ A exibição do usuário armazena informações sobre os usuários que estiveram
 </tr>
 <tr class="even">
 <td><p>UriType</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Tipo de URI de usuário. Consulte a <a href="lync-server-2013-uritypes-table.md">tabela UriTypes no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Tipo de URI do usuário. Consulte a <a href="lync-server-2013-uritypes-table.md">tabela UriTypes no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 </tbody>
 </table>

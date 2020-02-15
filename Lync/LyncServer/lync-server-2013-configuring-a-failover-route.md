@@ -12,16 +12,16 @@ ms:contentKeyID: 48184542
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 22ebdf359a8cdf5f20ada8740a589b0181c3cc93
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 17477c647d2e5dd5918225486c43b93a29509fb2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741281"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034221"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41741281"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-21_
+_**Última modificação do tópico:** 2012-09-21_
 
 O exemplo abaixo mostra como um administrador pode definir uma rota de failover para utilizar se o Dallas-GW1 for desativado para manutenção ou estiver indisponível por qualquer outro motivo. As seguintes tabelas ilustram a alteração de configuração necessária.
 
@@ -84,9 +84,9 @@ O exemplo abaixo mostra como um administrador pode definir uma rota de failover 
 <thead>
 <tr class="header">
 <th>Nome da rota</th>
-<th>Padrão do número</th>
+<th>Padrão de número</th>
 <th>Uso do telefone</th>
-<th>Tronco</th>
+<th>Trunk</th>
 <th>Gateway</th>
 </tr>
 </thead>
@@ -96,34 +96,34 @@ O exemplo abaixo mostra como um administrador pode definir uma rota de failover 
 <td><p>^\+1 (425 | 206 | 253) (\d{7}) $</p></td>
 <td><p>Local</p>
 <p>RedmondLocal</p></td>
-<td><p>Tronco 1</p>
-<p>Tronco 2</p></td>
-<td><p>Red-GW1</p>
-<p>Red-GW2</p></td>
+<td><p>Trunk1</p>
+<p>Trunk2</p></td>
+<td><p>Vermelho-GW1</p>
+<p>Vermelho-GW2</p></td>
 </tr>
 <tr class="even">
 <td><p>Rota Local de Dallas</p></td>
 <td><p>^\+1 (972 | 214 | 469) (\d{7}) $</p></td>
 <td><p>Local</p></td>
-<td><p>Tronco 3</p></td>
+<td><p>Trunk3</p></td>
 <td><p>Dallas-GW1</p></td>
 </tr>
 <tr class="odd">
 <td><p>Rota Universal</p></td>
 <td><p>^\+? (\d *) $</p></td>
 <td><p>GlobalPSTNHopoff</p></td>
-<td><p>Tronco 1</p>
-<p>Tronco 2</p>
-<p>Tronco 3</p></td>
-<td><p>Red-GW1</p>
-<p>Red-GW2</p>
+<td><p>Trunk1</p>
+<p>Trunk2</p>
+<p>Trunk3</p></td>
+<td><p>Vermelho-GW1</p>
+<p>Vermelho-GW2</p>
 <p>Dallas-GW1</p></td>
 </tr>
 <tr class="even">
 <td><p>Rota de Usuários de Dallas</p></td>
 <td><p>^\+? (\d *) $</p></td>
 <td><p>DallasUsers</p></td>
-<td><p>Tronco 3</p></td>
+<td><p>Trunk3</p></td>
 <td><p>Dallas-GW1</p></td>
 </tr>
 </tbody>

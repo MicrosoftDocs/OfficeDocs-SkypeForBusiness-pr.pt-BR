@@ -1,5 +1,5 @@
 ---
-title: Configurando Servidor de Chat Persistente usando cmdlets do Windows PowerShell
+title: Configurando o servidor de chat persistente usando cmdlets do Windows PowerShell
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184089
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 281526be2ecee70bd0ed510ba37ee34745d60a9c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 67a436f4058ea600f9eed67725f0a519835e432f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723169"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006527"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets"></a>Configurando Servidor de Chat Persistente usando cmdlets do Windows PowerShell
+# <a name="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets"></a>Configurando o servidor de chat persistente usando cmdlets do Windows PowerShell
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41723169"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-06_
+_**Última modificação do tópico:** 2012-10-06_
 
 Use os seguintes cmdlets do Windows PowerShell para configurar o gerenciamento no Lync Server 2013, servidor de chat persistente.
 
@@ -43,7 +43,7 @@ Use os seguintes cmdlets do Windows PowerShell para configurar o gerenciamento n
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Manage categories](manage-categories.md)
+  - [Gerenciar categorias](manage-categories.md)
 
   - [Gerenciar salas](manage-rooms.md)
 
@@ -51,17 +51,17 @@ Use os seguintes cmdlets do Windows PowerShell para configurar o gerenciamento n
 
   - [Remover uma mensagem](remove-a-message.md)
 
-  - [Testar Servidor de Chat Persistente com uma transação sintética](test-persistent-chat-server-with-a-synthetic-transaction.md)
+  - [Testar servidor de chat persistente com uma transação sintética](test-persistent-chat-server-with-a-synthetic-transaction.md)
 
-  - [Executar compatibilidade com versões anteriores para Servidor de Chat Persistente](run-backward-compatibility-for-persistent-chat-server.md)
+  - [Executar compatibilidade com versões anteriores para servidor de chat persistente](run-backward-compatibility-for-persistent-chat-server.md)
 
-  - [Executar, conceder, obter, remover ou definir Política de Chat Persistente no Lync Server 2013](lync-server-2013-run-grant-get-remove-or-set-persistent-chat-policy.md)
+  - [Executar, conceder, obter, remover ou definir política de chat persistente no Lync Server 2013](lync-server-2013-run-grant-get-remove-or-set-persistent-chat-policy.md)
 
-  - [Configurar o Servidor de Chat Persistente no Lync Server 2013](lync-server-2013-configure-persistent-chat-server.md)
+  - [Configurar o servidor de chat persistente no Lync Server 2013](lync-server-2013-configure-persistent-chat-server.md)
 
-  - [Obter disponibilidade do pool do Servidor de Chat Persistente no Lync Server 2013](lync-server-2013-get-persistent-chat-server-pool-availability.md)
+  - [Obter disponibilidade do pool do servidor de chat persistente no Lync Server 2013](lync-server-2013-get-persistent-chat-server-pool-availability.md)
 
-  - [Conformidade de Chat Persistente no Lync Server 2013](lync-server-2013-persistent-chat-compliance.md)
+  - [Conformidade de chat persistente no Lync Server 2013](lync-server-2013-persistent-chat-compliance.md)
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184383
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0437f56c5eb5564eb4f85809aefd181c2cbd2eaf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ba8e3e02efeddc1229d3616c0cdcaf4ca241bf24
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746547"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42024402"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-persistent-chat-server-in-lync-server-2013"></a>Requisitos técnicos para servidor de chat persistente no Lync Server 2013
+# <a name="technical-requirements-for-persistent-chat-server-in-lync-server-2013"></a>Requisitos técnicos para o servidor de chat persistente no Lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41746547"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-01-06_
+_**Última modificação do tópico:** 2013-01-06_
 
-Cada computador que hospeda um servidor de chat persistente deve ter acesso a uma topologia existente do Lync Server 2013 com os seguintes componentes:
+Cada computador que hospeda o servidor de chat persistente deve ter acesso a uma topologia existente do Lync Server 2013 com os seguintes componentes:
 
-  - **Lync Server 2013, servidor front-end.**  O servidor front-end é a base para o roteamento SIP (Session Initiation Protocol), que faz a comunicação entre computadores que executam o servidor de chat persistente e a funcionalidade de chat persistente possível. Antes de começar a implantar o servidor de chat persistente, verifique a implantação do Lync Server 2013, Standard Edition ou um pool de front-end do Lync Server e qualquer outro computador interno que esteja executando o Lync Server, conforme apropriado para a sua organização.
+  - **Lync Server 2013, servidor front-end.**  O servidor front-end é a base para o roteamento do protocolo SIP, que faz a comunicação entre os computadores que executam o servidor de chat persistente e a funcionalidade de chat persistente possível. Antes de começar a implantar o servidor de chat persistente, verifique a implantação do Lync Server 2013, Standard Edition ou de um pool de front-ends do Lync Server e de qualquer outro computador interno executando o Lync Server, conforme apropriado para sua organização.
 
-As seções a seguir descrevem os requisitos específicos do servidor de chat persistente e do banco de dados que armazena os dados de chat persistente.
+As seções a seguir descrevem os requisitos específicos para o servidor de chat persistente e o banco de dados que armazena os dados de chat persistente.
 
 <div>
 
-## <a name="persistent-chat-server-requirements"></a>Requisitos de servidor de chat persistente
+## <a name="persistent-chat-server-requirements"></a>Requisitos do servidor de chat persistente
 
-Para obter detalhes sobre o hardware recomendado para a implantação do Lync Server e a versão mais recente do servidor de chat persistente, consulte [plataformas de hardware do servidor para o Lync Server 2013](lync-server-2013-server-hardware-platforms.md) na documentação de suporte.
+Para obter detalhes sobre o hardware recomendado para implantar o Lync Server e a versão mais recente do servidor de chat persistente, consulte [Server Hardware Platforms for Lync server 2013](lync-server-2013-server-hardware-platforms.md) na documentação de suporte.
 
-Para obter detalhes sobre o servidor e ferramentas de suporte do sistema operacional do Lync Server e do servidor de chat persistente, consulte [suporte ao sistema operacional do servidor e ferramentas no Lync server 2013](lync-server-2013-server-and-tools-operating-system-support.md) na documentação de suporte.
+Para obter detalhes sobre o servidor e as ferramentas de suporte do sistema operacional para Lync Server e servidor de chat persistente, consulte [Server and Tools Operating System support in Lync server 2013](lync-server-2013-server-and-tools-operating-system-support.md) na documentação de suporte.
 
 Para obter detalhes sobre o software adicional necessário para a implantação do servidor de chat persistente, consulte a tabela a seguir.
 
@@ -68,7 +68,7 @@ Para obter detalhes sobre o software adicional necessário para a implantação 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Enfileiramento de mensagens</p></td>
+<td><p>Serviço de Enfileiramento de Mensagens</p></td>
 <td><p>Usado pelo servidor de chat persistente e pelo serviço de conformidade de chat persistente, se implantado.</p></td>
 </tr>
 </tbody>
@@ -79,9 +79,9 @@ Para obter detalhes sobre o software adicional necessário para a implantação 
 
 <div>
 
-## <a name="persistent-chat-server-database-requirements"></a>Requisitos de banco de dados persistente do servidor de chat
+## <a name="persistent-chat-server-database-requirements"></a>Requisitos de banco de dados do servidor de chat persistente
 
-O servidor de chat persistente usa o banco de dados de chat persistente para armazenar os dados de histórico de chat, configuração e provisionamento de usuário. Opcionalmente, ele usa o banco de dados de conformidade de chat persistente para armazenar dados de conformidade.
+O servidor de chat persistente usa o banco de dados de chat persistente para armazenar o histórico de chat, configuração e dados de provisionamento do usuário. Opcionalmente, ele usa o banco de dados de conformidade de chat persistente para armazenar dados de conformidade.
 
 <div>
 
@@ -93,11 +93,11 @@ O servidor de chat persistente usa o banco de dados de chat persistente para arm
 
 </div>
 
-Para preparar uma plataforma de servidor de banco de dados, verifique se todos os computadores atendem aos requisitos de hardware, depois instale o software de pré-requisito.
+Para preparar uma plataforma de servidor de banco de dados, certifique-se de que cada computador atende aos requisitos de hardware e instale o software de pré-requisito.
 
-A plataforma do servidor para os servidores de banco de dados de chat persistente requer o mesmo hardware que o servidor de banco de dados back-end do Lync Server. Para obter detalhes, consulte [plataformas de hardware do servidor para o Lync Server 2013](lync-server-2013-server-hardware-platforms.md) na documentação de suporte.
+A plataforma de servidor para os servidores de banco de dados de chat persistente requer o mesmo hardware que o servidor de banco de dados back-end do Lync Server. Para obter detalhes, consulte [Server Hardware Platforms for Lync server 2013](lync-server-2013-server-hardware-platforms.md) na documentação de suporte.
 
-No servidor de banco de dados. verifique se um dos seguintes aplicativos de software está instalado:
+No servidor de banco de dados, certifique-se de que um dos seguintes aplicativos de software está instalado:
 
   - Microsoft SQL Server 2012. Para obter detalhes sobre como instalar o Microsoft SQL Server 2012, consulte "instalar o SQL Server 2012 [http://go.microsoft.com/fwlink/p/?LinkID=248559](http://go.microsoft.com/fwlink/p/?linkid=248559)" em.
 
@@ -109,7 +109,7 @@ No servidor de banco de dados. verifique se um dos seguintes aplicativos de soft
 
 ## <a name="persistent-chat-server-certificate-requirements"></a>Requisitos de certificado do servidor de chat persistente
 
-Para obter detalhes sobre como adquirir certificados, criar o banco de dados do SQL Server e criar armazenamentos de arquivos, consulte [implantando o Lync Server 2013](lync-server-2013-deploying-lync-server.md) na documentação de implantação.
+Para obter detalhes sobre a aquisição de certificados, criação do banco de dados do SQL Server e criação de repositórios de arquivos, consulte [Deploying Lync Server 2013](lync-server-2013-deploying-lync-server.md) na documentação de implantação.
 
 </div>
 

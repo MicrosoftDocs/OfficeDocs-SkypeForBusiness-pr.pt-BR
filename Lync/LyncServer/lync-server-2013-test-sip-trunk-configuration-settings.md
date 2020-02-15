@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: testar as configurações de configuração de tronco SIP'
+title: 'Lync Server 2013: testar definições de configuração do tronco SIP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733814
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13f5357ae1a0dd4e8db044c2081154d4c3f4febf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b9fab4530f32e9472d0d5b2484aa982365bdf260
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746201"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41985076"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="test-sip-trunk-configuration-settings-in-lync-server-2013"></a>Testar as configurações de tronco SIP no Lync Server 2013
+# <a name="test-sip-trunk-configuration-settings-in-lync-server-2013"></a>Testar as definições de configuração do tronco SIP no Lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41746201"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
-As configurações de tronco SIP definem a relação e os recursos entre um servidor de mediação e o gateway PSTN (rede telefônica pública comutada), um PBX (PBX IP-Public Branch Exchange) ou um SBC (controlador de borda de sessão) no provedor de serviços. Essas configurações realizam atividades como especificar:
+As definições de configuração de tronco SIP definem o relacionamento e as capacidades entre um Servidor de Mediação e gateway PSTN, um PBX-IP ou um SBC no provedor de serviços. Estas configurações fazem coisas como especificar:
 
-  - Se o desvio de mídia deve ser ativado nos troncos.
+  - Se o bypass de mídia deve ser habilitado nos troncos.
 
-  - As condições em que os pacotes de protocolo de controle de transporte em tempo real (RTCP) são enviados.
+  - As condições nas quais os pacotes RTCP são enviados.
 
-  - Se a criptografia SRTP (Secure Real-Time Protocol) é necessária ou não em cada tronco.
+  - Se a criptografia SRTP é obrigatória em cada tronco.
 
-Ao instalar o Microsoft Lync Server 2013, uma coleção global de configurações de tronco SIP é criada para você. Além disso, os administradores podem criar conjuntos de configurações personalizadas no escopo local ou de serviço (apenas para o serviço de gateway PSTN). Os administradores também podem usar o cmdlet Test-CsTrunkConfiguration para verificar se um tronco pode converter um número conforme discado por um usuário para um número que pode ser tratado pelo gateway.
+Quando você instala o Microsoft Lync Server 2013, uma coleção global de definições de configuração do tronco SIP é criada para você. Além disso, os administradores podem criar conjuntos de configurações personalizadas no escopo local ou de serviço (apenas para o serviço de gateway PSTN). Os administradores também podem usar o cmdlet Test-CsTrunkConfiguration para verificar que um tronco pode converter um número conforme discado por um usuário para um número que pode ser tratado pelo gateway.
 
-As definições de configuração de tronco podem ser testadas apenas usando o Windows PowerShell e o cmdlet  [Test-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsTrunkConfiguration). Esse cmdlet pode ser executado no Shell de gerenciamento do Lync Server 2013 ou em uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.
+As definições de configuração de tronco podem ser testadas apenas usando o Windows PowerShell e o cmdlet [Test-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsTrunkConfiguration). Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
 
 <div>
 
-## <a name="to-test-sip-trunk-configuration-settings"></a>Testar as definições da configuração do Tronco SIP
+## <a name="to-test-sip-trunk-configuration-settings"></a>Para testar as definições de configuração do tronco SIP
 
   - Este comando verifica se as definições de configuração para o local Redmond podem converter corretamente o número discado 4255551212.
     

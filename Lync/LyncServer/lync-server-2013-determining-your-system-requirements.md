@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Determinando seus requisitos de sistema'
+title: 'Lync Server 2013: determinando os requisitos do sistema'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184286
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4798c763732f529de029db217eccd241902459ce
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 52edce26ca2bfd82113f576344bf89912f69ed1b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762449"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007840"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="determining-your-system-requirements-for-lync-server-2013"></a>Determinando seus requisitos de sistema para Lync Server 2013
+# <a name="determining-your-system-requirements-for-lync-server-2013"></a>Determinando os requisitos do sistema para o Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41762449"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-01-02_
+_**Última modificação do tópico:** 2014-01-02_
 
-Todos os servidores que executam o Lync Server devem atender a certos requisitos mínimos do sistema. Os requisitos do sistema para o Lync Server incluem o hardware do servidor, o sistema operacional a ser instalado em cada servidor e requisitos de software relacionados, como as atualizações do Windows e outros softwares que devem ser instalados nos servidores.
+Todos os servidores que executam o Lync Server devem atender determinados requisitos mínimos do sistema. Os requisitos de sistema do Lync Server incluem o hardware do servidor, o sistema operacional a ser instalado em cada servidor e os requisitos de software relacionados, como as atualizações do Windows e outros softwares que devem ser instalados nos servidores.
 
 <div>
 
 
 > [!IMPORTANT]  
-> O Lync Server está disponível apenas em uma edição de 64 bits, que exige hardware de 64 bits e uma edição de 64 bits do Windows Server. A exceção é o Microsoft Lync Server 2013, ferramenta de planejamento, que está disponível em uma edição de 32 bits.
+> O Lync Server está disponível somente em uma edição de 64 bits, que requer o hardware de 64 bits e uma edição de 64 bits do Windows Server. A exceção é a ferramenta de planejamento do Microsoft Lync Server 2013, que está disponível em uma edição de 32 bits.
 
 
 
@@ -53,7 +53,7 @@ Todos os servidores que executam o Lync Server devem atender a certos requisitos
 
 
 > [!NOTE]  
-> Para obter detalhes sobre o suporte do Active Directory, as topologias com suporte, a colocação do servidor e outros problemas de compatibilidade, consulte <A href="lync-server-2013-supportability.md">suporte para o Lync server 2013</A>.
+> Para obter detalhes sobre o suporte do Active Directory, as topologias com suporte, a colocação do servidor e outros problemas de suporte, consulte <A href="lync-server-2013-supportability.md">suporte para o Lync server 2013</A>.
 
 
 
@@ -63,13 +63,13 @@ Todos os servidores que executam o Lync Server devem atender a certos requisitos
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Plataformas de hardware de servidor para Lync Server 2013](lync-server-2013-server-hardware-platforms.md)
+  - [Plataformas de hardware de servidor para o Lync Server 2013](lync-server-2013-server-hardware-platforms.md)
 
   - [Suporte a sistemas operacionais de servidor e de ferramentas no Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md)
 
   - [Suporte a software de banco de dados no Lync Server 2013](lync-server-2013-database-software-support.md)
 
-  - [Requisitos adicionais de software para Lync Server 2013](lync-server-2013-additional-software-requirements.md)
+  - [Requisitos de software adicionais para o Lync Server 2013](lync-server-2013-additional-software-requirements.md)
 
 </div>
 
@@ -78,8 +78,8 @@ Todos os servidores que executam o Lync Server devem atender a certos requisitos
 ## <a name="see-also"></a>Confira também
 
 
-[Suporte a hardware de cliente e de dispositivo no Lync Server 2013](lync-server-2013-client-and-device-hardware-support.md)  
-[Capacidade de suporte para Lync Server 2013](lync-server-2013-supportability.md)  
+[Suporte a hardware de dispositivo e cliente no Lync Server 2013](lync-server-2013-client-and-device-hardware-support.md)  
+[Capacidade de suporte para o Lync Server 2013](lync-server-2013-supportability.md)  
   
 
 </div>

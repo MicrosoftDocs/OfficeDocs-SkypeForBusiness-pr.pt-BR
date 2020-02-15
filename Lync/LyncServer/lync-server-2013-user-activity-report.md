@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: relatório de atividade do usuário'
+title: 'Lync Server 2013: relatório de atividades do usuário'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183862
 ms.date: 02/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 583c647ac3cdab290f1833539abbbd033ea89410
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1ad0297451c98851d156f088497db81345520b88
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744621"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033970"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="user-activity-report-in-lync-server-2013"></a>Relatório de atividade do usuário no Lync Server 2013
+# <a name="user-activity-report-in-lync-server-2013"></a>Relatório de atividades do usuário no Lync Server 2013
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41744621"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2015-02-27_
+_**Última modificação do tópico:** 2015-02-27_
 
-O Relatório de Atividades do Usuário oferece uma lista detalhada das sessões ponto a ponto e de conferência realizadas pelos usuários em um determinado período. Diferente de muitos dos Relatórios de Monitoramento, o Relatório de Atividades do Usuário vincula cada chamada a usuários individuais. Por exemplo, as sessões ponto a ponto especificam URIs do SIP da pessoa que iniciou a chamada (o usuário de origem) e a pessoa que está sendo chamada (o usuário de destino). Se as informações forem ampliadas para uma conferência, será possível ver uma lista de todos os participantes da conferência e a função que desempenham na conferência.
+O relatório de atividades do usuário fornece uma lista detalhada das sessões ponto a ponto e de conferência executadas pelos usuários em um determinado período de tempo. Ao contrário de muitos dos relatórios de monitoramento, o relatório de atividades do usuário vincula cada chamada a usuários individuais. Por exemplo, sessões ponto a ponto especificam os URIs SIP da pessoa que iniciou a chamada (o usuário de) e a pessoa que está sendo chamada (o para o usuário). Se você expandir as informações de uma conferência, verá uma lista de todos os participantes da conferência e a função que eles realizaram para a conferência.
 
-O Relatório de Atividades do Usuário é referenciado algumas vezes como o relatório do "suporte técnico". Isso se deve ao fato de o relatório ser sempre usado pela equipe do suporte técnico para recuperar informações sobre a sessão para um usuário específico. É possível filtrar chamadas feitas para ou por um usuário individual simplesmente digitando o URI do SIP do usuário na caixa URI do usuário.
+O relatório de atividades do usuário às vezes é chamado de relatório "Help Desk". Isso ocorre porque o relatório é geralmente usado pela equipe de assistência técnica para recuperar informações de sessão de um usuário específico. Você pode filtrar por chamadas feitas ou feitas por um usuário individual simplesmente digitando o URI do SIP do usuário na caixa prefixo de URI do usuário.
 
-Se você fizer isso, o relatório de atividade do usuário retornará informações para qualquer usuário cujo URI SIP comece com a cadeia de caracteres especificada. Por exemplo, se você digitar **ken** na caixa URI, o Relatório de Atividades do usuário localizará **Ken**.Myer@litwareinc.com. No entanto, ele localizará também esses usuários:
+Se você fizer isso, o relatório de atividades do usuário retornará informações para qualquer usuário cujo URI de SIP comece com a cadeia de caracteres especificada. Por exemplo, se você digitar **Ken** na caixa URI, o relatório de atividades do usuário localizará **Ken**. Myer@litwareinc.com. No entanto, ele também localizará estes usuários:
 
-  - **ken**azi@litwareinc.com
+  - **ken**Azi@litwareinc.com
 
-  - **ken**burg@litwareinc.com
+  - **ken**Burg@litwareinc.com
 
-  - **Ken**.Sanchez@litwareinc.com
+  - **Ken**. Sanchez@litwareinc.com
 
-  - **Ken**nedy@litwareinc.com
+  - **Ken**Nedy@litwareinc.com
 
-Para garantir que somente informações sobre Ken Myer sejam retornadas, digite sua URI completa (Ken.Myer@litwareinc.com) na caixa de pesquisa ou, pelo menos, digite a URl do Ken o bastante para distingui-lo de outros usuários na organização. Por exemplo:
+Para garantir que as informações somente para Ken Myer sejam retornadas, digite o URI completo (Ken.Myer@litwareinc.com) na caixa de pesquisa ou pelo menos o tipo de URI de Ken para distingui-lo exclusivamente de outros usuários em sua organização. Por exemplo:
 
 Ken.my
 
 <div>
 
-## <a name="to-access-the-user-activity-report"></a>Para acessar o Relatório de Atividades do Usuário
+## <a name="to-access-the-user-activity-report"></a>Para acessar o relatório de atividades do usuário
 
-O Relatório de Atividades do Usuário é acessado pela home page dos Relatórios de Monitoramento. Você também pode acessar o relatório de atividade do usuário clicando na métrica de URI de usuário no [relatório de inventário de telefone IP do Lync Server 2013](lync-server-2013-ip-phone-inventory-report.md). No Relatório de Atividades do Usuário, ao clicar em URI da Conferência (para uma conferência), você será levado para o Relatório Detalhado de Conferências. Da mesma forma, clicar na métrica de detalhes de uma chamada ponto a ponto leva você ao [relatório de detalhes da sessão ponto a ponto no Lync Server 2013](lync-server-2013-peer-to-peer-session-detail-report.md).
+O relatório de atividades do usuário é acessado a partir da Home Page de relatórios de monitoramento. Você também pode acessar o relatório de atividades do usuário clicando na métrica URI do sistema de [telefonia IP no Lync Server 2013](lync-server-2013-ip-phone-inventory-report.md). No relatório de atividades do usuário, clicar no URI da conferência (para uma conferência) leva você para o relatório de detalhes da conferência. Da mesma forma, clicar na métrica de detalhes de uma chamada ponto a ponto leva você para o [relatório de detalhes de sessão ponto a ponto no Lync Server 2013](lync-server-2013-peer-to-peer-session-detail-report.md).
 
 </div>
 
@@ -67,29 +67,29 @@ O Relatório de Atividades do Usuário é acessado pela home page dos Relatório
 
 ## <a name="making-the-best-use-of-the-user-activity-report"></a>Fazendo o melhor uso do relatório de atividades do usuário
 
-Embora haja muitas informações relevantes no Relatório de Atividades do Usuário, essas informações podem, por vezes, ser difíceis de localizar. Por exemplo, todas as atividades do usuário que ocorrem em sua organização durante um período especificado são incluídas no relatório de atividades do usuário; Isso significa que, em seguida, incluído no relatório há informações sobre quais usuários realmente usaram o Microsoft Lync Server 2013 de alguma maneira.
+Embora haja muitas informações boas no relatório de atividades do usuário, essas informações podem, às vezes, ser difíceis de localizar. Por exemplo, toda a atividade do usuário que ocorre na sua organização durante um período especificado é incluída no relatório de atividades do usuário; Isso significa que, neste caso, as informações sobre quais usuários realmente usaram o Microsoft Lync Server 2013 de alguma forma.
 
 <div>
 
 
 > [!WARNING]  
-> Tecnicamente, é possível que algumas atividades do usuário possam estar desgravadas: enquanto o Lync Server se empenha para manter as informações sobre todas as chamadas telefônicas, é possível que uma chamada tenha sido feita sem as informações sobre essa chamada sendo gravada no banco de dados. O Lync Server foi projetado para fornecer uma visão extremamente precisa, mas não necessariamente perfeita sobre como o Lync Server 2013 está sendo usado. (O fato não há nenhuma garantia de que 100% de todas as chamadas sejam registradas explica por que o monitoramento do Lync Server não deve ser usado como um sistema de cobrança.)<BR>Segundo, um relatório de relatório de monitoramento só pode exibir, no máximo, 1.000 registros. Dependendo da quantidade de usuários que você tem e também de período com o qual está trabalhado, isso significa que sua consulta pode não retornar todos os dados realmente armazenados no banco de dados.
+> Tecnicamente, é possível que alguma atividade de usuário seja não gravada: enquanto o Lync Server se esforça para manter as informações sobre todas as chamadas telefônicas, é possível que uma chamada tenha sido feita sem que as informações sobre a chamada sejam gravadas no banco de dados. O Lync Server foi projetado para fornecer uma visão extremamente precisa, mas não necessariamente perfeita, como o Lync Server 2013 está sendo usado. (O fato de não haver garantia de que 100% de todas as chamadas são registradas explica por que o monitoramento do Lync Server não deve ser usado como um sistema de cobrança.)<BR>Segundo, um relatório de relatório de monitoramento só pode exibir, no máximo, 1.000 registros. Dependendo da quantidade de atividade do usuário que você tem e, dependendo do período de tempo com o qual você está trabalhando, isso significa que a consulta pode não retornar todos os dados realmente armazenados no banco de dados.
 
 
 
 </div>
 
-  - Quais usuários usaram realmente o sistema durante este período?
+  - Quais usuários usaram realmente o sistema durante esse período de tempo?
 
-  - Quais dentre meus usuários foram os mais ativos durante este período?
+  - Quais dos meus usuários foram os mais ativos durante esse período de tempo?
 
   - Os usuários que fazem a maioria das chamadas são também aqueles que participam da maioria das sessões de mensagens instantâneas?
 
-Se precisar responder a essas perguntas, será possível exportar os dados recuperados pelos Relatórios de Monitoramento para uma planilha do Excel. Utilize essa planilha e/ou um arquivo de valores separados por vírgulas para analisar os dados como faz o Relatório de Atividades do Usuário. Por exemplo, suponha que os dados do relatório tenham sido exportados para o Excel e depois para um arquivo de valores separados por vírgulas. Nesse ponto, você pode importar os dados do. CSV para o Windows PowerShell usando um comando semelhante a este:
+Se você precisar responder a perguntas como esta, é possível exportar os dados recuperados pelos relatórios de monitoramento para uma planilha do Excel. Em seguida, você usa essa planilha e/ou um arquivo de valores separados por vírgulas para analisar os dados de forma que o relatório de atividades do usuário. Por exemplo, suponha que você tenha exportado os dados do relatório para o Excel e, em seguida, para um arquivo de valores separados por vírgulas. Nesse ponto, você pode importar os dados do. CSV para o Windows PowerShell usando um comando semelhante a este:
 
     $x = Import-Csv -Path "C:\Data\User_Activity_Report.csv"
 
-Depois que os dados forem importados, você poderá usar comandos simples do Windows PowerShell para ajudar a responder suas perguntas. Por exemplo, este comando retorna uma lista de usuários exclusivos que atuaram como "usuário de origem" em pelo menos uma sessão:
+Depois que os dados forem importados, você poderá usar comandos simples do Windows PowerShell para ajudar a responder suas perguntas. Por exemplo, este comando retorna uma lista de usuários exclusivos que serviam como "de usuário" em pelo menos uma sessão:
 
     $x | Group-Object "From user" | Select Name | Sort-Object Name
 
@@ -103,11 +103,11 @@ Em outras palavras:
     Ken.Myer@litwareinc.com
     Pilar.Ackerman@litwareinc.com
 
-Este comando lista os usuários exclusivos (com base no número total de sessões das quais participaram:
+Este comando lista os usuários exclusivos (com base no número total de sessões nas quais participaram:
 
     $x | Group-Object "From user" | Select Count, Name | Sort-Object Count -Descending
 
-Este retorna dados semelhantes a estes:
+Ele retorna dados semelhantes a isto:
 
     Count    Name
     -----    ----
@@ -117,11 +117,11 @@ Este retorna dados semelhantes a estes:
        17    Gilead.Amosnino@litwareinc.com
        10    Henrik.Jensen@litwareinc.com
 
-Este comando limita as sessões reportadas àquelas que incluíram áudio como modalidade:
+Este comando limita as sessões relatadas àquelas que incluíram áudio como modalidade:
 
     $x | Where-Object {$_.Modalities -match "audio"} | Group-Object "From user" | Select Count, Name | Sort-Object Count -Descending
 
-Se você pousar o mouse sobre qualquer ID do diagnóstico mostrado no relatório, uma dica de ferramenta será exibida descrevendo o ID.
+Se você mantiver o mouse sobre qualquer ID de diagnóstico mostrado no relatório, uma dica de ferramenta será exibida descrevendo essa ID.
 
 </div>
 
@@ -129,11 +129,11 @@ Se você pousar o mouse sobre qualquer ID do diagnóstico mostrado no relatório
 
 ## <a name="filters"></a>Filtros
 
-O filtro é uma maneira de retornar um conjunto de dados mais refinado e direcionado, ou ver os dados retornados de maneiras diferentes. Por exemplo, o Relatório de Atividades do Usuário permite filtrar os dados retornados com base em itens como tipo de atividade (isto é, sessão ponto a ponto ou de conferência) ou pelo endereço SIP do usuário (permitindo exibir as atividades para um usuário). Você também pode escolher como os dados serão agrupados; neste caso, os usos são agrupados por hora, dia, semana ou mês.
+Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionadas ou para exibir os dados retornados de diferentes maneiras. Por exemplo, o relatório de atividades do usuário permite que você filtre os dados retornados com base em coisas como o tipo de atividade (ou seja, sessões ponto a ponto ou sessões de conferência) ou pelo endereço SIP do usuário (permitindo que você exiba as atividades de um usuário). Também é possível escolher como os dados devem ser agrupados. Nesse caso, os usos são agrupados por hora, dia, semana ou mês.
 
-A tabela a seguir lista os filtros que você pode usar com o Relatório de Atividades do Usuário.
+A tabela a seguir lista os filtros que podem ser usados com o relatório de atividades do usuário.
 
-### <a name="user-activity-report-filters"></a>Filtros do relatório de atividades do usuário
+### <a name="user-activity-report-filters"></a>Filtros de relatórios de atividades do usuário
 
 <table>
 <colgroup>
@@ -149,52 +149,52 @@ A tabela a seguir lista os filtros que você pode usar com o Relatório de Ativi
 <tbody>
 <tr class="odd">
 <td><p><strong>De</strong></p></td>
-<td><p>Data/hora de início para o intervalo de tempo. Para ver os dados por horas, insira a data e hora de início conforme segue:</p>
-<p>7/17/12012 1:00 PM</p>
-<p>Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:</p>
+<td><p>Data/hora de início para o intervalo de tempo. Para exibir os dados por horas, digite a data e a hora de início da seguinte maneira:</p>
+<p>17/07/2012 13:00</p>
+<p>Se você não digitar um horário de início, o relatório começará automaticamente às 12:00 AM no dia especificado. Para exibir os dados por dia, digite apenas a data:</p>
 <p>7/17/12012</p>
-<p>Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
+<p>Para exibir por semana ou por mês, insira uma data cai em qualquer lugar dentro da semana ou mês que você deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/13/2012</p>
-<p>As semanas sempre vão de domingo a sábado.</p></td>
+<p>As semanas sempre correm do domingo até sábado.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Até</strong></p></td>
-<td><p>Data/hora final de intervalo de tempo. Para ver os dados por horas, insira a data e hora final conforme segue:</p>
-<p>7/17/12012 1:00 PM</p>
-<p>Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:</p>
+<td><p><strong>To</strong></p></td>
+<td><p>Data/hora de término para o intervalo de tempo. Para exibir os dados por horas, digite a data e hora de término da seguinte maneira:</p>
+<p>17/07/12012 13:00</p>
+<p>Se você não digitar um horário de término, o relatório terminará automaticamente às 12:00 AM no dia especificado. Para exibir os dados por dia, digite apenas a data:</p>
 <p>7/17/12012</p>
-<p>Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
+<p>Para exibir por semana ou por mês, insira uma data cai em qualquer lugar dentro da semana ou mês que você deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/13/2012</p>
-<p>As semanas sempre vão de domingo a sábado.</p></td>
+<p>As semanas sempre correm do domingo até sábado.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Tipo de atividade</strong></p></td>
-<td><p>Tipo de atividade. Selecione uma das seguintes opções:</p>
+<td><p>Tipo de atividade. Selecione um dos seguintes:</p>
 <ul>
-<li><p>[Todos]</p></li>
+<li><p>Todos os</p></li>
 <li><p>Ponto a ponto</p></li>
 <li><p>Conferência</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p><strong>Modalidade</strong></p></td>
-<td><p>A Modalidade disponível para você varia de acordo com o Tipo de Atividade selecionado. Se o tipo de atividade for ponto a ponto, você poderá selecionar mensagens instantâneas; Transferência de arquivos; Compartilhamento de aplicativos; Voz ou vídeo como a modalidade.</p>
-<p>Se o Tipo de Atividade for Conferência, você poderá selecionar conferência Telefônica de Mensagem Instantânea; conferência da Web; Compartilhamento de Aplicativos; conferência de Voz/Vídeo; ou conferência Telefônica.</p></td>
+<td><p>A modalidade disponível para você varia de acordo com o tipo de atividade SELECT. Se o tipo de atividade for ponto a ponto, você poderá selecionar IM; Transferência de arquivos; Compartilhamento de aplicativos; Voice ou vídeo como a modalidade.</p>
+<p>Se o tipo de atividade for conferência, você poderá selecionar conferência telefônica de mensagens instantâneas; Conferência da Web; Compartilhamento de aplicativos; Conferência de voz/vídeo; ou conferência telefônica.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Categoria da sessão</strong></p></td>
 <td><p>Indica se a atividade em questão teve sucesso ou falhou. Selecione uma das seguintes opções:</p>
 <ul>
-<li><p>[Todos]</p></li>
-<li><p>Sucesso</p></li>
+<li><p>Todos os</p></li>
+<li><p>Êxito</p></li>
 <li><p>Falha esperada</p></li>
 <li><p>Falha inesperada</p></li>
 </ul>
-<p>Uma &quot;falha&quot; esperada é uma falha que se espera que aconteça; por exemplo, se um usuário tiver definido seu status como não incomodar, você esperaria qualquer chamada para esse usuário falhar. Uma &quot;falha&quot; inesperada é uma falha que ocorre em que parece ser um sistema de outra forma saudável. Por exemplo, uma chamada não deve ser encerrada se o chamador for colocado em espera. Se isso ocorrer, será sinalizado como uma falha inesperada.</p></td>
+<p>Uma &quot;falha&quot; esperada é uma falha que deve acontecer; por exemplo, se um usuário tiver definido seu status como não incomodar, você esperaria que qualquer chamada para esse usuário falhe. Uma &quot;falha&quot; inesperada é uma falha que ocorre no que parece ser um sistema saudável de outra forma. Por exemplo, uma chamada não deveria ser terminada se o chamador for colocado em espera. Se isso ocorrer, será sinalizado como uma falha inesperada.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Prefixo de URI do usuário</strong></p></td>
-<td><p>Endereço SIP para o usuário. Para exibir registros somente para o usuário Ken Myer, digite o endereço SIP de Ken Myer. Por exemplo:</p>
+<td><p><strong>Prefixo URI do usuário</strong></p></td>
+<td><p>Endereço SIP para o usuário. Para exibir registros apenas para o usuário Ken Myer, você precisa inserir o endereço SIP de Ken Myer. Por exemplo:</p>
 <p>sip:kenmyer@litwareinc.com</p></td>
 </tr>
 </tbody>
@@ -207,7 +207,7 @@ A tabela a seguir lista os filtros que você pode usar com o Relatório de Ativi
 
 ## <a name="metrics-for-peer-to-peer-sessions"></a>Métricas para sessões ponto a ponto
 
-A tabela a seguir lista as informações fornecidas no Relatório de Atividades do Usuário para a sessões ponto a ponto (isto é, as que envolvem apenas dois participantes).
+A tabela a seguir lista as informações fornecidas no relatório de atividades do usuário para sessões ponto a ponto (ou seja, sessões que envolvem apenas dois participantes).
 
 ### <a name="metrics-for-peer-to-peer-sessions"></a>Métricas para sessões ponto a ponto
 
@@ -220,30 +220,30 @@ A tabela a seguir lista as informações fornecidas no Relatório de Atividades 
 <thead>
 <tr class="header">
 <th>Nome</th>
-<th>Você pode classificar este item?</th>
+<th>É possível classificar este item?</th>
 <th>Descrição</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Detalhe</strong></p></td>
+<td><p><strong>Ver os detalhes</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Quando você clica neste item, é mostrado o Relatório de Detalhes de Sessão Ponto a Ponto para a sessão selecionada.</p></td>
+<td><p>Quando você clica nesse item, o relatório mostra o relatório de detalhes de sessão ponto a ponto da sessão selecionada.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Usuário "De"</strong></p></td>
+<td><p><strong>Do usuário </strong></p></td>
 <td><p>Sim</p></td>
 <td><p>Endereço SIP do usuário que iniciou a sessão ponto a ponto.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Usuário "Para"</strong></p></td>
+<td><p><strong>Para usuário</strong></p></td>
 <td><p>Sim</p></td>
-<td><p>Endereço SIP do usuário que entrou na sessão ponto a ponto.</p></td>
+<td><p>Endereço SIP do usuário que ingressou na sessão ponto a ponto.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Modalidades</strong></p></td>
 <td><p>Sim</p></td>
-<td><p>Tipo de comunicação usado na sessão. Por exemplo, IM, áudio ou transferência de arquivo.</p></td>
+<td><p>Tipo de comunicação usada na sessão. Por exemplo, IM, áudio ou transferência de arquivo.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Hora do convite</strong></p></td>
@@ -253,7 +253,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Atividades 
 <tr class="even">
 <td><p><strong>Hora da resposta</strong></p></td>
 <td><p>Sim</p></td>
-<td><p>Data e hora em que &quot;o&quot; usuário para aceitou o convite da sessão.</p></td>
+<td><p>Data e hora em que &quot;o&quot; usuário deve aceitar o convite da sessão.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Hora de término</strong></p></td>
@@ -263,7 +263,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Atividades 
 <tr class="even">
 <td><p><strong>ID do Diagnóstico</strong></p></td>
 <td><p>Sim</p></td>
-<td><p>Identificador exclusivo (na forma de um cabeçalho ms-diagnostics) anexado a uma mensagem SIP que fornece informações úteis para resolução de erros. Os cabeçalhos de diagnóstico são opcionais (é possível ter sessões SIP que não os incluem), e as IDs de diagnóstico são relatadas somente em sessões com algum tipo de problema.</p></td>
+<td><p>Identificador exclusivo (na forma de um cabeçalho de diagnóstico-ms) anexado a uma mensagem SIP que fornece informações úteis sobre os erros de solução de problemas. Os cabeçalhos diagnósticos são opcionais (é possível ter sessões SIP que não os incluem), e os IDs diagnósticos são relatados somente para as sessões com algum tipo de problema.</p></td>
 </tr>
 </tbody>
 </table>
@@ -275,7 +275,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Atividades 
 
 ## <a name="metrics-for-conferencing-sessions"></a>Métricas para sessões de conferência
 
-A tabela a seguir lista as informações fornecidas no Relatório de Atividades do Usuário para a sessões de conferência (isto é, as que envolvem três ou mais participantes).
+A tabela a seguir lista as informações fornecidas no relatório de atividades do usuário para sessões de conferência (ou seja, sessões envolvendo três ou mais participantes).
 
 ### <a name="metrics-for-conferencing-sessions"></a>Métricas para sessões de conferência
 
@@ -288,7 +288,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Atividades 
 <thead>
 <tr class="header">
 <th>Nome</th>
-<th>Você pode classificar este item?</th>
+<th>É possível classificar este item?</th>
 <th>Descrição</th>
 </tr>
 </thead>
@@ -296,7 +296,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Atividades 
 <tr class="odd">
 <td><p><strong>URI de conferência</strong></p></td>
 <td><p>Sim</p></td>
-<td><p>Identificador exclusivo da conferência. Quando você clica neste item, é mostrado o Relatório de Detalhes da Conferência para a sessão selecionada. Quando você expande esse item, o relatório mostra as informações sobre os participantes. Para obter detalhes, consulte &quot;a seção métricas para&quot; participantes da conferência mais adiante neste tópico.</p></td>
+<td><p>Identificador de conferência exclusivo. Quando você clica nesse item, o relatório mostra o relatório de detalhes da conferência da sessão selecionada. Quando você expande esse item, o relatório mostra informações sobre os participantes da conferência. Para obter detalhes, consulte &quot;a seção métricas para&quot; participantes da conferência mais adiante neste tópico.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Organizador</strong></p></td>
@@ -306,17 +306,17 @@ A tabela a seguir lista as informações fornecidas no Relatório de Atividades 
 <tr class="odd">
 <td><p><strong>Pool</strong></p></td>
 <td><p>Sim</p></td>
-<td><p>Nome do Servidor de Borda (se houver) usado na conferência.</p></td>
+<td><p>Nome do servidor de borda (se houver) usado na conferência.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Hora inicial</strong></p></td>
+<td><p><strong>Hora de início</strong></p></td>
 <td><p>Sim</p></td>
 <td><p>Data e hora em que a conferência começou.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Hora final</strong></p></td>
+<td><p><strong>Hora de término</strong></p></td>
 <td><p>Sim</p></td>
-<td><p>Data e hora em que a conferência terminou.</p></td>
+<td><p>Data e hora de encerramento da conferência.</p></td>
 </tr>
 </tbody>
 </table>
@@ -328,7 +328,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Atividades 
 
 ## <a name="metrics-for-conference-participants"></a>Métricas para participantes da conferência
 
-A tabela a seguir lista as informações fornecidas no Relatório de Atividades do Usuário para cada participante de uma conferência.
+A tabela a seguir lista as informações fornecidas no relatório de atividades do usuário para cada participante de uma conferência.
 
 ### <a name="metrics-for-conference-participants"></a>Métricas para participantes da conferência
 
@@ -341,7 +341,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Atividades 
 <thead>
 <tr class="header">
 <th>Nome</th>
-<th>Você pode classificar este item?</th>
+<th>É possível classificar este item?</th>
 <th>Descrição</th>
 </tr>
 </thead>
@@ -349,7 +349,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Atividades 
 <tr class="odd">
 <td><p><strong>Função</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Função do usuário na conferência (por exemplo, Apresentador).</p></td>
+<td><p>Função de conferência (por exemplo, apresentador) para o usuário.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Participante</strong></p></td>
@@ -359,22 +359,22 @@ A tabela a seguir lista as informações fornecidas no Relatório de Atividades 
 <tr class="odd">
 <td><p><strong>Conectividade</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Tipo de conexão da rede. Por exemplo &quot;, de&quot; interno para conexão interna &quot;ou da&quot; PSTN para usuários de discagem.</p></td>
+<td><p>Tipo de conexão de rede. Por exemplo &quot;, de&quot; interno para conexão interna &quot;ou da&quot; PSTN para usuários de discagem.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Hora da ingresso</strong></p></td>
+<td><p><strong>Hora de ingresso</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Data e hora em que o usuário entrou na conferência.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Hora da saída</strong></p></td>
+<td><p><strong>Hora de saída</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Data e hora em que o usuário saiu da conferência.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ID do Diagnóstico</strong></p></td>
+<td><p><strong>ID de diagnóstico</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Identificador exclusivo (na forma de um cabeçalho de diagnóstico-ms) anexado a uma mensagem SIP que fornece informações úteis sobre os erros de solução de problemas. Os cabeçalhos diagnósticos são opcionais (é possível ter sessões SIP que não os incluem), e os IDs diagnósticos são relatados somente para as sessões com algum tipo de problema.</p></td>
+<td><p>Identificador exclusivo (na forma de um cabeçalho ms-diagnostics) anexado a uma mensagem SIP que frequentemente fornece informações úteis para solução de erros. Os cabeçalhos de diagnóstico são opcionais (é possível ter sessões SIP que não incluem esses cabeçalhos) e os IDs de diagnóstico são reportadas somente para sessões que enfrentaram problemas de algum tipo.</p></td>
 </tr>
 </tbody>
 </table>

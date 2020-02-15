@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Gerenciando acesso do usuário de Chat Persistente'
+title: 'Lync Server 2013: gerenciando acesso do usuário de chat persistente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184211
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9b8c775321cd8eca1be350a3894f0430ced0a74
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 71dde683fed5f1127efd0a966d0de61dcaef65cb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756115"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41992966"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-persistent-chat-user-access-in-lync-server-2013"></a>Gerenciando acesso do usuário de Chat Persistente no Lync Server 2013
+# <a name="managing-persistent-chat-user-access-in-lync-server-2013"></a>Gerenciando o acesso de usuário de chat persistente no Lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41756115"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-06_
+_**Última modificação do tópico:** 2012-10-06_
 
-Os tópicos a seguir descrevem como usar o painel de controle do Lync Server 2013 e a página de **chat persistente** para gerenciar o acesso do usuário em chat persistente. Para gerenciar o servidor de chat persistente, você deve ter direitos e permissões de administrador de chat persistente no sistema. Ao instalar o servidor de chat persistente, você especifica um ou mais usuários que têm as permissões e direitos de administrador de chat persistente necessários. Para conceder direitos e permissões de administrador a contas de usuário adicionais, use **gerenciar usuários e grupos de usuários**. Para obter detalhes, consulte [habilitando um usuário para gerenciar categorias, salas de chat e direitos e permissões de usuário no Lync Server 2013](lync-server-2013-enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions.md).
+Os tópicos a seguir descrevem como usar o painel de controle do Lync Server 2013 e a página de **chat persistente** para gerenciar o acesso do usuário em chat persistente. Para gerenciar o servidor de chat persistente, você deve ter permissões e direitos de administrador de chat persistente no sistema. Ao instalar o servidor de chat persistente, você especifica um ou mais usuários que têm as permissões e os direitos de administrador de chat persistente necessários. Para conceder direitos e permissões de administrador a contas de usuário adicionais, use **Gerenciar Usuários e Grupos de Usuários**. Para obter detalhes, consulte [habilitar um usuário para gerenciar categorias, salas de chat e direitos e permissões de usuário no Lync Server 2013](lync-server-2013-enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions.md).
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Adicionando domínios de usuários e grupos de usuários à categoria da sala no Lync Server 2013](lync-server-2013-adding-domains-of-users-and-user-groups-to-the-room-category.md)
+  - [Adicionando domínios de usuários e grupos de usuários à categoria de sala no Lync Server 2013](lync-server-2013-adding-domains-of-users-and-user-groups-to-the-room-category.md)
 
   - [Desabilitando o carregamento e o download de arquivos em salas de chat no Lync Server 2013](lync-server-2013-disabling-uploading-and-downloading-files-in-chat-rooms.md)
 
-  - [Habilitando um usuário para gerenciar categorias, salas de chat e direitos e permissções do usuário no Lync Server 2013](lync-server-2013-enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions.md)
+  - [Habilitando um usuário para gerenciar categorias, salas de chat e direitos e permissões de usuário no Lync Server 2013](lync-server-2013-enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions.md)
 
 </div>
 

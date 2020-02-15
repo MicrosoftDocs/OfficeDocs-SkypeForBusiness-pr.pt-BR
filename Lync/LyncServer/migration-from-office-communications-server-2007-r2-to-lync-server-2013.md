@@ -1,5 +1,5 @@
 ---
-title: Migração do Office Communications Server 2007 R2 para Lync Server 2013
+title: Migração do Office Communications Server 2007 R2 para o Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185802
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e32d43e8052de454647cd9f69b4572d178a0cecb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 624891658fb925fbc2522e98f8b216e535d2bf0c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730961"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035887"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migration-from-office-communications-server-2007-r2-to-lync-server-2013"></a>Migração do Office Communications Server 2007 R2 para Lync Server 2013
+# <a name="migration-from-office-communications-server-2007-r2-to-lync-server-2013"></a>Migração do Office Communications Server 2007 R2 para o Lync Server 2013
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41730961"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-19_
+_**Última modificação do tópico:** 2012-10-19_
 
-Os tópicos desta seção guiam você pelo processo de migração do Office Communications Server 2007 R2 para o Lync Server 2013
+Os tópicos desta seção orientam você durante o processo de migração do Office Communications Server 2007 R2 para o Lync Server 2013
 
 <div>
 
 
 > [!IMPORTANT]  
-> Este documento descreve as etapas geralmente necessárias para realizar cada fase da migração. Ele não trata cada possível topologia de implantação herdada ou todos os possíveis cenários de migração. Portanto, talvez você não precise executar todas as etapas descritas ou talvez seja necessário executar etapas adicionais, dependendo da sua implantação. Este documento também fornece exemplos de etapas de verificação. Estas etapas de verificação são fornecidas para ajudá-lo a entender o que você precisa procurar para garantir que cada fase seja concluída com êxito enquanto avança pela migração. Personalize essas etapas de verificação para seu processo de migração específico.
+> Este documento descreve as etapas geralmente necessárias para realizar cada fase de migração. Não resolve todos os cenários de migração possíveis ou de topologia de implantação herdada. Portanto, você pode não precisar realizar cada etapa descrita ou pode precisar realizar etapas adicionais, dependendo da sua implantação. Este documento também oferece exemplos de etapas de verificação. Estas etapas de verificação são oferecidas para ajudar na compreensão do que é necessário procurar para garantir que cada fase seja concluída com êxito conforme você progride na sua implantação. Personalize estas etapas de verificação para seu processo de migração específico.
 
 
 
 </div>
 
-Este guia fornece informações específicas para atualizar sua implantação existente. Ele não explica como alterar a topologia existente. Este guia não aborda a implementação de novos recursos. Quando um procedimento detalhado for documentado em outro lugar, este guia direcionará você para a seção do documento ou documento apropriado.
+Este guia oferece informações específicas para atualizar sua implantação existente. Explica como alterar sua topologia existente. Este guia não aborda a implementação de novos recursos. Quando um procedimento detalhado é documentado em outro local, este guia orienta você para o documento ou seção adequado.
 
-Este documento define termos conforme especificado na lista a seguir.
+Este documento define os termos conforme especificados na lista a seguir.
 
   - *migração*  
-    Mover a implantação de produção de uma versão anterior do Office Communications Server 2007 R2 para o Lync Server 2013.
+    Mover sua implantação de produção de uma versão anterior do Office Communications Server 2007 R2 para o Lync Server 2013.
 
 <!-- end list -->
 
   - *atualização*  
-    Instalar uma versão mais recente do software em um computador cliente ou servidor.
+    Instalação de uma versão mais recente de software em um servidor ou computador cliente.
 
 <!-- end list -->
 
@@ -69,7 +69,7 @@ Este documento define termos conforme especificado na lista a seguir.
 <!-- end list -->
 
   - *interoperabilidade*  
-    A capacidade de sua implantação operar com sucesso durante o período de coexistência.
+    A capacidade da sua implantação operar com êxito durante o período de coexistência.
 
 <div>
 
@@ -81,11 +81,11 @@ Este documento define termos conforme especificado na lista a seguir.
 
   - [Fase 1: planejar a migração do Office Communications Server 2007 R2](phase-1-plan-your-migration-from-office-communications-server-2007-r2.md)
 
-  - [Fase 2: Preparar para migração](phase-2-prepare-for-migration_1.md)
+  - [Fase 2: preparar-se para a migração](phase-2-prepare-for-migration_1.md)
 
   - [Fase 3: implantar o pool piloto do Lync Server 2013](phase-3-deploy-lync-server-2013-pilot-pool_1.md)
 
-  - [Fase 4: topologias de mesclagem](phase-4-merge-topologies.md)
+  - [Fase 4: mesclar topologias](phase-4-merge-topologies.md)
 
   - [Fase 5: configurar o pool piloto](phase-5-configure-the-pilot-pool.md)
 
@@ -93,11 +93,11 @@ Este documento define termos conforme especificado na lista a seguir.
 
   - [Fase 7: Adicionar o servidor de borda do Lync Server 2013 ao pool piloto](phase-7-add-lync-server-2013-edge-server-to-pilot-pool.md)
 
-  - [Fase 8: mover da implantação piloto para produção](phase-8-move-from-pilot-deployment-into-production.md)
+  - [Fase 8: mover da implantação piloto para a produção](phase-8-move-from-pilot-deployment-into-production.md)
 
-  - [Fase 9: concluir tarefas posteriores à migração](phase-9-complete-post-migration-tasks.md)
+  - [Fase 9: concluir tarefas de migração](phase-9-complete-post-migration-tasks.md)
 
-  - [Fase 10: descomissionar site herdado](phase-10-decommission-legacy-site.md)
+  - [Fase 10: encerrar o site herdado](phase-10-decommission-legacy-site.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: configurar regiões de rede para o CAC'
+title: 'Lync Server 2013: configurar regiões de rede para CAC'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185906
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d80a5ec8d02376ae084f1973f47690259cac364d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: acafaca86af1943d2614349ff42f04fa87faddaa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758369"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036943"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-network-regions-for-cac-in-lync-server-2013"></a>Configurar regiões de rede para o CAC no Lync Server 2013
+# <a name="configure-network-regions-for-cac-in-lync-server-2013"></a>Configurar regiões de rede para CAC no Lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41758369"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-21_
+_**Última modificação do tópico:** 2012-09-21_
 
 <div>
 
 
 > [!IMPORTANT]  
-> Se você já tiver criado regiões de rede para o E9-1-1 ou bypass de mídia, poderá modificar as regiões de rede existentes adicionando configurações específicas para o controle de admissão de chamadas (CAC) usando o cmdlet <STRONG>set-CsNetworkRegion</STRONG> . Para obter um exemplo de como modificar uma região de rede, consulte <A href="lync-server-2013-create-or-modify-a-network-region.md">criar ou modificar uma região de rede no Lync Server 2013</A>.
+> Se você já tiver criado regiões de rede para E9-1-1 ou desvio de mídia, você pode modificar as regiões de rede existentes adicionando configurações específicas ao controle de admissão de chamadas usando o cmdlet <STRONG>Set-CsNetworkRegion</STRONG>. Para obter um exemplo de como modificar uma região de rede, confira <A href="lync-server-2013-create-or-modify-a-network-region.md">criar ou modificar uma região de rede no Lync Server 2013</A>.
 
 
 
 </div>
 
-*Regiões de rede* são os hubs de rede ou backbones usados na configuração do CAC, do E9-1 e do bypass de mídia. Use o procedimento a seguir para criar regiões de rede alinhadas às regiões de rede na topologia de rede de exemplo para o CAC. Para ver o exemplo de topologia de rede, consulte [exemplo: reunir seus requisitos de controle de admissão de chamadas no Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) na documentação de planejamento.
+*Regiões de rede* são hubs de rede ou backbones usados na configuração do CAC (controle de admissão de chamadas), E9-1-1 e desvio de mídia. Use os procedimentos a seguir para criar regiões de rede que alinham as regiões de rede no exemplo de topologia de rede para CAC. Para exibir a topologia de rede de exemplo, confira o [exemplo: reunindo seus requisitos para controle de admissão de chamadas no Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) na documentação de planejamento.
 
-O exemplo de topologia de rede para o CAC tem três regiões: América do Norte, EMEA e Ásia-Pacífico. Cada região tem um site central especificado. Para a região da América do Norte, o site central designado é chamado de CHICAGO. O procedimento a seguir mostra um exemplo de como você pode usar o cmdlet **New-CsNetworkRegion** para criar a região da América do Norte.
+O exemplo de topologia de rede para CAC tem três regiões: América do Norte, EMEA e APAC. Cada região tem um site central especificado. Para a região da América do Norte, o site central designado é chamado CHICAGO. O procedimento a seguir mostra um exemplo de como é possível usar o cmdlet  **New-CsNetworkRegion** para criar a região América do Norte.
 
 <div>
 
@@ -63,15 +63,15 @@ O exemplo de topologia de rede para o CAC tem três regiões: América do Norte,
 
 <div>
 
-## <a name="to-create-a-network-region-for-call-admission-control"></a>Para criar uma região de rede para o controle de admissão de chamadas
+## <a name="to-create-a-network-region-for-call-admission-control"></a>Para criar uma região de rede para controle de admissão de chamada
 
-1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
-2.  Para cada região que você precisa criar, execute o cmdlet **New-CsNetworkRegion** . Por exemplo, para criar a região da América do Norte, execute:
+2.  Para cada região que você precisa criar, execute o cmdlet **New-CsNetworkRegion**. Por exemplo, para criar a região América do Norte, execute:
     
         New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
 
-3.  Repita a etapa 2 para criar as regiões de rede, EMEA e Ásia-Pacífico.
+3.  Repita a etapa 2 para criar as regiões de rede EMEA e APAC.
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cce80d3c61e94752423c70de9827d41243da7119
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 96b1e8af206e6beaec1bf96bc2d91b88f672bd4f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757005"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007860"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41757005"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-04-23_
+_**Última modificação do tópico:** 2014-04-23_
 
-O Resumo do Tempo de Ingresso em Conferência permite que você determine quanto tempo demora para que seus usuários ingressarem em uma conferência. O relatório mostra o tempo médio de ingresso (em milissegundos) e também oferece um detalhamento que permite que você saiba quantos usuários foram capazes de se juntar a uma conferência em 2 segundos ou menos, quantos usuários necessitaram de 2 a 5 segundos para ingressar em uma conferência, etc.
+O Sumário de Tempo de Ingresso em Conferência permite que você determine quanto tempo demora para que seus usuários ingressem em uma conferência. Um relatório mostra o tempo médio de ingresso (em milissegundos), e também oferece um detalhamento que permite que você saiba quantos usuários foram capazes de se juntar a uma conferência em 2 segundos ou menos, quantos usuários necessitaram de 2 a 5 segundos para ingressar em uma conferência, etc.
 
 <div>
 
-## <a name="accessing-the-conference-join-time-report"></a>Acessando o Relatório do Tempo de Ingresso em Conferência
+## <a name="accessing-the-conference-join-time-report"></a>Acessando o Relatório de Tempo de Ingresso em Conferência
 
-O Relatório do Tempo de Ingresso em Conferência é acessado pela página inicial dos Relatórios de Monitoramento.
+O Relatório de Tempo de Ingresso em Conferência é acessado através da página inicial dos Relatórios de Monitoramento.
 
 </div>
 
@@ -51,9 +51,9 @@ O Relatório do Tempo de Ingresso em Conferência é acessado pela página inici
 
 ## <a name="filters"></a>Filtros
 
-Os filtros oferecem uma forma de retornar um conjunto de dados mais direcionado ou exibir os dados devolvidos em formas diferentes. A tabela a seguir lista os filtros que você pode usar com os Relatórios do Tempo de Ingresso em Conferência.
+Os filtros oferecem uma forma de retornar um conjunto de dados mais direcionado ou exibir os dados devolvidos em formas diferentes. A tabela a seguir lista os filtros que você pode usar com o Relatórios de Tempo de Ingresso em Conferência.
 
-### <a name="conference-join-time-report-filters"></a>Filtros de Relatório do Tempo de Ingresso em Conferência
+### <a name="conference-join-time-report-filters"></a>Filtros de Relatório de Tempo de Ingresso em Conferência
 
 <table>
 <colgroup>
@@ -69,23 +69,23 @@ Os filtros oferecem uma forma de retornar um conjunto de dados mais direcionado 
 <tbody>
 <tr class="odd">
 <td><p><strong>De</strong></p></td>
-<td><p>Data/hora de início para o intervalo de tempo. Para ver os dados por horas, insira a data e hora de início conforme segue:</p>
-<p>7/7/2012 1:00 PM</p>
-<p>Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:</p>
+<td><p>Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:</p>
+<p>7/7/2012 13:00 horas</p>
+<p>Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</p>
 <p>7/7/2012</p>
-<p>Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
+<p>Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/3/2012</p>
-<p>As semanas sempre vão de domingo a sábado.</p></td>
+<p>As semanas sempre são de Domingo a Sábado.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Até</strong></p></td>
-<td><p>Data/hora final de intervalo de tempo. Para ver os dados por horas, insira a data e hora final conforme segue:</p>
-<p>7/7/2012 1:00 PM</p>
-<p>Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:</p>
+<td><p><strong>To</strong></p></td>
+<td><p>Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:</p>
+<p>7/7/2012 13:00 horas</p>
+<p>Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</p>
 <p>7/7/2012</p>
-<p>Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
+<p>Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/3/2012</p>
-<p>As semanas sempre vão de domingo a sábado.</p></td>
+<p>As semanas são sempre de domingo a sábado.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Intervalo</strong></p></td>
@@ -96,22 +96,22 @@ Os filtros oferecem uma forma de retornar um conjunto de dados mais direcionado 
 <li><p>Semanalmente (é possível exibir no máximo 12 semanas)</p></li>
 <li><p>Mensalmente (é possível exibir no máximo 12 meses)</p></li>
 </ul>
-<p>Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, somente o número máximo de valores (a partir da data de início) será exibido. Por exemplo, se você selecionar o intervalo diário com uma data de início de 7/7/2012 e uma data de término de 2/28/2012, os dados serão exibidos para os dias 8/7/2012 12:00 AM a 9/7/2012 12:00 AM (ou seja, um total de 31 dias da importância dos dados).</p></td>
+<p>Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, somente o número máximo de valores (a partir da data de início) será exibido. Por exemplo, se você selecionar o intervalo Diariamente com a data de início 07.07.12 e uma data de término de 28.02.12, os dados serão exibidos para os dias 07.08.12 12:00 AM até 07.09.12 12:00 AM (ou seja, um total de 31 dias de dados).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Pool</strong></p></td>
-<td><p>FQDN (Nome de domínio totalmente qualificado) do pool de Registradores Avançados ou Servidores de Borda. Você pode selecionar um pool individual ou clicar em <strong>[Tudo]</strong> para ver os dados de todos os pools. Essa lista suspensa é automaticamente preenchida para você com base nos registros no banco de dados.</p></td>
+<td><p>FQDN (Nome de domínio totalmente qualificado) do pool de Registradores ou Servidor de Borda. Você pode selecionar um pool individual ou clicar em <strong>[Tudo]</strong> para ver os dados de todos os pools. Essa lista suspensa é automaticamente preenchida para você com base nos registros no banco de dados.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Sessões de conferência</strong></p></td>
 <td><p>Tipo de sessão. Os valores permitidos são:</p>
 <ul>
-<li><p>[Todos]</p></li>
-<li><p>Sessões de Focus (Focus é o gerenciador central de políticas e estados para reuniões online e coordena todos os aspectos da conferência</p></li>
+<li><p>Todos os</p></li>
+<li><p>Sessões de foco (o foco é a política central e o Gerenciador de estado para reuniões online e coordena todos os aspectos de uma conferência</p></li>
 <li><p>Compartilhamento de aplicativos</p></li>
-<li><p>Conferências de áudio/vídeo</p></li>
+<li><p>Conferências A/V</p></li>
 </ul>
-<p>Caso selecione [Todos], o tempo total de ingresso em conferência será exibido no topo do relatório. Observe que esses totais são apenas para conferências que foram agendadas usando o Microsoft Exchange ou o Microsoft Outlook.</p></td>
+<p>Caso selecione [Todos], o tempo total de ingresso em conferência será exibido no topo do relatório. Observe que estes totais são apenas para conferências que foram agendadas usando o Microsoft Exchange ou o Microsoft Outlook.</p></td>
 </tr>
 </tbody>
 </table>
@@ -136,14 +136,14 @@ A tabela a seguir lista as informações fornecidas no Relatório de Tempo de In
 <thead>
 <tr class="header">
 <th>Nome</th>
-<th>Você pode classificar este item?</th>
+<th>É possível classificar este item?</th>
 <th>Descrição</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>Data</strong></p>
-<p>O título para essa métrica varia dependendo do Intervalo selecionado.</p></td>
+<p>O título para essa métrica irá variar dependendo do Intervalo selecionado.</p></td>
 <td><p>Não</p></td>
 <td><p>Data e horário em que aconteceu a conferência.</p></td>
 </tr>
@@ -158,7 +158,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Tempo de In
 <td><p>Média de tempo (em milissegundos) que demorou para que os participantes ingressassem na conferência.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Sessões &lt; com 2 segundos, volume</strong></p></td>
+<td><p><strong>Sessões &lt; de 2 segundos, volume</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Número de participantes que conseguiram ingressar na conferência em menos de 2 segundos.</p></td>
 </tr>
@@ -175,7 +175,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Tempo de In
 <tr class="odd">
 <td><p><strong>Sessões de 2 a 5 segundos, Porcentagem</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Porcentagem do total de participantes da chamada que demoraram entre 2 a 5 segundos para ingressar na conferência.</p></td>
+<td><p>Porcentagem do total de participantes da chamada demoraram entre 2 a 5 segundos para ingressar na conferência.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Sessões de 5 a 10 segundos, Volume</strong></p></td>

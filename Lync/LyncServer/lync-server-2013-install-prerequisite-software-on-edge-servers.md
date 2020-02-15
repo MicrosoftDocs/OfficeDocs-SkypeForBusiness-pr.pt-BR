@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Instalar software de pré-requisito nos Servidores de Borda'
+title: 'Lync Server 2013: instalar software de pré-requisito em servidores de borda'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184811
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 308459789de6ecbd153b66ef160e4a129223e1d1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5086c841f52a83c925367f3a4accfdf5326317a5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763695"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008283"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="install-prerequisite-software-on-edge-servers-for-lync-server-2013"></a>Instalar software de pré-requisito nos Servidores de Borda para Lync Server 2013
+# <a name="install-prerequisite-software-on-edge-servers-for-lync-server-2013"></a>Instalar o software de pré-requisito nos servidores de borda do Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41763695"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-08_
+_**Última modificação do tópico:** 2012-09-08_
 
-Você precisa implantar o software de pré-requisito em cada servidor de borda que você implantar antes de instalar o Lync Server 2013. Isso inclui instalar o sistema operacional em um servidor que atenda aos requisitos do sistema. Para obter detalhes sobre os requisitos do sistema, incluindo os sistemas operacionais com suporte, consulte [requisitos do sistema para componentes de acesso de usuário externo do Lync Server 2013](lync-server-2013-system-requirements-for-external-user-access-components.md).
+Você precisa implantar o software de pré-requisito em cada servidor de borda implantado antes de instalar o Lync Server 2013. Isso inclui a instalação do sistema operacional em um servidor que atenda aos requisitos do sistema. Para obter detalhes sobre os requisitos do sistema, incluindo os sistemas operacionais com suporte, consulte [System Requirements for External User Access Components for Lync Server 2013](lync-server-2013-system-requirements-for-external-user-access-components.md).
 
 </div>
 

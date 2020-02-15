@@ -12,20 +12,20 @@ ms:contentKeyID: 63969593
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b77593ea062f83352592ebe32dbb81b99c1a9613
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 448e96c03b554970b1ee92166908965ee2a6629c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732791"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987236"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="running-synthetic-transactions-in-lync-server-2013"></a>Executar transações sintéticas no Lync Server 2013
+# <a name="running-synthetic-transactions-in-lync-server-2013"></a>Executando transações sintéticas no Lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41732791"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-08-18_
+_**Última modificação do tópico:** 2014-08-18_
 
-As transações sintéticas geralmente são conduzidas de duas maneiras. Você pode usar os cmdlets CsHealthMonitoringConfiguration para configurar usuários de teste para cada um dos seus pools de registradores. Esses usuários de teste são um par de usuários que foram pré-configurados para uso com transações sintéticas. (Geralmente são contas de teste e não contas que pertencem a usuários reais.) Com os usuários de teste configurados para um pool, você pode executar uma transação sintéticada nesse pool sem ter que especificar as identidades de (e fornecer as credenciais) das contas de usuário envolvidas no teste.
+As transações sintéticas geralmente são conduzidas de duas maneiras. Você pode usar os cmdlets do CsHealthMonitoringConfiguration para configurar os usuários de teste para cada um dos pools de registradores. Esses usuários de teste são um par de usuários que foram pré-configurados para uso com transações sintéticas. (Normalmente, são contas de teste e não contas que pertencem a usuários reais.) Com os usuários de teste configurados para um pool, você pode executar uma transação sintética nesse pool sem ter que especificar as identidades de (e fornecer as credenciais) das contas de usuário envolvidas no teste.
 
-Ou você pode executar uma transação sintética usando contas de usuário reais. Por exemplo, se dois usuários não conseguem trocar mensagens de chat, você pode executar uma transação sintética usando essas duas contas de usuário (em vez de um par de contas de teste) e, em seguida, tentar diagnosticar e solucionar o problema. Se você decidir conduzir uma transação sintética usando contas de usuário reais, deverá fornecer os nomes de logon e senhas para cada usuário.
+Ou você pode executar uma transação sintética usando contas de usuário reais. Por exemplo, se dois usuários não podem trocar mensagens instantâneas, você pode executar uma transação sintética usando essas duas contas de usuário (em vez de um par de contas de teste) e, em seguida, tentar diagnosticar e resolver o problema. Se você decidir conduzir uma transação sintética usando contas de usuário reais, deverá fornecer os nomes de logon e as senhas para cada usuário.
 
 <div>
 
 ## <a name="see-also"></a>Confira também
 
 
-[Configurando os usuários de teste de nó do Inspetor e configurações de configuração no Lync Server 2013](lync-server-2013-configuring-watcher-node-test-users-and-configuration-settings.md)  
-[Instruções de configuração especiais para transações sintéticas no Lync Server 2013](lync-server-2013-special-setup-instructions-for-synthetic-transactions.md)  
+[Configurando os usuários de teste do nó do Inspetor e definições de configuração no Lync Server 2013](lync-server-2013-configuring-watcher-node-test-users-and-configuration-settings.md)  
+[Instruções especiais de configuração para transações sintéticas no Lync Server 2013](lync-server-2013-special-setup-instructions-for-synthetic-transactions.md)  
   
 
 </div>

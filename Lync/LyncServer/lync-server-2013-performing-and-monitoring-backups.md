@@ -12,20 +12,20 @@ ms:contentKeyID: 63969595
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3181a266e5792d190186e9f09b2cab5852156cbe
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 631ec1c7c383bf6200e44378b37db7273bbf125d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755261"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008193"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="performing-and-monitoring-backups-in-lync-server-2013"></a>Executar e monitorar backups no Lync Server 2013
+# <a name="performing-and-monitoring-backups-in-lync-server-2013"></a>Executando e monitorando backups no Lync Server 2013
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41755261"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-05-15_
+_**Última modificação do tópico:** 2014-05-15_
 
-Suas prioridades de negócios devem conduzir a especificação de requisitos de backup e restauração para a sua organização. Executar backups dos servidores e dos dados é a primeira linha de defesa para planejar um desastre.
+Suas prioridades de negócios devem conduzir a especificação de requisitos de backup e restauração para sua organização. Executar backups dos servidores e dados é a primeira linha de defesa no planejamento de um desastre.
 
-Os computadores que executam serviços do Lync Server 2013 ou funções de servidor devem ter uma cópia da topologia atual, configurações de configuração atuais e políticas atuais para poderem funcionar na função de sua função. O Lync Server é responsável por verificar se essas informações são passadas para cada computador que precisar.
+Computadores que executam serviços do Lync Server 2013 ou funções de servidor devem ter uma cópia da topologia atual, definições de configuração atuais e políticas atuais para que possam funcionar em sua função de indicado. O Lync Server é responsável por verificar se essas informações são passadas para cada computador que precisa delas.
 
-Os cmdlets **Export-CsConfiguration** e **Import-CsConfiguration** são usados para fazer backup e restaurar a topologia do Lync Server, as configurações e políticas durante uma atualização do repositório de gerenciamento central. Os cmdlets **Export-CsConfiguration** permitem que você exporte dados para um. Arquivo ZIP. Em seguida, você pode usar o cmdlet **Import-CsConfiguration** para lê-lo. ZIP File e restaurar a topologia, as configurações e as políticas para o repositório de gerenciamento central. Depois disso, os serviços de replicação do Lync Server replicarão as informações restauradas para outros computadores que executam serviços do Lync Server.
+Os cmdlets **Export-CsConfiguration** e **Import-CsConfiguration** são usados para fazer backup e restaurar sua topologia do Lync Server, definições de configuração e políticas durante uma atualização do repositório de gerenciamento central. Os cmdlets **Export-CsConfiguration** permitem exportar dados para um. Arquivo ZIP. Você pode usar o cmdlet **Import-CsConfiguration** para lê-lo. ZIP arquivo e restaurar a topologia, as definições de configuração e as políticas para o repositório de gerenciamento central. Depois, os serviços de replicação do Lync Server replicarão as informações restauradas para outros computadores que estejam executando os serviços do Lync Server.
 
-A capacidade de exportar e importar dados de configuração também é usada durante a configuração inicial de computadores localizados na sua rede de perímetro (por exemplo, servidores de borda). Ao configurar um computador na rede de perímetro, você deve primeiro executar uma replicação manual usando os cmdlets CsConfiguration: você deve exportar os dados de configuração usando **Export-CsConfiguration** e, em seguida, copiar o. Arquivo ZIP para o computador na rede de perímetro. Depois disso, você pode usar **Import-CsConfiguration** e o parâmetro LocalStore para importar os dados. Você só precisa fazer isso uma vez. Depois disso, a duplicação ocorrerá automaticamente.
+A capacidade de exportar e importar dados de configuração também é usada durante a configuração inicial de computadores localizados em sua rede de perímetro (por exemplo, servidores de borda). Ao configurar um computador na rede de perímetro, você deve primeiro executar uma replicação manual usando os cmdlets do CsConfiguration: você deve exportar os dados de configuração usando o **Export-CsConfiguration** e, em seguida, copiar o. ZIP no computador da rede de perímetro. Depois disso, use **Import-CsConfiguration** e o parâmetro LocalStore para importar os dados. Você só precisa fazer isso uma vez. Após isso, a replicação ocorrerá automaticamente.
 
-Quem pode executar este cmdlet: por padrão, os membros dos grupos a seguir estão autorizados a executar o cmdlet **Export-CsConfiguration** localmente: RTCUniversalServerAdmins. Para retornar uma lista de todas as funções RBAC, esse cmdlet é atribuído (incluindo qualquer função RBAC personalizada que você tenha criado), execute o seguinte comando no prompt do Windows PowerShell:
+Quem pode executar este cmdlet: Por padrão, membros dos seguintes grupos estão autorizados a executar o cmdlet **Export-CsConfiguration** localmente: RTCUniversalServerAdmins. Para retornar uma lista de todas as funções RBAC, esse cmdlet é atribuído (incluindo qualquer função RBAC personalizada que você criou sozinho), execute o seguinte comando no prompt do Windows PowerShell:
 
 `Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Export-CsConfiguration"}`
 
-Todos os bancos de dados back-end do SQL 2012 devem ser reproduzidos de acordo com [as práticas recomendadas do SQL](http://go.microsoft.com/fwlink/p/?linkid=290716).
+Todos os bancos de dados back-end do SQL 2012 devem ser copiados de acordo com as [práticas recomendadas do SQL](http://go.microsoft.com/fwlink/p/?linkid=290716).
 
-O teste regular do plano de recuperação de desastres para sua infraestrutura do Lync Server 2013 deve ser executado em um ambiente de laboratório que imita o ambiente de produção o mais próximo possível. Consulte as tarefas mensais para obter mais informações sobre testes de recuperação de desastres.
+Testes regulares do plano de recuperação de desastres para sua infraestrutura do Lync Server 2013 devem ser executados em um ambiente de laboratório que imita o ambiente de produção o mais próximo possível. Consulte as tarefas mensais para obter mais informações sobre testes de recuperação de desastres.
 
-Observe que a frequência de backup pode ser ajustada, com base nos objetivos do ponto de restauração e ponto de recuperação. Como prática recomendada, faça instantâneos periódicos periódicos ao longo do dia. Geralmente, você deve executar backups completos a cada 24 horas.
+Observe que a frequência de backup pode ser ajustada, com base nos seus objetivos de ponto e ponto de recuperação. Como prática recomendada, faça instantâneos regulares e periódicos durante o dia. Geralmente, você deve executar backups completos a cada 24 horas.
 
 <div>
 

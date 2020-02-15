@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Gerenciando categotias, salas e suplementos'
+title: 'Lync Server 2013: Gerenciando categorias, salas e suplementos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185100
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89d7caadc6ccc4bd7c1030a3e7020129be14a68f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6c1fcd4422ca855e7247c57d07887b9df20ea695
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738761"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006959"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-categories-rooms-and-add-ins-in-lync-server-2013"></a>Gerenciando categotias, salas e suplementos no Lync Server 2013
+# <a name="managing-categories-rooms-and-add-ins-in-lync-server-2013"></a>Gerenciando categorias, salas e suplementos no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41738761"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-06_
+_**Última modificação do tópico:** 2012-10-06_
 
-No painel de controle do Lync Server 2013 ou usando cmdlets do Windows PowerShell, administradores de chat persistente podem usar a página de **chat persistente** para criar categorias e suplementos. Para gerenciar salas de chat persistente, os administradores podem usar cmdlets do Windows PowerShell. Como alternativa, se o administrador de chat persistente também estiver habilitado para SIP, ele poderá usar o cliente do Lync para iniciar uma página da Web para criar e gerenciar salas de chat.
+No painel de controle do Lync Server 2013, ou usando os cmdlets do Windows PowerShell, os administradores de chat persistente podem usar a página de **chat persistente** para criar categorias e suplementos. Para gerenciar salas de chat persistente, os administradores podem usar cmdlets do Windows PowerShell. Como alternativa, se o administrador de chat persistente também estiver habilitado para SIP, ele poderá usar o cliente Lync para iniciar uma página da Web para criar e gerenciar salas de chat.
 
 Os tópicos a seguir descrevem como criar e trabalhar com categorias e salas de chat.
 
@@ -51,13 +51,13 @@ Os tópicos a seguir descrevem como criar e trabalhar com categorias e salas de 
 
   - [Criando novos suplementos para salas no Lync Server 2013](lync-server-2013-creating-new-add-ins-for-rooms.md)
 
-  - [Determinar quem pode postar mensagens na sala de chat do auditório no Lync Server 2013](lync-server-2013-setting-who-can-post-messages-in-an-auditorium-chat-room.md)
+  - [Configuração que pode postar mensagens em uma sala de chat do auditório no Lync Server 2013](lync-server-2013-setting-who-can-post-messages-in-an-auditorium-chat-room.md)
 
-  - [Habilitar ou desabilitar uma sala de chat no Lync Server 2013](lync-server-2013-disabling-or-enabling-a-chat-room.md)
+  - [Desabilitar ou habilitar uma sala de chat no Lync Server 2013](lync-server-2013-disabling-or-enabling-a-chat-room.md)
 
-  - [Movendo uma sala de chat de uma categoria a outra no Lync Server 2013](lync-server-2013-moving-a-chat-room-from-one-category-to-another.md)
+  - [Mover uma sala de chat de uma categoria para outra no Lync Server 2013](lync-server-2013-moving-a-chat-room-from-one-category-to-another.md)
 
-  - [Excluindo sala de chat ou categoria no Lync Server 2013](lync-server-2013-deleting-a-chat-room-or-category.md)
+  - [Excluindo uma sala de chat ou categoria no Lync Server 2013](lync-server-2013-deleting-a-chat-room-or-category.md)
 
   - [Excluindo uma mensagem ou limpando mensagens obsoletas no Lync Server 2013](lync-server-2013-deleting-a-message-or-purging-obsolete-messages.md)
 

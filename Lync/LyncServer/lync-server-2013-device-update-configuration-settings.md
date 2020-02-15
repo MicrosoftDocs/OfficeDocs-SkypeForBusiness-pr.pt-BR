@@ -12,20 +12,20 @@ ms:contentKeyID: 51803969
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c8b06c3fdf4d854c79bff7b03f497858fc64b15
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ef868bfa52d206996cd1cf344e2c504f83a9cbf9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762399"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031265"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="device-update-configuration-settings-in-lync-server-2013"></a>Opções de configuração de atualização de dispositivo no Lync Server 2013
+# <a name="device-update-configuration-settings-in-lync-server-2013"></a>Definições de configuração de atualização de dispositivo no Lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41762399"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-20_
+_**Última modificação do tópico:** 2013-02-20_
 
-O serviço Web de atualização de dispositivo é gerenciado por meio das configurações de dispositivo. Essas configurações podem ser aplicadas ao escopo global ou ao escopo do site.
+O serviço Web de atualização de dispositivo é gerenciado usando definições de configuração de dispositivo. Essas configurações podem ser aplicadas no escopo global ou no escopo do site.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Exibir configurações de atualização de dispositivo no Lync Server 2013](lync-server-2013-view-device-update-configuration-settings.md)
+  - [Exibir definições de configuração de atualização de dispositivo no Lync Server 2013](lync-server-2013-view-device-update-configuration-settings.md)
 
-  - [Criar ou modificar um conjunto de definições de configuração de atualização de dispositivos no Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-device-update-configuration-settings.md)
+  - [Criar ou modificar um conjunto de definições de configuração de atualização de dispositivo no Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-device-update-configuration-settings.md)
 
-  - [Excluir uma coleção de configurações de atualização de dispositivos no Lync Server 2013](lync-server-2013-delete-a-collection-of-device-update-configuration-settings.md)
+  - [Excluir uma coleção de definições de configuração de atualização de dispositivo no Lync Server 2013](lync-server-2013-delete-a-collection-of-device-update-configuration-settings.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Compreendendo os requisitos de firewall para Servidor SQL'
+title: 'Lync Server 2013: Noções básicas sobre requisitos de firewall para o SQL Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183781
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dba3296ee01f997857660d2a3f328f663d32cf99
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ba04284106bcd1b0cbf17d214d8ad0b1a1ff9024
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744811"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006677"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="understanding-firewall-requirements-for-sql-server-with-lync-server-2013"></a>Compreendendo os requisitos de firewall para Servidor SQL com Lync Server 2013
+# <a name="understanding-firewall-requirements-for-sql-server-with-lync-server-2013"></a>Noções básicas sobre requisitos de firewall para o SQL Server com o Lync Server 2013
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41744811"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-21_
+_**Última modificação do tópico:** 2013-02-21_
 
-Para uma implantação de edição padrão, as exceções de firewall são criadas automaticamente durante a instalação do Lync Server 2013. No entanto, para implantações do Enterprise Edition, você deve configurar as exceções de firewall manualmente no servidor back-end do SQL Server. O protocolo TCP/IP permite que uma determinada porta seja usada uma vez para um determinado endereço IP. Isso significa que, para o servidor baseado no SQL Server, você pode atribuir à instância de banco de dados padrão a porta TCP 1433. Para quaisquer outros casos, você precisará usar o Gerenciador de configuração do SQL Server para atribuir portas exclusivas e não utilizadas. Este tópico aborda:
+Para uma implantação do Standard Edition, as exceções de firewall são criadas automaticamente durante a instalação do Lync Server 2013. No entanto, para implantações Enterprise Edition, você deve configurar as exceções de firewall manualmente no servidor back-end do SQL Server. O protocolo TCP/IP permite o uso de determinada porta uma vez para um certo endereço IP. Isso significa que, para o servidor baseado no SQL Server, é possível atribuir a instância de banco de dados padrão à porta TCP padrão 1433. Para qualquer outra instância, você precisa usar o SQL Server Configuration Manager para atribuir portas exclusivas e não usadas. Este tópico aborda:
 
   - Requisitos para uma exceção de firewall ao usar a instância padrão
 
-  - Requisitos para uma exceção de firewall para o serviço do navegador do SQL Server
+  - Requisitos para uma exceção de firewall para o serviço SQL Server Browser
 
   - Requisitos para portas de escuta estática ao usar instâncias nomeadas
 
@@ -69,7 +69,7 @@ Se você estiver usando a instância padrão do SQL Server para qualquer banco d
 <tr class="odd">
 <td><p>TCP</p></td>
 <td><p>1433</p></td>
-<td><p>Entrada do SQL Server</p></td>
+<td><p>Entrada para SQL Server</p></td>
 </tr>
 </tbody>
 </table>
@@ -79,9 +79,9 @@ Se você estiver usando a instância padrão do SQL Server para qualquer banco d
 
 <div>
 
-## <a name="requirements-for-a-firewall-exception-for-the-sql-server-browser-service"></a>Requisitos para uma exceção de firewall para o serviço do navegador do SQL Server
+## <a name="requirements-for-a-firewall-exception-for-the-sql-server-browser-service"></a>Requisitos para uma exceção de firewall para o serviço SQL Server Browser
 
-O serviço de navegador do SQL Server localizará instâncias de banco de dados e comunicará a porta que a instância (nomeada ou padrão) está configurada para usar.
+O serviço SQL Server Browser localizará as instâncias do banco de dados e comunicará a porta que a instância (nomeada ou padrão) está configurada para usar.
 
 
 <table>
@@ -99,7 +99,7 @@ O serviço de navegador do SQL Server localizará instâncias de banco de dados 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>UDP</p></td>
+<td><p>VIA</p></td>
 <td><p>1434</p></td>
 <td><p>Entrada</p></td>
 </tr>
@@ -111,9 +111,9 @@ O serviço de navegador do SQL Server localizará instâncias de banco de dados 
 
 <div>
 
-## <a name="requirements-for-static-listening-ports-when-using-named-instances"></a>Requisitos para portas de escuta estática ao usar instâncias nomeadas
+## <a name="requirements-for-static-listening-ports-when-using-named-instances"></a>Requisitos para portas de escuta estáticas ao usar instâncias nomeadas
 
-Ao usar instâncias nomeadas na configuração do SQL Server para bancos de dados que ofereçam suporte ao Lync Server 2013, você configura portas estáticas usando o Gerenciador de configuração do SQL Server. Após a atribuição das portas estáticas a cada instância nomeada, você cria exceções para cada porta estática do firewall.
+Ao usar instâncias nomeadas na configuração do SQL Server para bancos de dados que dão suporte ao Lync Server 2013, configure as portas estáticas usando o SQL Server Configuration Manager. Após a atribuição das portas estáticas a cada instância nomeada, crie exceções para cada porta estática no firewall.
 
 
 <table>
@@ -145,7 +145,7 @@ Ao usar instâncias nomeadas na configuração do SQL Server para bancos de dado
 
 ## <a name="sql-server-documentation"></a>Documentação do SQL Server
 
-A documentação do Microsoft SQL Server 2012 fornece orientações detalhadas sobre como configurar o acesso do firewall para bancos de dados. Para obter detalhes sobre o Microsoft SQL Server 2012, consulte "Configurando o Firewall do Windows para permitir [http://go.microsoft.com/fwlink/p/?linkId=218031](http://go.microsoft.com/fwlink/p/?linkid=218031)o acesso ao SQL Server" em.
+A documentação do Microsoft SQL Server 2012 fornece orientação detalhada sobre como configurar o acesso de firewall para os bancos de dados. Para obter detalhes sobre o Microsoft SQL Server 2012, consulte "Configurando o Firewall do Windows para permitir [http://go.microsoft.com/fwlink/p/?linkId=218031](http://go.microsoft.com/fwlink/p/?linkid=218031)o acesso ao SQL Server" em.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Planejamento para alta disponibilidade e recuperação de desastre'
+title: 'Lync Server 2013: planejamento para alta disponibilidade e recuperação de desastre'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183497
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 79abf8b98252f3b05b899a9840e7a9c9a2e8096c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 38a41585da7cb247dc955b3f4e18ee4812ef5a2a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41752181"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036691"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,31 +35,31 @@ ms.locfileid: "41752181"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-10-31_
+_**Última modificação do tópico:** 2013-10-31_
 
-Como no Lync Server 2010, o principal esquema de alta disponibilidade para a maioria das funções de servidor no Lync Server 2013 é baseado na redundância do servidor via pooling. Se um servidor que executa determinada função falhar, os demais servidores do pool que executam a mesma função assumirão a carga desse servidor. Isso se aplica a Servidores Front-End, Servidores de Borda, Servidores de Mediação e Diretores.
+Como no Lync Server 2010, o principal esquema de alta disponibilidade para a maioria das funções de servidor no Lync Server 2013 é baseado em redundância de servidor por meio de Pooling. Se um servidor executando uma certa função de servidor falha, os ouros servidores no pool executando a mesma função assumem a carga daquele servidor. Isso se aplica a servidores Front-End, Servidores de Borda, Servidores de Mediação e Diretores.
 
-O Lync Server 2013 adiciona novas medidas de recuperação de desastres para pools front-end introduzindo dispersement geográficas dos seus servidores em dois data centers para fornecer a continuação do serviço, deve-se um pool ou um site inteiro ficar inativo.
+O Lync Server 2013 adiciona novas medidas de recuperação de desastres para pools de front-ends, introduzindo dispersão geográficos de seus servidores em dois data centers para fornecer a continuação do serviço, caso um pool ou site inteiro fique inativo.
 
 O Lync Server 2013 também aprimora a alta disponibilidade do servidor back-end, oferecendo suporte ao espelhamento síncrono do SQL para seus bancos de dados back-end.
 
-Esta seção explica os principais recursos de alta disponibilidade e recuperação de desastres e também aborda as etapas que você pode tomar para alta disponibilidade e recuperação de desastres para suas outras funções de servidor também.
+Essa seção explica como estes principais recursos de alta disponibilidade e de recuperação de disastres, e também cobre quais passos você pode tomar para ter alta disponibilidade e recuperação de disastres também para suas outras funções de servidor.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Recuperação de desastre do pool Front-End no Lync Server 2013](lync-server-2013-front-end-pool-disaster-recovery.md)
+  - [Recuperação de desastre do pool de front-ends no Lync Server 2013](lync-server-2013-front-end-pool-disaster-recovery.md)
 
-  - [Recuperação de desastres do servidor de borda no Lync Server 2013](lync-server-2013-edge-server-disaster-recovery.md)
+  - [Recuperação de desastre do servidor de borda no Lync Server 2013](lync-server-2013-edge-server-disaster-recovery.md)
 
   - [Planejamento para resiliência do Enterprise Voice no Lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md)
 
   - [Recursos de gerenciamento de chamada para recuperação de desastre no Lync Server 2013](lync-server-2013-call-management-features-for-disaster-recovery.md)
 
-  - [Configurando o Servidor de Chat Persistente para alta disponibilidade e recuperação de desastre no Lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md)
+  - [Configurando o servidor de chat persistente para alta disponibilidade e recuperação de desastre no Lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md)
 
-  - [Resiliência de site metropolitano no Lync Server 2010](lync-server-2013-compatibility-with-lync-server-2010-metropolitan-site-resiliency.md)
+  - [Lync Server 2010 Metropolitan de resiliência de site](lync-server-2013-compatibility-with-lync-server-2010-metropolitan-site-resiliency.md)
 
 </div>
 

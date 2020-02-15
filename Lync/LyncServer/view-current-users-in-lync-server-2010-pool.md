@@ -1,5 +1,5 @@
 ---
-title: Exibir usuários atuaus no pool do Lync Server 2010
+title: Exibir usuários atuais no pool do Lync Server 2010
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733804
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da91f6a7247f152599f740aebaa7ebea09c852bc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fadc7b822fe1bdd04c170031407fe0441bfdc2f1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730751"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036179"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-current-users-in-lync-server-2010-pool"></a>Exibir usuários atuaus no pool do Lync Server 2010
+# <a name="view-current-users-in-lync-server-2010-pool"></a>Exibir usuários atuais no pool do Lync Server 2010
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41730751"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-26_
+_**Última modificação do tópico:** 2012-09-26_
 
-Antes de aprender as várias maneiras pelas quais você pode mover usuários entre pools, precisamos primeiro determinar quais usuários existem no pool herdado do Lync Server 2010. Na imagem abaixo, a coluna pool de registradores identifica seis usuários configurados para o pool herdado do Lync Server 2010. Estes são os usuários de teste que vamos mover para o pool do Lync Server 2013.
+Antes de aprender as várias maneiras de mover os usuários entre pools, primeiro é necessário determinar quais usuários existem no pool herdado do Lync Server 2010. Na imagem abaixo, a coluna pool de registradores identifica seis usuários configurados para o pool herdado do Lync Server 2010. Estes são os usuários de teste que iremos mover para o pool do Lync Server 2013.
 
 **Para ver a lista de usuários no pool do Lync Server 2010**
 
@@ -47,7 +47,7 @@ Antes de aprender as várias maneiras pelas quais você pode mover usuários ent
 
 3.  Clique em **Usuários**, em Pesquisar e em **Localizar**.
 
-**O painel de controle do Lync Server 15**
+**O Painel de Controle do Lync Server 15**
 
 ![Painel de controle do Lync Server, caixa de diálogo mover usuário](images/JJ721870.a2bce284-0392-4db3-9bb2-9f12699738e7(OCS.15).jpg "Painel de controle do Lync Server, caixa de diálogo mover usuário")
 

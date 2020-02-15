@@ -1,5 +1,5 @@
 ---
-title: 'Tabela do Lync Server 2013: IPAddress'
+title: 'Lync Server 2013: tabela IPAddress'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184771
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6344319fbdf581a5e51a1f61e141833910e9e29f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 31e99e05013d823d5a3a1c1ce1eef6ccc47cfb59
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733461"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035063"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41733461"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-17_
+_**Última modificação do tópico:** 2012-10-17_
 
-A tabela IPAddress mapeia endereços IP para os identificadores de endereço IP exclusivos usados em outro lugar no banco de dados de qualidade da experiência. Esta tabela foi introduzida no Microsoft Lync Server 2013.
+A tabela IPAddress mapeia endereços IP para os identificadores de endereço IP únicos usados em outros locais no banco de dados de qualidade da experiência. Esta tabela foi introduzida no Microsoft Lync Server 2013.
 
 
 <table>
@@ -59,14 +59,14 @@ A tabela IPAddress mapeia endereços IP para os identificadores de endereço IP 
 <tr class="odd">
 <td><p><strong>IPAddressKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primária</p></td>
+<td><p>Primário</p></td>
 <td><p>Identificador exclusivo do endereço IP especificado.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IPAddress</strong></p></td>
-<td><p>varchar(50)</p></td>
-<td><p>Exclusividade</p></td>
-<td><p>Endereço IP exclusivo (por exemplo, 189.168.1.1) que é mapeado para o IpAddressKey. Pode ser um endereço IPv4 ou IPv6.</p></td>
+<td><p>varchar (50)</p></td>
+<td><p>Diferente</p></td>
+<td><p>Endereço IP exclusivo (por exemplo, 189.168.1.1) que mapeia para o IpAddressKey. Pode ser um endereço IPv4 ou IPv6.</p></td>
 </tr>
 </tbody>
 </table>

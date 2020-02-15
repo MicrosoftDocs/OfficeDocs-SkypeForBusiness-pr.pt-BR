@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: excluir uma coleção existente de definições de configuração de CDR'
+title: 'Lync Server 2013: excluir um conjunto existente de definições de configuração de CDR'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733726
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c50df73d59c588094693009ab4c84f2a7809ba5f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 82170cf695136694588721a0b4e7e63c5c7dd618
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737431"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007059"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-lync-server-2013"></a>Excluir uma coleção existente de definições de configuração de CDR no Lync Server 2013
+# <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-lync-server-2013"></a>Excluir um conjunto existente de definições de configuração de CDR no Lync Server 2013
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41737431"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-23_
+_**Última modificação do tópico:** 2013-02-23_
 
-O registro de detalhes das chamadas (CDR) permite rastrear o uso de aspectos como as sessões de mensagens instantâneas ponto a ponto, chamadas de telefone VoIP e chamadas de conferência. Esses dados de uso incluem informações os usuários envolvidos na chamadas, o horário e o período da chamada.
+O CDR (registro de detalhes de chamadas) permite rastrear o uso de aspectos como as sessões de mensagens instantâneas ponto a ponto, chamadas de telefone VoIP e chamadas de conferência. Esses dados de uso incluem informações os usuários envolvidos na chamadas, o horário e o período da chamada.
 
-Quando você instala o Microsoft Lync Server 2013, uma única coleção global de definições de configuração de CDR é criada para você. Os administradores têm a opção de criar coleções de definições personalizadas que podem ser aplicadas a sites individuais. Através do design, as definições configuradas no escopo do site têm precedência sobre aquelas no escopo global. Se você excluir as definições no escopo do site, então o CDR será gerenciado nesse site usando as definições globais.
+Quando você instala o Microsoft Lync Server 2013, um único conjunto global de definições de configuração de CDR é criado para você. Os administradores também têm a opção de criar conjuntos personalizados de definições que podem ser aplicados a sites individuais. Por design, as configurações no escopo do site têm precedência sobre configurações no escopo global. Se você excluir as configurações no escopo do site, o CDR será gerenciado nesse site usando as configurações globais.
 
-Observe que também é possível "excluir" as definições globais. No entanto, as definições globais não serão realmente removidas. Em vez disso, todas as propriedades nessa coleção serão redefinidas para os valores padrão. Por exemplo, como padrão, a limpeza está ativada em uma coleção de definições de configuração de CDR. Suponha que você modifique a coleção global de forma que a limpeza seja desativada. Se você excluir as definições globais mais tarde, todas as propriedades serão redefinidas para seus valores padrão. Neste caso, isso significa que a limpeza será novamente ativada.
+Observe que você também pode “excluir” as definições globais. Contudo, elas não serão realmente removidas. Em vez disso, todas as propriedades naquele conjunto serão redefinidas de acordo com os valores padrão. Por exemplo, por padrão, a limpeza é habilitada em um conjunto de definições de configuração de CDR. Digamos que você modifique o conjunto global para que a exclusão seja desabilitada. Se depois você resolver apagar as definições globais, todas as propriedades serão redefinidas para os valores padrão. Nesse caso, isso significa que a exclusão será habilitada novamente.
 
-Você pode remover as configurações de configuração de CDR usando o painel de controle do Lync Server ou o cmdlet [Remove-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsCdrConfiguration) .
+Você pode remover as definições de configuração de CDR usando o painel de controle do Lync Server ou o cmdlet [Remove-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsCdrConfiguration) .
 
 <div>
 
-## <a name="to-remove-cdr-configuration-settings-with-lync-server-control-panel"></a>Para remover as configurações de configuração de CDR com o painel de controle do Lync Server
+## <a name="to-remove-cdr-configuration-settings-with-lync-server-control-panel"></a>Para remover as definições de configuração de CDR com o painel de controle do Lync Server
 
 1.  No painel de controle do Lync Server, clique em **monitoramento e arquivamento**.
 
-2.  Na guia **Registro de Detalhes de Chamada**, selecione a coleção (ou coleções) de definições de CDR a ser removida. Para selecionar várias coleções, clique na primeira coleção, mantenha pressionada a tecla CTRL e clique em mais coleções.
+2.  Na guia **registro de detalhes das chamadas** , selecione a coleção (ou coleções) das configurações de CDR a serem removidas. Para selecionar várias coleções, clique na primeira coleção, pressione a tecla CTRL e clique em coleções adicionais.
 
-3.  Clique em **Editar** e então em **Excluir**.
+3.  Clique em **Editar**e em **excluir**.
 
 4.  Na caixa de diálogo painel de controle do Lync Server, clique em **OK**.
 
@@ -61,15 +61,15 @@ Você pode remover as configurações de configuração de CDR usando o painel d
 
 <div>
 
-## <a name="removing-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>Como remover as definições de configuração de CDR usando cmdlets do Windows PowerShell
+## <a name="removing-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>Removendo definições de configuração de CDR usando cmdlets do Windows PowerShell
 
-Você pode excluir as configurações de registro de detalhes da chamada usando o Windows PowerShell e o cmdlet **Remove-CsCdrConfiguration** . Você pode executar esse cmdlet a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.
+Você pode excluir as definições de configuração de registro de detalhes da chamada usando o Windows PowerShell e o cmdlet **Remove-CsCdrConfiguration** . Você pode executar esse cmdlet do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
 
 <div>
 
-## <a name="to-remove-a-specified-collection-of-cdr-configuration-settings"></a>Para remover uma coleção especificada das definições de configuração de CDR
+## <a name="to-remove-a-specified-collection-of-cdr-configuration-settings"></a>Para remover um conjunto especificado de definições de configuração de CDR
 
-  - Este comando remove as definições de configuração de CDR aplicadas ao site da Redmond:
+  - Este comando remove as definições de configuração de CDR aplicadas ao site de Redmond:
     
         Remove-CsCdrConfiguration -Identity "site:Redmond"
 
@@ -79,7 +79,7 @@ Você pode excluir as configurações de registro de detalhes da chamada usando 
 
 ## <a name="to-remove-all-the-cdr-configuration-settings-applied-to-the-site-scope"></a>Para remover todas as definições de configuração de CDR aplicadas ao escopo do site
 
-  - Este comando remove todas as definições de configuração de CDR aplicadas ao escopo do site:
+  - Este comando Remove todas as definições de configuração de CDR aplicadas ao escopo do site:
     
         Get-CsCdrConfiguration -Filter "site:*" | Remove-CsCdrConfiguration
 
@@ -87,15 +87,15 @@ Você pode excluir as configurações de registro de detalhes da chamada usando 
 
 <div>
 
-## <a name="to-remove-all-the-cdr-configuration-settings-that-disable-call-detail-recording"></a>Para remover todas as definições de configuração de CDR que desativam a gravação de detalhes de chamada
+## <a name="to-remove-all-the-cdr-configuration-settings-that-disable-call-detail-recording"></a>Para remover todas as definições de configuração de CDR que desativam a gravação de detalhes da chamada
 
-  - Este comando remove todas as definições de configuração de CDR onde a gravação de detalhes de chamada foi desativada:
+  - Este comando Remove todas as definições de configuração de CDR onde a gravação de detalhes da chamada foi desativada:
     
         Get-CsCdrConfiguration | Where-Object {$_.EnableCDR -eq $False} | Remove-CsCdrConfiguration
 
 </div>
 
-Para obter mais informações, consulte o tópico da ajuda para o cmdlet [Remove-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsCdrConfiguration) .
+Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Remove-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsCdrConfiguration) .
 
 </div>
 

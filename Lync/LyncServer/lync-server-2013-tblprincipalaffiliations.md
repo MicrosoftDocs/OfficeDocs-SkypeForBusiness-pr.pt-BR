@@ -12,16 +12,16 @@ ms:contentKeyID: 48183993
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3976b98fddc96ad08f3de4413bf8f38ec3525496
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ee16c492a42cb98ff3b5f326bd6f43a57c4d3f56
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764147"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034271"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764147"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-12_
+_**Última modificação do tópico:** 2012-09-12_
 
-tblPrincipalAffiliations contém as afiliações principais que descrevem associações em locais, incluindo grupos de segurança dos serviços de domínio Active Directory, em contêineres do Active Directory, em domínios.
+tblPrincipalAffiliations contém as afiliações principais que descrevem associações em locais, incluindo grupos de segurança dos serviços de domínio do Active Directory, em contêineres do Active Directory, em domínios.
 
 ### <a name="columns"></a>Colunas
 
@@ -57,29 +57,29 @@ tblPrincipalAffiliations contém as afiliações principais que descrevem associ
 <tbody>
 <tr class="odd">
 <td><p>entidade de segurança</p></td>
-<td><p>int, não nulo</p></td>
-<td><p>ID do objeto associado.</p></td>
+<td><p>int, not null</p></td>
+<td><p>ID da entidade de segurança afiliada.</p></td>
 </tr>
 <tr class="even">
 <td><p>afiliaid</p></td>
 <td><p>int, não nulo</p></td>
-<td><p>ID da entidade de segurança que representa a afiliada. Cada entidade de segurança (exceto tipos de usuário do sistema) também tem uma afiliada.</p></td>
+<td><p>ID da entidade de segurança que representa a afiliação. Cada entidade (exceto system-user-types) tem também uma autoafiliação.</p></td>
 </tr>
 <tr class="odd">
-<td><p>dedo</p></td>
-<td><p>int, não nulo</p></td>
-<td><p>Dedo. O valor para autoafiliações é-1 e para as outras afiliações que ele aumenta sequencialmente de 1 dentro de cada &lt;objeto de entidade de segurança&gt; , o BucketID.</p></td>
+<td><p>index</p></td>
+<td><p>int, not null</p></td>
+<td><p>Índice. O valor para autoafiliações é-1 e para as outras afiliações que ela aumenta de forma seqüencial de 1 em cada &lt;entidade de segurança,&gt; BucketID.</p></td>
 </tr>
 <tr class="even">
 <td><p>updatedBy</p></td>
-<td><p>int, não nulo</p></td>
-<td><p>Entidade de segurança que fez a atualização mais recente. Geralmente, isso é 1, o que significa sincronização do Active Directory.</p></td>
+<td><p>int, not null</p></td>
+<td><p>Entidade de segurança que fez a atualização mais recente. Isso geralmente é 1, o que significa Sincronização do Active Directory.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>As
+### <a name="keys"></a>Chaves
 
 <table>
 <colgroup>
@@ -99,11 +99,11 @@ tblPrincipalAffiliations contém as afiliações principais que descrevem associ
 </tr>
 <tr class="even">
 <td><p>entidade de segurança</p></td>
-<td><p>Chave estrangeira com Lookup na tabela tblPrincipal. retoid.</p></td>
+<td><p>Chave estrangeira com pesquisa na tabela tblPrincipal.prinID.</p></td>
 </tr>
 <tr class="odd">
 <td><p>afiliaid</p></td>
-<td><p>Chave estrangeira com Lookup na tabela tblPrincipal. retoid.</p></td>
+<td><p>Chave estrangeira com pesquisa na tabela tblPrincipal.prinID.</p></td>
 </tr>
 </tbody>
 </table>

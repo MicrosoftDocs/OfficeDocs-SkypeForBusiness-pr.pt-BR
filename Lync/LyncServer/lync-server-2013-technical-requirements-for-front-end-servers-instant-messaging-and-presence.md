@@ -1,5 +1,5 @@
 ---
-title: Requisitos técnicos para Servidores Front-End, sistema de mensagens instantâneas e presença
+title: Requisitos técnicos para servidores front-end, mensagens instantâneas e presença
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183575
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b3fd89dfe950ccc6c36f014acdf525664096b40f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9502d5cab3cb348b9fdf03236c6da966893d0852
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746581"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006717"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Requisitos técnicos para Servidores Front-End, sistema de mensagens instantâneas e presença no Lync Server 2013
+# <a name="technical-requirements-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Requisitos técnicos para servidores front-end, mensagens instantâneas e presença no Lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41746581"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-18_
+_**Última modificação do tópico:** 2012-09-18_
 
-O sistema de mensagens instantâneas e a presença são sempre executados nos pools de Front-Ends Enterprise Edition e servidores Standard Edition. Para obter informações sobre hardware, sistemas operacionais e software de banco de dados com suporte, consulte o seguinte:
+Mensagens instantâneas (IM) e presença sempre são executadas em pools de front-ends Enterprise Edition e servidores Standard Edition. Para obter mais informações sobre o hardware suportado, sistemas operacionais e software do banco de dados, consulte o seguinte:
 
-  - [Hardware suportado para Lync Server 2013](lync-server-2013-supported-hardware.md)
+  - [Hardware suportado para o Lync Server 2013](lync-server-2013-supported-hardware.md)
 
-  - [Suporte a software e à infraestrutura de servidor no Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md)
+  - [Suporte a infraestrutura e software de servidor no Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md)
 
 <div>
 
-## <a name="supported-collocation"></a>Colocação compatível
+## <a name="supported-collocation"></a>Colocação suportada
 
-A função de servidor front-end pode ser posicionada com o servidor de mediação. Você também pode executar o monitoramento e o arquivamento em servidores front-end. O servidor front-end não pode ser posicionado com o servidor de borda ou o diretor.
+A função de Servidor de Front-End pode ser colocada com um Servidor de Mediação. Também pode executar o Monitoramento e Arquivamento em Servidores de Front-End. O Servidor de Front-End não pode ser colocado com Servidor de Borda ou Diretor.
 
 </div>
 

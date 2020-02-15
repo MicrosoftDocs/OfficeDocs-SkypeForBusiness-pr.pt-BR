@@ -12,16 +12,16 @@ ms:contentKeyID: 48183379
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: baaf336013ec09b17b8e688889fdf27aa29ef644
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0ca8ccc9c60bdd608992dc3daf085568d34bee69
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764137"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034091"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764137"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-12_
+_**Última modificação do tópico:** 2012-09-12_
 
-tblPrincipalMemberDifference contém alterações de associação de grupo (membros adicionados e removidos) que ainda não foram processados pelas etapas de sincronização dos serviços de domínio Active Directory mais recentes.
+tblPrincipalMemberDifference contém alterações de associação de grupo (membros adicionados e removidos) que ainda não foram processados pelas etapas de sincronização dos serviços de domínio do Active Directory posteriores.
 
 ### <a name="columns"></a>Colunas
 
@@ -58,16 +58,16 @@ tblPrincipalMemberDifference contém alterações de associação de grupo (memb
 <tr class="odd">
 <td><p>prinGuid</p></td>
 <td><p>GUID, não nulo</p></td>
-<td><p>O principal GUID do grupo que foi alterado.</p></td>
+<td><p>GUID principal do grupo que mudou.</p></td>
 </tr>
 <tr class="even">
 <td><p>memberADPath</p></td>
 <td><p>nvarchar (256)</p></td>
-<td><p>Nome diferenciado do membro.</p></td>
+<td><p>Nome distinto do membro.</p></td>
 </tr>
 <tr class="odd">
 <td><p>memberRemoved</p></td>
-<td><p>bit, e não nulo</p></td>
+<td><p>bit, não nulo</p></td>
 <td><p>Falso se o membro tiver sido adicionado. Verdadeiro se o membro tiver sido removido.</p></td>
 </tr>
 </tbody>

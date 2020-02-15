@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurando o Microsoft Exchange Server 2013 Unified Messaging para Lync Server 2013 voice mail'
+title: 'Lync Server 2013: Configurando a Unificação de mensagens do Microsoft Exchange Server 2013 para Lync Server 2013 caixa postal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733573
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 367f4cc517771f51d7a1452293ad9803075d285f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 718616db34cbdc612d083fa88c7e47da03e22bed
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755925"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008423"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-microsoft-exchange-server-2013-unified-messaging-for-microsoft-lync-server-2013-voice-mail"></a>Configurando o Microsoft Exchange Server 2013 Unified Messaging para o Microsoft Lync Server 2013 voice mail
+# <a name="configuring-microsoft-exchange-server-2013-unified-messaging-for-microsoft-lync-server-2013-voice-mail"></a>Configurando a Unificação de mensagens do Microsoft Exchange Server 2013 para o Microsoft Lync Server 2013 voice mail
 
 </div>
 
@@ -35,22 +35,22 @@ ms.locfileid: "41755925"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-04_
+_**Última modificação do tópico:** 2013-02-04_
 
-O Microsoft Lync Server 2013 permite que você tenha mensagens de correio de voz armazenadas no Microsoft Exchange Server 2013; essas mensagens de correio de voz serão exibidas como mensagens de email nas caixas de entrada dos usuários. Essa funcionalidade também foi encontrada nas edições do 2010 do Lync Server e do Exchange; no entanto, o processo de configuração dessa "Unificação de mensagens" foi simplificado nas edições do 2013 graças à introdução do componente de roteador de chamada de UM. Esse componente é instalado no servidor de acesso para cliente do Exchange 2013 e todas as chamadas para a Unificação de mensagens do Exchange (como correio de voz) são roteadas primeiro pelo roteador de chamada e, em seguida, são redirecionadas para o servidor de caixa de correio apropriado.
+O Microsoft Lync Server 2013 permite que você tenha mensagens de caixa postal armazenadas no Microsoft Exchange Server 2013; essas mensagens de voz serão exibidas como mensagens de email nas caixas de entrada dos seus usuários. Esse recurso também foi encontrado nas edições 2010 do Lync Server e no Exchange; no entanto, o processo de configuração dessa "Unificação de mensagens" foi simplificado nas edições 2013 graças à introdução do componente roteador de chamadas de UM. Esse componente é instalado no servidor de acesso para cliente do Exchange 2013, e todas as chamadas para a Unificação de mensagens do Exchange (como uma caixa postal) são roteadas primeiro pelo roteador de chamada e, em seguida, são redirecionadas para o servidor de caixa de correio apropriado.
 
-Se você já configurou a autenticação de servidor para servidor entre o Lync Server 2013 e o Exchange 2013, então você está pronto para configurar a Unificação de mensagens. Para fazer isso, primeiro você deve criar e atribuir um novo plano de discagem de Unificação de mensagens no Exchange Server. Por exemplo, esses dois comandos (executados dentro do Shell de gerenciamento do Exchange) configuram um novo plano de discagem de 3 dígitos para o Exchange:
+Se você já configurou a autenticação de servidor para servidor entre o Lync Server 2013 e o Exchange 2013, você está pronto para configurar a Unificação de mensagens. Para fazer isso, você deve primeiro criar e atribuir um novo plano de discagem de Unificação de mensagens no seu servidor Exchange. Por exemplo, esses dois comandos (executados de dentro do Shell de gerenciamento do Exchange) configuram um novo plano de discagem de 3 dígitos para o Exchange:
 
     New-UMDialPlan -Name "RedmondDialPlan" -VoIPSecurity "Secured" -NumberOfDigitsInExtension 3 -URIType "SipName" -CountryOrRegionCode 1
     Set-UMDialPlan "RedmondDialPlan" -ConfiguredInCountryOrRegionGroups "Anywhere,*,*,*" -AllowedInCountryOrRegionGroups "Anywhere"
 
 O primeiro comando no exemplo, o parâmetro VoIPSecurity e o valor de parâmetro "Secured" indica que o canal de sinalização é criptografado usando TLS. O URIType "SipName" indica que as mensagens serão enviadas e recebidas usando o protocolo SIP e o CountryOrRegionCode de 1 indica que o plano de discagem se aplica aos EUA.
 
-No segundo comando, o valor do parâmetro para o parâmetro ConfiguredInCountryOrRegionGroups especifica os grupos no país que podem ser usados com este plano de discagem. O valor do parâmetro "em\*qualquer\*lugar\*,", define o seguinte:
+No segundo comando, o valor do parâmetro para o parâmetro ConfiguredInCountryOrRegionGroups especifica os grupos no país que podem ser usados com este plano de discagem. O valor do parâmetro "Anywhere\*,\*\*", "define o seguinte:
 
   - Nome do grupo ("Anywhere")
 
-  - AllowedNumberString (\*, um caractere curinga indicando que qualquer cadeia de caracteres de número é permitida)
+  - AllowedNumberString (\*, um caractere curinga indicando que qualquer sequência numérica é permitida)
 
   - DialNumberString (\*, um caractere curinga indicando que qualquer número discado é permitido)
 
@@ -60,13 +60,13 @@ No segundo comando, o valor do parâmetro para o parâmetro ConfiguredInCountryO
 
 
 > [!NOTE]  
-> Criar um novo plano de discagem também criará uma Política de Caixa de Correio Padrão.
+> Criar um novo plano de discagem também criará uma política de caixa de correio padrão.
 
 
 
 </div>
 
-Após criar e configurar o novo plano de discagem, você deve adicionar esse plano ao seu servidor do unificação de mensagens e modificar o modo de inicialização do servidor; em particular, você deve definir o modo de inicialização para "Dual". Você pode executar essas duas tarefas dentro do Shell de gerenciamento do Exchange:
+Após criar e configurar o novo plano de discagem, você deve adicionar o novo plano de discagem ao seu servidor do unified messaging e modificar o modo de inicialização do servidor; em particular, você deve definir o modo de inicialização para "Dual". Você pode executar essas duas tarefas de dentro do Shell de gerenciamento do Exchange:
 
     Set-UmService -Identity "atl-exchangeum-001.litwareinc.com" -DialPlans "RedmondDialPlan" -UMStartupMode "Dual"
 
@@ -93,13 +93,13 @@ E é possível habilitar um usuário para unified messaging utilizando um comand
 
 No comando anterior, o parâmetro Extensions representa o número de extensão telefônica do usuário. Neste exemplo, o usuário possui o número de extensão 100.
 
-Após habilitar esta caixa de correio, o usuário kenmyer@litwareinc.com poderá usar a unificação de mensagens do Exchange. Você pode verificar se o usuário pode se conectar ao Exchange UM executando o cmdlet [Test-CsExUMConnectivity](https://docs.microsoft.com/powershell/module/skype/Test-CsExUMConnectivity) de dentro do Shell de gerenciamento do Lync Server:
+Após habilitar esta caixa de correio, o usuário kenmyer@litwareinc.com deve poder usar o Exchange unified messaging. Você pode verificar se o usuário pode se conectar ao UM do Exchange executando o cmdlet [Test-CsExUMConnectivity](https://docs.microsoft.com/powershell/module/skype/Test-CsExUMConnectivity) a partir do Shell de gerenciamento do Lync Server:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-Se você possui um segundo usuário habilitado para unificação de mensagens, é possível usar o cmdlet [Test-CsExUMVoiceMail](https://docs.microsoft.com/powershell/module/skype/Test-CsExUMVoiceMail) para verificar se este segundo usuário pode deixar uma mensagem de caixa postal para o primeiro usuário.
+Se você possui um segundo usuário habilitado para unified messaging, é possível usar o cmdlet [Test-CsExUMVoiceMail](https://docs.microsoft.com/powershell/module/skype/Test-CsExUMVoiceMail) para verificar se este segundo usuário pode deixar uma mensagem de caixa postal para o primeiro usuário.
 
     $credential = Get-Credential "litwareinc\pilar"
     

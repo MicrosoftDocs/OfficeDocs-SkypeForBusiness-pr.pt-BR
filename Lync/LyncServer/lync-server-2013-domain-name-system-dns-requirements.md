@@ -12,20 +12,20 @@ ms:contentKeyID: 48184194
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2eddf86c881875ebbe08fddd6ffa85403dda6b60
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2536e5079009d508765055d31e80efb1b998aa0b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739791"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006287"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="domain-name-system-dns-requirements-for-lync-server-2013"></a>Requisitos do sistema de nomes de domínio (DNS) para o Lync Server 2013
+# <a name="domain-name-system-dns-requirements-for-lync-server-2013"></a>Requisitos de DNS (sistema de nomes de domínio) para o Lync Server 2013
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "41739791"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-18_
+_**Última modificação do tópico:** 2012-06-18_
 
-Para implantar o Lync Server, você deve criar registros de sistema de nome de domínio (DNS) que permitem a descoberta de clientes e servidores e, opcionalmente, suporte para entrada automática de cliente se a sua organização quiser dar suporte a ele.
+Para implantar o Lync Server, você deve criar registros de DNS (sistema de nomes de domínio) que permitem a descoberta de clientes e servidores, e, opcionalmente, suporte para entrada automática de cliente se sua organização quiser oferecer suporte a ele.
 
 O Lync Server usa o DNS das seguintes maneiras:
 
-  - Para descobrir servidores internos ou pools para comunicações entre servidores.
+  - Para descobrir pools ou servidores internos para a comunicação entre servidores.
 
-  - Para permitir que os clientes descubram o pool de front-end ou o servidor Standard Edition usado para várias transações SIP.
+  - Para permitir que os clientes descubram o pool de front-ends ou o servidor Standard Edition usado para várias transações SIP.
 
-  - Para permitir que dispositivos de comunicação unificada (UC) não estejam conectados para descobrir o pool de front-end ou o servidor Standard Edition executando o serviço Web de atualização de dispositivos, obtenha atualizações e envie logs.
+  - Para permitir que os dispositivos UC (comunicações unificadas) que não estão conectados descubram o pool de front-ends ou o servidor Standard Edition executando o serviço Web de atualização de dispositivo, obtenham atualizações e enviem logs.
 
-  - Para permitir que servidores e clientes externos se conectem a servidores de borda ou ao proxy reverso HTTP para mensagens instantâneas (IM) ou conferência.
+  - Para permitir que servidores e clientes externos se conectem aos servidores de borda ou ao proxy reverso HTTP para mensagens instantâneas (IM) ou de conferência.
 
-  - Para permitir que dispositivos de comunicação unificada externos se conectem ao serviço Web de atualização de dispositivo por meio de servidores de borda ou do proxy reverso HTTP e obtenham atualizações
+  - Para permitir que os dispositivos de UC externos se conectem ao serviço Web de atualização de dispositivo por meio de servidores de borda ou do proxy reverso HTTP e obtenham atualizações.
 
-  - Para permitir que os clientes móveis descubram automaticamente os recursos de serviços Web sem exigir que os usuários insiram manualmente URLs nas configurações do dispositivo.
+  - Para permitir que clientes móveis descubram automaticamente os recursos dos Serviços Web sem exigir que os usuários insiram URLs manualmente nas configurações do dispositivo.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Determinar requisitios de DNS para Lync Server 2013](lync-server-2013-determine-dns-requirements.md)
+  - [Determinar requisitos de DNS para o Lync Server 2013](lync-server-2013-determine-dns-requirements.md)
 
-  - [Requisitos de DNS para pools front-end no Lync Server 2013](lync-server-2013-dns-requirements-for-front-end-pools.md)
+  - [Requisitos de DNS para pools de front-ends no Lync Server 2013](lync-server-2013-dns-requirements-for-front-end-pools.md)
 
-  - [Requisitos de DNS para servidores de edição padrão no Lync Server 2013](lync-server-2013-dns-requirements-for-standard-edition-servers.md)
+  - [Requisitos de DNS para servidores Standard Edition no Lync Server 2013](lync-server-2013-dns-requirements-for-standard-edition-servers.md)
 
   - [Requisitos de DNS para URLs simples no Lync Server 2013](lync-server-2013-dns-requirements-for-simple-urls.md)
 
-  - [Requisitos de DNS para entrada automática do cliente no Lync Server 2013](lync-server-2013-dns-requirements-for-automatic-client-sign-in.md)
+  - [Requisitos de DNS para entrada de cliente automática no Lync Server 2013](lync-server-2013-dns-requirements-for-automatic-client-sign-in.md)
 
   - [Requisitos de DNS para mobilidade com o Lync Server 2013](lync-server-2013-dns-requirements-for-mobility.md)
 

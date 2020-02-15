@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabela UserAgent'
+title: 'Lync Server 2013: tabela UserAgent'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 25d1cd6b48b09ad3083499ec3f173772d242ba6b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0ba13a18436c7a55ca68931ff2794fd584be84f9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744391"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007620"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744391"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-05-25_
+_**Última modificação do tópico:** 2012-05-25_
 
-A tabela UserAgent é uma tabela de suporte que armazena uma lista de vários agentes de usuário que participaram de sessões registradas no banco de dados. Cada registro na tabela representa um agente do usuário
+A tabela UserAgent é uma tabela de suporte que armazena uma lista dos vários agentes de usuário que participaram de sessões registradas no banco de dados. Cada registro da tabela representa um agente do usuário
 
 
 <table>
@@ -59,30 +59,30 @@ A tabela UserAgent é uma tabela de suporte que armazena uma lista de vários ag
 <tr class="odd">
 <td><p><strong>UserAgentKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primária</p></td>
-<td><p>Número exclusivo que identifica esse agente de usuário.</p></td>
+<td><p>Primário</p></td>
+<td><p>Número exclusivo que identifica esse agente do usuário.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserAgent</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Exclusividade</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Diferente</p></td>
 <td><p>Cadeia de caracteres do agente do usuário.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>UAType</strong></p></td>
+<td><p><strong>Uatype do</strong></p></td>
 <td><p>smallint</p></td>
 <td><p> </p></td>
 <td><p>1 é o servidor de mediação.</p>
-<p>2 é um servidor de conferência A/V.</p>
+<p>2 é o servidor de conferência A/V.</p>
 <p>4 é o Lync.</p>
 <p>8 é o telefone IP.</p>
 <p>16 é o console do Live Meeting.</p>
-<p>o 32 é uma ferramenta de validação de implantação (DVT).</p>
-<p>o 64 é o Lync em computadores Macintosh.</p>
-<p>o 128 é o Office Communications Server 2007 R2 Attendant.</p>
-<p>o 256 é o serviço de anúncio de conferências.</p>
-<p>o 512 é o atendedor automático da conferência.</p>
-<p>o 1024 é um aplicativo de grupo de resposta.</p>
+<p>32 é a ferramenta de validação de implantação (DVT).</p>
+<p>64 é Lync em computadores Macintosh.</p>
+<p>128 é o Office Communications Server 2007 R2 Attendant.</p>
+<p>256 é serviço de anúncio de conferência.</p>
+<p>512 é o atendedor automático de conferência.</p>
+<p>1024 é o aplicativo de grupo de resposta.</p>
 <p>2048 está fora do controle de voz.</p></td>
 </tr>
 </tbody>

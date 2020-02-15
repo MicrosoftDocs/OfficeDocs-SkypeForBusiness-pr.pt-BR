@@ -12,16 +12,16 @@ ms:contentKeyID: 48184960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 24ba45d9ba650a9de4359d64e3281fb488b6a279
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 81a57d54663b1adf837a4ca38896dd7da3eff883
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731481"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42009574"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41731481"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-12_
+_**Última modificação do tópico:** 2012-09-12_
 
-tblNode contém a árvore de objetos (com os nós da categoria ou da sala de chat), conforme gerenciado no painel de controle e cmdlets administrativos do Lync Server 2013.
+tblNode contém a árvore de objetos (com nós de sala de categoria ou de chat) conforme gerenciado no painel de controle do Lync Server 2013 e cmdlets administrativos.
 
 ### <a name="columns"></a>Colunas
 
@@ -56,80 +56,80 @@ tblNode contém a árvore de objetos (com os nós da categoria ou da sala de cha
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>NodeId</p></td>
-<td><p>int, não nulo</p></td>
-<td><p>ID do nó (número exclusivo).</p></td>
+<td><p>nodeID</p></td>
+<td><p>int, not null</p></td>
+<td><p>ID do Nó (número único).</p></td>
 </tr>
 <tr class="even">
 <td><p>nodeGuid</p></td>
 <td><p>GUID, não nulo</p></td>
-<td><p>GUID do nó.</p></td>
+<td><p>GUIDO do Nó.</p></td>
 </tr>
 <tr class="odd">
 <td><p>parentID</p></td>
 <td><p>int</p></td>
-<td><p>ID do nó do pai. O nó raiz (com ID 1) também inclui o próprio pai.</p></td>
+<td><p>ID do nó do pai. O nó raiz (com ID 1) inclui si mesmo como pai também.</p></td>
 </tr>
 <tr class="even">
 <td><p>nodeType</p></td>
-<td><p>bit, e não nulo</p></td>
+<td><p>bit, não vazio</p></td>
 <td><p>Verdadeiro se o nó for uma categoria.</p>
 <p>Falso se o nó for uma sala de chat.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Node</p></td>
-<td><p>nvarchar (256), NOT NULL</p></td>
+<td><p>Nome</p></td>
+<td><p>não nulo nvarchar (256)</p></td>
 <td><p>Nome do nó.</p></td>
 </tr>
 <tr class="even">
 <td><p>nodeDesc</p></td>
-<td><p>nvarchar (256), NOT NULL</p></td>
+<td><p>nvarchar (256), não nulo</p></td>
 <td><p>Descrição do nó.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Eles</p></td>
-<td><p>bit</p></td>
+<td><p>invite</p></td>
+<td><p>bits</p></td>
 <td><p>Para categorias:</p>
 <ul>
-<li><p>Verdadeiro se os convites estiverem em.</p></li>
-<li><p>Falso se os convites estiverem desativados.</p></li>
+<li><p>Verdadeiro se convites estiverem ativados.</p></li>
+<li><p>Falso se convites estiverem desativados.</p></li>
 </ul>
 <p>Para salas:</p>
 <ul>
-<li><p>Falso se os convites estiverem desativados (Substitui a categoria pai).</p></li>
-<li><p>Nulo se a configuração convites for herdada da categoria pai.</p></li>
+<li><p>Falso se convites estiverem desativados (substitui a categoria pai).</p></li>
+<li><p>Nulo se a configuração de convites for herdada da categoria pai.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>realizou</p></td>
-<td><p>bit</p></td>
+<td><p>login</p></td>
+<td><p>bits</p></td>
 <td><p>Para categorias:</p>
 <ul>
-<li><p>Verdadeiro se o histórico de chats estiver ativado.</p></li>
-<li><p>Falso se o histórico de chats estiver desativado.</p></li>
-</ul>
-<p>Para salas:</p>
-<ul>
-<li><p>Vazio.</p></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p>Postagem de mensagem</p></td>
-<td><p>bit</p></td>
-<td><p>Para categorias:</p>
-<ul>
-<li><p>Verdadeiro se os carregamentos de arquivo forem permitidos.</p></li>
-<li><p>Falso se os carregamentos de arquivos não forem permitidos.</p></li>
+<li><p>Verdadeiro se o histórico de chat estiver ativado.</p></li>
+<li><p>Falso se o histórico de chat estiver desativado.</p></li>
 </ul>
 <p>Para salas:</p>
 <ul>
 <li><p>Vazio.</p></li>
 </ul></td>
 </tr>
+<tr class="odd">
+<td><p>FilePost</p></td>
+<td><p>bits</p></td>
+<td><p>Para categorias:</p>
+<ul>
+<li><p>Verdadeiro se o carregamento de arquivos for permitido.</p></li>
+<li><p>Falso se o carregamento de arquivos não for permitido.</p></li>
+</ul>
+<p>Para salas:</p>
+<ul>
+<li><p>Vazio.</p></li>
+</ul></td>
+</tr>
 <tr class="even">
-<td><p>ativo</p></td>
-<td><p>bit, e não nulo</p></td>
-<td><p>Verdadeiro se a sala de chat estiver desabilitada. Aplica-se somente a salas de chat. (Falso para categorias.)</p></td>
+<td><p>deficiência</p></td>
+<td><p>bit, não nulo</p></td>
+<td><p>Verdadeiros se a sala de chat estiver desabilitada. Aplica-se somente a salas de chat (falso para categorias).</p></td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -137,62 +137,62 @@ tblNode contém a árvore de objetos (com os nós da categoria ou da sala de cha
 <td></td>
 </tr>
 <tr class="even">
-<td><p>funcionamento</p></td>
-<td><p>smallint, não nulo</p></td>
-<td><p>Comportamento (pesquisado na tabela EnumValue):</p>
+<td><p>comportamental</p></td>
+<td><p>smallint, not null</p></td>
+<td><p>Comportamento (consultado na tabela EnumValue):</p>
 <ul>
-<li><p>4: normal (salas de chat normal).</p></li>
-<li><p>5: Auditorium (salas de chat Auditorium, somente os apresentadores podem contribuir).</p></li>
+<li><p>4: Normal (salas de chat normais).</p></li>
+<li><p>5: Auditório (salas de chat de auditório, somente apresentadores podem contribuir).</p></li>
 </ul>
-<p>Aplica-se somente a salas de chat.</p></td>
+<p>Aplica-se somente a salas de chat</p></td>
 </tr>
 <tr class="odd">
-<td><p>visibilidade</p></td>
+<td><p>visibility</p></td>
 <td><p>smallint, não nulo</p></td>
-<td><p>Visibilidade (pesquisada na tabela de EnumValue):</p>
+<td><p>Visibilidade (consultado na tabela EnumValue):</p>
 <ul>
-<li><p>2: particular</p></li>
-<li><p>3: com escopo</p></li>
-<li><p>6: abrir</p></li>
+<li><p>2: Particular</p></li>
+<li><p>3: Com escopo</p></li>
+<li><p>6: Abrir</p></li>
 </ul>
-<p>Aplica-se somente a salas de chat.</p></td>
+<p>Aplica-se somente a salas de chat</p></td>
 </tr>
 <tr class="even">
 <td><p>siopID</p></td>
 <td><p>GUID</p></td>
-<td><p>GUID do suplemento se um suplemento estiver associado a esta sala de chat. (As categorias não têm suplementos.)</p>
-<p>As informações do suplemento são pesquisadas na tabela SiopWhiteList.</p></td>
+<td><p>O GUID de um suplemento é associado a esta sala de chat (categorias não possuem suplementos).</p>
+<p>As informações do suplemento são consultadas na tabela SiopWhiteList.</p></td>
 </tr>
 <tr class="odd">
 <td><p>nodeAddedBy</p></td>
-<td><p>int, não nulo</p></td>
-<td><p>ID da entidade de segurança que criou esse nó.</p></td>
+<td><p>int, not null</p></td>
+<td><p>ID da entidade de segurança que criou este nó.</p></td>
 </tr>
 <tr class="even">
 <td><p>nodeAddedOn</p></td>
-<td><p>bigint, e não nulo</p></td>
-<td><p>Carimbo de data/hora da criação de nós.</p></td>
+<td><p>bigint, não nulo</p></td>
+<td><p>Carimbo de data/hora da criação do nó.</p></td>
 </tr>
 <tr class="odd">
 <td><p>nodeUpdatedBy</p></td>
 <td><p>int, não nulo</p></td>
-<td><p>ID da entidade de segurança que fez a atualização mais recente deste nó.</p></td>
+<td><p>ID da entidade de segurança que efetuou a atualização mais recente deste nó.</p></td>
 </tr>
 <tr class="even">
 <td><p>nodeUpdatedOn</p></td>
-<td><p>bigint, e não nulo</p></td>
-<td><p>Carimbo de data/hora da atualização mais recente deste nó.</p></td>
+<td><p>bigint, não nulo</p></td>
+<td><p>Carimbo de data/hora da última atualização deste nó.</p></td>
 </tr>
 <tr class="odd">
 <td><p>purgedOn</p></td>
 <td><p>datetime</p></td>
-<td><p>Hora da última operação de limpeza (remoção de escopos da tabela tblScopedPrincipal e funções da tabela tblPrincipalRole) que afetou esse nó. Isso é usado pelo mecanismo de atualização do cache interno do serviço de chat.</p></td>
+<td><p>Horário da última operação de limpeza (remoção de escopos da tabela tblScopedPrincipal e funções da tabela tblPrincipalRole) que afetou este nó. Usado pelo mecanismo de atualização do cache interno do serviço de chat.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>As
+### <a name="keys"></a>Chaves
 
 <table>
 <colgroup>
@@ -207,24 +207,24 @@ tblNode contém a árvore de objetos (com os nós da categoria ou da sala de cha
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>NodeId</p></td>
+<td><p>nodeID</p></td>
 <td><p>Chave primária.</p></td>
 </tr>
 <tr class="even">
-<td><p>funcionamento</p></td>
-<td><p>Chave estrangeira com Lookup na tabela tblEnumValue. valueid.</p></td>
+<td><p>comportamental</p></td>
+<td><p>Chave estrangeira com consulta na tabela tblEnumValue.valueID.</p></td>
 </tr>
 <tr class="odd">
-<td><p>visibilidade</p></td>
-<td><p>Chave estrangeira com Lookup na tabela tblEnumValue. valueid.</p></td>
+<td><p>visibility</p></td>
+<td><p>Chave estrangeira com consulta na tabela tblEnumValue.valueID.</p></td>
 </tr>
 <tr class="even">
 <td><p>parentID</p></td>
-<td><p>Chave estrangeira com Lookup na tabela tblNode. NodeId.</p></td>
+<td><p>Chave estrangeira com pesquisa na tabela tblNode.nodeID.</p></td>
 </tr>
 <tr class="odd">
 <td><p>siopID</p></td>
-<td><p>Chave estrangeira com Lookup na tabela tblSiopWhiteList. siopId.</p></td>
+<td><p>Chave estrangeira com consulta na tabela tblSiopWhiteList.siopId.</p></td>
 </tr>
 </tbody>
 </table>

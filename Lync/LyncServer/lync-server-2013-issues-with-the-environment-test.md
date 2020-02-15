@@ -12,16 +12,16 @@ ms:contentKeyID: 48185970
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65803ff396a9615787291de2d728fe63f3350d0b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b7d077b22c147dd677a5db68636b2c68bfafcf23
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765339"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035043"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,33 +35,33 @@ ms.locfileid: "41765339"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-21_
+_**Última modificação do tópico:** 2012-09-21_
 
-O analisador de práticas recomendadas fornece uma maneira de verificar se o ambiente do Lync Server 2013 é uma configuração compatível. Como parte da verificação dos serviços de domínio Active Directory, o analisador de práticas recomendadas faz o seguinte:
+O Best Practices Analyzer oferece uma maneira de verificar se o seu ambiente do Lync Server 2013 é uma configuração suportada. Como parte da verificação de Serviços de Domínio do Active Directory, o analisador de práticas recomendadas realiza as seguintes tarefas:
 
-  - Verifica a floresta dos serviços de domínio Active Directory e a preparação do esquema.
+  - Verifica os Serviços de Domínio Active Directory em preparo de esquema e floresta.
 
-  - Identifica o número de domínios e sites de serviços de domínio Active Directory na implantação.
+  - Identifica o número dos sites e domínios dos Serviços de Domínio Active Directory na implantação.
 
-  - Verifica os níveis da floresta e do domínio.
+  - Verifica os níveis de floresta e domínio.
 
-  - Verifica a versão do controlador de domínio.
+  - Verifica a versãod o controlador de domínio.
 
-  - Identifica o contexto de domínio, configuração e nomenclatura de esquema.
+  - Identifica o domínio, a configuração e contexto de nomenclatura de esquema.
 
   - Identifica o número de usuários habilitados.
 
-  - Verifica onde as configurações globais dos serviços de domínio Active Directory estão armazenadas.
+  - Verifica onde as definições globais dos Serviços de Domínio Active Directory estão armazenadas.
 
-  - Verifica os pontos de conexão de serviço (SCPs) do Lync Server.
+  - Verifica os pontos de conexão de serviço (SCPs) para o Lync Server.
 
   - Identifica a versão do banco de dados.
 
 <div>
 
-## <a name="resolving-issues-with-the-environment"></a>Solucionando problemas com o ambiente
+## <a name="resolving-issues-with-the-environment"></a>Resolve problemas com  oambiente
 
-Se o teste de ambiente encontrou problemas em seu ambiente, esses problemas provavelmente são causados por problemas com a configuração do Active Directory ou com o nível de software em execução em servidores específicos. Por exemplo, se o analisador de práticas recomendadas identificar os controladores de domínio em seu ambiente que executam o Windows Server 2000, ele emitirá um aviso e você precisará atualizar esses controladores de domínio para uma versão com suporte do Windows Server.
+Se o teste de ambiente encontrou problemas com seu ambiente, esses problemas são provavelmente causados por problemas com sua configuração do Active Directory ou o nível do software executando em servidores específicos. Por exemplo, se o analisador de práticas recomendadas identificar quaisquer controladores de domínio em seu ambiente executando Windows Server 2000, ele emitirá o aviso e você deverá atualizar os controladores de domínio para uma versão suportada do Windows Server.
 
 </div>
 

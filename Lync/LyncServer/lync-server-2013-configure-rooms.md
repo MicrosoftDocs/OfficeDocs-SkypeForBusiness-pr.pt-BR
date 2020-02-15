@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurar salas'
+title: 'Lync Server 2013: configurar salas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184750
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06fea4fcda27eaedd671d833a4f53ed0ddec67c6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0d6d5fabe5b465fd2ecab3cfee7474aa64160210
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730022"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035243"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,31 +35,31 @@ ms.locfileid: "41730022"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-06_
+_**Última modificação do tópico:** 2012-10-06_
 
-Configurar salas de chat persistentes geralmente é manipulado por usuários ou outras equipes centrais usando a interface de linha de comando do Windows PowerShell; Geralmente, um administrador não gerencia as salas de chat. No entanto, se você precisar criar e gerenciar salas de chat, poderá usar a interface de linha de comando do Windows PowerShell ou adicionar-se como membro a uma sala de chat e usar o cliente Lync 2013.
+A configuração de salas de chat persistente é normalmente tratada por usuários ou outras equipes centrais usando a interface de linha de comando do Windows PowerShell; Normalmente, um administrador não gerencia as salas de chat. No entanto, se você tiver que criar e gerenciar salas de chat, poderá usar a interface de linha de comando do Windows PowerShell ou adicionar a si mesmo como um membro para uma sala de chat e usar o cliente Lync 2013.
 
-Para obter detalhes sobre como configurar salas de chat usando a interface de linha de comando do Windows PowerShell, consulte o "gerenciamento de sala" em [Configurando o servidor de chat persistente usando cmdlets do Windows PowerShell](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).
+Para obter detalhes sobre como configurar salas de chat usando a interface de linha de comando do Windows PowerShell, consulte "gerenciamento de sala" em [Configurando servidor de chat persistente usando cmdlets do Windows PowerShell](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).
 
 <div>
 
 ## <a name="managing-data-in-chat-rooms"></a>Gerenciando dados em salas de chat
 
-O servidor de chat persistente permite aos usuários colaborar enviando mensagens para salas de chat persistente. Os dados persistem no servidor e os membros da sala podem ter acesso aos dados, incluindo dados históricos. No entanto, os usuários com funções diferentes têm acesso diferente aos dados persistentes, conforme descrito na lista a seguir.
+O servidor de chat persistente permite que os usuários colaborem postando mensagens em salas de chat persistente. Os dados persistem no servidor e os membros da sala podem ter acesso a eles, inclusive ao histório de dados. No entanto, os usuários que têm funções diferentes têm acesso diferente aos dados persistentes conforme descrito na lista a seguir.
 
-  - Os administradores podem excluir qualquer conteúdo (por exemplo, conteúdo publicado antes de determinada data) de qualquer sala de chat para impedir que o banco de dados assuma proporções muito grandes. Ou podem remover ou substituir mensagens que são consideradas inapropriadamente para uma determinada sala de chat.
+  - Os administradores podem excluir qualquer conteúdo (por exemplo, conteúdo postado antes de determinada data) de qualquer sala de char para impedir que o banco de dados assuma proporções muito grandesm. Eles também podem remover ou substituir mensagens consideradas impróprias para uma sala de chat específica.
 
-  - Os usuários finais, inclusive os autores das mensagens, não podem excluir conteúdo de nenhuma sala de chat.
+  - Os usuários finais, incluisive os autores das mensagens, não podem excluir conteúdo de nenhuma sala de chat.
 
-  - Os gerentes de salas de chat podem desabilitar salas, mas não podem excluir salas. Somente os administradores podem excluir uma sala de chat depois que ela foi criada.
+  - Os gerentes das salas de chat podem desabilitar salas, mas não excluí-las. Somente os administradores podem excluir salas de chat após a criação.
 
-Quando uma mensagem é excluída, não é possível desfazer a ação. No entanto, as mensagens excluídas podem ser restauradas se houver um backup. Se um servidor de conformidade de chat persistente estiver habilitado, as mensagens antigas serão mantidas no banco de dados de conformidade.
+Quando a mensagem é excluída, não é possível desfazer a ação. No entanto, as mensagens excluídas podem ser restauradas caso exista um backup. Se um servidor de conformidade de chat persistente estiver habilitado, as mensagens antigas serão mantidas no banco de dados de conformidade.
 
 <div>
 
 
 > [!NOTE]  
-> Este uso de dados da sala de chat aplica-se ao Lync Server 2013, aplicativo de API do servidor de chat persistente, exceto quando a função de administrador estiver envolvida. A API do servidor de chat persistente não pode ser usada para fazer qualquer uma das operações do administrador. Você deve executar essas operações no Shell de gerenciamento do Lync Server.
+> Este uso de dados da sala de chat se aplica ao aplicativo de API do servidor de chat persistente do Lync Server 2013, exceto no caso em que a função de administrador está envolvida. A API do servidor de chat persistente não pode ser usada para fazer qualquer uma das operações do administrador. Você deve executar essas operações no Shell de gerenciamento do Lync Server.
 
 
 

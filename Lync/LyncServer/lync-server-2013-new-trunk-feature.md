@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Novo recurso de tronco'
+title: 'Lync Server 2013: novo recurso de tronco'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 962da42567ffcc1c0d541b74266ac5bb1b4653c3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 250b240ed0e1b42051e92e9393f10c01ebb753f5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755885"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006137"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41755885"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-21_
+_**Última modificação do tópico:** 2012-09-21_
 
-No Microsoft Lync Server 2013, vários troncos entre um servidor de mediação e um gateway podem ser definidos. O Microsoft Lync Server 2010 é permitido apenas para um único tronco entre um servidor de mediação e um gateway PSTN. Esse recurso fornece a flexibilidade para definir troncos adicionais. Um tronco é uma associação lógica entre um FQDN do servidor de mediação e uma porta de escuta e uma porta de escuta e FQDN do gateway PSTN. Essa nova funcionalidade permite uma definição de tronco fácil para resiliência (em que vários servidores de mediação podem ser usados para direcionar chamadas para o mesmo gateway PSTN), para interoperabilidade de PBX, em que vários troncos com políticas associadas diferentes podem ser usados entre e IP-PBX e um servidor de mediação e para configurações de tronco SIP em que os servidores de mediação em diferentes locais têm troncos SIP para a transportadora referenciadas pelo mesmo FQDN da operadora.
+No Microsoft Lync Server 2013, vários troncos entre um servidor de mediação e um gateway podem ser definidos. O Microsoft Lync Server 2010 é permitido apenas para um único tronco entre um servidor de mediação e um gateway PSTN. Esse recurso oferece a flexibilidade para definir troncos adicionais. Um tronco é uma associação lógica entre um FQDN do servidor de mediação e uma porta de escuta e um FQDN de gateway PSTN e uma porta de escuta. Esse novo recurso permite uma definição de tronco fácil para resiliência (onde vários servidores de mediação podem ser usados para rotear chamadas para o mesmo gateway PSTN), para a interoperabilidade de PBX, onde vários troncos com políticas associadas diferentes podem ser usados entre e IP-PBX e um servidor de mediação e configurações de tronco SIP em que os servidores de mediação em diferentes sites têm troncos SIP para a portadora referenciada pelo mesmo FQDN da operadora.
 
 <div>
 

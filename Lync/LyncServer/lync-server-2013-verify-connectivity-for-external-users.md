@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Verificar conectividade para usuários externos'
+title: 'Lync Server 2013: verificar conectividade para usuários externos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184249
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c1f8a9bbda54c596a9ccae8451b15ce7300bffd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 14d3dbc74119ff4f5669776dafce8a7cc2dee21a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763515"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007340"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verify-connectivity-for-external-users-in-lync-server-2013"></a>Verificar conectividade para usuários externos no Lync Server 2013
+# <a name="verify-connectivity-for-external-users-in-lync-server-2013"></a>Verificar a conectividade para usuários externos no Lync Server 2013
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "41763515"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-19_
+_**Última modificação do tópico:** 2012-10-19_
 
-Validar a conectividade para usuários externos requer a garantia de conectividade de usuários para o servidor e porta para o serviço de borda de acesso.
+Para validar a conectividade de usuários externos, é necessário garantir a conectividade dos usuários com o servidor e a porta do Serviço de Borda de Acesso.
 
-Um recurso valioso para confirmar a configuração e a capacidade de se conectar, enviar e receber as mensagens corretas para os cenários que o acesso de usuários externos requer é o site do analisador de conectividade remota (<http://www.testocsconnectivity.com>). O site é gerenciado e mantido pelo suporte da Microsoft. Para acessar o analisador de conectividade remota, abra o site em um navegador e siga as instruções para selecionar o cenário.
+Um recurso valioso para confirmar sua configuração e a capacidade de se conectar, enviar e receber as mensagens corretas para os cenários que o acesso de usuário externo requer é o site do analisador de conectividade remota (<http://www.testocsconnectivity.com>). O site é gerenciado e mantido pelo suporte da Microsoft. Para acessar o Analisador de Conectividade Remota, abra o site da Web em um navegador e siga as instruções para selecionar o cenário.
 
 <div>
 
-## <a name="test-connectivity-of-external-users-and-external-access"></a>Testar a conectividade de usuários externos e acesso externo
+## <a name="test-connectivity-of-external-users-and-external-access"></a>Teste a conectividade de usuários externos e do acesso externo
 
-Os testes de acesso de usuário externo devem incluir cada tipo de usuário externo compatível com a sua organização, incluindo qualquer um dos itens a seguir ou todos eles:
+Os testes de acesso de usuários externos devem incluir todos os tipos de usuário externo aceitos pela sua organização, incluindo um ou todos os seguintes:
 
-  - Usuários de pelo menos um domínio federado e testem mensagens instantâneas, presença, A/V e compartilhamento de área de trabalho.
+  - Os usuários de pelo menos um domínio federado e o teste de IM, presença, A/V e compartilhamento de área de trabalho.
 
-  - Usuários de cada provedor de serviços de mensagens de chat público compatível com a sua organização (e para a qual a configuração foi completada).
+  - Os usuários de cada provedor de serviços públicos de IM que tem suporte em sua empresa (e para o qual o provisionamento foi concluído).
 
   - Usuários anônimos.
 
-  - Os usuários dentro da sua organização que estão conectados ao Lync remotamente, mas não ao uso da VPN.
+  - Usuários em sua organização que fizeram logon no Lync remotamente, mas sem usar VPN.
 
-Estes testes determinam se o servidor de borda é:
+Esses testes determinam se o Servidor de Borda:
 
   - Escuta as portas necessárias usando um cliente telnet de fora da rede.
     
-      - Exemplo: Telnet sip.contoso.com 443
+      - Exemplo: telnet sip.contoso.com 443
     
-      - Execute o teste anterior em portas que você está usando no servidor de borda ou no pool do servidor de borda, dependendo da sua implantação.
+      - Executa o teste anterior nas portas que você está usando no Servidor de Borda ou no pool do Servidor de Borda dependendo da sua implantação.
 
   - Executa a resolução DNS externa precisa.
     
-      - De fora da rede, execute ping em cada um dos FQDNS externos do seu pool de bordas ou bordas. Mesmo que o ping falhe, você verá os endereços IP, que podem ser comparados àqueles que você atribuiu.
+      - De fora da sua rede, execute ping em cada FQDN externo da Borda ou do pool de Borda. Mesmo se o ping falhar, você verá os endereços IP, que poderá comparar com aqueles que você atribuiu.
 
 </div>
 

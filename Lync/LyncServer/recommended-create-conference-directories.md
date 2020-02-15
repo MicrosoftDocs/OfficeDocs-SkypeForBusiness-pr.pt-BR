@@ -1,5 +1,5 @@
 ---
-title: (Recomendado) Criar diretórios de conferência
+title: Recomenda Criar diretórios de conferência
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 63146389
 ms.date: 10/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d525951dcb77ee365c9c83461f678c26ae53af6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 37f4a0dbd2caf7e9a04354e0b0670dcbb47adb1b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727331"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035837"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="recommended-create-conference-directories"></a>(Recomendado) Criar diretórios de conferência
+# <a name="recommended-create-conference-directories"></a>Recomenda Criar diretórios de conferência
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41727331"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-10-03_
+_**Última modificação do tópico:** 2014-10-03_
 
-As pastas de conferência mantêm um mapeamento entre a ID de reunião alfanumérica que um participante usa para ingressar em uma conferência ao usar o Lync 2013 e a ID de conferência somente numérico que um participante de conferência discada usa para participar da conferência. O formato do ID de conferência é como segue:
+Os diretórios de conferência mantêm um mapeamento entre a ID de reunião alfanumérica que um participante usa para ingressar em uma conferência ao usar o Lync 2013 e a ID de conferência somente numérica que um participante de conferência discada usa para ingressar na conferência. O formato da ID de conferência é o seguinte:
 
     <housekeeping digit (1 digit)><conference directory (usually 1-2 digits)><conference number (variable number of digits><check digit (1 digit)>
 
-Criar vários diretórios de conferência garantirá que os IDs de conferência sejam curtos até que uma quantidade significativa de conferências seja criada. Em uma organização com um número comum de conferências por usuário, recomendamos criar um diretório de conferência para cada 999 usuários no pool. Usando esta diretriz, as IDs de conferência geralmente podem ser mantidas pequenas. No entanto, assim que o número de diretórios de conferência (em todos os pools) ultrapassar 9, o tamanho do ID de conferência aumentará para suportar conferências adicionais.
+A criação de vários diretórios de conferência garantirá que as IDs de conferência permaneçam curtas até que uma quantidade significativa de conferências tenha sido criada. Em uma organização com um número típico de conferências por usuário, recomendamos que você crie um diretório de conferência para cada 999 usuários no pool. Usando essa diretriz, as IDs de conferência geralmente podem ser mantidas pequenas. No entanto, depois que o número de diretórios de conferência (em todos os pools) ultrapassar 9, o comprimento da ID de conferência aumentará para suportar conferências adicionais.
 
 <div>
 
-## <a name="creating-a-conference-directory"></a>Criando um diretório de conferência
+## <a name="creating-a-conference-directory"></a>Criar um diretório de conferência
 
 1.  No Shell de gerenciamento do Lync Server, digite o seguinte cmdlet:
     
         New-CsConferenceDirectory -Identity <XdsGlobalRelativeIdentity> -HomePool <String> [-Confirm [<SwitchParameter>]] [-Force <SwitchParameter>] [-WhatIf [<SwitchParameter>]]
     
-    Por exemplo, o seguinte cria um diretório de conferência com a identidade 42, hospedada na atl-cs-001.litwareinc.com do pool:
+    Por exemplo, o seguinte cria um diretório de conferência com a identidade 42, hospedado no pool atl-cs-001.litwareinc.com:
     
         New-CsConferenceDirectory -Identity 42 -HomePool "atl-cs-001.litwareinc.com"
 

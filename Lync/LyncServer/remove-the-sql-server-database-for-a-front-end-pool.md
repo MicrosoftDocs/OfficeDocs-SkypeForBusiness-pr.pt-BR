@@ -1,5 +1,5 @@
 ---
-title: Remover o banco de dados do Servidor SQL para um pool Front-End
+title: Remover o banco de dados do SQL Server para um pool de front-ends
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733681
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 853b52c6f6a06d05f106114ab6b59ebc52129fc3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a6aba3f084be6c40d5019af5da37f1a682f6eb8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727141"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035767"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-the-sql-server-database-for-a-front-end-pool"></a>Remover o banco de dados do Servidor SQL para um pool Front-End
+# <a name="remove-the-sql-server-database-for-a-front-end-pool"></a>Remover o banco de dados do SQL Server para um pool de front-ends
 
 </div>
 
@@ -35,43 +35,43 @@ ms.locfileid: "41727141"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-04_
+_**Última modificação do tópico:** 2012-10-04_
 
-Depois de remover um pool de front-end do Microsoft Lync Server 2010 ou reconfigurar o pool para usar um banco de dados diferente, você pode remover os bancos de dados do SQL Server que hospedavam os dados do pool. Use os procedimentos a seguir para remover as definições do construtor de topologias e, em seguida, remover os arquivos de banco de dados e de log do servidor de banco de dados.
+Após remover um pool de front-ends do Microsoft Lync Server 2010 ou reconfigurar o pool para usar um banco de dados diferente, você pode remover os bancos de dados do SQL Server que hospedam os dados do pool. Use os procedimentos a seguir para remover as definições do construtor de topologias e, em seguida, remover os arquivos de banco de dados e de log do servidor de banco de dados.
 
 <div>
 
-## <a name="to-remove-the-sql-server-database-using-topology-builder"></a>Para remover o banco de dados do SQL Server usando o construtor de topologias
+## <a name="to-remove-the-sql-server-database-using-topology-builder"></a>Para remover o banco de dados do SQL Server usando o construtor de topologia
 
 1.  No servidor front-end do Lync Server 2013, abra o construtor de topologias e baixe a topologia existente.
 
-2.  No construtor de topologias, navegue até **componentes compartilhados** e, em seguida, **repositórios do SQL Server**, clique com o botão direito do mouse na instância do SQL Server associada ao pool de front-end removido ou reconfigurado e clique em **excluir**.
+2.  No construtor de topologias, navegue até **componentes compartilhados** e, em seguida, **repositórios do SQL Server**, clique com o botão direito do mouse na instância do SQL Server associada ao pool de front-ends removido ou reconfigurado e clique em **excluir**.
 
-3.  Publique a topologia e verifique o status de replicação.
+3.  Publique a topologia e verifique o status da replicação.
 
 </div>
 
 <div>
 
-## <a name="to-remove-user-and-application-databases-from-the-sql-server"></a>Para Remover bancos de dados de usuários e aplicativos do SQL Server
+## <a name="to-remove-user-and-application-databases-from-the-sql-server"></a>Para remover os bancos de dados de usuário e de aplicativo do SQL Server
 
-1.  Para remover os bancos de dados no SQL Server, você deve ser membro do grupo Administradores do SQL Server do SQL Server no qual está removendo os arquivos de banco de dados.
+1.  Para remover os bancos de dados do SQL Server, você deve ser um membro do grupo SQL Server sysadmins do SQL Server do qual está removendo os arquivos de banco de dados.
 
 2.  Abrir o Shell de gerenciamento do Lync Server
 
-3.  Para remover o banco de dados do armazenamento de usuários do pool, digite:
+3.  Para remover o banco de dados do repositório de usuários do pool, digite:
     
         Uninstall-CsDataBase -DatabaseType User -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
     
-    Onde \<FQDN\> é o nome de domínio totalmente qualificado (FQDN) do servidor de banco de \<dados\> e a instância é a instância do banco de dados nomeado (ou seja, se foi definida uma).
+    Onde \<FQDN\> é o FQDN (nome de domínio totalmente qualificado) do servidor de banco de \<dados\> e instância é a instância de banco de dados nomeada (isto é, se houver uma definida).
 
 4.  Para remover o banco de dados do repositório de aplicativos do pool, digite:
     
         Uninstall-CsDataBase -DatabaseType Application -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
     
-    Onde \<FQDN\> é o FQDN do servidor de banco de dados \<,\> e instância é a instância do banco de dados nomeado (ou seja, se foi definida uma).
+    Onde \<FQDN\> é o FQDN do servidor de banco de dados \<e\> instância é a instância do banco de dados nomeado (ou seja, se houver uma definida).
 
-5.  Quando o cmdlet **Uninstall-CsDataBase** solicita que você confirme ações, leia as informações e, em seguida, pressione **Y** (ou pressione Enter) para continuar, ou pressione **N** e, em seguida, insira se você deseja parar o cmdlet (ou seja, em caso de erros).
+5.  Quando o cmdlet **Uninstall-CsDataBase** solicitar que você confirme as ações, leia as informações e pressione **Y** (ou Enter) para continuar ou pressione **N** e em seguida Enter se desejar interromper o cmdlet (em caso de erros).
 
 </div>
 

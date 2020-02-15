@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: modificar um tronco no construtor de topologias'
+title: 'Lync Server 2013: modificar um tronco no construtor de topologia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733709
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e1c603aa24a0d31ea87178f740f824ae77f20f4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d5b4c69fdf4b7dbad79f4b9c2627e74ea855cd02
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758643"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035917"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="modify-a-trunk-in-topology-builder-in-lync-server-2013"></a>Modificar um tronco no construtor de topologias no Lync Server 2013
+# <a name="modify-a-trunk-in-topology-builder-in-lync-server-2013"></a>Modificar um tronco no construtor de topologia no Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41758643"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-21_
+_**Última modificação do tópico:** 2012-09-21_
 
-Siga estas etapas para modificar o endereço IP de mídia alternativo e o identificador de bypass alternativo de um tronco.
+Siga estes passos para modificar o endereço IP de mídia alternativa e identificador alternativo de bypass de um tronco.
 
 <div>
 
-## <a name="to-modify-the-alternate-media-ip-address-of-a-trunk"></a>Para modificar o endereço IP de mídia alternativo de um tronco
+## <a name="to-modify-the-alternate-media-ip-address-of-a-trunk"></a>Para modificar o endereço IP de mídia alternativa de um tronco
 
-1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 2.  Execute o cmdlet Set-CsPstnGateway e modifique o campo AlternateBypassId no Shell de gerenciamento do Lync Server.
     
@@ -53,9 +53,9 @@ Siga estas etapas para modificar o endereço IP de mídia alternativo e o identi
 
 <div>
 
-## <a name="to-modify-the-alternate-bypassid-of-a-trunk"></a>Para modificar o Bypassid alternativo de um tronco
+## <a name="to-modify-the-alternate-bypassid-of-a-trunk"></a>Para modificar o BypassID alternativo de um tronco
 
-1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 2.  Execute o cmdlet Set-CsPstnGateway e modifique o campo AlternateBypassId no Shell de gerenciamento do Lync Server.
     

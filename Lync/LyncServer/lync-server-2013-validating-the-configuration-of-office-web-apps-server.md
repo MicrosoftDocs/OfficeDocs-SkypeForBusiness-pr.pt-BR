@@ -12,16 +12,16 @@ ms:contentKeyID: 48185859
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 541929233eff5e401b3998aa84e463e2640378c0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 34c774411fd825dd01595ef1e51ffa9c65c6eb8f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763565"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007390"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,29 +35,29 @@ ms.locfileid: "41763565"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-04-22_
+_**Última modificação do tópico:** 2014-04-22_
 
-Após a publicação do Office Web Apps Server na topologia e após a publicação da topologia, você verá dois novos eventos do log de eventos no log de eventos do Lync Server. Primeiro, um evento LS Data MCU (ID 41034) deve ser adicionado; esse evento relatará que o Servidor do Office Web Apps foi descoberto:
+Depois que o servidor do Office Web Apps tiver sido adicionado à topologia e depois que essa topologia tiver sido publicada, você verá dois eventos de log de eventos novos no log de eventos do Lync Server. Primeiro, um evento MCU de dados de LS (ID de evento 41034) deve ser adicionado; Este evento relatará que o servidor do Office Web Apps foi descoberto:
 
-**O Servidor do Office Web Apps do servidor de webconferência foi descoberto, o conteúdo do PowerPoint está habilitado.**
+**Servidor de conferência da Web o servidor do Office Web Apps é descoberto, o conteúdo do PowerPoint está habilitado.**
 
 Além disso, você deve ver outro evento LS Data MCU (ID 41032) que relata as URLs do Office Web Apps Server. Por exemplo, você deve ver algo semelhante a isso:
 
-**Descoberta bem-sucedida do Servidor do Office Web Apps dp Servidor de Conferência da Web.**
+**Descoberta bem-sucedida do servidor do Office Web Apps do servidor de Webconferência.**
 
 **Página do apresentador interno do servidor do Office Web Apps:https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0\&embed=**
 
-**Página de participantes do servidor do Office Web Apps Server Internal:https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0\&embed=true&=**
+**Página de participantes internos do servidor do Office Web Apps:https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0\&embed=true&=**
 
-**Página do apresentador externo do Office Web Apps Server:https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0\&embed**
+**Página do apresentador externo do servidor do Office Web Apps:https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0\&embed**
 
-**Página de participantes do servidor do Office Web Apps Server Internal:https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0\&embed=true&**
+**Página de participantes internos do servidor do Office Web Apps:https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0\&embed=true&**
 
-Se você vir um evento de MCU de dados LS com a ID do evento 41033, isso significa que o descobrimento do servidor do Office Web Apps falhou. Nesse caso, o Microsoft Lync Server 2013 experimentará quantas vezes forem necessárias para descobrir o servidor Office Web Apps recém configurado. Se o processo de descoberta falhar repetidamente, remova o servidor do Office Web Apps do documento de topologia, publique a topologia atualizada e tente adicionar o servidor do Office Web Apps novamente à topologia após a resolução dos problemas de conectividade.
+Se você ver um evento LS Data MCU com o ID 41033, significa que a descoberta do Office Web Apps Server falhou. Nesse caso, o Microsoft Lync Server 2013 tentará quantas vezes forem necessárias para descobrir o servidor do Office Web Apps recém configurado. Se o processo de descoberta falhar repetidamente, você deve remover o Office Web Apps Server do seu documento de topologia, publicar a topologia atualizada e tentar adicionar o Office Web Apps Server novamente à topologia depois que os problemas de conectividade tiverem sido resolvidos.
 
-Se o Office Web Apps Server parece estar configurado corretamente e foi reconhecido pelo processo de descoberta, você pode verificar se o servidor do Office Web Apps está funcionando como esperado compartilhando uma apresentação do PowerPoint entre um par de clientes do Microsoft Lync 2013. Se o usuário A conseguir carregar e exibir a apresentação do PowerPoint e se o usuário B puder entrar na reunião e ver essa apresentação, o Office Web Apps Server está funcionando.
+Se o servidor do Office Web Apps parece estar configurado corretamente e foi reconhecido pelo processo de descoberta, é possível verificar se o servidor do Office Web Apps está funcionando conforme o esperado, compartilhando uma apresentação do PowerPoint entre um par de clientes do Microsoft Lync 2013. Se o Usuário A puder carregar e exibir a apresentação do PowerPoint e se o Usuário B puder participar da reunião e ver a apresentação, então o Office Web Apps Server está funcionando.
 
-Mesmo que o Office Web Apps Server pareça estar configurado corretamente, você pode possivelmente receber a mensagem de erro "alguns recursos de compartilhamento estão indisponíveis devido a problemas de conectividade do servidor" quando você tenta compartilhar uma apresentação do PowerPoint. Se você receber a mensagem de erro, reinicie o servidor front-end (ou servidores) associado ao novo servidor do Office Web Apps.
+Mesmo que o Office Web Apps Server pareça estar configurado corretamente, é possível receber a mensagem de erro “Alguns recursos de compartilhamento não estão disponíveis devido a problemas de conectividade do servidor” ao tentar compartilhar uma apresentação do PowerPoint. Se você receber essa mensagem de erro, você deve reiniciar o servidor (ou servidores) de Front End associados ao novo Office Web Apps Server.
 
 </div>
 

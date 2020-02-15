@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Processo de implantação para Roteamento Baseado em Local'
+title: 'Lync Server 2013: processo de implantação para roteamento baseado em local'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803966
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02e09106bc9d96fbfab2935aec07f3c472f49d6a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 93b26498593038231be527c98e62ee1f13865df1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762599"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035173"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-location-based-routing-in-lync-server-2013"></a>Processo de implantação para Roteamento Baseado em Local no Lync Server 2013
+# <a name="deployment-process-for-location-based-routing-in-lync-server-2013"></a>Processo de implantação para roteamento baseado em local no Lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41762599"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-03-09_
+_**Última modificação do tópico:** 2013-03-09_
 
-Este tópico fornece uma visão geral do processo envolvido na configuração de roteamento baseado em localização. Você deve implantar o Lync Server Enterprise Edition ou Standard Edition com o Enterprise Voice antes de configurar o roteamento baseado no local. Os componentes exigidos pelo roteamento baseado em local já estão instalados e habilitados quando você implanta o Enterprise Voice.
+Este tópico fornece uma visão geral do processo envolvido na configuração do roteamento baseado em local. Você deve implantar o Lync Server Enterprise Edition ou Standard Edition com o Enterprise Voice antes de configurar o roteamento baseado no local. Os componentes exigidos pelo roteamento baseado em local já estão instalados e habilitados quando você implanta o Enterprise Voice.
 
-### <a name="location-based-routing-deployment-process"></a>Processo de implantação de roteamento baseado em localização
+### <a name="location-based-routing-deployment-process"></a>Processo de implantação de roteamento baseado em local
 
 <table>
 <colgroup>
@@ -52,8 +52,8 @@ Este tópico fornece uma visão geral do processo envolvido na configuração de
 <tr class="header">
 <th>Fase</th>
 <th>Etapas</th>
-<th>Grupos e funções necessários</th>
-<th>Documentação de Implantação</th>
+<th>Grupos e funções exigidos</th>
+<th>Documentação da implantação</th>
 </tr>
 </thead>
 <tbody>
@@ -62,12 +62,12 @@ Este tópico fornece uma visão geral do processo envolvido na configuração de
 <td><ul>
 <li><p>Configurar troncos</p></li>
 <li><p>Criar políticas de voz</p></li>
-<li><p>Definir roteiros de voz</p></li>
+<li><p>Definir rotas de voz</p></li>
 </ul></td>
 <td><p>CSVoiceAdmins<br />
 CsAdministrator<br />
 CsServerAdministrator</p></td>
-<td><p>Implantação do Enterprise Voice</p></td>
+<td><p>Implantando o Enterprise Voice</p></td>
 </tr>
 <tr class="even">
 <td><p>Verificar a implantação do Enterprise Voice</p></td>
@@ -89,16 +89,16 @@ CsAdministrator<br />
 CsServerAdministrator</p></td>
 <td><p>Sobre regiões de rede, sites e sub-redes<br />
 Criar ou modificar uma região de rede<br />
-Criar ou modificar um site de rede<br />
-Associar uma sub-rede a um site de rede</p></td>
+Criar ou modificar um local de rede<br />
+Associar uma subrede a um local de rede</p></td>
 </tr>
 <tr class="even">
-<td><p>Configurar o roteamento baseado no local</p></td>
+<td><p>Configurar roteamento baseado em local</p></td>
 <td><ul>
 <li><p>Criar políticas de roteamento de voz</p></li>
 <li><p>Definir configuração de tronco separada por tronco</p></li>
 <li><p>Modificar políticas de voz</p></li>
-<li><p>Habilitar a configuração de roteamento baseado em localização</p></li>
+<li><p>Habilitar configuração de roteamento baseado em local</p></li>
 </ul></td>
 <td><p>CSVoiceAdmins<br />
 CsAdministrator<br />
@@ -111,7 +111,7 @@ CsServerAdministrator</p></td>
 
 <div>
 
-## <a name="sample-deployment"></a>Exemplo de implantação
+## <a name="sample-deployment"></a>Implantação de amostra
 
 A implantação a seguir é usada para ilustrar mais os mecanismos habilitados pelo roteamento baseado em local.
 
@@ -119,13 +119,13 @@ A implantação a seguir é usada para ilustrar mais os mecanismos habilitados p
 
 <div>
 
-## <a name="incoming-pstn-calls"></a>Chamadas PSTN recebidas
+## <a name="incoming-pstn-calls"></a>Chamadas PSTN de entrada
 
-Um administrador pode habilitar o tronco definido para direcionar chamadas para "gateway do site 1" para roteamento baseado em local e associar o "gateway do site 1" ao site 1. Uma vez habilitada, as chamadas roteadas pelo "gateway do site 1" só serão roteadas para os usuários localizados no site 1. Todas as chamadas roteadas pelo tronco "gateway do site 1" destinados a usuários em um site diferente, como o site 2 serão bloqueadas para impedir o bypass de chamada PSTN.
+Um administrador pode habilitar o tronco definido para rotear chamadas para o "gateway do site 1" para o roteamento baseado em local e associar o "gateway do site 1" ao site 1. Uma vez habilitado, as chamadas que são roteadas através do "gateway do site 1" serão roteadas apenas para os usuários localizados no site 1. Todas as chamadas encaminhadas pelo tronco "gateway do site 1" destinado a usuários em um site diferente, como o site 2, serão bloqueadas para evitar o bypass de chamada PSTN.
 
-Todas as chamadas PSTN de entrada por meio do "gateway do site 1" só poderão ser roteadas para pontos de extremidade localizados no site 1. Por exemplo, quando "usuário do Lync 1" viaja para o site 2, todas as chamadas PSTN de entrada por meio do "gateway do site 1" não serão roteadas para os pontos de extremidade "usuário do Lync 1" localizado no site 2. A mesma regra de roteamento se aplica se "usuário do Lync 1" viajar para um site de rede desconhecido onde a localização do usuário não pode ser determinada.
+Todas as chamadas PSTN de entrada através do "gateway do site 1" só poderão ser roteadas para pontos de extremidade localizados no site 1. Por exemplo, quando "o usuário 1 do Lync" passa para o site 2, todas as chamadas PSTN de entrada através do "gateway do site 1" não serão encaminhadas para os pontos de extremidade "usuário do Lync 1" localizados no site 2. A mesma regra de roteamento se aplica se o "usuário do Lync 1" viajar para um local de rede desconhecido onde o local do usuário não pode ser determinado.
 
-A tabela a seguir descreve a experiência do usuário do "usuário do Lync 1" nesse contexto.
+A tabela a seguir descreve a experiência do usuário "Lync user 1" neste contexto.
 
 
 <table>
@@ -138,17 +138,17 @@ A tabela a seguir descreve a experiência do usuário do "usuário do Lync 1" ne
 <thead>
 <tr class="header">
 <th></th>
-<th>Pontos de extremidade de usuário 1 do Lync localizados no site de rede 1</th>
-<th>Pontos de extremidade de usuário 1 do Lync localizados no site de rede 2</th>
-<th>Pontos de extremidade de usuário 1 do Lync localizados em um site de rede desconhecido</th>
+<th>Pontos de extremidade do usuário 1 do Lync localizados no local de rede 1</th>
+<th>Pontos de extremidade do usuário 1 do Lync localizados no local de rede 2</th>
+<th>Pontos de extremidade de usuário 1 do Lync localizados no site de rede desconhecido</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Chamadas PSTN de entrada para o usuário 1 do Lync</p></td>
 <td><p>As chamadas são roteadas para pontos de extremidade neste local</p></td>
-<td><p>As chamadas não são roteadas para pontos de extremidade neste local</p></td>
-<td><p>As chamadas não são roteadas para pontos de extremidade neste local</p></td>
+<td><p>As chamadas não são encaminhadas para pontos de extremidade neste local</p></td>
+<td><p>As chamadas não são encaminhadas para pontos de extremidade neste local</p></td>
 </tr>
 </tbody>
 </table>
@@ -160,9 +160,9 @@ A tabela a seguir descreve a experiência do usuário do "usuário do Lync 1" ne
 
 ## <a name="outgoing-pstn-calls"></a>Chamadas PSTN de saída
 
-As rotas de voz são referenciadas em políticas de voz atribuídas diretamente a usuários e políticas de roteamento de voz atribuídas a sites de rede. Ambas as políticas contêm referências a rotas, que podem ser usadas para direcionar uma chamada de maneira diferente. Por exemplo, um administrador pode definir uma política de roteamento de voz para todos os usuários localizados no site 1 de rede para direcionar todas as chamadas feitas por meio do "gateway do site 1" enquanto a política de voz de alguns usuários define uma rota para todas as chamadas feitas por meio do "gateway 2 do site". Enquanto esses usuários estão localizados no site da rede 1, suas chamadas de saída serão roteadas pelo "gateway do site 1".
+As rotas de voz são referenciadas nas políticas de voz atribuídas diretamente aos usuários e as políticas de roteamento de voz atribuídas a sites de rede. Ambas as políticas contêm referências a rotas, que podem ser usadas para rotear uma chamada de forma diferente. Por exemplo, um administrador pode definir uma política de roteamento de voz para todos os usuários localizados no local de rede 1 para rotear todas as chamadas de saída através do "gateway do site 1" enquanto a política de voz de alguns usuários define uma rota para todas as chamadas de saída através do "gateway do site 2". Enquanto esses usuários estão localizados no local de rede 1, suas chamadas de saída serão roteadas pelo "gateway do site 1".
 
-Quando um usuário está localizado em um site de rede configurado para roteamento baseado em local, a rota da política de roteamento de voz do site da rede substitui a rota de política de voz do usuário. Essa regra é particularmente útil para os usuários que se movem temporariamente para um site diferente. Nesse caso específico, um usuário sempre usará um gateway local para o seu local; Se o "usuário do Lync 3" estiver localizado em "site 2", todas as suas chamadas serão roteadas pelo "gateway do site 2", mas se ele viajar para o site 1, todas as suas chamadas feitas durante o site 1 serão roteadas pelo "gateway do site 1".
+Quando um usuário está localizado em um site de rede configurado para roteamento baseado em local, a rota da política de roteamento de voz do site de rede substitui a rota de política de voz do usuário. Essa regra é particularmente útil para usuários que se movem temporariamente para um site diferente. Neste caso específico, um usuário sempre usará um gateway local para seu local; Se o "usuário do Lync 3" estiver localizado em "site 2", todas as chamadas de saída serão encaminhadas por meio de "gateway do site 2", mas se ele viajar para o site 1, todas as chamadas de saída feitas enquanto ele está no site 1 serão roteadas pelo "gateway do site 1".
 
 A tabela a seguir ilustra a experiência do usuário do Lync usuário 1 fazendo uma chamada de saída dos seguintes sites de rede.
 
@@ -177,9 +177,9 @@ A tabela a seguir ilustra a experiência do usuário do Lync usuário 1 fazendo 
 <thead>
 <tr class="header">
 <th></th>
-<th>Site de rede 1</th>
-<th>Site de rede 2</th>
-<th>Site de rede desconhecido ou não habilitado para roteamento baseado em local</th>
+<th>Local de rede 1</th>
+<th>Local de rede 2</th>
+<th>Local de rede desconhecido ou não habilitado para roteamento baseado em local</th>
 </tr>
 </thead>
 <tbody>
@@ -207,7 +207,7 @@ A tabela a seguir ilustra a experiência do usuário do Lync usuário 1 fazendo 
 
 Quando as chamadas são transferidas ou encaminhadas, o roteamento de chamadas é afetado pelo roteamento baseado em local.
 
-A tabela a seguir descreve o usuário do Lync 1 transferindo ou encaminhando uma chamada PSTN para outro usuário do Lync.
+A tabela a seguir mostra a transferência ou o encaminhamento de uma chamada PSTN para outro usuário do Lync.
 
 
 <table>
@@ -219,10 +219,10 @@ A tabela a seguir descreve o usuário do Lync 1 transferindo ou encaminhando uma
 </colgroup>
 <thead>
 <tr class="header">
-<th>Usuário Iniciando transferência ou encaminhamento de chamadas</th>
+<th>Usuário Iniciando transferência de chamada ou encaminhamento</th>
 <th>Usuário do Lync 2</th>
 <th>Usuário do Lync 4</th>
-<th>Usuário do Lync no site de rede não habilitado para roteamento baseado em local</th>
+<th>Usuário do Lync no local de rede não habilitado para roteamento baseado em local</th>
 </tr>
 </thead>
 <tbody>
@@ -236,7 +236,7 @@ A tabela a seguir descreve o usuário do Lync 1 transferindo ou encaminhando uma
 </table>
 
   
-A tabela a seguir ilustra como o roteamento baseado em localização afeta a forma como a chamada é roteada com base no local do usuário do Lync que está sendo transferido (usuário do Lync 2, usuário do Lync 4 etc) para um ponto de extremidade PSTN
+A tabela a seguir ilustra como o roteamento baseado em local afeta como a chamada é roteada com base no local do usuário do Lync que está sendo transferido (usuário do Lync 2, usuário do Lync 4 etc.) para um ponto de extremidade PSTN
 
 
 <table>
@@ -251,15 +251,15 @@ A tabela a seguir ilustra como o roteamento baseado em localização afeta a for
 <th>Ponto de extremidade onde a chamada é transferida ou encaminhada para</th>
 <th>Usuário do Lync 2</th>
 <th>Usuário do Lync 4</th>
-<th>Usuário do Lync no site de rede não habilitado para roteamento baseado em local</th>
+<th>Usuário do Lync no local de rede não habilitado para roteamento baseado em local</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Ponto de extremidade PSTN</p></td>
-<td><p>Encaminhamento de chamadas ou transferência é roteada pela política de roteamento de voz do site 1 e egresso pelo gateway do site 1</p></td>
-<td><p>Encaminhamento de chamadas ou transferência é roteada pela política de roteamento de voz do site 2 e egresso via gateway do site 2</p></td>
-<td><p>Encaminhamento de chamadas ou transferência é roteada pela política de voz do usuário do Lync e egresso por meio de um gateway não habilitado para roteamento baseado em local (se disponível)</p></td>
+<td><p>Encaminhamento ou transferência de chamada é roteado através da política de roteamento de voz do site 1 e egresso por meio do gateway do site 1</p></td>
+<td><p>Encaminhamento ou transferência de chamada é roteado por meio da política de roteamento de voz do site 2 e egresso por meio do gateway do local</p></td>
+<td><p>Encaminhamento ou transferência de chamada é roteado através da política de voz de usuário do Lync e egresso por meio de um gateway não habilitado para roteamento baseado em local (se disponível)</p></td>
 </tr>
 </tbody>
 </table>
@@ -271,9 +271,9 @@ A tabela a seguir ilustra como o roteamento baseado em localização afeta a for
 
 ## <a name="simultaneous-ringing"></a>Toque simultâneo
 
-Quando o roteamento baseado em local está configurado na topologia de exemplo, as seguintes interações são impostas.
+Quando o roteamento baseado em local é configurado na topologia de exemplo, as seguintes interações são aplicadas.
 
-A tabela a seguir ilustra se o roteamento baseado em localização permite o toque simultâneo para diferentes usuários do Lync (ou seja, usuário do Lync 2, usuário do Lync 4, etc).
+A tabela a seguir ilustra se o roteamento baseado em local permite o toque simultâneo para diferentes usuários do Lync (ou seja, usuário do Lync 2, usuário do Lync 4, etc.).
 
 
 <table>
@@ -288,7 +288,7 @@ A tabela a seguir ilustra se o roteamento baseado em localização permite o toq
 <th>Destino da chamada PSTN de entrada</th>
 <th>Usuário do Lync 2</th>
 <th>Usuário do Lync 4</th>
-<th>Usuário do Lync no site de rede não habilitado para roteamento baseado em local</th>
+<th>Usuário do Lync no local de rede não habilitado para roteamento baseado em local</th>
 </tr>
 </thead>
 <tbody>
@@ -302,7 +302,7 @@ A tabela a seguir ilustra se o roteamento baseado em localização permite o toq
 </table>
 
   
-A tabela a seguir ilustra se o roteamento baseado em localização permite o toque simultâneo para um ponto de extremidade PSTN de diferentes usuários do Lync (ou seja, usuário do Lync 2, usuário do Lync 4, etc).
+A tabela a seguir ilustra se o roteamento baseado em local permite o toque simultâneo para um ponto de extremidade PSTN de diferentes usuários do Lync (ou seja, usuário do Lync 2, usuário do Lync 4, etc.).
 
 
 <table>
@@ -314,18 +314,18 @@ A tabela a seguir ilustra se o roteamento baseado em localização permite o toq
 </colgroup>
 <thead>
 <tr class="header">
-<th>Destino de toque simultâneo</th>
+<th>Alvo de anel simultâneo</th>
 <th>Usuário do Lync 2</th>
 <th>Usuário do Lync 4</th>
-<th>Usuário do Lync no site de rede não habilitado para roteamento baseado em local</th>
+<th>Usuário do Lync no local de rede não habilitado para roteamento baseado em local</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Telefone celular usuário 1 do Lync (ponto de extremidade PSTN)</p></td>
-<td><p>Chamada roteada pela política de roteamento de voz do site 1 e egresso por meio do gateway do site 1</p></td>
-<td><p>Chamada roteada pela política de roteamento de voz do site 2 da rede e egresso via gateway do site 2</p></td>
-<td><p>Chamada roteada pela política de voz do chamador e será egresso por meio de um gateway PSTN não habilitado para roteamento baseado em local</p></td>
+<td><p>Celular do Lync user 1 (ponto de extremidade PSTN)</p></td>
+<td><p>Chamada roteada pela política de roteamento de voz do site 1 de rede e egresso por meio do gateway do site 1</p></td>
+<td><p>Chamada roteada por meio da política de roteamento de voz do site 2 de rede e saída por meio do gateway do site 2</p></td>
+<td><p>Chamada roteada através da política de voz do chamador e será egresso por meio de um gateway PSTN não habilitado para roteamento baseado em local</p></td>
 </tr>
 </tbody>
 </table>
@@ -340,7 +340,7 @@ A tabela a seguir ilustra se o roteamento baseado em localização permite o toq
 ## <a name="see-also"></a>Confira também
 
 
-[Planejamento de Roteamento Baseado em Local no Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
+[Planejamento de roteamento baseado em local no Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
   
 
 </div>

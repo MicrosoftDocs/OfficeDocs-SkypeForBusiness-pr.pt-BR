@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: relatório de IM ponto a ponto'
+title: 'Lync Server 2013: relatório de mensagens instantâneas ponto a ponto'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183533
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 359c3fad7f41d990ffdba3aa533d0d5f10456665
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b74f22e422539a8d7de1f2f7bad29a72d43646a5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755301"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41989286"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-im-report-in-lync-server-2013"></a>Relatório de IM ponto a ponto no Lync Server 2013
+# <a name="peer-to-peer-im-report-in-lync-server-2013"></a>Relatório de mensagens instantâneas ponto a ponto no Lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41755301"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
-O Relatório de Mensagens Instantâneas Ponto a Ponto fornece informações de tendência sobre sessões de IM (mensagens instantâneas) ponto a ponto, detalhadas por pool e tipo de autenticação. O relatório pode mostrar o número total de sessões que aconteceram durante o período de tempo especificado (por exemplo, dia por dia ou hora por hora), ou pode mostrar o número total de mensagens instantâneas enviadas durante esse período de tempo.
+O Relatório de Mensagens Instantâneas Ponto a Ponto fornece informações de tendência sobre sessões de IM (mensagens instantâneas) ponto a ponto, detalhadas por pool e tipo de autenticação. O relatório pode mostrar o número total de sessões que aconeceram durante o período de tempo especificado (por exemplo, dia por dia ou hora por hora), ou pode mostrar o número total de mensagens instantâneas enviadas durante esse período de tempo.
 
 <div>
 
 ## <a name="accessing-the-peer-to-peer-im-report"></a>Acessando o Relatório de Mensagens Instantâneas Ponto a Ponto
 
-Você pode acessar o relatório de mensagem instantânea ponto a ponto apenas abrindo o [relatório de Resumo de atividades ponto a ponto no Lync Server 2013](lync-server-2013-peer-to-peer-activity-summary-report.md) e, em seguida, clicando em qualquer uma das seguintes métricas:
+Você pode acessar o relatório de mensagens instantâneas ponto a ponto apenas abrindo o [relatório de Resumo de atividades ponto a ponto no Lync Server 2013](lync-server-2013-peer-to-peer-activity-summary-report.md) e, em seguida, clicando em uma das seguintes métricas:
 
   - Total de sessões de mensagens instantâneas ponto a ponto
 
-  - Total de mensagens instantâneas ponto a ponto
+  - Total de mensagens de IM ponto a ponto
 
 </div>
 
@@ -55,7 +55,7 @@ Você pode acessar o relatório de mensagem instantânea ponto a ponto apenas ab
 
 ## <a name="making-the-best-use-of-the-peer-to-peer-im-report"></a>Usando o Relatório de Mensagens Instantâneas Ponto a Ponto da melhor maneira possível
 
-Por padrão, o Relatório de Mensagens Instantâneas Ponto a Ponto mostra a você a contagem de mensagens por hora (ou dia, dependendo de suas configurações). No entanto, você também pode escolher visualizar o dia por sessões por hora. Para fazer isso, clique em **Ocultar/Exibir Parâmetros** no canto superior direito da janela Relatórios, e então clique em **Contagem de Sessão** a partir da lista **Relatar por**.
+Por padrão, o Relatório de Mensagens Instantâneas Ponto a Ponto mostra a você a conagem de mensagens por hora (ou dia, dependendo de suas configurações). No entanto, você também pode escolher visualizar o dia por sessões por hora. Para fazer isso, clique em **Ocultar/Exibir Parâmetros** no canto superior direito da janela Relatórios, e então clique em **Contagem de Sessão** a partir da lista **Relatar por**.
 
 </div>
 
@@ -81,23 +81,23 @@ Os filtros fornecem uma maneira de obter um resultado mais refinado de conjunto 
 <tbody>
 <tr class="odd">
 <td><p><strong>De</strong></p></td>
-<td><p>Data e hora de início do intervalo de tempo. Para ver os dados por hora, insira a data e hora de início desta forma:</p>
-<p>7/7/2012 1:00 PM</p>
-<p>Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:</p>
+<td><p>Data e hora de início para o intervalo de tempo. Para ver os dados por hora, digite a data e hora de início no seguinte formato:</p>
+<p>7/7/2012 13:00 horas</p>
+<p>Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</p>
 <p>7/7/2012</p>
-<p>Para visualizar por semana ou por mês, digite uma data qualquer da semana ou mês (não é necessário digitar o primeiro dia da semana ou mês):</p>
+<p>Para visualizar por semana ou por mês, digite uma data qualquer da semana ou mês (não é necessário digitar o primeiro dia da semana ou mês)</p>
 <p>7/3/2012</p>
-<p>As semanas sempre vão de domingo a sábado.</p></td>
+<p>As semanas sempre são de Domingo a Sábado.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Até</strong></p></td>
-<td><p>Data e hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:</p>
-<p>7/7/2012 1:00 PM</p>
-<p>Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:</p>
+<td><p><strong>To</strong></p></td>
+<td><p>Data e hora de término para o dia intervalo de tempo. Para ver os dados por hora, digite a data e a hora de término no seguinte formato:</p>
+<p>07/07/2012 13:00</p>
+<p>Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</p>
 <p>7/7/2012</p>
-<p>Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
+<p>Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/3/2012</p>
-<p>As semanas sempre vão de domingo a sábado.</p></td>
+<p>As semanas são sempre de domingo a sábado.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Intervalo</strong></p></td>
@@ -106,13 +106,13 @@ Os filtros fornecem uma maneira de obter um resultado mais refinado de conjunto 
 <li><p>Por hora (é possível exibir no máximo 25 horas)</p></li>
 <li><p>Diariamente (é possível exibir no máximo 31 dias)</p></li>
 <li><p>Semanalmente (é possível exibir no máximo 12 semanas)</p></li>
-<li><p>Mensalmente (é possível exibir no máximo 12 meses)</p></li>
+<li><p>Mensalmente (exibição de no máximo 12 meses)</p></li>
 </ul>
-<p>Caso as datas de início e término excedam o número máximo de valores permitidos para o intervalo selecionado, será exibido somente o número máximo de valores (começando a partir da data de inicio). Por exemplo, se você selecionar o intervalo diário com uma data de início de 7/7/2012 e uma data de término de 2/28/2012, os dados serão exibidos para os dias 8/7/2012 12:00 AM a 9/7/2012 12:00 AM (ou seja, um total de 31 dias da importância dos dados).</p></td>
+<p>Caso as datas de início e término excedam o número máximo de valores permitidos para o intervalo selecionado, será exibido somente o número máximo de valores (começando a partir da data de inicio). Por exemplo, se você selecionar o intervalo Diariamente com uma data de início em 1/1/2011 e a data de término em 28/02/2012, os dados serão exibidos para dos dias 07/08/2012 12:00 ao 07/09/2012 12:00 (ou seja, um total de 31 dias de dados).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Relatório por</strong></p></td>
-<td><p>Indica os valores a serem usados no relatório. Selecione uma das seguintes opções:</p>
+<td><p>Indica os valores a serem usados no relatório. Selecione um dos seguintes valores:</p>
 <ul>
 <li><p>Contagem de sessão</p></li>
 <li><p>Contagem de mensagem</p></li>
@@ -141,7 +141,7 @@ A tabela a seguir lista as informações fornecidas pelo Relatório do Sistema d
 <thead>
 <tr class="header">
 <th>Nome</th>
-<th>Você pode classificar este item?</th>
+<th>É possível classificar este item?</th>
 <th>Descrição</th>
 </tr>
 </thead>
@@ -159,7 +159,7 @@ A tabela a seguir lista as informações fornecidas pelo Relatório do Sistema d
 <tr class="odd">
 <td><p><strong>Total</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Número total de sessões ou contagem total de mensagens.</p></td>
+<td><p>Número total de sessões ou de contagem total de mensagens.</p></td>
 </tr>
 </tbody>
 </table>
@@ -184,18 +184,18 @@ A tabela a seguir lista as informações fornecidas pelo Relatório do Sistema d
 <thead>
 <tr class="header">
 <th>Nome</th>
-<th>Você pode classificar este item?</th>
+<th>É possível classificar este item?</th>
 <th>Descrição</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Tipo de autenticação</strong></p></td>
+<td><p><strong>Tipo de Autenticação</strong>:</p></td>
 <td><p>Não</p></td>
 <td><p>Tipo de autenticação usada pelos participantes da sessão. Normalmente, os valores são um dos seguintes:</p>
 <ul>
-<li><p>Enterprise</p></li>
-<li><p>Federated</p></li>
+<li><p>Empresa</p></li>
+<li><p>Fica</p></li>
 <li><p>PIC</p></li>
 </ul></td>
 </tr>
@@ -207,7 +207,7 @@ A tabela a seguir lista as informações fornecidas pelo Relatório do Sistema d
 <tr class="odd">
 <td><p><strong>Total</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Número total de sessões ou contagem total de mensagens.</p></td>
+<td><p>Número total de sessões ou de contagem total de mensagens.</p></td>
 </tr>
 </tbody>
 </table>

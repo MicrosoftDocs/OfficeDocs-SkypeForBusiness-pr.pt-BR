@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: gerenciar a coleta de chamadas em grupo durante a recuperação de desastres'
+title: 'Lync Server 2013: gerenciar o recebimento de chamadas em grupo durante a recuperação de desastre'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541455
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 45ebe93ebc1711f49d4578a2a5d908104ca2a411
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 83a0abe6c64b0e6d5cba80c0adb6a01c5dbacb4c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733371"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007780"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manage-group-call-pickup-during-disaster-recovery-in-lync-server-2013"></a>Gerenciar a coleta de chamadas em grupo durante a recuperação de desastres no Lync Server 2013
+# <a name="manage-group-call-pickup-during-disaster-recovery-in-lync-server-2013"></a>Gerenciar o recebimento de chamadas em grupo durante a recuperação de desastre no Lync Server 2013
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41733371"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-01-30_
+_**Última modificação do tópico:** 2013-01-30_
 
-Quando um pool de front-end fica indisponível devido a um incidente não planejado, o serviço falha no pool de backup. Durante o failover para o pool de backup, os usuários são redirecionados para o pool de backup e estão no modo de resiliência. Enquanto estiver no modo de resiliência, os usuários não poderão atender as chamadas de outros usuários ou fazer com que as chamadas sejam selecionadas por outros usuários. Quando o failover for concluído, os usuários poderão usar novamente o recurso de recebimento de chamadas em grupo normalmente.
+Quando um pool de front-ends fica indisponível devido a um incidente não planejado, o serviço falha no pool de backup. Durante o failover para o pool de backup, os usuários são redirecionados para o pool de backup e estão no modo de resiliência. No modo de resiliência, os usuários não podem selecionar as chamadas de outros usuários ou fazer com que suas chamadas sejam escolhidas por outros usuários. Quando o failover é concluído, os usuários podem usar novamente o recebimento de chamadas em grupo como de costume.
 
-Durante o failback para o pool primário, os usuários são redirecionados para o pool primário e são novamente no modo de resiliência. A funcionalidade de recebimento de chamada de grupo não estará disponível até que os usuários estejam fora do modo de resiliência.
+Durante o failback para o pool primário, os usuários são redirecionados para o pool primário e estão novamente no modo de resiliência. A funcionalidade de recebimento de chamadas de grupo não está disponível até que os usuários estejam fora do modo de resiliência.
 
 Esta seção discute algumas considerações para o recebimento de chamadas em grupo durante a recuperação de desastres e também descreve a experiência do usuário.
 
 <div>
 
-## <a name="considerations-for-group-call-pickup-during-disaster-recovery"></a>Considerações sobre o recebimento de chamadas em grupo durante a recuperação de desastres
+## <a name="considerations-for-group-call-pickup-during-disaster-recovery"></a>Considerações sobre o recebimento de chamadas em grupo durante a recuperação de desastre
 
-Durante a recuperação de desastres, os usuários que foram redirecionados para o pool de backup como parte do processo de failover usam o aplicativo de estacionamento de chamada executado no pool de backup para os números de grupo de recebimento de chamadas. Portanto, o suporte para o recebimento de chamadas em grupo durante a recuperação de desastres requer que o aplicativo parque de chamadas seja implantado e habilitado no pool primário e no pool de backup.
+Durante a recuperação de desastres, os usuários que foram redirecionados para o pool de backup como parte do processo de failover usam o aplicativo de estacionamento de chamada em execução no pool de backup para os números do grupo de recebimento de chamada. Portanto, o suporte para o recebimento de chamadas em grupo durante a recuperação de desastres exige que o aplicativo de estacionamento de chamada seja implantado e habilitado no pool primário e no pool de backup.
 
-Os intervalos de números do recurso de chamada em grupo na tabela órbita do parque de chamadas devem ser redirecionados para o pool de backup após o término do processo de failover do pool de backup. Os intervalos de números devem ser redirecionados para o pool primário após a conclusão do processo de failback para o pool primário. Para redirecionar os intervalos de recebimento da chamada em grupo, use o cmdlet **set-CsCallParkOrbit** .
+Os intervalos de números de recebimento de chamadas de grupo na tabela de órbita de estacionamento de chamada devem ser redirecionados para o pool de backup após a conclusão do processo de failover para o pool de backup. Os intervalos de números devem ser redirecionados de volta para o pool primário após a conclusão do processo de failback para o pool primário. Para redirecionar os intervalos de recebimento de chamadas de grupo, use o cmdlet **set-CsCallParkOrbit** .
 
-Se você implantar um novo pool com um nome de domínio totalmente qualificado (FQDN) diferente para substituir o pool primário, será necessário reatribuir todos os intervalos de número de retirada de chamada de grupo que foram associados ao pool primário ao FQDN do novo pool. Para reatribuir intervalos de números ao novo pool, você pode usar o cmdlet **set-CsCallParkOrbit** . Para obter detalhes sobre o cmdlet **set-CsCallParkOrbit** , consulte [set-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkOrbit).
+Se você implantar um novo pool com um FQDN (nome de domínio totalmente qualificado) diferente para substituir o pool primário, será necessário reatribuir todos os intervalos de número de recebimento de chamadas de grupo associados ao pool primário ao FQDN do novo pool. Para reatribuir intervalos de números ao novo pool, você pode usar o cmdlet **set-CsCallParkOrbit** . Para obter detalhes sobre o cmdlet **set-CsCallParkOrbit** , consulte [set-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkOrbit).
 
 </div>
 
 <div>
 
-## <a name="group-call-pickup-experience-during-pool-failure"></a>Experiência de recebimento de chamadas em grupo durante falha de pool
+## <a name="group-call-pickup-experience-during-pool-failure"></a>Experiência de recebimento de chamadas de grupo durante falha do pool
 
-A tabela a seguir resume a experiência de retirada de chamadas em grupo pelas fases da recuperação de desastres.
+A tabela a seguir resume a experiência de recebimento de chamadas de grupo por meio das fases de recuperação de desastres.
 
 ### <a name="user-experience-during-disaster-recovery"></a>Experiência do usuário durante a recuperação de desastres
 
@@ -81,26 +81,26 @@ A tabela a seguir resume a experiência de retirada de chamadas em grupo pelas f
 <td><p>Novas chamadas</p></td>
 <td><p><strong>Durante o processo de failover:</strong></p>
 <ul>
-<li><p>Retirada de chamadas em grupo não disponível para usuários no modo de resiliência</p></li>
+<li><p>Retirada de chamada em grupo não disponível para usuários no modo de resiliência</p></li>
 </ul>
 <p><strong>Após a conclusão do failover:</strong></p>
 <ul>
-<li><p>Retirada de chamadas em grupo disponível quando os usuários estiverem fora da resiliência e os intervalos de números de recebimento de chamadas em grupo forem redirecionados para o pool de backup</p></li>
+<li><p>Retirada de chamada em grupo disponível quando os usuários são redirecionados para o pool de backup de resiliência e de chamada de grupo</p></li>
 </ul></td>
 <td><p><strong>Durante o processo de failback:</strong></p>
 <ul>
-<li><p>Retirada de chamadas em grupo não disponível para usuários no modo de resiliência</p></li>
+<li><p>Retirada de chamada em grupo não disponível para usuários no modo de resiliência</p></li>
 </ul>
-<p><strong>Após concluir o failback:</strong></p>
+<p><strong>Após a conclusão do failback:</strong></p>
 <ul>
-<li><p>Retirada de chamadas em grupo disponível quando os usuários estiverem fora da resiliência e os intervalos de números de recebimento de chamadas em grupo forem redirecionados para o pool primário</p></li>
+<li><p>Retirada de chamada em grupo disponível quando os usuários fora da resiliência e os intervalos de números de recebimento de chamadas de grupo são redirecionados de volta para o pool principal</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>Chamadas na fila de recebimento de chamadas em grupo</p></td>
 <td><p><strong>Durante o processo de failover:</strong></p>
 <ul>
-<li><p>As chamadas na fila não podem ser atendidas por meio da retirada de chamadas em grupo.</p></li>
+<li><p>As chamadas na fila não podem ser atendidas por recebimento de chamadas em grupo.</p></li>
 </ul>
 <p><strong>Após a conclusão do failover:</strong></p>
 <ul>
@@ -108,30 +108,30 @@ A tabela a seguir resume a experiência de retirada de chamadas em grupo pelas f
 </ul></td>
 <td><p><strong>Durante o processo de failback:</strong></p>
 <ul>
-<li><p>As chamadas na fila não podem ser atendidas por meio da retirada de chamadas em grupo.</p></li>
+<li><p>As chamadas na fila não podem ser atendidas por recebimento de chamadas em grupo.</p></li>
 </ul>
-<p><strong>Após concluir o failback:</strong></p>
+<p><strong>Após a conclusão do failback:</strong></p>
 <ul>
-<li><p>As chamadas na fila não podem ser atendidas por meio da retirada de chamadas em grupo.</p></li>
+<li><p>As chamadas na fila não podem ser atendidas por recebimento de chamadas em grupo.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p>Chamada estabelecida</p></td>
 <td><p><strong>Durante o processo de failover:</strong></p>
 <ul>
-<li><p>As chamadas permanecem conectadas</p></li>
+<li><p>Chamadas permanecem conectadas</p></li>
 </ul>
 <p><strong>Após a conclusão do failover:</strong></p>
 <ul>
-<li><p>As chamadas permanecem conectadas</p></li>
+<li><p>Chamadas permanecem conectadas</p></li>
 </ul></td>
 <td><p><strong>Durante o processo de failback:</strong></p>
 <ul>
-<li><p>As chamadas permanecem conectadas</p></li>
+<li><p>Chamadas permanecem conectadas</p></li>
 </ul>
-<p><strong>Após concluir o failback:</strong></p>
+<p><strong>Após a conclusão do failback:</strong></p>
 <ul>
-<li><p>As chamadas permanecem conectadas</p></li>
+<li><p>Chamadas permanecem conectadas</p></li>
 </ul></td>
 </tr>
 </tbody>

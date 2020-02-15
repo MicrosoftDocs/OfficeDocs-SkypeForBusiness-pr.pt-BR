@@ -12,16 +12,16 @@ ms:contentKeyID: 63969640
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 28f6ab6f10d071fc86646deed030ab87d931ad95
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 65f50a5b78c92b82ec4a17711add8744bb2313d6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729371"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006227"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41729371"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-08-18_
+_**Última modificação do tópico:** 2014-08-18_
 
-Procedimentos de emergência são procedimentos sob demanda que ficam fora dos procedimentos padrão anteriormente discutidos e devem ser manipulados pela função de gerenciamento de alterações (consulte o [MOF](http://go.microsoft.com/fwlink/p/?linkid=40939) para obter uma descrição sobre a função "gerenciamento de alterações"). Esses procedimentos geralmente estão relacionados a um dos seguintes:
+Procedimentos de emergência são procedimentos sob demanda que estão fora dos procedimentos padrão previamente abordados e devem ser tratados pela função de gerenciamento de alterações (consulte o [MOF](http://go.microsoft.com/fwlink/p/?linkid=40939) para obter uma descrição sobre a função de "gerenciamento de alterações"). Esses procedimentos geralmente estão relacionados a um dos seguintes:
 
-  - Implementação de alterações como parte de um esforço de solução de problemas — para solucionar um problema do sistema identificado.
+  - Implementar alterações como parte de um esforço de solução de problemas — para resolver um problema de sistema identificado.
 
-  - Resolver uma ameaça de segurança identificada, como atualizações de software.
+  - Resolver uma ameaça de segurança identificada — como atualizações de software.
 
-O impacto na empresa deve ser avaliado para determinar se uma alteração temporária deve ser implementada ou canalizada pelos procedimentos de gerenciamento de alterações oficiais definidos pela orientação do quadrante dinâmico.
+O impacto na empresa deve ser avaliado para determinar se uma alteração temporária deve ser implementada ou canalizada por meio dos procedimentos oficiais de gerenciamento de alterações, conforme definido pela orientação mudança do quadrante.
 
-Recomendamos a implementação de procedimentos de alteração de emergência. Por exemplo, documente como lidar com esses tipos de procedimentos e ajuda para reduzir um estado de confusão quando uma alteração de emergência for apresentada.
+Recomendamos a implementação de procedimentos de alteração de emergência. Por exemplo, documente como lidar com esses tipos de procedimentos e ajuda para reduzir um estado de confusão quando uma alteração de emergência é apresentada.
 
 <div>
 

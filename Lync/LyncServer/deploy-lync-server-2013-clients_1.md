@@ -12,16 +12,16 @@ ms:contentKeyID: 48184100
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ffc6ee3831968c34bcdb501fcdf543626546e2c3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ac6dce30e356ed3161f985f32d8f26dc0e34ac6d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723011"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006467"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41723011"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-19_
+_**Última modificação do tópico:** 2012-10-19_
 
-Depois de migrar usuários para o Lync Server 2013, faça o seguinte:
+Após migrar usuários para o Lync Server 2013, faça o seguinte:
 
-1.  Use o filtro de versão do cliente no novo servidor do Lync Server 2013 para permitir somente aos clientes com as atualizações mais recentes instaladas para entrar.
+1.  Use o filtro de versão do cliente no novo servidor do Lync Server 2013 para permitir que apenas clientes com as atualizações mais recentes instaladas entrem.
 
-2.  Se necessário, defina as configurações de política de grupo necessárias para a inicialização do cliente. Para obter detalhes, consulte [configurando as políticas de inicialização do cliente no Lync Server 2013](lync-server-2013-configuring-client-bootstrapping-policies.md) na documentação de implantação. A configuração dessas configurações só será necessária se você quiser alterar as políticas de inicialização do cliente existentes ou se quiser definir as novas políticas de inicialização do cliente. Se você não planejar configurar as políticas de inicialização do cliente ou se quiser que as políticas de inicialização do cliente herdadas permaneçam efetivas, nenhuma ação será necessária.
+2.  Caso seja necessário, defina as configurações da Política de Grupo necessárias para a inicialização do cliente. Para obter detalhes, consulte [Configuring Client Bootstrap Policies in Lync Server 2013](lync-server-2013-configuring-client-bootstrapping-policies.md) na documentação de implantação. A definição destas configurações é necessária apenas se você deseja alterar as políticas de inicialização do cliente existentes ou se deseja definir as novas políticas de inicialização do cliente. Caso não planeje configurar as políticas de inicialização do cliente ou se deseja que as políticas de inicialização do cliente herdadas permaneçam em vigor, nenhuma ação é necessária.
 
-3.  Configurar outras políticas de usuário e de cliente para usuários específicos ou grupos de usuários usando o painel de controle do Lync Server 2013, o Shell de gerenciamento do Lync Server 2013 ou ambos. Para obter detalhes, consulte [configurações novas e alteradas para o Lync 2013](lync-server-2013-new-and-changed-settings-for-lync-2013.md) na documentação de planejamento.
+3.  Configure outras políticas de usuário e de cliente para usuários ou grupos de usuários específicos usando o painel de controle do Lync Server 2013, o Shell de gerenciamento do Lync Server 2013 ou ambos. Para obter detalhes, consulte [configurações novas e alteradas para o Lync 2013](lync-server-2013-new-and-changed-settings-for-lync-2013.md) na documentação de planejamento.
 
-4.  Implante a versão mais recente dos clientes do Lync Server 2013 juntamente com as atualizações cumulativas mais recentes. Para obter detalhes, consulte [implantando clientes e dispositivos no Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md) na documentação de implantação.
+4.  Implante a versão mais recente dos clientes do Lync Server 2013 junto com as atualizações cumulativas mais recentes. Para obter detalhes, consulte [Deploying clients and Devices in Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md) na documentação de implantação.
 
-5.  Adicionais Se sua organização requer o modo de privacidade de presença avançada do Lync Server 2013, após a conclusão da migração, defina uma regra de política de versão do cliente para impedir que as versões anteriores do cliente sejam conectadas. Em seguida, habilite o modo de privacidade de presença avançada.
+5.  Opcion Se sua organização requer o modo de privacidade de presença avançada do Lync Server 2013, após a conclusão da migração, defina uma regra de política de versão do cliente para impedir que as versões anteriores do cliente entrem em entrar. Habilite, então, o modo de privacidade de presença avançada.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Não habilite o modo de privacidade de presença avançada do Lync 2013 até que todos os usuários em um determinado pool de servidores tenham as versões do cliente mais recentes instaladas.
+    > Não habilite o modo de privacidade de presença avançada do Lync 2013 até que cada usuário em um determinado pool de servidores tenha as versões mais recentes do cliente instaladas.
 
     
     </div>

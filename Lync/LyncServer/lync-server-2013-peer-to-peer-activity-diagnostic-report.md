@@ -12,16 +12,16 @@ ms:contentKeyID: 48183242
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc98f1c81f79605da2de2b06397d8a23d8086861
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 35e720862b18770dfbdba5993a161b36f019ce09
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755321"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41989566"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41755321"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-01_
+_**Última modificação do tópico:** 2012-10-01_
 
-O Relatório de Diagnóstico de Atividades Ponto a Ponto fornece informações sobre o sucesso e falha de suas sessões de comunicação ponto a ponto. Observe que o Microsoft Lync Server 2013 distingue entre os diferentes tipos de falha:
+O Relatório de Diagnóstico de Atividades Ponto a Ponto fornece informações sobre o sucesso e falha de suas sessões de comunicação ponto a ponto. Observe que o Microsoft Lync Server 2013 distingue entre tipos diferentes de falha:
 
-  - **Falha esperada**. Uma falha esperada é normalmente uma falha somente no sentido mais técnico. Por exemplo, vamos supor que você ligue para alguém, mas ele ou ela esteja fora do escritório e não possa atender ao telefone. Como a chamada não foi atendida, ela é considerada tecnicamente uma falha. Por outro lado, isso era uma falha esperada: o Microsoft Lync Server 2013 não espera que você atenda ao telefone se não estiver disponível para atender ao telefone. Da mesma maneira, uma falha esperada ocorrerá se você tentar enviar uma mensagem instantânea a um usuário que esteja offline, ou conectado apenas a um telefone que não suporta mensagem instantânea.
+  - **Falha esperada**. Uma falha esperada é normalmente uma falha somente no sentido mais técnico. Por exemplo, vamos supor que você ligue para alguém, mas ele ou ela esteja fora do escritório e não possa atender ao telefone. Como a chamada não foi atendida, ela é considerada tecnicamente uma falha. Por outro lado, houve uma falha esperada: o Microsoft Lync Server 2013 não espera que você atenda ao telefone se não estiver disponível para atender ao telefone. Da mesma maneira, uma falha esperada ocorrerá se você tentar enviar uma mensagem instantânea a um usuário que esteja offline, ou conectado apenas a um telefone que não suporta mensagem instantânea.
 
-  - **Falha inesperada**. Um erro inesperado é exatamente o que o nome sugere: um erro que, baseado nas circunstâncias, você não espera. Por exemplo, suponha que você ligue para alguém e essa pessoa está disponível para atender a chamada; no entanto, quando o Lync Server 2013 tenta encaminhar sua chamada para o correio de voz, a chamada falha porque a conectividade com a Unificação de mensagens do Exchange foi perdida. Isso é um erro inesperado: você espera que as chamadas sejam sempre roteadas para o correio de voz. Como regra geral, falhas inesperadas são verdadeiras falhas: elas são problemas que provavelmente não podem ser corrigidos por meio da educação do usuário ou por medidas parecidas.
+  - **Falha inesperada**. Uma falha inesperada é exatamente o que o nome diz: um erro que, baseado nas circunstâncias, você não esperaria que ocorrese. Por exemplo, suponha que você chame alguém e que essa pessoa esteja disponível para responder à chamada; no entanto, quando o Lync Server 2013 tenta encaminhar a chamada para a caixa postal, a chamada falha porque a conectividade com a Unificação de mensagens do Exchange foi perdida. Esse é um erro inesperado: você espera que as chamada sempre sejam encaminhadas para a caixa postal. Como regra geral, falhas inesperadas são verdadeiras falhas: elas são problemas que provavelmente não podem ser corrigidos por meio da educação do usuário ou por medidas parecidas.
 
 Observe que talvez as métricas Sucesso, Falha esperada e Falha inesperada não acrescentem à métrica Total de sessões. Por exemplo, na ilustração anterior, temos os seguintes valores:
 
@@ -55,7 +55,7 @@ Observe que talvez as métricas Sucesso, Falha esperada e Falha inesperada não 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Êxitos</th>
+<th>Sucessos</th>
 <th>Falhas esperadas</th>
 <th>Falhas inesperadas</th>
 <th>Total de sessões</th>
@@ -65,24 +65,24 @@ Observe que talvez as métricas Sucesso, Falha esperada e Falha inesperada não 
 <tr class="odd">
 <td><p>2024</p></td>
 <td><p>469</p></td>
-<td><p>16</p></td>
+<td><p>16 </p></td>
 <td><p>2521</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Se você adicionar 2024 + 469 + 16 terá um total de 2.509 sessões, ainda assim a coluna Total de sessões mostrará um total de 2.521 sessões. As 12 sessões que "faltam" são sessões que o sistema não pode categorizar como bem-sucedida ou sem sucesso. Isso, às vezes, é o caso quando um produto de terceiros introduz um novo código de diagnóstico que não é familiar ao Lync Server. Quando isso acontece, as chamadas feitas usando esse produto, e o relatório desse código de diagnóstico, não podem sempre ser categorizados como Sucesso, Falha esperada ou Falha inesperada.
+Se você adicionar 2024 + 469 + 16 terá um total de 2.509 sessões, ainda assim a coluna Total de sessões mostrará um total de 2.521 sessões. As 12 sessões que "faltam" são sessões que o sistema não pode categorizar como bem-sucedida ou sem sucesso. Isso, às vezes, será o caso quando um produto de terceiros introduz um novo código de diagnóstico que não é familiar ao Lync Server. Quando isso acontece, as chamadas feitas usando esse produto, e o relatório desse código de diagnóstico, não podem sempre ser categorizados como Sucesso, Falha esperada ou Falha inesperada.
 
 <div>
 
 ## <a name="accessing-the-peer-to-peer-activity-diagnostic-report"></a>Acessando o Relatório de Diagnóstico de Atividades Ponto a Ponto
 
-O Relatório de Diagnóstico de Atividades Ponto a Ponto é acessado a partir da home page dos Relatórios de monitoramento. Você pode acessar o [relatório de distribuição de falha no Lync Server 2013](lync-server-2013-failure-distribution-report.md) clicando em uma das seguintes métricas:
+O Relatório de Diagnóstico de Atividades Ponto a Ponto é acessado a partir da home page dos Relatórios de monitoramento. Você pode acessar o [relatório de distribuição de falhas no Lync Server 2013](lync-server-2013-failure-distribution-report.md) clicando em uma das seguintes métricas:
 
   - Volume de falhas inesperadas
 
-  - Volume de falhas esperadas
+  - Volume de falha esperada
 
 </div>
 
@@ -118,23 +118,23 @@ A tabela a seguir lista os filtros que você pode utilizar com o Relatório de D
 <tbody>
 <tr class="odd">
 <td><p><strong>De</strong></p></td>
-<td><p>Data/hora de início para o intervalo de tempo. Para ver os dados por horas, insira a data e hora de início conforme segue:</p>
-<p>7/7/2012 1:00 PM</p>
-<p>Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:</p>
+<td><p>Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:</p>
+<p>7/7/2012 13:00 horas</p>
+<p>Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</p>
 <p>7/7/2012</p>
-<p>Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
+<p>Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/3/2012</p>
-<p>As semanas sempre vão de domingo a sábado.</p></td>
+<p>As semanas sempre são de Domingo a Sábado.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Até</strong></p></td>
-<td><p>Data/hora final de intervalo de tempo. Para ver os dados por horas, insira a data e hora final conforme segue:</p>
-<p>7/7/2012 1:00 PM</p>
-<p>Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:</p>
+<td><p><strong>To</strong></p></td>
+<td><p>Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:</p>
+<p>7/7/2012 13:00 horas</p>
+<p>Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</p>
 <p>7/7/2012</p>
-<p>Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
+<p>Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/3/2012</p>
-<p>As semanas sempre vão de domingo a sábado.</p></td>
+<p>As semanas são sempre de domingo a sábado.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Intervalo</strong></p></td>
@@ -145,19 +145,19 @@ A tabela a seguir lista os filtros que você pode utilizar com o Relatório de D
 <li><p>Semanalmente (é possível exibir no máximo 12 semanas)</p></li>
 <li><p>Mensalmente (é possível exibir no máximo 12 meses)</p></li>
 </ul>
-<p>Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, somente o número máximo de valores (a partir da data de início) será exibido. Por exemplo, se você selecionar o intervalo diário com uma data de início de 7/7/2012 e uma data de término de 2/28/2012, os dados serão exibidos para os dias 8/7/2012 12:00 AM a 9/7/2012 12:00 AM (ou seja, um total de 31 dias da importância dos dados).</p></td>
+<p>Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, somente o número máximo de valores (a partir da data de início) será exibido. Por exemplo, se você selecionar o intervalo Diariamente com a data de início 07.07.12 e uma data de término de 28.02.12, os dados serão exibidos para os dias 07.08.12 12:00 AM até 07.09.12 12:00 AM (ou seja, um total de 31 dias de dados).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Pool</strong></p></td>
-<td><p>FQDN (Nome de domínio totalmente qualificado) do pool de Registradores ou Servidor de Borda. Você pode selecionar um pool individual ou clicar em <strong>[Tudo]</strong> para ver os dados de todos os pools. Essa lista suspensa é automaticamente preenchida para você com base nos registros no banco de dados.</p></td>
+<td><p>FQDN (nome de domínio totalmente qualificado) do pool de Registrador ou Servidor de Borda. Você pode selecionar um pool individual ou clicar em <strong>[Todos]</strong> para visualizar os dados para todos os pools. Essa lista suspensa é automaticamente preenchida para você com base nos registros no banco de dados.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Modalidade</strong></p></td>
 <td><p>Indica o tipo de atividade de comunicação que ocorreu. Selecione um dos seguintes:</p>
 <ul>
-<li><p>[Todos]</p></li>
+<li><p>Todos os</p></li>
 <li><p>Mensagens instantâneas</p></li>
-<li><p>Transferência de arquivos</p></li>
+<li><p>Transferência de arquivo</p></li>
 <li><p>Compartilhamento de aplicativos</p></li>
 <li><p>Áudio</p></li>
 <li><p>Vídeo</p></li>
@@ -186,7 +186,7 @@ A tabela a seguir lista as informações oferecidas no Relatório de Diagnóstic
 <thead>
 <tr class="header">
 <th>Nome</th>
-<th>Você pode classificar este item?</th>
+<th>É possível classificar este item?</th>
 <th>Descrição</th>
 </tr>
 </thead>
@@ -202,31 +202,31 @@ A tabela a seguir lista as informações oferecidas no Relatório de Diagnóstic
 <td><p>Porcentagem de sessões ponto-a-ponto completas com problemas significativos. Calculado dividindo o Volume de sucesso pelo Total de sessões.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Volume de falhas esperadas</strong></p></td>
+<td><p><strong>Volume de falha esperado</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Número total de sessões em que &quot;ocorreu uma&quot; falha esperada.</p>
+<td><p>Número total de sessões nas quais &quot;uma falha&quot; esperada ocorreu.</p>
 <p>Uma falha esperada é quando se sabe que a falha ocorrerá. Por exemplo, se um usuário tiver definido seu status como Não perturbe, é esperado que qualquer chamada para esse usuário falhe.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Percentual de falhas esperadas</strong></p></td>
+<td><p><strong>Percentual de falha esperada</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Porcentagem de sessões ponto-a-ponto que tiveram um erro esperado. Calculado dividindo o Volume de falhas esperadas pelo Total de sessões.</p></td>
+<td><p>Porcentagem de sessões ponto-a-ponto que tiveram um erro esperado. Calculado dividindo o Volume de falhas esperada pelo Total de sessões.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Volume de falhas inesperadas</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Número total de sessões em que &quot;ocorreu uma&quot; falha inesperada.</p>
+<td><p>Número total de sessões nas quais &quot;ocorreu uma&quot; falha inesperada.</p>
 <p>Uma falha inesperada é uma falha que ocorre no que aparenta ser um sistema íntegro. Por exemplo, uma chamada não deve ser encerrada se o chamador for colocado em espera. Se isso ocorrer, isso seria sinalizado como uma falha inesperada.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Percentual de falhas inesperadas</strong></p></td>
+<td><p><strong>Percentual de falha inesperada</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Porcentagem de sessões ponto-a-ponto nas quais um erro inesperado ocorreu. Calculado dividindo o Volume de falhas inesperadas pelo Total de sessões.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Total de sessões</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Número total de sessões, incluindo sessões bem-sucedidas, com falha (esperada e/ou inesperada) e sessões não categorizadas.</p></td>
+<td><p>Número total de sessões, incluindo sessões bem-sucedidas, com falha (tanto falhas esperadas quanto inesperadas) e sessões não categorizadas.</p></td>
 </tr>
 </tbody>
 </table>

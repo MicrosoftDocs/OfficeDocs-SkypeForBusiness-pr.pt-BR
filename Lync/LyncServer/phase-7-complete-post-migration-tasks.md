@@ -1,5 +1,5 @@
 ---
-title: 'Fase 7: Concluir tarefas pós-migração'
+title: 'Fase 7: concluir tarefas de migração'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184485
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6eb1761688070e13e22057d1cbec339c87db0f4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c791bd363bce3a0bd553017bc16dd719fc7514ef
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757125"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034151"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-7-complete-post-migration-tasks"></a>Fase 7: Concluir tarefas pós-migração
+# <a name="phase-7-complete-post-migration-tasks"></a>Fase 7: concluir tarefas de migração
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757125"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-19_
+_**Última modificação do tópico:** 2012-10-19_
 
-Os tópicos desta seção descrevem as tarefas que você precisará executar após a conclusão da migração para o Lync Server 2013.
+Os tópicos desta seção descrevem as tarefas que você precisará realizar após a conclusão da migração para o Lync Server 2013.
 
 <div>
 
@@ -47,23 +47,23 @@ Os tópicos desta seção descrevem as tarefas que você precisará executar ap�
 
   - [Migrar números de acesso de discagem](migrate-dial-in-access-numbers.md)
 
-  - [Migrar configurações do aplicativo do Estacionamento de Chamada](migrate-call-park-application-settings.md)
+  - [Migrar configurações de aplicativo de estacionamento de chamada](migrate-call-park-application-settings.md)
 
   - [Migrar grupos de resposta](migrate-response-groups.md)
 
-  - [Migrar o Catálogo de endereços](migrate-address-book.md)
+  - [Migrar o Catálogo de Endereços](migrate-address-book.md)
 
   - [Configurar a página de ingresso na reunião](configure-the-meeting-join-page.md)
 
-  - [Remover servidores de Arquivamento e de Monitoramento herdados](remove-legacy-archiving-and-monitoring-servers.md)
+  - [Remover servidores de arquivamento e monitoramento herdados](remove-legacy-archiving-and-monitoring-servers.md)
 
-  - [Configurar servidores de aplicativo confiáveis](configure-trusted-application-servers.md)
+  - [Configurar servidores de aplicativos confiáveis](configure-trusted-application-servers.md)
 
   - [Implantar clientes do Lync Server 2013](deploy-lync-server-2013-clients.md)
 
   - [Conectar um aparelho de filial persistente](connect-a-survivable-branch-appliance.md)
 
-  - [Configurar monitoramento SCOM](configure-scom-monitoring.md)
+  - [Configurar monitoramento do SCOM](configure-scom-monitoring.md)
 
   - [Migrar telefones de área comum](migrate-common-area-phones.md)
 

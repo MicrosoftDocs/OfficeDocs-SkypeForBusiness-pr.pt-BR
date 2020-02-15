@@ -1,5 +1,5 @@
 ---
-title: Usando o Construtor de Topologia para configurar alta disponibilidade e recuperação de desastre
+title: Usando o construtor de topologias para configurar alta disponibilidade e recuperação de desastre
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185113
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73bcd2c2892e4e121512ae852d5920d600af91ff
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fc0f47bf8e0a0aec5d2a2374decd79ce2bae77f2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743821"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007460"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-topology-builder-to-configure-high-availability-and-disaster-recovery-in-lync-server-2013"></a>Usando o Construtor de Topologia para configurar alta disponibilidade e recuperação de desastre no Lync Server 2013
+# <a name="using-topology-builder-to-configure-high-availability-and-disaster-recovery-in-lync-server-2013"></a>Usando o construtor de topologias para configurar alta disponibilidade e recuperação de desastre no Lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41743821"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-06_
+_**Última modificação do tópico:** 2012-10-06_
 
-Execute as etapas a seguir no construtor de topologias para configurar a alta disponibilidade e a recuperação de desastres para o servidor de chat persistente.
+Execute as seguintes etapas no construtor de topologias para configurar alta disponibilidade e recuperação de desastre para o servidor de chat persistente.
 
-1.  Adicione os bancos de dados espelho e os repositórios secundários do banco de dados do SQL Server de envio de log.
+1.  Adicione os bancos de dados espelho e os repositórios secundários de envio de logs do SQL Server.
 
 2.  Edite as propriedades do serviço do servidor de chat persistente para:
     
-    1.  Ativar o espelhamento do banco de dados primário.
+    1.  Ativar espelhamento do banco de dados primário.
     
-    2.  Adicione a loja principal do SQL Server do espelho.
+    2.  Adicione o repositório principal de espelhamento do SQL Server.
     
-    3.  Habilite o banco de dados de envio de log do SQL Server.
+    3.  Habilite o banco de dados de envio de logs do SQL Server.
     
     4.  Adicione o repositório do SQL Server secundário de envio de logs do SQL Server.
     

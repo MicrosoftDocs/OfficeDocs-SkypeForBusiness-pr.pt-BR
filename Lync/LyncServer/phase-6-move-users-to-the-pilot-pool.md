@@ -12,16 +12,16 @@ ms:contentKeyID: 48184388
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 353f36d2ecb12823535e06fd137d7e9eaae06ae9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b70806985b6553049a2b632e633bbbac2f13fa69
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743611"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034171"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41743611"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-16_
+_**Última modificação do tópico:** 2012-10-16_
 
-Você pode mover um único usuário ou grupos de usuários para a nova implantação do Lync Server 2013 usando os dois métodos a seguir: painel de controle do Lync Server e Shell de gerenciamento do Lync Server. Os tópicos desta seção descrevem tarefas que você deve concluir durante a implantação piloto, bem como antes de mover a implantação do Lync Server 2013 de uma implantação piloto para uma implantação em nível de produção.
+Você pode mover um único usuário ou grupos de usuários para a nova implantação do Lync Server 2013 usando os dois métodos a seguir: painel de controle do Lync Server e Shell de gerenciamento do Lync Server. Os tópicos desta seção descrevem tarefas que você deve concluir durante a implantação piloto, bem como antes de mover sua implantação do Lync Server 2013 de uma implantação piloto para uma implantação no nível de produção.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Verificar a conclusão da replicação de usuário](verify-user-replication-has-completed_1.md)
+  - [Verificar se a replicação do usuário foi concluída](verify-user-replication-has-completed_1.md)
 
   - [Mover um único usuário para o pool piloto](move-a-single-user-to-the-pilot-pool_1.md)
 

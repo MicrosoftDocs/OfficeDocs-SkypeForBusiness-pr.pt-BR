@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Verificando sua implantação de mobilidade'
+title: 'Lync Server 2013: verificando sua implantação de mobilidade'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184477
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96b6c82478fffe2815e9d69b870b3b434eadb3cf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6777414e7fc558e8eef0f913aca90fc7edd924ca
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742011"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007270"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41742011"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-12_
+_**Última modificação do tópico:** 2013-02-12_
 
     Some information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-Depois de implantar o serviço de mobilidade do Lync Server e o serviço de descoberta automática do Lync Server, execute uma transação de teste para verificar se sua implantação funciona corretamente. Você pode executar **Test-CsUcwaConference** para testar a capacidade de dois usuários que estão usando clientes móveis do Lync 2013 para criar, ingressar e se comunicar em uma conferência. Para usar essa transação de teste, você precisa de dois usuários reais ou usuários de teste e suas credenciais completas.
+Após implantar o serviço de descoberta automática do Lync Server e o Lync Server, execute uma transação de teste para verificar se a implantação está funcionando corretamente. Você pode executar **Test-CsUcwaConference** para testar a capacidade de dois usuários que estão usando clientes móveis do Lync 2013 para criar, ingressar e se comunicar em uma conferência. Para usar essa transação de teste, você precisa de dois usuários reais ou usuários de teste e suas credenciais completas.
 
 Use **Test-CsMcxP2PIM** para testar o envio de uma mensagem instantânea entre dois usuários que estão usando o Lync 2010 Mobile. Semelhante a **Test-CsUcwaConference**, você usa dois usuários reais ou dois usuários de teste predefinidos.
 
@@ -47,15 +47,15 @@ Use **Test-CsMcxP2PIM** para testar o envio de uma mensagem instantânea entre d
 
 ## <a name="to-test-conferencing-for-lync-2013-mobile-clients"></a>Para testar a conferência para clientes móveis do Lync 2013
 
-1.  Faça logon como membro da função CsAdministrator em qualquer computador onde o Shell de Gerenciamento do Lync Server e o Ocscore estiverem instalados.
+1.  Faça logon como membro da função CsAdministrator em qualquer computador onde o Shell de gerenciamento do Lync Server e o OCScore estejam instalados.
 
-2.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+2.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 3.  Na linha de comando, digite:
     
         Test-CsUcwaConference -TargetFqdn <FQDN of Front End pool> -Authentication <TrustedServer | Negotiate | ClientCertificate | LiveID> -OrganizerSipAddress sip:<SIP address of test user 1> -OrganizerCredential <test user 1 credentials> -ParticipantSipAddress sip:<SIP address of test user 2> -ParticipantCredential <test user 2 credentials> -v
     
-    Você pode definir credenciais em um script e passá-las para o cmdlet de teste. Por exemplo:
+    Você pode definir as credenciais em um script e passá-las para o cmdlet teste. Por exemplo:
     
         $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
         $passwd2 = ConvertTo-SecureString "Password02" -AsPlainText -Force
@@ -67,17 +67,17 @@ Use **Test-CsMcxP2PIM** para testar o envio de uma mensagem instantânea entre d
 
 <div>
 
-## <a name="to-test-person-to-person-instant-messaging-im-for-lync-2010-mobile"></a>Para testar o sistema de mensagens instantâneas de pessoa para pessoa (IM) para o Lync 2010 Mobile
+## <a name="to-test-person-to-person-instant-messaging-im-for-lync-2010-mobile"></a>Para testar mensagens instantâneas de pessoa para pessoa (IM) para Lync 2010 Mobile
 
-1.  Faça logon como membro da função CsAdministrator em qualquer computador onde o Shell de Gerenciamento do Lync Server e o Ocscore estiverem instalados.
+1.  Faça logon como membro da função CsAdministrator em qualquer computador onde o Shell de gerenciamento do Lync Server e o OCScore estejam instalados.
 
-2.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+2.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 3.  Na linha de comando, digite:
     
         Test-CsMcxP2PIM -TargetFqdn <FQDN of Front End pool> -Authentication <TrustedServer | Negotiate | ClientCertificate | LiveID> -SenderSipAddress sip:<SIP address of test user 1> -SenderCredential <test user 1 credentials> -ReceiverSipAddress sip:<SIP address of test user 2> -ReceiverCredential <test user 2 credentials> -v
     
-    Você pode definir credenciais em um script e passá-las para o cmdlet de teste. Por exemplo:
+    Você pode definir as credenciais em um script e passá-las para o cmdlet teste. Por exemplo:
     
         $passwd1 = ConvertTo-SecureString "Password01" -AsPlainText -Force
         $passwd2 = ConvertTo-SecureString "Password02" -AsPlainText -Force

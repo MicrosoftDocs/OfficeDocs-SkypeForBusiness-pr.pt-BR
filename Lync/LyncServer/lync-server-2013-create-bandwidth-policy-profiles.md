@@ -12,16 +12,16 @@ ms:contentKeyID: 48185086
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d3eef3ea6dfb349f0f712c1127adb8310d90c27
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ea1e44f7c8c0d81757d6d10a63194de7c0d12c08
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726331"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035797"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41726331"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-19_
+_**Última modificação do tópico:** 2012-10-19_
 
 *Políticas de largura de banda* definem limitações de uso de largura de banda para modalidades de áudio e vídeo em tempo real. Elas são aplicadas a *perfis de política de largura de banda*, que podem ser aplicados a vários locais de rede para o controle de admissão de chamada.
 
-Para obter diretrizes sobre quais limites de largura de banda você deve definir na sua implantação do CAC, consulte [definindo seus requisitos de controle de admissão de chamadas no Lync Server 2013](lync-server-2013-defining-your-requirements-for-call-admission-control.md) na documentação de planejamento.
+Para obter diretrizes sobre quais limites de largura de banda devem ser definidos em sua implantação do CAC, consulte [definindo seus requisitos de controle de admissão de chamadas no Lync Server 2013](lync-server-2013-defining-your-requirements-for-call-admission-control.md) na documentação de planejamento.
 
 Para obter detalhes sobre como trabalhar com políticas de largura de banda e perfis de política, consulte a documentação do Shell de gerenciamento do Lync Server para os seguintes cmdlets:
 
@@ -51,7 +51,7 @@ Para obter detalhes sobre como trabalhar com políticas de largura de banda e pe
 
   - [Remove-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)
 
-As políticas de exemplo criadas no procedimento a seguir definem limites para o tráfego de áudio geral, sessões de áudio individuais, tráfego de vídeo geral e sessões de vídeo individuais. Por exemplo, o perfil\_da política de largura de banda do link de 5 MB define os seguintes limites:
+As políticas de exemplo criadas no procedimento a seguir definem limites para o tráfego de áudio geral, sessões de áudio individuais, tráfego de vídeo geral e sessões de vídeo individuais. Por exemplo, o perfil\_de política de largura de banda de link de 5 MB define os seguintes limites:
 
   - Limite de Áudio: 2.000 kbps
 
@@ -73,9 +73,9 @@ As políticas de exemplo criadas no procedimento a seguir definem limites para o
 
 <div>
 
-## <a name="to-create-bandwidth-policy-profiles-by-using-management-shell"></a>Para criar perfis de política de largura de banda usando o Shell de gerenciamento
+## <a name="to-create-bandwidth-policy-profiles-by-using-management-shell"></a>Para criar perfis de política de largura de banda usando o Shell de Gerenciamento
 
-1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 2.  Para cada perfil de política de largura de banda que desejar criar, execute o cmdlet New-CsNetworkBandwidthPolicyProfile. Por exemplo, execute:
     
@@ -99,11 +99,11 @@ As políticas de exemplo criadas no procedimento a seguir definem limites para o
 
 <div>
 
-## <a name="to-create-bandwidth-policy-profiles-by-using-lync-server-control-panel"></a>Para criar perfis de política de largura de banda usando o painel de controle do Lync Server
+## <a name="to-create-bandwidth-policy-profiles-by-using-lync-server-control-panel"></a>Para criar perfis de política de largura de banda usando o Painel de Controle do Lync Server
 
-1.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-2.  Na barra de navegação esquerda, clique em **Configuração de rede**.
+2.  Na barra de navegação à esquerda, clique em **Configuração da Rede**.
 
 3.  Clique no botão de navegação **Perfil da Política**.
 

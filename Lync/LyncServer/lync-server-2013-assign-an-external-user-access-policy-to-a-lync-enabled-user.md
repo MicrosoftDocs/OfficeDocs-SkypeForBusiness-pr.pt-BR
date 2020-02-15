@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Atribuir uma política de usuário externo a um usuário habilitado do Lync'
+title: 'Lync Server 2013: atribuir uma política de acesso de usuário externo a um usuário habilitado do Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184483
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 523907fbf4bc4cca93be8e529b6b607b43f0ea87
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 96b578028b7e5d68d902557fddeb9dd5e2a61a9e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723391"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030094"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="assign-an-external-user-access-policy-to-a-lync-enabled-user-in-lync-server-2013"></a>Atribuir uma política de usuário externo a um usuário habilitado do Lync no Lync Server 2013
+# <a name="assign-an-external-user-access-policy-to-a-lync-enabled-user-in-lync-server-2013"></a>Atribuir uma política de acesso de usuário externo a um usuário habilitado do Lync no Lync Server 2013
 
 </div>
 
@@ -35,41 +35,41 @@ ms.locfileid: "41723391"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-22_
+_**Última modificação do tópico:** 2013-02-22_
 
-Se um usuário foi habilitado para o Lync Server, você pode configurar a Federação do SIP, a Federação do XMPP, o acesso de usuário remoto e a conectividade de mensagens instantâneas (IM) públicas no painel de controle do Lync Server aplicando as políticas apropriadas a usuários específicos. Por exemplo, se você criou uma política para dar suporte ao acesso de usuário remoto, deve aplicá-la ao usuário antes que o usuário possa se conectar ao Lync Server de um local remoto e colaborar com usuários internos do local remoto.
+Se um usuário tiver sido habilitado para o Lync Server, você poderá configurar a Federação de SIP, a Federação XMPP, o acesso de usuário remoto e a conectividade de IM (mensagens instantâneas públicas) no painel de controle do Lync Server aplicando as políticas adequadas a usuários específicos. Por exemplo, se você tiver criado uma política para suportar o acesso de usuário remoto, deverá aplicá-la ao usuário antes que o usuário possa se conectar ao Lync Server a partir de um local remoto e colaborar com usuários internos do local remoto.
 
 <div>
 
 
 > [!NOTE]  
-> Para dar suporte ao acesso de usuário externo, você deve habilitar o suporte para cada tipo de acesso de usuário externo ao qual você deseja dar suporte e configurar as políticas adequadas e outras opções para controlar seu uso. Para obter detalhes, consulte <A href="lync-server-2013-configuring-support-for-external-user-access.md">Configurando o suporte para acesso de usuários externos no Lync server 2013</A> na documentação de implantação ou <A href="lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md">Gerenciando a Federação e acesso externo ao Lync Server 2013</A> na documentação de operações.
+> Para oferecer suporte ao acesso de usuário externo, você deve ativar o suporte para cada tipo de acesso de usuário externo ao qual deseja oferecer suporte e configurar as políticas apropriadas e outras opções para controlar o uso. Para obter detalhes, consulte <A href="lync-server-2013-configuring-support-for-external-user-access.md">Configuring support for External User Access in Lync server 2013</A> na documentação de implantação ou <A href="lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md">Gerenciamento de Federação e acesso externo ao Lync Server 2013</A> na documentação operações.
 
 
 
 </div>
 
-Use o procedimento deste tópico para aplicar uma política de acesso externo do usuário criada anteriormente a uma ou mais contas de usuário.
+Use o procedimento neste tópico para aplicar uma política de acesso de usuário externo criada anteriormente para uma ou mais contas de usuário.
 
 <div>
 
-## <a name="to-apply-an-external-user-policy-to-a-user-account"></a>Para aplicar uma política de usuário externa a uma conta de usuário
+## <a name="to-apply-an-external-user-policy-to-a-user-account"></a>Para aplicar uma política de usuário externo a uma conta de usuário
 
-1.  Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+1.  Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Na barra de navegação esquerda, clique em **Usuários** e pesquise a conta de usuário que deseja configurar.
 
 4.  Na tabela que lista os resultados da pesquisa, clique na conta do usuário, em **Editar** e em **Exibir detalhes**.
 
-5.  Em **Editar usuário do Lync Server** na **política de acesso externo**, selecione a política de usuário que você deseja aplicar.
+5.  Em **Editar Usuário do Lync Server**,  em **Política de acesso externo**, selecione a política de usuário que você deseja aplicar.
     
     <div>
     
 
     > [!NOTE]  
-    > As <STRONG> &lt;configurações&gt; automáticas</STRONG> aplicam as configurações de política global e do servidor padrão.
+    > As <STRONG> &lt;configurações&gt; automáticas</STRONG> aplicam as configurações de política global ou de servidor padrão.
 
     
     </div>
@@ -80,13 +80,13 @@ Use o procedimento deste tópico para aplicar uma política de acesso externo do
 
 ## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a>Atribuindo políticas de acesso externo por usuário usando cmdlets do Windows PowerShell
 
-Políticas de acesso externo por usuário podem ser atribuídas usando o Windows PowerShell e o cmdlet Grant-CsExternalAccessPolicy. Esse cmdlet pode ser executado no Shell de gerenciamento do Lync Server 2013 ou em uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.
+As políticas de acesso externo por usuário podem ser atribuídas usando o Windows PowerShell e o cmdlet Grant-CsExternalAccessPolicy. Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
 
 <div>
 
 ## <a name="to-assign-a-per-user-external-access-policy-to-a-single-user"></a>Para atribuir uma política de acesso externo por usuário a um único usuário
 
-  - Esse comando atribui a política de acesso externo por usuário RedmondExternalAccessPolicy ao usuário Ken Myer.
+  - Este comando atribui a política de acesso externo por usuário RedmondExternalAccessPolicy ao usuário Ken Myer.
     
         Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName "RedmondExternalAccessPolicy"
 
@@ -96,7 +96,7 @@ Políticas de acesso externo por usuário podem ser atribuídas usando o Windows
 
 ## <a name="to-assign-a-per-user-external-access-policy-to-multiple-users"></a>Para atribuir uma política de acesso externo por usuário a vários usuários
 
-  - Esse comando atribui a política de acesso externo por usuário USAExternalAccessPolicy a todos os usuários que têm contas na UO Estados Unidos no Active Directory. Para obter mais informações sobre o parâmetro OU usado neste comando, consulte a documentação do cmdlet [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) .
+  - Este comando atribui a política de acesso externo por usuário USAExternalAccessPolicy a todos os usuários com contas no OU UnitedStates no Active Directory. Para obter mais informações sobre o parâmetro OU usado neste comando, consulte a documentação do cmdlet [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) .
     
         Get-CsUser -OU "ou=UnitedStates,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
 
@@ -106,13 +106,13 @@ Políticas de acesso externo por usuário podem ser atribuídas usando o Windows
 
 ## <a name="to-unassign-a-per-user-external-access-policy"></a>Para cancelar a atribuição de uma política de acesso externo por usuário
 
-  - Esse comando cancela a atribuição de qualquer política de acesso externo por usuário atribuída anteriormente a Ken Myer. Após a política por usuário ser retirada, Ken irá automaticamente ser gerenciado usando a política global ou, se existir, sua política de site local. Uma política de site tem precedência sobre a política global.
+  - Este comando cancela a atribuição de qualquer política de acesso externo por usuário atribuída a Ken Myer. Após o cancelamento da atribuição da política por usuário, Ken Myer será automaticamente gerenciado usando a política global ou a política de site local (se houver). Um política de site tem prioridade sobre a política global.
     
         Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName $Null
 
 </div>
 
-Para obter mais informações, consulte o tópico da ajuda para o cmdlet [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy) .
+Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy) .
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: planejamento de capacidade para retirada de chamadas em grupo'
+title: 'Lync Server 2013: planejamento de capacidade para recebimento de chamadas em grupo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51476680
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d694b20d026d83b4cef37c713e38ab8066e22f3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 403a00887cb64b33075f173499e855eb8783bb20
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730291"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036531"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-group-call-pickup-in-lync-server-2013"></a>Planejamento de capacidade para retirada de chamadas em grupo no Lync Server 2013
+# <a name="capacity-planning-for-group-call-pickup-in-lync-server-2013"></a>Planejamento de capacidade para recebimento de chamadas em grupo no Lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41730291"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-12_
+_**Última modificação do tópico:** 2013-02-12_
 
 <div id="sectionSection0" class="section">
 
-A tabela a seguir descreve o modelo de usuário de retirada de chamada de grupo que você pode usar como base para requisitos de planejamento de capacidade.
+A tabela a seguir descreve o modelo de usuário de recebimento de chamadas de grupo que você pode usar como base para os requisitos de planejamento de capacidade.
 
 <div>
 
 
 > [!IMPORTANT]  
-> O recebimento de chamadas em grupo é baseado no aplicativo parque de chamadas. Lembre-se de que, para o planejamento da capacidade de recuperação de desastres, cada pool de um pool emparelhado deve ser capaz de manipular as cargas de trabalho para serviços de Call Park, incluindo o recebimento de chamadas em grupo, em ambos os pools.
+> O recebimento de chamadas em grupo é baseado no aplicativo de estacionamento de chamada. Tenha em mente que, para o planejamento da capacidade de recuperação de desastres, cada pool de um pool emparelhado deve ser capaz de lidar com as cargas de trabalho para serviços de estacionamento de chamadas, incluindo o recebimento de chamadas em grupo, em ambos os pools.
 
 
 
 </div>
 
-### <a name="group-call-pickup-user-model"></a>Modelo de usuário de retirada de chamadas em grupo
+### <a name="group-call-pickup-user-model"></a>Modelo de usuário de recebimento de chamada de grupo
 
 <table>
 <colgroup>
@@ -62,8 +62,8 @@ A tabela a seguir descreve o modelo de usuário de retirada de chamada de grupo 
 <thead>
 <tr class="header">
 <th>Indicador</th>
-<th>Por pool de front-end (com 8 servidores front end)</th>
-<th>Por servidor padrão da edição</th>
+<th>Por pool de front-ends (com 8 servidores front-end)</th>
+<th>Por servidor Standard Edition</th>
 </tr>
 </thead>
 <tbody>
@@ -78,17 +78,17 @@ A tabela a seguir descreve o modelo de usuário de retirada de chamada de grupo 
 <td><p>60</p></td>
 </tr>
 <tr class="odd">
-<td><p>Número máximo de usuários por pool ativado para Recebimento de chamada de grupo</p></td>
+<td><p>Número máximo de usuários por pool habilitado para recebimento de chamadas em grupo</p></td>
 <td><p>25.000</p></td>
 <td><p>3.000</p></td>
 </tr>
 <tr class="even">
-<td><p>Taxa máxima de chamadas recebidas para o total de usuários habilitados para Recebimento de chamada de grupo por pool por minuto</p></td>
+<td><p>Taxa máxima de chamadas de entrada para usuários total habilitados para retirada de chamada de grupo por pool por minuto</p></td>
 <td><p>500</p></td>
 <td><p>60</p></td>
 </tr>
 <tr class="odd">
-<td><p>Taxa máxima de chamadas recuperadas por usuários com Recebimento de chamada de grupo por pool por minuto</p></td>
+<td><p>Taxa máxima de chamadas recuperadas por usuários com retirada de chamada de grupo por pool por minuto</p></td>
 <td><p>200</p></td>
 <td><p>25</p></td>
 </tr>
@@ -102,9 +102,9 @@ A tabela a seguir descreve o modelo de usuário de retirada de chamada de grupo 
 > [!NOTE]  
 > <UL>
 > <LI>
-> <P>Para pools front-ends com menos de oito servidores front-end, calcule as métricas linearmente. Por exemplo, se o seu pool de front-ends tiver um servidor front-end, calcule a carga máxima como 1/8 dos valores mostrados na tabela.</P>
+> <P>Para pools de front-ends com menos de oito servidores front-end, calcule as métricas linearmente. Por exemplo, se o seu pool de front-ends tiver um servidor front-end, calcule a carga máxima como 1/8 dos valores mostrados na tabela.</P>
 > <LI>
-> <P>Você pode aumentar ou diminuir o número recomendado de usuários por grupo e número de grupos desde que você não exceda o número máximo de usuários por pool. Por exemplo, seu servidor Standard Edition pode ter 120 grupos com 25 usuários por grupo porque o número de usuários habilitados para o recebimento de chamadas em grupo ainda está dentro do modelo de usuário máximo (ou seja, o 120 grupos em que 25 usuários tem 3.000 usuários habilitados para o recebimento de chamadas em grupo).</P></LI></UL>
+> <P>Você pode aumentar ou diminuir o número recomendado de usuários por grupo e número de grupos, desde que não exceda o número máximo de usuários por pool. Por exemplo, seu servidor Standard Edition pode ter 120 grupos com 25 usuários por grupo porque o número de usuários habilitados para o recebimento de chamadas de grupo ainda está dentro do modelo de usuário máximo (ou seja, 120 grupos de 25 usuários é 3.000 usuários habilitados para o recebimento de chamadas de grupo).</P></LI></UL>
 
 
 

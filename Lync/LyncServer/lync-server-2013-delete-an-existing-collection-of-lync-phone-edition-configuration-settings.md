@@ -1,5 +1,5 @@
 ---
-title: Excluir uma coleção existente de definições de configuração do Lync Phone Edition
+title: Excluir um conjunto existente de definições de configuração do Lync Phone Edition
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733574
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dbf7d49a14ce45550777c6c122cd799f6a511f76
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 175f7d9cd5417f350dd08873aa748c56d829d86d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737401"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007039"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-existing-collection-of-lync-phone-edition-configuration-settings-in-lync-server-2013"></a>Excluir uma coleção existente de definições de configuração do Lync Phone Edition no Lync Server 2013
+# <a name="delete-an-existing-collection-of-lync-phone-edition-configuration-settings-in-lync-server-2013"></a>Excluir um conjunto existente de definições de configuração do Lync Phone Edition no Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41737401"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-23_
+_**Última modificação do tópico:** 2013-02-23_
 
-Se você não quiser mais usar um conjunto de configurações para dispositivos que executam o Lync Phone Edition, exclua-o. Se você excluir uma coleção de um site, as configurações globais serão aplicadas aos telefones desse site. Não é possível excluir a coleção global.
+Se você não quiser mais usar um conjunto de configurações para dispositivos que executam o Lync Phone Edition, exclua-o. Se você excluir um conjunto de um site, as configurações globais serão aplicadas aos telefones neste site. Não é possível excluir o conjunto global.
 
 <div>
 
 
 > [!NOTE]
-> Em vez de excluir uma coleção, talvez você queira apenas alterar algumas das configurações. Para obter detalhes sobre como fazer isso, consulte <A href="lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md">criar ou modificar um conjunto de configurações do Lync Phone Edition no Lync Server 2013</A>.
+> Ao invés de excluir um conjunto, você pode alterar algumas configurações. Para obter detalhes sobre como fazer isso, consulte <A href="lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md">create or Modify a Collection of Lync Phone Edition Configuration Settings in Lync Server 2013</A>.
 
 
 
@@ -53,19 +53,19 @@ Se você não quiser mais usar um conjunto de configurações para dispositivos 
 
 ## <a name="to-delete-a-collection-of-lync-phone-edition-configuration-settings"></a>Para excluir uma coleção de definições de configuração do Lync Phone Edition
 
-1.  Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+1.  Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação à esquerda, clique em **clientes**e, em seguida, clique no botão de navegação **configuração de dispositivo** .
+3.  Na barra de navegação esquerda, clique em **Clientes** e no botão de navegação **Configuração do Dispositivo**.
 
-4.  Na página **configuração de dispositivo** , clique na coleção que você deseja excluir, clique no menu **Editar** e, em seguida, clique em **excluir**.
+4.  Na página **Configuração do Dispositivo**, clique no conjunto que você deseja excluir, clique no menu **Editar** e em **Excluir**.
     
     <div>
     
 
     > [!NOTE]
-    > Se você excluir a coleção global, as configurações apenas reverterão para as configurações padrão. A coleção não desaparece.
+    > Se você excluir o conjunto global, as configurações são revertidas para as configurações padrões. O conjunto não some.
 
     
     </div>
@@ -76,15 +76,15 @@ Se você não quiser mais usar um conjunto de configurações para dispositivos 
 
 <div>
 
-## <a name="removing-lync-phone-edition-configuration-settings-by-using-windows-powershell-cmdlets"></a>Como remover as configurações de configuração do Lync Phone Edition usando cmdlets do Windows PowerShell
+## <a name="removing-lync-phone-edition-configuration-settings-by-using-windows-powershell-cmdlets"></a>Removendo definições de configuração do Lync Phone Edition usando cmdlets do Windows PowerShell
 
-Você pode excluir as configurações de configuração do Lync Phone Edition usando o Windows PowerShell e o cmdlet **Remove-CsUCConfiguration** . Você pode executar esse cmdlet a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.
+Você pode excluir as definições de configuração do Lync Phone Edition usando o Windows PowerShell e o cmdlet **Remove-CsUCConfiguration** . Você pode executar esse cmdlet do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
 
 <div>
 
-## <a name="to-remove-a-specified-collection-of-lync-phone-edition-configuration-settings"></a>Para remover uma coleção especificada de definições de configuração do Lync Phone Edition
+## <a name="to-remove-a-specified-collection-of-lync-phone-edition-configuration-settings"></a>Para remover uma coleção especificada das definições de configuração do Lync Phone Edition
 
-  - Esse comando exclui as definições de configuração de telefone UC aplicadas ao site Redmond:
+  - Este comando excluir as definições de configuração do telefone UC para o site Redmond:
     
         Remove-CsUCPhoneConfiguration -Identity "site:Redmond"
 
@@ -92,9 +92,9 @@ Você pode excluir as configurações de configuração do Lync Phone Edition us
 
 <div>
 
-## <a name="to-remove-all-of-the-lync-phone-edition-configuration-settings-applied-to-the-site-scope"></a>Para remover todas as configurações de configuração do Lync Phone Edition aplicadas ao escopo do site
+## <a name="to-remove-all-of-the-lync-phone-edition-configuration-settings-applied-to-the-site-scope"></a>Para remover todas as definições de configuração do Lync Phone Edition aplicadas ao escopo do site
 
-  - Esse comando Remove todas as definições de configuração de telefone UC aplicadas ao escopo do serviço:
+  - Este comando remove todas as definições de configuração do telefone UC aplicadas ao escopo de serviço:
     
         Get-CsUCPhoneConfiguration -Filter "site:*" | Remove-CsUCPhoneConfiguration
 
@@ -102,15 +102,15 @@ Você pode excluir as configurações de configuração do Lync Phone Edition us
 
 <div>
 
-## <a name="to-remove-all-of-the-lync-phone-edition-configuration-settings-where-phone-locking-is-disabled"></a>Para remover todas as configurações de configuração do Lync Phone Edition em que o bloqueio de telefone está desabilitado
+## <a name="to-remove-all-of-the-lync-phone-edition-configuration-settings-where-phone-locking-is-disabled"></a>Para remover todas as definições de configuração do Lync Phone Edition onde o bloqueio de telefone está desabilitado
 
-  - Esse comando exclui qualquer conjunto de configurações de configuração de telefone UC em que o bloqueio de telefone foi desabilitado:
+  - Este comando exclui qualquer conjunto de definições de configuração do telefone UC onde o bloqueio de telefone foi desabilitado:
     
         Get-CsUCPhoneConfiguration | Where-Object {$_.EnforcePhoneLock -eq $False} | Remove-CsUCPhoneConfiguration
 
 </div>
 
-Para obter detalhes, consulte [Remove-CsUCPhoneConfiguration](https://technet.microsoft.com/en-us/library/Gg398249(v=OCS.15)).
+Para obter detalhes, consulte [Remove-CsUCPhoneConfiguration](https://technet.microsoft.com/library/Gg398249(v=OCS.15)).
 
 </div>
 

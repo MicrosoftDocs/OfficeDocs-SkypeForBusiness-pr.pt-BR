@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabela Dialog'
+title: 'Lync Server 2013: tabela de caixas de diálogo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184068
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f0ef564ad1224ba9970b7cceb5db60e0eb344da
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 578b27a61e6af7114da19eb0d6d21dea38dba551
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762239"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036731"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762239"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-02_
+_**Última modificação do tópico:** 2012-10-02_
 
-A tabela de caixa de diálogo é uma tabela de suporte; cada registro representa uma caixa de diálogo SIP (protocolo de início de sessão).
+A tabela da Caixa de Diálogo é uma tabela de suporte; cada registro representa uma caixa de diálogo de protocolo SIP.
 
 
 <table>
@@ -59,26 +59,26 @@ A tabela de caixa de diálogo é uma tabela de suporte; cada registro representa
 <tr class="odd">
 <td><p><strong>ConferenceDateTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Primária</p></td>
-<td><p>Tempo quando o agente de Quality of Excellence (QoE) recebe o primeiro relatório do chamador ou do receptor. Usado em conjunto com o SessionSeq para identificar exclusivamente uma sessão.</p></td>
+<td><p>Primário</p></td>
+<td><p>Horário em que o agente de QoE (Qualidade de Excelência) recebe o primeiro relatório do chamador ou receptor. Usado em conjunto com SessionSeq para identificar exclusivamente uma sessão.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primária</p></td>
-<td><p>Número de sequência para diferenciar sessões quando elas tiverem o mesmo ConferenceDateTime.</p></td>
+<td><p>Primário</p></td>
+<td><p>Número de sequência para diferenciar sessões quando tiverem o mesmo ConferenceDateTime.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Caixa de diálogo</strong></p></td>
+<td><p><strong>DialogID</strong></p></td>
 <td><p>varchar (256)</p></td>
 <td></td>
-<td><p>IDENTIFICAÇÃO da caixa de diálogo que é globalmente exclusiva.</p></td>
+<td><p>ID da caixa de diálogo que é globalmente exclusiva.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DialogIDChecksum</strong></p></td>
 <td><p>int</p></td>
-<td><p>dedo</p></td>
-<td><p>Checksum da ID da caixa de diálogo.</p></td>
+<td><p>index</p></td>
+<td><p>Soma de verificação da ID da Caixa de Diálogo.</p></td>
 </tr>
 </tbody>
 </table>

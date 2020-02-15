@@ -1,5 +1,5 @@
 ---
-title: Verificar a conclusão da replicação de usuário
+title: Verificar se a replicação do usuário foi concluída
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183524
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc6d8100a7bd0d348c3414da627584bae8697a1c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6433c1e88edf69b957047b9dc405df392e5ec104
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730771"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036189"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verify-user-replication-has-completed"></a>Verificar a conclusão da replicação de usuário
+# <a name="verify-user-replication-has-completed"></a>Verificar se a replicação do usuário foi concluída
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41730771"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-28_
+_**Última modificação do tópico:** 2012-09-28_
 
-Ao executar o cmdlet **move-CsLegacyUser** , você pode ter uma falha devido a informações do usuário entre os serviços de domínio Active Directory (AD DS), e os bancos de dados do Lync Server 2013 estão fora de sincronia porque a replicação inicial está incompleta. O tempo necessário para a conclusão bem-sucedida da sincronização inicial do serviço Duplicador de usuários do Lync Server 2013 depende do número de controladores de domínio hospedados na floresta do Active Directory que hospeda o pool do Lync Server 2013. O processo de sincronização inicial do serviço Duplicador de usuários do Lync Server 2013 ocorre quando o servidor front-end do Lync Server 2013 é iniciado pela primeira vez. Depois disso, a sincronização é baseada no intervalo de Duplicador do usuário. Conclua as etapas a seguir para verificar se a replicação do usuário foi concluída antes de executar o cmdlet **move-CsLegacyUser** .
+Ao executar o cmdlet **move-CsLegacyUser** , você pode ter uma falha devido às informações do usuário entre o AD DS (serviços de domínio Active Directory) e os bancos de dados do Lync Server 2013 que estão fora de sincronia porque a replicação inicial está incompleta. O tempo necessário para a conclusão bem-sucedida da sincronização inicial do serviço replicador de usuários do Lync Server 2013 depende do número de controladores de domínio hospedados na floresta do Active Directory que hospeda o pool do Lync Server 2013. O processo de sincronização inicial do serviço replicador de usuários do Lync Server 2013 ocorre quando o servidor front-end do Lync Server 2013 é iniciado pela primeira vez. Depois disso, a sincronização se baseia no intervalo do Replicador de Usuário. Complete os passos a seguir para verificar que a replicação de usuário foi concluída antes de executar o cmdlet **Move-CsLegacyUser**.
 
 <div>
 
-## <a name="to-verify-that-user-replication-has-completed"></a>Para verificar se a duplicação do usuário foi concluída
+## <a name="to-verify-that-user-replication-has-completed"></a>Para verificar que a replicação de usuário foi concluída
 
-1.  No servidor de front-end do Lync Server 2013, clique no menu **Iniciar** e, em seguida, clique em **executar**.
+1.  No servidor front-end do Lync Server 2013, clique no menu **Iniciar** e em **executar**.
 
-2.  Insira **eventvwr. exe** e clique em **OK**.
+2.  Insira **eventvwr.exe** e clique em **OK**.
 
-3.  Em Visualizador de eventos, clique em **logs de aplicativos e serviços** para expandi-lo e selecione Lync Server.
+3.  No Visualizador de Eventos, clique em **Logs de Aplicativos e Serviços** para expandir e selecione Lync Server.
 
-4.  No painel **ações** , clique em **Filtrar log atual**.
+4.  No painel **Ações**, clique em **Filtrar Log Atual**.
 
-5.  Na lista **fontes de eventos** , clique em **Duplicador de usuários ls**.
+5.  Na lista **Fontes de evento**, clique em **Replicador de Usuário LS**.
 
 6.  Em ** \<todas as identificações\> de evento** , insira **30024** e clique em **OK**.
 
-7.  Na lista eventos filtrados, na guia **geral** , procure por uma entrada que declara que a duplicação do usuário foi concluída com êxito.
+7.  Na lista de eventos filtrados, na guia **Geral**, procure uma entrada que afirma que a replicação de usuário foi concluída com êxito.
 
 </div>
 

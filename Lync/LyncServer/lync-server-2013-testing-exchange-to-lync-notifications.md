@@ -12,16 +12,16 @@ ms:contentKeyID: 63969665
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37f163d5a43dce9672535ec3d78f360bcec8d926
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c5e6010d7884bca7ec82d4992b83e22cce315b1f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745801"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036289"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745801"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-11-01_
+_**Última modificação do tópico:** 2014-11-01_
 
 
 <table>
@@ -45,17 +45,17 @@ _**Tópico da última modificação:** 2014-11-01_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Cronograma de verificação</p></td>
-<td><p>Diário</p></td>
+<td><p>Agenda de verificação</p></td>
+<td><p>Diariamente</p></td>
 </tr>
 <tr class="even">
 <td><p>Ferramenta de teste</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissões necessárias</p></td>
-<td><p>Quando executado localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.</p>
-<p>Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet <strong>Test-CsExStorageNotification</strong> . Para ver uma lista de todas as funções RBAC que podem usar esse cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</p>
+<td><p>Permissões obrigatórias</p></td>
+<td><p>Ao executar localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.</p>
+<p>Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet <strong>Test-CsExStorageNotification</strong> . Para ver uma lista de todas as funções RBAC que podem usar este cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsExStorageNotification&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ _**Tópico da última modificação:** 2014-11-01_
 
 ## <a name="description"></a>Descrição
 
-O cmdlet **Test-CsExStorageNotification** é usado para verificar se o serviço de notificação do Microsoft Exchange Server 2013 pode notificar o Lync Server 2013 todas as atualizações de horário são feitas na lista de contatos de um usuário. Este cmdlet é válido apenas se você estiver usando o repositório de contatos unificado.
+O cmdlet **Test-CsExStorageNotification** é usado para verificar se o serviço de notificação do Microsoft Exchange Server 2013 pode notificar o Lync Server 2013 todas as atualizações de horário são feitas na lista de contatos de um usuário. Este cmdlet é válido somente se você estiver usando o repositório unificado de contatos.
 
 </div>
 
@@ -74,7 +74,7 @@ O cmdlet **Test-CsExStorageNotification** é usado para verificar se o serviço 
 
 ## <a name="running-the-test"></a>Executar o teste
 
-O comando mostrado no exemplo 1 testa para ver se o serviço de armazenamento do Lync Server pode se conectar ao serviço de notificação de caixa de correio do Microsoft Exchange Server para o usuário do sip:kenmyer@litwareinc.com. Neste exemplo, NetNamedPipe é usado como associação do WCF.
+O comando mostrado no exemplo 1 testa para ver se o serviço de armazenamento do Lync Server pode se conectar ao serviço de notificação de caixa de correio do Microsoft Exchange Server para o usuário sip:kenmyer@litwareinc.com. Nesse exemplo, NetNamedPipe é usado como o conector WCF.
 
     Test-CsExStorageNotification -SipUri "sip:kenmyer@litwareinc.com" -Binding "NetNamedPipe"
 
@@ -82,9 +82,9 @@ O comando mostrado no exemplo 1 testa para ver se o serviço de armazenamento do
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Determinação do sucesso ou falha
+## <a name="determining-success-or-failure"></a>Determinando o sucesso ou a falha
 
-Se a integração com o Exchange estiver configurada corretamente, você receberá uma saída semelhante a essa, com a propriedade Result marcada como **Success**:
+Se a integração do Exchange estiver configurada corretamente, você receberá uma saída semelhante a esta, com a propriedade Result marcada como **Success**:
 
 FQDN de destino: atl-cs-001.litwareinc.com
 
@@ -94,9 +94,9 @@ Latência: 00:00:00
 
 Mensagem de erro:
 
-Correto
+Diagnóstico
 
-Se o usuário especificado não puder receber notificações, o resultado será mostrado como uma falha, e informações adicionais serão gravadas nas propriedades de erro e diagnóstico:
+Se o usuário especificado não puder receber notificações, o resultado será mostrado como falha, e informações adicionais serão registradas nas propriedades de erro e diagnóstico:
 
 FQDN de destino: atl-cs-001.litwareinc.com
 
@@ -104,7 +104,7 @@ Resultado: falha
 
 Latência: 00:00:00
 
-Mensagem de erro: 10060, falha na tentativa de conexão porque a parte conectada
+Mensagem de erro: 10060, uma tentativa de conexão falhou porque a parte conectada
 
 Não respondeu corretamente após um período de tempo ou
 
@@ -116,11 +116,11 @@ Exceção interna: falha na tentativa de conexão porque o
 
 a parte conectada não respondeu corretamente após um período de
 
-falha na hora ou estabelecida a conexão porque o host conectado
+a hora ou a conexão estabelecida falhou porque o host conectado
 
-falhou ao responder 10.188.116.96:5061
+Falha ao responder 10.188.116.96:5061
 
-Correto
+Diagnóstico
 
 </div>
 
@@ -130,9 +130,9 @@ Correto
 
 Aqui estão alguns motivos comuns pelos quais **Test-CsExStorageNotification** pode falhar:
 
-  - Um valor de parâmetro incorreto foi fornecido. Se usado, os parâmetros opcionais devem ser configurados corretamente ou o teste falhará. Execute o comando novamente sem os parâmetros opcionais e veja se isso é bem-sucedido.
+  - Um valor de parâmetro incorreto foi fornecido. Se usado, os parâmetros opcionais devem ser configurados corretamente ou o teste falhará. Execute novamente o comando sem os parâmetros opcionais e veja se isso é bem-sucedido.
 
-  - Esse comando falhará se o Microsoft Exchange Server estiver configurado incorretamente ou ainda não foi implantado.
+  - Esse comando falhará se o Microsoft Exchange Server estiver configurado incorretamente ou ainda não tiver sido implantado.
 
 </div>
 

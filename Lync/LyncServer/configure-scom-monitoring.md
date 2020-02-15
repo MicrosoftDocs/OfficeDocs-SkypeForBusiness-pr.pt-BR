@@ -1,5 +1,5 @@
 ---
-title: Configurar monitoramento SCOM
+title: Configurar monitoramento do SCOM
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -13,20 +13,20 @@ ms:contentKeyID: 49733624
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7904edf9723dacdd28f69a75bec17cb5db3c2061
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8266097035a284c966ad62672515cb2a64444339
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728131"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006637"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-scom-monitoring"></a>Configurar monitoramento SCOM
+# <a name="configure-scom-monitoring"></a>Configurar monitoramento do SCOM
 
 </div>
 
@@ -36,25 +36,25 @@ ms.locfileid: "41728131"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-04_
+_**Última modificação do tópico:** 2012-10-04_
 
-Depois de migrar para o Microsoft Lync Server 2013, você deve concluir algumas tarefas para configurar o Lync Server 2013 para trabalhar com o System Center Operations Manager.
+Após a migração para o Microsoft Lync Server 2013, você deve concluir algumas tarefas para configurar o Lync Server 2013 para trabalhar com o System Center Operations Manager.
 
   - Aplicar atualizações do Lync Server 2010 a um servidor escolhido para gerenciar a lógica de descoberta central.
 
-  - Atualize a chave do registro do servidor candidato à descoberta central.
+  - Atualize a chave de registro do servidor candidato a descoberta central.
 
-  - Configure o servidor de gerenciamento principal do System Center Operations Manager para substituir o nó de descoberta central de candidatos.
+  - Configure seu servidor de gerenciamento do System Center Operations Manager principal para substituir o nó de descoberta central de candidatos.
 
-As instruções para executar cada uma dessas tarefas são fornecidas abaixo.
+Instruções para executar cada uma dessas tarefas são fornecidas abaixo.
 
 **Aplicar atualizações do Lync Server 2010 a um servidor escolhido para gerenciar a lógica de descoberta central.**
 
-1.  Escolha um servidor que tenha os arquivos de agente do System Center Operations Manager instalados e esteja configurado como um nó de descoberta de candidatos.
+1.  Eleja um servidor que possua os arquivos do agente do Gerenciador de Operações do Sistema Central instalados e esteja configurado como nó de descoberta central.
 
-2.  Aplicar atualizações do Lync Server 2010 a este servidor. Consulte o tópico [aplicar atualizações do Lync Server 2010](apply-lync-server-2010-updates.md).
+2.  Aplicar atualizações do Lync Server 2010 a este servidor. Consulte o tópico [Apply Lync Server 2010 updates](apply-lync-server-2010-updates.md).
 
-**Atualize a chave do registro do servidor candidato à descoberta central.**
+**Atualize a chave de registro do servidor candidato a descoberta central.**
 
 1.  No servidor escolhido para gerenciar a lógica de descoberta central, abra uma janela de comando do Windows PowerShell.
 
@@ -72,22 +72,22 @@ As instruções para executar cada uma dessas tarefas são fornecidas abaixo.
     
 
     > [!NOTE]  
-    > Sempre que você edita o registro, pode ocorrer um erro inque o comando falhou se a chave do registro já existe. Se isso acontecer, você pode ignorar o erro com segurança.
+    > Sempre que você editar o registro, você poderá receber um erro em que o comando falha caso a chave de registro já exista. Caso isso aconteça, você pode ignorar com segurança o erro.
 
     
     </div>
 
-**Configure o servidor de gerenciamento principal do System Center Operations Manager para substituir o nó do inspetor da descoberta do candidato.**
+**Configure seu servidor de gerenciamento do System Center Operations Manager principal para substituir o nó do Inspetor de descoberta central de candidatos.**
 
-1.  Em um computador em que o console System Center Operations Manager foi instalado, expanda os **objetos do pacote de gerenciamento** e selecione descobertas de **objetos**.
+1.  Em um computador onde o console do Gerenciador de Operações do  System Center foi instalado, expanda **Objetos do Pacote de Gerenciamento** e selecione **Descobertas de Objeto**.
 
-2.  Clique em **alterar escopo..** .
+2.  Clique em **Alterar escopo...**
 
-3.  Na página **objetos do pacote de gerenciamento de escopo** , selecione **candidato para descoberta ls**.
+3.  Da página **Escopo de Objetos do Pacote de Gerenciamento**, selecione **Candidato a Descoberta LS**.
 
-4.  Substitua o **valor efetivo de candidato à descoberta ls** pelo nome do servidor de candidatos escolhido no procedimento anterior.
+4.  Substitua o **Valor Efetivo de Candidato a Descoberta LS** para o nome do servidor de candidato eleito para o procedimento anterior.
 
-Por fim, para finalizar suas alterações, reinicie o serviço de integridade no servidor de gerenciamento raiz do System Center Operations Manager.
+Por fim, finalize as alterações, reinicie o serviço de integridade no Servidor de Gerenciamento de Raiz de Gerenciamento de Operações do System Center.
 
 </div>
 

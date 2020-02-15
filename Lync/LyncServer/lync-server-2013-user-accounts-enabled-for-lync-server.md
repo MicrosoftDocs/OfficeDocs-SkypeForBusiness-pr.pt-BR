@@ -12,16 +12,16 @@ ms:contentKeyID: 48184651
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 613d6350fcb405b1ae8beef78c3ee8c8a64a084c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d51f72f586ab6d5b5094c61ae09d8ac316350b7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744651"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033981"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41744651"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-04-18_
+_**Última modificação do tópico:** 2014-04-18_
 
-Os tópicos desta seção fornecem procedimentos passo a passo para configurar as configurações do usuário que você pode executar usando o painel de controle do Lync Server 2013.
+Os tópicos desta seção fornecem procedimentos passo a passo para definir as configurações do usuário que você pode executar usando o painel de controle do Lync Server 2013.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Você não pode usar o painel de controle do Lync Server para gerenciar os usuários que são membros do grupo Administradores de domínio do Active Directory. Para usuários de administradores de domínio, você pode usar o painel de controle do Lync Server somente para realizar operações de pesquisa somente leitura. Para realizar operações de gravação em usuários de administradores de domínio (por exemplo, habilitar ou desabilitar o painel de controle do Lync Server, alterar as atribuições de grupo ou política, configurações de telefonia, endereço SIP), você deve usar cmdlets do Windows PowerShell enquanto estiver conectado como um usuário administradores de domínio. Para obter detalhes sobre como usar cmdlets do Windows PowerShell para gerenciar usuários, consulte <A href="lync-server-2013-lync-server-management-shell.md">Shell de gerenciamento do Lync Server 2013</A>.
+> Você não pode usar o painel de controle do Lync Server para gerenciar usuários que são membros do grupo Administradores de domínio do Active Directory. Para usuários de administradores de domínio, você pode usar o painel de controle do Lync Server somente para realizar operações de pesquisa somente leitura. Para realizar operações de gravação em usuários de administradores de domínio (por exemplo, habilitar ou desabilitar o painel de controle do Lync Server, alterar as atribuições de grupo ou política, configurações de telefonia, endereço SIP), você deve usar cmdlets do Windows PowerShell enquanto estiver conectado como um usuário admins. Para obter detalhes sobre como usar cmdlets do Windows PowerShell para gerenciar usuários, consulte <A href="lync-server-2013-lync-server-management-shell.md">Lync Server 2013 Management Shell</A>.
 
 
 
 </div>
 
-Quando você executa qualquer tarefa administrativa do Lync Server 2013 que envolve a pesquisa de um usuário ou filtragem dos resultados da pesquisa de usuário, há algumas propriedades de usuário que existem como atributos nos serviços de domínio Active Directory, mas que não são replicadas para o catálogo global até que o Microsoft Exchange Server seja implantado. Microsoft Exchange, não Lync Server, marca os seguintes atributos de replicação para o catálogo global quando ele é instalado:
+Quando você realiza qualquer tarefa administrativa do Lync Server 2013 que envolve a pesquisa de um usuário ou filtragem de resultados de pesquisa de usuário, há algumas propriedades de usuário que existem como atributos nos serviços de domínio do Active Directory, mas que não são replicadas para o catálogo global até que o Microsoft Exchange Server seja implantado. O Microsoft Exchange, não o Lync Server, marca os seguintes atributos para replicação para o catálogo global quando ele é instalado:
 
 
 <table>
@@ -60,23 +60,23 @@ Quando você executa qualquer tarefa administrativa do Lync Server 2013 que envo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Informações do usuário</th>
-<th>Endereço e telefone</th>
+<th>Informações de usuário</th>
+<th>Endereço e Telefone</th>
 <th>Organização</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Iniciais</p></td>
-<td><p>Endereço da rua</p>
-<p>País/Região</p>
-<p>Page</p>
+<td><p>Endereço</p>
+<p>País/região</p>
+<p>Pager</p>
 <p>Fax</p>
 <p>Mobile</p></td>
-<td><p>Título</p>
+<td><p>Cargo</p>
 <p>Empresa</p>
-<p>Partamentais</p>
-<p>Office</p></td>
+<p>Departamento</p>
+<p>Escritório</p></td>
 </tr>
 </tbody>
 </table>
@@ -86,17 +86,17 @@ Quando você executa qualquer tarefa administrativa do Lync Server 2013 que envo
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Exibir informações sobre contas de usuário habilitadas para o Lync Server 2013](lync-server-2013-viewing-information-about-user-accounts-enabled-for-lync-server.md)
+  - [Exibindo informações sobre contas de usuário habilitadas para o Lync Server 2013](lync-server-2013-viewing-information-about-user-accounts-enabled-for-lync-server.md)
 
-  - [Habilitando e desabilitando usuários do Lync Server 2013](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)
+  - [Habilitando e desabilitando usuários para o Lync Server 2013](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)
 
   - [Gerenciando o Enterprise Voice para usuários no Lync Server 2013](lync-server-2013-managing-enterprise-voice-for-users.md)
 
-  - [Modificando Propriedades de conta de usuário no Lync Server 2013](lync-server-2013-modifying-user-account-properties.md)
+  - [Modificando Propriedades da conta de usuário no Lync Server 2013](lync-server-2013-modifying-user-account-properties.md)
 
   - [Gerenciar política de acesso externo no Lync Server 2013](lync-server-2013-manage-external-access-policy-for-your-organization.md)
 
-  - [Como atribuir políticas por usuário no Lync Server 2013](lync-server-2013-assigning-per-user-policies.md)
+  - [Atribuindo políticas por usuário no Lync Server 2013](lync-server-2013-assigning-per-user-policies.md)
 
 </div>
 
@@ -105,7 +105,7 @@ Quando você executa qualquer tarefa administrativa do Lync Server 2013 que envo
 ## <a name="see-also"></a>Confira também
 
 
-[Cmdlets de gerenciamento de usuários no Lync Server 2013](lync-server-2013-user-management-cmdlets.md)  
+[Cmdlets de gerenciamento de usuário no Lync Server 2013](lync-server-2013-user-management-cmdlets.md)  
 
 
 [Gerenciando usuários no Lync Server 2013](lync-server-2013-managing-users-in-lync-server.md)  

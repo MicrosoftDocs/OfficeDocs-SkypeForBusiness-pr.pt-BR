@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Exemplo de consultas ao banco de dados de QoE'
+title: 'Lync Server 2013: exemplos de consultas do banco de dados de QoE'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183280
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e0a077a4da1bcbda9e8f14f9e2c4fcd838434b6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d454f04d521324f51712a632a339617b259cde5e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765019"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987136"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="sample-qoe-database-queries-in-lync-server-2013"></a>Exemplo de consultas ao banco de dados de QoE no Lync Server 2013
+# <a name="sample-qoe-database-queries-in-lync-server-2013"></a>Exemplo de consultas do banco de dados de QoE no Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41765019"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-17_
+_**Última modificação do tópico:** 2012-10-17_
 
-Esta seção contém exemplos de consultas para o banco de dados de qualidade da experiência (QoE).
+Esta seção contém exemplos de consultas do banco de dados da Qualidade da Experiência (QoE).
 
 Use o exemplo a seguir para obter a média de tremulação e perda de pacote para todos os fluxos de áudio.
 
     select avg(cast(JitterInterArrival as bigint)) as JitterAvg, avg(PacketLossRate) as PacketLossRateAvg from AudioStream
 
-Use o exemplo a seguir para localizar o número total de conferências que usaram o console de reunião.
+Use o exemplo a seguir para descobrir o número total de conferências que usaram o Console de Reunião.
 
     select avg(ConversationalMOS)
     from SessionView s
@@ -54,7 +54,7 @@ Use o exemplo a seguir para localizar o número total de conferências que usara
        and s.CallerUserAgentType = 4 -- Lync
        and s.CalleeUserAgentType = 4 -- Lync
 
-Use o exemplo a seguir para obter o ConversstionalMOS, o SendingMOS e o ListendingMOS por dispositivo de captura.
+Use o exemplo a seguir para obter ConversstionalMOS, SendingMOS e ListendingMOS por dispositivo de captura.
 
     select t.DeviceName as Device, count(*) as SampleNum, avg(ConversationalMOS) as ConversationalMOS, avg(SendListenMOS) SendingMOS, avg(RecvListenMOS) as ListendingMOS
     from

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: criar uma política de correio de voz hospedada no nível do site'
+title: 'Lync Server 2013: criar uma política de caixa postal hospedada no nível do site'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6aeae2e533bd62cf1f3e24e7ceff69b870ebc7b3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b103369591846cc49b2c676a90103675fe09baec
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740361"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034863"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41740361"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-24_
+_**Última modificação do tópico:** 2012-09-24_
 
-Uma política de *site* pode afetar todos os usuários que estão hospedados no site para o qual a política está definida. Se um usuário estiver configurado para acesso do Exchange UM hospedado e não tiver sido atribuída uma política por usuário, a política do site será aplicada. Se você não implantou uma política de site, a política global se aplica.
+Uma política de *local* pode afetar todos os usuários hospedados no local em que a política foi definida. Se um usuário for configurado para acesso hospedado ao serviço de UM do Exchange e não tiver recebido uma política Por usuário, a política de local será aplicada. Caso não tenha implantado uma política de local, será aplicada a política global.
 
 Para obter detalhes sobre como configurar políticas de site, consulte a documentação do Shell de gerenciamento do Lync Server para os seguintes cmdlets:
 
@@ -49,23 +49,23 @@ Para obter detalhes sobre como configurar políticas de site, consulte a documen
 
 <div>
 
-## <a name="to-create-a-site-hosted-voice-mail-policy"></a>Para criar uma política de caixa postal hospedada no site
+## <a name="to-create-a-site-hosted-voice-mail-policy"></a>Para criar uma política de caixa postal hospedada em um site
 
-1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 2.  Execute o cmdlet New-CsHostedVoicemailPolicy para criar a política. Por exemplo, execute:
     
         New-CsHostedVoicemailPolicy -Identity site:Redmond -Destination ExUM.fabrikam.com -Description "Hosted voice mail policy for the Redmond site." -Organization "corp1.litwareinc.com, corp2.litwareinc.com"
     
-    Este exemplo cria uma política de caixa postal hospedada com escopo de site e define os seguintes parâmetros:
+    Esse exemplo cria uma política de caixa postal com escopo do site e define os parâmetros a seguir:
     
-      - **Identity** especifica um identificador exclusivo para a política, que inclui o escopo. Para uma política com escopo de site, o valor do parâmetro Identity deve ser especificado no `site:` * \<nome\>* do formato, por `site:Redmond`exemplo,.
+      - A **Identidade** especifica um identificador único para a política, o que inclui o escopo. Para uma política com escopo de site, o valor do parâmetro Identity deve ser especificado no `site:` * \<nome\>* do formato, por `site:Redmond`exemplo,.
     
-      - **Destino** especifica o nome de domínio totalmente qualificado (FQDN) do serviço do Exchange um hospedado. Esse parâmetro é opcional, mas se você tentar habilitar um usuário para a caixa postal hospedada e a política atribuída do usuário não tiver um valor de destino, o habilitar falhará.
+      - **Destino** especifica o nome de domínio completamente qualificado (FQDN) do serviço Exchange UM hospedado. Esse parâmetro é opcional, mas se você tentar ativar um usuário para o correio de voz hospedado e a política atribuída ao usuário não possui um valor de Destino, a ativação irá falhar.
     
       - **Descrição** fornece informações descritivas opcionais sobre a política.
     
-      - **Organização** especifica uma lista separada por vírgulas dos locatários do Exchange que os usuários do Lync Server 2013 em casa. Cada locatário deve ser especificado como FQDN do locatário no serviço do Exchange UM hospedado.
+      - **Organization** especifica uma lista separada por vírgulas dos locatários do Exchange que hospedam os usuários do Lync Server 2013. Cada inquilino deve ser especificado como FQDN daquele inquilino no serviço hospedado de UM do Exchange.
 
 </div>
 

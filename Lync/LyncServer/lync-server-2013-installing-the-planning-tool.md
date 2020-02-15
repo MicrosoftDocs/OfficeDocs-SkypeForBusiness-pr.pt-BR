@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Instalando a Ferramenta de Planejamento'
+title: 'Lync Server 2013: instalando a ferramenta de planejamento'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541525
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7a427ab99368d74180e1d0321741117a9ed97e9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 792f72daac7eb1d7edb10087256bfda0912edfe9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725891"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006167"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="installing-the-planning-tool-in-lync-server-2013"></a>Instalando a Ferramenta de Planejamento no Lync Server 2013
+# <a name="installing-the-planning-tool-in-lync-server-2013"></a>Instalando a ferramenta de planejamento no Lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41725891"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-11-07_
+_**Última modificação do tópico:** 2013-11-07_
 
-Antes de começar a criar e planejar a infraestrutura do Lync Server 2013 usando o Microsoft Lync Server 2013, ferramenta de planejamento, você deve primeiro instalar a ferramenta de planejamento. A ferramenta de planejamento não precisa ser implantada em uma estação de trabalho ou em um servidor que faça parte do domínio ou da infraestrutura em que você planeja instalar o Lync Server 2013. O arquivo Leiame que acompanha a ferramenta de planejamento detalha informações importantes sobre a instalação e a utilização da ferramenta. Algumas das informações no arquivo Leiame estão reproduzidas aqui para esclarecimento.
+Antes de começar a projetar e planejar sua infraestrutura do Lync Server 2013 usando o Microsoft Lync Server 2013, ferramenta de planejamento, você deve primeiro instalar a ferramenta de planejamento. A ferramenta de planejamento não precisa ser implantada em uma estação de trabalho ou servidor que faça parte do domínio ou infraestrutura onde você planeja instalar o Lync Server 2013. O arquivo Leiame que acompanha a ferramenta de planejamento detalha informações importantes sobre como instalar e usar a ferramenta. Algumas das informações no arquivo Leiame estão reproduzidas aqui para esclarecimento.
 
 <div>
 
 
 > [!IMPORTANT]  
-> A ferramenta de planejamento requer a instalação de um usuário com direitos e permissões de administrador no computador em que a ferramenta está instalada.
+> A ferramenta de planejamento requer a instalação por um usuário com direitos e permissões de administrador no computador no qual a ferramenta será instalada.
 
 
 
 </div>
 
-Os sistemas operacionais com suporte para instalação e operação da ferramenta de planejamento são:
+Os sistemas operacionais suportados para instalação e operação da ferramenta de planejamento são:
 
   - Windows 8
 
@@ -67,7 +67,7 @@ Os sistemas operacionais com suporte para instalação e operação da ferrament
 
 Além disso, a ferramenta de planejamento requer o Microsoft .NET Framework 4,5.
 
-Depois que os requisitos de pré-instalação forem atendidos, você poderá instalar a ferramenta de planejamento.
+Após os requisitos de pré-instalação serem atendidos, você poderá instalar a ferramenta de planejamento.
 
 <div>
 
@@ -75,17 +75,17 @@ Depois que os requisitos de pré-instalação forem atendidos, você poderá ins
 
 1.  Faça logon no computador local como membro do grupo Administradores.
 
-2.  Usando o Windows Explorer ou uma janela de comando, localize o diretório em que você baixou os arquivos de instalação da ferramenta de planejamento.
+2.  Usando o Windows Explorer ou uma janela de comando, localize o diretório onde você baixou os arquivos de instalação da ferramenta de planejamento.
 
-3.  Localize o LyncPlanningTool. msi. No Windows Explorer, clique duas vezes no arquivo. Na janela de comando, digite o nome do arquivo e pressione  **Enter** para executá-lo.
+3.  Localize o LyncPlanningTool.msi. No Windows Explorer, clique duas vezes no arquivo. Na janela de comando, digite o nome do arquivo e pressione **Enter** para executar o arquivo.
 
-4.  Na página de boas-vindas do **Microsoft Lync Server 2013, assistente de configuração da ferramenta de planejamento**, clique em **Avançar**.
+4.  Na página de boas-vindas do **Assistente de instalação da ferramenta de planejamento do Microsoft Lync Server 2013**, clique em **Avançar**.
 
 5.  Revise o **Contrato de Licença de Usuário Final**, selecione **Aceito os termos do Contrato de Licença** se você escolher aceitar os termos de uso do contrato de licença e clique em **Avançar**.
 
-6.  Escolha onde instalar os arquivos da ferramenta de planejamento. O local padrão é C:\\arquivos de programas (x86\\) Microsoft Lync Server\\2013 Planning Tool. Se quiser alterar o local de instalação, clique em **Alterar**. Em **Alterar pasta de destino**, procure ou digite o local para instalar os arquivos, clique em **OK** e, depois, em **Avançar**.
+6.  Escolha onde instalar os arquivos da Ferramenta de Planejamento. O local padrão é C:\\arquivos de programas (x86\\) ferramenta de planejamento\\do Microsoft Lync Server 2013. Se você quiser alterar o local de instalação, clique em **Alterar**. Em **Alterar pasta de destino**, procure ou digite o local para instalar os arquivos, clique em **OK** e clique em **Avançar**.
 
-7.  O instalador já está pronto para instalar a ferramenta de planejamento. Clique em **Instalar** para começar o processo de instalação.
+7.  O instalador agora está pronto para instalar a ferramenta de planejamento. Clique em **Instalar** para começar o processo de instalação.
 
 8.  A instalação será iniciada e o andamento será exibido. Após a conclusão da instalação, clique em **Concluir**.
 
@@ -98,7 +98,7 @@ Depois que os requisitos de pré-instalação forem atendidos, você poderá ins
 ## <a name="see-also"></a>Confira também
 
 
-[Instalação de software opcional no Lync Server 2013](lync-server-2013-installing-optional-software.md)  
+[Instalando software opcional no Lync Server 2013](lync-server-2013-installing-optional-software.md)  
   
 
 </div>

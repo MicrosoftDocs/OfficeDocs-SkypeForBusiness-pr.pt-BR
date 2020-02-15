@@ -1,5 +1,5 @@
 ---
-title: Exibir e trabalhar com relatórios criados pelo analisador de práticas recomendadas
+title: Exibindo e trabalhando com relatórios criados pelo Best Practices Analyzer
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184215
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0447a2d252cc3a8634275cb1f89d36c2f979a468
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 69a00a0f1777c48ba09798de9323e30dd8959b8d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757345"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036349"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="viewing-and-working-with-reports-created-by-best-practices-analyzer-in-lync-server-2013"></a>Exibir e trabalhar com relatórios criados pelo analisador de práticas recomendadas no Lync Server 2013
+# <a name="viewing-and-working-with-reports-created-by-best-practices-analyzer-in-lync-server-2013"></a>Exibindo e trabalhando com relatórios criados pelo Best Practices Analyzer no Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41757345"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-14_
+_**Última modificação do tópico:** 2012-06-14_
 
-Quando você usa o analisador de práticas recomendadas para verificar seu ambiente, o analisador de práticas recomendadas cria relatórios que identificam problemas e outras informações sobre sua implantação. Você pode usar o analisador de práticas recomendadas para exibir os relatórios que contêm os resultados da verificação e entender os problemas identificados nos relatórios.
+Quando você utiliza o Analisador de Práticas Recomendadas para examinar seu ambiente, o Analisador de Práticas Recomendadas cria relatórios que identificam problemas e outras informações sobre sua implantação. Você pode utilizar o Analisador de Práticas Recomendadas para visualizar os relatórios que contêm os resultados da verificação e compreender os problemas identificados nos relatórios.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Exibindo relatórios do analisador de práticas recomendadas no Lync Server 2013](lync-server-2013-viewing-reports-from-best-practices-analyzer.md)
+  - [Exibindo relatórios do Best Practices Analyzer no Lync Server 2013](lync-server-2013-viewing-reports-from-best-practices-analyzer.md)
 
-  - [Noções básicas sobre relatórios criados pelo analisador de práticas recomendadas no Lync Server 2013](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md)
+  - [Noções básicas sobre relatórios criados pelo Best Practices Analyzer no Lync Server 2013](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md)
 
 </div>
 

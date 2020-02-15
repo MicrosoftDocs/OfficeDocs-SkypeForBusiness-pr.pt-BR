@@ -1,5 +1,5 @@
 ---
-title: Configurar políticas e certificados de acesso ao gateway de XMPP
+title: Configurar políticas e certificados de acesso ao Gateway XMPP
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -13,20 +13,20 @@ ms:contentKeyID: 49733819
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f3f1aabeeb49ecc413107d5cd346f310c0d2d294
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9f622ed573a6d30d35b55d2c07ec21ef79b46424
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723201"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006567"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-xmpp-gateway-access-policies-and-certificates"></a>Configurar políticas e certificados de acesso ao gateway de XMPP
+# <a name="configure-xmpp-gateway-access-policies-and-certificates"></a>Configurar políticas e certificados de acesso ao Gateway XMPP
 
 </div>
 
@@ -36,21 +36,21 @@ ms.locfileid: "41723201"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-15_
+_**Última modificação do tópico:** 2012-10-15_
 
-A Federação XMPP define uma implantação externa baseada no protocolo de mensagens extensíveis e presença (XMPP). Uma configuração do XMPP permite que os usuários do Lync acessem usuários de domínio do XMPP:
+A federação XMPP define uma implantação externa baseada no Protocolo de Presença e Mensagem eXtensible (XMPP). Uma configuração XMPP permite os usuários do Lync acessarem os usuários de domínio XMPP para:
 
-  - Mensagem instantânea e presença – pessoa para pessoa apenas
+  - IM e Presença – apenas pessoa para pessoa
 
-  - Criação de contatos federados do XMPP no cliente do Lync
+  - Criação de contatos federados XMPP no cliente Lync
 
-Quando você configura políticas para dar suporte a parceiros federados do protocolo de Unificação de mensagens e de protocolo de presença (XMPP), as políticas se aplicam a usuários de domínios federados XMPP, mas não aos usuários de provedores de serviços de mensagens instantâneas SIP (protocolo de iniciação de sessão) (por exemplo, Windows Live) ou domínios federados SIP. Você configura um parceiro federado do XMPP para cada domínio federado XMPP que você deseja permitir que os usuários adicionem contatos e se comuniquem. Depois que as políticas estiverem em vigor, você precisará configurar os certificados de gateway do XMPP.
+Ao configurar políticas para suportar parceiros federados XMPP, as políticas para usuários dos domínios federados XMPP, mas não usuários de provedores de serviço de mensagem instantânea (IM) do SIP (por exemplo, Windows Live) ou domínios federados SIP. Você configura um Parceiro Federado XMPP para cada domínio federado XMPP que você deseja permitir seus usuários para adicionar contatos e comunicar-se com eles. Quando as políticas estiverem inseridas, você precisa configurar os certificados de Gateway XMPP.
 
 <div>
 
 
 > [!NOTE]  
-> Para começar a migração do Gateway XMPP, você precisa implantar o Gateway XMPP do Lync Server 2013 e configurar políticas de acesso para permitir que os usuários do Lync Server 2013 XMPP gateway. Todos os usuários devem ser movidos para a implantação do Lync Server 2013 antes de executar essas etapas. Para obter detalhes, consulte <A href="configure-xmpp-gateway-on-lync-server-2013_1.md">Configurar o Gateway XMPP no Lync Server 2013</A>.
+> Para começar a migração de Gateway XMPP, você precisa implantar o Gateway XMPP do Lync Server 2013 e configurar as políticas de acesso para habilitar usuários para o gateway do Lync Server 2013 XMPP. Todos os usuários devem ser movidos para a implantação do Lync Server 2013 antes de executar estas etapas. Para obter detalhes, consulte <A href="configure-xmpp-gateway-on-lync-server-2013_1.md">Configure XMPP gateway on Lync Server 2013</A>.
 
 
 
@@ -58,23 +58,23 @@ Quando você configura políticas para dar suporte a parceiros federados do prot
 
 <div>
 
-## <a name="configure-an-external-access-policy-to-enable-users-for-lync-server-2013-xmpp-gateway"></a>Configurar uma política de acesso externo para permitir aos usuários do Lync Server 2013 XMPP gateway
+## <a name="configure-an-external-access-policy-to-enable-users-for-lync-server-2013-xmpp-gateway"></a>Configurar uma Política de acesso externo para habilitar usuários para o Gateway XMPP do Lync Server 2013
 
 1.  Abra o Painel de Controle do Lync Server.
 
-2.  Na barra de navegação à esquerda, clique em **Federação e acesso externo**e, em seguida, clique em **política de acesso externo**.
+2.  Na barra de navegação esquerda, clique em **Acesso externo e Federação** e em **Política de acesso externo**.
 
-3.  Clique em **novo** e, em seguida, clique em **política de usuário**.
+3.  Clique em **Novo** e em **Política do usuário**.
 
-4.  Digite um nome para a política de usuário de acesso externo.
+4.  Insira um nome para a política de usuário de acesso externo.
 
-5.  Forneça uma descrição para a política de usuário de acesso externo.
+5.  Ofereça uma descrição para a política do usuário de acesso externo.
 
-6.  Selecione **habilitar comunicações com usuários federados**.
+6.  Selecione **Habilitar comunicações com usuários federados**.
 
-7.  Selecione **habilitar comunicações com usuários federados do XMPP**.
+7.  Selecione **Habilitar comunicações com usuários federados XMPP**.
 
-8.  Clique em **confirmar** para salvar as alterações no site ou na política de usuário.
+8.  Clique em **Confirmar** para salvar suas alterações na política de usuário ou local.
 
 </div>
 

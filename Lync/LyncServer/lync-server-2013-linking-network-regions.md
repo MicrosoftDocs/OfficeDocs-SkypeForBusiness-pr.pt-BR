@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: vinculando regiões de rede'
+title: 'Lync Server 2013: vincular regiões de rede'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733662
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2085eb133fa38231af2d223928796300d553e3c1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 681ed50132900e9db269b59d86ca18a022d4a428
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757985"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034853"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41757985"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-21_
+_**Última modificação do tópico:** 2013-02-21_
 
-Você pode configurar links entre duas regiões de rede como parte do controle de admissão de chamadas (CAC).
+Você pode configurar links entre duas regiões de rede como parte do controle de admissão de chamadas.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Exibir informações de link de região de rede no Lync Server 2013](lync-server-2013-viewing-network-region-link-information.md)
+  - [Exibindo informações de link de região de rede no Lync Server 2013](lync-server-2013-viewing-network-region-link-information.md)
 
-  - [Configurar links de região de rede no Lync Server 2013](lync-server-2013-configuring-network-region-links.md)
+  - [Configurando links de região de rede no Lync Server 2013](lync-server-2013-configuring-network-region-links.md)
 
   - [Excluindo links de região de rede no Lync Server 2013](lync-server-2013-deleting-network-region-links.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Administrar servidores após migração
+title: Administrando servidores após a migração
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -13,20 +13,20 @@ ms:contentKeyID: 48184883
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b808f4cc0eea74253ecf8f360278983f0bf92b3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 55c1749a24e89f68ccae858b94d41208fc4b6123
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724201"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42004386"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="administering-servers-after-migration"></a>Administrar servidores após migração
+# <a name="administering-servers-after-migration"></a>Administrando servidores após a migração
 
 </div>
 
@@ -36,9 +36,9 @@ ms.locfileid: "41724201"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-29_
+_**Última modificação do tópico:** 2012-09-29_
 
-Em geral, você deve usar a ferramenta administrativa que corresponde à versão do servidor que você deseja gerenciar. Não é possível instalar as ferramentas administrativas do Lync Server 2013 e do Office Communications Server 2007 R2 no mesmo computador. Além disso, o painel de controle do Lync Server 2013 não é instalado automaticamente em cada servidor. Para instalar o painel de controle do Lync Server 2013, siga o procedimento dentro do tópico [instalar as ferramentas administrativas do Lync server 2013](lync-server-2013-install-lync-server-administrative-tools.md) na documentação de implantação.
+Em geral, você deve usar a ferramenta administrativa que corresponde à versão do servidor que você quer gerenciar. Você não pode instalar as ferramentas administrativas do Lync Server 2013 e do Office Communications Server 2007 R2 no mesmo computador. Além disso, o painel de controle do Lync Server 2013 não é instalado automaticamente em cada servidor. Para instalar o painel de controle do Lync Server 2013, siga o procedimento no tópico [instalar as ferramentas administrativas do Lync server 2013](lync-server-2013-install-lync-server-administrative-tools.md) na documentação de implantação.
 
 </div>
 

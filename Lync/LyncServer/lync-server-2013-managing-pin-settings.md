@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: como gerenciar configurações de PIN'
+title: 'Lync Server 2013: Gerenciando configurações de PIN'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733832
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9b0b516f39fd407ceca5d4ab7a471056dc24847
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9f3e10431cd6a739d3ad454d146526819d8aed85
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756105"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41992406"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41756105"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
-Use os procedimentos na seção a seguir para gerenciar as configurações de fixação no Lync Server 2013.
+Use os procedimentos na seção a seguir para gerenciar as configurações de PIN no Lync Server 2013.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Gerenciamento de políticas de PIN no Lync Server 2013](lync-server-2013-managing-pin-policies.md)
+  - [Gerenciando políticas de PIN no Lync Server 2013](lync-server-2013-managing-pin-policies.md)
 
   - [Gerenciando PINs de usuários no Lync Server 2013](lync-server-2013-managing-user-pins.md)
 

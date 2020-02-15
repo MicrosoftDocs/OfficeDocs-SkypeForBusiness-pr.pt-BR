@@ -1,5 +1,5 @@
 ---
-title: 'Fase 10: descomissionar site herdado'
+title: 'Fase 10: encerrar o site herdado'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8110d41e5f6436bfdbecc64fe07d514b5d0538ac
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6e46c2977289ae8fec1db26e4eb33dfd6736f838
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757705"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034371"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-10-decommission-legacy-site"></a>Fase 10: descomissionar site herdado
+# <a name="phase-10-decommission-legacy-site"></a>Fase 10: encerrar o site herdado
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41757705"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-16_
+_**Última modificação do tópico:** 2012-10-16_
 
-Os tópicos a seguir fornecem orientação sobre como descomissionar pools e para desativar e remover servidores e pools de uma implantação herdada do Office Communications Server 2007 R2. Nem todos os procedimentos listados nesta seção são necessários. Leia as informações em cada um desses tópicos para determinar o procedimento de descomissionamento a ser usado.
+Os tópicos a seguir fornecem orientações sobre como encerrar pools e como desativar e remover servidores e pools de uma implantação herdada do Office Communications Server 2007 R2. Nem todos os procedimentos listados nesta seção são obrigatórios. Leia as informações de cada tópico para determinar qual procedimento de desprogramação deve ser usado.
 
 <div>
 
 
 > [!WARNING]  
-> Se você importou pastas de conferência para conferência discada para o Lync Server 2013, é importante migrar a propriedade do diretório de conferências para o Lync Server 2013 antes de começar a descomissionar seus pools. Se você encerrar um pool sem primeiro fazer a transição da Propriedade do diretório de conferência, o recurso de discagem para todas as reuniões migradas deixará de funcionar. Você deve executar a etapa para fazer a transição da propriedade uma vez para cada diretório de conferência em seu pool herdado.
+> Se você importou diretórios de conferência para conferência discada para o Lync Server 2013, é importante fazer a transição da Propriedade do diretório de conferência para o Lync Server 2013 antes de começar a encerrar seus pools. Se você encerrar um pool sem antes fazer a transição da propriedade de diretório de conferência, o recurso de discagem para todas as reuniões migradas deixará de funcionar. Você deve executar a etapa para fazer a transição da propriedade uma vez para cada diretório de conferência no pool herdado.
 
 
 
@@ -53,7 +53,7 @@ Os tópicos a seguir fornecem orientação sobre como descomissionar pools e par
 
 
 > [!IMPORTANT]  
-> Para obter informações sobre como migrar e atualizar aplicativos da API gerenciada do Microsoft Unified Communication (UCMA), antes de descomissionar o seu ambiente herdado, consulte<A href="http://go.microsoft.com/fwlink/p/?linkid=269555">http://go.microsoft.com/fwlink/p/?LinkId=269555</A>
+> Para obter informações sobre a migração e atualização de aplicativos do Microsoft Unified Communications Managed API (UCMA), antes de encerrar seu ambiente herdado, consulte<A href="http://go.microsoft.com/fwlink/p/?linkid=269555">http://go.microsoft.com/fwlink/p/?LinkId=269555</A>
 
 
 
@@ -63,11 +63,11 @@ Os tópicos a seguir fornecem orientação sobre como descomissionar pools e par
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Mover diretórios de conferências](move-conference-directories.md)
+  - [Mover diretórios de conferência](move-conference-directories.md)
 
-  - [Atualizar registros de DNS SRV](update-dns-srv-records_1.md)
+  - [Atualizar registros SRV DNS](update-dns-srv-records_1.md)
 
-  - [Descomissionar servidores e pools](decommissioning-servers-and-pools.md)
+  - [Encerrar servidores e pools](decommissioning-servers-and-pools.md)
 
   - [Remover BackCompatSite](remove-backcompatsite.md)
 

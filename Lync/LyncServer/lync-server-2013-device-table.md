@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabela Device'
+title: 'Lync Server 2013: tabela de dispositivos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185544
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7fd06db1bd429526826962d5c3ad098642a3a42d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3d9281c3059d8fa234b8f62b6223eb601f38b119
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762409"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031275"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="device-table-in-lync-server-2013"></a>Tabela Device no Lync Server 2013
+# <a name="device-table-in-lync-server-2013"></a>Tabela de dispositivos no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762409"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-02_
+_**Última modificação do tópico:** 2012-10-02_
 
-A tabela de dispositivos é uma tabela de suporte que armazena informações sobre os vários dispositivos de captura ou renderização. Cada registro na tabela representa um dispositivo.
+A tabela Device é uma tabela de suporte que armazena informações sobre os vários dispositivos de captura ou renderização. Cada registro na tabela representa um dispositivo.
 
 
 <table>
@@ -59,20 +59,20 @@ A tabela de dispositivos é uma tabela de suporte que armazena informações sob
 <tr class="odd">
 <td><p><strong>DeviceKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primária</p></td>
+<td><p>Primário</p></td>
 <td><p>Número exclusivo que identifica este dispositivo.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DeviceName</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>DeviceName + DeviceType é exclusivo</p></td>
 <td><p>Nome do dispositivo.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DeviceType</strong></p></td>
-<td><p>bit</p></td>
+<td><p>bits</p></td>
 <td><p>DeviceName + DeviceType é exclusivo</p></td>
-<td><p>Tipo de dispositivo. 1 é um dispositivo de captura; 0 é um dispositivo de renderização.</p></td>
+<td><p>Tipo de dispositivo. 1 é um dispositivo de captura, 0 é um dispositivo de processamento.</p></td>
 </tr>
 </tbody>
 </table>

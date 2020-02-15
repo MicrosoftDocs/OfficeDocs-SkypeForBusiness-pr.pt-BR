@@ -1,5 +1,5 @@
 ---
-title: Migrar servidores de Arquivamento e de Monitoramento
+title: Migrando servidores de arquivamento e monitoramento
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733722
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee3abd26386ad26e3b6628d5b9db873bd17373be
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 100ec85b345a744232e9bfab37a2ee11c7f84430
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743771"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036109"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migrating-archiving-and-monitoring-servers"></a>Migrar servidores de Arquivamento e de Monitoramento
+# <a name="migrating-archiving-and-monitoring-servers"></a>Migrando servidores de arquivamento e monitoramento
 
 </div>
 
@@ -35,28 +35,28 @@ ms.locfileid: "41743771"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-02_
+_**Última modificação do tópico:** 2012-10-02_
 
-Se você implantou o servidor de arquivamento e monitorando o servidor no Office Communications Server 2007 R2, poderá implantar esses servidores no ambiente do Lync Server 2013 depois de migrar seus pools front-ends. No entanto, se a funcionalidade de arquivamento e monitoramento for essencial para sua organização, você deverá adicionar arquivamento e monitoramento ao pool piloto antes de migrar para que a funcionalidade esteja disponível durante o processo de migração.
+Se você implantou o servidor de arquivamento e o Monitoring Server no Office Communications Server 2007 R2, pode implantar esses servidores em seu ambiente do Lync Server 2013 após migrar seus pools de front-end. Se as funcionalidades de arquivamento e monitoração forem cruciais para a organização, no entanto, você deverá adicionar o Arquivamento e Monitoramento ao pool piloto antes de migrar, de forma que a funcionalidade fique disponível durante o processo de migração.
 
-Se você quiser a funcionalidade de arquivamento e monitoramento durante a fase de migração e de coexistência, tenha em mente as seguintes considerações:
+Se você deseja as funcionalidades de arquivamento e monitoração durante a migração e a fase de coexistência, lembre-se das considerações a seguir:
 
-  - O arquivamento de dados e monitoramento de dados não são movidos para a implantação do Lync Server 2013. Os dados que você reproduzem antes de descomissionar o ambiente herdado serão seu histórico de atividades no Office Communications Server 2007 R2.
+  - Os dados de arquivamento e de monitoramento não são movidos para a implantação do Lync Server 2013. Os dados que você fez backup antes de encerrar o ambiente herdado serão seu histórico de atividades no Office Communications Server 2007 R2.
 
-  - A versão do Office Communications Server 2007 R2 do servidor de arquivamento e Monitoring Server somente pode ser associada a um pool de front-end do Office Communications Server 2007 R2. No Lync Server 2013, o arquivamento e o monitoramento não são mais funções do servidor, mas serviços integrados ao pool de front-ends do Lync Server 2013.
+  - A versão do Office Communications Server 2007 R2 do servidor de arquivamento e o Monitoring Server só podem ser associadas a um pool de front-ends do Office Communications Server 2007 R2. No Lync Server 2013, o arquivamento e o monitoramento não são mais funções de servidor, mas os serviços integrados ao pool de front-ends do Lync Server 2013.
 
-  - Durante o tempo em que suas implantações do Lync Server e do Lync Server 2013 coexistem, a versão do Office Communications Server 2007 R2 do servidor de arquivamento e o Monitoring Server reúne dados para os usuários hospedados no Office Communications Server 2007 R2 pools. A versão do Lync Server 2013 do servidor de arquivamento e o Monitoring Server coletam dados para os usuários hospedados no Lync Server 2013 pools.
+  - Durante o tempo em que suas implantações herdadas do Lync Server 2013 coexistem, a versão do Office Communications Server 2007 R2 do servidor de arquivamento e o Monitoring Server reúnem dados para usuários hospedados em pools do Office Communications Server 2007 R2. A versão do Lync Server 2013 do servidor de arquivamento e o Monitoring Server reúnem dados para usuários hospedados no Lync Server 2013 pools.
     
     <div>
     
 
     > [!NOTE]  
-    > Durante a fase de migração, quando você ainda estiver usando seu servidor de borda herdado com o novo pool piloto do Lync Server 2013, a versão do Office Communications Server 2007 R2 do servidor de arquivamento continua a coletar dados para os usuários hospedados no Office Communications Server 2007 Os pools R2 e a versão do Lync Server 2013 do servidor de arquivamento coletam dados para os usuários hospedados no Lync Server 2013 pools.
+    > Durante a fase de migração quando você ainda estiver usando seu servidor de borda herdado com o novo pool piloto do Lync Server 2013, a versão do Office Communications Server 2007 R2 do servidor de arquivamento continua a coletar dados para usuários hospedados no Office Communications Server 2007 Os pools R2 e a versão do Lync Server 2013 do servidor de arquivamento coleta dados para usuários hospedados no Lync Server 2013 pools.
 
     
     </div>
 
-  - Se você usar uma solução de arquivamento e monitoramento de terceiros em conjunto com o servidor de arquivamento e monitoração do servidor, fale com o fornecedor sobre quando e como você precisa integrar a solução de terceiros ao Lync Server 2013.
+  - Se você usar uma solução de arquivamento e monitoramento de terceiros junto com o servidor de arquivamento e o servidor de monitoramento, converse com seu fornecedor sobre quando e como você precisa integrar a solução de terceiros com o Lync Server 2013.
 
 </div>
 

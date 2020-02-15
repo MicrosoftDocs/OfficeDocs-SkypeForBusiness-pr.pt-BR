@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: contadores de desempenho da mobilidade'
+title: 'Lync Server 2013: contadores de desempenho de mobilidade'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185441
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 439c179476c89de8a5245e80e26586d42f4f6e3b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 56454e4ea4fa1498dc73056d5b5f01193b007352
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758683"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006147"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41758683"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-22_
+_**Última modificação do tópico:** 2013-02-22_
 
-As tabelas a seguir listam os nomes e descrições dos contadores de desempenho que você pode usar para monitorar servidores que executam a API da Web de comunicação unificada (UCWA) e o serviço de mobilidade do MCX do Lync Server 2013.
+As tabelas a seguir listam os nomes e as descrições dos contadores de desempenho que você pode usar para monitorar servidores que executam a UCWA (Unified Communications Web API) e o serviço de mobilidade do Lync Server 2013 MCX.
 
-O nome da categoria para os contadores na tabela UCWA é **LS:WEB – UCWA**.
+O nome da categoria para os contadores na tabela UCWA é **ls: Web – UCWA**.
 
-O nome da categoria para os contadores na tabela do Serviço de Mobilidade Mcx é **LS:WEB – Mobile Communication Service**.
+O nome da categoria para os contadores na tabela de serviço de mobilidade do MCX é **ls: Web-Mobile Communication Service**.
 
 <div>
 
@@ -65,99 +65,99 @@ O nome da categoria para os contadores na tabela do Serviço de Mobilidade Mcx �
 <td><p>O número atual de aplicativos</p></td>
 </tr>
 <tr class="even">
-<td><p>Contagem da modalidade de compartilhamento do aplicativo ativa</p></td>
-<td><p>O número atual da modalidade de compartilhamento do aplicativo</p></td>
+<td><p>Contagem de modalidades de compartilhamento de aplicativos ativos</p></td>
+<td><p>O número atual da modalidade de compartilhamento de aplicativos</p></td>
 </tr>
 <tr class="odd">
-<td><p>Contagem da modalidade de áudio ativa</p></td>
-<td><p>O número atual da modalidade de áudio</p></td>
+<td><p>Contagem de modalidade de áudio ativa</p></td>
+<td><p>O número atual de modalidade de áudio</p></td>
 </tr>
 <tr class="even">
-<td><p>Contagem da modalidade de colaboração de dados ativa</p></td>
-<td><p>O número atual da modalidade de colaboração de dados</p></td>
+<td><p>Contagem de modalidade de colaboração de dados ativa</p></td>
+<td><p>O número atual de modalidade de colaboração de dados</p></td>
 </tr>
 <tr class="odd">
-<td><p>Latência para baixar fotos do diretório ativo (ms)</p></td>
-<td><p>Esse contador mostra o tempo médio (em milissegundos) para obter uma foto do diretório ativo</p></td>
+<td><p>Latência de obtenção de foto do Active Directory (MS)</p></td>
+<td><p>Este contador mostra o tempo médio (em milissegundos) para recuperar uma foto do Active Directory</p></td>
 </tr>
 <tr class="even">
-<td><p>Contagem da modalidade de tráfego de mensagens ativa</p></td>
-<td><p>O número atual da modalidade de tráfego de mensagens</p></td>
+<td><p>Contagem de modalidades de mensagens ativas</p></td>
+<td><p>O número atual de modalidade de mensagens</p></td>
 </tr>
 <tr class="odd">
-<td><p>Contagem da modalidade de vídeo panorâmico ativa</p></td>
+<td><p>Contagem de modalidades de vídeo panorâmico ativa</p></td>
 <td><p>O número atual da modalidade de vídeo panorâmico</p></td>
 </tr>
 <tr class="even">
-<td><p>Contagem de downloads pendentes ativos</p></td>
-<td><p>O número de downloads pendentes atualmente ativos; conexões de longa duração com o servidor</p></td>
+<td><p>Contagem de obtenção pendente ativa</p></td>
+<td><p>O número de ativos pendentes no momento; conexões de longa duração com o servidor</p></td>
 </tr>
 <tr class="odd">
-<td><p>Contagem de sessões ativas</p></td>
-<td><p>O número atual de pontos de extremidade registrados no UCWA por aplicativo e no total</p></td>
+<td><p>Contagem de sessão ativa</p></td>
+<td><p>O número atual de pontos de extremidade registrados no UCWA por aplicativo e por total</p></td>
 </tr>
 <tr class="even">
 <td><p>Contagem de instâncias de usuário ativas</p></td>
-<td><p>O número atual de instâncias de usuário ativas</p></td>
+<td><p>O número atual de instâncias de usuário</p></td>
 </tr>
 <tr class="odd">
-<td><p>Instâncias de usuário ativas sem aplicativo</p></td>
+<td><p>Instâncias de usuários ativos sem aplicativo</p></td>
 <td><p>O número atual de instâncias de usuário sem aplicativo</p></td>
 </tr>
 <tr class="even">
-<td><p>Contagem da modalidade de vídeo ativa</p></td>
+<td><p>Contagem de modalidade de vídeo ativa</p></td>
 <td><p>O número atual da modalidade de vídeo</p></td>
 </tr>
 <tr class="odd">
-<td><p>Solicitações de criação de aplicativo recebidas por segundo</p></td>
+<td><p>Solicitações de criação de aplicativo recebidas/segundo</p></td>
 <td><p>A taxa de solicitações de criação de aplicativo recebidas por segundo</p></td>
 </tr>
 <tr class="even">
-<td><p>Falhas de entrada em MCU de AS</p></td>
-<td><p>O número de falhas de entrada em MCU de AS</p></td>
+<td><p>Como falhas de junção de MCU</p></td>
+<td><p>O número de falhas de ingresso no MCU</p></td>
 </tr>
 <tr class="odd">
-<td><p>Falhas de entrada em MCU de AV</p></td>
-<td><p>O número de falhas de entrada em MCU de AV</p></td>
+<td><p>Falhas de ingresso do AV MCU</p></td>
+<td><p>O número de falhas de ingresso no AV MCU</p></td>
 </tr>
 <tr class="even">
-<td><p>Tempo médio para inicialização do aplicativo (ms)</p></td>
-<td><p>O tempo médio para inicialização do aplicativo em milissegundos</p></td>
+<td><p>Tempo médio de inicialização do aplicativo (MS)</p></td>
+<td><p>O tempo médio de inicialização do aplicativo em milissegundos</p></td>
 </tr>
 <tr class="odd">
-<td><p>Tempo médio de duração por sessão (ms)</p></td>
+<td><p>Tempo de vida médio da sessão (MS)</p></td>
 <td><p>O tempo médio de vida de uma sessão em milissegundos</p></td>
 </tr>
 <tr class="even">
-<td><p>Falhas de entrada em MCU de dados</p></td>
-<td><p>O número de falhas de entrada em MCU de dados</p></td>
+<td><p>Falhas de ingresso no MCU de dados</p></td>
+<td><p>O número de falhas de ingresso no MCU de dados</p></td>
 </tr>
 <tr class="odd">
-<td><p>Latência para pesquisa de contatos no Exchange (ms)</p></td>
-<td><p>Esse contador mostra o tempo médio (em milissegundos) para se pesquisar contatos no Exchange</p></td>
+<td><p>Latência de pesquisa de contato do Exchange (MS)</p></td>
+<td><p>Este contador mostra o tempo médio (em milissegundos) para pesquisar o contato no Exchange</p></td>
 </tr>
 <tr class="even">
-<td><p>Latência para baixar fotos em HD no Exchange (ms)</p></td>
-<td><p>Esse contador mostra o tempo médio (em milissegundos) para se baixar uma foto no Exchange</p></td>
+<td><p>Latência de obtenção de foto HD do Exchange (MS)</p></td>
+<td><p>Este contador mostra o tempo médio (em milissegundos) para recuperar uma foto do Exchange</p></td>
 </tr>
 <tr class="odd">
-<td><p>Respostas/segundo do HTTP 4xx</p></td>
+<td><p>Respostas HTTP 4xx/segundo</p></td>
 <td><p>A taxa de respostas por segundo com o código HTTP 4xx</p></td>
 </tr>
 <tr class="even">
-<td><p>Respostas/segundo do HTTP 5xx</p></td>
+<td><p>Respostas de HTTP 5xx/segundo</p></td>
 <td><p>A taxa de respostas por segundo com o código HTTP 5xx</p></td>
 </tr>
 <tr class="odd">
-<td><p>Falhas de entrada em MCU de IM</p></td>
-<td><p>O número de falhas de entrada em MCU de IM</p></td>
+<td><p>Falhas de junção de IM MCU</p></td>
+<td><p>O número de falhas de entrada de mensagens instantâneas de MCU</p></td>
 </tr>
 <tr class="even">
 <td><p>Número de falhas ao baixar fotos do Active Directory</p></td>
-<td><p>O número total de falhas ao baixar fotos do Active Directory</p></td>
+<td><p>O número total de falhas para recuperar fotos do Active Directory</p></td>
 </tr>
 <tr class="odd">
-<td><p>Número de falhas ao pesquisar contatos</p></td>
+<td><p>Número de falhas de pesquisa de contato</p></td>
 <td><p>O número total de falhas ao pesquisar contatos no Exchange</p></td>
 </tr>
 <tr class="even">
@@ -165,24 +165,24 @@ O nome da categoria para os contadores na tabela do Serviço de Mobilidade Mcx �
 <td><p>O número total de falhas de desserialização</p></td>
 </tr>
 <tr class="odd">
-<td><p>Número de falhas de obtenção de foto HD</p></td>
-<td><p>O número total de falhas ao baixar fotos em HD do Exchange</p></td>
+<td><p>Número de falhas de obtenção de foto de HD</p></td>
+<td><p>O número total de falhas para recuperar fotos de HD do Exchange</p></td>
 </tr>
 <tr class="even">
-<td><p>Excesso de inscrições por aplicativo</p></td>
-<td><p>O número de solicitações de inscrição além do máximo permitido por aplicativo</p></td>
+<td><p>Sobre as assinaturas máximas por aplicativo</p></td>
+<td><p>O número de solicitações de assinatura no máximo permitido por aplicativo</p></td>
 </tr>
 <tr class="odd">
-<td><p>Excesso de inscrições por lote</p></td>
-<td><p>O número de solicitações de inscrição além do máximo permitido por lote</p></td>
+<td><p>Sobre o máximo de inscrições por lote</p></td>
+<td><p>O número de solicitações de assinatura no máximo permitido por lote</p></td>
 </tr>
 <tr class="even">
-<td><p>Falhas de inscrição de presença</p></td>
-<td><p>O número de falhas ao realizar inscrições de presença</p></td>
+<td><p>Falhas de assinatura de presença</p></td>
+<td><p>O número de falhas ao assinar a presença</p></td>
 </tr>
 <tr class="odd">
-<td><p>Falhas ao se registrar pontos de extremidade</p></td>
-<td><p>O número de falhas ao se registrar pontos de extremidade</p></td>
+<td><p>Registrando falhas de pontos de extremidade</p></td>
+<td><p>O número de falhas para registrar pontos de extremidade</p></td>
 </tr>
 <tr class="even">
 <td><p>Solicitações recebidas/segundo</p></td>
@@ -190,30 +190,30 @@ O nome da categoria para os contadores na tabela do Serviço de Mobilidade Mcx �
 </tr>
 <tr class="odd">
 <td><p>Solicitações bem-sucedidas/segundo</p></td>
-<td><p>A taxa por segundo de solicitações bem-sucedidas (códigos de resposta HTTP 2xx/3xx)</p></td>
+<td><p>A taxa de solicitações bem-sucedidas por segundo (códigos de resposta HTTP 2xx/3xx)</p></td>
 </tr>
 <tr class="even">
 <td><p>Solicitações de criação de aplicativo bem-sucedidas/segundo</p></td>
 <td><p>A taxa de solicitações de criação de aplicativo bem-sucedidas por segundo</p></td>
 </tr>
 <tr class="odd">
-<td><p>Contagem de downloads pendentes com tempo limite ultrapassado</p></td>
-<td><p>O número de downloads pendentes que ultrapassaram o tempo limite</p></td>
+<td><p>Contagem de obtenção pendente com tempo limite esgotado</p></td>
+<td><p>O número de pendências que expiraram</p></td>
 </tr>
 <tr class="even">
-<td><p>Total de solicitações de criação de aplicativo recebidas</p></td>
-<td><p>O número total de solicitações de criação de aplicativo recebidas desde que o serviço foi iniciado</p></td>
+<td><p>Total de solicitações de criação de aplicativos recebidas</p></td>
+<td><p>O número total de solicitações de criação de aplicativos recebidas desde que o serviço foi iniciado</p></td>
 </tr>
 <tr class="odd">
 <td><p>Total de respostas de HTTP 4xx</p></td>
-<td><p>O número total de respostas de HTTP 4xx</p></td>
+<td><p>O número total de respostas HTTP 4xx</p></td>
 </tr>
 <tr class="even">
 <td><p>Total de respostas de HTTP 5xx</p></td>
-<td><p>O número total de respostas de HTTP 5xx</p></td>
+<td><p>O número total de respostas HTTP 5xx</p></td>
 </tr>
 <tr class="odd">
-<td><p>Total de solicitações recebidas no Canal de Comando</p></td>
+<td><p>Total de solicitações recebidas no canal de comando</p></td>
 <td><p>O número total de solicitações recebidas no canal do comando</p></td>
 </tr>
 <tr class="even">
@@ -222,15 +222,15 @@ O nome da categoria para os contadores na tabela do Serviço de Mobilidade Mcx �
 </tr>
 <tr class="odd">
 <td><p>Total de sessões iniciadas</p></td>
-<td><p>O número total de sessões iniciadas desde a inicialização do serviço</p></td>
+<td><p>O número total de sessões que foram iniciadas desde o início do serviço</p></td>
 </tr>
 <tr class="even">
 <td><p>Total de sessões encerradas devido ao tempo limite de ociosidade</p></td>
 <td><p>O número total de sessões encerradas devido ao tempo limite de usuário ocioso</p></td>
 </tr>
 <tr class="odd">
-<td><p>Total de aplicativos limitados</p></td>
-<td><p>O número de aplicativos limitados</p></td>
+<td><p>Total de aplicativos limitado</p></td>
+<td><p>O número de aplicativos regulados</p></td>
 </tr>
 </tbody>
 </table>
@@ -240,7 +240,7 @@ O nome da categoria para os contadores na tabela do Serviço de Mobilidade Mcx �
 
 <div id="sectionSection1" class="section">
 
-### <a name="performance-counters-for-mcx-mobility-service"></a>Contadores de desempenho para Mobility Service (Mcx)
+### <a name="performance-counters-for-mcx-mobility-service"></a>Contadores de desempenho para o serviço de mobilidade do MCX
 
 <table>
 <colgroup>
@@ -255,12 +255,12 @@ O nome da categoria para os contadores na tabela do Serviço de Mobilidade Mcx �
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Tempo médio de vida de uma sessão em milissegundos</p></td>
+<td><p>Tempo média de vida de uma sessão em milissegundos</p></td>
 <td><p>O tempo médio de vida de uma sessão em milissegundos</p></td>
 </tr>
 <tr class="even">
 <td><p>Assinaturas atuais de notificação por push</p></td>
-<td><p>O número atual de assinaturas de notificação por push. Esse número, em conjunto com a Contagem de sessões atualmente ativas, representam o subconjunto de sessões atualmente ativas registradas para dispositivos Windows Mobile ou iPhone.</p></td>
+<td><p>O número atual de assinaturas de notificação por push. Esse número, em conjunto com a contagem de sessão ativa no momento, representa o subconjunto de sessões ativas no momento que são registradas para dispositivos Windows Mobile ou iPhone.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Contagem de polls de tempo limite de rede ativos no momento</p></td>
@@ -272,7 +272,7 @@ O nome da categoria para os contadores na tabela do Serviço de Mobilidade Mcx �
 </tr>
 <tr class="odd">
 <td><p>Contagem de sessão ativa no momento</p></td>
-<td><p>Número atual de pontos de extremidade registrados no Mobility Service</p></td>
+<td><p>Número atual de pontos de extremidade registrados no Serviço de Mobilidade</p></td>
 </tr>
 <tr class="even">
 <td><p>Contagem de sessão ativa no momento com assinaturas de presença ativa</p></td>
@@ -360,11 +360,11 @@ O nome da categoria para os contadores na tabela do Serviço de Mobilidade Mcx �
 </tr>
 <tr class="odd">
 <td><p>Total de solicitações bem-sucedidas</p></td>
-<td><p>O número total de solicitações feitas ao Mobility Service que tiveram êxito</p></td>
+<td><p>O número total de solicitações feitas ao Serviço de Mobilidade que tiveram êxito</p></td>
 </tr>
 <tr class="even">
 <td><p>Contagem total de sessões iniciadas</p></td>
-<td><p>O número total de sessões iniciadas desde a inicialização do Mobility Service</p></td>
+<td><p>O número total de sessões iniciadas desde a inicialização do Serviço de Mobilidade</p></td>
 </tr>
 <tr class="odd">
 <td><p>Total de sessões encerradas devido ao tempo limite de usuário ocioso</p></td>

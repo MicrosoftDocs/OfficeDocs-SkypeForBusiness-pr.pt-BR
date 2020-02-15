@@ -1,5 +1,5 @@
 ---
-title: Direitos e permissões de administrador necessários para configuração e administração
+title: Direitos e permissões de administrador necessários para a instalação e administração
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185329
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca9fb6982a84ff70791fd4896ab92daf683b9864
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bea99b254504907b429da831fa6b072b482b61b3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737831"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41998516"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="administrator-rights-and-permissions-required-for-setup-and-administration-of-lync-server-2013"></a>Direitos e permissões de administrador necessários para configuração e administração do Lync Server 2013
+# <a name="administrator-rights-and-permissions-required-for-setup-and-administration-of-lync-server-2013"></a>Direitos e permissões de administrador necessários para a instalação e administração do Lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41737831"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-29_
+_**Última modificação do tópico:** 2012-06-29_
 
 A instalação e a implantação do Lync Server 2013 exigem que a pessoa que está instalando e implantando o software seja membro de grupos locais ou no nível do domínio. As ferramentas administrativas do Lync Server 2013 podem exigir permissões adicionais.
 
@@ -43,7 +43,7 @@ A instalação e a implantação do Lync Server 2013 exigem que a pessoa que est
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Requisitos de associação ao grupo para Lync Server 2013](lync-server-2013-group-membership-requirements.md)
+  - [Requisitos de associação de grupo para o Lync Server 2013](lync-server-2013-group-membership-requirements.md)
 
   - [Delegar permissões de configuração no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md)
 

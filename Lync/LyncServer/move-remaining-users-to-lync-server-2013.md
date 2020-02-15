@@ -1,5 +1,5 @@
 ---
-title: Mover usuários restantes para Lync Server 2013
+title: Mover os usuários restantes para o Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733689
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d60b3ba622e88978a8bbf555972c95979e8f8c3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 43be496d0fea280374358b1967ee899ad67624b7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743751"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034531"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="move-remaining-users-to-lync-server-2013"></a>Mover usuários restantes para Lync Server 2013
+# <a name="move-remaining-users-to-lync-server-2013"></a>Mover os usuários restantes para o Lync Server 2013
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41743751"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-29_
+_**Última modificação do tópico:** 2012-09-29_
 
-Você pode mover usuários para a nova implantação do Lync Server 2013 usando o painel de controle do Lync Server ou o Shell de gerenciamento do Lync Server. Você deve atender a alguns requisitos para garantir uma transição tranqüila para o Lync Server 2013. Para obter detalhes sobre pré-requisitos para completar os procedimentos deste tópico, consulte [configurar clientes para migração](configure-clients-for-migration.md). Para ver as etapas detalhadas sobre como mover usuários, consulte [fase 4: mover usuários de teste para o pool piloto](phase-4-move-test-users-to-the-pilot-pool.md).
+Você pode mover os usuários para a nova implantação do Lync Server 2013 usando o painel de controle do Lync Server ou o Shell de gerenciamento do Lync Server. Você deve atender a alguns requisitos para garantir uma transição suave para o Lync Server 2013. Para obter detalhes sobre os pré-requisitos para concluir os procedimentos deste tópico, consulte [Configure clients for Migration](configure-clients-for-migration.md). Para obter etapas detalhadas sobre como mover usuários, consulte [fase 4: mover usuários de teste para o pool piloto](phase-4-move-test-users-to-the-pilot-pool.md).
 
 <div>
 
 
 > [!IMPORTANT]  
-> Você não pode usar o snap-in usuários e computadores do Active Directory ou as ferramentas administrativas do Lync Server 2010 para mover os usuários do seu ambiente herdado para o Lync Server 2013.
+> Você não pode usar o snap-in usuários e computadores do Active Directory ou as ferramentas administrativas do Lync Server 2010 para mover usuários do seu ambiente herdado para o Lync Server 2013.
 
 
 
 </div>
 
-Quando você move um usuário para um pool do Lync Server 2013, os dados do usuário são movidos para o banco de dados back-end que está associado ao novo pool.
+Quando você mover um usuário para um pool do Lync Server 2013, os dados do usuário serão movidos para o banco de dados back-end associado ao novo pool.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Isso inclui as reuniões ativas criadas pelo usuário herdado. Por exemplo, se um usuário herdado configurou uma minha conferência de <STRONG>reunião</STRONG> , essa conferência ainda estará disponível no novo pool do Lync Server 2013 após o usuário ter sido movido. Os detalhes para acessar a reunião ainda serão a mesma <STRONG>URL de conferência e ID de conferência</STRONG>. A única diferença é que a conferência agora está hospedada no pool do Lync Server 2013 e não no pool do Lync Server 2010.
+> Isso inclui as reuniões ativas criadas pelo usuário herdado. Por exemplo, se um usuário herdado configurou uma conferência de <STRONG>reunião</STRONG> , essa conferência ainda estará disponível no novo pool do Lync Server 2013 depois que o usuário tiver sido movido. Os detalhes para acessar essa a reunião ainda terão a mesma <STRONG>URL e ID da conferência</STRONG>. A única diferença é que a conferência agora está hospedada no pool do Lync Server 2013 e não no pool do Lync Server 2010.
 
 
 
@@ -65,7 +65,7 @@ Quando você move um usuário para um pool do Lync Server 2013, os dados do usu�
 
 
 > [!NOTE]  
-> A hospedagem de usuários no Lync Server 2013 não requer que você implante clientes atualizados ao mesmo tempo. A nova funcionalidade estará disponível para os usuários somente quando tiverem atualizado para o novo software cliente.
+> A hospedagem de usuários no Lync Server 2013 não requer a implantação de clientes atualizados ao mesmo tempo. A nova funcionalidade estará disponível para os usuários apenas quando eles tiverem o novo software cliente.
 
 
 
@@ -75,11 +75,11 @@ Quando você move um usuário para um pool do Lync Server 2013, os dados do usu�
 
 ## <a name="post-migration-task"></a>Tarefa pós-migração
 
-1.  Depois de mover os usuários, verifique a política de conferência atribuída a ele.
+1.  Depois de mover os usuários, verifique a política de conferência atribuída a eles.
 
-2.  Para garantir que as reuniões organizadas por usuários hospedados no Lync Server 2013 funcionem perfeitamente com usuários federados que são hospedados no Lync Server 2010, a política de conferência atribuída aos usuários migrados deve permitir participantes anônimos.
+2.  Para garantir que as reuniões organizadas pelos usuários hospedados no Lync Server 2013 funcionem perfeitamente com usuários federados hospedados no Lync Server 2010, a política de conferência atribuída aos usuários migrados deve permitir participantes anônimos.
 
-3.  As políticas de conferência que permitem aos participantes anônimos **permitem que os participantes convidem usuários anônimos** selecionados no painel de controle do lync Server 2013 e têm o **AllowAnonymousParticipantsInMeetings** definido como **true** na saída do cmdlet **Get-CsConferencingPolicy** no Shell de gerenciamento do Lync Server.
+3.  As políticas de conferência que permitem que os participantes anônimos **permitam que os participantes convidem usuários anônimos** selecionados no painel de controle do lync Server 2013 e tenham o **AllowAnonymousParticipantsInMeetings** definido como **true** na saída do cmdlet **Get-CsConferencingPolicy** no Shell de gerenciamento do Lync Server.
 
 4.  Para obter detalhes sobre como configurar a política de conferência usando o Shell de gerenciamento do Lync Server, consulte [set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingPolicy) na documentação do Shell de gerenciamento do Lync Server.
 

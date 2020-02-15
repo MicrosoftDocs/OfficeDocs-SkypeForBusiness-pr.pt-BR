@@ -12,16 +12,16 @@ ms:contentKeyID: 48184886
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 584d1c8391f0393711b2caf6de46a0df6c437c51
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cb1e0668ffc482b0c2987326aa2f09e1888e48bc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747651"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034733"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41747651"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-03-27_
+_**Última modificação do tópico:** 2013-03-27_
 
-O Lync Server requer a abertura de portas específicas no firewall. Adicionalmente, se o protocolo IPsec (Internet Protocol security) tiver sido implantado em sua organização, ele deverá estar desabilitado no intervalo de portas usadas para a distribuição de áudio, vídeo e vídeo panorama.
+O Lync Server requer que determinadas portas no firewall estejam abertas. Além disso, se a segurança do protocolo Internet (IPsec) for implantada em sua organização, o IPsec deverá ser desabilitado no intervalo de portas usadas para a entrega de áudio, vídeo e vídeo panorâmico.
 
 <div>
 
@@ -49,19 +49,19 @@ Esta seção inclui os seguintes tópicos:
 
   - [Exceções de IPsec no Lync Server 2013](lync-server-2013-ipsec-exceptions.md)
 
-  - [Resumo de porta - única borda consolidada com endereços IP privados usando NAT no Lync Server 2013](lync-server-2013-port-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)
+  - [Resumo de porta-borda consolidada única com endereços IP privados usando NAT no Lync Server 2013](lync-server-2013-port-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)
 
-  - [Sumário de porta - única borda consolidada com endereços IP públicos no Lync Server 2013](lync-server-2013-port-summary-single-consolidated-edge-with-public-ip-addresses.md)
+  - [Resumo de porta-borda consolidada única com endereços IP públicos no Lync Server 2013](lync-server-2013-port-summary-single-consolidated-edge-with-public-ip-addresses.md)
 
-  - [Resumo de porta - borda consolidada em escala, balanceamento de carga de DNS com endereços IP privados usando NAT no Lync Server 2013](lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+  - [Resumo de porta-borda consolidada em escala, balanceamento de carga de DNS com endereços IP privados usando NAT no Lync Server 2013](lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
 
-  - [Resumo de porta - Borda consolidada em escala, balanceamento de carga de DNS com endereços IP públicos no Lync Server 2013](lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+  - [Resumo de porta-borda consolidada em escala, balanceamento de carga de DNS com endereços IP públicos no Lync Server 2013](lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
 
-  - [Resumo de porta - borda consolidada em escala com balanceadores de carga de hardware no Lync Server 2013](lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)
+  - [Resumo de porta-borda consolidada em escala com balanceadores de carga de hardware no Lync Server 2013](lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
-  - [Resumo de porta - Proxy reverso no Lync Server 2013](lync-server-2013-port-summary-reverse-proxy.md)
+  - [Resumo de porta-proxy reverso no Lync Server 2013](lync-server-2013-port-summary-reverse-proxy.md)
 
-  - [Resumo da porta-SIP, Federação do XMPP e mensagens instantâneas públicas no Lync Server 2013](lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md)
+  - [Resumo de porta-SIP, Federação XMPP e mensagens instantâneas públicas no Lync Server 2013](lync-server-2013-port-summary-sip-xmpp-federation-and-public-instant-messaging.md)
 
 </div>
 

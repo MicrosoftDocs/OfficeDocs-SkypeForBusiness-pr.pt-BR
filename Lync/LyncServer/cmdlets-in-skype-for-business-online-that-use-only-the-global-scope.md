@@ -13,19 +13,19 @@ ms:contentKeyID: 56558800
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5610649295fdf4089372d9c59e4ccb51228c1fc2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f4a894c4a9c6e2913abb003c49094bc6d6868483
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728101"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42001246"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-only-the-global-scope"></a>Cmdlets no Skype for Business online que usam apenas o escopo global
 
  
 
 
-Várias configurações do Skype for Business online estão disponíveis apenas no *escopo global*. Isso significa que há um único conjunto de configurações que se aplica a todos os usuários atribuídos a esse locatário. (Cada locatário tem seu próprio conjunto exclusivo de configurações globais.) Quando você está usando cmdlets limitados ao escopo global, o parâmetro Identity é opcional. Por exemplo, para recuperar as configurações de configuração de reunião, você pode usar este comando:
+Várias configurações do Skype for Business online estão disponíveis apenas no *escopo global*. Isso significa que há uma única coleção de configurações que se aplica a todos os usuários atribuídos a esse locatário. (Cada locatário tem seu próprio conjunto exclusivo de configurações globais.) Quando você está usando cmdlets limitados ao escopo global, o parâmetro Identity é opcional. Por exemplo, para recuperar as definições de configuração de reunião, você pode usar este comando:
 
     Get-CsMeetingConfiguration -Identity "global"
 
@@ -38,35 +38,35 @@ Como há apenas uma coleção global de definições de configuração de reuni�
     Set-CsMeetingConfiguration -Identity "global" -AdmitAnonymousUsersByDefault $False
     Set-CsMeetingConfiguration -AdmitAnonymousUsersByDefault $False
 
-Os dois comandos são idênticos porque, por padrão, o Windows PowerShell modificará a coleção global, se você não incluir o parâmetro de identidade.
+Os dois comandos são idênticos porque, por padrão, o Windows PowerShell modificará a coleção global, se você não incluir o parâmetro Identity.
 
-Os cmdlets a seguir operam somente no escopo global:
+Os cmdlets a seguir operam apenas no escopo global:
 
-  - [Get-CsImFilterConfiguration](https://technet.microsoft.com/en-us/library/gg398980\(v=ocs.15\))
+  - [Get-CsImFilterConfiguration](https://technet.microsoft.com/library/gg398980\(v=ocs.15\))
 
-  - [Get-CsMeetingConfiguration](https://technet.microsoft.com/en-us/library/gg425875\(v=ocs.15\))
+  - [Get-CsMeetingConfiguration](https://technet.microsoft.com/library/gg425875\(v=ocs.15\))
 
-  - [Get-CsPrivacyConfiguration](https://technet.microsoft.com/en-us/library/gg413002\(v=ocs.15\))
+  - [Get-CsPrivacyConfiguration](https://technet.microsoft.com/library/gg413002\(v=ocs.15\))
 
-  - [Get-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994072\(v=ocs.15\))
+  - [Get-CsTenantFederationConfiguration](https://technet.microsoft.com/library/jj994072\(v=ocs.15\))
 
-  - [Get-CsTenantHybridConfiguration](https://technet.microsoft.com/en-us/library/jj994034\(v=ocs.15\))
+  - [Get-CsTenantHybridConfiguration](https://technet.microsoft.com/library/jj994034\(v=ocs.15\))
 
-  - [Get-CsTenantLicensingConfiguration](https://technet.microsoft.com/en-us/library/dn362770\(v=ocs.15\))
+  - [Get-CsTenantLicensingConfiguration](https://technet.microsoft.com/library/dn362770\(v=ocs.15\))
 
-  - [Get-CsTenantPublicProvider](https://technet.microsoft.com/en-us/library/jj994016\(v=ocs.15\))
+  - [Get-CsTenantPublicProvider](https://technet.microsoft.com/library/jj994016\(v=ocs.15\))
 
-  - [Remove-CsVoicePolicy](https://technet.microsoft.com/en-us/library/gg398309\(v=ocs.15\))
+  - [Remove-CsVoicePolicy](https://technet.microsoft.com/library/gg398309\(v=ocs.15\))
 
-  - [Set-CsMeetingConfiguration](https://technet.microsoft.com/en-us/library/gg398648\(v=ocs.15\))
+  - [Set-CsMeetingConfiguration](https://technet.microsoft.com/library/gg398648\(v=ocs.15\))
 
-  - [Set-CsPrivacyConfiguration](https://technet.microsoft.com/en-us/library/gg398484\(v=ocs.15\))
+  - [Set-CsPrivacyConfiguration](https://technet.microsoft.com/library/gg398484\(v=ocs.15\))
 
-Observe que o cmdlet **Remove-CsVoicePolicy** é algo de anomalia. Primeiro, esse cmdlet exige que você inclua o parâmetro Identity:
+Observe que o cmdlet **Remove-CsVoicePolicy** é algo de anomalia. Primeiro, este cmdlet exige que você inclua o parâmetro Identity:
 
     Remove-CsVoicePolicy -Identity "global"
 
-Segundo, o cmdlet **Remove-CsVoicePolicy** não exclui realmente a política de voz global; O Skype for Business online não permite que você exclua políticas globais ou definições de configuração. O que o cmdlet faz é permitir que você redefina todas as propriedades na política de voz global para seus valores padrão. Por exemplo, por padrão, a propriedade AllowCallForwarding é definida como false. No entanto, AllowCallForwarding pode ter sido modificado, com o valor agora definido como true. Quando você executar o cmdlet **Remove-CsVoicePolicy** , a propriedade AllowCallForwarding voltará para o valor padrão: false. A tabela a seguir resume esse cenário:
+Em segundo lugar, o cmdlet **Remove-CsVoicePolicy** não exclui realmente a política de voz global; O Skype for Business online não permite que você exclua políticas globais ou definições de configuração. O que o cmdlet faz é permitir que você redefina todas as propriedades na política de voz global para seus valores padrão. Por exemplo, por padrão, a propriedade AllowCallForwarding é definida como false. No entanto, AllowCallForwarding pode ter sido modificada, com o valor agora definido como true. Quando você executar o cmdlet **Remove-CsVoicePolicy** , a propriedade AllowCallForwarding será revertida para o valor padrão: false. A tabela a seguir resume esse cenário:
 
 
 <table>
@@ -76,7 +76,7 @@ Segundo, o cmdlet **Remove-CsVoicePolicy** não exclui realmente a política de 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Valor de AllowCallForwarding</th>
+<th>Valor AllowCallForwarding</th>
 <th>Cenário</th>
 </tr>
 </thead>
@@ -86,12 +86,12 @@ Segundo, o cmdlet **Remove-CsVoicePolicy** não exclui realmente a política de 
 <td><p>Valor padrão</p></td>
 </tr>
 <tr class="even">
-<td><p>Verdadeiro</p></td>
-<td><p>Após a modificação da política global</p></td>
+<td><p>True</p></td>
+<td><p>Após a política global ter sido modificada</p></td>
 </tr>
 <tr class="odd">
 <td><p>Falso</p></td>
-<td><p>O cmdlet <strong>Remove-CsVoicePolicy</strong> foi executado</p></td>
+<td><p>Após a execução do cmdlet <strong>Remove-CsVoicePolicy</strong></p></td>
 </tr>
 </tbody>
 </table>
@@ -101,5 +101,5 @@ Segundo, o cmdlet **Remove-CsVoicePolicy** não exclui realmente a política de 
 
 
 [Identidades, escopos e locatários no Skype for Business Online](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Os cmdlets do Lync Online](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))
+[Cmdlets do Skype for Business Online](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))
 

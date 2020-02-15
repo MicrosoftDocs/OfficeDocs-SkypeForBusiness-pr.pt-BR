@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurando intervalos de porta para seus servidores de conferência, aplicativo e mediação'
+title: 'Lync Server 2013: Configurando intervalos de portas para seus servidores de conferência, aplicativos e mediação'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184074
 ms.date: 05/01/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54aab5efbca06d918cc2dbeccc0e36aee9d4abf8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ecd505990b9a060c3b669700ea9192dc1ad6b84c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756295"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033740"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-port-ranges-in-lync-server-2013-for-your-conferencing-application-and-mediation-servers"></a>Configurando intervalos de porta no Lync Server 2013 para servidores de conferência, aplicativo e mediação
+# <a name="configuring-port-ranges-in-lync-server-2013-for-your-conferencing-application-and-mediation-servers"></a>Configurando intervalos de portas no Lync Server 2013 para seus servidores de conferência, aplicativos e mediação
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41756295"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2015-04-30_
+_**Última modificação do tópico:** 2015-04-30_
 
-Para implementar a qualidade do serviço, você deve configurar intervalos de porta idênticos para compartilhamento de áudio, vídeo e aplicativos em seus servidores de conferência, aplicativo e mediação; Além disso, esses intervalos de portas não devem ser sobrepostos de maneira alguma. Para usar um exemplo simples, suponha que você use as portas 10000 a 10999 para vídeo em seus servidores de conferência. Isso significa que você também deve reservar as portas de 10000 a 10999 para o vídeo em seus servidores de aplicativo e mediação. Se você não fizer isso, a QoS não funcionará conforme o esperado.
+A fim de implementar a Qualidade do serviço, você deve configurar intervalos de porta idênticos para áudio, vídeo e compartilhamento de aplicativo no seu servidor de Conferência, de Aplicativo e de Mediação; além disso, esses intervalos de porta não devem se sobrepor de nenhuma maneira. Para usar um exemplo simples, imagine que você utilize as portas de 10000 a 10999 para vídeo nos seus servidores de Conferência. Isso significa que você deve reservar as portas de 10000 a 10999 para vídeo nos seus servidores de Aplicativo e de Mediação. Caso não o faça, a Qualidade do serviço não funcionará como esperado.
 
-Da mesma forma, suponha que você reserve portas de 10000 a 10999 para vídeo, mas Reserve portas de 10500 a 11999 para áudio. Isso pode criar problemas para a qualidade do serviço, pois os intervalos de porta se sobrepõem. Com a QoS, cada modalidade deve ter um conjunto exclusivo de portas: se você usar as portas 10000 a 10999 para vídeo, será necessário usar um intervalo diferente (por exemplo, 11000 a 11999 para áudio).
+De forma semelhante, imagine que você reserva as portas de 10000 a 10999 para vídeo e, em seguida, reserva as portas de 10500 a 11999 para áudio. Isso pode gerar problemas na Qualidade do serviço porque os intervalos de porta se sobrepõem. Com a QoS, cada modalidade deve possuir um conjunto de portas único: se usar as portas de 10000 a 10999 para vídeo, então você deverá usar um intervalo diferente (por exemplo, de 11000 a 11999 para áudio).
 
-Por padrão, os intervalos de porta de áudio e vídeo não se sobrepõem no Microsoft Lync Server 2013; no entanto, os intervalos de porta atribuídos ao compartilhamento de aplicativos se sobrepõem com os intervalos de porta de áudio e vídeo. (Que, por sua vez, significa que nenhum desses intervalos é exclusivo.) Você pode verificar os intervalos de porta existentes para seus servidores de conferência, aplicativo e mediação executando os três comandos a seguir no Shell de gerenciamento do Lync Server 2013:
+Por padrão, os intervalos de porta de áudio e vídeo não se sobrepõem no Microsoft Lync Server 2013; no entanto, os intervalos de portas atribuídos ao compartilhamento de aplicativos se sobrepõem com os intervalos de porta de áudio e vídeo. (O que, por sua vez, significa que nenhum desses intervalos é exclusivo.) Você pode verificar os intervalos de portas existentes para seus servidores de conferência, aplicativo e de mediação executando os seguintes três comandos de dentro do Shell de gerenciamento do Lync Server 2013:
 
     Get-CsService -ConferencingServer | Select-Object Identity, AudioPortStart, AudioPortCount, VideoPortStart, VideoPortCount, AppSharingPortStart, AppSharingPortCount
     
@@ -53,13 +53,13 @@ Por padrão, os intervalos de porta de áudio e vídeo não se sobrepõem no Mic
 
 
 > [!WARNING]  
-> Como você pode ver nos comandos anteriores, cada tipo de porta – áudio, vídeo e compartilhamento de aplicativos – recebe dois valores de propriedade separados: o início da porta e a contagem de portabilidade. A porta Start indica a primeira porta usada para essa modalidade; por exemplo, se o início da porta de áudio for igual a 50000, isso significa que a primeira porta usada para tráfego de áudio é a porta 50000. Se o número da porta de áudio for 2 (que não é um valor válido, mas é usado aqui para fins de ilustração), isso significa que apenas duas portas são alocadas para áudio. Se a primeira porta for a porta 50000 e houver um total de duas portas, isso significa que a segunda porta deve ser a porta 50001 (intervalos de porta devem ser contíguos). Como resultado, o intervalo de porta para áudio seria a porta 50000 a 50001, inclusive.<BR>Observe que o servidor de aplicativos e o servidor de mediação também dão suporte a QoS para áudio; Você não precisa alterar as portas de vídeo ou de compartilhamento de aplicativos em seus servidores de aplicativos ou servidores de mediação.
+> Como você pode observar nos comandos precedentes, é atribuído a cada tipo de porta – áudio, vídeo e compartilhamento de aplicativo – dois valores separados de propriedade: a porta inicial e a contagem de porta. A porta inicial indica a primeira porta usada por essa modalidade; por exemplo, se a porta inicial de áudio é igual a 50000, significa que a primeira porta usada para o tráfego de áudio é a porta 50000. Se a porta de contagem de áudio é 2 (valor inválido, mas é usado aqui pelo seu valor ilustrativo), significa que apenas duas portas estão alocadas para o áudio. Se a primeira porta é a porta 50000 e há um total de duas portas, significa que a segunda porta será a porta 50001 (os intervalos de porta devem ser contíguos). Dessa forma, o intervalo de porta para áudio seria da porta 50000 até a 50001, ambas incluídas.<BR>Observe que o servidor de Aplicativo e o servidor de Mediação suportam QoS somente para áudio; você não precisa modificar as portas de vídeo ou as de compartilhamento de aplicativo nos seus servidores de Aplicativo ou de Mediação.
 
 
 
 </div>
 
-Se você executar os três comandos anteriores, verá que os valores de porta padrão para o Lync Server 2013 são configurados da seguinte maneira:
+Se você executar os três comandos anteriores, verá que os valores de porta padrão para o Lync Server 2013 estão configurados da seguinte maneira:
 
 
 <table>
@@ -72,8 +72,8 @@ Se você executar os três comandos anteriores, verá que os valores de porta pa
 <thead>
 <tr class="header">
 <th>Propriedade</th>
-<th>Servidor de conferência</th>
-<th>Servidor de aplicativos</th>
+<th>Servidor de Conferência</th>
+<th>Servidor de Aplicativo</th>
 <th>Servidor de Mediação</th>
 </tr>
 </thead>
@@ -118,21 +118,21 @@ Se você executar os três comandos anteriores, verá que os valores de porta pa
 </table>
 
 
-Conforme observado anteriormente, ao configurar as portas do Lync Server para QoS, certifique-se de que: 1) as configurações da porta de áudio sejam idênticas nos seus servidores de conferência, aplicativo e mediação; e, 2) os intervalos de porta não se sobrepõem. Se você olhar atentamente para a tabela anterior, verá que os intervalos de porta são idênticos nos três tipos de servidor. Por exemplo, a porta de áudio inicial é definida como a porta 49152 em cada tipo de servidor e o número total de portas reservadas para áudio em cada servidor também é idêntica: 8348. No entanto, os intervalos de porta sobrepõem: as portas de áudio começam na porta 49152, mas as portas se reservam para o compartilhamento de aplicativos. Para fazer uso ideal da qualidade do serviço, o compartilhamento de aplicativos deve ser reconfigurado para usar um intervalo de porta exclusivo. Por exemplo, você pode configurar o compartilhamento de aplicativos para iniciar na porta 40803 e para usar as portas do 8348. (Por que 8348 portas? Se você adicionar esses valores juntos--40803 + 8348-------------------------49150 40803-- Como as portas de áudio não começam até a porta 49152, você não terá mais nenhum intervalo de portas sobrepostos.)
+Conforme observado anteriormente, ao configurar as portas do Lync Server para QoS, você deve garantir que: 1) as configurações de porta de áudio são idênticas nos seus servidores de conferência, aplicativo e mediação; e, 2) os intervalos de porta não se sobrepõem. Se você observar com atenção a tabela anterior, verá que os intervalos de porta são idênticos nos três tipos de servidores. Por exemplo, a porta inicial de áudio está configurada para a porta 49152 em cada tipo de servidor e o número total de portas reservadas para áudio em cada servidor também é igual: 8348. No entanto, os intervalos de porta se sobrepõem: as portas de áudio iniciam na porta 49152, mas o mesmo acontece com as portas configuradas para o compartilhamento de aplicativo. Para usar a Qualidade do serviço de forma ótima, o compartilhamento de aplicativo deve ser reconfigurado para que use um único intervalo de porta. Por exemplo, você poderia configurar o compartilhamento de aplicativo para iniciar na porta 40803 e para usar as portas 8348. (Por que as portas 8348? Se você adicionar esses valores juntos--40803 + 8348--isso significa que o compartilhamento de aplicativos usará as portas 40803 através da porta 49150. Já que as portas de áudio não começam até a porta 49152, você não terá mais nenhum intervalo de porta em sobreposição.)
 
-Depois de selecionar o novo intervalo de porta para compartilhamento de aplicativos, você pode fazer a alteração usando o cmdlet Set-CsConferencingServer. Essa alteração não precisa ser feita em seus servidores de aplicativos ou em seus servidores de mediação, pois esses servidores não manipulam o tráfego de compartilhamento de aplicativos. Você só precisa alterar valores de porta nestes servidores se decidir reatribuir as portas usadas para tráfego de áudio.
+Após selecionar os novos intervalos de porta do compartilhamento de aplicativo, você será capaz de realizar suas modificações por meio do cmdlet Set-CsConferencingServer. Essa alteração não precisa ser feita no seus servidores de Aplicativo ou de Mediação, já que esses servidores não manipulam o tráfego do compartilhamento de aplicativos. Você precisa alterar somente os valores de porta nesses servidores caso decida reatribuir as portas usadas no tráfego de áudio.
 
-Para modificar os valores de porta para compartilhamento de aplicativos em um único servidor de conferência, execute um comando semelhante a isso dentro do Shell de gerenciamento do Lync Server:
+Para modificar os valores de porta para compartilhamento de aplicativos em um único servidor de conferência, execute um comando semelhante a este no Shell de gerenciamento do Lync Server:
 
     Set-CsConferenceServer -Identity ConferencingServer:atl-cs-001.litwareinc.com -AppSharingPortStart 40803 -AppSharingPortCount 8348
 
-Se você quiser fazer essas alterações em todos os seus servidores de conferência, poderá executar esse comando em vez disso:
+Se deseja realizar essas alterações em todos os seus servidores de Conferência, você pode executar esse comando:
 
     Get-CsService -ConferencingServer | ForEach-Object {Set-CsConferenceServer -Identity $_.Identity -AppSharingPortStart 40803 -AppSharingPortCount 8348}
 
-Depois de alterar as configurações de porta, você deve parar e reiniciar cada serviço afetado pelas alterações.
+Após alterar as configurações de porta, você deverá parar e, em seguida, reiniciar cada serviço afetado pelas alterações.
 
-Não é obrigatório que seus servidores de conferência, servidores de aplicativos e servidores de mediação compartilhem exatamente o mesmo intervalo de porta; o único requisito verdadeiro é que você se reservasse intervalos de porta exclusivos em todos os seus servidores. No entanto, a administração normalmente será mais fácil se você usar o mesmo conjunto de portas em todos os seus servidores.
+Não é obrigatório que seus servidores de Conferência, de Aplicativo e de Mediação compartilhem os mesmos intervalos de porta; o único requisito é que você configure intervalos de porta únicos em todos os servidores. No entanto, a administração será normalmente mais fácil se você usar os mesmo conjuntos de portas em todos os servidores.
 
 </div>
 

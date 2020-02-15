@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurando intervalos de porta para seus servidores de borda'
+title: 'Lync Server 2013: Configurando intervalos de portas para seus servidores de borda'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184469
 ms.date: 07/24/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6eddf59f6fe4b2575e0e7d70adddb2e94c90e05
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b526611e2e29f1b8d11e731381898a7db5e71aa8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742341"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008393"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-port-ranges-for-your-edge-servers-in-lync-server-2013"></a>Configurando intervalos de porta para seus servidores de borda no Lync Server 2013
+# <a name="configuring-port-ranges-for-your-edge-servers-in-lync-server-2013"></a>Configurando intervalos de portas para seus servidores de borda no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41742341"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2015-07-24_
+_**Última modificação do tópico:** 2015-07-24_
 
-Com os servidores de borda, você não precisa configurar intervalos de porta separados para compartilhamento de áudio, vídeo e aplicativos; da mesma forma, os intervalos de porta usados para servidores de borda não precisam corresponder aos intervalos de porta usados com os servidores de conferência, aplicativo e mediação. Antes de continuarmos com o nosso exemplo, é importante enfatizar que, enquanto essa opção existe, recomendamos que você não altere os intervalos de porta, pois isso pode afetar negativamente alguns cenários se você sair do intervalo de porta 50000.
+Com servidores de borda, você não precisa configurar intervalos de porta separados para compartilhamento de áudio, vídeo e aplicativos; da mesma forma, os intervalos de portas usados para servidores de borda não precisam corresponder aos intervalos de porta usados com seus servidores de conferência, aplicativo e de mediação. Antes de prosseguir com o nosso exemplo, é importante enfatizar que, enquanto essa opção existe, recomendamos que você não altere os intervalos de porta, pois isso pode afetar adversamente alguns cenários se você sair do intervalo de porta 50000.
 
 Por exemplo, suponha que você tenha configurado seus servidores de conferência, aplicativo e mediação para usar estes intervalos de porta:
 
@@ -80,19 +80,19 @@ Por exemplo, suponha que você tenha configurado seus servidores de conferência
 </table>
 
 
-Como você pode ver, os intervalos de portabilidade de áudio, vídeo e compartilhamento de aplicativos começam na porta 40803 e englobam um total de 24732 portas. Se preferir, você pode configurar um servidor de borda específico para usar esses valores de porta gerais executando um comando semelhante a este de dentro do Shell de gerenciamento do Lync Server:
+Como você pode ver, os intervalos de porta para o compartilhamento de áudio, vídeo e aplicativos começam na porta 40803 e englobam um total de 24732 portas. Se preferir, você poderá configurar um servidor de borda específico para que use esses valores de portas gerais executando um comando semelhante a este no Shell de Gerenciamento do Lync Server:
 
     Set-CsEdgeServer -Identity EdgeServer:atl-edge-001.litwareinc.com -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730
 
-Ou use o seguinte comando para configurar simultaneamente todos os servidores de borda em sua organização:
+Ou use o comando a seguir para configurar simultaneamente todos os servidores de borda na organização:
 
     Get-CsService -EdgeServer | ForEach-Object {Set-CsEdgeServer -Identity $_.Identity -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730}
 
-Você pode verificar as configurações de porta atuais para seus servidores de borda usando o comando do Shell de gerenciamento do Lync Server:
+Você pode verificar as configurações de porta atuais para seus servidores de borda usando este comando do Shell de gerenciamento do Lync Server:
 
     Get-CsService -EdgeServer | Select-Object Identity, MediaCommunicationPortStart, MediaCommunicationPortCount
 
-Novamente, enquanto fornecemos essas opções, recomendamos que você deixe as coisas como elas são para a configuração de portabilidade.
+Novamente, embora forneçamos essas opções, recomendamos que você deixe as coisas como elas são para a configuração de porta.
 
 </div>
 

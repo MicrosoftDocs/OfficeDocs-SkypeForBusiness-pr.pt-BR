@@ -12,16 +12,16 @@ ms:contentKeyID: 48184030
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b11c6234cbe646888946313df8dd77abc60837fd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 05193ab70846918bd4106883583e42da03b541fc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741961"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007220"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,27 +35,27 @@ ms.locfileid: "41741961"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
-Você pode usar o painel de controle do Lync Server 2013 para exibir uma lista de todos os computadores que estão executando o Lync Server 2013 na sua topologia e ver o status do serviço de cada um. Você pode classificar a lista por computador, pool ou site.
+Você pode usar o painel de controle do Lync Server 2013 para exibir uma lista de todos os computadores que estão executando o Lync Server 2013 em sua topologia e ver o status do serviço de cada. Você pode classificar a lista por computador, pool ou site.
 
 <div>
 
 ## <a name="to-view-a-list-of-computers-running-lync-server"></a>Para exibir uma lista de computadores que executam o Lync Server
 
-1.  Em uma conta de usuário que é atribuída a qualquer uma das funções administrativas predefinidas do Lync Server 2013, faça logon em qualquer computador na sua implantação interna. Para obter detalhes sobre as funções administrativas predefinidas disponíveis no Lync Server 2013, consulte [planejando o controle de acesso baseado em função no Lync server 2013](lync-server-2013-planning-for-role-based-access-control.md).
+1.  A partir de uma conta de usuário atribuída a qualquer uma das funções administrativas predefinidas para o Lync Server 2013, faça logon em qualquer computador em sua implantação interna. Para obter detalhes sobre as funções administrativas predefinidas disponíveis no Lync Server 2013, consulte [Planning for Role-Based Access Control in Lync server 2013](lync-server-2013-planning-for-role-based-access-control.md).
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação à esquerda, clique em **topologia** e, em seguida, clique em **status**.
+3.  Na barra de navegação esquerda, clique em **Topologia** e em **Status**.
 
-4.  Na página **status** , siga qualquer um destes procedimentos conforme necessário:
+4.  Na página **Status**, execute um dos seguintes procedimentos conforme necessário:
     
-      - Classifique a lista clicando no título do **computador**, do **pool**ou da coluna do **site** e, em seguida, clicando na seta para cima ou na seta para baixo.
+      - Classifique a lista clicando no título de coluna **Computador**, **Pool** ou **Site** e, em seguida, clicando na seta para cima ou seta para baixo.
     
-      - Clique em **Atualizar** para exibir a lista mais recente.
+      - Clique em **Atualizar ** para exibir a lista mais atualizada.
     
-      - Procure um computador específico digitando o nome do computador no campo de pesquisa.
+      - Procure um computador específico, digitando o nome do computador no campo de pesquisa.
 
 </div>
 

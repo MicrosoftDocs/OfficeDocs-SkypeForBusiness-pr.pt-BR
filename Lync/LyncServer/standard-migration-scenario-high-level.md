@@ -1,5 +1,5 @@
 ---
-title: Cenário de migração padrão - nível alto
+title: Cenário de migração padrão-alto nível
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185709
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 68ff7110cc7e14ccc76ab7d0c0125e723477934a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 34084de0af0971018043f230c260adb514f1d460
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741951"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035667"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="standard-migration-scenario---high-level"></a>Cenário de migração padrão - nível alto
+# <a name="standard-migration-scenario---high-level"></a>Cenário de migração padrão-alto nível
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41741951"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-01-30_
+_**Última modificação do tópico:** 2013-01-30_
 
-Use os itens a seguir como ponto de partida ao migrar o Lync Server 2010, o chat de grupo ou o Office Communications Server 2007 R2 Grupo chat para o Lync Server 2013, servidor de chat persistente. O caminho de migração padrão do Lync Server 2013 é o seguinte:
+Use os itens a seguir como ponto de partida ao migrar o Lync Server 2010, o chat de grupo ou o Office Communications Server 2007 R2 Group Chat para o Lync Server 2013, servidor de chat persistente. O caminho de migração padrão do Lync Server 2013 é o seguinte:
 
-  - Sua organização implantou anteriormente o Lync Server 2010, o chat em grupo ou o Office Communications Server 2007 R2 para o chat em grupo e você deseja implantar o Lync Server 2013, servidor de chat persistente.
+  - Sua organização implantou anteriormente o Lync Server 2010, o chat de grupo ou o Office Communications Server 2007 R2 Group Chat e você deseja implantar o Lync Server 2013, servidor de chat persistente.
 
-  - Implante o Lync Server 2013 e, em seguida, implante os pools do servidor de chat persistente.
+  - Implantar o Lync Server 2013 e implantar pool (s) do servidor de chat persistente.
 
-  - Prepare e planeje a migração de salas de chat persistentes e determine um tempo apropriado para desligar o sistema para a migração.
+  - Preparar e planejar a migração de salas de chat persistentes e determinar um tempo apropriado para desligar o sistema para migração.
 
-  - Execute os cmdlets do Windows PowerShell para a migração (**Export-CsPersistentChatData** e **Import-CsPersistentChatData**) para mover o conteúdo para o servidor de chat persistente.
+  - Execute os cmdlets do Windows PowerShell para migração (**Export-CsPersistentChatData** e **Import-CsPersistentChatData**) para mover o conteúdo para o servidor de chat persistente.
 
   - Verifique se a migração foi bem-sucedida.
 
-  - Descomissionar sua implantação herdada.
+  - Encerre sua implantação herdada.
 
-  - Configure o servidor de chat persistente para que os clientes herdados possam se conectar ao Lync Server 2013, servidor de chat persistente. Isso é necessário porque demora tempo para implantar novos clientes, e você deseja permitir que os usuários existentes com clientes herdados tenham acesso às suas salas de chat o mais rápido possível.
+  - Configure o servidor de chat persistente para que os clientes herdados possam se conectar ao Lync Server 2013, servidor de chat persistente. Isso é necessário pois demora um tempo para implantar novos clientes, e você deseja permitir que os usuários existentes com clientes herdados tenham acesso às suas salas de chat o mais rápido possível.
 
-  - Implante novos clientes e continue a garantir que trabalhadores com o chat de grupo herdado possam acessar suas salas de chat.
+  - Implantar novos clientes, enquanto continua a ajudar a garantir que os funcionários com o chat de grupo herdado (clientes) possam acessar suas salas de chat.
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48183444
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ac9c31b4eb4a902074ba56d952e90bc0139a142
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3e55947fa80e2772bbc53b47f5c6f906761f1bb3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741211"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034211"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,77 +35,77 @@ ms.locfileid: "41741211"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-19_
+_**Última modificação do tópico:** 2012-10-19_
 
-Além de criar políticas de QoS para seus servidores de conferência, aplicativo e mediação, você também deve criar políticas de áudio e de vídeo para o lado interno dos seus servidores de borda A/V. No entanto, as políticas usadas em seus servidores de borda são diferentes das políticas usadas em seus servidores de conferência, aplicativo e mediação. Para os servidores de conferência, aplicativo e mediação, você especificou um intervalo de porta de origem; com os servidores de borda, você precisa especificar um intervalo de porta de destino. Por isso você não pode simplesmente aplicar as políticas de QoS do servidor de conferência, aplicativo e mediação a seus servidores de borda: essas políticas simplesmente não funcionarão. Em vez disso, você deve criar novas políticas e aplicar essas políticas somente a seus servidores de borda.
+Além de criar políticas de QoS para seus servidores de Conferências, Aplicativos e Mediação, você também deve criar políticas de áudio e vídeo para o lado interno dos seus servidores de borda de A/V. No entanto, as políticas usadas em seus servidores de Borda são diferentes das políticas usadas em seus servidores de Conferências, Aplicativos e Mediação. Para os servidores de Conferências, Aplicativos e Mediação, você especificou um intervalo de portas de origem; com servidores de Borda, é necessário especificar um intervalo de portas de destino. Por isso não é possível simplesmente aplicar as políticas de QoS do servidor de Conferências, Aplicativos e Mediação em seus servidores de Borda: essas políticas simplesmente não funcionarão. Em vez disso, você deve criar novas políticas e aplicá-las somente aos seus servidores de Borda.
 
-O procedimento a seguir descreve o processo de criação de objetos de política de grupo do Active Directory que podem ser usados para gerenciar a qualidade do serviço em servidores Edge. É claro que é possível que seus servidores de borda sejam servidores autônomos que não tenham contas do Active Directory. Se esse for o caso, você pode usar a política de grupo local em vez da política de grupo do Active Directory: a única diferença é que você deve criar essas políticas locais usando o editor de política de grupo local e deve criar individualmente o mesmo conjunto de políticas em cada servidor de borda. Para iniciar o editor de política de grupo local em um servidor de borda, faça o seguinte:
+O procedimento a seguir descreve o processo para criar objetos de Política de Grupo do Active Directory que podem ser usados para gerenciar a Qualidade de Serviço em Servidores de Borda. É possível, é claro, que seus servidores de Borda sejam servidores autônomos que não possuem contas do Active Directory. Neste caso, você pode usar uma Política de Grupo local em vez da Política de Grupo do Active Directory: a única diferença é que você deve criar essas políticas locais usando o Editor de Políticas de Grupo Local e deve criar individualmente o mesmo conjunto de políticas em cada Servidor de Borda. Para iniciar o Editor de Políticas de Grupo Local em um servidor de Borda, faça o seguinte:
 
-1.  Clique em **Iniciar** e em **executar**.
+1.  Clique em **Iniciar** e em **Executar**.
 
-2.  Na caixa de diálogo **executar** , digite **gpedit. msc** e pressione Enter.
+2.  Na caixa de diálogo **Executar**, digite **gpedit.msc** e pressione ENTER.
 
-Se você estiver criando políticas baseadas no Active Directory, faça logon em um computador onde o gerenciamento de política de grupo foi instalado. Nesse caso, abra gerenciamento de política de grupo (clique em **Iniciar**, aponte para **Ferramentas administrativas**e clique em **Gerenciamento de política de grupo**) e conclua as seguintes etapas:
+Se estiver criando políticas com base no Active Directory, você deve fazer logon em um computador em que o Gerenciamento de Política de Grupo tenha sido instalado. Neste caso, abra o Gerenciamento de Política de Grupo (clique em **Iniciar**, aponte para **Ferramentas Administrativas** e clique em **Gerenciamento de Política de Grupo**) e conclua as seguintes etapas:
 
-1.  No gerenciamento de política de grupo, localize o contêiner em que a nova política deve ser criada. Por exemplo, se todos os seus computadores do Lync Server estiverem localizados em uma OU chamada Lync Server, a nova política deve ser criada na OU do Lync Server.
+1.  No Gerenciamento de Política de Grupo, localize o contêiner em que a nova política deve ser criada. Por exemplo, se todos os seus computadores Lync Server estiverem localizados em uma UO chamada Lync Server, a nova política deve ser criada na UO Lync Server.
 
-2.  Clique com o botão direito do mouse no contêiner apropriado e, em seguida, clique em **criar um GPO neste domínio e vincule-o aqui**.
+2.  Clique com o botão direito no contêiner adequado e clique em **Criar um GPO neste domínio e fornecer um link para ele aqui**.
 
-3.  Na caixa de diálogo **novo GPO** , digite um nome para o novo objeto de política de grupo na caixa **nome** (por exemplo, o **áudio do Lync Server**) e clique em **OK**.
+3.  Na caixa de diálogo **Novo GPO**, digite um nome para o novo objeto de Política de Grupo na caixa **Nome** (por exemplo, **Áudio do Lync Server**) e clique em **OK**.
 
-4.  Clique com o botão direito do mouse na política recém-criada e clique em **Editar**.
+4.  Clique com o botão direito na política recém criada e clique em **Editar**.
 
-Aqui, o processo é idêntico independentemente de você estar criando uma política do Active Directory ou uma política local:
+A partir daqui o processo é idêntico, independente de você estar criando uma política do Active Directory ou uma política local:
 
-1.  No editor de gerenciamento de política de grupo ou no editor de política de grupo local, expanda **configuração do computador**, expanda **políticas**, expanda **configurações do Windows**, clique com o botão direito do mouse em **QoS baseada em política**e clique em **criar nova política**.
+1.  No Editor do Gerenciamento de Política de Grupo ou no Editor de Política de Grupo Local, expanda **Configuração do Computador**, **Políticas**, **Configurações do Windows**, clique com o botão direito em **QoS baseada em política** e clique em **Criar nova política**.
 
-2.  Na caixa de diálogo **QoS baseada em política** , na página de abertura, digite um nome para a nova política (por exemplo, **áudio do Lync Server**) na caixa **nome** . Selecione **especificar valor DSCP** e defina o valor como **46**. Deixe **especificar a taxa de aceleração de saída** desmarcada e clique em **Avançar**.
+2.  Na caixa de diálogo **QoS baseada em política**, na página inicial, digite um nome para a nova política (por exemplo, **Áudio do Lync Server**) na caixa **Nome**. Selecione **Especificar valor de DSCP** e defina o valor como **46**. Deixe a opção **Especificar Taxa de Aceleração de Saída** desmarcada e clique em **Avançar**.
 
-3.  Na página seguinte, verifique se a opção **todos os aplicativos** está selecionada e clique em **Avançar**. Essa configuração instrui a rede a procurar todos os pacotes com uma marcação DSCP de 46, não apenas pacotes criados por um aplicativo específico.
+3.  Na página seguinte, certifique-se de que a opção **Todos os aplicativos** esteja selecionada e clique em **Avançar**. Esta configuração instrui a rede a procurar todos os pacotes com uma marcação de DSCP igual a 46, não somente pacotes criados por um aplicativo específico.
 
-4.  Na terceira página, verifique se **qualquer endereço IP de origem** e **qualquer endereço IP de destino** estão selecionados e clique em **Avançar**. Essas duas configurações garantem que os pacotes serão gerenciados independentemente de qual computador (endereço IP) enviou esses pacotes e qual computador (endereço IP) receberá esses pacotes.
+4.  Na terceira página, certifique-se de que ambas as opções **Qualquer endereço IP de origem** e **Qualquer endereço IP de destino** estejam selecionadas e clique em **Avançar**. Essas duas configurações garantem que os pacotes serão gerenciados independente de qual computador (endereço IP) tenha os enviado e de qual computador (endereço IP) os receberá.
 
-5.  Na página quatro, selecione **TCP e UDP** na lista **Selecione o protocolo que esta política de QoS se aplica à** lista suspensa. TCP (Transmission Control Protocol) e UDP (User Datagram Protocol) são os dois protocolos de rede mais comumente usados pelo Lync Server e seus aplicativos cliente.
+5.  Na página quatro, selecione **TCP e UDP** na lista suspensa **Selecione o protocolo ao qual esta política de QoS se aplica**. TCP (Transmission Control Protocol) e UDP (User Datagram Protocol) são os dois protocolos de rede mais comumente usados pelo Lync Server e seus aplicativos cliente.
 
-6.  Em título **especifique o número da porta de destino**, selecione uma **destas portas de destino ou intervalo**. Na caixa de texto acompanhada, digite o intervalo de porta reservado para transmissões de áudio. Por exemplo, se você reservou portas 49152 pelas portas 57500 para tráfego de áudio, insira o intervalo de porta usando este formato: **49152:57500**. Clique em **Concluir**.
+6.  Sob o cabeçalho **Especifique o número da porta de destino**, selecione **A partir desta porta de destino ou intervalo**. Na caixa de texto que acompanha, digite o intervalo de portas reservado para transmissões de áudio. Por exemplo, se você reservou as portas 49152 até as portas 57500 para o tráfego de áudio, insira o intervalo de portas usando este formato: **49152:57500**. Clique em **Concluir**.
 
-Depois de criar a política de QoS para o tráfego de áudio, você deve criar uma segunda política para o tráfego de vídeo. Para criar uma política de vídeo, siga o mesmo procedimento básico que você seguiu ao criar a política de áudio, como fazer essas substituições:
+Depois de criar a política de QoS para o tráfego de áudio, você deve criar uma segunda política para o tráfego de vídeo. Para criar uma política para vídeo, siga o mesmo procedimento básico da criação da política de áudio, fazendo as seguintes substituições:
 
-  - Use um nome de política diferente (e exclusivo) (por exemplo, **vídeo do Lync Server**).
+  - Use um nome de política diferente (e único) (por exemplo, **Vídeo do Lync Server**).
 
-  - Defina o valor de DSCP para **34** em vez de 46. (Observe que você não precisa usar um valor de DSCP de 34. O único requisito é que você use um valor DSCP diferente para vídeo do que o usado para áudio.)
+  - Defina o valor do DSCP como **34** em vez de 46 (observe que você não precisa usar o valor 34 para o DSCP. O único requisito é usar para o vídeo um valor de DSCP diferente do valor usado para o áudio).
 
-  - Use o intervalo de porta configurado anteriormente para o tráfego de vídeo. Por exemplo, se você reservou portas de 57501 a 65535 para vídeo, defina o intervalo de porta como: **57501:65535**. Novamente, isso deve ser configurado como o intervalo de porta de destino.
+  - Use o intervalo de portas configurado anteriormente para o tráfego de vídeo. Por exemplo, se você reservou as portas 57501 a 65535 para vídeo, defina o intervalo de portas como: **57501:65535**. Novamente, isso deve ser configurado como intervalo de portas de destino.
 
-Se você decidir criar uma política para gerenciar o tráfego de compartilhamento de aplicativos, será necessário criar uma terceira política e fazer as seguintes substituições:
+Se você decidir criar uma política para gerenciar o tráfego de compartilhamento de aplicativos, deve criar uma terceira política, fazendo as seguintes substituições:
 
-  - Use um nome de política diferente (e exclusivo) (por exemplo, **compartilhamento de aplicativos do Lync Server**).
+  - Use um nome de política diferente (e único) (por exemplo, **Compartilhamento de Aplicativos do Lync Server**).
 
-  - Defina o valor de DSCP para **24** em vez de 46. (Novamente, você não precisa usar um valor de DSCP de 24. O único requisito é que você use um valor DSCP diferente para compartilhamento de aplicativos do que usou para áudio ou vídeo.)
+  - Defina o valor do DSCP como **24** em vez de 46 (novamente, não é necessário usar o valor 24 para o DSCP. O único requisito é usar para o compartilhamento de aplicativos um valor de DSCP diferente do valor usado para áudio e vídeo).
 
-  - Use o intervalo de porta configurado anteriormente para o tráfego de vídeo. Por exemplo, se você reservou portas de 40803 a 49151 para compartilhamento de aplicativos, defina o intervalo de porta como: **40803:49151**.
+  - Use o intervalo de portas configurado anteriormente para o tráfego de vídeo. Por exemplo, se você reservou as portas 40803 a 49151 para o compartilhamento de aplicativos, defina o intervalo de portas como: **40803:49151**.
 
-As novas políticas que você criou não entrarão em vigor até que a política de grupo seja atualizada em seus servidores de borda. Embora a Política de Grupo seja periodicamente atualizada por si só, você pode forçar a atualização imediata executando o comando a seguir em cada computador em que a Política de Grupo deve ser atualizada:
+As novas políticas criadas não terão efeito até que a Política de Grupo tenha sido atualizada nos servidores de Borda. Embora a Política de Grupo seja atualizada periodicamente sozinha, você pode forçar uma atualização imediata executando o comando a seguir em cada computador em que for necessário atualizar a Política de Grupo:
 
     Gpudate.exe /force
 
-Esse comando pode ser executado no servidor do Lync ou em qualquer janela de comando que esteja em execução em credenciais de administrador. Para executar uma janela de comando com credenciais de administrador, clique em **Iniciar**, clique com o botão direito do mouse em **Prompt de Comando** e clique em **Executar como administrador**. Observe que talvez seja necessário reiniciar o servidor de borda, mesmo depois de executar o GPUDATE. exe.
+Este comando pode ser executado no Lync Server ou em qualquer janela de comando que esteja sendo executada sob as credenciais de administrador. Para executar uma janela de comando sob credenciais de administrador, clique em **Iniciar**, clique com o botão direito em **Prompt de Comando** e clique em **Executar como administrador**. Observe que pode ser necessário reiniciar o servidor de Borda mesmo depois de executar o arquivo Gpudate.exe.
 
-Para ajudar a garantir que os pacotes de rede sejam marcados com o valor DSCP apropriado, você também deve criar uma nova entrada de registro em cada computador completando o seguinte procedimento:
+Para ajudar a garantir que os pacotes de rede sejam marcados com o valore DSCP correto, você também deve criar uma nova entrada de registro em cada computador, concluindo o procedimento a seguir:
 
-1.  Clique em **Iniciar** e em **executar**.
+1.  Clique em **Iniciar** e depois em **Executar**.
 
-2.  Na caixa de diálogo **executar** , digite **regedit** e pressione Enter.
+2.  Na caixa de diálogo **Executar**, digite **regedit** e pressione ENTER.
 
 3.  No editor do registro, expanda **\_hKey\_local Machine**, expanda **System**, expanda **CurrentControlSet**, expanda **Services**e, em seguida, expanda **tcpip**.
 
-4.  Clique com o botão direito do mouse em **tcpip**, aponte para **novo**e, em seguida, clique em **tecla**. Após a criação da nova chave do registro, digite **QoS** e pressione ENTER para renomear a chave.
+4.  Clique com o botão direito em **Tcpip**, aponte para **Novo** e clique em **Chave**. Depois de criar a nova chave de registro, digite **QoS** e pressione ENTER para renomear a chave.
 
-5.  Clique com o botão direito do mouse em **QoS**, aponte para **novo**e clique em **valor da cadeia de caracteres**. Depois que o novo valor do registro for criado, digite não **use NLA** e pressione ENTER para renomear o valor.
+5.  Clique com o botão direito em **QoS**, aponte para **Novo** e clique em **Valor da Sequência**. Depois de criar o novo valor do registro, digite **Não usar NLA** e pressione ENTER para renomear o valor.
 
-6.  Clique duas vezes em **não usar NLA**. Na caixa de diálogo **Editar Cadeia de caracteres** , digite **1** na caixa **dados do valor** e clique em **OK**.
+6.  Dê um duplo clique em **Não usar NLA**. Na caixa de diálogo **Editar Sequência**, digite **1** na caixa **Dados de valor** e clique em **OK**.
 
-7.  Feche o editor do registro e reinicie o computador.
+7.  Feche o Editor do Registro e reinicie o computador.
 
 </div>
 

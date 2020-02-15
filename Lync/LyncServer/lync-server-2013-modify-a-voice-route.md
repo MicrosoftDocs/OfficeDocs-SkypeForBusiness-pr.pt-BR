@@ -12,16 +12,16 @@ ms:contentKeyID: 48185143
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c0731383eea99e7510ef1748777e7139e2d9f369
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 86c64b9cc595c108676a519bc98cba3ecad04a62
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727541"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035897"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41727541"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
-Este tópico explica como editar uma rota de voz. Para criar uma nova rota, consulte [criar uma rota de voz no Lync Server 2013](lync-server-2013-create-a-voice-route.md).
+Este tópico explica como editar uma rota de voz. Para criar uma nova rota, confira [criar uma rota de voz no Lync Server 2013](lync-server-2013-create-a-voice-route.md).
 
 <div>
 
 ## <a name="to-modify-a-voice-route"></a>Para modificar uma rota de voz
 
-1.  Faça logon no computador como um membro do grupo RTCUniversalServerAdmins ou como um membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte [delegar permissões de configuração no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Faça logon no computador como um membro do grupo RTCUniversalServerAdmins ou como membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte [delegar permissões de configuração no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação à esquerda, clique em **Roteamento de Voz** e, em seguida, clique em **Rota**.
+3.  Na barra de navegação esquerda, clique em **Roteamento de Voz** e em **Rota**.
 
-4.  Na página **Rota**, use um dos métodos a seguir para modificar uma rota de voz:
+4.  Na página **Rota**, use um dos métodos a seguir par modificar uma rota de voz:
     
       - Clique no nome de uma rota de voz, clique em **Editar** e em **Exibir detalhes**.
     
@@ -59,36 +59,36 @@ Este tópico explica como editar uma rota de voz. Para criar uma nova rota, cons
 
 6.  (Opcional) No campo **Descrição**, digite informações descritivas adicionais para a rota de voz.
 
-7.  Para especificar os padrões a serem acomodados por esta rota, você pode usar a ferramenta **Compilar um padrão para correspondência** para gerar uma expressão regular ou a escreva manualmente.
+7.  Para especificar os padrões que você deseja acomodar com essa rota, use a ferramenta **Compilar um padrão para correspondência** para gerar uma expressão regular ou escrever manualmente a expressão regular.
     
       - Para usar a ferramenta **Compilar um padrão para correspondência** para gerar uma expressão regular, digite os valores da seguinte maneira. É possível especificar dois tipos de correspondência de padrão:
         
-          - **Dígitos iniciais para números que você deseja permitir:** Insira valores de prefixo que essa rota deve acomodar (incluindo o + + se necessário). Por exemplo, digite **+425** e clique em **Adicionar**. Repita este procedimento para cada valor de prefixo que deseja incluir na rota.
+          - **Dígitos iniciais para números que você deseja permitir:** Insira valores de prefixo que essa rota deve acomodar (incluindo a entrelinha +, se necessário). Por exemplo, digite **+425** e clique em **Adicionar**. Repita isso para cada valor de prefixo que você deseja incluir na rota.
         
-          - **Exceções:** Se você quiser especificar uma ou mais exceções para um valor de prefixo, realce o prefixo e clique em **exceções**. Digite um ou mais valores para os padrões de correspondência que você *não* deseja acomodar com essa rota. Por exemplo, para excluir números que começam com +425237 da rota, digite um valor de **+425237** no campo **Exceções** e clique em **OK**.
+          - **Exceções:** Se você quiser especificar uma ou mais exceções para um valor de prefixo, realce o prefixo e clique em **exceções**. Digite um ou mais valores para os padrões de correspondência que você *não* deseja acomodar com essa rota. Por exemplo, para excluir números que começam com + 425237 da rota, insira um valor de **+ 425237** no campo **exceções** e clique em **OK**.
     
-      - Para definir manualmente um padrão de correspondência, clique em **Editar** na ferramenta **Compilar um padrão para correspondências** e digite uma expressão .NET Framework regular para especificar o padrão de correspondência para números de telefone de destino aos quais a rota é aplicada. Para obter informações sobre como escrever expressões regulares, consulte "expressões regulares do .NET Framework" [http://go.microsoft.com/fwlink/p/?linkId=140927](http://go.microsoft.com/fwlink/p/?linkid=140927)em.
+      - Para definir manualmente o padrão de correspondência, clique em **Editar** na ferramenta **Compilar um padrão para correspondências** e digite uma expressão .NET Framework regular para especificar o padrão de correspondência para números de telefone de destino aos quais a rota é aplicada. Para obter informações sobre como escrever expressões regulares, consulte "expressões regulares do .NET Framework" [http://go.microsoft.com/fwlink/p/?linkId=140927](http://go.microsoft.com/fwlink/p/?linkid=140927)em.
 
-8.  Selecione **Suprimir ID de chamadas** se não deseja que a ID do telefone que faz a chamada de saída apareça para o destinatário da chamada. Se você selecionar essa opção, é necessário especificar uma **ID de chamada alternativa** que aparecerá na tela do ID de chamada do destinatário.
+8.  Selecione **suprimir ID de chamadas** se você não quiser que a ID do telefone que está fazendo a chamada de saída apareça para o destinatário da chamada. Se você selecionar essa opção, especifique um **ID de chamadas alternativo** que aparecerá no display de ID da chamada do destinatário.
 
-9.  Para associar um ou mais troncos PSTN À rota de voz, clique em **Adicionar** e selecione um tronco da lista.
+9.  Para associar um ou mais troncos PSTN (rede telefônica pública comutada) à rota de voz, clique em **Adicionar**e selecione um tronco na lista.
     
     <div>
     
 
     > [!NOTE]  
-    > Se sua implantação inclui qualquer servidor de mediação do Microsoft Office Communications Server 2007 R2, ele também estará disponível na lista.
+    > Se sua implantação incluir quaisquer servidores de mediação do Microsoft Office Communications Server 2007 R2, eles também estarão disponíveis na lista.
 
     
     </div>
 
-10. Para associar um ou mais usos de PSTN à rota de voz, clique em **selecionar** e escolha um registro na lista de registros de uso PSTN definidos para a implantação do Enterprise Voice.
+10. Para associar um ou mais usos de PSTN à rota de voz, clique em **selecionar** e escolha um registro na lista de registros de uso de PSTN que foram definidos para sua implantação do Enterprise Voice.
     
     <div>
     
 
     > [!NOTE]  
-    > Para exibir as propriedades de cada um dos registros de uso PSTN disponíveis, consulte <A href="lync-server-2013-view-pstn-usage-records.md">exibir registros de uso PSTN no Lync Server 2013</A>.<BR>Para criar ou editar registros de uso PSTN, consulte <A href="lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md">criar uma política de voz e configurar registros de uso PSTN no Lync server 2013</A> ou <A href="lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md">modificar uma política de voz e configurar registros de uso de PSTN no Lync Server 2013</A>.
+    > Para exibir as propriedades de cada um dos registros de uso de PSTN disponíveis, consulte <A href="lync-server-2013-view-pstn-usage-records.md">View PSTN Usage Records in Lync Server 2013</A>.<BR>Para criar ou editar registros de uso de PSTN, consulte <A href="lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md">criar uma política de voz e configurar registros de uso de PSTN no Lync server 2013</A> ou <A href="lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md">modificar uma política de voz e configurar registros de uso de PSTN no Lync Server 2013</A>.
 
     
     </div>
@@ -99,7 +99,7 @@ Este tópico explica como editar uma rota de voz. Para criar uma nova rota, cons
     
 
     > [!NOTE]  
-    > Contrastando com a política de voz, em que a ordem em que os registros de uso do PSTN são listados é importante, a ordem dos registros de uso do PSTN em uma rota de voz é insignificante. No entanto, é recomendável organizar a lista por frequência de uso, por exemplo: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup. (O Lync Server percorre a lista de cima para baixo.)
+    > Ao contrário de uma política de voz onde a ordem na qual os registros de uso PSTN são listados é importante, a ordem dos registros de uso de PSTN em uma rota de voz é insignificante. No entanto, recomendamos que você organize a lista por frequência de uso, por exemplo: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup. (O Lync Server percorre a lista de cima para baixo.)
 
     
     </div>
@@ -110,7 +110,7 @@ Este tópico explica como editar uma rota de voz. Para criar uma nova rota, cons
     
 
     > [!NOTE]  
-    > Você pode salvar uma rota de voz que ainda não passou no teste e, em seguida, reconfigurá-la mais tarde. Para obter detalhes, consulte <A href="lync-server-2013-test-voice-routing.md">testar o roteamento de voz no Lync Server 2013</A>.
+    > É possível salvar uma rota de voz que não passou ainda no teste e reconfigurá-la mais tarde. Para obter detalhes, consulte <A href="lync-server-2013-test-voice-routing.md">testar o roteamento de voz no Lync Server 2013</A>.
 
     
     </div>
@@ -123,7 +123,7 @@ Este tópico explica como editar uma rota de voz. Para criar uma nova rota, cons
     
 
     > [!NOTE]  
-    > Toda vez que criar ou modificar uma rota de voz, você deve executar o comando <STRONG>Confirmar tudo</STRONG> para publicar a alteração na configuração. Para obter detalhes, consulte <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">publicar alterações pendentes na configuração de roteamento de voz no Lync Server 2013</A> na documentação de operações.
+    > Sempre que criar ou modificar uma rota de voz, você deve executar o comando <STRONG>confirmar tudo</STRONG> para publicar a alteração de configuração. Para obter detalhes, consulte <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publish Pending Changes to The Voice Routing Configuration in Lync Server 2013</A> na documentação operações.
 
     
     </div>
@@ -138,7 +138,7 @@ Este tópico explica como editar uma rota de voz. Para criar uma nova rota, cons
 [Criar uma rota de voz no Lync Server 2013](lync-server-2013-create-a-voice-route.md)  
 [Exibir registros de uso de PSTN no Lync Server 2013](lync-server-2013-view-pstn-usage-records.md)  
 [Criar uma política de voz e configurar registros de uso de PSTN no Lync Server 2013](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)  
-[Modificar uma política de voz e configurar registros de uso PSTN no Lync Server 2013](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)  
+[Modificar uma política de voz e configurar registros de uso de PSTN no Lync Server 2013](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)  
 [Publicar alterações pendentes na configuração de roteamento de voz no Lync Server 2013](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)  
 
 

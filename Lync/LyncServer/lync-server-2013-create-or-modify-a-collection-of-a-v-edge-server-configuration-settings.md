@@ -1,5 +1,5 @@
 ---
-title: Criar ou modificar um conjunto de configurações de servidor de borda A/V
+title: Criar ou modificar uma coleção de definições de configuração do servidor de borda A/V
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733630
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c4b45b34b5c52d0eb138fbc16c37e5aaee7262b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 576fcb445eb37b92356ad9fdf36de716581ca6fa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763363"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035637"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-collection-of-av-edge-server-configuration-settings-in-lync-server-2013"></a>Criar ou modificar um conjunto de configurações de servidor de borda A/V no Lync Server 2013
+# <a name="create-or-modify-a-collection-of-av-edge-server-configuration-settings-in-lync-server-2013"></a>Criar ou modificar uma coleção de definições de configuração de servidor de borda A/V no Lync Server 2013
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41763363"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
-O serviço de borda A/V fornece uma maneira para seus usuários internos (usuários que estão conectados à sua rede organizacional) para compartilhar áudio e vídeo com usuários externos (usuários que não estão conectados à sua rede organizacional). O serviço de borda A/V é gerenciado principalmente pelo uso de configurações de borda A/V, a configuração que pode ser configurada no escopo do site ou no escopo do serviço (ou seja, pode ser configurada para um servidor de borda A/V individual).
+O serviço de Borda A/V fornece uma forma para seus usuários internos (usuários que não estão logados na sua rede organizacional) a compartilhar áudio e vídeo com usuários externos (usuários que não estão logados na sua rede organizacional). O serviço de Borda A/V é primariamente gerenciado utilizando definições de configuração de Borda A/V, configuração que pode ser definida no escopo do local ou no escopo do serviço (isto é, pode ser configurado para um serviço de Borda A/V individual.
 
-Quando você instala o Lync Server, uma coleção global de definições de configuração de borda A/V é criada para você. Além disso, você pode usar o Windows PowerShell e o cmdlet New-CsAVEdgeConfiguration para criar novas configurações no escopo do site ou no escopo do serviço (ou seja, para um servidor de borda A/V individual). Se você criar novas configurações, lembre-se de que:
+Quando você instala o Lync Server, uma coleção global de definições de configuração de borda A/V é criada para você. Além disso, você pode usar o Windows PowerShell e o cmdlet New-CsAVEdgeConfiguration para criar novas configurações no escopo do site ou no escopo do serviço (ou seja, para um servidor de borda A/V individual). Se você criar novas configurações, tenha em mente que:
 
-  - As configurações definidas no escopo do serviço (ou seja, em um servidor individual) têm prioridade sobre tudo.
+  - As definições configuradas no escopo de serviço (isto é, em um servidor individual ) têm prioridade sobre tudo.
 
-  - As configurações definidas no escopo do site têm prioridade sobre as configurações definidas no escopo global. No entanto, as configurações de escopo do serviço também substituirão as configurações de escopo do site.
+  - As definições configuradas no escopo do site têm prioridade sobre as definições configuradas no escopo global. No entanto, as definições de escopo de serviço também substituem as configurações de escopo do site.
 
-  - As configurações no escopo global serão usadas apenas se não houver configurações de serviço configuradas no servidor individual e se não houver configurações de site para o site em que o servidor está localizado.
+  - As configurações no escopo global serão usadas somente se não há definições de serviço configuradas no servidor individual e se não há configurações de site para o site onde o servidor está localizado.
 
-Qualquer uma de suas configurações pode ser modificada usando o cmdlet Set-CsAVEdgeConfiguration. Para obter mais informações, consulte os tópicos da ajuda para os cmdlets [New-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg412884(v=OCS.15)) e [set-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg412869(v=OCS.15)) .
+Qualquer configuração pode ser modificada utilizando o cmdlet Set-CsAVEdgeConfiguration. Para obter mais informações, consulte os tópicos de ajuda para os cmdlets [New-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412884(v=OCS.15)) e [set-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412869(v=OCS.15)) .
 
 <div>
 
-## <a name="to-create-new-av-edge-configuration-settings-at-the-site-scope"></a>Para criar novas configurações de borda a/V no escopo do site
+## <a name="to-create-new-av-edge-configuration-settings-at-the-site-scope"></a>Para criar novas definições de configuração de borda a/V no escopo do site
 
-  - O comando a seguir cria uma nova coleção de configurações de borda a/V para o site Redmond:
+  - O comando a seguir criar uma nova coleção de definições de configuração de Borda A/V para o site Redmond:
     
         New-CsAVEdgeConfiguration -Identity "site:Redmond"
 
@@ -61,9 +61,9 @@ Qualquer uma de suas configurações pode ser modificada usando o cmdlet Set-CsA
 
 <div>
 
-## <a name="to-create-custom-av-edge-configuration-settings-at-the-site-scope"></a>Para criar configurações personalizadas de borda A/V no escopo do site
+## <a name="to-create-custom-av-edge-configuration-settings-at-the-site-scope"></a>Para criar definições de configuração de borda A/V personalizadas no escopo do site
 
-  - Como nenhum parâmetro adicional foi incluído, essas novas configurações usarão os valores padrão para o serviço de borda A/V. Você também pode adicionar parâmetros e valores de parâmetro adicionais para criar uma coleção personalizada. Por exemplo, esse comando define a propriedade MaxTokenLifetime como 4 horas (04 horas: 00 minutos: 00 segundos):
+  - Por não haver parâmetros adicionais incluídos, essas novas configurações utilizarão os valores padrão para o serviço de Borda A/V. De forma alternativa, você pode adicionar parâmetros e valores de parâmetros para criar uma coleção personalizada. Por exemplo, este comando define a propriedade MaxTokenLifetime para 4 horas (04 horas : 00 minutos : 00 segundos):
     
         New-CsAVEdgeConfiguration -Identity "site:Redmond" -MaxTokenLifetime "04:00:00"
 
@@ -71,9 +71,9 @@ Qualquer uma de suas configurações pode ser modificada usando o cmdlet Set-CsA
 
 <div>
 
-## <a name="to-create-custom-av-edge-configuration-settings-at-the-service-scope"></a>Para criar configurações personalizadas de borda a/V no escopo do serviço
+## <a name="to-create-custom-av-edge-configuration-settings-at-the-service-scope"></a>Para criar definições de configuração de borda A/V personalizada no escopo do serviço
 
-  - Esse comando cria uma coleção semelhante aplicada à atl-edge-001.litwareinc.com do servidor de borda a/V:
+  - Este comando cria um conjunto similar aplicado ao servidor de Borda A/V atl-edge-001.litwareinc.com:
     
         New-CsAVEdgeConfiguration -Identity "service:EdgeServer:atl-edge-001.litwareinc.com" -MaxTokenLifetime "04:00:00"
 
@@ -83,7 +83,7 @@ Qualquer uma de suas configurações pode ser modificada usando o cmdlet Set-CsA
 
 ## <a name="to-modify-existing-av-edge-configuration-settings"></a>Para modificar as definições de configuração de borda A/V existentes
 
-  - Neste exemplo, o cmdlet Set-CsAVEdgeConfiguration é usado para alterar o tempo de vida máximo do token para o site Redmond para 12 horas:
+  - Neste exemplo, o cmdlet Set-CsAVEdgeConfiguration é utilizado para alterar o tempo de vida máximo do token para o site Redmond para 12 horas:
     
         Set-CsAVEdgeConfiguration -Identity "site:Redmond" -MaxTokenLifetime "12:00:00"
 
@@ -95,12 +95,12 @@ Qualquer uma de suas configurações pode ser modificada usando o cmdlet Set-CsA
 
 
 [Retornar as informações de configuração do servidor de borda A/V no Lync Server 2013](lync-server-2013-return-a-v-edge-server-configuration-information.md)  
-[Excluir uma coleção existente de configurações de servidor de borda A/V no Lync Server 2013](lync-server-2013-delete-an-existing-collection-of-a-v-edge-server-configuration-settings.md)  
+[Excluir um conjunto existente de definições de configuração de servidor de borda A/V no Lync Server 2013](lync-server-2013-delete-an-existing-collection-of-a-v-edge-server-configuration-settings.md)  
 
 
 [Servidores de borda de áudio/vídeo (A/V) no Lync Server 2013](lync-server-2013-audio-video-a-v-edge-servers.md)  
-[New-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg412884(v=OCS.15))  
-[Set-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg412869(v=OCS.15))  
+[New-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412884(v=OCS.15))  
+[Set-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412869(v=OCS.15))  
   
 
 </div>

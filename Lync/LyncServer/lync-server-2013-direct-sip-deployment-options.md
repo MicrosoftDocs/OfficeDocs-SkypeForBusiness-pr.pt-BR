@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Opções de implantação de SIP Direto'
+title: 'Lync Server 2013: opções de implantação de SIP direto'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e88dd5a576e467fbca25e9f467bd168fd6401d17
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b4bbacbbb6f1a420e989f4bed02ba2fc0db6f85f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762219"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036621"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="direct-sip-deployment-options-in-lync-server-2013"></a>Opções de implantação de SIP Direto no Lync Server 2013
+# <a name="direct-sip-deployment-options-in-lync-server-2013"></a>Opções de implantação de SIP direto no Lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41762219"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-21_
+_**Última modificação do tópico:** 2012-09-21_
 
 Este tópico fornece exemplos de topologias para a implantação de conexões SIP diretas.
 
@@ -47,19 +47,19 @@ Este tópico fornece exemplos de topologias para a implantação de conexões SI
 
 ## <a name="lync-server-stand-alone"></a>Lync Server autônomo
 
-Se a sua organização usa uma das implantações descritas nesta seção, você pode usar o Lync Server 2013 como a única solução de telefonia para parte ou toda uma organização. Esta seção descreve as seguintes implantações em detalhes:
+Se sua organização usa uma das implantações descritas nesta seção, você pode usar o Lync Server 2013 como a única solução de telefonia de parte ou de uma organização. Esta seção descreve as seguintes implantações em detalhes:
 
-  - **Implantação incremental:** Essa opção pressupõe que você tenha uma infraestrutura existente de PBX (Exchange Branch Exchange) e pretende introduzir o Enterprise Voice de forma incremental para grupos ou equipes menores em sua organização.
+  - **Implantação incremental:** Essa opção pressupõe que você tenha uma infraestrutura existente de PBX (central privada de comutação de negócios) e você pretende introduzir o Enterprise Voice de forma incremental para grupos menores ou equipes dentro da sua organização.
 
-  - **Implantação somente VoIP do Lync Server:** essa opção pressupõe que você está considerando a implantação do Enterprise Voice em um site que não tem uma infraestrutura de telefonia tradicional.
+  - **Implantação somente VoIP do Lync Server:** essa opção pressupõe que você está pensando em implantar o Enterprise Voice em um site que não tem uma infraestrutura de telefonia tradicional.
 
 <div>
 
 ## <a name="incremental-deployment"></a>Implantação incremental
 
-Em implantação incremental, o Lync Server 2013 é a única solução de telefonia para equipes individuais ou departamentos, enquanto o restante dos usuários em uma organização continua a usar um PBX. Esta estratégia de implantação incremental oferece uma maneira de introduzir a telefonia IP na sua empresa por meio de programas pilotos controlados. Os grupos de usuários cujas necessidades de comunicação são mais bem servidos pela Microsoft Unified Communications são movidos para o Enterprise Voice, enquanto outros usuários permanecem no PBX existente. Os grupos de outros grupos podem ser migrados para o Enterprise Voice, conforme necessário.
+Na implantação incremental, o Lync Server 2013 é a única solução de telefonia para equipes ou departamentos individuais, enquanto o restante dos usuários em uma organização continuam a usar um PBX. Essa estratégia de implantação incremental oferece uma maneira de introduzir a telefonia IP em sua empresa por meio de programas piloto controlados. Os grupos de usuários cujas necessidades de comunicação são mais bem servidas pela comunicação unificada da Microsoft são movidos para o Enterprise Voice, enquanto outros usuários permanecem no PBX existente. Os grupos de gerenciamento adicionais podem ser migrados para o Enterprise Voice, conforme necessário.
 
-A opção incremental será recomendada se você tiver claramente definido os grupos de usuários que têm requisitos de comunicação em comum e que se desejam para gerenciamento centralizado. Essa opção também será eficiente se você tiver equipes ou departamentos que sejam espalhados por áreas geográficas grandes, em que a economia em tarifas de longa distância pode ser importante. Na verdade, essa opção é útil para criar equipes virtuais cujos membros podem ficar espalhados pelo mundo todo. Você pode criar, modificar ou desmanchar essas equipes em resposta rápida para atender às necessidades de negócios.
+A opção incremental é recomendada se você tiver definido claramente os grupos de usuários que têm requisitos de comunicação em comum e que se conservem para o gerenciamento centralizado. Essa opção também é eficaz se você tiver equipes ou departamentos que estão espalhados por áreas geográficas amplas, onde a economia nos encargos de longa distância pode ser significativa. Na verdade, essa opção é útil para criar equipes virtuais cujos membros podem ser espalhados pelo mundo. Você pode criar, modificar ou disband essas equipes em resposta rápida para mudar os requisitos de negócios.
 
 A figura a seguir mostra a topologia genérica para a implantação do Enterprise Voice atrás de um PBX. Esta é a topologia recomendada para implantação incremental.
 
@@ -71,7 +71,7 @@ A figura a seguir mostra a topologia genérica para a implantação do Enterpris
 
 
 > [!NOTE]  
-> Se você estiver conectando a implantação do Lync Server a um parceiro SIP certificado, um gateway PSTN (rede telefônica pública comutada) entre o servidor de mediação e o PBX não será necessário. Para obter uma lista de parceiros SIP diretos certificados, consulte o site do programa de interoperabilidade <A href="http://go.microsoft.com/fwlink/p/?linkid=203309">http://go.microsoft.com/fwlink/p/?linkId=203309</A>da Microsoft Unified Communication em.
+> Se você estiver conectando sua implantação do Lync Server a um parceiro SIP direto certificado, um gateway PSTN (rede telefônica pública comutada) entre o servidor de mediação e o PBX não é necessário. Para obter uma lista de parceiros de SIP diretos certificados, consulte o site do programa de interoperabilidade aberta do Microsoft Unified Communications em <A href="http://go.microsoft.com/fwlink/p/?linkid=203309">http://go.microsoft.com/fwlink/p/?linkId=203309</A>.
 
 
 
@@ -81,21 +81,21 @@ A figura a seguir mostra a topologia genérica para a implantação do Enterpris
 
 
 > [!NOTE]  
-> O caminho de mídia mostrado nesta figura tem o bypass de mídia habilitado (a configuração recomendada). Se você optar por desabilitar o bypass de mídia, o caminho de mídia será roteado pelo servidor de mediação.
+> O caminho de mídia mostrado nesta figura tem o bypass de mídia habilitado (a configuração recomendada). Se você optar por desabilitar o bypass de mídia, o caminho de mídia será roteado através do servidor de mediação.
 
 
 
 </div>
 
-Nessa topologia, os departamentos ou grupos de domínio selecionados são habilitados para o Enterprise Voice. Um gateway PSTN conecta o grupo de trabalho habilitado para o protocolo de voz com o protocolo de Internet (VoIP) ao PBX. Os usuários que estão habilitados para o Enterprise Voice, incluindo trabalhadores remotos, se comunicam pela rede IP. Chamadas por usuários do Enterprise Voice para a PSTN e para colegas de trabalho que não estão habilitados para Enterprise Voice são roteadas para o gateway PSTN apropriado. As chamadas de colegas que ainda estão no sistema PBX ou de chamadores no PSTN são roteadas para o gateway PSTN, que encaminha as chamadas para o Lync Server para roteamento.
+Nesta topologia, os departamentos selecionados ou os grupos de gerenciamento estão habilitados para o Enterprise Voice. Um gateway PSTN vincula o grupo de trabalho habilitado para VoIP (Voice over Internet Protocol) ao PBX. Usuários habilitados para o Enterprise Voice, incluindo funcionários remotos, se comunicam através da rede IP. As chamadas de usuários do Enterprise Voice para o PSTN e para os colegas de trabalho que não estão habilitados para Enterprise Voice são roteadas para o gateway PSTN apropriado. As chamadas de colegas que ainda estão no sistema PBX ou de chamadores no PSTN são roteadas para o gateway PSTN, que encaminha as chamadas para o Lync Server para roteamento.
 
-Há duas configurações recomendadas para conectar a Enterprise Voice a uma infraestrutura PBX existente para interoperabilidade: Enterprise Voice atrás do PBX e do Enterprise Voice na frente do PBX.
+Há duas configurações recomendadas para conectar o Enterprise Voice a uma infraestrutura de PBX existente para interoperabilidade: Enterprise Voice atrás do PBX e Enterprise Voice na frente do PBX.
 
 <div>
 
 ## <a name="enterprise-voice-behind-the-pbx"></a>Enterprise Voice atrás do PBX
 
-Quando o Enterprise Voice é implantado por trás do PBX, todas as chamadas da PSTN chegam no PBX, que roteia chamadas para usuários do Enterprise Voice para um gateway PSTN e chamadas para usuários do PBX para o PBX.
+Quando o Enterprise Voice é implantado por trás do PBX, todas as chamadas de PSTN chegam no PBX, que roteia chamadas para usuários do Enterprise Voice para um gateway PSTN e chamadas para usuários PBX para o PBX.
 
 </div>
 
@@ -103,7 +103,7 @@ Quando o Enterprise Voice é implantado por trás do PBX, todas as chamadas da P
 
 ## <a name="enterprise-voice-in-front-of-the-pbx"></a>Enterprise Voice na frente do PBX
 
-Quando o Enterprise Voice é implantado na frente do PBX, todas as chamadas chegam no gateway PSTN, que roteia chamadas para usuários do Enterprise Voice para o Lync Server e chamadas para usuários do PBX para o PBX. Chamadas para a PSTN dos usuários da Enterprise Voice e PBX são roteadas pela rede IP para o gateway PSTN mais econômico. A tabela a seguir mostra as vantagens e desvantagens desta configuração.
+Quando o Enterprise Voice é implantado na frente do PBX, todas as chamadas chegam no gateway PSTN, que roteia chamadas para usuários do Enterprise Voice para o Lync Server e chamadas para usuários PBX para o PBX. As chamadas para a PSTN de usuários do Enterprise Voice e PBX são roteadas pela rede IP para o gateway PSTN mais econômico. A tabela a seguir mostra as vantagens e desvantagens dessa configuração.
 
 ### <a name="advantages-and-disadvantages-of-deploying-enterprise-voice-in-front-of-pbx"></a>Vantagens e desvantagens da implantação do Enterprise Voice na frente do PBX
 
@@ -124,7 +124,7 @@ Quando o Enterprise Voice é implantado na frente do PBX, todas as chamadas cheg
 <td><p>Os gateways existentes podem não oferecer suporte aos recursos ou à capacidade desejados.</p></td>
 </tr>
 <tr class="even">
-<td><p>O PBX manipula todos os dispositivos anteriores.</p></td>
+<td><p>O PBX trata de todos os dispositivos anteriores.</p></td>
 <td><p>Requer um tronco do gateway para o PBX e do gateway para o servidor de mediação. Você pode precisar de mais troncos do provedor de serviços.</p></td>
 </tr>
 <tr class="odd">
@@ -143,31 +143,31 @@ Quando o Enterprise Voice é implantado na frente do PBX, todas as chamadas cheg
 
 ## <a name="lync-server-voip-only-deployment"></a>Implantação somente VoIP do Lync Server
 
-O Enterprise Voice oferece novas empresas, e também novos sites do Office para empresas existentes, com a oportunidade de implementar uma solução VoIP completa sem precisar se preocupar com a integração com o PBX ou incorrer à implantação e à manutenção substanciais custos de uma infraestrutura de PBX IP. Esta solução aceita funcionários locais e remotos.
+O Enterprise Voice oferece novos negócios e novos sites do Office para empresas existentes, com a oportunidade de implementar uma solução VoIP completa sem ter que se preocupar com a integração de PBX ou incorrer à implantação e à manutenção substanciais custos de uma infraestrutura IP-PBX. Esta solução oferece suporte a funcionários remotos e no local.
 
-Nesta implantação, todas as chamadas são roteadas pela rede IP. As chamadas para a PSTN são roteadas para o gateway PSTN apropriado. O Lync 2013 ou o Lync Phone Edition funciona como um softphone. O controle de chamada remota não está disponível e é desnecessário porque não há telefones PBX para os usuários controlarem. Os serviços de correio de voz e atendedor automático estão disponíveis por meio da implantação opcional da Unificação de mensagens (UM) do Exchange.
+Nesta implantação, todas as chamadas são roteadas pela rede IP. As chamadas para a PSTN são roteadas para o gateway PSTN apropriado. O Lync 2013 ou o Lync Phone Edition serve como softphone. O controle de chamada remota não está disponível e é desnecessário porque não há telefones PBX para que os usuários controlem. Os serviços de caixa postal e atendedor automático estão disponíveis por meio da implantação opcional da Unificação de mensagens (UM) do Exchange.
 
 <div>
 
 
 > [!NOTE]  
-> Além da infraestrutura de rede necessária para dar suporte ao Lync Server 2013, uma implantação somente VoIP pode usar um gateway pequeno e qualificado para dar suporte a máquinas de fax e dispositivos analógicos.
+> Além da infraestrutura de rede necessária para oferecer suporte ao Lync Server 2013, uma implantação somente VoIP pode usar um gateway pequeno e qualificado para suportar máquinas de fax e dispositivos analógicos.
 
 
 
 </div>
 
-A figura a seguir mostra uma topologia típica para uma implantação somente de VoIP.
+A figura a seguir mostra uma topologia típica para uma implantação somente VoIP.
 
 **Opção de implantação somente VoIP**
 
-![Opção de implantação do Greenfidle](images/Gg398672.820dc5fe-0e20-431b-ae4e-fefdf2221d3b(OCS.15).jpg "Opção de implantação do Greenfidle")
+![Opção de implantação Greenfidle](images/Gg398672.820dc5fe-0e20-431b-ae4e-fefdf2221d3b(OCS.15).jpg "Opção de implantação Greenfidle")
 
 <div>
 
 
 > [!NOTE]  
-> O caminho de mídia mostrado nesta figura tem o bypass de mídia habilitado (a configuração recomendada). Se você optar por desabilitar o bypass de mídia, o caminho de mídia será roteado pelo servidor de mediação.
+> O caminho de mídia mostrado nesta figura tem o bypass de mídia habilitado (a configuração recomendada). Se você optar por desabilitar o bypass de mídia, o caminho de mídia será roteado através do servidor de mediação.
 
 
 

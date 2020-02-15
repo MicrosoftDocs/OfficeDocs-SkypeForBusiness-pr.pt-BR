@@ -12,16 +12,16 @@ ms:contentKeyID: 48184023
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 593dfc97f73398dee5f627da1f534d324242845b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 58853e62b7958d564f01b4616d5439d18217b07f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757715"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034431"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41757715"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-29_
+_**Última modificação do tópico:** 2012-09-29_
 
-Esta seção aborda os tópicos de planejamento para migrar do Office Communications Server 2007 R2 para o Lync Server 2013.
+Esta seção abrange os tópicos de planejamento para migrar do Office Communications Server 2007 R2 para o Lync Server 2013.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Migração de usuários](user-migration_1.md)
+  - [Migração de usuário](user-migration_1.md)
 
-  - [Migrar servidores de Arquivamento e de Monitoramento](migrating-archiving-and-monitoring-servers_1.md)
+  - [Migrando servidores de arquivamento e monitoramento](migrating-archiving-and-monitoring-servers_1.md)
 
-  - [Administrar servidores após migração](administering-servers-after-migration_1.md)
+  - [Administrando servidores após a migração](administering-servers-after-migration_1.md)
 
-  - [Migrar vários sites e pools](migrating-multiple-sites-and-pools_1.md)
+  - [Migrando vários sites e pools](migrating-multiple-sites-and-pools_1.md)
 
-  - [Migrar a federação XMPP](migrating-xmpp-federation_1.md)
+  - [Migrando a Federação XMPP](migrating-xmpp-federation_1.md)
 
 </div>
 

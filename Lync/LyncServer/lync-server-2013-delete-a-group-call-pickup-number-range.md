@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: excluir um intervalo do número de retirada de chamadas em grupo'
+title: 'Lync Server 2013: excluir um grupo intervalo de números de recebimento de chamadas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541475
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 66b95df76c812b50ff9c220ea208406a5ab7cf2a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 179bde8b8e23cc21fb95fa93e3c6cbeb7f381630
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741021"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006327"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-a-group-call-pickup-number-range-in-lync-server-2013"></a>Excluir um intervalo de números de retirada de chamadas em grupo no Lync Server 2013
+# <a name="delete-a-group-call-pickup-number-range-in-lync-server-2013"></a>Excluir um intervalo de números de recebimento de chamadas em grupo no Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41741021"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-01-30_
+_**Última modificação do tópico:** 2013-01-30_
 
-Use o procedimento a seguir para excluir um intervalo de números de tira de chamada em grupo.
+Use o procedimento a seguir para excluir um intervalo de números de recebimento de chamadas em grupo.
 
 <div>
 
-## <a name="to-delete-a-call-pickup-group-number-range"></a>Para excluir um intervalo de números de grupo de recebimento de chamadas
+## <a name="to-delete-a-call-pickup-group-number-range"></a>Para excluir um intervalo de números do grupo de recebimento de chamadas
 
-1.  Faça logon no computador em que o Shell de gerenciamento do Lync Server está instalado como membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários, conforme descrito em [permissões de configuração de representante no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Faça logon no computador onde o Shell de gerenciamento do Lync Server está instalado como um membro do grupo RTCUniversalServerAdmins ou com os direitos de usuário necessários, conforme descrito em [delegar permissões de configuração no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+2.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 3.  Na linha de comando, digite:
     
@@ -71,7 +71,7 @@ Use o procedimento a seguir para excluir um intervalo de números de tira de cha
 ## <a name="see-also"></a>Confira também
 
 
-[Criar ou modificar uma faixa de opções do parque de chamadas no Lync Server 2013](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)  
+[Criar ou modificar um intervalo de órbita de estacionamento de chamada no Lync Server 2013](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)  
 
 
 [Remove-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Remove-CsCallParkOrbit)  

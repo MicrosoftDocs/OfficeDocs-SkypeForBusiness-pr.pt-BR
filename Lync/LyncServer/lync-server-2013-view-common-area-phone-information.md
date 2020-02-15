@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: exibir informações de telefone da área comum'
+title: 'Lync Server 2013: exibir informações de telefone de área comum'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51803992
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38614b2993ddd9ad3fe3a662a334440a1d1287b7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7e045cb13d0e0d0c085d9d45e23b1510d61c93a3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757455"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007160"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757455"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-20_
+_**Última modificação do tópico:** 2013-02-20_
 
-Você pode exibir informações sobre os telefones celulares comuns configurados para usar em sua organização usando o cmdlet **Get-CsCommonAreaPhone** . Usado sem parâmetros, esse cmdlet retorna informações sobre todos os seus telefones comuns de área. Os parâmetros opcionais fornecem maneiras diferentes para filtrar informações. Por exemplo, você pode retornar todos os telefones compatíveis com objetos de contato em uma UO (unidade organizacional) especificada ou em todos os objetos de contatos localizados em um edifício especificado. Para obter detalhes sobre os parâmetros **Get-CsCommonAreaPhone** , consulte [Get-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone).
+Você pode exibir informações sobre os telefones de área comum configurados para uso em sua organização usando o cmdlet **Get-CsCommonAreaPhone** . Usado sem qualquer parâmetro, este cmdlet retorna informações sobre todos os telefones de área comum. Parâmetros opcionais fornecem maneiras diferentes de filtrar informações. Por exemplo, você pode retornar todos os telefones de área comum que possuem objetos de contato em uma UO (unidade organizacional) especificada ou todos os objetos de contatos localizados em um edifício especificado. Para obter detalhes sobre os parâmetros **Get-CsCommonAreaPhone** , consulte [Get-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone).
 
 Execute **Get-CsCommonAreaPhone** do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell.
 
@@ -46,13 +46,13 @@ Execute **Get-CsCommonAreaPhone** do Shell de gerenciamento do Lync Server 2013 
 
 <div>
 
-## <a name="viewing-information-about-all-your-common-area-phones"></a>Exibir informações sobre todos os seus telefones comuns de área
+## <a name="viewing-information-about-all-your-common-area-phones"></a>Exibindo informações sobre todos os telefones de área comum
 
-  - Para ver as informações sobre todos os seus telefones de área comuns, digite o seguinte comando no Shell de gerenciamento do Lync Server e pressione ENTER:
+  - Para exibir informações sobre todos os telefones de área comum, digite o seguinte comando no Shell de gerenciamento do Lync Server e pressione ENTER:
     
         Get-CsCommonAreaPhone
     
-    Você obterá informações semelhantes a esta:
+    Você receberá informações semelhantes a estas:
     
         Identity           : CN=Building 14 Lobby,OU=Redmond,
                              DC=litwareinc,DC=com
@@ -74,7 +74,7 @@ Execute **Get-CsCommonAreaPhone** do Shell de gerenciamento do Lync Server 2013 
 
 </div>
 
-Para obter detalhes, consulte o tópico da ajuda para o cmdlet [Get-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone) .
+Para obter detalhes, consulte o tópico de ajuda para o cmdlet [Get-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Get-CsCommonAreaPhone) .
 
 </div>
 

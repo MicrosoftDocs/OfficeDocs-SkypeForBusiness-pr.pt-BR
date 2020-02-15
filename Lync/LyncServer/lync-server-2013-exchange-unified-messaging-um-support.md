@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Suporte da Unificação de Mensagens (UM) do Exchange'
+title: 'Lync Server 2013: suporte à unificação de mensagens (UM) do Exchange'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183405
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8925bd8a07693800c49ff2d818d3677b33452b97
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0e906b6194572d0ed7f797a2be64c7b66982436b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756235"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035073"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="exchange-unified-messaging-um-support-in-lync-server-2013"></a>Suporte da Unificação de Mensagens (UM) do Exchange no Lync Server 2013
+# <a name="exchange-unified-messaging-um-support-in-lync-server-2013"></a>Suporte à unificação de mensagens (UM) do Exchange no Lync Server 2013
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41756235"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-21_
+_**Última modificação do tópico:** 2012-09-21_
 
-O Lync Server 2013 oferece suporte à integração com o Exchange Unified Messaging (UM) para combinar mensagens de voz e mensagens de email em uma única infra-estrutura de mensagens. No Exchange 2013, o UM do Exchange consiste no serviço UM do Exchange, que é instalado e executado no servidor de caixa de correio, e o roteador de chamada de UM, que é instalado e executado no servidor de acesso para cliente. Para implantações do Lync Server 2013 Enterprise Voice, o Exchange UM combina mensagens de voz e mensagens de email em uma única loja que pode ser acessada por meio de um telefone (ou seja, o Outlook Voice Access) ou um computador. O Exchange UM e o Lync Server 2013 trabalham juntos para fornecer atendimento de chamada, Outlook Voice Access e serviços de atendedor automático para usuários do Enterprise Voice.
+O Lync Server 2013 oferece suporte à integração com a Unificação de mensagens (UM) do Exchange para combinar mensagens de voz e mensagens de email em uma única infraestrutura de mensagens. No Exchange 2013, o UM do Exchange consiste no serviço UM do Exchange, que é instalado e executado no servidor de caixa de correio, e o roteador de chamada de UM, que é instalado e executado no servidor de acesso para cliente. Para as implantações do Lync Server 2013 Enterprise Voice, o Exchange UM combina mensagens de voz e mensagens de email em um único repositório que pode ser acessado por um telefone (ou seja, Outlook Voice Access) ou um computador. O Exchange UM e o Lync Server 2013 trabalham juntos para fornecer atendimento de chamadas, Outlook Voice Access e serviços de atendedor automático para usuários do Enterprise Voice.
 
-Além do suporte para a integração com implantações locais do Exchange UM, o Lync Server 2013 é compatível com a integração com o Exchange UM hospedado. Isso permite que você forneça mensagens de voz para seus usuários se migrar alguns ou todos eles para um provedor de serviços do Exchange hospedado, como o Microsoft Exchange Online.
+Além do suporte para integração com implantações locais do UM do Exchange, o Lync Server 2013 oferece suporte à integração com a UM do Exchange hospedada. Isso permite que você forneça mensagens de voz aos seus usuários se migrar alguns ou todos eles para um provedor de serviço do Exchange hospedado, como o Microsoft Exchange Online.
 
-O Lync Server 2013 suporta as seguintes versões:
+O Lync Server 2013 oferece suporte às seguintes versões:
 
   - Microsoft Exchange 2013
 
-  - Microsoft Exchange Server 2010 (obrigatório) ou com Service Pack mais recente (recomendado)
+  - Microsoft Exchange Server 2010 (obrigatório) ou com o Service Pack mais recente (recomendado)
 
-  - Microsoft Exchange Server 2007 com Service Pack 1 (SP1) (necessário) ou Service Pack mais recente (recomendado)
+  - Microsoft Exchange Server 2007 com Service Pack 1 (SP1) (obrigatório) ou Service Pack mais recente (recomendado)
 
-Você não pode colocar o Exchange UM com o Lync Server 2013 ou um banco de dados do Lync Server 2013. Você pode instalar o Exchange UM e o Lync Server 2013 em florestas separadas.
+Você não pode colocar o UM do Exchange com o Lync Server 2013 ou um banco de dados do Lync Server 2013. Você pode instalar o UM do Exchange e o Lync Server 2013 em florestas separadas.
 
 <div>
 
 
 > [!NOTE]  
-> O Exchange UM pode não ser necessário para implantações do Enterprise Voice que tenham um PBX implantado, porque o PBX pode continuar a fornecer correio de voz e serviços relacionados a todos os usuários. Se, eventualmente, desative o PBX (por exemplo, se você implantar o entroncamento SIP para conectividade PSTN (rede telefônica pública comutada)), será necessário reconfigurar o Exchange UM para fornecer correio de voz para os usuários que usaram anteriormente o sistema de caixa postal do PBX.
+> O Exchange UM pode não ser necessário para implantações do Enterprise Voice que tenham um PBX implantado, pois o PBX pode continuar a fornecer caixa postal e serviços relacionados a todos os usuários. Se você eventualmente desativar o PBX (por exemplo, se você implantar o tronco SIP para conectividade PSTN (rede telefônica pública comutada), deverá reconfigurar o UM do Exchange para fornecer caixa postal aos usuários que usavam o sistema de caixa postal do PBX.
 
 
 
@@ -65,9 +65,9 @@ Você não pode colocar o Exchange UM com o Lync Server 2013 ou um banco de dado
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Componentes e topologias para o Sistema de Mensagens Instantâneas local no Lync Server 2013](lync-server-2013-components-and-topologies-for-on-premises-unified-messaging.md)
+  - [Componentes e topologias para Unificação de mensagens no local no Lync Server 2013](lync-server-2013-components-and-topologies-for-on-premises-unified-messaging.md)
 
-  - [Suporte à integração Exchange UM hospedado no Lync Server 2013](lync-server-2013-support-for-hosted-exchange-um-integration.md)
+  - [Suporte à integração de UM do Exchange hospedado no Lync Server 2013](lync-server-2013-support-for-hosted-exchange-um-integration.md)
 
 </div>
 

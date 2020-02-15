@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Gerenciar Estacionamento de Chamadas durante recuperação de desastre'
+title: 'Lync Server 2013: gerenciar estacionamento de chamadas durante recuperação de desastre'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733645
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f324064e2936bda7b5e015aa502aaca10407e591
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 727751762fc63d9e4f888b20dabd62fef0278ea6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733411"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007800"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manage-call-park-during-disaster-recovery-in-lync-server-2013"></a>Gerenciar Estacionamento de Chamadas durante recuperação de desastre no Lync Server 2013
+# <a name="manage-call-park-during-disaster-recovery-in-lync-server-2013"></a>Gerenciar estacionamento de chamadas durante recuperação de desastre no Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41733411"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-10_
+_**Última modificação do tópico:** 2012-09-10_
 
-O Lync Server 2013 é compatível com o estacionamento de chamadas no pool de backup durante a recuperação de desastres. Esta seção descreve os itens que devem ser considerados se você deseja dar suporte a estacionamento de chamada durante uma interrupção e o que acontece com chamadas estacionadas durante os estágios de uma interrupção.
+O Lync Server 2013 oferece suporte ao estacionamento de chamadas no pool de backup durante a recuperação de desastres. Esta seção descreve coisas a considerar se você deseja suportar o estacionamento de chamada durante uma interrupção e o que acontece com as chamadas estacionadas durante os estágios de uma interrupção.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Planejamento para recuperação de desastre de Estacionamento de Chamada no Lync Server 2013](lync-server-2013-planning-for-call-park-disaster-recovery.md)
+  - [Planejamento para recuperação de desastre de estacionamento de chamadas no Lync Server 2013](lync-server-2013-planning-for-call-park-disaster-recovery.md)
 
-  - [Experiência de Estacionamento de Chamadas no Lync Server 2013 durante falha de pool](lync-server-2013-call-park-experience-during-pool-failure.md)
+  - [Experiência de estacionamento de chamadas no Lync Server 2013 durante falha do pool](lync-server-2013-call-park-experience-during-pool-failure.md)
 
 </div>
 

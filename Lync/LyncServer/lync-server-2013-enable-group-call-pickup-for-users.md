@@ -12,20 +12,20 @@ ms:contentKeyID: 51541457
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1fc2f513960371d0115b63260d35180f319bd923
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a7e744f42368cd02b197533b84352f8f0477d848
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736261"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033760"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-group-call-pickup-for-users-in-lync-server-2013"></a>Habilitar a retirada de chamadas em grupo para usuários no Lync Server 2013
+# <a name="enable-group-call-pickup-for-users-in-lync-server-2013"></a>Habilitar o recebimento de chamadas em grupo para usuários no Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41736261"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-01-30_
+_**Última modificação do tópico:** 2013-01-30_
 
-Use a ferramenta kit de recursos do SEFAUtil para habilitar o recurso de recebimento de chamadas em grupo para usuários. Os usuários devem receber um número de grupo com o tipo GroupPickup na tabela órbita do estacionamento de chamada para que a retirada de chamadas em grupo seja habilitada. Você atribui um número de grupo de recebimento de chamada e habilita o recebimento de chamadas em grupo ao mesmo tempo usando o parâmetro/enablegrouppickup quando você executa o SEFAUtil. exe.
+Use a ferramenta SEFAUtil Resource Kit para habilitar o recebimento de chamadas em grupo para usuários. Os usuários devem ser atribuídos a um número de grupo com o tipo GroupPickup na tabela de órbita de estacionamento de chamada para que o recebimento de chamadas de grupo seja habilitado. Você atribui um número de grupo de recebimento de chamadas e habilita o recebimento de chamadas em grupo ao mesmo tempo usando o parâmetro/enablegrouppickup ao executar o SEFAUtil. exe.
 
 <div>
 
-## <a name="to-enable-group-call-pickup-for-a-user"></a>Para habilitar a retirada de chamadas em grupo para um usuário
+## <a name="to-enable-group-call-pickup-for-a-user"></a>Para habilitar o recebimento de chamadas em grupo para um usuário
 
-1.  Realize logon no computador em que você instalou a ferramenta SEFAUtil com direitos de administrador.
+1.  Faça logon no computador em que você instalou a ferramenta SEFAUtil com direitos de administrador.
 
 2.  Na linha de comando, execute:
     
@@ -57,11 +57,11 @@ Use a ferramenta kit de recursos do SEFAUtil para habilitar o recurso de recebim
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Consulte também
 
 
-[Atribuir números de recebimento de chamadas em grupo aos usuários no Lync Server 2013](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)  
-[Desabilitar a retirada de chamadas em grupo para usuários no Lync Server 2013](lync-server-2013-disable-group-call-pickup-for-users.md)  
+[Atribuir números de recebimento de chamadas de grupo aos usuários no Lync Server 2013](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)  
+[Desabilitar o recebimento de chamadas em grupo para usuários no Lync Server 2013](lync-server-2013-disable-group-call-pickup-for-users.md)  
   
 
 </div>

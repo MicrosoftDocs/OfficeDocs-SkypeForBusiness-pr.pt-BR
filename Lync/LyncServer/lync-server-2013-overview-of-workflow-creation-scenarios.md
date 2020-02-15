@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Visão geral dos cenários de criação do fluxo de trabalho'
+title: 'Lync Server 2013: visão geral dos cenários de criação de fluxo de trabalho'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183309
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08ecb210ea937184039587d289c5c9c57cb4fa4d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 27383db13176150078bf4855dee4df57cb1615af
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755405"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41989876"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-workflow-creation-scenarios-in-lync-server-2013"></a>Visão geral dos cenários de criação do fluxo de trabalho no Lync Server 2013
+# <a name="overview-of-workflow-creation-scenarios-in-lync-server-2013"></a>Visão geral dos cenários de criação de fluxo de trabalho no Lync Server 2013
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41755405"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-17_
+_**Última modificação do tópico:** 2012-10-17_
 
 Ao criar um fluxo de trabalho, há duas possibilidades de cenário:
 
-  - **O Administrador cria e configura o fluxo de trabalho** — O membro da função CsResponseGroupAdministrator (ou equivalente) cria e ativa o fluxo de trabalho e todos os elementos no fluxo de trabalho, tais como os grupos de agente, filas, férias e horário comercial, música de espera, etc.
+  - **O Administrasdor cria e configura o fluxo de trabalho** — O membro de função CsResponseGroupAdministrator (ou equivalente) cria e ativa o fluxo de trabalho e todos os elementos no fluxo de trabalho, tais como os grupos de agente, filas, férias e horário comercial, música de espera, etc.
 
-  - **O Administrador cria o fluxo de trabalho e o Gerente configura as opções** — O membro da função CsResponseGroupAdministrator (ou equivalente) define o o URI do SIP principal, Nome de exibição, atribui um membro ou membros da função CsResponseGroupManager e seleciona uma fila e ativa o fluxo de trabalho. O CsResponseGroupManager pode então fazer logon e editar a configuração do fluxo de trabalho criando grupos de agente e também atribui o grupo à fila, configurando o número de telefone, férias e horário comercial, música de espera, etc.
+  - **O Administrador cria o fluxo de trabalho e oGerente configura as opções** — O membro de função CsResponseGroupAdministrator (ou equivalente) define o SIP URI primário, Nome de exibição, designa um mebro ou membros da função CsResponseGroupManager e seleciona uma fila e ativa o fluxo de trabalho. O CsResponseGroupManager pode então fazer o log e editar a configuração do fluxo de trabalho criando grupos de agente e também designando o grupo à fila, configurando o número de telefone, férias e horário comercial, música de espera, etc.
     
     <div>
     

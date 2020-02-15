@@ -12,16 +12,16 @@ ms:contentKeyID: 48184772
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 264cd8f1495840eb6dd86879f279110cd4de4784
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8014f947a669b7b636061f17e40dee0fef287345
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743881"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007490"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,53 +35,53 @@ ms.locfileid: "41743881"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-22_
+_**Última modificação do tópico:** 2012-10-22_
 
-Muitos clientes adotam um programa de distribuição dentro de suas empresas, em que os usuários migram progressivamente do Microsoft Lync Server 2010 para o Lync Server 2013. Os administradores nessas empresas se preocupam em monitorar as duas versões do Lync Server para ajudar a garantir que todos os seus usuários finais tenham a melhor experiência de comunicação possível. Para esse cenário, o pacote de gerenciamento do Lync Server 2013 dá suporte a um caminho de migração lado a lado com o pacote de gerenciamento do Lync Server 2010.
+Muitos clientes adotam um programa de distribuição dentro de suas empresas nas quais os usuários são migrados progressivamente do Microsoft Lync Server 2010 para o Lync Server 2013. Os administradores dessas empresas se preocupam em monitorar as duas versões do Lync Server para ajudar a garantir que todos os usuários finais estejam obtendo a melhor experiência de comunicação possível. Para este cenário, o pacote de gerenciamento do Lync Server 2013 oferece suporte a um caminho de migração lado a lado com o pacote de gerenciamento do Lync Server 2010.
 
-No Lync Server 2010, os computadores do Lync Server foram descobertos por meio do documento de topologia armazenado com o repositório de gerenciamento central. Nesta configuração, um único computador pode reportar a existência de todos os outros computadores do Lync Server.
+No Lync Server 2010, os computadores do Lync Server foram detectados pelo documento de topologia armazenado com o repositório de gerenciamento central. Nessa configuração, um único computador reportaria a existência de todos os outros computadores do Lync Server.
 
-Os pacotes de gerenciamento do Lync Server 2013 agora usam a descoberta em nível de máquina em vez do mecanismo de descoberta central usado no Lync Server 2010. Isso significa que cada agente do System Center essencialmente descobre e relata sua existência ao System Center Operations Manager. O uso da descoberta no nível da máquina simplifica a administração da infraestrutura do sistema central e também permite diferentes versões dos pacotes de gerenciamento do Lync Server (por exemplo, pacotes de gerenciamento do Lync Server 2010 e pacotes de gerenciamento do Lync Server 2013) para coexistir mais facilmente.
+Os pacotes de gerenciamento do Lync Server 2013 agora usam a descoberta no nível de máquina em vez do mecanismo de descoberta central usado no Lync Server 2010. Isso significa que cada agente do System Center, descobre essencialmente a si mesmo e relata sua existência ao System Center Operations Manager. O uso da descoberta no nível da máquina simplifica a administração da infraestrutura do System Center e também permite diferentes versões dos pacotes de gerenciamento do Lync Server (por exemplo, pacotes de gerenciamento do Lync Server 2010 e pacotes de gerenciamento do Lync Server 2013) para coexistir com mais facilidade.
 
-Para dar suporte a essa migração, primeiro você precisará atualizar o monitoramento existente do Lync Server 2010 para evitar lacunas na cobertura. Para fazer isso, elege um computador existente do Lync Server 2010 para atender ao script de descoberta central do servidor do Lync 2010 antes de atualizar seu repositório de gerenciamento central para o Lync Server 2013. Este é um processo de quatro etapas:
+Para dar suporte a essa migração, primeiro você precisará atualizar seu monitoramento existente do Lync Server 2010 para evitar lacunas de cobertura. Para fazer isso, elege um computador existente do Lync Server 2010 para atender ao script de descoberta central do Lync Server 2010 antes de atualizar seu repositório de gerenciamento central para o Lync Server 2013. Este é um processo em quatro etapas:
 
 1.  Atualize os pacotes de gerenciamento do Lync Server 2010 para a atualização cumulativa 7.
 
-2.  Instrua um computador com o Lync Server 2010 para executar o script de descoberta central.
+2.  Instrua um computador do Lync Server 2010 para executar o script de descoberta central.
 
 3.  Substitua o candidato de descoberta central no pacote de gerenciamento do Microsoft Lync Server 2010.
 
-4.  Verifique se o novo candidato de descoberta central foi descoberto.
+4.  Verifique se o novo Candidato a Descoberta Central foi descoberto.
 
 <div>
 
-## <a name="instructing-a-lync-server-2010-computer-to-run-the-central-discovery-script"></a>Como instruir um computador com o Lync Server 2010 para executar o script de descoberta central
+## <a name="instructing-a-lync-server-2010-computer-to-run-the-central-discovery-script"></a>Instrua um computador com Lync Server 2010 para executar o script de Descoberta Central
 
-Para indicar um computador que não seja do repositório de gerenciamento central (por exemplo, um servidor front-end do Lync Server) para manipular a descoberta central, você precisará criar a seguinte chave do registro no servidor do repositório de gerenciamento não central:
+Para indicar um computador do repositório de gerenciamento não central (por exemplo, um servidor front-end do Lync Server) para lidar com a descoberta central, você precisará criar a seguinte chave do registro no servidor do repositório de gerenciamento não central:
 
-Software\\\\HKLM CentralDiscoveryCandidate\\integridade\\\\da comunicação em tempo real da Microsoft
+\\CentralDiscoveryCandidate de\\integridade\\\\de comunicação\\em tempo real da Microsoft
 
-Você pode criar essa chave do registro completando o seguinte procedimento:
+Você pode instalar criar essa chave de registro concluindo o seguinte procedimento:
 
-1.  Clique em **Iniciar** e em **executar**.
+1.  Clique em **Iniciar** e depois em **Executar**.
 
-2.  Na caixa de diálogo **executar** , digite **regedit** e pressione Enter.
+2.  Na caixa de diálogo **Executar**, digite **regedit** e pressione ENTER.
 
-3.  No editor do registro, expanda **HKEY\_\_local Machine**, expanda **software**, expanda **Microsoft**e, em seguida, expanda **comunicações em tempo real**.
+3.  No editor do registro, expanda **\_máquina local\_de hKey**, expanda **software**, expanda **Microsoft**e, em seguida, expanda **comunicação em tempo real**.
 
-4.  Clique com o botão direito do mouse em **integridade**, clique em **novo**e clique em **chave**. Se a chave de **integridade** não existir, clique com o botão direito do mouse em **comunicações em tempo real**, aponte para **novo**e clique em **tecla**. Quando a nova chave for criada, digite Health e pressione ENTER.
+4.  Com o botão direito em **Integridade**, clique em **Novo**, e depois em **Chave**. Se a chave **Integridade** não existir, clique com o botão direito em **Comunicações em tempo real**, aponte para **Novo**, e depois clique em **Chave**. Quando a nova chave for criada, digite Integridade, e depois pressione ENTER.
     
-    Após a criação da nova chave, digite **CentralDiscoveryCandidate** e pressione ENTER para renomear a chave.
+    Depois que a nova chave for criada, digite **CentralDiscoveryCandidate** e pressione ENTER para renomear a chave.
 
-Pode levar o computador várias horas para que essa alteração seja retomada. Para fazer com que a alteração entre em vigor imediatamente, pare e reinicie o serviço do agente de integridade. Para reiniciar o serviço do agente de integridade, conclua o procedimento a seguir no computador do Lync Server 2010:
+Pode levar algumas horas para que o computador obtenha essa alteração. Para atualizar essas configurações imediatamente, pare e em seguida reinicie o serviço Agente de Integridade. Para reiniciar o serviço do agente de integridade, conclua o procedimento a seguir no computador do Lync Server 2010:
 
-1.  Clique em **Iniciar**, **em todos os programas**, em **acessórios**, clique com o botão direito do mouse em **prompt de comando**e, em seguida, clique em **Executar como administrador**.
+1.  Clique em **Iniciar**, **Todos os Programas**, **Acessórios**, clique o botão direito no **Prompt de comando**, e depois clique em **Executar como administrador**.
 
-2.  Na janela do console, digite o seguinte comando e pressione ENTER:
+2.  Na janela do console, digite o seguinte comando e pressione ENTER.
     
         Net stop HealthService
 
-3.  Você verá uma mensagem que informa que "o serviço de gerenciamento do System Center está sendo interrompido", seguido por uma segunda mensagem que informa que o serviço foi interrompido. Depois que o serviço for interrompido, você poderá reiniciá-lo digitando o seguinte comando e pressionando ENTER:
+3.  Você verá uma mensagem que diz "O serviço de Gerenciamento do 	Gerenciamento do System Center está sendo interrompido", seguida por uma segunda mensagem que diz que o serviço foi interrompido. Após a interrupção do serviço, você pode reiniciá-lo digitando o seguinte comando e pressionando ENTER:
     
         Net start HealthService
 
@@ -89,29 +89,29 @@ Pode levar o computador várias horas para que essa alteração seja retomada. P
 
 <div>
 
-## <a name="overriding-the-central-discovery-candidate-in-the-lync-server-2010-management-pack"></a>Substituindo o candidato à descoberta central no pacote de gerenciamento do Lync Server 2010
+## <a name="overriding-the-central-discovery-candidate-in-the-lync-server-2010-management-pack"></a>Substituição do Candidato a Descoberta Central no Pacote de Gerenciamento do Lync Server 2010
 
-Depois de instruir um computador do Lync Server 2010 a ser relatado nos computadores do Lync Server 2010, você precisará informar o pacote de gerenciamento do Lync Server 2010 sobre essa alteração também. Para fazer isso, será necessário criar uma substituição no pacote de gerenciamento. Isso pode ser feito completando o seguinte procedimento:
+Depois de instruir um computador do Lync Server 2010 para relatar nos computadores do Lync Server 2010, você precisará informar o pacote de gerenciamento do Lync Server 2010 sobre essa alteração também. Para fazer isso, será necessário criar uma substituição no Pacote de Gerenciamento. Isso pode ser feito realizando o procedimento a seguir:
 
-1.  No console do Operations Manager, clique em **criação**.
+1.  No console do Operations Manager, clique em **Criação**.
 
-2.  Na guia criação de páginas, expanda **objetos do pacote de gerenciamento**, clique em descobertas de **objeto**e, em seguida, clique em **escopo**.
+2.  Na guia Criação, expanda **Objetos do Pacote de Gerenciamento**, clique em **Descobertas de Objeto**, e depois em **Escopo**.
 
-3.  Na caixa de diálogo **escopo de objetos do pacote de gerenciamento** , selecione o item com o candidato da **descoberta ls** de destino e clique em **OK**. Observe que o candidato da descoberta de LS será exibido apenas se você tiver instalado o pacote de gerenciamento do Lync Server 2010.
+3.  Na caixa de diálogo **Delimitar Objetos do Pacote de Gerenciamento**, selecione o item com o **Candidato à descoberta LS** do alvo e depois clique em **OK**. Observe que o candidato à descoberta de LS aparecerá somente se você tiver instalado o pacote de gerenciamento do Lync Server 2010.
 
-4.  No console do Operations Manager, clique com o botão direito do mouse em **candidato à descoberta ls**, aponte para **substituições**, aponte para **substituir a descoberta de objeto**e clique em **para todos os objetos da classe: candidato à descoberta de ls**.
+4.  No console do Operations Manager, clique com o botão direito em **Candidato à descoberta LS**, aponte para **Substituições**, aponte para **Substituir a Descoberta de Objeto**, e clique em **Para todos os objetos da classe: Candidato à descoberta LS**.
 
-5.  Na caixa de diálogo **substituir Propriedades** , marque a caixa de seleção **substituir** ao lado da **descoberta central do parâmetro WatcherNode FQDN**. Digite o nome de domínio totalmente qualificado do computador do Lync Server 2010 nas caixas **substituir valor** e **valor efetivo** . Marque a caixa de seleção **imposto** e clique em **OK**.
+5.  Na caixa de diálogo **Substituir propriedades**, marque a caixa de seleção **Substituir** ao lado do parâmetro **WatcherNode Fqdn da Descoberta Central**. Digite o nome de domínio totalmente qualificado do computador do Lync Server 2010 nas caixas **valor de substituição** e **valor efetivo** . Marque a caixa de seleção **Imposto** e clique em **OK**.
 
-Depois de criar a substituição, você precisará reiniciar o serviço de integridade no servidor de gerenciamento raiz. Para reiniciar o serviço de integridade, conclua o procedimento a seguir no servidor de gerenciamento raiz:
+Após criar a substituição, será necessário reiniciar o serviço de integridade no Servidor de Gerenciamento Raiz. Para reiniciar o serviço Agente de Integridade, siga o procedimento a seguir no Servidor de Gerenciamento Raiz:
 
-1.  Clique em **Iniciar**, **em todos os programas**, em **acessórios**, clique com o botão direito do mouse em **prompt de comando**e, em seguida, clique em **Executar como administrador**.
+1.  Clique em **Iniciar**, **Todos os Programas**, **Acessórios**, clique o botão direito no **Prompt de comando**, e depois clique em **Executar como administrador**.
 
 2.  Na janela do console, digite o seguinte comando e pressione ENTER:
     
         Net stop HealthService
 
-3.  Você verá uma mensagem informando que "o serviço de gerenciamento do System Center está sendo interrompido", seguido por uma segunda mensagem que informa que o serviço foi interrompido. Depois que o serviço for interrompido, você poderá reiniciá-lo digitando o seguinte comando e pressionando ENTER:
+3.  Você verá uma mensagem que diz "O serviço de Gerenciamento do 	Gerenciamento do System Center está sendo interrompido", seguida por uma segunda mensagem que diz que o serviço foi interrompido. Após a interrupção do serviço, você poderá reiniciá-lo digitando o seguinte comando e pressionando ENTER:
     
         Net start HealthService
 
@@ -119,9 +119,9 @@ Depois de criar a substituição, você precisará reiniciar o serviço de integ
 
 <div>
 
-## <a name="verifying-that-the-new-central-discovery-candidate-was-discovered"></a>Verificando se o novo candidato de descoberta central foi descoberto
+## <a name="verifying-that-the-new-central-discovery-candidate-was-discovered"></a>Verificação se o novo Candidato a Descoberta Central foi descoberto.
 
-A etapa final antes da atualização do repositório de gerenciamento central é verificar se o novo candidato de descoberta central foi descoberto pelo pacote de gerenciamento do Lync Server 2010. Para fazer isso, abra o console do Operations Manager e, em seguida, clique em monitoramento. Na guia monitoramento, expanda **integridade do Microsoft Lync Server 2010**, expanda **descoberta de topologia**e clique em **modo de exibição estado de descoberta**. Verifique se uma linha na tela tem um **caminho** que lista o nome de domínio totalmente qualificado do candidato à descoberta central. Você também deve verificar se o estado do computador é reportado como **íntegro**.
+A etapa final antes de atualizar o repositório de gerenciamento central é verificar se o novo candidato de descoberta central foi descoberto pelo pacote de gerenciamento do Lync Server 2010. Para isso, abra o console do Operations Manager e clique em Monitoramento. Na guia Monitoramento, expanda **Integridade do Microsoft Lync Server 2010**, expanda **Descoberta de topologia** e depois clique em **Exibição do estado de descoberta**. Verifique se uma linha na exibição tem o **Caminho** que lista o nome de domínio totalmente qualificado do candidato à descoberta central. Você também deve verificar se o estado do computador é relatado como **Íntegro**.
 
 </div>
 

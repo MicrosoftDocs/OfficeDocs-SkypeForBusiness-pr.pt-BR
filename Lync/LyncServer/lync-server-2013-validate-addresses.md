@@ -12,16 +12,16 @@ ms:contentKeyID: 48185108
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 397c1037937e100f1981a689f0860362d852ed10
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 75eeabe640c9d66c897d59f4e06bb485a482ed04
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743801"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007440"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41743801"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-17_
+_**Última modificação do tópico:** 2012-09-17_
 
-Antes de publicar o banco de dados de localização, você deve validar novos locais em relação ao guia de endereço mestre (MSAG) que é mantido pelo seu tronco SIP ou provedor de serviços de rede telefônica pública comutada (PSTN) E9-1.
+Antes de publicar o banco de dados local, você deverá validar novas localizações em relação ao MSAG (Master Street Address Guide) mantido pelo seu tronco SIP ou pelo provedor de serviços de rede telefônica pública comutada (PSTN) E9-1-1.
 
-Para obter detalhes sobre os provedores de serviços do tronco SIP E9-1, consulte [escolhendo um provedor de serviços de E9-1-1 para o Lync Server 2013](lync-server-2013-choosing-an-e9-1-1-service-provider.md).
+Para obter detalhes sobre os provedores de serviço E9-1-1 do tronco SIP, consulte [escolhendo um provedor de serviço E9-1-1 para o Lync Server 2013](lync-server-2013-choosing-an-e9-1-1-service-provider.md).
 
-Para obter detalhes sobre como validar os endereços, consulte a documentação do Shell de gerenciamento do Lync Server para os seguintes cmdlets:
+Para obter detalhes sobre como validar endereços, consulte a documentação do Shell de gerenciamento do Lync Server para os seguintes cmdlets:
 
   - **Get-CsLisServiceProvider**
 
@@ -57,7 +57,7 @@ Para obter detalhes sobre como validar os endereços, consulte a documentação 
 
 ## <a name="to-validate-addresses-located-in-the-location-database"></a>Para validar endereços localizados no banco de dados de localização
 
-1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 2.  Execute os cmdlets a seguir para configurar a conexão com o provedor de serviços de emergência.
     

@@ -1,5 +1,5 @@
 ---
-title: Verificar se todos os objetos de contato do Exchange UM são removidos do pool herdado
+title: Verificar se todos os objetos de contato do UM do Exchange foram removidos do pool herdado
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733664
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e49aa2fdef3731a34de05e04b8195cb8aa32cd7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 79183039cedc058d479d52fa80ce09a70ffd73b3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730841"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036299"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verify-that-all-exchange-um-contact-objects-are-removed-from-the-legacy-pool"></a>Verificar se todos os objetos de contato do Exchange UM são removidos do pool herdado
+# <a name="verify-that-all-exchange-um-contact-objects-are-removed-from-the-legacy-pool"></a>Verificar se todos os objetos de contato do UM do Exchange foram removidos do pool herdado
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41730841"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-26_
+_**Última modificação do tópico:** 2012-09-26_
 
-Use a ferramenta **OCSUmUtil** ou o cmdlet **Get-CsExumContact** para verificar se objetos de contato do Exchange um foram removidos do pool herdado do Office Communications Server 2007 R2. O **OCSUmUtil** está localizado na seguinte pasta:
+Use a ferramenta **OCSUmUtil** ou o cmdlet **Get-CsExumContact** para verificar se os objetos de contato do um do Exchange foram removidos do pool herdado do Office Communications Server 2007 R2. **OCSUmUtil** está localizado na seguinte pasta:
 
-% Arquivos de programas\\% arquivos\\comuns o Lync\\Server\\2013 suporta ocsumutil. exe
+% Arquivos de programa\\% arquivos\\comuns do Lync\\Server\\2013 suportam ocsumutil. exe
 
-O **OCSUmUtil** deve ser executado a partir de uma conta de usuário que tenha:
+**OCSUmUtil** precisa ser executado a partir de uma conta de usuário que tenha:
 
-  - Associação no grupo RTCUniversalServerAdmins e RTCUniversalUserAdmins (que inclui direitos para ler as configurações de mensagens unificadas do Exchange Server)
+  - Associação ao grupo RTCUniversalServerAdmins e RTCUniversalUserAdmins (que inclui direitos para ler as configurações da Unificação de Mensagens do Exchange Server).
 
-  - Direitos de domínio para criar objetos de contato no contêiner de unidade organizacional (UO) especificado
+  - Direitos no domínio para criar objetos de contato no contêiner de unidade organizacional (UO) especificado
 
 Para obter detalhes sobre como usar o cmdlet **Get-CsExumContact** , consulte [Get-CsExumContact](https://docs.microsoft.com/powershell/module/skype/Get-CsExUmContact) na documentação do Shell de gerenciamento do Lync Server.
 

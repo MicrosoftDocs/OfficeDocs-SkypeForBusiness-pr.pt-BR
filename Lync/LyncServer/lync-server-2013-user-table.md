@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabela User'
+title: 'Lync Server 2013: tabela de usuário'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184437
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8256dec91c93ca6e8f0fd3cfff65280a417324e4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 98a34028ebec126c8d5fc5ec838a22180ccb0fa7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744441"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007640"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="user-table-in-lync-server-2013"></a>Tabela User no Lync Server 2013
+# <a name="user-table-in-lync-server-2013"></a>Tabela de usuário no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744441"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-02_
+_**Última modificação do tópico:** 2012-10-02_
 
-A tabela do usuário é uma tabela de suporte que armazena uma lista de vários usuários que participaram de sessões registradas no banco de dados. Cada registro na tabela representa um usuário.
+A tabela de Usuário é uma tabela de suporte que armazena uma lista de vários usuários que participaram das sessões registradas no banco de dados. Cada registro da tabela representa um usuário.
 
 
 <table>
@@ -59,41 +59,41 @@ A tabela do usuário é uma tabela de suporte que armazena uma lista de vários 
 <tr class="odd">
 <td><p><strong>UserKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primária</p></td>
-<td><p>Número exclusivo que identifica esse usuário.</p></td>
+<td><p>Primário</p></td>
+<td><p>Número exclusivo identificando este usuário.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SOLICITAÇÃO</strong></p></td>
+<td><p><strong>URI</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>Exclusividade</p></td>
-<td><p>Cadeia de caracteres de URI.</p></td>
+<td><p>Diferente</p></td>
+<td><p>Cadeia de caracteres URI.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>URIType</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>1 é um tipo de URI desconhecido.</p>
+<td><p>1 é o tipo de URI desconhecido.</p>
 <p>2 é o URI do usuário.</p>
-<p>4 é o URI da conferência.</p>
+<p>4 é o URI de conferência.</p>
 <p>8 é o URI do telefone.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>TenantKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>Exterior</p></td>
-<td><p>Locatário do usuário, referenciado da tabela de locatários.</p></td>
+<td><p>Estrangeira</p></td>
+<td><p>Locatário do usuário, referenciado da tabela do locatário.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LastPoorCallTime</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
-<td><p>Carimbo de data/hora mais recente quando o usuário tiver uma chamada de áudio ruim.</p></td>
+<td><p>Carimbo de data e hora da última vez em que o usuário teve uma chamada de áudio ruim.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>NextUpdateTS</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
-<td><p>Somente para uso interno.</p></td>
+<td><p>Apenas para uso interno.</p></td>
 </tr>
 </tbody>
 </table>

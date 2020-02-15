@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Componentes obrigatórios para acesso de usuário externo'
+title: 'Lync Server 2013: componentes necessários para acesso de usuário externo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183711
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 550eb864ff7cc26eb0bfeace37759bb15b9816f6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e225f63da97ea48d98a5a2540a6b35a9c63c08f2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757095"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007951"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="components-required-for-external-user-access-in-lync-server-2013"></a>Componentes obrigatórios para acesso de usuário externo no Lync Server 2013
+# <a name="components-required-for-external-user-access-in-lync-server-2013"></a>Componentes necessários para acesso de usuário externo no Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41757095"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-05-29_
+_**Última modificação do tópico:** 2014-05-29_
 
-A maioria dos componentes de Borda é implantada em uma rede de perímetro. Os componentes a seguir compõem a topologia de borda da rede de perímetro. Exceto onde observado, os componentes fazem parte dos [cenários para o acesso de usuários externos no Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md) e na rede de perímetro. Os componentes de Borda incluem o seguinte:
+A maioria dos componentes de borda é implantada em uma rede de perímetro. Os componentes a seguir compõem a topologia de borda da rede de perímetro. Exceto onde observado, os componentes fazem parte dos [cenários para acesso de usuário externo no Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md) e estão na rede de perímetro. Os componentes de Borda incluem:
 
-  - Edge Servers
+  - Servidores de Borda
 
-  - Reverse proxies
+  - Proxies reversos
 
   - Firewalls
 
-  - Diretores (opcional e logicamente localizado na rede interna)
+  - Diretores (opcionais e logicamente localizados na rede interna)
 
   - Balanceamento de carga para Topologias de Borda Dimensionadas (balanceamento de carga DNS ou um balanceador de carga de hardware)
     
@@ -62,23 +62,23 @@ A maioria dos componentes de Borda é implantada em uma rede de perímetro. Os c
 
 ## <a name="edge-servers"></a>Servidores de Borda
 
-Os servidores de borda enviam e recebem tráfego de rede para os serviços oferecidos pela implantação interna por usuários externos. O servidor de borda executa os seguintes serviços:
+Os servidores de borda enviam e recebem tráfego de rede para os serviços oferecidos pela implantação interna por usuários externos. O Servidor de Borda executa os seguintes serviços:
 
-  - **Serviço de borda de acesso**   o serviço de borda de acesso fornece um ponto de conexão confiável e único para tráfego de protocolo de iniciação de sessão (SIP) de entrada e saída.
+  - **Serviço de borda de acesso**   o serviço de borda de acesso fornece um ponto de conexão único e confiável para o tráfego do protocolo SIP (Session Initiation Protocol) de entrada e saída.
 
-  - **Serviço de borda de Webconferência**   o serviço de borda de Webconferência permite que usuários externos ingressem em reuniões hospedadas em sua implantação interna do Lync Server 2013.
+  - **Serviço de borda de Webconferência**   o serviço de borda de Webconferência permite que usuários externos ingressem em reuniões hospedadas na sua implantação interna do Lync Server 2013.
 
-  - **Serviço de borda**   a/v o serviço de borda a/v torna o áudio, o vídeo, o compartilhamento de aplicativos e a transferência de arquivos disponíveis para usuários externos. Seus usuários podem adicionar áudio e vídeo a reuniões que incluam participantes externos, e eles podem se comunicar usando áudio e/ou vídeo diretamente com um usuário externo em sessões ponto a ponto. O serviço de borda a/V também oferece suporte para compartilhamento de área de trabalho e transferência de arquivos.
+  - **Serviço de borda**   a/v o serviço de borda a/v disponibiliza áudio, vídeo, compartilhamento de aplicativos e transferência de arquivos para usuários externos. Os usuários podem adicionar áudio e vídeo a reuniões que incluem participantes externos e podem se comunicar usando áudio e/ou vídeo diretamente com um usuário externo em sessões ponto a ponto. O Serviço de Borda A/V também fornece suporte para compartilhamento de área de trabalho e transferência de arquivo.
 
-  - **Serviço de proxy XMPP**   o serviço de proxy do XMPP aceita e envia mensagens de protocolo de presença e mensagens extensível (XMPP) para e a partir de parceiros federados XMPP configurados.
+  - **Serviço de proxy do XMPP**   o serviço de proxy do XMPP aceita e envia mensagens de protocolo de presença e de mensagens extensíveis (XMPP) para e a partir de parceiros federados de XMPP configurados.
 
-Usuários externos autorizados podem acessar os servidores de borda para se conectar à implantação interna do Lync Server 2013, mas os servidores de borda não fornecem meios para qualquer outro acesso à rede interna.
+Usuários externos autorizados podem acessar os servidores de borda para se conectar à sua implantação interna do Lync Server 2013, mas os servidores de borda não fornecem meios para qualquer outro acesso à rede interna.
 
 <div>
 
 
 > [!NOTE]  
-> Os servidores de borda são implantados para fornecer conexões para clientes Lync habilitados e outros servidores Microsoft Edge (como em cenários de Federação). Elas não são projetadas para permitir conexões de outros tipos de cliente ou servidor de ponto final. O servidor de Gateway XMPP pode ser implantado para permitir conexões com os parceiros do XMPP configurados. O servidor de borda e o Gateway XMPP só podem dar suporte a conexões de ponto de extremidade desses tipos de cliente e de Federação.
+> Os servidores de borda são implantados para fornecer conexões para clientes Lync habilitados e outros servidores do Microsoft Edge (como em cenários de Federação). Eles não são projetados para permitir conexões a partir de outros tipos de cliente ou servidor de ponto final. O servidor Gateway XMPP pode ser implantado para permitir conexões com parceiros XMPP configurados. O servidor de borda e Gateway XMPP somente pode suportar conexões de ponto final a partir desses tipos de clientes e federação.
 
 
 
@@ -92,29 +92,29 @@ Usuários externos autorizados podem acessar os servidores de borda para se cone
 
 O proxy reverso é necessário para o seguinte:
 
-  - Para permitir que os usuários se conectem a reuniões ou conferências discadas usando URLs simples
+  - Permitir que os usuários se conectem às reuniões ou conferências discadas usando URLs simples
 
-  - Para habilitar usuários externos para baixar o conteúdo da reunião
+  - Permitir que os usuários externos baixem o conteúdo da reunião
 
-  - Para permitir que usuários externos expandam grupos de distribuição
+  - Habilitar os usuários externos a expandir grupos de distribuição
 
-  - Para permitir que o usuário obtenha um certificado baseado em usuário para autenticação baseada em certificado de cliente
+  - Permitir que o usuário obtenha um certificado baseado no usuário para autenticação com base no certificado cliente
 
-  - Para habilitar usuários remotos a baixar arquivos do servidor de catálogo de endereços ou enviar consultas para o serviço de consulta à Web do catálogo de endereços
+  - Permitir que os usuários remotos baixem arquivos do Servidor de Catálogo de Endereço ou enviem consultas ao serviço Address Book Web Query
 
-  - Para permitir que os usuários remotos obtenham atualizações para software cliente e dispositivo
+  - Permitir que os usuários remotos obtenham atualizações para softwares clientes ou de dispositivo
 
-  - Para habilitar dispositivos móveis para detectar automaticamente servidores front-end que oferecem serviços de mobilidade
+  - Permitir que os dispositivos móveis descubram automaticamente os Servidores Front-End que oferecem serviços de mobilidade
 
-  - Para habilitar as notificações por push para dispositivos móveis do Office 365 ou dos serviços de notificação por push da Apple
+  - Permitir notificações por push para dispositivos móveis dos serviços de notificação por push do Office 365 ou da Apple
 
-Para obter informações adicionais relacionadas a proxies invertidos e os requisitos que os proxies inversos devem atender, consulte os detalhes em [requisitos de configuração para o proxy inverso no Lync Server 2013](lync-server-2013-configuration-requirements-for-reverse-proxy.md).
+Para obter informações adicionais relacionadas a proxies reversos e os requisitos que os proxies reverso devem atender, consulte os detalhes em [requisitos de configuração para o proxy reverso no Lync Server 2013](lync-server-2013-configuration-requirements-for-reverse-proxy.md).
 
 <div>
 
 
 > [!NOTE]  
-> Os usuários externos não precisam de uma conexão de rede virtual privada (VPN) à sua organização para participar de comunicações usando o Lync Server 2013. Se você implementou a tecnologia VPN em sua organização e seus usuários usam a VPN para o Lync, o tráfego de mídia (como videoconferência) pode ser afetado negativamente. Você deve considerar o fornecimento de um meio para tráfego de mídia para se conectar ao serviço de borda de AV diretamente e ignorar a VPN. Para obter detalhes, consulte o artigo sobre o blog NextHop, "Ativando o Lync Media para ignorar um <A href="http://go.microsoft.com/fwlink/p/?linkid=256532">http://go.microsoft.com/fwlink/p/?LinkId=256532</A>túnel VPN".
+> Os usuários externos não precisam de uma conexão VPN (rede virtual privada) à sua organização para participar de comunicações usando o Lync Server 2013. Se você tiver implementado a tecnologia VPN em sua organização e seus usuários usarem a VPN para o Lync, o tráfego de mídia (como videoconferência) poderá ser afetado de forma adversa. Considere fornecer um meio de tráfego de mídia para se conectar ao serviço de borda AV diretamente e ignorar a VPN. Para obter detalhes, consulte o artigo de blog NextHop, "Habilitando o Lync Media para ignorar um túnel <A href="http://go.microsoft.com/fwlink/p/?linkid=256532">http://go.microsoft.com/fwlink/p/?LinkId=256532</A>VPN" em.
 
 
 
@@ -126,17 +126,17 @@ Para obter informações adicionais relacionadas a proxies invertidos e os requi
 
 ## <a name="firewall"></a>Firewall
 
-Você pode implantar a topologia de borda com apenas um firewall externo ou firewalls internos e externos. As arquiteturas de cenário incluem dois firewalls. Usar dois firewalls é a abordagem recomendada porque garante um roteamento estrito de uma borda de rede para a outra e protege sua implantação interna atrás de dois níveis de firewall.
+É possível implantar sua topologia de borda com apenas um firewall externo ou com firewalls internos e externos. As arquiteturas de cenário incluem dois firewalls. O uso de dois firewalls é a abordagem recomendada, pois garante o roteamento estrito de uma borda de rede para a outra, e protege sua implantação interna atrás de dois níveis de firewall.
 
 </div>
 
 <div>
 
-## <a name="director"></a>Diretor
+## <a name="director"></a>Be
 
-Um diretor é uma função de servidor opcional separada no Lync Server 2013 que não hospeda contas de usuário nem fornece serviços de presença ou conferência. Ele funciona como um servidor de um próximo salto interno ao qual um servidor de Borda roteia o tráfego SIP de entrada destinado para servidores internos. O diretor autentica solicitações de entrada e as redireciona para o pool ou servidor primário do usuário. Ao autenticar no director, você pode descartar solicitações de contas de usuários desconhecidas para a implantação.
+Um diretor é uma função de servidor opcional e separada no Lync Server 2013 que não hospeda contas de usuário ou fornece serviços de presença ou conferência. Ele serve como um servidor de próximo salto interno para o qual um servidor de Borda roteia o tráfego SIP de entrada destinado a servidores internos. O diretor autentica solicitações de entrada e as redireciona para o pool ou servidor de casa do usuário. Ao autenticar no diretor, você pode descartar solicitações de contas de usuário que são desconhecidas para a implantação.
 
-Um diretor ajuda a isolar servidores de front-end do Enterprise Edition em pools front-end do Enterprise Edition contra tráfego mal-intencionado, como ataques de negação de serviço (DoS). Se a rede estiver inundada com tráfego externo inválido nesse tipo de ataque, o tráfego terminará no diretor. Para obter detalhes sobre o uso de directors, consulte [cenários do diretor do Lync Server 2013](lync-server-2013-scenarios-for-the-director.md).
+Um diretor ajuda a isolar servidores Standard Edition e servidores front-end em pools de front-ends Enterprise Edition de tráfego mal-intencionado, como ataques de negação de serviço (DoS). Se a rede estiver inundada com tráfego externo inválido nesse ataque, o tráfego terminará no diretor. Para obter detalhes sobre o uso de diretores, consulte [Scenarios for the Director in Lync Server 2013](lync-server-2013-scenarios-for-the-director.md).
 
 </div>
 
@@ -145,7 +145,7 @@ Um diretor ajuda a isolar servidores de front-end do Enterprise Edition em pools
 ## <a name="see-also"></a>Confira também
 
 
-[Requisitos do balanceador de carga do hardware para Lync Server 2013](lync-server-2013-hardware-load-balancer-requirements.md)  
+[Requisitos do balanceador de carga de hardware para Lync Server 2013](lync-server-2013-hardware-load-balancer-requirements.md)  
   
 
 </div>

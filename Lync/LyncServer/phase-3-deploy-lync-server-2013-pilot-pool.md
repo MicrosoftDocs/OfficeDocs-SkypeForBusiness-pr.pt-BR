@@ -12,16 +12,16 @@ ms:contentKeyID: 48185778
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38a9e19ea3d9456a5e6f5b395286d77ed831f6b0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c87be6f690c5c31822dd59bea52c9140e43a4926
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757675"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034301"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757675"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-19_
+_**Última modificação do tópico:** 2012-10-19_
 
-Esta seção aborda as etapas necessárias para implantar um pool piloto do Lync Server 2013. A implantação do Lync Server 2013 requer o uso do construtor de topologias para definir a topologia e os componentes que você deseja implantar, preparando seu ambiente para a implantação dos componentes do Lync Server 2013, publicando seu design de topologia no primeiro front-end Servidor e, em seguida, instalando e Configurando o software Lync Server 2013 para os componentes da sua implantação. Quando a instalação for concluída, a implantação do pool piloto do Lync Server 2013 coexistirá com um pool existente do Lync Server 2010.
+Esta seção aborda as etapas necessárias para implantar um pool piloto do Lync Server 2013. A implantação do Lync Server 2013 requer o uso do construtor de topologias para definir sua topologia e os componentes que você deseja implantar, preparando seu ambiente para implantação dos componentes do Lync Server 2013, publicando seu design de topologia no primeiro front-end Servidor e, em seguida, instalando e Configurando o software Lync Server 2013 para os componentes para sua implantação. Quando a instalação for concluída, a implantação do pool piloto do Lync Server 2013 coexistirá com um pool existente do Lync Server 2010.
 
 <div>
 
@@ -45,15 +45,15 @@ Esta seção aborda as etapas necessárias para implantar um pool piloto do Lync
 
   - [Preparar o Active Directory para Lync Server](prepare-active-directory-for-lync-server.md)
 
-  - [Fazer o download da topologia da implantação existente](download-topology-from-existing-deployment.md)
+  - [Baixar a topologia da implantação existente](download-topology-from-existing-deployment.md)
 
   - [Implantar o pool piloto do Lync Server 2013](deploy-lync-server-2013-pilot-pool.md)
 
-  - [Verificar coexistência de pool piloto com pool herdado](verify-pilot-pool-coexistence-with-legacy-pool.md)
+  - [Verificar a coexistência do pool piloto com o pool herdado](verify-pilot-pool-coexistence-with-legacy-pool.md)
 
-  - [Conectar pool piloto aos Servidores de Borda herdados](connect-pilot-pool-to-legacy-edge-servers.md)
+  - [Conectar o pool piloto aos servidores de borda herdados](connect-pilot-pool-to-legacy-edge-servers.md)
 
-  - [Configurar políticas e certificados de acesso ao gateway de XMPP](configure-xmpp-gateway-access-policies-and-certificates.md)
+  - [Configurar políticas e certificados de acesso ao Gateway XMPP](configure-xmpp-gateway-access-policies-and-certificates.md)
 
 </div>
 

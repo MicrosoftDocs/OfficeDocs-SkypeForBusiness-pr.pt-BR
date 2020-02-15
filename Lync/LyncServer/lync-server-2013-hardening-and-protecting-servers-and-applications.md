@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Protegendo servidores e aplicativos'
+title: 'Lync Server 2013: protegendo e protegendo servidores e aplicativos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 62625491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42b8b9d3fc21c590bda12841cb6002987d4c0650
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6b0a6179e77e4688693fe277748a8933a9dbe911
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739591"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006197"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="hardening-and-protecting-servers-and-applications-for-lync-server-2013"></a>Protegendo servidores e aplicativos para Lync Server 2013
+# <a name="hardening-and-protecting-servers-and-applications-for-lync-server-2013"></a>Proteção e proteção de servidores e aplicativos para o Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41739591"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-12-05_
+_**Última modificação do tópico:** 2013-12-05_
 
-Você deve proteger e proteger o sistema operacional e os aplicativos de acordo com as práticas recomendadas para esse componente específico. Esta seção descreve como otimizar a segurança dos servidores de aplicativos e usar a política de grupo para implementar bloqueios de segurança.
+Você deve aumentar a segurança do sistema operacional e dos aplicativos de acordo com as práticas recomendadas para esse componente específico. Esta seção descreve como proteger os servidores de aplicativo e usar a Política de Grupo para implementar os bloqueios de segurança.
 
 <div>
 
 
 > [!NOTE]  
-> Você também pode proteger e proteger os bancos de dados usados para a implantação do Microsoft Lync Server 2013. Para obter detalhes, consulte <A href="lync-server-2013-hardening-and-protecting-databases.md">otimizando a proteção e protegendo os bancos de dados do Lync Server 2013</A>.
+> Você também pode proteger e proteger os bancos de dados usados para a implantação do Microsoft Lync Server 2013. Para obter detalhes, consulte <A href="lync-server-2013-hardening-and-protecting-databases.md">proteção e proteção dos bancos de dados do Lync Server 2013</A>.
 
 
 
@@ -51,9 +51,9 @@ Você deve proteger e proteger o sistema operacional e os aplicativos de acordo 
 
 <div>
 
-## <a name="securing-application-servers"></a>Proteger servidores de aplicativos
+## <a name="securing-application-servers"></a>Protegendo servidores de aplicativos
 
-Para servidores de aplicativos, o sistema operacional e o aplicativo devem ser protegidos. Por exemplo, um computador com Windows Server 2008 dedicado a executar o Microsoft Internet Security and Acceleration (ISA) Server 2006 deve ser protegido do sistema operacional e da perspectiva do aplicativo. Minimizar o número de serviços em execução e fornecido pelo servidor deve ser um objetivo principal.
+No caso dos servidores de aplicativos, a segurança do sistema operacional e do aplicativo deve ser intensificada. Por exemplo, um computador com o Windows Server 2008 dedicado à execução do ISA (Microsoft Internet Security and Acceleration) Server 2006 deve ser protegido sob a perspectiva do sistema operacional e do aplicativo. Minimizar o número de serviços em execução e fornecidos pelo servidor deve ser a meta principal.
 
 </div>
 
@@ -61,41 +61,41 @@ Para servidores de aplicativos, o sistema operacional e o aplicativo devem ser p
 
 ## <a name="securing-virtual-servers"></a>Protegendo servidores virtuais
 
-Instantâneos do servidor virtual contêm cópias dos discos de dados do servidor e também contêm despejos de dados na memória, que podem conter dados de criptografia confidenciais que podem levar a ataques. Para servidores de produção implementados usando a virtualização, você deve desabilitar todos os instantâneos do servidor ou gerenciá-los de forma bem controlada. Para obter detalhes sobre como proteger servidores virtuais Hyper-V, consulte o guia de segurança do Hyper- [http://go.microsoft.com/fwlink/p/?LinkId=214176](http://go.microsoft.com/fwlink/p/?linkid=214176)v em:.
+Os instantâneos de servidores virtuais contêm cópias dos discos de dados do servidor e também contém despejos de dados na memória, que podem conter dados criptografados confidenciais que estão sujeitos a ataques. Para os servidores de produção implementados usando a virtualização, você deve desabilitar todos os instantâneos de servidor ou gerenciá-los de maneira muito controlada. Para obter detalhes sobre como proteger servidores virtuais do Hyper-V, consulte o guia de segurança do Hyper [http://go.microsoft.com/fwlink/p/?LinkId=214176](http://go.microsoft.com/fwlink/p/?linkid=214176)-v em:.
 
 </div>
 
 <div>
 
-## <a name="group-policy"></a>Política de grupo
+## <a name="group-policy"></a>Política de Grupo
 
-No Windows Server 2008 e no Windows Server 2008 R2, a política de grupo fornece o gerenciamento de configuração da área de trabalho baseado em diretório. Você pode usar a política de grupo para implementar bloqueios de segurança definindo configurações de computador e de usuário em um objeto de política de grupo (GPO) para o seguinte:
+No Windows Server 2008 e no Windows Server 2008 R2, a Política de Grupo fornece gerenciamento da configuração de área de trabalho baseado em diretório. Você pode usar a Política de Grupo para implementar os bloqueios de segurança, definindo as configurações do Computador e Usuário dentro de um GPO (objeto de Política de Grupo) para o seguinte:
 
-  - Políticas baseadas no registro
+  - Políticas baseadas no Registro
 
   - Segurança
 
-  - Instalação do software
+  - Instalação de software
 
-  - Escritas
+  - Scripts
 
-  - Redirecionamento de pastas
+  - Redirecionamento de pasta
 
   - Serviços de instalação remota
 
-Para fornecer uma interface do usuário para o administrador definir essas configurações, os modelos administrativos são fornecidos com versões do sistema operacional, versões do Service Pack e alguns aplicativos, incluindo o Lync Server 2013.
+Para fornecer uma interface de usuário para o administrador configurar essas configurações, os modelos administrativos são fornecidos com versões de sistema operacional, versões de Service Pack e alguns aplicativos, incluindo o Lync Server 2013.
 
-O arquivo. adm do Communicator é um modelo administrativo que acompanha o Lync Server 2013, é instalado no diretório% windir\\%\\ inf e fornece uma interface para as configurações de política de grupo. Cada configuração no Communicator. adm corresponde a uma configuração no registro que afeta o comportamento do aplicativo.
+O arquivo Communicator. adm é um modelo administrativo que acompanha o Lync Server 2013, é instalado no diretório% windir%\\inf\\ e fornece uma interface para as configurações da política de grupo. Cada configuração no Communicator.adm corresponde a uma configuração do Registro que afeta o comportamento do aplicativo.
 
-As configurações podem ser acessadas a partir de GPedit. dll, que está disponível no console usuários e computadores do Active Directory e no GPMC (console de gerenciamento de política de grupo).
+As configurações podem ser acessadas no GPedit.dll, que, por sua vez, está disponível no console Usuários e Computadores do Active Directory e no GPMC (Console de Gerenciamento de Diretiva de Grupo).
 
 </div>
 
 <div>
 
-## <a name="group-policy-security-settings"></a>Configurações de segurança de política de grupo
+## <a name="group-policy-security-settings"></a>Configurações de segurança de Política de Grupo
 
-A política de grupo contém configurações de segurança para um GPO em configurações do computador/configurações do Windows/configurações de segurança quando acessado a partir do GPedit. dll. Você pode importar modelos de segurança para definir configurações de segurança para o GPO. O guia de segurança do Windows Server [http://go.microsoft.com/fwlink/p/?LinkId=145186](http://go.microsoft.com/fwlink/p/?linkid=145186) 2008 em e o kit de ferramentas de gerenciamento de conformidade [http://go.microsoft.com/fwlink/p/?LinkId=211882](http://go.microsoft.com/fwlink/p/?linkid=211882) de segurança do Windows Server 2008 R2 contém vários modelos de exemplo que você pode modificar para atender às suas necessidades.
+A Política de Grupo contém as configurações de segurança de um GPO em Configuração do Computador/Configurações do Windows/Configurações de Segurança quando é acessada a partir do GPedit.dll. Você pode importar os modelos de segurança para definir as configurações de segurança do GPO. O guia de segurança do Windows Server [http://go.microsoft.com/fwlink/p/?LinkId=145186](http://go.microsoft.com/fwlink/p/?linkid=145186) 2008 em e o kit de ferramentas de gerenciamento de conformidade [http://go.microsoft.com/fwlink/p/?LinkId=211882](http://go.microsoft.com/fwlink/p/?linkid=211882) de segurança do Windows Server 2008 R2 contêm vários exemplos de modelos que podem ser modificados para atender às suas necessidades.
 
 </div>
 
@@ -103,11 +103,11 @@ A política de grupo contém configurações de segurança para um GPO em config
 
 ## <a name="best-practices"></a>Práticas recomendadas
 
-  - Otimize a proteção de todos os sistemas operacionais e aplicativos do servidor.
+  - Melhore a segurança de todos os sistemas operacionais e aplicativos do servidor.
 
-  - Proteger os instantâneos do servidor e aprimorar a segurança de todos os servidores virtuais.
+  - Proteja os instantâneos de servidor e aumente a segurança de todos os servidores virtuais.
 
-  - Use a política de grupo para implementar bloqueios de segurança.
+  - Use a Política de Grupo para implementar os bloqueios de segurança.
 
 </div>
 

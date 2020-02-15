@@ -12,16 +12,16 @@ ms:contentKeyID: 48183357
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e5cd00033eeccc855cd5ff10b6a2bee6f78da1d0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: edd6c7cbcaa1789d9f37cd77123b4afd8c2416de
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762229"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036651"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41762229"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-08-13_
+_**Última modificação do tópico:** 2012-08-13_
 
 Você pode usar *conexões SIP diretas* para conectar o Lync Server a um dos seguintes:
 
-  - Um PBX IP (para obter detalhes, consulte [Opções de implantação do SIP Direct no Lync Server 2013](lync-server-2013-direct-sip-deployment-options.md)).
+  - Um IP-PBX (para obter detalhes, consulte [Direct SIP Deployment Options in Lync Server 2013](lync-server-2013-direct-sip-deployment-options.md)).
 
   - Um gateway PSTN (para obter detalhes, consulte [Opções de implantação de gateway PSTN no Lync Server 2013](lync-server-2013-pstn-gateway-deployment-options.md)).
 
-Para implementar uma conexão SIP direta, você deve seguir essencialmente as mesmas etapas de implantação que faria para implementar um tronco SIP. Em ambos os casos, você implementa a conexão usando a interface externa de um servidor de mediação. A única diferença é que você conecta troncos SIP a uma entidade externa, como um gateway ITSP, e conecta conexões SIP diretas a uma entidade interna dentro de sua rede local, como um IP-PBX ou um gateway de rede telefônica pública comutada (PSTN).
+Para implantar uma conexão SIP direta, você segue, basicamente, as mesmas etapas de implantação de um tronco SIP. Em ambos os casos, você implementa a conexão usando a interface externa de um servidor de mediação. A única diferença é que você conecta os troncos SIP a uma entidade externa, como um gateway ITSP, e conecta as conexões SIP diretas a uma entidade interna dentro da sua rede local, como um IP-PBX ou um gateway de uma Rede Telefônica Pública Comutada (PSTN).
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Opções de implantação de SIP Direto no Lync Server 2013](lync-server-2013-direct-sip-deployment-options.md)
+  - [Opções de implantação de SIP direto no Lync Server 2013](lync-server-2013-direct-sip-deployment-options.md)
 
-  - [Opções de implantação do gateway PSTN no Lync Server 2013](lync-server-2013-pstn-gateway-deployment-options.md)
+  - [Opções de implantação de gateway PSTN no Lync Server 2013](lync-server-2013-pstn-gateway-deployment-options.md)
 
 </div>
 

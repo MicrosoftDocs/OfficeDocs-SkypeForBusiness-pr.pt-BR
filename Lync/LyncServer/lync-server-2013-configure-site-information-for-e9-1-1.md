@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: configurar informações do site para E9-1-1'
+title: 'Lync Server 2013: configurar informações de site para E9-1-1'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183824
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 157054343b299e7be1be75d3ee615c27cf74fb83
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4f39760dde02ab573111642d5ec888a321184b41
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730001"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035213"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41730001"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-03_
+_**Última modificação do tópico:** 2012-10-03_
 
-Para definir uma política de localização para sub-redes, você deve fazer o seguinte em qualquer ordem:
+Para definir uma política de locais para sub-redes, é preciso fazer o seguinte em qualquer ordem:
 
-  - Aplicar uma política de localização ao site de rede.
+  - Aplicar uma política de local ao local da rede.
 
-  - Adicione as sub-redes ao site de rede.
+  - Adicionar as sub-redes ao site da rede.
 
-Para obter detalhes sobre sites de rede, consulte [sites do Lync Server para o Lync server 2013](lync-server-2013-sites.md).
+Para obter detalhes sobre sites de rede, consulte [Lync Server sites for Lync server 2013](lync-server-2013-sites.md).
 
 <div>
 
 
 > [!NOTE]  
-> Se você criar sites de rede para outro recurso de voz e quiser configurar o E9-1-1 usando os mesmos sites, poderá modificar os sites a serem usados para o E9-1-1.
+> Se você criar locais de rede para outro recurso de voz e quiser configurar o E9-1-1 usando os mesmos locais, poderá modificar os locais a serem usados para o E9-1-1.
 
 
 
@@ -59,9 +59,9 @@ Para obter detalhes sobre sites de rede, consulte [sites do Lync Server para o L
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Adicionar uma política de localização a um site de rede no Lync Server 2013](lync-server-2013-add-a-location-policy-to-a-network-site.md)
+  - [Adicionar uma política de local a um site de rede no Lync Server 2013](lync-server-2013-add-a-location-policy-to-a-network-site.md)
 
-  - [Associar uma subrede a um site de rede no Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md)
+  - [Associar uma sub-rede a um site de rede no Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md)
 
 </div>
 

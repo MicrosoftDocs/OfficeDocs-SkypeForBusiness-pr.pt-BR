@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Testar roteamento de voz'
+title: 'Lync Server 2013: testar roteamento de voz'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185444
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b27fc4f3dfc42e9187ea0aee801b3c2115d83ff0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5b45f52a07713973d8f642389513d0e34b5236de
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746031"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42018032"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41746031"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-24_
+_**Última modificação do tópico:** 2013-02-24_
 
-Você pode usar a guia de roteamento de **voz** do painel de controle do Lync Server para configurar cenários de casos de teste. Para definir um caso de teste, especifique o plano de discagem, a política de voz, o uso da PSTN e a rota de voz em que deseja testar um número de telefone especificado.
+Você pode usar a guia de roteamento de **voz de teste** do painel de controle do Lync Server para configurar cenários de caso de teste. Para definir um caso de teste, especifique o plano de discagem, a política de voz, o uso de PSTN e a rota de voz na qual testar um número de telefone especificado.
 
-Antes de realmente implantar sua configuração de roteamento de voz, recomendamos testá-la em vários números de telefone para ter certeza de que os resultados são o que você está esperando.
+Antes de realmente implantar sua configuração de roteamento de voz, recomendamos testá-lo em vários números de telefone para garantir que os resultados sejam o que você espera.
 
 <div>
 
 
 > [!TIP]  
-> Você pode usar os comandos <STRONG>Exportar casos de teste</STRONG> e <STRONG>importar casos de teste</STRONG> para salvar os casos de teste de roteamento de voz e importá-los para uso em outro computador.
+> Também é possível usar os comandos <STRONG>Exportar casos de teste</STRONG> e <STRONG>Importar casos de teste</STRONG> para salvar os casos de teste de roteamento de voz e importá-los para uso em outro computador.
 
 
 
@@ -55,7 +55,7 @@ Antes de realmente implantar sua configuração de roteamento de voz, recomendam
 
 
 > [!WARNING]  
-> Se você excluir qualquer parte de sua configuração de roteamento de voz, como um plano de discagem, política de voz, rota de voz ou uso do telefone, você deve revisar e atualizar seus casos de teste de roteamento de voz. O painel de controle do Lync Server não irá alertá-lo para testar casos que não sejam mais válidos devido às configurações alteradas.
+> Se você excluir qualquer parte de sua configuração de roteamento de voz, como um plano de discagem, política de voz, rota de voz ou uso de telefone, revise e atualize seus casos de teste de roteamento de voz. O painel de controle do Lync Server não alertará você para testar casos que não são mais válidos devido às configurações alteradas.
 
 
 

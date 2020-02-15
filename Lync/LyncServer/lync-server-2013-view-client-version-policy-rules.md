@@ -12,16 +12,16 @@ ms:contentKeyID: 50675350
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b64dce1b74be8ed1aed0c5d1f515910341f57c52
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 480e3002c6c6a22564c23bf4225d49cbd044f3c1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757465"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007170"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41757465"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-23_
+_**Última modificação do tópico:** 2013-02-23_
 
-Uma política de versão do cliente é composta de um conjunto de regras de política de versão do cliente. Essas regras definem as ações que devem ser executadas quando os usuários tentam fazer logon com clientes específicos e versões do cliente. Você pode exibir as regras de política de versão do cliente no painel de controle do Lync Server 2013 ou no Shell de gerenciamento do Lync Server 2013.
+Uma política de versão do cliente é composta por um conjunto de regras de política de versão do cliente. Essas regras definem as ações que devem ser executadas quando os usuários tentam fazer logon com clientes específicos e versões do cliente. Você pode exibir as regras de política de versão do cliente no painel de controle do Lync Server 2013 ou no Shell de gerenciamento do Lync Server 2013.
 
 <div>
 
 ## <a name="to-view-client-version-policy-rules-by-using-lync-server-control-panel"></a>Para exibir as regras de política de versão do cliente usando o painel de controle do Lync Server
 
-1.  Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+1.  Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação à esquerda, clique em **clientes**e, em seguida, clique no botão navegação na **política de versão do cliente** .
+3.  Na barra de navegação esquerda, clique em **clientes**e, em seguida, clique no botão de navegação **política de versão do cliente** .
 
 4.  Na página **política de versão do cliente** , clique duas vezes em uma política de versão do cliente que você deseja exibir.
 
@@ -57,9 +57,9 @@ Uma política de versão do cliente é composta de um conjunto de regras de pol�
 
 <div>
 
-## <a name="viewing-client-version-policy-rules-by-using-windows-powershell-cmdlets"></a>Exibindo regras de política de versão do cliente usando cmdlets do Windows PowerShell
+## <a name="viewing-client-version-policy-rules-by-using-windows-powershell-cmdlets"></a>Exibindo regras de política de versão de cliente usando cmdlets do Windows PowerShell
 
-Você pode exibir regras de política de versão do cliente usando o Shell de gerenciamento do Lync Server e o cmdlet **Get-CsClientVersionPolicyRule** . Esse cmdlet pode ser executado no Shell de gerenciamento do Lync Server 2013 ou em uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.
+Você pode exibir regras de política de versão de cliente usando o Shell de gerenciamento do Lync Server e o cmdlet **Get-CsClientVersionPolicyRule** . Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
 
 <div>
 
@@ -69,7 +69,7 @@ Você pode exibir regras de política de versão do cliente usando o Shell de ge
     
         Get-CsClientVersionPolicyRule
     
-    Isso retornará informações semelhantes a esta para cada regra configurada:
+    Isso retornará informações semelhantes a estas para cada regra configurada:
     
         Identity          : Global/2336c611-a243-4c5d-994b-eea8a524d0e4
         Priority          : 0
@@ -88,7 +88,7 @@ Você pode exibir regras de política de versão do cliente usando o Shell de ge
 
 </div>
 
-Para obter detalhes, consulte o tópico da ajuda para o cmdlet [Get-CsClientVersionPolicyRule](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionPolicyRule) .
+Para obter detalhes, consulte o tópico de ajuda para o cmdlet [Get-CsClientVersionPolicyRule](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionPolicyRule) .
 
 </div>
 

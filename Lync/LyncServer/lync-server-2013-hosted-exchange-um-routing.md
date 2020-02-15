@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Roteamento do Exchange UM hospedado'
+title: 'Lync Server 2013: roteamento do Exchange UM hospedado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184422
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e04198813f7bb0647671dbb23e12889b108ee846
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 57efdcebe52f9b32f30c22ebcbf107d3cd9d8a7d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739001"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008373"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,44 +35,44 @@ ms.locfileid: "41739001"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-01_
+_**Última modificação do tópico:** 2012-10-01_
 
-O aplicativo de roteamento de UM do Exchange é executado no servidor front-end para direcionar chamadas, seja para uma implantação do Microsoft Exchange Server Unified Messaging (UM) local ou para o serviço UM do Exchange UM hospedado.
+O aplicativo de roteamento de UM do Exchange é executado no servidor front-end para encaminhar chamadas para uma implantação local da UM (Unificação de mensagens) do Microsoft Exchange Server ou para o serviço UM do Exchange hospedado.
 
 <div>
 
-## <a name="the-exum-routing-application"></a>O aplicativo de roteamento ExUM
+## <a name="the-exum-routing-application"></a>O aplicativo ExUM Routing
 
-O aplicativo de roteamento do Exchange UM do Lync Server 2013 usa as informações das configurações da conta do usuário e dos parâmetros da política de caixa postal hospedadas para determinar como direcionar chamadas para mensagens de voz hospedadas, conforme mostrado no diagrama a seguir.
+O aplicativo de roteamento de UM do Lync Server 2013 do Exchange usa informações de configurações de conta de usuário e de parâmetros de política de caixa postal hospedada para determinar como rotear chamadas para mensagens de voz hospedadas, conforme mostrado no diagrama a seguir.
 
-**Exemplo de implantação mista de roteamento UM do Exchange**
+**Exemplo de implantação mista de encaminhamento do UM do Exchange**
 
-![Implantação do Exchange UM do Lync Server local](images/Gg398512.75258286-1f23-487b-bf46-d8538e7d540e(OCS.15).jpg "Implantação do Exchange UM do Lync Server local")
+![Implantação de UM do Exchange do Lync Server local](images/Gg398512.75258286-1f23-487b-bf46-d8538e7d540e(OCS.15).jpg "Implantação de UM do Exchange do Lync Server local")
 
-O roteamento do Exchange UM pode ser configurado para direcionar chamadas para usuários que estão habilitados para o Exchange um local, para usuários que estão habilitados para um Exchange UM hospedado ou para uma combinação dos dois.
+O roteamento da UM do Exchange pode ser configurado para rotear chamadas para usuários habilitados para um do Exchange local, para usuários habilitados para um do Exchange hospedado ou para uma combinação dos dois.
 
-Por exemplo, suponha que a caixa de correio de Roy e o serviço do Exchange UM sejam hospedados em uma implantação local do Exchange.
+Por exemplo, suponha que a caixa de correio da Roy e o serviço UM do Exchange estejam hospedados em uma implantação local do Exchange.
 
-  - As informações de endereço proxy da conta de usuário Roy fornecem as informações que o aplicativo de roteamento ExUM usa para direcionar as chamadas para um servidor do Exchange UM local.
+  - As informações de endereço de proxy da conta de usuário Roy fornecem as informações que o aplicativo de roteamento ExUM usa para rotear chamadas para um servidor de UM do Exchange local.
 
-A caixa de correio de Alice e o serviço do Exchange UM estão localizados em um data center do provedor de serviços do Exchange hospedado. O roteamento para suas chamadas de UM do Exchange é configurado da seguinte maneira:
+A caixa de correio de Alice e o serviço UM do Exchange estão localizados em um data center do provedor de serviço do Exchange hospedado. O roteamento de suas chamadas de UM do Exchange é configurado da seguinte maneira:
 
-  - Os valores definidos no atributo msExchUCVoiceMailSettings da conta de usuário de Alice dizem para o aplicativo de roteamento ExUM verificar se há detalhes de roteamento em uma política de caixa postal hospedada.
+  - Os valores definidos no atributo msExchUCVoiceMailSettings de conta de usuário de Alice solicitam que o aplicativo ExUM Routing verifique os detalhes de encaminhamento em uma política de caixa postal hospedada.
     
     <div>
     
 
     > [!NOTE]  
-    > O valor do atributo msExchUCVoiceMailSettings pode ser definido por um provedor de serviços do Exchange ou pelo administrador do Lync Server 2013. No exemplo mostrado no diagrama anterior, o valor (CsHostedVoiceMail = 1) foi definido pelo administrador do Lync Server 2013 para habilitar a caixa postal hospedada para Alice. Para obter detalhes sobre esse atributo, consulte <A href="lync-server-2013-hosted-exchange-user-management.md">Gerenciamento de usuários hospedados do Exchange no Lync Server 2013</A>.
+    > O valor do atributo msExchUCVoiceMailSettings pode ser definido pelo provedor de serviços do Exchange ou pelo administrador do Lync Server 2013. No exemplo mostrado no diagrama anterior, o valor (CsHostedVoiceMail = 1) foi definido pelo administrador do Lync Server 2013 para habilitar a caixa postal hospedada para Ana Maria. Para obter detalhes sobre esse atributo, consulte <A href="lync-server-2013-hosted-exchange-user-management.md">Hosted Exchange User Management in Lync Server 2013</A>.
 
     
     </div>
 
-  - A política de caixa postal hospedada que é atribuída à conta de usuário de Alice fornece detalhes de roteamento:
+  - A política de caixa postal hospedada atribuída à conta de usuário de Alice fornece os detalhes de encaminhamento:
     
-      - Destino é o provedor de serviços de UM do Exchange UM (ls) hospedado. ExUm. \<hostedExchangeServer\>. com neste exemplo).
+      - O destino é o provedor de serviços UM UM do Exchange hospedado (ls. ExUm. \<hostedExchangeServer\>. com neste exemplo).
     
-      - As organizações são identificadas pelas IDs de locatários, que são os FQDNs de roteamento para as mensagens SIP para locatários do Exchange Server localizados em ls. ExUm. \<hostedExchangeServer\>. com (Corp.contoso.com e Corp.litwareinc.com neste exemplo).
+      - As organizações são identificadas pelas IDs de locatário, que são os FQDNs de roteamento para mensagens SIP para locatários do Exchange Server que estão localizados na ls. ExUm. \<hostedExchangeServer\>. com (Corp.contoso.com e Corp.litwareinc.com neste exemplo).
         
         <div>
         
@@ -83,13 +83,13 @@ A caixa de correio de Alice e o serviço do Exchange UM estão localizados em um
         
         </div>
         
-        Para obter detalhes, consulte [políticas de caixa postal hospedadas no Lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md).
+        Para obter detalhes, consulte [Hosted voice mail Policies in Lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md).
 
 <div>
 
 
 > [!NOTE]  
-> Se o atributo msExchUCVoiceMailSettings e as configurações de endereço de proxy de UM estiverem presentes em uma conta de usuário, o atributo msExchUCVoiceMailSettings terá precedência.
+> Se o atributo msExchUCVoiceMailSettings e as configurações de endereço proxy do UM estiverem presentes em uma conta de usuário, o atributo msExchUCVoiceMailSettings prevalecerá.
 
 
 

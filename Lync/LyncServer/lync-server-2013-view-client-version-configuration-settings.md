@@ -12,20 +12,20 @@ ms:contentKeyID: 50675353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6c789275cf33b48e27d60de9a9f9846fc230276
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4213008c20181f7525c7cf62eb316820abe66f3f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731111"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007190"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-client-version-configuration-settings-in-lync-server-2013"></a>Exibir as configurações de versão do cliente no Lync Server 2013
+# <a name="view-client-version-configuration-settings-in-lync-server-2013"></a>Exibir as definições de configuração de versão do cliente no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41731111"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-23_
+_**Última modificação do tópico:** 2013-02-23_
 
-As configurações da versão cliente são usadas para ativar ou desativar o controle de versão do cliente. A configuração de versão do cliente global é instalada com o Lync Server 2013 e é usada para habilitar ou desabilitar o controle de versão do cliente para toda a implantação do servidor. Quando a configuração Global é habilitada, quaisquer políticas de versão do cliente existentes entrarão em vigor quando os usuários tentarem fazer logon. Você pode exibir as configurações de versão do cliente no painel de controle do Lync Server 2013 ou no Shell de gerenciamento do Lync Server 2013.
+As configurações da versão cliente são usadas para ativar ou desativar o controle de versão do cliente. A configuração de versão do cliente global é instalada com o Lync Server 2013 e é usada para habilitar ou desabilitar o controle de versão do cliente para toda a implantação do servidor. Quando a configuração Global é habilitada, quaisquer políticas de versão do cliente existentes entrarão em vigor quando os usuários tentarem fazer logon. Você pode exibir as definições de configuração de versão do cliente no painel de controle do Lync Server 2013 ou no Shell de gerenciamento do Lync Server 2013.
 
 <div>
 
@@ -51,13 +51,13 @@ As configurações da versão cliente são usadas para ativar ou desativar o con
 
 <div>
 
-## <a name="to-view-client-version-configuration-settings-by-using-lync-server-control-panel"></a>Para exibir as configurações de versão do cliente usando o painel de controle do Lync Server
+## <a name="to-view-client-version-configuration-settings-by-using-lync-server-control-panel"></a>Para exibir as definições de configuração de versão do cliente usando o painel de controle do Lync Server
 
-1.  Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+1.  Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação à esquerda, clique em **clientes**e, em seguida, clique no botão de navegação **configuração de versão do cliente** .
+3.  Na barra de navegação esquerda, clique em **clientes**e, em seguida, clique no botão de navegação **configuração da versão do cliente** .
 
 4.  Clique duas vezes no nome da configuração de versão do cliente que você deseja exibir.
 
@@ -65,19 +65,19 @@ As configurações da versão cliente são usadas para ativar ou desativar o con
 
 <div>
 
-## <a name="viewing-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a>Exibindo as configurações de versão do cliente usando cmdlets do Windows PowerShell
+## <a name="viewing-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a>Exibindo as definições de configuração de versão do cliente usando cmdlets do Windows PowerShell
 
-Você pode exibir as configurações de versão do cliente usando o cmdlet **Get-CsClientVersionConfiguration** . Esse cmdlet pode ser executado no Shell de gerenciamento do Lync Server 2013 ou em uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.
+Você pode exibir as definições de configuração de versão do cliente usando o cmdlet **Get-CsClientVersionConfiguration** . Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
 
 <div>
 
-## <a name="to-view-client-version-configuration-information"></a>Para exibir as informações de configuração da versão do cliente
+## <a name="to-view-client-version-configuration-information"></a>Para exibir informações de configuração de versão do cliente
 
-  - Para ver informações sobre todas as suas configurações de versão do cliente, digite o seguinte comando no Shell de gerenciamento do Lync Server e pressione ENTER:
+  - Para exibir informações sobre todas as definições de configuração de versão do cliente, digite o seguinte comando no Shell de gerenciamento do Lync Server e pressione ENTER:
     
         Get-CsClientVersionConfiguration
     
-    Isso retornará informações parecidas com:
+    Isto retorna informações semelhantes à seguinte:
     
         Identity      : Global
         DefaultAction : Allow
@@ -86,7 +86,7 @@ Você pode exibir as configurações de versão do cliente usando o cmdlet **Get
 
 </div>
 
-Para obter detalhes, consulte o tópico da ajuda para o cmdlet [Get-CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionConfiguration) .
+Para obter detalhes, consulte o tópico de ajuda para o cmdlet [Get-CsClientVersionConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsClientVersionConfiguration) .
 
 </div>
 

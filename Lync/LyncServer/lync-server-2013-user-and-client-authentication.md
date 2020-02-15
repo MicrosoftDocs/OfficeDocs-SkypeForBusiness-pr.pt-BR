@@ -12,16 +12,16 @@ ms:contentKeyID: 59893868
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c9c91f1b8355c95ceb3deae5f07e5c95710d036
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 21f2fa918acf01d9d13e44e0731825dd51b3d918
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744601"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033960"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,40 +35,40 @@ ms.locfileid: "41744601"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-11-11_
+_**Última modificação do tópico:** 2013-11-11_
 
-Um usuário confiável é aquele cujas credenciais foram autenticadas por um servidor confiável no Microsoft Lync Server 2013. Este servidor geralmente é um servidor Standard Edition, um servidor front-end da edição Enterprise ou um diretor. O Lync Server 2013 depende dos serviços de domínio Active Directory como o repositório de back-end único confiável de credenciais do usuário.
+Um usuário confiável é aquele cujas credenciais foram autenticadas por um servidor confiável no Microsoft Lync Server 2013. Esse servidor geralmente é um Standard Edition, Front-End Enterprise Edition ou Diretor. O Lync Server 2013 depende dos serviços de domínio do Active Directory como o repositório de back-end único e confiável das credenciais do usuário.
 
-Autenticação é o provisionamento de credenciais de usuário em um servidor confiável. O Lync Server 2013 usa os seguintes protocolos de autenticação, dependendo do status e do local do usuário.
+A autenticação é a provisão das credenciais do usuário em um servidor confiável. O Lync Server 2013 usa os seguintes protocolos de autenticação, dependendo do status e do local do usuário.
 
-  - **Protocolo de segurança MIT Kerberos versão 5** para usuários internos com credenciais do Active Directory. O Kerberos exige conectividade do cliente com os serviços de domínio Active Directory, o que é porque ele não pode ser usado para autenticar clientes fora do firewall corporativo.
+  - **Protocolo de segurança MIT Kerberos versão 5** para usuários internos com credenciais do Active Directory. O protocolo Kerberos requer conectividade de cliente com os Serviços de Domínio Active Directory; é por isso que ele não pode ser usado para autenticar clientes fora do firewall corporativo.
 
-  - **Protocolo NTLM** para usuários com credenciais do Active Directory conectadas de um ponto de extremidade fora do firewall corporativo. O serviço de borda do Access passa solicitações de logon para um diretor, se estiver presente ou um servidor front-end para autenticação. O serviço de borda de acesso não realiza nenhuma autenticação.
+  - **Protocolo NTLM** para usuários com credenciais do Active Directory que se conectam em um ponto de extremidade fora do firewall corporativo. O serviço de Borda de Acesso passa as solicitações de logon para um Diretor, caso ele esteja presente, ou para um Servidor Front-End para fins de autenticação. O próprio serviço de Borda de Acesso não executa nenhuma autenticação.
     
     <div>
     
 
     > [!NOTE]  
-    > O protocolo NTLM oferece proteção contra ataques mais fraca que o Kerberos; assim, algumas organizações minimizam o uso de NTLM. Como resultado, o acesso ao Lync Server 2013 pode estar restrito a clientes internos ou a clientes conectados por meio de uma conexão VPN ou DirectAccess.
+    > O protocolo NTLM oferece proteção de ataque mais fraca do que Kerberos, para que algumas organizações minimizem o uso de NTLM. Como resultado, o acesso ao Lync Server 2013 pode ser restrito a clientes internos ou conectados por meio de uma conexão VPN ou do DirectAccess.
 
     
     </div>
 
-  - **Protocolo Digest** para os chamados usuários anônimos. Usuários anônimos são usuários externos que não possuem credenciais reconhecidas do Active Directory, mas que foram convidados para uma conferência no local e possuem uma chave de conferência válida. A autenticação Digest não é usada para nenhuma outra interação do cliente.
+  - **Protocolo Digest** para os chamados usuários anônimos. Os usuários anônimos são usuários externos que não têm credenciais reconhecidas do Active Directory, mas que foram convidados para uma conferência no local e possuem uma chave de conferência válida. A autenticação Digest não é usada para outras interações de cliente.
 
 A autenticação do Lync Server 2013 consiste em duas fases:
 
 1.  Uma associação de segurança é estabelecida entre o cliente e o servidor.
 
-2.  O cliente e o servidor usam a associação de segurança existente para assinar mensagens enviadas e para verificar as mensagens recebidas. Mensagens não autenticadas de um cliente não são aceitas quando uma autenticação está habilitada no servidor.
+2.  O cliente e o servidor usam a associação de segurança existente para assinar as mensagens enviadas por eles e verificar as mensagens recebidas. As mensagens não autenticadas de um cliente não são aceitas quando a autenticação é habilitada no servidor.
 
-Uma marca da confiança do usuário é anexada a cada mensagem originária de um usuário, não à identidade do usuário em si. O servidor verifica se há credenciais de usuário válidas em cada mensagem. Se as credenciais de usuário forem válidas, a mensagem não será contestada nem pelo primeiro servidor, nem pelos outros servidores da nuvem de servidores confiáveis.
+A confiança de usuário é anexada a cada mensagem originada por um usuário, e não à própria identidade do usuário. O servidor verifica cada mensagem para saber se as credenciais do usuário são válidas. Se as credenciais do usuário forem válidas, a mensagem não será desafiada, não somente pelo primeiro servidor a recebê-la, mas por todos os outros servidores da gama de servidores confiáveis.
 
-Usuários com credenciais válidas emitidas por um parceiro federado são confiáveis, porém são opcionalmente impedidos por restrições adicionais de aproveitar toda a gama de privilégios concedidos aos usuários internos.
+Os usuários com credenciais válidas emitidas por um parceiro federado são confiáveis, mas opcionalmente impedidas por restrições adicionais de usufruir da gama completa de privilégios acordados para os usuários internos.
 
-Os protocolos ICE e TURN também utilizam o mecanismo de desafio Digest, conforme descrito no IETF TURN RFC.
+Os protocolos ICE e TURN também usam o desafio Digest, conforme descrito no IETF TURN RFC.
 
-Os certificados de cliente fornecem uma maneira alternativa para os usuários serem autenticados pelo Lync Server 2013. Em vez de fornecer um nome de usuário e senha, os usuários possuem um certificado e a chave privada correspondente ao certificado exigida para resolver um desafio criptográfico. (Esse certificado deve ter um nome de assunto ou um nome alternativo de assunto que identifique o usuário e deve ser emitido por uma autoridade de certificação raiz que seja confiável para os servidores que executam o Lync Server 2013, estando dentro do período de validade do certificado e não foram revogados.) Para ser autenticado, os usuários só precisam digitar um PIN (número de identificação pessoal). Os certificados são especialmente úteis para telefones e outros dispositivos que executam o Microsoft Lync 2013 Phone Edition, no qual é difícil digitar um nome de usuário e/ou senha.
+Os certificados de cliente fornecem uma maneira alternativa para que os usuários sejam autenticados pelo Lync Server 2013. Em vez de fornecer um nome de usuário e senha, os usuários têm um certificado e a chave privada correspondente ao certificado necessário para resolver um desafio criptográfico. (Esse certificado deve ter um nome de entidade ou de assunto alternativo que identifique o usuário e deve ser emitido por uma autoridade de certificação raiz que é confiável para servidores que executam o Lync Server 2013, estando dentro do período de validade do certificado e não foram revogados.) Para ser autenticado, os usuários só precisam digitar um PIN (número de identificação pessoal). Os certificados são particularmente úteis para telefones e outros dispositivos que executam o Microsoft Lync 2013 Phone Edition, onde é difícil inserir um nome de usuário e/ou senha.
 
 </div>
 

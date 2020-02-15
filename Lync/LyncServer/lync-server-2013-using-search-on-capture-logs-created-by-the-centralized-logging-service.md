@@ -1,5 +1,5 @@
 ---
-title: Usar a pesquisa em logs de captura criados pelo serviço de log centralizado
+title: Usando a pesquisa nos logs de captura criados pelo serviço de registro em log centralizado
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733571
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: edfc176934479aef04d6850a8ebbae3b38a553a8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9f9571f2efe08eb13091c3d3660e7760a8e805c8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744011"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007550"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-search-on-capture-logs-created-by-the-centralized-logging-service-in-lync-server-2013"></a>Usar a pesquisa em logs de captura criados pelo serviço de log centralizado no Lync Server 2013
+# <a name="using-search-on-capture-logs-created-by-the-centralized-logging-service-in-lync-server-2013"></a>Usando a pesquisa nos logs de captura criados pelo serviço de registro em log centralizado no Lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41744011"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-21_
+_**Última modificação do tópico:** 2013-02-21_
 
-Os recursos de pesquisa do serviço de log centralizado são úteis e eficientes pelos seguintes motivos:
+Os recursos de pesquisa do serviço de registro em log centralizado são úteis e eficientes pelos seguintes motivos:
 
-  - Sua pesquisa e os resultados correspondentes são executados em um único computador, em um escopo de pool, site ou global, com base no critério que você definir.
+  - Sua pesquisa e seus resultados são executados em um único computador, em um escopo de grupo, site ou global, com base no critério que você definir.
 
   - Suas pesquisas podem ser iniciadas de forma ampla e reduzidas para um critério mais definido como hora, componente ou computador. Você pesquisa nos mesmos registros e não precisa executar uma sessão de registro em log novamente quando o critério de pesquisa mudar.
 
-  - Os resultados da sua pesquisa são reunidos de todos os computadores e pools no escopo, coletados e agregados em um único arquivo de resultados que representa todos os resultados do critério de pesquisa (limitado para cenários em execução e os dados capturados pelos cenários). Você usa ferramentas conhecidas, como o **Snooper** ou o **Bloco de notas**, para ler o arquivo de resultados e rastrear mensagens pela sua implantação.
+  - Os resultados da sua pesquisa são reunidos de todos os computadores e pools no escopo, coletados e agregados em um único arquivo de resultados que representa todos os resultados do critério de pesquisa (limitado para cenários em execução e os dados capturados pelos cenários). Você usa ferramentas familiares como o **Snooper** ou o **Bloco de notas** para ler o arquivo de resultados e rastrear mensagens pela sua implantação.
 
-O CLSAgent em cada computador cria os logs com base no cenário ou cenários (dois cenários por computador podem estar funcionando em um determinado momento). Os logs e seu índice e arquivos de cache associados são gerenciados pelo CLSAgent. Ao definir e executar uma pesquisa, o comando de pesquisa instrui o CLSAgent sobre qual informação deve ser recuperada. O CLSAgent executa a consulta nos arquivos de log, arquivos de cache e arquivos de índice e coloca-os na ordem de tempo delta, entrada mais antiga primeiro e continuando para a última entrada mais recente. O CLSController agrega (combina) os logs e os coloca na ordem de tempo delta, da entrada mais antiga para a entrada mais recente.
+O CLSAgent em cada computador cria os logs com base no cenário ou cenários (dois cenários por computador podem estar funcionando em um determinado momento). Os logs e seu índice e arquivos de cache associados são gerenciados pelo CLSAgent. Ao definir e executar uma pesquisa, o comando de pesquisa instrui o CLSAgent sobre qual informação deve ser recuperada. O CLSAgent executa a consulta nos arquivos de log, arquivos de cache e arquivos de índice e coloca-os na ordem de tempo delta, entrada mais antiga primeiro e continuando para a última entrada mais recente. O CLSController agrega (combina) os logs e os coloca na ordem de tempo delta, entrada mais antiga primeiro e continuando para a última entrada mais recente.
 
 Após cada pesquisa, o cmdlet **Sync-CsClsLogging** é executado e descarrega o cache usado pelas pesquisas (não deve ser confundido com os arquivos de cache mantidos pelo CLSAgent). Descarregar o cache ajuda a garantir que há um log limpo e um armazenamento de captura de arquivo de rastreamento no CLSController para a próxima operação de pesquisa.
 
-Para aproveitar ao máximo o serviço de registro centralizado, você precisa de uma boa compreensão de como configurar a pesquisa para retornar apenas mensagens de rastreamento do computador e dos logs de pool que sejam relevantes para o problema que você está pesquisando. problemas
+Para aproveitar ao máximo o serviço de registro em log centralizado, você precisa de uma boa compreensão de como configurar a pesquisa para retornar apenas mensagens de rastreamento dos logs de computador e pool que são relevantes para o problema que você está pesquisando. problemas
 
-Para executar as funções de pesquisa de serviço de log centralizado usando o Shell de gerenciamento do Lync Server, você deve ser membro do grupo de segurança CsAdministrator ou do controle de acesso baseado em função do CsServerAdministrator (RBAC) ou uma função RBAC personalizada que contém qualquer um desses dois grupos. Para retornar uma lista de todas as funções RBAC às quais este cmdlet foi atribuído (incluindo qualquer função RBAC personalizada que você criou), execute o seguinte comando no Shell de gerenciamento do Lync Server ou no prompt do Windows PowerShell:
+Para executar as funções de pesquisa do serviço de registro em log centralizado usando o Shell de gerenciamento do Lync Server, você deve ser membro dos grupos de segurança do controle de acesso baseado em função do CsAdministrator ou do CsServerAdministrator, ou uma função RBAC personalizada que contenha um desses dois grupos. Para retornar uma lista de todas as funções RBAC às quais este cmdlet foi atribuído (incluindo qualquer função RBAC personalizada que você criou sozinho), execute o seguinte comando no Shell de gerenciamento do Lync Server ou no prompt do Windows PowerShell:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Lync Server 2013 cmdlet"}
 
@@ -59,15 +59,15 @@ Por exemplo:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
-O lembrete deste tópico se concentra em como definir uma pesquisa para otimizar sua resolução de problemas.
+O lembrete deste tópico se focaliza em como definir uma pesquisa para otimizar sua resolução de problemas.
 
 <div>
 
-## <a name="to-run-a-basic-search-by-using-the-centralized-logging-service"></a>Para executar uma pesquisa básica usando o serviço de log centralizado
+## <a name="to-run-a-basic-search-by-using-the-centralized-logging-service"></a>Para executar uma pesquisa básica usando o serviço de registro em log centralizado
 
-1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
-2.  Verifique se você tem o cenário AlwaysOn em execução na sua implantação no escopo global e digite o seguinte no prompt de comando:
+2.  Certifique-se de ter o cenário AlwaysOn em execução na sua implantação no escopo global e digite o seguinte no prompt de comando:
     
         Search-CsClsLogging -OutputFilePath <string value of path and file to write the output file>
     
@@ -75,7 +75,7 @@ O lembrete deste tópico se concentra em como definir uma pesquisa para otimizar
     
 
     > [!NOTE]
-    > Por padrão, o Search-CsClsLogging envia os resultados da pesquisa para o console. Se você quiser salvar os resultados da pesquisa em um arquivo, use – caminho &lt;&gt;de arquivo totalmente qualificado de cadeia de caracteres OutputFilePath. Para definir o parâmetro –OutputFilePath, ofereça um caminho e um nome de arquivo como parte do parâmetro em um formato de sequência entre aspas (por exemplo: C:\LogFiles\SearchOutput.txt). Neste exemplo, é necessário garantir que o diretório C:\LogFiles existe e que você tem permissões para arquivos de Leitura e Gravação (permissão NTFS Modificar) na pasta. O resultado é anexado, não substituído. Se você precisa separar arquivos, defina um nome de arquivo diferente para cada pesquisa.
+    > Por padrão, o Search-CsClsLogging envia os resultados da pesquisa para o console. Se você deseja salvar os resultados da pesquisa em um arquivo, use – caminho &lt;&gt;de arquivo totalmente qualificado de cadeia de caracteres OutputFilePath. Para definir o parâmetro –OutputFilePath, ofereça um caminho e um nome de arquivo como parte do parâmetro em um formato de sequência entre aspas (por exemplo; C:\LogFiles\SearchOutput.txt). Neste exemplo, você deve garantir que o diretório C:\LogFiles exista e que você possui permissões para arquivos de Leitura e Gravação (permissão NTFS Modificar) na pasta. O resultado é anexado e não é substituído. Se você precisa separar arquivos, defina um nome de arquivo diferente para cada pesquisa.
 
     
     </div>
@@ -88,9 +88,9 @@ O lembrete deste tópico se concentra em como definir uma pesquisa para otimizar
 
 <div>
 
-## <a name="to-run-a-basic-search-on-a-pool-or-computer-by-using-the-centralized-logging-service"></a>Para executar uma pesquisa básica em um pool ou computador usando o serviço de log centralizado
+## <a name="to-run-a-basic-search-on-a-pool-or-computer-by-using-the-centralized-logging-service"></a>Para executar uma pesquisa básica em um pool ou computador usando o serviço de registro em log centralizado
 
-1.  Para limitar a pesquisa para um pool ou computador específico, use o parâmetro –Computers com o computador definido por um nome totalmente qualificado do computador, entre aspas e separado por vírgulas, como a seguir:
+1.  Para limiar a pesquisa para um pool ou computador específico, use o parâmetro –Computers com o computador definido por um nome totalmente qualificado do computador, entre aspas e separado por vírgulas, como a seguir:
     
         Search-CsClsLogging -Computers <string value of computer names> -OutputFilePath <string value of path and file to write the output file>
     
@@ -108,7 +108,7 @@ O lembrete deste tópico se concentra em como definir uma pesquisa para otimizar
     
         Search-CsClsLogging -Pools "pool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
 
-4.  Ao usar os comandos de pesquisa, os pools podem ser qualquer pool na sua implantação, como grupos de front-end, pools de borda, pools de servidores de chat persistentes ou outros definidos como um pool na sua implantação.
+4.  Ao usar os comandos de pesquisa, os pools podem ser qualquer pool em sua implantação, como pools de front-ends, pools de borda, pools de servidores de chat persistentes ou outros definidos como um pool em sua implantação.
     
     Por exemplo:
     
@@ -120,9 +120,9 @@ O lembrete deste tópico se concentra em como definir uma pesquisa para otimizar
 
 ## <a name="to-run-a-search-by-using-time-parameters"></a>Para executar uma pesquisa usando parâmetros de tempo
 
-1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
-2.  Por padrão, a hora de início dos parâmetros específicos do tempo de pesquisa é de 30 minutos antes da hora em que você iniciar a pesquisa. Em outras palavras, se você iniciar a pesquisa em 4:00:00 PM, a pesquisa pesquisará os logs dos computadores e pools que você definir do 3:30:00 PM até 4:00:00 PM. Se você precisa pesquisar 60 minutos ou 3 horas antes da hora atual, use o parâmetro –StartTime e defina a sequência de data e hora para indicar a hora que você deseja que a pesquisa inicie.
+2.  Por padrão, o horário inicial para o parâmetro de tempo específico da pesquisa é 30 minutos antes da hora que você iniciar a pesquisa. Em outras palavras, se você iniciar sua pesquisa às 16:00 horas, irá pesquisar os registros dos computadores e pools que você definir de 15:30 horas as 16:00 horas. Se você precisa pesquisar 60 minutos ou 3 horas antes da hora atual, use o parâmetro –StartTime e defina a sequência de data e hora para indicar a hora que você deseja que a pesquisa inicie.
     
     Por exemplo, usando –StartTime e –EndTime para definir um intervalo de data e hora, é possível definir uma pesquisa entre 8 e 9 horas no dia 20/11/2012 em seu pool. Você pode definir o caminho de saída para gravar os resultados em um arquivo denominado c\\: logfile. txt da seguinte maneira:
     
@@ -132,7 +132,7 @@ O lembrete deste tópico se concentra em como definir uma pesquisa para otimizar
     
 
     > [!NOTE]
-    > A sequência data e hora que você especificar pode ser “data hora” ou “hora data”. "O comando irá analisar a cadeia de caracteres e usar os valores apropriados para data e hora.
+    > A cadeia de hora e data que você especifica pode ser "data hora" ou "data de hora. "O comando analisará a cadeia de caracteres e usará os valores apropriados para data e hora.
 
     
     </div>
@@ -155,7 +155,7 @@ O lembrete deste tópico se concentra em como definir uma pesquisa para otimizar
 
 ## <a name="to-run-an-advanced-search-by-using-other-criteria-and-matching-options"></a>Para executar uma pesquisa avançada usando outro critério e opções correspondentes
 
-1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 2.  Para executar um comando para coletar rastreamentos de componentes específicos, digite o seguinte:
     
@@ -167,7 +167,7 @@ O lembrete deste tópico se concentra em como definir uma pesquisa para otimizar
     
     A pesquisa resultante retorna todas as entradas de log com componentes de rastreamento para SIPStack, S4 e UserServices em todos os computadores e pools na sua implantação pelos últimos 30 minutos.
 
-3.  Para limitar a pesquisa com os mesmos componentes para apenas o pool de front-end chamado pool01.contoso.net, digite:
+3.  Para limitar a pesquisa com os mesmos componentes para apenas o seu pool de front-ends chamado pool01.contoso.net, digite:
     
         Search-CsClsLogging -Components "SIPStack","S4","UserServices" -OutputFilePath "C:\Logfiles\logfile.txt"
 

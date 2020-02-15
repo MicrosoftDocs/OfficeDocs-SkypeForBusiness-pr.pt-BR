@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Pré-requisitos do Enterprise Voice'
+title: 'Lync Server 2013: pré-requisitos do Enterprise Voice'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185746
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d04b94fe5d31c4105d58651b2bc5fa5635bddde
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4289d79be09b1bfbcb9d11e53d97ef2ee9a37dca
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735401"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41993516"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41735401"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-08-06_
+_**Última modificação do tópico:** 2012-08-06_
 
-Para obter a melhor experiência ao implantar o Enterprise Voice, certifique-se de que sua infraestrutura de ti, rede e sistemas atendam aos pré-requisitos descritos nos tópicos desta seção.
+Para uma melhor experiência na hora de implantar o Enterprise Voice, verifique se a infraestrutura de TI, a rede e os sistemas atendem aos pré-requisitos descritos nos tópicos desta seção.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Pré-requisitos de software para Enterprise Voice no Lync Server 2013](lync-server-2013-software-prerequisites-for-enterprise-voice.md)
+  - [Pré-requisitos de software para o Enterprise Voice no Lync Server 2013](lync-server-2013-software-prerequisites-for-enterprise-voice.md)
 
-  - [Pré-requisitos de configuração e segurança para o Enterprise Voice no Lync Server 2013](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md)
+  - [Pré-requisitos de segurança e configuração para o Enterprise Voice no Lync Server 2013](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md)
 
 </div>
 

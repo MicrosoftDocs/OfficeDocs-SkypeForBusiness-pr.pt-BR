@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Componentes e topologias para tronco SIP'
+title: 'Lync Server 2013: componentes e topologias para tronco SIP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184775
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d30c589ff02717ad49ce89d0d4e3324f6fe993e9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a9e31b7cc0ea6e5acec0382ecd468a868152570d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742561"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007971"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41742561"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-21_
+_**Última modificação do tópico:** 2012-09-21_
 
-A figura a seguir ilustra a topologia de entroncamento SIP no Lync Server.
+A figura a seguir ilustra a topologia de tronco SIP no Lync Server.
 
-**Topologia de troncos SIP**
+**Topologia de tronco SIP**
 
-![Topologia de entroncamento SIP](images/Gg398720.669fb55d-7c81-4e21-9421-fabc43d6e064(OCS.15).jpg "Topologia de entroncamento SIP")
+![Topologia de tronco SIP](images/Gg398720.669fb55d-7c81-4e21-9421-fabc43d6e064(OCS.15).jpg "Topologia de tronco SIP")
 
-Conforme mostra o diagrama, uma VPN (rede virtual privada) IP é usada para a conectividade entre a rede corporativa e o provedor de serviços da rede de telefonia pública comutada (PSTN). O objetivo desta rede privada é fornecer conectividade IP, aprimorar a segurança e (opcionalmente) obter garantias de qualidade de serviços (QoS). Devido à natureza de uma VPN, não é necessário usar protocolo TLS para o tráfego de sinalização SIP ou SRTP para tráfego de mídia.  As conexões entre a empresa e o provedor de serviços consistem, portanto, em conexões TCP básicas para SIP e RTP básico (via protocolo UDP) em mídia encapsulada através de uma VPN IP. Certifique-se de que todos os firewalls entre os roteadores VPN possuem portas abertas para permitir a comunicação e que os endereços IP nas bordas externas dos roteadores VPN sejam roteáveis publicamente.
+Conforme mostrado no diagrama, uma rede virtual privada (VPN) de IP é usada para conectividade entre a rede corporativa e o provedor de serviços PSTN (rede telefônica pública comutada). A finalidade dessa rede privada é fornecer conectividade IP, aumentar a segurança e (opcionalmente) obter garantias de qualidade de serviço (QoS). Devido à natureza de uma VPN, não é necessário usar o protocolo TLS (Transport Layer Security) para o tráfego de sinalização SIP ou SRTP (Secure real-time Transport Protocol) para o tráfego de mídia. As conexões entre a empresa e o provedor de serviços consistem em conexões TCP simples para SIP e RTP (protocolo de transporte em tempo real) simples (via UDP) para mídia encapsulada por meio de uma VPN IP. Certifique-se de que todos os firewalls entre os roteadores VPN tenham portas abertas para permitir que os roteadores VPN se comuniquem e que os endereços IP nas bordas externas dos roteadores VPN sejam roteáveis publicamente.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Contate seu provedor de serviços para determinar se ele oferece suporte para alta disponibilidade, incluindo failover. Em caso positivo, você precisará determinar os procedimentos para configurá-lo. Por exemplo, você precisa configurar apenas um endereço IP e um tronco SIP em cada servidor de mediação ou precisa configurar vários troncos SIP em cada servidor de mediação?<BR>Se você tiver vários sites centrais, verifique também se o provedor de serviço tem a capacidade de habilitar conexões para e de outro site central.
+> Entre em contato com seu provedor de serviços para determinar se ele oferece suporte para alta disponibilidade, incluindo failover. Em caso afirmativo, será necessário determinar os procedimentos para configurá-lo. Por exemplo, você precisa configurar apenas um endereço IP e um tronco SIP em cada servidor de mediação ou precisa configurar vários troncos SIP em cada servidor de mediação?<BR>Se você tiver vários sites centrais, verifique também se o provedor de serviços tem a capacidade de habilitar conexões de e para outro site central.
 
 
 
@@ -59,7 +59,7 @@ Conforme mostra o diagrama, uma VPN (rede virtual privada) IP é usada para a co
 
 
 > [!NOTE]  
-> Para o entroncamento SIP, é altamente recomendável implantar servidores de mediação autônomos. Para obter detalhes, consulte <A href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">implantação de servidores de mediação e definição de pares no Lync Server 2013</A> na documentação de implantação.
+> Para troncos SIP, é altamente recomendável implantar servidores de mediação autônomos. Para obter detalhes, consulte <A href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">Deploying Mediation Servers and define Peers in Lync Server 2013</A> na documentação de implantação.
 
 
 
@@ -67,27 +67,27 @@ Conforme mostra o diagrama, uma VPN (rede virtual privada) IP é usada para a co
 
 <div>
 
-## <a name="securing-the-mediation-server-for-sip-trunking"></a>Como proteger o Servidor de Mediação para troncos SIP
+## <a name="securing-the-mediation-server-for-sip-trunking"></a>Protegendo o servidor de mediação para tronco SIP
 
-Para fins de segurança, você deve configurar uma LAN virtual (VLAN) para cada conexão entre os dois roteadores VPN. O processo real para configurar uma VLAN varia de um fabricante de roteador para outro. Para detalhes, entre em contato com o fornecedor do seu roteador.
+Para fins de segurança, você deve configurar uma VLAN (LAN virtual) para cada conexão entre os dois roteadores VPN. O processo real para configurar uma VLAN varia de um fabricante de roteador para outro. Para obter detalhes, entre em contato com o fornecedor do roteador.
 
-É recomendável seguir estas diretrizes:
+Recomendamos que você siga estas diretrizes:
 
-  - Configure uma VLAN (LAN virtual) entre o servidor de mediação e o roteador VPN na rede de perímetro (também conhecido como DMZ, zona desmilitarizada e sub-rede filtrada).
+  - Configure uma LAN virtual (VLAN) entre o servidor de mediação e o roteador VPN na rede de perímetro (também conhecida como DMZ, zona desmilitarizada e sub-rede filtrada).
 
-  - Não permita que pacotes de transmissão ou multicast sejam transferidos do roteador para a VLAN.
+  - Não permita que pacotes de difusão ou multicast sejam transferidos do roteador para a VLAN.
 
-  - Bloqueie todas as regras de roteamento que roteiam o tráfego do roteador para qualquer lugar, mas o servidor de mediação.
+  - Bloquear qualquer regra de roteamento que roteia o tráfego do roteador para qualquer lugar, exceto o servidor de mediação.
 
-Se você usa um servidor VPN, é recomendável seguir as seguintes diretrizes:
+Se você usar um servidor VPN, recomendamos seguir estas diretrizes:
 
-  - Configurar uma VLAN entre o servidor VPN e o servidor de mediação.
+  - Configure uma VLAN entre o servidor VPN e o servidor de mediação.
 
-  - Não permita que pacotes de transmissão ou multicast sejam transferidos do servidor VPN para a VLAN.
+  - Não permita que pacotes de difusão ou multicast sejam transmitidos do servidor VPN para a VLAN.
 
-  - Bloqueie qualquer regra de roteamento que roteia o tráfego do servidor VPN para qualquer lugar, mas o servidor de mediação.
+  - Bloquear qualquer regra de roteamento que roteia o tráfego do servidor VPN para qualquer lugar, exceto o servidor de mediação.
 
-  - Criptografe dados na VPN usando GRE (encapsulamento de roteamento genérico).
+  - Criptografe os dados na VPN usando o GRE (encapsulamento de roteamento genérico).
 
 </div>
 

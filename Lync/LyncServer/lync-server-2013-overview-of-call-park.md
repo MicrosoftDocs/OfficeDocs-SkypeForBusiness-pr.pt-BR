@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: visão geral do parque de chamadas'
+title: 'Lync Server 2013: visão geral do estacionamento de chamada'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184939
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5deeff873b37c0056bf03c598c39e448cba4379
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4ee07801baec7de4ee04717073dae5c0089501b2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755585"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034351"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-call-park-in-lync-server-2013"></a>Visão geral do estacionamento de chamadas no Lync Server 2013
+# <a name="overview-of-call-park-in-lync-server-2013"></a>Visão geral do estacionamento de chamada no Lync Server 2013
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "41755585"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-29_
+_**Última modificação do tópico:** 2012-10-29_
 
-O aplicativo do Lync Server 2013 Call Park permite que os usuários do Enterprise Voice realizem qualquer um destes procedimentos:
+O aplicativo de estacionamento de chamada do Lync Server 2013 permite que os usuários do Enterprise Voice realizem qualquer um dos seguintes procedimentos:
 
-  - Colocar uma chamada em espera e recuperá-la no mesmo telefone ou em outro.
+  - Colocar uma chamada em espera e, em seguida, recuperar a chamada do mesmo telefone ou de outro telefone.
 
-  - Colocar uma chamada em espera para transferi-la para um departamento ou área geral, por exemplo, um departamento de vendas ou um depósito onde há um telefone de área comum.
+  - Colocar uma chamada em espera para transferi-la para um departamento ou área geral (por exemplo, para um departamento de vendas ou um depósito onde há um telefone de área comum).
 
-  - Colocar uma chamada em espera e manter o telefone original livre para outras chamadas.
+  - Colocar uma chamada em espera e manter o telefone de resposta original livre para outras chamadas.
 
-Quando um usuário representa uma chamada, o Lync Server transfere a chamada para um número temporário, chamado de *órbita*, em que a chamada é mantida até ser recuperada ou expirada. O Lync Server envia a órbita para o usuário que estaciona a chamada. Para recuperar a chamada estacionada, o usuário pode discar o número de órbita ou clicar no link de órbita ou na janela de Conversação.
+Quando um usuário armazena uma chamada, o Lync Server transfere a chamada para um número temporário, chamado de *órbita*, onde a chamada é mantida até que seja recuperada ou o tempo limite se esgote. O Lync Server envia a órbita para o usuário que estaciona a chamada. Para recuperar a chamada estacionada, o usuário pode discar o número de órbita ou clicar no botão ou link de órbita na janela de conversa.
 
-O usuário que estacionou uma chamada pode notificar alguém para recuperar a chamada usando um mecanismo externo, como mensagens instantâneas ou um sistema de paginação, para comunicar o número de órbita para outra pessoa. O usuário que estacionou a chamada pode deixar a janela de Conversação aberta para receber notificações quando a chamada for recuperada.
+O usuário que estaciona uma chamada pode notificar alguém para recuperar a chamada usando um mecanismo externo, como mensagens instantâneas (IM) ou um sistema de paginação, para comunicar o número de órbita a outra pessoa. O usuário que estacionau a chamada pode deixar a janela de conversa aberta para receber uma notificação quando a chamada é recuperada.
 
-Como os intervalos de órbita são globalmente exclusivos, é possível recuperar chamadas de qualquer site do Lync Server ou de um telefone PBX se o roteamento estiver configurado apropriadamente. Se ninguém recuperar a chamada dentro do tempo configurável, a chamada tocará novamente para a pessoa que a estacionou. Se essa pessoa não atender, a chamada será transferida para um destino de fallback, como um operador, se assim estiver configurado. Você pode configurar o número de vezes que a chamada toca antes de ser transferida, entre uma a dez vezes. Se ninguém atender a chamada transferida, ela será desconectada. A órbita é liberada quando a chamada é recebida ou desconectada.
+Como os intervalos de órbita são globalmente exclusivos, é possível recuperar chamadas de qualquer site do Lync Server ou telefone PBX se o roteamento for configurado adequadamente. Se ninguém recuperar a chamada dentro de um período configurável, a chamada tocará de volta para a pessoa que o estacionasse. Se essa pessoa não atender ao retorno de toque, a chamada será transferida para um destino de fallback, como um operador, se configurada. Você pode configurar o número de vezes que a chamada toca antes de ser transferida de uma a dez vezes. Se ninguém responder a uma chamada transferida, a chamada será desconectada. A órbita é liberada quando a chamada é recuperada ou desconectada.
 
-Quando você implanta o Estacionamento de Chamada, precisa reservar intervalos de números de extensão para estacionar as chamadas. Essas extensões precisam ser extensões virtuais: extensões que não têm nenhum usuário ou telefone atribuído. Você configura a tabela de órbitas do estacionamento de chamada com os intervalos de números de extensões e especifica qual serviço de Aplicativo hospeda o aplicativo de Estacionamento de Chamada que lida com cada intervalo. Cada pool de front-ends tem uma tabela parque de chamadas no servidor back-end correspondente usado para gerenciar chamadas estacionadas no pool. A lista de intervalos de órbita é armazenada no repositório de gerenciamento central e é usada para rotear órbitas para o pool de destino. Cada pool do Lync Server onde o aplicativo de estacionamento de chamada é implantado e configurado pode ter um ou mais intervalos de órbita. As faixas órbitas devem ser globalmente exclusivas entre a implantação do Lync Server.
+Ao implantar o estacionamento de chamadas, você precisa reservar intervalos de números de ramal para o estacionamento de chamadas. Essas extensões precisam ser extensões virtuais: extensões que não têm nenhum usuário ou telefone atribuído a elas. Em seguida, você configura a tabela de órbita de estacionamento de chamada com os intervalos de números de ramal e especifica qual serviço de aplicativo hospeda o aplicativo de estacionamento de chamada que lida com cada intervalo. Cada pool de front-ends tem uma tabela de estacionamento de chamada no servidor back-end correspondente, que é usado para gerenciar chamadas estacionadas no pool. A lista de intervalos de órbita é armazenada no repositório de gerenciamento central e é usada para rotear órbitas para o pool de destino. Cada pool do Lync Server onde o aplicativo de estacionamento de chamada é implantado e configurado pode ter um ou mais intervalos de órbita. Os intervalos de órbita devem ser globalmente exclusivos na implantação do Lync Server.
 
-Você também define outras configurações de Estacionamento de Chamada, como para onde as chamadas são redirecionadas quando atingem o tempo limite e se a pessoa ao telefone ouve música enquanto aguarda. Você também pode especificar o arquivo de música a ser reproduzido enquanto a chamada está em espera.
+Você também define outras configurações de estacionamento de chamadas, como onde as chamadas são redirecionadas se o tempo limite se esgotarem e se a pessoa no telefone ouvirá música enquanto estacionada. Você também pode especificar o arquivo de música a ser tocado enquanto a chamada está em espera.
 
 <div>
 
 
 > [!NOTE]  
-> Os arquivos personalizados de música em espera para o estacionamento de chamadas não fazem backup como parte do processo de recuperação de desastres do Lync Server 2013 e serão perdidos se os arquivos carregados no pool estiverem danificados, corrompidos ou apagados. Mantenha sempre uma cópia de backup separada dos arquivos de música de espera personalizados que você enviar ao Estacionamento de Chamada.
+> Arquivos de música em espera personalizados para estacionamento de chamadas não são incluídos no backup como parte do processo de recuperação de desastres do Lync Server 2013 e serão perdidos se os arquivos carregados no pool estiverem danificados, corrompidos ou apagados. Mantenha sempre uma cópia de backup separada dos arquivos de música em espera personalizados que você carregou para o estacionamento de chamadas.
 
 
 
 </div>
 
-O aplicativo Estacionamento de Chamada é um componente do Enterprise Voice. Ao implantar o Enterprise Voice, o aplicativo de estacionamento de chamada é instalado e ativado automaticamente. No entanto, antes de poder usar o parque de chamadas, o administrador do Enterprise Voice deve configurá-lo e habilitá-lo para os usuários por meio da política de voz.
+O aplicativo de estacionamento de chamada é um componente do Enterprise Voice. Quando você implanta o Enterprise Voice, o aplicativo de estacionamento de chamada é instalado e ativado automaticamente. No entanto, antes de poder usar o estacionamento de chamada, o administrador do Enterprise Voice deve configurá-lo e habilitá-lo para os usuários por meio da política de voz.
 
 </div>
 

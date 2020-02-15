@@ -12,16 +12,16 @@ ms:contentKeyID: 48184225
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13bcb9dd285beaaf96e56aef1114751b74c290a6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9f12ecaef8c6dda3b7bcee1da02add88c6ed5c59
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740191"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41995496"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41740191"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-02_
+_**Última modificação do tópico:** 2012-10-02_
 
-O Lync Server 2013 dá suporte a dois tipos de fluxos de trabalho: grupo de buscas e resposta de voz interativa (IVR). Ao criar um fluxo de trabalho, use a ferramenta de configuração de grupo de resposta para especificar a fila a ser usada e outras configurações, como uma mensagem de boas-vindas, música em espera, horário comercial e perguntas que o aplicativo do grupo de resposta pede para o chamador.
+O Lync Server 2013 oferece suporte a dois tipos de fluxos de trabalho: grupo de busca e resposta de voz interativa (IVR). Ao criar um fluxo de trabalho, use a ferramenta de configuração de grupo de resposta para especificar a fila a ser usada e outras configurações, como uma mensagem de boas-vindas, música em espera, horário comercial e perguntas que o aplicativo grupo de resposta solicita o chamador.
 
 <div>
 
 
 > [!NOTE]  
-> Você deve criar grupos de agente e filas antes de criar um fluxo de trabalho que os utiliza. Se você quiser criar horários comerciais predefinidos e feriados que você pode usar para vários fluxos de trabalho, você também deve definir essas horas e feriados antes de criar um fluxo de trabalho que os use.
+> Você deve criar grupos de agente e filas antes de criar um fluxo de trabalho que os utiliza. Se desejar criar horários comerciais e feriados predefinidos que pode usar para vários fluxos de trabalho, você também deverá definir esses horários e feriados antes de criar um fluxo de trabalho que os utiliza.
 
 
 
@@ -53,7 +53,7 @@ O Lync Server 2013 dá suporte a dois tipos de fluxos de trabalho: grupo de busc
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Criar ou modificar um fluxo de trabalho de grupo coletivo no Lync Server 2013](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)
+  - [Criar ou modificar um fluxo de trabalho de grupo de busca no Lync Server 2013](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)
 
   - [Criar ou modificar um fluxo de trabalho interativo no Lync Server 2013](lync-server-2013-create-or-modify-an-interactive-workflow.md)
 
@@ -64,12 +64,12 @@ O Lync Server 2013 dá suporte a dois tipos de fluxos de trabalho: grupo de busc
 ## <a name="see-also"></a>Confira também
 
 
-[Criar ou modificar um grupo de agente no Lync Server 2013](lync-server-2013-create-or-modify-an-agent-group.md)  
+[Criar ou modificar um grupo de agentes no Lync Server 2013](lync-server-2013-create-or-modify-an-agent-group.md)  
 [Criar ou modificar uma fila no Lync Server 2013](lync-server-2013-create-or-modify-a-queue.md)  
-[Adicionais Definir conjuntos de feriados do grupo de resposta no Lync Server 2013](lync-server-2013-optional-define-response-group-holiday-sets.md)  
+[Opcion Definir os conjuntos de feriados do grupo de resposta no Lync Server 2013](lync-server-2013-optional-define-response-group-holiday-sets.md)  
 
 
-[Adicionais Definir o horário comercial do grupo de resposta no Lync Server 2013](lync-server-2013-optional-define-response-group-business-hours.md)  
+[Opcion Definir o horário comercial do grupo de resposta no Lync Server 2013](lync-server-2013-optional-define-response-group-business-hours.md)  
   
 
 </div>

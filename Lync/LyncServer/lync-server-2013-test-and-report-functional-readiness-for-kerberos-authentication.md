@@ -12,16 +12,16 @@ ms:contentKeyID: 48185519
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8763203827afd3d14638b68474c4f9bd9d6d0cfc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 870c0e19e2134c1a827485a5cacf2c055f99b0d4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746503"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006066"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41746503"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-01-16_
+_**Última modificação do tópico:** 2012-01-16_
 
-Para concluir esse procedimento com êxito, você deve estar conectado como um usuário que é membro do grupo RTCUniversalServerAdmins.
+Para concluir com sucesso este procedimento, você deve ter feito logon como usuário membro do grupo RTCUniversalServerAdmins.
 
-Você pode usar o cmdlet **Test-CsKerberosAccountAssignment** do Windows PowerShell para testar e relatar a prontidão funcional de uma atribuição de site para a autenticação Kerberos. Esse comando consulta o site especificado no parâmetro Identity necessário. O parâmetro de relatório opcional faz com que o cmdlet escreva um relatório HTML para\\C: registra o computador no qual o comando é executado. O parâmetro detalhado opcional relata as informações de atividade para a tela.
+Você pode usar o cmdlet **Test-CsKerberosAccountAssignment** do Windows PowerShell para testar e relatar a prontidão funcional de uma atribuição de site para autenticação Kerberos. Esse comando consulta o site especificado no parâmetro Identity necessário. O parâmetro de relatório opcional faz com que o cmdlet grave um relatório HTML em\\C: logs no computador no qual o comando é executado. O parâmetro Verbose opcional mostra as informações de atividade na tela.
 
 <div>
 
-## <a name="to-test-and-report-functional-readiness-for-kerberos-authentication-for-a-site"></a>Para testar e relatar a prontidão funcional para a autenticação Kerberos de um site
+## <a name="to-test-and-report-functional-readiness-for-kerberos-authentication-for-a-site"></a>Para testar e relatar a prontidão funcional da autenticação Kerberos de um site
 
-1.  Como membro do grupo RTCUniversalServerAdmins, faça logon em um computador no domínio que está executando o Lync Server 2013 ou no computador onde as ferramentas administrativas estão instaladas.
+1.  Como membro do grupo RTCUniversalServerAdmins, faça logon em um computador no domínio que executa o Lync Server 2013 ou no computador onde as ferramentas administrativas estão instaladas.
 
-2.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+2.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 3.  Na linha de comando, execute o seguinte comando:
     

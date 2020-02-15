@@ -12,20 +12,20 @@ ms:contentKeyID: 48185751
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 180cbbc79cba7f0379a832688ba7f9073b7b9798
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7926308c69c89c977705d5e4d51d73e78b46d1b4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737811"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41998276"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="analyzing-and-resolving-issues-identified-by-best-practices-analyzer-in-lync-server-2013"></a>Analisando e resolvendo problemas identificados pelo analisador de práticas recomendadas no Lync Server 2013
+# <a name="analyzing-and-resolving-issues-identified-by-best-practices-analyzer-in-lync-server-2013"></a>Analisando e resolvendo problemas identificados pelo Best Practices Analyzer no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41737811"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-25_
+_**Última modificação do tópico:** 2012-06-25_
 
-O analisador de práticas recomendadas não faz alterações no seu ambiente para resolver problemas. Ele detecta apenas possíveis problemas e exibe informações sobre como resolvê-los. Se você identificar os problemas que precisa resolver, é preciso determinar a solução adequada. Os tópicos desta seção ajudam você a identificar e resolver alguns dos problemas potenciais mais significativos.
+O analisador de práticas recomendadas não faz alterações no seu ambiente para resolver problemas. Ele detecta apenas possíveis problemas e exibe informações sobre como resolvê-los. Se você identificar problemas que precisa resolver, você deve determinar a solução apropriada. Os tópicos desta seção ajudam a identificar e resolver alguns dos problemas potenciais mais significativos.
 
 <div>
 

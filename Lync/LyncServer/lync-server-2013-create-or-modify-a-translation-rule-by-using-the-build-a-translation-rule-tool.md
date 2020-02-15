@@ -1,5 +1,5 @@
 ---
-title: Criar ou modificar uma regra de tradução usando a ferramenta criar regra de tradução
+title: Criar ou modificar uma regra de conversão usando a ferramenta compilar uma regra de conversão
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185224
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d45ca4e04146a175ec2782aa798ac27559fce495
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8321603c699fb0f25fc0a3a1b94e8b216761c6b4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722362"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006337"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool-in-lync-server-2013"></a>Criar ou modificar uma regra de tradução usando a ferramenta construir uma regra de tradução no Lync Server 2013
+# <a name="create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool-in-lync-server-2013"></a>Criar ou modificar uma regra de conversão usando a ferramenta compilar uma regra de conversão no Lync Server 2013
 
 </div>
 
@@ -35,51 +35,51 @@ ms.locfileid: "41722362"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-05_
+_**Última modificação do tópico:** 2012-10-05_
 
-Siga estas etapas se quiser definir uma regra de tradução inserindo um conjunto de valores na ferramenta **criar regra de tradução** e habilitando o painel de controle do Lync Server para gerar o padrão correspondente e a regra de tradução para você. Se preferir, é possível gravar uma expressão regular manualmente para definir o padrão de correspondência e a regra de conversão. Para obter detalhes, consulte [criar ou modificar uma regra de tradução manualmente no Lync Server 2013](lync-server-2013-create-or-modify-a-translation-rule-manually.md).
+Siga estas etapas se você quiser definir uma regra de conversão inserindo um conjunto de valores na ferramenta **criar uma regra de conversão** e habilitando o painel de controle do Lync Server para gerar o padrão correspondente e a regra de conversão para você. Se preferir, é possível gravar uma expressão regular manualmente para definir o padrão de correspondência e a regra de conversão. Para obter detalhes, consulte [criar ou modificar uma regra de conversão manualmente no Lync Server 2013](lync-server-2013-create-or-modify-a-translation-rule-manually.md).
 
 <div>
 
 ## <a name="to-define-a-rule-by-using-the-build-a-translation-rule-tool"></a>Para definir uma regra usando a ferramenta Compilar uma Regra de Conversão
 
-1.  Faça logon no computador como um membro do grupo RTCUniversalServerAdmins ou como um membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte [delegar permissões de configuração no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Faça logon no computador como um membro do grupo RTCUniversalServerAdmins ou como membro da função CsVoiceAdministrator, CsServerAdministrator ou CsAdministrator. Para obter detalhes, consulte [delegar permissões de configuração no Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Para começar a definir uma regra de tradução, siga as etapas em [configurar um tronco com bypass de mídia no Lync server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md) até a etapa 10 ou [configurar um tronco sem bypass de mídia no Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md) até a etapa 9.
+3.  Para começar a definir uma regra de conversão, siga as etapas em [configurar um tronco com bypass de mídia no Lync server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md) até a etapa 10 ou [configurar um tronco sem bypass de mídia no Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md) até a etapa 9.
 
-4.  Em  **Nome** na página  **Nova Regra de Conversão** ou **Editar Regra de Conversão**, digite um nome que descreve o padrão numérico que está convertido.
+4.  Em **Nome** na página **Nova Regra de Conversão** ou **Editar Regra de Conversão**, digite um nome que descreve o padrão numérico que está convertido.
 
-5.  (Opcional) Em  **Descrição**, digite uma descrição da regra de conversão, por exemplo  **US International long-distance dialing**.
+5.  (Opcional) Em **Descrição**, digite uma descrição da regra de conversão, por exemplo **Discagem de longa distância internacional EUA**.
 
-6.  Na seção  **Compilar uma Regra de Conversão** da caixa de diálogo, insira valores nos seguintes campos:
+6.  Na seção **Compilar uma Regra de Conversão** da caixa de diálogo, insira valores nos seguintes campos:
     
-      - **Dígitos iniciais**: (Opcional) especifique os dígitos iniciais dos números com os quais você deseja que o padrão corresponda. Por exemplo, insira **+** nesse campo para corresponder os números no formato E. 164 (que começa com +).
+      - **Dígitos iniciais**: (Opcional) especifique os dígitos iniciais dos números com os quais você deseja que o padrão corresponda. Por exemplo, insira **+** neste campo para corresponder os números no formato E. 164 (que começa com +).
     
-      - **Comprimento**: especifique o número de dígitos no padrão de correspondência e selecione se deseja que o padrão corresponda a números exatamente com esse comprimento, com um comprimento menor ou qualquer comprimento. Por exemplo, digite  **11** e selecione  **At least** na lista suspensa para fazer a correspondência de números com no mínimo 11 dígitos de comprimento.
+      - **Comprimento**: especifique o número de dígitos no padrão de correspondência e selecione se deseja que o padrão corresponda a números exatamente com esse comprimento, com um comprimento menor ou qualquer comprimento. Por exemplo, digite **11** e selecione **No mínimo** na lista suspensa para fazer a correspondência de números com no mínimo 11 dígitos de comprimento.
     
-      - **Dígitos a serem removidos**: (Opcional) especifique o número de dígitos iniciais a serem removidos. Por exemplo, insira **1** para distribuir o **+** do início do número.
+      - **Dígitos a serem removidos**: (Opcional) especifique o número de dígitos iniciais a serem removidos. Por exemplo, insira **1** para retirar o **+** desde o início do número.
     
-      - **Dígitos a adicionar**: (Opcional) especifique os dígitos a serem anexados aos números convertidos. Por exemplo, digite  **011** se quiser que 011 seja anexado aos números convertidos quando a regra for aplicada.
+      - **Dígitos a adicionar**: (Opcional) especifique os dígitos a serem anexados aos números convertidos. Por exemplo, digite **011** se quiser que 011 seja anexado aos números convertidos quando a regra é aplicada.
     
-    Os valores inseridos nesses campos são refletidos nos campos  **Padrão a ser correspondido** e  **Regra de conversão**. Por exemplo, se você especificar os valores do exemplo anterior, a expressão regular resultante no campo  **Padrão a ser correspondido** será:
+    Os valores inseridos nesses campos são refletidos nos campos **Padrão a ser correspondido** e **Regra de conversão**. Por exemplo, se você especificar os valores do exemplo anterior, a expressão regular resultante no campo **Padrão a ser correspondido** será:
     
-    **^\\+ (\\p{9}\\+) $**
+    **^\\+ (\\d{9}\\d +) $**
     
-    O campo  **Regra de conversão** especifica um padrão para o formato de números convertidos. Esse padrão tem duas partes:
+    O campo **Regra de conversão** especifica um padrão para o formato de números convertidos. Esse padrão tem duas partes:
     
-      - Um valor (por exemplo, **$1**) que representa o número de dígitos no padrão de correspondência
+      - Um valor (por exemplo, **$1**) que representa o número de dígitos no padrão correspondido
     
-      - Adicionais Um valor que você pode preceder inserindo-o no campo **dígitos para adicionar**
+      - (Opcional) Um valor que pode ser anexado digitando no campo **Dígitos a adicionar**
     
-    Usando os valores de exemplo anteriores, **011 $1** é exibido no campo **regra de tradução** .
+    Usando os valores do exemplo anterior, **011$1** aparece no campo **Regra de conversão**.
     
-    Quando essa regra de tradução é aplicada, + 441235551010 se torna 011441235551010.
+    Quando essa regra de conversão é aplicada, +441235551010 se torna 011441235551010.
 
 7.  Clique em **OK** para salvar a regra de tradução.
 
-8.  Clique em **OK** para salvar a configuração do tronco.
+8.  Clique em **OK** para salvar a configuração de tronco.
 
 9.  Na página **Configuração do Tronco**, clique em **Confirmar** e clique em **Confirmar tudo**.
     
@@ -87,7 +87,7 @@ Siga estas etapas se quiser definir uma regra de tradução inserindo um conjunt
     
 
     > [!NOTE]
-    > Sempre que você cria ou modifica uma regra de tradução, deve executar o comando <STRONG>Commit All</STRONG> para publicar a alteração de configuração. Para obter detalhes, consulte <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">publicar alterações pendentes na configuração de roteamento de voz no Lync Server 2013</A> na documentação de operações.
+    > Sempre que criar ou modificar uma regra de tradução, será necessário executar o comando <STRONG>Confirmar tudo</STRONG> para publicar a alteração de configuração. Para obter detalhes, consulte <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publish Pending Changes to The Voice Routing Configuration in Lync Server 2013</A> na documentação operações.
 
     
     </div>
@@ -99,8 +99,8 @@ Siga estas etapas se quiser definir uma regra de tradução inserindo um conjunt
 ## <a name="see-also"></a>Confira também
 
 
-[Criar ou modificar uma regra de tradução manualmente no Lync Server 2013](lync-server-2013-create-or-modify-a-translation-rule-manually.md)  
-[Configure a trunk with media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
+[Criar ou modificar uma regra de conversão manualmente no Lync Server 2013](lync-server-2013-create-or-modify-a-translation-rule-manually.md)  
+[Configurar um tronco com bypass de mídia no Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
 [Configurar um tronco sem bypass de mídia no Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md)  
 [Publicar alterações pendentes na configuração de roteamento de voz no Lync Server 2013](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)  
 

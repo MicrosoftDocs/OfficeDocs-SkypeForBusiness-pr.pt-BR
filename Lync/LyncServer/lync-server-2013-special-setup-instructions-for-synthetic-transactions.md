@@ -12,20 +12,20 @@ ms:contentKeyID: 49733676
 ms.date: 11/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a15177a3c4548b235bf01a10274168e4a830fad3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a749e4349f6dae6ab7cae079af443734f9cfbc15
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731901"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41985043"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="special-setup-instructions-for-synthetic-transactions-in-lync-server-2013"></a>Instruções de configuração especiais para transações sintéticas no Lync Server 2013
+# <a name="special-setup-instructions-for-synthetic-transactions-in-lync-server-2013"></a>Instruções especiais de configuração para transações sintéticas no Lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41731901"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2015-11-16_
+_**Última modificação do tópico:** 2015-11-16_
 
-A maioria das transações sintéticas pode ser executada em um nó de Inspetor como está; ou seja, assim que a transação sintética tiver sido adicionada às configurações do nó do Inspetor, o nó do Inspetor poderá começar a usar a transação sintética durante o teste. No entanto, isso não é verdade para todas as transações sintéticas. As exceções – transações sintéticas que exigem instruções de configuração especiais – são discutidas nas seções a seguir.
+A maioria das transações sintéticas pode ser executada em um nó do inspetor no estado em que se encontram, ou seja, assim que uma transação sintética é adicionada às configurações do nó do inspetor, ele pode começar a usá-la durante as fases de teste. No entanto, isso não ocorre para todas as transações sintéticas. As exceções (transações que exigem instruções de configuração especiais) são abordadas nas seções a seguir.
 
 <div>
 
 ## <a name="dealing-with-server-timeout-errors"></a>Lidando com erros de tempo limite do servidor
 
-Em alguns casos, você pode descobrir que suas transações sintéticas estão falhando com erros de tempo limite do servidor (código de erro 504). Esses erros costumam ocorrer devido a problemas de firewall. Quando uma transação sintética é executada, essa transação é executada no processo MonitoringHost. exe; por sua vez, o MonitoringHost. exe inicia uma instância do processo PowerShell. exe. Se o MonitoringHost. exe ou o PowerShell. exe estiverem bloqueados pelo seu firewall, a transação sintética falhará e gerará um erro do 504.
+Em alguns casos, você pode descobrir que suas transações sintéticas estão falhando com erros de tempo limite do servidor (código de erro 504). Esses erros costumam ocorrer devido a problemas de firewall. Quando uma transação sintética é executada, essa transação é executada no processo MonitoringHost. exe; por sua vez, MonitoringHost. exe inicia uma instância do processo PowerShell. exe. Se o MonitoringHost. exe ou o PowerShell. exe estiver bloqueado pelo firewall, a transação sintética falhará e gerará um erro 504.
 
-Para solucionar esse problema, você deve criar manualmente regras de firewall de entrada para MonitoringHost. exe e PowerShell. exe no computador local. Isso pode ser feito pelo firewall do Windows ou por um software de firewall local de terceiros, dependendo da configuração pré-existente do seu servidor.
+Para resolver esse problema, você deve criar manualmente regras de firewall de entrada para MonitoringHost. exe e PowerShell. exe no computador local. Isso pode ser feito por meio do firewall do Windows ou de um software de firewall local de terceiros, dependendo da configuração preexistente do seu servidor.
 
-Se você estiver empregando um dispositivo de firewall de rede entre a máquina de host de transação sintética e os servidores do Lync que está tentando monitorar, deve tratar o host como uma máquina cliente e usar o observador de todos os requisitos de porta do firewall de [portas e protocolos para servidores internos no Lync Server 2013](lync-server-2013-ports-and-protocols-for-internal-servers.md).
+Se você estiver usando um dispositivo de firewall de rede entre a máquina de host de transação sintética e os servidores Lync que você está tentando monitorar, você deve tratar o host como uma máquina cliente e o observador de todos os requisitos de porta de firewall de [portas e protocolos para servidores internos no Lync Server 2013](lync-server-2013-ports-and-protocols-for-internal-servers.md).
 
 </div>
 
@@ -55,15 +55,15 @@ Se você estiver empregando um dispositivo de firewall de rede entre a máquina 
 
 ## <a name="data-conferencing-synthetic-transactions"></a>Transações sintéticas de conferência de dados
 
-Se o seu computador do nó do observador estiver localizado fora de sua rede de perímetro, provavelmente não será possível executar a transação sintética de data Conferencing, a menos que você primeiro desabilite as configurações de proxy do Internet Explorer para a conta de serviço de rede. Para desativar as configurações de proxy para esse serviço, conclua o seguinte procedimento:
+Se o computador do nó do observador estiver localizado fora da rede de perímetro, provavelmente você não poderá executar a transação sintética de audioconferência, a menos que primeiro desabilite as configurações de proxy do Internet Explorer para a conta de serviço de rede. Para desabilitar as configurações de proxy para esse serviço, execute o procedimento a seguir:
 
-1.  No computador do nó do Inspetor, clique em **Iniciar**, **em todos os programas**, em **acessórios**, clique com o botão direito do mouse em **prompt de comando**e clique em **Executar como administrador**.
+1.  No computador do nó do observador, clique em **Iniciar**, em **Todos os programas**, em **Acessórios**, clique com o botão direito no **Prompt de comando** e clique em **Executar como administrador**.
 
 2.  Na janela do console, digite o seguinte comando e pressione ENTER:
     
         bitsadmin /util /SetIEProxy NetworkService NO_PROXY
 
-A seguinte mensagem aparecerá na janela de comando:
+A seguinte mensagem será exibida na janela de comando:
 
     BITSAdmin is deprecated and is not guaranteed to be available in future versions of Windows. Administration tools for the BITS service are now provided by BITS PowerShell cmdlets.
     
@@ -76,9 +76,9 @@ Essa mensagem significa que você desabilitou as configurações de proxy do Int
 
 <div>
 
-## <a name="exchange-unified-messaging-synthetic-transactions"></a>Transações sintéticas da Unificação de mensagens do Exchange
+## <a name="exchange-unified-messaging-synthetic-transactions"></a>Transações sintéticas de Unificação de Mensagens do Exchange
 
-A transação sintética de Unificação de Mensagens do Exchange verifica se usuários de teste podem se conectar a contas de correio de voz hospedadas no Exchange. Esses usuários de teste precisarão ser pré-configurados com contas de correio de voz antes de poderem usar os testes de UM do Exchange.
+A transação sintética de Unificação de mensagens (UM) do Exchange verifica se os usuários de teste podem se conectar às contas de caixa postal hospedadas no Exchange. Esses usuários de teste precisarão ser pré-configurados com contas de caixa postal para poderem usar os testes de UM do Exchange.
 
 </div>
 
@@ -86,22 +86,22 @@ A transação sintética de Unificação de Mensagens do Exchange verifica se us
 
 ## <a name="persistent-chat-synthetic-transactions"></a>Transações sintéticas de chat persistente
 
-Para usar a transação de chat sintética persistente, os administradores devem primeiro criar um canal e conceder permissões aos usuários de teste para usá-lo. O cmdlet [Test-CsPersistentChatMessage](https://docs.microsoft.com/powershell/module/skype/Test-CsPersistentChatMessage) pode ser usado para configurar corretamente esses usuários de teste:
+Para usar a transação sintética de chat persistente, os administradores devem primeiro criar um canal e conceder permissões aos usuários de teste para usá-lo. O cmdlet [Test-CsPersistentChatMessage](https://docs.microsoft.com/powershell/module/skype/Test-CsPersistentChatMessage) pode ser usado para configurar corretamente os usuários de teste:
 
     $cred1 = Get-Credential "litwareinc\kenmyer"
     $cred2 = Get-Credential "litwareinc\pilar"
     
     Test-CsPersistentChatMessage -TargetFqdn atl-cs-001.litwareinc.com -SenderSipAddress sip:kenmyer@litwareinc.com -SenderCredential $cred1 -ReceiverSipAddress sip:pilar@litwareinc.com -ReceiverCredential $cred2 -TestUser1SipAddress sip:kenmyer@litwareinc.com -TestUser2SipAddress sip:pilar@litwareinc.com -Setup $True
 
-Esta tarefa de configuração deve ser executada dentro da empresa:
+Esta tarefa de configuração deve ser realizada de dentro da empresa:
 
-  - Se executado de um computador que não seja do servidor, o usuário que executa o cmdlet deve ser um membro da função PersistentChatAdministrators para o controle de acesso baseado em função (RBAC).
+  - Se ela for realizada de uma máquina que não é um servidor, o usuário que executar o cmdlet deverá ser um membro da função PersistentChatAdministrators do RBAC (Controle de Acesso Baseado em Função).
 
-  - Se executado do próprio servidor, o usuário que executa o cmdlet deve ser um membro do grupo RTCUniversalServerAdmins.
+  - Se ela for realizada a partir do próprio servidor, o usuário que executar o cmdlet deverá ser um membro do grupo RTCUniversalServerAdmins.
 
-No comando anterior, o parâmetro setup foi incluído e definido como true ($True). Se você incluir o parâmetro setup, Test-CsPersistentChatMessage criará uma sala de chat persistente especial e preencherá essa sala com os usuários de teste. Isso ajuda a garantir que, na verdade, não há uma sala de chat disponível para fins de teste. Observe que o parâmetro setup só deve ser executado em um servidor front-end.
+No comando anterior, o parâmetro Setup foi incluído e definido como True ($True). Se você incluir o parâmetro setup, o Test-CsPersistentChatMessage criará uma sala de chat persistente especial e preencherá essa sala com os usuários de teste. Isso ajudará a garantir que haja uma sala de chat real disponível para fins de teste. Observe que o parâmetro Setup deve ser executado apenas de um servidor front-end.
 
-A sala de chat criada por Test-CsPersistentChatMessage pode ser excluída somente por um administrador.
+A sala de chat criada por Test-CsPersistentChatMessage só pode ser excluída por um administrador.
 
 </div>
 
@@ -109,7 +109,7 @@ A sala de chat criada por Test-CsPersistentChatMessage pode ser excluída soment
 
 ## <a name="pstn-peer-to-peer-call-synthetic-transactions"></a>Transações sintéticas de chamada ponto a ponto PSTN
 
-A transação sintética [Test-CsPstnPeerToPeerCall](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnPeerToPeerCall) verifica a capacidade de colocar e receber chamadas por meio da rede telefônica pública comutada (PSTN).
+A transação sintética [Test-CsPstnPeerToPeerCall](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnPeerToPeerCall) verifica a capacidade de colocar e receber chamadas através da rede telefônica pública comutada (PSTN).
 
 Para executar essa transação sintética, os administradores devem configurar:
 
@@ -117,29 +117,29 @@ Para executar essa transação sintética, os administradores devem configurar:
 
   - Números DID (Discagem Interna Direta) para cada conta de usuário.
 
-  - Políticas de voz e rotas de voz que permitem que as chamadas para o número do destinatário atinjam o gateway PSTN.
+  - Políticas e rotas de voz que permitem que chamadas para o número do receptor cheguem ao gateway PSTN.
 
-  - Um gateway PSTN que aceita chamadas e mídia que roteia chamadas para o pool inicial de um receptor com base no número discado.
+  - Um gateway PSTN que aceita chamadas e mídia que encaminha os retornos de chamada para o pool primário de um receptor com base no número discado.
 
 </div>
 
 <div>
 
-## <a name="unified-contact-store-synthetic-transactions"></a>Transações sintéticas de repositório de contatos unificado
+## <a name="unified-contact-store-synthetic-transactions"></a>Transações sintéticas do repositório unificado de contatos
 
-A transação sintética do repositório de contatos unificado verifica se o Lync Server 2013 é capaz de recuperar contatos em nome de um usuário do Microsoft Exchange Server 2013.
+A transação sintética do repositório unificado de contatos verifica se o Lync Server 2013 pode recuperar contatos em nome de um usuário do Microsoft Exchange Server 2013.
 
 Para usar essa transação sintética, as seguintes condições devem ser atendidas:
 
   - [Gerenciar a autenticação de servidor para servidor (OAuth) e aplicativos de parceiros no Lync server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) deve ser configurado entre o lync Server 2013 e o Exchange 2013.
 
-  - Os usuários de teste devem ter uma caixa de correio válida do Exchange 2013.
+  - Os usuários de teste devem ter uma caixa de correio do Exchange 2013 válida.
 
-Depois que essas condições forem atendidas, os administradores poderão executar o seguinte comando para verificar se o usuário com o endereço SIP kenmyer@litwareinc.com pode recuperar seus contatos do repositório de contatos unificado:
+Depois que essas condições forem atendidas, os administradores poderão executar o seguinte comando para verificar se o usuário com o endereço SIP kenmyer@litwareinc.com pode recuperar seus contatos do repositório unificado de contatos:
 
     Test-CsUnifiedContactStore -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -RegistrarPort 5061 -Authentication TrustedServer -Setup
 
-Observe o uso do parâmetro setup usado no comando anterior. Se o parâmetro setup estiver incluído ao executar Test-CsUnifiedContactStore, os contatos do usuário especificado (neste caso, sip:kenmyer@litwareinc.com) serão movidos para o repositório de contatos unificado. (Naturalmente, se os contatos do usuário já estiverem no repositório de contatos unificado, eles não precisam ser movidos.) O parâmetro setup geralmente é usado apenas uma vez (a primeira vez que o CsUnifiedContactStore é executado) e só deve ser usado com usuários de teste; ou seja, com contas de usuário que nunca serão realmente conectadas ao Lync Server. Após o usuário do teste ter sido migrado para o repositório de contatos unificado, você pode verificar se os contatos do usuário podem ser recuperados chamando Test-CsUnifiedContactStore sem o parâmetro setup:
+Observe o uso do parâmetro setup usado no comando anterior. Se o parâmetro setup estiver incluído durante a execução de Test-CsUnifiedContactStore, os contatos do usuário especificado (neste caso, sip:kenmyer@litwareinc.com) serão movidos para o repositório unificado de contatos. (Obviamente, se os contatos do usuário já estiverem no repositório unificado de contatos, eles não precisarão ser movidos.) Normalmente, o parâmetro Setup é usado apenas uma vez (a primeira vez que Test-CsUnifiedContactStore é executado) e só deve ser usado com usuários de teste; ou seja, com contas de usuário que nunca serão realmente conectadas ao Lync Server. Após a migração do usuário de teste para o repositório unificado de contatos, você pode verificar se os contatos do usuário podem ser recuperados chamando Test-CsUnifiedContactStore sem o parâmetro setup:
 
     Test-CsUnifiedContactStore -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -RegistrarPort 5061 -Authentication TrustedServer
 
@@ -149,13 +149,13 @@ Observe o uso do parâmetro setup usado no comando anterior. Se o parâmetro set
 
 ## <a name="xmpp-synthetic-transactions"></a>Transações sintéticas XMPP
 
-A transação sintética de mensagem de chat XMPP (Extensible Messaging and Presence Protocol) requer que o recurso XMPP seja configurado com um ou mais domínios federados.
+A transação sintética de IM do protocolo XMPP exige que o recurso XMPP seja configurado com um ou mais domínios federados.
 
-Para habilitar a transação sintética XMPP, um parâmetro XmppTestReceiverMailAddress deve ser fornecido com uma conta de usuário em um domínio de XMPP roteável. Por exemplo:
+Para habilitar a transação sintética XMPP, um parâmetro XmppTestReceiverMailAddress deve ser fornecido com uma conta de usuário em um domínio XMPP roteável. Por exemplo:
 
     Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com
 
-Neste exemplo, será preciso existir uma regra do Lync Server 2013 para direcionar as mensagens para o litwareinc.com para um Gateway XMPP.
+Neste exemplo, uma regra do Lync Server 2013 precisará existir para rotear mensagens para o litwareinc.com para um Gateway XMPP.
 
 </div>
 

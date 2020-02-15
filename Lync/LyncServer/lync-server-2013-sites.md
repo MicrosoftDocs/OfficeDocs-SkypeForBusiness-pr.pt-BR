@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Sites'
+title: Sites do Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183233
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2e5dc3323ad14f02a5b24258878512707f66f19
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: db3e420a1fad89692133df4422138b43d4d7210e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764467"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987026"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-sites-for-lync-server-2013"></a>Sites do Lync Server no Lync Server 2013
+# <a name="lync-server-sites-for-lync-server-2013"></a>Sites do Lync Server para Lync Server 2013
 
 </div>
 
@@ -35,35 +35,35 @@ ms.locfileid: "41764467"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-16_
+_**Última modificação do tópico:** 2012-10-16_
 
-No Lync Server, você define *sites* em sua rede que contenham componentes do Lync Server. Um site é um conjunto de computadores conectados por meio de uma rede de alta velocidade e baixa latência, como uma rede local (LAN), ou de duas redes conectadas por uma rede de fibra ótica de alta velocidade. Observe que os sites do Lync Server são um conceito separado dos sites dos serviços de domínio Active Directory e dos sites do Microsoft Exchange Server. Seus sites do Lync Server não precisam corresponder a seus sites do Active Directory.
+No Lync Server, você define *sites* em sua rede que contenham componentes do Lync Server. Um site é um conjunto de computadores bem conectados por uma rede de alta velocidade e baixa latência, como uma rede local (LAN) única ou duas redes conectadas por uma rede óptica de alta velocidade. Observe que os sites do Lync Server são um conceito separado dos sites dos serviços de domínio do Active Directory e dos sites do Microsoft Exchange Server. Seus sites do Lync Server não precisam corresponder aos sites do Active Directory.
 
 <div>
 
-## <a name="site-types"></a>Tipos de site
+## <a name="site-types"></a>Tipos de Site
 
-Cada site é um *site central*, que contém pelo menos um pool de front-end ou um servidor Standard Edition, ou um *site de filial*. Cada site de filial está associado a exatamente um site central, e os usuários no site de filial obtêm a maior parte da funcionalidade do Lync Server dos servidores no site central associado.
+Cada site é um *site central*, que contém pelo menos um pool de front-ends ou um servidor Standard Edition, ou um *site de filial*. Cada site de filial é associado a um site central, e os usuários no site de filial obtêm a maior parte da funcionalidade do Lync Server dos servidores no site central associado.
 
-Cada site de filial contém um dos seguintes:
+Cada site de filial contem ao menos um dos seguintes:
 
-  - Um *aparelho de ramificação sobreviventes (SBA)*, que é um servidor blade padrão do setor com um registrador do Lync Server e um servidor de mediação em execução no Windows Server. O aparelho de ramificação sobreviventes também contém um gateway PSTN (rede telefônica pública comutada). O aparelho de ramificação sobreviventes foi projetado para sites de filiais com entre 25 e 1000 usuários.
+  - Um *aparelho de filial persistente (SBA)*, que é um servidor de lâmina padrão da indústria com um registrador do Lync Server e um servidor de mediação executando no Windows Server. O aparelho de filial persistente também contém um gateway PSTN (rede telefônica pública comutada). O aparelho de filial persistente foi projetado para sites de filiais com entre 25 e 1000 usuários.
 
-  - Um *servidor de ramificação sobreviventes (SBS)*, que é um servidor que executa o Windows Server e atende aos requisitos de hardware especificado e que tem o software do Lync Server registrador e do servidor de mediação instalado nele. Ele deve estar conectado a um provedor de serviços telefônicos por meio de um gateway PSTN ou de um tronco SIP. O servidor de ramificação sobreviventes foi projetado para sites de filiais com os usuários do 1000 e do 5000.
+  - Um *servidor de ramificação persistente (SBS)*, que é um servidor que executa o Windows Server e que atende aos requisitos de hardware especificados, e que tem o software de servidor de mediação e registrador do Lync Server instalado nele. Ele deve se conectar ao gateway PSTN ou tronco SIP para um provedor de serviço telefônico. O Servidor de Filial Sustentável foi projetado para sites de filial com 1000 a 5000 usuários.
 
-  - Um gateway PSTN e, opcionalmente, um *servidor de mediação*. Para obter detalhes sobre essa e outras funções de servidor, consulte [funções de servidor no Lync server 2013](lync-server-2013-server-roles.md).
+  - Um gateway PSTN e opcionalmente um *Servidor de Mediação*. Para obter detalhes sobre esta e outras funções de servidor, consulte [Server Roles in Lync server 2013](lync-server-2013-server-roles.md).
 
-Uma filial com um link de rede de longa distância (WAN) resistente para um site central pode usar a terceira opção, um gateway PSTN e, opcionalmente, um servidor de mediação. Os sites de filiais com links menos resistentes devem usar um aparelho de ramificação sobreviventes ou um servidor de ramificação sobreviventes, que fornecem resiliência em casos de falha de rede de longa distância. Por exemplo, em um site com um aparelho de ramificação sobreviventes ou um servidor de ramificação sobreviventes implantado, os usuários ainda poderão fazer e receber chamadas de voz corporativa se a WAN que estiver conectando o site de filial ao site central estiver inativa. Para obter detalhes sobre o dispositivo de ramificação sobreviventes, servidor de ramificação sobreviventes e resiliência, consulte [planejando a resiliência do Enterprise Voice no Lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md) na documentação de planejamento.
+Uma filial com um link WAN (rede de longa distância) resistente à um site central pode usar a terceira opção, um gateway PSTN e, opcionalmente, um Servidor de Mediação. Os sites de filiais com links menos resistentes devem usar um aparelho de filial persistente ou servidor de filial persistente, que oferecem resiliência em horários de falhas de rede de longa distância. Por exemplo, em um site com um aparelho de filial persistente ou servidor de filial persistente implantado, os usuários ainda poderão fazer e receber chamadas do Enterprise Voice se a WAN conectando o site de filial ao site central estiver desativada. Para obter detalhes sobre o aparelho de filial persistente, servidor de filial persistente e resiliência, consulte [Planning for Enterprise Voice resiliência no Lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md) na documentação de planejamento.
 
 </div>
 
 <div>
 
-## <a name="site-topologies"></a>Topologias de site
+## <a name="site-topologies"></a>Topologias de Site
 
-Sua implantação deve incluir pelo menos um site central e pode incluir zero em muitos sites de filiais. Cada site de filial está associado a um site central. O site central fornece os serviços do Lync Server para o site de ramificação que não são hospedados localmente no site da filial, como presença e conferência.
+Sua implantação deve incluir ao menos um site central e pode incluir de nenhum a muitos sites de filial. Cada site de filial é afiliado a um site central. O site central fornece os serviços do Lync Server para o site de filial que não estão hospedados localmente no site de filial, como presença e conferência.
 
-Se você tiver vários sites, poderá emparelhar os pools de front-ends em sites diferentes para permitir recursos de recuperação de desastres. Para obter detalhes, consulte [suporte de alta disponibilidade e recuperação de desastre no Lync Server 2013](lync-server-2013-high-availability-and-disaster-recovery-support.md).
+Se você possuir vários sites, pode pareá-los juntos nos pools de Front End em diferentes sites para ativar as capacidades de recuperação de desastres. Para obter detalhes, consulte [High Availability and Disaster Recovery support in Lync Server 2013](lync-server-2013-high-availability-and-disaster-recovery-support.md).
 
 </div>
 
@@ -72,8 +72,8 @@ Se você tiver vários sites, poderá emparelhar os pools de front-ends em sites
 ## <a name="see-also"></a>Confira também
 
 
-[Funções do servidor no Lync Server 2013](lync-server-2013-server-roles.md)  
-[Suporte à alta disponibilidade e recuperação de desastre no Lync Server 2013](lync-server-2013-high-availability-and-disaster-recovery-support.md)  
+[Funções de servidor no Lync Server 2013](lync-server-2013-server-roles.md)  
+[Suporte de alta disponibilidade e recuperação de desastre no Lync Server 2013](lync-server-2013-high-availability-and-disaster-recovery-support.md)  
 
 
 [Planejamento para resiliência do Enterprise Voice no Lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md)  

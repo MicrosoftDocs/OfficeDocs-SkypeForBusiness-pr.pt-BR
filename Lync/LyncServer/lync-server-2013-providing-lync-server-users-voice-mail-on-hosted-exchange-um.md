@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Fornecendo caixa postal a usuários do Lync Server no Exchange UM hospedado'
+title: 'Lync Server 2013: fornecendo aos usuários do Lync Server mensagens de voz no Exchange UM hospedado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183752
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02feacedfc2b0cf7d3f34788c5c9a6ee65d50a9c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7849798b1e9cc01b26b5692509bd19c40da644a5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747221"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006849"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="providing-lync-server-2013-users-voice-mail-on-hosted-exchange-um"></a>Fornecendo caixa postal a usuários do Lync Server 2013 no Exchange UM hospedado
+# <a name="providing-lync-server-2013-users-voice-mail-on-hosted-exchange-um"></a>Fornecimento de mensagens de voz para usuários do Lync Server 2013 no Exchange UM hospedado
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41747221"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-24_
+_**Última modificação do tópico:** 2012-09-24_
 
-Esta seção orienta você no processo de fornecimento de usuários em uma implantação local do Lync Server 2013 com o correio de voz em um serviço do Exchange Unified Messaging (UM) hospedado.
+Esta seção orienta você durante o processo de fornecimento de usuários em uma implantação do Lync Server 2013 local com caixa postal em um serviço hospedado da UM (Unificação de mensagens) do Exchange.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Criar um registro DNS SRV para integração com Exchange UM hospedado](lync-server-2013-create-a-dns-srv-record-for-integration-with-hosted-exchange-um.md)
+  - [Criar um registro SRV de DNS para integração com a UM do Exchange hospedado](lync-server-2013-create-a-dns-srv-record-for-integration-with-hosted-exchange-um.md)
 
-  - [Configurar Servidor de Borda para integração com o Exchange UM hospedado](lync-server-2013-configure-the-edge-server-for-integration-with-hosted-exchange-um.md)
+  - [Configurar o servidor de borda para integração com o UM do Exchange hospedado](lync-server-2013-configure-the-edge-server-for-integration-with-hosted-exchange-um.md)
 
   - [Gerenciar políticas de caixa postal hospedada no Lync Server 2013](lync-server-2013-manage-hosted-voice-mail-policies.md)
 
-  - [Habilitar usuários para correio de voz hospedado no Lync Server 2013](lync-server-2013-enable-users-for-hosted-voice-mail.md)
+  - [Habilitar usuários para caixa postal hospedada no Lync Server 2013](lync-server-2013-enable-users-for-hosted-voice-mail.md)
 
-  - [Criar objetos de contato para Exchange UM hospedado no Lync Server 2013](lync-server-2013-create-contact-objects-for-hosted-exchange-um.md)
+  - [Criar objetos de contato para a UM do Exchange hospedado no Lync Server 2013](lync-server-2013-create-contact-objects-for-hosted-exchange-um.md)
 
 </div>
 

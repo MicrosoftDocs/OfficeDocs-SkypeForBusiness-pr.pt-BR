@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Suporte a Active Directory'
+title: Lync Server 2013 suporte ao Active Directory
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183679
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd35b9444f0ede4abc9b66ab6b5513d049df57ee
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b3ded5de5500778559efe632c5272db50b0eadbd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735181"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034111"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="active-directory-support-in-lync-server-2013"></a>Suporte a Active Directory no Lync Server 2013
+# <a name="active-directory-support-in-lync-server-2013"></a>Suporte do Active Directory no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41735181"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-12-04_
+_**Última modificação do tópico:** 2012-12-04_
 
-As topologias locais dos serviços de domínio Active Directory com suporte no Lync Server 2013 são as seguintes:
+As topologias locais dos serviços de domínio Active Directory suportadas pelo Lync Server 2013 são as seguintes:
 
   - Floresta única com domínio único
 
@@ -53,7 +53,7 @@ As topologias locais dos serviços de domínio Active Directory com suporte no L
 
 
 > [!NOTE]  
-> O Lync Server 2013 não é compatível com domínios de rótulo único. Por exemplo, uma floresta com um domínio raiz chamado <STRONG>contoso. local</STRONG> tem suporte, mas não há suporte para um domínio raiz de rótulo único chamado <STRONG>local</STRONG> . Para obter detalhes, consulte o artigo 300684 da base de dados de conhecimento Microsoft, "informações sobre como configurar o Windows para domínios com <A href="http://go.microsoft.com/fwlink/p/?linkid=143752">http://go.microsoft.com/fwlink/p/?linkId=143752</A>nomes DNS de rótulo único" em.
+> O Lync Server 2013 não dá suporte a domínios de rótulo único. Por exemplo, uma floresta com um domínio raiz chamado <STRONG>contoso. local</STRONG> é suportada, mas não há suporte para um domínio raiz de rótulo único chamado <STRONG>local</STRONG> . Para obter detalhes, consulte o artigo 300684 da base de dados de conhecimento da Microsoft, "informações sobre como configurar o Windows para domínios <A href="http://go.microsoft.com/fwlink/p/?linkid=143752">http://go.microsoft.com/fwlink/p/?linkId=143752</A>com nomes DNS de rótulo único" em.
 
 
 
@@ -63,13 +63,13 @@ As topologias locais dos serviços de domínio Active Directory com suporte no L
 
 
 > [!NOTE]  
-> O Lync Server 2013 não é compatível com a renomeação de domínios. Se você precisar renomear um domínio onde o Lync Server está implantado, primeiro você precisa desinstalar o Lync Server, depois renomear o domínio e depois reinstalar o Lync Server.
+> O Lync Server 2013 não dá suporte à renomeação de domínios. Se for necessário renomear um domínio em que o Lync Server está implantado, primeiro você precisa desinstalar o Lync Server, renomear o domínio e, em seguida, reinstalar o Lync Server.
 
 
 
 </div>
 
-Para obter detalhes sobre topologias e requisitos compatíveis para implantações locais, consulte [requisitos, suporte e topologias de serviços de domínio do Active Directory no Lync Server 2013](lync-server-2013-active-directory-domain-services-requirements-support-and-topologies.md) na documentação de planejamento.
+Para obter detalhes sobre as topologias e os requisitos suportados para implantações locais, consulte [Active Directory Domain Services requirements, support e topologias no Lync Server 2013](lync-server-2013-active-directory-domain-services-requirements-support-and-topologies.md) na documentação de planejamento.
 
 </div>
 

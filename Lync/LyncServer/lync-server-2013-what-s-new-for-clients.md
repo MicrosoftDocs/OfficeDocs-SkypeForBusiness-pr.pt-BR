@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Novidades para clientes'
+title: 'Lync Server 2013: o que há de novo para clientes'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184253
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f938ccc4e4a040307a7cf86a8084353c480cfdca
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 210218ec3250e31356564731286735df48836ad6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758481"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41983106"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="whats-new-for-clients-in-lync-server-2013"></a>Novidades para clientes no Lync Server 2013
+# <a name="whats-new-for-clients-in-lync-server-2013"></a>O que há de novo para clientes no Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41758481"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-19_
+_**Última modificação do tópico:** 2013-02-19_
 
-O Microsoft Lync 2013 tem uma interface de usuário reprojetada e novos recursos importantes. Para administradores, o cliente agora está incluído no programa de instalação do Office, fornecendo uma abordagem mais simplificada para implantar o Office e personalizar clientes em sua organização.
+O Microsoft Lync 2013 tem uma interface do usuário reprojetada e novos recursos importantes. Para os administradores, o cliente agora está incluído no programa de instalação do Office, fornecendo uma abordagem mais simplificada para a implantação do Office e personalização de clientes em sua organização.
 
 <div>
 
 
 > [!NOTE]  
-> Para ver uma exibição ilustrada das atualizações da interface do usuário do Lync 2013, consulte "novidades do Lync <A href="http://go.microsoft.com/fwlink/?linkid=273885">http://go.microsoft.com/fwlink/?LinkId=273885</A>2013" em.
+> Para obter uma visão ilustrada das atualizações da interface de usuário do Lync 2013, consulte "What ' s <A href="http://go.microsoft.com/fwlink/?linkid=273885">http://go.microsoft.com/fwlink/?LinkId=273885</A>New in Lync 2013" em.
 
 
 
@@ -53,35 +53,35 @@ O Microsoft Lync 2013 tem uma interface de usuário reprojetada e novos recursos
 
 ## <a name="integration-with-office-setup"></a>Integração com a instalação do Office
 
-O cliente do Lync 2013 e o suplemento de reunião online do Lync 2013, que dá suporte ao gerenciamento de reuniões, dentro do cliente de mensagens e colaboração do Outlook, agora estão incluídos no programa de instalação do Office 2013.
+O cliente Lync 2013 e o suplemento online Meeting para Lync 2013, que oferece suporte ao gerenciamento de reuniões a partir do cliente de mensagens e colaboração do Outlook, estão agora incluídos no programa de instalação do Office 2013.
 
-Em versões anteriores do Lync e do Office Communicator, você pode usar as propriedades do Windows Installer para personalizar e controlar a instalação do Office. Como o Lync 2013 está integrado à instalação do Office, você pode usar os seguintes métodos para personalizar a configuração do Lync 2013:
+Nas versões anteriores do Lync e do Office Communicator, você pode usar as propriedades do Windows Installer para personalizar e controlar a instalação do Office. Como o Lync 2013 está integrado à instalação do Office, você pode usar os seguintes métodos para personalizar a instalação do Lync 2013:
 
   - Usar a OCT (Ferramenta de Personalização do Office)
 
-  - Use o config. xml para executar tarefas de instalação
+  - Usar o Config.xml para executar tarefas de instalação
 
-  - Usar opções de linha de comando de configuração
+  - Usar as opções de linha de comando de instalação
 
 <div>
 
 
 > [!NOTE]  
-> O programa de instalação do Lync 2013 não desinstala versões anteriores do Lync ou do Office Communicator. O cliente do Lync 2013 é instalado lado a lado com outros clientes do Lync ou do Office Communicator
+> O programa de instalação do Lync 2013 não desinstala versões anteriores do Lync ou Office Communicator. O cliente do Lync 2013 é instalado lado a lado com outros clientes do Lync ou do Office Communicator
 
 
 
 </div>
 
-Para obter detalhes, consulte [implantando clientes do Lync no Lync Server 2013](lync-server-2013-deploying-lync-clients.md).
+Para obter detalhes, consulte [Deploying Lync clients in Lync Server 2013](lync-server-2013-deploying-lync-clients.md).
 
 </div>
 
 <div>
 
-## <a name="group-policy-deployment"></a>Implantação de política de grupo
+## <a name="group-policy-deployment"></a>Implantação da Política de Grupo
 
-Como o Lync 2013 agora está incluído no programa de instalação do Office, o método de implantação das configurações da política de grupo do Lync foi alterado. Em versões anteriores do Lync e do Office Communicator, você pode usar o Communicator. ADM para definir configurações de política de grupo, enquanto no Lync 2013 agora você pode usar os modelos administrativos do Lync e do ADML fornecidos juntamente com a política de grupo do Office Modelos administrativos.
+Como o Lync 2013 agora está incluído na instalação do Office, o método para implantar as configurações da política de grupo do Lync foi alterado. Nas versões anteriores do Lync e do Office Communicator, você poderia usar o Communicator. ADM para definir as configurações de política de grupo, enquanto no Lync 2013 agora você pode usar os modelos administrativos do Lync ADMX e ADML que são fornecidos junto com a política de grupo do Office Modelos administrativos.
 
 Para obter detalhes, consulte [configurações de política de grupo para o Lync 2013](lync-server-2013-group-policy-settings-for-lync-2013.md).
 
@@ -89,37 +89,37 @@ Para obter detalhes, consulte [configurações de política de grupo para o Lync
 
 <div>
 
-## <a name="outlook-scheduling-add-in-updates"></a>Atualizações do suplemento agendamento do Outlook
+## <a name="outlook-scheduling-add-in-updates"></a>Atualizações do suplemento de agendamento do Outlook
 
-O suplemento reunião online do Lync 2013 inclui a personalização de convites de reunião e as novas opções de reunião.
+O suplemento reunião online do Lync 2013 inclui a personalização do convite de reunião e as novas opções de reunião.
 
-  - Os administradores podem personalizar os convites para reunião da organização adicionando um logotipo personalizado, uma URL de suporte, uma URL de isenção de responsabilidade legal ou texto de rodapé personalizado. Para obter detalhes, consulte [Personalizando o suplemento de reunião online no Lync Server 2013](lync-server-2013-customizing-the-online-meeting-add-in.md).
+  - Os administradores podem personalizar os convites de reunião da organização adicionando um logotipo personalizado, uma URL de suporte, uma URL do aviso de isenção legal ou um texto de rodapé personalizado. Para obter detalhes, consulte [Personalizando o suplemento de reunião online no Lync Server 2013](lync-server-2013-customizing-the-online-meeting-add-in.md).
 
-  - Novos controles de mudo para participantes permitir que os organizadores da reunião agendem conferências que tenham áudio e vídeo de participantes com mudo ativado por padrão.
+  - Os novos controles de ativação de mudo para participantes permitem que os organizadores de reuniões agendem conferências ativando por padrão o mudo para o áudio e o vídeo dos participantes.
 
 </div>
 
 <div>
 
-## <a name="virtual-desktop-infrastructure-plug-in"></a>Plug-in de infraestrutura de área de trabalho virtual
+## <a name="virtual-desktop-infrastructure-plug-in"></a>Plug-in de Virtual Desktop Infrastructure
 
-O cliente Lync 2013 agora dá suporte a áudio e vídeo em um ambiente VDI (infraestrutura de área de trabalho virtual). Um usuário pode conectar um dispositivo de áudio ou de vídeo (por exemplo, um fone de ouvido com microfone ou uma câmera) ao computador local (por exemplo, um cliente leve ou um computador redefinido). O usuário pode se conectar à máquina virtual, entrar no cliente do Lync 2013 que está em execução na máquina virtual e participar de comunicações de áudio e vídeo em tempo real, como se o cliente estivesse em execução localmente. Os recursos a seguir são suportados em um ambiente de área de trabalho virtual:
+O cliente Lync 2013 agora oferece suporte a áudio e vídeo em um ambiente de infraestrutura de área de trabalho virtual (VDI). Um usuário pode conectar um dispositivo de áudio ou vídeo (por exemplo, um fone de ouvido ou uma câmera) ao computador local (por exemplo, um computador cliente fino ou realocado). O usuário pode se conectar à máquina virtual, entrar no cliente do Lync 2013 que está sendo executado na máquina virtual e participar da comunicação de áudio e vídeo em tempo real, como se o cliente estivesse sendo executado localmente. Os recursos a seguir têm suporte em um ambiente de área de trabalho virtual:
 
-  - Integração de dispositivos para áudio e vídeo, incluindo o seguinte:
+  - Integração de dispositivos de áudio e vídeo, incluindo:
     
       - Controles de chamada do dispositivo
     
       - Integração de presença no dispositivo
     
-      - Suporte a vários HID (dispositivo de interface humana)
+      - Suporte á vários HIDs (dispositivos de interface humana)
 
-  - Suporte a locais e serviços de emergência.
+  - Suporte a serviços de local e emergência.
 
   - Suporte para todas as modalidades do Lync, incluindo mensagens instantâneas, áudio, vídeo, compartilhamento de aplicativos, compartilhamento de área de trabalho, compartilhamento do PowerPoint, quadro de comunicações e transferência de arquivos.
 
-  - Suporte a áudio e vídeo em chamadas de pessoa para pessoa e chamadas em conferência.
+  - Suporte a áudio e vídeo em chamadas entre duas pessoas e chamadas em conferência.
 
-Para obter informações sobre a implantação do plug-in VDI, consulte [implantação do plug-in VDI do Lync no Lync Server 2013](lync-server-2013-deploying-the-lync-vdi-plug-in.md).
+Para obter informações sobre a implantação do plug-in VDI, consulte [implantando o plug-in do LYNC VDI no Lync Server 2013](lync-server-2013-deploying-the-lync-vdi-plug-in.md).
 
 </div>
 
@@ -127,19 +127,19 @@ Para obter informações sobre a implantação do plug-in VDI, consulte [implant
 
 ## <a name="video-enhancements"></a>Melhorias de vídeo
 
-Vários novos recursos melhoram significativamente a experiência com vídeo para participantes de conferências.
+Vários novos recursos melhoram consideravelmente a experiência de vídeo dos participantes de conferências.
 
-  - Vídeo aprimorado com detecção de rosto e enquadramento inteligente, para que o vídeo de um participante se movimente para ajudar a mantê-los centralizados no quadro.
+  - O vídeo foi aprimorado com detecção facial e enquadramento inteligente para que o vídeo do participante se desloque para mantê-lo centralizado no quadro.
 
-  - O vídeo de alta definição agora é compatível com chamadas de dois participantes e conferências de vários participantes. Os usuários podem experimentar resoluções de até HD 1080P.
+  - Agora há suporte a vídeo de alta definição em chamadas entre duas pessoas e conferências com vários participantes. Os usuários podem visualizar resoluções de até 1080P HD.
 
-  - Os participantes podem selecionar um layout de reunião diferente: o modo de exibição de galeria mostra as imagens ou vídeos dos participantes; O modo de exibição do orador mostra o conteúdo da reunião e somente o vídeo ou a imagem atual do orador; Modo de exibição de apresentação mostra o conteúdo da reunião somente; O modo de exibição compacto mostra apenas os controles da reunião.
+  - Os participantes podem selecionar entre vários layouts de reunião: o Modo de Exibição de Galeria mostra as fotos e os vídeos de todos os participantes; o Modo de Exibição do Orador mostra o conteúdo da reunião e apenas a foto e o vídeo do orador atual; o Modo de Exibição de Apresentação mostra somente o conteúdo da reunião; e o Modo de Exibição Compacto mostra somente os controles da reunião.
 
-  - Com o novo recurso de galeria, os participantes podem ver várias alimentações de vídeo ao mesmo tempo. Se a conferência tiver mais de cinco participantes, as alimentações de vídeo apenas dos participantes ativos serão exibidos na linha superior e as imagens serão exibidas para os outros participantes.
+  - Com o novo recurso de Galeria, os participantes podem ver várias transmissões de vídeo ao mesmo tempo. Se houver mais de cinco participantes na conferência, as transmissões de vídeo somente dos participantes mais ativos aparecerão na linha superior e as fotos dos outros participantes serão exibidas.
 
-  - Os participantes podem usar a fixação de vídeo para selecionar um ou mais dos feeds de vídeo disponíveis para ficarem visíveis o tempo todo.
+  - Os participantes podem usar o recurso de fixar vídeo para selecionar uma ou mais das transmissões de vídeo disponíveis para que fiquem sempre visíveis.
 
-  - Os apresentadores podem usar o recurso de Spotlight em vídeo para selecionar o feed de vídeo de uma pessoa para que todos os participantes da reunião vejam apenas esse participante.
+  - Os apresentadores podem usar o recurso Destaque de Vídeo para selecionar o vídeo de uma pessoa para que todos os participantes da reunião vejam somente esse participante.
 
 </div>
 
@@ -147,13 +147,13 @@ Vários novos recursos melhoram significativamente a experiência com vídeo par
 
 ## <a name="chat-room-integration"></a>Integração da sala de chat
 
-O Lync 2013 agora integra os recursos fornecidos anteriormente pelo Lync 2010 Group Chat. Um cliente de chat em grupo separado não é mais necessário.
+O Lync 2013 agora integra os recursos anteriormente fornecidos pelo Lync 2010 Group Chat. Não há mais necessidade de um cliente de chat em grupo separado.
 
-  - De dentro do Lync 2013, os usuários podem procurar salas de chat, adicionar salas de chat a seus contatos, monitorar a atividade de salas de chat e ler e postar mensagens.
+  - No Lync 2013, os usuários podem pesquisar salas de chat, adicionar salas de chat a seus contatos, monitorar a atividade de sala de chat e ler e postar mensagens.
 
-  - Os usuários podem criar feeds de tópico para que sejam notificados se alguém em uma das salas de chat adicionar uma postagem contendo palavras-chave específicas.
+  - Os usuários podem criar feeds de tópicos para serem notificados se algum participante de uma de suas salas de chat adicionar uma postagem que contenha palavras-chave específicas.
 
-  - Com a nova página de opções de **chat persistente** , os usuários podem definir alertas de notificação e sons que se aplicam quando as pessoas publicam mensagens em suas salas de chat.
+  - Com a nova página de opções **Chat Persistente**, os usuários podem definir sons e alertas de notificação que são acionados quando alguém posta mensagens em suas salas de chat.
 
 </div>
 
@@ -161,11 +161,11 @@ O Lync 2013 agora integra os recursos fornecidos anteriormente pelo Lync 2010 Gr
 
 ## <a name="lync-web-app-updates"></a>Atualizações do Lync Web App
 
-O Lync Web App é o cliente de conferência baseado na Web para reuniões do Lync Server 2013. Nesta versão, a adição de áudio e vídeo do computador ao Lync Web App oferece uma experiência completa na reunião para qualquer pessoa que não tenha um cliente do Lync instalado localmente. Os participantes de reunião têm acesso a todos os recursos de colaboração e compartilhamento e aos controles de reunião do apresentador.
+Lync Web App é o cliente de conferência baseado na Web para reuniões do Lync Server 2013. Nesta versão, a adição de áudio e vídeo do computador ao Lync Web App oferece uma experiência completa de reunião para qualquer pessoa que não tenha um cliente Lync instalado localmente. Os participantes da reunião têm acesso a todos os recursos de colaboração e compartilhamento e controles de reunião de apresentador.
 
-Quando um usuário tenta ingressar em uma reunião, mas não tem um cliente instalado localmente, o Lync Web App é aberto. Se quiser permitir opções adicionais para ingressar na reunião, você pode configurar a página ingressar na reunião; consulte [Configurando a página ingressar na reunião no Lync Server 2013](lync-server-2013-configuring-the-meeting-join-page.md) na documentação de implantação.
+Quando um usuário tenta ingressar em uma reunião, mas não tem um cliente instalado localmente, o Lync Web App é aberto. Se você deseja permitir opções adicionais para ingressar na reunião, é possível configurar a página de ingresso na reunião; consulte [Configurando a página de ingresso na reunião no Lync Server 2013](lync-server-2013-configuring-the-meeting-join-page.md) na documentação de implantação.
 
-Devido aos aprimoramentos do Lync Web App, uma versão atualizada do participante não está disponível para o Lync Server 2013. O Lync Web App é o cliente escolhido para participantes de fora da sua organização. Não é necessária nenhuma instalação de cliente local, embora os recursos de áudio, vídeo e compartilhamento exijam que um plug-in seja instalado na primeira utilização.
+Devido aos aprimoramentos do Lync Web App, uma versão atualizada do participante não está disponível para o Lync Server 2013. O Lync Web App é o cliente escolhido para participantes de fora da sua organização. Não é necessária a instalação local de um cliente, mas recursos de áudio, vídeo e compartilhamento exigem que um plug-in seja instalado na primeira utilização.
 
 </div>
 
@@ -173,13 +173,13 @@ Devido aos aprimoramentos do Lync Web App, uma versão atualizada do participant
 
 ## <a name="lync-2013-for-mobile-clients-updates"></a>Lync 2013 para atualizações de clientes móveis
 
-Além de recursos avançados de presença, contatos e mensagens instantâneas, agora os clientes móveis do Lync 2013 fornecem chamadas de voz e vídeo pela Internet e conexões de dados da rede celular. Com um único toque do link da reunião em um item de calendário, os usuários móveis podem ingressar em reuniões com voz e vídeo do Lync. Para obter mais informações sobre clientes móveis do Lync 2013, consulte [planejando para clientes móveis no Lync Server 2013](lync-server-2013-planning-for-mobile-clients.md).
+Além de recursos avançados de presença, contatos e mensagens instantâneas, os clientes móveis do Lync 2013 agora fornecem chamadas de voz e vídeo através da Internet e conexões de dados da rede celular. Com um único toque do link de reunião em um item de calendário, os usuários móveis podem ingressar em reuniões de vídeo e voz do Lync. Para obter mais informações sobre clientes móveis do Lync 2013, consulte [Planning for Mobile clients in Lync Server 2013](lync-server-2013-planning-for-mobile-clients.md).
 
 </div>
 
 <div>
 
-## <a name="lync-2013-user-interface-updates"></a>Atualizações da interface do usuário do Lync 2013
+## <a name="lync-2013-user-interface-updates"></a>Atualizações da interface de usuário do Lync 2013
 
 <div>
 
@@ -187,13 +187,13 @@ Além de recursos avançados de presença, contatos e mensagens instantâneas, a
 
 O Lync 2013 incorpora vários novos recursos de acessibilidade.
 
-  - O Lync 2013 suporta resolução de alta DPI, permitindo que os usuários dimensionem o texto e os elementos gráficos para 125% e 150% de pontos por polegada.
+  - O Lync 2013 oferece suporte a alta resolução de DPI, permitindo que os usuários dimensionem texto e gráficos para 125% e 150% de pontos por polegada.
 
-  - O Lync fornece suporte de alto contraste para que a interface do usuário permaneça totalmente funcional quando usada com temas de alto contraste no Windows.
+  - O Lync oferece suporte de alto contraste para que a interface do usuário permaneça totalmente funcional quando usada com temas de alto contraste no Windows.
 
-  - O Lync oferece mais de 100 atalhos de teclado para que os usuários possam acessar funções importantes sem um mouse. Por exemplo, os usuários podem pressionar Alt + C para aceitar uma chamada ou ALT + I para ignorá-la, sem precisar fazer a Tabulação ou definir o foco. Pressionar (ALT + Q) Finaliza uma chamada, (Ctrl + N) inicia o OneNote e (Alt + T) abre o menu ferramentas.
+  - O Lync oferece mais de 100 atalhos de teclado para que os usuários possam acessar funções importantes sem um mouse. Por exemplo, eles podem pressionar Alt+C para aceitar uma chamada ou Alt+I para ignorá-la sem precisar alternar ou definir o foco. A combinação de teclas Alt+Q encerra uma chamada, Ctrl+N inicia o OneNote e Alt+T abre o menu Ferramentas.
 
-  - O suporte a leitor de tela extensivo no Lync 2013 garante que todas as notificações, solicitações de entrada e mensagens instantâneas sejam lidas em voz alta quando um leitor de tela estiver habilitado.
+  - O amplo suporte ao leitor de tela no Lync 2013 garante que todas as notificações, solicitações de entrada e mensagens instantâneas sejam lidas em voz alta quando um leitor de tela estiver habilitado.
 
 </div>
 
@@ -201,25 +201,25 @@ O Lync 2013 incorpora vários novos recursos de acessibilidade.
 
 ## <a name="presence-while-sharing"></a>Presença durante o compartilhamento
 
-Quando o Lync detecta que um usuário está compartilhando, o Lync atribui automaticamente ao usuário um status de presença apresentando. Esse status bloqueia todas as comunicações de entrada, a menos que o remetente tenha atribuído a relação de privacidade do grupo de trabalho. Se o usuário estiver usando o recurso de compartilhamento totalmente em um monitor secundário, o Lync não atribuirá um status de presença de apresentação.
+Quando o Lync detecta que um usuário está compartilhando, o Lync atribui automaticamente o usuário a apresentar o status de presença. Esse status bloqueia todas as comunicações de entrada, a menos que a relação de privacidade Grupo de Trabalho tenha sido atribuída ao remetente. Se o usuário estiver usando o recurso de compartilhamento totalmente em um monitor secundário, o Lync não atribuirá um status de presença de apresentação.
 
 </div>
 
 <div>
 
-## <a name="conversation-window-updates"></a>Atualizações da janela de conversa
+## <a name="conversation-window-updates"></a>Atualizações da janela Conversa
 
-A janela de conversa reformulada fornece acesso mais rápido a recursos importantes.
+A janela Conversa reformulada oferece acesso mais rápido a recursos importantes.
 
-  - Com o novo recurso conversas com guias, os usuários agora podem manter todas as salas de chat e chats em uma janela de conversa. As guias no lado esquerdo da janela de conversa permitem que os usuários naveguem facilmente entre todas as conversas ativas.
+  - Com o novo recurso de conversas com guias, os usuários agora podem manter todas as suas IMs e salas de chat em uma única janela Conversa. As guias na lateral esquerda da janela Conversa permite que os usuários naveguem facilmente entre todas as conversas ativas.
 
-  - Os usuários podem mostrar uma conversa individual em uma janela separada e, em seguida, redimensionar a janela. Eles também podem retornar a janela de volta à janela de conversa principal.
+  - Os usuários podem destacar uma conversa individual em uma janela separada e redimensioná-la. Além disso, também podem reinserir a janela na janela Conversa principal.
 
   - O Lync 2013 reabre as conversas de um usuário quando o usuário se desconecta e entra novamente no Lync.
 
-  - Os usuários podem adicionar rapidamente mensagens instantâneas, vídeo, compartilhamento de programas, compartilhamento de área de trabalho ou ferramentas de Webconferência (quadro de comunicações, anotações da reunião, blocos de anotações compartilhados e anexos) a qualquer conversa.
+  - Os usuários podem rapidamente adicionar a qualquer conversa ferramentas de IM, vídeo, compartilhamento de programas, compartilhamento de área de trabalho ou webconferência (quadro de comunicações, notas de reunião, blocos de anotações compartilhados e anexos).
 
-  - Em uma reunião na qual um vídeo ou conteúdo está sendo compartilhado, os usuários podem exibir o vídeo da reunião ou o conteúdo compartilhado e, em seguida, redimensionar a janela.
+  - Em uma reunião em que vídeo ou conteúdo está sendo compartilhado, os usuários podem destacar o vídeo da reunião ou o conteúdo compartilhado em uma janela separada e redimensioná-la.
 
 </div>
 
@@ -227,59 +227,59 @@ A janela de conversa reformulada fornece acesso mais rápido a recursos importan
 
 ## <a name="lync-main-window-updates"></a>Atualizações da janela principal do Lync
 
-A nova aparência simplificada retém recursos conhecidos, como o **que está acontecendo hoje?** , o seletor de status e o seletor de **local definir seu local** .
+A nova aparência simplificada mantém recursos conhecidos, como o campo de notas **O que está acontecendo hoje?**, o seletor de status e o seletor **Defina o local**.
 
-  - Quando salas de chat estiverem habilitadas, os usuários verão um novo ícone de **salas de chat** na página principal do Lync. Com o ícone de **salas de chat** , os usuários podem acessar rapidamente seus respectivos filtros e salas de chat.
+  - Quando as salas de chat estão habilitadas, os usuários visualizam um novo ícone de **salas de chat** na página principal do Lync. Com o ícone **Salas de Chat**, eles podem rapidamente acessar suas salas de chat e filtros.
 
-  - Os usuários podem clicar nos ícones de exibição para alternar para o modo de exibição **contatos** , o modo de exibição **salas de chat** , o modo de exibição **conversas** ou o modo de exibição **telefone**
+  - Os usuários podem clicar nos ícones de modo de exibição para alternar entre os modos **Contatos**, **Salas de Chat**, **Conversas** ou **Telefone**.
 
-  - Se os usuários foram migrados para o Exchange 2013, eles podem carregar uma imagem de alta resolução.
-
-</div>
-
-<div>
-
-## <a name="contacts-view-and-contact-card-updates"></a>Modo de exibição contatos e atualizações de cartão de contato
-
-O Lync 2013 oferece aos usuários diferentes maneiras de exibir contatos e grupos no modo de exibição **contatos** .
-
-  - Com o novo repositório de contatos unificado, após a migração dos contatos do Lync dos usuários para o Exchange 2013, os usuários podem acessar e gerenciar seus contatos no Lync 2013, no Outlook ou no Outlook Web App, e seus favoritos ficam sincronizados. Por exemplo, se um usuário adicionar um contato aos favoritos no Outlook, o contato aparecerá no grupo favoritos no Lync 2013.
-
-  - Se você adicionou e configurou o proxy XMPP e o Gateway XMPP, os usuários podem adicionar contatos de parceiros baseados no XMPP para mensagens instantâneas e presença.
-
-  - Um novo recurso **Adicionar um contato que não está em minha organização** proporciona aos usuários uma maneira fácil de adicionar pessoas de fora da organização.
-
-  - Um novo grupo **favoritos** permite que os usuários criem uma lista de pessoas que os usuários contatam com mais frequência para obter um acesso mais rápido.
-
-  - Os usuários podem usar a nova página Opções da **lista de contatos** para escolher como os usuários desejam classificar e exibir contatos. Os usuários podem selecionar uma exibição expandida de duas linhas que mostre as imagens dos contatos ou uma exibição condensada de uma linha. Os usuários também podem classificar os contatos em ordem alfabética ou por disponibilidade.
+  - Se os usuários tiverem sido migrados para o Exchange 2013, poderão carregar uma imagem de alta resolução.
 
 </div>
 
 <div>
 
-## <a name="conferencing-updates"></a>Atualizações de conferência
+## <a name="contacts-view-and-contact-card-updates"></a>Atualizações do modo de exibição Contatos e do Cartão de Visita
 
-O Lync 2013 oferece vários aprimoramentos em recursos de conferência.
+O Lync 2013 oferece aos usuários maneiras diferentes de exibir contatos e grupos no modo de exibição de **contatos** .
 
-  - Dependendo do tipo de reunião, os usuários podem agora ativar o mudo da audiência e permitir ou bloquear o compartilhamento de vídeo ao agendar a reunião. Essas opções estão disponíveis na página **Opções de reunião** e são recomendadas para reuniões grandes com mais de 20 participantes.
+  - Com o novo repositório unificado de contatos, depois que os contatos do Lync dos usuários são migrados para o Exchange 2013, os usuários podem acessar e gerenciar seus contatos do Lync 2013, Outlook ou Outlook Web App e seus favoritos permanecem sincronizados. Por exemplo, se um usuário adicionar um contato a favoritos no Outlook, o contato aparecerá no grupo favoritos no Lync 2013.
 
-  - Os controles de áudio fáceis de usar na sala de reuniões permitem que o usuário controle opções de áudio, como ativar mudo, desativar mudo, alterar dispositivo e assim por diante.
+  - Se você tiver adicionado e configurado o proxy XMPP e o gateway XMPP, os usuários poderão adicionar contatos de parceiros XMPP para mensagens instantâneas e presença.
 
-  - Ao compartilhar programas, os usuários podem selecionar vários programas para compartilhar se precisarem trabalhar com mais de um programa.
+  - O novo recurso **Adicionar um contato que não é da minha organização** oferece aos usuários uma maneira fácil de adicionar pessoas de fora da organização.
 
-  - Agora os usuários podem carregar apresentações que contenham clipes de vídeo carregando o arquivo do PowerPoint e apontando o mouse sobre o slide para exibir controles de vídeo, como controles de reprodução, pausa e áudio.
+  - O novo grupo **Favoritos** permite que os usuários criem uma lista de pessoas que contatam com mais frequência para agilizar o acesso.
 
-  - Durante uma reunião, os usuários podem mesclar outra conversa aberta na reunião usando **mesclar esta chamada** no menu **mais opções** (**...**).
+  - Os usuários podem usar a nova página de opções **Lista de Contatos** para escolher como desejam classificar e exibir os contatos. Eles podem selecionar um modo de exibição expandido de duas linhas, que mostra as fotos dos contatos, ou um modo de exibição compacto de uma única linha. Os usuários também podem classificar os contatos por ordem alfabética ou por disponibilidade.
 
-  - Para ver os nomes dos participantes, os usuários podem focalizar o mouse sobre o botão **Exibir participantes** ou clicar em **Mostrar lista de participantes** para encaixar o painel na reunião.
+</div>
 
-  - Dependendo do tipo de reunião, os usuários podem selecionar entre vários modos de exibição de conteúdo e de participantes diferentes.
+<div>
 
-  - As gravações de reunião são salvas automaticamente em um formato que é reproduzido no Windows Media Player (MP4). Os usuários podem compartilhar facilmente o arquivo com qualquer pessoa ou usar o recurso **publicar** no Gerenciador de gravação para postar a gravação em um local compartilhado.
+## <a name="conferencing-updates"></a>Atualizações de conferências
 
-  - O OneNote permite novas maneiras de colaborar em uma reunião. Durante uma reunião, os usuários podem fazer anotações com o OneNote para uso pessoal após a reunião ou usar blocos de anotações compartilhados e coedição com participantes da reunião em tempo real. Todos os membros da equipe podem acessar as anotações compartilhadas em informações do Contribute, ideias ou usar as páginas do bloco de anotações como um quadro de comunicações virtual. As pessoas e o conteúdo compartilhado na reunião são adicionados automaticamente às anotações.
+O Lync 2013 oferece vários aprimoramentos aos recursos de conferência.
 
-  - Os usuários podem alternar entre tipos de conteúdo usando o **recurso compartilhar conteúdo e conduzir atividades da reunião** na parte inferior da sala de reunião. Os usuários também podem usar o menu **gerenciar conteúdo apresentável** para escolher o conteúdo que deseja compartilhar.
+  - Dependendo do tipo de reunião, os usuários agora podem ativar o mudo para os participantes e permitir ou bloquear o compartilhamento de vídeo ao agendarem a reunião. Essas opções estão disponíveis na página **Opções de Reunião** e são recomendadas para reuniões grandes com mais de 20 participantes.
+
+  - Controles de áudio fáceis de usar na sala de reunião permitem que o usuário controle as opções de áudio, como ativar mudo, desativar mudo, alterar dispositivo etc.
+
+  - Ao compartilhar programas, os usuários podem selecionar vários programas para compartilhamento se precisarem trabalhar com mais de um ao mesmo tempo.
+
+  - Os usuários agora podem carregar apresentações que contêm clipes de vídeo carregando o arquivo do PowerPoint e apontando o mouse sobre o slide para exibir os controles de vídeo, como reproduzir e pausar, bem como os controles de áudio.
+
+  - Durante uma reunião, os usuários podem incorporar outra conversa aberta à reunião usando o comando **Mesclar esta Conversa em** no menu **Mais Opções** (**…**).
+
+  - Para ver os nomes dos participantes, os usuários podem passar o mouse sobre o botão **Exibir Participantes** ou clicar em **Mostrar Lista de Participantes** para encaixar o painel na reunião.
+
+  - Dependendo do tipo de reunião, os usuários podem selecionar entre vários modos de exibição de participantes e conteúdo.
+
+  - As gravações de reuniões são automaticamente salvas em um formato que pode ser reproduzido no Windows Media Player (MP4). Os usuários podem facilmente compartilhar o arquivo com qualquer pessoa ou usar o recurso **Publicar** do gerenciador de gravações para postar a gravação em um local compartilhado.
+
+  - O OneNote permite novas maneiras de colaborar em uma reunião. Durante uma reunião, os usuários podem fazer anotações com o OneNote para uso pessoal após a reunião ou usar os blocos de anotações compartilhados e realizar edições em conjunto com os participantes da reunião em tempo real. Todos os membros da equipe podem acessar as anotações compartilhadas para contribuir com informações, desenvolver ideias ou usar as páginas do bloco de anotações como um quadro de comunicações virtual. As pessoas e o conteúdo compartilhado na reunião são automaticamente adicionados às anotações.
+
+  - Os usuários podem alternar entre os tipos de conteúdo usando a opção **Compartilhar conteúdo e liderar atividades da reunião** na parte inferior da sala de reunião. Eles também podem usar o menu **Gerenciar Conteúdo Apresentável** para escolher qual conteúdo desejam compartilhar.
 
 </div>
 

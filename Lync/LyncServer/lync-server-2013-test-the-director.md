@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Testar o Diretor'
+title: 'Lync Server 2013: testar o diretor'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184856
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b82b8b7e494a66cf38fd27e37f322c79e95f801c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1da9d365b42e0d8c78de48ac9ffa9a96c51ebc9f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746071"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42021122"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="test-the-director-in-lync-server-2013"></a>Testar o Diretor no Lync Server 2013
+# <a name="test-the-director-in-lync-server-2013"></a>Testar o diretor no Lync Server 2013
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41746071"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-08_
+_**Última modificação do tópico:** 2012-09-08_
 
-Neste estágio, você tem um director ou um pool de directors configurado, mas suas entradas de SRV do sistema de nome de domínio (DNS) ainda apontam para os clientes se conectarem usando um servidor pool ou Standard Edition. Antes de alterar o registro DNS para fazer com que os clientes do Lync 2013 façam logon automaticamente usando o diretor, teste um cliente editando-o manualmente para o diretor.
+Neste estágio, você tem um Diretor ou pool de Diretores configurado, mas as entradas SRV do DNS ainda apontam os clientes para fazer logon usando um pool ou servidor Standard Edition. Antes de alterar o registro DNS para fazer com que os clientes do Lync 2013 façam logon automaticamente usando o diretor, teste um cliente manualmente apontando-o para o diretor.
 
 <div>
 
 ## <a name="to-test-the-deployment"></a>Para testar a implantação
 
-1.  Faça logon no computador no qual você tem o painel de controle do Lync Server instalado com uma conta de domínio que faça parte do grupo **CSAdministrator** .
+1.  Faça logon no computador em que o painel de controle do Lync Server está instalado com uma conta de domínio que faz parte do grupo **CSAdministrator** .
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  No painel de navegação, clique em **topologia**e, na coluna **status** , confirme se há um servidor verde com uma seta (ou seja, ![ícone do servidor com seta verde](images/Gg398767.2263cdb7-7e60-457a-a528-a3a082bd051b(OCS.15).jpg "Ícone do servidor com seta verde")) para seu diretor ou pool do diretor.
+3.  No painel de navegação, clique em **topologia**e, na coluna **status** , confirme se há um servidor verde com uma seta (ou seja, ![ícone do servidor com seta verde](images/Gg398767.2263cdb7-7e60-457a-a528-a3a082bd051b(OCS.15).jpg "Ícone de servidor com seta verde")) para seu diretor ou pool de diretores.
 
-4.  Conecte dois computadores cliente que tenham o cliente do Lync Server 2013 instalado e faça logon com uma conta de usuário diferente habilitada para o Lync Server 2013 para cada computador.
+4.  Conecte dois computadores cliente com o cliente do Lync Server 2013 instalado e faça logon com uma conta de usuário diferente habilitada para o Lync Server 2013 a cada computador.
 
-5.  Em um dos computadores cliente, clique no menu **Opções** , selecione o grupo configurações **pessoais** , clique em **avançado**, clique em **configuração manual**e, em seguida, defina o **nome do servidor interno ou o endereço IP** para o nome de domínio totalmente qualificado (FQDN) do novo diretor ou pool do diretor.
+5.  Em um dos computadores cliente, clique no menu **Opções**, selecione o grupo de configurações **Pessoal**, clique em **Avançado**, em **Configuração Manual** e defina o **Nome do servidor interno ou endereço IP** como o nome totalmente qualificado (FQDN) do novo Diretor ou pool de Diretores.
 
-6.  Faça logon em ambos os clientes e verifique se o cliente que está fazendo logon usando o diretor é capaz de fazer logon com êxito, veja o status de presença do outro usuário e se ele pode trocar mensagens instantâneas.
+6.  Faça logon em ambos os clientes e verifique se o cliente que está entrando usando o Diretor consegue fazer logon com êxito, veja o status da presença do outro usuário e se podem trocar mensagens instantâneas.
 
 </div>
 

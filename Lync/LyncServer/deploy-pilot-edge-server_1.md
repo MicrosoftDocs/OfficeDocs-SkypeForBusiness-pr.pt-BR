@@ -1,5 +1,5 @@
 ---
-title: Implantar um Servidor de Borda piloto
+title: Implantar servidor de borda piloto
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 686973f9334b9bf376a2e56c52f3306cf243c0eb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 69d6d83751dd4e8b28a460f154b35416d80e0bb6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724021"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006427"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploy-pilot-edge-server"></a>Implantar um Servidor de Borda piloto
+# <a name="deploy-pilot-edge-server"></a>Implantar servidor de borda piloto
 
 </div>
 
@@ -35,47 +35,47 @@ ms.locfileid: "41724021"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-19_
+_**Última modificação do tópico:** 2012-10-19_
 
-Este tópico destaca as configurações de configuração das quais você deve estar ciente antes de implantar seu servidor de borda do Lync Server 2013. Esta seção destaca apenas os pontos-chave que você deve considerar como parte da sua implantação do pool de bordas piloto. Para obter etapas detalhadas, consulte [implantando o acesso de usuários externos no Lync Server 2013](lync-server-2013-deploying-external-user-access.md) na documentação de implantação, que descreve o processo de implantação e também fornece informações de configuração para o acesso de usuários externos.
+Este tópico destaca as definições de configuração que você deve estar ciente antes da implantação do servidor de borda do Lync Server 2013. Esta seção destaca somente os principais pontos a serem considerados como parte da implantação do seu pool de Borda piloto. Para obter etapas detalhadas, consulte [Deploying external User Access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md) na documentação de implantação, que descreve o processo de implantação e também fornece informações de configuração para acesso de usuário externo.
 
-Ao navegar pelo assistente **definir novo pool de borda** , examine as configurações de chave de configuração mostradas nas etapas a seguir. Observe que apenas algumas páginas do assistente para **definir novo pool de borda** são mostradas.
+Conforme você navega pelo assistente **Definir Novo Pool de Borda**, reveja as principais definições de configuração exibidas nas etapas a seguir. Observe que somente algumas páginas do assistente **Definir Novo Pool de Borda** são mostradas.
 
-**Definir um pool de bordas**
+**Definir um Pool de Borda**
 
-1.  Abra a topologia do pool piloto usando o construtor de topologias.
+1.  Abra a topologia do pool piloto usando o Construtor de Topologia
 
-2.  Navegue até o nó do Lync Server 2013. Clique com o botão direito do mouse em **conjuntos de bordas**e clique em **novo pool de bordas**.
+2.  Navegue até o nó do Lync Server 2013. Clique com o botão direito em **Pools de borda** e clique em **Novo pool de borda**.
     
-    ![Definir a caixa de diálogo novo pool de bordas](images/JJ205306.a90d388c-49ff-4620-a19d-42e2f1bb559c(OCS.15).jpg "Definir a caixa de diálogo novo pool de bordas")
+    ![Caixa de diálogo Definir novo pool de borda](images/JJ205306.a90d388c-49ff-4620-a19d-42e2f1bb559c(OCS.15).jpg "Caixa de diálogo Definir novo pool de borda")
 
-3.  Um pool de bordas pode ser um **pool de vários computadores** ou um **único pool de computadores**.
+3.  Um pool de Borda pode ser um **Pool de vários computadores** ou **Pool de computador único**.
     
-    ![Definir a caixa de diálogo FQDN do pool de bordas](images/JJ205306.4904fe8f-537c-4e66-a399-1bd8a316dc10(OCS.15).jpg "Definir a caixa de diálogo FQDN do pool de bordas")
+    ![Caixa de diálogo definir o FQDN do pool de borda](images/JJ205306.4904fe8f-537c-4e66-a399-1bd8a316dc10(OCS.15).jpg "Caixa de diálogo definir o FQDN do pool de borda")
 
-4.  Na página **selecionar recursos** , não habilite Federação ou Federação do XMPP. Atualmente, a Federação e a Federação do XMPP são roteadas por meio do servidor de borda herdado do Office Communications Server 2007 R2. Esses recursos serão configurados em uma fase posterior da migração.
+4.  Na página **Selecionar recursos**, não habilite a federação ou a federação XMPP. Atualmente, a Federação e a Federação do XMPP são roteadas através do servidor de borda herdado do Office Communications Server 2007 R2. Estes recursos são configurados em uma fase posterior da migração.
     
     ![Caixa de diálogo Selecionar recursos](images/JJ205306.cb0b45a4-2856-45ba-bd97-e49fafbb077e(OCS.15).jpg "Caixa de diálogo Selecionar recursos")
 
-5.  Em seguida, continue a concluir as seguintes páginas do assistente: **selecione opções de IP**, **FQDNs externos**, **defina o endereço IP interno**e **defina o endereço IP externo**.
+5.  Em seguida, continue preenchendo as seguintes páginas do assistente: **Selecionar opções de IP**, **FQDNs Externos**, **Definir um endereço IP interno** e **Definir um endereço IP externo**.
 
-6.  Na página **definir o próximo salto** , selecione o diretor do próximo nó do pool de bordas do Lync Server 2013.
+6.  Na página **definir o próximo salto** , selecione o diretor do próximo salto do pool de borda do Lync Server 2013.
     
-    ![Caixa de diálogo Definir novo pool de borda, próxima lista de pools de saltos](images/JJ204682.61d963d5-e0bd-4b1f-b437-e37c267347ba(OCS.15).jpg "Caixa de diálogo Definir novo pool de borda, próxima lista de pools de saltos")
+    ![Caixa de diálogo Definir novo pool de borda, lista de pool de próximo salto](images/JJ204682.61d963d5-e0bd-4b1f-b437-e37c267347ba(OCS.15).jpg "Caixa de diálogo Definir novo pool de borda, lista de pool de próximo salto")
 
-7.  Na página **associar pools de front-end** , não associe um pool a este pool de bordas no momento. O tráfego de mídia externo está atualmente roteado por meio do servidor de borda do Office Communications Server 2007 R2 herdado. Essa configuração será configurada em uma fase posterior da migração.
+7.  Na página **associar pools de front-ends** , não associe um pool a este pool de borda neste momento. No momento, o tráfego de mídia externo é roteado através do servidor de borda do Office Communications Server 2007 R2 herdado. Esta definição será configurada em uma fase posterior de migração.
     
-    ![Caixa de diálogo Definir novo pool de bordas](images/JJ204682.bb538039-bd2a-40ed-a120-8b80bd2cefc2(OCS.15).jpg "Caixa de diálogo Definir novo pool de bordas")
+    ![Caixa de diálogo Definir novo pool de borda](images/JJ204682.bb538039-bd2a-40ed-a120-8b80bd2cefc2(OCS.15).jpg "Caixa de diálogo Definir novo pool de borda")
 
-8.  Clique em **concluir** e **publique** a topologia.
+8.  Clique em **Concluir** e **Publique** a topologia.
 
-9.  Siga as etapas em [instalar servidores de borda para o Lync server 2013](lync-server-2013-install-edge-servers.md) na documentação de implantação para instalar os arquivos no novo servidor de borda, configurar certificados e iniciar os serviços.
+9.  Siga as etapas em [instalar servidores de borda para o Lync Server 2013](lync-server-2013-install-edge-servers.md) na documentação de implantação para instalar os arquivos no novo servidor de borda, configurar certificados e iniciar os serviços.
 
-É muito importante que você siga as diretrizes nos tópicos [implantando o acesso de usuários externos no Lync Server 2013](lync-server-2013-deploying-external-user-access.md) na documentação de implantação. Esta seção simplesmente forneceu algumas diretrizes sobre as definições de configuração durante a instalação dessas funções de servidor.
+É muito importante que você siga as diretrizes nos tópicos que [implantam o acesso de usuário externo no Lync Server 2013](lync-server-2013-deploying-external-user-access.md) na documentação de implantação. Esta seção forneceu somente algumas informações sobre definições de configuração ao instalar estas funções de servidor.
 
-Agora você deve ter uma implantação herdada do servidor de borda do Office Communications Server 2007 R2, indicada pela presença do BackCompatSite, em paralelo com uma implantação do servidor de borda 2013 do Lync Server. A Federação está configurada para usar o diretor do Office Communications Server 2007 R2. Verifique se as duas implantações estão funcionando corretamente, se os serviços foram iniciados e você pode administrar cada implantação antes de passar para a próxima fase.
+Agora você deve ter uma implantação herdada do servidor de borda do Office Communications Server 2007 R2, indicada pela presença do BackCompatSite, em paralelo com uma implantação do servidor de borda do Lync Server 2013. A Federação é configurada para usar o diretor do Office Communications Server 2007 R2. Verifique se ambas as implantações estão em execução adequadamente, se os serviços foram iniciados e se é possível administrar cada implantação antes de seguir para a próxima fase.
 
-![Construtor de topologias mostrando o servidor de borda do OCS](images/JJ204682.171363a3-eaf0-4c94-bd41-02b1ab6fa7dc(OCS.15).jpg "Construtor de topologias mostrando o servidor de borda do OCS")
+![Construtor de topologia mostrando o servidor de borda do OCS](images/JJ204682.171363a3-eaf0-4c94-bd41-02b1ab6fa7dc(OCS.15).jpg "Construtor de topologia mostrando o servidor de borda do OCS")
 
 </div>
 

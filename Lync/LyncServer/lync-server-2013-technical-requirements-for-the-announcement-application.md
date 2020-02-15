@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Requisitos técnicos para o aplicativo Comunicado'
+title: 'Lync Server 2013: requisitos técnicos para o aplicativo comunicado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185944
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8812dca81d656e68fc506c4a87c3c80481040bf6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1da328ef485d4dcc8bdac316aa31cef8880525c5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746501"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42022442"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-the-announcement-application-in-lync-server-2013"></a>Requisitos técnicos para o aplicativo Comunicado no Lync Server 2013
+# <a name="technical-requirements-for-the-announcement-application-in-lync-server-2013"></a>Requisitos técnicos para o aplicativo de anúncio no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41746501"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-11-07_
+_**Última modificação do tópico:** 2013-11-07_
 
-Esta seção descreve os seguintes requisitos técnicos para o aplicativo de lançamento:
+Esta seção descreve os seguintes requisitos técnicos para o aplicativo de comunicado:
 
   - Requisitos de hardware
 
@@ -45,13 +45,13 @@ Esta seção descreve os seguintes requisitos técnicos para o aplicativo de lan
 
   - Requisitos de porta
 
-  - Requisitos de arquivo de áudio
+  - Requisitos do arquivo de áudio
 
 <div>
 
 ## <a name="hardware-requirements"></a>Requisitos de hardware
 
-O aplicativo de anúncio tem os mesmos requisitos de hardware que os servidores front-end. Para obter detalhes sobre os requisitos de hardware, consulte [plataformas de hardware do servidor para o Lync Server 2013](lync-server-2013-server-hardware-platforms.md) na documentação de suporte.
+O aplicativo de comunicado tem os mesmos requisitos de hardware que os servidores front-end. Para obter detalhes sobre os requisitos de hardware, consulte [Server Hardware Platforms for Lync server 2013](lync-server-2013-server-hardware-platforms.md) na documentação de suporte.
 
 </div>
 
@@ -59,9 +59,9 @@ O aplicativo de anúncio tem os mesmos requisitos de hardware que os servidores 
 
 ## <a name="software-requirements"></a>Requisitos de software
 
-O aplicativo de anúncio tem os mesmos requisitos de sistema operacional e pré-requisitos de software dos servidores front-end. Para obter detalhes sobre os requisitos de software, consulte [suporte ao sistema operacional do servidor e ferramentas no Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) na documentação de suporte.
+O aplicativo de comunicado tem os mesmos requisitos de sistema operacional e pré-requisitos de software que os servidores front-end. Para obter detalhes sobre os requisitos de software, consulte [Server and Tools Operating System support in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) na documentação de suporte.
 
-Todos os servidores de front-end ou servidores Standard Edition que executam o aplicativo de anúncio devem ter o tempo de execução do Windows Media Format instalado para servidores que executam o Windows Server 2008 R2 ou o Microsoft Media Foundation para servidores que executam o Windows Server 2012 ou Windows Server 2012 R2. Para o Windows Server 2008 R2, o tempo de execução do Windows Media Format é instalado como parte da experiência da área de trabalho do Windows. O tempo de execução do Windows Media Format ou do Microsoft Media Foundation é necessário para arquivos de áudio do Windows Media (. WMA) que o aplicativo de anúncio reproduz para anúncios e música.
+Todos os servidores front-end ou servidores Standard Edition que executam o aplicativo de comunicado devem ter o tempo de execução do Windows Media Format instalado para servidores que executam o Windows Server 2008 R2 ou o Microsoft Media Foundation para servidores que executam o Windows Server 2012 ou Windows Server 2012 R2. Para o Windows Server 2008 R2, o tempo de execução do Windows Media Format é instalado como parte da experiência da área de trabalho do Windows. O tempo de execução do Windows Media Format ou o Microsoft Media Foundation é necessário para arquivos de áudio do Windows Media (. WMA) que o aplicativo de anúncio reproduz para anúncios e música.
 
 </div>
 
@@ -69,7 +69,7 @@ Todos os servidores de front-end ou servidores Standard Edition que executam o a
 
 ## <a name="port-requirements"></a>Requisitos de porta
 
-O aplicativo de anúncio usa a seguinte porta:
+O aplicativo de comunicado usa a seguinte porta:
 
   - **Porta 5071**   usada para solicitações de escuta SIP
 
@@ -77,7 +77,7 @@ O aplicativo de anúncio usa a seguinte porta:
 
 
 > [!NOTE]  
-> Essa porta é a definição padrão, que você pode modificar usando o cmdlet  <STRONG>Set-CsApplicationServer</STRONG>. Para obter detalhes sobre esse cmdlet, consulte a documentação do Shell de gerenciamento do Lync Server.
+> Essa porta é a definição padrão, que você pode modificar usando o cmdlet <STRONG>Set-CsApplicationServer</STRONG>. Para obter detalhes sobre esse cmdlet, consulte a documentação do Shell de gerenciamento do Lync Server.
 
 
 
@@ -89,7 +89,7 @@ O aplicativo de anúncio usa a seguinte porta:
 
 ## <a name="audio-file-requirements"></a>Requisitos do arquivo de áudio
 
-O aplicativo de anúncio aceita o formato de arquivo Wave (. wav) e o formato de áudio do Windows Media (. WMA) para músicas e anúncios. Os requisitos de arquivo de áudio para o aplicativo de anúncio são iguais aos do aplicativo de grupo de resposta. Para obter detalhes, consulte [requisitos técnicos para o grupo de resposta no Lync Server 2013](lync-server-2013-technical-requirements-for-response-group.md).
+O aplicativo de anúncio suporta o formato de arquivo Wave (. wav) e o formato de arquivo de áudio do Windows Media (. WMA) para música e comunicados. Os requisitos de arquivo de áudio para o aplicativo de comunicado são os mesmos do aplicativo grupo de resposta. Para obter detalhes, consulte [Technical Requirements for Response Group in Lync Server 2013](lync-server-2013-technical-requirements-for-response-group.md).
 
 </div>
 

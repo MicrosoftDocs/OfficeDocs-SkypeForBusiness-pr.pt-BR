@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Verificando a implantação de borda'
+title: 'Lync Server 2013: verificando a implantação de borda'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183290
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e6e3bf4e2fb1004c1e0312b4ef43f3f6f6ba690
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ac4c4ad1b6bddcdc44383f0be8e2c05e00de7b52
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742021"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007280"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41742021"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2010-11-07_
+_**Última modificação do tópico:** 2010-11-07_
 
-Depois de concluir a instalação e a configuração dos componentes da borda, você precisa verificar a configuração e a conectividade dos servidores e verificar a conectividade de cada tipo de usuário externo ao qual você dá suporte.
+Depois de completar a instalação e a configuração dos seus componentes de borda, é preciso verificar a configuração e a conectividade dos servidores, bem como a conectividade de cada tipo de usuário externo com suporte.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Verificar conectividade entre servidores internos e Servidores de Borda no Lync Server 2013](lync-server-2013-verify-connectivity-between-internal-servers-and-edge-servers.md)
+  - [Verificar a conectividade entre servidores internos e servidores de borda no Lync Server 2013](lync-server-2013-verify-connectivity-between-internal-servers-and-edge-servers.md)
 
-  - [Verificar conectividade para usuários externos no Lync Server 2013](lync-server-2013-verify-connectivity-for-external-users.md)
+  - [Verificar a conectividade para usuários externos no Lync Server 2013](lync-server-2013-verify-connectivity-for-external-users.md)
 
 </div>
 

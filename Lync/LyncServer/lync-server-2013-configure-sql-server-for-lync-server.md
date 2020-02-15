@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurar o SQL Server para Lync Server 2013'
+title: 'Lync Server 2013: configurar o SQL Server para o Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183869
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: efdd9d8fa7b010b420c7c532d422c9b52b6d69ba
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1e52534744849e41fa08895bd114833892f4b8a2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756965"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035183"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-sql-server-for-lync-server-2013"></a>Configurar o SQL Server para Lync Server 2013
+# <a name="configure-sql-server-for-lync-server-2013"></a>Configurar o SQL Server para o Lync Server 2013
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41756965"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-08-12_
+_**Última modificação do tópico:** 2013-08-12_
 
-Os tópicos desta seção abordam como implantar e configurar o SQL Server para usar em uma implantação empresarial do Lync Server. Os servidores de edição padrão usam uma versão posicionada do SQL Server Express do SQL Server que está certa para as cargas de trabalho de um servidor Standard Edition.
+Os tópicos desta seção discutem como implantar e configurar o SQL Server para usar em uma implantação corporativa do Lync Server. Os servidores Standard Edition usam uma versão do SQL Server Express posicionada do SQL Server, que é o tamanho certo para as cargas de trabalho de um servidor Standard Edition.
 
-O repositório de gerenciamento central do Lync Server 2013 mantém dados do usuário para todos os servidores da Enterprise Edition dentro de um pool e foi projetado para estar localizado em um servidor back-end baseado no SQL Server. Como um repositório centralizado, o repositório de gerenciamento central não pode ser instalado no mesmo computador que qualquer outra função do Lync Server 2013. O repositório de gerenciamento central não pode residir em um servidor Enterprise Edition no pool. O repositório de gerenciamento central é criado automaticamente quando você publica a topologia pela primeira vez e seleciona a opção para criar os bancos de dados. O computador que você designa como o servidor back-end já deve estar executando o software de banco de dados do SQL Server para que a instalação seja bem-sucedida.
+O repositório de gerenciamento central do Lync Server 2013 contém dados de usuário para todos os servidores Enterprise Edition dentro de um pool e foi projetado para estar localizado em um servidor back-end baseado em SQL Server. Como um repositório centralizado, o repositório de gerenciamento central não pode ser instalado no mesmo computador que qualquer outra função do Lync Server 2013. O repositório de gerenciamento central não pode residir em um servidor Enterprise Edition no pool. O repositório de gerenciamento central é criado automaticamente quando você publica a topologia pela primeira vez e seleciona criar os bancos de dados. O computador que você designou como servidor de back-end já deve estar executando o software de banco de dados do SQL Server para que a instalação seja bem-sucedida.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Posicionamento de dados do Servidor SQL e do arquivo de log para Lync Server 2013](lync-server-2013-sql-server-data-and-log-file-placement.md)
+  - [Posicionamento de arquivos de log e dados do SQL Server para o Lync Server 2013](lync-server-2013-sql-server-data-and-log-file-placement.md)
 
-  - [Configurar SQL Server no Lync Server 2013](lync-server-2013-configure-sql-server.md)
+  - [Configurar o SQL Server no Lync Server 2013](lync-server-2013-configure-sql-server.md)
 
-  - [Permissões de implantação para Servidor SQL no Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md)
+  - [Permissões de implantação para o SQL Server no Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md)
 
-  - [Instalação de banco de dados usando o Shell de Gerenciamento do Lync Server no Lync Server 2013](lync-server-2013-database-installation-using-lync-server-management-shell.md)
+  - [Instalação de banco de dados usando o Shell de gerenciamento do Lync Server no Lync Server 2013](lync-server-2013-database-installation-using-lync-server-management-shell.md)
 
-  - [Compreendendo os requisitos de firewall para Servidor SQL com Lync Server 2013](lync-server-2013-understanding-firewall-requirements-for-sql-server.md)
+  - [Noções básicas sobre requisitos de firewall para o SQL Server com o Lync Server 2013](lync-server-2013-understanding-firewall-requirements-for-sql-server.md)
 
   - [Configurar o cluster do SQL Server para o Lync Server 2013](lync-server-2013-configure-sql-server-clustering.md)
 

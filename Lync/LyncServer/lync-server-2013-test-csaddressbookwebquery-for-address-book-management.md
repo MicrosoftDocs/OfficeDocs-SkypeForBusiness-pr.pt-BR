@@ -12,16 +12,16 @@ ms:contentKeyID: 48184865
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c50497979e8439a60799864376d1f93d36646cec
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0a2481ff48e1156bd0cbbb478db213dbb02d2912
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746251"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42021772"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41746251"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
-Quem pode executar este cmdlet: por padrão, os membros dos grupos a seguir estão autorizados a executar o cmdlet Test-CsAddressBookWebQuery: RTCUniversalServerAdmins. Para retornar uma lista de todas as funções de controle de acesso baseado em função (RBAC) às quais esse cmdlet foi atribuído (incluindo qualquer função RBAC personalizada que você criou), execute o seguinte comando no prompt do Windows PowerShell:
+Quem pode executar este cmdlet: por padrão, os membros dos seguintes grupos são autorizados a executar o cmdlet Test-CsAddressBookWebQuery: RTCUniversalServerAdmins. Para retornar uma lista de todas as funções RBAC que este cmdlet foi atribuído (incluindo qualquer função RBAC que você criou sozinho), execute o seguinte comando no prompt do Windows PowerShell:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Test-CsAddressBookService"}
 
-Semelhante à transação sintética test-CsAddressBookService, Test-CsAddressBookWebQuery executa uma consulta em relação à consulta à Web do catálogo de endereços para garantir que ela esteja funcionando corretamente. O cmdlet se conectará à autenticação de tíquete da Web e apresentará as credenciais especificadas em – usercredential. Se autenticado, o cmdlet apresentará as informações – TargetSipAddress. O cmdlet deve relatar sucesso se conseguir recuperar as informações sobre o contato.
+Semelhante à transação sintética test-CsAddressBookService, Test-CsAddressBookWebQuery executa uma consulta em relação à consulta à Web do catálogo de endereços para garantir que ela esteja funcionando corretamente. O cmdlet será conectado à autenticação de tíquete da Web e apresentará as credenciais especificadas em – usercredential. Se for autenticado, o cmdlet apresentará as informações – TargetSipAddress. O cmdlet deve relatar êxito se tiver conseguido recuperar as informações sobre o contato.
 
 Por exemplo:
 
@@ -49,7 +49,7 @@ Por exemplo:
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Consulte também
 
 
 [Test-CsAddressBookWebQuery](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookWebQuery)  

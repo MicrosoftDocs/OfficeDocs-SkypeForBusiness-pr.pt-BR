@@ -12,16 +12,16 @@ ms:contentKeyID: 48184732
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6cc8a64ee7a49971660e7435a51c816bd4367e26
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c388fd04ba7600aa28a142961cd5ac07f63ae7c7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746571"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007680"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41746571"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-09_
+_**Última modificação do tópico:** 2012-10-09_
 
 Os requisitos técnicos do Lync Server 2013 incluem o seguinte:
 
   - Requisitos de infraestrutura.
 
-  - Software obrigatório que deve ser instalado para arquivamento.
+  - Software que é pré-requisito e que deve estar instalado para o arquivamento.
 
   - Requisitos de armazenamento de dados para arquivamento.
 
-  - Redimensionamento de requisitos e considerações para a implantação de arquivamento.
+  - Requisitos de dimensionamento e considerações para a implantação de arquivamento.
 
-  - Requisitos de desempenho e considerações para seus bancos de dados de arquivamento.
+  - Requisitos de desempenho e considerações para os bancos de dados de arquivamento.
 
 <div>
 
 
 > [!NOTE]  
-> As informações de dimensionamento e desempenho não estão disponíveis neste lançamento do Lync Server 2013.
+> As informações de escala e desempenho não estão disponíveis nesta versão do Lync Server 2013.
 
 
 
@@ -63,7 +63,7 @@ Os requisitos técnicos do Lync Server 2013 incluem o seguinte:
 
 ## <a name="infrastructure-requirements"></a>Requisitos de infraestrutura
 
-Os requisitos da infraestrutura de arquivamento do Lync Server 2013 são os mesmos para a implantação do Lync Server 2013. Para obter detalhes, consulte [determinando os requisitos de infraestrutura do Lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md) na documentação de planejamento.
+Os requisitos de infraestrutura de arquivamento do Lync Server 2013 são os mesmos para a implantação do Lync Server 2013. Para obter detalhes, consulte [determinando seus requisitos de infraestrutura para o Lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md) na documentação de planejamento.
 
 </div>
 
@@ -71,11 +71,11 @@ Os requisitos da infraestrutura de arquivamento do Lync Server 2013 são os mesm
 
 ## <a name="archiving-prerequisites"></a>Pré-requisitos de arquivamento
 
-O Lync Server 2013 simplifica os pré-requisitos de arquivamento devido ao seguinte:
+O Lync Server 2013 simplifica os pré-requisitos para arquivamento por causa do seguinte:
 
-  - O servidor de arquivamento não é mais uma função de servidor. Em vez disso, os agentes de coleta de dados unificados são executados nos servidores de front-end em um pool e servidores Standard Edition para capturar dados para arquivamento, para que você não configure plataformas de sistema separadas para arquivamento.
+  - O servidor de arquivamento não é mais uma função do servidor. Em vez disso, o agente de coleta de dados unificada é executado em um pool e em servidores Standard Edition para registrar dados para arquivamento, de forma que não é preciso configurar plataformas de sistemas separados para arquivamento.
 
-  - O arquivamento usa o armazenamento de arquivos do Lync Server 2013 para armazenamento temporário de arquivos de conteúdo da reunião, para que você não configure um armazenamento de arquivos separado para o arquivamento.
+  - O arquivamento usa o armazenamento de arquivos do Lync Server 2013 para armazenamento temporário de arquivos de conteúdo de reunião, portanto, você não configura um repositório de arquivos separado para arquivamento.
 
   - No Lync Server 2013, o enfileiramento de mensagens não é necessário.
 
@@ -85,11 +85,11 @@ O Lync Server 2013 simplifica os pré-requisitos de arquivamento devido ao segui
 
 ## <a name="data-storage-requirements-for-archiving"></a>Requisitos de armazenamento de dados para arquivamento
 
-Além disso, você precisa configurar a infraestrutura para arquivar o armazenamento. Isso inclui um dos seguintes procedimentos:
+Além disso, você deve configurar a infraestrutura para o armazenamento de arquivamento. Isso inclui uma ou ambas as opções abaixo:
 
-  - **Armazenamento do Microsoft Exchange**. Meeting content files, such as PowerPoint presentations, are archived as attachments. Se você quiser usar a integração do Microsoft Exchange para que os dados do arquivo morto do Lync sejam armazenados com dados de conformidade do Exchange, você deve usar o Exchange 2013 para a implantação do Exchange e garantir que o tamanho de armazenamento máximo seja compatível com o armazenamento dos arquivos de conteúdo da reunião. Se você implantar o arquivamento usando a opção de integração do Microsoft Exchange, os dados do arquivo morto do Lync serão armazenados com os dados de conformidade do Exchange 2013 somente para os usuários que estiverem hospedados em seus servidores Exchange 2013. Você deve implantar o Exchange 2013 antes de implantar e habilitar o arquivamento usando a opção de integração do Microsoft Exchange. Se optar por usar o armazenamento do Exchange 2013, você não precisará implantar bancos de dados do SQL Server separados para arquivamento, a menos que você tenha usuários do Lync que não são hospedados em seus servidores Exchange 2013.
+  - **Armazenamento do Microsoft Exchange**. Conteúdo de reuniões, como apresentações em PowerPoint, são arquivados como anexos. Se você quiser usar a integração do Microsoft Exchange para que os dados de arquivo morto do Lync sejam armazenados com dados de conformidade do Exchange, você deve usar o Exchange 2013 para sua implantação do Exchange e garantir que o tamanho máximo de armazenamento seja compatível com o armazenamento dos arquivos de conteúdo da reunião. Se você implantar o arquivamento usando a opção de integração do Microsoft Exchange, os dados de arquivo morto do Lync serão armazenados com dados de conformidade do Exchange 2013 somente para os usuários hospedados em seus servidores do Exchange 2013. Você deve implantar o Exchange 2013 antes de implantar e habilitar o arquivamento usando a opção de integração do Microsoft Exchange. Se você optar por usar o armazenamento do Exchange 2013, não será necessário implantar bancos de dados separados do SQL Server para arquivamento, a menos que você tenha usuários do Lync que não estejam hospedados em seus servidores do Exchange 2013.
 
-  - **Armazenamento de banco de dados do SQL Server para arquivamento**. Para dar suporte a usuários que não são hospedados em servidores Exchange 2013 ou se você não quiser usar a opção de integração do Microsoft Exchange, você deve implantar o armazenamento de arquivamento usando um banco de dados do SQL Server. O Lync Server 2013 é compatível com as seguintes versões de 64 bits do SQL Server:
+  - **Armazenamento de banco de dados do SQL Server para arquivamento**. Para dar suporte a usuários que não estão hospedados em servidores Exchange 2013, ou se você não deseja usar a opção de integração do Microsoft Exchange, você deve implantar o armazenamento de arquivamento usando um banco de dados do SQL Server. O Lync Server 2013 oferece suporte às seguintes versões de 64 bits do SQL Server:
     
       - Microsoft SQL Server 2008 R2 Enterprise
     
@@ -103,12 +103,12 @@ Além disso, você precisa configurar a infraestrutura para arquivar o armazenam
     
 
     > [!NOTE]  
-    > Microsoft SQL Server 2008 R2 Express e Microsoft SQL Server 2012 Express não são compatíveis com o arquivamento. Não há suporte para as versões de 32 bits do SQL Server. Para obter mais requisitos e restrições do SQL Server, consulte <A href="lync-server-2013-database-software-support.md">suporte a software de banco de dados no Lync Server 2013</A> na documentação de planejamento ou na documentação de suporte.
+    > O Microsoft SQL Server 2008 R2 Express e o Microsoft SQL Server 2012 Express não têm suporte para arquivamento. Não há suporte para as versões de 32 bits do SQL Server. Para obter requisitos e restrições adicionais do SQL Server, confira <A href="lync-server-2013-database-software-support.md">suporte a software de banco de dados no Lync Server 2013</A> na documentação de planejamento ou na documentação de capacidade de suporte.
 
     
     </div>
     
-    Você deve configurar as plataformas do SQL Server antes de implantar e habilitar o arquivamento. Se a conta utilizada para publicar a topologia tiver os direitos e permissões apropriados, é possível criar o banco de dados de arquivamento (LcsLog) ao publicar a topologia. Você também pode criar o banco de dados posteriormente, incluindo como parte do procedimento de instalação. Para obter detalhes sobre o SQL Server, consulte o TechCenter do [http://go.microsoft.com/fwlink/p/?linkID=129045](http://go.microsoft.com/fwlink/p/?linkid=129045)SQL Server em.
+    Você deve configurar as plataformas do SQL Server antes de implantar e habilitar o arquivamento. Se a conta utilizada para publicar a topologia tiver os direitos e permissões apropriados, é possível criar o banco de dados de arquivamento (LcsLog) ao publicar a topologia. Também é possível criar o banco de dados posteriormente, incluindo-o como parte do procedimento de instalação. Para obter detalhes sobre o SQL Server, consulte o TechCenter do [http://go.microsoft.com/fwlink/p/?linkID=129045](http://go.microsoft.com/fwlink/p/?linkid=129045)SQL Server em.
 
 </div>
 

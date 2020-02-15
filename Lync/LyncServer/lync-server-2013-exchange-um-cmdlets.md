@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: cmdlets UM do Exchange'
+title: 'Lync Server 2013: cmdlets de UM do Exchange'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183786
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2cc9d63189d66e6e5255ca7c0d34a717cc2eb514
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c21d013c35d8f1379d049e0f252ac6c0d3356eb1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756245"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035103"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="exchange-um-cmdlets-in-lync-server-2013"></a>Cmdlets UM do Exchange no Lync Server 2013
+# <a name="exchange-um-cmdlets-in-lync-server-2013"></a>Cmdlets de UM do Exchange no Lync Server 2013
 
 </div>
 
@@ -35,79 +35,79 @@ ms.locfileid: "41756245"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-26_
+_**Última modificação do tópico:** 2012-06-26_
 
-O Microsoft Lync Server 2013 funciona em conjunto com a Unificação de mensagens do Exchange para implementar o atendedor automático e acesso do assinante para a caixa postal hospedada. Esses recursos podem ser gerenciados por meio de cmdlets no Shell de gerenciamento do Lync Server.
+O Microsoft Lync Server 2013 funciona junto com a Unificação de mensagens (UM) do Exchange para implementar o atendedor automático e o acesso ao Assinante para caixa postal hospedada. Esses recursos podem ser gerenciados por meio de cmdlets no Shell de gerenciamento do Lync Server.
 
 <div>
 
-## <a name="exchange-um-cmdlets"></a>Cmdlets UM do Exchange
+## <a name="exchange-um-cmdlets"></a>Cmdlets do serviço de UM do Exchange
 
-Os cmdlets a seguir podem ser usados para gerenciar UM Exchange UM
+Os cmdlets a seguir podem ser usados para gerenciar UM do Exchange
 
 **UM do Exchange**
 
   - <span></span>  
-    [Get-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg412725(v=OCS.15))
+    [Get-CsExUmContact](https://technet.microsoft.com/library/Gg412725(v=OCS.15))
 
   - <span></span>  
-    [Move-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg425842(v=OCS.15))
+    [Move-CsExUmContact](https://technet.microsoft.com/library/Gg425842(v=OCS.15))
 
   - <span></span>  
-    [New-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg398139(v=OCS.15))
+    [New-CsExUmContact](https://technet.microsoft.com/library/Gg398139(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsExUmContact](rehttps://technet.microsoft.com/en-us/library/Gg425842(v=OCS.15))
+    [Remove-CsExUmContact](rehttps://technet.microsoft.com/library/Gg425842(v=OCS.15))
 
   - <span></span>  
-    [Set-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg412944(v=OCS.15))
+    [Set-CsExUmContact](https://technet.microsoft.com/library/Gg412944(v=OCS.15))
 
 <!-- end list -->
 
-  - [Test-CsExStorageConnectivity](https://technet.microsoft.com/en-us/library/JJ204740(v=OCS.15))
+  - [Test-CsExStorageConnectivity](https://technet.microsoft.com/library/JJ204740(v=OCS.15))
 
 <!-- end list -->
 
-  - [Test-CsExStorageNotification](https://technet.microsoft.com/en-us/library/JJ205331(v=OCS.15))
+  - [Test-CsExStorageNotification](https://technet.microsoft.com/library/JJ205331(v=OCS.15))
 
 <!-- end list -->
 
-  - [Test-CsExUMConnectivity](https://technet.microsoft.com/en-us/library/JJ204784(v=OCS.15))
+  - [Test-CsExUMConnectivity](https://technet.microsoft.com/library/JJ204784(v=OCS.15))
 
 <!-- end list -->
 
-  - [Test-CsExUMVoiceMail](https://technet.microsoft.com/en-us/library/JJ205058(v=OCS.15))
-
-<!-- end list -->
-
-  - <span></span>  
-    [Get-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398348(v=OCS.15))
-
-  - <span></span>  
-    [Grant CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg412829(v=OCS.15))
-
-  - <span></span>  
-    [New-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398653(v=OCS.15))
-
-  - <span></span>  
-    [Remove-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398211(v=OCS.15))
-
-  - <span></span>  
-    [Set-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg412722(v=OCS.15))
+  - [Test-CsExUMVoiceMail](https://technet.microsoft.com/library/JJ205058(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/en-us/library/Gg425732(v=OCS.15))
+    [Get-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg398348(v=OCS.15))
 
   - <span></span>  
-    [New-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/en-us/library/Gg425849(v=OCS.15))
+    [Grant-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg412829(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/en-us/library/Gg398573(v=OCS.15))
+    [New-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg398653(v=OCS.15))
 
   - <span></span>  
-    [Set-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/en-us/library/Gg412948(v=OCS.15))
+    [Remove-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg398211(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg412722(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [Get-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/library/Gg425732(v=OCS.15))
+
+  - <span></span>  
+    [New-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/library/Gg425849(v=OCS.15))
+
+  - <span></span>  
+    [Remove-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/library/Gg398573(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/library/Gg412948(v=OCS.15))
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Componentes necessários para o diretor'
+title: 'Lync Server 2013: componentes necessários para o diretor'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183502
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 12db97a72a9882964727edd3084e0bd598527358
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e4409632afc61aea4606864e7dd230ad4d295935
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757085"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007941"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,35 +35,35 @@ ms.locfileid: "41757085"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-08_
+_**Última modificação do tópico:** 2012-09-08_
 
-O único componente necessário para criar e configurar um diretor é implantar a função de servidor diretor. Isso é feito usando o construtor de topologias e define um único pool de computadores ou um pool de vários computadores no nó do pool de diretor. Depois de definir o diretor ou o pool do diretor, execute o assistente de implantação do Lync Server no computador que será um diretor. No caso de um pool de diretor, você executa o assistente de implantação do Lync Server em cada servidor que será membro do pool.
+O único componente necessário para criar e configurar um diretor é implantar a função de servidor diretor. Você faz isso usando o construtor de topologias e define um pool de computador único ou um pool de vários computadores no nó do pool de diretores. Após definir o diretor ou o pool de diretor, execute o assistente de implantação do Lync Server no computador que será um diretor. No caso de um pool de diretores, você executa o assistente de implantação do Lync Server em cada servidor que será membro do pool.
 
 <div>
 
-## <a name="topologies"></a>Topologia
+## <a name="topologies"></a>Topologias
 
-Você pode implementar um único servidor de director ou um pool de directors. O diretor é sempre um servidor ou pool separado, não posicionado com nenhuma outra função de servidor no Lync Server 2013.
+Você pode implementar um único servidor de diretor ou um pool de diretores. O diretor é sempre um servidor ou pool separado, não colocado com qualquer outra função de servidor no Lync Server 2013.
 
 <div>
 
 
 > [!NOTE]  
-> Se você não implantar diretores, o servidor front-end ou o pool de front-end assumirá a função de diretor.
+> Se você não implantar diretores, o servidor front-end ou o pool de front-ends assumirá a função diretor.
 
 
 
 </div>
 
-É necessário balancear A carga de um pool de diretores. Você pode executar uma das seguintes ações:
+Um pool de diretores deve ter o balanceamento de carga. Você pode:
 
-  - Crie uma topologia que use um balanceador de carga de hardware para serviços Web e balanceamento de carga DNS (Domain Name System) para os outros tipos de tráfego.
+  - Criar uma topologia que usa um balanceador de carga de hardware para serviços web e balanceamento de carga DNS (Domain Name System) para os outros tipos de tráfego.
     
-    [Pool de diretores em escala - balanceamento de carga de DNS e balanceador de carga de hardware no Lync Server 2013](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md)
+    [Pool de diretores em escala-balanceamento de carga de DNS e balanceador de carga de hardware no Lync Server 2013](lync-server-2013-scaled-director-pool-dns-load-balancing-and-hardware-load-balancer.md)
 
-  - Crie uma topologia que use um balanceador de carga de hardware para o balanceamento de carga necessário para o pool de diretor.
+  - Criar uma topologia que usa um balanceador de carga de hardware para balanceamento de carga necessário para o pool de diretores.
     
-    [Pool de diretores em escala - balanceador de carga de hardware no Lync Server 2013](lync-server-2013-scaled-director-pool-hardware-load-balancer.md)
+    [Pool de diretores em escala-balanceador de carga de hardware no Lync Server 2013](lync-server-2013-scaled-director-pool-hardware-load-balancer.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Fase 9: concluir tarefas posteriores à migração'
+title: 'Fase 9: concluir tarefas de migração'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183292
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cfedd6cc909b1d164df145862c8bd783581ed306
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d28ad5b4f00c724a6344d201cc871fdddf189706
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727371"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034121"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-9-complete-post-migration-tasks"></a>Fase 9: concluir tarefas posteriores à migração
+# <a name="phase-9-complete-post-migration-tasks"></a>Fase 9: concluir tarefas de migração
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41727371"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-15_
+_**Última modificação do tópico:** 2012-10-15_
 
-Os tópicos desta seção descrevem as tarefas que você precisará executar após a conclusão da migração para o Lync Server 2013.
+Os tópicos desta seção descrevem as tarefas que você precisará realizar após a conclusão da migração para o Lync Server 2013.
 
 <div>
 
@@ -47,25 +47,25 @@ Os tópicos desta seção descrevem as tarefas que você precisará executar ap�
 
   - [Migrar números de acesso de discagem](migrate-dial-in-access-numbers_1.md)
 
-  - [Habilitar o Exchange 2013 o Outlook Web App e a integração de mensagens instantâneas](enable-exchange-2013-outlook-web-app-and-im-integration.md)
+  - [Habilitar o Exchange 2013 Outlook Web App e integração de IM](enable-exchange-2013-outlook-web-app-and-im-integration.md)
 
-  - [Migrar o Catálogo de endereços](migrate-address-book_1.md)
+  - [Migrar o Catálogo de Endereços](migrate-address-book_1.md)
 
   - [Habilitar o controle de chamada remota](enable-remote-call-control.md)
 
-  - [Remover servidores de Arquivamento e de Monitoramento herdados](remove-legacy-archiving-and-monitoring-servers_1.md)
+  - [Remover servidores de arquivamento e monitoramento herdados](remove-legacy-archiving-and-monitoring-servers_1.md)
 
-  - [Migrar servidor de mediação](migrate-mediation-server.md)
+  - [Migrar o Servidor de Mediação](migrate-mediation-server.md)
 
-  - [Configurar servidores de aplicativo confiáveis](configure-trusted-application-servers_1.md)
+  - [Configurar servidores de aplicativos confiáveis](configure-trusted-application-servers_1.md)
 
   - [Configurar a página de ingresso na reunião](configure-the-meeting-join-page_1.md)
 
   - [Implantar clientes do Lync Server 2013](deploy-lync-server-2013-clients_1.md)
 
-  - [Mover objetos de contato da Unificação de mensagens do Exchange](move-exchange-unified-messaging-contact-objects.md)
+  - [Mover objetos de contato de Unificação de mensagens do Exchange](move-exchange-unified-messaging-contact-objects.md)
 
-  - [Verificar se todos os objetos de contato do Exchange UM são removidos do pool herdado](verify-that-all-exchange-um-contact-objects-are-removed-from-the-legacy-pool.md)
+  - [Verificar se todos os objetos de contato do UM do Exchange foram removidos do pool herdado](verify-that-all-exchange-um-contact-objects-are-removed-from-the-legacy-pool.md)
 
 </div>
 

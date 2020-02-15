@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: como gerenciar fluxos de trabalho do grupo de resposta'
+title: 'Lync Server 2013: Gerenciando fluxos de trabalho do grupo de resposta'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183974
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 489ad3b47b1502c210fc3f66fea3ed751b4f58a2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4a01005e9c6d78f521c3987bb36813e2d7eadb11
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765582"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41991976"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-response-group-workflows-in-lync-server-2013"></a>Gerenciamento de fluxos de trabalho de grupo de resposta no Lync Server 2013
+# <a name="managing-response-group-workflows-in-lync-server-2013"></a>Gerenciando fluxos de trabalho de grupo de resposta no Lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41765582"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-01_
+_**Última modificação do tópico:** 2012-10-01_
 
-Um fluxo de trabalho de grupo de resposta define o comportamento de uma chamada no momento em que o telefone toca para a hora em que o agente atende a chamada. O fluxo de trabalho inclui informações de fila e roteamento e inclui informações de grupo de busca ou resposta de voz interativa (IVR).
+Um fluxo de trabalho do grupo de resposta define o comportamento de uma chamada desde o momento em que o telefone toca até o momento em que um agente atende a chamada. O fluxo de trabalho inclui informações de fila e roteamento, bem como informações de grupo de busca ou IVR (Resposta Interativa de Voz).
 
-Os tópicos desta seção identificam as práticas recomendadas para a criação de fluxos de trabalho de IVR e explicam como criar conjuntos de horários comerciais personalizados e feriados, como criar ou modificar fluxos de trabalho e como excluir grupos de trabalho.
+Os tópicos nesta seção identificam as práticas recomendadas para criar fluxos de trabalho IVR e explicam como criar conjuntos de horas e feriados de trabalho personalizados, como criar ou modificar fluxos de trabalho e como excluir grupos de trabalho.
 
 <div>
 
@@ -47,9 +47,9 @@ Os tópicos desta seção identificam as práticas recomendadas para a criação
 
   - [Projetar fluxos de chamada de resposta interativa de voz no Lync Server 2013](lync-server-2013-design-interactive-voice-response-call-flows.md)
 
-  - [Adicionais Definir o horário comercial do grupo de resposta no Lync Server 2013](lync-server-2013-optional-define-response-group-business-hours.md)
+  - [Opcion Definir o horário comercial do grupo de resposta no Lync Server 2013](lync-server-2013-optional-define-response-group-business-hours.md)
 
-  - [Adicionais Definir conjuntos de feriados do grupo de resposta no Lync Server 2013](lync-server-2013-optional-define-response-group-holiday-sets.md)
+  - [Opcion Definir os conjuntos de feriados do grupo de resposta no Lync Server 2013](lync-server-2013-optional-define-response-group-holiday-sets.md)
 
   - [Criar ou modificar um fluxo de trabalho no Lync Server 2013](lync-server-2013-create-or-modify-a-workflow.md)
 

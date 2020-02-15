@@ -12,16 +12,16 @@ ms:contentKeyID: 49733757
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe172863d2a1f8e762f8da2d6029f00531e04c70
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 289e210b8f8959c8bee471a73d9dc5680923d80d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743291"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41991926"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41743291"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
-O Lync Server 2013 dá suporte à execução de grupos de resposta no pool de backup durante a recuperação de desastres. Esta seção descreve como planejar os grupos de resposta durante uma interrupção, como os grupos de resposta funcionam durante a interrupção e as etapas necessárias para failover e failback de grupos de resposta.
+O Lync Server 2013 oferece suporte à execução de grupos de resposta no pool de backup durante a recuperação de desastres. Esta seção descreve como planejar grupos de resposta durante uma interrupção de energia, como os grupos de resposta trabalham durante a interrupção e o procedimento necessário para os grupos de resposta de fail over e fail back.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Planejamento para recuperação de desastre de grupos de resposta no Lync Server 2013](lync-server-2013-planning-for-response-group-disaster-recovery.md)
+  - [Planejamento para recuperação de desastre do grupo de resposta no Lync Server 2013](lync-server-2013-planning-for-response-group-disaster-recovery.md)
 
-  - [Experiência do grupo de resposta no Lync Server 2013 durante falha no pool](lync-server-2013-response-group-experience-during-pool-failure.md)
+  - [Experiência do grupo de resposta no Lync Server 2013 durante falha do pool](lync-server-2013-response-group-experience-during-pool-failure.md)
 
-  - [Procedimento de recuperação de desastre do grupo de resposta no Lync Server 2013](lync-server-2013-response-group-disaster-recovery-procedures.md)
+  - [Procedimentos de recuperação de desastre do grupo de resposta no Lync Server 2013](lync-server-2013-response-group-disaster-recovery-procedures.md)
 
 </div>
 

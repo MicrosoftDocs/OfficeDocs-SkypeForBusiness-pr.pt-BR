@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: validar as configurações do sistema de nome de domínio para o balanceamento de carga'
+title: 'Lync Server 2013: validar configurações do sistema de nomes de domínio para balanceamento de carga'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969625
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0178d179a9684cf07450cdee839af1c8c1ebc22d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3cc1766ad11a5a6b7933d95b2c3e1182ff8ffc6a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727521"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007430"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="validate-domain-name-system-settings-for-load-balancing-in-lync-server-2013"></a>Validar as configurações de sistema de nome de domínio para o balanceamento de carga no Lync Server 2013
+# <a name="validate-domain-name-system-settings-for-load-balancing-in-lync-server-2013"></a>Validar configurações do sistema de nomes de domínio para balanceamento de carga no Lync Server 2013
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41727521"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-05-02_
+_**Última modificação do tópico:** 2014-05-02_
 
-Para dar suporte ao FQDN usado pelo balanceamento de carga de DNS, você deve provisionar o DNS para resolver o FQDN do pool (como pool01.contoso.com) para os endereços IP de todos os servidores do pool (por exemplo, 192.168.1.1, 192.168.1.2 e assim por diante). Você deve incluir somente os endereços IP dos servidores que estão implantados no momento.
+Para suportar o FQDN usado pelo balanceamento de carga DNS, você deve provisionar o DNS para resolver o FQDN do pool (como pool01.contoso.com) para os endereços IP de todos os servidores no pool (por exemplo, 192.168.1.1, 192.168.1.2 e assim por diante). Você deve incluir somente os endereços IP dos servidores que estão atualmente implantados.
 
-Além disso, se você estiver usando o balanceamento de carga de DNS para os pools de borda, serão necessárias as seguintes entradas DNS:
+Além disso, se você estiver usando o balanceamento de carga DNS para os pools de borda, serão necessárias as seguintes entradas DNS:
 
-  - Para o serviço de borda de acesso do Lync Server, você deve ter uma entrada para cada servidor do pool. Cada entrada deve resolver o FQDN do serviço de borda de acesso do Lync Server (por exemplo, sip.contoso.com) para o endereço IP do serviço de borda de acesso do Lync Server em um dos servidores de borda do pool.
+  - Para o serviço de borda de acesso do Lync Server, você deve ter uma entrada para cada servidor no pool. Cada entrada deve resolver o FQDN do serviço de borda de acesso do Lync Server (por exemplo, sip.contoso.com) para o endereço IP do serviço de borda de acesso do Lync Server em um dos servidores de borda no pool.
 
-  - Para o serviço de borda de conferência do Lync Server Web, você deve ter uma entrada para cada servidor do pool. Cada entrada deve resolver o FQDN do serviço de borda de Webconferência do Lync Server (por exemplo, webconf.contoso.com) para o endereço IP do serviço de borda de Webconferência do Lync Server em um dos servidores de borda do pool.
+  - Para o serviço de borda de Webconferência do Lync Server, você deve ter uma entrada para cada servidor no pool. Cada entrada deve resolver o FQDN do serviço de borda de Webconferência do Lync Server (por exemplo, webconf.contoso.com) para o endereço IP do serviço de borda de Webconferência do Lync Server em um dos servidores de borda do pool.
 
-  - Para o serviço de borda de áudio/vídeo do Lync Server, você deve ter uma entrada para cada servidor do pool. Cada entrada deve resolver o FQDN do serviço de borda de áudio/vídeo do Lync Server (por exemplo, av.contoso.com) para o endereço IP do serviço de borda de áudio/vídeo do Lync Server em um dos servidores de borda do pool.
+  - Para o serviço de borda de áudio/vídeo do Lync Server, você deve ter uma entrada para cada servidor no pool. Cada entrada deve resolver o FQDN do serviço de borda de áudio/vídeo do Lync Server (por exemplo, av.contoso.com) para o endereço IP do serviço de borda de áudio/vídeo do Lync Server em um dos servidores de borda no pool.
 
-  - Se você quiser usar o balanceamento de carga de DNS na interface interna do pool de borda, será necessário adicionar um registro DNS, que resolve o FQDN interno do pool de bordas para o endereço IP de cada servidor do pool.
+  - Se quiser usar o balanceamento de carga DNS na interface interna do pool de borda, você deve adicionar um registro DNS que resolva o FQDN interno do pool de borda para o endereço IP de cada servidor no pool.
 
-Para verificar se o DNS está retornando os valores corretos para o balanceamento de carga de DNS, você deve usar a ferramenta nslookup. Para retornar todos os valores de um registro DNS com o Nslookup, você deve executar o comando:
+Para verificar se o DNS está retornando os valores corretos para o balanceamento de carga DNS, você deve usar a ferramenta nslookup. Para retornar todos os valores de um registro DNS com Nslookup, execute o comando:
 
 `nslookup <FQDN >`
 
-Você deve executar esse comando para cada FQDN usado na configuração de balanceamento de carga de DNS para verificar se cada conjunto de registros para balanceamento de carga de DNS retornou todas as entradas corretas.
+Você deve executar esse comando para cada FQDN usado na configuração de balanceamento de carga DNS para verificar se cada conjunto de registros para balanceamento de carga DNS retornou todas as entradas corretas.
 
 </div>
 

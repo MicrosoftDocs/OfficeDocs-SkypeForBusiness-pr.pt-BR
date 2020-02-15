@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Adquirindo um local'
+title: 'Lync Server 2013: adquirindo um local'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184903
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e54c7032973f75922f6c6893a0c758409ec945be
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: de591298d6509ce14b9a4b1ebe55e0a327d517b2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723361"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036761"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41723361"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-06_
+_**Última modificação do tópico:** 2012-06-06_
 
-Em uma implantação do Lync Server 2013 E9-1-1, todos os clientes do Lync ou Lync Phone Edition conectados internamente adquirem ativamente seu próprio local. Após o registro do SIP, o cliente fornece todas as informações de conectividade de rede que ele conhece em si em uma solicitação de localização para o serviço de informações de localização, que é um serviço da Web apoiado por um banco de dados replicado do SQL Server. Cada pool de sites central tem um serviço de informações de localização, que usa as informações de rede para consultar seus registros para um local correspondente. Se houver uma correspondência, o serviço de informações de localização retornará um local ao cliente. Caso contrário, o usuário poderá ser solicitado a inserir o local manualmente (dependendo das configurações de política de local). Os dados do local são transmitidos de volta ao cliente em um formato XML padronizado IETF (Internet Engineering Task Force) chamado PIDF-LO (Presence Information Data Format Location Object).
+Em uma implantação do Lync Server 2013 E9-1-1, cada cliente Lync ou Lync Phone Edition conectado internamente adquire ativamente seu próprio local. Após o registro SIP, o cliente fornece todas as informações de conectividade de rede que ele conhece em uma solicitação de local para o serviço de informações de local, que é um serviço Web apoiado por um banco de dados do SQL Server replicado. Cada pool de site central tem um serviço de informações de local, que usa as informações de rede para consultar seus registros em busca de um local correspondente. Se houver uma correspondência, o serviço de informações de local retornará um local ao cliente. Se não houver uma correspondentes, pode ser solicitado que o usuário insira uma localização manualmente (dependendo das definições da política de localização). Os dados de localização são transmitidos de volta para o cliente em um formato XML padronizado da IETF (Internet Engineering Task Force) chamado de PIDF-LO (Objeto de Local de Formato de Dados de Informação de Presença).
 
-O cliente do Lync Server inclui os dados do PIDF como parte de uma chamada de emergência, e esses dados são usados pelo provedor de serviços E9-1-1 para determinar o PSAP apropriado e direcionar a chamada para esse PSAP juntamente com o ESQK correto, o que permite que o Dispatcher do PSAP obtenha o Localização do chamador.
+O cliente do Lync Server inclui os dados do PIDF-LO como parte de uma chamada de emergência, e esses dados são usados pelo provedor de serviço E9-1-1 para determinar o PSAP apropriado e encaminhar a chamada para esse PSAP junto com o ESQK correto, que permite ao dispatcher do PSAP obter o local do chamador.
 
-O diagrama a seguir mostra como um cliente do Lync Server adquire um local (exceto para o método de localização baseada em endereço MAC do cliente de terceiros):
+O diagrama a seguir mostra como um cliente do Lync Server adquire um local (exceto para o método de local com base no endereço MAC do cliente de terceiros):
 
-![Como o cliente adquire um diagrama de localização](images/JJ205110.4438f5fc-f1b2-444b-8565-09035363ed43(OCS.15).jpg "Como o cliente adquire um diagrama de localização")
+![Como o cliente adquire um diagrama de local](images/JJ205110.4438f5fc-f1b2-444b-8565-09035363ed43(OCS.15).jpg "Como o cliente adquire um diagrama de local")
 
-Para um cliente adquirir um local, as seguintes etapas devem ser executadas:
+Para um cliente adquirir uma localização, as seguintes etapas devem ser executadas:
 
-1.  O administrador preenche o banco de dados do serviço de informações de localização com o wiremap de rede (tabelas que mapeiam vários tipos de endereços de rede para locais de reação de emergência correspondentes (ERLs)).
+1.  O administrador preenche o banco de dados do serviço de informações de local com o wiremap de rede (tabelas que mapeiam vários tipos de endereços de rede para locais de resposta de emergência correspondentes (ERLs)).
 
-2.  Se você usar um provedor de serviços E9-1-1 do tronco SIP, o administrador validará as partes de endereço cívico do ERLs em comparação com um banco de dados MSAG (Catálogo de Endereços Principal) mantido pelo provedor do serviços E9-1-1. Se você usar um gateway ELIN, o administrador garante que a operadora de PSTN fará o upload dos ELINs para o banco de dados de Identificação de local automática (ALI).
+2.  Se você usar um provedor de serviço E9-1-1 por tronco SIP, o administrador validará as partes do endereço residencial dos ERLs com um banco de dados MSAG (Guia principal de endereços de ruas) mantido pelo provedor de serviço E9-1-1. Se você usar um gateway ELIN, o administrador garantirá que a operadora da PSTN carregue os ELINs no banco de dados ALI (Identificação de local automática).
 
-3.  Durante o registro ou sempre que ocorre uma alteração na rede, um cliente conectado internamente envia uma solicitação de localização que contém os endereços de rede descobertos do cliente para o serviço de informações de localização.
+3.  Durante o registro ou sempre que uma alteração na rede ocorrer, um cliente conectado internamente enviará uma solicitação de local que contém os endereços de rede descobertos do cliente para o serviço de informações de local.
 
-4.  O serviço de informações de localização consulta os registros publicados de um local e, se for encontrada uma coincidência, retorna o ERL para o cliente no formato PIDF-LO.
+4.  O serviço de informações de local consulta seus registros publicados em busca de um local e, se uma correspondência for encontrada, retorna o ERL ao cliente no formato PIDF-LO.
 
 </div>
 

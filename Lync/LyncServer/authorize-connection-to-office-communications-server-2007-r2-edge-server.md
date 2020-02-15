@@ -13,16 +13,16 @@ ms:contentKeyID: 48183493
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8dbce32a12f05dff768d23a2bdccfe1b84a567cb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 64786c29027c99de2f3b5e01846a5283ec57a084
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724211"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42003976"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -36,31 +36,31 @@ ms.locfileid: "41724211"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-28_
+_**Última modificação do tópico:** 2012-09-28_
 
-Para cada servidor front-end do Lync Server 2013 ou Standard Edition no pool piloto, você deve atualizar a lista de servidores internos que têm autorização para se conectar ao servidor do Office Communications Server 2007 R2 Edge Server. Sem essas atualizações, a conferência de áudio/visual (A/V) externa para usuários que ingressarem usando o servidor de borda herdada não funcionará.
+Para cada servidor front-end do Lync Server 2013 ou servidor Standard Edition no pool piloto, você deve atualizar a lista de servidores internos que estão autorizados a se conectar ao servidor de borda do Office Communications Server 2007 R2. Sem estas atualizações, conferências A/V (audiovisual) externas para usuários ingressando usando o Servidor de Borda herdado não irão funcionar.
 
 <div>
 
 ## <a name="to-authorize-connection-to-office-communications-server-2007-r2-edge-server"></a>Para autorizar a conexão com o servidor de borda do Office Communications Server 2007 R2
 
-1.  No servidor do Office Communications Server 2007 R2 Edge, a partir do grupo **Ferramentas administrativas** , abra o snap-in **Gerenciamento do computador** .
+1.  No servidor de borda do Office Communications Server 2007 R2, no grupo **Ferramentas administrativas** , abra o snap-in **Gerenciamento do computador** .
 
-2.  Na árvore de console, expanda **serviços e aplicativos**.
+2.  Na árvore do console, expanda **Serviços e Aplicativos**.
 
-3.  Clique com o botão direito do mouse em **Office Communications Server 2007 R2**e, em seguida, clique em **Propriedades**.
+3.  Clique com o botão direito do mouse em **Office Communications Server 2007 R2**e clique em **Propriedades**.
 
-4.  Clique na guia **interno** .
+4.  Clique na guia **Interno**.
 
-5.  Em **Adicionar servidor**, clique em **Adicionar**.
+5.  Em **Adicionar Servidor**, clique em **Adicionar**.
 
-6.  Na caixa de diálogo **Adicionar o Office Communications Server** , insira as informações apropriadas:
+6.  Na caixa de diálogo **Adicionar Office Communications Server**, insira as informações apropriadas:
     
-      - Especifique o nome de domínio totalmente qualificado (FQDN) de cada servidor front-end do Lync Server 2013 ou do servidor Standard Edition e do Lync Server 2013 pool.
+      - Especifique o FQDN (nome de domínio totalmente qualificado) de cada servidor front-end do Lync Server 2013 ou servidor Standard Edition e o pool do Lync Server 2013.
     
-      - Especifique o FQDN do diretor do Lync Server 2013 se você configurou uma rota estática no pool que especifica o próximo nó do computador pelo seu FQDN.
+      - Especifique o FQDN do diretor do Lync Server 2013 se você configurou uma rota estática no pool que especifica o próximo computador de salto por seu FQDN.
 
-7.  Depois de adicionar uma entrada para cada Lync Server 2013, servidor front-end, servidor Standard Edition, pool e diretor, clique em **aplicar** e, em seguida, clique em **OK** para fechar a página Propriedades.
+7.  Após adicionar uma entrada para cada Lync Server 2013, servidor front-end, servidor Standard Edition, pool e diretor, clique em **aplicar** e clique em **OK** para fechar a página Propriedades.
 
 </div>
 

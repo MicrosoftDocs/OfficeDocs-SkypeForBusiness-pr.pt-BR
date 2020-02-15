@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Excluir um site ou uma política de usuário para acesso de usuário externo'
+title: 'Lync Server 2013: excluir uma política de site ou de usuário para acesso de usuário externo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184455
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b928fcb1347fdbc89099a5b0dc649deefffa19e6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5c21b58715814b5bf08023662bff61b004b51896
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742541"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036129"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-a-site-or-user-policy-for-external-user-access-in-lync-server-2013"></a>Excluir um site ou uma política de usuário para acesso de usuário externo no Lync Server 2013
+# <a name="delete-a-site-or-user-policy-for-external-user-access-in-lync-server-2013"></a>Excluir uma política de site ou de usuário para acesso de usuário externo no Lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41742541"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-22_
+_**Última modificação do tópico:** 2013-02-22_
 
-Você pode excluir qualquer política de site ou de usuário listada no painel de controle do Lync Server na página de **política de acesso externo** . A exclusão da política global não a exclui realmente, mas só a redefine para as configurações padrão, que não incluem suporte para qualquer opção de acesso de usuário externo. Para obter detalhes sobre como redefinir a política global, consulte [redefinir a política global para acesso de usuário externo no Lync Server 2013](lync-server-2013-reset-the-global-policy-for-external-user-access.md).
+Você pode excluir qualquer política de site ou de usuário que esteja listada no painel de controle do Lync Server na página **política de acesso externo** . Excluir a política global não causa sua exclusão propriamente dita, mas apenas a redefine para suas configurações padrão, que não incluem suporte para nenhuma opção de acesso de usuário externo. Para obter detalhes sobre como redefinir a política global, consulte [Reset The Global Policy for External User Access in Lync Server 2013](lync-server-2013-reset-the-global-policy-for-external-user-access.md).
 
 <div>
 
-## <a name="to-delete-a-site-or-user-policy-for-external-user-access"></a>Para excluir uma política de site ou de usuário para acesso de usuário externo
+## <a name="to-delete-a-site-or-user-policy-for-external-user-access"></a>Para excluir uma política de site ou de usuário para o acesso de usuário externo
 
-1.  Usando uma conta de usuário que é membro do grupo RTCUniversalServerAdmins (ou tem direitos de usuário equivalentes), ou está atribuída à função CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+1.  A partir de uma conta de usuário que seja membro do grupo RTCUniversalServerAdmins (ou tenha direitos de usuário equivalentes) ou atribuída à função CsAdministrator, faça logon em qualquer computador em sua implantação interna.
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Clique em **acesso de usuário externo**, clique em **política de acesso externo**.
+3.  Clique em **Acesso de Usuário Externo**, em **Política de Acesso Externo**.
 
-4.  Na guia **política de acesso externo** , clique no site ou na política de usuário que você deseja excluir, clique em **Editar**e, em seguida, clique em **excluir**.
+4.  Na guia **Política de Acesso Externo**, clique na política de site ou de usuário que deseja excluir, clique em **Editar**e em **Excluir**.
 
-5.  Quando for solicitado a confirmar a exclusão, clique em **OK**.
+5.  Quando for solicitado que você confirme a exclusão, clique em **OK**.
 
 </div>
 
@@ -59,13 +59,13 @@ Você pode excluir qualquer política de site ou de usuário listada no painel d
 
 ## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>Removendo políticas de PIN usando cmdlets do Windows PowerShell
 
-As políticas de acesso externo podem ser excluídas usando o Windows PowerShell e o cmdlet Remove-CsExternalAccessPolicy. Esse cmdlet pode ser executado no Shell de gerenciamento do Lync Server 2013 ou em uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.
+As políticas de acesso externo podem ser excluídas usando o Windows PowerShell e o cmdlet Remove-CsExternalAccessPolicy. Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
 
 <div>
 
 ## <a name="to-remove-a-specific-external-access-policy"></a>Para remover uma política de acesso externo específica
 
-  - Este comando Remove a política de acesso externo aplicada ao site Redmond:
+  - Este comando remove a política de acesso externo aplicada ao site Redmond:
     
         Remove-CsExternalAccessPolicy -Identity "site:Redmond"
 
@@ -75,7 +75,7 @@ As políticas de acesso externo podem ser excluídas usando o Windows PowerShell
 
 ## <a name="to-remove-all-the-external-access-policies-applied-to-the-per-user-scope"></a>Para remover todas as políticas de acesso externo aplicadas ao escopo por usuário
 
-  - Esse comando Remove todas as políticas de acesso externo configuradas no escopo por usuário:
+  - Este comando remove todas as políticas de acesso externo configuradas no escopo por usuário:
     
         Get-CsExternalAccessPolicy -Filter "tag:*" | Remove-CsExternalAccessPolicy
 
@@ -83,15 +83,15 @@ As políticas de acesso externo podem ser excluídas usando o Windows PowerShell
 
 <div>
 
-## <a name="to-remove-all-the-external-access-policies-where-outside-user-access-is-disabled"></a>Para remover todas as políticas de acesso externo em que o acesso do usuário externo está desabilitado
+## <a name="to-remove-all-the-external-access-policies-where-outside-user-access-is-disabled"></a>Para remover todas as políticas de acesso externo onde o acesso de usuário externo está desabilitado
 
-  - Este comando exclui todas as políticas de acesso externo em que o acesso de usuário externo foi desabilitado:
+  - Este comando exclui todas as políticas de acesso externo com acesso de usuário externo desabilitado:
     
         Get-CsExternalAccessPolicy | Where-Object {$_.EnableOutsideAccess -eq $False} | Remove-CsExternalAccessPolicy
 
 </div>
 
-Para obter mais informações, consulte o tópico da ajuda para o cmdlet [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsExternalAccessPolicy) .
+Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsExternalAccessPolicy) .
 
 </div>
 

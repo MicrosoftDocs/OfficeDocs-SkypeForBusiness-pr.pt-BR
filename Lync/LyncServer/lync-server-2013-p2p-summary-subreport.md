@@ -12,16 +12,16 @@ ms:contentKeyID: 48185950
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3cff1eb86376068d53651f0d88224bf7f030921
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 47da588037fd3db70fc277c91b919185f48a9286
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755395"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41989726"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41755395"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-21_
+_**Última modificação do tópico:** 2012-10-21_
 
-O sub-relatório de resumo P2P oferece uma visão geral das sessões de comunicação ponto a ponto que falharam.
+O sub-relatório de resumo P2P fornece uma visão geral das sessões de comunicação ponto a ponto que falharam.
 
 <div>
 
 ## <a name="filters"></a>Filtros
 
-Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionadas ou para exibir os dados retornados de diferentes maneiras. A tabela a seguir lista os filtros que você pode usar com o sub-relatório de resumo P2P.
+Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionado ou de exibir os dados retornados de maneiras diferentes. A tabela a seguir lista os filtros que você pode usar com o sub-relatório de resumo P2P.
 
-### <a name="p2p-summary-subreport-filters"></a>Filtros de sub-relatório de resumo P2P
+### <a name="p2p-summary-subreport-filters"></a>Filtros de subrelatório de resumo P2P
 
 <table>
 <colgroup>
@@ -61,27 +61,27 @@ Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionad
 <tbody>
 <tr class="odd">
 <td><p><strong>De</strong></p></td>
-<td><p>Data e hora de início do intervalo de tempo. Para ver os dados por hora, insira a data e hora de início desta forma:</p>
-<p>7/7/2012 1:00 PM</p>
-<p>Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:</p>
+<td><p>Data e hora de início para o intervalo de tempo. Para ver os dados por hora, digite a data e hora de início no seguinte formato:</p>
+<p>7/7/2012 13:00 horas</p>
+<p>Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</p>
 <p>7/7/2012</p>
-<p>Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
+<p>Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/3/2012</p>
-<p>As semanas sempre vão de domingo a sábado.</p></td>
+<p>As semanas são sempre de domingo a sábado.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Até</strong></p></td>
-<td><p>Data e hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:</p>
-<p>7/7/2012 1:00 PM</p>
-<p>Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:</p>
+<td><p><strong>To</strong></p></td>
+<td><p>Data e hora de término para o dia intervalo de tempo. Para ver os dados por hora, digite a data e a hora de término no seguinte formato:</p>
+<p>07/07/2012 13:00</p>
+<p>Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</p>
 <p>7/7/2012</p>
-<p>Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
+<p>Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/3/2012</p>
-<p>As semanas sempre vão de domingo a sábado.</p></td>
+<p>As semanas sempre correm do domingo até sábado.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Pool</strong></p></td>
-<td><p>O FQDN (nome de domínio totalmente qualificado) do pool Registrador Avançado ou Servidor de Borda. Você pode selecionar um pool individual ou clicar em <strong>[Todos]</strong> para ver os dados de todos os pools. Essa lista suspensa é preenchida automaticamente com base nos registros no banco de dados.</p></td>
+<td><p>FQDN do pool do Registrador ou Servidor de Borda. É possível selecionar um pool individual ou clicar em <strong>[Todos]</strong> para exibir os dados de todos os pools. Esta lista suspensa é preenchida automaticamente para você com base nos registros do banco de dados.</p></td>
 </tr>
 </tbody>
 </table>
@@ -93,9 +93,9 @@ Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionad
 
 ## <a name="metrics"></a>Métricas
 
-A tabela a seguir apresenta as informações oferecidas no sub-relatório de resumo P2P.
+A tabela a seguir lista as informações fornecidas no subrelatório de resumo P2P.
 
-### <a name="p2p-summary-subreport-metrics"></a>Métricas de sub-relatório de resumo P2P
+### <a name="p2p-summary-subreport-metrics"></a>Métricas de subrelatório de resumo P2P
 
 <table>
 <colgroup>
@@ -106,13 +106,13 @@ A tabela a seguir apresenta as informações oferecidas no sub-relatório de res
 <thead>
 <tr class="header">
 <th>Nome</th>
-<th>Você pode classificar este item?</th>
+<th>É possível classificar este item?</th>
 <th>Descrição</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Total de sessões</strong></p></td>
+<td><p><strong>Sessões totais</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Número total de sessões, incluindo sessões bem-sucedidas, com falha (tanto falhas esperadas quanto inesperadas) e sessões não categorizadas.</p></td>
 </tr>
@@ -129,7 +129,7 @@ A tabela a seguir apresenta as informações oferecidas no sub-relatório de res
 <tr class="even">
 <td><p><strong>Taxa de falha por modalidade</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Número total de sessões que falharam agrupadas por modalidade (por exemplo, mensagens instantâneas).</p></td>
+<td><p>Número total de sessões com falha agrupadas por modalidade (por exemplo, mensagens instantâneas).</p></td>
 </tr>
 </tbody>
 </table>

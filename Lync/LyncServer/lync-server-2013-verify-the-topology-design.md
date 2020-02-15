@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Verificar o design de topologia'
+title: 'Lync Server 2013: verificar o design da topologia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185311
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85266477df342c16ed69c0507813b905c608745c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c6968dfca2072ca9a6c0e5008528e27a14f01447
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742141"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007310"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41742141"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-01-02_
+_**Última modificação do tópico:** 2012-01-02_
 
-O construtor de topologias verifica automaticamente a topologia. Qualquer erro de topologia é identificado como um erro de validação, indicado pelo ícone de erro de validação ao lado da função do servidor. Também é importante verificar se a topologia representa corretamente a topologia para a implantação.
+O construtor de topologia verifica automaticamente a topologia. Qualquer erro na topologia é identificado como um erro de validação, indicado pelo ícone de erro de validação ao lado da função de servidor. É importante também verificar se a topologia representa de forma correta a topologia da sua implantação.
 
 <div>
 
-## <a name="to-verify-the-topology-prior-to-publication"></a>Para verificar a topologia antes da publicação
+## <a name="to-verify-the-topology-prior-to-publication"></a>Para verificar a topologia antes de publicação
 
 1.  Verifique se todas as URLs simples estão configuradas corretamente.
 
-2.  Verifique se o servidor baseado em SQL Server está online e disponível para o computador no qual o Construtor de Topologias está instalado, incluindo quaisquer regras de firewall necessárias.
+2.  Confirme se o servidor baseado em SQL Server está online e disponível para o computador onde o construtor de topologias está instalado, incluindo as regras de firewall necessárias.
 
-3.  Confirme se o compartilhamento de arquivos está disponível e se tem as permissões adequadas definidas.
+3.  Confirme se o compartilhamento de arquivos está disponível e tem as permissões adequadas definidas.
 
-4.  Verifique se as funções de servidor corretas que atendem aos requisitos de implantação estão definidas na topologia.
+4.  Confirme se as funções de servidor corretas que atendem aos requisitos de implantação estão definidas na topologia.
 
-5.  Verifique se os servidores existem nos serviços de domínio Active Directory. Isso ocorrerá automaticamente se você tiver ingressado nos servidores do domínio.
+5.  Verifique se os servidores existem nos serviços de domínio do Active Directory. Isso acontecerá automaticamente se você tiver ingressado os servidores no domínio.
 
-Após a verificação da topologia, se não houver erros de validação, você estará pronto para publicar a topologia. Se houver erros de validação, você deve corrigi-los para poder publicar a topologia. Para obter detalhes sobre como publicar sua topologia, consulte [publicar a topologia no Lync Server 2013](lync-server-2013-publish-the-topology.md).
+Após a verificação da topologia e se não houver erros de validação, você deverá estar pronto para publicar a topologia. Se houver erros de validação, será necessário corrigi-los antes de publicar a topologia. Para obter detalhes sobre como publicar sua topologia, consulte [publish the Topology in Lync Server 2013](lync-server-2013-publish-the-topology.md).
 
 </div>
 

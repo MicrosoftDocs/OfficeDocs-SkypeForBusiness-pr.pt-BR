@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Suporte a navegadores para o Painel de Controle do Lync Server'
+title: 'Lync Server 2013: suporte de navegador para o painel de controle do Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184459
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 43e224e878b645daa355cfa5617ff42c69b61b94
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6fbdd00adb7a71c85d35f7f3834db0bd831ec9a8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741801"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007991"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="browser-support-for-lync-server-2013-control-panel"></a>Suporte a navegadores para o Painel de Controle do Lync Server 2013
+# <a name="browser-support-for-lync-server-2013-control-panel"></a>Suporte de navegador para o painel de controle do Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41741801"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-28_
+_**Última modificação do tópico:** 2012-09-28_
 
-O Lync Server 2013 dá suporte ao uso do construtor de topologias e ao Lync Server 2013 o painel de controle tem suporte ao usar os seguintes navegadores:
+Lync Server 2013 suporta o uso do construtor de topologias e o painel de controle do Lync Server 2013 é suportado ao usar os seguintes navegadores:
 
-  - Internet Explorer 10, 32-bit
+  - Internet Explorer 10, 32 bits
 
-  - Internet Explorer 9, 32-bit
+  - Internet Explorer 9, 32 bits
 
-  - Internet Explorer 8, 32 bit
+  - Internet Explorer 8, 32 bits
 
 </div>
 

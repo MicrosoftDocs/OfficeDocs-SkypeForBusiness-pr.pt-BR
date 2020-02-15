@@ -12,16 +12,16 @@ ms:contentKeyID: 48183534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d142bc2a98fbbb1d8147943e379ae1e1a243b18
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3d4343e9321ab463a6bf0b4173989d245267588e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726191"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006267"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41726191"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-10-07_
+_**Última modificação do tópico:** 2013-10-07_
 
-Os servidores de borda fornecem uma maneira de estender os recursos do Microsoft Lync Server 2013 para as pessoas que não estão conectadas à sua rede interna. Por exemplo, se você tiver usuários remotos – usuários autenticados que fazem logon no Lync Server 2013 pela Internet, e não pela rede interna, será preciso configurar um servidor de borda que execute o serviço de borda de acesso do Lync Server. Além disso, os servidores de borda são necessários se você deseja estabelecer uma federação com outra organização ou se quiser dar aos usuários o direito de se comunicar com pessoas que tenham contas com um serviço de mensagens instantâneas\!público, como Yahoo, AOL ou MSN.
+Os servidores de borda fornecem uma maneira de estender os recursos do Microsoft Lync Server 2013 para pessoas que não estão conectados à sua rede interna. Por exemplo, se você tiver usuários remotos – usuários autenticados que fazem logon no Lync Server 2013 pela Internet, e não através da rede interna, será necessário configurar um servidor de borda que execute o serviço de borda de acesso do Lync Server. Além disso, os servidores de borda são necessários se você quiser estabelecer uma federação com outra organização ou se quiser dar aos usuários o direito de se comunicar com pessoas que têm contas com um serviço de mensagens instantâneas\!públicos, como Yahoo, AOL ou MSN.
 
 <div>
 
@@ -45,11 +45,11 @@ Os servidores de borda fornecem uma maneira de estender os recursos do Microsoft
 > [!IMPORTANT]
 > <UL>
 > <LI>
-> <P>A partir de 1º de setembro de 2012, a licença de assinatura de usuário da conectividade de mensagem de chat pública do Microsoft Lync ("PIC USL") não está mais disponível para compra de contratos novos ou de renovação. Os clientes com licenças ativas poderão continuar a federar-se com o Yahoo! Messenger até a data de encerramento do serviço. Uma data de fim da vida útil de junho de 2014 para AOL e Yahoo! foi anunciado. Para obter detalhes, consulte <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">suporte para conectividade de mensagens instantâneas públicas no Lync Server 2013</A>.</P>
+> <P>A partir de 1º de setembro de 2012, a licença de assinatura de usuário da conectividade de IM pública do Microsoft Lync ("PIC USL") não está mais disponível para compra de contratos novos ou de renovação. Os clientes com licenças ativas poderão continuar a se federar com o Yahoo! Messenger até a data de encerramento do serviço. Uma data de fim de vida de junho de 2014 para AOL e Yahoo! foi anunciado. Para obter detalhes, consulte <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">support for Public Instant Messenger Connectivity in Lync Server 2013</A>.</P>
 > <LI>
-> <P>O PIC USL é uma licença de assinatura por usuário por mês necessária para o Lync Server ou o Office Communications Server se federar com o Yahoo! Spam. A capacidade da Microsoft de oferecer esse serviço por meio do suporte do Yahoo!, o contrato subjacente para o qual está prestes a ser enrolado.</P>
+> <P>O PIC USL é uma licença de assinatura por usuário por mês, necessária para o Lync Server ou o Office Communications Server federar-se com o Yahoo! Instantânea. A capacidade da Microsoft de fornecer esse serviço tem sido contingente o suporte da Yahoo!, o contrato subjacente para o qual está se enrolando para baixo.</P>
 > <LI>
-> <P>Mais do que nunca, o Lync é uma ferramenta poderosa para a conexão entre organizações e pessoas ao redor do mundo. A Federação com o Windows Live Messenger não requer licenças de usuário/dispositivo adicionais além da CAL padrão do Lync. A Federação do Skype será adicionada a essa lista, permitindo que os usuários do Lync atinjam centenas de milhões de pessoas com mensagens instantâneas e voz.</P></LI></UL>
+> <P>Mais do que nunca, o Lync é uma poderosa ferramenta para a conexão entre organizações e pessoas em todo o mundo. A Federação com o Windows Live Messenger não requer licenças de usuário/dispositivo adicionais além da CAL padrão do Lync. A Federação do Skype será adicionada à lista, permitindo que os usuários do Lync atinjam centenas de milhões de pessoas com IM e voz.</P></LI></UL>
 
 
 
@@ -57,41 +57,41 @@ Os servidores de borda fornecem uma maneira de estender os recursos do Microsoft
 
 <div>
 
-## <a name="edge-server-cmdlets"></a>Cmdlets do servidor de borda
+## <a name="edge-server-cmdlets"></a>Cmdlets do Servidor de Borda
 
-Veja a seguir uma lista de cmdlets relacionados diretamente ao gerenciamento de servidores de borda:
+A lista a seguir contém os cmdlets diretamente relacionados ao gerenciamento dos Servidores de borda:
 
-**Servidor de Borda**
-
-  - <span></span>  
-    [Get-CsAccessEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg398574(v=OCS.15))
+**Servidor de borda**
 
   - <span></span>  
-    [Set-CsAccessEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg413017(v=OCS.15))
+    [Get-CsAccessEdgeConfiguration](https://technet.microsoft.com/library/Gg398574(v=OCS.15))
+
+  - <span></span>  
+    [Set-CsAccessEdgeConfiguration](https://technet.microsoft.com/library/Gg413017(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg413008(v=OCS.15))
+    [Get-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg413008(v=OCS.15))
 
   - <span></span>  
-    [New-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg412884(v=OCS.15))
+    [New-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412884(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg398786(v=OCS.15))
+    [Remove-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg398786(v=OCS.15))
 
   - <span></span>  
-    [Set-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg412869(v=OCS.15))
+    [Set-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412869(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsAVEdgeConnectivity](https://technet.microsoft.com/en-us/library/JJ205138(v=OCS.15))
+    [Test-CsAVEdgeConnectivity](https://technet.microsoft.com/library/JJ205138(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsEdgeServer](https://technet.microsoft.com/en-us/library/Gg398859(v=OCS.15))
+    [Set-CsEdgeServer](https://technet.microsoft.com/library/Gg398859(v=OCS.15))
 
 </div>
 

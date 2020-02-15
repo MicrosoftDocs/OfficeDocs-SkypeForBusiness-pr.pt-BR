@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: gerenciamento de grupos de agentes de grupo de resposta'
+title: 'Lync Server 2013: Gerenciando grupos de agente de grupo de resposta'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183806
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6001e8b6301df1863de21e0d88369116cef03ff5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f791ea6a2091ab50e159b541ef19789ffcde02b4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756085"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41992166"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-response-group-agent-groups-in-lync-server-2013"></a>Gerenciamento de grupos de agente de resposta no Lync Server 2013
+# <a name="managing-response-group-agent-groups-in-lync-server-2013"></a>Gerenciar grupos de agente de grupo de resposta no Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41756085"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-01_
+_**Última modificação do tópico:** 2012-10-01_
 
-Um grupo de agente consiste em um grupo de pessoas que são designadas para atender chamadas para um grupo de resposta. Ao criar um grupo de agente, você seleciona os agentes atribuídos ao grupo e Especifica configurações de grupo adicionais, como o método de roteamento e se um agente pode entrar e sair do grupo.
+Um grupo de operadores consiste em um grupo de pessoas designadas para atender às chamadas de um grupo de resposta. Ao criar um grupo de operadores, selecione os operadores que serão atribuídos ao grupo e especifique configurações de grupo adicionais, como o método de roteamento e se um operador pode entrar no grupo e sair dele.
 
 <div>
 
 
 > [!NOTE]  
-> Os usuários devem ser habilitados para o Enterprise Voice para que você possa adicioná-los a grupos de agente. Para obter detalhes sobre como habilitar um usuário para o Enterprise Voice, consulte <A href="lync-server-2013-enable-users-for-enterprise-voice.md">habilitar usuários do Enterprise Voice no Lync Server 2013</A>.
+> Os usuários devem estar habilitados para o Enterprise Voice para que você possa adicioná-los aos grupos de agentes. Para obter detalhes sobre como habilitar um usuário para o Enterprise Voice, consulte <A href="lync-server-2013-enable-users-for-enterprise-voice.md">Enable users for Enterprise Voice in Lync Server 2013</A>.
 
 
 
@@ -53,21 +53,21 @@ Um grupo de agente consiste em um grupo de pessoas que são designadas para aten
 
 
 > [!NOTE]  
-> Somente os usuários no local podem ser agentes. Se um agente for movido do local para o online, as chamadas em grupo de resposta não serão roteadas para esse agente.
+> Apenas os usuários locais podem ser operadores. Se um operador for movido de local para online, a chamada do grupo de resposta não será mais roteada para ele.
 
 
 
 </div>
 
-Um agente que deve entrar e sair do grupo, que é diferente de entrar ou sair do Lync Server, é chamado de *agente formal*. Os agentes formais devem estar conectados ao grupo antes que eles possam receber chamadas roteadas para o grupo. Isso pode ser útil para os operadores que respondem às chamadas do grupo em tempo parcial. Os agentes formais entram e saem de seus grupos clicando em um item de menu no Lync 2013 para abrir o navegador da Internet do Windows Internet Explorer e exibir um console de página da Web.
+Um agente que deve entrar e sair do grupo, que é diferente de entrar ou sair do Lync Server, é chamado de um *agente formal*. Os operadores formais precisam entrar no grupo para que possam receber as chamadas roteadas para o grupo. Isso pode ser útil para os operadores que respondem às chamadas do grupo em tempo parcial. Os agentes formais entram e saem de seus grupos clicando em um item de menu no Lync 2013 para abrir o navegador Internet Windows Internet Explorer e exibir um console de página da Web.
 
-Um operador que não precisa entrar ou sair do grupo é denominado *operador informal*. Agentes informais são automaticamente conectados ao grupo quando são conectados ao Lync Server, e não podem sair do grupo.
+Um operador que não precisa entrar ou sair do grupo é denominado *operador informal*. Os agentes informais são automaticamente conectados ao grupo quando entram no Lync Server e não podem sair do grupo.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Quando você atribui usuários como agentes de grupo de resposta, informe-os de que, se eles tiverem o modo Privacidade habilitado, precisarão pesquisar por contatos "RGS Presence Watcher" e adicioná-los à sua lista Contatos. Agentes que tem o modo Privacidade habilitado, mas não tem "RGS Presence Watcher" em sua lista de Contatos, não podem receber chamadas no grupo de resposta. Agentes que não têm o modo Privacidade habilitado não são afetados.
+> Quando você atribuir os usuários como operadores do grupo de resposta, informe-os de que, se tiverem o modo de privacidade habilitado, precisarão pesquisar os contatos do "RGS Presence Watcher" e adicioná-los à sua lista de contatos. Os operadores com o modo de privacidade habilitado, mas que não têm o "RGS Presence Watcher" na lista de contatos, não podem receber chamadas para o grupo de resposta. Os operadores que não têm o modo de privacidade habilitado não são afetados.
 
 
 
@@ -77,9 +77,9 @@ Um operador que não precisa entrar ou sair do grupo é denominado *operador inf
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Criar ou modificar um grupo de agente no Lync Server 2013](lync-server-2013-create-or-modify-an-agent-group.md)
+  - [Criar ou modificar um grupo de agentes no Lync Server 2013](lync-server-2013-create-or-modify-an-agent-group.md)
 
-  - [Excluir um grupo de agente no Lync Server 2013](lync-server-2013-delete-an-agent-group.md)
+  - [Excluir um grupo de agentes no Lync Server 2013](lync-server-2013-delete-an-agent-group.md)
 
 </div>
 

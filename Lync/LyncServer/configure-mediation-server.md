@@ -12,16 +12,16 @@ ms:contentKeyID: 48184207
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb9b2c7cf8da1d454f310a8ac999dddbc7d34f68
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 389c6e5c017594bf386109541a379bd5ae2f7e01
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728161"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006647"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41728161"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-28_
+_**Última modificação do tópico:** 2012-09-28_
 
-Este procedimento detalha as etapas para configurar o pool do Lync Server 2013 para usar o servidor de mediação do Lync Server 2013, em vez do servidor herdado do Office Communications Server 2007 R2 Media Server.
+Este procedimento detalha as etapas para configurar o pool do Lync Server 2013 para usar o servidor de mediação do Lync Server 2013, em vez do servidor herdado do Office Communications Server 2007 R2.
 
-Para publicar, habilitar ou desabilitar uma topologia com êxito ao adicionar ou remover uma função de servidor, você deve estar conectado como um usuário que é membro do grupo RTCUniversalServerAdmins e administradores do domínio. Também é possível delegar direitos e permissões de administrador adequadas para adicionar funções de servidor. Para obter detalhes, consulte delegar permissões de configuração na documentação de implantação do servidor Standard Edition ou Enterprise Edition Server. Para outras alterações de configuração, somente a associação no grupo RTCUniversalServerAdmins é necessária.
+Para publicar com sucesso, habilite ou desabilite uma topologia ao adicionar ou remover uma função do servidor, você deve estar conectado como um usuário que é um membro do RTCUniversalServerAdmins e dos grupos Administradores do Domínio. Também é possível delegar os direitos e as permissões de administrador corretos para  adicionar funções do do servidor. Para obter detalhes, consulte Permissões de configuração delegadas na Documentação de implantação do servidor Standard Edition ou servidor Enterprise Edition. Para obter as alterações de configuração, somente a associação no grupo RTCUniversalServerAdmins é exigida.
 
 <div>
 
 
 > [!NOTE]  
-> Para obter as informações mais recentes sobre como localizar gateways PSTN qualificados, PBXs IP e serviços de entroncamento SIP que funcionam com o Lync Server 2013, consulte "programa de interoperabilidade aberto da <A href="http://go.microsoft.com/fwlink/p/?linkid=206015">http://go.microsoft.com/fwlink/p/?linkId=206015</A>Microsoft Unified Communications" em.
+> Para obter as informações mais recentes sobre como localizar gateways PSTN qualificados, IP-PBXs e serviços de tronco SIP que funcionam com o Lync Server 2013, consulte "programa de interoperabilidade aberta <A href="http://go.microsoft.com/fwlink/p/?linkid=206015">http://go.microsoft.com/fwlink/p/?linkId=206015</A>da comunicação unificada da Microsoft" em.
 
 
 
@@ -53,41 +53,41 @@ Para publicar, habilitar ou desabilitar uma topologia com êxito ao adicionar ou
 
 <div>
 
-## <a name="to-configure-mediation-server-using-topology-builder"></a>Para configurar o servidor de mediação usando o construtor de topologias
+## <a name="to-configure-mediation-server-using-topology-builder"></a>Para configurar o Servidor de Mediação usando o Construtor de Topologias
 
-1.  Abra uma topologia existente do construtor de topologias.
+1.  Abra uma topologia existente no Construtor de Topologias.
 
-2.  No painel esquerdo, navegue até **gateways PSTN**.
+2.  No painel esquerdo, navegue até **Gateways PSTN**.
 
-3.  Clique com o botão direito do mouse em **gateways PSTN**e clique em **novo gateway IP/PSTN**.
+3.  Clique com o botão direito nos **Gateways PSTN** e, clique em **Novo Gateway IP/PSTN**.
 
-4.  Conclua a página **definir o novo gateway IP/PSTN** com as seguintes informações:
+4.  Complete a página **Definir Novo Gateway IP/PSTN** com as seguintes informações:
     
-      - Digite o endereço IP ou FQDN do gateway. O FQDN do gateway será necessário se o gateway usar o protocolo TLS.
+      - Insira o FQDN do gateway ou endereço IP. O FQDN do gateway é exigido se o gateway utiliza o protocolo TLS.
     
-      - Aceite o valor padrão da **porta de escuta do gateway IP/PSTN** ou digite a nova porta de escuta se ela tiver sido modificada.
+      - Aceite o valor padrão do **Porta de Escuta do Gateway IP/PSTN** ou insira a nova porta de escuta se ela for modificada.
     
-      - Defina o **protocolo de transporte SIP**.
+      - Defina o **Protocolo de Transporte SIP**.
 
-5.  No painel esquerdo, navegue até o **pool de front-end do Enterprise Edition** ou o **servidor Standard Edition**.
+5.  No painel esquerdo, navegue até o **Pool de Front-Ends Enterprise Edition** ou o **Servidor Standard Edition**.
 
-6.  Clique com o botão direito do mouse no pool e, em seguida, clique em **Editar propriedades**.
+6.  Clique com o botão direito no pool e, em seguida, clique em **Editar propriedades**.
 
-7.  Em **servidor de mediação**, defina as **portas de escuta**.
+7.  Em **Servidor de Mediação**, defina as **Portas de Escuta**.
 
-8.  Em seguida, associe o gateway PSTN recém-criado selecionando-o e clicando em **Adicionar**.
+8.  Em seguida, associe o gateway PSTN mais recente criado, o selecionando e clicando em **Adicionar**.
 
-9.  Em **Construtor de topologia**, selecione o nó mais superior do **Lync Server**.
+9.  Em **Construtor de Topologias**, selecione o nó superior do **Lync Server**.
 
-10. No menu **ação** , selecione **publicar topologia** e clique em **Avançar**.
+10. No menu **Ação**, selecione **Publicar Topologia** e clique em **Avançar**.
 
-11. Quando o **Assistente de publicação** for concluído, clique em **concluir** para fechar o assistente.
+11. Quando o **Assistente para Publicação** for concluído, clique em **Concluir ** para fechar o assistente.
 
 <div>
 
 
 > [!NOTE]  
-> É importante que você conclua o próximo tópico, <A href="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md">altere as rotas de voz para usar o novo servidor de mediação do Lync server 2013</A> para garantir que as rotas de voz aponte para o servidor de mediação correto.
+> É importante que você conclua o próximo tópico, <A href="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md">altere as rotas de voz para usar o novo servidor de mediação do Lync Server 2013</A> para garantir que as rotas de voz estejam apontando para o servidor de mediação correto.
 
 
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185598
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d4e42d73a5b7ac36439aca673ff68c03cc13f50f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d524f8551561a4c7fb61abdaa6ab15bf2c111de9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747081"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987366"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41747081"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-30_
+_**Última modificação do tópico:** 2012-10-30_
 
 Os novos locais adicionados ao banco de dados de local não serão disponibilizados para o cliente até que sejam publicados.
 
@@ -43,15 +43,15 @@ Para obter detalhes, consulte a documentação do Shell de gerenciamento do Lync
 
   - **Publish-CsLisConfiguration**
 
-Se você usar gateways ELIN, também é necessário carregar os ELINs para o banco de dados ALI da transportadora PSTN. Sua transportadora PSTN pode exigir que você use um formato específico para os registros ELIN. Entre em contato com sua transportadora PSTN para obter detalhes. Você pode exportar os registros do banco de dados do serviço de informações de localização e formatá-los conforme necessário.
+Se você usar gateways do número de identificação de local de emergência (ELIN), também precisará carregar o ELINs para o banco de dados de identificação automática de local da sua operadora de rede telefônica pública comutada (ALI). Sua operadora PSTN pode exigir que você use um formato específico para os registros do ELIN. Entre em contato com a operadora PSTN para obter detalhes. Você pode exportar os registros do banco de dados do serviço de informações de local e formatá-los conforme necessário.
 
 <div>
 
-## <a name="to-publish-the-location-database"></a>Para publicar o banco de dados local
+## <a name="to-publish-the-location-database"></a>Para publicar o banco de dados de local
 
-  - Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+  - Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
-  - Execute o seguinte cmdlet para publicar o banco de dados local.
+  - Execute o cmdlet a seguir para publicar o banco de dados de localização.
     
         Publish-CsLisConfiguration
 

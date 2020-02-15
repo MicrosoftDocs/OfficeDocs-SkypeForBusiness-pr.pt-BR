@@ -1,5 +1,5 @@
 ---
-title: Verificar conectividade entre servidores internos e Servidores de Borda
+title: Verificar a conectividade entre servidores internos e servidores de borda
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27ca4874ac8c991828383afb524be1a1868bb7e8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dbf2a8c64e549a90661d10614254c5937ebde603
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763525"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007350"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verify-connectivity-between-internal-servers-and-edge-servers-in-lync-server-2013"></a>Verificar conectividade entre servidores internos e Servidores de Borda no Lync Server 2013
+# <a name="verify-connectivity-between-internal-servers-and-edge-servers-in-lync-server-2013"></a>Verificar a conectividade entre servidores internos e servidores de borda no Lync Server 2013
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41763525"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-08_
+_**Última modificação do tópico:** 2012-09-08_
 
-No Lync Server 2013, um assistente de validação separado estava disponível para ajudar a validar a conectividade entre servidores de borda e servidores internos. Na validação do Lync Server 2013 de conectividade, é feito automaticamente quando você instala seus servidores de borda.
+No Lync Server 2013, um assistente de validação separado estava disponível para ajudar a validar a conectividade entre servidores de borda e servidores internos. No Lync Server 2013 a validação da conectividade é feita automaticamente quando você instala seus servidores de borda.
 
-Você pode validar a replicação de informações de configuração para a borda executando o cmdlet **Get-CsManagementStoreReplicationStatus** do Windows PowerShell no computador interno no qual o repositório de gerenciamento central está localizado (ou qualquer computador associado a domínio em que o Lync Server 2013 Core Components (OcsCore. msi) está instalado. Os resultados iniciais podem indicar o status como "falso" em vez de "verdadeiro" para replicação. Em caso afirmativo, execute o cmdlet **Invoke-CsManagementStoreReplication** e aguarde o tempo de conclusão da replicação antes de executar o **Get-CsManagementStoreReplicationStatus** novamente.
+Você pode validar a replicação de informações de configuração para a borda executando o cmdlet **Get-CsManagementStoreReplicationStatus** do Windows PowerShell no computador interno no qual o repositório de gerenciamento central está localizado (ou qualquer computador ingressado no domínio em que o Lync Server 2013 Core Components (OcsCore. msi) está instalado. Os resultados iniciais podem indicar o status como "Falso" e não "Verdadeiro" para replicação. Se assim, execute o cmdlet **Invoke-CsManagementStoreReplication** e permita que o tempo necessário para a replicação seja concluído antes de executar o **Get-CsManagementStoreReplicationStatus** novamente.
 
-Você pode verificar a conectividade do usuário externo separadamente, incluindo o uso do analisador de conectividade remota do Office Communications Server para verificar a conectividade do usuário remoto. Para obter detalhes, consulte [verificar a conectividade para usuários externos no Lync Server 2013](lync-server-2013-verify-connectivity-for-external-users.md).
+É possível verificar a conectividade de usuário externo separadamente, inclusive o uso do Analisador de Conectividade Remota do Office Communications Server para verificar a conectividade de usuários remotos. Para obter detalhes, consulte [Verify Connectivity for External Users in Lync Server 2013](lync-server-2013-verify-connectivity-for-external-users.md).
 
 </div>
 

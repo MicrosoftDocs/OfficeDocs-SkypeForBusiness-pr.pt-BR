@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Instalar componentes de servidor do Lync Server'
+title: 'Lync Server 2013: instalar componentes de servidor do Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183528
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4f039f9363469663410f08f078a3b7e17a170075
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 180e9c1892b1c296247cfc9dd3ab7a67972e9606
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763715"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008293"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="install-server-components-for-lync-server-2013"></a>Instalar componentes de servidor para o Lync Server 2013
+# <a name="install-server-components-for-lync-server-2013"></a>Instalar componentes de servidor do Lync Server 2013
 
 </div>
 
@@ -35,35 +35,35 @@ ms.locfileid: "41763715"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-05-05_
+_**Última modificação do tópico:** 2014-05-05_
 
-Antes de seguir essas etapas, verifique se você está conectado ao servidor com uma conta de usuário de domínio que seja um administrador local e um membro do grupo RTCUniversalReadOnlyAdmins no Active Directory.
+Antes de seguir estas etapas, verifique se você está conectado ao servidor com uma conta de usuário de domínio que seja um administrador local e um membro do grupo RTCUniversalReadOnlyAdmins no Active Directory.
 
-O assistente de implantação do Lync Server é usado para instalar os componentes necessários para cada função do Lync Server e ativar o servidor. Este artigo orienta você pelas etapas de implantação de um servidor Standard Edition ou de um servidor front-end na sua infraestrutura do Lync.
+O assistente de implantação do Lync Server é usado para instalar os componentes necessários para cada função do Lync Server e para ativar o servidor. Este artigo descreve as etapas de implantação de um servidor Standard Edition ou de um servidor front-end na sua infraestrutura do Lync.
 
 <div>
 
-## <a name="to-install-lync-server-components"></a>Para instalar os componentes do Lync Server
+## <a name="to-install-lync-server-components"></a>Instalação dos componentes do Lync Server
 
 1.  Se o assistente de implantação do Lync Server não estiver em execução, inicie-o no servidor em que você deseja instalar o Lync.
 
 2.  Clique em **instalar ou atualizar o sistema do Lync Server**.
 
-3.  No assistente de implantação, confirme se a **etapa 1: instalar o repositório de configuração local** tem uma marca de seleção verde, o que significa que o servidor tem uma cópia local da loja instalada com êxito. Se não estiver marcada, você precisará instalar o repositório de configuração local no servidor. Siga as etapas em [instalar o repositório de configuração local no Lync Server 2013](lync-server-2013-install-the-local-configuration-store.md) e, em seguida, volte aqui.
+3.  No assistente de implantação, confirme se a **etapa 1: instalar o repositório de configuração local** tem uma marca de seleção verde, o que significa que esse servidor tem uma cópia local do repositório instalado com êxito. Se ele não estiver selecionado, você precisará instalar o repositório de configuração local no servidor. Siga as etapas em [instalar o repositório de configuração local no Lync Server 2013](lync-server-2013-install-the-local-configuration-store.md) e volte aqui.
 
-4.  Quando estiver pronto para instalar os componentes do Lync Server 2013 em seu servidor, clique em **executar** ao lado da **etapa 2: configurar ou remover componentes do Lync Server**.
+4.  Quando estiver pronto para instalar os componentes do Lync Server 2013 no servidor, clique em **executar** ao lado de **etapa 2: instalar ou remover componentes do Lync Server**.
 
-5.  Na página **configurar componentes do Lync Server** , clique em **Avançar** para configurar componentes conforme definido na sua topologia publicada.
+5.  Na página **configurar componentes do Lync Server** , clique em **Avançar** para configurar componentes conforme definido na topologia publicada.
 
-6.  A página **comandos em execução** exibirá um resumo dos comandos e informações de instalação à medida que a configuração ocorre. Quando terminar, use a lista para selecionar um log para exibição e clique em **Exibir Log**.
+6.  A página **executando comandos** exibirá um resumo dos comandos e informações de instalação à medida que a configuração ocorrer. Quando terminar, você poderá usar a lista para selecionar um log a ser exibido e, em seguida, clique em **Exibir log**.
 
-7.  Quando a instalação dos componentes do Lync Server 2013 for concluída e você tiver revisado os logs conforme necessário, clique em **concluir** para concluir esta etapa na instalação.
+7.  Quando a instalação dos componentes do Lync Server 2013 é concluída e você analisou os logs conforme necessário, clique em **concluir** para concluir esta etapa na instalação.
     
     <div>
     
 
     > [!NOTE]  
-    > Se você for solicitado a reiniciar o servidor (o que pode acontecer se a experiência da área de trabalho do Windows precisar ser instalada), definitivamente faça isso. Quando o computador estiver em operação de backup e em execução, você precisará executar essas etapas novamente, começando da etapa três listadas acima (basicamente, execute a etapa 2 no assistente de implantação mais uma vez).
+    > Se você for solicitado a reiniciar o servidor (o que pode acontecer se a experiência da área de trabalho do Windows precisar ser instalada), definitivamente faça isso. Quando o computador fizer o backup e a execução, você precisará executar estas etapas novamente, começando pela etapa três listada acima (basicamente, execute a etapa 2 no assistente de implantação mais uma vez).
 
     
     </div>

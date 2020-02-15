@@ -12,16 +12,16 @@ ms:contentKeyID: 48184965
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa002b4b1f81cf2ebd607a99f0f00360e01e9292
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c81e9ae5b2a712e3d6bb43fc35bd8083334efc1a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731211"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036801"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41731211"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-12_
+_**Última modificação do tópico:** 2012-09-12_
 
-tblPrincipalMembers contém associações de entidades de segurança.
+tblPrincipalMembers contém associações de entidade.
 
 ### <a name="columns"></a>Colunas
 
@@ -56,20 +56,20 @@ tblPrincipalMembers contém associações de entidades de segurança.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>multiimprimir</p></td>
+<td><p>prinID</p></td>
 <td><p>int, não nulo</p></td>
-<td><p>ID da entidade de segurança.</p></td>
+<td><p>ID principal.</p></td>
 </tr>
 <tr class="even">
 <td><p>memberADPath</p></td>
-<td><p>nvarchar (384), NOT NULL</p></td>
-<td><p>Nome diferenciado de um membro. Um membro não precisa ser um principal (na tabela tblPrincipal).</p></td>
+<td><p>nvarchar (384), não nulo</p></td>
+<td><p>Nome distinto de um membro. Um membro não precisa ser uma entidade (na tabela tblPrincipal).</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="keys"></a>As
+### <a name="keys"></a>Chaves
 
 <table>
 <colgroup>
@@ -84,12 +84,12 @@ tblPrincipalMembers contém associações de entidades de segurança.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;memberADPath&gt;</p></td>
+<td><p>&lt;imprimir, memberADPath&gt;</p></td>
 <td><p>Chave primária.</p></td>
 </tr>
 <tr class="even">
-<td><p>multiimprimir</p></td>
-<td><p>Chave estrangeira com Lookup em tblPrincipal. importaid.</p></td>
+<td><p>prinID</p></td>
+<td><p>Chave estrangeira com pesquisa em tblPrincipal. retoid.</p></td>
 </tr>
 </tbody>
 </table>

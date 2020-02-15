@@ -12,16 +12,16 @@ ms:contentKeyID: 48185844
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d5f9d112e045e753147f7fcffa875177a6feb0d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 16f1e202c1d7e60202b76d42f0104f372213597f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757495"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007210"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,31 +35,31 @@ ms.locfileid: "41757495"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-21_
+_**Última modificação do tópico:** 2012-09-21_
 
-Você pode usar o painel de controle do Lync Server 2013 para exibir uma lista dos aplicativos confiáveis que você implantou em seu ambiente do Lync Server 2013. Um aplicativo confiável é um aplicativo baseado no SDK do núcleo do Microsoft Unified Communications Managed (UCMA) 3,0, que é confiável para o Lync Server 2013. Essa relação de confiança é resumida na seguinte lista:
+Você pode usar o painel de controle do Lync Server 2013 para exibir uma lista dos aplicativos confiáveis que você implantou no seu ambiente do Lync Server 2013. Um aplicativo confiável é um aplicativo baseado no SDK principal do Microsoft Unified Communications Managed API (UCMA) 3,0 Core que é confiável para o Lync Server 2013. Essa relação de confiança é resumida na seguinte lista:
 
-  - Aplicativos confiáveis não são desafiados para autenticação pelo Lync Server.
+  - Os aplicativos confiáveis não são desafiados para autenticação pelo Lync Server.
 
-  - Os aplicativos confiáveis não são restringidos pelo Lync Server para transações SIP, conexões ou chamadas de protocolo de voz por Internet (VoIP) de saída.
+  - Os aplicativos confiáveis não são restringidos pelo Lync Server para transações SIP, conexões ou chamadas VoIP (Voice over Internet Protocol) de saída.
 
-  - Aplicativos confiáveis podem representar qualquer usuário e podem participar de conferências sem que apareçam em escalas.
+  - Aplicativos confiáveis podem representar qualquer usuário e podem participar de conferências sem que apareçam nas listas.
 
-  - Aplicativos confiáveis são altamente disponíveis e resilientes.
+  - Os aplicativos confiáveis estão altamente disponíveis e resistentes.
 
-No painel de controle do Lync Server, você pode ver o nome dos aplicativos, o pool onde eles são executados e a porta que eles usam.
+No painel de controle do Lync Server, você pode ver o nome dos aplicativos, o pool em que eles são executados e a porta que eles utilizam.
 
 <div>
 
 ## <a name="to-view-a-list-of-trusted-applications"></a>Para exibir uma lista de aplicativos confiáveis
 
-1.  Usando uma conta de usuário atribuída à função do CsServerAdministrator, CsAdministrator, CsHelpDesk, ou CsViewOnlyAdministrator, faça logon em qualquer computador de sua implantação interna. Para obter detalhes sobre as funções administrativas predefinidas disponíveis no Lync Server 2013, consulte [planejando o controle de acesso baseado em função no Lync server 2013](lync-server-2013-planning-for-role-based-access-control.md).
+1.  A partir de uma conta de usuário atribuída à função CsServerAdministrator, CsAdministrator, CsHelpDesk ou CsViewOnlyAdministrator, faça logon em qualquer computador em sua implantação interna. Para obter detalhes sobre as funções administrativas predefinidas disponíveis no Lync Server 2013, consulte [Planning for Role-Based Access Control in Lync server 2013](lync-server-2013-planning-for-role-based-access-control.md).
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação à esquerda, clique em **topologia** e clique em **aplicativo confiável**.
+3.  Na barra de navegação à esquerda, clique em **topologia** e em **aplicativo confiável**.
 
-4.  Na página **aplicativo confiável** , clique em um título de coluna para classificar os aplicativos, se necessário.
+4.  Na página **aplicativo confiável** , clique em um cabeçalho de coluna para classificar os aplicativos, se necessário.
 
 </div>
 

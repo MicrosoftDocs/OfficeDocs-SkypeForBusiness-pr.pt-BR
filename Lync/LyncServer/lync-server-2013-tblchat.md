@@ -12,16 +12,16 @@ ms:contentKeyID: 48185203
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f3879924b37fa535973116af599f4713c58a207
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0a3f0672fc3cf41113c0cfa206890848f8ccbde0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764217"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033690"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764217"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-12_
+_**Última modificação do tópico:** 2012-09-12_
 
-tblChat contém todas as mensagens de chat.
+A tabela tblChat contém todas as mensagens de chat.
 
 ### <a name="columns"></a>Colunas
 
@@ -61,39 +61,39 @@ tblChat contém todas as mensagens de chat.
 <td><p>ID do nó.</p></td>
 </tr>
 <tr class="even">
-<td><p>chats</p></td>
-<td><p>bigint, e não nulo</p></td>
-<td><p>Número seqüencial exclusivo (por ID do nó) que define o pedido de sala de chat, gerado pela tabela tblLastChatId.</p></td>
+<td><p>chatid</p></td>
+<td><p>bigint, não nulo</p></td>
+<td><p>Número sequencial exclusivo (por ID do nó) que define a ordem da sala de chat, gerado pela tabela tblLastChatId.</p></td>
 </tr>
 <tr class="odd">
 <td><p>chatDate</p></td>
-<td><p>bigint, e não nulo</p></td>
-<td><p>Carimbo de data/hora para a mensagem de chat.</p></td>
+<td><p>bigint, não nulo</p></td>
+<td><p>Carimbo de hora para a mensagem de chat.</p></td>
 </tr>
 <tr class="even">
-<td><p>ID</p></td>
+<td><p>userId</p></td>
 <td><p>int, não nulo</p></td>
-<td><p>ID da entidade de segurança do pôster.</p></td>
+<td><p>ID principal do pôster.</p></td>
 </tr>
 <tr class="odd">
 <td><p>isalert</p></td>
-<td><p>bit, e não nulo</p></td>
-<td><p>Verdadeiro se a mensagem for uma mensagem de alerta. Falso se não for.</p></td>
+<td><p>bit, não nulo</p></td>
+<td><p>True se a mensagem for uma mensagem de alerta.False se não for.</p></td>
 </tr>
 <tr class="even">
-<td><p>disputa</p></td>
-<td><p>nvarchar (max), NOT NULL</p></td>
-<td><p>Conteúdo de chat (a versão de texto sem formatação). O conteúdo geralmente está em texto sem formatação com as seguintes exceções:</p>
+<td><p>conteúdo</p></td>
+<td><p>nvarchar (max), não nulo</p></td>
+<td><p>Conteúdo de chat (a versão de texto). O conteúdo está normalmente em texto sem formatação com as seguintes exceções:</p>
 <ul>
-<li><p>Os arquivos são representados como links ma-filelink: links.</p></li>
-<li><p>Os links são representados como um elemento HTML (embora o tipo de conteúdo não possa ser considerado HTML).</p></li>
-<li><p>As matérias são codificadas como um formato "[história]..."-como.</p></li>
+<li><p>Os arquivos são representados como links ma-filelink:.</p></li>
+<li><p>Links são representados como um elemento HTML (embora o tipo de conteúdo não possa ser considerado HTML).</p></li>
+<li><p>Histórias são codificadas como um formato parecido com “[STORY]....”.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>me</p></td>
+<td><p>formato</p></td>
 <td><p>varchar (max)</p></td>
-<td><p>Conteúdo de chat (a versão RTF). Pode ser NULL se o cliente não fornecê-lo.</p></td>
+<td><p>Conteúdo do chat (a versão RTF). Pode ser Nulo se o cliente não o fornecer.</p></td>
 </tr>
 </tbody>
 </table>
@@ -114,7 +114,7 @@ tblChat contém todas as mensagens de chat.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;channelId, em chat&gt;</p></td>
+<td><p>&lt;channelId, em bate-papo&gt;</p></td>
 <td><p>Chave primária.</p></td>
 </tr>
 </tbody>
