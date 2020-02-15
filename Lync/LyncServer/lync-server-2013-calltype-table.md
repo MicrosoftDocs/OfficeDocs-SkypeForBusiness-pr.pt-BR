@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabela CallType'
+title: 'Lync Server 2013: tabela CallType'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185019
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 98fd74831b90d88c7adc473c51ca88940eb34f18
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3f90be73c63921ebe9971abae85b2da22e76a560
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743191"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044203"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41743191"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-28_
+_**Última modificação do tópico:** 2012-09-28_
 
-A tabela CallType é uma tabela estática que armazena a lista de possíveis tipos de chamadas.
+A tabela CallType é uma tabela estática que armazena a lista de possíveis tipos de chamada.
 
 
 <table>
@@ -59,7 +59,7 @@ A tabela CallType é uma tabela estática que armazena a lista de possíveis tip
 <tr class="odd">
 <td><p><strong>Callid</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primária</p></td>
+<td><p>Primário</p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -68,12 +68,12 @@ A tabela CallType é uma tabela estática que armazena a lista de possíveis tip
 <td></td>
 <td><p>Valores permitidos:</p>
 <ul>
-<li><p>0--desconhecido</p></li>
-<li><p>1 – mensagens instantâneas</p></li>
+<li><p>0 - Desconhecido</p></li>
+<li><p>1 - Mensagens instantâneas</p></li>
 <li><p>2 – compartilhamento de aplicativos</p></li>
-<li><p>3--áudio</p></li>
-<li><p>4 – áudio e vídeo</p></li>
-<li><p>5 – transferência de arquivos</p></li>
+<li><p>3 - Áudio</p></li>
+<li><p>4 - Áudio e Vídeo</p></li>
+<li><p>5 - Transferência de arquivos</p></li>
 </ul></td>
 </tr>
 </tbody>

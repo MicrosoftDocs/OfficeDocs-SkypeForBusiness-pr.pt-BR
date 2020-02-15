@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Gerenciando o roteamento de voz'
+title: 'Lync Server 2013: Gerenciando Roteamento de voz'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185554
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 858cdaec39e61b1f18f1a97e560dfdd34a68cd20
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a89c7bb7cdd54e1d0e3d388223d0054992d35e9d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738221"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045473"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41738221"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
 Os tópicos desta seção fornecem procedimentos passo a passo para tarefas que você pode executar usando o grupo roteamento de **voz** no painel de controle do Lync Server.
 
@@ -43,11 +43,11 @@ Os tópicos desta seção fornecem procedimentos passo a passo para tarefas que 
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Definindo regras de tradução e regras de normalização no Lync Server 2013](lync-server-2013-defining-translation-rules-and-normalization-rules.md)
+  - [Definindo regras de conversão e regras de normalização no Lync Server 2013](lync-server-2013-defining-translation-rules-and-normalization-rules.md)
 
   - [Configurando troncos no Lync Server 2013](lync-server-2013-configuring-trunks.md)
 
-  - [Configurar políticas de voz, registros de uso de PSTN e rotas de voz no Lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)
+  - [Configurando políticas de voz, registros de uso de PSTN e rotas de voz no Lync Server 2013](lync-server-2013-configuring-voice-policies-pstn-usage-records-and-voice-routes.md)
 
   - [Configurando planos de discagem no Lync Server 2013](lync-server-2013-configuring-dial-plans.md)
 
@@ -58,7 +58,7 @@ Os tópicos desta seção fornecem procedimentos passo a passo para tarefas que 
 ## <a name="see-also"></a>Confira também
 
 
-[Planejando para Enterprise Voice no Lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md)  
+[Planejamento para o Enterprise Voice no Lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md)  
 
 
 [Gerenciando recursos de gerenciamento de chamadas no Lync Server 2013](lync-server-2013-managing-call-management-features.md)  

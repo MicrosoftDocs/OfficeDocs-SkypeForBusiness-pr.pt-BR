@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Experiência de Estacionamento de Chamadas durante falha de pool'
+title: 'Lync Server 2013: experiência de estacionamento de chamadas durante falha do pool'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185831
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 59de3b7cc7490c84536cfbc1457c6486af52c33a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a89acc193f70ba5047a2f1c6362b957d182afdb5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742961"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044313"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-park-experience-in-lync-server-2013-during-pool-failure"></a>Experiência de Estacionamento de Chamadas no Lync Server 2013 durante falha de pool
+# <a name="call-park-experience-in-lync-server-2013-during-pool-failure"></a>Experiência de estacionamento de chamadas no Lync Server 2013 durante falha do pool
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41742961"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-10_
+_**Última modificação do tópico:** 2012-09-10_
 
-Quando um pool de front-end fica indisponível devido a um incidente não planejado, as chamadas que foram estacionadas, mas que ainda não foram recuperadas, são desconectadas. Durante o failover para um pool de backup, os usuários são redirecionados para o pool de backup e estão no modo de resiliência. Enquanto estiver no modo de resiliência, os usuários não podem estacionar chamadas, mas podem fazer chamadas em espera e transferi-las. Quando o failover é concluído, as chamadas podem ser novamente estacionadas e recuperadas normalmente. Durante o failback, os usuários não podem estacionar chamadas até que estejam fora do modo de resiliência.
+Quando um pool de front-ends fica indisponível devido a um incidente não planejado, as chamadas que foram estacionadas, mas ainda não foram recuperadas, são desconectadas. Durante o failover para um pool de backup, os usuários são redirecionados ao pool de backup e estão no modo de resiliência. Enquanto estão no modo de resiliência, os usuários não podem estacionar chamadas, mas podem colocar chamadas em espera e transferi-las. Quando o failover estiver concluído, as chamadas podem novamente ser estacionadas e recuperadas normalmente. Durante o failback, os usuários não podem estacionar chamadas até saírem do modo de resiliência.
 
-Durante a recuperação de desastres, os usuários que foram redirecionados para o pool de backup como parte do processo de failover usam o aplicativo de estacionamento de chamada que é implantado no pool de backup. Portanto, os usuários que são redirecionados para o pool de backup usam as configurações de estacionamento de chamadas configuradas para o aplicativo de estacionamento de chamadas no pool de backup.
+Durante a recuperação de desastres, os usuários que foram redirecionados para o pool de backup como parte do processo de failover usam o aplicativo de estacionamento de chamada implantado no pool de backup. Portanto, os usuários que são redirecionados para o pool de backup usam as configurações de estacionamento de chamadas configuradas para o aplicativo de estacionamento de chamada no pool de backup.
 
-A tabela a seguir resume a experiência de estacionamento de chamadas pelas fases da recuperação de desastres.
+A tabela a seguir resume a experiência de estacionamento de chamada através das fases de recuperação de desastres.
 
 ### <a name="user-experience-during-disaster-recovery"></a>Experiência do usuário durante a recuperação de desastres
 
@@ -55,7 +55,7 @@ A tabela a seguir resume a experiência de estacionamento de chamadas pelas fase
 <thead>
 <tr class="header">
 <th>Estado da chamada</th>
-<th>Quando ocorrer uma paralisação</th>
+<th>Quando ocorre uma interrupção</th>
 <th>Durante o failover</th>
 <th>Durante o failback</th>
 </tr>
@@ -63,27 +63,27 @@ A tabela a seguir resume a experiência de estacionamento de chamadas pelas fase
 <tbody>
 <tr class="odd">
 <td><p>Chamada ainda não estacionada</p></td>
-<td><p>A chamada ainda está conectada, mas não pode ser estacionada.</p></td>
+<td><p>A chamada permanece conectada, mas não pode ser estacionada.</p></td>
 <td><ul>
-<li><p>Durante o failover, a chamada não pode ser estacionada enquanto os usuários estão no modo de resiliência, mas podem ser colocados em espera e transferidos.</p></li>
+<li><p>Durante o failover, a chamada não pode ser estacionada enquanto os usuários estão no modo de resiliência, mas podem ser colocadas em espera e transferidas.</p></li>
 <li><p>Quando o failover é concluído, a chamada pode ser estacionada e recuperada.</p></li>
 </ul></td>
 <td><ul>
-<li><p>Durante o failback, a chamada não pode ser estacionada enquanto os usuários estão no modo de resiliência, mas podem ser colocados em espera e transferidos.</p></li>
+<li><p>Durante o failback, a chamada não pode ser estacionada enquanto os usuários estão no modo de resiliência, mas podem ser colocadas em espera e transferidas.</p></li>
 <li><p>Quando o failback é concluído, a chamada pode ser estacionada e recuperada.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>Chamada estacionada, mas ainda não recuperada</p></td>
-<td><p>A chamada está desconectada.</p></td>
-<td><p>Não há chamadas nesse estado.</p></td>
-<td><p>A chamada permanece estacionada.</p></td>
+<td><p>A chamada é desconectada.</p></td>
+<td><p>Nenhuma chamada neste estado.</p></td>
+<td><p>A chamada é mantida estacionada.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Chamada estacionada já recuperada</p></td>
-<td><p>A chamada permanecerá conectada.</p></td>
-<td><p>A chamada permanecerá conectada.</p></td>
-<td><p>A chamada permanecerá conectada.</p></td>
+<td><p>Chamada estacionada já recuperada.</p></td>
+<td><p>A chamada é mantida conectada.</p></td>
+<td><p>A chamada é mantida conectada.</p></td>
+<td><p>A chamada é mantida conectada.</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,16 +12,16 @@ ms:contentKeyID: 49733725
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de9fa28ca10e1b9971875980cc0f3c96b6359ccb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8fe983f12dd01c9cb46b27fdb5dffc3cd41c6671
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765672"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045293"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765672"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-01_
+_**Última modificação do tópico:** 2012-10-01_
 
-A exibição MCUs armazena informações sobre o MCUs que participou em sessões de conferência. Este modo de exibição foi apresentado no Microsoft Lync Server 2013.
+O modo de exibição MCUs armazena informações sobre o MCUs que participaram de sessões de conferência. Este modo de exibição foi introduzido no Microsoft Lync Server 2013.
 
 
 <table>
@@ -57,16 +57,16 @@ A exibição MCUs armazena informações sobre o MCUs que participou em sessões
 <tr class="odd">
 <td><p><strong>McuId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Número exclusivo que identifica a MCU.</p></td>
+<td><p>Número exclusivo que identifica o MCU.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>McuUri</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>URL da MCU.</p></td>
+<td><p>URI do MCU.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>McuUriType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>Tipo de URI de MCU. Consulte a <a href="lync-server-2013-uritypes-table.md">tabela UriTypes no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 </tbody>

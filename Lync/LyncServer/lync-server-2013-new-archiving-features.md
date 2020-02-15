@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Novos recursos de Arquivamento'
+title: 'Lync Server 2013: novos recursos de arquivamento'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185288
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1509a0857b54673ab20783f69b34b59c6d2afde8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bf8c632fa5858eaf35464e9885e65343bc699e54
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765832"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043803"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-archiving-features-in-lync-server-2013"></a>Novos recursos de Arquivamento no Lync Server 2013
+# <a name="new-archiving-features-in-lync-server-2013"></a>Novos recursos de arquivamento no Lync Server 2013
 
 </div>
 
@@ -35,40 +35,40 @@ ms.locfileid: "41765832"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-09_
+_**Última modificação do tópico:** 2012-10-09_
 
 O arquivamento no Lync Server 2013 pode arquivar os seguintes tipos de conteúdo:
 
-  - Mensagens instantâneas de ponto a ponto
+  - Mensagens instantâneas ponto a ponto
 
-  - Conferências (reuniões) que são mensagens instantâneas com vários participantes
+  - As conferências (reuniões) que são mensagens instantâneas de várias partes
 
-  - Conteúdo de conferências, incluindo conteúdo carregado (por exemplo, folhetos) e conteúdo relacionado ao evento (por exemplo, entradas, saídas, compartilhamento de cargas e alterações de visibilidade)
+  - Conteúdo de conferências, incluindo conteúdo carregado (por exemplo, folhetos) e conteúdo relacionado ao evento (por exemplo, entradas, saídas, cargas, compartilhamento e alterações de visibilidade)
 
 Além disso, o arquivamento no Lync Server 2013 oferece novos recursos que melhoram a implantação e a eficiência das operações. Esses novos recursos consistem em:
 
-  - **Colocação do arquivamento em servidores front-end.**    O Lync Server 2013 não tem uma função de servidor de arquivamento separada. O arquivamento é um recurso opcional disponível em todos os servidores front-end em uma implantação do Enterprise Edition e em servidores de edição padrão, que pode ser implementado configurado para um pool ou um site.
+  - **Colocação do arquivamento em servidores front-end.**    O Lync Server 2013 não tem uma função de servidor de arquivamento separada. O Arquivamento é um recurso opcional disponível em todos os Servidores front-end em uma implantação Enterprise Edition e, nos servidores Standard Edition, que podem ser implementados e configurados para um pool ou site.
 
-  - **Integração com o Microsoft Exchange.**    Ao implantar o arquivamento, você pode integrar o armazenamento de dados para arquivamento com o armazenamento existente do Exchange 2013 para todos os usuários que estão hospedados no Exchange 2013 e ter suas caixas de correio no bloqueio in-loco, para que você não precise implantar bancos de dados do SQL Server separados para arquivar dados do Lync. Se você não tiver uma implantação do Exchange 2013 ou se preferir não integrá-la, ou se tiver usuários do Lync 2013 que não são hospedados no Exchange 2013 com suas caixas de correio no bloqueio in-loco, você pode implantar bancos de dados de arquivamento separados usando o SQL Server para stor arquivar dados de comunicações do Lync. Você pode usar os bancos de dados de armazenamento do Microsoft Exchange Integration e Lync Server 2013 se quiser usar a integração do Microsoft Exchange para alguns, mas não para todos os usuários da sua implantação. Para obter detalhes sobre o bloqueio in-loco, consulte "bloqueio in-loco [http://go.microsoft.com/fwlink/p/?LinkId=267500](http://go.microsoft.com/fwlink/p/?linkid=267500)" em.
+  - **Integração com o Microsoft Exchange.**    Ao implantar o arquivamento, você pode integrar o armazenamento de dados para arquivamento com seu armazenamento existente do Exchange 2013 para todos os usuários hospedados no Exchange 2013 e ter suas caixas de correio colocadas em bloqueio in-loco, portanto, não é necessário implantar bancos de dados do SQL Server separados para arquivar dados do Lync. Se você não tiver uma implantação do Exchange 2013, ou se preferir não integrá-la, ou se você tiver usuários do Lync 2013 que não estejam hospedados no Exchange 2013 com suas caixas de correio colocadas em bloqueio in-loco, é possível implantar bancos de dados de arquivamento separados usando o SQL Server para o stor dados arquivados de comunicações do Lync. Você pode usar os bancos de dados de integração do Microsoft Exchange e do Lync Server 2013 se quiser usar a integração do Microsoft Exchange para alguns, mas não todos os usuários em sua implantação. Para obter detalhes sobre o bloqueio in-loco, consulte "bloqueio in-loco [http://go.microsoft.com/fwlink/p/?LinkId=267500](http://go.microsoft.com/fwlink/p/?linkid=267500)" em.
 
-  - **Espelhamento da SQL Store.**    Ao implantar o arquivamento, você pode habilitar o espelhamento de banco de dados do SQL Server para o banco de dados de arquivamento.
+  - **Espelhamento do repositório SQL.**    Ao implantar o arquivamento, você pode habilitar o espelhamento de banco de dados do SQL Server para o banco de dados de arquivamento.
 
-  - **Arquivamento de quadros de comunicações e sondagens.**    Agora, o conteúdo arquivado da conferência inclui quadros de comunicações e sondagens que são compartilhados durante a reunião.
+  - **Arquivamento de quadros de comunicações e pesquisas.**    O conteúdo de conferência arquivada agora inclui quadros de comunicações e pesquisas que são compartilhadas durante a reunião.
 
 Os seguintes tipos de conteúdo não são arquivados:
 
-  - Transferências de arquivo de ponto a ponto
+  - Transferências de arquivo ponto a ponto
 
-  - Áudio e vídeo de mensagens instantâneas e conferências de ponto a ponto
+  - Áudio/vídeo para mensagens instantâneas ponto a ponto e conferências
 
-  - Compartilhamento de aplicativos para mensagens instantâneas e conferências ponto a ponto
+  - Compartilhamento de aplicativos para mensagens instantâneas ponto a ponto e conferências
 
 <div>
 
 ## <a name="see-also"></a>Confira também
 
 
-[Planejando Arquivamento no Lync Server 2013](lync-server-2013-planning-for-archiving.md)  
+[Planejamento para arquivamento no Lync Server 2013](lync-server-2013-planning-for-archiving.md)  
   
 
 </div>

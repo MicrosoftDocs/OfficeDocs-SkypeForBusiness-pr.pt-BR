@@ -12,16 +12,16 @@ ms:contentKeyID: 48184764
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8cd36f651a84b25f7e8163a8cfc40aff5162f90
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: aa902b9e4d53bf0ebbedf835296a371437860095
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724791"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043453"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,31 +35,31 @@ ms.locfileid: "41724791"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-22_
+_**Última modificação do tópico:** 2012-10-22_
 
-No Microsoft Lync Server 2013, uma conferência PSTN é qualquer conferência na qual pelo menos um participante disca para a parte de áudio por meio de um telefone PSTN (rede telefônica pública comutada). (Um telefone PSTN é um "telefone fixo", um telefone celular ou qualquer outro telefone que não usa voz sobre IP.) Ainda que sejam chamadas de conferências PSTN nos relatórios de monitoramento, essas conferências talvez sejam mais conhecidas como conferências discadas.
+No Microsoft Lync Server 2013, uma conferência PSTN é qualquer conferência na qual pelo menos um participante disca para a parte de áudio usando um telefone PSTN (rede telefônica pública comutada). (Um telefone PSTN é um "fixa", um telefone celular ou qualquer outro telefone que não usa voz sobre IP.) Embora sejam conhecidas como conferências PSTN nos relatórios de monitoramento, essas conferências provavelmente são mais conhecidas como conferências discadas.
 
-O Relatório de resumo de conferência fornece informações sobre todas as conferências PSTN feitas em sua organização (isto é, todas as conferências que tenham pelo menos um usuário discado). O relatório contém informações sobre o número total de conferências PSTN, total de número de pessoas que participaram nessas conferências e, talvez, o mais importante, o número total de usuários discados (a métrica de Total de participantes PSTN).
+O relatório de Resumo de conferência PSTN fornece informações sobre todas as conferências PSTN mantidas em sua organização (ou seja, todas as conferências que tiveram pelo menos um usuário de discagem). O relatório inclui informações sobre o número total de conferências PSTN, o número total de pessoas que participaram dessas conferências e, talvez, a maioria importante, o número total de usuários de discagem (a métrica total de participantes PSTN).
 
 <div>
 
-## <a name="accessing-the-pstn-conference-summary-report"></a>Como acessar o Relatório de resumo de conferência PSTN
+## <a name="accessing-the-pstn-conference-summary-report"></a>Acessando o relatório de Resumo de conferência PSTN
 
-O Relatório de resumo de conferência PSTN pode ser acessado apenas da página inicial dos Relatórios de Monitoramento. Este relatório não está vinculado a nenhum outro. Observe que você não pode recuperar informações de chamadas detalhadas para uma conferência PSTN, em parte porque os pontos de extremidade individuais são responsáveis por enviar essas informações. Os telefones PSTN não são capazes de rastrear ou enviar informações de detalhes de chamada.
+O relatório de Resumo de conferência PSTN só pode ser acessado na página inicial de relatórios de monitoramento. Este relatório não está vinculado a outros relatórios. Observe que você não pode recuperar informações de chamada detalhadas para uma conferência PSTN, em parte porque os pontos de extremidade individuais são responsáveis por enviar essas informações. Telefones PSTN não são capazes de controlar ou enviar informações de detalhes de chamada.
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-pstn-conference-summary-report"></a>Como usar melhor o Relatório de resumo de conferência PSTN
+## <a name="making-the-best-use-of-the-pstn-conference-summary-report"></a>Fazendo o melhor uso do relatório de Resumo de conferência PSTN
 
-Para determinar a porcentagem de todas as suas conferências que incluem usuários de discagem, compare o valor da métrica total de conferências PSTN com a métrica total de conferências encontradas no [relatório de Resumo de conferências no Lync Server 2013](lync-server-2013-conference-summary-report.md).
+Para determinar a porcentagem de todas as conferências que incluem usuários de discagem, compare o valor da métrica total de conferências PSTN com a métrica total de conferências encontrada no [relatório de Resumo de conferências no Lync Server 2013](lync-server-2013-conference-summary-report.md).
 
-Se você não vir o número de conferências PSTN que esperava ver, saiba que a capacidade de organizar uma conferência que permita usuários discados depende da política de conferência que foi atribuída a um usuário: se poucos usuários tiverem permissão para hospedar conferências PSTN, você obviamente verá poucas conferências PSTN. Você pode verificar rapidamente quais políticas de conferência (se houver) permitem que os usuários agendem conferências PSTN executando o seguinte comando no Shell de gerenciamento do Lync Server:
+Se você não vir tantas conferências PSTN quanto as esperadas, tenha em mente que a capacidade de organizar uma conferência que permite que os usuários de discagem dependam da política de conferência que foi atribuída a um usuário: se poucos usuários tiverem permissão para manter o PS Conferências do TN você certamente veria muito poucas conferências PSTN. Você pode verificar rapidamente quais políticas de conferência (se houver) permitem que os usuários agendem conferências PSTN executando o seguinte comando no Shell de gerenciamento do Lync Server:
 
     Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing
 
-Serão retornados dados semelhantes a estes:
+Isso retornará dados semelhantes a estes:
 
     Identity                                EnableDialInConferencing
     --------                                ------------------------
@@ -69,7 +69,7 @@ Serão retornados dados semelhantes a estes:
     Tag:RedmondDialInUsers                                      True
     Tag:DublinDialInUsers                                       True
 
-Serão retornados dados semelhantes a estes:
+That will return data similar to this:
 
 </div>
 
@@ -77,11 +77,11 @@ Serão retornados dados semelhantes a estes:
 
 ## <a name="filters"></a>Filtros
 
-Os filtros oferecem uma forma de retornar um conjunto de dados mais direcionado ou exibir os dados devolvidos em formas diferentes. Por exemplo, o Relatório de Resumo de Conferências PSTN permite escolher como os dados devem ser agrupados. Neste caso, as conferências são agrupadas por hora, dia, semana ou mês.
+Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionadas ou para exibir os dados retornados de diferentes maneiras. Por exemplo, o relatório de Resumo de conferência PSTN permite que você escolha como os dados devem ser agrupados. Nesse caso, as conferências são agrupadas por hora, dia, semana ou mês.
 
-A tabela a seguir lista os filtros que podem ser usados com o Relatório de Resumo de Conferências PSTN.
+A tabela a seguir lista os filtros que podem ser usados com o relatório de Resumo de conferência PSTN.
 
-### <a name="pstn-conference-summary-report-filters"></a>Filtros do Relatório de Resumo de Conferências PSTN
+### <a name="pstn-conference-summary-report-filters"></a>Filtros do relatório de Resumo de conferência PSTN
 
 <table>
 <colgroup>
@@ -97,23 +97,23 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Resu
 <tbody>
 <tr class="odd">
 <td><p><strong>De</strong></p></td>
-<td><p>Data/hora de início para o intervalo de tempo. Para ver os dados por horas, insira a data e hora de início conforme segue:</p>
-<p>7/7/2012 1:00 PM</p>
-<p>Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:</p>
+<td><p>Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:</p>
+<p>7/7/2012 13:00 horas</p>
+<p>Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</p>
 <p>7/7/2012</p>
-<p>Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
+<p>Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/3/2012</p>
-<p>As semanas sempre vão de domingo a sábado.</p></td>
+<p>As semanas sempre são de Domingo a Sábado.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Até</strong></p></td>
-<td><p>Data/hora final de intervalo de tempo. Para ver os dados por horas, insira a data e hora final conforme segue:</p>
-<p>7/7/2012 1:00 PM</p>
-<p>Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:</p>
+<td><p><strong>To</strong></p></td>
+<td><p>Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:</p>
+<p>7/7/2012 13:00 horas</p>
+<p>Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</p>
 <p>7/7/2012</p>
-<p>Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
+<p>Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/3/2012</p>
-<p>As semanas sempre vão de domingo a sábado.</p></td>
+<p>As semanas são sempre de domingo a sábado.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Intervalo</strong></p></td>
@@ -124,7 +124,7 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Resu
 <li><p>Semanalmente (é possível exibir no máximo 12 semanas)</p></li>
 <li><p>Mensalmente (é possível exibir no máximo 12 meses)</p></li>
 </ul>
-<p>Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, somente o número máximo de valores (a partir da data de início) será exibido. Por exemplo, se você selecionar o intervalo diário com uma data de início de 7/7/2012 e uma data de término de 2/28/2012, os dados serão exibidos para os dias 8/7/2012 12:00 AM a 9/7/2012 12:00 AM (ou seja, um total de 31 dias da importância dos dados).</p></td>
+<p>Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, somente o número máximo de valores (a partir da data de início) será exibido. Por exemplo, se você selecionar o intervalo Diariamente com a data de início 7/7/12 e uma data de término de 28/2/12, os dados serão exibidos para os dias 7/8/2 00:00 horas até 7/9/12 00:00 horas (ou seja, um total de 31 dias de dados).</p></td>
 </tr>
 </tbody>
 </table>
@@ -136,9 +136,9 @@ A tabela a seguir lista os filtros que podem ser usados com o Relatório de Resu
 
 ## <a name="metrics"></a>Métricas
 
-A tabela a seguir lista as informações no Relatório de Resumo de Conferências PSTN.
+A tabela a seguir lista as informações no relatório de Resumo de conferência PSTN.
 
-### <a name="pstn-conference-summary-report-metrics"></a>Métricas do Relatório de Resumo de Conferências PSTN
+### <a name="pstn-conference-summary-report-metrics"></a>Métricas do relatório de Resumo de conferência PSTN
 
 <table>
 <colgroup>
@@ -149,18 +149,18 @@ A tabela a seguir lista as informações no Relatório de Resumo de Conferência
 <thead>
 <tr class="header">
 <th>Nome</th>
-<th>Você pode classificar este item?</th>
+<th>É possível classificar este item?</th>
 <th>Descrição</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Por hora</strong></p>
-<p><strong>Diário</strong></p>
-<p><strong>Semanal</strong></p>
+<td><p><strong>A cada hora</strong></p>
+<p><strong>Diariamente</strong></p>
+<p><strong>Semanalmente</strong></p>
 <p><strong>Mensal</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Indica o intervalo de tempo selecionado. Quando aplicável, você pode clicar em um dado intervalo de tempo para exibir informações detalhadas para aquele intervalo. Por exemplo, se você estiver usando o intervalo diário e clicar em 7/7/2012, verá um detalhamento por hora da atividade de registro do usuário para essa data.</p></td>
+<td><p>Indica o intervalo de tempo selecionado. Quando aplicável, é possível clicar em um determinado intervalo de tempo para exibir informações detalhadas desse intervalo. Por exemplo, se estiver usando o intervalo Diário e clicar em 7/7/12, você verá uma divisão por hora da atividade de registro do usuário para essa data.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Total de conferências PSTN</strong></p></td>
@@ -173,14 +173,14 @@ A tabela a seguir lista as informações no Relatório de Resumo de Conferência
 <td><p>Número total de pessoas que participaram de conferências que permitiram acesso discado.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Total de minutos de conferências de A/V</strong></p></td>
+<td><p><strong>Total de minutos da conferência A/V</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Quantidade total do tempo de conferências audiovisuais.</p></td>
+<td><p>Quantidade total de tempo de áudio/conferência Visual.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Total de minutos de participantes de conferências de A/V</strong></p></td>
+<td><p><strong>Total de minutos do participante da conferência A/V</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Quantidade total do tempo de participantes audiovisuais. Por exemplo, se um participante passou cinco minutos em uma conferência de A/V e outro passou três minutos na mesma conferência, o tempo de participantes de conferência de A/V total seria oito minutos.</p></td>
+<td><p>Quantidade total de tempo de áudio/do participante Visual. Por exemplo, se um participante gastou cinco minutos em uma conferência de A/V e outro participante gastou três minutos na mesma conferência, o tempo de participante da Conferência A/V deve ser de oito minutos.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Total de participantes PSTN</strong></p></td>
@@ -190,12 +190,12 @@ A tabela a seguir lista as informações no Relatório de Resumo de Conferência
 <tr class="odd">
 <td><p><strong>Total de minutos de participantes PSTN</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Quantidade total de tempo de conferência gasto por usuários discados. Por exemplo, se um participante discado passou cinco minutos em uma conferência e outro passou três minutos na mesma conferência, o tempo de participantes PSTN total seria oito minutos.</p></td>
+<td><p>Quantidade total de tempo de conferência gasto por usuários discados. Por exemplo, se um participante de discagem gastou cinco minutos em uma conferência e outro participante gastou três minutos na mesma conferência, o tempo de participante PSTN total será de oito minutos.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Organizadores de conferência exclusivas</strong></p></td>
+<td><p><strong>Organizadores de conferência exclusivos</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Número total de usuários que organizaram no mínimo uma conferência que permitia acesso discado. Usuários que organizaram mais de uma conferência são contados como um organizador exclusivo, assim como usuários que organizaram somente uma única conferência.</p></td>
+<td><p>Número total de usuários que organizaram pelo menos uma conferência que permitia acesso de discagem. Os usuários que organizaram mais de uma conferência são contados como um organizador exclusivo, assim como os usuários que só organizaram uma única conferência.</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurando o envio de logs do SQL Server ao banco de dados primário do servidor de chat persistente'
+title: 'Lync Server 2013: Configurando o envio de logs do SQL Server para o banco de dados de servidor de chat persistente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183337
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae44d410ef165cdd4f77b877afcfb9349dd0ec00
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4da247e50975ecbed5e64a6e4bebc31d531218b3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764567"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040800"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-sql-server-log-shipping-in-lync-server-2013-for-the-persistent-chat-server-primary-database"></a>Configurando o envio de logs do SQL Server no Lync Server 2013 ao banco de dados primário do servidor de chat persistente
+# <a name="setting-up-sql-server-log-shipping-in-lync-server-2013-for-the-persistent-chat-server-primary-database"></a>Configurando o envio de logs do SQL Server no Lync Server 2013 para o banco de dados primário do servidor de chat persistente
 
 </div>
 
@@ -35,60 +35,60 @@ ms.locfileid: "41764567"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-12_
+_**Última modificação do tópico:** 2012-11-12_
 
-Usando o SQL Server Management Studio, conecte-se à instância do banco de dados de envio de log secundário do servidor de chat persistente e certifique-se de que o agente do SQL Server esteja em execução.
+Usando o SQL Server Management Studio, conecte-se à instância do banco de dados de envio de logs do servidor de chat persistente secundário e certifique-se de que o SQL Server Agent esteja em execução.
 
-Usando o SQL Server Management Studio conectado à instância do banco de dados primário de chat persistente, execute as seguintes etapas:
+Usando o SQL Server Management Studio conectado à instância de banco de dados principal de chat persistente, execute as seguintes etapas:
 
-1.  Certifique-se de que o agente do SQL Server esteja em execução.
+1.  Certifique-se de que o SQL Server Agent esteja em execução.
 
-2.  Clique com o botão direito do mouse no banco de dados mgc e, em seguida, clique em **Propriedades**.
+2.  Clique com o botão direito no banco de dados mgc e, em seguida, clique em **Propriedades**.
 
-3.  Em **Selecionar uma página**, clique em **Envio de Logs de Transação**.
+3.  Em **Selecionar uma página**, clique em **Envio de Logs de Transações**.
 
-4.  Marque a caixa de seleção **Habilitar como banco de dados primário em uma configuração de envio de logs**.
+4.  Selecione a caixa de seleção **Habilitar como banco de dados primário em uma configuração de envio de log**.
 
-5.  Em **Backups de log de transação**, clique em **Configurações de Backup**.
+5.  Em **Backups do log de transação**, clique em **Configurações de Backup**.
 
-6.  Na caixa **Caminho de rede para a pasta de backup**, digite o caminho de rede até o compartilhamento criado para a pasta de backup de log de transação.
+6.  Na caixa **Caminho de rede para a pasta Backup**, digite o caminho de rede até o compartilhamento criado para a pasta de backup do log de transação.
 
-7.  Se a pasta de backup estiver localizada no servidor primário, digite o caminho local para a pasta de backup na caixa **se a pasta de backup estiver localizada no servidor primário, digite um caminho local para a pasta (exemplo: c\\: backup)** . (Se a pasta de backup não estiver no servidor primário, você pode deixar essa caixa de diálogo em branco.)
+7.  Se a pasta de backup estiver localizada no servidor primário, digite o caminho local para a pasta de backup na caixa **se a pasta de backup estiver localizada no servidor primário, digite um caminho local para a pasta (exemplo: c\\: backup)** . (Se a pasta de backup não estiver o servidor primário, você pode deixa essa caixa de diálogo vazia.)
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Se a conta de serviço do SQL Server em seu servidor primário for executada na conta do sistema local, você deverá criar a pasta de backup no servidor primário e especificar um caminho local para essa pasta.
+    > Se a conta de serviço do SQL Server em seu servidor principal é executada sob a conta do sistema local, você deve criar sua pasta de backup no servidor primário e especificar um caminho local para essa pasta.
 
     
     </div>
 
 8.  Configure os parâmetros **Excluir arquivos com mais de** e **Alertar se nenhum backup ocorrer em**.
 
-9.  Observe a agenda de backup listada na caixa **Agenda** em **Trabalho de backup**. Para personalizar o cronograma da instalação, clique em **agendar**e ajuste o cronograma do agente do SQL Server conforme necessário.
+9.  Observe a agenda de backup listada na caixa de diálogo **Agendar** em **Trabalho de backup**. Para personalizar a agenda da instalação, clique em **agenda**e ajuste a agenda do SQL Server Agent conforme necessário.
 
 10. Em **Compactação**, selecione **Usar a configuração padrão do servidor** e clique em **OK**.
 
 11. Em **Instâncias e bancos de dados do servidor secundário**, clique em **Adicionar**.
 
-12. Clique em **conectar** e conecte-se à instância do SQL Server que você configurou como seu servidor secundário.
+12. Clique em **conectar** e conecte-se à instância do SQL Server que você configurou como servidor secundário.
 
-13. Na caixa **Banco de dados secundário**, selecione o banco de dados **mgc** da lista.
+13. Na caixa de diálogo **Banco de dados secundário**, selecione o banco de dados **mgc** da lista.
 
-14. Na guia **Inicializar Banco de Dados Secundário**, escolha a opção **Sim, gerar um backup completo do banco de dados primário e restaurá-lo no banco de dados secundário (e criar o banco de dados secundário caso ele não exista)**.
+14. Na guia **inicializar banco de dados secundário** , escolha a opção **Sim, gere um backup completo do banco de dados primário e restaure-o no banco de dados secundário (e crie o banco de dados secundário, caso não exista)**.
 
-15. Na guia **Copiar Arquivos**, na caixa **Pasta de destino dos arquivos copiados**, digite o caminho da pasta na qual os backups de logs de transação devem ser copiados. Normalmente, essa pasta está localizada no servidor secundário.
+15. Na guia **Copiar Arquivos**, na caixa **Pasta de destino dos arquivos copiados**, digite o caminho da pasta na qual os backups de logs de transação devem ser copiadas. Normalmente, essa pasta está localizada no servidor secundário.
 
-16. Observe a agenda de cópia listada na caixa **Agenda** em **Trabalho de cópia**. Para personalizar o cronograma da instalação, clique em **agendar**e ajuste o cronograma do agente do SQL Server conforme necessário. Essa agenda deve ser praticamente igual à agenda de backup.
+16. Observe agenda de cópia listada na caixa **Agenda** em **Trabalho de cópia**. Para personalizar a agenda da instalação, clique em **agenda**e ajuste a agenda do SQL Server Agent conforme necessário. Essa agenda deve ser quase a mesma que a agenda de backup.
 
 17. Na guia **Restauração**, em **Estado do banco de dados ao restaurar backups**, escolha a opção **Nenhum modo de recuperação**.
 
-18. Em **Atrasar restauração de backups pelo menos:**, selecione **0 minuto**.
+18. Em **Atrasar restauração de backups pelo menos:**, selecione **0 minutos**.
 
-19. Escolha um limite de alerta em **Alertar se nenhuma restauração ocorrer em**.
+19. Escolha um limite de alerta sob **Alertar se nenhuma restauração ocorrer em**.
 
-20. Observe a agenda de restauração listada na caixa **Agenda** em **Trabalho de restauração**. Para personalizar o cronograma da instalação, clique em **agendar**, ajuste o cronograma do agente do SQL Server conforme necessário e clique em **OK**. Essa agenda deve ser praticamente igual à agenda de backup.
+20. Observe a agenda de restauração listada na caixa **Agenda** em **Trabalho de restauração**. Para personalizar a agenda da instalação, clique em **agenda**, ajuste a agenda do SQL Server Agent conforme necessário e clique em **OK**. Essa agenda deve ser quase a mesma que a agenda de backup.
 
 21. Na caixa de diálogo **Propriedades do Banco de Dados**, clique em **OK** para começar o processo de configuração.
 

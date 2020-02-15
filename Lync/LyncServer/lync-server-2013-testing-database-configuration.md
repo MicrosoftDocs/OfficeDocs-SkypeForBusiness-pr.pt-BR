@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: configuração do banco de dados de teste'
+title: 'Lync Server 2013: testar configuração de banco de dados'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969606
 ms.date: 07/07/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6fcf6679481d4f35a457eb72960a8ae999b004d3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 45781238f7fb8aa461e050f2e8f0cbf04e45a950
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745821"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038173"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-database-configuration-in-lync-server-2013"></a>Testar a configuração do banco de dados no Lync Server 2013
+# <a name="testing-database-configuration-in-lync-server-2013"></a>Testando a configuração do banco de dados no Lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745821"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2016-07-07_
+_**Última modificação do tópico:** 2016-07-07_
 
 
 <table>
@@ -45,17 +45,17 @@ _**Tópico da última modificação:** 2016-07-07_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Cronograma de verificação</p></td>
-<td><p>Diário</p></td>
+<td><p>Agenda de verificação</p></td>
+<td><p>Diariamente</p></td>
 </tr>
 <tr class="even">
 <td><p>Ferramenta de teste</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissões necessárias</p></td>
-<td><p>Quando executado localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins e precisam ter privilégios de administrador no SQL Server.</p>
-<p>Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet <strong>Test-CsDatabase</strong> . Para ver uma lista de todas as funções RBAC que podem usar esse cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</p>
+<td><p>Permissões obrigatórias</p></td>
+<td><p>Ao executar localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins e ter privilégios de administrador no SQL Server.</p>
+<p>Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet <strong>Test-CsDatabase</strong> . Para ver uma lista de todas as funções RBAC que podem usar este cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsDatabase&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ _**Tópico da última modificação:** 2016-07-07_
 
 ## <a name="description"></a>Descrição
 
-O cmdlet **Test-CsDatabase** verifica a conectividade de um ou mais bancos de dados do Lync Server 2013. Quando executado, o cmdlet **Test-CsDatabase** lê a topologia do Lync Server, tenta se conectar a bancos de dados relevantes e, em seguida, relata o êxito ou falha de cada tentativa. Se for possível fazer uma conexão, o cmdlet também reportará essas informações como o nome do banco de dados, as informações de versão do SQL Server e o local de todos os bancos de dados espelhados instalados.
+O cmdlet **Test-CsDatabase** verifica a conectividade para um ou mais bancos de dados do Lync Server 2013. Quando executado, o cmdlet **Test-CsDatabase** lê a topologia do Lync Server, tenta se conectar a bancos de dados relevantes e, em seguida, relata o êxito ou falha de cada tentativa. Se uma conexão pode ser realizada, o cmdlet também relatará tal informação como o nome do banco de dados, a informação de versão do SQL Server e o local de qualquer banco de dados espelho instalado.
 
 </div>
 
@@ -74,7 +74,7 @@ O cmdlet **Test-CsDatabase** verifica a conectividade de um ou mais bancos de da
 
 ## <a name="running-the-test"></a>Executar o teste
 
-O comando mostrado no exemplo 1 verifica a configuração do banco de dados de gerenciamento central.
+O comando mostrado no Exemplo 1 verifica a configuração do banco de dados de Gerenciamento Central.
 
     Test-CsDatabase -CentralManagementDatabase
 
@@ -82,11 +82,11 @@ O exemplo 2 verifica todos os bancos de dados do Lync Server instalados no compu
 
     Test-CsDatabase -ConfiguredDatabases -SqlServerFqdn "atl-sql-001.litwareinc.com"
 
-No exemplo 3, a verificação é realizada somente para o banco de dados de arquivamento instalado no computador atl-sql-001.litwareinc.com. Observe que o parâmetro SQLINSTANCENAME está incluído para especificar a instância do SQL Server (Archinst) em que o banco de dados de arquivamento está localizado.
+No Exemplo 3, a verificação é realizada apenas para o banco de dados de Arquivamento instalado no computador atl-sql-001.litwareinc.com. Observe que o parâmetro SqlInstanceName está incluído para especificar a instância do SQL Server (Archinst) onde o banco de dados de Arquivamento está localizado.
 
     Test-CsDatabase -DatabaseType "Archiving" -SqlServerFqdn "atl-sql-001.litwareinc.com" -SqlInstanceName "archinst"
 
-O comando mostrado no exemplo 4 verifica os bancos de dados instalados no computador local.
+O comando mostrado no Exemplo 4 verifica os bancos de dados instalados no computador local.
 
     Test-CsDatabase -LocalService
 
@@ -94,9 +94,9 @@ O comando mostrado no exemplo 4 verifica os bancos de dados instalados no comput
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Determinação do sucesso ou falha
+## <a name="determining-success-or-failure"></a>Determinando o sucesso ou a falha
 
-Se a conectividade do banco de dados estiver configurada corretamente, você receberá uma saída semelhante a isso, com a propriedade sucede marcada como **verdadeira**:
+Se a conectividade do banco de dados estiver configurada corretamente, você receberá uma saída semelhante a essa, com a propriedade sucede marcada como **true**:
 
 SqlServerFqdn: atl-sql-001.litwareinc.com
 
@@ -108,7 +108,7 @@ MirrorSqlInstanceName :
 
 DatabaseName: XDS
 
-Inclusão
+DataSource
 
 SQLServerVersion :
 
@@ -116,7 +116,7 @@ ExpectedVersion : 10.13.2
 
 InstalledVersion :
 
-Êxito: verdadeiro
+Êxito: true
 
 SqlServerFqdn: atl-sql-001.litwareinc.com
 
@@ -128,17 +128,17 @@ MirrorSqlInstanceName :
 
 DatabaseName: Lis
 
-Inclusão
+DataSource
 
 SQLServerVersion :
 
-ExpectedVersion: 3.1.1
+ExpectedVersion : 3.1.1
 
 InstalledVersion :
 
-Êxito: verdadeiro
+Êxito: true
 
-Se o banco de dados estiver configurado corretamente, mas ainda estiver disponível, o campo bem-sucedido será mostrado como **falso**, e avisos adicionais e informações serão fornecidos:
+Se o banco de dados estiver configurado corretamente, mas ainda estiver disponível, o campo bem-sucedido será mostrado como **falso**, e avisos e informações adicionais serão fornecidos:
 
 SqlServerFqdn: atl-sql-001.litwareinc.com
 
@@ -150,7 +150,7 @@ MirrorSqlInstanceName :
 
 DatabaseName: XDS
 
-Inclusão
+DataSource
 
 SQLServerVersion :
 
@@ -158,7 +158,7 @@ ExpectedVersion : 10.13.2
 
 InstalledVersion :
 
-Bem-sucedido: falso
+Êxito: falso
 
 SqlServerFqdn: atl-cs-001.litwareinc.com
 
@@ -170,25 +170,25 @@ MirrorSqlInstanceName :
 
 DatabaseName: Lis
 
-Inclusão
+DataSource
 
 SQLServerVersion :
 
-ExpectedVersion: 3.1.1
+ExpectedVersion : 3.1.1
 
 InstalledVersion :
 
-Bem-sucedido: falso
+Êxito: falso
 
-Aviso: Test-CsDatabase encontrou erros. Consulte o arquivo de log para obter uma
+Aviso: Test-CsDatabase encontrou erros. Consulte o arquivo de log para obter um
 
 análise detalhada e para garantir que todos os erros (2) e avisos (0) sejam tratados
 
 antes de continuar.
 
-Aviso: os resultados detalhados podem ser encontrados em
+Aviso: resultados detalhados podem ser encontrados em
 
-"C:\\usuários\\\\testando\\AppData\\local\\2\\Test-CsDatabase-b18d488a-8044-4679-bbf2-
+"C:\\os\\usuários\\que\\estão\\testando o local temp\\2\\Test-CsDatabase-b18d488a-8044-4679-bbf2-
 
 04d593cce8e6. html ".
 
@@ -200,9 +200,9 @@ Aviso: os resultados detalhados podem ser encontrados em
 
 Aqui estão alguns motivos comuns pelos quais **Test-CsDatabase** pode falhar:
 
-  - Um valor de parâmetro incorreto foi fornecido. Se usado, os parâmetros opcionais devem ser configurados corretamente ou o teste falhará. Execute o comando novamente sem os parâmetros opcionais e veja se isso é bem-sucedido.
+  - Um valor de parâmetro incorreto foi fornecido. Se usado, os parâmetros opcionais devem ser configurados corretamente ou o teste falhará. Execute novamente o comando sem os parâmetros opcionais e veja se isso é bem-sucedido.
 
-  - Esse comando falhará se o banco de dados estiver configurado incorretamente ou ainda não foi implantado.
+  - Esse comando falhará se o banco de dados estiver configurado incorretamente ou ainda não tiver sido implantado.
 
 </div>
 

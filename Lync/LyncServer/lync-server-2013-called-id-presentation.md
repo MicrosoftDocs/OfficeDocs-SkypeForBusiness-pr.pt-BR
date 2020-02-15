@@ -12,20 +12,20 @@ ms:contentKeyID: 49733826
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8dc22438a688239618fc7a73cf3aa30ec614568d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 84bddaba994d5e0907200902deb8c818cca4199c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742941"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044243"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="called-id-presentation-in-lync-server-2013"></a>Apresentação de ID chamada no Lync Server 2013
+# <a name="called-id-presentation-in-lync-server-2013"></a>Apresentação da ID chamada no Lync Server 2013
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41742941"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-21_
+_**Última modificação do tópico:** 2012-09-21_
 
-Com o Lync Server 2010, o número de telefone da pessoa chamada (ou seja, o número de telefone chamado) pode ser traduzido do formato E. 164 para o formato de discagem local necessário para o tronco de tronco (ou seja, o gateway associado, a troca de ramificação privada (PBX) ou o tronco SIP). Para fazer isso, você deve definir uma ou mais regras de conversão para converter a URI de Solicitação antes de roteá-la para o ponto de tronco.
+Com o Lync Server 2010, o número de telefone do participante chamado (ou seja, o número de telefone chamado) pode ser convertido no formato E. 164 no formato de discagem local necessário para o par de troncos (ou seja, o gateway associado, o PBX (central privada de comutação telefônica) ou o tronco SIP). Para fazer isso, você deve definir uma ou mais regras de conversão para converter o URI de solicitação antes de roteá-lo para o par de tronco.
 
 <div>
 
 
 > [!IMPORTANT]  
-> A capacidade de associar uma ou mais regras de tradução a uma configuração de tronco Enterprise Voice deve ser usada como uma <EM>alternativa</EM> para configurar regras de tradução no par de troncos. Não associe as regras de tradução a uma configuração de tronco do Enterprise Voice se você tiver configurado regras de tradução no par de tronco porque as duas regras podem entrar em conflito.
+> A capacidade de associar uma ou mais regras de conversão de uma configuração de tronco do Enterprise Voice se destina a ser usada como uma <EM>alternativa </EM> para configurar as regras de conversão no ponto de tronco. Não associe as regras de conversão de uma configuração de tronco Enterprise Voice se você tiver configurado regras de conversão no peer de tronco, porque as duas regras podem entrar em conflito.
 
 
 
 </div>
 
-Você pode usar qualquer um dos seguintes métodos para criar ou modificar uma regra de Tradução:
+Você pode usar um dos seguintes métodos para compilar ou modificar uma regra de conversão:
 
-  - Use a ferramenta **criar uma regra de tradução** para especificar valores para os dígitos iniciais, comprimento, dígitos a serem removidos e dígitos a serem adicionados e deixe o painel de controle do Lync Server gerar o padrão correspondente e a regra de tradução para você.
+  - Use a ferramenta **criar uma regra de conversão** para especificar valores para os dígitos iniciais, comprimento, dígitos a serem removidos e dígitos a serem adicionados e permitir que o painel de controle do Lync Server gere o padrão correspondente e a regra de conversão para você.
 
-  - Grave expressões regulares manualmente para definir o padrão correspondente e a regra de tradução.
+  - Escreva expressões regulares manualmente para definir o padrão de correspondência e a regra de conversão.
 
 <div>
 
@@ -69,9 +69,9 @@ Você pode usar qualquer um dos seguintes métodos para criar ou modificar uma r
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Criar ou modificar uma regra de tradução usando a ferramenta construir uma regra de tradução no Lync Server 2013](lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md)
+  - [Criar ou modificar uma regra de conversão usando a ferramenta compilar uma regra de conversão no Lync Server 2013](lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md)
 
-  - [Criar ou modificar uma regra de tradução manualmente no Lync Server 2013](lync-server-2013-create-or-modify-a-translation-rule-manually.md)
+  - [Criar ou modificar uma regra de conversão manualmente no Lync Server 2013](lync-server-2013-create-or-modify-a-translation-rule-manually.md)
 
 </div>
 
@@ -80,7 +80,7 @@ Você pode usar qualquer um dos seguintes métodos para criar ou modificar uma r
 ## <a name="see-also"></a>Confira também
 
 
-[Apresentação da identificação de chamadas no Lync Server 2013](lync-server-2013-caller-id-presentation.md)  
+[Apresentação da ID de chamadas no Lync Server 2013](lync-server-2013-caller-id-presentation.md)  
   
 
 </div>

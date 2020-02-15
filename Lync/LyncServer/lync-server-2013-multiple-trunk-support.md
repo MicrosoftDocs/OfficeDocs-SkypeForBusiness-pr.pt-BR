@@ -12,16 +12,16 @@ ms:contentKeyID: 48184948
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d13ca1a28fd28a6d280ddf3a18e57e09376e668
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4a2f8e9bea40532486d75e76887e35b496df8631
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765952"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039124"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41765952"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
-A funcionalidade do Lync Server 2013 oferece suporte a várias associações entre gateways e servidores de mediação. Essas associações são feitas pela definição de um tronco, que é uma associação lógica entre um pool do servidor de mediação e um gateway de rede telefônica pública comutada (SBC), ou PBX IP. Use o construtor de topologias para associar gateways a servidores de mediação (ou seja, troncos).
+A funcionalidade do Lync Server 2013 oferece suporte a várias associações entre gateways e servidores de mediação. Essas associações são feitas por meio da definição de um tronco, que é uma associação lógica entre um pool de servidor de mediação e um gateway PSTN (controlador de borda de sessão), SBC ou IP-PBX. Use o construtor de topologia para associar gateways a servidores de mediação (ou seja, troncos).
 
-  - Para atribuir ou remover um tronco no Lync Server 2013, primeiro você deve definir um tronco no construtor de topologias. Um tronco consiste na seguinte associação: nome de domínio totalmente qualificado (FQDN) do servidor de mediação, a porta de escuta do servidor de mediação, o FQDN do gateway e a porta de escuta do gateway.
+  - Para atribuir ou remover um tronco no Lync Server 2013, primeiro você deve definir um tronco no construtor de topologia. Um tronco consiste na seguinte associação: nome de domínio totalmente qualificado (FQDN) do servidor de mediação, a porta de escuta do servidor de mediação, o FQDN do gateway e a porta de escuta do gateway.
 
-  - Para configurar vários troncos, você pode criar várias associações entre o mesmo gateway e o servidor de mediação. Isso fornece resiliência adicional à infraestrutura Enterprise Voice, que é especialmente útil em cenários de interoperabilidade de PBX (Private Branch Exchange).
+  - Para configurar vários troncos, você pode criar várias associações entre o mesmo gateway e o servidor de mediação. Isso fornece resiliência adicional para a infraestrutura do Enterprise Voice, que é especialmente útil em cenários de interoperabilidade de PBX (Private Branch Exchange).
 
-Quando um tronco é definido, ele precisa ser associado à rota. Para associar um tronco a uma rota, você define um nome simples para o tronco no construtor de topologias. Esse nome simples é usado como o nome do tronco no painel de controle do Lync Server, em que os troncos podem ser associados às rotas. O nome do tronco simples é usado como o nome do gateway do Shell de gerenciamento do Lync Server.
+Quando um tronco é definido, ele deve ser associado a uma rota. Para associar um tronco a uma rota, você define um nome simples para o tronco no construtor de topologias. Esse nome simples é usado como o nome do tronco no painel de controle do Lync Server, onde os troncos podem ser associados a rotas. O nome do tronco simples é usado como o nome do gateway no Shell de gerenciamento do Lync Server.
 
     New-CsVoiceRoute -Identity <RouteId> -NumberPattern <String> -PstnUsages @{add="<UsageString>"} -PstnGatewayList @{add="<TrunkSimpleName>"}
 
-O administrador deve selecionar um tronco padrão associado a um servidor de mediação. No construtor de topologias, clique com o botão direito do mouse no servidor de mediação associado e, em seguida, clique em **Propriedades**. Especifique o gateway padrão do servidor de mediação.
+O administrador deve selecionar um tronco padrão associado a um servidor de mediação. No construtor de topologias, clique com o botão direito do mouse no servidor de mediação associado e clique em **Propriedades**. Especifique o gateway padrão para o servidor de mediação.
 
-O diagrama a seguir ilustra os vários troncos que são definidos para cada servidor e gateway de mediação.
+O diagrama a seguir ilustra os vários troncos definidos para cada servidor de mediação e gateway.
 
-**M-N roteamento de tronco**
+**Roteamento de tronco M-N**
 
 ![Várias atribuições de tronco.](images/JJ205127.c61cd9a7-d8d9-4e02-83b9-ab62519a48c4(OCS.15).jpg "Várias atribuições de tronco.")
 

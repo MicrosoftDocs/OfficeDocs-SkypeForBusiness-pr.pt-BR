@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: organizadores de reuniões dedicados'
+title: 'Lync Server 2013: organizadores de reunião dedicados'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183730
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 429c68ad96d4738b835f549a5f355e6c133ead74
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4609f588eec8d68ec163abd8a15a44f5f88a7620
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728531"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044083"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41728531"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-01_
+_**Última modificação do tópico:** 2012-10-01_
 
-Para minimizar o tráfego de comunicação em tempo real no pool de reunião grande, não recomendamos o uso regular de usuários do Lync e participa em mensagens instantâneas (IM), presença, conferência e sessões de voz. Em vez disso, recomendamos seguir um destes procedimentos:
+Para minimizar o tráfego de comunicações em tempo real no pool de grandes reuniões, não recomendamos hospedar usuários que façam o login regularmente usando clientes do Lync e participam de mensagem instantânea (IM), presença, conferência e sessões de voz. Ao invés disso, recomendamos fazer um dos seguintes:
 
-  - Crie uma ou mais contas de usuário dedicadas apenas para agendar reuniões grandes ou
+  - Criar uma ou mais contas exclusivas apenas para programar grandes reuniões, ou
 
-  - Página inicial contas de usuário da equipe responsável por agendar reuniões grandes em um pool de reunião grande.
+  - Hospedar as contas do usuário da equipe responsável por programar grandes reuniões em um pool de grande reuniões.
 
-Em ambos os casos, as contas de usuário hospedadas no pool de reunião grande não devem ser usadas para se conectar regularmente ao Lync, em vez de agendar reuniões.
+Em ambos os casos, as contas de usuário hospedadas no pool de grandes reuniões não devem ser usadas regularmente para fazer o login no Lync, ao invés programar outras reuniões.
 
 </div>
 

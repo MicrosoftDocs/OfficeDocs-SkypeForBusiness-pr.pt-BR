@@ -12,16 +12,16 @@ ms:contentKeyID: 49733637
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa234a4420c1bec54cd673eb59d254e07deab8f8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9b5a3176067d7ec9927165bd13b6b1a34dfb00d9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766052"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039454"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,29 +35,29 @@ ms.locfileid: "41766052"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
-No Lync Server 2013, a política de conferência define o agendamento e a experiência de participação do usuário e as configurações de junção de reunião localizadas na página configuração da reunião, defina o seguinte:
+No Lync Server 2013, a política de conferência define a experiência de agendamento e participação do usuário e as configurações de ingresso na reunião localizadas na página configuração de reunião definem o seguinte:
 
-  - Se os usuários discando de uma rede telefônica pública comutada (PSTN) vão para o lobby
+  - Se os usuários que estão discando da rede pública (PSTN) vão para o lobby
 
   - Quem pode ser um apresentador
 
   - Se o tipo de conferência é atribuído por padrão
 
-  - Se usuários anônimos (não autenticados) são admitidos por padrão
+  - Se os usuários anônimos (não autenticados) são admitidos por padrão
 
-Os tópicos desta seção descrevem como definir as configurações de junção de reunião.
+Os tópicos desta seção descrevem como configurar a entrada na reunião.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Exibir configurações de reunião no Lync Server 2013](lync-server-2013-view-meeting-configuration-settings.md)
+  - [Exibir definições de configuração de reunião no Lync Server 2013](lync-server-2013-view-meeting-configuration-settings.md)
 
-  - [Criar ou modificar uma coleção de definições de configuração de reunião no Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md)
+  - [Criar ou modificar um conjunto de definições de configuração de reunião no Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md)
 
-  - [Excluir uma coleção existente de definições de configuração de reunião no Lync Server 2013](lync-server-2013-delete-an-existing-collection-of-meeting-configuration-settings.md)
+  - [Excluir um conjunto existente de definições de configuração de reunião no Lync Server 2013](lync-server-2013-delete-an-existing-collection-of-meeting-configuration-settings.md)
 
 </div>
 

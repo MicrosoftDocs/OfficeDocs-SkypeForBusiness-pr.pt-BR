@@ -12,20 +12,20 @@ ms:contentKeyID: 49733627
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4600d5f978c553699029416951505c952f62bb62
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d3ec3a148710c3195eef0670f6c533801fb264f6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736181"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040348"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-dial-in-conferencing-for-meetings-in-lync-server-2013"></a>Habilitar ou desabilitar a conferência discada em reuniões no Lync Server 2013
+# <a name="enable-or-disable-dial-in-conferencing-for-meetings-in-lync-server-2013"></a>Habilitar ou desabilitar a conferência discada para reuniões no Lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41736181"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
-O procedimento a seguir descreve como permitir que o usuário ingresse em uma reunião usando o dial-in.
+O procedimento a seguir descreve como permitir que um usuário faça parte de uma reunião discada.
 
 <div>
 
 ## <a name="to-enable-or-disable-dial-in-conferencing"></a>Para habilitar ou desabilitar a conferência discada
 
-1.  Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+1.  Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação à esquerda, clique em **conferência** e, em seguida, clique em **política de conferência**.
+3.  Na barar de navegação à direita, clique em **Conferência** e, então, em **Política de Conferência**.
 
 4.  Na lista de políticas de conferência, selecione a política que deseja ativar na conferência discada, clique em **Editar** e, então, em **Exibir detalhes**.
 
-5.  Para permitir que os usuários participem por conexão discada, marque a caixa de verificação **Ativar a conferência via conexão discada PSTN**. Por padrão, os usuários podem discar para reuniões utilizando a Rede Telefônica Pública Comutada (PSTN).
+5.  Para permitir que os usuários participen por conexão discada, marque a caixa de verificação **Ativar a conferência via conexão discada PSTN**. Por padrão, os usuários podem discar para reuniões utilizando a 	Rede Telefônica Pública Comutada (PSTN).
 
 6.  Clique em **Confirmar**.
 

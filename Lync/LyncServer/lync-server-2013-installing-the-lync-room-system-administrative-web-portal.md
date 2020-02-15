@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Instalando o portal da Web administrativo do sistema de salas do Lync'
+title: 'Lync Server 2013: instalar o portal da Web administrativo do sistema de salas do Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 56737622
 ms.date: 04/09/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dcfc78429ef021afcb0ed286ad86a39e63bfbf62
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6af0f52b940e9bcfb78048ef3a2c60f09d265073
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725981"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045233"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="installing-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Installing the Lync Room System Administrative Web Portal in Lync Server 2013
+# <a name="installing-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Instalando o portal da Web administrativo do sistema de salas do Lync no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41725981"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2015-04-09_
+_**Última modificação do tópico:** 2015-04-09_
 
-Você pode baixar o portal da Web administrativo do sistema de sala do Microsoft Lync no centro [http://go.microsoft.com/fwlink/p/?LinkId=324044](http://go.microsoft.com/fwlink/p/?linkid=324044)de download da Microsoft em.
+Você pode baixar o portal da Web administrativo do sistema de salas do Microsoft Lync no centro [http://go.microsoft.com/fwlink/p/?LinkId=324044](http://go.microsoft.com/fwlink/p/?linkid=324044)de download da Microsoft em.
 
 Para instalar o portal da Web administrativo do sistema de salas do Lync, use as etapas a seguir.
 
@@ -45,17 +45,17 @@ Para instalar o portal da Web administrativo do sistema de salas do Lync, use as
     
         Set-CsWebServer -Identity POOLFQDN -MeetingRoomAdminPortalInternalListeningPort 4456 -MeetingRoomAdminPortalExternalListeningPort 4457
 
-2.  Para instalar o portal da sala de reunião, baixe o **LyncRoomAdminPortal. exe** e, em seguida, execute-o como administrador.
+2.  Para instalar o portal de sala de reunião, baixe o **LyncRoomAdminPortal. exe** e execute-o como administrador.
 
-3.  Abra o arquivo Web. config do seguinte local:
+3.  Abra o arquivo Web. config no seguinte local:
     
-    % Arquivos de programa\\% Microsoft Lync Server\\2013 Web\\Components do\\Portal\\de sala de reunião do portal de sala de reunião\\
+    % Arquivos de programa\\% Microsoft Lync Server\\2013 manipulador\\de sala de\\reunião\\de Web Components int do portal\\
 
-4.  No arquivo Web. config, altere a PortalUserName para o nome de usuário criado na etapa 2 na seção "Configurando pré-requisitos para o portal de administração do sistema de salas do Lync" (o nome recomendado na etapa é LRSApp):
+4.  No arquivo Web. config, altere o PortalUserName para o nome de usuário criado na etapa 2 na seção "Configurando pré-requisitos para o portal de administração do sistema de salas do Lync" (o nome recomendado na etapa é LRSApp):
     
         <add key="PortalUserName" value="sip:LRSApp@domain.com" />
 
-5.  Como o portal de administração do LRS é um aplicativo confiável, você não precisa fornecer a senha na configuração do Portal. Se esse usuário estiver usando um registrador diferente do registrador local, você precisará especificar o registrador para ele adicionando a seguinte linha no arquivo Web. config:
+5.  Como o portal de administração do LRS é um aplicativo confiável, você não precisa fornecer a senha na configuração do Portal. Se este usuário estiver usando um registrador diferente do registrador local, você precisará especificar o registrador para ele adicionando a seguinte linha no arquivo Web. config:
     
         <add key="PortalUserRegistrarFQDN" value="pool-xxxx.domain.com" />
 
@@ -78,11 +78,11 @@ Para verificar a instalação do portal da Web administrativo do sistema de sala
     
     ![Tela de entrada do portal de administração do sistema de salas do Lync](images/Dn436326.050bcf70-2f3b-46b2-9b96-ebd12679b713(OCS.15).png "Tela de entrada do portal de administração do sistema de salas do Lync")
 
-2.  Se você não vir nenhum erro, tente acessar a seguinte URL a partir de qualquer outro computador na topologia:
+2.  Se você não vir nenhum erro, tente acessar a seguinte URL de qualquer outro computador na topologia:
     
     https://\<FE-servidor\>/lRS
     
-    Para acessar a página, você precisará adicionar os registros DNS conforme descrito em "registros de DNS necessários para a entrada automática do cliente" em [http://go.microsoft.com/fwlink/p/?LinkId=318056](http://go.microsoft.com/fwlink/p/?linkid=318056).
+    Para acessar a página, você precisará adicionar os registros DNS, conforme descrito em "registros de DNS necessários para entrada automática de cliente" em [http://go.microsoft.com/fwlink/p/?LinkId=318056](http://go.microsoft.com/fwlink/p/?linkid=318056).
 
 </div>
 

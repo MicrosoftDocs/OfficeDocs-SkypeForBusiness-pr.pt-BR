@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: comunicar a atribuição de retirada de chamadas em grupo aos usuários'
+title: 'Lync Server 2013: transmitir atribuição de recebimento de chamadas de grupo aos usuários'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541533
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 389416ddbab40aa4aa49d9225c7908ff4a4c82ca
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ef0eebdfdb840d1d603fd6852a4d8cd1817a44af
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742761"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045633"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="communicate-group-call-pickup-assignments-to-users-in-lync-server-2013"></a>Comunicar as atribuições de recebimento de chamadas em grupo aos usuários no Lync Server 2013
+# <a name="communicate-group-call-pickup-assignments-to-users-in-lync-server-2013"></a>Comunicar as atribuições de recebimento de chamadas de grupo aos usuários no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41742761"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-01-30_
+_**Última modificação do tópico:** 2013-01-30_
 
-Depois de habilitar o recebimento de chamadas em grupo para os usuários, use o email ou algum outro mecanismo para notificá-los do número do grupo de recebimento de chamada. Faça isso para qualquer grupo que os usuários queiram monitorar. Visto que os usuários podem recuperar chamadas de outros usuários mesmo que não estejam no mesmo grupo, é provável que eles precisem do número de vários grupos de recebimento de chamada.
+Depois de habilitar o recebimento de chamadas em grupo para usuários, use email ou algum outro mecanismo para notificar os usuários sobre o número do grupo de recebimento de chamadas. Notifique os usuários sobre o número do grupo de recebimento de chamadas para qualquer grupo que eles possam ser monitorados. Como os usuários podem recuperar chamadas para outros usuários, mesmo que eles não estejam no mesmo grupo, os usuários podem precisar do número de grupo de recebimento de chamada para vários grupos.
 
 </div>
 

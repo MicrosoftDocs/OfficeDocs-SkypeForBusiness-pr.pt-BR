@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Requisitos de Serviços de Informações da Internet (IIS)'
+title: 'Lync Server 2013: requisitos dos serviços de informações da Internet (IIS)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184128
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f4b51ac4996e2556ced3ad91e15a6cc58a1623c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9a086713c4c4c1ea5752c7e1b46ce46e48a0ea42
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725801"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040940"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="internet-information-services-iis-requirements-in-lync-server-2013"></a>Requisitos de Serviços de Informações da Internet (IIS) no Lync Server 2013
+# <a name="internet-information-services-iis-requirements-in-lync-server-2013"></a>Requisitos dos serviços de informações da Internet (IIS) no Lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41725801"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-19_
+_**Última modificação do tópico:** 2012-06-19_
 
-Vários componentes do Lync Server 2013 exigem serviços de informações da Internet (IIS). Este tópico descreve os recursos específicos do IIS necessários para dar suporte ao Lync Server. Os tópicos desta seção descrevem os requisitos de componentes específicos para o IIS.
+Vários componentes do Lync Server 2013 exigem serviços de informações da Internet (IIS). Este tópico descreve os recursos específicos do IIS necessários para oferecer suporte ao Lync Server. Os tópicos desta seção descrevem os requisitos de componentes específicos para o IIS.
 
-Quando a função servidor Web (IIS) estiver habilitada no Windows Server 2008, vários serviços de função serão instalados por padrão. A tabela a seguir descreve os serviços de função adicionais que devem ser instalados quando a função do servidor Web (IIS) estiver habilitada no Windows Server 2008.
+Quando a função Servidor Web (IIS) está habilitada no Windows Server 2008, vários serviços de função são instalados por padrão. A tabela a seguir descreve os serviços de função adicionais que devem ser instalados quando a função Servidor Web (IIS) está habilitada no Windows Server 2008.
 
 
 <table>
@@ -55,19 +55,19 @@ Quando a função servidor Web (IIS) estiver habilitada no Windows Server 2008, 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Recursos HTTP Comuns</p></td>
-<td><p>Redirecionamento de HTTP</p></td>
+<td><p>Recursos de HTTP comuns</p></td>
+<td><p>Redirecionamento HTTP</p></td>
 </tr>
 <tr class="even">
-<td><p>Desenvolvimento do aplicativo</p></td>
+<td><p>Desenvolvimento de aplicativo</p></td>
 <td><p>ASP.NET</p></td>
 </tr>
 <tr class="odd">
-<td><p>Desenvolvimento do aplicativo</p></td>
+<td><p>Desenvolvimento de aplicativo</p></td>
 <td><p>Extensibilidade .NET</p></td>
 </tr>
 <tr class="even">
-<td><p>Desenvolvimento do aplicativo</p></td>
+<td><p>Desenvolvimento de aplicativo</p></td>
 <td><p>Extensões ISAPI</p></td>
 </tr>
 <tr class="odd">
@@ -75,12 +75,12 @@ Quando a função servidor Web (IIS) estiver habilitada no Windows Server 2008, 
 <td><p>Filtros ISAPI</p></td>
 </tr>
 <tr class="even">
-<td><p>Integridade e Diagnósticos</p></td>
+<td><p>Manutenção e diagnóstico</p></td>
 <td><p>Ferramentas de log</p></td>
 </tr>
 <tr class="odd">
 <td><p>Integridade e Diagnósticos</p></td>
-<td><p>Rastreamento</p></td>
+<td><p>Rastreia</p></td>
 </tr>
 <tr class="even">
 <td><p>Segurança</p></td>
@@ -112,7 +112,7 @@ Quando a função servidor Web (IIS) estiver habilitada no Windows Server 2008, 
 </thead>
 <tbody>
 <tr class="odd">
-<td>Se você estiver usando o IIS 7,0 em um sistema operacional Windows Server 2008, a instalação do Lync Server desabilitará a autenticação do modo kernel no IIS.</td>
+<td>Se você estiver usando o IIS 7,0 em um sistema operacional Windows Server 2008, a instalação do Lync Server desabilita a autenticação de modo kernel no IIS.</td>
 </tr>
 </tbody>
 </table>
@@ -124,7 +124,7 @@ Quando a função servidor Web (IIS) estiver habilitada no Windows Server 2008, 
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Requisitos de IIS para pools Front-End pools e servidores Standard Edition no Lync Server 2013](lync-server-2013-iis-requirements-for-front-end-pools-and-standard-edition-servers.md)
+  - [Requisitos de IIS para pools front-end e servidores Standard Edition no Lync Server 2013](lync-server-2013-iis-requirements-for-front-end-pools-and-standard-edition-servers.md)
 
 </div>
 

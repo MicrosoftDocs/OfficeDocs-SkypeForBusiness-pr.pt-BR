@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: processo de implantação para retirada de chamadas em grupo'
+title: 'Lync Server 2013: processo de implantação para recebimento de chamadas em grupo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541444
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 015aa2817b7d829d1714288182775b42ba2bb1f4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 20f583b330812eab8ea32ecd3c545445b0640fae
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762629"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038143"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-group-call-pickup-in-lync-server-2013"></a>Processo de implantação para retirada de chamadas em grupo no Lync Server 2013
+# <a name="deployment-process-for-group-call-pickup-in-lync-server-2013"></a>Processo de implantação do recebimento de chamadas em grupo no Lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41762629"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-25_
+_**Última modificação do tópico:** 2013-02-25_
 
-Esta seção fornece uma visão geral das etapas envolvidas na implantação da retirada de chamadas em grupo. Você deve implantar a edição Enterprise ou Standard Edition com o Enterprise Voice antes de configurar o recebimento de chamadas em grupo. Os componentes necessários para o recebimento de chamadas em grupo são instalados e habilitados durante a implantação do Enterprise Voice.
+Esta seção fornece uma visão geral das etapas envolvidas na implantação do recebimento de chamadas em grupo. Você deve implantar o Enterprise Edition ou Standard Edition com o Enterprise Voice antes de configurar o recebimento de chamadas em grupo. Os componentes necessários para o recebimento de chamadas em grupo são instalados e habilitados quando você implanta o Enterprise Voice.
 
-### <a name="group-call-pickup-deployment-process"></a>Processo de implantação do Recebimento de chamada de grupo
+### <a name="group-call-pickup-deployment-process"></a>Processo de implantação de recebimento de chamadas de grupo
 
 <table>
 <colgroup>
@@ -52,37 +52,37 @@ Esta seção fornece uma visão geral das etapas envolvidas na implantação da 
 <tr class="header">
 <th>Fase</th>
 <th>Etapas</th>
-<th>Grupos e funções necessários</th>
-<th>Documentação de Implantação</th>
+<th>Grupos e funções exigidos</th>
+<th>Documentação da implantação</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Habilitar a ferramenta SEFAUtil Resource Kit na topologia</p></td>
 <td><ol>
-<li><p>Use o cmdlet <strong>New-CsTrustedApplicationPool</strong> para criar um novo pool de aplicativo confiável.</p></li>
+<li><p>Use o cmdlet <strong>New-CsTrustedApplicationPool</strong> para criar um novo pool de aplicativos confiáveis.</p></li>
 <li><p>Use o cmdlet <strong>New-CsTrustedApplication</strong> para especificar a ferramenta SEFAUtil como aplicativo confiável.</p></li>
-<li><p>Execute o cmdlet <strong>Enable-CsTopology</strong> para ativar a topologia.</p></li>
-<li><p>Instale as ferramentas do Resource Kit em um servidor front-end que está no pool de aplicativos confiáveis criado na etapa 1.</p></li>
-<li><p>Verifique se o SEFAUtil está executando corretamente ao executá-lo para exibir as configurações de encaminhamento de chamada de um usuário na implantação.</p></li>
+<li><p>Execute o cmdlet <strong>Enable-CsTopology</strong> para habilitar a topologia.</p></li>
+<li><p>Instale as ferramentas do kit de recursos em um servidor front-end que esteja no pool de aplicativos confiáveis criado na etapa 1.</p></li>
+<li><p>Verifique se o SEFAUtil está funcionando corretamente executando-o para exibir as configurações de encaminhamento de chamadas de um usuário na implantação.</p></li>
 </ol></td>
 <td><p>RTCUniversalServerAdmins</p></td>
-<td><p><a href="lync-server-2013-deploy-the-sefautil-tool.md">Deploy the SEFAUtil tool in Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-deploy-the-sefautil-tool.md">Implantar a ferramenta SEFAUtil no Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Configure os intervalos de número para recebimento de chamada na tabela de órbita de estacionamento de chamada</p></td>
-<td><p>Use o cmdlet <strong>New-CSCallParkOrbit</strong> para criar intervalos de números de recebimento de chamadas na tabela órbitas do estacionamento de chamada e atribuir os intervalos de recebimento de chamada ao tipo GroupPickup.</p>
+<td><p>Configurar intervalos de números de recebimento de chamada na tabela de órbita de estacionamento de chamada</p></td>
+<td><p>Use o cmdlet <strong>New-CSCallParkOrbit</strong> para criar intervalos de números de recebimento de chamadas na tabela de órbitas do estacionamento de chamadas e atribua ao tipo de chamada os intervalos de GroupPickup.</p>
 <div>
 
 > [!NOTE]  
-> Você deve usar o Shell de gerenciamento do Lync Server para criar, modificar, remover e exibir os intervalos de números de retirada de chamadas em grupo na tabela órbita do estacionamento de chamada. Os intervalos de números de retirada de chamadas em grupo não estão disponíveis no painel de controle do Lync Server.
+> Você deve usar o Shell de gerenciamento do Lync Server para criar, modificar, remover e exibir intervalos de números de recebimento de chamadas em grupo na tabela de órbita de estacionamento de chamada. Os intervalos de números de recebimento de chamadas de grupo não estão disponíveis no painel de controle do Lync Server.
 
 
 </div>
 <div>
 
 > [!NOTE]  
-> Para uma integração perfeita aos planos de discagem existentes, os intervalos de número são normalmente configurados como um bloco de ramais virtuais. A atribuição dos números de Discagem Direta de Entrada (DID) como números de intervalos  na tabela de órbita de estacionamento de chamada não é suportada.
+> Para uma integração perfeita com planos de discagem existentes, os intervalos de números geralmente são configurados como um bloco de extensões virtuais. A atribuição de números DID (discagem direta interna) como números de intervalo na tabela de órbita de estacionamento de chamada não é suportada.
 
 
 </div></td>
@@ -90,25 +90,25 @@ Esta seção fornece uma visão geral das etapas envolvidas na implantação da 
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-configure-call-pickup-group-numbers.md">Configurar números de grupo de recebimento de chamadas no Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-configure-call-pickup-group-numbers.md">Configurar números de grupos de recebimento de chamadas no Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Atribuir um número de recebimento de chamadas aos usuários e habilitar o recebimento de chamadas em grupo para os usuários</p></td>
-<td><p>Use o parâmetro/enablegrouppickup na ferramenta do kit de recursos do SEFAUtil para habilitar o recebimento de chamadas em grupo e atribuir um número de recebimento de chamadas para os usuários.</p></td>
+<td><p>Atribuir um número de recebimento de chamada aos usuários e habilitar o recebimento de chamadas em grupo para os usuários</p></td>
+<td><p>Use o parâmetro/enablegrouppickup na ferramenta do kit de recursos do SEFAUtil para habilitar o recebimento de chamadas em grupo e atribuir um número de recebimento de chamada para os usuários.</p></td>
 <td><p>-</p></td>
 <td><p><a href="lync-server-2013-enable-group-call-pickup-for-users-and-assign-a-group-number.md">Habilitar o recebimento de chamadas em grupo para usuários no Lync Server 2013 e atribuir um número de grupo</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Notifique os usuários do número de recebimento de chamada atribuído e qualquer outro número de interesse</p></td>
+<td><p>Notificar os usuários sobre o número de recebimento de chamadas atribuído e qualquer outro número de interesse</p></td>
 <td><p>Como qualquer usuário pode recuperar uma chamada feita para um usuário de recebimento de chamada em grupo, os usuários podem querer monitorar mais de um grupo.</p></td>
 <td><p>-</p></td>
-<td><p><a href="lync-server-2013-communicate-group-call-pickup-assignment-to-users.md">Comunicar as atribuições de recebimento de chamadas em grupo aos usuários no Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-communicate-group-call-pickup-assignment-to-users.md">Comunicar as atribuições de recebimento de chamadas de grupo aos usuários no Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Verificar sua implantação de retirada de chamadas em grupo</p></td>
-<td><p>Teste fazer e receber chamadas para garantir que a configuração funcione conforme o esperado.</p></td>
+<td><p>Verificar a implantação do recebimento de chamadas em grupo</p></td>
+<td><p>Teste a colocação e recuperação de chamadas para garantir que a configuração funcione conforme o esperado.</p></td>
 <td><p>-</p></td>
-<td><p><a href="lync-server-2013-optional-verify-the-group-call-pickup-deployment.md">Adicionais Verificar a implantação da retirada de chamadas em grupo no Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-optional-verify-the-group-call-pickup-deployment.md">Opcion Verificar a implantação do recebimento de chamadas em grupo no Lync Server 2013</a></p></td>
 </tr>
 </tbody>
 </table>

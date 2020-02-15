@@ -1,5 +1,5 @@
 ---
-title: Resumo da porta – Federação do protocolo de presença e de mensagens extensíveis (XMPP)
+title: Resumo de porta-Federação de XMPP (Extensible Messaging and Presence Protocol)
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49105658
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a18129fce98b3bb9bc613f4fc752daadfb6c5ce
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 24bbe3d8e38c5226efa81a55f072f8216791b6a4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747611"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038403"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>Resumo de portas – Federação de protocolo de presença e mensagens extensíveis (XMPP) no Lync Server 2013
+# <a name="port-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>Resumo de porta-Federação XMPP (Extensible Messaging and Presence Protocol) no Lync Server 2013
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41747611"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-20_
+_**Última modificação do tópico:** 2012-10-20_
 
-As portas e protocolos definidos para o proxy de protocolo de presença e mensagens extensível (XMPP) implantadas no servidor de borda permitem comunicações do parceiro federado do XMPP com o servidor de borda e também permite a comunicação do servidor de borda com o XMPP parceiro federado. Uma regra também é definida no firewall de face interna do servidor front-end ou do pool de front-ends para o servidor de borda ou o pool de bordas.
+As portas e os protocolos definidos para o proxy XMPP (Extensible Messaging and Presence Protocol) implantado no servidor de borda permitem que as comunicações do parceiro federado do XMPP ao servidor de borda, além de permitir a comunicação do servidor de borda com o XMPP parceiro federado. Uma regra também é definida no firewall de face interna do servidor front-end ou do pool de front-ends para o servidor de borda ou o pool de borda.
 
 <div>
 
-## <a name="firewall-summary-for-extensible-messaging-and-presence-protocol"></a>Resumo de firewall para mensagens extensíveis e protocolo de presença
+## <a name="firewall-summary-for-extensible-messaging-and-presence-protocol"></a>Resumo de Firewall para protocolo XMPP (Extensible Messaging and Presence Protocol)
 
 
 <table>
@@ -53,8 +53,8 @@ As portas e protocolos definidos para o proxy de protocolo de presença e mensag
 </colgroup>
 <thead>
 <tr class="header">
-<th>Protocolo/TCP ou UDP/porta</th>
-<th>Fonte (endereço IP)</th>
+<th>Protocolo/TCP ou UDP/Porta</th>
+<th>Origem (endereço IP)</th>
 <th>Destino (endereço IP)</th>
 <th>Comentários</th>
 </tr>
@@ -62,21 +62,21 @@ As portas e protocolos definidos para o proxy de protocolo de presença e mensag
 <tbody>
 <tr class="odd">
 <td><p>XMPP/TCP/5269</p></td>
-<td><p>Qualquer um</p></td>
-<td><p>Endereço IP da interface do serviço de borda do Access</p></td>
-<td><p>Porta de comunicação de servidor para servidor padrão para XMPP. Permite a comunicação com o servidor de borda XMPP o proxy de parceiros de XMPP federado</p></td>
+<td><p>Qualquer tamanho</p></td>
+<td><p>Endereço IP da interface de serviço de borda de acesso</p></td>
+<td><p>Porta padrão de comunicação entre servidores para XMPP. Permite a comunicação com o servidor de borda XMPP proxy de parceiros federados do XMPP</p></td>
 </tr>
 <tr class="even">
 <td><p>XMPP/TCP/5269</p></td>
-<td><p>Endereço IP da interface do serviço de borda do Access</p></td>
-<td><p>Qualquer um</p></td>
-<td><p>Porta de comunicação de servidor para servidor padrão para XMPP. Permite a comunicação do proxy do servidor de borda XMPP com parceiros do XMPP federado</p></td>
+<td><p>Endereço IP da interface de serviço de borda de acesso</p></td>
+<td><p>Qualquer tamanho</p></td>
+<td><p>Porta padrão de comunicação entre servidores para XMPP. Permite a comunicação do proxy do servidor de borda XMPP com parceiros federados XMPP</p></td>
 </tr>
 <tr class="odd">
 <td><p>XMPP/MTLS/23456</p></td>
-<td><p>Qualquer um</p></td>
-<td><p>IP de interface do servidor de borda interna</p></td>
-<td><p>Tráfego de XMPP interno do Gateway XMPP no servidor front-end ou do pool de front-end para o servidor de borda</p></td>
+<td><p>Qualquer tamanho</p></td>
+<td><p>IP da interface de servidor de borda interna</p></td>
+<td><p>Tráfego XMPP interno do Gateway XMPP no servidor front-end ou no pool de front-ends para o servidor de borda</p></td>
 </tr>
 </tbody>
 </table>
@@ -89,10 +89,10 @@ As portas e protocolos definidos para o proxy de protocolo de presença e mensag
 ## <a name="see-also"></a>Confira também
 
 
-[Exemplo de configuração de XMPP no Lync Server 2013 – federação XMPP com Google Talk](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)  
+[Exemplo de configuração de XMPP no Lync Server 2013 – Federação do XMPP com Google Talk](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)  
 
 
-[Gerenciar parceiros XMPP federados no Lync Server 2013](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
+[Gerenciar parceiros federados do XMPP no Lync Server 2013](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
   
 
 </div>

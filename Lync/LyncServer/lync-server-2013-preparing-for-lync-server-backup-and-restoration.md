@@ -12,16 +12,16 @@ ms:contentKeyID: 51541442
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1fd0262e769cbcfb140f0cdceb21a1297bae0a58
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f28d1bbc1b0879da04755840af3aa2d15dabb5b3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747421"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042428"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41747421"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-17_
+_**Última modificação do tópico:** 2013-02-17_
 
-Os tópicos a seguir descrevem as configurações, a configuração e outros dados dos quais você precisa fazer backup para poder restaurar servidores e bancos de dados no caso de falha ou falha.
+Os tópicos a seguir descrevem as configurações, a configuração e outros dados dos quais você precisa fazer backup, para poder restaurar servidores e bancos de dados no caso de uma falha ou de uma interrupção.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Requisitos de backup e restauração no Lync Server 2013: dados](lync-server-2013-backup-and-restoration-requirements-data.md)
+  - [Requisitos de backup e restauração no Lync Server 2013: data](lync-server-2013-backup-and-restoration-requirements-data.md)
 
   - [Requisitos de backup e restauração no Lync Server 2013: ferramentas e permissões](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md)
 
   - [Visão geral do processo de backup e restauração do Lync Server 2013](lync-server-2013-backup-and-restoration-process-overview.md)
 
-  - [Desenvolvendo uma estratégia de backup e restauração e um plano para o Lync Server 2013](lync-server-2013-developing-a-backup-and-restoration-strategy-and-plan.md)
+  - [Desenvolver uma estratégia de backup e restauração e planejar o Lync Server 2013](lync-server-2013-developing-a-backup-and-restoration-strategy-and-plan.md)
 
   - [Práticas recomendadas para backup e restauração do Lync Server 2013](lync-server-2013-best-practices-for-backup-and-restoration.md)
 

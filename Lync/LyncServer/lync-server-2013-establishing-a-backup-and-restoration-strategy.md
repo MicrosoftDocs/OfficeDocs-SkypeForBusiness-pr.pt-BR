@@ -12,20 +12,20 @@ ms:contentKeyID: 51541532
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ee1a13667e28ad374f538d61f6cfd941d31fade
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 35674a1eee5106dd20b64060d4f039cdddc45236
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735252"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042048"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="establishing-a-backup-and-restoration-strategy-for-lync-server-2013"></a>Como estabelecer uma estratégia de backup e restauração para o Lync Server 2013
+# <a name="establishing-a-backup-and-restoration-strategy-for-lync-server-2013"></a>Estabelecendo uma estratégia de backup e restauração para o Lync Server 2013
 
 </div>
 
@@ -35,63 +35,63 @@ ms.locfileid: "41735252"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-03-26_
+_**Última modificação do tópico:** 2013-03-26_
 
-Antes de poder desenvolver um plano de backup e restauração para o Lync Server, você precisará desenvolver uma estratégia que se adapte às metas da sua organização. Para desenvolver uma estratégia eficaz de backup e restauração, será necessário:
+Antes de poder desenvolver um plano de backup e restauração para o Lync Server, você precisa desenvolver uma estratégia que se ajuste às metas da sua organização. Para desenvolver uma estratégia de backup e restauração eficaz, você precisará:
 
-  - Estabeleça prioridades de negócios.
+  - Estabelecer prioridades de negócios.
 
-  - Identifique os requisitos de backup e restauração.
+  - Identificar os requisitos de backup e restauração.
 
 <div>
 
-## <a name="establishing-business-priorities"></a>Estabelecendo prioridades de negócios
+## <a name="establishing-business-priorities"></a>Estabelecer as prioridades comerciais
 
-Avaliar as prioridades comerciais da sua organização. Geralmente, as principais prioridades de negócios que afetam a estratégia de backup e restauração são as seguintes:
+Avaliar as prioridades comerciais da sua organização. Geralmente, as prioridades comerciais primárias que afetam sua estratégia de backup e restauração são as seguintes:
 
-  - Requisitos de continuidade de negócios
+  - Requisitos de continuidade comercial
 
-  - Integridade dos dados
+  - Plenitude de dados
 
-  - Criticalidade de dados
+  - Criticidade de dados
 
   - Requisitos de portabilidade
 
   - Restrições de custo
 
-Necessidades comerciais, como estes ajudam a determinar os contratos de nível de serviço (SLAs) que você desenvolve com seus clientes. Contratos de nível de serviço influenciam bastante sua estratégia de backup e recuperação.
+Necessidades comerciais, como estas ajudam a determinar os contratos de nível de serviço (SLAs) que você desenvolve com seus clientes. Os contratos de nível de serviço influenciam muito sua estratégia de backup e recuperação.
 
 </div>
 
 <div>
 
-## <a name="identifying-backup-and-restoration-requirements"></a>Identificar requisitos de backup e restauração
+## <a name="identifying-backup-and-restoration-requirements"></a>Identificar os requisitos de backup e restauração
 
-Suas prioridades de negócios e contratos de nível de serviço atuam para determinar os requisitos da sua organização para o backup e a restauração do Lync Server. Identifique e documente seus requisitos para o seguinte:
+Suas prioridades de negócios e contratos de nível de serviço atuam na determinação dos requisitos de sua organização para o backup e a restauração do Lync Server. Identifique e documente seus requisitos para o seguinte:
 
-  - **Frequência de backups**   para obter detalhes sobre as práticas recomendadas para a frequência de backup, consulte [práticas recomendadas de backup e restauração do Lync Server 2013](lync-server-2013-best-practices-for-backup-and-restoration.md).
+  - **Frequência de backups**   para obter detalhes sobre as práticas recomendadas para frequência de backup, consulte [práticas recomendadas de backup e restauração para o Lync Server 2013](lync-server-2013-best-practices-for-backup-and-restoration.md).
 
-  - **As ferramentas**   de backup e restauração incluem quem deve usar as ferramentas e em quais computadores. Para obter detalhes sobre as ferramentas discutidas neste tópico e as permissões necessárias, consulte [requisitos de backup e restauração no Lync Server 2013: ferramentas e permissões](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).
+  - **As ferramentas**   de backup e restauração incluem quem é usar as ferramentas e em quais computadores. Para obter detalhes sobre as ferramentas discutidas neste tópico e permissões necessárias, consulte [requisitos de backup e restauração no Lync Server 2013: ferramentas e permissões](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).
 
-  - **Local de backup**   identifique se os backups são mantidos localmente ou remotamente, levando a segurança e acessibilidade em consideração. Especifique a mídia a ser usada para os backups.
+  - **Local de backup**   identifique se os backups são mantidos local ou remotamente, levando a segurança e acessibilidade em consideração. Especifique a mídia a ser usada para os backups.
 
-  - **Os requisitos**   de hardware e software identificam e documentam os requisitos específicos de hardware e software, incluindo o hardware para armazenamento de backup e restauração de componentes específicos e qualquer software e conectividade de rede necessária para dar suporte a backup e restauração. Ao desenvolver seus requisitos de hardware e software, tenha em mente os vários cenários de restauração que se seguem.
+  - **Os requisitos**   de hardware e software identificam e documentam os requisitos específicos de hardware e software, incluindo o hardware para o armazenamento de backup e a restauração de componentes específicos e qualquer software e conectividade de rede necessários para dar suporte a backup e restauração. Conforme você desenvolve seus requisitos de hardware e software, lembre-se dos vários cenários de restauração a seguir.
 
-  - **Cenários de restauração**   aqui estão os processos de restauração dos seguintes cenários:
+  - **Cenários de restauração**   aqui estão os processos de restauração para os seguintes cenários:
     
-      - Um pool de servidores do Lync falha. Esse cenário requer a recriação de cada servidor no pool.
+      - Um pool do Lync Server falha. Este cenário exige a recompilação de cada servidor no pool.
     
-      - Um servidor Standard Edition falha. Esse cenário requer a recriação do servidor em um computador novo ou limpo e a restauração de bancos de dados.
+      - Um servidor Standard Edition falha. Este cenário exige a recompilação do servidor em um computador novo ou limpo e a restauração dos bancos de dados.
     
-      - Perda do repositório de gerenciamento central. No mínimo, esse cenário exige a restauração e a publicação do repositório de gerenciamento central.
+      - Perda do repositório de gerenciamento central. No mínimo, esse cenário requer a restauração e publicação do repositório de gerenciamento central.
     
-      - Perda de um servidor back-end quando o repositório de gerenciamento central ainda estiver funcionando normalmente. Esse cenário requer a recriação do servidor em um computador novo ou limpo e a restauração de bancos de dados.
+      - Perda de um servidor back-end quando o repositório de gerenciamento central ainda está funcionando normalmente. Este cenário exige a recompilação do servidor em um computador novo ou limpo e a restauração dos bancos de dados.
     
-      - Um servidor que é membro de um pool do Lync Server falha. Esse cenário requer a recriação do servidor em um computador novo ou limpo.
+      - Um servidor que é membro de um pool do Lync Server falha. Este cenário exige a recompilação do servidor em um computador novo ou limpo.
     
-      - Um repositório de arquivos falha. Esse cenário requer a restauração do servidor de arquivos ou do cluster de arquivos.
+      - Um repositório de arquivos falha. Este cenário exige a restauração do servidor de arquivos ou cluster de arquivos.
     
-      - Falha em um banco de dados de arquivamento, monitoramento ou de chat persistente. Esse cenário exige a recriação de bancos de dados e, se os dados forem críticos para a sua organização, a restauração dos dados. O arquivamento, o monitoramento e os dados de chat persistentes não são necessários para ter backup e execução do Lync Server.
+      - Um banco de dados de chat de arquivamento, monitoramento ou persistente falha. Este cenário exige a recriação dos bancos de dados e, se os dados são fundamentais para sua organização, restaurar os dados. Os dados de arquivamento, monitoramento e chat persistente não são necessários para fazer o backup e a execução do Lync Server.
 
 </div>
 

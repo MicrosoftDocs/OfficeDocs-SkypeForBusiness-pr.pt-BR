@@ -12,16 +12,16 @@ ms:contentKeyID: 49733883
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c9c9d9c272a0646395a907976056e460cf8fd84
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 05424f079d729ad7f6e8b995ee64dfcde8d73d70
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730483"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037953"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41730483"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-30_
+_**Última modificação do tópico:** 2012-09-30_
 
-Os requisitos da infraestrutura do Lync Server 2013 para conferências são os mesmos para a implantação do Lync Server 2013. Para obter detalhes, consulte [determinando os requisitos de infraestrutura do Lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md) na documentação de planejamento.
+Os requisitos de infraestrutura do Lync Server 2013 para conferência são os mesmos de implantação do Lync Server 2013. Para obter detalhes, consulte [determinando seus requisitos de infraestrutura para o Lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md) na documentação de planejamento.
 
-É importante que você tenha a largura de banda de mídia necessária para manipular o tráfego de mídia gerado pela conferência. Para obter detalhes que você pode usar para calcular a largura de banda necessária, consulte [requisitos de largura de banda de rede para tráfego de mídia no Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md). Para obter detalhes sobre como limitar a largura de banda, consulte [criando ou modificando perfis de política de largura de banda no Lync Server 2013](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md). Para obter detalhes sobre requisitos de infraestrutura, consulte [requisitos de infraestrutura de rede para o Lync Server 2013](lync-server-2013-network-infrastructure-requirements.md).
+É importante que você tenha a largura de banda de mídia necessária para o tráfego de mídia gerado pela conferência. Para obter detalhes que você pode usar para calcular a largura de banda necessária, confira [requisitos de largura de banda de rede para tráfego de mídia no Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md). Para obter detalhes sobre como limitar a largura de banda, consulte [criando ou modificando perfis de política de largura de banda no Lync Server 2013](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md). Para obter detalhes sobre os requisitos de infraestrutura, consulte [Network Infrastructure Requirements for Lync Server 2013](lync-server-2013-network-infrastructure-requirements.md).
 
-Para usar os recursos de conferência, o Lync Server 2013 requer que determinadas portas estejam abertas. Para obter detalhes sobre requisitos de portabilidade, consulte [portas e protocolos para servidores internos no Lync Server 2013](lync-server-2013-ports-and-protocols-for-internal-servers.md). Para obter detalhes sobre a configuração de portas, consulte [Configurando intervalos de porta no Lync Server 2013 para servidores de conferência, aplicativo e mediação](lync-server-2013-configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md).
+Para usar os recursos de conferência, o Lync Server 2013 requer que determinadas portas estejam abertas. Para obter detalhes sobre os requisitos de porta, consulte [ports and Protocols for Internal Servers in Lync Server 2013](lync-server-2013-ports-and-protocols-for-internal-servers.md). Para obter detalhes sobre como configurar portas, consulte [Configurando intervalos de portas no Lync Server 2013 para seus servidores de conferência, aplicativo e de mediação](lync-server-2013-configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md).
 
 <div>
 

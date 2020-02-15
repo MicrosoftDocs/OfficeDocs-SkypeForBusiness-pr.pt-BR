@@ -12,20 +12,20 @@ ms:contentKeyID: 49105663
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16430849221631d9b540f5ee51b0a07758a38b05
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 87a51e2030c17e7ed228a75b474b168a74924cb2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725051"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038373"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>Resumo de portabilidade-conectividade de mensagens instantâneas públicas no Lync Server 2013
+# <a name="port-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>Resumo de porta-conectividade de mensagens instantâneas públicas no Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41725051"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-16_
+_**Última modificação do tópico:** 2013-02-16_
 
-Para configurar o seu firewall para portas e protocolos necessários para dar suporte à conectividade de mensagens instantâneas públicas, primeiro Observe que SIP/MTLS/TCP 5061 é bidirecional para a conta da capacidade dos contatos no provedor de IM públicos entrarem em contato com os clientes do Lync ou para que o Lync entre em contato com contatos públicos de mensagens instantâneas.
+Para configurar seu firewall para portas e protocolos necessários para dar suporte à conectividade de mensagens instantâneas públicas, primeiro Observe que SIP/MTLS/TCP 5061 é bidirecional para considerar a capacidade de os contatos no provedor de IM público entrarem em contato com os clientes do Lync ou para o Lync entrarem em contato com contatos públicos de IM.
 
-O Windows Live Messenger pode participar de comunicações de áudio/vídeo com clientes do Lync. Isso conta com uma configuração de protocolo e porta de firewall muito parecidas que você normalmente teria no firewall para dar suporte a clientes Lync como usuários externos.
+O Windows Live Messenger pode participar de comunicações de áudio/vídeo com clientes Lync. Isso conta para a porta de firewall muito parecida e a configuração de protocolo que você normalmente teria no firewall para dar suporte aos clientes do Lync como usuários externos.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Mais do que nunca, o Lync é uma ferramenta poderosa para a conexão entre organizações e pessoas ao redor do mundo. A Federação com o Windows Live Messenger não requer mais licenças de usuário/dispositivo além da licença de acesso de cliente padrão do Lync (CAL). A Federação do Skype será adicionada a essa lista, permitindo que os usuários do Lync atinjam centenas de milhões de pessoas com mensagens instantâneas e voz.<BR>A Federação com contatos de cliente do Messenger será encerrada oficialmente em 15 de março de 2013, exceto para a China continental. O Skype se tornará o cliente de Federação para usuários federados que usaram anteriormente o Messenger.
+> Mais do que nunca, o Lync é uma poderosa ferramenta para a conexão entre organizações e pessoas em todo o mundo. A Federação com o Windows Live Messenger não requer nenhuma licença adicional de usuário/dispositivo além da licença de acesso para cliente (CAL) do Lync Standard. A Federação do Skype será adicionada à lista, permitindo que os usuários do Lync atinjam centenas de milhões de pessoas com IM e voz.<BR>A Federação com contatos do cliente do Messenger será oficialmente termina em 15 de março de 2013, exceto para a China continental. O Skype se tornará o cliente de Federação para usuários federados que usavam o Messenger anteriormente.
 
 
 
@@ -53,7 +53,7 @@ O Windows Live Messenger pode participar de comunicações de áudio/vídeo com 
 
 <div>
 
-## <a name="firewall-summary--public-instant-messaging-connectivity"></a>Resumo do Firewall – Conectividade de mensagens instantâneas públicas
+## <a name="firewall-summary--public-instant-messaging-connectivity"></a>Resumo do firewall – Conectividade pública de mensagens instantâneas
 
 
 <table>
@@ -65,48 +65,48 @@ O Windows Live Messenger pode participar de comunicações de áudio/vídeo com 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Função/protocolo/TCP ou UDP/porta</th>
-<th>Endereço IP de Origem</th>
-<th>Endereço IP de Destino</th>
-<th>Notas</th>
+<th>Função/Protocolo/TCP ou UDP/Porta</th>
+<th>Endereço IP de origem</th>
+<th>Endereço IP de destino</th>
+<th>Observações</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>/TCP/5061 de acesso/SIP (MTLS)</p></td>
-<td><p>Parceiros de conectividade de mensagens de chat públicas</p></td>
+<td><p>Parceiros de conectividade pública de IM</p></td>
 <td><p>Interface de acesso do servidor de borda</p></td>
-<td><p>Para conectividade de mensagem de chat pública e federada que usa SIP.</p></td>
+<td><p>Para conectividade federada e pública de IM que usam SIP.</p></td>
 </tr>
 <tr class="even">
 <td><p>/TCP/5061 de acesso/SIP (MTLS)</p></td>
 <td><p>Interface de acesso do servidor de borda</p></td>
-<td><p>Parceiros de conectividade de mensagens de chat públicas</p></td>
-<td><p>Para conectividade de mensagem de chat pública e federada que usa SIP.</p></td>
+<td><p>Parceiros de conectividade pública de IM</p></td>
+<td><p>Para conectividade federada e pública de IM que usam SIP.</p></td>
 </tr>
 <tr class="odd">
 <td><p>/TCP/443 de acesso/SIP (TLS)</p></td>
 <td><p>Clientes</p></td>
 <td><p>Interface de acesso do servidor de borda</p></td>
-<td><p>Tráfego SIP do cliente ao servidor para o acesso do usuário externo.</p></td>
+<td><p>Tráfego SIP de cliente para servidor para acesso de usuário externo.</p></td>
 </tr>
 <tr class="even">
-<td><p>A/V/RTP/TCP/50.000 A 59.999</p></td>
+<td><p>A/V/RTP/TCP/50000-59.999</p></td>
 <td><p>Interface de acesso do servidor de borda</p></td>
-<td><p>Clientes do Live Messenger</p></td>
-<td><p>Usado para sessões de A/V com o Windows Live Messenger se a conectividade de mensagem de chat pública estiver configurada.</p></td>
+<td><p>Clientes Live Messenger</p></td>
+<td><p>Usado para sessões A/V com o Windows Live Messenger se a conectividade pública de IM estiver configurada.</p></td>
 </tr>
 <tr class="odd">
 <td><p>A/V/STUN, MSTURN/UDP/3478</p></td>
 <td><p>Interface de acesso do servidor de borda</p></td>
-<td><p>Clientes do Live Messenger</p></td>
-<td><p>Necessário para conectividade de IM pública com o Windows Live Messenger.</p></td>
+<td><p>Clientes Live Messenger</p></td>
+<td><p>Necessário para conectividade pública de IM com o Windows Live Messenger.</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V/STUN, MSTURN/UDP/3478</p></td>
-<td><p>Clientes do Live Messenger</p></td>
+<td><p>Clientes Live Messenger</p></td>
 <td><p>Interface de acesso do servidor de borda</p></td>
-<td><p>Necessário para conectividade de IM pública com o Windows Live Messenger.</p></td>
+<td><p>Necessário para conectividade pública de IM com o Windows Live Messenger.</p></td>
 </tr>
 </tbody>
 </table>
@@ -119,8 +119,8 @@ O Windows Live Messenger pode participar de comunicações de áudio/vídeo com 
 ## <a name="see-also"></a>Confira também
 
 
-[Cenários de acesso de usuário externo no Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md)  
-[Determinar firewall A/V externo e requisitos de porta para Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)  
+[Cenários para acesso de usuário externo no Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md)  
+[Determinar firewall A/V externo e requisitos de porta para o Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: testando conferência UCWA'
+title: 'Lync Server 2013: testar conferência UCWA'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969610
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9496b2a860f0a8272d6eb98df6a2c897aa245ec9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8c5daad2d43cf5a7e61dd0e87fac79eb98b9c82e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745391"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038103"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-ucwa-conferencing-in-lync-server-2013"></a>Testar a conferência do UCWA no Lync Server 2013
+# <a name="testing-ucwa-conferencing-in-lync-server-2013"></a>Testando a conferência do UCWA no Lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745391"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-11-03_
+_**Última modificação do tópico:** 2014-11-03_
 
 
 <table>
@@ -45,17 +45,17 @@ _**Tópico da última modificação:** 2014-11-03_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Cronograma de verificação</p></td>
-<td><p>Diário</p></td>
+<td><p>Agenda de verificação</p></td>
+<td><p>Diariamente</p></td>
 </tr>
 <tr class="even">
 <td><p>Ferramenta de teste</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissões necessárias</p></td>
-<td><p>Quando executado localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.</p>
-<p>Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet <strong>Test-CsUcwaConference</strong> . Para ver uma lista de todas as funções RBAC que podem usar esse cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</p>
+<td><p>Permissões obrigatórias</p></td>
+<td><p>Ao executar localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.</p>
+<p>Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet <strong>Test-CsUcwaConference</strong> . Para ver uma lista de todas as funções RBAC que podem usar este cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsUcwaConference&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,11 +66,11 @@ _**Tópico da última modificação:** 2014-11-03_
 
 ## <a name="description"></a>Descrição
 
-O cmdlet **Test-CsUcwaConference** verifica se um par de usuários de teste podem agendar, ingressar e conduzir uma conferência online usando a API da Web de comunicação unificada (UCWA). Para fazer isso, o cmdlet usa o serviço de tíquete da Web do Lync Server para autenticar os dois usuários de teste e registrá-los no Lync Server. Em seguida, o cmdlet inicia uma conferência usando as credenciais do organizador e convida o participante a ingressar na reunião. Depois de ingressar na reunião, o cmdlet **Test-CsUcwaConference** verifica se os usuários podem fazer coisas como mensagens instantâneas do Exchange e conduzir pools e, em seguida, desconectar a conferência e cancelar o registro dos dois usuários de teste. A conferência agendada também será excluída quando o teste for concluído.
+O cmdlet **Test-CsUcwaConference** verifica se um par de usuários de teste pode agendar, participar e, em seguida, conduzir uma conferência online usando a API Web de comunicações unificadas (UCWA). Para fazer isso, o cmdlet usa o serviço de tíquete da Web do Lync Server para autenticar os dois usuários de teste e registrá-los no Lync Server. O cmdlet então inicia uma conferência usando as credenciais do organizador e convida o participante para entrar na reunião. Depois que a reunião é associada, o cmdlet **Test-CsUcwaConference** verifica se os usuários podem fazer coisas como mensagens instantâneas do Exchange e pools de condução e, em seguida, desconecta a conferência e cancela o registro dos dois usuários de teste. A conferência agendada também será excluída quando o teste for concluído.
 
-O cmdlet **Test-CsUcwaConference** também pode ser usado para determinar se usuários anônimos podem ingressar em conferências online.
+O cmdlet **Test-CsUcwaConference** também pode ser usado para determinar se os usuários anônimos podem participar de conferências online.
 
-Observe que o cmdlet **Test-CsUcwaConference** não deve ser executado em um pool do Microsoft Lync Server 2010, a menos que o UCWA tenha sido instalado nesse pool. Se o UCWA não tiver sido instalado, a chamada para o cmdlet **Test-CsUcwaConference** irá falhar.
+Observe que o cmdlet **Test-CsUcwaConference** não deve ser executado em um pool do Microsoft Lync Server 2010, a menos que o UCWA tenha sido instalado nesse pool. Se o UCWA não tiver sido instalado, a chamada para o cmdlet **Test-CsUcwaConference** falhará.
 
 </div>
 
@@ -78,13 +78,13 @@ Observe que o cmdlet **Test-CsUcwaConference** não deve ser executado em um poo
 
 ## <a name="running-the-test"></a>Executar o teste
 
-O comando mostrado no exemplo 1 verifica se um par de usuários de teste podem participar de uma conferência do UCWA no pool atl-cs-001.litwareinc.com. Observe que esse comando falhará se você não tiver predefinido um par de usuários de teste de configuração de monitoramento de integridade para atl-cs-001.litwareinc.com.
+O comando mostrado no Exemplo 1 verifica se um par de usuários de teste pode participar de uma conferência de UCWA no pool atl-cs-001.litwareinc.com. Observe que esse comando falha se você não predefinir um par de usuários de teste de configuração de monitoramento de integridade para o atl-cs-001.litwareinc.com.
 
     Test-CsUcwaConference -TargetFqdn "atl-cs-001.litwareinc.com"
 
-Os comandos mostrados no exemplo 2 testam a capacidade de um par de usuários\\(litwareinc pilar\\e litwareinc kenmyer) para participar em uma conferência UCWA. Para fazer isso, o primeiro comando do exemplo usa o cmdlet Get-Credential para criar um objeto de credencial da interface de linha de comando do Windows PowerShell que contém o nome e a senha do pilar do usuário Alverca. (Como o nome de logon,\\litwareinc pilar, foi incluído como um parâmetro, a caixa de diálogo solicitação de credenciais do Windows PowerShell exige que o administrador insira a senha para a conta pilar Alverca.) O objeto de credenciais resultante é armazenado em uma variável chamada $cred 1. O segundo comando faz a mesma coisa, desta vez retornando um objeto Credential para a conta Ken Myer.
+Os comandos mostrados no exemplo 2 testam a capacidade de um par de usuários\\(litwareinc pilar\\e litwareinc kenmyer) para participar de uma conferência do UCWA. Para fazer isso, o primeiro comando no exemplo usa o cmdlet Get-Credential para criar um objeto de credencial da interface de linha de comando do Windows PowerShell que contenha o nome e a senha do usuário pilar Ackerman. (Como o nome de logon,\\litwareinc pilar, foi incluído como um parâmetro, a caixa de diálogo de solicitação de credencial do Windows PowerShell só exige que o administrador insira a senha da conta pilar Ackerman.) O objeto de credenciais resultante é armazenado em uma variável chamada $cred 1. O segundo comando fará o mesmo, retornando, desta vez, um objeto de credencial para a conta de Ken Myer.
 
-Com os dois objetos de credenciais em mãos, o terceiro comando do exemplo determina se os dois usuários podem participar de uma conferência do UCWA. Para executar essa tarefa, o cmdlet **Test-CsUcwaConference** é chamado, juntamente com os seguintes parâmetros: TargetFqdn (o FQDN do pool de registrador); OrganizerSipAddress (o endereço SIP para o organizador da reunião); OrganizerCredential (o objeto do Windows PowerShell que contém as credenciais para esse mesmo usuário); ParticipantSipAddress (o endereço SIP para o outro usuário de teste); e ParticipantCredential (o objeto da interface de linha de comando do Windows PowerShell que contém as credenciais do outro usuário).
+Com os dois objetos de credencial em mãos, o terceiro comando no exemplo determina se os dois usuários podem participar de uma conferência do UCWA. Para executar essa tarefa, o cmdlet **Test-CsUcwaConference** é chamado, junto com os seguintes parâmetros: TargetFqdn (o FQDN do pool de registrador); OrganizerSipAddress (o endereço SIP do organizador da reunião); OrganizerCredential (o objeto Windows PowerShell que contém as credenciais desse mesmo usuário); ParticipantSipAddress (o endereço SIP para o outro usuário de teste); e ParticipantCredential (o objeto de interface de linha de comando do Windows PowerShell que contém as credenciais do outro usuário).
 
     $cred1 = Get-Credential "litwareinc\pilar"
     $cred2 = Get-Credential "litwareinc\kenmyer"
@@ -94,9 +94,9 @@ Com os dois objetos de credenciais em mãos, o terceiro comando do exemplo deter
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Determinação do sucesso ou falha
+## <a name="determining-success-or-failure"></a>Determinando o sucesso ou a falha
 
-Se a conferência estiver configurada corretamente, você receberá um resultado semelhante a isso, com a propriedade Result marcada como **Success:**
+Se a conferência estiver configurada corretamente, você receberá uma saída semelhante a esta, com a propriedade Result marcada como **Success:**
 
 FQDN de destino: atl-cs-001.litwareinc.com
 
@@ -110,17 +110,17 @@ Latência: 00:00:14.9862716
 
 Mensagem de erro:
 
-Correto
+Diagnóstico
 
-Se os usuários especificados não conseguirem usar a conferência, o resultado será mostrado como uma **falha**, e informações adicionais serão gravadas nas propriedades de erro e diagnóstico:
+Se os usuários especificados não puderem usar conferências, o resultado será mostrado como **falha**, e informações adicionais serão registradas nas propriedades de erro e diagnóstico:
 
-Aviso: falha ao ler o número da porta do registrador para o número da porta de dados totalmente qualificado
+Aviso: falha ao ler o número da porta do registrador para o fornecido totalmente qualificado
 
-FQDN (nome de domínio). Usando o número da porta do registrador padrão. Extremamente
+FQDN (nome de domínio). Usando o número da porta do registrador padrão. Exceções
 
-System. InvalidOperationException: nenhum cluster correspondente localizado na topologia.
+System. InvalidOperationException: nenhum cluster correspondente encontrado na topologia.
 
-como
+por
 
 Microsoft. RTC. Management. SyntheticTransactions. SipSyntheticTransaction. TryRetri
 
@@ -128,7 +128,7 @@ eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
 Test-CsUcwaConference: não há um usuário de teste atribuído para
 
-\[LyncTest.SelfHost.Corp.Microsoft.com\]. Verifique a configuração do usuário do teste.
+\[LyncTest.SelfHost.Corp.Microsoft.com\]. Verifique a configuração do usuário de teste.
 
 Na linha: 1 caractere: 1
 
@@ -152,11 +152,11 @@ eticTransactions.TestUcwaConferenceCmdlet
 
 Aqui estão alguns motivos comuns pelos quais **Test-CsUcwaConference** pode falhar:
 
-  - Um valor de parâmetro incorreto foi fornecido. Se usado, os parâmetros opcionais devem ser configurados corretamente ou o teste falhará. Execute o comando novamente sem os parâmetros opcionais e veja se isso é bem-sucedido.
+  - Um valor de parâmetro incorreto foi fornecido. Se usado, os parâmetros opcionais devem ser configurados corretamente ou o teste falhará. Execute novamente o comando sem os parâmetros opcionais e veja se isso é bem-sucedido.
 
-  - A capacidade de conduzir uma conferência depende da política de conferência que foi atribuída ao usuário que organizou a conferência (no caso do cmdlet **Test-CsUcwaConference** , que é o "remetente"). Se o organizador não puder incluir atividades colaborativas em sua reunião (por exemplo, se a política de conferência tiver a propriedade EnableDataCollaboration definida como false), o cmdlet **Test-CsUcwaConference** falhará.
+  - A capacidade de realizar uma conferência depende da política de conferência que foi atribuída ao usuário que organizou a conferência (no caso do cmdlet **Test-CsUcwaConference** , que é o "remetente"). Se o organizador não tiver permissão para incluir atividades colaborativas em sua reunião (por exemplo, se a política de conferência tiver a propriedade EnableDataCollaboration definida como false), o cmdlet **Test-CsUcwaConference** falhará.
 
-  - Esse comando falhará se o servidor de borda estiver configurado incorretamente ou ainda não foi implantado.
+  - Esse comando falhará se o servidor de borda estiver configurado incorretamente ou ainda não tiver sido implantado.
 
 </div>
 

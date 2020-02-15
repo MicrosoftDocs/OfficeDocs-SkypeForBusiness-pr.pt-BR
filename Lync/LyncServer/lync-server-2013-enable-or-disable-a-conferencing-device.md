@@ -12,16 +12,16 @@ ms:contentKeyID: 51803981
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a4a0f582f57d4e096001d508d3983facdded74c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3eb79f77bd6e99d36b1a6c9c9feb67f697e40f1d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736221"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042578"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41736221"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-20_
+_**Última modificação do tópico:** 2013-02-20_
 
-Habilite e desabilite um dispositivo de conferência usando o cmdlet **Enable-CsMeetingRoom** e o cmdlet **Disable-CsMeetingRoom** . Esses cmdlets podem ser executados no Shell de gerenciamento do Lync Server 2013 ou em uma sessão remota do Windows PowerShell.
+Habilite e desabilite um dispositivo de conferência usando o cmdlet **Enable-CsMeetingRoom** e o cmdlet **Disable-CsMeetingRoom** . Esses cmdlets podem ser executados a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell.
 
 <div>
 
 
 > [!NOTE]  
-> Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Microsoft Lync Server 2010 usando o PowerShell remoto" em.
+> Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>2010 using Remote PowerShell" em.
 
 
 
@@ -56,7 +56,7 @@ Habilite e desabilite um dispositivo de conferência usando o cmdlet **Enable-Cs
 
 ## <a name="enabling-a-conferencing-device"></a>Habilitando um dispositivo de conferência
 
-  - Para habilitar um dispositivo de conferência, use o cmdlet **Enable-CsMeetingRoom** . Ao habilitar um dispositivo de conferência, você deve incluir uma) a identidade do dispositivo de conferência, b) o pool de registrador onde a conta da sala será hospedada e c) o endereço SIP a ser atribuído a essa conta.
+  - Para habilitar um dispositivo de conferência, use o cmdlet **Enable-CsMeetingRoom** . Ao habilitar um dispositivo de conferência, você deve incluir uma, a identidade do dispositivo de conferência, b) o pool de registradores onde a conta da sala será hospedada e c) o endereço SIP a ser atribuído a essa conta.
     
         Enable-CsMeetingRoom -Identity "Redmond Conferencing device" -RegistrarPool "atl-cs-001.litwareinc.com" -SipAddress "sip:RedmondMeetingRoom@litwareinc.com"
 
@@ -64,15 +64,15 @@ Habilite e desabilite um dispositivo de conferência usando o cmdlet **Enable-Cs
 
 <div>
 
-## <a name="disabling-a-conferencing-device"></a>Desativando um dispositivo de conferência
+## <a name="disabling-a-conferencing-device"></a>Desabilitando um dispositivo de conferência
 
-  - Para desabilitar um dispositivo de conferência, use o cmdlet **Disable-CsMeetingRoom** . Certifique-se de especificar a identidade do dispositivo de conferência a ser desativado:
+  - Para desabilitar um dispositivo de conferência, use o cmdlet **Disable-CsMeetingRoom** . Verifique se você especificou a identidade do dispositivo de conferência a ser desabilitado:
     
         Disable-CsMeetingRoom -Identity "sip:RedmondMeetingRoom@litwareinc.com"
 
 </div>
 
-Para obter detalhes, consulte os tópicos da ajuda para o cmdlet [Enable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom) e o cmdlet [Disable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Disable-CsMeetingRoom) .
+Para obter detalhes, consulte os tópicos de ajuda para o cmdlet [Enable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Enable-CsMeetingRoom) e o cmdlet [Disable-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Disable-CsMeetingRoom) .
 
 </div>
 

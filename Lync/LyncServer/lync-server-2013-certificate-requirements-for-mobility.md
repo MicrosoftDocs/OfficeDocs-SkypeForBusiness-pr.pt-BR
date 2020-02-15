@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Requisitos de certificado para mobilidade'
+title: 'Lync Server 2013: requisitos de certificado para mobilidade'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185251
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 680eaf205959b67d8fef93ff56d379ae8cd293bf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bbf7dd0f3ce9868fbeac5c757fce5371ad77fba4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736771"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038413"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,31 +35,31 @@ ms.locfileid: "41736771"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-24_
+_**Última modificação do tópico:** 2012-06-24_
 
-Se você implantar o recurso de mobilidade e oferecer suporte à descoberta automática para clientes móveis, será necessário incluir certas entradas de nomes alternativos de entidades nos certificados para dar suporte a conexões seguras de clientes móveis.
+Se você implantar o recurso de mobilidade e suportar a descoberta automática para clientes móveis, será necessário incluir determinadas entradas de nome de entidade alternativo nos certificados a fim de suportar conexões seguras de clientes móveis.
 
-Você precisa incluir entradas de nomes alternativos de entidades para descoberta automática nos seguintes certificados:
+É necessário incluir entradas de nome de entidade alternativo para a descoberta automática nos certificados a seguir:
 
-  - Pool de diretores
+  - Director pool
 
   - Pool de Front-Ends
 
   - Proxy reverso
 
-Esta seção descreve as entradas de nome alternativo do assunto que são necessárias em seus certificados para descoberta automática.
+Esta seção descreve as entradas de nome de entidade alternativo necessárias em seus certificados para descoberta automática.
 
 <div>
 
 
 > [!NOTE]  
-> A emissão de certificados por meio de uma autoridade de certificação interna geralmente é um processo simples, mas adicionar várias entradas de nome alternativo à entidade para certificados públicos usados pelo proxy reverso pode ser caro. Se você tiver muitos domínios SIP, o que faz com que a adição dos nomes alternativos de assunto seja muito cara, você pode configurar o proxy reverso para usar HTTP para a solicitação inicial de serviço de descoberta automática, em vez de usar HTTPS (a configuração padrão). Para obter detalhes, consulte <A href="lync-server-2013-technical-requirements-for-mobility.md">requisitos técnicos de mobilidade no Lync Server 2013</A>.
+> A reemissão de certificados usando uma autoridade de certificação interna é normalmente um processo simples, mas a adição de múltiplas entradas de nome de entidade alternativo aos certificados públicos usados pelo proxy reverso pode ser cara. Se você tiver muitos domínios SIP, tornando a adição de nomes de entidade alternativos muito cara, será possível configurar o proxy reverso para usar HTTP para a solicitação do Serviço de Descoberta Automática, em vez de usar HTTPS (a configuração padrão). Para obter detalhes, consulte <A href="lync-server-2013-technical-requirements-for-mobility.md">Technical Requirements for Mobility in Lync Server 2013</A>.
 
 
 
 </div>
 
-### <a name="director-pool-certificate-requirements"></a>Requisitos de certificado do pool do director
+### <a name="director-pool-certificate-requirements"></a>Requisitos de certificado do Pool de Diretores
 
 <table>
 <colgroup>
@@ -69,16 +69,16 @@ Esta seção descreve as entradas de nome alternativo do assunto que são necess
 <thead>
 <tr class="header">
 <th>Descrição</th>
-<th>Entrada de nome alternativo do assunto</th>
+<th>Entrada de nome de entidade alternativo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>URL interna do serviço de descoberta automática</p></td>
+<td><p>URL interna do serviço de Descoberta Automática</p></td>
 <td><p>SAN = lyncdiscoverinternal. &lt;sipdomain&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p>URL do serviço de descoberta automática externo</p></td>
+<td><p>URL externa do serviço de Descoberta Automática</p></td>
 <td><p>SAN = lyncdiscover. &lt;sipdomain&gt;</p></td>
 </tr>
 </tbody>
@@ -89,13 +89,13 @@ Esta seção descreve as entradas de nome alternativo do assunto que são necess
 
 
 > [!NOTE]  
-> Você também pode usar SAN = *. &lt;sipdomain&gt;
+> Como alternativa, você pode usar SAN = *. &lt;sipdomain&gt;
 
 
 
 </div>
 
-### <a name="front-end-pool-certificate-requirements"></a>Requisitos de certificado de pool de front-end
+### <a name="front-end-pool-certificate-requirements"></a>Requisitos de certificado do pool Front-End
 
 <table>
 <colgroup>
@@ -105,16 +105,16 @@ Esta seção descreve as entradas de nome alternativo do assunto que são necess
 <thead>
 <tr class="header">
 <th>Descrição</th>
-<th>Entrada de nome alternativo do assunto</th>
+<th>Entrada de nome de entidade alternativo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>URL interna do serviço de descoberta automática</p></td>
+<td><p>URL interna do serviço de Descoberta Automática</p></td>
 <td><p>SAN = lyncdiscoverinternal. &lt;sipdomain&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p>URL do serviço de descoberta automática externo</p></td>
+<td><p>URL externa do serviço de Descoberta Automática</p></td>
 <td><p>SAN = lyncdiscover. &lt;sipdomain&gt;</p></td>
 </tr>
 </tbody>
@@ -125,7 +125,7 @@ Esta seção descreve as entradas de nome alternativo do assunto que são necess
 
 
 > [!NOTE]  
-> Você também pode usar SAN = *. &lt;sipdomain&gt;
+> Como alternativa, você pode usar SAN = *. &lt;sipdomain&gt;
 
 
 
@@ -141,12 +141,12 @@ Esta seção descreve as entradas de nome alternativo do assunto que são necess
 <thead>
 <tr class="header">
 <th>Descrição</th>
-<th>Entrada de nome alternativo do assunto</th>
+<th>Entrada de nome de entidade alternativo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>URL do serviço de descoberta automática externo</p></td>
+<td><p>URL externa do serviço de Descoberta Automática</p></td>
 <td><p>SAN = lyncdiscover. &lt;sipdomain&gt;</p></td>
 </tr>
 </tbody>
@@ -157,7 +157,7 @@ Esta seção descreve as entradas de nome alternativo do assunto que são necess
 
 
 > [!NOTE]  
-> Você atribui esta SAN ao certificado atribuído ao ouvinte SSL no proxy reverso.
+> Atribua esse SAN ao certificado atribuído ao Ouvinte de SSL no proxy reverso.
 
 
 
@@ -167,7 +167,7 @@ Esta seção descreve as entradas de nome alternativo do assunto que são necess
 
 
 > [!NOTE]  
-> Seu ouvinte de proxy reverso terá nomes alternativos de entidades para seus serviços Web externos (por exemplo, SAN = lyncwebextpool01. contoso. com e dirwebexternal.contoso.com se você tiver implantado o diretor opcional).
+> Seu ouvinte de proxy reverso terá nomes alternativos de entidade para suas URLs de serviços Web externos (por exemplo, SAN = lyncwebextpool01. contoso. com e dirwebexternal.contoso.com se você tiver implantado o diretor opcional).
 
 
 

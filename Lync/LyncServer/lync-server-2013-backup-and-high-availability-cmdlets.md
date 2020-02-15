@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: cmdlets de backup e alta disponibilidade'
+title: 'Lync Server 2013: backup e cmdlets de alta disponibilidade'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184236
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b730d265d32341b329bf5ba3a1055b37bd240a55
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cb94d296c934e19a9a790ca6e229549866e3f6c8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740591"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044943"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41740591"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-09_
+_**Última modificação do tópico:** 2012-10-09_
 
-Os cmdlets de backup e de alta disponibilidade permitem que os administradores gerenciem os recursos de backup, restauração e alta disponibilidade do pool introduzidos no Microsoft Lync Server 2013.
+Os cmdlets de backup e alta disponibilidade permitem que os administradores gerenciem os recursos de backup, restauração e alta disponibilidade do pool introduzidos no Microsoft Lync Server 2013.
 
 <div>
 
@@ -47,59 +47,59 @@ Veja a seguir uma lista de cmdlets relacionados diretamente ao backup e à confi
 
 **Cmdlets de backup e alta disponibilidade**
 
-  - [Get-CsBackupServiceConfiguration](https://technet.microsoft.com/en-us/library/JJ205087(v=OCS.15))
+  - [Get-CsBackupServiceConfiguration](https://technet.microsoft.com/library/JJ205087(v=OCS.15))
 
-  - [Remove-CsBackupServiceConfiguration](https://technet.microsoft.com/en-us/library/JJ204903(v=OCS.15))
+  - [Remove-CsBackupServiceConfiguration](https://technet.microsoft.com/library/JJ204903(v=OCS.15))
 
-  - [Set-CsBackupServiceConfiguration](https://technet.microsoft.com/en-us/library/JJ205006(v=OCS.15))
-
-<!-- end list -->
-
-  - [Get-CsBackupServiceStatus](https://technet.microsoft.com/en-us/library/JJ205032(v=OCS.15))
+  - [Set-CsBackupServiceConfiguration](https://technet.microsoft.com/library/JJ205006(v=OCS.15))
 
 <!-- end list -->
 
-  - [Invoke-CsBackupServiceSync](https://technet.microsoft.com/en-us/library/JJ205374(v=OCS.15))
+  - [Get-CsBackupServiceStatus](https://technet.microsoft.com/library/JJ205032(v=OCS.15))
 
 <!-- end list -->
 
-  - [Debug-CsIntraPoolReplication](https://technet.microsoft.com/en-us/library/JJ205103(v=OCS.15))
+  - [Invoke-CsBackupServiceSync](https://technet.microsoft.com/library/JJ205374(v=OCS.15))
 
 <!-- end list -->
 
-  - [Backup-CsPool](https://technet.microsoft.com/en-us/library/JJ204955(v=OCS.15))
+  - [Debug-CsIntraPoolReplication](https://technet.microsoft.com/library/JJ205103(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsPoolBackupRelationship](https://technet.microsoft.com/en-us/library/JJ204745(v=OCS.15))
+  - [Backup-CsPool](https://technet.microsoft.com/library/JJ204955(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsPoolFabricState](https://technet.microsoft.com/en-us/library/JJ619188(v=OCS.15))
+  - [Get-CsPoolBackupRelationship](https://technet.microsoft.com/library/JJ204745(v=OCS.15))
 
 <!-- end list -->
 
-  - [Invoke-CsPoolFailBack](https://technet.microsoft.com/en-us/library/JJ204873(v=OCS.15))
+  - [Get-CsPoolFabricState](https://technet.microsoft.com/library/JJ619188(v=OCS.15))
 
 <!-- end list -->
 
-  - [Invoke-CsPoolFailOver](https://technet.microsoft.com/en-us/library/JJ205189(v=OCS.15))
+  - [Invoke-CsPoolFailBack](https://technet.microsoft.com/library/JJ204873(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsPoolUpgradeReadinessState](https://technet.microsoft.com/en-us/library/JJ204689(v=OCS.15))
+  - [Invoke-CsPoolFailOver](https://technet.microsoft.com/library/JJ205189(v=OCS.15))
 
 <!-- end list -->
 
-  - [Invoke-CsStorageServiceFlush](https://technet.microsoft.com/en-us/library/JJ619175(v=OCS.15))
+  - [Get-CsPoolUpgradeReadinessState](https://technet.microsoft.com/library/JJ204689(v=OCS.15))
 
 <!-- end list -->
 
-  - [Sync-CsUserData](https://technet.microsoft.com/en-us/library/JJ205242(v=OCS.15))
+  - [Invoke-CsStorageServiceFlush](https://technet.microsoft.com/library/JJ619175(v=OCS.15))
 
 <!-- end list -->
 
-  - [Remove-CsUserStoreBackupData](https://technet.microsoft.com/en-us/library/JJ205003(v=OCS.15))
+  - [Sync-CsUserData](https://technet.microsoft.com/library/JJ205242(v=OCS.15))
+
+<!-- end list -->
+
+  - [Remove-CsUserStoreBackupData](https://technet.microsoft.com/library/JJ205003(v=OCS.15))
 
 </div>
 

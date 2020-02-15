@@ -12,16 +12,16 @@ ms:contentKeyID: 51541417
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 394f73c83f1981e4c4ee1528c1623f6424d2a85a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a856a44a82af84f4881e487c5f853deeede72e07
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743561"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038303"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41743561"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-19_
+_**Última modificação do tópico:** 2013-02-19_
 
-Há vários requisitos de configuração de hardware, software e sistema que você precisará para executar a ferramenta de stress e desempenho do Lync Server 2013.
+Há vários requisitos de configuração de hardware, software e sistema que você precisará para executar a ferramenta de estresse e desempenho do Lync Server 2013.
 
 <div>
 
 ## <a name="client-hardware-requirements"></a>Requisitos de hardware do cliente
 
-Para executar a ferramenta de stress e desempenho do Lync Server 2013 na sua implantação do Lync Server 2013 para cada usuário do 4.500 cuja carga você deseja simular, é preciso ter pelo menos um computador dedicado que atenda aos seguintes requisitos mínimos de hardware:
+Para executar a ferramenta de estresse e desempenho do Lync Server 2013 em sua implantação do Lync Server 2013, para todos os usuários do 4.500 cuja carga você deseja simular, você precisará de pelo menos um computador dedicado que atenda aos seguintes requisitos mínimos de hardware:
 
-  - Adaptador rede de 1 gigabit
+  - adaptador de rede de 1 Gigabit
 
   - 8 GB de RAM
 
-  - 2 unidades de processamento central de Dual-Core (CPUs)
+  - 2 unidades de processamento central (CPUs) de núcleo dual
 
 </div>
 
@@ -57,7 +57,7 @@ Para executar a ferramenta de stress e desempenho do Lync Server 2013 na sua imp
 
 ## <a name="client-software-requirements"></a>Requisitos de software do cliente
 
-Para executar a ferramenta de stress e desempenho do Lync Server 2013 em sua implantação do Lync Server 2013, os sistemas operacionais com suporte são:
+Para executar a ferramenta de estresse e desempenho do Lync Server 2013 em sua implantação do Lync Server 2013, os sistemas operacionais com suporte são:
 
   - Sistema operacional Windows Server 2012
 
@@ -67,17 +67,17 @@ O computador cliente deve atender aos seguintes requisitos de software:
 
   - Você deve ter o [Microsoft .NET Framework 4,5](http://go.microsoft.com/fwlink/?linkid=143212) Runtime instalado.
 
-  - No Windows Server 2008/Windows Server 2012, o recurso experiência da área de trabalho deve ser habilitado.
+  - No Windows Server 2008/Windows Server 2012, o recurso experiência desktop deve estar habilitado.
 
-  - Você deve ter instalado o [pacote redistribuível do Microsoft Visual C++ 2012](http://go.microsoft.com/fwlink/?linkid=143216) (x64).
+  - Você deve ter o [pacote redistribuível do Microsoft Visual C++ 2012](http://go.microsoft.com/fwlink/?linkid=143216) (x64) instalado.
 
-  - Uma implantação totalmente configurada do Lync Server 2013.
+  - Uma implantação do Lync Server 2013 totalmente configurada.
 
 <div>
 
 
 > [!IMPORTANT]  
-> As bibliotecas da API gerenciada de comunicação unificada da Microsoft (UCMA) 4,0 estão incluídas no pacote de instalação, portanto, o UCMA não é necessário e não deve ser instalado em computadores cliente.
+> Bibliotecas do Microsoft Unified Communications Managed API (UCMA) 4,0 estão incluídas no pacote de instalação, portanto, o UCMA não é necessário e não deve ser instalado em computadores clientes.
 
 
 
@@ -89,15 +89,15 @@ O computador cliente deve atender aos seguintes requisitos de software:
 
 ## <a name="configuration-requirements"></a>Requisitos de configuração
 
-Os computadores que executarão a ferramenta de stress e desempenho do Lync Server 2013 devem ser configurados de acordo com os seguintes requisitos:
+Os computadores que executarão a ferramenta de estresse e desempenho do Lync Server 2013 devem ser configurados de acordo com os seguintes requisitos:
 
-1.  Você deve estar conectado como um membro do grupo domínio ou administradores locais.
+1.  Você deve estar conectado como um membro do domínio ou do grupo Administradores local.
 
-2.  A ferramenta de stress e desempenho do Lync Server 2013 (LyncPerfTool. exe) não pode ser executada em um computador que também esteja executando o Lync Server 2013 componentes.
+2.  O Lync Server 2013 estresse e a ferramenta de desempenho (LyncPerfTool. exe) não podem ser executados em um computador que também está executando os componentes do Lync Server 2013.
 
-3.  Você deve executar a ferramenta de criação de usuários do Lync Server 2013 (UserProvisioningTool. exe) no servidor front-end ou no servidor Standard Edition, onde as contas de usuário residem. Quando a ferramenta é executada várias vezes, cada usuário habilitado para a comunicação unificada da Microsoft deve ter um número de telefone exclusivo.
+3.  Você deve executar a ferramenta de criação de usuário do Lync Server 2013 (UserProvisioningTool. exe) no servidor de front-end ou no servidor Standard Edition onde as contas de usuário residirão. Quando a ferramenta é executada várias vezes, cada usuário habilitado para a comunicação unificada da Microsoft deve ter um número de telefone exclusivo.
 
-4.  O tamanho do arquivo da página deve ser gerenciado pelo sistema ou deve ter pelo menos 1,5 vezes a quantidade de RAM no sistema.
+4.  O tamanho do arquivo da página deve ser gerenciado pelo sistema ou deve ser pelo menos 1,5 vezes a quantidade de RAM no sistema.
 
 </div>
 

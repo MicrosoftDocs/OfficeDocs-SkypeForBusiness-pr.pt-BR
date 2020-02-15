@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurar a tabela de número não atribuído'
+title: 'Lync Server 2013: configurar a tabela de números não atribuídos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185908
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b99679d439257b54b6bb40d8e724bb63da4a1ea5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ceb3aa60273439c94a5d936efe826e77dcc683be
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736471"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043193"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-the-unassigned-number-table-in-lync-server-2013"></a>Configurar a tabela de número não atribuído no Lync Server 2013
+# <a name="configure-the-unassigned-number-table-in-lync-server-2013"></a>Configurar a tabela de números não atribuídos no Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41736471"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-30_
+_**Última modificação do tópico:** 2012-10-30_
 
-No Lync Server 2013, você pode especificar o que acontece com as chamadas recebidas para números de telefone válidos para a sua organização, mas que não estão atribuídas a um usuário ou telefone. Os chamadores podem ouvir uma mensagem ou podem ser roteados para outro destino, ou ambos.
+No Lync Server 2013, você pode especificar o que acontece às chamadas de entrada para números de telefone que são válidos para a sua organização, mas não estão atribuídos a um usuário ou telefone. Os chamadores podem ouvir uma mensagem e/ou ser encaminhados para outro destino.
 
-O modo como você configura a tabela de números não atribuída depende de como você deseja usá-la. É possível configurar a tabela com todas as extensões válidas para sua organização, com apenas extensões não atribuídas ou com uma combinação de ambos os tipos de números. A tabela de números não atribuída pode incluir números atribuídos e não atribuídos, mas é chamada somente quando um chamador disca um número que não está atribuído no momento. Se você incluir todas as extensões válidas na tabela de números não atribuída, você poderá especificar a ação que ocorre sempre que alguém deixa sua organização, sem a necessidade de reconfigurar a tabela. Se você incluir extensões não atribuídas na tabela, poderá personalizar a ação que ocorre para números específicos. Por exemplo, se você alterar a extensão para seu atendimento ao cliente, poderá incluir o número antigo de atendimento ao cliente na tabela, e atribuí-lo a um anúncio que fornece o novo número.
+O modo como você configura a tabela de números não atribuída depende de como você deseja usá-la. É possível configurar a tabela com todas as extensões válidas para sua organização, com apenas extensões não atribuídas ou com uma combinação de ambos os tipos de números. A tabela de números não atribuída pode incluir números atribuídos e não atribuídos, mas é chamada somente quando um chamador disca um número que não está atribuído no momento. Se você incluir todas as extensões válidas na tabela de números não atribuída, você poderá especificar a ação que ocorre sempre que alguém deixa sua organização, sem a necessidade de reconfigurar a tabela. Se você incluir extensões não atribuídas na tabela, poderá personalizar a ação que ocorre para números específicos. Por exemplo, se você alterar a extensão para seu atendimento ao cliente, poderá incluir o número antigo de atendimento ao cliente na tabela, e atribui-lo a um anúncio que fornece o novo número.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Antes de configurar a tabela numérica não atribuída, seu sistema já deve ter comunicados definidos ou uma configuração de atendedor automático de Unificação de mensagens do Exchange (um).
+> Antes de configurar a tabela de números não atribuídos, seu sistema já deve ter comunicados definidos ou um atendedor automático de UM (Unificação de mensagens) do Exchange configurado.
 
 
 
@@ -55,7 +55,7 @@ O modo como você configura a tabela de números não atribuída depende de como
 
 
 > [!TIP]  
-> Quando alguém chama um número não atribuído, o Lync Server procura a tabela número não atribuído da parte superior para a inferior e usa o primeiro intervalo correspondente. Portanto, uma ação que você deseja executar como última alternativa deve ser especificada para o último intervalo na tabela.
+> Quando alguém chama um número não atribuído, o Lync Server pesquisa a tabela de números não atribuídos de cima para baixo e usa o primeiro intervalo correspondente. Portanto, uma ação que você deseja executar como última alternativa deve ser especificada para o último intervalo na tabela.
 
 
 
@@ -65,7 +65,7 @@ O modo como você configura a tabela de números não atribuída depende de como
 
 ## <a name="in-this-section"></a>Nesta seção
 
-[Criar ou modificar um intervalo de números não atribuídos no Lync server 2013](lync-server-2013-create-or-modify-an-unassigned-number-range.md) [criar um anúncio no Lync Server 2013](lync-server-2013-create-an-announcement.md)
+[Criar ou modificar um intervalo de números não atribuídos no Lync Server 2013](lync-server-2013-create-or-modify-an-unassigned-number-range.md) [criar um anúncio no Lync Server 2013](lync-server-2013-create-an-announcement.md)
 
 </div>
 

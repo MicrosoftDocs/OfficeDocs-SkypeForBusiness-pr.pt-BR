@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabela CallPriorities'
+title: 'Lync Server 2013: tabela CallPriorities'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183275
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31ddf598fcf33b4f4841f9e3a9e857fd57ea608c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2be19538e065a1f9a25dd58da93b2752a27333e9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743211"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044223"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41743211"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-28_
+_**Última modificação do tópico:** 2012-09-28_
 
-A tabela CallPriorities é uma tabela estática que armazena a lista de possíveis prioridades de chamadas, como ' emergência ', ' urgente ' ou ' normal '.
+CallPriorities é uma tabela estática que armazena a lista de prioridades de chamada possíveis, como "emergência", "urgente" ou "normal".
 
 
 <table>
@@ -59,20 +59,20 @@ A tabela CallPriorities é uma tabela estática que armazena a lista de possíve
 <tr class="odd">
 <td><p><strong>Priorityid</strong></p></td>
 <td><p>tinyint</p></td>
-<td><p>Primária</p></td>
+<td><p>Primário</p></td>
 <td></td>
 </tr>
 <tr class="even">
 <td><p><strong>Prioridade</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td></td>
 <td><p>Valores permitidos:</p>
 <ul>
-<li><p>0-desconhecido</p></li>
-<li><p>1 – não urgente</p></li>
-<li><p>2-normal</p></li>
-<li><p>3-urgente</p></li>
-<li><p>4-emergência</p></li>
+<li><p>0 - Desconhecido</p></li>
+<li><p>1 - Não urgente</p></li>
+<li><p>2 - Normal</p></li>
+<li><p>3 - Urgente</p></li>
+<li><p>4 - Emergência</p></li>
 </ul></td>
 </tr>
 </tbody>

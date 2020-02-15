@@ -12,20 +12,20 @@ ms:contentKeyID: 48184292
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a28fc1e77a98e2a6123537ec5c062dca5d0c6ffb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c7168c1e32bd4ceb1466678d08a3d7ca9e6dc69e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724931"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045493"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="preparing-for-installation-of-servers-in-the-perimeter-network-for-lync-server-2013"></a>Preparando para instalação de servidores na rede de perímetro para Lync Server 2013
+# <a name="preparing-for-installation-of-servers-in-the-perimeter-network-for-lync-server-2013"></a>Preparando para instalação de servidores na rede de perímetro do Lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41724931"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-08_
+_**Última modificação do tópico:** 2012-09-08_
 
-Antes de configurar componentes do servidor de borda, você precisa garantir que os computadores que você está configurando atendam aos requisitos do sistema e concluam outras etapas de pré-requisito necessárias para a implantação de componentes do servidor de borda.
+Antes de instalar os componentes do Servidor de Borda, você precisa garantir que os computadores de instalação atendem aos requisitos de sistema e cumprem outras etapas de pré-requisito necessárias para implantar os componentes do Servidor de Borda.
 
-Antes de começar, examine os detalhes nos tópicos a seguir na documentação de planejamento da arquitetura de referência que você deseja implantar:
+Antes de começar, examine os detalhes nos seguintes tópicos na documentação de Planejamento para a arquitetura de referência que você deseja implantar:
 
   - [Única borda consolidada com endereços IP privados e NAT no Lync Server 2013](lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md)
 
@@ -55,13 +55,13 @@ Antes de começar, examine os detalhes nos tópicos a seguir na documentação d
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Configurar DNS para suporte à borda no Lync Server 2013](lync-server-2013-configure-dns-for-edge-support.md)
+  - [Configurar o DNS para suporte de borda no Lync Server 2013](lync-server-2013-configure-dns-for-edge-support.md)
 
   - [Configurar balanceadores de carga de hardware para topologias de borda em escala no Lync Server 2013](lync-server-2013-set-up-hardware-load-balancers-for-scaled-edge-topologies.md)
 
-  - [Configurar firewalls e portas para acesso de usuários externos no Lync Server 2013](lync-server-2013-configure-firewalls-and-ports-for-external-user-access.md)
+  - [Configurar firewalls e portas para acesso de usuário externo no Lync Server 2013](lync-server-2013-configure-firewalls-and-ports-for-external-user-access.md)
 
-  - [Determinar firewall A/V externo e requisitos de porta para Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)
+  - [Determinar firewall A/V externo e requisitos de porta para o Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)
 
   - [Solicitar certificados para componentes de borda no Lync Server 2013](lync-server-2013-request-certificates-for-edge-components.md)
 

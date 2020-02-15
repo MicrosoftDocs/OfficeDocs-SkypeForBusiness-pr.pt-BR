@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: fazendo backup de armazenamentos de arquivos'
+title: 'Lync Server 2013: fazendo backup de repositórios de arquivos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541449
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1989c399ec01ab2bbe3412a086a58c2583c0dad5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e61c9a70477d18ebdacaf9233bbbb0693bb74a2e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741031"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044993"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-file-stores-in-lync-server-2013"></a>Fazendo o backup de armazenamentos de arquivos no Lync Server 2013
+# <a name="backing-up-file-stores-in-lync-server-2013"></a>Fazendo backup de repositórios de arquivos no Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41741031"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-17_
+_**Última modificação do tópico:** 2013-02-17_
 
 O backup dos repositórios de arquivos do Lync Server inclui todos os arquivos e pastas usados pelos componentes do Lync Server.
 
 <div>
 
-## <a name="to-back-up-file-stores"></a>Para fazer backup de armazenamentos de arquivos
+## <a name="to-back-up-file-stores"></a>Para fazer o backup dos Repositórios de Arquivos
 
-1.  Para localizar os locais específicos dos repositórios de arquivos do Lync Server, abra o construtor de topologias e examine o nó **armazenamentos de arquivos** .
+1.  Para localizar os locais específicos dos repositórios de arquivos do Lync Server, abra o construtor de topologias e examine o nó **repositórios de arquivos** .
 
-2.  Use o Robocopy ou outra ferramenta de gerenciamento do sistema de arquivos para copiar cada\\repositório de arquivos para $backup filestore.
+2.  Use o Robocopy ou outra ferramenta de gerenciamento de sistema de arquivos para copiar cada\\repositório de arquivos para o repositório de $backup.
 
 </div>
 

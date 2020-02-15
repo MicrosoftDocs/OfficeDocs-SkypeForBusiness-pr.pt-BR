@@ -12,16 +12,16 @@ ms:contentKeyID: 48184927
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 68dccef2e9451e4c077f5292398bb663f1acb514
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0568f13cb977fad78e8d0e704c158039165ea78a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734651"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040910"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41734651"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-20_
+_**Última modificação do tópico:** 2012-10-20_
 
-Como o Lync Server 2013 não usa o processo de descoberta central usado no Microsoft Lync Server 2010, cada computador do Lync Server 2013 que você deseja monitorar deve ser capaz de reportar sua existência ao servidor de gerenciamento. Para possibilitar isso, instale os arquivos de agente do Operations Manager em cada um dos computadores a serem monitorados. Depois que os arquivos do agente tiverem sido instalados, você deve configurar o computador para atuar como um proxy do System Center. Observe que esses procedimentos devem ser executados após a instalação e a configuração do Lync Server nesses computadores.
+Como o Lync Server 2013 não usa o processo de descoberta central usado no Microsoft Lync Server 2010, cada computador do Lync Server 2013 que você deseja monitorar deve ser capaz de relatar automaticamente sua existência ao servidor de gerenciamento. Para que isso seja possível, é necessário instalar os arquivos do agente Operations Manager em cada computador a ser monitorado. Após os arquivos do agente serem instalados, será necessário configurar o computador para agir como um proxy do System Center. Observe que esses procedimentos devem ser executados depois que você instalou e configurou o Lync Server nesses computadores.
 
 </div>
 

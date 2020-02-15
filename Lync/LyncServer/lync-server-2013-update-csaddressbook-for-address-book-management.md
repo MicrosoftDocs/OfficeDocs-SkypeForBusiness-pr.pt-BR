@@ -12,20 +12,20 @@ ms:contentKeyID: 48183428
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f03fe225b2eae508870220e278d7bfc3373dad22
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ffc956465d4ebc1da95289897a7eb81b0f8f8e68
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744781"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041938"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="update-csaddressbook-for-address-book-management-in-lync-server-2013"></a>Update-CsAddressBook para o gerenciamento de catálogo de endereços no Lync Server 2013
+# <a name="update-csaddressbook-for-address-book-management-in-lync-server-2013"></a>Update-CsAddressBook para gerenciamento de catálogo de endereços no Lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41744781"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
-Quem pode executar este cmdlet: por padrão, os membros dos grupos a seguir estão autorizados a executar o cmdlet Update-CsAddressBook localmente: RTCUniversalUserAdmins, RTCUniversalServerAdmins. Para retornar uma lista de todas as funções de controle de acesso baseado em função (RBAC) às quais esse cmdlet foi atribuído (incluindo qualquer função RBAC personalizada que você criou), execute o seguinte comando no prompt do Windows PowerShell:
+Quem pode executar esse cmdlet: Por padrão, membros dos seguintes grupos estão autorizados a executar o cmdlet Update-CsAddressBook localmente: RTCUniversalUserAdmins, RTCUniversalServerAdmins. Para retornar uma lista de todas as funções RBAC que este cmdlet foi atribuído (incluindo qualquer função RBAC que você criou sozinho), execute o seguinte comando no prompt do Windows PowerShell:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Update-CsAddressBook"}
 
-O cmdlet Update-CsAddressBook substitui o comando **abserver. exe – syncNow** do Office Communications Server. A finalidade do cmdlet é iniciar uma sincronização imediatamente em vez de aguardar o horário agendado. O primeiro exemplo de comando atualiza todos os catálogos de endereços da organização. A segunda atualiza somente o catálogo de endereços associado ao servidor definido.
+O cmdlet Update-CsAddressBook substitui o comando **abserver. exe – syncNow** do Office Communications Server. O objetivo do cmdlet é iniciar uma sincronização imediatamente em vez de aguardar o horário agendado. O primeiro comando de exemplo atualiza todos os catálogos de endereços na organização. A segunda atualiza apenas o catálogo de endereços associado ao servidor definido.
 
 <div>
 
 
 > [!NOTE]  
-> No Lync Server 2013, o duplicador de usuários do Lync Server atenderá as alterações do Active Directory e atualizará o banco de dados de usuários do Lync Server com base em um intervalo configurado. O duplicador de usuários do Lync Server também propagará as alterações para o banco de dados do RTCab rapidamente, sem que o administrador tenha que executar Update-CSAddressBook. Os administradores só precisarão executar Update-CSAddressBook se o download do arquivo do catálogo de endereços estiver habilitado.
+> No Lync Server 2013, o replicador de usuários do Lync Server selecionará as alterações do Active Directory e atualizará o banco de dados de usuário do Lync Server com base em um intervalo configurado. O replicador de usuários do Lync Server também propagará as alterações para o banco de dados do RTCab rapidamente, sem que o administrador tenha que executar Update-CSAddressBook. Os administradores precisarão executar o Atualizar -CSAddressBook somente se o download de arquivo do Catálogo de Endereços estiver habilitado.
 
 
 
@@ -65,7 +65,7 @@ Por exemplo:
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Consulte também
 
 
 [Update-CsAddressBook](https://docs.microsoft.com/powershell/module/skype/Update-CsAddressBook)  

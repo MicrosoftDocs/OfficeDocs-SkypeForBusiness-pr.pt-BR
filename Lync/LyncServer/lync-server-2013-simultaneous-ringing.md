@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Toque simultâneo'
+title: 'Lync Server 2013: toque simultâneo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51803990
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1bcdb0d30bccfe628fd02861d257d79268046b77
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4e3104da5e7d351bda26698087e97106cafbdff4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764507"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037501"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764507"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-03-09_
+_**Última modificação do tópico:** 2013-03-09_
 
-Quando a parte chamada tem o toque simultâneo habilitado, o roteamento baseado em local analisa o local da parte de chamada e os pontos de extremidade das partes chamadas para determinar se a chamada deve ser roteada.
+Quando a parte chamada tem o toque simultâneo habilitado, o roteamento baseado em local analisa o local da parte de chamadas e os pontos de extremidade das partes chamadas para determinar se a chamada deve ser encaminhada.
 
-A tabela a seguir ilustra um usuário configurado com toque simultâneo, e o destino do toque simultâneo é um usuário no mesmo local de rede, em um local de rede diferente ou em um local de rede desconhecido.
+A tabela a seguir ilustra um usuário configurado com toque simultâneo, e o alvo de toque simultâneo é um usuário no mesmo local de rede, em um site de rede diferente ou em um site de rede desconhecido.
 
 
 <table>
@@ -51,16 +51,16 @@ A tabela a seguir ilustra um usuário configurado com toque simultâneo, e o des
 </colgroup>
 <thead>
 <tr class="header">
-<th>Chamadas de entrada do PSTN para</th>
-<th>Localizado no mesmo local de rede do destinatário da chamada</th>
-<th>Localizado em um local de rede diferente do chamador</th>
-<th>Localizado no site desconhecido de rede ou não habilitado para roteamento baseado em local</th>
+<th>Chamada PSTN de entrada para</th>
+<th>Localizado no mesmo local de rede que o receptor da chamada</th>
+<th>Localizado em um local de rede diferente do chamado</th>
+<th>Localizado no local de rede desconhecido ou não habilitado para roteamento baseado em local</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Usuário do Lync</p></td>
-<td><p>Toque simultâneo permitido</p></td>
+<td><p>Anel simultâneo permitido</p></td>
 <td><p>Toque simultâneo não permitido</p></td>
 <td><p>Toque simultâneo não permitido</p></td>
 </tr>
@@ -68,7 +68,7 @@ A tabela a seguir ilustra um usuário configurado com toque simultâneo, e o des
 </table>
 
   
-A tabela a seguir ilustra uma chamada de um usuário do Lync (ou seja, o chamador do Lync) no mesmo site de rede, em um site de rede diferente ou em um site de rede desconhecido. O destinatário da chamada tem um ponto de extremidade PSTN (ou seja, um telefone celular) configurado como um destino de toque simultâneo. Nesse cenário, o roteamento baseado em localização determinará se a chamada deve ser roteada para o destino de toque simultâneo (isto é, o celular) do receptor ou não.
+A tabela a seguir ilustra uma chamada de um usuário do Lync (ou seja, o chamador do Lync) no mesmo local de rede, em um site de rede diferente ou de um site de rede desconhecido. O receptor tem um ponto de extremidade PSTN (i.e. celular) configurado como um alvo de anel simultâneo. Neste cenário, o roteamento baseado em local determinará se a chamada deve ser roteada para o alvo de anel simultâneo (ou seja, celular) do receptor ou não.
 
 
 <table>
@@ -80,18 +80,18 @@ A tabela a seguir ilustra uma chamada de um usuário do Lync (ou seja, o chamado
 </colgroup>
 <thead>
 <tr class="header">
-<th>Destino de toque simultâneo</th>
-<th>Localizado no mesmo local de rede do destinatário da chamada</th>
-<th>Localizado em um local de rede diferente do chamador</th>
-<th>Localizado no site desconhecido de rede ou não habilitado para roteamento baseado em local</th>
+<th>Alvo de anel simultâneo</th>
+<th>Localizado no mesmo local de rede que o receptor da chamada</th>
+<th>Localizado em um local de rede diferente do chamado</th>
+<th>Localizado no local de rede desconhecido ou não habilitado para roteamento baseado em local</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Ponto de extremidade PSTN</p></td>
-<td><p>Toque simultâneo permitido por meio da política de roteamento de voz do local do chamador</p></td>
-<td><p>Toque simultâneo permitido por meio da política de roteamento de voz do local do chamador</p></td>
-<td><p>Toque simultâneo permitido por meio da política de roteamento de voz do local do chamador para troncos não habilitados para o Roteamento com Base no Local</p></td>
+<td><p>Toque simultâneo permitido por meio da política de roteamento de voz do site do chamador</p></td>
+<td><p>Toque simultâneo permitido por meio da política de roteamento de voz do site do chamador</p></td>
+<td><p>Toque simultâneo permitido por meio da política de voz do chamador para troncos não habilitados para roteamento baseado em local</p></td>
 </tr>
 </tbody>
 </table>
@@ -102,7 +102,7 @@ A tabela a seguir ilustra uma chamada de um usuário do Lync (ou seja, o chamado
 ## <a name="see-also"></a>Confira também
 
 
-[Cenários para Roteamento Baseado em Local no Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
+[Cenários para roteamento baseado em local no Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

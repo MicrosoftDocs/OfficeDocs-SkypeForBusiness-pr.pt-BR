@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: planejando linhas telefônicas privadas'
+title: 'Lync Server 2013: planejamento para linhas telefônicas privadas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184909
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0df93d8a8de73a3119e7ca9a1a7abd76e9157a17
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a0369ea671860b29c8cf7f7e1d9e0b894770c6d6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725311"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037361"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-private-telephone-lines-with-lync-server-2013"></a>Planejando linhas telefônicas particulares com o Lync Server 2013
+# <a name="planning-for-private-telephone-lines-with-lync-server-2013"></a>Planejamento de linhas telefônicas privadas com o Lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41725311"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-11_
+_**Última modificação do tópico:** 2013-02-11_
 
-O Lync Server 2013 introduz a capacidade de oferecer aos usuários uma segunda linha telefônica privada, além da linha telefônica principal. Linhas telefônicas privadas são frequentemente atribuídas a executivos e a outras pessoas que desejam um número de telefone não listado e através do qual podem ser diretamente contatados.
+O Lync Server 2013 introduz a capacidade de fornecer aos usuários uma segunda linha telefônica privada, além da linha telefônica principal. Linhas telefônicas privadas são frequentemente atribuídas a executivos e a outras pessoas que desejam um número de telefone não esteja listado e através do qual podem ser diretamente contatados.
 
-Linhas telefônicas privadas só podem ser configuradas com o Shell de gerenciamento do Lync Server. Você não pode configurar linhas telefônicas privadas com o painel de controle do Lync Server. Linhas telefônicas privadas devem ser configuradas apenas em implantações do Lync Server e não em implantações mistas.
+As linhas telefônicas privadas só podem ser configuradas com o Shell de gerenciamento do Lync Server. Você não pode configurar linhas telefônicas privadas com o painel de controle do Lync Server. As linhas telefônicas privadas devem ser configuradas somente em implantações do Lync Server e não em implantações mistas.
 
 <div>
 
@@ -57,7 +57,7 @@ Embora o conceito de uma linha telefônica privada, secundária, seja fundamenta
 
   - Um usuário com uma linha telefônica privada não possui um segundo endereço SIP e uma linha telefônica privada secundária não dá a ele uma segunda presença na rede (como uma segunda identidade no sistema de mensagens instantâneas).
 
-  - Linhas telefônicas privadas estão disponíveis somente para implantações locais. Eles não estão disponíveis em implantações hospedadas do Lync Server.
+  - Linhas telefônicas privadas estão disponíveis somente para implantações locais. Eles não estão disponíveis com implantações hospedadas do Lync Server.
 
 </div>
 
@@ -67,9 +67,9 @@ Embora o conceito de uma linha telefônica privada, secundária, seja fundamenta
 
   - Os números de telefone para linhas telefônicas privadas não aparecem nos diretórios telefônicos ou listas de Contatos derivados dos Serviços de Domínio do Active Directory.
 
-  - Nenhum dos recursos a seguir está disponível com uma linha telefônica privada: encaminhamento de chamadas, chamada de equipe, delegação, toque de equipe, recebimento de chamadas de grupo e aplicativo Grupo de Resposta.
+  - Nenhum dos recursos a seguir está disponível com uma linha telefônica privada: encaminhamento de chamadas, chamada de equipe, delegação, toque de equipe, recebimento de chamadas de grupo e aplicativo de grupo de resposta.
 
-  - Chamadas para uma linha telefônica privada têm um toque especial e a notificação do sistema para as chamadas diz ao usuário que a chamada de entrada está em sua linha privada.
+  - Chamadas para uma linha telefônica privada possuem um toque especial e a notificação do sistema para as chamadas diz ao usuário que a chamada de entrada está em sua linha privada.
 
   - Chamadas para a linha telefônica privada sempre tocam. Elas não seguem as regras "não incomodar".
 
@@ -89,7 +89,7 @@ Embora o conceito de uma linha telefônica privada, secundária, seja fundamenta
 
   - O número de telefone para uma linha telefônica privada é gravado no registro de detalhes de chamada da mesma maneira que o número de telefone para a linha telefônica principal de um usuário, mas com uma indicação de que é um número telefônico privado.
 
-  - Depois que o usuário atende uma chamada na linha telefônica privada, ela é tratada da mesma forma como se estivesse na linha telefônica principal. Por exemplo, se um usuário que recebe uma chamada em uma linha telefônica particular encaminhar a chamada ou convidar outras pessoas para uma chamada em conferência, o nome do usuário aparecerá no Lync 2013, e o número de telefone da linha telefônica principal do usuário aparecerá em identificação de chamadas.
+  - Depois que o usuário atende uma chamada na linha telefônica privada, ela é tratada da mesma forma como se estivesse na linha telefônica principal. Por exemplo, se um usuário que recebe uma chamada em uma linha telefônica privada encaminha a chamada ou convida outras pessoas para uma chamada em conferência, o nome do usuário aparece no Lync 2013, e o número de telefone da linha telefônica principal do usuário aparece na ID do chamador.
 
   - Um usuário pode desviar uma chamada (redirecionar para outro destino, como um telefone celular ou residencial, antes de atender) a partir da linha telefônica privada da mesma maneira como o faria com uma linha telefônica principal.
     
@@ -135,11 +135,11 @@ Além dos aspectos técnicos da criação e gerenciamento de linhas telefônicas
 
 ## <a name="assigning-telephone-numbers"></a>Como atribuir números de telefone
 
-As contas de novos usuários que precisam de linhas de telefone particulares são criadas da mesma maneira que as contas sem linhas telefônicas particulares, usando o painel de controle do Lync Server ou o Shell de gerenciamento do Lync Server.
+As contas para novos usuários que precisam de linhas telefônicas privadas são criadas da mesma maneira que as contas sem linhas telefônicas privadas, usando o painel de controle do Lync Server ou o Shell de gerenciamento do Lync Server.
 
-Use o cmdlet **set-CsUser** no Shell de gerenciamento do Lync Server para atribuir um número de telefone a uma linha telefônica privada para um usuário, por exemplo, **set-CsUser-Identity "SIP:Joe@contoso.com"-Privatee "Tel: + 14255551212"**.
+Use o cmdlet **set-CsUser** no Shell de gerenciamento do Lync Server para atribuir um número de telefone a uma linha telefônica privada para um usuário, por exemplo, **set-CsUser-Identity "SIP:Joe@contoso.com"-Private "Tel: + 14255551212"**.
 
-Os números de telefone das linhas telefônicas privadas podem ter entre 3 e 15 números de comprimento e devem ser precedidos do prefixo "TEL:". Podem ter qualquer código de área e qualquer código de país/região, desde que sua organização tenha discagem interna direta para aquele código de área e código de país/região.
+Números de telefone para linhas telefônicas privadas podem ter entre 3 e 15 números por comprimento e devem ser precedidos com o prefixo "TEL:". Podem ter qualquer código de área e qualquer código de país/região, desde que sua organização tenha discagem interna direta para aquele código de área e código de país/região.
 
 Para obter detalhes sobre cmdlets e o Shell de gerenciamento do Lync Server, consulte a documentação do [Shell de gerenciamento do Lync server 2013](lync-server-2013-lync-server-management-shell.md) .
 
@@ -149,7 +149,7 @@ Para obter detalhes sobre cmdlets e o Shell de gerenciamento do Lync Server, con
 
 ## <a name="private-telephone-lines-in-mixed-deployments"></a>Linhas telefônicas privadas em implantações mistas
 
-Linhas telefônicas privadas devem ser configuradas apenas para implantações do Lync Server. Em uma implantação em que há o Lync Server e o Office Communications Server 2007 ou o Office Communications Server 2007 R2 Server, quando um usuário em uma versão anterior tenta chamar uma linha telefônica particular, o roteamento da chamada falha porque o servidor não pode executar uma pesquisa de número reverso em uma linha de telefone particular.
+As linhas telefônicas privadas devem ser configuradas apenas para implantações do Lync Server. Em uma implantação na qual existem os servidores Lync Server e Office Communications Server 2007 ou Office Communications Server 2007 R2, quando um usuário em uma versão anterior tenta chamar uma linha telefônica privada, o roteamento da chamada falha porque o servidor não pode executar uma pesquisa de número reverso em uma linha telefônica privada.
 
 </div>
 

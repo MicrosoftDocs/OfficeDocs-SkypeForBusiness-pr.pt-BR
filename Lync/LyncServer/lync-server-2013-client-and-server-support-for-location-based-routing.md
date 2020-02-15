@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Suporte a cliente e servidor para Roteamento Baseado em Local'
+title: 'Lync Server 2013: suporte de cliente e servidor para roteamento baseado em local'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803933
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ad7ead20eb9961180fec9204a84b3392b7fa96f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: efdb03adbdf1392e27c3107eef4aaf97f3708e66
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729851"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043833"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="client-and-server-support-for-location-based-routing-in-lync-server-2013"></a>Suporte a cliente e servidor para Roteamento Baseado em Local no Lync Server 2013
+# <a name="client-and-server-support-for-location-based-routing-in-lync-server-2013"></a>Suporte a cliente e servidor para roteamento baseado em local no Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41729851"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-06-18_
+_**Última modificação do tópico:** 2013-06-18_
 
-O roteamento baseado em local é imposto pelo Lync Server. O Lync Server pode identificar os sites de rede nos quais os usuários estão se conectando dentro da rede corporativa. Como os usuários remotos estão fora da rede corporativa, seu local é considerado desconhecido.
+O roteamento baseado em local é imposto pelo Lync Server. O Lync Server pode identificar os sites de rede onde os usuários estão se conectando dentro da rede corporativa. Como os usuários remotos estão fora da rede corporativa, sua localização é considerada desconhecida.
 
 <div>
 
 ## <a name="lync-server-support"></a>Suporte ao Lync Server
 
-O roteamento baseado em localização requer que o Lync Server 2013 CU1 seja implantado em todos os pools de front-end e servidores Standard Edition em uma determinada topologia. Se o Lync Server 2013 CU1 não estiver instalado em certos componentes do Lync na topologia, as restrições de roteamento baseadas em local não poderão ser totalmente impostas.
+O roteamento baseado em local exige que o Lync Server 2013 CU1 seja implantado em todos os pools de front-ends e servidores Standard Edition em uma determinada topologia. Se o Lync Server 2013 CU1 não estiver instalado em determinados componentes do Lync na topologia, as restrições de roteamento baseadas em local não poderão ser totalmente impostas.
 
 A tabela a seguir identifica a combinação de funções de servidor e versões com suporte para roteamento baseado em local.
 
@@ -57,44 +57,44 @@ A tabela a seguir identifica a combinação de funções de servidor e versões 
 <thead>
 <tr class="header">
 <th>Versão do pool</th>
-<th>Versão do Servidor de Mediação</th>
+<th>Versão do servidor de mediação</th>
 <th>Com suporte</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Atualização cumulativa de fevereiro de 2013 do Lync Server 2013</p></td>
-<td><p>Atualização cumulativa de fevereiro de 2013 do Lync Server 2013</p></td>
+<td><p>Lync Server 2013 atualização cumulativa de fevereiro de 2013</p></td>
+<td><p>Lync Server 2013 atualização cumulativa de fevereiro de 2013</p></td>
 <td><p>sim</p></td>
 </tr>
 <tr class="even">
-<td><p>Atualização cumulativa de fevereiro de 2013 do Lync Server 2013</p></td>
+<td><p>Lync Server 2013 atualização cumulativa de fevereiro de 2013</p></td>
 <td><p>Lync Server 2013</p></td>
 <td><p>não</p></td>
 </tr>
 <tr class="odd">
-<td><p>Atualização cumulativa de fevereiro de 2013 do Lync Server 2013</p></td>
+<td><p>Lync Server 2013 atualização cumulativa de fevereiro de 2013</p></td>
 <td><p>Lync Server 2010</p></td>
 <td><p>não</p></td>
 </tr>
 <tr class="even">
-<td><p>Atualização cumulativa de fevereiro de 2013 do Lync Server 2013</p></td>
+<td><p>Lync Server 2013 atualização cumulativa de fevereiro de 2013</p></td>
 <td><p>Office Communications Server 2007 R2</p></td>
 <td><p>não</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync Server 2013</p></td>
-<td><p>qualquer um</p></td>
+<td><p>qualquer</p></td>
 <td><p>não</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync Server 2010</p></td>
-<td><p>qualquer um</p></td>
+<td><p>qualquer</p></td>
 <td><p>não</p></td>
 </tr>
 <tr class="odd">
 <td><p>Office Communications Server 2007 R2</p></td>
-<td><p>qualquer um</p></td>
+<td><p>qualquer</p></td>
 <td><p>não</p></td>
 </tr>
 </tbody>
@@ -107,7 +107,7 @@ A tabela a seguir identifica a combinação de funções de servidor e versões 
 
 ## <a name="lync-client-support"></a>Suporte ao cliente do Lync
 
-A tabela a seguir identifica os clientes com suporte para o roteamento baseado em localização.
+A tabela a seguir identifica os clientes com suporte para roteamento baseado em local.
 
 
 <table>
@@ -127,7 +127,7 @@ A tabela a seguir identifica os clientes com suporte para o roteamento baseado e
 <tr class="odd">
 <td><p>Lync 2013</p></td>
 <td><p>sim</p></td>
-<td><p>Incluindo a atualização cumulativa do Lync 2013 de fevereiro de 2013</p></td>
+<td><p>Incluindo a atualização cumulativa do Lync 2013 fevereiro de 2013</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2010</p></td>
@@ -145,7 +145,7 @@ A tabela a seguir identifica os clientes com suporte para o roteamento baseado e
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p>Lync Attendant</p></td>
+<td><p>Atendedor do Lync</p></td>
 <td><p>sim</p></td>
 <td> </td>
 </tr>
@@ -157,7 +157,7 @@ A tabela a seguir identifica os clientes com suporte para o roteamento baseado e
 <tr class="odd">
 <td><p>Lync móvel 2013</p></td>
 <td><p>não</p></td>
-<td><p>O VoIP deve ser desabilitado para os clientes do Lync Mobile 2013 se usado por usuários com roteamento baseado em local habilitado.</p></td>
+<td><p>O VoIP deve estar desabilitado para clientes do Lync Mobile 2013 se for usado por usuários com roteamento baseado em local habilitado.</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync móvel 2010</p></td>
@@ -173,7 +173,7 @@ A tabela a seguir identifica os clientes com suporte para o roteamento baseado e
 
 
 > [!NOTE]  
-> Para desabilitar o VoIP para clientes móveis do Lync 2013, atribua uma política de mobilidade com a configuração, áudio/vídeo IP, desabilitada para todos os usuários habilitados para roteamento baseado em localização. Para obter mais detalhes sobre política de mobilidade, consulte <A href="https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy">New-CsMobilityPolicy</A>.
+> Para desabilitar o VoIP para clientes do Lync Mobile 2013, atribua uma política de mobilidade com a configuração, áudio/vídeo IP, desabilitada para todos os usuários habilitados para roteamento baseado em local. Para obter mais detalhes sobre a política de mobilidade, consulte <A href="https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy">New-CsMobilityPolicy</A>.
 
 
 
@@ -186,7 +186,7 @@ A tabela a seguir identifica os clientes com suporte para o roteamento baseado e
 ## <a name="see-also"></a>Confira também
 
 
-[Planejamento de Roteamento Baseado em Local no Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
+[Planejamento de roteamento baseado em local no Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
   
 
 </div>

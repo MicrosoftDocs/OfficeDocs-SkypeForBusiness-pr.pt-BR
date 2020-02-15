@@ -12,20 +12,20 @@ ms:contentKeyID: 48184704
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b2b15f0c679e9380a1f1a624f00f6c19384878fd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f79587526172c7ccade1b74574b20657d1a82300
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739971"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043203"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-the-location-database-in-lync-server-2013"></a>Configure the location database in Lync Server 2013
+# <a name="configure-the-location-database-in-lync-server-2013"></a>Configurar o banco de dados de localização no Lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41739971"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-17_
+_**Última modificação do tópico:** 2012-09-17_
 
-Para que os clientes possam detectar automaticamente seu local na rede, primeiro configure o banco de dados de localização. Se você não configurar um banco de dados de local e a **localização necessária** na política de localização estiver definida como **Sim** ou **isenção de responsabilidade**, o usuário será solicitado a inserir um local manualmente.
+Para que os clientes possam detectar automaticamente seu local na rede, primeiro configure o banco de dados de localização. Se você não configurar o banco de dados de localização e o **Local obrigatório** na política de local for definido como **Sim** ou **Aviso de isenção de responsabilidade**, o sistema solicitará que o usuário insira um local manualmente.
 
-Para configurar o banco de dados de localização, você executará as seguintes tarefas:
+Para configurar o banco de dados local, você executará as seguintes tarefas:
 
-1.  Preencha o banco de dados com um mapeamento de elementos de rede para os locais. Se você usar um gateway de número de identificação de localização de emergência (ELIN), precisará incluir o \<Elin\> no campo CompanyName.
+1.  Preencha o banco de dados com um mapeamento dos locais para os elementos de rede. Se você usar um gateway ELIN (número de identificação de local de emergência), precisará incluir o ELIN \<no\> campo CompanyName.
 
 2.  Valide os endereços em relação ao MSAG (catálogo de endereços principal) mantido pelo provedor de serviços de emergência.
 
-3.  Publique o banco de dados atualizado.
+3.  Publicar o banco de dados atualizado.
 
 <div>
 
 
 > [!NOTE]  
-> Como alternativa, você pode definir um banco de dados de origem de local secundário que pode ser usado no banco de dados de localização. Para obter detalhes, consulte <A href="lync-server-2013-configure-a-secondary-location-information-service.md">configurar um serviço de informações de localização secundário no Lync Server 2013</A>.
+> Como alternativa, você pode definir um banco de dados de origem do local secundário, que pode ser usado em vez do banco de dados local. Para obter detalhes, consulte <A href="lync-server-2013-configure-a-secondary-location-information-service.md">configurar um serviço de informações de local secundário no Lync Server 2013</A>.
 
 
 

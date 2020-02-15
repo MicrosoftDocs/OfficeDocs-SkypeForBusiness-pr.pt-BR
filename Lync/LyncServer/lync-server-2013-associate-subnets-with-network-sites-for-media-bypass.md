@@ -12,20 +12,20 @@ ms:contentKeyID: 48184244
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dd45daa964b51639c7fe1db3ff10e334e21641f2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dbe244426b6c2b7f83ef8070f995305a2a02ef31
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722791"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044773"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="associate-subnets-with-network-sites-for-media-bypass-in-lync-server-2013"></a>Associar sub-redes a sites de rede para ignorar mídia no Lync Server 2013
+# <a name="associate-subnets-with-network-sites-for-media-bypass-in-lync-server-2013"></a>Associar sub-redes a sites de rede para bypass de mídia no Lync Server 2013
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41722791"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-12_
+_**Última modificação do tópico:** 2012-09-12_
 
 <div>
 
 
 > [!NOTE]  
-> Este tópico pressupõe que você configurou as configurações globais de bypass de mídia e que configurou a região de rede e os sites de rede para bypass de mídia.
+> Este tópico assume que você tenha definido as configurações globais de desvio de mídia, a região da rede e os locais de rede para desvio de mídia.
 
 
 
 </div>
 
-Todas as sub-redes na rede devem estar associadas a um site de rede específico. Isso ocorre porque as informações de sub-rede são usadas para determinar o site de rede no qual se encontra um ponto de extremidade. Quando os locais de ambas as partes de uma sessão são conhecidos, o bypass de mídia pode determinar para onde enviar mídia para processamento.
+Cada sub-rede em sua rede deve ser associada a um site de rede específico. Isso ocorre porque as informações da sub-rede são usadas para determinar o site de rede no qual um ponto de extremidade está localizado. Quando os locais de ambas as partes em uma sessão são conhecidos, os desvio de mídia pode determinar para onde a mídia é enviada para processamento.
 
-O bypass de mídia não tem nenhum requisito especial para associar sub-redes a sites de rede. Para criar uma associação entre as sub-redes e os sites de rede em sua topologia, siga os procedimentos em [associar uma sub-rede a um site de rede no Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md).
+O desvio de mídia não tem requisitos especiais para associar sub-redes a sites de rede. Para criar uma associação entre as sub-redes e os sites de rede em sua topologia, siga os procedimentos em [associar uma sub-rede a um site de rede no Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md).
 
 <div>
 
-## <a name="next-steps-create-bandwidth-policy-profiles"></a>Próximas etapas: criar perfis de política de largura de banda
+## <a name="next-steps-create-bandwidth-policy-profiles"></a>Próximas etapas: criar perfis de políticas de largura de banda
 
-Depois de associar sub-redes a sites de rede para bypass de mídia, você deve criar um ou mais perfis de política de largura de banda que particionem sub-redes em uma boa conectividade e aquelas sem, para fins de bypass de mídia. Todas as sub-redes dentro de uma região de rede com sites de rede que não têm restrições de largura de banda têm boa conectividade e, portanto, essas sub-redes podem usar o bypass de mídia.
+Depois de associar sub-redes a sites da rede para o desvio de mídia, você deverá criar um ou mais perfis de política de largura de banda que dividirão as sub-redes entre aquelas com boa conectividade e aquelas sem, para fins de desvio de mídia. Todas as sub-redes em uma região com sites de rede que não têm restrições de largura de banda possuem boa conectividade e, portanto, essas sub-redes podem usar o desvio de mídia.
 
-Para obter os procedimentos para configurar perfis de política de largura de banda, consulte [criar perfis de política de largura de banda no Lync Server 2013](lync-server-2013-create-bandwidth-policy-profiles.md).
+Para obter os procedimentos para configurar perfis de política de largura de banda, consulte [Create Bandwidth Policy profiles in Lync Server 2013](lync-server-2013-create-bandwidth-policy-profiles.md).
 
 </div>
 

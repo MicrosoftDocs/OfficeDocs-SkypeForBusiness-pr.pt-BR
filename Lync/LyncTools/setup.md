@@ -1,5 +1,5 @@
 ---
-title: Instalação
+title: Configurar
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541428
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16a23ab96b25fa3ba5da846fc5967053fdac041b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5d09980e7a34e5c565fe8282a665cede654a725a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763981"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038253"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setup"></a>Instalação
+# <a name="setup"></a>Configurar
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41763981"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-04-22_
+_**Última modificação do tópico:** 2014-04-22_
 
-Para instalar as ferramentas fornecidas como parte da ferramenta de stress e desempenho do Lync Server 2013, siga estas instruções.
+Para instalar as ferramentas fornecidas como parte da ferramenta de estresse e desempenho do Lync Server 2013, siga estas instruções.
 
 <div>
 
-## <a name="installing-the-stress-and-performance-tool"></a>Instalar a ferramenta de stress e desempenho
+## <a name="installing-the-stress-and-performance-tool"></a>Instalando a ferramenta de estresse e desempenho
 
 Execute o arquivo do Windows Installer, **CapacityPlanningTool. msi**, em cada computador cliente que você usará para simular o tráfego do usuário. Esses computadores cliente não devem estar executando componentes do Lync Server.
 

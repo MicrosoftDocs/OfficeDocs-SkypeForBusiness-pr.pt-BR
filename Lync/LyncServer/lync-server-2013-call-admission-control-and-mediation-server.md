@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Controle de admissão de chamada e Servidor de Mediação'
+title: 'Lync Server 2013: controle de admissão de chamada e servidor de mediação'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184546
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8aa12bd22f27cbe25946c14ad04977b98025d557
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 16158c8920279d95cfe3deed37f789eaedccc8b5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741761"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044693"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-admission-control-and-mediation-server-in-lync-server-2013"></a>Controle de admissão de chamada e Servidor de Mediação no Lync Server 2013
+# <a name="call-admission-control-and-mediation-server-in-lync-server-2013"></a>Controle de admissão de chamadas e servidor de mediação no Lync Server 2013
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41741761"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-21_
+_**Última modificação do tópico:** 2012-09-21_
 
-O controle de admissão de chamadas (CAC), apresentado primeiro no Lync Server 2010, gerencia a determinação da sessão em tempo real, com base na largura de banda disponível, para ajudar a evitar má qualidade da experiência (QoE) para usuários em redes congestionadas. Para dar suporte a esse recurso, o servidor de mediação, que fornece sinalização e conversão de mídia entre a infraestrutura Enterprise Voice e um gateway ou provedor de entroncamento SIP, é responsável pelo gerenciamento de largura de banda para suas duas interações no Lync Lado do servidor e no lado do gateway. No controle de admissão de chamadas, a entidade de terminação de uma chamada lida com a reserva de largura de banda. Os pares de gateway (gateway PSTN, IP-PBX, SBC) com o qual o servidor de mediação interage no lado do gateway não dão suporte ao controle de admissão de chamadas do Lync Server 2013. Portanto, o servidor de mediação precisa manipular interações de largura de banda em nome de seu peer de gateway. Sempre que possível, o servidor de mediação reservará largura de banda antecipadamente. Se isso não for possível (por exemplo, se a localidade do ponto de extremidade de mídia final no lado do gateway for desconhecido de uma chamada de saída para o par de gateway), a largura de banda será reservada quando a chamada for feita. Esse comportamento poderá resultar em uma inscrição em excesso de assinatura da largura de banda, mas é a única maneira de impedir anéis falsos.
+O CAC (controle de admissão de chamadas), introduzido pela primeira vez no Lync Server 2010, gerencia o estabelecimento de sessão em tempo real, com base na largura de banda disponível, para ajudar a evitar má qualidade da experiência (QoE) para usuários em redes congestionadas. Para dar suporte a esse recurso, o servidor de mediação, que fornece sinalização e conversão de mídia entre a infraestrutura Enterprise Voice e um gateway ou provedor de tronco SIP, é responsável pelo gerenciamento de largura de banda para suas duas interações no Lync Lado do servidor e no lado do gateway. No controle de admissão de chamadas, a entidade de terminação de uma chamada lida com a reserva da largura de banda. Os pares de gateway (gateway PSTN, IP-PBX, SBC) que o servidor de mediação interage no lado do gateway não oferecem suporte ao Lync Server 2013 Call Admission Control. Portanto, o servidor de mediação precisa lidar com as interações de largura de banda em nome de seu ponto de gateway. Sempre que possível, o servidor de mediação reservará a largura de banda antecipadamente. Se isso não for possível (por exemplo, a localidade do ponto de extremidade da mídia final no lado do gateway for desconhecido para uma chamada feita para o par de gateway), a largura de banda será reservada quando a chamada for feita. Esse comportamento pode resultar em uma inscrição em excesso da largura de banda, mas é a única maneira de impedir anéis falsos.
 
-O bypass de mídia e a reserva de largura de banda são mutuamente exclusivos. Se um bypass de mídia for empregado para uma chamada, o controle de admissão de chamadas não será executado para essa chamada. Presume-se que não haja links envolvidos na chamada com a largura de banda restrita. Se o controle de admissão de chamadas for usado para uma chamada específica que envolva o servidor de mediação, essa chamada não poderá empregar o bypass de mídia.
+O bypass de mídia e o modo de reserva da largura de banda são mutuamente exclusivos. Se um bypass de mídia é empregado para uma chamada, o controle de admissão de chamada não é executado para essa chamada. O pressuposto é que não há links com largura de banda restrita envolvidos na chamada. Se o controle de admissão de chamadas for usado para uma chamada específica que envolve o servidor de mediação, essa chamada não poderá empregar o bypass de mídia.
 
-Para obter detalhes sobre o bypass de mídia ou o controle de admissão de chamadas, consulte [planejando a bypass de mídia no Lync server 2013](lync-server-2013-planning-for-media-bypass.md) ou [planejando o controle de admissão de chamadas no Lync Server 2013](lync-server-2013-planning-for-call-admission-control.md) na documentação de planejamento.
+Para obter detalhes sobre o bypass de mídia ou controle de admissão de chamada, consulte [Planning for Media bypass in Lync server 2013](lync-server-2013-planning-for-media-bypass.md) ou [Planning for Call Admission Control in Lync Server 2013](lync-server-2013-planning-for-call-admission-control.md) na documentação de planejamento.
 
 </div>
 

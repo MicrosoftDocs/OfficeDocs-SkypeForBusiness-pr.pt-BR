@@ -12,16 +12,16 @@ ms:contentKeyID: 48184084
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d792626a973a790313b2cdc1bd9df9092175f28a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 99f35087d03b046fade741140dc3f5522e6c6d05
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763805"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038663"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,12 +35,12 @@ ms.locfileid: "41763805"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-02_
+_**Última modificação do tópico:** 2012-10-02_
 
 Sua empresa pode exigir que a central de segurança se envolva em uma chamada de emergência. Para ajudar a decidir como integrar a Central de Segurança à sua implantação do E9-1-1, você deve responder às perguntas a seguir.
 
   - **Você deseja que o suporte de segurança seja notificado quando houver uma chamada de emergência?**  
-    Você pode configurar a política de localização para que o Lync Server envie alertas de mensagens instantâneas aos endereços do Lync SIP de um ou mais funcionários de segurança. Esses alertas contêm o nome, o número e o local da pessoa que está fazendo a chamada de emergência e facilitam a segurança na assistência com a situação de emergência.
+    Você pode configurar a política de local para que o Lync Server envie alertas de mensagens instantâneas (IM) para os endereços SIP do Lync de um ou mais funcionários de segurança. Esses alertas contêm o nome, o número e o local da pessoa que está fazendo a chamada de emergência e facilitam a segurança na assistência com a situação de emergência.
 
 <!-- end list -->
 
@@ -51,7 +51,7 @@ Sua empresa pode exigir que a central de segurança se envolva em uma chamada de
 
 
 > [!NOTE]  
-> Se desejar, você pode configurar uma equipe de segurança diferente para cada política de local. Isso permite personalizar a resposta para áreas diferentes da empresa ou criar um comportamento diferente para chamadas de emergência que originam da parte interna em oposição à parte externa da rede. Você pode usar grupos de distribuição para especificar o pessoal que deseja notificar.
+> Se desejar, você pode configurar uma equipe de segurança diferente para cada política de local. Isso permite personalizar a resposta para áreas diferentes da empresa ou criar um comportamento diferente para chamadas de emergência que originam da parte interna em oposição à parte externa da rede. Você pode usar grupos de distribuição para especificar o pessoal que você deseja notificar.
 
 
 

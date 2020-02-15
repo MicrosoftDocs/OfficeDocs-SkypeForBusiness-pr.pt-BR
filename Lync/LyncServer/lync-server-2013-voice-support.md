@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Suporte à voz'
+title: Lync Server 2013 Voice Support
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185436
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa45aef591c7a8b1ab76c42fa7791adbefee13b7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a696d0ad9ece8d807011c4ff40463b2c574ef81d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758563"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038573"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="voice-support-in-lync-server-2013"></a>Suporte à voz no Lync Server 2013
+# <a name="voice-support-in-lync-server-2013"></a>Suporte de voz no Lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41758563"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-29_
+_**Última modificação do tópico:** 2012-06-29_
 
-Se a sua implantação inclui um pool de front-ends, você pode implantar o suporte para o Enterprise Voice, a solução de voz sobre IP (VoIP) oferecida pela Microsoft. Voz sobre IP (VoIP) é uma alternativa baseada em software para a telefonia tradicional com base em PBX. Embora a experiência de chamada de VoIP seja semelhante à experiência de telefonia tradicional, o Enterprise Voice inclui recursos que permitem comunicação e colaboração mais ricas. Por exemplo, sua implantação do Enterprise Voice pode ser configurada para possibilitar que os usuários do Lync 2013 e do Lync Phone Edition exibam informações de presença ou informações de localização aprimoradas para contatos no catálogo de endereços da sua organização. Alguns recursos do Lync Server 2013 são habilitados por meio da integração com outras cargas de trabalho do Lync Server 2013 e com o Exchange Unified Messaging (UM). Para obter detalhes sobre os recursos e funcionalidades disponíveis com o Enterprise Voice e sobre como planejar a implantação, consulte [planejando o Enterprise Voice no Lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md) na documentação de planejamento.
+Se sua implantação inclui um pool de front-end, é possível implantar o suporte para o Enterprise Voice, a solução Voz por IP (VoIP) oferecida pela Microsoft. O VoIP é uma alternativa baseada em software à telefonia baseada em PBX tradicional. Embora a experiência de chamada VoIP seja semelhante à experiência de telefonia tradicional, o Enterprise Voice inclui recursos que permitem uma comunicação e colaboração avançada. Por exemplo, sua implantação do Enterprise Voice pode ser configurada para possibilitar que os usuários do Lync 2013 e do Lync Phone Edition exibam informações de presença avançadas ou informações de local para contatos no catálogo de endereços da sua organização. Alguns recursos do Lync Server 2013 são habilitados por meio da integração com outras cargas de trabalho do Lync Server 2013 e com a Unificação de mensagens (UM) do Exchange. Para obter detalhes sobre os recursos e funcionalidades disponíveis com o Enterprise Voice e como planejar a implantação, consulte [Planning for Enterprise Voice in Lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md) na documentação de planejamento.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Suporte a tronco SIP no Lync Server 2013](lync-server-2013-sip-trunking-support.md)
+  - [Suporte de tronco SIP no Lync Server 2013](lync-server-2013-sip-trunking-support.md)
 
-  - [Suporte a conexões de SIP Direto no Lync Server 2013](lync-server-2013-direct-sip-connections-support.md)
+  - [Suporte para conexões SIP diretas no Lync Server 2013](lync-server-2013-direct-sip-connections-support.md)
 
-  - [Suporte da Unificação de Mensagens (UM) do Exchange no Lync Server 2013](lync-server-2013-exchange-unified-messaging-um-support.md)
+  - [Suporte à unificação de mensagens (UM) do Exchange no Lync Server 2013](lync-server-2013-exchange-unified-messaging-um-support.md)
 
-  - [Suporte E9-1-1 no Lync Server 2013](lync-server-2013-e9-1-1-support.md)
+  - [Suporte a E9-1-1 no Lync Server 2013](lync-server-2013-e9-1-1-support.md)
 
 </div>
 

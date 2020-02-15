@@ -1,5 +1,5 @@
 ---
-title: Lista de verificação de implantação do Lync Server 2013 para conferência A/V
+title: Lync Server 2013 lista de verificação de implantação para conferência A/V
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733684
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 736719475d77f67932b350e1684b4af26ca2fbd6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5a0c48d78c33c652f7a28e277600fa957cb6fd1f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740781"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043323"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41740781"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-30_
+_**Última modificação do tópico:** 2012-09-30_
 
-Assim como com a implantação de outros componentes do Lync Server 2013, A implantação de uma conferência A/V requer que você use o construtor de topologias para criar e publicar uma topologia que incorpora conferências.
+Assim como a implantação de outros componentes do Lync Server 2013, A implantação de conferência A/V requer que você use o construtor de topologias para criar e publicar uma topologia que incorpore a conferência.
 
 <div>
 
 ## <a name="deployment-sequence"></a>Sequência de implantação
 
-Você pode implantar conferências ao mesmo tempo em que implantar a sua topologia inicial ou depois de implantar pelo menos um pool de front-end ou um servidor Standard Edition.
+Você pode implantar a conferência ao mesmo tempo em que implanta a topologia inicial ou após implantar pelo menos um pool de front-ends ou servidor Standard Edition.
 
 </div>
 
 <div>
 
-## <a name="conferencing-deployment-process"></a>Processo de implantação de conferência
+## <a name="conferencing-deployment-process"></a>Processo de implantação de conferências
 
-A tabela a seguir fornece uma visão geral das etapas necessárias para implantar a conferência em uma topologia existente.
+A tabela a seguir fornece uma visão geral das etapas necessárias para implantar conferências em uma topologia existente.
 
 
 <table>
@@ -65,36 +65,36 @@ A tabela a seguir fornece uma visão geral das etapas necessárias para implanta
 <tr class="header">
 <th>Fase</th>
 <th>Etapas</th>
-<th>Funções e associações de grupo</th>
+<th>Associações a grupos e funções</th>
 <th>Documentação</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>Instalar pré-requisitos de hardware e software</strong></p></td>
-<td><p>A conferência é executada em servidores front-end de um pool de front-end e servidores Standard Edition. Não há requisitos adicionais de hardware ou software além daqueles necessários para instalar esses servidores.</p>
+<td><p>A conferência é executada em servidores front-end de um pool de front-ends e servidores Standard Edition. Não há requisitos adicionais de hardware e software além daqueles para instalar esses servidores.</p>
 <div>
 
 > [!NOTE]  
-> O Lync Server 2013 usa o Office Web Apps e o Office Web Apps Server para lidar com o compartilhamento e a renderização de apresentações do PowerPoint. Para obter detalhes sobre como instalar e configurar o Office Web Apps Server, consulte <A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Configurando a integração com o Office Web Apps Server e o Lync Server 2013</A>.
+> O Lync Server 2013 usa o Office Web Apps e o servidor do Office Web Apps para lidar com o compartilhamento e a renderização de apresentações do PowerPoint. Para obter detalhes sobre como instalar e configurar o servidor do Office Web Apps, consulte <A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Configurando a integração com o servidor do Office Web Apps e o Lync Server 2013</A>.
 
 
 </div></td>
-<td><p>Domínio do usuário que é membro do grupo local de Administradores</p></td>
-<td><p><a href="lync-server-2013-supported-hardware.md">Hardware com suporte para o Lync Server 2013</a> na documentação de suporte</p>
-<p><a href="lync-server-2013-server-software-and-infrastructure-support.md">Suporte de software e infraestrutura do servidor no Lync Server 2013</a> na documentação de suporte</p>
-<p><a href="lync-server-2013-determining-your-system-requirements.md">Determinação dos requisitos do sistema para o Lync Server 2013</a> na documentação de planejamento.</p>
+<td><p>Usuário do domínio que é membro do grupo local de Administradores</p></td>
+<td><p><a href="lync-server-2013-supported-hardware.md">Hardware suportado para o Lync Server 2013</a> na documentação de suporte</p>
+<p><a href="lync-server-2013-server-software-and-infrastructure-support.md">Suporte a infraestrutura e software de servidor no Lync Server 2013</a> na documentação de suporte</p>
+<p><a href="lync-server-2013-determining-your-system-requirements.md">Determinando os requisitos do sistema para o Lync Server 2013</a> na documentação de planejamento.</p>
 <p><a href="lync-server-2013-technical-requirements-for-archiving.md">Requisitos técnicos para arquivamento no Lync Server 2013</a> na documentação de planejamento.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Crie a topologia interna apropriada para dar suporte à conferência</strong></p></td>
-<td><p>Execute o construtor de topologias para adicionar conferências à topologia e, em seguida, publique a topologia.</p></td>
+<td><p><strong>Crie a topologia interna apropriada para dar suporte a conferências</strong></p></td>
+<td><p>Execute o construtor de topologias para adicionar a conferência à topologia e, em seguida, publique a topologia.</p></td>
 <td><p>Para definir a topologia, uma conta que é membro do grupo local de Usuários</p>
-<p>Para publicar a topologia, uma conta que é membro do grupo Domain admins e do grupo RTCUniversalServerAdmins e que tem permissões de controle total (ler/gravar/modificar) no compartilhamento de arquivos a ser usado para o repositório de arquivos do Lync Server 2013 (para que o construtor de topologias possa configurar as DACLs necessárias)</p></td>
-<td><p><a href="lync-server-2013-define-and-configure-a-topology-in-topology-builder.md">Defina e configure uma topologia no construtor de topologias para o Lync Server 2013</a> na documentação de implantação.</p></td>
+<p>Para publicar a topologia, uma conta que é membro do grupo de administradores de domínio e do grupo RTCUniversalServerAdmins e que tem permissões de controle total (ler/gravar/modificar) no compartilhamento de arquivo a ser usado para o repositório de arquivos do Lync Server 2013 (de modo que o construtor de topologias possa configurar as DACLs necessárias)</p></td>
+<td><p><a href="lync-server-2013-define-and-configure-a-topology-in-topology-builder.md">Definir e configurar uma topologia no construtor de topologias para o Lync Server 2013</a> na documentação de implantação.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Configurar políticas de conferência e suporte</strong></p></td>
+<td><p><strong>Configurar políticas e suporte de conferências</strong></p></td>
 <td><p>Use o painel de controle do Lync Server 2013 ou o Shell de gerenciamento do Lync Server para definir as configurações de conferência.</p></td>
 <td><p>Grupo RTCUniversalServerAdmins (somente Windows PowerShell) ou atribuir usuários à função [] ou CSAdministrator</p></td>
 <td><p><a href="lync-server-2013-conferencing-policies.md">Políticas de conferência no Lync Server 2013</a> na documentação de operações.</p></td>
@@ -110,8 +110,8 @@ A tabela a seguir fornece uma visão geral das etapas necessárias para implanta
 ## <a name="see-also"></a>Confira também
 
 
-[Visão geral de conferência no Lync Server 2013](lync-server-2013-overview-of-conferencing.md)  
-[Definindo seus requisitos para conferência no Lync Server 2013](lync-server-2013-defining-your-requirements-for-conferencing.md)  
+[Visão geral da conferência no Lync Server 2013](lync-server-2013-overview-of-conferencing.md)  
+[Definindo seus requisitos de conferência no Lync Server 2013](lync-server-2013-defining-your-requirements-for-conferencing.md)  
   
 
 </div>

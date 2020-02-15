@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Topologias de referência'
+title: Topologias de referência do Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183544
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6bc7f3838cef5689cab0a81b59556c147f3588c3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 145b5855f4576e68517e4bd837671000fb4a97e3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724411"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037063"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41724411"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-05-21_
+_**Última modificação do tópico:** 2012-05-21_
 
-A topologia ideal do Lync Server depende do tamanho da sua organização, das cargas de trabalho que você deseja implantar e das preferências de alta disponibilidade versus custo do investimento.
+A topologia ideal do Lync Server depende do tamanho da sua organização, das cargas de trabalho que você deseja implantar e das suas preferências de alta disponibilidade versus custo do investimento.
 
-Os tópicos a seguir descrevem três topologias de referência, incluindo o motivo por trás de muitas das decisões que direcionam os requisitos para cada topologia.
+Os tópicos a seguir descrevem três topologias de referência, incluindo o raciocínio por trás de muitas das decisões que determinam os requisitos para cada topologia.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Topologia de referência para o Lync Server 2013 em pequenas organizações](lync-server-2013-reference-topology-for-small-organizations.md)
+  - [Topologia de referência para Lync Server 2013 em pequenas organizações](lync-server-2013-reference-topology-for-small-organizations.md)
 
   - [Topologia de referência para Lync Server 2013 em organizações de médio porte](lync-server-2013-reference-topology-for-medium-size-organizations.md)
 

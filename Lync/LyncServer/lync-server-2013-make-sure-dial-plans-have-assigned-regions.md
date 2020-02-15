@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Certifique-se de que os planos de discagem têm opções atribuídas'
+title: 'Lync Server 2013: Certifique-se de que os planos de discagem tenham regiões atribuídas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183937
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd8790671157b823464a3b4b594ea8428a888f46
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f25ca766ab7292aeeba0d2e621eccff5a0c47fb8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739601"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037561"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="make-sure-dial-plans-lync-server-2013-have-assigned-regions"></a>Verifique se os planos de discagem do Lync Server 2013 atribuiram regiões
+# <a name="make-sure-dial-plans-lync-server-2013-have-assigned-regions"></a>Verifique se os planos de discagem Lync Server 2013 possuem regiões atribuídas
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41739601"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2010-11-02_
+_**Última modificação do tópico:** 2010-11-02_
 
-Os planos de discagem que são usados para conferência discada precisam ter uma **região de conferência discada** especificada para associar números de acesso à conferência discada com o plano de discagem apropriado. Ao configurar um plano de discagem, você especifica a região de conferência discada que se aplica ao plano de discagem. Em seguida, ao criar o número de acesso de discagem, selecione as regiões que associam o número de acesso com os planos de discagem apropriados.
+Os planos de discagem que serão usados em conferências discadas precisam ter uma **Região de conferência discada** especificada para associar os números de acesso de conferência discada ao plano de discagem apropriado. Ao configurar um plano de discagem, especifique a região de conferência discada que se aplica ao plano de discagem. Em seguida, ao criar o número de acesso discado, selecione as regiões que associam esse número de acesso aos planos de discagem apropriados.
 
-Como é importante especificar uma região para todos os planos de discagem, recomendamos que você use este procedimento para verificar se todos os planos de discagem têm regiões. Esta etapa é opcional.
+Como é importante especificar uma região para todos os planos de discagem, recomendamos usar este procedimento para verificar se todos os planos de discagem têm regiões. Esta etapa é opcional.
 
-Use o cmdlet **Get-CsDialPlan** para verificar se a região está definida para todos os planos de discagem de conferência discada. Se a região não existir nos planos de discagem, você poderá usar o cmdlet **Set-CsDialPlan** para defini-la. Você também pode usar o painel de controle do Lync Server para atualizar a região em planos de discagem existentes. Para obter detalhes sobre como usar o painel de controle do Lync Server, consulte [modificar um plano de discagem no Lync Server 2013](lync-server-2013-modify-a-dial-plan.md).
+Use o cmdlet **Get-CsDialPlan** para verificar se a região está definida para todos os planos de discagem da conferência discada. Se a região não existir nos planos de discagem, você poderá usar o cmdlet **Set-CsDialPlan** para defini-la. Você também pode usar o painel de controle do Lync Server para atualizar a região em planos de discagem existentes. Para obter detalhes sobre como usar o painel de controle do Lync Server, consulte [modificar um plano de discagem no Lync Server 2013](lync-server-2013-modify-a-dial-plan.md).
 
 <div>
 
 ## <a name="to-verify-whether-dial-plans-have-the-region-property-set"></a>Para verificar se os planos de discagem têm a propriedade de região definida
 
-1.  Efetue logon no computador como membro do grupo RTCUniversalServerAdmins ou como membro da função **Cs-VoiceAdministrator**, **Cs-ServerAdministrator**ou **CsAdministrator**.
+1.  Efetue logon no computador como membro do grupo RTCUniversalServerAdmins ou como membro da função **Cs-VoiceAdministrator**, **Cs-ServerAdministrator** ou **CsAdministrator**.
 
-2.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+2.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 3.  Execute o seguinte no prompt de comando:
     
@@ -61,7 +61,7 @@ Use o cmdlet **Get-CsDialPlan** para verificar se a região está definida para 
     
     Neste exemplo, todos os planos de discagem configurados para sua organização são retornados.
 
-4.  Revise os planos de discagem retornados para identificar todos que estão faltando na região da conferência discada. Para obter detalhes, consulte a documentação do Shell de gerenciamento do Lync Server.
+4.  Revise os planos de discagem retornados para identificar todos que estão faltando na região da conferência discada. Para obter detalhes, consulte a documentação do Shell de Gerenciamento do Lync Server.
 
 </div>
 
@@ -69,9 +69,9 @@ Use o cmdlet **Get-CsDialPlan** para verificar se a região está definida para 
 
 ## <a name="to-set-the-region-property-for-a-dial-plan"></a>Para definir a propriedade de região de um plano de discagem
 
-1.  Efetue logon no computador como membro do grupo RTCUniversalServerAdmins ou como membro da função **Cs-VoiceAdministrator**, **Cs-ServerAdministrator**ou **CsAdministrator**.
+1.  Efetue logon no computador como membro do grupo RTCUniversalServerAdmins ou como membro da função **Cs-VoiceAdministrator**, **Cs-ServerAdministrator** ou **CsAdministrator**.
 
-2.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+2.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 3.  Para todos os planos de discagem que não têm a região de conferência discada, execute:
     
@@ -81,7 +81,7 @@ Use o cmdlet **Get-CsDialPlan** para verificar se a região está definida para 
     
         Set-CsDialPlan -Identity Redmond -DialinConferencingRegion "US West Coast"
     
-    Neste exemplo, o plano de discagem com Identidade de Redmond é modificado para definir a propriedade DialinConferencingRegion como "Costa Leste dos EUA". Para obter detalhes, consulte a documentação do Shell de gerenciamento do Lync Server.
+    Neste exemplo, o plano de discagem com Identidade de Redmond é modificado para definir a propriedade DialinConferencingRegion como "Costa Leste dos EUA". Para obter detalhes, consulte a documentação do Shell de Gerenciamento do Lync Server.
 
 </div>
 

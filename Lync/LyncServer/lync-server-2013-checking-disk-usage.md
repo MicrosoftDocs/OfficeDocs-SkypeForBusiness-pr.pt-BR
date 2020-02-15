@@ -12,20 +12,20 @@ ms:contentKeyID: 63969578
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 554b493ba7ca837a8ea5c80f6751ddb91061c374
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8532b15ac45033d966c772e6ab23403d709ed790
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726691"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045673"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="checking-disk-usage-in-lync-server-2013"></a>Verificando o uso do disco no Lync Server 2013
+# <a name="checking-disk-usage-in-lync-server-2013"></a>Verificar o uso do disco no Lync Server 2013
 
 </div>
 
@@ -35,41 +35,41 @@ ms.locfileid: "41726691"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-04-30_
+_**Última modificação do tópico:** 2014-04-30_
 
-Unidades de discos rígidos são um componente importante da implantação do Lync Server 2013. Sem um volume de disco livre suficiente, nem o sistema operacional nem os bancos de dados do Lync Server 2013 podem funcionar corretamente. Você deve monitorar as estatísticas de banco de dados de back-end do Lync Server 2013 diariamente para ajudar a garantir que os servidores não fiquem sem espaço em disco e para se preparar para adicionar recursos de armazenamento conforme necessário.
+Unidades de discos rígidos são um componente importante da implantação do Lync Server 2013. Sem um volume de disco livre suficiente, nem os bancos de dados do sistema operacional nem do Lync Server 2013 podem funcionar corretamente. Você deve monitorar as estatísticas de banco de dados de back-end do Lync Server 2013 diariamente para ajudar a garantir que os servidores não fique sem espaço em disco e para se preparar para adicionar recursos de armazenamento conforme necessário.
 
-Além de verificar o espaço em discos que hospedam o sistema operacional, arquivos de programas, banco de dados e logs de transações (Lync Server 2013 back-end), você também deve monitorar o uso do sistema de arquivos que inclui espaço em disco para compartilhamentos de arquivos que contenham as seguintes importantes dados
+Além de verificar o espaço em discos que hospedam o sistema operacional, arquivos de programas, bancos de dados e logs de transações (Lync Server 2013 back-end), você também deve monitorar o uso do sistema de arquivos que inclui o espaço em disco para compartilhamentos de arquivos que contenham as seguintes importantes os
 
-  - Conteúdo da reunião
+  - Conteúdo de reunião
 
   - Metadados de conteúdo da reunião
 
-  - Registros de conformidade para reuniões
+  - Cumprir logs de conformidade
 
   - Arquivos de dados de aplicativo (usados internamente pelo componente de servidor de aplicativos)
 
-  - Serviço Web e pastas de conformidade do servidor de chat em grupo (para armazenar arquivos carregados no serviço Web de chat de grupo)
+  - Serviço Web de servidor de chat de grupo e pastas de conformidade (para armazenar arquivos carregados no serviço Web de chat de grupo)
 
-  - Arquivos XML de conformidade de chat em grupo (que contêm registros de conformidade de chat em grupo)
+  - Arquivos XML de conformidade de chat de grupo (que contêm registros de conformidade de chat de grupo)
 
   - Atualizar arquivos (para o serviço de atualização de dispositivo)
 
-  - Arquivos do catálogo de endereços
+  - Arquivos de Catálogo de endereços
 
-O Lync Server 2013 precisa do espaço do disco rígido para armazenar seus bancos de dados e logs de transação, além de arquivos em compartilhamento de arquivos listados anteriormente.
+O Lync Server 2013 precisa de espaço em disco rígido para armazenar seus bancos de dados e logs de transações, além de arquivos em compartilhamentos de arquivos listados anteriormente.
 
-Você deve monitorar o espaço em disco regularmente para ajudar a garantir que a implantação do Lync Server 2013 não seja afetada de forma adversa devido a recursos de armazenamento insuficientes.
+Você deve monitorar o espaço em disco regularmente para ajudar a garantir que a implantação do Lync Server 2013 não seja prejudicada devido a recursos de armazenamento insuficientes.
 
-Comparar e manter as informações estatísticas sobre o espaço disponível em disco em cada volume do Lync Server 2013 e o crescimento esperado dos arquivos de log de transação e bancos de dados. Isso ajuda a planejar a capacidade e a adicionar armazenamento quando os recursos de armazenamento são necessários.
+Comparar e manter informações estatísticas sobre o espaço em disco disponível em cada volume do Lync Server 2013 e o crescimento esperado dos arquivos de log de transações e bancos de dados. Isso ajuda no planejamento da capacidade e na adição de armazenamento quando os recursos de armazenamento são necessários.
 
-Para acomodar as situações de solução de problemas e recuperação de desastres, recomendamos que o espaço disponível no volume seja igual ou superior a 110% do tamanho do banco de dados.
+Para acomodar as situações de solução de problemas e recuperação de desastre, recomendamos que o espaço disponível no volume seja igual ou maior que 110 por cento do tamanho do banco de dados.
 
-Você pode verificar o espaço livre em disco usando os seguintes métodos:
+Você pode verificar o espaço em disco usando os métodos a seguir:
 
-1.  **O System Center Operations Manager**   System Center Operations Manager pode ser usado para avisar os administradores quando o espaço do volume estiver restrito.
+1.  **O System Center Operations Manager**   System Center Operations Manager pode ser usado para avisar aos administradores quando o espaço do volume é restrito.
 
-2.  **Executar um script**   monitorar espaço em disco executando um script que envia a você uma mensagem se o espaço disponível no disco rígido ficar abaixo de 20%. Você pode encontrar um exemplo de script no Microsoft Script Center no TechNet, examine:[http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)
+2.  **Executar um script**   monitor Disk Space executando um script que envia uma mensagem se o espaço disponível no disco rígido estiver abaixo de 20 por cento. Você pode encontrar um script de exemplo no Microsoft Script Center no TechNet, examinar:[http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)
 
 3.  **O Windows Explorer**   usa o Windows Explorer para verificar o espaço em disco em volumes que armazenam logs e bancos de dados do Lync Server 2013.
 

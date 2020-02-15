@@ -12,16 +12,16 @@ ms:contentKeyID: 51541529
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13bd822dda38dd3b6cb5d6b801460ad463375e62
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 47639ea1e158ce5cb4e6463b1fb953fc50412c79
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729841"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037671"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41729841"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-22_
+_**Última modificação do tópico:** 2013-02-22_
 
-O recebimento de chamadas em grupo é baseado no aplicativo parque de chamadas. Ao implantar o recurso de recebimento de chamadas em grupo, configure a tabela órbita do estacionamento de chamada com intervalos de números de telefone designados como números de grupo de recebimento de chamadas. Esses números do grupo são aqueles que os usuários discam para receber chamadas que estão tocando para outro usuário.
+O recebimento de chamadas em grupo é baseado no aplicativo de estacionamento de chamada. Ao implantar o recebimento de chamadas em grupo, você configura a tabela de órbita de estacionamento de chamada com intervalos de números de telefone designados como números de grupo de recebimento de chamada. Esses números de grupo são os números que os usuários discam para pegar chamadas que estejam tocando para outro usuário.
 
-Como os números da órbita de estacionamento de chamada, os números do grupo de recebimento de chamada precisam ser extensões virtuais, sem nenhum usuário ou telefone atribuído. Cada pool de front-ends onde você implanta o recebimento de chamadas em grupo pode ter um ou mais intervalos de números de grupo de recebimento de chamadas. Os intervalos de números de grupo devem ser globalmente exclusivos na implantação do Lync Server.
+Como números de órbita de estacionamento de chamada, os números de grupo de recebimento de chamada precisam ser extensões virtuais que não têm nenhum usuário ou telefone atribuído a eles. Cada pool de front-ends onde você implanta o recebimento de chamadas em grupo pode ter um ou mais intervalos de números de grupo de recebimento de chamada. Os intervalos de números de grupo devem ser globalmente exclusivos na implantação do Lync Server.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Create or modify a Group Call Pickup number range in Lync Server 2013](lync-server-2013-create-or-modify-a-group-call-pickup-number-range.md)
+  - [Criar ou modificar um intervalo de números de recebimento de chamadas em grupo no Lync Server 2013](lync-server-2013-create-or-modify-a-group-call-pickup-number-range.md)
 
-  - [Excluir um intervalo de números de retirada de chamadas em grupo no Lync Server 2013](lync-server-2013-delete-a-group-call-pickup-number-range.md)
+  - [Excluir um intervalo de números de recebimento de chamadas em grupo no Lync Server 2013](lync-server-2013-delete-a-group-call-pickup-number-range.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Protegendo o IIS'
+title: 'Lync Server 2013: protegendo o IIS'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 62625492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03d0f3e736284970bf22fe813093e0e54accd29e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 612945a8ad69cffa8401cb64367d8b860d556a19
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724781"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043793"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41724781"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-12-05_
+_**Última modificação do tópico:** 2013-12-05_
 
-No Microsoft Office Communications Server 2007 e no Microsoft Office Communications Server 2007 R2, os serviços de informações da Internet (IIS) são executados em uma conta de usuário padrão. Isso teve o potencial de causar problemas: se essa senha tiver expirado, você poderá perder seus serviços Web, um problema que muitas vezes era difícil de diagnosticar. Para ajudar a evitar o problema de senhas expiradas, o Microsoft Lync Server 2013 permite que você crie uma conta de computador (para um computador que não existe realmente) que possa servir como a entidade de autenticação para todos os computadores em um site que executa o IIS. Como essas contas utilizam o protocolo de autenticação Kerberos, elas são referidas como contas Kerberos e o novo processo de autenticação é conhecido como autenticação Kerberos de Web. Isso permite gerenciar todos os servidores IIS usando uma única conta.
+No Microsoft Office Communications Server 2007 e no Microsoft Office Communications Server 2007 R2, o IIS (serviços de informações da Internet) é executado sob uma conta de usuário padrão. Isso poderia causar problemas: se a senha tiver expirado, você poderia perder os Serviços Web, um problema que geralmente era difícil de diagnosticar. Para ajudar a evitar o problema de expirar senhas, o Microsoft Lync Server 2013 permite que você crie uma conta de computador (para um computador que não existe realmente) que possa servir como a entidade de autenticação para todos os computadores em um site que executa o IIS. Como essas contas utilizam o protocolo de autenticação Kerberos, elas são referidas como contas Kerberos e o novo processo de autenticação é conhecido como autenticação Kerberos de Web. Isso permite que você gerencie todos seus servidores IIS usando uma única conta.
 
-Para executar seus servidores nesse objeto de autenticação, primeiro você deve criar uma conta de computador usando o cmdlet New-CsKerberosAccount; Esta conta é atribuída a um ou mais sites. Após a atribuição ter sido feita, a associação entre a conta e o site do Lync Server 2013 será habilitada executando o cmdlet Enable-CsTopology. Entre outras coisas, isso cria o SPN (nome da entidade de serviço) obrigatório nos serviços de domínio Active Directory (AD DS). Os SPNs proporcionam aos aplicativos cliente uma maneira de localizar um determinado serviço. Para obter detalhes, consulte [New-CsKerberosAccount](https://docs.microsoft.com/powershell/module/skype/New-CsKerberosAccount) na documentação de operações.
+Para executar os servidores sob essa entidade de autenticação, primeiro você deve criar uma conta de computador usando o cmdlet New-CsKerberosAccount; essa conta é então atribuída a um ou mais sites. Após a atribuição ter sido feita, a associação entre a conta e o site do Lync Server 2013 será habilitada executando o cmdlet Enable-CsTopology. Entre outras coisas, isso cria o SPN (nome da entidade de serviço) no AD DS (Serviços de Domínio Active Directory). Os SPNs fornecem uma maneira para os aplicativos cliente localizarem um determinado serviço. Para obter detalhes, consulte [New-CsKerberosAccount](https://docs.microsoft.com/powershell/module/skype/New-CsKerberosAccount) na documentação de Operações.
 
 <div>
 
 ## <a name="best-practices"></a>Práticas recomendadas
 
-Para ajudar a aumentar a segurança do IIS, recomendamos que você implemente uma conta Kerberos para o IIS. Se você não implementar uma conta Kerberos, o IIS será executado em uma conta de usuário padrão.
+Para ajudar a aumentar a segurança do IIS, recomendamos que você implemente uma conta Kerberos para o IIS. Se você não implementar uma conta Kerberos, o IIS será executado sob uma conta de usuário padrão.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurando cenários para o serviço de log centralizado'
+title: 'Lync Server 2013: Configurando cenários para o serviço de registro em log centralizado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd3933ff81fad6947fcc4ab1ff7a7dc9ad136c39
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6a39bcd23516970edf1c4694a8eff1ecb682eda1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739221"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041020"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-scenarios-for-the-centralized-logging-service-in-lync-server-2013"></a>Configurar cenários para o serviço de log centralizado no Lync Server 2013
+# <a name="configuring-scenarios-for-the-centralized-logging-service-in-lync-server-2013"></a>Configurando cenários para o serviço de registro em log centralizado no Lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41739221"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-02-05_
+_**Última modificação do tópico:** 2014-02-05_
 
-Cenários definem o escopo (ou seja, global, site, pool ou computador) e quais provedores usar no serviço de log centralizado. Ao utilizar cenários, você habilita ou desabilita o rastreamento em provedores (por exemplo, S4, SIPStack, mensagens instantâneas e Presença). Ao configurar um cenário, você pode agrupar todos os provedores de uma determinada coleção lógica que aborda uma condição de problema específica. Se você descobrir que um cenário precisa ser modificado para atender às suas necessidades de solução de problemas e log, as ferramentas de depuração do Lync Server 2013 fornecem um módulo do Windows PowerShell chamado *ClsController. psm1* que contém uma função nomeada *Edit-CsClsScenario*. O objetivo do módulo é editar as propriedades do cenário nomeado. Exemplos do funcionamento desse módulo são fornecidos neste tópico. As ferramentas de depuração do Lync Server 2013 são baixadas do link a seguir:[http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257)
+Os cenários definem o escopo (ou seja, global, site, pool ou computador) e quais provedores usar no serviço de registro em log centralizado. Usando cenários, você habilita e desabilita o rastreamento nos provedores (por exemplo, S4, SIPStack, mensagens instantâneas e presença). Ao configurar um cenário, você pode agrupar todos os provedores de determinado conjunto lógico que tratam um problema específico. Se você achar que um cenário precisa ser modificado para atender às suas necessidades de solução de problemas e log, as ferramentas de depuração do Lync Server 2013 fornecem um módulo do Windows PowerShell chamado *ClsController. psm1* que contém uma função chamada *Edit-CsClsScenario*. A finalidade desse módulo é editar as propriedades do cenário nomeado. Neste tópico, serão fornecidos exemplos de como esse módulo funciona. As ferramentas de depuração do Lync Server 2013 são baixadas do seguinte link:[http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257)
 
 <div>
 
 
 > [!IMPORTANT]  
-> Seja qual for o escopo (global, site, pool ou computador), é possível executar no máximo dois cenários por vez. Para determinar quais cenários estão sendo executados no momento, use o Windows PowerShell e <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsClsScenario">Get-CsClsScenario</A>. Usando o Windows PowerShell e o <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsClsScenario">set-CsClsScenario</A>, você pode alterar dinamicamente quais cenários estão em execução. Você pode modificar quais cenários estão em execução durante uma sessão de registro em log para ajustar ou refinar os dados coletados e de quais provedores.
+> Para qualquer dado escopo (global, site, pool ou computador), é possível executar no máximo dois cenários por vez. Para determinar quais cenários estão em execução no momento, use o Windows PowerShell e o <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsClsScenario">Get-CsClsScenario</A>. Usando o Windows PowerShell e o <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsClsScenario">set-CsClsScenario</A>, você pode alterar dinamicamente quais cenários estão em execução. Você pode modificar quais cenários estão em execução durante uma sessão de registro em log para ajustar ou refinar os dados coletados e de quais provedores.
 
 
 
 </div>
 
-Para executar as funções de serviço de log centralizado usando o Shell de gerenciamento do Lync Server, você deve ser membro do grupo de segurança CsAdministrator ou do controle de acesso baseado em função do CsServerAdministrator (RBAC) ou uma função RBAC personalizada que contenha um desses dois grupos. Para retornar uma lista de todas as funções RBAC às quais esse cmdlet foi atribuído, incluindo qualquer função RBAC personalizada que você tenha criado, execute o seguinte comando no Shell de gerenciamento do Lync Server ou no prompt do Windows PowerShell:
+Para executar as funções de serviço de registro centralizado usando o Shell de gerenciamento do Lync Server, você deve ser membro dos grupos de segurança do controle de acesso baseado em função do CsAdministrator ou do CsServerAdministrator, ou uma função RBAC personalizada que contenha desses dois grupos. Para retornar uma lista de todas as funções RBAC às quais este cmdlet foi atribuído, incluindo qualquer função RBAC personalizada que você criou sozinho, execute o seguinte comando no Shell de gerenciamento do Lync Server ou no prompt do Windows PowerShell:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Lync Server 2013 cmdlet"}
 
@@ -57,11 +57,11 @@ Por exemplo:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
-O restante deste tópico concentra-se em como definir um cenário, modificar um cenário, determinar quais cenários estão em execução e especificar o que está contido em um cenário para otimizar a solução de problemas. Há duas maneiras de emitir comandos de serviço de log centralizado. Você pode usar o CLSController. exe localizado, por padrão, no\\diretório C: Arquivos de programas\\comuns\\Microsoft Lync Server 2013\\CLSAgent. Ou você pode usar o Shell de gerenciamento do Lync Server para emitir comandos do Windows PowerShell. A diferença importante é que, quando você usa o CLSController. exe na linha de comando, há uma seleção finita de cenários disponíveis. Ao usar o Windows PowerShell, você pode definir novos cenários para usar em suas sessões de registro em log.
+O restante deste tópico se concentra em como definir um cenário, modificar um cenário, recuperar quais cenários estão em execução, remover um cenário e especificar o que um cenário contém para otimizar a solução de problemas. Há duas maneiras de emitir comandos de serviço de registro centralizado. Você pode usar o CLSController. exe localizado, por padrão, no\\diretório C: Arquivos de programas\\comuns\\do Microsoft Lync Server 2013\\CLSAgent. Ou você pode usar o Shell de gerenciamento do Lync Server para emitir comandos do Windows PowerShell. A distinção importante é que, quando você usa o CLSController. exe na linha de comando, há uma seleção finita de cenários disponíveis. Ao usar o Windows PowerShell, você pode definir novos cenários para usar em suas sessões de registro em log.
 
-Como apresentado na [visão geral do serviço de log centralizado no Lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md), os elementos de um cenário são:
+Como apresentado na [visão geral do serviço de registro em log centralizado no Lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md), os elementos de um cenário são:
 
-  - **Provedores**   se você estiver familiarizado com o OCSLogger, os provedores são os componentes que você escolhe para OCSLogger o que o mecanismo de rastreamento deve coletar logs. Os provedores são os mesmos componentes e, em muitos casos, têm o mesmo nome que os componentes do OCSLogger. Se você não estiver familiarizado com o OCSLogger, os provedores são componentes específicos de função de servidor que o serviço de log centralizado pode coletar logs. Para obter detalhes sobre a configuração de provedores, consulte [Configurando provedores para o serviço de log centralizado no Lync Server 2013](lync-server-2013-configuring-providers-for-centralized-logging-service.md).
+  - **Provedores**   se você estiver familiarizado com o OCSLogger, os provedores são os componentes que você escolhe para informar ao OCSLogger de que o mecanismo de rastreamento deve coletar logs. Os provedores são os mesmos componentes e, em muitos casos, têm o mesmo nome que os componentes do OCSLogger. Se você não estiver familiarizado com o OCSLogger, os provedores são componentes específicos de função de servidor que o serviço de registro em log centralizado pode coletar logs. Para obter detalhes sobre a configuração de provedores, consulte [Configuring Providers for central Logging Service in Lync Server 2013](lync-server-2013-configuring-providers-for-centralized-logging-service.md).
 
   - **Identity**   o parâmetro – Identity define o escopo e o nome do cenário. Por exemplo, você pode definir um escopo "global" e identificar o cenário como “LyssServiceScenario”. Ao combinar os dois, você define a identidade (por exemplo, “global/LyssServiceScenario”).
     
@@ -80,9 +80,9 @@ Como apresentado na [visão geral do serviço de log centralizado no Lync Server
 
 ## <a name="to-create-a-new-scenario-with-the-new-csclsscenario-cmdlet"></a>Para criar um novo cenário com o cmdlet New-CsClsScenario
 
-1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
-2.  Para criar um novo cenário para uma sessão de registro em log, use [New-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/New-CsClsProvider) e defina o nome do cenário (ou seja, como ele será identificado exclusivamente). Escolha um tipo de formato de registro em log entre WPP (ou seja, o pré-processador de rastreamento de software do Windows, que é o padrão), EventLog (ou seja, o formato de log de eventos do Windows) ou IISLog (ou seja, o arquivo de formato ASCII baseado no formato de arquivo de log do IIS). Em seguida, defina o nível (conforme definido em Níveis de registro em log, neste tópico) e os sinalizadores (conforme definido em Sinalizadores, neste tópico).
+2.  Para criar um novo cenário para uma sessão de registro em log, use [New-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/New-CsClsProvider) e defina o nome do cenário (ou seja, como ele será identificado exclusivamente). Escolha um tipo de formato de registro em log entre WPP (ou seja, o pré-processador de rastreamento de software do Windows, que é o padrão), EventLog (ou seja, o formato de log de eventos do Windows) ou IISLog (ou seja, o arquivo de formato ASCII baseado no formato de arquivo de log do IIS). Em seguida, defina o nível (conforme definido em Níveis de registro em log neste tópico) e os sinalizadores (conforme definido em Sinalizadores neste tópico).
     
     Para este cenário de exemplo, usaremos LyssProvider como a variável de provedor de exemplo.
     
@@ -104,9 +104,9 @@ Como apresentado na [visão geral do serviço de log centralizado no Lync Server
 
 ## <a name="to-create-a-new-scenario-with-multiple-providers-with-the-new-csclsscenario-cmdlet"></a>Para criar um novo cenário com vários provedores usando o cmdlet New-CsClsScenario
 
-1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
-2.  Há um limite de dois cenários por escopo. No entanto, não há um limite quanto ao número de provedores. Neste exemplo, vamos supor que criamos três provedores e você deseja atribuir todos eles ao cenário que está definindo. Os nomes das variáveis dos provedores são LyssProvider, ABServerProvider e SIPStackProvider. Para definir e atribuir vários provedores a um cenário, digite o seguinte em um shell de gerenciamento do Lync Server ou prompt de comando do Windows PowerShell:
+2.  Há um limite de dois cenários por escopo. No entanto, não há um limite quanto ao número de provedores. Neste exemplo, suponha que criamos três provedores e você deseja atribuir todos eles ao cenário que está definindo. Os nomes das variáveis dos provedores são LyssProvider, ABServerProvider e SIPStackProvider. Para definir e atribuir vários provedores a um cenário, digite o seguinte em um shell de gerenciamento do Lync Server ou prompt de comando do Windows PowerShell:
     
         New-CsClsScenario -Identity "site:Redmond/CollectDataScenario" -Provider @{Add=$LyssProvider, $ABServerProvider,  $SIPStackProvider}
     
@@ -125,7 +125,7 @@ Como apresentado na [visão geral do serviço de log centralizado no Lync Server
 
 ## <a name="to-modify-an-existing-scenario-with-the-set-csclsscenario-cmdlet"></a>Para modificar um cenário existente com o cmdlet Set-CsClsScenario
 
-1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 2.  Há um limite de dois cenários por escopo. Você pode alterar quais cenários estão em execução a qualquer momento, mesmo quando uma sessão de coleta de log está em andamento. Se você redefinir os cenários em execução, a sessão de registro em log atual parará de usar o cenário que foi removido e começará a usar o novo cenário. No entanto, as informações de log que já foram coletadas com o cenário removido permanecerão nos logs coletados. Para definir um novo cenário, faça o seguinte (pressupondo a adição de um provedor já definido chamado “S4Provider”):
     
@@ -153,7 +153,7 @@ Como apresentado na [visão geral do serviço de log centralizado no Lync Server
 
 ## <a name="to-remove-an-existing-scenario-with-the-remove-csclsscenario-cmdlet"></a>Para remover um cenário existente com o cmdlet Remove-CsClsScenario
 
-1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 2.  Se você desejar remover um cenário que foi definido anteriormente, digite o seguinte:
     
@@ -169,15 +169,15 @@ O cmdlet **Remove-CsClsScenario** remove o cenário especificado, mas os rastrea
 
 <div>
 
-## <a name="to-load-and-unload-the-edit-csclsscenario-cmdlet-using-the-clscontrollerpsm1-module"></a>Para carregar e descarregar o cmdlet Edit-CsClsScenario usando o módulo ClsController. psm1
+## <a name="to-load-and-unload-the-edit-csclsscenario-cmdlet-using-the-clscontrollerpsm1-module"></a>Para carregar e descarregar o cmdlet Edit-CsClsScenario usando o módulo ClsController.psm1
 
-1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > O módulo ClsController. psm1 é fornecido como um download da Web separado. O módulo faz parte das ferramentas de depuração do Lync Server 2013. Por padrão, as ferramentas de depuração são instaladas no diretório C:\Arquivos de Files\Lync Server 2013 \ ferramentas de depuração.
+    > O módulo ClsController.psm1 é fornecido como um download da Web separado. O módulo faz parte das ferramentas de depuração do Lync Server 2013. Por padrão, as ferramentas de depuração são instaladas no diretório C:\Program Files\Lync Server 2013\Debugging Tools.
 
     
     </div>
@@ -190,7 +190,7 @@ O cmdlet **Remove-CsClsScenario** remove o cenário especificado, mas os rastrea
     
 
     > [!TIP]  
-    > O carregamento bem-sucedido do módulo o devolve para o prompt de comando do Windows PowerShell. Para confirmar se o módulo está carregado e se o Edit-CsClsScenario está disponível, <CODE>Get-Help Edit-CsClsScenario</CODE>digite. Você deverá ver a sinopse básica da sintaxe de EditCsClsScenario.
+    > O carregamento bem-sucedido do módulo retorna ao prompt de comando do Windows PowerShell. Para confirmar que o módulo está carregado e que Edit-CsClsScenario está disponível, digite <CODE>Get-Help Edit-CsClsScenario</CODE>. Você deverá ver a sinopse básica da sintaxe de EditCsClsScenario.
 
     
     </div>
@@ -203,7 +203,7 @@ O cmdlet **Remove-CsClsScenario** remove o cenário especificado, mas os rastrea
     
 
     > [!TIP]  
-    > O descarregamento bem-sucedido do módulo retorna para o prompt de comando do Windows PowerShell. Para confirmar se o módulo é descarregado, <CODE>Get-Help Edit-CsClsScenario</CODE>digite. O Windows PowerShell tentará localizar a ajuda para o cmdlet e falhar.
+    > O descarregamento bem-sucedido do módulo retorna ao prompt de comando do Windows PowerShell. Para confirmar que o módulo é descarregado, <CODE>Get-Help Edit-CsClsScenario</CODE>digite. O Windows PowerShell tentará localizar a ajuda para o cmdlet e falhará.
 
     
     </div>
@@ -214,7 +214,7 @@ O cmdlet **Remove-CsClsScenario** remove o cenário especificado, mas os rastrea
 
 ## <a name="to-remove-an-existing-provider-from-a-scenario-with-the-edit-clscontroller-module"></a>Para remover um provedor existente de um cenário com o módulo Edit-ClsController
 
-1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 2.  Para remover um provedor do cenário AlwaysOn, digite:
     
@@ -236,7 +236,7 @@ O cmdlet **Remove-CsClsScenario** remove o cenário especificado, mas os rastrea
 
 ## <a name="to-add-a-provider-to-a-scenario-with-the-edit-clscontroller-module"></a>Para adicionar um provedor a um cenário com o cmdlet Edit-ClsController
 
-1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 2.  Para adicionar um provedor ao cenário AlwaysOn, digite:
     
@@ -246,7 +246,7 @@ O cmdlet **Remove-CsClsScenario** remove o cenário especificado, mas os rastrea
     
         Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Level Info -Flags TF_COMPONENT
     
-    \-LogLevel pode ser do tipo fatal, Error, Warning, info, Verbose, debug ou ALL. – Os sinalizadores podem ser qualquer um dos sinalizadores compatíveis com o provedor, como o\_componente TF,\_TF diag. –Flags também pode ter o valor ALL
+    \-LogLevel pode ser do tipo fatal, erro, aviso, info, Verbose, debug ou ALL. – Os sinalizadores podem ser qualquer um dos sinalizadores aos quais o provedor oferece suporte,\_como o componente\_TF, TF diag. –Flags também pode ter o valor ALL.
     
     O exemplo anterior também pode ser digitado com o uso do recurso posicional do cmdlet. Por exemplo, para adicionar o provedor ChatServer ao cenário AlwaysOn, digite:
     

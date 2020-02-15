@@ -1,5 +1,5 @@
 ---
-title: Re-ativar servidor após o Assistente de Configuração de Segurança fechar portas no IIS
+title: Reativar servidor após o assistente de configuração de segurança fechar portas no IIS
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185644
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f6642906c1855575fb8077846eef6646bfb37531
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 388a39c81af2f7e3ca4e0c61f468b283deaa7a4e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746871"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045723"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="re-activate-server-after-security-configuration-wizard-closes-ports-in-iis"></a>Re-ativar servidor após o Assistente de Configuração de Segurança fechar portas no IIS
+# <a name="re-activate-server-after-security-configuration-wizard-closes-ports-in-iis"></a>Reativar servidor após o assistente de configuração de segurança fechar portas no IIS
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41746871"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-01_
+_**Última modificação do tópico:** 2012-10-01_
 
-Algumas funções do Lync Server 2013 executam serviços Web na porta do serviços de informações da Internet (IIS) 4443. Executar o assistente de implantação do Lync Server, bootstrapper. exe ou usar o cmdlet **Enable-CsComputer** cria uma exceção no firewall e abre a porta. Se você executar o assistente de configuração de segurança do Windows Server 2008 R2 (ou outros scripts de proteção), a porta 4443 será bloqueada e os clientes externos não poderão entrar em contato com os serviços Web. Para reabrir a porta, você pode modificar a exceção do firewall diretamente ou ativar novamente o servidor.
+Algumas funções do Lync Server 2013 executam serviços Web na porta de serviços de informações da Internet (IIS) 4443. Executar o assistente de implantação do Lync Server, bootstrapper. exe ou usando o cmdlet **Enable-CsComputer** cria uma exceção no firewall e abre a porta. Se você executar o assistente de configuração de segurança do Windows Server 2008 R2 (ou outros scripts de proteção), a porta 4443 será bloqueada, e os clientes externos não poderão entrar em contato com os serviços Web. Para reabrir a porta, você pode modificar a exceção do firewall diretamente ou reativar o servidor.
 
 <div>
 
-## <a name="to-re-activate-the-server-by-using-the-deployment-wizard"></a>Para reativar o servidor usando o assistente de implantação
+## <a name="to-re-activate-the-server-by-using-the-deployment-wizard"></a>Para reativar o servidor usando o Assistente de Implantação
 
-1.  Na página do assistente de implantação do Lync Server, clique em **executar** ao lado da **etapa 2: configurar ou remover componentes do Lync Server**.
+1.  Na página Assistente de implantação do Lync Server, clique em **executar** ao lado de **etapa 2: instalar ou remover componentes do Lync Server**.
 
-2.  Na página **configurar componentes do Lync Server** , clique em **Avançar**.
+2.  Na página **Instalar componentes do Lync Server**, clique em **Avançar**.
 
-3.  Na página **comandos em execução** , quando o status da tarefa for exibido como concluído, clique em **concluir**.
+3.  Na página **Executando Comandos**, quando o status da tarefa é exibido como concluído, clique em **Concluir**.
     
     <div>
     
 
     > [!NOTE]
-    > Você também pode usar bootstrapper. exe ou <STRONG>Enable-CsComputer</STRONG> para ativar novamente o servidor.
+    > Também é possível usar bootstrapper.exe ou <STRONG>Enable-CsComputer</STRONG> para reativar o servidor.
 
     
     </div>

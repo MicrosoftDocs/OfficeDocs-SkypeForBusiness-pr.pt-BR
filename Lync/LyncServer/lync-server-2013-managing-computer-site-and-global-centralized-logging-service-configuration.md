@@ -1,5 +1,5 @@
 ---
-title: Gerenciando o computador, o site e a configuração global do serviço de registro centralizado
+title: Gerenciando o computador, o site e a configuração de serviço de registro em log global centralizado
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733738
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f714c82fdc4ade0fc70b0a977e32ef46b26914d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b405cef9efd63956b6d676d751027318897f5e98
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729331"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043113"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-computer-site-and-global-centralized-logging-service-configuration-in-lync-server-2013"></a>Gerenciando o computador, o site e a configuração de serviço de log centralizado global no Lync Server 2013
+# <a name="managing-computer-site-and-global-centralized-logging-service-configuration-in-lync-server-2013"></a>Gerenciando o computador, o site e o serviço de registro em log global centralizado no Lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41729331"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-02-04_
+_**Última modificação do tópico:** 2014-02-04_
 
-O serviço de log centralizado pode ser executado em um escopo que inclui um único computador, um pool de computadores, em um escopo de site (ou seja, um site definido, como o site Redmond que contém uma coleção de computador e pools em sua implantação) ou em um escopo global (ou seja, , todos os computadores e pools na sua implantação).
+O serviço de registro em log centralizado pode ser executado em um escopo que inclui um único computador, um pool de computadores, em um escopo de site (ou seja, um site definido como o site Redmond que contém uma coleção de computador e pools em sua implantação) ou em um escopo global (ou seja, , todos os computadores e pools em sua implantação).
 
-Para configurar o escopo do serviço de log centralizado usando o Shell de gerenciamento do Lync Server, você deve ser membro do grupo de segurança CsAdministrator ou do controle de acesso baseado em função do CsServerAdministrator (RBAC) ou uma função RBAC personalizada que contenha qualquer um desses dois grupos. Para retornar uma lista de todas as funções RBAC às quais esse cmdlet foi atribuído (incluindo qualquer função RBAC personalizada que você criou), execute o seguinte comando no Shell de gerenciamento do Lync Server ou no prompt do Windows PowerShell:
+Para configurar o escopo de serviço de registro em log centralizado usando o Shell de gerenciamento do Lync Server, você deve ser membro dos grupos de segurança do controle de acesso baseado em função do CsAdministrator ou do CsServerAdministrator, ou uma função RBAC personalizada que contenha um desses dois grupos. Para retornar uma lista de todas as funções RBAC às quais este cmdlet foi atribuído (incluindo qualquer função RBAC personalizada que você criou sozinho), execute o seguinte comando no Shell de gerenciamento do Lync Server ou no prompt do Windows PowerShell:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "<Lync Server 2013 cmdlet>"}
 
@@ -51,31 +51,31 @@ Por exemplo:
 
 
 > [!NOTE]
-> O Windows PowerShell oferece mais opções e opções de configuração adicionais que não estão disponíveis usando CLSController. exe. O CLSController oferece um método rápido e conciso para executar comandos, mas está limitado ao conjunto de comandos disponíveis para o CLSController. O Windows PowerShell não está limitado apenas ao comando disponível para o processador de comando do CLSController e fornece um conjunto mais amplo de comandos e um conjunto mais rico de opções. Por exemplo, CLSController. exe fornece uma opção de escopo para – computadores e – pools. Com o Windows PowerShell, você pode indicar computadores ou pools na maioria dos comandos e, ao definir novos cenários (o CLSController tem um número finito de cenários que não podem ser modificados pelo usuário) você pode definir um site ou escopo global. Esse recurso poderoso do Windows PowerShell permite definir um cenário para um site ou escopo global, mas limitar o registro em log para um computador ou pool.<BR>Há diferenças fundamentais entre os comandos de linha de comando que você pode executar no Windows PowerShell ou no CLSController. O Windows PowerShell fornece um método rico para configurar e definir cenários e reutilizá-los de forma significativa para seus cenários de solução de problemas. Embora o CLSController forneça uma maneira rápida e eficiente para emitir comandos e obter resultados, o conjunto de comandos do CLSController está limitado aos comandos finitos que você tem disponível na linha de comando. Ao contrário dos cmdlets do Windows PowerShell, o CLSController não pode definir novos cenários, gerenciar o escopo em um nível global ou de site, além de muitas outras limitações de um conjunto de comandos finito que não pode ser configurado dinamicamente. Embora o CLSController forneça um meio de execução rápida, o Windows PowerShell fornece um meio de estender a funcionalidade do serviço de log centralizado além do que é possível com o CLSController.
+> O Windows PowerShell oferece mais opções e opções de configuração adicionais que não estão disponíveis usando o CLSController. exe. O CLSController oferece um método rápido de conciso para executar comandos, mas está limitado ao conjunto de comandos disponíveis para o CLSController. O Windows PowerShell não está limitado apenas ao comando disponível para o processador de comando do CLSController e fornece um conjunto mais amplo de comandos e um conjunto mais amplo de opções. Por exemplo, o CLSController.exe fornece a você opções de escopo para computadores e pools. Com o Windows PowerShell, é possível indicar computadores ou pools na maioria dos comandos e quando você define novos cenários (o CLSController tem um número finito de cenários que não podem ser modificados pelo usuário) você pode definir um escopo global ou de site. Esse poderoso recurso do Windows PowerShell permite que você defina um cenário de um site ou escopo global, mas limite o registro em log em um computador ou pool.<BR>Há diferenças fundamentais entre os comandos de linha de comando que podem ser executados no Windows PowerShell ou no CLSController. O Windows PowerShell oferece um método avançado para configurar e definir cenários, e para reutilizar esses cenários de uma maneira significativa para seus cenários de solução de problemas. Embora o CLSController does forneça uma maneira rápida e eficiente para emitir comandos e obter resultados, o conjunto de comandos do CLSController está limitado aos comandos finitos que você tem disponível na linha de comando. Diferentemente dos cmdlets do Windows PowerShell, o CLSController não pode definir novos cenários, gerenciar o escopo em um nível global ou de site, e muitas outras limitações de um conjunto de comandos finito que não pode ser configurado dinamicamente. Embora o CLSController forneça um meio de execução rápida, o Windows PowerShell oferece meios para estender a funcionalidade de serviço de registro centralizado além do que é possível com o CLSController.
 
 
 
 </div>
 
-Um escopo de computador exclusivo pode ser definido durante a execução de um comando [Search-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619189(v=OCS.15)), [Show-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619173(v=OCS.15)), [Start-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619190(v=OCS.15)), [Stop-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619180(v=OCS.15)), [Sync-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619169(v=OCS.15)) e [Update-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619170(v=OCS.15)) usando o parâmetro –Computers. Esse parâmetro aceita uma lista separada por vírgulas de FQDNs (nomes de domínio totalmente qualificados) para o computador de destino.
+Um único escopo de computador pode ser definido durante a execução de um comando [Search-CsClsLogging](https://technet.microsoft.com/library/JJ619189(v=OCS.15)), [show-CsClsLogging](https://technet.microsoft.com/library/JJ619173(v=OCS.15)), [Start-CsClsLogging](https://technet.microsoft.com/library/JJ619190(v=OCS.15)), [Stop-CsClsLogging](https://technet.microsoft.com/library/JJ619180(v=OCS.15)), [Sync-CsClsLogging](https://technet.microsoft.com/library/JJ619169(v=OCS.15)) e [Update-CsClsLogging](https://technet.microsoft.com/library/JJ619170(v=OCS.15)) usando o parâmetro – Computers. O parâmetro –Computers aceita uma lista separada por vírgula de nomes de domínio totalmente qualificados (FQDNs) do computador alvo.
 
 <div>
 
 
 > [!TIP]
-> Você pode também definir –Pools e uma lista de pools separada por vírgula na qual você deseja executar os comandos de log.
+> Você pode também definir –Pools e uma lista separada por vírgula de pools na qual você deseja executar os comandos de log.
 
 
 
 </div>
 
-Os escopos do site e do global são definidos nos cmdlets do serviço de log **novo**, de **conjunto**e **de remoção** centralizado. Os exemplos a seguir demonstram como definir o escopo global ou de um site.
+Os escopos de site e globais são definidos nos cmdlets do serviço de registro em log **New-**, **set-** e **Remove-** centralizado. Os exemplos a seguir demonstram como definir o escopo de um site ou global.
 
 <div>
 
 
 > [!IMPORTANT]
-> Os comandos mostrados podem conter parâmetros e conceitos que são abordados em outras seções. O exemplo de comandos tem a finalidade de demonstrar o uso do parâmetro <STRONG>–Identity</STRONG> para definir escopo e os outros parâmetros são incluídos para a integridade e para especificar o escopo. Para obter detalhes sobre os cmdlets do <STRONG>Set-CsClsConfiguration</STRONG>, consulte <A href="https://technet.microsoft.com/en-us/library/JJ619182(v=OCS.15)">Set-CsClsConfiguration</A> na documentação Operações.
+> Os comandos mostrados podem conter parâmetros e conceitos que são abordados em outras seções. O exemplo de comandos tem a finalidade de demonstrar o uso do parâmetro <STRONG>–Identity</STRONG> para definir escopo e os outros parâmetros são incluídos para a integridade e para especificar o escopo. Para obter detalhes sobre os cmdlets do <STRONG>Set-CsClsConfiguration</STRONG>, consulte <A href="https://technet.microsoft.com/library/JJ619182(v=OCS.15)">Set-CsClsConfiguration</A> na documentação Operações.
 
 
 
@@ -83,9 +83,9 @@ Os escopos do site e do global são definidos nos cmdlets do serviço de log **n
 
 <div>
 
-## <a name="to-retrieve-the-current-centralized-logging-service-configuration"></a>Para recuperar a configuração atual do serviço de log centralizado
+## <a name="to-retrieve-the-current-centralized-logging-service-configuration"></a>Para recuperar a configuração atual do serviço de registro em log centralizado
 
-1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 2.  Digite o seguinte no prompt de linha de comando:
     
@@ -93,23 +93,23 @@ Os escopos do site e do global são definidos nos cmdlets do serviço de log **n
 
 Use os cmdlets **New-CsClsConfiguration** e **Set-CsClsConfiguration** para criar uma nova configuração ou para atualizar uma configuração existente.
 
-Quando o **Get-CsClsConfiguration** é executado, ele exibe informações semelhantes à seguinte captura de tela, onde a implantação atualmente tem a configuração global, mas nenhuma configuração de site definida:
+Quando você executa o **Get-CsClsConfiguration**, ele exibe informações semelhantes à captura de tela a seguir, onde a implantação atualmente tem a configuração global padrão, mas nenhuma configuração de site definida:
 
-![Exemplo de saída do Get-CsClsConfiguration.](images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Exemplo de saída do Get-CsClsConfiguration.")
+![Exemplo de saída de Get-CsClsConfiguration.](images/JJ688029.23f98ddc-fc48-499a-b6c5-752611f2a0b0(OCS.15).jpg "Exemplo de saída de Get-CsClsConfiguration.")
 
 </div>
 
 <div>
 
-## <a name="to-retrieve-the-current-centralized-logging-service-configuration-from-the-computer-local-store"></a>Para recuperar a configuração atual do serviço de log centralizado no repositório local do computador
+## <a name="to-retrieve-the-current-centralized-logging-service-configuration-from-the-computer-local-store"></a>Para recuperar a configuração do serviço de registro em log centralizado atual do repositório local do computador
 
-1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 2.  Digite o seguinte no prompt de linha de comando:
     
         Get-CsClsConfiguration -LocalStore
 
-Quando você usa o primeiro exemplo em que **Get-CsClsConfiguration** não especifica nenhum parâmetro, o comando faz referência ao repositório central de gerenciamento dos dados. Se você especificar o parâmetro – LocalStore, o comando referenciará o computador LocalStore em vez do repositório de gerenciamento central.
+Quando você usa o primeiro exemplo em que **Get-CsClsConfiguration** não especifica nenhum parâmetro, o comando faz referência ao repositório de gerenciamento central dos dados. Se você especificar o parâmetro – LocalStore, o comando faz referência ao computador LocalStore em vez do repositório de gerenciamento central.
 
 </div>
 
@@ -117,7 +117,7 @@ Quando você usa o primeiro exemplo em que **Get-CsClsConfiguration** não espec
 
 ## <a name="to-retrieve-a-listing-of-scenarios-currently-defined"></a>Para recuperar uma lista de cenários definidos no momento
 
-1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 2.  Digite o seguinte no prompt de linha de comando:
     
@@ -133,9 +133,9 @@ O cmdlet **Get-CsClsConfiguration** sempre exibe os cenários que fazem parte de
 
 <div>
 
-## <a name="to-update-a-global-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Para atualizar um escopo global para o serviço de log centralizado usando o Windows PowerShell
+## <a name="to-update-a-global-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Para atualizar um escopo global para o serviço de registro em log centralizado usando o Windows PowerShell
 
-1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 2.  Digite o seguinte no prompt de linha de comando:
     
@@ -151,9 +151,9 @@ O comando diz ao CLSAgent em cada computador e pool na implantação para defini
 
 <div>
 
-## <a name="to-update-a-site-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Para atualizar um escopo de site para o serviço de log centralizado usando o Windows PowerShell
+## <a name="to-update-a-site-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Para atualizar um escopo de site para o serviço de registro em log centralizado usando o Windows PowerShell
 
-1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 2.  Digite o seguinte no prompt de linha de comando:
     
@@ -178,9 +178,9 @@ O comando diz ao CLSAgent em cada computador e pool no site da Redmond para defi
 
 <div>
 
-## <a name="to-create-a-new-centralized-logging-service-configuration"></a>Para criar uma nova configuração de serviço de log centralizado
+## <a name="to-create-a-new-centralized-logging-service-configuration"></a>Para criar uma nova configuração de serviço de registro em log centralizado
 
-1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 2.  Digite o seguinte no prompt de linha de comando:
     
@@ -190,7 +190,7 @@ O comando diz ao CLSAgent em cada computador e pool no site da Redmond para defi
     
 
     > [!NOTE]
-    > New-CsClsConfiguration fornece acesso a um grande número de definições de configuração adicionais. Para obter detalhes sobre as opções de configuração, consulte <A href="https://technet.microsoft.com/en-us/library/JJ619179(v=OCS.15)">Get-CsClsConfiguration</A> e <A href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">noções básicas sobre as configurações de serviço de log centralizado no Lync Server 2013</A>.
+    > New-CsClsConfiguration fornece acesso a um grande número de definições de configuração adicionais. Para obter detalhes sobre as opções de configuração, consulte <A href="https://technet.microsoft.com/library/JJ619179(v=OCS.15)">Get-CsClsConfiguration</A> e <A href="lync-server-2013-understanding-centralized-logging-service-configuration-settings.md">Understanding central Logging Service Configuration Settings in Lync Server 2013</A>.
 
     
     </div>
@@ -199,21 +199,21 @@ O comando diz ao CLSAgent em cada computador e pool no site da Redmond para defi
     
         New-CsClsConfiguration -Identity "site:Redmond" -CacheFileNetworkFolder "\\fs01.contoso.net\filestore\logfiles" -EtlFileRolloverMinutes 120 -EtlFileRolloverSizeMB 40
 
-Você deve planejar cuidadosamente a criação de novas configurações e como definir novas propriedades para o serviço de log centralizado. Você deve ter cuidado ao fazer alterações e ter certeza que compreende o impacto da sua capacidade de registrar cenários de problema corretamente. Você deve fazer alterações na configuração que melhorarão sua capacidade de gerenciar logs para um tamanho e período de sobreposição que permita resolver problemas, quando surgirem.
+Você deve planejar cuidadosamente a criação de novas configurações e como definir novas propriedades para o serviço de registro em log centralizado. Você deve ter cuidado ao fazer alterações e ter certeza que compreende o impacto da sua capacidade de registrar cenários de problema corretamente. Você deve fazer alterações na configuração que melhorarão sua capacidade de gerenciar logs para um tamanho e período de sobreposição que permita resolver problemas, quando surgirem.
 
 </div>
 
 <div>
 
-## <a name="to-remove-an-existing-centralized-logging-service-configuration"></a>Para remover uma configuração de serviço de log centralizado existente
+## <a name="to-remove-an-existing-centralized-logging-service-configuration"></a>Para remover uma configuração de serviço de registro em log centralizado existente
 
-1.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 2.  Digite o seguinte no prompt de linha de comando:
     
         Remove-CsClsConfiguration -Identity <scope and name>
     
-    Por exemplo, para remover uma configuração de serviço de log centralizada que você criou para aumentar o tempo de substituição do arquivo de log, aumente o tamanho do arquivo de log de substituição e defina o local do cache do arquivo de log para um compartilhamento de rede da seguinte maneira:
+    Por exemplo, para remover uma configuração de serviço de registro em log centralizado que você criou para aumentar o tempo de substituição do arquivo de log, aumente o tamanho do arquivo de log de substituição e defina o local do cache do arquivo de log para um compartilhamento de rede da seguinte maneira:
     
         Remove-CsClsConfiguration -Identity "site:Redmond"
     
@@ -221,7 +221,7 @@ Você deve planejar cuidadosamente a criação de novas configurações e como d
     
 
     > [!NOTE]
-    > Esta é a nova configuração que foi criada no procedimento "para criar uma nova configuração de serviço de log centralizado".
+    > Esta é a nova configuração que foi criada no procedimento "para criar uma nova configuração de serviço de registro em log centralizado".
 
     
     </div>
@@ -235,14 +235,14 @@ Se decidir remover a configuração no nível do site, o site usará as configur
 ## <a name="see-also"></a>Confira também
 
 
-[Visão geral do serviço de log centralizado no Lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md)  
+[Visão geral do serviço de registro em log centralizado no Lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md)  
 
 
-[Gerenciar as configurações centralizadas de configuração do serviço de log no Lync Server 2013](lync-server-2013-managing-the-centralized-logging-service-configuration-settings.md)  
-[Set-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619182(v=OCS.15))  
-[Get-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619179(v=OCS.15))  
-[New-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619177(v=OCS.15))  
-[Remove-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619191(v=OCS.15))  
+[Gerenciando as definições de configuração do serviço de registro em log centralizado no Lync Server 2013](lync-server-2013-managing-the-centralized-logging-service-configuration-settings.md)  
+[Set-CsClsConfiguration](https://technet.microsoft.com/library/JJ619182(v=OCS.15))  
+[Get-CsClsConfiguration](https://technet.microsoft.com/library/JJ619179(v=OCS.15))  
+[New-CsClsConfiguration](https://technet.microsoft.com/library/JJ619177(v=OCS.15))  
+[Remove-CsClsConfiguration](https://technet.microsoft.com/library/JJ619191(v=OCS.15))  
   
 
 </div>

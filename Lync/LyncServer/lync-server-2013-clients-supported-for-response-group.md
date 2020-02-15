@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Clientes suportados para o Grupo de Resposta'
+title: 'Lync Server 2013: clientes com suporte para grupo de resposta'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184705
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e1fa7728e0ebee1d12d4cf57fdc7aaaf0abfe410
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2082f3d41f3907f4b2a1d541b2c2000becd91c89
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756435"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044163"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="clients-supported-for-response-group-in-lync-server-2013"></a>Clientes suportados para o Grupo de Resposta no Lync Server 2013
+# <a name="clients-supported-for-response-group-in-lync-server-2013"></a>Clientes com suporte para grupo de resposta no Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41756435"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-03-28_
+_**Última modificação do tópico:** 2014-03-28_
 
-O aplicativo de grupo de resposta é compatível com os seguintes clientes:
+O aplicativo de grupo de resposta oferece suporte aos seguintes clientes:
 
-  - Cliente de desktop do Lync 2013
+  - Cliente de desktop Lync 2013
 
-  - Cliente de desktop do Lync 2010
+  - Cliente de desktop Lync 2010
 
   - Lync 2010 Attendant
 
-  - Office Communications Server 2007 R2 Attendant
+  - Atendedor do Office Communications Server 2007 R2
 
   - Lync Phone Edition
 
@@ -53,21 +53,21 @@ O aplicativo de grupo de resposta é compatível com os seguintes clientes:
 
 
 > [!NOTE]  
-> Não há suporte para o aplicativo grupo de resposta em clientes móveis do Lync.
+> O aplicativo de grupo de resposta não é suportado em clientes móveis do Lync.
 
 
 
 </div>
 
-Para obter detalhes sobre novos recursos, consulte [novos recursos de aplicativo de grupo de resposta no Lync Server 2013](lync-server-2013-new-response-group-application-features.md) na documentação de introdução.
+Para obter detalhes sobre os novos recursos, consulte [novos recursos do aplicativo de grupo de resposta no Lync Server 2013](lync-server-2013-new-response-group-application-features.md) na documentação introdução.
 
-O cliente específico que você pode usar depende do tipo de usuário do grupo de resposta que você está:
+O cliente específico que você pode usar depende do tipo de usuário do grupo de resposta que você é:
 
-  - Os **chamadores** podem chamar um grupo de resposta usando qualquer um dos clientes listados anteriormente e usando um telefone padrão na rede telefônica pública comutada (PSTN).
+  - **Chamadores** podem chamar um grupo de resposta usando quaisquer clientes listados anteriormente e usando um telefone padrão através da rede telefônica pública comutada (PSTN).
 
-  - **Agentes** informais (agentes que não entram e saem dos seus grupos para aceitar chamadas) podem aceitar chamadas usando o atendente, o Lync ou o Lync Phone Edition. Agentes informais são automaticamente conectados aos seus grupos quando entram no Lync Server 2013 usando um desses clientes.
+  - **Os agentes** informais (agentes que não entram e saem de seus grupos para aceitar chamadas) podem aceitar chamadas usando atendedor, Lync ou Lync Phone Edition. Os agentes informais são automaticamente conectados aos seus grupos quando entram no Lync Server 2013 usando um desses clientes.
 
-  - **Agentes formais** (agentes que devem entrar e sair de seus grupos para aceitar chamadas) podem aceitar chamadas usando o Lync 2013 e acessando o console do agente a partir do item de menu ou usando o atendente e acessando o console do agente diretamente do Internet Explorer.
+  - **Os agentes formais** (agentes que devem entrar e sair de seus grupos para aceitar chamadas) podem aceitar chamadas usando o Lync 2013 e acessando o console de agente do item de menu ou usando o assistente e acessando o console de agente diretamente do Internet Explorer.
 
 </div>
 

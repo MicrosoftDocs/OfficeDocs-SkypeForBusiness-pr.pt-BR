@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: escolher um provedor de serviços de E9-1-1'
+title: 'Lync Server 2013: escolher um provedor de serviços E9-1-1'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184198
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5f10ba311ce5d626348e4b1837f73768cc2c4ac
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 68087115e303cbe964c0b3f8ae52318074ce4382
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729871"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037241"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41729871"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-06_
+_**Última modificação do tópico:** 2012-06-06_
 
-O provedor de serviços E9-1-1 roteia chamadas de emergência originadas do Lync Server para o ponto de resposta de segurança pública correto (PSAP) com base nas informações de localização contidas na chamada.
+O provedor de serviços E9-1-1 encaminha as chamadas de emergência originadas do Lync Server para o ponto de resposta de segurança pública (PSAP) correto com base nas informações de local contidas na chamada.
 
-Para dar suporte ao E9-1-1 como parte de uma implantação do Lync Server, você deve obter o serviço de roteamento E9-1-1 de um provedor de serviços de um programa de interoperabilidade aberto do Lync E9-1-1. Escolha o provedor que melhor atende às suas necessidades organizacionais.
+Para dar suporte ao E9-1-1 como parte de uma implantação do Lync Server, você deve obter o serviço de roteamento E9-1-1 de um provedor de serviços qualificado do programa de interoperabilidade do Lync Open E9-1-1. Escolha o provedor que melhor atende às suas necessidades organizacionais.
 
 </div>
 

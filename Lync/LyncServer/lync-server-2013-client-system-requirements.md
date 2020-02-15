@@ -12,16 +12,16 @@ ms:contentKeyID: 48183900
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ac52ae9856d49047040bb839ad650cbe591ec95
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c0415f2d7380b86facb727541e73ad57d5b5d2ca
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742831"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044413"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41742831"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-06_
+_**Última modificação do tópico:** 2012-11-06_
 
 Esta seção descreve os requisitos de hardware e software para os clientes do Lync 2013.
 
@@ -45,13 +45,13 @@ Esta seção descreve os requisitos de hardware e software para os clientes do L
 
   - [Suporte a hardware de cliente do Lync no Lync Server 2013](lync-server-2013-lync-client-hardware-support.md)
 
-  - [Requisitos de vídeo do cliente do Lync para o Lync Server 2013](lync-server-2013-lync-client-video-requirements.md)
+  - [Requisitos de vídeo do cliente Lync para Lync Server 2013](lync-server-2013-lync-client-video-requirements.md)
 
-  - [Suporte ao software cliente do Lync no Lync Server 2013](lync-server-2013-lync-client-software-support.md)
+  - [Suporte a software de cliente do Lync no Lync Server 2013](lync-server-2013-lync-client-software-support.md)
 
-  - [Plataformas compatíveis com o Lync Web App para o Lync Server 2013](lync-server-2013-lync-web-app-supported-platforms.md)
+  - [Plataformas com suporte do Lync Web App para o Lync Server 2013](lync-server-2013-lync-web-app-supported-platforms.md)
 
-  - [Requisitos do aplicativo Lync da Windows Store para o Lync Server 2013](lync-server-2013-lync-windows-store-app-requirements.md)
+  - [Requisitos de aplicativo do Lync Windows Store para Lync Server 2013](lync-server-2013-lync-windows-store-app-requirements.md)
 
 </div>
 

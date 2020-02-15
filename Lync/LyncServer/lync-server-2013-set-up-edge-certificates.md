@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurar certificados de Borda'
+title: 'Lync Server 2013: configurar certificados de borda'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185151
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 517d5203efa8c50e66e849b89623cad04770e02a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5056fd4c9c90accd7414936c68d43a6a023d3a13
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732241"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043743"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="set-up-edge-certificates-for-lync-server-2013"></a>Configurar certificados de Borda para Lync Server 2013
+# <a name="set-up-edge-certificates-for-lync-server-2013"></a>Configurar certificados de borda para o Lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41732241"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-08_
+_**Última modificação do tópico:** 2012-09-08_
 
-Ao instalar um servidor de borda, você precisa solicitar, instalar e atribuir os certificados obrigatórios para as interfaces internas e externas.
+Quando você instala um Servidor de Borda, precisa solicitar, instalar e atribuir os certificados necessários para as interfaces internas e externas.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Requisitos de certificado para acesso do usuário externo no Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md)
+  - [Requisitos de certificado para acesso de usuário externo no Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md)
 
   - [Configurar certificados para a interface de borda interna no Lync Server 2013](lync-server-2013-set-up-certificates-for-the-internal-edge-interface.md)
 
-  - [Configurar certificados para a interface de borda externa para Lync Server 2013](lync-server-2013-set-up-certificates-for-the-external-edge-interface.md)
+  - [Configurar certificados para a interface de borda externa para o Lync Server 2013](lync-server-2013-set-up-certificates-for-the-external-edge-interface.md)
 
   - [Configurar certificados para o proxy reverso no Lync Server 2013](lync-server-2013-set-up-certificates-for-the-reverse-proxy.md)
 

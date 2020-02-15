@@ -12,16 +12,16 @@ ms:contentKeyID: 49733705
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f17db6a855bb7c890f5218213e66986830e8badf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fe34ff7d4d0c31c282ee308f1dd389e124cb652b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758713"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044883"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41758713"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-15_
+_**Última modificação do tópico:** 2012-10-15_
 
-Você pode configurar as políticas de mobilidade e as notificações por push do Lync Server 2013 na seção **clientes** do painel de controle do lync Server 2013. Use os procedimentos desta seção para definir as configurações do seu celular.
+Você pode configurar as políticas de mobilidade e as notificações por push para o Lync Server 2013 na seção **clientes** do painel de controle do Lync Server 2013. Use os procedimentos nesta seção para configurar seu telefone celular.
 
 <div>
 

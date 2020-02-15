@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: relatório de voz e vídeo ponto a ponto'
+title: 'Lync Server 2013: relatório de vídeo e voz ponto a ponto'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185535
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 68cddb8296a94ff5d5b084895024d7379a42022c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 974f403f65b494964affc4fbdc4880820ecb2db2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755281"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038653"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-voice-and-video-report-in-lync-server-2013"></a>Relatório de voz e vídeo ponto a ponto no Lync Server 2013
+# <a name="peer-to-peer-voice-and-video-report-in-lync-server-2013"></a>Relatório de vídeo e voz ponto a ponto no Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41755281"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-21_
+_**Última modificação do tópico:** 2012-10-21_
 
-O Relatório de Vídeo e Voz Ponto a Ponto oferece uma visão detalhada da distribuição de chamadas de voz e vídeo por um período específico (por exemplo, chamadas por hora ou chamadas por dia). O relatório também oferece a opção de exibir todas as chamadas de voz e vídeo realizadas ou de exibir apenas as chamadas bem-sucedidas ou com falha. Os relatórios mostram as informações das chamadas divididas nos seguintes agrupamentos:
+O relatório de vídeo e voz ponto a ponto fornece uma visão detalhada da distribuição de chamadas de voz e vídeo em um período de tempo especificado (por exemplo, chamadas por hora ou chamadas por dia). O relatório também oferece a opção de exibir todas as chamadas de voz e vídeo feitas ou de exibir apenas as chamadas com êxito ou com falha. Os relatórios mostram as informações de chamadas divididas nos seguintes agrupamentos:
 
   - Chamadas por pool
 
-  - Chamadas por tipo de chamada (por exemplo, uma chamada de Lync para Lync versus uma chamada do Lync para uma pessoa na rede PSTN)
+  - Chamadas por tipo de chamada (por exemplo, uma chamada Lync para Lync vs. uma chamada Lync para uma pessoa na rede PSTN)
 
-  - Chamadas por tipo de acesso (os usuários conectados na rede interna versus usuários conectados na rede externa)
+  - Chamadas por tipo de acesso (usuários conectados à rede interna vs. usuários conectados à rede externa)
 
   - Chamadas por servidor de mediação
 
@@ -51,7 +51,7 @@ O Relatório de Vídeo e Voz Ponto a Ponto oferece uma visão detalhada da distr
 
 ## <a name="to-access-the-peer-to-peer-voice-and-video-report"></a>Para acessar o relatório de vídeo e voz ponto a ponto
 
-É possível acessar o Relatório de Vídeo e Voz Ponto a Ponto apenas abrindo o Relatório de Resumo de Atividades Ponto a Ponto e clicando em qualquer uma das seguintes métricas:
+Você pode acessar o relatório de vídeo e voz ponto a ponto apenas abrindo o relatório de Resumo de atividades ponto a ponto e clicando em qualquer uma das seguintes métricas:
 
   - Total de sessões de áudio ponto a ponto
 
@@ -65,9 +65,9 @@ O Relatório de Vídeo e Voz Ponto a Ponto oferece uma visão detalhada da distr
 
 <div>
 
-## <a name="to-make-the-best-use-of-the-peer-to-peer-voice-and-video-report"></a>Para aproveitar melhor o relatório de vídeo e voz ponto a ponto
+## <a name="to-make-the-best-use-of-the-peer-to-peer-voice-and-video-report"></a>Para usar melhor o relatório de vídeo e voz ponto a ponto
 
-Existem várias formas de filtrar o Relatório de Vídeo e Voz Ponto a Ponto. No entanto, essas opções de filtragem são ocultas da exibição por padrão. Para exibir as opções de filtragem disponíveis, clique no botão **Exibir/Ocultar Parâmetros** no canto superior direito da janela Relatório.
+Há várias maneiras de filtrar o relatório de vídeo e voz ponto a ponto. No entanto, essas opções de filtragem são ocultas da exibição por padrão. Para exibir as opções de filtragem disponíveis, clique no botão **Mostrar/ocultar parâmetros** no canto superior direito da janela relatório.
 
 </div>
 
@@ -75,9 +75,9 @@ Existem várias formas de filtrar o Relatório de Vídeo e Voz Ponto a Ponto. No
 
 ## <a name="filters"></a>Filtros
 
-Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionado ou de exibir dados de maneiras diferentes. A tabela a seguir lista os filtros que podem ser usados com o Relatório de Vídeo e Voz Ponto a Ponto.
+Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionado ou exibir os dados de maneiras diferentes. A tabela a seguir lista os filtros que você pode usar com o relatório de vídeo e voz ponto a ponto.
 
-### <a name="peer-to-peer-voice-and-video-report-filters"></a>Filtros do relatório de vídeo e voz ponto a ponto
+### <a name="peer-to-peer-voice-and-video-report-filters"></a>Filtros de relatório de vídeo e voz ponto a ponto
 
 <table>
 <colgroup>
@@ -93,23 +93,23 @@ Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionad
 <tbody>
 <tr class="odd">
 <td><p><strong>De</strong></p></td>
-<td><p>Data e hora de início do intervalo de tempo. Para ver os dados por hora, insira a data e hora de início desta forma:</p>
-<p>7/7/2012 1:00 PM</p>
-<p>Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:</p>
+<td><p>Data e hora de início para o intervalo de tempo. Para ver os dados por hora, digite a data e hora de início no seguinte formato:</p>
+<p>7/7/2012 13:00 horas</p>
+<p>Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</p>
 <p>7/7/2012</p>
-<p>Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
+<p>Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/3/2012</p>
-<p>As semanas sempre vão de domingo a sábado.</p></td>
+<p>As semanas sempre são de Domingo a Sábado.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Até</strong></p></td>
-<td><p>Data/hora final de intervalo de tempo. Para ver os dados por horas, insira a data e hora final conforme segue:</p>
-<p>7/7/2012 1:00 PM</p>
-<p>Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:</p>
+<td><p><strong>To</strong></p></td>
+<td><p>Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:</p>
+<p>7/7/2012 13:00 horas</p>
+<p>Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</p>
 <p>7/7/2012</p>
-<p>Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
+<p>Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/3/2012</p>
-<p>As semanas sempre vão de domingo a sábado.</p></td>
+<p>As semanas são sempre de domingo a sábado.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Intervalo</strong></p></td>
@@ -120,11 +120,11 @@ Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionad
 <li><p>Semanalmente (é possível exibir no máximo 12 semanas)</p></li>
 <li><p>Mensalmente (é possível exibir no máximo 12 meses)</p></li>
 </ul>
-<p>Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, somente o número máximo de valores (a partir da data de início) será exibido. Por exemplo, se você selecionar o intervalo diário com uma data de início de 7/7/2012 e uma data de término de 2/28/2012, os dados serão exibidos para os dias 8/7/2012 12:00 AM a 9/7/2012 12:00 AM (ou seja, um total de 31 dias da importância dos dados).</p></td>
+<p>Se as datas de início e término excederem o número máximo de valores permitidos para o intervalo selecionado, somente o número máximo de valores (a partir da data de início) será exibido. Por exemplo, se você selecionar o intervalo Diariamente com data de início em 7/7/12 e data de término de 28/2/12, os dados serão exibidos do dia 7/8/12, às 12:00, até o dia 7/9/12, às 12:00 (ou seja, um total de 31 dias de dados).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Tipo de mídia</strong></p></td>
-<td><p>Indica o tipo de mídia usado na sessão. Selecione uma das seguintes opções:</p>
+<td><p>Indica o tipo de mídia usado na sessão. Selecione uma destas opções:</p>
 <ul>
 <li><p>Ambos</p></li>
 <li><p>Áudio</p></li>
@@ -133,19 +133,19 @@ Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionad
 </tr>
 <tr class="odd">
 <td><p><strong>Disposição da chamada</strong></p></td>
-<td><p>Indica o sucesso ou fracasso da sessão. Selecione uma das seguintes opções:</p>
+<td><p>Indica o êxito ou a falha da sessão. Selecione uma das seguintes opções:</p>
 <ul>
-<li><p>[Todos]</p></li>
-<li><p>Chamadas com Êxito</p></li>
-<li><p>Chamadas com Falha</p></li>
+<li><p>Todos os</p></li>
+<li><p>Chamadas de êxito</p></li>
+<li><p>Chamadas com falha</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p><strong>Relatório por</strong></p></td>
-<td><p>Indica os valores a serem usados no relatório. Selecione uma das seguintes opções:</p>
+<td><p>Indica os valores a serem usados no relatório. Selecione um dos seguintes valores:</p>
 <ul>
-<li><p>Contagem de sessões</p></li>
-<li><p>Minutos de chamadas</p></li>
+<li><p>Contagem de sessão</p></li>
+<li><p>Minutos de chamada</p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -158,7 +158,7 @@ Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionad
 
 ## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-pool"></a>Métricas para atividade de vídeo e voz ponto a ponto por pool
 
-A tabela a seguir lista as informações fornecidas no Relatório de Vídeo e Voz Ponto a Ponto para cada pool.
+A tabela a seguir lista as informações fornecidas no relatório de vídeo e voz ponto a ponto para cada pool.
 
 ### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-pool"></a>Métricas para atividade de vídeo e voz ponto a ponto por pool
 
@@ -171,7 +171,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Vídeo e Vo
 <thead>
 <tr class="header">
 <th>Nome</th>
-<th>Você pode classificar este item?</th>
+<th>É possível classificar este item?</th>
 <th>Descrição</th>
 </tr>
 </thead>
@@ -184,12 +184,12 @@ A tabela a seguir lista as informações fornecidas no Relatório de Vídeo e Vo
 <tr class="even">
 <td><p><strong>Data/Hora</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Período de data e hora durante o qual a chamada foi realizada.</p></td>
+<td><p>O período de data e hora em que a chamada ocorreu.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Total</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Número total de sessões ou contagem total de mensagens.</p></td>
+<td><p>Número total de sessões ou de contagem total de mensagens.</p></td>
 </tr>
 </tbody>
 </table>
@@ -199,11 +199,11 @@ A tabela a seguir lista as informações fornecidas no Relatório de Vídeo e Vo
 
 <div>
 
-## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-call-type"></a>Métricas da atividade de vídeo e voz ponto a ponto por tipo de chamada
+## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-call-type"></a>Métricas para atividade de vídeo e voz ponto a ponto por tipo de chamada
 
-A tabela a seguir lista as informações fornecidas no Relatório de Vídeo e Voz Ponto a Ponto para cada tipo de chamada realizada.
+A tabela a seguir lista as informações fornecidas no relatório de vídeo e voz ponto a ponto para cada tipo de chamada realizada.
 
-### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-call-type"></a>Métricas da atividade de vídeo e voz ponto a ponto por tipo de chamada
+### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-call-type"></a>Métricas para atividade de vídeo e voz ponto a ponto por tipo de chamada
 
 <table>
 <colgroup>
@@ -214,7 +214,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Vídeo e Vo
 <thead>
 <tr class="header">
 <th>Nome</th>
-<th>Você pode classificar este item?</th>
+<th>É possível classificar este item?</th>
 <th>Descrição</th>
 </tr>
 </thead>
@@ -224,21 +224,21 @@ A tabela a seguir lista as informações fornecidas no Relatório de Vídeo e Vo
 <td><p>Não</p></td>
 <td><p>Indica o tipo de chamada realizada. Os valores são um dos seguintes:</p>
 <ul>
-<li><p>UC-para-UC</p></li>
-<li><p>UC-para-PSTN</p></li>
-<li><p>PSTN-para-UC</p></li>
-<li><p>PSTN-para-PSTN</p></li>
+<li><p>UC para UC</p></li>
+<li><p>UC para PSTN</p></li>
+<li><p>PSTN para UC</p></li>
+<li><p>PSTN para PSTN</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p><strong>Data/Hora</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Período de data e hora durante o qual a chamada foi realizada.</p></td>
+<td><p>O período de data e hora em que a chamada ocorreu.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Total</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Número total de sessões ou contagem total de mensagens.</p></td>
+<td><p>Número total de sessões ou de contagem total de mensagens.</p></td>
 </tr>
 </tbody>
 </table>
@@ -248,11 +248,11 @@ A tabela a seguir lista as informações fornecidas no Relatório de Vídeo e Vo
 
 <div>
 
-## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-access-type"></a>Métricas da atividade de vídeo e voz ponto a ponto por tipo de acesso
+## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-access-type"></a>Métricas para atividade de vídeo e voz ponto a ponto por tipo de acesso
 
-A tabela a seguir lista as informações fornecidas no Relatório de Vídeo e Voz Ponto a Ponto para cada tipo de acesso à rede.
+A tabela a seguir lista as informações fornecidas no relatório de vídeo e voz ponto a ponto para cada tipo de acesso à rede.
 
-### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-access-type"></a>Métricas da atividade de vídeo e voz ponto a ponto por tipo de acesso
+### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-access-type"></a>Métricas para atividade de vídeo e voz ponto a ponto por tipo de acesso
 
 <table>
 <colgroup>
@@ -263,7 +263,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Vídeo e Vo
 <thead>
 <tr class="header">
 <th>Nome</th>
-<th>Você pode classificar este item?</th>
+<th>É possível classificar este item?</th>
 <th>Descrição</th>
 </tr>
 </thead>
@@ -271,22 +271,22 @@ A tabela a seguir lista as informações fornecidas no Relatório de Vídeo e Vo
 <tr class="odd">
 <td><p><strong>Tipo de atividade</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Indica se os clientes estavam conectados na rede interna ou rede externa quando a chamada foi realizada. Os valores são normalmente um dos seguintes:</p>
+<td><p>Indica se os clientes fizeram logon na rede interna ou na rede externa quando a chamada foi feita. Normalmente, os valores são um dos seguintes:</p>
 <ul>
-<li><p>Interno</p></li>
-<li><p>Externo</p></li>
-<li><p>Misto</p></li>
+<li><p>Interna</p></li>
+<li><p>Externa</p></li>
+<li><p>Mistos</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p><strong>Data/Hora</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Período de data e hora durante o qual a chamada foi realizada.</p></td>
+<td><p>O período de data e hora em que a chamada ocorreu.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Total</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Número total de sessões ou contagem total de mensagens.</p></td>
+<td><p>Número total de sessões ou de contagem total de mensagens.</p></td>
 </tr>
 </tbody>
 </table>
@@ -298,7 +298,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Vídeo e Vo
 
 ## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-mediation-server"></a>Métricas para atividade de vídeo e voz ponto a ponto por servidor de mediação
 
-A tabela a seguir lista as informações fornecidas no relatório de voz e vídeo ponto a ponto para cada servidor de mediação.
+A tabela a seguir lista as informações fornecidas no relatório de vídeo e voz ponto a ponto para cada servidor de mediação.
 
 ### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-mediation-server"></a>Métricas para atividade de vídeo e voz ponto a ponto por servidor de mediação
 
@@ -311,7 +311,7 @@ A tabela a seguir lista as informações fornecidas no relatório de voz e víde
 <thead>
 <tr class="header">
 <th>Nome</th>
-<th>Você pode classificar este item?</th>
+<th>É possível classificar este item?</th>
 <th>Descrição</th>
 </tr>
 </thead>
@@ -324,12 +324,12 @@ A tabela a seguir lista as informações fornecidas no relatório de voz e víde
 <tr class="even">
 <td><p><strong>Data/Hora</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Período de data e hora durante o qual a chamada foi realizada.</p></td>
+<td><p>O período de data e hora em que a chamada ocorreu.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Total</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Número total de sessões ou contagem total de mensagens.</p></td>
+<td><p>Número total de sessões ou de contagem total de mensagens.</p></td>
 </tr>
 </tbody>
 </table>

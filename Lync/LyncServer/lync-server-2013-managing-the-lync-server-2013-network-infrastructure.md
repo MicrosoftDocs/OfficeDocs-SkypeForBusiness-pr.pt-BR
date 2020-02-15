@@ -12,16 +12,16 @@ ms:contentKeyID: 48185638
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c8663c5837b118bc35c889dac34196a05a76dd63
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a228ccf207a0197e1eb74c1f8f733df1f7912f6e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727751"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042438"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41727751"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-02-11_
+_**Última modificação do tópico:** 2014-02-11_
 
-O Microsoft Lync Server 2013 inclui suporte para o controle de admissão de chamadas (CAC) e bypass de mídia. Para implementar esses recursos, você deve configurar uma rede de regiões, sites, sub-redes e assim por diante que permitirá que você gerencie a largura de banda em situações nas quais as transmissões de áudio e vídeo precisam ser restritas. Você também pode usar a tecnologia de rede de qualidade de serviço (QoS) para ajudar a oferecer uma experiência ideal para os usuários finais de comunicações de áudio e vídeo.
+O Microsoft Lync Server 2013 inclui suporte para o CAC (controle de admissão de chamadas) e bypass de mídia. Para implementar estes recursos, você deve configurar uma rede de regiões, sites, subredes e assim por diante, que permitirão gerenciar a largura de banda em situações onde as transmissões de áudio e vídeo precisam ser restritas. Também é possível usar a tecnologia de rede QoS para oferecer uma melhor experiência ao usuário final para comunicações de áudio e vídeo.
 
-Você pode usar o painel de controle do Lync Server para configurar e gerenciar o CAC, o bypass de mídia e a QoS. Os tópicos a seguir fornecem etapas para fazer isso.
+Você pode usar o painel de controle do Lync Server para configurar e gerenciar o CAC, o bypass de mídia e a QoS. Os seguintes tópicos oferecem as etapas sobre como fazer isso.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Gerenciando a qualidade do serviço (QoS) no Lync Server 2013](lync-server-2013-managing-quality-of-service-qos.md)
+  - [Gerenciando a qualidade de serviço (QoS) no Lync Server 2013](lync-server-2013-managing-quality-of-service-qos.md)
 
   - [Gerenciando o controle de admissão de chamadas no Lync Server 2013](lync-server-2013-managing-call-admission-control.md)
 

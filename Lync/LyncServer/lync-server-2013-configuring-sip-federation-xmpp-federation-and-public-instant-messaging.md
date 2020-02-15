@@ -1,5 +1,5 @@
 ---
-title: Configurando federação SIP, federação XMPP e sistema de mensagens instântaneas público
+title: Configurando Federação SIP, Federação XMPP e mensagens instantâneas públicas
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184998
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 45abe0b4c32cf236912ad1a0e39f842653817e59
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8d97966d0a5062b133e9802f97ff77934ba29300
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739201"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041010"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-sip-federation-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>Configurando federação SIP, federação XMPP e sistema de mensagens instântaneas público no Lync Server 2013
+# <a name="configuring-sip-federation-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>Configurando Federação SIP, Federação XMPP e mensagens instantâneas públicas no Lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41739201"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-10-07_
+_**Última modificação do tópico:** 2013-10-07_
 
-Federação, conectividade de mensagens instantâneas públicas e protocolo de presença e mensagens extensíveis (XMPP) definem uma classe diferente de usuários externos – usuários federados. Os usuários de uma implantação do Lync Server federado ou implantação do XMPP têm acesso a um conjunto limitado de serviços e são autenticados pela implantação externa. Os usuários remotos são membros da implantação do Lync Server e têm acesso a todos os serviços oferecidos pela sua implantação.
+Federação, conectividade de mensagem instantânea pública e protocolo XMPP (Extensible Messaging and Presence Protocol) definem uma classe diferente de usuários externos – os usuários federados. Os usuários de uma implantação federada do Lync Server ou do XMPP têm acesso a um conjunto limitado de serviços e são autenticados pela implantação externa. Os usuários remotos são membros da sua implantação do Lync Server e têm acesso a todos os serviços oferecidos pela sua implantação.
 
 <div>
 
 
 > [!NOTE]
-> Uma data de fim da vida útil de junho de 2014 para AOL e Yahoo! foi anunciado. Para obter detalhes, consulte <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">suporte para conectividade de mensagens instantâneas públicas no Lync Server 2013</A>.
+> Uma data de fim de vida de junho de 2014 para AOL e Yahoo! foi anunciado. Para obter detalhes, consulte <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">support for Public Instant Messenger Connectivity in Lync Server 2013</A>.
 
 
 
 </div>
 
-A conectividade de mensagens instantâneas públicas é um tipo especial de Federação que permite que um cliente do Lync Server acesse parceiros de mensagens instantâneas públicas configurados usando o Lync 2013. Os atuais parceiros de conectividade de mensagens instantâneas públicas são:
+A conectividade de mensagens instantâneas públicas é um tipo especial de Federação que permite que um cliente do Lync Server acesse parceiros de mensagens instantâneas públicas configurados usando o Lync 2013. Os parceiros atuais de conectividade de mensagem instantânea pública são:
 
   - <span></span>  
     America Online
@@ -60,33 +60,33 @@ A conectividade de mensagens instantâneas públicas é um tipo especial de Fede
   - <span></span>  
     Instant\!
 
-Uma configuração pública de conectividade de mensagens instantâneas permite que os usuários do Lync acessem usuários de conectividade de mensagens instantâneas públicas:
+Uma configuração de conectividade de mensagem instantânea pública permite que os usuários do Lync acessem usuários de conectividade de mensagem instantânea pública através de:
 
-  - Mensagens instantâneas e presença
+  - IM e presença
 
-  - Visibilidade de contatos públicos de conectividade de mensagens instantâneas no cliente do Lync
+  - Visibilidade de contatos de  conectividade de mensagem instantânea pública no cliente Lync
 
-  - Pessoa a quem você conversa mensagens instantâneas com contatos
+  - Conversas entre duas pessoas com os contatos
 
   - Chamadas de áudio e vídeo com usuários do Windows Live
 
-A Federação do Lync Server define um contrato entre a implantação do Lync Server e outras implantações do Office Communications Server 2007 R2 ou Lync Server. Uma configuração federada do Lync Server permite que os usuários do Lync acessem usuários federados da seguinte forma:
+A federação do Lync Server define um acordo entre sua implantação do Lync Server e outras implantações do Office Communications Server 2007 R2 ou Lync Server. Uma configuração federada do Lync Server permite acesso dos usuários do Lync aos usuários federados através de:
 
-  - Mensagens instantâneas e presença
+  - IM e presença
 
-  - Criação de contatos federados no cliente do Lync
+  - Criação de contatos federados no cliente Lync
 
-A Federação XMPP define uma implantação externa baseada no protocolo de mensagens extensíveis e presença. Uma configuração do XMPP permite que os usuários do Lync acessem usuários de domínio do XMPP permitidos da seguinte forma:
+A federação XMPP define uma implantação externa baseada no protocolo XMPP (eXtensible Messaging and Presence Protocol). Uma configuração de XMPP permite o acesso dos usuários do Lync aos usuários de domínio XMPP através de:
 
-  - Mensagem instantânea e presença – pessoa para pessoa apenas
+  - IM e presença - apenas entre duas pessoas
 
-  - Criação de contatos federados do XMPP no cliente do Lync
+  - Criação de contatos federados XMPP no cliente Lync
 
 <div>
 
 
 > [!IMPORTANT]
-> O recurso XMPP do Lync Server 2013 é testado pela Microsoft e ela oferece suporte para federação de mensagens instantâneas com o Google Talk. Para quaisquer outros sistemas XMPP, entre em contato com o fornecedor do mesmo para verificar se eles suportam federação com o Lync Server 2013, e para quaisquer recomendações de implantação ou solução de problemas.
+> O recurso XMPP do Lync Server 2013 é testado e suportado pela Microsoft para Federação de mensagens instantâneas com o Google Talk. Para qualquer outro sistema XMPP, entre em contato com o fornecedor terceirizado para verificar se eles suportam a Federação com o Lync Server 2013 e para qualquer recomendação de implantação ou solução de problemas.
 
 
 
@@ -94,7 +94,7 @@ A Federação XMPP define uma implantação externa baseada no protocolo de mens
 
 <div>
 
-## <a name="edge-server-external-federation-public-instant-messaging-connectivity-and-xmpp-users-deployment-process"></a>Federação externa do servidor de borda, conectividade de mensagens instantâneas públicas e processo de implantação de usuários do XMPP
+## <a name="edge-server-external-federation-public-instant-messaging-connectivity-and-xmpp-users-deployment-process"></a>Federação externa de servidor de borda, conectividade de mensagem instantânea pública e processo de implantação de usuários XMPP
 
 
 <table>
@@ -114,62 +114,64 @@ A Federação XMPP define uma implantação externa baseada no protocolo de mens
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Determinar as opções para adicionar à implantação de borda existente</p></td>
+<td><p>Determina as opções para adicionar à implantação de borda existente</p></td>
 <td><p>Execute o construtor de topologias para editar as configurações do servidor de borda e crie e publique a topologia. A topologia de borda existente replicará as alterações do repositório de gerenciamento central para o servidor de borda.</p></td>
-<td><p>Grupo Administradores de domínio e grupo RTCUniversalServerAdmins</p>
+<td><p>Grupo de administradores de domínio e grupo RTCUniversalServerAdmins</p>
 
 
 
 > [!NOTE]
-> Você pode editar uma topologia usando uma conta que seja membro do grupo usuários local, mas publicar uma topologia requer uma conta que seja membro do grupo Administradores do domínio e do grupo RTCUniversalServerAdmins
+> Você pode editar uma topologia usando uma conta que é membro do grupo de usuários locais, mas publicar uma topologia exige uma conta que seja membro de um grupo de administradores de domínio e do grupo RTCUniversalServerAdmins
 
 </td>
 <td><p><a href="lync-server-2013-building-an-edge-and-director-topology.md">Criando uma topologia de borda e de diretor no Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Preparar-se para a instalação</p></td>
+<td><p>Preparar para instalação</p></td>
 <td><ol>
-<li><p>Certifique-se de que os pré-requisitos do sistema sejam atendidos.</p></li>
-<li><p>Configurar registros DNS internos e externos para dar suporte à conectividade de mensagens instantâneas, ao agrupamento do Lync e à Federação do XMPP</p></li>
-<li><p>Configurar portas e protocolos no firewall para dar suporte aos tipos de Federação que você está implantando</p></li>
-<li><p>Obter e instalar certificados públicos. O tempo necessário para obter certificados depende de qual a autoridade de certificação (CA) emite o certificado. Esta etapa é opcional neste ponto da implantação. Se você não executar esta etapa neste ponto, deverá fazê-lo durante a configuração do servidor de borda. O serviço do servidor de borda não pode ser iniciado até que os certificados sejam obtidos</p></li>
+<li><p>Garanta que os pré-requisitos do sistema sejam atendidos.</p></li>
+<li><p>Configure registros DNS internos e externos para suportar conectividade de mensagens instantâneas públicas, federação Lync e federação XMPP</p></li>
+<li><p>Configure portas e protocolos no firewall para suportar os tipos de federação que você está implantando</p></li>
+<li><p>Obtenha e instale certificados públicos. O tempo necessário para obter certificados depende de qual autoridade de certificação (CA) emite o certificado. Esta etapa é opcional neste ponto da implantação. Se você não executar essa etapa nesse momento, será necessário fazê-lo durante a configuração do Servidor de Borda. O serviço de Servidor de Borda não pode ser iniciado até que o certificado seja obtido</p></li>
 </ol></td>
-<td><p>Conforme apropriado para a sua organização, como essas funções geralmente são divididas entre vários grupos de trabalho</p></td>
-<td><p><a href="lync-server-2013-planning-for-sip-xmpp-federation-and-public-instant-messaging.md">Planejando o SIP, a Federação do XMPP e o sistema de mensagens instantâneas públicas no Lync Server 2013</a></p></td>
+<td><p>Conforme for apropriado para sua organização, pois essas funções são geralmente divididas entre vários grupos de trabalho</p></td>
+<td><p><a href="lync-server-2013-planning-for-sip-xmpp-federation-and-public-instant-messaging.md">Planejamento para SIP, Federação XMPP e mensagens instantâneas públicas no Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Configurar servidores de borda para cenários de Federação</p></td>
+<td><p>Configure os Servidores de Borda para cenários de federação</p></td>
 <td><ol>
-<li><p>Transportar o arquivo de configuração de topologia exportado para cada servidor de borda ou permitir que a replicação seja concluída</p></li>
-<li><p>Executar novamente o assistente de implantação para instalar componentes de suporte para Federação</p></li>
-<li><p>Configurar os servidores de borda</p></li>
-<li><p>Solicitar e instalar certificados para cada servidor de borda</p></li>
-<li><p>Reiniciar os serviços do servidor de borda</p></li>
+<li><p>Transporte o arquivo de configuração de topologia exportado para cada Servidor de Borda ou permita que a replicação seja concluída</p></li>
+<li><p>Execute novamente o Assistente de Implantação para instalar componentes de suporte para federação</p></li>
+<li><p>Configura os Servidores de Borda</p></li>
+<li><p>Solicite e instale certificados para cada Servidor de Borda</p></li>
+<li><p>Reinicie os serviços dos Servidores de Borda
+
+</p></li>
 </ol></td>
-<td><p>Grupo Administradores</p></td>
-<td><p><a href="lync-server-2013-setting-up-lync-federation.md">Configuração de federação do Lync no Lync Server 2013</a></p>
-<p><a href="lync-server-2013-setting-up-public-instant-messaging-connectivity.md">Configurar conectividade de mensagens instantâneas públicas no Lync Server 2013</a></p>
-<p><a href="lync-server-2013-setting-up-xmpp-federation.md">Configurando federação de XMPP no Lync Server 2013</a></p></td>
+<td><p>Grupo de administradores</p></td>
+<td><p><a href="lync-server-2013-setting-up-lync-federation.md">Configurando a Federação do Lync no Lync Server 2013</a></p>
+<p><a href="lync-server-2013-setting-up-public-instant-messaging-connectivity.md">Configurando a conectividade de mensagens instantâneas públicas no Lync Server 2013</a></p>
+<p><a href="lync-server-2013-setting-up-xmpp-federation.md">Configurando a Federação XMPP no Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Configurar o suporte para acesso de usuário externo.</p></td>
+<td><p>Configurar suporte para acesso de usuário externo.</p></td>
 <td><ol>
-<li><p>Usar o painel de controle do Lync Server acesso externo do usuário</p></li>
-<li><p>Configurar a política de acesso externo para permitir comunicações com usuários federados ou usuários públicos</p></li>
-<li><p>Configurar domínios federados SIP para permitir ou bloquear domínios</p></li>
-<li><p>Habilitar provedores federados SIP para provedores de conectividade de mensagens instantâneas públicas</p></li>
-<li><p>Configurar parceiros federados do XMPP por domínio XMPP</p></li>
+<li><p>Usar o acesso de usuário externo do painel de controle do Lync Server</p></li>
+<li><p>Configure a Política de Acesso Externo para permitir comunicação com usuários federados ou usuários públicos</p></li>
+<li><p>Configure domínios federados SIP para permitir ou bloquear domínios</p></li>
+<li><p>Habilite provedores federados SIP para provedores de conectividade de mensagens instantâneas</p></li>
+<li><p>Configure os parceiros federados XMPP por domínio XMPP</p></li>
 </ol></td>
-<td><p>Grupo RTCUniversalServerAdmins ou conta de usuário atribuída à função CSAdministrator</p></td>
+<td><p>Grupo RTCUniversalServerAdmins ou conta de usuário atribuído à função CSAdministrator</p></td>
 <td><p><a href="lync-server-2013-configuring-support-for-external-user-access.md">Configurando suporte para acesso de usuário externo no Lync Server 2013</a></p>
-<p><a href="lync-server-2013-configure-media-encryption-for-public-providers.md">Configurar criptografia de mídia para fornecedores públicos no Lync Server 2013</a></p></td>
+<p><a href="lync-server-2013-configure-media-encryption-for-public-providers.md">Configurar a criptografia de mídia para provedores públicos no Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Verificar a configuração do servidor de borda</p></td>
-<td><p>Verificar a conectividade do servidor e a replicação de dados de configuração de servidores internos</p></td>
-<td><p>Para a verificação da replicação, do grupo RTCUniversalServerAdmins ou da conta de usuário que é atribuída ao CSAdministrator de verificação de roleFor da conectividade do usuário, um usuário para cada tipo de usuário federado</p></td>
+<td><p>Verifique sua configuração do Servidor de Borda</p></td>
+<td><p>Verifique a conectividade de servidor e replicação de dados de configuração de servidores internos</p></td>
+<td><p>Para verificar a replicação, o grupo RTCUniversalServerAdmins ou conta do usuário que é atribuído à função CSAdministrator. Para verificação da conectividade do usuário, um usuário para cada tipo de usuário federado</p></td>
 <td><p><a href="lync-server-2013-verifying-your-edge-deployment.md">Verificando a implantação de borda no Lync Server 2013</a></p>
-<p><a href="lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md">Exemplo de configuração de XMPP no Lync Server 2013 – federação XMPP com Google Talk</a></p></td>
+<p><a href="lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md">Exemplo de configuração de XMPP no Lync Server 2013 – Federação do XMPP com Google Talk</a></p></td>
 </tr>
 </tbody>
 </table>

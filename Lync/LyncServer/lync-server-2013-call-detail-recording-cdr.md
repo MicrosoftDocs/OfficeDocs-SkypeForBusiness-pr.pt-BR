@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: registro de detalhes de chamadas (CDR)'
+title: 'Lync Server 2013: registro de detalhes da chamada (CDR)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733675
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e7490e974b970c7c0a68e16b03ed19306d89183
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bf5eb1c82b6cabff3657890c83f4e8240a30e23f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743141"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045373"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-detail-recording-cdr-in-lync-server-2013"></a>Registro de detalhes de chamadas (CDR) no Lync Server 2013
+# <a name="call-detail-recording-cdr-in-lync-server-2013"></a>Registro de detalhes da chamada (CDR) no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41743141"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-22_
+_**Última modificação do tópico:** 2012-10-22_
 
-O CDR (registro de detalhes das chamadas) registra informações de uso e diagnóstico sobre atividades ponto a ponto, incluindo serviço de mensagens instantâneas, chamadas VoIP, compartilhamento de aplicativos, transferência de arquivos e reuniões. Os dados de uso podem ser utilizados para calcular o retorno sobre o investimento, enquanto os dados de diagnóstico podem ser usados para solucionar problemas de atividades ponto a ponto e reuniões. Ao instalar o Lync Server 2013, você também instalará um conjunto predefinido de configurações globais de configuração para CDR. Use os tópicos desta seção para configurar o CDR.
+O CDR (registro de detalhes das chamadas) registra informações de uso e diagnóstico sobre atividades ponto a ponto, incluindo serviço de mensagens instantâneas, chamadas VoIP, compartilhamento de aplicativos, transferência de arquivos e reuniões. Os dados de uso podem ser utilizados para calcular o retorno sobre o investimento, enquanto os dados de diagnóstico podem ser usados para solucionar problemas de atividades ponto a ponto e reuniões. Ao instalar o Lync Server 2013, você também instalará um conjunto predefinido de definições de configuração global para CDR. Use os tópicos desta seção para configurar o CDR.
 
 <div>
 
@@ -45,13 +45,13 @@ O CDR (registro de detalhes das chamadas) registra informações de uso e diagn�
 
   - [Exibir informações de configuração de CDR no Lync Server 2013](lync-server-2013-view-cdr-configuration-information.md)
 
-  - [Habilitar a gravação de detalhes de chamadas no Lync Server 2013](lync-server-2013-enable-call-detail-recording.md)
+  - [Habilitar a gravação de detalhes da chamada no Lync Server 2013](lync-server-2013-enable-call-detail-recording.md)
 
-  - [Criar ou modificar uma coleção de definições de configuração de CDR no Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-cdr-configuration-settings.md)
+  - [Criar ou modificar um conjunto de definições de configuração de CDR no Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-cdr-configuration-settings.md)
 
-  - [Excluir uma coleção existente de definições de configuração de CDR no Lync Server 2013](lync-server-2013-delete-an-existing-collection-of-cdr-configuration-settings.md)
+  - [Excluir um conjunto existente de definições de configuração de CDR no Lync Server 2013](lync-server-2013-delete-an-existing-collection-of-cdr-configuration-settings.md)
 
-  - [Como limpar manualmente a gravação de detalhes da chamada e os bancos de dados de qualidade da experiência no Lync Server 2013](lync-server-2013-manually-purging-the-call-detail-recording-and-quality-of-experience-databases.md)
+  - [Limpar manualmente o registro de detalhes das chamadas e os bancos de dados de qualidade da experiência no Lync Server 2013](lync-server-2013-manually-purging-the-call-detail-recording-and-quality-of-experience-databases.md)
 
 </div>
 
@@ -60,7 +60,7 @@ O CDR (registro de detalhes das chamadas) registra informações de uso e diagn�
 ## <a name="see-also"></a>Confira também
 
 
-[Configurando a gravação de detalhes da chamada e as configurações de qualidade de experiência no Lync Server 2013](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md)  
+[Configurando a gravação de detalhes da chamada e as configurações de qualidade da experiência no Lync Server 2013](lync-server-2013-configuring-call-detail-recording-and-quality-of-experience-settings.md)  
   
 
 </div>

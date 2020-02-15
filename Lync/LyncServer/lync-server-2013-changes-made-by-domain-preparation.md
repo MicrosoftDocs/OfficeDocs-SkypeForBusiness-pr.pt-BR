@@ -12,20 +12,20 @@ ms:contentKeyID: 48184845
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cbdd1fa1fbb5bd7a396e17f478326a9e4dd700f8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fb693f79470e7d68a1aaf662c9ab82b8bafa5c39
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730101"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037251"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="changes-made-by-domain-preparation-in-lync-server-2013"></a>Alterações feitas por preparação do domínio no Lync Server 2013
+# <a name="changes-made-by-domain-preparation-in-lync-server-2013"></a>Alterações feitas pela preparação do domínio no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41730101"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2010-10-18_
+_**Última modificação do tópico:** 2010-10-18_
 
-A tabela a seguir lista as entradas de controle de acesso (ACEs) que a preparação do domínio cria na raiz do domínio. Todas as ACEs são herdadas, a menos que indicado de outra forma.
+A tabela a seguir lista as ACEs (entradas de controle de acesso) que a preparação de domínio cria na raiz do domínio. Todas as ACEs serão herdadas, salvo indicação em contrário.
 
 <div id="sectionSection0" class="section">
 
@@ -57,22 +57,22 @@ A tabela a seguir lista as entradas de controle de acesso (ACEs) que a preparaç
 <th>ACE</th>
 <th>RTCUniversal-userreadonly-Group</th>
 <th>RTCUniversal-ServerReadOnly-Group</th>
-<th>RTCUniversal-administradores do useradmin</th>
+<th>RTCUniversal-useradmins</th>
 <th>RTCHSUniversal-serviços</th>
 <th>Usuários autenticados</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Contêiner de leitura (não herdado)</p></td>
-<td><p><strong>Sim</strong></p></td>
+<td><p>Ler contêiner (não herdado)</p></td>
+<td><p>Sim</p></td>
 <td><p><strong>Sim</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
 </tr>
 <tr class="even">
-<td><p>Ler propriedades do usuário-User-Restriction-restrições de conta</p></td>
+<td><p>Ler User PropertySet User-Account-Restrictions</p></td>
 <td><p><strong>Sim</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
@@ -80,7 +80,7 @@ A tabela a seguir lista as entradas de controle de acesso (ACEs) que a preparaç
 <td><p>Não</p></td>
 </tr>
 <tr class="odd">
-<td><p>Ler propriedades do usuário pessoal-informações</p></td>
+<td><p>Ler User PropertySet Personal-Information</p></td>
 <td><p><strong>Sim</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
@@ -88,7 +88,7 @@ A tabela a seguir lista as entradas de controle de acesso (ACEs) que a preparaç
 <td><p>Não</p></td>
 </tr>
 <tr class="even">
-<td><p>Ler propriedades do usuário – informações gerais-informações</p></td>
+<td><p>Ler User PropertySet General-Information</p></td>
 <td><p><strong>Sim</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
@@ -96,7 +96,7 @@ A tabela a seguir lista as entradas de controle de acesso (ACEs) que a preparaç
 <td><p>Não</p></td>
 </tr>
 <tr class="odd">
-<td><p>Ler as informações públicas de propriedades do usuário</p></td>
+<td><p>Ler User PropertySet Public-Information</p></td>
 <td><p><strong>Sim</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
@@ -104,15 +104,15 @@ A tabela a seguir lista as entradas de controle de acesso (ACEs) que a preparaç
 <td><p>Não</p></td>
 </tr>
 <tr class="even">
-<td><p>Ler conjunto de RTCUserSearchProperty de propriedades do usuário</p></td>
+<td><p>Ler User PropertySet RTCUserSearchProperty-Set</p></td>
 <td><p><strong>Sim</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
-<td><p><strong>Sim</strong></p></td>
+<td><p>Sim</p></td>
 </tr>
 <tr class="odd">
-<td><p>Ler RTCPropertySet de propriedades do usuário</p></td>
+<td><p>Ler User PropertySet RTCPropertySet</p></td>
 <td><p><strong>Sim</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
@@ -120,7 +120,7 @@ A tabela a seguir lista as entradas de controle de acesso (ACEs) que a preparaç
 <td><p>Não</p></td>
 </tr>
 <tr class="even">
-<td><p>Gravar endereços de proxy de propriedade de usuário</p></td>
+<td><p>Gravar User Property Proxy-Addresses</p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
 <td><p><strong>Sim</strong></p></td>
@@ -128,7 +128,7 @@ A tabela a seguir lista as entradas de controle de acesso (ACEs) que a preparaç
 <td><p>Não</p></td>
 </tr>
 <tr class="odd">
-<td><p>Gravar RTCUserSearchProperty de propriedades do usuário-definir</p></td>
+<td><p>Gravar User PropertySet RTCUserSearchProperty-Set</p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
 <td><p><strong>Sim</strong></p></td>
@@ -136,7 +136,7 @@ A tabela a seguir lista as entradas de controle de acesso (ACEs) que a preparaç
 <td><p>Não</p></td>
 </tr>
 <tr class="even">
-<td><p>Gravar usuário do RTCPropertySet de propriedades</p></td>
+<td><p>Gravar User PropertySet RTCPropertySet</p></td>
 <td><p>Não</p></td>
 <td><p>Não</p></td>
 <td><p><strong>Sim</strong></p></td>
@@ -155,9 +155,9 @@ A tabela a seguir lista as entradas de controle de acesso (ACEs) que a preparaç
 </table>
 
 
-A tabela a seguir lista as ACEs que a preparação do domínio cria nos três contêineres internos: usuários, computadores e controladores de domínio. Todas as ACEs são herdadas, a menos que indicado de outra forma.
+A tabela a seguir lista as ACEs que a preparação do domínio cria nos três contêineres internos: Usuários, Computadores e Controladores de Domínio. Todas as ACEs são herdadas, a menos que especificado de outra forma.
 
-### <a name="aces-added-to-built-in-containers"></a>ACEs adicionadas a contêineres internos
+### <a name="aces-added-to-built-in-containers"></a>ACEs adicionadas à contêineres internos
 
 <table>
 <colgroup>
@@ -174,8 +174,8 @@ A tabela a seguir lista as ACEs que a preparação do domínio cria nos três co
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Contêiner de leitura (não herdado)</p></td>
-<td><p><strong>Sim</strong></p></td>
+<td><p>Ler contêiner (não herdado)</p></td>
+<td><p>Sim</p></td>
 <td><p><strong>Sim</strong></p></td>
 </tr>
 </tbody>

@@ -12,16 +12,16 @@ ms:contentKeyID: 50873761
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c28548bdde01ed9edf4a2ca49c17aa9651309dc9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 181451e5ee4ecba114361aab5408d329f1a2a7d3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756465"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044353"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756465"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-12-11_
+_**Última modificação do tópico:** 2012-12-11_
 
-Uma política de versão do cliente é composta de um conjunto de regras de política de versão do cliente. Essas regras definem as ações que devem ser executadas quando os usuários tentam fazer logon com clientes específicos e versões do cliente. Use os procedimentos a seguir para configurar regras de política de versão do cliente para o Lync Server 2013
+Uma política de versão do cliente é composta por um conjunto de regras de política de versão do cliente. Essas regras definem as ações que devem ser executadas quando os usuários tentam fazer logon com clientes específicos e versões do cliente. Use os procedimentos a seguir para configurar as regras de política de versão do cliente para o Lync Server 2013
 
 <div>
 
@@ -47,7 +47,7 @@ Uma política de versão do cliente é composta de um conjunto de regras de pol�
 
   - [Criar ou modificar uma nova regra de política de versão do cliente no Lync Server 2013](lync-server-2013-create-or-modify-a-new-client-version-policy-rule.md)
 
-  - [Excluir uma regra de política de versão do cliente existente no Lync Server 2013](lync-server-2013-delete-an-existing-client-version-policy-rule.md)
+  - [Excluir uma regra de política de versão de cliente existente no Lync Server 2013](lync-server-2013-delete-an-existing-client-version-policy-rule.md)
 
 </div>
 

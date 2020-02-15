@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: 'Resumo: Saiba mais sobre o relatório de diagnóstico no Skype for Business Server.'
-ms.openlocfilehash: e8f89f1f5a013b40f7f5f105f49611542667a477
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: f1a8d9a0c027019708f2be75fec14634197c4e2b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817981"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041988"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>Relatório de diagnóstico no Skype for Business Server
  
@@ -33,7 +33,7 @@ O Relatório de diagnóstico fornece diagnósticos e informações para a soluç
     
 ## <a name="accessing-the-diagnostic-report"></a>Acessando o relatório de diagnósticos
 
-O relatório de diagnóstico pode ser acessado clicando na métrica relatório de diagnóstico (detalhe) em um [relatório de detalhes de sessão ponto a ponto no Skype for Business Server](peer-to-peer-session-detail-report.md) ou no relatório de detalhes da conferência.
+O relatório de diagnóstico pode ser acessado clicando na métrica relatório de diagnóstico (detalhe) no [relatório de detalhes de sessão ponto a ponto no Skype for Business Server](peer-to-peer-session-detail-report.md) ou no relatório de detalhes da conferência.
   
 ## <a name="filters"></a>Filtros
 
@@ -45,21 +45,21 @@ A tabela a seguir lista as informações fornecidas no Relatório de Diagnóstic
   
 **Métricas do Relatório de Diagnóstico**
 
-|**Nome**|**Você pode classificar este item?**|**Descrição**|
+|**Nome**|**É possível classificar este item?**|**Descrição**|
 |:-----|:-----|:-----|
 |**Hora do relatório** <br/> |Não  <br/> |Data e hora do registro do relatório.  <br/> |
 |**Código da resposta** <br/> |Não  <br/> |Código da resposta SIP enviado quando a sessão falhou.  <br/> |
 |**Tipo de solicitação** <br/> |Não  <br/> |Tipo de solicitação SIP que falhou. Por exemplo, CONVIDAR, ATÉ LOGO ou SERVIÇO.  <br/> |
-|**Origem** <br/> |Não  <br/> |Origem do erro.  <br/> |
+|**Fonte** <br/> |Não  <br/> |Origem do erro.  <br/> |
 |**URI do usuário de origem** <br/> |Não  <br/> |Endereço SIP do usuário que iniciou a sessão.  <br/> |
 |**Representante do usuário de origem** <br/> |Não  <br/> |Software usado pelo ponto de extremidade do usuário que iniciou a sessão.  <br/> |
-|**ID do Diagnóstico** <br/> |Não  <br/> |Identificador exclusivo (na forma de um cabeçalho de diagnóstico-ms) anexado a uma mensagem SIP que fornece informações úteis sobre os erros de solução de problemas.  <br/> |
+|**ID do Diagnóstico** <br/> |Não  <br/> |Identificador exclusivo (no formato de um cabeçalho ms-diagnostics) anexado a uma mensagem SIP que frequentemente oferece informações úteis para resolução de erros.  <br/> |
 |**Tipo de conteúdo** <br/> |Não  <br/> |Tipo de conteúdo de mídia que falhou. Por exemplo, um tipo de conteúdo comum é Application/sdp. SDP (Protocolo de descrição de sessão) é um protocolo padrão de Internet usado para anúncios de sessão, convites de sessão e outras formas de início de sessão multimídia.  <br/> |
-|**Aplicativo** <br/> |Não  <br/> |Aplicativo envolvido no erro.  <br/> |
+|**Application** <br/> |Não  <br/> |Aplicativo envolvido no erro.  <br/> |
 |**URI do usuário de destino** <br/> |Não  <br/> |Endereço SIP do usuário convidado para a sessão.  <br/> |
 |**Hora de ingresso de conferência (ms)** <br/> |Não  <br/> |Tempo (em milissegundos) que o usuário precisou para ingressar na conferência.  <br/> |
 |**Cabeçalho do diagnóstico** <br/> |Não  <br/> |Descrição do ID de diagnóstico.  <br/> |
    
-Uma lista de erros de diagnóstico pode ser encontrada na [página de cabeçalho MS-Diagnostics](https://msdn.microsoft.com/en-us/library/gg132446%28v=office.12%29.aspx).
+Uma lista de erros de diagnóstico pode ser encontrada na [página de cabeçalho MS-Diagnostics](https://msdn.microsoft.com/library/gg132446%28v=office.12%29.aspx).
   
 

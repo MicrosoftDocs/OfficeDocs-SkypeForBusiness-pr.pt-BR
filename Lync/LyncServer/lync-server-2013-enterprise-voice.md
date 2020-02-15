@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Enterprise Voice'
+title: Lync Server 2013 Enterprise Voice
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185404
 ms.date: 04/08/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e62224a7187c54222364045d0ac7b1aa70bccb9c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d8f0aef4d3f2323bcfcd99f42b265ea02b6126b2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735411"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042118"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,65 +35,65 @@ ms.locfileid: "41735411"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2015-04-08_
+_**Última modificação do tópico:** 2015-04-08_
 
-Com o Enterprise Voice, o Lync Server oferece uma oferta de protocolo de voz (VoIP) autônoma para aprimorar ou substituir sistemas PBX (Private Branch Exchange) tradicionais. Os usuários do Enterprise Voice podem chamar colegas na rede VoIP ou PBX da sua organização, e podem ligar para números de telefone tradicionais fora de sua organização. A solução Enterprise Voice inclui recursos de chamadas comuns, como atender, encaminhar, transferir, suspender, reenvio, lançamento e estacionamento, e 9-1-1 (E9-1-1) de chamadas (E9-1-1 está disponível somente nos Estados Unidos.) O Enterprise Voice também oferece suporte a uma ampla gama de dispositivos IP e USB atuais e mais antigos.
+Com o Enterprise Voice, o Lync Server fornece uma oferta de protocolo VoIP para aprimorar ou substituir sistemas PBX (Private Branch Exchange) tradicionais. Os usuários do Enterprise Voice podem ligar para colegas na sua rede VoIP da organização ou PBX e podem ligar para números tradicionais fora da organização. A solução Enterprise Voice inclui recursos de chamada comuns como resposta, encaminhamento, transferência, retenção, reenvio, lançamento e estacionamento, e Enhanced 9-1-1 (E9-1-1) chamada (E9-1-1 está disponível somente nos Estados Unidos). O Enterprise Voice também oferece suporte a uma ampla variedade de dispositivos IP e USB atuais e antigos.
 
 <div>
 
 ## <a name="placing-and-receiving-calls"></a>Fazendo e recebendo chamadas
 
-Usando o Lync, os usuários podem fazer chamadas digitando um nome ou número de telefone no teclado ou usando um teclado de discagem exibido na tela. Os usuários também podem iniciar chamadas diretamente da lista de contatos. Você também pode implantar os dispositivos do Lync Phone Edition, que são dispositivos de telefonia IP autônomos fornecidos pelos parceiros da Microsoft.
+Usando o Lync, os usuários podem fazer chamadas digitando um nome ou número de telefone no teclado ou usando um teclado de discagem exibido na tela. Os usuários podem iniciar chamadas diretamente da sua lista de Contatos. Você também pode implantar dispositivos do Lync Phone Edition, que são dispositivos de telefone IP autônomos fornecidos por parceiros da Microsoft.
 
 Os usuários podem ter vários dispositivos telefônicos registrados no Lync Server e podem alternar entre eles facilmente.
 
-Os usuários são alertados sobre chamadas de entrada em todos os seus dispositivos simultaneamente, com toques personalizáveis em dispositivos de telefone IP e uma notificação semelhante a uma mensagem de chat em seu PC.
+Os usuários são alertados sobre chamadas recebidas em todos seus dispositivos simultaneamente, com toques personalizados em telefones IP e uma notificação parecida com uma mensagem instantânea no PC.
 
-Os usuários também podem definir um único número de telefone que se conecta ao telefone de mesa, ao PC e ao celular, para que eles possam ser acessados onde quer que estejam.
-
-</div>
-
-<div>
-
-## <a name="basic-call-features"></a>Recursos de chamada básica
-
-Durante uma chamada, um usuário pode atender a chamadas de entrada adicionais ou iniciar chamadas feitas, e a chamada ativa existente é automaticamente colocada em espera. As chamadas podem ser transferidas de um usuário para outro, diretamente ou após o primeiro usuário falar de forma privada com o segundo usuário. Os usuários também podem transferir chamadas para outro dispositivo; por exemplo, eles podem transferir uma chamada ativa para o seu celular à medida que eles orientam a porta do escritório.
+Os usuários também podem definir um único número de telefone que fica conectado ao telefone de mesa, PC e celular, de modo que possam ser encontrados não importa onde estejam.
 
 </div>
 
 <div>
 
-## <a name="richer-communications"></a>Comunicações mais sofisticadas
+## <a name="basic-call-features"></a>Recursos básicos de chamada
 
-Ao conversar com outro usuário com o Lync, os usuários podem facilmente adicionar texto, vídeo ou compartilhamento de área de trabalho à chamada. O recurso do-not-incomodar está integrado às configurações de presença no Lync.
-
-Com o Exchange Unified Messaging (UM), o Lync e o Lync Server se integram com o Microsoft Exchange Server 2013 e o Microsoft Outlook 2013. Os usuários podem ver se têm novas mensagens de voz na janela do Lync e em email. No email, eles podem clicar para reproduzir o áudio da caixa postal em uma mensagem de email ou exibir uma transcrição da mensagem da caixa postal.
+Durante uma chamada, um usuário pode atender a outras chamadas ou iniciar chamadas de saída, e a chamada ativa atual é colocada automaticamente em espera. As chamadas podem ser transferidas de um usuário para outro, diretamente ou após o primeiro usuário falar em particular com o segundo usuário. Os usuários também podem transferir chamadas para outro dispositivo; por exemplo, eles podem transferir uma chamada ativa para seus celulares enquanto saem de seus escritórios.
 
 </div>
 
 <div>
 
-## <a name="advanced-calling-features"></a>Recursos de chamada avançados
+## <a name="richer-communications"></a>Comunicações mais ricas
 
-O Enterprise Voice também inclui vários recursos de chamada avançados, como a delegação de chamadas do Lync, a chamada de equipe, a retirada de chamadas em grupo e grupos de resposta.
+Ao falar com outro usuário com o Lync, os usuários podem facilmente adicionar o compartilhamento de texto, vídeo ou área de trabalho à chamada. O recurso do-not-perturbe é integrado às configurações de presença no Lync.
 
-A delegação de chamadas do Lync permite aos usuários delegar a manipulação de chamadas a um ou mais assistentes acessando **ferramentas** \> **Opções** \> **configurações de encaminhamento de chamadas**. O representante pode executar várias tarefas de chamada em nome do usuário, incluindo chamadas de filtragem, inserção de chamadas e início de conferências.
+Com a Unificação de mensagens (UM) do Exchange, o Lync e o Lync Server se integram com o Microsoft Exchange Server 2013 e o Microsoft Outlook 2013. Os usuários podem ver se têm novas mensagens de voz na janela do Lync e no email. Enquanto estiverem no email, podem clicar para reproduzir o áudio da caixa postal em uma mensagem de email ou exibir uma transcrição da mensagem de caixa postal.
+
+</div>
+
+<div>
+
+## <a name="advanced-calling-features"></a>Recursos avançados de chamada
+
+O Enterprise Voice também inclui vários recursos de chamadas avançados, como a delegação de chamada do Lync, chamada em equipe, recebimento de chamadas em grupo e grupos de resposta.
+
+A delegação de chamadas do Lync permite que os usuários deleguem o tratamento de chamadas a um **** \> ou mais assistentes, acessando as **configurações de atendimento de chamadas das** **Opções** \> . O representante pode executar diversas tarefas de chamada em nome do usuário, incluindo camadas filtragem de chamadas, realização de chamadas e início de conferências.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Você pode estar procurando outro recurso de nome semelhante, delegação de calendário do Lync. Ele não requer o recurso Enterprise Voice e permite que os usuários agendem reuniões online do Lync a partir do Outlook. Se você vir aqui procurando essas informações, recomendamos o check-out <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy">set-CsClientPolicy</A> para obter informações sobre como habilitar a sincronização de representante do Exchange.
+> Você pode estar procurando outro recurso de nome similar, delegação de calendário do Lync. Ele não exige o recurso Enterprise Voice e permite que os usuários agendem reuniões online do Lync a partir do Outlook. Se você vir aqui procurando essas informações, recomendamos o check-out do <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy">set-CsClientPolicy</A> para obter informações sobre como habilitar a sincronização de representante do Exchange.
 
 
 
 </div>
 
-O recurso de chamada de equipe permite que o usuário tenha chamadas para ligar simultaneamente para os telefones dos colegas de equipe, para que qualquer pessoa da equipe possa atender a chamada.
+A chamada em equipe permite que um usuário tenha chamadas de entrada para ligar simultaneamente os telefones dos colegas de equipe, de forma que qualquer pessoa da equipe possa responder à chamada.
 
-Recebimento de chamadas em grupo, um novo recurso em atualizações cumulativas para o Lync Server 2013:2013 de fevereiro, permite que os usuários atendam às chamadas recebidas para seus colegas pelos próprios telefones. A retirada de chamadas em grupo é diferente das chamadas de equipe principalmente porque uma chamada recebida só entra no telefone do destinatário, mas qualquer outro usuário pode optar por respondê-la ao discar um número de grupo de recebimento de chamadas.
+Atendimento de chamadas em grupo, um novo recurso em atualizações cumulativas do Lync Server 2013:2013 de fevereiro, permite que os usuários respondam chamadas de entrada para seus colegas de seus próprios telefones. O recebimento de chamadas de grupo difere da chamada de equipe, principalmente, quando uma chamada de entrada entra apenas no telefone do destinatário, mas qualquer outro usuário pode optar por respondê-lo discando um número de grupo de recebimento de chamada.
 
-Os grupos de resposta podem ser configurados para enfileiramento e encaminhamento inteligente de chamadas para agentes designados. Os usos comuns incluem helpdesks de ti, diretas de recursos humanos e outros centros de contato internos.
+Os Grupos de Resposta podem ser definidos para enfileiramento e roteamento inteligente de chamadas aos agentes designados. Entre os usos comuns estão assistência técnica de TI, linde atendimento dos recursos humanos e outros centros de contato internos.
 
 </div>
 
@@ -101,11 +101,11 @@ Os grupos de resposta podem ser configurados para enfileiramento e encaminhament
 
 ## <a name="enterprise-voice-administration"></a>Administração do Enterprise Voice
 
-O Lync Server usa padrões e interfaces publicadas para interoperar com a infraestrutura existente. Ele é compatível com as opções de gateway e SIP (como entroncamento SIP) para interconexão com sistemas IP PBX e redes PSTN, para que você possa migrar usuários para o Enterprise Voice ao longo do tempo, enquanto minimiza as interrupções. O Lync Server tem suporte para codecs tradicionais como G. 711, G. 722 e G. 723.1 para interoperabilidade com soluções tradicionais de VoIP.
+O Lync Server usa padrões e interfaces publicadas para interoperar com a infraestrutura existente. Ele suporta as opções de gateway e SIP (como tronco SIP) para interconexão com sistemas IP PBX e as redes PSTN, de modo que você possa migrar os usuários para o Enterprise Voice com o tempo, minimizando as interrupções. O Lync Server oferece suporte a codecs tradicionais como G. 711, G. 722 e G. 723.1 para interoperabilidade com as soluções tradicionais de VoIP.
 
-Com o controle de admissão de chamadas (CAC), os administradores podem definir limites para a quantidade de tráfego de voz e vídeo do Lync Server transportados em links de rede restritos e especificam a ação a ser tomada se uma nova chamada excedesse o limite. As ações podem incluir roteamento por um caminho alternativo ou recusando a chamada.
+Com o controle de admissão de chamadas (CAC), os administradores podem definir limites na quantidade de tráfego de voz e vídeo do Lync Server transportada em links de rede restritos e especificar a ação a ser tomada se uma nova chamada exceder o limite. As ações poderiam incluir roteamento por um caminho alternativo ou a recusa da chamada.
 
-O Lync Server funciona com aparelhos de ramificação externos terceirizados para fornecer serviços de chamadas locais e conexão à PSTN em filiais, em caso de falha de WAN no site central.
+O Lync Server funciona com aparelhos de filial persistente de terceiros para fornecer serviços de chamada local e conexão com PSTN em filiais, em caso de falha de WAN no site central.
 
 </div>
 

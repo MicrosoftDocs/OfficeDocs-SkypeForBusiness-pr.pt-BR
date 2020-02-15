@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: números de acesso à conferência discada'
+title: 'Lync Server 2013: números de acesso de conferência discada'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733590
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1b7f10d0fb1d8c908a6cce90ece3b0ef6f0eed2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e128536bbabc4c43fd51412ea61fe0da0b86cf56
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762329"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044683"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dial-in-conferencing-access-numbers-in-lync-server-2013"></a>Números de acesso à conferência discada no Lync Server 2013
+# <a name="dial-in-conferencing-access-numbers-in-lync-server-2013"></a>Números de acesso de conferência discada no Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41762329"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-18_
+_**Última modificação do tópico:** 2012-09-18_
 
-Para permitir que os usuários ingressem na parte de áudio de conferências locais, discando a partir da PSTN (rede telefônica pública comutada), você deve configurar números de acesso de conferência discada. Os números de acesso à conferência discada são números que os usuários chamam para ingressar em uma conferência.
+Para habilitar os usuários a participarem da parte de áudio de conferências locais discando através de PSTN, você deve configurar os números de acesso de conferência discada. Os números de acesso de conferência discada são números que os usuários ligam para participar de uma conferência.
 
-Os números de acesso discado são exibidos em convites de reunião e na página de configurações de conferência discada.
+Os números de acesso discado são exibidos em convites de reunião e em páginas de Configuração de Conferência Discada.
 
 <div>
 
 
 > [!NOTE]  
-> Você não pode usar um novo número de acesso discada até que a duplicação do Active Directory desse número de acesso seja concluída. A replicação pode levar várias horas.
+> Não é possível usar um novo número de acesso discado até que a replicação do Active Directory deste número de acesso esteja completa. A replicação pode levar várias horas.
 
 
 
@@ -59,7 +59,7 @@ Os números de acesso discado são exibidos em convites de reunião e na página
 
   - [Criar ou modificar um número de acesso de conferência discada no Lync Server 2013](lync-server-2013-create-or-modify-a-dial-in-conferencing-access-number.md)
 
-  - [Excluir um número de acesso à conferência discada no Lync Server 2013](lync-server-2013-delete-a-dial-in-conferencing-access-number.md)
+  - [Excluir um número de acesso de conferência discada no Lync Server 2013](lync-server-2013-delete-a-dial-in-conferencing-access-number.md)
 
 </div>
 

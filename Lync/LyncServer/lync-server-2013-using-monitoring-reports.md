@@ -12,20 +12,20 @@ ms:contentKeyID: 48184480
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5662ba6df2f270355a3c7f7532c3283cc033d73d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c37cd0f96ea0dd8e3fa63a851c3c93caf5988c7d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744061"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044273"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-monitoring-reports-in-lync-server-2013"></a>Usar relatórios de monitoramento no Lync Server 2013
+# <a name="using-monitoring-reports-in-lync-server-2013"></a>Usando relatórios de monitoramento no Lync Server 2013
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41744061"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-21_
+_**Última modificação do tópico:** 2012-10-21_
 
-O Lync Server 2013 inclui um conjunto de relatórios padrão publicados pelo serviço relatórios do Microsoft SQL Server. Esses relatórios, que podem ser acessados por meio de navegadores, fornecem informações de uso, diagnóstico de chamada e qualidade de mídia, com base em registros de detalhes das chamadas (CDR) e qualidade da experiência (QoE) armazenados nos bancos de dados de CDR e QoE.
+O Lync Server 2013 inclui um conjunto de relatórios padrão publicados pelo Microsoft SQL Server Reporting Service. Esses relatórios, que podem ser acessados com um navegador da Web, oferecem informações sobre utilização, diagnóstico de chamadas e qualidade de mídia, todas baseadas nos registros de detalhes das chamadas (CDR) e de Qualidade da Experiência (QoE) armazenados nos bancos de dados de CDR e QoE.
 
-Para usar esses relatórios, você deve instalar relatórios de monitoramento em um computador que esteja executando uma instância do SQL Server.
+Para usar esses relatórios, você deve instalar os relatórios de monitoramento em um computador que esteja executando uma instância do SQL Server.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Usar o painel de monitoramento no Lync Server 2013](lync-server-2013-using-the-monitoring-dashboard.md)   fornece aos administradores uma rápida visão geral da integridade do sistema e do uso do sistema.
+  - [O uso do painel de monitoramento no Lync Server 2013](lync-server-2013-using-the-monitoring-dashboard.md)   fornece aos administradores uma visão geral rápida da integridade do sistema e do uso do sistema.
 
-  - [Os relatórios de uso do sistema no Lync Server 2013](lync-server-2013-system-usage-reports.md)   fornecem informações de uso do sistema com base nos dados CDR coletados pelo Lync Server.
+  - [Relatórios de uso do sistema no Lync Server 2013](lync-server-2013-system-usage-reports.md)   fornece informações de uso do sistema com base em dados de CDR coletados pelo Lync Server.
 
-  - [Os relatórios de diagnóstico de chamada (por usuário) no Lync Server 2013](lync-server-2013-call-diagnostic-reports-per-user.md)   fornecem informações por usuário sobre sessões ponto a ponto e conferência com falha.
+  - [Os relatórios de diagnóstico de chamadas (por usuário) no Lync Server 2013](lync-server-2013-call-diagnostic-reports-per-user.md)   oferecem informações por usuário sobre sessões ponto a ponto e de conferência com falha.
 
-  - [Os relatórios de diagnóstico de chamadas no Lync Server 2013](lync-server-2013-call-diagnostic-reports.md)   fornecem informações resumidas e dados de diagnóstico para sessões ponto a ponto e conferência com falha.
+  - [Os relatórios de diagnóstico de chamada no Lync Server 2013](lync-server-2013-call-diagnostic-reports.md)   fornecem informações de resumo e dados de diagnóstico para sessões ponto a ponto e de conferência com falha.
 
-  - [Os relatórios de diagnóstico de qualidade de mídia no Lync Server 2013](lync-server-2013-media-quality-diagnostic-reports.md)   fornecem informações sobre a qualidade da chamada, bem como informações de diagnóstico e solução de problemas para chamadas com falha.
+  - [Relatórios de diagnóstico de qualidade de mídia no Lync Server 2013](lync-server-2013-media-quality-diagnostic-reports.md)   fornece informações sobre a qualidade da chamada e informações de diagnóstico e solução de problemas para chamadas com falha.
 
 </div>
 
@@ -61,7 +61,7 @@ Para usar esses relatórios, você deve instalar relatórios de monitoramento em
 
 ## <a name="locating-records"></a>Localizar registros
 
-Os relatórios de monitoramento mostram apenas um número limitado de registros na tela a qualquer momento. O número real de registros exibidos em uma tela varia de acordo com o relatório. Para exibir os registros que não são mostrados na tela, você pode usar o controle padrão para ir para frente ou para trás (encontrado em cada barra de ferramentas do relatório) que permite percorrer os dados. Você pode saltar rapidamente para a primeira página ou a última página do conjunto de dados.
+Os relatórios de monitoramento mostram apenas um número limitado de registros na tela a qualquer momento. O número real de registros exibidos em uma tela varia de acordo com o relatório. Para exibir os registros que não são mostrados na tela, você pode usar o controle padrão para ir para frente ou para trás (encontrado em cada barra de ferramentas do relatório) que permitem percorrer os dados. Você pode saltar rapidamente para a primeira página ou a última página do conjunto de dados.
 
 Além disso, usando os controles para ir para frente e para trás, você pode também saltar para qualquer página no conjunto de dados simplesmente digitando o número da página na caixa **Página Atual** e pressionando ENTER.
 
@@ -87,7 +87,7 @@ Os filtros disponíveis variam dependendo do relatório exibido. Para obter deta
 
 ## <a name="exporting-data"></a>Exportação de dados
 
-Os relatórios de monitoramento fornecem pelo menos duas maneiras diferentes de exportar os dados incluídos em um relatório. Você pode usar a opção **Exportar** na barra de ferramentas exibida na parte superior de cada relatório. Para usar essa opção, selecione o formato de exportação desejado na lista suspensa **Selecione um formato**. Os seguintes formatos estão disponíveis:
+Os relatórios de monitoramento fornecem pelo menos duas maneiras diferentes de exportar os dados incluídos em um relatório. Você pode usar a opção **Exportar** na barra de ferramentas exibida na parte superior de cada relatório. Para usar esta opção, selecione o formato de exportação desejado na lista suspensa **Selecione um formato**. Os seguintes formatos estão disponíveis:
 
   - Arquivo XML com dados de relatório
 

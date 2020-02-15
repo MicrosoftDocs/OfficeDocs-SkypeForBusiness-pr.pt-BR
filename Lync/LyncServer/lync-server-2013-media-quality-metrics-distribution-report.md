@@ -12,16 +12,16 @@ ms:contentKeyID: 48185409
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 085525063d13c60dc1702ebf169fed92707675e5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 38adc41aaffcccbb27d4c9105f0fecabcae3c21c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757935"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045113"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757935"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-06_
+_**Última modificação do tópico:** 2012-06-06_
 
-O Relatório de Distribuição da Métrica de Qualidade de Mídia permite ver um gráfico que mostra os valores de distribuição para a métrica Qualidade da Experiência, como tremulação ou perda de pacotes. Por exemplo, suponha que seus usuários fazem um total de 10 ligações telefônicas; essas 10 chamadas relatam os seguintes tempos de ida e volta:
+O Relatório de Distribuição da Métrica de Qualidade de Mídia permite ver um gráfico que mostra os valores de distribuição para a métrica Qualidade da Experiência como jitter ou perda do pacote. Por exemplo, suponha que seus usuários fazem um total de 10 ligações telefônicas; estas 10 chamadas relatam os seguintes tempos de ida e volta:
 
 
 <table>
@@ -48,59 +48,59 @@ O Relatório de Distribuição da Métrica de Qualidade de Mídia permite ver um
 <thead>
 <tr class="header">
 <th>Número da chamada</th>
-<th>Tempo de resposta (milissegundos)</th>
+<th>Tempo de ida e volta (milissegundos)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>2</p></td>
+<td><p>2 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="odd">
-<td><p>3</p></td>
+<td><p>3 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="odd">
-<td><p>5</p></td>
+<td><p>5 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>6</p></td>
+<td><p>6 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="odd">
-<td><p>7</p></td>
+<td><p>7 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>8</p></td>
+<td><p>8 </p></td>
 <td><p>4550</p></td>
 </tr>
 <tr class="odd">
-<td><p>9</p></td>
+<td><p>9 </p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>254</p></td>
+<td><p>10 </p></td>
 <td><p>50</p></td>
 </tr>
 </tbody>
 </table>
 
 
-A média dessas horas de ida e volta é de 500 milissegundos (5000 dividida por 10). 500 milissegundos é um tempo de ida e volta extremamente grande; Como resultado, você pode acreditar que tem um problema sério com o congestionamento da rede. (Geralmente, períodos de tempo de resposta longos são o resultado de redes sobrecarregadas).
+A média para estes tempos de ida e volta é de 500 milissegundos (5000 dividido por 10). Cinco mil milissegundos é um tempo de ida e volta extremamente grande; como resultado, você pode acreditar ter um sério problema com a congestão de rede. (Tempo de ida e volta longo é geralmente resultado de redes sobrecarregadas.)
 
-Na realidade, claro, 90% das suas chamadas têm excelentes tempos de ida e volta; você teve uma única chamada ruim que distorceu os resultados gerais. Se você só olhar o tempo médio de ida e volta, você pode ir para uma conclusão muito errada.
+Na realidade, claro,, 90% das suas chamadas possuem excelentes tempos de ida e volta; você mal tinha uma chamada em seus resultados gerais. Se procurar pelo tempo de ida e volta médio, pode terminar em uma conclusão errada.
 
-O Relatório de Distribuição da Métrica de Qualidade de Mídia ajuda a evitar conclusões incorretas mostrando uma distribuição gráfica de uma métrica especificada (como o tempo de ida e volta). Estes gráficos ajudam a deixar claro que você teve nove chamadas muito boas e uma muito ruim. Você ainda pode desejar investigar melhor essa chamada. No entanto, o fato de 9 entre 10 chamadas terem sido muito boas sugere que não há motivo para fazer qualquer mudança radical em sua rede, pelo menos não neste momento.
+O Relatório de Distribuição da Métrica de Qualidade de Mídia ajuda a evitar conclusões incorretas mostrando uma distribuição gráfica de uma métrica especificada (como o tempo de ida e volta). Estes gráficos ajudam a tornar claro que você possui nova chamadas muito boas e uma muito ruim. Você ainda pode desejar investigar mais que uma chamada. No entanto, o fato que 9 de 10 chamadas foram muito boas sugere que não há motivo para fazer qualquer mudança radical em sua rede, pelo menos não neste momento.
 
 <div>
 
@@ -124,23 +124,23 @@ Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionad
 <tbody>
 <tr class="odd">
 <td><p><strong>De</strong></p></td>
-<td><p>Data/hora de início para o intervalo de tempo. Para ver os dados por horas, insira a data e hora de início conforme segue:</p>
-<p>7/7/2012 1:00 PM</p>
-<p>Se você não inserir a hora de início, o relatório começará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:</p>
+<td><p>Data/hora inicial para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora inicial como a seguir:</p>
+<p>7/7/2012 13:00 horas</p>
+<p>Se você não inserir uma hora inicial, o relatório começa automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</p>
 <p>7/7/2012</p>
-<p>Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
+<p>Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/3/2012</p>
-<p>As semanas sempre vão de domingo a sábado.</p></td>
+<p>As semanas sempre correm do domingo até sábado.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Até</strong></p></td>
-<td><p>Data/hora final de intervalo de tempo. Para ver os dados por horas, insira a data e hora final conforme segue:</p>
-<p>7/7/2012 1:00 PM</p>
-<p>Se você não inserir a hora final, o relatório terminará automaticamente à meia-noite do dia especificado. Para ver os dados por dia, insira somente a data:</p>
+<td><p><strong>To</strong></p></td>
+<td><p>Data/hora final para o intervalo de tempo. Para exibir os dados por hora, insira a data e hora final como a seguir:</p>
+<p>7/7/2012 13:00 horas</p>
+<p>Se você não inserir uma hora final, o relatório termina automaticamente as 12:00 AM no dia especificado. Para exibir os dados por dia, insira apenas a data:</p>
 <p>7/7/2012</p>
-<p>Para exibir por semana ou mês, insira uma data dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
+<p>Para exibir por semana ou mês, insira uma data que está dentro da semana ou mês que deseja exibir (não é necessário inserir o primeiro dia da semana ou mês):</p>
 <p>7/3/2012</p>
-<p>As semanas sempre vão de domingo a sábado.</p></td>
+<p>As semanas são sempre de domingo a sábado.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Mínimo no eixo x</strong></p></td>
@@ -154,16 +154,16 @@ Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionad
 <td><p><strong>Tipo de acesso</strong></p></td>
 <td><p>Indica se um cliente estava conectado na rede interna ou na rede externa quando a chamada foi realizada. Selecione um dos seguintes:</p>
 <ul>
-<li><p>[Todos]</p></li>
-<li><p>Interno</p></li>
-<li><p>Externo</p></li>
+<li><p>Todos os</p></li>
+<li><p>Interna</p></li>
+<li><p>Externa</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p><strong>VPN</strong></p></td>
 <td><p>Indica se um cliente externo estava usando uma conexão de rede privada virtual (VPN) quando a chamada foi realizada. Selecione um dos seguintes:</p>
 <ul>
-<li><p>[Todos]</p></li>
+<li><p>Todos os</p></li>
 <li><p>VPN</p></li>
 <li><p>Não VPN</p></li>
 </ul></td>
@@ -172,9 +172,9 @@ Os filtros fornecem uma maneira de retornar um conjunto de dados mais direcionad
 <td><p><strong>Tipo de rede</strong></p></td>
 <td><p>Indica o tipo de rede que o cliente estava conectado quando a chamada foi realizada. Selecione um dos seguintes:</p>
 <ul>
-<li><p>[Todos]</p></li>
+<li><p>Todos os</p></li>
 <li><p>Com fio</p></li>
-<li><p>Sem fio</p></li>
+<li><p>Conexão</p></li>
 </ul></td>
 </tr>
 </tbody>

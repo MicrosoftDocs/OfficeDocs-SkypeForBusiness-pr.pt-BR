@@ -12,16 +12,16 @@ ms:contentKeyID: 51541467
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93e5f10e3e4bd3c063cafcb2fd984098482ebf22
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 82d1ec6b1256326cca9e74d47d27820529050721
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722751"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044743"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,47 +35,47 @@ ms.locfileid: "41722751"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-02-07_
+_**Última modificação do tópico:** 2014-02-07_
 
-Se você configurar um espelho para o seu banco de dados de monitoramento, esse banco de dados espelho assumirá a função de banco de dados primário em caso de failover. No entanto, se você usar os relatórios de monitoramento do Lync Server e ocorrer um failover, pode ser que seus relatórios de monitoramento não estejam se conectando ao banco de dados espelho. Isso ocorre porque quando você instala os Relatórios de Monitoramento, apenas o local do banco de dados primário é especificado; você não especifica o local do banco de dados espelho.
+Se você configurar um espelho para seu banco de dados de monitoramento, o banco de dados espelho assumirá o controle como o banco de dados primário se ocorrer um failover. No entanto, se você usar os relatórios de monitoramento do Lync Server e ocorrer um failover, poderá achar que seus relatórios de monitoramento não estão se conectando ao banco de dados espelho. Isso ocorre porque, quando você instala relatórios de monitoramento, você especifica apenas o local do banco de dados primário; Você não especifica o local do banco de dados espelho.
 
-Para que o failover dos Relatórios de Monitoramento seja executado automaticamente no banco de dados espelho, adicione esse banco de dados como um "parceiro de failover" aos dois bancos de dados usados pelos Relatórios de Monitoramento (um banco de dados para dados de Registro de Detalhe das Chamadas e o outro para dados de Qualidade da Experiência (QoE)). (Observe que essa etapa deve ser executada após a instalação dos Relatórios de Monitoramento.) Você pode adicionar as informações de parceiro de failover editando manualmente os valores da cadeia de conexão usados por esses dois bancos de dados. Para fazer isso, siga este procedimento:
+Para obter relatórios de monitoramento para failover automático para o banco de dados espelho, você deve adicionar o banco de dados espelho como um "parceiro de failover" aos dois bancos de dados usados pelos relatórios de monitoramento (um banco de dados para dados de registro de detalhes de chamadas e o outro para a qualidade de Dados da experiência (QoE). (Observe que esta etapa deve ser executada após a instalação dos relatórios de monitoramento.) Você pode adicionar as informações do parceiro de failover editando manualmente os valores da cadeia de caracteres de conexão usados por esses dois bancos de dados. Para fazer isso, conclua o seguinte procedimento:
 
-1.  Use o Internet Explorer para abrir a home page do **SQL Server Reporting Services**. A URL dessa home page inclui:
+1.  Use o Internet Explorer para abrir a página inicial do **SQL Server Reporting Services** . A URL da home page do Reporting Services inclui:
     
-      - O prefixo **http:**.
+      - O prefixo **http:** .
     
-      - O FQDN (nome de domínio totalmente qualificado) do computador em que o Reporting Services está instalado (por exemplo, **atl-sql-001.litwareinc.com**).
+      - O FQDN (nome de domínio totalmente qualificado) do computador em que o Reporting Services está instalado (por exemplo, **ATL-SQL-001.litwareinc.com**).
     
       - A cadeia de **caracteres\_/Reports**.
     
-      - O nome da instância de banco de dados em que os Relatórios de Monitoramento estão instalados (por exemplo, **archinst**).
+      - O nome da instância do banco de dados onde os relatórios de monitoramento são instalados (por exemplo, **archinst**).
     
-    Por exemplo, se o SQL Server Reporting Services for instalado no computador atl-sql-001.litwareinc.com e os Relatórios de Monitoramento usarem a instância de banco de dados archinst, a URL da home page será parecida com esta:
+    Por exemplo, se o SQL Server Reporting Services foi instalado no computador atl-sql-001.litwareinc.com e os relatórios de monitoramento usam a instância de banco de archinst, a URL da página inicial teria a seguinte aparência:
     
     **http://atl-sql-001.litwareinc.com/Reports\_archinst**
 
-2.  Depois de acessar a página inicial do Reporting Services, clique em **LyncServerReports**e, em seguida, clique em **relatórios\_de conteúdo**. Isso o levará até a página de **conteúdo relatórios\_** dos relatórios de monitoramento do Lync Server.
+2.  Após acessar a página inicial do Reporting Services, clique em **LyncServerReports**e em **relatórios\_de conteúdo**. Isso levará você à página **de\_conteúdo de relatórios** dos relatórios de monitoramento do Lync Server.
 
-3.  Na página **relatórios\_de conteúdo** , clique na fonte de dados **CDRDB** .
+3.  Na página **de\_conteúdo relatórios** , clique na fonte de dados **CDRDB** .
 
-4.  Na página **CDRDB**, na guia **Propriedades**, procure a caixa de texto chamada **Cadeia de conexão**. A cadeia de conexão atual será semelhante a esta:
+4.  Na página **CDRDB** , na guia **Propriedades** , procure a caixa de texto chamada **sequência de conexão**. A cadeia de caracteres de conexão atual terá uma aparência semelhante a esta:
     
-    **Dados fonte = (local)\\archinst; Initial Catalog = LcsCDR**
+    **Fonte de dados = (local\\) archinst; Initial Catalog = LcsCDR**
 
-5.  Edite a cadeia de conexão para incluir o nome do servidor e a instância de banco de dados do banco de dados espelho. Por exemplo, se o servidor se chamar atl-mirror-001 e o banco de dados espelho estiver na instância archinst, será necessário especificar o banco de dados espelho usando esta sintaxe:
+5.  Edite a cadeia de conexão para incluir o nome do servidor e a instância de banco de dados para o banco de dados espelho. Por exemplo, se o servidor se chamar ATL-Mirror-001 e o banco de dados espelho estiver na instância do archinst, você precisará adicionar para especificar o banco de dados espelho usando esta sintaxe:
     
     **Parceiro de failover = ATL-Mirror-\\001 archinst**
     
-    A cadeia de conexão editada será parecida com esta:
+    A cadeia de conexão editada terá a seguinte aparência:
     
-    **Dados fonte = (local)\\archinst; Parceiro de failover = ATL-Mirror-\\001 archinst; Initial Catalog = LcsCDR**
+    **Fonte de dados = (local\\) archinst; Parceiro de failover = ATL-Mirror-\\001 archinst; Initial Catalog = LcsCDR**
 
-6.  Após a atualização da cadeia de conexão, clique em **Aplicar**.
+6.  Depois de atualizar a cadeia de conexão, clique em **aplicar**.
 
-7.  Na página **CDRDB** , clique no link **de\_conteúdo relatórios** . Clique na fonte de dados **QMSDB** e edite a cadeia de conexão do banco de dados de QoE. Por exemplo:
+7.  Na página **CDRDB** , clique no link **relatórios\_de conteúdo** . Clique na fonte de dados do **QMSDB** e edite a cadeia de caracteres de conexão para o banco de dados de QoE. Por exemplo:
     
-    **Dados fonte = (local)\\archinst; Parceiro de failover = ATL-Mirror-\\001 archinst; Initial Catalog = QoEMetrics**
+    **Fonte de dados = (local\\) archinst; Parceiro de failover = ATL-Mirror-\\001 archinst; Initial Catalog = QoEMetrics**
 
 8.  Clique em **Aplicar**.
 
@@ -84,8 +84,8 @@ Para que o failover dos Relatórios de Monitoramento seja executado automaticame
 ## <a name="see-also"></a>Confira também
 
 
-[Instalando relatórios de monitoramento do Lync Server 2013](lync-server-2013-installing-lync-server-2013-monitoring-reports.md)  
-[Usar relatórios de monitoramento no Lync Server 2013](lync-server-2013-using-monitoring-reports.md)  
+[Instalando Relatórios de Monitoramento do Lync Server 2013](lync-server-2013-installing-lync-server-2013-monitoring-reports.md)  
+[Usando relatórios de monitoramento no Lync Server 2013](lync-server-2013-using-monitoring-reports.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Adicionando texto personalizado a mensagens instantâneas'
+title: 'Lync Server 2013: adicionando texto personalizado a mensagens instantâneas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185458
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b54b4724568a4f57bebc7ef6162a553cfdd9a091
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0681df9803615fee04c20e52258120bd6616e57d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738151"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038563"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,16 +35,16 @@ ms.locfileid: "41738151"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-20_
+_**Última modificação do tópico:** 2013-02-20_
 
-Adicione uma declaração de isenção ou aviso ao início de cada conversa de mensagem instantânea do Lync 2013 usando os cmdlets shell do Shell de gerenciamento do Lync Server **New-CSClientPolicy** ou **set-CSClientPolicy** com o parâmetro imwarning.
+Adicione um aviso de isenção de responsabilidade ao início de cada conversa de IM (mensagens instantâneas) do Lync 2013 usando os cmdlets **New-CSClientPolicy** ou **set-CSClientPolicy** do Shell de gerenciamento do Lync Server com o parâmetro imwarning.
 
-O comando no exemplo a seguir adiciona um lembrete de segurança na parte superior da janela de conversa sempre que uma nova conversa de mensagem instantânea começa:
+O comando no exemplo a seguir adiciona um lembrete de segurança na parte superior da janela Conversa sempre que uma nova conversa de IM começa:
 
     New-CsClientPolicy -Identity IMSecurityNotice -IMWarning 
     "Remember, security is everyone's responsibility. Keep it confidential."
 
-Use **Grant-CSClientPolicy** para atribuir esta nova política aos usuários. Para obter detalhes, consulte **New-CSClientPolicy** and **Grant-CSClientPolicy** na documentação do Shell de gerenciamento do Lync Server.
+Use **Grant-CSClientPolicy** para atribuir essa nova política aos usuários. Para obter detalhes, consulte **New-CSClientPolicy** e **Grant-CSClientPolicy** na documentação do Shell de gerenciamento do Lync Server.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: instalação de software opcional'
+title: 'Lync Server 2013: Instalando software opcional'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541509
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a493fed33fff897ea2cccc2a89c0d55c5b8a8097
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 080f27b1e01f86d23fd5fd7bf6fdb9e9a05c0742
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726121"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045263"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="installing-optional-software-in-lync-server-2013"></a>Instalação de software opcional no Lync Server 2013
+# <a name="installing-optional-software-in-lync-server-2013"></a>Instalando software opcional no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41726121"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-21_
+_**Última modificação do tópico:** 2013-02-21_
 
-O Microsoft Lync Server 2013, ferramenta de planejamento foi projetado para exportar para o Microsoft Excel e o Microsoft Visio. Embora esses aplicativos não sejam necessários para a operação da ferramenta de planejamento, eles adicionam um valor significativo à implantação e à documentação do seu design.
+A ferramenta de planejamento do Microsoft Lync Server 2013 foi projetada para exportar para o Microsoft Excel e o Microsoft Visio. Embora esses aplicativos não sejam necessários para a operação da ferramenta de planejamento, eles adicionam um valor significativo à implantação e à documentação do seu design.
 
 <div>
 
@@ -47,21 +47,21 @@ O Microsoft Lync Server 2013, ferramenta de planejamento foi projetado para expo
 
 ## <a name="microsoft-excel"></a>Microsoft Excel
 
-Exportar seu design para Microsoft Excel cria um relatório que exibe sete guias na planilha:
+Exportar seu design para o Microsoft Excel cria um relatório que exibe sete guias na planilha:
 
-  - Resumo - Exibe informações sobre a configuração de site, incluindo conta de usuário, configurações de capacidade e informações sobre o perfil do servidor.
+  - Resumo – exibe informações sobre a configuração do site, incluindo contagem de usuário, configurações de capacidade e informações de perfil do servidor.
 
-  - Perfil de hardware - Exibe um relatório das configurações de hardware recomendadas para servidores especificados na topologia, incluindo CPU, memória, disco e interface de rede. Também está incluída a quantidade e especificações recomendadas para os componentes do servidor. Cada servidor também é definido por site, para fornecer uma representação completa dos requisitos de servidor por cada site.
+  - Perfil de hardware – Exibe um relatório sobre as configurações de hardware recomendadas para servidores especificados na topologia, incluindo CPU, memória, disco e interface de rede. A quantidade e as especificações recomendadas para os componentes do servidor também estão incluídas. Além disso, cada servidor é definido pelo site para fornecer uma representação completa dos requisitos de servidor por site.
 
-  - Requisitos de portas - Exibe um relatório de todas as portas habilitadas, além da associação com DNS LB (balanceamento de carga DNS) e HLB (balanceadores de carga de hardware). Esse relatório deve ser usado para planejar suas configurações de firewall e DNS LB e HLB.
+  - Requisitos de portas – exibe um relatório de todas as portas habilitadas e a associação ao balanceamento de carga do sistema de nomes de domínio (DNS LB) e aos balanceadores de carga de hardware (HLB). Você deve usar este relatório para planejar suas configurações de firewall e DNS LB e HLB.
 
   - Relatório de resumo – exibe o resumo geral das configurações necessárias para configurar sua rede de servidor de borda.
 
-  - Relatório de certificados – mostra o nome do requerente e os nomes alternativos de assunto que são necessários para os certificados necessários para obter os servidores de borda em execução.
+  - Relatório de certificados – exibe o nome da entidade e os nomes alternativos da entidade que são necessários para os certificados necessários para obter os servidores de borda em execução.
 
-  - Relatório do firewall - exibe as portas de origem e destino e endereços IP para as interfaces internas e externas.
+  - Relatório de firewall – exibe as portas de origem e de destino e endereços IP para interfaces externas e internas.
 
-  - Relatório de DNS - exibe o nome de domínio totalmente qualificado (FQDN) e endereços IP/VIP requeridos para cada entrada DNS que você criar.
+  - Relatório DNS – exibe o nome de domínio totalmente qualificado (FQDN) e os endereços IP/VIP necessários para cada entrada DNS que você criar.
 
 </div>
 
@@ -75,7 +75,7 @@ Exportar seu design para o Microsoft Visio cria um diagrama para ser usado com s
 
 
 > [!NOTE]  
-> Se o seu design for grande o suficiente para exigir mais do que três servidores front-end, uma página adicional será criada para o pool de front-end, servidores front-end, o computador que executa o SQL Server, endereços IP e FQDNs.
+> Se seu design for grande o suficiente para exigir mais de três servidores front-end, uma página adicional será criada para o pool de front-ends, servidores front-end, o computador que executa o SQL Server, endereços IP e FQDNs.
 
 
 
@@ -83,9 +83,9 @@ Exportar seu design para o Microsoft Visio cria um diagrama para ser usado com s
 
   - Topologia global – diagrama dos sites do Lync Server 2013 configurados.
 
-  - Guia nome do site – exibe a topologia de configuração do site com o servidor de borda, o firewall, a PSTN (rede telefônica pública comutada) com gateways e a implantação de servidor interno. A implantação interna consiste em servidores e pools configurados, incluindo os pools de front-end, servidores baseados no SQL Server, serviços de domínio Active Directory, directors, servidores Exchange Unified Messaging (UM), servidores de caixa de correio do Exchange, servidores do Office Web Apps Servidores de mediação e servidores de chat persistentes.
+  - Guia nome do site – exibe a topologia de configuração do site com o servidor de borda, o firewall, a PSTN (rede telefônica pública comutada) com gateways e a implantação de servidor interno. A implantação interna consiste em servidores e pools configurados, incluindo o pool de front-ends, servidores baseados em SQL Server, serviços de domínio do Active Directory, diretores, servidores de Unificação de mensagens (UM) do Exchange, servidores de caixa de correio do Exchange, servidores do Office Web Apps Servidores de mediação e servidores de chat persistente.
 
-  - Diagrama de rede de borda – diagrama detalhando a configuração do servidor de borda com endereços IP e FQDNs associados. Balanceamento de carga de DNS e balanceadores de carga de hardware também estão incluídos. Além disso, os diretores e o servidor front-end ou o pool de front-end são exibidos com o DNS LB ou o HLB associado e o endereço IP atribuído (a ferramenta de planejamento oferece suporte aos endereços IPv4 e IPv6) e ao FQDN.
+  - Diagrama de rede de borda – diagrama detalhando a configuração do servidor de borda com endereços IP e FQDNs associados. Balanceamento de carga de DNS e balanceadores de carga de hardware também estão incluídos. Além disso, os diretores e o servidor front-end ou o pool de front-ends são exibidos, com o DNS LB ou o HLB associado e o endereço IP atribuído (a ferramenta de planejamento suporta endereços IPv4 e IPv6) e FQDN.
 
 </div>
 
@@ -96,7 +96,7 @@ Exportar seu design para o Microsoft Visio cria um diagrama para ser usado com s
 ## <a name="see-also"></a>Confira também
 
 
-[Instalando a Ferramenta de Planejamento no Lync Server 2013](lync-server-2013-installing-the-planning-tool.md)  
+[Instalando a ferramenta de planejamento no Lync Server 2013](lync-server-2013-installing-the-planning-tool.md)  
   
 
 </div>

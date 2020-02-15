@@ -1,5 +1,5 @@
 ---
-title: Verificar coexistência de pool piloto com pool herdado
+title: Verificar a coexistência do pool piloto com o pool herdado
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185964
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe3b3e04940c90cba4e46fc165c2494f77105667
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7f361882d0994b8e3add5447dbcaaffe2b75127d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730891"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043683"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>Verificar coexistência de pool piloto com pool herdado
+# <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>Verificar a coexistência do pool piloto com o pool herdado
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41730891"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-29_
+_**Última modificação do tópico:** 2012-09-29_
 
-Depois de implantar o pool piloto, você precisa verificar a coexistência dos dois pools usando as ferramentas administrativas para exibir as informações de pool. Para os pools do Lync Server 2013 e pools herdados, você deve usar o painel de controle do Lync Server 2013 e ferramentas do construtor de topologias.
+Depois de implantar o pool piloto, você deve verificar a coexistência de dois pools usando ferramentas administrativas para exibir as informações dos pools. Para os pools do Lync Server 2013 e pools herdados, você deve usar o painel de controle do Lync Server 2013 e as ferramentas do construtor de topologia.
 
 <div>
 
-## <a name="verify-that-lync-server-2013-services-have-started"></a>Verificar se os serviços do Lync Server 2013 começaram
+## <a name="verify-that-lync-server-2013-services-have-started"></a>Verificar se os serviços do Lync Server 2013 foram iniciados
 
-1.  No servidor de front-end do Lync Server 2013, navegue até o\\applet Serviços de ferramentas administrativas.
+1.  No servidor front-end do Lync Server 2013, navegue até o mini-aplicativo\\serviços de ferramentas administrativas.
 
-2.  Verifique se os seguintes serviços estão em execução no servidor front-end:
+2.  Verifique se os serviços a seguir estão sendo executados no servidor Front End:
 
 **Serviços do Lync Server 2013**
 
-![Lista de serviços do Lync Server iniciada](images/JJ205420.cfff9385-6bf6-461c-982c-e727c9f20b70(OCS.15).png "Lista de serviços do Lync Server iniciada")
+![Lista de serviços do Lync Server iniciado](images/JJ205420.cfff9385-6bf6-461c-982c-e727c9f20b70(OCS.15).png "Lista de serviços do Lync Server iniciado")
 
 </div>
 
 <div>
 
-## <a name="open-the-lync-server-2013-control-panel"></a>Abrir o painel de controle do Lync Server 2013
+## <a name="open-the-lync-server-2013-control-panel"></a>Abra o painel de controle do Lync Server 2013
 
-No servidor front-end na implantação do Lync Server 2013, abra o painel de controle do Lync Server 2013 e selecione o pool do Lync Server 2010. Repita o procedimento para abrir o pool do Lync Server 2013.
+A partir do servidor front-end na sua implantação do Lync Server 2013, abra o painel de controle do Lync Server 2013 e selecione o pool 2010 do Lync Server. Repita o procedimento para abrir o pool do Lync Server 2013.
 
-**Abrir o painel de controle do Lync Server 2013**
+**Abre o Painel de controle do Lync Server 2013**
 
 ![Caixa de diálogo Selecionar URL](images/JJ205420.b1f8e650-9c3c-4563-a403-5069f198342f(OCS.15).png "Caixa de diálogo Selecionar URL")
 
@@ -73,9 +73,9 @@ No servidor front-end na implantação do Lync Server 2013, abra o painel de con
 
 </div>
 
-Essa topologia agora inclui funções do Lync Server 2010 e do Lync Server 2013 Server.
+Essa topologia agora inclui as funções de servidor do Lync Server 2010 e do Lync Server 2013.
 
-**Página de topologia do painel de controle do Lync Server 2013**
+**Página de Topologia do Painel de Controle do Lync Server 2013**
 
 ![Painel de controle do Lync Server-página de topologia](images/JJ205420.4ed1cc7a-cb3e-42f6-82e2-6d4d71d19352(OCS.15).jpg "Painel de controle do Lync Server-página de topologia")
 
@@ -85,11 +85,11 @@ Essa topologia agora inclui funções do Lync Server 2010 e do Lync Server 2013 
 
 ## <a name="dont-attempt-to-open-the-topology-in-lync-server-2010-topology-builder"></a>Não tente abrir a topologia no construtor de topologias do Lync Server 2010
 
-Se você tentar abrir a topologia usando o construtor de topologias do Lync Server 2010, o erro será encontrado abaixo. A topologia só pode ser visualizada usando o construtor de topologias do Lync Server 2013. O construtor de topologia do Lync Server 2013 deve ser usado para criar pools para o Lync Server 2013 e o Lync Server 2010.
+Se você tentar abrir a topologia usando o construtor de topologias do Lync Server 2010, encontrará o erro abaixo. A topologia só pode ser exibida usando o construtor de topologias do Lync Server 2013. O construtor de topologias do Lync Server 2013 deve ser usado para criar pools para o Lync Server 2013 e o Lync Server 2010.
 
-**Mensagem de erro do construtor de topologia do Lync Server 2010**
+**Mensagem de erro do Construtor de Topologia do Lync Server 2010**
 
-![Erro de snap do MMC do construtor de topologia do Lync Server](images/JJ205420.f6666343-c348-4d81-ae0e-6ba5a44e16c4(OCS.15).png "Erro de snap do MMC do construtor de topologia do Lync Server")
+![Erro de snap do MMC do Lync Server Topology Builder](images/JJ205420.f6666343-c348-4d81-ae0e-6ba5a44e16c4(OCS.15).png "Erro de snap do MMC do Lync Server Topology Builder")
 
 </div>
 

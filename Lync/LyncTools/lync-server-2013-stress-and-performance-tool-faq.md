@@ -1,5 +1,5 @@
 ---
-title: Perguntas frequentes sobre a ferramenta de stress e desempenho do Lync Server 2013
+title: Perguntas frequentes sobre a ferramenta de desempenho e stress do Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541426
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9138a23ee1fa45f3da827832b568852952b0ae4d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9de9555f9f009558b700a32ca6e58059eb5ea990
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763605"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038353"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-stress-and-performance-tool-faq"></a>Perguntas frequentes sobre a ferramenta de stress e desempenho do Lync Server 2013
+# <a name="lync-server-2013-stress-and-performance-tool-faq"></a>Perguntas frequentes sobre a ferramenta de desempenho e stress do Lync Server 2013
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41763605"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-24_
+_**Última modificação do tópico:** 2013-02-24_
 
 <div>
 
-## <a name="frequently-asked-questions"></a>Perguntas frequentes
+## <a name="frequently-asked-questions"></a>Perguntas Frequentes
 
-Aqui estão algumas perguntas frequentes sobre a ferramenta de stress e desempenho do Lync Server 2013.
+Aqui estão algumas perguntas frequentes sobre a ferramenta de estresse e desempenho do Lync Server 2013.
 
 <div>
 
-## <a name="can-i-run-lyncperftoolexe-in-production"></a>É possível executar o LyncPerfTool. exe na produção?
+## <a name="can-i-run-lyncperftoolexe-in-production"></a>Posso executar o LyncPerfTool. exe em produção?
 
-Não recomendamos isso. Essa ferramenta afetará o desempenho do servidor, a segurança e a experiência do usuário.
+Não recomendamos isso. Essa ferramenta afetará o desempenho do servidor, segurança e experiência do usuário.
 
 </div>
 
 <div>
 
-## <a name="i-am-logging-on-my-users-for-the-first-time-why-are-the-servers-running-at-such-high-load"></a>Estou me conectando aos meus usuários pela primeira vez. Por que os servidores estão em execução em alta carga?
+## <a name="i-am-logging-on-my-users-for-the-first-time-why-are-the-servers-running-at-such-high-load"></a>Estou fazendo logon em meus usuários pela primeira vez. Por que os servidores estão sendo executados em alta carga?
 
-Na primeira vez que os usuários fazem logon, há operações adicionais que ocorrem. Como resultado, o desempenho no servidor back-end do Microsoft SQL Server será degradado. Recomendamos que você execute um teste curto que Registre todos os usuários e reinicie os clientes antes de medir os resultados. Não há suporte para mais de 12 sessões de logon de usuários simultâneas por segundo, mas isso depende da configuração do hardware.
+Na primeira vez que os usuários fazem logon, há operações adicionais que ocorrem. Como resultado, o desempenho no servidor back-end do Microsoft SQL Server será degradado. Recomendamos que você execute um teste curto que faça logon em todos os usuários e reinicie os clientes antes de medir os resultados. Não há suporte para mais de 12 sessões de logon de usuário simultâneas por segundo, mas isso depende da configuração do hardware.
 
 </div>
 
@@ -63,7 +63,7 @@ Na primeira vez que os usuários fazem logon, há operações adicionais que oco
 
 ## <a name="my-clients-are-running-out-of-memory-what-should-i-do"></a>Meus clientes estão ficando sem memória. O que devo fazer?
 
-Se os seus clientes estiverem ficando sem memória, você precisará reduzir o número de usuários por computador.
+Se os seus clientes estiverem ficando sem memória, você precisa reduzir o número de usuários por computador.
 
 </div>
 
@@ -71,21 +71,21 @@ Se os seus clientes estiverem ficando sem memória, você precisará reduzir o n
 
 ## <a name="my-clients-are-at-100-percent-cpu-all-the-time-what-should-i-do"></a>Meus clientes estão em 100% de CPU o tempo todo. O que devo fazer?
 
-Se seus clientes estiverem sendo executados com uma CPU muito alta depois que todos os usuários estiverem conectados, você precisará reduzir o número de usuários por computador. Altos picos de CPU são aceitáveis, mas se estiverem estáveis, você precisará reduzir a carga.
+Se os seus clientes estiverem em execução com uma CPU muito alta depois que todos os usuários estiverem conectados, você precisará reduzir o número de usuários por computador. Altos picos de CPU são aceitos, mas se estiverem estáveis, você precisará reduzir a carga.
 
 </div>
 
 <div>
 
-## <a name="can-i-run-the-tool-on-the-server-itself"></a>É possível executar a ferramenta no próprio servidor?
+## <a name="can-i-run-the-tool-on-the-server-itself"></a>Posso executar a ferramenta no próprio servidor?
 
-Não. Não há suporte para esse cenário e pode falhar devido a uma incompatibilidade binária. Além disso, como o ponto é medir o consumo de recursos no servidor, executar a ferramenta não renderizaria as medidas sem significado.
+Não. Este cenário não é suportado e pode falhar devido a uma incompatibilidade binária. Além disso, como o ponto é medir o consumo de recursos no servidor, a execução da ferramenta não renderizaria as medições sem sentido.
 
 </div>
 
 <div>
 
-## <a name="can-i-run-lyncperftoolexe-on-a-virtual-server-or-on-microsoft-hyper-v-server-20082012"></a>É possível executar o LyncPerfTool. exe em um servidor virtual ou no Microsoft Hyper-V Server 2008/2012?
+## <a name="can-i-run-lyncperftoolexe-on-a-virtual-server-or-on-microsoft-hyper-v-server-20082012"></a>Posso executar o LyncPerfTool. exe em um servidor virtual ou no Microsoft Hyper-V Server 2008/2012?
 
 Sim.
 
@@ -95,21 +95,21 @@ Sim.
 
 ## <a name="what-does-mpop-mean"></a>O que significa MPOP?
 
-MPOP significa vários pontos de presença. Destina-se a simular o cenário em que os usuários estão conectados ao Lync 2013 de várias máquinas. Observe que em LyncPerfTool. exe, cada ponto de extremidade usa o perfil padrão (ou seja, o perfil não é dividido entre os dois pontos de presença).
+MPOP significa vários pontos de presença. Destina-se a simular o cenário em que os usuários estão conectados ao Lync 2013 de várias máquinas. Observe que, no LyncPerfTool. exe, cada ponto de extremidade usa o perfil padrão (ou seja, o perfil não é dividido entre os dois pontos de presença).
 
 </div>
 
 <div>
 
-## <a name="i-started-lyncperftoolexe-but-nothing-is-happening-whats-going-on"></a>Comecei LyncPerfTool. exe, mas nada está acontecendo. O que está acontecendo?
+## <a name="i-started-lyncperftoolexe-but-nothing-is-happening-whats-going-on"></a>Iniciei o LyncPerfTool. exe, mas nada aconteceu. O que está acontecendo?
 
-Verifique o contador total de pontos de extremidade ativos nos clientes para ver se os usuários estão se conectando. Se os usuários não estiverem se conectando, verifique a configuração do Lync Server 2013. Geralmente, esse problema ocorre porque o nome do servidor, o prefixo do usuário ou a senha estão incorretos. Observe que os clientes externos devem especificar o proxy de acesso como o valor TargetServer. Verifique a porta no arquivo de configuração.
+Verifique o contador total de pontos de extremidade ativos nos clientes para ver se os usuários estão se conectando. Se os usuários não estiverem se conectando, verifique a configuração do Lync Server 2013. Esse problema geralmente ocorre porque o nome do servidor, o prefixo do usuário ou a senha está incorreto. Observe que os clientes externos devem especificar o proxy de acesso como o valor TargetServer. Verifique a porta no arquivo de configuração.
 
 </div>
 
 <div>
 
-## <a name="how-do-i-know-something-is-happening"></a>Como posso saber se algo está acontecendo?
+## <a name="how-do-i-know-something-is-happening"></a>Como saber se algo está acontecendo?
 
 Os vários contadores de desempenho do LyncPerfTool indicam se os usuários estão se conectando e executando ações. No entanto, uma maneira fácil de verificar é fazer logon em uma das contas usando o Lync 2013 e executando a ação desejada.
 
@@ -117,7 +117,7 @@ Os vários contadores de desempenho do LyncPerfTool indicam se os usuários est�
 
 <div>
 
-## <a name="i-have-live-communications-server-2007-r2-capacity-planning-tools-andor-lync-server-2010-installed-is-that-ok"></a>Tenho ferramentas de planejamento de capacidade do Live Communications Server 2007 R2 e/ou Lync Server 2010 instaladas. Isso é tudo OK?
+## <a name="i-have-live-communications-server-2007-r2-capacity-planning-tools-andor-lync-server-2010-installed-is-that-ok"></a>Possuo ferramentas de planejamento de capacidade do Live Communications Server 2007 R2 e/ou o Lync Server 2010 instalado. Isso é tudo certo?
 
 Não. Há problemas de interoperabilidade, e você deve desinstalar todas as versões anteriores deste produto.
 
@@ -125,7 +125,7 @@ Não. Há problemas de interoperabilidade, e você deve desinstalar todas as ver
 
 <div>
 
-## <a name="will-the-stress-and-performance-tools-set-up-the-caa-call-information-server-topology"></a>As ferramentas de stress e desempenho configuram a CAA Call Information Server Topology?
+## <a name="will-the-stress-and-performance-tools-set-up-the-caa-call-information-server-topology"></a>As ferramentas de estresse e desempenho definirão a topologia do servidor de informações de chamadas do CAA?
 
 Não. As ferramentas apenas criam usuários, contatos e listas de distribuição e simulam a carga do usuário.
 
@@ -133,9 +133,9 @@ Não. As ferramentas apenas criam usuários, contatos e listas de distribuição
 
 <div>
 
-## <a name="what-is-the-maximum-number-of-users-that-the-tools-support"></a>Qual é o número máximo de usuários com suporte para as ferramentas?
+## <a name="what-is-the-maximum-number-of-users-that-the-tools-support"></a>Qual é o número máximo de usuários que as ferramentas dão suporte?
 
-Criamos até um total de 80.000 usuários e executamos testes totalizando 30.000 usuários, usando essas ferramentas. Sugerimos um máximo de 120.000 usuários, embora as limitações técnicas permitam um valor mais alto, dependendo do hardware do cliente e do servidor disponível.
+Nós criamos até um total de 80.000 usuários e executamos testes totalizando 30.000 usuários, usando essas ferramentas. Sugerimos um máximo de 120.000 usuários, embora as limitações técnicas permitam um valor maior, dependendo do hardware do cliente e do servidor disponível.
 
 </div>
 

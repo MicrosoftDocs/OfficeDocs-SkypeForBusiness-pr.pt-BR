@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Gerenciando a topologia do Lync Server 2013'
+title: 'Lync Server 2013: Gerenciando a topologia do Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183784
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d0411156d6d4c8a801f643f62a93f1a31d999b5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 37a7a823e2dc1aa0e7ea1df5d873292f2932ac32
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727761"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045583"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41727761"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-11_
+_**Última modificação do tópico:** 2012-10-11_
 
-Os tópicos desta seção fornecem procedimentos passo a passo para tarefas que você pode executar usando a página **Topology** no painel de controle do Lync Server 2013.
+Os tópicos desta seção fornecem procedimentos passo a passo para tarefas que você pode executar usando a página **topologia** no painel de controle do Lync Server 2013.
 
 <div>
 
@@ -49,19 +49,19 @@ Os tópicos desta seção fornecem procedimentos passo a passo para tarefas que 
 
   - [Exibir detalhes sobre um serviço no Lync Server 2013](lync-server-2013-view-details-about-a-service.md)
 
-  - [Iniciar ou parar os serviços do Lync Server 2013](lync-server-2013-start-or-stop-lync-server-services.md)
+  - [Iniciar ou interromper os serviços do Lync Server 2013](lync-server-2013-start-or-stop-lync-server-services.md)
 
-  - [Evitar sessões para serviços no Lync Server 2013](lync-server-2013-prevent-sessions-for-services.md)
+  - [Impedir sessões para serviços no Lync Server 2013](lync-server-2013-prevent-sessions-for-services.md)
 
-  - [Upgrade or update Front End Servers in Lync Server 2013](lync-server-2013-upgrade-or-update-front-end-servers.md)
+  - [Atualizar ou atualizar servidores front-end no Lync Server 2013](lync-server-2013-upgrade-or-update-front-end-servers.md)
 
-  - [Add or remove a Front End Server in Lync Server 2013](lync-server-2013-add-or-remove-a-front-end-server.md)
+  - [Adicionar ou remover um servidor front-end no Lync Server 2013](lync-server-2013-add-or-remove-a-front-end-server.md)
 
-  - [Atualizar ou atualizar um servidor back-end do servidor ou da edição Standard no Lync Server 2013](lync-server-2013-upgrade-or-update-a-back-end-server-or-standard-edition-server.md)
+  - [Atualizar ou atualizar um servidor back end ou um servidor Standard Edition no Lync Server 2013](lync-server-2013-upgrade-or-update-a-back-end-server-or-standard-edition-server.md)
 
-  - [Gerenciamento de aplicativos Microsoft SIP Processing Language (MSPL) no Lync Server 2013](lync-server-2013-managing-microsoft-sip-processing-language-mspl-applications.md)
+  - [Gerenciando aplicativos do Microsoft SIP Processing Language (MSPL) no Lync Server 2013](lync-server-2013-managing-microsoft-sip-processing-language-mspl-applications.md)
 
-  - [Como gerenciar URLs simples no Lync Server 2013](lync-server-2013-managing-simple-urls.md)
+  - [Gerenciando URLs simples no Lync Server 2013](lync-server-2013-managing-simple-urls.md)
 
 </div>
 

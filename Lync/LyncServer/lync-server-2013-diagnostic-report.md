@@ -12,16 +12,16 @@ ms:contentKeyID: 48185159
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14a2fa69e0e2397b970850a91042f0241060f839
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a906e131329df1b59c4ac6067a4696871f0bebfc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762339"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044833"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41762339"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-02-07_
+_**Última modificação do tópico:** 2014-02-07_
 
 O Relatório de diagnóstico fornece diagnósticos e informações para a solução de problemas de uma sessão com falha. Essas informações incluem a ID de diagnóstico e o cabeçalho de Diagnóstico que foram importados quando a sessão falhou. A ID de diagnóstico é um identificador exclusivo (na forma de um cabeçalho ms-diagnostics) que é anexado a uma mensagem SIP, enquanto a cabeçalho de Diagnóstico fornece uma descrição da ID de diagnóstico. O relatório também pode conter detalhes importantes para a solução de problemas e que são conhecidos pelo componente de relatório. Por exemplo:
 
@@ -49,7 +49,7 @@ O Relatório de diagnóstico fornece diagnósticos e informações para a soluç
 
 ## <a name="accessing-the-diagnostic-report"></a>Acessando o relatório de diagnósticos
 
-O relatório de diagnóstico pode ser acessado clicando na métrica relatório de diagnóstico (detalhe) em um [relatório de detalhes de sessão ponto a ponto no Lync Server 2013](lync-server-2013-peer-to-peer-session-detail-report.md) ou no relatório de detalhes da conferência.
+O relatório de diagnóstico pode ser acessado clicando na métrica relatório de diagnóstico (detalhe) no [relatório de detalhes de sessão ponto a ponto no Lync Server 2013](lync-server-2013-peer-to-peer-session-detail-report.md) ou no relatório de detalhes da conferência.
 
 </div>
 
@@ -78,7 +78,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Diagnóstic
 <thead>
 <tr class="header">
 <th>Nome</th>
-<th>Você pode classificar este item?</th>
+<th>É possível classificar este item?</th>
 <th>Descrição</th>
 </tr>
 </thead>
@@ -99,7 +99,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Diagnóstic
 <td><p>Tipo de solicitação SIP que falhou. Por exemplo, CONVIDAR, ATÉ LOGO ou SERVIÇO.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Origem</strong></p></td>
+<td><p><strong>Fonte</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Origem do erro.</p></td>
 </tr>
@@ -116,7 +116,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Diagnóstic
 <tr class="odd">
 <td><p><strong>ID do Diagnóstico</strong></p></td>
 <td><p>Não</p></td>
-<td><p>Identificador exclusivo (na forma de um cabeçalho de diagnóstico-ms) anexado a uma mensagem SIP que fornece informações úteis sobre os erros de solução de problemas.</p></td>
+<td><p>Identificador exclusivo (no formato de um cabeçalho ms-diagnostics) anexado a uma mensagem SIP que frequentemente oferece informações úteis para resolução de erros.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Tipo de conteúdo</strong></p></td>
@@ -124,7 +124,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Diagnóstic
 <td><p>Tipo de conteúdo de mídia que falhou. Por exemplo, um tipo de conteúdo comum é Application/sdp. SDP (Protocolo de descrição de sessão) é um protocolo padrão de Internet usado para anúncios de sessão, convites de sessão e outras formas de início de sessão multimídia.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Aplicativo</strong></p></td>
+<td><p><strong>Application</strong></p></td>
 <td><p>Não</p></td>
 <td><p>Aplicativo envolvido no erro.</p></td>
 </tr>
@@ -147,7 +147,7 @@ A tabela a seguir lista as informações fornecidas no Relatório de Diagnóstic
 </table>
 
 
-Uma lista de erros de diagnóstico pode ser encontrada na [página de cabeçalho MS-Diagnostics](http://msdn.microsoft.com/en-us/library/gg132446\(v=office.12\).aspx).
+Uma lista de erros de diagnóstico pode ser encontrada na [página de cabeçalho MS-Diagnostics](http://msdn.microsoft.com/library/gg132446\(v=office.12\).aspx).
 
 </div>
 

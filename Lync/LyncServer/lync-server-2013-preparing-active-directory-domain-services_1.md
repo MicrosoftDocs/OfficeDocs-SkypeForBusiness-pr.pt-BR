@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Preparando Serviços de Domínio do Active Directory'
+title: 'Lync Server 2013: preparando serviços de domínio do Active Directory'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184583
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8abab29930e8b09d0642c84f1e02026d4c554637
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 03436a59fa9fbab99608e4fa3b979e4802115ed1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747431"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042953"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="preparing-active-directory-domain-services-in-lync-server-2013"></a>Preparando Serviços de Domínio do Active Directory no Lync Server 2013
+# <a name="preparing-active-directory-domain-services-in-lync-server-2013"></a>Preparando os serviços de domínio do Active Directory no Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41747431"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-02-19_
+_**Última modificação do tópico:** 2014-02-19_
 
-No Lync Server 2013, você pode usar o assistente de implantação do Lync Server para preparar os serviços de domínio do Active Directory, ou você pode usar os cmdlets do Shell de gerenciamento do Lync Server diretamente. Você também pode usar a ferramenta de linha de comando ldifde. exe diretamente nos controladores de domínio, conforme descrito posteriormente neste tópico.
+No Lync Server 2013, você pode usar o assistente de implantação do Lync Server para preparar os serviços de domínio do Active Directory, ou você pode usar os cmdlets do Shell de gerenciamento do Lync Server diretamente. Também pode usar a ferramenta de linha de comando ldifde.exe diretamente nos seus controladores de domínio, conforme descrito mais adiante neste tópico.
 
-O assistente de implantação do Lync Server orienta você por meio de cada tarefa de preparação do Active Directory. O assistente de implantação executa cmdlets do Shell de gerenciamento do Lync Server. Essa ferramenta é útil para ambientes com um único domínio e topologia de floresta única ou outra topologia semelhante.
+O assistente de implantação do Lync Server orienta você por meio de cada tarefa de preparação do Active Directory. O assistente de implantação executa os cmdlets do Shell de gerenciamento do Lync Server. Essa ferramenta é útil para ambientes com um único domínio e topologia de floresta, ou outra topologia semelhante.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Você pode implantar o Lync Server em uma floresta ou domínio em que os controladores de domínio executem versões de 32 bits de alguns sistemas operacionais (para obter detalhes, consulte <A href="lync-server-2013-active-directory-infrastructure-requirements.md">requisitos de infraestrutura do Active Directory para o Lync Server 2013</A>). No entanto, você não pode usar o assistente de implantação do Lync Server para executar o esquema, a floresta e a preparação do domínio nesses ambientes porque o assistente de implantação e os arquivos de suporte são apenas 64 bits. Em vez disso, você pode usar o LDIFDE. exe e os arquivos. ldf associados em um controlador de domínio de 32 bits para preparar o esquema, a floresta e o domínio. Consulte a seção "usando cmdlets e Ldifde. exe" mais adiante neste tópico.
+> Você pode implantar o Lync Server em uma floresta ou domínio em que os controladores de domínio executam versões de 32 bits de alguns sistemas operacionais (para obter detalhes, consulte <A href="lync-server-2013-active-directory-infrastructure-requirements.md">Active Directory Infrastructure Requirements for Lync Server 2013</A>). No entanto, não é possível usar o assistente de implantação do Lync Server para executar o esquema, a floresta e a preparação do domínio nesses ambientes, pois o assistente de implantação e os arquivos de suporte são 64 bits. Em vez disso, você pode usar o Ldifde.exe e os arquivos .ldf associados em um controlador de domínio de 32 bits para preparar o esquema, a floresta e domínio. Consulte a seção "Usando os Cmdlets e Ldifde.exe" posteriormente neste tópico.
 
 
 
@@ -57,7 +57,7 @@ Você pode usar os cmdlets do Shell de gerenciamento do Lync Server para executa
 
 ## <a name="active-directory-preparation-prerequisites"></a>Pré-requisitos de preparação do Active Directory
 
-Você deve executar as etapas de preparação do Active Directory em um computador que esteja executando o Windows Server 2012, o Windows Server 2012 R2 ou o Windows Server 2008 R2 com SP1 (64 bits). A preparação do Active Directory requer o Shell de gerenciamento do Lync Server e o OCSCore.
+Você deve executar as etapas de preparação do Active Directory em um computador que executa o Windows Server 2012, o Windows Server 2012 R2 ou o Windows Server 2008 R2 com SP1 (64 bits). A preparação do Active Directory requer o Shell de gerenciamento do Lync Server e o OCSCore.
 
 Os seguintes componentes são necessários para executar tarefas de preparação do Active Directory:
 
@@ -67,18 +67,18 @@ Os seguintes componentes são necessários para executar tarefas de preparação
     
 
     > [!NOTE]  
-    > Se você pretende usar o Shell de gerenciamento do Lync Server para a preparação do Active Directory, deve executar o assistente de implantação do Lync Server primeiro para instalar os componentes principais.
+    > Se você planeja usar o Shell de gerenciamento do Lync Server para a preparação do Active Directory, você deve executar o assistente de implantação do Lync Server primeiro para instalar os componentes principais.
 
     
     </div>
 
-  - Microsoft.NET Framework 4.5
+  - Microsoft .NET Framework 4.5
     
     <div>
     
 
     > [!NOTE]  
-    > Para o Windows Server 2012 e o Windows Server 2012 R2, instale e ative o .NET Framework 4,5 usando o Gerenciador de servidores. Para obter detalhes, consulte "Microsoft .NET Framework 4,5" em <A href="lync-server-2013-additional-software-requirements.md">requisitos adicionais de software para o Lync Server 2013</A>. Para o Windows&nbsp;Server&nbsp;2008 R2, baixe e instale o <A href="http://www.microsoft.com/en-us/download/details.aspx?id=30653">.NET Framework 4,5</A> do site da Microsoft.
+    > Para o Windows Server 2012 e o Windows Server 2012 R2, você instala e ativa o .NET Framework 4,5 usando o Gerenciador do servidor. Para obter detalhes, consulte "Microsoft .NET Framework 4,5" em <A href="lync-server-2013-additional-software-requirements.md">Additional Software Requirements for Lync Server 2013</A>. Para o Windows&nbsp;Server&nbsp;2008 R2, baixe e instale o <A href="http://www.microsoft.com/download/details.aspx?id=30653">.NET Framework 4,5</A> no site da Microsoft.
 
     
     </div>
@@ -89,7 +89,7 @@ Os seguintes componentes são necessários para executar tarefas de preparação
     
 
     > [!NOTE]  
-    > Algumas ferramentas do RSAT são necessárias se você executar etapas de preparação do Active Directory em um servidor membro em vez de em um controlador de domínio. Instale os snap-ins do AD DS e as ferramentas de linha de comando e o módulo do Active Directory para Windows PowerShell do nó AD DS e ferramentas do AD LDS no Gerenciador de servidores.
+    > Algumas ferramentas RSAT são necessárias se você for executar as etapas de preparação do Active Directory em um servidor membro em vez de em um controlador de domínio. Instale as ferramentas de linha de comando e snap-ins do AD DS e o módulo do Active Directory para Windows PowerShell a partir do nó do AD DS e das ferramentas do AD LDS no Gerenciador do servidor.
 
     
     </div>
@@ -100,22 +100,22 @@ Os seguintes componentes são necessários para executar tarefas de preparação
     
 
     > [!NOTE]  
-    > A instalação solicitará que você instale esse pré-requisito se ele ainda não estiver instalado no computador. O pacote é fornecido para você, e você não precisa adquiri-lo separadamente.
+    > O programa de instalação solicita que você instale esse pré-requisito, se ele já não estiver instalado no computador. O pacote é fornecido para você e não terá que adquirí-lo separadamente.
 
     
     </div>
 
   - Windows PowerShell 3,0 (64 bits)
     
-    Para o Windows Server 2012 e o Windows Server 2012 R2, o Windows PowerShell 3,0 deve estar incluído na instalação do Lync Server 2013. Para o Windows Server 2008 R2, você precisa instalar ou atualizar para o Windows PowerShell 3,0. Para obter detalhes, consulte [instalando o Windows PowerShell 3,0 para Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md)
+    Para o Windows Server 2012 e o Windows Server 2012 R2, o Windows PowerShell 3,0 deve ser incluído na sua instalação do Lync Server 2013. Para o Windows Server 2008 R2, você precisa instalar ou atualizar para o Windows PowerShell 3,0. Para obter detalhes, consulte [instalando o Windows PowerShell 3,0 para Lync Server 2013](lync-server-2013-installing-windows-powershell-3-0.md)
 
 </div>
 
 <div>
 
-## <a name="administrator-rights-and-roles"></a>Direitos e funções de administrador
+## <a name="administrator-rights-and-roles"></a>Funções e direitos do administrador
 
-A tabela a seguir mostra os direitos administrativos e as funções necessárias para cada tarefa de preparação do Active Directory.
+A tabela a seguir mostra as funções e os direitos administrativos necessários para cada tarefa de preparação do Active Directory.
 
 ### <a name="user-rights-required-for-active-directory-preparation"></a>Direitos de usuário necessários para a preparação do Active Directory
 
@@ -126,22 +126,22 @@ A tabela a seguir mostra os direitos administrativos e as funções necessárias
 </colgroup>
 <thead>
 <tr class="header">
-<th>Processo</th>
+<th>Procedimento</th>
 <th>Direitos ou funções</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Preparação do esquema</p></td>
-<td><p>Membro do grupo Administradores de esquemas para os direitos de domínio raiz da floresta e administrador no mestre de esquema</p></td>
+<td><p>Membro do grupo Administradores de esquema para o domínio raiz da floresta e os direitos do administrador no mestre de esquema</p></td>
 </tr>
 <tr class="even">
 <td><p>Preparação da floresta</p></td>
-<td><p>Membro do grupo Administradores Corporativos para a floresta</p></td>
+<td><p>Membro do grupo Administradores de empresa para a floresta</p></td>
 </tr>
 <tr class="odd">
 <td><p>Preparação do domínio</p></td>
-<td><p>Membro do grupo administradores corporativos ou administradores de domínio do domínio especificado</p></td>
+<td><p>Membro do grupo Administradores de empresa ou Administradores do domínio para o domínio especificado</p></td>
 </tr>
 </tbody>
 </table>
@@ -153,9 +153,9 @@ A tabela a seguir mostra os direitos administrativos e as funções necessárias
 
 ## <a name="active-directory-preparation-cmdlets"></a>Cmdlets de preparação do Active Directory
 
-A tabela a seguir compara os cmdlets do Shell de gerenciamento do Lync Server usados para preparar o AD DS para os comandos LcsCmd usados para preparar o AD DS no Microsoft Office Communications Server 2007 R2.
+A tabela a seguir compara os cmdlets do Shell de gerenciamento do Lync Server usados para preparar o AD DS para os comandos do LcsCmd usados para preparar o AD DS no Microsoft Office Communications Server 2007 R2.
 
-### <a name="cmdlets-compared-to-lcscmd"></a>Cmdlets comparados ao LcsCmd
+### <a name="cmdlets-compared-to-lcscmd"></a>Cmdlets comparados a LcsCmd
 
 <table>
 <colgroup>
@@ -171,35 +171,35 @@ A tabela a seguir compara os cmdlets do Shell de gerenciamento do Lync Server us
 <tbody>
 <tr class="odd">
 <td><p>Install-CsAdServerSchema</p></td>
-<td><p>LcsCmd/Forest/Action: SchemaPrep/SchemaType: Server</p></td>
+<td><p>Lcscmd /forest /action:SchemaPrep /SchemaType:Server</p></td>
 </tr>
 <tr class="even">
 <td><p>Get-CsAdServerSchema</p></td>
-<td><p>LcsCmd/Forest/Action: CheckSchemaPrepState</p></td>
+<td><p>Lcscmd /forest /action:CheckSchemaPrepState</p></td>
 </tr>
 <tr class="odd">
 <td><p>Enable-CsAdForest</p></td>
-<td><p>LcsCmd/Forest/Action: ForestPrep</p></td>
+<td><p>Lcscmd /forest /action:ForestPrep</p></td>
 </tr>
 <tr class="even">
 <td><p>Disable-CsAdForest</p></td>
-<td><p>LcsCmd/Forest/Action: ForestUnprep</p></td>
+<td><p>Lcscmd /forest /action:ForestUnprep</p></td>
 </tr>
 <tr class="odd">
 <td><p>Get-CsAdForest</p></td>
-<td><p>LcsCmd/Forest/Action: CheckForestPrepState</p></td>
+<td><p>Lcscmd /forest /action:CheckForestPrepState</p></td>
 </tr>
 <tr class="even">
 <td><p>Enable-CsAdDomain</p></td>
-<td><p>LcsCmd/Domain/Action: DomainPrep</p></td>
+<td><p>Lcscmd /domain /action:DomainPrep</p></td>
 </tr>
 <tr class="odd">
 <td><p>Disable-CsAdDomain</p></td>
-<td><p>LcsCmd/Domain/Action: DomainUnprep</p></td>
+<td><p>Lcscmd /domain /action: DomainUnprep</p></td>
 </tr>
 <tr class="even">
 <td><p>Get-CsAdDomain</p></td>
-<td><p>LcsCmd/Domain/Action: CheckDomainPrepState</p></td>
+<td><p>Lcscmd /domain /action:CheckDomainPrepState</p></td>
 </tr>
 </tbody>
 </table>
@@ -209,27 +209,27 @@ A tabela a seguir compara os cmdlets do Shell de gerenciamento do Lync Server us
 
 <div>
 
-## <a name="locked-down-active-directory-requirements"></a>Requisitos do Active Directory bloqueados
+## <a name="locked-down-active-directory-requirements"></a>Requisitos do Active Directory bloqueado
 
-Se a herança de permissões estiver desabilitada ou as permissões de usuário autenticado tiverem que ser desabilitadas em sua organização, você deverá executar etapas adicionais durante a preparação do domínio. Para obter detalhes, consulte [preparando um serviço de domínio do Active Directory bloqueado no Lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md).
-
-</div>
-
-<div>
-
-## <a name="custom-container-permissions"></a>Permissões de contêiner personalizado
-
-Se a sua organização usa recipientes personalizados em vez de três contêineres internos (ou seja, usuários, computadores e controladores de domínio), você deve conceder acesso de leitura aos recipientes personalizados para o grupo usuários autenticados. O acesso de leitura aos recipientes é necessário para a preparação do domínio. Para obter detalhes, consulte [preparando domínios para o Lync Server 2013](lync-server-2013-preparing-domains.md).
+Se a herança das permissões estiver desabilitada ou as permissões de usuário autenticadas tiverem que ser desabilitadas na organização, execute etapas adicionais durante a preparação do domínio. Para obter detalhes, consulte [preparação de serviços de domínio do Active Directory bloqueados no Lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md).
 
 </div>
 
 <div>
 
-## <a name="using-cmdlets-and-ldifdeexe"></a>Usando cmdlets e Ldifde. exe
+## <a name="custom-container-permissions"></a>Permissões de contêiner personalizadas
 
-A etapa **preparar esquema** no assistente de implantação do Lync Server e o cmdlet **install-CsAdServerSchema** ampliam o esquema do Active Directory em controladores de domínio que executam um sistema operacional de 64 bits. Se você precisar estender o esquema do Active Directory em um controlador de domínio que executa um sistema operacional de 32 bits, poderá executar o cmdlet **install-CsAdServerSchema** remotamente de um servidor membro (abordagem recomendada). No entanto, se você precisar executar a preparação do esquema diretamente no controlador de domínio, poderá usar a ferramenta Ldifde. exe para importar os arquivos de esquema. A ferramenta Ldifde. exe vem com a maioria das versões do sistema operacional Windows.
+Se sua organização usa contêineres personalizados em vez de três contêineres internos  (controladores de usuários, computadores e domínio), você deve conceder o acesso de leitura aos contêineres personalizados para o grupo Usuários autenticados. O acesso de leitura aos contêineres é necessário para a preparação do domínio. Para obter detalhes, consulte [preparando domínios para o Lync Server 2013](lync-server-2013-preparing-domains.md).
 
-Se você usar LDIFDE. exe para importar os arquivos de esquema, será necessário importar todos os quatro arquivos, independentemente de você estar migrando de uma versão anterior ou de uma instalação limpa. Você deve importá-las na seguinte sequência:
+</div>
+
+<div>
+
+## <a name="using-cmdlets-and-ldifdeexe"></a>Usando Cmdlets e Ldifde.exe
+
+A etapa **preparar esquema** no assistente de implantação do Lync Server e o cmdlet **install-CsAdServerSchema** estender o esquema do Active Directory em controladores de domínio que executam um sistema operacional de 64 bits. Se você precisa estender o esquema do Active Directory em um controlador de domínio executando um sistema operacional de 32 bits, execute o cmdlet **Install-CsAdServerSchema** remotamente a partir de um servidor membro (abordagem recomendada). No entanto, se for necessário executar a preparação do esquema diretamente no controlador de domínio, você pode usar a ferramenta Ldifde.exe para importar os arquivos de esquema. A ferramenta Ldifde.exe é fornecida com a maioria das versões do sistema operacional Windows.
+
+Se você usar o Ldifde.exe para importar os arquivos de esquema, importe todos os quatro arquivos independentemente de estar migrando de uma versão anterior ou executando uma instalação limpa. Você deve importá-los na seguinte seqüência:
 
 1.  ExternalSchema. ldf
 
@@ -243,13 +243,13 @@ Se você usar LDIFDE. exe para importar os arquivos de esquema, será necessári
 
 
 > [!NOTE]  
-> Os quatro arquivos. ldf estão localizados no diretório \Support\Schema da mídia de instalação ou download.
+> Os quatro arquivos .ldf estão localizados em \Suporte\ diretório de esquema na mídia de instalação ou download.
 
 
 
 </div>
 
-Para usar o LDIFDE. exe para importar os quatro arquivos de esquema em um controlador de domínio que seja o mestre de esquema, use o seguinte formato:
+Para usar o Ldifde.exe na importação dos arquivos de quatro esquemas em um controlador de domínio que é o mestre de esquema, use o seguinte formato:
 
     ldifde -i -v -k -s <DCName> -f <Schema filename> -c DC=X <defaultNamingContext> -j logFilePath -b <administrator account> <logon domain> <password>
 
@@ -261,17 +261,17 @@ Por exemplo:
 
 
 > [!NOTE]  
-> Use o parâmetro b somente se você estiver conectado como um usuário diferente. Para obter detalhes sobre os direitos de usuário necessários, consulte a seção "direitos e funções de administrador" anteriormente neste tópico.
+> Use o parâmetro b somente se estiver conectado como um usuário diferente. Para obter detalhes sobre os direitos necessários, consulte a seção "Direitos e funções do administrador" anteriormente neste tópico.
 
 
 
 </div>
 
-Para usar o LDIFDE. exe para importar os quatro arquivos de esquema em um controlador de domínio que não seja o mestre de esquema, use o seguinte formato:
+Para usar o Ldifde.exe na importação dos arquivos de quatro esquemas em um controlador de domínio que não é o mestre de esquema, use o seguinte formato:
 
     ldifde -i -v -k -s <SchemaMasterFQDN> -f <Schema filename> -c DC=X <rootDomainNamingContext> -j logFilePath -b <administrator account> <domain> <password>
 
-Para obter detalhes sobre como usar o Ldifde, consulte o artigo 237677 da base de dados de conhecimento Microsoft, "usar o LDIFDE para importar e [http://go.microsoft.com/fwlink/p/?linkId=132204](http://go.microsoft.com/fwlink/p/?linkid=132204)exportar objetos de diretório para o Active Directory" em.
+Para obter detalhes sobre como usar o Ldifde, consulte o artigo 237677 da base de dados de conhecimento da Microsoft, "usando o LDIFDE para importar [http://go.microsoft.com/fwlink/p/?linkId=132204](http://go.microsoft.com/fwlink/p/?linkid=132204)e exportar objetos de diretório para o Active Directory" em.
 
 </div>
 
@@ -281,9 +281,9 @@ Para obter detalhes sobre como usar o Ldifde, consulte o artigo 237677 da base d
 
   - [Preparando o esquema do Active Directory no Lync Server 2013](lync-server-2013-preparing-the-active-directory-schema.md)
 
-  - [Preparando a floresta para Lync Server 2013](lync-server-2013-preparing-the-forest.md)
+  - [Preparando a floresta para o Lync Server 2013](lync-server-2013-preparing-the-forest.md)
 
-  - [Preparando domínios para Server 2013](lync-server-2013-preparing-domains.md)
+  - [Preparando domínios para o Lync Server 2013](lync-server-2013-preparing-domains.md)
 
 </div>
 

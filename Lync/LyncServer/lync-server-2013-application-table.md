@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabela de aplicativos'
+title: 'Lync Server 2013: tabela de aplicativos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183757
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 649463f3fe543e17172ecf69daa5a380c2b5e774
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c6cc89733e9e3ce85737caa29e62e3c033211713
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737611"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037261"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41737611"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-28_
+_**Última modificação do tópico:** 2012-09-28_
 
 Esta tabela armazena informações sobre os vários processos no Lync Server 2013 envolvidos em roteamento e conexões.
 
@@ -59,12 +59,12 @@ Esta tabela armazena informações sobre os vários processos no Lync Server 201
 <tr class="odd">
 <td><p><strong>ApplicationId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primária</p></td>
-<td><p>Número exclusivo que identifica este aplicativo.</p></td>
+<td><p>Primário</p></td>
+<td><p>Número exclusivo que identifica esse aplicativo.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Nome</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p> </p></td>
 <td><p>Nome do componente do servidor.</p></td>
 </tr>

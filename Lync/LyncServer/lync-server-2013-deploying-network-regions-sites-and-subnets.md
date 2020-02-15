@@ -12,16 +12,16 @@ ms:contentKeyID: 51803978
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04c39a18147bad3f84bd345ec0a56b606db4cae4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 46e4db701dc3d43ed30b8101ef2af5ff2e4a2ad0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736271"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043543"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,27 +35,27 @@ ms.locfileid: "41736271"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-03-12_
+_**Última modificação do tópico:** 2013-03-12_
 
-Depois que o Enterprise Voice for implantado, você precisará configurar:
+Após a implantação do Enterprise Voice, você precisará configurar:
 
   - Regiões de rede
 
   - Sites de rede
 
-  - Sub-redes de rede
+  - Sub-redes da rede
 
 <div>
 
 ## <a name="define-network-regions"></a>Definir regiões de rede
 
-Use o comando do Windows PowerShell do Lync Server, novo-CsNetworkRegion ou o painel de controle do Lync Server para definir regiões de rede.
+Use o comando do Windows PowerShell do Lync Server, o New-CsNetworkRegion ou o painel de controle do Lync Server para definir as regiões de rede.
 
     New-CsNetworkRegion -NetworkRegionID <region ID> -CentralSite <site ID>
 
 Para obter mais informações, consulte [New-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegion).
 
-Para este exemplo, o seguinte comando do Windows PowerShell ilustra a região de rede, região 1 (Índia), definida nesse cenário.
+Neste exemplo, o seguinte comando do Windows PowerShell ilustra a região de rede, a região 1 (Índia), definida neste cenário.
 
     New-CsNetworkRegion -NetworkRegionID "India" -CentralSite "India Central Site"
 
@@ -70,13 +70,13 @@ Para este exemplo, o seguinte comando do Windows PowerShell ilustra a região de
 
 ## <a name="define-network-sites"></a>Definir sites de rede
 
-Use o comando do Windows PowerShell do Lync Server, novo-CsNetworkSite ou o painel de controle do Lync Server para definir sites de rede.
+Use o comando do Lync Server Windows PowerShell, New-CsNetworkSite ou o painel de controle do Lync Server para definir sites de rede.
 
     New-CsNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 
 Para obter mais informações, consulte [New-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSite).
 
-Para este exemplo, a tabela a seguir e o comando do Windows PowerShell do Lync Server ilustram os sites de rede definidos neste cenário. Somente as configurações específicas do roteamento baseado em localização são incluídas na tabela para fins de ilustração.
+Para este exemplo, a tabela a seguir e o comando do Windows PowerShell do Lync Server ilustram os sites de rede definidos neste cenário. Somente as configurações específicas do roteamento baseado em local são incluídas na tabela para fins de ilustração.
 
     New-CsNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India"
     New-CsNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
@@ -97,12 +97,12 @@ Para este exemplo, a tabela a seguir e o comando do Windows PowerShell do Lync S
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>ID do site</p></td>
+<td><p>ID de site</p></td>
 <td><p>Site 1 (Déli)</p></td>
 <td><p>Site 2 (Hyderabad)</p></td>
 </tr>
 <tr class="even">
-<td><p>ID da região</p></td>
+<td><p>ID de região</p></td>
 <td><p>Região 1 (Índia)</p></td>
 <td><p>Região 1 (Índia)</p></td>
 </tr>
@@ -121,13 +121,13 @@ Para este exemplo, a tabela a seguir e o comando do Windows PowerShell do Lync S
 
 ## <a name="define-network-subnets"></a>Definir sub-redes de rede
 
-Use o comando do Windows PowerShell do Lync Server, novo-CsNetworkSubnet ou o painel de controle do Lync Server para definir sub-redes de rede e atribuí-las a sites de rede.
+Use o comando do Lync Server Windows PowerShell, New-CsNetworkSubnet ou o painel de controle do Lync Server para definir sub-redes de rede e atribuí-las aos sites de rede.
 
     New-CsNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
 
 Para obter mais informações, consulte [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet).
 
-Para este exemplo, a tabela a seguir e os comandos do Windows PowerShell ilustram a atribuição de sub-redes de rede para os sites de rede, Delhi e Hyderabad, definidas nesse cenário. Somente as configurações específicas do roteamento baseado em localização são incluídas na tabela para fins de ilustração.
+Neste exemplo, a tabela a seguir e os comandos do Windows PowerShell ilustram a atribuição de sub-redes de rede para os sites de rede, Delhi e Hyderabad, definidas neste cenário. Somente as configurações específicas do roteamento baseado em local são incluídas na tabela para fins de ilustração.
 
     New-CsNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi"
     New-CsNetworkSubnet -SubnetID "192.168.1.0" -MaskBits "24" -NetworkSiteID "Hyderabad"
@@ -148,17 +148,17 @@ Para este exemplo, a tabela a seguir e os comandos do Windows PowerShell ilustra
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>ID de sub-rede</p></td>
+<td><p>ID da sub-rede</p></td>
 <td><p>192.168.0.0</p></td>
 <td><p>192.168.1.0</p></td>
 </tr>
 <tr class="even">
-<td><p>Remoção</p></td>
-<td><p>24</p></td>
-<td><p>24</p></td>
+<td><p>Máscara</p></td>
+<td><p>dia</p></td>
+<td><p>dia</p></td>
 </tr>
 <tr class="odd">
-<td><p>ID do site</p></td>
+<td><p>ID de site</p></td>
 <td><p>Site 1 (Déli)</p></td>
 <td><p>Site 2 (Hyderabad)</p></td>
 </tr>
@@ -178,7 +178,7 @@ Para este exemplo, a tabela a seguir e os comandos do Windows PowerShell ilustra
 ## <a name="see-also"></a>Confira também
 
 
-[Configurando o Roteamento Baseado em Local no Lync Server 2013](lync-server-2013-configuring-location-based-routing.md)  
+[Configurando o roteamento baseado em local no Lync Server 2013](lync-server-2013-configuring-location-based-routing.md)  
   
 
 </div>

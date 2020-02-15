@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabela Endpoint'
+title: 'Lync Server 2013: tabela de pontos de extremidade'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184098
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 11da225da1a8120f5de7ac21b3beb318326601f9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 201e2ae3b44f59f0edb128f58af6c18e18e51931
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735581"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042228"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="endpoint-table-in-lync-server-2013"></a>Tabela Endpoint no Lync Server 2013
+# <a name="endpoint-table-in-lync-server-2013"></a>Tabela de pontos de extremidade no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41735581"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-02_
+_**Última modificação do tópico:** 2012-10-02_
 
-A tabela de pontos de extremidade é uma tabela de suporte que armazena informações sobre os pontos de extremidade que participaram em sessões registradas no banco de dados. Cada registro na tabela representa um ponto de extremidade.
+A tabela de pontos de extremidade é uma tabela de suporte que armazena informações sobre os pontos de extremidade que participaram de sessões registradas no banco de dados. Cada registro da tabela representa um ponto de extremidade.
 
 
 <table>
@@ -59,20 +59,20 @@ A tabela de pontos de extremidade é uma tabela de suporte que armazena informa�
 <tr class="odd">
 <td><p><strong>EndpointKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primária</p></td>
+<td><p>Primário</p></td>
 <td><p>Número exclusivo que identifica esse ponto de extremidade.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Nome</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Exclusividade</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Diferente</p></td>
 <td><p>Nome do ponto de extremidade.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Sistema operacional</strong></p></td>
+<td><p><strong>Opera</strong></p></td>
 <td><p>nvarchar(128</p></td>
 <td><p> </p></td>
-<td><p>Sistema operacional (SO) da empresa.</p></td>
+<td><p>Sistema operacional (OS) do ponto de extremidade.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CPUName</strong></p></td>
@@ -84,7 +84,7 @@ A tabela de pontos de extremidade é uma tabela de suporte que armazena informa�
 <td><p><strong>CPUNumberOfCores</strong></p></td>
 <td><p>smallint</p></td>
 <td></td>
-<td><p>Número de núcleos da CPU da empresa.</p></td>
+<td><p>Número de núcleos da CPU do ponto de extremidade.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CPUProcessorSpeed</strong></p></td>
@@ -102,7 +102,7 @@ A tabela de pontos de extremidade é uma tabela de suporte que armazena informa�
 <li><p>0x0001 – HyperV</p></li>
 <li><p>0x0002 – VMWare</p></li>
 <li><p>0x0004 – Virtual PC</p></li>
-<li><p>0x0008 – computador Xen</p></li>
+<li><p>0x0008 – PC Xen</p></li>
 </ul></td>
 </tr>
 </tbody>

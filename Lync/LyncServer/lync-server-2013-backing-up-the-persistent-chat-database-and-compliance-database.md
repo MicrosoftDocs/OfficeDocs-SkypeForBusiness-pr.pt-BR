@@ -1,5 +1,5 @@
 ---
-title: Fazendo backup do banco de dados do chat persistente e do banco de dados de conformidade
+title: Fazendo backup do banco de dados de chat persistente e banco de dados de conformidade
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48705998
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64273ab712fdc62b70233a16131b29668c006974
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: aa9d657e10678b4f0b7969a2e3d2805d38833b2c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740601"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044953"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-the-persistent-chat-database-and-compliance-database-in-lync-server-2013"></a>Fazendo backup do banco de dados do chat persistente e do banco de dados de conformidade no Lync Server 2013
+# <a name="backing-up-the-persistent-chat-database-and-compliance-database-in-lync-server-2013"></a>Fazendo backup do banco de dados de chat persistente e banco de dados de conformidade no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41740601"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-08-01_
+_**Última modificação do tópico:** 2012-08-01_
 
-Você deve fazer regularmente o backup do banco de dados de chat persistente e do banco de dados de conformidade. Entre em contato com o administrador do banco de dados para determinar a melhor maneira de fazer isso em seu ambiente.
+Você deve fazer o backup do banco de dados de chat persistente e do banco de dados de conformidade. Entre em contato com o administrador de dados para determinar a melhor forma de fazer isso em seu ambiente.
 
 </div>
 

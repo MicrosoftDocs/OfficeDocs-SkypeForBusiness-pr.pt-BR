@@ -1,5 +1,5 @@
 ---
-title: Resumo da porta-SIP, Federação do XMPP e mensagens instantâneas públicas
+title: Resumo de porta-SIP, Federação XMPP e mensagens instantâneas públicas
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49105660
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ae19fb2477f61c0e408ebad3a8abf97fb75b9c4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2512b49f9e0bcdc092354a5f43cb234c7e4d5445
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747461"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043043"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>Resumo da porta-SIP, Federação do XMPP e mensagens instantâneas públicas no Lync Server 2013
+# <a name="port-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>Resumo de porta-SIP, Federação XMPP e mensagens instantâneas públicas no Lync Server 2013
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41747461"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-03-15_
+_**Última modificação do tópico:** 2013-03-15_
 
-Os requisitos de portabilidade, protocolo e firewall para federação com o Microsoft Lync Server 2013, o Lync Server 2010 e o Office Communications Server são semelhantes aos do servidor de borda implantado. Os clientes iniciam a comunicação com o serviço de borda de acesso por TLS/SIP/TCP 443. No entanto, os parceiros federados iniciarão as comunicações com o serviço de borda de acesso sobre MTLS/SIP/TCP 5061.
+Requisitos de porta, protocolo e firewall para federação com o Microsoft Lync Server 2013, Lync Server 2010 e Office Communications Server são semelhantes aos do servidor de borda implantado. Os clientes iniciam a comunicação com o serviço de borda de acesso por TLS/SIP/TCP 443. Parceiros federados no entanto, iniciarão comunicações com o serviço de borda de acesso sobre MTLS/SIP/TCP 5061.
 
-Para configurar o seu firewall para portas e protocolos necessários para dar suporte à conectividade de mensagens instantâneas públicas, primeiro Observe que SIP/MTLS/TCP 5061 é bidirecional para a conta da capacidade dos contatos no provedor de IM públicos entrarem em contato com os clientes do Lync ou para que o Lync entre em contato com contatos públicos de mensagens instantâneas.
+Para configurar seu firewall para portas e protocolos necessários para dar suporte à conectividade de mensagens instantâneas públicas, primeiro Observe que SIP/MTLS/TCP 5061 é bidirecional para considerar a capacidade de os contatos no provedor de IM público entrarem em contato com os clientes do Lync ou para o Lync entrarem em contato com contatos públicos de IM.
 
-O Windows Live Messenger pode participar de comunicações de áudio/vídeo com clientes do Lync. Isso conta com uma configuração de protocolo e porta de firewall muito parecidas que você normalmente teria no firewall para dar suporte a clientes Lync como usuários externos.
+O Windows Live Messenger pode participar de comunicações de áudio/vídeo com clientes Lync. Isso conta para a porta de firewall muito parecida e a configuração de protocolo que você normalmente teria no firewall para dar suporte aos clientes do Lync como usuários externos.
 
 <div>
 
 
 > [!IMPORTANT]
-> Mais do que nunca, o Lync é uma ferramenta poderosa para a conexão entre organizações e pessoas ao redor do mundo. A Federação com o Windows Live Messenger não requer mais licenças de usuário/dispositivo além da licença de acesso de cliente padrão do Lync (CAL). A Federação do Skype será adicionada a essa lista, permitindo que os usuários do Lync atinjam centenas de milhões de pessoas com mensagens instantâneas e voz.<BR>A Federação com contatos de cliente do Messenger será encerrada oficialmente em 15 de março de 2013, exceto para a China continental. O Skype se tornará o cliente de Federação para usuários federados que usaram anteriormente o Messenger.
+> Mais do que nunca, o Lync é uma poderosa ferramenta para a conexão entre organizações e pessoas em todo o mundo. A Federação com o Windows Live Messenger não requer nenhuma licença adicional de usuário/dispositivo além da licença de acesso para cliente (CAL) do Lync Standard. A Federação do Skype será adicionada à lista, permitindo que os usuários do Lync atinjam centenas de milhões de pessoas com IM e voz.<BR>A Federação com contatos do cliente do Messenger será oficialmente termina em 15 de março de 2013, exceto para a China continental. O Skype se tornará o cliente de Federação para usuários federados que usavam o Messenger anteriormente.
 
 
 
 </div>
 
-As portas e protocolos definidos para o proxy de protocolo de presença e mensagens extensível (XMPP) implantadas no servidor de borda permitem comunicações do parceiro federado do XMPP com o servidor de borda e também permite a comunicação do servidor de borda com o XMPP parceiro federado. Uma regra também é definida no firewall de face interna do servidor front-end ou do pool de front-ends para o servidor de borda ou o pool de bordas.
+As portas e os protocolos definidos para o proxy XMPP (Extensible Messaging and Presence Protocol) implantado no servidor de borda permitem que as comunicações do parceiro federado do XMPP ao servidor de borda, além de permitir a comunicação do servidor de borda com o XMPP parceiro federado. Uma regra também é definida no firewall de face interna do servidor front-end ou do pool de front-ends para o servidor de borda ou o pool de borda.
 
 <div>
 
@@ -69,18 +69,18 @@ As portas e protocolos definidos para o proxy de protocolo de presença e mensag
 </colgroup>
 <thead>
 <tr class="header">
-<th>Função/protocolo/TCP ou UDP/porta</th>
-<th>Endereço IP de Origem</th>
-<th>Endereço IP de Destino</th>
-<th>Notas</th>
+<th>Função/Protocolo/TCP ou UDP/Porta</th>
+<th>Endereço IP de origem</th>
+<th>Endereço IP de destino</th>
+<th>Observações</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>/TCP/5061 de acesso/SIP (MTLS)</p></td>
-<td><p>Endereço IP público do serviço de borda do Access</p></td>
-<td><p>Qualquer um</p></td>
-<td><p>Para conectividade de mensagens de chat públicas e federadas usando SIP</p></td>
+<td><p>Endereço IP público do serviço da Borda de Acesso</p></td>
+<td><p>Qualquer tamanho</p></td>
+<td><p>Para conectividade a redes públicas e federadas de IM usando SIP</p></td>
 </tr>
 </tbody>
 </table>
@@ -90,7 +90,7 @@ As portas e protocolos definidos para o proxy de protocolo de presença e mensag
 
 <div>
 
-## <a name="firewall-summary--public-instant-messaging-connectivity"></a>Resumo do Firewall – Conectividade de mensagens instantâneas públicas
+## <a name="firewall-summary--public-instant-messaging-connectivity"></a>Resumo do firewall – Conectividade pública de mensagens instantâneas
 
 
 <table>
@@ -102,48 +102,48 @@ As portas e protocolos definidos para o proxy de protocolo de presença e mensag
 </colgroup>
 <thead>
 <tr class="header">
-<th>Função/protocolo/TCP ou UDP/porta</th>
-<th>Endereço IP de Origem</th>
-<th>Endereço IP de Destino</th>
-<th>Notas</th>
+<th>Função/Protocolo/TCP ou UDP/Porta</th>
+<th>Endereço IP de origem</th>
+<th>Endereço IP de destino</th>
+<th>Observações</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>/TCP/5061 de acesso/SIP (MTLS)</p></td>
-<td><p>Parceiros de conectividade de mensagens de chat públicas</p></td>
+<td><p>Parceiros de conectividade pública de IM</p></td>
 <td><p>Interface de acesso do servidor de borda</p></td>
-<td><p>Para conectividade de mensagem de chat pública e federada que usa SIP.</p></td>
+<td><p>Para conectividade federada e pública de IM que usam SIP.</p></td>
 </tr>
 <tr class="even">
 <td><p>/TCP/5061 de acesso/SIP (MTLS)</p></td>
 <td><p>Interface de acesso do servidor de borda</p></td>
-<td><p>Parceiros de conectividade de mensagens de chat públicas</p></td>
-<td><p>Para conectividade de mensagem de chat pública e federada que usa SIP.</p></td>
+<td><p>Parceiros de conectividade pública de IM</p></td>
+<td><p>Para conectividade federada e pública de IM que usam SIP.</p></td>
 </tr>
 <tr class="odd">
 <td><p>/TCP/443 de acesso/SIP (TLS)</p></td>
 <td><p>Clientes</p></td>
 <td><p>Interface de acesso do servidor de borda</p></td>
-<td><p>Tráfego SIP do cliente ao servidor para o acesso do usuário externo.</p></td>
+<td><p>Tráfego SIP de cliente para servidor para acesso de usuário externo.</p></td>
 </tr>
 <tr class="even">
-<td><p>A/V/RTP/TCP/50.000 A 59.999</p></td>
+<td><p>A/V/RTP/TCP/50000-59.999</p></td>
 <td><p>Interface de acesso do servidor de borda</p></td>
-<td><p>Clientes do Live Messenger</p></td>
-<td><p>Usado para sessões de A/V com o Windows Live Messenger se a conectividade de mensagem de chat pública estiver configurada.</p></td>
+<td><p>Clientes Live Messenger</p></td>
+<td><p>Usado para sessões A/V com o Windows Live Messenger se a conectividade pública de IM estiver configurada.</p></td>
 </tr>
 <tr class="odd">
 <td><p>A/V/STUN, MSTURN/UDP/3478</p></td>
 <td><p>Interface de acesso do servidor de borda</p></td>
-<td><p>Clientes do Live Messenger</p></td>
-<td><p>Necessário para conectividade de IM pública com o Windows Live Messenger.</p></td>
+<td><p>Clientes Live Messenger</p></td>
+<td><p>Necessário para conectividade pública de IM com o Windows Live Messenger.</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V/STUN, MSTURN/UDP/3478</p></td>
-<td><p>Clientes do Live Messenger</p></td>
+<td><p>Clientes Live Messenger</p></td>
 <td><p>Interface de acesso do servidor de borda</p></td>
-<td><p>Necessário para conectividade de IM pública com o Windows Live Messenger.</p></td>
+<td><p>Necessário para conectividade pública de IM com o Windows Live Messenger.</p></td>
 </tr>
 </tbody>
 </table>
@@ -153,7 +153,7 @@ As portas e protocolos definidos para o proxy de protocolo de presença e mensag
 
 <div>
 
-## <a name="firewall-summary---extensible-messaging-and-presence-protocol-xmpp"></a>Resumo de firewall-mensagens extensíveis e protocolo de presença (XMPP)
+## <a name="firewall-summary---extensible-messaging-and-presence-protocol-xmpp"></a>Resumo do firewall-protocolo de presença e mensagens extensíveis (XMPP)
 
 
 <table>
@@ -165,8 +165,8 @@ As portas e protocolos definidos para o proxy de protocolo de presença e mensag
 </colgroup>
 <thead>
 <tr class="header">
-<th>Protocolo/TCP ou UDP/porta</th>
-<th>Fonte (endereço IP)</th>
+<th>Protocolo/TCP ou UDP/Porta</th>
+<th>Origem (endereço IP)</th>
 <th>Destino (endereço IP)</th>
 <th>Comentários</th>
 </tr>
@@ -174,21 +174,21 @@ As portas e protocolos definidos para o proxy de protocolo de presença e mensag
 <tbody>
 <tr class="odd">
 <td><p>XMPP/TCP/5269</p></td>
-<td><p>Qualquer um</p></td>
-<td><p>Endereço IP da interface do serviço de borda do Access</p></td>
-<td><p>Porta de comunicação de servidor para servidor padrão para XMPP. Permite a comunicação com o servidor de borda XMPP o proxy de parceiros de XMPP federado</p></td>
+<td><p>Qualquer tamanho</p></td>
+<td><p>Endereço IP da interface de serviço de borda de acesso</p></td>
+<td><p>Porta padrão de comunicação entre servidores para XMPP. Permite a comunicação com o servidor de borda XMPP proxy de parceiros federados do XMPP</p></td>
 </tr>
 <tr class="even">
 <td><p>XMPP/TCP/5269</p></td>
-<td><p>Endereço IP da interface do serviço de borda do Access</p></td>
-<td><p>Qualquer um</p></td>
-<td><p>Porta de comunicação de servidor para servidor padrão para XMPP. Permite a comunicação do proxy do servidor de borda XMPP com parceiros do XMPP federado</p></td>
+<td><p>Endereço IP da interface de serviço de borda de acesso</p></td>
+<td><p>Qualquer tamanho</p></td>
+<td><p>Porta padrão de comunicação entre servidores para XMPP. Permite a comunicação do proxy do servidor de borda XMPP com parceiros federados XMPP</p></td>
 </tr>
 <tr class="odd">
 <td><p>XMPP/MTLS/23456</p></td>
-<td><p>Qualquer um</p></td>
-<td><p>IP de interface do servidor de borda interna</p></td>
-<td><p>Tráfego de XMPP interno do Gateway XMPP no servidor front-end ou do pool de front-end para o servidor de borda</p></td>
+<td><p>Qualquer tamanho</p></td>
+<td><p>IP da interface de servidor de borda interna</p></td>
+<td><p>Tráfego XMPP interno do Gateway XMPP no servidor front-end ou no pool de front-ends para o servidor de borda</p></td>
 </tr>
 </tbody>
 </table>
@@ -201,11 +201,11 @@ As portas e protocolos definidos para o proxy de protocolo de presença e mensag
 ## <a name="see-also"></a>Confira também
 
 
-[Cenários de acesso de usuário externo no Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md)  
-[Determinar firewall A/V externo e requisitos de porta para Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)  
+[Cenários para acesso de usuário externo no Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md)  
+[Determinar firewall A/V externo e requisitos de porta para o Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)  
 
 
-[Gerenciar parceiros XMPP federados no Lync Server 2013](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
+[Gerenciar parceiros federados do XMPP no Lync Server 2013](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
   
 
 </div>

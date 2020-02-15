@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: gerenciar locais para gateways ELIN'
+title: 'Lync Server 2013: Gerenciando locais para gateways do ELIN'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba5a7e9067e4cd59ca42e60c620dbb4e8ee5b901
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 35c470b704e7467f573cd5e1fec03d63cf1f4b4e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762099"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043083"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,57 +35,57 @@ ms.locfileid: "41762099"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-02_
+_**Última modificação do tópico:** 2012-10-02_
 
-Para que o Lync Server forneça automaticamente locais para clientes em uma rede, você precisa executar as seguintes tarefas:
+Para que o Lync Server forneça automaticamente locais para clientes dentro de uma rede, você precisa executar as seguintes tarefas:
 
-  - Preencha o banco de dados do serviço de informações de localização com uma rede Wiremap e inclua os números de identificação de localização de emergência (ELINs) no campo CompanyName.
+  - Preencha o banco de dados do serviço de informações de local com um Wiremap de rede e inclua os números de identificação de local de emergência (ELINs) no campo CompanyName.
 
-  - Publique os locais para que estejam disponíveis para clientes em sua rede.
+  - Publique as localizações, dessa forma, elas estarão disponíveis para os clientes da sua rede.
 
-  - Carregue os ELINs no banco de dados de Identificação de Localização Automática (ALI) da transportadora PSTN.
+  - Carregue o ELINs para o banco de dados de identificação de local automática (ALI) da operadora de rede telefônica pública comutada (PSTN).
 
-Para obter detalhes sobre como executar essas tarefas, consulte [Configurar o banco de dados de localização no Lync Server 2013](lync-server-2013-configure-the-location-database.md) na documentação de implantação.
+Para obter detalhes sobre como executar essas tarefas, consulte [Configure the Location Database in Lync Server 2013](lync-server-2013-configure-the-location-database.md) na documentação de implantação.
 
 <div>
 
 
 > [!NOTE]  
-> Os locais adicionados ao banco de dados do local central não estarão disponíveis para o cliente até serem publicados usando um comando shell do Shell de gerenciamento do Lync Server e serão duplicados para os armazenamentos locais do pool. Para obter detalhes, consulte <A href="lync-server-2013-publish-the-location-database.md">publicar o banco de dados de local do Lync Server 2013</A> na documentação de implantação.
+> Os locais adicionados ao banco de dados de local central não estão disponíveis para o cliente até serem publicados usando um comando do Shell de gerenciamento do Lync Server e são replicados para os repositórios locais do pool. Para obter detalhes, consulte <A href="lync-server-2013-publish-the-location-database.md">publicar o banco de dados de localização no Lync Server 2013</A> na documentação de implantação.
 
 
 
 </div>
 
-Esta seção descreve coisas a considerar conforme você planeja atualizar e manter o banco de dados de localização.
+Essa seção descreve coisas a serem consideradas conforme você planeja atualizar e manter seu banco de dados de locais.
 
 <div>
 
-## <a name="planning-emergency-locations"></a>Planejamento de locais de emergência
+## <a name="planning-emergency-locations"></a>Planejando locais de emergência
 
-Ao usar gateways do ELIN, você preenche o banco de dados do serviço de informações de localização com o endereço cívico, um local específico dentro de um edifício e pelo menos um ELIN para cada local. Durante a fase de planejamento, é uma boa ideia decidir como deseja nomear os locais e como você deseja atribuir os ELINs.
+Ao usar os gateways do ELIN, você preenche o banco de dados do serviço de informações de local com o endereço cívico, um local específico dentro de um edifício e pelo menos um ELIN para cada local. Durante a fase de planejamento, é uma boa ideia decidir como você deseja nomear as localizações e como deseja atribuir ELINs.
 
 <div>
 
-## <a name="planning-location-names"></a>Planejamento dos nomes de local
+## <a name="planning-location-names"></a>Planejando nomes dos locais
 
-O campo **local** do serviço de informações de localização, que contém o local específico dentro de um edifício, tem um comprimento máximo de 20 caracteres (incluindo espaços). Dentro deste comprimento limitado, tente incluir o seguinte:
+O campo **local** do serviço de informações de local, que mantém o local específico dentro de um edifício, tem um comprimento máximo de 20 caracteres (incluindo espaços). Dentro desse comprimento limitado, tente incluir o seguinte:
 
-  - Um nome fácil de compreender que identifica o local do chamador 911 para ajudar a garantir que os respondedores da emergência encontrem o local específico rapidamente quando chegarem ao endereço civil. Este nome de local pode incluir um número de construção, número do piso, designador de asa, número da sala e assim por diante. Evite apelidos que são conhecidos apenas pelos funcionários, que pode fazer com que os respondedores de emergência vão para o local incorreto.
+  - Um nome fácil de entender que identifica o local do chamador 911 para ajudar a garantir que os respondedores de emergência encontrem o local específico imediatamente quando chegarem ao endereço civil. Esse nome de local pode incluir um número de edifício, um número de chão, um designador de asa, um número de sala e assim por diante. Evite apelidos que são conhecidos apenas por funcionários, que podem fazer com que os respondentes de emergência vá para o local errado.
 
-  - Um identificador de localização que ajuda os usuários a ver facilmente que o cliente do Lync selecionou o local correto. O cliente Lync concatena e exibe automaticamente os campos **local** e **cidade** descobertos no cabeçalho. Uma prática recomendada é adicionar o endereço do edifício a cada identificador de localização (por exemplo, "número \<\>do 1ª andar"). Sem o endereço físico, um identificador de local genérico como "1° andar" pode ser aplicado a qualquer edifício na cidade.
+  - Um identificador de local que ajuda os usuários a ver facilmente que seu cliente do Lync obteve o local correto. O cliente Lync concatena e exibe automaticamente os campos **Location** e **City** descobertos em seu cabeçalho. Uma boa prática é adicionar o endereço de rua da construção a cada identificador de local (por exemplo, "número \<\>da rua do primeiro andar"). Sem o endereço físico, um identificador de local genérico como "1° andar" pode ser aplicado a qualquer construção na cidade.
 
-  - Se o local for aproximado por ser determinado por um ponto de acesso sem fio, convém adicionar a palavra  Near (por exemplo, próximo ao 1º andar, 1234).
+  - Se o local for aproximado por ser determinado por um ponto de acesso sem fio, é possível adicionar uma palavra Near (por exemplo, "próximo ao 1º andar, 1234").
 
 </div>
 
 <div>
 
-## <a name="planning-elins"></a>Planejamento de ELINs
+## <a name="planning-elins"></a>Planejando ELINs
 
-Após decidir como você deseja dividir o espaço da construção em locais, é necessário decidir quantos ELINs atribuir em cada local. Por exemplo, em uma construção de vários locais ou pisos, diferentes áreas na construção podem ser atribuídas com zonas de emergência diferentes. Geralmente, cada piso na construção é designado como um local. Cada local é atribuído com um ou mais ELINs, que são usados como números de chamada durante uma chamada de emergência. Entre em contato com sua transportadora PSTN para obter os números de telefone que você pode usar para ELINs. A tabela a seguir oferece um exemplo de locais para um endereço específico.
+Depois de decidir como você deseja dividir o espaço de construção em locais, você precisa decidir quantas ELINs atribuir a cada local. Por exemplo, em um prédio de multisolo ou de vários locatários, diferentes áreas no edifício podem ser atribuídas a diferentes zonas de emergência. Normalmente, cada andar de um edifício é designado como um local. Em seguida, cada local é atribuído a um ou mais ELINs, que são usados como os números de chamada durante uma chamada de emergência. Entre em contato com a sua operadora da PSTN para números de telefone que você possa com ELIs. A tabela a seguir fornece um exemplo de locais para um endereço de rua específico.
 
-### <a name="sample-location-and-elin-assignments"></a>Local de amostra e Atribuições de ELIN
+### <a name="sample-location-and-elin-assignments"></a>Exemplo de local e atribuições de ELIN
 
 <table>
 <colgroup>
@@ -95,36 +95,36 @@ Após decidir como você deseja dividir o espaço da construção em locais, é 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Área de construção</th>
-<th>Local</th>
+<th>Área do edifício</th>
+<th>Locais</th>
 <th>ELIN</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Primeiro andar</p></td>
-<td><p>1</p></td>
+<td><p>1º andar</p></td>
+<td><p>1 </p></td>
 <td><p>425-555-0100</p></td>
 </tr>
 <tr class="even">
-<td><p>Segundo andar</p></td>
-<td><p>2</p></td>
+<td><p>2º andar</p></td>
+<td><p>2 </p></td>
 <td><p>425-555-0111</p></td>
 </tr>
 <tr class="odd">
-<td><p>Terceiro andar</p></td>
-<td><p>3</p></td>
+<td><p>3º andar</p></td>
+<td><p>3 </p></td>
 <td><p>425-555-0123</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Os locais definidos devem atender os seguintes requisitos:
+Os locais definidos devem atender aos seguintes requisitos:
 
-  - Cumpre os regulamentos locais e nacionais/regionais em termos de área máxima por local e número de locais por endereço.
+  - Cumpra as regulamentações locais e nacionais/regionais em termos de área máxima por local e número de locais por endereço.
 
-  - São específicos o suficiente para tornar fácil localizar o chamador de emergência.
+  - Sejam específicos o suficiente para tornar mais fácil localizar o chamador da emergância.
 
 </div>
 
@@ -132,37 +132,37 @@ Os locais definidos devem atender os seguintes requisitos:
 
 <div>
 
-## <a name="populating-the-location-database"></a>Preenchendo o banco de dados Local
+## <a name="populating-the-location-database"></a>Preenchimento do Banco de dados de locais
 
-As seguintes perguntas ajudarão a determinar como preencher o banco de dados de local.
+As perguntas a seguir o ajudarão a determinar como preencher o banco de dados de localização.
 
   - **Qual processo você usará para preencher o banco de dados de local?**  
-    Onde estão os dados e quais etapas você precisa executar para convertê-los para o formato necessário pelo banco de dados de local? Você adicionará locais individualmente ou em lote usando um arquivo CSV?
+    Onde os dados existem e quais etapas você precisa executar para converter os dados para o formato necessário pelo banco de dados de local? Você adicionará locais individualmente ou em lote usando um arquivo CSV?
 
 <!-- end list -->
 
-  - **Você tem um banco de dados de terceiro que já contém um mapeamento de locais?**  
-    Ao usar a opção do serviço de informações de localização secundária do Lync Server para se conectar a um banco de dados de terceiros, você pode agrupar e gerenciar locais usando uma plataforma offline. Um benefício dessa abordagem é que além de associar locais aos identificadores de rede, é possível associar locais a um usuário. Isso significa que o serviço de informações de localização pode retornar vários endereços, originários do serviço de informações de localização secundário, para um cliente do Lync Server. Em seguida, o usuário pode escolher o local mais apropriado.
+  - **Você tem um banco de dados de terceiros que já contém um mapeamento de locais?**  
+    Usando a opção de serviço de informações de local secundário do Lync Server para se conectar a um banco de dados de terceiros, é possível agrupar e gerenciar locais usando uma plataforma offline. Um benefício dessa abordagem é que além de associar locais aos identificadores de rede, é possível associar locais a um usuário. Isso significa que o serviço de informações de local pode retornar vários endereços, originários do serviço de informações de local secundário, para um cliente do Lync Server. Em seguida, o usuário pode escolher o local mais apropriado.
     
-    Para integrar-se com o serviço informações de localização, o banco de dados de terceiros deve seguir o esquema de solicitação/resposta de localização do Lync Server. Para obter detalhes, <http://go.microsoft.com/fwlink/p/?linkid=213819>consulte. Para obter detalhes sobre a implantação de um serviço de informações de localização secundário, consulte [configurar um serviço de informações de localização secundário no Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) na documentação de implantação.
+    Para integrar com o serviço de informações de local, o banco de dados de terceiros deve seguir o esquema de solicitação/resposta de local do Lync Server. Para obter detalhes, <http://go.microsoft.com/fwlink/p/?linkid=213819>consulte. Para obter detalhes sobre a implantação de um serviço de informações de local secundário, consulte [configurar um serviço de informações de local secundário no Lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md) na documentação de implantação.
 
-Para obter detalhes sobre como preencher o banco de dados de localização, consulte [Configurar o banco de dados de localização no Lync Server 2013](lync-server-2013-configure-the-location-database.md) na documentação de implantação.
+Para obter detalhes sobre como preencher o banco de dados de local, consulte [Configure the Location Database in Lync Server 2013](lync-server-2013-configure-the-location-database.md) na documentação de implantação.
 
 </div>
 
 <div>
 
-## <a name="maintaining-the-location-database"></a>Manutenção do banco de dados de local
+## <a name="maintaining-the-location-database"></a>Manutenção do banco de dados Local
 
-Depois de preencher o banco de dados de local, é necessário desenvolver uma estratégia para atualização do banco de dados à medida que a configuração de rede mudar. As seguintes perguntas ajudarão a determinar como você manterá o banco de dados de local.
+Depois de preencher o banco de dados de local, é necessário desenvolver uma estratégia para atualização do banco de dados à medida que a configuração de rede muda. As seguintes perguntas ajudarão a determinar como você manterá o banco de dados de local.
 
   - **Como você atualizará o banco de dados de local?**  
-    Há diversos cenários que exigem uma atualização para o banco de dados de local, incluindo a adição de WAPs (pontos de acesso sem fio), recabeamento do escritório (resultando em atribuições de comutação diferentes) e expansão da subrede. Você atualizará diretamente cada local individual ou realizará uma atualização em massa de todos os locais usando um arquivo CSV?
+    Há vários cenários que exigem uma atualização para o banco de dados de local, incluindo a adição de pontos de acesso sem fio (WAPs), recabeamento do Office (resultando em diferentes atribuições de comutação) e expansão de sub-rede. Você atualizará diretamente cada local individual ou realizará uma atualização em massa de todos os locais usando um arquivo CSV?
 
 <!-- end list -->
 
-  - **Você usará um aplicativo SNMP para que os endereços do MAC do cliente do Skype sejam compatíveis aos identificadores de porta e de comutador?**  
-    Se você usar um aplicativo SNMP, precisará desenvolver um processo manual para manter as informações de porta e chassis de comutador consistentes entre o aplicativo SNMP e o banco de dados de local. Se o aplicativo SNMP retornar um endereço IP de chassi ou uma ID de porta que não está incluída no banco de dados, o serviço de informações de localização não poderá retornar um local ao cliente.
+  - **Você usará um aplicativo SNMP para corresponder a endereços MAC do cliente do Lync a identificadores de porta e de comutador?**  
+    Se você usar um aplicativo SNMP, precisará desenvolver um processo manual para manter as informações de chassi de comutador e de porta consistentes entre o aplicativo SNMP e o banco de dados de local. Se o aplicativo SNMP retornar um endereço IP de chassi ou uma ID de porta que não esteja incluída no banco de dados, o serviço de informações de local não poderá retornar um local ao cliente.
 
 </div>
 

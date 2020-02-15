@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Registros de uso de PSTN'
+title: 'Lync Server 2013: registros de uso de PSTN'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185188
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5909494b4e4b6901964a7642481302ca221fe086
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 60700070c5426d4df4d1957367ccfd743a5ba44b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724671"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042028"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41724671"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-23_
+_**Última modificação do tópico:** 2012-09-23_
 
-O planejamento dos registros de uso de PSTN consiste principalmente em listar todas as permissões de chamadas em uso na organização, desde o CEO até os funcionários temporários, os consultores e a equipe contingente. Esse processo também oferece uma oportunidade de reexaminar as permissões de chamadas existentes e revisá-las. Você pode criar registros de uso de PSTN somente para as permissões de chamada que se aplicam aos usuários de Enterprise Voice previstos, mas uma solução de maior alcance pode ser criar registros de uso de PSTN para todas as permissões de chamada, independentemente de talvez alguns não aplicar-se ao grupo de usuários a ser habilitado para o Enterprise Voice. Se as permissões de chamada forem alteradas ou novos usuários com permissões de chamada diferentes forem adicionados, você já terá criado os registros de uso de PSTN necessários.
+O planejamento dos registros de uso de PSTN consiste principalmente em listar todas as permissões de chamadas em uso na organização, desde o CEO até os funcionários temporários, os consultores e a equipe contingente. Esse processo também oferece uma oportunidade de reexaminar as permissões de chamadas existentes e revisá-las. Você pode criar registros de uso de PSTN somente para as permissões de chamada que se aplicam aos usuários previstos do Enterprise Voice, mas uma solução melhor e de longo alcance pode ser criar registros de PSTN para todas as permissões de chamadas, ainda que algumas delas não se apliquem no momento ao grupo de usuários que será habilitado para o Enterprise Voice. Se as permissões de chamada forem alteradas ou novos usuários com permissões de chamada diferentes forem adicionados, você já terá criado os registros de uso de PSTN necessários.
 
-A tabela a seguir mostra um quadro típico de uso de PSTN.
+A tabela a seguir mostra um quadro típico de uso do PSTN.
 
 ### <a name="pstn-usage-records"></a>Registros de uso de PSTN
 
@@ -60,7 +60,7 @@ A tabela a seguir mostra um quadro típico de uso de PSTN.
 <td><p>Chamadas locais</p></td>
 </tr>
 <tr class="even">
-<td><p>Long-Distance</p></td>
+<td><p>De longa distância</p></td>
 <td><p>Chamadas interurbanas</p></td>
 </tr>
 <tr class="odd">
@@ -68,11 +68,11 @@ A tabela a seguir mostra um quadro típico de uso de PSTN.
 <td><p>Chamadas internacionais</p></td>
 </tr>
 <tr class="even">
-<td><p>Delhi</p></td>
+<td><p>Déli</p></td>
 <td><p>Funcionários de Délhi em tempo integral</p></td>
 </tr>
 <tr class="odd">
-<td><p>Redmond</p></td>
+<td><p>Rio</p></td>
 <td><p>Funcionários de Redmond em tempo integral</p></td>
 </tr>
 <tr class="even">
@@ -80,7 +80,7 @@ A tabela a seguir mostra um quadro típico de uso de PSTN.
 <td><p>Funcionários temporários de Redmond</p></td>
 </tr>
 <tr class="odd">
-<td><p>Zurich</p></td>
+<td><p>Zurique</p></td>
 <td><p>Funcionários de Zurique em tempo integral</p></td>
 </tr>
 </tbody>

@@ -12,20 +12,20 @@ ms:contentKeyID: 51541452
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4185c02bc85077b0f68ca76d83fd48203e0e5fd9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0a6614a06ea4e5370dd944940d35a690853c171b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727911"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045073"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-core-data-and-settings-in-lync-server-2013"></a>Fazer backup de dados principais e configurações no Lync Server 2013
+# <a name="backing-up-core-data-and-settings-in-lync-server-2013"></a>Fazendo backup de dados principais e configurações no Lync Server 2013
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41727911"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-04-23_
+_**Última modificação do tópico:** 2014-04-23_
 
-Os procedimentos a seguir usam cmdlets do Shell de gerenciamento do Lync Server para criar arquivos de backup para configurações e dados para serviços básicos. Para obter detalhes sobre as ferramentas usadas nesta seção, incluindo onde elas estão localizadas, consulte [requisitos de backup e restauração no Lync Server 2013: ferramentas e permissões](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md). Para obter detalhes sobre como fazer backup de dados de arquivamento e monitoramento, consulte [fazendo backup de bancos de dados de arquivamento e monitoramento no Lync Server 2013](lync-server-2013-backing-up-archiving-and-monitoring-databases.md).
+Os procedimentos a seguir usam cmdlets do Shell de gerenciamento do Lync Server para criar arquivos de backup para configurações e dados para os serviços principais. Para obter detalhes sobre as ferramentas usadas nesta seção, incluindo onde estão localizadas, consulte [requisitos de backup e restauração no Lync Server 2013: ferramentas e permissões](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md). Para obter detalhes sobre como fazer backup de dados de arquivamento e monitoramento, consulte fazendo backup de bancos de dados de [arquivamento e monitoramento no Lync Server 2013](lync-server-2013-backing-up-archiving-and-monitoring-databases.md).
 
 <div>
 
 
 > [!NOTE]  
-> A etapa desta seção para fazer backup do repositório de gerenciamento central inclui as configurações e a configuração de arquivamento e monitoramento.
+> A etapa desta seção para fazer o backup do repositório de gerenciamento central inclui as configurações e a configuração para arquivamento e monitoramento.
 
 
 
 </div>
 
-Você pode executar os cmdlets descritos nesta seção localmente ou remotamente.
+É possível executar os cmdlets descritos nesta seção local ou remotamente.
 
 <div>
 
-## <a name="to-back-up-core-data-and-settings"></a>Para fazer backup de dados principais e configurações
+## <a name="to-back-up-core-data-and-settings"></a>Para fazer o backup dos principais dados e configurações
 
-1.  Em uma conta de usuário que seja um membro do grupo RTCUniversalServerAdmins, faça logon em qualquer computador na sua implantação interna.
+1.  Em uma conta de usuário membro do grupo RTCUniversalServerAdmins, faça logon em qualquer computador em sua implantação interna.
 
-2.  Para armazenar os backups que você cria nas etapas a seguir, crie uma nova pasta compartilhada e atualize o caminho referenciado por **$backup** para a nova pasta compartilhada.
+2.  Para armazenar os backups criados nas etapas a seguir, crie uma nova pasta compartilhada e atualize o caminho referido por **$Backup** para a nova pasta compartilhada.
 
-3.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+3.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 4.  Faça backup do arquivo de configuração do repositório de gerenciamento central. Na linha de comando, digite o seguinte:
     
@@ -73,14 +73,14 @@ Você pode executar os cmdlets descritos nesta seção localmente ou remotamente
     
 
     > [!NOTE]  
-    > Esta etapa exporta a topologia, as políticas e as configurações de configuração do Lync Server para um arquivo. Nenhuma outra etapa é necessária para fazer o backup dos dados da topologia.
+    > Esta etapa exporta a topologia, as políticas e as definições de configuração do Lync Server para um arquivo. Nenhuma outra etapa é necessária para fazer backup dos dados de topologia.
 
     
     </div>
 
 5.  Copie o arquivo de configuração do repositório de gerenciamento central de backup para\\$backup.
 
-6.  Faça backup dos dados do serviço de informações de localização. Na linha de comando, digite o seguinte:
+6.  Faça o backup dos dados do serviço de Informações de Local. Na linha de comando, digite o seguinte:
     
         Export-CsLisConfiguration -FileName <path and file name for backup>
     
@@ -88,9 +88,9 @@ Você pode executar os cmdlets descritos nesta seção localmente ou remotamente
     
         Export-CsLisConfiguration -FileName "C:\E911Config.zip"
 
-7.  Copie o arquivo de configuração do serviço de informações de localização com backup\\para $backup.
+7.  Copie o arquivo de configuração do serviço de informações de local de backup\\para $backup.
 
-8.  Faça backup dos dados do usuário em todos os bancos de dados back-end de um pool Front-end e em cada servidor Standard Edition. Na linha de comando, digite o seguinte:
+8.  Faça backup dos dados do usuário em cada banco de dados back-end de um pool de front-ends e todos os servidores Standard Edition. Na linha de comando, digite o seguinte:
     
         Export-CsUserData -PoolFQDN <Fqdn> -FileName <String>
     
@@ -98,9 +98,9 @@ Você pode executar os cmdlets descritos nesta seção localmente ou remotamente
     
         Export-CsUserData -PoolFQDN "atl-cs-001.litwareinc.com" -FileName "C:\Logs\ExportedUserData.zip"
 
-9.  Copie o arquivo de usuário com backup para $Backup\\.
+9.  Copie o arquivo de usuário de backup para $Backup\\.
 
-10. Em cada pool que executa o aplicativo de grupo de resposta, faça backup da configuração do grupo de resposta. Do the following:
+10. Em todos os pools que executam o aplicativo grupo de resposta, faça backup da configuração do grupo de resposta. Faça o seguinte:
     
     1.  Na linha de comando, digite:
         

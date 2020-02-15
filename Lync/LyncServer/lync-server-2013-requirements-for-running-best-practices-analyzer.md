@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: requisitos para execução do analisador de práticas recomendadas'
+title: 'Lync Server 2013: requisitos para executar o analisador de práticas recomendadas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183880
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac02b2f6c6f47a59663a414635eebe1d2e4ec851
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1c265e73f94ddfe08b7f72a1d0b4e94958208ff8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723801"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045483"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="requirements-for-running-best-practices-analyzer-in-lync-server-2013"></a>Requisitos para execução do analisador de práticas recomendadas no Lync Server 2013
+# <a name="requirements-for-running-best-practices-analyzer-in-lync-server-2013"></a>Requisitos para executar o analisador de práticas recomendadas no Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41723801"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-19_
+_**Última modificação do tópico:** 2012-09-19_
 
-Você pode usar o Lync Server 2013, o analisador de práticas recomendadas para verificar o ambiente do Lync Server 2013. Você não pode usá-lo para examinar ambientes anteriores, mas você pode usar as versões anteriores da ferramenta para examinar esses ambientes. Para obter detalhes sobre o download e uso das versões do Lync Server 2010 e do Office Communications Server 2007 R2 do analisador de práticas recomendadas, consulte "Lync [http://go.microsoft.com/fwlink/p/?linkId=210536](http://go.microsoft.com/fwlink/p/?linkid=256358) Server 2010, analisador de práticas recomendadas" at e "analisador de práticas recomendadas para o Office communications Server 2007 e o Office Communications Server 2007 R2" em [http://go.microsoft.com/fwlink/p/?linkId=256358](http://go.microsoft.com/fwlink/p/?linkid=210651).
+Você pode usar o Lync Server 2013, o analisador de práticas recomendadas para verificar seu ambiente do Lync Server 2013. Você não pode utilizá-lo para varrer ambientes anteriores, mas pode usar as versões anteriores da ferramenta para varrer tais ambientes. Para obter detalhes sobre como baixar e usar o Lync Server 2010 e o Office Communications Server 2007 R2 versões do Best Practices Analyzer, consulte "Lync Server 2010, [http://go.microsoft.com/fwlink/p/?linkId=210536](http://go.microsoft.com/fwlink/p/?linkid=256358) Best Practices Analyzer" em e "analisador de práticas recomendadas para o Office Communications Server 2007 e o Office Communications Server 2007 R2" em [http://go.microsoft.com/fwlink/p/?linkId=256358](http://go.microsoft.com/fwlink/p/?linkid=210651).
 
-Antes de iniciar a verificação, você deve garantir que todos os componentes em seu ambiente do Lync Server 2013 estejam em execução e online.
+Antes de iniciar sua verificação, verifique se todos os componentes em seu ambiente do Lync Server 2013 estão em execução e online.
 
 <div>
 
 
 > [!NOTE]  
-> Dependendo da configuração dos seus servidores de borda e das configurações de rede de perímetro relacionadas, incluindo configurações de firewall e permissões, o analisador de práticas recomendadas pode não conseguir acessar e examinar seus servidores de borda. Se você incluir servidores de borda na digitalização e os relatórios indicarem que há um problema com o acesso a servidores de borda, talvez você queira remover os servidores de borda das opções de digitalização e executar a digitalização novamente para que os problemas não apareçam no relatório.
+> Dependendo da configuração dos seus Servidores de Borda e quaisquer configurações de rede de perímetro relacionadas, incluindo configurações de firewall e permições, o Analisador de Melhores Práticas pode não estar apto a acessar e varrer seus Servidores de Borda. Se você incluir Servidores de Borda na sua varredura e o relatório indicar que há um problema ao acessá-los, você deverá remover os Servidores de Borda das opções de varredura e varrer novamente para que tais problemas não sejam exibidos no relatório.
 
 
 

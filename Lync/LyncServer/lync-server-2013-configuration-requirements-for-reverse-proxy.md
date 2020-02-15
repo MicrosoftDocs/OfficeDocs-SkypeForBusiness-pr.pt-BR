@@ -12,20 +12,20 @@ ms:contentKeyID: 51541518
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37a2a535ddaa90efa2f4140236b52788fa58e41a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: efa0124bb66974755a7cae0ab799dc66cc48fd1e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741371"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040529"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuration-requirements-for-reverse-proxy-in-lync-server-2013"></a>Requisitos de configuração para o proxy inverso no Lync Server 2013
+# <a name="configuration-requirements-for-reverse-proxy-in-lync-server-2013"></a>Requisitos de configuração para o proxy reverso no Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41741371"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-03-05_
+_**Última modificação do tópico:** 2013-03-05_
 
-O Lync Server 2013 imponha alguns requisitos sobre comunicações do cliente externo que, em seguida, passaram para os serviços Web externos hospedados no director, pool do diretor, servidor front-end ou pool de front-ends. O proxy inverso também é responsável por publicar o servidor do Office Web Apps, se você estiver oferecendo conferências para seus usuários.
+O Lync Server 2013 impõe alguns requisitos em comunicações do cliente externo que são passados para os serviços Web externos hospedados no diretor, pool de diretores, servidor front-end ou pool de front-ends. O proxy reverso também é responsável por publicar o servidor do Office Web Apps, se você estiver oferecendo conferência para seus usuários.
 
 <div>
 
 
 > [!NOTE]  
-> O Lync Server 2013 não especifica um determinado proxy reverso que você deve usar. O Lync Server 2013 define somente requisitos operacionais que o proxy reverso deve ser capaz de fazer. Geralmente, o proxy inverso que você já implantou na sua infraestrutura pode atender aos requisitos.
+> O Lync Server 2013 não especifica um determinado proxy reverso que você deve usar. O Lync Server 2013 só define os requisitos operacionais que o proxy reverso deve ser capaz de fazer. Normalmente, o proxy reverso que você já implantou em sua infraestrutura pode ser capaz de atender aos requisitos.
 
 
 
@@ -53,29 +53,29 @@ O Lync Server 2013 imponha alguns requisitos sobre comunicações do cliente ext
 
 ## <a name="reverse-proxy-requirements"></a>Requisitos de proxy reverso
 
-As operações funcionais que o Lync Server 2013 esperam que um proxy reverso execute:
+As operações funcionais que o Lync Server 2013 esperam que um proxy reverso seja executado são:
 
-  - Use Secure Socket Layer (SSL) e Transport Layer Security (TLS) implementado usando certificados adquiridos de uma autoridade de certificação pública para se conectar aos serviços Web externos publicados do diretor, do pool de director, do servidor front-end ou do pool de front-ends. O diretor e o servidor front-end podem estar em um pool de balanceamento de carga usando balanceadores de carga de hardware.
+  - Use SSL (Secure Socket Layer) e TLS (Transport Layer Security) implementados usando certificados adquiridos de uma autoridade de certificação pública para se conectar aos serviços Web externos publicados do diretor, pool de diretores, servidor front-end ou pool de front-ends. O diretor e o servidor front-end podem estar em um pool com balanceamento de carga usando balanceadores de carga de hardware.
 
-  - Pode publicar sites internos usando certificados para criptografia ou publicá-los por meio de um meio não criptografado, se necessário.
+  - É possível publicar sites internos usando certificados para criptografia ou publicá-los por meio de um meio não criptografado, se necessário.
 
   - Capaz de publicar um site da Web hospedado internamente externamente usando um FQDN (nome de domínio totalmente qualificado).
 
-  - Pode publicar todo o conteúdo do site hospedado. Por padrão, você pode usar a ** / ** diretiva, que é reconhecida pela maioria dos servidores Web, para significar "publicar todo o conteúdo no servidor Web". Você também pode modificar a diretiva — por exemplo, **/Uwca/\***, que significa "publicar todo o conteúdo sob o diretório virtual Ucwa".
+  - Capaz de publicar todo o conteúdo do site hospedado. Por padrão, você pode usar a ** / ** diretiva, que é reconhecida pela maioria dos servidores Web para significar "publicar todo o conteúdo no servidor Web". Você também pode modificar a diretiva — por exemplo, **/Uwca/\***, que significa "publicar todo o conteúdo sob o diretório virtual Ucwa."
 
-  - Deve ser configurável para exigir conexões SSL (Secure Sockets Layer) e/ou Transport Layer Security (TLS) com clientes que solicitam conteúdo de um site publicado.
+  - Deve ser configurável para exigir conexões SSL (Secure Sockets Layer) e/ou TLS (Transport Layer Security) com clientes que solicitam conteúdo de um site publicado.
 
-  - Deve aceitar certificados com entradas de nome alternativo de assunto (SAN).
+  - Deve aceitar certificados com entradas de nome alternativo de entidade (SAN).
 
-  - Deve ser capaz de permitir a associação de um certificado a um ouvinte ou interface por meio do qual o FQDN de serviços Web externos irá resolver. Configurações de ouvinte são preferíveis para interfaces. Muitos ouvintes podem ser configurados em uma única interface.
+  - Deve ser capaz de permitir a associação de um certificado a um ouvinte ou a uma interface por meio da qual o FQDN de serviços Web externos resolverá. As configurações de escuta são preferidas para interfaces. Muitos ouvintes podem ser configurados em uma única interface.
 
-  - Deve permitir a configuração do controle de cabeçalho de host. Geralmente, o cabeçalho original do host enviado pelo cliente solicitante deve ser passado de forma transparente, em vez de ser modificado pelo proxy reverso.
+  - Deve permitir a configuração do controle de cabeçalho de host. Geralmente, o cabeçalho de host original enviado pelo cliente solicitante deve ser passado de forma transparente, em vez de ser modificado pelo proxy reverso.
 
-  - A ponte do tráfego SSL e TLS de uma porta definida externamente (por exemplo, TCP 443) para outra porta definida (por exemplo, TCP 4443). O proxy reverso pode descriptografar o pacote no recebimento e, em seguida, criptografar novamente o pacote no envio.
+  - Ponte de tráfego SSL e TLS de uma porta definida externamente (por exemplo, TCP 443) para outra porta definida (por exemplo, TCP 4443). O proxy reverso pode descriptografar o pacote no recebimento e, em seguida, criptografar novamente o pacote no envio.
 
-  - Conexão de tráfego TCP não criptografado de uma porta (por exemplo, TCP 80) para outro (por exemplo, TCP 8080).
+  - A ponte de tráfego TCP não criptografado de uma porta (por exemplo, TCP 80) para outra (por exemplo, TCP 8080).
 
-  - Permitir a configuração ou aceitar autenticação NTLM, sem autenticação e autenticação de passagem.
+  - Permitir a configuração ou aceitar a autenticação NTLM, sem autenticação e autenticação de passagem.
 
 </div>
 

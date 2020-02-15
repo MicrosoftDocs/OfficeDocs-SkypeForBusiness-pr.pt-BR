@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabela Subnet'
+title: 'Lync Server 2013: tabela de sub-rede'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184544
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d107889b49ec16c51224b075a8fb7f7a7cec1b00
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ff03309ab4c71f2dfda9aac96223cde2cd6e000a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731731"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038673"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="subnet-table-in-lync-server-2013"></a>Tabela Subnet no Lync Server 2013
+# <a name="subnet-table-in-lync-server-2013"></a>Tabela de sub-rede no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41731731"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-02_
+_**Última modificação do tópico:** 2012-10-02_
 
-A tabela de sub-rede é uma tabela de suporte. Cada registro representa uma sub-rede definida na configuração de rede.
+A tabela Subnet é uma tabela de suporte. Cada registro representa uma subrede definida em uma configuração de rede.
 
 
 <table>
@@ -59,11 +59,11 @@ A tabela de sub-rede é uma tabela de suporte. Cada registro representa uma sub-
 <tr class="odd">
 <td><p><strong>SubnetIP</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primário, estrangeiro</p></td>
-<td><p>Representação do inteiro para o IP da sub-rede.</p></td>
+<td><p>Primária, estrangeira</p></td>
+<td><p>Representação de inteiro para o IP da sub-rede.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Máscara_de_Sub-rede</strong></p></td>
+<td><p><strong>Máscara de sub-rede</strong></p></td>
 <td><p>int</p></td>
 <td></td>
 <td><p>Máscara de sub-rede.</p></td>
@@ -71,14 +71,14 @@ A tabela de sub-rede é uma tabela de suporte. Cada registro representa uma sub-
 <tr class="odd">
 <td><p><strong>UserSiteKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>Exterior</p></td>
+<td><p>Estrangeira</p></td>
 <td><p>Referenciado da <a href="lync-server-2013-usersite-table.md">tabela usersite no Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SubnetDescription</strong></p></td>
 <td><p>nvarchar (512)</p></td>
 <td></td>
-<td><p>A descrição da sub-rede.</p></td>
+<td><p>A descrição para a sub-rede.</p></td>
 </tr>
 </tbody>
 </table>

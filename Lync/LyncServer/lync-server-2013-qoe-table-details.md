@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Detalhes da tabela de QoE'
+title: 'Lync Server 2013: detalhes da tabela de QoE'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185775
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 157335ce68713c4c54b7cd69daf1c9ae0676a0b0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 31a1b776aec52f74712b458050e36142b3dc633e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747001"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045773"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41747001"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-02_
+_**Última modificação do tópico:** 2012-10-02_
 
-Essas seções detalham as colunas em cada uma das tabelas de esquema de banco de dados de qualidade da experiência (QoE).
+Estas seções detalham as colunas em cada tabelas de esquema do banco de dados do QoE (Quality of Experience).
 
   - [Tabela AppliedBandwidthSource no Lync Server 2013](lync-server-2013-appliedbandwidthsource-table.md)
 
@@ -53,15 +53,15 @@ Essas seções detalham as colunas em cada uma das tabelas de esquema de banco d
 
   - [Tabela CodecDescription no Lync Server 2013](lync-server-2013-codecdescription-table.md)
 
-  - [Tabela Conference no Lync Server 2013](lync-server-2013-conference-table.md)
+  - [Tabela de conferência no Lync Server 2013](lync-server-2013-conference-table.md)
 
-  - [Tabela Device no Lync Server 2013](lync-server-2013-device-table.md)
+  - [Tabela de dispositivos no Lync Server 2013](lync-server-2013-device-table.md)
 
   - [Tabela DeviceDriver no Lync Server 2013](lync-server-2013-devicedriver-table.md)
 
   - [Tabela Dialog no Lync Server 2013](lync-server-2013-dialog-table.md)
 
-  - [Tabela Endpoint no Lync Server 2013](lync-server-2013-endpoint-table.md)
+  - [Tabela de pontos de extremidade no Lync Server 2013](lync-server-2013-endpoint-table.md)
 
   - [Tabela EndpointSubnet no Lync Server 2013](lync-server-2013-endpointsubnet-table.md)
 
@@ -69,7 +69,7 @@ Essas seções detalham as colunas em cada uma das tabelas de esquema de banco d
 
   - [Tabela MacAddress no Lync Server 2013](lync-server-2013-macaddress-table.md)
 
-  - [Tabela MediaLine no Lync Server 2013](lync-server-2013-medialine-table.md)
+  - [Tabela de mídia no Lync Server 2013](lync-server-2013-medialine-table.md)
 
   - [Tabela MonitoredRegionLink no Lync Server 2013](lync-server-2013-monitoredregionlink-table.md)
 
@@ -79,29 +79,29 @@ Essas seções detalham as colunas em cada uma das tabelas de esquema de banco d
 
   - [Tabela PayloadDescription no Lync Server 2013](lync-server-2013-payloaddescription-table.md)
 
-  - [Tabela Pool no Lync Server 2013](lync-server-2013-pool-table.md)
+  - [Tabela de pool no Lync Server 2013](lync-server-2013-pool-table.md)
 
   - [Tabela PurgeSettings (QoE) no Lync Server 2013](lync-server-2013-purgesettings-table-qoe.md)
 
-  - [Tabela de regiões no Lync Server 2013](lync-server-2013-region-table.md)
+  - [Tabela Region no Lync Server 2013](lync-server-2013-region-table.md)
 
-  - [Tabela Server no Lync Server 2013](lync-server-2013-server-table.md)
+  - [Tabela de servidor no Lync Server 2013](lync-server-2013-server-table.md)
 
-  - [Tabela Session no Lync Server 2013](lync-server-2013-session-table.md)
+  - [Tabela de sessão no Lync Server 2013](lync-server-2013-session-table.md)
 
   - [Tabela SessionCorrelation no Lync Server 2013](lync-server-2013-sessioncorrelation-table.md)
 
-  - [Tabela Subnet no Lync Server 2013](lync-server-2013-subnet-table.md)
+  - [Tabela de sub-rede no Lync Server 2013](lync-server-2013-subnet-table.md)
 
-  - [Tabela TraceRoute no Lync Server 2013](lync-server-2013-traceroute-table.md)
+  - [Tabela de TraceRoute no Lync Server 2013](lync-server-2013-traceroute-table.md)
 
-  - [Tabela User no Lync Server 2013](lync-server-2013-user-table.md)
+  - [Tabela de usuário no Lync Server 2013](lync-server-2013-user-table.md)
 
   - [Tabela UserAgent no Lync Server 2013](lync-server-2013-useragent-table.md)
 
   - [Tabela UserAgentDef (QoE) no Lync Server 2013](lync-server-2013-useragentdef-table-qoe.md)
 
-  - [Tabela UserSite no Lync Server 2013](lync-server-2013-usersite-table.md)
+  - [Tabela usersite no Lync Server 2013](lync-server-2013-usersite-table.md)
 
   - [Tabela VideoClientEvent no Lync Server 2013](lync-server-2013-videoclientevent-table.md)
 

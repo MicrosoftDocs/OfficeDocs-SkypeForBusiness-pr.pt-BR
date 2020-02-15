@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Adicionar um Aplicativo de Filial Persistente ao Active Directory'
+title: 'Lync Server 2013: adicionar um aparelho de filial persistente ao Active Directory'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183938
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8712dcb5b68522a8b770aac63c5a37a1a70a669a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: da38ead0e1d27ef1024d8aac2ea030d2815e6cad
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735061"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037843"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="add-a-survivable-branch-appliance-to-active-directory-in-lync-server-2013"></a>Adicionar um Aplicativo de Filial Persistente ao Active Directory no Lync Server 2013
+# <a name="add-a-survivable-branch-appliance-to-active-directory-in-lync-server-2013"></a>Adicionar um aparelho de filial persistente ao Active Directory no Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41735061"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-23_
+_**Última modificação do tópico:** 2012-09-23_
 
-Se você planeja implantar um aparelho de ramificação sobreviventes, será necessário adicionar o aparelho de ramificação sobreviventes aos serviços de domínio Active Directory. Execute este procedimento no site central.
+Se você planeja implantar um aparelho de filial persistente, você deve adicionar o aparelho de filial persistente aos serviços de domínio do Active Directory. Execute este procedimento no local central.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Execute este procedimento apenas se você estiver implantando um aparelho de ramificação sobreviventes. Não o execute se você estiver implantando um servidor de ramificação sobreviventes.
+> Execute este procedimento somente se você estiver implantando um aparelho de filial persistente. Não o execute se você estiver implantando um servidor de filial persistente.
 
 
 
@@ -51,48 +51,48 @@ Se você planeja implantar um aparelho de ramificação sobreviventes, será nec
 
 <div>
 
-## <a name="to-add-an-survivable-branch-appliance-to-active-directory-domain-services"></a>Para adicionar um aparelho de ramificação sobreviventes aos serviços de domínio do Active Directory
+## <a name="to-add-an-survivable-branch-appliance-to-active-directory-domain-services"></a>Para adicionar um Aparelho de Filial Persistente aos Serviços de Domínio do Active Directory
 
-1.  Faça logon em um servidor membro como membro do grupo Administradores da empresa.
+1.  Faça logon em um servidor membro como um membro do grupo Administração de Empresa.
 
-2.  Clique em **Iniciar**, em **Ferramentas administrativas**e em **usuários e computadores do Active Directory**.
+2.  Clique em **Iniciar**, depois em **Ferramentas Administrativas** e, em seguida, clique em **Usuários e Computadores do Active Directory**.
 
-3.  No menu **ações** , clique em **novo** e, em seguida, clique em **computador**.
+3.  No menu **Ações**, clique em **Novo** e, em seguida, clique em **Computador**.
 
-4.  Na caixa de diálogo **novo objeto-computador** , digite um nome para o objeto de computador de aparelho de ramificação sobreviventes (por exemplo, BranchOffice1) e, em seguida, clique em **alterar**.
+4.  Na caixa de diálogo **novo objeto-computador** , digite um nome para o objeto do computador do aparelho de filial persistente (por exemplo, BranchOffice1) e clique em **alterar**.
 
-5.  Na caixa de diálogo **Selecionar usuário ou grupo** , adicione o grupo RTCUniversalSBATechnicians e clique em **OK**.
+5.  Na caixa de diálogo **Selecionar Usuário ou Grupo**, adicione o grupo RTCUniversalSBATechnicians e clique em **OK**.
     
     <div>
     
 
     > [!NOTE]  
-    > Um membro do grupo RTCUniversalSBATechnicians no site da filial adicionará esse dispositivo ao domínio mais tarde.
+    > Um membro do grupo RTCUniversalSBATechnicians no site da filial adicionará esse dispositivo ao domínio posteriormente.
 
     
     </div>
 
-6.  Clique em **OK** para salvar o objeto de computador de aparelho de ramificação sobreviventes.
+6.  Clique em **OK** para salvar o objeto computador de aparelho de filial persistente.
 
-7.  Clique em **Iniciar**, em **Ferramentas administrativas**e em **ADSI Editar**.
+7.  Clique em **Iniciar**, em **Ferramentas Administrativas** e em **Editor ADSI**.
 
-8.  Em **ADSI Edit**, clique com o botão direito do mouse no objeto de computador que você criou nas etapas anteriores e, em seguida, clique em **Propriedades**.
+8.  No **Editor ADSI**, clique com o botão direito do mouse no objeto de computador que você criou nas etapas anteriores e clique em **Propriedades**.
 
-9.  Na lista atributo **, clique em servicePrincipalName e,** em seguida, clique em **Editar**.
+9.  Na lista de atributos, clique em **servicePrincipalName** e em **Editar**.
 
-10. No campo **valor para adicionar** \<, digite host/SBA FQDN\> em que \<SBA FQDN\> é o nome de domínio totalmente qualificado (FQDN) do seu aparelho de ramificação sobreviventes. Por exemplo, digite **host/BranchOffice1. contoso. com**.
+10. No campo **valor a ser adicionado** ,\<digite FQDN\> de host/SBA \<em que\> SBA FQDN é o nome de domínio totalmente qualificado (FQDN) do seu aparelho de filial persistente. Por exemplo, digite **HOST/BranchOffice1.contoso.com**.
 
-11. Clique em **OK** para salvar a configuração do atributo **servicePrincipalName** e, em seguida, clique em **OK** para salvar as propriedades do objeto do computador.
+11. Clique em **OK** para  salvar a configuração do atributo **servicePrincipalName** e, em seguida, clique em **OK** para salvar as propriedades do objeto de computador.
 
-12. Em **usuários e computadores do Active Directory**, clique com o botão direito do mouse em **usuários**, clique em **novo**e, em seguida, clique em **usuário**.
+12. Em **Usuários e Computadores do Active Directory**, clique com o botão direito do mouse em **Usuários**, clique em **Novo** e em **Usuário**.
 
-13. Insira informações no Assistente para criar uma conta de usuário de domínio para um técnico de appliance de ramificação sobreviventes.
+13. Insira informações no Assistente para criar uma conta de usuário de domínio para um técnico de aparelho de filial persistente.
 
-14. Em **usuários e computadores do Active Directory**, clique em **usuários**, clique com o botão direito do mouse no objeto do usuário e, em seguida, clique em **Adicionar a um grupo**.
+14. Em **Usuários e Computadores do Active Directory**, clique em **Usuários**, clique com o botão direito do mouse no objeto de usuário e clique em **Adicionar a um grupo**.
 
-15. Em **digite os nomes dos objetos a serem selecionados**, digite **RTCUniversalSBATechnicians**e clique em **OK**.
+15. Em **Digite os nomes de objetos a serem selecionados**, digite **RTCUniversalSBATechnicians** e clique em **OK**.
 
-16. Repita as etapas 12-15 para cada técnico de site de filial.
+16. Repita as etapas 12 a 15 para cada técnico do site de filial.
 
 **Próxima etapa**: [adicionar sites de filiais à sua topologia no Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md)
 

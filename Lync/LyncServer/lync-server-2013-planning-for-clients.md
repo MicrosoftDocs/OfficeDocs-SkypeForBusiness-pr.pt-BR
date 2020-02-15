@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: planejando para clientes'
+title: 'Lync Server 2013: planejamento para clientes'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183365
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e10b8e85f6db445acb21beb6e272e2147e89b474
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 73c8c13c4333ea8458d5e8365de03dcace2bcd64
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41754341"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037003"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41754341"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-02-10_
+_**Última modificação do tópico:** 2014-02-10_
 
-Os tópicos desta seção abordam considerações de planejamento para a implantação de clientes do Microsoft Lync Server 2013. Se você estiver implantando uma nova instalação do Lync Server 2013 ou migrando de uma implantação anterior, esses tópicos fornecem informações importantes de planejamento de cliente.
+Os tópicos desta seção discutem considerações de planejamento para a implantação de clientes do Microsoft Lync Server 2013. Independentemente de você estar implantando uma nova instalação do Lync Server 2013 ou migrar de uma implantação anterior, esses tópicos fornecem informações importantes de planejamento do cliente.
 
 <div>
 
@@ -45,15 +45,15 @@ Os tópicos desta seção abordam considerações de planejamento para a implant
 
   - [Clientes para Lync Server 2013](lync-server-2013-clients.md)
 
-  - [Tabelas de comparação dos clientes para o Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md)
+  - [Tabelas de comparação de clientes para o Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md)
 
   - [Requisitos do sistema do cliente para o Lync Server 2013](lync-server-2013-client-system-requirements.md)
 
-  - [Políticas e configurações do cliente no Lync Server 2013](lync-server-2013-client-policies-and-settings.md)
+  - [Políticas e configurações de cliente no Lync Server 2013](lync-server-2013-client-policies-and-settings.md)
 
-  - [Compatibilidade com o Lync 2013](lync-server-2013-lync-2013-compatibility.md)
+  - [Compatibilidade do Lync 2013](lync-server-2013-lync-2013-compatibility.md)
 
-  - [Interoperabilidade do Cliente no Lync 2013](lync-server-2013-client-interoperability-in-lync-2013.md)
+  - [Interoperabilidade do cliente no Lync 2013](lync-server-2013-client-interoperability-in-lync-2013.md)
 
   - [Considerações de migração para reuniões no Lync Server 2013](lync-server-2013-migration-considerations-for-meetings.md)
 

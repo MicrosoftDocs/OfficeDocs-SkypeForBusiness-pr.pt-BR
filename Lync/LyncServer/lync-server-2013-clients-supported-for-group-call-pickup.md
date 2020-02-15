@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: clientes com suporte para retirada de chamadas em grupo'
+title: 'Lync Server 2013: clientes suportados para recebimento de chamadas em grupo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541527
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b924741e6dc733f167368f88faa24e6d56b362e5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 723877737bd358ab4b364191c4e799bcc73eddc8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756445"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044183"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="clients-supported-for-group-call-pickup-in-lync-server-2013"></a>Clientes com suporte para retirada de chamadas em grupo no Lync Server 2013
+# <a name="clients-supported-for-group-call-pickup-in-lync-server-2013"></a>Clientes com suporte para recebimento de chamadas em grupo no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756445"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-12_
+_**Última modificação do tópico:** 2013-02-12_
 
-Qualquer um dos seguintes clientes pode ser usado para atender chamadas para membros de recebimento de chamadas em grupo:
+Qualquer um dos seguintes clientes pode ser usado para atender chamadas para membros de recebimento de chamadas de Grupo:
 
   - Lync 2013
 
@@ -49,23 +49,23 @@ Qualquer um dos seguintes clientes pode ser usado para atender chamadas para mem
 
 
 > [!NOTE]  
-> Os usuários podem usar qualquer um desses clientes para atender chamadas para membros de retirada de chamadas em grupo, mas os usuários devem ser hospedados em um pool do Lync Server 2013 com atualizações cumulativas do Lync Server 2013:2013 de fevereiro.
+> Os usuários podem usar qualquer um desses clientes para atender chamadas para membros de recebimento de chamadas de grupo, mas os usuários devem estar hospedados em um pool do Lync Server 2013 com atualizações cumulativas do Lync Server 2013:2013 de fevereiro.
 
 
 
 </div>
 
-Em atualizações cumulativas do Lync Server 2013:2013 de fevereiro, os seguintes clientes e dispositivos não têm suporte para selecionar chamadas para membros de retirada de chamadas em grupo:
+Em atualizações cumulativas do Lync Server 2013:2013 de fevereiro, não há suporte para os seguintes clientes e dispositivos para selecionar chamadas para membros de recebimento de chamadas de Grupo:
 
   - Lync Mobile
 
-  - Aplicativo do Lync para Windows 8 e Windows RT
+  - Lync app para Windows 8 e Windows RT
 
   - Lync para iPad
 
   - Telefones analógicos
 
-  - Telefones com números de PSTN (Rede Telefônica Pública Comutada)
+  - Telefones com números de rede telefônica pública comutada (PSTN)
 
 </div>
 

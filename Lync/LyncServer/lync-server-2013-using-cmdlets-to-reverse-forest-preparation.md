@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Usando cmdlets para reverter preparação da floresta'
+title: 'Lync Server 2013: usando cmdlets para reverter a preparação da floresta'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b893eb79cb19856572e90bd449b315f0ade803c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0dbc7e4001299ef2d722896518291cc2afff001b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744181"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044333"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-cmdlets-to-reverse-forest-preparation-for-lync-server-2013"></a>Usando cmdlets para reverter preparação da floresta no Lync Server 2013
+# <a name="using-cmdlets-to-reverse-forest-preparation-for-lync-server-2013"></a>Usando cmdlets para reverter a preparação da floresta para o Lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41744181"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-06-19_
+_**Última modificação do tópico:** 2013-06-19_
 
 Use o cmdlet **Disable-CsAdForest** para reverter a etapa de preparação da floresta.
 
@@ -43,7 +43,7 @@ Use o cmdlet **Disable-CsAdForest** para reverter a etapa de preparação da flo
 
 
 > [!WARNING]  
-> Se você executar o cmdlet <STRONG>Disable-CsAdForest</STRONG> em um ambiente em que você também tenha uma versão anterior do Lync Server implantada, as configurações globais para a versão anterior também serão excluídas.
+> Se você executar o cmdlet <STRONG>Disable-CsAdForest</STRONG> em um ambiente onde você também tem uma versão anterior do Lync Server implantada, as configurações globais da versão anterior também serão excluídas.
 
 
 
@@ -53,11 +53,11 @@ Use o cmdlet **Disable-CsAdForest** para reverter a etapa de preparação da flo
 
 ## <a name="to-use-cmdlets-to-reverse-forest-preparation"></a>Para usar cmdlets para reverter a preparação da floresta
 
-1.  Faça logon em um computador que esteja associado a um domínio como membro do grupo Domain admins no domínio raiz da floresta.
+1.  Faça o login em um computador que faz parte de um domínio como membro do grupo Administradores de Domínio no domínio raiz da floresta.
 
-2.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+2.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
-3.  Execute:
+3.  Sejam
     
         Disable-CsAdForest [-Force] [-GroupDomain <FQDN of the domain in which universal groups were created>]
     
@@ -65,9 +65,9 @@ Use o cmdlet **Disable-CsAdForest** para reverter a etapa de preparação da flo
     
         Disable-CsAdForest -Force -GroupDomain contoso.net
     
-    O parâmetro Force especifica se deve forçar a execução da tarefa. Se esse parâmetro não estiver presente, o comando não será executado se mesmo um domínio na floresta ainda estiver preparado para o Lync Server 2013. Se o parâmetro Force for especificado, a ação continuará independentemente do estado de outros domínios na floresta.
+    O parâmetro Force especifica se deve forçar a execução da tarefa. Se esse parâmetro não estiver presente, o comando não será executado se mesmo um domínio da floresta ainda estiver preparado para o Lync Server 2013. Se o parâmetro Force é especificado, a ação continuará independente do estado dos outros domínios na floresta.
     
-    Se você não especificar o parâmetro GroupDomain, o valor padrão será o domínio local.
+    Se você não especificar o parâmetro GroupDomain, o valor padrão é o domínio local.
 
 </div>
 
@@ -76,10 +76,10 @@ Use o cmdlet **Disable-CsAdForest** para reverter a etapa de preparação da flo
 ## <a name="see-also"></a>Confira também
 
 
-[Executando preparação de floresta para Lync Server 2013](lync-server-2013-running-forest-preparation.md)  
+[Executando a preparação da floresta para o Lync Server 2013](lync-server-2013-running-forest-preparation.md)  
 
 
-[Preparando a floresta para Lync Server 2013](lync-server-2013-preparing-the-forest.md)  
+[Preparando a floresta para o Lync Server 2013](lync-server-2013-preparing-the-forest.md)  
   
 
 </div>

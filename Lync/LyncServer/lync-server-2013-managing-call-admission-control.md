@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Gerenciando o controle de admissão de chamadas'
+title: 'Lync Server 2013: Gerenciando controle de admissão de chamadas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733784
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 11cd9e2bb894f5fcb2230d08939d29852fba3fcd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ccb92b69c16f6dd45eedb584f0f63294dcbea4c0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738811"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037129"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41738811"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
-O CAC (serviço de controle de admissão de chamadas) determina, com base na largura de banda da rede disponível, se será permitido estabelecer sessões de comunicação em tempo real, como chamadas de voz ou vídeo. Use os procedimentos a seguir para gerenciar diferentes recursos do CAC para o seu ambiente do Lync Server 2013.
+O CAC (serviço de controle de admissão de chamadas) determina, com base na largura de banda da rede disponível, se será permitido estabelecer sessões de comunicação em tempo real, como chamadas de voz ou vídeo. Use os procedimentos a seguir para gerenciar diferentes recursos do CAC para seu ambiente do Lync Server 2013.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Habilitando o controle de admissão de chamadas no Lync Server 2013](lync-server-2013-enabling-call-admission-control.md)
+  - [Habilitar o controle de admissão de chamadas no Lync Server 2013](lync-server-2013-enabling-call-admission-control.md)
 
   - [Gerenciando perfis de política de largura de banda de rede no Lync Server 2013](lync-server-2013-managing-network-bandwidth-policy-profiles.md)
 

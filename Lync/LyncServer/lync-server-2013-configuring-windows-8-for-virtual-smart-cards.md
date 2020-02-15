@@ -12,20 +12,20 @@ ms:contentKeyID: 54973684
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6298f7aa6a500a71c0b3732dd2f3d180e7192d3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bb8fe9fb9bcca80e7e84f19bdc484dc693b1ee68
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733641"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045743"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-windows-8-for-using-virtual-smart-cards-with-lync-server-2013"></a>Configurar o Windows 8 para usar cartões inteligentes virtuais com o Lync Server 2013
+# <a name="configuring-windows-8-for-using-virtual-smart-cards-with-lync-server-2013"></a>Configurando o Windows 8 para o uso de cartões inteligentes virtuais com o Lync Server 2013
 
 </div>
 
@@ -35,40 +35,40 @@ ms.locfileid: "41733641"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-07-03_
+_**Última modificação do tópico:** 2013-07-03_
 
-Um fator que deve ser levado em consideração na implantação da autenticação de dois fatores e na tecnologia de cartão inteligente é o custo da implementação. O Windows 8 fornece vários recursos de segurança novos, e um dos novos recursos mais interessantes é o suporte para cartões inteligentes virtuais.
+Um fator a ser considerado ao implantar a autenticação de dois fatores e a tecnologia de cartão inteligente é o custo da implementação. O Windows 8 oferece vários recursos de segurança novos e um dos novos recursos mais interessantes é o suporte para cartões inteligentes virtuais.
 
-Para computadores que contam com um chip Trusted Platform Module (TPM) compatível com a especificação da versão 1.2, as organizações podem agora se beneficiar do logon com cartões inteligentes sem fazer mais nenhum investimento em hardware. Para obter mais informações, consulte usando cartões inteligentes virtuais com o Windows [http://go.microsoft.com/fwlink/p/?LinkId=313365](http://go.microsoft.com/fwlink/p/?linkid=313365)8 em.
+Para computadores equipados com um chip TPM (Trusted Platform Module) que atende à versão 1,2 da especificação, as organizações agora podem obter os benefícios do logon do cartão inteligente sem fazer investimentos adicionais em hardware. Para obter mais informações, consulte usando cartões inteligentes virtuais com o Windows [http://go.microsoft.com/fwlink/p/?LinkId=313365](http://go.microsoft.com/fwlink/p/?linkid=313365)8 em.
 
 <div>
 
 ## <a name="to-configure-windows-8-for-virtual-smart-cards"></a>Para configurar o Windows 8 para cartões inteligentes virtuais
 
-1.  Faça logon no computador com o Windows 8 usando as credenciais de um usuário compatível com o Lync.
+1.  Faça logon no computador com o Windows 8 usando as credenciais de um usuário habilitado para Lync.
 
-2.  Na tela Iniciar do Windows 8, mova seu cursor para o canto inferior direito da tela.
+2.  Na tela inicial do Windows 8, mova o cursor para o canto inferior direito da tela.
 
-3.  Selecione a opção **Pesquisar** e pesquise **Command Prompt**.
+3.  Selecione a opção de **pesquisa** e procure o **prompt de comando**.
 
-4.  Clique com o botão direito do mouse em **Prompt de comando** e selecione **Executar como administrador**.
+4.  Clique com o botão direito do mouse em **prompt de comando**e selecione **Executar como administrador**.
 
-5.  Abra o Console de Gerenciamento do Trusted Platform Module (TPM) executando o seguinte comando:
+5.  Abra o console de gerenciamento do Trusted Platform Module (TPM) executando o seguinte comando:
     
         Tpm.msc
 
-6.  No Console de Gerenciamento do TPM, confira se a versão do seu TPM é 1.2 ou superior.
+6.  No console de gerenciamento do TPM, verifique se a versão de especificação do TPM é pelo menos 1,2
     
     <div>
     
 
     > [!NOTE]  
-    > Caso surja uma caixa de diálogo com a mensagem de que não foi possível encontrar o Trust Platform Module (TPM) compatível, verifique se o computador tem um módulo TPM compatível e se ele está habilitado na BIOS do sistema.
+    > Se você receber uma caixa de diálogo informando que um módulo de plataforma de confiança (TPM) compatível não pode ser encontrado, verifique se o computador tem um módulo TPM compatível e se está habilitado no BIOS do sistema.
 
     
     </div>
 
-7.  Feche o Console de Gerenciamento do TPM
+7.  Fechar o console de gerenciamento do TPM
 
 8.  No prompt de comando, crie um novo cartão inteligente virtual usando o seguinte comando:
     
@@ -78,18 +78,18 @@ Para computadores que contam com um chip Trusted Platform Module (TPM) compatív
     
 
     > [!NOTE]  
-    > Para personalizar o valor do PIN ao criar o cartão inteligente virtual, use o prompt /pin.
+    > Para fornecer um valor de PIN personalizado ao criar o cartão inteligente virtual, use o prompt/PIN em vez disso.
 
     
     </div>
 
-9.  No prompt de comando, abre o Console de Gerenciamento do computador executando o seguinte comando:
+9.  No prompt de comando, abra o console de gerenciamento do computador executando o seguinte comando:
     
         CompMgmt.msc
 
-10. No Console de Gerenciamento do computador, selecione **Gerenciamento de Dispositivos**.
+10. No console de gerenciamento do computador, selecione **Gerenciamento de dispositivo**.
 
-11. Expanda **Leitores de cartão inteligente**.
+11. Expanda **leitores de cartões inteligentes**.
 
 12. Verifique se o novo leitor de cartão inteligente virtual foi criado com êxito.
 

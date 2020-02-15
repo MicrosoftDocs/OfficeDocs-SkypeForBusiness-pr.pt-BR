@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurando Estacionamento de Chamadas'
+title: 'Lync Server 2013: Configurando estacionamento de chamadas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185732
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 750ea65da2b5507099f097b31044673c474bfc7c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2932053e8224b751c124c80152c097d9da82e517
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758339"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043883"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-call-park-in-lync-server-2013"></a>Configurando Estacionamento de Chamadas no Lync Server 2013
+# <a name="configuring-call-park-in-lync-server-2013"></a>Configurando o estacionamento de chamadas no Lync Server 2013
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "41758339"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-30_
+_**Última modificação do tópico:** 2012-10-30_
 
-O estacionamento de chamadas permite que um usuário de voz empresarial Coloque uma chamada em espera de um telefone e, em seguida, recupere a chamada mais tarde, discando um número interno (conhecido como um parque de chamadas *órbita*) de qualquer telefone.
+O estacionamento de chamada permite que um usuário do Enterprise Voice Coloque uma chamada em espera de um telefone e, em seguida, recupere a chamada mais tarde discando um número interno (conhecido como *órbita*de estacionamento de chamada) de qualquer telefone.
 
-Os componentes que chamam o parque usa são instalados e habilitados automaticamente no servidor front-end ou no servidor Standard Edition ao implantar o Enterprise Voice. No entanto, você deve configurar o parque da chamada antes de disponibilizá-lo para os usuários.
+Os componentes que usam o estacionamento de chamadas são instalados e habilitados automaticamente no servidor front-end ou no servidor Standard Edition quando você implanta o Enterprise Voice. No entanto, você deve configurar o estacionamento de chamada antes que ele esteja disponível para os usuários.
 
-Esta seção orienta você na configuração do parque de chamadas.
+Esta seção orienta você durante a configuração do estacionamento de chamada.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Pré-requisitos de Estacionamento de Chamadas e direitos de usuário no Lync Server 2013](lync-server-2013-call-park-configuration-prerequisites-and-user-rights.md)
+  - [Pré-requisitos de configuração do estacionamento de chamadas e direitos de usuário no Lync Server 2013](lync-server-2013-call-park-configuration-prerequisites-and-user-rights.md)
 
-  - [Processo de implantação para estacionamento de chamada no Lync Server 2013](lync-server-2013-deployment-process-for-call-park.md)
+  - [Processo de implantação para estacionamento de chamadas no Lync Server 2013](lync-server-2013-deployment-process-for-call-park.md)
 
-  - [Configurar a tabela de órbita de Estacionamento de Chamadas no Lync Server 2013](lync-server-2013-configure-the-call-park-orbit-table.md)
+  - [Configurar a tabela de órbita de estacionamento de chamadas no Lync Server 2013](lync-server-2013-configure-the-call-park-orbit-table.md)
 
-  - [Configurar as definições do estacionamento de chamadas no Lync Server 2013](lync-server-2013-configure-call-park-settings.md)
+  - [Definir configurações de estacionamento de chamadas no Lync Server 2013](lync-server-2013-configure-call-park-settings.md)
 
-  - [Personalizar a chamada de música do parque em espera no Lync Server 2013](lync-server-2013-customize-call-park-music-on-hold.md)
+  - [Personalizar o estacionamento de chamada música em espera no Lync Server 2013](lync-server-2013-customize-call-park-music-on-hold.md)
 
-  - [Habilitar o estacionamento de chamadas para usuários no Lync Server 2013](lync-server-2013-enable-call-park-for-users.md)
+  - [Habilitar estacionamento de chamada para usuários no Lync Server 2013](lync-server-2013-enable-call-park-for-users.md)
 
-  - [Verificar as regras de normalização para o parque de chamadas no Lync Server 2013](lync-server-2013-verify-normalization-rules-for-call-park.md)
+  - [Verificar regras de normalização para estacionamento de chamada no Lync Server 2013](lync-server-2013-verify-normalization-rules-for-call-park.md)
 
-  - [Adicionais Verificar a implantação do estacionamento de chamadas no Lync Server 2013](lync-server-2013-optional-verify-call-park-deployment.md)
+  - [Opcion Verificar a implantação do estacionamento de chamada no Lync Server 2013](lync-server-2013-optional-verify-call-park-deployment.md)
 
 </div>
 
