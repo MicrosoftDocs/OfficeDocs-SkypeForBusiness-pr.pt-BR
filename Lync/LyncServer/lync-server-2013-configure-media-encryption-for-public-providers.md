@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configurar criptografia de mídia para fornecedores públicos'
+title: 'Lync Server 2013: configurar a criptografia de mídia para provedores públicos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185036
 ms.date: 12/13/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d4ab36d19726a6092f978a2ac2a119b248cd0f8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8f1775a845c10797d145c7ee1ad5def3af729f4f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758389"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038243"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-media-encryption-for-public-providers-in-lync-server-2013"></a>Configurar criptografia de mídia para fornecedores públicos no Lync Server 2013
+# <a name="configure-media-encryption-for-public-providers-in-lync-server-2013"></a>Configurar a criptografia de mídia para provedores públicos no Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41758389"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-12-12_
+_**Última modificação do tópico:** 2014-12-12_
 
-Se você estiver implementando a Federação de áudio/vídeo (A/V) com o Windows Live Messenger, há dois parâmetros que você precisa modificar: o nível de criptografia do Lync Server e a política EnablePublicCloudAccess. Por padrão, o nível de criptografia é definido como obrigatório. Você deve alterar essa configuração para com suporte. Se a política EnablePublicCloudAccess estiver definida como false, isso precisará ser definido como **true**. Você pode fazer isso a partir do Shell de gerenciamento do Lync Server.
+Se você estiver implementando A Federação de áudio/vídeo (A/V) com o Windows Live Messenger, há dois parâmetros que precisam ser modificados: o nível de criptografia do Lync Server e a política EnablePublicCloudAccess. Como padrão, o nível de criptografia está definido como Obrigatório. Você deve mudar esse nível para Suportado. Se a política EnablePublicCloudAccess está definida como "false", ela precisa ser alterada para **True**. Você pode fazer isso no Shell de gerenciamento do Lync Server.
 
 <div>
 
-## <a name="configure-federation-for-windows-live"></a>Configurar a Federação para o Windows Live
+## <a name="configure-federation-for-windows-live"></a>Configurar a federação para Windows Live
 
-1.  Inicie o Shell de gerenciamento do Lync Server no servidor front-end: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Inicie o Shell de gerenciamento do Lync Server no servidor front-end: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e em **Shell de gerenciamento do Lync Server**.
 
-2.  No prompt de comando, digite os seguintes comandos:
+2.  No prompt de comando, digite os comandos a seguir:
     
        ```powershell
         Set-CsMediaConfiguration -EncryptionLevel SupportEncryption
@@ -59,7 +59,7 @@ Se você estiver implementando a Federação de áudio/vídeo (A/V) com o Window
     
 
     > [!NOTE]  
-    > Esta etapa é obrigatória porque o Windows Live Messenger não dá suporte à criptografia de áudio/vídeo. O comando define sua política global como uma configuração de criptografia de suporte em vez de exigir criptografia dos dados de áudio/vídeo. Os clientes que dão suporte à criptografia ainda usarão a criptografia, como o Lync 2013.
+    > Esta etapa é obrigatória pois o Windows Live Messenger não suporta criptografia de áudio/vídeo. O comando define sua política global para suportar uma criptografia em vez de exigir criptografia de dados de áudio/vídeo. Os clientes que suportam criptografia ainda usarão criptografia, como o Lync 2013.
 
     
     </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Criando uma topologia de borda e de diretor'
+title: 'Lync Server 2013: criando uma topologia de borda e de diretor'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f8a86d4f80b7fb4fc9990911908ef0c8a317c98
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f5948793090c84a0f28094e4f6ed4e1b425d21fd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741781"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044753"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41741781"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-08_
+_**Última modificação do tópico:** 2012-09-08_
 
 A criação da topologia envolve as seguintes tarefas de planejamento e implantação:
 
-  - **Planejamento**   você precisa definir uma topologia apropriada para sua organização e identificar os componentes necessários para implantá-lo. Estas são as etapas padrão do processo de planejamento. O Microsoft Lync Server 2013, a ferramenta de planejamento fornecida com o Lync Server 2013 torna mais fácil iniciar o processo de planejamento, além de incluir a capacidade de fazer alterações facilmente conforme suas necessidades e planos são finalizados.
+  - **Planejamento**   você precisa definir uma topologia apropriada para sua organização e identificar os componentes necessários para implantá-lo. Estas são as etapas padrão no processo de planejamento. A ferramenta de planejamento do Microsoft Lync Server 2013, fornecida com o Lync Server 2013, facilita o início do processo de planejamento, além de incluir a capacidade de fazer alterações facilmente à medida que seus requisitos e planos são finalizados.
 
-  - **Implantação**   a topologia que você define usando o construtor de topologias é essencial para a implantação de qualquer servidor do Lync Server 2013. Se você não terminar de definir e publicar sua topologia usando o construtor de topologias como parte de seus esforços de planejamento, você deve concluí-lo e publicar a topologia antes de implantar seus servidores de borda.
+  - **Implantação**   a topologia que você define usando o construtor de topologias é essencial para a implantação de qualquer servidor do Lync Server 2013. Se você não terminar de definir e publicar sua topologia usando o construtor de topologias como parte de seus esforços de planejamento, deverá concluí-la e publicar a topologia antes de implantar seus servidores de borda.
 
-Você não pode implantar componentes do servidor de borda até que tenha implantado pelo menos um pool interno e deve instalar o construtor de topologias para implantar um pool interno. Esta seção não aborda a instalação do construtor de topologias porque faz parte do processo de instalação do pool interno.
+Você não pode implantar componentes do servidor de borda até ter implantado pelo menos um pool interno e deve instalar o construtor de topologias para implantar um pool interno. Esta seção não aborda a instalação do construtor de topologias porque faz parte do processo de instalação do pool interno.
 
-Para obter detalhes sobre essas ferramentas, consulte [lista de verificação de implantação para acesso externo de usuários no Lync Server 2013](lync-server-2013-deployment-checklist-for-external-user-access.md).
+Para obter detalhes sobre essas ferramentas, consulte [Deployment Checklist for External User Access in Lync Server 2013](lync-server-2013-deployment-checklist-for-external-user-access.md).
 
 <div>
 
 
 > [!NOTE]  
-> Se você usou anteriormente o construtor de topologias para definir uma topologia completa, incluindo a topologia de borda, poderá ignorar a <A href="lync-server-2013-define-your-edge-topology.md">topologia definir sua borda no Lync server 2013</A> e <A href="lync-server-2013-publish-your-topology.md">publicar sua topologia no Lync Server 2013</A> tarefas nesta seção, mas precisará concluir a tarefa <A href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">exportar sua topologia do Lync Server 2013 e copiá-la para a mídia externa para a instalação do Edge</A> .
+> Se você usou anteriormente o construtor de topologias para definir uma topologia completa, incluindo a topologia de borda, é possível ignorar a <A href="lync-server-2013-define-your-edge-topology.md">sua topologia de definição de borda no Lync server 2013</A> e <A href="lync-server-2013-publish-your-topology.md">publicar sua topologia no Lync Server 2013</A> tarefas nesta seção, mas é necessário concluir a tarefa <A href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">exportar sua topologia do Lync Server 2013 e copiá-la para a mídia externa para instalação de borda</A> .
 
 
 
@@ -63,11 +63,11 @@ Para obter detalhes sobre essas ferramentas, consulte [lista de verificação de
 
   - [Definir sua topologia de borda no Lync Server 2013](lync-server-2013-define-your-edge-topology.md)
 
-  - [Definir topologias opcionais de Diretor em sua topologia no Lync Server 2013](lync-server-2013-define-optional-director-topologies-in-your-topology.md)
+  - [Definir topologias opcionais de diretor em sua topologia para o Lync Server 2013](lync-server-2013-define-optional-director-topologies-in-your-topology.md)
 
   - [Publicar sua topologia no Lync Server 2013](lync-server-2013-publish-your-topology.md)
 
-  - [Exportar sua topologia do Lync Server 2013 e copiá-la na mídia externa para instalação de borda](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)
+  - [Exporte sua topologia do Lync Server 2013 e copie-a para a mídia externa para instalação de borda](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)
 
 </div>
 

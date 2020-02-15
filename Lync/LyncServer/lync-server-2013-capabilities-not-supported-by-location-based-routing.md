@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Recursos não suportados pelo Roteamento Baseado em Local'
+title: 'Lync Server 2013: recursos não suportados pelo roteamento baseado em local'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803982
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 967b5b7388ce60eafd46791c226bf1a3edbe0c2b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 99e28778a8bd299d5ead25220f19b27927a63d44
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743181"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044193"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="capabilities-not-supported-by-location-based-routing-in-lync-server-2013"></a>Recursos não suportados pelo Roteamento Baseado em Local no Lync Server 2013
+# <a name="capabilities-not-supported-by-location-based-routing-in-lync-server-2013"></a>Recursos não suportados pelo roteamento baseado em local no Lync Server 2013
 
 </div>
 
@@ -35,36 +35,36 @@ ms.locfileid: "41743181"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-03-12_
+_**Última modificação do tópico:** 2014-03-12_
 
-O roteamento baseado em localização não se aplica aos seguintes tipos de interações. O roteamento baseado em local não é imposto quando os pontos de extremidade do Lync interagem com pontos de extremidade PSTN usando esses recursos.
+O roteamento baseado em local não se aplica aos seguintes tipos de interações. O roteamento baseado em local não é imposto quando os pontos de extremidade do Lync interagem com pontos de extremidade PSTN usando esses recursos.
 
   - Discagem PSTN para conferências
 
-  - Chamadas PSTN de entrada e saída por meio do grupo de resposta
+  - Chamadas PSTN de entrada e saída por meio de grupo de resposta
 
-  - Estacionamento de chamada ou recuperação de chamadas PSTN por meio do estacionamento de chamada
+  - Estacionamento de chamada ou recuperação de chamadas PSTN por meio de estacionamento de chamada
 
   - Chamadas PSTN de entrada para o serviço de anúncio
 
-  - Chamadas PSTN de entrada recuperadas por meio do recebimento de chamada de grupo
+  - Chamadas PSTN de entrada recuperadas por recebimento de chamadas em grupo
 
-Para impor regras de roteamento baseado em localização aos tipos de interações na lista a seguir, você deve habilitar o roteamento baseado em local para a conferência:
+Para impor regras de roteamento com base em local aos tipos de interações da lista a seguir, você deve habilitar o roteamento baseado em local para conferência:
 
-  - Discagem de saída PSTN de conferências
+  - Discagem PSTN de conferências
 
   - Escalonamentos de conversas de áudio ponto a ponto para conferências envolvendo pontos de extremidade PSTN
 
   - Transferências consultivas envolvendo pontos de extremidade PSTN
 
-Para habilitar o roteamento baseado em local para a conferência, consulte [roteamento baseado em local para conferências no Lync Server 2013](lync-server-2013-location-based-routing-for-conferencing.md).
+Para habilitar o roteamento baseado em local para conferência, confira [roteamento baseado em local para conferência no Lync Server 2013](lync-server-2013-location-based-routing-for-conferencing.md).
 
 <div>
 
 ## <a name="see-also"></a>Confira também
 
 
-[Planejamento de Roteamento Baseado em Local no Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
+[Planejamento de roteamento baseado em local no Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
   
 
 </div>

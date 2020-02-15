@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Failouver e failback do Servidor de Chat Persistente'
+title: 'Lync Server 2013: failover e failback do servidor de chat persistente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185259
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d36196da91cacfc47d0f3117a534567ab76e3946
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 78d17ee4ae73ccfa068275ca1244355253813ae6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765209"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043823"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="failing-over-and-failing-back-persistent-chat-server-in-lync-server-2013"></a>Failouver e failback do Servidor de Chat Persistente no Lync Server 2013
+# <a name="failing-over-and-failing-back-persistent-chat-server-in-lync-server-2013"></a>Failover e failback do servidor de chat persistente no Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41765209"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-08-03_
+_**Última modificação do tópico:** 2012-08-03_
 
-Para fazer failover e failback do Lync Server 2013, servidor de chat persistente, você deve estar familiarizado com os processos de replicação e failover para o Microsoft SQL Server 2008 R2 e posterior. Você também deve estar familiarizado com os serviços persistentes do servidor de chat.
+Para fazer failover e failback do Lync Server 2013, servidor de chat persistente, você deve estar familiarizado com os processos de replicação e failover para o Microsoft SQL Server 2008 R2 e posterior. Você também deve estar familiarizado com os serviços do servidor de chat persistente.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Failover do Servidor de Chat Persistente no Lync Server 2013](lync-server-2013-failing-over-persistent-chat-server.md)
+  - [Failover do servidor de chat persistente no Lync Server 2013](lync-server-2013-failing-over-persistent-chat-server.md)
 
-  - [Fallback do Servidor de Chat Persistente no Lync Server 2013](lync-server-2013-failing-back-persistent-chat-server.md)
+  - [Failback do servidor de chat persistente no Lync Server 2013](lync-server-2013-failing-back-persistent-chat-server.md)
 
 </div>
 

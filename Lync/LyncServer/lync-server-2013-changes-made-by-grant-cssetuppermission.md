@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: alterações feitas pela concessão-CsSetupPermission'
+title: 'Lync Server 2013: alterações feitas por Grant-CsSetupPermission'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185360
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d82b896f1d6d1da1184bfa61d7352c9b4803a03
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 23547ebc7faf594ee3ea72ef7d0c094846ac94b3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742351"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043913"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41742351"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-20_
+_**Última modificação do tópico:** 2012-06-20_
 
-Para delegar a instalação, você pode conceder permissões ao grupo universal RTCUniversalServerAdmins para uma unidade organizacional (OU) específica do Active Directory, permitindo que os membros do grupo RTCUniversalServerAdmins dessa UO instalem o Lync Server 2013 no especificado domínio sem ser membro do grupo Domain admins.
+Para delegar a instalação, você pode conceder permissões ao grupo universal RTCUniversalServerAdmins para uma OU (unidade organizacional) do Active Directory específica, permitindo que os membros do grupo RTCUniversalServerAdmins nesse OU instalem o Lync Server 2013 no domínio sem ser membro do grupo de administradores de domínio.
 
-O cmdlet **Grant-CsSetupPermission** concede as permissões do grupo RTCUniversalServerAdmins em uma UO, conforme especificado na tabela a seguir:
+O cmdlet **Grant-CsSetupPermission** concede permissões do grupo RTCUniversalServerAdmins em um OU, conforme especificado na tabela a seguir:
 
-### <a name="permissions-granted-to-objects-in-the-ou"></a>Permissões concedidas a objetos na OU
+### <a name="permissions-granted-to-objects-in-the-ou"></a>Permissões concedidas para Objetos no OU
 
 <table>
 <colgroup>
@@ -50,8 +50,8 @@ O cmdlet **Grant-CsSetupPermission** concede as permissões do grupo RTCUniversa
 </colgroup>
 <thead>
 <tr class="header">
-<th>As permissões se aplicam a:</th>
-<th>Permissões concedidas são:</th>
+<th>As permissões aplicam-se:</th>
+<th>As permissões concedidas são:</th>
 </tr>
 </thead>
 <tbody>
@@ -59,14 +59,14 @@ O cmdlet **Grant-CsSetupPermission** concede as permissões do grupo RTCUniversa
 <td><p>RTCUniversalServerAdmins</p></td>
 <td><p>Acesso especial:</p>
 <ul>
-<li><p>Leia servicePrincipalName</p></li>
+<li><p>Ler servicePrincipalName</p></li>
 <li><p>Gravar servicePrincipalName</p></li>
 <li><p>Excluir árvore</p></li>
-<li><p>Replicando alterações de diretório</p></li>
+<li><p>Replicando mudanças de diretório</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Objetos serviceConnectionPoint do descendant</p></td>
+<td><p>Objetos do serviceConnectionPoint descendente</p></td>
 <td><p>Acesso especial:</p>
 <ul>
 <li><p>Permissões de leitura</p></li>
@@ -74,8 +74,8 @@ O cmdlet **Grant-CsSetupPermission** concede as permissões do grupo RTCUniversa
 <li><p>Criar filho</p></li>
 <li><p>Excluir filho</p></li>
 <li><p>Conteúdo da lista</p></li>
-<li><p>Propriedade de gravação</p></li>
-<li><p>Propriedade ler</p></li>
+<li><p>Gravar propriedade</p></li>
+<li><p>Ler propriedade</p></li>
 <li><p>Excluir árvore</p></li>
 </ul></td>
 </tr>
@@ -83,26 +83,26 @@ O cmdlet **Grant-CsSetupPermission** concede as permissões do grupo RTCUniversa
 <td><p>Objetos msRTCSIP-Server descendentes</p></td>
 <td><p>Acesso especial:</p>
 <ul>
-<li><p>Propriedade de gravação</p></li>
-<li><p>Propriedade ler</p></li>
+<li><p>Gravar propriedade</p></li>
+<li><p>Ler propriedade</p></li>
 <li><p>Excluir árvore</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Objetos msRTCSIP descendentes-WebComponents</p></td>
+<td><p>Objetos msRTCSIP-WebComponents descendentes</p></td>
 <td><p>Acesso especial:</p>
 <ul>
-<li><p>Propriedade de gravação</p></li>
-<li><p>Propriedade ler</p></li>
+<li><p>Gravar propriedade</p></li>
+<li><p>Ler propriedade</p></li>
 <li><p>Excluir árvore</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Objetos descendentes msRTCSIP-MCU</p></td>
+<td><p>Objetos msRTCSIP-MCU descendentes</p></td>
 <td><p>Acesso especial:</p>
 <ul>
-<li><p>Propriedade de gravação</p></li>
-<li><p>Propriedade ler</p></li>
+<li><p>Gravar propriedade</p></li>
+<li><p>Ler propriedade</p></li>
 <li><p>Excluir árvore</p></li>
 </ul></td>
 </tr>
@@ -110,8 +110,8 @@ O cmdlet **Grant-CsSetupPermission** concede as permissões do grupo RTCUniversa
 <td><p>Objetos msRTCSIP-MediationServer descendentes</p></td>
 <td><p>Acesso especial:</p>
 <ul>
-<li><p>Propriedade de gravação</p></li>
-<li><p>Propriedade ler</p></li>
+<li><p>Gravar propriedade</p></li>
+<li><p>Ler propriedade</p></li>
 <li><p>Excluir árvore</p></li>
 </ul></td>
 </tr>
@@ -119,35 +119,35 @@ O cmdlet **Grant-CsSetupPermission** concede as permissões do grupo RTCUniversa
 <td><p>Objetos msRTCSIP-ApplicationServer descendentes</p></td>
 <td><p>Acesso especial:</p>
 <ul>
-<li><p>Propriedade de gravação</p></li>
-<li><p>Propriedade ler</p></li>
+<li><p>Gravar propriedade</p></li>
+<li><p>Ler propriedade</p></li>
 <li><p>Excluir árvore</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Objetos descendentes msRTCSIP-ConnectionPoint</p></td>
+<td><p>Objetos msRTCSIP-ConnectionPoint descendentes</p></td>
 <td><p>Acesso especial:</p>
 <ul>
-<li><p>Propriedade de gravação</p></li>
-<li><p>Propriedade ler</p></li>
+<li><p>Gravar propriedade</p></li>
+<li><p>Ler propriedade</p></li>
 <li><p>Excluir árvore</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Objetos de computador descendentes</p></td>
+<td><p>Objetos do computador descendentes</p></td>
 <td><p>Acesso especial para serviceConnectionPoint:</p>
 <ul>
-<li><p>Criar objetos filho</p></li>
-<li><p>Excluir objetos filho</p></li>
+<li><p>Criar objetos filhos</p></li>
+<li><p>Excluir objetos filhos</p></li>
 <li><p>Excluir árvore</p></li>
 </ul>
-<p>Acesso especial para informações públicas:</p>
+<p>Acesso especial para informação pública:</p>
 <ul>
-<li><p>Propriedade ler</p></li>
+<li><p>Ler propriedade</p></li>
 </ul>
-<p>Acesso especial para o nome do host DNS:</p>
+<p>Acesso especial para nome de host DNS:</p>
 <ul>
-<li><p>Propriedade ler</p></li>
+<li><p>Ler propriedade</p></li>
 </ul></td>
 </tr>
 </tbody>

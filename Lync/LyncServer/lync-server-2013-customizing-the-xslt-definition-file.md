@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Personalização do arquivo de definição do XSLT'
+title: 'Lync Server 2013: Personalizando o arquivo de definição XSLT'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49557733
 ms.date: 09/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf2ab41ed1d9a57f3a3ad5e55e78f46055fc8e87
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7652e2bd31f27c711724e67f67aac29d33038606
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728701"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041070"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>Personalização do arquivo de definição do XSLT no Lync Server 2013
+# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>Personalizando o arquivo de definição do XSLT no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41728701"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-09-11_
+_**Última modificação do tópico:** 2014-09-11_
 
-O serviço de conformidade registra e arquiva dados relacionados a cada Lync Server 2013, conversa persistente do servidor de chat, incluindo quando um participante:
+O serviço de conformidade registra e arquiva dados relacionados a cada Lync Server 2013, conversa de servidor de chat persistente, incluindo quando um participante:
 
   - Ingressa em uma sala de chat persistente
 
@@ -51,13 +51,13 @@ O serviço de conformidade registra e arquiva dados relacionados a cada Lync Ser
 
   - Baixa um arquivo
 
-Os dados são entregues como XML, que você pode transformar no formato que melhor se adapte à sua organização usando um arquivo de definição XSLT. Este tópico descreve o arquivo XML que o serviço de Conformidade cria. Ele também fornece exemplos de arquivos de saída e definição XSLT.
+Os dados são entregues como XML, que você pode transformar no formato mais adequado para a sua organização, usando um arquivo de definição XSLT. Este tópico descreve o arquivo XML que o serviço de Conformidade cria. Ele também fornece exemplos de arquivos de saída e definição XSLT.
 
 <div>
 
 ## <a name="output-format"></a>Formato de saída
 
-A saída do serviço de conformidade é categorizada por conversa (o elemento de conversa) e, em seguida, por mensagem (o elemento Messages), conforme mostrado no exemplo de código a seguir.
+A saída do serviço de Conformidade é categorizada por conversa (o elemento Conversation) e depois por mensagem (o elemento Messages), conforme mostrado no exemplo de código a seguir.
 
     <?xml version="1.0" encoding="utf-8" ?> 
     <Conversations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -72,14 +72,14 @@ A saída do serviço de conformidade é categorizada por conversa (o elemento de
       </Conversation>
     </Conversations>
 
-Um elemento Conversation contém quatro elementos (Channel, FirstMessage, StartTimeUTC e EndTimeUTC). O elemento Channel contém o Uniform Resource Identifier (URI) da sala de chat, e o elemento FirstMessage descreve a primeira mensagem no elemento Messages. Os elementos StartTimeUTC e EndTimeUTC fornecem as horas de início e de término para a conversa, conforme mostrado no exemplo de código a seguir.
+Um elemento Conversation contém quatro elementos (Channel, FirstMessage, StartTimeUTC e EndTimeUTC). O elemento Channel contém o URI (Uniform Resource Identifier) da sala de chat, e o elemento FirstMessage descreve a primeira mensagem no elemento Messages. Os elementos StartTimeUTC e EndTimeUTC fornecem os horários de início e término da conversa, como mostrado no exemplo de código a seguir.
 
     <<FirstMessage type="JOIN" content="" id="0">
           <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
           <DateTimeUTC since1970="1212610540953" string="2008-06-04T20:15:40.9535482Z" long="633482073409535482" /> 
     </FirstMessage>
 
-Um elemento Message contém dois elementos (Sender e DateTimeUTC) e três atributos (Type, Content e ID). O elemento remetente representa o usuário que envia a mensagem, e o elemento DateTimeUTC representa quando ocorre um evento, conforme mostrado no exemplo de código a seguir.
+Um elemento Message contém dois elementos (Sender e DateTimeUTC) e três atributos (Type, Content e ID). O elemento Sender representa o usuário que envia a mensagem e o elemento DateTimeUTC representa quando ocorre um evento, conforme mostrado no exemplo de código a seguir.
 
     <Message type="JOIN" content="" id="0">
       <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -100,7 +100,7 @@ Os atributos de mensagem Type, Content e ID são descritos na tabela a seguir.
 <tr class="header">
 <th>Atributo</th>
 <th>Descrição</th>
-<th>Opcional/Obrigatório</th>
+<th>Opcional/obrigatório</th>
 </tr>
 </thead>
 <tbody>
@@ -137,12 +137,12 @@ Cada elemento Sender contém cinco atributos: nome de usuário, identificação,
 <tr class="header">
 <th>Atributo</th>
 <th>Descrição</th>
-<th>Opcional/Obrigatório</th>
+<th>Opcional/obrigatório</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Username</p></td>
+<td><p>Nome de usuário</p></td>
 <td><p>O nome do remetente.</p></td>
 <td><p>Opcional</p></td>
 </tr>
@@ -157,7 +157,7 @@ Cada elemento Sender contém cinco atributos: nome de usuário, identificação,
 <td><p>Opcional</p></td>
 </tr>
 <tr class="even">
-<td><p>Interno</p></td>
+<td><p>Interna</p></td>
 <td><p>Determina se o usuário é um usuário interno ou um usuário federado. Se o valor for definido como true, o usuário será interno.</p></td>
 <td><p>Opcional</p></td>
 </tr>
@@ -197,7 +197,7 @@ A tabela a seguir descreve os tipos de mensagem que o elemento Messages pode con
 &lt;/Message</code></pre></td>
 </tr>
 <tr class="even">
-<td><p>Sair</p></td>
+<td><p>Parte</p></td>
 <td><p>Um usuário sai de uma sala de chat.</p></td>
 <td><pre><code>&lt;Message type=&quot;PART&quot; content=&quot;&quot; id=&quot;0&quot;&gt;
   &lt; Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
@@ -242,9 +242,9 @@ A tabela a seguir descreve os tipos de mensagem que o elemento Messages pode con
 
 <div>
 
-## <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>Saída do chat persistente padrão XSD e exemplo de transformação XSL
+## <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>XSD de saída de chat persistente padrão e transformação XSL de exemplo
 
-O exemplo de código a seguir contém a saída padrão do servidor de conformidade.
+O exemplo de código a seguir contém a saída padrão do Servidor de Conformidade.
 
     <?xml version="1.0" encoding="utf-8"?>
     <xs:schema id="Conversations"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
@@ -341,7 +341,7 @@ O exemplo de código a seguir contém a saída padrão do servidor de conformida
       </xs:element>
     </xs:schema>
 
-O exemplo de código a seguir contém uma transformação XSL de amostra.
+O exemplo de código a seguir contém um exemplo de transformação em XSL.
 
     <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs">
        <xsl:output method="xml" encoding="UTF-8" indent="yes" />

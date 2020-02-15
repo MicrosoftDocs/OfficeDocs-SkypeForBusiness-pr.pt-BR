@@ -12,16 +12,16 @@ ms:contentKeyID: 49733561
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: db65da0af7c34d1121e97436af47750186706b68
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4222ad7251c17501b1d9edec8cbdd8bafc015773
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758543"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038523"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41758543"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-18_
+_**Última modificação do tópico:** 2012-10-18_
 
-A exibição VoIPDetails armazena informações sobre sessões ponto a ponto, onde pelo menos um usuário é um usuário de VoIP. Este modo de exibição foi apresentado no Microsoft Lync Server 2013.
+O modo de exibição VoIPDetails armazena informações sobre sessões ponto a ponto, onde no mínimo um usuário é um usuário VoIP. Este modo de exibição foi introduzido no Microsoft Lync Server 2013.
 
 <div>
 
 
 > [!NOTE]  
-> A exibição VoIPDetails contém todas as colunas na <A href="lync-server-2013-sessiondetails-view.md">exibição SessionDetails do Lync Server 2013</A> , além das colunas listadas abaixo.
+> O modo de exibição VoIPDetails contém todas as colunas no <A href="lync-server-2013-sessiondetails-view.md">modo de exibição SessionDetails no Lync Server 2013</A> , além das colunas listadas abaixo.
 
 
 
@@ -72,47 +72,47 @@ A exibição VoIPDetails armazena informações sobre sessões ponto a ponto, on
 <tr class="even">
 <td><p><strong>Por telefone</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>URI do telefone do usuário que ingressou na sessão.</p></td>
+<td><p>URI do telefone do usuário que entrou na sessão.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DisconnectedByUri</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>URL do usuário que desconectou a sessão.</p></td>
+<td><p>URI do usuário que desconectou da sessão.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DisconnectedByUriType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Tipo de URI do usuário que desconectou a sessão. Consulte a <a href="lync-server-2013-uritypes-table.md">tabela UriTypes no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Tipo da URI do usuário que desconectou da sessão. Consulte a <a href="lync-server-2013-uritypes-table.md">tabela UriTypes no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DisconnectedByTenant</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Locatário do usuário que desconectou a sessão.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Locatário do usuário que desconectou da sessão.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DisconnectedByPhone</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>URI do telefone do usuário que desconectou a sessão.</p></td>
+<td><p>URI do telefone do usuário que desconectou da sessão.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FromMediationServer</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Servidor de mediação usado pelo usuário que iniciou a sessão.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Servidor de Mediação usado pelo usuário que iniciou a sessão.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ToMediationServer</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Servidor de mediação usado pelo usuário que ingressou na sessão.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Servidor de Mediação usado pelo usuário que entrou na sessão.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FromGateway</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>O gateway usado pelo usuário que iniciou a sessão.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Gateway usado pelo usuário que iniciou a sessão.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Togateway</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>O gateway usado pelo usuário que ingressou na sessão.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Gateway usado pelo usuário que entrou na sessão.</p></td>
 </tr>
 </tbody>
 </table>

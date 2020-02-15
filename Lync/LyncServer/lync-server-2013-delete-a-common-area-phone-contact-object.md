@@ -12,16 +12,16 @@ ms:contentKeyID: 51803999
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2a3088150c882a5ebca99318f7c85ddbddddc333
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 98702f392020586b546d2db89fe6355923b47f67
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741011"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042963"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,18 +35,18 @@ ms.locfileid: "41741011"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-20_
+_**Última modificação do tópico:** 2013-02-20_
 
-Talvez você queira excluir o objeto de contato associado a um telefone de área comum. Por exemplo, se você remover o telefone de um funcionário de descanso, não será necessário ter um objeto de contato associado a esse telefone. O cmdlet **Remove-CsCommonAreaPhone** fornece uma maneira de você excluir contas de telefone comuns de área. Quando você executa esse cmdlet, o telefone é excluído da lista de telefones celulares comuns retornados por **Get-CsCommonAreaPhone**. Além disso, o objeto de contato associado a esse telefone é excluído dos serviços de domínio Active Directory.
+Você pode querer excluir o objeto de contato associado a um telefone de área comum. Por exemplo, se você remover o telefone de um funcionário de descanso, não será necessário ter um objeto de contato associado a esse telefone. O cmdlet **Remove-CsCommonAreaPhone** fornece uma maneira de excluir contas de telefone de área comum. Quando você executa esse cmdlet, o telefone é excluído da lista de telefones de área comum retornados por **Get-CsCommonAreaPhone**. Além disso, o objeto de contato associado a esse telefone é excluído dos serviços de domínio do Active Directory.
 
-Use **Remove-CsCommonAreaPhone** para remover um telefone de área comum ou todos os celulares comuns que têm um elemento comum, como um nome de exibição ou um país e um código de área. Você pode executar esse cmdlet a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.
-
-<div>
-
+Use **Remove-CsCommonAreaPhone** para remover um telefone de área comum ou todos os telefones de área comum que têm um elemento comum, como um nome de exibição ou código de área e de cidade. Você pode executar esse cmdlet do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
 
 <div>
 
-## <a name="removing-a-specified-common-area-phone"></a>Como remover um telefone de área comum especificado
+
+<div>
+
+## <a name="removing-a-specified-common-area-phone"></a>Removendo um telefone de área comum especificado
 
   - O comando a seguir remove o telefone de área comum com o endereço SIP sip:mainlobby@litwareinc.com:
     
@@ -56,9 +56,9 @@ Use **Remove-CsCommonAreaPhone** para remover um telefone de área comum ou todo
 
 <div>
 
-## <a name="removing-common-area-phones-based-on-their-display-name"></a>Removendo telefones celulares comuns com base em seu nome de exibição
+## <a name="removing-common-area-phones-based-on-their-display-name"></a>Removendo telefones de área comuns com base em seu nome de exibição
 
-  - Esse comando Remove todos os telefones celulares comuns onde o nome de exibição inclui o valor de cadeia de caracteres "Building 14":
+  - Este comando Remove todos os telefones de área comum onde o nome de exibição inclui o valor de cadeia de caracteres "Building 14":
     
         Get-CsCommonAreaPhone | Where-Object {$_.DisplayName -match "Building 14"} | Remove-CsCommonAreaPhone
 
@@ -66,15 +66,15 @@ Use **Remove-CsCommonAreaPhone** para remover um telefone de área comum ou todo
 
 <div>
 
-## <a name="removing-common-area-phones-based-on-their-country-and-area-codes"></a>Removendo telefones celulares comuns com base em seus códigos de país e área
+## <a name="removing-common-area-phones-based-on-their-country-and-area-codes"></a>Removendo telefones de área comum com base em seus códigos de área e país
 
-  - Esse comando Remove todos os telefones fixos de área comuns para os Estados Unidos (código de país 1) e o código de área 425:
+  - Este comando Remove todos os telefones de área comum para os Estados Unidos (código do país 1) e o código de área 425:
     
         Get-CsCommonAreaPhone | Where-Object {$_.LineUri  -match "^tel:\+1425"} | Remove-CsCommonAreaPhone
 
 </div>
 
-Para obter detalhes, consulte o tópico da ajuda para o cmdlet [Remove-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Remove-CsCommonAreaPhone) .
+Para obter detalhes, consulte o tópico de ajuda para o cmdlet [Remove-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Remove-CsCommonAreaPhone) .
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185510
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1fcd6cb462bd64f6fdcdbae93cfb733de0639898
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 164c6e1541869a2976f283443f2fae9246f28007
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731911"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038853"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41731911"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-28_
+_**Última modificação do tópico:** 2012-09-28_
 
-O SIPResponseMetaDataTable contém uma lista de códigos de resposta SIP e a classificação e definição de cada um desses códigos. Esses códigos são gerados em resposta a eventos que afetam dispositivos SIP e sessões de comunicação SIP; por exemplo, o código de resposta 403 é gerado quando um dispositivo SIP faz uma solicitação, mas o servidor recusa para honrar essa solicitação.
+O SIPResponseMetaDataTable contém uma lista de códigos de resposta SIP e a classificação e definição de cada um destes códigos. Estes códigos são gerados em resposta aos eventos que afetam dispositivos SIP e sessões de comunicação SIP. Por exemplo, o código de resposta 403 é gerado quando um dispositivo SIP faz uma solicitação, mas o servidor declina esta solicitação.
 
 Esta tabela foi introduzida no Microsoft Lync Server 2013.
 
@@ -61,7 +61,7 @@ Esta tabela foi introduzida no Microsoft Lync Server 2013.
 <tr class="odd">
 <td><p><strong>ResponseCode</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primária</p></td>
+<td><p>Primário</p></td>
 <td><p>Valor numérico que representa o código de resposta SIP.</p></td>
 </tr>
 <tr class="even">
@@ -70,19 +70,19 @@ Esta tabela foi introduzida no Microsoft Lync Server 2013.
 <td></td>
 <td><p>Classificação geral do código de resposta. As classificações incluem:</p>
 <ul>
-<li><p>1 – respostas informativas</p></li>
-<li><p>2 – respostas bem-sucedidas</p></li>
-<li><p>3 – respostas de redirecionamento</p></li>
-<li><p>4 – respostas de falha do cliente</p></li>
+<li><p>1 – Respostas informacionais</p></li>
+<li><p>2 – Respostas de sucesso</p></li>
+<li><p>3 – Respostas de redirecionamento</p></li>
+<li><p>4 – Respostas de falha do cliente</p></li>
 <li><p>5--respostas de falha do servidor</p></li>
-<li><p>6 – resposta de falha global</p></li>
+<li><p>6 – Resposta de falha global</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Descrição</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td></td>
-<td><p>Descrição do código de resposta SIP. Por exemplo, o código de resposta 181 tem a seguinte descrição:</p>
+<td><p>Descrição do código de resposta SIP. Por exemplo, o código de resposta 181 possui a seguinte descrição:</p>
 <p>A chamada está sendo encaminhada</p></td>
 </tr>
 </tbody>

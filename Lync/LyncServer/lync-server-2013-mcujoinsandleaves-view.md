@@ -12,16 +12,16 @@ ms:contentKeyID: 49733687
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d339df5b3b591cbf67376c36c5e0e4261c390851
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9eae65a6f19e0eb73098ed5990d6881d0129b34e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757735"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045313"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757735"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-01_
+_**Última modificação do tópico:** 2012-10-01_
 
-A exibição McuJoinsAndLeaves armazena informações sobre como os usuários unem e deixam informações para um servidor de conferência. Cada registro nesse modo de exibição contém detalhes da chamada sobre uma combinação de um servidor de ingresso ou de saída e conferência do usuário. Este modo de exibição foi apresentado no Microsoft Lync Server 2013.
+A exibição McuJoinsAndLeaves armazena informações sobre ingresso e saída de usuários de um servidor de conferências. Cada registro nessa exibição inclui os detalhes da chamada sobre uma combinação da entrada ou saída de um usuário e o servidor de conferência. Este modo de exibição foi introduzido no Microsoft Lync Server 2013.
 
 
 <table>
@@ -55,89 +55,89 @@ A exibição McuJoinsAndLeaves armazena informações sobre como os usuários un
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Id_da_sessãotime</strong></p></td>
+<td><p><strong>Identificação_da_sessãotime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Hora da ocorrência da conferência. Usado em conjunto com SessionIdSeq para identificar uma instância de conferência de maneira exclusiva. Consulte a <a href="lync-server-2013-conferences-table.md">tabela conferências no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>Hora da instância da conferência. Usada em conjunto com SessionIdSeq para identificar uma instância da conferência de maneira exclusiva. Consulte a <a href="lync-server-2013-conferences-table.md">tabela conferências no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Número de identificação para identificar a instância de conferência. Usado em conjunto com a Identificação_da_sessãotime para identificar exclusivamente uma instância de conferência. Consulte a <a href="lync-server-2013-conferences-table.md">tabela conferências no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>Número de ID para identificar a instância da conferência. Usada em conjunto com SessionIdTime para identificar uma instância da conferência de maneira exclusiva. Consulte a <a href="lync-server-2013-conferences-table.md">tabela conferências no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>McuUri</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>O URI do servidor de conferência ao qual o usuário se conectou.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>URI do servidor de conferências ao qual o usuário está conectado.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>McuUriType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>O URI do servidor de conferência ao qual o usuário se conectou. Consulte a <a href="lync-server-2013-uritypes-table.md">tabela UriTypes no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>URI do servidor de conferências ao qual o usuário está conectado. Consulte a <a href="lync-server-2013-uritypes-table.md">tabela UriTypes no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserUri</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>O URI do usuário cujas informações de associação/licença do servidor de conferência foram capturadas.</p></td>
+<td><p>URI do usuário cujas informações de ingresso/saída do servidor de conferências foram capturadas.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserUriType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>O tipo de URI do usuário cujas informações de associação/licença do servidor de conferência foram capturadas. Consulte a <a href="lync-server-2013-uritypes-table.md">tabela UriTypes no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Tipo de URI do usuário cujas informações de ingresso/saída do servidor de conferências foram capturadas. Consulte a <a href="lync-server-2013-uritypes-table.md">tabela UriTypes no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Userlocatário</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>O locatário do usuário cujas informações de associação/licença do servidor de conferência foram capturadas. Consulte a <a href="lync-server-2013-tenants-table.md">tabela locatários no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Locatário do usuário cujas informações de ingresso/saída do servidor de conferências foram capturadas. Consulte a <a href="lync-server-2013-tenants-table.md">tabela locatários no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserClientVersion</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>A versão do cliente usada pelo usuário cujas informações de associação/licença do servidor de conferência foram capturadas.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Versão do cliente usado pelo usuário cujas informações de ingresso/saída do servidor de conferências foram capturadas.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Userclienttype</strong></p></td>
 <td><p>int</p></td>
-<td><p>O cliente usado pelo usuário cujas informações de associação/licença do servidor de conferência foram capturadas. Consulte a <a href="lync-server-2013-useragentdef-table.md">tabela UserAgentDef no Lync Server 2013</a> para obter mais detalhes.</p></td>
+<td><p>Cliente usado pelo usuário cujas informações de ingresso/saída do servidor de conferências foram capturadas. Consulte a <a href="lync-server-2013-useragentdef-table.md">tabela UserAgentDef no Lync Server 2013</a> para obter mais detalhes.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserClientCategory</strong></p></td>
 <td><p>nvarchar (64)</p></td>
-<td><p>O nome da categoria do cliente usado pelo usuário cujas informações de associação/licença do servidor de conferência foram capturadas.</p></td>
+<td><p>Nome da categoria do cliente usado pelo usuário cujas informações de ingresso/saída do servidor de conferências foram capturadas.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>McuUserInstance</strong></p></td>
 <td><p>int</p></td>
-<td><p>Identifica exclusivamente a combinação de usuário/dispositivo para usuários conectados simultaneamente a vários dispositivos.</p></td>
+<td><p>Identificador exclusivo da combinação de usuário/dispositivo para usuários que fizeram logon simultâneo em vários dispositivos.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IsUserFromPstn</strong></p></td>
-<td><p>bit</p></td>
-<td><p>Bit que representa se o usuário é um usuário interno ou não.</p></td>
+<td><p>bits</p></td>
+<td><p>Bit que representa se o usuário é interno ou não.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DialogSessionIdTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Tempo de solicitação de sessão. Usado em conjunto com o SessionIdSeq para identificar exclusivamente uma sessão. Consulte a <a href="lync-server-2013-dialogs-table.md">tabela de diálogos no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>Hora da solicitação da sessão. Utilizada em conjunto com o SessionIdSeq para identificar de forma exclusiva uma sessão. Consulte a <a href="lync-server-2013-dialogs-table.md">tabela diálogos no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DialogSessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Número de identificação para identificar a sessão. Usado em conjunto com a Identificação_da_sessãotime para identificar exclusivamente uma sessão. Consulte a <a href="lync-server-2013-dialogs-table.md">tabela de diálogos no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>Número de identificação para identificar a sessão. Utilizado em conjunto com o SessionIdTime para identificar de forma exclusiva uma sessão. Consulte a <a href="lync-server-2013-dialogs-table.md">tabela diálogos no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Caixa de diálogo</strong></p></td>
+<td><p><strong>DialogId</strong></p></td>
 <td><p>varchar (775)</p></td>
-<td><p>ID da caixa de diálogo SIP da sessão. O formato é: caixa de diálogo; de-marca; para-marca.</p></td>
+<td><p>ID de diálogo SIP da sessão. O formato é: diálogo;de-marca;para-marca.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Userjointime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Vez que o usuário ingressou no servidor de conferência.</p></td>
+<td><p>Hora em que o usuário ingressou no servidor de conferências.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Userleavetime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Vez que o usuário saiu do servidor de conferência.</p></td>
+<td><p>Hora em que o usuário saiu do servidor de conferências.</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184373
 ms.date: 06/06/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d224ec7a9c452c45f9f3471403301460a2a31cc8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d0e8fe5aaac47ce98cfae1376e83cdea89a4a1af
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740791"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043333"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-unified-contact-store-in-lync-server-2013"></a>Implantando repositório unificado de contatos no Lync Server 2013
+# <a name="deploying-unified-contact-store-in-lync-server-2013"></a>Implantando o repositório unificado de contatos no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41740791"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2016-06-06_
+_**Última modificação do tópico:** 2016-06-06_
 
-Habilitar o repositório de contatos unificado no Lync Server 2013 não requer nenhuma configuração de topologia. Habilitar o repositório de contatos unificado para usuários requer o seguinte:
+Habilitar o repositório unificado de contatos no Lync Server 2013 não requer nenhuma configuração de topologia. A habilitação do repositório unificado de contatos para os usuários exige o seguinte:
 
   - Que a política do repositório unificado de contatos esteja habilitada (ela é habilitada por padrão).
 
@@ -49,7 +49,7 @@ Após a migração dos contatos de um usuário, o que acontece automaticamente q
 
 
 > [!IMPORTANT]  
-> Se um usuário fizer logon do Lync 2010 após a migração, os contatos e os grupos estarão disponíveis e atualizados, mas o usuário não poderá gerenciar (ou seja, adicionar, excluir, mover, marcar, remover ou modificar) esses contatos.
+> Se um usuário fizer logon do Lync 2010 após a migração, os contatos e grupos estarão disponíveis e atualizados, mas o usuário não poderá gerenciar (ou seja, adicionar, excluir, mover, marcar, desmarcar ou modificar) esses contatos.
 
 
 

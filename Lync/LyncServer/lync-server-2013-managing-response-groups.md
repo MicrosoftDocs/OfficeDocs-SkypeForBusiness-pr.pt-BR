@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: como gerenciar grupos de resposta'
+title: 'Lync Server 2013: Gerenciando grupos de resposta'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184222
 ms.date: 02/01/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 210debb3c3879d6895b127b960139970bf73d020
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 59a9e05c828f78dc3d34321833c634f6bd437503
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756065"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043063"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-response-groups-in-lync-server-2013"></a>Gerenciamento de grupos de resposta no Lync Server 2013
+# <a name="managing-response-groups-in-lync-server-2013"></a>Gerenciando grupos de resposta no Lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41756065"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2018-02-01_
+_**Última modificação do tópico:** 2018-02-01_
 
-Grupos de resposta são um recurso de gerenciamento de chamadas que permite que você enfileirar chamadas feitas a uma área específica, como um suporte técnico e, em seguida, encaminhar as chamadas para um grupo designado de pessoas, chamado *agentes*.
+Grupos de resposta são um recurso de gerenciamento de chamadas que permite enfileirar as chamadas feitas para uma área específica, como Suporte Técnico, e depois encaminhá-las para um grupo designado de pessoas, conhecidas como *agentes*.
 
-Para gerenciar grupos de resposta, você configura grupos de agente, filas e fluxos de trabalho, que definem o que acontece com uma chamada no momento em que ele é colocado até que um agente responda a ele.
+Para gerenciar grupos de resposta, configure os grupos de agentes, as filas e os fluxos de trabalho, que definem o que acontece com uma chamada do momento em que ela é efetuada até o agente atendê-la.
 
 <div>
 
 
 > [!NOTE]  
-> Se você tiver mais de 300 fluxos de trabalho em um único pool em sua implantação de grupo de resposta, é melhor usar cmdlets do Shell de gerenciamento do Lync Server para criar os fluxos de trabalho. Se você usar a ferramenta de configuração de grupo de resposta para criar fluxos de trabalho para um pool que tenha mais de 300 fluxos de trabalho, a página da Web levará muito tempo para ser carregada. O número de agentes que estão indiretamente associados a fluxos de trabalho por meio das filas também tem um efeito proporcional na carga da página.
+> Se você tiver mais de 300 fluxos de trabalho em um único pool em sua implantação de grupo de resposta, é melhor usar os cmdlets do Shell de gerenciamento do Lync Server para criar os fluxos de trabalho. Se você usar a Ferramenta de Configuração do Grupo de Respostas para criar fluxos de trabalho para um pool que possui mais de 300 fluxos de trabalho, a página da Web levará mais tempo para ser carregada. O número de agentes que estão indiretamente associados aos fluxos de trabalho por meio das filas também tem um efeito proporcional no carregamento da página.
 
 
 
@@ -57,13 +57,13 @@ Os tópicos desta seção fornecem procedimentos passo a passo para tarefas que 
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Gerenciamento de grupos de agente de resposta no Lync Server 2013](lync-server-2013-managing-response-group-agent-groups.md)
+  - [Gerenciar grupos de agente de grupo de resposta no Lync Server 2013](lync-server-2013-managing-response-group-agent-groups.md)
 
-  - [Gerenciamento de filas de grupo de resposta no Lync Server 2013](lync-server-2013-managing-response-group-queues.md)
+  - [Gerenciando filas de grupo de resposta no Lync Server 2013](lync-server-2013-managing-response-group-queues.md)
 
-  - [Gerenciamento de fluxos de trabalho de grupo de resposta no Lync Server 2013](lync-server-2013-managing-response-group-workflows.md)
+  - [Gerenciando fluxos de trabalho de grupo de resposta no Lync Server 2013](lync-server-2013-managing-response-group-workflows.md)
 
-  - [Gerenciando configurações de grupo de resposta no nível do aplicativo no Lync Server 2013](lync-server-2013-managing-application-level-response-group-settings.md)
+  - [Gerenciando as configurações do grupo de resposta no nível do aplicativo no Lync Server 2013](lync-server-2013-managing-application-level-response-group-settings.md)
 
   - [Movendo grupos de resposta para um novo pool no Lync Server 2013](lync-server-2013-moving-response-groups-to-a-new-pool.md)
 

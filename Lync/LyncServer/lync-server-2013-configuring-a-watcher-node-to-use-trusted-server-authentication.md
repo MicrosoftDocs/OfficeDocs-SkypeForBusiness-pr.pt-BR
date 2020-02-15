@@ -1,5 +1,5 @@
 ---
-title: Configurando um nó de inspetor para usar a autenticação de servidor confiável
+title: Configurando um nó do inspetor para usar a autenticação de servidor confiável
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184017
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7279e18c73ecca9340f57d40794a3e9eb2dd160b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3ba69980f97e901703f51f71729c661821e70e61
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741221"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037391"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-watcher-node-in-lync-server-2013-to-use-trusted-server-authentication"></a>Configurando um nó de Inspetor no Lync Server 2013 para usar a autenticação de servidor confiável
+# <a name="configuring-a-watcher-node-in-lync-server-2013-to-use-trusted-server-authentication"></a>Configurando um nó do Inspetor no Lync Server 2013 para usar a autenticação de servidor confiável
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41741221"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-22_
+_**Última modificação do tópico:** 2012-10-22_
 
-Se o seu computador do nó do Inspetor estiver dentro da rede de perímetro, o uso da autenticação de servidor confiável pode reduzir significativamente os impostos da administração para manter um único certificado em vez de várias senhas de conta de usuário.
+Caso o seu computador de nó do inspetor estiver dentro da rede de perímetro, utilizar uma autenticação de Servidor Confiável pode reduzir drasticamente as taxas de administração para manter um único certificado em vez de diversas senhas de conta de usuário.
 
-A primeira etapa na configuração da autenticação do servidor confiável é criar um pool de aplicativos confiável para hospedar o computador do nó do Inspetor. Após a criação do pool de aplicativos confiáveis, você deve configurar transações sintéticas nesse nó do inspetor para executar como um aplicativo confiável.
+A primeira etapa na configuração da autenticação de Servidor Confiável é criar um pool de aplicativo confiável para hospedar o computador de nó do inspetor. Depois que o pool de aplicativo confiável tiver sido criado, você deverá então configurar transações sintéticas nos nós do inspetor para executar como um aplicativo confiável.
 
 <div>
 
@@ -51,7 +51,7 @@ A primeira etapa na configuração da autenticação do servidor confiável é c
 
 </div>
 
-Para criar um pool de aplicativos confiável, abra o Shell de gerenciamento do Lync Server 2013 e execute um comando semelhante a este:
+Para criar um pool de aplicativos confiáveis, abra o Shell de gerenciamento do Lync Server 2013 e execute um comando semelhante a este:
 
     New-CsTrustedApplicationPool -Identity atl-watcher-001.litwareinc.com -Registrar atl-cs-001.litwareinc.com -ThrottleAsServer $True -TreatAsAuthenticated $True -OutboundOnly $False -RequiresReplication $True -ComputerFqdn atl-watcher-001.litwareinc.com -Site Redmond
 
@@ -59,21 +59,21 @@ Para criar um pool de aplicativos confiável, abra o Shell de gerenciamento do L
 
 
 > [!NOTE]
-> Para obter detalhes sobre os parâmetros usados no comando anterior, digite o seguinte no prompt do Shell de gerenciamento do Lync Server:<BR>Get-Help New-CsTrustedApplicationPool-Full | Saiba
+> Para obter detalhes sobre os parâmetros usados no comando anterior, digite o seguinte no prompt do Shell de gerenciamento do Lync Server:<BR>Get-Help New-CsTrustedApplicationPool -Full | more
 
 
 
 </div>
 
-Depois de criar o pool de aplicativos confiável, configure o computador do nó do inspetor para executar transações sintéticas como um aplicativo confiável. Isso é feito usando-se o cmdlet **New-CsTrustedApplication** e um comando semelhante a este:
+Após criar o pool de aplicativo confiável, configure o computador de nó do inspetor para executar transações sintéticas como aplicativo confiável. Isso é feito utilizando o cmdlet **New-CsTrustedApplication** e um comando similar a este:
 
     New-CsTrustedApplication -ApplicationId STWatcherNode -TrustedApplicationPoolFqdn atl-watcher-001.litwareinc.com -Port 5061
 
-Quando o comando anterior for concluído e o aplicativo confiável tiver sido criado, execute Enable-CsTopology para garantir que as alterações entrem em vigor:
+Quando o comando estiver concluído e o aplicativo confiável for criado, execute Enable-CsTopology para certificar-se de que as alterações tenham efeito:
 
     Enable-CsTopology
 
-Depois de executar o Enable-CsTopology, recomendamos reiniciar o computador.
+Após executar o Enable-CsTopology, recomendamos que você reinicie o computador.
 
 Para verificar se o novo aplicativo confiável foi criado, digite o seguinte no prompt do Shell de gerenciamento do Lync Server:
 
@@ -81,7 +81,7 @@ Para verificar se o novo aplicativo confiável foi criado, digite o seguinte no 
 
 <div>
 
-## <a name="configuring-a-default-certificate-on-the-watcher-node"></a>Configurando um certificado padrão no nó Inspetor
+## <a name="configuring-a-default-certificate-on-the-watcher-node"></a>Configurando um certificado padrão no nó do inspetor
 
 Cada nó do Inspetor deve ter um certificado padrão atribuído usando o assistente de implantação do Lync Server.
 
@@ -89,36 +89,36 @@ Cada nó do Inspetor deve ter um certificado padrão atribuído usando o assiste
 
 1.  Clique em **Iniciar**, em **todos os programas**, em **Lync Server**e em **Assistente de implantação do Lync Server**.
 
-2.  No assistente de implantação do Lync Server, clique em **instalar ou atualizar o sistema do Lync Server** e, em seguida, clique em **executar** sob a solicitação de título **, instalar ou atribuir certificado**.
+2.  No assistente de implantação do Lync Server, clique em **instalar ou atualizar o sistema do Lync Server** e clique em **executar** no cabeçalho **solicitar, instalar ou atribuir certificado**.
     
     <div>
     
 
     > [!NOTE]
-    > Se o botão <STRONG>executar</STRONG> estiver desabilitado, talvez seja necessário clicar primeiro em <STRONG>executar</STRONG> em <STRONG>instalar repositório de configuração local</STRONG>.
+    > Caso o botão <STRONG>Executar</STRONG> esteja inativo, talvez você precise clicar primeiro em <STRONG>Executar</STRONG>, sob <STRONG>Instalar Repositório de Configuração Local</STRONG>.
 
     
     </div>
 
-3.  Siga um destes procedimentos:
+3.  Faça um dos seguintes:
     
-      - Se você já tiver um certificado que pode ser usado como o certificado padrão, clique em **padrão** no assistente de certificado e clique em **atribuir**. Siga as etapas no assistente de Atribuição de Certificado para atribuí-lo.
+      - Se você já tiver um certificado que possa ser utilizado como certificado padrão, clique em **Padrão** no assistente de Certificado e, então, clique em **Atribuir**. Siga as etapas no assistente de Atribuição de Certificado para atribuí-lo.
     
-      - Se você precisar solicitar um certificado para usar o certificado padrão, clique em **solicitar** e siga as etapas no Assistente para solicitação de certificados para solicitar esse certificado. Se você utilizar valores padrão para o certificado de Servidor da Web, você terá um certificado que pode ser atribuído como certificado padrão.
+      - Se você precisar solicitar um certificado para utilizar o certificado padrão, clique em **Solicitar** e, então, siga as etapas no assistente de Solicitação de Certificado. Se você utilizar valores padrão para o certificado de Servidor da Web, você terá um certificado que pode ser atribuído como certificado padrão.
 
 </div>
 
 <div>
 
-## <a name="installing-and-configuring-a-watcher-node"></a>Instalando e configurando um nó de Inspetor
+## <a name="installing-and-configuring-a-watcher-node"></a>Instalando e configurando um nó de inspetor
 
-Depois de reiniciar o computador do nó do Inspetor e configurar um certificado, você precisará executar o arquivo Watchernode. msi. (Você deve executar o Watchernode. msi em um computador onde os arquivos de agente do Operations Manager e os componentes principais do Lync Server 2013 estejam instalados.)
+Depois de ter reiniciado o computador de nó do inspetor e configurado o certificado, você precisará executar o arquivo Watchernode.msi. (Você deve executar o Watchernode. msi em um computador onde os arquivos do agente do Operations Manager e os componentes principais do Lync Server 2013 estão instalados.)
 
-**Para instalar e configurar um nó de Inspetor**
+**Para instalar e configurar um nó de inspetor**
 
-1.  Para abrir o Shell de gerenciamento do Lync Server, clique em **Iniciar**, em **todos os programas**, em **Lync Server**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+1.  Abra o Shell de gerenciamento do Lync Server clicando em **Iniciar**, em **todos os programas**, em **Lync Server**e em **Shell de gerenciamento do Lync Server**.
 
-2.  No Shell de gerenciamento do Lync Server, digite o seguinte comando e pressione ENTER (especificar o caminho real para a sua cópia do Watchernode. msi):
+2.  No Shell de gerenciamento do Lync Server, digite o seguinte comando e pressione ENTER (especifique o caminho real para a sua cópia do Watchernode. msi):
     
         C:\Tools\Watchernode.msi Authentication=TrustedServer
     
@@ -126,16 +126,16 @@ Depois de reiniciar o computador do nó do Inspetor e configurar um certificado,
     
 
     > [!NOTE]
-    > Você também pode executar o Watchernode. msi a partir de uma janela de comando. Para abrir uma janela de comando, clique em <STRONG>Iniciar</STRONG>, clique com o botão direito do mouse em <STRONG>Prompt de Comando</STRONG> e clique em <STRONG>Executar como administrador</STRONG>. Quando a janela de comando abrir, digite o mesmo comando anterior.
+    > Você também pode executar o Watchernode.msi de uma janela de comando. Para abrir uma janela de comando, clique em <STRONG>Iniciar</STRONG>, clique com o botão direito do mouse em <STRONG>Prompt de comando</STRONG> e, então, em <STRONG>Executar como administrador</STRONG>. Quando a janela de comando abrir, digite o mesmo comando anterior.
 
     
     </div>
 
-Observe que o par nome/valor no comando anterior Authentication = TrustedServer diferencia maiúsculas de minúsculas. Você deve digitá-lo exatamente como mostrado. O comando a seguir falha porque não usa a capitalização de letras correta:
+Observe que o par de valor/nome no comando anterior Authentication=TrustedServer diferencia maiúscula de minúscula. Você deve digitar exatamente como mostrado. O comando a seguir falha porque não utiliza a formatação correta:
 
 C:\\ferramentas\\Watchernode. msi Authentication = trustedserver
 
-Você pode usar o modo TrustedServer somente com computadores localizados na rede de perímetro. Quando um nó do inspetor está em execução no modo TrustedServer, os administradores não precisam manter as senhas dos usuários do teste no computador.
+Você pode utilizar o modo TrustedServer apenas com computadores que estão localizados na rede do perímetro. Quando um nó de inspetor está executando no modo TrustedServer, os administradores não precisam manter senhas de usuário de teste no computador.
 
 </div>
 

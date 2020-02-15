@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Configuração do Roteamento Baseado em Local para conferência'
+title: 'Lync Server 2013: configuração do roteamento baseado em local para conferência'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 56335088
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d9ea90f30dcd9ec9fdde2e6f4db25e7d27ad12cd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a959addbcd98e04d336ba380676399dbff2f586b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756365"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040780"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuration-of-location-based-routing-for-conferencing-in-lync-server-2013"></a>Configuração do Roteamento Baseado em Local para conferência no Lync Server 2013
+# <a name="configuration-of-location-based-routing-for-conferencing-in-lync-server-2013"></a>Configuração do roteamento baseado em local para conferência no Lync Server 2013
 
 </div>
 
@@ -35,53 +35,53 @@ ms.locfileid: "41756365"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-09-11_
+_**Última modificação do tópico:** 2013-09-11_
 
-O aplicativo de conferência de roteamento baseado em localização depende da configuração do roteamento baseado em localização do Lync Server 2013. Estas são as principais configurações:
+O aplicativo de conferência de roteamento baseado em local depende da configuração do roteamento baseado em local do Lync Server 2013. As principais configurações são as seguintes:
 
-  - O local dos participantes que ingressam em uma reunião é determinado com base em seus locais de rede. Um site de rede e suas sub-redes de rede associadas devem ser definidos no Lync Server para impor o roteamento baseado em localização.
+  - O local dos participantes que ingressam em uma reunião é determinado com base no seu site de rede. Um site de rede e suas sub-redes de rede associadas devem ser definidos no Lync Server para impor o roteamento baseado em local.
 
-  - Para impor o roteamento baseado em localização de reuniões, os participantes do Lync devem estar habilitados para roteamento baseado em local.
+  - Para impor o roteamento baseado em local de reuniões, os participantes do Lync devem estar habilitados para roteamento baseado em local.
 
-  - Para impor o roteamento baseado em localização de pontos de extremidade PSTN ingressando em reuniões, o tronco SIP usado para conexão dos pontos de extremidade PSTN devem ser configurados para roteamento baseado em local.
+  - Para impor o roteamento baseado em local de pontos de extremidade PSTN que participam de reuniões, o tronco SIP usado para conectar os pontos de extremidade PSTN deve ser configurado para roteamento baseado em local.
 
-Para obter informações adicionais sobre como implantar e configurar o roteamento baseado em localização do Lync Server 2013, consulte Configurando o [roteamento baseado em local](lync-server-2013-configuring-location-based-routing.md).
+Para obter informações adicionais sobre como implantar e configurar o roteamento baseado em local do Lync Server 2013, consulte Configurando o [roteamento baseado em local](lync-server-2013-configuring-location-based-routing.md).
 
 <div>
 
-## <a name="enabling-the-location-based-routing-conferencing-application"></a>Habilitando o aplicativo de conferência de roteamento baseado em localização
+## <a name="enabling-the-location-based-routing-conferencing-application"></a>Habilitando o aplicativo de conferência de roteamento baseado em local
 
-O aplicativo de conferência de roteamento baseado em localização é desabilitado por padrão. Antes de habilitá-lo, determine a prioridade certa para atribuir a ele. Para determinar essa prioridade, execute o seguinte cmdlet no Shell de gerenciamento do Lync Server:
+O aplicativo de conferência de roteamento baseado em local está desabilitado por padrão. Antes de habilitar esse aplicativo, você precisa determinar a prioridade correta a ser atribuída ao aplicativo. Para determinar essa prioridade, execute o seguinte cmdlet no Shell de gerenciamento do Lync Server:
 
-Get-CsServerApplication-serviço de identidade: registrador:\<FQDN de pool\>
+Get-CsServerApplication-Identity Service: registrar:\<FQDN do pool\>
 
-Nesse cmdlet, \<o FQDN\> do pool é o pool no qual o aplicativo de conferência de roteamento baseado em localização deve ser habilitado.
+Neste cmdlet, \<o FQDN\> do pool é o pool no qual o aplicativo de conferência de roteamento baseado em local deve ser habilitado.
 
-Esse cmdlet retornará a lista dos aplicativos hospedados pelo Lync Server e o valor de prioridade para cada um deles. O aplicativo de conferência de roteamento baseado em localização precisa ser atribuído um valor de prioridade maior do que o aplicativo "UdcAgent" e menor do que os aplicativos "defaultrouting", "ExumRouting" e "OutboundRouting". Recomendamos que você atribua o aplicativo de conferência de roteamento baseado em localização um valor de prioridade que seja um ponto maior do que o valor de prioridade do aplicativo "UdcAgent".
+Este cmdlet retornará a lista de aplicativos hospedados pelo Lync Server e o valor de prioridade para cada um deles. O aplicativo de conferência de roteamento baseado em local precisa ser atribuído a um valor de prioridade maior do que o aplicativo "UdcAgent" e menor do que os aplicativos "defaultrouting", "ExumRouting" e "OutboundRouting". Recomendamos que você atribua o aplicativo de conferência de roteamento baseado em local um valor de prioridade que seja um ponto maior do que o valor de prioridade do aplicativo "UdcAgent".
 
-Por exemplo, se o aplicativo "UdcAgent" tem um valor de prioridade "2", o aplicativo "defaultrouting" tem um valor de prioridade de "8", o aplicativo "ExumRouting" tem um valor de prioridade de "9" e o aplicativo "OutboundRouting" tem um valor de prioridade de "10" e, em seguida, Você deve atribuir o aplicativo de conferência de roteamento baseado em localização um valor de prioridade de "3". Isso colocaria a prioridade dos aplicativos na seguinte ordem: outros aplicativos (prioridades: de 0 a 1), "UdcAgent" (prioridade: 2), aplicativo de conferência de roteamento baseado em local (prioridade: 3), outros aplicativos (prioridades: 4 a 8), " Defaultrouting "(prioridade: 9)," ExumRouting "(prioridade: 10) e" OutboundRouting "(prioridade: 11).
+Por exemplo, se o aplicativo "UdcAgent" tiver um valor de prioridade "2", o aplicativo "defaultrouting" tem um valor de prioridade "8", o aplicativo "ExumRouting" tem um valor de prioridade "9" e o aplicativo "OutboundRouting" tem um valor de prioridade "10" e, em seguida, Você deve atribuir o aplicativo de conferência de roteamento baseado em local com um valor de prioridade "3". Isso colocaria a prioridade dos aplicativos na seguinte ordem: outros aplicativos (prioridades: 0 a 1), "UdcAgent" (prioridade: 2), aplicativo de conferência de roteamento baseado em local (prioridade: 3), outros aplicativos (prioridades: 4 a 8), " Defaultrouting "(prioridade: 9)," ExumRouting "(prioridade: 10) e" OutboundRouting "(prioridade: 11).
 
-Depois de encontrar o valor de prioridade correto para o aplicativo de videoconferência baseado em localização, digite o cmdlet a seguir para cada pool Front-end ou servidor Standard Edition que os usuários habilitaram para o roteamento baseado em localização:
+Depois de encontrar o valor de prioridade correto para o aplicativo de conferência de roteamento baseado em local, digite o cmdlet a seguir para cada pool de front-end ou servidor Standard Edition que hospeda os usuários habilitados para roteamento baseado em local:
 
-Novo-CsServerApplication-serviço de identidade: registrador\<:\>pool FQDN/LBRouting \<-Priority\> Application Priority-Enabled $true-Critical $true-URIhttp://www.microsoft.com/LCS/LBRouting
+New-CsServerApplication-Identity Service: registrar:\<pool FQDN\>/LBRouting-priority \<Application Priority\> Enabled $true-Critical $true-URIhttp://www.microsoft.com/LCS/LBRouting
 
 Por exemplo:
 
-New-CsServerApplication-Identity Service:Registrar:LS2013CU2LBRPool. contoso. com/LBRouting-Priority 3-Enabled $true-Critical $true-URIhttp://www.microsoft.com/LCS/LBRouting
+New-CsServerApplication-Identity Service:Registrar:LS2013CU2LBRPool. contoso. com/LBRouting-Priority 3 Enabled $true-Critical $true-URIhttp://www.microsoft.com/LCS/LBRouting
 
-Depois de usar esse cmdlet, reinicie todos os servidores front-end no pool ou os servidores Standard Edition nos quais o aplicativo de conferência de roteamento baseado em localização esteja habilitado.
+Após usar esse cmdlet, reinicie todos os servidores front-end no pool ou os servidores Standard Edition onde o aplicativo de conferência de roteamento baseado na localização tenha sido habilitado.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Os roteamentos baseados em local para conferências ou transferências de consultoria não serão impostos até que todos os servidores de front-end nos pools aplicáveis ou servidores padrão da edição sejam reiniciados.
+> Os enforces de roteamento baseado em local para conferências ou transferências de consultoria não serão impostos até que todos os servidores front-end nos pools aplicáveis ou servidores Standard Edition sejam reiniciados.
 
 
 
 </div>
 
-Depois que o aplicativo de conferência de roteamento baseado em local tiver sido habilitado com êxito e todos os servidores do Lync aplicáveis forem reiniciados, todas as conferências organizadas pelos usuários do Lync habilitados para roteamento baseado em local serão monitoradas para impedir o bypass de chamada PSTN
+Depois que o aplicativo de conferência de roteamento baseado no local tiver sido habilitado com êxito e todos os servidores do Lync aplicáveis forem reiniciados, todas as conferências organizadas por usuários do Lync habilitados para roteamento baseado em local serão monitoradas para evitar o bypass de PSTN
 
 </div>
 

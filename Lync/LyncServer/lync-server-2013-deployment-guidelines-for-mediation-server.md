@@ -12,16 +12,16 @@ ms:contentKeyID: 48184606
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c91ea4368d96e6a558a25eda86d163e4ced4cb8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0404590ab5b3208de989093df7ede55a3aee2f54
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762669"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038223"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,61 +35,61 @@ ms.locfileid: "41762669"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-12_
+_**Última modificação do tópico:** 2012-10-12_
 
-Este tópico descreve diretrizes de planejamento para a implantação do servidor de mediação. Depois de revisar essas diretrizes, recomendamos que você use a ferramenta de planejamento para criar e exibir possíveis topologias alternativas, que podem servir como modelos para o que a topologia personalizada final que você decidir implantar seria parecida com a aparência desejada.
+Este tópico descreve diretrizes de planejamento para a implantação do servidor de mediação. Depois de analisar essas diretrizes, recomendamos que você use a ferramenta de planejamento para criar e exibir possíveis topologias alternativas, que podem servir como modelos para o que a topologia personalizada final que você decidir implantar seria semelhante.
 
 <div>
 
 ## <a name="collocated-or-stand-alone-mediation-server"></a>Servidor de mediação autônomo ou posicionado?
 
-O servidor de mediação é posicionado por padrão no servidor Standard Edition ou no servidor front-end em um pool de front-ends em sites centrais. O número de chamadas PSTN (Rede Telefônica Pública Comutada) que podem ser tratadas e o número de máquinas necessárias no pool dependerá do seguinte:
+O Servidor de mediação é colocado por padrão no servidor Standard Edition ou no servidor Front-End em um pool de Front-End em locais centrais. O número de chamadas de rede telefônica pública comutada (PSTN) que podem ser tratadas e o número de máquinas necessárias no pool dependerá do seguinte:
 
   - O número de pares de gateway que o pool do servidor de mediação controla
 
-  - Dos períodos de alto volume de tráfego por meio desses gateways
+  - Os períodos de tráfego de alto volume por meio desses gateways
 
   - A porcentagem de chamadas que são chamadas cuja mídia ignora o servidor de mediação
 
-Durante o planejamento, considere os requisitos de processamento de mídia das chamadas PSTN e das conferências A/V não configuradas para bypass de mídia, além do processamento necessário para lidar com as interações de sinalização em relação ao número de chamadas em horário de pico que precisam de suporte. Se não houver CPU suficiente, você deve implantar um pool autônomo de servidores de mediação; e os gateways PSTN, PBXs IP e SBCs precisarão ser divididos em subconjuntos controlados pelos servidores de mediação posicionados em um pool e os servidores de mediação autônomos em um ou mais pools autônomos.
+Ao planejar, certifique-se de considerar os requisitos de processamento de mídia para chamadas PSTN e conferências A/V que não estão configuradas para bypass de mídia, bem como o processamento necessário para lidar com as interações de sinalização para o número de chamadas em tempo de ocupação que precisam ser suportadas. Se não houver CPU suficiente, você deverá implantar um pool autônomo de servidores de mediação; e os gateways PSTN, IP-PBXs e SBCs precisarão ser divididos em subconjuntos controlados pelos servidores de mediação colocados em um pool e os servidores de mediação autônomos em um ou mais pools autônomos.
 
-Se você implantou gateways PSTN, PBXs de IP ou controladores de borda de sessão (SBCs) que não são compatíveis com os recursos corretos para interagir com um pool de servidores de mediação, incluindo o seguinte, eles precisarão estar associados a um pool autônomo que consiste em de um servidor de mediação único:
+Se você implantou gateways PSTN, IP-PBXs ou controladores de borda de sessão (SBCs) que não dão suporte aos recursos corretos para interagir com um pool de servidores de mediação, incluindo o seguinte, eles precisarão ser associados a um pool autônomo que consiste em de um único servidor de mediação:
 
-  - Executar o balanceamento de carga de DNS (sistema de nomes de domínio) de camada de rede em servidores de mediação em um pool (ou de outra forma rotear uniformemente para todos os servidores de mediação em um pool)
+  - Executar o balanceamento de carga do DNS (sistema de nomes de domínio) da camada de rede nos servidores de mediação em um pool (ou, caso contrário, rotear o tráfego uniformemente para todos os servidores de mediação
 
-  - Aceitar o tráfego de qualquer servidor de mediação em um pool
+  - Aceitar tráfego de qualquer servidor de mediação em um pool
 
-Você pode usar o Microsoft Lync Server 2013, ferramenta de planejamento para avaliar se colocar o servidor de mediação no seu pool de front-end pode manipular a carga. Se o seu ambiente não puder atender a esses requisitos, você deve implantar um pool autônomo do servidor de mediação.
+Você pode usar a ferramenta de planejamento do Microsoft Lync Server 2013 para avaliar se a colocação do servidor de mediação com seu pool de front-ends pode lidar com a carga. Se o seu ambiente não pode cumprir estes requisitos, você deve implantar um pool do Servidor de Mediação autônomo.
 
 </div>
 
 <div>
 
-## <a name="central-site-and-branch-site-considerations"></a>Considerações sobre o local central e o local da filial
+## <a name="central-site-and-branch-site-considerations"></a>Considerações sobre o site central e site de filial
 
-Os servidores de mediação no site central podem ser usados para direcionar chamadas para IP-PBXs ou gateways PSTN em sites de filiais. No entanto, se você implantar troncos SIP, deve implantar um servidor de mediação no site em que cada tronco termina. Ter um servidor de mediação no site central chamadas de rota para um IP-PBX ou um gateway PSTN em um site de filial não requer o uso do bypass de mídia. No entanto, se você puder habilitar o bypass de mídia, isso reduzirá a latência do caminho de mídia e, consequentemente, resultará em uma qualidade de mídia aprimorada porque o caminho da mídia não é mais necessário para acompanhar o caminho de sinalização. O bypass de mídia também diminuirá a carga de processamento no pool.
+Os servidores de mediação no site central podem ser usados para rotear chamadas para gateways IP PBXs ou PSTN em sites de flial. Se você implantar os troncos SIP, no entanto, é necessário implantar um servidor de mediação no site onde termina cada tronco. Com um servidor de mediação no site central para rotear chamadas a um gateway PBX IP ou PSTN de uma filial não requer o uso de bypass de mídia. No entanto, se você pode ativar o bypass de mídia, isso irá reduzir a latência do caminho de mídia e, conseqüentemente, resultar em uma melhor qualidade mídia, porque o caminho de mídia não é mais necessário para seguir o caminho de sinalização. O bypass de mídia também irá diminuir a carga de processamento no pool.
 
 <div>
 
 
 > [!NOTE]  
-> O bypass de mídia não interoperará com cada gateway PSTN, IP-PBX e SBC. A Microsoft testou um conjunto de gateways PSTN e SBCs com os parceiros certificados e realizou alguns testes com IP-PBXs da Cisco. O bypass de mídia só tem suporte com produtos e versões listados no programa de interoperabilidade aberta da comunicação <A href="http://go.microsoft.com/fwlink/p/?linkid=268730">http://go.microsoft.com/fwlink/p/?LinkId=268730</A>unificada – Lync Server em.
+> O desvio de mídia não irá interoperar com cada gateway PSTN, IP-PBX e SBC. A Microsoft testou um conjunto de gateways PSTN e SBCs com parceiros certificados e realizou alguns testes com IP-PBXs da Cisco. O bypass de mídia é suportado apenas com produtos e versões listados no programa de interoperabilidade aberta de comunicações <A href="http://go.microsoft.com/fwlink/p/?linkid=268730">http://go.microsoft.com/fwlink/p/?LinkId=268730</A>unificativas – Lync Server em.
 
 
 
 </div>
 
-Se a resiliência do site de ramificação for necessária, um aparelho de ramificação sobreviventes ou uma combinação de um servidor front-end, um servidor de mediação e um gateway devem ser implantados no site da filial. (A pressuposição da resiliência do site da ramificação é que a presença e a conferência não são resistentes no site.) Para obter orientação sobre o planejamento de site de filial para voz, consulte [planejando a resiliência de voz no site de filial no Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md).
+Se a flexibilidade do site de filial for necessária, um Aparelho de Filial Persistente ou uma combinação de um servidor Front-End, um servidor de mediação e um gateway devem ser implantados na filial. (A pressuposição da resiliência do site de filial é que a presença e a conferência não são resistentes no site.) Para obter orientação sobre o planejamento do site de filial para voz, consulte [Planning for Branch-site Voice resiliência no Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md).
 
-Para interações com um PBX IP, se o IP-PBX não suportar corretamente interações de mídia antigas com várias caixas de diálogo iniciais e interações RFC 3960, pode haver recorte das primeiras palavras da saudação para as chamadas recebidas dos pontos de extremidade IP-PBX para Lync. Esse comportamento pode ser mais sério se um servidor de mediação em um site central estiver encaminhando chamadas para um PBX IP em que a rota termina em um site de filial, pois é necessária mais tempo para a sinalização ser concluída. Se você tiver esse comportamento, a implantação de um servidor de mediação no site da filial é a única maneira de reduzir o recorte das primeiras palavras.
+Para interações com um IP-PBX, se o IP-PBX não suportar corretamente interações de mídias antigas com várias caixas de diálogo anteriores e interações RFC 3960, pode haver recorte das primeiras palavras da saudação para chamadas de entrada dos pontos de extremidade IP-PBX para Lync. Esse comportamento pode ser mais grave se um servidor de mediação em um site central estiver roteando chamadas a um PBX IP onde a rota termina em um site de filial, porque é necessário mais tempo para concluir a sinalização. Se você enfrentar esse comportamento, a implantação de um servidor de mediação no site de filial é a única maneira de reduzir o recorte das primeiras palavras.
 
-Por fim, se o seu site central tiver um PBX de TDM, ou se o seu PBX IP não eliminar a necessidade de um gateway PSTN, você deve implantar um gateway no servidor de mediação conectando o servidor de mediação da chamada e o PBX.
+Finalmente, se o site central tiver um PBX TDM ou se o IP-PBX não elimina a necessidade de um gateway PSTN, você deve implantar um gateway na rota de chamada que conecta o servidor de mediação e o PBX.
 
 <div>
 
 
 > [!NOTE]  
-> Para aprimorar o desempenho de mídia do Servidor de Mediação autônomo, você deve habilitar o RSS (receive-side scaling) nos adaptadores de rede nesses servidores. O RSS permite que pacotes de entrada sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, consulte "aprimoramentos de redimensionamento no lado do Windows <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?LinkId=268731</A>Server" em. Para obter detalhes sobre como habilitar o RSS, consulte a documentação do seu adaptador de rede.
+> Para melhorar o desempenho de mídia do servidor de mediação autônomo, você deve habilitar o RSS (escala de recebimento) nos adaptadores de rede nesses servidores. O RSS permite que pacotes recebidos sejam manipulados em paralelo por vários processadores no servidor. Para obter detalhes, consulte "aprimoramentos de redimensionamento no lado do recebimento <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?LinkId=268731</A>no Windows Server" em. Para obter detalhes sobre como habilitar o RSS, consulte a documentação do seu adaptador de rede.
 
 
 

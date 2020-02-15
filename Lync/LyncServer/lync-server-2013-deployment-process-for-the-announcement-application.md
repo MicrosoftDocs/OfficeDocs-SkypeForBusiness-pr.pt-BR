@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: processo de implantação para o aplicativo de anúncio'
+title: 'Lync Server 2013: processo de implantação para o aplicativo de comunicado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184500
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dcb56f197a32403d1207cf0a15d47e0459fc41bf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 55e0c65bfbbed55a8d7f9c3be4f7a586581c2307
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762569"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042248"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-the-announcement-application-in-lync-server-2013"></a>Processo de implantação do aplicativo de anúncio no Lync Server 2013
+# <a name="deployment-process-for-the-announcement-application-in-lync-server-2013"></a>Processo de implantação para o aplicativo de anúncio no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762569"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-12_
+_**Última modificação do tópico:** 2012-09-12_
 
-Esta seção fornece uma visão geral das etapas envolvidas na implantação do aplicativo de anúncio. Você deve implantar o Enterprise Voice antes de configurar comunicados. Os componentes exigidos pelo aplicativo de anúncio são instalados e habilitados durante a implantação do Enterprise Voice.
+Esta seção fornece uma visão geral das etapas envolvidas na implantação do aplicativo de comunicado. Você deve implantar o Enterprise Voice antes de configurar os comunicados. Os componentes exigidos pelo aplicativo de comunicado são instalados e habilitados quando você implanta o Enterprise Voice.
 
 ### <a name="announcement-deployment-process"></a>Processo de implantação do comunicado
 
@@ -53,7 +53,7 @@ Esta seção fornece uma visão geral das etapas envolvidas na implantação do 
 <th>Fase</th>
 <th>Etapas</th>
 <th>Funções</th>
-<th>Documentação de implantação</th>
+<th>Documentação de Implantação</th>
 </tr>
 </thead>
 <tbody>
@@ -68,14 +68,14 @@ Esta seção fornece uma visão geral das etapas envolvidas na implantação do 
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p>
 <p>CsViewOnlyAdministrator</p></td>
-<td><p><a href="lync-server-2013-create-an-announcement.md">Criar um anúncio no Lync Server 2013</a></p>
-<p><a href="lync-server-2013-configure-the-unassigned-number-table.md">Configurar a tabela de número não atribuído no Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-create-an-announcement.md">Criar um comunicado no Lync Server 2013</a></p>
+<p><a href="lync-server-2013-configure-the-unassigned-number-table.md">Configurar a tabela de números não atribuídos no Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Verifique a implantação do comunicado</p></td>
 <td><p>Faça o teste escutando os comunicados para verificar se sua configuração funciona como o esperado.</p></td>
 <td><p>-</p></td>
-<td><p><a href="lync-server-2013-optional-verify-announcement-deployment.md">Adicionais Verificar a implantação do lançamento no Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-optional-verify-announcement-deployment.md">Opcion Verificar a implantação do comunicado no Lync Server 2013</a></p></td>
 </tr>
 </tbody>
 </table>

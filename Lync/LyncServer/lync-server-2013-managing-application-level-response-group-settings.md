@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: gerenciar configurações de grupo de resposta no nível do aplicativo'
+title: 'Lync Server 2013: Gerenciando configurações do grupo de resposta no nível do aplicativo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733776
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ffce659c2c4dc6c91ba4e4935b72c15e4cef4da5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a1dccc404350e10b61ea0917c0bd6b6d7e44b333
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733241"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045343"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-application-level-response-group-settings-in-lync-server-2013"></a>Gerenciando configurações de grupo de resposta no nível do aplicativo no Lync Server 2013
+# <a name="managing-application-level-response-group-settings-in-lync-server-2013"></a>Gerenciando as configurações do grupo de resposta no nível do aplicativo no Lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41733241"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
-As configurações no nível do aplicativo para o aplicativo de grupo de resposta incluem a configuração de música em espera padrão, o arquivo de áudio de música em espera padrão, o período de cortesia do agente e a configuração do contexto de chamada. Você pode definir apenas um conjunto de configurações do aplicativo por pool. Para exibir as configurações do aplicativo, use o cmdlet **Get-CsRgsConfiguration**. Para modificar as configurações do aplicativo, use o cmdlet **Set-CsRgsConfiguration**.
+As configurações de nível de aplicativo para o aplicativo de grupo de resposta incluem a configuração de música em espera padrão, o arquivo de áudio de música em espera padrão, o período de cortesia de retorno de toque do agente e a configuração do contexto da chamada. É possível definir apenas um conjunto de configurações a nível de aplicativo por pool. Para exibir as configurações no nível do aplicativo, use o cmdlet **Get-CsRgsConfiguration** . Para modificar as configurações no nível do aplicativo, use o cmdlet **set-CsRgsConfiguration** .
 
-A música de espera padrão é tocada quando uma chamada é coloca em espera, apenas se nenhuma música de espera personalizada for definida. O contexto de chamada está disponível somente para filas atribuídas aos fluxos de trabalho interativos. Se o contexto de chamada for ativado, um agente poderá ver informações como o tempo de espera do chamador ou perguntas e respostas do fluxo de trabalho quando a chamada for recebida.
+O padrão de música em espera é tocado quando uma chamada é colocada em espera somente se nenhuma música em espera personalizada é definida. O contexto de chamada está disponível somente para filas atribuídas a fluxos de trabalho interativos. Se o contexto de chamada estiver habilitado, um agente poderá ver informações como tempo de espera do chamador ou perguntas e respostas de fluxo de trabalho quando a chamada for recebida.
 
 <div>
 
-## <a name="to-modify-response-group-application-level-settings"></a>Para modificar as configurações em nível de aplicativo de grupo de resposta
+## <a name="to-modify-response-group-application-level-settings"></a>Para modificar as configurações no nível do aplicativo grupo de resposta
 
-1.  Faça logon como um membro do grupo RTCUniversalServerAdmins ou como um membro de uma das funções administrativas predefinidas que oferecem suporte ao Grupo de Resposta.
+1.  Faça logon como membro do grupo RTCUniversalServerAdmins ou como membro de uma das funções administrativas predefinidas que dão suporte ao grupo de resposta.
 
-2.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+2.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 3.  Na linha de comando, execute:
     
@@ -57,7 +57,7 @@ A música de espera padrão é tocada quando uma chamada é coloca em espera, ap
     
         Set-CsRgsConfiguration -Identity "service:ApplicationServer:redmond.contoso.com" -AgentRingbackGracePeriod 30 -DisableCallContext $false
     
-    Para especificar um arquivo de áudio para ser usado como a música de espera padrão, você precisa primeiro importar o arquivo de áudio. Por exemplo:
+    Para especificar um arquivo de áudio para usar como a música padrão em espera, você precisará importar primeiro o arquivo de áudio. Por exemplo:
     
         $x = Import-CsRgsAudioFile -Identity "service:ApplicationServer:redmond.contoso.com" -FileName "MusicWhileYouWait.wav" -Content (Get-Content C:\Media\ MusicWhileYouWait.wav -Encoding byte -ReadCount 0)
         Set-CsRgsConfiguration -Identity "service:ApplicationServer:redmond.contoso.com" -DefaultMusicOnHoldFile <$x>
@@ -66,7 +66,7 @@ A música de espera padrão é tocada quando uma chamada é coloca em espera, ap
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Consulte também
 
 
 [Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration)  

@@ -12,16 +12,16 @@ ms:contentKeyID: 48183425
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5da1da6f54fa9099cc455040a71fb11c4fe070e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 407b7efd00a521e0eec7a6d573368d2f971ce3bc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735417"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042098"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41735417"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-08-20_
+_**Última modificação do tópico:** 2012-08-20_
 
 A tabela ErrorCategory contém o nome amigável para cada classificação de diagnóstico do Microsoft Lync Server 2013. Por padrão, o Lync Server 2013 usa as seguintes classificações:
 
-  - 0--sucesso
+  - 0 -- Sucesso
 
-  - 1--falha prevista
+  - 1--falha esperada
 
-  - 2 – falha inesperada
+  - 2 – Falha inesperada
 
 Esta tabela foi introduzida no Microsoft Lync Server 2013.
 
@@ -65,20 +65,20 @@ Esta tabela foi introduzida no Microsoft Lync Server 2013.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>CódigoDaCategoria</strong></p></td>
+<td><p><strong>CategoryId</strong></p></td>
 <td><p>tinyint</p></td>
-<td><p>Primária</p></td>
-<td><p>Identificador exclusivo da classificação.</p></td>
+<td><p>Primário</p></td>
+<td><p>Identificador único para a classificação.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Nome</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td></td>
 <td><p>Valor e nome amigável atribuídos à classificação. Os valores permitidos são:</p>
 <ul>
-<li><p>0--sucesso</p></li>
-<li><p>1--falha prevista</p></li>
-<li><p>2 – falha inesperada</p></li>
+<li><p>0 -- Sucesso</p></li>
+<li><p>1--falha esperada</p></li>
+<li><p>2 – Falha inesperada</p></li>
 </ul></td>
 </tr>
 </tbody>

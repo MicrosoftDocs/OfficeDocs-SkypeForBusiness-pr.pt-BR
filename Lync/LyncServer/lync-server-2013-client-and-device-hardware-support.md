@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Suporte a hardware de cliente e de dispositivo'
+title: Cliente do Lync Server 2013 e suporte a hardware de dispositivo
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185851
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08c87692e169bac11c29bc1beeb61df8c6c964b7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e9041f63f012f7251c51bb60d912417a2ed0494e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729831"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037711"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="client-and-device-hardware-support-in-lync-server-2013"></a>Suporte a hardware de cliente e de dispositivo no Lync Server 2013
+# <a name="client-and-device-hardware-support-in-lync-server-2013"></a>Suporte a hardware de dispositivo e cliente no Lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41729831"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-01_
+_**Última modificação do tópico:** 2012-10-01_
 
-Os computadores cliente devem atender a certos requisitos de hardware para dar suporte a clientes em sua implantação do Lync Server 2013. Configurações adicionais de hardware devem estar no lugar antes de você implantar telefones IP e dispositivos analógicos.
+Os computadores cliente devem atender a certos requisitos de hardware para dar suporte a clientes em sua implantação do Lync Server 2013. Configurações de hardware adicionais devem ter sido efetuadas antes da implantação de telefones IP e dispositivos analógicos.
 
 <div>
 

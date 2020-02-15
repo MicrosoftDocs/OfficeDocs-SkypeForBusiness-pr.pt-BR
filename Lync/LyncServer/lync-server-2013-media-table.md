@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabela Media'
+title: 'Lync Server 2013: tabela de mídia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183568
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69f9ad10c5c06ab8a9d2bc95eddceb67b20e745c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c3d96a7d08a71b63c71c76617e78ebf1df605a52
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765099"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044933"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="media-table-in-lync-server-2013"></a>Tabela Media no Lync Server 2013
+# <a name="media-table-in-lync-server-2013"></a>Tabela de mídia no Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41765099"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-28_
+_**Última modificação do tópico:** 2012-09-28_
 
-Cada registro representa um tipo de mídia usado em uma sessão ponto a ponto. Uma sessão seria representada por vários registros na tabela, se mais de um tipo de mídia for usado.
+Cada registro representa um tipo de mídia usado em uma sessão ponto a ponto. Uma sessão será representada por vários registros na tabela se mais de um tipo de mídia for usado.
 
 <div>
 
 
 > [!NOTE]  
-> A tabela de mídia não deve ser usada para calcular a duração da mídia de uma sessão. Esta tabela contém os detalhes de sinalização da troca de mídia em uma sessão. A troca de mídia é feita pela solicitação de convite e StartTime indica a hora em que o convite foi enviado. O tempo de convite não necessariamente significa a hora de início da mídia porque a mídia só inicia depois que a sessão aceita a sessão. A EndTime geralmente significa a hora de término desta sessão.
+> A tabela de Mídia não deve ser usada para calcular a duração da mídia de uma sessão. Esta tabela contém os detalhes de sinalização da troca de mídia em uma sessão. A troca de mídia é realizada pela solicitação INVITE e StartTime indica a hora que INVITE foi enviado. O horário do convite não necessariamente significa a hora inicial da mídia, porque a mídia começa apenas após o participante aceitar a sessão. O EndTime geralmente significa a hora final desta sessão.
 
 
 
@@ -67,34 +67,34 @@ Cada registro representa um tipo de mídia usado em uma sessão ponto a ponto. U
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Id_da_sessãotime</strong></p></td>
+<td><p><strong>Identificação_da_sessãotime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Primário, estrangeiro</p></td>
-<td><p>Tempo de solicitação de sessão. Usado em conjunto com o <strong>SessionIdSeq</strong> para identificar exclusivamente uma sessão. Consulte a <a href="lync-server-2013-dialogs-table.md">tabela de diálogos no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>Primário, externo</p></td>
+<td><p>Tempo da solicitação de sessão. Usado em conjunto com <strong>SessionIdSeq</strong> para identificar exclusivamente uma sessão. Consulte a <a href="lync-server-2013-dialogs-table.md">tabela diálogos no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primário, estrangeiro</p></td>
-<td><p>Número de identificação para identificar a sessão. Usado em conjunto com a <strong>identificação_da_sessãotime</strong> para identificar exclusivamente uma sessão. Consulte a <a href="lync-server-2013-dialogs-table.md">tabela de diálogos no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>Primário, Estrangeiro</p></td>
+<td><p>O número de ID para identificar a sessão. Usado em conjunto com <strong>SessionIdTime</strong> para identificar exclusivamente uma sessão. Consulte a <a href="lync-server-2013-dialogs-table.md">tabela diálogos no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>MediaId</strong></p></td>
+<td><p><strong>Mediaid</strong></p></td>
 <td><p>tinyint</p></td>
-<td><p>Primário, estrangeiro</p></td>
-<td><p>Número exclusivo que identifica esse tipo de mídia. Consulte a <a href="lync-server-2013-medialist-table.md">tabela medialist no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>Primária, Estrangeira</p></td>
+<td><p>Número exclusivo identificando este tipo de mídia. Consulte a <a href="lync-server-2013-medialist-table.md">tabela medialist no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>StartTime </strong></p></td>
+<td><p><strong>StartTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Primária</p></td>
-<td><p>Esta é a hora em que uma solicitação de mídia foi enviada, e não a hora de início da mídia real. <strong>StartTime</strong> inclui o tempo de configuração da sessão.</p></td>
+<td><p>Primário</p></td>
+<td><p>Este é o horário em que a solicitação de mídia foi enviada, não o horário de início de mídia real. O <strong>StartTime</strong> inclui a hora de configuração da sessão.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>EndTime</strong></p></td>
 <td><p>datetime</p></td>
 <td></td>
-<td><p>Esta é a hora de término da sessão.</p></td>
+<td><p>Este é o horário de término da sessão.</p></td>
 </tr>
 </tbody>
 </table>

@@ -12,16 +12,16 @@ ms:contentKeyID: 60918604
 ms.date: 08/01/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ca8675fea59c34ba5bf40269387e328f357fe88
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4f6c221b55cd8af2b4217b5aa1f287ae79b19d01
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737981"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038433"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,27 +35,27 @@ ms.locfileid: "41737981"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2016-08-01_
+_**Última modificação do tópico:** 2016-08-01_
 
-Além de seguir as práticas recomendadas para a implantação do Microsoft Lync Server 2013, você pode ajudar a garantir a segurança revisando, compreendendo e lidando com todas as necessidades em áreas específicas da sua implantação.
+Além de seguir as práticas recomendadas para a implantação do Microsoft Lync Server 2013, você pode ajudar a garantir a segurança revisando, compreendendo e lidando com as necessidades em áreas específicas de sua implantação.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Práticas recomendadas para a sua infraestrutura principal no Lync Server 2013](lync-server-2013-best-practices-for-your-core-infrastructure.md)
+  - [Práticas recomendadas para sua infraestrutura principal no Lync Server 2013](lync-server-2013-best-practices-for-your-core-infrastructure.md)
 
-  - [Protegendo servidores e aplicativos para Lync Server 2013](lync-server-2013-hardening-and-protecting-servers-and-applications.md)
+  - [Proteção e proteção de servidores e aplicativos para o Lync Server 2013](lync-server-2013-hardening-and-protecting-servers-and-applications.md)
 
-  - [Exclusões de verificação de antivírus para Lync Server 2013](lync-server-2013-antivirus-scanning-exclusions.md)
+  - [Exclusões de verificação antivírus para o Lync Server 2013](lync-server-2013-antivirus-scanning-exclusions.md)
 
-  - [Protegendo dados em trânsito – bancos de dados do servidor de conformidade de arquivamento, monitoramento, chat em grupo no Lync Server 2013](lync-server-2013-protecting-data-in-transit-–-archiving-monitoring-group-chat-compliance-server-databases.md)
+  - [Protegendo dados em trânsito – bancos de dados de servidor de conformidade de arquivamento, monitoramento, chat em grupo no Lync Server 2013](lync-server-2013-protecting-data-in-transit-–-archiving-monitoring-group-chat-compliance-server-databases.md)
 
-  - [Reduzindo as IMs não solicitadas para Lync Server 2013](lync-server-2013-reducing-unsolicited-im.md)
+  - [Reduzindo mensagens instantâneas não solicitadas para o Lync Server 2013](lync-server-2013-reducing-unsolicited-im.md)
 
   - [Protegendo o IIS no Lync Server 2013](lync-server-2013-protecting-iis.md)
 
-  - [Windows Update para Lync Server 2013](lync-server-2013-windows-update-for-lync-server.md)
+  - [Atualização do Windows para o Lync Server 2013](lync-server-2013-windows-update-for-lync-server.md)
 
 </div>
 

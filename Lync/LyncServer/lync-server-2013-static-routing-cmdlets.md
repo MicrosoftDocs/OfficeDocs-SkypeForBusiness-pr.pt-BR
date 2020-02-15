@@ -12,16 +12,16 @@ ms:contentKeyID: 48184496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a5a5c5dcefa5c4650c6bbfabf940840f22fc5df2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d9e5b67153d353c0b08ba33853c76d16cd8ba3f8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731791"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038743"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,88 +35,88 @@ ms.locfileid: "41731791"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-06-20_
+_**Última modificação do tópico:** 2012-06-20_
 
-Com rotas estáticas, os administradores podem predeterminar as rotas de rede tiradas por mensagens SIP. Quando uma mensagem é recebida por um servidor, o servidor verifica o endereço da mensagem e encaminha a mensagem para o próximo servidor de salto pré-configurado por um administrador. Se forem configuradas corretamente, as rotas estáticas ajudam a garantir a entrega precisa e pontual das mensagens, com o mínimo de sobrecarga aos servidores.
+Com as rotas estáticas, os administradores podem predeterminar as rotas de rede adotadas pelas mensagens SIP. Quando uma mensagem é recebida por um servidor, esse servidor verifica o endereço da mensagem e a encaminha para o servidor do próximo salto pré-configurado por um administrador. Se forem configuradas corretamente, as rotas estáticas ajudarão a garantir entregas de mensagens precisas e na hora certa, com uma sobrecarga mínima imposta aos servidores.
 
 <div>
 
 ## <a name="static-routing-cmdlets"></a>Cmdlets de roteamento estático
 
-A menos que seja instruído de outra forma pela equipe de suporte da Microsoft, as rotas estáticas configuradas para o Microsoft Lync Server 2013 devem ser criadas usando o cmdlet [New-CsStaticRoute](https://technet.microsoft.com/en-us/library/Gg398265(v=OCS.15)) . Após a criação de uma rota, você pode usar os cmdlets CsStaticRoutingConfiguration para adicionar essa rota a um conjunto de roteamento estático.
+Salvo indicação em contrário pela equipe de suporte da Microsoft, as rotas estáticas configuradas para o Microsoft Lync Server 2013 devem ser criadas usando o cmdlet [New-CsStaticRoute](https://technet.microsoft.com/library/Gg398265(v=OCS.15)) . Depois que uma rota for criada, você poderá usar os cmdlets CsStaticRoutingConfiguration para adicionar essa rota a uma coleção de roteamento estática.
 
 **Roteamento estático**
 
   - <span></span>  
-    [Get-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/en-us/library/Gg398130(v=OCS.15))
+    [Get-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/library/Gg398130(v=OCS.15))
 
   - <span></span>  
-    [New-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/en-us/library/Gg413041(v=OCS.15))
+    [New-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/library/Gg413041(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/en-us/library/Gg412932(v=OCS.15))
+    [Remove-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/library/Gg412932(v=OCS.15))
 
   - <span></span>  
-    [Set-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/en-us/library/Gg425895(v=OCS.15))
+    [Set-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/library/Gg425895(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsStaticRoute](https://technet.microsoft.com/en-us/library/Gg398265(v=OCS.15))
+    [New-CsStaticRoute](https://technet.microsoft.com/library/Gg398265(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsStaticRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg398754(v=OCS.15))
+    [Get-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg398754(v=OCS.15))
 
   - <span></span>  
-    [New-CsStaticRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg425811(v=OCS.15))
+    [New-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg425811(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsStaticRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg398668(v=OCS.15))
+    [Remove-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg398668(v=OCS.15))
 
   - <span></span>  
-    [Set-CsStaticRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg398724(v=OCS.15))
+    [Set-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg398724(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsSipProxyCustom](https://technet.microsoft.com/en-us/library/Gg425904(v=OCS.15))
+    [New-CsSipProxyCustom](https://technet.microsoft.com/library/Gg425904(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsSipProxyRealm](https://technet.microsoft.com/en-us/library/Gg413084(v=OCS.15))
+    [New-CsSipProxyRealm](https://technet.microsoft.com/library/Gg413084(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsSipProxyTCP](https://technet.microsoft.com/en-us/library/Gg425745(v=OCS.15))
+    [New-CsSipProxyTCP](https://technet.microsoft.com/library/Gg425745(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsSipProxyTLS](https://technet.microsoft.com/en-us/library/Gg398629(v=OCS.15))
+    [New-CsSipProxyTLS](https://technet.microsoft.com/library/Gg398629(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsSipProxyTransport](https://technet.microsoft.com/en-us/library/Gg398489(v=OCS.15))
+    [New-CsSipProxyTransport](https://technet.microsoft.com/library/Gg398489(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsSipProxyUseDefault](https://technet.microsoft.com/en-us/library/Gg398274(v=OCS.15))
+    [New-CsSipProxyUseDefault](https://technet.microsoft.com/library/Gg398274(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsSipProxyUseDefaultCert](https://technet.microsoft.com/en-us/library/Gg425858(v=OCS.15))
+    [New-CsSipProxyUseDefaultCert](https://technet.microsoft.com/library/Gg425858(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsIssuedCertId](https://technet.microsoft.com/en-us/library/Gg425814(v=OCS.15))
+    [New-CsIssuedCertId](https://technet.microsoft.com/library/Gg425814(v=OCS.15))
 
 </div>
 

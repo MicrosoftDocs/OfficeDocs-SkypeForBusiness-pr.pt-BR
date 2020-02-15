@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: testando o acesso ao repositório de contatos unificado'
+title: 'Lync Server 2013: testar acesso de repositório unificado de contatos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969621
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47d5d216a1d7a389f20bf2c59f94baf54636d409
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ff28fa3ba945c49bee6e5474cb841886bb54d8a0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745401"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041978"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-unified-contact-store-access-in-lync-server-2013"></a>Testando o acesso a repositório de contatos unificado no Lync Server 2013
+# <a name="testing-unified-contact-store-access-in-lync-server-2013"></a>Testando o acesso de repositório unificado de contatos no Lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745401"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2015-05-15_
+_**Última modificação do tópico:** 2015-05-15_
 
 
 <table>
@@ -45,17 +45,17 @@ _**Tópico da última modificação:** 2015-05-15_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Cronograma de verificação</p></td>
-<td><p>Diário</p></td>
+<td><p>Agenda de verificação</p></td>
+<td><p>Diariamente</p></td>
 </tr>
 <tr class="even">
 <td><p>Ferramenta de teste</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissões necessárias</p></td>
-<td><p>Quando executado localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.</p>
-<p>Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet <strong>Test-CsUnifiedContactStore</strong> . Para ver uma lista de todas as funções RBAC que podem usar esse cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</p>
+<td><p>Permissões obrigatórias</p></td>
+<td><p>Ao executar localmente usando o Shell de gerenciamento do Lync Server, os usuários devem ser membros do grupo de segurança RTCUniversalServerAdmins.</p>
+<p>Quando executado usando uma instância remota do Windows PowerShell, os usuários devem receber uma função RBAC que tenha permissão para executar o cmdlet <strong>Test-CsUnifiedContactStore</strong> . Para ver uma lista de todas as funções RBAC que podem usar este cmdlet, execute o seguinte comando no prompt do Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsUnifiedContactStore&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,11 +66,11 @@ _**Tópico da última modificação:** 2015-05-15_
 
 ## <a name="description"></a>Descrição
 
-O repositório de contatos Unificado apresentado no Lync Server 2013 fornece aos administradores a opção de armazenar os contatos de um usuário no Microsoft Exchange Server 2013 em vez de no Lync Server. Isso permite que o usuário acesse o mesmo conjunto de contatos no Outlook Web Access, além do Lync 2013. (Ou você pode continuar a armazenar contatos no Lync Server. Nesse caso, os usuários precisarão manter dois conjuntos de contatos separados: um para uso com o Outlook e o Outlook Web Access e um para uso com o Lync 2013.)
+O repositório unificado de contatos introduzido no Lync Server 2013 oferece aos administradores a opção de armazenar os contatos de um usuário no Microsoft Exchange Server 2013 em vez de no Lync Server. Isso permite que o usuário acesse o mesmo conjunto de contatos no Outlook Web Access, além do Lync 2013. (Ou, você pode continuar a armazenar contatos no Lync Server. Nesse caso, os usuários terão que manter dois conjuntos separados de contatos: um para uso com o Outlook e o Outlook Web Access, e um para uso com o Lync 2013.)
 
-Você pode determinar se os contatos de um usuário foram movidos para o repositório de contatos unificado executando o cmdlet **Test-CsUnifiedContactStore** . O cmdlet **Test-CsUnifiedContactStore** usará a conta de usuário especificada, se conectará ao repositório de contatos unificado e tentará recuperar um contato para o usuário. Se não for possível recuperar nenhum contato, o comando falhará junto com a mensagem "nenhum contato foi recebido para o usuário. Verifique se os contatos existem para o usuário. "
+Você pode determinar se os contatos de um usuário foram movidos para o repositório unificado de contatos executando o cmdlet **Test-CsUnifiedContactStore** . O cmdlet **Test-CsUnifiedContactStore** usará a conta de usuário especificada, se conectará ao repositório unificado de contatos e tentará recuperar um contato para o usuário. Se não for possível recuperar nenhum contato, o comando falhará junto com a mensagem "nenhum contato foi recebido para o usuário. Verifique se os contatos existem para o usuário".
 
-Observe que o cmdlet **Test-CsUnifiedContactStore** falhará se o usuário tiver migrado com êxito para o repositório de contatos unificado, mas não tiver contatos na lista de contatos dela. O usuário especificado deve ter pelo menos um contato para que o cmdlet **Test-CsUnifiedContactStore** seja concluído com êxito.
+Observe que o cmdlet **Test-CsUnifiedContactStore** falhará se o usuário tiver migrado com êxito para o repositório unificado de contatos, mas não tiver contatos em sua lista de contatos. O usuário especificado deve ter pelo menos um contato para que o cmdlet **Test-CsUnifiedContactStore** seja concluído com êxito.
 
 </div>
 
@@ -78,9 +78,9 @@ Observe que o cmdlet **Test-CsUnifiedContactStore** falhará se o usuário tiver
 
 ## <a name="running-the-test"></a>Executar o teste
 
-Os comandos mostrados no exemplo a seguir determinam se os contatos do\\usuário litwareinc kenmyer podem ser encontrados no repositório de contatos unificado. Para fazer isso, o primeiro comando do exemplo usa o cmdlet **Get-Credential** para criar um objeto de credenciais da interface de linha de comando do Windows PowerShell para\\o usuário litwareinc kenmyer. Observe que você deve fornecer a senha desta conta para criar um objeto de credenciais válido e verificar se o cmdlet **Test-CsUnifiedContactStore** pode executar sua verificação.
+Os comandos mostrados no exemplo a seguir determinam se os contatos do\\usuário litwareinc kenmyer podem ser encontrados no repositório unificado de contatos. Para fazer isso, o primeiro comando no exemplo usa o cmdlet **Get-Credential** para criar um objeto de credenciais da interface de linha de comando do Windows PowerShell para\\o usuário litwareinc kenmyer. Observe que você deve fornecer a senha dessa conta para criar um objeto de credenciais válido e para garantir que o cmdlet **Test-CsUnifiedContactStore** possa executar a verificação.
 
-O segundo comando do exemplo usa o objeto de credenciais fornecido ($x) e o endereço SIP do usuário litwareinc\\kenmyer para determinar se seus contatos podem ser encontrados no repositório de contatos unificado.
+O segundo comando no exemplo usa o objeto de credenciais fornecido ($x) e o endereço SIP do usuário litwareinc\\kenmyer para determinar se seus contatos podem ser encontrados no repositório unificado de contatos.
 
     $credential = Get-Credential "litwareinc\kenmyer"
     
@@ -90,9 +90,9 @@ O segundo comando do exemplo usa o objeto de credenciais fornecido ($x) e o ende
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Determinação do sucesso ou falha
+## <a name="determining-success-or-failure"></a>Determinando o sucesso ou a falha
 
-Se o acesso ao repositório de contatos estiver configurado corretamente, você receberá uma saída semelhante a isso, com a propriedade Result marcada como **Success:**
+Se o acesso ao repositório de contatos estiver configurado corretamente, você receberá uma saída semelhante a esta, com a propriedade Result marcada como **êxito:**
 
 FQDN de destino: atl-cs-001.litwareinc.com
 
@@ -102,17 +102,17 @@ Latência: 00:00:14.9862716
 
 Mensagem de erro:
 
-Correto
+Diagnóstico
 
-Se o acesso ao repositório de contatos não estiver configurado corretamente, o resultado será mostrado como uma **falha**, e informações adicionais serão gravadas nas propriedades de erro e diagnóstico:
+Se o acesso ao repositório de contatos não estiver configurado corretamente, o resultado será mostrado como **falha**, e informações adicionais serão registradas nas propriedades de erro e diagnóstico:
 
-Aviso: falha ao ler o número da porta do registrador para o número da porta de dados totalmente qualificado
+Aviso: falha ao ler o número da porta do registrador para o fornecido totalmente qualificado
 
-FQDN (nome de domínio). Usando o número da porta do registrador padrão. Extremamente
+FQDN (nome de domínio). Usando o número da porta do registrador padrão. Exceções
 
-System. InvalidOperationException: nenhum cluster correspondente localizado na topologia.
+System. InvalidOperationException: nenhum cluster correspondente encontrado na topologia.
 
-como
+por
 
 Microsoft. RTC. Management. SyntheticTransactions. SipSyntheticTransaction. TryRetri
 
@@ -124,7 +124,7 @@ Resultado: falha
 
 Latência: 00:00:00
 
-Mensagem de erro: 10060, falha na tentativa de conexão porque a parte conectada
+Mensagem de erro: 10060, uma tentativa de conexão falhou porque a parte conectada
 
 Não respondeu corretamente após um período de tempo ou
 
@@ -136,11 +136,11 @@ Exceção interna: falha na tentativa de conexão porque o
 
 a parte conectada não respondeu corretamente após um período de
 
-falha na hora ou estabelecida a conexão porque o host conectado
+a hora ou a conexão estabelecida falhou porque o host conectado
 
-falhou ao responder 10.188.116.96:5061
+Falha ao responder 10.188.116.96:5061
 
-Correto
+Diagnóstico
 
 </div>
 
@@ -150,9 +150,9 @@ Correto
 
 Aqui estão alguns motivos comuns pelos quais **Test-CsUnifiedContactStore** pode falhar:
 
-  - Um valor de parâmetro incorreto foi fornecido. Se usado, os parâmetros opcionais devem ser configurados corretamente ou o teste falhará. Execute o comando novamente sem os parâmetros opcionais e veja se isso é bem-sucedido.
+  - Um valor de parâmetro incorreto foi fornecido. Se usado, os parâmetros opcionais devem ser configurados corretamente ou o teste falhará. Execute novamente o comando sem os parâmetros opcionais e veja se isso é bem-sucedido.
 
-  - Não foi possível conectar-se ao repositório de contatos unificado, e a tentativa de recuperar um contato para o usuário não foi possível. Pode haver problemas de conectividade de rede.
+  - Falha ao conectar ao repositório unificado de contatos e a tentativa de recuperar um contato para o usuário não foi possível. Pode haver problemas de conectividade de rede.
 
 </div>
 

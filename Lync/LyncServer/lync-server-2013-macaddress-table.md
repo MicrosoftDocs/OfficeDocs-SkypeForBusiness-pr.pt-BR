@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tabela MacAddress'
+title: 'Lync Server 2013: tabela MacAddress'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184963
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b9bf888e7e04f60fc8c1e06e4ef4ab4e9d9e0f3d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f855b09e0174c9688aa122f97736e86ed7f2fdf9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765309"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037581"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765309"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-02_
+_**Última modificação do tópico:** 2012-10-02_
 
-A tabela MacAddress é uma tabela de suporte. Cada registro representa uma fonte.
+A tabela MacAddress é uma tabela de suporte. Cada registro representa uma origem.
 
 
 <table>
@@ -59,14 +59,14 @@ A tabela MacAddress é uma tabela de suporte. Cada registro representa uma fonte
 <tr class="odd">
 <td><p><strong>MacAddressKey</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primária</p></td>
-<td><p>Número exclusivo que identifica o endereço Mac.</p></td>
+<td><p>Primário</p></td>
+<td><p>Número único que identifica o endereço Mac.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MacAddress</strong></p></td>
 <td><p>varchar (256)</p></td>
-<td><p>Exclusividade</p></td>
-<td><p>Cadeia de caracteres de endereço Mac.</p></td>
+<td><p>Diferente</p></td>
+<td><p>Cadeia de caracteres do endereço Mac.</p></td>
 </tr>
 </tbody>
 </table>

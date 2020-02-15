@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Suporte à integração Exchange UM hospedado'
+title: Lync Server 2013 suporte para integração de UM do Exchange hospedado
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185376
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 24139ad5294bf908a85b797300397fa8b2ac9140
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e0625d983f05e5b9b22bf5086d0689c117b2ecda
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764377"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038643"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="support-for-hosted-exchange-um-integration-in-lync-server-2013"></a>Suporte à integração Exchange UM hospedado no Lync Server 2013
+# <a name="support-for-hosted-exchange-um-integration-in-lync-server-2013"></a>Suporte à integração de UM do Exchange hospedado no Lync Server 2013
 
 </div>
 
@@ -35,30 +35,30 @@ ms.locfileid: "41764377"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-21_
+_**Última modificação do tópico:** 2012-09-21_
 
-O aplicativo de roteamento ExUM do Lync Server 2013 é compatível com a integração com a Unificação de mensagens do Exchange em um ambiente local, no qual o Lync Server 2013 e o Exchange UM são instalados localmente na sua empresa ou no UM Exchange UM hospedado por um provedor de serviços, conforme mostrado no diagrama a seguir.
+O aplicativo de roteamento ExUM do Lync Server 2013 oferece suporte à integração com a Unificação de mensagens (UM) do Exchange em um ambiente local, onde o Lync Server 2013 e o Exchange UM estão instalados localmente em sua empresa ou em com um do Exchange hospedado por um provedor de serviços, conforme mostrado no diagrama a seguir.
 
-![Implantação do Exchange UM do Lync Server local](images/Gg398821.d6498eb9-87ee-40f3-8ecd-852f91546590(OCS.15).jpg "Implantação do Exchange UM do Lync Server local")
+![Implantação de UM do Exchange do Lync Server local](images/Gg398821.d6498eb9-87ee-40f3-8ecd-852f91546590(OCS.15).jpg "Implantação de UM do Exchange do Lync Server local")
 
-Há suporte para os seguintes modos:
+Os modos a seguir são suportados:
 
-  - **Modo local do**   Lync Server 2013 e do Exchange um são implantados em servidores locais na sua empresa.
+  - **O modo**   local do Lync Server 2013 e do Exchange são implantados em servidores locais dentro de sua empresa.
 
-  - **O modo**   intersite do Lync Server 2013 é implantado em servidores locais na sua empresa e o Exchange um está hospedado em um recurso do provedor de serviços online, como um Data Center online do Microsoft Exchange.
+  - **O modo**   entre locais do Lync Server 2013 é implantado em servidores locais dentro de sua empresa e o um do Exchange está hospedado no recurso de um provedor de serviços online, como um data center do Microsoft Exchange Online.
 
-  - **Modo misto a**   implantação do Lync Server 2013 tem algumas caixas de correio de usuário hospedadas em servidores locais que executam o Microsoft Exchange Server em sua empresa e algumas caixas de correio hospedadas em um data center do serviço do Exchange.
+  - **Modo misto sua**   implantação do Lync Server 2013 tem algumas caixas de correio de usuário hospedadas em servidores locais que executam o Microsoft Exchange Server em sua empresa e algumas caixas de correio hospedadas em um data center de serviço do Exchange hospedado.
     
     <div>
     
 
     > [!NOTE]  
-    > O modo misto pode ser usado como uma solução de transição durante a avaliação e Stepwise a migração de usuários para o Exchange UM hospedada ou como uma solução permanente se você optar por manter os serviços de UM dos usuários no local após a migração de outras pessoas.
+    > O modo misto pode ser usado como uma solução de transição durante a avaliação e em etapas a migração de usuários para o UM do Exchange hospedado ou como uma solução permanente se você optar por manter os serviços de UM do Exchange da UM no local após a migração de outros.
 
     
     </div>
 
-Para integrar o Lync Server 2013 com o Exchange UM hospedado, você deve configurar um *espaço de endereço SIP compartilhado* (também chamado de *domínio dividido*). Nesta configuração, o Lync Server 2013 e o provedor de serviços do Exchange UM hospedado por terceiros podem acessar o mesmo espaço de endereço de domínio SIP. Para obter detalhes, consulte [arquitetura de integração de um Exchange um hospedada no Lync Server 2013](lync-server-2013-hosted-exchange-um-integration-architecture.md) na documentação de planejamento.
+Para integrar o Lync Server 2013 à UM do Exchange hospedado, você deve configurar um *espaço de endereçamento SIP compartilhado* (também chamado de *domínio dividido*). Nessa configuração, o Lync Server 2013 e o provedor de serviços UM do Exchange hospedado por terceiros podem acessar o mesmo espaço de endereço de domínio SIP. Para obter detalhes, consulte [arquitetura de integração da um do Exchange hospedado no Lync Server 2013](lync-server-2013-hosted-exchange-um-integration-architecture.md) na documentação de planejamento.
 
 </div>
 

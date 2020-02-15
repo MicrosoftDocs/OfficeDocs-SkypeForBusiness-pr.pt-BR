@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Iniciar os serviços no diretor'
+title: 'Lync Server 2013: Iniciar serviços no diretor'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183351
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b15b1285fa81f59c2b0a116e8ee80eeee2e8e952
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 94d4ab3755739742f96cb2b0f4377d4059d63bfd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731821"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038763"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41731821"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-08_
+_**Última modificação do tópico:** 2012-09-08_
 
-Depois de instalar o repositório de configuração local, instalar os componentes do Lync Server e configurar certificados em um director, você deve iniciar os serviços do Lync Server no servidor. Você pode usar o procedimento a seguir para iniciar serviços em cada director na sua implantação.
+Após instalar o repositório de configuração local, instalar os componentes do Lync Server e configurar certificados em um diretor, você deve iniciar os serviços do Lync Server no servidor. É possível executar o seguinte procedimento para iniciar serviços em cada Diretor da sua implantação.
 
 <div>
 
-## <a name="to-start-services-on-a-director"></a>Para iniciar serviços em um diretor
+## <a name="to-start-services-on-a-director"></a>Para iniciar os serviços em um Diretor
 
-1.  No assistente de implantação do Lync Server, na página do **Lync server 2013** , clique no botão **executar** ao lado da **etapa 4: Iniciar serviços**.
+1.  No assistente de implantação do Lync Server, na página **Lync server 2013** , clique no botão **executar** ao lado da **etapa 4: Iniciar serviços**.
 
 2.  Na página **Iniciar serviços** , clique em **Avançar** para iniciar os serviços do Lync Server no servidor.
 
-3.  Na página **Executando comandos**, depois que todos os serviços forem iniciados com sucesso, clique em **Finalizar**.
+3.  Na página **Comandos de execução**, depois de todos os serviços terem sido iniciados de maneira bem-sucedida, clique em **Concluir**.
 
-4.  Abaixo da **etapa 4: Iniciar serviços**, clique em **status dos serviços (opcional)**.
+4.  Abaixo de **Etapa 4: Iniciar os serviços**, clique em **Status do serviço (Opcional)**.
 
-5.  No console de gerenciamento da Microsoft (MMC) de **Serviços** no servidor, verifique se todos os serviços do Lync Server 2013 estão em execução.
+5.  No console de gerenciamento Microsoft de **Serviços** (MMC) no servidor, verifique se todos os serviços do Lync Server 2013 estão em execução.
 
 </div>
 

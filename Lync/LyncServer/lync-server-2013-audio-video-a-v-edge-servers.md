@@ -12,16 +12,16 @@ ms:contentKeyID: 49733785
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c99cc3522c13ece937c6e2a0ba06f995431e08d8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1262ee1a2db12569538f499731de53a9da133c98
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722641"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044733"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41722641"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
-O serviço de borda A/V fornece uma maneira para seus usuários internos (usuários que estão conectados à sua rede organizacional) para compartilhar áudio e vídeo com usuários externos (usuários que não estão conectados à sua rede organizacional). Além de áudio e vídeo, o serviço de borda A/V também oferece suporte para tarefas de compartilhamento de área de trabalho e transferência de arquivos.
+O Serviço de borda A/V fornece uma maneira para que seus usuários internos (usuários conectados à sua rede organizacional) compartilhem áudio e vídeo com usuários externos (usuários que não estão conectados à rede organizacional). Além de áudio e vídeo, o serviço de borda A/V fornece suporte para o compartilhamento de área de trabalho e a transferência de arquivos.
 
-O serviço de borda A/V é gerenciado principalmente usando-se A configuração de borda A/V; essas configurações permitem que você gerencie a quantidade máxima de largura de banda a ser alocada por porta e por usuário e especifique o período de tempo que um token de autenticação pode ser usado antes de o token ser renovado. As configurações de borda a/V podem ser aplicadas a sites ou a servidores de borda A/V individuais. Ao determinar quais conjuntos de configurações terão prioridade, use o seguinte guia:
+O serviço de borda A/V é gerenciado principalmente usando a configuração de borda A/V; essas configurações permitem que você gerencie a quantidade máxima de largura de banda que será alocada por porta e usuário, bem como para especificar por quanto tempo um token de autenticação pode ser usado antes de precisar renová-lo. As definições de configuração de borda A/V podem ser aplicadas a sites ou servidores de borda A/V individuais. Ao determinar qual conjunto de configurações terá prioridade, use o seguinte guia:
 
-  - As configurações definidas no escopo do serviço (ou seja, em um servidor individual) têm prioridade sobre tudo.
+  - As definições configuradas no escopo de serviço (isto é, em um servidor individual ) têm prioridade sobre tudo.
 
-  - As configurações definidas no escopo do site têm prioridade sobre as configurações definidas no escopo global. No entanto, as configurações de escopo do serviço também substituirão as configurações de escopo do site.
+  - As definições configuradas no escopo do site têm prioridade sobre as definições configuradas no escopo global. No entanto, as definições de escopo de serviço também substituem as configurações de escopo do site.
 
-  - As configurações no escopo global serão usadas apenas se não houver configurações de serviço configuradas no servidor individual e se não houver configurações de site para o site em que o servidor está localizado.
+  - As configurações no escopo global serão usadas somente se não há definições de serviço configuradas no servidor individual e se não há configurações de site para o site onde o servidor está localizado.
 
-O serviço de borda A/V só pode ser gerenciado usando o Lync Server PowerShell e os cmdlets CsAVEdgeConfiguration.
+O serviço de borda A/V só pode ser gerenciado com o uso do Lync Server PowerShell e dos cmdlets CsAVEdgeConfiguration.
 
 <div>
 
@@ -55,9 +55,9 @@ O serviço de borda A/V só pode ser gerenciado usando o Lync Server PowerShell 
 
   - [Retornar as informações de configuração do servidor de borda A/V no Lync Server 2013](lync-server-2013-return-a-v-edge-server-configuration-information.md)
 
-  - [Criar ou modificar um conjunto de configurações de servidor de borda A/V no Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-a-v-edge-server-configuration-settings.md)
+  - [Criar ou modificar uma coleção de definições de configuração de servidor de borda A/V no Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-a-v-edge-server-configuration-settings.md)
 
-  - [Excluir uma coleção existente de configurações de servidor de borda A/V no Lync Server 2013](lync-server-2013-delete-an-existing-collection-of-a-v-edge-server-configuration-settings.md)
+  - [Excluir um conjunto existente de definições de configuração de servidor de borda A/V no Lync Server 2013](lync-server-2013-delete-an-existing-collection-of-a-v-edge-server-configuration-settings.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Cenários para o Diretor'
+title: 'Lync Server 2013: cenários para o diretor'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185419
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac7c5a262f5323f28ff089766cab1f4d65e30757
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 23b05a44e139c59dcb0656c2339d67a0e529e59a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732611"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038183"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="scenarios-for-the-director-in-lync-server-2013"></a>Cenários para o Diretor no Lync Server 2013
+# <a name="scenarios-for-the-director-in-lync-server-2013"></a>Cenários para o diretor no Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41732611"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-22_
+_**Última modificação do tópico:** 2012-10-22_
 
-Um diretor é um servidor que executa o software de comunicação do Microsoft Lync Server 2013 que pode autenticar solicitações de usuário, mas não hospeda nenhuma conta de usuário. O diretor também hospeda serviços Web semelhantes ao servidor front-end e autentica solicitações de permissão da Web e fornece outros serviços.
+Um diretor é um servidor que executa o software de comunicações do Microsoft Lync Server 2013 que pode autenticar solicitações de usuário, mas não hospeda contas de usuário. O diretor também hospeda serviços Web similares ao servidor front-end e autentica as solicitações de tíquete da Web e fornece outros serviços.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Se você implantar diretores, deverá publicar os serviços Web do director externamente por meio do proxy reverso e dos serviços Web do servidor front-end. Os tópicos a seguir descrevem o processo de planejamento para as possíveis topologias de diretor.
+> Se você implantar diretores, deverá publicar os serviços Web do diretor externamente por meio do proxy reverso, bem como os serviços Web do servidor front-end. Os tópicos a seguir descrevem o processo de planejamento para as possíveis topologias do diretor.
 
 
 
@@ -53,15 +53,15 @@ Um diretor é um servidor que executa o software de comunicação do Microsoft L
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Visão Geral do Diretor no Lync Server 2013](lync-server-2013-overview-of-the-director.md)
+  - [Visão geral do diretor no Lync Server 2013](lync-server-2013-overview-of-the-director.md)
 
   - [Componentes necessários para o diretor no Lync Server 2013](lync-server-2013-components-required-for-the-director.md)
 
-  - [Requisitos de hardware e de software para o Diretor no Lync Server 2013](lync-server-2013-hardware-and-software-requirements-for-the-director.md)
+  - [Requisitos de hardware e software para o diretor no Lync Server 2013](lync-server-2013-hardware-and-software-requirements-for-the-director.md)
 
   - [Diretor único no Lync Server 2013](lync-server-2013-single-director.md)
 
-  - [Pool de Diretor em escala no Lync Server 2013](lync-server-2013-scaled-director-pool.md)
+  - [Pool de diretores em escala no Lync Server 2013](lync-server-2013-scaled-director-pool.md)
 
 </div>
 
@@ -70,8 +70,8 @@ Um diretor é um servidor que executa o software de comunicação do Microsoft L
 ## <a name="see-also"></a>Confira também
 
 
-[Topologias suportadas no Lync Server 2013](lync-server-2013-supported-topologies.md)  
-[Plataformas de hardware de servidor para Lync Server 2013](lync-server-2013-server-hardware-platforms.md)  
+[Topologias com suporte no Lync Server 2013](lync-server-2013-supported-topologies.md)  
+[Plataformas de hardware de servidor para o Lync Server 2013](lync-server-2013-server-hardware-platforms.md)  
   
 
 </div>

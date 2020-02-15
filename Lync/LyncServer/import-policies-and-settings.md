@@ -12,16 +12,16 @@ ms:contentKeyID: 48185147
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6f8023f917e3da6757ce27ede44a63cf0ab1a08d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b12a47ffde7d09fa7e216312211b6f0118b89233
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734081"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037381"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,39 +35,39 @@ ms.locfileid: "41734081"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-09-28_
+_**Última modificação do tópico:** 2012-09-28_
 
-Depois de mesclar as informações de topologia do Office Communications Server 2007 R2 com o pool piloto do Lync Server 2013, você precisa executar um cmdlet do Shell de gerenciamento do Lync Server 2013 para migrar suas configurações e políticas do Office Communications Server 2007 R2 para o pool piloto do Lync Server 2013.
+Após mesclar as informações de topologia do Office Communications Server 2007 R2 com o pool piloto do Lync Server 2013, você precisará executar um cmdlet do Shell de gerenciamento do Lync Server 2013 para migrar suas políticas e configurações do Office Communications Server 2007 R2 para o pool piloto do Lync Server 2013.
 
-O cmdlet **Import-CsLegacyConfiguration** importa políticas, rotas de voz, planos de discagem, URLs do Communicator Web Access e números de acesso discada para o Lync Server 2013.
+O cmdlet **Import-CsLegacyConfiguration** importa políticas, rotas de voz, planos de discagem, URLs do Communicator Web Access e números de acesso discado para o Lync Server 2013.
 
 <div>
 
-## <a name="to-migrate-policies-and-settings"></a>Para migrar políticas e configurações
+## <a name="to-migrate-policies-and-settings"></a>Para migrar as configurações e políticas
 
-1.  No servidor de front-end do Lync Server 2013, inicie o Shell de gerenciamento do Lync Server.
+1.  No servidor front-end do Lync Server 2013, inicie o Shell de gerenciamento do Lync Server.
 
 2.  Na linha de comando, digite o seguinte:
     
         Import-CsLegacyConfiguration
     
-    Depois que as políticas forem importadas, use o procedimento a seguir para ver as políticas importadas no painel de controle do Lync Server.
+    Após a importação das políticas, use o procedimento a seguir para ver as políticas importadas no painel de controle do Lync Server.
 
 </div>
 
 <div>
 
-## <a name="to-view-imported-policies"></a>Para exibir as políticas importadas
+## <a name="to-view-imported-policies"></a>Para ver as políticas importadas
 
 1.  Abra o painel de controle do Lync Server 2013.
 
-2.  Clique em **Roteamento de voz** e veja as políticas importadas.
+2.  Clique em **Roteamento de Voz** e veja as políticas importadas.
 
-3.  Clique em **conferência** e veja as políticas importadas.
+3.  Clique em **Conferência** e veja as políticas importadas.
 
-4.  Clique em **Federação e acesso externo** e veja as políticas importadas.
+4.  Click **Federation and External Access** and view the imported policies.
 
-5.  Clique em **monitoramento e arquivamento** e veja as políticas importadas.
+5.  Clique em **Monitoramento e Arquivamento** e veja as políticas importadas.
 
 </div>
 

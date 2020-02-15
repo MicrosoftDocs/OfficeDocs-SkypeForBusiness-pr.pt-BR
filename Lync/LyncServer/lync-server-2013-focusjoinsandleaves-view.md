@@ -12,16 +12,16 @@ ms:contentKeyID: 49733582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d7cc1da4f5923a7c42e74c9069054863f1d99a1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8c5c10cc90064e9ed3237dcd4cd4cbed1021d1b5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722401"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044053"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41722401"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-01_
+_**Última modificação do tópico:** 2012-10-01_
 
-A exibição FocusJoinsAndLeaves armazena informações sobre as informações de ingressar e sair de uma conferência. Cada conferência é representada por um registro escrito a cada vez que um usuário entra e sai da conferência. Este modo de exibição foi apresentado no Microsoft Lync Server 2013.
+O modo de exibição FocusJoinsAndLeaves armazena informações sobre as informações de ingresso e saída de uma conferência. Cada conferência é representada por um registro escrito a cada vez que um usuário entra e sai da conferência. Este modo de exibição foi introduzido no Microsoft Lync Server 2013.
 
 
 <table>
@@ -55,49 +55,49 @@ A exibição FocusJoinsAndLeaves armazena informações sobre as informações d
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Id_da_sessãotime</strong></p></td>
+<td><p><strong>Identificação_da_sessãotime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Hora da ocorrência da conferência. Usado em conjunto com SessionIdSeq para identificar uma instância de conferência de maneira exclusiva. Consulte a <a href="lync-server-2013-conferences-table.md">tabela conferências no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>Hora da instância da conferência. Usada em conjunto com SessionIdSeq para identificar uma instância da conferência de maneira exclusiva. Consulte a <a href="lync-server-2013-conferences-table.md">tabela conferências no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Número de identificação para identificar a instância de conferência. Usado em conjunto com a Identificação_da_sessãotime para identificar exclusivamente uma instância de conferência. Consulte a <a href="lync-server-2013-conferences-table.md">tabela conferências no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>Número de ID para identificar a instância da conferência. Usada em conjunto com SessionIdTime para identificar uma instância da conferência de maneira exclusiva. Consulte a <a href="lync-server-2013-conferences-table.md">tabela conferências no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserUri</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>URI do usuário cujas informações de associação/licença da conferência foram capturadas.</p></td>
+<td><p>URI do usuário cujas informações de ingresso/saída da conferência foram capturadas.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserUriType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Tipo de URI do usuário cujas informações de associação/licença de conferência foram capturadas. Consulte a <a href="lync-server-2013-uritypes-table.md">tabela UriTypes no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Tipo de URI do usuário cujas informações de ingresso/saída da conferência foram capturadas. Consulte a <a href="lync-server-2013-uritypes-table.md">tabela UriTypes no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Userlocatário</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Locatário do usuário cujas informações de associação/licença da conferência foram capturadas. Consulte a <a href="lync-server-2013-tenants-table.md">tabela locatários no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Locatário do usuário cujas informações de ingresso/saída da conferência foram capturadas. Consulte a <a href="lync-server-2013-tenants-table.md">tabela locatários no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Userendpointid</strong></p></td>
 <td><p>identificador</p></td>
-<td><p>Identificador exclusivo do usuário cujas informações de associação/licença da conferência foram capturadas.</p></td>
+<td><p>Identificador exclusivo do usuário cujas informações de ingresso/saída da conferência foram capturadas.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserClientVersion</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Versão do cliente usada pelo usuário cujas informações de associação/licença da conferência foram capturadas.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Versão do cliente usado pelo usuário cujas informações de ingresso/saída da conferência foram capturadas.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Userclienttype</strong></p></td>
 <td><p>int</p></td>
-<td><p>Cliente usado pelo usuário cujas informações de associação/licença da conferência foram capturadas. Consulte a <a href="lync-server-2013-useragentdef-table.md">tabela UserAgentDef no Lync Server 2013</a> para obter mais detalhes.</p></td>
+<td><p>Cliente usado pelo usuário cujas informações de ingresso/saída da conferência foram capturadas. Consulte a <a href="lync-server-2013-useragentdef-table.md">tabela UserAgentDef no Lync Server 2013</a> para obter mais detalhes.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserClientCategory</strong></p></td>
 <td><p>nvarchar (64)</p></td>
-<td><p>Nome da categoria do cliente usado pelo usuário cujas informações de associação/licença da conferência foram capturadas.</p></td>
+<td><p>Nome da categoria do cliente usado pelo usuário cujas informações de ingresso/saída da conferência foram capturadas.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FocusUserInstance</strong></p></td>
@@ -106,37 +106,37 @@ A exibição FocusJoinsAndLeaves armazena informações sobre as informações d
 </tr>
 <tr class="odd">
 <td><p><strong>IsuserInternal</strong></p></td>
-<td><p>bit</p></td>
-<td><p>Bit que representa se o usuário é um usuário interno ou não.</p></td>
+<td><p>bits</p></td>
+<td><p>Bit que representa se o usuário é interno ou não.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DialogSessionIdTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Tempo de solicitação de sessão. Usado em conjunto com o SessionIdSeq para identificar exclusivamente uma sessão. Consulte a <a href="lync-server-2013-dialogs-table.md">tabela de diálogos no Lync Server 2013</a> para obter mais informações.</p></td>
+<td><p>Hora da solicitação da sessão. Utilizada em conjunto com o SessionIdSeq para identificar de forma exclusiva uma sessão. Consulte a <a href="lync-server-2013-dialogs-table.md">tabela diálogos no Lync Server 2013</a> para obter mais informações.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DialogSessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Se um usuário estiver conectado em vários computadores ou dispositivos ao mesmo tempo, o UserInstance será usado para identificar exclusivamente a combinação de usuário/dispositivo.</p></td>
+<td><p>Se um usuário estiver conectado em vários computadores ou dispositivos ao mesmo tempo, UserInstance será usada para identificar exclusivamente a combinação de usuário/dispositivo.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Caixa de diálogo</strong></p></td>
+<td><p><strong>DialogId</strong></p></td>
 <td><p>varchar (775)</p></td>
-<td><p>ID da caixa de diálogo SIP da sessão. O formato é: caixa de diálogo; de-marca; para-marca.</p></td>
+<td><p>ID de diálogo SIP da sessão. O formato é: diálogo;de-marca;para-marca.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Userjointime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Hora em que o usuário ingressou na conferência.</p></td>
+<td><p>Hora em que o usuário entrou na conferência.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Userleavetime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Tempo em que o usuário saiu da conferência.</p></td>
+<td><p>Hora em que o usuário saiu da conferência.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Função</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p><strong>UserRole</strong></p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>Função do usuário na conferência, como apresentador ou participante.</p></td>
 </tr>
 </tbody>

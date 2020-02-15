@@ -12,107 +12,107 @@ ms:contentKeyID: 48183794
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d3a53ae779ccc6fb19bb2d16274e007b8fc405c6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3ec78fd434706ec3e1c5f28c256b38a5f4463ac7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739391"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044023"
 ---
-# <a name="assign-a-per-user-location-policy-in-lync-server-2013"></a>Atribuir uma política de localização por usuário no Lync Server 2013
+# <a name="assign-a-per-user-location-policy-in-lync-server-2013"></a>Atribuir uma política de local por usuário no Lync Server 2013
 
  
 
 
-A política de localização é uma das configurações individuais de uma conta de usuário que você pode configurar no painel de controle do Lync Server.
+A política de local é uma das configurações individuais de uma conta de usuário que você pode configurar no painel de controle do Lync Server.
 
-Implantar uma ou mais políticas de localização por usuário é opcional. Você também pode implantar apenas uma política de localização de nível global ou uma política de localização em nível de sub-rede. Se você implantar políticas por usuário, deverá atribui-las explicitamente aos usuários, grupos ou objeto de contato. As configurações avançadas do 9-1-1 (E9-1-1) são automaticamente padrão para as definidas na política de localização de nível global quando nenhuma política específica de nível de sub-rede ou por usuário é atribuída.
+Implantar uma ou mais políticas de local por usuário é opcional. Você também pode implantar somente uma política local nos níveis global ou de sub-rede. Se você implantar políticas por usuário, deverá atribui-las explicitamente a usuários, grupos ou objetos de contato. As configurações aprimoradas do 9-1-1 (E9-1-1) usam por padrão automaticamente as definidas na política de local de nível global, quando nenhuma política específica no nível da sub-rede ou por usuário é atribuída.
 
-Depois de criar pelo menos uma política de localização por usuário, use os procedimentos deste tópico para atribuir à política que especifica as configurações que você deseja que o servidor aplique para as chamadas de emergência feitas por um usuário específico.
+Depois de criar pelo menos uma política de local por usuário, use os procedimentos deste tópico para atribuir à política que determina as configurações que o servidor deverá aplicar às chamadas de emergência feitas por um usuário específico.
 
-Para obter uma lista de todas as configurações de política de localização disponíveis, consulte [definindo a política de localização do Lync Server 2013](lync-server-2013-defining-the-location-policy.md).
+Para obter uma lista de todas as configurações de política de local disponíveis, consulte [definindo a política de local para o Lync Server 2013](lync-server-2013-defining-the-location-policy.md).
 
-Para obter detalhes sobre como criar políticas de localização, consulte [criar políticas de localização no Lync Server 2013](lync-server-2013-create-location-policies.md).
+Para obter detalhes sobre como criar políticas de local, consulte [Create Location Policies in Lync Server 2013](lync-server-2013-create-location-policies.md).
 
 ## <a name="to-assign-a-per-user-location-policy-with-the-lync-server-control-panel"></a>Para atribuir uma política de local por usuário com o painel de controle do Lync Server
 
-1.  Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+1.  Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação esquerda, clique em **Usuários**.
+3.  Na barra de navegação à esquerda, clique em **Usuários**.
 
-4.  Use um dos seguintes métodos para localizar um usuário:
+4.  Utilize um dos métodos a seguir para localizar um usuário:
     
-      - Na caixa **Pesquisar usuários**, digite todo ou parte do nome de exibição, nome, sobrenome, nome da conta SAM, endereço SIP ou URI de linha da conta do usuário e clique em **Localizar**.
+      - Na caixa **Buscar usuários**, digite toda ou a primeira parte do nome de exibição, nome, sobrenome, nome da conta do Gerenciador de Contas de Segurança (SAM), endereço SIP ou linha do Uniform Resource Identifier (URI) da conta de usuário, e então clique em **Localizar**.
     
-      - Se você salvou uma consulta, clique no ícone **Abrir consulta**, use a caixa de diálogo **Abrir** para recuperar a consulta (um arquivo .usf) e clique em **Localizar**.
+      - Se você tiver uma consulta salva, clique no ícone **Abrir consulta**, utilize a caixa de diálogo **Abrir**  para obter a consulta (um arquivo .usf) e, então, clique em **Localizar**.
 
-5.  (Opcional) Especifique o critério de pesquisa adicional para reduzir os resultados:
+5.  (Opcional) Especifique critérios de busca adicionais para limitar os resultados:
     
     1.  Clique em **Adicionar filtro**.
     
-    2.  Insira a propriedade do usuário digitando ou clicando na seta da lista suspensa para selecionar a propriedade.
+    2.  Insira a propriedade de usuário digitando ou clicando na seta na lista suspensa para selecionar a propriedade.
     
     3.  Na lista suspensa **Igual a**, clique no operador (por exemplo, **Igual a** ou **Diferente de**).
     
-    4.  Dependendo da propriedade do usuário selecionada, insira o critério que deseja usar para filtrar os resultados de pesquisa digitando ou clicando na seta da lista suspensa.
+    4.  Dependendo da propriedade do usuário selecionada, insira os critérios que você deseja usar para filtrar os resultados pesquisa, digitando-os ou clicando na seta na lista suspensa.
         
 
         > [!TIP]  
-        > Para adicionar cláusulas de pesquisa adicionais à sua consulta, clique em <STRONG>Adicionar filtro</STRONG>.
+        > Para adicionar cláusulas de pesquisa à sua consulta, clique em <STRONG>Adicionar filtro</STRONG>.
 
     
     5.  Clique em **Localizar**.
 
-6.  Clique em um usuário nos resultados da pesquisa, clique em **Ação** e em seguida, clique em **Atribuir políticas**.
+6.  Clique em um usuário nos resultados da pesquisa, clique em **Ação** e em **Atribuir políticas**.
     
 
     > [!TIP]  
-    > Se você quiser que a mesma política de localização por usuário seja aplicada a vários usuários, selecione vários usuários nos resultados da pesquisa, clique em <STRONG>ações</STRONG>e, em seguida, clique em <STRONG>atribuir políticas</STRONG>.
+    > Se você deseja aplicar a mesma política de local para usuários múltiplos, selecione os usuários nos resultados da pesquisa e clique em <STRONG>Ações</STRONG> e em <STRONG>Atribuir políticas</STRONG>.
 
 
 
-7.  Em **atribuir políticas**, em **política de localização**, siga um destes procedimentos:
+7.  Em **Atribuir políticas**, em **Política de local**, siga um destes procedimentos:
     
 
     > [!NOTE]  
-    > Como há várias diretivas que você pode configurar usando a caixa de diálogo <STRONG>atribuir políticas</STRONG> , <STRONG> &lt;manter como está&gt; </STRONG> selecionado por padrão para cada política na caixa de diálogo. Continue usando a política atribuída anteriormente ao usuário não realizando alterações nesta configuração.
+    > Como há várias políticas que você pode configurar usando a caixa de diálogo <STRONG>atribuir políticas</STRONG> , <STRONG> &lt;manter como está&gt; </STRONG> selecionada por padrão para todas as políticas da caixa de diálogo. Para continuar usando a política previamente atribuída ao usuário, basta não fazer nenhuma alteração nessa configuração.
 
     
       - Permitir que o Lync Server 2013 escolha automaticamente a política de nível global ou, se definida, a política de nível de sub-rede.
     
-      - Clique no nome de uma política de local por usuário que você definiu anteriormente executando o cmdlet **New-CsLocationPolicy** .
+      - Clique no nome de uma política de local por usuário que você definiu previamente, executando o cmdlet **New-CsLocationPolicy**.
         
 
         > [!TIP]  
-        > Para ajudá-lo a decidir a política que você deseja atribuir, depois de clicar no nome da política, clique em <STRONG>Exibir</STRONG> para ver os direitos do usuário e as permissões definidas na política.
+        > Para ajudar a decidir qual política você deseja atribuir, depois de clicar no nome da política, clique em <STRONG>Exibir</STRONG> para ver os direitos de usuário e as permissões definidas.
 
 
 
-8.  Ao concluir, clique em **OK**.
+8.  Quando terminar, clique em **OK**.
 
-## <a name="assigning-a-per-user-location-policy-by-using-lync-server-management-shell-cmdlets"></a>Atribuir uma política de local por usuário usando cmdlets do Shell de gerenciamento do Lync Server
+## <a name="assigning-a-per-user-location-policy-by-using-lync-server-management-shell-cmdlets"></a>Atribuindo uma política de local por usuário usando cmdlets do Shell de gerenciamento do Lync Server
 
-Você pode atribuir políticas de localização por usuário usando o cmdlet Grant-CsLocationPolicy. Você pode executar esse cmdlet a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.
+Você pode atribuir políticas de local por usuário usando o cmdlet Grant-CsLocationPolicy. Você pode executar esse cmdlet do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
 
-## <a name="to-assign-a-per-user-location-policy-to-a-single-user"></a>Para atribuir uma política de localização por usuário a um único usuário
+## <a name="to-assign-a-per-user-location-policy-to-a-single-user"></a>Para atribuir um política de local por usuário a um único usuário
 
-  - O comando a seguir atribui a RedmondLocationPolicy de política de localização por usuário ao usuário Ken Myer.
+  - O comando a seguir atribui a política de local por usuário RedmondLocationPolicy ao usuário Ken Myer.
     
         Grant-CsLocationPolicy -Identity "Ken Myer" -PolicyName "RedmondLocationPolicy"
 
 ## <a name="to-assign-a-per-user-location-policy-to-multiple-users"></a>Para atribuir uma política de local por usuário a vários usuários
 
-  - Esse comando atribui a política de localização por usuário AccountingDepartmentLocationPolicy a todos os usuários que trabalham para o departamento de contabilidade. Para obter mais informações sobre o parâmetro LdapFilter usado neste comando, consulte a documentação do cmdlet [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) .
+  - Este comando atribui a política de local por usuário AccountingDepartmentLocationPolicy a todos os usuários que trabalham no departamento contábil. Para obter mais informações sobre o parâmetro LdapFilter usado neste comando, consulte a documentação do cmdlet [Get-CsUser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) .
     
         Get-CsUser -LdapFilter "Department=Accounting" | Grant-CsLocationPolicy -PolicyName "AccountingDepartmentLocationPolicy"
 
-## <a name="to-unassign-a-per-user-location-policy"></a>Para cancelar a atribuição de uma política de local por usuário
+## <a name="to-unassign-a-per-user-location-policy"></a>Para desfazer a atribuição de uma política de local por usuário
 
-  - O comando a seguir não atribui atribuições de política de local por usuário anteriormente atribuídas a Ken Myer. Após a política por usuário ser retirada, Ken irá automaticamente ser gerenciado usando a política global ou, se existir, sua política de site local. Uma política de site tem precedência sobre a política global.
+  - O comando a seguir desfaz a atribuição de qualquer política de local por usuário atribuída a Ken Myer. Depois que a atribuição da política for desfeita, Ken Myer será automaticamente gerenciado usando a política global ou, se houver, sua política de site local. Uma política de site tem preferência sobre a política global.
     
         Grant-CsLocationPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para obter mais informações, consulte o tópico da ajuda para o cmdlet [Grant-CsLocationPolicy](https://technet.microsoft.com/en-us/library/gg413049\(v=ocs.15\)) .
+Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Grant-CsLocationPolicy](https://technet.microsoft.com/library/gg413049\(v=ocs.15\)) .
 
