@@ -12,20 +12,20 @@ ms:contentKeyID: 63969582
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8838e5d3dfd1e3590f7988102f187c49114fc233
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d8838336fbea4f901b763b7ca034f42e957de33
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734001"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043493"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="performing-physical-environmental-checks"></a><span data-ttu-id="2053f-102">Realização de verificações ambientais físicas</span><span class="sxs-lookup"><span data-stu-id="2053f-102">Performing physical environmental checks</span></span>
+# <a name="performing-physical-environmental-checks"></a><span data-ttu-id="ece7f-102">Executando verificações ambientais físicas</span><span class="sxs-lookup"><span data-stu-id="ece7f-102">Performing physical environmental checks</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41734001"
 
 <span> </span>
 
-<span data-ttu-id="2053f-103">_**Tópico da última modificação:** 2014-04-30_</span><span class="sxs-lookup"><span data-stu-id="2053f-103">_**Topic Last Modified:** 2014-04-30_</span></span>
+<span data-ttu-id="ece7f-103">_**Última modificação do tópico:** 2014-04-30_</span><span class="sxs-lookup"><span data-stu-id="ece7f-103">_**Topic Last Modified:** 2014-04-30_</span></span>
 
-<span data-ttu-id="2053f-104">Antes de verificar o desempenho, a disponibilidade e a funcionalidade da implantação do Lync Server 2013, você deve verificar o ambiente físico.</span><span class="sxs-lookup"><span data-stu-id="2053f-104">Before checking the performance, availability, and functionality of the Lync Server 2013 deployment, you should check the physical environment.</span></span> <span data-ttu-id="2053f-105">Por exemplo, a temperatura da sala do servidor pode precisar ser diminuída ou pode ser necessário substituir um cabo de rede.</span><span class="sxs-lookup"><span data-stu-id="2053f-105">For example, the server room temperature might have to be lowered, or a network cable might have to be replaced.</span></span> <span data-ttu-id="2053f-106">Para obter melhores resultados, realize as seguintes inspeções ambientais físicas:</span><span class="sxs-lookup"><span data-stu-id="2053f-106">For best results, perform the following physical environmental inspections:</span></span>
+<span data-ttu-id="ece7f-104">Antes de verificar o desempenho, a disponibilidade e a funcionalidade da implantação do Lync Server 2013, você deve verificar o ambiente físico.</span><span class="sxs-lookup"><span data-stu-id="ece7f-104">Before checking the performance, availability, and functionality of the Lync Server 2013 deployment, you should check the physical environment.</span></span> <span data-ttu-id="ece7f-105">Por exemplo, a temperatura da sala do servidor pode ter que ser diminuída ou um cabo de rede pode ter que ser substituído.</span><span class="sxs-lookup"><span data-stu-id="ece7f-105">For example, the server room temperature might have to be lowered, or a network cable might have to be replaced.</span></span> <span data-ttu-id="ece7f-106">Para obter melhores resultados, execute as seguintes inspeções de ambiente físico:</span><span class="sxs-lookup"><span data-stu-id="ece7f-106">For best results, perform the following physical environmental inspections:</span></span>
 
-  - <span data-ttu-id="2053f-107">**Segurança física medidas**   a proteção de segurança física, como bloqueios, portas e salas de acesso restrito, deve ser protegida.</span><span class="sxs-lookup"><span data-stu-id="2053f-107">**Physical security measures**   Physical security protection such as locks, doors, and restricted-access rooms must be secured.</span></span> <span data-ttu-id="2053f-108">Verifique se há entradas não autorizadas e forçadas e sinais de danos no equipamento.</span><span class="sxs-lookup"><span data-stu-id="2053f-108">Check for any unauthorized and forced entries and signs of equipment damage.</span></span>
+  - <span data-ttu-id="ece7f-107">**A segurança física mede**   a proteção de segurança física, como bloqueios, portas e salas de acesso restrito devem ser protegidas.</span><span class="sxs-lookup"><span data-stu-id="ece7f-107">**Physical security measures**   Physical security protection such as locks, doors, and restricted-access rooms must be secured.</span></span> <span data-ttu-id="ece7f-108">Verifique se há entradas não autorizadas e forçadas e sinais de danos a equipamentos.</span><span class="sxs-lookup"><span data-stu-id="ece7f-108">Check for any unauthorized and forced entries and signs of equipment damage.</span></span>
 
-  - <span data-ttu-id="2053f-109">**Temperatura e umidade**   de alta temperatura, fluxo de ar fraco e umidade podem causar sobreaquecimento a componentes de hardware.</span><span class="sxs-lookup"><span data-stu-id="2053f-109">**Temperature and humidity**   High temperature, poor air flow, and humidity can cause hardware components to overheat.</span></span> <span data-ttu-id="2053f-110">Verifique a temperatura e a umidade para ajudar a garantir que os sistemas ambientais, como aquecimento e ar condicionado, mantenham condições e funções aceitáveis nas especificações do fabricante do hardware.</span><span class="sxs-lookup"><span data-stu-id="2053f-110">Check temperature and humidity to help to make sure that the environmental systems such as heating and air conditioning can maintain acceptable conditions and function within the hardware manufacturer's specifications.</span></span> <span data-ttu-id="2053f-111">Quando um novo equipamento tiver sido instalado recentemente, verifique se o fluxo de ar de e para os servidores não é impedido e atende às especificações do fabricante.</span><span class="sxs-lookup"><span data-stu-id="2053f-111">When new equipment has recently been installed, also check that air flow both to and from the servers is unimpeded and meets manufacturer spec.</span></span>
+  - <span data-ttu-id="ece7f-109">**Temperatura e umidade**   alta temperatura, fluxo de ar ruim e umidade podem causar o superaquecimento dos componentes de hardware.</span><span class="sxs-lookup"><span data-stu-id="ece7f-109">**Temperature and humidity**   High temperature, poor air flow, and humidity can cause hardware components to overheat.</span></span> <span data-ttu-id="ece7f-110">Verifique a temperatura e a umidade para ajudar a garantir que os sistemas ambientais, como calefação e ar condicionado, possam manter as condições e funções aceitáveis nas especificações do fabricante do hardware.</span><span class="sxs-lookup"><span data-stu-id="ece7f-110">Check temperature and humidity to help to make sure that the environmental systems such as heating and air conditioning can maintain acceptable conditions and function within the hardware manufacturer's specifications.</span></span> <span data-ttu-id="ece7f-111">Quando um novo equipamento tiver sido instalado recentemente, verifique também se o fluxo de ar de e para os servidores está impedida e atende à especificação do fabricante.</span><span class="sxs-lookup"><span data-stu-id="ece7f-111">When new equipment has recently been installed, also check that air flow both to and from the servers is unimpeded and meets manufacturer spec.</span></span>
 
-  - <span data-ttu-id="2053f-112">**Dispositivos e componentes**   a organização do Lync Server 2013 depende de uma rede física em funcionamento e de um hardware relacionado.</span><span class="sxs-lookup"><span data-stu-id="2053f-112">**Devices and components**   The Lync Server 2013 organization relies on a functioning physical network and related hardware.</span></span> <span data-ttu-id="2053f-113">Certifique-se de que roteadores, switches, hubs, cabos físicos e conectores estão operacionais.</span><span class="sxs-lookup"><span data-stu-id="2053f-113">Make sure that routers, switches, hubs, physical cables, and connectors are operational.</span></span>
+  - <span data-ttu-id="ece7f-112">**Dispositivos e componentes**   a organização do Lync Server 2013 depende de uma rede física em funcionamento e de um hardware relacionado.</span><span class="sxs-lookup"><span data-stu-id="ece7f-112">**Devices and components**   The Lync Server 2013 organization relies on a functioning physical network and related hardware.</span></span> <span data-ttu-id="ece7f-113">Certifique-se de que roteadores, comutadores, hubs, cabos físicos e conectores estão operacionais.</span><span class="sxs-lookup"><span data-stu-id="ece7f-113">Make sure that routers, switches, hubs, physical cables, and connectors are operational.</span></span>
 
-<span data-ttu-id="2053f-114">As especificações sobre como realizar essas verificações dependerão muito do seu site de instalação e do hardware do servidor escolhido.</span><span class="sxs-lookup"><span data-stu-id="2053f-114">The specifics on how to perform these checks will depend greatly on your installation site and the server hardware that was chosen.</span></span> <span data-ttu-id="2053f-115">Na primeira vez que você executar essa verificação, consulte a documentação do hardware e anote os parâmetros desejados para referência futura.</span><span class="sxs-lookup"><span data-stu-id="2053f-115">The first time that you perform this check, refer to the hardware documentation and note the desired parameters for future reference.</span></span>
+<span data-ttu-id="ece7f-114">As informações específicas sobre como realizar essas verificações dependerão muito do seu site de instalação e do hardware do servidor escolhido.</span><span class="sxs-lookup"><span data-stu-id="ece7f-114">The specifics on how to perform these checks will depend greatly on your installation site and the server hardware that was chosen.</span></span> <span data-ttu-id="ece7f-115">Na primeira vez que você executar essa verificação, consulte a documentação do hardware e observe os parâmetros desejados para referência futura.</span><span class="sxs-lookup"><span data-stu-id="ece7f-115">The first time that you perform this check, refer to the hardware documentation and note the desired parameters for future reference.</span></span>
 
-### <a name="desired-server-space-environment"></a><span data-ttu-id="2053f-116">Ambiente de espaço do servidor desejado</span><span class="sxs-lookup"><span data-stu-id="2053f-116">Desired server space environment</span></span>
+### <a name="desired-server-space-environment"></a><span data-ttu-id="ece7f-116">Ambiente de espaço do servidor desejado</span><span class="sxs-lookup"><span data-stu-id="ece7f-116">Desired server space environment</span></span>
 
 <table>
 <colgroup>
@@ -56,25 +56,25 @@ ms.locfileid: "41734001"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="2053f-117">Parâmetro</span><span class="sxs-lookup"><span data-stu-id="2053f-117">Parameter</span></span></th>
-<th><span data-ttu-id="2053f-118">Valor desejado ou intervalo</span><span class="sxs-lookup"><span data-stu-id="2053f-118">Desired value or range</span></span></th>
+<th><span data-ttu-id="ece7f-117">Parâmetro</span><span class="sxs-lookup"><span data-stu-id="ece7f-117">Parameter</span></span></th>
+<th><span data-ttu-id="ece7f-118">Valor ou intervalo desejado</span><span class="sxs-lookup"><span data-stu-id="ece7f-118">Desired value or range</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2053f-119">Aquecimento</span><span class="sxs-lookup"><span data-stu-id="2053f-119">Temperature</span></span></p></td>
+<td><p><span data-ttu-id="ece7f-119">Temperatura</span><span class="sxs-lookup"><span data-stu-id="ece7f-119">Temperature</span></span></p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2053f-120">Relativa</span><span class="sxs-lookup"><span data-stu-id="2053f-120">Humidity</span></span></p></td>
+<td><p><span data-ttu-id="ece7f-120">Umidade</span><span class="sxs-lookup"><span data-stu-id="ece7f-120">Humidity</span></span></p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2053f-121">Frente das faces do servidor</span><span class="sxs-lookup"><span data-stu-id="2053f-121">Front of server faces</span></span></p></td>
-<td><p><span data-ttu-id="2053f-122">Corredor quente/corredor frio</span><span class="sxs-lookup"><span data-stu-id="2053f-122">Hot aisle / cold aisle</span></span></p></td>
+<td><p><span data-ttu-id="ece7f-121">Frente do servidor</span><span class="sxs-lookup"><span data-stu-id="ece7f-121">Front of server faces</span></span></p></td>
+<td><p><span data-ttu-id="ece7f-122">Corredor quente/corredor frio</span><span class="sxs-lookup"><span data-stu-id="ece7f-122">Hot aisle / cold aisle</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2053f-123">Percurso de exaustão não impedida</span><span class="sxs-lookup"><span data-stu-id="2053f-123">Unimpeded exhaust clearance</span></span></p></td>
+<td><p><span data-ttu-id="ece7f-123">Percurso de exaustão não impedida</span><span class="sxs-lookup"><span data-stu-id="ece7f-123">Unimpeded exhaust clearance</span></span></p></td>
 <td></td>
 </tr>
 </tbody>

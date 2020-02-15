@@ -12,20 +12,20 @@ ms:contentKeyID: 48183425
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5da1da6f54fa9099cc455040a71fb11c4fe070e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 407b7efd00a521e0eec7a6d573368d2f971ce3bc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735417"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042098"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="errorcategory-table-in-lync-server-2013"></a><span data-ttu-id="e07bb-102">Tabela ErrorCategory no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e07bb-102">ErrorCategory table in Lync Server 2013</span></span>
+# <a name="errorcategory-table-in-lync-server-2013"></a><span data-ttu-id="2eec5-102">Tabela ErrorCategory no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2eec5-102">ErrorCategory table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41735417"
 
 <span> </span>
 
-<span data-ttu-id="e07bb-103">_**Tópico da última modificação:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="e07bb-103">_**Topic Last Modified:** 2012-08-20_</span></span>
+<span data-ttu-id="2eec5-103">_**Última modificação do tópico:** 2012-08-20_</span><span class="sxs-lookup"><span data-stu-id="2eec5-103">_**Topic Last Modified:** 2012-08-20_</span></span>
 
-<span data-ttu-id="e07bb-104">A tabela ErrorCategory contém o nome amigável para cada classificação de diagnóstico do Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e07bb-104">The ErrorCategory table contains the friendly name for each Microsoft Lync Server 2013 diagnostic classification.</span></span> <span data-ttu-id="e07bb-105">Por padrão, o Lync Server 2013 usa as seguintes classificações:</span><span class="sxs-lookup"><span data-stu-id="e07bb-105">By default, Lync Server 2013 uses the following classifications:</span></span>
+<span data-ttu-id="2eec5-104">A tabela ErrorCategory contém o nome amigável para cada classificação de diagnóstico do Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2eec5-104">The ErrorCategory table contains the friendly name for each Microsoft Lync Server 2013 diagnostic classification.</span></span> <span data-ttu-id="2eec5-105">Por padrão, o Lync Server 2013 usa as seguintes classificações:</span><span class="sxs-lookup"><span data-stu-id="2eec5-105">By default, Lync Server 2013 uses the following classifications:</span></span>
 
-  - <span data-ttu-id="e07bb-106">0--sucesso</span><span class="sxs-lookup"><span data-stu-id="e07bb-106">0 -- Success</span></span>
+  - <span data-ttu-id="2eec5-106">0 -- Sucesso</span><span class="sxs-lookup"><span data-stu-id="2eec5-106">0 -- Success</span></span>
 
-  - <span data-ttu-id="e07bb-107">1--falha prevista</span><span class="sxs-lookup"><span data-stu-id="e07bb-107">1 -- Expected failure</span></span>
+  - <span data-ttu-id="2eec5-107">1--falha esperada</span><span class="sxs-lookup"><span data-stu-id="2eec5-107">1 -- Expected failure</span></span>
 
-  - <span data-ttu-id="e07bb-108">2 – falha inesperada</span><span class="sxs-lookup"><span data-stu-id="e07bb-108">2 – Unexpected failure</span></span>
+  - <span data-ttu-id="2eec5-108">2 – Falha inesperada</span><span class="sxs-lookup"><span data-stu-id="2eec5-108">2 – Unexpected failure</span></span>
 
-<span data-ttu-id="e07bb-109">Esta tabela foi introduzida no Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e07bb-109">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="2eec5-109">Esta tabela foi introduzida no Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="2eec5-109">This table was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -57,28 +57,28 @@ ms.locfileid: "41735417"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e07bb-110">Coluna</span><span class="sxs-lookup"><span data-stu-id="e07bb-110">Column</span></span></th>
-<th><span data-ttu-id="e07bb-111">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="e07bb-111">Data Type</span></span></th>
-<th><span data-ttu-id="e07bb-112">Chave/índice</span><span class="sxs-lookup"><span data-stu-id="e07bb-112">Key/Index</span></span></th>
-<th><span data-ttu-id="e07bb-113">Detalhes</span><span class="sxs-lookup"><span data-stu-id="e07bb-113">Details</span></span></th>
+<th><span data-ttu-id="2eec5-110">Coluna</span><span class="sxs-lookup"><span data-stu-id="2eec5-110">Column</span></span></th>
+<th><span data-ttu-id="2eec5-111">Tipo de dados</span><span class="sxs-lookup"><span data-stu-id="2eec5-111">Data Type</span></span></th>
+<th><span data-ttu-id="2eec5-112">Chave/índice</span><span class="sxs-lookup"><span data-stu-id="2eec5-112">Key/Index</span></span></th>
+<th><span data-ttu-id="2eec5-113">Detalhes</span><span class="sxs-lookup"><span data-stu-id="2eec5-113">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e07bb-114"><strong>CódigoDaCategoria</strong></span><span class="sxs-lookup"><span data-stu-id="e07bb-114"><strong>CategoryId</strong></span></span></p></td>
-<td><p><span data-ttu-id="e07bb-115">tinyint</span><span class="sxs-lookup"><span data-stu-id="e07bb-115">tinyint</span></span></p></td>
-<td><p><span data-ttu-id="e07bb-116">Primária</span><span class="sxs-lookup"><span data-stu-id="e07bb-116">Primary</span></span></p></td>
-<td><p><span data-ttu-id="e07bb-117">Identificador exclusivo da classificação.</span><span class="sxs-lookup"><span data-stu-id="e07bb-117">Unique identifier for the classification.</span></span></p></td>
+<td><p><span data-ttu-id="2eec5-114"><strong>CategoryId</strong></span><span class="sxs-lookup"><span data-stu-id="2eec5-114"><strong>CategoryId</strong></span></span></p></td>
+<td><p><span data-ttu-id="2eec5-115">tinyint</span><span class="sxs-lookup"><span data-stu-id="2eec5-115">tinyint</span></span></p></td>
+<td><p><span data-ttu-id="2eec5-116">Primário</span><span class="sxs-lookup"><span data-stu-id="2eec5-116">Primary</span></span></p></td>
+<td><p><span data-ttu-id="2eec5-117">Identificador único para a classificação.</span><span class="sxs-lookup"><span data-stu-id="2eec5-117">Unique identifier for the classification.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e07bb-118"><strong>Nome</strong></span><span class="sxs-lookup"><span data-stu-id="e07bb-118"><strong>Name</strong></span></span></p></td>
-<td><p><span data-ttu-id="e07bb-119">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="e07bb-119">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="2eec5-118"><strong>Nome</strong></span><span class="sxs-lookup"><span data-stu-id="2eec5-118"><strong>Name</strong></span></span></p></td>
+<td><p><span data-ttu-id="2eec5-119">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="2eec5-119">nvarchar(256)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="e07bb-120">Valor e nome amigável atribuídos à classificação.</span><span class="sxs-lookup"><span data-stu-id="e07bb-120">Value and friendly name assigned to the classification.</span></span> <span data-ttu-id="e07bb-121">Os valores permitidos são:</span><span class="sxs-lookup"><span data-stu-id="e07bb-121">Allowed values are:</span></span></p>
+<td><p><span data-ttu-id="2eec5-p102">Valor e nome amigável atribuídos à classificação. Os valores permitidos são:</span><span class="sxs-lookup"><span data-stu-id="2eec5-p102">Value and friendly name assigned to the classification. Allowed values are:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="e07bb-122">0--sucesso</span><span class="sxs-lookup"><span data-stu-id="e07bb-122">0 -- Success</span></span></p></li>
-<li><p><span data-ttu-id="e07bb-123">1--falha prevista</span><span class="sxs-lookup"><span data-stu-id="e07bb-123">1 -- Expected failure</span></span></p></li>
-<li><p><span data-ttu-id="e07bb-124">2 – falha inesperada</span><span class="sxs-lookup"><span data-stu-id="e07bb-124">2 – Unexpected failure</span></span></p></li>
+<li><p><span data-ttu-id="2eec5-122">0 -- Sucesso</span><span class="sxs-lookup"><span data-stu-id="2eec5-122">0 -- Success</span></span></p></li>
+<li><p><span data-ttu-id="2eec5-123">1--falha esperada</span><span class="sxs-lookup"><span data-stu-id="2eec5-123">1 -- Expected failure</span></span></p></li>
+<li><p><span data-ttu-id="2eec5-124">2 – Falha inesperada</span><span class="sxs-lookup"><span data-stu-id="2eec5-124">2 – Unexpected failure</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>

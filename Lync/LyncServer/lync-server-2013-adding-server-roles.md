@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Adicionando funções de servidor'
+title: 'Lync Server 2013: adicionando funções de servidor'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185033
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cb56bb77cdd190894f905f0ff0848b9f86dd9a7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f80ce308640b249dc4b73af98a0c2206923abf84
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738021"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038513"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="adding-server-roles-in-lync-server-2013"></a><span data-ttu-id="f3fe1-102">Adicionando funções de servidor no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f3fe1-102">Adding server roles in Lync Server 2013</span></span>
+# <a name="adding-server-roles-in-lync-server-2013"></a><span data-ttu-id="93dee-102">Adicionando funções de servidor no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="93dee-102">Adding server roles in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41738021"
 
 <span> </span>
 
-<span data-ttu-id="f3fe1-103">_**Tópico da última modificação:** 2012-06-19_</span><span class="sxs-lookup"><span data-stu-id="f3fe1-103">_**Topic Last Modified:** 2012-06-19_</span></span>
+<span data-ttu-id="93dee-103">_**Última modificação do tópico:** 2012-06-19_</span><span class="sxs-lookup"><span data-stu-id="93dee-103">_**Topic Last Modified:** 2012-06-19_</span></span>
 
-<span data-ttu-id="f3fe1-104">Depois de instalar e executar a implantação inicial, você pode adicionar outras funções de servidor para o Lync Server 2013, como um director ou um servidor de mediação autônomo.</span><span class="sxs-lookup"><span data-stu-id="f3fe1-104">After you have your initial deployment up and running, you can add additional server roles for Lync Server 2013, such as a Director or a stand-alone Mediation Server.</span></span>
+<span data-ttu-id="93dee-104">Após a implantação inicial ser ativa e em execução, você pode adicionar outras funções de servidor para o Lync Server 2013, como um diretor ou um servidor de mediação autônomo.</span><span class="sxs-lookup"><span data-stu-id="93dee-104">After you have your initial deployment up and running, you can add additional server roles for Lync Server 2013, such as a Director or a stand-alone Mediation Server.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="f3fe1-105">Antes de realizar a tarefa de instalação de funções de servidor adicionais, consulte os tópicos de planejamento relacionados a cada função.</span><span class="sxs-lookup"><span data-stu-id="f3fe1-105">Before undertaking the task of installing additional server roles, see the Planning topics related to each role.</span></span>
+> <span data-ttu-id="93dee-105">Antes de aceitar a tarefa de instalar funções de servidor adicionais, consulte os tópicos de Planejamento relacionados a cada função.</span><span class="sxs-lookup"><span data-stu-id="93dee-105">Before undertaking the task of installing additional server roles, see the Planning topics related to each role.</span></span>
 
 
 
@@ -51,11 +51,11 @@ ms.locfileid: "41738021"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="f3fe1-106">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="f3fe1-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="93dee-106">Nesta seção</span><span class="sxs-lookup"><span data-stu-id="93dee-106">In This Section</span></span>
 
-  - [<span data-ttu-id="f3fe1-107">Configurando conferência discada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f3fe1-107">Configuring dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-configuring-dial-in-conferencing.md)
+  - [<span data-ttu-id="93dee-107">Configurando a conferência discada no Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="93dee-107">Configuring dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-configuring-dial-in-conferencing.md)
 
-<span data-ttu-id="f3fe1-108">Além disso, para obter detalhes sobre a implantação do software cliente e dispositivos que podem ser usados com o Lync Server 2013, consulte [implantando clientes e dispositivos no Lync server 2013](lync-server-2013-deploying-clients-and-devices.md).</span><span class="sxs-lookup"><span data-stu-id="f3fe1-108">Additionally, for details about the deployment of your client software and devices that can be used with Lync Server 2013, see [Deploying clients and devices in Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md).</span></span>
+<span data-ttu-id="93dee-108">Além disso, para obter detalhes sobre a implantação do software cliente e dispositivos que podem ser usados com o Lync Server 2013, consulte [Deploying clients and Devices in Lync server 2013](lync-server-2013-deploying-clients-and-devices.md).</span><span class="sxs-lookup"><span data-stu-id="93dee-108">Additionally, for details about the deployment of your client software and devices that can be used with Lync Server 2013, see [Deploying clients and devices in Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md).</span></span>
 
 </div>
 
