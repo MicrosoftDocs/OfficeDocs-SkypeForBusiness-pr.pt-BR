@@ -12,16 +12,16 @@ ms:contentKeyID: 51541488
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f43cbe049fdedc2f0b4d31eecc4a0506a4a62201
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6a4cfda150c1ea8fadba3adff98ab1a95255c11e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723531"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051223"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41723531"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-18_
+_**Última modificação do tópico:** 2013-02-18_
 
-A implantação do Lync Server pode incluir qualquer um dos seguintes tipos de pool:
+Sua implantação do Lync Server pode incluir qualquer um dos seguintes tipos de pools:
 
   - Servidor Front-End
 
   - Servidor de Mediação
 
-  - Servidor de Chat Persistente
+  - Servidor de chat persistente
 
   - Servidor de Borda
 
-Se um pool inteiro apresentar uma falha, siga estes procedimentos para cada servidor membro do pool.
+Se um pool inteiro apresentar uma interrupção, siga estes procedimentos para cada servidor membro no pool.
 
-  - Para um pool de front-ends, restaure primeiro o servidor back-end e, em seguida, restaure cada servidor front-end. Para obter detalhes, consulte [restaurando um servidor back-end do Enterprise Edition no Lync server 2013](lync-server-2013-restoring-an-enterprise-edition-back-end-server.md) e [restaurando um servidor membro da Enterprise Edition no Lync Server 2013](lync-server-2013-restoring-an-enterprise-edition-member-server.md).
+  - Para um pool de front-ends, restaure primeiro o servidor back-end e, em seguida, restaure cada servidor de front-end. Para obter detalhes, consulte [restaurando um servidor de back-end Enterprise Edition no Lync server 2013](lync-server-2013-restoring-an-enterprise-edition-back-end-server.md) e [restaurando um servidor membro Enterprise Edition no Lync Server 2013](lync-server-2013-restoring-an-enterprise-edition-member-server.md).
 
-  - Para todos os outros tipos de pools, restaure cada servidor membro. Para obter detalhes, consulte [restaurando um servidor membro do Enterprise Edition no Lync server 2013](lync-server-2013-restoring-an-enterprise-edition-member-server.md).
+  - Para todos os outros tipos de pools, restaure cada servidor membro. Para obter detalhes, consulte [restaurando um servidor membro Enterprise Edition no Lync server 2013](lync-server-2013-restoring-an-enterprise-edition-member-server.md).
 
 </div>
 

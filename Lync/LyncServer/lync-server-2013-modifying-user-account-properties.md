@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: modificando as propriedades da conta de usuário'
+title: 'Lync Server 2013: Modificando Propriedades da conta de usuário'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733546
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d327da37188625fd44e01dc6146c5d6341f60fbc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e10f172ec6b1d96a94d74a7654ceb908687ad264
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766002"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051253"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="modifying-user-account-properties-in-lync-server-2013"></a>Modificando Propriedades de conta de usuário no Lync Server 2013
+# <a name="modifying-user-account-properties-in-lync-server-2013"></a>Modificando Propriedades da conta de usuário no Lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41766002"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
-Você pode usar os procedimentos desta seção para modificar propriedades de conta de usuário individuais.
+Você pode usar os procedimentos neste seção para modificar as propriedades de conta de usuários individuais.
 
 <div>
 
 ## <a name="in-this-section"></a>Nesta seção
 
-  - [Configurar a telefonia para um usuário no Lync Server 2013](lync-server-2013-configure-telephony-for-a-user.md)
+  - [Configurar telefonia para um usuário no Lync Server 2013](lync-server-2013-configure-telephony-for-a-user.md)
 
   - [Mover usuários para outro pool no Lync Server 2013](lync-server-2013-move-users-to-another-pool.md)
 
@@ -55,7 +55,7 @@ Você pode usar os procedimentos desta seção para modificar propriedades de co
 
 
 [Contas de usuário habilitadas para o Lync Server 2013](lync-server-2013-user-accounts-enabled-for-lync-server.md)  
-[Como atribuir políticas por usuário no Lync Server 2013](lync-server-2013-assigning-per-user-policies.md)  
+[Atribuindo políticas por usuário no Lync Server 2013](lync-server-2013-assigning-per-user-policies.md)  
   
 
 </div>

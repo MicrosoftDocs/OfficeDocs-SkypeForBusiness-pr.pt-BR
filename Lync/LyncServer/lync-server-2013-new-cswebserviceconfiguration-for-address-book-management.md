@@ -12,20 +12,20 @@ ms:contentKeyID: 48184067
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 434c9a7c4ded9516cd930bbaa9bba72873b15a4f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ccc4eafd9fd7db6173b14c17b44218c122ad01b8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738771"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051379"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a>New-CsWebServiceConfiguration para o gerenciamento de catálogo de endereços no Lync Server 2013
+# <a name="new-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a>New-CsWebServiceConfiguration para gerenciamento de catálogo de endereços no Lync Server 2013
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41738771"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
-Quem pode executar este cmdlet: por padrão, os membros dos grupos a seguir estão autorizados a executar o cmdlet New-CsWebServiceConfiguration localmente: RTCUniversalServerAdmins. Para retornar uma lista de todas as funções de controle de acesso baseado em função (RBAC) às quais esse cmdlet foi atribuído (incluindo qualquer função RBAC personalizada que você criou), execute o seguinte comando no prompt do Windows PowerShell:
+Quem pode executar este cmdlet: por padrão, os membros dos seguintes grupos estão autorizados a executar o cmdlet New-CsWebServiceConfiguration localmente: RTCUniversalServerAdmins. Para retornar uma lista de todas as funções de controle de acesso baseado em função (RBAC) que receberam a atribuição desse cmdlet (incluindo qualquer função RBAC personalizada criada por você), execute o seguinte comando no prompt do Windows PowerShell:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "New-CsWebServiceConfiguration"}
 
-O cmdlet New-CsWebServiceConfiguration define uma nova configuração para serviços Web em sua organização. O escopo para a configuração de serviços Web só pode estar no nível do site ou do serviço. Não é possível criar uma nova configuração de serviços Web no nível global. Especificamente o interesse do catálogo de endereços é o atributo EnableGroupExansion. Se definido como true, os serviços Web podem responder às solicitações de expansão de grupo.
+O cmdlet New-CsWebServiceConfiguration define uma nova configuração para Serviços Web em sua organização. O escopo da configuração dos Serviços Web só pode estar no nível do site ou de serviço. Ele não pode criar uma nova configuração de Serviços Web no nível global. Especificamente de interesse para o Catálogo de Endereços é o atributo EnableGroupExansion. Se definidos como True, os Serviços Web podem responder às solicitações para expansão de grupo.
 
 Por exemplo:
 
@@ -49,7 +49,7 @@ Por exemplo:
 
 <div>
 
-## <a name="see-also"></a>Confira também
+## <a name="see-also"></a>Consulte também
 
 
 [New-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsWebServiceConfiguration)  

@@ -12,20 +12,20 @@ ms:contentKeyID: 51541459
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0fdcde0c82f2b1b157db13fe22ee5cb792a4c1c6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bf9b53c295aa2616c5886ab9383f46e64c300a99
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732991"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051495"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="reviewing-the-summary-report-in-lync-server-2013"></a>Revisando o relatório de resumo no Lync Server 2013
+# <a name="reviewing-the-summary-report-in-lync-server-2013"></a>Examinando o relatório de resumo no Lync Server 2013
 
 </div>
 
@@ -35,28 +35,28 @@ ms.locfileid: "41732991"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-21_
+_**Última modificação do tópico:** 2013-02-21_
 
-O relatório do administrador do Lync Server é o primeiro dos quatro relatórios valiosos que documentam o design em detalhes. As informações neste relatório e os outros três relatórios associados são uma documentação excelente para suas equipes de tecnologia da informação:
+O relatório do administrador do Lync Server é o primeiro dos quatro relatórios valiosos que documentam o design em detalhes. As informações deste relatório e os outros três relatórios associados são uma excelente documentação para suas equipes de tecnologia da informação:
 
 ![Relatório geral de administração de resumo](images/Gg558626.9c529ef7-cb1b-4ce1-a8bc-3ec79aba2377(OCS.15).jpg "Relatório geral de administração de resumo")
 
-  - Relatórios de certificados
+  - Relatório de certificados
 
   - Relatório de firewall
 
-  - Relatório de DNS
+  - Relatório DNS
 
-O Relatório de Resumo lista as informações gerais de configuração associadas à sua rede de Borda. O local, o FQDN (nome de domínio totalmente qualificado) e endereço IP, o tipo de rede e os comentários específicos a uma determinada função são documentados.
+O relatório de resumo lista informações gerais de configuração associadas à sua rede de borda. O local, FQDN (nome de domínio totalmente qualificado) e endereço IP, tipo de rede e comentários específicos de uma determinada função são documentados.
 
-O designer e cada equipe que for implantar, gerenciar e manter a infraestrutura deve rever o relatório de resumo para obter precisão e garantir que ocorra o mínimo de erros.
+O designer e cada uma das equipes que irão implantar, gerenciar e manter a infraestrutura deve revisar o relatório de resumo quanto à precisão e garantir que os erros estejam mínimos.
 
 <div>
 
 ## <a name="see-also"></a>Confira também
 
 
-[Revisando os Relatórios do Administrador no Lync Server 2013](lync-server-2013-reviewing-the-administrator-reports.md)  
+[Revisando os relatórios do administrador no Lync Server 2013](lync-server-2013-reviewing-the-administrator-reports.md)  
   
 
 </div>

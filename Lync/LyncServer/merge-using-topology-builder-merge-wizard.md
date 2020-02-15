@@ -12,16 +12,16 @@ ms:contentKeyID: 48185343
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61981ae875fef9976377644a9b67f0a329581a90
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8889f55ecddae8f338a8fdb14809ec1c9fc7dad1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763635"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051233"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,75 +35,75 @@ ms.locfileid: "41763635"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-10-02_
+_**Última modificação do tópico:** 2012-10-02_
 
-1.  Baixe a implantação existente usando o construtor de topologias.
+1.  Baixar a implantação existente utilizando o Construtor de Topologia.
 
-2.  No menu **ação** , selecione **mesclar o Office communications Server 2007 R2**.
+2.  No menu **Ação**, selecione **Mesclar o Office Communications Server 2007 R2**.
 
-3.  Click **Next**.
+3.  Clique em **Avançar**.
 
-4.  Em **especificar a configuração de borda**, clique em **Adicionar**.
+4.  Em **Especificar Configuração de Borda**, clique em **Adicionar**.
     
-    ![Assistente de topologia de mesclagem, especificar a página de configuração de borda](images/JJ205243.cdca609d-d4d5-47d9-9ff8-8b1daa4106e1(OCS.15).jpg "Assistente de topologia de mesclagem, especificar a página de configuração de borda")  
+    ![Assistente de topologia de mesclagem, especificar página de configuração de borda](images/JJ205243.cdca609d-d4d5-47d9-9ff8-8b1daa4106e1(OCS.15).jpg "Assistente de topologia de mesclagem, especificar página de configuração de borda")  
 
-5.  Em **especificar tipo de borda**, insira o tipo de configuração do servidor de borda e clique em **Avançar**. Este exemplo usa a opção **servidor de borda única** .
-    
-    <div>
-    
-
-    > [!IMPORTANT]  
-    > A <STRONG>implantação de borda expandida</STRONG> não é uma configuração com suporte. Um <STRONG>servidor de borda expandida</STRONG> deve primeiro ser convertido em um <STRONG>servidor de borda único</STRONG> ou em um servidor de <STRONG>borda consolidada com balanceamento de carga</STRONG> .
-
-    
-    </div>
-
-6.  Em **especificar as configurações de borda interna** , insira as informações relevantes para o FQDN e as portas internas do seu pool de bordas, conforme necessário, e clique em **Avançar**.
-    
-    ![Especificar a caixa de diálogo Configurações de borda interna](images/JJ205243.dd664761-839c-4ac8-bd1a-5525589dfbb0(OCS.15).jpg "Especificar a caixa de diálogo Configurações de borda interna")  
-
-7.  Em **especificar borda externa**, insira as informações de FQDN do servidor de Webconferência para o servidor de borda.
+5.  Em **Especificar Versão de Borda**, insira o tipo de configuração do Servidor de Borda e clique em **Avançar**. Esse exemplo usa a opção **Servidor de Borda Único**.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Antes de clicar em <STRONG>Avançar</STRONG>, siga o próximo passo deste procedimento. É muito importante que você não perca esta etapa.
+    > <STRONG>Implantação de Borda Expandida</STRONG> não é uma configuração suportada. Um <STRONG>Servidor de Borda Expandida</STRONG> deve primeiro ser convertido em um <STRONG>Servidor de Borda Único</STRONG> ou em um Servidor <STRONG>Implantação de Borda Consolidada Balanceada</STRONG>.
 
     
     </div>
 
-8.  Marque a caixa de seleção **este pool de bordas é usado para a Federação e conectividade de mensagem de chat pública** se você planeja usar o servidor de borda herdado do Office Communications Server 2007 R2 para Federação. Se você tiver vários servidores de Borda implantados, apenas um deles será habilitado para Federação. Se você não marcar esta caixa e decidir mais tarde que deseja habilitar a Federação, execute o assistente de mesclagem do construtor de topologias e publique sua topologia novamente.
+6.  Em **especificar configurações de borda interna** , insira as informações relevantes para o FQDN interno e as portas do seu pool de borda conforme necessário e clique em **Avançar**.
     
-    ![Caixa de diálogo servidor de borda, especificar a página de borda externa](images/JJ205243.32e97ce5-92f0-477e-8125-5d2ece237b13(OCS.15).jpg "Caixa de diálogo servidor de borda, especificar a página de borda externa")  
+    ![Caixa de diálogo especificar configurações de borda interna](images/JJ205243.dd664761-839c-4ac8-bd1a-5525589dfbb0(OCS.15).jpg "Caixa de diálogo especificar configurações de borda interna")  
 
-9.  Em **especificar próximo salto**, digite o nome de domínio totalmente qualificado (FQDN) do próximo local do salto em seu ambiente. Clique em **Concluir**.
+7.  Em **Especificar Borda Externa**, insira as informações de FQDN de conferência da Web do seu Servidor de Borda.
     
-    ![Caixa de diálogo servidor de borda, especifique a página de próximo salto](images/JJ205243.e734ee0d-f91c-4f3f-8ae6-248ecabcf678(OCS.15).jpg "Caixa de diálogo servidor de borda, especifique a página de próximo salto")  
+    <div>
+    
 
-10. Em **especificar a configuração de borda**, se todos os seus servidores do Office Communications Server 2007 R2 Edge tiverem sido adicionados, clique em **Avançar**. Se você tiver mais servidores do Office Communications Server 2007 R2 Edge para adicionar, repita esse procedimento começando na etapa 4.
+    > [!IMPORTANT]  
+    > Antes de clicar em <STRONG>Avançar</STRONG>, realize a próxima etapa deste procedimento. É muito importante que você não pule esta etapa.
 
-11. Em **especificar porta SIP interna** , selecione a configuração padrão (ou seja, se você não tiver modificado a porta SIP padrão). Altere conforme apropriado se você não estiver usando uma porta padrão do 5061 e clique em **Avançar**.
+    
+    </div>
+
+8.  Marque a caixa de seleção **este pool de borda é usado para Federação e conectividade de im pública** se você planeja usar o servidor de borda do Office Communications Server 2007 R2 herdado para Federação. Se você possui vários Servidores de Borda implantados, somente um deles ficará habilitado para federação. Se você não marcar essa caixa e depois decidir que quer habilitar a federação, deve executar o assistente de Mesclagem de Construtor de Topologia novamente e depois publicar sua topologia novamente.
+    
+    ![Caixa de diálogo servidor de borda, especificar página de borda externa](images/JJ205243.32e97ce5-92f0-477e-8125-5d2ece237b13(OCS.15).jpg "Caixa de diálogo servidor de borda, especificar página de borda externa")  
+
+9.  Em **Especificar próximo salto**, insira o FQDN do próximo salto em seu ambiente. Clique em **Finalizar**.
+    
+    ![Caixa de diálogo servidor de borda, especificar página de próximo salto](images/JJ205243.e734ee0d-f91c-4f3f-8ae6-248ecabcf678(OCS.15).jpg "Caixa de diálogo servidor de borda, especificar página de próximo salto")  
+
+10. Em **especificar configuração de borda**, se todos os servidores de borda do Office Communications Server 2007 R2 tiverem sido adicionados, clique em **Avançar**. Se você tiver mais servidores de borda do Office Communications Server 2007 R2 para adicionar, repita este procedimento a partir da etapa 4.
+
+11. Em **especificar porta SIP interna** , selecione a configuração padrão (ou seja, se você não modificou a porta SIP padrão). Faça as alterações conforme seja apropriado se você não estiver usando uma porta padrão de 5061 e clique em **Avançar**.
 
 12. Em **Resumo**, clique em **Avançar** para começar a mesclar as topologias.
 
 13. A página do assistente verifica se a mesclagem das topologias foi bem-sucedida.
 
-14. Na coluna **status** , verifique se o valor é **êxito**e clique em **concluir**.
+14. Na coluna **Status**, verifique se o valor é **Êxito** e clique em **Finalizar**.
 
-15. No painel esquerdo do construtor de topologias, agora você deve ver o **BackCompatSite**, que indica que o ambiente do Office Communications Server 2007 R2 foi mesclado com o Lync Server 2013.
+15. No painel esquerdo do construtor de topologia, você deve ver agora o **BackCompatSite**, que indica que seu ambiente do Office Communications Server 2007 R2 foi mesclado com o Lync Server 2013.
     
-    ![Construtor de topologias mostrando uma topologia mesclada](images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "Construtor de topologias mostrando uma topologia mesclada")  
+    ![Construtor de topologia mostrando uma topologia mesclada](images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "Construtor de topologia mostrando uma topologia mesclada")  
 
-16. No menu **ação** , clique em **publicar topologia**e, em seguida, clique em **Avançar**.
+16. No painel **Ações**, no menu **Publicar topologia** e em **Avançar**.
 
-17. Quando o **Assistente de publicação** for concluído, clique em **concluir**.
+17. Quando o **Assistente de publicação** for concluído, clique em **Finalizar**.
     
     <div>
     
 
     > [!NOTE]  
-    > É importante que você conclua o próximo tópico, <A href="import-policies-and-settings.md">importar políticas e configurações</A>, para garantir que as configurações de política herdadas sejam importadas para o Lync Server 2013.
+    > É importante que você conclua o próximo tópico, <A href="import-policies-and-settings.md">importar políticas e configurações</A>, para garantir que as configurações da política herdada sejam importadas para o Lync Server 2013.
 
     
     </div>

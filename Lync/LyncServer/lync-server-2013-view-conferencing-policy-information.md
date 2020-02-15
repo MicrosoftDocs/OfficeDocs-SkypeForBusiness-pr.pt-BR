@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: exibir informações da política de conferência'
+title: 'Lync Server 2013: exibir informações de política de conferência'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733852
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e5c2cccd61d710acd9d2155412ec427c65eafc2a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7795579564c9ae011b1541d97aee25f3cf206313
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757435"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051595"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,29 +35,29 @@ ms.locfileid: "41757435"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2013-02-23_
+_**Última modificação do tópico:** 2013-02-23_
 
-No painel de controle do Lync Server 2013, você usa políticas de conferência para controlar como a conferência é implementada na sua implantação. Isso inclui as seguintes políticas de conferência:
+No painel de controle do Lync Server 2013, você usa políticas de conferência para controlar como a conferência é implementada em sua implantação. Isso inclui as políticas de conferência a seguir:
 
-  - Uma política global criada por padrão quando você implanta o Lync Server 2013.
+  - Uma política global criada por padrão ao implantar o Lync Server 2013.
 
-  - Política opcional no nível do site e no nível do usuário que você pode criar e usar para especificar como a conferência é implementada para sites ou usuários específicos.
+  - Políticas de nível de usuário e site opcionais que você pode criar e usar para especificar como conferências são implementadas para sites ou usuários específicos.
 
 <div>
 
-## <a name="to-view-conferencing-policy-settings"></a>Para exibir as configurações da política de conferência
+## <a name="to-view-conferencing-policy-settings"></a>Para visualizar configurações de política de conferência
 
-1.  Usando uma conta de usuário atribuída à função CsUserAdministrator ou CsAdministrator, faça logon em qualquer computador de sua implantação interna.
+1.  Por uma conta de usuário atribuída à função CsUserAdministrator role ou CsAdministrator, faça o login em qualquer computador na sua implantação interna.
 
-2.  Abra uma janela do navegador e, em seguida, insira a URL de administração para abrir o painel de controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [abrir ferramentas administrativas do Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra uma janela do navegador e insira a URL do Administrador para abrir o Painel de Controle do Lync Server. Para obter detalhes sobre os diferentes métodos que você pode usar para iniciar o painel de controle do Lync Server, consulte [Open Lync server 2013 Administrative Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Na barra de navegação à esquerda, clique em **conferência** e, em seguida, clique em **política de conferência**.
+3.  Na barra de navegação esquerda, clique em **Conferência** e então clique em **Política de Conferência**.
 
 4.  Na página de **Política de Conferência**, dê um clique duplo na política de conferência que você deseja visualizar.
 
-5.  Em **Editar Filtro de arquivo**, selecione **Mostrar detalhes...** caixa de seleção.
+5.  Em **Editar Filtro de Arquivo**, marque a caixa de seleção **Mostrar Detalhes…**.
     
-    **Editar política de conferência \<–\> a política** é aberta exibindo as configurações da política selecionada. Para obter detalhes sobre como definir as configurações, consulte [criar ou modificar uma política de conferência no Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md).
+    **Editar política de conferência \<-\> a política** abre exibindo as configurações da política selecionada. Para obter detalhes sobre como definir as configurações, consulte [create or Modify a Conferencing Policy in Lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md).
 
 </div>
 
@@ -65,17 +65,17 @@ No painel de controle do Lync Server 2013, você usa políticas de conferência 
 
 ## <a name="viewing-conferencing-policies-by-using-windows-powershell-cmdlets"></a>Exibindo políticas de conferência usando cmdlets do Windows PowerShell
 
-As políticas de conferência podem ser exibidas usando o Windows PowerShell e o cmdlet Get-CsConferencingPolicy. Esse cmdlet pode ser executado no Shell de gerenciamento do Lync Server 2013 ou em uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo sobre o blog do Windows PowerShell do Lync Server "início rápido: gerenciar o [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Microsoft Lync Server 2010 usando o PowerShell remoto" em.
+As políticas de conferência podem ser exibidas usando o Windows PowerShell e o cmdlet Get-CsConferencingPolicy. Este cmdlet pode ser executado a partir do Shell de gerenciamento do Lync Server 2013 ou de uma sessão remota do Windows PowerShell. Para obter detalhes sobre como usar o Windows PowerShell remoto para se conectar ao Lync Server, consulte o artigo de blog do Lync Server Windows PowerShell "início rápido: Managing Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 using Remote PowerShell" em.
 
 <div>
 
-## <a name="to-view-conferencing-policies"></a>Para exibir as políticas de conferência
+## <a name="to-view-conferencing-policies"></a>Para exibir políticas de conferência
 
-  - Para ver as informações sobre todas as suas políticas de conferência, digite o seguinte comando no Shell de gerenciamento do Lync Server e pressione ENTER:
+  - Para exibir informações sobre todas as suas políticas de conferência, digite o seguinte comando no Shell de gerenciamento do Lync Server e pressione ENTER:
     
         Get-CsConferencingPolicy
     
-    Isso retornará informações parecidas com:
+    Isto retorna informações semelhantes à seguinte:
     
         Identity                                  : Global
         AllowIPAudio                              : True
@@ -114,7 +114,7 @@ As políticas de conferência podem ser exibidas usando o Windows PowerShell e o
 
 </div>
 
-Para obter mais informações, consulte o tópico da ajuda para o cmdlet [Get-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsConferencingPolicy) .
+Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Get-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsConferencingPolicy) .
 
 </div>
 

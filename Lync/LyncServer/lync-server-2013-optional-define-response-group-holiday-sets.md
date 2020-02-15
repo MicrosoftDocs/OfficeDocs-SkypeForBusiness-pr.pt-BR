@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: (opcional) definir conjuntos de feriados do grupo de resposta'
+title: 'Lync Server 2013: (opcional) definir os conjuntos de feriados do grupo de resposta'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733657
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e6751a5f5915e73d181efba40976640c65e0909
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 615b76657b8a7045c99d17f523aa73b0ee79a807
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755755"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051163"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-define-response-group-holiday-sets-in-lync-server-2013"></a>Adicionais Definir conjuntos de feriados do grupo de resposta no Lync Server 2013
+# <a name="optional-define-response-group-holiday-sets-in-lync-server-2013"></a>Opcion Definir os conjuntos de feriados do grupo de resposta no Lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41755755"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2014-02-07_
+_**Última modificação do tópico:** 2014-02-07_
 
 As configurações de feriados definem os dias nos quais um grupo de respostas estará fechado para negócios e especificam a ação a ser tomada nesses dias. Um conjunto de feriados é a coleção de feriados que se aplicam a um grupo de respostas.
 
@@ -53,19 +53,19 @@ As configurações de feriados definem os dias nos quais um grupo de respostas e
 
 ## <a name="to-create-a-holiday-set"></a>Para criar um conjunto de feriados
 
-1.  Faça logon como um membro do grupo RTCUniversalServerAdmins ou como um membro de uma das funções administrativas predefinidas que oferecem suporte ao Grupo de Resposta.
+1.  Faça logon como membro do grupo RTCUniversalServerAdmins ou como membro de uma das funções administrativas predefinidas que dão suporte ao grupo de resposta.
 
-2.  Inicie o Shell de gerenciamento do Lync Server: clique em **Iniciar**, em **todos os programas**, em **Microsoft Lync Server 2013**e, em seguida, clique em **Shell de gerenciamento do Lync Server**.
+2.  Inicie o Shell de Gerenciamento do Lync Server: clique em **Iniciar**, em **Todos os Programas**, em **Microsoft Lync Server 2013** e em **Shell de Gerenciamento do Lync Server**.
 
 3.  Para cada feriado que você deseja definir, execute:
     
         $x = New-CsRgsHoliday [-Name <holiday name>] -StartDate <starting date of holiday> -EndDate <ending date of holiday>
     
-    Para criar o conjunto de feriados que contém os feriados que você definiu, execute:
+    Para criar o conjunto de feriados que contém os feriados definidos, execute:
     
         New-CsRgsHolidaySet -Parent <service where the workflow is hosted> -Name <unique name for holiday set> -HolidayList <one or more holidays to be included in the holiday set>
     
-    O exemplo a seguir mostra um conjunto de feriados que inclui dois feriados:
+    O seguinte exemplo mostra um conjunto de feriados que inclui dois feriados:
     
         $a = New-CsRgsHoliday -Name "New Year's Day" -StartDate "1/1/2013 12:00 AM" -EndDate "1/1/2013 12:00 AM" 
         $b = New-CsRgsHoliday -Name "Independence Day" -StartDate "7/4/2013 12:00 AM" -EndDate "7/5/2013 12:00 AM" 
@@ -78,7 +78,7 @@ As configurações de feriados definem os dias nos quais um grupo de respostas e
 ## <a name="see-also"></a>Confira também
 
 
-[Criar ou modificar um fluxo de trabalho de grupo coletivo no Lync Server 2013](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
+[Criar ou modificar um fluxo de trabalho de grupo de busca no Lync Server 2013](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
 [Criar ou modificar um fluxo de trabalho interativo no Lync Server 2013](lync-server-2013-create-or-modify-an-interactive-workflow.md)  
 
 

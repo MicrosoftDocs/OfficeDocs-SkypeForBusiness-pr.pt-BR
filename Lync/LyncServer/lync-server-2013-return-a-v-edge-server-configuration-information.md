@@ -12,16 +12,16 @@ ms:contentKeyID: 49733783
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ea7d7ed1ef74c092dac60ecfb2f009219564455
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0d301febef9454a6f43362c245324b019aa60ea1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733071"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051575"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41733071"
 
 <span> </span>
 
-_**Tópico da última modificação:** 2012-11-01_
+_**Última modificação do tópico:** 2012-11-01_
 
-O serviço de borda A/V fornece uma maneira para seus usuários internos (usuários que estão conectados à sua rede organizacional) para compartilhar áudio e vídeo com usuários externos (usuários que não estão conectados à sua rede organizacional). O serviço de borda A/V é gerenciado principalmente pelo uso de configurações de borda A/V, a configuração que pode ser configurada no escopo do site ou no escopo do serviço (ou seja, pode ser configurada para um servidor de borda A/V individual).
+O serviço de Borda A/V fornece uma forma para seus usuários internos (usuários que não estão logados na sua rede organizacional) a compartilhar áudio e vídeo com usuários externos (usuários que não estão logados na sua rede organizacional). O serviço de Borda A/V é primariamente gerenciado utilizando definições de configuração de Borda A/V, configuração que pode ser definida no escopo do local ou no escopo do serviço (isto é, pode ser configurado para um serviço de Borda A/V individual.
 
-Para retornar informações sobre as configurações de borda a/V em uso em sua organização, você deve usar o Windows PowerShell e o cmdlet Get-CsAVEdgeConfiguration. Para obter mais informações, consulte o tópico da ajuda para o cmdlet [Get-CsAVEdgeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsAVEdgeConfiguration) .
+Para retornar informações sobre as definições de configuração de borda A/V em uso na sua organização, você deve usar o Windows PowerShell e o cmdlet Get-CsAVEdgeConfiguration. Para obter mais informações, consulte o tópico de ajuda para o cmdlet [Get-CsAVEdgeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsAVEdgeConfiguration) .
 
-As informações retornadas pelo cmdlet Get-CsAVEdgeConfiguration terão uma aparência semelhante a esta:
+As informações retornadas pelo cmdlet Get-CsAVEdgeConfiguration terão a seguinte aparência:
 
     Identity              : Global
     MaxTokenLifetime      : 08:00:00
@@ -50,9 +50,9 @@ As informações retornadas pelo cmdlet Get-CsAVEdgeConfiguration terão uma apa
 
 <div>
 
-## <a name="to-return-information-for-all-your-av-edge-configuration-settings"></a>Para retornar informações de todas as suas configurações de borda A/V
+## <a name="to-return-information-for-all-your-av-edge-configuration-settings"></a>Para retornar informações de todas as suas definições de configuração de borda A/V
 
-  - O comando a seguir retorna informações sobre todas as configurações de borda a/V em uso no momento em sua organização:
+  - O comando a seguir retorna informações sobre todas as definições de configuração de borda A/V atualmente em uso na sua organização:
     
         Get-CsAVEdgeConfiguration
 
@@ -60,9 +60,9 @@ As informações retornadas pelo cmdlet Get-CsAVEdgeConfiguration terão uma apa
 
 <div>
 
-## <a name="to-return-information-for-site-scoped-av-edge-configuration-settings"></a>Para retornar informações para configurações de borda com escopo de site A/V
+## <a name="to-return-information-for-site-scoped-av-edge-configuration-settings"></a>Para retornar informações para definições de configuração de borda A/V com escopo de site
 
-  - Para retornar informações sobre uma coleção específica de definições de configuração de borda A/V, especifique a identidade dessa coleção ao executar o cmdlet Get-CsAVEdgeConfiguration. Por exemplo, esse comando retorna informações somente para as configurações aplicadas ao site Redmond:
+  - Para retornar informações sobre uma coleção específica de definições de configuração de borda A/V, especifique a identidade dessa coleção ao executar o cmdlet Get-CsAVEdgeConfiguration. Por exemplo, este comando retorna informações somente para as configurações aplicadas ao site Redmond:
     
         Get-CsAVEdgeConfiguration -Identity "site:Redmond"
 
@@ -70,9 +70,9 @@ As informações retornadas pelo cmdlet Get-CsAVEdgeConfiguration terão uma apa
 
 <div>
 
-## <a name="to-return-information-for-service-scoped-av-edge-configuration-settings"></a>Para retornar informações para configurações de borda de A/V com escopo de serviço
+## <a name="to-return-information-for-service-scoped-av-edge-configuration-settings"></a>Para retornar informações para definições de configuração de borda de A/V de escopo de serviço
 
-  - E esse comando retorna informações somente para configurações aplicadas a um servidor de borda A/V específico:
+  - E este comando retorna informações somente para as configurações aplicadas a um servidor de borda A/V específico:
     
         Get-CsAVEdgeConfiguration -Identity "service:EdgeServer:atl-edge-001.litwareinc.com"
 
@@ -83,8 +83,8 @@ As informações retornadas pelo cmdlet Get-CsAVEdgeConfiguration terão uma apa
 ## <a name="see-also"></a>Confira também
 
 
-[Criar ou modificar um conjunto de configurações de servidor de borda A/V no Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-a-v-edge-server-configuration-settings.md)  
-[Excluir uma coleção existente de configurações de servidor de borda A/V no Lync Server 2013](lync-server-2013-delete-an-existing-collection-of-a-v-edge-server-configuration-settings.md)  
+[Criar ou modificar uma coleção de definições de configuração de servidor de borda A/V no Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-a-v-edge-server-configuration-settings.md)  
+[Excluir um conjunto existente de definições de configuração de servidor de borda A/V no Lync Server 2013](lync-server-2013-delete-an-existing-collection-of-a-v-edge-server-configuration-settings.md)  
 
 
 [Servidores de borda de áudio/vídeo (A/V) no Lync Server 2013](lync-server-2013-audio-video-a-v-edge-servers.md)  
